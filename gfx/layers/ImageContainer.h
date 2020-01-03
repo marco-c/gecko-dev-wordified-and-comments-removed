@@ -553,7 +553,7 @@ mSent
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -955,7 +955,7 @@ UnlockCurrentImage
 (
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -972,7 +972,7 @@ IntSize
 aSizeResult
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -1817,7 +1817,7 @@ uint32_t
 aSize
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -1932,7 +1932,7 @@ mSourceSurface
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -2087,7 +2087,7 @@ aData
 mSize
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

@@ -1545,7 +1545,7 @@ EndTransaction
 #
 endif
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -6442,7 +6442,7 @@ RemoveMaskEffect
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >

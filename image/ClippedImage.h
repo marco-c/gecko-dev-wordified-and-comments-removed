@@ -106,7 +106,7 @@ override
 ;
 NS_IMETHOD_
 (
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -256,7 +256,7 @@ ClippedImage
 ;
 private
 :
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

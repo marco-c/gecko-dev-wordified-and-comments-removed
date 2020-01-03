@@ -799,7 +799,7 @@ return
 mScreenDepth
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >

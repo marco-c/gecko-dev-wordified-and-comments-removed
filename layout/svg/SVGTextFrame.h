@@ -1473,10 +1473,7 @@ nsIFrame
 aTextPathFrame
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Path
 >

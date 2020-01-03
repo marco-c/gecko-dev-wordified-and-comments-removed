@@ -173,7 +173,7 @@ TextureClientX11
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

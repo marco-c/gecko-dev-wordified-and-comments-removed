@@ -155,7 +155,7 @@ GetAPIVersion
 14
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 AndroidSurfaceTexture
 >
@@ -174,7 +174,7 @@ nullptr
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 AndroidSurfaceTexture
 >

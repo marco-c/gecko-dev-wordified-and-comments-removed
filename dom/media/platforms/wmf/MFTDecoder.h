@@ -106,7 +106,7 @@ aData
 nullptr
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 IMFAttributes
 >

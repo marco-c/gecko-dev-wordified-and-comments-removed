@@ -396,7 +396,7 @@ aArray
 )
 const
 ;
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -405,7 +405,7 @@ BuildPathForMeasuring
 )
 const
 ;
-TemporaryRef
+already_AddRefed
 <
 Path
 >

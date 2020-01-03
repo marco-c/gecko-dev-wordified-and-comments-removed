@@ -325,7 +325,7 @@ mStopCollection
 }
 private
 :
-TemporaryRef
+already_AddRefed
 <
 ID2D1ResourceTexture
 >

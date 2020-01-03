@@ -1224,7 +1224,7 @@ LayerRenderState
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -1371,7 +1371,7 @@ IntSize
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TexturedEffect
 >

@@ -2306,10 +2306,7 @@ aRenderedContext
 0
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2332,10 +2329,7 @@ aScreenRect
 0
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

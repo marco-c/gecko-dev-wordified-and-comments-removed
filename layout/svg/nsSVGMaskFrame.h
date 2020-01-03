@@ -175,10 +175,7 @@ NS_FRAME_IS_NONDISPLAY
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

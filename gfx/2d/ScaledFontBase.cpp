@@ -338,7 +338,7 @@ path
 }
 #
 endif
-TemporaryRef
+already_AddRefed
 <
 Path
 >

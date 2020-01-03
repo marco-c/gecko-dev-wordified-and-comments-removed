@@ -483,7 +483,7 @@ defaultFormat
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -750,7 +750,7 @@ mGraphicBuffer
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

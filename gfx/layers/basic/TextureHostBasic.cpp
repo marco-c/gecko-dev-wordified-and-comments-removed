@@ -37,7 +37,7 @@ mozilla
 namespace
 layers
 {
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >

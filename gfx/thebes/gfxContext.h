@@ -319,10 +319,7 @@ ClosePath
 (
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -971,10 +968,7 @@ PopGroupToSource
 (
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

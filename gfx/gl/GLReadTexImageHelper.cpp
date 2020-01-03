@@ -2995,7 +2995,7 @@ alphaMask
 endif
 }
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -3235,7 +3235,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -3506,7 +3506,7 @@ break
 ;
 \
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

@@ -430,7 +430,7 @@ data
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -479,7 +479,7 @@ aBackend
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

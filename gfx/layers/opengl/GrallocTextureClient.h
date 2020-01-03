@@ -397,7 +397,7 @@ mMediaBuffer
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -419,7 +419,7 @@ const
 override
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

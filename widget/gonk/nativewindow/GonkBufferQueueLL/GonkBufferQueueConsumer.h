@@ -222,10 +222,7 @@ prefix
 const
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 GonkBufferSlot
 :

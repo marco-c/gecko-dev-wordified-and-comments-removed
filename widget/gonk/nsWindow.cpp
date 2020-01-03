@@ -2597,7 +2597,7 @@ UNKNOWN
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >

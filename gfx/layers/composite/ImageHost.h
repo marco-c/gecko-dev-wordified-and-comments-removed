@@ -359,7 +359,7 @@ false
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -386,7 +386,7 @@ Unlock
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 TexturedEffect
 >

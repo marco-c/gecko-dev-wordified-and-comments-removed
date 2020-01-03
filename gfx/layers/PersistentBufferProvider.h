@@ -133,7 +133,7 @@ aDT
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -252,7 +252,7 @@ true
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

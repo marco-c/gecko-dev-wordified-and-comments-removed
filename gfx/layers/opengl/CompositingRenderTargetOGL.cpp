@@ -409,7 +409,7 @@ false
 #
 ifdef
 MOZ_DUMP_PAINTING
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

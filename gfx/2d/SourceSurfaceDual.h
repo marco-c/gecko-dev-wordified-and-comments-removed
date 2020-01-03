@@ -112,7 +112,7 @@ GetFormat
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

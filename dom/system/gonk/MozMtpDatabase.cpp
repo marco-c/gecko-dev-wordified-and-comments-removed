@@ -802,7 +802,7 @@ return
 0
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 MozMtpDatabase
 :

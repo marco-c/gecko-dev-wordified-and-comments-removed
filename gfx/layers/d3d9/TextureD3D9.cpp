@@ -218,7 +218,7 @@ mPreviousHost
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -717,7 +717,7 @@ GetSize
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 IDirect3DTexture9
 >
@@ -952,7 +952,7 @@ nullptr
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 IDirect3DTexture9
 >
@@ -1080,7 +1080,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 IDirect3DTexture9
 >
@@ -1177,7 +1177,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 IDirect3DTexture9
 >
@@ -2634,7 +2634,7 @@ CairoTextureClientD3D9
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -3527,7 +3527,7 @@ SharedTextureClientD3D9
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SharedTextureClientD3D9
 >

@@ -112,7 +112,7 @@ GetDirect3D10Device
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

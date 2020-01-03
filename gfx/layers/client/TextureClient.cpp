@@ -1305,7 +1305,7 @@ false
 #
 endif
 static
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -1381,7 +1381,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -2001,7 +2001,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -2079,7 +2079,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -2199,7 +2199,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -3513,7 +3513,7 @@ BufferTextureClient
 )
 {
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -4306,7 +4306,7 @@ GetData
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SyncObject
 >

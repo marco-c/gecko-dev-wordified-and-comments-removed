@@ -300,7 +300,7 @@ CompositingRenderTargetOGL
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTargetOGL
 >
@@ -563,7 +563,7 @@ UNKNOWN
 ifdef
 MOZ_DUMP_PAINTING
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

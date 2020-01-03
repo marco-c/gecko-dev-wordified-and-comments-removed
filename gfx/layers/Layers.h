@@ -1103,7 +1103,7 @@ GetBackendType
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -1118,7 +1118,7 @@ imageFormat
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -1131,7 +1131,7 @@ aSize
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :
@@ -1164,7 +1164,7 @@ aFormat
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 PersistentBufferProvider
 >

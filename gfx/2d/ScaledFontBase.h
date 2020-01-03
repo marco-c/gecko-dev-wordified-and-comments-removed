@@ -95,7 +95,7 @@ ScaledFontBase
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >

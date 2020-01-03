@@ -467,7 +467,7 @@ aPoint
 )
 {
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -489,7 +489,7 @@ mFillRule
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -522,7 +522,7 @@ aFillRule
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >

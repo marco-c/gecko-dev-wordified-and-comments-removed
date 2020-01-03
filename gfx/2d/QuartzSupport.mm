@@ -252,12 +252,6 @@ mozilla
 :
 RefPtr
 ;
-using
-mozilla
-:
-:
-TemporaryRef
-;
 CGColorSpaceRef
 CreateSystemColorSpace
 (

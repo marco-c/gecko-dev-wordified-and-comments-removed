@@ -596,7 +596,7 @@ return
 mCurrentPoint
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -752,7 +752,7 @@ mContainingContext
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -800,7 +800,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >

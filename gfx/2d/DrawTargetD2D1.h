@@ -124,7 +124,7 @@ DIRECT2D1_1
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -491,7 +491,7 @@ PopClip
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -513,7 +513,7 @@ aFormat
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -526,7 +526,7 @@ aSurface
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -544,7 +544,7 @@ nullptr
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -560,7 +560,7 @@ aFormat
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -577,7 +577,7 @@ FILL_WINDING
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >
@@ -599,7 +599,7 @@ CLAMP
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -660,7 +660,7 @@ GetByteSize
 )
 const
 ;
-TemporaryRef
+already_AddRefed
 <
 ID2D1Image
 >
@@ -682,7 +682,7 @@ aSourceRect
 nullptr
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 ID2D1Image
 >
@@ -867,7 +867,7 @@ SourceSurfaceD2D1
 aSource
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 ID2D1Geometry
 >
@@ -878,7 +878,7 @@ IntRect
 aClipBounds
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 ID2D1Geometry
 >
@@ -938,7 +938,7 @@ ID2D1DeviceContext
 aDC
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 ID2D1Brush
 >
@@ -946,7 +946,7 @@ CreateTransparentBlackBrush
 (
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 ID2D1SolidColorBrush
 >
@@ -958,7 +958,7 @@ D2D_COLOR_F
 aColor
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 ID2D1Brush
 >

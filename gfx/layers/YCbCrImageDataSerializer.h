@@ -408,7 +408,7 @@ Validate
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

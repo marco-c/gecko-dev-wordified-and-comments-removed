@@ -77,7 +77,7 @@ mSurface
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 MacIOSurfaceTextureClientOGL
 >
@@ -299,7 +299,7 @@ GetDevicePixelHeight
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

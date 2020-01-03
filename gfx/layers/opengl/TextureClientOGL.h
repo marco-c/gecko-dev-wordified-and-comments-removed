@@ -215,7 +215,7 @@ UNKNOWN
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -417,7 +417,7 @@ UNKNOWN
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

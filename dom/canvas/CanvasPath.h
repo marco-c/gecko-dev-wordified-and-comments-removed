@@ -320,7 +320,7 @@ Point
 aCP3
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -356,7 +356,7 @@ CanvasPath
 nsISupports
 *
 aParent
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

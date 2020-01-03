@@ -65,7 +65,7 @@ nsIThreadPool
 public
 :
 static
-TemporaryRef
+already_AddRefed
 <
 SharedThreadPool
 >

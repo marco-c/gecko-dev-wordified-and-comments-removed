@@ -1178,7 +1178,7 @@ return
 this
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 T
 >
@@ -1197,15 +1197,12 @@ mPtr
 nullptr
 ;
 return
-TemporaryRef
+already_AddRefed
 <
 T
 >
 (
 tmp
-DontRef
-(
-)
 )
 ;
 }
@@ -1703,7 +1700,7 @@ typename
 .
 Args
 >
-TemporaryRef
+already_AddRefed
 <
 T
 >

@@ -657,7 +657,7 @@ layerManager
 }
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 Compositor
 >
@@ -981,7 +981,7 @@ backends
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >

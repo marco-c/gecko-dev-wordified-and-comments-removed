@@ -18,7 +18,7 @@ mozilla
 namespace
 gfx
 {
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

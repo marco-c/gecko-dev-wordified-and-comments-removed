@@ -304,7 +304,7 @@ Length
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Volume
 >
@@ -514,7 +514,7 @@ aObserver
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Volume
 >
@@ -609,7 +609,7 @@ return
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Volume
 >

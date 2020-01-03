@@ -530,10 +530,7 @@ Reset
 ;
 }
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -548,10 +545,7 @@ fillRule
 )
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -565,10 +559,7 @@ aBuilder
 0
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Path
 >

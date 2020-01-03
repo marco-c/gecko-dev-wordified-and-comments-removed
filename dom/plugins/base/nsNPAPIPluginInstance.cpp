@@ -4468,7 +4468,7 @@ aTextureInfo
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 AndroidSurfaceTexture
 >

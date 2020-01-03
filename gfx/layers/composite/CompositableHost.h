@@ -263,7 +263,7 @@ aTextureInfo
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 CompositableHost
 >
@@ -730,7 +730,7 @@ aTexture
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -918,7 +918,7 @@ Unlock
 {
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 TexturedEffect
 >

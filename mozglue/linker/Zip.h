@@ -520,10 +520,7 @@ MOZ_DECLARE_REFCOUNTED_TYPENAME
 Zip
 )
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Zip
 >
@@ -536,10 +533,7 @@ filename
 )
 ;
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Zip
 >
@@ -564,10 +558,7 @@ size
 private
 :
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Zip
 >
@@ -1289,10 +1280,7 @@ ZipCollection
 Singleton
 ;
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Zip
 >

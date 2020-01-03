@@ -124,10 +124,7 @@ psm
 MOZ_WARN_UNUSED_RESULT
 :
 :
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :
@@ -390,10 +387,7 @@ initialized
 virtual
 :
 :
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :
@@ -622,10 +616,7 @@ override
 ;
 :
 :
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

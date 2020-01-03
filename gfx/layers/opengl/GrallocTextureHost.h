@@ -188,7 +188,7 @@ UnbindTextureSource
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

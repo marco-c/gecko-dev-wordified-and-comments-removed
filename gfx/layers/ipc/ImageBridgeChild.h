@@ -367,7 +367,7 @@ aMessages
 )
 override
 ;
-TemporaryRef
+already_AddRefed
 <
 ImageClient
 >
@@ -377,7 +377,7 @@ CompositableType
 aType
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 ImageClient
 >

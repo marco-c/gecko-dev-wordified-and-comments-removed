@@ -74,7 +74,7 @@ FilterNodeSoftware
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -209,7 +209,7 @@ aInRect
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -235,7 +235,7 @@ aRect
 {
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -263,7 +263,7 @@ FormatHint
 aFormatHint
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -460,7 +460,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -575,7 +575,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -691,7 +691,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -806,7 +806,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -910,7 +910,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -924,7 +924,7 @@ aRect
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -1005,7 +1005,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -1093,7 +1093,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -1801,7 +1801,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -1852,7 +1852,7 @@ template
 typename
 CoordType
 >
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -1984,7 +1984,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -2139,7 +2139,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -2250,7 +2250,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -2362,7 +2362,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -2429,7 +2429,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -2686,7 +2686,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -2768,7 +2768,7 @@ Premultiply
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -2845,7 +2845,7 @@ Unpremultiply
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -3037,7 +3037,7 @@ override
 protected
 :
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -3088,7 +3088,7 @@ template
 typename
 CoordType
 >
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

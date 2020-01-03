@@ -150,7 +150,7 @@ nullptr
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

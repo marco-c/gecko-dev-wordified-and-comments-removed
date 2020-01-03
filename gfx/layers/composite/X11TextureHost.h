@@ -128,7 +128,7 @@ aTexture
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

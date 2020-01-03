@@ -2089,7 +2089,7 @@ return
 OK
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

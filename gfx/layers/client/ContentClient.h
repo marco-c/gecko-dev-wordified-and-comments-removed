@@ -212,7 +212,7 @@ CompositableClient
 public
 :
 static
-TemporaryRef
+already_AddRefed
 <
 ContentClient
 >

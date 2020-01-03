@@ -375,10 +375,7 @@ contentType
 override
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :
@@ -824,10 +821,7 @@ GetD3D11ImageBridgeDevice
 (
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 ID3D11Device
 >

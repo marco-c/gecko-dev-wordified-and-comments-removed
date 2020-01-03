@@ -310,7 +310,7 @@ SyncObject
 {
 }
 static
-TemporaryRef
+already_AddRefed
 <
 SyncObject
 >
@@ -458,7 +458,7 @@ TextureClient
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -491,7 +491,7 @@ ALLOC_DEFAULT
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -517,7 +517,7 @@ aTextureFlags
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -550,7 +550,7 @@ ALLOC_DEFAULT
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -571,7 +571,7 @@ aTextureFlags
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -699,7 +699,7 @@ UNKNOWN
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -1586,7 +1586,7 @@ true
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

@@ -2485,10 +2485,7 @@ aStream
 )
 override
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

@@ -142,7 +142,7 @@ GetFormat
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -1876,7 +1876,7 @@ aOptions
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2106,7 +2106,7 @@ aOptions
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2354,7 +2354,7 @@ PopClip
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2431,7 +2431,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2687,7 +2687,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2928,7 +2928,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -2976,7 +2976,7 @@ dt
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -3015,7 +3015,7 @@ aFillRule
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >

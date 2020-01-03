@@ -274,7 +274,7 @@ mTypeface
 }
 #
 endif
-TemporaryRef
+already_AddRefed
 <
 Path
 >

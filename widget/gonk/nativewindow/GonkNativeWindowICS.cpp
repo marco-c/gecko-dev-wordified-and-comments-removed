@@ -2117,7 +2117,7 @@ return
 BAD_VALUE
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -2488,7 +2488,7 @@ return
 OK
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

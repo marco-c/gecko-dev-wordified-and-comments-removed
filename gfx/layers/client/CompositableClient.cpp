@@ -723,7 +723,7 @@ return
 0
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 BufferTextureClient
 >
@@ -769,7 +769,7 @@ mTextureFlags
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

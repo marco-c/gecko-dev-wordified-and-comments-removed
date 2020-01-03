@@ -780,7 +780,7 @@ height
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >

@@ -244,7 +244,7 @@ mLeftOverData
 INT_MIN
 )
 {
-TemporaryRef
+already_AddRefed
 <
 HRTFDatabaseLoader
 >
@@ -284,7 +284,10 @@ Context
 SampleRate
 (
 )
+Move
+(
 loader
+)
 )
 ;
 }

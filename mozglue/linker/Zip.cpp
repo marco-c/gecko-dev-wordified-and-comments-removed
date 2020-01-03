@@ -61,10 +61,7 @@ Zip
 .
 h
 "
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Zip
 >
@@ -262,10 +259,7 @@ size
 )
 ;
 }
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Zip
 >
@@ -1080,10 +1074,7 @@ ZipCollection
 :
 Singleton
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Zip
 >

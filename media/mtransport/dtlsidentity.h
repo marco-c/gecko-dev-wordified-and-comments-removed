@@ -55,7 +55,7 @@ DtlsIdentity
 public
 :
 static
-TemporaryRef
+already_AddRefed
 <
 DtlsIdentity
 >

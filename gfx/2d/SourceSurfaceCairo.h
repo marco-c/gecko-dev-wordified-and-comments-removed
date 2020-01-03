@@ -87,7 +87,7 @@ GetFormat
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

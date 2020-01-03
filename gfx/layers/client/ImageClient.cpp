@@ -288,7 +288,7 @@ mozilla
 :
 gfx
 ;
-TemporaryRef
+already_AddRefed
 <
 ImageClient
 >
@@ -585,7 +585,7 @@ IMAGE
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 AsyncTransactionTracker
 >

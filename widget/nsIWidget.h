@@ -3159,10 +3159,7 @@ aRect
 0
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :
@@ -3813,10 +3810,7 @@ nsIObserver
 aObserver
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

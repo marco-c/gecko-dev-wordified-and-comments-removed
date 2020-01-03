@@ -130,10 +130,7 @@ return
 mOffscreenFormat
 ;
 }
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

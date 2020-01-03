@@ -126,7 +126,7 @@ GetSize
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

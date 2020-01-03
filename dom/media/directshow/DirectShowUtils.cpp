@@ -1229,7 +1229,7 @@ return
 S_OK
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 IPin
 >

@@ -87,7 +87,7 @@ v
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -99,7 +99,7 @@ aSource
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -111,7 +111,7 @@ aSurface
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -176,7 +176,7 @@ aOperator
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -239,7 +239,7 @@ aChannel3
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -300,7 +300,7 @@ aSourceStride
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -333,7 +333,7 @@ aTileRect
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -378,7 +378,7 @@ alphaStride
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -438,7 +438,7 @@ aOperator
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -566,7 +566,7 @@ aSourceStride
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -599,7 +599,7 @@ aTileRect
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -645,7 +645,7 @@ alphaStride
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -657,7 +657,7 @@ aSurface
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -722,7 +722,7 @@ aOperator
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -850,7 +850,7 @@ aSourceStride
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -883,7 +883,7 @@ aTileRect
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

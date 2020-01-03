@@ -56,7 +56,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 FilterNodeD2D1
 )
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >

@@ -49,7 +49,7 @@ MacIOSurfaceTextureClientOGL
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 MacIOSurfaceTextureClientOGL
 >
@@ -137,7 +137,7 @@ false
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -150,7 +150,7 @@ GetAsSurface
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

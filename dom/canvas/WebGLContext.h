@@ -947,10 +947,7 @@ out_stream
 )
 override
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

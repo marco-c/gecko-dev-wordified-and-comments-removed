@@ -236,7 +236,7 @@ UNKNOWN
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

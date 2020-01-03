@@ -1774,7 +1774,7 @@ mOffset
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -19589,7 +19589,7 @@ GetTransform
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -27176,7 +27176,7 @@ CanvasPath
 nsISupports
 *
 aParent
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -28525,7 +28525,7 @@ mPathBuilder
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

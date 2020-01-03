@@ -2224,10 +2224,7 @@ aFontStyle
 ifdef
 USE_SKIA
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :
@@ -7381,10 +7378,7 @@ endif
 #
 ifdef
 USE_SKIA
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

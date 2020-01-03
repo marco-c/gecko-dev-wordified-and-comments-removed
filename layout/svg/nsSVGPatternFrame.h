@@ -371,10 +371,7 @@ mContent
 )
 ;
 }
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

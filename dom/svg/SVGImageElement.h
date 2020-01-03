@@ -254,7 +254,7 @@ aTransform
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >

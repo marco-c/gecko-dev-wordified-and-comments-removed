@@ -6595,7 +6595,7 @@ return
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 MediaPipeline
 >

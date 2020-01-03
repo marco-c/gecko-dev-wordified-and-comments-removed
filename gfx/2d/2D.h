@@ -867,7 +867,7 @@ true
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -1247,7 +1247,7 @@ false
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -1423,7 +1423,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -1442,7 +1442,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -1612,7 +1612,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 PathBuilder
 )
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -1711,7 +1711,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -1923,7 +1923,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2410,7 +2410,7 @@ PopClip
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2434,7 +2434,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2449,7 +2449,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2465,7 +2465,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -2483,7 +2483,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTargetCapture
 >
@@ -2496,7 +2496,7 @@ aSize
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -2522,7 +2522,7 @@ aFormat
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -2541,7 +2541,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >
@@ -2565,7 +2565,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2946,7 +2946,7 @@ aSize
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -2967,7 +2967,7 @@ nullptr
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -2984,7 +2984,7 @@ aFormat
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -2999,7 +2999,7 @@ aDT
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3022,7 +3022,7 @@ aFormat
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >
@@ -3037,7 +3037,7 @@ aSize
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >
@@ -3057,7 +3057,7 @@ aType
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >
@@ -3075,7 +3075,7 @@ aScaledFont
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -3094,7 +3094,7 @@ false
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -3115,7 +3115,7 @@ false
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -3135,7 +3135,7 @@ aFormat
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawEventRecorder
 >
@@ -3197,7 +3197,7 @@ public
 ifdef
 USE_SKIA_GPU
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3235,7 +3235,7 @@ defined
 MOZ_ENABLE_FREETYPE
 )
 static
-TemporaryRef
+already_AddRefed
 <
 GlyphRenderingOptions
 >
@@ -3250,7 +3250,7 @@ aAutoHinting
 #
 endif
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3265,7 +3265,7 @@ targetB
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3289,7 +3289,7 @@ aType
 ifdef
 XP_MACOSX
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3304,7 +3304,7 @@ aSize
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 GlyphRenderingOptions
 >
@@ -3322,7 +3322,7 @@ endif
 ifdef
 WIN32
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3336,7 +3336,7 @@ aFormat
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3369,7 +3369,7 @@ GetDirect3D10Device
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3412,7 +3412,7 @@ SupportsD2D1
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 GlyphRenderingOptions
 >

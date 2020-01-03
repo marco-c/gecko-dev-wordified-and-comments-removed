@@ -1650,7 +1650,7 @@ namespace
 FilterWrappers
 {
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -1708,7 +1708,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -1766,7 +1766,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -1890,7 +1890,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2014,7 +2014,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2088,7 +2088,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2170,7 +2170,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2397,7 +2397,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2458,7 +2458,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2540,7 +2540,7 @@ nullptr
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2695,7 +2695,7 @@ ColorModel
 aOriginalColorModel
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2719,7 +2719,7 @@ mAlphaModel
 }
 private
 :
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2842,7 +2842,7 @@ clear
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2907,7 +2907,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -4535,7 +4535,7 @@ kMorphologyMaxRadius
 100000
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -7514,7 +7514,7 @@ Premultiplied
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >

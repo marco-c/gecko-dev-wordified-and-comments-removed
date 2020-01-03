@@ -99,7 +99,7 @@ WMFVideoMFTManager
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 MFTDecoder
 >
@@ -157,7 +157,7 @@ bool
 aForceD3D9
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 MFTDecoder
 >

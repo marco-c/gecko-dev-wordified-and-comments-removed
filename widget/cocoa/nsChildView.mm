@@ -1725,7 +1725,7 @@ RectTextureImage
 (
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -14359,7 +14359,7 @@ return
 mVibrancyManager
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -14911,7 +14911,7 @@ height
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

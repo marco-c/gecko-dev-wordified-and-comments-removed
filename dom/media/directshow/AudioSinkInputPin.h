@@ -165,7 +165,7 @@ EndOfStream
 )
 override
 ;
-TemporaryRef
+already_AddRefed
 <
 IMediaSeeking
 >

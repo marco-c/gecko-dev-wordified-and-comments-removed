@@ -103,7 +103,7 @@ IntPoint
 aDestPoint
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

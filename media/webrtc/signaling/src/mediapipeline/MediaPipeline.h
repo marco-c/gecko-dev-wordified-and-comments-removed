@@ -1267,7 +1267,7 @@ public
 explicit
 ConduitDeleteEvent
 (
-TemporaryRef
+already_AddRefed
 <
 MediaSessionConduit
 >

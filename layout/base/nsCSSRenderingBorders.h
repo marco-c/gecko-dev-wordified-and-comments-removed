@@ -432,10 +432,7 @@ Side
 aSide
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -535,10 +532,7 @@ bool
 aHasCompositeColors
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

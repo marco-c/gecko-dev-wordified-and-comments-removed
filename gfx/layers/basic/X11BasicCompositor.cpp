@@ -562,7 +562,7 @@ mBufferDrawTarget
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataTextureSource
 >

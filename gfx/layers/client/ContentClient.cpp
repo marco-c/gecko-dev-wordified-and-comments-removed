@@ -320,7 +320,7 @@ return
 result
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ContentClient
 >

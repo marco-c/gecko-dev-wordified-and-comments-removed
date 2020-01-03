@@ -99,7 +99,7 @@ AndroidSurfaceTexture
 public
 :
 static
-TemporaryRef
+already_AddRefed
 <
 AndroidSurfaceTexture
 >
@@ -113,7 +113,7 @@ aTexture
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 AndroidSurfaceTexture
 >

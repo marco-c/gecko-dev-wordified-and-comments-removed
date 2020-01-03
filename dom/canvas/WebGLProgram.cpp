@@ -394,7 +394,7 @@ info
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 const
 webgl

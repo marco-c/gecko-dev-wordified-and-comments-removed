@@ -437,7 +437,7 @@ return
 false
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >

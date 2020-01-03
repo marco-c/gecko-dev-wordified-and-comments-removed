@@ -275,7 +275,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -442,7 +442,7 @@ aSourceOnWhite
 {
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -823,7 +823,7 @@ mDTBufferOnWhite
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

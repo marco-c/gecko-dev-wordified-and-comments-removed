@@ -719,7 +719,7 @@ fdObj
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -736,7 +736,7 @@ TextureFlags
 aFlags
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -753,7 +753,7 @@ TextureFlags
 aFlags
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -770,7 +770,7 @@ TextureFlags
 aFlags
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -787,7 +787,7 @@ TextureFlags
 aFlags
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -1030,7 +1030,7 @@ type
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -2827,7 +2827,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

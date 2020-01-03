@@ -25431,7 +25431,7 @@ forget
 }
 #
 endif
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >

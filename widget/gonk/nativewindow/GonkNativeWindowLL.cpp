@@ -568,7 +568,7 @@ defaultFormat
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -876,7 +876,7 @@ err
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

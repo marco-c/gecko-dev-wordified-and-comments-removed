@@ -99,7 +99,7 @@ ISurfaceAllocator
 aAllocator
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

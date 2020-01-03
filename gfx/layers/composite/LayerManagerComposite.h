@@ -684,7 +684,7 @@ AreComponentAlphaLayersEnabled
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -769,7 +769,7 @@ mFailed
 }
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

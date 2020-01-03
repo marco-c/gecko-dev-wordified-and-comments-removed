@@ -461,7 +461,7 @@ return
 NO_ERROR
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

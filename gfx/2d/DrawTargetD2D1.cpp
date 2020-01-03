@@ -256,7 +256,7 @@ this
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -3890,7 +3890,7 @@ pop_back
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -4027,7 +4027,7 @@ aSize
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -4081,7 +4081,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -4252,7 +4252,7 @@ DIRECT2D1_1
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >
@@ -4448,7 +4448,7 @@ GetDirect3D11Device
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -6782,7 +6782,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1Geometry
 >
@@ -7291,7 +7291,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1Geometry
 >
@@ -7649,7 +7649,7 @@ PopAxisAlignedClip
 }
 }
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1Brush
 >
@@ -7674,7 +7674,7 @@ ColorF
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1SolidColorBrush
 >
@@ -7713,7 +7713,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1Brush
 >
@@ -8756,7 +8756,7 @@ CreateTransparentBlackBrush
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1Image
 >
@@ -8894,7 +8894,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

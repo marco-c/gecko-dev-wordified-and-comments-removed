@@ -1988,7 +1988,7 @@ mIsValid
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >
@@ -2066,7 +2066,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

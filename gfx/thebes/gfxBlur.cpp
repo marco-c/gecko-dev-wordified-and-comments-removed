@@ -631,7 +631,7 @@ PopClip
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -1840,7 +1840,7 @@ data
 }
 }
 static
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2084,7 +2084,7 @@ forget
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

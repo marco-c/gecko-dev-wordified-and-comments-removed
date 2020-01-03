@@ -103,7 +103,7 @@ TextureClientD3D11
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 TextureClientD3D11
 >
@@ -276,7 +276,7 @@ ALLOC_DEFAULT
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -377,7 +377,7 @@ DXGIYCbCrTextureClient
 )
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 DXGIYCbCrTextureClient
 >
@@ -508,7 +508,7 @@ true
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -1018,7 +1018,7 @@ mSize
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -1182,7 +1182,7 @@ mSize
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

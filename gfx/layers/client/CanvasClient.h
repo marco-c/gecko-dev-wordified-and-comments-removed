@@ -138,7 +138,7 @@ CanvasClientTypeShSurf
 }
 ;
 static
-TemporaryRef
+already_AddRefed
 <
 CanvasClient
 >
@@ -333,7 +333,7 @@ nullptr
 }
 private
 :
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

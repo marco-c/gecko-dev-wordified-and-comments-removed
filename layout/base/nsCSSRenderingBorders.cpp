@@ -2414,7 +2414,7 @@ k
 }
 }
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -5531,7 +5531,7 @@ return
 false
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >

@@ -665,7 +665,7 @@ mDataSize
 format
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -713,7 +713,7 @@ GetFormat
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

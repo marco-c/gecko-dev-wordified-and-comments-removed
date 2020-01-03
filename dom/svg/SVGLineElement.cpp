@@ -473,7 +473,7 @@ y2
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >

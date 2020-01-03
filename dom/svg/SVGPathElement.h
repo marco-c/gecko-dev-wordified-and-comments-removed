@@ -231,7 +231,7 @@ aMarks
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -244,7 +244,7 @@ aBuilder
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >

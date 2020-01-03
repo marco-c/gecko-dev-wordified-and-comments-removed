@@ -1544,7 +1544,7 @@ destStride
 }
 }
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

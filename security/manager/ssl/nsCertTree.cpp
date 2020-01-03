@@ -1132,7 +1132,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 nsCertTreeDispInfo
 >

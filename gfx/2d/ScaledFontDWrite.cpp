@@ -1192,7 +1192,7 @@ data
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >

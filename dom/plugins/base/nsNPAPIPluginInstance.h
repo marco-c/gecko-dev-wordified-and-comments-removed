@@ -1539,10 +1539,7 @@ EnsureSharedTexture
 (
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

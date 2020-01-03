@@ -6680,7 +6680,7 @@ NS_OK
 ;
 }
 static
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

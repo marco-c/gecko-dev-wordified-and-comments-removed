@@ -475,7 +475,7 @@ TextureSourceD3D9
 aHost
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 IDirect3DTexture9
 >

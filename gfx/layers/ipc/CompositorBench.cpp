@@ -755,7 +755,7 @@ effects
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Effect
 >
@@ -894,7 +894,7 @@ effects
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Effect
 >
@@ -1386,7 +1386,7 @@ mBuf
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Effect
 >
@@ -1636,7 +1636,7 @@ mBuf
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 Effect
 >
@@ -1876,7 +1876,7 @@ mBuf
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 Effect
 >
@@ -2112,7 +2112,7 @@ mBuf
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 Effect
 >

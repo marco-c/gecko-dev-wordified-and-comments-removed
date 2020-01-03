@@ -1022,7 +1022,7 @@ mLayerRef
 }
 ;
 inline
-TemporaryRef
+already_AddRefed
 <
 TexturedEffect
 >
@@ -1178,7 +1178,7 @@ forget
 ;
 }
 inline
-TemporaryRef
+already_AddRefed
 <
 TexturedEffect
 >
@@ -1302,7 +1302,7 @@ state
 ;
 }
 inline
-TemporaryRef
+already_AddRefed
 <
 TexturedEffect
 >

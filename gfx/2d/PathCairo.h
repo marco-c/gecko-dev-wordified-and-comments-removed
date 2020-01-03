@@ -137,7 +137,7 @@ CurrentPoint
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -244,7 +244,7 @@ CAIRO
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -261,7 +261,7 @@ FILL_WINDING
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >

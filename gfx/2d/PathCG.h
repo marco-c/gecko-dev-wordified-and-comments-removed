@@ -170,7 +170,7 @@ CurrentPoint
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -287,7 +287,7 @@ COREGRAPHICS
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -304,7 +304,7 @@ FILL_WINDING
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >

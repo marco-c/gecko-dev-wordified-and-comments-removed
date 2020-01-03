@@ -13298,10 +13298,7 @@ return
 NS_OK
 ;
 }
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

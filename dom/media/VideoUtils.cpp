@@ -1571,7 +1571,7 @@ height
 0
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SharedThreadPool
 >

@@ -403,10 +403,7 @@ aStream
 0
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

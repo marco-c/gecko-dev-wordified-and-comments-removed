@@ -61,7 +61,7 @@ aMallocSizeOf
 0
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 HRTFDatabaseLoader
 >

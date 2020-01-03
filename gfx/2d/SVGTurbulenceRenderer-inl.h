@@ -59,7 +59,7 @@ Rect
 aTileRect
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -2135,7 +2135,7 @@ i32x4_t
 typename
 u8x16_t
 >
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

@@ -86,7 +86,7 @@ rv
 }
 NS_IMETHODIMP_
 (
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

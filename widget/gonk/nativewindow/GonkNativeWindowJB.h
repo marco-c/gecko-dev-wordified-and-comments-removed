@@ -259,10 +259,7 @@ uint32_t
 defaultFormat
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -278,10 +275,7 @@ TextureClient
 client
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

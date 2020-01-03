@@ -848,7 +848,7 @@ LOCAL_GL_TEXTURE0
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

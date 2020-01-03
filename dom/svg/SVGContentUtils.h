@@ -987,10 +987,7 @@ aCoord
 )
 ;
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 mozilla
 :

@@ -1404,7 +1404,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -1494,7 +1494,7 @@ UnlockCurrentImage
 )
 {
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -2101,7 +2101,7 @@ return
 mBuffer
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

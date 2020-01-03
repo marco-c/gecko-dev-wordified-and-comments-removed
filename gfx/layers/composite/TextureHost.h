@@ -906,7 +906,7 @@ SetUpdateSerial
 ifdef
 DEBUG
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -972,7 +972,7 @@ TextureHost
 public
 :
 static
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -1106,7 +1106,7 @@ const
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -1508,7 +1508,7 @@ mSize
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -1929,7 +1929,7 @@ CompositingRenderTarget
 ifdef
 MOZ_DUMP_PAINTING
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -2011,7 +2011,7 @@ mOrigin
 ;
 }
 ;
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >

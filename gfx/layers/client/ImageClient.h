@@ -157,7 +157,7 @@ CompositableClient
 public
 :
 static
-TemporaryRef
+already_AddRefed
 <
 ImageClient
 >
@@ -217,7 +217,7 @@ aFormat
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 AsyncTransactionTracker
 >
@@ -360,7 +360,7 @@ aFormat
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 AsyncTransactionTracker
 >

@@ -1388,7 +1388,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

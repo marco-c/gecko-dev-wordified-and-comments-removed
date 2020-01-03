@@ -27,7 +27,7 @@ MediaTaskQueue
 :
 MediaTaskQueue
 (
-TemporaryRef
+already_AddRefed
 <
 SharedThreadPool
 >
@@ -322,7 +322,7 @@ public
 explicit
 MediaTaskQueueSyncRunnable
 (
-TemporaryRef
+already_AddRefed
 <
 nsIRunnable
 >
@@ -429,7 +429,7 @@ MediaTaskQueue
 :
 SyncDispatch
 (
-TemporaryRef
+already_AddRefed
 <
 nsIRunnable
 >
@@ -464,7 +464,10 @@ task
 new
 MediaTaskQueueSyncRunnable
 (
+Move
+(
 aRunnable
+)
 )
 )
 ;
@@ -776,7 +779,7 @@ FlushableMediaTaskQueue
 :
 FlushAndDispatch
 (
-TemporaryRef
+already_AddRefed
 <
 nsIRunnable
 >

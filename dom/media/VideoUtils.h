@@ -697,7 +697,7 @@ PLAYBACK
 PLATFORM_DECODER
 }
 ;
-TemporaryRef
+already_AddRefed
 <
 SharedThreadPool
 >

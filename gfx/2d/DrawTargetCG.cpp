@@ -692,7 +692,7 @@ COREGRAPHICS
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -760,7 +760,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -816,7 +816,7 @@ return
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -1056,7 +1056,7 @@ GetFormat
 }
 }
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -1740,7 +1740,7 @@ mCg
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -2105,7 +2105,7 @@ mExtend
 ;
 }
 ;
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >
@@ -9579,7 +9579,7 @@ aFormat
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >

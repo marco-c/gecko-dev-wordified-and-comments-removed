@@ -715,7 +715,7 @@ DrawTargetSkia
 )
 {
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -3836,7 +3836,7 @@ mPaint
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -3924,7 +3924,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -4003,7 +4003,7 @@ false
 #
 endif
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -4151,7 +4151,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -5213,7 +5213,7 @@ return
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -5447,7 +5447,7 @@ restore
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >
@@ -5538,7 +5538,7 @@ aExtendMode
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >

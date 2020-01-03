@@ -710,7 +710,7 @@ Unlock
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 CompositableHost
 >

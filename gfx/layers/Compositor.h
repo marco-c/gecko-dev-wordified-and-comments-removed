@@ -232,7 +232,7 @@ ROTATION_0
 {
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataTextureSource
 >
@@ -370,7 +370,7 @@ aFlags
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -390,7 +390,7 @@ aInit
 0
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >

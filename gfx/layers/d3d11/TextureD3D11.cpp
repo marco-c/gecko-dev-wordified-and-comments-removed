@@ -607,7 +607,7 @@ texture
 }
 }
 }
-TemporaryRef
+already_AddRefed
 <
 TextureHost
 >
@@ -924,7 +924,7 @@ get
 #
 endif
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClientD3D11
 >
@@ -989,7 +989,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -2592,7 +2592,7 @@ DXGIYCbCrTextureClient
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DXGIYCbCrTextureClient
 >

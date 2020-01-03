@@ -151,7 +151,7 @@ override
 {
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -170,7 +170,7 @@ aInit
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -505,7 +505,7 @@ CompositorD3D9
 }
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataTextureSource
 >

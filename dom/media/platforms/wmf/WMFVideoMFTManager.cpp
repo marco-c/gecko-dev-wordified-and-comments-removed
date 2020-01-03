@@ -760,7 +760,7 @@ mDXVA2Manager
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 MFTDecoder
 >
@@ -819,7 +819,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 MFTDecoder
 >

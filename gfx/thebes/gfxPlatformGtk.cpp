@@ -2446,7 +2446,7 @@ nullptr
 }
 #
 endif
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >

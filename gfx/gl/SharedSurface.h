@@ -1236,7 +1236,7 @@ IntSize
 size
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 layers
 :

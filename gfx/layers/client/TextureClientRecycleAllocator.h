@@ -72,7 +72,7 @@ uint32_t
 aMax
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >

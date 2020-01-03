@@ -124,7 +124,7 @@ GetD2D1Device
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

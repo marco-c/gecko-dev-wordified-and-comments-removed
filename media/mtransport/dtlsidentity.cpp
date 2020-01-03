@@ -103,7 +103,7 @@ sha
 256
 "
 ;
-TemporaryRef
+already_AddRefed
 <
 DtlsIdentity
 >

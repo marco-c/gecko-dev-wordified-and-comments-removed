@@ -87,7 +87,7 @@ DWRITE
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 Path
 >

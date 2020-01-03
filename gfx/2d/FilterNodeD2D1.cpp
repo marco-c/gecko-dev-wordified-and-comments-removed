@@ -462,7 +462,7 @@ return
 D2D1_CHANNEL_SELECTOR_R
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 ID2D1Image
 >
@@ -2249,7 +2249,7 @@ false
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >

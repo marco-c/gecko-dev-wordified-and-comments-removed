@@ -802,10 +802,7 @@ aThebesContext
 override
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -827,10 +824,7 @@ aScreenRect
 override
 ;
 virtual
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2226,10 +2220,7 @@ bool
 aForPrimarySelection
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

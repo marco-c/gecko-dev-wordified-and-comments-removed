@@ -99,7 +99,7 @@ DataSourceSurface
 aSurface
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -169,7 +169,7 @@ GLReadTexImageHelper
 (
 )
 ;
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

@@ -54,7 +54,7 @@ MFTManager
 {
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 MFTDecoder
 >

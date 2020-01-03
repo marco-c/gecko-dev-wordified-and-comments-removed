@@ -128,7 +128,7 @@ IsValid
 const
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

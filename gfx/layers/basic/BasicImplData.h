@@ -272,7 +272,7 @@ mOperator
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :

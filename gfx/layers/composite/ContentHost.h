@@ -496,7 +496,7 @@ aCompositor
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -680,7 +680,7 @@ GetRenderState
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 TexturedEffect
 >

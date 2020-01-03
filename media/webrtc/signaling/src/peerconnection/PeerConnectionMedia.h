@@ -666,7 +666,7 @@ LocalSourceStreamInfo
 )
 private
 :
-TemporaryRef
+already_AddRefed
 <
 MediaPipeline
 >

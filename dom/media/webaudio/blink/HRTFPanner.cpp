@@ -71,10 +71,7 @@ HRTFPanner
 (
 float
 sampleRate
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 HRTFDatabaseLoader
 >

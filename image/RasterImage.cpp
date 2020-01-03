@@ -2442,7 +2442,7 @@ GetTimeoutForFrame
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -2786,7 +2786,7 @@ forget
 }
 NS_IMETHODIMP_
 (
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

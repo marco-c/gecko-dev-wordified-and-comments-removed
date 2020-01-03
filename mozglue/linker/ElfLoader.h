@@ -780,10 +780,7 @@ LibHandle
 public
 :
 static
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 LibHandle
 >
@@ -1062,10 +1059,7 @@ static
 ElfLoader
 Singleton
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 LibHandle
 >
@@ -1084,10 +1078,7 @@ parent
 nullptr
 )
 ;
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 LibHandle
 >

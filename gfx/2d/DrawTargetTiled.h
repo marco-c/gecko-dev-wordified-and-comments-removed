@@ -154,7 +154,7 @@ GetBackendType
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -584,7 +584,7 @@ aTransform
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -625,7 +625,7 @@ aFormat
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -654,7 +654,7 @@ aSurface
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -684,7 +684,7 @@ aSurface
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -717,7 +717,7 @@ aFormat
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 PathBuilder
 >
@@ -750,7 +750,7 @@ aFillRule
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 GradientStops
 >
@@ -790,7 +790,7 @@ aExtendMode
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 FilterNode
 >
@@ -1002,7 +1002,7 @@ GetFormat
 ;
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >

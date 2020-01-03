@@ -417,7 +417,7 @@ GetMaxTextureSize
 INT32_MAX
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataTextureSource
 >
@@ -445,7 +445,7 @@ aFlags
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >
@@ -598,7 +598,7 @@ aRect
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 CompositingRenderTarget
 >

@@ -196,7 +196,7 @@ aWidget
 {
 }
 virtual
-TemporaryRef
+already_AddRefed
 <
 DataTextureSource
 >

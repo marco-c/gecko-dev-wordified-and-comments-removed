@@ -1000,7 +1000,7 @@ Close
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 Path
 >
@@ -5037,7 +5037,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

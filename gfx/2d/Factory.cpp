@@ -1242,7 +1242,7 @@ return
 true
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -1622,7 +1622,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -1650,7 +1650,7 @@ aDT
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -1953,7 +1953,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -2180,7 +2180,7 @@ return
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >
@@ -2370,7 +2370,7 @@ nullptr
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >
@@ -2446,7 +2446,7 @@ nullptr
 ;
 }
 }
-TemporaryRef
+already_AddRefed
 <
 ScaledFont
 >
@@ -2515,7 +2515,7 @@ nullptr
 #
 endif
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -2587,7 +2587,7 @@ forget
 #
 ifdef
 WIN32
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -2686,7 +2686,7 @@ return
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -2919,7 +2919,7 @@ return
 mD3D10Device
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3184,7 +3184,7 @@ D2DFactory1
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 GlyphRenderingOptions
 >
@@ -3283,7 +3283,7 @@ endif
 #
 ifdef
 USE_SKIA_GPU
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3354,7 +3354,7 @@ PurgeAllCaches
 #
 ifdef
 USE_SKIA_FREETYPE
-TemporaryRef
+already_AddRefed
 <
 GlyphRenderingOptions
 >
@@ -3406,7 +3406,7 @@ forget
 }
 #
 endif
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3498,7 +3498,7 @@ forget
 #
 ifdef
 XP_MACOSX
-TemporaryRef
+already_AddRefed
 <
 DrawTarget
 >
@@ -3576,7 +3576,7 @@ forget
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 GlyphRenderingOptions
 >
@@ -3603,7 +3603,7 @@ aFontSmoothingBackgroundColor
 }
 #
 endif
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -3690,7 +3690,7 @@ return
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -3794,7 +3794,7 @@ return
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DataSourceSurface
 >
@@ -3944,7 +3944,7 @@ return
 nullptr
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 DrawEventRecorder
 >

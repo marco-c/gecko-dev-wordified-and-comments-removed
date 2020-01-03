@@ -227,10 +227,7 @@ return
 mHaveReceivedCommands
 ;
 }
-mozilla
-:
-:
-TemporaryRef
+already_AddRefed
 <
 Path
 >

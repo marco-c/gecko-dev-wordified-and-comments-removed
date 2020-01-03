@@ -859,7 +859,7 @@ aMaskTransform
 )
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >
@@ -4111,7 +4111,7 @@ return
 result
 ;
 }
-TemporaryRef
+already_AddRefed
 <
 SourceSurface
 >

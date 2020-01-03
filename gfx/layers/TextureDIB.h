@@ -292,7 +292,7 @@ ALLOC_DEFAULT
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -370,7 +370,7 @@ ALLOC_DEFAULT
 override
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 TextureClient
 >
@@ -581,7 +581,7 @@ aDescriptor
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
@@ -644,7 +644,7 @@ TextureHostFileMapping
 )
 ;
 virtual
-TemporaryRef
+already_AddRefed
 <
 gfx
 :
