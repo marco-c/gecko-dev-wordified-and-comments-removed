@@ -429,15 +429,6 @@ mozglue
 /
 generatorannotations
 /
-OptionalGeneratedParameter
-.
-java
-'
-'
-mozglue
-/
-generatorannotations
-/
 WrapElementForJNI
 .
 java
