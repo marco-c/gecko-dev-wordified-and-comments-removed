@@ -643,7 +643,11 @@ AssertCurrentThreadIn
 )
 ;
 return
-mOutputStreams
+mDecodedStream
+.
+OutputStreams
+(
+)
 ;
 }
 DecodedStreamData
@@ -1946,12 +1950,6 @@ mProxy
 endif
 protected
 :
-nsTArray
-<
-OutputStreamData
->
-mOutputStreams
-;
 DecodedStream
 mDecodedStream
 ;
