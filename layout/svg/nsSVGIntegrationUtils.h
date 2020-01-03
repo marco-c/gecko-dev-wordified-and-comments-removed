@@ -33,6 +33,9 @@ nsAutoPtr
 h
 "
 class
+gfxContext
+;
+class
 gfxDrawable
 ;
 class
@@ -199,8 +202,8 @@ static
 void
 PaintFramesWithEffects
 (
-nsRenderingContext
-*
+gfxContext
+&
 aCtx
 nsIFrame
 *

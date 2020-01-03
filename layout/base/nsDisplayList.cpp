@@ -28433,7 +28433,13 @@ nsSVGIntegrationUtils
 :
 PaintFramesWithEffects
 (
+*
 aCtx
+-
+>
+ThebesContext
+(
+)
 mFrame
 mVisibleRect
 aBuilder
