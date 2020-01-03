@@ -293,12 +293,6 @@ nsIInputStream
 >
 mSynthesizedInput
 ;
-nsRefPtr
-<
-nsInputStreamPump
->
-mStoragePump
-;
 nsCOMPtr
 <
 nsIStreamListener

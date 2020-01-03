@@ -716,11 +716,12 @@ nsHttpResponseHead
 >
 &
 aResponseHead
-nsInputStreamPump
+nsIInputStream
 *
-aPump
-int64_t
-aStreamLength
+aSynthesizedInput
+nsIStreamListener
+*
+aStreamListener
 )
 ;
 RequestHeaderTuples
