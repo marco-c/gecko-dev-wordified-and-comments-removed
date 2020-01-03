@@ -3186,6 +3186,11 @@ JS
 :
 :
 HandleObject
+existing
+JS
+:
+:
+HandleObject
 obj
 JS
 :
