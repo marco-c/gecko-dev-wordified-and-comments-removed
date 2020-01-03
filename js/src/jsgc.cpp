@@ -11195,6 +11195,16 @@ AutoLockHelperThreadState
 lock
 )
 ;
+~
+UpdateCellPointersTask
+(
+)
+{
+join
+(
+)
+;
+}
 private
 :
 JSRuntime

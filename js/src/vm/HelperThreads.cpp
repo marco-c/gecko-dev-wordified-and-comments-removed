@@ -3480,8 +3480,15 @@ GCParallelTask
 (
 )
 {
-join
+AutoLockHelperThreadState
+helperLock
+;
+MOZ_ASSERT
 (
+state
+=
+=
+NotStarted
 )
 ;
 }

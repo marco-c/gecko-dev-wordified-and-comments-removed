@@ -226,6 +226,16 @@ HugeSlotsSet
 slotsToFree
 )
 ;
+~
+FreeHugeSlotsTask
+(
+)
+{
+join
+(
+)
+;
+}
 private
 :
 FreeOp
