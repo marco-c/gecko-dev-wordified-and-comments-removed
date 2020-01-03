@@ -620,9 +620,6 @@ IDBIndex
 >
 CreateIndex
 (
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -646,9 +643,6 @@ IDBIndex
 >
 CreateIndex
 (
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -1073,9 +1067,6 @@ IDBIndex
 >
 CreateIndexInternal
 (
-JSContext
-*
-aCx
 const
 nsAString
 &

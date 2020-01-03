@@ -80,9 +80,6 @@ aType
 bool
 AppendStringWithValidation
 (
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -141,9 +138,6 @@ static
 nsresult
 Parse
 (
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -157,9 +151,6 @@ static
 nsresult
 Parse
 (
-JSContext
-*
-aCx
 const
 Sequence
 <
