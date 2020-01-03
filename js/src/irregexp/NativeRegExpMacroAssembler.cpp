@@ -4850,6 +4850,7 @@ MOZ_ASSERT
 (
 characters
 =
+=
 1
 )
 ;
