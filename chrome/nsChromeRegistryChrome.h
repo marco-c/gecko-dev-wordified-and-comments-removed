@@ -672,7 +672,6 @@ platform
 bool
 contentaccessible
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -693,7 +692,6 @@ platform
 bool
 contentaccessible
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -714,7 +712,6 @@ platform
 bool
 contentaccessible
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -735,7 +732,6 @@ platform
 bool
 contentaccessible
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -756,7 +752,6 @@ platform
 bool
 contentaccessible
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -777,7 +772,6 @@ platform
 bool
 contentaccessible
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -798,7 +792,6 @@ platform
 bool
 contentaccessible
 )
-MOZ_OVERRIDE
 ;
 }
 ;
