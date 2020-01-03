@@ -540,7 +540,7 @@ WidgetMouseEvent
 aMouseEvent
 )
 ;
-void
+bool
 TransformToLocal
 (
 const
@@ -625,7 +625,7 @@ aPanDisplacement
 )
 {
 }
-void
+bool
 TransformToLocal
 (
 const
@@ -760,7 +760,7 @@ aPreviousSpan
 )
 {
 }
-void
+bool
 TransformToLocal
 (
 const
@@ -874,7 +874,7 @@ aLocalPoint
 )
 {
 }
-void
+bool
 TransformToLocal
 (
 const
@@ -1012,7 +1012,7 @@ aDeltaY
 )
 {
 }
-void
+bool
 TransformToLocal
 (
 const
