@@ -537,6 +537,7 @@ args
 array
 (
 )
+true
 args
 .
 rval
