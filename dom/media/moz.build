@@ -749,6 +749,11 @@ GetUserMediaRequest
 h
 '
 '
+MediaStreamError
+.
+h
+'
+'
 MediaStreamTrack
 .
 h
@@ -925,6 +930,11 @@ cpp
 '
 '
 MediaShutdownManager
+.
+cpp
+'
+'
+MediaStreamError
 .
 cpp
 '

@@ -1370,6 +1370,11 @@ MediaStreamAudioSourceNode
 webidl
 '
 '
+MediaStreamError
+.
+webidl
+'
+'
 MediaStreamTrack
 .
 webidl
