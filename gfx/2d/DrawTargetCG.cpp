@@ -6708,6 +6708,8 @@ cg
 )
 ;
 delete
+[
+]
 bboxes
 ;
 }
@@ -6802,6 +6804,8 @@ mNumGlyphs
 )
 ;
 delete
+[
+]
 bboxes
 ;
 }
