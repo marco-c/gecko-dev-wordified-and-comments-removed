@@ -1352,6 +1352,7 @@ uint32_t
 getDenseCapacity
 (
 )
+const
 {
 return
 getElementsHeader
