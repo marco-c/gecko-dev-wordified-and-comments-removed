@@ -1,3 +1,14 @@
+document
+.
+addEventListener
+(
+"
+DOMContentLoaded
+"
+function
+(
+)
+{
 var
 head
 =
@@ -19,4 +30,8 @@ Hello
 World
 !
 "
+;
+}
+false
+)
 ;

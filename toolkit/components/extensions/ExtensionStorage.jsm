@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -134,8 +133,7 @@ Path
 .
 profileDir
 ;
-this
-.
+let
 ExtensionStorage
 =
 {

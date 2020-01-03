@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -1509,11 +1508,8 @@ true
 }
 }
 ;
-this
-.
-Extension
-=
 function
+Extension
 (
 addonData
 )

@@ -5761,17 +5761,3 @@ include
 PKG_LOCALE_MANIFEST
 #
 endif
-RESPATH
-/
-components
-/
-simpleServices
-.
-js
-RESPATH
-/
-components
-/
-utils
-.
-manifest

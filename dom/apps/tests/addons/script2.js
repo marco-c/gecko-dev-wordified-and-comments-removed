@@ -1,3 +1,14 @@
+document
+.
+addEventListener
+(
+"
+DOMContentLoaded
+"
+function
+(
+)
+{
 var
 head
 =
@@ -18,4 +29,8 @@ innerHTML
 Customized
 content
 "
+;
+}
+false
+)
 ;

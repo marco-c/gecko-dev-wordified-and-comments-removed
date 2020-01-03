@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -723,8 +722,7 @@ undefined
 }
 }
 ;
-this
-.
+let
 ExtensionManagement
 =
 {
