@@ -96,6 +96,11 @@ PushService
 jsm
 '
 '
+PushServiceHttp2
+.
+jsm
+'
+'
 PushServiceWebSocket
 .
 jsm

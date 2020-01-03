@@ -312,7 +312,7 @@ result
 yield
 db
 .
-getByChannelID
+getByKeyID
 (
 channelID
 )

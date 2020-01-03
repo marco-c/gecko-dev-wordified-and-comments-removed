@@ -648,7 +648,7 @@ storeRecords
 yield
 db
 .
-getAllChannelIDs
+getAllKeyIDs
 (
 )
 ;

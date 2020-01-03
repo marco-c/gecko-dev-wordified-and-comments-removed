@@ -556,7 +556,7 @@ prevRecord
 yield
 db
 .
-getByChannelID
+getByKeyID
 (
 '
 9bcc7efb
@@ -621,7 +621,7 @@ registeredRecord
 yield
 db
 .
-getByChannelID
+getByKeyID
 (
 newRecord
 .
