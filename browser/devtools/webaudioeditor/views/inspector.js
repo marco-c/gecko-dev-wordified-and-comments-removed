@@ -710,6 +710,9 @@ flags
 readonly
 }
 ;
+let
+item
+=
 audioParamsScope
 .
 addItem
@@ -717,6 +720,12 @@ addItem
 param
 descriptor
 )
+;
+item
+.
+twisty
+=
+false
 ;
 }
 )
