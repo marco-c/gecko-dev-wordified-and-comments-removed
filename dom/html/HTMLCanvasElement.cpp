@@ -2645,13 +2645,16 @@ rv
 AutoJSAPI
 jsapi
 ;
+if
+(
 jsapi
 .
 Init
 (
 mGlobal
 )
-;
+)
+{
 JS_updateMallocCounter
 (
 jsapi
@@ -2662,6 +2665,7 @@ cx
 size
 )
 ;
+}
 }
 nsRefPtr
 <
