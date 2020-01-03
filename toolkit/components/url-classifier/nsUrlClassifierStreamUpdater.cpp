@@ -2353,6 +2353,11 @@ this
 )
 )
 ;
+if
+(
+mDownloadErrorCallback
+)
+{
 mDownloadErrorCallback
 -
 >
@@ -2361,6 +2366,7 @@ HandleEvent
 strStatus
 )
 ;
+}
 mDownloadError
 =
 true
@@ -2379,6 +2385,11 @@ status
 )
 )
 {
+MOZ_ASSERT
+(
+mDownloadErrorCallback
+)
+;
 mBeganStream
 =
 true
