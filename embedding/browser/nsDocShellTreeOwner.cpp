@@ -4605,7 +4605,7 @@ rv
 mEventTarget
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -4629,7 +4629,7 @@ rv
 mEventTarget
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -4653,7 +4653,7 @@ rv
 mEventTarget
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -4677,7 +4677,7 @@ rv
 mEventTarget
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -4752,7 +4752,7 @@ rv
 mEventTarget
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -4775,7 +4775,7 @@ rv
 mEventTarget
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -4798,7 +4798,7 @@ rv
 mEventTarget
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -4821,7 +4821,7 @@ rv
 mEventTarget
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
