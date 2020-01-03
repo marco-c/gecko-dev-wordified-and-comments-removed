@@ -14383,6 +14383,14 @@ Services
 appinfo
 .
 accessibilityEnabled
+&
+&
+!
+Services
+.
+appinfo
+.
+accessibilityIsUIA
 )
 {
 this
