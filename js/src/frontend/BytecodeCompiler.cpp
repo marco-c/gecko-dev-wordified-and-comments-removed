@@ -2060,6 +2060,18 @@ nullptr
 if
 (
 !
+bce
+.
+updateLocalsToFrameSlots
+(
+)
+)
+return
+nullptr
+;
+if
+(
+!
 EmitTree
 (
 cx
@@ -2203,6 +2215,8 @@ pc
 -
 >
 blockScopeDepth
+0
+0
 nullptr
 )
 )

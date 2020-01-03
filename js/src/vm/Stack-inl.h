@@ -572,8 +572,6 @@ unaliasedLocal
 (
 uint32_t
 i
-MaybeCheckAliasing
-checkAliasing
 )
 {
 MOZ_ASSERT
@@ -590,20 +588,6 @@ nfixed
 )
 )
 ;
-#
-ifdef
-DEBUG
-CheckLocalUnaliased
-(
-checkAliasing
-script
-(
-)
-i
-)
-;
-#
-endif
 return
 slots
 (
@@ -2782,8 +2766,6 @@ unaliasedLocal
 (
 uint32_t
 i
-MaybeCheckAliasing
-checkAliasing
 )
 {
 if
@@ -2801,7 +2783,6 @@ asInterpreterFrame
 unaliasedLocal
 (
 i
-checkAliasing
 )
 ;
 if
@@ -2819,7 +2800,6 @@ asBaselineFrame
 unaliasedLocal
 (
 i
-checkAliasing
 )
 ;
 return
@@ -2831,7 +2811,6 @@ asRematerializedFrame
 unaliasedLocal
 (
 i
-checkAliasing
 )
 ;
 }

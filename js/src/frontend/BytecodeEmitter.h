@@ -487,6 +487,13 @@ atomIndices
 unsigned
 firstLine
 ;
+Vector
+<
+uint32_t
+16
+>
+localsToFrameSlots_
+;
 int32_t
 stackDepth
 ;
@@ -598,6 +605,11 @@ Normal
 ;
 bool
 init
+(
+)
+;
+bool
+updateLocalsToFrameSlots
 (
 )
 ;
