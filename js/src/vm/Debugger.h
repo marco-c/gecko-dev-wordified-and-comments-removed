@@ -2727,7 +2727,7 @@ all
 }
 static
 void
-markAllCrossCompartmentEdges
+markIncomingCrossCompartmentEdges
 (
 JSTracer
 *
