@@ -126,6 +126,9 @@ objId
 ReturnStatus
 *
 rs
+bool
+*
+succeeded
 )
 {
 return
@@ -142,6 +145,7 @@ deserialize
 objId
 )
 rs
+succeeded
 )
 ;
 }
@@ -932,6 +936,9 @@ objId
 ReturnStatus
 *
 rs
+bool
+*
+succeeded
 )
 {
 return
@@ -946,6 +953,7 @@ serialize
 (
 )
 rs
+succeeded
 )
 ;
 }
