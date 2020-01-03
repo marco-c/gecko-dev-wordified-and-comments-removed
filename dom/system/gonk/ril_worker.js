@@ -1562,12 +1562,6 @@ false
 ;
 this
 .
-iccStatus
-=
-null
-;
-this
-.
 cardState
 =
 GECKO_CARDSTATE_UNINITIALIZED
@@ -12679,12 +12673,6 @@ _waitingRadioTech
 return
 ;
 }
-this
-.
-iccStatus
-=
-iccStatus
-;
 let
 newCardState
 ;
