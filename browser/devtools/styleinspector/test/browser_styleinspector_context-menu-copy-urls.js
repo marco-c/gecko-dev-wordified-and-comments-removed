@@ -573,6 +573,8 @@ once
 view
 .
 _contextmenu
+.
+_menupopup
 "
 popupshown
 "
@@ -648,6 +650,8 @@ ok
 !
 view
 .
+_contextmenu
+.
 menuitemCopyImageDataUrl
 .
 hidden
@@ -703,6 +707,8 @@ waitForClipboard
 >
 view
 .
+_contextmenu
+.
 menuitemCopyImageDataUrl
 .
 click
@@ -736,6 +742,8 @@ waitForClipboard
 >
 view
 .
+_contextmenu
+.
 menuitemCopyUrl
 .
 click
@@ -757,6 +765,8 @@ menu
 view
 .
 _contextmenu
+.
+_menupopup
 .
 hidePopup
 (

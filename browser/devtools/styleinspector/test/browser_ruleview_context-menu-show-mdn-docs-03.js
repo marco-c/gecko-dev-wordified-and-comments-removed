@@ -492,7 +492,7 @@ firstChild
 ;
 view
 .
-doc
+styleDocument
 .
 popupNode
 =
@@ -510,7 +510,9 @@ state
 ;
 view
 .
-_contextMenuUpdate
+_contextmenu
+.
+_updateMenuItems
 (
 )
 ;
@@ -519,6 +521,8 @@ isVisible
 =
 !
 view
+.
+_contextmenu
 .
 menuitemShowMdnDocs
 .

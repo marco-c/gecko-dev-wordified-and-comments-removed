@@ -179,9 +179,7 @@ ESCAPE
 "
 widget
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield

@@ -550,6 +550,8 @@ once
 view
 .
 _contextmenu
+.
+_menupopup
 "
 popupshown
 "
@@ -560,9 +562,7 @@ win
 =
 view
 .
-doc
-.
-defaultView
+styleWindow
 ;
 EventUtils
 .
@@ -592,6 +592,8 @@ ok
 !
 view
 .
+_contextmenu
+.
 menuitemAddRule
 .
 hidden
@@ -615,6 +617,8 @@ rule
 ;
 view
 .
+_contextmenu
+.
 menuitemAddRule
 .
 click
@@ -624,6 +628,8 @@ click
 view
 .
 _contextmenu
+.
+_menupopup
 .
 hidePopup
 (

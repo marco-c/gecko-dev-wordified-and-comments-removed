@@ -160,9 +160,7 @@ icon
 }
 view
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 let

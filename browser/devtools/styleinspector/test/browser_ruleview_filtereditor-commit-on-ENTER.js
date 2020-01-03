@@ -178,9 +178,7 @@ RETURN
 "
 widget
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 const

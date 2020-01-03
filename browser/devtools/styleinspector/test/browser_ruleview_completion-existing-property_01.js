@@ -490,7 +490,7 @@ propertyName
 =
 view
 .
-doc
+styleDocument
 .
 querySelectorAll
 (
@@ -725,9 +725,7 @@ key
 }
 view
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield

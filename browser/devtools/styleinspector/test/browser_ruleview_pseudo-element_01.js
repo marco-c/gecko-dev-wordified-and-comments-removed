@@ -335,9 +335,7 @@ clickCount
 }
 view
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 ok

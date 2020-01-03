@@ -74,7 +74,7 @@ TargetFactory
 ;
 let
 {
-CssHtmlTree
+CssComputedView
 }
 =
 devtools
@@ -2549,7 +2549,7 @@ r
 of
 view
 .
-doc
+styleDocument
 .
 querySelectorAll
 (
@@ -2986,7 +2986,7 @@ links
 =
 view
 .
-doc
+styleDocument
 .
 querySelectorAll
 (
@@ -3030,9 +3030,11 @@ querySelector
 (
 "
 .
-source
+ruleview
 -
-link
+rule
+-
+source
 -
 label
 "

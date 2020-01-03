@@ -317,7 +317,7 @@ function
 checkRuleViewContent
 (
 {
-doc
+styleDocument
 }
 )
 {
@@ -344,7 +344,7 @@ headers
 .
 .
 .
-doc
+styleDocument
 .
 querySelectorAll
 (
@@ -476,7 +476,7 @@ correct
 let
 rules
 =
-doc
+styleDocument
 .
 querySelectorAll
 (

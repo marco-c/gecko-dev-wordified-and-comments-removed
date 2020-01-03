@@ -277,9 +277,7 @@ VK_RETURN
 }
 view
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield

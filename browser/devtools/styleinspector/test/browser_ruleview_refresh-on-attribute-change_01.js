@@ -411,7 +411,7 @@ selectors
 =
 view
 .
-doc
+styleDocument
 .
 querySelectorAll
 (

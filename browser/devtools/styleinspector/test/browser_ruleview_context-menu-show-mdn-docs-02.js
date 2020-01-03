@@ -170,7 +170,7 @@ PROPERTYNAME
 ;
 view
 .
-doc
+styleDocument
 .
 popupNode
 =
@@ -180,7 +180,9 @@ firstChild
 ;
 view
 .
-_contextMenuUpdate
+_contextmenu
+.
+_updateMenuItems
 (
 )
 ;
@@ -219,6 +221,8 @@ shown
 )
 ;
 view
+.
+_contextmenu
 .
 menuitemShowMdnDocs
 .

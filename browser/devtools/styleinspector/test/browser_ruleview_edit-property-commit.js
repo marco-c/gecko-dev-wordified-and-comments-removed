@@ -445,9 +445,7 @@ sendString
 value
 view
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 info

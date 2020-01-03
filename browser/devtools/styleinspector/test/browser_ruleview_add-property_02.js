@@ -268,9 +268,7 @@ input
 }
 ruleView
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 input
@@ -337,9 +335,7 @@ return
 "
 ruleView
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield
@@ -358,7 +354,7 @@ inplaceEditor
 (
 ruleView
 .
-doc
+styleDocument
 .
 activeElement
 )
@@ -485,9 +481,7 @@ return
 "
 ruleView
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield

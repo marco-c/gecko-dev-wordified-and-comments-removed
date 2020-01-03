@@ -490,9 +490,7 @@ icon
 }
 view
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield

@@ -246,9 +246,7 @@ sendString
 newPaddingValue
 view
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 info

@@ -365,9 +365,7 @@ VK_RETURN
 }
 view
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield
@@ -382,7 +380,7 @@ inplaceEditor
 (
 view
 .
-doc
+styleDocument
 .
 activeElement
 )

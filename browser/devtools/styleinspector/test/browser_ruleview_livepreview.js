@@ -317,9 +317,7 @@ data
 value
 ruleView
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 if

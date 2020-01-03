@@ -1050,7 +1050,7 @@ is
 (
 view
 .
-doc
+styleDocument
 .
 activeElement
 editor
@@ -1084,7 +1084,7 @@ brace
 =
 ruleView
 .
-doc
+styleDocument
 .
 querySelector
 (

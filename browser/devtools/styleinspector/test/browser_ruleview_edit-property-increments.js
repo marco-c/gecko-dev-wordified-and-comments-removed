@@ -2105,9 +2105,7 @@ shift
 }
 view
 .
-doc
-.
-defaultView
+styleWindow
 )
 ;
 yield

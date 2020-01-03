@@ -196,9 +196,7 @@ win
 =
 ruleView
 .
-doc
-.
-defaultView
+styleWindow
 ;
 let
 searchField

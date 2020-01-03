@@ -244,7 +244,7 @@ ruleView
 return
 ruleView
 .
-doc
+styleDocument
 .
 querySelector
 (
@@ -452,7 +452,7 @@ once
 (
 ruleView
 .
-doc
+styleDocument
 .
 activeElement
 "
