@@ -9,6 +9,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -31,6 +35,10 @@ h
 include
 "
 skia
+/
+include
+/
+core
 /
 SkRect
 .

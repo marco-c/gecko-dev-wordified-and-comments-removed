@@ -16,6 +16,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkCanvas
 .
 h
@@ -25,6 +29,10 @@ include
 "
 skia
 /
+include
+/
+effects
+/
 SkDashPathEffect
 .
 h
@@ -33,6 +41,10 @@ h
 include
 "
 skia
+/
+include
+/
+core
 /
 SkShader
 .
@@ -45,6 +57,10 @@ USE_SKIA_GPU
 include
 "
 skia
+/
+include
+/
+gpu
 /
 GrTypes
 .

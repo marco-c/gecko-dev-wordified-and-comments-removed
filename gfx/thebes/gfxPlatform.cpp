@@ -490,6 +490,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkGraphics
 .
 h

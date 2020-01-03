@@ -20,6 +20,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkBitmap
 .
 h

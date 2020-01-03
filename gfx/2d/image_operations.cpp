@@ -53,6 +53,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkColorPriv
 .
 h
@@ -61,6 +65,10 @@ h
 include
 "
 skia
+/
+include
+/
+core
 /
 SkBitmap
 .
@@ -71,6 +79,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkRect
 .
 h
@@ -79,6 +91,10 @@ h
 include
 "
 skia
+/
+include
+/
+core
 /
 SkFontHost
 .

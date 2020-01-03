@@ -20,6 +20,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkPaint
 .
 h
@@ -29,6 +33,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkPath
 .
 h
@@ -37,6 +45,10 @@ h
 include
 "
 skia
+/
+include
+/
+ports
 /
 SkTypeface_mac
 .

@@ -21,6 +21,10 @@ include
 "
 skia
 /
+include
+/
+core
+/
 SkCanvas
 .
 h
@@ -29,6 +33,10 @@ h
 include
 "
 skia
+/
+include
+/
+core
 /
 SkBitmap
 .
