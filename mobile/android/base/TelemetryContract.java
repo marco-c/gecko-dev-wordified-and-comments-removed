@@ -197,6 +197,14 @@ share
 1
 "
 )
+SHOW
+(
+"
+show
+.
+1
+"
+)
 UNDO
 (
 "
@@ -375,6 +383,12 @@ SETTINGS
 (
 "
 settings
+"
+)
+SHARE_OVERLAY
+(
+"
+shareoverlay
 "
 )
 SUGGESTION
