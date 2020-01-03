@@ -492,11 +492,12 @@ view
 )
 .
 hidden
-true
+false
 "
 jsflamegraph
 view
 button
+not
 hidden
 when
 timeline
