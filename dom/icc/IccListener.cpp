@@ -33,13 +33,6 @@ nsIIccInfo
 .
 h
 "
-#
-include
-"
-nsRadioInterfaceLayer
-.
-h
-"
 using
 namespace
 mozilla
