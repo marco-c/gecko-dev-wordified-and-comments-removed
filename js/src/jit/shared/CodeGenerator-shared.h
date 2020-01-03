@@ -2096,13 +2096,6 @@ generateInvalidateEpilogue
 (
 )
 ;
-void
-setupSimdAlignment
-(
-unsigned
-fixup
-)
-;
 public
 :
 CodeGeneratorShared

@@ -419,9 +419,9 @@ endif
 static
 const
 uint32_t
-StackAlignment
+ABIStackAlignment
 =
-8
+4
 ;
 static
 const
@@ -429,13 +429,6 @@ uint32_t
 CodeAlignment
 =
 4
-;
-static
-const
-bool
-StackKeptAligned
-=
-false
 ;
 static
 const

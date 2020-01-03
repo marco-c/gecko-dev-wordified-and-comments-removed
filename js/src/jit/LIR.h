@@ -7087,7 +7087,7 @@ Max
 (
 size_t
 (
-StackAlignment
+ABIStackAlignment
 )
 sizeof
 (
