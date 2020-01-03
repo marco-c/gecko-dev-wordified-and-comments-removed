@@ -2363,9 +2363,6 @@ points
 y
 )
 ;
-nsresult
-rv
-=
 AndroidBridge
 :
 :
