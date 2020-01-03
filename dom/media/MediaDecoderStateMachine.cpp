@@ -1079,6 +1079,8 @@ mDecodedStream
 new
 DecodedStream
 (
+mAudioQueue
+mVideoQueue
 )
 )
 {
@@ -1799,12 +1801,6 @@ SendData
 (
 mStreamStartTime
 mInfo
-AudioQueue
-(
-)
-VideoQueue
-(
-)
 mVolume
 mDecoder
 -
