@@ -573,6 +573,10 @@ aError
 )
 MOZ_OVERRIDE
 {
+mDecoderStatus
+=
+aError
+;
 }
 private
 :
@@ -651,6 +655,9 @@ mCallback
 ;
 uint64_t
 mCachedPluginId
+;
+GMPErr
+mDecoderStatus
 ;
 }
 ;
