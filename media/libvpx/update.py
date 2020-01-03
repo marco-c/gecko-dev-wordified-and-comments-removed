@@ -213,7 +213,7 @@ MODULES
 {
     
 '
-UNIFIED_SOURCES
+SOURCES
 '
 :
 [
@@ -3225,36 +3225,6 @@ append
 (
 f
 )
-    
-files
-[
-'
-UNIFIED_SOURCES
-'
-]
-=
-[
-f
-for
-f
-in
-files
-[
-'
-UNIFIED_SOURCES
-'
-]
-if
-f
-not
-in
-files
-[
-'
-SOURCES
-'
-]
-]
     
 for
 key
