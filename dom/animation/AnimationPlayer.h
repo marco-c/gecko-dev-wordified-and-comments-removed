@@ -349,6 +349,11 @@ Tick
 (
 )
 ;
+void
+ResolveStartTime
+(
+)
+;
 const
 nsString
 &
