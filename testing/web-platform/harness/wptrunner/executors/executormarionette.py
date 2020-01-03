@@ -988,15 +988,6 @@ s
 ;
             
 let
-value
-=
-'
-%
-s
-'
-;
-            
-let
 type
 =
 prefInterface
@@ -1024,7 +1015,10 @@ prefInterface
 setCharPref
 (
 pref
-value
+'
+%
+s
+'
 )
 ;
                     
@@ -1042,7 +1036,8 @@ prefInterface
 setBoolPref
 (
 pref
-value
+%
+s
 )
 ;
                     
@@ -1060,7 +1055,8 @@ prefInterface
 setIntPref
 (
 pref
-value
+%
+s
 )
 ;
                     
@@ -1075,6 +1071,8 @@ break
 %
 (
 name
+value
+value
 value
 )
         
