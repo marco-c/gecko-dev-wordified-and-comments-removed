@@ -595,6 +595,17 @@ qualifiers
 "
 )
 ;
+a
+=
+constA
+;
+a
+=
+A
+(
+0
+)
+;
 return
 0
 ;
