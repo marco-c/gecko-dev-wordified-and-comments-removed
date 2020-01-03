@@ -595,6 +595,11 @@ ril_worker_buf_object
 js
 '
 '
+ril_worker_telephony_request_queue
+.
+js
+'
+'
 RILSystemMessenger
 .
 jsm
