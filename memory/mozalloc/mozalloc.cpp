@@ -50,7 +50,7 @@ h
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -652,7 +652,7 @@ code
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 size_t
 mask
@@ -842,7 +842,7 @@ return
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 return
 malloc_size
