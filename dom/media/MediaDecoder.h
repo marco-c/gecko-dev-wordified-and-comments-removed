@@ -656,10 +656,6 @@ virtual
 void
 NotifyDataArrived
 (
-const
-char
-*
-aBuffer
 uint32_t
 aLength
 int64_t

@@ -1937,7 +1937,7 @@ MP3FrameParser
 Parse
 (
 const
-char
+uint8_t
 *
 aBuffer
 uint32_t
@@ -1967,15 +1967,7 @@ uint8_t
 *
 buffer
 =
-reinterpret_cast
-<
-const
-uint8_t
-*
->
-(
 aBuffer
-)
 ;
 int32_t
 length

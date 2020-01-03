@@ -268,13 +268,11 @@ aTime
 )
 override
 ;
+protected
+:
 void
-NotifyDataArrived
+NotifyDataArrivedInternal
 (
-const
-char
-*
-aBuffer
 uint32_t
 aLength
 int64_t
@@ -282,6 +280,8 @@ aOffset
 )
 override
 ;
+public
+:
 void
 NotifyDataRemoved
 (
