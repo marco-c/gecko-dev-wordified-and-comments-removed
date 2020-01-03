@@ -555,6 +555,17 @@ nbytes_
 void
 clear
 (
+const
+JSStructuredCloneCallbacks
+*
+optionalCallbacks
+=
+nullptr
+void
+*
+closure
+=
+nullptr
 )
 ;
 bool
