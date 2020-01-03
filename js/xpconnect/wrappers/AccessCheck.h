@@ -193,13 +193,6 @@ struct
 Policy
 {
 static
-const
-bool
-AllowGetPrototypeOf
-=
-false
-;
-static
 bool
 checkCall
 (
@@ -556,13 +549,6 @@ ExposedPropertiesOnly
 public
 Policy
 {
-static
-const
-bool
-AllowGetPrototypeOf
-=
-true
-;
 static
 bool
 check

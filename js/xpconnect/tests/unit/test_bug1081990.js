@@ -70,9 +70,7 @@ obj
 )
 =
 =
-Object
-.
-prototype
+null
 '
 )
 )
