@@ -12284,7 +12284,7 @@ nowTime
 ;
 const
 int64_t
-clock_time
+clockTime
 =
 GetClock
 (
@@ -12299,7 +12299,7 @@ AUDIO_DURATION_USECS
 ;
 NS_ASSERTION
 (
-clock_time
+clockTime
 >
 =
 0
@@ -12356,7 +12356,7 @@ IsRealTime
 )
 |
 |
-clock_time
+clockTime
 >
 =
 frame
@@ -12414,7 +12414,7 @@ currentFrame
 -
 >
 mTime
-clock_time
+clockTime
 +
 +
 droppedFrames
@@ -12489,7 +12489,7 @@ frame
 >
 mTime
 -
-clock_time
+clockTime
 ;
 }
 }
@@ -12648,7 +12648,7 @@ std
 :
 min
 (
-clock_time
+clockTime
 std
 :
 :
@@ -12688,7 +12688,7 @@ currentFrame
 >
 mTime
 -
-clock_time
+clockTime
 ;
 TimeStamp
 presTime
@@ -12778,7 +12778,7 @@ GetEndTime
 (
 )
 -
-clock_time
+clockTime
 ;
 currentFrame
 =
@@ -12817,7 +12817,7 @@ nextFrame
 >
 mTime
 -
-clock_time
+clockTime
 ;
 }
 else
