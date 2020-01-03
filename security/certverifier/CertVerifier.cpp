@@ -957,6 +957,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
+false
 nullptr
 builtChain
 )
@@ -1046,6 +1047,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 mPinningMode
+true
 hostname
 builtChain
 )
@@ -1128,6 +1130,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 mPinningMode
+false
 hostname
 builtChain
 )
@@ -1178,6 +1181,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
+false
 nullptr
 builtChain
 )
@@ -1224,6 +1228,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
+false
 nullptr
 builtChain
 )
@@ -1270,6 +1275,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
+false
 nullptr
 builtChain
 )
@@ -1354,6 +1360,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
+false
 nullptr
 builtChain
 )
@@ -1478,6 +1485,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
+false
 nullptr
 builtChain
 )
@@ -1519,6 +1527,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
+false
 nullptr
 builtChain
 )
@@ -1560,6 +1569,7 @@ mOCSPCache
 pinArg
 ocspGETConfig
 pinningDisabled
+false
 nullptr
 builtChain
 )

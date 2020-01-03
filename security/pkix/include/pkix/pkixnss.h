@@ -40,6 +40,9 @@ SignedDataWithSignature
 sd
 Input
 subjectPublicKeyInfo
+unsigned
+int
+minimumNonECCBits
 void
 *
 pkcs11PinArg
@@ -62,6 +65,9 @@ CheckPublicKey
 (
 Input
 subjectPublicKeyInfo
+unsigned
+int
+minimumNonECCBits
 )
 ;
 Result

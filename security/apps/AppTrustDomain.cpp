@@ -159,6 +159,14 @@ gPIPNSSLog
 ;
 #
 endif
+static
+const
+unsigned
+int
+DEFAULT_MINIMUM_NON_ECC_BITS
+=
+2048
+;
 namespace
 mozilla
 {
@@ -185,6 +193,10 @@ certChain
 mPinArg
 (
 pinArg
+)
+mMinimumNonECCBits
+(
+DEFAULT_MINIMUM_NON_ECC_BITS
 )
 {
 }
@@ -368,6 +380,10 @@ ArrayLength
 (
 marketplaceStageRoot
 )
+;
+mMinimumNonECCBits
+=
+1024u
 ;
 break
 ;
@@ -922,6 +938,7 @@ VerifySignedData
 (
 signedData
 subjectPublicKeyInfo
+mMinimumNonECCBits
 mPinArg
 )
 ;
@@ -1047,6 +1064,7 @@ pkix
 CheckPublicKey
 (
 subjectPublicKeyInfo
+mMinimumNonECCBits
 )
 ;
 }

@@ -299,6 +299,10 @@ mPinArg
 ScopedCERTCertificate
 mTrustedRoot
 ;
+unsigned
+int
+mMinimumNonECCBits
+;
 }
 ;
 }
