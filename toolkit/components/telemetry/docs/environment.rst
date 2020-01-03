@@ -139,6 +139,16 @@ string
 nsIXULAppInfo
 .
 ID
+applicationName
+:
+<
+string
+>
+/
+/
+"
+Firefox
+"
 architecture
 :
 <
@@ -288,7 +298,7 @@ bool
 >
 /
 /
-false
+true
 on
 failure
 isDefaultBrowser
@@ -365,7 +375,7 @@ bool
 >
 /
 /
-false
+true
 on
 failure
 autoDownload
@@ -375,7 +385,7 @@ bool
 >
 /
 /
-false
+true
 on
 failure
 }

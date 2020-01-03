@@ -174,11 +174,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-TelemetryEnvironment
-.
-jsm
-'
-'
 TelemetryFile
 .
 jsm
@@ -208,6 +203,11 @@ EXTRA_PP_JS_MODULES
 +
 =
 [
+'
+TelemetryEnvironment
+.
+jsm
+'
 '
 TelemetryPing
 .
