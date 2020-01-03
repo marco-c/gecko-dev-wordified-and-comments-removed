@@ -3396,7 +3396,7 @@ mMinimizePreroll
 mDecoderStateMachine
 -
 >
-SetMinimizePrerollUntilPlaybackStarts
+DispatchMinimizePrerollUntilPlaybackStarts
 (
 )
 ;
@@ -3410,6 +3410,15 @@ SetMinimizePrerollUntilPlaybackStarts
 (
 )
 {
+DECODER_LOG
+(
+"
+SetMinimizePrerollUntilPlaybackStarts
+(
+)
+"
+)
+;
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -3420,6 +3429,12 @@ NS_IsMainThread
 mMinimizePreroll
 =
 true
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+mDecoderStateMachine
+)
 ;
 }
 nsresult
