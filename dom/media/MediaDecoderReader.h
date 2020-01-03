@@ -764,8 +764,10 @@ return
 mDecoder
 ;
 }
-VideoData
-*
+nsRefPtr
+<
+VideoDataPromise
+>
 DecodeToFirstVideoData
 (
 )
