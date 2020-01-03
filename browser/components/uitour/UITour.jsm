@@ -2834,7 +2834,6 @@ this
 showHeartbeat
 (
 window
-messageManager
 data
 )
 ;
@@ -6356,11 +6355,8 @@ resetPreview
 ;
 }
 showHeartbeat
-:
-function
 (
 aChromeWindow
-aMessageManager
 aOptions
 )
 {
