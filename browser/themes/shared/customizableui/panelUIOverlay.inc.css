@@ -1288,11 +1288,13 @@ color
 :
 GrayText
 ;
-text
+font
 -
-transform
+variant
 :
-uppercase
+small
+-
+caps
 ;
 }
 .
