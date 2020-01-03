@@ -431,15 +431,6 @@ src
 /
 base
 /
-stats_table
-.
-cc
-'
-'
-src
-/
-base
-/
 string_piece
 .
 cc
