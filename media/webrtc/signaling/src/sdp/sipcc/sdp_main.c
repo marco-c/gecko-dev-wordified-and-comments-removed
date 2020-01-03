@@ -762,8 +762,8 @@ sizeof
 rtcp
 "
 )
-sdp_parse_attr_simple_u32
-sdp_build_attr_simple_u32
+sdp_parse_attr_rtcp
+sdp_build_attr_rtcp
 }
 {
 "

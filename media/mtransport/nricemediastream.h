@@ -289,6 +289,8 @@ const
 nsresult
 GetDefaultCandidate
 (
+int
+component
 NrIceCandidate
 *
 candidate

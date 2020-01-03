@@ -1429,6 +1429,8 @@ NrIceMediaStream
 :
 GetDefaultCandidate
 (
+int
+component
 NrIceCandidate
 *
 candidate
@@ -1445,7 +1447,7 @@ r
 nr_ice_media_stream_get_default_candidate
 (
 stream_
-1
+component
 &
 cand
 )
