@@ -113,6 +113,10 @@ endif
 namespace
 mozilla
 {
+#
+define
+VDA_RESOLUTION_THRESHOLD
+720
 bool
 AppleDecoderModule
 :
@@ -682,6 +686,14 @@ sIsVTHWAvailable
 |
 |
 sForceVDA
+|
+|
+aConfig
+.
+image_height
+>
+=
+VDA_RESOLUTION_THRESHOLD
 )
 )
 {
