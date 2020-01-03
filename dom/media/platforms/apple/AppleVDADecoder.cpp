@@ -1974,10 +1974,12 @@ IOSurfaceKeys
 ]
 =
 {
-MacIOSurfaceLib
-:
-:
-kPropIsGlobal
+CFSTR
+(
+"
+kIOSurfaceIsGlobal
+"
+)
 }
 ;
 const
