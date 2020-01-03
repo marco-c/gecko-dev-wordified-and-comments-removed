@@ -2351,13 +2351,9 @@ DoPause
 {
 if
 (
-mPendingState
-=
-=
-PendingState
-:
-:
-PausePending
+IsPausedOrPausing
+(
+)
 )
 {
 return
