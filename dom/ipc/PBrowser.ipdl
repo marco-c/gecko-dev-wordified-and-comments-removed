@@ -2767,6 +2767,8 @@ nsIntSize
 size
 ScreenOrientation
 orientation
+nsIntPoint
+chromeDisp
 )
 compress
 ;

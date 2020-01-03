@@ -2897,6 +2897,10 @@ const
 nsIntSize
 &
 size
+const
+nsIntPoint
+&
+aChromeDisp
 )
 {
 if
@@ -2982,6 +2986,7 @@ SendUpdateDimensions
 mRect
 mDimensions
 mOrientation
+aChromeDisp
 )
 ;
 }

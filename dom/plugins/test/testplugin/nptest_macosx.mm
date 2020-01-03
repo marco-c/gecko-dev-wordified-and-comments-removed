@@ -1497,6 +1497,9 @@ NPCocoaEventMouseUp
 case
 NPCocoaEventMouseMoved
 :
+case
+NPCocoaEventMouseDragged
+:
 instanceData
 -
 >

@@ -3673,15 +3673,6 @@ aEvent
 HasPluginActivationEventMessage
 (
 )
-|
-|
-aEvent
--
->
-message
-=
-=
-NS_PLUGIN_RESOLUTION_CHANGED
 )
 )
 {

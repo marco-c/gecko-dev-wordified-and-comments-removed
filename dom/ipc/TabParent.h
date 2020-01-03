@@ -1023,6 +1023,10 @@ const
 nsIntSize
 &
 size
+const
+nsIntPoint
+&
+chromeDisp
 )
 ;
 void

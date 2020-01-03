@@ -66,12 +66,6 @@ OnYosemiteOrLater
 ;
 static
 bool
-SupportCoreAnimationPlugins
-(
-)
-;
-static
-bool
 AccelerateByDefault
 (
 )

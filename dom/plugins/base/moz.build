@@ -541,6 +541,14 @@ base
 '
 '
 /
+dom
+/
+plugins
+/
+ipc
+'
+'
+/
 layout
 /
 generic
@@ -560,6 +568,12 @@ widget
 widget
 /
 android
+'
+'
+/
+widget
+/
+cocoa
 '
 '
 /

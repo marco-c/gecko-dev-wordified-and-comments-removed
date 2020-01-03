@@ -924,10 +924,6 @@ is
 '
 eWindowType_child
 '
-or
-'
-eWindowType_plugin
-'
 .
 /
 /
@@ -991,12 +987,6 @@ kidType
 =
 =
 eWindowType_child
-|
-|
-kidType
-=
-=
-eWindowType_plugin
 )
 {
 nsChildView
@@ -14912,6 +14902,7 @@ if
 (
 listener
 )
+{
 listener
 -
 >
@@ -14919,6 +14910,7 @@ WindowActivated
 (
 )
 ;
+}
 mToplevelActiveState
 =
 true
@@ -14954,6 +14946,7 @@ if
 (
 listener
 )
+{
 listener
 -
 >
@@ -14961,6 +14954,7 @@ WindowDeactivated
 (
 )
 ;
+}
 mToplevelActiveState
 =
 false

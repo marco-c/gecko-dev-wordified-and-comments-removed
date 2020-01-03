@@ -1333,6 +1333,10 @@ const
 ScreenOrientation
 &
 orientation
+const
+nsIntPoint
+&
+chromeDisp
 )
 MOZ_OVERRIDE
 ;
@@ -2246,6 +2250,16 @@ nsIWidget
 aParent
 )
 ;
+nsIntPoint
+GetChromeDisplacement
+(
+)
+{
+return
+mChromeDisp
+;
+}
+;
 protected
 :
 virtual
@@ -2738,6 +2752,9 @@ mHasValidInnerSize
 ;
 bool
 mDestroyed
+;
+nsIntPoint
+mChromeDisp
 ;
 TabId
 mUniqueId
