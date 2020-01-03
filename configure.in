@@ -22374,6 +22374,14 @@ MOZ_CHECK_HEADERS
 (
 sys
 /
+queue
+.
+h
+)
+MOZ_CHECK_HEADERS
+(
+sys
+/
 types
 .
 h
