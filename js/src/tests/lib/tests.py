@@ -63,6 +63,7 @@ compile
 =
 off
 '
+     
 '
 -
 -
@@ -506,6 +507,13 @@ self
 path
 =
 path
+        
+self
+.
+options
+=
+[
+]
     
 staticmethod
     
@@ -537,6 +545,7 @@ test
 with
 the
 given
+        
 path
 .
 "
@@ -583,6 +592,8 @@ prefix_command
 (
 head
 )
+\
+            
 +
 [
 '
@@ -640,6 +651,8 @@ prefix_command
 (
 dirname
 )
+\
+              
 +
 [
 '
@@ -768,13 +781,6 @@ self
 slow
 =
 False
-        
-self
-.
-options
-=
-[
-]
         
 self
 .
