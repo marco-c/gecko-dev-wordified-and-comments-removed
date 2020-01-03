@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIMobileConnectionProvider
+nsIMobileConnectionService
 .
 h
 "
