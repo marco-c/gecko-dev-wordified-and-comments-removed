@@ -125,7 +125,7 @@ colorPrimary
 >
 color
 /
-primary
+text_and_tabs_tray_grey
 <
 /
 item
@@ -142,7 +142,7 @@ colorPrimaryDark
 >
 color
 /
-background_tabs
+text_and_tabs_tray_grey
 <
 /
 item

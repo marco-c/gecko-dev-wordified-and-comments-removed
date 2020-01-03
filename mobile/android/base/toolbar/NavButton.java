@@ -359,7 +359,7 @@ R
 .
 color
 .
-new_tablet_highlight_focused_pb
+text_and_tabs_tray_grey
 )
 )
 ;
