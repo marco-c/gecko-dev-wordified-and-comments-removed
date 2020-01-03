@@ -911,10 +911,13 @@ SavedFrame
 :
 construct
 0
-JSFunction
+gc
 :
 :
-FinalizeKind
+AllocKind
+:
+:
+FUNCTION
 >
 GenericCreatePrototype
 SavedFrame

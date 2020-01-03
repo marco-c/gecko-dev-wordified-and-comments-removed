@@ -1225,10 +1225,13 @@ js
 :
 regexp_construct
 2
-JSFunction
+gc
 :
 :
-FinalizeKind
+AllocKind
+:
+:
+FUNCTION
 >
 CreateRegExpPrototype
 nullptr

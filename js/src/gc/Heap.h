@@ -251,9 +251,14 @@ class
 AllocKind
 {
 FIRST
-OBJECT0
+OBJECT_FIRST
 =
 FIRST
+FUNCTION
+=
+FIRST
+FUNCTION_EXTENDED
+OBJECT0
 OBJECT0_BACKGROUND
 OBJECT2
 OBJECT2_BACKGROUND
@@ -328,7 +333,7 @@ int
 AllocKind
 :
 :
-OBJECT0
+OBJECT_FIRST
 )
 =
 =
@@ -341,11 +346,11 @@ on
 AllocKind
 :
 :
-OBJECT0
+OBJECT_FIRST
+"
+"
 being
 0
-"
-"
 please
 audit
 them
@@ -369,7 +374,7 @@ kind
 AllocKind
 :
 :
-OBJECT0
+OBJECT_FIRST
 &
 &
 kind
@@ -494,7 +499,7 @@ int
 AllocKind
 :
 :
-OBJECT0
+OBJECT_FIRST
 AllocKind
 :
 :
@@ -517,7 +522,7 @@ int
 AllocKind
 :
 :
-OBJECT0
+OBJECT_FIRST
 AllocKind
 :
 :
@@ -675,6 +680,8 @@ map
 ]
 =
 {
+JSTRACE_OBJECT
+JSTRACE_OBJECT
 JSTRACE_OBJECT
 JSTRACE_OBJECT
 JSTRACE_OBJECT

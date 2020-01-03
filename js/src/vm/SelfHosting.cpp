@@ -10716,10 +10716,13 @@ kind
 =
 hasName
 ?
-JSFunction
+gc
 :
 :
-ExtendedFinalizeKind
+AllocKind
+:
+:
+FUNCTION_EXTENDED
 :
 selfHostedFunction
 -

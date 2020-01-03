@@ -4681,10 +4681,13 @@ gc
 AllocKind
 ctorKind
 =
-JSFunction
+gc
 :
 :
-FinalizeKind
+AllocKind
+:
+:
+FUNCTION
 )
 ;
 }

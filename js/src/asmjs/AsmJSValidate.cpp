@@ -46728,10 +46728,13 @@ JSFunction
 :
 INTERPRETED
 name
-JSFunction
+gc
 :
 :
-FinalizeKind
+AllocKind
+:
+:
+FUNCTION
 TenuredObject
 )
 )

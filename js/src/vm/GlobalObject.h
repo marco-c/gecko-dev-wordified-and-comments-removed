@@ -1259,10 +1259,13 @@ gc
 AllocKind
 kind
 =
-JSFunction
+gc
 :
 :
-FinalizeKind
+AllocKind
+:
+:
+FUNCTION
 )
 ;
 NativeObject

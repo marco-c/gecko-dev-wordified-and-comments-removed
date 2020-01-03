@@ -54,10 +54,10 @@ clasp
 FunctionClassPtr
 )
 return
-JSFunction
+AllocKind
 :
 :
-FinalizeKind
+FUNCTION
 ;
 uint32_t
 nslots

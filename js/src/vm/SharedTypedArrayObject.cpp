@@ -4131,10 +4131,13 @@ Object
 class_constructor
 3
 \
-JSFunction
+gc
 :
 :
-FinalizeKind
+AllocKind
+:
+:
+FUNCTION
 >
 \
 Shared

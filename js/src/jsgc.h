@@ -558,6 +558,8 @@ map
 ]
 =
 {
+true
+true
 false
 true
 false
@@ -635,6 +637,8 @@ map
 ]
 =
 {
+true
+true
 false
 true
 false
@@ -1361,6 +1365,12 @@ case
 AllocKind
 :
 :
+FUNCTION
+:
+case
+AllocKind
+:
+:
 OBJECT0
 :
 case
@@ -1372,6 +1382,12 @@ OBJECT0_BACKGROUND
 return
 0
 ;
+case
+AllocKind
+:
+:
+FUNCTION_EXTENDED
+:
 case
 AllocKind
 :

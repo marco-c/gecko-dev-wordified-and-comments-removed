@@ -3224,10 +3224,13 @@ JSFunction
 :
 INTERPRETED_LAZY
 name
-JSFunction
+gc
 :
 :
-ExtendedFinalizeKind
+AllocKind
+:
+:
+FUNCTION_EXTENDED
 SingletonObject
 )
 ;
