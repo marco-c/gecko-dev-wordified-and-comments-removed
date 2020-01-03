@@ -48,12 +48,6 @@ waitForExplicitFinish
 (
 )
 ;
-PopupNotifications
-.
-transitionsEnabled
-=
-false
-;
 removePermission
 (
 testPageURL
@@ -402,12 +396,6 @@ testPageURL
 indexedDB
 "
 )
-;
-PopupNotifications
-.
-transitionsEnabled
-=
-true
 ;
 executeSoon
 (

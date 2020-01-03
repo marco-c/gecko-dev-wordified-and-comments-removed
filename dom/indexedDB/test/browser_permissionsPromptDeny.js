@@ -48,12 +48,6 @@ waitForExplicitFinish
 (
 )
 ;
-PopupNotifications
-.
-transitionsEnabled
-=
-false
-;
 removePermission
 (
 testPageURL
@@ -427,12 +421,6 @@ gBrowser
 removeCurrentTab
 (
 )
-;
-PopupNotifications
-.
-transitionsEnabled
-=
-true
 ;
 executeSoon
 (
