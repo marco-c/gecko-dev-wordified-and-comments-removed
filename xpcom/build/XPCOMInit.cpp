@@ -794,6 +794,17 @@ defined
 MOZ_VPX_NO_MEM_REPORTING
 )
 #
+if
+defined
+(
+HAVE_STDINT_H
+)
+#
+undef
+HAVE_STDINT_H
+#
+endif
+#
 include
 "
 vpx_mem
