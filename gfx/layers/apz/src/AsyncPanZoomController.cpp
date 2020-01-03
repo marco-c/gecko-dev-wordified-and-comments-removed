@@ -448,13 +448,6 @@ h
 #
 include
 "
-nsISupportsImpl
-.
-h
-"
-#
-include
-"
 nsMathUtils
 .
 h
@@ -3103,11 +3096,6 @@ mAsyncTransformAppliedToContent
 false
 )
 {
-MOZ_COUNT_CTOR
-(
-AsyncPanZoomController
-)
-;
 if
 (
 aGestures
@@ -3134,11 +3122,6 @@ AsyncPanZoomController
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-AsyncPanZoomController
-)
-;
 }
 PCompositorParent
 *
