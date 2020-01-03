@@ -1055,6 +1055,12 @@ PreloadSlowThings
 )
 ;
 static
+void
+PostForkPreload
+(
+)
+;
+static
 already_AddRefed
 <
 TabChild
