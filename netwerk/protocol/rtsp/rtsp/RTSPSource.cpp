@@ -3496,6 +3496,12 @@ err
 =
 -
 EWOULDBLOCK
+|
+|
+err
+=
+=
+ERROR_END_OF_STREAM
 )
 {
 return
