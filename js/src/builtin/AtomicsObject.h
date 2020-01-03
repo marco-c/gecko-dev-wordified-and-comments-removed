@@ -399,9 +399,9 @@ FutexState
 {
 Idle
 Waiting
+WaitingNotifiedForInterrupt
 WaitingInterrupted
 Woken
-WokenForJSInterrupt
 }
 ;
 PRCondVar
