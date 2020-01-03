@@ -106,14 +106,6 @@ recognition
 .
 enable
 "
-Func
-=
-"
-SpeechRecognition
-:
-:
-IsAuthorized
-"
 Constructor
 (
 DOMString

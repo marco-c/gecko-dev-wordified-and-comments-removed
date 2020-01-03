@@ -162,14 +162,6 @@ recognition
 .
 enable
 "
-Func
-=
-"
-SpeechRecognition
-:
-:
-IsAuthorized
-"
 ]
 interface
 SpeechRecognitionResult
