@@ -385,6 +385,11 @@ preserveDrawingBuffer
 =
 false
 ;
+boolean
+failIfMajorPerformanceCaveat
+=
+false
+;
 }
 ;
 interface
