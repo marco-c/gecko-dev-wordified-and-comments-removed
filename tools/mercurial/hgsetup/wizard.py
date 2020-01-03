@@ -19,7 +19,7 @@ distutils
 .
 version
 import
-StrictVersion
+LooseVersion
 from
 configobj
 import
@@ -170,7 +170,7 @@ strip
 )
 OLDEST_NON_LEGACY_VERSION
 =
-StrictVersion
+LooseVersion
 (
 '
 3
@@ -665,7 +665,7 @@ strip
 )
 REVIEWBOARD_MINIMUM_VERSION
 =
-StrictVersion
+LooseVersion
 (
 '
 3
@@ -794,7 +794,7 @@ lstrip
 )
 BZPOST_MINIMUM_VERSION
 =
-StrictVersion
+LooseVersion
 (
 '
 3
@@ -839,7 +839,7 @@ strip
 )
 FIREFOXTREE_MINIMUM_VERSION
 =
-StrictVersion
+LooseVersion
 (
 '
 3
