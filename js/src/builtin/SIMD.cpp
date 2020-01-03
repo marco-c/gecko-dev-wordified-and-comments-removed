@@ -26,6 +26,15 @@ include
 "
 builtin
 /
+SIMDShuffleMaskConstants
+.
+h
+"
+#
+include
+"
+builtin
+/
 TypedObject
 .
 h
@@ -2213,6 +2222,8 @@ SIMD
 )
 return
 nullptr
+;
+SET_ALL_SHUFFLE_MASKS
 ;
 RootedObject
 float32x4Object
