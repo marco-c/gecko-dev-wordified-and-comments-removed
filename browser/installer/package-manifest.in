@@ -1866,6 +1866,9 @@ components
 toolkit_osfile
 .
 xpt
+#
+ifdef
+NIGHTLY_BUILD
 RESPATH
 /
 components
@@ -1873,6 +1876,8 @@ components
 toolkit_perfmonitoring
 .
 xpt
+#
+endif
 RESPATH
 /
 components
