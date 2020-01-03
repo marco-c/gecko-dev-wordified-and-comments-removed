@@ -3587,17 +3587,6 @@ aNode
 uri
 aWhere
 {
-allowPopups
-:
-url
-.
-startsWith
-(
-"
-javascript
-:
-"
-)
 inBackground
 :
 Services
