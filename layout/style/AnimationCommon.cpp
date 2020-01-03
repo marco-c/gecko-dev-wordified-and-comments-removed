@@ -900,6 +900,9 @@ HasAttributeDependentStyle
 AttributeRuleProcessorData
 *
 aData
+RestyleHintData
+&
+aRestyleHintDataResult
 )
 {
 return

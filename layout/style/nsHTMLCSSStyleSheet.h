@@ -149,6 +149,12 @@ HasAttributeDependentStyle
 AttributeRuleProcessorData
 *
 aData
+mozilla
+:
+:
+RestyleHintData
+&
+aRestyleHintDataResult
 )
 override
 ;

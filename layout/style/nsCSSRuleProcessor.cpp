@@ -12696,6 +12696,9 @@ HasAttributeDependentStyle
 AttributeRuleProcessorData
 *
 aData
+RestyleHintData
+&
+aRestyleHintDataResult
 )
 {
 AttributeEnumData
