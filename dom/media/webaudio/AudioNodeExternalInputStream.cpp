@@ -50,6 +50,8 @@ AudioNodeEngine
 aEngine
 TrackRate
 aSampleRate
+uint32_t
+aContextId
 )
 :
 AudioNodeStream
@@ -60,6 +62,7 @@ MediaStreamGraph
 :
 INTERNAL_STREAM
 aSampleRate
+aContextId
 )
 {
 MOZ_COUNT_CTOR

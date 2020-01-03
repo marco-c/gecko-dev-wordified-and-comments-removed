@@ -215,6 +215,11 @@ FFTBlock
 .
 h
 '
+'
+MediaStreamAudioDestinationNode
+.
+h
+'
 ]
 EXPORTS
 .
