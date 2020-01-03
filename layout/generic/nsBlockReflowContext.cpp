@@ -1675,9 +1675,15 @@ ComputedLogicalMargin
 (
 )
 .
+ConvertTo
+(
+parentWM
+wm
+)
+.
 BEnd
 (
-wm
+parentWM
 )
 )
 ;
