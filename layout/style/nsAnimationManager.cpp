@@ -1914,7 +1914,7 @@ now
 aTimeline
 -
 >
-GetCurrentTimeDuration
+GetCurrentTime
 (
 )
 ;

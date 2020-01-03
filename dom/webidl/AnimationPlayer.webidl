@@ -219,6 +219,13 @@ double
 ?
 startTime
 ;
+[
+BinaryName
+=
+"
+currentTimeAsDouble
+"
+]
 readonly
 attribute
 double

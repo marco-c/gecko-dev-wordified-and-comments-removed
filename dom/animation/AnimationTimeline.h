@@ -116,7 +116,7 @@ MOZ_OVERRIDE
 ;
 Nullable
 <
-double
+TimeDuration
 >
 GetCurrentTime
 (
@@ -125,9 +125,9 @@ const
 ;
 Nullable
 <
-TimeDuration
+double
 >
-GetCurrentTimeDuration
+GetCurrentTimeAsDouble
 (
 )
 const
