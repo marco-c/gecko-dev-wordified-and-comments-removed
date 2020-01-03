@@ -460,6 +460,11 @@ AbortUpdating
 )
 ;
 void
+CheckEndTime
+(
+)
+;
+void
 AppendData
 (
 const
