@@ -5021,6 +5021,16 @@ lock
 aLockID
 )
 ;
+if
+(
+this
+.
+lockInfo
+[
+aLockID
+]
+)
+{
 let
 transaction
 =
@@ -5100,6 +5110,7 @@ lockInfo
 aLockID
 ]
 ;
+}
 let
 index
 =
