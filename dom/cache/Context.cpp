@@ -1752,13 +1752,6 @@ mAction
 ;
 MOZ_ASSERT
 (
-mQuotaInfo
-.
-mDir
-)
-;
-MOZ_ASSERT
-(
 mInitiatingThread
 )
 ;
