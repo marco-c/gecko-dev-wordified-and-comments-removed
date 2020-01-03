@@ -57,7 +57,9 @@ source
 "
 {
 {
+{
 source
+}
 }
 }
 "
@@ -265,7 +267,9 @@ GECKO_BASE_REPOSITORY
 '
 {
 {
+{
 url
+}
 }
 }
 '
@@ -274,7 +278,9 @@ GECKO_HEAD_REPOSITORY
 '
 {
 {
+{
 url
+}
 }
 }
 '
