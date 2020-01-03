@@ -1484,6 +1484,9 @@ bool
 mTrackDemuxersMayBlock
 ;
 bool
+mHardwareAccelerationDisabled
+;
+bool
 IsSeeking
 (
 )

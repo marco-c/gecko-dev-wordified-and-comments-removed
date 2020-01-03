@@ -850,10 +850,6 @@ mDecodingFirstFrame
 (
 true
 )
-mDisabledHardwareAcceleration
-(
-false
-)
 mSentLoadedMetadataEvent
 (
 false
@@ -11588,10 +11584,6 @@ insert
 ;
 if
 (
-!
-mDisabledHardwareAcceleration
-&
-&
 mReader
 -
 >
@@ -11649,9 +11641,11 @@ forget
 )
 )
 ;
-mDisabledHardwareAcceleration
-=
-true
+mCorruptFrames
+.
+clear
+(
+)
 ;
 gfxCriticalNote
 <

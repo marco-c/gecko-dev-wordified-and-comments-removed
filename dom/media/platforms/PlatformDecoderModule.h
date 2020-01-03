@@ -240,13 +240,6 @@ const
 0
 ;
 virtual
-void
-DisableHardwareAcceleration
-(
-)
-{
-}
-virtual
 bool
 SupportsSharedDecoders
 (

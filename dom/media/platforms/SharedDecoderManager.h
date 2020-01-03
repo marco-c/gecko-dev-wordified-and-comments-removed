@@ -119,11 +119,6 @@ friend
 class
 SharedDecoderCallback
 ;
-void
-DisableHardwareAcceleration
-(
-)
-;
 bool
 Recreate
 (
