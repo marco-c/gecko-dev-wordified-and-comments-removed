@@ -3384,11 +3384,14 @@ getShader
 transform
 )
 ;
+SkSafeUnref
+(
 maskPaint
 .
 setShader
 (
 matrixShader
+)
 )
 ;
 SkLayerRasterizer
