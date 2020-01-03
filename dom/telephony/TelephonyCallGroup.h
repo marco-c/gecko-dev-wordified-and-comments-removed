@@ -220,15 +220,7 @@ connected
 )
 IMPL_EVENT_HANDLER
 (
-holding
-)
-IMPL_EVENT_HANDLER
-(
 held
-)
-IMPL_EVENT_HANDLER
-(
-resuming
 )
 IMPL_EVENT_HANDLER
 (
