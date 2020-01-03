@@ -1220,3 +1220,9 @@ true
 }
 }
 }
+#
+undef
+ON_GMP_THREAD
+#
+undef
+CALL_ON_GMP_THREAD
