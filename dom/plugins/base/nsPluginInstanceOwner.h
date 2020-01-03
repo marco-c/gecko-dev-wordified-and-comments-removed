@@ -207,6 +207,8 @@ void
 aHeadersData
 uint32_t
 aHeadersDataLen
+bool
+aDoCheckLoadURIChecks
 )
 override
 ;
