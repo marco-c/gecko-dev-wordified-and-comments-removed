@@ -315,7 +315,7 @@ nsTArray
 <
 int32_t
 >
-mPowerLevelQueue
+mRfStateQueue
 ;
 }
 ;
