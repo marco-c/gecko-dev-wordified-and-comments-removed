@@ -16030,6 +16030,15 @@ GetDocument
 IsRootDisplayDocument
 (
 )
+&
+&
+!
+presShell
+-
+>
+GetRootScrollFrame
+(
+)
 )
 {
 if
