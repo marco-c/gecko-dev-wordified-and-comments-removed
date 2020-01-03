@@ -16554,11 +16554,16 @@ GetStartParent
 )
 )
 ;
-NS_ENSURE_STATE
+if
 (
+!
 content
 )
+{
+return
+NS_ERROR_UNEXPECTED
 ;
+}
 if
 (
 content
