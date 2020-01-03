@@ -3,6 +3,13 @@ use
 strict
 "
 ;
+thisTestLeaksUncaughtRejectionsAndShouldBeFixed
+(
+"
+destroy
+"
+)
+;
 let
 test
 =

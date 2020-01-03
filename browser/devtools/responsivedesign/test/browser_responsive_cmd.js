@@ -1,3 +1,10 @@
+thisTestLeaksUncaughtRejectionsAndShouldBeFixed
+(
+"
+destroy
+"
+)
+;
 function
 test
 (
