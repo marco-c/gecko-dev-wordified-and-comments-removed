@@ -2854,6 +2854,12 @@ SubtreeRoot
 if
 (
 document
+&
+&
+!
+GetContainingShadow
+(
+)
 )
 {
 if

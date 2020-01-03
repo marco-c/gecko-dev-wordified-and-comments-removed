@@ -6706,6 +6706,12 @@ HasFlag
 (
 NODE_MAY_BE_IN_BINDING_MNGR
 )
+&
+&
+!
+GetShadowRoot
+(
+)
 )
 {
 nsContentUtils
