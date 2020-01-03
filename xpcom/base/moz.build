@@ -326,11 +326,6 @@ nsISupportsBase
 h
 '
 '
-nsISupportsObsolete
-.
-h
-'
-'
 nsObjCExceptions
 .
 h
