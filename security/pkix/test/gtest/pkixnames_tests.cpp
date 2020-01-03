@@ -299,6 +299,8 @@ Result
 :
 ERROR_BAD_DER
 \
+false
+\
 }
 static
 const

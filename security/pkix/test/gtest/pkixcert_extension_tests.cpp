@@ -199,7 +199,6 @@ const
 CertPolicyId
 &
 Input
-candidateCert
 TrustLevel
 &
 trustLevel

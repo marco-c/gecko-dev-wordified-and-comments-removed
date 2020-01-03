@@ -63,6 +63,8 @@ CONSTRUCTED
 ;
 enum
 Tag
+:
+uint8_t
 {
 BOOLEAN
 =
