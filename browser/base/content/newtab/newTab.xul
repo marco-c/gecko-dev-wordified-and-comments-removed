@@ -437,17 +437,6 @@ search
 -
 manage
 "
-class
-=
-"
-newtab
--
-search
--
-panel
--
-engine
-"
 >
 <
 xul

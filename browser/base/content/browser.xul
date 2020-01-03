@@ -2797,17 +2797,6 @@ panel
 -
 manage
 "
-class
-=
-"
-abouthome
--
-search
--
-panel
--
-item
-"
 onclick
 =
 "
