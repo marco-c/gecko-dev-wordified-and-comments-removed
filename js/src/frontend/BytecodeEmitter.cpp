@@ -30352,9 +30352,10 @@ isMethod
 if
 (
 !
-emit1
+emit2
 (
 JSOP_INITHOMEOBJECT
+isIndex
 )
 )
 return
@@ -32028,9 +32029,10 @@ needsHomeObject
 if
 (
 !
-emit1
+emit2
 (
 JSOP_INITHOMEOBJECT
+0
 )
 )
 return
