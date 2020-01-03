@@ -1,0 +1,6 @@
+window
+.
+hasCORSLoaded
+=
+true
+;

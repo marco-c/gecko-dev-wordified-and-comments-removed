@@ -138,6 +138,13 @@ mochitest
 .
 ini
 '
+'
+sri
+/
+mochitest
+.
+ini
+'
 ]
 MOCHITEST_CHROME_MANIFESTS
 +
