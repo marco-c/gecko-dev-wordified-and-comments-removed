@@ -4924,8 +4924,6 @@ nsIThreadInternal
 aThread
 bool
 aMayWait
-uint32_t
-aRecursionDepth
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
@@ -4973,7 +4971,6 @@ OnProcessNextEvent
 (
 aThread
 aMayWait
-aRecursionDepth
 )
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
@@ -5030,8 +5027,6 @@ AfterProcessNextEvent
 nsIThreadInternal
 *
 aThread
-uint32_t
-aRecursionDepth
 bool
 aEventWasProcessed
 )
@@ -5114,7 +5109,6 @@ nsBaseAppShell
 AfterProcessNextEvent
 (
 aThread
-aRecursionDepth
 aEventWasProcessed
 )
 ;

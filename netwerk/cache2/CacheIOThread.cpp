@@ -1289,8 +1289,6 @@ nsIThreadInternal
 thread
 bool
 mayWait
-uint32_t
-recursionDepth
 )
 {
 return
@@ -1306,8 +1304,6 @@ AfterProcessNextEvent
 nsIThreadInternal
 *
 thread
-uint32_t
-recursionDepth
 bool
 eventWasProcessed
 )

@@ -125,14 +125,6 @@ chrome
 ini
 '
 ]
-GeckoCppUnitTests
-(
-[
-'
-TestAppShellSteadyState
-'
-]
-)
 FAIL_ON_WARNINGS
 =
 True

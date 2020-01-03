@@ -1381,8 +1381,6 @@ nsIThreadInternal
 aThread
 bool
 aMayWait
-uint32_t
-aRecursionDepth
 )
 {
 FireLoadEvent
@@ -1403,8 +1401,6 @@ AfterProcessNextEvent
 nsIThreadInternal
 *
 aThread
-uint32_t
-aRecursionDepth
 bool
 aEventWasProcessed
 )

@@ -1119,8 +1119,6 @@ nsIThreadInternal
 *
 bool
 aMayWait
-uint32_t
-aRecursionDepth
 )
 {
 mWorkerPrivate
@@ -1137,7 +1135,17 @@ aMayWait
 {
 MOZ_ASSERT
 (
-aRecursionDepth
+CycleCollectedJSRuntime
+:
+:
+Get
+(
+)
+-
+>
+RecursionDepth
+(
+)
 =
 =
 2
@@ -1163,7 +1171,6 @@ mWorkerPrivate
 >
 OnProcessNextEvent
 (
-aRecursionDepth
 )
 ;
 return
@@ -1181,8 +1188,6 @@ AfterProcessNextEvent
 (
 nsIThreadInternal
 *
-uint32_t
-aRecursionDepth
 bool
 )
 {
@@ -1198,7 +1203,6 @@ mWorkerPrivate
 >
 AfterProcessNextEvent
 (
-aRecursionDepth
 )
 ;
 return

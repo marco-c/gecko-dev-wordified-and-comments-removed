@@ -2212,6 +2212,13 @@ ref
 )
 ;
 }
+runtime
+-
+>
+AfterProcessMicrotask
+(
+)
+;
 }
 while
 (

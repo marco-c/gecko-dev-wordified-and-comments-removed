@@ -105703,7 +105703,6 @@ OnProcessNextEvent
 nsIThreadInternal
 *
 bool
-uint32_t
 )
 {
 return
@@ -105718,7 +105717,6 @@ AfterProcessNextEvent
 (
 nsIThreadInternal
 *
-uint32_t
 bool
 )
 {
