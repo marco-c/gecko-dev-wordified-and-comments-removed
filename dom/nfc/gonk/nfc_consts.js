@@ -218,6 +218,12 @@ PEER_EVENT_FOUND
 ;
 this
 .
+RF_EVENT_STATE_CHANGE
+=
+0x06
+;
+this
+.
 EXPORTED_SYMBOLS
 =
 Object
