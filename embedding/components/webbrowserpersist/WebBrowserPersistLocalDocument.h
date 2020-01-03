@@ -128,13 +128,12 @@ nsIDocumentEncoder
 aEncoder
 )
 ;
-nsresult
+already_AddRefed
+<
+nsISHEntry
+>
 GetHistory
 (
-nsISHEntry
-*
-*
-aHistory
 )
 ;
 virtual
