@@ -19198,7 +19198,7 @@ lsh
 =
 i4
 .
-shiftLeft
+shiftLeftByScalar
 ;
 '
 const
@@ -19210,7 +19210,7 @@ rsh
 =
 i4
 .
-shiftRight
+shiftRightArithmeticByScalar
 ;
 '
 const
@@ -19222,7 +19222,7 @@ ursh
 =
 i4
 .
-shiftRightLogical
+shiftRightLogicalByScalar
 ;
 '
 assertAsmTypeFail

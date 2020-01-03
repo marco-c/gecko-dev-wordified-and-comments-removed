@@ -77,7 +77,7 @@ SIMD
 .
 int32x4
 .
-shiftRightLogical
+shiftRightLogicalByScalar
 (
 a
 bits
@@ -193,7 +193,7 @@ SIMD
 .
 int32x4
 .
-shiftRightLogical
+shiftRightLogicalByScalar
 (
 d
 0
