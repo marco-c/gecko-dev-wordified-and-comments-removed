@@ -12108,15 +12108,9 @@ Handle
 jsid
 >
 aId
-JS
-:
-:
-MutableHandle
-<
-JSObject
+bool
 *
->
-aObjp
+aResolvedp
 )
 ;
 bool

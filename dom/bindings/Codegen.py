@@ -2846,21 +2846,7 @@ NeedNewResolve
             
 newResolveHook
 =
-"
-(
-JSResolveOp
-)
-"
-+
 NEWRESOLVE_HOOK_NAME
-            
-classFlags
-+
-=
-"
-|
-JSCLASS_NEW_RESOLVE
-"
             
 enumerateHook
 =
@@ -2879,9 +2865,6 @@ isGlobal
 newResolveHook
 =
 "
-(
-JSResolveOp
-)
 mozilla
 :
 :
@@ -2889,14 +2872,6 @@ dom
 :
 :
 ResolveGlobal
-"
-            
-classFlags
-+
-=
-"
-|
-JSCLASS_NEW_RESOLVE
 "
             
 enumerateHook
@@ -52877,17 +52852,11 @@ id
 Argument
 (
 '
-JS
-:
-:
-MutableHandle
-<
-JSObject
+bool
 *
->
 '
 '
-objp
+resolvedp
 '
 )
 ]
@@ -53081,12 +53050,10 @@ false
             
 }
             
-objp
-.
-set
-(
-obj
-)
+*
+resolvedp
+=
+true
 ;
             
 return
@@ -53132,7 +53099,7 @@ ResolveGlobal
 cx
 obj
 id
-objp
+resolvedp
 )
 )
 {
@@ -53145,7 +53112,8 @@ false
                 
 if
 (
-objp
+*
+resolvedp
 )
 {
                   
