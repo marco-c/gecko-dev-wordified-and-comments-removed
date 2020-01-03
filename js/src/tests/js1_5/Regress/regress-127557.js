@@ -143,11 +143,6 @@ n
 }
 )
 "
-{
-compileAndGo
-:
-false
-}
 )
 ;
 var

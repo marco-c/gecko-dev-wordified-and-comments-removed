@@ -452,11 +452,6 @@ x
 }
 )
 "
-{
-compileAndGo
-:
-false
-}
 )
 )
 ;

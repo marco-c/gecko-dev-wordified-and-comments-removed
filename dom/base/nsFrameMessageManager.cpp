@@ -8038,11 +8038,6 @@ else
 {
 options
 .
-setCompileAndGo
-(
-false
-)
-.
 setHasPollutedScope
 (
 true

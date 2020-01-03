@@ -776,11 +776,6 @@ options
 canLazilyParse
 &
 &
-options
-.
-compileAndGo
-&
-&
 !
 options
 .
@@ -1209,7 +1204,7 @@ MOZ_ASSERT_IF
 evalCaller
 options
 .
-compileAndGo
+isRunOnce
 )
 ;
 MOZ_ASSERT_IF
@@ -2428,11 +2423,6 @@ lazy
 column
 (
 )
-)
-.
-setCompileAndGo
-(
-true
 )
 .
 setNoScriptRval

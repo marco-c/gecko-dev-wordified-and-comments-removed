@@ -23,11 +23,6 @@ x
 ;
 }
 "
-{
-compileAndGo
-:
-false
-}
 )
 ;
 var

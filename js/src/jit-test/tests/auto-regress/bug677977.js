@@ -177,11 +177,6 @@ a
 }
 )
 "
-{
-compileAndGo
-:
-false
-}
 )
 ;
 var

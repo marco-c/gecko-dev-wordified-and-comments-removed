@@ -84,9 +84,6 @@ d
 ;
 "
 {
-compileAndGo
-:
-true
 isRunOnce
 :
 true
