@@ -5630,6 +5630,11 @@ _dataDefaultServiceId
 if
 (
 mobile
+&
+&
+mobile
+.
+name
 )
 {
 this
@@ -6414,6 +6419,11 @@ _dataDefaultServiceId
 if
 (
 mobile
+&
+&
+mobile
+.
+name
 )
 {
 this
