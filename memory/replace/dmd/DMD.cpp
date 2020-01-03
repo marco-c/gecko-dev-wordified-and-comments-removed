@@ -7538,16 +7538,6 @@ NumReports
 0
 )
 {
-MOZ_ASSERT
-(
-gOptions
--
->
-IsDarkMatterMode
-(
-)
-)
-;
 writer
 .
 StartArrayProperty
