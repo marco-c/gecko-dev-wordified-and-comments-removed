@@ -351,6 +351,13 @@ cpp
 '
 bluedroid
 /
+BluetoothGattHALInterface
+.
+cpp
+'
+'
+bluedroid
+/
 BluetoothHALHelpers
 .
 cpp

@@ -332,6 +332,12 @@ GetBluetoothAvrcpInterface
 (
 )
 ;
+BluetoothGattInterface
+*
+GetBluetoothGattInterface
+(
+)
+;
 protected
 :
 BluetoothHALInterface
