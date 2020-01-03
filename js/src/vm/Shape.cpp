@@ -6735,7 +6735,7 @@ lookup
 base
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ptr
 .
@@ -7347,7 +7347,7 @@ lookup
 lookup
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ptr
 .
