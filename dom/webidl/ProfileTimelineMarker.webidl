@@ -198,5 +198,16 @@ ProfileTimelineLayerRect
 >
 rectangles
 ;
+/
+*
+For
+Style
+markers
+.
+*
+/
+DOMString
+restyleHint
+;
 }
 ;

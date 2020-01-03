@@ -18355,9 +18355,6 @@ structs
 }
 #
 endif
-#
-ifdef
-DEBUG
 nsCString
 RestyleManager
 :
@@ -18578,6 +18575,9 @@ return
 result
 ;
 }
+#
+ifdef
+DEBUG
 nsCString
 RestyleManager
 :
