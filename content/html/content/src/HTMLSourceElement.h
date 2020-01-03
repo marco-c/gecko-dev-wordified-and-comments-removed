@@ -124,17 +124,6 @@ aCompileEventHandlers
 )
 MOZ_OVERRIDE
 ;
-virtual
-void
-UnbindFromTree
-(
-bool
-aDeep
-bool
-aNullParent
-)
-MOZ_OVERRIDE
-;
 bool
 MatchesCurrentMedia
 (
