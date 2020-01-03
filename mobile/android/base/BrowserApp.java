@@ -9978,11 +9978,11 @@ null
 {
 final
 String
-userSearch
+userRequested
 =
 tab
 .
-getUserSearch
+getUserRequested
 (
 )
 ;
@@ -9993,7 +9993,7 @@ TextUtils
 .
 isEmpty
 (
-userSearch
+userRequested
 )
 ?
 tab
@@ -10002,7 +10002,7 @@ getURL
 (
 )
 :
-userSearch
+userRequested
 )
 ;
 }
