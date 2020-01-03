@@ -89,6 +89,15 @@ mMarkerList
 }
 static
 bool
+HasClippedOverflow
+(
+nsIFrame
+*
+aBlockFrame
+)
+;
+static
+bool
 CanHaveTextOverflow
 (
 nsDisplayListBuilder
