@@ -6937,14 +6937,6 @@ argc
 vp
 )
 ;
-MOZ_ASSERT
-(
-!
-InParallelSection
-(
-)
-)
-;
 args
 .
 rval

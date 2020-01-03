@@ -1033,12 +1033,6 @@ TP_RETRY_AFTER_GC
 TP_FATAL
 }
 ;
-struct
-ThreadSafeContext
-;
-class
-ForkJoinContext
-;
 class
 ExclusiveContext
 ;

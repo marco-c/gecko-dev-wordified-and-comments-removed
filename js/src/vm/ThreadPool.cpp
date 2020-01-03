@@ -73,6 +73,9 @@ Runtime
 .
 h
 "
+#
+if
+0
 using
 namespace
 js
@@ -1822,3 +1825,5 @@ hasWork
 )
 ;
 }
+#
+endif

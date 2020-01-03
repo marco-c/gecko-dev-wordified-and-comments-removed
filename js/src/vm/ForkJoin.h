@@ -62,6 +62,9 @@ define
 FORKJOIN_SPEW
 #
 endif
+#
+if
+0
 namespace
 js
 {
@@ -1037,5 +1040,7 @@ nullptr
 ;
 }
 }
+#
+endif
 #
 endif
