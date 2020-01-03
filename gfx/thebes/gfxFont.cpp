@@ -398,7 +398,7 @@ define
 LOG_FONTINIT_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 \
 gfxPlatform

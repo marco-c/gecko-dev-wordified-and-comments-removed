@@ -1045,7 +1045,7 @@ Shutdown
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetTimerLog
 (
@@ -1902,7 +1902,7 @@ Now
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetTimerLog
 (
@@ -2547,7 +2547,7 @@ NS_OK
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetTimerLog
 (
@@ -2706,7 +2706,7 @@ forget
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetTimerLog
 (
@@ -2930,7 +2930,7 @@ delayInterval
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetTimerLog
 (

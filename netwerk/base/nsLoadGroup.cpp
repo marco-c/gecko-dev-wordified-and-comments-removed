@@ -1224,7 +1224,7 @@ continue
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLoadGroupLog
 PR_LOG_DEBUG
@@ -1514,7 +1514,7 @@ continue
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLoadGroupLog
 PR_LOG_DEBUG
@@ -1742,7 +1742,7 @@ continue
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLoadGroupLog
 PR_LOG_DEBUG
@@ -2040,7 +2040,7 @@ rv
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLoadGroupLog
 PR_LOG_DEBUG
@@ -2455,7 +2455,7 @@ rv
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLoadGroupLog
 PR_LOG_DEBUG

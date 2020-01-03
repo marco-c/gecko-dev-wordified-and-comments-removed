@@ -2908,7 +2908,7 @@ aLastPart
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetImgLog
 (
@@ -3078,7 +3078,7 @@ BlockOnload
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetImgLog
 (
@@ -3153,7 +3153,7 @@ UnblockOnload
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetImgLog
 (

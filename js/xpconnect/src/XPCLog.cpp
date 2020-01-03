@@ -141,7 +141,7 @@ g_Spaces
 |
 |
 !
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 g_LogMod
 1
@@ -303,7 +303,7 @@ return
 CAN_RUN
 &
 &
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 g_LogMod
 1

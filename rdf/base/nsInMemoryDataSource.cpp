@@ -2913,7 +2913,7 @@ aTruthValue
 if
 (
 !
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLog
 PR_LOG_NOTICE

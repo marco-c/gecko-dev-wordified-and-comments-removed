@@ -233,7 +233,7 @@ define
 LOG_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gJarProtocolLog
 4

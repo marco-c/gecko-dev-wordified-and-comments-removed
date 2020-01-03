@@ -10343,7 +10343,7 @@ if
 gDocumentLeakPRLog
 &
 &
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDocumentLeakPRLog
 PR_LOG_DEBUG
@@ -11766,7 +11766,7 @@ if
 gDocumentLeakPRLog
 &
 &
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gDocumentLeakPRLog
 PR_LOG_DEBUG
@@ -12904,7 +12904,7 @@ IsEmpty
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gCspPRLog
 PR_LOG_DEBUG
