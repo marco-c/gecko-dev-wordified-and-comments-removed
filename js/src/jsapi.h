@@ -19949,6 +19949,7 @@ AsmJSCache_MIN
 AsmJSCache_ModuleTooSmall
 AsmJSCache_SynchronousScript
 AsmJSCache_QuotaExceeded
+AsmJSCache_StorageInitFailure
 AsmJSCache_Disabled_Internal
 AsmJSCache_Disabled_ShellFlags
 AsmJSCache_Disabled_JitInspector
