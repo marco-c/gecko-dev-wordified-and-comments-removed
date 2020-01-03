@@ -3189,6 +3189,13 @@ PROVIDER_API
 )
 ;
 }
+isWebIDEInitialized
+:
+promise
+.
+defer
+(
+)
 uninstallWebIDEWidget
 :
 function

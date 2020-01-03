@@ -942,6 +942,14 @@ zoom
 "
 )
 ;
+gDevToolsBrowser
+.
+isWebIDEInitialized
+.
+resolve
+(
+)
+;
 }
 uninit
 :
