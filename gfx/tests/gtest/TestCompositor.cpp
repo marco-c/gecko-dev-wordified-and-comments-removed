@@ -1054,8 +1054,14 @@ gCompHeight
 layerManager
 -
 >
-EndEmptyTransaction
+EndTransaction
 (
+TimeStamp
+:
+:
+Now
+(
+)
 )
 ;
 RefPtr

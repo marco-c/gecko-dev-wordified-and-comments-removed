@@ -4895,8 +4895,9 @@ false
 mLayerManager
 -
 >
-EndEmptyTransaction
+EndTransaction
 (
+time
 )
 ;
 if
@@ -5054,6 +5055,16 @@ ScheduleComposition
 )
 ;
 }
+mCompositor
+-
+>
+SetCompositionTime
+(
+TimeStamp
+(
+)
+)
+;
 mozilla
 :
 :
