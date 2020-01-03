@@ -120,6 +120,10 @@ mPopupLevel
 (
 ePopupLevelTop
 )
+mScreenId
+(
+0
+)
 clipChildren
 (
 false
@@ -181,6 +185,9 @@ mPopupHint
 ;
 nsPopupLevel
 mPopupLevel
+;
+uint32_t
+mScreenId
 ;
 bool
 clipChildren

@@ -171,6 +171,9 @@ mModalWindowCount
 bool
 mApplicationProvidedHiddenWindow
 ;
+uint32_t
+mScreenId
+;
 }
 ;
 #
