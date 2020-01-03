@@ -297,6 +297,16 @@ aNode
 )
 ;
 static
+Accessible
+*
+TableFor
+(
+Accessible
+*
+aRow
+)
+;
+static
 bool
 IsARIASelected
 (
