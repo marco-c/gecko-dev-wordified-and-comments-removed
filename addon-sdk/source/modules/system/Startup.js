@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -189,7 +190,7 @@ done
 }
 ;
 var
-Startup
+exports
 =
 {
 initialized
@@ -200,10 +201,11 @@ appStartupSrv
 startingUp
 }
 ;
-var
-exports
-=
+this
+.
 Startup
+=
+exports
 ;
 let
 gOnceInitializedDeferred
