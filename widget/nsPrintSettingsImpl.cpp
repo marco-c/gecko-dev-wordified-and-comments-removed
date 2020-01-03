@@ -20,6 +20,13 @@ nsIPrintSession
 h
 "
 #
+include
+"
+nsRefPtr
+.
+h
+"
+#
 define
 DEFAULT_MARGIN_WIDTH
 0
