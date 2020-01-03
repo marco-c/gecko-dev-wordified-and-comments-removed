@@ -3014,6 +3014,15 @@ browser
 /
 components
 /
+EdgeProfileMigrator
+.
+js
+RESPATH
+/
+browser
+/
+components
+/
 IEProfileMigrator
 .
 js
