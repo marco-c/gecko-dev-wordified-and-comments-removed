@@ -207,7 +207,7 @@ commitEditingMode
 )
 ;
 }
-public
+private
 static
 String
 adjustUrl

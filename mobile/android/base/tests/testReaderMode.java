@@ -381,9 +381,6 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_TEXT_PAGE_TITLE
-StringHelper
-.
-ROBOCOP_TEXT_PAGE_URL
 )
 ;
 height
@@ -1029,9 +1026,6 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_TEXT_PAGE_TITLE
-StringHelper
-.
-ROBOCOP_TEXT_PAGE_URL
 )
 ;
 height
@@ -1147,9 +1141,6 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_TEXT_PAGE_TITLE
-StringHelper
-.
-ROBOCOP_TEXT_PAGE_URL
 )
 ;
 openAboutHomeTab

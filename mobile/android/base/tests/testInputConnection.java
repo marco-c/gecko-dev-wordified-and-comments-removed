@@ -192,10 +192,10 @@ blockForReady
 (
 )
 ;
-final
-String
-url
-=
+NavigationHelper
+.
+enterAndLoadUrl
+(
 StringHelper
 .
 ROBOCOP_INPUT_URL
@@ -205,12 +205,6 @@ ROBOCOP_INPUT_URL
 "
 +
 INITIAL_TEXT
-;
-NavigationHelper
-.
-enterAndLoadUrl
-(
-url
 )
 ;
 mToolbar
@@ -220,7 +214,6 @@ assertTitle
 StringHelper
 .
 ROBOCOP_INPUT_TITLE
-url
 )
 ;
 mGeckoView
