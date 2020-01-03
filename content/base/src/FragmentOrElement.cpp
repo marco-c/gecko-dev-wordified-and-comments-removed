@@ -6288,6 +6288,14 @@ tmp
 )
 ;
 }
+tmp
+-
+>
+UnsetFlags
+(
+NODE_IS_IN_SHADOW_TREE
+)
+;
 {
 nsDOMSlots
 *
