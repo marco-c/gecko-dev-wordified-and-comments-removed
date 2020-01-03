@@ -685,7 +685,7 @@ uint32_t
 aFlags
 )
 ;
-nsresult
+void
 SetMetadata
 (
 const
