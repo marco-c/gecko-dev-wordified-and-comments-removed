@@ -485,6 +485,11 @@ Crypto
 webidl
 '
 '
+CSPDictionaries
+.
+webidl
+'
+'
 CSPReport
 .
 webidl
