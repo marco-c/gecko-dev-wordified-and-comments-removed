@@ -336,7 +336,7 @@ AssertOnDispatchThread
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mComplete
@@ -1226,7 +1226,7 @@ lock
 mMutex
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsExclusive
@@ -1409,7 +1409,7 @@ lock
 mMutex
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsExclusive
@@ -2252,7 +2252,7 @@ Consumer
 aConsumer
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 Exists
@@ -2270,7 +2270,7 @@ Complete
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 Exists
 (

@@ -624,7 +624,7 @@ return
 p
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mAudioSeekRequest
@@ -771,7 +771,7 @@ AudioData
 aSample
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsSeeking
@@ -1027,7 +1027,7 @@ NotDecodedReason
 aReason
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsSeeking
@@ -1323,7 +1323,7 @@ return
 p
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mVideoSeekRequest
@@ -1472,7 +1472,7 @@ VideoData
 aSample
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsSeeking
@@ -1618,7 +1618,7 @@ NotDecodedReason
 aReason
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 IsSeeking
