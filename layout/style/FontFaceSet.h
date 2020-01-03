@@ -128,6 +128,7 @@ FontFaceSet
 ;
 public
 :
+explicit
 UserFontSet
 (
 FontFaceSet

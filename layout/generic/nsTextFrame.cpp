@@ -553,6 +553,7 @@ TabWidth
 &
 mWidths
 ;
+explicit
 TabwidthAdaptor
 (
 const

@@ -379,6 +379,7 @@ CounterStyle
 {
 public
 :
+explicit
 AnonymousCounterStyle
 (
 const

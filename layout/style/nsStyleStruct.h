@@ -11289,6 +11289,7 @@ Type
 ePolygon
 }
 ;
+explicit
 nsStyleBasicShape
 (
 Type

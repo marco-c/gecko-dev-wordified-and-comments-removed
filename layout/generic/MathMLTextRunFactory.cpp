@@ -681,6 +681,7 @@ MathVarMapping
 const
 mTable
 ;
+explicit
 MathVarMappingWrapper
 (
 const
