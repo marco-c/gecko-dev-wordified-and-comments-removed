@@ -1113,10 +1113,11 @@ bool
 aForceBuffering
 )
 ;
-virtual
 void
-MoveLoadsToBackground
+SetLoadInBackground
 (
+bool
+aLoadInBackground
 )
 ;
 MediaDecoderOwner

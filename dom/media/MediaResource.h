@@ -1005,8 +1005,10 @@ Tell
 ;
 virtual
 void
-MoveLoadsToBackground
+SetLoadInBackground
 (
+bool
+aLoadInBackground
 )
 {
 }
@@ -1283,9 +1285,12 @@ mURI
 }
 virtual
 void
-MoveLoadsToBackground
+SetLoadInBackground
 (
+bool
+aLoadInBackground
 )
+MOZ_OVERRIDE
 ;
 virtual
 size_t

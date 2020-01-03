@@ -5849,8 +5849,10 @@ void
 MediaDecoder
 :
 :
-MoveLoadsToBackground
+SetLoadInBackground
 (
+bool
+aLoadInBackground
 )
 {
 MOZ_ASSERT
@@ -5868,8 +5870,9 @@ mResource
 mResource
 -
 >
-MoveLoadsToBackground
+SetLoadInBackground
 (
+aLoadInBackground
 )
 ;
 }
