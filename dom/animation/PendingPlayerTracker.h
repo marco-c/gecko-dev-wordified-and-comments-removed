@@ -219,7 +219,7 @@ mPausePendingSet
 ;
 }
 void
-StartPendingPlayersOnNextTick
+TriggerPendingPlayersOnNextTick
 (
 const
 TimeStamp
@@ -228,7 +228,7 @@ aReadyTime
 )
 ;
 void
-StartPendingPlayersNow
+TriggerPendingPlayersNow
 (
 )
 ;

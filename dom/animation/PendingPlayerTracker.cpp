@@ -248,7 +248,7 @@ void
 PendingPlayerTracker
 :
 :
-StartPendingPlayersOnNextTick
+TriggerPendingPlayersOnNextTick
 (
 const
 TimeStamp
@@ -309,7 +309,7 @@ void
 PendingPlayerTracker
 :
 :
-StartPendingPlayersNow
+TriggerPendingPlayersNow
 (
 )
 {
