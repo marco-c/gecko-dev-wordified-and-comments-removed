@@ -29,6 +29,7 @@ EVENTS
 PerformanceController
 PerformanceView
 RecordingsView
+OverviewView
 }
 =
 panel

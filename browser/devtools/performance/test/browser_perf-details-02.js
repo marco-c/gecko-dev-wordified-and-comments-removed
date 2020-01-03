@@ -81,6 +81,7 @@ EVENTS
 DETAILS_VIEW_SELECTED
 )
 ;
+yield
 DetailsView
 .
 selectView
@@ -146,6 +147,7 @@ EVENTS
 DETAILS_VIEW_SELECTED
 )
 ;
+yield
 DetailsView
 .
 selectView
@@ -211,6 +213,7 @@ EVENTS
 DETAILS_VIEW_SELECTED
 )
 ;
+yield
 DetailsView
 .
 selectView

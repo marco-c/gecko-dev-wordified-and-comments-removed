@@ -35,6 +35,7 @@ INVERT_PREF
 true
 )
 ;
+yield
 DetailsView
 .
 selectView

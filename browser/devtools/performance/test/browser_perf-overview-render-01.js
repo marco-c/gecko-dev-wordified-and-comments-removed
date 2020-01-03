@@ -24,6 +24,16 @@ panel
 .
 panelWin
 ;
+Services
+.
+prefs
+.
+setBoolPref
+(
+MEMORY_PREF
+true
+)
+;
 yield
 startRecording
 (

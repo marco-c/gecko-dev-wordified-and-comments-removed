@@ -35,6 +35,7 @@ PLATFORM_DATA_PREF
 false
 )
 ;
+yield
 DetailsView
 .
 selectView

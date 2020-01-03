@@ -198,6 +198,7 @@ EVENTS
 JS_CALL_TREE_RENDERED
 )
 ;
+yield
 DetailsView
 .
 selectView
@@ -239,6 +240,7 @@ EVENTS
 JS_FLAMEGRAPH_RENDERED
 )
 ;
+yield
 DetailsView
 .
 selectView
@@ -320,6 +322,7 @@ EVENTS
 JS_CALL_TREE_RENDERED
 )
 ;
+yield
 DetailsView
 .
 selectView
@@ -361,6 +364,7 @@ EVENTS
 WATERFALL_RENDERED
 )
 ;
+yield
 DetailsView
 .
 selectView
