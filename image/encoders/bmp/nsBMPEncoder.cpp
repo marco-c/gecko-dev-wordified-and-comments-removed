@@ -121,7 +121,7 @@ if
 mImageBufferStart
 )
 {
-moz_free
+free
 (
 mImageBufferStart
 )
@@ -479,7 +479,7 @@ uint8_t
 *
 >
 (
-moz_malloc
+malloc
 (
 mImageBufferSize
 )
@@ -1205,7 +1205,7 @@ if
 mImageBufferStart
 )
 {
-moz_free
+free
 (
 mImageBufferStart
 )

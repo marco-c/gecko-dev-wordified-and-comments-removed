@@ -60259,7 +60259,7 @@ char
 *
 >
 (
-moz_malloc
+malloc
 (
 compressedLength
 )
@@ -60336,7 +60336,7 @@ rv
 )
 )
 {
-moz_free
+free
 (
 compressed
 )

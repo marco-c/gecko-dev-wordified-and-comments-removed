@@ -217,7 +217,7 @@ aBuffer
 uint8_t
 *
 )
-moz_malloc
+malloc
 (
 aObject
 .

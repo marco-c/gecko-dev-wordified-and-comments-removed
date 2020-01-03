@@ -92,7 +92,7 @@ nsPreloadedStream
 (
 )
 {
-moz_free
+free
 (
 mBuf
 )

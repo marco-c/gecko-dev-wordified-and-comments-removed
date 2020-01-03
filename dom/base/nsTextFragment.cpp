@@ -424,7 +424,7 @@ mState
 mInHeap
 )
 {
-moz_free
+free
 (
 m2b
 )
@@ -526,7 +526,7 @@ char16_t
 *
 >
 (
-moz_malloc
+malloc
 (
 m2bSize
 )
@@ -1248,7 +1248,7 @@ m2b
 char16_t
 *
 )
-moz_malloc
+malloc
 (
 m2bSize
 )
@@ -1303,7 +1303,7 @@ buff
 char
 *
 )
-moz_malloc
+malloc
 (
 aLength
 *
@@ -1573,7 +1573,7 @@ buff
 char16_t
 *
 )
-moz_realloc
+realloc
 (
 m2b
 (
@@ -1671,7 +1671,7 @@ buff
 char16_t
 *
 )
-moz_malloc
+malloc
 (
 (
 mState
@@ -1750,7 +1750,7 @@ mState
 mInHeap
 )
 {
-moz_free
+free
 (
 m2b
 )
@@ -1803,7 +1803,7 @@ buff
 char
 *
 )
-moz_realloc
+realloc
 (
 const_cast
 <
@@ -1846,7 +1846,7 @@ buff
 char
 *
 )
-moz_malloc
+malloc
 (
 (
 mState

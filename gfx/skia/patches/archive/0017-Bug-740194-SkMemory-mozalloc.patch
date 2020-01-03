@@ -566,7 +566,7 @@ p
 )
 {
 +
-moz_free
+free
 (
 p
 )
@@ -598,7 +598,7 @@ moz_xmalloc
 size
 )
 :
-moz_malloc
+malloc
 (
 size
 )

@@ -201,7 +201,7 @@ buffer
 char
 *
 )
-moz_malloc
+malloc
 (
 count
 +

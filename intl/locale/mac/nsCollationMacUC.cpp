@@ -179,7 +179,7 @@ if
 mLocaleICU
 )
 {
-moz_free
+free
 (
 mLocaleICU
 )
@@ -197,7 +197,7 @@ if
 mBuffer
 )
 {
-moz_free
+free
 (
 mBuffer
 )
@@ -483,7 +483,7 @@ locale
 char
 *
 )
-moz_malloc
+malloc
 (
 tmp
 .
@@ -1327,7 +1327,7 @@ void
 *
 newBuffer
 =
-moz_malloc
+malloc
 (
 newBufferLen
 )
@@ -1347,7 +1347,7 @@ if
 mBuffer
 )
 {
-moz_free
+free
 (
 mBuffer
 )

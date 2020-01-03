@@ -3026,7 +3026,7 @@ void
 *
 buffer
 =
-moz_malloc
+malloc
 (
 length
 *

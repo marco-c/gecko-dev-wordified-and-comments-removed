@@ -35,7 +35,7 @@ hnj_free
 (
 p
 )
-moz_free
+free
 (
 p
 )

@@ -3671,7 +3671,7 @@ void
 *
 storage
 =
-moz_malloc
+malloc
 (
 size
 )
@@ -3817,7 +3817,7 @@ void
 *
 storage
 =
-moz_malloc
+malloc
 (
 size
 )
@@ -3856,7 +3856,7 @@ void
 p
 )
 {
-moz_free
+free
 (
 p
 )

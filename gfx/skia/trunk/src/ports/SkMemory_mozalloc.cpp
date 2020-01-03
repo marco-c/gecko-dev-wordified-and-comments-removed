@@ -116,7 +116,7 @@ void
 p
 )
 {
-moz_free
+free
 (
 p
 )
@@ -144,7 +144,7 @@ moz_xmalloc
 size
 )
 :
-moz_malloc
+malloc
 (
 size
 )
@@ -159,7 +159,7 @@ size
 )
 {
 return
-moz_calloc
+calloc
 (
 size
 1

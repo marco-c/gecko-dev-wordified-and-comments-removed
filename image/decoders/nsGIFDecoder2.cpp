@@ -208,14 +208,14 @@ nsGIFDecoder2
 (
 )
 {
-moz_free
+free
 (
 mGIFStruct
 .
 local_colormap
 )
 ;
-moz_free
+free
 (
 mGIFStruct
 .
@@ -4425,7 +4425,7 @@ newHold
 uint8_t
 *
 )
-moz_malloc
+malloc
 (
 std
 :
@@ -4480,7 +4480,7 @@ count2
 )
 ;
 }
-moz_free
+free
 (
 mGIFStruct
 .

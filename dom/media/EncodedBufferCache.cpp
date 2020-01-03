@@ -286,7 +286,7 @@ void
 *
 blobData
 =
-moz_malloc
+malloc
 (
 mDataSize
 )

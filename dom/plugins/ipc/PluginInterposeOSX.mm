@@ -1981,7 +1981,7 @@ color
 ;
 }
 }
-moz_free
+free
 (
 bitmap
 )
@@ -2000,7 +2000,7 @@ if
 mCustomImageData
 )
 {
-moz_free
+free
 (
 mCustomImageData
 )
@@ -2840,7 +2840,7 @@ autorelease
 }
 }
 }
-moz_free
+free
 (
 data
 )
@@ -3165,7 +3165,7 @@ if
 mCustomImageData
 )
 {
-moz_free
+free
 (
 mCustomImageData
 )

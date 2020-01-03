@@ -2211,7 +2211,7 @@ sDataOwners
 nullptr
 ;
 }
-moz_free
+free
 (
 mData
 )

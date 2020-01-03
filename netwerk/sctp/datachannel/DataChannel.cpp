@@ -5009,7 +5009,7 @@ break
 ;
 default
 :
-moz_free
+free
 (
 req
 )
@@ -5126,7 +5126,7 @@ req_size
 stream
 )
 ;
-moz_free
+free
 (
 req
 )
@@ -9079,7 +9079,7 @@ Clear
 )
 ;
 }
-moz_free
+free
 (
 srs
 )

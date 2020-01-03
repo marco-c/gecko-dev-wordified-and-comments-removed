@@ -216,7 +216,7 @@ doesn
 '
 t
 use
-moz_malloc
+malloc
 functions
 anyways
 while
@@ -251,8 +251,6 @@ linking
 the
 xpt
 tests
-without
-mozalloc
 .
 DEFINES
 [

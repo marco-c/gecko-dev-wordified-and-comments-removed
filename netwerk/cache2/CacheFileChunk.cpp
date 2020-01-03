@@ -772,7 +772,7 @@ char
 *
 >
 (
-moz_malloc
+malloc
 (
 aLen
 )
@@ -3155,7 +3155,7 @@ char
 *
 >
 (
-moz_realloc
+realloc
 (
 mBuf
 aBufSize

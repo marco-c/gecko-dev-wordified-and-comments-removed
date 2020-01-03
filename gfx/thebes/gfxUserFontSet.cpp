@@ -3154,7 +3154,7 @@ get
 #
 endif
 }
-moz_free
+free
 (
 (
 void
@@ -3275,7 +3275,7 @@ if
 aFontData
 )
 {
-moz_free
+free
 (
 (
 void

@@ -347,7 +347,7 @@ ptr
 #
 else
 return
-moz_malloc
+malloc
 (
 aSize
 )

@@ -58,7 +58,7 @@ BlobSet
 (
 )
 {
-moz_free
+free
 (
 mData
 )
@@ -242,7 +242,7 @@ void
 *
 data
 =
-moz_realloc
+realloc
 (
 mData
 bufferLen

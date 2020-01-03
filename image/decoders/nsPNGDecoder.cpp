@@ -2774,7 +2774,7 @@ mCMSLine
 uint8_t
 *
 )
-moz_malloc
+malloc
 (
 bpp
 [
@@ -2834,7 +2834,7 @@ interlacebuf
 uint8_t
 *
 )
-moz_malloc
+malloc
 (
 channels
 *

@@ -344,7 +344,7 @@ else
 *
 aMemory
 =
-moz_malloc
+malloc
 (
 aSizeNeeded
 )
@@ -415,7 +415,7 @@ void
 *
 memory
 =
-moz_realloc
+realloc
 (
 *
 aMemory
@@ -467,7 +467,7 @@ Free
 (
 )
 {
-moz_free
+free
 (
 mDirPropsMemory
 )
@@ -476,7 +476,7 @@ mDirPropsMemory
 =
 nullptr
 ;
-moz_free
+free
 (
 mLevelsMemory
 )
@@ -485,7 +485,7 @@ mLevelsMemory
 =
 nullptr
 ;
-moz_free
+free
 (
 mRunsMemory
 )

@@ -169,7 +169,7 @@ void
 p
 )
 {
-moz_free
+free
 (
 p
 )

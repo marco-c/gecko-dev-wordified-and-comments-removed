@@ -85,7 +85,7 @@ Timecard
 tc
 )
 {
-moz_free
+free
 (
 tc
 -
@@ -93,7 +93,7 @@ tc
 entries
 )
 ;
-moz_free
+free
 (
 tc
 )

@@ -536,7 +536,7 @@ uint8_t
 *
 >
 (
-moz_malloc
+malloc
 (
 bufSize
 )
@@ -708,7 +708,7 @@ if
 mFontDataBuf
 )
 {
-moz_free
+free
 (
 mFontDataBuf
 )

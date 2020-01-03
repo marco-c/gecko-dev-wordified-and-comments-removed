@@ -702,7 +702,7 @@ buf
 char
 *
 )
-moz_realloc
+realloc
 (
 mBuffer
 bufSize

@@ -2093,7 +2093,7 @@ mDataBuffer
 char
 *
 )
-moz_malloc
+malloc
 (
 (
 sizeof
@@ -2114,7 +2114,7 @@ mOutgoingBuffer
 char
 *
 )
-moz_malloc
+malloc
 (
 (
 sizeof

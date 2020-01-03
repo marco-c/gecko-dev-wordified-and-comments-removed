@@ -26,8 +26,4 @@ define
 realloc
 moz_xrealloc
 #
-define
-free
-moz_free
-#
 endif

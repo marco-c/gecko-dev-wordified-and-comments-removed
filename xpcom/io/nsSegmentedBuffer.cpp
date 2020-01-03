@@ -295,7 +295,7 @@ seg
 char
 *
 )
-moz_malloc
+malloc
 (
 mSegmentSize
 )
@@ -354,7 +354,7 @@ segment
 "
 )
 ;
-moz_free
+free
 (
 mSegmentArray
 [
@@ -445,7 +445,7 @@ segment
 "
 )
 ;
-moz_free
+free
 (
 mSegmentArray
 [
@@ -522,7 +522,7 @@ newSegment
 char
 *
 )
-moz_realloc
+realloc
 (
 mSegmentArray
 [
@@ -588,7 +588,7 @@ i
 ]
 )
 {
-moz_free
+free
 (
 mSegmentArray
 [

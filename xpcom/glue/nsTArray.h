@@ -400,7 +400,7 @@ aSize
 )
 {
 return
-moz_malloc
+malloc
 (
 aSize
 )
@@ -419,7 +419,7 @@ aSize
 )
 {
 return
-moz_realloc
+realloc
 (
 aPtr
 aSize
@@ -435,7 +435,7 @@ void
 aPtr
 )
 {
-moz_free
+free
 (
 aPtr
 )
@@ -501,7 +501,7 @@ void
 aPtr
 )
 {
-moz_free
+free
 (
 aPtr
 )

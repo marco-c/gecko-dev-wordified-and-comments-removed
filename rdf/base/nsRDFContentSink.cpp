@@ -1317,7 +1317,7 @@ delete
 mContextStack
 ;
 }
-moz_free
+free
 (
 mText
 )
@@ -2830,7 +2830,7 @@ mText
 char16_t
 *
 )
-moz_malloc
+malloc
 (
 sizeof
 (
@@ -2904,7 +2904,7 @@ newText
 char16_t
 *
 )
-moz_realloc
+realloc
 (
 mText
 sizeof

@@ -81,7 +81,7 @@ MallocSizeOfOnFree
 p
 )
 ;
-moz_free
+free
 (
 p
 )

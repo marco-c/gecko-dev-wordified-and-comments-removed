@@ -529,7 +529,7 @@ T
 }
 #
 endif
-moz_free
+free
 (
 mStorage
 )
@@ -555,7 +555,7 @@ aZero
 false
 )
 {
-moz_free
+free
 (
 mStorage
 )
@@ -617,7 +617,7 @@ uint8_t
 *
 >
 (
-moz_calloc
+calloc
 (
 1
 storageByteCount
@@ -639,7 +639,7 @@ uint8_t
 *
 >
 (
-moz_malloc
+malloc
 (
 storageByteCount
 .

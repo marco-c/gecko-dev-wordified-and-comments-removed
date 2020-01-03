@@ -131,7 +131,7 @@ if
 mImageBuffer
 )
 {
-moz_free
+free
 (
 mImageBuffer
 )
@@ -960,7 +960,7 @@ mImageBuffer
 nullptr
 )
 {
-moz_free
+free
 (
 mImageBuffer
 )
@@ -1549,7 +1549,7 @@ mImageBuffer
 uint8_t
 *
 )
-moz_malloc
+malloc
 (
 that
 -
@@ -1668,7 +1668,7 @@ newBuf
 uint8_t
 *
 )
-moz_realloc
+realloc
 (
 that
 -
@@ -1686,7 +1686,7 @@ if
 newBuf
 )
 {
-moz_free
+free
 (
 that
 -

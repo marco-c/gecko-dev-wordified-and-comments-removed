@@ -934,7 +934,7 @@ nsHTMLReflowState
 )
 ;
 }
-moz_free
+free
 (
 reflowStates
 )

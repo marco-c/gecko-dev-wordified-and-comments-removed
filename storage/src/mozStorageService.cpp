@@ -1617,7 +1617,7 @@ p
 =
 :
 :
-moz_malloc
+malloc
 (
 n
 )
@@ -1663,7 +1663,7 @@ p
 endif
 :
 :
-moz_free
+free
 (
 p
 )
@@ -1698,7 +1698,7 @@ pnew
 =
 :
 :
-moz_realloc
+realloc
 (
 p
 n
@@ -1737,7 +1737,7 @@ else
 return
 :
 :
-moz_realloc
+realloc
 (
 p
 n
