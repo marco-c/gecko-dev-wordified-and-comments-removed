@@ -162,6 +162,16 @@ true
 shiftKey
 :
 true
+code
+:
+"
+KeyE
+"
+keyCode
+:
+KeyboardEvent
+.
+DOM_VK_E
 }
 contentWindow
 )
