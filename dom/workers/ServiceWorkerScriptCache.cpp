@@ -1651,7 +1651,6 @@ AssertIsOnMainThread
 ;
 if
 (
-!
 mAborted
 )
 {
