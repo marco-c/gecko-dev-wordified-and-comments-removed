@@ -3461,6 +3461,7 @@ Format14Cmap
 &
 mCmap14
 ;
+explicit
 Format14CmapWrapper
 (
 const
@@ -3506,6 +3507,7 @@ NonDefUVSTable
 &
 mTable
 ;
+explicit
 NonDefUVSTableWrapper
 (
 const
@@ -6410,6 +6412,7 @@ MacFontNameCharsetMapping
 &
 mSearchValue
 ;
+explicit
 MacCharsetMappingComparator
 (
 const

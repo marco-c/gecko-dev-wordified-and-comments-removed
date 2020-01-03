@@ -21,6 +21,7 @@ const
 uint32_t
 mOffset
 ;
+explicit
 SkippedRangeStartComparator
 (
 const
@@ -327,6 +328,7 @@ const
 uint32_t
 mOffset
 ;
+explicit
 SkippedRangeOffsetComparator
 (
 const
