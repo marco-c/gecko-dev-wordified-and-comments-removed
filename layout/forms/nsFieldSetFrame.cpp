@@ -2289,7 +2289,7 @@ if
 (
 aReflowState
 .
-ComputedHeight
+ComputedBSize
 (
 )
 !
@@ -2299,7 +2299,7 @@ NS_UNCONSTRAINEDSIZE
 {
 kidReflowState
 .
-SetComputedHeight
+SetComputedBSize
 (
 std
 :
@@ -2309,7 +2309,7 @@ max
 0
 aReflowState
 .
-ComputedHeight
+ComputedBSize
 (
 )
 -
@@ -2322,7 +2322,7 @@ if
 (
 aReflowState
 .
-ComputedMinHeight
+ComputedMinBSize
 (
 )
 >
@@ -2331,7 +2331,7 @@ ComputedMinHeight
 {
 kidReflowState
 .
-ComputedMinHeight
+ComputedMinBSize
 (
 )
 =
@@ -2343,7 +2343,7 @@ max
 0
 aReflowState
 .
-ComputedMinHeight
+ComputedMinBSize
 (
 )
 -
@@ -2355,7 +2355,7 @@ if
 (
 aReflowState
 .
-ComputedMaxHeight
+ComputedMaxBSize
 (
 )
 !
@@ -2365,7 +2365,7 @@ NS_UNCONSTRAINEDSIZE
 {
 kidReflowState
 .
-ComputedMaxHeight
+ComputedMaxBSize
 (
 )
 =
@@ -2377,7 +2377,7 @@ max
 0
 aReflowState
 .
-ComputedMaxHeight
+ComputedMaxBSize
 (
 )
 -
