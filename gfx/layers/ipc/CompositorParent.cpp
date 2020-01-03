@@ -1948,6 +1948,14 @@ gfxPrefs
 VsyncAlignedCompositor
 (
 )
+&
+&
+gfxPrefs
+:
+:
+HardwareVsyncEnabled
+(
+)
 )
 {
 mCompositorVsyncObserver
