@@ -417,7 +417,7 @@ GetPlatform
 )
 -
 >
-GetD2DDevice
+GetD3D10Device
 (
 )
 ;
