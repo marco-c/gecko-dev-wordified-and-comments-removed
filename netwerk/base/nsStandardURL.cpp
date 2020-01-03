@@ -1242,6 +1242,13 @@ ifdef
 DEBUG_DUMP_URLS_AT_SHUTDOWN
 if
 (
+NS_IsMainThread
+(
+)
+)
+{
+if
+(
 aTrackURL
 )
 {
@@ -1262,6 +1269,7 @@ PR_INIT_CLIST
 mDebugCList
 )
 ;
+}
 }
 #
 endif
@@ -1305,6 +1313,13 @@ ifdef
 DEBUG_DUMP_URLS_AT_SHUTDOWN
 if
 (
+NS_IsMainThread
+(
+)
+)
+{
+if
+(
 !
 PR_CLIST_IS_EMPTY
 (
@@ -1319,6 +1334,7 @@ PR_REMOVE_LINK
 mDebugCList
 )
 ;
+}
 }
 #
 endif
@@ -1349,6 +1365,13 @@ DumpLeakedURLs
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 !
