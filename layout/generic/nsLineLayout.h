@@ -1511,6 +1511,14 @@ pfd
 )
 ;
 void
+FreeFrame
+(
+PerFrameData
+*
+pfd
+)
+;
+void
 FreeSpan
 (
 PerSpanData
