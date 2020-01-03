@@ -470,16 +470,6 @@ char16_t
 aChr
 )
 ;
-bool
-CheckCanRequestSrc
-(
-nsIURI
-*
-aSrc
-=
-nullptr
-)
-;
 nsresult
 CheckHealthOfRequestCallback
 (
