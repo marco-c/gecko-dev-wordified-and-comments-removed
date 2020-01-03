@@ -139,6 +139,12 @@ rejected
 ;
 [
 ChromeOnly
+Exposed
+=
+(
+Window
+System
+)
 ]
 interface
 PromiseDebugging
