@@ -185,12 +185,6 @@ p
 this
 )
 ;
-assert
-(
-!
-mRefCount
-)
-;
 }
 static
 bool
@@ -1963,7 +1957,7 @@ mThread
 >
 Post
 (
-WrapTask
+WrapTaskRefCounted
 (
 this
 &
