@@ -79,6 +79,10 @@ setAppBundleModTime
 if
 (
 IS_UNIX
+&
+&
+!
+IS_TOOLKIT_GONK
 )
 {
 removeSymlink
@@ -347,6 +351,10 @@ checkUpdate
 if
 (
 IS_UNIX
+&
+&
+!
+IS_TOOLKIT_GONK
 )
 {
 checkSymlink

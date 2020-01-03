@@ -140,6 +140,10 @@ IS_UNIX
 &
 !
 IS_MACOSX
+&
+&
+!
+IS_TOOLKIT_GONK
 )
 {
 removeSymlink
@@ -345,6 +349,10 @@ IS_UNIX
 &
 !
 IS_MACOSX
+&
+&
+!
+IS_TOOLKIT_GONK
 )
 {
 checkSymlink
