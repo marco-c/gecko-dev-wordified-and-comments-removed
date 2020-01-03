@@ -229,7 +229,7 @@ END_DEFAULT
 struct
 CallbackInfo
 {
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 Callback
 ;
 void
@@ -242,7 +242,7 @@ virtual
 void
 EndTransaction
 (
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -312,9 +312,9 @@ MAX_TEXTURE_SIZE
 virtual
 already_AddRefed
 <
-ThebesLayer
+PaintedLayer
 >
-CreateThebesLayer
+CreatePaintedLayer
 (
 )
 ;

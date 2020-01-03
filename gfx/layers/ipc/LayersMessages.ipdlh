@@ -577,7 +577,7 @@ for
 layer
 |
 struct
-OpCreateThebesLayer
+OpCreatePaintedLayer
 {
 PLayer
 layer
@@ -1254,7 +1254,7 @@ contentDescription
 }
 ;
 struct
-ThebesLayerAttributes
+PaintedLayerAttributes
 {
 nsIntRegion
 validRegion
@@ -1327,7 +1327,7 @@ SpecificLayerAttributes
 {
 null_t
 ;
-ThebesLayerAttributes
+PaintedLayerAttributes
 ;
 ContainerLayerAttributes
 ;
@@ -1852,7 +1852,7 @@ changeset
 union
 Edit
 {
-OpCreateThebesLayer
+OpCreatePaintedLayer
 ;
 OpCreateContainerLayer
 ;

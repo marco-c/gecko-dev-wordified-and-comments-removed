@@ -24,7 +24,7 @@ algorithm
 #
 include
 "
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 .
 h
 "
@@ -553,9 +553,9 @@ TiledContentClient
 :
 TiledContentClient
 (
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 *
-aThebesLayer
+aPaintedLayer
 ClientLayerManager
 *
 aManager
@@ -580,7 +580,7 @@ mTiledBuffer
 =
 ClientTiledLayerBuffer
 (
-aThebesLayer
+aPaintedLayer
 this
 aManager
 &
@@ -591,7 +591,7 @@ mLowPrecisionTiledBuffer
 =
 ClientTiledLayerBuffer
 (
-aThebesLayer
+aPaintedLayer
 this
 aManager
 &
@@ -1513,9 +1513,9 @@ ClientTiledLayerBuffer
 :
 ClientTiledLayerBuffer
 (
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 *
-aThebesLayer
+aPaintedLayer
 CompositableClient
 *
 aCompositableClient
@@ -1527,9 +1527,9 @@ SharedFrameMetricsHelper
 aHelper
 )
 :
-mThebesLayer
+mPaintedLayer
 (
-aThebesLayer
+aPaintedLayer
 )
 mCompositableClient
 (
@@ -1608,7 +1608,7 @@ const
 gfxContentType
 content
 =
-mThebesLayer
+mPaintedLayer
 -
 >
 CanUseOpaqueSurface
@@ -1628,7 +1628,7 @@ COLOR_ALPHA
 SurfaceMode
 mode
 =
-mThebesLayer
+mPaintedLayer
 -
 >
 GetSurfaceMode
@@ -1671,7 +1671,7 @@ else
 if
 (
 !
-mThebesLayer
+mPaintedLayer
 -
 >
 GetParent
@@ -1680,7 +1680,7 @@ GetParent
 |
 |
 !
-mThebesLayer
+mPaintedLayer
 -
 >
 GetParent
@@ -1735,7 +1735,7 @@ SURFACE_OPAQUE
 {
 if
 (
-mThebesLayer
+mPaintedLayer
 -
 >
 MayResample
@@ -4324,7 +4324,7 @@ aPaintRegion
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -4346,7 +4346,7 @@ s
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 Stringify
 (
 aPaintRegion
@@ -4373,7 +4373,7 @@ s
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 Stringify
 (
 aNewValidRegion
@@ -4674,7 +4674,7 @@ GRAPHICS
 ;
 mCallback
 (
-mThebesLayer
+mPaintedLayer
 ctxt
 aPaintRegion
 DrawRegionClip
@@ -5575,7 +5575,7 @@ mResolution
 ;
 mCallback
 (
-mThebesLayer
+mPaintedLayer
 ctx
 aPaintRegion
 DrawRegionClip
@@ -7174,7 +7174,7 @@ mResolution
 ;
 mCallback
 (
-mThebesLayer
+mPaintedLayer
 ctxt
 tileRegion
 .
@@ -7543,7 +7543,7 @@ s
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 Stringify
 (
 staleRegion
@@ -7557,7 +7557,7 @@ c_str
 LayerMetricsWrapper
 scrollAncestor
 ;
-mThebesLayer
+mPaintedLayer
 -
 >
 GetAncestorLayers
@@ -7698,7 +7698,7 @@ d
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 ToString
 (
 viewTransform
@@ -7795,7 +7795,7 @@ s
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 Stringify
 (
 transformedCompositionBounds
@@ -7854,7 +7854,7 @@ s
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 Stringify
 (
 coherentUpdateRect
@@ -7947,7 +7947,7 @@ s
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 Stringify
 (
 aRegionToPaint
@@ -7996,7 +7996,7 @@ d
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 paintingVisible
 drawingStale
 aPaintData
@@ -8334,7 +8334,7 @@ aPaintData
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -8357,7 +8357,7 @@ s
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 Stringify
 (
 aValidRegion
@@ -8384,7 +8384,7 @@ s
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 Stringify
 (
 aInvalidRegion
@@ -8412,7 +8412,7 @@ s
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 Stringify
 (
 aOldValidRegion
@@ -8469,7 +8469,7 @@ d
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 Stringify
 (
 regionToPaint
@@ -8559,7 +8559,7 @@ d
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 Stringify
 (
 aValidRegion
@@ -8588,7 +8588,7 @@ s
 \
 n
 "
-mThebesLayer
+mPaintedLayer
 Stringify
 (
 aInvalidRegion

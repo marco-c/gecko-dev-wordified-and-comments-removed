@@ -345,9 +345,9 @@ nullptr
 ;
 }
 void
-NotifyThebesLayerRemoved
+NotifyPaintedLayerRemoved
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 )
@@ -527,7 +527,7 @@ mSink
 nsIntSize
 mSize
 ;
-ThebesLayer
+PaintedLayer
 *
 mBackgroundLayer
 ;

@@ -8,7 +8,7 @@ h
 #
 include
 "
-ThebesLayerD3D10
+PaintedLayerD3D10
 .
 h
 "
@@ -1422,7 +1422,7 @@ TYPE_THEBES
 {
 static_cast
 <
-ThebesLayerD3D10
+PaintedLayerD3D10
 *
 >
 (

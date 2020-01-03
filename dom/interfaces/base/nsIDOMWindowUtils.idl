@@ -9978,7 +9978,7 @@ mayHaveTouchEventListeners
 Check
 if
 any
-ThebesLayer
+PaintedLayer
 painting
 has
 been

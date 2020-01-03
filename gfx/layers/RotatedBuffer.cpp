@@ -985,7 +985,7 @@ RotatedContentBuffer
 :
 DrawTo
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 DrawTarget
@@ -1934,7 +1934,7 @@ RotatedContentBuffer
 :
 BeginPaint
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 uint32_t

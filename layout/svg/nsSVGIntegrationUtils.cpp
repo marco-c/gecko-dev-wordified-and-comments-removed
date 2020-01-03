@@ -1517,7 +1517,7 @@ EndTransaction
 FrameLayerBuilder
 :
 :
-DrawThebesLayer
+DrawPaintedLayer
 mBuilder
 )
 ;
@@ -2229,7 +2229,7 @@ EndTransaction
 FrameLayerBuilder
 :
 :
-DrawThebesLayer
+DrawPaintedLayer
 aBuilder
 )
 ;

@@ -10388,7 +10388,7 @@ scale
 FrameLayerBuilder
 :
 :
-GetThebesLayerScaleForFrame
+GetPaintedLayerScaleForFrame
 (
 mScrolledFrame
 )

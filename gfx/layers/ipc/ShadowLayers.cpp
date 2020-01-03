@@ -946,7 +946,7 @@ void
 ShadowLayerForwarder
 :
 :
-CreatedThebesLayer
+CreatedPaintedLayer
 (
 ShadowableLayer
 *
@@ -955,7 +955,7 @@ aThebes
 {
 CreatedLayer
 <
-OpCreateThebesLayer
+OpCreatePaintedLayer
 >
 (
 mTxn

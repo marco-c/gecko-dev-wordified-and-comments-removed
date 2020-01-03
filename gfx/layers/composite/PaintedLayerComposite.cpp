@@ -1,7 +1,7 @@
 #
 include
 "
-ThebesLayerComposite
+PaintedLayerComposite
 .
 h
 "
@@ -214,17 +214,17 @@ layers
 class
 TiledLayerComposer
 ;
-ThebesLayerComposite
+PaintedLayerComposite
 :
 :
-ThebesLayerComposite
+PaintedLayerComposite
 (
 LayerManagerComposite
 *
 aManager
 )
 :
-ThebesLayer
+PaintedLayer
 (
 aManager
 nullptr
@@ -240,7 +240,7 @@ nullptr
 {
 MOZ_COUNT_CTOR
 (
-ThebesLayerComposite
+PaintedLayerComposite
 )
 ;
 mImplData
@@ -255,17 +255,17 @@ this
 )
 ;
 }
-ThebesLayerComposite
+PaintedLayerComposite
 :
 :
 ~
-ThebesLayerComposite
+PaintedLayerComposite
 (
 )
 {
 MOZ_COUNT_DTOR
 (
-ThebesLayerComposite
+PaintedLayerComposite
 )
 ;
 CleanupResources
@@ -274,7 +274,7 @@ CleanupResources
 ;
 }
 bool
-ThebesLayerComposite
+PaintedLayerComposite
 :
 :
 SetCompositableHost
@@ -340,7 +340,7 @@ false
 }
 }
 void
-ThebesLayerComposite
+PaintedLayerComposite
 :
 :
 Disconnect
@@ -353,7 +353,7 @@ Destroy
 ;
 }
 void
-ThebesLayerComposite
+PaintedLayerComposite
 :
 :
 Destroy
@@ -378,7 +378,7 @@ true
 }
 Layer
 *
-ThebesLayerComposite
+PaintedLayerComposite
 :
 :
 GetLayer
@@ -391,7 +391,7 @@ this
 }
 TiledLayerComposer
 *
-ThebesLayerComposite
+PaintedLayerComposite
 :
 :
 GetTiledLayerComposer
@@ -428,7 +428,7 @@ AsTiledLayerComposer
 ;
 }
 LayerRenderState
-ThebesLayerComposite
+PaintedLayerComposite
 :
 :
 GetRenderState
@@ -469,7 +469,7 @@ GetRenderState
 ;
 }
 void
-ThebesLayerComposite
+PaintedLayerComposite
 :
 :
 RenderLayer
@@ -501,7 +501,7 @@ return
 PROFILER_LABEL
 (
 "
-ThebesLayerComposite
+PaintedLayerComposite
 "
 "
 RenderLayer
@@ -696,7 +696,7 @@ MakeCurrent
 }
 CompositableHost
 *
-ThebesLayerComposite
+PaintedLayerComposite
 :
 :
 GetCompositableHost
@@ -729,7 +729,7 @@ nullptr
 ;
 }
 void
-ThebesLayerComposite
+PaintedLayerComposite
 :
 :
 CleanupResources
@@ -756,7 +756,7 @@ nullptr
 ;
 }
 void
-ThebesLayerComposite
+PaintedLayerComposite
 :
 :
 GenEffectChain
@@ -788,7 +788,7 @@ GetEffectFilter
 ;
 }
 void
-ThebesLayerComposite
+PaintedLayerComposite
 :
 :
 PrintInfo
@@ -805,7 +805,7 @@ char
 aPrefix
 )
 {
-ThebesLayer
+PaintedLayer
 :
 :
 PrintInfo

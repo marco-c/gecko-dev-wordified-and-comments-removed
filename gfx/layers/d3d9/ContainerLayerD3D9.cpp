@@ -8,7 +8,7 @@ h
 #
 include
 "
-ThebesLayerD3D9
+PaintedLayerD3D9
 .
 h
 "
@@ -918,7 +918,7 @@ TYPE_THEBES
 {
 static_cast
 <
-ThebesLayerD3D9
+PaintedLayerD3D9
 *
 >
 (
@@ -926,7 +926,7 @@ layerToRender
 )
 -
 >
-RenderThebesLayer
+RenderPaintedLayer
 (
 &
 readback

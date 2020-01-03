@@ -191,7 +191,7 @@ class
 TextureClient
 ;
 class
-ThebesLayerComposite
+PaintedLayerComposite
 ;
 class
 ThebesBuffer
@@ -308,7 +308,7 @@ aOrientation
 )
 ;
 void
-CreatedThebesLayer
+CreatedPaintedLayer
 (
 ShadowableLayer
 *

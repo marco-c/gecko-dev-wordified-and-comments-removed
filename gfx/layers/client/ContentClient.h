@@ -207,7 +207,7 @@ class
 BasicLayerManager
 ;
 class
-ThebesLayer
+PaintedLayer
 ;
 class
 ContentClient
@@ -265,7 +265,7 @@ RotatedContentBuffer
 PaintState
 BeginPaintBuffer
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 uint32_t
@@ -441,7 +441,7 @@ virtual
 PaintState
 BeginPaintBuffer
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 uint32_t
@@ -519,7 +519,7 @@ aReturned
 void
 DrawTo
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 gfx
@@ -721,7 +721,7 @@ virtual
 PaintState
 BeginPaintBuffer
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 uint32_t
@@ -1388,7 +1388,7 @@ virtual
 PaintState
 BeginPaintBuffer
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 uint32_t

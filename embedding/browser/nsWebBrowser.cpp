@@ -6522,9 +6522,9 @@ NS_OK
 }
 static
 void
-DrawThebesLayer
+DrawPaintedLayer
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 gfxContext
@@ -6815,14 +6815,14 @@ BeginTransaction
 ;
 nsRefPtr
 <
-ThebesLayer
+PaintedLayer
 >
 root
 =
 layerManager
 -
 >
-CreateThebesLayer
+CreatePaintedLayer
 (
 )
 ;
@@ -6862,7 +6862,7 @@ layerManager
 >
 EndTransaction
 (
-DrawThebesLayer
+DrawPaintedLayer
 &
 mBackgroundColor
 )

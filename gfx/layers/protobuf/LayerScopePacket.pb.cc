@@ -6130,7 +6130,7 @@ LayersPacket_Layer_LayerType
 LayersPacket_Layer
 :
 :
-ThebesLayer
+PaintedLayer
 ;
 const
 LayersPacket_Layer_LayerType

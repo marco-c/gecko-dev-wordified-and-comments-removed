@@ -141,7 +141,7 @@ aMasklayer
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -156,7 +156,7 @@ Validate
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *

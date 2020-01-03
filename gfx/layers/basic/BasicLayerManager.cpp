@@ -704,7 +704,7 @@ aLayer
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -993,7 +993,7 @@ mLayer
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 mCallback
 ;
 void
@@ -2081,7 +2081,7 @@ BasicLayerManager
 :
 EndTransaction
 (
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -2143,7 +2143,7 @@ BasicLayerManager
 :
 EndTransactionInternal
 (
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -3389,7 +3389,7 @@ aPaintContext
 mLayer
 -
 >
-AsThebesLayer
+AsPaintedLayer
 (
 )
 )
@@ -3629,7 +3629,7 @@ aTarget
 Layer
 *
 aLayer
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -3763,7 +3763,7 @@ GetClipToVisibleRegion
 aLayer
 -
 >
-AsThebesLayer
+AsPaintedLayer
 (
 )
 ;

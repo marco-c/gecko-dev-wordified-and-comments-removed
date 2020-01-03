@@ -264,7 +264,7 @@ class
 BasicTileDescriptor
 ;
 class
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 ;
 class
 ClientLayerManager
@@ -1162,9 +1162,9 @@ public
 :
 ClientTiledLayerBuffer
 (
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 *
-aThebesLayer
+aPaintedLayer
 CompositableClient
 *
 aCompositableClient
@@ -1180,7 +1180,7 @@ ClientTiledLayerBuffer
 (
 )
 :
-mThebesLayer
+mPaintedLayer
 (
 nullptr
 )
@@ -1226,7 +1226,7 @@ aPaintRegion
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -1303,7 +1303,7 @@ aPaintData
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -1423,9 +1423,9 @@ nullptr
 )
 const
 ;
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 *
-mThebesLayer
+mPaintedLayer
 ;
 CompositableClient
 *
@@ -1438,7 +1438,7 @@ mManager
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 mCallback
 ;
 void
@@ -1516,15 +1516,15 @@ CompositableClient
 {
 friend
 class
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 ;
 public
 :
 TiledContentClient
 (
-ClientTiledThebesLayer
+ClientTiledPaintedLayer
 *
-aThebesLayer
+aPaintedLayer
 ClientLayerManager
 *
 aManager

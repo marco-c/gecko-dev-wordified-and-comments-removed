@@ -41,7 +41,7 @@ class
 ReadbackLayer
 ;
 class
-ThebesLayer
+PaintedLayer
 ;
 class
 ReadbackProcessor
@@ -72,9 +72,9 @@ mSequenceCounter
 }
 ;
 void
-GetThebesLayerUpdates
+GetPaintedLayerUpdates
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 nsTArray

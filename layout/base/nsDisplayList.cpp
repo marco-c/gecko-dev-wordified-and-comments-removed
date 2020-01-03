@@ -7924,7 +7924,7 @@ EndTransaction
 FrameLayerBuilder
 :
 :
-DrawThebesLayer
+DrawPaintedLayer
 aBuilder
 flags
 )

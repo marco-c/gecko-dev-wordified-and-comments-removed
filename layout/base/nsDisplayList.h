@@ -3562,8 +3562,8 @@ mozilla
 layers
 :
 :
-ThebesLayer
-ThebesLayer
+PaintedLayer
+PaintedLayer
 ;
 nsDisplayList
 (

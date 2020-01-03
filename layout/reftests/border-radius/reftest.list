@@ -907,7 +907,7 @@ ref
 .
 html
 #
-ThebesLayer
+PaintedLayer
 and
 MaskLayer
 with

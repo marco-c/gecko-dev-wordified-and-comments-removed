@@ -1,7 +1,7 @@
 #
 include
 "
-BasicThebesLayer
+BasicPaintedLayer
 .
 h
 "
@@ -273,7 +273,7 @@ result
 ;
 }
 void
-BasicThebesLayer
+BasicPaintedLayer
 :
 :
 PaintThebes
@@ -287,7 +287,7 @@ aMaskLayer
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -297,7 +297,7 @@ aCallbackData
 PROFILER_LABEL
 (
 "
-BasicThebesLayer
+BasicPaintedLayer
 "
 "
 PaintThebes
@@ -718,7 +718,7 @@ maskTransform
 }
 }
 void
-BasicThebesLayer
+BasicPaintedLayer
 :
 :
 Validate
@@ -726,7 +726,7 @@ Validate
 LayerManager
 :
 :
-DrawThebesLayerCallback
+DrawPaintedLayerCallback
 aCallback
 void
 *
@@ -788,7 +788,7 @@ UsedForReadback
 aReadback
 -
 >
-GetThebesLayerUpdates
+GetPaintedLayerUpdates
 (
 this
 &
@@ -1240,12 +1240,12 @@ offset
 }
 already_AddRefed
 <
-ThebesLayer
+PaintedLayer
 >
 BasicLayerManager
 :
 :
-CreateThebesLayer
+CreatePaintedLayer
 (
 )
 {
@@ -1265,12 +1265,12 @@ phase
 ;
 nsRefPtr
 <
-ThebesLayer
+PaintedLayer
 >
 layer
 =
 new
-BasicThebesLayer
+BasicPaintedLayer
 (
 this
 )

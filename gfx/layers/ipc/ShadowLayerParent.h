@@ -73,7 +73,7 @@ class
 RefLayerComposite
 ;
 class
-ThebesLayerComposite
+PaintedLayerComposite
 ;
 class
 ShadowLayerParent
@@ -152,9 +152,9 @@ AsRefLayerComposite
 )
 const
 ;
-ThebesLayerComposite
+PaintedLayerComposite
 *
-AsThebesLayerComposite
+AsPaintedLayerComposite
 (
 )
 const

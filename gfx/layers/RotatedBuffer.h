@@ -132,7 +132,7 @@ class
 TextureClient
 ;
 class
-ThebesLayer
+PaintedLayer
 ;
 class
 RotatedBuffer
@@ -691,7 +691,7 @@ PAINT_CAN_DRAW_ROTATED
 PaintState
 BeginPaint
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 uint32_t
@@ -834,7 +834,7 @@ const
 void
 DrawTo
 (
-ThebesLayer
+PaintedLayer
 *
 aLayer
 gfx

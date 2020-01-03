@@ -3725,7 +3725,7 @@ void
 nsPresContext
 :
 :
-InvalidateThebesLayers
+InvalidatePaintedLayers
 (
 )
 {
@@ -3774,7 +3774,7 @@ AppUnitsPerDevPixelChanged
 (
 )
 {
-InvalidateThebesLayers
+InvalidatePaintedLayers
 (
 )
 ;
@@ -4191,7 +4191,7 @@ true
 )
 ;
 }
-InvalidateThebesLayers
+InvalidatePaintedLayers
 (
 )
 ;

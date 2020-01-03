@@ -8,7 +8,7 @@ h
 #
 include
 "
-ThebesLayerComposite
+PaintedLayerComposite
 .
 h
 "
