@@ -736,15 +736,6 @@ doc
 .
 isProbablyReaderable
 (
-this
-.
-isNodeVisible
-.
-bind
-(
-this
-utils
-)
 )
 ;
 }
