@@ -1764,6 +1764,13 @@ true
 )
 ;
 mMenuBarListener
+-
+>
+OnDestroyMenuBarFrame
+(
+)
+;
+mMenuBarListener
 =
 nullptr
 ;
