@@ -2909,6 +2909,16 @@ initializerList
 )
 ;
 }
+static
+inline
+void
+writeBarrierPre
+(
+TypeNewScript
+*
+newScript
+)
+;
 bool
 analyzed
 (
