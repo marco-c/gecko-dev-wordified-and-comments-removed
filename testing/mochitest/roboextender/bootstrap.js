@@ -201,9 +201,6 @@ documentElement
 clientHeight
 }
 ;
-let
-retVal
-=
 _sendMessageToJava
 (
 message

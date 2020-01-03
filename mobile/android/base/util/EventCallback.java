@@ -39,10 +39,4 @@ Object
 response
 )
 ;
-public
-void
-sendCancel
-(
-)
-;
 }
