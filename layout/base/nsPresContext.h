@@ -281,7 +281,7 @@ struct
 nsFontFaceRuleContainer
 ;
 class
-nsObjectFrame
+nsPluginFrame
 ;
 class
 nsTransitionManager

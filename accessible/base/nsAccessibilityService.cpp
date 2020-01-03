@@ -1187,7 +1187,7 @@ nsAccessibilityService
 :
 CreatePluginAccessible
 (
-nsObjectFrame
+nsPluginFrame
 *
 aFrame
 nsIContent
@@ -8863,7 +8863,7 @@ case
 ePluginType
 :
 {
-nsObjectFrame
+nsPluginFrame
 *
 objectFrame
 =

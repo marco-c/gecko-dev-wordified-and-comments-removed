@@ -79,7 +79,7 @@ class
 AutoSetInstantiatingToFalse
 ;
 class
-nsObjectFrame
+nsPluginFrame
 ;
 class
 nsFrameLoader
@@ -951,7 +951,7 @@ nsCString
 aMIMEType
 )
 ;
-nsObjectFrame
+nsPluginFrame
 *
 GetExistingFrame
 (

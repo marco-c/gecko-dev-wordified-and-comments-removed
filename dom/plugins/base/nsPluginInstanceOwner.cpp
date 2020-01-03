@@ -7815,7 +7815,7 @@ event
 NS_WARNING
 (
 "
-nsObjectFrame
+nsPluginFrame
 ProcessEvent
 :
 trying
@@ -11356,13 +11356,13 @@ do_QueryFrame
 frame
 )
 ;
-nsObjectFrame
+nsPluginFrame
 *
 objFrame
 =
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -13494,7 +13494,7 @@ nsPluginInstanceOwner
 :
 SetFrame
 (
-nsObjectFrame
+nsPluginFrame
 *
 aFrame
 )
@@ -13627,7 +13627,7 @@ GetFocusedContent
 }
 }
 }
-nsObjectFrame
+nsPluginFrame
 *
 nsPluginInstanceOwner
 :

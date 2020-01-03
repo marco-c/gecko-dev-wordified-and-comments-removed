@@ -1,9 +1,9 @@
 #
 ifndef
-nsObjectFrame_h___
+nsPluginFrame_h___
 #
 define
-nsObjectFrame_h___
+nsPluginFrame_h___
 #
 include
 "
@@ -112,13 +112,13 @@ LayerManager
 }
 typedef
 nsFrame
-nsObjectFrameSuper
+nsPluginFrameSuper
 ;
 class
-nsObjectFrame
+nsPluginFrame
 :
 public
-nsObjectFrameSuper
+nsPluginFrameSuper
 public
 nsIObjectFrame
 public
@@ -187,7 +187,7 @@ aContext
 NS_DECL_QUERYFRAME
 NS_DECL_QUERYFRAME_TARGET
 (
-nsObjectFrame
+nsPluginFrame
 )
 virtual
 void
@@ -318,7 +318,7 @@ const
 MOZ_OVERRIDE
 {
 return
-nsObjectFrameSuper
+nsPluginFrameSuper
 :
 :
 IsFrameOfType
@@ -703,7 +703,7 @@ aOwner
 protected
 :
 explicit
-nsObjectFrame
+nsPluginFrame
 (
 nsStyleContext
 *
@@ -712,7 +712,7 @@ aContext
 ;
 virtual
 ~
-nsObjectFrame
+nsPluginFrame
 (
 )
 ;
@@ -1072,7 +1072,7 @@ MOZ_OVERRIDE
 return
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -1109,7 +1109,7 @@ MOZ_OVERRIDE
 return
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (

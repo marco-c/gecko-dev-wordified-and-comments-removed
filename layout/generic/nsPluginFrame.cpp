@@ -437,7 +437,7 @@ sLog
 PR_NewLogModule
 (
 "
-nsObjectFrame
+nsPluginFrame
 "
 )
 ;
@@ -582,7 +582,7 @@ public
 :
 PluginBackgroundSink
 (
-nsObjectFrame
+nsPluginFrame
 *
 aFrame
 uint64_t
@@ -763,23 +763,23 @@ false
 uint64_t
 mLastSequenceNumber
 ;
-nsObjectFrame
+nsPluginFrame
 *
 mFrame
 ;
 }
 ;
-nsObjectFrame
+nsPluginFrame
 :
 :
-nsObjectFrame
+nsPluginFrame
 (
 nsStyleContext
 *
 aContext
 )
 :
-nsObjectFrameSuper
+nsPluginFrameSuper
 (
 aContext
 )
@@ -798,7 +798,7 @@ PR_LOG_DEBUG
 "
 Created
 new
-nsObjectFrame
+nsPluginFrame
 %
 p
 \
@@ -809,11 +809,11 @@ this
 )
 ;
 }
-nsObjectFrame
+nsPluginFrame
 :
 :
 ~
-nsObjectFrame
+nsPluginFrame
 (
 )
 {
@@ -825,7 +825,7 @@ GetObjectFrameLog
 PR_LOG_DEBUG
 (
 "
-nsObjectFrame
+nsPluginFrame
 %
 p
 deleted
@@ -839,11 +839,11 @@ this
 }
 NS_QUERYFRAME_HEAD
 (
-nsObjectFrame
+nsPluginFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsObjectFrame
+nsPluginFrame
 )
 NS_QUERYFRAME_ENTRY
 (
@@ -851,7 +851,7 @@ nsIObjectFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsObjectFrameSuper
+nsPluginFrameSuper
 )
 #
 ifdef
@@ -860,7 +860,7 @@ a11y
 :
 :
 AccType
-nsObjectFrame
+nsPluginFrame
 :
 :
 AccessibleType
@@ -878,7 +878,7 @@ ePluginType
 ifdef
 XP_WIN
 NS_IMETHODIMP
-nsObjectFrame
+nsPluginFrame
 :
 :
 GetPluginPort
@@ -910,7 +910,7 @@ endif
 #
 endif
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 Init
@@ -935,7 +935,7 @@ PR_LOG_DEBUG
 (
 "
 Initializing
-nsObjectFrame
+nsPluginFrame
 %
 p
 for
@@ -950,7 +950,7 @@ aContent
 )
 )
 ;
-nsObjectFrameSuper
+nsPluginFrameSuper
 :
 :
 Init
@@ -962,7 +962,7 @@ aPrevInFlow
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 DestroyFrom
@@ -1054,7 +1054,7 @@ Destroy
 )
 ;
 }
-nsObjectFrameSuper
+nsPluginFrameSuper
 :
 :
 DestroyFrom
@@ -1064,7 +1064,7 @@ aDestructRoot
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 DidSetStyleContext
@@ -1127,7 +1127,7 @@ visibility
 ;
 }
 }
-nsObjectFrameSuper
+nsPluginFrameSuper
 :
 :
 DidSetStyleContext
@@ -1138,7 +1138,7 @@ aOldStyleContext
 }
 nsIAtom
 *
-nsObjectFrame
+nsPluginFrame
 :
 :
 GetType
@@ -1157,7 +1157,7 @@ objectFrame
 ifdef
 DEBUG_FRAME_DUMP
 nsresult
-nsObjectFrame
+nsPluginFrame
 :
 :
 GetFrameName
@@ -1184,7 +1184,7 @@ aResult
 #
 endif
 nsresult
-nsObjectFrame
+nsPluginFrame
 :
 :
 PrepForDrawing
@@ -1724,7 +1724,7 @@ define
 EMBED_DEF_HEIGHT
 200
 nscoord
-nsObjectFrame
+nsPluginFrame
 :
 :
 GetMinISize
@@ -1802,7 +1802,7 @@ result
 ;
 }
 nscoord
-nsObjectFrame
+nsPluginFrame
 :
 :
 GetPrefISize
@@ -1813,7 +1813,7 @@ aRenderingContext
 )
 {
 return
-nsObjectFrame
+nsPluginFrame
 :
 :
 GetMinISize
@@ -1823,7 +1823,7 @@ aRenderingContext
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 GetDesiredSize
@@ -2129,7 +2129,7 @@ ComputedMinHeight
 }
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 Reflow
@@ -2152,7 +2152,7 @@ aStatus
 DO_GLOBAL_REFLOW_COUNT
 (
 "
-nsObjectFrame
+nsPluginFrame
 "
 )
 ;
@@ -2354,7 +2354,7 @@ aMetrics
 ;
 }
 bool
-nsObjectFrame
+nsPluginFrame
 :
 :
 ReflowFinished
@@ -2374,7 +2374,7 @@ true
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 ReflowCallbackCanceled
@@ -2387,7 +2387,7 @@ false
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 FixupWindow
@@ -2636,7 +2636,7 @@ NotifyPluginReflowObservers
 ;
 }
 nsresult
-nsObjectFrame
+nsPluginFrame
 :
 :
 CallSetWindow
@@ -2999,7 +2999,7 @@ rv
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 RegisterPluginForGeometryUpdates
@@ -3079,7 +3079,7 @@ mContent
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 UnregisterPluginForGeometryUpdates
@@ -3109,7 +3109,7 @@ nullptr
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 SetInstanceOwner
@@ -3232,7 +3232,7 @@ nullptr
 }
 }
 bool
-nsObjectFrame
+nsPluginFrame
 :
 :
 IsFocusable
@@ -3255,7 +3255,7 @@ aTabIndex
 1
 ;
 return
-nsObjectFrameSuper
+nsPluginFrameSuper
 :
 :
 IsFocusable
@@ -3266,7 +3266,7 @@ aWithMouse
 ;
 }
 bool
-nsObjectFrame
+nsPluginFrame
 :
 :
 IsHidden
@@ -3386,7 +3386,7 @@ false
 ;
 }
 nsIntPoint
-nsObjectFrame
+nsPluginFrame
 :
 :
 GetWindowOriginInPixels
@@ -3479,7 +3479,7 @@ y
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 DidReflow
@@ -3550,7 +3550,7 @@ this
 )
 ;
 }
-nsObjectFrameSuper
+nsPluginFrameSuper
 :
 :
 DidReflow
@@ -3620,7 +3620,7 @@ nsViewVisibility_kShow
 }
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 PaintPrintPlugin
@@ -3714,7 +3714,7 @@ devPixelPt
 ;
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -3820,7 +3820,7 @@ MOZ_OVERRIDE
 return
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -4022,7 +4022,7 @@ MOZ_OVERRIDE
 return
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -4156,13 +4156,13 @@ nsRenderingContext
 aCtx
 )
 {
-nsObjectFrame
+nsPluginFrame
 *
 f
 =
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -4214,13 +4214,13 @@ IsForPluginGeometry
 )
 )
 {
-nsObjectFrame
+nsPluginFrame
 *
 f
 =
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -4471,13 +4471,13 @@ false
 nsRegion
 result
 ;
-nsObjectFrame
+nsPluginFrame
 *
 f
 =
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -4576,7 +4576,7 @@ result
 ;
 }
 nsresult
-nsObjectFrame
+nsPluginFrame
 :
 :
 PluginEventNotifier
@@ -4627,7 +4627,7 @@ NS_OK
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 NotifyPluginReflowObservers
@@ -4653,7 +4653,7 @@ reflow
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 DidSetWidgetGeometry
@@ -4727,7 +4727,7 @@ IsEmpty
 endif
 }
 bool
-nsObjectFrame
+nsPluginFrame
 :
 :
 IsOpaque
@@ -4765,7 +4765,7 @@ IsTransparentMode
 endif
 }
 bool
-nsObjectFrame
+nsPluginFrame
 :
 :
 IsTransparentMode
@@ -4886,7 +4886,7 @@ transparent
 endif
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 BuildDisplayList
@@ -4950,7 +4950,7 @@ return
 DO_GLOBAL_REFLOW_COUNT_DSP
 (
 "
-nsObjectFrame
+nsPluginFrame
 "
 )
 ;
@@ -5305,7 +5305,7 @@ this
 }
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 PrintPlugin
@@ -6331,7 +6331,7 @@ status
 ;
 }
 nsRect
-nsObjectFrame
+nsPluginFrame
 :
 :
 GetPaintedRect
@@ -6424,7 +6424,7 @@ r
 ;
 }
 LayerState
-nsObjectFrame
+nsPluginFrame
 :
 :
 GetLayerState
@@ -6493,7 +6493,7 @@ already_AddRefed
 <
 Layer
 >
-nsObjectFrame
+nsPluginFrame
 :
 :
 BuildLayer
@@ -7296,7 +7296,7 @@ forget
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 PaintPlugin
@@ -8438,7 +8438,7 @@ currentMatrix
 endif
 }
 nsresult
-nsObjectFrame
+nsPluginFrame
 :
 :
 HandleEvent
@@ -8659,7 +8659,7 @@ ifdef
 XP_WIN
 rv
 =
-nsObjectFrameSuper
+nsPluginFrameSuper
 :
 :
 HandleEvent
@@ -8753,7 +8753,7 @@ CAPTURE_IGNOREALLOWED
 endif
 rv
 =
-nsObjectFrameSuper
+nsPluginFrameSuper
 :
 :
 HandleEvent
@@ -8794,7 +8794,7 @@ rv
 ;
 }
 nsresult
-nsObjectFrame
+nsPluginFrame
 :
 :
 GetPluginInstance
@@ -8831,7 +8831,7 @@ aPluginInstance
 ;
 }
 nsresult
-nsObjectFrame
+nsPluginFrame
 :
 :
 GetCursor
@@ -8917,7 +8917,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-nsObjectFrameSuper
+nsPluginFrameSuper
 :
 :
 GetCursor
@@ -8928,7 +8928,7 @@ aCursor
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 SetIsDocumentActive
@@ -8959,7 +8959,7 @@ endif
 }
 nsIObjectFrame
 *
-nsObjectFrame
+nsPluginFrame
 :
 :
 GetNextObjectFrame
@@ -9057,7 +9057,7 @@ nullptr
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 BeginSwapDocShells
@@ -9118,13 +9118,13 @@ obj
 )
 return
 ;
-nsObjectFrame
+nsPluginFrame
 *
 objectFrame
 =
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -9168,7 +9168,7 @@ UnregisterPluginForGeometryUpdates
 ;
 }
 void
-nsObjectFrame
+nsPluginFrame
 :
 :
 EndSwapDocShells
@@ -9229,13 +9229,13 @@ obj
 )
 return
 ;
-nsObjectFrame
+nsPluginFrame
 *
 objectFrame
 =
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -9389,14 +9389,14 @@ new
 (
 aPresShell
 )
-nsObjectFrame
+nsPluginFrame
 (
 aContext
 )
 ;
 }
 bool
-nsObjectFrame
+nsPluginFrame
 :
 :
 IsPaintedByGecko
@@ -9421,5 +9421,5 @@ endif
 }
 NS_IMPL_FRAMEARENA_HELPERS
 (
-nsObjectFrame
+nsPluginFrame
 )

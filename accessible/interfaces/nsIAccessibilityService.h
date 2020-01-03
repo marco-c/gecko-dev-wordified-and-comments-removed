@@ -49,7 +49,7 @@ class
 nsIPresShell
 ;
 class
-nsObjectFrame
+nsPluginFrame
 ;
 #
 define

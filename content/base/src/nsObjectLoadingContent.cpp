@@ -3773,7 +3773,7 @@ SetFrame
 (
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -5778,13 +5778,13 @@ return
 NS_OK
 ;
 }
-nsObjectFrame
+nsPluginFrame
 *
 objFrame
 =
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (
@@ -11794,7 +11794,7 @@ return
 eType_Null
 ;
 }
-nsObjectFrame
+nsPluginFrame
 *
 nsObjectLoadingContent
 :
@@ -11844,7 +11844,7 @@ frame
 return
 static_cast
 <
-nsObjectFrame
+nsPluginFrame
 *
 >
 (

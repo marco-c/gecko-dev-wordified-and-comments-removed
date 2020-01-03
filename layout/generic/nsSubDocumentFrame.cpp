@@ -4489,7 +4489,7 @@ aDocument
 >
 EnumerateActivityObservers
 (
-nsObjectFrame
+nsPluginFrame
 :
 :
 BeginSwapDocShells
@@ -5046,7 +5046,7 @@ aDocument
 >
 EnumerateActivityObservers
 (
-nsObjectFrame
+nsPluginFrame
 :
 :
 EndSwapDocShells

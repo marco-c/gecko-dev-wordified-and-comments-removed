@@ -643,7 +643,7 @@ a
 path
 other
 than
-nsObjectFrame
+nsPluginFrame
 :
 :
 FixUpPluginWindow

@@ -111,7 +111,7 @@ class
 nsPluginDOMContextMenuListener
 ;
 class
-nsObjectFrame
+nsPluginFrame
 ;
 class
 nsDisplayListBuilder
@@ -601,12 +601,12 @@ endif
 void
 SetFrame
 (
-nsObjectFrame
+nsPluginFrame
 *
 aFrame
 )
 ;
-nsObjectFrame
+nsPluginFrame
 *
 GetFrame
 (
@@ -1088,7 +1088,7 @@ nsNPAPIPluginInstance
 >
 mInstance
 ;
-nsObjectFrame
+nsPluginFrame
 *
 mObjectFrame
 ;
