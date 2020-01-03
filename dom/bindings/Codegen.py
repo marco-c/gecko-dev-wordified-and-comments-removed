@@ -7449,7 +7449,7 @@ mozilla
 /
 dom
 /
-BindingUtils
+ToJSValue
 .
 h
 "
@@ -7497,7 +7497,7 @@ mozilla
 /
 dom
 /
-BindingUtils
+ToJSValue
 .
 h
 "
@@ -97483,7 +97483,7 @@ GetContext
 if
 (
 !
-WrapCallThisValue
+ToJSValue
 (
 s
 .
