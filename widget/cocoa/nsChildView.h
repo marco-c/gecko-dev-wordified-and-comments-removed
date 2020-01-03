@@ -2010,15 +2010,6 @@ ConfigureAPZCTreeManager
 )
 MOZ_OVERRIDE
 ;
-already_AddRefed
-<
-GeckoContentController
->
-CreateRootContentController
-(
-)
-MOZ_OVERRIDE
-;
 void
 DoRemoteComposition
 (
