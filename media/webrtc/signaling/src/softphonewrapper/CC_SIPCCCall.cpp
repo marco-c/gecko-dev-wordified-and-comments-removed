@@ -3346,7 +3346,7 @@ peerconnection
 =
 handle
 ;
-strncpy
+sstrncpy
 (
 command
 .
@@ -3765,7 +3765,7 @@ level
 =
 level
 ;
-strncpy
+sstrncpy
 (
 command
 .
@@ -3791,7 +3791,7 @@ candidate
 )
 )
 ;
-strncpy
+sstrncpy
 (
 command
 .
@@ -3957,7 +3957,7 @@ level
 =
 level
 ;
-strncpy
+sstrncpy
 (
 command
 .
@@ -3983,7 +3983,7 @@ candidate
 )
 )
 ;
-strncpy
+sstrncpy
 (
 command
 .
