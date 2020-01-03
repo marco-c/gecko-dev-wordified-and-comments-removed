@@ -116,6 +116,14 @@ CacheEntryWriter
 )
 {
 }
+nsresult
+CopySecurityInfo
+(
+nsIChannel
+*
+aChannel
+)
+;
 static
 NS_METHOD
 ConsumeData
