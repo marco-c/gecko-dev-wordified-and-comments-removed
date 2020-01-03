@@ -1686,6 +1686,13 @@ equals
 phone
 "
 )
+|
+|
+HardwareUtils
+.
+isSmallTablet
+(
+)
 )
 {
 int
