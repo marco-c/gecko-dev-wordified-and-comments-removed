@@ -4108,8 +4108,15 @@ self
 .
 _logger
 .
-info
+debug
 (
+"
+getInfo
+:
+%
+s
+"
+%
 ret
 )
         
