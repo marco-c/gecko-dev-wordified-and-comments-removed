@@ -1681,6 +1681,10 @@ if
 IsElementClickable
 (
 f
+nsGkAtoms
+:
+:
+body
 )
 )
 {
