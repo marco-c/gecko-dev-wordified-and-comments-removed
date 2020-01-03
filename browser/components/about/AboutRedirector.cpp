@@ -830,6 +830,11 @@ ALLOW_SCRIPT
 nsIAboutModule
 :
 :
+URI_MUST_LOAD_IN_CHILD
+|
+nsIAboutModule
+:
+:
 HIDE_FROM_ABOUTABOUT
 }
 }
