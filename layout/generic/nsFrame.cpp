@@ -9061,6 +9061,9 @@ static
 bool
 IsScrollFrameActive
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIScrollableFrame
 *
 aScrollableFrame
@@ -9075,6 +9078,7 @@ aScrollableFrame
 >
 IsScrollingActive
 (
+aBuilder
 )
 ;
 }
@@ -9652,6 +9656,7 @@ NS_STYLE_POSITION_STICKY
 &
 IsScrollFrameActive
 (
+aBuilder
 nsLayoutUtils
 :
 :

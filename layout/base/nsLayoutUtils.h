@@ -1195,6 +1195,9 @@ nsIFrame
 *
 GetAnimatedGeometryRootForFrame
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
