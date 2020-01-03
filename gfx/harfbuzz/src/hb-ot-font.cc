@@ -1121,6 +1121,9 @@ font
 em_scale_y
 (
 -
+(
+int
+)
 ot_font
 -
 >

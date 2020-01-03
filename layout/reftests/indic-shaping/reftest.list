@@ -500,12 +500,6 @@ aat
 notref
 .
 html
-fails
--
-if
-(
-Android
-)
 HTTP
 (
 .
@@ -525,10 +519,3 @@ balinese
 ref
 .
 html
-#
-fails
-on
-builds
-without
-ICU
-normalization

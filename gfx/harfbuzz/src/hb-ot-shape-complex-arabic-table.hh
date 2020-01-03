@@ -739,10 +739,12 @@ D
 D
 R
 R
+D
+D
 #
 define
 joining_offset_0x1806u
-691
+693
 U
 D
 X
@@ -911,13 +913,13 @@ D
 #
 define
 joining_offset_0x200cu
-856
+858
 U
 C
 #
 define
 joining_offset_0x2066u
-858
+860
 U
 U
 U
@@ -925,7 +927,7 @@ U
 #
 define
 joining_offset_0xa840u
-862
+864
 D
 D
 D
@@ -981,7 +983,7 @@ U
 #
 define
 joining_offset_0x10ac0u
-914
+916
 D
 D
 D
@@ -1033,7 +1035,7 @@ R
 #
 define
 joining_offset_0x10b80u
-962
+964
 D
 R
 D
@@ -1110,7 +1112,7 @@ hb_in_range
 (
 u
 0x0600u
-0x08B2u
+0x08B4u
 )
 )
 return

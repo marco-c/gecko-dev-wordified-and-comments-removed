@@ -540,7 +540,8 @@ FromGlyphs
 \
 /
 *
-ASSERT_STATIC_EXPR
+ASSERT_STATIC_EXPR_ZERO
+(
 len
 (
 FromGlyphs
@@ -550,6 +551,7 @@ FromGlyphs
 len
 (
 ToGlyphs
+)
 )
 *
 /
@@ -606,7 +608,8 @@ FirstGlyphs
 \
 /
 *
-ASSERT_STATIC_EXPR
+ASSERT_STATIC_EXPR_ZERO
+(
 len
 (
 FirstGlyphs
@@ -616,6 +619,7 @@ FirstGlyphs
 len
 (
 LigatureSetOffsets
+)
 )
 *
 /
