@@ -255,6 +255,12 @@ using
 mozilla
 :
 :
+DebugOnly
+;
+using
+mozilla
+:
+:
 Maybe
 ;
 extern
@@ -6486,6 +6492,10 @@ hook
 "
 )
 ;
+st
+=
+JSTRAP_CONTINUE
+;
 }
 if
 (
@@ -8622,7 +8632,10 @@ rval
 cx
 )
 ;
+DebugOnly
+<
 JSTrapStatus
+>
 status
 =
 dispatchHook
