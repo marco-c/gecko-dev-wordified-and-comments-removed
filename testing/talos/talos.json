@@ -31,7 +31,7 @@ zips
 /
 talos
 .
-49b74c08dad4
+04081c46ff03
 .
 zip
 "
@@ -71,7 +71,7 @@ talos_revision
 "
 :
 "
-ced1b2d1c400
+04081c46ff03
 "
 }
 "
@@ -571,6 +571,9 @@ tests
 [
 "
 tp5n
+"
+"
+ts_paint_cold
 "
 ]
 "
