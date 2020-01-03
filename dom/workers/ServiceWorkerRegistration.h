@@ -141,13 +141,6 @@ ErrorResult
 aRv
 )
 ;
-nsIURI
-*
-GetDocumentURI
-(
-)
-const
-;
 void
 InvalidateWorkerReference
 (
