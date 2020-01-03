@@ -768,6 +768,11 @@ MediaSourceReadyState
 :
 :
 Ended
+&
+&
+highestEndTime
+>
+0
 )
 {
 ranges
