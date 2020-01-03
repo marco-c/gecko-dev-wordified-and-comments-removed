@@ -221,13 +221,6 @@ EndPage
 (
 )
 ;
-virtual
-int32_t
-GetDefaultContextFlags
-(
-)
-const
-;
 const
 gfxIntSize
 GetSize

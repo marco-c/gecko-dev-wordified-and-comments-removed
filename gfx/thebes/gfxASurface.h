@@ -370,17 +370,6 @@ int32_t
 width
 )
 ;
-virtual
-int32_t
-GetDefaultContextFlags
-(
-)
-const
-{
-return
-0
-;
-}
 static
 gfxContentType
 ContentFromFormat

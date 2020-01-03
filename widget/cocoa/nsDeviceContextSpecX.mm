@@ -745,7 +745,6 @@ gfxSize
 width
 height
 )
-true
 )
 ;
 }
@@ -771,7 +770,6 @@ gfxImageFormat
 :
 :
 ARGB32
-true
 )
 ;
 }
