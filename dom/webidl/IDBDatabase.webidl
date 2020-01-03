@@ -171,9 +171,6 @@ long
 long
 version
 ;
-[
-Throws
-]
 readonly
 attribute
 DOMStringList

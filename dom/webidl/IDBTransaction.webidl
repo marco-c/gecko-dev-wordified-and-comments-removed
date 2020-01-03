@@ -241,9 +241,6 @@ partial
 interface
 IDBTransaction
 {
-[
-Throws
-]
 readonly
 attribute
 DOMStringList

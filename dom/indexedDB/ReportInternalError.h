@@ -186,7 +186,15 @@ while
 (
 0
 )
-BEGIN_INDEXEDDB_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
+namespace
+indexedDB
+{
 void
 ReportInternalError
 (
@@ -202,6 +210,8 @@ char
 aStr
 )
 ;
-END_INDEXEDDB_NAMESPACE
+}
+}
+}
 #
 endif
