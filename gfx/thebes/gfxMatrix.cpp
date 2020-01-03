@@ -769,7 +769,8 @@ aVal
 f
 ;
 }
-void
+gfxMatrix
+&
 gfxMatrix
 :
 :
@@ -813,5 +814,9 @@ NudgeToInteger
 &
 _32
 )
+;
+return
+*
+this
 ;
 }

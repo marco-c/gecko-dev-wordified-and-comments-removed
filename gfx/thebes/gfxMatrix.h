@@ -978,7 +978,8 @@ major
 )
 ;
 }
-void
+gfxMatrix
+&
 NudgeToIntegers
 (
 void
