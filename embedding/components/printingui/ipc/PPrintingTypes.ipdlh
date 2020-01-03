@@ -440,7 +440,7 @@ pagesAcross
 short
 pagesDown
 ;
-nsString
+double
 printTime
 ;
 bool

@@ -1774,6 +1774,15 @@ pagesDown
 data
 -
 >
+printTime
+(
+)
+=
+0
+;
+data
+-
+>
 detailedErrorReporting
 (
 )

@@ -201,6 +201,14 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
+DEFINES
+[
+'
+PROXY_PRINTING
+'
+]
+=
+1
 LOCAL_INCLUDES
 +
 =
