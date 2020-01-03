@@ -1410,7 +1410,10 @@ gTestList
 .
 push
 (
+testList
+[
 obj
+]
 )
 ;
 }
