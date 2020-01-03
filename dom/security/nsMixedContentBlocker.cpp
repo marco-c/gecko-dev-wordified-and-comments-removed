@@ -1312,12 +1312,6 @@ TYPE_MEDIA
 case
 TYPE_OBJECT_SUBREQUEST
 :
-case
-TYPE_PING
-:
-case
-TYPE_BEACON
-:
 classification
 =
 eMixedDisplay
@@ -1325,7 +1319,7 @@ eMixedDisplay
 break
 ;
 case
-TYPE_IMAGESET
+TYPE_BEACON
 :
 case
 TYPE_CSP_REPORT
@@ -1340,6 +1334,9 @@ case
 TYPE_FONT
 :
 case
+TYPE_IMAGESET
+:
+case
 TYPE_OBJECT
 :
 case
@@ -1350,6 +1347,9 @@ TYPE_STYLESHEET
 :
 case
 TYPE_SUBDOCUMENT
+:
+case
+TYPE_PING
 :
 case
 TYPE_WEB_MANIFEST
