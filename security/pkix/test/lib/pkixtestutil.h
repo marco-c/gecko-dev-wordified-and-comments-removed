@@ -199,7 +199,7 @@ tlv_id_kp_serverAuth
 ;
 extern
 const
-Input
+ByteString
 sha256WithRSAEncryption
 ;
 mozilla
@@ -262,7 +262,9 @@ const
 ByteString
 &
 tbs
-SignatureAlgorithm
+const
+ByteString
+&
 signatureAlgorithm
 ByteString
 &
@@ -425,7 +427,9 @@ CreateEncodedCertificate
 (
 long
 version
-Input
+const
+ByteString
+&
 signature
 const
 ByteString
@@ -450,7 +454,9 @@ extensions
 TestKeyPair
 *
 issuerKeyPair
-SignatureAlgorithm
+const
+ByteString
+&
 signatureAlgorithm
 ScopedTestKeyPair
 &
