@@ -56,9 +56,13 @@ AtkHyperlink
 *
 GetAtkHyperlink
 (
-void
 )
+const
+{
+return
+mMaiAtkHyperlink
 ;
+}
 Accessible
 *
 GetAccHyperlink
