@@ -324,10 +324,6 @@ mLayersBackend
 (
 aLayersBackend
 )
-mUseHwAccel
-(
-false
-)
 {
 NS_ASSERTION
 (
@@ -747,6 +743,10 @@ Init
 (
 )
 {
+mUseHwAccel
+=
+false
+;
 bool
 useDxva
 =
@@ -2421,6 +2421,9 @@ IsHardwareAccelerated
 const
 {
 return
+mDecoder
+&
+&
 mUseHwAccel
 ;
 }
