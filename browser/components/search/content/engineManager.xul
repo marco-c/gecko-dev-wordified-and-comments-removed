@@ -388,6 +388,15 @@ gEngineManagerDialog
 editKeyword
 (
 )
+.
+catch
+(
+Components
+.
+utils
+.
+reportError
+)
 ;
 "
 disabled
