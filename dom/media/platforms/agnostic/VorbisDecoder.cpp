@@ -715,7 +715,9 @@ aData
 aSample
 -
 >
-mData
+Data
+(
+)
 ;
 size_t
 aLength
@@ -723,7 +725,9 @@ aLength
 aSample
 -
 >
-mSize
+Size
+(
+)
 ;
 int64_t
 aOffset

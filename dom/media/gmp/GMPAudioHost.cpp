@@ -194,11 +194,15 @@ AppendElements
 aSample
 -
 >
-mData
+Data
+(
+)
 aSample
 -
 >
-mSize
+Size
+(
+)
 )
 ;
 if
