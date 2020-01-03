@@ -20285,6 +20285,12 @@ rv
 rv
 )
 ;
+loadInfo
+.
+mPrincipalIsSystem
+=
+true
+;
 }
 nsCOMPtr
 <
