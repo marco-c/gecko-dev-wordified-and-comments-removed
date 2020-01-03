@@ -128,6 +128,15 @@ SettingChangeNotificationBinding
 h
 "
 #
+include
+"
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
 define
 TUNE_THREAD_TIMEOUT_MS
 5000
@@ -3112,7 +3121,10 @@ IsFMRadioOn
 mRDSEnabled
 )
 {
+DebugOnly
+<
 bool
+>
 enabled
 =
 hal
