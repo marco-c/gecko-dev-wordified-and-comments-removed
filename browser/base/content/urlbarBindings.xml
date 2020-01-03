@@ -8800,6 +8800,12 @@ remove
 (
 )
 ;
+textbox
+.
+_selectedButton
+=
+null
+;
 let
 hiddenList
 ;
