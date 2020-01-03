@@ -975,6 +975,9 @@ buffer
 %
 zu
 "
+(
+size_t
+)
 size
 )
 #
