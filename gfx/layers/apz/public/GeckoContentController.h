@@ -273,6 +273,14 @@ aEvent
 )
 {
 }
+virtual
+void
+NotifyFlushComplete
+(
+)
+=
+0
+;
 GeckoContentController
 (
 )

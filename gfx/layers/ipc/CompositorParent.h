@@ -1153,6 +1153,17 @@ override
 ;
 virtual
 void
+FlushApzRepaints
+(
+const
+LayerTransactionParent
+*
+aLayerTree
+)
+override
+;
+virtual
+void
 GetAPZTestData
 (
 const
