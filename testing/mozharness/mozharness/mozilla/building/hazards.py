@@ -764,6 +764,27 @@ sixgill_bin
 '
 ]
 )
+            
+'
+gcc_bin
+'
+:
+os
+.
+path
+.
+join
+(
+dirs
+[
+'
+abs_work_dir
+'
+]
+'
+gcc
+'
+)
         
 }
         
@@ -826,9 +847,18 @@ sixgill_bin
 )
 s
 '
+gcc_bin
+=
+'
+%
+(
+gcc_bin
+)
+s
+'
 jobs
 =
-2
+4
 "
 "
 "
