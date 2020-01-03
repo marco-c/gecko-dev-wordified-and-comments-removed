@@ -190,6 +190,11 @@ CanvasGradient
 h
 '
 '
+CanvasPath
+.
+h
+'
+'
 CanvasPattern
 .
 h
