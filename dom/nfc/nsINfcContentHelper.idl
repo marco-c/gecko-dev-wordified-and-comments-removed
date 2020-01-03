@@ -147,7 +147,7 @@ e1f1436476c3
 )
 ]
 interface
-nsINfcDOMEventListener
+nsINfcEventListener
 :
 nsISupports
 {
@@ -542,7 +542,7 @@ An
 instance
 of
 the
-nsINfcDOMEventListener
+nsINfcEventListener
 .
 *
 /
@@ -550,7 +550,7 @@ void
 addEventListener
 (
 in
-nsINfcDOMEventListener
+nsINfcEventListener
 listener
 )
 ;

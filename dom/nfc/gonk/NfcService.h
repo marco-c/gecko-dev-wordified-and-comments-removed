@@ -153,7 +153,7 @@ mThread
 ;
 nsCOMPtr
 <
-nsINfcEventListener
+nsINfcGonkEventListener
 >
 mListener
 ;

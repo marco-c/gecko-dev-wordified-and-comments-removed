@@ -2215,7 +2215,7 @@ Ci
 nsIDOMGlobalPropertyInitializer
 Ci
 .
-nsINfcDOMEventListener
+nsINfcEventListener
 ]
 )
 }
