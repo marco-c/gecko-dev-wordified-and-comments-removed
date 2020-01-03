@@ -216,3 +216,6 @@ LOCAL_INCLUDES
 parentalcontrols
 '
 ]
+FAIL_ON_WARNINGS
+=
+True
