@@ -3200,15 +3200,6 @@ pc
 ;
 if
 (
-!
-script
--
->
-compileAndGo
-(
-)
-|
-|
 offset
 >
 =
