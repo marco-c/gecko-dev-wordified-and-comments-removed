@@ -1259,13 +1259,6 @@ BINPATH
 /
 components
 /
-imgicon
-.
-xpt
-BINPATH
-/
-components
-/
 inspector
 .
 xpt

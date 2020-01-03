@@ -147,6 +147,11 @@ imgITools
 .
 idl
 '
+'
+nsIIconURI
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
