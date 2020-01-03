@@ -1,9 +1,9 @@
 #
 ifndef
-nsIconDecoder_h__
+nsIconDecoder_h
 #
 define
-nsIconDecoder_h__
+nsIconDecoder_h
 #
 include
 "
@@ -62,6 +62,7 @@ aCount
 DecodeStrategy
 aStrategy
 )
+MOZ_OVERRIDE
 ;
 uint8_t
 mWidth

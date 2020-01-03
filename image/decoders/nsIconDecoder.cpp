@@ -15,13 +15,6 @@ h
 #
 include
 "
-RasterImage
-.
-h
-"
-#
-include
-"
 nspr
 .
 h
@@ -37,6 +30,13 @@ h
 include
 "
 nsError
+.
+h
+"
+#
+include
+"
+RasterImage
 .
 h
 "

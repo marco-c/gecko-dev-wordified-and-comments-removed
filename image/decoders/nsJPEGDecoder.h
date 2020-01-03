@@ -1,9 +1,9 @@
 #
 ifndef
-nsJPEGDecoder_h__
+nsJPEGDecoder_h
 #
 define
-nsJPEGDecoder_h__
+nsJPEGDecoder_h
 #
 include
 "
@@ -152,6 +152,7 @@ aCount
 DecodeStrategy
 aStrategy
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

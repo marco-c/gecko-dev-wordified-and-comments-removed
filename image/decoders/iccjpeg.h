@@ -1,4 +1,10 @@
 #
+ifndef
+ICCJPEG_H
+#
+define
+ICCJPEG_H
+#
 include
 <
 stdio
@@ -42,3 +48,5 @@ icc_data_len
 )
 )
 ;
+#
+endif

@@ -89,6 +89,7 @@ aCount
 DecodeStrategy
 aStrategy
 )
+MOZ_OVERRIDE
 ;
 virtual
 Telemetry

@@ -55,6 +55,7 @@ define
 NS_JPEGENCODER_CID
 \
 {
+\
 /
 *
 ac2bb8fe

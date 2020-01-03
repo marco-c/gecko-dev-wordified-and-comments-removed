@@ -1,9 +1,9 @@
 #
 ifndef
-_nsICODecoder_h
+nsICODecoder_h
 #
 define
-_nsICODecoder_h
+nsICODecoder_h
 #
 include
 "
@@ -125,6 +125,7 @@ aCount
 DecodeStrategy
 aStrategy
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

@@ -573,6 +573,7 @@ if
 (
 mListener
 )
+{
 return
 mListener
 -
@@ -583,6 +584,7 @@ this
 aContext
 )
 ;
+}
 return
 NS_OK
 ;
@@ -633,6 +635,7 @@ if
 (
 mLoadGroup
 )
+{
 mLoadGroup
 -
 >
@@ -643,6 +646,7 @@ nullptr
 aStatus
 )
 ;
+}
 return
 NS_OK
 ;
@@ -676,6 +680,7 @@ if
 (
 mListener
 )
+{
 return
 mListener
 -
@@ -689,6 +694,7 @@ aOffset
 aCount
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1198,6 +1204,7 @@ if
 (
 mLoadGroup
 )
+{
 mLoadGroup
 -
 >
@@ -1207,6 +1214,7 @@ this
 nullptr
 )
 ;
+}
 }
 return
 rv
@@ -1223,7 +1231,7 @@ nsIInputStream
 *
 _retval
 bool
-nonBlocking
+aNonBlocking
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
@@ -1486,6 +1494,7 @@ if
 !
 iconImage
 )
+{
 iconImage
 =
 [
@@ -1498,14 +1507,17 @@ iconForFileType
 NSFileTypeUnknown
 ]
 ;
+}
 if
 (
 !
 iconImage
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 /
 /
 we
@@ -1599,6 +1611,8 @@ we
 '
 ll
 get
+/
+/
 a
 2x
 bitmap
@@ -1614,6 +1628,8 @@ bytesPerPlane
 ]
 =
 =
+/
+/
 desiredImageSize
 *
 desiredImageSize
@@ -1769,6 +1785,8 @@ initial
 size
 is
 for
+/
+/
 16x16
 iconBuffer
 .
@@ -2031,7 +2049,7 @@ outStream
 )
 bufferCapacity
 bufferCapacity
-nonBlocking
+aNonBlocking
 )
 ;
 if
@@ -2073,6 +2091,7 @@ NS_SUCCEEDED
 rv
 )
 )
+{
 NS_IF_ADDREF
 (
 *
@@ -2081,6 +2100,7 @@ _retval
 inStream
 )
 ;
+}
 }
 /
 /

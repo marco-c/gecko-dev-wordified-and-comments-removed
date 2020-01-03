@@ -878,9 +878,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 rv
 =
 mPump
@@ -911,9 +913,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 rv
 =
 mPump
@@ -941,6 +945,7 @@ if
 (
 mLoadGroup
 )
+{
 mLoadGroup
 -
 >
@@ -950,6 +955,7 @@ this
 nullptr
 )
 ;
+}
 }
 return
 rv
@@ -981,9 +987,11 @@ if
 !
 aFile
 )
+{
 return
 shellResult
 ;
+}
 wchar_t
 fileNativePath
 [
@@ -1128,26 +1136,19 @@ uint32_t
 aDesiredImageSize
 )
 {
+return
+(
 UINT
-infoFlag
-;
-if
+)
 (
 aDesiredImageSize
 >
 16
-)
-infoFlag
-=
+?
 SHGFI_SHELLICONSIZE
-;
-else
-infoFlag
-=
+:
 SHGFI_SMALLICON
-;
-return
-infoFlag
+)
 ;
 }
 nsresult
@@ -1268,9 +1269,11 @@ filePath
 :
 '
 )
+{
 return
 NS_ERROR_MALFORMED_URI
 ;
+}
 if
 (
 filePath
@@ -1284,6 +1287,7 @@ Last
 :
 '
 )
+{
 filePath
 .
 Append
@@ -1294,6 +1298,7 @@ Append
 '
 )
 ;
+}
 else
 {
 localFile
@@ -1310,6 +1315,7 @@ if
 !
 fileExists
 )
+{
 localFile
 -
 >
@@ -1320,16 +1326,19 @@ filePath
 ;
 }
 }
+}
 if
 (
 !
 fileExists
 )
+{
 infoFlags
 |
 =
 SHGFI_USEFILEATTRIBUTES
 ;
+}
 infoFlags
 |
 =
@@ -1435,6 +1444,7 @@ if
 !
 shellResult
 )
+{
 shellResult
 =
 :
@@ -1456,6 +1466,7 @@ sfi
 infoFlags
 )
 ;
+}
 if
 (
 shellResult
@@ -1465,6 +1476,7 @@ sfi
 .
 hIcon
 )
+{
 *
 hIcon
 =
@@ -1472,11 +1484,14 @@ sfi
 .
 hIcon
 ;
+}
 else
+{
 rv
 =
 NS_ERROR_NOT_AVAILABLE
 ;
+}
 return
 rv
 ;
@@ -1582,9 +1597,11 @@ stockIconID
 =
 SIID_INVALID
 )
+{
 return
 NS_ERROR_NOT_AVAILABLE
 ;
+}
 UINT
 infoFlags
 =
@@ -1632,6 +1649,7 @@ SUCCEEDED
 hr
 )
 )
+{
 *
 hIcon
 =
@@ -1639,11 +1657,14 @@ sii
 .
 hIcon
 ;
+}
 else
+{
 rv
 =
 NS_ERROR_FAILURE
 ;
+}
 }
 else
 {
@@ -1656,6 +1677,7 @@ if
 (
 hShellDLL
 )
+{
 :
 :
 FreeLibrary
@@ -1663,6 +1685,7 @@ FreeLibrary
 hShellDLL
 )
 ;
+}
 return
 rv
 ;
@@ -1752,6 +1775,7 @@ biClrUsed
 =
 maxEntries
 )
+{
 colorTableSize
 =
 aHeader
@@ -1764,6 +1788,7 @@ sizeof
 RGBQUAD
 )
 ;
+}
 else
 if
 (
@@ -1775,6 +1800,7 @@ biClrUsed
 =
 0
 )
+{
 colorTableSize
 =
 maxEntries
@@ -1784,6 +1810,7 @@ sizeof
 RGBQUAD
 )
 ;
+}
 break
 ;
 }
@@ -1834,6 +1861,7 @@ colorTableSize
 <
 0
 )
+{
 NS_WARNING
 (
 "
@@ -1851,6 +1879,7 @@ bitmap
 "
 )
 ;
+}
 return
 colorTableSize
 ;
@@ -1935,7 +1964,7 @@ nsIInputStream
 *
 _retval
 bool
-nonBlocking
+aNonBlocking
 )
 {
 nsresult
@@ -1988,6 +2017,7 @@ IsEmpty
 (
 )
 )
+{
 rv
 =
 GetStockHIcon
@@ -1997,7 +2027,9 @@ iconURI
 hIcon
 )
 ;
+}
 else
+{
 rv
 =
 GetHIconFromFile
@@ -2006,6 +2038,7 @@ GetHIconFromFile
 hIcon
 )
 ;
+}
 NS_ENSURE_SUCCESS
 (
 rv
@@ -2244,10 +2277,12 @@ if
 !
 buffer
 )
+{
 rv
 =
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 else
 {
 char
@@ -2557,7 +2592,7 @@ outStream
 )
 iconSize
 iconSize
-nonBlocking
+aNonBlocking
 )
 ;
 if
@@ -2655,10 +2690,12 @@ NS_SUCCEEDED
 rv
 )
 )
+{
 rv
 =
 NS_ERROR_NOT_AVAILABLE
 ;
+}
 return
 rv
 ;
@@ -3039,6 +3076,7 @@ if
 (
 mListener
 )
+{
 return
 mListener
 -
@@ -3049,6 +3087,7 @@ this
 aContext
 )
 ;
+}
 return
 NS_OK
 ;
@@ -3093,6 +3132,7 @@ if
 (
 mLoadGroup
 )
+{
 mLoadGroup
 -
 >
@@ -3103,6 +3143,7 @@ nullptr
 aStatus
 )
 ;
+}
 mCallbacks
 =
 nullptr
@@ -3136,6 +3177,7 @@ if
 (
 mListener
 )
+{
 return
 mListener
 -
@@ -3149,6 +3191,7 @@ aOffset
 aCount
 )
 ;
+}
 return
 NS_OK
 ;
