@@ -28030,6 +28030,12 @@ config_munmap
 config_recycle
 )
 {
+malloc_mutex_lock
+(
+&
+chunks_mtx
+)
+;
 extent_node_t
 *
 node
@@ -28086,6 +28092,12 @@ node
 )
 ;
 }
+malloc_mutex_unlock
+(
+&
+chunks_mtx
+)
+;
 }
 }
 #
