@@ -3350,7 +3350,7 @@ mozL10n
 get
 (
 "
-import_contacts_button
+import_contacts_button2
 "
 )
 disabled
