@@ -1521,12 +1521,14 @@ PASS
 expected
 :
 "
-PASS
+FAIL
 "
 message
 :
 "
 TEST
+-
+UNEXPECTED
 -
 PASS
 "
