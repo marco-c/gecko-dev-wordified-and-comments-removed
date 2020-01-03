@@ -568,6 +568,13 @@ mLaunchCompleteTask
 mRunCompleteTaskImmediately
 )
 {
+mLaunchCompleteTask
+-
+>
+SetLaunchSucceeded
+(
+)
+;
 mMainMsgLoop
 -
 >
