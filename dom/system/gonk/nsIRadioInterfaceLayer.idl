@@ -191,7 +191,7 @@ nsISupports
 One
 of
 the
-nsIIccProvider
+nsIIcc
 .
 CARD_STATE_
 *
