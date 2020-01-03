@@ -692,6 +692,17 @@ this
 .
 viewSourceProgressListener
 ;
+let
+referrerPolicy
+=
+Components
+.
+interfaces
+.
+nsIHttpChannel
+.
+REFERRER_POLICY_NO_REFERRER
+;
 webBrowserPersist
 .
 savePrivacyAwareURI
@@ -699,6 +710,7 @@ savePrivacyAwareURI
 uri
 null
 null
+referrerPolicy
 null
 null
 file
