@@ -3246,6 +3246,13 @@ java
 '
 widget
 /
+ResizablePathDrawable
+.
+java
+'
+'
+widget
+/
 SquaredImageView
 .
 java
