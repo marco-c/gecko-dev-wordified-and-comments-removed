@@ -138,14 +138,6 @@ Selection
 struct
 DOMPoint
 ;
-template
-<
-class
-E
->
-class
-nsCOMArray
-;
 struct
 StyleCache
 :
