@@ -1031,6 +1031,9 @@ mozilla
 :
 :
 TimeStamp
+:
+:
+FromSystemTime
 (
 aVsyncTimestamp
 )

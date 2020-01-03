@@ -3248,7 +3248,13 @@ MAX_POINTERS
 TimeStamp
 timestamp
 =
+mozilla
+:
+:
 TimeStamp
+:
+:
+FromSystemTime
 (
 args
 -
