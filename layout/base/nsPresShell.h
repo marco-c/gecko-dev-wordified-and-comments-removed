@@ -2208,12 +2208,6 @@ SetPrefFocusRules
 void
 )
 ;
-nsresult
-SetPrefNoFramesRule
-(
-void
-)
-;
 nsRect
 ClipListToRange
 (

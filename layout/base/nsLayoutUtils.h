@@ -5183,6 +5183,15 @@ nsIDocument
 aDocument
 )
 ;
+static
+bool
+ShouldUseNoFramesSheet
+(
+nsIDocument
+*
+aDocument
+)
+;
 private
 :
 static

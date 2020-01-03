@@ -146,6 +146,16 @@ noscript
 .
 css
 )
+res
+/
+noframes
+.
+css
+(
+noframes
+.
+css
+)
 *
 res
 /
