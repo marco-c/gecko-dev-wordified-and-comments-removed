@@ -255,7 +255,7 @@ marionette
 absolute_url
 (
 "
-javascriptPage
+double_click
 .
 html
 "
@@ -282,14 +282,12 @@ By
 .
 ID
 '
-displayed
+one
+-
+word
+-
+div
 '
-)
-        
-el
-.
-click
-(
 )
         
 self
@@ -330,7 +328,9 @@ find_element
 id
 "
 "
-keyReporter
+input
+-
+field
 "
 )
         
@@ -360,7 +360,7 @@ value
 '
 )
 '
-Displayed
+zyxw
 '
 )
     
