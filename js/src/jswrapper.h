@@ -1180,6 +1180,7 @@ JSContext
 cx
 )
 const
+override
 ;
 virtual
 const
@@ -1210,6 +1211,7 @@ unsigned
 indent
 )
 const
+override
 ;
 virtual
 bool
@@ -1226,6 +1228,7 @@ MutableHandleValue
 vp
 )
 const
+override
 ;
 static
 const
