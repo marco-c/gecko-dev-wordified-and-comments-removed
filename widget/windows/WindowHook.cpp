@@ -465,12 +465,6 @@ Elements
 NS_ASSERTION
 (
 idx
->
-=
-0
-&
-&
-idx
 <
 mMessageData
 .
