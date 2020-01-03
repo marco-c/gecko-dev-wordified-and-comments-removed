@@ -821,7 +821,7 @@ HandleObject
 proxy
 HandleId
 id
-MutableHandle
+Handle
 <
 PropertyDescriptor
 >
@@ -3697,7 +3697,6 @@ defineProperty
 cx
 obj
 id
-&
 desc
 result
 )

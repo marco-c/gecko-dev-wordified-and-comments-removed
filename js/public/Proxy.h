@@ -57,6 +57,12 @@ using
 JS
 :
 :
+Handle
+;
+using
+JS
+:
+:
 HandleId
 ;
 using
@@ -316,7 +322,7 @@ HandleObject
 proxy
 HandleId
 id
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >
@@ -939,7 +945,7 @@ HandleObject
 proxy
 HandleId
 id
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >

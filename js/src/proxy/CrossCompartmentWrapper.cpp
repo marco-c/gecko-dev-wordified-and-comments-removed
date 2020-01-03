@@ -225,7 +225,7 @@ HandleObject
 wrapper
 HandleId
 id
-MutableHandle
+Handle
 <
 PropertyDescriptor
 >
@@ -272,7 +272,6 @@ defineProperty
 cx
 wrapper
 id
-&
 desc2
 result
 )
