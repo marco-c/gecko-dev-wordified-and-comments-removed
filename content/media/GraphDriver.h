@@ -367,6 +367,16 @@ EnsureNextIterationLocked
 (
 )
 ;
+MediaStreamGraphImpl
+*
+GraphImpl
+(
+)
+{
+return
+mGraphImpl
+;
+}
 protected
 :
 GraphTime
