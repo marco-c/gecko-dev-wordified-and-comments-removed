@@ -3511,6 +3511,7 @@ State
 state
 (
 )
+const
 ;
 void
 setState
@@ -3671,6 +3672,12 @@ void
 waitBackgroundSweepOrAllocEnd
 (
 )
+;
+void
+assertStateIsIdle
+(
+)
+const
 ;
 void
 startBackgroundAllocationIfIdle
