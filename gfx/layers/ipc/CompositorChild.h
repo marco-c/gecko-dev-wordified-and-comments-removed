@@ -290,6 +290,10 @@ virtual
 bool
 RecvUpdatePluginVisibility
 (
+const
+uintptr_t
+&
+aOwnerWidget
 nsTArray
 <
 uintptr_t

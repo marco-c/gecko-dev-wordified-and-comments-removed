@@ -575,6 +575,8 @@ async
 UpdatePluginVisibility
 (
 uintptr_t
+aOwnerWidget
+uintptr_t
 [
 ]
 aVisibleIdList

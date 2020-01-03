@@ -2882,6 +2882,8 @@ static
 void
 UpdateRegisteredPluginWindowVisibility
 (
+uintptr_t
+aOwnerWidget
 nsTArray
 <
 uintptr_t

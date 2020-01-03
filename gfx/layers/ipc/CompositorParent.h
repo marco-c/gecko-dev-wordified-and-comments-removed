@@ -1527,6 +1527,16 @@ IsInCompositorThread
 (
 )
 ;
+nsIWidget
+*
+GetWidget
+(
+)
+{
+return
+mWidget
+;
+}
 protected
 :
 virtual
