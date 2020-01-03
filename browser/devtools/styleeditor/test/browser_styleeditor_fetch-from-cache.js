@@ -91,6 +91,16 @@ netmonitor
 "
 )
 ;
+netmonitor
+.
+_view
+.
+RequestsMenu
+.
+lazyUpdate
+=
+false
+;
 info
 (
 "
