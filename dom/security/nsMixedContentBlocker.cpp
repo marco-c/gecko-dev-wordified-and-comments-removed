@@ -1120,7 +1120,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsMixedContentBlocker
 :
 :
@@ -1172,7 +1172,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMixedContentBlocker
 :
 :
