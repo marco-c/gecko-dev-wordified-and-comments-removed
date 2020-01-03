@@ -732,15 +732,6 @@ __GNUC__
 )
 &
 &
-MOZ_GCC_VERSION_AT_LEAST
-(
-4
-6
-0
-)
-&
-&
-\
 !
 MOZ_GCC_VERSION_AT_LEAST
 (

@@ -434,14 +434,6 @@ BZ2_CRC32TABLE_UNDECLARED
 #
 if
 MOZ_IS_GCC
-#
-if
-MOZ_GCC_VERSION_AT_LEAST
-(
-3
-3
-0
-)
 extern
 "
 C
@@ -467,8 +459,6 @@ BZ2_crc32Table
 #
 undef
 BZ2_CRC32TABLE_UNDECLARED
-#
-endif
 #
 elif
 defined

@@ -74,15 +74,6 @@ if
 MOZ_IS_GCC
 #
 if
-MOZ_GCC_VERSION_AT_LEAST
-(
-4
-5
-0
-)
-\
-&
-&
 defined
 (
 __ARM_EABI__

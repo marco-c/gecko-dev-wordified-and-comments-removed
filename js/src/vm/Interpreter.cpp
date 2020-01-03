@@ -7227,10 +7227,10 @@ state
 #
 if
 (
+defined
+(
 __GNUC__
->
-=
-3
+)
 |
 |
 \
