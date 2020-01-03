@@ -4896,11 +4896,12 @@ JS_ReportError
 (
 cx
 "
-child
+cross
+-
 process
-crashed
-or
-timedout
+JS
+call
+failed
 "
 )
 ;
