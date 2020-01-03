@@ -76,6 +76,8 @@ manifestparser
 \
 mozcrash
 \
+mozdebug
+\
 mozfile
 \
 mozhttpd

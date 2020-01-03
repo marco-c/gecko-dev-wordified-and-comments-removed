@@ -281,6 +281,14 @@ testing
 /
 mozbase
 /
+mozdebug
+'
+    
+'
+testing
+/
+mozbase
+/
 mozdevice
 '
     

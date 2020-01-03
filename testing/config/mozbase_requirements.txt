@@ -15,6 +15,12 @@ mozcrash
 /
 mozbase
 /
+mozdebug
+.
+.
+/
+mozbase
+/
 mozdevice
 .
 .

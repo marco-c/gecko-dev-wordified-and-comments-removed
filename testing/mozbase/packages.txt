@@ -25,6 +25,15 @@ testing
 mozbase
 /
 mozcrash
+mozdebug
+.
+pth
+:
+testing
+/
+mozbase
+/
+mozdebug
 mozdevice
 .
 pth
