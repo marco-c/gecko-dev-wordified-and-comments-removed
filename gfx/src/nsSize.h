@@ -120,6 +120,7 @@ aAppUnitsPerPixel
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 nsSize
 ConvertAppUnits

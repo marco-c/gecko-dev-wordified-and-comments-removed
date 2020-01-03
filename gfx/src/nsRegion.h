@@ -1425,6 +1425,7 @@ Area
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 nsRegion
 ConvertAppUnitsRoundOut
 (
@@ -1435,6 +1436,7 @@ aToAPP
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 nsRegion
 ConvertAppUnitsRoundIn
 (

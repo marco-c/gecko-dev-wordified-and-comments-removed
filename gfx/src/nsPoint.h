@@ -133,6 +133,7 @@ aAppUnitsPerPixel
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 nsPoint
 ConvertAppUnits

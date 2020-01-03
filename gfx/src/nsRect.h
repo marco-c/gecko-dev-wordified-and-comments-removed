@@ -750,6 +750,7 @@ aRect2
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 inline
 nsRect
 ConvertAppUnitsRoundOut
@@ -761,6 +762,7 @@ aToAPP
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 nsRect
 ConvertAppUnitsRoundIn
