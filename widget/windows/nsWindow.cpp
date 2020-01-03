@@ -10947,6 +10947,9 @@ mOldSizeMode
 }
 UpdateNonClientMargins
 (
+mSizeMode
+!
+aFullScreen
 )
 ;
 bool
