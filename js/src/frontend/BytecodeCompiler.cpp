@@ -2837,6 +2837,14 @@ GeneratorKind
 generatorKind
 )
 {
+MOZ_ASSERT
+(
+!
+options
+.
+isRunOnce
+)
+;
 js
 :
 :
