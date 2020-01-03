@@ -1325,9 +1325,6 @@ JSFunction
 *
 newFunction
 (
-GenericParseContext
-*
-pc
 HandleAtom
 atom
 FunctionSyntaxKind

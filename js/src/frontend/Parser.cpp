@@ -6246,9 +6246,6 @@ ParseHandler
 :
 newFunction
 (
-GenericParseContext
-*
-pc
 HandleAtom
 atom
 FunctionSyntaxKind
@@ -6269,20 +6266,6 @@ atom
 =
 nullptr
 )
-;
-while
-(
-pc
--
->
-parent
-)
-pc
-=
-pc
--
->
-parent
 ;
 RootedFunction
 fun
@@ -10487,7 +10470,6 @@ fun
 context
 newFunction
 (
-pc
 funName
 kind
 proto
@@ -32662,7 +32644,6 @@ fun
 context
 newFunction
 (
-outerpc
 NullPtr
 (
 )
