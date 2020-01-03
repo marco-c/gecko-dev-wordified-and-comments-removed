@@ -1320,6 +1320,16 @@ aFlags
 INIT_FLAG_DECODE_ONLY_ON_DRAW
 )
 ;
+mWantFullDecode
+=
+!
+!
+(
+aFlags
+&
+INIT_FLAG_DECODE_IMMEDIATELY
+)
+;
 mTransient
 =
 !
