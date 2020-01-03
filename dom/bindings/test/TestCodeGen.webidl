@@ -6970,6 +6970,14 @@ dashed
 -
 name
 ;
+required
+long
+requiredLong
+;
+required
+object
+requiredObject
+;
 }
 ;
 dictionary

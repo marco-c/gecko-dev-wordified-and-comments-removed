@@ -78113,11 +78113,10 @@ Dictionary
                  
 isOptional
 =
-(
-not
 member
 .
-defaultValue
+canHaveMissingValue
+(
 )
                  
 defaultValue
@@ -78128,31 +78127,11 @@ defaultValue
                  
 sourceDescription
 =
-(
-"
-'
-%
-s
-'
-member
-of
-%
-s
-"
-%
-                                    
+self
+.
+getMemberSourceDescription
 (
 member
-.
-identifier
-.
-name
-dictionary
-.
-identifier
-.
-name
-)
 )
 )
 )
@@ -79728,10 +79707,11 @@ name
 )
             
 if
-not
 m
 .
-defaultValue
+canHaveMissingValue
+(
+)
 :
                 
 memberAssign
@@ -80784,6 +80764,115 @@ convert
 }
 "
         
+elif
+not
+conversionInfo
+.
+dealWithOptional
+:
+            
+conversion
++
+=
+dedent
+(
+                
+"
+"
+"
+                
+/
+/
+Skip
+the
+undefined
+check
+if
+we
+have
+no
+cx
+.
+In
+that
+                
+/
+/
+situation
+the
+caller
+is
+default
+-
+constructing
+us
+and
+we
+'
+ll
+                
+/
+/
+just
+assume
+they
+know
+what
+they
+'
+re
+doing
+.
+                
+if
+(
+cx
+&
+&
+(
+isNull
+|
+|
+temp
+-
+>
+isUndefined
+(
+)
+)
+)
+{
+                  
+return
+ThrowErrorMessage
+(
+cx
+MSG_MISSING_REQUIRED_DICTIONARY_MEMBER
+                                           
+"
+%
+s
+"
+)
+;
+                
+}
+                
+{
+convert
+}
+"
+"
+"
+%
+self
+.
+getMemberSourceDescription
+(
+member
+)
+)
+        
 else
 :
             
@@ -80910,9 +80999,12 @@ name
 )
         
 if
+not
 member
 .
-defaultValue
+canHaveMissingValue
+(
+)
 :
             
 memberData
@@ -81314,10 +81406,11 @@ n
 )
         
 if
-not
 member
 .
-defaultValue
+canHaveMissingValue
+(
+)
 :
             
 conversion
@@ -81374,9 +81467,12 @@ name
 )
         
 if
+not
 member
 .
-defaultValue
+canHaveMissingValue
+(
+)
 :
             
 memberData
@@ -81727,10 +81823,11 @@ assert
 False
         
 if
-not
 member
 .
-defaultValue
+canHaveMissingValue
+(
+)
 :
             
 trace
@@ -81827,10 +81924,11 @@ _
 memberInfo
         
 if
-not
 member
 .
-defaultValue
+canHaveMissingValue
+(
+)
 :
             
 return
@@ -81875,6 +81973,44 @@ nullptr
         
 return
 None
+    
+def
+getMemberSourceDescription
+(
+self
+member
+)
+:
+        
+return
+(
+"
+'
+%
+s
+'
+member
+of
+%
+s
+"
+%
+                
+(
+member
+.
+identifier
+.
+name
+self
+.
+dictionary
+.
+identifier
+.
+name
+)
+)
     
 staticmethod
     
