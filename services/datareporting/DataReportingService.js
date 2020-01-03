@@ -535,8 +535,13 @@ application
 false
 )
 ;
+let
+policy
+=
 this
 .
+policy
+;
 policy
 .
 startPolling
@@ -689,8 +694,6 @@ this
 .
 healthReporter
 ;
-this
-.
 policy
 .
 ensureUserNotified
