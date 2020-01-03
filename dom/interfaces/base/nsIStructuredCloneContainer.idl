@@ -168,7 +168,7 @@ an
 nsIStructuredCloneContainer
 using
 *
-initFromVariant
+initFromJSVal
 or
 initFromBase64
 .
@@ -242,15 +242,15 @@ getDataAsBase64
 scriptable
 uuid
 (
-8144021a
+63eeafec
 -
-7f8a
+63f5
 -
-483a
+42c3
 -
-a0f1
+aea9
 -
-ca02b761403f
+5c04678784e7
 )
 ]
 interface
@@ -282,6 +282,7 @@ jsval
 /
 [
 noscript
+implicit_jscontext
 ]
 void
 initFromJSVal
