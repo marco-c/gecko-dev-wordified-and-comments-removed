@@ -210,6 +210,12 @@ LOCAL_GL_RGBA
 case
 LOCAL_GL_RGBA8
 :
+case
+LOCAL_GL_BGRA
+:
+case
+LOCAL_GL_BGRA8_EXT
+:
 format
 =
 SurfaceFormat
