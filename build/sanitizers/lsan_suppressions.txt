@@ -328,7 +328,7 @@ leak
 TypeCompartment
 :
 :
-fixObjectType
+fixObjectGroup
 #
 Bug
 982111
