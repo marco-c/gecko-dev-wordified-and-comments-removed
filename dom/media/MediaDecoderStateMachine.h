@@ -330,11 +330,6 @@ Shutdown
 ;
 }
 void
-ShutdownReader
-(
-)
-;
-void
 FinishShutdown
 (
 )
