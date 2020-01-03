@@ -16670,10 +16670,6 @@ config
 version
 .
 txt
-|
-head
--
-1
 FIREFOX_VERSION_ABOUT
 =
 cat
@@ -16683,13 +16679,9 @@ browser
 /
 config
 /
-version
+version_about
 .
 txt
-|
-tail
--
-1
 if
 test
 -
