@@ -3428,27 +3428,6 @@ return
 fallback
 ;
 }
-function
-defineProperty
-(
-o
-p
-v
-)
-{
-_DefineDataProperty
-(
-o
-p
-v
-ATTR_ENUMERABLE
-|
-ATTR_CONFIGURABLE
-|
-ATTR_WRITABLE
-)
-;
-}
 var
 internalsMap
 =
@@ -5236,7 +5215,7 @@ key
 .
 property
 ;
-defineProperty
+_DefineDataProperty
 (
 result
 property
@@ -6625,7 +6604,7 @@ internals
 p
 )
 )
-defineProperty
+_DefineDataProperty
 (
 result
 p
@@ -7959,7 +7938,7 @@ all
 )
 )
 {
-defineProperty
+_DefineDataProperty
 (
 options
 "
@@ -7970,7 +7949,7 @@ numeric
 "
 )
 ;
-defineProperty
+_DefineDataProperty
 (
 options
 "
@@ -7981,7 +7960,7 @@ numeric
 "
 )
 ;
-defineProperty
+_DefineDataProperty
 (
 options
 "
@@ -8018,7 +7997,7 @@ all
 )
 )
 {
-defineProperty
+_DefineDataProperty
 (
 options
 "
@@ -8029,7 +8008,7 @@ numeric
 "
 )
 ;
-defineProperty
+_DefineDataProperty
 (
 options
 "
@@ -8040,7 +8019,7 @@ numeric
 "
 )
 ;
-defineProperty
+_DefineDataProperty
 (
 options
 "
@@ -9130,7 +9109,7 @@ icuPatternCharToComponent
 c
 )
 )
-defineProperty
+_DefineDataProperty
 (
 result
 icuPatternCharToComponent
@@ -9159,7 +9138,7 @@ c
 K
 "
 )
-defineProperty
+_DefineDataProperty
 (
 result
 "
@@ -9188,7 +9167,7 @@ c
 k
 "
 )
-defineProperty
+_DefineDataProperty
 (
 result
 "

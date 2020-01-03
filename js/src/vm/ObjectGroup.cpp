@@ -6263,6 +6263,13 @@ recoverFromOutOfMemory
 }
 if
 (
+kind
+=
+=
+JSProto_Array
+&
+&
+(
 JSOp
 (
 *
@@ -6271,6 +6278,13 @@ pc
 =
 =
 JSOP_NEWARRAY
+|
+|
+IsCallPC
+(
+pc
+)
+)
 &
 &
 cx

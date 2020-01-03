@@ -2638,7 +2638,7 @@ JSString
 *
 *
 stringArg
-NativeObject
+JSObject
 *
 *
 objOut
@@ -3882,6 +3882,12 @@ case
 ICStub
 :
 :
+GetProp_UnboxedArrayLength
+:
+case
+ICStub
+:
+:
 GetProp_Native
 :
 case
@@ -3979,6 +3985,12 @@ ICStub
 :
 :
 GetElem_TypedArray
+:
+case
+ICStub
+:
+:
+GetElem_UnboxedArray
 :
 stubType
 =

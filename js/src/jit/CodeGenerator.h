@@ -1364,6 +1364,14 @@ lir
 )
 ;
 void
+visitSetUnboxedArrayInitializedLength
+(
+LSetUnboxedArrayInitializedLength
+*
+lir
+)
+;
+void
 visitNotO
 (
 LNotO

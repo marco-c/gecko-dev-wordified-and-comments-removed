@@ -1129,7 +1129,7 @@ k
 O
 )
 ;
-UnsafePutElements
+_DefineDataProperty
 (
 A
 k
@@ -3008,15 +3008,6 @@ T
 thisArg
 ;
 var
-attrs
-=
-ATTR_CONFIGURABLE
-|
-ATTR_ENUMERABLE
-|
-ATTR_WRITABLE
-;
-var
 usingIterator
 =
 GetMethod
@@ -3137,7 +3128,6 @@ k
 +
 +
 mappedValue
-attrs
 )
 ;
 }
@@ -3248,7 +3238,6 @@ _DefineDataProperty
 A
 k
 mappedValue
-attrs
 )
 ;
 }

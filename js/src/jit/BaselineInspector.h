@@ -536,7 +536,7 @@ JSString
 *
 *
 stringArg
-NativeObject
+JSObject
 *
 *
 objOut
