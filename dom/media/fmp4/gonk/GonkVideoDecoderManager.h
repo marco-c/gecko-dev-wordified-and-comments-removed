@@ -231,7 +231,7 @@ aClosure
 protected
 :
 virtual
-void
+bool
 PerformFormatSpecificProcess
 (
 mp4_demuxer

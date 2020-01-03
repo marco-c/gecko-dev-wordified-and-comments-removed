@@ -640,7 +640,7 @@ ByteBuffer
 >
 extra_data
 ;
-void
+bool
 Prepend
 (
 const

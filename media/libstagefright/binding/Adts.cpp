@@ -308,6 +308,9 @@ header
 =
 0xfc
 ;
+if
+(
+!
 aSample
 -
 >
@@ -323,7 +326,12 @@ ArrayLength
 header
 )
 )
+)
+{
+return
+false
 ;
+}
 if
 (
 aSample

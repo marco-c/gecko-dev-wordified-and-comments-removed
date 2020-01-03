@@ -118,7 +118,7 @@ MOZ_OVERRIDE
 protected
 :
 virtual
-void
+bool
 PerformFormatSpecificProcess
 (
 mp4_demuxer

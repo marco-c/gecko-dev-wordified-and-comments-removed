@@ -36,7 +36,7 @@ AnnexB
 public
 :
 static
-void
+bool
 ConvertSampleToAnnexB
 (
 MP4Sample

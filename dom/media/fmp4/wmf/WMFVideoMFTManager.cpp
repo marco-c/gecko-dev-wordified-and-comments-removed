@@ -1129,6 +1129,9 @@ mStreamType
 VP9
 )
 {
+if
+(
+!
 mp4_demuxer
 :
 :
@@ -1139,7 +1142,12 @@ ConvertSampleToAnnexB
 (
 aSample
 )
+)
+{
+return
+E_FAIL
 ;
+}
 }
 const
 uint8_t

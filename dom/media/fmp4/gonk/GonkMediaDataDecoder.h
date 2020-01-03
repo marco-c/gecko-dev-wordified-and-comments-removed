@@ -178,7 +178,7 @@ Clear
 protected
 :
 virtual
-void
+bool
 PerformFormatSpecificProcess
 (
 mp4_demuxer
@@ -189,6 +189,9 @@ MP4Sample
 aSample
 )
 {
+return
+true
+;
 }
 virtual
 android
