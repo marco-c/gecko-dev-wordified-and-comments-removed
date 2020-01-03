@@ -11318,7 +11318,7 @@ nsCocoaFeatures
 OSXVersionMinor
 (
 )
->
+=
 =
 9
 &
