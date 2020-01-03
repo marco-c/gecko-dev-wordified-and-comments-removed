@@ -38,7 +38,7 @@ response
 write
 (
 "
-state
+asyncState
 =
 '
 mid
@@ -90,10 +90,9 @@ response
 write
 (
 "
-state
+asyncState
 =
 '
-async
 loaded
 '
 ;
