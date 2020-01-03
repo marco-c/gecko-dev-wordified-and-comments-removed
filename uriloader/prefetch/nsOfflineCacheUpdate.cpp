@@ -1269,11 +1269,6 @@ nsICachingChannel
 :
 :
 LOAD_ONLY_IF_MODIFIED
-|
-nsICachingChannel
-:
-:
-LOAD_CHECK_OFFLINE_CACHE
 ;
 if
 (
