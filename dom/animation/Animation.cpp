@@ -221,8 +221,16 @@ GetCurrentTime
 )
 ;
 }
-UpdateRelevance
+UpdateTiming
 (
+SeekFlag
+:
+:
+NoSeek
+SyncNotifyFlag
+:
+:
+Async
 )
 ;
 }
