@@ -1248,6 +1248,13 @@ parseMode
 if
 (
 resource
+&
+&
+PR_LOG_TEST
+(
+gLog
+PR_LOG_NOTICE
+)
 )
 {
 nsXPIDLCString
