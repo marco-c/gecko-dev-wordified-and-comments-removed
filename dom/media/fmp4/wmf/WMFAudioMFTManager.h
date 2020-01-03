@@ -133,10 +133,6 @@ mDecoder
 uint32_t
 mAudioChannels
 ;
-const
-uint32_t
-mAudioBytesPerSample
-;
 uint32_t
 mAudioRate
 ;
