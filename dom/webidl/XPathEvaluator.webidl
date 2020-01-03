@@ -135,7 +135,6 @@ evaluate
 DOMString
 expression
 Node
-?
 contextNode
 XPathNSResolver
 ?
