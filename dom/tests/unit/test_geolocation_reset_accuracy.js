@@ -526,6 +526,10 @@ check_results
 (
 )
 ;
+do_test_finished
+(
+)
+;
 }
 function
 check_results
