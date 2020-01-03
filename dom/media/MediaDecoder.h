@@ -1810,6 +1810,15 @@ protected
 double
 mDuration
 ;
+Mirror
+<
+media
+:
+:
+NullableTimeUnit
+>
+mStateMachineDuration
+;
 bool
 mMediaSeekable
 ;
