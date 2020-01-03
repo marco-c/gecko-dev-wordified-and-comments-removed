@@ -67,11 +67,6 @@ nsIURI
 aUri
 )
 ;
-~
-RtspChannelParent
-(
-)
-;
 NS_IMETHOD
 GetContentType
 (
@@ -194,6 +189,11 @@ aArgs
 ;
 protected
 :
+~
+RtspChannelParent
+(
+)
+;
 bool
 ConnectChannel
 (

@@ -66,6 +66,8 @@ nsIChannel
 channel
 )
 ;
+protected
+:
 ~
 RtspController
 (

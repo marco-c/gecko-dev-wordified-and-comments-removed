@@ -81,11 +81,6 @@ nsIURI
 aUri
 )
 ;
-~
-RtspChannelChild
-(
-)
-;
 NS_IMETHOD
 GetContentType
 (
@@ -215,6 +210,13 @@ GetController
 ;
 void
 ReleaseController
+(
+)
+;
+protected
+:
+~
+RtspChannelChild
 (
 )
 ;

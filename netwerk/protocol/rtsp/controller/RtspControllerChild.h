@@ -105,11 +105,6 @@ nsIChannel
 channel
 )
 ;
-~
-RtspControllerChild
-(
-)
-;
 bool
 RecvOnConnected
 (
@@ -240,6 +235,13 @@ aTimer
 void
 *
 aClosure
+)
+;
+protected
+:
+~
+RtspControllerChild
+(
 )
 ;
 private
