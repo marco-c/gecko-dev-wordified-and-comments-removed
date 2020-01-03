@@ -183,6 +183,9 @@ mStartupCrashTrackingEnded
 bool
 mRestartTouchEnvironment
 ;
+bool
+mRestartNotSameProfile
+;
 #
 if
 defined
