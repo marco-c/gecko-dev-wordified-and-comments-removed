@@ -230,8 +230,6 @@ const
 Bind1
 &
 )
-=
-delete
 ;
 }
 ;
@@ -333,8 +331,6 @@ const
 Bind2
 &
 )
-=
-delete
 ;
 }
 ;
@@ -450,8 +446,6 @@ const
 Bind3
 &
 )
-=
-delete
 ;
 }
 ;
@@ -583,8 +577,6 @@ const
 Bind4
 &
 )
-=
-delete
 ;
 }
 ;
@@ -698,8 +690,6 @@ const
 BindToMemberFunction4
 &
 )
-=
-delete
 ;
 }
 ;
@@ -834,8 +824,6 @@ const
 Bind5
 &
 )
-=
-delete
 ;
 }
 ;

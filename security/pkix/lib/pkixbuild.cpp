@@ -245,8 +245,6 @@ const
 PathBuildingStep
 &
 )
-=
-delete
 ;
 void
 operator
@@ -256,8 +254,6 @@ const
 PathBuildingStep
 &
 )
-=
-delete
 ;
 }
 ;

@@ -186,8 +186,6 @@ const
 ScopedPtr
 &
 )
-=
-delete
 ;
 void
 operator
@@ -197,8 +195,6 @@ const
 ScopedPtr
 &
 )
-=
-delete
 ;
 }
 ;

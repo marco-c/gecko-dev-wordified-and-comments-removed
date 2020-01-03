@@ -219,14 +219,14 @@ subjectPublicKeyInfo
 )
 ;
 }
+private
+:
 OCSPTestTrustDomain
 (
 const
 OCSPTestTrustDomain
 &
 )
-=
-delete
 ;
 void
 operator
@@ -236,8 +236,6 @@ const
 OCSPTestTrustDomain
 &
 )
-=
-delete
 ;
 }
 ;

@@ -222,8 +222,6 @@ const
 Input
 &
 )
-=
-delete
 ;
 }
 ;
@@ -928,8 +926,6 @@ const
 Mark
 &
 )
-=
-delete
 ;
 }
 ;
@@ -1075,8 +1071,6 @@ const
 Reader
 &
 )
-=
-delete
 ;
 void
 operator
@@ -1086,8 +1080,6 @@ const
 Reader
 &
 )
-=
-delete
 ;
 }
 ;

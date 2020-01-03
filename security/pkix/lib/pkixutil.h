@@ -387,8 +387,6 @@ const
 BackCert
 &
 )
-=
-delete
 ;
 void
 operator
@@ -398,8 +396,7 @@ const
 BackCert
 &
 )
-=
-delete
+;
 ;
 }
 ;
@@ -536,8 +533,6 @@ const
 NonOwningDERArray
 &
 )
-=
-delete
 ;
 void
 operator
@@ -547,8 +542,6 @@ const
 NonOwningDERArray
 &
 )
-=
-delete
 ;
 }
 ;
