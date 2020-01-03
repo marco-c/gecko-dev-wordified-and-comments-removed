@@ -138,6 +138,11 @@ frame
 ok
 )
 ;
+assertNotInFrameMaps
+(
+frame
+)
+;
 return
 ok
 ;
