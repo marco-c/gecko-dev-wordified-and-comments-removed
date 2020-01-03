@@ -4967,6 +4967,10 @@ response_key
 "
 ok
 "
+ignore_response
+=
+False
+                      
 *
 *
 kwargs
@@ -5052,6 +5056,9 @@ client
 send
 (
 message
+ignore_response
+=
+ignore_response
 )
         
 except
@@ -6997,9 +7004,6 @@ eRestart
             
 ]
             
-try
-:
-                
 self
 .
 _send_message
@@ -7010,12 +7014,11 @@ quitApplication
 flags
 =
 restart_flags
+ignore_response
+=
+True
 )
             
-except
-IOError
-:
-                
 self
 .
 client
