@@ -47514,6 +47514,10 @@ elements
 id
 toWrite
 arrayType
+MStoreUnboxedScalar
+:
+:
+TruncateInput
 )
 ;
 ins
@@ -58948,6 +58952,10 @@ Scalar
 :
 :
 Uint8
+MStoreUnboxedScalar
+:
+:
+DontTruncateInput
 DoesNotRequireMemoryBarrier
 elementsOffset
 )
@@ -58974,6 +58982,10 @@ Scalar
 :
 :
 Int32
+MStoreUnboxedScalar
+:
+:
+DontTruncateInput
 DoesNotRequireMemoryBarrier
 elementsOffset
 )
@@ -59000,6 +59012,10 @@ Scalar
 :
 :
 Float64
+MStoreUnboxedScalar
+:
+:
+DontTruncateInput
 DoesNotRequireMemoryBarrier
 elementsOffset
 )
@@ -66195,6 +66211,10 @@ elements
 scaledOffset
 toWrite
 type
+MStoreUnboxedScalar
+:
+:
+TruncateInput
 DoesNotRequireMemoryBarrier
 adjustment
 )
