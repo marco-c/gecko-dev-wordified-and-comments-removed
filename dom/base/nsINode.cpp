@@ -8073,7 +8073,12 @@ GetFirstChild
 aNewChild
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 =

@@ -8155,15 +8155,13 @@ if
 mOwnerContent
 -
 >
-Tag
+IsHTMLElement
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 object
+)
 )
 {
 mOwnerContent
