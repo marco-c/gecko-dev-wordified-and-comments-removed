@@ -518,6 +518,9 @@ MediaDataDemuxer
 >
 mInputDemuxer
 ;
+uint32_t
+mProcessedInput
+;
 void
 OnDemuxerInitDone
 (
@@ -706,9 +709,6 @@ MediaTrackDemuxer
 >
 mDemuxer
 ;
-TrackBuffer
-mQueuedSamples
-;
 MediaPromiseRequestHolder
 <
 MediaTrackDemuxer
@@ -718,11 +718,8 @@ SamplesPromise
 >
 mDemuxRequest
 ;
-UniquePtr
-<
-TrackInfo
->
-mInfo
+TrackBuffer
+mQueuedSamples
 ;
 nsTArray
 <
@@ -735,6 +732,12 @@ mBufferedRanges
 ;
 uint32_t
 mSizeBuffer
+;
+UniquePtr
+<
+TrackInfo
+>
+mInfo
 ;
 }
 ;
