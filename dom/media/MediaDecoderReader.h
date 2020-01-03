@@ -286,16 +286,6 @@ false
 ;
 }
 virtual
-bool
-IsDormantNeeded
-(
-)
-{
-return
-false
-;
-}
-virtual
 void
 ReleaseMediaResources
 (

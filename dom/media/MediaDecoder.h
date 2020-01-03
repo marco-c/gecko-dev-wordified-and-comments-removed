@@ -1721,6 +1721,9 @@ NextFrameStatus
 >
 mNextFrameStatus
 ;
+bool
+mDormantSupported
+;
 int64_t
 mDecoderPosition
 ;

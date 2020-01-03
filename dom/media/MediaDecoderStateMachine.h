@@ -203,11 +203,6 @@ bool
 aFinishWhenEnded
 )
 ;
-bool
-IsDormantNeeded
-(
-)
-;
 void
 SetDormant
 (
