@@ -511,6 +511,10 @@ aStrategy
 )
 ;
 }
+mNeedsToFlushData
+=
+false
+;
 }
 }
 mDecodeTime
