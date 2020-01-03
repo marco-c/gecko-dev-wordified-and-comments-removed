@@ -1579,6 +1579,15 @@ TYPE_IMAGE
 )
 ;
 static
+bool
+DocumentInactiveForImageLoads
+(
+nsIDocument
+*
+aDocument
+)
+;
+static
 nsresult
 LoadImage
 (
@@ -1642,6 +1651,9 @@ GetImgLoaderForChannel
 nsIChannel
 *
 aChannel
+nsIDocument
+*
+aContext
 )
 ;
 static
