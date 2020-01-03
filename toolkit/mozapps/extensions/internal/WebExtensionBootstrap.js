@@ -28,6 +28,14 @@ let
 extension
 ;
 function
+install
+(
+data
+reason
+)
+{
+}
+function
 startup
 (
 data
@@ -62,4 +70,12 @@ shutdown
 (
 )
 ;
+}
+function
+uninstall
+(
+data
+reason
+)
+{
 }

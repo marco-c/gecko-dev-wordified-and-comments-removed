@@ -139,6 +139,11 @@ SpellCheckDictionaryBootstrap
 .
 js
 '
+'
+WebExtensionBootstrap
+.
+js
+'
 ]
 #
 Don
