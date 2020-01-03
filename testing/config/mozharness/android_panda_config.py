@@ -824,6 +824,20 @@ symbols_path
 )
 s
 "
+        
+"
+-
+-
+log
+-
+raw
+=
+%
+(
+raw_log_file
+)
+s
+"
     
 ]
     

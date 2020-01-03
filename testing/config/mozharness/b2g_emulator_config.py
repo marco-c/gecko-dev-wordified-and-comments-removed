@@ -848,6 +848,20 @@ this_chunk
 )
 s
 "
+        
+"
+-
+-
+log
+-
+raw
+=
+%
+(
+raw_log_file
+)
+s
+"
     
 ]
     
