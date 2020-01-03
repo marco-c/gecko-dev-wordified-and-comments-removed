@@ -368,10 +368,6 @@ TestXPIDLString
 '
 #
 '
-TestUTF
-'
-#
-'
 TestAtoms
 '
 #
