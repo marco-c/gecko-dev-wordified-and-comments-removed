@@ -499,6 +499,7 @@ nsURIHashKey
 KeyTypePointer
 KeyTypePointer
 ;
+explicit
 OverlayListEntry
 (
 KeyTypePointer
