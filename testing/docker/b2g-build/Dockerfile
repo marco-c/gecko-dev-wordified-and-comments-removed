@@ -86,8 +86,6 @@ devel
 \
 autoconf213
 \
-bc
-\
 bison
 \
 bzip2

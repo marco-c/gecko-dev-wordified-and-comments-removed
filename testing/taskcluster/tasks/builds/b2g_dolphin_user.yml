@@ -27,7 +27,7 @@ build
 -
 dolphin
 -
-eng
+user
 '
 metadata
 :
@@ -35,7 +35,7 @@ name
 :
 B2G
 Dolphin
-Eng
+User
 payload
 :
 cache
@@ -44,7 +44,7 @@ build
 -
 hamachi
 -
-eng
+user
 :
 /
 home
@@ -64,9 +64,6 @@ dolphin
 DEBUG
 :
 0
-VARIANT
-:
-eng
 extra
 :
 locations
