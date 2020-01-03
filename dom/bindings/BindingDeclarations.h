@@ -1552,6 +1552,7 @@ get
 ;
 }
 struct
+MOZ_STACK_CLASS
 ParentObject
 {
 template
@@ -1657,6 +1658,7 @@ false
 nsISupports
 *
 const
+MOZ_NON_OWNING_REF
 mObject
 ;
 nsWrapperCache
