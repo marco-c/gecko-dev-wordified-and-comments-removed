@@ -104,6 +104,7 @@ PathPointParams
 {
 Path
 *
+MOZ_OWNING_REF
 mPath
 ;
 float
