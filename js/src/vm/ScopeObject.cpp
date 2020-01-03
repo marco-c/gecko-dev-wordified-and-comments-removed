@@ -13195,15 +13195,9 @@ enclosingScope
 )
 MOZ_ASSERT
 (
-!
-o
--
->
-is
-<
-ScopeObject
->
+IsValidTerminatingScope
 (
+o
 )
 )
 ;
