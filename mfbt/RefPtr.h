@@ -1184,6 +1184,7 @@ aVal
 }
 T
 *
+MOZ_STRONG_REF
 mPtr
 ;
 static
@@ -1394,6 +1395,7 @@ aVal
 mutable
 T
 *
+MOZ_STRONG_REF
 mPtr
 ;
 TemporaryRef
