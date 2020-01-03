@@ -116,9 +116,6 @@ GeckoCppUnitTests
 (
 [
 '
-TestCSPParser
-'
-'
 TestGetURL
 '
 '
@@ -135,13 +132,6 @@ MOCHITEST_MANIFESTS
 [
 '
 chrome
-/
-mochitest
-.
-ini
-'
-'
-csp
 /
 mochitest
 .
@@ -240,13 +230,6 @@ ini
 '
 '
 chrome
-/
-chrome
-.
-ini
-'
-'
-csp
 /
 chrome
 .
