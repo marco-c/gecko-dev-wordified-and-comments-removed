@@ -450,10 +450,10 @@ inherits
 "
 value
 =
-target
+displayName
 tooltiptext
 =
-target
+displayName
 "
 /
 >
