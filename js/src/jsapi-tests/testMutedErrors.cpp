@@ -607,7 +607,6 @@ JS
 Evaluate
 (
 cx
-global
 options
 chars
 len

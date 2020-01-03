@@ -3236,7 +3236,6 @@ JS
 Evaluate
 (
 aCx
-global
 options
 srcBuf
 &

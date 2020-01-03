@@ -143,7 +143,6 @@ JS
 Evaluate
 (
 cx
-global
 opts
 source
 strlen

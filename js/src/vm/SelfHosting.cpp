@@ -7493,7 +7493,6 @@ ok
 Evaluate
 (
 cx
-shg
 options
 src
 srcLen

@@ -7457,14 +7457,12 @@ setVersion
 jsVersion
 )
 ;
-JS
-:
-:
-RootedObject
-rootedSandbox
+MOZ_ASSERT
 (
-sandcx
+JS_IsGlobalObject
+(
 sandbox
+)
 )
 ;
 ok
@@ -7475,7 +7473,6 @@ JS
 Evaluate
 (
 sandcx
-rootedSandbox
 options
 PromiseFlatString
 (
