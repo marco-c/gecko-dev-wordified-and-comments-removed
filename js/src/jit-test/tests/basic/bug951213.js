@@ -1,11 +1,5 @@
-setObjectMetadataCallback
+enableShellObjectMetadataCallback
 (
-function
-(
-obj
-)
-{
-}
 )
 ;
 function

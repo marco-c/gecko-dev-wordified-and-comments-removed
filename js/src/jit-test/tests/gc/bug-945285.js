@@ -10,8 +10,7 @@ obj
 )
 {
 }
-setObjectMetadataCallback
+enableShellObjectMetadataCallback
 (
-callback
 )
 ;

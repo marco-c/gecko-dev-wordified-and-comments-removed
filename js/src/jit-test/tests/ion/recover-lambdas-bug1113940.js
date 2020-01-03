@@ -3,7 +3,7 @@ gczeal
 14
 )
 ;
-setObjectMetadataCallback
+enableShellObjectMetadataCallback
 (
 function
 (
@@ -66,7 +66,7 @@ x
 =
 true
 ;
-setObjectMetadataCallback
+enableShellObjectMetadataCallback
 (
 function
 (

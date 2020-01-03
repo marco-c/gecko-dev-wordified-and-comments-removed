@@ -13,9 +13,8 @@ undefined
 {
 }
 }
-setObjectMetadataCallback
+enableShellObjectMetadataCallback
 (
-true
 )
 ;
 r

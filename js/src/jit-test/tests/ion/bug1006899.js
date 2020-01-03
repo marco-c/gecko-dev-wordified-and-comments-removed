@@ -38,9 +38,8 @@ obj
 )
 {
 }
-setObjectMetadataCallback
+enableShellObjectMetadataCallback
 (
-callback
 )
 ;
 evaluate

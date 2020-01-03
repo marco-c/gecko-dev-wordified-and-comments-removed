@@ -1,6 +1,5 @@
-setObjectMetadataCallback
+enableShellObjectMetadataCallback
 (
-true
 )
 ;
 function

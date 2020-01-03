@@ -88,9 +88,8 @@ gczeal
 1000
 )
 ;
-setObjectMetadataCallback
+enableShellObjectMetadataCallback
 (
-true
 )
 ;
 for

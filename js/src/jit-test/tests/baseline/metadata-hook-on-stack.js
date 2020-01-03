@@ -27,9 +27,8 @@ i
 =
 20
 )
-setObjectMetadataCallback
+enableShellObjectMetadataCallback
 (
-true
 )
 ;
 var

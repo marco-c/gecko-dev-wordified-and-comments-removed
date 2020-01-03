@@ -4,9 +4,8 @@ gczeal
 1
 )
 ;
-setObjectMetadataCallback
+enableShellObjectMetadataCallback
 (
-setObjectMetadataCallback
 )
 ;
 gczeal
