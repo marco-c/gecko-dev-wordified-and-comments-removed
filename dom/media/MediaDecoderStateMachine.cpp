@@ -1888,7 +1888,6 @@ a
 >
 mTime
 <
-=
 clockTime
 )
 {
@@ -7070,19 +7069,6 @@ mTime
 =
 seekTime
 ;
-if
-(
-mAudioCaptured
-)
-{
-mDecodedStream
--
->
-RecreateData
-(
-)
-;
-}
 mDropAudioUntilNextDiscontinuity
 =
 HasAudio
