@@ -3584,8 +3584,6 @@ mozilla
 Move
 (
 aOther
-.
-mTable
 )
 )
 mHaveRemoved
