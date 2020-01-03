@@ -35,6 +35,7 @@ multicol3
 #
 Pagination
 tests
+#
 asserts
 (
 3
@@ -60,6 +61,7 @@ xhtml
 #
 bug
 1067755
+1135556
 =
 =
 abspos
