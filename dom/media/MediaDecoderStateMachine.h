@@ -3516,6 +3516,12 @@ bool
 >
 mPreservesPitch
 ;
+Mirror
+<
+bool
+>
+mSameOriginMedia
+;
 Canonical
 <
 media
