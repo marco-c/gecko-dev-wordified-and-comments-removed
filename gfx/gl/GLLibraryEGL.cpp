@@ -158,6 +158,13 @@ LoadApitraceLibrary
 (
 )
 {
+gfxPrefs
+:
+:
+GetSingleton
+(
+)
+;
 if
 (
 !

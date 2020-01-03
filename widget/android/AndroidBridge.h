@@ -1790,7 +1790,7 @@ JNIEnv
 jEnv
 )
 ;
-bool
+void
 Init
 (
 JNIEnv
