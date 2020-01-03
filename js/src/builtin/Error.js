@@ -16,7 +16,7 @@ IsObject
 obj
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
