@@ -134,6 +134,7 @@ private
 :
 nsIWeakReference
 *
+MOZ_NON_OWNING_REF
 mWeakPtr
 ;
 nsresult

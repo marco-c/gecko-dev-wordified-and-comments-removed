@@ -73,6 +73,7 @@ private
 :
 nsIArray
 *
+MOZ_NON_OWNING_REF
 mArray
 ;
 uint32_t
