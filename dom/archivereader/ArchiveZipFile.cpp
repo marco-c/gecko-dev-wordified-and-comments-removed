@@ -1423,6 +1423,9 @@ const
 nsAString
 &
 aContentType
+mozilla
+:
+:
 ErrorResult
 &
 aRv
