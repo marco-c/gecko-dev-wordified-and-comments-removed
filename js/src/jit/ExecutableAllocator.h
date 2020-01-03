@@ -68,6 +68,15 @@ Vector
 h
 "
 #
+include
+"
+js
+/
+GCAPI
+.
+h
+"
+#
 ifdef
 JS_CPU_SPARC
 #
@@ -940,6 +949,13 @@ if
 (
 destroyCallback
 )
+{
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 destroyCallback
 (
 pool
@@ -956,6 +972,7 @@ m_allocation
 size
 )
 ;
+}
 systemRelease
 (
 pool
