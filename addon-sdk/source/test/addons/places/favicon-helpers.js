@@ -58,9 +58,7 @@ loader
 require
 (
 '
-sdk
-/
-test
+.
 /
 httpd
 '
