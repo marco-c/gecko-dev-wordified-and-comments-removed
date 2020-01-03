@@ -51,6 +51,15 @@ h
 #
 include
 "
+mozilla
+/
+Snprintf
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -9807,7 +9816,7 @@ ToString
 families
 )
 ;
-sprintf
+snprintf_literal
 (
 msg
 "

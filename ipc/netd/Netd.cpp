@@ -102,6 +102,15 @@ RefPtr
 h
 "
 #
+include
+"
+mozilla
+/
+Snprintf
+.
+h
+"
+#
 define
 NETD_LOG
 (
@@ -375,7 +384,7 @@ i
 ]
 ;
 }
-sprintf
+snprintf_literal
 (
 mac
 "

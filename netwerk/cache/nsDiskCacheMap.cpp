@@ -82,6 +82,15 @@ include
 "
 mozilla
 /
+Snprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -5676,7 +5685,7 @@ name
 ;
 :
 :
-sprintf
+snprintf_literal
 (
 name
 "
@@ -5860,7 +5869,7 @@ name
 ;
 :
 :
-sprintf
+snprintf_literal
 (
 name
 "
