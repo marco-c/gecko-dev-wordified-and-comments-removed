@@ -25798,7 +25798,8 @@ serif
 el
 "
 "
-Roboto
+Fira
+Sans
 "
 )
 ;
@@ -25814,8 +25815,7 @@ monospace
 el
 "
 "
-Droid
-Sans
+Fira
 Mono
 "
 )
