@@ -369,9 +369,7 @@ http
 :
 /
 /
-runtime
--
-binaries
+tooltool
 .
 pvt
 .
@@ -381,7 +379,7 @@ mozilla
 .
 org
 /
-tooltool
+build
 }
 (
 cd
