@@ -785,7 +785,13 @@ const
 char
 *
 location
+mozilla
+:
+:
+Maybe
+<
 unsigned
+>
 lineno
 )
 =
