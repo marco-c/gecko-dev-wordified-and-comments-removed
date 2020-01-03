@@ -2060,6 +2060,7 @@ JSRuntime
 :
 isAtomsZone
 (
+const
 JS
 :
 :
@@ -2067,6 +2068,7 @@ Zone
 *
 zone
 )
+const
 {
 return
 zone
