@@ -483,6 +483,7 @@ aVisibleRegion
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -676,6 +677,7 @@ LayerRenderState
 GetRenderState
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -877,6 +879,7 @@ CompositableType
 GetType
 (
 )
+MOZ_OVERRIDE
 {
 return
 CompositableType
@@ -960,6 +963,7 @@ nsIntRegion
 *
 aUpdatedRegionBack
 )
+MOZ_OVERRIDE
 {
 NS_ERROR
 (
@@ -1013,6 +1017,7 @@ aVisibleRegion
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

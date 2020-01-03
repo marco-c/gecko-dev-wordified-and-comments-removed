@@ -767,6 +767,7 @@ Shmem
 &
 aShmem
 )
+MOZ_OVERRIDE
 ;
 virtual
 PTextureChild
@@ -795,6 +796,7 @@ void
 SendPendingAsyncMessges
 (
 )
+MOZ_OVERRIDE
 ;
 void
 MarkShutDown

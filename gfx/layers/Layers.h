@@ -471,6 +471,7 @@ Name
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 n
@@ -483,6 +484,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 e
@@ -4820,6 +4822,7 @@ PaintedLayer
 AsPaintedLayer
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -4844,6 +4847,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
+MOZ_OVERRIDE
 {
 gfx
 :
@@ -5101,6 +5105,7 @@ char
 *
 aPrefix
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -5117,6 +5122,7 @@ void
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 gfxPoint
 mResidualTranslation
@@ -5309,6 +5315,7 @@ SpecificLayerAttributes
 &
 aAttrs
 )
+MOZ_OVERRIDE
 ;
 void
 SortChildrenBy3DZOrder
@@ -5328,6 +5335,7 @@ ContainerLayer
 AsContainerLayer
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -5341,6 +5349,7 @@ AsContainerLayer
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 this
@@ -5353,6 +5362,7 @@ GetFirstChild
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mFirstChild
@@ -5365,6 +5375,7 @@ GetLastChild
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mLastChild
@@ -5429,6 +5440,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -5616,6 +5628,7 @@ char
 *
 aPrefix
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -5632,6 +5645,7 @@ void
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 Layer
 *
@@ -5690,6 +5704,7 @@ ColorLayer
 AsColorLayer
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -5814,6 +5829,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
+MOZ_OVERRIDE
 {
 gfx
 :
@@ -5890,6 +5906,7 @@ char
 *
 aPrefix
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -5906,6 +5923,7 @@ void
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 nsIntRect
 mBounds
@@ -6223,6 +6241,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
+MOZ_OVERRIDE
 {
 mEffectiveTransform
 =
@@ -6318,6 +6337,7 @@ char
 *
 aPrefix
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -6334,6 +6354,7 @@ void
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 void
 FireDidTransactionCallback
@@ -6421,6 +6442,7 @@ Layer
 *
 aChild
 )
+MOZ_OVERRIDE
 {
 MOZ_CRASH
 (
@@ -6441,6 +6463,7 @@ Layer
 *
 aAfter
 )
+MOZ_OVERRIDE
 {
 MOZ_CRASH
 (
@@ -6612,6 +6635,7 @@ RefLayer
 AsRefLayer
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -6635,6 +6659,7 @@ SpecificLayerAttributes
 &
 aAttrs
 )
+MOZ_OVERRIDE
 ;
 MOZ_LAYER_DECL_NAME
 (
@@ -6681,6 +6706,7 @@ char
 *
 aPrefix
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -6697,6 +6723,7 @@ void
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 Layer
 *

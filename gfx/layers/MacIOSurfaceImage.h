@@ -90,6 +90,7 @@ IntSize
 GetSize
 (
 )
+MOZ_OVERRIDE
 {
 return
 gfx
@@ -135,6 +136,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 TextureClient

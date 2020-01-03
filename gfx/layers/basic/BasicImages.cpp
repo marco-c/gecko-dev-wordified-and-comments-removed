@@ -229,6 +229,7 @@ Data
 &
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -237,6 +238,7 @@ SetDelayedConversion
 bool
 aDelayed
 )
+MOZ_OVERRIDE
 {
 mDelayedConversion
 =
@@ -253,6 +255,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 size_t

@@ -696,6 +696,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 return
 MOZ_COLLECT_REPORT

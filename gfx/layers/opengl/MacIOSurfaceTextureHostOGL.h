@@ -67,6 +67,7 @@ TextureSourceOGL
 AsSourceOGL
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -130,6 +131,7 @@ GetTextureTarget
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 LOCAL_GL_TEXTURE_RECTANGLE_ARB
@@ -152,6 +154,7 @@ void
 DeallocateDeviceData
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -304,6 +307,7 @@ char
 Name
 (
 )
+MOZ_OVERRIDE
 {
 return
 "

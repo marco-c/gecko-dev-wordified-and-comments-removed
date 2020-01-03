@@ -234,6 +234,7 @@ CompositableClient
 *
 aCompositable
 )
+MOZ_OVERRIDE
 ;
 virtual
 PTextureChild
@@ -544,6 +545,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -687,6 +689,7 @@ void
 SendPendingAsyncMessges
 (
 )
+MOZ_OVERRIDE
 ;
 bool
 HasShadowManager

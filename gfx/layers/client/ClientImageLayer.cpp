@@ -226,6 +226,7 @@ nsIntRegion
 &
 aRegion
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -262,6 +263,7 @@ void
 RenderLayer
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -283,6 +285,7 @@ SpecificLayerAttributes
 &
 aAttrs
 )
+MOZ_OVERRIDE
 {
 aAttrs
 =
@@ -300,6 +303,7 @@ Layer
 AsLayer
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -311,6 +315,7 @@ ShadowableLayer
 AsShadowableLayer
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -321,6 +326,7 @@ void
 Disconnect
 (
 )
+MOZ_OVERRIDE
 {
 DestroyBackBuffer
 (

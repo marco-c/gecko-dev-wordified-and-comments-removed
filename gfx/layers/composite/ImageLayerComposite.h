@@ -210,6 +210,7 @@ nsIntRect
 &
 aClipRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -272,6 +273,7 @@ Name
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 "

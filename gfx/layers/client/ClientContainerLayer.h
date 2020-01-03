@@ -168,6 +168,7 @@ void
 RenderLayer
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -321,6 +322,7 @@ nsIntRegion
 &
 aRegion
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -674,6 +676,7 @@ Layer
 AsLayer
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -685,6 +688,7 @@ ShadowableLayer
 AsShadowableLayer
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -702,6 +706,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
+MOZ_OVERRIDE
 {
 DefaultComputeEffectiveTransforms
 (

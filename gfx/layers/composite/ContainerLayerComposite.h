@@ -314,6 +314,7 @@ LayerComposite
 GetFirstChildComposite
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -603,6 +604,7 @@ LayerComposite
 GetFirstChildComposite
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

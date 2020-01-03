@@ -134,6 +134,7 @@ Name
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 "
@@ -147,6 +148,7 @@ Layer
 AsLayer
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -161,6 +163,7 @@ nsIntRegion
 &
 aRegion
 )
+MOZ_OVERRIDE
 {
 mInvalidRegion
 .
@@ -202,6 +205,7 @@ SpecificLayerAttributes
 &
 aAttrs
 )
+MOZ_OVERRIDE
 ;
 virtual
 ShadowableLayer
@@ -209,6 +213,7 @@ ShadowableLayer
 AsShadowableLayer
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -219,6 +224,7 @@ void
 Disconnect
 (
 )
+MOZ_OVERRIDE
 {
 ClientLayer
 :
@@ -233,6 +239,7 @@ void
 RenderLayer
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

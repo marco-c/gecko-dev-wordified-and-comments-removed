@@ -576,6 +576,7 @@ Compositor
 *
 aCompositor
 )
+MOZ_OVERRIDE
 ;
 #
 endif

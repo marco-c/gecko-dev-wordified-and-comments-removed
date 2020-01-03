@@ -813,6 +813,7 @@ nsIntRegion
 *
 aUpdatedRegionBack
 )
+MOZ_OVERRIDE
 {
 NS_ERROR
 (
@@ -837,6 +838,7 @@ GetValidLowPrecisionRegion
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mLowPrecisionTiledBuffer
@@ -854,6 +856,7 @@ Compositor
 *
 aCompositor
 )
+MOZ_OVERRIDE
 {
 CompositableHost
 :
@@ -942,12 +945,14 @@ aVisibleRegion
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 virtual
 CompositableType
 GetType
 (
 )
+MOZ_OVERRIDE
 {
 return
 CompositableType
@@ -1040,6 +1045,7 @@ char
 *
 aPrefix
 )
+MOZ_OVERRIDE
 ;
 #
 if

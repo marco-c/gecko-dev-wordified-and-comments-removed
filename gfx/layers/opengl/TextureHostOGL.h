@@ -781,6 +781,7 @@ TextureImageTextureSourceOGL
 AsTextureImageTextureSource
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -1121,6 +1122,7 @@ GetTextureTarget
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mTextureTarget
@@ -1671,6 +1673,7 @@ TextureSourceOGL
 AsSourceOGL
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -1744,6 +1747,7 @@ GetTextureTarget
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mTextureTarget
@@ -1958,6 +1962,7 @@ char
 Name
 (
 )
+MOZ_OVERRIDE
 {
 return
 "
