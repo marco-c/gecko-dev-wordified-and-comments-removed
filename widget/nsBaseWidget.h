@@ -1322,6 +1322,17 @@ MOZ_OVERRIDE
 MOZ_FINAL
 ;
 nsEventStatus
+DispatchInputEvent
+(
+mozilla
+:
+:
+WidgetInputEvent
+*
+aEvent
+)
+;
+nsEventStatus
 DispatchAPZAwareEvent
 (
 mozilla
