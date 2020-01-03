@@ -908,6 +908,13 @@ aMenuFrame
 )
 ;
 void
+ChangeByPage
+(
+bool
+aIsUp
+)
+;
+void
 MoveTo
 (
 int32_t
