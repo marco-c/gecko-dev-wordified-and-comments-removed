@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsICryptoHash
 .
 h
