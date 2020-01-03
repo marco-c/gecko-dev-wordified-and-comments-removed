@@ -166,7 +166,7 @@ s
 RValueAllocation
 :
 :
-Float32
+AnyFloat
 (
 FloatRegister
 :
@@ -239,7 +239,7 @@ s
 RValueAllocation
 :
 :
-Float32
+AnyFloat
 (
 i
 )

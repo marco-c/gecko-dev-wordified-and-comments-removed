@@ -92,10 +92,10 @@ CST_NULL
 DOUBLE_REG
 =
 0x03
-FLOAT32_REG
+ANY_FLOAT_REG
 =
 0x04
-FLOAT32_STACK
+ANY_FLOAT_STACK
 =
 0x05
 #
@@ -576,7 +576,7 @@ reg
 }
 static
 RValueAllocation
-Float32
+AnyFloat
 (
 FloatRegister
 reg
@@ -585,7 +585,7 @@ reg
 return
 RValueAllocation
 (
-FLOAT32_REG
+ANY_FLOAT_REG
 payloadOfFloatRegister
 (
 reg
@@ -595,7 +595,7 @@ reg
 }
 static
 RValueAllocation
-Float32
+AnyFloat
 (
 int32_t
 offset
@@ -604,7 +604,7 @@ offset
 return
 RValueAllocation
 (
-FLOAT32_STACK
+ANY_FLOAT_STACK
 payloadOfStackOffset
 (
 offset

@@ -9667,7 +9667,7 @@ case
 RValueAllocation
 :
 :
-FLOAT32_REG
+ANY_FLOAT_REG
 :
 {
 union
@@ -9720,7 +9720,7 @@ case
 RValueAllocation
 :
 :
-FLOAT32_STACK
+ANY_FLOAT_STACK
 :
 return
 Float32Value
@@ -10280,7 +10280,7 @@ case
 RValueAllocation
 :
 :
-FLOAT32_REG
+ANY_FLOAT_REG
 :
 return
 machine_
@@ -10298,7 +10298,7 @@ case
 RValueAllocation
 :
 :
-FLOAT32_STACK
+ANY_FLOAT_STACK
 :
 return
 (
@@ -10516,13 +10516,13 @@ case
 RValueAllocation
 :
 :
-FLOAT32_REG
+ANY_FLOAT_REG
 :
 case
 RValueAllocation
 :
 :
-FLOAT32_STACK
+ANY_FLOAT_STACK
 :
 MOZ_CRASH
 (

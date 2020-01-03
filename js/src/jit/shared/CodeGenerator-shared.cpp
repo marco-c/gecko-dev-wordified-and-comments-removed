@@ -2370,7 +2370,7 @@ alloc
 RValueAllocation
 :
 :
-Float32
+AnyFloat
 (
 ToFloatRegister
 (
@@ -2384,7 +2384,7 @@ alloc
 RValueAllocation
 :
 :
-Float32
+AnyFloat
 (
 ToStackIndex
 (

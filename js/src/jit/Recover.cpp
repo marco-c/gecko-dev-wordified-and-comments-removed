@@ -6786,7 +6786,7 @@ mode
 RValueAllocation
 :
 :
-FLOAT32_REG
+ANY_FLOAT_REG
 a
 .
 fpuReg
@@ -6840,7 +6840,7 @@ mode
 RValueAllocation
 :
 :
-FLOAT32_REG
+ANY_FLOAT_REG
 a
 .
 fpuReg

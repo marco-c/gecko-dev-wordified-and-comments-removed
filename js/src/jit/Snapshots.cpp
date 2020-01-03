@@ -192,7 +192,7 @@ layout
 ;
 }
 case
-FLOAT32_REG
+ANY_FLOAT_REG
 :
 {
 static
@@ -207,7 +207,9 @@ layout
 PAYLOAD_FPU
 PAYLOAD_NONE
 "
-float32
+float
+register
+content
 "
 }
 ;
@@ -216,7 +218,7 @@ layout
 ;
 }
 case
-FLOAT32_STACK
+ANY_FLOAT_STACK
 :
 {
 static
@@ -231,7 +233,9 @@ layout
 PAYLOAD_STACK_OFFSET
 PAYLOAD_NONE
 "
-float32
+float
+register
+content
 "
 }
 ;
