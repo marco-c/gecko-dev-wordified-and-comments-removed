@@ -27,6 +27,17 @@ UnionTypes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ToJSValue
+.
+h
+"
 namespace
 mozilla
 {
