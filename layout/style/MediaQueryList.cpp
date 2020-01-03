@@ -569,7 +569,10 @@ MediaQueryList
 :
 MediumFeaturesChanged
 (
-NotifyList
+nsTArray
+<
+HandleChangeData
+>
 &
 aListenersToNotify
 )
