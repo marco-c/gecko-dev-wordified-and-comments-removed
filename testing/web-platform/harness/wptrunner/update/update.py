@@ -48,7 +48,14 @@ path
 insert
 (
 0
+os
+.
+path
+.
+abspath
+(
 sync_path
+)
 )
     
 from
@@ -803,6 +810,22 @@ serve_root
 else
 :
             
+if
+os
+.
+path
+.
+exists
+(
+kwargs
+[
+"
+sync_path
+"
+]
+)
+:
+                
 setup_paths
 (
 kwargs
