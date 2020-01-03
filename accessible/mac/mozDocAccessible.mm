@@ -229,7 +229,10 @@ attributes
 if
 (
 !
-mGeckoAccessible
+[
+self
+getGeckoAccessible
+]
 )
 return
 [
@@ -494,7 +497,10 @@ mParallelView
 =
 getNativeViewFromRootAccessible
 (
-mGeckoAccessible
+[
+self
+getGeckoAccessible
+]
 )
 ;
 NSAssert
