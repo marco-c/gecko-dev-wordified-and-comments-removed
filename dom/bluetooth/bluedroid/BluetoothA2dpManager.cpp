@@ -911,7 +911,7 @@ mPlayStatus
 ControlPlayStatus
 :
 :
-PLAYSTATUS_UNKNOWN
+PLAYSTATUS_STOPPED
 ;
 }
 static

@@ -31,4 +31,8 @@ BTA_AG_CHLD_VAL
 )
 "
 #
+define
+SDP_AVRCP_1_5
+FALSE
+#
 endif
