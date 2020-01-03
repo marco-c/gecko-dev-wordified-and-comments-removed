@@ -1144,15 +1144,6 @@ Iterator
 {
 public
 :
-typedef
-nsIFrame
-*
-ValueType
-;
-typedef
-ptrdiff_t
-DifferenceType
-;
 Iterator
 (
 const
