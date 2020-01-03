@@ -2026,15 +2026,6 @@ image
 html
 ?
 0
-skip
--
-if
-(
-asyncPanZoom
-&
-&
-winWidget
-)
 =
 =
 image

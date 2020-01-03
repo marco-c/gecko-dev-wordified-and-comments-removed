@@ -1485,15 +1485,6 @@ if
 (
 Android
 )
-skip
--
-if
-(
-asyncPanZoom
-&
-&
-winWidget
-)
 =
 =
 scrollbar

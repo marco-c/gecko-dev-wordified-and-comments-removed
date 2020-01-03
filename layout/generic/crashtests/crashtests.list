@@ -2202,15 +2202,6 @@ winWidget
 -
 3
 )
-skip
--
-if
-(
-asyncPanZoom
-&
-&
-winWidget
-)
 load
 499885
 -

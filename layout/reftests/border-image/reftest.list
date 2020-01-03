@@ -769,15 +769,6 @@ resize
 ref
 .
 html
-skip
--
-if
-(
-asyncPanZoom
-&
-&
-winWidget
-)
 =
 =
 border

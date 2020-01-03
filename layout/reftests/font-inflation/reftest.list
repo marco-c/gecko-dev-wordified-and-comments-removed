@@ -1644,15 +1644,6 @@ B2G
 |
 Mulet
 )
-skip
--
-if
-(
-asyncPanZoom
-&
-&
-winWidget
-)
 test
 -
 pref

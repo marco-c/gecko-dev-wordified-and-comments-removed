@@ -12,15 +12,6 @@ bounds
 ref
 .
 html
-skip
--
-if
-(
-asyncPanZoom
-&
-&
-winWidget
-)
 =
 =
 size

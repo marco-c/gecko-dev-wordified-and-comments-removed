@@ -2210,15 +2210,6 @@ B2G
 |
 Mulet
 )
-skip
--
-if
-(
-asyncPanZoom
-&
-&
-winWidget
-)
 =
 =
 642800
