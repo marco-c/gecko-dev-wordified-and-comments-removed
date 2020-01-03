@@ -684,6 +684,12 @@ GetNameSpaceManager
 (
 )
 ;
+nsScriptNameSpaceManager
+*
+PeekNameSpaceManager
+(
+)
+;
 class
 AsyncErrorReporter
 :

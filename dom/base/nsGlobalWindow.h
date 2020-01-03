@@ -1780,6 +1780,14 @@ JSPropertyDescriptor
 aDesc
 )
 ;
+static
+bool
+MayResolve
+(
+jsid
+aId
+)
+;
 void
 GetOwnPropertyNames
 (
