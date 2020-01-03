@@ -1604,6 +1604,11 @@ aFmt
 .
 .
 )
+MOZ_FORMAT_PRINTF
+(
+1
+2
+)
 ;
 void
 vprintf_stderr
@@ -1629,6 +1634,11 @@ aFmt
 .
 .
 .
+)
+MOZ_FORMAT_PRINTF
+(
+2
+3
 )
 ;
 void
