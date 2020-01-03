@@ -19,17 +19,6 @@ mozilla
 /
 dom
 /
-Promise
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WorkerScope
 .
 h
