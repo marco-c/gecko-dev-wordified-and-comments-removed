@@ -30981,10 +30981,6 @@ Unknown
 ;
 if
 (
-WidgetTouchEvent
-*
-inputEvent
-=
 aEvent
 -
 >
@@ -31004,10 +31000,6 @@ Touch
 else
 if
 (
-WidgetMouseEvent
-*
-inputEvent
-=
 aEvent
 -
 >
@@ -31027,10 +31019,6 @@ Mouse
 else
 if
 (
-WidgetKeyboardEvent
-*
-inputEvent
-=
 aEvent
 -
 >

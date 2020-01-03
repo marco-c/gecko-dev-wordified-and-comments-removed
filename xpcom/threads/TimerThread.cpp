@@ -1607,7 +1607,7 @@ MOZ_TASK_TRACER
 aTimer
 -
 >
-DispatchTracedTask
+GetTLSTraceInfo
 (
 )
 ;
