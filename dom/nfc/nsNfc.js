@@ -120,7 +120,7 @@ nsIAppsService
 )
 ;
 function
-MozNFCTag
+MozNFCTagImpl
 (
 window
 sessionToken
@@ -131,7 +131,7 @@ debug
 (
 "
 In
-MozNFCTag
+MozNFCTagImpl
 Constructor
 "
 )
@@ -270,7 +270,7 @@ mifare_classic
 null
 ;
 }
-MozNFCTag
+MozNFCTagImpl
 .
 prototype
 =
@@ -415,7 +415,7 @@ nsIDOMGlobalPropertyInitializer
 }
 ;
 function
-MozNFCPeer
+MozNFCPeerImpl
 (
 aWindow
 aSessionToken
@@ -425,7 +425,7 @@ debug
 (
 "
 In
-MozNFCPeer
+MozNFCPeerImpl
 Constructor
 "
 )
@@ -471,7 +471,7 @@ session
 aSessionToken
 ;
 }
-MozNFCPeer
+MozNFCPeerImpl
 .
 prototype
 =
@@ -667,7 +667,7 @@ nsIDOMGlobalPropertyInitializer
 }
 ;
 function
-mozNfc
+MozNFCImpl
 (
 )
 {
@@ -675,7 +675,7 @@ debug
 (
 "
 In
-mozNfc
+MozNFCImpl
 Constructor
 "
 )
@@ -736,7 +736,7 @@ this
 )
 ;
 }
-mozNfc
+MozNFCImpl
 .
 prototype
 =
@@ -761,7 +761,7 @@ aWindow
 debug
 (
 "
-mozNfc
+MozNFCImpl
 init
 called
 "
@@ -1015,7 +1015,7 @@ let
 obj
 =
 new
-MozNFCPeer
+MozNFCPeerImpl
 (
 this
 .
@@ -1268,10 +1268,10 @@ return
 ;
 }
 let
-tag
+tagImpl
 =
 new
-MozNFCTag
+MozNFCTagImpl
 (
 this
 .
@@ -1281,7 +1281,7 @@ event
 )
 ;
 let
-tagContentObj
+tag
 =
 this
 .
@@ -1294,7 +1294,7 @@ _create
 this
 .
 _window
-tag
+tagImpl
 )
 ;
 let
@@ -1387,7 +1387,7 @@ eventData
 tag
 "
 :
-tagContentObj
+tag
 "
 ndefRecords
 "
@@ -1990,9 +1990,9 @@ XPCOMUtils
 generateNSGetFactory
 (
 [
-MozNFCTag
-MozNFCPeer
-mozNfc
+MozNFCTagImpl
+MozNFCPeerImpl
+MozNFCImpl
 ]
 )
 ;
