@@ -231,7 +231,7 @@ aNetwork
 ;
 NotifyNetworkSelectionModeChanged
 (
-nsString
+int32_t
 aMode
 )
 ;
@@ -315,7 +315,7 @@ nsString
 aLastKnownHomeNetwork
 nsString
 aIccId
-nsString
+int32_t
 aNetworkSelectionMode
 nsString
 aRadioState

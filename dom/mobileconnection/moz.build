@@ -242,6 +242,11 @@ UNIFIED_SOURCES
 =
 [
 '
+Assertions
+.
+cpp
+'
+'
 DOMMMIError
 .
 cpp
