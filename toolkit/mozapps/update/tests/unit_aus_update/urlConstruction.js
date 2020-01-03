@@ -541,6 +541,10 @@ run_test_pt5
 (
 )
 {
+do_get_profile
+(
+)
+;
 gCheckFunc
 =
 check_test_pt5

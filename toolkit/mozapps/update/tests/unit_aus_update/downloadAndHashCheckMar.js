@@ -9,6 +9,10 @@ run_test
 (
 )
 {
+do_get_profile
+(
+)
+;
 setupTestCommon
 (
 )
