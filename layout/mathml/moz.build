@@ -329,16 +329,6 @@ mathfont
 properties
 '
 '
-mathfontMathJax_Main
-.
-properties
-'
-'
-mathfontStandardSymbolsL
-.
-properties
-'
-'
 mathfontSTIXGeneral
 .
 properties

@@ -13136,15 +13136,11 @@ STIX
 Math
 Asana
 Math
-MathJax_Main
 STIXGeneral
 DejaVu
 Serif
 DejaVu
 Sans
-Standard
-Symbols
-L
 serif
 "
 )
@@ -21750,7 +21746,6 @@ STIX
 Math
 Asana
 Math
-MathJax_Main
 STIXGeneral
 DejaVu
 Serif
@@ -26450,7 +26445,6 @@ STIX
 Math
 Asana
 Math
-MathJax_Main
 STIXGeneral
 DejaVu
 Serif
@@ -30530,7 +30524,6 @@ STIX
 Math
 Asana
 Math
-MathJax_Main
 STIXGeneral
 DejaVu
 Serif
@@ -31878,7 +31871,6 @@ STIX
 Math
 Asana
 Math
-MathJax_Main
 STIXGeneral
 DejaVu
 Serif
