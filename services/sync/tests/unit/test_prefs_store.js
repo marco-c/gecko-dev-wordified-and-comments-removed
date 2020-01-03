@@ -1116,7 +1116,7 @@ get
 "
 lightweightThemes
 .
-isThemeSelected
+selectedThemeID
 "
 )
 )
@@ -1164,10 +1164,12 @@ value
 "
 lightweightThemes
 .
-isThemeSelected
+selectedThemeID
 "
 :
-true
+persona1
+.
+id
 "
 lightweightThemes
 .
@@ -1184,7 +1186,7 @@ update
 record
 )
 ;
-do_check_true
+do_check_eq
 (
 prefs
 .
@@ -1193,9 +1195,12 @@ get
 "
 lightweightThemes
 .
-isThemeSelected
+selectedThemeID
 "
 )
+persona1
+.
+id
 )
 ;
 do_check_true
@@ -1227,10 +1232,10 @@ value
 "
 lightweightThemes
 .
-isThemeSelected
+selectedThemeID
 "
 :
-false
+null
 "
 lightweightThemes
 .
@@ -1249,6 +1254,8 @@ record
 ;
 do_check_false
 (
+!
+!
 prefs
 .
 get
@@ -1256,7 +1263,7 @@ get
 "
 lightweightThemes
 .
-isThemeSelected
+selectedThemeID
 "
 )
 )

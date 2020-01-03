@@ -42821,7 +42821,7 @@ prefs
 "
 lightweightThemes
 .
-isThemeSelected
+selectedThemeID
 "
 ]
 )
