@@ -235,7 +235,7 @@ python
 from
 mozprofile
 import
-Profile
+FirefoxProfile
 from
 mozrunner
 import
@@ -274,7 +274,7 @@ profile_path
 :
 profile
 =
-Profile
+FirefoxProfile
 .
 clone
 (
@@ -286,7 +286,7 @@ else
 :
 profile
 =
-Profile
+FirefoxProfile
 (
 profile
 =
