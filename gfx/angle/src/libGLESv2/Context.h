@@ -545,14 +545,14 @@ GLuint
 program
 )
 ;
-void
+Error
 linkProgram
 (
 GLuint
 program
 )
 ;
-void
+Error
 setProgramBinary
 (
 GLuint

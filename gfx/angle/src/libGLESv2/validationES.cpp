@@ -2822,7 +2822,7 @@ if
 attachment
 -
 >
-getActualFormat
+getInternalFormat
 (
 )
 !
@@ -2830,7 +2830,7 @@ getActualFormat
 readColorBuffer
 -
 >
-getActualFormat
+getInternalFormat
 (
 )
 )

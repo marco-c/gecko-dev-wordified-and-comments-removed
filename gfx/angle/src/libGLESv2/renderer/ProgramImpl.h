@@ -135,7 +135,10 @@ getBinaryFormat
 0
 ;
 virtual
-bool
+gl
+:
+:
+LinkResult
 load
 (
 gl
@@ -155,7 +158,10 @@ stream
 0
 ;
 virtual
-bool
+gl
+:
+:
+Error
 save
 (
 gl
@@ -169,7 +175,10 @@ stream
 0
 ;
 virtual
-bool
+gl
+:
+:
+LinkResult
 compileProgramExecutables
 (
 gl
@@ -197,7 +206,10 @@ registers
 0
 ;
 virtual
-bool
+gl
+:
+:
+LinkResult
 link
 (
 gl

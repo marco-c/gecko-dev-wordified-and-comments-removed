@@ -26,10 +26,17 @@ mrtPerfWorkaround
 (
 false
 )
+setDataFasterThanImageUpload
+(
+false
+)
 {
 }
 bool
 mrtPerfWorkaround
+;
+bool
+setDataFasterThanImageUpload
 ;
 }
 ;

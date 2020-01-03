@@ -118,6 +118,12 @@ ENTIRE_LEVEL
 )
 ;
 static
+ImageIndex
+MakeInvalid
+(
+)
+;
+static
 const
 GLint
 ENTIRE_LEVEL

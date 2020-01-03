@@ -379,6 +379,9 @@ int
 EXT_shader_texture_lod
 ;
 int
+NV_draw_buffers
+;
+int
 FragmentPrecisionHigh
 ;
 int

@@ -792,6 +792,13 @@ EXT_shader_texture_lod
 resources
 -
 >
+NV_draw_buffers
+=
+0
+;
+resources
+-
+>
 FragmentPrecisionHigh
 =
 0

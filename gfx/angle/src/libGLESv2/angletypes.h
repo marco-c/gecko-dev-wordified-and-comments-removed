@@ -29,6 +29,9 @@ class
 Buffer
 ;
 class
+State
+;
+class
 ProgramBinary
 ;
 struct
@@ -775,15 +778,8 @@ ProgramBinary
 *
 programBinary
 const
-VertexAttribute
-*
-attributes
-const
-gl
-:
-:
-VertexAttribCurrentValueData
-*
+State
+&
 currentValues
 )
 ;
