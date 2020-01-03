@@ -762,9 +762,6 @@ digest
 FSMDEF_MAX_DIGEST_LEN
 ]
 ;
-sll_lite_list_t
-candidate_list
-;
 }
 fsmdef_dcb_t
 ;
