@@ -16107,3 +16107,17 @@ notificationbar
 false
 )
 ;
+pref
+(
+"
+dom
+.
+ipc
+.
+cpow
+.
+timeout
+"
+0
+)
+;

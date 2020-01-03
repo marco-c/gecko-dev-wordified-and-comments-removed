@@ -294,6 +294,11 @@ TestUrgency
 .
 cpp
 '
+'
+TestUrgentHangs
+.
+cpp
+'
 ]
 if
 CONFIG
@@ -629,6 +634,11 @@ ipdl
 '
 '
 PTestUrgency
+.
+ipdl
+'
+'
+PTestUrgentHangs
 .
 ipdl
 '

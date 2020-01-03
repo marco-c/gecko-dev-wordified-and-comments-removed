@@ -2797,6 +2797,15 @@ current
 )
 )
 ;
+GetIPCChannel
+(
+)
+-
+>
+CloseWithTimeout
+(
+)
+;
 return
 false
 ;
