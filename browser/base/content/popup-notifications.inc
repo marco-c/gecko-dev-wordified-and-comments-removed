@@ -559,6 +559,12 @@ type
 "
 password
 "
+show
+-
+content
+=
+"
+"
 /
 >
 <
