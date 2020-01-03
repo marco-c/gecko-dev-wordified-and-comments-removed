@@ -1,5 +1,3 @@
-import
-time
 def
 main
 (
@@ -77,25 +75,6 @@ n
 "
 ;
     
-sleep
-=
-int
-(
-request
-.
-GET
-.
-first
-(
-"
-sleep
-"
-"
-0
-"
-)
-)
-    
 headers
 =
 [
@@ -119,22 +98,6 @@ newline
 \
 n
 "
-    
-if
-sleep
-!
-=
-0
-:
-        
-time
-.
-sleep
-(
-sleep
-/
-1000
-)
     
 return
 headers

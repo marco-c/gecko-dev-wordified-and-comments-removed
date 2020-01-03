@@ -449,21 +449,6 @@ errors
 :
                     
 if
-"
-*
-"
-in
-whitelist_errors
-:
-                        
-whitelisted
-[
-i
-]
-=
-True
-                    
-elif
 error_type
 in
 whitelist_errors

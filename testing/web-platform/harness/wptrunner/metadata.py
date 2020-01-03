@@ -774,19 +774,6 @@ tempfile
 .
 mkdtemp
 (
-dir
-=
-os
-.
-path
-.
-split
-(
-metadata_path
-)
-[
-0
-]
 )
     
 write_new_expected
@@ -1437,22 +1424,6 @@ test
 .
 test_type
 ]
-        
-if
-data
-[
-"
-status
-"
-]
-=
-=
-"
-SKIP
-"
-:
-            
-return
         
 result
 =
