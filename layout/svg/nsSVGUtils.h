@@ -1173,12 +1173,15 @@ aFrame
 )
 ;
 static
-gfxMatrix
-GetStrokeTransform
+bool
+GetNonScalingStrokeTransform
 (
 nsIFrame
 *
 aFrame
+gfxMatrix
+*
+aUserToOuterSVG
 )
 ;
 static
