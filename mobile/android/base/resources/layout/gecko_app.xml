@@ -136,6 +136,13 @@ layout_height
 "
 match_parent
 "
+android
+:
+fitsSystemWindows
+=
+"
+true
+"
 >
 <
 ViewStub
