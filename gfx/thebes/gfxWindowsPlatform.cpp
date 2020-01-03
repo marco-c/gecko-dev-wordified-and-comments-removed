@@ -7025,7 +7025,7 @@ if
 displayLinkModuleVersion
 <
 =
-GFX_DRIVER_VERSION
+V
 (
 8
 6
