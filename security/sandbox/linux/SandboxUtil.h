@@ -12,6 +12,11 @@ IsSingleThreaded
 (
 )
 ;
+bool
+UnshareUserNamespace
+(
+)
+;
 }
 #
 endif
