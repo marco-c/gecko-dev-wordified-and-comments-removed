@@ -3312,6 +3312,11 @@ props
 room
 .
 roomUrl
+from
+:
+"
+panel
+"
 }
 )
 )
