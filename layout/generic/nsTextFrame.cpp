@@ -15072,7 +15072,7 @@ justifiableChars
 0
 ;
 bool
-isCJK
+isCJ
 =
 IsChineseOrJapanese
 (
@@ -15121,7 +15121,7 @@ GetOriginalOffset
 )
 +
 i
-isCJK
+isCJ
 )
 ;
 }
@@ -15725,7 +15725,7 @@ mJustificationSpacing
 2
 ;
 bool
-isCJK
+isCJ
 =
 IsChineseOrJapanese
 (
@@ -15821,7 +15821,7 @@ IsJustifiableCharacter
 (
 mFrag
 iterOriginalOffset
-isCJK
+isCJ
 )
 )
 {
@@ -41878,7 +41878,7 @@ eInflated
 )
 ;
 bool
-isCJK
+isCJ
 =
 IsChineseOrJapanese
 (
@@ -41935,7 +41935,7 @@ IsJustifiableCharacter
 (
 frag
 i
-isCJK
+isCJ
 )
 )
 {
