@@ -93,6 +93,14 @@ MPL
 0
 /
 .
+CppUnitTests
+(
+[
+'
+TestSTSParser
+'
+]
+)
 GeckoCppUnitTests
 (
 [

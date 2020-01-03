@@ -248,9 +248,6 @@ TestBind
 TestCookie
 '
 '
-TestSTSParser
-'
-'
 TestUDPSocket
 '
 ]
