@@ -7203,7 +7203,12 @@ atom
 aContent
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 ;
