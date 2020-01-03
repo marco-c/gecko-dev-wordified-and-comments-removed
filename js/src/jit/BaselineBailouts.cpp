@@ -2982,7 +2982,7 @@ MOZ_ASSERT
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
