@@ -1808,6 +1808,13 @@ TrackID
 aID
 )
 ;
+StreamTime
+GetEndOfAppendedData
+(
+TrackID
+aID
+)
+;
 void
 DispatchWhenNotEnoughBuffered
 (
@@ -2020,8 +2027,8 @@ endif
 StreamTime
 mStart
 ;
-uint32_t
-mCommands
+StreamTime
+mEndOfFlushedData
 ;
 nsAutoPtr
 <
@@ -2034,6 +2041,9 @@ nsTArray
 ThreadAndRunnable
 >
 mDispatchWhenNotEnough
+;
+uint32_t
+mCommands
 ;
 bool
 mHaveEnough
