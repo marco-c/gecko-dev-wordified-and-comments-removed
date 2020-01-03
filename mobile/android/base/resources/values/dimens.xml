@@ -307,7 +307,7 @@ name
 new_tablet_tab_strip_item_width
 "
 >
-250dp
+208dp
 <
 /
 dimen
@@ -321,7 +321,7 @@ new_tablet_tab_strip_item_margin
 "
 >
 -
-30dp
+28dp
 <
 /
 dimen

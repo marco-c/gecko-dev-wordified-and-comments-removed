@@ -163,14 +163,14 @@ android
 paddingLeft
 =
 "
-25dp
+28dp
 "
 android
 :
 paddingRight
 =
 "
-15dp
+12dp
 "
 /
 >
