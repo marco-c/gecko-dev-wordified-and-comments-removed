@@ -194,7 +194,8 @@ static
 void
 SendTelemetry
 (
-HRESULT
+unsigned
+long
 hr
 )
 {
