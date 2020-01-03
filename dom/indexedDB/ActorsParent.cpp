@@ -29058,14 +29058,6 @@ override
 ;
 virtual
 void
-PerformIdleMaintenance
-(
-)
-override
-{
-}
-virtual
-void
 ShutdownWorkThreads
 (
 )
