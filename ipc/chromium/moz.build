@@ -1611,15 +1611,6 @@ mm
 '
 src
 /
-base
-/
-worker_pool_mac
-.
-mm
-'
-'
-src
-/
 chrome
 /
 common
