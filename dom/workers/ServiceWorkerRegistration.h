@@ -179,11 +179,6 @@ DOMEventTargetHelper
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
-(
-ServiceWorkerRegistrationBase
-DOMEventTargetHelper
-)
 IMPL_EVENT_HANDLER
 (
 updatefound
@@ -274,14 +269,6 @@ ServiceWorkerRegistrationBase
 const
 nsString
 mScope
-;
-private
-:
-nsCOMPtr
-<
-nsISupports
->
-mCCDummy
 ;
 }
 ;
