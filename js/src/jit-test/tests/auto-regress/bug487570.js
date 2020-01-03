@@ -34,8 +34,6 @@ in
 {
 const
 functional
-=
-undefined
 }
 }
 )

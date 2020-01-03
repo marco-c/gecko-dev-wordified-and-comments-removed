@@ -1647,10 +1647,8 @@ debuggerStatement
 )
 ;
 Node
-lexicalDeclaration
+letDeclaration
 (
-bool
-isConst
 )
 ;
 Node
@@ -2111,13 +2109,6 @@ headKind
 )
 ;
 bool
-checkForHeadConstInitializers
-(
-Node
-pn1
-)
-;
-bool
 checkAndMarkAsIncOperand
 (
 Node
@@ -2378,7 +2369,7 @@ parser
 ;
 static
 bool
-bindLexical
+bindLet
 (
 BindData
 <
@@ -2398,7 +2389,7 @@ parser
 ;
 static
 bool
-bindVarOrGlobalConst
+bindVarOrConst
 (
 BindData
 <
@@ -2436,11 +2427,8 @@ reportRedeclaration
 (
 Node
 pn
-Definition
-:
-:
-Kind
-redeclKind
+bool
+isConst
 HandlePropertyName
 name
 )

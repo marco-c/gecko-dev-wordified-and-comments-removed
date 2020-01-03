@@ -195,8 +195,6 @@ yield
 ;
 const
 x
-=
-undefined
 ;
 }
 )

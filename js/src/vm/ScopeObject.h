@@ -1872,8 +1872,6 @@ StaticBlockObject
 block
 HandleId
 id
-bool
-constant
 unsigned
 index
 bool

@@ -74,8 +74,6 @@ eval
 '
 const
 x
-=
-undefined
 ;
 for
 (
