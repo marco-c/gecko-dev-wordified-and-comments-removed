@@ -175,3 +175,17 @@ mobile
 js
 '
 ]
+DIST_FILES
++
+=
+[
+'
+ua
+-
+update
+.
+json
+.
+in
+'
+]
