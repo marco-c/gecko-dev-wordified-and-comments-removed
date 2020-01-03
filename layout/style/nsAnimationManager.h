@@ -348,6 +348,9 @@ EventArray
 aEventsToDispatch
 )
 ;
+bool
+mInEffectForCascadeResults
+;
 protected
 :
 virtual
@@ -517,6 +520,17 @@ mozilla
 EventArray
 &
 aEventsToDispatch
+)
+;
+void
+MaybeUpdateCascadeResults
+(
+mozilla
+:
+:
+AnimationPlayerCollection
+*
+aCollection
 )
 ;
 virtual
