@@ -2359,6 +2359,13 @@ BrowserConfiguration
 aConfiguration
 )
 ;
+void
+SetHasContentOpener
+(
+bool
+aHasContentOpener
+)
+;
 static
 TabParent
 *
@@ -2623,6 +2630,9 @@ nsRefPtr
 nsIPresShell
 >
 mPresShellWithRefreshListener
+;
+bool
+mHasContentOpener
 ;
 private
 :
