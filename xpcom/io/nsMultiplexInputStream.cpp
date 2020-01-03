@@ -129,10 +129,13 @@ nsMultiplexInputStream
 {
 }
 struct
+MOZ_STACK_CLASS
 ReadSegmentsState
 {
+nsCOMPtr
+<
 nsIInputStream
-*
+>
 mThisStream
 ;
 uint32_t
