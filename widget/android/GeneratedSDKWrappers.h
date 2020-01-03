@@ -27,6 +27,11 @@ widget
 namespace
 android
 {
+#
+define
+MEDIACODEC_EXCEPTION_INDEX
+-
+255
 void
 InitSDKStubs
 (
@@ -78,7 +83,7 @@ env
 {
 }
 ;
-void
+bool
 Configure
 (
 jobject
@@ -213,7 +218,7 @@ int32_t
 a0
 )
 ;
-void
+bool
 Start
 (
 )
