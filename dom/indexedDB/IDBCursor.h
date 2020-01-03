@@ -645,6 +645,12 @@ DropJSObjects
 (
 )
 ;
+bool
+IsSourceDeleted
+(
+)
+const
+;
 }
 ;
 }
