@@ -69,15 +69,6 @@ makefiles
 rcs
 .
 mk
-PREF_JS_EXPORTS
-=
-(
-srcdir
-)
-/
-b2g
-.
-js
 UA_UPDATE_FILE
 =
 ua

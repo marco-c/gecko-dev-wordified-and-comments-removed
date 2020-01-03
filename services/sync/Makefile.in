@@ -129,15 +129,3 @@ PP_TARGETS
 +
 =
 SYNC_PP
-PREF_JS_EXPORTS
-:
-=
-(
-srcdir
-)
-/
-services
--
-sync
-.
-js

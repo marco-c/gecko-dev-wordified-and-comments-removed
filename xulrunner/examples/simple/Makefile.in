@@ -68,17 +68,6 @@ MPL
 0
 /
 .
-PREF_JS_EXPORTS
-=
-(
-srcdir
-)
-/
-simple
--
-prefs
-.
-js
 DIST_FILES
 =
 application

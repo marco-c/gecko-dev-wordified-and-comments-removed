@@ -230,3 +230,15 @@ utils
 js
 '
 ]
+JS_PREFERENCE_FILES
++
+=
+[
+'
+services
+-
+common
+.
+js
+'
+]

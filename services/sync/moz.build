@@ -446,3 +446,15 @@ utils
 js
 '
 ]
+JS_PREFERENCE_FILES
++
+=
+[
+'
+services
+-
+sync
+.
+js
+'
+]

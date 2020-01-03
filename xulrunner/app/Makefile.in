@@ -68,15 +68,6 @@ MPL
 0
 /
 .
-PREF_JS_EXPORTS
-=
-(
-srcdir
-)
-/
-xulrunner
-.
-js
 GARBAGE
 +
 =

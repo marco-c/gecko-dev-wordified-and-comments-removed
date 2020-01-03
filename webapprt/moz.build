@@ -354,3 +354,13 @@ jar
 mn
 '
 ]
+JS_PREFERENCE_FILES
++
+=
+[
+'
+prefs
+.
+js
+'
+]
