@@ -23,7 +23,7 @@ h
 #
 include
 "
-DecodeStrategy
+DecodePool
 .
 h
 "
@@ -108,11 +108,8 @@ aStrategy
 void
 Finish
 (
-RasterImage
-:
-:
-eShutdownIntent
-aShutdownIntent
+ShutdownReason
+aReason
 )
 ;
 void
