@@ -1016,12 +1016,13 @@ GetOurPrimaryFrame
 ;
 if
 (
+f
+)
+{
+if
+(
 !
 mFrameCreateCalled
-|
-|
-!
-f
 |
 |
 (
@@ -1066,6 +1067,7 @@ startedDecoding
 =
 true
 ;
+}
 }
 }
 }
