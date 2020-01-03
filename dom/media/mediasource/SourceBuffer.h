@@ -163,7 +163,7 @@ class
 ErrorResult
 ;
 class
-MediaLargeByteBuffer
+MediaByteBuffer
 ;
 template
 <
@@ -567,7 +567,7 @@ aDecoderError
 ;
 already_AddRefed
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 PrepareAppend
 (

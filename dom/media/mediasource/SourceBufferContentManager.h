@@ -110,7 +110,7 @@ virtual
 bool
 AppendData
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 TimeUnit

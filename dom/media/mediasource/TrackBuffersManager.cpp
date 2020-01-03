@@ -245,7 +245,7 @@ aType
 mInputBuffer
 (
 new
-MediaLargeByteBuffer
+MediaByteBuffer
 )
 mAppendState
 (
@@ -448,7 +448,7 @@ TrackBuffersManager
 :
 AppendData
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 TimeUnit
@@ -1459,7 +1459,7 @@ mFirstInitializationSegmentReceived
 {
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 initData
 =
@@ -1495,7 +1495,7 @@ CreateDemuxerforMIMEType
 mInputBuffer
 =
 new
-MediaLargeByteBuffer
+MediaByteBuffer
 ;
 MOZ_ALWAYS_TRUE
 (
@@ -4299,12 +4299,12 @@ Length
 ;
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 segment
 =
 new
-MediaLargeByteBuffer
+MediaByteBuffer
 ;
 MOZ_ASSERT
 (
@@ -6535,7 +6535,7 @@ OnTaskQueue
 ;
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 initData
 =

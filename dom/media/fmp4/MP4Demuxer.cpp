@@ -98,7 +98,7 @@ aResource
 mInitData
 (
 new
-MediaLargeByteBuffer
+MediaByteBuffer
 )
 {
 }

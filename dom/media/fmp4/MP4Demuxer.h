@@ -201,7 +201,7 @@ mStream
 ;
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 mInitData
 ;

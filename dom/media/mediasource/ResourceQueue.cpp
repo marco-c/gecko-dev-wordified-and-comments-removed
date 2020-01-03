@@ -129,7 +129,7 @@ ResourceItem
 :
 ResourceItem
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 )
@@ -409,7 +409,7 @@ ResourceQueue
 :
 AppendItem
 (
-MediaLargeByteBuffer
+MediaByteBuffer
 *
 aData
 )
@@ -607,12 +607,12 @@ offset
 ;
 nsRefPtr
 <
-MediaLargeByteBuffer
+MediaByteBuffer
 >
 data
 =
 new
-MediaLargeByteBuffer
+MediaByteBuffer
 ;
 if
 (
