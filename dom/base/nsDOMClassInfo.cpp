@@ -8782,7 +8782,6 @@ cx
 &
 sDOMConstructorProtoClass
 proto
-winobj
 )
 ;
 NS_ENSURE_TRUE

@@ -539,8 +539,6 @@ JSClass
 clasp
 HandleObject
 proto
-HandleObject
-parent
 )
 {
 RootedObject
@@ -562,7 +560,9 @@ clasp
 NullPtr
 (
 )
-parent
+NullPtr
+(
+)
 SingletonObject
 )
 )

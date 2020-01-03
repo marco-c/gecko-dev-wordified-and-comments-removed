@@ -277,7 +277,7 @@ JS
 :
 :
 RootedObject
-parent
+global
 (
 cx
 mScope
@@ -298,7 +298,7 @@ cx
 JS_GetObjectPrototype
 (
 cx
-parent
+global
 )
 )
 ;
@@ -315,7 +315,6 @@ Jsvalify
 jsclazz
 )
 proto
-parent
 )
 ;
 bool

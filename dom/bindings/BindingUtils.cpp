@@ -3091,7 +3091,6 @@ Jsvalify
 protoClass
 )
 parentProto
-global
 )
 )
 ;
