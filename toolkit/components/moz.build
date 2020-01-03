@@ -208,6 +208,9 @@ perf
 places
 '
 '
+processsingleton
+'
+'
 promiseworker
 '
 '
