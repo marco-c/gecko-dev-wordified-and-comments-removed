@@ -169,6 +169,11 @@ ClearSearchTimer
 (
 )
 ;
+void
+MaybeCompletePlaceholder
+(
+)
+;
 nsresult
 ProcessResult
 (
@@ -367,6 +372,9 @@ mTree
 ;
 nsString
 mSearchString
+;
+nsString
+mPlaceholderCompletionString
 ;
 bool
 mDefaultIndexCompleted
