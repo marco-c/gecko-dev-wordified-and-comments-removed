@@ -17,6 +17,12 @@ mozbuild
 util
 import
 hash_file
+import
+mozpack
+.
+path
+as
+mozpath
 RE_STRIP_COLORS
 =
 re
@@ -939,12 +945,13 @@ warnings
 yield
 w
     
-property
-    
 def
 type_counts
 (
 self
+dirpath
+=
+None
 )
 :
         
@@ -993,18 +1000,46 @@ warnings
 ]
 :
                 
-count
-=
-types
+if
+dirpath
+and
+not
+mozpath
 .
-get
+normsep
 (
+warning
+[
+'
+filename
+'
+]
+)
+.
+startswith
+(
+dirpath
+)
+:
+                    
+continue
+                
+flag
+=
 warning
 [
 '
 flag
 '
 ]
+                
+count
+=
+types
+.
+get
+(
+flag
 0
 )
                 
@@ -1015,12 +1050,7 @@ count
                 
 types
 [
-warning
-[
-'
 flag
-'
-]
 ]
 =
 count
