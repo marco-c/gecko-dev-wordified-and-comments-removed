@@ -1848,6 +1848,11 @@ mShouldBuildScrollableLayer
 1
 ;
 bool
+mIsScrollableLayerInRootContainer
+:
+1
+;
+bool
 mAddClipRectToLayer
 :
 1
