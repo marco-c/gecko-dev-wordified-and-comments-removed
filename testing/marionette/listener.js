@@ -2585,7 +2585,7 @@ if
 previousFrame
 )
 {
-cuFrame
+curFrame
 =
 actions
 .
