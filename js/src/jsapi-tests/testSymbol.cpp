@@ -9,6 +9,9 @@ tests
 .
 h
 "
+#
+ifdef
+JS_HAS_SYMBOLS
 BEGIN_TEST
 (
 testSymbol_New
@@ -413,3 +416,5 @@ END_TEST
 (
 testSymbol_GetWellKnownSymbol
 )
+#
+endif
