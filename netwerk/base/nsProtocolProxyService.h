@@ -326,6 +326,10 @@ Resolve_Internal
 nsIChannel
 *
 channel
+uint32_t
+appId
+bool
+isInBrowser
 const
 nsProtocolInfo
 &
