@@ -160,6 +160,13 @@ pkixtime
 .
 cpp
 '
+'
+lib
+/
+pkixverify
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 +
