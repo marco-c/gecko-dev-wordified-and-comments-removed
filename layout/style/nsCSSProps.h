@@ -2783,6 +2783,13 @@ kScrollBehaviorKTable
 static
 const
 KTableValue
+kScrollSnapTypeKTable
+[
+]
+;
+static
+const
+KTableValue
 kSpeakKTable
 [
 ]
