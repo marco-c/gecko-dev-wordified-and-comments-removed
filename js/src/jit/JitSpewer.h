@@ -530,6 +530,9 @@ JitSpew_Terminator
 class
 MIRGenerator
 ;
+class
+TempAllocator
+;
 static
 const
 int
