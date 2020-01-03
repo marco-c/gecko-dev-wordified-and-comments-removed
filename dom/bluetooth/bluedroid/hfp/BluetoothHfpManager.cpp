@@ -335,6 +335,7 @@ BluetoothHfpManager
 :
 :
 GetVolumeTask
+MOZ_FINAL
 :
 public
 nsISettingsServiceCallback

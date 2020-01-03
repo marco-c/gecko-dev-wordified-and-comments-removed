@@ -35,6 +35,7 @@ system
 {
 class
 nsVolumeStat
+MOZ_FINAL
 :
 public
 nsIVolumeStat

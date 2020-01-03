@@ -1043,6 +1043,7 @@ namespace
 {
 class
 VibratorRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable

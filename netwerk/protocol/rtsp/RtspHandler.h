@@ -33,6 +33,7 @@ net
 {
 class
 RtspHandler
+MOZ_FINAL
 :
 public
 nsIProtocolHandler
