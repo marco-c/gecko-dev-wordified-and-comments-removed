@@ -176,6 +176,8 @@ aContextForTightBoundingBox
 Spacing
 *
 aSpacing
+uint16_t
+aOrientation
 )
 ;
 virtual
