@@ -174,11 +174,6 @@ GMPParent
 aParent
 )
 ;
-void
-AbortAsyncShutdown
-(
-)
-;
 int32_t
 AsyncShutdownTimeoutMs
 (
