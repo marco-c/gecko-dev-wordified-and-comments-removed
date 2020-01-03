@@ -1635,7 +1635,6 @@ GetOwner
 (
 )
 )
-{
 imageToReturn
 =
 GetOwner
@@ -1643,11 +1642,8 @@ GetOwner
 )
 -
 >
-GetImage
-(
-)
+mImage
 ;
-}
 if
 (
 !
