@@ -8134,6 +8134,17 @@ forget
 )
 ;
 }
+void
+RasterImage
+:
+:
+PropagateUseCounters
+(
+nsIDocument
+*
+)
+{
+}
 IntSize
 RasterImage
 :

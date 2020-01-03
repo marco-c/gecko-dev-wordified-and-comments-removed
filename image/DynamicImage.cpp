@@ -1171,5 +1171,16 @@ forget
 )
 ;
 }
+void
+DynamicImage
+:
+:
+PropagateUseCounters
+(
+nsIDocument
+*
+)
+{
+}
 }
 }
