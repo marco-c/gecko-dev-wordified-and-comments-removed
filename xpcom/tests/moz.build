@@ -109,6 +109,9 @@ bug656331_component
 '
 component_no_aslr
 '
+'
+gtest
+'
 ]
 if
 CONFIG
