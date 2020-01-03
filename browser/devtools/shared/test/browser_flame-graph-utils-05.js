@@ -60,7 +60,7 @@ out1
 =
 FlameGraphUtils
 .
-createFlameGraphDataFromSamples
+createFlameGraphDataFromThread
 (
 TEST_DATA
 )
@@ -70,7 +70,7 @@ out2
 =
 FlameGraphUtils
 .
-createFlameGraphDataFromSamples
+createFlameGraphDataFromThread
 (
 TEST_DATA
 )
@@ -93,7 +93,7 @@ out3
 =
 FlameGraphUtils
 .
-createFlameGraphDataFromSamples
+createFlameGraphDataFromThread
 (
 TEST_DATA
 {
@@ -130,7 +130,7 @@ out4
 =
 FlameGraphUtils
 .
-createFlameGraphDataFromSamples
+createFlameGraphDataFromThread
 (
 TEST_DATA
 {
@@ -160,6 +160,8 @@ anymore
 let
 TEST_DATA
 =
+synthesizeProfileForTest
+(
 [
 {
 frames
@@ -213,4 +215,5 @@ time
 50
 }
 ]
+)
 ;
