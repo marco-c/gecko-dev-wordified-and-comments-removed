@@ -659,8 +659,7 @@ now
 }
 }
 }
-this
-.
+let
 HomeStorage
 =
 function
@@ -676,8 +675,7 @@ datasetId
 ;
 }
 ;
-this
-.
+let
 ValidationError
 =
 function
@@ -718,8 +716,7 @@ constructor
 =
 ValidationError
 ;
-this
-.
+let
 HomeProvider
 =
 Object
