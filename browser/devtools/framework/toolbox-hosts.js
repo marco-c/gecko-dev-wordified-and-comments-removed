@@ -97,11 +97,7 @@ jsm
 const
 MIN_PAGE_SIZE
 =
-exports
-.
-MIN_PAGE_SIZE
-=
-100
+25
 ;
 exports
 .
