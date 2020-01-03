@@ -1,4 +1,7 @@
+add_task
+(
 function
+*
 test
 (
 )
@@ -59,7 +62,8 @@ if
 (
 wasCollapsed
 )
-setToolbarVisibility
+yield
+promiseSetToolbarVisibility
 (
 toolbar
 true
@@ -299,7 +303,8 @@ if
 (
 wasCollapsed
 )
-setToolbarVisibility
+yield
+promiseSetToolbarVisibility
 (
 toolbar
 false
@@ -325,3 +330,5 @@ true
 )
 ;
 }
+)
+;

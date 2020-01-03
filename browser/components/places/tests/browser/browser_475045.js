@@ -58,7 +58,10 @@ js
 ChromeUtils
 )
 ;
+add_task
+(
 function
+*
 test
 (
 )
@@ -94,7 +97,8 @@ toolbar
 collapsed
 )
 {
-setToolbarVisibility
+yield
+promiseSetToolbarVisibility
 (
 toolbar
 true
@@ -106,7 +110,8 @@ function
 (
 )
 {
-setToolbarVisibility
+return
+promiseSetToolbarVisibility
 (
 toolbar
 false
@@ -380,3 +385,5 @@ mimeType
 )
 ;
 }
+)
+;
