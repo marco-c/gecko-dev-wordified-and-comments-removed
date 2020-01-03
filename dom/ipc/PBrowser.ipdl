@@ -3301,16 +3301,6 @@ uint64_t
 aInputBlockId
 )
 ;
-HandleLongTapUp
-(
-CSSPoint
-point
-Modifiers
-aModifiers
-ScrollableLayerGuid
-aGuid
-)
-;
 NotifyAPZStateChange
 (
 ViewID
