@@ -16340,3 +16340,15 @@ enabled
 false
 )
 ;
+pref
+(
+"
+readinglist
+.
+scheduler
+.
+enabled
+"
+true
+)
+;
