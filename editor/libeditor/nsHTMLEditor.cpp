@@ -840,7 +840,7 @@ mResizeEventListenerP
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-objectResizeEventListeners
+mObjectResizeEventListeners
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
