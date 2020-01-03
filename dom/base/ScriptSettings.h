@@ -458,6 +458,11 @@ return
 mOwnErrorReporting
 ;
 }
+void
+ReportException
+(
+)
+;
 bool
 HasException
 (
