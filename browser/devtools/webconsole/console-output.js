@@ -13600,12 +13600,6 @@ isAttached
 let
 onReady
 =
-promise
-.
-defer
-(
-)
-;
 this
 .
 toolbox
@@ -13619,9 +13613,6 @@ inspector
 -
 updated
 "
-onReady
-.
-resolve
 )
 ;
 yield
@@ -13643,8 +13634,6 @@ console
 ;
 yield
 onReady
-.
-promise
 ;
 }
 else

@@ -193,9 +193,10 @@ bypass
 )
 ;
 yield
+gAudioNodes
+.
 once
 (
-gAudioNodes
 "
 bypass
 "
@@ -292,9 +293,10 @@ bypass
 )
 ;
 yield
+gAudioNodes
+.
 once
 (
-gAudioNodes
 "
 bypass
 "
