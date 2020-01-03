@@ -975,7 +975,7 @@ faviconURL
 public
 static
 String
-getFaviconUrlForHistoryUrl
+getFaviconURLFromPageURL
 (
 ContentResolver
 cr
@@ -986,7 +986,7 @@ url
 return
 sDb
 .
-getFaviconUrlForHistoryUrl
+getFaviconURLFromPageURL
 (
 cr
 url
