@@ -194,6 +194,11 @@ TestTiledLayerBuffer
 .
 cpp
 '
+'
+TestVsync
+.
+cpp
+'
 ]
 #
 Because
