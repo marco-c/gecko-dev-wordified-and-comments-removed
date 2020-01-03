@@ -385,6 +385,13 @@ cpp
 '
 bluedroid
 /
+BluetoothSocketMessageWatcher
+.
+cpp
+'
+'
+bluedroid
+/
 BluetoothUtils
 .
 cpp
