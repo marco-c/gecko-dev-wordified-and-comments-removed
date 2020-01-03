@@ -636,6 +636,13 @@ why
 }
 if
 (
+depth
+<
+2
+)
+{
+if
+(
 !
 gcFields
 .
@@ -671,6 +678,7 @@ ptrdness
 ]
 )
 ;
+}
 if
 (
 typeName
