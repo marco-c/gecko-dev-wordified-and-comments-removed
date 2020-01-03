@@ -152,6 +152,7 @@ mContext
 context
 ;
 }
+Override
 public
 GeckoProfile
 getProfile
@@ -180,6 +181,7 @@ return
 mProfile
 ;
 }
+Override
 public
 PromptService
 getPromptService
@@ -190,6 +192,7 @@ return
 null
 ;
 }
+Override
 public
 Activity
 getActivity
@@ -203,6 +206,7 @@ Activity
 mContext
 ;
 }
+Override
 public
 String
 getDefaultUAString
@@ -225,6 +229,7 @@ AppConstants
 USER_AGENT_FENNEC_MOBILE
 ;
 }
+Override
 public
 LocationListener
 getLocationListener
@@ -235,6 +240,7 @@ return
 null
 ;
 }
+Override
 public
 SensorEventListener
 getSensorEventListener
@@ -245,6 +251,7 @@ return
 null
 ;
 }
+Override
 public
 void
 doRestart
@@ -252,6 +259,7 @@ doRestart
 )
 {
 }
+Override
 public
 void
 setFullScreen
@@ -292,6 +300,7 @@ fullscreen
 )
 ;
 }
+Override
 public
 void
 addPluginView
@@ -308,6 +317,7 @@ isFullScreen
 )
 {
 }
+Override
 public
 void
 removePluginView
@@ -321,6 +331,7 @@ isFullScreen
 )
 {
 }
+Override
 public
 void
 enableCameraView
@@ -328,6 +339,7 @@ enableCameraView
 )
 {
 }
+Override
 public
 void
 disableCameraView
@@ -335,6 +347,7 @@ disableCameraView
 )
 {
 }
+Override
 public
 void
 addAppStateListener
@@ -346,6 +359,7 @@ listener
 )
 {
 }
+Override
 public
 void
 removeAppStateListener
@@ -357,6 +371,7 @@ listener
 )
 {
 }
+Override
 public
 View
 getCameraView
@@ -367,6 +382,7 @@ return
 null
 ;
 }
+Override
 public
 void
 notifyWakeLockChanged
@@ -378,6 +394,7 @@ state
 )
 {
 }
+Override
 public
 FormAssistPopup
 getFormAssistPopup
@@ -388,6 +405,7 @@ return
 null
 ;
 }
+Override
 public
 boolean
 areTabsShown
@@ -398,6 +416,7 @@ return
 false
 ;
 }
+Override
 public
 AbsoluteLayout
 getPluginContainer
@@ -408,6 +427,7 @@ return
 null
 ;
 }
+Override
 public
 void
 notifyCheckUpdateResult
@@ -434,6 +454,7 @@ result
 )
 ;
 }
+Override
 public
 boolean
 hasTabsSideBar
@@ -444,6 +465,7 @@ return
 false
 ;
 }
+Override
 public
 void
 invalidateOptionsMenu

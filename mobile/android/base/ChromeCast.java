@@ -941,6 +941,7 @@ MIRROR_RECIEVER_APP_ID
 )
 ;
 }
+Override
 public
 JSONObject
 toJSON
@@ -1105,6 +1106,7 @@ return
 obj
 ;
 }
+Override
 public
 void
 load
@@ -1343,6 +1345,7 @@ connect
 )
 ;
 }
+Override
 public
 void
 start
@@ -1360,6 +1363,7 @@ null
 )
 ;
 }
+Override
 public
 void
 stop
@@ -1468,6 +1472,7 @@ return
 true
 ;
 }
+Override
 public
 void
 play
@@ -1597,6 +1602,7 @@ playing
 ;
 }
 }
+Override
 public
 void
 pause
@@ -1726,6 +1732,7 @@ pausing
 ;
 }
 }
+Override
 public
 void
 end
@@ -2075,6 +2082,7 @@ callback
 callback
 ;
 }
+Override
 public
 void
 onResult
@@ -2231,6 +2239,7 @@ toString
 }
 }
 }
+Override
 public
 void
 message
@@ -2259,6 +2268,7 @@ msg
 ;
 }
 }
+Override
 public
 void
 mirror

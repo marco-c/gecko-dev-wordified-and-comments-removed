@@ -238,6 +238,7 @@ CellInfo
 (
 )
 {
+Override
 public
 CellInfo
 createFromParcel
@@ -254,6 +255,7 @@ in
 )
 ;
 }
+Override
 public
 CellInfo
 [

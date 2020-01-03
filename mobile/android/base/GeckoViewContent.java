@@ -13,6 +13,7 @@ GeckoView
 .
 ContentDelegate
 {
+Override
 public
 void
 onPageStart
@@ -28,6 +29,7 @@ url
 )
 {
 }
+Override
 public
 void
 onPageStop
@@ -43,6 +45,7 @@ success
 )
 {
 }
+Override
 public
 void
 onPageShow
@@ -56,6 +59,7 @@ browser
 )
 {
 }
+Override
 public
 void
 onReceivedTitle
@@ -71,6 +75,7 @@ title
 )
 {
 }
+Override
 public
 void
 onReceivedFavicon

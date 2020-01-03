@@ -13,6 +13,7 @@ GeckoView
 .
 ChromeDelegate
 {
+Override
 public
 void
 onReady
@@ -22,6 +23,7 @@ view
 )
 {
 }
+Override
 public
 void
 onAlert
@@ -47,6 +49,7 @@ cancel
 )
 ;
 }
+Override
 public
 void
 onConfirm
@@ -72,6 +75,7 @@ cancel
 )
 ;
 }
+Override
 public
 void
 onPrompt
@@ -99,6 +103,7 @@ cancel
 )
 ;
 }
+Override
 public
 void
 onDebugRequest

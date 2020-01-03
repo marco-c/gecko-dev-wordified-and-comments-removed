@@ -1576,6 +1576,7 @@ BitmapLoader
 (
 )
 {
+Override
 public
 void
 onBitmapFound
@@ -1630,6 +1631,7 @@ return
 true
 ;
 }
+Override
 public
 boolean
 onCreateActionMode
@@ -1648,6 +1650,7 @@ return
 true
 ;
 }
+Override
 public
 boolean
 onActionItemClicked
@@ -1727,6 +1730,7 @@ return
 false
 ;
 }
+Override
 public
 void
 onDestroyActionMode

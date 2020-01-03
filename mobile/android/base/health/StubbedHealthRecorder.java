@@ -27,6 +27,7 @@ StubbedHealthRecorder
 implements
 HealthRecorder
 {
+Override
 public
 boolean
 isEnabled
@@ -37,6 +38,7 @@ return
 false
 ;
 }
+Override
 public
 void
 setCurrentSession
@@ -46,6 +48,7 @@ session
 )
 {
 }
+Override
 public
 void
 checkForOrphanSessions
@@ -53,6 +56,7 @@ checkForOrphanSessions
 )
 {
 }
+Override
 public
 void
 recordGeckoStartupTime
@@ -62,6 +66,7 @@ duration
 )
 {
 }
+Override
 public
 void
 recordJavaStartupTime
@@ -71,6 +76,7 @@ duration
 )
 {
 }
+Override
 public
 void
 recordSearch
@@ -84,6 +90,7 @@ location
 )
 {
 }
+Override
 public
 void
 recordSessionEnd
@@ -97,6 +104,7 @@ editor
 )
 {
 }
+Override
 public
 void
 recordSessionEnd
@@ -113,6 +121,7 @@ environment
 )
 {
 }
+Override
 public
 void
 onAppLocaleChanged
@@ -122,6 +131,7 @@ to
 )
 {
 }
+Override
 public
 void
 onAddonChanged
@@ -133,6 +143,7 @@ json
 )
 {
 }
+Override
 public
 void
 onAddonUninstalling
@@ -142,6 +153,7 @@ id
 )
 {
 }
+Override
 public
 void
 onEnvironmentChanged
@@ -149,6 +161,7 @@ onEnvironmentChanged
 )
 {
 }
+Override
 public
 void
 onEnvironmentChanged
@@ -162,6 +175,7 @@ sessionEndReason
 )
 {
 }
+Override
 public
 void
 close
