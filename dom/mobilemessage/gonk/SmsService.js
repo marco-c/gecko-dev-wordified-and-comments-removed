@@ -4822,6 +4822,12 @@ notifyGetSmscAddress
 aResponse
 .
 smscAddress
+aResponse
+.
+typeOfNumber
+aResponse
+.
+numberPlanIdentification
 )
 ;
 }
