@@ -612,6 +612,11 @@ FontFaceInitializer
 aInitializer
 )
 ;
+void
+DoLoad
+(
+)
+;
 bool
 ParseDescriptor
 (

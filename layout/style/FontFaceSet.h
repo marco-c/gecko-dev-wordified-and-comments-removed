@@ -394,6 +394,17 @@ FontFace
 aFontFace
 )
 ;
+already_AddRefed
+<
+gfxUserFontEntry
+>
+FindOrCreateUserFontEntryFromFontFace
+(
+FontFace
+*
+aFontFace
+)
+;
 void
 OnFontFaceInitialized
 (
