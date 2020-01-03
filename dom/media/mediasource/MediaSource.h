@@ -453,6 +453,12 @@ mDecoder
 ;
 nsRefPtr
 <
+HTMLMediaElement
+>
+mMediaElement
+;
+nsRefPtr
+<
 nsIPrincipal
 >
 mPrincipal
