@@ -36041,10 +36041,7 @@ succeeded
 if
 (
 !
-JSObject
-:
-:
-deleteGeneric
+DeleteProperty
 (
 cx
 obj

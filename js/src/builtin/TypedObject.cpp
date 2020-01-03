@@ -9907,10 +9907,7 @@ true
 ;
 }
 return
-JSObject
-:
-:
-deleteGeneric
+DeleteProperty
 (
 cx
 proto

@@ -3523,10 +3523,7 @@ succeeded
 if
 (
 !
-JSObject
-:
-:
-deleteGeneric
+DeleteProperty
 (
 cx
 obj
@@ -3654,10 +3651,7 @@ succeeded
 if
 (
 !
-JSObject
-:
-:
-deleteGeneric
+DeleteProperty
 (
 cx
 obj

@@ -15917,10 +15917,7 @@ id
 )
 ;
 return
-JSObject
-:
-:
-deleteGeneric
+DeleteProperty
 (
 cx
 obj
@@ -15964,10 +15961,7 @@ obj
 )
 ;
 return
-JSObject
-:
-:
-deleteElement
+DeleteElement
 (
 cx
 obj
@@ -16040,10 +16034,7 @@ atom
 )
 ;
 return
-JSObject
-:
-:
-deleteGeneric
+DeleteProperty
 (
 cx
 obj
@@ -16119,10 +16110,7 @@ atom
 )
 ;
 return
-JSObject
-:
-:
-deleteGeneric
+DeleteProperty
 (
 cx
 obj

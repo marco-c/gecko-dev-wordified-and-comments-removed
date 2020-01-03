@@ -14154,10 +14154,7 @@ atom
 )
 )
 ;
-JSObject
-:
-:
-deleteGeneric
+DeleteProperty
 (
 cx
 obj

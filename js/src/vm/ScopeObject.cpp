@@ -3392,10 +3392,7 @@ object
 )
 ;
 return
-JSObject
-:
-:
-deleteGeneric
+DeleteProperty
 (
 cx
 actual
