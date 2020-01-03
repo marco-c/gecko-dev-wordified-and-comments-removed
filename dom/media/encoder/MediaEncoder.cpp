@@ -187,8 +187,6 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackRate
-aTrackRate
 TrackTicks
 aTrackOffset
 uint32_t
@@ -224,7 +222,6 @@ NotifyQueuedTrackChanges
 (
 aGraph
 aID
-aTrackRate
 aTrackOffset
 aTrackEvents
 aQueuedMedia
@@ -257,7 +254,6 @@ NotifyQueuedTrackChanges
 (
 aGraph
 aID
-aTrackRate
 aTrackOffset
 aTrackEvents
 aQueuedMedia

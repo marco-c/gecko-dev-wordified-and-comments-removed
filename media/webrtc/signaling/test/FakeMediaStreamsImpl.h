@@ -568,7 +568,6 @@ NotifyQueuedTrackChanges
 (
 nullptr
 0
-GRAPH_RATE
 0
 0
 segment

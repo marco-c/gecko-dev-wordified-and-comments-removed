@@ -302,8 +302,6 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackRate
-aTrackRate
 TrackTicks
 aTrackOffset
 uint32_t
@@ -341,8 +339,6 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackRate
-aTrackRate
 TrackTicks
 aTrackOffset
 uint32_t

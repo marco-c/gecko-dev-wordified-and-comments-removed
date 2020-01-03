@@ -119,13 +119,6 @@ MediaSegment
 class
 Fake_SourceMediaStream
 ;
-static
-const
-int64_t
-USECS_PER_S
-=
-1000000
-;
 class
 Fake_MediaStreamListener
 {
@@ -155,11 +148,6 @@ mozilla
 :
 TrackID
 aID
-mozilla
-:
-:
-TrackRate
-aTrackRate
 mozilla
 :
 :
@@ -238,11 +226,6 @@ tid
 mozilla
 :
 :
-TrackRate
-rate
-mozilla
-:
-:
 TrackTicks
 offset
 uint32_t
@@ -294,6 +277,7 @@ MediaStream
 )
 {
 }
+static
 uint32_t
 GraphRate
 (

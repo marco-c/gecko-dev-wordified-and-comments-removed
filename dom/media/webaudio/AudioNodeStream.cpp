@@ -2785,7 +2785,6 @@ Graph
 (
 )
 AUDIO_TRACK
-mSampleRate
 segment
 -
 >
@@ -2926,7 +2925,6 @@ Graph
 (
 )
 AUDIO_TRACK
-mSampleRate
 track
 -
 >

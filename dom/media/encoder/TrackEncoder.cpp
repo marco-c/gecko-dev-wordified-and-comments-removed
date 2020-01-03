@@ -232,8 +232,6 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackRate
-aTrackRate
 TrackTicks
 aTrackOffset
 uint32_t
@@ -353,7 +351,12 @@ mChannelData
 Length
 (
 )
-aTrackRate
+aGraph
+-
+>
+GraphRate
+(
+)
 )
 ;
 if
@@ -785,8 +788,6 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackRate
-aTrackRate
 TrackTicks
 aTrackOffset
 uint32_t
@@ -941,7 +942,12 @@ width
 intrinsicSize
 .
 height
-aTrackRate
+aGraph
+-
+>
+GraphRate
+(
+)
 )
 ;
 if

@@ -83,8 +83,6 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackRate
-aTrackRate
 TrackTicks
 aTrackOffset
 uint32_t
@@ -249,6 +247,7 @@ mSamplingRate
 )
 {
 }
+virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -257,8 +256,6 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackRate
-aTrackRate
 TrackTicks
 aTrackOffset
 uint32_t
@@ -405,6 +402,7 @@ mTotalFrameDuration
 )
 {
 }
+virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -413,8 +411,6 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackRate
-aTrackRate
 TrackTicks
 aTrackOffset
 uint32_t
