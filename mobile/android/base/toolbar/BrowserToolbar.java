@@ -2529,6 +2529,14 @@ getSelectedTab
 (
 )
 ;
+if
+(
+selectedTab
+!
+=
+null
+)
+{
 updateProgressVisibility
 (
 selectedTab
@@ -2539,6 +2547,7 @@ getLoadProgress
 )
 )
 ;
+}
 }
 private
 void
