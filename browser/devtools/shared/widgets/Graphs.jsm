@@ -6080,6 +6080,7 @@ function
 (
 timestamps
 interval
+duration
 )
 {
 let
@@ -6098,11 +6099,8 @@ plotTimestampsGraph
 "
 {
 timestamps
-:
-timestamps
 interval
-:
-interval
+duration
 }
 )
 ;
