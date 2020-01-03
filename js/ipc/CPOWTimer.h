@@ -47,7 +47,7 @@ JSContext
 *
 cx_
 ;
-int64_t
+PRIntervalTime
 startInterval_
 ;
 }
