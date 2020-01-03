@@ -177,10 +177,13 @@ Init
 #
 ifdef
 PROXY_PRINTING
-NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
+NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
 nsPrintingProxy
-Init
+nsPrintingProxy
+:
+:
+GetInstance
 )
 #
 endif

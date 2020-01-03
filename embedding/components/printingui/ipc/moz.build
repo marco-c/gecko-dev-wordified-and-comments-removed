@@ -94,6 +94,16 @@ MPL
 /
 .
 EXPORTS
++
+=
+[
+'
+nsPrintingProxy
+.
+h
+'
+]
+EXPORTS
 .
 mozilla
 .
