@@ -943,6 +943,7 @@ aLink
 ;
 if
 (
+!
 maiLink
 )
 return
