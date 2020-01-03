@@ -484,6 +484,7 @@ setE10sData
 function
 (
 aBrowser
+aOpener
 )
 {
 throw
