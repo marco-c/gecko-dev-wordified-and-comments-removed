@@ -120,7 +120,7 @@ mHardwareState
 CameraControlListener
 :
 :
-kHardwareClosed
+kHardwareUninitialized
 )
 mHardwareStateChangeReason
 (
@@ -147,6 +147,15 @@ __func__
 __LINE__
 this
 )
+;
+mCurrentConfiguration
+.
+mMode
+=
+ICameraControl
+:
+:
+kUnspecifiedMode
 ;
 nsCOMPtr
 <
@@ -355,6 +364,9 @@ state
 ]
 =
 {
+"
+uninitialized
+"
 "
 closed
 "

@@ -232,6 +232,9 @@ mMode
 Size
 mPreviewSize
 ;
+Size
+mPictureSize
+;
 nsString
 mRecorderProfile
 ;

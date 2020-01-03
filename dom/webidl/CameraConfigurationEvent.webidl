@@ -130,6 +130,12 @@ DOMRectReadOnly
 ?
 previewSize
 ;
+readonly
+attribute
+DOMRectReadOnly
+?
+pictureSize
+;
 }
 ;
 dictionary
@@ -154,6 +160,12 @@ cif
 DOMRectReadOnly
 ?
 previewSize
+=
+null
+;
+DOMRectReadOnly
+?
+pictureSize
 =
 null
 ;
