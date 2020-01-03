@@ -1227,10 +1227,12 @@ colISize
 <
 0
 )
+{
 colISize
 =
 0
 ;
+}
 }
 if
 (
@@ -1423,10 +1425,12 @@ colISize
 <
 0
 )
+{
 colISize
 =
 0
 ;
+}
 colFrame
 -
 >
@@ -1519,6 +1523,7 @@ GetFinalISize
 =
 unassignedMarker
 )
+{
 colFrame
 -
 >
@@ -1527,6 +1532,7 @@ SetFinalISize
 toAssign
 )
 ;
+}
 }
 }
 else
