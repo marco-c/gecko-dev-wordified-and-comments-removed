@@ -548,10 +548,10 @@ markup
 "
 )
 ;
-aCtx
--
->
-DrawString
+nsLayoutUtils
+:
+:
+DrawUniDirString
 (
 errorMsg
 .
@@ -566,6 +566,8 @@ Length
 (
 )
 )
+nsPoint
+(
 pt
 .
 x
@@ -574,6 +576,9 @@ pt
 y
 +
 ascent
+)
+*
+aCtx
 )
 ;
 }
