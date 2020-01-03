@@ -1660,6 +1660,13 @@ cpp
 '
 proxy
 /
+DeadObjectProxy
+.
+cpp
+'
+'
+proxy
+/
 DirectProxyHandler
 .
 cpp
