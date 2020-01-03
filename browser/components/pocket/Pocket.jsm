@@ -299,7 +299,7 @@ load
 "
 Pocket
 .
-onPanelLoaded
+onFrameLoaded
 true
 )
 ;
