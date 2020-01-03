@@ -95,7 +95,7 @@ h
 extern
 PRLogModuleInfo
 *
-GetMediaSourceLog
+GetMediaSourceSamplesLog
 (
 )
 ;
@@ -138,7 +138,7 @@ arg
 )
 MOZ_LOG
 (
-GetMediaSourceLog
+GetMediaSourceSamplesLog
 (
 )
 mozilla
@@ -192,7 +192,7 @@ arg
 )
 MOZ_LOG
 (
-GetMediaSourceLog
+GetMediaSourceSamplesLog
 (
 )
 mozilla
