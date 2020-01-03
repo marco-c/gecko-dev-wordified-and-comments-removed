@@ -281,6 +281,7 @@ eParserSpecial_Unicode
 }
 ;
 class
+MOZ_STACK_CLASS
 nsPropertiesParser
 {
 public
@@ -579,8 +580,10 @@ mState
 EParserSpecial
 mSpecialState
 ;
+nsCOMPtr
+<
 nsIPersistentProperties
-*
+>
 mProps
 ;
 }
