@@ -988,7 +988,10 @@ GetWorkerCrossThreadDispatcher
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 aWorker
 )
 ;

@@ -82,7 +82,10 @@ JSContext
 *
 aCtx
 uint32_t
-jsval
+JS
+:
+:
+Value
 *
 _vp
 )
@@ -346,7 +349,10 @@ aCtx
 JSObject
 *
 aScopeObj
-jsval
+JS
+:
+:
+Value
 *
 _row
 )
@@ -582,7 +588,10 @@ aCtx
 JSObject
 *
 aScopeObj
-jsval
+JS
+:
+:
+Value
 *
 _params
 )
@@ -892,7 +901,10 @@ JSObject
 aScopeObj
 jsid
 aId
-jsval
+JS
+:
+:
+Value
 *
 _result
 bool

@@ -3659,7 +3659,10 @@ JSObject
 obj
 jsid
 id
-jsval
+JS
+:
+:
+Value
 *
 vp
 bool
@@ -3704,7 +3707,10 @@ JSObject
 obj
 jsid
 id
-jsval
+JS
+:
+:
+Value
 *
 vp
 bool
@@ -5858,7 +5864,10 @@ JSObject
 >
 obj
 const
-jsval
+JS
+:
+:
+Value
 &
 val
 bool
@@ -6586,7 +6595,10 @@ JSObject
 >
 obj
 const
-jsval
+JS
+:
+:
+Value
 &
 v
 bool
