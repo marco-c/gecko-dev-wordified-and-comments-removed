@@ -814,6 +814,17 @@ mozpack
 /
 test
 /
+test_packager_unpack
+.
+py
+'
+'
+mozbuild
+/
+mozpack
+/
+test
+/
 test_path
 .
 py
