@@ -31,6 +31,7 @@ new
 ProfileBuffer
 (
 aEntrySize
+UINT32_MAX
 )
 )
 mOwnerState

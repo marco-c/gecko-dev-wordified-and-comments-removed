@@ -371,6 +371,8 @@ ProfileBuffer
 (
 int
 aEntrySize
+uint32_t
+aGeneration
 )
 :
 mEntries
@@ -399,7 +401,7 @@ aEntrySize
 )
 mGeneration
 (
-0
+aGeneration
 )
 {
 }
@@ -413,7 +415,7 @@ ProfileBuffer
 {
 mGeneration
 =
-INT_MAX
+UINT32_MAX
 ;
 deleteExpiredStoredMarkers
 (
@@ -449,6 +451,16 @@ mWritePos
 mEntrySize
 )
 {
+MOZ_ASSERT
+(
+mGeneration
+!
+=
+UINT32_MAX
+-
+2
+)
+;
 mGeneration
 +
 +
