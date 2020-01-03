@@ -8990,7 +8990,7 @@ iccGetCardLockState
 "
 RIL
 :
-CardLockResult
+GetCardLockResult
 "
 )
 ;
@@ -9016,7 +9016,7 @@ iccUnlockCardLock
 "
 RIL
 :
-CardLockResult
+SetUnlockCardLockResult
 "
 )
 ;
@@ -9042,7 +9042,7 @@ iccSetCardLock
 "
 RIL
 :
-CardLockResult
+SetUnlockCardLockResult
 "
 )
 ;
