@@ -243,7 +243,7 @@ bool
 init
 (
 uint32_t
-numNurseryChunks
+maxNurseryBytes
 )
 ;
 bool
