@@ -702,17 +702,6 @@ const
 =
 0
 ;
-virtual
-const
-nsIntRegion
-&
-GetValidRegion
-(
-)
-const
-=
-0
-;
 #
 if
 defined

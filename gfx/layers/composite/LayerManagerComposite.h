@@ -1455,13 +1455,6 @@ return
 mClearRect
 ;
 }
-const
-nsIntRegion
-&
-GetRenderedVisibleRegion
-(
-)
-;
 protected
 :
 gfx
