@@ -318,6 +318,9 @@ class
 nsIURI
 ;
 class
+nsIUUIDGenerator
+;
+class
 nsIWidget
 ;
 class
@@ -1994,6 +1997,15 @@ const
 nsAttrValue
 *
 sandboxAttr
+)
+;
+static
+nsresult
+GenerateUUIDInPlace
+(
+nsID
+&
+aUUID
 )
 ;
 private
@@ -4916,6 +4928,11 @@ static
 nsIIOService
 *
 sIOService
+;
+static
+nsIUUIDGenerator
+*
+sUUIDGenerator
 ;
 static
 bool
