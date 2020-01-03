@@ -1819,6 +1819,14 @@ NS_OK
 ;
 if
 (
+gfxPrefs
+:
+:
+ImageSingleColorOptimizationEnabled
+(
+)
+&
+&
 mImageSurface
 -
 >
