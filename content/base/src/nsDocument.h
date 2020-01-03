@@ -5807,6 +5807,11 @@ mAsyncFullscreenPending
 1
 ;
 bool
+mObservingAppThemeChanged
+:
+1
+;
+bool
 mSSApplicableStateNotificationPending
 :
 1
