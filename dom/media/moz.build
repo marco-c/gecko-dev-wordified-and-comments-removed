@@ -756,6 +756,11 @@ MediaTrackList
 h
 '
 '
+MP3Decoder
+.
+h
+'
+'
 MP3Demuxer
 .
 h
@@ -1203,6 +1208,11 @@ cpp
 '
 '
 MediaTrackList
+.
+cpp
+'
+'
+MP3Decoder
 .
 cpp
 '
