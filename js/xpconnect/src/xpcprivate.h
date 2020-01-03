@@ -11346,6 +11346,7 @@ nsScriptError
 {
 public
 :
+explicit
 nsScriptErrorWithStack
 (
 JS
