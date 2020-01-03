@@ -7427,6 +7427,15 @@ NS_ENSURE_ARG
 aProfileDir
 )
 ;
+if
+(
+PR_LOG_TEST
+(
+gCacheLog
+PR_LOG_ALWAYS
+)
+)
+{
 nsAutoCString
 profilePath
 ;
@@ -7460,6 +7469,7 @@ aQuota
 )
 )
 ;
+}
 if
 (
 !

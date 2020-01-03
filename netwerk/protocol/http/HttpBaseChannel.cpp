@@ -9105,6 +9105,13 @@ Count
 i
 )
 {
+if
+(
+LOG_ENABLED
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIURI
@@ -9176,6 +9183,7 @@ this
 )
 )
 ;
+}
 httpInternal
 -
 >
