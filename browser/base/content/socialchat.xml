@@ -1516,13 +1516,13 @@ popupnotificationanchor
 .
 className
 ;
-this
+aTarget
 .
 content
 .
 swapDocShells
 (
-aTarget
+this
 .
 content
 )
