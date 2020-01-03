@@ -105,6 +105,7 @@ struct
 {
 nsISupports
 *
+MOZ_OWNING_REF
 mInterfaceValue
 ;
 nsIID
