@@ -174,14 +174,6 @@ NULL
 pRes
 -
 >
-prepare_pos
-(
-font
-)
-;
-pRes
--
->
 finalise
 (
 font

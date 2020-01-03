@@ -318,6 +318,16 @@ m_aBidi
 ;
 }
 uint8
+aCollision
+(
+)
+const
+{
+return
+m_aCollision
+;
+}
+uint8
 substitutionPass
 (
 )
@@ -523,6 +533,7 @@ m_aBidi
 m_aMirror
 m_aPassBits
 m_iMaxComp
+m_aCollision
 ;
 uint16
 m_aLig

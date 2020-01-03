@@ -407,6 +407,7 @@ const
 gr_slot
 *
 p
+GR_MAYBE_UNUSED
 const
 gr_face
 *
@@ -437,15 +438,6 @@ y
 if
 (
 font
-&
-&
-(
-face
-|
-|
-!
-face
-)
 )
 return
 res

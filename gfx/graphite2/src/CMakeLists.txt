@@ -449,6 +449,12 @@ cpp
 Code
 .
 cpp
+Collider
+.
+cpp
+Decompressor
+.
+cpp
 Face
 .
 cpp
@@ -464,6 +470,9 @@ cpp
 GlyphCache
 .
 cpp
+Intervals
+.
+cpp
 Justifier
 .
 cpp
@@ -473,7 +482,7 @@ cpp
 Pass
 .
 cpp
-Rule
+Position
 .
 cpp
 Segment
@@ -649,6 +658,10 @@ fno
 stack
 -
 protector
+-
+Wdouble
+-
+promotion
 "
 LINK_FLAGS
 "

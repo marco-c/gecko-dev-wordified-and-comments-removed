@@ -889,9 +889,11 @@ num_settings
 )
 ;
 }
-m_defaultFeatures
-=
 new
+(
+&
+m_defaultFeatures
+)
 Features
 (
 bits
@@ -920,10 +922,6 @@ m_numFeats
 ;
 if
 (
-!
-m_defaultFeatures
-|
-|
 !
 m_pNamedFeats
 )
@@ -964,7 +962,6 @@ defVals
 [
 i
 ]
-*
 m_defaultFeatures
 )
 ;
@@ -1265,7 +1262,6 @@ feats
 new
 Features
 (
-*
 m_FeatureMap
 .
 m_defaultFeatures
@@ -1477,7 +1473,6 @@ return
 new
 Features
 (
-*
 m_FeatureMap
 .
 m_defaultFeatures

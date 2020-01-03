@@ -469,10 +469,6 @@ m_pNamedFeats
 (
 NULL
 )
-m_defaultFeatures
-(
-NULL
-)
 {
 }
 ~
@@ -489,9 +485,6 @@ delete
 [
 ]
 m_pNamedFeats
-;
-delete
-m_defaultFeatures
 ;
 }
 bool
@@ -589,7 +582,6 @@ NameAndFeatureRef
 m_pNamedFeats
 ;
 FeatureVal
-*
 m_defaultFeatures
 ;
 private

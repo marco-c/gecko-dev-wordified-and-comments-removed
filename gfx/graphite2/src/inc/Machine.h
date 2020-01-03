@@ -243,6 +243,11 @@ PUT_SUBS3
 PUT_GLYPH
 PUSH_GLYPH_ATTR
 PUSH_ATT_TO_GLYPH_ATTR
+BITOR
+BITAND
+BITNOT
+BITSET
+SET_FEAT
 MAX_OPCODE
 TEMP_COPY
 =
@@ -343,15 +348,6 @@ throw
 ;
 status_t
 status
-(
-)
-const
-throw
-(
-)
-;
-operator
-bool
 (
 )
 const
