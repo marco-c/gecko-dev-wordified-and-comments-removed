@@ -1799,6 +1799,9 @@ newTex
 )
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
 if
 (
 mFrontTex
@@ -1848,6 +1851,8 @@ mFrontTex
 nullptr
 ;
 }
+#
+endif
 mFrontTex
 =
 newTex
