@@ -5016,10 +5016,10 @@ mContext
 >
 SetLineCap
 (
-gfxContext
+CapStyle
 :
 :
-LINE_CAP_BUTT
+BUTT
 )
 ;
 }
@@ -5075,10 +5075,10 @@ mContext
 >
 SetLineCap
 (
-gfxContext
+CapStyle
 :
 :
-LINE_CAP_ROUND
+ROUND
 )
 ;
 }
