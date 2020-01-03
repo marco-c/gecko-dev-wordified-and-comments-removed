@@ -1066,6 +1066,13 @@ keyCode
 =
 -
 1
+&
+&
+this
+.
+isShown
+(
+)
 )
 {
 event

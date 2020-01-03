@@ -649,6 +649,14 @@ stopPicker
 (
 )
 ;
+toolbox
+.
+frame
+.
+focus
+(
+)
+;
 }
 let
 highlightNodeFront
