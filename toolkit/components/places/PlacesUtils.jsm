@@ -8758,10 +8758,6 @@ keyword
 {
 if
 (
-!
-keyword
-|
-|
 typeof
 (
 keyword

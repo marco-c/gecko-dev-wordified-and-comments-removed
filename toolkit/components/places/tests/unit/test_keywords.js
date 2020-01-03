@@ -488,8 +488,8 @@ keywords
 .
 fetch
 (
-"
-"
+{
+}
 )
 /
 Invalid
