@@ -163,11 +163,12 @@ xpcAccessibleValue
 cpp
 '
 ]
-GENERATED_SOURCES
+SOURCES
 +
 =
 [
 '
+!
 xpcAccEvents
 .
 cpp

@@ -658,11 +658,12 @@ __linux__
 ]
 =
 True
-GENERATED_SOURCES
+SOURCES
 +
 =
 [
 '
+!
 %
 s
 .

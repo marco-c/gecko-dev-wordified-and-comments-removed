@@ -146,11 +146,12 @@ CONFIG
 TARGET_CPU
 '
 ]
-GENERATED_SOURCES
+SOURCES
 +
 =
 [
 "
+!
 %
 s
 .

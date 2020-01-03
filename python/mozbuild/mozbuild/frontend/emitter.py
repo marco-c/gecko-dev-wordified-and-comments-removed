@@ -165,6 +165,10 @@ import
     
 Context
     
+ObjDirPath
+    
+SourcePath
+    
 SubContext
     
 TemplateContext
@@ -4434,10 +4438,19 @@ passthru
 )
 :
         
-all_sources
+sources
 =
-{
-}
+defaultdict
+(
+list
+)
+        
+gen_sources
+=
+defaultdict
+(
+list
+)
         
 all_flags
 =
@@ -4457,21 +4470,21 @@ HOST_SOURCES
 '
 UNIFIED_SOURCES
 '
-                       
-'
-GENERATED_SOURCES
-'
 )
 :
             
 srcs
 =
-all_sources
+sources
 [
 symbol
 ]
+            
+gen_srcs
 =
+gen_sources
 [
+symbol
 ]
             
 context_srcs
@@ -4491,45 +4504,38 @@ in
 context_srcs
 :
                 
-if
-symbol
+full_path
+=
+f
 .
-startswith
+full_path
+                
+if
+isinstance
 (
-'
-GENERATED_
-'
+f
+SourcePath
 )
 :
                     
+srcs
+.
+append
+(
 full_path
-=
-mozpath
-.
-normpath
-(
-                        
-mozpath
-.
-join
-(
-context
-.
-objdir
-f
-)
 )
                 
 else
 :
                     
-full_path
-=
+assert
+isinstance
+(
 f
-.
-full_path
-                
-srcs
+ObjDirPath
+)
+                    
+gen_srcs
 .
 append
 (
@@ -4562,33 +4568,14 @@ full_path
 ]
 =
 flags
-        
-for
-symbol
-in
-(
-'
-SOURCES
-'
-'
-HOST_SOURCES
-'
-'
-UNIFIED_SOURCES
-'
-)
-:
-            
-for
-src
-in
-all_sources
-[
-symbol
-]
-:
                 
 if
+isinstance
+(
+f
+SourcePath
+)
+and
 not
 os
 .
@@ -4596,7 +4583,7 @@ path
 .
 exists
 (
-src
+full_path
 )
 :
                     
@@ -4626,10 +4613,28 @@ s
 %
 (
 symbol
-src
+full_path
 )
 context
 )
+        
+assert
+not
+gen_sources
+[
+'
+HOST_SOURCES
+'
+]
+        
+assert
+not
+gen_sources
+[
+'
+UNIFIED_SOURCES
+'
+]
         
 no_pgo
 =
@@ -4886,6 +4891,7 @@ SOURCES
 =
 (
 Sources
+GeneratedSources
 all_suffixes
 )
             
@@ -4893,6 +4899,7 @@ HOST_SOURCES
 =
 (
 HostSources
+None
 [
 '
 .
@@ -4913,6 +4920,7 @@ UNIFIED_SOURCES
 =
 (
 UnifiedSources
+None
 [
 '
 .
@@ -4928,13 +4936,6 @@ cpp
 '
 ]
 )
-            
-GENERATED_SOURCES
-=
-(
-GeneratedSources
-all_suffixes
-)
         
 )
         
@@ -4942,6 +4943,7 @@ for
 variable
 (
 klass
+gen_klass
 suffixes
 )
 in
@@ -4976,10 +4978,19 @@ suffixes
 for
 f
 in
-all_sources
+itertools
+.
+chain
+(
+sources
 [
 variable
 ]
+gen_sources
+[
+variable
+]
+)
 :
                 
 ext
@@ -5020,20 +5031,39 @@ f
 context
 )
             
+for
+srcs
+cls
+in
+(
+(
+sources
+[
+variable
+]
+klass
+)
+                              
+(
+gen_sources
+[
+variable
+]
+gen_klass
+)
+)
+:
+                
 sorted_files
 =
 sorted
 (
-all_sources
-[
-variable
-]
-                                  
+srcs
 key
 =
 canonical_suffix_for_file
 )
-            
+                
 for
 canonical_suffix
 files
@@ -5042,12 +5072,12 @@ itertools
 .
 groupby
 (
-                    
+                        
 sorted_files
 canonical_suffix_for_file
 )
 :
-                
+                    
 arglist
 =
 [
@@ -5058,8 +5088,9 @@ files
 )
 canonical_suffix
 ]
-                
+                    
 if
+(
 variable
 .
 startswith
@@ -5069,13 +5100,15 @@ UNIFIED_
 '
 )
 and
+                            
 '
 FILES_PER_UNIFIED_FILE
 '
 in
 context
+)
 :
-                    
+                        
 arglist
 .
 append
@@ -5087,9 +5120,9 @@ FILES_PER_UNIFIED_FILE
 '
 ]
 )
-                
+                    
 yield
-klass
+cls
 (
 *
 arglist
