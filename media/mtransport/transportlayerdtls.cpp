@@ -468,9 +468,10 @@ f
 f
 -
 >
-secret
-=
-nullptr
+dtor
+(
+f
+)
 ;
 return
 PR_SUCCESS
