@@ -49141,7 +49141,7 @@ initial_values
 :
 [
 "
-auto
+mixed
 "
 ]
 other_values
@@ -49152,6 +49152,8 @@ upright
 "
 "
 sideways
+-
+right
 "
 ]
 invalid_values
@@ -49162,6 +49164,14 @@ none
 "
 "
 3em
+"
+"
+sideways
+"
+"
+sideways
+-
+left
 "
 ]
 }

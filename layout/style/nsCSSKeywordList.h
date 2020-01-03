@@ -2135,6 +2135,11 @@ mix
 )
 CSS_KEY
 (
+mixed
+mixed
+)
+CSS_KEY
+(
 mm
 mm
 )
@@ -2789,7 +2794,9 @@ show
 CSS_KEY
 (
 sideways
-sideways
+-
+right
+sideways_right
 )
 CSS_KEY
 (
