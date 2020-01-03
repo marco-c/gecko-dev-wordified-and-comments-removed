@@ -393,6 +393,8 @@ Init
 void
 Teardown
 (
+bool
+aSendUnpin
 )
 ;
 bool
@@ -945,6 +947,7 @@ mProxy
 >
 Teardown
 (
+false
 )
 ;
 mProxy
@@ -1954,6 +1957,7 @@ mProxy
 >
 Teardown
 (
+true
 )
 ;
 MOZ_ASSERT
@@ -3251,6 +3255,8 @@ Proxy
 :
 Teardown
 (
+bool
+aSendUnpin
 )
 {
 AssertIsOnMainThread
@@ -3282,6 +3288,11 @@ Abort
 if
 (
 mOutstandingSendCount
+)
+{
+if
+(
+aSendUnpin
 )
 {
 nsRefPtr
@@ -3325,6 +3336,7 @@ anyways
 "
 )
 ;
+}
 }
 if
 (
