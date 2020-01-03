@@ -178,6 +178,11 @@ nsHttpHeaderArray
 h
 '
 '
+nsHttpRequestHead
+.
+h
+'
+'
 nsHttpResponseHead
 .
 h
@@ -208,6 +213,11 @@ h
 '
 '
 HttpInfo
+.
+h
+'
+'
+NullHttpChannel
 .
 h
 '
@@ -411,6 +421,11 @@ cpp
 '
 '
 nsHttpTransaction
+.
+cpp
+'
+'
+NullHttpChannel
 .
 cpp
 '
