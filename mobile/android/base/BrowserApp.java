@@ -4759,7 +4759,8 @@ getIntent
 )
 ;
 }
-private
+Override
+protected
 void
 processTabQueue
 (
@@ -4775,6 +4776,9 @@ NIGHTLY_BUILD
 AppConstants
 .
 MOZ_ANDROID_TAB_QUEUE
+&
+&
+mInitialized
 )
 {
 ThreadUtils
@@ -4816,7 +4820,8 @@ openQueuedTabs
 ;
 }
 }
-private
+Override
+protected
 void
 openQueuedTabs
 (
