@@ -168,11 +168,6 @@ static
 const
 NFCTechType
 mTechnology
-=
-NFCTechType
-:
-:
-ISO_DEP
 ;
 }
 ;
