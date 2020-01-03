@@ -327,7 +327,6 @@ metadata
 return
 ;
 }
-else
 if
 (
 !

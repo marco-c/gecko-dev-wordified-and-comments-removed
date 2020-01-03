@@ -1348,7 +1348,6 @@ return
 true
 ;
 }
-else
 if
 (
 !

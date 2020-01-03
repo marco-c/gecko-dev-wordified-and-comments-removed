@@ -829,14 +829,11 @@ registerGeckoListener
 return
 ;
 }
-else
-{
 launchWebapp
 (
 origin
 )
 ;
-}
 setTitle
 (
 mAppName

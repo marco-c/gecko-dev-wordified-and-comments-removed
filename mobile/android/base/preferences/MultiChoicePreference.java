@@ -710,8 +710,6 @@ clone
 return
 ;
 }
-else
-{
 mPrevValues
 =
 mValues
@@ -720,7 +718,6 @@ clone
 (
 )
 ;
-}
 if
 (
 !

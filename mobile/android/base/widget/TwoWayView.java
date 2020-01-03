@@ -4587,7 +4587,6 @@ return
 true
 ;
 }
-else
 if
 (
 motionPosition
@@ -5005,7 +5004,6 @@ return
 true
 ;
 }
-else
 if
 (
 mMotionPosition
@@ -15641,7 +15639,6 @@ resetState
 return
 ;
 }
-else
 if
 (
 mItemCount
@@ -17269,8 +17266,6 @@ itemCount
 return
 ;
 }
-else
-{
 newPos
 =
 findSyncPosition
@@ -17334,7 +17329,6 @@ newPos
 ;
 return
 ;
-}
 }
 }
 break
@@ -23745,8 +23739,6 @@ position
 )
 ;
 }
-else
-{
 int
 whichScrap
 =
@@ -23782,7 +23774,6 @@ whichScrap
 position
 )
 ;
-}
 }
 return
 null

@@ -1148,7 +1148,6 @@ substring
 )
 ;
 }
-else
 if
 (
 type

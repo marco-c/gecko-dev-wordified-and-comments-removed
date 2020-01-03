@@ -1383,7 +1383,6 @@ return
 uptimeMins
 ;
 }
-else
 if
 (
 DEBUG

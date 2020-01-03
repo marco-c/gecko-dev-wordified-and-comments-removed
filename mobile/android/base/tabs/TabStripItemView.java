@@ -1050,7 +1050,6 @@ new_tablet_default_favicon
 return
 ;
 }
-else
 if
 (
 favicon

@@ -239,7 +239,6 @@ return
 1
 ;
 }
-else
 if
 (
 w2
