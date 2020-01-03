@@ -170,7 +170,6 @@ height
 create
 :
 function
-BH_create
 (
 )
 {
@@ -422,7 +421,6 @@ promise
 raise
 :
 function
-BH_raise
 (
 )
 {
@@ -437,7 +435,6 @@ hostTab
 minimize
 :
 function
-BH_minimize
 (
 height
 =
@@ -541,7 +538,6 @@ onTransitionEnd
 maximize
 :
 function
-BH_maximize
 (
 )
 {
@@ -634,7 +630,6 @@ onTransitionEnd
 toggleMinimizeMode
 :
 function
-BH_toggleMinimizedMode
 (
 minHeight
 )
@@ -660,16 +655,13 @@ minHeight
 setTitle
 :
 function
-BH_setTitle
 (
-title
 )
 {
 }
 destroy
 :
 function
-BH_destroy
 (
 )
 {
@@ -736,6 +728,7 @@ null
 ;
 }
 }
+;
 function
 SidebarHost
 (
@@ -780,7 +773,6 @@ width
 create
 :
 function
-SH_create
 (
 )
 {
@@ -1032,7 +1024,6 @@ promise
 raise
 :
 function
-SH_raise
 (
 )
 {
@@ -1047,16 +1038,13 @@ hostTab
 setTitle
 :
 function
-SH_setTitle
 (
-title
 )
 {
 }
 destroy
 :
 function
-SH_destroy
 (
 )
 {
@@ -1123,6 +1111,7 @@ null
 ;
 }
 }
+;
 function
 WindowHost
 (
@@ -1183,7 +1172,6 @@ xul
 create
 :
 function
-WH_create
 (
 )
 {
@@ -1232,7 +1220,6 @@ let
 frameLoad
 =
 (
-event
 )
 =
 >
@@ -1382,7 +1369,6 @@ closed
 raise
 :
 function
-RH_raise
 (
 )
 {
@@ -1398,7 +1384,6 @@ focus
 setTitle
 :
 function
-WH_setTitle
 (
 title
 )
@@ -1417,7 +1402,6 @@ title
 destroy
 :
 function
-WH_destroy
 (
 )
 {
@@ -1513,7 +1497,6 @@ custom
 _sendMessageToTopWindow
 :
 function
-CH__sendMessageToTopWindow
 (
 msg
 data
@@ -1589,7 +1572,6 @@ json
 create
 :
 function
-CH_create
 (
 )
 {
@@ -1607,7 +1589,6 @@ frame
 raise
 :
 function
-CH_raise
 (
 )
 {
@@ -1624,7 +1605,6 @@ raise
 setTitle
 :
 function
-CH_setTitle
 (
 title
 )
@@ -1647,7 +1627,6 @@ title
 destroy
 :
 function
-WH_destroy
 (
 )
 {
@@ -1685,6 +1664,7 @@ null
 ;
 }
 }
+;
 function
 focusTab
 (
