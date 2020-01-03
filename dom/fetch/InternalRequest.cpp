@@ -162,7 +162,7 @@ true
 copy
 -
 >
-mContext
+mContentPolicyType
 =
 nsIContentPolicy
 :

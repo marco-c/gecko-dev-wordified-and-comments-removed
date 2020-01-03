@@ -1664,7 +1664,7 @@ SEC_NORMAL
 mRequest
 -
 >
-GetContext
+ContentPolicyType
 (
 )
 mLoadGroup
