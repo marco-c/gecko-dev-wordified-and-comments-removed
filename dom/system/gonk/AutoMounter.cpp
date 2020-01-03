@@ -3097,6 +3097,7 @@ AUTOMOUNTER_ENABLE_UMS
 |
 |
 (
+(
 mMode
 =
 =
@@ -3105,6 +3106,7 @@ AUTOMOUNTER_DISABLE_WHEN_UNPLUGGED
 &
 &
 umsConfigured
+)
 ;
 }
 else
@@ -3161,6 +3163,7 @@ AUTOMOUNTER_ENABLE_MTP
 |
 |
 (
+(
 mMode
 =
 =
@@ -3169,6 +3172,7 @@ AUTOMOUNTER_DISABLE_WHEN_UNPLUGGED
 &
 &
 mtpConfigured
+)
 ;
 }
 else
