@@ -224,6 +224,11 @@ testForOfIterator
 cpp
 '
 '
+testForwardSetProperty
+.
+cpp
+'
+'
 testFreshGlobalEvalRedefinition
 .
 cpp
