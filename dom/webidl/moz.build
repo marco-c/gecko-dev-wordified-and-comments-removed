@@ -106,11 +106,6 @@ PREPROCESSED_WEBIDL_FILES
 =
 [
 '
-Crypto
-.
-webidl
-'
-'
 HTMLMediaElement
 .
 webidl
@@ -451,6 +446,11 @@ webidl
 '
 '
 Coordinates
+.
+webidl
+'
+'
+Crypto
 .
 webidl
 '
