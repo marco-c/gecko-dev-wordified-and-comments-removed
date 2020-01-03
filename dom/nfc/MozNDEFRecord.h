@@ -406,7 +406,10 @@ aCx
 const
 Optional
 <
+Nullable
+<
 Uint8Array
+>
 >
 &
 aType
@@ -445,7 +448,10 @@ aCx
 const
 Optional
 <
+Nullable
+<
 Uint8Array
+>
 >
 &
 aId
@@ -473,7 +479,10 @@ aCx
 const
 Optional
 <
+Nullable
+<
 Uint8Array
+>
 >
 &
 aPayload
