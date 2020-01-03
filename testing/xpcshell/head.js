@@ -3475,10 +3475,10 @@ testStatus
 _TEST_NAME
 funcName
 '
-ERROR
+FAIL
 '
 '
-OK
+PASS
 '
 _exception_message
 (
