@@ -366,6 +366,16 @@ mVORGTable
 mutable
 hb_blob_t
 *
+mLocaTable
+;
+mutable
+hb_blob_t
+*
+mGlyfTable
+;
+mutable
+hb_blob_t
+*
 mCmapTable
 ;
 mutable
@@ -399,6 +409,9 @@ mInitialized
 ;
 bool
 mVerticalInitialized
+;
+bool
+mLocaLongOffsets
 ;
 }
 ;
