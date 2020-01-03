@@ -88,6 +88,8 @@ static
 void
 AACAudioSpecificConfigToUserData
 (
+uint8_t
+aAACProfileLevelIndication
 const
 uint8_t
 *
@@ -152,14 +154,14 @@ w
 0
 ]
 =
-0x1
+0x0
 ;
 w
 [
 1
 ]
 =
-0xFE
+aAACProfileLevelIndication
 ;
 aOutUserData
 .
@@ -276,6 +278,9 @@ AAC
 ;
 AACAudioSpecificConfigToUserData
 (
+aConfig
+.
+aac_profile
 &
 aConfig
 .
@@ -582,7 +587,7 @@ type
 SetUINT32
 (
 MF_MT_AAC_PAYLOAD_TYPE
-0x1
+0x0
 )
 ;
 NS_ENSURE_TRUE
