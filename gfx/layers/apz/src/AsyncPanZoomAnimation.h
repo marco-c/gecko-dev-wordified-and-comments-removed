@@ -70,13 +70,6 @@ const
 TimeDuration
 &
 aRepaintInterval
-=
-TimeDuration
-:
-:
-Forever
-(
-)
 )
 :
 mRepaintInterval
