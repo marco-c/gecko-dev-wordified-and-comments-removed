@@ -687,7 +687,7 @@ callID
 aCallID
 }
 "
-NO_DEVICES_FOUND
+NotFoundError
 "
 )
 ;

@@ -189,7 +189,7 @@ msg
 .
 textContent
 "
-PERMISSION_DENIED
+PermissionDeniedError
 "
 "
 getUserMedia

@@ -2384,7 +2384,7 @@ NavigatorUserMediaErrorCallback
 =
 void
 (
-DOMString
+MediaStreamError
 error
 )
 ;
