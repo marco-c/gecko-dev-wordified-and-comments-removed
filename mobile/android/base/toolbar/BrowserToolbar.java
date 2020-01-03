@@ -3822,6 +3822,12 @@ unregisterOnTabsChangedListener
 this
 )
 ;
+urlDisplayLayout
+.
+destroy
+(
+)
+;
 }
 public
 boolean

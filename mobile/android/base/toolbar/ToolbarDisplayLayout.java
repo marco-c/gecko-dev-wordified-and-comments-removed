@@ -2788,4 +2788,16 @@ return
 false
 ;
 }
+void
+destroy
+(
+)
+{
+mSiteIdentityPopup
+.
+destroy
+(
+)
+;
+}
 }
