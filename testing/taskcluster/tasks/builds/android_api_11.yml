@@ -48,11 +48,11 @@ API
 '
 workerType
 :
-b2g
+android
 -
-desktop
+api
 -
-opt
+11
 routes
 :
 -

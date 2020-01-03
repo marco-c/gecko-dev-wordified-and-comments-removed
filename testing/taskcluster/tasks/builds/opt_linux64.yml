@@ -42,11 +42,9 @@ Opt
 '
 workerType
 :
-b2g
--
-desktop
--
 opt
+-
+linux64
 routes
 :
 -

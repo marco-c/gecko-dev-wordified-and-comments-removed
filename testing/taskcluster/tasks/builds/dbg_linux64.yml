@@ -44,11 +44,9 @@ Dbg
 '
 workerType
 :
-b2g
+dbg
 -
-desktop
--
-opt
+linux64
 payload
 :
 env
