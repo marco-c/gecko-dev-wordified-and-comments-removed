@@ -406,9 +406,6 @@ mHost
 VideoInfo
 mVideoInfo
 ;
-nsIntRect
-mPictureRegion
-;
 const
 mp4_demuxer
 :
