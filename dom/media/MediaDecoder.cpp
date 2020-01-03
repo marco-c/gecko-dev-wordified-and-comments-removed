@@ -2875,7 +2875,7 @@ mSeekRequest
 .
 Begin
 (
-ProxyMediaCall
+InvokeAsync
 (
 mDecoderStateMachine
 -

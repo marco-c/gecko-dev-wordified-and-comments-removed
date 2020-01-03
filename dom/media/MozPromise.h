@@ -4712,7 +4712,7 @@ nsRefPtr
 <
 PromiseType
 >
-ProxyMediaCall
+InvokeAsync
 (
 AbstractThread
 *
@@ -4787,7 +4787,7 @@ nsRefPtr
 <
 PromiseType
 >
-ProxyMediaCall
+InvokeAsync
 (
 AbstractThread
 *
@@ -4869,7 +4869,7 @@ nsRefPtr
 <
 PromiseType
 >
-ProxyMediaCall
+InvokeAsync
 (
 AbstractThread
 *
@@ -4958,7 +4958,7 @@ nsRefPtr
 <
 PromiseType
 >
-ProxyMediaCall
+InvokeAsync
 (
 AbstractThread
 *

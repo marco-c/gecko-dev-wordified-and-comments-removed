@@ -3463,7 +3463,7 @@ aType
 .
 Begin
 (
-ProxyMediaCall
+InvokeAsync
 (
 DecodeTaskQueue
 (
@@ -5876,7 +5876,7 @@ Destroy
 )
 ;
 }
-ProxyMediaCall
+InvokeAsync
 (
 DecodeTaskQueue
 (
@@ -7169,7 +7169,7 @@ mSeekRequest
 .
 Begin
 (
-ProxyMediaCall
+InvokeAsync
 (
 DecodeTaskQueue
 (
@@ -7535,7 +7535,7 @@ mAudioDataRequest
 .
 Begin
 (
-ProxyMediaCall
+InvokeAsync
 (
 DecodeTaskQueue
 (
@@ -7581,7 +7581,7 @@ mAudioDataRequest
 .
 Begin
 (
-ProxyMediaCall
+InvokeAsync
 (
 DecodeTaskQueue
 (
@@ -7943,7 +7943,7 @@ mVideoDataRequest
 .
 Begin
 (
-ProxyMediaCall
+InvokeAsync
 (
 DecodeTaskQueue
 (
@@ -7992,7 +7992,7 @@ mVideoDataRequest
 .
 Begin
 (
-ProxyMediaCall
+InvokeAsync
 (
 DecodeTaskQueue
 (
@@ -10591,7 +10591,7 @@ mMetadataRequest
 .
 Begin
 (
-ProxyMediaCall
+InvokeAsync
 (
 DecodeTaskQueue
 (
