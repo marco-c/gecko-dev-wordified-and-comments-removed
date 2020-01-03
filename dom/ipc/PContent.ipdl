@@ -3246,6 +3246,11 @@ LookAndFeelInt
 lookAndFeelIntCache
 )
 ;
+prio
+(
+urgent
+)
+async
 PHal
 (
 )

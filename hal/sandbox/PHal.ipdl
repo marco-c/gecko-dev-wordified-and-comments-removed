@@ -514,6 +514,12 @@ hal
 namespace
 hal_sandbox
 {
+prio
+(
+normal
+upto
+urgent
+)
 sync
 protocol
 PHal
@@ -779,6 +785,10 @@ DisableScreenConfigurationNotifications
 (
 )
 ;
+prio
+(
+urgent
+)
 sync
 GetCurrentScreenConfiguration
 (
