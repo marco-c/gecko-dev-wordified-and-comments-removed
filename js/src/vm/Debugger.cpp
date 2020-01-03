@@ -30698,16 +30698,11 @@ cx
 ;
 getobj
 =
-NewFunction
+NewNativeFunction
 (
 cx
 DebuggerArguments_getArg
 0
-JSFunction
-:
-:
-NATIVE_FUN
-global
 js
 :
 :

@@ -14364,16 +14364,11 @@ RootedFunction
 fun
 (
 cx
-NewFunction
+NewNativeConstructor
 (
 cx
 constructor
 nargs
-JSFunction
-:
-:
-NATIVE_CTOR
-obj
 atom
 ctorKind
 )

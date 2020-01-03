@@ -1122,7 +1122,7 @@ cx
 ;
 fun
 =
-NewFunction
+NewNativeFunction
 (
 cx
 ArrayBufferObject
@@ -1133,16 +1133,6 @@ createTypedArrayFromBuffer
 NativeType
 >
 0
-JSFunction
-:
-:
-NATIVE_FUN
-cx
--
->
-global
-(
-)
 NullPtr
 (
 )
@@ -10617,7 +10607,7 @@ JSObject
 *
 getter
 =
-NewFunction
+NewNativeFunction
 (
 cx
 DataViewObject
@@ -10628,11 +10618,6 @@ getter
 ValueGetter
 >
 0
-JSFunction
-:
-:
-NATIVE_FUN
-global
 NullPtr
 (
 )
@@ -10870,7 +10855,7 @@ RootedFunction
 fun
 (
 cx
-NewFunction
+NewNativeFunction
 (
 cx
 ArrayBufferObject
@@ -10878,11 +10863,6 @@ ArrayBufferObject
 :
 createDataViewForThis
 0
-JSFunction
-:
-:
-NATIVE_FUN
-global
 NullPtr
 (
 )
