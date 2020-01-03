@@ -5618,6 +5618,7 @@ cx
 JSObject
 *
 target
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 JSAutoCompartment
@@ -5628,6 +5629,7 @@ cx
 JSScript
 *
 target
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -5635,6 +5637,7 @@ JSAutoCompartment
 (
 )
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -5662,6 +5665,7 @@ cx
 JSObject
 *
 targetOrNull
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -5669,6 +5673,7 @@ JSAutoNullableCompartment
 (
 )
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 extern

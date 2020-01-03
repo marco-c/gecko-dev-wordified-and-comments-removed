@@ -4141,6 +4141,7 @@ cx
 JSObject
 *
 target
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 cx_
@@ -4161,6 +4162,8 @@ AssertHeapIsIdleOrIterating
 (
 cx_
 )
+;
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 cx_
 -
@@ -4187,6 +4190,7 @@ cx
 JSScript
 *
 target
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 cx_
@@ -4207,6 +4211,8 @@ AssertHeapIsIdleOrIterating
 (
 cx_
 )
+;
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 cx_
 -
@@ -4250,6 +4256,7 @@ cx
 JSObject
 *
 targetOrNull
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 cx_
@@ -4270,6 +4277,8 @@ AssertHeapIsIdleOrIterating
 (
 cx_
 )
+;
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 if
 (
