@@ -757,6 +757,10 @@ return
 ;
 js_free
 (
+(
+void
+*
+)
 str_
 )
 ;
