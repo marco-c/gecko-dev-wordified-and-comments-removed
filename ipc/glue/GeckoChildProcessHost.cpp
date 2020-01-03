@@ -420,9 +420,9 @@ mEnableSandboxLogging
 (
 false
 )
-mEnableNPAPISandbox
+mSandboxLevel
 (
-false
+0
 )
 mMoreStrictSandbox
 (
@@ -3760,7 +3760,9 @@ GeckoProcessType_Plugin
 :
 if
 (
-mEnableNPAPISandbox
+mSandboxLevel
+>
+0
 &
 &
 !
@@ -3776,7 +3778,7 @@ mSandboxBroker
 .
 SetSecurityLevelForPluginProcess
 (
-mMoreStrictSandbox
+mSandboxLevel
 )
 ;
 cmdLine

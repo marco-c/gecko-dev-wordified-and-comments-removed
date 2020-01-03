@@ -191,10 +191,10 @@ LaunchCompleteTask
 >
 (
 )
-bool
-aEnableSandbox
+int32_t
+aSandboxLevel
 =
-false
+0
 )
 ;
 void

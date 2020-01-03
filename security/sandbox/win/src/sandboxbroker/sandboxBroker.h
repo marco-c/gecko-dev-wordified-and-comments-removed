@@ -25,6 +25,13 @@ dllimport
 )
 #
 endif
+#
+include
+<
+stdint
+.
+h
+>
 namespace
 sandbox
 {
@@ -92,8 +99,8 @@ endif
 bool
 SetSecurityLevelForPluginProcess
 (
-bool
-aMoreStrict
+int32_t
+aSandboxLevel
 )
 ;
 bool
