@@ -12,6 +12,9 @@ nsString
 h
 "
 class
+nsILoadGroup
+;
+class
 nsIPrincipal
 ;
 namespace

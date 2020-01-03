@@ -449,6 +449,13 @@ h
 #
 include
 "
+SharedWorker
+.
+h
+"
+#
+include
+"
 WorkerInlines
 .
 h

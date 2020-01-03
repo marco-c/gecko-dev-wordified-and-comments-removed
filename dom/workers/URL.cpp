@@ -149,6 +149,13 @@ WorkerRunnable
 .
 h
 "
+#
+include
+"
+WorkerScope
+.
+h
+"
 BEGIN_WORKERS_NAMESPACE
 using
 mozilla

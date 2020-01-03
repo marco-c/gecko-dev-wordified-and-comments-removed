@@ -85,6 +85,13 @@ h
 #
 include
 "
+nsINetworkInterceptController
+.
+h
+"
+#
+include
+"
 nsIPermissionManager
 .
 h
@@ -758,6 +765,13 @@ h
 include
 "
 ServiceWorkerManager
+.
+h
+"
+#
+include
+"
+ServiceWorkerWindowClient
 .
 h
 "
