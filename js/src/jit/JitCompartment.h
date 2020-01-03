@@ -972,7 +972,7 @@ parallelBailoutHandler_
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -1045,7 +1045,7 @@ parallelArgumentsRectifier_
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -1738,7 +1738,7 @@ parallelStringConcatStub_
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No

@@ -6535,7 +6535,7 @@ comp
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unrecognized
@@ -11391,7 +11391,7 @@ opd
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -11640,7 +11640,7 @@ opd
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -11922,7 +11922,7 @@ MIRType_Object
 case
 MIRType_Undefined
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 ToInt32
@@ -11937,7 +11937,7 @@ false
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -12100,7 +12100,7 @@ truncate
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -12445,7 +12445,7 @@ ins
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -13961,7 +13961,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 typed
@@ -14629,7 +14629,7 @@ ins
 case
 MIRType_Float32
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Float32
@@ -16280,7 +16280,7 @@ ins
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -16841,7 +16841,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 typed
@@ -17614,7 +17614,7 @@ MIRType_Undefined
 case
 MIRType_Null
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 typed
@@ -18489,7 +18489,7 @@ ins
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -20818,7 +20818,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -23769,7 +23769,7 @@ ReturnReg
 )
 ;
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -24704,7 +24704,7 @@ LFloat32x4
 ins
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -24715,9 +24715,6 @@ generating
 constant
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -24871,7 +24868,7 @@ ins
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -24882,9 +24879,6 @@ extracting
 element
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -25252,7 +25246,7 @@ rhs
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -25263,9 +25257,6 @@ adding
 values
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -26416,7 +26407,7 @@ MPhi
 phi
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -26440,7 +26431,7 @@ MBeta
 beta
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -26464,7 +26455,7 @@ MObjectState
 objState
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -26488,7 +26479,7 @@ MArrayState
 objState
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected

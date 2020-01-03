@@ -69,7 +69,7 @@ default
 :
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -124,7 +124,7 @@ default
 :
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -185,7 +185,7 @@ default
 :
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -236,7 +236,7 @@ default
 :
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -302,7 +302,7 @@ default
 :
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -311,9 +311,6 @@ execution
 mode
 "
 )
-;
-return
-false
 ;
 }
 static
@@ -359,7 +356,7 @@ default
 :
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -412,7 +409,7 @@ default
 :
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
