@@ -173,6 +173,10 @@ mInternalResponse
 aInternalResponse
 )
 {
+SetMimeType
+(
+)
+;
 }
 Response
 :
@@ -1079,7 +1083,6 @@ r
 >
 SetMimeType
 (
-aRv
 )
 ;
 return
