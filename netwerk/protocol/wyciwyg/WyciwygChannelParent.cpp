@@ -416,8 +416,9 @@ IPC
 SerializedLoadContext
 &
 loadContext
-PBrowserParent
-*
+const
+PBrowserOrId
+&
 parent
 )
 {
@@ -477,8 +478,9 @@ IPC
 SerializedLoadContext
 &
 loadContext
-PBrowserParent
-*
+const
+PBrowserOrId
+&
 aParent
 )
 {
@@ -609,8 +611,9 @@ IPC
 SerializedLoadContext
 &
 loadContext
-PBrowserParent
-*
+const
+PBrowserOrId
+&
 aParent
 )
 {

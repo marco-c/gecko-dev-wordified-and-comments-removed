@@ -140,8 +140,9 @@ IPC
 SerializedLoadContext
 &
 loadContext
-PBrowserParent
-*
+const
+PBrowserOrId
+&
 parent
 )
 MOZ_OVERRIDE
@@ -216,8 +217,9 @@ IPC
 SerializedLoadContext
 &
 loadContext
-PBrowserParent
-*
+const
+PBrowserOrId
+&
 parent
 )
 MOZ_OVERRIDE
@@ -241,8 +243,9 @@ IPC
 SerializedLoadContext
 &
 loadContext
-PBrowserParent
-*
+const
+PBrowserOrId
+&
 aParent
 )
 ;

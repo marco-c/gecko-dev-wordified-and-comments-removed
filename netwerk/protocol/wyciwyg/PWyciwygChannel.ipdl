@@ -70,6 +70,9 @@ URIParams
 include
 PBackgroundSharedTypes
 ;
+include
+PBrowserOrId
+;
 using
 class
 IPC
@@ -190,7 +193,7 @@ uint32_t
 loadFlags
 SerializedLoadContext
 loadContext
-PBrowser
+PBrowserOrId
 browser
 )
 ;
@@ -198,7 +201,7 @@ AppData
 (
 SerializedLoadContext
 loadContext
-PBrowser
+PBrowserOrId
 browser
 )
 ;
