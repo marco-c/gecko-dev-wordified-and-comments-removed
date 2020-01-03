@@ -1039,7 +1039,7 @@ aResult
 {
 aResult
 .
-Append
+Assign
 (
 aStorageID
 )
