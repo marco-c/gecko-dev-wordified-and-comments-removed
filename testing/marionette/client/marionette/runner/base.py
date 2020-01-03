@@ -2803,6 +2803,53 @@ add_option
 '
 -
 -
+startup
+-
+timeout
+'
+                        
+dest
+=
+'
+startup_timeout
+'
+                        
+type
+=
+int
+                        
+default
+=
+60
+                        
+help
+=
+'
+the
+max
+number
+of
+seconds
+to
+wait
+for
+a
+Marionette
+connection
+after
+launching
+a
+binary
+'
+)
+        
+self
+.
+add_option
+(
+'
+-
+-
 shuffle
 '
                         
@@ -4091,6 +4138,9 @@ BaseMarionetteOptions
 .
 socket_timeout_default
                  
+startup_timeout
+=
+None
 *
 *
 kwargs
@@ -4377,6 +4427,12 @@ self
 test_tags
 =
 test_tags
+        
+self
+.
+startup_timeout
+=
+startup_timeout
         
 def
 gather_debug
@@ -5025,6 +5081,14 @@ prefs
 self
 .
 prefs
+            
+'
+startup_timeout
+'
+:
+self
+.
+startup_timeout
         
 }
         
