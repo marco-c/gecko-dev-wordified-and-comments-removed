@@ -727,9 +727,6 @@ NS_ENSURE_TRUE_VOID
 IsInitialized
 (
 )
-&
-&
-aSourceEventId
 )
 ;
 }
@@ -747,9 +744,6 @@ NS_ENSURE_TRUE_VOID
 IsInitialized
 (
 )
-&
-&
-aSourceEventId
 )
 ;
 }
@@ -767,9 +761,6 @@ NS_ENSURE_TRUE_VOID
 IsInitialized
 (
 )
-&
-&
-aSourceEventId
 )
 ;
 }
@@ -790,9 +781,6 @@ NS_ENSURE_TRUE_VOID
 IsInitialized
 (
 )
-&
-&
-aSourceEventId
 )
 ;
 }
