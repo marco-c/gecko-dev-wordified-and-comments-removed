@@ -979,7 +979,7 @@ if
 gfxPrefs
 :
 :
-FrameUniformityHWVsyncEnabled
+HardwareVsyncEnabled
 (
 )
 )
