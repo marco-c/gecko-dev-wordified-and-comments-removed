@@ -460,6 +460,12 @@ RequestAudioData
 ;
 }
 else
+if
+(
+IsEnded
+(
+)
+)
 {
 MSE_DEBUG
 (
