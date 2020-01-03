@@ -901,7 +901,7 @@ engines
 .
 title
 .
-passwords
+passwords2
 ;
 <
 /
@@ -2069,7 +2069,7 @@ fxaccount_getting_started_description
 "
 >
 &
-fxaccount_getting_started_description
+fxaccount_getting_started_description2
 ;
 <
 /
@@ -2988,7 +2988,7 @@ fxaccount_status_passwords
 "
 >
 &
-fxaccount_status_passwords
+fxaccount_status_passwords2
 ;
 <
 /

@@ -1071,9 +1071,9 @@ engines
 .
 title
 .
-passwords
+passwords2
 '
-Passwords
+Logins
 '
 >
 <
@@ -2026,7 +2026,7 @@ label
 <
 !
 ENTITY
-fxaccount_getting_started_description
+fxaccount_getting_started_description2
 '
 Sign
 in
@@ -2035,7 +2035,7 @@ sync
 your
 tabs
 bookmarks
-passwords
+logins
 &
 amp
 ;
@@ -2852,9 +2852,9 @@ History
 <
 !
 ENTITY
-fxaccount_status_passwords
+fxaccount_status_passwords2
 '
-Passwords
+Logins
 '
 >
 <
