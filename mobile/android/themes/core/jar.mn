@@ -415,6 +415,7 @@ css
 #
 ifdef
 NIGHTLY_BUILD
+*
 skin
 /
 aboutPasswords
