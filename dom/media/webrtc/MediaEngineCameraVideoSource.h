@@ -85,6 +85,10 @@ mHeight
 (
 0
 )
+mProducedDuration
+(
+0
+)
 mInitDone
 (
 false
@@ -357,6 +361,9 @@ SourceMediaStream
 *
 >
 mSources
+;
+StreamTime
+mProducedDuration
 ;
 bool
 mInitDone

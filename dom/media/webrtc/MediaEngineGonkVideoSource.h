@@ -123,6 +123,10 @@ mCameraControl
 (
 nullptr
 )
+mProducedDuration
+(
+0
+)
 mRotation
 (
 0
@@ -201,9 +205,6 @@ TrackID
 aId
 StreamTime
 aDesiredTime
-StreamTime
-&
-aLastEndTime
 )
 MOZ_OVERRIDE
 ;
@@ -413,6 +414,9 @@ nsCOMPtr
 nsIDOMFile
 >
 mLastCapture
+;
+StreamTime
+mProducedDuration
 ;
 nsTArray
 <
