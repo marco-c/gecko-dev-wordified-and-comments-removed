@@ -1672,12 +1672,6 @@ _ussdSession
 =
 null
 ;
-this
-.
-_mmiRegExp
-=
-null
-;
 let
 cbmmi
 =
@@ -10426,6 +10420,7 @@ this
 sendUSSD
 (
 options
+false
 )
 ;
 }
@@ -10437,12 +10432,13 @@ sendUSSD
 function
 (
 options
+checkSession
+=
+true
 )
 {
 if
 (
-options
-.
 checkSession
 &
 &
