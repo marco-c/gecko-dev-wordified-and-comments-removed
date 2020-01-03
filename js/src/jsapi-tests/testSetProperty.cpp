@@ -399,7 +399,7 @@ BEGIN_TEST
 testSetProperty_InheritedGlobalSetter
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 JS_GetClass

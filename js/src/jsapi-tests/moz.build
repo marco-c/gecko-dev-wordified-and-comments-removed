@@ -610,3 +610,14 @@ CONFIG
 MOZ_ZLIB_LIBS
 '
 ]
+if
+CONFIG
+[
+'
+CLANG_CXX
+'
+]
+:
+FAIL_ON_WARNINGS
+=
+True
