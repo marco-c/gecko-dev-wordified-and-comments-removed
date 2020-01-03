@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_IMAGELIB_SURFACECACHE_H_
+mozilla_image_src_SurfaceCache_h
 #
 define
-MOZILLA_IMAGELIB_SURFACECACHE_H_
+mozilla_image_src_SurfaceCache_h
 #
 include
 "
