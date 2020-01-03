@@ -1774,6 +1774,12 @@ View
 view
 )
 {
+urlEditLayout
+.
+clearFocus
+(
+)
+;
 activity
 .
 openOptionsMenu
