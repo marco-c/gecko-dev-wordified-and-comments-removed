@@ -443,11 +443,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-if
-(
-aContent
-)
-{
 nsCOMPtr
 <
 nsIDOMHTMLFrameElement
@@ -467,7 +462,6 @@ false
 :
 true
 ;
-}
 nsLeafFrame
 :
 :
