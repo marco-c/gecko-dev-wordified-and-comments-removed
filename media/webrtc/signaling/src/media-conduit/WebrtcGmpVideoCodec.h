@@ -547,10 +547,6 @@ InputDataExhausted
 )
 MOZ_OVERRIDE
 {
-MOZ_CRASH
-(
-)
-;
 }
 virtual
 void
@@ -559,10 +555,6 @@ DrainComplete
 )
 MOZ_OVERRIDE
 {
-MOZ_CRASH
-(
-)
-;
 }
 virtual
 void
@@ -571,10 +563,6 @@ ResetComplete
 )
 MOZ_OVERRIDE
 {
-MOZ_CRASH
-(
-)
-;
 }
 virtual
 void
