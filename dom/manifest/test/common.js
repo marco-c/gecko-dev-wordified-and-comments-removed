@@ -23,7 +23,7 @@ gre
 /
 modules
 /
-ManifestProcessor
+WebManifest
 .
 jsm
 '
@@ -32,7 +32,10 @@ jsm
 const
 processor
 =
+new
 ManifestProcessor
+(
+)
 ;
 const
 manifestURL
