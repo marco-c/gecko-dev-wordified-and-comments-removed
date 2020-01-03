@@ -3170,7 +3170,7 @@ IP
 version
 (
 %
-d
+u
 )
 than
 STUN
@@ -3179,7 +3179,7 @@ TURN
 server
 (
 %
-d
+u
 )
 .
 "
