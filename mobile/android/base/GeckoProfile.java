@@ -1503,7 +1503,7 @@ LOCK_FILE_NAME
 final
 boolean
 result
-=
+;
 lockFile
 .
 createNewFile
@@ -1512,7 +1512,11 @@ createNewFile
 ;
 if
 (
-result
+lockFile
+.
+exists
+(
+)
 )
 {
 mLocked
@@ -1520,6 +1524,10 @@ mLocked
 LockState
 .
 LOCKED
+;
+result
+=
+true
 ;
 }
 else
@@ -1529,6 +1537,10 @@ mLocked
 LockState
 .
 UNLOCKED
+;
+result
+=
+false
 ;
 }
 return
