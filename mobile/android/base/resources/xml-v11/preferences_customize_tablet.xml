@@ -230,6 +230,17 @@ false
 PreferenceScreen
 android
 :
+key
+=
+"
+android
+.
+not_a_preference
+.
+customize_home
+"
+android
+:
 title
 =
 "
