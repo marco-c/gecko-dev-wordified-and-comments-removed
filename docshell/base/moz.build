@@ -280,6 +280,11 @@ UNIFIED_SOURCES
 =
 [
 '
+AutoTimelineMarker
+.
+cpp
+'
+'
 LoadContext
 .
 cpp
