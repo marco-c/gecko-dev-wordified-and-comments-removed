@@ -2441,6 +2441,14 @@ if
 idx
 )
 {
+uint32_t
+wireDep
+=
+PR_htonl
+(
+mPriorityDependency
+)
+;
 memcpy
 (
 mTxInlineFrame
@@ -2451,7 +2459,7 @@ get
 +
 outputOffset
 &
-mPriorityDependency
+wireDep
 4
 )
 ;

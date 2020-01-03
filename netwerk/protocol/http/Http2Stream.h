@@ -862,11 +862,11 @@ mRequestBodyLenRemaining
 uint32_t
 mPriority
 ;
-uint8_t
-mPriorityWeight
+uint32_t
+mPriorityDependency
 ;
 uint8_t
-mPriorityDependency
+mPriorityWeight
 ;
 int64_t
 mClientReceiveWindow
