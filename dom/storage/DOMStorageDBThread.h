@@ -30,6 +30,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Monitor
 .
 h
@@ -969,7 +978,11 @@ mStopIOThread
 bool
 mWALModeEnabled
 ;
+Atomic
+<
 bool
+ReleaseAcquire
+>
 mDBReady
 ;
 nsresult
