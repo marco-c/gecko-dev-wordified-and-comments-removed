@@ -20,4 +20,7 @@ define
 cpr_strncasecmp
 _strnicmp
 #
+define
+CPR_USE_OS_STRCASECMP
+#
 endif
