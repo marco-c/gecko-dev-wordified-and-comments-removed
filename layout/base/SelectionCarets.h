@@ -504,6 +504,12 @@ mActiveTouchId
 nscoord
 mCaretCenterToDownPointOffsetY
 ;
+nscoord
+mDragUpYBoundary
+;
+nscoord
+mDragDownYBoundary
+;
 DragMode
 mDragMode
 ;
