@@ -218,9 +218,9 @@ JSObject
 *
 obj
 =
-NewGCObject
+Allocate
 <
-CanGC
+JSObject
 >
 (
 cx

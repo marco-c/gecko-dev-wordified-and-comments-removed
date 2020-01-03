@@ -3150,11 +3150,9 @@ JitCode
 *
 codeObj
 =
-js
-:
-:
-NewJitCode
+Allocate
 <
+JitCode
 allowGC
 >
 (

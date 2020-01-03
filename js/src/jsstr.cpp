@@ -16141,9 +16141,9 @@ JSFatInlineString
 *
 result
 =
-NewGCFatInlineString
+Allocate
 <
-CanGC
+JSFatInlineString
 >
 (
 cx

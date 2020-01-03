@@ -485,9 +485,9 @@ return
 js
 :
 :
-NewGCObject
+Allocate
 <
-CanGC
+JSObject
 >
 (
 cx

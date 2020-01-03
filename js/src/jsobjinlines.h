@@ -1619,12 +1619,9 @@ obj
 js
 :
 :
-NewGCObject
+Allocate
 <
-js
-:
-:
-CanGC
+JSObject
 >
 (
 cx

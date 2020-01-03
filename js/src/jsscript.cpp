@@ -12913,7 +12913,10 @@ RootedScript
 script
 (
 cx
-NewGCScript
+Allocate
+<
+JSScript
+>
 (
 cx
 )
@@ -21090,7 +21093,10 @@ LazyScript
 *
 res
 =
-NewGCLazyScript
+Allocate
+<
+LazyScript
+>
 (
 cx
 )
