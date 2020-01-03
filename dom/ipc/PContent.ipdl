@@ -1139,6 +1139,17 @@ replace
 }
 ;
 struct
+FileSystemGetDirectoryListingParams
+{
+nsString
+filesystem
+;
+nsString
+realPath
+;
+}
+;
+struct
 FileSystemGetFileOrDirectoryParams
 {
 nsString
@@ -1181,6 +1192,8 @@ FileSystemParams
 FileSystemCreateDirectoryParams
 ;
 FileSystemCreateFileParams
+;
+FileSystemGetDirectoryListingParams
 ;
 FileSystemGetFileOrDirectoryParams
 ;

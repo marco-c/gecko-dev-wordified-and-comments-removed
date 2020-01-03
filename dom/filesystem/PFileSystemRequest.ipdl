@@ -142,6 +142,16 @@ realPath
 }
 ;
 struct
+FileSystemDirectoryListingResponse
+{
+PBlob
+[
+]
+blobs
+;
+}
+;
+struct
 FileSystemErrorResponse
 {
 nsresult
@@ -163,6 +173,8 @@ FileSystemResponseValue
 FileSystemBooleanResponse
 ;
 FileSystemDirectoryResponse
+;
+FileSystemDirectoryListingResponse
 ;
 FileSystemFileResponse
 ;

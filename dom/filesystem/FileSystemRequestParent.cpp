@@ -26,6 +26,13 @@ h
 #
 include
 "
+GetDirectoryListingTask
+.
+h
+"
+#
+include
+"
 GetFileOrDirectoryTask
 .
 h
@@ -198,6 +205,10 @@ CreateDirectory
 FILESYSTEM_REQUEST_PARENT_DISPATCH_ENTRY
 (
 CreateFile
+)
+FILESYSTEM_REQUEST_PARENT_DISPATCH_ENTRY
+(
+GetDirectoryListing
 )
 FILESYSTEM_REQUEST_PARENT_DISPATCH_ENTRY
 (

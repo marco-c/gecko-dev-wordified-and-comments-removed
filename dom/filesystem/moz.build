@@ -182,6 +182,11 @@ FileSystemUtils
 cpp
 '
 '
+GetDirectoryListingTask
+.
+cpp
+'
+'
 GetFileOrDirectoryTask
 .
 cpp
