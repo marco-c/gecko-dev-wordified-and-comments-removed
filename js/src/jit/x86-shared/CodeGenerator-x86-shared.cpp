@@ -17691,12 +17691,15 @@ isConstant
 )
 )
 {
-int32_t
+uint32_t
 c
 =
+uint32_t
+(
 ToInt32
 (
 val
+)
 )
 ;
 if
