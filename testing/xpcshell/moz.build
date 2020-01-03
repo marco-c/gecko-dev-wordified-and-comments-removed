@@ -111,3 +111,15 @@ selftest
 py
 '
 ]
+TESTING_JS_MODULES
++
+=
+[
+'
+dbg
+-
+actors
+.
+js
+'
+]
