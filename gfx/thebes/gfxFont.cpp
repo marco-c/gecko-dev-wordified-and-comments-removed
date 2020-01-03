@@ -373,9 +373,6 @@ gGlyphExtentsSetupFallBackToTight
 #
 endif
 #
-ifdef
-PR_LOGGING
-#
 define
 LOG_FONTINIT
 (
@@ -412,8 +409,6 @@ eGfxLog_fontinit
 \
 PR_LOG_DEBUG
 )
-#
-endif
 MOZ_DEFINE_MALLOC_SIZE_OF
 (
 FontCacheMallocSizeOf
@@ -5748,9 +5743,6 @@ mHasSpaceFeaturesInitialized
 =
 true
 ;
-#
-ifdef
-PR_LOGGING
 bool
 log
 =
@@ -5779,8 +5771,6 @@ Now
 )
 ;
 }
-#
-endif
 bool
 result
 =
@@ -6272,9 +6262,6 @@ mHasSpaceFeatures
 =
 result
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 MOZ_UNLIKELY
@@ -6480,8 +6467,6 @@ ToMilliseconds
 )
 ;
 }
-#
-endif
 }
 bool
 gfxFont

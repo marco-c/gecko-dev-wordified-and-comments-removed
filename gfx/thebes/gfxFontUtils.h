@@ -479,9 +479,6 @@ aIndex
 0
 ;
 }
-#
-if
-PR_LOGGING
 void
 Dump
 (
@@ -494,8 +491,6 @@ aWhichLog
 )
 const
 ;
-#
-endif
 bool
 TestRange
 (

@@ -1629,9 +1629,6 @@ mLocalRulesUsed
 true
 ;
 }
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -1639,8 +1636,6 @@ GetUserFontsLog
 (
 )
 ;
-#
-endif
 protected
 :
 virtual

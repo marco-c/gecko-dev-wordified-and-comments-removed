@@ -877,9 +877,6 @@ Length
 ;
 }
 #
-ifdef
-PR_LOGGING
-#
 define
 LOG_FONTLIST
 (
@@ -934,11 +931,6 @@ eGfxLog_cmapdata
 \
 PR_LOG_DEBUG
 )
-#
-endif
-/
-/
-PR_LOGGING
 #
 pragma
 mark
@@ -1633,9 +1625,6 @@ gfxCharacterMap
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 LOG_FONTLIST
 (
 (
@@ -1743,8 +1732,6 @@ eGfxLog_cmapdata
 )
 ;
 }
-#
-endif
 return
 rv
 ;
@@ -3175,9 +3162,6 @@ mFixedPitch
 true
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_FONTLIST_ENABLED
@@ -3285,8 +3269,6 @@ macTraits
 )
 ;
 }
-#
-endif
 /
 /
 insert
@@ -4160,9 +4142,6 @@ i
 +
 )
 {
-#
-ifdef
-PR_LOGGING
 LOG_FONTLIST
 (
 (
@@ -4194,8 +4173,6 @@ get
 )
 )
 ;
-#
-endif
 gfxFontEntry
 *
 fontEntry
@@ -4233,9 +4210,6 @@ familyName
 key
 )
 ;
-#
-ifdef
-PR_LOGGING
 LOG_FONTLIST
 (
 (
@@ -4276,8 +4250,6 @@ get
 )
 )
 ;
-#
-endif
 /
 /
 add
@@ -4348,9 +4320,6 @@ key
 familyEntry
 )
 ;
-#
-ifdef
-PR_LOGGING
 LOG_FONTLIST
 (
 (
@@ -4385,8 +4354,6 @@ get
 )
 )
 ;
-#
-endif
 }
 }
 }

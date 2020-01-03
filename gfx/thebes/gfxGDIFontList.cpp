@@ -181,9 +181,6 @@ CLEARTYPE_QUALITY
 #
 endif
 #
-ifdef
-PR_LOGGING
-#
 define
 LOG_FONTLIST
 (
@@ -238,8 +235,6 @@ eGfxLog_cmapdata
 \
 PR_LOG_DEBUG
 )
-#
-endif
 static
 __inline
 void
@@ -766,9 +761,6 @@ mBuildOnTheFly
 true
 ;
 }
-#
-ifdef
-PR_LOGGING
 LOG_FONTLIST
 (
 (
@@ -876,8 +868,6 @@ eGfxLog_cmapdata
 )
 ;
 }
-#
-endif
 return
 rv
 ;
@@ -2273,9 +2263,6 @@ k
 }
 }
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_FONTLIST_ENABLED
@@ -2372,8 +2359,6 @@ Stretch
 )
 ;
 }
-#
-endif
 return
 1
 ;
