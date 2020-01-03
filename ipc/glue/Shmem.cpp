@@ -2697,6 +2697,10 @@ SharedMemoryBasic
 >
 (
 mSegment
+.
+get
+(
+)
 )
 ;
 SharedMemoryBasic
