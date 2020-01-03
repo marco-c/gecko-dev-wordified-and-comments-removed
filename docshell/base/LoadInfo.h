@@ -54,6 +54,9 @@ HttpChannelParent
 class
 FTPChannelParent
 ;
+class
+WebSocketChannelParent
+;
 }
 class
 MOZ_EXPORT
@@ -120,6 +123,13 @@ net
 :
 :
 FTPChannelParent
+;
+friend
+class
+net
+:
+:
+WebSocketChannelParent
 ;
 ~
 LoadInfo

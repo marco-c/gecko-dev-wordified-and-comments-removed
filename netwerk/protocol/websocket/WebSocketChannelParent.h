@@ -155,6 +155,10 @@ const
 bool
 &
 aClientSetPingTimeout
+const
+WebSocketLoadInfoArgs
+&
+aLoadInfoArgs
 )
 MOZ_OVERRIDE
 ;
