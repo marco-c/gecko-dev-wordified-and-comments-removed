@@ -48,8 +48,6 @@ pkix
 :
 der
 ;
-namespace
-{
 class
 pkixder_pki_types_tests
 :
@@ -1867,4 +1865,3 @@ INVALID_SIGNATURE_ALGORITHM_VALUE_TEST_INFO
 )
 )
 ;
-}
