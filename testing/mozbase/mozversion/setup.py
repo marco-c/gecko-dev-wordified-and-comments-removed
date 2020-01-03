@@ -7,7 +7,7 @@ PACKAGE_VERSION
 '
 0
 .
-8
+9
 '
 dependencies
 =
@@ -34,9 +34,9 @@ mozfile
 mozlog
 >
 =
-1
+2
 .
-5
+0
 '
 ]
 setup
