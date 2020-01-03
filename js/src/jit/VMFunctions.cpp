@@ -5843,17 +5843,6 @@ bool
 strict
 )
 {
-MOZ_ASSERT
-(
-!
-obj
--
->
-isIndexed
-(
-)
-)
-;
 NativeObject
 :
 :
