@@ -3343,7 +3343,7 @@ JSInlineString
 *
 str
 =
-NewFatInlineString
+NewInlineString
 <
 allowGC
 >
@@ -7449,7 +7449,7 @@ JSInlineString
 *
 str
 =
-NewFatInlineString
+NewInlineString
 <
 CanGC
 >

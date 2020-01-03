@@ -507,7 +507,7 @@ isLatin1
 {
 if
 (
-JSFatInlineString
+JSInlineString
 :
 :
 latin1LengthFits
@@ -537,7 +537,7 @@ len
 )
 ;
 return
-NewFatInlineString
+NewInlineString
 <
 CanGC
 >
@@ -552,7 +552,7 @@ else
 {
 if
 (
-JSFatInlineString
+JSInlineString
 :
 :
 twoByteLengthFits
@@ -582,7 +582,7 @@ len
 )
 ;
 return
-NewFatInlineString
+NewInlineString
 <
 CanGC
 >
