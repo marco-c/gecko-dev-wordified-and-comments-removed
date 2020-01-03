@@ -1588,14 +1588,14 @@ window
 .
 wrappedJSObject
 .
-AppWindowManager
+appWindowManager
 |
 |
 window
 .
 wrappedJSObject
 .
-WindowManager
+AppWindowManager
 ;
 let
 app
