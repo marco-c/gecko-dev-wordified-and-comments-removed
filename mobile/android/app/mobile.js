@@ -7002,7 +7002,7 @@ updates
 .
 enabled
 "
-false
+true
 )
 ;
 pref
