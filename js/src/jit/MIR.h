@@ -16592,6 +16592,14 @@ result
 )
 ;
 bool
+tryFoldTypeOf
+(
+bool
+*
+result
+)
+;
+bool
 congruentTo
 (
 const
