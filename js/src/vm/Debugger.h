@@ -1275,6 +1275,12 @@ object
 WeakGlobalObjectSet
 debuggees
 ;
+JS
+:
+:
+ZoneSet
+debuggeeZones
+;
 js
 :
 :
@@ -1445,6 +1451,11 @@ when
 ;
 void
 emptyAllocationsLog
+(
+)
+;
+bool
+recomputeDebuggeeZoneSet
 (
 )
 ;
