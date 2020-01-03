@@ -225,10 +225,6 @@ JS
 :
 Value
 >
-Promise
-:
-:
-PromiseTaskSync
 )
 ;
 void
