@@ -98,6 +98,12 @@ GetEndTime
 void
 Normalize
 (
+double
+aError
+=
+0
+.
+0
 )
 ;
 void
@@ -107,6 +113,8 @@ const
 TimeRanges
 *
 aOtherRanges
+double
+aError
 )
 ;
 void
