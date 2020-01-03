@@ -651,7 +651,7 @@ nsCOMPtr
 <
 nsIStreamListener
 >
-mConverterListener
+mDivertListener
 ;
 nsresult
 mStatus
