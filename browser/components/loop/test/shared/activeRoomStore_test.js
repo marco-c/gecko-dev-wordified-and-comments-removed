@@ -3786,7 +3786,7 @@ shared
 .
 utils
 "
-hasAudioDevices
+hasAudioOrVideoDevices
 "
 )
 .
@@ -3854,7 +3854,7 @@ shared
 .
 utils
 "
-hasAudioDevices
+hasAudioOrVideoDevices
 "
 )
 .
@@ -3918,7 +3918,7 @@ shared
 .
 utils
 "
-hasAudioDevices
+hasAudioOrVideoDevices
 "
 )
 .
