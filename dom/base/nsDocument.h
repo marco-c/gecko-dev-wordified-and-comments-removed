@@ -4529,10 +4529,6 @@ RemoteFrameFullscreenChanged
 nsIDOMElement
 *
 aFrameElement
-const
-nsAString
-&
-aNewOrigin
 )
 override
 ;
