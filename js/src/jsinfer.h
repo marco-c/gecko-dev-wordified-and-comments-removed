@@ -1536,6 +1536,9 @@ TYPE_FLAG_OBJECT_COUNT_SHIFT
 9
 TYPE_FLAG_OBJECT_COUNT_LIMIT
 =
+7
+TYPE_FLAG_DOMOBJECT_COUNT_LIMIT
+=
 TYPE_FLAG_OBJECT_COUNT_MASK
 >
 >
@@ -2071,6 +2074,11 @@ type
 )
 ;
 bool
+isDOMClass
+(
+)
+;
+bool
 isSubset
 (
 TypeSet
@@ -2579,11 +2587,6 @@ Scalar
 :
 Type
 getSharedTypedArrayType
-(
-)
-;
-bool
-isDOMClass
 (
 )
 ;
