@@ -751,7 +751,6 @@ return
 true
 ;
 }
-}
 if
 (
 mIsOpen
@@ -768,6 +767,7 @@ event
 return
 true
 ;
+}
 }
 return
 false
