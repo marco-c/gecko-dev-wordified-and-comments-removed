@@ -158,8 +158,6 @@ const
 nsACString
 &
 aOrigin
-uint32_t
-aTelemetryId
 )
 ;
 static
