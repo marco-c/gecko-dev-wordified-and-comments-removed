@@ -1555,6 +1555,13 @@ RESPATH
 /
 components
 /
+necko_mdns
+.
+xpt
+RESPATH
+/
+components
+/
 necko_res
 .
 xpt

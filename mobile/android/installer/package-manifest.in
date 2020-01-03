@@ -1241,6 +1241,13 @@ BINPATH
 /
 components
 /
+necko_mdns
+.
+xpt
+BINPATH
+/
+components
+/
 necko_res
 .
 xpt
