@@ -3417,6 +3417,15 @@ nsITimer
 TYPE_ONE_SHOT
 )
 ;
+debug
+(
+"
+Sending
+message
+.
+"
+)
+;
 let
 promise
 =
