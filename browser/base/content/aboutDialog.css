@@ -88,6 +88,12 @@ padding
 #
 version
 {
+font
+-
+weight
+:
+bold
+;
 margin
 -
 top
@@ -131,12 +137,6 @@ distribution
 #
 distributionId
 {
-font
--
-weight
-:
-bold
-;
 display
 :
 none
