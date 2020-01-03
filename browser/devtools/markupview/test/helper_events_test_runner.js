@@ -49,12 +49,6 @@ inspector
 )
 ;
 }
-gBrowser
-.
-removeCurrentTab
-(
-)
-;
 yield
 promiseNextTick
 (
