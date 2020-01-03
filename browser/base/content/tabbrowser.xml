@@ -21015,6 +21015,13 @@ editFlags
 spellInfo
 :
 spellInfo
+customMenuItems
+:
+aMessage
+.
+data
+.
+customMenuItems
 addonInfo
 :
 aMessage
