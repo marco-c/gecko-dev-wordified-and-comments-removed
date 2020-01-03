@@ -195,7 +195,7 @@ dom
 Animation
 >
 >
-AnimationPlayerArray
+AnimationArray
 ;
 nsDOMMutationRecord
 (
@@ -443,7 +443,7 @@ mPrevValue
 void
 GetAddedAnimations
 (
-AnimationPlayerArray
+AnimationArray
 &
 aRetVal
 )
@@ -457,7 +457,7 @@ mAddedAnimations
 void
 GetRemovedAnimations
 (
-AnimationPlayerArray
+AnimationArray
 &
 aRetVal
 )
@@ -471,7 +471,7 @@ mRemovedAnimations
 void
 GetChangedAnimations
 (
-AnimationPlayerArray
+AnimationArray
 &
 aRetVal
 )
@@ -530,13 +530,13 @@ nsINode
 >
 mNextSibling
 ;
-AnimationPlayerArray
+AnimationArray
 mAddedAnimations
 ;
-AnimationPlayerArray
+AnimationArray
 mRemovedAnimations
 ;
-AnimationPlayerArray
+AnimationArray
 mChangedAnimations
 ;
 nsRefPtr
@@ -1870,7 +1870,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 AnimationMutation
 aMutationType
 )
@@ -3253,7 +3253,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 {
 if
@@ -3276,7 +3276,7 @@ sCurrentBatch
 >
 FindEntry
 (
-aPlayer
+aAnimation
 )
 ;
 if
@@ -3354,9 +3354,9 @@ AppendElement
 entry
 -
 >
-mPlayer
+mAnimation
 =
-aPlayer
+aAnimation
 ;
 entry
 -
@@ -3386,7 +3386,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 {
 Entry
@@ -3398,7 +3398,7 @@ sCurrentBatch
 >
 FindEntry
 (
-aPlayer
+aAnimation
 )
 ;
 if
@@ -3466,9 +3466,9 @@ AppendElement
 entry
 -
 >
-mPlayer
+mAnimation
 =
-aPlayer
+aAnimation
 ;
 entry
 -
@@ -3498,7 +3498,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 {
 Entry
@@ -3510,7 +3510,7 @@ sCurrentBatch
 >
 FindEntry
 (
-aPlayer
+aAnimation
 )
 ;
 if
@@ -3588,9 +3588,9 @@ AppendElement
 entry
 -
 >
-mPlayer
+mAnimation
 =
-aPlayer
+aAnimation
 ;
 entry
 -
@@ -3622,7 +3622,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 {
 for
@@ -3638,10 +3638,10 @@ if
 (
 e
 .
-mPlayer
+mAnimation
 =
 =
-aPlayer
+aAnimation
 )
 {
 return
@@ -3676,7 +3676,7 @@ dom
 :
 Animation
 >
-mPlayer
+mAnimation
 ;
 State
 mState

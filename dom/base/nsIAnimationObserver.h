@@ -66,7 +66,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 =
 0
@@ -83,7 +83,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 =
 0
@@ -100,7 +100,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 =
 0
@@ -128,7 +128,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 \
 override
@@ -149,7 +149,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 \
 override
@@ -170,7 +170,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 \
 override
@@ -197,7 +197,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 \
 {
@@ -219,7 +219,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 \
 {
@@ -241,7 +241,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 \
 {

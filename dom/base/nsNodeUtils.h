@@ -270,7 +270,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 ;
 static
@@ -285,7 +285,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 ;
 static
@@ -300,7 +300,7 @@ dom
 :
 Animation
 *
-aPlayer
+aAnimation
 )
 ;
 static
