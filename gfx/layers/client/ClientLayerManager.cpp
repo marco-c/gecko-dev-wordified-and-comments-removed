@@ -3531,10 +3531,10 @@ GetScrollOffset
 *
 paintScale
 ;
-ScreenPoint
+ParentLayerPoint
 scrollOffset
 ;
-CSSToScreenScale
+CSSToParentLayerScale
 zoom
 ;
 bool

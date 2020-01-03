@@ -1057,7 +1057,7 @@ aOutConstraints
 >
 mMinZoom
 =
-CSSToScreenScale
+CSSToParentLayerScale
 (
 0
 .
@@ -1069,7 +1069,7 @@ aOutConstraints
 >
 mMaxZoom
 =
-CSSToScreenScale
+CSSToParentLayerScale
 (
 4
 .

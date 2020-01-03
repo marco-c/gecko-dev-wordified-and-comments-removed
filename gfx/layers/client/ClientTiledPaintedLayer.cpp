@@ -393,13 +393,9 @@ PostScale
 metrics
 .
 mPresShellResolution
-.
-scale
 metrics
 .
 mPresShellResolution
-.
-scale
 1
 .
 f
@@ -720,7 +716,7 @@ mCriticalDisplayPort
 *
 displayportMetrics
 .
-GetZoomToParent
+GetZoom
 (
 )
 )
@@ -779,7 +775,7 @@ mResolution
 =
 displayportMetrics
 .
-GetZoomToParent
+GetZoom
 (
 )
 ;
@@ -881,7 +877,7 @@ GetScrollOffset
 *
 displayportMetrics
 .
-GetZoomToParent
+GetZoom
 (
 )
 ;

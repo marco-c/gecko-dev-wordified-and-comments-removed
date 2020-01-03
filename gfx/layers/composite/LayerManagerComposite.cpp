@@ -4569,13 +4569,9 @@ PostScale
 metrics
 .
 mPresShellResolution
-.
-scale
 metrics
 .
 mPresShellResolution
-.
-scale
 1
 )
 ;
