@@ -453,12 +453,12 @@ update
 ;
 exports
 .
-ONPROFILE_IMAGE_CHANGE_NOTIFICATION
+ON_PROFILE_CHANGE_NOTIFICATION
 =
 "
 fxaccounts
 :
-profileimagechange
+profilechange
 "
 ;
 exports
