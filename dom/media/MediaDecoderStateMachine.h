@@ -184,13 +184,6 @@ mState
 ;
 }
 void
-SetVolume
-(
-double
-aVolume
-)
-;
-void
 SetAudioCaptured
 (
 )
@@ -1009,6 +1002,11 @@ already_AddRefed
 VideoData
 >
 PopVideo
+(
+)
+;
+void
+VolumeChanged
 (
 )
 ;
@@ -2245,7 +2243,10 @@ mVideoFrameEndTime
 int64_t
 mDecodedVideoEndTime
 ;
+Mirror
+<
 double
+>
 mVolume
 ;
 double
