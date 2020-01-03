@@ -6114,6 +6114,13 @@ createClass
 propTypes
 :
 {
+children
+:
+React
+.
+PropTypes
+.
+node
 dispatcher
 :
 React
@@ -6874,6 +6881,13 @@ renderLocalVideo
 )
 :
 null
+}
+{
+this
+.
+props
+.
+children
 }
 <
 /
