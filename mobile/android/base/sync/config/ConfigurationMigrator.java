@@ -1325,14 +1325,11 @@ setUserData
 (
 account
 V1_PREF_NUM_CLIENTS
-new
 Long
-(
-numClients
-)
 .
 toString
 (
+numClients
 )
 )
 ;
