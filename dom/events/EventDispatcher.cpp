@@ -3290,9 +3290,6 @@ AsKeyboardEvent
 case
 eCompositionEventClass
 :
-case
-eTextEventClass
-:
 return
 NS_NewDOMCompositionEvent
 (

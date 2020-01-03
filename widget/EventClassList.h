@@ -26,11 +26,6 @@ KeyboardEvent
 NS_EVENT_CLASS
 (
 Widget
-TextEvent
-)
-NS_EVENT_CLASS
-(
-Widget
 CompositionEvent
 )
 NS_EVENT_CLASS
