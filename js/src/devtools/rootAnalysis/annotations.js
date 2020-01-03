@@ -919,6 +919,14 @@ TestPartResult
 "
 :
 true
+"
+float64
+JS_GetCurrentEmbedderTime
+(
+)
+"
+:
+true
 }
 ;
 function
