@@ -1072,6 +1072,7 @@ NULL
 <
 0
 )
+{
 errx
 (
 1
@@ -1084,6 +1085,12 @@ estimate
 "
 )
 ;
+ABORT
+(
+R_INTERNAL
+)
+;
+}
 if
 (
 (
@@ -1098,6 +1105,7 @@ needed
 =
 NULL
 )
+{
 errx
 (
 1
@@ -1106,6 +1114,12 @@ malloc
 "
 )
 ;
+ABORT
+(
+R_NO_MEMORY
+)
+;
+}
 if
 (
 sysctl
@@ -1121,6 +1135,7 @@ NULL
 <
 0
 )
+{
 errx
 (
 1
@@ -1133,6 +1148,12 @@ table
 "
 )
 ;
+ABORT
+(
+R_INTERNAL
+)
+;
+}
 lim
 =
 buf
