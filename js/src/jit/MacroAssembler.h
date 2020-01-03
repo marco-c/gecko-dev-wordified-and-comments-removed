@@ -1410,17 +1410,9 @@ Label
 miss
 )
 ;
-template
-<
-typename
-TypeSet
->
 void
 guardTypeSetMightBeIncomplete
 (
-TypeSet
-*
-types
 Register
 obj
 Register
