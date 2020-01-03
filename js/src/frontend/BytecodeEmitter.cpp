@@ -27602,9 +27602,10 @@ PNX_SETCALL
 if
 (
 !
-emit1
+emitUint16Operand
 (
-JSOP_SETCALL
+JSOP_THROWMSG
+JSMSG_BAD_LEFTSIDE_OF_ASS
 )
 )
 return
