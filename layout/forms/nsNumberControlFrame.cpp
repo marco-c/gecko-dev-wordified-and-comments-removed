@@ -3300,11 +3300,6 @@ nsCSSPseudoElements
 ePseudo_mozNumberSpinBox
 )
 {
-MOZ_ASSERT
-(
-mSpinBox
-)
-;
 return
 mSpinBox
 ;
@@ -3320,11 +3315,6 @@ nsCSSPseudoElements
 ePseudo_mozNumberSpinUp
 )
 {
-MOZ_ASSERT
-(
-mSpinUp
-)
-;
 return
 mSpinUp
 ;
@@ -3340,11 +3330,6 @@ nsCSSPseudoElements
 ePseudo_mozNumberSpinDown
 )
 {
-MOZ_ASSERT
-(
-mSpinDown
-)
-;
 return
 mSpinDown
 ;
