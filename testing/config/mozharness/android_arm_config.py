@@ -486,6 +486,18 @@ symbols_path
 )
 s
 "
+                
+"
+-
+-
+manifest
+=
+tests
+/
+xpcshell_android
+.
+ini
+"
             
 ]
         
