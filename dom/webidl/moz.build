@@ -565,6 +565,11 @@ DeviceStorage
 webidl
 '
 '
+DeviceStorageAreaListener
+.
+webidl
+'
+'
 Directory
 .
 webidl
