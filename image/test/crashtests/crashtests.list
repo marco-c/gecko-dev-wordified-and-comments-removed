@@ -403,12 +403,6 @@ if
 (
 AddressSanitizer
 )
-skip
--
-if
-(
-B2G
-)
 load
 944353
 .
