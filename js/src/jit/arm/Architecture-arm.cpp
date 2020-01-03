@@ -61,6 +61,13 @@ h
 "
 #
 if
+!
+defined
+(
+__linux__
+)
+|
+|
 defined
 (
 ANDROID
