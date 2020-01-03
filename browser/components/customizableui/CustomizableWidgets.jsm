@@ -6296,7 +6296,7 @@ defaultView
 .
 LoopUI
 .
-openCallPanel
+togglePanel
 (
 event
 )
