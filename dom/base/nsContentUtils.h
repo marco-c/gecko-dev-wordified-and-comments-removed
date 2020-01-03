@@ -3728,6 +3728,12 @@ IsRequestFullScreenAllowed
 ;
 static
 bool
+IsCutCopyAllowed
+(
+)
+;
+static
+bool
 IsPerformanceTimingEnabled
 (
 )
