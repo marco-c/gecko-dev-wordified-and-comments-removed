@@ -8840,6 +8840,9 @@ break
 case
 JSOP_SETNAME
 :
+case
+JSOP_STRICTSETNAME
+:
 op
 =
 JSOP_SETARG
@@ -8909,6 +8912,9 @@ break
 ;
 case
 JSOP_SETNAME
+:
+case
+JSOP_STRICTSETNAME
 :
 op
 =
