@@ -34969,15 +34969,3 @@ false
 ;
 #
 endif
-pref
-(
-"
-dom
-.
-compositionevent
-.
-allow_control_characters
-"
-false
-)
-;
