@@ -7514,13 +7514,9 @@ tabState
 ;
 }
 setTabState
-:
-function
-ssi_setTabState
 (
 aTab
 aState
-aOptions
 )
 {
 let
@@ -7677,7 +7673,6 @@ restoreTab
 (
 aTab
 tabState
-aOptions
 )
 ;
 }
