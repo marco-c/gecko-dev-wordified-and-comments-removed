@@ -27,13 +27,6 @@ SHAREDDIB_KEY
 0
 }
 ;
-static
-const
-long
-kBytesPerPixel
-=
-4
-;
 bool
 SharedDIBSurface
 :
@@ -171,6 +164,9 @@ long
 (
 aWidth
 *
+SharedDIB
+:
+:
 kBytesPerPixel
 )
 ;

@@ -35,13 +35,6 @@ gfx
 static
 const
 uint32_t
-kBytesPerPixel
-=
-4
-;
-static
-const
-uint32_t
 kByteAlign
 =
 1
