@@ -3749,9 +3749,6 @@ oop_by_default
 false
 )
 ;
-#
-ifndef
-MOZ_MULET
 pref
 (
 "
@@ -3766,8 +3763,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "

@@ -4460,9 +4460,6 @@ this
 mDocument
 )
 ;
-#
-ifndef
-MOZ_WIDGET_ANDROID
 if
 (
 gfxPrefs
@@ -4483,8 +4480,6 @@ mDocument
 )
 ;
 }
-#
-endif
 }
 }
 enum
