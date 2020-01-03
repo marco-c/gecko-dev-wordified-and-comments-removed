@@ -107,13 +107,6 @@ h
 #
 include
 "
-NfcGonkMessage
-.
-h
-"
-#
-include
-"
 NfcOptions
 .
 h
