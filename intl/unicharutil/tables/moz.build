@@ -99,11 +99,6 @@ entityTables
 =
 [
 '
-htmlEntityVersions
-.
-properties
-'
-'
 html40Latin1
 .
 properties
@@ -120,11 +115,6 @@ properties
 '
 '
 mathml20
-.
-properties
-'
-'
-transliterate
 .
 properties
 '

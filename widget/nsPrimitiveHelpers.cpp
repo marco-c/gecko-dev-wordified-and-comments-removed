@@ -638,10 +638,7 @@ nsISaveAsCharset
 :
 :
 attr_FallbackQuestionMark
-nsIEntityConverter
-:
-:
-transliterate
+0
 )
 ;
 NS_ENSURE_SUCCESS

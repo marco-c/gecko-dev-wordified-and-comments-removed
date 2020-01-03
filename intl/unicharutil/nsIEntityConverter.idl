@@ -218,6 +218,9 @@ transliterate
 =
 8
 ;
+/
+/
+Obsolete
 const
 unsigned
 long
