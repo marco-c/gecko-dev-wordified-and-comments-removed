@@ -1713,8 +1713,6 @@ autoCloseBrackets
 }
 (
 )
-[
-]
 "
 extraKeys
 :
