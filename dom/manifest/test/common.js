@@ -23,7 +23,7 @@ gre
 /
 modules
 /
-ManifestProcessor
+WebManifest
 .
 jsm
 '
