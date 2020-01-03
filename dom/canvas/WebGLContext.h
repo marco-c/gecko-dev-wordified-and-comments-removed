@@ -827,6 +827,13 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+virtual
+void
+DidRefresh
+(
+)
+MOZ_OVERRIDE
+;
 NS_IMETHOD
 Redraw
 (
