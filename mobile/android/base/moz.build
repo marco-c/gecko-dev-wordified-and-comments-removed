@@ -2322,12 +2322,12 @@ JavaAddonManager
 java
 '
 '
-LocaleAware
+LocaleManager
 .
 java
 '
 '
-LocaleManager
+Locales
 .
 java
 '

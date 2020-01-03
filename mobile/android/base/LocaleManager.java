@@ -121,4 +121,9 @@ Locale
 currentActivityLocale
 )
 ;
+String
+getFallbackLocaleTag
+(
+)
+;
 }

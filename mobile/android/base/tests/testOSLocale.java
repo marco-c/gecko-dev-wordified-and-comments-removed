@@ -57,6 +57,15 @@ mozilla
 .
 gecko
 .
+Locales
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 PrefsHelper
 ;
 import
@@ -355,7 +364,7 @@ final
 Locale
 fr
 =
-BrowserLocaleManager
+Locales
 .
 parseLocaleCode
 (
@@ -548,7 +557,7 @@ final
 Locale
 en_US
 =
-BrowserLocaleManager
+Locales
 .
 parseLocaleCode
 (

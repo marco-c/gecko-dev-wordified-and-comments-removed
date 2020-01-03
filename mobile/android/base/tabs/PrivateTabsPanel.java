@@ -21,7 +21,7 @@ mozilla
 .
 gecko
 .
-BrowserLocaleManager
+Locales
 ;
 import
 org
@@ -317,7 +317,7 @@ final
 String
 locale
 =
-BrowserLocaleManager
+Locales
 .
 getLanguageTag
 (

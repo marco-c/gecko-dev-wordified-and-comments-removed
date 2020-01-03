@@ -529,7 +529,7 @@ locales
 /
 "
 +
-BrowserLocaleManager
+Locales
 .
 getLanguageTag
 (

@@ -11404,7 +11404,7 @@ return
 }
 onLocaleChanged
 (
-BrowserLocaleManager
+Locales
 .
 getLanguageTag
 (
@@ -15421,7 +15421,7 @@ final
 String
 LOCALE
 =
-BrowserLocaleManager
+Locales
 .
 getLanguageTag
 (

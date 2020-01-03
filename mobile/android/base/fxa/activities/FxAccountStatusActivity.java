@@ -25,7 +25,7 @@ mozilla
 .
 gecko
 .
-LocaleAware
+Locales
 .
 LocaleAwareFragmentActivity
 ;

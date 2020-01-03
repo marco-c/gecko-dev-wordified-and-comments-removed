@@ -83,6 +83,15 @@ mozilla
 .
 gecko
 .
+Locales
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 R
 ;
 import
@@ -515,7 +524,7 @@ tag
 {
 this
 (
-BrowserLocaleManager
+Locales
 .
 parseLocaleCode
 (
@@ -913,6 +922,10 @@ fallbackTag
 =
 BrowserLocaleManager
 .
+getInstance
+(
+)
+.
 getFallbackLocaleTag
 (
 )
@@ -1144,7 +1157,7 @@ getDefault
 ;
 }
 return
-BrowserLocaleManager
+Locales
 .
 parseLocaleCode
 (

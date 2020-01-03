@@ -21,7 +21,7 @@ mozilla
 .
 gecko
 .
-LocaleAware
+Locales
 ;
 import
 org
@@ -176,7 +176,7 @@ Bundle
 savedInstanceState
 )
 {
-LocaleAware
+Locales
 .
 initializeLocale
 (
