@@ -325,6 +325,9 @@ nsIntRegion
 *
 renderRegion
 ;
+#
+ifndef
+MOZ_IGNORE_PAINT_WILL_RESAMPLE
 if
 (
 PaintWillResample
@@ -354,6 +357,14 @@ renderRegion
 aVisibleRegion
 ;
 }
+#
+else
+renderRegion
+=
+aVisibleRegion
+;
+#
+endif
 nsIntRegion
 region
 (
