@@ -54,12 +54,7 @@ editor
 "
 )
 ;
-let
-test
-=
-Task
-.
-async
+add_task
 (
 function
 *
@@ -105,10 +100,6 @@ testAdvanceCharCommit
 gBrowser
 .
 removeCurrentTab
-(
-)
-;
-finish
 (
 )
 ;
