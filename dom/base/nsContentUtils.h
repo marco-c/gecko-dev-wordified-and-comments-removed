@@ -513,6 +513,7 @@ EventNameMapping
 {
 nsIAtom
 *
+MOZ_OWNING_REF
 mAtom
 ;
 uint32_t
