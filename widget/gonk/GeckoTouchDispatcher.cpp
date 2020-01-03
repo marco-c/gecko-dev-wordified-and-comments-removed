@@ -585,10 +585,6 @@ Now
 }
 else
 {
-if
-(
-mResamplingEnabled
-)
 {
 MutexAutoLock
 lock
@@ -664,10 +660,6 @@ DispatchTouchEvent
 aInput
 )
 ;
-if
-(
-mResamplingEnabled
-)
 {
 MutexAutoLock
 lock
@@ -715,6 +707,15 @@ if
 mHavePendingTouchMoves
 )
 {
+MOZ_ASSERT
+(
+mTouchMoveEvents
+.
+empty
+(
+)
+)
+;
 return
 ;
 }
