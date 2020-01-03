@@ -1433,7 +1433,7 @@ toolbar
 .
 memory
 -
-calltree
+calltree1
 ;
 "
 data
@@ -1480,7 +1480,7 @@ toolbar
 .
 memory
 -
-flamegraph
+flamegraph1
 ;
 "
 data

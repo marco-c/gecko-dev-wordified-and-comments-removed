@@ -567,9 +567,9 @@ toolbar
 .
 memory
 -
-calltree
+calltree1
 "
-Memory
+Allocations
 "
 >
 <
@@ -597,9 +597,9 @@ toolbar
 .
 memory
 -
-flamegraph
+flamegraph1
 "
-Memory
+Allocations
 Flame
 Chart
 "
