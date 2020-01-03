@@ -825,6 +825,7 @@ aElement
 aNameSpaceID
 aAttribute
 aModType
+aOldValue
 )
 )
 ;
