@@ -510,7 +510,10 @@ if
 JSInlineString
 :
 :
-latin1LengthFits
+lengthFits
+<
+Latin1Char
+>
 (
 len
 )
@@ -555,7 +558,10 @@ if
 JSInlineString
 :
 :
-twoByteLengthFits
+lengthFits
+<
+char16_t
+>
 (
 len
 )
