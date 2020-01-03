@@ -233,11 +233,6 @@ error
 multichar
 '
 ]
-FINAL_LIBRARY
-=
-'
-xul
-'
 CXXFLAGS
 +
 =
