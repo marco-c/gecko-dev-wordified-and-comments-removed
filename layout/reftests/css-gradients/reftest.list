@@ -2262,6 +2262,14 @@ corner
 ref
 .
 html
+fuzzy
+-
+if
+(
+Android
+8
+771
+)
 =
 =
 radial
