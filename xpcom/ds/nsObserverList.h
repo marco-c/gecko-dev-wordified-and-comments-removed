@@ -335,8 +335,14 @@ aArray
 )
 ;
 void
-UnmarkGrayStrongObservers
+AppendStrongObservers
 (
+nsCOMArray
+<
+nsIObserver
+>
+&
+aArray
 )
 ;
 private
