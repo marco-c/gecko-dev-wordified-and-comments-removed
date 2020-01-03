@@ -3928,6 +3928,14 @@ type
 "
 runtimeApp
 "
+&
+&
+!
+AppManager
+.
+isProjectRunning
+(
+)
 )
 {
 yield
