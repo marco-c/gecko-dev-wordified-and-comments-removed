@@ -408,6 +408,11 @@ nsIPACGenerator
 idl
 '
 '
+nsIPackagedAppService
+.
+idl
+'
+'
 nsIParentChannel
 .
 idl

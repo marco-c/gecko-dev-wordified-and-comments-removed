@@ -222,6 +222,11 @@ NullHttpChannel
 h
 '
 '
+PackagedAppService
+.
+h
+'
+'
 PHttpChannelParams
 .
 h
@@ -431,6 +436,11 @@ cpp
 '
 '
 NullHttpTransaction
+.
+cpp
+'
+'
+PackagedAppService
 .
 cpp
 '
