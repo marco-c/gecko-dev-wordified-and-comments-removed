@@ -3684,6 +3684,15 @@ mCounterStyleManager
 ;
 nsIAtom
 *
+MOZ_UNSAFE_REF
+(
+"
+always
+a
+static
+atom
+"
+)
 mMedium
 ;
 nsCOMPtr
