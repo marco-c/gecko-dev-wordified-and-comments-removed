@@ -680,6 +680,9 @@ mFontFace
 uint8_t
 mSheetType
 ;
+bool
+mLoadEventShouldFire
+;
 }
 ;
 already_AddRefed
@@ -879,10 +882,7 @@ mRuleFaces
 ;
 nsTArray
 <
-nsRefPtr
-<
-FontFace
->
+FontFaceRecord
 >
 mNonRuleFaces
 ;
