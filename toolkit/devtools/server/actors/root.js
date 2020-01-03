@@ -344,6 +344,9 @@ true
 getUniqueSelector
 :
 true
+directorScripts
+:
+true
 noBlackBoxing
 :
 false
