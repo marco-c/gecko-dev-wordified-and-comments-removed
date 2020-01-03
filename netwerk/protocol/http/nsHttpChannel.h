@@ -433,6 +433,12 @@ aFallbackKey
 MOZ_OVERRIDE
 ;
 NS_IMETHOD
+ContinueBeginConnect
+(
+)
+MOZ_OVERRIDE
+;
+NS_IMETHOD
 SetPriority
 (
 int32_t
@@ -1791,6 +1797,9 @@ mDNSPrefetch
 Http2PushedStream
 *
 mPushedStream
+;
+bool
+mLocalBlocklist
 ;
 nsresult
 WaitForRedirectCallback
