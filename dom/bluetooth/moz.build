@@ -597,6 +597,13 @@ cpp
 '
 bluedroid
 /
+BluetoothGattHALInterface
+.
+cpp
+'
+'
+bluedroid
+/
 BluetoothHALHelpers
 .
 cpp
@@ -733,13 +740,6 @@ SOURCES
 +
 =
 [
-'
-bluedroid
-/
-BluetoothGattHALInterface
-.
-cpp
-'
 '
 bluedroid
 /
