@@ -457,6 +457,9 @@ undef
 GetCurrentTime
 #
 endif
+namespace
+detail
+{
 static
 const
 uint32_t
@@ -470,6 +473,7 @@ AMPLE_AUDIO_USECS
 =
 1000000
 ;
+}
 const
 int64_t
 NO_VIDEO_AMPLE_AUDIO_DIVISOR
@@ -504,6 +508,9 @@ THRESHOLD_FACTOR
 =
 2
 ;
+namespace
+detail
+{
 static
 const
 int64_t
@@ -524,6 +531,7 @@ small
 "
 )
 ;
+}
 static
 const
 uint32_t
@@ -550,6 +558,9 @@ static_assert
 QUICK_BUFFERING_LOW_DATA_USECS
 <
 =
+detail
+:
+:
 AMPLE_AUDIO_USECS
 "
 QUICK_BUFFERING_LOW_DATA_USECS
@@ -741,10 +752,16 @@ mAmpleVideoFrames
 )
 mLowAudioThresholdUsecs
 (
+detail
+:
+:
 LOW_AUDIO_USECS
 )
 mAmpleAudioThresholdUsecs
 (
+detail
+:
+:
 AMPLE_AUDIO_USECS
 )
 mIsAudioPrerolling
@@ -917,6 +934,9 @@ IsRealTime
 )
 ?
 0
+:
+detail
+:
 :
 LOW_DATA_THRESHOLD_USECS
 ;
@@ -4972,7 +4992,7 @@ DurationToUsecs
 (
 decodeTime
 )
-AMPLE_AUDIO_USECS
+mAmpleAudioThresholdUsecs
 )
 ;
 mAmpleAudioThresholdUsecs
