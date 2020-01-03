@@ -265,6 +265,11 @@ IntegerPrintfMacros
 h
 '
 '
+IntegerRange
+.
+h
+'
+'
 IntegerTypeTraits
 .
 h
