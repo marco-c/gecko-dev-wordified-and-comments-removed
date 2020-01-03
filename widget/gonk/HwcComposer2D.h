@@ -74,12 +74,6 @@ include
 list
 >
 #
-if
-ANDROID_VERSION
->
-=
-17
-#
 include
 <
 utils
@@ -88,8 +82,6 @@ Timers
 .
 h
 >
-#
-endif
 class
 nsScreenGonk
 ;
@@ -195,12 +187,6 @@ bool
 aEnable
 )
 ;
-#
-if
-ANDROID_VERSION
->
-=
-17
 bool
 RegisterHwcEventCallback
 (
@@ -229,8 +215,6 @@ int
 aConnected
 )
 ;
-#
-endif
 void
 SetCompositorParent
 (
