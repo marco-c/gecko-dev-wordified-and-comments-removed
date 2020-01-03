@@ -794,6 +794,14 @@ enabled
 :
 true
 ;
+aObj
+.
+sideloaded
+=
+aApp
+.
+sideloaded
+;
 }
 this
 .
