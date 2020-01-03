@@ -995,6 +995,7 @@ _createObjectActorForPromise
 (
 promise
 )
+;
 let
 needsScheduling
 =
@@ -1048,6 +1049,7 @@ length
 ;
 }
 }
+;
 }
 _onWindowReady
 :
