@@ -800,7 +800,7 @@ site
 if
 (
 !
-isNativeToBytecodeMapEnabled
+isProfilerInstrumentationEnabled
 (
 )
 )

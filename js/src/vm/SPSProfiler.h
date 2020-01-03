@@ -1702,6 +1702,15 @@ scratch
 }
 }
 ;
+void
+*
+GetTopProfilingJitFrame
+(
+uint8_t
+*
+exitFramePtr
+)
+;
 }
 #
 endif

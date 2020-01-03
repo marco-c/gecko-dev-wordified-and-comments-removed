@@ -416,7 +416,7 @@ IonInstrumentation
 sps_
 ;
 bool
-isNativeToBytecodeMapEnabled
+isProfilerInstrumentationEnabled
 (
 )
 {
@@ -424,7 +424,7 @@ return
 gen
 -
 >
-isNativeToBytecodeMapEnabled
+isProfilerInstrumentationEnabled
 (
 )
 ;
