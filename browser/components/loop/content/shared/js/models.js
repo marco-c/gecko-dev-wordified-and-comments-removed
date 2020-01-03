@@ -1113,6 +1113,7 @@ errorL10n
 function
 (
 messageId
+l10nProps
 )
 {
 this
@@ -1124,6 +1125,7 @@ l10n
 get
 (
 messageId
+l10nProps
 )
 )
 ;
