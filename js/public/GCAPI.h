@@ -382,7 +382,7 @@ NUM_TELEMETRY_REASONS
 ;
 }
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -394,7 +394,7 @@ zone
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -406,7 +406,7 @@ rt
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -418,7 +418,7 @@ rt
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -430,7 +430,7 @@ rt
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -442,7 +442,7 @@ zone
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -461,7 +461,7 @@ reason
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -484,7 +484,7 @@ millis
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -505,7 +505,7 @@ millis
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -531,7 +531,7 @@ GC_CYCLE_END
 }
 ;
 struct
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 GCDescription
 )
@@ -595,7 +595,7 @@ desc
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 GCSliceCallback
 )
@@ -609,7 +609,7 @@ callback
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -621,7 +621,7 @@ rt
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -633,7 +633,7 @@ rt
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -645,7 +645,7 @@ rt
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -656,7 +656,8 @@ JSRuntime
 rt
 )
 ;
-JS_FRIEND_API
+extern
+JS_PUBLIC_API
 (
 bool
 )
@@ -668,7 +669,7 @@ rt
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -680,7 +681,7 @@ rt
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -692,7 +693,7 @@ cx
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -703,7 +704,7 @@ thing
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -716,7 +717,7 @@ v
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
@@ -728,7 +729,7 @@ obj
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -740,7 +741,7 @@ rt
 )
 ;
 class
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 AutoDisableGenerationalGC
 )
@@ -781,7 +782,7 @@ AutoDisableGenerationalGC
 }
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 bool
 )
@@ -793,7 +794,7 @@ rt
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 size_t
 )
@@ -802,7 +803,7 @@ GetGCNumber
 )
 ;
 extern
-JS_FRIEND_API
+JS_PUBLIC_API
 (
 void
 )
