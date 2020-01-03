@@ -554,6 +554,11 @@ FontFaceSet
 h
 '
 '
+FontFaceSetIterator
+.
+h
+'
+'
 MediaQueryList
 .
 h
@@ -669,6 +674,11 @@ cpp
 '
 '
 FontFace
+.
+cpp
+'
+'
+FontFaceSetIterator
 .
 cpp
 '
