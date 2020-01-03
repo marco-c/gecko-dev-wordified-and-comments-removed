@@ -355,6 +355,12 @@ aEndTime
 )
 MOZ_OVERRIDE
 ;
+void
+CancelSeek
+(
+)
+MOZ_OVERRIDE
+;
 nsresult
 GetBuffered
 (

@@ -1978,6 +1978,9 @@ mDecodeToSeekTarget
 bool
 mWaitingForDecoderSeek
 ;
+bool
+mCancelingSeek
+;
 int64_t
 mCurrentTimeBeforeSeek
 ;
