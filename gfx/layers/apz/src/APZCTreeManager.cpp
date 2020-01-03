@@ -2782,6 +2782,9 @@ ReceiveInputEvent
 (
 apzc
 hitResult
+=
+=
+ApzcHitRegion
 wheelInput
 aOutInputBlockId
 )

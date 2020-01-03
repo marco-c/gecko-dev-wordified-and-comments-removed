@@ -2182,6 +2182,14 @@ SetAncestorHasTouchEventHandler
 false
 )
 ;
+aBuilder
+-
+>
+SetAncestorHasScrollEventHandler
+(
+false
+)
+;
 subdocRootFrame
 -
 >
