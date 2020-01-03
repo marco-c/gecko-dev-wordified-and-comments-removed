@@ -936,9 +936,8 @@ fallible
 {
 mTreeData
 .
-SetLength
+Clear
 (
-0
 )
 ;
 return
@@ -1373,9 +1372,8 @@ fallible
 {
 mBytes
 .
-SetLength
+Clear
 (
-0
 )
 ;
 return
