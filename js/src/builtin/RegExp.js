@@ -16,7 +16,7 @@ IsObject
 R
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_NONNULL_OBJECT
 R
@@ -113,7 +113,7 @@ IsObject
 R
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_NONNULL_OBJECT
 R
