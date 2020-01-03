@@ -1234,6 +1234,14 @@ expected
 pass
 '
 )
+        
+self
+.
+logger
+=
+get_default_logger
+(
+)
     
 def
 _addSkip
@@ -4398,12 +4406,6 @@ occur
 else
 :
                 
-logger
-=
-get_default_logger
-(
-)
-                
 for
 failure
 in
@@ -4465,6 +4467,8 @@ name
 '
 ]
                     
+self
+.
 logger
 .
 test_status
@@ -4476,7 +4480,7 @@ name
 '
 FAIL
 '
-                                       
+                                            
 message
 =
 diag
@@ -4543,6 +4547,8 @@ name
 '
 ]
                     
+self
+.
 logger
 .
 test_status
@@ -4554,7 +4560,7 @@ name
 '
 FAIL
 '
-                                       
+                                            
 expected
 =
 '
@@ -4626,6 +4632,8 @@ name
 '
 ]
                     
+self
+.
 logger
 .
 test_status
@@ -4637,7 +4645,7 @@ name
 '
 PASS
 '
-                                       
+                                            
 expected
 =
 '
