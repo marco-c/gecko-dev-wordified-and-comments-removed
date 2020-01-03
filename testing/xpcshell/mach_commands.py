@@ -3691,19 +3691,6 @@ remove
 False
 )
         
-structured
-.
-commandline
-.
-formatter_option_defaults
-[
-'
-verbose
-'
-]
-=
-True
-        
 params
 [
 '
@@ -3731,6 +3718,14 @@ mach
 sys
 .
 stdout
+}
+                                                             
+{
+"
+verbose
+"
+:
+True
 }
 )
         
