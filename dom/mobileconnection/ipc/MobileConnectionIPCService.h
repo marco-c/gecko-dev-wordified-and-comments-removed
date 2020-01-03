@@ -69,6 +69,18 @@ MobileConnectionIPCService
 (
 )
 ;
+nsresult
+SendRequest
+(
+uint32_t
+aClientId
+MobileConnectionRequest
+aRequest
+nsIMobileConnectionCallback
+*
+aRequestCallback
+)
+;
 nsTArray
 <
 nsRefPtr
@@ -76,7 +88,7 @@ nsRefPtr
 MobileConnectionChild
 >
 >
-mItems
+mClients
 ;
 }
 ;
