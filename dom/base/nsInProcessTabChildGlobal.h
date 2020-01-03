@@ -800,15 +800,6 @@ nsFrameMessageManager
 *
 mChromeMessageManager
 ;
-nsTArray
-<
-nsCOMPtr
-<
-nsIRunnable
->
->
-mASyncMessages
-;
 }
 ;
 #
