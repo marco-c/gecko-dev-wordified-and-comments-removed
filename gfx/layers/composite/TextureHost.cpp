@@ -1317,6 +1317,10 @@ mFlags
 (
 aFlags
 )
+mCompositableCount
+(
+0
+)
 {
 }
 TextureHost
