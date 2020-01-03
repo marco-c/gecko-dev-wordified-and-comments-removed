@@ -8325,6 +8325,15 @@ not
 :
 hover
 )
+:
+not
+(
+[
+open
+=
+true
+]
+)
 {
 background
 -
