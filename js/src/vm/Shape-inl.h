@@ -407,6 +407,9 @@ return
 js_ReportGetterOnlyAssignment
 (
 cx
+propid
+(
+)
 strict
 )
 ;

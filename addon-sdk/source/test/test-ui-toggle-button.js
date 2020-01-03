@@ -1853,13 +1853,10 @@ id
 /
 ^
 setting
-a
-property
-that
-has
-only
-a
 getter
+-
+only
+property
 /
 '
 id
