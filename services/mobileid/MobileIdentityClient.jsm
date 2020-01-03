@@ -282,7 +282,7 @@ hawk
 new
 HawkClient
 (
-SERVER_URL
+serverUrl
 )
 ;
 this
@@ -614,6 +614,18 @@ try
 {
 let
 responseObj
+;
+if
+(
+response
+.
+status
+!
+=
+204
+)
+{
+responseObj
 =
 JSON
 .
@@ -624,6 +636,7 @@ response
 body
 )
 ;
+}
 deferred
 .
 resolve
