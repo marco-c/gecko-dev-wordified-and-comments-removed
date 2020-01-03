@@ -8141,6 +8141,15 @@ nsGkAtoms
 :
 :
 section
+|
+|
+tag
+=
+=
+nsGkAtoms
+:
+:
+time
 )
 {
 nsRefPtr
