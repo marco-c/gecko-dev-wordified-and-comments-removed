@@ -5572,9 +5572,6 @@ JS_NUNBOX32
 NunboxList
 nunboxParts_
 ;
-uint32_t
-partialNunboxes_
-;
 #
 elif
 JS_PUNBOX64
