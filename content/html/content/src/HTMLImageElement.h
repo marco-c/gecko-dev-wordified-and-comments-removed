@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -143,6 +150,11 @@ ErrorResult
 aError
 )
 ;
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+HTMLImageElement
+nsGenericHTMLElement
+)
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 bool
