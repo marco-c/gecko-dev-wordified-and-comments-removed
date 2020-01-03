@@ -4023,7 +4023,7 @@ aEventType
 )
 {
 const
-int
+uint32_t
 MOZ_T_I_SIGNATURE
 =
 TABLET_INK_TOUCH
@@ -4031,7 +4031,7 @@ TABLET_INK_TOUCH
 TABLET_INK_SIGNATURE
 ;
 const
-int
+uint32_t
 MOZ_T_I_CHECK_TCH
 =
 TABLET_INK_TOUCH
