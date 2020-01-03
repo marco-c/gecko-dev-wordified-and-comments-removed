@@ -2061,7 +2061,6 @@ GetDisplay
 NS_STYLE_DISPLAY_INLINE
 |
 |
-(
 aFrame
 -
 >
@@ -2072,18 +2071,6 @@ StyleDisplay
 >
 IsRubyDisplayType
 (
-)
-&
-&
-aFrame
--
->
-GetDisplay
-(
-)
-!
-=
-NS_STYLE_DISPLAY_RUBY_TEXT_CONTAINER
 )
 |
 |
