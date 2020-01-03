@@ -8612,6 +8612,8 @@ slowPathOnLogAllocationSite
 JSContext
 *
 cx
+HandleObject
+obj
 HandleSavedFrame
 frame
 int64_t
@@ -8719,6 +8721,7 @@ dbgp
 appendAllocationSite
 (
 cx
+obj
 frame
 when
 )
@@ -8782,6 +8785,8 @@ appendAllocationSite
 JSContext
 *
 cx
+HandleObject
+obj
 HandleSavedFrame
 frame
 int64_t
@@ -8796,7 +8801,7 @@ object
 )
 ;
 RootedObject
-wrapped
+wrappedFrame
 (
 cx
 frame
@@ -8817,7 +8822,7 @@ wrap
 (
 cx
 &
-wrapped
+wrappedFrame
 )
 )
 return
@@ -8835,8 +8840,17 @@ new_
 AllocationSite
 >
 (
-wrapped
+wrappedFrame
 when
+obj
+-
+>
+getClass
+(
+)
+-
+>
+name
 )
 ;
 if

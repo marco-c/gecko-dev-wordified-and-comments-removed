@@ -587,6 +587,9 @@ SavedStacksMetadataCallback
 JSContext
 *
 cx
+JSObject
+*
+target
 )
 ;
 public
@@ -1256,6 +1259,9 @@ SavedStacksMetadataCallback
 JSContext
 *
 cx
+JSObject
+*
+target
 )
 ;
 }

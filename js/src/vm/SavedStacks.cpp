@@ -5879,8 +5879,18 @@ SavedStacksMetadataCallback
 JSContext
 *
 cx
+JSObject
+*
+target
 )
 {
+RootedObject
+obj
+(
+cx
+target
+)
+;
 SavedStacks
 &
 stacks
@@ -6027,6 +6037,7 @@ Debugger
 onLogAllocationSite
 (
 cx
+obj
 frame
 PRMJ_Now
 (

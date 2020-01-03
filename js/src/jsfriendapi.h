@@ -10244,6 +10244,9 @@ ObjectMetadataCallback
 JSContext
 *
 cx
+JSObject
+*
+obj
 )
 ;
 JS_FRIEND_API
