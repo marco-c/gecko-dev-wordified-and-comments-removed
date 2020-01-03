@@ -1522,7 +1522,7 @@ status
 =
 res
         
-flavors
+buckets
 =
 {
 }
@@ -1533,9 +1533,8 @@ in
 run_tests
 :
             
-flavors
-.
-setdefault
+key
+=
 (
 test
 [
@@ -1543,6 +1542,19 @@ test
 flavor
 '
 ]
+test
+[
+'
+subsuite
+'
+]
+)
+            
+buckets
+.
+setdefault
+(
+key
 [
 ]
 )
@@ -1553,12 +1565,15 @@ test
 )
         
 for
+(
 flavor
+subsuite
+)
 tests
 in
 sorted
 (
-flavors
+buckets
 .
 items
 (
@@ -1615,6 +1630,27 @@ status
                 
 continue
             
+kwargs
+=
+dict
+(
+m
+[
+'
+kwargs
+'
+]
+)
+            
+kwargs
+[
+'
+subsuite
+'
+]
+=
+subsuite
+            
 res
 =
 self
@@ -1641,12 +1677,7 @@ test_objects
 tests
 *
 *
-m
-[
-'
 kwargs
-'
-]
 )
             
 if
