@@ -695,6 +695,15 @@ aEvent
 )
 ;
 nsEventStatus
+OnScrollWheel
+(
+const
+ScrollWheelInput
+&
+aEvent
+)
+;
+nsEventStatus
 OnLongPress
 (
 const
