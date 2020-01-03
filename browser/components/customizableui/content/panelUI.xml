@@ -249,6 +249,13 @@ panel
 -
 mainview
 "
+xbl
+:
+inherits
+=
+"
+viewtype
+"
 /
 >
 <
