@@ -202,8 +202,6 @@ SYSTEM_UI_FLAG_FULLSCREEN
 0
 ;
 }
-else
-{
 final
 int
 flags
@@ -232,6 +230,5 @@ FLAG_FULLSCREEN
 0
 )
 ;
-}
 }
 }
