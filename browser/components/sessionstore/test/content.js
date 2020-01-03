@@ -346,7 +346,7 @@ executeSoon
 )
 =
 >
-sendSyncMessage
+sendAsyncMessage
 (
 "
 ss
