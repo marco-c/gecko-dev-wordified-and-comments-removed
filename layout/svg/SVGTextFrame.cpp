@@ -10824,10 +10824,9 @@ StyleSVGReset
 )
 -
 >
-mVectorEffect
-=
-=
-NS_STYLE_VECTOR_EFFECT_NON_SCALING_STROKE
+HasNonScalingStroke
+(
+)
 )
 {
 needNewBounds
