@@ -423,15 +423,6 @@ if
 thisElement
 -
 >
-GetParent
-(
-)
-|
-|
-!
-thisElement
--
->
 IsInDoc
 (
 )
