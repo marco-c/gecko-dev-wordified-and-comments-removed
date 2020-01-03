@@ -266,6 +266,13 @@ resetCompilerWarmUpThreshold
 (
 )
 ;
+void
+enableGvn
+(
+bool
+val
+)
+;
 }
 ;
 extern
