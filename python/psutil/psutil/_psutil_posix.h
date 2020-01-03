@@ -8,7 +8,7 @@ h
 static
 PyObject
 *
-posix_getpriority
+psutil_posix_getpriority
 (
 PyObject
 *
@@ -21,7 +21,7 @@ args
 static
 PyObject
 *
-posix_setpriority
+psutil_posix_setpriority
 (
 PyObject
 *

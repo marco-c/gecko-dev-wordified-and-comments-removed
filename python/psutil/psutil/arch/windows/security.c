@@ -13,7 +13,7 @@ Python
 h
 >
 HANDLE
-token_from_handle
+psutil_token_from_handle
 (
 HANDLE
 hProcess
@@ -48,7 +48,7 @@ hToken
 ;
 }
 int
-HasSystemPrivilege
+psutil_has_system_privilege
 (
 HANDLE
 hProcess
@@ -93,7 +93,7 @@ NULL
 HANDLE
 hToken
 =
-token_from_handle
+psutil_token_from_handle
 (
 hProcess
 )
@@ -326,7 +326,7 @@ return
 ;
 }
 BOOL
-SetPrivilege
+psutil_set_privilege
 (
 HANDLE
 hToken
@@ -514,7 +514,7 @@ TRUE
 ;
 }
 int
-SetSeDebug
+psutil_set_se_debug
 (
 )
 {
@@ -601,7 +601,7 @@ return
 if
 (
 !
-SetPrivilege
+psutil_set_privilege
 (
 hToken
 SE_DEBUG_NAME
@@ -636,7 +636,7 @@ return
 ;
 }
 int
-UnsetSeDebug
+psutil_unset_se_debug
 (
 )
 {
@@ -709,7 +709,7 @@ return
 if
 (
 !
-SetPrivilege
+psutil_set_privilege
 (
 hToken
 SE_DEBUG_NAME

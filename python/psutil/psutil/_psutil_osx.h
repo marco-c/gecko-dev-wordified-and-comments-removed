@@ -8,7 +8,7 @@ h
 static
 PyObject
 *
-get_process_name
+psutil_proc_cmdline
 (
 PyObject
 *
@@ -21,7 +21,7 @@ args
 static
 PyObject
 *
-get_process_cmdline
+psutil_proc_connections
 (
 PyObject
 *
@@ -34,7 +34,7 @@ args
 static
 PyObject
 *
-get_process_cwd
+psutil_proc_cpu_times
 (
 PyObject
 *
@@ -47,7 +47,7 @@ args
 static
 PyObject
 *
-get_process_exe
+psutil_proc_create_time
 (
 PyObject
 *
@@ -60,7 +60,7 @@ args
 static
 PyObject
 *
-get_process_ppid
+psutil_proc_cwd
 (
 PyObject
 *
@@ -73,7 +73,7 @@ args
 static
 PyObject
 *
-get_process_uids
+psutil_proc_exe
 (
 PyObject
 *
@@ -86,7 +86,7 @@ args
 static
 PyObject
 *
-get_process_gids
+psutil_proc_gids
 (
 PyObject
 *
@@ -99,7 +99,7 @@ args
 static
 PyObject
 *
-get_process_cpu_times
+psutil_proc_memory_info
 (
 PyObject
 *
@@ -112,7 +112,7 @@ args
 static
 PyObject
 *
-get_process_create_time
+psutil_proc_memory_maps
 (
 PyObject
 *
@@ -125,7 +125,7 @@ args
 static
 PyObject
 *
-get_process_memory_info
+psutil_proc_name
 (
 PyObject
 *
@@ -138,7 +138,7 @@ args
 static
 PyObject
 *
-get_process_num_threads
+psutil_proc_num_fds
 (
 PyObject
 *
@@ -151,7 +151,7 @@ args
 static
 PyObject
 *
-get_process_status
+psutil_proc_num_threads
 (
 PyObject
 *
@@ -164,7 +164,7 @@ args
 static
 PyObject
 *
-get_process_threads
+psutil_proc_open_files
 (
 PyObject
 *
@@ -177,7 +177,7 @@ args
 static
 PyObject
 *
-get_process_open_files
+psutil_proc_ppid
 (
 PyObject
 *
@@ -190,7 +190,7 @@ args
 static
 PyObject
 *
-get_process_connections
+psutil_proc_status
 (
 PyObject
 *
@@ -203,7 +203,7 @@ args
 static
 PyObject
 *
-get_process_num_fds
+psutil_proc_threads
 (
 PyObject
 *
@@ -216,7 +216,7 @@ args
 static
 PyObject
 *
-get_process_tty_nr
+psutil_proc_tty_nr
 (
 PyObject
 *
@@ -229,7 +229,7 @@ args
 static
 PyObject
 *
-get_process_memory_maps
+psutil_proc_uids
 (
 PyObject
 *
@@ -242,7 +242,7 @@ args
 static
 PyObject
 *
-get_pid_list
+psutil_boot_time
 (
 PyObject
 *
@@ -255,7 +255,7 @@ args
 static
 PyObject
 *
-get_num_cpus
+psutil_cpu_count_logical
 (
 PyObject
 *
@@ -268,7 +268,7 @@ args
 static
 PyObject
 *
-get_virtual_mem
+psutil_cpu_count_phys
 (
 PyObject
 *
@@ -281,7 +281,7 @@ args
 static
 PyObject
 *
-get_swap_mem
+psutil_cpu_times
 (
 PyObject
 *
@@ -294,7 +294,7 @@ args
 static
 PyObject
 *
-get_system_cpu_times
+psutil_disk_io_counters
 (
 PyObject
 *
@@ -307,7 +307,7 @@ args
 static
 PyObject
 *
-get_system_per_cpu_times
+psutil_disk_partitions
 (
 PyObject
 *
@@ -320,7 +320,7 @@ args
 static
 PyObject
 *
-get_system_boot_time
+psutil_net_io_counters
 (
 PyObject
 *
@@ -333,7 +333,7 @@ args
 static
 PyObject
 *
-get_disk_partitions
+psutil_per_cpu_times
 (
 PyObject
 *
@@ -346,7 +346,7 @@ args
 static
 PyObject
 *
-get_net_io_counters
+psutil_pids
 (
 PyObject
 *
@@ -359,7 +359,7 @@ args
 static
 PyObject
 *
-get_disk_io_counters
+psutil_swap_mem
 (
 PyObject
 *
@@ -372,7 +372,20 @@ args
 static
 PyObject
 *
-get_system_users
+psutil_users
+(
+PyObject
+*
+self
+PyObject
+*
+args
+)
+;
+static
+PyObject
+*
+psutil_virtual_mem
 (
 PyObject
 *

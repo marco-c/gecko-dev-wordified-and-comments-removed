@@ -8,7 +8,7 @@ h
 static
 PyObject
 *
-linux_ioprio_get
+psutil_proc_cpu_affinity_get
 (
 PyObject
 *
@@ -21,7 +21,7 @@ args
 static
 PyObject
 *
-linux_ioprio_set
+psutil_proc_cpu_affinity_set
 (
 PyObject
 *
@@ -34,7 +34,7 @@ args
 static
 PyObject
 *
-get_disk_partitions
+psutil_proc_ioprio_get
 (
 PyObject
 *
@@ -47,7 +47,7 @@ args
 static
 PyObject
 *
-get_sysinfo
+psutil_proc_ioprio_get
 (
 PyObject
 *
@@ -60,7 +60,7 @@ args
 static
 PyObject
 *
-get_process_cpu_affinity
+psutil_disk_partitions
 (
 PyObject
 *
@@ -73,7 +73,7 @@ args
 static
 PyObject
 *
-set_process_cpu_affinity
+psutil_linux_sysinfo
 (
 PyObject
 *
@@ -86,7 +86,7 @@ args
 static
 PyObject
 *
-get_system_users
+psutil_users
 (
 PyObject
 *
