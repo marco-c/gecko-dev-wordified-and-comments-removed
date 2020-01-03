@@ -122,11 +122,6 @@ StreamSocket
 h
 '
 '
-UnixSocket
-.
-h
-'
-'
 UnixSocketConnector
 .
 h
@@ -153,11 +148,6 @@ cpp
 '
 '
 StreamSocket
-.
-cpp
-'
-'
-UnixSocket
 .
 cpp
 '
