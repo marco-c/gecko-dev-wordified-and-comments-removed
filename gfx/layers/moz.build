@@ -1079,6 +1079,11 @@ TextureHostOGL
 h
 '
 '
+PersistentBufferProvider
+.
+h
+'
+'
 RenderTrace
 .
 h
@@ -2155,6 +2160,11 @@ cpp
 '
 '
 LayerTreeInvalidation
+.
+cpp
+'
+'
+PersistentBufferProvider
 .
 cpp
 '
