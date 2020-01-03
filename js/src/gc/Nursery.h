@@ -247,10 +247,6 @@ enableProfiling_
 (
 false
 )
-freeHugeSlotsTask
-(
-nullptr
-)
 {
 }
 ~
@@ -549,11 +545,6 @@ direct
 )
 ;
 }
-void
-waitBackgroundFreeEnd
-(
-)
-;
 size_t
 sizeOfHeapCommitted
 (
@@ -824,13 +815,6 @@ HugeSlotsSet
 ;
 HugeSlotsSet
 hugeSlots
-;
-struct
-FreeHugeSlotsTask
-;
-FreeHugeSlotsTask
-*
-freeHugeSlotsTask
 ;
 typedef
 HashMap

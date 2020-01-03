@@ -3586,12 +3586,6 @@ duration_
 )
 {
 }
-virtual
-~
-GCParallelTask
-(
-)
-;
 int64_t
 duration
 (
