@@ -3878,13 +3878,6 @@ mBlank
 return
 false
 ;
-if
-(
-gMultiProcessBrowser
-)
-return
-true
-;
 /
 /
 Don
