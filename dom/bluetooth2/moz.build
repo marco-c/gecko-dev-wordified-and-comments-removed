@@ -358,6 +358,13 @@ cpp
 '
 bluedroid
 /
+BluetoothGattManager
+.
+cpp
+'
+'
+bluedroid
+/
 BluetoothHALHelpers
 .
 cpp

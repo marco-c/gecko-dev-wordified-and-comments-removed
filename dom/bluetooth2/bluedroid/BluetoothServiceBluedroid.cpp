@@ -15,6 +15,13 @@ h
 #
 include
 "
+BluetoothGattManager
+.
+h
+"
+#
+include
+"
 BluetoothHfpManager
 .
 h
@@ -673,6 +680,10 @@ BluetoothA2dpManager
 :
 :
 DeinitA2dpInterface
+BluetoothGattManager
+:
+:
+DeinitGattInterface
 }
 ;
 MOZ_ASSERT
@@ -1237,6 +1248,10 @@ BluetoothA2dpManager
 :
 :
 InitA2dpInterface
+BluetoothGattManager
+:
+:
+InitGattInterface
 }
 ;
 MOZ_ASSERT
