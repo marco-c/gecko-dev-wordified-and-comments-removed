@@ -62,6 +62,7 @@ gfxIntSize
 const
 SurfaceCaps
 &
+bool
 )
 {
 return
@@ -77,6 +78,7 @@ GLContextProviderNull
 :
 CreateHeadless
 (
+bool
 )
 {
 return
