@@ -6699,6 +6699,13 @@ deferred
 .
 reject
 (
+"
+favicon
+not
+found
+for
+uri
+"
 )
 ;
 }
