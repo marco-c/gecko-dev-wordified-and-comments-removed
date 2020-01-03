@@ -1896,7 +1896,7 @@ execute
 PRAGMA
 user_version
 =
-3
+4
 "
 )
 ;
@@ -1934,6 +1934,8 @@ INTEGER
 expireType
 INTEGER
 expireTime
+INTEGER
+modificationTime
 INTEGER
 appId
 INTEGER
@@ -1980,6 +1982,7 @@ NULL
 ?
 ?
 ?
+0
 0
 0
 0

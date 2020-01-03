@@ -144,6 +144,8 @@ uint32_t
 aExpireType
 int64_t
 aExpireTime
+int64_t
+aModificationTime
 )
 :
 mID
@@ -165,6 +167,10 @@ aExpireType
 mExpireTime
 (
 aExpireTime
+)
+mModificationTime
+(
+aModificationTime
 )
 mNonSessionPermission
 (
@@ -194,6 +200,9 @@ mExpireType
 ;
 int64_t
 mExpireTime
+;
+int64_t
+mModificationTime
 ;
 uint32_t
 mNonSessionPermission
@@ -581,6 +590,7 @@ nsIPermissionManager
 :
 EXPIRE_NEVER
 0
+0
 )
 ;
 }
@@ -664,6 +674,8 @@ uint32_t
 aExpireType
 int64_t
 aExpireTime
+int64_t
+aModificationTime
 NotifyOperationType
 aNotifyOperation
 DBOperationType
@@ -863,6 +875,8 @@ uint32_t
 aExpireType
 int64_t
 aExpireTime
+int64_t
+aModificationTime
 uint32_t
 aAppId
 bool
@@ -938,6 +952,13 @@ entry
 void
 *
 nonused
+)
+;
+nsresult
+RemoveAllModifiedSince
+(
+int64_t
+aModificationTime
 )
 ;
 nsCOMPtr

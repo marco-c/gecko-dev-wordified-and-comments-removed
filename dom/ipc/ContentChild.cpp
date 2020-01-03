@@ -7162,6 +7162,11 @@ rv
 true
 )
 ;
+int64_t
+modificationTime
+=
+0
+;
 permissionManager
 -
 >
@@ -7184,6 +7189,7 @@ expireType
 permission
 .
 expireTime
+modificationTime
 nsPermissionManager
 :
 :
