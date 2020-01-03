@@ -2655,6 +2655,11 @@ TextTrack
 webidl
 '
 '
+TextTrackCue
+.
+webidl
+'
+'
 TextTrackCueList
 .
 webidl
