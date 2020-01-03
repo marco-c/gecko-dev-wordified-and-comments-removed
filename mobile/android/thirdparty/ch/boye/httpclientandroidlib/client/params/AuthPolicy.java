@@ -20,6 +20,7 @@ annotation
 .
 Immutable
 ;
+Deprecated
 Immutable
 public
 final
@@ -74,6 +75,16 @@ SPNEGO
 =
 "
 negotiate
+"
+;
+public
+static
+final
+String
+KERBEROS
+=
+"
+Kerberos
 "
 ;
 }

@@ -124,6 +124,7 @@ instanceof
 SetCookie2
 )
 {
+final
 SetCookie2
 cookie2
 =

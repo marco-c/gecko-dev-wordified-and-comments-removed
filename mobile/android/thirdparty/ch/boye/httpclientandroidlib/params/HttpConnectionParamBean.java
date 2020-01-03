@@ -7,6 +7,7 @@ httpclientandroidlib
 .
 params
 ;
+Deprecated
 public
 class
 HttpConnectionParamBean
@@ -31,6 +32,7 @@ public
 void
 setSoTimeout
 (
+final
 int
 soTimeout
 )
@@ -48,6 +50,7 @@ public
 void
 setTcpNoDelay
 (
+final
 boolean
 tcpNoDelay
 )
@@ -65,6 +68,7 @@ public
 void
 setSocketBufferSize
 (
+final
 int
 socketBufferSize
 )
@@ -82,6 +86,7 @@ public
 void
 setLinger
 (
+final
 int
 linger
 )
@@ -99,6 +104,7 @@ public
 void
 setConnectionTimeout
 (
+final
 int
 connectionTimeout
 )
@@ -116,6 +122,7 @@ public
 void
 setStaleCheckingEnabled
 (
+final
 boolean
 staleCheckingEnabled
 )

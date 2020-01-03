@@ -48,6 +48,7 @@ conn
 .
 AbstractPooledConnAdapter
 ;
+Deprecated
 public
 class
 BasicPooledConnAdapter
@@ -57,8 +58,10 @@ AbstractPooledConnAdapter
 protected
 BasicPooledConnAdapter
 (
+final
 ThreadSafeClientConnManager
 tsccm
+final
 AbstractPoolEntry
 entry
 )

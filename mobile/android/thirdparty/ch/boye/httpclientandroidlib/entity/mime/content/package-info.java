@@ -1,0 +1,13 @@
+package
+ch
+.
+boye
+.
+httpclientandroidlib
+.
+entity
+.
+mime
+.
+content
+;

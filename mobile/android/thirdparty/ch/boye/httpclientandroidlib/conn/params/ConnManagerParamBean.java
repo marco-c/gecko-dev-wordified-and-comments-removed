@@ -84,7 +84,6 @@ timeout
 )
 ;
 }
-Deprecated
 public
 void
 setMaxTotalConnections
@@ -105,7 +104,6 @@ maxConnections
 )
 ;
 }
-Deprecated
 public
 void
 setConnectionsPerRoute

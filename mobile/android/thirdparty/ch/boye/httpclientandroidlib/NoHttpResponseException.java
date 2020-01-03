@@ -30,6 +30,7 @@ serialVersionUID
 public
 NoHttpResponseException
 (
+final
 String
 message
 )

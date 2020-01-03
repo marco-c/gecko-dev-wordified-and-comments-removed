@@ -30,6 +30,7 @@ net
 .
 UnknownHostException
 ;
+Deprecated
 public
 interface
 LayeredSchemeSocketFactory

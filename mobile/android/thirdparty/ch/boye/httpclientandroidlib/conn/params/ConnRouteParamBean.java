@@ -23,9 +23,7 @@ boye
 .
 httpclientandroidlib
 .
-annotation
-.
-NotThreadSafe
+HttpHost
 ;
 import
 ch
@@ -34,7 +32,9 @@ boye
 .
 httpclientandroidlib
 .
-HttpHost
+annotation
+.
+NotThreadSafe
 ;
 import
 ch
@@ -71,6 +71,7 @@ params
 .
 HttpParams
 ;
+Deprecated
 NotThreadSafe
 public
 class

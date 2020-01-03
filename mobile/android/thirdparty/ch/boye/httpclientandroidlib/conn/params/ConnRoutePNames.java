@@ -9,6 +9,7 @@ conn
 .
 params
 ;
+Deprecated
 public
 interface
 ConnRoutePNames

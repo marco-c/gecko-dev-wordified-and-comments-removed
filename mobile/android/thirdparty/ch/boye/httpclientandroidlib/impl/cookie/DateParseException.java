@@ -20,6 +20,7 @@ annotation
 .
 Immutable
 ;
+Deprecated
 Immutable
 public
 class
@@ -48,6 +49,7 @@ super
 public
 DateParseException
 (
+final
 String
 message
 )

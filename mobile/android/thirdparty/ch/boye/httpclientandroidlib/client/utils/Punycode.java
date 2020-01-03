@@ -48,6 +48,7 @@ JdkIdn
 }
 catch
 (
+final
 Exception
 e
 )
@@ -70,6 +71,7 @@ static
 String
 toUnicode
 (
+final
 String
 punycode
 )

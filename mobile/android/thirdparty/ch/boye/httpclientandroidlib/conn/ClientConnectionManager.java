@@ -42,6 +42,7 @@ scheme
 .
 SchemeRegistry
 ;
+Deprecated
 public
 interface
 ClientConnectionManager

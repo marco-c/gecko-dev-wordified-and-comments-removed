@@ -22,6 +22,7 @@ routing
 .
 HttpRoute
 ;
+Deprecated
 public
 interface
 ConnPerRoute

@@ -7,6 +7,7 @@ httpclientandroidlib
 .
 protocol
 ;
+Deprecated
 public
 interface
 ExecutionContext
@@ -59,6 +60,7 @@ http
 target_host
 "
 ;
+Deprecated
 public
 static
 final

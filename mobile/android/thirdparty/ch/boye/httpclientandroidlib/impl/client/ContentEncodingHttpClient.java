@@ -79,6 +79,7 @@ protocol
 .
 BasicHttpProcessor
 ;
+Deprecated
 ThreadSafe
 public
 class
@@ -89,8 +90,10 @@ DefaultHttpClient
 public
 ContentEncodingHttpClient
 (
+final
 ClientConnectionManager
 conman
+final
 HttpParams
 params
 )
@@ -105,6 +108,7 @@ params
 public
 ContentEncodingHttpClient
 (
+final
 HttpParams
 params
 )
@@ -134,6 +138,7 @@ createHttpProcessor
 (
 )
 {
+final
 BasicHttpProcessor
 result
 =

@@ -38,6 +38,7 @@ routing
 .
 HttpRoute
 ;
+Deprecated
 public
 interface
 HttpRoutedConnection

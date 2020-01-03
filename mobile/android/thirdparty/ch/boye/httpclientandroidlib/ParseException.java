@@ -33,6 +33,7 @@ super
 public
 ParseException
 (
+final
 String
 message
 )

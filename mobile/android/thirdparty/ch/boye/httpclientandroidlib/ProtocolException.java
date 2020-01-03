@@ -33,6 +33,7 @@ super
 public
 ProtocolException
 (
+final
 String
 message
 )
@@ -46,8 +47,10 @@ message
 public
 ProtocolException
 (
+final
 String
 message
+final
 Throwable
 cause
 )

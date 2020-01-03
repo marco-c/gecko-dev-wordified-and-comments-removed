@@ -23,6 +23,7 @@ httpclientandroidlib
 .
 HttpRequestInterceptor
 ;
+Deprecated
 public
 interface
 HttpRequestInterceptorList
@@ -64,6 +65,11 @@ void
 removeRequestInterceptorByClass
 (
 Class
+<
+?
+extends
+HttpRequestInterceptor
+>
 clazz
 )
 ;
@@ -71,6 +77,9 @@ void
 setInterceptors
 (
 List
+<
+?
+>
 list
 )
 ;

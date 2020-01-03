@@ -14,9 +14,7 @@ boye
 .
 httpclientandroidlib
 .
-annotation
-.
-Immutable
+ProtocolException
 ;
 import
 ch
@@ -25,7 +23,9 @@ boye
 .
 httpclientandroidlib
 .
-ProtocolException
+annotation
+.
+Immutable
 ;
 Immutable
 public
@@ -56,6 +56,7 @@ super
 public
 MalformedCookieException
 (
+final
 String
 message
 )
@@ -69,8 +70,10 @@ message
 public
 MalformedCookieException
 (
+final
 String
 message
+final
 Throwable
 cause
 )

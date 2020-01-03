@@ -17,6 +17,9 @@ interface
 TokenIterator
 extends
 Iterator
+<
+Object
+>
 {
 boolean
 hasNext

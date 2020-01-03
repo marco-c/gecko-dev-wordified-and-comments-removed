@@ -20,6 +20,7 @@ annotation
 .
 Immutable
 ;
+Deprecated
 Immutable
 public
 final

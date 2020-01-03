@@ -35,8 +35,13 @@ HttpMessage
 public
 interface
 HttpMessageParser
-{
+<
+T
+extends
 HttpMessage
+>
+{
+T
 parse
 (
 )

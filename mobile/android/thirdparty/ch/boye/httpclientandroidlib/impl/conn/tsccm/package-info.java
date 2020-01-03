@@ -1,0 +1,13 @@
+package
+ch
+.
+boye
+.
+httpclientandroidlib
+.
+impl
+.
+conn
+.
+tsccm
+;

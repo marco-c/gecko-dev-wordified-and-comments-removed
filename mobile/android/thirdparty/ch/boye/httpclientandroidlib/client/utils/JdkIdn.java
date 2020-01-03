@@ -57,6 +57,7 @@ JdkIdn
 throws
 ClassNotFoundException
 {
+final
 Class
 <
 ?
@@ -95,6 +96,7 @@ class
 }
 catch
 (
+final
 SecurityException
 e
 )
@@ -114,6 +116,7 @@ e
 }
 catch
 (
+final
 NoSuchMethodException
 e
 )
@@ -136,6 +139,7 @@ public
 String
 toUnicode
 (
+final
 String
 punycode
 )
@@ -157,6 +161,7 @@ punycode
 }
 catch
 (
+final
 IllegalAccessException
 e
 )
@@ -176,10 +181,12 @@ e
 }
 catch
 (
+final
 InvocationTargetException
 e
 )
 {
+final
 Throwable
 t
 =

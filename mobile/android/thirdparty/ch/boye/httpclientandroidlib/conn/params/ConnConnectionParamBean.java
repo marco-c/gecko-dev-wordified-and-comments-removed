@@ -16,17 +16,6 @@ boye
 .
 httpclientandroidlib
 .
-annotation
-.
-NotThreadSafe
-;
-import
-ch
-.
-boye
-.
-httpclientandroidlib
-.
 params
 .
 HttpAbstractParamBean
@@ -42,7 +31,7 @@ params
 .
 HttpParams
 ;
-NotThreadSafe
+Deprecated
 public
 class
 ConnConnectionParamBean
@@ -63,6 +52,7 @@ params
 )
 ;
 }
+Deprecated
 public
 void
 setMaxStatusLineGarbage

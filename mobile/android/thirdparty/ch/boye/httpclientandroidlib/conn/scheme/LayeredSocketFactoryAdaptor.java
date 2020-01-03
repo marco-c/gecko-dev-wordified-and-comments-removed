@@ -72,8 +72,10 @@ socket
 final
 String
 host
+final
 int
 port
+final
 boolean
 autoClose
 )

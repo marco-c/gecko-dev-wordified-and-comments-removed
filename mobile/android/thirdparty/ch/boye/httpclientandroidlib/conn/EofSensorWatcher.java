@@ -12,14 +12,14 @@ java
 .
 io
 .
-InputStream
+IOException
 ;
 import
 java
 .
 io
 .
-IOException
+InputStream
 ;
 public
 interface

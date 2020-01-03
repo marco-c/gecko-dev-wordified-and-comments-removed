@@ -46,6 +46,7 @@ super
 public
 CircularRedirectException
 (
+final
 String
 message
 )
@@ -59,8 +60,10 @@ message
 public
 CircularRedirectException
 (
+final
 String
 message
+final
 Throwable
 cause
 )

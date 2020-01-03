@@ -7,6 +7,7 @@ httpclientandroidlib
 .
 protocol
 ;
+Deprecated
 public
 interface
 HttpRequestHandlerResolver

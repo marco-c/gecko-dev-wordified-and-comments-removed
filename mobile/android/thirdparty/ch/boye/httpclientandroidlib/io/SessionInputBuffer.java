@@ -78,6 +78,7 @@ readLine
 throws
 IOException
 ;
+Deprecated
 boolean
 isDataAvailable
 (

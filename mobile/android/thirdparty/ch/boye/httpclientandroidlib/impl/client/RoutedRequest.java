@@ -33,6 +33,7 @@ routing
 .
 HttpRoute
 ;
+Deprecated
 NotThreadSafe
 public
 class

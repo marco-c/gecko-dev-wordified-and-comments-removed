@@ -42,6 +42,7 @@ statusCode
 public
 HttpResponseException
 (
+final
 int
 statusCode
 final

@@ -12,13 +12,6 @@ cookie
 import
 java
 .
-io
-.
-Serializable
-;
-import
-java
-.
 util
 .
 Date
@@ -53,7 +46,6 @@ extends
 BasicClientCookie
 implements
 SetCookie2
-Serializable
 {
 private
 static
@@ -162,6 +154,7 @@ public
 void
 setDiscard
 (
+final
 boolean
 discard
 )
@@ -227,6 +220,7 @@ clone
 throws
 CloneNotSupportedException
 {
+final
 BasicClientCookie2
 clone
 =

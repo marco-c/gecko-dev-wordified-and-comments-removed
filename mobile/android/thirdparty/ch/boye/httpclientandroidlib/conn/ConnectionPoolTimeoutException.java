@@ -47,6 +47,7 @@ super
 public
 ConnectionPoolTimeoutException
 (
+final
 String
 message
 )

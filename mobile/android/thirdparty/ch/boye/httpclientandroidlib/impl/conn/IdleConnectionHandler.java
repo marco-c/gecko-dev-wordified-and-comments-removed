@@ -119,14 +119,18 @@ public
 void
 add
 (
+final
 HttpConnection
 connection
+final
 long
 validDuration
+final
 TimeUnit
 unit
 )
 {
+final
 long
 timeAdded
 =
@@ -179,10 +183,12 @@ public
 boolean
 remove
 (
+final
 HttpConnection
 connection
 )
 {
+final
 TimeValues
 times
 =
@@ -255,10 +261,12 @@ public
 void
 closeIdleConnections
 (
+final
 long
 idleTime
 )
 {
+final
 long
 idleTimeout
 =
@@ -298,6 +306,7 @@ idleTimeout
 }
 for
 (
+final
 Entry
 <
 HttpConnection
@@ -312,6 +321,7 @@ entrySet
 )
 )
 {
+final
 HttpConnection
 conn
 =
@@ -321,6 +331,7 @@ getKey
 (
 )
 ;
+final
 TimeValues
 times
 =
@@ -330,6 +341,7 @@ getValue
 (
 )
 ;
+final
 long
 connectionTime
 =
@@ -382,6 +394,7 @@ close
 }
 catch
 (
+final
 IOException
 ex
 )
@@ -411,6 +424,7 @@ closeExpiredConnections
 (
 )
 {
+final
 long
 now
 =
@@ -448,6 +462,7 @@ now
 }
 for
 (
+final
 Entry
 <
 HttpConnection
@@ -462,6 +477,7 @@ entrySet
 )
 )
 {
+final
 HttpConnection
 conn
 =
@@ -471,6 +487,7 @@ getKey
 (
 )
 ;
+final
 TimeValues
 times
 =
@@ -527,6 +544,7 @@ close
 }
 catch
 (
+final
 IOException
 ex
 )
@@ -567,10 +585,13 @@ timeExpires
 ;
 TimeValues
 (
+final
 long
 now
+final
 long
 validDuration
+final
 TimeUnit
 validUnit
 )

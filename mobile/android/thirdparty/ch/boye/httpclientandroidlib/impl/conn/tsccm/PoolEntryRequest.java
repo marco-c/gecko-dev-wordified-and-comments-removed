@@ -31,6 +31,7 @@ conn
 .
 ConnectionPoolTimeoutException
 ;
+Deprecated
 public
 interface
 PoolEntryRequest

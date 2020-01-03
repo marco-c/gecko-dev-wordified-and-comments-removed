@@ -76,6 +76,7 @@ protocol
 .
 HttpContext
 ;
+Deprecated
 public
 interface
 AuthenticationHandler

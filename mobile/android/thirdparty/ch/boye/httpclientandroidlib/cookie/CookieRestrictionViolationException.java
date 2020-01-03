@@ -46,6 +46,7 @@ super
 public
 CookieRestrictionViolationException
 (
+final
 String
 message
 )

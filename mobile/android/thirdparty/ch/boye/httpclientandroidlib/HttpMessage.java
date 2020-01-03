@@ -16,6 +16,12 @@ params
 .
 HttpParams
 ;
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 interface
 HttpMessage
@@ -129,11 +135,13 @@ String
 name
 )
 ;
+Deprecated
 HttpParams
 getParams
 (
 )
 ;
+Deprecated
 void
 setParams
 (

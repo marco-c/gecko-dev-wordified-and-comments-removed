@@ -35,11 +35,16 @@ HttpMessage
 public
 interface
 HttpMessageWriter
+<
+T
+extends
+HttpMessage
+>
 {
 void
 write
 (
-HttpMessage
+T
 message
 )
 throws

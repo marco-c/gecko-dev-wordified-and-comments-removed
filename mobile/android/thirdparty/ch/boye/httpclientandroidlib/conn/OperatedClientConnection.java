@@ -59,6 +59,7 @@ params
 .
 HttpParams
 ;
+Deprecated
 public
 interface
 OperatedClientConnection

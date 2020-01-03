@@ -5,15 +5,6 @@ boye
 .
 httpclientandroidlib
 ;
-import
-ch
-.
-boye
-.
-httpclientandroidlib
-.
-ProtocolException
-;
 public
 class
 UnsupportedHttpVersionException

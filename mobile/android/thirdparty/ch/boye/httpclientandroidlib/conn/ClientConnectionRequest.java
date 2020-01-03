@@ -16,6 +16,7 @@ concurrent
 .
 TimeUnit
 ;
+Deprecated
 public
 interface
 ClientConnectionRequest

@@ -117,6 +117,7 @@ IOException
 UnknownHostException
 ConnectTimeoutException
 {
+final
 String
 host
 =
@@ -126,6 +127,7 @@ getHostName
 (
 )
 ;
+final
 int
 port
 =
@@ -258,9 +260,11 @@ obj
 =
 null
 )
+{
 return
 false
 ;
+}
 if
 (
 this
@@ -268,9 +272,11 @@ this
 =
 obj
 )
+{
 return
 true
 ;
+}
 if
 (
 obj

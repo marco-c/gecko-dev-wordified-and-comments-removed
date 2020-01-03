@@ -16,7 +16,6 @@ public
 interface
 ReasonPhraseCatalog
 {
-public
 String
 getReason
 (

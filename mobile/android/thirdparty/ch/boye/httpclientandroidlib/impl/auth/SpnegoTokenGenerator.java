@@ -16,6 +16,7 @@ io
 .
 IOException
 ;
+Deprecated
 public
 interface
 SpnegoTokenGenerator

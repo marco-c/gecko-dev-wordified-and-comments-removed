@@ -49,6 +49,7 @@ params
 .
 HttpParams
 ;
+Deprecated
 NotThreadSafe
 public
 class

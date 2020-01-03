@@ -48,6 +48,7 @@ super
 public
 UnsupportedDigestAlgorithmException
 (
+final
 String
 message
 )
@@ -61,8 +62,10 @@ message
 public
 UnsupportedDigestAlgorithmException
 (
+final
 String
 message
+final
 Throwable
 cause
 )

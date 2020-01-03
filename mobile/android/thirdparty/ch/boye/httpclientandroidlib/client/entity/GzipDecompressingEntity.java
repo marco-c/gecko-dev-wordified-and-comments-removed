@@ -50,17 +50,6 @@ httpclientandroidlib
 .
 HttpEntity
 ;
-import
-ch
-.
-boye
-.
-httpclientandroidlib
-.
-entity
-.
-HttpEntityWrapper
-;
 public
 class
 GzipDecompressingEntity
@@ -83,7 +72,7 @@ entity
 }
 Override
 InputStream
-getDecompressingInputStream
+decorate
 (
 final
 InputStream

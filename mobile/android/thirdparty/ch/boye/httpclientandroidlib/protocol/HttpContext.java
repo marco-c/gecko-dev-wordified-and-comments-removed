@@ -7,13 +7,6 @@ httpclientandroidlib
 .
 protocol
 ;
-import
-java
-.
-util
-.
-HashMap
-;
 public
 interface
 HttpContext

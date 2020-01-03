@@ -77,6 +77,7 @@ isStreaming
 (
 )
 ;
+Deprecated
 void
 consumeContent
 (

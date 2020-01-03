@@ -17,6 +17,9 @@ interface
 HeaderIterator
 extends
 Iterator
+<
+Object
+>
 {
 boolean
 hasNext

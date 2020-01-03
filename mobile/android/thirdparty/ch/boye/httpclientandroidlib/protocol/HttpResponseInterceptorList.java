@@ -23,6 +23,7 @@ httpclientandroidlib
 .
 HttpResponseInterceptor
 ;
+Deprecated
 public
 interface
 HttpResponseInterceptorList
@@ -64,6 +65,11 @@ void
 removeResponseInterceptorByClass
 (
 Class
+<
+?
+extends
+HttpResponseInterceptor
+>
 clazz
 )
 ;
@@ -71,6 +77,9 @@ void
 setInterceptors
 (
 List
+<
+?
+>
 list
 )
 ;

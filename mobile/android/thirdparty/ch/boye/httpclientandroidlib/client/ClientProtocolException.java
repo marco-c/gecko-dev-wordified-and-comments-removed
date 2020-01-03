@@ -54,6 +54,7 @@ super
 public
 ClientProtocolException
 (
+final
 String
 s
 )
@@ -67,6 +68,7 @@ s
 public
 ClientProtocolException
 (
+final
 Throwable
 cause
 )
@@ -80,8 +82,10 @@ cause
 public
 ClientProtocolException
 (
+final
 String
 message
+final
 Throwable
 cause
 )

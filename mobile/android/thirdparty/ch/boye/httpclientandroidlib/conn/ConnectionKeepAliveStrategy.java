@@ -14,15 +14,6 @@ boye
 .
 httpclientandroidlib
 .
-ConnectionReuseStrategy
-;
-import
-ch
-.
-boye
-.
-httpclientandroidlib
-.
 HttpResponse
 ;
 import

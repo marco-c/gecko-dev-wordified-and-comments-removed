@@ -7,6 +7,7 @@ httpclientandroidlib
 .
 params
 ;
+Deprecated
 public
 interface
 HttpParams

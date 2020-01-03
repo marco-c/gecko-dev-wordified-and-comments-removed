@@ -9,6 +9,7 @@ cookie
 .
 params
 ;
+Deprecated
 public
 interface
 CookieSpecPNames

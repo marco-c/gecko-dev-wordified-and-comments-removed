@@ -1,0 +1,11 @@
+package
+ch
+.
+boye
+.
+httpclientandroidlib
+.
+conn
+.
+params
+;

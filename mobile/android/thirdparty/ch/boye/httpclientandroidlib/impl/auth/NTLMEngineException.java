@@ -59,6 +59,7 @@ super
 public
 NTLMEngineException
 (
+final
 String
 message
 )
@@ -72,8 +73,10 @@ message
 public
 NTLMEngineException
 (
+final
 String
 message
+final
 Throwable
 cause
 )

@@ -7,6 +7,19 @@ httpclientandroidlib
 .
 params
 ;
+import
+ch
+.
+boye
+.
+httpclientandroidlib
+.
+annotation
+.
+ThreadSafe
+;
+ThreadSafe
+Deprecated
 public
 class
 SyncBasicHttpParams
@@ -31,6 +44,7 @@ super
 )
 ;
 }
+Override
 public
 synchronized
 boolean
@@ -50,6 +64,7 @@ name
 )
 ;
 }
+Override
 public
 synchronized
 HttpParams
@@ -73,6 +88,7 @@ value
 )
 ;
 }
+Override
 public
 synchronized
 Object
@@ -92,6 +108,7 @@ name
 )
 ;
 }
+Override
 public
 synchronized
 boolean
@@ -111,6 +128,7 @@ name
 )
 ;
 }
+Override
 public
 synchronized
 boolean
@@ -130,6 +148,7 @@ name
 )
 ;
 }
+Override
 public
 synchronized
 void
@@ -154,6 +173,7 @@ value
 )
 ;
 }
+Override
 public
 synchronized
 void
@@ -168,6 +188,7 @@ clear
 )
 ;
 }
+Override
 public
 synchronized
 Object

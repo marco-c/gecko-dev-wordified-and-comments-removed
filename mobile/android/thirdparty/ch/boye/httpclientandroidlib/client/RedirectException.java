@@ -14,9 +14,7 @@ boye
 .
 httpclientandroidlib
 .
-annotation
-.
-Immutable
+ProtocolException
 ;
 import
 ch
@@ -25,7 +23,9 @@ boye
 .
 httpclientandroidlib
 .
-ProtocolException
+annotation
+.
+Immutable
 ;
 Immutable
 public
@@ -55,6 +55,7 @@ super
 public
 RedirectException
 (
+final
 String
 message
 )
@@ -68,8 +69,10 @@ message
 public
 RedirectException
 (
+final
 String
 message
+final
 Throwable
 cause
 )

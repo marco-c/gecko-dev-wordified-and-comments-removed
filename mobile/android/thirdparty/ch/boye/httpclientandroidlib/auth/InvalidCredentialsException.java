@@ -47,6 +47,7 @@ super
 public
 InvalidCredentialsException
 (
+final
 String
 message
 )
@@ -60,8 +61,10 @@ message
 public
 InvalidCredentialsException
 (
+final
 String
 message
+final
 Throwable
 cause
 )

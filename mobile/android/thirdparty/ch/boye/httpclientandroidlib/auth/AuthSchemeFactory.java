@@ -18,6 +18,7 @@ params
 .
 HttpParams
 ;
+Deprecated
 public
 interface
 AuthSchemeFactory

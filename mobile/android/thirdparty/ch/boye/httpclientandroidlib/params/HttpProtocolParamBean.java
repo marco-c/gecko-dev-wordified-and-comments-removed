@@ -16,6 +16,7 @@ httpclientandroidlib
 .
 HttpVersion
 ;
+Deprecated
 public
 class
 HttpProtocolParamBean
@@ -112,6 +113,7 @@ public
 void
 setUseExpectContinue
 (
+final
 boolean
 useExpectContinue
 )

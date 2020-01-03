@@ -9,10 +9,12 @@ conn
 .
 params
 ;
+Deprecated
 public
 interface
 ConnConnectionPNames
 {
+Deprecated
 public
 static
 final

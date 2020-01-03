@@ -31,6 +31,7 @@ params
 .
 HttpParams
 ;
+Deprecated
 public
 interface
 ClientConnectionManagerFactory

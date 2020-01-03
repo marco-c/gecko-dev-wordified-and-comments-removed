@@ -7,6 +7,7 @@ httpclientandroidlib
 .
 io
 ;
+Deprecated
 public
 interface
 EofSensor
