@@ -582,7 +582,7 @@ i
 ;
 i
 <
-checkedItemPositions
+clients
 .
 size
 (
