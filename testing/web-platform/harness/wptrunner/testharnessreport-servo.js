@@ -64,6 +64,11 @@ message
 t
 .
 message
+stack
+:
+t
+.
+stack
 }
 }
 )
@@ -77,6 +82,11 @@ message
 harness_status
 .
 message
+stack
+:
+harness_status
+.
+stack
 }
 )
 )

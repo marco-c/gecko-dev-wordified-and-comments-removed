@@ -20,7 +20,9 @@ from
 .
 .
 import
-wptrunner
+environment
+as
+env
 from
 base
 import
@@ -35,15 +37,17 @@ State
 def
 setup_paths
 (
-serve_root
+logger
+test_paths
 )
 :
     
-wptrunner
+env
 .
 do_delayed_imports
 (
-serve_root
+logger
+test_paths
 )
 class
 LoadConfig
@@ -752,9 +756,13 @@ tests_path
         
 setup_paths
 (
-self
-.
-serve_root
+logger
+kwargs
+[
+"
+test_paths
+"
+]
 )
         
 self

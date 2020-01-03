@@ -3046,6 +3046,12 @@ message
 expected
 =
 expected
+                                    
+stack
+=
+result
+.
+stack
 )
         
 expected

@@ -330,9 +330,17 @@ Exception
 :
     
 pass
-def
-static_handler
+class
+StaticHandler
 (
+object
+)
+:
+    
+def
+__init__
+(
+self
 path
 format_args
 content_type
@@ -341,7 +349,7 @@ content_type
 headers
 )
 :
-    
+        
 with
 open
 (
@@ -350,7 +358,9 @@ path
 as
 f
 :
-        
+            
+self
+.
 data
 =
 f
@@ -360,7 +370,9 @@ read
 )
 %
 format_args
-    
+        
+self
+.
 resp_headers
 =
 [
@@ -373,7 +385,7 @@ Type
 content_type
 )
 ]
-    
+        
 for
 k
 v
@@ -384,7 +396,7 @@ iteritems
 (
 )
 :
-        
+            
 resp_headers
 .
 append
@@ -404,27 +416,60 @@ _
 v
 )
 )
-    
+        
+self
+.
+handler
+=
 serve
 .
 handlers
 .
 handler
+(
+self
+.
+handle_request
+)
     
 def
-func
+handle_request
 (
+self
 request
 response
 )
 :
         
 return
+self
+.
 resp_headers
+self
+.
 data
     
+def
+__call__
+(
+self
+request
+response
+)
+:
+        
+rv
+=
+self
+.
+handler
+(
+request
+response
+)
+        
 return
-func
+rv
 class
 TestEnvironment
 (
@@ -540,6 +585,16 @@ multiprocessing
 Manager
 (
 )
+        
+self
+.
+routes
+=
+self
+.
+get_routes
+(
+)
     
 def
 __enter__
@@ -567,12 +622,6 @@ __enter__
 self
 .
 setup_server_logging
-(
-)
-        
-self
-.
-setup_routes
 (
 )
         
@@ -612,6 +661,10 @@ config
 self
 .
 ssl_env
+                                                         
+self
+.
+routes
 )
         
 return
@@ -1036,11 +1089,19 @@ Exception
 pass
     
 def
-setup_routes
+get_routes
 (
 self
 )
 :
+        
+routes
+=
+serve
+.
+default_routes
+(
+)
         
 for
 path
@@ -1063,7 +1124,6 @@ text
 /
 html
 "
-b
 "
 /
 testharness_runner
@@ -1104,7 +1164,6 @@ text
 javascript
 "
                  
-b
 "
 /
 resources
@@ -1119,7 +1178,7 @@ js
             
 handler
 =
-static_handler
+StaticHandler
 (
 os
 .
@@ -1134,8 +1193,6 @@ format_args
 content_type
 )
             
-serve
-.
 routes
 .
 insert
@@ -1146,7 +1203,10 @@ b
 "
 GET
 "
+str
+(
 route
+)
 handler
 )
 )
@@ -1213,9 +1273,10 @@ handler_cls
 in
 [
 (
-serve
-.
-any_method
+b
+"
+*
+"
                                    
 b
 "
@@ -1300,8 +1361,6 @@ url
 )
 )
                 
-serve
-.
 routes
 .
 insert
@@ -1322,18 +1381,17 @@ self
 test_paths
 :
             
-serve
-.
 routes
 =
-serve
-.
 routes
 [
 :
 -
 3
 ]
+        
+return
+routes
     
 def
 ensure_started
