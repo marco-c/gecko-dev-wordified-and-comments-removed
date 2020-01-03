@@ -1074,6 +1074,10 @@ GetCompleteFrameCount
 0
 )
 {
+PostHasTransparency
+(
+)
+;
 if
 (
 mInFrame
