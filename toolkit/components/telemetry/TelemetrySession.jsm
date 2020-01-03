@@ -2267,6 +2267,9 @@ null
 _delayedInitTask
 :
 null
+_delayedInitTaskDeferred
+:
+null
 getSimpleMeasurements
 :
 function
@@ -5179,7 +5182,7 @@ _log
 error
 (
 "
-setupTelemetry
+setupChromeProcess
 -
 init
 task
@@ -5191,7 +5194,9 @@ running
 return
 this
 .
-_delayedInitTask
+_delayedInitTaskDeferred
+.
+promise
 ;
 }
 if
@@ -5212,7 +5217,7 @@ _log
 error
 (
 "
-setupTelemetry
+setupChromeProcess
 -
 already
 initialized
@@ -5447,8 +5452,9 @@ MESSAGE_TELEMETRY_PAYLOAD
 this
 )
 ;
-let
-deferred
+this
+.
+_delayedInitTaskDeferred
 =
 Promise
 .
@@ -5577,7 +5583,9 @@ _onEnvironmentChange
 )
 )
 ;
-deferred
+this
+.
+_delayedInitTaskDeferred
 .
 resolve
 (
@@ -5589,7 +5597,9 @@ catch
 e
 )
 {
-deferred
+this
+.
+_delayedInitTaskDeferred
 .
 reject
 (
@@ -5601,6 +5611,12 @@ finally
 this
 .
 _delayedInitTask
+=
+null
+;
+this
+.
+_delayedInitTaskDeferred
 =
 null
 ;
@@ -5627,7 +5643,9 @@ arm
 )
 ;
 return
-deferred
+this
+.
+_delayedInitTaskDeferred
 .
 promise
 ;
