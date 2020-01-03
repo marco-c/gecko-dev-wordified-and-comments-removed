@@ -1038,12 +1038,6 @@ StopGonkBluetooth
 )
 ;
 static
-bool
-EnsureBluetoothHalLoad
-(
-)
-;
-static
 void
 ConnectDisconnect
 (
