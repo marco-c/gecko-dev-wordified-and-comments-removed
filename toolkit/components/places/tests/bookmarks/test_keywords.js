@@ -159,7 +159,6 @@ DBConn
 .
 createStatement
 (
-"
 SELECT
 id
 FROM
@@ -169,9 +168,6 @@ WHERE
 NOT
 EXISTS
 (
-"
-+
-"
 SELECT
 id
 FROM
@@ -182,11 +178,7 @@ keyword_id
 k
 .
 id
-"
-+
-"
 )
-"
 )
 ;
 try
@@ -232,7 +224,6 @@ DBConn
 .
 createStatement
 (
-"
 SELECT
 b
 .
@@ -240,9 +231,6 @@ id
 FROM
 moz_bookmarks
 b
-"
-+
-"
 LEFT
 JOIN
 moz_keywords
@@ -255,9 +243,6 @@ keyword_id
 k
 .
 id
-"
-+
-"
 WHERE
 keyword_id
 NOTNULL
@@ -266,7 +251,6 @@ k
 .
 id
 ISNULL
-"
 )
 ;
 try

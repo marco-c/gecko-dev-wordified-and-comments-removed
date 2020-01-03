@@ -541,7 +541,6 @@ mDBConn
 .
 createStatement
 (
-"
 SELECT
 h
 .
@@ -555,9 +554,6 @@ h
 frecency
 <
 0
-"
-+
-"
 AND
 EXISTS
 (
@@ -574,7 +570,6 @@ id
 )
 LIMIT
 1
-"
 )
 ;
 do_check_true
@@ -670,7 +665,6 @@ mDBConn
 .
 createStatement
 (
-"
 SELECT
 h
 .
@@ -693,9 +687,6 @@ url
 place
 :
 '
-"
-+
-"
 AND
 NOT
 EXISTS
@@ -713,7 +704,6 @@ id
 )
 LIMIT
 1
-"
 )
 ;
 do_check_false
@@ -737,7 +727,6 @@ mDBConn
 .
 createStatement
 (
-"
 SELECT
 f
 .
@@ -748,9 +737,6 @@ f
 WHERE
 NOT
 EXISTS
-"
-+
-"
 (
 SELECT
 id
@@ -765,7 +751,6 @@ id
 )
 LIMIT
 1
-"
 )
 ;
 do_check_false
@@ -789,7 +774,6 @@ mDBConn
 .
 createStatement
 (
-"
 SELECT
 a
 .
@@ -800,9 +784,6 @@ a
 WHERE
 NOT
 EXISTS
-"
-+
-"
 (
 SELECT
 id
@@ -817,7 +798,6 @@ place_id
 )
 LIMIT
 1
-"
 )
 ;
 do_check_false
@@ -841,7 +821,6 @@ mDBConn
 .
 createStatement
 (
-"
 SELECT
 i
 .
@@ -852,9 +831,6 @@ i
 WHERE
 NOT
 EXISTS
-"
-+
-"
 (
 SELECT
 id
@@ -869,7 +845,6 @@ place_id
 )
 LIMIT
 1
-"
 )
 ;
 do_check_false
@@ -893,7 +868,6 @@ mDBConn
 .
 createStatement
 (
-"
 SELECT
 h
 .
@@ -901,9 +875,6 @@ id
 FROM
 moz_places
 h
-"
-+
-"
 WHERE
 SUBSTR
 (
@@ -927,7 +898,6 @@ frecency
 0
 LIMIT
 1
-"
 )
 ;
 do_check_false
