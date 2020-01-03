@@ -562,7 +562,7 @@ paddd
 m6
 m4
 movd
-rax
+raxd
 m6
 ;
 store
@@ -638,7 +638,7 @@ paddd
 m6
 m4
 movd
-rax
+raxd
 m6
 ;
 store

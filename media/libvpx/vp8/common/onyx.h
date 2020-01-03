@@ -284,6 +284,10 @@ unsigned
 int
 rc_max_intra_bitrate_pct
 ;
+unsigned
+int
+screen_content_mode
+;
 int
 Mode
 ;
@@ -399,8 +403,7 @@ arnr_strength
 int
 arnr_type
 ;
-struct
-vpx_fixed_buf
+vpx_fixed_buf_t
 two_pass_stats_in
 ;
 struct

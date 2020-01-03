@@ -1622,6 +1622,12 @@ rcx
 *
 8
 ]
+cmp
+edx
+8
+jl
+.
+skip_assignment
 mov
 rcx
 rdx
@@ -1652,6 +1658,8 @@ movq
 rsi
 ]
 mm0
+.
+skip_assignment
 lea
 rsi
 [
@@ -2625,11 +2633,6 @@ Height
 int
 Pitch
 )
-extern
-sym
-(
-rand
-)
 global
 sym
 (
@@ -2663,7 +2666,7 @@ addnoise_loop
 call
 sym
 (
-rand
+LIBVPX_RAND
 )
 WRT_PLT
 mov

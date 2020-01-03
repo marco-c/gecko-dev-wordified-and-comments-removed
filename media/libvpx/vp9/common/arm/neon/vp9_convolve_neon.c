@@ -89,7 +89,7 @@ y_step_q4
 =
 16
 )
-return
+{
 vp9_convolve8_c
 (
 src
@@ -104,6 +104,9 @@ w
 h
 )
 ;
+return
+;
+}
 vp9_convolve8_horiz_neon
 (
 src
@@ -203,7 +206,7 @@ y_step_q4
 =
 16
 )
-return
+{
 vp9_convolve8_avg_c
 (
 src
@@ -218,6 +221,9 @@ w
 h
 )
 ;
+return
+;
+}
 vp9_convolve8_horiz_neon
 (
 src

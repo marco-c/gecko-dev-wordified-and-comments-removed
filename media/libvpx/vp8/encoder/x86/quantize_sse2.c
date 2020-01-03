@@ -124,11 +124,7 @@ if
 cmp
 )
 \
-goto
-select_eob_end_
-#
-#
-i
+break
 ;
 \
 qcoeff_ptr
@@ -153,13 +149,6 @@ b
 -
 >
 zrun_zbin_boost
-;
-\
-select_eob_end_
-#
-#
-i
-:
 ;
 \
 }

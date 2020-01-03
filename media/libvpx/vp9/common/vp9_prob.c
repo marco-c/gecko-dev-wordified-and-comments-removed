@@ -9,16 +9,12 @@ vp9_prob
 .
 h
 "
-DECLARE_ALIGNED
-(
-16
 const
 uint8_t
 vp9_norm
 [
 256
 ]
-)
 =
 {
 0
@@ -300,12 +296,6 @@ unsigned
 int
 *
 counts
-unsigned
-int
-count_sat
-unsigned
-int
-max_update
 vp9_prob
 *
 probs
@@ -344,8 +334,6 @@ l
 tree
 pre_probs
 counts
-count_sat
-max_update
 probs
 )
 ;
@@ -384,8 +372,6 @@ r
 tree
 pre_probs
 counts
-count_sat
-max_update
 probs
 )
 ;
@@ -410,7 +396,7 @@ i
 1
 ]
 =
-merge_probs
+mode_mv_merge_probs
 (
 pre_probs
 [
@@ -420,8 +406,6 @@ i
 1
 ]
 ct
-count_sat
-max_update
 )
 ;
 return
@@ -446,12 +430,6 @@ unsigned
 int
 *
 counts
-unsigned
-int
-count_sat
-unsigned
-int
-max_update_factor
 vp9_prob
 *
 probs
@@ -463,8 +441,6 @@ tree_merge_probs_impl
 tree
 pre_probs
 counts
-count_sat
-max_update_factor
 probs
 )
 ;

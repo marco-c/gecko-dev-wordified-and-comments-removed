@@ -669,6 +669,13 @@ corruption_detected
 0
 ;
 #
+else
+(
+void
+)
+mb_idx
+;
+#
 endif
 if
 (

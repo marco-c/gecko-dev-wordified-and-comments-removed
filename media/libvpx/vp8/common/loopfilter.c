@@ -35,11 +35,6 @@ vpx_mem
 .
 h
 "
-typedef
-unsigned
-char
-uc
-;
 static
 void
 lf_init_lut
@@ -1289,6 +1284,11 @@ cm
 -
 >
 lf_info
+;
+(
+void
+)
+post_uvstride
 ;
 for
 (

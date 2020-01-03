@@ -26,7 +26,7 @@ h
 #
 define
 VPX_MAXIMUM_WORK_BUFFERS
-1
+8
 #
 define
 VP9_MAXIMUM_REF_BUFFERS

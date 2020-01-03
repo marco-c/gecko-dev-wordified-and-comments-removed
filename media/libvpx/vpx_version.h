@@ -5,7 +5,7 @@ VERSION_MAJOR
 #
 define
 VERSION_MINOR
-3
+4
 #
 define
 VERSION_PATCH
@@ -14,9 +14,6 @@ VERSION_PATCH
 define
 VERSION_EXTRA
 "
-1236
--
-gafad1a8
 "
 #
 define
@@ -46,13 +43,9 @@ VERSION_STRING_NOSP
 "
 v1
 .
-3
+4
 .
 0
--
-1236
--
-gafad1a8
 "
 #
 define
@@ -60,11 +53,7 @@ VERSION_STRING
 "
 v1
 .
-3
+4
 .
 0
--
-1236
--
-gafad1a8
 "

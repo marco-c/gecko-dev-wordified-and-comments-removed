@@ -128,6 +128,14 @@ BLOCK_SIZES
 ;
 extern
 const
+BLOCK_SIZE
+txsize_to_bsize
+[
+TX_SIZES
+]
+;
+extern
+const
 TX_SIZE
 tx_mode_to_biggest_tx_size
 [

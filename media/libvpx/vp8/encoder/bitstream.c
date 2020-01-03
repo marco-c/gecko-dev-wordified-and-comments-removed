@@ -80,17 +80,6 @@ h
 #
 include
 "
-vp8
-/
-common
-/
-pragmas
-.
-h
-"
-#
-include
-"
 vpx
 /
 vpx_encoder
@@ -781,7 +770,7 @@ x
 ;
 }
 void
-vp8_pack_tokens_c
+vp8_pack_tokens
 (
 vp8_writer
 *
@@ -1788,7 +1777,7 @@ csize
 }
 static
 void
-pack_tokens_into_partitions_c
+pack_tokens_into_partitions
 (
 VP8_COMP
 *
@@ -1925,7 +1914,7 @@ stop
 p
 )
 ;
-vp8_pack_tokens_c
+vp8_pack_tokens
 (
 w
 p
@@ -1950,7 +1939,7 @@ pos
 }
 static
 void
-pack_mb_row_tokens_c
+pack_mb_row_tokens
 (
 VP8_COMP
 *
@@ -2025,7 +2014,7 @@ stop
 p
 )
 ;
-vp8_pack_tokens_c
+vp8_pack_tokens
 (
 w
 p
@@ -8190,7 +8179,7 @@ bc
 else
 #
 endif
-pack_tokens
+vp8_pack_tokens
 (
 &
 cpi

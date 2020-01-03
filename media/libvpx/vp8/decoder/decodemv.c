@@ -3224,6 +3224,11 @@ MB_MODE_INFO
 mbmi
 )
 {
+(
+void
+)
+mbmi
+;
 if
 (
 pbi

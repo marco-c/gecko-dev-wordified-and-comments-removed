@@ -98,8 +98,9 @@ YV12_BUFFER_CONFIG
 dest
 )
 ;
+static
 void
-vp8_yv12_copy_partial_frame_c
+yv12_copy_partial_frame
 (
 YV12_BUFFER_CONFIG
 *
@@ -752,7 +753,7 @@ best_filt_val
 =
 filt_val
 ;
-vp8_yv12_copy_partial_frame
+yv12_copy_partial_frame
 (
 saved_frame
 cm
@@ -804,7 +805,7 @@ filt_val
 min_filter_level
 )
 {
-vp8_yv12_copy_partial_frame
+yv12_copy_partial_frame
 (
 saved_frame
 cm
@@ -911,7 +912,7 @@ filt_val
 max_filter_level
 )
 {
-vp8_yv12_copy_partial_frame
+yv12_copy_partial_frame
 (
 saved_frame
 cm

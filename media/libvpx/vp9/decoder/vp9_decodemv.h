@@ -11,7 +11,7 @@ vp9
 /
 decoder
 /
-vp9_onyxd_int
+vp9_decoder
 .
 h
 "
@@ -42,12 +42,16 @@ TileInfo
 void
 vp9_read_mode_info
 (
-VP9_COMMON
+VP9Decoder
 *
-cm
+const
+pbi
 MACROBLOCKD
 *
 xd
+FRAME_COUNTS
+*
+counts
 const
 struct
 TileInfo

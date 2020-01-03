@@ -11,7 +11,7 @@ vp9
 /
 decoder
 /
-vp9_onyxd_int
+vp9_decoder
 .
 h
 "
@@ -45,6 +45,9 @@ cm
 MACROBLOCKD
 *
 xd
+FRAME_COUNTS
+*
+counts
 int
 plane
 int
@@ -60,6 +63,11 @@ tx_size
 vp9_reader
 *
 r
+const
+int16_t
+*
+const
+dequant
 )
 ;
 #

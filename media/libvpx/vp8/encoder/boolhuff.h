@@ -67,14 +67,6 @@ vpx_internal_error_info
 *
 error
 ;
-unsigned
-int
-measure_cost
-;
-unsigned
-long
-bit_counter
-;
 }
 BOOL_CODER
 ;

@@ -35,6 +35,11 @@ C
 #
 endif
 void
+vp9_init_intra_predictors
+(
+)
+;
+void
 vp9_predict_intra_block
 (
 const
@@ -47,7 +52,7 @@ int
 bwl_in
 TX_SIZE
 tx_size
-int
+PREDICTION_MODE
 mode
 const
 uint8_t
