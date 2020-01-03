@@ -112,6 +112,9 @@ None
 symbols_path
 =
 None
+dump_save_path
+=
+None
 )
 :
         
@@ -237,6 +240,12 @@ self
 symbols_path
 =
 symbols_path
+        
+self
+.
+dump_save_path
+=
+dump_save_path
         
 self
 .
@@ -1062,6 +1071,17 @@ profile
 minidumps
 '
 )
+        
+if
+not
+dump_save_path
+:
+            
+dump_save_path
+=
+self
+.
+dump_save_path
         
 try
 :
