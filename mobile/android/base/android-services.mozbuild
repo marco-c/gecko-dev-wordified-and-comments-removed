@@ -11952,6 +11952,15 @@ java
 '
 fxa
 /
+activities
+/
+PicassoPreferenceIconTarget
+.
+java
+'
+'
+fxa
+/
 authenticator
 /
 AccountPickler

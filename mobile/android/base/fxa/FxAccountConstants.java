@@ -256,7 +256,7 @@ public
 static
 final
 String
-ACCOUNT_PROFILE_AVATAR_UPDATED_ACTION
+ACCOUNT_PROFILE_JSON_UPDATED_ACTION
 =
 "
 org
@@ -269,7 +269,9 @@ fxa
 .
 profile
 .
-cached
+JSON
+.
+updated
 "
 ;
 public
