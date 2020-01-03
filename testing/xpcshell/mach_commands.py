@@ -464,11 +464,9 @@ if
 test_paths
 =
 =
-[
 '
 all
 '
-]
 :
             
 self
