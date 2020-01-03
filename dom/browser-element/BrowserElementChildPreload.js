@@ -599,11 +599,11 @@ addEventListener
 "
 MozDOMFullscreen
 :
-Exit
+Exited
 "
 this
 .
-_mozExitDomFullscreen
+_mozExitedDomFullscreen
 .
 bind
 (
@@ -2148,7 +2148,7 @@ mozFullScreen
 sendAsyncMsg
 (
 "
-exit
+exited
 -
 dom
 -
@@ -5187,7 +5187,7 @@ originNoSuffix
 )
 ;
 }
-_mozExitDomFullscreen
+_mozExitedDomFullscreen
 :
 function
 (
@@ -5197,7 +5197,7 @@ e
 sendAsyncMsg
 (
 "
-exit
+exited
 -
 dom
 -
