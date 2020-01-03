@@ -1386,7 +1386,10 @@ LRI
 flags
 |
 =
+DIRPROP_FLAG
+(
 LRI
+)
 ;
 }
 state
@@ -1449,7 +1452,10 @@ RLI
 flags
 |
 =
+DIRPROP_FLAG
+(
 RLI
+)
 ;
 }
 state
