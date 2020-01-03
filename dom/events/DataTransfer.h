@@ -70,7 +70,9 @@ h
 #
 include
 "
-nsDOMFile
+mozilla
+/
+Attributes
 .
 h
 "
@@ -79,7 +81,9 @@ include
 "
 mozilla
 /
-Attributes
+dom
+/
+File
 .
 h
 "

@@ -21,7 +21,11 @@ h
 #
 include
 "
-nsDOMFile
+mozilla
+/
+dom
+/
+File
 .
 h
 "
@@ -50,7 +54,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 mBlobs

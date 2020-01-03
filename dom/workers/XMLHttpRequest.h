@@ -64,7 +64,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 }
 }
@@ -543,7 +543,7 @@ aRv
 void
 Send
 (
-DOMFile
+File
 &
 aBody
 ErrorResult

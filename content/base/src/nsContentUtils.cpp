@@ -27171,7 +27171,7 @@ blobLen
 ;
 nsRefPtr
 <
-DOMFile
+File
 >
 blob
 ;
@@ -27199,7 +27199,7 @@ mozilla
 dom
 :
 :
-DOMFile
+File
 :
 :
 CreateMemoryFile

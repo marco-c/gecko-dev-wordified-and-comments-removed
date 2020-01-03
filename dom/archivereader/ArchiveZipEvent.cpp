@@ -263,7 +263,10 @@ nullptr
 }
 return
 new
-DOMFile
+dom
+:
+:
+File
 (
 aArchiveReader
 new

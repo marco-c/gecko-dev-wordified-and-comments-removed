@@ -50,7 +50,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 class
 DOMRequest
@@ -513,7 +513,7 @@ const
 nsAString
 &
 aDeviceAddress
-DOMFile
+File
 &
 aBlob
 ErrorResult

@@ -2188,7 +2188,7 @@ index
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 blobImpl
 =
@@ -2206,12 +2206,12 @@ blobImpl
 ;
 nsRefPtr
 <
-DOMFile
+File
 >
 blob
 =
 new
-DOMFile
+File
 (
 aDatabase
 -

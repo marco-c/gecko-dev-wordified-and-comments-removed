@@ -38,7 +38,7 @@ namespace
 dom
 {
 class
-DOMFileImpl
+FileImpl
 ;
 class
 GetFileOrDirectoryTask
@@ -167,7 +167,7 @@ mIsDirectory
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 mTargetFileImpl
 ;

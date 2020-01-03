@@ -22,7 +22,11 @@ h
 #
 include
 "
-nsDOMFile
+mozilla
+/
+dom
+/
+File
 .
 h
 "
@@ -428,7 +432,7 @@ blobChild
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 bloblImpl
 =
@@ -441,12 +445,12 @@ GetBlobImpl
 ;
 nsRefPtr
 <
-DOMFile
+File
 >
 blob
 =
 new
-DOMFile
+File
 (
 mRequest
 -

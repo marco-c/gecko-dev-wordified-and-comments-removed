@@ -561,6 +561,11 @@ EventSource
 cpp
 '
 '
+File
+.
+cpp
+'
+'
 FileIOObject
 .
 cpp
@@ -692,11 +697,6 @@ cpp
 '
 '
 nsDOMCaretPosition
-.
-cpp
-'
-'
-nsDOMFile
 .
 cpp
 '

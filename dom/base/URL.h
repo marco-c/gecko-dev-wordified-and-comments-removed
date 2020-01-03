@@ -72,7 +72,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 class
 MediaSource
@@ -182,7 +182,7 @@ const
 GlobalObject
 &
 aGlobal
-DOMFile
+File
 &
 aBlob
 const

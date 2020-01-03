@@ -35,6 +35,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+File
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -75,13 +86,6 @@ h
 include
 "
 nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
-nsDOMFile
 .
 h
 "
@@ -249,7 +253,7 @@ JSObject
 *
 >
 aScopeObj
-DOMFile
+File
 &
 aBlob
 JS
@@ -468,7 +472,7 @@ FileReaderSync
 :
 ReadAsBinaryString
 (
-DOMFile
+File
 &
 aBlob
 nsAString
@@ -621,7 +625,7 @@ FileReaderSync
 :
 ReadAsText
 (
-DOMFile
+File
 &
 aBlob
 const
@@ -937,7 +941,7 @@ FileReaderSync
 :
 ReadAsDataURL
 (
-DOMFile
+File
 &
 aBlob
 nsAString
