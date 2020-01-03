@@ -188,7 +188,7 @@ return
 true
 ;
 }
-printf_stderr
+TBS_LOG
 (
 "
 %
