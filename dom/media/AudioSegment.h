@@ -658,7 +658,7 @@ return
 true
 ;
 }
-int
+size_t
 ChannelCount
 (
 )
