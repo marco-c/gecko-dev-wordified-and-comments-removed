@@ -32942,6 +32942,14 @@ B2G
 /
 B2G
 Desktop
+fuzzy
+-
+if
+(
+asyncPanZoom
+190
+27
+)
 =
 =
 825999
