@@ -772,6 +772,9 @@ mPrincipalInfo
 nsCString
 mDomain
 ;
+nsString
+mServiceWorkerCacheName
+;
 uint64_t
 mWindowID
 ;

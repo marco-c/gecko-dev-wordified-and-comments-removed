@@ -9471,6 +9471,12 @@ aOther
 .
 mDomain
 ;
+mServiceWorkerCacheName
+=
+aOther
+.
+mServiceWorkerCacheName
+;
 mWindowID
 =
 aOther
@@ -11031,6 +11037,10 @@ aScriptURL
 mSharedWorkerName
 (
 aSharedWorkerName
+)
+mLoadingWorkerScript
+(
+false
 )
 mBusyCount
 (
