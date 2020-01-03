@@ -11,6 +11,10 @@ __int64
 uint64_t
 ;
 #
+define
+INT64_MAX
+9223372036854775807LL
+#
 else
 #
 include
