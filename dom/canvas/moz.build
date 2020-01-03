@@ -516,6 +516,11 @@ WebGLExtensionDepthTexture
 cpp
 '
 '
+WebGLExtensionDisjointTimerQuery
+.
+cpp
+'
+'
 WebGLExtensionDrawBuffers
 .
 cpp
@@ -647,6 +652,11 @@ cpp
 '
 '
 WebGLTexture
+.
+cpp
+'
+'
+WebGLTimerQuery
 .
 cpp
 '
