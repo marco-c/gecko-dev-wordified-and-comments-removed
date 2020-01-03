@@ -104,6 +104,7 @@ NS_IMETHOD
 DuplicatePrivateData
 (
 )
+MOZ_OVERRIDE
 {
 return
 Event

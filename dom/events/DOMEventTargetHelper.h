@@ -1434,6 +1434,7 @@ EventListenerManager
 GetOrCreateListenerManager
 (
 )
+MOZ_OVERRIDE
 {
 \
 return
@@ -1458,6 +1459,7 @@ GetExistingListenerManager
 (
 )
 const
+MOZ_OVERRIDE
 {
 \
 return

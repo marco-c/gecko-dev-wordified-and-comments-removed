@@ -784,6 +784,7 @@ NS_IMETHOD
 DuplicatePrivateData
 (
 )
+MOZ_OVERRIDE
 \
 {
 \
@@ -814,6 +815,8 @@ aMsg
 bool
 aSerializeInterfaceType
 )
+\
+MOZ_OVERRIDE
 \
 {
 \
@@ -848,6 +851,7 @@ void
 *
 aIter
 )
+MOZ_OVERRIDE
 \
 {
 \
