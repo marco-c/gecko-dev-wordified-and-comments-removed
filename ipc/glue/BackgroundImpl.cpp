@@ -2463,7 +2463,7 @@ GetOrCreateActorForBlobImpl
 PBackgroundParent
 *
 aBackgroundActor
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -2706,7 +2706,7 @@ thread
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =

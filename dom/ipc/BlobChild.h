@@ -61,10 +61,10 @@ namespace
 dom
 {
 class
-ContentChild
+BlobImpl
 ;
 class
-FileImpl
+ContentChild
 ;
 class
 nsIContentChild
@@ -103,7 +103,7 @@ friend
 class
 RemoteBlobSliceImpl
 ;
-FileImpl
+BlobImpl
 *
 mBlobImpl
 ;
@@ -156,7 +156,7 @@ GetOrCreate
 nsIContentChild
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -169,7 +169,7 @@ GetOrCreate
 PBackgroundChild
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -267,7 +267,7 @@ const
 ;
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 GetBlobImpl
 (
@@ -323,7 +323,7 @@ BlobChild
 nsIContentChild
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -333,7 +333,7 @@ BlobChild
 PBackgroundChild
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -356,7 +356,7 @@ aManager
 BlobChild
 *
 aOther
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -419,7 +419,7 @@ BlobChild
 void
 CommonInit
 (
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -430,7 +430,7 @@ CommonInit
 BlobChild
 *
 aOther
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -469,7 +469,7 @@ GetOrCreateFromImpl
 ChildManagerType
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -526,7 +526,7 @@ aRemoteBlob
 nsIContentChild
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -542,7 +542,7 @@ aRemoteBlob
 PBackgroundChild
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )

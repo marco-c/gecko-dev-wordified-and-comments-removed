@@ -38,7 +38,7 @@ namespace
 dom
 {
 class
-FileImpl
+BlobImpl
 ;
 class
 GetFileOrDirectoryTask
@@ -167,9 +167,9 @@ mIsDirectory
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
-mTargetFileImpl
+mTargetBlobImpl
 ;
 }
 ;

@@ -1351,12 +1351,12 @@ aMetadataParams
 {
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 impl
 =
 new
-FileImplSnapshot
+BlobImplSnapshot
 (
 mName
 mType

@@ -101,7 +101,7 @@ mozilla
 dom
 :
 :
-FileImpl
+BlobImpl
 ;
 using
 mozilla
@@ -2426,7 +2426,7 @@ NS_ERROR_DOM_BAD_URI
 }
 nsCOMPtr
 <
-FileImpl
+BlobImpl
 >
 blob
 =
@@ -2813,7 +2813,7 @@ NS_GetBlobForBlobURI
 nsIURI
 *
 aURI
-FileImpl
+BlobImpl
 *
 *
 aBlob
@@ -2842,7 +2842,7 @@ nullptr
 ;
 nsCOMPtr
 <
-FileImpl
+BlobImpl
 >
 blob
 =
@@ -2889,7 +2889,7 @@ aStream
 {
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 ;

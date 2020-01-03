@@ -4218,7 +4218,7 @@ actor
 )
 )
 {
-FileImpl
+BlobImpl
 *
 blobImpl
 =
@@ -4596,7 +4596,7 @@ DEBUG
 {
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =

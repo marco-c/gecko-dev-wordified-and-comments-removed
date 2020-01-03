@@ -438,7 +438,7 @@ actor
 =
 GetBlobParent
 (
-mTargetFileImpl
+mTargetBlobImpl
 )
 ;
 if
@@ -534,7 +534,7 @@ blobChild
 )
 )
 ;
-mTargetFileImpl
+mTargetBlobImpl
 =
 actor
 -
@@ -857,10 +857,10 @@ return
 NS_ERROR_DOM_SECURITY_ERR
 ;
 }
-mTargetFileImpl
+mTargetBlobImpl
 =
 new
-FileImplFile
+BlobImplFile
 (
 file
 )
@@ -999,7 +999,7 @@ mFileSystem
 GetWindow
 (
 )
-mTargetFileImpl
+mTargetBlobImpl
 )
 ;
 mPromise

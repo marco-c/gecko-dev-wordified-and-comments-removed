@@ -114,9 +114,9 @@ const
 nsAString
 &
 aDirPath
-FileImpl
+BlobImpl
 *
-aTargetFile
+aTargetBlob
 const
 nsAString
 &
@@ -136,9 +136,9 @@ mDirRealPath
 (
 aDirPath
 )
-mTargetFileImpl
+mTargetBlobImpl
 (
-aTargetFile
+aTargetBlob
 )
 mTargetRealPath
 (
@@ -349,7 +349,7 @@ target
 )
 )
 ;
-mTargetFileImpl
+mTargetBlobImpl
 =
 bp
 -
@@ -360,7 +360,7 @@ GetBlobImpl
 ;
 MOZ_ASSERT
 (
-mTargetFileImpl
+mTargetBlobImpl
 )
 ;
 }
@@ -491,7 +491,7 @@ mRecursive
 ;
 if
 (
-mTargetFileImpl
+mTargetBlobImpl
 )
 {
 nsRefPtr
@@ -511,7 +511,7 @@ mFileSystem
 GetWindow
 (
 )
-mTargetFileImpl
+mTargetBlobImpl
 )
 ;
 BlobChild
@@ -691,7 +691,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-mTargetFileImpl
+mTargetBlobImpl
 )
 {
 if
@@ -702,7 +702,7 @@ mFileSystem
 >
 GetRealPath
 (
-mTargetFileImpl
+mTargetBlobImpl
 mTargetRealPath
 )
 )
