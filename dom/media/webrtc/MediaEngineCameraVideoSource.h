@@ -382,8 +382,10 @@ mMonitor
 ;
 nsTArray
 <
+nsRefPtr
+<
 SourceMediaStream
-*
+>
 >
 mSources
 ;
