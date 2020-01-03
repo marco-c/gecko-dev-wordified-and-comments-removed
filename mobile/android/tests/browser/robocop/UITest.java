@@ -539,6 +539,17 @@ mActions
 }
 Override
 public
+StringHelper
+getStringHelper
+(
+)
+{
+return
+mStringHelper
+;
+}
+Override
+public
 void
 dumpLog
 (
