@@ -283,6 +283,11 @@ FocusEvent
 h
 '
 '
+ImageCaptureError
+.
+h
+'
+'
 InputEvent
 .
 h
@@ -486,6 +491,11 @@ cpp
 '
 '
 FocusEvent
+.
+cpp
+'
+'
+ImageCaptureError
 .
 cpp
 '

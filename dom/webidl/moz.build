@@ -3236,6 +3236,11 @@ IccChangeEvent
 webidl
 '
 '
+ImageCaptureErrorEvent
+.
+webidl
+'
+'
 MediaStreamEvent
 .
 webidl
