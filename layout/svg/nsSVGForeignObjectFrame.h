@@ -357,13 +357,6 @@ true
 gfxMatrix
 GetCanvasTM
 (
-uint32_t
-aFor
-nsIFrame
-*
-aTransformRoot
-=
-nullptr
 )
 ;
 nsRect

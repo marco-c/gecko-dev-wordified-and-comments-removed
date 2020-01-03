@@ -814,13 +814,6 @@ GetCanvasTM
 nsIFrame
 *
 aFrame
-uint32_t
-aFor
-nsIFrame
-*
-aTransformRoot
-=
-nullptr
 )
 ;
 static
@@ -830,8 +823,6 @@ GetUserToCanvasTM
 nsIFrame
 *
 aFrame
-uint32_t
-aFor
 )
 ;
 static

@@ -688,10 +688,6 @@ nsSVGUtils
 GetCanvasTM
 (
 mTargetFrame
-nsISVGChildFrame
-:
-:
-FOR_OUTERSVG_TM
 )
 ;
 if
