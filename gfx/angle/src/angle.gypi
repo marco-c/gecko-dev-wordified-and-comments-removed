@@ -178,6 +178,11 @@ type
 none
 '
 '
+hard_dependency
+'
+:
+1
+'
 copies
 '
 :
@@ -272,6 +277,11 @@ dependencies
 copy_scripts
 '
 ]
+'
+hard_dependency
+'
+:
+1
 '
 actions
 '
@@ -388,7 +398,7 @@ angle_id_header
 }
 ]
 '
-direct_dependent_settings
+all_dependent_settings
 '
 :
 {
@@ -435,6 +445,11 @@ type
 none
 '
 '
+hard_dependency
+'
+:
+1
+'
 copies
 '
 :
@@ -467,7 +482,7 @@ angle_id_header_base
 }
 ]
 '
-direct_dependent_settings
+all_dependent_settings
 '
 :
 {

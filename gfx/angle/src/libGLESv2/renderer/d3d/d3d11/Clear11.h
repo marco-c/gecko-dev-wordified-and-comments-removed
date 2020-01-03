@@ -15,6 +15,15 @@ h
 "
 #
 include
+"
+libGLESv2
+/
+Error
+.
+h
+"
+#
+include
 <
 map
 >
@@ -57,7 +66,10 @@ Clear11
 (
 )
 ;
-void
+gl
+:
+:
+Error
 clearFramebuffer
 (
 const

@@ -986,6 +986,8 @@ GLenum
 &
 requiredFormats
 bool
+requiresTexturing
+bool
 requiresFiltering
 bool
 requiresRendering
@@ -1026,6 +1028,21 @@ i
 ]
 )
 ;
+if
+(
+requiresTexturing
+&
+&
+!
+cap
+.
+texturable
+)
+{
+return
+false
+;
+}
 if
 (
 requiresFiltering
@@ -1101,6 +1118,7 @@ textureCaps
 requiredFormats
 true
 true
+true
 )
 ;
 }
@@ -1135,6 +1153,7 @@ GetFormatSupport
 (
 textureCaps
 requiredFormats
+true
 true
 true
 )
@@ -1178,6 +1197,7 @@ GetFormatSupport
 (
 textureCaps
 requiredFormats
+true
 false
 true
 )
@@ -1222,6 +1242,7 @@ GetFormatSupport
 textureCaps
 requiredFormats
 true
+true
 false
 )
 ;
@@ -1264,6 +1285,7 @@ GetFormatSupport
 (
 textureCaps
 requiredFormats
+true
 false
 true
 )
@@ -1307,6 +1329,7 @@ GetFormatSupport
 (
 textureCaps
 requiredFormats
+true
 true
 false
 )
@@ -1395,6 +1418,7 @@ GetFormatSupport
 textureCaps
 requiredFormats
 true
+true
 false
 )
 ;
@@ -1438,6 +1462,7 @@ GetFormatSupport
 textureCaps
 requiredFormats
 true
+true
 false
 )
 ;
@@ -1474,6 +1499,7 @@ GetFormatSupport
 textureCaps
 requiredFormats
 true
+true
 false
 )
 ;
@@ -1509,6 +1535,7 @@ GetFormatSupport
 (
 textureCaps
 requiredFormats
+true
 true
 false
 )
@@ -1569,6 +1596,7 @@ GetFormatSupport
 textureCaps
 requiredFilterFormats
 true
+true
 false
 )
 &
@@ -1577,6 +1605,7 @@ GetFormatSupport
 (
 textureCaps
 requiredRenderFormats
+true
 false
 true
 )
@@ -1627,6 +1656,7 @@ GetFormatSupport
 (
 textureCaps
 requiredFormats
+true
 true
 true
 )
@@ -1705,6 +1735,7 @@ GetFormatSupport
 (
 textureCaps
 requiredFormats
+true
 false
 true
 )

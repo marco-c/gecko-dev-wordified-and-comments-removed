@@ -2478,6 +2478,9 @@ TIntermNode
 root
 )
 {
+sh
+:
+:
 CollectVariables
 collect
 (
@@ -2503,6 +2506,9 @@ traverse
 collect
 )
 ;
+sh
+:
+:
 ExpandVariables
 (
 uniforms
@@ -2510,6 +2516,9 @@ uniforms
 expandedUniforms
 )
 ;
+sh
+:
+:
 ExpandVariables
 (
 varyings

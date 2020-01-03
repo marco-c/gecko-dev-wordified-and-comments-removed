@@ -24,6 +24,9 @@ IntermNode
 .
 h
 "
+namespace
+sh
+{
 class
 CollectVariables
 :
@@ -39,9 +42,6 @@ std
 :
 vector
 <
-sh
-:
-:
 Attribute
 >
 *
@@ -51,9 +51,6 @@ std
 :
 vector
 <
-sh
-:
-:
 Attribute
 >
 *
@@ -63,9 +60,6 @@ std
 :
 vector
 <
-sh
-:
-:
 Uniform
 >
 *
@@ -75,9 +69,6 @@ std
 :
 vector
 <
-sh
-:
-:
 Varying
 >
 *
@@ -87,9 +78,6 @@ std
 :
 vector
 <
-sh
-:
-:
 InterfaceBlock
 >
 *
@@ -183,9 +171,6 @@ std
 :
 vector
 <
-sh
-:
-:
 Attribute
 >
 *
@@ -196,9 +181,6 @@ std
 :
 vector
 <
-sh
-:
-:
 Attribute
 >
 *
@@ -209,9 +191,6 @@ std
 :
 vector
 <
-sh
-:
-:
 Uniform
 >
 *
@@ -222,9 +201,6 @@ std
 :
 vector
 <
-sh
-:
-:
 Varying
 >
 *
@@ -235,9 +211,6 @@ std
 :
 vector
 <
-sh
-:
-:
 InterfaceBlock
 >
 *
@@ -252,9 +225,6 @@ std
 :
 :
 string
-sh
-:
-:
 InterfaceBlockField
 *
 >
@@ -297,14 +267,12 @@ std
 :
 vector
 <
-sh
-:
-:
 ShaderVariable
 >
 *
 expanded
 )
 ;
+}
 #
 endif

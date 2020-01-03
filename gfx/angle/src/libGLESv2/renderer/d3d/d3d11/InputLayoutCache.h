@@ -16,6 +16,15 @@ h
 #
 include
 "
+libGLESv2
+/
+Error
+.
+h
+"
+#
+include
+"
 common
 /
 angleutils
@@ -90,7 +99,10 @@ markDirty
 (
 )
 ;
-GLenum
+gl
+:
+:
+Error
 applyVertexBuffers
 (
 TranslatedAttribute

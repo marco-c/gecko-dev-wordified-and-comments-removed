@@ -193,16 +193,6 @@ getRenderTarget
 )
 ;
 virtual
-rx
-:
-:
-RenderTarget
-*
-getDepthStencil
-(
-)
-;
-virtual
 GLsizei
 getWidth
 (
@@ -265,7 +255,8 @@ unsigned
 int
 issueSerials
 (
-GLuint
+unsigned
+int
 count
 )
 ;

@@ -155,11 +155,11 @@ getVertexAttributes
 const
 {
 return
+&
 mVertexAttributes
-.
-data
-(
-)
+[
+0
+]
 ;
 }
 Buffer

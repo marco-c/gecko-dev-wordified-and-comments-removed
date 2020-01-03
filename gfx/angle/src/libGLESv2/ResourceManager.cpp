@@ -1544,7 +1544,7 @@ checkTextureAllocation
 (
 GLuint
 texture
-TextureType
+GLenum
 type
 )
 {
@@ -1572,7 +1572,7 @@ if
 type
 =
 =
-TEXTURE_2D
+GL_TEXTURE_2D
 )
 {
 textureObject
@@ -1597,7 +1597,7 @@ if
 type
 =
 =
-TEXTURE_CUBE
+GL_TEXTURE_CUBE_MAP
 )
 {
 textureObject
@@ -1622,7 +1622,7 @@ if
 type
 =
 =
-TEXTURE_3D
+GL_TEXTURE_3D
 )
 {
 textureObject
@@ -1647,7 +1647,7 @@ if
 type
 =
 =
-TEXTURE_2D_ARRAY
+GL_TEXTURE_2D_ARRAY
 )
 {
 textureObject
