@@ -644,8 +644,6 @@ BackendType
 :
 :
 CAIRO
-mTextureInfo
-.
 mTextureFlags
 |
 aFlags
@@ -696,8 +694,6 @@ GetForwarder
 aFormat
 aSize
 backend
-mTextureInfo
-.
 mTextureFlags
 |
 aFlags
