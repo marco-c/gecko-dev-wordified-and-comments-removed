@@ -1773,7 +1773,7 @@ reflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 &
 &
 (
@@ -2289,7 +2289,7 @@ reflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 {
 DidResizeRows
@@ -6905,7 +6905,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 ;
 (
 (
@@ -6920,7 +6920,7 @@ aReflowState
 mFlags
 )
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 =
 false
 ;
@@ -6947,7 +6947,7 @@ aReflowState
 mFlags
 )
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 =
 specialReflow
 ;

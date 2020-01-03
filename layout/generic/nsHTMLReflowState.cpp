@@ -807,7 +807,7 @@ NS_PRECONDITION
 !
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 |
 |
 !
@@ -823,7 +823,7 @@ clean
 when
 getting
 special
-height
+bsize
 reflow
 "
 )
@@ -838,7 +838,7 @@ if
 !
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 frame
 -
@@ -2726,7 +2726,7 @@ aFrameType
 (
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 |
 |
 (
@@ -3064,7 +3064,7 @@ mCBReflowState
 >
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 &
 &
 dependsOnCBBSize

@@ -3829,7 +3829,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 doReflowChild
 =
@@ -3876,7 +3876,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 {
 if
@@ -4714,7 +4714,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 {
 aDesiredSize

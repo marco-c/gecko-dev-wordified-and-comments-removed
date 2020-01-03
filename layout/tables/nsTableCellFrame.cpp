@@ -4011,7 +4011,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 {
 FirstInFlow
@@ -4217,7 +4217,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 {
 const_cast
@@ -4349,7 +4349,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 {
 kidReflowState
@@ -4363,7 +4363,7 @@ kidReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 =
 false
 ;
@@ -4373,7 +4373,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 |
 |
 (
@@ -4753,7 +4753,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 )
 {
 if

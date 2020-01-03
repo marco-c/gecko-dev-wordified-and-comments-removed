@@ -8579,7 +8579,7 @@ aReflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 "
 Shouldn
 '
@@ -8664,7 +8664,7 @@ mutable_rs
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 =
 true
 ;
@@ -8743,7 +8743,7 @@ mutable_rs
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 =
 false
 ;
@@ -12758,7 +12758,7 @@ parentReflowState
 >
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 "
 should
 not
@@ -14114,7 +14114,7 @@ reflowState
 .
 mFlags
 .
-mSpecialHeightReflow
+mSpecialBSizeReflow
 &
 &
 (

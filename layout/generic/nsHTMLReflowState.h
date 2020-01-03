@@ -1856,7 +1856,7 @@ struct
 ReflowStateFlags
 {
 uint16_t
-mSpecialHeightReflow
+mSpecialBSizeReflow
 :
 1
 ;
