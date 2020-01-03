@@ -435,6 +435,11 @@ ReleaseMediaResources
 (
 )
 ;
+bool
+UpdateOutputBuffers
+(
+)
+;
 void
 ReleaseMediaBuffer
 (
