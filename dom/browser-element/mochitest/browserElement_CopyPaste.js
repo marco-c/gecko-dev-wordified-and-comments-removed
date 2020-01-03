@@ -1455,6 +1455,13 @@ pasteData
 ;
 doCommand
 (
+'
+selectall
+'
+)
+;
+doCommand
+(
 "
 paste
 "
