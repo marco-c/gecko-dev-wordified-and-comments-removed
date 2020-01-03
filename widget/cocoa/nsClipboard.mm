@@ -96,7 +96,9 @@ MPL
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

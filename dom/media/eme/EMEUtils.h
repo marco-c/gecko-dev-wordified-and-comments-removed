@@ -7,7 +7,9 @@ EME_LOG_H_
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

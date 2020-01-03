@@ -667,7 +667,9 @@ disable_beforeunload
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

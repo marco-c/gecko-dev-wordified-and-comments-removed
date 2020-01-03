@@ -7,7 +7,9 @@ xpclog_h___
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

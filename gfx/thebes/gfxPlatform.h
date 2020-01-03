@@ -7,7 +7,9 @@ GFX_PLATFORM_H
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "

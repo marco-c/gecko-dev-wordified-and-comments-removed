@@ -975,7 +975,9 @@ DEBUG
 #
 include
 "
-prlog
+mozilla
+/
+Logging
 .
 h
 "
