@@ -10206,7 +10206,7 @@ bool
 BaselineCompiler
 :
 :
-emit_JSOP_NAME
+emit_JSOP_GETNAME
 (
 )
 {

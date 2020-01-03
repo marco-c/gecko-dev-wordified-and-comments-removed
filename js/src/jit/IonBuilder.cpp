@@ -8585,7 +8585,7 @@ name
 ;
 }
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 {
 PropertyName

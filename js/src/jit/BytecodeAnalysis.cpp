@@ -851,7 +851,7 @@ true
 break
 ;
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 case
 JSOP_BINDNAME

@@ -5222,7 +5222,7 @@ MOZ_ASSERT_IF
 op
 =
 =
-JSOP_NAME
+JSOP_GETNAME
 |
 |
 op
@@ -7785,7 +7785,7 @@ getOp
 )
 {
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 op
 =
@@ -8181,7 +8181,7 @@ getOp
 )
 {
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 op
 =
@@ -8372,7 +8372,7 @@ getOp
 )
 {
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 op
 =
@@ -8604,7 +8604,7 @@ op
 )
 {
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 case
 JSOP_SETCONST
@@ -8829,7 +8829,7 @@ op
 )
 {
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 op
 =
@@ -8899,7 +8899,7 @@ op
 )
 {
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 op
 =
@@ -11176,7 +11176,7 @@ if
 op
 =
 =
-JSOP_NAME
+JSOP_GETNAME
 &
 &
 bce
@@ -11882,7 +11882,7 @@ global
 ?
 JSOP_GETGNAME
 :
-JSOP_NAME
+JSOP_GETNAME
 bce
 )
 )
@@ -19492,7 +19492,7 @@ lhs
 >
 isOp
 (
-JSOP_NAME
+JSOP_GETNAME
 )
 |
 |

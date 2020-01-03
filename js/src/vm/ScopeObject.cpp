@@ -13966,7 +13966,7 @@ pc
 )
 {
 case
-JSOP_NAME
+JSOP_GETNAME
 :
 case
 JSOP_SETNAME
