@@ -62,6 +62,8 @@ badArithmeticsInArgs
 {
 int
 a
+=
+1
 ;
 typedef
 int
@@ -69,6 +71,8 @@ myint
 ;
 myint
 b
+=
+2
 ;
 X
 goodObj1
