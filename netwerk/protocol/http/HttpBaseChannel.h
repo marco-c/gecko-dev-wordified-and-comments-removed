@@ -1559,6 +1559,11 @@ mAllRedirectsSameOrigin
 1
 ;
 uint32_t
+mAllRedirectsPassTimingAllowCheck
+:
+1
+;
+uint32_t
 mSuspendCount
 ;
 nsCOMPtr

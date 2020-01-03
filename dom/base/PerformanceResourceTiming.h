@@ -179,7 +179,7 @@ mTiming
 mTiming
 -
 >
-IsSameOriginAsReferral
+ShouldReportCrossOriginRedirect
 (
 )
 ?
@@ -206,7 +206,7 @@ mTiming
 mTiming
 -
 >
-IsSameOriginAsReferral
+ShouldReportCrossOriginRedirect
 (
 )
 ?
@@ -233,7 +233,7 @@ mTiming
 mTiming
 -
 >
-IsSameOriginAsReferral
+TimingAllowed
 (
 )
 ?
@@ -260,7 +260,7 @@ mTiming
 mTiming
 -
 >
-IsSameOriginAsReferral
+TimingAllowed
 (
 )
 ?
@@ -287,7 +287,7 @@ mTiming
 mTiming
 -
 >
-IsSameOriginAsReferral
+TimingAllowed
 (
 )
 ?
@@ -314,7 +314,7 @@ mTiming
 mTiming
 -
 >
-IsSameOriginAsReferral
+TimingAllowed
 (
 )
 ?
@@ -341,7 +341,7 @@ mTiming
 mTiming
 -
 >
-IsSameOriginAsReferral
+TimingAllowed
 (
 )
 ?
@@ -368,7 +368,7 @@ mTiming
 mTiming
 -
 >
-IsSameOriginAsReferral
+TimingAllowed
 (
 )
 ?
