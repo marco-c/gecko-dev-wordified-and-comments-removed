@@ -1035,6 +1035,11 @@ eRestyle_Self
 ;
 }
 }
+void
+NotifyPlayerUpdated
+(
+)
+;
 static
 void
 LogAsyncAnimationFailure
