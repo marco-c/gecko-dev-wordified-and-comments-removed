@@ -187,13 +187,6 @@ RecordShutdownStartTimeStamp
 (
 )
 ;
-void
-StartupTimelineRecordExternal
-(
-int
-uint64_t
-)
-;
 class
 StartupTimeline
 {

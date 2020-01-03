@@ -85,6 +85,15 @@ Vector
 h
 "
 #
+include
+"
+mozilla
+/
+TimeStamp
+.
+h
+"
+#
 define
 XRE_USER_APP_DATA_DIR
 "
@@ -656,7 +665,10 @@ XRE_StartupTimelineRecord
 (
 int
 aEvent
-PRTime
+mozilla
+:
+:
+TimeStamp
 aWhen
 )
 )
