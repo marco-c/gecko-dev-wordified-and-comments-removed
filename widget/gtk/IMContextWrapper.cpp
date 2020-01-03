@@ -6412,7 +6412,7 @@ aContext
 const
 nsAString
 &
-aLastDispatchedData
+aCompositionString
 )
 {
 MOZ_LOG
@@ -6436,7 +6436,7 @@ aContext
 p
 "
 "
-aLastDispatchedData
+aCompositionString
 =
 \
 "
@@ -6458,13 +6458,13 @@ this
 aContext
 NS_ConvertUTF16toUTF8
 (
-aLastDispatchedData
+aCompositionString
 )
 .
 get
 (
 )
-aLastDispatchedData
+aCompositionString
 .
 Length
 (
@@ -6566,7 +6566,7 @@ forget
 uint32_t
 caretOffsetInUTF16
 =
-aLastDispatchedData
+aCompositionString
 .
 Length
 (
@@ -6764,7 +6764,7 @@ caretOffset
 uint32_t
 compositionStringLength
 =
-aLastDispatchedData
+aCompositionString
 .
 Length
 (

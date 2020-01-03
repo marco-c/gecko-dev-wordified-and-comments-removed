@@ -854,7 +854,7 @@ aContext
 const
 nsAString
 &
-aLastDispatchedData
+aCompositionString
 )
 ;
 bool
