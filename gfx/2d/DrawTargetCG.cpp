@@ -534,7 +534,7 @@ Filter
 GOOD
 :
 return
-kCGInterpolationDefault
+kCGInterpolationLow
 ;
 }
 }
