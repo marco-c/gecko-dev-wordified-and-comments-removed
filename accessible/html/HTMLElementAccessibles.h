@@ -204,16 +204,6 @@ aDoc
 }
 NS_DECL_ISUPPORTS_INHERITED
 virtual
-already_AddRefed
-<
-nsIPersistentProperties
->
-NativeAttributes
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 Relation
 RelationByType
 (

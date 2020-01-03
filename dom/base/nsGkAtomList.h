@@ -16366,6 +16366,13 @@ password
 )
 GK_ATOM
 (
+polite
+"
+polite
+"
+)
+GK_ATOM
+(
 posinset
 "
 posinset
