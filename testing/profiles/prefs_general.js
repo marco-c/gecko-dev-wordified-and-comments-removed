@@ -2905,3 +2905,15 @@ shutdownTimeoutSecs
 0
 )
 ;
+user_pref
+(
+"
+network
+.
+proxy
+.
+pac_generator
+"
+false
+)
+;
