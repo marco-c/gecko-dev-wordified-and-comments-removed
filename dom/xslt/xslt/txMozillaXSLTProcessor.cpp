@@ -4077,12 +4077,9 @@ LoadStyleSheet
 nsIURI
 *
 aUri
-nsILoadGroup
+nsIDocument
 *
-aLoadGroup
-nsIPrincipal
-*
-aPrincipal
+aLoaderDocument
 )
 {
 nsresult
@@ -4092,8 +4089,7 @@ TX_LoadSheet
 (
 aUri
 this
-aLoadGroup
-aPrincipal
+aLoaderDocument
 )
 ;
 if
