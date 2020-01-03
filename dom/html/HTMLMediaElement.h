@@ -2354,6 +2354,16 @@ return
 isPaused
 ;
 }
+#
+ifdef
+MOZ_EME
+void
+ReportEMETelemetry
+(
+)
+;
+#
+endif
 void
 ReportMSETelemetry
 (
