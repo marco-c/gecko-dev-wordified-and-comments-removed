@@ -1023,6 +1023,14 @@ Shape
 shape
 )
 ;
+void
+lazilyMarkChildren
+(
+ObjectGroup
+*
+group
+)
+;
 template
 <
 typename
