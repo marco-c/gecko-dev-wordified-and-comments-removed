@@ -450,6 +450,14 @@ mFrameID
 1
 ;
 }
+enum
+Bias
+{
+BIAS_NONE
+BIAS_NEGATIVE
+BIAS_POSITIVE
+}
+;
 protected
 :
 struct
@@ -513,6 +521,9 @@ mLastFrameID
 ;
 int32_t
 mLastProducerID
+;
+Bias
+mBias
 ;
 bool
 mLocked
