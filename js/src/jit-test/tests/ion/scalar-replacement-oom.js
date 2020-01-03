@@ -11,6 +11,7 @@ function
 )
 quit
 (
+3
 )
 ;
 var
@@ -84,7 +85,7 @@ i
 ;
 oomAtAllocation
 (
-100
+101
 )
 ;
 }
@@ -94,5 +95,10 @@ t
 ;
 t
 (
+)
+;
+quit
+(
+3
 )
 ;
