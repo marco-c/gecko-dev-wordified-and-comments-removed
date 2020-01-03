@@ -678,6 +678,11 @@ SandboxFilter
 .
 cpp
 '
+'
+SandboxUtil
+.
+cpp
+'
 ]
 #
 gcc
@@ -846,5 +851,8 @@ common
 '
 '
 glue
+'
+'
+gtest
 '
 ]

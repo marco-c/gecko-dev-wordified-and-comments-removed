@@ -421,11 +421,15 @@ CONFIG
 OS_TARGET
 '
 ]
-=
-=
+in
+(
 '
 Linux
 '
+'
+Android
+'
+)
 :
 USE_LIBS
 +
