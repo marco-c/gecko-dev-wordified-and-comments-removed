@@ -481,7 +481,6 @@ linux64
 platforms
 :
 -
-Opt
 Linux64
 types
 :
@@ -494,6 +493,17 @@ tasks
 builds
 /
 opt_linux64
+.
+yml
+debug
+:
+task
+:
+tasks
+/
+builds
+/
+dbg_linux64
 .
 yml
 tests
