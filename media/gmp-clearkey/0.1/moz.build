@@ -147,13 +147,6 @@ oaes_lib
 .
 c
 '
-'
-openaes
-/
-rand
-.
-c
-'
 ]
 LOCAL_INCLUDES
 +
