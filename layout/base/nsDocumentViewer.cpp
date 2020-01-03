@@ -667,6 +667,13 @@ disable_beforeunload
 #
 include
 "
+LayoutLogging
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Logging
@@ -9387,7 +9394,7 @@ frame
 }
 else
 {
-NS_WARNING
+LAYOUT_WARNING
 (
 "
 Subdocument
