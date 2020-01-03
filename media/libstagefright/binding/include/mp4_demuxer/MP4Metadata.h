@@ -187,7 +187,7 @@ mCrypto
 bool
 ReadTrackIndex
 (
-nsTArray
+FallibleTArray
 <
 Index
 :

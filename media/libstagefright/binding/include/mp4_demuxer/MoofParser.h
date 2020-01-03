@@ -574,7 +574,7 @@ Microseconds
 >
 mTimeRange
 ;
-nsTArray
+FallibleTArray
 <
 Sample
 >
