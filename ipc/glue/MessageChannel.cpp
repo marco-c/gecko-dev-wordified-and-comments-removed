@@ -3170,6 +3170,15 @@ Message
 aReply
 )
 {
+nsAutoPtr
+<
+Message
+>
+msg
+(
+aMsg
+)
+;
 MaybeScriptBlocker
 scriptBlocker
 (
@@ -3220,7 +3229,7 @@ f
 *
 this
 OUT_MESSAGE
-aMsg
+msg
 )
 ;
 MonitorAutoLock
@@ -3255,7 +3264,7 @@ Message
 PRIORITY_NORMAL
 &
 &
-aMsg
+msg
 -
 >
 priority
@@ -3281,7 +3290,7 @@ mCurrentTransaction
 &
 &
 (
-aMsg
+msg
 -
 >
 priority
@@ -3295,7 +3304,7 @@ DispatchingSyncMessagePriority
 |
 mAwaitingSyncReplyPriority
 >
-aMsg
+msg
 -
 >
 priority
@@ -3350,7 +3359,7 @@ CancelMessage
 }
 IPC_ASSERT
 (
-aMsg
+msg
 -
 >
 is_sync
@@ -3370,7 +3379,7 @@ here
 ;
 IPC_ASSERT
 (
-aMsg
+msg
 -
 >
 priority
@@ -3408,7 +3417,7 @@ AwaitingSyncReplyPriority
 )
 <
 =
-aMsg
+msg
 -
 >
 priority
@@ -3479,15 +3488,6 @@ dispatching
 urgent
 messages
 "
-)
-;
-nsAutoPtr
-<
-Message
->
-msg
-(
-aMsg
 )
 ;
 if
