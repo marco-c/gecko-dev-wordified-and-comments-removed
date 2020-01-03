@@ -2445,7 +2445,7 @@ isCollecting
 c
 -
 >
-markCrossCompartmentWrappers
+traceCrossCompartmentWrappers
 (
 trc
 )
@@ -2937,7 +2937,7 @@ next
 c
 -
 >
-markRoots
+traceRoots
 (
 trc
 )

@@ -11973,7 +11973,7 @@ sweepCrossCompartmentWrappers
 comp
 -
 >
-markCrossCompartmentWrappers
+traceCrossCompartmentWrappers
 (
 &
 trc
