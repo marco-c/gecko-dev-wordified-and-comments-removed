@@ -276,6 +276,9 @@ CppUnitTests
 (
 [
 '
+TestBind
+'
+'
 TestCookie
 '
 '
