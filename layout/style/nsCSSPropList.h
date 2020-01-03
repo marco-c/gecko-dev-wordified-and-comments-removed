@@ -4392,7 +4392,7 @@ smoothing
 osx_font_smoothing
 CSS_PROP_DOMPROP_PREFIXED
 (
-OSXFontSmoothing
+OsxFontSmoothing
 )
 CSS_PROPERTY_PARSE_VALUE
 |

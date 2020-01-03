@@ -62002,7 +62002,7 @@ smoothing
 domProp
 :
 "
-MozOSXFontSmoothing
+MozOsxFontSmoothing
 "
 inherited
 :

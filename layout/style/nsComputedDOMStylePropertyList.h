@@ -1021,7 +1021,7 @@ Orient
 COMPUTED_STYLE_PROP
 (
 osx_font_smoothing
-OSXFontSmoothing
+OsxFontSmoothing
 )
 COMPUTED_STYLE_PROP
 (
