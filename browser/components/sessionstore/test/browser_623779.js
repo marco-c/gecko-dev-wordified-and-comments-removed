@@ -1,5 +1,12 @@
+"
+use
+strict
+"
+;
+add_task
+(
 function
-test
+*
 (
 )
 {
@@ -12,7 +19,7 @@ gBrowser
 selectedTab
 )
 ;
-var
+let
 newTab
 =
 gBrowser
@@ -22,6 +29,12 @@ duplicateTab
 gBrowser
 .
 selectedTab
+)
+;
+yield
+promiseTabRestored
+(
+newTab
 )
 ;
 ok
@@ -41,9 +54,8 @@ tab
 "
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 newTab
 )
@@ -58,3 +70,5 @@ selectedTab
 )
 ;
 }
+)
+;
