@@ -45,7 +45,7 @@ id
 "
 js
 -
-calltree
+profile
 -
 view
 "
