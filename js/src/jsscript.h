@@ -6335,6 +6335,7 @@ js
 :
 :
 PCCounts
+&
 getPCCounts
 (
 jsbytecode
