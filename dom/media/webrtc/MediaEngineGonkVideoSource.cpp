@@ -6,9 +6,6 @@ MediaEngineGonkVideoSource
 h
 "
 #
-undef
-LOG_TAG
-#
 define
 LOG_TAG
 "
@@ -3565,7 +3562,7 @@ get
 cameraImage
 -
 >
-SetMediaBuffer
+SetBuffer
 (
 aBuffer
 )
@@ -3663,7 +3660,7 @@ get
 cameraImage
 -
 >
-ClearMediaBuffer
+ClearBuffer
 (
 )
 ;
