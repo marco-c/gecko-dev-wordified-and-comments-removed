@@ -2649,9 +2649,8 @@ const
 JSAtomState
 &
 atomState
-PropertyName
-*
-name
+jsid
+id
 )
 ;
 extern

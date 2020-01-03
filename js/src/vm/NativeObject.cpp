@@ -10574,6 +10574,7 @@ if
 !
 LookupPropertyPure
 (
+cxArg
 obj
 id
 &

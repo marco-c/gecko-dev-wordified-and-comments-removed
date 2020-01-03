@@ -5344,6 +5344,7 @@ if
 !
 LookupPropertyPure
 (
+cx
 obj
 NameToId
 (
@@ -13357,6 +13358,9 @@ SetPropertyIC
 NativeSetPropCacheability
 CanAttachNativeSetProp
 (
+ThreadSafeContext
+*
+cx
 HandleObject
 obj
 HandleId
@@ -13422,6 +13426,7 @@ if
 !
 LookupPropertyPure
 (
+cx
 obj
 id
 holder
@@ -13823,6 +13828,7 @@ canCache
 =
 CanAttachNativeSetProp
 (
+cx
 obj
 id
 cache
@@ -14372,6 +14378,7 @@ canCache
 =
 CanAttachNativeSetProp
 (
+cx
 nobj
 id
 cache
