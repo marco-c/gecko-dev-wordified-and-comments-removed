@@ -528,11 +528,6 @@ nsIResumableChannel
 idl
 '
 '
-nsISecCheckWrapChannel
-.
-idl
-'
-'
 nsISecretDecoderRing
 .
 idl
@@ -1091,11 +1086,6 @@ cpp
 '
 '
 nsRequestObserverProxy
-.
-cpp
-'
-'
-nsSecCheckWrapChannel
 .
 cpp
 '
