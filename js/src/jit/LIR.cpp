@@ -2817,7 +2817,7 @@ printName
 fp
 )
 ;
-printInfo
+printOperands
 (
 fp
 )
