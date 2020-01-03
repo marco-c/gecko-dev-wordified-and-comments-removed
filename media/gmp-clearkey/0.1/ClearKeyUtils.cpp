@@ -174,6 +174,11 @@ n
 "
 )
 ;
+fflush
+(
+stdout
+)
+;
 }
 static
 void
