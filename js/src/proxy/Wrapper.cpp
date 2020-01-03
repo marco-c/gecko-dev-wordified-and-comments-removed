@@ -1,13 +1,6 @@
 #
 include
 "
-jswrapper
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
@@ -23,6 +16,13 @@ h
 include
 "
 jsexn
+.
+h
+"
+#
+include
+"
+jswrapper
 .
 h
 "

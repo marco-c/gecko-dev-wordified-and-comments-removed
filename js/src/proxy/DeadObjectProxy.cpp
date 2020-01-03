@@ -41,10 +41,6 @@ js
 :
 gc
 ;
-typedef
-JSPropertyDescriptor
-PropertyDescriptor
-;
 bool
 DeadObjectProxy
 :

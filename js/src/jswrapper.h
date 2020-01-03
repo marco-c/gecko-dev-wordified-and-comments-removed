@@ -1,9 +1,9 @@
 #
 ifndef
-proxy_jswrapper_h
+jswrapper_h
 #
 define
-proxy_jswrapper_h
+jswrapper_h
 #
 include
 "
