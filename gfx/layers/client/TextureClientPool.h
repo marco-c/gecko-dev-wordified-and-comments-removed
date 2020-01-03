@@ -143,6 +143,17 @@ ReportClientLost
 (
 )
 {
+MOZ_ASSERT
+(
+mOutstandingClients
+>
+mTextureClientsDeferred
+.
+size
+(
+)
+)
+;
 mOutstandingClients
 -
 -
