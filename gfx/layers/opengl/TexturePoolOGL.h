@@ -38,6 +38,13 @@ aContext
 )
 ;
 static
+GLContext
+*
+GetGLContext
+(
+)
+;
+static
 void
 Init
 (
