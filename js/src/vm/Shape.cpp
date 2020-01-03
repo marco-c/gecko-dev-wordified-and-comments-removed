@@ -3368,13 +3368,13 @@ getTaggedProto
 res
 -
 >
-getMetadata
+getParent
 (
 )
 res
 -
 >
-getParent
+getMetadata
 (
 )
 res

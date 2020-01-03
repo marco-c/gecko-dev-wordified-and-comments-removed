@@ -5073,10 +5073,10 @@ TaggedProto
 proto
 JSObject
 *
-metadata
+parent
 JSObject
 *
-parent
+metadata
 size_t
 nfixed
 uint32_t
@@ -5101,10 +5101,10 @@ TaggedProto
 proto
 JSObject
 *
-metadata
+parent
 JSObject
 *
-parent
+metadata
 gc
 :
 :
