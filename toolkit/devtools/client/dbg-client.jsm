@@ -3755,6 +3755,16 @@ aPacket
 }
 if
 (
+!
+this
+.
+traits
+.
+noNeedToFakeResumptionOnNavigation
+)
+{
+if
+(
 aPacket
 .
 type
@@ -3830,6 +3840,7 @@ _onThreadState
 resumption
 )
 ;
+}
 }
 if
 (

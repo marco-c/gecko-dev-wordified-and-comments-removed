@@ -258,6 +258,9 @@ true
 memoryActorAllocations
 :
 true
+noNeedToFakeResumptionOnNavigation
+:
+true
 get
 allowChromeProcess
 (
