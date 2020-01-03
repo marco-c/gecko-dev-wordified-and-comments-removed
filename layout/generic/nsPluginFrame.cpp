@@ -1,7 +1,7 @@
 #
 include
 "
-nsObjectFrame
+nsPluginFrame
 .
 h
 "

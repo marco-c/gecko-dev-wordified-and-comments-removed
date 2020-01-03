@@ -208,7 +208,7 @@ nsIStatefulFrame
 h
 '
 '
-nsObjectFrame
+nsPluginFrame
 .
 h
 '
@@ -553,7 +553,7 @@ plarena
 h
 .
 #
-nsObjectFrame
+nsPluginFrame
 .
 cpp
 needs
@@ -581,7 +581,7 @@ nsLineLayout
 cpp
 '
 '
-nsObjectFrame
+nsPluginFrame
 .
 cpp
 '
