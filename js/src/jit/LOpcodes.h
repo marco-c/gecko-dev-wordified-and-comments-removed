@@ -353,12 +353,7 @@ FilterArgumentsOrEvalV
 \
 _
 (
-CallDirectEvalS
-)
-\
-_
-(
-CallDirectEvalV
+CallDirectEval
 )
 \
 _
