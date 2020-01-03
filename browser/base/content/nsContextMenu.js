@@ -7395,6 +7395,14 @@ if
 (
 !
 tabBrowser
+|
+|
+!
+window
+.
+toolbar
+.
+visible
 )
 {
 let
