@@ -787,13 +787,6 @@ BINPATH
 /
 components
 /
-dom_voicemail
-.
-xpt
-BINPATH
-/
-components
-/
 dom_icc
 .
 xpt
@@ -1045,6 +1038,13 @@ BINPATH
 components
 /
 dom_views
+.
+xpt
+BINPATH
+/
+components
+/
+dom_voicemail
 .
 xpt
 #

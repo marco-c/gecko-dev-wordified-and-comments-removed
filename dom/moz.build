@@ -367,6 +367,9 @@ smil
 telephony
 '
 '
+voicemail
+'
+'
 inputmethod
 '
 '
@@ -454,9 +457,6 @@ icc
 '
 '
 cellbroadcast
-'
-'
-voicemail
 '
 '
 wappush
