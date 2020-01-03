@@ -5816,7 +5816,7 @@ GetStartTime
 (
 )
 *
-USECS_PER_SEC
+USECS_PER_S
 )
 )
 {
