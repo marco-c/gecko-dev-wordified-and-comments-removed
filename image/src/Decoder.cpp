@@ -1067,8 +1067,8 @@ RawAccessFrameRef
 )
 ;
 }
-InsertOutcome
-outcome
+bool
+succeeded
 =
 SurfaceCache
 :
@@ -1099,13 +1099,8 @@ Persistent
 ;
 if
 (
-outcome
 !
-=
-InsertOutcome
-:
-:
-SUCCESS
+succeeded
 )
 {
 ref
