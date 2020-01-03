@@ -634,7 +634,7 @@ errorCodeTrust
 PRErrorCode
 errorCodeMismatch
 PRErrorCode
-errorCodeExpired
+errorCodeTime
 uint32_t
 providerFlags
 )
@@ -667,9 +667,9 @@ mErrorCodeMismatch
 (
 errorCodeMismatch
 )
-mErrorCodeExpired
+mErrorCodeTime
 (
-errorCodeExpired
+errorCodeTime
 )
 mProviderFlags
 (
@@ -735,7 +735,7 @@ mErrorCodeMismatch
 ;
 const
 PRErrorCode
-mErrorCodeExpired
+mErrorCodeTime
 ;
 const
 uint32_t
@@ -913,7 +913,7 @@ PRErrorCode
 errorCodeMismatch
 PRErrorCode
 &
-errorCodeExpired
+errorCodeTime
 )
 {
 MOZ_ASSERT
@@ -952,7 +952,7 @@ errorCodeMismatch
 ;
 MOZ_ASSERT
 (
-errorCodeExpired
+errorCodeTime
 =
 =
 0
@@ -1068,7 +1068,7 @@ nsICertOverrideService
 :
 ERROR_TIME
 ;
-errorCodeExpired
+errorCodeTime
 =
 SEC_ERROR_EXPIRED_CERTIFICATE
 ;
@@ -1090,7 +1090,7 @@ nsICertOverrideService
 :
 ERROR_TIME
 ;
-errorCodeExpired
+errorCodeTime
 =
 mozilla
 :
@@ -1123,7 +1123,7 @@ nsICertOverrideService
 :
 ERROR_TIME
 ;
-errorCodeExpired
+errorCodeTime
 =
 defaultErrorCodeToReport
 ;
@@ -1722,7 +1722,7 @@ probeValue
 }
 if
 (
-mErrorCodeExpired
+mErrorCodeTime
 !
 =
 0
@@ -1733,7 +1733,7 @@ probeValue
 =
 MapCertErrorToProbeValue
 (
-mErrorCodeExpired
+mErrorCodeTime
 )
 ;
 Telemetry
@@ -1946,9 +1946,9 @@ mErrorCodeMismatch
 ?
 mErrorCodeMismatch
 :
-mErrorCodeExpired
+mErrorCodeTime
 ?
-mErrorCodeExpired
+mErrorCodeTime
 :
 mDefaultErrorCodeToReport
 ;
@@ -2065,7 +2065,7 @@ errorCodeMismatch
 0
 ;
 PRErrorCode
-errorCodeExpired
+errorCodeTime
 =
 0
 ;
@@ -2085,7 +2085,7 @@ defaultErrorCodeToReport
 collected_errors
 errorCodeTrust
 errorCodeMismatch
-errorCodeExpired
+errorCodeTime
 )
 !
 =
@@ -2226,7 +2226,7 @@ defaultErrorCodeToReport
 collected_errors
 errorCodeTrust
 errorCodeMismatch
-errorCodeExpired
+errorCodeTime
 providerFlags
 )
 ;
