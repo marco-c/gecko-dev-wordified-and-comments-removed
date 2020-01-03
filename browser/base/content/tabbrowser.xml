@@ -13129,7 +13129,7 @@ if
 animate
 )
 {
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 function
 (

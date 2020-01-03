@@ -45,7 +45,7 @@ in
 ;
 window
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 checkAnimationState
 )

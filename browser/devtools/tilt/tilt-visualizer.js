@@ -1697,6 +1697,19 @@ this
 .
 _renderer
 ;
+let
+frameStartTime
+=
+this
+.
+chromeWindow
+.
+performance
+.
+now
+(
+)
+;
 if
 (
 !
@@ -1716,7 +1729,7 @@ this
 .
 chromeWindow
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 this
 .
@@ -1774,6 +1787,7 @@ this
 .
 _handleFrameDelta
 (
+frameStartTime
 )
 ;
 this
@@ -1788,6 +1802,7 @@ _handleFrameDelta
 function
 TVP__handleFrameDelta
 (
+frameStartTime
 )
 {
 this
@@ -1802,11 +1817,7 @@ this
 .
 _currFrameTime
 =
-this
-.
-chromeWindow
-.
-mozAnimationStartTime
+frameStartTime
 ;
 this
 .
