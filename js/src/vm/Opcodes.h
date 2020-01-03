@@ -1686,10 +1686,10 @@ JOF_OBJECT
 \
 macro
 (
-JSOP_ENDINIT
+JSOP_UNUSED92
 92
 "
-endinit
+unused92
 "
 NULL
 1
@@ -1697,6 +1697,7 @@ NULL
 0
 JOF_BYTE
 )
+\
 \
 \
 macro
