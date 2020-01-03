@@ -384,6 +384,16 @@ GetTransform
 (
 )
 ;
+if
+(
+gfxPrefs
+:
+:
+LayoutUseContainersForRootFrames
+(
+)
+)
+{
 const
 FrameMetrics
 &
@@ -410,6 +420,7 @@ mPresShellResolution
 f
 )
 ;
+}
 }
 return
 transform
