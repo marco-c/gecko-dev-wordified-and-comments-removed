@@ -2053,6 +2053,13 @@ return
 mPluginFocused
 ;
 }
+virtual
+nsIntPoint
+GetClientOffset
+(
+)
+override
+;
 protected
 :
 virtual
