@@ -286,6 +286,9 @@ class
 nsIRequest
 ;
 class
+nsIRunnable
+;
+class
 nsIStreamListener
 ;
 class
@@ -3580,6 +3583,9 @@ FinalizeFrameLoader
 nsFrameLoader
 *
 aLoader
+nsIRunnable
+*
+aFinalizer
 )
 =
 0
@@ -3587,17 +3593,6 @@ aLoader
 virtual
 void
 TryCancelFrameLoaderInitialization
-(
-nsIDocShell
-*
-aShell
-)
-=
-0
-;
-virtual
-bool
-FrameLoaderScheduledToBeFinalized
 (
 nsIDocShell
 *
