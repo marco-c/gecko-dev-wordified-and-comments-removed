@@ -1023,3 +1023,11 @@ webapprt
 /
 components
 /
+#
+ifdef
+XP_WIN
+mozjs
+.
+dll
+#
+endif
