@@ -214,15 +214,6 @@ h
 #
 include
 "
-d3d10
-/
-ImageLayerD3D10
-.
-h
-"
-#
-include
-"
 D3D9SurfaceImage
 .
 h
