@@ -132,9 +132,6 @@ webspeech
 '
 webvtt
 '
-'
-standalone
-'
 ]
 if
 CONFIG

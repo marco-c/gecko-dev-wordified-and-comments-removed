@@ -151,13 +151,6 @@ GetForceBlack
 )
 ;
 }
-#
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 already_AddRefed
 <
 Image
@@ -504,8 +497,6 @@ forget
 )
 ;
 }
-#
-endif
 VideoChunk
 :
 :

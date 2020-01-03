@@ -880,13 +880,6 @@ SetLength
 channels
 )
 ;
-#
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 uint32_t
 inFrames
 =
@@ -894,8 +887,6 @@ c
 .
 mDuration
 ;
-#
-endif
 NS_ASSERTION
 (
 (
@@ -990,13 +981,6 @@ outFrames
 =
 outSize
 ;
-#
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 dom
 :
 :
@@ -1025,8 +1009,6 @@ c
 mDuration
 )
 ;
-#
-endif
 bufferPtrs
 [
 i
