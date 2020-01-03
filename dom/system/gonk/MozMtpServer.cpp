@@ -97,15 +97,6 @@ include
 "
 mozilla
 /
-FileUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 LazyIdleThread
 .
 h

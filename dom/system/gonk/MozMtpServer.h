@@ -21,6 +21,15 @@ h
 #
 include
 "
+mozilla
+/
+FileUtils
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
