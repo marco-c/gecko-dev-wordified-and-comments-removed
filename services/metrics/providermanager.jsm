@@ -1789,6 +1789,9 @@ collectConstantData
 :
 function
 (
+providerDiagnostic
+=
+null
 )
 {
 let
@@ -1874,6 +1877,7 @@ entries
 collectConstantData
 "
 onCollect
+providerDiagnostic
 )
 ;
 }
@@ -1881,6 +1885,9 @@ collectDailyData
 :
 function
 (
+providerDiagnostic
+=
+null
 )
 {
 return
@@ -1898,6 +1905,8 @@ values
 "
 collectDailyData
 "
+null
+providerDiagnostic
 )
 ;
 }
@@ -1908,6 +1917,9 @@ function
 entries
 fnProperty
 onCollect
+=
+null
+providerDiagnostic
 =
 null
 )
@@ -2103,6 +2115,7 @@ this
 _handleCollectionPromises
 (
 promises
+providerDiagnostic
 )
 ;
 }
@@ -2111,6 +2124,9 @@ _handleCollectionPromises
 function
 (
 promises
+providerDiagnostic
+=
+null
 )
 {
 return
@@ -2134,6 +2150,17 @@ of
 promises
 )
 {
+if
+(
+providerDiagnostic
+)
+{
+providerDiagnostic
+(
+name
+)
+;
+}
 try
 {
 yield
