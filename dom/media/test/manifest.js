@@ -5869,9 +5869,6 @@ sessionType
 "
 temporary
 "
-sessionCount
-:
-1
 duration
 :
 1
@@ -5972,9 +5969,6 @@ sessionType
 "
 temporary
 "
-sessionCount
-:
-1
 crossOrigin
 :
 true
@@ -6144,9 +6138,6 @@ sessionType
 "
 temporary
 "
-sessionCount
-:
-2
 duration
 :
 1
@@ -6313,9 +6304,6 @@ sessionType
 "
 temporary
 "
-sessionCount
-:
-2
 crossOrigin
 :
 true
