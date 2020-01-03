@@ -368,6 +368,7 @@ void
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 LockFactory
@@ -375,6 +376,7 @@ LockFactory
 bool
 aLock
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK

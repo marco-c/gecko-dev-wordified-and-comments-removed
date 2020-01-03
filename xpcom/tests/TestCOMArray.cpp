@@ -109,6 +109,7 @@ MozExternalRefCountType
 RefCnt
 (
 )
+MOZ_OVERRIDE
 {
 return
 mRefCnt
@@ -121,6 +122,7 @@ int32_t
 ID
 (
 )
+MOZ_OVERRIDE
 {
 return
 mID
