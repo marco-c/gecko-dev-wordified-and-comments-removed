@@ -230,6 +230,11 @@ TestOpens
 cpp
 '
 '
+TestRaceDeadlock
+.
+cpp
+'
+'
 TestRaceDeferral
 .
 cpp
@@ -550,6 +555,11 @@ ipdl
 '
 '
 PTestOpensOpened
+.
+ipdl
+'
+'
+PTestRaceDeadlock
 .
 ipdl
 '
