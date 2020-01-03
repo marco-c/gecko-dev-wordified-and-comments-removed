@@ -139,7 +139,7 @@ SetDataFlags
 F_TERMINATED
 )
 ;
-AssertValidDepedentString
+AssertValidDependentString
 (
 )
 ;

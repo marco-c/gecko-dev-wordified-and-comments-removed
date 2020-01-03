@@ -1100,7 +1100,7 @@ aLength
 )
 ;
 void
-AssertValidDepedentString
+AssertValidDependentString
 (
 )
 {
