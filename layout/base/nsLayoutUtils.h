@@ -4739,12 +4739,6 @@ aFrame
 ;
 static
 bool
-WantSubAPZC
-(
-)
-;
-static
-bool
 UsesAsyncScrolling
 (
 )
