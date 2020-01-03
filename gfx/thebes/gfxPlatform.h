@@ -1083,6 +1083,11 @@ int
 aHeight
 )
 ;
+void
+ComputeTileSize
+(
+)
+;
 virtual
 nsresult
 UpdateFontList
@@ -2209,11 +2214,6 @@ mem
 size_t
 &
 size
-)
-;
-void
-ComputeTileSize
-(
 )
 ;
 nsRefPtr
