@@ -289,6 +289,9 @@ debug
 aMsg
 )
 {
+#
+ifdef
+DEBUG
 dump
 (
 "
@@ -309,6 +312,8 @@ n
 "
 )
 ;
+#
+endif
 }
 function
 readObjectFromZip
