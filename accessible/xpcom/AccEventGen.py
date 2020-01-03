@@ -489,7 +489,7 @@ write
 nclass
 %
 s
-MOZ_FINAL
+final
 :
 public
 %
