@@ -4448,7 +4448,7 @@ aEvent
 ipcDoc
 -
 >
-SendEvent
+SendCaretMoveEvent
 (
 id
 event
