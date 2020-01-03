@@ -420,3 +420,7 @@ HTMLIFrameElement
 implements
 MozFrameLoaderOwner
 ;
+HTMLIFrameElement
+implements
+BrowserElement
+;
