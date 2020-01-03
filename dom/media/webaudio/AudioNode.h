@@ -459,7 +459,7 @@ mOutputPort
 ;
 }
 ;
-MediaStream
+AudioNodeStream
 *
 Stream
 (
@@ -673,7 +673,7 @@ protected
 :
 nsRefPtr
 <
-MediaStream
+AudioNodeStream
 >
 mStream
 ;
