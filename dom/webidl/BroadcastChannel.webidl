@@ -151,14 +151,6 @@ Exposed
 Window
 Worker
 )
-Func
-=
-"
-BroadcastChannel
-:
-:
-IsEnabled
-"
 ]
 interface
 BroadcastChannel
