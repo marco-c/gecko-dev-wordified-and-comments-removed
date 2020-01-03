@@ -2888,7 +2888,7 @@ mailtoURL
 ;
 }
 }
-telemetryAddKeyedValue
+telemetryAddValue
 :
 {
 enumerable
@@ -2909,7 +2909,7 @@ Services
 .
 telemetry
 .
-getKeyedHistogramById
+getHistogramById
 (
 histogramId
 )

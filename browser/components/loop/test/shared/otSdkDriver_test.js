@@ -329,7 +329,7 @@ UNABLE_TO_PUBLISH
 mozLoop
 =
 {
-telemetryAddKeyedValue
+telemetryAddValue
 :
 sinon
 .
@@ -2508,7 +2508,7 @@ calledOnce
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 )
 ;
 sinon
@@ -2519,7 +2519,7 @@ calledWith
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 "
 LOOP_TWO_WAY_MEDIA_CONN_LENGTH
 "
@@ -2572,7 +2572,7 @@ calledOnce
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 )
 ;
 sinon
@@ -2583,7 +2583,7 @@ calledWith
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 "
 LOOP_TWO_WAY_MEDIA_CONN_LENGTH
 "
@@ -2638,7 +2638,7 @@ calledOnce
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 )
 ;
 sinon
@@ -2649,7 +2649,7 @@ calledWith
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 "
 LOOP_TWO_WAY_MEDIA_CONN_LENGTH
 "
@@ -2706,7 +2706,7 @@ calledOnce
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 )
 ;
 sinon
@@ -2717,7 +2717,7 @@ calledWith
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 "
 LOOP_TWO_WAY_MEDIA_CONN_LENGTH
 "
@@ -2785,7 +2785,7 @@ notCalled
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 )
 ;
 }
@@ -2837,7 +2837,7 @@ calledOnce
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 )
 ;
 sinon
@@ -2848,7 +2848,7 @@ calledWithExactly
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 "
 LOOP_SHARING_STATE_CHANGE
 "
@@ -2895,7 +2895,7 @@ calledOnce
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 )
 ;
 sinon
@@ -2906,7 +2906,7 @@ calledWithExactly
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 "
 LOOP_SHARING_STATE_CHANGE
 "
@@ -2953,7 +2953,7 @@ calledOnce
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 )
 ;
 sinon
@@ -2964,7 +2964,7 @@ calledWithExactly
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 "
 LOOP_SHARING_STATE_CHANGE
 "
@@ -3011,7 +3011,7 @@ calledOnce
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 )
 ;
 sinon
@@ -3022,7 +3022,7 @@ calledWithExactly
 (
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 "
 LOOP_SHARING_STATE_CHANGE
 "

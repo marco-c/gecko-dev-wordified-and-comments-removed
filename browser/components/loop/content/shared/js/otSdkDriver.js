@@ -2402,7 +2402,7 @@ this
 .
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 (
 "
 LOOP_TWO_WAY_MEDIA_CONN_LENGTH
@@ -2657,7 +2657,7 @@ this
 .
 mozLoop
 .
-telemetryAddKeyedValue
+telemetryAddValue
 (
 "
 LOOP_SHARING_STATE_CHANGE
