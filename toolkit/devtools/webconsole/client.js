@@ -390,6 +390,13 @@ response
 =
 >
 {
+if
+(
+this
+.
+pendingEvaluationResults
+)
+{
 this
 .
 pendingEvaluationResults
@@ -402,6 +409,7 @@ resultID
 aOnResponse
 )
 ;
+}
 }
 )
 ;
