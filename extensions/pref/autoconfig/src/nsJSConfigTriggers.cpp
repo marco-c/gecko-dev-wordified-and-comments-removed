@@ -119,11 +119,6 @@ mozilla
 AutoSafeJSContext
 ;
 static
-mozilla
-:
-:
-Maybe
-<
 JS
 :
 :
@@ -131,7 +126,6 @@ PersistentRooted
 <
 JSObject
 *
->
 >
 autoconfigSb
 ;
@@ -146,6 +140,10 @@ rv
 if
 (
 autoconfigSb
+.
+initialized
+(
+)
 )
 return
 NS_OK
@@ -244,7 +242,7 @@ GetJSObject
 ;
 autoconfigSb
 .
-emplace
+init
 (
 cx
 js
@@ -273,6 +271,10 @@ CentralizedAdminPrefManagerFinish
 if
 (
 autoconfigSb
+.
+initialized
+(
+)
 )
 {
 AutoSafeJSContext
@@ -440,7 +442,6 @@ JSAutoCompartment
 ac
 (
 cx
-*
 autoconfigSb
 )
 ;
@@ -473,7 +474,6 @@ script
 )
 filename
 cx
-*
 autoconfigSb
 &
 v

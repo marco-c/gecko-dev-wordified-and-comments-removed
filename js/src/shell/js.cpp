@@ -693,13 +693,10 @@ gServiceInterrupt
 false
 ;
 static
-Maybe
-<
 JS
 :
 :
 PersistentRootedValue
->
 gInterruptFunc
 ;
 static
@@ -1620,7 +1617,6 @@ RootedValue
 interruptFunc
 (
 cx
-*
 gInterruptFunc
 )
 ;
@@ -16442,11 +16438,6 @@ if
 (
 !
 gInterruptFunc
--
->
-get
-(
-)
 .
 isNull
 (
@@ -16715,7 +16706,6 @@ return
 false
 ;
 }
-*
 gInterruptFunc
 =
 value
@@ -17092,7 +17082,6 @@ return
 false
 ;
 }
-*
 gInterruptFunc
 =
 value
@@ -36523,7 +36512,7 @@ return
 ;
 gInterruptFunc
 .
-emplace
+init
 (
 rt
 NullValue
@@ -36830,12 +36819,6 @@ true
 )
 ;
 KillWatchdog
-(
-)
-;
-gInterruptFunc
-.
-reset
 (
 )
 ;

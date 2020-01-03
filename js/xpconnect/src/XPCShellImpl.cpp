@@ -3094,10 +3094,7 @@ rval
 ;
 }
 static
-Maybe
-<
 PersistentRootedValue
->
 sScriptedInterruptCallback
 ;
 static
@@ -3112,13 +3109,16 @@ cx
 MOZ_ASSERT
 (
 sScriptedInterruptCallback
+.
+initialized
+(
+)
 )
 ;
 RootedValue
 callback
 (
 cx
-*
 sScriptedInterruptCallback
 )
 ;
@@ -3234,6 +3234,10 @@ vp
 MOZ_ASSERT
 (
 sScriptedInterruptCallback
+.
+initialized
+(
+)
 )
 ;
 JS
@@ -3290,7 +3294,6 @@ isUndefined
 )
 )
 {
-*
 sScriptedInterruptCallback
 =
 UndefinedValue
@@ -3347,7 +3350,6 @@ return
 false
 ;
 }
-*
 sScriptedInterruptCallback
 =
 args
@@ -7229,7 +7231,7 @@ return
 }
 sScriptedInterruptCallback
 .
-emplace
+init
 (
 rt
 UndefinedValue
@@ -7878,12 +7880,6 @@ rv
 NS_ShutdownXPCOM
 failed
 "
-)
-;
-sScriptedInterruptCallback
-.
-reset
-(
 )
 ;
 #
