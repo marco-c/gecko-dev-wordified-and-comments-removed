@@ -48,13 +48,6 @@ int
 errorCode
 )
 ;
-BOOL
-WriteStatusPending
-(
-LPCWSTR
-updateDirPath
-)
-;
 DWORD
 WaitForServiceStop
 (
