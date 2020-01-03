@@ -233,6 +233,9 @@ NS_EVENT_CLASS
 undef
 NS_ROOT_EVENT_CLASS
 struct
+BaseEventFlags
+;
+struct
 EventFlags
 ;
 struct

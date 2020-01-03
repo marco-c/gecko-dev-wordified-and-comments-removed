@@ -1017,6 +1017,12 @@ message
 =
 =
 NS_COMPOSITION_CHANGE
+|
+|
+message
+=
+=
+NS_COMPOSITION_COMMIT_AS_IS
 ;
 }
 bool
@@ -1030,6 +1036,12 @@ message
 =
 =
 NS_COMPOSITION_END
+|
+|
+message
+=
+=
+NS_COMPOSITION_COMMIT_AS_IS
 ;
 }
 }

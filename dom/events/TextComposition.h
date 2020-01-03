@@ -513,7 +513,7 @@ WidgetCompositionEvent
 aCompositionEvent
 )
 ;
-void
+BaseEventFlags
 CloneAndDispatchAs
 (
 const
@@ -522,6 +522,16 @@ WidgetCompositionEvent
 aCompositionEvent
 uint32_t
 aMessage
+nsEventStatus
+*
+aStatus
+=
+nullptr
+EventDispatchingCallback
+*
+aCallBack
+=
+nullptr
 )
 ;
 bool
