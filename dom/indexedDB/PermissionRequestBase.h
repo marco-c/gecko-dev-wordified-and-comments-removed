@@ -67,6 +67,9 @@ mozilla
 namespace
 dom
 {
+class
+Element
+;
 namespace
 indexedDB
 {
@@ -80,9 +83,9 @@ nsIInterfaceRequestor
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+Element
 >
-mWindow
+mOwnerElement
 ;
 nsCOMPtr
 <
@@ -148,9 +151,9 @@ protected
 :
 PermissionRequestBase
 (
-nsPIDOMWindow
+Element
 *
-aWindow
+aOwnerElement
 nsIPrincipal
 *
 aPrincipal
