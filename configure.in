@@ -34890,6 +34890,13 @@ gobject
 2
 .
 0
+atk
+-
+bridge
+-
+2
+.
+0
 GDK_PACKAGES
 )
 MOZ_GTK3_CFLAGS
