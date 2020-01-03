@@ -65,6 +65,13 @@ ISurfaceAllocator
 aAllocator
 )
 ;
+void
+SetMaxPoolSize
+(
+uint32_t
+aMax
+)
+;
 TemporaryRef
 <
 TextureClient
