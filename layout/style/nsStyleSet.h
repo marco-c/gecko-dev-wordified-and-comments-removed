@@ -1127,6 +1127,13 @@ InitialStyleRule
 (
 )
 ;
+bool
+HasRuleProcessorUsedByMultipleStyleSets
+(
+sheetType
+aSheetType
+)
+;
 private
 :
 nsStyleSet
