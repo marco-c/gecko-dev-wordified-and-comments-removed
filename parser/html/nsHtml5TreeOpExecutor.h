@@ -244,9 +244,6 @@ nsIURI
 >
 mSpeculationBaseURI
 ;
-bool
-mSpeculationReferrerPolicyWasSet
-;
 ReferrerPolicy
 mSpeculationReferrerPolicy
 ;
