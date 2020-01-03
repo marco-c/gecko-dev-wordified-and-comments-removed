@@ -73,7 +73,7 @@ test
 /
 dom
 /
-base
+security
 /
 test_CrossSiteXHR_cache
 :
@@ -157,7 +157,7 @@ test
 /
 dom
 /
-base
+security
 /
 test_CrossSiteXHR_cache
 :

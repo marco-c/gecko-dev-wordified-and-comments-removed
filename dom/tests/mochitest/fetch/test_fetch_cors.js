@@ -532,9 +532,11 @@ tests
 /
 dom
 /
-base
+security
 /
 test
+/
+cors
 /
 file_CrossSiteXHR_server
 .
