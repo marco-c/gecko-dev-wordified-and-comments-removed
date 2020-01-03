@@ -142,6 +142,9 @@ styleinspector
 tern
 '
 '
+touch
+'
+'
 transport
 '
 '
@@ -240,13 +243,6 @@ js
 '
 '
 path
-.
-js
-'
-'
-touch
--
-events
 .
 js
 '
