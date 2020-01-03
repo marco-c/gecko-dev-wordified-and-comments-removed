@@ -235,6 +235,11 @@ aBorrowedTaskQueue
 nullptr
 )
 ;
+void
+InitializationTask
+(
+)
+;
 virtual
 nsresult
 Init
@@ -733,6 +738,15 @@ mTaskQueue
 ;
 MediaInfo
 mInfo
+;
+Mirror
+<
+media
+:
+:
+NullableTimeUnit
+>
+mDuration
 ;
 bool
 mIgnoreAudioOutputFormat

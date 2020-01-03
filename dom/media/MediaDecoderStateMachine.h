@@ -302,11 +302,6 @@ IsRealTime
 )
 const
 ;
-int64_t
-GetDuration
-(
-)
-;
 bool
 OnDecodeTaskQueue
 (
