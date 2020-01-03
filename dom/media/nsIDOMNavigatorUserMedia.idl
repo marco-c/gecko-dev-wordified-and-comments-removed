@@ -70,13 +70,6 @@ nsIVariant
 .
 idl
 "
-#
-include
-"
-nsIDOMMediaStream
-.
-idl
-"
 [
 scriptable
 builtinclass
@@ -192,7 +185,7 @@ true
 and
 a
 *
-nsIDOMLocalMediaStream
+DOMLocalMediaStream
 if
 either
 audio

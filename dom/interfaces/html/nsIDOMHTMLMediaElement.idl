@@ -133,9 +133,6 @@ nsIDOMTimeRanges
 .
 idl
 "
-interface
-nsIDOMMediaStream
-;
 /
 *
 *
@@ -267,10 +264,6 @@ state
 attribute
 DOMString
 src
-;
-attribute
-nsIDOMMediaStream
-mozSrcObject
 ;
 readonly
 attribute
@@ -477,16 +470,6 @@ extension
 :
 stream
 capture
-nsIDOMMediaStream
-mozCaptureStream
-(
-)
-;
-nsIDOMMediaStream
-mozCaptureStreamUntilEnded
-(
-)
-;
 readonly
 attribute
 boolean

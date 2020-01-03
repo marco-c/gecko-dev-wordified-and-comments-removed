@@ -1419,6 +1419,14 @@ DOMMediaStream
 aValue
 )
 ;
+void
+SetMozSrcObject
+(
+DOMMediaStream
+*
+aValue
+)
+;
 bool
 MozPreservesPitch
 (
@@ -2586,9 +2594,6 @@ mCORSMode
 ;
 bool
 mHasAudio
-;
-bool
-mHasVideo
 ;
 bool
 mDownloadSuspendedByCache
