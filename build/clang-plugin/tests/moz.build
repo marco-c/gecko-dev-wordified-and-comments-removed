@@ -123,6 +123,11 @@ TestMustOverride
 cpp
 '
 '
+TestMustUse
+.
+cpp
+'
+'
 TestNANTestingExpr
 .
 cpp
