@@ -165,6 +165,7 @@ VisitURIObserver
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 VisitURIObserver
 (
 int

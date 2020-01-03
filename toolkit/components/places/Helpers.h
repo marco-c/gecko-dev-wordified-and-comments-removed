@@ -413,6 +413,7 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIRUNNABLE
+explicit
 PlacesEvent
 (
 const
@@ -450,6 +451,7 @@ AsyncStatementCallback
 {
 public
 :
+explicit
 AsyncStatementCallbackNotifier
 (
 const
@@ -488,6 +490,7 @@ AsyncStatementCallback
 {
 public
 :
+explicit
 AsyncStatementTelemetryTimer
 (
 Telemetry

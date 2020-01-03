@@ -213,6 +213,7 @@ nsTrimInt64HashKey
 {
 public
 :
+explicit
 BookmarkKeyClass
 (
 const
@@ -846,6 +847,7 @@ nsITransaction
 {
 public
 :
+explicit
 RemoveFolderTransaction
 (
 int64_t

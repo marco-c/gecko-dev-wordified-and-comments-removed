@@ -86,6 +86,7 @@ int64_t
 *
 KeyTypePointer
 ;
+explicit
 nsTrimInt64HashKey
 (
 KeyTypePointer
@@ -509,6 +510,7 @@ StopObserving
 ;
 public
 :
+explicit
 nsNavHistoryResult
 (
 nsNavHistoryContainerResultNode
