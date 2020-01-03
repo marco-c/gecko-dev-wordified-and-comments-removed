@@ -252,6 +252,11 @@ EXPORTS
 =
 [
 '
+ImageCacheKey
+.
+h
+'
+'
 ImageLogging
 .
 h
@@ -333,6 +338,11 @@ cpp
 '
 '
 Image
+.
+cpp
+'
+'
+ImageCacheKey
 .
 cpp
 '
