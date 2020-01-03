@@ -40248,6 +40248,10 @@ IsVisible
 if
 (
 !
+mIsActive
+|
+|
+!
 mViewManager
 )
 return
@@ -40287,7 +40291,7 @@ if
 view
 )
 return
-mIsActive
+true
 ;
 view
 =
