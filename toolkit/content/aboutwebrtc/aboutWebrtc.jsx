@@ -65,6 +65,22 @@ MPL
 .
 *
 /
+/
+*
+jshint
+newcap
+:
+false
+*
+/
+/
+*
+global
+React
+WebrtcGlobalInformation
+document
+*
+/
 "
 use
 strict
@@ -224,6 +240,7 @@ bind
 this
 )
 )
+;
 }
 render
 :
@@ -470,6 +487,7 @@ bind
 this
 )
 )
+;
 }
 render
 :
@@ -931,6 +949,7 @@ id
 ;
 return
 paired
+;
 }
 new
 Set
@@ -2612,6 +2631,7 @@ remote
 :
 null
 ]
+;
 }
 .
 bind
@@ -3142,6 +3162,7 @@ transport
 type
 }
 )
+;
 }
 function
 onLoad
@@ -3166,7 +3187,7 @@ reports
 ;
 React
 .
-renderComponent
+render
 (
 <
 AboutWebRTC
