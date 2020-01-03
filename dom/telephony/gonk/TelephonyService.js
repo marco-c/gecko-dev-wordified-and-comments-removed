@@ -4303,6 +4303,16 @@ RIL
 .
 MMI_KS_SC_CALL_WAITING
 ;
+case
+RIL
+.
+MMI_SC_CHANGE_PASSWORD
+:
+return
+RIL
+.
+MMI_KS_SC_CHANGE_PASSWORD
+;
 default
 :
 return
