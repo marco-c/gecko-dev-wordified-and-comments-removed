@@ -1290,7 +1290,7 @@ NS_OK
 ;
 }
 uint32_t
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 :
 GetBestFitnessDistance
