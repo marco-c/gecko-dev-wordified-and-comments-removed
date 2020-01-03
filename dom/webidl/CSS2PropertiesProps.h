@@ -21,6 +21,7 @@ X
 define
 DO_PROP
 (
+name
 method
 id
 flags
@@ -28,6 +29,8 @@ pref
 )
 \
 [
+#
+name
 #
 method
 #
@@ -57,6 +60,7 @@ animtype
 \
 DO_PROP
 (
+name
 method
 id
 flags
@@ -75,6 +79,7 @@ pref
 \
 DO_PROP
 (
+name
 method
 id
 flags
@@ -122,6 +127,7 @@ pref
 \
 DO_PROP
 (
+name
 method
 id
 0

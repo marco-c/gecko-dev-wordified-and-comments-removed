@@ -20,6 +20,7 @@ props
 "
 for
 [
+name
 prop
 id
 flags
