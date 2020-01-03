@@ -1814,7 +1814,7 @@ if
 objProto
 )
 return
-nullptr
+false
 ;
 RootedPlainObject
 proto
@@ -1837,7 +1837,7 @@ if
 proto
 )
 return
-nullptr
+false
 ;
 if
 (
@@ -1878,7 +1878,7 @@ nullptr
 )
 )
 return
-nullptr
+false
 ;
 }
 RootedValue
