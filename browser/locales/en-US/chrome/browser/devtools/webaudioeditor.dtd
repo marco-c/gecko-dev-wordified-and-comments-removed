@@ -315,7 +315,7 @@ webAudioEditorUI
 .
 tab
 .
-properties
+properties2
 )
 :
 This
@@ -340,9 +340,9 @@ webAudioEditorUI
 .
 tab
 .
-properties
+properties2
 "
-Parameters
+Properties
 "
 >
 <
