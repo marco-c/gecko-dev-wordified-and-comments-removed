@@ -64,7 +64,7 @@ include
 "
 jit
 /
-BaselineRegisters
+SharedICRegisters
 .
 h
 "

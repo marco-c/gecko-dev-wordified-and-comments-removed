@@ -1,9 +1,9 @@
 #
 ifndef
-jit_arm_BaselineHelpers_arm_h
+jit_arm_SharedICHelpers_arm_h
 #
 define
-jit_arm_BaselineHelpers_arm_h
+jit_arm_SharedICHelpers_arm_h
 #
 include
 "
@@ -27,7 +27,7 @@ include
 "
 jit
 /
-BaselineRegisters
+MacroAssembler
 .
 h
 "
@@ -36,7 +36,7 @@ include
 "
 jit
 /
-MacroAssembler
+SharedICRegisters
 .
 h
 "

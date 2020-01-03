@@ -1,9 +1,9 @@
 #
 ifndef
-jit_BaselineHelpers_h
+jit_SharedICHelpers_h
 #
 define
-jit_BaselineHelpers_h
+jit_SharedICHelpers_h
 #
 if
 defined
@@ -17,7 +17,7 @@ jit
 /
 x86
 /
-BaselineHelpers
+SharedICHelpers
 -
 x86
 .
@@ -36,7 +36,7 @@ jit
 /
 x64
 /
-BaselineHelpers
+SharedICHelpers
 -
 x64
 .
@@ -55,7 +55,7 @@ jit
 /
 arm
 /
-BaselineHelpers
+SharedICHelpers
 -
 arm
 .
@@ -74,7 +74,7 @@ jit
 /
 mips
 /
-BaselineHelpers
+SharedICHelpers
 -
 mips
 .
@@ -93,7 +93,7 @@ jit
 /
 none
 /
-BaselineHelpers
+SharedICHelpers
 -
 none
 .

@@ -3,7 +3,7 @@ include
 "
 jit
 /
-BaselineHelpers
+BaselineIC
 .
 h
 "
@@ -12,7 +12,7 @@ include
 "
 jit
 /
-BaselineIC
+SharedICHelpers
 .
 h
 "

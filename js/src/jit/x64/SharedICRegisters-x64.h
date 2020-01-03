@@ -1,9 +1,9 @@
 #
 ifndef
-jit_x64_BaselineRegisters_x64_h
+jit_x64_SharedICRegisters_x64_h
 #
 define
-jit_x64_BaselineRegisters_x64_h
+jit_x64_SharedICRegisters_x64_h
 #
 include
 "

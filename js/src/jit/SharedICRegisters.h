@@ -1,9 +1,9 @@
 #
 ifndef
-jit_BaselineRegisters_h
+jit_SharedICRegisters_h
 #
 define
-jit_BaselineRegisters_h
+jit_SharedICRegisters_h
 #
 if
 defined
@@ -17,7 +17,7 @@ jit
 /
 x86
 /
-BaselineRegisters
+SharedICRegisters
 -
 x86
 .
@@ -36,7 +36,7 @@ jit
 /
 x64
 /
-BaselineRegisters
+SharedICRegisters
 -
 x64
 .
@@ -55,7 +55,7 @@ jit
 /
 arm
 /
-BaselineRegisters
+SharedICRegisters
 -
 arm
 .
@@ -74,7 +74,7 @@ jit
 /
 mips
 /
-BaselineRegisters
+SharedICRegisters
 -
 mips
 .
@@ -93,7 +93,7 @@ jit
 /
 none
 /
-BaselineRegisters
+SharedICRegisters
 -
 none
 .
