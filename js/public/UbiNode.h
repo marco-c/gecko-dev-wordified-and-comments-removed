@@ -535,7 +535,7 @@ return
 this
 ;
 }
-explicit
+MOZ_IMPLICIT
 Node
 (
 JS
