@@ -24,7 +24,6 @@ function
 const
 [
 tab
-debuggee
 panel
 ]
 =
@@ -55,11 +54,12 @@ panel
 21
 )
 ;
-executeSoon
+callInTab
 (
-debuggee
-.
+tab
+"
 doPause
+"
 )
 ;
 yield
