@@ -1451,6 +1451,13 @@ return
 NS_OK
 ;
 }
+#
+if
+!
+defined
+(
+MOZILLA_XPCOMRT_API
+)
 static
 PLDHashOperator
 AppendStrongObservers
@@ -1501,6 +1508,8 @@ return
 PL_DHASH_NEXT
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsObserverService
 :
