@@ -115,10 +115,10 @@ mozilla
 ipc
 :
 :
-UnixSocketRawData
+UnixSocketBuffer
 >
 &
-aData
+aBuffer
 )
 override
 ;

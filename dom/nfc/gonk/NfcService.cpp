@@ -1449,7 +1449,7 @@ NfcEventRunnable
 NfcMessageHandler
 *
 aHandler
-UnixSocketRawData
+UnixSocketBuffer
 *
 aData
 )
@@ -1645,7 +1645,7 @@ mHandler
 ;
 nsAutoPtr
 <
-UnixSocketRawData
+UnixSocketBuffer
 >
 mData
 ;
@@ -2169,10 +2169,10 @@ ReceiveSocketData
 (
 nsAutoPtr
 <
-UnixSocketRawData
+UnixSocketBuffer
 >
 &
-aData
+aBuffer
 )
 {
 MOZ_ASSERT
@@ -2190,7 +2190,7 @@ new
 NfcEventRunnable
 (
 mHandler
-aData
+aBuffer
 .
 forget
 (
