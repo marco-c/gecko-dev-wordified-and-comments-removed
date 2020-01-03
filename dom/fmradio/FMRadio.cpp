@@ -292,12 +292,6 @@ mType
 aType
 ;
 }
-~
-FMRadioRequest
-(
-)
-{
-}
 NS_IMETHODIMP
 Run
 (
@@ -443,6 +437,14 @@ MOZ_CRASH
 return
 NS_OK
 ;
+}
+protected
+:
+~
+FMRadioRequest
+(
+)
+{
 }
 private
 :
