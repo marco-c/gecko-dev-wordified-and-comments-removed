@@ -13036,6 +13036,7 @@ dst
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 movl_ripr
 (
@@ -13097,6 +13098,7 @@ return
 label
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 movl_rrip
 (
@@ -13158,6 +13160,7 @@ return
 label
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 movq_ripr
 (
@@ -14610,6 +14613,7 @@ dst
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 leaq_rip
 (
@@ -14669,6 +14673,7 @@ label
 }
 #
 endif
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 call
 (
@@ -14708,7 +14713,7 @@ return
 r
 ;
 }
-JmpSrc
+void
 call
 (
 RegisterID
@@ -14724,18 +14729,6 @@ dst
 GROUP5_OP_CALLN
 )
 ;
-JmpSrc
-r
-=
-JmpSrc
-(
-m_formatter
-.
-size
-(
-)
-)
-;
 spew
 (
 "
@@ -14749,9 +14742,6 @@ nameIReg
 dst
 )
 )
-;
-return
-r
 ;
 }
 void
@@ -14788,6 +14778,7 @@ GROUP5_OP_CALLN
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 cmp_eax
 (
@@ -14955,7 +14946,7 @@ return
 r
 ;
 }
-JmpSrc
+void
 jmp_r
 (
 RegisterID
@@ -14983,16 +14974,6 @@ oneByteOp
 OP_GROUP5_Ev
 dst
 GROUP5_OP_JMPN
-)
-;
-return
-JmpSrc
-(
-m_formatter
-.
-size
-(
-)
 )
 ;
 }
@@ -18188,6 +18169,7 @@ src
 #
 ifdef
 JS_CODEGEN_X64
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 vmovsd_ripr
 (
@@ -18212,6 +18194,7 @@ dst
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 vmovss_ripr
 (
@@ -18236,6 +18219,7 @@ dst
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 vmovsd_rrip
 (
@@ -18260,6 +18244,7 @@ src
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 vmovss_rrip
 (
@@ -18284,6 +18269,7 @@ src
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 vmovdqa_rrip
 (
@@ -18308,6 +18294,7 @@ src
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 vmovaps_rrip
 (
@@ -18775,6 +18762,7 @@ dst
 #
 ifdef
 JS_CODEGEN_X64
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 vmovaps_ripr
 (
@@ -18799,6 +18787,7 @@ dst
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 vmovdqa_ripr
 (
@@ -22164,6 +22153,7 @@ name
 #
 ifdef
 JS_CODEGEN_X64
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 twoByteRipOpSimd
 (
@@ -30112,6 +30102,7 @@ imm
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 JmpSrc
 immediateRel32
 (
