@@ -8204,12 +8204,6 @@ xml
 ref
 .
 xml
-fails
--
-if
-(
-cocoaWidget
-)
 =
 =
 356774
@@ -8224,10 +8218,6 @@ html
 ref
 .
 html
-#
-probably
-bug
-379317
 =
 =
 356775
