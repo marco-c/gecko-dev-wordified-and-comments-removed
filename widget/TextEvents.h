@@ -90,6 +90,13 @@ nsTArray
 h
 "
 #
+include
+"
+WritingModes
+.
+h
+"
+#
 define
 NS_DEFINE_VK
 (
@@ -1416,6 +1423,12 @@ mHasSelection
 ;
 bool
 mWidgetIsHit
+;
+mozilla
+:
+:
+WritingMode
+mWritingMode
 ;
 nsCOMPtr
 <
