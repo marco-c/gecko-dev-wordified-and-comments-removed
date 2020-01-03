@@ -548,8 +548,8 @@ HandleObject
 obj
 unsigned
 flags
-MutableHandleValue
-vp
+MutableHandleObject
+objp
 )
 ;
 JSObject
@@ -578,8 +578,8 @@ flags
 AutoIdVector
 &
 props
-MutableHandleValue
-vp
+MutableHandleObject
+objp
 )
 ;
 bool
@@ -590,8 +590,8 @@ JSContext
 cx
 unsigned
 flags
-MutableHandleValue
-vp
+MutableHandleObject
+objp
 )
 ;
 bool

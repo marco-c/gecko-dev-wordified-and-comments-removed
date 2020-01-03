@@ -353,8 +353,8 @@ HandleObject
 proxy
 unsigned
 flags
-MutableHandleValue
-vp
+MutableHandleObject
+objp
 )
 ;
 static

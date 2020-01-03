@@ -1626,8 +1626,8 @@ HandleObject
 proxy
 unsigned
 flags
-MutableHandleValue
-vp
+MutableHandleObject
+objp
 )
 const
 {
@@ -1672,7 +1672,7 @@ GetIterator
 cx
 target
 flags
-vp
+objp
 )
 ;
 }

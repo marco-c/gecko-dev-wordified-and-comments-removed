@@ -3396,9 +3396,10 @@ JS
 :
 MutableHandle
 <
-Value
+JSObject
+*
 >
-vp
+objp
 )
 const
 {
@@ -3411,7 +3412,7 @@ iterate
 cx
 proxy
 flags
-vp
+objp
 )
 ;
 }
