@@ -1822,6 +1822,16 @@ return
 }
 chatbox
 .
+setAttribute
+(
+"
+dark
+"
+true
+)
+;
+chatbox
+.
 addEventListener
 (
 "
