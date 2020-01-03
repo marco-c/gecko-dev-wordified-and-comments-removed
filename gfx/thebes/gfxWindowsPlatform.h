@@ -840,12 +840,13 @@ mIsWARP
 ;
 }
 bool
-DoesD3D11TextureSharingWork
+CompositorD3D11TextureSharingWorks
 (
 )
+const
 {
 return
-mDoesD3D11TextureSharingWork
+mCompositorD3D11TextureSharingWorks
 ;
 }
 bool
@@ -1294,7 +1295,7 @@ bool
 mHasFakeDeviceReset
 ;
 bool
-mDoesD3D11TextureSharingWork
+mCompositorD3D11TextureSharingWorks
 ;
 DeviceResetReason
 mDeviceResetReason

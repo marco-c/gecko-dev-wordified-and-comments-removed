@@ -570,7 +570,7 @@ GetPlatform
 )
 -
 >
-DoesD3D11TextureSharingWork
+CompositorD3D11TextureSharingWorks
 (
 )
 )
