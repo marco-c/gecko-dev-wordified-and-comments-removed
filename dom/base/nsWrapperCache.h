@@ -258,6 +258,11 @@ JSObject
 aOldObject
 )
 {
+if
+(
+mWrapper
+)
+{
 MOZ_ASSERT
 (
 mWrapper
@@ -270,6 +275,7 @@ mWrapper
 =
 aNewObject
 ;
+}
 }
 bool
 PreservingWrapper
