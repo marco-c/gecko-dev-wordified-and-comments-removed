@@ -340,6 +340,14 @@ keys
 ;
 [
 NewObject
+Alias
+=
+keys
+Alias
+=
+"
+iterator
+"
 ]
 FontFaceSetIterator
 values
@@ -358,11 +366,6 @@ optional
 any
 thisArg
 )
-;
-/
-/
-FontFace
-iterator
 ;
 /
 /
