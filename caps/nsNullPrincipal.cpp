@@ -911,6 +911,7 @@ return
 NS_OK
 ;
 }
+}
 nsCOMPtr
 <
 nsIURIWithPrincipal
@@ -947,9 +948,6 @@ principal
 if
 (
 principal
-&
-&
-principal
 =
 =
 this
@@ -958,7 +956,6 @@ this
 return
 NS_OK
 ;
-}
 }
 }
 if
