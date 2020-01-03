@@ -463,7 +463,7 @@ mSampleRate
 ;
 }
 double
-TimeFromDestinationTime
+FractionalTicksFromDestinationTime
 (
 AudioNodeStream
 *
