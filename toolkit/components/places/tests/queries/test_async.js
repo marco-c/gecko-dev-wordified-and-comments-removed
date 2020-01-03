@@ -1381,9 +1381,6 @@ return
 isFolder
 :
 true
-readOnly
-:
-false
 parentFolder
 :
 dat
