@@ -10394,7 +10394,7 @@ NS_TOUCH_END
 if
 (
 !
-nsIPresShell
+TouchManager
 :
 :
 gPreventMouseEvents
