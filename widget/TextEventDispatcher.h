@@ -262,7 +262,6 @@ aLength
 nsresult
 Flush
 (
-const
 TextEventDispatcher
 *
 aDispatcher
@@ -317,6 +316,14 @@ WidgetCompositionEvent
 aEvent
 )
 const
+;
+nsresult
+StartCompositionAutomaticallyIfNecessary
+(
+nsEventStatus
+&
+aStatus
+)
 ;
 }
 ;
