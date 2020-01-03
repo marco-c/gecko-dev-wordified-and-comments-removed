@@ -993,6 +993,12 @@ Scalar
 Int8
 :
 {
+#
+ifdef
+__arm__
+volatile
+#
+endif
 int8_t
 *
 src
