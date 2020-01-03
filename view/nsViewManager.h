@@ -800,9 +800,6 @@ mRecursiveRefreshPending
 bool
 mHasPendingWidgetGeometryChanges
 ;
-bool
-mInScroll
-;
 static
 nsTArray
 <
