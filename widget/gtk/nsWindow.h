@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsGtkIMModule
+IMContextWrapper
 .
 h
 "
@@ -1930,9 +1930,15 @@ override
 ;
 nsRefPtr
 <
-nsGtkIMModule
+mozilla
+:
+:
+widget
+:
+:
+IMContextWrapper
 >
-mIMModule
+mIMContext
 ;
 gint
 GdkScaleFactor
