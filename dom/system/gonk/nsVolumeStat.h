@@ -53,11 +53,6 @@ aPath
 ;
 private
 :
-~
-nsVolumeStat
-(
-)
-;
 struct
 statfs
 mStat

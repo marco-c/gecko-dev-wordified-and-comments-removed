@@ -180,6 +180,9 @@ h
 undef
 LOG
 #
+undef
+ERR
+#
 define
 LOG
 (

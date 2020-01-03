@@ -67,15 +67,6 @@ mStat
 ;
 }
 }
-nsVolumeStat
-:
-:
-~
-nsVolumeStat
-(
-)
-{
-}
 NS_IMETHODIMP
 nsVolumeStat
 :

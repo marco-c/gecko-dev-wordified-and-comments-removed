@@ -38,6 +38,9 @@ errno
 h
 >
 #
+undef
+USE_DEBUG
+#
 define
 USE_DEBUG
 0
