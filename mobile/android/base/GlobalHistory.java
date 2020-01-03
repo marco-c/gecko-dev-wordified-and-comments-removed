@@ -403,7 +403,7 @@ start
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 TELEMETRY_HISTOGRAM_BUILD_VISITED_LINK
 (
@@ -582,7 +582,7 @@ start
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 TELEMETRY_HISTOGRAM_ADD
 (
@@ -670,7 +670,7 @@ start
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 TELEMETRY_HISTOGRAM_UPDATE
 (

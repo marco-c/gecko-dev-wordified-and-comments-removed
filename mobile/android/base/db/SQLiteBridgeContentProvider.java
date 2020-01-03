@@ -1674,7 +1674,7 @@ return
 }
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 histogram
 op

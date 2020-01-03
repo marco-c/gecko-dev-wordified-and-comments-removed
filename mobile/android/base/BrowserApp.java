@@ -8262,7 +8262,7 @@ event
 {
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 "
 PLACES_PAGES_COUNT
@@ -8282,7 +8282,7 @@ history
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 "
 PLACES_BOOKMARKS_COUNT
@@ -8302,7 +8302,7 @@ bookmarks
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 "
 FENNEC_FAVICONS_COUNT
@@ -8322,7 +8322,7 @@ favicons
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 "
 FENNEC_THUMBNAILS_COUNT
@@ -8342,7 +8342,7 @@ thumbnails
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 "
 FENNEC_READING_LIST_COUNT
@@ -8362,7 +8362,7 @@ readinglist
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 "
 BROWSER_IS_USER_DEFAULT
@@ -8390,7 +8390,7 @@ feature16Plus
 {
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 "
 BROWSER_IS_ASSIST_DEFAULT

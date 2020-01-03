@@ -6763,7 +6763,7 @@ true
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 "
 FENNEC_RESTORING_ACTIVITY
@@ -7120,7 +7120,7 @@ mIsRestoringActivity
 {
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 "
 FENNEC_WAS_KILLED
@@ -7207,7 +7207,7 @@ wasKilled
 {
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 "
 FENNEC_WAS_KILLED
@@ -8129,7 +8129,7 @@ moveSessionFile
 }
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 "
 FENNEC_STARTUP_GECKOAPP_ACTION

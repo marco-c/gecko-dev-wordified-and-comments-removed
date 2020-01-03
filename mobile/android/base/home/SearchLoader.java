@@ -110,13 +110,6 @@ content
 .
 Loader
 ;
-import
-android
-.
-util
-.
-Log
-;
 class
 SearchLoader
 {
@@ -571,7 +564,7 @@ start
 ;
 Telemetry
 .
-HistogramAdd
+addToHistogram
 (
 TELEMETRY_HISTOGRAM_LOAD_CURSOR
 (
