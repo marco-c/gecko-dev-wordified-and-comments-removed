@@ -31,6 +31,13 @@ h
 #
 include
 "
+gfxTextRun
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx

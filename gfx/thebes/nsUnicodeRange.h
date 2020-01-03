@@ -1,4 +1,10 @@
 #
+ifndef
+NS_UNICODERANGE_H
+#
+define
+NS_UNICODERANGE_H
+#
 include
 <
 stdint
@@ -353,3 +359,5 @@ uint8_t
 unicodeRange
 )
 ;
+#
+endif

@@ -67,6 +67,13 @@ h
 #
 include
 "
+gfxTextRun
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

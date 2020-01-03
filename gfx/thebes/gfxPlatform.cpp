@@ -94,6 +94,13 @@ gfxPrefs
 h
 "
 #
+include
+"
+gfxTextRun
+.
+h
+"
+#
 ifdef
 XP_WIN
 #

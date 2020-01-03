@@ -36,6 +36,13 @@ h
 #
 include
 "
+gfxTextRun
+.
+h
+"
+#
+include
+"
 nsUnicodeProperties
 .
 h
@@ -4239,7 +4246,7 @@ if
 aShapedText
 -
 >
-Flags
+GetFlags
 (
 )
 &

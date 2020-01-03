@@ -112,6 +112,13 @@ h
 "
 #
 include
+"
+gfxTextRun
+.
+h
+"
+#
+include
 <
 locale
 .

@@ -37,14 +37,14 @@ h
 #
 include
 "
-gfxFont
+gfxSkipChars
 .
 h
 "
 #
 include
 "
-gfxSkipChars
+gfxTextRun
 .
 h
 "
