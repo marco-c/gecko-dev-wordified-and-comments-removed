@@ -4126,7 +4126,7 @@ mHTMLCSSUtils
 >
 IsCSSEditableProperty
 (
-aNode
+content
 aProperty
 aAttribute
 )
