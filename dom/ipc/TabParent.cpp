@@ -11432,12 +11432,12 @@ aOutWindowOpened
 =
 (
 opened
-!
+=
 =
 BrowserElementParent
 :
 :
-OPEN_WINDOW_CANCELLED
+OPEN_WINDOW_ADDED
 )
 ;
 return
