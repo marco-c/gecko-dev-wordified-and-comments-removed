@@ -240,6 +240,9 @@ gDebug_isGPSLocationIgnored
 =
 false
 ;
+#
+ifdef
+MOZ_B2G_RIL
 static
 const
 char
@@ -256,6 +259,8 @@ state
 changed
 "
 ;
+#
+endif
 static
 const
 char
@@ -2812,14 +2817,14 @@ positionMode
 =
 GPS_POSITION_MODE_STANDALONE
 ;
+#
+ifdef
+MOZ_B2G_RIL
 bool
 singleShot
 =
 false
 ;
-#
-ifdef
-MOZ_B2G_RIL
 if
 (
 singleShot
