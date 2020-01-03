@@ -27,12 +27,16 @@ MacIOSurfaceTextureClientOGL
 :
 MacIOSurfaceTextureClientOGL
 (
+ISurfaceAllocator
+*
+aAllcator
 TextureFlags
 aFlags
 )
 :
 TextureClient
 (
+aAllcator
 aFlags
 )
 mIsLocked
