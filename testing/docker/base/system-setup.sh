@@ -656,6 +656,8 @@ vim
 \
 nodejs
 \
+npm
+\
 ;
 #
 Install

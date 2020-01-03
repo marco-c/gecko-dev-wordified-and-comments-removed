@@ -100,6 +100,12 @@ tcp
 screen
 0
 1600x1200x24
+2
+>
+/
+dev
+/
+null
 &
 export
 DISPLAY
