@@ -7351,3 +7351,15 @@ allowForceReadOnly
 false
 )
 ;
+pref
+(
+"
+dom
+.
+requestSync
+.
+enabled
+"
+true
+)
+;
