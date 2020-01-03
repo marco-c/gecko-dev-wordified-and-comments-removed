@@ -3365,7 +3365,7 @@ isCollecting
 )
 )
 {
-CallTyped
+DispatchTraceKindTyped
 (
 SetMaybeAliveFunctor
 (
