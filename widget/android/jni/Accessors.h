@@ -186,7 +186,7 @@ val
 class
 Accessor
 {
-public
+private
 :
 template
 <
@@ -194,7 +194,7 @@ class
 Cls
 >
 static
-jclass
+void
 EnsureClassRef
 (
 JNIEnv
@@ -232,15 +232,7 @@ name
 )
 ;
 }
-return
-Cls
-:
-:
-sClassRef
-;
 }
-private
-:
 static
 void
 GetNsresult
