@@ -7231,6 +7231,17 @@ cairo_surface_status
 (
 similar
 )
+<
+<
+"
+format
+"
+<
+<
+(
+int
+)
+aFormat
 ;
 return
 nullptr
