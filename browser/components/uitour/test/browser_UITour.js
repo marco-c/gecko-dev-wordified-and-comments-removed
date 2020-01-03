@@ -168,7 +168,7 @@ test1
 .
 example
 .
-com
+org
 https
 :
 /
@@ -177,7 +177,7 @@ test2
 .
 example
 .
-com
+org
 :
 443
 "
@@ -260,7 +260,7 @@ test2
 .
 example
 .
-com
+org
 /
 "
 )
@@ -350,7 +350,7 @@ http
 /
 example
 .
-com
+org
 /
 "
 )
@@ -462,7 +462,7 @@ http
 /
 example
 .
-com
+org
 /
 "
 )
