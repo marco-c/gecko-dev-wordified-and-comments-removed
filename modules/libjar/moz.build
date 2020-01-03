@@ -186,6 +186,11 @@ EXPORTS
 =
 [
 '
+InterceptedJARChannel
+.
+h
+'
+'
 nsJARURI
 .
 h
@@ -205,6 +210,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+InterceptedJARChannel
+.
+cpp
+'
 '
 nsJARProtocolHandler
 .
