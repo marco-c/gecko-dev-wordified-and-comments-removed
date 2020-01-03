@@ -11580,6 +11580,15 @@ widget
 id
 )
 ;
+this
+.
+removeWidgetFromArea
+(
+widget
+.
+id
+)
+;
 }
 }
 err
