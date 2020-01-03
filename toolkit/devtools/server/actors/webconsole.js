@@ -259,7 +259,7 @@ ConsoleServiceListener
 ConsoleAPIListener
 "
 "
-JSTermHelpers
+addWebConsoleCommands
 "
 "
 JSPropertyProvider
@@ -917,7 +917,7 @@ null
 consoleReflowListener
 :
 null
-_jstermHelpersCache
+_webConsoleCommandsCache
 :
 null
 actorPrefix
@@ -1198,7 +1198,7 @@ null
 ;
 this
 .
-_jstermHelpersCache
+_webConsoleCommandsCache
 =
 null
 ;
@@ -3009,7 +3009,7 @@ if
 !
 this
 .
-_jstermHelpersCache
+_webConsoleCommandsCache
 )
 {
 let
@@ -3026,14 +3026,14 @@ null
 )
 }
 ;
-JSTermHelpers
+addWebConsoleCommands
 (
 helpers
 )
 ;
 this
 .
-_jstermHelpersCache
+_webConsoleCommandsCache
 =
 Object
 .
@@ -3053,7 +3053,7 @@ concat
 (
 this
 .
-_jstermHelpersCache
+_webConsoleCommandsCache
 .
 filter
 (
@@ -3316,10 +3316,9 @@ preferences
 }
 ;
 }
-_getJSTermHelpers
+_getWebConsoleCommands
 :
 function
-WCA__getJSTermHelpers
 (
 aDebuggerGlobal
 )
@@ -3379,7 +3378,7 @@ consoleActor
 this
 }
 ;
-JSTermHelpers
+addWebConsoleCommands
 (
 helpers
 )
@@ -3797,7 +3796,7 @@ helpers
 =
 this
 .
-_getJSTermHelpers
+_getWebConsoleCommands
 (
 dbgWindow
 )
