@@ -1052,7 +1052,7 @@ flags
 ;
 virtual
 bool
-SendGetPropertyNames
+SendGetPropertyKeys
 (
 const
 ObjectId

@@ -504,7 +504,7 @@ prio
 high
 )
 sync
-GetPropertyNames
+GetPropertyKeys
 (
 uint64_t
 objId

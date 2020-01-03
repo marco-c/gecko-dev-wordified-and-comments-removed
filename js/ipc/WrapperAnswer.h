@@ -334,7 +334,7 @@ flags
 )
 ;
 bool
-RecvGetPropertyNames
+RecvGetPropertyKeys
 (
 const
 ObjectId

@@ -3865,7 +3865,7 @@ names
 if
 (
 !
-SendGetPropertyNames
+SendGetPropertyKeys
 (
 objId
 flags
