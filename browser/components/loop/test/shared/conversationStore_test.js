@@ -164,7 +164,7 @@ navigator
 mozLoop
 =
 {
-getLoopBoolPref
+getLoopPref
 :
 sandbox
 .

@@ -211,7 +211,7 @@ navigator
 mozLoop
 =
 {
-getLoopCharPref
+getLoopPref
 :
 sinon
 .

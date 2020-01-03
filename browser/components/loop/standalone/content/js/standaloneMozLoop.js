@@ -581,7 +581,7 @@ StandaloneMozLoop
 prototype
 =
 {
-setLoopCharPref
+setLoopPref
 :
 function
 (
@@ -612,7 +612,7 @@ value
 )
 ;
 }
-getLoopCharPref
+getLoopPref
 :
 function
 (

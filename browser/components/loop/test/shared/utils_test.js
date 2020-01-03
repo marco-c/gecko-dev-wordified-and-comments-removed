@@ -799,7 +799,7 @@ navigator
 mozLoop
 =
 {
-getLoopBoolPref
+getLoopPref
 :
 function
 (
@@ -1049,7 +1049,7 @@ navigator
 mozLoop
 =
 {
-getLoopCharPref
+getLoopPref
 :
 sandbox
 .

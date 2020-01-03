@@ -86,7 +86,7 @@ fakeTokenText
 mozLoop
 =
 {
-getLoopCharPref
+getLoopPref
 :
 sandbox
 .

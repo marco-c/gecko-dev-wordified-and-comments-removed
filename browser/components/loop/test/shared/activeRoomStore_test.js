@@ -115,7 +115,7 @@ dispatch
 fakeMozLoop
 =
 {
-setLoopCharPref
+setLoopPref
 :
 sandbox
 .
@@ -3099,7 +3099,7 @@ calledOnce
 (
 fakeMozLoop
 .
-setLoopCharPref
+setLoopPref
 )
 ;
 sinon
@@ -3110,7 +3110,7 @@ calledWithExactly
 (
 fakeMozLoop
 .
-setLoopCharPref
+setLoopPref
 "
 seenToS
 "

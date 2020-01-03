@@ -69,7 +69,7 @@ exist
 ;
 gMozLoopAPI
 .
-setLoopCharPref
+setLoopPref
 (
 "
 test
@@ -77,6 +77,11 @@ test
 "
 foo
 "
+Ci
+.
+nsIPrefBranch
+.
+PREF_STRING
 )
 ;
 Assert
@@ -114,7 +119,7 @@ equal
 (
 gMozLoopAPI
 .
-getLoopCharPref
+getLoopPref
 (
 "
 test
@@ -198,7 +203,7 @@ equal
 (
 gMozLoopAPI
 .
-getLoopBoolPref
+getLoopPref
 (
 "
 testBool

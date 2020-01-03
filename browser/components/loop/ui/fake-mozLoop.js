@@ -282,14 +282,7 @@ function
 )
 {
 }
-getLoopCharPref
-:
-function
-(
-)
-{
-}
-getLoopBoolPref
+getLoopPref
 :
 function
 (

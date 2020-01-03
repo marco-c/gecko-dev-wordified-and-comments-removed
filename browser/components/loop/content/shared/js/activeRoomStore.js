@@ -1056,7 +1056,7 @@ this
 .
 _mozLoop
 .
-setLoopCharPref
+setLoopPref
 (
 "
 seenToS

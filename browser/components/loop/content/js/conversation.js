@@ -1682,7 +1682,7 @@ navigator
 .
 mozLoop
 .
-getLoopCharPref
+getLoopPref
 (
 "
 feedback
@@ -1716,7 +1716,7 @@ navigator
 .
 mozLoop
 .
-getLoopCharPref
+getLoopPref
 (
 "
 feedback
@@ -2875,7 +2875,7 @@ navigator
 .
 mozLoop
 .
-getLoopCharPref
+getLoopPref
 (
 "
 ot
@@ -2898,7 +2898,7 @@ navigator
 .
 mozLoop
 .
-setLoopCharPref
+setLoopPref
 (
 "
 ot

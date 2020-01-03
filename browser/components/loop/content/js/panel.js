@@ -167,7 +167,7 @@ navigator
 .
 mozLoop
 .
-getLoopBoolPref
+getLoopPref
 (
 "
 rooms
@@ -937,7 +937,7 @@ navigator
 .
 mozLoop
 .
-setLoopBoolPref
+setLoopPref
 (
 "
 gettingStarted
@@ -975,7 +975,7 @@ navigator
 .
 mozLoop
 .
-getLoopBoolPref
+getLoopPref
 (
 "
 gettingStarted
@@ -1105,11 +1105,11 @@ navigator
 .
 mozLoop
 .
-getLoopCharPref
+getLoopPref
 (
-'
+"
 seenToS
-'
+"
 )
 }
 ;
@@ -1150,7 +1150,7 @@ navigator
 .
 mozLoop
 .
-getLoopCharPref
+getLoopPref
 (
 '
 legal
@@ -1166,7 +1166,7 @@ navigator
 .
 mozLoop
 .
-getLoopCharPref
+getLoopPref
 (
 '
 legal
@@ -4012,7 +4012,7 @@ navigator
 .
 mozLoop
 .
-getLoopBoolPref
+getLoopPref
 (
 "
 rooms
