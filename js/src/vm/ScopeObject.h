@@ -612,6 +612,15 @@ HandleFunction
 callee
 )
 ;
+inline
+void
+setAliasedLexicalsToThrowOnTouch
+(
+JSScript
+*
+script
+)
+;
 public
 :
 static

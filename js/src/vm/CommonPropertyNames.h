@@ -1610,6 +1610,15 @@ uneval
 \
 macro
 (
+uninitialized
+uninitialized
+"
+uninitialized
+"
+)
+\
+macro
+(
 uint8
 uint8
 "

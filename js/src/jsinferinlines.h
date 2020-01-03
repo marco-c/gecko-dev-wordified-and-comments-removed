@@ -605,6 +605,7 @@ isMagic
 )
 &
 &
+(
 val
 .
 whyMagic
@@ -613,7 +614,19 @@ whyMagic
 =
 =
 JS_OPTIMIZED_OUT
+|
+|
+val
+.
+whyMagic
+(
 )
+=
+=
+JS_UNINITIALIZED_LEXICAL
+)
+)
+{
 return
 Type
 :
@@ -622,6 +635,7 @@ UnknownType
 (
 )
 ;
+}
 return
 GetValueType
 (

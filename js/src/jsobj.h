@@ -7356,6 +7356,8 @@ HandleObject
 scopeChain
 MutableHandleObject
 objp
+MutableHandleShape
+propp
 )
 ;
 extern
@@ -7371,6 +7373,8 @@ HandleObject
 scopeChain
 MutableHandleObject
 objp
+MutableHandleShape
+propp
 )
 ;
 }

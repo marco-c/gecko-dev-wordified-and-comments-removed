@@ -626,12 +626,12 @@ nargs
 :
 0
 ;
-nfixedvars_
+nbodyfixed_
 =
 script
 -
 >
-nfixedvars
+nbodyfixed
 (
 )
 ;
@@ -720,7 +720,7 @@ nargs_
 =
 0
 ;
-nfixedvars_
+nbodyfixed_
 =
 0
 ;
@@ -1098,13 +1098,13 @@ nargs_
 ;
 }
 unsigned
-nfixedvars
+nbodyfixed
 (
 )
 const
 {
 return
-nfixedvars_
+nbodyfixed_
 ;
 }
 unsigned
@@ -1487,7 +1487,7 @@ if
 (
 local
 <
-nfixedvars
+nbodyfixed
 (
 )
 )
@@ -1497,7 +1497,7 @@ script
 )
 -
 >
-varIsAliased
+bodyLevelLocalIsAliased
 (
 local
 )
@@ -1864,7 +1864,7 @@ unsigned
 nargs_
 ;
 unsigned
-nfixedvars_
+nbodyfixed_
 ;
 unsigned
 nlocals_

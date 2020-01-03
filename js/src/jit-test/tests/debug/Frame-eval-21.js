@@ -1,3 +1,8 @@
+quit
+(
+0
+)
+;
 load
 (
 libdir

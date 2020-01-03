@@ -115,6 +115,17 @@ DONT_CHECK_ALIASING
 false
 }
 ;
+enum
+MaybeCheckLexical
+{
+CheckLexical
+=
+true
+DontCheckLexical
+=
+false
+}
+;
 #
 ifdef
 DEBUG
@@ -1329,7 +1340,7 @@ cx
 )
 ;
 void
-initVarsToUndefined
+initLocals
 (
 )
 ;

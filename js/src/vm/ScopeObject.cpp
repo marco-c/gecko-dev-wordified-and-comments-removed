@@ -1292,6 +1292,14 @@ callee
 )
 )
 ;
+callobj
+-
+>
+setAliasedLexicalsToThrowOnTouch
+(
+script
+)
+;
 if
 (
 script
@@ -6251,7 +6259,7 @@ if
 script
 -
 >
-varIsAliased
+bodyLevelLocalIsAliased
 (
 i
 )
@@ -6287,7 +6295,7 @@ set
 (
 frame
 .
-unaliasedVar
+unaliasedLocal
 (
 i
 )
@@ -6296,7 +6304,7 @@ i
 else
 frame
 .
-unaliasedVar
+unaliasedLocal
 (
 i
 )

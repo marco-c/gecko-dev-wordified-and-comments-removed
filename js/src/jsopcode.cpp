@@ -8379,7 +8379,7 @@ local
 script
 -
 >
-nfixedvars
+nbodyfixed
 (
 )
 )

@@ -2421,7 +2421,7 @@ script
 )
 -
 >
-nfixedvars
+nbodyfixed
 (
 )
 ;
@@ -2473,8 +2473,9 @@ nfixed
 DONT_CHECK_ALIASING
 )
 .
-setUndefined
+setMagic
 (
+JS_UNINITIALIZED_LEXICAL
 )
 ;
 markValues
@@ -2992,7 +2993,7 @@ type
 fp
 -
 >
-initVarsToUndefined
+initLocals
 (
 )
 ;

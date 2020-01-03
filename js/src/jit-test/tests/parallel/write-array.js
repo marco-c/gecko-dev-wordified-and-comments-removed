@@ -42,7 +42,7 @@ function
 i
 )
 {
-let
+var
 obj
 =
 [
