@@ -139,6 +139,10 @@ mShuttingDown
 (
 false
 )
+mActorDestroyed
+(
+false
+)
 mPlugin
 (
 aPlugin
@@ -658,6 +662,12 @@ mIsOpen
 =
 false
 ;
+if
+(
+!
+mActorDestroyed
+)
+{
 unused
 <
 <
@@ -665,6 +675,7 @@ SendDecodingComplete
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -682,6 +693,10 @@ aWhy
 mIsOpen
 =
 false
+;
+mActorDestroyed
+=
+true
 ;
 if
 (

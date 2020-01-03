@@ -376,6 +376,9 @@ mIsOpen
 bool
 mShuttingDown
 ;
+bool
+mActorDestroyed
+;
 nsRefPtr
 <
 GMPContentParent

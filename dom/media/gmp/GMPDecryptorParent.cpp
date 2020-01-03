@@ -52,6 +52,10 @@ mShuttingDown
 (
 false
 )
+mActorDestroyed
+(
+false
+)
 mPlugin
 (
 aPlugin
@@ -1442,6 +1446,12 @@ mIsOpen
 =
 false
 ;
+if
+(
+!
+mActorDestroyed
+)
+{
 unused
 <
 <
@@ -1449,6 +1459,7 @@ SendDecryptingComplete
 (
 )
 ;
+}
 }
 void
 GMPDecryptorParent
@@ -1463,6 +1474,10 @@ aWhy
 mIsOpen
 =
 false
+;
+mActorDestroyed
+=
+true
 ;
 if
 (
