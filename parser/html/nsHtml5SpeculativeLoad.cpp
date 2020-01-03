@@ -287,6 +287,7 @@ aExecutor
 Preconnect
 (
 mUrl
+mCrossOrigin
 )
 ;
 break
