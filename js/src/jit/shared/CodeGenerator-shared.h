@@ -412,9 +412,6 @@ nativeToBytecodeScriptList_
 uint32_t
 nativeToBytecodeScriptListLength_
 ;
-IonInstrumentation
-sps_
-;
 bool
 isProfilerInstrumentationEnabled
 (
