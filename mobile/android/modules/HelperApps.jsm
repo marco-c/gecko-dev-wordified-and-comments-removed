@@ -703,9 +703,11 @@ if
 !
 d
 )
+{
 return
 apps
 ;
+}
 apps
 =
 this
@@ -871,15 +873,6 @@ _sendMessageSync
 (
 msg
 )
-;
-if
-(
-!
-data
-)
-return
-[
-]
 ;
 return
 parseData
@@ -1070,6 +1063,7 @@ mimeType
 =
 undefined
 )
+{
 mimeType
 =
 ContentAreaUtils
@@ -1083,6 +1077,7 @@ uri
 "
 "
 ;
+}
 return
 {
 type
@@ -1273,6 +1268,7 @@ res
 =
 null
 )
+{
 thread
 .
 processNextEvent
@@ -1280,6 +1276,7 @@ processNextEvent
 true
 )
 ;
+}
 return
 res
 ;
