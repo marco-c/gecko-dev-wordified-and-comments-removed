@@ -284,6 +284,11 @@ PrivateBrowsingUtils
 jsm
 '
 '
+ProfileAge
+.
+jsm
+'
+'
 Promise
 -
 backend

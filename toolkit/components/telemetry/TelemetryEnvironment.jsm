@@ -219,7 +219,7 @@ defineLazyModuleGetter
 (
 this
 "
-ProfileTimesAccessor
+ProfileAge
 "
 "
 resource
@@ -230,11 +230,7 @@ gre
 /
 modules
 /
-services
-/
-healthreport
-/
-profile
+ProfileAge
 .
 jsm
 "
@@ -2138,7 +2134,7 @@ let
 profileAccessor
 =
 new
-ProfileTimesAccessor
+ProfileAge
 (
 null
 this
