@@ -100,10 +100,11 @@ x
 0
 ;
 return
+!
+SkScalarIsNaN
+(
 prod
-=
-=
-prod
+)
 ;
 }
 #
