@@ -468,10 +468,8 @@ Play
 ;
 virtual
 void
-SetDormantIfNecessary
+NotifyOwnerActivityChanged
 (
-bool
-aDormant
 )
 ;
 virtual
@@ -2111,6 +2109,9 @@ nsAutoPtr
 MediaInfo
 >
 mInfo
+;
+bool
+mIsDormant
 ;
 }
 ;
