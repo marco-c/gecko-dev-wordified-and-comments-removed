@@ -15634,7 +15634,13 @@ mCaret
 PaintCaret
 (
 aBuilder
+*
 aCtx
+-
+>
+GetDrawTarget
+(
+)
 mFrame
 ToReferenceFrame
 (
