@@ -326,12 +326,6 @@ android
 /
 android
 '
-'
-/
-widget
-/
-shared
-'
 ]
 #
 DEFINES

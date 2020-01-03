@@ -879,12 +879,6 @@ xul
 /
 widget
 '
-'
-/
-widget
-/
-shared
-'
 ]
 if
 CONFIG

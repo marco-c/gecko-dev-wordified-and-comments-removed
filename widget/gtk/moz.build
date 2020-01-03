@@ -404,12 +404,6 @@ LOCAL_INCLUDES
 =
 [
 '
-.
-.
-/
-shared
-'
-'
 /
 layout
 /
@@ -451,10 +445,8 @@ LOCAL_INCLUDES
 =
 [
 '
-.
-.
 /
-shared
+widget
 /
 x11
 '

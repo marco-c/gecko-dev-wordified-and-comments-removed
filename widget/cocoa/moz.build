@@ -410,12 +410,6 @@ LOCAL_INCLUDES
 =
 [
 '
-.
-.
-/
-shared
-'
-'
 /
 layout
 /

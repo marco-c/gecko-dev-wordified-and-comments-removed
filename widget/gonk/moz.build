@@ -454,12 +454,6 @@ core
 /
 widget
 '
-'
-/
-widget
-/
-shared
-'
 ]
 DEFINES
 [

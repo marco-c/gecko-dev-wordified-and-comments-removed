@@ -226,12 +226,6 @@ LOCAL_INCLUDES
 =
 [
 '
-.
-.
-/
-shared
-'
-'
 /
 widget
 '
