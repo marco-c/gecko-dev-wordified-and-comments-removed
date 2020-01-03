@@ -358,6 +358,19 @@ test_url
         
 self
 .
+test_packages_url
+=
+c
+.
+get
+(
+'
+test_packages_url
+'
+)
+        
+self
+.
 installer_path
 =
 c
