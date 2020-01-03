@@ -47372,6 +47372,13 @@ getClass
 )
 hook
 templateObject
+script
+-
+>
+pcToOffset
+(
+pc
+)
 constructing
 )
 ;
@@ -54127,7 +54134,7 @@ emitProfilingUpdate
 masm
 BaselineTailCallReg
 scratch
-ICCall_Native
+ICCall_ClassHook
 :
 :
 offsetOfPCOffset
@@ -61140,6 +61147,8 @@ Native
 native
 HandleObject
 templateObject
+uint32_t
+pcOffset
 )
 :
 ICMonitoredStub
@@ -61167,6 +61176,10 @@ native
 templateObject_
 (
 templateObject
+)
+pcOffset_
+(
+pcOffset
 )
 {
 #
@@ -61245,6 +61258,9 @@ clasp
 )
 nullptr
 templateObject
+other
+.
+pcOffset_
 )
 ;
 if
