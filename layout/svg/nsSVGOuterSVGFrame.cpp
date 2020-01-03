@@ -3546,8 +3546,8 @@ nsSVGOuterSVGFrame
 :
 PaintSVG
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix

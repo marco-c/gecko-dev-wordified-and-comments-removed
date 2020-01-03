@@ -19,13 +19,13 @@ nsQueryFrame
 h
 "
 class
+gfxContext
+;
+class
 gfxMatrix
 ;
 class
 nsIFrame
-;
-class
-nsRenderingContext
 ;
 class
 SVGBBox
@@ -116,8 +116,8 @@ virtual
 nsresult
 PaintSVG
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix

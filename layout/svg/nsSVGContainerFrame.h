@@ -63,6 +63,9 @@ nsSVGUtils
 h
 "
 class
+gfxContext
+;
+class
 nsFrameList
 ;
 class
@@ -70,9 +73,6 @@ nsIContent
 ;
 class
 nsIPresShell
-;
-class
-nsRenderingContext
 ;
 class
 nsStyleContext
@@ -395,8 +395,8 @@ virtual
 nsresult
 PaintSVG
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix

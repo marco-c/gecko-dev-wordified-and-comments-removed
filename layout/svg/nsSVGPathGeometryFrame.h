@@ -89,9 +89,6 @@ class
 nsIPresShell
 ;
 class
-nsRenderingContext
-;
-class
 nsStyleContext
 ;
 class
@@ -337,8 +334,8 @@ virtual
 nsresult
 PaintSVG
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix
@@ -447,8 +444,8 @@ aTransform
 void
 PaintMarkers
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix

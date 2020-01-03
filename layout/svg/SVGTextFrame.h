@@ -76,10 +76,10 @@ nsSVGPaintServerFrame
 h
 "
 class
-nsDisplaySVGText
+gfxContext
 ;
 class
-nsRenderingContext
+nsDisplaySVGText
 ;
 class
 SVGTextFrame
@@ -990,8 +990,8 @@ virtual
 nsresult
 PaintSVG
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix
