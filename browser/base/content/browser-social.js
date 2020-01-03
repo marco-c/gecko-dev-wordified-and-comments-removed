@@ -3814,7 +3814,7 @@ messageManager
 addMessageListener
 (
 "
-Social
+PageMetadata
 :
 PageDataResult
 "
@@ -3831,7 +3831,7 @@ messageManager
 removeMessageListener
 (
 "
-Social
+PageMetadata
 :
 PageDataResult
 "
@@ -3891,7 +3891,7 @@ messageManager
 sendAsyncMessage
 (
 "
-Social
+PageMetadata
 :
 GetPageData
 "
@@ -3916,9 +3916,9 @@ messageManager
 addMessageListener
 (
 "
-Social
+PageMetadata
 :
-PageDataResult
+MicrodataResult
 "
 _dataFn
 =
@@ -3933,9 +3933,9 @@ messageManager
 removeMessageListener
 (
 "
-Social
+PageMetadata
 :
-PageDataResult
+MicrodataResult
 "
 _dataFn
 )
@@ -3969,7 +3969,7 @@ messageManager
 sendAsyncMessage
 (
 "
-Social
+PageMetadata
 :
 GetMicrodata
 "

@@ -259,6 +259,11 @@ PageMenu
 jsm
 '
 '
+PageMetadata
+.
+jsm
+'
+'
 PermissionsUtils
 .
 jsm
