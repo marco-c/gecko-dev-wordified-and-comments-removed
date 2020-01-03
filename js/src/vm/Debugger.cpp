@@ -4061,6 +4061,15 @@ Statistics
 stats
 )
 {
+gc
+:
+:
+AutoSuppressGC
+suppressGC
+(
+cx
+)
+;
 RootedObject
 obj
 (
