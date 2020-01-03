@@ -1222,7 +1222,7 @@ point
 )
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aSrc
 -
@@ -1245,7 +1245,7 @@ formats
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IntRect
 (
@@ -1275,7 +1275,7 @@ surface
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IntRect
 (
@@ -1292,15 +1292,15 @@ GetSize
 .
 Contains
 (
-aSrcRect
--
+IntRect
+(
+aDestPoint
 aSrcRect
 .
-TopLeft
+Size
 (
 )
-+
-aDestPoint
+)
 )
 "
 dest
