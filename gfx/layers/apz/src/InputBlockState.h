@@ -228,6 +228,7 @@ return
 nullptr
 ;
 }
+virtual
 bool
 SetContentResponse
 (
@@ -343,6 +344,14 @@ ScrollWheelInput
 &
 aEvent
 )
+;
+bool
+SetContentResponse
+(
+bool
+aPreventDefault
+)
+override
 ;
 bool
 IsReadyForHandling
