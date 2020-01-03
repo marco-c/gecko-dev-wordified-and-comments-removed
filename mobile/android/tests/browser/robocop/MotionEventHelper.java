@@ -46,13 +46,6 @@ android
 .
 util
 .
-FloatMath
-;
-import
-android
-.
-util
-.
 Log
 ;
 import
@@ -813,7 +806,10 @@ startY
 float
 distance
 =
-FloatMath
+(
+float
+)
+Math
 .
 sqrt
 (

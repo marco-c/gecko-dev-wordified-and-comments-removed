@@ -62,13 +62,6 @@ android
 .
 util
 .
-FloatMath
-;
-import
-android
-.
-util
-.
 Log
 ;
 import
@@ -1018,6 +1011,9 @@ bottom
 ;
 left
 =
+(
+float
+)
 Math
 .
 max
@@ -1027,7 +1023,7 @@ metrics
 pageRectLeft
 TILE_SIZE
 *
-FloatMath
+Math
 .
 floor
 (
@@ -1039,6 +1035,9 @@ TILE_SIZE
 ;
 top
 =
+(
+float
+)
 Math
 .
 max
@@ -1048,7 +1047,7 @@ metrics
 pageRectTop
 TILE_SIZE
 *
-FloatMath
+Math
 .
 floor
 (
@@ -1060,6 +1059,9 @@ TILE_SIZE
 ;
 right
 =
+(
+float
+)
 Math
 .
 min
@@ -1069,7 +1071,7 @@ metrics
 pageRectRight
 TILE_SIZE
 *
-FloatMath
+Math
 .
 ceil
 (
@@ -1081,6 +1083,9 @@ TILE_SIZE
 ;
 bottom
 =
+(
+float
+)
 Math
 .
 min
@@ -1090,7 +1095,7 @@ metrics
 pageRectBottom
 TILE_SIZE
 *
-FloatMath
+Math
 .
 ceil
 (
@@ -3476,7 +3481,7 @@ normalizedFrames
 (
 int
 )
-FloatMath
+Math
 .
 ceil
 (

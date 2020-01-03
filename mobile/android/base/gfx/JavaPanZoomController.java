@@ -151,13 +151,6 @@ android
 .
 util
 .
-FloatMath
-;
-import
-android
-.
-util
-.
 Log
 ;
 import
@@ -2997,7 +2990,10 @@ getY
 )
 ;
 return
-FloatMath
+(
+float
+)
+Math
 .
 sqrt
 (
@@ -3686,7 +3682,10 @@ getRealVelocity
 )
 ;
 return
-FloatMath
+(
+float
+)
+Math
 .
 sqrt
 (
