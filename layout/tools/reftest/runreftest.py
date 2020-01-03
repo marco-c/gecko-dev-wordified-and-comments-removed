@@ -1256,6 +1256,9 @@ server
 '
 localhost
 '
+port
+=
+0
                              
 special_powers
 =
@@ -1342,9 +1345,29 @@ locations
 add_host
 (
 server
+scheme
+=
+'
+http
+'
 port
 =
-0
+port
+)
+        
+locations
+.
+add_host
+(
+server
+scheme
+=
+'
+https
+'
+port
+=
+port
 )
         
 prefs
