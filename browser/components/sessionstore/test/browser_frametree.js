@@ -6,7 +6,7 @@ strict
 const
 URL
 =
-ROOT
+HTTPROOT
 +
 "
 browser_frametree_sample
@@ -17,7 +17,7 @@ html
 const
 URL_FRAMESET
 =
-ROOT
+HTTPROOT
 +
 "
 browser_frametree_sample_frameset
