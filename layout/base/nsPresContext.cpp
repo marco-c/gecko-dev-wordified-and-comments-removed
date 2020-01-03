@@ -9139,7 +9139,7 @@ return
 PostRebuildAllStyleDataEvent
 (
 NS_STYLE_HINT_REFLOW
-eRestyle_Subtree
+eRestyle_ForceDescendants
 )
 ;
 }
