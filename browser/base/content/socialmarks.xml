@@ -1104,12 +1104,6 @@ hidePopup
 (
 )
 ;
-panel
-.
-hidden
-=
-true
-;
 }
 this
 .
