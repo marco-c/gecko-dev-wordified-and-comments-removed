@@ -3197,7 +3197,6 @@ SetBSizeFromFontMetrics
 (
 this
 aMetrics
-aReflowState
 framePadding
 lineWM
 frameWM

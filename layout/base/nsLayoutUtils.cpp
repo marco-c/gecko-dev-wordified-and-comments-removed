@@ -38372,10 +38372,8 @@ nsHTMLReflowMetrics
 &
 aMetrics
 const
-nsHTMLReflowState
-&
-aReflowState
 LogicalMargin
+&
 aFramePadding
 WritingMode
 aLineWM
@@ -38516,11 +38514,7 @@ aLineWM
 )
 +
 =
-aReflowState
-.
-ComputedLogicalBorderPadding
-(
-)
+aFramePadding
 .
 BStartEnd
 (
