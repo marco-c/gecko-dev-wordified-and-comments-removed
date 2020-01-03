@@ -19894,6 +19894,7 @@ AC_CHECK_FUNCS
 [
 getc_unlocked
 _getc_nolock
+gmtime_r
 localtime_r
 ]
 )

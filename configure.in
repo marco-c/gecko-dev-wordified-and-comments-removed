@@ -24541,6 +24541,7 @@ statvfs
 statfs64
 statfs
 getpagesize
+gmtime_r
 localtime_r
 arc4random
 arc4random_buf
