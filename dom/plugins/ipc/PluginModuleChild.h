@@ -1261,9 +1261,6 @@ mLibrary
 nsCString
 mPluginFilename
 ;
-nsCString
-mUserAgent
-;
 int
 mQuirks
 ;
