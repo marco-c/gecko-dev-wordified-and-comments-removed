@@ -215,16 +215,6 @@ const
 0
 ;
 virtual
-const
-hwc_rect_t
-GetHwcRect
-(
-)
-const
-=
-0
-;
-virtual
 void
 SetEGLInfo
 (
@@ -276,6 +266,8 @@ HwcList
 aList
 uint32_t
 aDisp
+hwc_rect_t
+aDispRect
 buffer_handle_t
 aHandle
 int
