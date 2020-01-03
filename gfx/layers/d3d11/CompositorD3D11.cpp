@@ -6183,13 +6183,6 @@ EndFrame
 (
 )
 {
-mContext
--
->
-Flush
-(
-)
-;
 nsIntSize
 oldSize
 =
