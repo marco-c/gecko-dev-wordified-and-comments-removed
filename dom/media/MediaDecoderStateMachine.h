@@ -276,7 +276,7 @@ MediaDecoderStateMachine
 Shutdown
 )
 ;
-TaskQueue
+OwnerThread
 (
 )
 -
@@ -373,7 +373,7 @@ MediaDecoderStateMachine
 StartBuffering
 )
 ;
-TaskQueue
+OwnerThread
 (
 )
 -
@@ -561,7 +561,7 @@ aThrottleUpdates
 }
 MediaTaskQueue
 *
-TaskQueue
+OwnerThread
 (
 )
 const
@@ -601,7 +601,7 @@ MediaDecoderStateMachine
 RunStateMachine
 )
 ;
-TaskQueue
+OwnerThread
 (
 )
 -
@@ -708,7 +708,7 @@ aEndTime
 }
 )
 ;
-TaskQueue
+OwnerThread
 (
 )
 -
@@ -893,7 +893,7 @@ PLAY_STATE_LOADING
 }
 )
 ;
-TaskQueue
+OwnerThread
 (
 )
 -
@@ -1565,7 +1565,7 @@ OnPlaybackOffsetUpdate
 aPlaybackOffset
 )
 ;
-TaskQueue
+OwnerThread
 (
 )
 -
@@ -1610,7 +1610,7 @@ MediaDecoderStateMachine
 OnAudioSinkComplete
 )
 ;
-TaskQueue
+OwnerThread
 (
 )
 -
@@ -1653,7 +1653,7 @@ MediaDecoderStateMachine
 OnAudioSinkError
 )
 ;
-TaskQueue
+OwnerThread
 (
 )
 -
@@ -1853,7 +1853,7 @@ Then
 mSelf
 -
 >
-TaskQueue
+OwnerThread
 (
 )
 __func__
@@ -2663,7 +2663,7 @@ return
 mReader
 -
 >
-TaskQueue
+OwnerThread
 (
 )
 ;

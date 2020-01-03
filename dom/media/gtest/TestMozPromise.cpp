@@ -103,7 +103,7 @@ AwaitShutdownAndIdle
 }
 MediaTaskQueue
 *
-TaskQueue
+Queue
 (
 )
 {
@@ -358,7 +358,7 @@ queue
 =
 atq
 .
-TaskQueue
+Queue
 (
 )
 ;
@@ -437,7 +437,7 @@ queue
 =
 atq
 .
-TaskQueue
+Queue
 (
 )
 ;
@@ -520,7 +520,7 @@ queue
 =
 atq
 .
-TaskQueue
+Queue
 (
 )
 ;
@@ -768,7 +768,7 @@ queue
 =
 atq
 .
-TaskQueue
+Queue
 (
 )
 ;
@@ -1062,7 +1062,7 @@ queue
 =
 atq
 .
-TaskQueue
+Queue
 (
 )
 ;
@@ -1228,7 +1228,7 @@ queue
 =
 atq
 .
-TaskQueue
+Queue
 (
 )
 ;

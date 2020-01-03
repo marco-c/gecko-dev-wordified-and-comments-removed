@@ -840,7 +840,7 @@ GetSize
 >
 Then
 (
-TaskQueue
+OwnerThread
 (
 )
 __func__
@@ -1072,7 +1072,7 @@ __func__
 >
 Then
 (
-TaskQueue
+OwnerThread
 (
 )
 __func__
