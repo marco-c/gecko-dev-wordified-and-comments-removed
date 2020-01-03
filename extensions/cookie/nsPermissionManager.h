@@ -211,6 +211,7 @@ PermissionKey
 {
 public
 :
+explicit
 PermissionKey
 (
 nsIPrincipal
@@ -369,6 +370,7 @@ PermissionKey
 {
 public
 :
+explicit
 PermissionHashKey
 (
 const

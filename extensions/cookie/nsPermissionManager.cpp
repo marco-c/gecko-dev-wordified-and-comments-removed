@@ -1237,6 +1237,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_MOZISTORAGESTATEMENTCALLBACK
+explicit
 DeleteFromMozHostListener
 (
 nsPermissionManager
