@@ -110,6 +110,11 @@ dom
 =
 [
 '
+nsContentSecurityManager
+.
+h
+'
+'
 nsCSPContext
 .
 h
@@ -135,6 +140,11 @@ EXPORTS
 =
 [
 '
+nsContentSecurityManager
+.
+h
+'
+'
 nsCORSListenerProxy
 .
 h
@@ -144,6 +154,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+nsContentSecurityManager
+.
+cpp
+'
 '
 nsCORSListenerProxy
 .
