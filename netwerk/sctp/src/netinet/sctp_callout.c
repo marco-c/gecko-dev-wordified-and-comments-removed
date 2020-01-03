@@ -167,13 +167,6 @@ endif
 static
 sctp_os_timer_t
 *
-sctp_os_timer_current
-=
-NULL
-;
-static
-sctp_os_timer_t
-*
 sctp_os_timer_next
 =
 NULL
@@ -541,10 +534,6 @@ c_flags
 ~
 SCTP_CALLOUT_PENDING
 ;
-sctp_os_timer_current
-=
-c
-;
 SCTP_TIMERQ_UNLOCK
 (
 )
@@ -557,10 +546,6 @@ c_arg
 SCTP_TIMERQ_LOCK
 (
 )
-;
-sctp_os_timer_current
-=
-NULL
 ;
 c
 =
