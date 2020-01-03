@@ -972,9 +972,9 @@ operation
 ]
 !
 =
-'
+"
 function
-'
+"
 )
 {
 callback

@@ -3483,8 +3483,8 @@ WebrtcGlobalInformation
 .
 getLogging
 (
-'
-'
+"
+"
 logs
 =
 >

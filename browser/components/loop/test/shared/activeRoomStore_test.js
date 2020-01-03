@@ -1530,9 +1530,9 @@ have
 .
 property
 (
-'
+"
 roomState
-'
+"
 ROOM_STATES
 .
 GATHER

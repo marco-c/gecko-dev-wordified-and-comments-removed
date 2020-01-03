@@ -2000,12 +2000,12 @@ this
 .
 _getElement
 (
-'
+"
 .
 screen
 .
 OT_subscriber
-'
+"
 )
 ;
 if

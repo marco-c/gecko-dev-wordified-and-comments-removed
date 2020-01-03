@@ -2930,7 +2930,7 @@ console
 .
 log
 (
-'
+"
 Loop
 Telemetry
 :
@@ -2940,13 +2940,13 @@ two
 way
 media
 connection
-'
+"
 +
-'
+"
 in
 bucket
 :
-'
+"
 bucket
 )
 ;

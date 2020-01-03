@@ -82,9 +82,9 @@ sandbox
 stub
 (
 window
-'
+"
 WebSocket
-'
+"
 )
 .
 returns

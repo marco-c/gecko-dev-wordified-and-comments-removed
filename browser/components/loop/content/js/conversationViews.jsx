@@ -1117,11 +1117,11 @@ classList
 .
 contains
 (
-'
+"
 btn
 -
 chevron
-'
+"
 )
 )
 {

@@ -482,9 +482,9 @@ toLowerCase
 .
 indexOf
 (
-'
+"
 chrome
-'
+"
 )
 >
 -
@@ -499,9 +499,9 @@ toLowerCase
 .
 indexOf
 (
-'
+"
 chromium
-'
+"
 )
 >
 -
@@ -574,9 +574,9 @@ toLowerCase
 .
 indexOf
 (
-'
+"
 opera
-'
+"
 )
 >
 -
@@ -591,9 +591,9 @@ toLowerCase
 .
 indexOf
 (
-'
+"
 opr
-'
+"
 )
 >
 -
