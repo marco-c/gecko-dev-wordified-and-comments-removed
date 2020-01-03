@@ -691,9 +691,6 @@ this
 LOAD_IN_SIDEBAR_ANNO
 PlacesUtils
 .
-POST_DATA_ANNO
-PlacesUtils
-.
 READ_ONLY_ANNO
 ]
 _getURIItemCopyTransaction
@@ -756,16 +753,6 @@ lastModified
 )
 ;
 }
-let
-keyword
-=
-aData
-.
-keyword
-|
-|
-null
-;
 let
 annos
 =
@@ -830,7 +817,7 @@ aIndex
 aData
 .
 title
-keyword
+null
 annos
 transactions
 )
