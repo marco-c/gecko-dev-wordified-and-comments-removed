@@ -721,7 +721,7 @@ return
 HitTestResult
 :
 :
-ApzcHitRegion
+HitLayer
 ;
 }
 Maybe
@@ -745,7 +745,7 @@ return
 HitTestResult
 :
 :
-NoApzcHit
+HitNothing
 ;
 }
 LayerIntPoint
@@ -782,7 +782,7 @@ return
 HitTestResult
 :
 :
-NoApzcHit
+HitNothing
 ;
 }
 if
@@ -806,14 +806,14 @@ return
 HitTestResult
 :
 :
-ApzcContentRegion
+HitDispatchToContentRegion
 ;
 }
 return
 HitTestResult
 :
 :
-ApzcHitRegion
+HitLayer
 ;
 }
 void

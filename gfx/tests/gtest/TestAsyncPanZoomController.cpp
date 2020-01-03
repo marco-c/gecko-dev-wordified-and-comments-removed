@@ -16095,7 +16095,7 @@ EXPECT_EQ
 HitTestResult
 :
 :
-ApzcHitRegion
+HitLayer
 result
 )
 ;
@@ -16155,7 +16155,7 @@ EXPECT_EQ
 HitTestResult
 :
 :
-ApzcHitRegion
+HitLayer
 result
 )
 ;
