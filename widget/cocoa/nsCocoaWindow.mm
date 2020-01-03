@@ -8729,6 +8729,11 @@ mInFullScreenTransition
 =
 false
 ;
+bool
+wasInFullscreen
+=
+mInFullScreenMode
+;
 mInFullScreenMode
 =
 aFullScreen
@@ -8753,6 +8758,12 @@ DispatchSizeModeEvent
 if
 (
 mWidgetListener
+&
+&
+wasInFullscreen
+!
+=
+aFullScreen
 )
 {
 mWidgetListener
