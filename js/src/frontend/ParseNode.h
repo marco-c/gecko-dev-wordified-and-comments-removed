@@ -342,6 +342,11 @@ NAME
 \
 F
 (
+OBJECT_PROPERTY_NAME
+)
+\
+F
+(
 COMPUTED_NAME
 )
 \
