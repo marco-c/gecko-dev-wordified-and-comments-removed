@@ -22,6 +22,7 @@ h
 "
 class
 nsApplicationChooser
+final
 :
 public
 nsIApplicationChooser
