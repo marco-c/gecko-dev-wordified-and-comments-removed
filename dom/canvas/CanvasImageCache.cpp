@@ -1405,11 +1405,6 @@ mData
 *
 aSize
 =
-gfx
-:
-:
-ToIntSize
-(
 entry
 -
 >
@@ -1417,7 +1412,6 @@ mData
 -
 >
 mSize
-)
 ;
 return
 entry

@@ -1969,14 +1969,11 @@ false
 }
 mSize
 =
-ToIntSize
-(
 aSurface
 -
 >
 GetSize
 (
-)
 )
 ;
 uint32_t

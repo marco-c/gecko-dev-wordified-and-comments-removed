@@ -9848,13 +9848,10 @@ GetPlatform
 CreateDrawTargetForData
 (
 imageBuffer
-ToIntSize
-(
 aBoundsRect
 .
 Size
 (
-)
 )
 stride
 SurfaceFormat

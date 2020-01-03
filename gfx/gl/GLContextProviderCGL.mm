@@ -1293,10 +1293,7 @@ glContext
 >
 InitOffscreen
 (
-ToIntSize
-(
 size
-)
 caps
 )
 )

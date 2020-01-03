@@ -20665,15 +20665,9 @@ return
 }
 imgSize
 =
-gfx
-:
-:
-ToIntSize
-(
 res
 .
 mSize
-)
 ;
 if
 (

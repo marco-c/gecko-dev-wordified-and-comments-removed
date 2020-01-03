@@ -2784,7 +2784,7 @@ GLContextProviderWGL
 CreateOffscreen
 (
 const
-gfxIntSize
+IntSize
 &
 size
 const
@@ -2822,10 +2822,7 @@ glContext
 >
 InitOffscreen
 (
-ToIntSize
-(
 size
-)
 caps
 )
 )

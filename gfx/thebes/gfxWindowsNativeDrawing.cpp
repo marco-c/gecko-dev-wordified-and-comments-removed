@@ -1297,14 +1297,11 @@ black
 Stride
 (
 )
-ToIntSize
-(
 black
 -
 >
 GetSize
 (
-)
 )
 SurfaceFormat
 :

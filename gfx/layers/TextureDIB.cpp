@@ -489,14 +489,11 @@ mSurface
 ;
 mSize
 =
-ToIntSize
-(
 mSurface
 -
 >
 GetSize
 (
-)
 )
 ;
 mFormat

@@ -27023,14 +27023,11 @@ mTransparentSurface
 IntSize
 size
 =
-ToIntSize
-(
 mTransparentSurface
 -
 >
 GetSize
 (
-)
 )
 ;
 RefPtr

@@ -294,13 +294,7 @@ rgbImage
 >
 Allocate
 (
-gfx
-:
-:
-ToIntSize
-(
 aSize
-)
 gfx
 :
 :
