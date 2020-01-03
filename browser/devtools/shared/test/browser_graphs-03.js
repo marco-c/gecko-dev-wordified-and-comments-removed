@@ -134,6 +134,7 @@ testCursor
 graph
 )
 ;
+yield
 graph
 .
 destroy

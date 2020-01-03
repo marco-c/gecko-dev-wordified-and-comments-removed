@@ -574,6 +574,7 @@ attempts
 "
 )
 ;
+yield
 graph
 .
 destroy

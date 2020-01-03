@@ -284,12 +284,14 @@ graph1
 graph2
 )
 ;
+yield
 graph1
 .
 destroy
 (
 )
 ;
+yield
 graph2
 .
 destroy

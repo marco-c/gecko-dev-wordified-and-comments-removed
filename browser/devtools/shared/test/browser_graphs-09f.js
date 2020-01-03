@@ -502,6 +502,7 @@ be
 shown
 )
 ;
+yield
 graph
 .
 destroy

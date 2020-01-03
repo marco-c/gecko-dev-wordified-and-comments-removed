@@ -472,6 +472,7 @@ testHighlights
 graph
 )
 ;
+yield
 graph
 .
 destroy

@@ -520,6 +520,7 @@ times
 "
 )
 ;
+yield
 graph
 .
 destroy
