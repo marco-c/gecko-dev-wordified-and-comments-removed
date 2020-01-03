@@ -3414,6 +3414,15 @@ ContinueInstall
 (
 )
 {
+if
+(
+!
+mRegistration
+)
+{
+return
+;
+}
 nsRefPtr
 <
 ServiceWorkerManager
