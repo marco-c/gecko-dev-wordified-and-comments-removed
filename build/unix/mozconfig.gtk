@@ -1,5 +1,13 @@
-#
+TOOLTOOL_DIR
+=
+{
+TOOLTOOL_DIR
+:
+-
 topsrcdir
+}
+#
+TOOLTOOL_DIR
 /
 gtk3
 comes
@@ -17,7 +25,7 @@ if
 -
 d
 "
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 "
@@ -49,7 +57,7 @@ export
 PKG_CONFIG_SYSROOT_DIR
 =
 "
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 "
@@ -57,7 +65,7 @@ export
 PKG_CONFIG_PATH
 =
 "
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -73,7 +81,7 @@ export
 PATH
 =
 "
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -109,7 +117,7 @@ LDFLAGS
 "
 -
 L
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -127,7 +135,7 @@ mk_add_options
 export
 LD_LIBRARY_PATH
 =
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -167,7 +175,7 @@ mk_add_options
 export
 FONTCONFIG_PATH
 =
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -184,7 +192,7 @@ mk_add_options
 export
 PANGO_SYSCONFDIR
 =
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -199,7 +207,7 @@ mk_add_options
 export
 PANGO_LIBDIR
 =
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -214,7 +222,7 @@ mk_add_options
 export
 GDK_PIXBUF_MODULE_FILE
 =
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -247,7 +255,7 @@ mk_add_options
 export
 GDK_PIXBUF_MODULEDIR
 =
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -278,7 +286,7 @@ mk_add_options
 export
 LD_LIBRARY_PATH
 =
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -298,7 +306,7 @@ pango
 .
 modules
 and
-topsrcdir
+TOOLTOOL_DIR
 may
 vary
 .
@@ -306,7 +314,7 @@ vary
 .
 LD_LIBRARY_PATH
 =
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -318,7 +326,7 @@ lib
 \
 PANGO_SYSCONFDIR
 =
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -330,7 +338,7 @@ etc
 \
 PANGO_LIBDIR
 =
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -340,7 +348,7 @@ local
 /
 lib
 \
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -354,7 +362,7 @@ pango
 -
 querymodules
 >
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -381,7 +389,7 @@ loaders
 cache
 LD_LIBRARY_PATH
 =
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -393,7 +401,7 @@ lib
 \
 GDK_PIXBUF_MODULE_FILE
 =
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -423,7 +431,7 @@ cache
 \
 GDK_PIXBUF_MODULEDIR
 =
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -449,7 +457,7 @@ pixbuf
 /
 loaders
 \
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -467,7 +475,7 @@ query
 -
 loaders
 >
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
@@ -544,7 +552,7 @@ cat
 <
 EOF
 >
-topsrcdir
+TOOLTOOL_DIR
 /
 gtk3
 /
