@@ -490,6 +490,11 @@ Coordinates
 webidl
 '
 '
+CreateOfferRequest
+.
+webidl
+'
+'
 Crypto
 .
 webidl

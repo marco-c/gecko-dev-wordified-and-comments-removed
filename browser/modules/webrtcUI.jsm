@@ -971,7 +971,10 @@ Request
 :
 {
 let
-request
+{
+callID
+windowID
+}
 =
 aMessage
 .
@@ -998,13 +1001,9 @@ Allow
 {
 callID
 :
-request
-.
 callID
 windowID
 :
-request
-.
 windowID
 }
 )
