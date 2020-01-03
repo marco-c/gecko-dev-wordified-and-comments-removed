@@ -248,6 +248,7 @@ CSSToScreenScale
 GetDefaultZoom
 (
 )
+const
 {
 return
 mDefaultZoom
@@ -272,6 +273,7 @@ CSSToScreenScale
 GetMinZoom
 (
 )
+const
 {
 return
 mMinZoom
@@ -284,6 +286,7 @@ CSSToScreenScale
 GetMaxZoom
 (
 )
+const
 {
 return
 mMaxZoom
@@ -296,6 +299,7 @@ CSSSize
 GetSize
 (
 )
+const
 {
 return
 mSize
@@ -305,6 +309,7 @@ bool
 IsAutoSizeEnabled
 (
 )
+const
 {
 return
 mAutoSize
@@ -314,6 +319,7 @@ bool
 IsZoomAllowed
 (
 )
+const
 {
 return
 mAllowZoom
@@ -323,6 +329,7 @@ bool
 IsDoubleTapZoomAllowed
 (
 )
+const
 {
 return
 mAllowDoubleTapZoom
