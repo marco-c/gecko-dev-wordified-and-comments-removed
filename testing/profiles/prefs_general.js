@@ -2471,6 +2471,8 @@ user_pref
 browser
 .
 displayedE10SPrompt
+.
+1
 "
 5
 )
