@@ -811,13 +811,11 @@ eMathML
 ;
 }
 virtual
-nsMargin
-*
+LogicalMargin
 GetBorderWidth
 (
-nsMargin
-&
-aBorder
+WritingMode
+aWM
 )
 const
 override
