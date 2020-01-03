@@ -916,12 +916,12 @@ org
 /
 sms
 /
-smsservice
+gonksmsservice
 ;
 1
 "
 "
-nsISmsService
+nsIGonkSmsService
 "
 )
 ;
