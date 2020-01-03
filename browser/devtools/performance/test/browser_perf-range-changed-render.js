@@ -399,11 +399,11 @@ times
 is
 (
 updatedCallTree
-3
+2
 "
 CallTreeView
 rerendered
-3
+2
 times
 .
 "
@@ -412,11 +412,11 @@ times
 is
 (
 updatedFlameGraph
-3
+2
 "
 FlameGraphView
 rerendered
-3
+2
 times
 .
 "
