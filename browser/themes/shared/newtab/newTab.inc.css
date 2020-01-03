@@ -737,12 +737,16 @@ auto
 .
 newtab
 -
+sponsored
+.
+newtab
+-
 title
 {
 color
 :
 #
-737373
+5c5c5c
 ;
 }
 .
@@ -759,7 +763,7 @@ title
 color
 :
 #
-4a4a4a
+222
 ;
 }
 .
