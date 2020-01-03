@@ -273,13 +273,6 @@ h
 #
 include
 "
-nsIDOMXPathNSResolver
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h

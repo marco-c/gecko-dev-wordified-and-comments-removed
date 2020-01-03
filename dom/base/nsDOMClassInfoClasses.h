@@ -75,10 +75,6 @@ CSSSupportsRule
 )
 DOMCI_CLASS
 (
-XPathNSResolver
-)
-DOMCI_CLASS
-(
 MozSmsMessage
 )
 DOMCI_CLASS

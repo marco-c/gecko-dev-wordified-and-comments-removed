@@ -122,11 +122,6 @@ UNIFIED_SOURCES
 =
 [
 '
-nsXPathNSResolver
-.
-cpp
-'
-'
 txBooleanExpr
 .
 cpp

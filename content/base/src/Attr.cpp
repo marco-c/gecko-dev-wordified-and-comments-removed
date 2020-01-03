@@ -463,15 +463,6 @@ nsNodeSupportsWeakRefTearoff
 this
 )
 )
-NS_INTERFACE_MAP_ENTRY_TEAROFF
-(
-nsIDOMXPathNSResolver
-new
-nsNode3Tearoff
-(
-this
-)
-)
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (

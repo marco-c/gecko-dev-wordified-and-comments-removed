@@ -103,11 +103,6 @@ nsIDOMXPathEvaluator
 idl
 '
 '
-nsIDOMXPathNSResolver
-.
-idl
-'
-'
 nsIDOMXPathResult
 .
 idl

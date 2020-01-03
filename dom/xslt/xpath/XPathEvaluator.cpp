@@ -46,13 +46,6 @@ h
 #
 include
 "
-nsXPathNSResolver
-.
-h
-"
-#
-include
-"
 XPathResult
 .
 h
