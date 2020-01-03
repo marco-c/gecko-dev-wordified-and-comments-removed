@@ -610,6 +610,13 @@ mDecoderInitializing
 =
 true
 ;
+mMediaRawSamples
+.
+AppendElement
+(
+aSample
+)
+;
 nsRefPtr
 <
 H264Converter
