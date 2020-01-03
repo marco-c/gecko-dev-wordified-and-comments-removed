@@ -708,9 +708,6 @@ uint32_t
 frameSlots_
 ;
 uint32_t
-argumentSlots_
-;
-uint32_t
 frameSize_
 ;
 uint32_t
@@ -1055,9 +1052,7 @@ types
 RecompileInfo
 recompileInfo
 uint32_t
-frameSlots
-uint32_t
-argumentSlots
+frameLocals
 uint32_t
 frameSize
 size_t
@@ -1711,16 +1706,6 @@ const
 {
 return
 frameSlots_
-;
-}
-uint32_t
-argumentSlots
-(
-)
-const
-{
-return
-argumentSlots_
 ;
 }
 uint32_t
