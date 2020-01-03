@@ -3829,8 +3829,10 @@ result
 .
 mImage
 =
-new
-MultipartImage
+ImageFactory
+:
+:
+CreateMultipartImage
 (
 partImage
 aProgressTracker

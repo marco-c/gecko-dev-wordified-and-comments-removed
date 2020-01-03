@@ -163,11 +163,6 @@ protected
 explicit
 VectorImage
 (
-ProgressTracker
-*
-aProgressTracker
-=
-nullptr
 ImageURL
 *
 aURI
@@ -295,12 +290,6 @@ mHaveAnimations
 ;
 bool
 mHasPendingInvalidation
-;
-nsAutoPtr
-<
-ProgressTrackerInit
->
-mProgressTrackerInit
 ;
 friend
 class

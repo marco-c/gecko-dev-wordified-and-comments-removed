@@ -893,12 +893,6 @@ mWantFullDecode
 TimeStamp
 mDrawStartTime
 ;
-nsAutoPtr
-<
-ProgressTrackerInit
->
-mProgressTrackerInit
-;
 void
 RequestScale
 (
@@ -1001,11 +995,6 @@ protected
 explicit
 RasterImage
 (
-ProgressTracker
-*
-aProgressTracker
-=
-nullptr
 ImageURL
 *
 aURI

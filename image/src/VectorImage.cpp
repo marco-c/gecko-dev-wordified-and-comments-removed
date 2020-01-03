@@ -1390,9 +1390,6 @@ VectorImage
 :
 VectorImage
 (
-ProgressTracker
-*
-aProgressTracker
 ImageURL
 *
 aURI
@@ -1427,15 +1424,6 @@ mHasPendingInvalidation
 false
 )
 {
-mProgressTrackerInit
-=
-new
-ProgressTrackerInit
-(
-this
-aProgressTracker
-)
-;
 }
 VectorImage
 :

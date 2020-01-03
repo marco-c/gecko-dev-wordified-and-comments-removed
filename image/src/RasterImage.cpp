@@ -1052,9 +1052,6 @@ RasterImage
 :
 RasterImage
 (
-ProgressTracker
-*
-aProgressTracker
 ImageURL
 *
 aURI
@@ -1145,15 +1142,6 @@ mWantFullDecode
 false
 )
 {
-mProgressTrackerInit
-=
-new
-ProgressTrackerInit
-(
-this
-aProgressTracker
-)
-;
 Telemetry
 :
 :
