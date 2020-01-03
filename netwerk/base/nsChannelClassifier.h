@@ -31,6 +31,9 @@ class
 nsIChannel
 ;
 class
+nsIHttpChannelInternal
+;
+class
 nsChannelClassifier
 MOZ_FINAL
 :
@@ -51,6 +54,8 @@ Start
 nsIChannel
 *
 aChannel
+bool
+aContinueBeginConnect
 )
 ;
 nsresult
@@ -78,6 +83,12 @@ nsIChannel
 >
 mChannel
 ;
+nsCOMPtr
+<
+nsIHttpChannelInternal
+>
+mChannelInternal
+;
 ~
 nsChannelClassifier
 (
@@ -102,9 +113,6 @@ aChannel
 nsresult
 StartInternal
 (
-nsIChannel
-*
-aChannel
 )
 ;
 public
