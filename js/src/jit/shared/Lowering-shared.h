@@ -859,7 +859,7 @@ LInstruction
 ins
 )
 ;
-bool
+void
 assignSnapshot
 (
 LInstruction
