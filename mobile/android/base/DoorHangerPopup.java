@@ -93,7 +93,7 @@ gecko
 .
 widget
 .
-ArrowPopup
+AnchoredPopup
 ;
 import
 org
@@ -138,7 +138,7 @@ public
 class
 DoorHangerPopup
 extends
-ArrowPopup
+AnchoredPopup
 implements
 GeckoEventListener
 Tabs

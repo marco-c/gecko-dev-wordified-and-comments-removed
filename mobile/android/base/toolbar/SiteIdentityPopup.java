@@ -112,7 +112,7 @@ gecko
 .
 widget
 .
-ArrowPopup
+AnchoredPopup
 ;
 import
 org
@@ -205,7 +205,7 @@ public
 class
 SiteIdentityPopup
 extends
-ArrowPopup
+AnchoredPopup
 {
 private
 static
