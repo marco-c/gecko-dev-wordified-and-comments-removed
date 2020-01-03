@@ -763,7 +763,7 @@ HTMLImageElement
 :
 GetItemValueText
 (
-nsAString
+DOMString
 &
 aValue
 )

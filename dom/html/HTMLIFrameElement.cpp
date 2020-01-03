@@ -197,7 +197,7 @@ HTMLIFrameElement
 :
 GetItemValueText
 (
-nsAString
+DOMString
 &
 aValue
 )

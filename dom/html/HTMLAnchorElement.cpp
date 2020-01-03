@@ -336,7 +336,7 @@ HTMLAnchorElement
 :
 GetItemValueText
 (
-nsAString
+DOMString
 &
 aValue
 )

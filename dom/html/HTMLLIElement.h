@@ -134,7 +134,7 @@ MOZ_OVERRIDE
 void
 GetType
 (
-nsString
+DOMString
 &
 aType
 )

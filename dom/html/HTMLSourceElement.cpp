@@ -663,7 +663,7 @@ HTMLSourceElement
 :
 GetItemValueText
 (
-nsAString
+DOMString
 &
 aValue
 )

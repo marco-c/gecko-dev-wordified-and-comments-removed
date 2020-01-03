@@ -247,7 +247,7 @@ EVENT
 void
 GetText
 (
-nsString
+DOMString
 &
 aText
 )
@@ -288,7 +288,7 @@ aError
 void
 GetLink
 (
-nsString
+DOMString
 &
 aLink
 )
@@ -329,7 +329,7 @@ aError
 void
 GetVLink
 (
-nsString
+DOMString
 &
 aVLink
 )
@@ -370,7 +370,7 @@ aError
 void
 GetALink
 (
-nsString
+DOMString
 &
 aALink
 )
@@ -411,7 +411,7 @@ aError
 void
 GetBgColor
 (
-nsString
+DOMString
 &
 aBgColor
 )
@@ -452,7 +452,7 @@ aError
 void
 GetBackground
 (
-nsString
+DOMString
 &
 aBackground
 )

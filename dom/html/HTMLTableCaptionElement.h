@@ -76,7 +76,7 @@ NS_DECL_NSIDOMHTMLTABLECAPTIONELEMENT
 void
 GetAlign
 (
-nsString
+DOMString
 &
 aAlign
 )

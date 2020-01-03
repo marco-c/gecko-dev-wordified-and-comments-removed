@@ -362,7 +362,7 @@ HTMLObjectElement
 :
 GetItemValueText
 (
-nsAString
+DOMString
 &
 aValue
 )

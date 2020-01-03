@@ -452,7 +452,7 @@ rv
 void
 GetDownload
 (
-nsString
+DOMString
 &
 aValue
 )
@@ -522,7 +522,7 @@ rv
 void
 GetRel
 (
-nsString
+DOMString
 &
 aValue
 )
@@ -572,7 +572,7 @@ RelList
 void
 GetHreflang
 (
-nsString
+DOMString
 &
 aValue
 )
@@ -616,7 +616,7 @@ rv
 void
 GetType
 (
-nsString
+DOMString
 &
 aValue
 )
@@ -767,7 +767,7 @@ SetHash
 void
 GetCoords
 (
-nsString
+DOMString
 &
 aValue
 )
@@ -811,7 +811,7 @@ rv
 void
 GetCharset
 (
-nsString
+DOMString
 &
 aValue
 )
@@ -855,7 +855,7 @@ rv
 void
 GetName
 (
-nsString
+DOMString
 &
 aValue
 )
@@ -899,7 +899,7 @@ rv
 void
 GetRev
 (
-nsString
+DOMString
 &
 aValue
 )
@@ -943,7 +943,7 @@ rv
 void
 GetShape
 (
-nsString
+DOMString
 &
 aValue
 )
@@ -1014,7 +1014,7 @@ virtual
 void
 GetItemValueText
 (
-nsAString
+DOMString
 &
 text
 )

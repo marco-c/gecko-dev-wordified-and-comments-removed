@@ -124,7 +124,7 @@ aRv
 void
 GetDateTime
 (
-nsAString
+DOMString
 &
 aDateTime
 )

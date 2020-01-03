@@ -231,7 +231,7 @@ HTMLAreaElement
 :
 GetItemValueText
 (
-nsAString
+DOMString
 &
 aValue
 )

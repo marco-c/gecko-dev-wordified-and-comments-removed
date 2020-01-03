@@ -420,7 +420,7 @@ aError
 void
 GetAlign
 (
-nsString
+DOMString
 &
 aAlign
 )
@@ -461,7 +461,7 @@ aError
 void
 GetBorder
 (
-nsString
+DOMString
 &
 aBorder
 )
@@ -502,7 +502,7 @@ aError
 void
 GetFrame
 (
-nsString
+DOMString
 &
 aFrame
 )
@@ -543,7 +543,7 @@ aError
 void
 GetRules
 (
-nsString
+DOMString
 &
 aRules
 )
@@ -600,6 +600,24 @@ aSummary
 ;
 }
 void
+GetSummary
+(
+DOMString
+&
+aSummary
+)
+{
+GetHTMLAttr
+(
+nsGkAtoms
+:
+:
+summary
+aSummary
+)
+;
+}
+void
 SetSummary
 (
 const
@@ -625,7 +643,7 @@ aError
 void
 GetWidth
 (
-nsString
+DOMString
 &
 aWidth
 )
@@ -666,7 +684,7 @@ aError
 void
 GetBgColor
 (
-nsString
+DOMString
 &
 aBgColor
 )
@@ -707,7 +725,7 @@ aError
 void
 GetCellPadding
 (
-nsString
+DOMString
 &
 aCellPadding
 )
@@ -748,7 +766,7 @@ aError
 void
 GetCellSpacing
 (
-nsString
+DOMString
 &
 aCellSpacing
 )

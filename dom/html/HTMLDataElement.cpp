@@ -100,7 +100,7 @@ HTMLDataElement
 :
 GetItemValueText
 (
-nsAString
+DOMString
 &
 text
 )

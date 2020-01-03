@@ -1041,7 +1041,7 @@ virtual
 void
 GetItemValueText
 (
-nsAString
+DOMString
 &
 text
 )

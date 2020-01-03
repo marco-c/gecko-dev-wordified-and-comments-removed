@@ -75,7 +75,7 @@ HTMLTimeElement
 void
 GetDateTime
 (
-nsAString
+DOMString
 &
 aDateTime
 )
@@ -117,7 +117,7 @@ virtual
 void
 GetItemValueText
 (
-nsAString
+DOMString
 &
 text
 )

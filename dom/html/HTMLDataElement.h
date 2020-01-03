@@ -69,7 +69,7 @@ aNodeInfo
 void
 GetValue
 (
-nsAString
+DOMString
 &
 aValue
 )
@@ -111,7 +111,7 @@ virtual
 void
 GetItemValueText
 (
-nsAString
+DOMString
 &
 text
 )

@@ -177,7 +177,7 @@ HTMLSharedObjectElement
 :
 GetItemValueText
 (
-nsAString
+DOMString
 &
 aValue
 )
