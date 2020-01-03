@@ -3819,11 +3819,6 @@ dump
 (
 this
 .
-dumper
-.
-structuredLogger
-this
-.
 currentTestIndex
 this
 .
