@@ -139,7 +139,7 @@ id
 +
 id
 /
-start_handle
+anchor_handle
 "
 android
 :
@@ -166,7 +166,7 @@ src
 "
 drawable
 /
-handle_start_level
+handle_anchor_level
 "
 android
 :
@@ -200,7 +200,7 @@ id
 +
 id
 /
-middle_handle
+caret_handle
 "
 android
 :
@@ -261,7 +261,7 @@ id
 +
 id
 /
-end_handle
+focus_handle
 "
 android
 :
@@ -288,7 +288,7 @@ src
 "
 drawable
 /
-handle_end_level
+handle_focus_level
 "
 android
 :

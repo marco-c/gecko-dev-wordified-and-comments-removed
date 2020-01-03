@@ -8419,7 +8419,7 @@ R
 .
 id
 .
-start_handle
+anchor_handle
 )
 (
 TextSelectionHandle
@@ -8430,7 +8430,7 @@ R
 .
 id
 .
-middle_handle
+caret_handle
 )
 (
 TextSelectionHandle
@@ -8441,7 +8441,7 @@ R
 .
 id
 .
-end_handle
+focus_handle
 )
 EventDispatcher
 .

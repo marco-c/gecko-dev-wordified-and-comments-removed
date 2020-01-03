@@ -122,9 +122,9 @@ public
 enum
 HandleType
 {
-START
-MIDDLE
-END
+ANCHOR
+CARET
+FOCUS
 }
 ;
 private
@@ -262,7 +262,7 @@ mHandleType
 =
 HandleType
 .
-START
+ANCHOR
 ;
 else
 if
@@ -276,14 +276,14 @@ mHandleType
 =
 HandleType
 .
-MIDDLE
+CARET
 ;
 else
 mHandleType
 =
 HandleType
 .
-END
+FOCUS
 ;
 mGeckoPoint
 =
@@ -739,7 +739,7 @@ mHandleType
 =
 HandleType
 .
-MIDDLE
+CARET
 )
 {
 setLayoutPosition
@@ -939,7 +939,7 @@ mHandleType
 =
 HandleType
 .
-START
+ANCHOR
 )
 {
 return
@@ -960,7 +960,7 @@ mHandleType
 =
 HandleType
 .
-MIDDLE
+CARET
 )
 {
 return
