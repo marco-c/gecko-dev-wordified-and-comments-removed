@@ -522,6 +522,14 @@ eRestyle_SVGAttrAnimations
 <
 5
 )
+eRestyle_StyleAttribute
+=
+(
+1
+<
+<
+6
+)
 eRestyle_Force
 =
 (
