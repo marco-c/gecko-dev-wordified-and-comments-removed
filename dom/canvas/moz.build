@@ -434,6 +434,11 @@ WebGLContextState
 cpp
 '
 '
+WebGLContextTextures
+.
+cpp
+'
+'
 WebGLContextUnchecked
 .
 cpp
@@ -665,6 +670,11 @@ cpp
 '
 '
 WebGLTexture
+.
+cpp
+'
+'
+WebGLTextureUpload
 .
 cpp
 '
