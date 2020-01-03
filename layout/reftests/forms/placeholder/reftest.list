@@ -277,13 +277,11 @@ visible
 ref
 .
 html
-fuzzy
+skip
 -
 if
 (
-winWidget
-160
-7
+asyncPanZoom
 )
 =
 =
@@ -307,6 +305,9 @@ B2G
 |
 |
 Mulet
+|
+|
+asyncPanZoom
 )
 =
 =

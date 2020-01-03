@@ -769,6 +769,12 @@ resize
 ref
 .
 html
+skip
+-
+if
+(
+asyncPanZoom
+)
 =
 =
 border

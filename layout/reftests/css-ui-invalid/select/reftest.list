@@ -252,6 +252,12 @@ multiple
 ref
 .
 html
+skip
+-
+if
+(
+asyncPanZoom
+)
 needs
 -
 focus

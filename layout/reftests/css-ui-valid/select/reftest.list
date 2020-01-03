@@ -255,10 +255,11 @@ multiple
 ref
 .
 html
-fuzzy
+skip
+-
+if
 (
-64
-4
+asyncPanZoom
 )
 needs
 -

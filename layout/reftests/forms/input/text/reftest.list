@@ -12,6 +12,12 @@ bounds
 ref
 .
 html
+skip
+-
+if
+(
+asyncPanZoom
+)
 =
 =
 size
