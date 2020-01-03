@@ -1885,7 +1885,6 @@ SyntacticContext
 int
 {
 Condition
-Delete
 Other
 }
 ;
