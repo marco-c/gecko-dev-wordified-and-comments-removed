@@ -66,6 +66,15 @@ SVGAnimatedNumber
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
 class
 nsSMILValue
 ;
@@ -401,7 +410,10 @@ MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
-NS_finite
+mozilla
+:
+:
+IsFinite
 (
 aValue
 )

@@ -34,6 +34,15 @@ SVGMatrixBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
 const
 double
 radPerDegree
@@ -899,7 +908,7 @@ radPerDegree
 if
 (
 !
-NS_finite
+IsFinite
 (
 ta
 )
@@ -1019,7 +1028,7 @@ radPerDegree
 if
 (
 !
-NS_finite
+IsFinite
 (
 ta
 )

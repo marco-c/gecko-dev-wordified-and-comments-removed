@@ -68,6 +68,15 @@ DebugOnly
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
 namespace
 {
 const
@@ -1052,7 +1061,7 @@ return
 if
 (
 !
-NS_finite
+IsFinite
 (
 tan
 (
@@ -1168,7 +1177,7 @@ return
 if
 (
 !
-NS_finite
+IsFinite
 (
 tan
 (

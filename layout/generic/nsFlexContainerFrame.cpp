@@ -96,6 +96,15 @@ LinkedList
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
 using
 namespace
 mozilla
@@ -7634,7 +7643,7 @@ curFlexFactor
 ;
 if
 (
-NS_finite
+IsFinite
 (
 weightSum
 )
@@ -7941,7 +7950,7 @@ sizeDelta
 ;
 if
 (
-NS_finite
+IsFinite
 (
 weightSum
 )

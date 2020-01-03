@@ -59,6 +59,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
 class
 nsSVGElement
 ;
@@ -241,7 +250,7 @@ y
 ;
 NS_ASSERTION
 (
-NS_finite
+IsFinite
 (
 mPt
 .
@@ -249,7 +258,7 @@ mX
 )
 &
 &
-NS_finite
+IsFinite
 (
 mPt
 .

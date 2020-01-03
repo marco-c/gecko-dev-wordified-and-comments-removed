@@ -25,6 +25,15 @@ nsMathUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
 class
 nsSVGElement
 ;
@@ -365,7 +374,7 @@ IsValid
 const
 {
 return
-NS_finite
+IsFinite
 (
 mValue
 )

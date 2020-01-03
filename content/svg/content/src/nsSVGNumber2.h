@@ -60,6 +60,15 @@ include
 "
 mozilla
 /
+FloatingPoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SVGAnimatedNumber
@@ -311,7 +320,10 @@ MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
-NS_finite
+mozilla
+:
+:
+IsFinite
 (
 aValue
 )
