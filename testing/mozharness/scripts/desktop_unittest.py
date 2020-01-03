@@ -4877,6 +4877,19 @@ log_level
 INFO
 )
                 
+cmd_timeout
+=
+2500
+if
+suite_category
+=
+=
+'
+cppunittest
+'
+else
+1000
+                
 return_code
 =
 self
@@ -4895,7 +4908,7 @@ abs_work_dir
                                                
 output_timeout
 =
-1000
+cmd_timeout
                                                
 output_parser
 =
