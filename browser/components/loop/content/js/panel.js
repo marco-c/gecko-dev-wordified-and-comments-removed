@@ -2940,6 +2940,13 @@ displayName
 "
 AuthLink
 "
+mixins
+:
+[
+sharedMixins
+.
+WindowCloseMixin
+]
 handleSignUpLinkClick
 :
 function
@@ -2951,6 +2958,12 @@ navigator
 mozLoop
 .
 logInToFxA
+(
+)
+;
+this
+.
+closeWindow
 (
 )
 ;

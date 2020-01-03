@@ -3466,6 +3466,13 @@ React
 createClass
 (
 {
+mixins
+:
+[
+sharedMixins
+.
+WindowCloseMixin
+]
 handleSignUpLinkClick
 :
 function
@@ -3477,6 +3484,12 @@ navigator
 mozLoop
 .
 logInToFxA
+(
+)
+;
+this
+.
+closeWindow
 (
 )
 ;
