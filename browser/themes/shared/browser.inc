@@ -216,6 +216,10 @@ web
 apps
 -
 button
+#
+webide
+-
+button
 %
 ifdef
 XP_MACOSX
