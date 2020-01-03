@@ -14,13 +14,6 @@ h
 #
 include
 "
-FrameBlender
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -803,12 +796,6 @@ mOrientation
 ;
 uint32_t
 mFrameDecodeFlags
-;
-Maybe
-<
-FrameBlender
->
-mFrameBlender
 ;
 nsCOMPtr
 <

@@ -168,11 +168,6 @@ FrameAnimator
 cpp
 '
 '
-FrameBlender
-.
-cpp
-'
-'
 FrozenImage
 .
 cpp
