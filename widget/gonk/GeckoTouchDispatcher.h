@@ -171,9 +171,6 @@ mTouchEventsFiltered
 bool
 mEnabledUniformityInfo
 ;
-int
-mTouchDownCount
-;
 int32_t
 mVsyncAdjust
 ;
