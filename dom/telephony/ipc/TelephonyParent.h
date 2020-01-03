@@ -350,7 +350,7 @@ PTelephonyRequestParent
 public
 nsITelephonyListener
 public
-nsITelephonyDialCallback
+nsITelephonyCallback
 {
 friend
 class
@@ -361,7 +361,6 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSITELEPHONYLISTENER
 NS_DECL_NSITELEPHONYCALLBACK
-NS_DECL_NSITELEPHONYDIALCALLBACK
 protected
 :
 TelephonyRequestParent
@@ -411,15 +410,6 @@ DoRequest
 (
 const
 DialRequest
-&
-aRequest
-)
-;
-bool
-DoRequest
-(
-const
-USSDRequest
 &
 aRequest
 )
