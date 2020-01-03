@@ -2653,6 +2653,15 @@ selector
 rawNode
 .
 className
+.
+split
+(
+"
+"
+)
+[
+0
+]
 ;
 }
 else
