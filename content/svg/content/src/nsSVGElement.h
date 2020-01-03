@@ -450,6 +450,14 @@ aRuleWalker
 )
 MOZ_OVERRIDE
 ;
+void
+WalkAnimatedContentStyleRules
+(
+nsRuleWalker
+*
+aRuleWalker
+)
+;
 NS_IMETHOD_
 (
 bool
