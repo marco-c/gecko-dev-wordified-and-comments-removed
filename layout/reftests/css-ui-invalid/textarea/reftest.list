@@ -28,12 +28,6 @@ if
 (
 B2G
 )
-fails
--
-if
-(
-Android
-)
 =
 =
 textarea
@@ -50,9 +44,6 @@ fails
 -
 if
 (
-Android
-|
-|
 B2G
 )
 =

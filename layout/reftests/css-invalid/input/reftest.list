@@ -33,12 +33,6 @@ if
 (
 B2G
 )
-fails
--
-if
-(
-Android
-)
 =
 =
 input
@@ -56,12 +50,6 @@ skip
 if
 (
 B2G
-)
-fails
--
-if
-(
-Android
 )
 =
 =

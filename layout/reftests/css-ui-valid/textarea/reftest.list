@@ -26,9 +26,6 @@ fails
 -
 if
 (
-Android
-|
-|
 B2G
 )
 =
@@ -47,9 +44,6 @@ random
 -
 if
 (
-Android
-|
-|
 B2G
 )
 =

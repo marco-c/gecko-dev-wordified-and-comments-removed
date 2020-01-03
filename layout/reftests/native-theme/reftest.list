@@ -455,12 +455,6 @@ styled
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 =
 =
 native
