@@ -8389,9 +8389,11 @@ nsIRunnable
 >
 event
 =
-NS_NewRunnableMethodWithArg
+NS_NewRunnableMethodWithArgs
 <
 int64_t
+MediaStreamGraph
+*
 >
 (
 mDecoder
@@ -8403,6 +8405,7 @@ RecreateDecodedStream
 seekTime
 -
 mStartTime
+nullptr
 )
 ;
 NS_DispatchToMainThread

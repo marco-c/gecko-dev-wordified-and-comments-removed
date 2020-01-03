@@ -7871,6 +7871,9 @@ CaptureStreamInternal
 (
 bool
 aFinishWhenEnded
+MediaStreamGraph
+*
+aGraph
 )
 {
 nsIDOMWindow
@@ -7933,6 +7936,7 @@ DOMMediaStream
 CreateTrackUnionStream
 (
 window
+aGraph
 )
 ;
 nsRefPtr
@@ -8130,6 +8134,9 @@ MozCaptureStream
 ErrorResult
 &
 aRv
+MediaStreamGraph
+*
+aGraph
 )
 {
 nsRefPtr
@@ -8141,6 +8148,7 @@ stream
 CaptureStreamInternal
 (
 false
+aGraph
 )
 ;
 if
@@ -8180,6 +8188,9 @@ MozCaptureStreamUntilEnded
 ErrorResult
 &
 aRv
+MediaStreamGraph
+*
+aGraph
 )
 {
 nsRefPtr
@@ -8191,6 +8202,7 @@ stream
 CaptureStreamInternal
 (
 true
+aGraph
 )
 ;
 if

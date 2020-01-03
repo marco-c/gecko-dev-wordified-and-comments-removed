@@ -901,6 +901,11 @@ RecreateDecodedStream
 (
 int64_t
 aStartTimeUSecs
+MediaStreamGraph
+*
+aGraph
+=
+nullptr
 )
 ;
 void
