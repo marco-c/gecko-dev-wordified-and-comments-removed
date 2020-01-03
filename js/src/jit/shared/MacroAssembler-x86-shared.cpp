@@ -1136,7 +1136,7 @@ defined
 (
 JS_CODEGEN_X64
 )
-movq
+vmovq
 (
 reg
 scratch

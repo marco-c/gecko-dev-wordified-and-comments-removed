@@ -257,7 +257,7 @@ return
 ;
 masm
 .
-movsd_mr
+vmovsd_mr
 (
 reinterpret_cast
 <
@@ -555,7 +555,7 @@ return
 ;
 masm
 .
-movss_mr
+vmovss_mr
 (
 reinterpret_cast
 <
@@ -888,7 +888,7 @@ Int32x4
 ;
 masm
 .
-movdqa_mr
+vmovdqa_mr
 (
 reinterpret_cast
 <
@@ -1001,7 +1001,7 @@ Float32x4
 ;
 masm
 .
-movaps_mr
+vmovaps_mr
 (
 reinterpret_cast
 <

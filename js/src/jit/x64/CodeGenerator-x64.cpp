@@ -354,7 +354,7 @@ ScratchDoubleReg
 }
 masm
 .
-movq
+vmovq
 (
 reg
 ToRegister

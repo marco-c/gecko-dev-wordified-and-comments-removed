@@ -6983,7 +6983,7 @@ ValueOperand
 dest
 )
 {
-movq
+vmovq
 (
 src
 dest
@@ -7274,7 +7274,7 @@ FloatRegister
 dest
 )
 {
-movq
+vmovq
 (
 src
 .
