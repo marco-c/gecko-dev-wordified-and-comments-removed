@@ -7096,22 +7096,10 @@ session
 '
 '
         
-response
-=
+return
 self
 .
-_send_message
-(
-'
-getSessionCapabilities
-'
-'
-value
-'
-)
-        
-return
-response
+session
     
 def
 set_script_timeout
