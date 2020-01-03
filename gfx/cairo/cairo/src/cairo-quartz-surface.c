@@ -1,6 +1,11 @@
 #
+ifndef
+_GNU_SOURCE
+#
 define
 _GNU_SOURCE
+#
+endif
 #
 include
 "
@@ -552,6 +557,10 @@ CTFontDrawGlyphs
 "
 )
 ;
+#
+if
+!
+TARGET_OS_IPHONE
 if
 (
 Gestalt
@@ -570,6 +579,14 @@ _cairo_quartz_osx_version
 0x1050
 ;
 }
+#
+else
+_cairo_quartz_osx_version
+=
+0x1050
+;
+#
+endif
 _cairo_quartz_symbol_lookup_done
 =
 TRUE
