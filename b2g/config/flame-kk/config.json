@@ -264,6 +264,11 @@ build_targets
 "
 :
 [
+"
+"
+"
+blobfree
+"
 ]
 "
 upload_files

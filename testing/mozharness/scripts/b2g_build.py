@@ -4351,13 +4351,17 @@ None
             
 if
 target
-=
-=
+in
+(
 '
 package
 -
 tests
 '
+'
+blobfree
+'
+)
 :
                 
 cmd
