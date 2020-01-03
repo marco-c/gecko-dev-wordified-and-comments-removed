@@ -5814,7 +5814,7 @@ password
 =
 newDataCall
 .
-password
+passwd
 &
 &
 dataCall
