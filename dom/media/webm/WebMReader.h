@@ -486,7 +486,7 @@ aTags
 )
 ;
 virtual
-nsresult
+void
 Seek
 (
 int64_t
@@ -640,6 +640,16 @@ endif
 void
 Cleanup
 (
+)
+;
+virtual
+nsresult
+SeekInternal
+(
+int64_t
+aTime
+int64_t
+aStartTime
 )
 ;
 private

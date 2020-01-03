@@ -600,6 +600,13 @@ NotDecodedReason
 aReason
 )
 ;
+void
+OnSeekCompleted
+(
+nsresult
+aResult
+)
+;
 private
 :
 void
@@ -1348,6 +1355,9 @@ mDropVideoUntilNextDiscontinuity
 ;
 bool
 mDecodeToSeekTarget
+;
+bool
+mWaitingForDecoderSeek
 ;
 int64_t
 mCurrentTimeBeforeSeek

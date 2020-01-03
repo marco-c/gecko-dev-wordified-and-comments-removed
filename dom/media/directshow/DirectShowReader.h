@@ -138,7 +138,7 @@ aTags
 )
 MOZ_OVERRIDE
 ;
-nsresult
+void
 Seek
 (
 int64_t
@@ -179,6 +179,13 @@ Finish
 (
 HRESULT
 aStatus
+)
+;
+nsresult
+SeekInternal
+(
+int64_t
+aTime
 )
 ;
 RefPtr

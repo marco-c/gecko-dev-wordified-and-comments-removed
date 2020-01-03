@@ -2472,7 +2472,7 @@ mAudioChannels
 )
 ;
 }
-nsresult
+void
 MediaOmxReader
 :
 :
@@ -2589,8 +2589,15 @@ mVideoSeekTimeUs
 aTarget
 ;
 }
-return
+GetCallback
+(
+)
+-
+>
+OnSeekCompleted
+(
 NS_OK
+)
 ;
 }
 void
