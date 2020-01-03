@@ -3999,9 +3999,6 @@ boolean
 prerendered
 )
 ;
-[
-infallible
-]
 readonly
 attribute
 boolean
