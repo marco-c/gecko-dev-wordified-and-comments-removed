@@ -223,6 +223,11 @@ kKeyDuration
 '
 dura
 '
+kKeyMovieDuration
+=
+'
+mdur
+'
 kKeyColorFormat
 =
 '
