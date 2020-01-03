@@ -62,7 +62,7 @@ assertEq
 WeakSet
 .
 length
-1
+0
 )
 ;
 assertEq

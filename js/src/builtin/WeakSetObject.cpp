@@ -285,7 +285,7 @@ ClassName
 JSProto_WeakSet
 cx
 )
-1
+0
 )
 )
 ;
