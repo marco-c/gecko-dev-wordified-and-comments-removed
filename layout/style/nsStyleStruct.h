@@ -8488,6 +8488,9 @@ mBackfaceVisibility
 uint8_t
 mTransformStyle
 ;
+uint8_t
+mTransformBox
+;
 nsRefPtr
 <
 nsCSSValueSharedList

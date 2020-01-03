@@ -2909,6 +2909,13 @@ kTouchActionKTable
 static
 const
 KTableValue
+kTransformBoxKTable
+[
+]
+;
+static
+const
+KTableValue
 kTransitionTimingFunctionKTable
 [
 ]

@@ -815,6 +815,11 @@ Transform
 )
 COMPUTED_STYLE_PROP
 (
+transform_box
+TransformBox
+)
+COMPUTED_STYLE_PROP
+(
 transform_origin
 TransformOrigin
 )
