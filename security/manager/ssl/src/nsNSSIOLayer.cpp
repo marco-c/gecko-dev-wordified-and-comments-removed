@@ -3438,6 +3438,8 @@ nsACString
 hostName
 int16_t
 port
+PRErrorCode
+intoleranceReason
 )
 {
 nsCString
@@ -3510,7 +3512,7 @@ entry
 .
 intoleranceReason
 =
-SSL_ERROR_NO_CYPHER_OVERLAP
+intoleranceReason
 ;
 }
 entry
@@ -4600,10 +4602,18 @@ false
 else
 if
 (
+(
 err
 =
 =
 SSL_ERROR_NO_CYPHER_OVERLAP
+|
+|
+err
+=
+=
+PR_END_OF_FILE_ERROR
+)
 &
 &
 nsNSSComponent
@@ -4641,6 +4651,7 @@ socketInfo
 GetPort
 (
 )
+err
 )
 )
 {
@@ -4653,7 +4664,10 @@ Telemetry
 :
 :
 SSL_WEAK_CIPHERS_FALLBACK
-true
+tlsIntoleranceTelemetryBucket
+(
+err
+)
 )
 ;
 return
@@ -4669,7 +4683,7 @@ Telemetry
 :
 :
 SSL_WEAK_CIPHERS_FALLBACK
-false
+0
 )
 ;
 }

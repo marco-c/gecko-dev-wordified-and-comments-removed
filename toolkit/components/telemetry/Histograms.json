@@ -47584,8 +47584,13 @@ kind
 "
 :
 "
-boolean
+enumerated
 "
+"
+n_values
+"
+:
+64
 "
 description
 "
