@@ -1753,17 +1753,6 @@ migrate
 signup
 "
 :
-this
-.
-fxaMigrator
-.
-createFxAccount
-(
-window
-)
-;
-break
-;
 case
 "
 migrate
