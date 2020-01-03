@@ -309,6 +309,11 @@ return
 mQuotaInfo
 ;
 }
+void
+NoteOrphanedData
+(
+)
+;
 private
 :
 class
@@ -447,6 +452,9 @@ mData
 ;
 State
 mState
+;
+bool
+mOrphanedData
 ;
 QuotaInfo
 mQuotaInfo
