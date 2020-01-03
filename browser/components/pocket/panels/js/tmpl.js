@@ -2429,6 +2429,7 @@ class
 \
 "
 pkt_ext_introdetail
+pkt_ext_introdetailhero
 \
 "
 >
@@ -2547,6 +2548,13 @@ p
 n
 <
 p
+class
+=
+\
+"
+pkt_ext_learnmorecontainer
+\
+"
 >
 <
 a
@@ -2859,6 +2867,7 @@ class
 \
 "
 pkt_ext_signupdetail
+pkt_ext_signupdetail_hero
 \
 "
 >
