@@ -165,6 +165,9 @@ bool
 checkRangeAnalysis
 ;
 bool
+runExtraChecks
+;
+bool
 disableScalarReplacement
 ;
 bool

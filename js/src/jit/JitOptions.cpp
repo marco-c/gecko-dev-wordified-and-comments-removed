@@ -380,6 +380,12 @@ false
 ;
 SET_DEFAULT
 (
+runExtraChecks
+false
+)
+;
+SET_DEFAULT
+(
 disableScalarReplacement
 false
 )
