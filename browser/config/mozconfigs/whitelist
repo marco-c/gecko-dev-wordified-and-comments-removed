@@ -706,6 +706,15 @@ BUILDING_RELEASE
 =
 1
 '
+'
+MOZ_AUTOMATION_SDK
+=
+{
+MOZ_AUTOMATION_SDK
+-
+1
+}
+'
 ]
 whitelist
 [
