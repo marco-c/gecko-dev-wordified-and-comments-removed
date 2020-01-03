@@ -212,7 +212,7 @@ register
 USVString
 scriptURL
 optional
-RegistrationOptionList
+RegistrationOptions
 options
 )
 ;
@@ -298,14 +298,10 @@ url
 }
 ;
 dictionary
-RegistrationOptionList
+RegistrationOptions
 {
 USVString
 scope
-=
-"
-/
-"
 ;
 }
 ;
