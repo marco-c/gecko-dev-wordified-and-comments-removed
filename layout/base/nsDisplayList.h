@@ -4247,7 +4247,10 @@ PAINT_COMPRESSED
 0x10
 }
 ;
-void
+already_AddRefed
+<
+LayerManager
+>
 PaintRoot
 (
 nsDisplayListBuilder

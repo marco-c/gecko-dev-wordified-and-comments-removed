@@ -7360,7 +7360,10 @@ return
 anyVisible
 ;
 }
-void
+already_AddRefed
+<
+LayerManager
+>
 nsDisplayList
 :
 :
@@ -7551,6 +7554,7 @@ into
 )
 ;
 return
+nullptr
 ;
 }
 layerManager
@@ -7858,6 +7862,7 @@ oldBuilder
 )
 ;
 return
+nullptr
 ;
 }
 root
@@ -8377,6 +8382,13 @@ SetUserData
 &
 gLayerManagerLayerBuilder
 oldBuilder
+)
+;
+return
+layerManager
+.
+forget
+(
 )
 ;
 }
