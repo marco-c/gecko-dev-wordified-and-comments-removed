@@ -160,7 +160,7 @@ loadAndPaint
 url
 )
 ;
-verifyPageTitle
+ensureTitleMatches
 (
 StringHelper
 .
@@ -254,7 +254,7 @@ unregisterListener
 (
 )
 ;
-verifyPageTitle
+ensureTitleMatches
 (
 StringHelper
 .
