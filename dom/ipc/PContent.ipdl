@@ -1868,6 +1868,14 @@ gfxIntSize
 size
 )
 ;
+Volumes
+(
+VolumeInfo
+[
+]
+volumes
+)
+;
 FlushMemory
 (
 nsString
