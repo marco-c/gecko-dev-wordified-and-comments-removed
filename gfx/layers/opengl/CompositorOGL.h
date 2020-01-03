@@ -1703,12 +1703,6 @@ ShaderProgramOGL
 *
 mCurrentProgram
 ;
-gfx
-:
-:
-Rect
-mRenderBoundsOut
-;
 CompositorOGLVRObjects
 mVR
 ;
