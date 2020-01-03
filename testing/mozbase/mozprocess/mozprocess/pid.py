@@ -427,6 +427,8 @@ mozinfo
 isWin
 :
         
+from
+.
 import
 wpk
         

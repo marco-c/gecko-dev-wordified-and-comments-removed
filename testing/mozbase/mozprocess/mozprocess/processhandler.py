@@ -86,10 +86,13 @@ byref
 WinError
 c_longlong
     
+from
+.
 import
 winprocess
     
 from
+.
 qijo
 import
 JobObjectAssociateCompletionPortInformation
