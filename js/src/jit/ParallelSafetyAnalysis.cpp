@@ -3015,6 +3015,11 @@ writeGuard
 writeGuard
 -
 >
+typePolicy
+(
+)
+-
+>
 adjustInputs
 (
 alloc
