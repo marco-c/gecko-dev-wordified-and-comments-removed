@@ -367,6 +367,10 @@ TestThreads
 TestXPIDLString
 '
 #
+'
+TestUTF
+'
+#
 ]
 #
 FIXME

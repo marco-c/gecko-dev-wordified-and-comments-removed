@@ -157,11 +157,6 @@ TestTimeStamp
 .
 cpp
 '
-'
-TestUTF
-.
-cpp
-'
 ]
 FINAL_LIBRARY
 =
