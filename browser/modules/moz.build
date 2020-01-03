@@ -170,6 +170,11 @@ ContentSearch
 jsm
 '
 '
+ContentWebRTC
+.
+jsm
+'
+'
 CustomizationTabPreloader
 .
 jsm
