@@ -178,6 +178,13 @@ h
 #
 include
 "
+nsCRTGlue
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceDefs
 .
 h
@@ -200,6 +207,13 @@ h
 include
 "
 nsThreadUtils
+.
+h
+"
+#
+include
+"
+prtime
 .
 h
 "
