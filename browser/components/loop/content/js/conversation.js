@@ -806,11 +806,9 @@ setAttribute
 "
 dir
 "
-mozL10n
-.
-getDirection
-(
-)
+"
+rtl
+"
 )
 ;
 document

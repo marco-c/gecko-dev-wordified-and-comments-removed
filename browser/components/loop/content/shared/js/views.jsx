@@ -4280,7 +4280,7 @@ props
 additionalClass
 )
 {
-checkClasses
+wrapperClasses
 [
 this
 .
