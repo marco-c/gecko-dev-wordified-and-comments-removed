@@ -282,10 +282,11 @@ mainThread
 ;
 sMainThread
 =
-AbstractThread
-:
-:
-Create
+new
+AbstractThreadImpl
+<
+nsIThread
+>
 (
 mainThread
 .
