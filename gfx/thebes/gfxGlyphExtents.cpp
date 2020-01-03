@@ -729,9 +729,8 @@ aMallocSizeOf
 +
 mTightGlyphExtents
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;

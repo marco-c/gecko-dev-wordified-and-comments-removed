@@ -4529,9 +4529,8 @@ amount
 =
 mActiveNodes
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;
@@ -4540,9 +4539,8 @@ amount
 =
 mPannerNodes
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;

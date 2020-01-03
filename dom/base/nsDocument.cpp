@@ -55119,9 +55119,8 @@ mDOMOtherSize
 =
 mStyledLinks
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aWindowSizes
 -
 >

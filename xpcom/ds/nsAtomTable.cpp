@@ -2136,9 +2136,8 @@ gStaticAtomTable
 gStaticAtomTable
 -
 >
-SizeOfIncludingThis
+ShallowSizeOfIncludingThis
 (
-nullptr
 aMallocSizeOf
 )
 :

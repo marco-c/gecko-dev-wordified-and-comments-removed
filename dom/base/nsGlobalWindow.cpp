@@ -57097,9 +57097,8 @@ mDOMEventTargetsSize
 =
 mEventTargetObjects
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aWindowSizes
 -
 >

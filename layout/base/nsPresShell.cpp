@@ -49100,11 +49100,9 @@ aPresShellSize
 =
 mVisibleImages
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
-nullptr
 )
 ;
 *
@@ -49113,11 +49111,9 @@ aPresShellSize
 =
 mFramesToDirty
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
-nullptr
 )
 ;
 *

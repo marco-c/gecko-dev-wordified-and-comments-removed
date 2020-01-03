@@ -1233,9 +1233,8 @@ const
 return
 mEntries
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;

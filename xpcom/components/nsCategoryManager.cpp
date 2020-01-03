@@ -1136,9 +1136,8 @@ aMallocSizeOf
 return
 mTable
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;
