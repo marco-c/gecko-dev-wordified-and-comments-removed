@@ -125,7 +125,7 @@ NEXTSTEP
 \
 defined
 (
-XP_DARWIN
+XP_MACOSX
 )
 |
 |
