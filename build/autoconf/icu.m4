@@ -691,6 +691,8 @@ OpenBSD
 GNU
 /
 kFreeBSD
+|
+SunOS
 )
 ICU_LIB_NAMES
 =
