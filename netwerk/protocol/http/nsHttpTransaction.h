@@ -215,6 +215,14 @@ TakeResponseHead
 (
 )
 ;
+already_AddRefed
+<
+nsAHttpConnection
+>
+GetConnectionReference
+(
+)
+;
 bool
 ResponseIsComplete
 (
@@ -665,7 +673,7 @@ mCallbacks
 }
 ;
 Mutex
-mCallbacksLock
+mLock
 ;
 nsCOMPtr
 <

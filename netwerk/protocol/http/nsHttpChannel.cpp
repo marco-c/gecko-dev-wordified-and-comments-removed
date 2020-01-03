@@ -21572,7 +21572,7 @@ conn
 mTransaction
 -
 >
-Connection
+GetConnectionReference
 (
 )
 ;
@@ -21611,7 +21611,7 @@ stickyConn
 mTransaction
 -
 >
-Connection
+GetConnectionReference
 (
 )
 ;
