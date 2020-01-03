@@ -3426,6 +3426,7 @@ callInfo
 bool
 selectInliningTargets
 (
+const
 ObjectVector
 &
 targets
@@ -4057,6 +4058,7 @@ target
 InliningStatus
 inlineCallsite
 (
+const
 ObjectVector
 &
 targets
@@ -4076,6 +4078,7 @@ inlineCalls
 CallInfo
 &
 callInfo
+const
 ObjectVector
 &
 targets
@@ -5263,11 +5266,12 @@ argc
 2
 ;
 }
-void
+bool
 setArgs
 (
+const
 MDefinitionVector
-*
+&
 args
 )
 {
@@ -5280,11 +5284,11 @@ empty
 )
 )
 ;
+return
 args_
 .
 appendAll
 (
-*
 args
 )
 ;
