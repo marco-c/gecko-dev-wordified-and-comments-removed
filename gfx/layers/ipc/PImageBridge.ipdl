@@ -210,7 +210,7 @@ script
 .
 *
 /
-intr
+sync
 protocol
 PImageBridge
 {
