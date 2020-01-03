@@ -1785,6 +1785,7 @@ mInitData
 }
 RecreateParser
 (
+true
 )
 ;
 SetAppendState
@@ -3038,12 +3039,9 @@ if
 mFirstInitializationSegmentReceived
 )
 {
-mInitData
-=
-nullptr
-;
 RecreateParser
 (
+false
 )
 ;
 }
@@ -4428,6 +4426,7 @@ EvictAll
 ;
 RecreateParser
 (
+true
 )
 ;
 SetAppendState
@@ -5558,6 +5557,7 @@ NotifyDataRemoved
 ;
 RecreateParser
 (
+true
 )
 ;
 SetAppendState
@@ -7581,6 +7581,8 @@ TrackBuffersManager
 :
 RecreateParser
 (
+bool
+aReuseInitData
 )
 {
 MOZ_ASSERT
@@ -7602,6 +7604,9 @@ mType
 ;
 if
 (
+aReuseInitData
+&
+&
 mInitData
 )
 {

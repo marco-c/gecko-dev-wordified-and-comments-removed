@@ -681,6 +681,8 @@ mType
 void
 RecreateParser
 (
+bool
+aReuseInitData
 )
 ;
 nsAutoPtr
