@@ -648,13 +648,6 @@ GonkNativeWindow
 )
 ;
 }
-mReaderCallback
--
->
-NotifyResourcesStatusChanged
-(
-)
-;
 return
 mDecoder
 ;

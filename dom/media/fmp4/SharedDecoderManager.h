@@ -268,13 +268,6 @@ override
 ;
 virtual
 bool
-IsWaitingMediaResources
-(
-)
-override
-;
-virtual
-bool
 IsHardwareAccelerated
 (
 )

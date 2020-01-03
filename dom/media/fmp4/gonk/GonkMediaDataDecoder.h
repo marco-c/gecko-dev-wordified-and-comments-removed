@@ -167,12 +167,6 @@ MediaRawData
 >
 mQueueSample
 ;
-RefPtr
-<
-MediaTaskQueue
->
-mTaskQueue
-;
 nsRefPtr
 <
 MediaByteBuffer
@@ -243,13 +237,6 @@ override
 virtual
 nsresult
 Shutdown
-(
-)
-override
-;
-virtual
-bool
-IsWaitingMediaResources
 (
 )
 override
