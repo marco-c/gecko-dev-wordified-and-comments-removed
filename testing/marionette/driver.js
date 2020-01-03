@@ -2033,6 +2033,7 @@ this
 curFrame
 =
 =
+=
 null
 )
 {
@@ -2041,6 +2042,7 @@ if
 this
 .
 curBrowser
+=
 =
 =
 null
@@ -2486,6 +2488,7 @@ mm
 childCount
 !
 =
+=
 0
 )
 {
@@ -2749,6 +2752,7 @@ curBrowser
 curFrameId
 =
 =
+=
 null
 ;
 let
@@ -2838,6 +2842,7 @@ curBrowser
 mainContentId
 =
 =
+=
 null
 ;
 if
@@ -2891,9 +2896,6 @@ be
 mainContent
 =
 mainContent
-=
-=
-true
 &
 &
 this
@@ -2902,6 +2904,7 @@ curBrowser
 .
 mainContentId
 !
+=
 =
 null
 ;
@@ -2953,6 +2956,7 @@ curBrowser
 .
 curFrameId
 !
+=
 =
 null
 )
@@ -3112,6 +3116,7 @@ this
 curBrowser
 .
 frameRegsPending
+=
 =
 =
 0
@@ -4020,6 +4025,7 @@ errors
 length
 =
 =
+=
 0
 )
 {
@@ -4483,10 +4489,12 @@ async
 timeout
 =
 =
+=
 null
 |
 |
 timeout
+=
 =
 =
 0
@@ -4618,18 +4626,24 @@ async
 &
 &
 (
+typeof
 res
 =
 =
+"
 undefined
+"
 |
 |
+typeof
 res
 .
 passed
 =
 =
+"
 undefined
+"
 )
 )
 {
@@ -4828,6 +4842,7 @@ that
 inactivityTimer
 !
 =
+=
 null
 )
 {
@@ -4991,6 +5006,7 @@ this
 .
 inactivityTimer
 !
+=
 =
 null
 )
@@ -5471,6 +5487,7 @@ this
 inactivityTimer
 !
 =
+=
 null
 )
 {
@@ -5556,6 +5573,7 @@ that
 .
 inactivityTimer
 !
+=
 =
 null
 )
@@ -5702,6 +5720,7 @@ that
 timer
 !
 =
+=
 null
 )
 {
@@ -5757,6 +5776,7 @@ that
 .
 inactivityTimer
 !
+=
 =
 null
 )
@@ -6117,6 +6137,7 @@ this
 .
 timer
 !
+=
 =
 null
 )
@@ -6546,6 +6567,7 @@ start
 if
 (
 timeout
+=
 =
 =
 null
@@ -8327,7 +8349,6 @@ null
 ;
 if
 (
-(
 cmd
 .
 parameters
@@ -8336,18 +8357,18 @@ id
 =
 =
 null
-)
 &
 &
-(
+!
 cmd
 .
 parameters
 .
+hasOwnProperty
+(
+"
 element
-=
-=
-null
+"
 )
 )
 {
@@ -8398,6 +8419,7 @@ return
 }
 if
 (
+typeof
 cmd
 .
 parameters
@@ -8405,7 +8427,9 @@ parameters
 element
 !
 =
+"
 undefined
+"
 )
 {
 if
@@ -8737,6 +8761,7 @@ if
 foundById
 =
 =
+=
 null
 )
 &
@@ -8767,6 +8792,7 @@ if
 foundFrame
 =
 =
+=
 null
 )
 &
@@ -8774,6 +8800,7 @@ null
 (
 foundById
 !
+=
 =
 null
 )
@@ -8802,6 +8829,7 @@ number
 :
 if
 (
+typeof
 curWindow
 .
 frames
@@ -8814,7 +8842,9 @@ id
 ]
 !
 =
+"
 undefined
+"
 )
 {
 foundFrame
@@ -8846,6 +8876,7 @@ if
 (
 foundFrame
 !
+=
 =
 null
 )
@@ -9400,6 +9431,7 @@ err
 {
 throw
 err
+;
 }
 ;
 let
@@ -12107,6 +12139,7 @@ this
 .
 curBrowser
 !
+=
 =
 null
 )
@@ -15832,6 +15865,7 @@ this
 .
 tab
 !
+=
 =
 null
 &
