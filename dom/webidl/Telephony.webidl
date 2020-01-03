@@ -219,7 +219,7 @@ for
 call
 setup
 *
-DOMRequest
+MMICall
 -
 for
 MMI
@@ -234,7 +234,7 @@ Promise
 (
 TelephonyCall
 or
-DOMRequest
+MMICall
 )
 >
 dial

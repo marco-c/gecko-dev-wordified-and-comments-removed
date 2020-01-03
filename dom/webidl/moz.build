@@ -1430,6 +1430,11 @@ MimeTypeArray
 webidl
 '
 '
+MMICall
+.
+webidl
+'
+'
 MouseEvent
 .
 webidl
