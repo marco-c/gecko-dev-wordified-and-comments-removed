@@ -5215,6 +5215,12 @@ nsIntRect
 aDamageRect
 =
 nullptr
+const
+nsRect
+*
+aFrameDamageRect
+=
+nullptr
 uint32_t
 aFlags
 =
