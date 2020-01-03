@@ -1353,6 +1353,11 @@ override
 nsRect
 GetDestRect
 (
+bool
+*
+aSnap
+=
+nullptr
 )
 ;
 virtual
