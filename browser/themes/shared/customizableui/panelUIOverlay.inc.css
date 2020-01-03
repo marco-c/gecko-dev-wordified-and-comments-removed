@@ -4155,6 +4155,13 @@ PanelUI
 footer
 -
 fxa
+:
+not
+(
+[
+hidden
+]
+)
 {
 display
 :
