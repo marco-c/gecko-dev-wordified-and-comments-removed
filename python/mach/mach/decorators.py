@@ -454,7 +454,7 @@ that
 provide
 a
 mach
-subcommand
+command
 .
     
 The
@@ -890,7 +890,7 @@ argument
 groups
 to
 mach
-subcommands
+commands
 .
     
 This
