@@ -363,7 +363,7 @@ SelectionCount
 (
 )
 ;
-void
+bool
 TextSubstring
 (
 int32_t
@@ -579,7 +579,7 @@ nsString
 aText
 )
 ;
-void
+bool
 InsertText
 (
 const
@@ -590,7 +590,7 @@ int32_t
 aPosition
 )
 ;
-void
+bool
 CopyText
 (
 int32_t
@@ -599,7 +599,7 @@ int32_t
 aEndPos
 )
 ;
-void
+bool
 CutText
 (
 int32_t
@@ -608,7 +608,7 @@ int32_t
 aEndPos
 )
 ;
-void
+bool
 DeleteText
 (
 int32_t
@@ -617,7 +617,7 @@ int32_t
 aEndPos
 )
 ;
-void
+bool
 PasteText
 (
 int32_t
