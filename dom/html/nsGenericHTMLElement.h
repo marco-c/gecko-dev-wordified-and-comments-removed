@@ -1539,6 +1539,7 @@ nsAString
 aTitle
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 nsString
 title
@@ -1567,6 +1568,7 @@ nsAString
 aLang
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 nsString
 lang
@@ -1595,6 +1597,7 @@ nsAString
 aDir
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 nsString
 dir
@@ -1624,6 +1627,7 @@ nsAString
 aDir
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -1695,6 +1699,7 @@ nsISupports
 aDataset
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetHidden
@@ -1704,6 +1709,7 @@ bool
 aHidden
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 *
 aHidden
@@ -1723,6 +1729,7 @@ bool
 aHidden
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -1749,6 +1756,7 @@ DOMBlur
 (
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -1777,6 +1785,7 @@ bool
 aItemScope
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 *
 aItemScope
@@ -1796,6 +1805,7 @@ bool
 aItemScope
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -1826,6 +1836,7 @@ nsIVariant
 aType
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 GetTokenList
 (
@@ -1848,6 +1859,7 @@ nsIVariant
 aType
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 SetTokenList
@@ -1868,6 +1880,7 @@ nsAString
 aId
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 nsString
 id
@@ -1897,6 +1910,7 @@ nsAString
 aId
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -1927,6 +1941,7 @@ nsISupports
 aReturn
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetItemValue
@@ -1937,6 +1952,7 @@ nsIVariant
 aValue
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetItemValue
@@ -1946,6 +1962,7 @@ nsIVariant
 aValue
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetItemRef
@@ -1956,6 +1973,7 @@ nsIVariant
 aRef
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 GetTokenList
 (
@@ -1978,6 +1996,7 @@ nsIVariant
 aRef
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 SetTokenList
@@ -1999,6 +2018,7 @@ nsIVariant
 aProp
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 GetTokenList
 (
@@ -2021,6 +2041,7 @@ nsIVariant
 aProp
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 SetTokenList
@@ -2041,6 +2062,7 @@ nsAString
 aAccessKey
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 nsString
 accessKey
@@ -2070,6 +2092,7 @@ nsAString
 aAccessKey
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -2099,6 +2122,7 @@ nsAString
 aAccessKeyLabel
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 nsString
 accessKeyLabel
@@ -2126,6 +2150,7 @@ bool
 aDraggable
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -2155,6 +2180,7 @@ nsAString
 aContentEditable
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 nsString
 contentEditable
@@ -2184,6 +2210,7 @@ nsAString
 aContentEditable
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -2213,6 +2240,7 @@ bool
 aIsContentEditable
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 *
 aIsContentEditable
@@ -2234,6 +2262,7 @@ nsIDOMHTMLMenuElement
 aContextMenu
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSpellcheck
@@ -2243,6 +2272,7 @@ bool
 aSpellcheck
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 *
 aSpellcheck
@@ -2262,6 +2292,7 @@ bool
 aSpellcheck
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -2291,6 +2322,7 @@ nsAString
 aOuterHTML
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -2319,6 +2351,7 @@ nsAString
 aOuterHTML
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -2363,6 +2396,7 @@ nsAString
 text
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ScrollIntoView
@@ -2373,6 +2407,7 @@ uint8_t
 _argc
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 if
 (
@@ -2412,6 +2447,7 @@ nsIDOMElement
 aOffsetParent
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -2458,6 +2494,7 @@ int32_t
 aOffsetTop
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 *
 aOffsetTop
@@ -2478,6 +2515,7 @@ int32_t
 aOffsetLeft
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 *
 aOffsetLeft
@@ -2498,6 +2536,7 @@ int32_t
 aOffsetWidth
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 *
 aOffsetWidth
@@ -2518,6 +2557,7 @@ int32_t
 aOffsetHeight
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 *
 aOffsetHeight
@@ -2535,6 +2575,7 @@ DOMClick
 (
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 Click
 (
@@ -2552,6 +2593,7 @@ int32_t
 aTabIndex
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 *
 aTabIndex
@@ -2571,6 +2613,7 @@ int32_t
 aTabIndex
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -2597,6 +2640,7 @@ Focus
 (
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -2625,6 +2669,7 @@ bool
 aDraggable
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 *
 aDraggable
@@ -2683,6 +2728,7 @@ nsAString
 aInnerHTML
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 mozilla
 :
