@@ -3707,12 +3707,9 @@ if
 mFileManager
 -
 >
-Privilege
+EnforcingQuota
 (
 )
-!
-=
-Chrome
 )
 {
 rv
@@ -3754,12 +3751,9 @@ if
 mFileManager
 -
 >
-Privilege
+EnforcingQuota
 (
 )
-!
-=
-Chrome
 )
 {
 QuotaManager
