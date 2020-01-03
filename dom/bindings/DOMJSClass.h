@@ -487,6 +487,9 @@ ConstantSpec
 *
 constantSpecs
 ;
+int32_t
+iteratorAliasMethodIndex
+;
 }
 ;
 struct
