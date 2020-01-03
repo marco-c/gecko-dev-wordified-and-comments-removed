@@ -227,9 +227,16 @@ if
 !
 values
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
+}
 RootedObject
 obj
 (
