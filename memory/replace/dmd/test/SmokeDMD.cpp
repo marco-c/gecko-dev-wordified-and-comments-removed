@@ -466,7 +466,7 @@ ClearBlocks
 (
 )
 ;
-AnalyzeReports
+Analyze
 (
 Move
 (
@@ -831,7 +831,7 @@ Report
 g3
 )
 ;
-AnalyzeReports
+Analyze
 (
 Move
 (
@@ -869,7 +869,7 @@ free
 e3
 )
 ;
-AnalyzeReports
+Analyze
 (
 Move
 (
@@ -1105,7 +1105,7 @@ seven
 )
 ;
 }
-AnalyzeReports
+Analyze
 (
 Move
 (

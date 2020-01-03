@@ -141,7 +141,7 @@ ClearReports
 ;
 virtual
 void
-AnalyzeReports
+Analyze
 (
 UniquePtr
 <
@@ -374,7 +374,7 @@ JSONWriteFunc
 >
 inline
 void
-AnalyzeReports
+Analyze
 (
 UniquePtr
 <
@@ -402,7 +402,7 @@ funcs
 funcs
 -
 >
-AnalyzeReports
+Analyze
 (
 Move
 (

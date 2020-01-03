@@ -3074,7 +3074,7 @@ rv
 dmd
 :
 :
-AnalyzeReports
+Analyze
 (
 MakeUnique
 <
