@@ -724,15 +724,7 @@ GLContextProvider
 :
 CreateOffscreen
 (
-gfxIntSize
-(
 mSurfaceSize
-.
-width
-mSurfaceSize
-.
-height
-)
 caps
 requireCompatProfile
 )
@@ -6862,9 +6854,6 @@ CompositorOGL
 SetDestinationSurfaceSize
 (
 const
-gfx
-:
-:
 IntSize
 &
 aSize

@@ -3653,7 +3653,7 @@ destImage
 new
 gfxImageSurface
 (
-gfxIntSize
+IntSize
 (
 aDestRect
 .
