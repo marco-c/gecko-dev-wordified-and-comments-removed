@@ -1810,7 +1810,7 @@ RemoveElementAt
 j
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

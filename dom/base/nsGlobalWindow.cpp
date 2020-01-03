@@ -37335,7 +37335,7 @@ char
 aTopic
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

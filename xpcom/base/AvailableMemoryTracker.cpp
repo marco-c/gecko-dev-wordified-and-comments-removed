@@ -1754,7 +1754,7 @@ if
 sFreeDirtyPages
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

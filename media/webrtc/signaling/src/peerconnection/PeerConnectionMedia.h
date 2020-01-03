@@ -2206,7 +2206,7 @@ std
 :
 vector
 <
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

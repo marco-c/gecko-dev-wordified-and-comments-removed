@@ -5451,7 +5451,7 @@ didRemove
 mRootDocShell
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

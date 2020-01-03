@@ -800,7 +800,7 @@ NS_ERROR_NOT_INITIALIZED
 }
 else
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -11700,7 +11700,7 @@ mTrafficTimer
 nullptr
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

@@ -1160,7 +1160,7 @@ aNewDuration
 }
 else
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

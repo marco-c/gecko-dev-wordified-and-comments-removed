@@ -1223,7 +1223,7 @@ Direction
 direction
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

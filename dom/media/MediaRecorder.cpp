@@ -992,7 +992,7 @@ Extract
 false
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -2587,7 +2587,7 @@ RegisterShutdownObserver
 this
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

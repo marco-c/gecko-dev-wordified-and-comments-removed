@@ -53,7 +53,7 @@ nsIRunnable
 aRunnable
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

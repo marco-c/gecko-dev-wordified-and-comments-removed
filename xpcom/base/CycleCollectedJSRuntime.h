@@ -928,7 +928,7 @@ aException
 ;
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1124,7 +1124,7 @@ mPendingException
 ;
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

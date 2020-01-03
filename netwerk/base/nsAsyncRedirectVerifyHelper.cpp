@@ -762,7 +762,7 @@ mWaitingForRedirectCallback
 =
 false
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

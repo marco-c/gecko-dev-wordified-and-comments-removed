@@ -193,7 +193,7 @@ Capabilites
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

@@ -1219,13 +1219,13 @@ GMPShutdownObserver
 )
 {
 }
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
 mShutdownTask
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1563,7 +1563,7 @@ ClearGMPStorageTask
 )
 {
 }
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -5507,7 +5507,7 @@ Length
 matches
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -5731,7 +5731,7 @@ aContinuation
 nsCString
 mMessage
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

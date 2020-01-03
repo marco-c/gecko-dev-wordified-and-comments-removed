@@ -77,7 +77,7 @@ RegisterOfflineObserverMainThread
 }
 else
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -122,7 +122,7 @@ RemoveOfflineObserverMainThread
 }
 else
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

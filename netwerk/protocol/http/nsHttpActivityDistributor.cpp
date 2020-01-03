@@ -255,7 +255,7 @@ nsACString
 aExtraStringData
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

@@ -205,7 +205,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

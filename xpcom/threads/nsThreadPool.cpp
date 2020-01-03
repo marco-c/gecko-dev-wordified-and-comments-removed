@@ -507,7 +507,7 @@ if
 killThread
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -593,7 +593,7 @@ thread
 "
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

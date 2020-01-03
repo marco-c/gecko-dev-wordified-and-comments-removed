@@ -1847,7 +1847,7 @@ Get
 ;
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1877,7 +1877,7 @@ false
 }
 do
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -4878,7 +4878,7 @@ Get
 ;
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

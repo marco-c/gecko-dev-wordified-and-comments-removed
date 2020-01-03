@@ -334,7 +334,7 @@ mNativeWindow
 int
 mID
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

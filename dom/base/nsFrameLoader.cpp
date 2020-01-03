@@ -10688,7 +10688,7 @@ if
 mChildMessageManager
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

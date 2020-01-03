@@ -5665,7 +5665,7 @@ ErrorCode
 )
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -6104,7 +6104,7 @@ ErrorCode
 )
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -6394,7 +6394,7 @@ ErrorCode
 )
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

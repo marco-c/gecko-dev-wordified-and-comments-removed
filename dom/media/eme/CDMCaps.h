@@ -371,7 +371,7 @@ mWaitForKeys
 ;
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

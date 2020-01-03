@@ -1423,7 +1423,7 @@ StartUpdating
 (
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1465,7 +1465,7 @@ aStart
 aEnd
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -2177,7 +2177,7 @@ yet
 "
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

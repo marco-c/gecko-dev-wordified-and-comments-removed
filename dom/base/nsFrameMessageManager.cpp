@@ -8412,7 +8412,7 @@ aPrincipal
 )
 MOZ_OVERRIDE
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

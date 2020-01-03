@@ -1622,7 +1622,7 @@ event
 EVENT_FINISHED
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

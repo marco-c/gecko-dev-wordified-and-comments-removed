@@ -364,7 +364,7 @@ mInPrivateBrowsing
 =
 aInPrivateBrowsing
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -675,7 +675,7 @@ Init
 mCallback
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -851,7 +851,7 @@ Move
 aInitData
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1057,7 +1057,7 @@ NS_ConvertUTF16toUTF8
 aSessionId
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1196,7 +1196,7 @@ Move
 aCert
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1365,7 +1365,7 @@ Move
 aResponse
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1517,7 +1517,7 @@ NS_ConvertUTF16toUTF8
 aSessionId
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1665,7 +1665,7 @@ NS_ConvertUTF16toUTF8
 aSessionId
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1774,7 +1774,7 @@ Clear
 (
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -1930,7 +1930,7 @@ aCode
 }
 else
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -2006,7 +2006,7 @@ promise
 }
 else
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -2710,7 +2710,7 @@ aClient
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >

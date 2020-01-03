@@ -2454,7 +2454,7 @@ IsEmpty
 mShuttingDownOnGMPThread
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
@@ -2606,7 +2606,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsIRunnable
 >
