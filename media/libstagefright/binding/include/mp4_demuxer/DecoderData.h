@@ -582,6 +582,7 @@ MP4Sample
 copy
 )
 ;
+virtual
 ~
 MP4Sample
 (
