@@ -1582,6 +1582,15 @@ media
 :
 TimeUnit
 >
+mOriginalSeekTime
+;
+Maybe
+<
+media
+:
+:
+TimeUnit
+>
 mPendingSeekTime
 ;
 MozPromiseHolder
