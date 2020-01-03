@@ -542,6 +542,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 base
 /
 histogram
@@ -605,13 +612,6 @@ include
 mozilla
 /
 WindowsVersion
-.
-h
-"
-#
-include
-"
-gfxPrefs
 .
 h
 "
