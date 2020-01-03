@@ -2062,7 +2062,9 @@ void
 GeckoStart_t
 )
 (
-void
+JNIEnv
+*
+char
 *
 const
 nsXREAppData
@@ -2167,6 +2169,7 @@ false
 ;
 GeckoStart
 (
+jenv
 args
 &
 sAppData
