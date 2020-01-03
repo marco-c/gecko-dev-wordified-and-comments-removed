@@ -121,6 +121,8 @@ run
 :
 pip
 install
+-
+r
 requirements
 /
 requirements_firefox

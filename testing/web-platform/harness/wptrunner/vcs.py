@@ -62,6 +62,18 @@ repo
 None
 )
         
+log_error
+=
+kwargs
+.
+pop
+(
+"
+log_error
+"
+True
+)
+        
 if
 kwargs
 :
@@ -129,6 +141,11 @@ subprocess
 check_output
 (
 command_line
+stderr
+=
+subprocess
+.
+STDOUT
 *
 *
 proc_kwargs
@@ -142,6 +159,10 @@ as
 e
 :
             
+if
+log_error
+:
+                
 logger
 .
 error
