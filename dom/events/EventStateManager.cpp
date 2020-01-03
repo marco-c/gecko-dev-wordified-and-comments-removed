@@ -6508,6 +6508,17 @@ GetContent
 (
 )
 ;
+if
+(
+!
+mGestureDownFrameOwner
+)
+{
+mGestureDownFrameOwner
+=
+mGestureDownContent
+;
+}
 }
 mGestureModifiers
 =
