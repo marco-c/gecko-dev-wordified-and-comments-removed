@@ -459,6 +459,10 @@ marker
 details
 -
 bullet
+marker
+-
+color
+-
 {
 blueprint
 .

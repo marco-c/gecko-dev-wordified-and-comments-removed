@@ -393,9 +393,15 @@ menuitem
 .
 className
 =
+marker
+-
+color
+-
+{
 markerDetails
 .
 colorName
+}
 ;
 menuitem
 .
