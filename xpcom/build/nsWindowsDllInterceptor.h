@@ -1487,6 +1487,15 @@ nBytes
 ]
 =
 =
+0x40
+|
+|
+origBytes
+[
+nBytes
+]
+=
+=
 0x41
 )
 {
