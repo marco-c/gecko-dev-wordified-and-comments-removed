@@ -122,6 +122,10 @@ DISPLAY
 =
 :
 0
+pulseaudio
+-
+-
+start
 #
 First
 check
