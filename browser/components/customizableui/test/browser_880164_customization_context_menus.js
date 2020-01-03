@@ -731,10 +731,6 @@ synthesizeMouse
 (
 urlBarContainer
 100
-urlbarRect
-.
-height
--
 1
 {
 type
