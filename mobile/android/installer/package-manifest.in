@@ -899,6 +899,13 @@ BINPATH
 /
 components
 /
+dom_tv
+.
+xpt
+BINPATH
+/
+components
+/
 dom_views
 .
 xpt
