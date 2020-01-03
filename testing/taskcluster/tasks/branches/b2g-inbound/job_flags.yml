@@ -131,9 +131,6 @@ tests
 flame_kk_gaia_ui_test_functional
 .
 yml
-chunks
-:
-3
 gaia
 -
 ui

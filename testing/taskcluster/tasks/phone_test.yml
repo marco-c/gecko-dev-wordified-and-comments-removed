@@ -312,3 +312,15 @@ groupName
 Submitted
 by
 taskcluster
+chunks
+:
+total
+:
+1
+current
+:
+{
+{
+chunk
+}
+}
