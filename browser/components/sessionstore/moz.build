@@ -282,6 +282,11 @@ sessionstore
 =
 [
 '
+RevivableWindows
+.
+jsm
+'
+'
 SessionSaver
 .
 jsm
