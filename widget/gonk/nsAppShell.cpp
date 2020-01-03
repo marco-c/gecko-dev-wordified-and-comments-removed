@@ -1350,7 +1350,7 @@ location
 nsIDOMKeyEvent
 :
 :
-DOM_KEY_LOCATION_MOBILE
+DOM_KEY_LOCATION_STANDARD
 ;
 event
 .

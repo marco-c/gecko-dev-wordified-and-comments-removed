@@ -7134,11 +7134,10 @@ event
 .
 location
 =
-key
-.
-DomKeyLocation
-(
-)
+nsIDOMKeyboardEvent
+:
+:
+DOM_KEY_LOCATION_STANDARD
 ;
 event
 .
