@@ -801,6 +801,16 @@ aLevel
 )
 ;
 nsresult
+GenerateRandomName
+(
+nsCString
+&
+aOutSalt
+uint32_t
+aLength
+)
+;
+nsresult
 GenerateRandomPathName
 (
 nsCString
