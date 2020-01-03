@@ -370,7 +370,7 @@ referrer
 indexOf
 (
 "
-bug704320_preload
+bug704320
 "
 )
 >
