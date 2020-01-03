@@ -6815,7 +6815,7 @@ BluetoothStatus
 aStatus
 )
 {
-DaemonResultRunnable1
+BluetoothResultRunnable1
 <
 BluetoothHandsfreeResultHandler
 void
