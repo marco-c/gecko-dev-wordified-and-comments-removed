@@ -183,6 +183,9 @@ BluetoothUnixSocketConnector
 aConnector
 int
 aDelayMs
+nsIThread
+*
+aConsumerThread
 MessageLoop
 *
 aIOLoop
@@ -206,6 +209,9 @@ Listen
 BluetoothUnixSocketConnector
 *
 aConnector
+nsIThread
+*
+aConsumerThread
 MessageLoop
 *
 aIOLoop

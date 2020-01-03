@@ -40,6 +40,13 @@ DataSocketIO
 {
 public
 :
+ConnectionOrientedSocketIO
+(
+nsIThread
+*
+aConsumerThread
+)
+;
 virtual
 ~
 ConnectionOrientedSocketIO
@@ -80,6 +87,9 @@ PrepareAccept
 UnixSocketConnector
 *
 aConnector
+nsIThread
+*
+aConsumerThread
 MessageLoop
 *
 aIOLoop

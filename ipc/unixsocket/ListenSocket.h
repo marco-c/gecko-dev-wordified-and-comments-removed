@@ -25,6 +25,9 @@ h
 class
 MessageLoop
 ;
+class
+nsIThread
+;
 namespace
 mozilla
 {
@@ -67,6 +70,9 @@ Listen
 UnixSocketConnector
 *
 aConnector
+nsIThread
+*
+aConsumerThread
 MessageLoop
 *
 aIOLoop
