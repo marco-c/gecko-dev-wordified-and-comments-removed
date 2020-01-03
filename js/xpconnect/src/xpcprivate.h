@@ -6439,10 +6439,7 @@ base
 .
 name
 )
-nsMemory
-:
-:
-Free
+free
 (
 (
 void

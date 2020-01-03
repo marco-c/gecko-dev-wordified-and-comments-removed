@@ -16341,10 +16341,7 @@ if
 class_hint
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 res_name
 )
@@ -16395,10 +16392,7 @@ class_hint
 }
 #
 endif
-nsMemory
-:
-:
-Free
+free
 (
 res_name
 )

@@ -206,10 +206,7 @@ if
 (
 mDataBuffer
 )
-nsMemory
-:
-:
-Free
+free
 (
 mDataBuffer
 )
@@ -218,10 +215,7 @@ if
 (
 mOutgoingBuffer
 )
-nsMemory
-:
-:
-Free
+free
 (
 mOutgoingBuffer
 )

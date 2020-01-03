@@ -382,10 +382,7 @@ nsIID
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 count
 *
@@ -487,10 +484,7 @@ while
 (
 index
 )
-nsMemory
-:
-:
-Free
+free
 (
 array
 [
@@ -500,10 +494,7 @@ index
 ]
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 array
 )

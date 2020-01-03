@@ -1715,10 +1715,7 @@ _password
 =
 pw
 ;
-nsMemory
-:
-:
-Free
+free
 (
 pw
 )
@@ -1877,10 +1874,7 @@ Assign
 pwTemp
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 pwTemp
 )

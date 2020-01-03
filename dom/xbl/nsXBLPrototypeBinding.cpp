@@ -3040,10 +3040,7 @@ newStr
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 str
 )

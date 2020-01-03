@@ -2643,10 +2643,7 @@ if
 (
 name
 )
-nsMemory
-:
-:
-Free
+free
 (
 name
 )

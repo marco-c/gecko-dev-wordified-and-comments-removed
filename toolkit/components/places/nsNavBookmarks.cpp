@@ -10424,10 +10424,7 @@ int64_t
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -12320,10 +12317,7 @@ nsINavBookmarkObserver
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 observers
 .

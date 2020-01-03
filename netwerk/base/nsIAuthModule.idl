@@ -531,10 +531,7 @@ with
 a
 call
 to
-nsMemory
-:
-:
-Free
+free
 .
 *
 param

@@ -3817,10 +3817,7 @@ data
 len
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 data
 )

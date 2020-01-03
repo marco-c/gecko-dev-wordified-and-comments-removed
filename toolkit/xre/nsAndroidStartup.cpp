@@ -358,10 +358,7 @@ targs
 ]
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 data
 )

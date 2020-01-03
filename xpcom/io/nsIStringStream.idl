@@ -354,10 +354,7 @@ data
 buffer
 and
 will
-nsMemory
-:
-:
-Free
+free
 it
 when
 *

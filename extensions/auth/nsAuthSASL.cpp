@@ -342,10 +342,7 @@ return
 rv
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 unwrappedToken
 )
@@ -374,10 +371,7 @@ message
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 messageLen
 )
@@ -456,10 +450,7 @@ outToken
 outTokenLen
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 message
 )

@@ -8287,10 +8287,7 @@ shouldOverride
 true
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 str
 )

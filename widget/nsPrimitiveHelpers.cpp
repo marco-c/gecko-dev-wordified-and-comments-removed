@@ -844,10 +844,7 @@ char16_t
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 (
 *
@@ -1050,10 +1047,7 @@ buffAsChars
 =
 oldBuffer
 )
-nsMemory
-:
-:
-Free
+free
 (
 oldBuffer
 )
@@ -1151,10 +1145,7 @@ buffAsUnichar
 =
 oldBuffer
 )
-nsMemory
-:
-:
-Free
+free
 (
 oldBuffer
 )

@@ -521,10 +521,7 @@ break
 case
 eTreeOpProcessOfflineManifest
 :
-nsMemory
-:
-:
-Free
+free
 (
 mOne
 .

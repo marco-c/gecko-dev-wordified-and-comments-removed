@@ -213,10 +213,7 @@ if
 (
 mInpBuffer
 )
-nsMemory
-:
-:
-Free
+free
 (
 mInpBuffer
 )
@@ -225,10 +222,7 @@ if
 (
 mOutBuffer
 )
-nsMemory
-:
-:
-Free
+free
 (
 mOutBuffer
 )

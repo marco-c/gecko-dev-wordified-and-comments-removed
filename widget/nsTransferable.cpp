@@ -606,10 +606,7 @@ aDataLen
 ignored
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 buff
 )

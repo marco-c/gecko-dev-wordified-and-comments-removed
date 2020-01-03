@@ -2719,10 +2719,7 @@ forKey
 pboardType
 ]
 ;
-nsMemory
-:
-:
-Free
+free
 (
 data
 )

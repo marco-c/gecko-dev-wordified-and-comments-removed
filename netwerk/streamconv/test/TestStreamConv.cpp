@@ -242,10 +242,7 @@ buffer
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 len
 +
@@ -329,10 +326,7 @@ buffer
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 buffer
 )

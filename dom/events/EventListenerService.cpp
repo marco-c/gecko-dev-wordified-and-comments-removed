@@ -641,10 +641,7 @@ nsIEventListenerInfo
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -809,10 +806,7 @@ nsIDOMEventTarget
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (

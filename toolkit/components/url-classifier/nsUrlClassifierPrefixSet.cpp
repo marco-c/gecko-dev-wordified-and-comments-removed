@@ -903,10 +903,7 @@ uint32_t
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 itemCount
 *

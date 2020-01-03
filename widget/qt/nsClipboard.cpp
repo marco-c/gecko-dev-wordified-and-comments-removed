@@ -1041,10 +1041,7 @@ get
 data
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 primitive_data
 )

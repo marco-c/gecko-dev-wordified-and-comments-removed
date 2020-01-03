@@ -712,10 +712,7 @@ if
 mHandlerText
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mHandlerText
 )
@@ -805,10 +802,7 @@ temp
 aText
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 temp
 )
@@ -3907,10 +3901,7 @@ newStr
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 str
 )

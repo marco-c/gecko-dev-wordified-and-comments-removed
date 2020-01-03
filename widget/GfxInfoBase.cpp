@@ -4503,10 +4503,7 @@ char
 *
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 *
 failureCount
@@ -4543,10 +4540,7 @@ indices
 int32_t
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 *
 failureCount
@@ -4566,10 +4560,7 @@ indices
 )
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 *
 failures

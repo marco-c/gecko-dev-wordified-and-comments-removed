@@ -1203,10 +1203,7 @@ if
 (
 mData
 )
-nsMemory
-:
-:
-Free
+free
 (
 mData
 )
@@ -1364,10 +1361,7 @@ unsigned
 char
 *
 )
-nsMemory
-:
-:
-Realloc
+moz_xrealloc
 (
 mData
 len
@@ -1408,10 +1402,7 @@ if
 mData
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mData
 )

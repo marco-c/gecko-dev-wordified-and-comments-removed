@@ -1793,10 +1793,7 @@ escapedStr
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 escapedStr
 )
@@ -2467,10 +2464,7 @@ Append
 escapedValue
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 escapedValue
 )

@@ -427,10 +427,7 @@ break
 ;
 }
 }
-nsMemory
-:
-:
-Free
+free
 (
 prefixs
 )

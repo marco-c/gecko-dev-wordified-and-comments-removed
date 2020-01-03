@@ -16064,10 +16064,7 @@ nsIDOMRange
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (

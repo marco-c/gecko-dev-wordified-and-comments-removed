@@ -633,10 +633,7 @@ result
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 dstSize
 )
@@ -1645,10 +1642,7 @@ resultBuffer
 char16_t
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 aSourceBufferLen
 *

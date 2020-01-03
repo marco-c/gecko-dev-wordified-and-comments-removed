@@ -252,10 +252,7 @@ if
 mMessages
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mMessages
 )
@@ -362,10 +359,7 @@ nsIConsoleMessage
 *
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 mBufferSize
 *
@@ -1231,10 +1225,7 @@ nsIConsoleMessage
 *
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -1278,10 +1269,7 @@ nsIConsoleMessage
 *
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 (
 sizeof

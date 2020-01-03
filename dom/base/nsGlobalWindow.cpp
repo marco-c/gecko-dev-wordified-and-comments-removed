@@ -25971,10 +25971,7 @@ fflush
 fp
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 cstr
 )

@@ -96,10 +96,7 @@ if
 mText
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mText
 )
@@ -138,10 +135,7 @@ temp
 aText
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 temp
 )
@@ -231,10 +225,7 @@ nsXBLProtoImplMember
 (
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 mName
 )

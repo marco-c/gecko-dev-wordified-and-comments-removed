@@ -373,10 +373,7 @@ nsIID
 *
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (

@@ -1345,10 +1345,7 @@ slots
 }
 else
 {
-nsMemory
-:
-:
-Free
+free
 (
 asciiname
 )
@@ -1358,10 +1355,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-nsMemory
-:
-:
-Free
+free
 (
 asciiname
 )

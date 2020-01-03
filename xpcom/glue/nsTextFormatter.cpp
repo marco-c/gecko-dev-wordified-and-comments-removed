@@ -2546,10 +2546,7 @@ struct
 NumArgState
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 number
 *
@@ -5566,10 +5563,7 @@ newbase
 char16_t
 *
 )
-nsMemory
-:
-:
-Realloc
+moz_xrealloc
 (
 aState
 -
@@ -5592,10 +5586,7 @@ newbase
 char16_t
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 newlen
 *
@@ -6276,10 +6267,7 @@ char16_t
 aMem
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 aMem
 )

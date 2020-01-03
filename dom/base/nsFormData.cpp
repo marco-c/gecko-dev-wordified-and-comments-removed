@@ -1066,10 +1066,7 @@ rv
 rv
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 iid
 )

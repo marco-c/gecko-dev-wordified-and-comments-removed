@@ -2789,10 +2789,7 @@ data
 ]
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 decoded
 .
@@ -3935,10 +3932,7 @@ item
 len
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 item
 .
@@ -7271,10 +7265,7 @@ decoded
 version
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 decoded
 .

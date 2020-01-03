@@ -1210,10 +1210,7 @@ nsINavHistoryQuery
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -2172,10 +2169,7 @@ rv
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 folders
 )
@@ -6068,10 +6062,7 @@ int64_t
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 count
 *

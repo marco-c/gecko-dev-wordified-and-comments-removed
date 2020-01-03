@@ -540,10 +540,7 @@ name
 .
 host
 )
-nsMemory
-:
-:
-Free
+free
 (
 name
 .

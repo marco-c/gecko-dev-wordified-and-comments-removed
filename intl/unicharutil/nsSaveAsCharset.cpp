@@ -398,10 +398,7 @@ entity
 _retval
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 entity
 )
@@ -1324,10 +1321,7 @@ outString
 entity
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 entity
 )

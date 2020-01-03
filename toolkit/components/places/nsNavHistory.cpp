@@ -10561,10 +10561,7 @@ nsINavHistoryObserver
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 observers
 .

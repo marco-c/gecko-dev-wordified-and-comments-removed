@@ -2979,10 +2979,7 @@ char
 *
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 numPrefs
 *

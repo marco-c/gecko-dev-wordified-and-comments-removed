@@ -900,10 +900,7 @@ i
 )
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 types
 )

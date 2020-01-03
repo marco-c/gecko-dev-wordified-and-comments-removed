@@ -227,10 +227,7 @@ sCachedFloatManagerCount
 ;
 }
 return
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 aSize
 )
@@ -282,10 +279,7 @@ aPtr
 return
 ;
 }
-nsMemory
-:
-:
-Free
+free
 (
 aPtr
 )
@@ -330,10 +324,7 @@ if
 (
 floatManager
 )
-nsMemory
-:
-:
-Free
+free
 (
 floatManager
 )

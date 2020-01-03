@@ -328,10 +328,7 @@ xpcTestObjectReadWrite
 (
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 stringProperty
 )
@@ -406,10 +403,7 @@ char
 aStringProperty
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 stringProperty
 )

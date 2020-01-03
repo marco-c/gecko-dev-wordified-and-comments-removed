@@ -508,10 +508,7 @@ cp
 '
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 cp
 )
@@ -549,10 +546,7 @@ n_str
 '
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 cp
 )
@@ -750,10 +744,7 @@ if
 value_list
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 cp
 )
@@ -886,10 +877,7 @@ mCoords
 =
 value_list
 ;
-nsMemory
-:
-:
-Free
+free
 (
 cp
 )

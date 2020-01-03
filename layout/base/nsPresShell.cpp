@@ -47908,10 +47908,7 @@ n
 "
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 name
 )
@@ -48061,10 +48058,7 @@ n
 "
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 name
 )

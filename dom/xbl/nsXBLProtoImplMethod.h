@@ -105,10 +105,7 @@ MOZ_COUNT_DTOR
 nsXBLParameter
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 mName
 )

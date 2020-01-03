@@ -594,10 +594,7 @@ Caller
 has
 to
 *
-nsMemory
-:
-:
-Free
+free
 it
 .
 *
@@ -1069,10 +1066,7 @@ parsing
 Caller
 has
 to
-nsMemory
-:
-:
-Free
+free
 it
 .
 *
@@ -1107,10 +1101,7 @@ parsing
 Caller
 has
 to
-nsMemory
-:
-:
-Free
+free
 it
 .
 *

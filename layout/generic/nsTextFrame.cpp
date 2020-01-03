@@ -1324,10 +1324,7 @@ if
 userData
 )
 {
-nsMemory
-:
-:
-Free
+free
 (
 userData
 )
@@ -8950,10 +8947,7 @@ TextRunUserData
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -11170,10 +11164,7 @@ TextRunUserData
 *
 >
 (
-nsMemory
-:
-:
-Alloc
+moz_xmalloc
 (
 sizeof
 (

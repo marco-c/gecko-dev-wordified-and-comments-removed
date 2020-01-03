@@ -7552,10 +7552,7 @@ ToNewCString
 remaining
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 foo
 )

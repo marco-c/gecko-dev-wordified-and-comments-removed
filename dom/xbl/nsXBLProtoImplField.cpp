@@ -309,10 +309,7 @@ if
 (
 mFieldText
 )
-nsMemory
-:
-:
-Free
+free
 (
 mFieldText
 )
@@ -382,10 +379,7 @@ Length
 (
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 temp
 )

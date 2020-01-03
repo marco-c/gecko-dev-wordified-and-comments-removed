@@ -2473,10 +2473,7 @@ cid
 str
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 cid
 )

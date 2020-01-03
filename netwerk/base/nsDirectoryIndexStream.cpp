@@ -1272,10 +1272,7 @@ Append
 '
 )
 ;
-nsMemory
-:
-:
-Free
+free
 (
 escaped
 )
