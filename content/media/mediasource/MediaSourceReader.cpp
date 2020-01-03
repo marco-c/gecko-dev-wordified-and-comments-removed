@@ -1966,6 +1966,17 @@ nsACString
 aType
 )
 {
+if
+(
+IsShutdown
+(
+)
+)
+{
+return
+nullptr
+;
+}
 MOZ_ASSERT
 (
 GetTaskQueue
