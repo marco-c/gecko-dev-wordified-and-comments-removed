@@ -197,10 +197,11 @@ Timeline
 ;
 if
 (
+!
 timeline
 -
 >
-IsUnderTestControl
+TracksWallclockTime
 (
 )
 )
