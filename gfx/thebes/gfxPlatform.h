@@ -1760,6 +1760,13 @@ eFontPrefLang
 aPageLang
 )
 ;
+virtual
+void
+InitHardwareVsync
+(
+)
+{
+}
 mozilla
 :
 :

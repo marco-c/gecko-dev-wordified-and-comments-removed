@@ -593,6 +593,9 @@ NS_OK
 ;
 /
 /
+MacWakeLockListener
+/
+/
 defined
 in
 nsCocoaWindow
