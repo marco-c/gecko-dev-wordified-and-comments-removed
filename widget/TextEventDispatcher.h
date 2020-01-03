@@ -107,6 +107,14 @@ aListener
 )
 ;
 void
+EndInputTransaction
+(
+TextEventDispatcherListener
+*
+aListener
+)
+;
+void
 OnDestroyWidget
 (
 )
