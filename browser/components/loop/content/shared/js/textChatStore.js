@@ -412,6 +412,7 @@ message
 contentType
 !
 =
+=
 CHAT_CONTENT_TYPES
 .
 ROOM_NAME
@@ -445,6 +446,7 @@ actionData
 .
 contentType
 !
+=
 =
 CHAT_CONTENT_TYPES
 .

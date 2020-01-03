@@ -1914,6 +1914,7 @@ newRoomName
 oldRoomName
 !
 =
+=
 newRoomName
 )
 {

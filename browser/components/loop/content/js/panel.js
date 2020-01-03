@@ -467,6 +467,7 @@ state
 selectedTab
 =
 =
+=
 tabName
 )
 ;
@@ -4982,6 +4983,7 @@ null
 if
 (
 currUid
+=
 =
 =
 newUid

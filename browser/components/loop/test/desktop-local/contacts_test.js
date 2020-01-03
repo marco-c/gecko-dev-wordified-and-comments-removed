@@ -451,6 +451,7 @@ if
 entityName
 =
 =
+=
 "
 add_contact_title
 "
@@ -465,6 +466,7 @@ else
 if
 (
 entityName
+=
 =
 =
 "
@@ -483,6 +485,7 @@ if
 entityName
 =
 =
+=
 "
 edit_contact_title
 "
@@ -497,6 +500,7 @@ else
 if
 (
 entityName
+=
 =
 =
 "
@@ -534,6 +538,7 @@ if
 pref
 =
 =
+=
 "
 contacts
 .
@@ -551,6 +556,7 @@ else
 if
 (
 pref
+=
 =
 =
 "
@@ -992,6 +998,7 @@ if
 pref
 =
 =
+=
 "
 contacts
 .
@@ -1009,6 +1016,7 @@ else
 if
 (
 pref
+=
 =
 =
 "
