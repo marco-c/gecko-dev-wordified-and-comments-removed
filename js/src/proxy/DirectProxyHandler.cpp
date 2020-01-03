@@ -1370,8 +1370,6 @@ cx
 proxy
 id
 GET
-|
-SET
 )
 ;
 RootedObject

@@ -146,8 +146,6 @@ cx
 proxy
 id
 GET
-|
-SET
 )
 ;
 Rooted
