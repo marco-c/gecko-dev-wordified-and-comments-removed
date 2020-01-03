@@ -139,6 +139,11 @@ MediaResource
 >
 CreateResource
 (
+nsIPrincipal
+*
+aPrincipal
+=
+nullptr
 )
 ;
 void

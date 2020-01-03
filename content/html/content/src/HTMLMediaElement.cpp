@@ -4922,6 +4922,12 @@ MediaSourceDecoder
 :
 CreateResource
 (
+mMediaSource
+-
+>
+GetPrincipal
+(
+)
 )
 ;
 return
