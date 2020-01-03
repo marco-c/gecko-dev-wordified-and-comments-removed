@@ -2174,12 +2174,10 @@ NS_IsMainThread
 )
 )
 {
-nsCOMPtr
-<
-nsIRunnable
->
-msg
-=
+NS_DispatchToMainThread
+(
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -2194,13 +2192,6 @@ DataChannel
 )
 nullptr
 )
-;
-NS_DispatchToMainThread
-(
-msg
-.
-forget
-(
 )
 )
 ;
@@ -2920,6 +2911,8 @@ return
 }
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -2928,6 +2921,7 @@ DataChannelOnMessageAvailable
 :
 ON_CONNECTION
 this
+)
 )
 )
 ;
@@ -3757,6 +3751,8 @@ this
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -3770,6 +3766,7 @@ DataChannel
 *
 )
 nullptr
+)
 )
 )
 ;
@@ -4342,6 +4339,8 @@ this
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -4355,6 +4354,7 @@ DataChannel
 *
 )
 nullptr
+)
 )
 )
 ;
@@ -5281,6 +5281,8 @@ get
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -5290,6 +5292,7 @@ DataChannelOnMessageAvailable
 ON_CHANNEL_OPEN
 this
 channel
+)
 )
 )
 ;
@@ -5340,6 +5343,8 @@ CLOSED
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -5349,6 +5354,7 @@ DataChannelOnMessageAvailable
 ON_CHANNEL_CLOSED
 this
 channel
+)
 )
 )
 ;
@@ -6374,6 +6380,8 @@ mState
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -6383,6 +6391,7 @@ DataChannelOnMessageAvailable
 ON_CHANNEL_CREATED
 this
 channel
+)
 )
 )
 ;
@@ -7476,6 +7485,8 @@ SetEvenOdd
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -7484,6 +7495,7 @@ DataChannelOnMessageAvailable
 :
 ON_CONNECTION
 this
+)
 )
 )
 ;
@@ -7566,6 +7578,8 @@ SCTP_COMM_LOST
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -7574,6 +7588,7 @@ DataChannelOnMessageAvailable
 :
 ON_DISCONNECTED
 this
+)
 )
 )
 ;
@@ -7613,6 +7628,8 @@ SCTP_SHUTDOWN_COMP
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -7621,6 +7638,7 @@ DataChannelOnMessageAvailable
 :
 ON_DISCONNECTED
 this
+)
 )
 )
 ;
@@ -9297,6 +9315,8 @@ mStream
 }
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -9306,6 +9326,7 @@ DataChannelOnMessageAvailable
 ON_CHANNEL_CLOSED
 this
 channel
+)
 )
 )
 ;
@@ -9921,6 +9942,8 @@ CLOSED
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -9930,6 +9953,7 @@ DataChannelOnMessageAvailable
 ON_CHANNEL_CLOSED
 this
 channel
+)
 )
 )
 ;
@@ -11251,6 +11275,8 @@ request
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -11260,6 +11286,7 @@ DataChannelOnMessageAvailable
 ON_CHANNEL_CLOSED
 this
 channel
+)
 )
 )
 ;
@@ -11329,6 +11356,8 @@ get
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -11338,6 +11367,7 @@ DataChannelOnMessageAvailable
 ON_CHANNEL_OPEN
 this
 channel
+)
 )
 )
 ;
@@ -11380,6 +11410,8 @@ streams
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -11389,6 +11421,7 @@ DataChannelOnMessageAvailable
 ON_CHANNEL_CLOSED
 this
 channel
+)
 )
 )
 ;
@@ -12137,12 +12170,13 @@ return
 ;
 }
 }
-nsCOMPtr
-<
-nsIRunnable
+mInternalIOThread
+-
 >
-runnable
-=
+Dispatch
+(
+do_AddRef
+(
 new
 ReadBlobRunnable
 (
@@ -12150,13 +12184,7 @@ this
 stream
 aBlob
 )
-;
-mInternalIOThread
--
->
-Dispatch
-(
-runnable
+)
 NS_DISPATCH_NORMAL
 )
 ;
@@ -13143,6 +13171,8 @@ OPEN
 ;
 NS_DispatchToMainThread
 (
+do_AddRef
+(
 new
 DataChannelOnMessageAvailable
 (
@@ -13152,6 +13182,7 @@ DataChannelOnMessageAvailable
 ON_CHANNEL_OPEN
 mConnection
 this
+)
 )
 )
 ;
