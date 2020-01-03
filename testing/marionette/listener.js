@@ -9560,7 +9560,7 @@ i
 sendError
 (
 new
-UnableToSetCookie
+UnableToSetCookieError
 (
 "
 You
