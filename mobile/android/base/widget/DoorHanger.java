@@ -160,9 +160,6 @@ config
 case
 TRACKING
 :
-case
-MIXED_CONTENT
-:
 return
 new
 ContentSecurityDoorHanger
@@ -191,7 +188,6 @@ Type
 DEFAULT
 LOGIN
 TRACKING
-MIXED_CONTENT
 GEOLOCATION
 }
 public
