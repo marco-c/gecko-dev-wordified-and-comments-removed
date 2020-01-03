@@ -5304,6 +5304,9 @@ mCheckMalware
 |
 |
 mCheckPhishing
+|
+|
+aTrackingProtectionEnabled
 )
 )
 {
