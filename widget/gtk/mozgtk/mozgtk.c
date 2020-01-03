@@ -507,6 +507,10 @@ gdk_x11_window_lookup_for_display
 )
 STUB
 (
+gdk_x11_window_set_user_time
+)
+STUB
+(
 gdk_x11_xatom_to_atom
 )
 STUB
