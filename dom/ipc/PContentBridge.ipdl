@@ -241,12 +241,6 @@ other
 .
 *
 /
-prio
-(
-normal
-upto
-high
-)
 intr
 protocol
 PContentBridge

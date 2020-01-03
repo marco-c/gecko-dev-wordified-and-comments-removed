@@ -107,7 +107,7 @@ mozilla
 namespace
 ipc
 {
-async
+intr
 protocol
 PTestShell
 {

@@ -133,7 +133,7 @@ GetSingleton
 )
 -
 >
-SendPScreenManagerConstructor
+CallPScreenManagerConstructor
 (
 this
 &
@@ -208,7 +208,7 @@ false
 unused
 <
 <
-SendGetPrimaryScreen
+CallGetPrimaryScreen
 (
 &
 details
@@ -297,7 +297,7 @@ details
 unused
 <
 <
-SendScreenForRect
+CallScreenForRect
 (
 inLeft
 inTop
@@ -444,7 +444,7 @@ details
 unused
 <
 <
-SendScreenForBrowser
+CallScreenForBrowser
 (
 tabChild
 &
@@ -603,7 +603,7 @@ false
 unused
 <
 <
-SendRefresh
+CallRefresh
 (
 &
 mNumberOfScreens

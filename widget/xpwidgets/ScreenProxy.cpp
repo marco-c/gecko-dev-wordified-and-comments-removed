@@ -551,7 +551,7 @@ unused
 mScreenManager
 -
 >
-SendScreenRefresh
+CallScreenRefresh
 (
 mId
 &

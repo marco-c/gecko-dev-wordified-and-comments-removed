@@ -205,7 +205,7 @@ bool
 WrapperAnswer
 :
 :
-RecvPreventExtensions
+AnswerPreventExtensions
 (
 const
 ObjectId
@@ -358,7 +358,7 @@ bool
 WrapperAnswer
 :
 :
-RecvGetPropertyDescriptor
+AnswerGetPropertyDescriptor
 (
 const
 ObjectId
@@ -537,7 +537,7 @@ bool
 WrapperAnswer
 :
 :
-RecvGetOwnPropertyDescriptor
+AnswerGetOwnPropertyDescriptor
 (
 const
 ObjectId
@@ -718,7 +718,7 @@ bool
 WrapperAnswer
 :
 :
-RecvDefineProperty
+AnswerDefineProperty
 (
 const
 ObjectId
@@ -940,7 +940,7 @@ bool
 WrapperAnswer
 :
 :
-RecvDelete
+AnswerDelete
 (
 const
 ObjectId
@@ -1076,7 +1076,7 @@ bool
 WrapperAnswer
 :
 :
-RecvHas
+AnswerHas
 (
 const
 ObjectId
@@ -1224,7 +1224,7 @@ bool
 WrapperAnswer
 :
 :
-RecvHasOwn
+AnswerHasOwn
 (
 const
 ObjectId
@@ -1385,7 +1385,7 @@ bool
 WrapperAnswer
 :
 :
-RecvGet
+AnswerGet
 (
 const
 ObjectId
@@ -1585,7 +1585,7 @@ bool
 WrapperAnswer
 :
 :
-RecvSet
+AnswerSet
 (
 const
 ObjectId
@@ -1814,7 +1814,7 @@ bool
 WrapperAnswer
 :
 :
-RecvIsExtensible
+AnswerIsExtensible
 (
 const
 ObjectId
@@ -1927,7 +1927,7 @@ bool
 WrapperAnswer
 :
 :
-RecvCallOrConstruct
+AnswerCallOrConstruct
 (
 const
 ObjectId
@@ -2605,7 +2605,7 @@ bool
 WrapperAnswer
 :
 :
-RecvHasInstance
+AnswerHasInstance
 (
 const
 ObjectId
@@ -2737,7 +2737,7 @@ bool
 WrapperAnswer
 :
 :
-RecvObjectClassIs
+AnswerObjectClassIs
 (
 const
 ObjectId
@@ -2834,7 +2834,7 @@ bool
 WrapperAnswer
 :
 :
-RecvClassName
+AnswerClassName
 (
 const
 ObjectId
@@ -2923,7 +2923,7 @@ bool
 WrapperAnswer
 :
 :
-RecvRegExpToShared
+AnswerRegExpToShared
 (
 const
 ObjectId
@@ -3054,7 +3054,7 @@ bool
 WrapperAnswer
 :
 :
-RecvGetPropertyNames
+AnswerGetPropertyNames
 (
 const
 ObjectId
@@ -3222,7 +3222,7 @@ bool
 WrapperAnswer
 :
 :
-RecvInstanceOf
+AnswerInstanceOf
 (
 const
 ObjectId
@@ -3350,7 +3350,7 @@ bool
 WrapperAnswer
 :
 :
-RecvDOMInstanceOf
+AnswerDOMInstanceOf
 (
 const
 ObjectId
@@ -3477,7 +3477,7 @@ bool
 WrapperAnswer
 :
 :
-RecvIsCallable
+AnswerIsCallable
 (
 const
 ObjectId
@@ -3565,7 +3565,7 @@ bool
 WrapperAnswer
 :
 :
-RecvIsConstructor
+AnswerIsConstructor
 (
 const
 ObjectId

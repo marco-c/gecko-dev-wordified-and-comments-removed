@@ -12968,7 +12968,7 @@ aJSONRetVal
 ;
 }
 return
-SendRpcMessage
+CallRpcMessage
 (
 PromiseFlatString
 (
