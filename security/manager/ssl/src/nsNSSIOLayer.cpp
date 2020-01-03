@@ -10,6 +10,15 @@ include
 "
 pkix
 /
+ScopedPtr
+.
+h
+"
+#
+include
+"
+pkix
+/
 pkixtypes
 .
 h
