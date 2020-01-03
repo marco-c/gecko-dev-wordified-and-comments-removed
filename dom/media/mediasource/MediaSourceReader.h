@@ -748,6 +748,12 @@ mPendingSeekTime
 bool
 mWaitingForSeekData
 ;
+bool
+mAudioIsSeeking
+;
+bool
+mVideoIsSeeking
+;
 int64_t
 mTimeThreshold
 ;
@@ -759,12 +765,6 @@ mDropVideoBeforeThreshold
 ;
 bool
 mEnded
-;
-bool
-mAudioIsSeeking
-;
-bool
-mVideoIsSeeking
 ;
 bool
 mHasEssentialTrackBuffers
