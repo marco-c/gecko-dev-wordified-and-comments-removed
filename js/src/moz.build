@@ -1180,6 +1180,13 @@ cpp
 '
 jit
 /
+EagerSimdUnbox
+.
+cpp
+'
+'
+jit
+/
 EdgeCaseAnalysis
 .
 cpp

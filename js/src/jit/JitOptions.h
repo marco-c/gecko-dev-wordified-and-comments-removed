@@ -168,6 +168,9 @@ bool
 disableScalarReplacement
 ;
 bool
+disableEagerSimdUnbox
+;
+bool
 disableGvn
 ;
 bool

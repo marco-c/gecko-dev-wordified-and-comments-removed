@@ -75,6 +75,10 @@ inlineNative_
 =
 true
 ;
+eagerSimdUnbox_
+=
+true
+;
 gvn_
 =
 true
@@ -157,6 +161,10 @@ true
 level_
 =
 Optimization_AsmJS
+;
+eagerSimdUnbox_
+=
+false
 ;
 edgeCaseAnalysis_
 =
