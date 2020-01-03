@@ -398,6 +398,10 @@ aSurface
 )
 )
 ;
+if
+(
+FAILED
+(
 aSurface
 -
 >
@@ -408,9 +412,9 @@ aLockedRect
 nullptr
 0
 )
-;
-if
-(
+)
+|
+|
 !
 aLockedRect
 .
