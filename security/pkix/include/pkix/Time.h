@@ -47,6 +47,7 @@ Uninitialized
 uninitialized
 }
 ;
+explicit
 Time
 (
 Uninitialized

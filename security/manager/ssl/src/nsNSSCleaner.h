@@ -67,6 +67,7 @@ object
 public
 :
 \
+explicit
 nsstype
 #
 #
@@ -209,6 +210,7 @@ object
 public
 :
 \
+explicit
 nsstype
 #
 #
@@ -290,6 +292,7 @@ CERTVerifyLogContentsCleaner
 {
 public
 :
+explicit
 CERTVerifyLogContentsCleaner
 (
 CERTVerifyLog

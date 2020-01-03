@@ -264,6 +264,7 @@ char
 *
 KeyTypePointer
 ;
+explicit
 nsCertOverrideEntry
 (
 KeyTypePointer

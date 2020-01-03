@@ -72,6 +72,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPKCS11SLOT
+explicit
 nsPKCS11Slot
 (
 PK11SlotInfo
@@ -132,6 +133,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPKCS11MODULE
+explicit
 nsPKCS11Module
 (
 SECMODModule

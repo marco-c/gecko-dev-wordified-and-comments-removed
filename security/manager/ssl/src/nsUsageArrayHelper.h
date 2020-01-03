@@ -39,6 +39,7 @@ nsUsageArrayHelper
 {
 public
 :
+explicit
 nsUsageArrayHelper
 (
 CERTCertificate

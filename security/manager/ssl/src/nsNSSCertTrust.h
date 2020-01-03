@@ -40,6 +40,7 @@ int
 objsign
 )
 ;
+explicit
 nsNSSCertTrust
 (
 CERTCertTrust

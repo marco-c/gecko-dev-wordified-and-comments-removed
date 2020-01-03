@@ -158,6 +158,7 @@ char
 *
 KeyTypePointer
 ;
+explicit
 nsClientAuthRememberEntry
 (
 KeyTypePointer

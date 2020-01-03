@@ -1934,6 +1934,7 @@ nsRunnable
 {
 public
 :
+explicit
 CertErrorRunnableRunnable
 (
 CertErrorRunnable

@@ -134,6 +134,7 @@ friend
 class
 nsNSSCertificateFakeTransport
 ;
+explicit
 nsNSSCertificate
 (
 CERTCertificate

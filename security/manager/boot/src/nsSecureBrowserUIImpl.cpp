@@ -397,6 +397,7 @@ nsAutoAtomic
 {
 public
 :
+explicit
 nsAutoAtomic
 (
 Atomic
@@ -5998,6 +5999,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIINTERFACEREQUESTOR
+explicit
 nsUIContext
 (
 nsIDOMWindow

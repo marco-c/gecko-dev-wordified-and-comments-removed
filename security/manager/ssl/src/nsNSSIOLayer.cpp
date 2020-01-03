@@ -1834,6 +1834,7 @@ SyncRunnableBase
 {
 public
 :
+explicit
 PreviousCertRunnable
 (
 nsIInterfaceRequestor
@@ -5556,6 +5557,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
+explicit
 PrefObserver
 (
 nsSSLIOLayerHelpers

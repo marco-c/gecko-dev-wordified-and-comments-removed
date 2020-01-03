@@ -362,6 +362,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
+explicit
 PrivateBrowsingObserver
 (
 SharedSSLState
