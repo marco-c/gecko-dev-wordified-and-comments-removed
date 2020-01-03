@@ -2245,14 +2245,6 @@ mString
 ;
 }
 }
-else
-{
-IMEEndComposition
-(
-false
-)
-;
-}
 uint32_t
 chromeSeqno
 ;
