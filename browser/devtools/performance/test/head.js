@@ -1493,7 +1493,7 @@ function
 initPerformance
 (
 aUrl
-selectedTool
+tool
 =
 "
 performance
@@ -1566,7 +1566,7 @@ gDevTools
 showToolbox
 (
 target
-selectedTool
+tool
 )
 ;
 let
