@@ -10019,8 +10019,6 @@ NativeObject
 obj
 HandleId
 id
-unsigned
-attrs
 HandleValue
 v
 bool
@@ -11058,6 +11056,14 @@ strict
 vp
 )
 ;
+MOZ_ASSERT
+(
+attrs
+=
+=
+JSPROP_ENUMERATE
+)
+;
 return
 SetPropertyByDefining
 <
@@ -11067,7 +11073,6 @@ mode
 cxArg
 obj
 id
-attrs
 vp
 strict
 )
@@ -11099,8 +11104,6 @@ NativeObject
 obj
 HandleId
 id
-unsigned
-attrs
 HandleValue
 v
 bool
@@ -11342,7 +11345,7 @@ clasp
 -
 >
 setProperty
-attrs
+JSPROP_ENUMERATE
 v
 true
 strict
