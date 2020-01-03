@@ -1696,6 +1696,8 @@ c
 %
 c
 '
+%
+u
 "
 typec
 [
@@ -1713,6 +1715,16 @@ typec
 [
 3
 ]
+(
+uint32_t
+)
+reader
+.
+Offset
+(
+)
+-
+8
 )
 ;
 if
