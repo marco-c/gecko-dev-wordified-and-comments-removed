@@ -47777,8 +47777,8 @@ version
 fallback
 reached
 the
-fallback
-limit
+minimum
+version
 (
 1
 =
@@ -47801,8 +47801,8 @@ TLS
 )
 or
 the
-minimum
-version
+fallback
+limit
 (
 4
 =
