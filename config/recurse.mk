@@ -1185,6 +1185,15 @@ mozglue
 build
 /
 target
+memory
+/
+replace
+/
+logalloc
+/
+replay
+/
+target
 :
 memory
 /
