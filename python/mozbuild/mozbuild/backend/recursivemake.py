@@ -67,6 +67,8 @@ data
 import
 (
     
+AndroidAssetsDirs
+    
 AndroidResDirs
     
 AndroidEclipseProjectData
@@ -161,6 +163,11 @@ Makefile
 MOZBUILD_VARIABLES
 =
 [
+    
+b
+'
+ANDROID_ASSETS_DIRS
+'
     
 b
 '
@@ -3679,6 +3686,41 @@ write
 (
 '
 ANDROID_RES_DIRS
++
+=
+%
+s
+\
+n
+'
+%
+p
+.
+full_path
+)
+        
+elif
+isinstance
+(
+obj
+AndroidAssetsDirs
+)
+:
+            
+for
+p
+in
+obj
+.
+paths
+:
+                
+backend_file
+.
+write
+(
+'
+ANDROID_ASSETS_DIRS
 +
 =
 %

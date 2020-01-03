@@ -121,6 +121,16 @@ browser
 robocop
 /
 '
+ANDROID_ASSETS_DIRS
++
+=
+[
+base
++
+'
+assets
+'
+]
 TEST_HARNESS_FILES
 .
 testing

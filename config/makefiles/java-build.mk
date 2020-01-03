@@ -137,11 +137,17 @@ _ANDROID_ASSETS_FLAG
 :
 =
 (
+if
+(
+ANDROID_ASSETS_DIRS
+)
+(
 addprefix
 -
 A
 (
-ANDROID_ASSETS_DIR
+ANDROID_ASSETS_DIRS
+)
 )
 )
 android_manifest
@@ -396,7 +402,7 @@ android_res_files
 (
 wildcard
 (
-ANDROID_ASSETS_DIR
+ANDROID_ASSETS_DIRS
 )
 )
 (

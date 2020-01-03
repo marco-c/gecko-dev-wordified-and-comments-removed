@@ -57,6 +57,8 @@ data
 import
 (
     
+AndroidAssetsDirs
+    
 AndroidResDirs
     
 BrandingFiles
@@ -4341,20 +4343,45 @@ context
 data
 )
         
+for
+(
+symbol
+cls
+)
+in
+[
+                
+(
+'
+ANDROID_RES_DIRS
+'
+AndroidResDirs
+)
+                
+(
+'
+ANDROID_ASSETS_DIRS
+'
+AndroidAssetsDirs
+)
+]
+:
+            
 paths
 =
 context
 .
 get
 (
-'
-ANDROID_RES_DIRS
-'
+symbol
 )
-        
+            
 if
+not
 paths
 :
+                
+continue
             
 for
 p
@@ -4392,7 +4419,8 @@ in
 '
                         
 '
-ANDROID_RES_DIRS
+%
+s
 is
 not
 a
@@ -4407,14 +4435,17 @@ s
 '
 %
                             
+(
+symbol
 p
 .
 full_path
+)
 context
 )
             
 yield
-AndroidResDirs
+cls
 (
 context
 paths

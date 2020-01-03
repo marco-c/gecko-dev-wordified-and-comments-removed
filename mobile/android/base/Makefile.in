@@ -1488,9 +1488,6 @@ gecko
 browser
 .
 jar
-constants
-.
-jar
 gecko
 -
 mozglue
@@ -1604,7 +1601,9 @@ JAVA
 )
 -
 classpath
-constants
+gecko
+-
+mozglue
 .
 jar
 :
@@ -3344,6 +3343,15 @@ addprefix
 S
 (
 ANDROID_RES_DIRS
+)
+)
+\
+(
+addprefix
+-
+A
+(
+ANDROID_ASSETS_DIRS
 )
 )
 \
