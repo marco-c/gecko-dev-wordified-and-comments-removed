@@ -2322,9 +2322,6 @@ TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
 }
 ;
-#
-if
-0
 static
 const
 uint32_t
@@ -2377,8 +2374,6 @@ TLS_RSA_WITH_NULL_SHA256
 TLS_RSA_WITH_NULL_MD5
 }
 ;
-#
-endif
 bool
 TransportLayerDtls
 :
@@ -2531,9 +2526,6 @@ false
 ;
 }
 }
-#
-if
-0
 for
 (
 size_t
@@ -2677,8 +2669,6 @@ false
 }
 }
 }
-#
-endif
 return
 true
 ;
