@@ -936,12 +936,6 @@ session
 id
 "
 ;
-this
-.
-code
-=
-13
-;
 }
 ;
 InvalidSessionIdError
@@ -1631,12 +1625,6 @@ to
 set
 cookie
 "
-;
-this
-.
-code
-=
-25
 ;
 }
 ;
