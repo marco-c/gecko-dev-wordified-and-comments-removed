@@ -6317,11 +6317,8 @@ startFrame
 )
 )
 ;
-AutoValueVector
+RInstructionResults
 instructionResults
-(
-cx
-)
 ;
 SnapshotIterator
 snapIter
@@ -6334,8 +6331,10 @@ if
 !
 snapIter
 .
-initIntructionResults
+initInstructionResults
 (
+cx
+&
 instructionResults
 )
 )
