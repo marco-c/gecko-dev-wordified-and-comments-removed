@@ -1656,8 +1656,8 @@ nsSVGUtils
 PaintFrameWithEffects
 (
 kid
-&
-context
+*
+gfx
 tm
 )
 ;

@@ -1254,8 +1254,12 @@ nsSVGUtils
 PaintFrameWithEffects
 (
 kid
-&
+*
 tmpCtx
+.
+ThebesContext
+(
+)
 mMatrixForChildren
 )
 ;

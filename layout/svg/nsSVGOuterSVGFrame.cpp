@@ -2672,7 +2672,13 @@ nsSVGUtils
 PaintFrameWithEffects
 (
 mFrame
+*
 aContext
+-
+>
+ThebesContext
+(
+)
 tm
 &
 contentAreaDirtyRect

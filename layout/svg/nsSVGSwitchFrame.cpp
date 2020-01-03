@@ -512,7 +512,13 @@ nsSVGUtils
 PaintFrameWithEffects
 (
 kid
+*
 aContext
+-
+>
+ThebesContext
+(
+)
 tm
 aDirtyRect
 )
