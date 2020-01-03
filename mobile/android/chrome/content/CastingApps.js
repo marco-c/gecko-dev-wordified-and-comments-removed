@@ -2014,6 +2014,7 @@ _getContentTypeForURI
 function
 (
 aURI
+aElement
 aCallback
 )
 {
@@ -2024,9 +2025,22 @@ Services
 .
 io
 .
-newChannelFromURI
+newChannelFromURI2
 (
 aURI
+aElement
+null
+null
+Ci
+.
+nsILoadInfo
+.
+SEC_NORMAL
+Ci
+.
+nsIContentPolicy
+.
+TYPE_OTHER
 )
 ;
 let
@@ -2086,6 +2100,7 @@ makeURI
 (
 location
 )
+aElement
 aCallback
 )
 ;
@@ -2457,6 +2472,7 @@ this
 _getContentTypeForURI
 (
 sourceURI
+aElement
 (
 aType
 )
