@@ -1279,7 +1279,7 @@ samples
 =
 no
 "
-AC_OUTPUT_SUBDIRS
+AC_OUTPUT_SUBDIRS_NOW
 (
 intl
 /

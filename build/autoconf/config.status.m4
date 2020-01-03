@@ -1596,6 +1596,9 @@ define
 MOZ_RUN_CONFIG_STATUS
 ]
 [
+MOZ_RUN_ALL_SUBCONFIGURES
+(
+)
 rm
 -
 fr

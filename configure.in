@@ -79684,7 +79684,7 @@ ac_configure_args
 "
 _subconfigure_config_args
 "
-AC_OUTPUT_SUBDIRS
+AC_OUTPUT_SUBDIRS_NOW
 (
 "
 _subconfigure_subdir
