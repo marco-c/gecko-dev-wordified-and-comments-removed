@@ -444,6 +444,12 @@ nsIURI
 aURI
 )
 ;
+bool
+IsChrome
+(
+)
+const
+;
 nsresult
 GetImageErrorCode
 (
