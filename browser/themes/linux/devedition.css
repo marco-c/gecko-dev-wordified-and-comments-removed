@@ -118,6 +118,8 @@ svg
 ;
 }
 #
+TabsToolbar
+#
 toolbar
 -
 menubar
@@ -128,6 +130,8 @@ moz
 appearance
 :
 none
+!
+important
 ;
 }
 #
