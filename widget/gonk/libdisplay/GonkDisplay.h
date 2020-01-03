@@ -93,7 +93,7 @@ GetHWCDevice
 virtual
 void
 *
-GetFBSurface
+GetDispSurface
 (
 )
 =
@@ -133,7 +133,7 @@ buf
 ;
 virtual
 void
-UpdateFBSurface
+UpdateDispSurface
 (
 EGLDisplay
 dpy
@@ -145,7 +145,7 @@ sur
 ;
 virtual
 void
-SetFBReleaseFd
+SetDispReleaseFd
 (
 int
 fd
@@ -155,7 +155,7 @@ fd
 ;
 virtual
 int
-GetPrevFBAcquireFd
+GetPrevDispAcquireFd
 (
 )
 =

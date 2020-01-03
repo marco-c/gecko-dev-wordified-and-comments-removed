@@ -4064,7 +4064,7 @@ EndFrame
 mCompositor
 -
 >
-SetFBAcquireFence
+SetDispAcquireFence
 (
 mRoot
 )
@@ -4965,7 +4965,7 @@ EndFrame
 mCompositor
 -
 >
-SetFBAcquireFence
+SetDispAcquireFence
 (
 mRoot
 )

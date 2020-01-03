@@ -6640,7 +6640,7 @@ void
 CompositorOGL
 :
 :
-SetFBAcquireFence
+SetDispAcquireFence
 (
 Layer
 *
@@ -6679,7 +6679,7 @@ GetGonkDisplay
 )
 -
 >
-GetPrevFBAcquireFd
+GetPrevDispAcquireFd
 (
 )
 )
@@ -6769,7 +6769,7 @@ void
 CompositorOGL
 :
 :
-SetFBAcquireFence
+SetDispAcquireFence
 (
 Layer
 *

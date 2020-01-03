@@ -894,7 +894,7 @@ override
 ;
 virtual
 void
-SetFBAcquireFence
+SetDispAcquireFence
 (
 Layer
 *

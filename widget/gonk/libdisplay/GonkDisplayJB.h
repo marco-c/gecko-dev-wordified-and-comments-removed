@@ -7,14 +7,14 @@ GONKDISPLAYJB_H
 #
 include
 "
-GonkDisplay
+DisplaySurface
 .
 h
 "
 #
 include
 "
-FramebufferSurface
+GonkDisplay
 .
 h
 "
@@ -108,7 +108,7 @@ GetHWCDevice
 virtual
 void
 *
-GetFBSurface
+GetDispSurface
 (
 )
 ;
@@ -140,7 +140,7 @@ buf
 ;
 virtual
 void
-UpdateFBSurface
+UpdateDispSurface
 (
 EGLDisplay
 dpy
@@ -150,7 +150,7 @@ sur
 ;
 virtual
 void
-SetFBReleaseFd
+SetDispReleaseFd
 (
 int
 fd
@@ -158,7 +158,7 @@ fd
 ;
 virtual
 int
-GetPrevFBAcquireFd
+GetPrevDispAcquireFd
 (
 )
 ;
@@ -203,9 +203,9 @@ sp
 android
 :
 :
-FramebufferSurface
+DisplaySurface
 >
-mFBSurface
+mDispSurface
 ;
 android
 :
