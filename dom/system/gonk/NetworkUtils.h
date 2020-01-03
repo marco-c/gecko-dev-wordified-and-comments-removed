@@ -788,6 +788,10 @@ COPY_OPT_FIELD
 mDns2_long
 0
 )
+mLoopIndex
+=
+0
+;
 #
 undef
 COPY_SEQUENCE_FIELD
@@ -941,6 +945,9 @@ mDns2_long
 ;
 int
 mNetId
+;
+uint32_t
+mLoopIndex
 ;
 }
 ;
