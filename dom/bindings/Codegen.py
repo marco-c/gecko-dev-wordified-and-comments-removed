@@ -32405,31 +32405,15 @@ identifier
 name
 )
         
-if
+assert
 descriptor
 .
 nativeType
-=
+!
 =
 '
 JSObject
 '
-:
-            
-assert
-descriptor
-.
-workers
-            
-return
-handleJSObjectType
-(
-type
-isMember
-failureCode
-exceptionCode
-sourceDescription
-)
         
 if
 descriptor
@@ -32817,24 +32801,14 @@ sourceDescription
 )
 )
         
-elif
+else
+:
+            
+assert
+not
 descriptor
 .
 workers
-:
-            
-return
-handleJSObjectType
-(
-type
-isMember
-failureCode
-exceptionCode
-sourceDescription
-)
-        
-else
-:
             
 if
 forceOwningType

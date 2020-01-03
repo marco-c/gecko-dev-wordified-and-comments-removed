@@ -348,6 +348,9 @@ EventTarget
 {
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 readonly
 attribute
