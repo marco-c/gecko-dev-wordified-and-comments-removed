@@ -1306,15 +1306,7 @@ nsString
 >
 mNonExistingFonts
 ;
-typedef
-nsRefPtrHashtable
-<
-nsStringHashKey
-gfxFontFamily
->
-FontTable
-;
-FontTable
+FontFamilyTable
 mFontSubstitutes
 ;
 bool

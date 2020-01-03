@@ -591,11 +591,7 @@ mSkipSpaceLookupCheckFamilies
 ;
 private
 :
-nsRefPtrHashtable
-<
-nsStringHashKey
-gfxFontFamily
->
+FontFamilyTable
 mHiddenFontFamilies
 ;
 }
