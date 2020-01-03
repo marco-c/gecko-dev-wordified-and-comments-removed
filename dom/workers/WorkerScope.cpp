@@ -364,10 +364,6 @@ WorkerPrivate
 aWorkerPrivate
 )
 :
-mWindowInteractionsAllowed
-(
-0
-)
 mWorkerPrivate
 (
 aWorkerPrivate
