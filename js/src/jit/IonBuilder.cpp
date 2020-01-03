@@ -21740,7 +21740,7 @@ optimizationInfo
 (
 )
 .
-usesBeforeInlining
+inliningWarmUpThreshold
 (
 )
 &
@@ -32450,7 +32450,7 @@ warmUpCounter
 info
 -
 >
-usesBeforeCompile
+compilerWarmUpThreshold
 (
 topBuilder
 -
