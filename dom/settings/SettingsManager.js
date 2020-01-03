@@ -1725,7 +1725,6 @@ _locks
 splice
 (
 lock_index
--
 1
 )
 ;
