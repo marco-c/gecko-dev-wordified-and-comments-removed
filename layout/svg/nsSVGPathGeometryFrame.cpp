@@ -3030,6 +3030,11 @@ gfxTextContextPaint
 aContext
 -
 >
+GetDrawTarget
+(
+)
+-
+>
 GetUserData
 (
 &
@@ -3234,6 +3239,11 @@ gfxTextContextPaint
 *
 )
 aContext
+-
+>
+GetDrawTarget
+(
+)
 -
 >
 GetUserData

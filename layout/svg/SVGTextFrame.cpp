@@ -11131,6 +11131,11 @@ gfxTextContextPaint
 aContext
 -
 >
+GetDrawTarget
+(
+)
+-
+>
 GetUserData
 (
 &
