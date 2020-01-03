@@ -4169,11 +4169,6 @@ Key_BrightnessAdjust
 )
 KEY_MAP_ANDROID
 (
-Exit
-AKEYCODE_HOME
-)
-KEY_MAP_ANDROID
-(
 Guide
 AKEYCODE_GUIDE
 )
