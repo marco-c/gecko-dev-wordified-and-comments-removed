@@ -1010,6 +1010,11 @@ ShadowRoot
 h
 '
 '
+StructuredCloneHelper
+.
+h
+'
+'
 StructuredCloneTags
 .
 h
@@ -1681,6 +1686,11 @@ cpp
 '
 '
 ShadowRoot
+.
+cpp
+'
+'
+StructuredCloneHelper
 .
 cpp
 '
