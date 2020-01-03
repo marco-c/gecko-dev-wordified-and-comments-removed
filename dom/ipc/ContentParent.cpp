@@ -3302,10 +3302,12 @@ ANDROID_VERSION
 19
 if
 (
-!
-CanSandboxContentProcess
+ContentProcessSandboxStatus
 (
 )
+=
+=
+kSandboxingWouldFail
 )
 {
 printf_stderr
