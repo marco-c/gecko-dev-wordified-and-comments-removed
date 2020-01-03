@@ -4244,7 +4244,6 @@ return
 SurfaceDescriptorTiles
 (
 mValidRegion
-mPaintedRegion
 tiles
 mTiles
 .

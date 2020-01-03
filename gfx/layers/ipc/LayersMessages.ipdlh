@@ -1744,9 +1744,6 @@ SurfaceDescriptorTiles
 nsIntRegion
 validRegion
 ;
-nsIntRegion
-paintedRegion
-;
 TileDescriptor
 [
 ]
