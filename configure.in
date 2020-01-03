@@ -79061,6 +79061,8 @@ export
 MOZ_LINKER
 export
 ZLIB_IN_MOZGLUE
+export
+MOZ_MEMORY
 if
 !
 test
