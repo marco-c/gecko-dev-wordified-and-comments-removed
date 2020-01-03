@@ -2389,8 +2389,10 @@ if
 jsobj
 )
 {
+nsRefPtr
+<
 nsXPCWrappedJS
-*
+>
 wrapper
 ;
 nsresult
@@ -2403,8 +2405,10 @@ GetNewOrUsed
 (
 jsobj
 aIID
-&
+getter_AddRefs
+(
 wrapper
+)
 )
 ;
 if
@@ -2427,11 +2431,6 @@ QueryInterface
 (
 aIID
 aInstancePtr
-)
-;
-NS_RELEASE
-(
-wrapper
 )
 ;
 return
