@@ -728,10 +728,6 @@ def
 }
 return
 b
-.
-booleanValue
-(
-)
 ;
 }
 protected

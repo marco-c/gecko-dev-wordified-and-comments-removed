@@ -1258,10 +1258,6 @@ null
 |
 |
 version
-.
-intValue
-(
-)
 =
 =
 0

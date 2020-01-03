@@ -201,12 +201,7 @@ object
 put
 (
 JSON_KEY_TIMESTAMP
-Long
-.
-valueOf
-(
 timestamp
-)
 )
 ;
 }

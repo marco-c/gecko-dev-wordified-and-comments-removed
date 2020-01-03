@@ -375,15 +375,9 @@ true
 ;
 }
 return
-(
 serverLastModified
-.
-longValue
-(
-)
 >
 lastModified
-)
 ;
 }
 }

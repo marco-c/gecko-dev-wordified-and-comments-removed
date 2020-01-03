@@ -5307,10 +5307,6 @@ generateGuid
 (
 )
 version
-.
-intValue
-(
-)
 )
 ;
 }

@@ -809,12 +809,7 @@ version
 ;
 version
 =
-Integer
-.
-valueOf
-(
 0
-)
 ;
 }
 SynchronizerConfiguration
@@ -840,10 +835,6 @@ EngineSettings
 (
 null
 version
-.
-intValue
-(
-)
 )
 ;
 }
@@ -855,10 +846,6 @@ config
 .
 syncID
 version
-.
-intValue
-(
-)
 )
 ;
 }

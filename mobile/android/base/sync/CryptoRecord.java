@@ -748,10 +748,6 @@ record
 lastModified
 =
 timestamp
-.
-longValue
-(
-)
 ;
 }
 if

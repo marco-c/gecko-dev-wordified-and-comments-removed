@@ -489,10 +489,6 @@ collection
 "
 +
 c
-.
-intValue
-(
-)
 +
 "
 items
@@ -503,10 +499,6 @@ items
 if
 (
 c
-.
-intValue
-(
-)
 >
 fetchLimit
 )
