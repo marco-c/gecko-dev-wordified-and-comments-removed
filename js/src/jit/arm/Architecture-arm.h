@@ -2559,6 +2559,16 @@ HasMOVWT
 )
 ;
 bool
+HasLDSTREXBHD
+(
+)
+;
+bool
+HasDMBDSBISB
+(
+)
+;
+bool
 HasVFPv3
 (
 )
