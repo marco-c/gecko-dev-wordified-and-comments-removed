@@ -34,8 +34,6 @@ Input
 presentedDNSID
 Input
 referenceDNSID
-bool
-referenceDNSIDWasVerifiedAsValid
 )
 ;
 bool
@@ -6755,17 +6753,12 @@ length
 )
 )
 ;
-bool
-referenceIsValidReferenceDNSID
-=
+ASSERT_TRUE
+(
 IsValidReferenceDNSID
 (
 reference
 )
-;
-ASSERT_TRUE
-(
-referenceIsValidReferenceDNSID
 )
 ;
 ASSERT_EQ
@@ -6777,7 +6770,6 @@ PresentedDNSIDMatchesReferenceDNSID
 (
 presented
 reference
-referenceIsValidReferenceDNSID
 )
 )
 ;
@@ -6895,7 +6887,6 @@ PresentedDNSIDMatchesReferenceDNSID
 (
 input
 LOWERCASE_I
-true
 )
 )
 ;
@@ -6906,7 +6897,6 @@ PresentedDNSIDMatchesReferenceDNSID
 (
 input
 UPPERCASE_I
-true
 )
 )
 ;
