@@ -1026,6 +1026,7 @@ DisableDebugOutput
 )
 ;
 void
+OTS_API
 EnableWOFF2
 (
 )
