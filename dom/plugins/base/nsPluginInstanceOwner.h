@@ -977,6 +977,11 @@ NotifyHostCreateWidget
 (
 )
 ;
+void
+NotifyDestroyPending
+(
+)
+;
 private
 :
 virtual
