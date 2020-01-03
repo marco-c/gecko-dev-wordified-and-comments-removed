@@ -1,4 +1,4 @@
-dumpHeapComplete
+dumpHeap
 (
 )
 ;
