@@ -125,6 +125,11 @@ USVString
 )
 RequestInfo
 ;
+typedef
+unsigned
+long
+nsContentPolicyType
+;
 [
 Constructor
 (
@@ -213,9 +218,9 @@ context
 ChromeOnly
 ]
 void
-setContext
+setContentPolicyType
 (
-RequestContext
+nsContentPolicyType
 context
 )
 ;
