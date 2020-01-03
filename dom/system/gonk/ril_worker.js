@@ -41234,6 +41234,18 @@ value
 identifier
 ;
 }
+if
+(
+textMsg
+.
+text
+!
+=
+=
+"
+"
+)
+{
 this
 .
 appendIconIfNecessary
@@ -41249,6 +41261,7 @@ textMsg
 onComplete
 )
 ;
+}
 }
 processSetupCall
 :
