@@ -558,7 +558,9 @@ key_gotoHistory
 oncommand
 =
 "
-toggleSidebar
+SidebarUI
+.
+toggle
 (
 '
 viewHistorySidebar
@@ -973,7 +975,9 @@ viewBookmarksSidebarKb
 oncommand
 =
 "
-toggleSidebar
+SidebarUI
+.
+toggle
 (
 '
 viewBookmarksSidebar

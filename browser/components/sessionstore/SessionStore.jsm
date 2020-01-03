@@ -13091,7 +13091,9 @@ aSidebar
 {
 aWindow
 .
-toggleSidebar
+SidebarUI
+.
+show
 (
 aSidebar
 )
