@@ -440,11 +440,6 @@ gkmedias
 DLL_SUFFIX
 #
 endif
-BINPATH
-/
-DLL_PREFIX
-mozalloc
-DLL_SUFFIX
 #
 ifdef
 MOZ_SHARED_MOZGLUE

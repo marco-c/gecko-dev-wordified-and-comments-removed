@@ -1995,12 +1995,6 @@ opened
 by
 the
 linker
-DIST_FILES
-+
-=
-libmozalloc
-.
-so
 ifndef
 MOZ_FOLD_LIBS
 DIST_FILES

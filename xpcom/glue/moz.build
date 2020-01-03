@@ -100,9 +100,6 @@ DIRS
 '
 standalone
 '
-'
-nomozalloc
-'
 ]
 #
 On

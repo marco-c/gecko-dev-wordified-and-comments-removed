@@ -358,8 +358,6 @@ MOZ_XUL_LINK
 lxpcomglue_s
 -
 lxul
--
-lmozalloc
 ifdef
 JS_SHARED_LIBRARY
 MOZ_JS_LINK

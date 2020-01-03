@@ -136,9 +136,6 @@ USE_LIBS
 =
 [
 '
-mozalloc
-'
-'
 nspr
 '
 ]

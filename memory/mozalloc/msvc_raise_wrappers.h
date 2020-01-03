@@ -62,7 +62,7 @@ h
 namespace
 std
 {
-MOZALLOC_EXPORT
+MFBT_API
 __declspec
 (
 noreturn
@@ -75,7 +75,7 @@ char
 *
 )
 ;
-MOZALLOC_EXPORT
+MFBT_API
 __declspec
 (
 noreturn
@@ -88,7 +88,7 @@ char
 *
 )
 ;
-MOZALLOC_EXPORT
+MFBT_API
 __declspec
 (
 noreturn
@@ -101,7 +101,7 @@ char
 *
 )
 ;
-MOZALLOC_EXPORT
+MFBT_API
 __declspec
 (
 noreturn
@@ -114,7 +114,7 @@ char
 *
 )
 ;
-MOZALLOC_EXPORT
+MFBT_API
 __declspec
 (
 noreturn

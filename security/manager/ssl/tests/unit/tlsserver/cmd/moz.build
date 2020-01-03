@@ -132,9 +132,6 @@ USE_LIBS
 =
 [
 '
-mozalloc
-'
-'
 mozillapkix
 '
 '

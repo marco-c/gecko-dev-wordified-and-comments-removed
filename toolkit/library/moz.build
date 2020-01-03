@@ -734,9 +734,6 @@ USE_LIBS
 gkmedias
 '
 '
-mozalloc
-'
-'
 nspr
 '
 '
