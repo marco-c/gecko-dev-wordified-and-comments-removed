@@ -108,7 +108,7 @@ do_check_true
 true
 )
 ;
-todo_check_true
+do_check_true
 (
 /
 implicit_jscontext
