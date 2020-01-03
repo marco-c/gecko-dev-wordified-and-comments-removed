@@ -1930,13 +1930,6 @@ offline
 )
 ;
 async
-SetConnectivity
-(
-bool
-connectivity
-)
-;
-async
 NotifyVisited
 (
 URIParams
@@ -2682,8 +2675,6 @@ returns
 (
 bool
 isOffline
-bool
-isConnected
 nsString
 [
 ]
