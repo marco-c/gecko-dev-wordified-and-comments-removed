@@ -3276,6 +3276,9 @@ GAMEPAD_ADDREMOVE
 GAMEPAD_DATA
 =
 46
+LONG_PRESS
+=
+47
 dummy_java_enum_list_end
 }
 ;

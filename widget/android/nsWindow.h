@@ -161,6 +161,17 @@ nsIntPoint
 pt
 )
 ;
+void
+OnContextmenuEvent
+(
+mozilla
+:
+:
+AndroidGeckoEvent
+*
+ae
+)
+;
 bool
 OnMultitouchEvent
 (

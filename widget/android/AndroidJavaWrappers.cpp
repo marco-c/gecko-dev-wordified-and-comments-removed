@@ -3163,6 +3163,9 @@ break
 case
 MOTION_EVENT
 :
+case
+LONG_PRESS
+:
 mTime
 =
 jenv
