@@ -181,6 +181,12 @@ pass_context
 =
 True
     
+seen_commands
+=
+set
+(
+)
+    
 for
 attr
 in
@@ -247,6 +253,13 @@ None
 :
             
 continue
+        
+seen_commands
+.
+add
+(
+command_name
+)
         
 if
 conditions
@@ -499,9 +512,7 @@ if
 command
 not
 in
-Registrar
-.
-command_handlers
+seen_commands
 :
             
 raise
@@ -527,6 +538,17 @@ s
 %
 command
 )
+        
+if
+command
+not
+in
+Registrar
+.
+command_handlers
+:
+            
+continue
         
 arguments
 =
