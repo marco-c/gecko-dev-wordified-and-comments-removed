@@ -8698,10 +8698,13 @@ IMPL_TO_JSVAL
 (
 MOZ_UNLIKELY
 (
+mozilla
+:
+:
+IsNaN
+(
 d
-!
-=
-d
+)
 )
 ?
 (

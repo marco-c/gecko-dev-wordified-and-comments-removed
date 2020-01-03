@@ -361,6 +361,7 @@ T
 >
 static
 MOZ_ALWAYS_INLINE
+MOZ_CONSTEXPR
 bool
 IsNaN
 (
@@ -383,9 +384,8 @@ Traits
 Bits
 Bits
 ;
-Bits
-bits
-=
+return
+(
 BitwiseCast
 <
 Bits
@@ -393,10 +393,6 @@ Bits
 (
 aValue
 )
-;
-return
-(
-bits
 &
 Traits
 :
@@ -412,7 +408,13 @@ kExponentBits
 &
 &
 (
-bits
+BitwiseCast
+<
+Bits
+>
+(
+aValue
+)
 &
 Traits
 :
