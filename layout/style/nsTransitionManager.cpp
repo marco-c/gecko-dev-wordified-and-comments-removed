@@ -4552,11 +4552,4 @@ MaybeStartOrStopObservingRefreshDriver
 (
 )
 ;
-mEventDispatcher
-.
-DispatchEvents
-(
-mPresContext
-)
-;
 }
