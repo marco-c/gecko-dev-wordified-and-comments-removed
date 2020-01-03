@@ -196,6 +196,11 @@ status
 ;
 readonly
 attribute
+boolean
+ok
+;
+readonly
+attribute
 ByteString
 statusText
 ;
