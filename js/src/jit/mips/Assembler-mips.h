@@ -3527,9 +3527,6 @@ CompactBufferWriter
 dataRelocations_
 ;
 CompactBufferWriter
-relocations_
-;
-CompactBufferWriter
 preBarriers_
 ;
 MIPSBuffer
