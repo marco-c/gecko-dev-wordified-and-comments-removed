@@ -32,6 +32,10 @@ nsLineLayout
 .
 h
 "
+typedef
+nsContainerFrame
+nsRubyTextContainerFrameSuper
+;
 nsContainerFrame
 *
 NS_NewRubyTextContainerFrame
@@ -49,7 +53,7 @@ nsRubyTextContainerFrame
 MOZ_FINAL
 :
 public
-nsContainerFrame
+nsRubyTextContainerFrameSuper
 {
 public
 :
@@ -64,6 +68,16 @@ nsIAtom
 *
 GetType
 (
+)
+const
+MOZ_OVERRIDE
+;
+virtual
+bool
+IsFrameOfType
+(
+uint32_t
+aFlags
 )
 const
 MOZ_OVERRIDE
@@ -139,7 +153,7 @@ nsStyleContext
 aContext
 )
 :
-nsContainerFrame
+nsRubyTextContainerFrameSuper
 (
 aContext
 )
