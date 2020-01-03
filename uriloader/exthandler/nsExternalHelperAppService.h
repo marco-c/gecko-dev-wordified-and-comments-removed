@@ -328,16 +328,11 @@ nsACString
 aMIMEType
 )
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 mLog
 ;
-#
-endif
 friend
 class
 nsExternalAppHandler

@@ -614,9 +614,6 @@ NS_FOLDER_VALUE_CUSTOM
 2
 }
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 nsExternalHelperAppService
@@ -626,8 +623,6 @@ mLog
 =
 nullptr
 ;
-#
-endif
 #
 undef
 LOG
@@ -2615,9 +2610,6 @@ obs
 return
 NS_ERROR_FAILURE
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -2642,8 +2634,6 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-#
-endif
 nsresult
 rv
 =
@@ -6850,9 +6840,6 @@ aChannel
 )
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 NS_FAILED
@@ -6885,8 +6872,6 @@ prompter
 )
 ;
 }
-#
-endif
 mCanceled
 =
 true
@@ -11083,9 +11068,6 @@ aFileExt
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_ENABLED
@@ -11157,8 +11139,6 @@ get
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
