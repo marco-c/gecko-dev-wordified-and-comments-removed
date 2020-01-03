@@ -2874,7 +2874,7 @@ JSContext
 cx
 )
 ;
-inline
+MOZ_ALWAYS_INLINE
 bool
 CheckForInterrupt
 (
