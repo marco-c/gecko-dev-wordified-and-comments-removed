@@ -2611,7 +2611,7 @@ ResolveStyleWithoutAnimation
 (
 aTarget
 aStyleContext
-eRestyle_ChangeAnimationPhase
+eRestyle_AllHintsWithAnimations
 )
 ;
 }
@@ -2683,7 +2683,7 @@ ResolveStyleWithoutAnimation
 (
 aTarget
 aStyleContext
-eRestyle_ChangeAnimationPhase
+eRestyle_AllHintsWithAnimations
 )
 ;
 }

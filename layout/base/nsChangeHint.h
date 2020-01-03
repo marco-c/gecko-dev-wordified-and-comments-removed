@@ -578,6 +578,15 @@ eRestyle_ForceDescendants
 <
 10
 )
+eRestyle_AllHintsWithAnimations
+=
+eRestyle_CSSTransitions
+|
+eRestyle_CSSAnimations
+|
+eRestyle_SVGAttrAnimations
+|
+eRestyle_StyleAttribute
 }
 ;
 typedef
