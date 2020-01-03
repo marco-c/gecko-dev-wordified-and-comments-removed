@@ -480,7 +480,7 @@ GetEffectiveOpacity
 l
 -
 >
-GetMaskLayer
+HasMaskLayers
 (
 )
 |
@@ -500,9 +500,11 @@ Layer
 CONTENT_OPAQUE
 )
 )
+{
 return
 nullptr
 ;
+}
 const
 Maybe
 <
