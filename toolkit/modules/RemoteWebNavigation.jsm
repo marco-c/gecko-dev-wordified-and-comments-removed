@@ -301,15 +301,6 @@ NS_ERROR_INVALID_ARGS
 ;
 this
 .
-_browser
-.
-_contentTitle
-=
-"
-"
-;
-this
-.
 _sendMessage
 (
 "
