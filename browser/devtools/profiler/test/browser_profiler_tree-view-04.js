@@ -588,7 +588,7 @@ type
 "
 )
 "
-invocations
+samples
 "
 "
 The

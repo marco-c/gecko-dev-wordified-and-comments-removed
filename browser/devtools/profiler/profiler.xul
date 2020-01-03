@@ -1144,7 +1144,7 @@ header
 type
 =
 "
-invocations
+samples
 "
 crop
 =
@@ -1159,7 +1159,7 @@ profilerUI
 .
 table
 .
-invocations
+samples
 ;
 "
 /

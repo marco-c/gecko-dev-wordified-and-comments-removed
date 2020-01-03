@@ -284,17 +284,17 @@ framePercentage
 )
 ;
 let
-invocationsCell
+samplesCell
 =
 this
 .
-_createInvocationsCell
+_createSamplesCell
 (
 this
 .
 frame
 .
-invocations
+samples
 )
 ;
 let
@@ -463,7 +463,7 @@ targetNode
 .
 appendChild
 (
-invocationsCell
+samplesCell
 )
 ;
 targetNode
@@ -721,7 +721,7 @@ return
 cell
 ;
 }
-_createInvocationsCell
+_createSamplesCell
 :
 function
 (
@@ -763,7 +763,7 @@ setAttribute
 type
 "
 "
-invocations
+samples
 "
 )
 ;

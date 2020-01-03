@@ -517,9 +517,9 @@ profilerUI
 .
 table
 .
-invocations
+samples
 "
-Calls
+Samples
 "
 >
 <
