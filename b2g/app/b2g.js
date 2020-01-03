@@ -2566,7 +2566,7 @@ mem
 .
 allow_locking_in_content_processes
 "
-false
+true
 )
 ;
 pref
