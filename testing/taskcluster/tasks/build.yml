@@ -121,6 +121,8 @@ project
 .
 revision
 .
+linux
+.
 {
 {
 head_rev
@@ -154,6 +156,8 @@ project
 }
 .
 latest
+.
+linux
 .
 {
 {
