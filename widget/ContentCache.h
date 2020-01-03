@@ -1081,6 +1081,7 @@ MaybeNotifyIME
 nsIWidget
 *
 aWidget
+const
 IMENotification
 &
 aNotification

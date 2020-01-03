@@ -1032,7 +1032,7 @@ aIMENotification
 )
 ;
 nsresult
-NotifyIMEOfUpdateComposition
+NotifyIMEOfCompositionUpdate
 (
 const
 IMENotification
