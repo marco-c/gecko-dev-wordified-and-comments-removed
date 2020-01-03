@@ -339,7 +339,7 @@ bool
 aPlaying
 )
 ;
-CheckedInt64
+int64_t
 AudioEndTime
 (
 )
