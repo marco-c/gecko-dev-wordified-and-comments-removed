@@ -112,6 +112,11 @@ DaemonSocket
 h
 '
 '
+DaemonSocketConnector
+.
+h
+'
+'
 DaemonSocketConsumer
 .
 h
@@ -133,6 +138,11 @@ UNIFIED_SOURCES
 [
 '
 DaemonSocket
+.
+cpp
+'
+'
+DaemonSocketConnector
 .
 cpp
 '
