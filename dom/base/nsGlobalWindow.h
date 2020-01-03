@@ -5499,12 +5499,6 @@ FreeInnerObjects
 (
 )
 ;
-JSObject
-*
-CallerGlobal
-(
-)
-;
 nsGlobalWindow
 *
 CallerInnerWindow
