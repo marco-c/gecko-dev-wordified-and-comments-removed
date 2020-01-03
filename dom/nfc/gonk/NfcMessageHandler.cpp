@@ -438,16 +438,6 @@ aParcel
 aOptions
 )
 ;
-mPendingReqQueue
-.
-AppendElement
-(
-NfcRequest
-:
-:
-TransceiveReq
-)
-;
 }
 else
 {
