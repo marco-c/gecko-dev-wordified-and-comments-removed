@@ -389,7 +389,7 @@ MOZ_B2G_RIL
 )
 service
 =
-do_CreateInstance
+do_GetService
 (
 GONK_MOBILECONNECTION_SERVICE_CONTRACTID
 )
