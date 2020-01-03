@@ -148,11 +148,6 @@ nsIDataSignatureVerifier
 idl
 '
 '
-nsIDOMCryptoDialogs
-.
-idl
-'
-'
 nsIGenKeypairInfoDlg
 .
 idl
