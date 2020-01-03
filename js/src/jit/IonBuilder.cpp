@@ -32059,6 +32059,14 @@ obj
 isUnknownValue
 (
 )
+|
+|
+obj
+-
+>
+isLambda
+(
+)
 )
 {
 useSlowPath
