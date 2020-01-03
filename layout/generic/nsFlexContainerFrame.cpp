@@ -13429,9 +13429,6 @@ HadMeasuringReflow
 {
 if
 (
-finalFlexedPhysicalSize
-=
-=
 item
 -
 >
@@ -13440,13 +13437,12 @@ Frame
 )
 -
 >
-GetContentRectRelativeToSelf
+GetSize
 (
 )
-.
-Size
-(
-)
+=
+=
+finalFlexedPhysicalSize
 )
 {
 itemNeedsReflow
