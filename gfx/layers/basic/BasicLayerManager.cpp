@@ -3731,6 +3731,11 @@ gfxContext
 aGroupTarget
 )
 {
+MOZ_ASSERT
+(
+aGroupTarget
+)
+;
 BasicImplData
 *
 data
@@ -4015,6 +4020,11 @@ void
 aCallbackData
 )
 {
+MOZ_ASSERT
+(
+aTarget
+)
+;
 PROFILER_LABEL
 (
 "
@@ -4379,10 +4389,6 @@ AnnotateOpaqueRect
 bool
 clipIsEmpty
 =
-!
-aTarget
-|
-|
 aTarget
 -
 >
