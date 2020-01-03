@@ -361,6 +361,7 @@ template
 size_t
 N
 >
+explicit
 RangedPtr
 (
 T

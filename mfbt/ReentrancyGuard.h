@@ -57,6 +57,7 @@ T
 #
 ifdef
 DEBUG
+explicit
 ReentrancyGuard
 (
 T
@@ -73,6 +74,7 @@ mEntered
 )
 #
 else
+explicit
 ReentrancyGuard
 (
 T

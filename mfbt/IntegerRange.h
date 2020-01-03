@@ -70,6 +70,7 @@ template
 typename
 IntType
 >
+explicit
 IntegerIterator
 (
 const
