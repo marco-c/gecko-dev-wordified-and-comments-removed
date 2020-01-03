@@ -1734,6 +1734,10 @@ mPresentedFrames
 (
 0
 )
+mDroppedFrames
+(
+0
+)
 {
 }
 uint32_t
@@ -1781,6 +1785,15 @@ return
 mPresentedFrames
 ;
 }
+uint32_t
+GetDroppedFrames
+(
+)
+{
+return
+mDroppedFrames
+;
+}
 void
 NotifyDecodedFrames
 (
@@ -1788,6 +1801,8 @@ uint32_t
 aParsed
 uint32_t
 aDecoded
+uint32_t
+aDropped
 )
 {
 if
@@ -1799,6 +1814,12 @@ aParsed
 &
 &
 aDecoded
+=
+=
+0
+&
+&
+aDropped
 =
 =
 0
@@ -1820,6 +1841,11 @@ mDecodedFrames
 +
 =
 aDecoded
+;
+mDroppedFrames
++
+=
+aDropped
 ;
 }
 void
@@ -1852,6 +1878,9 @@ mDecodedFrames
 uint32_t
 mPresentedFrames
 ;
+uint32_t
+mDroppedFrames
+;
 }
 ;
 FrameStatistics
@@ -1872,6 +1901,8 @@ uint32_t
 aParsed
 uint32_t
 aDecoded
+uint32_t
+aDropped
 )
 MOZ_OVERRIDE
 {
@@ -1883,6 +1914,7 @@ NotifyDecodedFrames
 (
 aParsed
 aDecoded
+aDropped
 )
 ;
 }

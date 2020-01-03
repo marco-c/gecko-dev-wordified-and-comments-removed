@@ -692,6 +692,12 @@ mParsed
 +
 +
 ;
+a
+.
+mDropped
++
++
+;
 continue
 ;
 }
@@ -737,6 +743,12 @@ aTimeThreshold
 a
 .
 mParsed
++
++
+;
+a
+.
+mDropped
 +
 +
 ;
