@@ -650,7 +650,7 @@ if
 mVisible
 )
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 if
 (
