@@ -900,6 +900,14 @@ HandleSaveRequest
 =
 0
 ;
+virtual
+void
+DeleteExpiredMarkers
+(
+)
+=
+0
+;
 void
 Start
 (
