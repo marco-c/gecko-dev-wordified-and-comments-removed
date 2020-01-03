@@ -92,6 +92,11 @@ MediaSourceReader
 .
 h
 '
+'
+SourceBufferContentManager
+.
+h
+'
 ]
 EXPORTS
 .
@@ -153,6 +158,11 @@ cpp
 '
 '
 SourceBuffer
+.
+cpp
+'
+'
+SourceBufferContentManager
 .
 cpp
 '
