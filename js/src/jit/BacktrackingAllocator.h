@@ -1932,6 +1932,10 @@ rangeFor
 (
 CodePosition
 pos
+bool
+preferRegister
+=
+false
 )
 const
 ;

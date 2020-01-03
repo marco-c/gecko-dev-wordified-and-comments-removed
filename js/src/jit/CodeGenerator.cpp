@@ -13239,6 +13239,9 @@ emitter
 masm
 )
 ;
+#
+ifdef
+JS_CODEGEN_X86
 if
 (
 group
@@ -13273,6 +13276,15 @@ reg
 )
 )
 ;
+else
+resolver
+.
+sortMemoryToMemoryMoves
+(
+)
+;
+#
+endif
 emitter
 .
 emit
