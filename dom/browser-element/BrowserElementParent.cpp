@@ -557,6 +557,11 @@ SetTrusted
 true
 )
 ;
+*
+aStatus
+=
+nsEventStatus_eConsumeNoDefault
+;
 nsresult
 rv
 =
@@ -783,8 +788,6 @@ OPEN_WINDOW_CANCELLED
 }
 nsEventStatus
 status
-=
-nsEventStatus_eIgnore
 ;
 bool
 dispatchSucceeded
