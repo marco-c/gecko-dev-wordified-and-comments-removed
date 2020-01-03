@@ -1300,7 +1300,7 @@ ScreenOrientation
 &
 orientation
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 chromeDisp
 )
@@ -2221,7 +2221,7 @@ nsIWidget
 aOut
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 GetChromeDisplacement
 (
 )
@@ -2629,7 +2629,7 @@ mHasValidInnerSize
 bool
 mDestroyed
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 mChromeDisp
 ;
 TabId

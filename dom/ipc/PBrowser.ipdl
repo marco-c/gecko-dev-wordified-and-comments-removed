@@ -3354,7 +3354,7 @@ ScreenIntSize
 size
 ScreenOrientation
 orientation
-nsIntPoint
+LayoutDeviceIntPoint
 chromeDisp
 )
 compress
