@@ -96,6 +96,9 @@ ChromeOnly
 interface
 ActivityRequestHandler
 {
+[
+UnsafeInPrerendering
+]
 void
 postResult
 (
@@ -103,6 +106,9 @@ any
 result
 )
 ;
+[
+UnsafeInPrerendering
+]
 void
 postError
 (
