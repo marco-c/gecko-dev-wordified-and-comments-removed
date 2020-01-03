@@ -401,16 +401,6 @@ CPU_ARCH
 arm
 '
 :
-UNIFIED_SOURCES
-+
-=
-[
-'
-LulExidx
-.
-cpp
-'
-]
 SOURCES
 +
 =
