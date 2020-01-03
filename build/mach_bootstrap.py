@@ -145,6 +145,14 @@ blessings
 '
 python
 /
+compare
+-
+locales
+'
+    
+'
+python
+/
 configobj
 '
     
@@ -478,6 +486,18 @@ mach
 commands
 /
 commandinfo
+.
+py
+'
+    
+'
+python
+/
+compare
+-
+locales
+/
+mach_commands
 .
 py
 '
