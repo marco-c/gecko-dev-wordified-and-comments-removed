@@ -479,7 +479,6 @@ false
 ;
 }
 let
-(
 mps
 =
 Cc
@@ -507,8 +506,7 @@ Ci
 .
 mozIGeckoMediaPluginService
 )
-)
-{
+;
 mps
 .
 forgetThisSite
@@ -516,7 +514,6 @@ forgetThisSite
 aDomain
 )
 ;
-}
 const
 phInterface
 =
@@ -639,6 +636,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
