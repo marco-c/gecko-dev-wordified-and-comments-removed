@@ -232,9 +232,6 @@ struct
 JSFunctionSpec
 ;
 struct
-JSIdArray
-;
-struct
 JSLocaleCallbacks
 ;
 struct
@@ -699,10 +696,6 @@ PARSER
 =
 -
 3
-IDARRAY
-=
--
-6
 VALVECTOR
 =
 -
