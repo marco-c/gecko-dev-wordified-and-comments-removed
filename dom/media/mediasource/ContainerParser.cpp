@@ -1958,6 +1958,13 @@ FirstCompleteMediaSegment
 ErrorResult
 rv
 ;
+if
+(
+HasCompleteInitData
+(
+)
+)
+{
 mResource
 -
 >
@@ -1974,6 +1981,7 @@ mOffset
 rv
 )
 ;
+}
 if
 (
 NS_WARN_IF
