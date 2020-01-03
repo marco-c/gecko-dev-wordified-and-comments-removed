@@ -277,6 +277,9 @@ assert_class_string
 assert_throws
 "
 "
+assert_unreached
+"
+"
 test
 "
 ]
