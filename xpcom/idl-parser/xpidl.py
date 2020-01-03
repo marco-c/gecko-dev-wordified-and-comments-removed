@@ -7396,14 +7396,6 @@ typedef
 TYPEDEF
 '
         
-'
-Infinity
-'
-:
-'
-INFINITY
-'
-        
 }
     
 tokens
