@@ -32,6 +32,7 @@ h
 define
 MAX_SCRATCH
 6
+static
 mp_err
 ec_GFp_pt_dbl_jm
 (
@@ -565,6 +566,7 @@ return
 res
 ;
 }
+static
 mp_err
 ec_GFp_pt_add_jm_aff
 (
