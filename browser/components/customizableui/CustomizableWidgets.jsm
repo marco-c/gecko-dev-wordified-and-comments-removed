@@ -7519,11 +7519,7 @@ E10S_TESTING_ONLY
 let
 e10sDisabled
 =
-Services
-.
-appinfo
-.
-inSafeMode
+false
 ;
 #
 ifdef
