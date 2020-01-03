@@ -10,7 +10,7 @@ USE_DEBUG
 #
 define
 USE_DEBUG
-1
+0
 #
 if
 !
