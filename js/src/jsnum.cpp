@@ -161,6 +161,17 @@ include
 "
 vm
 /
+ObjectImpl
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 String
 -
 inl
