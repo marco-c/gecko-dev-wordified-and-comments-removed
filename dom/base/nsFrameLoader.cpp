@@ -9917,14 +9917,6 @@ true
 )
 ;
 }
-parentDocShell
--
->
-SetOpenedRemote
-(
-mRemoteBrowser
-)
-;
 }
 return
 true
