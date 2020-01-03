@@ -218,10 +218,13 @@ includes
 (
 gL10N
 .
-getStr
+getFormatStr
 (
 "
-errorLoadingText
+errorLoadingText2
+"
+"
+noSuchActor
 "
 )
 )
