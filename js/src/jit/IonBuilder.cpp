@@ -8447,6 +8447,9 @@ JSOP_NEW
 case
 JSOP_EVAL
 :
+case
+JSOP_STRICTEVAL
+:
 return
 jsop_eval
 (
