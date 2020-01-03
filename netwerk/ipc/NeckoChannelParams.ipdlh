@@ -724,6 +724,9 @@ loadInfo
 OptionalHttpResponseHead
 synthesizedResponseHead
 ;
+nsCString
+synthesizedSecurityInfoSerialization
+;
 uint32_t
 cacheKey
 ;

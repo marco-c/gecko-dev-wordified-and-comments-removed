@@ -387,6 +387,10 @@ OptionalHttpResponseHead
 &
 aSynthesizedResponseHead
 const
+nsCString
+&
+aSecurityInfoSerialization
+const
 uint32_t
 &
 aCacheKey
