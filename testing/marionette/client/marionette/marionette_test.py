@@ -4842,6 +4842,22 @@ kwargs
 )
 :
         
+if
+mod_name
+in
+sys
+.
+modules
+:
+            
+del
+sys
+.
+modules
+[
+mod_name
+]
+        
 test_mod
 =
 imp
