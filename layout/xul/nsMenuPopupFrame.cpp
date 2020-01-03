@@ -7485,9 +7485,8 @@ doAction
 =
 false
 ;
-nsContainerFrame
-*
-immediateParent
+auto
+insertion
 =
 PresContext
 (
@@ -7511,6 +7510,14 @@ GetContent
 )
 nullptr
 )
+;
+nsContainerFrame
+*
+immediateParent
+=
+insertion
+.
+mParentFrame
 ;
 if
 (
