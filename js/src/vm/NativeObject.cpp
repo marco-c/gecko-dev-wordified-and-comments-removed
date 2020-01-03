@@ -10347,8 +10347,6 @@ mode
 ContextType
 cxArg
 HandleObject
-obj
-HandleObject
 receiver
 HandleId
 id
@@ -10366,7 +10364,7 @@ strict
 MOZ_ASSERT
 (
 !
-obj
+receiver
 -
 >
 is
@@ -10379,7 +10377,7 @@ BlockObject
 ;
 if
 (
-obj
+receiver
 -
 >
 isUnqualifiedVarObj
@@ -10641,7 +10639,6 @@ mode
 >
 (
 cxArg
-obj
 receiver
 id
 qualified
