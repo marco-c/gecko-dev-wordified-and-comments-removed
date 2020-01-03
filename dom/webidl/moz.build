@@ -3186,6 +3186,11 @@ BluetoothDiscoveryHandle
 webidl
 '
 '
+BluetoothGatt
+.
+webidl
+'
+'
 BluetoothManager2
 .
 webidl
