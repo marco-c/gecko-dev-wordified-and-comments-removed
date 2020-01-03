@@ -656,7 +656,7 @@ nullptr
 }
 mItems
 .
-SetLength
+TruncateLength
 (
 newLength
 )

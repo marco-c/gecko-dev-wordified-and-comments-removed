@@ -2223,7 +2223,11 @@ Elements
 )
 &
 outLen
-maxLen
+mResult
+.
+Length
+(
+)
 mData
 .
 Elements
@@ -2261,7 +2265,11 @@ Elements
 )
 &
 outLen
-maxLen
+mResult
+.
+Length
+(
+)
 mData
 .
 Elements
@@ -2284,7 +2292,7 @@ NS_ERROR_DOM_OPERATION_ERR
 ;
 mResult
 .
-SetLength
+TruncateLength
 (
 outLen
 )
@@ -3425,7 +3433,7 @@ NS_ERROR_DOM_OPERATION_ERR
 ;
 mResult
 .
-SetLength
+TruncateLength
 (
 outLen
 )
@@ -3847,7 +3855,11 @@ Elements
 )
 &
 outLen
-HASH_LENGTH_MAX
+mResult
+.
+Length
+(
+)
 )
 )
 ;
@@ -3859,7 +3871,7 @@ NS_ERROR_DOM_OPERATION_ERR
 ;
 mResult
 .
-SetLength
+TruncateLength
 (
 outLen
 )
