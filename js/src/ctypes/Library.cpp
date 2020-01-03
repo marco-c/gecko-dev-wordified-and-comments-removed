@@ -671,6 +671,7 @@ char
 )
 JS_malloc
 (
+cx
 PR_GetErrorTextLength
 (
 )
