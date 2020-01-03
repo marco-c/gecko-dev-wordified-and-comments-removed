@@ -4185,14 +4185,12 @@ env_class
 environment
 "
 JSCLASS_HAS_PRIVATE
-JS_PropertyStub
-JS_DeletePropertyStub
+nullptr
+nullptr
 JS_PropertyStub
 env_setProperty
 env_enumerate
 env_resolve
-JS_ConvertStub
-nullptr
 }
 ;
 typedef

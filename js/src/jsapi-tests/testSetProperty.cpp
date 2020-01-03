@@ -401,6 +401,7 @@ testSetProperty_InheritedGlobalSetter
 {
 MOZ_ASSERT
 (
+!
 JS_GetClass
 (
 global
@@ -408,10 +409,6 @@ global
 -
 >
 resolve
-=
-=
-&
-JS_ResolveStub
 )
 ;
 CHECK

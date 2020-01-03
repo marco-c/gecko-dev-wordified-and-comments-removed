@@ -19106,9 +19106,6 @@ getClass
 -
 >
 resolve
-!
-=
-JS_ResolveStub
 )
 return
 false
@@ -19818,9 +19815,6 @@ getClass
 -
 >
 resolve
-!
-=
-JS_ResolveStub
 )
 return
 false
@@ -19919,9 +19913,6 @@ getClass
 -
 >
 resolve
-!
-=
-JS_ResolveStub
 )
 return
 false

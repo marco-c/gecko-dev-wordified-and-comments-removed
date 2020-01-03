@@ -33555,13 +33555,11 @@ length
 ;
 if
 (
+!
 clasp
 -
 >
 resolve
-=
-=
-JS_ResolveStub
 )
 return
 false

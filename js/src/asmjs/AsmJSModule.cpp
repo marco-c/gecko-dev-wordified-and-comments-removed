@@ -5427,12 +5427,12 @@ AsmJSModuleObject
 :
 RESERVED_SLOTS
 )
-JS_PropertyStub
-JS_DeletePropertyStub
+nullptr
+nullptr
 JS_PropertyStub
 JS_StrictPropertyStub
-JS_EnumerateStub
-JS_ResolveStub
+nullptr
+nullptr
 nullptr
 AsmJSModuleObject_finalize
 nullptr

@@ -109,13 +109,10 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Boolean
 )
-JS_PropertyStub
-JS_DeletePropertyStub
+nullptr
+nullptr
 JS_PropertyStub
 JS_StrictPropertyStub
-JS_EnumerateStub
-JS_ResolveStub
-JS_ConvertStub
 }
 ;
 MOZ_ALWAYS_INLINE
