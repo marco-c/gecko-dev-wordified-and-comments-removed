@@ -4741,6 +4741,12 @@ aIsHorizontal
 {
 nsRect
 allowedRange
+(
+aPoint
+nsSize
+(
+)
+)
 ;
 nscoord
 halfPixel
