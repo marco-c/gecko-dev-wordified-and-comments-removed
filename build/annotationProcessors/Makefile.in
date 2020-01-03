@@ -101,7 +101,7 @@ android
 common
 .
 mk
-libs
+export
 :
 :
 annotationProcessors
