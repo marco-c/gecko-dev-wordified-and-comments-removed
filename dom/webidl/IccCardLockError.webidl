@@ -60,8 +60,6 @@ MPL
 Constructor
 (
 DOMString
-lockType
-DOMString
 errorName
 short
 retryCount
@@ -81,11 +79,6 @@ IccCardLockError
 :
 DOMError
 {
-readonly
-attribute
-DOMString
-lockType
-;
 readonly
 attribute
 short

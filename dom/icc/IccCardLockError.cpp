@@ -47,10 +47,6 @@ aGlobal
 const
 nsAString
 &
-aLockType
-const
-nsAString
-&
 aName
 int16_t
 aRetryCount
@@ -102,7 +98,6 @@ IccCardLockError
 (
 window
 aName
-aLockType
 aRetryCount
 )
 ;
@@ -126,10 +121,6 @@ const
 nsAString
 &
 aName
-const
-nsAString
-&
-aLockType
 int16_t
 aRetryCount
 )
@@ -138,10 +129,6 @@ DOMError
 (
 aWindow
 aName
-)
-mLockType
-(
-aLockType
 )
 mRetryCount
 (
