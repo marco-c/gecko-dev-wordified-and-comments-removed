@@ -103,6 +103,7 @@ edit
 )
 ;
 }
+Override
 public
 void
 apply
@@ -113,7 +114,7 @@ this
 .
 editor
 .
-commit
+apply
 (
 )
 ;
