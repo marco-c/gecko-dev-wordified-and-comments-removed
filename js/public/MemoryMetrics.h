@@ -1984,6 +1984,13 @@ macro
 (
 Other
 NotLiveGCThing
+lazyArrayBuffersTable
+)
+\
+macro
+(
+Other
+NotLiveGCThing
 crossCompartmentWrappersTable
 )
 \

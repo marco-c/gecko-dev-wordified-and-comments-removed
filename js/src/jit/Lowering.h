@@ -1256,14 +1256,6 @@ ins
 )
 ;
 bool
-visitNeuterCheck
-(
-MNeuterCheck
-*
-lir
-)
-;
-bool
 visitTypedObjectElements
 (
 MTypedObjectElements

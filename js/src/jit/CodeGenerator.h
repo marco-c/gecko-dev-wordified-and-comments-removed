@@ -1240,14 +1240,6 @@ lir
 )
 ;
 bool
-visitNeuterCheck
-(
-LNeuterCheck
-*
-lir
-)
-;
-bool
 visitTypedObjectElements
 (
 LTypedObjectElements

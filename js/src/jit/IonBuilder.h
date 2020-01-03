@@ -2178,8 +2178,6 @@ typedObj
 MDefinition
 *
 offset
-bool
-canBeNeutered
 MDefinition
 *
 *
@@ -2201,8 +2199,6 @@ MDefinition
 offset
 int32_t
 unit
-bool
-canBeNeutered
 MDefinition
 *
 *
@@ -2248,8 +2244,6 @@ ScalarTypeDescr
 Type
 type
 bool
-canBeNeutered
-bool
 racy
 MDefinition
 *
@@ -2273,9 +2267,6 @@ MDefinition
 *
 *
 indexAsByteOffset
-bool
-*
-canBeNeutered
 )
 ;
 bool
@@ -2295,8 +2286,6 @@ derivedTypeDescrs
 MDefinition
 *
 derivedTypeObj
-bool
-canBeNeutered
 )
 ;
 bool
@@ -2316,8 +2305,6 @@ ScalarTypeDescr
 :
 Type
 type
-bool
-canBeNeutered
 )
 ;
 MDefinition
@@ -3820,6 +3807,12 @@ const
 Class
 *
 clasp3
+=
+nullptr
+const
+Class
+*
+clasp4
 =
 nullptr
 )

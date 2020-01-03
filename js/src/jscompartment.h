@@ -618,6 +618,9 @@ class
 DebugScopes
 ;
 class
+LazyArrayBufferTable
+;
+class
 WeakMapBase
 ;
 }
@@ -948,6 +951,9 @@ size_t
 innerViews
 size_t
 *
+lazyArrayBuffers
+size_t
+*
 crossCompartmentWrappers
 size_t
 *
@@ -1073,6 +1079,13 @@ js
 :
 InnerViewTable
 innerViews
+;
+js
+:
+:
+LazyArrayBufferTable
+*
+lazyArrayBuffers
 ;
 unsigned
 gcIndex

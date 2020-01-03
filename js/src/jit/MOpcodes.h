@@ -794,11 +794,6 @@ Not
 \
 _
 (
-NeuterCheck
-)
-\
-_
-(
 BoundsCheck
 )
 \
