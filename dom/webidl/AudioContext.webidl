@@ -299,6 +299,7 @@ createAnalyser
 [
 NewObject
 Throws
+UnsafeInPrerendering
 ]
 MediaElementAudioSourceNode
 createMediaElementSource
@@ -310,6 +311,7 @@ mediaElement
 [
 NewObject
 Throws
+UnsafeInPrerendering
 ]
 MediaStreamAudioSourceNode
 createMediaStreamSource

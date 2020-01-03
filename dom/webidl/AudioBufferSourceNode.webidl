@@ -179,6 +179,7 @@ loopEnd
 ;
 [
 Throws
+UnsafeInPrerendering
 ]
 void
 start
@@ -200,6 +201,7 @@ grainDuration
 ;
 [
 Throws
+UnsafeInPrerendering
 ]
 void
 stop
