@@ -394,6 +394,17 @@ mIsInGonkEmulator
 }
 #
 endif
+virtual
+bool
+SupportsApzTouchInput
+(
+)
+override
+{
+return
+true
+;
+}
 private
 :
 int

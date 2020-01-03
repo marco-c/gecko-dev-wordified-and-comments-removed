@@ -406,6 +406,16 @@ GetScreenDepth
 const
 override
 ;
+bool
+SupportsApzWheelInput
+(
+)
+override
+{
+return
+true
+;
+}
 protected
 :
 static
