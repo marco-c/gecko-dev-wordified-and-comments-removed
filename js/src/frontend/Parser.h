@@ -2420,6 +2420,13 @@ msg
 )
 ;
 Node
+cloneDestructuringDefault
+(
+Node
+opn
+)
+;
+Node
 cloneLeftHandSide
 (
 Node
