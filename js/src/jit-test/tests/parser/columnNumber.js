@@ -21,7 +21,7 @@ saveStack
 column
 "
 )
-0
+1
 )
 ;
 assertEq
@@ -41,7 +41,7 @@ columnNumber
 1729
 }
 )
-1729
+1730
 )
 ;
 assertEq
@@ -62,7 +62,7 @@ columnNumber
 1729
 }
 )
-0
+1
 )
 ;
 assertEq
@@ -84,7 +84,7 @@ columnNumber
 "
 }
 )
-42
+43
 )
 ;
 assertThrowsInstanceOf
@@ -247,7 +247,7 @@ assertEq
 runOffThreadScript
 (
 )
-10000
+10001
 )
 ;
 }
@@ -282,6 +282,8 @@ maxColumn
 }
 )
 maxColumn
++
+1
 )
 ;
 assertEq
@@ -301,7 +303,7 @@ columnNumber
 maxColumn
 }
 )
-0
+1
 )
 ;
 assertThrowsInstanceOf

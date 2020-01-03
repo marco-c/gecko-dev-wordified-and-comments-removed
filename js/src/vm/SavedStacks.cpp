@@ -5482,6 +5482,13 @@ locationp
 column
 )
 ;
+locationp
+-
+>
+column
++
++
+;
 return
 true
 ;
@@ -5631,6 +5638,8 @@ value
 source
 line
 column
++
+1
 )
 ;
 if

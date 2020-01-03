@@ -136,7 +136,7 @@ stack
 parent
 .
 column
-4
+5
 )
 ;
 assertEq
@@ -174,7 +174,7 @@ parent
 parent
 .
 column
-4
+5
 )
 ;
 assertEq
@@ -202,7 +202,7 @@ parent
 parent
 .
 column
-0
+1
 )
 ;
 assertEq

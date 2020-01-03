@@ -1211,7 +1211,7 @@ gArgs
 {
 columnNumber
 :
-8
+9
 filename
 :
 TEST_URI
@@ -1232,7 +1232,7 @@ lineNumber
 {
 columnNumber
 :
-15
+16
 filename
 :
 TEST_URI
@@ -1251,7 +1251,7 @@ lineNumber
 {
 columnNumber
 :
-15
+16
 filename
 :
 TEST_URI
@@ -1270,7 +1270,7 @@ lineNumber
 {
 columnNumber
 :
-0
+1
 filename
 :
 TEST_URI
