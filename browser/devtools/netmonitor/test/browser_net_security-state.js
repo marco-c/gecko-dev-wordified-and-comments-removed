@@ -343,6 +343,8 @@ example
 .
 com
 "
++
+CORS_SJS_PATH
 )
 ;
 yield
@@ -382,6 +384,8 @@ example
 .
 com
 "
++
+CORS_SJS_PATH
 )
 ;
 yield
