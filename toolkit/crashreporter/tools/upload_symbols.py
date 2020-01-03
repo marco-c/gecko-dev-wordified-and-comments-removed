@@ -23,9 +23,9 @@ crash
 -
 stats
 .
-allizom
+mozilla
 .
-org
+com
 /
 symbols
 /
