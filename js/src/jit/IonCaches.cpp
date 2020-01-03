@@ -21410,12 +21410,6 @@ scopeChain
 }
 else
 {
-RootedShape
-shape
-(
-cx
-)
-;
 if
 (
 !
@@ -21426,8 +21420,6 @@ name
 scopeChain
 &
 holder
-&
-shape
 )
 )
 return

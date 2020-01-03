@@ -32475,12 +32475,6 @@ scope
 cx
 )
 ;
-RootedShape
-shape
-(
-cx
-)
-;
 if
 (
 !
@@ -32491,8 +32485,6 @@ name
 scopeChain
 &
 scope
-&
-shape
 )
 )
 return
