@@ -15379,13 +15379,6 @@ JSFunction
 FinalizeKind
 >
 GenericCreatePrototype
-<
-&
-DateObject
-:
-:
-class_
->
 date_static_methods
 date_methods
 nullptr
