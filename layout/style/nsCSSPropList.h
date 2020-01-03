@@ -5883,8 +5883,12 @@ enabled
 "
 0
 kBackgroundPositionKTable
-CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+offsetof
+(
+nsStylePosition
+mObjectPosition
+)
+eStyleAnimType_Custom
 )
 CSS_PROP_DISPLAY
 (
