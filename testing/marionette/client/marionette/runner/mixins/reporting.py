@@ -2327,6 +2327,19 @@ debug
 try
 :
             
+self
+.
+marionette
+.
+switch_context
+(
+self
+.
+marionette
+.
+CONTEXT_CHROME
+)
+            
 debug
 [
 '
@@ -2340,6 +2353,19 @@ marionette
 .
 screenshot
 (
+)
+            
+self
+.
+marionette
+.
+switch_context
+(
+self
+.
+marionette
+.
+CONTEXT_CONTENT
 )
             
 debug
