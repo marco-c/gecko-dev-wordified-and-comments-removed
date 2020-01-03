@@ -7313,7 +7313,7 @@ error
 gl
 -
 >
-GetAndClearError
+fGetError
 (
 )
 ;
@@ -7376,7 +7376,7 @@ error
 gl
 -
 >
-GetAndClearError
+fGetError
 (
 )
 ;
@@ -7616,7 +7616,7 @@ error
 gl
 -
 >
-GetAndClearError
+fGetError
 (
 )
 ;

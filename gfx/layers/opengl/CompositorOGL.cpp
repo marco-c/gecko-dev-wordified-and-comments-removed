@@ -3386,7 +3386,7 @@ error
 mGLContext
 -
 >
-GetAndClearError
+fGetError
 (
 )
 ;

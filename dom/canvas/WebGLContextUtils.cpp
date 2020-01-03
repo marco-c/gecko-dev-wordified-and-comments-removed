@@ -2312,7 +2312,7 @@ error
 gl
 -
 >
-GetAndClearError
+fGetError
 (
 )
 ;
