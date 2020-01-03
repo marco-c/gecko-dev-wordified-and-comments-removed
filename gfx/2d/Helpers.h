@@ -22,6 +22,11 @@ AutoRestoreTransform
 {
 public
 :
+AutoRestoreTransform
+(
+)
+{
+}
 explicit
 AutoRestoreTransform
 (
