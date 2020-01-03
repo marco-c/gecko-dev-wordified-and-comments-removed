@@ -1455,6 +1455,11 @@ return
 mClearRect
 ;
 }
+nsIntRegion
+GetFullyRenderedRegion
+(
+)
+;
 protected
 :
 gfx
