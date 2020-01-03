@@ -151,7 +151,7 @@ color
 "
 color
 /
-overlay_share_selected
+toolbar_grey_pressed
 "
 /
 >
@@ -200,7 +200,7 @@ color
 "
 color
 /
-overlay_share_background
+toolbar_grey
 "
 /
 >

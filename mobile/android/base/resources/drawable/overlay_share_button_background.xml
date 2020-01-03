@@ -135,7 +135,7 @@ drawable
 "
 color
 /
-overlay_share_selected
+toolbar_grey_pressed
 "
 /
 >
@@ -148,7 +148,7 @@ drawable
 "
 color
 /
-overlay_share_background
+toolbar_grey
 "
 /
 >
