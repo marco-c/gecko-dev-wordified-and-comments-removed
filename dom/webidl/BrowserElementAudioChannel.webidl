@@ -196,7 +196,7 @@ interface
 BrowserElementPrivileged
 {
 [
-Constant
+Pure
 Cached
 Throws
 Pref
