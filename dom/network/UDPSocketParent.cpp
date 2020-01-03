@@ -2206,6 +2206,7 @@ InsertElementsAt
 0
 buffer
 len
+fallible
 )
 )
 {

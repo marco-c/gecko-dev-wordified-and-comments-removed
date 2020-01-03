@@ -4606,6 +4606,7 @@ InsertElementsAt
 0
 aData
 aDataLength
+fallible
 )
 )
 {
@@ -4867,6 +4868,7 @@ InsertElementsAt
 0
 aData
 aDataLength
+fallible
 )
 )
 {
