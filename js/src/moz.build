@@ -2198,13 +2198,6 @@ TraceLoggingGraph
 .
 cpp
 '
-'
-vm
-/
-TraceLoggingTypes
-.
-cpp
-'
 ]
 if
 not
