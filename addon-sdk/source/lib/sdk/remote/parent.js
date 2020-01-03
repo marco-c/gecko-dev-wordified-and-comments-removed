@@ -433,6 +433,12 @@ modules
 '
 globals
 '
+'
+resolve
+'
+'
+load
+'
 ]
 )
 ;

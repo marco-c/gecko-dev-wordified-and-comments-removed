@@ -158,6 +158,12 @@ return
 file
 ;
 }
+exports
+.
+createNsFile
+=
+createNsFile
+;
 const
 converter
 =

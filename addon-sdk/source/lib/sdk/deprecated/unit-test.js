@@ -152,6 +152,7 @@ test
 utils
 "
 )
+;
 const
 findAndRunTests
 =

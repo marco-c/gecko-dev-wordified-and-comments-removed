@@ -2372,7 +2372,12 @@ this
 .
 .
 .
+JSON
+.
+parse
+(
 args
+)
 )
 ;
 }

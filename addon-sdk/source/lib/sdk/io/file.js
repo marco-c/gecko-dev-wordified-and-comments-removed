@@ -13,7 +13,7 @@ stability
 "
 :
 "
-experimental
+deprecated
 "
 }
 ;

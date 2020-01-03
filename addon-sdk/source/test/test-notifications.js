@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 Loader
@@ -15,8 +20,12 @@ loader
 )
 ;
 exports
-.
-testOnClick
+[
+"
+test
+onClick
+"
+]
 =
 function
 (
@@ -151,7 +160,6 @@ exports
 [
 '
 test
-:
 numbers
 and
 URLs
@@ -284,7 +292,6 @@ exports
 [
 '
 test
-:
 new
 tag
 dir

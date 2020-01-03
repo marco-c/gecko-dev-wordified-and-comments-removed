@@ -26,6 +26,8 @@ node_modules
 /
 examples
 /
+cache
+/
 #
 Python
 python

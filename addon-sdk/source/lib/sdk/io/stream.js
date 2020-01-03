@@ -304,7 +304,7 @@ org
 /
 network
 /
-socket
+stream
 -
 transport
 -

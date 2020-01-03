@@ -1053,6 +1053,9 @@ function
 (
 data
 ports
+=
+[
+]
 )
 {
 const
@@ -1600,8 +1603,13 @@ type
 "
 :
 "
-content
+chrome
 "
+"
+forcemessagemanager
+"
+:
+true
 "
 transparent
 "

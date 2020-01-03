@@ -6,6 +6,7 @@ strict
 const
 {
 defer
+all
 }
 =
 require
@@ -87,6 +88,11 @@ arguments
 '
 load
 '
+)
+.
+then
+(
+focus
 )
 ;
 }
