@@ -184,7 +184,7 @@ aGivenProto
 )
 override
 ;
-EventTarget
+nsIGlobalObject
 *
 GetParentObject
 (

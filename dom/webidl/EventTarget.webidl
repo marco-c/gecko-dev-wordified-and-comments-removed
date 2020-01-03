@@ -352,6 +352,11 @@ ChromeOnly
 Exposed
 =
 Window
+BinaryName
+=
+"
+ownerGlobalForBindings
+"
 ]
 readonly
 attribute

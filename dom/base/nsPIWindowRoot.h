@@ -178,16 +178,6 @@ GetParentTarget
 =
 0
 ;
-virtual
-nsIDOMWindow
-*
-GetOwnerGlobal
-(
-)
-override
-=
-0
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
