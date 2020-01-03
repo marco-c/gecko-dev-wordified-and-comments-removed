@@ -1974,12 +1974,6 @@ alloc
 Bailout_ParallelUnsafe
 )
 ;
-TransplantResumePoint
-(
-ins
-bail
-)
-;
 for
 (
 size_t
@@ -3340,12 +3334,6 @@ alloc
 (
 )
 Bailout_ParallelUnsafe
-)
-;
-TransplantResumePoint
-(
-thr
-bail
 )
 ;
 block
