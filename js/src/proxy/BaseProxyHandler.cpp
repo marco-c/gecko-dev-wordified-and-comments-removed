@@ -667,10 +667,7 @@ JS_StrictPropertyStub
 )
 ;
 return
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 receiver
@@ -995,10 +992,7 @@ desc
 ;
 }
 return
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 receiver
@@ -1074,10 +1068,7 @@ nullptr
 )
 ;
 return
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 receiver

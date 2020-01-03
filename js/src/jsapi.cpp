@@ -5822,10 +5822,7 @@ resolved
 true
 ;
 return
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 obj
@@ -11954,10 +11951,7 @@ setter
 nullptr
 ;
 return
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 obj
@@ -18785,10 +18779,7 @@ false
 if
 (
 !
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 obj

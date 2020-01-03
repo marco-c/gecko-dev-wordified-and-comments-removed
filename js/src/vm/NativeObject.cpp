@@ -9324,10 +9324,7 @@ NativeObject
 )
 )
 return
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 receiver

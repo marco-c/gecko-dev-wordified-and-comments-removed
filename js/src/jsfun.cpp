@@ -1944,10 +1944,7 @@ proto
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 obj
@@ -1990,10 +1987,7 @@ obj
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 proto
@@ -2011,11 +2005,9 @@ nullptr
 0
 )
 )
-{
 return
 nullptr
 ;
-}
 }
 return
 proto
@@ -11158,10 +11150,7 @@ fun
 if
 (
 !
-JSObject
-:
-:
-defineGeneric
+DefineProperty
 (
 cx
 obj

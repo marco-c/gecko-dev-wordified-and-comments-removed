@@ -2573,10 +2573,7 @@ name
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 err

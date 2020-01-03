@@ -7666,11 +7666,9 @@ JS_STUBGETTER
 JS_STUBSETTER
 )
 )
-{
 return
 nullptr
 ;
-}
 if
 (
 !

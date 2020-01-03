@@ -1492,10 +1492,7 @@ rval
 )
 {
 return
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 varobj

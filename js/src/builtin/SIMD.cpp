@@ -2202,10 +2202,7 @@ Float32x4Methods
 |
 |
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 SIMD
@@ -2286,10 +2283,7 @@ Int32x4Methods
 |
 |
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 SIMD
@@ -2328,10 +2322,7 @@ SIMD
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 global

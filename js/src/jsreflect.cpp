@@ -2832,10 +2832,7 @@ val
 )
 ;
 return
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 obj

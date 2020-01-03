@@ -5783,10 +5783,7 @@ revoker
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 result
@@ -5803,10 +5800,7 @@ proxyVal
 |
 |
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 result

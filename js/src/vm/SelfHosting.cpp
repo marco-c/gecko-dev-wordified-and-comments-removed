@@ -1320,10 +1320,7 @@ toObject
 if
 (
 !
-JSObject
-:
-:
-defineProperty
+DefineProperty
 (
 cx
 ctor
@@ -2601,7 +2598,7 @@ bool
 result
 ;
 return
-DefineProperty
+StandardDefineProperty
 (
 cx
 obj
