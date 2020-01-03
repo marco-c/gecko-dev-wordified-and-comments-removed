@@ -13,13 +13,6 @@ angleutils
 .
 h
 "
-#
-include
-<
-windows
-.
-h
->
 namespace
 gl
 {

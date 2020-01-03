@@ -11,7 +11,7 @@ compiler
 /
 translator
 /
-ShHandle
+Compiler
 .
 h
 "
@@ -59,7 +59,7 @@ std
 :
 vector
 <
-gl
+sh
 :
 :
 Uniform
@@ -79,7 +79,7 @@ std
 :
 vector
 <
-gl
+sh
 :
 :
 InterfaceBlock
@@ -100,7 +100,7 @@ std
 :
 vector
 <
-gl
+sh
 :
 :
 Attribute
@@ -120,7 +120,7 @@ std
 :
 vector
 <
-gl
+sh
 :
 :
 Attribute
@@ -140,7 +140,7 @@ std
 :
 vector
 <
-gl
+sh
 :
 :
 Varying
@@ -170,7 +170,7 @@ std
 :
 vector
 <
-gl
+sh
 :
 :
 Uniform
@@ -182,7 +182,7 @@ std
 :
 vector
 <
-gl
+sh
 :
 :
 InterfaceBlock
@@ -194,7 +194,7 @@ std
 :
 vector
 <
-gl
+sh
 :
 :
 Attribute
@@ -206,7 +206,7 @@ std
 :
 vector
 <
-gl
+sh
 :
 :
 Attribute
@@ -218,7 +218,7 @@ std
 :
 vector
 <
-gl
+sh
 :
 :
 Varying
