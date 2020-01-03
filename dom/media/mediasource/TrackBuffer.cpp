@@ -193,6 +193,9 @@ FUZZ_TIMESTAMP_OFFSET
 define
 EOS_FUZZ_US
 125000
+namespace
+mozilla
+{
 using
 media
 :
@@ -205,9 +208,6 @@ media
 :
 Interval
 ;
-namespace
-mozilla
-{
 TrackBuffer
 :
 :

@@ -422,6 +422,9 @@ BufferedRangesUpdatedPromise
 >
 UpdateBufferedRanges
 (
+media
+:
+:
 Interval
 <
 int64_t
@@ -655,6 +658,9 @@ RangeRemovalPromise
 >
 mRangeRemovalPromise
 ;
+media
+:
+:
 Interval
 <
 int64_t

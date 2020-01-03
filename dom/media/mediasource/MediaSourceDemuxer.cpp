@@ -25,6 +25,13 @@ h
 #
 include
 "
+MediaSourceUtils
+.
+h
+"
+#
+include
+"
 SourceBufferList
 .
 h

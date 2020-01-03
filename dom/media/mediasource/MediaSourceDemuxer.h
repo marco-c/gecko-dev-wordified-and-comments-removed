@@ -541,6 +541,9 @@ SkipAccessPointPromise
 >
 DoSkipToNextRandomAccessPoint
 (
+media
+:
+:
 TimeUnit
 aTimeThreadshold
 )
@@ -556,6 +559,9 @@ DemuxerFailureReason
 aFailure
 )
 ;
+media
+:
+:
 TimeUnit
 GetNextRandomAccessPoint
 (

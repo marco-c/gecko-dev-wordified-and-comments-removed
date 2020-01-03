@@ -45,7 +45,9 @@ include
 "
 mozilla
 /
-StateMirroring
+dom
+/
+SourceBufferBinding
 .
 h
 "
@@ -122,12 +124,6 @@ media
 :
 :
 TimeIntervals
-;
-using
-dom
-:
-:
-SourceBufferAppendMode
 ;
 class
 TrackBuffersManager
