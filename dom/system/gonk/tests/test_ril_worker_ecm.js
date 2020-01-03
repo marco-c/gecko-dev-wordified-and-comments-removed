@@ -553,7 +553,7 @@ context
 .
 RIL
 .
-dialNonEmergencyNumber
+dial
 (
 {
 number
