@@ -11940,10 +11940,6 @@ CanvasWindingRule
 winding
 )
 {
-EnsureTarget
-(
-)
-;
 EnsureUserSpacePath
 (
 winding
@@ -12170,10 +12166,6 @@ Stroke
 (
 )
 {
-EnsureTarget
-(
-)
-;
 EnsureUserSpacePath
 (
 )
@@ -12868,10 +12860,6 @@ CanvasWindingRule
 winding
 )
 {
-EnsureTarget
-(
-)
-;
 EnsureUserSpacePath
 (
 winding
@@ -13780,6 +13768,10 @@ EnsureWritablePath
 (
 )
 {
+EnsureTarget
+(
+)
+;
 if
 (
 mDSPathBuilder
@@ -13843,10 +13835,6 @@ false
 return
 ;
 }
-EnsureTarget
-(
-)
-;
 if
 (
 !
@@ -13960,6 +13948,10 @@ FillRule
 :
 FILL_EVEN_ODD
 ;
+EnsureTarget
+(
+)
+;
 if
 (
 !
@@ -13974,10 +13966,6 @@ mPathBuilder
 mDSPathBuilder
 )
 {
-EnsureTarget
-(
-)
-;
 mPathBuilder
 =
 mTarget
@@ -15250,6 +15238,10 @@ options
 mPath
 )
 {
+EnsureTarget
+(
+)
+;
 path
 =
 options
