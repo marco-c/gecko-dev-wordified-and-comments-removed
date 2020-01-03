@@ -4123,14 +4123,7 @@ PresContext
 >
 HasAuthorSpecifiedRules
 (
-const_cast
-<
-nsRangeFrame
-*
->
-(
 this
-)
 (
 NS_AUTHOR_SPECIFIED_BORDER
 |

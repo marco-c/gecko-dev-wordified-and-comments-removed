@@ -8946,6 +8946,7 @@ nsPresContext
 :
 HasAuthorSpecifiedRules
 (
+const
 nsIFrame
 *
 aFrame

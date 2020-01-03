@@ -1415,14 +1415,7 @@ PresContext
 >
 HasAuthorSpecifiedRules
 (
-const_cast
-<
-nsMeterFrame
-*
->
-(
 this
-)
 NS_AUTHOR_SPECIFIED_BORDER
 |
 NS_AUTHOR_SPECIFIED_BACKGROUND
