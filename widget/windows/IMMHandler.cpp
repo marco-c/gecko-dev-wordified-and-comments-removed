@@ -13033,6 +13033,9 @@ VK_RIGHT
 case
 VK_DOWN
 :
+case
+VK_RETURN
+:
 if
 (
 IsComposingOnOurEditor
