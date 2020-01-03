@@ -869,6 +869,11 @@ JSOP_ENDITER
 \
 _
 (
+JSOP_GENERATOR
+)
+\
+_
+(
 JSOP_CALLEE
 )
 \
