@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_IMAGELIB_DYNAMICIMAGE_H_
+mozilla_image_src_DynamicImage_h
 #
 define
-MOZILLA_IMAGELIB_DYNAMICIMAGE_H_
+mozilla_image_src_DynamicImage_h
 #
 include
 "
