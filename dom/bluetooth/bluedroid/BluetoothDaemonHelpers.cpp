@@ -7984,7 +7984,7 @@ UnpackPDU
 aPDU
 aOut
 .
-mValueType
+mStatus
 )
 ;
 if
@@ -8006,7 +8006,7 @@ UnpackPDU
 aPDU
 aOut
 .
-mStatus
+mValueType
 )
 ;
 if
