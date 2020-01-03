@@ -87,6 +87,12 @@ mozrunner
 /
 mozbase
 /
+mozscreenshot
+.
+.
+/
+mozbase
+/
 moztest
 .
 .

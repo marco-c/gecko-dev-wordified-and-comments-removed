@@ -237,16 +237,6 @@ topsrcdir
 /
 build
 /
-automationutils
-.
-py
-\
-(
-topsrcdir
-)
-/
-build
-/
 mobile
 /
 remoteautomation

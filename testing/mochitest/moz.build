@@ -228,14 +228,6 @@ py
 /
 build
 /
-automationutils
-.
-py
-'
-'
-/
-build
-/
 mobile
 /
 remoteautomation

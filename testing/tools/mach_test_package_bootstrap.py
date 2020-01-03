@@ -100,6 +100,12 @@ mozinfo
 '
 mozbase
 /
+mozscreenshot
+'
+    
+'
+mozbase
+/
 moztest
 '
     

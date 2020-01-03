@@ -123,10 +123,6 @@ EXTRA_BUILD_FILES
 :
 =
 \
-automationutils
-.
-py
-\
 manifestparser
 .
 py

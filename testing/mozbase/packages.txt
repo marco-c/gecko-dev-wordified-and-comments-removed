@@ -142,6 +142,15 @@ testing
 mozbase
 /
 mozsystemmonitor
+mozscreenshot
+.
+pth
+:
+testing
+/
+mozbase
+/
+mozscreenshot
 moztest
 .
 pth
