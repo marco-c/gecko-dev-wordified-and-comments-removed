@@ -728,9 +728,6 @@ mHaveBlockedForPlayState
 bool
 mHaveBlockedForStateMachineNotPlaying
 ;
-bool
-mEOSVideoCompensation
-;
 }
 ;
 class
