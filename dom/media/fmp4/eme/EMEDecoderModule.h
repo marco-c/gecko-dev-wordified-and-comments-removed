@@ -69,11 +69,6 @@ bool
 aCDMDecodesAudio
 bool
 aCDMDecodesVideo
-already_AddRefed
-<
-MediaTaskQueue
->
-aDecodeTaskQueue
 )
 ;
 virtual
