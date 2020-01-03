@@ -254,13 +254,12 @@ import
 with_statement
 import
 os
+import
 sys
 import
 struct
 import
 operator
-import
-itertools
 XPT_MAGIC
 =
 "
@@ -1466,6 +1465,7 @@ pointer
             
 raise
 DataError
+(
 "
 InterfaceType
 is
@@ -1476,6 +1476,7 @@ pointer
 =
 False
 "
+)
         
 Type
 .
@@ -1839,6 +1840,7 @@ pointer
             
 raise
 DataError
+(
 "
 InterfaceIsType
 is
@@ -1849,6 +1851,7 @@ pointer
 =
 False
 "
+)
         
 Type
 .
@@ -2194,6 +2197,7 @@ pointer
             
 raise
 DataError
+(
 "
 ArrayType
 is
@@ -2204,6 +2208,7 @@ pointer
 =
 False
 "
+)
         
 Type
 .
@@ -2568,6 +2573,7 @@ pointer
             
 raise
 DataError
+(
 "
 StringWithSizeType
 is
@@ -2578,6 +2584,7 @@ pointer
 =
 False
 "
+)
         
 Type
 .
@@ -2902,6 +2909,7 @@ pointer
             
 raise
 DataError
+(
 "
 WideStringWithSizeType
 is
@@ -2912,6 +2920,7 @@ pointer
 =
 False
 "
+)
         
 Type
 .
@@ -5678,6 +5687,7 @@ UNRESOLVED_IID
                 
 raise
 DataError
+(
 "
 Cannot
 instantiate
@@ -5697,6 +5707,7 @@ IID
 self
 .
 name
+)
             
 self
 .
@@ -7288,6 +7299,7 @@ XPT_MAGIC
             
 raise
 FileFormatError
+(
 "
 Bad
 magic
@@ -7297,6 +7309,7 @@ s
 "
 %
 magic
+)
         
 xpt
 =
@@ -7325,6 +7338,7 @@ expected_size
             
 raise
 FileFormatError
+(
 "
 File
 is
@@ -7343,6 +7357,7 @@ d
 (
 expected_size
 file_length
+)
 )
         
 interface_directory_offset
@@ -7373,12 +7388,6 @@ B
 data
 start
 )
-        
-islast
-=
-anno
-&
-0x80
         
 tag
 =
@@ -7634,6 +7643,7 @@ interfaces
                 
 raise
 DataError
+(
 "
 Interface
 %
@@ -7658,6 +7668,7 @@ i
 parent
 .
 name
+)
 )
             
 for
@@ -7688,7 +7699,7 @@ InterfaceType
 )
 and
 \
-                        
+                       
 p
 .
 iface
@@ -7701,6 +7712,7 @@ interfaces
                         
 raise
 DataError
+(
 "
 Interface
 method
@@ -7738,6 +7750,7 @@ iface
 .
 name
 )
+)
                 
 if
 isinstance
@@ -7762,6 +7775,7 @@ interfaces
                     
 raise
 DataError
+(
 "
 Interface
 method
@@ -7797,6 +7811,7 @@ result
 iface
 .
 name
+)
 )
     
 def
@@ -8330,7 +8345,7 @@ i
 parent
 .
 namespace
-                                                    
+                                                          
 i
 .
 parent
@@ -9013,7 +9028,7 @@ UNRESOLVED_IID
                 
 raise
 DataError
-\
+(
                     
 "
 Typelibs
@@ -9024,7 +9039,6 @@ interface
 %
 s
 "
-\
                     
 "
 with
@@ -9048,7 +9062,6 @@ s
 !
 "
 %
-\
                     
 (
 i
@@ -9066,6 +9079,7 @@ name
 j
 .
 xpt_filename
+)
 )
             
 return
@@ -9201,7 +9215,7 @@ else
                 
 raise
 DataError
-\
+(
                     
 "
 Typelibs
@@ -9212,8 +9226,7 @@ interface
 %
 s
 "
-\
-                                
+                    
 "
 with
 different
@@ -9236,8 +9249,7 @@ s
 !
 "
 %
-\
-                                
+                               
 (
 i
 .
@@ -9248,8 +9260,7 @@ iid
 i
 .
 xpt_filename
-\
-                                 
+                                
 j
 .
 iid
@@ -9257,9 +9268,11 @@ j
 .
 xpt_filename
 )
+)
         
 raise
 DataError
+(
 "
 No
 idea
@@ -9287,8 +9300,7 @@ s
 )
 "
 %
-\
-            
+                        
 (
 i
 .
@@ -9308,6 +9320,7 @@ iid
 j
 .
 xpt_filename
+)
 )
     
 i
@@ -9470,7 +9483,7 @@ ArrayType
 )
 and
 \
-             
+            
 isinstance
 (
 t
@@ -9480,7 +9493,7 @@ InterfaceType
 )
 and
 \
-             
+                
 t
 .
 element_type
@@ -9489,7 +9502,7 @@ iface
 in
 merged_interfaces
 :
-            
+                
 t
 .
 element_type
