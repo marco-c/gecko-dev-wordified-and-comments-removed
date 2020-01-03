@@ -176,6 +176,13 @@ devel
 git
 "
 "
+glibc
+-
+devel
+.
+i686
+"
+"
 libstdc
 +
 +
