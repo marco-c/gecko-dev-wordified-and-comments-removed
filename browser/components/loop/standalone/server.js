@@ -158,6 +158,8 @@ localhost
 loopServerPort
 +
 "
+/
+v0
 '
 ;
 "

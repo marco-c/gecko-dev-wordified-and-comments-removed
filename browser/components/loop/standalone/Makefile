@@ -158,6 +158,8 @@ http
 localhost
 :
 5000
+/
+v0
 }
 )
 LOOP_FEEDBACK_API_URL
