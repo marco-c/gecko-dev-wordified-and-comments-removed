@@ -774,6 +774,17 @@ ErrorResult
 error
 )
 ;
+void
+ResetTransform
+(
+mozilla
+:
+:
+ErrorResult
+&
+error
+)
+;
 double
 GlobalAlpha
 (

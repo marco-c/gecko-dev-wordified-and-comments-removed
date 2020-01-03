@@ -384,10 +384,9 @@ double
 f
 )
 ;
-/
-/
-NOT
-IMPLEMENTED
+[
+Throws
+]
 void
 resetTransform
 (
