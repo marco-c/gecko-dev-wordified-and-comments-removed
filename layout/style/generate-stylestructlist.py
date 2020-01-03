@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 math
 NORMAL_DEP
@@ -431,11 +435,7 @@ import
 sys
         
 print
->
->
-sys
-.
-stderr
+(
 "
 ERROR
 :
@@ -445,13 +445,15 @@ style
 struct
 dependencies
 "
-        
-print
->
->
+file
+=
 sys
 .
 stderr
+)
+        
+print
+(
 "
 Resolved
 items
@@ -463,6 +465,12 @@ items
 join
 (
 resolved_items
+)
+file
+=
+sys
+.
+stderr
 )
         
 unsolved_items
@@ -485,11 +493,7 @@ resolved_items
 ]
         
 print
->
->
-sys
-.
-stderr
+(
 "
 There
 exist
@@ -498,8 +502,7 @@ dependencies
 between
 "
 +
-\
-                            
+                  
 "
 the
 following
@@ -512,6 +515,12 @@ structs
 join
 (
 unsolved_items
+)
+file
+=
+sys
+.
+stderr
 )
         
 exit
@@ -548,11 +557,13 @@ x
 def
 printEntry
 (
+header
 i
 )
 :
     
 print
+(
 "
 STYLE_STRUCT_
 %
@@ -573,6 +584,10 @@ i
 :
 3
 ]
+file
+=
+header
+)
     
 for
 dep
@@ -587,6 +602,7 @@ i
 :
         
 print
+(
 "
 STYLE_STRUCT_DEP
 (
@@ -598,16 +614,26 @@ s
 (
 dep
 )
+file
+=
+header
+)
     
 print
+(
 "
 STYLE_STRUCT_END
 (
 )
 "
+file
+=
+header
+)
 def
 printTestTree
 (
+header
 min
 max
 depth
@@ -637,6 +663,7 @@ count
 :
         
 print
+(
 "
 STYLE_STRUCT_TEST_CODE
 (
@@ -664,9 +691,14 @@ range
 indent
 min
 )
+file
+=
+header
+)
         
 printEntry
 (
+header
 min
 )
     
@@ -680,6 +712,7 @@ min
 :
         
 print
+(
 "
 STYLE_STRUCT_TEST_CODE
 (
@@ -700,13 +733,19 @@ d
 indent
 min
 )
+file
+=
+header
+)
         
 printEntry
 (
+header
 min
 )
         
 print
+(
 "
 STYLE_STRUCT_TEST_CODE
 (
@@ -719,15 +758,21 @@ else
 "
 %
 indent
+file
+=
+header
+)
         
 printEntry
 (
+header
 min
 +
 1
 )
         
 print
+(
 "
 STYLE_STRUCT_TEST_CODE
 (
@@ -738,6 +783,10 @@ s
 "
 %
 indent
+file
+=
+header
+)
     
 elif
 min
@@ -758,6 +807,7 @@ min
 branches
         
 print
+(
 "
 STYLE_STRUCT_TEST_CODE
 (
@@ -777,9 +827,14 @@ d
 indent
 mid
 )
+file
+=
+header
+)
         
 printTestTree
 (
+header
 min
 mid
 depth
@@ -854,6 +909,7 @@ count
 :
                 
 print
+(
 "
 STYLE_STRUCT_TEST_CODE
 (
@@ -866,11 +922,16 @@ else
 "
 %
 indent
+file
+=
+header
+)
             
 else
 :
                 
 print
+(
 "
 STYLE_STRUCT_TEST_CODE
 (
@@ -893,9 +954,14 @@ d
 indent
 hi
 )
+file
+=
+header
+)
             
 printTestTree
 (
+header
 lo
 hi
 depth
@@ -905,6 +971,7 @@ depth
 )
         
 print
+(
 "
 STYLE_STRUCT_TEST_CODE
 (
@@ -915,6 +982,10 @@ s
 "
 %
 indent
+file
+=
+header
+)
 HEADER
 =
 "
@@ -1222,10 +1293,24 @@ STYLE_STRUCT_TEST_CODE
 "
 "
 "
+def
+main
+(
+header
+)
+:
+    
 print
+(
 HEADER
+file
+=
+header
+)
+    
 printTestTree
 (
+header
 0
 nextPowerOf2
 (
@@ -1234,5 +1319,11 @@ count
 0
 TOPLEVELBRANCHES
 )
+    
 print
+(
 FOOTER
+file
+=
+header
+)
