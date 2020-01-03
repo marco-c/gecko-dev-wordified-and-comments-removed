@@ -102,9 +102,6 @@ rilMessageType
 "
 setCLIR
 "
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -211,9 +208,6 @@ rilMessageType
 "
 setCLIR
 "
-rilRequestError
-:
-ERROR_GENERIC_FAILURE
 errorMsg
 :
 GECKO_ERROR_GENERIC_FAILURE
@@ -360,9 +354,6 @@ rilMessageType
 "
 setCLIR
 "
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
@@ -518,9 +509,6 @@ rilMessageType
 "
 setCLIR
 "
-rilRequestError
-:
-ERROR_SUCCESS
 }
 )
 ;
