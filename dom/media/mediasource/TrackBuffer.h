@@ -200,6 +200,11 @@ IsReady
 )
 ;
 bool
+IsWaitingOnCDMResource
+(
+)
+;
+bool
 ContainsTime
 (
 int64_t
@@ -428,15 +433,6 @@ SourceBufferDecoder
 >
 mInitializedDecoders
 ;
-nsTArray
-<
-nsRefPtr
-<
-SourceBufferDecoder
->
->
-mWaitingDecoders
-;
 nsRefPtr
 <
 SourceBufferDecoder
@@ -474,6 +470,9 @@ mLastTimestampOffset
 ;
 int64_t
 mAdjustedTimestamp
+;
+bool
+mIsWaitingOnCDM
 ;
 MediaInfo
 mInfo

@@ -419,6 +419,11 @@ TrackType
 aTrack
 )
 ;
+bool
+EnsureDecodersSetup
+(
+)
+;
 void
 Update
 (
@@ -564,11 +569,6 @@ NotifyResourcesStatusChanged
 ;
 void
 RequestCodecResource
-(
-)
-;
-bool
-IsWaitingOnCodecResource
 (
 )
 ;
@@ -1106,6 +1106,9 @@ mFoundSPSForTelemetry
 ;
 bool
 mIsEncrypted
+;
+bool
+mAreDecodersSetup
 ;
 bool
 mIndexReady
