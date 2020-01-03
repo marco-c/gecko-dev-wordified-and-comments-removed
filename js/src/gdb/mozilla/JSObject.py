@@ -204,7 +204,7 @@ base_
 ]
 )
         
-otype
+group
 =
 deref
 (
@@ -213,14 +213,14 @@ self
 value
 [
 '
-type_
+group_
 '
 ]
 )
         
 class_name
 =
-otype
+group
 [
 '
 clasp_
