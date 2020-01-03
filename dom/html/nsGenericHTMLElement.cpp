@@ -14713,7 +14713,7 @@ nsGenericHTMLElement
 NewURIFromString
 (
 const
-nsAutoString
+nsAString
 &
 aURISpec
 nsIURI
