@@ -6772,7 +6772,7 @@ case
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 :
 MOZ_ASSERT_IF
 (
@@ -6826,7 +6826,7 @@ case
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 :
 MOZ_ASSERT_IF
 (
@@ -6880,7 +6880,7 @@ case
 SimdTypeDescr
 :
 :
-TYPE_FLOAT64
+Float64x2
 :
 MOZ_CRASH
 (

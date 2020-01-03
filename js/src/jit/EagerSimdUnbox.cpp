@@ -71,7 +71,7 @@ return
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 ;
 case
 MIRType_Int32x4
@@ -80,7 +80,7 @@ return
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 ;
 default
 :

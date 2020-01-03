@@ -2224,7 +2224,7 @@ type
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 ;
 static
 TypeDescr
@@ -2365,7 +2365,7 @@ type
 SimdTypeDescr
 :
 :
-TYPE_FLOAT64
+Float64x2
 ;
 static
 TypeDescr
@@ -2486,7 +2486,7 @@ type
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 ;
 static
 TypeDescr

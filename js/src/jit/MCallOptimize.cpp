@@ -1742,7 +1742,7 @@ OP
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 )
 ;
 #
@@ -1785,7 +1785,7 @@ OP
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 )
 ;
 ARITH_COMMONX4_SIMD_OP
@@ -1846,7 +1846,7 @@ _
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 )
 ;
 \
@@ -1883,7 +1883,7 @@ _
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 )
 ;
 BITWISE_COMMONX4_SIMD_OP
@@ -1926,7 +1926,7 @@ OP
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 )
 ;
 \
@@ -1956,7 +1956,7 @@ OP
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 )
 ;
 COMP_COMMONX4_TO_INT32X4_SIMD_OP
@@ -2002,7 +2002,7 @@ LANE
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 )
 ;
 \
@@ -2035,7 +2035,7 @@ LANE
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 )
 ;
 INLINE_SIMD_SETTER_
@@ -2079,7 +2079,7 @@ not_
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 )
 ;
 if
@@ -2104,7 +2104,7 @@ neg
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 )
 ;
 #
@@ -2140,7 +2140,7 @@ OP
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 )
 ;
 UNARY_ARITH_FLOAT32X4_SIMD_OP
@@ -2176,7 +2176,7 @@ not_
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 )
 ;
 typedef
@@ -2205,11 +2205,11 @@ false
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 )
 ;
 if
@@ -2234,11 +2234,11 @@ false
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 )
 ;
 if
@@ -2263,11 +2263,11 @@ true
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 )
 ;
 if
@@ -2292,11 +2292,11 @@ true
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 )
 ;
 if
@@ -2317,7 +2317,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 )
 ;
 if
@@ -2338,7 +2338,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 )
 ;
 if
@@ -2359,7 +2359,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 )
 ;
 if
@@ -2380,7 +2380,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 )
 ;
 typedef
@@ -2409,7 +2409,7 @@ true
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 )
 ;
 if
@@ -2434,7 +2434,7 @@ false
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 )
 ;
 if
@@ -2459,7 +2459,7 @@ true
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 )
 ;
 if
@@ -2484,7 +2484,7 @@ false
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 )
 ;
 if
@@ -2505,7 +2505,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 1
 4
 )
@@ -2528,7 +2528,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 1
 4
 )
@@ -2551,7 +2551,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 2
 4
 )
@@ -2574,7 +2574,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 2
 4
 )
@@ -2597,7 +2597,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 4
 )
 ;
@@ -2619,7 +2619,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 1
 )
 ;
@@ -2641,7 +2641,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 2
 )
 ;
@@ -2663,7 +2663,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 3
 )
 ;
@@ -2685,7 +2685,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 4
 )
 ;
@@ -2707,7 +2707,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 1
 )
 ;
@@ -2729,7 +2729,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 2
 )
 ;
@@ -2751,7 +2751,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 3
 )
 ;
@@ -2773,7 +2773,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 4
 )
 ;
@@ -2795,7 +2795,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 1
 )
 ;
@@ -2817,7 +2817,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 2
 )
 ;
@@ -2839,7 +2839,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 3
 )
 ;
@@ -2861,7 +2861,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 4
 )
 ;
@@ -2883,7 +2883,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 1
 )
 ;
@@ -2905,7 +2905,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 2
 )
 ;
@@ -2927,7 +2927,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 3
 )
 ;
@@ -18731,7 +18731,7 @@ native
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 2
 &
 templateObj
@@ -19555,7 +19555,7 @@ case
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 :
 return
 Scalar
@@ -19567,7 +19567,7 @@ case
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 :
 return
 Scalar
@@ -19579,7 +19579,7 @@ case
 SimdTypeDescr
 :
 :
-TYPE_FLOAT64
+Float64x2
 :
 break
 ;

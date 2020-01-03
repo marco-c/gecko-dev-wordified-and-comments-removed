@@ -26838,7 +26838,7 @@ js
 SimdTypeDescr
 :
 :
-TYPE_INT32
+Int32x4
 ;
 break
 ;
@@ -26853,7 +26853,7 @@ js
 SimdTypeDescr
 :
 :
-TYPE_FLOAT32
+Float32x4
 ;
 break
 ;
