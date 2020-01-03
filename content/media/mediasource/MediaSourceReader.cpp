@@ -1985,7 +1985,6 @@ SourceBufferDecoder
 new
 SourceBufferResource
 (
-nullptr
 aType
 )
 mDecoder
