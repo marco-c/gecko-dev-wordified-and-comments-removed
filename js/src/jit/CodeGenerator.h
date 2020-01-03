@@ -1280,9 +1280,9 @@ lir
 )
 ;
 void
-visitTypedObjectProto
+visitTypedObjectDescr
 (
-LTypedObjectProto
+LTypedObjectDescr
 *
 ins
 )
