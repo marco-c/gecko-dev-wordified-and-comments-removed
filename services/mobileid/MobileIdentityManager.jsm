@@ -2124,11 +2124,8 @@ activeVerificationFlow
 {
 this
 .
-activeVerificationFlow
-.
-cleanup
+rejectVerification
 (
-true
 )
 ;
 }
@@ -2358,6 +2355,9 @@ cleanupVerification
 :
 function
 (
+aUnregister
+=
+false
 )
 {
 if
@@ -2377,6 +2377,7 @@ activeVerificationFlow
 .
 cleanup
 (
+aUnregister
 )
 ;
 this
