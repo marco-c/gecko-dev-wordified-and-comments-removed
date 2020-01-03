@@ -2021,12 +2021,6 @@ string
 learn_more
 )
 MIXED_CONTENT_SUPPORT_URL
-"
-\
-n
-\
-n
-"
 )
 ;
 addNotificationButtons
@@ -2234,12 +2228,6 @@ string
 learn_more
 )
 TRACKING_CONTENT_SUPPORT_URL
-"
-\
-n
-\
-n
-"
 )
 ;
 addNotificationButtons
