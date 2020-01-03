@@ -489,13 +489,6 @@ Shutdown
 this
 )
 ;
-MediaDecoder
-:
-:
-Shutdown
-(
-)
-;
 if
 (
 mMediaSource
@@ -509,6 +502,13 @@ Detach
 )
 ;
 }
+MediaDecoder
+:
+:
+Shutdown
+(
+)
+;
 ReentrantMonitorAutoEnter
 mon
 (
