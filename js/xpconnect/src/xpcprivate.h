@@ -12811,6 +12811,11 @@ File
 :
 1
 ;
+bool
+crypto
+:
+1
+;
 }
 ;
 already_AddRefed
