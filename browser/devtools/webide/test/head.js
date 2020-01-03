@@ -1154,6 +1154,9 @@ deferred
 .
 resolve
 (
+nextTick
+(
+)
 )
 ;
 }
