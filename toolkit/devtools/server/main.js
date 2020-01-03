@@ -2556,7 +2556,6 @@ DebuggerSocket
 .
 createListener
 (
-this
 )
 ;
 listener
