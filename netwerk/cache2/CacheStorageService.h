@@ -98,9 +98,6 @@ class
 nsIURI
 ;
 class
-nsICacheEntryOpenCallback
-;
-class
 nsICacheEntryDoomCallback
 ;
 class
@@ -132,9 +129,6 @@ CacheEntry
 ;
 class
 CacheEntryHandle
-;
-class
-CacheEntryTable
 ;
 class
 CacheMemoryConsumer

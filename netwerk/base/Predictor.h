@@ -110,9 +110,6 @@ class
 nsINetworkPredictorVerifier
 ;
 class
-nsIThread
-;
-class
 nsITimer
 ;
 namespace

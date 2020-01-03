@@ -61,9 +61,6 @@ nsString
 .
 h
 "
-class
-nsIAuthPromptProvider
-;
 namespace
 mozilla
 {

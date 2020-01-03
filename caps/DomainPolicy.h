@@ -29,14 +29,6 @@ namespace
 mozilla
 {
 namespace
-dom
-{
-class
-nsIContentParent
-;
-}
-;
-namespace
 ipc
 {
 class

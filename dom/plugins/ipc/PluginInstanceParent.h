@@ -120,14 +120,6 @@ PluginDataResolver
 h
 "
 #
-ifdef
-MOZ_X11
-class
-gfxXlibSurface
-;
-#
-endif
-#
 include
 "
 mozilla

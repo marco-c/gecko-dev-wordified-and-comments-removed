@@ -79,9 +79,6 @@ h
 "
 #
 endif
-struct
-PLEvent
-;
 #
 define
 NS_TOOLKIT_APPSTARTUP_CID

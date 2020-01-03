@@ -133,12 +133,6 @@ ImageContainer
 ;
 }
 class
-GonkRecorderProfile
-;
-class
-GonkRecorderProfileManager
-;
-class
 nsGonkCameraControl
 :
 public

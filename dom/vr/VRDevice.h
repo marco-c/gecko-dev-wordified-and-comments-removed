@@ -106,9 +106,6 @@ namespace
 dom
 {
 class
-Element
-;
-class
 VRFieldOfViewReadOnly
 :
 public

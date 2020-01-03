@@ -12,9 +12,6 @@ nscore
 h
 "
 class
-nsISocketTransport
-;
-class
 nsNativeConnectionHelper
 {
 public

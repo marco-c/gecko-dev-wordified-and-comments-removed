@@ -18,9 +18,6 @@ nsIPrincipal
 .
 h
 "
-class
-nsCString
-;
 struct
 nsJSPrincipals
 :

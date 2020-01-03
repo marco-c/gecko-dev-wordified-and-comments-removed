@@ -62,9 +62,6 @@ nsString
 .
 h
 "
-class
-nsPluginHost
-;
 struct
 PRLibrary
 ;

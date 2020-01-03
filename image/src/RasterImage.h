@@ -153,9 +153,6 @@ class
 nsIInputStream
 ;
 class
-nsIThreadPool
-;
-class
 nsIRequest
 ;
 #
@@ -201,9 +198,6 @@ mozilla
 namespace
 layers
 {
-class
-LayerManager
-;
 class
 ImageContainer
 ;

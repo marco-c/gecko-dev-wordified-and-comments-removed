@@ -209,9 +209,6 @@ frecency
 updated
 "
 class
-mozIAnnotationService
-;
-class
 nsNavHistory
 ;
 class

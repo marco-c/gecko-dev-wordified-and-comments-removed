@@ -63,13 +63,7 @@ stdint
 h
 >
 class
-nsIDocShell
-;
-class
 nsCString
-;
-class
-nsIClassInfo
 ;
 class
 nsIIOService
@@ -79,9 +73,6 @@ nsIStringBundle
 ;
 class
 nsSystemPrincipal
-;
-class
-ClassInfoData
 ;
 #
 define

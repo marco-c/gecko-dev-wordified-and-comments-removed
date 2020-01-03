@@ -97,9 +97,6 @@ nsIDirectoryEnumerator
 class
 nsILoadContextInfo
 ;
-class
-nsICacheStorageVisitor
-;
 namespace
 mozilla
 {
@@ -809,9 +806,6 @@ mTable
 ;
 class
 OpenFileEvent
-;
-class
-CloseFileEvent
 ;
 class
 ReadEvent

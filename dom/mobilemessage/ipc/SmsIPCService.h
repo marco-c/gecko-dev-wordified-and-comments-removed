@@ -51,9 +51,6 @@ namespace
 mobilemessage
 {
 class
-PSmsChild
-;
-class
 SmsIPCService
 final
 :

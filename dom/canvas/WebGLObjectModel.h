@@ -29,9 +29,6 @@ namespace
 mozilla
 {
 class
-WebGLBuffer
-;
-class
 WebGLContext
 ;
 template

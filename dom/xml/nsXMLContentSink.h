@@ -99,9 +99,6 @@ nsIContent
 class
 nsIParser
 ;
-class
-nsViewManager
-;
 namespace
 mozilla
 {

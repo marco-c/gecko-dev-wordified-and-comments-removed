@@ -130,9 +130,6 @@ ContentParent
 }
 BEGIN_QUOTA_NAMESPACE
 class
-AcquireListener
-;
-class
 AsyncUsageRunnable
 ;
 class

@@ -141,9 +141,6 @@ ErrorResult
 .
 h
 "
-class
-nsIDOMWindow
-;
 namespace
 mozilla
 {

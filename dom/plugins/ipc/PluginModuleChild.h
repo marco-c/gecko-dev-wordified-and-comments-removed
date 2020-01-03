@@ -242,9 +242,6 @@ kNestedLoopDetectorIntervalMs
 #
 endif
 class
-PluginScriptableObjectChild
-;
-class
 PluginInstanceChild
 ;
 class

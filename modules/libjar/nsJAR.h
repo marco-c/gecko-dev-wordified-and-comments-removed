@@ -159,9 +159,6 @@ class
 nsIX509Cert
 ;
 class
-nsIInputStream
-;
-class
 nsJARManifestItem
 ;
 class

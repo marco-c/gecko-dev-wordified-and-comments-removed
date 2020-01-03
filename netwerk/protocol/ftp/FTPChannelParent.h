@@ -55,9 +55,6 @@ OfflineObserver
 h
 "
 class
-nsFtpChannel
-;
-class
 nsILoadContext
 ;
 namespace

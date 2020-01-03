@@ -24,9 +24,6 @@ nsISupports
 class
 nsIEventTarget
 ;
-class
-nsIThread
-;
 namespace
 mozilla
 {
@@ -69,9 +66,6 @@ Run
 0
 ;
 }
-;
-class
-AutoEventEnqueuerBase
 ;
 class
 ChannelEventQueue

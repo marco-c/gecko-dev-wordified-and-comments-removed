@@ -201,13 +201,6 @@ namespace
 mozilla
 {
 namespace
-layers
-{
-struct
-RemoteImageData
-;
-}
-namespace
 plugins
 {
 class

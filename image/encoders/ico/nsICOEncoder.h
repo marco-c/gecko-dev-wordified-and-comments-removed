@@ -50,12 +50,6 @@ ICOFileHeaders
 .
 h
 "
-class
-nsBMPEncoder
-;
-class
-nsPNGEncoder
-;
 #
 define
 NS_ICOENCODER_CID

@@ -143,9 +143,6 @@ connection
 closed
 "
 class
-nsIStringBundle
-;
-class
 nsIRunnable
 ;
 namespace

@@ -17,9 +17,6 @@ struct
 DBusConnection
 ;
 struct
-DBusError
-;
-struct
 DBusMessage
 ;
 namespace

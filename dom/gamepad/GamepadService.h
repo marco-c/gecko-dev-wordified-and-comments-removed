@@ -74,9 +74,6 @@ nsTArray
 .
 h
 "
-class
-nsIDOMDocument
-;
 namespace
 mozilla
 {

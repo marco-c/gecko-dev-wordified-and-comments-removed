@@ -15,9 +15,6 @@ namespace
 mozilla
 {
 class
-WebGLBuffer
-;
-class
 WebGLShaderPrecisionFormat
 final
 :

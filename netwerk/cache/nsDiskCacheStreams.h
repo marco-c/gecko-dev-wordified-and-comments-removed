@@ -51,9 +51,6 @@ Atomics
 h
 "
 class
-nsDiskCacheInputStream
-;
-class
 nsDiskCacheDevice
 ;
 class

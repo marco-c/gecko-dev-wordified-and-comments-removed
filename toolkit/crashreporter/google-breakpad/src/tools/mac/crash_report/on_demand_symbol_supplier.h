@@ -41,9 +41,6 @@ std
 string
 ;
 class
-MinidumpModule
-;
-class
 OnDemandSymbolSupplier
 :
 public

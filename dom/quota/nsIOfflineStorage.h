@@ -36,9 +36,6 @@ NS_OFFLINESTORAGE_IID
 0x01
 }
 }
-class
-nsPIDOMWindow
-;
 namespace
 mozilla
 {

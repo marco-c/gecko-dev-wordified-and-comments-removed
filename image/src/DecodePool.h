@@ -59,9 +59,6 @@ class
 Decoder
 ;
 class
-RasterImage
-;
-class
 DecodePool
 :
 public

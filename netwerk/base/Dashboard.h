@@ -69,12 +69,6 @@ h
 class
 nsIDNSService
 ;
-class
-nsISocketTransport
-;
-class
-nsIThread
-;
 namespace
 mozilla
 {

@@ -87,12 +87,6 @@ class
 nsIFile
 ;
 class
-nsCString
-;
-class
-nsString
-;
-class
 nsAdoptingString
 ;
 class
