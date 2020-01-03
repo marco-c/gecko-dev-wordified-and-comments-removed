@@ -1459,6 +1459,11 @@ mCurrentCompositeTask
 nullptr
 ;
 }
+DispatchTouchEvents
+(
+aVsyncTimestamp
+)
+;
 if
 (
 mNeedsComposite
@@ -1504,11 +1509,6 @@ UnobserveVsync
 )
 ;
 }
-DispatchTouchEvents
-(
-aVsyncTimestamp
-)
-;
 }
 void
 CompositorVsyncObserver
