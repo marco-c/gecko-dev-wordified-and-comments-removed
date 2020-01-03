@@ -568,6 +568,7 @@ Long
 mFolderIdMap
 ;
 private
+volatile
 Boolean
 mDesktopBookmarksExist
 ;
@@ -4365,7 +4366,9 @@ null
 ;
 try
 {
-mDesktopBookmarksExist
+final
+boolean
+e
 =
 c
 .
@@ -4374,6 +4377,13 @@ getCount
 )
 >
 0
+;
+mDesktopBookmarksExist
+=
+e
+;
+return
+e
 ;
 }
 finally
@@ -4385,9 +4395,6 @@ close
 )
 ;
 }
-return
-mDesktopBookmarksExist
-;
 }
 RobocopTarget
 public
