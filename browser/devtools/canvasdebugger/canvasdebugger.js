@@ -4916,6 +4916,13 @@ index
 ;
 }
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 }
 )
