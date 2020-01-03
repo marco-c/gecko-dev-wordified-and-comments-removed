@@ -117,6 +117,11 @@ stdio
 h
 >
 #
+include
+<
+cmath
+>
+#
 ifndef
 STACK_SIZE_PARAM_IS_A_RESERVATION
 #
@@ -1654,11 +1659,14 @@ frames_needed
 clock_add
 (
 stm
+roundf
+(
 frames_needed
 *
 stream_to_mix_samplerate_ratio
 (
 stm
+)
 )
 )
 ;
