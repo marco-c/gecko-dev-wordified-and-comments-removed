@@ -216,6 +216,14 @@ prevType
 JitFrame_Unwound_BaselineStub
 |
 |
+prevType
+(
+)
+=
+=
+JitFrame_Unwound_IonAccessorIC
+|
+|
 (
 prevType
 (
