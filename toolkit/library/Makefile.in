@@ -127,7 +127,7 @@ rules
 mk
 ifdef
 COMPILE_ENVIRONMENT
-libs
+target
 :
 :
 (
