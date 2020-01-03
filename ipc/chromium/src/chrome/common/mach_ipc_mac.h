@@ -607,16 +607,6 @@ mach_msg_timeout_t
 timeout
 )
 ;
-kern_return_t
-SendMessageToSelf
-(
-MachSendMessage
-&
-msg
-mach_msg_timeout_t
-timeout
-)
-;
 mach_port_t
 GetPort
 (
