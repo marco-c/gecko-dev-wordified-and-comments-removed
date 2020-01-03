@@ -1118,7 +1118,7 @@ nsJSIID
 "
 #
 define
-XPC_MAP_WANT_NEWRESOLVE
+XPC_MAP_WANT_RESOLVE
 #
 define
 XPC_MAP_WANT_ENUMERATE
@@ -1481,7 +1481,7 @@ NS_IMETHODIMP
 nsJSIID
 :
 :
-NewResolve
+Resolve
 (
 nsIXPConnectWrappedNative
 *
@@ -1494,10 +1494,9 @@ JSObject
 objArg
 jsid
 idArg
-JSObject
+bool
 *
-*
-objp
+resolvedp
 bool
 *
 _retval
@@ -1600,9 +1599,9 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 *
-objp
+resolvedp
 =
-obj
+true
 ;
 *
 _retval
