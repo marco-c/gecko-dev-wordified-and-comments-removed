@@ -138,11 +138,6 @@ promiseObserverNotified
 :
 false
 "
-promiseTabLoadEvent
-"
-:
-false
-"
 promiseWaitForCondition
 "
 :
