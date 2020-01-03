@@ -14495,7 +14495,7 @@ loglimit
 .
 network
 "
-200
+1000
 )
 ;
 pref
@@ -14509,7 +14509,7 @@ loglimit
 .
 cssparser
 "
-200
+1000
 )
 ;
 pref
@@ -14523,7 +14523,7 @@ loglimit
 .
 exception
 "
-200
+1000
 )
 ;
 pref
@@ -14537,7 +14537,7 @@ loglimit
 .
 console
 "
-200
+1000
 )
 ;
 pref
