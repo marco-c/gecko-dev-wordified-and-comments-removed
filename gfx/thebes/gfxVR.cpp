@@ -3323,6 +3323,13 @@ ovrHmd_Create
 i
 )
 ;
+if
+(
+!
+hmd
+)
+continue
+;
 nsRefPtr
 <
 HMDInfoOculus
@@ -3385,6 +3392,11 @@ ovrHmd_CreateDebug
 ovrHmd_DK2
 )
 ;
+if
+(
+hmd
+)
+{
 nsRefPtr
 <
 HMDInfoOculus
@@ -3404,6 +3416,7 @@ AppendElement
 oc
 )
 ;
+}
 }
 mOculusInitialized
 =
