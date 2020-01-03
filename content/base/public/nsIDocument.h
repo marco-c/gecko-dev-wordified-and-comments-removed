@@ -6136,17 +6136,6 @@ nullptr
 ;
 }
 virtual
-JSObject
-*
-WrapObject
-(
-JSContext
-*
-aCx
-)
-MOZ_OVERRIDE
-;
-virtual
 already_AddRefed
 <
 nsIDocument
