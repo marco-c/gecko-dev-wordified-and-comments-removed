@@ -936,16 +936,6 @@ frame
 )
 OVERRIDE
 ;
-virtual
-void
-OnCursorShapeChanged
-(
-MouseCursorShape
-*
-cursor_shape
-)
-OVERRIDE
-;
 protected
 :
 DesktopCaptureImpl

@@ -3982,16 +3982,4 @@ sleepTime
 #
 endif
 }
-void
-DesktopCaptureImpl
-:
-:
-OnCursorShapeChanged
-(
-MouseCursorShape
-*
-cursor_shape
-)
-{
-}
 }

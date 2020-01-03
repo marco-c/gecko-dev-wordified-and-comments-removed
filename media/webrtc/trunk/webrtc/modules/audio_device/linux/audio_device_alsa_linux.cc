@@ -8039,12 +8039,5 @@ false
 ;
 #
 endif
-#
-else
-return
-false
-;
-#
-endif
 }
 }

@@ -1934,6 +1934,9 @@ ProbingExperimentIsEnabled
 )
 const
 {
+#
+ifndef
+WEBRTC_MOZILLA_BUILD
 return
 webrtc
 :
@@ -1955,5 +1958,12 @@ BitrateProbing
 Enabled
 "
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 }

@@ -1681,7 +1681,7 @@ VideoCodecProfile
 profile
 ;
 uint8_t
-profile
+profile_byte
 ;
 uint8_t
 constraints
