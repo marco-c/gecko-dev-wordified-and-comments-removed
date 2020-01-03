@@ -1314,10 +1314,8 @@ start
 )
 0
 0
-NS_LITERAL_STRING
+EmptyString
 (
-"
-"
 )
 )
 ;
@@ -1645,10 +1643,8 @@ pause
 )
 aCharIndex
 aElapsedTime
-NS_LITERAL_STRING
+EmptyString
 (
-"
-"
 )
 )
 ;
@@ -1782,10 +1778,8 @@ resume
 )
 aCharIndex
 aElapsedTime
-NS_LITERAL_STRING
+EmptyString
 (
-"
-"
 )
 )
 ;
@@ -1897,10 +1891,8 @@ error
 )
 aCharIndex
 aElapsedTime
-NS_LITERAL_STRING
+EmptyString
 (
-"
-"
 )
 )
 ;

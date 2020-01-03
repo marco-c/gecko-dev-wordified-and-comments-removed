@@ -209,10 +209,8 @@ return
 Constructor
 (
 aGlobal
-NS_LITERAL_STRING
+EmptyString
 (
-"
-"
 )
 aRv
 )
