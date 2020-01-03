@@ -277,7 +277,7 @@ aOffset
 bigLength
 sizeof
 (
-bigLengthRange
+bigLength
 )
 &
 bytes
@@ -289,7 +289,7 @@ bytes
 =
 sizeof
 (
-bigLengthRange
+bigLength
 )
 )
 {
