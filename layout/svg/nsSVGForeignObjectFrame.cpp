@@ -1278,6 +1278,11 @@ SVGAutoRenderState
 IsPaintingToWindow
 (
 aContext
+-
+>
+GetDrawTarget
+(
+)
 )
 )
 {

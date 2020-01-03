@@ -2772,6 +2772,11 @@ SVGAutoRenderState
 GetRenderMode
 (
 aContext
+-
+>
+GetDrawTarget
+(
+)
 )
 ;
 FillRule
