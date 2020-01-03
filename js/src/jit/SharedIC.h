@@ -3018,6 +3018,9 @@ kind
 Engine
 engine_
 ;
+bool
+inStubFrame_
+;
 #
 ifdef
 DEBUG
@@ -3122,6 +3125,10 @@ engine_
 (
 engine
 )
+inStubFrame_
+(
+false
+)
 #
 ifdef
 DEBUG
@@ -3133,6 +3140,16 @@ false
 endif
 {
 }
+void
+pushFramePtr
+(
+MacroAssembler
+&
+masm
+Register
+scratch
+)
+;
 bool
 tailCallVM
 (
