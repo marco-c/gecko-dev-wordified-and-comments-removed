@@ -2868,6 +2868,13 @@ function
 (
 )
 {
+Object
+.
+freeze
+(
+this
+)
+;
 if
 (
 !
@@ -4088,13 +4095,4 @@ payloadObj
 ;
 }
 }
-;
-Object
-.
-freeze
-(
-this
-.
-MozLoopService
-)
 ;
