@@ -723,6 +723,10 @@ bool
 allow_link_local
 =
 false
+bool
+hide_non_default
+=
+false
 Policy
 policy
 =

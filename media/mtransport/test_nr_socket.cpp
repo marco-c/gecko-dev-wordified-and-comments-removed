@@ -1365,6 +1365,15 @@ nat_
 enabled_
 |
 |
+addr
+-
+>
+protocol
+=
+=
+IPPROTO_UDP
+|
+|
 nat_
 -
 >
