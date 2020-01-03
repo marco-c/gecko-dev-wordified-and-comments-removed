@@ -21657,6 +21657,14 @@ disableSyntaxParser
 (
 )
 ;
+bool
+constDecl
+=
+tt
+=
+=
+TOK_CONST
+;
 tokenStream
 .
 consumeKnownToken
@@ -21726,10 +21734,7 @@ pn1
 =
 variables
 (
-tt
-=
-=
-TOK_CONST
+constDecl
 ?
 PNK_CONST
 :
