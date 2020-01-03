@@ -420,7 +420,7 @@ RunFlushLoop
 (
 )
 ;
-void
+nsresult
 FlushDocumentWrite
 (
 )

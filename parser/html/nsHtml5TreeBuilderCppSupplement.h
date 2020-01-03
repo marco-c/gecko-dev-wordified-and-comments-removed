@@ -5241,6 +5241,8 @@ nsHtml5TreeBuilder
 :
 MarkAsBroken
 (
+nsresult
+aRv
 )
 {
 if
@@ -5282,7 +5284,7 @@ AppendElement
 >
 Init
 (
-eTreeOpMarkAsBroken
+aRv
 )
 ;
 }

@@ -17664,12 +17664,12 @@ GetRootElement
 )
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 Inserting
+root
 element
-child
 when
 we
 already

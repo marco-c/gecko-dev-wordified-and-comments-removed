@@ -562,7 +562,7 @@ GetDelegate
 )
 ;
 }
-void
+nsresult
 ParseUntilBlocked
 (
 )

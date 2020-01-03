@@ -450,6 +450,8 @@ endif
 void
 MarkAsBroken
 (
+nsresult
+aRv
 )
 ;
 void
