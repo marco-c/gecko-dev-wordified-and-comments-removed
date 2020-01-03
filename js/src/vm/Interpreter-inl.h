@@ -1227,7 +1227,12 @@ false
 }
 }
 return
-true
+CheckUninitializedLexical
+(
+cx
+name
+vp
+)
 ;
 }
 inline
@@ -1298,7 +1303,11 @@ slot
 )
 ;
 return
-true
+!
+IsUninitializedLexical
+(
+vp
+)
 ;
 }
 inline
