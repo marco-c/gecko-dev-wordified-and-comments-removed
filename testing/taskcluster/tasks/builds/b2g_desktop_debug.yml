@@ -13,6 +13,13 @@ yml
 '
 variables
 :
+build_name
+:
+'
+b2g
+-
+desktop
+'
 build_type
 :
 '
