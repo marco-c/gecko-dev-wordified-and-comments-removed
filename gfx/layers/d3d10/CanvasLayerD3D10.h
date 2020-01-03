@@ -7,6 +7,13 @@ GFX_CANVASLAYERD3D10_H
 #
 include
 "
+GLContextTypes
+.
+h
+"
+#
+include
+"
 LayerManagerD3D10
 .
 h
@@ -146,8 +153,11 @@ mSRView
 bool
 mDataIsPremultiplied
 ;
-bool
-mNeedsYFlip
+gl
+:
+:
+OriginPos
+mOriginPos
 ;
 bool
 mIsD2DTexture

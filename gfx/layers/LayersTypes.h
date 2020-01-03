@@ -258,7 +258,7 @@ int8_t
 LAYER_RENDER_STATE_DEFAULT
 =
 0
-Y_FLIPPED
+ORIGIN_BOTTOM_LEFT
 =
 1
 <
@@ -376,7 +376,7 @@ aTexture
 {
 }
 bool
-YFlipped
+OriginBottomLeft
 (
 )
 const
@@ -389,7 +389,7 @@ mFlags
 LayerRenderStateFlags
 :
 :
-Y_FLIPPED
+ORIGIN_BOTTOM_LEFT
 )
 ;
 }

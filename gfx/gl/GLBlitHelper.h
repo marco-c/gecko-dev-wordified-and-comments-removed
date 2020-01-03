@@ -343,9 +343,7 @@ GrallocImage
 *
 grallocImage
 bool
-yFlip
-=
-false
+yflip
 )
 ;
 #
@@ -360,9 +358,7 @@ PlanarYCbCrImage
 *
 yuvImage
 bool
-yFlip
-=
-false
+yflip
 )
 ;
 #
@@ -378,9 +374,7 @@ SurfaceTextureImage
 *
 stImage
 bool
-yFlip
-=
-false
+yflip
 )
 ;
 bool
@@ -393,9 +387,7 @@ EGLImageImage
 *
 eglImage
 bool
-yFlip
-=
-false
+yflip
 )
 ;
 #
@@ -585,7 +577,7 @@ destSize
 GLuint
 destFB
 bool
-yFlip
+yflip
 =
 false
 GLuint
@@ -627,7 +619,7 @@ destTex
 GLenum
 destTarget
 bool
-yFlip
+yflip
 =
 false
 GLuint

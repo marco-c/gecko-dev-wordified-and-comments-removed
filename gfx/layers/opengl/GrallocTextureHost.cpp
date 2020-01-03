@@ -958,7 +958,7 @@ mFlags
 TextureFlags
 :
 :
-NEEDS_Y_FLIP
+ORIGIN_BOTTOM_LEFT
 )
 {
 flags
@@ -967,7 +967,7 @@ flags
 LayerRenderStateFlags
 :
 :
-Y_FLIPPED
+ORIGIN_BOTTOM_LEFT
 ;
 }
 if

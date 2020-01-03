@@ -118,7 +118,7 @@ NoFlags
 UseNearestFilter
 =
 0x1
-NeedsYFlip
+OriginBottomLeft
 =
 0x2
 DisallowBigImage

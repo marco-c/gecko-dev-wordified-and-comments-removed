@@ -240,8 +240,11 @@ mGLFrontbuffer
 bool
 mIsAlphaPremultiplied
 ;
-bool
-mNeedsYFlip
+gl
+:
+:
+OriginPos
+mOriginPos
 ;
 RefPtr
 <

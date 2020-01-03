@@ -42,6 +42,17 @@ MOZ_END_ENUM_CLASS
 (
 GLContextType
 )
+MOZ_BEGIN_ENUM_CLASS
+(
+OriginPos
+uint8_t
+)
+TopLeft
+BottomLeft
+MOZ_END_ENUM_CLASS
+(
+OriginPos
+)
 struct
 GLFormats
 {

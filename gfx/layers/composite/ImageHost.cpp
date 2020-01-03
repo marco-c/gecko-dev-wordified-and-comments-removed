@@ -668,7 +668,7 @@ GetFlags
 TextureFlags
 :
 :
-NEEDS_Y_FLIP
+ORIGIN_BOTTOM_LEFT
 )
 {
 effect
@@ -897,7 +897,7 @@ GetFlags
 TextureFlags
 :
 :
-NEEDS_Y_FLIP
+ORIGIN_BOTTOM_LEFT
 )
 {
 effect

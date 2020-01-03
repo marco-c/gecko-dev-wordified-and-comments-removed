@@ -385,7 +385,7 @@ DEALLOCATE_CLIENT
 TextureFlags
 :
 :
-NEEDS_Y_FLIP
+ORIGIN_BOTTOM_LEFT
 ;
 if
 (
@@ -724,7 +724,16 @@ IMMEDIATE_UPLOAD
 ;
 if
 (
-mNeedsYFlip
+mOriginPos
+=
+=
+gl
+:
+:
+OriginPos
+:
+:
+BottomLeft
 )
 {
 flags
@@ -733,7 +742,7 @@ flags
 TextureFlags
 :
 :
-NEEDS_Y_FLIP
+ORIGIN_BOTTOM_LEFT
 ;
 }
 if

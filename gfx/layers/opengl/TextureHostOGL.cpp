@@ -512,7 +512,7 @@ aFlags
 TextureFlags
 :
 :
-NEEDS_Y_FLIP
+ORIGIN_BOTTOM_LEFT
 )
 result
 |
@@ -520,7 +520,7 @@ result
 TextureImage
 :
 :
-NeedsYFlip
+OriginBottomLeft
 ;
 if
 (

@@ -2146,7 +2146,7 @@ AppendFlag
 TextureFlags
 :
 :
-NEEDS_Y_FLIP
+ORIGIN_BOTTOM_LEFT
 )
 ;
 AppendFlag
