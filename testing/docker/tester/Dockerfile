@@ -29,7 +29,7 @@ Add
 utilities
 and
 configuration
-ADD
+COPY
 b2g
 -
 desktop
@@ -49,7 +49,7 @@ desktop
 config
 .
 py
-ADD
+COPY
 dot
 -
 config
@@ -60,7 +60,7 @@ worker
 /
 .
 config
-ADD
+COPY
 dot
 -
 pulse
@@ -71,7 +71,7 @@ worker
 /
 .
 pulse
-ADD
+COPY
 bin
 /
 home
@@ -79,7 +79,7 @@ home
 worker
 /
 bin
-ADD
+COPY
 mozharness_configs
 /
 home
@@ -87,6 +87,18 @@ home
 worker
 /
 mozharness_configs
+COPY
+buildprops
+.
+json
+/
+home
+/
+worker
+/
+buildprops
+.
+json
 #
 Run
 test
