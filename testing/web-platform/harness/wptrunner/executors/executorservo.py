@@ -163,6 +163,12 @@ self
 .
 on_output
 ]
+                                   
+onFinish
+=
+self
+.
+on_finish
 )
         
 self
@@ -253,8 +259,13 @@ self
 .
 proc
 .
-pid
+proc
+.
+poll
+(
+)
 is
+not
 None
 :
                 
@@ -418,4 +429,19 @@ self
 .
 command
 )
+)
+    
+def
+on_finish
+(
+self
+)
+:
+        
+self
+.
+result_flag
+.
+set
+(
 )
