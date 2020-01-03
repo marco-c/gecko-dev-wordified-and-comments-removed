@@ -1647,6 +1647,23 @@ ping
 '
 '
     
+prefs
+[
+'
+browser
+.
+tabs
+.
+remote
+.
+autostart
+.
+1
+'
+]
+=
+False
+    
 if
 options
 .
