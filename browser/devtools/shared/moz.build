@@ -348,6 +348,13 @@ widgets
 '
 widgets
 /
+BarGraphWidget
+.
+js
+'
+'
+widgets
+/
 CubicBezierPresets
 .
 js

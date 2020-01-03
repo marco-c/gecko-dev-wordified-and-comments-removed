@@ -14,7 +14,7 @@ shared
 /
 widgets
 /
-Graphs
+BarGraphWidget
 "
 )
 ;
