@@ -66,6 +66,9 @@ gfxAlternateValue
 struct
 nsCSSValueList
 ;
+struct
+nsStylePosition
+;
 class
 nsStyleUtil
 {
@@ -366,6 +369,16 @@ nsStyleCoord
 aFlexBasis
 bool
 aIsMainAxisHorizontal
+)
+;
+static
+bool
+ObjectPropsMightCauseOverflow
+(
+const
+nsStylePosition
+*
+aStylePos
 )
 ;
 static
