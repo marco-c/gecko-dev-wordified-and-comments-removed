@@ -685,11 +685,6 @@ aStatus
 )
 ;
 void
-RecordDiscard
-(
-)
-;
-void
 SendDiscard
 (
 imgRequestProxy
