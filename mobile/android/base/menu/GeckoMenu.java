@@ -1141,13 +1141,11 @@ View
 v
 )
 {
+return
 handleMenuItemLongClick
 (
 menuItem
 )
-;
-return
-true
 ;
 }
 }
@@ -1221,13 +1219,11 @@ View
 view
 )
 {
+return
 handleMenuItemLongClick
 (
 menuItem
 )
-;
-return
-true
 ;
 }
 }
@@ -2844,7 +2840,7 @@ item
 ;
 }
 }
-void
+boolean
 handleMenuItemLongClick
 (
 GeckoMenuItem
@@ -2862,6 +2858,7 @@ isEnabled
 )
 {
 return
+false
 ;
 }
 if
@@ -2872,6 +2869,7 @@ mCallback
 null
 )
 {
+return
 mCallback
 .
 onMenuItemLongClick
@@ -2880,6 +2878,9 @@ item
 )
 ;
 }
+return
+false
+;
 }
 public
 Callback
