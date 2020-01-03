@@ -113,6 +113,7 @@ Kind_CallVM
 Kind_DebugTrap
 Kind_DebugPrologue
 Kind_DebugEpilogue
+Kind_Invalid
 }
 ;
 private
@@ -129,6 +130,13 @@ Kind
 kind
 )
 {
+MOZ_ASSERT
+(
+kind
+<
+Kind_Invalid
+)
+;
 kind_
 =
 kind
