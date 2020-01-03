@@ -439,9 +439,6 @@ URLSearchParams
 :
 URLSearchParams
 (
-nsISupports
-*
-aParent
 URLSearchParamsObserver
 *
 aObserver
