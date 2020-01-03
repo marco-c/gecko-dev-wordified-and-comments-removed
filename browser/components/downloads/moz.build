@@ -160,11 +160,6 @@ DownloadsCommon
 jsm
 '
 '
-DownloadsLogger
-.
-jsm
-'
-'
 DownloadsTaskbar
 .
 jsm

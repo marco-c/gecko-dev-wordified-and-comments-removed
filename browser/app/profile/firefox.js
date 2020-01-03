@@ -3968,9 +3968,11 @@ browser
 .
 download
 .
-debug
+loglevel
 "
-false
+"
+Error
+"
 )
 ;
 pref
