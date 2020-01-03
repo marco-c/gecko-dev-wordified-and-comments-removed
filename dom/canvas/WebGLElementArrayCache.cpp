@@ -72,6 +72,12 @@ MOZ_ASSERT
 out_upperBound
 )
 ;
+uint32_t
+upperBound
+=
+*
+out_upperBound
+;
 *
 out_upperBound
 =
@@ -80,8 +86,7 @@ std
 :
 max
 (
-*
-out_upperBound
+upperBound
 newBound
 )
 ;
