@@ -170,6 +170,7 @@ Location
 {
 [
 Throws
+UnsafeInPrerendering
 ]
 void
 assign
@@ -181,6 +182,7 @@ url
 [
 Throws
 CrossOriginCallable
+UnsafeInPrerendering
 ]
 void
 replace
@@ -207,6 +209,7 @@ bug
 .
 [
 Throws
+UnsafeInPrerendering
 ]
 void
 reload
