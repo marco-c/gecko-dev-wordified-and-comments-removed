@@ -5300,7 +5300,10 @@ FlushFontCache
 RebuildAllStyleData
 (
 NS_STYLE_HINT_REFLOW
-eRestyle_Subtree
+nsRestyleHint
+(
+0
+)
 )
 ;
 }
@@ -7586,7 +7589,10 @@ nsChangeHint
 (
 0
 )
-eRestyle_Subtree
+nsRestyleHint
+(
+0
+)
 )
 ;
 }
