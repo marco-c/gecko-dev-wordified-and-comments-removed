@@ -160,6 +160,13 @@ Units
 .
 h
 "
+#
+include
+"
+nsIWidget
+.
+h
+"
 class
 nsFrameLoader
 ;
@@ -174,9 +181,6 @@ nsIPrincipal
 ;
 class
 nsIURI
-;
-class
-nsIWidget
 ;
 class
 nsILoadContext
@@ -2569,6 +2573,12 @@ mDelayedFrameScripts
 ;
 bool
 mNeedLayerTreeReadyNotification
+;
+nsCursor
+mCursor
+;
+bool
+mTabSetsCursor
 ;
 private
 :
