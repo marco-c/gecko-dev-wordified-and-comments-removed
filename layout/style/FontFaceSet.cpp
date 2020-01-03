@@ -1240,7 +1240,7 @@ NS_ERROR_DOM_INVALID_MODIFICATION_ERR
 )
 ;
 return
-nullptr
+false
 ;
 }
 if
