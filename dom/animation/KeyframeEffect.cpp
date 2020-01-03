@@ -5,7 +5,7 @@ mozilla
 /
 dom
 /
-Animation
+KeyframeEffect
 .
 h
 "
@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-AnimationBinding
+KeyframeEffectBinding
 .
 h
 "
@@ -264,23 +264,23 @@ dom
 {
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
-Animation
+KeyframeEffectReadonly
 mDocument
 mTarget
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (
-Animation
+KeyframeEffectReadonly
 AddRef
 )
 NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
 (
-Animation
+KeyframeEffectReadonly
 Release
 )
 JSObject
 *
-Animation
+KeyframeEffectReadonly
 :
 :
 WrapObject
@@ -300,7 +300,7 @@ aGivenProto
 )
 {
 return
-AnimationBinding
+KeyframeEffectReadonlyBinding
 :
 :
 Wrap
@@ -312,7 +312,7 @@ aGivenProto
 ;
 }
 void
-Animation
+KeyframeEffectReadonly
 :
 :
 SetParentTime
@@ -330,7 +330,7 @@ aParentTime
 ;
 }
 ComputedTiming
-Animation
+KeyframeEffectReadonly
 :
 :
 GetComputedTimingAt
@@ -898,7 +898,7 @@ result
 ;
 }
 StickyTimeDuration
-Animation
+KeyframeEffectReadonly
 :
 :
 ActiveDuration
@@ -966,7 +966,7 @@ mIterationCount
 ;
 }
 bool
-Animation
+KeyframeEffectReadonly
 :
 :
 IsInPlay
@@ -1017,7 +1017,7 @@ AnimationPhase_Active
 ;
 }
 bool
-Animation
+KeyframeEffectReadonly
 :
 :
 IsCurrent
@@ -1084,7 +1084,7 @@ AnimationPhase_Active
 ;
 }
 bool
-Animation
+KeyframeEffectReadonly
 :
 :
 IsInEffect
@@ -1125,7 +1125,7 @@ kNullTimeFraction
 const
 AnimationProperty
 *
-Animation
+KeyframeEffectReadonly
 :
 :
 GetAnimationOfProperty
@@ -1207,7 +1207,7 @@ nullptr
 ;
 }
 bool
-Animation
+KeyframeEffectReadonly
 :
 :
 HasAnimationOfProperties
@@ -1258,7 +1258,7 @@ false
 ;
 }
 void
-Animation
+KeyframeEffectReadonly
 :
 :
 ComposeStyle

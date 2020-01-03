@@ -89,6 +89,17 @@ include
 "
 mozilla
 /
+dom
+/
+KeyframeEffect
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 BaseRect
@@ -2335,7 +2346,7 @@ computedTiming
 dom
 :
 :
-Animation
+KeyframeEffectReadonly
 :
 :
 GetComputedTimingAt

@@ -414,6 +414,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+KeyframeEffect
+.
+h
+"
+#
+include
+"
 imgIRequest
 .
 h
@@ -2569,9 +2580,9 @@ continue
 dom
 :
 :
-Animation
+KeyframeEffectReadonly
 *
-anim
+effect
 =
 player
 -
@@ -2585,7 +2596,7 @@ for
 size_t
 propIdx
 =
-anim
+effect
 -
 >
 Properties
@@ -2609,7 +2620,7 @@ AnimationProperty
 &
 prop
 =
-anim
+effect
 -
 >
 Properties

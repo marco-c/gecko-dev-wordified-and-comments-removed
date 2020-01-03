@@ -126,11 +126,6 @@ dom
 =
 [
 '
-Animation
-.
-h
-'
-'
 AnimationPlayer
 .
 h
@@ -142,6 +137,11 @@ h
 '
 '
 DocumentTimeline
+.
+h
+'
+'
+KeyframeEffect
 .
 h
 '
@@ -168,11 +168,6 @@ UNIFIED_SOURCES
 =
 [
 '
-Animation
-.
-cpp
-'
-'
 AnimationPlayer
 .
 cpp
@@ -184,6 +179,11 @@ cpp
 '
 '
 DocumentTimeline
+.
+cpp
+'
+'
+KeyframeEffect
 .
 cpp
 '

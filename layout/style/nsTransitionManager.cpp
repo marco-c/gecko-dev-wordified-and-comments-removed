@@ -208,7 +208,7 @@ mozilla
 dom
 :
 :
-Animation
+KeyframeEffectReadonly
 ;
 using
 namespace
@@ -279,7 +279,7 @@ return
 dom
 :
 :
-Animation
+KeyframeEffectReadonly
 :
 :
 Name
@@ -1387,9 +1387,9 @@ i
 dom
 :
 :
-Animation
+KeyframeEffectReadonly
 *
-anim
+effect
 =
 player
 -
@@ -1400,10 +1400,10 @@ GetSource
 ;
 MOZ_ASSERT
 (
-anim
+effect
 &
 &
-anim
+effect
 -
 >
 Properties
@@ -1430,10 +1430,10 @@ transition
 ;
 MOZ_ASSERT
 (
-anim
+effect
 &
 &
-anim
+effect
 -
 >
 Properties
@@ -1469,7 +1469,7 @@ AnimationProperty
 &
 prop
 =
-anim
+effect
 -
 >
 Properties

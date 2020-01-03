@@ -160,11 +160,6 @@ Animatable
 webidl
 '
 '
-Animation
-.
-webidl
-'
-'
 AnimationEvent
 .
 webidl
@@ -1361,6 +1356,11 @@ webidl
 '
 '
 KeyEvent
+.
+webidl
+'
+'
+KeyframeEffect
 .
 webidl
 '

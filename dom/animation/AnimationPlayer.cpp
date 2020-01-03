@@ -1219,7 +1219,7 @@ AnimationPlayer
 :
 SetSource
 (
-Animation
+KeyframeEffectReadonly
 *
 aSource
 )
