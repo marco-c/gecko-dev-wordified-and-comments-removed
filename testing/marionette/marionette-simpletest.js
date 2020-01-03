@@ -1313,6 +1313,8 @@ Date
 now
 .
 valueOf
+(
+)
 +
 (
 typeof
