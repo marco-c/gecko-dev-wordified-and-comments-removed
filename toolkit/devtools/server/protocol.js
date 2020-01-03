@@ -91,6 +91,14 @@ object
 "
 )
 ;
+exports
+.
+emit
+=
+events
+.
+emit
+;
 function
 promiseDone
 (
