@@ -113,9 +113,13 @@ wstring
 &
 parameters
 const
+map
+<
 wstring
+wstring
+>
 &
-dump_file_name
+files
 wstring
 *
 report_code

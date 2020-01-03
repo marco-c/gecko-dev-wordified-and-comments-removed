@@ -145,9 +145,13 @@ wstring
 &
 parameters
 const
+map
+<
 wstring
+wstring
+>
 &
-dump_file_name
+files
 wstring
 *
 report_code
@@ -200,11 +204,7 @@ SendRequest
 (
 url
 parameters
-dump_file_name
-L
-"
-upload_file_minidump
-"
+files
 NULL
 report_code
 &

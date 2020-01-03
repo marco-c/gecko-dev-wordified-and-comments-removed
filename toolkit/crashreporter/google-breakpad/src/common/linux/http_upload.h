@@ -54,13 +54,13 @@ string
 &
 parameters
 const
+map
+<
 string
-&
-upload_file
-const
 string
+>
 &
-file_part_name
+files
 const
 string
 &
