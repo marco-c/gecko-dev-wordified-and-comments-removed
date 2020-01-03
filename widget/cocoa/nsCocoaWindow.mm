@@ -19968,6 +19968,17 @@ if
 self
 drawsContentsIntoWindowFrame
 ]
+&
+&
+!
+(
+[
+self
+styleMask
+]
+&
+NSFullScreenWindowMask
+)
 )
 {
 if
