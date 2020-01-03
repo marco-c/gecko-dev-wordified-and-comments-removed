@@ -1705,6 +1705,13 @@ argv
 )
 const
 {
+MOZ_ASSERT
+(
+hasArgs
+(
+)
+)
+;
 return
 argv_
 ;
