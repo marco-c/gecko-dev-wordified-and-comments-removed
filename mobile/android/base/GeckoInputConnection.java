@@ -2091,7 +2091,7 @@ public
 void
 onTextChange
 (
-CharSequence
+String
 text
 int
 start
@@ -5020,14 +5020,6 @@ append
 "
 )
 ;
-if
-(
-args
-!
-=
-null
-)
-{
 for
 (
 Object
@@ -5167,7 +5159,6 @@ length
 2
 )
 ;
-}
 }
 log
 .
