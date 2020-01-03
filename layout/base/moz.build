@@ -683,11 +683,6 @@ MaskLayerImageCache
 cpp
 '
 '
-MobileViewportManager
-.
-cpp
-'
-'
 nsBidi
 .
 cpp
