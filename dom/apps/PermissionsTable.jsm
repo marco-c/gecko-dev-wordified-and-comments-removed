@@ -2484,6 +2484,7 @@ function
 (
 aPermName
 aIntStatus
+aAppKind
 )
 {
 let
@@ -2528,6 +2529,19 @@ default
 :
 appStatus
 =
+aAppKind
+=
+=
+"
+hosted
+-
+trusted
+"
+?
+"
+trusted
+"
+:
 "
 app
 "
