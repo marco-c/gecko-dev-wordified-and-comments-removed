@@ -31,6 +31,7 @@ AutoObjectMapperPOSIX
 {
 public
 :
+explicit
 AutoObjectMapperPOSIX
 (
 void

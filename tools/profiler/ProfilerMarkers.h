@@ -32,6 +32,7 @@ ProfilerMarkerPayload
 {
 public
 :
+explicit
 ProfilerMarkerPayload
 (
 ProfilerBacktrace
@@ -251,6 +252,7 @@ ProfilerMarkerPayload
 {
 public
 :
+explicit
 ProfilerMarkerImagePayload
 (
 gfxASurface

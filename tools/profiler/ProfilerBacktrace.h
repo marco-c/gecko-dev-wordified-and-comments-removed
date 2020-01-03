@@ -12,6 +12,7 @@ ProfilerBacktrace
 {
 public
 :
+explicit
 ProfilerBacktrace
 (
 SyncProfile
