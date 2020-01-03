@@ -612,6 +612,11 @@ getPropertyValue
 direction
 "
 )
+tooltip
+:
+child
+.
+title
 children
 :
 tagName
