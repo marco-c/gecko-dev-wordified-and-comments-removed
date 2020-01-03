@@ -641,6 +641,8 @@ nsContinuationStates
 *
 aContinuationStates
 bool
+aSpanInLineOrder
+bool
 &
 aIsFirst
 bool
