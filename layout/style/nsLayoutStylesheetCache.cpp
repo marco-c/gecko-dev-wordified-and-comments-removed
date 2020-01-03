@@ -406,7 +406,7 @@ gStyleCache
 -
 >
 mNumberControlSheet
-false
+true
 )
 ;
 }

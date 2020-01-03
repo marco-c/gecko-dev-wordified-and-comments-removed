@@ -1652,7 +1652,6 @@ color
 ref
 .
 html
-fails
 =
 =
 ua
@@ -1683,9 +1682,6 @@ number
 ref
 .
 html
-#
-bug
-1123299
 HTTP
 (
 .
