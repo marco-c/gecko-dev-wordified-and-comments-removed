@@ -2902,6 +2902,9 @@ startServers
 self
 options
 debuggerInfo
+ignoreSSLTunnelExts
+=
+True
 )
         
 restoreRemotePaths

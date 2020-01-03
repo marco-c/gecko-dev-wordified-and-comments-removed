@@ -4967,6 +4967,9 @@ startServers
 self
 options
 debuggerInfo
+ignoreSSLTunnelExts
+=
+False
 )
 :
     
@@ -5054,6 +5057,9 @@ logger
 self
 .
 log
+ignoreSSLTunnelExts
+=
+ignoreSSLTunnelExts
 )
     
 self
@@ -6320,6 +6326,9 @@ __init__
 self
 options
 logger
+ignoreSSLTunnelExts
+=
+False
 )
 :
     
@@ -6390,6 +6399,13 @@ webSocketPort
 options
 .
 webSocketPort
+    
+self
+.
+useSSLTunnelExts
+=
+not
+ignoreSSLTunnelExts
     
 self
 .
@@ -6693,6 +6709,10 @@ redirhost
 )
       
 if
+self
+.
+useSSLTunnelExts
+and
 option
 in
 (
