@@ -2873,7 +2873,7 @@ mType
 MediaData
 :
 :
-AUDIO_SAMPLES
+AUDIO_DATA
 )
 ;
 AudioData
@@ -2997,7 +2997,7 @@ mType
 MediaData
 :
 :
-VIDEO_FRAME
+VIDEO_DATA
 )
 ;
 VideoQueue

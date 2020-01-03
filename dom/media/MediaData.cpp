@@ -458,7 +458,7 @@ aTimecode
 :
 MediaData
 (
-VIDEO_FRAME
+VIDEO_DATA
 aOffset
 aTime
 aDuration
@@ -521,7 +521,7 @@ aDisplay
 :
 MediaData
 (
-VIDEO_FRAME
+VIDEO_DATA
 aOffset
 aTime
 aDuration

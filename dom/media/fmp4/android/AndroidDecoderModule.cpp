@@ -240,7 +240,7 @@ MediaData
 Type
 :
 :
-VIDEO_FRAME
+VIDEO_DATA
 aConfig
 .
 mime_type
@@ -607,7 +607,7 @@ MediaData
 Type
 :
 :
-AUDIO_SAMPLES
+AUDIO_DATA
 aMimeType
 aFormat
 aCallback
