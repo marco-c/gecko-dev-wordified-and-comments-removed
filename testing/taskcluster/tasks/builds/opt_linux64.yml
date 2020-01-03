@@ -192,9 +192,6 @@ balrog
 production
 .
 py
-disable_sendchange
-.
-py
 '
 MH_BRANCH
 :
