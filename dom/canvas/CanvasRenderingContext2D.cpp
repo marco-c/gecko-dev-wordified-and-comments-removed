@@ -17425,11 +17425,7 @@ context
 SetMatrix
 (
 contextMatrix
-)
-;
-context
--
->
+.
 Scale
 (
 1
@@ -17447,13 +17443,8 @@ contextScale
 .
 height
 )
-;
-context
--
->
+.
 Translate
-(
-gfxPoint
 (
 dest
 .

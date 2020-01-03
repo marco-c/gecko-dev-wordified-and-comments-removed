@@ -451,15 +451,6 @@ true
 )
 ;
 void
-Translate
-(
-const
-gfxPoint
-&
-pt
-)
-;
-void
 Scale
 (
 gfxFloat

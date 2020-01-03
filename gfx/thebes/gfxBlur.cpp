@@ -431,10 +431,16 @@ dt
 mContext
 -
 >
-Translate
+SetMatrix
+(
+gfxMatrix
+:
+:
+Translation
 (
 -
 topleft
+)
 )
 ;
 return
