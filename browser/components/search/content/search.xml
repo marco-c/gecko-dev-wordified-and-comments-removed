@@ -3441,16 +3441,6 @@ menuitem
 setAttribute
 (
 "
-id
-"
-name
-)
-;
-menuitem
-.
-setAttribute
-(
-"
 class
 "
 "
