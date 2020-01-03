@@ -749,6 +749,7 @@ mRequestMode
 ;
 public
 :
+NS_DECL_ISUPPORTS
 RespondWithHandler
 (
 nsMainThreadPtrHandle
@@ -826,6 +827,14 @@ CancelRequest
 (
 )
 ;
+private
+:
+~
+RespondWithHandler
+(
+)
+{
+}
 }
 ;
 struct
@@ -1022,6 +1031,10 @@ nullptr
 }
 }
 ;
+NS_IMPL_ISUPPORTS0
+(
+RespondWithHandler
+)
 void
 RespondWithHandler
 :

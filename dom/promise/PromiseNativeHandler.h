@@ -43,7 +43,6 @@ PromiseNativeHandler
 }
 public
 :
-NS_DECL_ISUPPORTS
 virtual
 void
 ResolvedCallback
