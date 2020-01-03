@@ -252,6 +252,11 @@ nsITabParent
 .
 idl
 '
+'
+nsITextInputProcessor
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
