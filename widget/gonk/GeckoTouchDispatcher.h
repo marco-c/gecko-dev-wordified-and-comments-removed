@@ -92,7 +92,7 @@ TimeStamp
 aVsyncTime
 )
 ;
-bool
+void
 NotifyVsync
 (
 TimeStamp
