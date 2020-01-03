@@ -72,10 +72,6 @@ MODULE
 dbm
 EXPORTS
 =
-cdefs
-.
-h
-\
 mcom_db
 .
 h
@@ -110,10 +106,6 @@ queue
 h
 \
 hash
-.
-h
-\
-mpool
 .
 h
 \

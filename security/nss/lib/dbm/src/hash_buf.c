@@ -143,15 +143,12 @@ static
 BUFHEAD
 *
 newbuf
-__P
-(
 (
 HTAB
 *
 uint32
 BUFHEAD
 *
-)
 )
 ;
 #

@@ -366,6 +366,11 @@ EnableSomeEcdheCiphers
 (
 )
 ;
+void
+DisableDheCiphers
+(
+)
+;
 bool
 EnsureTlsSetup
 (

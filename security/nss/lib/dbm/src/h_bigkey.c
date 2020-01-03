@@ -135,8 +135,6 @@ h
 static
 int
 collect_key
-__P
-(
 (
 HTAB
 *
@@ -147,13 +145,10 @@ DBT
 *
 int
 )
-)
 ;
 static
 int
 collect_data
-__P
-(
 (
 HTAB
 *
@@ -161,7 +156,6 @@ BUFHEAD
 *
 int
 int
-)
 )
 ;
 extern

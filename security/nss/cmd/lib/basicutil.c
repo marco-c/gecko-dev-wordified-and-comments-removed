@@ -1086,6 +1086,8 @@ i
 ;
 int
 column
+=
+0
 ;
 PRBool
 isString
