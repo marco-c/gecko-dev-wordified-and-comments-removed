@@ -22,7 +22,7 @@ dom
 /
 cache
 /
-CacheTypes
+PCacheTypes
 .
 h
 "
@@ -283,7 +283,7 @@ aSavedResponse
 StreamList
 *
 aStreamList
-CacheResponse
+PCacheResponse
 *
 aResponseOut
 )
@@ -298,7 +298,7 @@ aId
 StreamList
 *
 aStreamList
-CacheReadStream
+PCacheReadStream
 *
 aReadStreamOut
 )

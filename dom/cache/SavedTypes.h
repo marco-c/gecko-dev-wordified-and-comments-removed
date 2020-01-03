@@ -13,7 +13,7 @@ dom
 /
 cache
 /
-CacheTypes
+PCacheTypes
 .
 h
 "
@@ -83,7 +83,7 @@ void_t
 )
 ;
 }
-CacheRequest
+PCacheRequest
 mValue
 ;
 bool
@@ -120,7 +120,7 @@ void_t
 )
 ;
 }
-CacheResponse
+PCacheResponse
 mValue
 ;
 bool

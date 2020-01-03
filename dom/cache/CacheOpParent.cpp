@@ -363,7 +363,7 @@ get_CacheAddAllArgs
 const
 nsTArray
 <
-CacheRequest
+PCacheRequest
 >
 &
 list
@@ -1112,7 +1112,7 @@ CacheOpParent
 DeserializeCacheStream
 (
 const
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 &
 aStreamOrVoid
 )
@@ -1126,7 +1126,7 @@ type
 )
 =
 =
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 :
 :
 Tvoid_t
@@ -1143,13 +1143,13 @@ nsIInputStream
 stream
 ;
 const
-CacheReadStream
+PCacheReadStream
 &
 readStream
 =
 aStreamOrVoid
 .
-get_CacheReadStream
+get_PCacheReadStream
 (
 )
 ;

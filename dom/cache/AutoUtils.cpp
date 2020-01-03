@@ -174,7 +174,7 @@ dom
 cache
 :
 :
-CacheReadStream
+PCacheReadStream
 ;
 using
 mozilla
@@ -186,7 +186,7 @@ dom
 cache
 :
 :
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 ;
 using
 mozilla
@@ -234,7 +234,7 @@ Delete
 void
 CleanupChildFds
 (
-CacheReadStream
+PCacheReadStream
 &
 aReadStream
 CleanupAction
@@ -328,7 +328,7 @@ fds
 void
 CleanupChildPushStream
 (
-CacheReadStream
+PCacheReadStream
 &
 aReadStream
 CleanupAction
@@ -393,7 +393,7 @@ Start
 void
 CleanupChild
 (
-CacheReadStream
+PCacheReadStream
 &
 aReadStream
 CleanupAction
@@ -416,7 +416,7 @@ aAction
 void
 CleanupChild
 (
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 &
 aReadStreamOrVoid
 CleanupAction
@@ -432,7 +432,7 @@ type
 )
 =
 =
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 :
 :
 Tvoid_t
@@ -445,7 +445,7 @@ CleanupChild
 (
 aReadStreamOrVoid
 .
-get_CacheReadStream
+get_PCacheReadStream
 (
 )
 aAction
@@ -455,7 +455,7 @@ aAction
 void
 CleanupParentFds
 (
-CacheReadStream
+PCacheReadStream
 &
 aReadStream
 CleanupAction
@@ -549,7 +549,7 @@ fds
 void
 CleanupParentFds
 (
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 &
 aReadStreamOrVoid
 CleanupAction
@@ -565,7 +565,7 @@ type
 )
 =
 =
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 :
 :
 Tvoid_t
@@ -578,7 +578,7 @@ CleanupParentFds
 (
 aReadStreamOrVoid
 .
-get_CacheReadStream
+get_PCacheReadStream
 (
 )
 aAction
@@ -727,7 +727,7 @@ type
 )
 =
 =
-CacheRequestOrVoid
+PCacheRequestOrVoid
 :
 :
 Tvoid_t
@@ -744,7 +744,7 @@ requestOrVoid
 (
 )
 .
-get_CacheRequest
+get_PCacheRequest
 (
 )
 .
@@ -970,7 +970,7 @@ type
 )
 =
 =
-CacheRequestOrVoid
+PCacheRequestOrVoid
 :
 :
 Tvoid_t
@@ -987,7 +987,7 @@ requestOrVoid
 (
 )
 .
-get_CacheRequest
+get_PCacheRequest
 (
 )
 .
@@ -1095,7 +1095,7 @@ get_CacheMatchArgs
 mTypeUtils
 -
 >
-ToCacheRequest
+ToPCacheRequest
 (
 args
 .
@@ -1142,7 +1142,7 @@ type
 )
 =
 =
-CacheRequestOrVoid
+PCacheRequestOrVoid
 :
 :
 Tvoid_t
@@ -1154,14 +1154,14 @@ requestOrVoid
 (
 )
 =
-CacheRequest
+PCacheRequest
 (
 )
 ;
 mTypeUtils
 -
 >
-ToCacheRequest
+ToPCacheRequest
 (
 args
 .
@@ -1169,7 +1169,7 @@ requestOrVoid
 (
 )
 .
-get_CacheRequest
+get_PCacheRequest
 (
 )
 aRequest
@@ -1199,7 +1199,7 @@ get_CacheAddAllArgs
 (
 )
 ;
-CacheRequest
+PCacheRequest
 &
 request
 =
@@ -1217,7 +1217,7 @@ AppendElement
 mTypeUtils
 -
 >
-ToCacheRequest
+ToPCacheRequest
 (
 request
 aRequest
@@ -1281,7 +1281,7 @@ get_CacheDeleteArgs
 mTypeUtils
 -
 >
-ToCacheRequest
+ToPCacheRequest
 (
 args
 .
@@ -1328,7 +1328,7 @@ type
 )
 =
 =
-CacheRequestOrVoid
+PCacheRequestOrVoid
 :
 :
 Tvoid_t
@@ -1340,14 +1340,14 @@ requestOrVoid
 (
 )
 =
-CacheRequest
+PCacheRequest
 (
 )
 ;
 mTypeUtils
 -
 >
-ToCacheRequest
+ToPCacheRequest
 (
 args
 .
@@ -1355,7 +1355,7 @@ requestOrVoid
 (
 )
 .
-get_CacheRequest
+get_PCacheRequest
 (
 )
 aRequest
@@ -1388,7 +1388,7 @@ get_StorageMatchArgs
 mTypeUtils
 -
 >
-ToCacheRequest
+ToPCacheRequest
 (
 args
 .
@@ -1524,7 +1524,7 @@ void_t
 mTypeUtils
 -
 >
-ToCacheRequest
+ToPCacheRequest
 (
 pair
 .
@@ -1551,7 +1551,7 @@ Failed
 mTypeUtils
 -
 >
-ToCacheResponse
+ToPCacheResponse
 (
 pair
 .
@@ -1755,7 +1755,7 @@ type
 )
 =
 =
-CacheResponseOrVoid
+PCacheResponseOrVoid
 :
 :
 Tvoid_t
@@ -1772,7 +1772,7 @@ responseOrVoid
 (
 )
 .
-get_CacheResponse
+get_PCacheResponse
 (
 )
 .
@@ -1939,7 +1939,7 @@ type
 )
 =
 =
-CacheResponseOrVoid
+PCacheResponseOrVoid
 :
 :
 Tvoid_t
@@ -1956,7 +1956,7 @@ responseOrVoid
 (
 )
 .
-get_CacheResponse
+get_PCacheResponse
 (
 )
 .
@@ -2180,7 +2180,7 @@ type
 )
 =
 =
-CacheResponseOrVoid
+PCacheResponseOrVoid
 :
 :
 Tvoid_t
@@ -2207,7 +2207,7 @@ responseOrVoid
 (
 )
 .
-get_CacheResponse
+get_PCacheResponse
 (
 )
 )
@@ -2294,7 +2294,7 @@ type
 )
 =
 =
-CacheResponseOrVoid
+PCacheResponseOrVoid
 :
 :
 Tvoid_t
@@ -2321,7 +2321,7 @@ responseOrVoid
 (
 )
 .
-get_CacheResponse
+get_PCacheResponse
 (
 )
 )
@@ -2408,7 +2408,7 @@ aSavedRequest
 mValue
 )
 ;
-CacheRequest
+PCacheRequest
 &
 request
 =
@@ -2449,7 +2449,7 @@ body
 (
 )
 =
-CacheReadStream
+PCacheReadStream
 (
 )
 ;
@@ -2466,7 +2466,7 @@ body
 (
 )
 .
-get_CacheReadStream
+get_PCacheReadStream
 (
 )
 )
@@ -2530,7 +2530,7 @@ aSavedResponse
 StreamList
 *
 aStreamList
-CacheResponse
+PCacheResponse
 *
 aResponseOut
 )
@@ -2569,7 +2569,7 @@ body
 (
 )
 =
-CacheReadStream
+PCacheReadStream
 (
 )
 ;
@@ -2587,7 +2587,7 @@ body
 (
 )
 .
-get_CacheReadStream
+get_PCacheReadStream
 (
 )
 )
@@ -2606,7 +2606,7 @@ aId
 StreamList
 *
 aStreamList
-CacheReadStream
+PCacheReadStream
 *
 aReadStreamOut
 )

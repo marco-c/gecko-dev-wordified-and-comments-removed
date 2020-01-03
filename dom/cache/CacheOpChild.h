@@ -169,7 +169,7 @@ void
 HandleResponse
 (
 const
-CacheResponseOrVoid
+PCacheResponseOrVoid
 &
 aResponseOrVoid
 )
@@ -180,7 +180,7 @@ HandleResponseList
 const
 nsTArray
 <
-CacheResponse
+PCacheResponse
 >
 &
 aResponseList
@@ -192,7 +192,7 @@ HandleRequestList
 const
 nsTArray
 <
-CacheRequest
+PCacheRequest
 >
 &
 aRequestList

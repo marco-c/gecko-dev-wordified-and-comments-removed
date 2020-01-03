@@ -95,7 +95,7 @@ virtual
 void
 SerializeControl
 (
-CacheReadStream
+PCacheReadStream
 *
 aReadStreamOut
 )
@@ -105,7 +105,7 @@ virtual
 void
 SerializeFds
 (
-CacheReadStream
+PCacheReadStream
 *
 aReadStreamOut
 const
@@ -129,7 +129,7 @@ void
 DeserializeFds
 (
 const
-CacheReadStream
+PCacheReadStream
 &
 aReadStream
 nsTArray
