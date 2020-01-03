@@ -483,11 +483,6 @@ nsFrameLoader
 aSecondToSwap
 )
 ;
-void
-DestroyChild
-(
-)
-;
 nsIFrame
 *
 GetPrimaryFrameOfOwningContent
