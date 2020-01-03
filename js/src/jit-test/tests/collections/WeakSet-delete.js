@@ -197,3 +197,14 @@ value
 false
 )
 ;
+assertEq
+(
+ws
+.
+delete
+(
+15
+)
+false
+)
+;
