@@ -403,6 +403,17 @@ ANDROID_PACKAGE_NAME
 "
 ANDROID_PACKAGE_NAME
 "
+MOZ_ANDROID_APZ
+:
+#
+ifdef
+MOZ_ANDROID_APZ
+true
+#
+else
+false
+#
+endif
 DEBUG_JS_MODULES
 :
 "
