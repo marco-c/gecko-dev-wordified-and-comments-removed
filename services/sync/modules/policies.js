@@ -3702,6 +3702,11 @@ Common
 .
 TokenServerClient
 "
+"
+Sync
+.
+SyncMigration
+"
 ]
 )
 {
