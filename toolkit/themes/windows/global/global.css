@@ -1292,6 +1292,16 @@ moz
 DialogText
 ;
 }
+popupnotificationcontent
+{
+margin
+-
+top
+:
+.
+5em
+;
+}
 .
 autoscroller
 {

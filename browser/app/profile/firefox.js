@@ -234,6 +234,16 @@ temporaryThemeOverride_minAppVersion
 pref
 (
 "
+xpinstall
+.
+customConfirmationUI
+"
+true
+)
+;
+pref
+(
+"
 extensions
 .
 getAddons
