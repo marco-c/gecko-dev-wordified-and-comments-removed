@@ -173,6 +173,9 @@ techLost
 "
 hciEventTransaction
 "
+"
+ndefReceived
+"
 }
 ;
 /
