@@ -142,6 +142,9 @@ addonId
 "
 isSystem
 "
+"
+groupId
+"
 ]
 ;
 const
