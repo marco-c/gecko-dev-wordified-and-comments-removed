@@ -102,6 +102,15 @@ return
 nullptr
 ;
 }
+TextureClient
+*
+GetD3D9TextureClient
+(
+CompositableClient
+*
+aClient
+)
+;
 ~
 IMFYCbCrImage
 (
