@@ -492,6 +492,15 @@ bool
 aIsSynthesized
 )
 ;
+bool
+MaybeDispatchCompositionUpdate
+(
+const
+WidgetTextEvent
+*
+aEvent
+)
+;
 void
 NotityUpdateComposition
 (
