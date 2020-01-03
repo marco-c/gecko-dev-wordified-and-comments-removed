@@ -483,7 +483,7 @@ css
 type
 :
 "
-resource
+cssresource
 "
 }
 ]
@@ -863,7 +863,7 @@ js
 type
 :
 "
-resource
+jsresource
 "
 }
 ]
