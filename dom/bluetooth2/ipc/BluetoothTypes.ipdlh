@@ -196,7 +196,6 @@ ish
 access
 .
 *
-*
 /
 union
 BluetoothValue
@@ -255,7 +254,6 @@ and
 a
 type
 .
-*
 *
 /
 struct
