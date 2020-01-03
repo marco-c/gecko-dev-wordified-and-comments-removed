@@ -2760,6 +2760,10 @@ GLContext
 retGL
 =
 glContext
+.
+get
+(
+)
 ;
 return
 retGL
