@@ -186,14 +186,6 @@ DebuggerServer
 .
 init
 (
-function
-(
-)
-{
-return
-true
-;
-}
 )
 ;
 add_task

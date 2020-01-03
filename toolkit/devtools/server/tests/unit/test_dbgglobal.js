@@ -84,14 +84,6 @@ DebuggerServer
 .
 init
 (
-function
-(
-)
-{
-return
-true
-;
-}
 )
 ;
 check_except
