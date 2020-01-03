@@ -116,7 +116,7 @@ nfc
 AvailableIn
 =
 "
-CertifiedApps
+PrivilegedApps
 "
 ]
 interface

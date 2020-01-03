@@ -117,7 +117,7 @@ NFCPeer
 AvailableIn
 =
 "
-CertifiedApps
+PrivilegedApps
 "
 ]
 interface
@@ -172,6 +172,11 @@ CheckPermissions
 nfc
 -
 share
+"
+AvailableIn
+=
+"
+CertifiedApps
 "
 ]
 Promise

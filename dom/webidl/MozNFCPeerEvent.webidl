@@ -119,7 +119,7 @@ share
 AvailableIn
 =
 "
-CertifiedApps
+PrivilegedApps
 "
 ]
 interface

@@ -184,6 +184,9 @@ nfc
 -
 manager
 "
+AvailableIn
+=
+CertifiedApps
 ]
 Promise
 <
@@ -221,6 +224,9 @@ nfc
 -
 manager
 "
+AvailableIn
+=
+CertifiedApps
 ]
 void
 notifyUserAcceptedP2P
@@ -249,6 +255,9 @@ nfc
 -
 manager
 "
+AvailableIn
+=
+CertifiedApps
 ]
 void
 notifySendFileStatus
@@ -287,6 +296,9 @@ nfc
 -
 manager
 "
+AvailableIn
+=
+CertifiedApps
 ]
 Promise
 <
@@ -327,6 +339,9 @@ nfc
 -
 manager
 "
+AvailableIn
+=
+CertifiedApps
 ]
 Promise
 <
@@ -356,6 +371,9 @@ nfc
 -
 manager
 "
+AvailableIn
+=
+CertifiedApps
 ]
 Promise
 <
@@ -403,7 +421,7 @@ share
 AvailableIn
 =
 "
-CertifiedApps
+PrivilegedApps
 "
 ]
 interface
@@ -461,6 +479,9 @@ nfc
 -
 share
 "
+AvailableIn
+=
+CertifiedApps
 ]
 attribute
 EventHandler

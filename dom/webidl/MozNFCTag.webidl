@@ -214,7 +214,7 @@ NFCTag
 AvailableIn
 =
 "
-CertifiedApps
+PrivilegedApps
 "
 ]
 interface
