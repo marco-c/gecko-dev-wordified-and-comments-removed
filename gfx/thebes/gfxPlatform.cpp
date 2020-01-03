@@ -10030,9 +10030,8 @@ sLayersSupportsD3D11
 =
 false
 ;
-static
 bool
-sANGLESupportsD3D11
+gANGLESupportsD3D11
 =
 false
 ;
@@ -10277,7 +10276,7 @@ nsIGfxInfo
 FEATURE_STATUS_OK
 )
 {
-sANGLESupportsD3D11
+gANGLESupportsD3D11
 =
 true
 ;
@@ -10465,7 +10464,7 @@ sLayersAccelerationPrefsInitialized
 )
 ;
 return
-sANGLESupportsD3D11
+gANGLESupportsD3D11
 ;
 }
 bool
