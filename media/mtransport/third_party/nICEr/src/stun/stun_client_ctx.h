@@ -332,6 +332,9 @@ maximum_transmits
 UINT4
 final_retransmit_backoff_ms
 ;
+UINT4
+mapped_addr_check_mask
+;
 int
 timeout_ms
 ;
@@ -436,6 +439,8 @@ nr_stun_transport_addr_check
 nr_transport_addr
 *
 addr
+UINT4
+mask
 )
 ;
 int

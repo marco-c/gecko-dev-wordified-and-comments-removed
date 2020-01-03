@@ -60,6 +60,14 @@ final_retransmit_backoff
 "
 #
 define
+NR_STUN_REG_PREF_ALLOW_LOOPBACK_ADDRS
+"
+stun
+.
+allow_loopback
+"
+#
+define
 NR_STUN_REG_PREF_ADDRESS_PRFX
 "
 stun

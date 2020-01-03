@@ -612,6 +612,16 @@ bool
 set_interface_priorities
 =
 true
+bool
+allow_loopback
+=
+false
+)
+;
+static
+void
+internal_DeinitializeGlobal
+(
 )
 ;
 nr_ice_ctx
