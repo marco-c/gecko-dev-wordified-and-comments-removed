@@ -209,6 +209,11 @@ ManagerId
 h
 '
 '
+OfflineStorage
+.
+h
+'
+'
 PrincipalVerifier
 .
 h
@@ -345,6 +350,11 @@ cpp
 '
 '
 ManagerId
+.
+cpp
+'
+'
+OfflineStorage
 .
 cpp
 '
