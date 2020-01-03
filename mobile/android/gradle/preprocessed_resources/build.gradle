@@ -53,14 +53,6 @@ all
 variant
 -
 >
-variant
-.
-checkManifest
-.
-dependsOn
-rootProject
-.
-generateCodeAndResources
 }
 dependencies
 {
