@@ -1852,7 +1852,7 @@ kind
 ;
 }
 MOZ_ALWAYS_INLINE
-void
+TenuredCell
 *
 js
 :
@@ -1869,7 +1869,7 @@ AllocKind
 thingKind
 )
 {
-void
+TenuredCell
 *
 t
 =
@@ -2766,7 +2766,7 @@ JSObject
 *
 dst
 =
-static_cast
+reinterpret_cast
 <
 JSObject
 *

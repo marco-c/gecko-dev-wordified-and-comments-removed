@@ -1091,7 +1091,10 @@ size_t
 nslots
 )
 ;
-void
+gc
+:
+:
+TenuredCell
 *
 allocateFromTenured
 (

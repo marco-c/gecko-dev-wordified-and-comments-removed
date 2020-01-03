@@ -1809,7 +1809,7 @@ last
 #
 endif
 MOZ_ALWAYS_INLINE
-void
+TenuredCell
 *
 allocate
 (
@@ -1911,7 +1911,7 @@ thingSize
 return
 reinterpret_cast
 <
-void
+TenuredCell
 *
 >
 (

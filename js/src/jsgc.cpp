@@ -8228,13 +8228,12 @@ arena
 ;
 }
 }
-inline
-void
+TenuredCell
 *
 ArenaLists
 :
 :
-allocateFromArenaInline
+allocateFromArena
 (
 Zone
 *
@@ -8243,7 +8242,7 @@ AllocKind
 thingKind
 AutoMaybeStartBackgroundAllocation
 &
-maybeStartBackgroundAllocation
+maybeStartBGAlloc
 )
 {
 AutoLockGC
@@ -8449,7 +8448,7 @@ zone
 aheader
 )
 ;
-void
+TenuredCell
 *
 thing
 =
@@ -8517,7 +8516,7 @@ gc
 pickChunk
 (
 zone
-maybeStartBackgroundAllocation
+maybeStartBGAlloc
 )
 ;
 if
@@ -8669,7 +8668,7 @@ thingSize
 )
 ;
 }
-void
+TenuredCell
 *
 ArenaLists
 :
@@ -8690,7 +8689,7 @@ AutoMaybeStartBackgroundAllocation
 maybeStartBackgroundAllocation
 ;
 return
-allocateFromArenaInline
+allocateFromArena
 (
 zone
 thingKind
@@ -12087,7 +12086,7 @@ allowGC
 >
 void
 *
-ArenaLists
+GCRuntime
 :
 :
 refillFreeListFromMainThread
@@ -12271,7 +12270,7 @@ allocator
 >
 arenas
 .
-allocateFromArenaInline
+allocateFromArena
 (
 zone
 thingKind
@@ -12309,7 +12308,7 @@ allocator
 >
 arenas
 .
-allocateFromArenaInline
+allocateFromArena
 (
 zone
 thingKind
@@ -12365,7 +12364,7 @@ nullptr
 }
 void
 *
-ArenaLists
+GCRuntime
 :
 :
 refillFreeListOffMainThread
@@ -12441,7 +12440,7 @@ allocator
 >
 arenas
 .
-allocateFromArenaInline
+allocateFromArena
 (
 zone
 thingKind
@@ -12451,7 +12450,7 @@ maybeStartBGAlloc
 }
 void
 *
-ArenaLists
+GCRuntime
 :
 :
 refillFreeListPJS
@@ -12492,7 +12491,7 @@ allocator
 >
 arenas
 .
-allocateFromArenaInline
+allocateFromArena
 (
 zone
 thingKind
@@ -12507,10 +12506,10 @@ allowGC
 >
 void
 *
-ArenaLists
+GCRuntime
 :
 :
-refillFreeList
+refillFreeListFromAnyThread
 (
 ThreadSafeContext
 *
@@ -12615,10 +12614,10 @@ thingKind
 template
 void
 *
-ArenaLists
+GCRuntime
 :
 :
-refillFreeList
+refillFreeListFromAnyThread
 <
 NoGC
 >
@@ -12633,10 +12632,10 @@ thingKind
 template
 void
 *
-ArenaLists
+GCRuntime
 :
 :
-refillFreeList
+refillFreeListFromAnyThread
 <
 CanGC
 >
@@ -12650,7 +12649,7 @@ thingKind
 ;
 void
 *
-ArenaLists
+GCRuntime
 :
 :
 refillFreeListInGC
