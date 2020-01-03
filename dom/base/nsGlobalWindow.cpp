@@ -3134,6 +3134,10 @@ mAudioVolume
 .
 0
 )
+mDesktopModeViewport
+(
+false
+)
 mInnerWindow
 (
 nullptr
