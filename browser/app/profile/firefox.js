@@ -16437,7 +16437,7 @@ false
 endif
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 pref
 (
 "
@@ -16474,7 +16474,7 @@ true
 endif
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 pref
 (
 "
