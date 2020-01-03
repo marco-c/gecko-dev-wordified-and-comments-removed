@@ -1204,6 +1204,15 @@ aLayerize
 )
 ;
 static
+bool
+IsScrollbarThumbLayerized
+(
+nsIFrame
+*
+aThumbFrame
+)
+;
+static
 nsIFrame
 *
 GetAnimatedGeometryRootFor
