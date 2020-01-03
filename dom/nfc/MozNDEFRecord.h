@@ -309,6 +309,16 @@ mPayload
 )
 ;
 }
+uint32_t
+Size
+(
+)
+const
+{
+return
+mSize
+;
+}
 private
 :
 MozNDEFRecord
@@ -377,6 +387,9 @@ JSObject
 *
 >
 mPayload
+;
+uint32_t
+mSize
 ;
 }
 ;
