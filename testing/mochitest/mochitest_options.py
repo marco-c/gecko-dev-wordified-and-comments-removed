@@ -5800,6 +5800,23 @@ geckomediaplugin
 "
 ]
         
+if
+mozinfo
+.
+isWin
+:
+            
+options
+.
+ignoreMissingLeaks
+.
+append
+(
+"
+tab
+"
+)
+        
 return
 options
 class
