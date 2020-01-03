@@ -2464,16 +2464,8 @@ isGCSweeping
 )
 )
 {
-MOZ_ASSERT_IF
+if
 (
-!
-rt
--
->
-isHeapMinorCollecting
-(
-)
-!
 thing
 -
 >
@@ -2488,6 +2480,8 @@ arenaHeader
 >
 allocatedDuringIncremental
 )
+return
+false
 ;
 return
 !

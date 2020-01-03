@@ -992,6 +992,12 @@ other
 markCount
 )
 ;
+MOZ_ASSERT
+(
+!
+latest
+)
+;
 size_t
 oldPeakSize
 =

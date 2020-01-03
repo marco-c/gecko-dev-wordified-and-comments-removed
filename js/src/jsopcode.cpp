@@ -5571,11 +5571,13 @@ if
 script
 -
 >
-compartment
+zone
 (
 )
 -
 >
+types
+.
 activeAnalysis
 )
 {
@@ -10533,6 +10535,8 @@ script
 -
 >
 types
+(
+)
 )
 {
 ScriptAndCounts

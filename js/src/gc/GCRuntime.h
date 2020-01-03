@@ -2843,6 +2843,9 @@ Zone
 *
 currentZoneGroup
 ;
+bool
+sweepingTypes
+;
 unsigned
 finalizePhase
 ;

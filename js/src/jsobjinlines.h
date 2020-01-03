@@ -4689,11 +4689,13 @@ hasObjectMetadataCallback
 cx
 -
 >
-compartment
+zone
 (
 )
 -
 >
+types
+.
 activeAnalysis
 )
 {

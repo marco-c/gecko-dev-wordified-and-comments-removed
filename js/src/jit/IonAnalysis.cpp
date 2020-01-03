@@ -15907,11 +15907,13 @@ MOZ_ASSERT
 cx
 -
 >
-compartment
+zone
 (
 )
 -
 >
+types
+.
 activeAnalysis
 )
 ;

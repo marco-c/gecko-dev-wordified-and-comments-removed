@@ -807,9 +807,6 @@ Allocator
 workerAllocator
 )
 ;
-bool
-activeAnalysis
-;
 js
 :
 :
