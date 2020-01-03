@@ -1525,6 +1525,13 @@ IsLogicallyPlaying
 (
 )
 ;
+void
+RecreateDecodedStreamIfNecessary
+(
+int64_t
+aStartTimeUSecs
+)
+;
 #
 ifdef
 MOZ_EME
