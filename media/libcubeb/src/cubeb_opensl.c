@@ -336,6 +336,9 @@ stm
 =
 user_ptr
 ;
+int
+draining
+;
 assert
 (
 stm
@@ -358,13 +361,12 @@ stm
 mutex
 )
 ;
-assert
-(
+draining
+=
 stm
 -
 >
 draining
-)
 ;
 pthread_mutex_unlock
 (
@@ -375,6 +377,11 @@ stm
 mutex
 )
 ;
+if
+(
+draining
+)
+{
 stm
 -
 >
@@ -406,6 +413,7 @@ play
 SL_PLAYSTATE_PAUSED
 )
 ;
+}
 break
 ;
 default
