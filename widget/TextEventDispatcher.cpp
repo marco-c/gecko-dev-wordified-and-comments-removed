@@ -260,7 +260,9 @@ IsComposing
 )
 |
 |
-mDispatchingEvent
+IsDispatchingEvent
+(
+)
 )
 {
 return
