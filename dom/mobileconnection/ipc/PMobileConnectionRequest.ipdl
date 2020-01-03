@@ -214,7 +214,7 @@ additionalInformation
 struct
 MobileConnectionReplySuccessCallForwarding
 {
-MozCallForwardingOptions
+nsMobileCallForwardingOptions
 [
 ]
 results
