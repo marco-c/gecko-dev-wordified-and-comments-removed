@@ -466,6 +466,11 @@ HelpersSkia
 .
 h
 '
+'
+RefPtrSkia
+.
+h
+'
 ]
 #
 Are
