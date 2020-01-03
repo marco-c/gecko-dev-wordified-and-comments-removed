@@ -1180,6 +1180,14 @@ instr
 )
 ;
 void
+decodeType7CoprocessorIns
+(
+SimInstruction
+*
+instr
+)
+;
+void
 instructionDecode
 (
 SimInstruction
