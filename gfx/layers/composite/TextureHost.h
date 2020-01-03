@@ -1257,6 +1257,13 @@ nullptr
 }
 protected
 :
+void
+RecycleTexture
+(
+TextureFlags
+aFlags
+)
+;
 PTextureParent
 *
 mActor
