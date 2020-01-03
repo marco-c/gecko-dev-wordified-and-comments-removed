@@ -433,6 +433,9 @@ case
 TITLE
 :
 case
+FAVICON
+:
+case
 RECORDING_CHANGE
 :
 tabStripView
