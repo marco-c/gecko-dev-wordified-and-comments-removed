@@ -318,9 +318,6 @@ END_TEST
 (
 testWeakMap_basicOperations
 )
-#
-ifndef
-JSGC_COMPACTING
 BEGIN_TEST
 (
 testWeakMap_keyDelegates
@@ -1024,5 +1021,3 @@ END_TEST
 (
 testWeakMap_keyDelegates
 )
-#
-endif

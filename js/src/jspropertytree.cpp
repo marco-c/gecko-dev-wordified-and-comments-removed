@@ -1095,9 +1095,6 @@ toHash
 )
 ;
 }
-#
-ifdef
-JSGC_COMPACTING
 void
 Shape
 :
@@ -1604,8 +1601,6 @@ fixupShapeTreeAfterMovingGC
 )
 ;
 }
-#
-endif
 void
 ShapeGetterSetterRef
 :

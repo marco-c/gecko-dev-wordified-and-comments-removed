@@ -3269,9 +3269,6 @@ key
 }
 }
 }
-#
-ifdef
-JSGC_COMPACTING
 void
 JSCompartment
 :
@@ -3333,8 +3330,6 @@ global
 )
 ;
 }
-#
-endif
 void
 JSCompartment
 :
