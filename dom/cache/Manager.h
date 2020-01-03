@@ -61,6 +61,9 @@ nsIThread
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 namespace
 dom
 {

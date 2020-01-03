@@ -2045,7 +2045,6 @@ entry
 >
 mRequest
 IgnoreBody
-PassThroughReferrer
 IgnoreInvalidScheme
 rv
 )

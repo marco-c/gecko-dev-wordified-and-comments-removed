@@ -43,6 +43,13 @@ h
 #
 include
 "
+InternalHeaders
+.
+h
+"
+#
+include
+"
 InternalResponse
 .
 h
@@ -55,9 +62,6 @@ dom
 {
 class
 Headers
-;
-class
-InternalHeaders
 ;
 class
 Response

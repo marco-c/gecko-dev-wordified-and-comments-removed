@@ -382,16 +382,6 @@ params
 }
 ;
 struct
-CacheAddAllArgs
-{
-CacheRequest
-[
-]
-requestList
-;
-}
-;
-struct
 CachePutAllArgs
 {
 CacheRequestResponse
@@ -470,8 +460,6 @@ CacheMatchArgs
 ;
 CacheMatchAllArgs
 ;
-CacheAddAllArgs
-;
 CachePutAllArgs
 ;
 CacheDeleteArgs
@@ -506,11 +494,6 @@ CacheResponse
 ]
 responseList
 ;
-}
-;
-struct
-CacheAddAllResult
-{
 }
 ;
 struct
@@ -587,8 +570,6 @@ void_t
 CacheMatchResult
 ;
 CacheMatchAllResult
-;
-CacheAddAllResult
 ;
 CachePutAllResult
 ;

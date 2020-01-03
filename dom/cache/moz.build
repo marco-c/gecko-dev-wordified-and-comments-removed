@@ -204,11 +204,6 @@ Feature
 h
 '
 '
-FetchPut
-.
-h
-'
-'
 FileUtils
 .
 h
@@ -370,11 +365,6 @@ cpp
 '
 '
 Feature
-.
-cpp
-'
-'
-FetchPut
 .
 cpp
 '

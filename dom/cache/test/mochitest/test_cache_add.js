@@ -102,7 +102,7 @@ err
 .
 name
 '
-NetworkError
+TypeError
 '
 '
 add
@@ -110,7 +110,7 @@ add
 )
 should
 throw
-NetworkError
+TypeError
 for
 invalid
 scheme
@@ -168,7 +168,7 @@ err
 .
 name
 '
-NetworkError
+TypeError
 '
 '
 addAll
@@ -176,7 +176,7 @@ addAll
 )
 should
 throw
-NetworkError
+TypeError
 for
 invalid
 scheme
