@@ -2176,10 +2176,9 @@ break
 }
 if
 (
-rref
-.
-isSymbol
+IsSymbolOrSymbolWrapper
 (
+rref
 )
 )
 {
@@ -2196,10 +2195,9 @@ id
 cx
 SYMBOL_TO_JSID
 (
-rref
-.
-toSymbol
+ToSymbolPrimitive
 (
+rref
 )
 )
 )
