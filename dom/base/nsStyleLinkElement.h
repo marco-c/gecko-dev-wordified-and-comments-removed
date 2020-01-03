@@ -241,9 +241,6 @@ static
 bool
 IsImportEnabled
 (
-nsIPrincipal
-*
-aPrincipal
 )
 ;
 void
