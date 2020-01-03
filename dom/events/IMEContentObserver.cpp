@@ -401,6 +401,10 @@ mESM
 (
 nullptr
 )
+mSuppressNotifications
+(
+0
+)
 mPreCharacterDataChangeLength
 (
 -
@@ -4463,6 +4467,14 @@ if
 (
 !
 mWidget
+)
+{
+return
+;
+}
+if
+(
+mSuppressNotifications
 )
 {
 return
