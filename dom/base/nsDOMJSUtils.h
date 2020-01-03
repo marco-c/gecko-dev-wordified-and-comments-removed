@@ -97,7 +97,11 @@ JSContext
 aContext
 uint32_t
 aArgc
-void
+const
+JS
+:
+:
+Value
 *
 aArgv
 nsIJSArgArray
