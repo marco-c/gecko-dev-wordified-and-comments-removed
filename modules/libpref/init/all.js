@@ -5572,7 +5572,7 @@ wifi
 .
 scan
 "
-false
+true
 )
 ;
 pref
@@ -5586,7 +5586,7 @@ wifi
 .
 visible
 "
-false
+true
 )
 ;
 pref
