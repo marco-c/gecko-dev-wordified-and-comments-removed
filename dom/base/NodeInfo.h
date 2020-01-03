@@ -696,6 +696,7 @@ nsNodeInfoManager
 ;
 nsIDocument
 *
+MOZ_NON_OWNING_REF
 mDocument
 ;
 NodeInfoInner
