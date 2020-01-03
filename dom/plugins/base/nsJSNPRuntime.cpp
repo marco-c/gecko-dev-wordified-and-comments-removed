@@ -1579,6 +1579,11 @@ TraceJSObjWrappers
 nullptr
 )
 ;
+if
+(
+sCallbackRuntime
+)
+{
 sCallbackRuntime
 -
 >
@@ -1591,6 +1596,7 @@ sCallbackRuntime
 =
 nullptr
 ;
+}
 }
 static
 bool
