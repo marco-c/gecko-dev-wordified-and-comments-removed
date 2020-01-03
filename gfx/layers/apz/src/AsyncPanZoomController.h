@@ -1527,7 +1527,7 @@ bool
 OverscrollBy
 (
 const
-CSSPoint
+ScreenPoint
 &
 aOverscroll
 )
