@@ -2505,11 +2505,6 @@ nsMargin
 )
 NS_DECLARE_FRAME_PROPERTY
 (
-ScrollLayerCount
-nullptr
-)
-NS_DECLARE_FRAME_PROPERTY
-(
 LineBaselineOffset
 nullptr
 )
