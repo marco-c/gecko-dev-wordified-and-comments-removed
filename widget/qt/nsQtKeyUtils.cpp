@@ -2000,12 +2000,6 @@ case
 Qt
 :
 :
-Key_SingleCandidate
-:
-case
-Qt
-:
-:
 Key_Hiragana_Katakana
 :
 case
