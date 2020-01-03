@@ -5514,6 +5514,10 @@ SetVisibility
 false
 )
 ;
+CancelLongTapDetector
+(
+)
+;
 DispatchSelectionStateChangedEvent
 (
 nullptr
