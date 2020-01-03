@@ -188,6 +188,7 @@ build
 /
 autoconf
 )
+AC_EXEEXT
 AC_CANONICAL_SYSTEM
 TARGET_CPU
 =
