@@ -8,6 +8,8 @@ function
 (
 s
 )
+{
+return
 this
 .
 indexOf
@@ -19,6 +21,7 @@ s
 -
 1
 ;
+}
 const
 Cc
 =
@@ -63,6 +66,8 @@ dt
 (
 locale
 )
+{
+return
 dts
 .
 FormatDateTime
@@ -82,6 +87,7 @@ timeFormatSeconds
 34
 )
 ;
+}
 var
 all_passed
 =
