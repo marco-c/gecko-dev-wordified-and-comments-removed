@@ -915,12 +915,6 @@ mTouchCount
 gfx
 :
 :
-Matrix4x4
-mCachedTransformToApzcForInputBlock
-;
-gfx
-:
-:
 TreeLog
 mApzcTreeLog
 ;

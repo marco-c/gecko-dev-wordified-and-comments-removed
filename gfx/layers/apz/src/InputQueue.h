@@ -189,7 +189,7 @@ aTarget
 bool
 aTargetConfirmed
 bool
-aCopyAllowedTouchBehaviorFromCurrent
+aCopyPropertiesFromCurrent
 )
 ;
 void
@@ -265,13 +265,6 @@ SweepDepletedBlocks
 bool
 MaybeHandleCurrentBlock
 (
-const
-nsRefPtr
-<
-AsyncPanZoomController
->
-&
-aTarget
 CancelableBlockState
 *
 block

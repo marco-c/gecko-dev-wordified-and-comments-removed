@@ -432,6 +432,10 @@ const
 InputData
 &
 aEvent
+const
+Matrix4x4
+&
+aTransformToApzc
 )
 ;
 nsEventStatus
