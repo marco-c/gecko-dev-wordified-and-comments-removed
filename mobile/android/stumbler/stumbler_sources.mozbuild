@@ -333,7 +333,7 @@ scanners
 /
 cellscanner
 /
-CellScannerNoWCDMA
+CellScannerImplementation
 .
 java
 '

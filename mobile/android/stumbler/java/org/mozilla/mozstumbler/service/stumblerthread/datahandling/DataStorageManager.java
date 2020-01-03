@@ -2178,12 +2178,14 @@ report
 mCurrentReports
 .
 wifiCount
++
 =
 wifiCount
 ;
 mCurrentReports
 .
 cellCount
++
 =
 cellCount
 ;
