@@ -2277,7 +2277,7 @@ return
 mDecoder
 -
 >
-IsEnded
+IsEndedOrShutdown
 (
 )
 ;
@@ -9572,7 +9572,7 @@ if
 mDecoder
 -
 >
-IsEnded
+IsEndedOrShutdown
 (
 )
 )
@@ -14035,7 +14035,7 @@ mDecoder
 mDecoder
 -
 >
-IsEnded
+IsEndedOrShutdown
 (
 )
 "
@@ -15114,7 +15114,7 @@ mDecoder
 mDecoder
 -
 >
-IsEnded
+IsEndedOrShutdown
 (
 )
 )
@@ -16218,7 +16218,7 @@ mDecoder
 mDecoder
 -
 >
-IsEnded
+IsEndedOrShutdown
 (
 )
 :
@@ -16565,7 +16565,7 @@ mPaused
 mDecoder
 -
 >
-IsEnded
+IsEndedOrShutdown
 (
 )
 )
@@ -16825,7 +16825,7 @@ mDecoder
 mDecoder
 -
 >
-IsEnded
+IsEndedOrShutdown
 (
 )
 )

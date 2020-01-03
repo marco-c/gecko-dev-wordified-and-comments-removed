@@ -225,8 +225,8 @@ nsAutoPtr
 MetadataTags
 >
 aTags
-bool
-aRestoredFromDormant
+MediaDecoderEventVisibility
+aEventVisibility
 )
 MOZ_FINAL
 MOZ_OVERRIDE
@@ -260,8 +260,8 @@ nsAutoPtr
 MediaInfo
 >
 aInfo
-bool
-aRestoredFromDormant
+MediaDecoderEventVisibility
+aEventVisibility
 )
 MOZ_FINAL
 MOZ_OVERRIDE
