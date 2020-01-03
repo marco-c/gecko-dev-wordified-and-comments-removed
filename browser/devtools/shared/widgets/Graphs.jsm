@@ -6794,6 +6794,10 @@ _gutter
 hidden
 =
 !
+totalTicks
+|
+|
+!
 this
 .
 withTooltipArrows
@@ -6833,6 +6837,16 @@ widget
 -
 gutter
 "
+;
+gutter
+.
+setAttribute
+(
+"
+hidden
+"
+true
+)
 ;
 this
 .
