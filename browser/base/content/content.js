@@ -2064,6 +2064,15 @@ ownerDocument
 ;
 if
 (
+!
+ownerDoc
+)
+{
+return
+;
+}
+if
+(
 ownerDoc
 .
 documentURI
