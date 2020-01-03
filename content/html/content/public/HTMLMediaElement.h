@@ -1518,6 +1518,14 @@ aName
 )
 MOZ_OVERRIDE
 ;
+already_AddRefed
+<
+nsIPrincipal
+>
+GetTopLevelPrincipal
+(
+)
+;
 #
 endif
 bool
