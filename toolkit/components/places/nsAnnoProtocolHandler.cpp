@@ -178,7 +178,7 @@ SEC_NORMAL
 nsIContentPolicy
 :
 :
-TYPE_OTHER
+TYPE_IMAGE
 )
 ;
 }
@@ -1162,7 +1162,7 @@ SEC_NORMAL
 nsIContentPolicy
 :
 :
-TYPE_OTHER
+TYPE_IMAGE
 )
 ;
 }
