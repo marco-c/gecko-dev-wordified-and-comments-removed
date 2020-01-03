@@ -3903,6 +3903,9 @@ GLContextProviderEGL
 CreateHeadless
 (
 bool
+requireCompatProfile
+bool
+forceEnabled
 )
 {
 if
@@ -3912,6 +3915,7 @@ sEGLLibrary
 .
 EnsureInitialized
 (
+forceEnabled
 )
 )
 {

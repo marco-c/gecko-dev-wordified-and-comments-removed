@@ -2668,6 +2668,9 @@ GLContextProviderWGL
 CreateHeadless
 (
 bool
+requireCompatProfile
+bool
+forceEnabled
 )
 {
 if

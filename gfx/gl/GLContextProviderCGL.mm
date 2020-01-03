@@ -1252,6 +1252,8 @@ CreateHeadless
 (
 bool
 requireCompatProfile
+bool
+forceEnabled
 )
 {
 nsRefPtr

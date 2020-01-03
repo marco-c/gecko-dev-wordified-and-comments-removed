@@ -4812,6 +4812,9 @@ GLContextProviderGLX
 CreateHeadless
 (
 bool
+requireCompatProfile
+bool
+forceEnabled
 )
 {
 IntSize
