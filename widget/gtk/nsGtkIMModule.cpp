@@ -445,7 +445,7 @@ Init
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -761,7 +761,7 @@ nullptr
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -791,7 +791,7 @@ aWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -998,7 +998,7 @@ DISABLED
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 SUCCEEDED
@@ -1140,7 +1140,7 @@ return
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -1201,7 +1201,7 @@ return
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -1312,7 +1312,7 @@ false
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -1418,7 +1418,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -1462,7 +1462,7 @@ currentContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -1576,7 +1576,7 @@ true
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 filterThisEvent
@@ -1635,7 +1635,7 @@ aFocus
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -1693,7 +1693,7 @@ ResetIME
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -1743,7 +1743,7 @@ activeContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -1819,7 +1819,7 @@ compositionString
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -1929,7 +1929,7 @@ NS_OK
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -1969,7 +1969,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 WARNING
@@ -2079,7 +2079,7 @@ return
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -2138,7 +2138,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -2170,7 +2170,7 @@ mContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -2201,7 +2201,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 SUCCEEDED
@@ -2629,7 +2629,7 @@ Focus
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -2695,7 +2695,7 @@ currentContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -2767,7 +2767,7 @@ Blur
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -2816,7 +2816,7 @@ currentContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -2868,7 +2868,7 @@ return
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -2924,7 +2924,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 WARNING
@@ -3011,7 +3011,7 @@ IsDestroyed
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ERROR
@@ -3052,7 +3052,7 @@ true
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ERROR
@@ -3088,7 +3088,7 @@ true
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ERROR
@@ -3126,7 +3126,7 @@ true
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ERROR
@@ -3163,7 +3163,7 @@ true
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ERROR
@@ -3203,7 +3203,7 @@ mOffset
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 NOTE
@@ -3285,7 +3285,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -3328,7 +3328,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -3413,7 +3413,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -3445,7 +3445,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -3528,7 +3528,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -3560,7 +3560,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -3658,7 +3658,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -3701,7 +3701,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -3839,7 +3839,7 @@ aNChars
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -3882,7 +3882,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -3936,7 +3936,7 @@ TRUE
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -4015,7 +4015,7 @@ emptyStr
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -4095,7 +4095,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -4204,7 +4204,7 @@ keyval_utf8
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -4312,7 +4312,7 @@ Truncate
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -4361,7 +4361,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -4391,7 +4391,7 @@ IsComposing
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 WARNING
@@ -4418,7 +4418,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -4485,7 +4485,7 @@ UINT32_MAX
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -4558,7 +4558,7 @@ isCancelled
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 keydown
@@ -4599,7 +4599,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 NOTE
@@ -4625,7 +4625,7 @@ false
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 mCompositionStart
@@ -4702,7 +4702,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 NOTE
@@ -4746,7 +4746,7 @@ aCompositionString
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -4775,7 +4775,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -4806,7 +4806,7 @@ IsComposing
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 The
@@ -4989,7 +4989,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 NOTE
@@ -5039,7 +5039,7 @@ aCommitString
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -5097,7 +5097,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -5142,7 +5142,7 @@ IsEmpty
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -5167,7 +5167,7 @@ true
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 The
@@ -5307,7 +5307,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 NOTE
@@ -5356,7 +5356,7 @@ aLastDispatchedData
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -5452,7 +5452,7 @@ preedit_string
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 preedit_string
@@ -5500,7 +5500,7 @@ iter
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -5760,7 +5760,7 @@ range
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 mStartOffset
@@ -5880,7 +5880,7 @@ range
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 mStartOffset
@@ -5950,7 +5950,7 @@ aTargetOffset
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -5986,7 +5986,7 @@ UINT32_MAX
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -6010,7 +6010,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -6038,7 +6038,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -6098,7 +6098,7 @@ mSucceeded
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -6244,7 +6244,7 @@ aCursorPos
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -6275,7 +6275,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -6370,7 +6370,7 @@ Length
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 selOffset
@@ -6409,7 +6409,7 @@ INT32_MAX
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -6487,7 +6487,7 @@ Length
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -6631,7 +6631,7 @@ parStart
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 aText
@@ -6690,7 +6690,7 @@ aNChars
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 GtkIMModule
@@ -6738,7 +6738,7 @@ mLastFocusedWindow
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -6767,7 +6767,7 @@ aNChars
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -6836,7 +6836,7 @@ mSelectedString
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -6939,7 +6939,7 @@ IsEmpty
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -6999,7 +6999,7 @@ offsetInUTF8Characters
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -7077,7 +7077,7 @@ endInUTF8Characters
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -7250,7 +7250,7 @@ Destroyed
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -7315,7 +7315,7 @@ Destroyed
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -7360,7 +7360,7 @@ aContext
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED
@@ -7407,7 +7407,7 @@ compositionString
 MOZ_LOG
 (
 gGtkIMLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 FAILED

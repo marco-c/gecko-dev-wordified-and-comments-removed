@@ -30,7 +30,7 @@ msg
 MOZ_LOG
 (
 gRtspLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 msg
 #

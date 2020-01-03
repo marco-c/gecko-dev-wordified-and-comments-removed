@@ -269,14 +269,14 @@ args
 )
 #
 define
-LOG_ALWAYS
+LOG_INFO
 (
 args
 )
 MOZ_LOG
 (
 gFTPLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 args
 )
 using
@@ -429,7 +429,7 @@ mDeferredCallbackPending
 false
 )
 {
-LOG_ALWAYS
+LOG_INFO
 (
 (
 "
@@ -460,7 +460,7 @@ nsFtpState
 (
 )
 {
-LOG_ALWAYS
+LOG_INFO
 (
 (
 "
@@ -7619,7 +7619,7 @@ IsAlive
 mCacheConnection
 )
 {
-LOG_ALWAYS
+LOG_INFO
 (
 (
 "
@@ -7842,7 +7842,7 @@ mKeepRunning
 =
 false
 ;
-LOG_ALWAYS
+LOG_INFO
 (
 (
 "
