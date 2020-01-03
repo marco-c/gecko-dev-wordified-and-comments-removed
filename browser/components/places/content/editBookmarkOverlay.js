@@ -2561,6 +2561,16 @@ anyChanges
 return
 false
 ;
+if
+(
+!
+this
+.
+_paneInfo
+)
+return
+false
+;
 currentTags
 =
 this
@@ -2583,7 +2593,9 @@ getTagsForURI
 (
 this
 .
-_uri
+_paneInfo
+.
+uri
 )
 ;
 this
