@@ -3,6 +3,16 @@ TIME_CLOSE_TO
 =
 10000
 ;
+const
+TEST_URL
+=
+EXAMPLE_URL
++
+"
+doc_force_gc
+.
+html
+"
 function
 *
 spawnTest
@@ -18,7 +28,7 @@ front
 yield
 initBackend
 (
-SIMPLE_URL
+TEST_URL
 )
 ;
 let
@@ -59,10 +69,6 @@ waitUntil
 =
 >
 {
-forceCC
-(
-)
-;
 return
 !
 !
