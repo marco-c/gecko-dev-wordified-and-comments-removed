@@ -9297,6 +9297,19 @@ ifdef
 MOZ_DUMP_PAINTING
 if
 (
+!
+data
+-
+>
+mLog
+.
+IsEmpty
+(
+)
+)
+{
+if
+(
 PaintedLayerData
 *
 containingPld
@@ -9343,6 +9356,7 @@ mLog
 )
 )
 ;
+}
 }
 #
 endif
