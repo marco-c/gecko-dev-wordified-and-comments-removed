@@ -248,7 +248,7 @@ APZCTreeManager
 )
 ;
 void
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 CompositorParent
 *
@@ -828,7 +828,7 @@ aState
 ;
 HitTestingTreeNode
 *
-UpdatePanZoomControllerTree
+UpdateHitTestingTree
 (
 TreeBuildingState
 &
