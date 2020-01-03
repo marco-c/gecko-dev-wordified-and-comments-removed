@@ -124,6 +124,13 @@ mochitest
 .
 ini
 '
+'
+mixedcontentblocker
+/
+mochitest
+.
+ini
+'
 ]
 MOCHITEST_CHROME_MANIFESTS
 +

@@ -138,13 +138,6 @@ mochitest
 ini
 '
 '
-mixedcontentblocker
-/
-mochitest
-.
-ini
-'
-'
 mochitest
 .
 ini
