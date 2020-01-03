@@ -377,7 +377,7 @@ Length
 0
 )
 {
-aSample
+writer
 -
 >
 mCrypto
@@ -389,7 +389,7 @@ AppendElement
 kADTSHeaderSize
 )
 ;
-aSample
+writer
 -
 >
 mCrypto
@@ -409,7 +409,7 @@ kADTSHeaderSize
 }
 else
 {
-aSample
+writer
 -
 >
 mCrypto

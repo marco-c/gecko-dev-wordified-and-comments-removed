@@ -855,6 +855,10 @@ mData
 size_t
 mSize
 ;
+CryptoSample
+&
+mCrypto
+;
 bool
 SetSize
 (
@@ -952,7 +956,9 @@ mData
 size_t
 mSize
 ;
+const
 CryptoSample
+&
 mCrypto
 ;
 nsRefPtr
@@ -1012,6 +1018,9 @@ nsRefPtr
 LargeDataBuffer
 >
 mBuffer
+;
+CryptoSample
+mCryptoInternal
 ;
 uint32_t
 mPadding

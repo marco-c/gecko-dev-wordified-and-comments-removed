@@ -634,7 +634,7 @@ reader
 cenc
 )
 ;
-sample
+writer
 -
 >
 mCrypto
@@ -643,7 +643,7 @@ mValid
 =
 true
 ;
-sample
+writer
 -
 >
 mCrypto
@@ -659,7 +659,7 @@ reader
 .
 ReadArray
 (
-sample
+writer
 -
 >
 mCrypto
@@ -724,7 +724,7 @@ i
 +
 )
 {
-sample
+writer
 -
 >
 mCrypto
@@ -740,7 +740,7 @@ ReadU16
 )
 )
 ;
-sample
+writer
 -
 >
 mCrypto
@@ -760,7 +760,7 @@ ReadU32
 }
 else
 {
-sample
+writer
 -
 >
 mCrypto
@@ -772,7 +772,7 @@ AppendElement
 0
 )
 ;
-sample
+writer
 -
 >
 mCrypto
