@@ -68,14 +68,6 @@ LOGTAG
 ThreadUtils
 "
 ;
-private
-static
-final
-long
-PRIORITY_RESET_TIMEOUT
-=
-10000
-;
 public
 static
 enum
@@ -909,6 +901,8 @@ static
 void
 reduceGeckoPriority
 (
+long
+timeout
 )
 {
 if
@@ -961,7 +955,7 @@ getUiHandler
 postDelayed
 (
 sPriorityResetRunnable
-PRIORITY_RESET_TIMEOUT
+timeout
 )
 ;
 }
