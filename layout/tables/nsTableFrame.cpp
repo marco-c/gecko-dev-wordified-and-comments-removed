@@ -1469,16 +1469,10 @@ positionedParts
 positionedParts
 -
 >
-IndexOf
+Contains
 (
 aFrame
 )
-!
-=
-FrameTArray
-:
-:
-NoIndex
 "
 Asked
 to
