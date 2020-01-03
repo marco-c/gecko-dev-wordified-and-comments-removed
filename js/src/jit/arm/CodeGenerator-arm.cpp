@@ -281,7 +281,10 @@ if
 !
 emitTracelogStopEvent
 (
-TraceLogger_IonMonkey
+TraceLogger
+:
+:
+IonMonkey
 )
 )
 return

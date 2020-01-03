@@ -7674,7 +7674,7 @@ script
 )
 )
 ;
-TraceLoggerThread
+TraceLogger
 *
 logger
 =

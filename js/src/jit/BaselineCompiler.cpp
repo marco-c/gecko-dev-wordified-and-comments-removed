@@ -455,7 +455,7 @@ lineno
 )
 )
 ;
-TraceLoggerThread
+TraceLogger
 *
 logger
 =
@@ -2020,7 +2020,7 @@ earlyStackCheckFailed
 #
 ifdef
 JS_TRACE_LOGGING
-TraceLoggerThread
+TraceLogger
 *
 logger
 =
@@ -2200,7 +2200,7 @@ return_
 #
 ifdef
 JS_TRACE_LOGGING
-TraceLoggerThread
+TraceLogger
 *
 logger
 =
