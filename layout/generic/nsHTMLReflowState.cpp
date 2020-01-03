@@ -349,6 +349,10 @@ mLineLayout
 =
 nullptr
 ;
+mRubyReflowState
+=
+nullptr
+;
 memset
 (
 &
@@ -967,6 +971,10 @@ mLineLayout
 ;
 else
 mLineLayout
+=
+nullptr
+;
+mRubyReflowState
 =
 nullptr
 ;
