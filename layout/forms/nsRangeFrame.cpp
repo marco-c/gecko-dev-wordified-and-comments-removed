@@ -2523,7 +2523,7 @@ PresContext
 bool
 notUsedCanOverride
 ;
-nsIntSize
+LayoutDeviceIntSize
 size
 ;
 presContext

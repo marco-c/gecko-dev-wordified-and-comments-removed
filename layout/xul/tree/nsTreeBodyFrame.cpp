@@ -9593,12 +9593,8 @@ if
 useTheme
 )
 {
-nsIntSize
+LayoutDeviceIntSize
 minTwistySizePx
-(
-0
-0
-)
 ;
 bool
 canOverride
