@@ -393,6 +393,7 @@ mNodeInfoHash
 ;
 nsIDocument
 *
+MOZ_NON_OWNING_REF
 mDocument
 ;
 uint32_t
@@ -418,6 +419,7 @@ dom
 :
 NodeInfo
 *
+MOZ_NON_OWNING_REF
 mTextNodeInfo
 ;
 mozilla
@@ -428,6 +430,7 @@ dom
 :
 NodeInfo
 *
+MOZ_NON_OWNING_REF
 mCommentNodeInfo
 ;
 mozilla
@@ -438,6 +441,7 @@ dom
 :
 NodeInfo
 *
+MOZ_NON_OWNING_REF
 mDocumentNodeInfo
 ;
 nsRefPtr
