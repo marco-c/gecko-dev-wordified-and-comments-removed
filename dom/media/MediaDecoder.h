@@ -1111,12 +1111,6 @@ RemoveMediaTracks
 )
 override
 ;
-virtual
-bool
-IsExpectingMoreData
-(
-)
-;
 void
 PlaybackEnded
 (

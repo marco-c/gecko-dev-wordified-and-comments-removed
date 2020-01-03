@@ -10908,7 +10908,7 @@ USECS_PER_S
 )
 &
 &
-mDecoder
+mResource
 -
 >
 IsExpectingMoreData
@@ -12748,7 +12748,7 @@ MediaDecoder
 PLAY_STATE_PLAYING
 &
 &
-mDecoder
+mResource
 -
 >
 IsExpectingMoreData

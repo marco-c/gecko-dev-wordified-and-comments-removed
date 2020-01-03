@@ -257,12 +257,6 @@ bool
 aEnded
 )
 ;
-bool
-IsExpectingMoreData
-(
-)
-override
-;
 virtual
 double
 GetDuration
