@@ -84,11 +84,11 @@ assertIn
 "
 identity
 -
-icons
+not
 -
-generic
+secure
 .
-png
+svg
 "
 favicon_image
 )
