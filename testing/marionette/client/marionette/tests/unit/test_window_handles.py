@@ -4,9 +4,7 @@ import
 MarionetteTestCase
 skip_if_e10s
 from
-marionette_driver
-.
-keys
+marionette
 import
 Keys
 class
@@ -756,8 +754,6 @@ switch_to_window
 (
 start_tab
 )
-    
-skip_if_e10s
     
 def
 test_tab_and_window_handles
