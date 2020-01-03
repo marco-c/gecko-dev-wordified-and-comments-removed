@@ -1639,16 +1639,6 @@ this
 ;
 }
 bool
-objectsIntersect
-(
-const
-TypeSet
-*
-other
-)
-const
-;
-bool
 addTypesToConstraint
 (
 JSContext
