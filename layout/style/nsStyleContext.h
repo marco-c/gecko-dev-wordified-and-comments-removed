@@ -86,6 +86,17 @@ Destroy
 (
 )
 ;
+#
+ifdef
+DEBUG
+static
+void
+Initialize
+(
+)
+;
+#
+endif
 nsrefcnt
 AddRef
 (
