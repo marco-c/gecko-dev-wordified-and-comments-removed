@@ -55,7 +55,7 @@ friend
 class
 AltSvcCache
 ;
-public
+private
 :
 AltSvcMapping
 (
@@ -89,6 +89,8 @@ nsACString
 npnToken
 )
 ;
+public
+:
 static
 void
 ProcessHeader
