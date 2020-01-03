@@ -1227,7 +1227,7 @@ init
 (
 JSContext
 *
-cx
+maybecx
 )
 ;
 void

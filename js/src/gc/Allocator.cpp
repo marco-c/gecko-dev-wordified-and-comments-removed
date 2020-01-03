@@ -349,6 +349,10 @@ ShouldFailWithOOM
 )
 )
 {
+if
+(
+allowGC
+)
 ReportOutOfMemory
 (
 cx
