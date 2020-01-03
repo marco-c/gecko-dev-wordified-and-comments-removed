@@ -600,6 +600,12 @@ buffer
 )
 )
 ;
+MarkObjectStateChange
+(
+cx
+tarray
+)
+;
 return
 true
 ;
