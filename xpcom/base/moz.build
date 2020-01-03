@@ -557,6 +557,11 @@ ErrorNames
 cpp
 '
 '
+HoldDropJSObjects
+.
+cpp
+'
+'
 nsConsoleMessage
 .
 cpp
