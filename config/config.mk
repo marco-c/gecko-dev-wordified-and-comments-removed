@@ -3907,8 +3907,6 @@ p
 |
 grep
 -
-v
--
 e
 '
 GLIBCXX_3
@@ -3940,9 +3938,8 @@ GLIBCXX_3
 dev
 /
 null
-|
-|
-(
+&
+&
 echo
 '
 TEST
@@ -4009,8 +4006,11 @@ GLIBCXX_3
 '
 &
 &
-false
-)
+exit
+1
+|
+|
+true
 endif
 endif
 ifeq
