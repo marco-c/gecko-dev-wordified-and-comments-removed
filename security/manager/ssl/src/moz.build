@@ -140,7 +140,7 @@ PublicSSL
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -426,7 +426,7 @@ MOZ_NO_SMART_CARDS
 '
 ]
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -444,7 +444,7 @@ MOZ_XUL
 '
 ]
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -454,7 +454,7 @@ nsCertTree
 cpp
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
