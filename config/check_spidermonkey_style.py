@@ -151,6 +151,12 @@ h
 '
     
 '
+prerror
+.
+h
+'
+    
+'
 prinit
 .
 h
