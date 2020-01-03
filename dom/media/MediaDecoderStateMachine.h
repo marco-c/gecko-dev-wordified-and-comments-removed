@@ -312,16 +312,6 @@ GetEndTime
 (
 )
 ;
-void
-SetDuration
-(
-media
-:
-:
-TimeUnit
-aDuration
-)
-;
 bool
 OnDecodeTaskQueue
 (
@@ -1385,8 +1375,6 @@ AssertCurrentThreadInMonitor
 )
 ;
 return
-mStartTime
-+
 mCurrentPosition
 ;
 }
@@ -2655,9 +2643,6 @@ mPlayDuration
 ;
 TimeStamp
 mBufferingStart
-;
-int64_t
-mStartTime
 ;
 int64_t
 mEndTime
