@@ -116,6 +116,9 @@ gcli
 jsbeautify
 '
 '
+performance
+'
+'
 pretty
 -
 fast
