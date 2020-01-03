@@ -26,6 +26,16 @@ xul
 "
 )
 ;
+toolbox
+{
+-
+moz
+-
+appearance
+:
+toolbox
+;
+}
 toolbar
 {
 min
