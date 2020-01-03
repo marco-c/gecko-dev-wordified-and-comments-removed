@@ -147,8 +147,9 @@ android
 color
 =
 "
-#
-FF777777
+color
+/
+placeholder_grey
 "
 /
 >

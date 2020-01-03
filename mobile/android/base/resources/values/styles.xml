@@ -8978,8 +8978,9 @@ android
 textColor
 "
 >
-#
-777777
+color
+/
+placeholder_grey
 <
 /
 item
@@ -9275,8 +9276,9 @@ android
 textColor
 "
 >
-#
-777777
+color
+/
+placeholder_grey
 <
 /
 item
