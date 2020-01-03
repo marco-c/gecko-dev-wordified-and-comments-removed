@@ -140,9 +140,9 @@ ReaderReady
 (
 nsTArray
 <
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMFile
+File
 >
 >
 &
@@ -189,9 +189,9 @@ Value
 aValue
 nsTArray
 <
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMFile
+File
 >
 >
 &
@@ -217,9 +217,9 @@ Value
 aValue
 nsTArray
 <
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMFile
+File
 >
 >
 &
@@ -245,9 +245,9 @@ Value
 aValue
 nsTArray
 <
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMFile
+File
 >
 >
 &

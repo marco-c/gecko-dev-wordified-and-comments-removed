@@ -8507,7 +8507,7 @@ XMLHttpRequest
 :
 Send
 (
-File
+Blob
 &
 aBody
 ErrorResult

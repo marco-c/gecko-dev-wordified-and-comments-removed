@@ -1899,7 +1899,7 @@ mozilla
 dom
 :
 :
-File
+Blob
 *
 PushMessageData
 :

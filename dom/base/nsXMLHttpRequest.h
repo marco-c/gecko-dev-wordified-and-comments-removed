@@ -242,10 +242,10 @@ namespace
 dom
 {
 class
-BlobSet
+Blob
 ;
 class
-File
+BlobSet
 ;
 }
 class
@@ -1284,7 +1284,7 @@ mozilla
 dom
 :
 :
-File
+Blob
 &
 aBlob
 )
@@ -1429,7 +1429,7 @@ mozilla
 dom
 :
 :
-File
+Blob
 *
 mBlob
 ;
@@ -1694,7 +1694,7 @@ mozilla
 dom
 :
 :
-File
+Blob
 &
 aBlob
 ErrorResult
@@ -2407,7 +2407,7 @@ CreatePartialBlob
 )
 ;
 bool
-CreateDOMFile
+CreateDOMBlob
 (
 nsIRequest
 *
@@ -2702,7 +2702,7 @@ mozilla
 dom
 :
 :
-File
+Blob
 >
 mResponseBlob
 ;
@@ -2714,9 +2714,9 @@ mozilla
 dom
 :
 :
-File
+Blob
 >
-mDOMFile
+mDOMBlob
 ;
 nsAutoPtr
 <

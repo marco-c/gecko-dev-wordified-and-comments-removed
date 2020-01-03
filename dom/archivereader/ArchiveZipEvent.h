@@ -79,9 +79,11 @@ aFilename
 override
 ;
 virtual
-nsIDOMFile
-*
+already_AddRefed
+<
 File
+>
+GetFile
 (
 ArchiveReader
 *

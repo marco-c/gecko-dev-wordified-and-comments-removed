@@ -1349,7 +1349,7 @@ const
 nsAString
 &
 aType
-nsIDOMBlob
+Blob
 *
 aBlob
 )
@@ -8912,8 +8912,10 @@ nsIDOMBlob
 >
 blob
 =
-new
-File
+Blob
+:
+:
+Create
 (
 aWindow
 new
@@ -12847,7 +12849,7 @@ aFile
 DOMRequest
 *
 aRequest
-nsIDOMBlob
+Blob
 *
 aBlob
 =
@@ -13606,7 +13608,7 @@ GetOrCreateActorForBlob
 (
 static_cast
 <
-File
+Blob
 *
 >
 (
@@ -13862,7 +13864,7 @@ GetOrCreateActorForBlob
 (
 static_cast
 <
-File
+Blob
 *
 >
 (
@@ -14951,9 +14953,9 @@ DOMRequest
 >
 mRequest
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMBlob
+Blob
 >
 mBlob
 ;
@@ -16794,7 +16796,14 @@ request
 =
 Add
 (
+static_cast
+<
+Blob
+*
+>
+(
 aBlob
+)
 rv
 )
 ;
@@ -16822,7 +16831,7 @@ nsDOMDeviceStorage
 :
 Add
 (
-nsIDOMBlob
+Blob
 *
 aBlob
 ErrorResult
@@ -16985,7 +16994,14 @@ request
 =
 AddNamed
 (
+static_cast
+<
+Blob
+*
+>
+(
 aBlob
+)
 aPath
 rv
 )
@@ -17014,7 +17030,7 @@ nsDOMDeviceStorage
 :
 AddNamed
 (
-nsIDOMBlob
+Blob
 *
 aBlob
 const
@@ -17045,7 +17061,7 @@ nsDOMDeviceStorage
 :
 AppendNamed
 (
-nsIDOMBlob
+Blob
 *
 aBlob
 const
@@ -17076,7 +17092,7 @@ nsDOMDeviceStorage
 :
 AddOrAppendNamed
 (
-nsIDOMBlob
+Blob
 *
 aBlob
 const
