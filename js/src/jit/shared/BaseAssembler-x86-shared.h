@@ -26893,7 +26893,7 @@ l
 opcode
 )
 ;
-memoryModRM_disp32
+memoryModRM
 (
 offset
 base
