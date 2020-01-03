@@ -3687,6 +3687,7 @@ mWorkerPrivate
 }
 private
 :
+explicit
 WorkerThreadRuntimePrivate
 (
 WorkerPrivate
