@@ -450,7 +450,7 @@ exports
 [
 '
 test
-removeing
+removing
 listeners
 '
 ]
