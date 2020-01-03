@@ -1937,6 +1937,11 @@ enableCompactingGC
 (
 )
 ;
+bool
+isCompactingGCEnabled
+(
+)
+;
 #
 endif
 void
