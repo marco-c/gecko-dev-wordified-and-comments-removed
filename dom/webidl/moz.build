@@ -325,11 +325,6 @@ BoxObject
 webidl
 '
 '
-BrowserElement
-.
-webidl
-'
-'
 BrowserElementDictionaries
 .
 webidl
@@ -3845,6 +3840,13 @@ browser
 '
 '
 xulrunner
+'
+]
+or
+CONFIG
+[
+'
+MOZ_SUITE
 '
 ]
 :
