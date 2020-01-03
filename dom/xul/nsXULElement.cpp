@@ -10937,8 +10937,10 @@ case
 eType_Script
 :
 {
+nsRefPtr
+<
 nsXULPrototypeScript
-*
+>
 script
 =
 new
@@ -10947,10 +10949,6 @@ nsXULPrototypeScript
 0
 0
 )
-;
-child
-=
-script
 ;
 rv
 =
@@ -11085,6 +11083,14 @@ return
 rv
 ;
 }
+child
+=
+script
+.
+forget
+(
+)
+;
 break
 ;
 }
