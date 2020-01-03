@@ -368,6 +368,9 @@ class
 AsmJSActivation
 ;
 class
+AsmJSModule
+;
+class
 MathCache
 ;
 namespace
@@ -3739,6 +3742,13 @@ JS
 :
 AsmJSCacheOps
 asmJSCacheOps
+;
+js
+:
+:
+AsmJSModule
+*
+linkedAsmJSModules
 ;
 uint32_t
 propertyRemovals

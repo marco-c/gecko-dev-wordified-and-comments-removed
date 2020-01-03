@@ -2969,6 +2969,12 @@ module
 .
 setIsDynamicallyLinked
 (
+cx
+-
+>
+runtime
+(
+)
 )
 ;
 HandleValue
