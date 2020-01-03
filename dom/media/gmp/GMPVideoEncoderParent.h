@@ -52,6 +52,13 @@ h
 #
 include
 "
+GMPUtils
+.
+h
+"
+#
+include
+"
 GMPVideoHost
 .
 h
@@ -143,7 +150,7 @@ virtual
 GMPErr
 Encode
 (
-UniquePtr
+GMPUniquePtr
 <
 GMPVideoi420Frame
 >

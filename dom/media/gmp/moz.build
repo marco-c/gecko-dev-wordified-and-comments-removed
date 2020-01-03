@@ -451,6 +451,11 @@ GMPTimerParent
 h
 '
 '
+GMPUtils
+.
+h
+'
+'
 GMPVideoDecoderChild
 .
 h

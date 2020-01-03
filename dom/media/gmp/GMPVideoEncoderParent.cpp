@@ -88,6 +88,13 @@ runnable_utils
 .
 h
 "
+#
+include
+"
+GMPUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -476,7 +483,7 @@ GMPVideoEncoderParent
 :
 Encode
 (
-UniquePtr
+GMPUniquePtr
 <
 GMPVideoi420Frame
 >
@@ -536,7 +543,7 @@ NS_GetCurrentThread
 )
 )
 ;
-UniquePtr
+GMPUniquePtr
 <
 GMPVideoi420FrameImpl
 >

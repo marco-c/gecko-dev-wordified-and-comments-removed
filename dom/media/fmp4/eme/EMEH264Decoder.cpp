@@ -1495,7 +1495,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-UniquePtr
+GMPUniquePtr
 <
 gmp
 :
@@ -1678,7 +1678,7 @@ mGMP
 >
 Decode
 (
-UniquePtr
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >

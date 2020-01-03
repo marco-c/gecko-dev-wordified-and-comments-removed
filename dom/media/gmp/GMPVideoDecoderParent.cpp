@@ -38,6 +38,13 @@ h
 #
 include
 "
+GMPUtils
+.
+h
+"
+#
+include
+"
 GMPVideoEncodedFrameImpl
 .
 h
@@ -379,7 +386,7 @@ GMPVideoDecoderParent
 :
 Decode
 (
-UniquePtr
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >
@@ -436,7 +443,7 @@ NS_GetCurrentThread
 )
 )
 ;
-UniquePtr
+GMPUniquePtr
 <
 GMPVideoEncodedFrameImpl
 >
