@@ -61,7 +61,7 @@ getLocalUpdatesXMLString
 false
 )
 ;
-var
+let
 patches
 =
 getLocalPatchString
@@ -75,7 +75,7 @@ null
 STATE_PENDING
 )
 ;
-var
+let
 updates
 =
 getLocalUpdateString
@@ -143,7 +143,7 @@ updateCount
 0
 )
 ;
-var
+let
 dir
 =
 getUpdatesDir
@@ -184,7 +184,7 @@ exists
 )
 )
 ;
-var
+let
 versionFile
 =
 dir

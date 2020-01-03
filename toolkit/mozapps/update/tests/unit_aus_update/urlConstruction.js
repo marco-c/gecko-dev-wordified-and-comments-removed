@@ -1,6 +1,4 @@
-Components
-.
-utils
+Cu
 .
 import
 (
@@ -54,7 +52,7 @@ standardInit
 ;
 gAppInfo
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -73,14 +71,14 @@ info
 .
 getService
 (
-AUS_Ci
+Ci
 .
 nsIXULAppInfo
 )
 .
 QueryInterface
 (
-AUS_Ci
+Ci
 .
 nsIXULRuntime
 )
@@ -96,7 +94,7 @@ callHandleEvent
 (
 )
 {
-var
+let
 e
 =
 {
@@ -149,7 +147,7 @@ gCheckFunc
 =
 check_test_pt1
 ;
-var
+let
 url
 =
 URL_PREFIX
@@ -221,7 +219,7 @@ gCheckFunc
 =
 check_test_pt2
 ;
-var
+let
 url
 =
 URL_PREFIX
@@ -293,7 +291,7 @@ gCheckFunc
 =
 check_test_pt3
 ;
-var
+let
 url
 =
 URL_PREFIX
@@ -365,7 +363,7 @@ gCheckFunc
 =
 check_test_pt4
 ;
-var
+let
 url
 =
 URL_PREFIX
@@ -412,7 +410,7 @@ check_test_pt4
 (
 )
 {
-var
+let
 abi
 ;
 try
@@ -448,10 +446,10 @@ if
 IS_MACOSX
 )
 {
-var
+let
 macutils
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -470,7 +468,7 @@ utils
 .
 getService
 (
-AUS_Ci
+Ci
 .
 nsIMacUtils
 )
@@ -481,6 +479,7 @@ macutils
 .
 isUniversalBinary
 )
+{
 abi
 +
 =
@@ -494,6 +493,7 @@ macutils
 .
 architecturesInBinary
 ;
+}
 if
 (
 IS_SHARK
@@ -539,7 +539,7 @@ gCheckFunc
 =
 check_test_pt5
 ;
-var
+let
 url
 =
 URL_PREFIX
@@ -646,7 +646,7 @@ gCheckFunc
 =
 check_test_pt6
 ;
-var
+let
 url
 =
 URL_PREFIX
@@ -725,7 +725,7 @@ gCheckFunc
 =
 check_test_pt7
 ;
-var
+let
 url
 =
 URL_PREFIX
@@ -831,7 +831,7 @@ gCheckFunc
 =
 check_test_pt8
 ;
-var
+let
 url
 =
 URL_PREFIX
@@ -903,7 +903,7 @@ gCheckFunc
 =
 check_test_pt9
 ;
-var
+let
 url
 =
 URL_PREFIX
@@ -1386,13 +1386,13 @@ check_test_pt9
 (
 )
 {
-var
+let
 osVersion
 ;
-var
+let
 sysInfo
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -1409,7 +1409,7 @@ info
 .
 getService
 (
-AUS_Ci
+Ci
 .
 nsIPropertyBag2
 )
@@ -1617,7 +1617,7 @@ gCheckFunc
 =
 check_test_pt10
 ;
-var
+let
 url
 =
 URL_PREFIX
@@ -1699,7 +1699,7 @@ gCheckFunc
 =
 check_test_pt11
 ;
-var
+let
 url
 =
 URL_PREFIX
@@ -1781,7 +1781,7 @@ gCheckFunc
 =
 check_test_pt12
 ;
-var
+let
 url
 =
 URL_PREFIX
@@ -1858,7 +1858,7 @@ gCheckFunc
 =
 check_test_pt13
 ;
-var
+let
 url
 =
 URL_PREFIX
@@ -1974,7 +1974,7 @@ gCheckFunc
 =
 check_test_pt14
 ;
-var
+let
 url
 =
 URL_PREFIX

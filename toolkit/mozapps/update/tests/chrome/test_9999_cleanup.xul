@@ -544,7 +544,7 @@ dirsvc
 get
 (
 NS_APP_USER_PROFILE_50_DIR
-AUS_Ci
+Ci
 .
 nsILocalFile
 )

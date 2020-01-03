@@ -525,7 +525,7 @@ FILE_HELPER_BIN
 let
 process
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -542,7 +542,7 @@ util
 .
 createInstance
 (
-AUS_Ci
+Ci
 .
 nsIProcess
 )

@@ -53,7 +53,7 @@ getLocalUpdatesXMLString
 false
 )
 ;
-var
+let
 patches
 =
 getLocalPatchString
@@ -67,7 +67,7 @@ null
 STATE_DOWNLOADING
 )
 ;
-var
+let
 updates
 =
 getLocalUpdateString
@@ -93,7 +93,7 @@ standardInit
 (
 )
 ;
-var
+let
 dir
 =
 getUpdatesDir
@@ -134,7 +134,7 @@ exists
 )
 )
 ;
-var
+let
 statusFile
 =
 dir

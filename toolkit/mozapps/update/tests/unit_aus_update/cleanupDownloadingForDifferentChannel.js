@@ -38,11 +38,7 @@ Bug
 "
 )
 ;
-var
-patches
-updates
-update
-;
+let
 patches
 =
 getLocalPatchString
@@ -56,6 +52,7 @@ null
 STATE_DOWNLOADING
 )
 ;
+let
 updates
 =
 getLocalUpdateString
@@ -169,6 +166,7 @@ updateCount
 1
 )
 ;
+let
 update
 =
 gUpdateManager

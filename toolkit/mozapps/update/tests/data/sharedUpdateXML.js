@@ -350,6 +350,7 @@ aUpdates
 "
 "
 )
+{
 return
 "
 <
@@ -378,6 +379,7 @@ update
 /
 >
 "
+}
 return
 (
 "

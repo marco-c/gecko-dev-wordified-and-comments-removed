@@ -47,12 +47,7 @@ test_channel
 "
 )
 ;
-var
-patch
-patches
-update
-updates
-;
+let
 patches
 =
 getLocalPatchString
@@ -83,6 +78,7 @@ true
 STATE_PENDING
 )
 ;
+let
 updates
 =
 getLocalUpdateString
@@ -372,6 +368,7 @@ updateCount
 2
 )
 ;
+let
 update
 =
 gUpdateManager
@@ -383,7 +380,7 @@ getUpdateAt
 .
 QueryInterface
 (
-AUS_Ci
+Ci
 .
 nsIPropertyBag
 )
@@ -629,6 +626,7 @@ value
 "
 )
 ;
+let
 patch
 =
 update
@@ -716,7 +714,7 @@ getUpdateAt
 .
 QueryInterface
 (
-AUS_Ci
+Ci
 .
 nsIPropertyBag
 )

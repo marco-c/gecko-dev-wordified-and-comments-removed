@@ -96,10 +96,10 @@ gResponseBody
 ;
 try
 {
-var
+let
 parser
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -116,7 +116,7 @@ domparser
 .
 createInstance
 (
-AUS_Ci
+Ci
 .
 nsIDOMParser
 )
@@ -144,7 +144,7 @@ e
 )
 {
 }
-var
+let
 e
 =
 {
@@ -227,7 +227,7 @@ gCheckFunc
 =
 check_test_helper_pt1_2
 ;
-var
+let
 bestUpdate
 =
 gAUS
@@ -238,7 +238,7 @@ gUpdates
 gUpdateCount
 )
 ;
-var
+let
 state
 =
 gAUS
@@ -262,6 +262,7 @@ state
 =
 STATE_FAILED
 )
+{
 do_throw
 (
 "
@@ -274,6 +275,7 @@ returned
 state
 )
 ;
+}
 gAUS
 .
 addDownloadListener
@@ -371,7 +373,7 @@ gCheckFunc
 =
 check_test_helper_bug828858_pt1_2
 ;
-var
+let
 bestUpdate
 =
 gAUS
@@ -382,7 +384,7 @@ gUpdates
 gUpdateCount
 )
 ;
-var
+let
 state
 =
 gAUS
@@ -406,6 +408,7 @@ state
 =
 STATE_FAILED
 )
+{
 do_throw
 (
 "
@@ -418,6 +421,7 @@ returned
 state
 )
 ;
+}
 gAUS
 .
 addDownloadListener
@@ -436,7 +440,7 @@ if
 gStatusResult
 =
 =
-AUS_Cr
+Cr
 .
 NS_ERROR_CONTENT_CORRUPTED
 )
@@ -444,7 +448,7 @@ NS_ERROR_CONTENT_CORRUPTED
 do_check_eq
 (
 gStatusResult
-AUS_Cr
+Cr
 .
 NS_ERROR_CONTENT_CORRUPTED
 )
@@ -479,7 +483,7 @@ aHashValue
 aSize
 )
 {
-var
+let
 patches
 =
 getRemotePatchString
@@ -491,7 +495,7 @@ aHashValue
 aSize
 )
 ;
-var
+let
 updates
 =
 getRemoteUpdateString
@@ -531,7 +535,7 @@ valid
 MD5
 hash
 "
-AUS_Cr
+Cr
 .
 NS_OK
 run_test_pt2
@@ -566,7 +570,7 @@ invalid
 MD5
 hash
 "
-AUS_Cr
+Cr
 .
 NS_ERROR_CORRUPTED_CONTENT
 run_test_pt3
@@ -597,7 +601,7 @@ valid
 SHA1
 hash
 "
-AUS_Cr
+Cr
 .
 NS_OK
 run_test_pt4
@@ -632,7 +636,7 @@ invalid
 SHA1
 hash
 "
-AUS_Cr
+Cr
 .
 NS_ERROR_CORRUPTED_CONTENT
 run_test_pt5
@@ -663,7 +667,7 @@ valid
 SHA256
 hash
 "
-AUS_Cr
+Cr
 .
 NS_OK
 run_test_pt6
@@ -698,7 +702,7 @@ invalid
 SHA256
 hash
 "
-AUS_Cr
+Cr
 .
 NS_ERROR_CORRUPTED_CONTENT
 run_test_pt7
@@ -729,7 +733,7 @@ valid
 SHA384
 hash
 "
-AUS_Cr
+Cr
 .
 NS_OK
 run_test_pt8
@@ -764,7 +768,7 @@ invalid
 SHA384
 hash
 "
-AUS_Cr
+Cr
 .
 NS_ERROR_CORRUPTED_CONTENT
 run_test_pt9
@@ -795,7 +799,7 @@ valid
 SHA512
 hash
 "
-AUS_Cr
+Cr
 .
 NS_OK
 run_test_pt10
@@ -830,7 +834,7 @@ invalid
 SHA512
 hash
 "
-AUS_Cr
+Cr
 .
 NS_ERROR_CORRUPTED_CONTENT
 run_test_pt11
@@ -842,7 +846,7 @@ run_test_pt11
 (
 )
 {
-var
+let
 patches
 =
 getRemotePatchString
@@ -857,7 +861,7 @@ mar
 "
 )
 ;
-var
+let
 updates
 =
 getRemoteUpdateString
@@ -883,7 +887,7 @@ mar
 not
 found
 "
-AUS_Cr
+Cr
 .
 NS_ERROR_UNEXPECTED
 run_test_pt12
@@ -929,7 +933,7 @@ invalid
 file
 size
 "
-AUS_Cr
+Cr
 .
 NS_ERROR_UNEXPECTED
 finish_test
@@ -953,7 +957,7 @@ invalid
 file
 size
 "
-AUS_Cr
+Cr
 .
 NS_ERROR_UNEXPECTED
 finish_test

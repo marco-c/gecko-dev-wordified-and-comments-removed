@@ -65,7 +65,7 @@ status
 =
 gExpectedStatusCode
 ;
-var
+let
 e
 =
 {
@@ -140,7 +140,7 @@ gStatusCode
 gExpectedStatusCode
 )
 ;
-var
+let
 expectedStatusText
 =
 getStatusText
@@ -211,7 +211,7 @@ gStatusCode
 gExpectedStatusCode
 )
 ;
-var
+let
 expectedStatusText
 =
 getStatusText
@@ -308,7 +308,7 @@ run_test_pt6
 run_test_helper
 (
 run_test_pt7
-AUS_Cr
+Cr
 .
 NS_BINDING_FAILED
 "
@@ -330,7 +330,7 @@ run_test_pt7
 run_test_helper
 (
 run_test_pt8
-AUS_Cr
+Cr
 .
 NS_ERROR_NET_TIMEOUT
 "
@@ -350,7 +350,7 @@ run_test_pt8
 run_test_helper
 (
 run_test_pt9
-AUS_Cr
+Cr
 .
 NS_ERROR_OFFLINE
 "
@@ -369,7 +369,7 @@ run_test_pt9
 run_test_helper
 (
 run_test_pt10
-AUS_Cr
+Cr
 .
 NS_ERROR_PORT_ACCESS_NOT_ALLOWED
 "
@@ -389,7 +389,7 @@ run_test_pt10
 run_test_helper
 (
 run_test_pt11
-AUS_Cr
+Cr
 .
 NS_ERROR_NET_RESET
 "
@@ -410,7 +410,7 @@ run_test_pt11
 run_test_helper
 (
 run_test_pt12
-AUS_Cr
+Cr
 .
 NS_ERROR_UNKNOWN_HOST
 "
@@ -431,7 +431,7 @@ run_test_pt12
 run_test_helper
 (
 run_test_pt13
-AUS_Cr
+Cr
 .
 NS_ERROR_UNKNOWN_PROXY_HOST
 "
@@ -452,7 +452,7 @@ run_test_pt13
 run_test_helper
 (
 run_test_pt14
-AUS_Cr
+Cr
 .
 NS_ERROR_NET_INTERRUPT
 "
@@ -472,7 +472,7 @@ run_test_pt14
 run_test_helper
 (
 run_test_pt15
-AUS_Cr
+Cr
 .
 NS_ERROR_PROXY_CONNECTION_REFUSED
 "
@@ -511,7 +511,7 @@ run_test_pt16
 run_test_helper
 (
 run_test_pt17
-AUS_Cr
+Cr
 .
 NS_ERROR_DOCUMENT_NOT_CACHED
 "
@@ -531,7 +531,7 @@ run_test_pt17
 run_test_helper
 (
 doTestFinish
-AUS_Cr
+Cr
 .
 NS_ERROR_CONNECTION_REFUSED
 "

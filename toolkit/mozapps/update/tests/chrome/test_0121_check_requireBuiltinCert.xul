@@ -247,9 +247,7 @@ finish
 }
 ]
 ;
-Components
-.
-utils
+Cu
 .
 import
 (
@@ -339,7 +337,7 @@ entering
 ;
 gRequest
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -356,7 +354,7 @@ xmlhttprequest
 .
 createInstance
 (
-AUS_Ci
+Ci
 .
 nsIXMLHttpRequest
 )
@@ -459,14 +457,14 @@ wrong
 "
 )
 ;
-var
+let
 request
 =
 aEvent
 .
 target
 ;
-var
+let
 status
 =
 0
@@ -493,6 +491,7 @@ status
 =
 0
 )
+{
 status
 =
 request
@@ -501,13 +500,14 @@ channel
 .
 QueryInterface
 (
-AUS_Ci
+Ci
 .
 nsIRequest
 )
 .
 status
 ;
+}
 ok
 (
 false
@@ -543,7 +543,7 @@ entering
 "
 )
 ;
-var
+let
 channel
 =
 aEvent
@@ -552,7 +552,7 @@ target
 .
 channel
 ;
-var
+let
 cert
 =
 channel
@@ -561,7 +561,7 @@ securityInfo
 .
 QueryInterface
 (
-AUS_Ci
+Ci
 .
 nsISSLStatusProvider
 )
@@ -570,7 +570,7 @@ SSLStatus
 .
 QueryInterface
 (
-AUS_Ci
+Ci
 .
 nsISSLStatus
 )

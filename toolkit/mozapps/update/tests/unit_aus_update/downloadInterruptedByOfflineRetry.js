@@ -118,7 +118,7 @@ gXHR
 .
 status
 =
-AUS_Cr
+Cr
 .
 NS_ERROR_OFFLINE
 ;
@@ -144,7 +144,7 @@ update
 do_check_eq
 (
 gStatusCode
-AUS_Cr
+Cr
 .
 NS_ERROR_OFFLINE
 )
@@ -191,7 +191,7 @@ online
 )
 ;
 }
-var
+const
 updatePrompt
 =
 {
@@ -215,14 +215,14 @@ xhr_pt2
 (
 )
 {
-var
+let
 patches
 =
 getLocalPatchString
 (
 )
 ;
-var
+let
 updates
 =
 getLocalUpdateString
@@ -230,7 +230,7 @@ getLocalUpdateString
 patches
 )
 ;
-var
+let
 responseBody
 =
 getLocalUpdatesXMLString
@@ -252,10 +252,10 @@ responseBody
 ;
 try
 {
-var
+let
 parser
 =
-AUS_Cc
+Cc
 [
 "
 mozilla
@@ -272,7 +272,7 @@ domparser
 .
 createInstance
 (
-AUS_Ci
+Ci
 .
 nsIDOMParser
 )
