@@ -418,3 +418,15 @@ mobile
 JSGC_GENERATIONAL
 =
 1
+#
+Use
+the
+low
+-
+memory
+GC
+tuning
+.
+JS_GC_SMALL_CHUNK_SIZE
+=
+1
