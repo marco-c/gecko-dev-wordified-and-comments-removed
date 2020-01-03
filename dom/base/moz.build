@@ -116,6 +116,11 @@ nsIContentPolicy
 idl
 '
 '
+nsIContentPolicyBase
+.
+idl
+'
+'
 nsIDocumentEncoder
 .
 idl
@@ -227,6 +232,11 @@ idl
 '
 '
 nsISelectionPrivate
+.
+idl
+'
+'
+nsISimpleContentPolicy
 .
 idl
 '
