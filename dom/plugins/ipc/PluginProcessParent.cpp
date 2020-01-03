@@ -391,7 +391,7 @@ if
 (
 aSandboxLevel
 <
-3
+2
 )
 {
 return
@@ -427,6 +427,13 @@ rv
 return
 ;
 }
+if
+(
+aSandboxLevel
+>
+2
+)
+{
 AddSandboxAllowedFile
 (
 aAllowedFilesRead
@@ -449,6 +456,7 @@ NS_LITERAL_STRING
 )
 )
 ;
+}
 AddSandboxAllowedFile
 (
 aAllowedFilesReadWrite
@@ -493,6 +501,12 @@ Player
 )
 )
 ;
+#
+if
+defined
+(
+_X86_
+)
 AddSandboxAllowedFile
 (
 aAllowedFilesReadWrite
@@ -508,6 +522,8 @@ NS_LITERAL_STRING
 )
 )
 ;
+#
+endif
 }
 #
 endif
