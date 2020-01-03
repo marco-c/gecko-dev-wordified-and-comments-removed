@@ -720,6 +720,15 @@ IMENotification
 aIMENotification
 )
 ;
+nsresult
+NotifyIMEOfMouseButtonEvent
+(
+const
+IMENotification
+&
+aIMENotification
+)
+;
 class
 PaintTask
 :
