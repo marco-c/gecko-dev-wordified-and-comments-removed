@@ -690,7 +690,7 @@ promo
 :
 case
 "
-contextInConverations
+contextInConversations
 .
 enabled
 "

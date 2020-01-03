@@ -4522,7 +4522,7 @@ mozLoop
 getLoopPref
 (
 "
-contextInConverations
+contextInConversations
 .
 enabled
 "
