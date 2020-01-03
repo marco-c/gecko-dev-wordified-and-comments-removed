@@ -46,6 +46,9 @@ h
 namespace
 js
 {
+class
+StaticEvalObject
+;
 namespace
 frontend
 {
@@ -531,6 +534,13 @@ parser
 HandleScript
 evalCaller
 ;
+Handle
+<
+StaticEvalObject
+*
+>
+evalStaticScope
+;
 StmtInfoBCE
 *
 topStmt
@@ -661,6 +671,12 @@ bool
 insideEval
 HandleScript
 evalCaller
+Handle
+<
+StaticEvalObject
+*
+>
+evalStaticScope
 bool
 hasGlobalScope
 uint32_t

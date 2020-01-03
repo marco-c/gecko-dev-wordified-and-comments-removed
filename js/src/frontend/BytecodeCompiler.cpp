@@ -1086,6 +1086,12 @@ HandleObject
 scopeChain
 HandleScript
 evalCaller
+Handle
+<
+StaticEvalObject
+*
+>
+evalStaticScope
 const
 ReadOnlyCompileOptions
 &
@@ -1528,9 +1534,7 @@ JSScript
 Create
 (
 cx
-NullPtr
-(
-)
+evalStaticScope
 savedCallerFun
 options
 staticLevel
@@ -1642,6 +1646,7 @@ options
 .
 forEval
 evalCaller
+evalStaticScope
 !
 !
 globalScope
@@ -2803,6 +2808,12 @@ js
 NullPtr
 (
 )
+js
+:
+:
+NullPtr
+(
+)
 true
 options
 .
@@ -3470,6 +3481,12 @@ NullPtr
 (
 )
 false
+js
+:
+:
+NullPtr
+(
+)
 js
 :
 :
