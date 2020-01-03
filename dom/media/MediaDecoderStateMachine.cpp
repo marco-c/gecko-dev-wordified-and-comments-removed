@@ -5892,10 +5892,6 @@ ScheduleStateMachine
 (
 )
 ;
-mCurrentPosition
-=
-0
-;
 mDecodingFirstFrame
 =
 true
