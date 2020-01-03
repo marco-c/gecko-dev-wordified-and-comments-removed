@@ -4613,6 +4613,15 @@ then
 {
 if
 (
+!
+this
+.
+_searchSuggestionController
+)
+return
+;
+if
+(
 this
 .
 _searchSuggestionController
