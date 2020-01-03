@@ -1162,7 +1162,7 @@ entry
 )
 -
 >
-keyHash
+mKeyHash
 =
 0
 )
@@ -1178,7 +1178,7 @@ entry
 )
 -
 >
-keyHash
+mKeyHash
 =
 1
 )
@@ -1194,7 +1194,7 @@ entry
 )
 -
 >
-keyHash
+mKeyHash
 =
 =
 1
@@ -1211,7 +1211,7 @@ entry
 )
 -
 >
-keyHash
+mKeyHash
 >
 =
 2
@@ -1253,7 +1253,7 @@ entry
 )
 -
 >
-keyHash
+mKeyHash
 &
 ~
 COLLISION_FLAG
@@ -1299,7 +1299,10 @@ mEntrySize
 )
 MOZ_ALWAYS_INLINE
 bool
-PL_DHASH_ENTRY_IS_FREE
+PLDHashTable
+:
+:
+EntryIsFree
 (
 PLDHashEntryHdr
 *
@@ -1310,7 +1313,7 @@ return
 aEntry
 -
 >
-keyHash
+mKeyHash
 =
 =
 0
@@ -1503,7 +1506,7 @@ hash1
 ;
 if
 (
-PL_DHASH_ENTRY_IS_FREE
+EntryIsFree
 (
 entry
 )
@@ -1634,7 +1637,7 @@ aIsAdd
 entry
 -
 >
-keyHash
+mKeyHash
 |
 =
 COLLISION_FLAG
@@ -1670,7 +1673,7 @@ hash1
 ;
 if
 (
-PL_DHASH_ENTRY_IS_FREE
+EntryIsFree
 (
 entry
 )
@@ -1793,7 +1796,7 @@ hash1
 ;
 if
 (
-PL_DHASH_ENTRY_IS_FREE
+EntryIsFree
 (
 entry
 )
@@ -1866,7 +1869,7 @@ entry
 entry
 -
 >
-keyHash
+mKeyHash
 |
 =
 COLLISION_FLAG
@@ -1900,7 +1903,7 @@ hash1
 ;
 if
 (
-PL_DHASH_ENTRY_IS_FREE
+EntryIsFree
 (
 entry
 )
@@ -2120,7 +2123,7 @@ oldEntry
 oldEntry
 -
 >
-keyHash
+mKeyHash
 &
 =
 ~
@@ -2135,17 +2138,17 @@ FindFreeEntry
 oldEntry
 -
 >
-keyHash
+mKeyHash
 )
 ;
 NS_ASSERTION
 (
-PL_DHASH_ENTRY_IS_FREE
+EntryIsFree
 (
 newEntry
 )
 "
-PL_DHASH_ENTRY_IS_FREE
+EntryIsFree
 (
 newEntry
 )
@@ -2162,12 +2165,12 @@ newEntry
 newEntry
 -
 >
-keyHash
+mKeyHash
 =
 oldEntry
 -
 >
-keyHash
+mKeyHash
 ;
 }
 oldEntryAddr
@@ -2190,7 +2193,7 @@ PLDHashNumber
 PLDHashTable
 :
 :
-GetKeyHash
+ComputeKeyHash
 (
 const
 void
@@ -2261,7 +2264,7 @@ mSearches
 PLDHashNumber
 keyHash
 =
-GetKeyHash
+ComputeKeyHash
 (
 aKey
 )
@@ -2284,7 +2287,7 @@ this
 ;
 return
 !
-PL_DHASH_ENTRY_IS_FREE
+EntryIsFree
 (
 entry
 )
@@ -2432,7 +2435,7 @@ exit
 }
 keyHash
 =
-GetKeyHash
+ComputeKeyHash
 (
 aKey
 )
@@ -2537,7 +2540,7 @@ exit
 entry
 -
 >
-keyHash
+mKeyHash
 =
 keyHash
 ;
@@ -2599,7 +2602,7 @@ this
 PLDHashNumber
 keyHash
 =
-GetKeyHash
+ComputeKeyHash
 (
 aKey
 )
@@ -2810,7 +2813,7 @@ keyHash
 aEntry
 -
 >
-keyHash
+mKeyHash
 ;
 mOps
 -
@@ -3937,7 +3940,7 @@ HASH1
 entry
 -
 >
-keyHash
+mKeyHash
 &
 ~
 COLLISION_FLAG
@@ -3986,7 +3989,7 @@ HASH2
 entry
 -
 >
-keyHash
+mKeyHash
 &
 ~
 COLLISION_FLAG
@@ -4662,7 +4665,7 @@ hash1
 while
 (
 !
-PL_DHASH_ENTRY_IS_FREE
+EntryIsFree
 (
 entry
 )
