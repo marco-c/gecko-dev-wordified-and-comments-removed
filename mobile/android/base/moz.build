@@ -284,15 +284,6 @@ mozglue
 /
 generatorannotations
 /
-GeneratorOptions
-.
-java
-'
-'
-mozglue
-/
-generatorannotations
-/
 OptionalGeneratedParameter
 .
 java
