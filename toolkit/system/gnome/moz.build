@@ -98,7 +98,17 @@ SOURCES
 =
 [
 '
+nsAlertsIconListener
+.
+cpp
+'
+'
 nsGnomeModule
+.
+cpp
+'
+'
+nsSystemAlertsService
 .
 cpp
 '

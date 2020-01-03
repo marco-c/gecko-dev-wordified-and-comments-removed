@@ -417,7 +417,8 @@ if
 sysAlerts
 )
 {
-return
+rv
+=
 sysAlerts
 -
 >
@@ -441,6 +442,16 @@ Principal
 aPrincipal
 )
 )
+;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+return
+NS_OK
 ;
 }
 if
