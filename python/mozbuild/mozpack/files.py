@@ -3743,6 +3743,13 @@ open
 (
 )
 output
+quote_chars
+=
+"
+'
+\
+"
+"
 )
         
 minify
