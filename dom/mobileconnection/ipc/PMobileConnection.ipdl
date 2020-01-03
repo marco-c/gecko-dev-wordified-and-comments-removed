@@ -366,7 +366,7 @@ GetPreferredNetworkTypeRequest
 struct
 SetRoamingPreferenceRequest
 {
-nsString
+int32_t
 mode
 ;
 }

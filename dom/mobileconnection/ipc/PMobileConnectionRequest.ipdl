@@ -172,14 +172,6 @@ MobileConnectionReplySuccess
 }
 ;
 struct
-MobileConnectionReplySuccessString
-{
-nsString
-result
-;
-}
-;
-struct
 MobileConnectionReplySuccessBoolean
 {
 bool
@@ -254,6 +246,14 @@ type
 ;
 }
 ;
+struct
+MobileConnectionReplySuccessRoamingPreference
+{
+int32_t
+mode
+;
+}
+;
 /
 /
 Error
@@ -290,8 +290,6 @@ MobileConnectionReply
 Success
 MobileConnectionReplySuccess
 ;
-MobileConnectionReplySuccessString
-;
 MobileConnectionReplySuccessBoolean
 ;
 MobileConnectionReplySuccessNetworks
@@ -305,6 +303,8 @@ MobileConnectionReplySuccessCallBarring
 MobileConnectionReplySuccessClirStatus
 ;
 MobileConnectionReplySuccessPreferredNetworkType
+;
+MobileConnectionReplySuccessRoamingPreference
 ;
 /
 /
