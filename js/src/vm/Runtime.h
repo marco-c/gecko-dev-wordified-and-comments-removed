@@ -3746,6 +3746,9 @@ hadOutOfMemory
 bool
 haveCreatedContext
 ;
+bool
+allowRelazificationForTesting
+;
 mozilla
 :
 :
