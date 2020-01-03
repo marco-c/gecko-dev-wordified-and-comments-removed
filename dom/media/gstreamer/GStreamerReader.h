@@ -761,15 +761,6 @@ aCaps
 )
 ;
 static
-bool
-IsFactoryBlacklisted
-(
-GstElementFactory
-*
-aFactory
-)
-;
-static
 GValueArray
 *
 AutoplugSortCb
