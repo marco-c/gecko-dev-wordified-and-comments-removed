@@ -28,6 +28,12 @@ zoom
 ref
 .
 html
+fails
+-
+if
+(
+usesRepeatResampling
+)
 =
 =
 background

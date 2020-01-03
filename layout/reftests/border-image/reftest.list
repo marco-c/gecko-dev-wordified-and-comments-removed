@@ -350,6 +350,12 @@ Android
 |
 B2G
 )
+fails
+-
+if
+(
+usesRepeatResampling
+)
 =
 =
 center
@@ -390,6 +396,12 @@ Android
 |
 |
 B2G
+)
+fails
+-
+if
+(
+usesRepeatResampling
 )
 =
 =

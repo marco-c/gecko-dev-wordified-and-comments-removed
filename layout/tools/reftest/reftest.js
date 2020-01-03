@@ -4429,6 +4429,14 @@ gDumpedConditionSandbox
 true
 ;
 }
+sandbox
+.
+usesRepeatResampling
+=
+sandbox
+.
+d2d
+;
 return
 sandbox
 ;
