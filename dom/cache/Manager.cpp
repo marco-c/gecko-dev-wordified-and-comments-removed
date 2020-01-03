@@ -3548,10 +3548,8 @@ MOZ_ASSERT
 aClosure
 )
 ;
-nsRefPtr
-<
 CachePutAllAction
->
+*
 action
 =
 static_cast
@@ -3585,7 +3583,7 @@ nsIRunnable
 >
 runnable
 =
-NS_NewRunnableMethodWithArg
+NS_NewNonOwningRunnableMethodWithArgs
 <
 nsresult
 >
