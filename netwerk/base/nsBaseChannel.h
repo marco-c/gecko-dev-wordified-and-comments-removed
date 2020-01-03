@@ -712,12 +712,6 @@ mOwner
 ;
 nsCOMPtr
 <
-nsILoadInfo
->
-mLoadInfo
-;
-nsCOMPtr
-<
 nsISupports
 >
 mSecurityInfo
@@ -786,6 +780,12 @@ nsCOMPtr
 nsISupports
 >
 mListenerContext
+;
+nsCOMPtr
+<
+nsILoadInfo
+>
+mLoadInfo
 ;
 nsresult
 mStatus

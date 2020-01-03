@@ -1626,6 +1626,7 @@ if
 MissingRequiredTabChild
 (
 child
+nullptr
 "
 offlinecacheupdate
 "
