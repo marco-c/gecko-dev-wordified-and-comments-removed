@@ -261,13 +261,6 @@ h
 #
 include
 "
-pldhash
-.
-h
-"
-#
-include
-"
 nsWrapperCacheInlines
 .
 h
@@ -9627,7 +9620,7 @@ typename
 T
 >
 static
-PLDHashOperator
+void
 TraceMozMapValue
 (
 T
@@ -9665,9 +9658,6 @@ aValue
 +
 1
 )
-;
-return
-PL_DHASH_NEXT
 ;
 }
 template
