@@ -2906,6 +2906,9 @@ MP4Decoder
 IsEnabled
 (
 )
+&
+&
+aDecoder
 )
 {
 return
