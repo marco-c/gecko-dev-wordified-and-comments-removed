@@ -153,7 +153,9 @@ textAppearance
 "
 style
 /
-ShareOverlayTextAppearance
+TextAppearance
+.
+ShareOverlay
 "
 android
 :

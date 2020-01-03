@@ -253,7 +253,9 @@ textAppearance
 "
 style
 /
-ShareOverlayTextAppearance
+TextAppearance
+.
+ShareOverlay
 .
 Header
 "
@@ -338,7 +340,9 @@ textAppearance
 "
 style
 /
-ShareOverlayTextAppearance
+TextAppearance
+.
+ShareOverlay
 .
 Header
 "
