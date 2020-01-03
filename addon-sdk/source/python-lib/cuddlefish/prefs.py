@@ -1949,16 +1949,6 @@ enabled
 True
     
 '
-media
-.
-eme
-.
-apiVisible
-'
-:
-True
-    
-'
 dom
 .
 ipc
@@ -1966,16 +1956,6 @@ ipc
 tabs
 .
 shutdownTimeoutSecs
-'
-:
-0
-    
-'
-browser
-.
-search
-.
-highlightCount
 '
 :
 0
