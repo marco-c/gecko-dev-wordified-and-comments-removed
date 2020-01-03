@@ -30,6 +30,15 @@ include
 "
 mozilla
 /
+unused
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ContentParent
