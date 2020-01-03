@@ -54,4 +54,13 @@ length
 "
 :
 true
+"
+WeakMap
+.
+prototype
+.
+toStringTag
+"
+:
+true
 }

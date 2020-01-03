@@ -107,7 +107,7 @@ prototype
 "
 [
 object
-WeakMap
+Object
 ]
 "
 )
@@ -239,6 +239,14 @@ arity
 )
 ;
 }
+checkMethod
+(
+"
+get
+"
+1
+)
+;
 checkMethod
 (
 "
