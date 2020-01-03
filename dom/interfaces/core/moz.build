@@ -187,11 +187,6 @@ nsIDOMXMLDocument
 .
 idl
 '
-'
-nsIInlineEventHandlers
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

@@ -231,13 +231,6 @@ h
 #
 include
 "
-nsIInlineEventHandlers
-.
-h
-"
-#
-include
-"
 nsWrapperCacheInlines
 .
 h
@@ -1053,8 +1046,6 @@ public
 PRCListStr
 public
 nsIDOMWindowPerformance
-public
-nsIInlineEventHandlers
 #
 ifdef
 MOZ_B2G
@@ -1338,7 +1329,6 @@ this
 )
 ;
 }
-NS_DECL_NSIINLINEEVENTHANDLERS
 virtual
 nsPIDOMWindow
 *
