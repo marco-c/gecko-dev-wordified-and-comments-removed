@@ -205,7 +205,7 @@ rv
 xpc
 -
 >
-WrapNative
+WrapNativeHolder
 (
 aCtx
 :
