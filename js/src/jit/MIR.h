@@ -2747,15 +2747,10 @@ virtualRegister_
 =
 vreg
 ;
-#
-ifdef
-DEBUG
 setLoweredUnchecked
 (
 )
 ;
-#
-endif
 }
 uint32_t
 virtualRegister
