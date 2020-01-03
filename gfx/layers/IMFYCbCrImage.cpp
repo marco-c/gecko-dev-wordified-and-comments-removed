@@ -461,6 +461,7 @@ aDevice
 )
 {
 return
+false
 ;
 }
 HRESULT
