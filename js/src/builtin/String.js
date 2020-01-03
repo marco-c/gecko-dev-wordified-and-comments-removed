@@ -627,6 +627,7 @@ That
 function
 String_static_fromCodePoint
 (
+codePoints
 )
 {
 var

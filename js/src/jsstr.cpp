@@ -22345,7 +22345,7 @@ fromCodePoint
 "
 String_static_fromCodePoint
 "
-0
+1
 0
 )
 JS_SELF_HOSTED_FN
