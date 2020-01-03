@@ -1764,9 +1764,6 @@ NS_DISPATCH_NORMAL
 )
 ;
 }
-#
-ifdef
-MOZ_B2G_BT_API_V2
 static
 void
 DispatchBluetoothReply
@@ -1811,10 +1808,6 @@ aValue
 ;
 }
 }
-#
-else
-#
-endif
 BluetoothDBusService
 :
 :
@@ -20023,7 +20016,6 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-;
 {
 }
 void
@@ -20040,7 +20032,6 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-;
 {
 }
 void
