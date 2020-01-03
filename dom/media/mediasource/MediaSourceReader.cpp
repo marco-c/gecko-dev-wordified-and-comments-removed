@@ -235,11 +235,6 @@ mPendingSeekTime
 -
 1
 )
-mPendingEndTime
-(
--
-1
-)
 mWaitingForSeekData
 (
 false
@@ -3130,7 +3125,7 @@ Seek
 int64_t
 aTime
 int64_t
-aEndTime
+aIgnored
 )
 {
 MSE_DEBUG
@@ -3149,10 +3144,6 @@ aTime
 =
 %
 lld
-aStart
-=
-%
-lld
 aEnd
 =
 %
@@ -3165,7 +3156,6 @@ lld
 "
 this
 aTime
-aEndTime
 )
 ;
 mSeekPromise
@@ -3211,10 +3201,6 @@ p
 mPendingSeekTime
 =
 aTime
-;
-mPendingEndTime
-=
-aEndTime
 ;
 {
 ReentrantMonitorAutoEnter
@@ -3275,7 +3261,7 @@ mAudioReader
 Seek
 (
 mPendingSeekTime
-mPendingEndTime
+0
 )
 -
 >
@@ -3492,7 +3478,7 @@ mVideoReader
 Seek
 (
 mPendingSeekTime
-mPendingEndTime
+0
 )
 -
 >
