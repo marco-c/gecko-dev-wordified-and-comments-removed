@@ -11697,7 +11697,7 @@ String
 Integer
 >
 map
-Integer
+int
 value
 )
 {

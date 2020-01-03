@@ -6109,7 +6109,7 @@ return
 ;
 }
 final
-Integer
+int
 id
 =
 getIDForFaviconURL
