@@ -1454,7 +1454,7 @@ FirstFrameLoaded
 ;
 virtual
 bool
-IsExpectingMoreData
+IsDataCachedToEndOfResource
 (
 )
 ;

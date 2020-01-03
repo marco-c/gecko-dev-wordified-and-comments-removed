@@ -804,6 +804,7 @@ mReader
 GetBuffered
 (
 aBuffered
+0
 )
 ;
 }
