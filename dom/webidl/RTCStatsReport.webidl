@@ -196,6 +196,9 @@ DOMString
 ssrc
 ;
 DOMString
+mediaType
+;
+DOMString
 remoteId
 ;
 boolean
