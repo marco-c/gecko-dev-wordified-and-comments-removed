@@ -13,9 +13,6 @@ fe93
 nsSearchService
 .
 js
-process
-=
-main
 contract
 mozilla
 .
@@ -39,9 +36,6 @@ fe93
 -
 818cf08f4256
 }
-process
-=
-main
 #
 21600
 =
