@@ -10494,9 +10494,10 @@ mNodeInfo
 aNodeInfos
 -
 >
-ElementAt
+SafeElementAt
 (
 number
+nullptr
 )
 ;
 if
@@ -10620,9 +10621,10 @@ ni
 aNodeInfos
 -
 >
-ElementAt
+SafeElementAt
 (
 number
+nullptr
 )
 ;
 if
