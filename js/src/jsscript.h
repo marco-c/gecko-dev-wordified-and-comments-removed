@@ -7840,6 +7840,12 @@ ExclusiveContext
 cx
 HandleFunction
 fun
+HandleScript
+script
+HandleObject
+enclosingScope
+HandleScript
+sourceObjectScript
 uint64_t
 packedData
 uint32_t
