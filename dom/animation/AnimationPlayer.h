@@ -163,6 +163,10 @@ mTimeline
 (
 aTimeline
 )
+mIsPending
+(
+false
+)
 mIsRunningOnCompositor
 (
 false
@@ -603,6 +607,9 @@ nsRefPtr
 Promise
 >
 mReady
+;
+bool
+mIsPending
 ;
 bool
 mIsRunningOnCompositor
