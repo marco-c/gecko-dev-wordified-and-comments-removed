@@ -61857,8 +61857,6 @@ rm
 crtdll
 .
 obj
-export
-DLLFLAGS
 ;
 ;
 *
