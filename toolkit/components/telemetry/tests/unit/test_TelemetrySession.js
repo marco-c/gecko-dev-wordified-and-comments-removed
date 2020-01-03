@@ -10032,6 +10032,11 @@ setMinutes
 50
 )
 ;
+fakeNow
+(
+now
+)
+;
 fakeIdleNotification
 (
 "
