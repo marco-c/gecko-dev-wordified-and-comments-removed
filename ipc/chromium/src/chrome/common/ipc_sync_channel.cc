@@ -746,12 +746,8 @@ ReceivedSyncMsgQueue
 :
 :
 lazy_tls_ptr_
-(
-base
-:
-:
-LINKER_INITIALIZED
-)
+=
+LAZY_INSTANCE_INITIALIZER
 ;
 SyncChannel
 :

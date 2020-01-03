@@ -373,12 +373,8 @@ LazyInstance
 IdleState
 >
 state_instance
-(
-base
-:
-:
-LINKER_INITIALIZED
-)
+=
+LAZY_INSTANCE_INITIALIZER
 ;
 IdleState
 *
