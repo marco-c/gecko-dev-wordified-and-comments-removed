@@ -541,8 +541,6 @@ css
 CommonAnimationManager
 *
 aManager
-TimeStamp
-aNow
 )
 :
 mElement
