@@ -5037,7 +5037,7 @@ TypedObject
 )
 ;
 return
-TypedObject
+OwnedTypedObject
 :
 :
 createDerived

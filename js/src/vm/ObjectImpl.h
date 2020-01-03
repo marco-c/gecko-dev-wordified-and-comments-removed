@@ -3310,7 +3310,7 @@ emptyObjectElements
 ;
 }
 inline
-void
+uint8_t
 *
 fixedData
 (
