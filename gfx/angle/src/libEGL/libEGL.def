@@ -77,3 +77,5 @@ eglQuerySurfacePointerANGLE
 36
 eglPostSubBufferNV
 37
+eglSurfaceReleaseSyncANGLE
+38
