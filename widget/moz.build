@@ -617,6 +617,11 @@ nsWidgetsCID
 h
 '
 '
+PluginWidgetProxy
+.
+h
+'
+'
 PuppetWidget
 .
 h
@@ -820,6 +825,11 @@ cpp
 '
 '
 nsXPLookAndFeel
+.
+cpp
+'
+'
+PluginWidgetProxy
 .
 cpp
 '
