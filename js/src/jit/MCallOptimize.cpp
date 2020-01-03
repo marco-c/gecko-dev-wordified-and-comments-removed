@@ -4079,7 +4079,6 @@ constraints
 )
 )
 allocating
-pc
 )
 ;
 current
@@ -9905,7 +9904,6 @@ constraints
 )
 )
 NewArray_FullyAllocating
-pc
 )
 ;
 current
@@ -13192,7 +13190,6 @@ SetElem_Unsafe
 obj
 id
 elem
-JSVAL_TYPE_MAGIC
 )
 )
 return
