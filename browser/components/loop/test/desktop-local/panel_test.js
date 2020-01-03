@@ -51,8 +51,13 @@ strict
 var
 sandbox
 notifications
+;
+var
 fakeXHR
 fakeWindow
+fakeMozLoop
+;
+var
 requests
 =
 [
@@ -107,6 +112,7 @@ xhr
 )
 ;
 }
+;
 fakeWindow
 =
 {
@@ -154,6 +160,8 @@ NotificationCollection
 (
 )
 ;
+fakeMozLoop
+=
 navigator
 .
 mozLoop
@@ -895,9 +903,7 @@ dispatcher
 {
 mozLoop
 :
-navigator
-.
-mozLoop
+fakeMozLoop
 }
 )
 ;
@@ -930,6 +936,9 @@ fakeClient
 showTabButtons
 :
 true
+mozLoop
+:
+fakeMozLoop
 dispatcher
 :
 dispatcher
