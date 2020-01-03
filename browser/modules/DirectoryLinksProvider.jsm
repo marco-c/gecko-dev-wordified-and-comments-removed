@@ -2440,6 +2440,15 @@ getProviderLinks
 this
 )
 ;
+if
+(
+!
+sortedLinks
+)
+{
+return
+;
+}
 let
 initialLength
 =
