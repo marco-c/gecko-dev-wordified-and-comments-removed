@@ -5182,7 +5182,7 @@ mJSContextIndex
 uint8_t
 mOptArgcIndex
 ;
-jsval
+Value
 *
 const
 mArgv
@@ -6383,7 +6383,7 @@ argument
 "
 )
 ;
-jsval
+Value
 arg
 =
 paramIndex
@@ -8672,7 +8672,7 @@ RemoveRawValueRoot
 (
 mCallContext
 (
-jsval
+Value
 *
 )
 &

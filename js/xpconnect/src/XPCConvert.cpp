@@ -2406,7 +2406,7 @@ T_JSVAL
 *
 (
 (
-jsval
+Value
 *
 )
 d
@@ -4792,7 +4792,7 @@ exceptn
 JSContext
 *
 cx
-jsval
+Value
 *
 jsExceptionPtr
 )

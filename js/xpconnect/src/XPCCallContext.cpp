@@ -67,10 +67,10 @@ HandleId
 name
 unsigned
 argc
-jsval
+Value
 *
 argv
-jsval
+Value
 *
 rval
 )
@@ -709,10 +709,10 @@ SetArgsAndResultPtr
 (
 unsigned
 argc
-jsval
+Value
 *
 argv
-jsval
+Value
 *
 rval
 )
@@ -1159,7 +1159,7 @@ XPCCallContext
 :
 GetArgvPtr
 (
-jsval
+Value
 *
 *
 aArgvPtr

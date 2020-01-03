@@ -666,7 +666,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )

@@ -34,6 +34,10 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+JS
+;
 namespace
 XPCNativeWrapper
 {
@@ -71,7 +75,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -225,7 +229,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
