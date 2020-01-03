@@ -724,6 +724,7 @@ bool
 &
 aPriority
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvPreload
@@ -752,6 +753,7 @@ nsresult
 *
 aRv
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvAsyncGetUsage
@@ -761,6 +763,7 @@ nsCString
 &
 aScope
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvAsyncAddItem
@@ -778,6 +781,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvAsyncUpdateItem
@@ -795,6 +799,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvAsyncRemoveItem
@@ -808,6 +813,7 @@ nsString
 &
 aKey
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvAsyncClear
@@ -817,11 +823,13 @@ nsCString
 &
 aScope
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvAsyncFlush
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -836,6 +844,7 @@ nsACString
 &
 aScopePrefix
 )
+MOZ_OVERRIDE
 ;
 private
 :

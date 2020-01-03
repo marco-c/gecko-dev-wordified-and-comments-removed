@@ -177,6 +177,7 @@ nsACString
 &
 aScopePrefix
 )
+MOZ_OVERRIDE
 ;
 class
 DOMStorageCacheHashKey
