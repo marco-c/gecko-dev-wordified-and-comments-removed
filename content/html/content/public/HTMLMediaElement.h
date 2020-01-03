@@ -2508,6 +2508,9 @@ bool
 mPlayingBeforeSeek
 ;
 bool
+mPlayingThroughTheAudioChannelBeforeSeek
+;
+bool
 mPausedForInactiveDocumentOrChannel
 ;
 bool

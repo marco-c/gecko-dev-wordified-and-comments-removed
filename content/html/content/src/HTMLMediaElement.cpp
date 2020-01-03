@@ -8917,6 +8917,10 @@ mPlayingBeforeSeek
 (
 false
 )
+mPlayingThroughTheAudioChannelBeforeSeek
+(
+false
+)
 mPausedForInactiveDocumentOrChannel
 (
 false
@@ -13560,6 +13564,16 @@ seeking
 )
 )
 ;
+if
+(
+mPlayingThroughTheAudioChannel
+)
+{
+mPlayingThroughTheAudioChannelBeforeSeek
+=
+true
+;
+}
 ChangeReadyState
 (
 nsIDOMHTMLMediaElement
@@ -13636,6 +13650,10 @@ CurrentTime
 )
 ;
 }
+mPlayingThroughTheAudioChannelBeforeSeek
+=
+false
+;
 }
 void
 HTMLMediaElement
@@ -17156,7 +17174,7 @@ IsPlaybackEnded
 )
 |
 |
-mPlayingBeforeSeek
+mPlayingThroughTheAudioChannelBeforeSeek
 )
 )
 ;
