@@ -229,6 +229,11 @@ ScaleFactor
 h
 '
 '
+ScaleFactors2D
+.
+h
+'
+'
 SourceSurfaceCairo
 .
 h
