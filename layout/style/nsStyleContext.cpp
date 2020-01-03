@@ -2175,15 +2175,7 @@ Display
 )
 UNIQUE_CASE
 (
-Background
-)
-UNIQUE_CASE
-(
 Text
-)
-UNIQUE_CASE
-(
-TextReset
 )
 #
 undef
