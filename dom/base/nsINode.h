@@ -6212,10 +6212,12 @@ protected
 :
 nsIContent
 *
+MOZ_NON_OWNING_REF
 mNextSibling
 ;
 nsIContent
 *
+MOZ_NON_OWNING_REF
 mPreviousSibling
 ;
 nsIContent
