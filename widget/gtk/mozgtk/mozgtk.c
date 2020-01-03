@@ -515,6 +515,10 @@ gdk_x11_visual_get_xvisual
 )
 STUB
 (
+gdk_x11_window_foreign_new_for_display
+)
+STUB
+(
 gdk_x11_window_lookup_for_display
 )
 STUB
