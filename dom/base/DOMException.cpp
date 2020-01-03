@@ -2802,8 +2802,6 @@ idx
 .
 mCode
 ;
-break
-;
 }
 }
 }
