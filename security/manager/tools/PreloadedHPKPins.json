@@ -478,6 +478,9 @@ production_pinsets
 "
 google_root_pems
 "
+"
+facebook
+"
 ]
 "
 production_domains
