@@ -427,6 +427,17 @@ toObject
 )
 ;
 }
+const
+char
+*
+InfoFrom
+(
+WebGLTexImageFunc
+func
+WebGLTexDimensions
+dims
+)
+;
 }
 #
 endif
