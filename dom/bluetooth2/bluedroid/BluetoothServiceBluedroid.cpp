@@ -3302,8 +3302,10 @@ CreatedPairedDevice
 }
 private
 :
+nsRefPtr
+<
 BluetoothReplyRunnable
-*
+>
 mRunnable
 ;
 }
@@ -3419,8 +3421,10 @@ RemoveDevice
 }
 private
 :
+nsRefPtr
+<
 BluetoothReplyRunnable
-*
+>
 mRunnable
 ;
 }
