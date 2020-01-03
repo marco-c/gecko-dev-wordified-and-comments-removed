@@ -151,6 +151,12 @@ message
 "
 "
 )
+Exposed
+=
+(
+Window
+System
+)
 ]
 interface
 DOMError
