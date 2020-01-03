@@ -10089,7 +10089,7 @@ s
 *
 self
 =
-UnwrapDOMObject
+UnwrapPossiblyNotInitializedDOMObject
 <
 %
 s
