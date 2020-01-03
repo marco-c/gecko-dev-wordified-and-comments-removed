@@ -30807,10 +30807,10 @@ IsInsertionPoint
 )
 {
 return
-shadow
+shadowEl
 -
 >
-GetOlderShadow
+GetOlderShadowRoot
 (
 )
 ;
