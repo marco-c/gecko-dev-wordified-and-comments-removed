@@ -19318,6 +19318,17 @@ parent
 isNative
 (
 )
+|
+|
+parent
+-
+>
+is
+<
+DebugScopeObject
+>
+(
+)
 )
 ;
 if
