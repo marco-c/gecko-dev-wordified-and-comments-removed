@@ -484,6 +484,7 @@ GetConnection
 (
 )
 const
+override
 {
 MOZ_ASSERT
 (
