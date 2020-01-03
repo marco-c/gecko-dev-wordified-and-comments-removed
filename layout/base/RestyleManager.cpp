@@ -7751,8 +7751,6 @@ eRestyle_CSSTransitions
 |
 eRestyle_CSSAnimations
 |
-eRestyle_ChangeAnimationPhase
-|
 eRestyle_SVGAttrAnimations
 )
 )
@@ -11914,8 +11912,6 @@ aRestyleHint
 &
 (
 eRestyle_Subtree
-|
-eRestyle_ChangeAnimationPhaseDescendants
 |
 eRestyle_ForceDescendants
 )
@@ -17946,12 +17942,6 @@ SVGAttrAnimations
 "
 "
 StyleAttribute
-"
-"
-ChangeAnimationPhase
-"
-"
-ChangeAnimationPhaseDescendants
 "
 "
 Force
