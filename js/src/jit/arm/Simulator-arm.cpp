@@ -59,6 +59,15 @@ h
 #
 include
 "
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
 asmjs
 /
 AsmJSValidate
@@ -6979,7 +6988,9 @@ JitSpew_CacheFlush
 %
 p
 %
-zx
+"
+PRIxSIZE
+"
 ]
 "
 start_addr

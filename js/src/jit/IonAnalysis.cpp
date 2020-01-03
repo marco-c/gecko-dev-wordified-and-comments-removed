@@ -9146,7 +9146,9 @@ stderr
 index
 :
 %
-zu
+"
+PRIuSIZE
+"
 \
 n
 "
@@ -9345,7 +9347,9 @@ stderr
 index
 :
 %
-zu
+"
+PRIuSIZE
+"
 \
 n
 "

@@ -39,6 +39,15 @@ h
 #
 include
 "
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -11904,8 +11913,8 @@ p
 s
 :
 %
-d
 "
+PRIuSIZE
 co
 -
 >
@@ -21041,7 +21050,9 @@ p
 s
 :
 %
-d
+"
+PRIuSIZE
+"
 "
 script
 .
@@ -21053,9 +21064,6 @@ script
 >
 filename
 (
-)
-(
-int
 )
 script
 -

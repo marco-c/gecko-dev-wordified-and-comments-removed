@@ -12,6 +12,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
+include
 <
 time
 .
@@ -137,7 +146,9 @@ name
 s
 :
 %
-d
+"
+PRIuSIZE
+"
 \
 "
 \
@@ -148,9 +159,6 @@ script
 >
 filename
 (
-)
-(
-int
 )
 script
 -
@@ -171,7 +179,9 @@ method
 s
 :
 %
-d
+"
+PRIuSIZE
+"
 \
 "
 \
@@ -182,9 +192,6 @@ script
 >
 filename
 (
-)
-(
-int
 )
 script
 -

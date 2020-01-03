@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
 ds
 /
 Sort
@@ -4748,7 +4757,7 @@ char
 *
 filename
 ;
-uint32_t
+size_t
 lineno
 ;
 if
@@ -4838,7 +4847,9 @@ s
 s
 :
 %
-u
+"
+PRIuSIZE
+"
 )
 "
 TypeSet

@@ -37,6 +37,15 @@ include
 "
 mozilla
 /
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TemplateLib
 .
 h
@@ -20932,7 +20941,9 @@ stderr
 s
 :
 %
-d
+"
+PRIuSIZE
+"
 )
 "
 script
@@ -20951,9 +20962,6 @@ filename
 :
 "
 "
-(
-int
-)
 script
 -
 >
@@ -22947,7 +22955,9 @@ file
 s
 line
 %
-u
+"
+PRIuSIZE
+"
 \
 n
 "
@@ -22960,9 +22970,6 @@ script
 >
 filename
 (
-)
-(
-unsigned
 )
 i
 .
