@@ -8009,7 +8009,12 @@ push
 .
 "
 +
+CSS
+.
+escape
+(
 className
+)
 count
 selectorState
 ]
@@ -8124,7 +8129,12 @@ push
 #
 "
 +
+CSS
+.
+escape
+(
 id
+)
 count
 selectorState
 ]
