@@ -120,6 +120,13 @@ h
 #
 include
 "
+APZUtils
+.
+h
+"
+#
+include
+"
 LayersTypes
 .
 h
@@ -392,6 +399,12 @@ GetCurrentAsyncTransform
 const
 ;
 Matrix4x4
+GetCurrentAsyncTransformWithOverscroll
+(
+)
+const
+;
+Matrix4x4
 GetTransformToLastDispatchedPaint
 (
 )
@@ -482,6 +495,10 @@ aAnimation
 void
 CancelAnimation
 (
+CancelAnimationFlags
+aFlags
+=
+Default
 )
 ;
 void

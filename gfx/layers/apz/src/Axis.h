@@ -419,6 +419,11 @@ aOverscroll
 const
 ;
 void
+StopSamplingOverscrollAnimation
+(
+)
+;
+void
 StepOverscrollAnimation
 (
 double

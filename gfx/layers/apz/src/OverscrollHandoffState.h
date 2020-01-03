@@ -30,6 +30,13 @@ Units
 .
 h
 "
+#
+include
+"
+APZUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -286,6 +293,10 @@ const
 void
 CancelAnimations
 (
+CancelAnimationFlags
+aFlags
+=
+Default
 )
 const
 ;
