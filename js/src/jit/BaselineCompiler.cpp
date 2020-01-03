@@ -7574,7 +7574,7 @@ done
 {
 masm
 .
-addPtr
+addToStackPtr
 (
 Imm32
 (
@@ -7583,7 +7583,6 @@ sizeof
 Value
 )
 )
-StackPointer
 )
 ;
 masm

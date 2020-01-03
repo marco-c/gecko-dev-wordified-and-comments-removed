@@ -5120,9 +5120,8 @@ currentOffset
 ;
 masm
 .
-movePtr
+moveStackPtrTo
 (
-StackPointer
 syncedStackStart
 )
 ;
@@ -5222,7 +5221,7 @@ temp
 ;
 masm
 .
-addPtr
+addToStackPtr
 (
 Address
 (
@@ -5233,7 +5232,6 @@ BaselineDebugModeOSRInfo
 stackAdjust
 )
 )
-StackPointer
 )
 ;
 Label

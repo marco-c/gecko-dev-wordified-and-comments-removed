@@ -8793,9 +8793,8 @@ addressOfJitTop
 )
 )
 ;
-storePtr
+storeStackPtr
 (
-StackPointer
 jitTop
 )
 ;
@@ -9334,7 +9333,7 @@ popValue
 R0
 )
 ;
-addPtr
+addToStackPtr
 (
 Imm32
 (
@@ -9345,7 +9344,6 @@ SizeWithFooter
 (
 )
 )
-StackPointer
 )
 ;
 #
@@ -9533,7 +9531,7 @@ popValue
 R0
 )
 ;
-addPtr
+addToStackPtr
 (
 Imm32
 (
@@ -9544,7 +9542,6 @@ SizeWithFooter
 (
 )
 )
-StackPointer
 )
 ;
 jump
@@ -13264,13 +13261,12 @@ Imm32
 odd
 )
 ;
-branchTestPtr
+branchTestStackPtr
 (
 Assembler
 :
 :
 NonZero
-StackPointer
 Imm32
 (
 JitStackAlignment
@@ -13280,7 +13276,7 @@ JitStackAlignment
 maybeAssert
 )
 ;
-subPtr
+subFromStackPtr
 (
 Imm32
 (
@@ -13289,7 +13285,6 @@ sizeof
 Value
 )
 )
-StackPointer
 )
 ;
 #
@@ -13324,7 +13319,7 @@ bind
 odd
 )
 ;
-andPtr
+andToStackPtr
 (
 Imm32
 (
@@ -13335,7 +13330,6 @@ JitStackAlignment
 1
 )
 )
-StackPointer
 )
 ;
 bind
@@ -13419,13 +13413,12 @@ nargs
 Label
 end
 ;
-branchTestPtr
+branchTestStackPtr
 (
 Assembler
 :
 :
 NonZero
-StackPointer
 Imm32
 (
 JitStackAlignment
@@ -13436,7 +13429,7 @@ JitStackAlignment
 end
 )
 ;
-subPtr
+subFromStackPtr
 (
 Imm32
 (
@@ -13445,7 +13438,6 @@ sizeof
 Value
 )
 )
-StackPointer
 )
 ;
 bind
@@ -13466,7 +13458,7 @@ Value
 }
 else
 {
-andPtr
+andToStackPtr
 (
 Imm32
 (
@@ -13477,7 +13469,6 @@ JitStackAlignment
 1
 )
 )
-StackPointer
 )
 ;
 }

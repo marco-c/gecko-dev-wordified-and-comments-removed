@@ -5885,7 +5885,11 @@ loadPtr
 (
 Address
 (
-StackPointer
+masm
+.
+getStackPointer
+(
+)
 sizeof
 (
 uintptr_t
@@ -7611,13 +7615,12 @@ ok
 ;
 masm
 .
-branchTestPtr
+branchTestStackPtr
 (
 Assembler
 :
 :
 Zero
-StackPointer
 Imm32
 (
 AsmJSStackAlignment

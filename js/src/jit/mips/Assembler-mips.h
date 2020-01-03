@@ -3722,6 +3722,17 @@ sp
 )
 {
 }
+static
+const
+Register
+getStackPointer
+(
+)
+{
+return
+StackPointer
+;
+}
 private
 :
 bool

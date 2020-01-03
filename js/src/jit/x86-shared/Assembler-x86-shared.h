@@ -1590,6 +1590,17 @@ sp
 )
 ;
 }
+static
+const
+Register
+getStackPointer
+(
+)
+{
+return
+StackPointer
+;
+}
 void
 executableCopy
 (
