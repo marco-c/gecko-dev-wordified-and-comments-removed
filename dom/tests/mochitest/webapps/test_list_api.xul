@@ -416,11 +416,6 @@ onuninstall
 "
 object
 "
-onstatechange
-:
-"
-object
-"
 ownerGlobal
 :
 "
@@ -442,11 +437,6 @@ extractManifest
 function
 "
 import
-:
-"
-function
-"
-setEnabled
 :
 "
 function
