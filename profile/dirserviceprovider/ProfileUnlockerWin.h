@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_ProfileUnlockerWin_h
+ProfileUnlockerWin_h
 #
 define
-mozilla_ProfileUnlockerWin_h
+ProfileUnlockerWin_h
 #
 include
 <
