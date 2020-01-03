@@ -378,7 +378,7 @@ delimiter
 )
 ;
 }
-setButtons
+addButtonsToLayout
 (
 config
 )
