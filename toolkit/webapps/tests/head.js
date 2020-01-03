@@ -1042,7 +1042,8 @@ share
 )
 ;
 }
-let
+this
+.
 desktopINI
 =
 OS
@@ -1099,6 +1100,8 @@ iconFile
 this
 .
 exePath
+this
+.
 desktopINI
 ]
 ;
@@ -1189,6 +1192,8 @@ webappINI
 this
 .
 iconFile
+this
+.
 desktopINI
 ]
 ;
@@ -1374,6 +1379,8 @@ File
 .
 remove
 (
+this
+.
 desktopINI
 {
 ignoreAbsent
