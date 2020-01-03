@@ -654,6 +654,9 @@ nsIDocShell
 *
 mDocShellForJSRunToCompletion
 ;
+bool
+mIsMainThread
+;
 }
 ;
 class
