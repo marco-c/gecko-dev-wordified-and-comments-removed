@@ -1751,9 +1751,6 @@ const
 nsIntRect
 &
 aRect
-nsDeviceContext
-*
-aContext
 nsWidgetInitData
 *
 aInitData
