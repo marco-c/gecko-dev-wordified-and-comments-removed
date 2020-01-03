@@ -8792,7 +8792,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_OTHER
+TYPE_DOCUMENT
 )
 ;
 if
