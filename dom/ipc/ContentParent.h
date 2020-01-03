@@ -3698,6 +3698,16 @@ aProfile
 )
 override
 ;
+virtual
+bool
+RecvGetGraphicsDeviceInitData
+(
+DeviceInitData
+*
+aOut
+)
+override
+;
 GeckoChildProcessHost
 *
 mSubprocess

@@ -176,6 +176,15 @@ SharedDIB
 cpp
 '
 ]
+IPDL_SOURCES
+=
+[
+'
+GraphicsMessages
+.
+ipdlh
+'
+]
 include
 (
 '
