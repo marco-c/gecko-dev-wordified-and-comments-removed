@@ -36,6 +36,9 @@ nsTHashtable
 .
 h
 "
+class
+nsIFrame
+;
 namespace
 mozilla
 {
@@ -119,6 +122,11 @@ PendingPlayerTracker
 )
 {
 }
+void
+EnsurePaintIsScheduled
+(
+)
+;
 typedef
 nsTHashtable
 <
