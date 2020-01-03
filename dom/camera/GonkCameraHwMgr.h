@@ -276,6 +276,12 @@ aType
 RAW_SENSOR_ORIENTATION
 )
 ;
+virtual
+bool
+IsEmulated
+(
+)
+;
 enum
 {
 MIN_UNDEQUEUED_BUFFERS
@@ -472,6 +478,9 @@ mRawSensorOrientation
 ;
 int
 mSensorOrientation
+;
+bool
+mEmulated
 ;
 private
 :

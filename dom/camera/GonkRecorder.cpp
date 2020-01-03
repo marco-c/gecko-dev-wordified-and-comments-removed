@@ -7011,6 +7011,15 @@ OK
 uint32_t
 encoder_flags
 =
+mCameraHw
+-
+>
+IsEmulated
+(
+)
+?
+0
+:
 OMXCodec
 :
 :
