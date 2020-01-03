@@ -738,6 +738,9 @@ channelId
 bool
 shouldIntercept
 ;
+OptionalLoadInfoArgs
+loadInfo
+;
 }
 ;
 union
@@ -954,6 +957,9 @@ FTPChannelConnectArgs
 {
 uint32_t
 channelId
+;
+OptionalLoadInfoArgs
+loadInfo
 ;
 }
 ;
