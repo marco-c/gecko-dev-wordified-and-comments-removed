@@ -2101,6 +2101,13 @@ network
 )
 ;
 }
+gNetworkService
+.
+removeDefaultRoute
+(
+network
+)
+;
 if
 (
 network
@@ -2123,13 +2130,6 @@ network
 )
 ;
 }
-gNetworkService
-.
-removeDefaultRoute
-(
-network
-)
-;
 this
 .
 _addSubnetRoutes
