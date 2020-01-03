@@ -87,13 +87,6 @@ h
 #
 include
 "
-nsINSSCertCache
-.
-h
-"
-#
-include
-"
 nsIMutableArray
 .
 h
@@ -2668,7 +2661,7 @@ nsCertTree
 :
 GetCertsByTypeFromCache
 (
-nsINSSCertCache
+nsIX509CertList
 *
 aCache
 uint32_t
@@ -2685,6 +2678,9 @@ NS_ENSURE_ARG_POINTER
 aCache
 )
 ;
+nsNSSShutDownPreventionLock
+locker
+;
 CERTCertList
 *
 certList
@@ -2698,7 +2694,7 @@ CERTCertList
 aCache
 -
 >
-GetCachedCerts
+GetRawCertList
 (
 )
 )
@@ -2727,7 +2723,7 @@ nsCertTree
 :
 LoadCertsFromCache
 (
-nsINSSCertCache
+nsIX509CertList
 *
 aCache
 uint32_t

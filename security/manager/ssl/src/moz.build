@@ -245,11 +245,6 @@ nsNSSCallbacks
 cpp
 '
 '
-nsNSSCertCache
-.
-cpp
-'
-'
 nsNSSCertHelper
 .
 cpp

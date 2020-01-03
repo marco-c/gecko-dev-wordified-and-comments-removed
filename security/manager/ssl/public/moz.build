@@ -163,11 +163,6 @@ nsIKeyModule
 idl
 '
 '
-nsINSSCertCache
-.
-idl
-'
-'
 nsINSSVersion
 .
 idl
