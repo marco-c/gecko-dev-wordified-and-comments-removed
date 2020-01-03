@@ -1876,7 +1876,7 @@ nsXBLPrototypeBinding
 InitClass
 (
 const
-nsCString
+nsString
 &
 aClassName
 JSContext
@@ -4886,7 +4886,7 @@ rv
 aStream
 -
 >
-WriteWStringZ
+WriteUtf8Z
 (
 EmptyString
 (

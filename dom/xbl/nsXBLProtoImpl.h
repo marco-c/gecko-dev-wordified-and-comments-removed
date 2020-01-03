@@ -354,7 +354,7 @@ DestroyMembers
 ;
 public
 :
-nsCString
+nsString
 mClassName
 ;
 protected

@@ -394,7 +394,7 @@ obj
 }
 }
 const
-nsCString
+nsString
 &
 ClassName
 (
@@ -409,7 +409,7 @@ mImplementation
 >
 mClassName
 :
-EmptyCString
+EmptyString
 (
 )
 ;
@@ -418,7 +418,7 @@ nsresult
 InitClass
 (
 const
-nsCString
+nsString
 &
 aClassName
 JSContext

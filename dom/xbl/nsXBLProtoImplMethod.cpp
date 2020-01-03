@@ -653,7 +653,7 @@ AutoJSAPI
 &
 jsapi
 const
-nsCString
+nsString
 &
 aClassStr
 JS
@@ -859,7 +859,7 @@ cname
 mName
 )
 ;
-nsAutoCString
+NS_ConvertUTF16toUTF8
 functionUri
 (
 aClassStr
