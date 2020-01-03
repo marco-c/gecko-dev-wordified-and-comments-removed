@@ -412,7 +412,7 @@ const
 uint32_t
 MAX_LENGTH
 =
-0xFFFFFFFEU
+INT32_MAX
 ;
 static
 const
@@ -1411,6 +1411,11 @@ overflow
 if
 (
 overflow
+|
+|
+length
+>
+INT32_MAX
 )
 JS_ReportErrorNumber
 (
@@ -1589,6 +1594,11 @@ overflow
 if
 (
 overflow
+|
+|
+length
+>
+INT32_MAX
 )
 JS_ReportErrorNumber
 (
@@ -1655,9 +1665,9 @@ js_GetErrorMessage
 nullptr
 JSMSG_NEED_DIET
 "
-size
-and
-count
+shared
+typed
+array
 "
 )
 ;
