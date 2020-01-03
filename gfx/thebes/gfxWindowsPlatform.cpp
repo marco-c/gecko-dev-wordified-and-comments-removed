@@ -346,7 +346,7 @@ h
 #
 include
 "
-DriverCrashGuard
+DriverInitCrashDetection
 .
 h
 "
@@ -9929,14 +9929,14 @@ mAcceleration
 return
 ;
 }
-D3D11LayersCrashGuard
+DriverInitCrashDetection
 detectCrashes
 ;
 if
 (
 detectCrashes
 .
-Crashed
+DisableAcceleration
 (
 )
 )
