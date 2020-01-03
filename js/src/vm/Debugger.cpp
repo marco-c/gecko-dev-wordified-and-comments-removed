@@ -23100,6 +23100,16 @@ false
 ;
 }
 }
+DebugScopes
+:
+:
+rekeyMissingScopes
+(
+cx
+from
+to
+)
+;
 return
 true
 ;
