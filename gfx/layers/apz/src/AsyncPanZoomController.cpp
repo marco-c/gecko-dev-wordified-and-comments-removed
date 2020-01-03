@@ -6111,6 +6111,12 @@ ScrollWheelInput
 SCROLLMODE_SMOOTH
 :
 {
+ReentrantMonitorAutoEnter
+lock
+(
+mMonitor
+)
+;
 if
 (
 mState
