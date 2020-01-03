@@ -3663,13 +3663,6 @@ decommitThreshold
 bool
 cleanUpEverything
 ;
-friend
-class
-js
-:
-:
-GCMarker
-;
 enum
 class
 GrayBufferState
