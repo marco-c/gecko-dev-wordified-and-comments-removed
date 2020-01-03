@@ -872,7 +872,7 @@ types
                 
 continue
             
-build_task
+platform_build
 =
 platform_builds
 [
@@ -883,6 +883,44 @@ types
 [
 build_type
 ]
+            
+build_task
+=
+platform_build
+[
+'
+task
+'
+]
+            
+if
+'
+additional
+-
+parameters
+'
+in
+platform_build
+:
+                
+additional_parameters
+=
+platform_build
+[
+'
+additional
+-
+parameters
+'
+]
+            
+else
+:
+                
+additional_parameters
+=
+{
+}
             
 result
 .
@@ -914,6 +952,14 @@ build_task
 tests
                 
 )
+                
+'
+additional
+-
+parameters
+'
+:
+additional_parameters
             
 }
 )
