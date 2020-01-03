@@ -2743,7 +2743,7 @@ UnboxedPlainObject
 (
 )
 .
-layout
+layoutDontCheckGeneration
 (
 )
 ;
