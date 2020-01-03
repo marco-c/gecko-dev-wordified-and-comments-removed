@@ -2031,7 +2031,7 @@ return
 true
 ;
 }
-JS_CHECK_CHROME_RECURSION
+JS_CHECK_SYSTEM_RECURSION
 (
 cx
 return
