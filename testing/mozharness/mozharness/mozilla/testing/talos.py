@@ -4419,7 +4419,6 @@ self
 has_cloned_talos
 :
             
-return
 super
 (
 Talos
@@ -4435,7 +4434,22 @@ modules
 '
 mozinstall
 '
+'
+pip
+>
+=
+1
+.
+5
+'
 ]
+            
+)
+            
+self
+.
+install_module
+(
                 
 requirements
 =
@@ -4463,7 +4477,6 @@ txt
 else
 :
             
-return
 super
 (
 Talos
