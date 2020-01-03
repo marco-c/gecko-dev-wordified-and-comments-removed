@@ -12615,6 +12615,12 @@ Status
 |
 |
 isCachedRedirect
+|
+|
+mInterceptCache
+=
+=
+INTERCEPTED
 NS_ERROR_ABORT
 )
 ;
