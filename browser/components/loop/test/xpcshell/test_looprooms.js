@@ -840,9 +840,8 @@ test_getAllRooms
 yield
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
-mockPushHandler
 )
 ;
 let
@@ -904,9 +903,8 @@ test_getRoom
 yield
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
-mockPushHandler
 )
 ;
 let

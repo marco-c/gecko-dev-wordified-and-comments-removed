@@ -34,7 +34,7 @@ registrationResult
 ;
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 .
@@ -220,7 +220,7 @@ finish
 ;
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 .

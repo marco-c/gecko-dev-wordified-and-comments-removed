@@ -148,7 +148,7 @@ false
 ;
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 .

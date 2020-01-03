@@ -132,7 +132,7 @@ false
 ;
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 .
@@ -289,7 +289,7 @@ false
 ;
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 .
@@ -458,7 +458,7 @@ false
 ;
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 .
@@ -615,7 +615,7 @@ false
 ;
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 .

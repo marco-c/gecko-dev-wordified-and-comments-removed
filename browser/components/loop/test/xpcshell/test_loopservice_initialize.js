@@ -1,4 +1,4 @@
-var
+let
 startTimerCalled
 =
 false
@@ -71,7 +71,7 @@ test_initialize_expiry_past
 (
 )
 {
-var
+let
 nowSeconds
 =
 Date
@@ -137,7 +137,7 @@ test_initialize_starts_timer
 (
 )
 {
-var
+let
 nowSeconds
 =
 Date

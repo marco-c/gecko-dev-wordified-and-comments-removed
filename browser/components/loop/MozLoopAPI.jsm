@@ -1322,7 +1322,7 @@ callback
 {
 MozLoopService
 .
-register
+promiseRegisteredWithServers
 (
 )
 .
