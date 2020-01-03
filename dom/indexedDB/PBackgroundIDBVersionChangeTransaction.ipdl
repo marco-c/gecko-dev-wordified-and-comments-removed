@@ -66,6 +66,10 @@ PBackgroundIDBDatabase
 ;
 include
 protocol
+PBackgroundIDBDatabaseFile
+;
+include
+protocol
 PBackgroundIDBRequest
 ;
 include
