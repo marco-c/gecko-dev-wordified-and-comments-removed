@@ -1716,7 +1716,7 @@ mozL10n
 get
 (
 "
-remove_contact_menu_button
+remove_contact_menu_button2
 "
 )
 }
