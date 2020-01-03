@@ -1081,6 +1081,13 @@ BINPATH
 /
 components
 /
+dom_cellbroadcast
+.
+xpt
+BINPATH
+/
+components
+/
 dom_mobilemessage
 .
 xpt

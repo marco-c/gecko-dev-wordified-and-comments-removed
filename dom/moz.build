@@ -231,6 +231,9 @@ element
 canvas
 '
 '
+cellbroadcast
+'
+'
 contacts
 '
 '
@@ -454,9 +457,6 @@ DIRS
 [
 '
 icc
-'
-'
-cellbroadcast
 '
 '
 wappush

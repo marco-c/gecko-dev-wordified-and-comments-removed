@@ -794,13 +794,6 @@ BINPATH
 /
 components
 /
-dom_cellbroadcast
-.
-xpt
-BINPATH
-/
-components
-/
 dom_wappush
 .
 xpt
@@ -989,6 +982,13 @@ BINPATH
 components
 /
 dom_sidebar
+.
+xpt
+BINPATH
+/
+components
+/
+dom_cellbroadcast
 .
 xpt
 BINPATH
