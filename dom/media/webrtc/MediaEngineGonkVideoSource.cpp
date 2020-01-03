@@ -2386,6 +2386,7 @@ MediaEngineGonkVideoSource
 :
 OnTakePictureComplete
 (
+const
 uint8_t
 *
 aData
@@ -2423,6 +2424,7 @@ PhotoCallback
 >
 &
 aCallbacks
+const
 uint8_t
 *
 aData
