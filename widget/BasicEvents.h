@@ -1990,6 +1990,11 @@ mDefaultPreventedByContent
 1
 ;
 bool
+mDefaultPreventedByChrome
+:
+1
+;
+bool
 mMultipleActionsPrevented
 :
 1
