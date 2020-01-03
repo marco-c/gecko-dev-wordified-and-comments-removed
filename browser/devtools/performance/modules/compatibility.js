@@ -278,6 +278,16 @@ getTrait
 memoryActorAllocations
 "
 )
+&
+&
+target
+.
+hasActor
+(
+"
+memory
+"
+)
 ;
 }
 exports
