@@ -344,10 +344,10 @@ String
 TITLE_PLACE_HOLDER
 =
 "
-Enter
 Search
 or
-Address
+enter
+address
 "
 ;
 public
