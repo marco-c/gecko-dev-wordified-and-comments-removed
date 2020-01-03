@@ -3449,12 +3449,12 @@ globalsc
 (
 context
 directives
-nullptr
 options
 (
 )
 .
 extraWarningsOption
+false
 )
 ;
 ParseContext
