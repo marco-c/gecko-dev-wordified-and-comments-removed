@@ -6088,7 +6088,7 @@ getLogValue
 (
 aHgram
 .
-max_value
+max
 )
 :
 aHgram
