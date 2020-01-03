@@ -115,6 +115,11 @@ remove_executables
 py
 -
 -
+no
+-
+pull
+-
+-
 browser
 -
 arg

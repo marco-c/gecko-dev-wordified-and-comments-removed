@@ -124,6 +124,11 @@ remove_executables
 py
 -
 -
+no
+-
+pull
+-
+-
 installer
 -
 url
