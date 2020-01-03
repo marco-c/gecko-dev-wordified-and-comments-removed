@@ -21,6 +21,11 @@ contentSearch
 js
 "
 ;
+const
+SUGGESTIONS_TIMEOUT
+=
+10000
+;
 var
 gMsgMan
 ;
@@ -1279,7 +1284,7 @@ searchString
 searchStr
 remoteTimeout
 :
-5000
+SUGGESTIONS_TIMEOUT
 }
 }
 )
@@ -1467,7 +1472,7 @@ searchString
 searchStr
 remoteTimeout
 :
-5000
+SUGGESTIONS_TIMEOUT
 }
 }
 )
