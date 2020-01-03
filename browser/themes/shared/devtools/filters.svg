@@ -115,6 +115,11 @@ height
 100
 %
 "
+primitiveUnits
+=
+"
+objectBoundingBox
+"
 >
 <
 feComponentTransfer
