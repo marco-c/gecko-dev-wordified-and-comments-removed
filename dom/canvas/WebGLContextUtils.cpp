@@ -4443,9 +4443,7 @@ mBoundArrayBuffer
 mBoundArrayBuffer
 -
 >
-GLName
-(
-)
+mGLName
 :
 0
 ;
@@ -4477,9 +4475,7 @@ curBuff
 curBuff
 -
 >
-GLName
-(
-)
+mGLName
 :
 0
 ;
