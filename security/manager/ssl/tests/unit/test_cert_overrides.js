@@ -226,7 +226,7 @@ counts
 [
 13
 ]
-1
+0
 )
 ;
 do_check_eq
@@ -339,7 +339,7 @@ counts
 [
 3
 ]
-49
+48
 )
 ;
 run_next_test
@@ -991,7 +991,7 @@ ERROR_UNTRUSTED
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
-add_cert_override_test
+add_non_overridable_test
 (
 "
 inadequate
@@ -1006,12 +1006,7 @@ example
 .
 com
 "
-Ci
-.
-nsICertOverrideService
-.
-ERROR_UNTRUSTED
-MOZILLA_PKIX_ERROR_INADEQUATE_KEY_SIZE
+SSL_ERROR_WEAK_SERVER_CERT_KEY
 )
 ;
 }
