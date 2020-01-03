@@ -833,6 +833,12 @@ finished
 "
 )
 ;
+mMtpUsbFd
+.
+forget
+(
+)
+;
 rv
 =
 NS_DispatchToMainThread
