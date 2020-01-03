@@ -709,6 +709,12 @@ nullptr
 void
 UndefineCaretBidiLevel
 (
+mozilla
+:
+:
+dom
+:
+:
 Selection
 *
 aSelection
