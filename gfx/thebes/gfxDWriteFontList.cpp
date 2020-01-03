@@ -7158,7 +7158,7 @@ fontEntry
 fontEntry
 -
 >
-TestCharacterMap
+HasCharacter
 (
 aCh
 )

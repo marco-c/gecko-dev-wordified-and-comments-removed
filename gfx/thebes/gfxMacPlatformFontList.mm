@@ -4778,7 +4778,7 @@ if
 fontEntry
 -
 >
-TestCharacterMap
+HasCharacter
 (
 aCh
 )

@@ -2948,7 +2948,7 @@ fontEntry
 fontEntry
 -
 >
-TestCharacterMap
+HasCharacter
 (
 aCh
 )
@@ -3487,7 +3487,7 @@ fontEntry
 fontEntry
 -
 >
-TestCharacterMap
+HasCharacter
 (
 aCh
 )
