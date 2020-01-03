@@ -28,6 +28,9 @@ hits
 +
 +
 ;
+return
+true
+;
 }
 }
 )

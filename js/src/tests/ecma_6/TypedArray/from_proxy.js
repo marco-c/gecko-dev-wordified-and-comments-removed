@@ -66,7 +66,7 @@ id
 )
 ;
 return
-undefined
+true
 ;
 }
 has

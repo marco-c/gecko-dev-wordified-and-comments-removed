@@ -54,6 +54,9 @@ value
 2
 )
 ;
+return
+true
+;
 }
 }
 )

@@ -41,6 +41,9 @@ hits
 +
 +
 ;
+return
+true
+;
 }
 }
 )
