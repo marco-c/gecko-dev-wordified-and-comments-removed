@@ -60,9 +60,6 @@ class
 MediaDecoderReader
 ;
 class
-SharedDecoderManager
-;
-class
 MediaDecoderReader
 {
 public
@@ -128,16 +125,6 @@ ReleaseMediaResources
 {
 }
 ;
-virtual
-void
-SetSharedDecoderManager
-(
-SharedDecoderManager
-*
-aManager
-)
-{
-}
 virtual
 void
 BreakCycles

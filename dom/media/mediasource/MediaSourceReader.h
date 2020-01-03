@@ -528,12 +528,6 @@ mVideoIsSeeking
 bool
 mHasEssentialTrackBuffers
 ;
-nsRefPtr
-<
-SharedDecoderManager
->
-mSharedDecoderManager
-;
 }
 ;
 }

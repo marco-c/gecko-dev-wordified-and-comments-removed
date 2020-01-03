@@ -404,6 +404,7 @@ ReleaseMediaResources
 )
 {
 }
+;
 virtual
 void
 ReleaseDecoder
@@ -411,6 +412,7 @@ ReleaseDecoder
 )
 {
 }
+;
 }
 ;
 }
