@@ -289,9 +289,6 @@ SurfaceTextureClient
 (
 TextureFlags
 aFlags
-gl
-:
-:
 AndroidSurfaceTexture
 *
 aSurfTex
@@ -455,9 +452,6 @@ protected
 const
 RefPtr
 <
-gl
-:
-:
 AndroidSurfaceTexture
 >
 mSurfTex
