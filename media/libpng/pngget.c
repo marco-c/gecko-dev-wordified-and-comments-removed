@@ -420,9 +420,6 @@ valid
 &
 PNG_INFO_pHYs
 )
-!
-=
-0
 )
 {
 png_debug1
@@ -512,9 +509,6 @@ valid
 &
 PNG_INFO_pHYs
 )
-!
-=
-0
 )
 {
 png_debug1
@@ -604,9 +598,6 @@ valid
 &
 PNG_INFO_pHYs
 )
-!
-=
-0
 )
 {
 png_debug1
@@ -711,9 +702,6 @@ valid
 &
 PNG_INFO_pHYs
 )
-!
-=
-0
 )
 {
 png_debug1
@@ -829,9 +817,6 @@ valid
 &
 PNG_INFO_pHYs
 )
-!
-=
-0
 &
 &
 info_ptr
@@ -908,9 +893,6 @@ info_ptr
 >
 x_pixels_per_unit
 )
-!
-=
-0
 )
 return
 res
@@ -969,9 +951,6 @@ valid
 &
 PNG_INFO_oFFs
 )
-!
-=
-0
 )
 {
 png_debug1
@@ -1061,9 +1040,6 @@ valid
 &
 PNG_INFO_oFFs
 )
-!
-=
-0
 )
 {
 png_debug1
@@ -1153,9 +1129,6 @@ valid
 &
 PNG_INFO_oFFs
 )
-!
-=
-0
 )
 {
 png_debug1
@@ -1245,9 +1218,6 @@ valid
 &
 PNG_INFO_oFFs
 )
-!
-=
-0
 )
 {
 png_debug1
@@ -1420,9 +1390,6 @@ ppm
 127
 5000
 )
-!
-=
-0
 )
 return
 result
@@ -1681,9 +1648,6 @@ valid
 &
 PNG_INFO_pHYs
 )
-!
-=
-0
 )
 {
 png_debug1
@@ -1958,9 +1922,6 @@ valid
 &
 PNG_INFO_bKGD
 )
-!
-=
-0
 &
 &
 background
@@ -2073,9 +2034,6 @@ flags
 &
 PNG_COLORSPACE_HAVE_ENDPOINTS
 )
-!
-=
-0
 )
 {
 png_debug1
@@ -2390,9 +2348,6 @@ flags
 &
 PNG_COLORSPACE_HAVE_ENDPOINTS
 )
-!
-=
-0
 )
 {
 png_debug1
@@ -2743,9 +2698,6 @@ flags
 &
 PNG_COLORSPACE_HAVE_ENDPOINTS
 )
-!
-=
-0
 )
 {
 png_debug1
@@ -3019,9 +2971,6 @@ flags
 &
 PNG_COLORSPACE_HAVE_ENDPOINTS
 )
-!
-=
-0
 )
 {
 if
@@ -3250,9 +3199,6 @@ flags
 &
 PNG_COLORSPACE_HAVE_GAMMA
 )
-!
-=
-0
 &
 &
 file_gamma
@@ -3343,9 +3289,6 @@ flags
 &
 PNG_COLORSPACE_HAVE_GAMMA
 )
-!
-=
-0
 &
 &
 file_gamma
@@ -3440,9 +3383,6 @@ valid
 &
 PNG_INFO_sRGB
 )
-!
-=
-0
 &
 &
 file_srgb_intent
@@ -3535,9 +3475,6 @@ valid
 &
 PNG_INFO_iCCP
 )
-!
-=
-0
 &
 &
 name
@@ -3721,9 +3658,6 @@ valid
 &
 PNG_INFO_hIST
 )
-!
-=
-0
 &
 &
 hist
@@ -4017,9 +3951,6 @@ valid
 &
 PNG_INFO_oFFs
 )
-!
-=
-0
 &
 &
 offset_x
@@ -4152,9 +4083,6 @@ valid
 &
 PNG_INFO_pCAL
 )
-!
-=
-0
 &
 &
 purpose
@@ -4335,9 +4263,6 @@ valid
 &
 PNG_INFO_sCAL
 )
-!
-=
-0
 )
 {
 *
@@ -4446,9 +4371,6 @@ valid
 &
 PNG_INFO_sCAL
 )
-!
-=
-0
 )
 {
 *
@@ -4534,9 +4456,6 @@ valid
 &
 PNG_INFO_sCAL
 )
-!
-=
-0
 )
 {
 *
@@ -4641,9 +4560,6 @@ valid
 &
 PNG_INFO_pHYs
 )
-!
-=
-0
 )
 {
 if
@@ -4777,9 +4693,6 @@ valid
 &
 PNG_INFO_PLTE
 )
-!
-=
-0
 &
 &
 palette
@@ -4882,9 +4795,6 @@ valid
 &
 PNG_INFO_sBIT
 )
-!
-=
-0
 &
 &
 sig_bit
@@ -5090,9 +5000,6 @@ valid
 &
 PNG_INFO_tIME
 )
-!
-=
-0
 &
 &
 mod_time
@@ -5175,9 +5082,6 @@ valid
 &
 PNG_INFO_tRNS
 )
-!
-=
-0
 )
 {
 png_debug1
@@ -5454,17 +5358,12 @@ ifdef
 PNG_WRITE_SUPPORTED
 if
 (
-(
 png_ptr
 -
 >
 mode
 &
 PNG_IS_READ_STRUCT
-)
-!
-=
-0
 )
 #
 endif
@@ -5725,9 +5624,6 @@ valid
 &
 PNG_INFO_acTL
 )
-!
-=
-0
 &
 &
 num_frames
@@ -5937,9 +5833,6 @@ valid
 &
 PNG_INFO_fcTL
 )
-!
-=
-0
 &
 &
 width

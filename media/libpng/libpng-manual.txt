@@ -19,10 +19,10 @@ version
 .
 6
 .
-15
+14
 -
-November
-20
+October
+23
 2014
 Updated
 and
@@ -91,10 +91,10 @@ through
 .
 6
 .
-15
+14
 -
-November
-20
+October
+23
 2014
 Updated
 and
@@ -39572,8 +39572,8 @@ Y2K
 Compliance
 in
 libpng
-November
-20
+October
+23
 2014
 Since
 the
@@ -39614,7 +39614,7 @@ through
 .
 6
 .
-15
+14
 are
 Y2K
 compliant
