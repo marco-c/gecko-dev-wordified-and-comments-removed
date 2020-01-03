@@ -37,7 +37,7 @@ _MSC_VER
 #
 include
 <
-hash_set
+unordered_set
 >
 #
 else
@@ -194,10 +194,10 @@ defined
 _MSC_VER
 )
 typedef
-stdext
+std
 :
 :
-hash_set
+unordered_set
 <
 const
 void
