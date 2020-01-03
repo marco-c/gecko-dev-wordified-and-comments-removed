@@ -3053,6 +3053,9 @@ mLastPrefFirstFont
 bool
 mSkipDrawing
 ;
+bool
+mSkipUpdateUserFonts
+;
 gfxTextRun
 *
 MakeEmptyTextRun
