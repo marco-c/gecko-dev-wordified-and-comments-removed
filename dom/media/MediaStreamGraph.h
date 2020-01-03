@@ -850,11 +850,6 @@ return
 nullptr
 ;
 }
-void
-Init
-(
-)
-;
 virtual
 void
 DestroyImpl
