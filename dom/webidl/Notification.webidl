@@ -353,6 +353,11 @@ noclear
 =
 false
 ;
+boolean
+showOnlyOnce
+=
+false
+;
 DOMString
 soundFile
 =
