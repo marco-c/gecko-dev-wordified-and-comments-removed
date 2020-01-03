@@ -966,7 +966,7 @@ SetupTransaction
 )
 ;
 void
-SetupTransactionLoadGroupInfo
+SetupTransactionSchedulingContext
 (
 )
 ;

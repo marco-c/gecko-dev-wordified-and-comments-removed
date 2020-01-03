@@ -390,6 +390,10 @@ const
 uint32_t
 &
 aCacheKey
+const
+nsCString
+&
+aSchedulingContextID
 )
 ;
 virtual

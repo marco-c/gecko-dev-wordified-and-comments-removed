@@ -977,6 +977,17 @@ RecvPredReset
 )
 override
 ;
+virtual
+bool
+RecvRemoveSchedulingContext
+(
+const
+nsCString
+&
+scid
+)
+override
+;
 private
 :
 nsCString

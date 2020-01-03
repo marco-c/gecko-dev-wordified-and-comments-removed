@@ -727,6 +727,9 @@ synthesizedResponseHead
 uint32_t
 cacheKey
 ;
+nsCString
+schedulingContextID
+;
 }
 ;
 struct

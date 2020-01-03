@@ -40,6 +40,11 @@ m3
 8
 ]
 ;
+void
+Clear
+(
+)
+;
 inline
 bool
 Equals

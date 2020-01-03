@@ -647,6 +647,12 @@ bool
 userCancel
 )
 ;
+RemoveSchedulingContext
+(
+nsCString
+scid
+)
+;
 child
 :
 /
