@@ -80,7 +80,7 @@ NS_DECL_NSIDOMDATACONTAINEREVENT
 virtual
 JSObject
 *
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

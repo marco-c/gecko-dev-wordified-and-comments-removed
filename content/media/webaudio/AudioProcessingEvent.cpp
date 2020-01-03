@@ -114,7 +114,7 @@ JSObject
 AudioProcessingEvent
 :
 :
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

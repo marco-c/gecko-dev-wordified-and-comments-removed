@@ -157,7 +157,7 @@ JSObject
 MediaEncryptedEvent
 :
 :
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

@@ -74,7 +74,7 @@ NS_FORWARD_TO_EVENT
 virtual
 JSObject
 *
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

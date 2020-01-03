@@ -77,7 +77,7 @@ NS_DECL_NSIDOMCOMPOSITIONEVENT
 virtual
 JSObject
 *
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

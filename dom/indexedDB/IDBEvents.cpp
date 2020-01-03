@@ -457,7 +457,7 @@ JSObject
 IDBVersionChangeEvent
 :
 :
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

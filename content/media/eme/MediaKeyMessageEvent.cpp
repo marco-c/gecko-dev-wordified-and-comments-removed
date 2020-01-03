@@ -218,7 +218,7 @@ JSObject
 MediaKeyMessageEvent
 :
 :
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

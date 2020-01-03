@@ -150,7 +150,7 @@ MOZ_OVERRIDE
 virtual
 JSObject
 *
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

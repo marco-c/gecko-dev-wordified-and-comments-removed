@@ -341,7 +341,7 @@ UIEvent
 virtual
 JSObject
 *
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

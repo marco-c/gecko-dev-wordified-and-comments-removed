@@ -73,7 +73,7 @@ aEvent
 virtual
 JSObject
 *
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

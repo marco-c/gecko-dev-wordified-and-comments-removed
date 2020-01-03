@@ -91159,6 +91159,11 @@ cgSetter
 wantGetParent
 =
 True
+wrapMethodName
+=
+"
+WrapObject
+"
 )
 :
         
@@ -91887,9 +91892,7 @@ insert
                                 
 ClassMethod
 (
-"
-WrapObject
-"
+wrapMethodName
 "
 JSObject
 *
@@ -104987,6 +104990,9 @@ CGEventMethod
 CGEventGetter
 CGEventSetter
 False
+"
+WrapObjectInternal
+"
 )
         
 members

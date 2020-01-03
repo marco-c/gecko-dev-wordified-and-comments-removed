@@ -64,7 +64,7 @@ NS_FORWARD_TO_UIEVENT
 virtual
 JSObject
 *
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *

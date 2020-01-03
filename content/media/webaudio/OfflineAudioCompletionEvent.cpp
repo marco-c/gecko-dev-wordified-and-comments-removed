@@ -91,7 +91,7 @@ JSObject
 OfflineAudioCompletionEvent
 :
 :
-WrapObject
+WrapObjectInternal
 (
 JSContext
 *
