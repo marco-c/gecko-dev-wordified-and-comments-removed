@@ -289,7 +289,7 @@ const
 {
 return
 mTimeStamp
-<
+>
 aOther
 .
 mTimeStamp
