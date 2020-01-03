@@ -718,7 +718,6 @@ _onRecordingImported
 function
 (
 _
-recordingData
 model
 )
 {

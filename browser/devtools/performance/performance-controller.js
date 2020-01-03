@@ -1368,11 +1368,6 @@ EVENTS
 .
 RECORDING_IMPORTED
 recording
-.
-getAllData
-(
-)
-recording
 )
 ;
 }
