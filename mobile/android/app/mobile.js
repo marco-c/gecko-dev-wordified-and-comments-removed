@@ -7392,3 +7392,15 @@ refreshdriver
 true
 )
 ;
+pref
+(
+"
+selectioncaret
+.
+detects
+.
+longtap
+"
+false
+)
+;
