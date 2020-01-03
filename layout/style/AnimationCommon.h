@@ -1061,6 +1061,15 @@ bool
 HasCurrentAnimations
 (
 )
+const
+;
+bool
+HasCurrentAnimationsForProperty
+(
+nsCSSProperty
+aProperty
+)
+const
 ;
 TimeStamp
 mStyleRuleRefreshTime
