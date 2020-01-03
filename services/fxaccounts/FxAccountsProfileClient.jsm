@@ -524,7 +524,8 @@ GET
 }
 }
 ;
-var
+this
+.
 FxAccountsProfileClientError
 =
 function
