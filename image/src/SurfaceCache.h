@@ -396,6 +396,18 @@ MOZ_END_ENUM_CLASS
 (
 Lifetime
 )
+MOZ_BEGIN_ENUM_CLASS
+(
+InsertOutcome
+uint8_t
+)
+SUCCESS
+FAILURE
+FAILURE_ALREADY_PRESENT
+MOZ_END_ENUM_CLASS
+(
+InsertOutcome
+)
 struct
 SurfaceCache
 {
@@ -432,7 +444,7 @@ aSurfaceKey
 )
 ;
 static
-bool
+InsertOutcome
 Insert
 (
 imgFrame
