@@ -1894,9 +1894,10 @@ standaloneFunctionBody
 (
 HandleFunction
 fun
-const
-AutoNameVector
-&
+Handle
+<
+PropertyNameVector
+>
 formals
 GeneratorKind
 generatorKind
