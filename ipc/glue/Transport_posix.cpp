@@ -59,13 +59,14 @@ mozilla
 namespace
 ipc
 {
-bool
+nsresult
 CreateTransport
 (
 base
 :
 :
 ProcessId
+aProcIdOne
 TransportDescriptor
 *
 aOne
@@ -140,7 +141,7 @@ fd2
 )
 {
 return
-false
+NS_ERROR_TRANSPORT_INIT
 ;
 }
 fd1
@@ -170,7 +171,7 @@ fd2
 )
 {
 return
-false
+NS_ERROR_DUPLICATE_HANDLE
 ;
 }
 aOne
@@ -202,7 +203,7 @@ true
 )
 ;
 return
-true
+NS_OK
 ;
 }
 Transport

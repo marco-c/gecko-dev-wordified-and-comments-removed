@@ -5015,6 +5015,8 @@ ChildID
 )
 {
 return
+NS_SUCCEEDED
+(
 PContentBridge
 :
 :
@@ -5022,6 +5024,7 @@ Bridge
 (
 this
 cp
+)
 )
 ;
 }

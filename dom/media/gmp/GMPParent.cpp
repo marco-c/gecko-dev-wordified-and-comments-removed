@@ -5139,7 +5139,8 @@ aGMPServiceParent
 {
 if
 (
-!
+NS_FAILED
+(
 PGMPContent
 :
 :
@@ -5147,6 +5148,7 @@ Bridge
 (
 aGMPServiceParent
 this
+)
 )
 )
 {
