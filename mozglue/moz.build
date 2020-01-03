@@ -154,6 +154,15 @@ DIRS
 crt
 '
 ]
+if
+not
+CONFIG
+[
+'
+JS_STANDALONE
+'
+]
+:
 TEST_DIRS
 +
 =
