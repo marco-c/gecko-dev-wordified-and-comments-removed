@@ -733,6 +733,7 @@ OTSContext
 {
 public
 :
+explicit
 gfxOTSContext
 (
 gfxUserFontEntry
