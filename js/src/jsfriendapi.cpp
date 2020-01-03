@@ -3703,7 +3703,7 @@ JSContext
 *
 cx
 const
-NonBuiltinScriptFrameIter
+ScriptFrameIter
 &
 iter
 char
@@ -4809,7 +4809,7 @@ num
 ;
 for
 (
-NonBuiltinScriptFrameIter
+AllFramesIter
 i
 (
 cx
