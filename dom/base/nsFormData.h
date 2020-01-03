@@ -145,9 +145,6 @@ File
 >
 fileValue
 ;
-nsString
-filename
-;
 bool
 valueIsFile
 ;
@@ -219,10 +216,6 @@ aName
 File
 *
 aBlob
-const
-nsAString
-&
-aFilename
 )
 {
 MOZ_ASSERT
@@ -243,13 +236,6 @@ aData
 fileValue
 =
 aBlob
-;
-aData
--
->
-filename
-=
-aFilename
 ;
 aData
 -
@@ -575,10 +561,6 @@ aName
 File
 *
 aBlob
-const
-nsString
-&
-aFilename
 )
 MOZ_OVERRIDE
 {
@@ -597,7 +579,6 @@ SetNameFilePair
 data
 aName
 aBlob
-aFilename
 )
 ;
 return

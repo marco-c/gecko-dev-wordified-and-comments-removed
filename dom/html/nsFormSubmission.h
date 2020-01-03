@@ -121,10 +121,6 @@ dom
 File
 *
 aBlob
-const
-nsString
-&
-aFilename
 )
 =
 0
@@ -351,10 +347,6 @@ dom
 File
 *
 aBlob
-const
-nsString
-&
-aFilename
 )
 MOZ_OVERRIDE
 ;
