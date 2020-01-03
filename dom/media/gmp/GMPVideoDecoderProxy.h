@@ -117,10 +117,13 @@ Decode
 mozilla
 :
 :
-GMPUniquePtr
+GMPUnique
 <
 GMPVideoEncodedFrame
 >
+:
+:
+Ptr
 aInputFrame
 bool
 aMissingFrames
