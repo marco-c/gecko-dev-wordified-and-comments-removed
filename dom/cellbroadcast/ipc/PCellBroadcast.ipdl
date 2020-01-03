@@ -137,7 +137,7 @@ NotifyReceivedMessage
 (
 uint32_t
 aServiceId
-nsString
+uint32_t
 aGsmGeographicalScope
 uint16_t
 aMessageCode
@@ -147,7 +147,7 @@ nsString
 aLanguage
 nsString
 aBody
-nsString
+uint32_t
 aMessageClass
 uint64_t
 aTimestamp
@@ -155,7 +155,7 @@ uint32_t
 aCdmaServiceCategory
 bool
 aHasEtwsInfo
-nsString
+uint32_t
 aEtwsWarningType
 bool
 aEtwsEmergencyUserAlert

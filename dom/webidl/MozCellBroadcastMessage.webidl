@@ -136,9 +136,6 @@ enum
 CellBroadcastMessageClass
 {
 "
-normal
-"
-"
 class
 -
 0
@@ -167,6 +164,9 @@ user
 user
 -
 2
+"
+"
+normal
 "
 }
 ;

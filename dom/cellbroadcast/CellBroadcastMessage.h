@@ -78,9 +78,7 @@ nsPIDOMWindow
 aWindow
 uint32_t
 aServiceId
-const
-nsAString
-&
+uint32_t
 aGsmGeographicalScope
 uint16_t
 aMessageCode
@@ -94,9 +92,7 @@ const
 nsAString
 &
 aBody
-const
-nsAString
-&
+uint32_t
 aMessageClass
 uint64_t
 aTimestamp
@@ -104,9 +100,7 @@ uint32_t
 aCdmaServiceCategory
 bool
 aHasEtwsInfo
-const
-nsAString
-&
+uint32_t
 aEtwsWarningType
 bool
 aEtwsEmergencyUserAlert
@@ -340,9 +334,7 @@ CellBroadcastEtwsInfo
 nsPIDOMWindow
 *
 aWindow
-const
-nsAString
-&
+uint32_t
 aWarningType
 bool
 aEmergencyUserAlert
