@@ -9671,6 +9671,9 @@ return
 mAvrcpInterface
 ;
 }
+#
+ifdef
+MOZ_B2G_BT_API_V2
 BluetoothGattInterface
 *
 BluetoothDaemonInterface
@@ -9684,4 +9687,8 @@ return
 nullptr
 ;
 }
+#
+else
+#
+endif
 END_BLUETOOTH_NAMESPACE

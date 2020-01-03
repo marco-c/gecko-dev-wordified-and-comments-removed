@@ -390,6 +390,9 @@ GetBluetoothAvrcpInterface
 )
 override
 ;
+#
+ifdef
+MOZ_B2G_BT_API_V2
 BluetoothGattInterface
 *
 GetBluetoothGattInterface
@@ -397,6 +400,10 @@ GetBluetoothGattInterface
 )
 override
 ;
+#
+else
+#
+endif
 protected
 :
 enum
