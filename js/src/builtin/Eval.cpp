@@ -1761,6 +1761,11 @@ setHasPollutedScope
 hasPollutedGlobalScope
 )
 .
+setIsRunOnce
+(
+true
+)
+.
 setForEval
 (
 true
@@ -2264,6 +2269,11 @@ callerScript
 hasPollutedGlobalScope
 (
 )
+)
+.
+setIsRunOnce
+(
+true
 )
 .
 setForEval

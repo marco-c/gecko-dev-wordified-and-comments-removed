@@ -4950,6 +4950,14 @@ aScopeChain
 aOptions
 -
 >
+setIsRunOnce
+(
+true
+)
+;
+aOptions
+-
+>
 setNoScriptRval
 (
 true

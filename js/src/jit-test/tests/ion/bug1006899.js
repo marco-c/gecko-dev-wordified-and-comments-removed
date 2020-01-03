@@ -116,6 +116,9 @@ x
 compileAndGo
 :
 true
+isRunOnce
+:
+true
 }
 )
 ;

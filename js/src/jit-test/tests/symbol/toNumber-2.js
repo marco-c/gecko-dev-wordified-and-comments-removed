@@ -78,6 +78,9 @@ sym
 compileAndGo
 :
 true
+isRunOnce
+:
+true
 }
 )
 ;

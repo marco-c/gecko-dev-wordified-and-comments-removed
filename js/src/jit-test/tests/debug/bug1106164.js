@@ -114,6 +114,9 @@ true
 compileAndGo
 :
 true
+isRunOnce
+:
+true
 }
 )
 ;

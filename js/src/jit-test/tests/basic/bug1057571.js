@@ -78,6 +78,12 @@ compileAndGo
 =
 true
 ;
+ctx
+.
+isRunOnce
+=
+true
+;
 var
 res1
 =
