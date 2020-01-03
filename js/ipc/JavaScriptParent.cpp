@@ -203,13 +203,6 @@ JSTracer
 trc
 )
 {
-if
-(
-active
-(
-)
-)
-{
 objects_
 .
 trace
@@ -231,7 +224,6 @@ trace
 trc
 )
 ;
-}
 }
 JSObject
 *
