@@ -198,6 +198,9 @@ class
 LayerMetricsWrapper
 ;
 class
+InputQueue
+;
+class
 APZCTreeManager
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -300,10 +303,6 @@ aRect
 void
 ContentReceivedTouch
 (
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 bool
@@ -403,10 +402,6 @@ aOutValues
 void
 SetAllowedTouchBehavior
 (
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 const
@@ -746,6 +741,14 @@ AsyncPanZoomController
 *
 apzc
 )
+;
+protected
+:
+nsRefPtr
+<
+InputQueue
+>
+mInputQueue
 ;
 private
 :

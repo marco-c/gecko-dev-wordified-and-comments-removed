@@ -5654,7 +5654,6 @@ mWidget
 >
 ApzcSetAllowedTouchBehavior
 (
-mTargetAPZCGuid
 mInputBlockId
 touchBehaviors
 )
@@ -5699,7 +5698,6 @@ mWidget
 >
 ApzContentConsumingTouch
 (
-mTargetAPZCGuid
 mInputBlockId
 )
 ;
@@ -5817,7 +5815,6 @@ mWidget
 >
 ApzContentConsumingTouch
 (
-mTargetAPZCGuid
 mInputBlockId
 )
 ;
@@ -5829,7 +5826,6 @@ mWidget
 >
 ApzContentIgnoringTouch
 (
-mTargetAPZCGuid
 mInputBlockId
 )
 ;
@@ -5958,7 +5954,6 @@ mWidget
 >
 ApzContentIgnoringTouch
 (
-mTargetAPZCGuid
 mInputBlockId
 )
 ;

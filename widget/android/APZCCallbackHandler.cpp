@@ -183,10 +183,6 @@ APZCCallbackHandler
 :
 NotifyDefaultPrevented
 (
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 bool
@@ -222,7 +218,6 @@ APZCCallbackHandler
 :
 :
 NotifyDefaultPrevented
-aGuid
 aInputBlockId
 aDefaultPrevented
 )
@@ -263,7 +258,6 @@ controller
 >
 ContentReceivedTouch
 (
-aGuid
 aInputBlockId
 aDefaultPrevented
 )

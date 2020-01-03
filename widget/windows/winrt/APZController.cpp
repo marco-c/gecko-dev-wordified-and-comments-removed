@@ -361,10 +361,6 @@ APZController
 ContentReceivedTouch
 (
 const
-ScrollableLayerGuid
-&
-aGuid
-const
 uint64_t
 aInputBlockId
 bool
@@ -385,7 +381,6 @@ sAPZC
 >
 ContentReceivedTouch
 (
-aGuid
 aInputBlockId
 aPreventDefault
 )
@@ -927,6 +922,12 @@ aPoint
 int32_t
 aModifiers
 const
+mozilla
+:
+:
+layers
+:
+:
 ScrollableLayerGuid
 &
 aGuid
@@ -949,7 +950,6 @@ FlushPendingContentResponse
 }
 ContentReceivedTouch
 (
-aGuid
 aInputBlockId
 false
 )

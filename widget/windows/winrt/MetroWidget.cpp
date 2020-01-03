@@ -5006,10 +5006,6 @@ MetroWidget
 :
 ApzcSetAllowedTouchBehavior
 (
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 nsTArray
@@ -5044,7 +5040,6 @@ sAPZC
 >
 SetAllowedTouchBehavior
 (
-aGuid
 aInputBlockId
 aBehaviors
 )
@@ -5056,10 +5051,6 @@ MetroWidget
 :
 ApzContentConsumingTouch
 (
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 )
@@ -5082,7 +5073,6 @@ mController
 >
 ContentReceivedTouch
 (
-aGuid
 aInputBlockId
 true
 )
@@ -5094,10 +5084,6 @@ MetroWidget
 :
 ApzContentIgnoringTouch
 (
-const
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 )
@@ -5120,7 +5106,6 @@ mController
 >
 ContentReceivedTouch
 (
-aGuid
 aInputBlockId
 false
 )

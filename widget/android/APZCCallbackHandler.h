@@ -146,16 +146,6 @@ obj
 void
 NotifyDefaultPrevented
 (
-const
-mozilla
-:
-:
-layers
-:
-:
-ScrollableLayerGuid
-&
-aGuid
 uint64_t
 aInputBlockId
 bool

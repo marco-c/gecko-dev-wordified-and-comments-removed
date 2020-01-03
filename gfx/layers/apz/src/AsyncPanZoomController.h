@@ -247,6 +247,13 @@ aLayersId
 APZCTreeManager
 *
 aTreeManager
+const
+nsRefPtr
+<
+InputQueue
+>
+&
+aInputQueue
 GeckoContentController
 *
 aController
@@ -1003,10 +1010,12 @@ GetGestureEventListener
 )
 const
 ;
+const
 nsRefPtr
 <
 InputQueue
 >
+&
 GetInputQueue
 (
 )
