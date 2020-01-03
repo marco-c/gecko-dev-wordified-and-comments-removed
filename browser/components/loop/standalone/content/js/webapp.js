@@ -132,10 +132,6 @@ function
 (
 )
 {
-loop
-.
-standaloneMedia
-.
 multiplexGum
 .
 reset
@@ -1653,10 +1649,6 @@ function
 (
 )
 {
-loop
-.
-standaloneMedia
-.
 multiplexGum
 .
 reset
@@ -4769,6 +4761,12 @@ function
 reason
 )
 {
+multiplexGum
+.
+reset
+(
+)
+;
 if
 (
 reason
