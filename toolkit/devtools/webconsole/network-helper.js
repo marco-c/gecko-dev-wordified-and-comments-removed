@@ -615,7 +615,7 @@ LOAD_BYPASS_LOCAL_CACHE_IF_BUSY
 ;
 NetUtil
 .
-asyncFetch2
+asyncFetch
 (
 channel
 (
