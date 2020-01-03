@@ -1,7 +1,4 @@
 #
-undef
-NDEBUG
-#
 define
 __MSVCRT_VERSION__
 0x0700
@@ -22,13 +19,6 @@ WIN32_LEAN_AND_MEAN
 include
 <
 malloc
-.
-h
->
-#
-include
-<
-assert
 .
 h
 >
@@ -57,6 +47,13 @@ h
 include
 <
 process
+.
+h
+>
+#
+include
+<
+stdio
 .
 h
 >
@@ -340,7 +337,7 @@ break
 ;
 default
 :
-assert
+XASSERT
 (
 0
 )
@@ -370,7 +367,7 @@ hdr
 =
 NULL
 ;
-assert
+XASSERT
 (
 stm
 -
@@ -403,7 +400,7 @@ stm
 next_buffer
 ]
 ;
-assert
+XASSERT
 (
 hdr
 -
@@ -501,7 +498,7 @@ free_buffers
 =
 1
 ;
-assert
+XASSERT
 (
 stm
 -
@@ -679,7 +676,7 @@ stm
 lock
 )
 ;
-assert
+XASSERT
 (
 0
 )
@@ -711,7 +708,7 @@ written
 =
 got
 ;
-assert
+XASSERT
 (
 hdr
 -
@@ -736,7 +733,7 @@ stm
 params
 )
 ;
-assert
+XASSERT
 (
 hdr
 -
@@ -961,7 +958,7 @@ cubeb
 )
 user_ptr
 ;
-assert
+XASSERT
 (
 ctx
 )
@@ -989,7 +986,7 @@ event
 INFINITE
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -1119,7 +1116,7 @@ cubeb_stream_item
 MEMORY_ALLOCATION_ALIGNMENT
 )
 ;
-assert
+XASSERT
 (
 item
 )
@@ -1288,7 +1285,7 @@ cubeb
 *
 ctx
 ;
-assert
+XASSERT
 (
 context
 )
@@ -1310,7 +1307,7 @@ ctx
 )
 )
 ;
-assert
+XASSERT
 (
 ctx
 )
@@ -1341,7 +1338,7 @@ work
 MEMORY_ALLOCATION_ALIGNMENT
 )
 ;
-assert
+XASSERT
 (
 ctx
 -
@@ -1498,7 +1495,7 @@ ctx
 DWORD
 r
 ;
-assert
+XASSERT
 (
 ctx
 -
@@ -1509,7 +1506,7 @@ active_streams
 0
 )
 ;
-assert
+XASSERT
 (
 !
 InterlockedPopEntrySList
@@ -1564,7 +1561,7 @@ thread
 INFINITE
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -1666,12 +1663,12 @@ i
 size_t
 bufsz
 ;
-assert
+XASSERT
 (
 context
 )
 ;
-assert
+XASSERT
 (
 stream
 )
@@ -1959,7 +1956,7 @@ stm
 )
 )
 ;
-assert
+XASSERT
 (
 stm
 )
@@ -2094,7 +2091,7 @@ params
 )
 ;
 }
-assert
+XASSERT
 (
 bufsz
 %
@@ -2275,7 +2272,7 @@ calloc
 bufsz
 )
 ;
-assert
+XASSERT
 (
 hdr
 -
@@ -2431,7 +2428,7 @@ event
 INFINITE
 )
 ;
-assert
+XASSERT
 (
 r
 =
@@ -2619,7 +2616,7 @@ context
 lock
 )
 ;
-assert
+XASSERT
 (
 stm
 -
@@ -2674,7 +2671,7 @@ uint32_t
 max_channels
 )
 {
-assert
+XASSERT
 (
 ctx
 &
