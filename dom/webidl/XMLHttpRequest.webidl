@@ -714,6 +714,9 @@ body
 [
 Throws
 ChromeOnly
+Exposed
+=
+Window
 ]
 any
 getInterface

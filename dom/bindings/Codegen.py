@@ -47999,15 +47999,6 @@ type
 .
 inner
 .
-isExternal
-(
-)
-or
-                        
-type
-.
-inner
-.
 isExposedInAnyWorker
 (
 )
