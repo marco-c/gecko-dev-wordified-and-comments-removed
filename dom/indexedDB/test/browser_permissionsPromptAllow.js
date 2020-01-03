@@ -54,14 +54,11 @@ transitionsEnabled
 =
 false
 ;
-setPermission
+removePermission
 (
 testPageURL
 "
 indexedDB
-"
-"
-allow
 "
 )
 ;
@@ -169,7 +166,7 @@ interfaces
 .
 nsIPermissionManager
 .
-UNKNOWN_ACTION
+ALLOW_ACTION
 "
 Correct
 permission
@@ -380,7 +377,7 @@ interfaces
 .
 nsIPermissionManager
 .
-UNKNOWN_ACTION
+ALLOW_ACTION
 "
 Correct
 permission

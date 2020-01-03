@@ -48,6 +48,14 @@ waitForExplicitFinish
 (
 )
 ;
+setPermission
+(
+testPageURL
+"
+indexedDB
+"
+)
+;
 executeSoon
 (
 test1

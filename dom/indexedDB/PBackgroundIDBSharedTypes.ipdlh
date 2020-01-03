@@ -299,9 +299,6 @@ version
 PersistenceType
 persistenceType
 ;
-bool
-persistenceTypeIsExplicit
-;
 }
 ;
 struct

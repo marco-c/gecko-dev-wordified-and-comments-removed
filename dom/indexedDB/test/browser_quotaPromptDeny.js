@@ -61,6 +61,14 @@ transitionsEnabled
 =
 false
 ;
+setPermission
+(
+testPageURL
+"
+indexedDB
+"
+)
+;
 removePermission
 (
 testPageURL

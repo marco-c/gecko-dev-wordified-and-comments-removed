@@ -1047,13 +1047,6 @@ indexedDB
 -
 unlimited
 "
-"
-default
--
-persistent
--
-storage
-"
 ]
 }
 "
@@ -2390,6 +2383,9 @@ AllPossiblePermissions
 concat
 (
 [
+"
+indexedDB
+"
 "
 offline
 -

@@ -61,6 +61,14 @@ transitionsEnabled
 =
 false
 ;
+setPermission
+(
+testPageURL
+"
+indexedDB
+"
+)
+;
 removePermission
 (
 testPageURL
@@ -256,7 +264,7 @@ unregisterAllPopupEventHandlers
 ;
 executeSoon
 (
-finish
+test2
 )
 ;
 }

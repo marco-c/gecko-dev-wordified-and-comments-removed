@@ -122,13 +122,6 @@ indexedDB
 -
 unlimited
 "
-"
-default
--
-persistent
--
-storage
-"
 ]
 }
 {
