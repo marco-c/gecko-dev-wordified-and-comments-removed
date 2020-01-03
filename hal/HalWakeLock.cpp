@@ -1,8 +1,6 @@
 #
 include
 "
-mozilla
-/
 Hal
 .
 h

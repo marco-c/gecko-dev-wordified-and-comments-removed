@@ -215,6 +215,13 @@ h
 #
 include
 "
+HalLog
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ArrayUtils
@@ -2080,7 +2087,6 @@ aCharge
 {
 HAL_LOG
 (
-(
 "
 charge
 level
@@ -2093,7 +2099,6 @@ d
 "
 *
 aCharge
-)
 )
 ;
 }
@@ -2202,7 +2207,6 @@ BATTERY_CHARGING_AC
 {
 HAL_LOG
 (
-(
 "
 charging_source
 contained
@@ -2213,7 +2217,6 @@ value
 d
 "
 chargingSrc
-)
 )
 ;
 }
@@ -2535,7 +2538,6 @@ fd
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -2546,7 +2548,6 @@ s
 .
 "
 filename
-)
 )
 ;
 return
@@ -2572,7 +2573,6 @@ numRead
 {
 HAL_LOG
 (
-(
 "
 Error
 reading
@@ -2583,7 +2583,6 @@ s
 .
 "
 filename
-)
 )
 ;
 return
@@ -2650,7 +2649,6 @@ fd
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -2661,7 +2659,6 @@ s
 .
 "
 filename
-)
 )
 ;
 return
@@ -2685,7 +2682,6 @@ toWrite
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -2697,7 +2693,6 @@ s
 .
 "
 filename
-)
 )
 ;
 return
@@ -2979,7 +2974,6 @@ brightness
 {
 HAL_LOG
 (
-(
 "
 SetScreenBrightness
 :
@@ -2991,7 +2985,6 @@ f
 .
 "
 brightness
-)
 )
 ;
 return
@@ -3395,7 +3388,6 @@ fd
 {
 HAL_LOG
 (
-(
 "
 Failed
 to
@@ -3411,7 +3403,6 @@ s
 strerror
 (
 errno
-)
 )
 )
 ;
@@ -3433,7 +3424,6 @@ now
 {
 HAL_LOG
 (
-(
 "
 ANDROID_ALARM_SET_RTC
 failed
@@ -3444,7 +3434,6 @@ s
 strerror
 (
 errno
-)
 )
 )
 ;
@@ -4134,7 +4123,6 @@ alarmFd
 {
 HAL_LOG
 (
-(
 "
 Failed
 to
@@ -4149,7 +4137,6 @@ s
 strerror
 (
 errno
-)
 )
 )
 ;
@@ -4218,7 +4205,6 @@ nullptr
 {
 HAL_LOG
 (
-(
 "
 Failed
 to
@@ -4232,7 +4218,6 @@ watcher
 thread
 .
 "
-)
 )
 ;
 return
@@ -4296,7 +4281,6 @@ sInternalLockCpuMonitor
 ;
 HAL_LOG
 (
-(
 "
 Failed
 to
@@ -4313,7 +4297,6 @@ d
 .
 "
 status
-)
 )
 ;
 return
@@ -4391,7 +4374,6 @@ sAlarmData
 {
 HAL_LOG
 (
-(
 "
 We
 should
@@ -4401,7 +4383,6 @@ the
 alarm
 .
 "
-)
 )
 ;
 return
@@ -4451,7 +4432,6 @@ result
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -4465,7 +4445,6 @@ s
 strerror
 (
 errno
-)
 )
 )
 ;
@@ -5373,7 +5352,6 @@ true
 ;
 HAL_LOG
 (
-(
 "
 Setting
 kernel
@@ -5386,7 +5364,6 @@ killer
 parameters
 .
 "
-)
 )
 ;
 nsAutoCString
@@ -5823,7 +5800,6 @@ errno
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -5846,7 +5822,6 @@ bailing
 aPid
 errno
 )
-)
 ;
 return
 ;
@@ -5867,7 +5842,6 @@ rv
 )
 {
 HAL_LOG
-(
 (
 "
 Unable
@@ -5890,7 +5864,6 @@ bailing
 "
 aPid
 errno
-)
 )
 ;
 return
@@ -5930,7 +5903,6 @@ tasksDir
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -5948,7 +5920,6 @@ bailing
 .
 "
 aPid
-)
 )
 ;
 return
@@ -6068,7 +6039,6 @@ errno
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -6112,7 +6082,6 @@ condition
 tid
 aPid
 errno
-)
 )
 ;
 continue
@@ -6165,7 +6134,6 @@ rv
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -6210,14 +6178,12 @@ tid
 aPid
 errno
 )
-)
 ;
 continue
 ;
 }
 }
 HAL_LOG
-(
 (
 "
 Changed
@@ -6237,7 +6203,6 @@ d
 aPid
 origProcPriority
 aNice
-)
 )
 ;
 closedir
@@ -6260,7 +6225,6 @@ aBackgroundLRU
 )
 {
 HAL_LOG
-(
 (
 "
 SetProcessPriority
@@ -6287,7 +6251,6 @@ aPid
 aPriority
 aCPUPriority
 aBackgroundLRU
-)
 )
 ;
 EnsureKernelLowMemKillerParamsSet
@@ -6371,7 +6334,6 @@ oomScoreAdj
 {
 HAL_LOG
 (
-(
 "
 Clamping
 OOM
@@ -6387,13 +6349,11 @@ d
 aPid
 clampedOomScoreAdj
 )
-)
 ;
 }
 else
 {
 HAL_LOG
-(
 (
 "
 Setting
@@ -6409,7 +6369,6 @@ d
 "
 aPid
 clampedOomScoreAdj
-)
 )
 ;
 }
@@ -6497,7 +6456,6 @@ else
 {
 HAL_ERR
 (
-(
 "
 Unable
 to
@@ -6521,7 +6479,6 @@ up
 ProcessPriorityToString
 (
 aPriority
-)
 )
 )
 ;
@@ -6613,7 +6570,6 @@ else
 {
 HAL_ERR
 (
-(
 "
 Unable
 to
@@ -6639,7 +6595,6 @@ ProcessPriorityToString
 aPriority
 )
 )
-)
 ;
 MOZ_ASSERT
 (
@@ -6661,7 +6616,6 @@ rv
 {
 HAL_LOG
 (
-(
 "
 Setting
 nice
@@ -6675,7 +6629,6 @@ d
 "
 aPid
 nice
-)
 )
 ;
 SetNiceForPid
@@ -6748,7 +6701,6 @@ aThreadPriority
 ;
 HAL_LOG
 (
-(
 "
 Setting
 thread
@@ -6772,7 +6724,6 @@ aThreadPriority
 )
 aValue
 )
-)
 ;
 int
 rv
@@ -6790,7 +6741,6 @@ rv
 )
 {
 HAL_LOG
-(
 (
 "
 Failed
@@ -6817,7 +6767,6 @@ aThreadPriority
 strerror
 (
 errno
-)
 )
 )
 ;
@@ -6872,7 +6821,6 @@ priority
 ;
 HAL_LOG
 (
-(
 "
 Setting
 thread
@@ -6900,7 +6848,6 @@ ThreadPriorityToString
 aThreadPriority
 )
 aValue
-)
 )
 ;
 sched_param
@@ -6930,7 +6877,6 @@ rv
 {
 HAL_LOG
 (
-(
 "
 Failed
 to
@@ -6958,7 +6904,6 @@ aThreadPriority
 strerror
 (
 errno
-)
 )
 )
 ;
@@ -7028,7 +6973,6 @@ default
 :
 HAL_ERR
 (
-(
 "
 Unrecognized
 thread
@@ -7040,7 +6984,6 @@ Doing
 nothing
 "
 aThreadPriority
-)
 )
 ;
 return
@@ -7257,7 +7200,6 @@ default
 :
 HAL_LOG
 (
-(
 "
 Unrecognized
 thread
@@ -7269,7 +7211,6 @@ Doing
 nothing
 "
 aThreadPriority
-)
 )
 ;
 return

@@ -713,7 +713,7 @@ errno
 ENOSYS
 )
 {
-printf_stderr
+NS_WARNING
 (
 "
 Warning
@@ -1042,7 +1042,7 @@ FAN_EVENT_METADATA_LEN
 )
 )
 {
-printf_stderr
+MOZ_CRASH
 (
 "
 About
@@ -1054,10 +1054,6 @@ read
 error
 .
 "
-)
-;
-MOZ_CRASH
-(
 )
 ;
 }

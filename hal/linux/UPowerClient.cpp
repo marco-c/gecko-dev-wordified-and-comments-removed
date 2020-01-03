@@ -1,12 +1,17 @@
 #
 include
-<
-mozilla
-/
+"
 Hal
 .
 h
->
+"
+#
+include
+"
+HalLog
+.
+h
+"
 #
 include
 <
@@ -534,7 +539,7 @@ if
 mDBusConnection
 )
 {
-g_printerr
+HAL_LOG
 (
 "
 Failed
@@ -813,7 +818,7 @@ G_TYPE_INVALID
 )
 )
 {
-g_printerr
+HAL_LOG
 (
 "
 Error
@@ -1161,7 +1166,7 @@ G_TYPE_INVALID
 )
 )
 {
-g_printerr
+HAL_LOG
 (
 "
 Error
@@ -1247,7 +1252,7 @@ G_TYPE_INVALID
 )
 )
 {
-g_printerr
+HAL_LOG
 (
 "
 Error

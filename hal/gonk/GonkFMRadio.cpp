@@ -8,6 +8,13 @@ h
 #
 include
 "
+HalLog
+.
+h
+"
+#
+include
+"
 tavarua
 .
 h
@@ -463,7 +470,6 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -478,7 +484,6 @@ s
 strerror
 (
 errno
-)
 )
 )
 ;
@@ -512,14 +517,12 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
 configure
 preemphasis
 "
-)
 )
 ;
 return
@@ -540,14 +543,12 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
 configure
 RDS
 "
-)
 )
 ;
 return
@@ -596,7 +597,6 @@ default
 :
 HAL_LOG
 (
-(
 "
 Unsupported
 space
@@ -609,7 +609,6 @@ aInfo
 .
 spaceType
 (
-)
 )
 )
 ;
@@ -631,14 +630,12 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
 configure
 spacing
 "
-)
 )
 ;
 return
@@ -709,7 +706,6 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -717,7 +713,6 @@ adjust
 band
 limits
 "
-)
 )
 ;
 return
@@ -740,14 +735,12 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
 configure
 region
 "
-)
 )
 ;
 return
@@ -808,7 +801,6 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -816,7 +808,6 @@ set
 audio
 path
 "
-)
 )
 ;
 return
@@ -1182,14 +1173,12 @@ sRadioEnabled
 {
 HAL_LOG
 (
-(
 "
 Radio
 already
 enabled
 !
 "
-)
 )
 ;
 return
@@ -1250,7 +1239,6 @@ fd
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -1258,7 +1246,6 @@ open
 radio
 device
 "
-)
 )
 ;
 hal
@@ -1296,7 +1283,6 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -1304,7 +1290,6 @@ query
 radio
 device
 "
-)
 )
 ;
 hal
@@ -1357,7 +1342,6 @@ iris
 ;
 HAL_LOG
 (
-(
 "
 Radio
 :
@@ -1377,7 +1361,6 @@ cap
 .
 card
 )
-)
 ;
 if
 (
@@ -1393,7 +1376,6 @@ V4L2_CAP_RADIO
 {
 HAL_LOG
 (
-(
 "
 /
 dev
@@ -1405,7 +1387,6 @@ t
 a
 radio
 "
-)
 )
 ;
 hal
@@ -1433,7 +1414,6 @@ V4L2_CAP_TUNER
 {
 HAL_LOG
 (
-(
 "
 /
 dev
@@ -1447,7 +1427,6 @@ the
 tuner
 interface
 "
-)
 )
 ;
 hal
@@ -1498,7 +1477,6 @@ nullptr
 {
 HAL_LOG
 (
-(
 "
 Couldn
 '
@@ -1507,7 +1485,6 @@ create
 radio
 thread
 "
-)
 )
 ;
 hal
@@ -1593,7 +1570,6 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -1601,7 +1577,6 @@ adjust
 band
 limits
 "
-)
 )
 ;
 }
@@ -1675,14 +1650,12 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
 configure
 deemphasis
 "
-)
 )
 ;
 }
@@ -1757,7 +1730,6 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Unable
 to
@@ -1765,7 +1737,6 @@ turn
 off
 radio
 "
-)
 )
 ;
 }
@@ -1953,7 +1924,6 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Could
 not
@@ -1961,7 +1931,6 @@ initiate
 hardware
 seek
 "
-)
 )
 ;
 return
@@ -2032,7 +2001,6 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Could
 not
@@ -2042,7 +2010,6 @@ radio
 for
 settings
 "
-)
 )
 ;
 return
@@ -2136,7 +2103,6 @@ rc
 )
 HAL_LOG
 (
-(
 "
 Could
 not
@@ -2144,7 +2110,6 @@ set
 radio
 frequency
 "
-)
 )
 ;
 if
@@ -2222,7 +2187,6 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Could
 not
@@ -2230,7 +2194,6 @@ get
 radio
 frequency
 "
-)
 )
 ;
 return
@@ -2291,7 +2254,6 @@ rc
 {
 HAL_LOG
 (
-(
 "
 Could
 not
@@ -2302,7 +2264,6 @@ for
 signal
 strength
 "
-)
 )
 ;
 return

@@ -95,6 +95,13 @@ h
 #
 include
 "
+HalLog
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -554,7 +561,7 @@ return
 false
 ;
 }
-printf_stderr
+HAL_LOG
 (
 "
 The
@@ -571,6 +578,8 @@ is
 in
 use
 .
+"
+"
 Let
 the
 kernel
