@@ -263,15 +263,6 @@ aY1
 )
 ;
 void
-FillRect
-(
-const
-nsRect
-&
-aRect
-)
-;
-void
 SetFont
 (
 nsFontMetrics
