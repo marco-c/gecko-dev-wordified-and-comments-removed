@@ -186,7 +186,7 @@ nsIRunnable
 metadataUpdatedEvent
 =
 new
-MetadataEventRunner
+MetadataUpdatedEventRunner
 (
 aDecoder
 metadata
