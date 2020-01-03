@@ -2075,12 +2075,6 @@ catch
 e
 )
 {
-console
-.
-error
-(
-e
-)
 }
 events
 .
