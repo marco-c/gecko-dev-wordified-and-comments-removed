@@ -5429,6 +5429,10 @@ break
 ;
 default
 :
+ScheduleStateMachineThread
+(
+)
+;
 break
 ;
 }
