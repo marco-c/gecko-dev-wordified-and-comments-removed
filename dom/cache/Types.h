@@ -93,9 +93,6 @@ mGroup
 nsCString
 mOrigin
 ;
-nsCString
-mStorageId
-;
 bool
 mIsApp
 ;

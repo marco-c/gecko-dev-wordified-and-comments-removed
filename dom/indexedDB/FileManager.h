@@ -117,6 +117,10 @@ mFileInfos
 ;
 const
 bool
+mIsApp
+;
+const
+bool
 mEnforcingQuota
 ;
 bool
@@ -186,6 +190,8 @@ const
 nsACString
 &
 aOrigin
+bool
+aIsApp
 const
 nsAString
 &
@@ -226,6 +232,16 @@ const
 {
 return
 mOrigin
+;
+}
+bool
+IsApp
+(
+)
+const
+{
+return
+mIsApp
 ;
 }
 const
