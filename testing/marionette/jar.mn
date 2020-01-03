@@ -227,6 +227,16 @@ modal
 .
 js
 )
+content
+/
+proxy
+.
+js
+(
+proxy
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
