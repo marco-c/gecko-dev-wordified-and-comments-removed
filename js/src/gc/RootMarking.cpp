@@ -707,6 +707,9 @@ PropDesc
 )
 ;
 }
+#
+ifdef
+JSGC_FJGENERATIONAL
 static
 void
 MarkExactStackRoots
@@ -730,6 +733,8 @@ trc
 )
 ;
 }
+#
+endif
 static
 void
 MarkExactStackRoots
