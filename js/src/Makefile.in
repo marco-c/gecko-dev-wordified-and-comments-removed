@@ -2260,6 +2260,16 @@ srcdir
 /
 builtin
 /
+Generator
+.
+js
+\
+(
+srcdir
+)
+/
+builtin
+/
 Intl
 .
 js

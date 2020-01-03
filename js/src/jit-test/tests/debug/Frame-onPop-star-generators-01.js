@@ -149,11 +149,10 @@ enabled
 =
 false
 ;
-assertIteratorNext
+assertIteratorDone
 (
 g
 .
 it
-1
 )
 ;

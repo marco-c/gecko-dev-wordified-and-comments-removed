@@ -116,8 +116,15 @@ next
 '
 )
 ;
-assertIteratorDone
-(
 iter
+.
+next
+(
+)
+;
+assertEq
+(
+0
+1
 )
 ;

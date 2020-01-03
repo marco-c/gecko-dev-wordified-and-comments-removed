@@ -148,15 +148,11 @@ enabled
 =
 false
 ;
-assertEq
-(
 g
 .
 it
 .
 next
 (
-)
-1
 )
 ;

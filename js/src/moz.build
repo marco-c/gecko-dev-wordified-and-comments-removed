@@ -1732,6 +1732,13 @@ cpp
 '
 vm
 /
+GeneratorObject
+.
+cpp
+'
+'
+vm
+/
 GlobalObject
 .
 cpp
