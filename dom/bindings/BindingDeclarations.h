@@ -1590,6 +1590,7 @@ template
 class
 T
 >
+MOZ_IMPLICIT
 ParentObject
 (
 T
@@ -1625,6 +1626,7 @@ typename
 class
 SmartPtr
 >
+MOZ_IMPLICIT
 ParentObject
 (
 const
