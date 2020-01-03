@@ -666,13 +666,6 @@ fm
 )
 )
 ;
-aRenderingContext
-.
-SetFont
-(
-fm
-)
-;
 nscoord
 xHeight
 =

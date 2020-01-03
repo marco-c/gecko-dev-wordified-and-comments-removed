@@ -753,13 +753,6 @@ fm
 )
 )
 ;
-aRenderingContext
-.
-SetFont
-(
-fm
-)
-;
 nscoord
 defaultRuleThickness
 axisHeight

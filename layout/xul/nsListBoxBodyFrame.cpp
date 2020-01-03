@@ -2931,14 +2931,6 @@ fm
 )
 )
 ;
-rendContext
--
->
-SetFont
-(
-fm
-)
-;
 nscoord
 textWidth
 =

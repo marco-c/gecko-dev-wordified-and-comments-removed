@@ -803,16 +803,6 @@ fm
 )
 )
 ;
-aReflowState
-.
-rendContext
--
->
-SetFont
-(
-fm
-)
-;
 nscoord
 axisHeight
 em

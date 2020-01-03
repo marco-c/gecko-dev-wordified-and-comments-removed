@@ -2406,13 +2406,6 @@ fm
 )
 )
 ;
-aRenderingContext
-.
-SetFont
-(
-fm
-)
-;
 nscoord
 axisHeight
 height

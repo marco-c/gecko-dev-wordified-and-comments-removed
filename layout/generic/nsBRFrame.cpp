@@ -488,16 +488,6 @@ this
 )
 )
 ;
-aReflowState
-.
-rendContext
--
->
-SetFont
-(
-fm
-)
-;
 if
 (
 fm

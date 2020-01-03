@@ -4814,13 +4814,6 @@ this
 )
 )
 ;
-aRenderingContext
-.
-SetFont
-(
-fm
-)
-;
 nscoord
 maxAscent
 =
