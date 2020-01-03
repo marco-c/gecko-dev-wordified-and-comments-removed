@@ -5983,6 +5983,8 @@ entry
 -
 >
 mDateCreated
+/
+PR_USEC_PER_SEC
 ;
 aInfo
 .
@@ -5992,6 +5994,8 @@ entry
 -
 >
 mDateModified
+/
+PR_USEC_PER_SEC
 ;
 aInfo
 .
