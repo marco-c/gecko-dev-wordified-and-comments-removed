@@ -830,6 +830,11 @@ flex
 >
 <
 label
+id
+=
+"
+defaultFontSizeLabel
+"
 control
 =
 "
