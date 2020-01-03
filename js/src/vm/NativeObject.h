@@ -2414,8 +2414,10 @@ HandleNativeObject
 obj
 HandleShape
 parent
+MutableHandle
+<
 StackShape
-&
+>
 child
 )
 ;
@@ -2431,8 +2433,10 @@ HandleNativeObject
 obj
 HandleShape
 parent
+MutableHandle
+<
 StackShape
-&
+>
 child
 )
 ;

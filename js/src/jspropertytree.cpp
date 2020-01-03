@@ -679,9 +679,11 @@ cx
 Shape
 *
 parentArg
+Handle
+<
 StackShape
-&
-unrootedChild
+>
+child
 )
 {
 RootedShape
@@ -740,7 +742,7 @@ kid
 >
 matches
 (
-unrootedChild
+child
 )
 )
 existingShape
@@ -777,7 +779,7 @@ toHash
 >
 lookup
 (
-unrootedChild
+child
 )
 )
 existingShape
@@ -943,7 +945,7 @@ Shape
 new_
 (
 cx
-unrootedChild
+child
 parent
 -
 >

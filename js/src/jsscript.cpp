@@ -930,8 +930,14 @@ JSPROP_READONLY
 0
 )
 ;
+Rooted
+<
 StackShape
+>
 child
+(
+cx
+StackShape
 (
 base
 NameToId
@@ -946,6 +952,7 @@ name
 slot
 attrs
 0
+)
 )
 ;
 shape
