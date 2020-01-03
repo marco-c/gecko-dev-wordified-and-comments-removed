@@ -177,6 +177,11 @@ Messaging
 jsm
 '
 '
+MulticastDNS
+.
+jsm
+'
+'
 NetErrorHelper
 .
 jsm

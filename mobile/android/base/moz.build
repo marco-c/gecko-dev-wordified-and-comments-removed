@@ -2581,6 +2581,13 @@ LightweightThemeDrawable
 java
 '
 '
+mdns
+/
+MulticastDNSManager
+.
+java
+'
+'
 MediaCastingBar
 .
 java
