@@ -4677,7 +4677,7 @@ arg
 PR_SetCurrentThreadName
 (
 "
-Analysis
+JS
 Helper
 "
 )
