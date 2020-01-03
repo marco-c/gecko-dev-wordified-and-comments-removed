@@ -7851,6 +7851,13 @@ toBeRemoved
 =
 true
 ;
+style
+-
+>
+ResetDependentData
+(
+)
+;
 }
 else
 if
