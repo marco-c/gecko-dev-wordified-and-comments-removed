@@ -938,6 +938,7 @@ struct
 MOZ_STACK_CLASS
 AutoApplyUserSelectStyle
 {
+explicit
 AutoApplyUserSelectStyle
 (
 Selection
