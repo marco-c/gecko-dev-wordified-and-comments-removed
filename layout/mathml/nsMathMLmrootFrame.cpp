@@ -580,6 +580,14 @@ aStatus
 nsReflowStatus
 childStatus
 ;
+mPresentationData
+.
+flags
+&
+=
+~
+NS_MATHML_ERROR
+;
 aDesiredSize
 .
 ClearSize

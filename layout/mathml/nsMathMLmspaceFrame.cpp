@@ -244,6 +244,14 @@ nsReflowStatus
 aStatus
 )
 {
+mPresentationData
+.
+flags
+&
+=
+~
+NS_MATHML_ERROR
+;
 ProcessAttributes
 (
 aPresContext
