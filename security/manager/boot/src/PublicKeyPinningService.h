@@ -86,6 +86,16 @@ nsCString
 aSHA256keys
 )
 ;
+static
+nsAutoCString
+CanonicalizeHostname
+(
+const
+char
+*
+hostname
+)
+;
 }
 ;
 }
