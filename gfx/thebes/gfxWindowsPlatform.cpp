@@ -7900,7 +7900,7 @@ hr
 =
 E_INVALIDARG
 ;
-__try
+MOZ_SEH_TRY
 {
 hr
 =
@@ -7932,7 +7932,7 @@ nullptr
 )
 ;
 }
-__except
+MOZ_SEH_EXCEPT
 (
 EXCEPTION_EXECUTE_HANDLER
 )
@@ -7984,7 +7984,7 @@ hr
 =
 E_INVALIDARG
 ;
-__try
+MOZ_SEH_TRY
 {
 hr
 =
@@ -8014,7 +8014,7 @@ nullptr
 )
 ;
 }
-__except
+MOZ_SEH_EXCEPT
 (
 EXCEPTION_EXECUTE_HANDLER
 )
