@@ -143,6 +143,7 @@ fromCharCode
 apply
 (
 null
+new
 Uint8Array
 (
 response
