@@ -446,6 +446,17 @@ ErrorResult
 aRv
 )
 ;
+bool
+IsNotWidgetOrThrow
+(
+ErrorResult
+&
+aRv
+)
+;
+bool
+mOwnerIsWidget
+;
 class
 BrowserShownObserver
 ;
