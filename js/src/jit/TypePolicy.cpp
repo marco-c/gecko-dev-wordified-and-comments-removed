@@ -7513,6 +7513,14 @@ SimdSameAsReturnedTypePolicy
 \
 _
 (
+SimdScalarPolicy
+<
+0
+>
+)
+\
+_
+(
 StringPolicy
 <
 0

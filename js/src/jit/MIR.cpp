@@ -5019,12 +5019,12 @@ MSimdSplatX4
 New
 (
 alloc
-type
-(
-)
 getOperand
 (
 0
+)
+type
+(
 )
 )
 ;
