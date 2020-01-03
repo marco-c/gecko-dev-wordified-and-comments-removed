@@ -831,6 +831,12 @@ dispatchEvent
 event
 )
 ;
+this
+.
+destroyDOMRequestHelper
+(
+)
+;
 break
 ;
 case
@@ -888,6 +894,12 @@ __DOM_IMPL__
 dispatchEvent
 (
 event
+)
+;
+this
+.
+destroyDOMRequestHelper
+(
 )
 ;
 break
