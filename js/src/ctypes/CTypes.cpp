@@ -7572,7 +7572,7 @@ JS_SetReservedSlot
 (
 obj
 SLOT_ABICODE
-INT_TO_JSVAL
+Int32Value
 (
 code
 )
@@ -8520,7 +8520,7 @@ TYPE_
 #
 #
 name
-INT_TO_JSVAL
+Int32Value
 (
 sizeof
 (
@@ -8528,7 +8528,7 @@ type
 )
 )
 \
-INT_TO_JSVAL
+Int32Value
 (
 ffiType
 .
@@ -18521,7 +18521,7 @@ JS_SetReservedSlot
 (
 typeObj
 SLOT_TYPECODE
-INT_TO_JSVAL
+Int32Value
 (
 type
 )
@@ -22131,7 +22131,7 @@ typeProto
 dataProto
 TYPE_pointer
 nullptr
-INT_TO_JSVAL
+Int32Value
 (
 sizeof
 (
@@ -22139,7 +22139,7 @@ void
 *
 )
 )
-INT_TO_JSVAL
+Int32Value
 (
 ffi_type_pointer
 .
@@ -24006,7 +24006,7 @@ dataProto
 TYPE_array
 nullptr
 sizeVal
-INT_TO_JSVAL
+Int32Value
 (
 align
 )
@@ -27584,7 +27584,7 @@ JS_SetReservedSlot
 (
 typeObj
 SLOT_ALIGN
-INT_TO_JSVAL
+Int32Value
 (
 structAlign
 )
@@ -33097,7 +33097,7 @@ JS_SetReservedSlot
 (
 objCTypes
 SLOT_ERRNO
-INT_TO_JSVAL
+Int32Value
 (
 errnoStatus
 )
@@ -33113,7 +33113,7 @@ JS_SetReservedSlot
 (
 objCTypes
 SLOT_LASTERROR
-INT_TO_JSVAL
+Int32Value
 (
 lastErrorStatus
 )
@@ -39846,7 +39846,7 @@ JS_SetReservedSlot
 (
 objCTypes
 SLOT_ERRNO
-INT_TO_JSVAL
+Int32Value
 (
 errnoStatus
 )
@@ -39862,7 +39862,7 @@ JS_SetReservedSlot
 (
 objCTypes
 SLOT_LASTERROR
-INT_TO_JSVAL
+Int32Value
 (
 lastErrorStatus
 )

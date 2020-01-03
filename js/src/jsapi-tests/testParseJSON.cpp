@@ -224,8 +224,8 @@ expected
 )
 ;
 expected
-=
-INT_TO_JSVAL
+.
+setInt32
 (
 0
 )
@@ -243,8 +243,8 @@ expected
 )
 ;
 expected
-=
-INT_TO_JSVAL
+.
+setInt32
 (
 1
 )
@@ -262,8 +262,8 @@ expected
 )
 ;
 expected
-=
-INT_TO_JSVAL
+.
+setInt32
 (
 -
 1
@@ -924,10 +924,11 @@ v2
 )
 )
 ;
-CHECK_SAME
+CHECK
 (
 v2
-INT_TO_JSVAL
+.
+isInt32
 (
 17
 )

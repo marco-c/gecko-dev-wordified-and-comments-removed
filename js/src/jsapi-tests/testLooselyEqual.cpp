@@ -289,7 +289,10 @@ DOUBLE_TO_JSVAL
 ;
 i42
 =
-INT_TO_JSVAL
+JS
+:
+:
+Int32Value
 (
 42
 )

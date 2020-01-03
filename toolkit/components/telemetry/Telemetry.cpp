@@ -5498,8 +5498,8 @@ i
 )
 {
 range
-=
-INT_TO_JSVAL
+.
+setInt32
 (
 h
 -

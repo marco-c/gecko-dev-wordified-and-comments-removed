@@ -3120,7 +3120,10 @@ i
 )
 )
 return
-INT_TO_JSVAL
+JS
+:
+:
+Int32Value
 (
 i
 )

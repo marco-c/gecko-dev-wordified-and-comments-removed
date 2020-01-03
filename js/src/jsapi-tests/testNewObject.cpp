@@ -611,10 +611,11 @@ v
 )
 )
 ;
-CHECK_SAME
+CHECK
 (
 v
-INT_TO_JSVAL
+.
+isInt32
 (
 N
 -

@@ -505,7 +505,7 @@ v
 CHECK_SAME
 (
 v
-INT_TO_JSVAL
+Int32Value
 (
 13
 )
@@ -862,7 +862,10 @@ RootedValue
 v
 (
 cx
-INT_TO_JSVAL
+JS
+:
+:
+Int32Value
 (
 39
 )
@@ -971,8 +974,8 @@ data
 ;
 }
 v
-=
-INT_TO_JSVAL
+.
+setInt32
 (
 40
 )
@@ -1077,8 +1080,8 @@ elts
 ;
 }
 v
-=
-INT_TO_JSVAL
+.
+setInt32
 (
 41
 )
@@ -1231,8 +1234,8 @@ v2
 )
 ;
 v2
-=
-INT_TO_JSVAL
+.
+setInt32
 (
 42
 )

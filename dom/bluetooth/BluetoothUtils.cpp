@@ -941,8 +941,8 @@ BluetoothValue
 Tuint32_t
 :
 val
-=
-INT_TO_JSVAL
+.
+setInt32
 (
 v
 .
