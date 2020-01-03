@@ -1745,6 +1745,9 @@ passive
 -
 loaded
 ]
+[
+isbroken
+]
 #
 identity
 -
@@ -1762,6 +1765,9 @@ mixedcontent
 passive
 -
 loaded
+]
+[
+isbroken
 ]
 #
 identity
@@ -1808,6 +1814,9 @@ active
 -
 loaded
 ]
+[
+isbroken
+]
 #
 identity
 -
@@ -1825,6 +1834,9 @@ mixedcontent
 active
 -
 loaded
+]
+[
+isbroken
 ]
 #
 identity
