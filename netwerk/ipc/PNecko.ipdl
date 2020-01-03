@@ -445,6 +445,12 @@ OptionalURIParams
 appuri
 )
 ;
+SpeculativeConnect
+(
+URIParams
+uri
+)
+;
 HTMLDNSPrefetch
 (
 nsString

@@ -532,6 +532,15 @@ nsAString
 aHref
 )
 ;
+void
+Preconnect
+(
+const
+nsAString
+&
+aHref
+)
+;
 nsresult
 GetChannelCacheKey
 (

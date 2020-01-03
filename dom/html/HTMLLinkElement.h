@@ -119,6 +119,11 @@ UpdateImport
 (
 )
 ;
+void
+UpdatePreconnect
+(
+)
+;
 virtual
 nsresult
 PreHandleEvent
