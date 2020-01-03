@@ -2939,11 +2939,10 @@ isForEval
 ;
 MOZ_ASSERT
 (
-!
 script
 -
 >
-hasPollutedGlobalScope
+compileAndGo
 (
 )
 )
