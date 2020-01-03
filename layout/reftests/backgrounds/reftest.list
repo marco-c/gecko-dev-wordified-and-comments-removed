@@ -1415,6 +1415,12 @@ smallScreen
 &
 &
 Android
+&
+&
+AndroidVersion
+!
+=
+18
 )
 !
 =
@@ -1510,6 +1516,12 @@ smallScreen
 &
 &
 Android
+&
+&
+AndroidVersion
+!
+=
+18
 )
 !
 =
