@@ -2308,7 +2308,7 @@ dump
 if
 (
 !
-FxAccountConstants
+FxAccountUtils
 .
 LOG_PERSONAL_INFORMATION
 )
@@ -2357,7 +2357,7 @@ key
 list
 )
 {
-FxAccountConstants
+FxAccountUtils
 .
 pii
 (
