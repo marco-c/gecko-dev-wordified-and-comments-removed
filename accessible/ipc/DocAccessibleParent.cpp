@@ -23,6 +23,13 @@ Platform
 .
 h
 "
+#
+include
+"
+ProxyAccessible
+.
+h
+"
 namespace
 mozilla
 {
@@ -410,6 +417,11 @@ newProxy
 ProxyCreated
 (
 newProxy
+newChild
+.
+Interfaces
+(
+)
 )
 ;
 uint32_t
@@ -734,6 +746,7 @@ this
 ProxyCreated
 (
 aChildDoc
+0
 )
 ;
 return

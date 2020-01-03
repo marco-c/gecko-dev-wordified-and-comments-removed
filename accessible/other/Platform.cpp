@@ -42,6 +42,7 @@ ProxyCreated
 (
 ProxyAccessible
 *
+uint32_t
 )
 {
 }
