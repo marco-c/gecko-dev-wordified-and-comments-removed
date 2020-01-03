@@ -171,6 +171,13 @@ js
 '
 modules
 /
+FxaMigrator
+.
+jsm
+'
+'
+modules
+/
 healthreport
 .
 jsm
