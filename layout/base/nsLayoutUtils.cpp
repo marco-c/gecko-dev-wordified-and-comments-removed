@@ -2021,7 +2021,7 @@ bool
 nsLayoutUtils
 :
 :
-HasAnimations
+HasCurrentAnimationOfProperty
 (
 const
 nsIFrame
@@ -2067,7 +2067,7 @@ collection
 collection
 -
 >
-HasAnimationOfProperty
+HasCurrentAnimationOfProperty
 (
 aProperty
 )
@@ -2100,7 +2100,7 @@ collection
 collection
 -
 >
-HasAnimationOfProperty
+HasCurrentAnimationOfProperty
 (
 aProperty
 )

@@ -4360,7 +4360,7 @@ aProperty
 ;
 static
 bool
-HasAnimations
+HasCurrentAnimationOfProperty
 (
 const
 nsIFrame
