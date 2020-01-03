@@ -2669,6 +2669,11 @@ rows
 [
 ]
 ;
+let
+handledRow
+=
+false
+;
 if
 (
 this
@@ -2813,6 +2818,10 @@ row
 continue
 ;
 }
+handledRow
+=
+true
+;
 try
 {
 onRow
@@ -2969,7 +2978,7 @@ result
 =
 onRow
 ?
-null
+handledRow
 :
 rows
 ;
@@ -2999,7 +3008,7 @@ result
 =
 onRow
 ?
-null
+handledRow
 :
 rows
 ;
