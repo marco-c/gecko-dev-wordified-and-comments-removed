@@ -688,7 +688,7 @@ float
 &
 aOverscrollAmountOut
 bool
-forceOverscroll
+aForceOverscroll
 )
 {
 if
@@ -710,7 +710,7 @@ false
 }
 if
 (
-forceOverscroll
+aForceOverscroll
 )
 {
 aOverscrollAmountOut
