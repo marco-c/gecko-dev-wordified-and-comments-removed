@@ -6068,6 +6068,9 @@ COMPLETED
 "
 SHUTDOWN
 "
+"
+ERROR
+"
 }
 ;
 void
