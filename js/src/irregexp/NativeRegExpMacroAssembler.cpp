@@ -1816,7 +1816,7 @@ lr
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 volatileRegs
 .
@@ -6826,7 +6826,7 @@ HasAlignmentFault
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 return
 false

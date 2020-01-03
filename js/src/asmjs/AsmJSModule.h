@@ -3269,7 +3269,7 @@ kind
 if
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 kind_
 =
@@ -3307,7 +3307,7 @@ isRawPointerPatch
 if
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 return
 kind_
@@ -3325,7 +3325,7 @@ endif
 }
 #
 ifdef
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 Kind
 kind_
 ;

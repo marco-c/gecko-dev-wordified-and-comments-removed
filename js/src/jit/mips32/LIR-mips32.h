@@ -1,9 +1,9 @@
 #
 ifndef
-jit_mips_LIR_mips_h
+jit_mips32_LIR_mips32_h
 #
 define
-jit_mips_LIR_mips_h
+jit_mips32_LIR_mips32_h
 namespace
 js
 {

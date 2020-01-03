@@ -1,9 +1,9 @@
 #
 ifndef
-jit_mips_SharedICHelpers_mips_h
+jit_mips32_SharedICHelpers_mips32_h
 #
 define
-jit_mips_SharedICHelpers_mips_h
+jit_mips32_SharedICHelpers_mips32_h
 #
 include
 "

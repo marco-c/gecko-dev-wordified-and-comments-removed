@@ -1,12 +1,12 @@
 #
 ifndef
-jit_mips_Simulator_mips_h
+jit_mips32_Simulator_mips32_h
 #
 define
-jit_mips_Simulator_mips_h
+jit_mips32_Simulator_mips32_h
 #
 ifdef
-JS_SIMULATOR_MIPS
+JS_SIMULATOR_MIPS32
 #
 include
 "

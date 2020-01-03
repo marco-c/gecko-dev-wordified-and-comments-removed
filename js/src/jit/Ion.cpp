@@ -15739,7 +15739,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 AutoFlushICache
 *
@@ -15835,7 +15835,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 PerThreadData
 *
@@ -16001,7 +16001,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 AutoFlushICache
 *
@@ -16074,7 +16074,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 :
 start_
@@ -16106,7 +16106,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 PerThreadData
 *
@@ -16221,7 +16221,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 PerThreadData
 *

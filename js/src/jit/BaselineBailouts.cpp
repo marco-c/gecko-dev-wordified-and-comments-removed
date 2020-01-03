@@ -1868,7 +1868,7 @@ JS_CODEGEN_X64
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 BufferPointer
 <

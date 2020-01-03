@@ -65718,7 +65718,7 @@ endif
 if
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 static
 const
@@ -65871,7 +65871,7 @@ lr
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 masm
 .
@@ -65935,7 +65935,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 masm
 .
@@ -67870,7 +67870,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 static
 const
@@ -68167,7 +68167,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 masm
 .
@@ -68394,7 +68394,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 static_assert
 (
@@ -69003,7 +69003,7 @@ JS_CODEGEN_ARM
 |
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 static_assert
 (
@@ -70782,7 +70782,7 @@ ret
 elif
 defined
 (
-JS_CODEGEN_MIPS
+JS_CODEGEN_MIPS32
 )
 masm
 .

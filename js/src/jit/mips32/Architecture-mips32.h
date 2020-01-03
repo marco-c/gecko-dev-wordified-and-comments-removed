@@ -1,9 +1,9 @@
 #
 ifndef
-jit_mips_Architecture_mips_h
+jit_mips32_Architecture_mips32_h
 #
 define
-jit_mips_Architecture_mips_h
+jit_mips32_Architecture_mips32_h
 #
 include
 "
@@ -41,7 +41,7 @@ ifdef
 _mips_hard_float
 #
 define
-JS_CODEGEN_MIPS_HARDFP
+JS_CODEGEN_MIPS32_HARDFP
 #
 endif
 #

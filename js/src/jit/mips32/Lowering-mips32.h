@@ -1,9 +1,9 @@
 #
 ifndef
-jit_mips_Lowering_mips_h
+jit_mips32_Lowering_mips32_h
 #
 define
-jit_mips_Lowering_mips_h
+jit_mips32_Lowering_mips32_h
 #
 include
 "
