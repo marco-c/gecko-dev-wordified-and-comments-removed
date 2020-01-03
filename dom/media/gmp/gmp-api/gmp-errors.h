@@ -49,6 +49,9 @@ GMPInvalidArgErr
 GMPAbortedErr
 =
 13
+GMPRecordCorrupted
+=
+14
 GMPLastErr
 }
 GMPErr
