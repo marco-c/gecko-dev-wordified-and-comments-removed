@@ -1358,6 +1358,13 @@ Class
 class_
 ;
 static
+const
+size_t
+MaxPairCount
+=
+14
+;
+static
 RegExpObject
 *
 create
