@@ -819,7 +819,8 @@ AppendElement
 va_arg
 (
 ap
-nsString
+const
+nsAString
 *
 )
 )

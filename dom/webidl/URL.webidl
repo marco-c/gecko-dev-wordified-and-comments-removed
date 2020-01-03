@@ -219,12 +219,6 @@ url
 optional
 DOMString
 base
-=
-"
-about
-:
-blank
-"
 )
 Exposed
 =
