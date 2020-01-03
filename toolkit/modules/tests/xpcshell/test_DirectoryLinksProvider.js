@@ -1673,14 +1673,8 @@ tiles
 .
 url
 =
-sites
-[
-2
-]
-.
-link
-.
-url
+"
+"
 ;
 yield
 sendPingAndTest
