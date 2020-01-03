@@ -725,7 +725,9 @@ CheckAllPermissions
 =
 "
 browser
-setNFCFocus
+nfc
+-
+manager
 "
 ]
 void
