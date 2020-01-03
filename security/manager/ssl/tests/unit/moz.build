@@ -133,9 +133,6 @@ test_keysize_ev
 test_pinning_dynamic
 '
 '
-test_ocsp_fetch_method
-'
-'
 test_ocsp_url
 '
 '
