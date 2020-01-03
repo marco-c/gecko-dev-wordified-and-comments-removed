@@ -3138,7 +3138,7 @@ cellAvailWidth
 =
 aTableFrame
 .
-GetColumnWidth
+GetColumnISize
 (
 colIndex
 +
@@ -3246,7 +3246,7 @@ space
 =
 aTableFrame
 .
-GetColumnWidth
+GetColumnISize
 (
 colX
 )
@@ -3343,7 +3343,7 @@ space
 =
 aTableFrame
 .
-GetColumnWidth
+GetColumnISize
 (
 colX
 )
@@ -3422,7 +3422,7 @@ space
 =
 aTableFrame
 .
-GetColumnWidth
+GetColumnISize
 (
 colX
 )
@@ -3519,7 +3519,7 @@ space
 =
 aTableFrame
 .
-GetColumnWidth
+GetColumnISize
 (
 colX
 )
@@ -6048,7 +6048,7 @@ width
 tableFrame
 -
 >
-GetColumnWidth
+GetColumnISize
 (
 colX
 )

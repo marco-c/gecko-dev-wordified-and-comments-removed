@@ -1236,7 +1236,7 @@ override
 #
 endif
 int32_t
-GetColumnWidth
+GetColumnISize
 (
 int32_t
 aColIndex

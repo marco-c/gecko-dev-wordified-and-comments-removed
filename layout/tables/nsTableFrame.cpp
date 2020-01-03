@@ -7016,7 +7016,7 @@ columns
 nscoord
 colWidth
 =
-GetColumnWidth
+GetColumnISize
 (
 colX
 )
@@ -10016,7 +10016,7 @@ mVisible
 int32_t
 colWidth
 =
-GetColumnWidth
+GetColumnISize
 (
 colX
 )
@@ -17063,7 +17063,7 @@ int32_t
 nsTableFrame
 :
 :
-GetColumnWidth
+GetColumnISize
 (
 int32_t
 aColIndex
@@ -17118,7 +17118,7 @@ return
 firstInFlow
 -
 >
-GetColumnWidth
+GetColumnISize
 (
 aColIndex
 )
@@ -18457,7 +18457,7 @@ printf
 %
 d
 "
-GetColumnWidth
+GetColumnISize
 (
 colX
 )
