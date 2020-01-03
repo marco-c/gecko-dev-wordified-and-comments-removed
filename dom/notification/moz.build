@@ -201,6 +201,12 @@ dom
 /
 ipc
 '
+'
+/
+dom
+/
+workers
+'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
