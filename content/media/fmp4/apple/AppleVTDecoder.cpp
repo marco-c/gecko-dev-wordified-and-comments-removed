@@ -1680,7 +1680,10 @@ decodeTimeStamp
 =
 CMTimeMake
 (
-0
+aSample
+-
+>
+decode_timestamp
 USECS_PER_S
 )
 ;
