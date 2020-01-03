@@ -4683,6 +4683,7 @@ kwargs
 def
 main
 (
+args
 )
 :
     
@@ -4741,6 +4742,7 @@ parser
 .
 parse_args
 (
+args
 )
     
 if
@@ -4895,12 +4897,8 @@ options
 "
 )
         
-sys
-.
-exit
-(
+return
 1
-)
     
 productPieces
 =
@@ -4974,12 +4972,8 @@ None
 )
 :
         
-sys
-.
-exit
-(
+return
 1
-)
     
 logParent
 =
@@ -6722,12 +6716,8 @@ finish
 (
 )
     
-sys
-.
-exit
-(
+return
 retVal
-)
 if
 __name__
 =
@@ -6737,6 +6727,18 @@ __main__
 "
 :
     
+sys
+.
+exit
+(
 main
 (
+sys
+.
+argv
+[
+1
+:
+]
+)
 )
