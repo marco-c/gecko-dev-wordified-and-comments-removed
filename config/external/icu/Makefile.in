@@ -94,8 +94,6 @@ OS_ARCH
 )
 WINNT
 )
-ifdef
-JS_SHARED_LIBRARY
 ICU_FILES
 :
 =
@@ -129,7 +127,6 @@ MOZ_ICU_VERSION
 .
 dll
 )
-endif
 else
 #
 !
@@ -141,8 +138,6 @@ OS_ARCH
 )
 Darwin
 )
-ifdef
-JS_SHARED_LIBRARY
 ICU_FILES
 :
 =
@@ -178,13 +173,10 @@ MOZ_ICU_VERSION
 DLL_SUFFIX
 )
 )
-endif
 else
 #
 !
 Darwin
-ifdef
-JS_SHARED_LIBRARY
 ICU_FILES
 :
 =
@@ -220,7 +212,6 @@ DLL_SUFFIX
 MOZ_ICU_VERSION
 )
 )
-endif
 endif
 endif
 #
