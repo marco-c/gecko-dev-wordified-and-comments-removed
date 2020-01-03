@@ -62,6 +62,7 @@ PTelephonyChild
 {
 public
 :
+explicit
 TelephonyChild
 (
 TelephonyIPCService

@@ -888,6 +888,7 @@ mProxy
 ;
 public
 :
+explicit
 AsyncTeardownRunnable
 (
 Proxy
@@ -2930,6 +2931,7 @@ mXMLHttpRequestPrivate
 ;
 public
 :
+explicit
 AutoUnpinXHR
 (
 XMLHttpRequest

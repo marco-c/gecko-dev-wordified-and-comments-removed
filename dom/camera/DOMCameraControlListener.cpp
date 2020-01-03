@@ -164,6 +164,7 @@ nsRunnable
 {
 public
 :
+explicit
 DOMCallback
 (
 nsMainThreadPtrHandle
@@ -1008,6 +1009,7 @@ DOMCallback
 {
 public
 :
+explicit
 Callback
 (
 nsMainThreadPtrHandle

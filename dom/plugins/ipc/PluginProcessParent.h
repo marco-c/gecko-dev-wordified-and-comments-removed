@@ -101,6 +101,7 @@ GeckoChildProcessHost
 {
 public
 :
+explicit
 PluginProcessParent
 (
 const

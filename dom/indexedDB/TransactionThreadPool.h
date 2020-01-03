@@ -163,6 +163,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
+explicit
 TransactionQueue
 (
 IDBTransaction
@@ -237,6 +238,7 @@ TransactionQueue
 struct
 TransactionInfo
 {
+explicit
 TransactionInfo
 (
 IDBTransaction

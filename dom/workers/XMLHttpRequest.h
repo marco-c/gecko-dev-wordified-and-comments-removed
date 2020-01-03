@@ -830,6 +830,7 @@ mRooted
 }
 private
 :
+explicit
 XMLHttpRequest
 (
 WorkerPrivate

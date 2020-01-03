@@ -175,6 +175,7 @@ forget
 )
 ;
 }
+explicit
 Activity
 (
 nsPIDOMWindow

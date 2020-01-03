@@ -2110,6 +2110,7 @@ struct
 MOZ_STACK_CLASS
 TransactionSearchInfo
 {
+explicit
 TransactionSearchInfo
 (
 nsIOfflineStorage

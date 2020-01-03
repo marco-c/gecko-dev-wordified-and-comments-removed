@@ -62,6 +62,7 @@ SelfType
 struct
 Closure
 {
+explicit
 Closure
 (
 SelfType

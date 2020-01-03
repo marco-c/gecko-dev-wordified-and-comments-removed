@@ -977,6 +977,7 @@ const
 ;
 protected
 :
+explicit
 RecorderProfileManager
 (
 uint32_t

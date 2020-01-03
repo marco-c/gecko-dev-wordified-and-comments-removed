@@ -225,11 +225,12 @@ enabled
 }
 protected
 :
+explicit
 WebGLVertexArray
 (
 WebGLContext
 *
-context
+aContext
 )
 ;
 virtual

@@ -28,6 +28,7 @@ XMLHttpRequest
 >
 mXHR
 ;
+explicit
 XMLHttpRequestUpload
 (
 XMLHttpRequest

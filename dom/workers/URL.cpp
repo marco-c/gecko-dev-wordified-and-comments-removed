@@ -142,6 +142,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 URLProxy
 )
+explicit
 URLProxy
 (
 mozilla
@@ -1031,6 +1032,7 @@ nsRunnable
 {
 public
 :
+explicit
 TeardownURLRunnable
 (
 URLProxy

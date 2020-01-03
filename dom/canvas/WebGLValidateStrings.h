@@ -116,12 +116,13 @@ StripComments
 {
 public
 :
+explicit
 StripComments
 (
 const
 nsAString
 &
-str
+aStr
 )
 :
 m_parseState
@@ -130,7 +131,7 @@ BeginningOfLine
 )
 m_end
 (
-str
+aStr
 .
 EndReading
 (
@@ -138,7 +139,7 @@ EndReading
 )
 m_current
 (
-str
+aStr
 .
 BeginReading
 (
@@ -153,7 +154,7 @@ m_result
 .
 SetLength
 (
-str
+aStr
 .
 Length
 (

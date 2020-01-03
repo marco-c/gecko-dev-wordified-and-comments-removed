@@ -96,6 +96,7 @@ CachedFileHolder
 {
 public
 :
+explicit
 CachedFileHolder
 (
 nsIFile

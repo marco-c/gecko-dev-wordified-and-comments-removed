@@ -51,11 +51,12 @@ WebGLContextBoundObject
 {
 public
 :
+explicit
 WebGLQuery
 (
 WebGLContext
 *
-context
+aContext
 )
 ;
 bool

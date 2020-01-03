@@ -125,6 +125,7 @@ mRequest
 }
 protected
 :
+explicit
 HelperBase
 (
 IDBRequest

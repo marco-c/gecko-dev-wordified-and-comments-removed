@@ -56,6 +56,7 @@ ContentEventHandler
 {
 public
 :
+explicit
 ContentEventHandler
 (
 nsPresContext

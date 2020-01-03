@@ -112,6 +112,7 @@ nsRunnable
 public
 :
 NS_DECL_NSIRUNNABLE
+explicit
 ArchiveReaderEvent
 (
 ArchiveReader

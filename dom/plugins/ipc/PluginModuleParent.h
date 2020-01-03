@@ -285,6 +285,7 @@ MOZ_OVERRIDE
 ;
 public
 :
+explicit
 PluginModuleParent
 (
 const

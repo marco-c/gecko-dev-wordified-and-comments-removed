@@ -159,10 +159,11 @@ mComponents
 )
 {
 }
+explicit
 GLComponents
 (
 GLenum
-format
+aFormat
 )
 ;
 bool

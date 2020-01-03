@@ -1539,6 +1539,7 @@ CanvasRenderingContext2D
 ContextState
 ContextState
 ;
+explicit
 AdjustedTarget
 (
 CanvasRenderingContext2D
@@ -2202,6 +2203,7 @@ LayerUserData
 {
 public
 :
+explicit
 CanvasRenderingContext2DUserData
 (
 CanvasRenderingContext2D

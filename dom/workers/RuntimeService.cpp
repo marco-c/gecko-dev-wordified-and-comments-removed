@@ -3969,6 +3969,7 @@ mDone
 ;
 public
 :
+explicit
 WorkerBackgroundChildCallback
 (
 bool
@@ -4077,6 +4078,7 @@ mThread
 ;
 public
 :
+explicit
 FinishedRunnable
 (
 already_AddRefed
@@ -4296,6 +4298,7 @@ mWorkerPrivate
 ;
 public
 :
+explicit
 Observer
 (
 WorkerPrivate

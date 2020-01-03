@@ -240,6 +240,7 @@ SharedWorkerInfo
 *
 mSharedWorkerInfo
 ;
+explicit
 MatchSharedWorkerInfo
 (
 WorkerPrivate

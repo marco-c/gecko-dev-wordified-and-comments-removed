@@ -354,6 +354,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMEVENTLISTENER
+explicit
 StartRecordingHelper
 (
 nsDOMCameraControl

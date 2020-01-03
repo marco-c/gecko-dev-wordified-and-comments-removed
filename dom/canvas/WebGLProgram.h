@@ -101,11 +101,12 @@ WebGLContextBoundObject
 {
 public
 :
+explicit
 WebGLProgram
 (
 WebGLContext
 *
-context
+aContext
 )
 ;
 void

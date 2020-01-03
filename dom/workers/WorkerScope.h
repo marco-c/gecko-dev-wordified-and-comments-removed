@@ -85,6 +85,7 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
+explicit
 WorkerGlobalScope
 (
 WorkerPrivate
@@ -451,6 +452,7 @@ DedicatedWorkerGlobalScope
 }
 public
 :
+explicit
 DedicatedWorkerGlobalScope
 (
 WorkerPrivate

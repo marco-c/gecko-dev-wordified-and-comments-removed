@@ -109,11 +109,12 @@ WebGLFramebufferAttachable
 {
 public
 :
+explicit
 WebGLTexture
 (
 WebGLContext
 *
-context
+aContext
 )
 ;
 void

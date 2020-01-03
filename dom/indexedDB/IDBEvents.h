@@ -528,6 +528,7 @@ aNewVersion
 }
 protected
 :
+explicit
 IDBVersionChangeEvent
 (
 mozilla

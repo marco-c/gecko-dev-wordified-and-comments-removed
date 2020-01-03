@@ -16806,6 +16806,7 @@ PRCList
 {
 public
 :
+explicit
 nsPluginDestroyRunnable
 (
 nsNPAPIPluginInstance

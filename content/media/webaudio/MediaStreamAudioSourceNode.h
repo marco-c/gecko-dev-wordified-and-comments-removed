@@ -39,6 +39,7 @@ AudioNodeEngine
 {
 public
 :
+explicit
 MediaStreamAudioSourceNodeEngine
 (
 AudioNode

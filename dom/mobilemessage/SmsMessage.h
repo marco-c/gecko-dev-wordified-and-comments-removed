@@ -117,6 +117,7 @@ bool
 aRead
 )
 ;
+explicit
 SmsMessage
 (
 const

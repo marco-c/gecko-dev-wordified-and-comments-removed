@@ -61,6 +61,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 PaintRequest
 (
 nsIDOMEvent
@@ -189,6 +190,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 PaintRequestList
 (
 nsIDOMEvent

@@ -28,6 +28,7 @@ isArray
 ShDataType
 type
 ;
+explicit
 WebGLUniformInfo
 (
 uint32_t

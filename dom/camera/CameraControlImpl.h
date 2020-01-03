@@ -120,6 +120,7 @@ ICameraControl
 {
 public
 :
+explicit
 CameraControlImpl
 (
 uint32_t

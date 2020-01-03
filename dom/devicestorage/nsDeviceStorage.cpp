@@ -8078,6 +8078,7 @@ mCursor
 >
 )
 ;
+explicit
 DeviceStorageCursorRequest
 (
 nsDOMDeviceStorageCursor

@@ -175,6 +175,7 @@ mSize
 )
 {
 }
+explicit
 ImageCacheEntryData
 (
 const
@@ -283,12 +284,13 @@ ImageCacheKey
 *
 KeyTypePointer
 ;
+explicit
 ImageCacheEntry
 (
 const
 KeyType
 *
-key
+aKey
 )
 :
 mData
@@ -297,7 +299,7 @@ new
 ImageCacheEntryData
 (
 *
-key
+aKey
 )
 )
 {
@@ -533,6 +535,7 @@ nsIObserver
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 ImageCacheObserver
 (
 ImageCache

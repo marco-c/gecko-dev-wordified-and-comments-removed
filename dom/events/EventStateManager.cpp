@@ -15077,6 +15077,7 @@ EventDispatchingCallback
 {
 public
 :
+explicit
 ESMEventCB
 (
 nsIContent

@@ -174,6 +174,7 @@ progress
 )
 private
 :
+explicit
 IDBFileRequest
 (
 nsPIDOMWindow

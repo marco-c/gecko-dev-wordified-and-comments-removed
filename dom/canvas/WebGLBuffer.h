@@ -86,11 +86,12 @@ WebGLContextBoundObject
 {
 public
 :
+explicit
 WebGLBuffer
 (
 WebGLContext
 *
-context
+aContext
 )
 ;
 void

@@ -445,6 +445,7 @@ AsyncConnectionHelper
 {
 public
 :
+explicit
 IPCDeleteDatabaseHelper
 (
 IDBRequest

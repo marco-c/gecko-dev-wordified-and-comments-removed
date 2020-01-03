@@ -77,6 +77,7 @@ mPromise
 ;
 protected
 :
+explicit
 InstallPhaseEvent
 (
 mozilla
@@ -310,6 +311,7 @@ mActiveWorker
 ;
 protected
 :
+explicit
 InstallEvent
 (
 mozilla

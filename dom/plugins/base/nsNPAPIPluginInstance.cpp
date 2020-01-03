@@ -5361,6 +5361,7 @@ AutoPluginLibraryCall
 {
 public
 :
+explicit
 AutoPluginLibraryCall
 (
 nsNPAPIPluginInstance
@@ -7445,6 +7446,7 @@ nsIContent
 >
 mContent
 ;
+explicit
 CarbonEventModelFailureEvent
 (
 nsIContent

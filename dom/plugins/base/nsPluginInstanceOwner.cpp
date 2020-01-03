@@ -538,6 +538,7 @@ nsPluginDOMContextMenuListener
 ;
 public
 :
+explicit
 nsPluginDOMContextMenuListener
 (
 nsIContent

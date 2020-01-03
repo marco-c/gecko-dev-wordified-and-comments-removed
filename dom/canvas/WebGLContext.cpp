@@ -4845,6 +4845,7 @@ LayerUserData
 {
 public
 :
+explicit
 WebGLContextUserData
 (
 HTMLCanvasElement
@@ -6434,16 +6435,17 @@ mContext
 ;
 public
 :
+explicit
 UpdateContextLossStatusTask
 (
 WebGLContext
 *
-context
+aContext
 )
 :
 mContext
 (
-context
+aContext
 )
 {
 }

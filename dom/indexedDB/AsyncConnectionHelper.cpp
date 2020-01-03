@@ -172,6 +172,7 @@ StackBasedEventTarget
 public
 :
 NS_DECL_NSIEVENTTARGET
+explicit
 TransactionPoolEventTarget
 (
 IDBTransaction

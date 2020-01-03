@@ -729,6 +729,7 @@ ICameraControlParameterSetAutoEnter
 {
 public
 :
+explicit
 ICameraControlParameterSetAutoEnter
 (
 ICameraControl

@@ -117,6 +117,7 @@ MediaKeyMessageEvent
 (
 )
 ;
+explicit
 MediaKeyMessageEvent
 (
 EventTarget
