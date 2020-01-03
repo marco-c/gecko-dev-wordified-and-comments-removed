@@ -2234,6 +2234,12 @@ reverse
 "
 join
 "
+"
+every
+"
+"
+some
+"
 ]
 ;
 if
