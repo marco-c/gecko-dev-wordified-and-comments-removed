@@ -5412,6 +5412,11 @@ aContainerNode
 :
 this
 ;
+if
+(
+container
+)
+{
 mNotificationController
 -
 >
@@ -5422,6 +5427,7 @@ aStartChildNode
 aEndChildNode
 )
 ;
+}
 }
 }
 void
