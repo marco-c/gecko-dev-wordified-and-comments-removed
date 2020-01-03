@@ -160,6 +160,16 @@ secure
 element
 .
 "
+SENotPresentError
+"
+/
+/
+Secure
+Element
+is
+not
+present
+"
 SEGenericError
 "
 /
