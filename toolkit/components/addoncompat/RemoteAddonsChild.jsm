@@ -1567,7 +1567,7 @@ this
 .
 _uriFlags
 =
-null
+undefined
 ;
 }
 AboutProtocolInstance
