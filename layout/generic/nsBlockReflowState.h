@@ -637,7 +637,7 @@ SetupPushedFloatList
 )
 ;
 void
-AppendPushedFloat
+AppendPushedFloatChain
 (
 nsIFrame
 *
