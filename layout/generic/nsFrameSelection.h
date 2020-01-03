@@ -213,6 +213,8 @@ bool
 aIsKeyboardSelect
 bool
 aVisual
+bool
+aExtend
 mozilla
 :
 :
@@ -254,6 +256,9 @@ mIsKeyboardSelect
 ;
 bool
 mVisual
+;
+bool
+mExtend
 ;
 nsCOMPtr
 <
