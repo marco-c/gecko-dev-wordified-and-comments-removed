@@ -152,4 +152,16 @@ disabled
 "
 :
 True
+    
+"
+media
+.
+navigator
+.
+streams
+.
+fake
+"
+:
+True
 }
