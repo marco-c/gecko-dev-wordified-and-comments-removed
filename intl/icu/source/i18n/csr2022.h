@@ -106,6 +106,10 @@ const
 ;
 }
 ;
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 class
 CharsetRecog_2022KR
 :
@@ -178,6 +182,8 @@ const
 ;
 }
 ;
+#
+endif
 U_NAMESPACE_END
 #
 endif

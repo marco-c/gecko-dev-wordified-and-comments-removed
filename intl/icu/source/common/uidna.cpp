@@ -1528,6 +1528,8 @@ b3Stack
 ;
 int32_t
 b1Len
+=
+0
 b2Len
 b1PrimeLen
 b3Len
@@ -1541,10 +1543,6 @@ b3Capacity
 =
 MAX_LABEL_BUFFER_SIZE
 reqLength
-=
-0
-;
-b1Len
 =
 0
 ;

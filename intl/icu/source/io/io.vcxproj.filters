@@ -297,7 +297,7 @@ Include
 "
 ucln_io
 .
-c
+cpp
 "
 >
 <
@@ -366,7 +366,7 @@ Include
 "
 uprintf
 .
-c
+cpp
 "
 >
 <

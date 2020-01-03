@@ -35,10 +35,6 @@ h
 if
 !
 UCONFIG_NO_COLLATION
-&
-&
-!
-UCONFIG_NO_NORMALIZATION
 U_CDECL_BEGIN
 typedef
 enum
@@ -91,14 +87,6 @@ UObject
 {
 public
 :
-#
-ifdef
-U_HIDE_DRAFT_API
-class
-Bucket
-;
-#
-else
 class
 U_I18N_API
 Bucket
@@ -262,8 +250,6 @@ collatorPrimaryOnly_
 ;
 }
 ;
-#
-endif
 AlphabeticIndex
 (
 const
@@ -275,9 +261,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 AlphabeticIndex
 (
 RuleBasedCollator
@@ -288,8 +271,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 virtual
 AlphabeticIndex
 &
@@ -324,9 +305,6 @@ AlphabeticIndex
 (
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 ImmutableIndex
 *
 buildImmutableIndex
@@ -336,8 +314,6 @@ UErrorCode
 errorCode
 )
 ;
-#
-endif
 virtual
 const
 RuleBasedCollator

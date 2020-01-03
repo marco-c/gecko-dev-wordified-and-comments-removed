@@ -85,6 +85,8 @@ CLEANFILES
 SUBDIRS
 =
 collationperf
+collperf
+collperf2
 charperf
 dicttrieperf
 normperf

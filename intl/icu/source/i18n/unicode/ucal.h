@@ -355,10 +355,7 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ucal_getTimeZoneID
@@ -377,8 +374,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 enum
 UCalendarDisplayNameType
 {
@@ -940,7 +935,7 @@ enum
 UTimeZoneTransitionType
 UTimeZoneTransitionType
 ;
-U_DRAFT
+U_STABLE
 UBool
 U_EXPORT2
 ucal_getTimeZoneTransitionDate
@@ -959,10 +954,7 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ucal_getWindowsTimeZoneID
@@ -983,7 +975,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ucal_getTimeZoneIDForWindowsID
@@ -1008,8 +1000,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 #
 endif
 #

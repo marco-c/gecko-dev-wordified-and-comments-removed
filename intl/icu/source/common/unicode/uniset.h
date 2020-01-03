@@ -33,6 +33,7 @@ h
 "
 U_NAMESPACE_BEGIN
 void
+U_CALLCONV
 UnicodeSet_initInclusion
 (
 int32_t
@@ -66,6 +67,7 @@ RuleCharacterIterator
 class
 U_COMMON_API
 UnicodeSet
+U_FINAL
 :
 public
 UnicodeFilter
@@ -1364,6 +1366,7 @@ ec
 ;
 friend
 void
+U_CALLCONV
 UnicodeSet_initInclusion
 (
 int32_t

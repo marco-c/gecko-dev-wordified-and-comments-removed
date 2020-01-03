@@ -173,8 +173,7 @@ uprv_deleteUObject
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 const
 UHashElement
@@ -374,8 +373,8 @@ n
 0
 ;
 n
-+
-+
+-
+-
 )
 {
 delete

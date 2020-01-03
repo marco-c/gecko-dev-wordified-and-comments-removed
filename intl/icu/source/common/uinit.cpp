@@ -126,6 +126,8 @@ uinit_cleanup
 )
 ;
 }
+U_NAMESPACE_END
+U_NAMESPACE_USE
 U_CAPI
 void
 U_EXPORT2
@@ -157,4 +159,3 @@ status
 )
 ;
 }
-U_NAMESPACE_END

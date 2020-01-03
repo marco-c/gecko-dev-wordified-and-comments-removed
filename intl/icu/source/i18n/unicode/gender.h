@@ -49,6 +49,7 @@ GenderInfoTest
 ;
 U_NAMESPACE_BEGIN
 void
+U_CALLCONV
 GenderInfo_initCache
 (
 UErrorCode
@@ -176,6 +177,7 @@ GenderInfoTest
 ;
 friend
 void
+U_CALLCONV
 GenderInfo_initCache
 (
 UErrorCode

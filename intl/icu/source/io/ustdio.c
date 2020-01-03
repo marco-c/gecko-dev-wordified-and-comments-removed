@@ -8,6 +8,10 @@ ustdio
 h
 "
 #
+if
+!
+UCONFIG_NO_CONVERSION
+#
 include
 "
 unicode
@@ -3080,3 +3084,5 @@ return
 read
 ;
 }
+#
+endif

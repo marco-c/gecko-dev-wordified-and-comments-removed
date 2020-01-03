@@ -1280,6 +1280,9 @@ UnicodeString
 toAppendTo
 int32_t
 pos
+UErrorCode
+&
+status
 )
 const
 {
@@ -1338,6 +1341,7 @@ doFormat
 number
 toAppendTo
 pos
+status
 )
 ;
 ncThis
@@ -1363,6 +1367,9 @@ UnicodeString
 toAppendTo
 int32_t
 pos
+UErrorCode
+&
+status
 )
 const
 {
@@ -1421,6 +1428,7 @@ doFormat
 number
 toAppendTo
 pos
+status
 )
 ;
 ncThis

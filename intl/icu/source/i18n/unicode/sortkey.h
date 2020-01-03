@@ -49,6 +49,9 @@ class
 RuleBasedCollator
 ;
 class
+CollationKeyByteSink
+;
+class
 U_I18N_API
 CollationKey
 :

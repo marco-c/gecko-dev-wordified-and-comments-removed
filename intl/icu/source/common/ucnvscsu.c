@@ -11,6 +11,10 @@ h
 if
 !
 UCONFIG_NO_CONVERSION
+&
+&
+!
+UCONFIG_ONLY_HTML_CONVERSION
 #
 include
 "

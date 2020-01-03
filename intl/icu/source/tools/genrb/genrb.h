@@ -126,10 +126,6 @@ GENRB_VERSION
 3
 "
 U_CDECL_BEGIN
-extern
-UBool
-gIncludeUnihanColl
-;
 U_CAPI
 void
 processFile

@@ -781,6 +781,9 @@ NULL
 NULL
 NULL
 NULL
+"
+superscriptingExponent
+"
 }
 ;
 static
@@ -2183,6 +2186,16 @@ kMonetaryGroupingSeparatorSymbol
 remove
 (
 )
+;
+fSymbols
+[
+kExponentMultiplicationSymbol
+]
+=
+(
+UChar
+)
+0xd7
 ;
 }
 Locale

@@ -3657,9 +3657,6 @@ return
 FALSE
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 U_CAPI
 int32_t
 U_EXPORT2
@@ -3861,7 +3858,5 @@ return
 resultLen
 ;
 }
-#
-endif
 #
 endif

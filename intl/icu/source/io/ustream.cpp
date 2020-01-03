@@ -8,6 +8,10 @@ utypes
 h
 "
 #
+if
+!
+UCONFIG_NO_CONVERSION
+#
 include
 "
 unicode
@@ -622,5 +626,7 @@ stream
 ;
 }
 U_NAMESPACE_END
+#
+endif
 #
 endif

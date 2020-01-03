@@ -70,6 +70,9 @@ leadByte
 \
 (
 (
+uint8_t
+)
+(
 leadByte
 )
 <
@@ -77,6 +80,9 @@ leadByte
 ?
 \
 (
+(
+uint8_t
+)
 (
 leadByte
 )
@@ -87,6 +93,9 @@ leadByte
 +
 (
 (
+uint8_t
+)
+(
 leadByte
 )
 >
@@ -95,6 +104,9 @@ leadByte
 )
 :
 \
+(
+uint8_t
+)
 (
 leadByte
 )
@@ -105,6 +117,9 @@ leadByte
 +
 (
 (
+uint8_t
+)
+(
 leadByte
 )
 >
@@ -113,6 +128,9 @@ leadByte
 )
 +
 (
+(
+uint8_t
+)
 (
 leadByte
 )
@@ -492,9 +510,6 @@ c
 \
 }
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 define
 U8_GET_OR_FFFD
 (
@@ -532,8 +547,6 @@ c
 ;
 \
 }
-#
-endif
 #
 define
 U8_NEXT_UNSAFE
@@ -1174,9 +1187,6 @@ c
 \
 }
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 define
 U8_NEXT_OR_FFFD
 (
@@ -1546,8 +1556,6 @@ c
 }
 \
 }
-#
-endif
 #
 define
 U8_APPEND_UNSAFE
@@ -2656,9 +2664,6 @@ c
 \
 }
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 define
 U8_PREV_OR_FFFD
 (
@@ -2725,8 +2730,6 @@ c
 }
 \
 }
-#
-endif
 #
 define
 U8_BACK_1_UNSAFE

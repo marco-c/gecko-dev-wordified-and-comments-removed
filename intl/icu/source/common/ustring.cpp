@@ -6365,7 +6365,7 @@ STRLEN
 DEREF
 )
 \
-int32_t
+uint32_t
 hash
 =
 0
@@ -6460,7 +6460,13 @@ inc
 }
 \
 return
+static_cast
+<
+int32_t
+>
+(
 hash
+)
 U_CAPI
 int32_t
 U_EXPORT2

@@ -96,6 +96,15 @@ hitCount
 0
 ;
 }
+NGramParser
+:
+:
+~
+NGramParser
+(
+)
+{
+}
 int32_t
 NGramParser
 :
@@ -516,6 +525,10 @@ rawPercent
 )
 ;
 }
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 static
 const
 uint8_t
@@ -1111,6 +1124,8 @@ mb
 }
 }
 }
+#
+endif
 CharsetRecog_sbcs
 :
 :
@@ -4055,6 +4070,10 @@ charMap_KOI8_R
 0xDF
 }
 ;
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 static
 const
 int32_t
@@ -4883,6 +4902,8 @@ charMap_IBM420_ar
 0x40
 }
 ;
+#
+endif
 struct
 NGramsPlusLang
 {
@@ -7649,6 +7670,10 @@ confidence
 )
 ;
 }
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 CharsetRecog_IBM424_he
 :
 :
@@ -8022,6 +8047,8 @@ confidence
 )
 ;
 }
+#
+endif
 U_NAMESPACE_END
 #
 endif

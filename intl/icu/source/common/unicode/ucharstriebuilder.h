@@ -296,9 +296,6 @@ UCharsTrie
 kMaxLinearMatchLength
 ;
 }
-#
-ifndef
-U_HIDE_INTERNAL_API
 class
 UCTLinearMatchNode
 :
@@ -351,8 +348,6 @@ s
 ;
 }
 ;
-#
-endif
 virtual
 Node
 *

@@ -65,13 +65,6 @@ h
 #
 include
 "
-ucln_cmn
-.
-h
-"
-#
-include
-"
 uassert
 .
 h
@@ -719,6 +712,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 kind
 :
@@ -736,6 +732,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 primaryID
 :
@@ -753,6 +752,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 fallbackID
 :
@@ -770,6 +772,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 currentID
 :
@@ -805,6 +810,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 LocaleKey
 "

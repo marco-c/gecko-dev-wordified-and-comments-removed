@@ -2086,6 +2086,12 @@ ucol_nextSortKeyPart
 "
 ucol_strcollIter
 "
+"
+ucol_openFromShortString
+"
+"
+ucol_strcollUTF8
+"
 NULL
 }
 ;

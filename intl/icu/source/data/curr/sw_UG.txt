@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2015
 International
 Business
 Machines
@@ -221,7 +221,7 @@ UGX
 USh
 "
 "
-shilingi
+Shilingi
 ya
 Uganda
 "
@@ -232,11 +232,11 @@ Version
 "
 2
 .
-0
+1
 .
-90
+6
 .
-61
+69
 "
 }
 }

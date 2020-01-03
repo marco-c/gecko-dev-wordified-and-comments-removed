@@ -633,6 +633,7 @@ SDATA
 solar87
 solar88
 solar89
+#
 TDATA
 =
 (
@@ -643,6 +644,14 @@ NDATA
 )
 (
 SDATA
+)
+TDATA
+=
+(
+YDATA
+)
+(
+NDATA
 )
 YEARISTYPE
 =

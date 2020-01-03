@@ -3227,8 +3227,7 @@ const
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 const
 UHashElement
@@ -3407,8 +3406,7 @@ result
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 const
 UHashElement

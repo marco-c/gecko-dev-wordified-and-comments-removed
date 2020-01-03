@@ -14,6 +14,10 @@ utypes
 h
 "
 #
+if
+!
+UCONFIG_NO_CONVERSION
+#
 include
 "
 unicode
@@ -220,5 +224,7 @@ UFILE
 f
 )
 ;
+#
+endif
 #
 endif

@@ -313,10 +313,7 @@ UErrorCode
 pErrorCode
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 ULocaleDisplayNames
 *
 U_EXPORT2
@@ -336,7 +333,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_DRAFT
+U_STABLE
 UDisplayContext
 U_EXPORT2
 uldn_getContext
@@ -352,8 +349,6 @@ UErrorCode
 pErrorCode
 )
 ;
-#
-endif
 #
 endif
 #

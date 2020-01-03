@@ -607,6 +607,10 @@ CharsetRecog_2022JP
 )
 TRUE
 )
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 new
 CSRecognizerInfo
 (
@@ -661,6 +665,8 @@ CharsetRecog_IBM420_ar_ltr
 )
 FALSE
 )
+#
+endif
 }
 ;
 int32_t

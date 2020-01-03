@@ -102,6 +102,9 @@ UErrorCode
 status
 )
 ;
+#
+ifndef
+U_HIDE_DEPRECATED_API
 typedef
 void
 *
@@ -198,6 +201,8 @@ UErrorCode
 status
 )
 ;
+#
+endif
 #
 endif
 #

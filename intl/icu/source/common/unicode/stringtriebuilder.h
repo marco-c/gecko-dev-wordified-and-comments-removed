@@ -355,10 +355,15 @@ UErrorCode
 errorCode
 )
 ;
+#
+endif
 UHashtable
 *
 nodes
 ;
+#
+ifndef
+U_HIDE_INTERNAL_API
 class
 Node
 :

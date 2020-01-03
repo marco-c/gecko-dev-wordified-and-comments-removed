@@ -178,6 +178,15 @@ char
 filename
 )
 ;
+void
+writeCSourceFile
+(
+const
+char
+*
+filename
+)
+;
 private
 :
 friend
@@ -449,6 +458,9 @@ IX_COUNT
 UTrie2
 *
 norm16Trie
+;
+int32_t
+norm16TrieLength
 ;
 UnicodeString
 extraData

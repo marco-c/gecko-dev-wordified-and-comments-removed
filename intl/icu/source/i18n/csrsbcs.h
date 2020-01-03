@@ -78,6 +78,12 @@ uint8_t
 theCharMap
 )
 ;
+virtual
+~
+NGramParser
+(
+)
+;
 private
 :
 int32_t
@@ -128,6 +134,10 @@ det
 ;
 }
 ;
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 class
 NGramParser_IBM420
 :
@@ -178,6 +188,8 @@ theCharMap
 ;
 }
 ;
+#
+endif
 class
 CharsetRecog_sbcs
 :
@@ -804,6 +816,10 @@ const
 ;
 }
 ;
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 class
 CharsetRecog_IBM424_he
 :
@@ -1015,6 +1031,8 @@ const
 ;
 }
 ;
+#
+endif
 U_NAMESPACE_END
 #
 endif

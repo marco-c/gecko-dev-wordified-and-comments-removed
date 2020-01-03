@@ -212,6 +212,9 @@ UnicodeString
 toAppendTo
 int32_t
 pos
+UErrorCode
+&
+status
 )
 const
 ;
@@ -225,6 +228,9 @@ UnicodeString
 toAppendTo
 int32_t
 pos
+UErrorCode
+&
+status
 )
 const
 ;

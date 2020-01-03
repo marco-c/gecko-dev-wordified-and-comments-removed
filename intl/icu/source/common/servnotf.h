@@ -126,6 +126,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 Key
 "

@@ -52,6 +52,7 @@ U_NAMESPACE_BEGIN
 class
 U_I18N_API
 StringSearch
+U_FINAL
 :
 public
 SearchIterator
@@ -328,9 +329,6 @@ private
 StringSearch
 (
 )
-;
-RuleBasedCollator
-m_collator_
 ;
 UnicodeString
 m_pattern_

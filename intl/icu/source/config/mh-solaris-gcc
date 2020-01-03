@@ -23,7 +23,7 @@ c
 )
 1999
 -
-2010
+2014
 International
 Business
 Machines
@@ -80,6 +80,9 @@ DEFS
 (
 CPPFLAGS
 )
+(
+CFLAGS
+)
 GEN_DEPS
 .
 cc
@@ -96,6 +99,9 @@ DEFS
 )
 (
 CPPFLAGS
+)
+(
+CXXFLAGS
 )
 #
 #

@@ -437,6 +437,10 @@ escapeSequences_2022JP
 }
 }
 ;
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 static
 const
 uint8_t
@@ -547,6 +551,8 @@ escapeSequences_2022CN
 }
 }
 ;
+#
+endif
 CharsetRecog_2022JP
 :
 :
@@ -630,6 +636,10 @@ confidence
 )
 ;
 }
+#
+if
+!
+UCONFIG_ONLY_HTML_CONVERSION
 CharsetRecog_2022KR
 :
 :
@@ -796,6 +806,8 @@ confidence
 )
 ;
 }
+#
+endif
 CharsetRecog_2022
 :
 :

@@ -95,9 +95,6 @@ UDialectHandling
 dialectHandling
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 static
 LocaleDisplayNames
 *
@@ -115,8 +112,6 @@ int32_t
 length
 )
 ;
-#
-endif
 virtual
 const
 Locale

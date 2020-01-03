@@ -85,7 +85,7 @@ C
 )
 1999
 -
-2013
+2014
 International
 Business
 Machines
@@ -389,6 +389,15 @@ top_srcdir
 )
 /
 io
+CPPFLAGS
++
+=
+-
+DUNISTR_FROM_CHAR_EXPLICIT
+=
+-
+DUNISTR_FROM_STRING_EXPLICIT
+=
 DEFS
 +
 =

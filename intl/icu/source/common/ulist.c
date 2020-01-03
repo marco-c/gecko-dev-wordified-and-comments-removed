@@ -831,12 +831,6 @@ listHead
 =
 NULL
 ;
-UListNode
-*
-listPointer
-=
-NULL
-;
 if
 (
 list
@@ -852,10 +846,6 @@ list
 >
 head
 ;
-listPointer
-=
-listHead
-;
 while
 (
 listHead
@@ -864,6 +854,8 @@ listHead
 NULL
 )
 {
+UListNode
+*
 listPointer
 =
 listHead

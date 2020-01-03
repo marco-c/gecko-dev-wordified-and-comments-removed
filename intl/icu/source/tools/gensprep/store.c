@@ -474,8 +474,7 @@ storeMappingData
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 const
 UHashElement

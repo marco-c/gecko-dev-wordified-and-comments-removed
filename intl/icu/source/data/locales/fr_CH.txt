@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2015
 International
 Business
 Machines
@@ -247,12 +247,6 @@ decimal
 .
 "
 }
-group
-{
-"
-'
-"
-}
 }
 }
 }
@@ -261,11 +255,11 @@ Version
 "
 2
 .
-0
+1
 .
-92
+13
 .
-87
+23
 "
 }
 calendar

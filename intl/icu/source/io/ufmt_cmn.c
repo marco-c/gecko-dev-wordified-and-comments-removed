@@ -45,6 +45,10 @@ ustr_cnv
 h
 "
 #
+if
+!
+UCONFIG_NO_CONVERSION
+#
 define
 DIGIT_0
 0x0030
@@ -1057,3 +1061,5 @@ return
 target
 ;
 }
+#
+endif

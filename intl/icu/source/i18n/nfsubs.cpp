@@ -618,6 +618,9 @@ UnicodeString
 toInsertInto
 int32_t
 pos
+UErrorCode
+&
+status
 )
 const
 ;
@@ -632,6 +635,9 @@ UnicodeString
 toInsertInto
 int32_t
 pos
+UErrorCode
+&
+status
 )
 const
 ;
@@ -1005,6 +1011,9 @@ UnicodeString
 toInsertInto
 int32_t
 pos
+UErrorCode
+&
+status
 )
 const
 ;
@@ -1016,6 +1025,8 @@ int64_t
 UnicodeString
 &
 int32_t
+UErrorCode
+&
 )
 const
 {
@@ -1475,6 +1486,8 @@ int64_t
 UnicodeString
 &
 int32_t
+UErrorCode
+&
 )
 const
 {
@@ -1490,6 +1503,9 @@ UnicodeString
 toInsertInto
 int32_t
 pos
+UErrorCode
+&
+status
 )
 const
 ;
@@ -1659,6 +1675,8 @@ double
 UnicodeString
 &
 int32_t
+UErrorCode
+&
 )
 const
 {
@@ -1671,6 +1689,8 @@ int64_t
 UnicodeString
 &
 int32_t
+UErrorCode
+&
 )
 const
 {
@@ -2702,6 +2722,9 @@ UnicodeString
 toInsertInto
 int32_t
 _pos
+UErrorCode
+&
+status
 )
 const
 {
@@ -2729,6 +2752,7 @@ this
 -
 >
 pos
+status
 )
 ;
 }
@@ -2783,6 +2807,7 @@ format
 (
 numberToFormat
 temp
+status
 )
 ;
 toInsertInto
@@ -2813,6 +2838,9 @@ UnicodeString
 toInsertInto
 int32_t
 _pos
+UErrorCode
+&
+status
 )
 const
 {
@@ -2857,6 +2885,7 @@ this
 -
 >
 pos
+status
 )
 ;
 }
@@ -2883,6 +2912,7 @@ this
 -
 >
 pos
+status
 )
 ;
 }
@@ -3457,6 +3487,9 @@ UnicodeString
 toInsertInto
 int32_t
 _pos
+UErrorCode
+&
+status
 )
 const
 {
@@ -3476,6 +3509,7 @@ doSubstitution
 number
 toInsertInto
 _pos
+status
 )
 ;
 }
@@ -3501,6 +3535,7 @@ _pos
 getPos
 (
 )
+status
 )
 ;
 }
@@ -3518,6 +3553,9 @@ UnicodeString
 toInsertInto
 int32_t
 _pos
+UErrorCode
+&
+status
 )
 const
 {
@@ -3537,6 +3575,7 @@ doSubstitution
 number
 toInsertInto
 _pos
+status
 )
 ;
 }
@@ -3562,6 +3601,7 @@ _pos
 getPos
 (
 )
+status
 )
 ;
 }
@@ -3877,6 +3917,9 @@ UnicodeString
 toInsertInto
 int32_t
 _pos
+UErrorCode
+&
+status
 )
 const
 {
@@ -3894,6 +3937,7 @@ doSubstitution
 number
 toInsertInto
 _pos
+status
 )
 ;
 }
@@ -4017,6 +4061,7 @@ _pos
 getPos
 (
 )
+status
 )
 ;
 }
@@ -4043,6 +4088,7 @@ _pos
 getPos
 (
 )
+status
 )
 ;
 }
@@ -4470,6 +4516,9 @@ UnicodeString
 toInsertInto
 int32_t
 apos
+UErrorCode
+&
+status
 )
 const
 {
@@ -4562,6 +4611,7 @@ apos
 getPos
 (
 )
+status
 )
 ;
 }
@@ -4603,6 +4653,7 @@ apos
 getPos
 (
 )
+status
 )
 ;
 }
@@ -4628,16 +4679,12 @@ apos
 getPos
 (
 )
+status
 )
 ;
 }
 else
 {
-UErrorCode
-status
-=
-U_ZERO_ERROR
-;
 UnicodeString
 temp
 ;

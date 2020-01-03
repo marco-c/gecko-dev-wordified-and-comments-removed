@@ -339,7 +339,7 @@ NULL
 int32_t
 pos
 =
-0
+UHASH_FIRST
 ;
 while
 (
@@ -553,6 +553,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 name
 :
@@ -570,6 +573,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 coverage
 :
@@ -605,6 +611,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 LocaleKeyFactory
 "

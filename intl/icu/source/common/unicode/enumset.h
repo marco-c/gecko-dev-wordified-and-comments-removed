@@ -71,6 +71,9 @@ EnumSet
 )
 {
 }
+#
+ifndef
+U_HIDE_INTERNAL_API
 inline
 void
 clear
@@ -282,6 +285,8 @@ return
 fBools
 ;
 }
+#
+endif
 private
 :
 inline

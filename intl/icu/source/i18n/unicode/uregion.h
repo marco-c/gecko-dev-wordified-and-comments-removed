@@ -22,9 +22,6 @@ uenum
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 typedef
 enum
 URegionType
@@ -41,14 +38,9 @@ URGN_LIMIT
 URegionType
 ;
 #
-endif
-#
 if
 !
 UCONFIG_NO_FORMATTING
-#
-ifndef
-U_HIDE_DRAFT_API
 struct
 URegion
 ;
@@ -57,7 +49,7 @@ struct
 URegion
 URegion
 ;
-U_DRAFT
+U_STABLE
 const
 URegion
 *
@@ -73,7 +65,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 const
 URegion
 *
@@ -87,7 +79,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 UEnumeration
 *
 U_EXPORT2
@@ -100,7 +92,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 UBool
 U_EXPORT2
 uregion_areEqual
@@ -115,7 +107,7 @@ URegion
 otherRegion
 )
 ;
-U_DRAFT
+U_STABLE
 const
 URegion
 *
@@ -128,7 +120,7 @@ URegion
 uregion
 )
 ;
-U_DRAFT
+U_STABLE
 const
 URegion
 *
@@ -143,7 +135,7 @@ URegionType
 type
 )
 ;
-U_DRAFT
+U_STABLE
 UEnumeration
 *
 U_EXPORT2
@@ -158,7 +150,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 UEnumeration
 *
 U_EXPORT2
@@ -175,7 +167,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 UBool
 U_EXPORT2
 uregion_contains
@@ -190,7 +182,7 @@ URegion
 otherRegion
 )
 ;
-U_DRAFT
+U_STABLE
 UEnumeration
 *
 U_EXPORT2
@@ -205,7 +197,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 const
 char
 *
@@ -218,7 +210,7 @@ URegion
 uregion
 )
 ;
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 uregion_getNumericCode
@@ -229,7 +221,7 @@ URegion
 uregion
 )
 ;
-U_DRAFT
+U_STABLE
 URegionType
 U_EXPORT2
 uregion_getType
@@ -240,8 +232,6 @@ URegion
 uregion
 )
 ;
-#
-endif
 #
 endif
 #

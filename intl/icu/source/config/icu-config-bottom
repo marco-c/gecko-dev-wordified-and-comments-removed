@@ -1945,9 +1945,6 @@ LDFLAGS
 ICULIBS
 }
 {
-LIBS
-}
-{
 ECHO_C
 }
 "

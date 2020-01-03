@@ -13,7 +13,7 @@ c
 )
 2001
 -
-2009
+2015
 International
 Business
 Machines
@@ -1567,7 +1567,7 @@ outfile
 if
 (
 defined
-writeXMPPNodeProhitedExtra
+writeXMPPNodeProhibitedExtra
 )
 {
 create_XMPPNodeExtraProhibitedTable

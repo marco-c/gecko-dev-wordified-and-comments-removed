@@ -269,6 +269,9 @@ uarrone
 1
 }
 ;
+#
+if
+0
 static
 const
 uByte
@@ -290,6 +293,8 @@ DECSTICKYTAB
 9
 }
 ;
+#
+endif
 static
 const
 uInt

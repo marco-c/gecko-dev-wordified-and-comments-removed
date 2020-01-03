@@ -303,6 +303,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 bundle
 :
@@ -336,6 +339,9 @@ result
 .
 append
 (
+(
+UnicodeString
+)
 "
 ICUResourceBundleFactory
 "

@@ -40,9 +40,14 @@ enum
 UIDNA_DEFAULT
 =
 0
+#
+ifndef
+U_HIDE_DEPRECATED_API
 UIDNA_ALLOW_UNASSIGNED
 =
 1
+#
+endif
 UIDNA_USE_STD3_RULES
 =
 2
@@ -426,7 +431,10 @@ UIDNA_ERROR_CONTEXTO_DIGITS
 0x4000
 }
 ;
-U_STABLE
+#
+ifndef
+U_HIDE_DEPRECATED_API
+U_DEPRECATED
 int32_t
 U_EXPORT2
 uidna_toASCII
@@ -452,7 +460,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_DEPRECATED
 int32_t
 U_EXPORT2
 uidna_toUnicode
@@ -478,7 +486,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_DEPRECATED
 int32_t
 U_EXPORT2
 uidna_IDNToASCII
@@ -504,7 +512,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_DEPRECATED
 int32_t
 U_EXPORT2
 uidna_IDNToUnicode
@@ -530,7 +538,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_DEPRECATED
 int32_t
 U_EXPORT2
 uidna_compare
@@ -554,6 +562,8 @@ UErrorCode
 status
 )
 ;
+#
+endif
 #
 endif
 #

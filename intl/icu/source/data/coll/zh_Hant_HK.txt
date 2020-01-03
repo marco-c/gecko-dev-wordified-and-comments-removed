@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2015
 International
 Business
 Machines
@@ -126,7 +126,9 @@ path
 /
 icu
 -
-config
+locale
+-
+deprecates
 .
 xml
 &
@@ -217,11 +219,9 @@ xml
 *
 *
 *
-validSubLocale
-of
-"
-zh_Hant
-"
+generated
+alias
+target
 *
 /
 zh_Hant_HK

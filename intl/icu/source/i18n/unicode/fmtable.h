@@ -601,9 +601,6 @@ getStaticClassID
 (
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 static
 inline
 Formattable
@@ -644,8 +641,6 @@ toUFormattable
 )
 const
 ;
-#
-endif
 #
 ifndef
 U_HIDE_DEPRECATED_API
@@ -884,9 +879,6 @@ status
 }
 #
 endif
-#
-ifndef
-U_HIDE_DRAFT_API
 inline
 UFormattable
 *
@@ -983,8 +975,6 @@ fmt
 )
 ;
 }
-#
-endif
 U_NAMESPACE_END
 #
 endif

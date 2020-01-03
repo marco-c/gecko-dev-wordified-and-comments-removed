@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2015
 International
 Business
 Machines
@@ -229,8 +229,6 @@ JPY
 "
 "
 yen
-japon
-s
 "
 }
 USD
@@ -249,11 +247,11 @@ Version
 "
 2
 .
-0
+1
 .
-92
+13
 .
-80
+23
 "
 }
 }

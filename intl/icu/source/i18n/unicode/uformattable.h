@@ -18,9 +18,6 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 include
 "
 unicode
@@ -51,7 +48,7 @@ void
 *
 UFormattable
 ;
-U_DRAFT
+U_STABLE
 UFormattable
 *
 U_EXPORT2
@@ -62,7 +59,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ufmt_close
@@ -86,7 +83,7 @@ ufmt_close
 U_NAMESPACE_END
 #
 endif
-U_DRAFT
+U_STABLE
 UFormattableType
 U_EXPORT2
 ufmt_getType
@@ -100,7 +97,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 UBool
 U_EXPORT2
 ufmt_isNumeric
@@ -111,7 +108,7 @@ UFormattable
 fmt
 )
 ;
-U_DRAFT
+U_STABLE
 UDate
 U_EXPORT2
 ufmt_getDate
@@ -125,7 +122,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 double
 U_EXPORT2
 ufmt_getDouble
@@ -138,7 +135,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ufmt_getLong
@@ -151,7 +148,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 int64_t
 U_EXPORT2
 ufmt_getInt64
@@ -164,7 +161,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 const
 void
 *
@@ -180,7 +177,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 const
 UChar
 *
@@ -198,7 +195,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ufmt_getArrayLength
@@ -212,7 +209,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 UFormattable
 *
 U_EXPORT2
@@ -228,7 +225,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 const
 char
 *
@@ -246,8 +243,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 #
 endif
 #

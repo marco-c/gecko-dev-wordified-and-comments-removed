@@ -240,6 +240,9 @@ UnicodeString
 toInsertInto
 int32_t
 pos
+UErrorCode
+&
+status
 )
 const
 ;
@@ -254,6 +257,9 @@ UnicodeString
 toInsertInto
 int32_t
 pos
+UErrorCode
+&
+status
 )
 const
 ;

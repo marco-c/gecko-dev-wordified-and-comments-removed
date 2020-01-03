@@ -233,6 +233,7 @@ numDigits
 UnicodeString
 &
 appendTo
+const
 wchar_t
 *
 format

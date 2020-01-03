@@ -35,9 +35,6 @@ localpointer
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 struct
 UNumberingSystem
 ;
@@ -46,7 +43,7 @@ struct
 UNumberingSystem
 UNumberingSystem
 ;
-U_DRAFT
+U_STABLE
 UNumberingSystem
 *
 U_EXPORT2
@@ -61,7 +58,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 UNumberingSystem
 *
 U_EXPORT2
@@ -76,7 +73,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 unumsys_close
@@ -100,7 +97,7 @@ unumsys_close
 U_NAMESPACE_END
 #
 endif
-U_DRAFT
+U_STABLE
 UEnumeration
 *
 U_EXPORT2
@@ -111,7 +108,7 @@ UErrorCode
 status
 )
 ;
-U_DRAFT
+U_STABLE
 const
 char
 *
@@ -124,7 +121,7 @@ UNumberingSystem
 unumsys
 )
 ;
-U_DRAFT
+U_STABLE
 UBool
 U_EXPORT2
 unumsys_isAlgorithmic
@@ -135,7 +132,7 @@ UNumberingSystem
 unumsys
 )
 ;
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 unumsys_getRadix
@@ -146,7 +143,7 @@ UNumberingSystem
 unumsys
 )
 ;
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 unumsys_getDescription
@@ -165,8 +162,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 #
 endif
 #

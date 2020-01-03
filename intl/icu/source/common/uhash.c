@@ -2020,8 +2020,7 @@ NULL
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 UHashElement
 *
@@ -2883,8 +2882,7 @@ hash
 int32_t
 pos
 =
--
-1
+UHASH_FIRST
 ;
 const
 UHashElement
@@ -3404,8 +3402,7 @@ FALSE
 }
 pos
 =
--
-1
+UHASH_FIRST
 ;
 for
 (

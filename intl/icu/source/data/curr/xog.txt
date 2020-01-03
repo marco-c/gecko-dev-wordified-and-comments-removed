@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2015
 International
 Business
 Machines
@@ -211,29 +211,6 @@ xml
 *
 *
 *
-/
-*
-*
-*
-ICU
-<
-specials
->
-source
-:
-<
-path
->
-/
-common
-/
-main
-/
-xog
-.
-xml
-*
-/
 xog
 {
 Currencies
@@ -257,7 +234,6 @@ AOA
 "
 Kwanza
 y
-'
 Angola
 "
 }
@@ -269,7 +245,6 @@ A
 "
 Doola
 y
-'
 Awusiturelya
 "
 }
@@ -336,7 +311,6 @@ CHF
 "
 Faranga
 ey
-'
 eSwitizirandi
 "
 }
@@ -383,7 +357,6 @@ DZD
 "
 Dinaali
 y
-'
 Aligerya
 "
 }
@@ -555,7 +528,6 @@ MAD
 "
 Diraamu
 ey
-'
 eMoroko
 "
 }
@@ -567,7 +539,6 @@ MGA
 "
 Faranga
 ey
-'
 eMalagase
 "
 }
@@ -579,7 +550,6 @@ MRO
 "
 Wugwiya
 ey
-'
 eMawritenya
 "
 }
@@ -591,7 +561,6 @@ MUR
 "
 Rupiya
 ey
-'
 eMawurisyasi
 "
 }
@@ -603,7 +572,6 @@ MWK
 "
 Kwaca
 ey
-'
 eMalawi
 "
 }
@@ -615,7 +583,6 @@ MZM
 "
 Metikaali
 ey
-'
 eMozambiiki
 "
 }
@@ -627,7 +594,6 @@ NGN
 "
 Nayira
 ey
-'
 eNayijerya
 "
 }
@@ -639,7 +605,6 @@ RWF
 "
 Faranga
 ey
-'
 eRwanda
 "
 }
@@ -651,7 +616,6 @@ SAR
 "
 Riyaali
 ey
-'
 eBuwarabu
 "
 }
@@ -663,7 +627,6 @@ SCR
 "
 Rupiya
 ey
-'
 eSesere
 "
 }
@@ -675,7 +638,6 @@ SDG
 "
 Dinaali
 ey
-'
 eSudaani
 "
 }
@@ -687,7 +649,6 @@ SDP
 "
 Pawunda
 ey
-'
 eSudaani
 "
 }
@@ -699,7 +660,6 @@ SHP
 "
 Pawunda
 ey
-'
 eSenti
 Herena
 "
@@ -721,7 +681,6 @@ SOS
 "
 Silingi
 ey
-'
 eSomaliya
 "
 }
@@ -733,7 +692,6 @@ STD
 "
 Dobura
 ey
-'
 eSantome
 ne
 Purincipe
@@ -756,7 +714,6 @@ TND
 "
 Dinaali
 ey
-'
 eTunizya
 "
 }
@@ -768,7 +725,6 @@ TZS
 "
 Silingi
 ey
-'
 eTanzaniya
 "
 }
@@ -791,7 +747,6 @@ US
 "
 Doola
 ey
-'
 Amerika
 "
 }
@@ -829,7 +784,6 @@ ZAR
 "
 Randi
 ey
-'
 eSawusafirika
 "
 }
@@ -841,7 +795,6 @@ ZMK
 "
 Kwaca
 ey
-'
 eZambya
 (
 1968
@@ -857,7 +810,6 @@ ZMW
 "
 Kwaca
 ey
-'
 eZambya
 "
 }
@@ -869,7 +821,6 @@ ZWD
 "
 Doola
 ey
-'
 eZimbabwe
 "
 }
@@ -879,11 +830,11 @@ Version
 "
 2
 .
-0
+1
 .
-92
+7
 .
-87
+39
 "
 }
 }

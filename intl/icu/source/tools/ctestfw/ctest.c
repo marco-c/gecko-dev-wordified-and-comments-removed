@@ -2315,6 +2315,10 @@ udbg_knownIssue_close
 knownList
 )
 ;
+knownList
+=
+NULL
+;
 }
 if
 (
@@ -3167,6 +3171,8 @@ s
 )
 %
 s
+\
+n
 "
 ticket
 buf
@@ -3187,6 +3193,8 @@ s
 )
 %
 s
+\
+n
 "
 ticket
 buf

@@ -100,7 +100,7 @@ COMPILE
 .
 c
 )
-/
+-
 E
 #
 GEN_DEPS
@@ -112,7 +112,7 @@ COMPILE
 .
 cc
 )
-/
+-
 E
 #
 #
@@ -307,20 +307,20 @@ functions
 CFLAGS
 +
 =
-/
+-
 GF
-/
+-
 nologo
 CXXFLAGS
 +
 =
-/
+-
 GF
-/
+-
 nologo
-/
+-
 EHsc
-/
+-
 Zc
 :
 wchar_t
@@ -339,7 +339,7 @@ DCYGWINMSVC
 LDFLAGS
 +
 =
-/
+-
 nologo
 #
 Commands
@@ -361,7 +361,7 @@ DEFS
 (
 CFLAGS
 )
-/
+-
 c
 COMPILE
 .
@@ -379,7 +379,7 @@ DEFS
 (
 CXXFLAGS
 )
-/
+-
 c
 #
 Commands
@@ -392,7 +392,7 @@ c
 LINK
 .
 EXE
-/
+-
 subsystem
 :
 console
@@ -406,7 +406,7 @@ cc
 LINK
 .
 EXE
-/
+-
 subsystem
 :
 console
@@ -428,7 +428,7 @@ c
 LINK
 .
 EXE
-/
+-
 DLL
 (
 LDFLAGS
@@ -440,7 +440,7 @@ cc
 LINK
 .
 EXE
-/
+-
 DLL
 (
 LDFLAGS
@@ -470,7 +470,7 @@ library
 name
 LD_SONAME
 =
-/
+-
 IMPLIB
 :
 (
@@ -512,7 +512,7 @@ output
 name
 OUTOPT
 =
-/
+-
 out
 :
 #
@@ -566,7 +566,7 @@ M
 ARFLAGS
 :
 =
-/
+-
 nologo
 (
 ARFLAGS
@@ -587,7 +587,7 @@ M
 #
 AR_OUTOPT
 =
-/
+-
 OUT
 :
 #
@@ -861,13 +861,13 @@ LDFLAGS
 LDFLAGSICUDT
 +
 =
-/
+-
 base
 :
 "
 0x4ad00000
 "
-/
+-
 NOENTRY
 #
 The
@@ -885,7 +885,7 @@ DLL
 .
 LDFLAGSICUUC
 =
-/
+-
 base
 :
 "
@@ -899,7 +899,7 @@ uc
 1MB
 LDFLAGSICUI18N
 =
-/
+-
 base
 :
 "
@@ -913,7 +913,7 @@ in
 2MB
 LDFLAGSICUIO
 =
-/
+-
 base
 :
 "
@@ -927,7 +927,7 @@ io
 1MB
 LDFLAGSICULE
 =
-/
+-
 base
 :
 "
@@ -941,7 +941,7 @@ le
 512KB
 LDFLAGSICULX
 =
-/
+-
 base
 :
 "
@@ -956,7 +956,7 @@ now
 .
 LDFLAGSICUTOOLUTIL
 =
-/
+-
 base
 :
 "
@@ -1115,7 +1115,7 @@ STATICCPPFLAGS
 (
 STATICCFLAGS
 )
-/
+-
 Fo
 (
 SOURCE_FILE
@@ -1142,7 +1142,7 @@ DYNAMICCPPFLAGS
 (
 DYNAMICCFLAGS
 )
-/
+-
 Fo
 (
 SOURCE_FILE
@@ -1171,7 +1171,7 @@ STATICCPPFLAGS
 (
 STATICCXXFLAGS
 )
-/
+-
 Fo
 (
 SOURCE_FILE
@@ -1198,7 +1198,7 @@ DYNAMICCPPFLAGS
 (
 DYNAMICCXXFLAGS
 )
-/
+-
 Fo
 (
 SOURCE_FILE
@@ -1575,7 +1575,7 @@ rc
 rc
 .
 exe
-/
+-
 fo
 (
 CPPFLAGS

@@ -18,9 +18,6 @@ if
 !
 UCONFIG_NO_FORMATTING
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 include
 "
 unicode
@@ -357,8 +354,6 @@ const
 }
 ;
 U_NAMESPACE_END
-#
-endif
 #
 endif
 #

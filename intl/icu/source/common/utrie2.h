@@ -289,6 +289,7 @@ int32_t
 U_EXPORT2
 utrie2_serialize
 (
+const
 UTrie2
 *
 trie

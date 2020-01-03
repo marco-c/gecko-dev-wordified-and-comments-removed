@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2015
 International
 Business
 Machines
@@ -211,29 +211,6 @@ xml
 *
 *
 *
-/
-*
-*
-*
-ICU
-<
-specials
->
-source
-:
-<
-path
->
-/
-common
-/
-main
-/
-lg
-.
-xml
-*
-/
 lg
 {
 Currencies
@@ -257,7 +234,6 @@ AOA
 "
 Kwanza
 ey
-'
 Angola
 "
 }
@@ -269,7 +245,6 @@ A
 "
 Doola
 ey
-'
 Awusiturelya
 "
 }
@@ -281,7 +256,6 @@ BHD
 "
 Dinaali
 ey
-'
 eBaareeni
 "
 }
@@ -293,7 +267,6 @@ BIF
 "
 Faranga
 ey
-'
 eburundi
 "
 }
@@ -305,7 +278,6 @@ BWP
 "
 Pula
 ey
-'
 eBotiswana
 "
 }
@@ -317,7 +289,6 @@ CA
 "
 Doola
 ey
-'
 eKanada
 "
 }
@@ -329,7 +300,6 @@ CDF
 "
 Faranga
 ey
-'
 eKongo
 "
 }
@@ -341,7 +311,6 @@ CHF
 "
 Faranga
 ey
-'
 eSwitizirandi
 "
 }
@@ -354,7 +323,6 @@ CN
 Yuwani
 Reniminibi
 ey
-'
 eCayina
 "
 }
@@ -366,7 +334,6 @@ CVE
 "
 Esikudo
 ey
-'
 Keepu
 Veredi
 "
@@ -379,7 +346,6 @@ DJF
 "
 Faranga
 ey
-'
 eJjibuti
 "
 }
@@ -391,7 +357,6 @@ DZD
 "
 Dinaali
 ey
-'
 Aligerya
 "
 }
@@ -403,7 +368,6 @@ EGP
 "
 Pawundi
 ey
-'
 eMisiri
 "
 }
@@ -415,7 +379,6 @@ ERN
 "
 Nakifa
 ey
-'
 Eritureya
 "
 }
@@ -427,7 +390,6 @@ ETB
 "
 Biiru
 ey
-'
 Esyopya
 "
 }
@@ -446,7 +408,6 @@ GBP
 "
 Pawundi
 ey
-'
 eBungereza
 "
 }
@@ -458,7 +419,6 @@ GHC
 "
 Sedi
 ey
-'
 eGana
 "
 }
@@ -470,7 +430,6 @@ GMD
 "
 Dalasi
 ey
-'
 eGambya
 "
 }
@@ -482,7 +441,6 @@ GNS
 "
 Faranga
 ey
-'
 eGini
 "
 }
@@ -493,7 +451,6 @@ INR
 "
 Rupiya
 ey
-'
 eBuyindi
 "
 }
@@ -505,7 +462,6 @@ JP
 "
 Yeni
 ey
-'
 eJapani
 "
 }
@@ -517,7 +473,6 @@ KES
 "
 Silingi
 ey
-'
 eKenya
 "
 }
@@ -529,7 +484,6 @@ KMF
 "
 Faranga
 ey
-'
 eKomoro
 "
 }
@@ -541,7 +495,6 @@ LRD
 "
 Doola
 ey
-'
 eLiberya
 "
 }
@@ -553,7 +506,6 @@ LSL
 "
 Loti
 ey
-'
 eLesoso
 "
 }
@@ -565,7 +517,6 @@ LYD
 "
 Dinaali
 ey
-'
 eLibya
 "
 }
@@ -577,7 +528,6 @@ MAD
 "
 Diraamu
 ey
-'
 eMoroko
 "
 }
@@ -589,7 +539,6 @@ MGA
 "
 Faranga
 ey
-'
 eMalagase
 "
 }
@@ -601,7 +550,6 @@ MRO
 "
 Wugwiya
 ey
-'
 eMawritenya
 "
 }
@@ -613,7 +561,6 @@ MUR
 "
 Rupiya
 ey
-'
 eMawurisyasi
 "
 }
@@ -625,7 +572,6 @@ MWK
 "
 Kwaca
 ey
-'
 eMalawi
 "
 }
@@ -637,7 +583,6 @@ MZM
 "
 Metikaali
 ey
-'
 eMozambiiki
 "
 }
@@ -649,7 +594,6 @@ NAD
 "
 Doola
 ey
-'
 eNamibiya
 "
 }
@@ -661,7 +605,6 @@ NGN
 "
 Nayira
 ey
-'
 eNayijerya
 "
 }
@@ -673,7 +616,6 @@ RWF
 "
 Faranga
 ey
-'
 eRwanda
 "
 }
@@ -685,7 +627,6 @@ SAR
 "
 Riyaali
 ey
-'
 eBuwarabu
 "
 }
@@ -697,7 +638,6 @@ SCR
 "
 Rupiya
 ey
-'
 eSesere
 "
 }
@@ -709,7 +649,6 @@ SDG
 "
 Dinaali
 ey
-'
 eSudaani
 "
 }
@@ -721,7 +660,6 @@ SDP
 "
 Pawundi
 ey
-'
 eSudaani
 "
 }
@@ -733,7 +671,6 @@ SHP
 "
 Pawundi
 ey
-'
 eSenti
 Herena
 "
@@ -755,7 +692,6 @@ SOS
 "
 Silingi
 ey
-'
 eSomaliya
 "
 }
@@ -767,7 +703,6 @@ STD
 "
 Dobura
 ey
-'
 eSantome
 ne
 Purincipe
@@ -790,7 +725,6 @@ TND
 "
 Dinaali
 ey
-'
 eTunizya
 "
 }
@@ -802,7 +736,6 @@ TZS
 "
 Silingi
 ey
-'
 eTanzaniya
 "
 }
@@ -825,7 +758,6 @@ US
 "
 Doola
 ey
-'
 Amerika
 "
 }
@@ -837,7 +769,6 @@ FCFA
 "
 Faranga
 ey
-'
 omu
 Afirika
 eya
@@ -852,11 +783,9 @@ CFA
 "
 Faranga
 ey
-'
 omu
 Afirika
 ey
-'
 ebugwanjuba
 "
 }
@@ -868,7 +797,6 @@ ZAR
 "
 Randi
 ey
-'
 eSawusafirika
 "
 }
@@ -880,7 +808,6 @@ ZMK
 "
 Kwaca
 ey
-'
 eZambya
 (
 1968
@@ -896,7 +823,6 @@ ZMW
 "
 Kwaca
 ey
-'
 eZambya
 "
 }
@@ -908,7 +834,6 @@ ZWD
 "
 Doola
 ey
-'
 eZimbabwe
 "
 }
@@ -918,11 +843,11 @@ Version
 "
 2
 .
-0
+1
 .
-92
+7
 .
-87
+39
 "
 }
 }

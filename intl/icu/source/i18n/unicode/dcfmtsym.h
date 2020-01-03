@@ -93,7 +93,17 @@ kSixDigitSymbol
 kSevenDigitSymbol
 kEightDigitSymbol
 kNineDigitSymbol
+#
+ifndef
+U_HIDE_DRAFT_API
+kExponentMultiplicationSymbol
+#
+endif
 kFormatSymbolCount
+=
+kNineDigitSymbol
++
+2
 }
 ;
 DecimalFormatSymbols
@@ -114,9 +124,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 static
 DecimalFormatSymbols
 *
@@ -127,8 +134,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 DecimalFormatSymbols
 (
 const
@@ -303,9 +308,6 @@ setCurrencyForSymbols
 ;
 public
 :
-#
-ifndef
-U_HIDE_INTERNAL_API
 inline
 const
 UnicodeString
@@ -317,6 +319,9 @@ symbol
 )
 const
 ;
+#
+ifndef
+U_HIDE_INTERNAL_API
 inline
 const
 UChar
@@ -420,9 +425,6 @@ return
 strPtr
 ;
 }
-#
-ifndef
-U_HIDE_INTERNAL_API
 inline
 const
 UnicodeString
@@ -471,8 +473,6 @@ return
 strPtr
 ;
 }
-#
-endif
 inline
 void
 DecimalFormatSymbols

@@ -85,7 +85,7 @@ C
 )
 1999
 -
-2011
+2014
 International
 Business
 Machines
@@ -446,6 +446,17 @@ CXX
 \
 "
 "
+CPPFLAGS
++
+=
+-
+DUNISTR_FROM_CHAR_EXPLICIT
+=
+explicit
+-
+DUNISTR_FROM_STRING_EXPLICIT
+=
+explicit
 DEFS
 +
 =
@@ -489,6 +500,9 @@ unewdata
 .
 o
 \
+collationinfo
+.
+o
 denseranges
 .
 o

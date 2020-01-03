@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2015
 International
 Business
 Machines
@@ -211,29 +211,6 @@ xml
 *
 *
 *
-/
-*
-*
-*
-ICU
-<
-specials
->
-source
-:
-<
-path
->
-/
-common
-/
-main
-/
-rn
-.
-xml
-*
-/
 rn
 {
 Currencies
@@ -251,7 +228,6 @@ Leta
 Zunze
 Ubumwe
 z
-'
 Abarabu
 "
 }
@@ -287,7 +263,6 @@ BHD
 "
 Idinari
 ry
-'
 iribahireyini
 "
 }
@@ -299,7 +274,6 @@ FBu
 "
 Ifaranga
 ry
-'
 Uburundi
 "
 }
@@ -345,7 +319,6 @@ CHF
 "
 Ifaranga
 ry
-'
 Ubusuwisi
 "
 }
@@ -506,7 +479,6 @@ JP
 "
 Iyeni
 ry
-'
 Ubuyapani
 "
 }
@@ -671,7 +643,6 @@ RWF
 "
 Ifaranga
 ry
-'
 u
 Rwanda
 "
@@ -801,7 +772,6 @@ UGX
 "
 Ishilingi
 ry
-'
 Ubugande
 "
 }
@@ -813,7 +783,6 @@ US
 "
 Idolari
 ry
-'
 abanyamerika
 "
 }
@@ -828,7 +797,6 @@ ryo
 muri
 Afurika
 y
-'
 Epfo
 "
 }
@@ -878,11 +846,11 @@ Version
 "
 2
 .
-0
+1
 .
-92
+7
 .
-87
+39
 "
 }
 }

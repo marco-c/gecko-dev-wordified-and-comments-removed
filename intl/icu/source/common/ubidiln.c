@@ -168,15 +168,12 @@ start
 &
 DIRPROP_FLAG
 (
-PURE_DIRPROP
-(
 dirProps
 [
 start
 -
 1
 ]
-)
 )
 &
 MASK_WS

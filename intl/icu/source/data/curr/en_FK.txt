@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2015
 International
 Business
 Machines
@@ -218,7 +218,7 @@ en_FK
 Parent
 {
 "
-en_GB
+en_001
 "
 }
 Currencies
@@ -249,11 +249,11 @@ Version
 "
 2
 .
-0
+1
 .
-92
+6
 .
-58
+69
 "
 }
 }

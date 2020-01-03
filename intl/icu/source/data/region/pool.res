@@ -1,7 +1,7 @@
 '
 ResB
-%
-Version
+9
+cVersion
 Countries
 001
 002
@@ -292,7 +292,12 @@ ZA
 ZM
 ZW
 ZZ
-CountriesShort
+Countries
+%
+short
+Countries
+%
+variant
 %
 %
 Parent

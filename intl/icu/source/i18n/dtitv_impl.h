@@ -451,6 +451,15 @@ UChar
 )
 #
 define
+CAP_U
+(
+(
+UChar
+)
+0x0055
+)
+#
+define
 CAP_V
 (
 (

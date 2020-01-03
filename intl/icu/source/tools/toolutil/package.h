@@ -27,7 +27,7 @@ STRING_STORE_SIZE
 #
 define
 MAX_PKG_NAME_LENGTH
-32
+64
 typedef
 void
 CheckDependency

@@ -1304,6 +1304,7 @@ numDigits
 UnicodeString
 &
 appendTo
+const
 wchar_t
 *
 fmt

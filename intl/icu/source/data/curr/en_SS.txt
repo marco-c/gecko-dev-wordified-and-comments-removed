@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2015
 International
 Business
 Machines
@@ -231,7 +231,6 @@ GB
 "
 British
 Pound
-Sterling
 "
 }
 SSP
@@ -250,11 +249,11 @@ Version
 "
 2
 .
-0
+1
 .
-91
+6
 .
-70
+69
 "
 }
 }

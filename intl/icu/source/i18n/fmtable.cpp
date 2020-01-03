@@ -98,11 +98,6 @@ digitlst
 .
 h
 "
-U_NAMESPACE_BEGIN
-UOBJECT_DEFINE_RTTI_IMPLEMENTATION
-(
-Formattable
-)
 #
 include
 "
@@ -110,6 +105,11 @@ fmtableimp
 .
 h
 "
+U_NAMESPACE_BEGIN
+UOBJECT_DEFINE_RTTI_IMPLEMENTATION
+(
+Formattable
+)
 static
 inline
 UBool

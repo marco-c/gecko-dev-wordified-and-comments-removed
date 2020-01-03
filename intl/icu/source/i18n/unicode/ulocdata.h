@@ -61,14 +61,9 @@ ULOCDATA_ES_AUXILIARY
 ULOCDATA_ES_INDEX
 =
 2
-#
-ifndef
-U_HIDE_DRAFT_API
 ULOCDATA_ES_PUNCTUATION
 =
 3
-#
-endif
 ULOCDATA_ES_COUNT
 =
 4
@@ -205,6 +200,7 @@ UMeasurementSystem
 {
 UMS_SI
 UMS_US
+UMS_UK
 UMS_LIMIT
 }
 UMeasurementSystem

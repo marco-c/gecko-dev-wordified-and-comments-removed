@@ -276,9 +276,6 @@ BytesTrie
 kMaxLinearMatchLength
 ;
 }
-#
-ifndef
-U_HIDE_INTERNAL_API
 class
 BTLinearMatchNode
 :
@@ -331,8 +328,6 @@ s
 ;
 }
 ;
-#
-endif
 virtual
 Node
 *

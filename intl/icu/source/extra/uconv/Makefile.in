@@ -90,7 +90,7 @@ C
 )
 1999
 -
-2012
+2014
 International
 Business
 Machines
@@ -438,6 +438,17 @@ srcdir
 .
 /
 toolutil
+CPPFLAGS
++
+=
+-
+DUNISTR_FROM_CHAR_EXPLICIT
+=
+explicit
+-
+DUNISTR_FROM_STRING_EXPLICIT
+=
+explicit
 LIBS
 =
 (
