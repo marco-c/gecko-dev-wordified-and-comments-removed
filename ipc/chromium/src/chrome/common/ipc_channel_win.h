@@ -214,6 +214,9 @@ std
 wstring
 &
 channel_id
+int32_t
+*
+secret
 )
 const
 ;
@@ -367,6 +370,12 @@ ScopedRunnableMethodFactory
 ChannelImpl
 >
 factory_
+;
+int32_t
+shared_secret_
+;
+bool
+waiting_for_shared_secret_
 ;
 mozilla
 :
