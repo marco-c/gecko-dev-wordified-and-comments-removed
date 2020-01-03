@@ -1993,17 +1993,6 @@ OnSysColorChanged
 (
 )
 ;
-nsEventStatus
-MaybeDispatchAsyncWheelEvent
-(
-mozilla
-:
-:
-WidgetGUIEvent
-*
-aEvent
-)
-;
 void
 UserActivity
 (
