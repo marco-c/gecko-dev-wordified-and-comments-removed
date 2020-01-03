@@ -1573,7 +1573,12 @@ Content
 )
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 ;

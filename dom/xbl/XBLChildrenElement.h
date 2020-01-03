@@ -497,7 +497,12 @@ Contains
 aChild
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 )
