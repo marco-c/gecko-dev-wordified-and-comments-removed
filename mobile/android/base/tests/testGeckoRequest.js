@@ -54,7 +54,7 @@ add_request_listener
 message
 )
 {
-RequestService
+Messaging
 .
 addListener
 (
@@ -85,7 +85,7 @@ add_exception_listener
 message
 )
 {
-RequestService
+Messaging
 .
 addListener
 (
@@ -118,7 +118,7 @@ false
 ;
 try
 {
-RequestService
+Messaging
 .
 addListener
 (
@@ -154,7 +154,7 @@ remove_request_listener
 message
 )
 {
-RequestService
+Messaging
 .
 removeListener
 (
