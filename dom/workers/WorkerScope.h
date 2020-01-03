@@ -294,6 +294,9 @@ Close
 JSContext
 *
 aCx
+ErrorResult
+&
+aRv
 )
 ;
 OnErrorEventHandlerNonNull
@@ -803,13 +806,6 @@ aScope
 =
 mScope
 ;
-}
-void
-Close
-(
-)
-const
-{
 }
 void
 Update

@@ -200,6 +200,9 @@ attribute
 WorkerLocation
 location
 ;
+[
+Throws
+]
 void
 close
 (
