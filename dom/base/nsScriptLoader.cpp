@@ -5174,6 +5174,9 @@ return
 NS_OK
 ;
 }
+nsAutoMicroTask
+mt
+;
 AutoEntryScript
 entryScript
 (

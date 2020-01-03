@@ -50839,6 +50839,9 @@ filename
 lineNo
 )
 ;
+nsAutoMicroTask
+mt
+;
 AutoEntryScript
 entryScript
 (

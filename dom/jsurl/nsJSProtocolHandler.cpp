@@ -1086,6 +1086,9 @@ rv
 return
 rv
 ;
+nsAutoMicroTask
+mt
+;
 AutoEntryScript
 entryScript
 (
