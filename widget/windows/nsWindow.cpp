@@ -14363,6 +14363,9 @@ result
 }
 if
 (
+mTouchWindow
+&
+&
 WinUtils
 :
 :
@@ -14370,9 +14373,6 @@ GetIsMouseFromTouch
 (
 aEventType
 )
-&
-&
-mTouchWindow
 )
 {
 MOZ_ASSERT
@@ -14386,12 +14386,6 @@ result
 }
 if
 (
-NS_MOUSE_MOVE
-!
-=
-aEventType
-&
-&
 nsIDOMMouseEvent
 :
 :
@@ -14416,12 +14410,6 @@ gfxPrefs
 PointerEventsEnabled
 (
 )
-&
-&
-NS_MOUSE_EXIT_WIDGET
-!
-=
-aEventType
 )
 {
 InkCollector
