@@ -345,6 +345,7 @@ itemType
 parentId
 guid
 parentGuid
+oldVal
 )
 =
 >
@@ -746,6 +747,8 @@ guid
 bookmark
 .
 parentGuid
+"
+"
 ]
 }
 ]
@@ -1060,6 +1063,8 @@ guid
 bookmark1
 .
 parentGuid
+"
+"
 ]
 }
 {
@@ -1102,6 +1107,8 @@ guid
 bookmark2
 .
 parentGuid
+"
+"
 ]
 }
 ]
@@ -1342,6 +1349,8 @@ bookmarks
 ]
 .
 parentGuid
+"
+"
 ]
 }
 {
@@ -1412,6 +1421,8 @@ bookmarks
 ]
 .
 parentGuid
+"
+"
 ]
 }
 ]
@@ -1710,6 +1721,8 @@ bookmarks
 ]
 .
 parentGuid
+"
+"
 ]
 }
 {
@@ -1779,6 +1792,8 @@ bookmarks
 ]
 .
 parentGuid
+"
+"
 ]
 }
 {
@@ -1848,6 +1863,8 @@ bookmarks
 ]
 .
 parentGuid
+"
+"
 ]
 }
 ]
@@ -2027,6 +2044,8 @@ guid
 bookmark
 .
 parentGuid
+"
+"
 ]
 }
 ]
