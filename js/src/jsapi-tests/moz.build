@@ -524,6 +524,11 @@ testJitMoveEmitterCycles
 cpp
 '
 '
+testJitRangeAnalysis
+.
+cpp
+'
+'
 testJitRValueAlloc
 .
 cpp
