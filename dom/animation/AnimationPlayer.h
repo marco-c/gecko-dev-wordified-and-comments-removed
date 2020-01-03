@@ -582,6 +582,12 @@ CancelPendingPlay
 (
 )
 ;
+bool
+IsPossiblyOrphanedPendingPlayer
+(
+)
+const
+;
 StickyTimeDuration
 SourceContentEnd
 (
