@@ -113,11 +113,6 @@ TestMustOverride
 cpp
 '
 '
-TestNoArithmeticExprInArgument
-.
-cpp
-'
-'
 TestNonHeapClass
 .
 cpp
