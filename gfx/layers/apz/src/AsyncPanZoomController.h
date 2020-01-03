@@ -870,6 +870,13 @@ GetFrameMetrics
 )
 const
 ;
+APZCTreeManager
+*
+GetApzcTreeManager
+(
+)
+const
+;
 void
 FireAsyncScrollOnTimeout
 (
