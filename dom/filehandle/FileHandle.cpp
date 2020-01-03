@@ -2453,8 +2453,6 @@ nsIInputStream
 >
 stream
 ;
-aRv
-=
 file
 .
 GetInternalStream
@@ -2463,14 +2461,18 @@ getter_AddRefs
 (
 stream
 )
+aRv
 )
 ;
 if
+(
+NS_WARN_IF
 (
 aRv
 .
 Failed
 (
+)
 )
 )
 {

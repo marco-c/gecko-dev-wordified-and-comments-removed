@@ -328,13 +328,16 @@ mLength
 ;
 }
 virtual
-nsresult
+void
 GetInternalStream
 (
 nsIInputStream
 *
 *
 aInputStream
+ErrorResult
+&
+aRv
 )
 override
 ;

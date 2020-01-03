@@ -497,7 +497,7 @@ aRv
 nsresult
 GetAsText
 (
-nsIDOMBlob
+Blob
 *
 aBlob
 const
@@ -518,7 +518,7 @@ aResult
 nsresult
 GetAsDataURL
 (
-nsIDOMBlob
+Blob
 *
 aBlob
 const
@@ -555,9 +555,9 @@ char
 *
 mFileData
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMBlob
+Blob
 >
 mBlob
 ;
