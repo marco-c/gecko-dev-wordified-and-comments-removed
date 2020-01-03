@@ -876,12 +876,12 @@ halfSize
 =
 0
 ;
-AlignedAudioFloatArray
+AudioFloatArray
 *
 table
 =
 new
-AlignedAudioFloatArray
+AudioFloatArray
 (
 m_periodicWaveSize
 )

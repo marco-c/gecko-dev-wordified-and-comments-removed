@@ -32,13 +32,6 @@ h
 #
 include
 "
-AlignedTArray
-.
-h
-"
-#
-include
-"
 mozilla
 /
 MemoryReporting
@@ -48,13 +41,6 @@ h
 namespace
 WebCore
 {
-typedef
-AlignedTArray
-<
-float
->
-AlignedAudioFloatArray
-;
 typedef
 nsTArray
 <
@@ -262,7 +248,7 @@ nsTArray
 <
 nsAutoPtr
 <
-AlignedAudioFloatArray
+AudioFloatArray
 >
 >
 m_bandLimitedTables

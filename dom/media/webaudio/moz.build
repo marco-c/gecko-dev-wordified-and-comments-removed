@@ -178,11 +178,6 @@ EXPORTS
 =
 [
 '
-AlignedTArray
-.
-h
-'
-'
 AudioContext
 .
 h
