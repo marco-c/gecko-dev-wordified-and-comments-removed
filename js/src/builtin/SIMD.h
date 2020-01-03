@@ -2180,6 +2180,11 @@ _
 (
 neg
 )
+\
+_
+(
+check
+)
 #
 define
 FOREACH_COMMONX4_SIMD_OP
@@ -2245,11 +2250,6 @@ storeXY
 _
 (
 storeXYZ
-)
-\
-_
-(
-check
 )
 #
 define
