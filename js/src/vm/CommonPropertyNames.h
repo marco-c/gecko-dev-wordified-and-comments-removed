@@ -623,6 +623,15 @@ float64
 \
 macro
 (
+float64x2
+float64x2
+"
+float64x2
+"
+)
+\
+macro
+(
 forceInterpreter
 forceInterpreter
 "
