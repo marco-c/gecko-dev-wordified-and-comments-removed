@@ -1553,7 +1553,12 @@ lineWM
 .
 PhysicalSide
 (
+lineWM
+.
+LogicalSideForLineRelativeDir
+(
 eLineRelativeDirOver
+)
 )
 )
 ;
@@ -1575,7 +1580,12 @@ lineWM
 .
 PhysicalSide
 (
+lineWM
+.
+LogicalSideForLineRelativeDir
+(
 eLineRelativeDirUnder
+)
 )
 )
 ;
