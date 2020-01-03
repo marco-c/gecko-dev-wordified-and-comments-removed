@@ -247,8 +247,6 @@ attributesRef
 (
 )
 =
-JSPROP_READONLY
-|
 JSPROP_ENUMERATE
 ;
 desc
