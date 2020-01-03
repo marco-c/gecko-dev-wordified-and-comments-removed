@@ -2712,7 +2712,7 @@ onget
 return
 this
 .
-contentDocumentAsCPOW
+contentDocument
 .
 nodePrincipal
 ;

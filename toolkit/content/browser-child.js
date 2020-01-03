@@ -543,6 +543,16 @@ docShell
 .
 mayEnableCharacterEncodingMenu
 ;
+json
+.
+principal
+=
+content
+.
+document
+.
+nodePrincipal
+;
 }
 sendAsyncMessage
 (

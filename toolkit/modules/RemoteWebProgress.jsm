@@ -931,6 +931,16 @@ json
 .
 mayEnableCharacterEncodingMenu
 ;
+this
+.
+_browser
+.
+_contentPrincipal
+=
+json
+.
+principal
+;
 }
 this
 .
