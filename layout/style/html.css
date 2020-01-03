@@ -3522,15 +3522,6 @@ binding
 none
 ;
 }
-supports
-(
-object
--
-fit
-:
-contain
-)
-{
 video
 {
 object
@@ -3539,7 +3530,6 @@ fit
 :
 contain
 ;
-}
 }
 audio
 :
