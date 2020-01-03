@@ -449,12 +449,6 @@ protocol
 /
 viewsource
 '
-'
-/
-tools
-/
-profiler
-'
 ]
 if
 CONFIG

@@ -484,12 +484,6 @@ LOCAL_INCLUDES
 [
 '
 /
-docshell
-/
-base
-'
-'
-/
 ipc
 /
 chromium
