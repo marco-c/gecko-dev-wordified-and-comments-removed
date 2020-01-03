@@ -1034,8 +1034,10 @@ ProxyDestroyed
 this
 )
 ;
+if
+(
 mParentDoc
-?
+)
 mParentDoc
 -
 >
@@ -1043,7 +1045,14 @@ RemoveChildDoc
 (
 this
 )
-:
+;
+else
+if
+(
+IsTopLevel
+(
+)
+)
 GetAccService
 (
 )

@@ -5142,6 +5142,13 @@ MOZ_ASSERT
 aParentID
 )
 ;
+doc
+-
+>
+SetTopLevel
+(
+)
+;
 a11y
 :
 :
