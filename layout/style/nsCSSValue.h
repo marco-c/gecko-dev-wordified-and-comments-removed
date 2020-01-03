@@ -362,6 +362,8 @@ protected
 URLValue
 (
 )
+{
+}
 ;
 public
 :
@@ -416,8 +418,10 @@ mURI
 ;
 public
 :
+nsRefPtr
+<
 nsStringBuffer
-*
+>
 mString
 ;
 nsCOMPtr
