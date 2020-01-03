@@ -392,7 +392,7 @@ l10n
 lookupFormat
 (
 "
-toolsSrcdirReloaded
+toolsSrcdirReloaded2
 "
 [
 args
@@ -408,7 +408,7 @@ l10n
 lookupFormat
 (
 "
-toolsSrcdirNotFound
+toolsSrcdirNotFound2
 "
 [
 args
