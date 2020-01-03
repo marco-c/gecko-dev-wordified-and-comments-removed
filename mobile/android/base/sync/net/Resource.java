@@ -76,6 +76,15 @@ body
 public
 abstract
 void
+patch
+(
+HttpEntity
+body
+)
+;
+public
+abstract
+void
 put
 (
 HttpEntity
