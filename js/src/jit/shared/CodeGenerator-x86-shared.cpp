@@ -2592,6 +2592,12 @@ if
 addOutOfLineCode
 (
 ool
+new
+(
+alloc
+(
+)
+)
 BytecodeSite
 (
 tree

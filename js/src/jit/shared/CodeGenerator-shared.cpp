@@ -712,7 +712,7 @@ OutOfLineCode
 code
 const
 BytecodeSite
-&
+*
 site
 )
 {
@@ -781,7 +781,7 @@ addNativeToBytecodeEntry
 (
 const
 BytecodeSite
-&
+*
 site
 )
 {
@@ -798,7 +798,13 @@ true
 MOZ_ASSERT
 (
 site
-.
+)
+;
+MOZ_ASSERT
+(
+site
+-
+>
 tree
 (
 )
@@ -807,7 +813,8 @@ tree
 MOZ_ASSERT
 (
 site
-.
+-
+>
 pc
 (
 )
@@ -818,7 +825,8 @@ InlineScriptTree
 tree
 =
 site
-.
+-
+>
 tree
 (
 )
@@ -828,7 +836,8 @@ jsbytecode
 pc
 =
 site
-.
+-
+>
 pc
 (
 )

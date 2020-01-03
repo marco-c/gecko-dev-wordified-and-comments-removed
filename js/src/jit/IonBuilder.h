@@ -4489,6 +4489,7 @@ uint32_t
 loopDepth_
 ;
 BytecodeSite
+*
 bytecodeSite
 (
 jsbytecode
@@ -4519,6 +4520,12 @@ pc
 )
 ;
 return
+new
+(
+alloc
+(
+)
+)
 BytecodeSite
 (
 info
