@@ -386,6 +386,15 @@ pref_import_android
 "
 android
 :
+summary
+=
+"
+string
+/
+pref_import_android_summary
+"
+android
+:
 positiveButtonText
 =
 "
