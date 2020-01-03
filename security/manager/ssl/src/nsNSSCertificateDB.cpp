@@ -4121,6 +4121,11 @@ nsIX509Cert
 aCert
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aCert
+)
+;
 nsNSSShutDownPreventionLock
 locker
 ;
@@ -4276,6 +4281,11 @@ uint32_t
 trusted
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+cert
+)
+;
 nsNSSShutDownPreventionLock
 locker
 ;
