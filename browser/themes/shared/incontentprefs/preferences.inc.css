@@ -1568,13 +1568,11 @@ shadow
 :
 none
 ;
-padding
-:
-0
-;
-min
--
 height
+:
+18px
+;
+padding
 :
 0
 ;
@@ -1582,7 +1580,7 @@ min
 -
 width
 :
-0
+18px
 ;
 }
 #

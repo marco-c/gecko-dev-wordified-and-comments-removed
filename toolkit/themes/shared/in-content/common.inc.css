@@ -1268,8 +1268,6 @@ appearance
 :
 none
 ;
-min
--
 height
 :
 30px
@@ -1288,6 +1286,12 @@ text
 -
 color
 )
+;
+line
+-
+height
+:
+20px
 ;
 border
 :
