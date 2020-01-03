@@ -274,8 +274,8 @@ int32_t
 aTextLength
 nsCharType
 aCharType
-bool
-aIsOddLevel
+nsBidiDirection
+aDir
 )
 ;
 static

@@ -19,6 +19,13 @@ nsStyleContext
 h
 "
 #
+include
+"
+nsBidiUtils
+.
+h
+"
+#
 ifndef
 RELEASE_BUILD
 #
@@ -879,9 +886,10 @@ level
 {
 if
 (
+IS_LEVEL_RTL
+(
 level
-&
-1
+)
 )
 {
 mWritingMode

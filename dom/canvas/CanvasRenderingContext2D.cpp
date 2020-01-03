@@ -15595,8 +15595,9 @@ mTextRunFlags
 if
 (
 direction
-&
-1
+=
+=
+NSBIDI_RTL
 )
 {
 flags
