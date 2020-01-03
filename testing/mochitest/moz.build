@@ -499,6 +499,11 @@ redirect
 html
 '
 '
+runrobocop
+.
+py
+'
+'
 runtests
 .
 py
