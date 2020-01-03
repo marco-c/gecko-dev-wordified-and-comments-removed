@@ -568,6 +568,10 @@ refreshDrawableState
 (
 )
 ;
+invalidate
+(
+)
+;
 }
 }
 public
@@ -632,6 +636,10 @@ refreshDrawableState
 (
 )
 ;
+invalidate
+(
+)
+;
 }
 }
 public
@@ -657,6 +665,10 @@ mIsDark
 false
 ;
 refreshDrawableState
+(
+)
+;
+invalidate
 (
 )
 ;
