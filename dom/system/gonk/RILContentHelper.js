@@ -1467,11 +1467,9 @@ clientId
 {
 cardState
 :
-Ci
+RIL
 .
-nsIIccProvider
-.
-CARD_STATE_UNKNOWN
+GECKO_CARDSTATE_UNKNOWN
 iccInfo
 :
 null

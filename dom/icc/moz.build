@@ -120,16 +120,6 @@ IccManager
 h
 '
 ]
-UNIFIED_SOURCES
-+
-=
-[
-'
-Assertions
-.
-cpp
-'
-]
 SOURCES
 +
 =
