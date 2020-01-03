@@ -71,6 +71,9 @@ IPCMessageUtils
 h
 "
 ;
+include
+PBackgroundSharedTypes
+;
 namespace
 mozilla
 {
@@ -229,6 +232,17 @@ trip
 .
 }
 ;
+struct
+HostObjectURIParams
+{
+SimpleURIParams
+simpleParams
+;
+OptionalPrincipalInfo
+principal
+;
+}
+;
 union
 URIParams
 {
@@ -245,6 +259,8 @@ NullPrincipalURIParams
 JSURIParams
 ;
 SimpleNestedURIParams
+;
+HostObjectURIParams
 ;
 }
 ;

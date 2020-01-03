@@ -55,6 +55,13 @@ nsSimpleURI
 .
 h
 "
+#
+include
+"
+nsIIPCSerializableURI
+.
+h
+"
 class
 nsHostObjectURI
 :
@@ -95,6 +102,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIURIWITHPRINCIPAL
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
+NS_DECL_NSIIPCSERIALIZABLEURI
 virtual
 nsresult
 CloneInternal
