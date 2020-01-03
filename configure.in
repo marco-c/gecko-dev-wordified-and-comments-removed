@@ -3114,6 +3114,12 @@ WINDRES
 windres
 :
 )
+AC_CHECK_PROGS
+(
+OTOOL
+otool
+:
+)
 if
 test
 -
@@ -62194,7 +62200,9 @@ dnl
 -
 both
 if
-otool
+"
+OTOOL
+"
 -
 l
 conftest
@@ -62227,7 +62235,9 @@ _CLASSIC_INFO
 1
 fi
 if
-otool
+"
+OTOOL
+"
 -
 l
 conftest

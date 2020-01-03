@@ -6,6 +6,10 @@ import
 subprocess
 import
 shutil
+from
+buildconfig
+import
+substs
 '
 '
 '
@@ -132,9 +136,12 @@ subprocess
 check_output
 (
 [
+substs
+[
 '
-otool
+OTOOL
 '
+]
 '
 -
 L

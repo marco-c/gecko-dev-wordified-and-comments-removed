@@ -348,6 +348,11 @@ STRIP
 "
 strip
 "
+OTOOL
+=
+"
+otool
+"
 #
 Each
 per
@@ -405,5 +410,6 @@ AR
 AS
 LD
 STRIP
+OTOOL
 fi
 fi
