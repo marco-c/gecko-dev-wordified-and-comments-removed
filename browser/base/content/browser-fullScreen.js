@@ -534,6 +534,13 @@ cleanup
 (
 )
 ;
+TabsInTitlebar
+.
+updateAppearance
+(
+true
+)
+;
 }
 }
 exitDomFullScreen
