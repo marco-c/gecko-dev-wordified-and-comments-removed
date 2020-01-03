@@ -3261,6 +3261,9 @@ TypeSet
 :
 print
 (
+FILE
+*
+fp
 )
 {
 if
@@ -3271,7 +3274,7 @@ TYPE_FLAG_NON_DATA_PROPERTY
 )
 fprintf
 (
-stderr
+fp
 "
 [
 non
@@ -3289,7 +3292,7 @@ TYPE_FLAG_NON_WRITABLE_PROPERTY
 )
 fprintf
 (
-stderr
+fp
 "
 [
 non
@@ -3307,7 +3310,7 @@ definiteProperty
 )
 fprintf
 (
-stderr
+fp
 "
 [
 definite
@@ -3339,7 +3342,7 @@ baseObjectCount
 {
 fprintf
 (
-stderr
+fp
 "
 missing
 "
@@ -3356,7 +3359,7 @@ TYPE_FLAG_UNKNOWN
 )
 fprintf
 (
-stderr
+fp
 "
 unknown
 "
@@ -3370,7 +3373,7 @@ TYPE_FLAG_ANYOBJECT
 )
 fprintf
 (
-stderr
+fp
 "
 object
 "
@@ -3384,7 +3387,7 @@ TYPE_FLAG_UNDEFINED
 )
 fprintf
 (
-stderr
+fp
 "
 void
 "
@@ -3398,7 +3401,7 @@ TYPE_FLAG_NULL
 )
 fprintf
 (
-stderr
+fp
 "
 null
 "
@@ -3412,7 +3415,7 @@ TYPE_FLAG_BOOLEAN
 )
 fprintf
 (
-stderr
+fp
 "
 bool
 "
@@ -3426,7 +3429,7 @@ TYPE_FLAG_INT32
 )
 fprintf
 (
-stderr
+fp
 "
 int
 "
@@ -3440,7 +3443,7 @@ TYPE_FLAG_DOUBLE
 )
 fprintf
 (
-stderr
+fp
 "
 float
 "
@@ -3454,7 +3457,7 @@ TYPE_FLAG_STRING
 )
 fprintf
 (
-stderr
+fp
 "
 string
 "
@@ -3468,7 +3471,7 @@ TYPE_FLAG_SYMBOL
 )
 fprintf
 (
-stderr
+fp
 "
 symbol
 "
@@ -3482,7 +3485,7 @@ TYPE_FLAG_LAZYARGS
 )
 fprintf
 (
-stderr
+fp
 "
 lazyargs
 "
@@ -3502,7 +3505,7 @@ objectCount
 {
 fprintf
 (
-stderr
+fp
 "
 object
 [
@@ -3551,7 +3554,7 @@ key
 )
 fprintf
 (
-stderr
+fp
 "
 %
 s

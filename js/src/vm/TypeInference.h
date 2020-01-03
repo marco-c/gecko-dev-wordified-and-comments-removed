@@ -1184,6 +1184,11 @@ nullptr
 void
 print
 (
+FILE
+*
+fp
+=
+stderr
 )
 ;
 inline
