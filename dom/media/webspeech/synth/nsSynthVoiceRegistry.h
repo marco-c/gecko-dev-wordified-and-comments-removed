@@ -32,6 +32,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+MediaStreamGraph
+.
+h
+"
 class
 nsISpeechService
 ;
@@ -270,6 +277,12 @@ mUriVoiceMap
 SpeechSynthesisChild
 *
 mSpeechSynthChild
+;
+nsRefPtr
+<
+ProcessedMediaStream
+>
+mStream
 ;
 }
 ;
