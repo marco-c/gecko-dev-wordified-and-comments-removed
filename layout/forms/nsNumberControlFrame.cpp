@@ -662,7 +662,7 @@ aReflowState
 )
 ;
 WritingMode
-wm
+wrapperWM
 =
 outerWrapperFrame
 -
@@ -678,14 +678,14 @@ aReflowState
 .
 ComputedSize
 (
-wm
+wrapperWM
 )
 ;
 availSize
 .
 BSize
 (
-wm
+wrapperWM
 )
 =
 NS_UNCONSTRAINEDSIZE
