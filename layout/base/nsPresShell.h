@@ -946,6 +946,10 @@ aDontRetargetEvents
 nsEventStatus
 *
 aEventStatus
+nsIContent
+*
+*
+aTargetContent
 )
 override
 ;
@@ -3280,6 +3284,12 @@ mContentToScrollTo
 ;
 nscoord
 mLastAnchorScrollPositionY
+;
+nsCOMPtr
+<
+nsIContent
+>
+mPointerEventTarget
 ;
 uint16_t
 mChangeNestCount

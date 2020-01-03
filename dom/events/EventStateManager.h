@@ -246,6 +246,9 @@ aEvent
 nsIFrame
 *
 aTargetFrame
+nsIContent
+*
+aTargetContent
 nsEventStatus
 *
 aStatus
