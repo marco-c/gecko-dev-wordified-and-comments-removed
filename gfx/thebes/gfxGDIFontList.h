@@ -1176,6 +1176,11 @@ const
 nsAString
 &
 aFamily
+nsIAtom
+*
+aLanguage
+=
+nullptr
 bool
 aUseSystemFonts
 =
