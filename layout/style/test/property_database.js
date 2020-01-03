@@ -12596,11 +12596,6 @@ border
 -
 box
 "
-"
-padding
--
-box
-"
 ]
 invalid_values
 :
@@ -12675,11 +12670,6 @@ other_values
 [
 "
 border
--
-box
-"
-"
-padding
 -
 box
 "
