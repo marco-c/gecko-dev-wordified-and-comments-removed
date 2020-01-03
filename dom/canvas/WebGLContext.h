@@ -1107,6 +1107,17 @@ GLenum
 glenum
 )
 ;
+static
+void
+EnumName
+(
+GLenum
+glenum
+nsACString
+*
+out_name
+)
+;
 bool
 IsCompressedTextureFormat
 (
