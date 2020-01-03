@@ -632,7 +632,7 @@ of
 async
 scrolling
 .
-async
+sync
 SetAsyncScrollOffset
 (
 ViewID
