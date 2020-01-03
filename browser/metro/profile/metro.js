@@ -316,6 +316,16 @@ pref
 "
 apz
 .
+smooth_scroll_repaint_interval
+"
+50
+)
+;
+pref
+(
+"
+apz
+.
 fling_stopped_threshold
 "
 "

@@ -513,6 +513,7 @@ CROSS_SLIDING_Y
 PINCHING
 ANIMATING_ZOOM
 SNAP_BACK
+SMOOTH_SCROLL
 }
 ;
 ~
@@ -1165,6 +1166,10 @@ friend
 class
 OverscrollSnapBackAnimation
 ;
+friend
+class
+SmoothScrollAnimation
+;
 ScreenPoint
 mLastFlingVelocity
 ;
@@ -1186,6 +1191,15 @@ OverscrollHandoffChain
 >
 &
 aOverscrollHandoffChain
+)
+;
+void
+HandleSmoothScrollOverscroll
+(
+const
+ScreenPoint
+&
+aVelocity
 )
 ;
 void
@@ -1211,6 +1225,11 @@ aAllowOverscroll
 ;
 void
 StartSnapBack
+(
+)
+;
+void
+StartSmoothScroll
 (
 )
 ;
