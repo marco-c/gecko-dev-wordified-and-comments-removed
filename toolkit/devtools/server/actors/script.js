@@ -11435,19 +11435,6 @@ condition
 )
 {
 return
-resolve
-(
-null
-)
-.
-then
-(
-(
-)
-=
->
-{
-return
 this
 .
 setBreakpoint
@@ -11465,9 +11452,6 @@ loc
 column
 }
 condition
-)
-;
-}
 )
 .
 then
@@ -12091,6 +12075,10 @@ length
 )
 {
 return
+Promise
+.
+resolve
+(
 {
 actor
 :
@@ -12098,6 +12086,8 @@ actor
 .
 actorID
 }
+)
+;
 }
 scripts
 =
@@ -12127,6 +12117,10 @@ column
 )
 {
 return
+Promise
+.
+resolve
+(
 this
 .
 _setBreakpointAtColumn
@@ -12134,6 +12128,7 @@ _setBreakpointAtColumn
 scripts
 location
 actor
+)
 )
 ;
 }
@@ -12205,6 +12200,10 @@ result
 )
 {
 return
+Promise
+.
+resolve
+(
 {
 error
 :
@@ -12217,6 +12216,7 @@ actor
 .
 actorID
 }
+)
 ;
 }
 const
@@ -12285,6 +12285,10 @@ location
 )
 ;
 return
+Promise
+.
+resolve
+(
 {
 actor
 :
@@ -12293,6 +12297,7 @@ existingActor
 actorID
 actualLocation
 }
+)
 ;
 }
 else
@@ -12349,6 +12354,10 @@ entryPoints
 )
 ;
 return
+Promise
+.
+resolve
+(
 {
 actor
 :
@@ -12357,6 +12366,7 @@ actor
 actorID
 actualLocation
 }
+)
 ;
 }
 _findClosestOffsetMappings
