@@ -3031,15 +3031,12 @@ endif
 oncommand
 =
 "
-window
-.
-pktUI
-.
-openTabWithUrl
+openUILink
 (
 Pocket
 .
 listURL
+event
 )
 ;
 "
