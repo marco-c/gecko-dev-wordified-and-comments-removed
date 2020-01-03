@@ -94,6 +94,7 @@ Menu
 ;
 ok
 (
+!
 cutButton
 .
 hasAttribute
@@ -106,7 +107,7 @@ disabled
 Cut
 button
 is
-disabled
+enabled
 "
 )
 ;
