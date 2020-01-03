@@ -12267,6 +12267,11 @@ if
 options
 .
 browserChrome
+and
+not
+options
+.
+subsuite
 :
       
 options
