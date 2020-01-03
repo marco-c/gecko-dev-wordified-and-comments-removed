@@ -13733,11 +13733,6 @@ nsIDOMEvent
 aEvent
 )
 {
-MOZ_ASSERT
-(
-mFrameElement
-)
-;
 nsAutoString
 eventType
 ;
