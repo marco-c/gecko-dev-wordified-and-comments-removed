@@ -3902,6 +3902,12 @@ _buildPickerButton
 )
 ;
 }
+this
+.
+setToolboxButtonsVisibility
+(
+)
+;
 const
 options
 =
