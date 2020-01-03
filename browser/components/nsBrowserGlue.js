@@ -13974,7 +13974,7 @@ brandShortName
 )
 ;
 let
-dontAskLabel
+askLabel
 =
 shellBundle
 .
@@ -13996,12 +13996,12 @@ Services
 prompt
 ;
 let
-dontAsk
+shouldAsk
 =
 {
 value
 :
-false
+true
 }
 ;
 let
@@ -14045,8 +14045,8 @@ buttonFlags
 yesButton
 notNowButton
 null
-dontAskLabel
-dontAsk
+askLabel
+shouldAsk
 )
 ;
 if
@@ -14067,7 +14067,8 @@ setAsDefault
 else
 if
 (
-dontAsk
+!
+shouldAsk
 .
 value
 )
