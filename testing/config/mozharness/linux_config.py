@@ -115,7 +115,9 @@ tinderbox
 "
 -
 -
-tbpl
+jitflags
+=
+all
 "
             
 ]

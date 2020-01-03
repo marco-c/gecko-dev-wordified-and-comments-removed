@@ -2195,7 +2195,9 @@ slow
 '
 -
 -
-tbpl
+jitflags
+=
+all
 '
 ]
         
@@ -2268,7 +2270,9 @@ js
 '
 -
 -
-tbpl
+jitflags
+=
+all
 '
 ]
         

@@ -1123,7 +1123,9 @@ JSTESTS_EXTRA_ARGS
 =
 -
 -
-tbpl
+jitflags
+=
+all
 elif
 [
 [
@@ -1163,8 +1165,8 @@ JSTESTS_EXTRA_ARGS
 =
 -
 -
-tbpl
--
+jitflags
+=
 debug
 fi
 COMMAND_PREFIX
