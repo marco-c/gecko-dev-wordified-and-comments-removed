@@ -1388,7 +1388,7 @@ cx
 if
 (
 !
-StringifySavedFrameStack
+BuildStackString
 (
 cx
 stack

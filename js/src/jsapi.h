@@ -20110,7 +20110,7 @@ JS_PUBLIC_API
 (
 bool
 )
-StringifySavedFrameStack
+BuildStackString
 (
 JSContext
 *
