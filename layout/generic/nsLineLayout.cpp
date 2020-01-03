@@ -1130,12 +1130,12 @@ HasPercent
 {
 pctBasis
 =
-nsHTMLReflowState
-:
-:
-GetContainingBlockContentWidth
-(
 mBlockReflowState
+-
+>
+GetContainingBlockContentISize
+(
+aWritingMode
 )
 ;
 }
