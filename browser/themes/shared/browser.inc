@@ -220,6 +220,10 @@ button
 webide
 -
 button
+#
+loop
+-
+button
 %
 ifdef
 XP_MACOSX
