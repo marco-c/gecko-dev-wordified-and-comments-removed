@@ -5549,6 +5549,16 @@ finish
 (
 )
 ;
+allocTask
+.
+cancel
+(
+GCParallelTask
+:
+:
+CancelAndWait
+)
+;
 #
 ifdef
 JS_GC_ZEAL
@@ -13597,7 +13607,7 @@ rt
 >
 gc
 .
-waitBackgroundSweepEnd
+waitBackgroundSweepOrAllocEnd
 (
 )
 ;
