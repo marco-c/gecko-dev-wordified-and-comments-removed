@@ -7386,10 +7386,10 @@ ImmWord
 Address
 (
 obj
-UnboxedPlainObject
+JSObject
 :
 :
-offsetOfExpando
+offsetOfShape
 (
 )
 )
