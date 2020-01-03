@@ -1,8 +1,0 @@
-platform
-.
-value
-=
-"
-macintosh
-"
-;
