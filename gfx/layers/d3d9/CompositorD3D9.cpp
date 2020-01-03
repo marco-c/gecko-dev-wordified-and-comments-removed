@@ -1235,6 +1235,13 @@ gfx
 Matrix4x4
 &
 aTransform
+const
+gfx
+:
+:
+Rect
+&
+aVisibleRect
 )
 {
 if
