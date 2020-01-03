@@ -17041,7 +17041,7 @@ cloning
 )
 ;
 return
-false
+nullptr
 ;
 }
 clone
