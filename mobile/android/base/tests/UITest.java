@@ -397,7 +397,7 @@ mSolo
 .
 sleep
 (
-7000
+120000
 )
 ;
 mSolo
