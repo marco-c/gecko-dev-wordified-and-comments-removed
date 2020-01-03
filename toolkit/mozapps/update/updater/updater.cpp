@@ -1913,7 +1913,7 @@ path
 )
 {
 struct
-stat
+NS_tstat_t
 sInfo
 ;
 int
@@ -2346,7 +2346,7 @@ nullptr
 ;
 }
 struct
-stat
+NS_tstat_t
 ss
 ;
 if
@@ -2815,7 +2815,7 @@ return
 #
 else
 struct
-stat
+NS_tstat_t
 ss
 ;
 int
@@ -3344,7 +3344,7 @@ skiplist
 )
 {
 struct
-stat
+NS_tstat_t
 sInfo
 ;
 int
@@ -3744,7 +3744,7 @@ return
 rv
 ;
 struct
-stat
+NS_tstat_t
 spathInfo
 ;
 rv
@@ -4584,7 +4584,7 @@ mFile
 )
 ;
 struct
-stat
+NS_tstat_t
 fileInfo
 ;
 rv
@@ -5040,7 +5040,7 @@ mDir
 )
 ;
 struct
-stat
+NS_tstat_t
 dirInfo
 ;
 rv
@@ -6509,7 +6509,7 @@ rv
 ;
 }
 struct
-stat
+NS_tstat_t
 ss
 ;
 rv
