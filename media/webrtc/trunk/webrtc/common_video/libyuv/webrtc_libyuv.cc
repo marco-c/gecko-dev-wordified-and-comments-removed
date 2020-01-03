@@ -1207,7 +1207,14 @@ kYV12
 int
 stride_y
 =
+(
 src_width
++
+15
+)
+&
+~
+0x0F
 ;
 int
 stride_uv
