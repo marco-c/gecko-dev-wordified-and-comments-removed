@@ -5,7 +5,7 @@ mozilla
 .
 gecko
 .
-home
+widget
 ;
 import
 android

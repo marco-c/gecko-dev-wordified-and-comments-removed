@@ -1936,13 +1936,6 @@ java
 '
 home
 /
-FadedTextView
-.
-java
-'
-'
-home
-/
 FramePanelLayout
 .
 java
@@ -3082,6 +3075,13 @@ java
 widget
 /
 EllipsisTextView
+.
+java
+'
+'
+widget
+/
+FadedTextView
 .
 java
 '
