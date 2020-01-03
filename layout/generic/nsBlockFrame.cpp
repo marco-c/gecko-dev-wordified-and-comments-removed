@@ -14729,9 +14729,8 @@ Zero
 )
 ;
 }
-nsBlockReflowContext
-:
-:
+brc
+.
 ComputeCollapsedBStartMargin
 (
 reflowState
@@ -14838,9 +14837,8 @@ mayNeedRetry
 =
 false
 ;
-nsBlockReflowContext
-:
-:
+brc
+.
 ComputeCollapsedBStartMargin
 (
 reflowState
@@ -27597,9 +27595,8 @@ GetPrevInFlow
 )
 )
 {
-nsBlockReflowContext
-:
-:
+brc
+.
 ComputeCollapsedBStartMargin
 (
 floatRS

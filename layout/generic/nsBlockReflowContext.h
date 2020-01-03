@@ -137,7 +137,6 @@ return
 mMetrics
 ;
 }
-static
 bool
 ComputeCollapsedBStartMargin
 (
