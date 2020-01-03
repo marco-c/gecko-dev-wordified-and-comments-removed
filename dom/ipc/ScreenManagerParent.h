@@ -144,9 +144,10 @@ virtual
 bool
 RecvScreenForBrowser
 (
-PBrowserParent
-*
-aBrowser
+const
+TabId
+&
+aTabId
 ScreenDetails
 *
 aRetVal
