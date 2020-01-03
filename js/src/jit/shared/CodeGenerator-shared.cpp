@@ -199,10 +199,6 @@ MacroAssembler
 masmArg
 )
 :
-oolIns
-(
-nullptr
-)
 maybeMasm_
 (
 )
@@ -628,13 +624,6 @@ bind
 masm
 )
 ;
-oolIns
-=
-outOfLineCode_
-[
-i
-]
-;
 outOfLineCode_
 [
 i
@@ -647,10 +636,6 @@ this
 )
 ;
 }
-oolIns
-=
-nullptr
-;
 return
 true
 ;
