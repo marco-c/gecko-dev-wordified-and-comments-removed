@@ -325,6 +325,11 @@ BoxObject
 webidl
 '
 '
+BrowserElement
+.
+webidl
+'
+'
 BrowserElementDictionaries
 .
 webidl
