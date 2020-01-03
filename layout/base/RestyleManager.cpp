@@ -7116,6 +7116,7 @@ AreAsyncAnimationsEnabled
 )
 &
 &
+(
 mPendingRestyles
 .
 Count
@@ -7123,6 +7124,10 @@ Count
 )
 >
 0
+|
+|
+mDoRebuildAllStyleData
+)
 )
 {
 IncrementAnimationGeneration
