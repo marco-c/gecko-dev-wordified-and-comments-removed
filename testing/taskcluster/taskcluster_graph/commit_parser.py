@@ -1092,6 +1092,11 @@ add_argument
 -
 b
 '
+'
+-
+-
+build
+'
 dest
 =
 '
@@ -1106,6 +1111,11 @@ add_argument
 '
 -
 p
+'
+'
+-
+-
+platform
 '
 nargs
 =
@@ -1136,6 +1146,11 @@ add_argument
 '
 -
 u
+'
+'
+-
+-
+unittests
 '
 nargs
 =
