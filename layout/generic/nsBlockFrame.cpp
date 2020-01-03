@@ -31002,7 +31002,7 @@ pseudo
 nsCSSAnonBoxes
 :
 :
-scrolledContent
+buttonContent
 |
 |
 pseudo
@@ -31012,6 +31012,15 @@ nsCSSAnonBoxes
 :
 :
 columnContent
+|
+|
+pseudo
+=
+=
+nsCSSAnonBoxes
+:
+:
+scrolledContent
 |
 |
 pseudo
