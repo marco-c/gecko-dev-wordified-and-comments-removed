@@ -881,14 +881,6 @@ if
 needsOblique
 )
 {
-const
-double
-kSkewFactor
-=
-0
-.
-25
-;
 cairo_matrix_t
 style
 ;
@@ -901,7 +893,7 @@ style
 -
 1
 *
-kSkewFactor
+OBLIQUE_SKEW_FACTOR
 1
 0
 0
