@@ -999,6 +999,11 @@ mChainPrev
 =
 0
 ;
+if
+(
+sDeadlockDetector
+)
+{
 sDeadlockDetector
 -
 >
@@ -1007,6 +1012,7 @@ Remove
 this
 )
 ;
+}
 }
 size_t
 BlockingResourceBase
