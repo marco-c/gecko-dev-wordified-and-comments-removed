@@ -3435,7 +3435,7 @@ AllocateInputPort
 (
 aSrcAudioNode
 .
-Stream
+GetStream
 (
 )
 MediaInputPort
@@ -5264,9 +5264,6 @@ nullptr
 ;
 return
 mPipeStream
-!
-=
-nullptr
 ?
 mPipeStream
 .
@@ -5277,7 +5274,7 @@ get
 mAudioNode
 -
 >
-Stream
+GetStream
 (
 )
 ;

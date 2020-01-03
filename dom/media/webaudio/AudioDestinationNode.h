@@ -165,6 +165,16 @@ aRv
 )
 override
 ;
+AudioNodeStream
+*
+Stream
+(
+)
+{
+return
+mStream
+;
+}
 void
 Mute
 (

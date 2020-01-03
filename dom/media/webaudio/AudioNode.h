@@ -461,7 +461,7 @@ mOutputPort
 ;
 AudioNodeStream
 *
-Stream
+GetStream
 (
 )
 {

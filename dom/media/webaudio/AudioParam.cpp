@@ -427,7 +427,7 @@ nodeStream
 mNode
 -
 >
-Stream
+GetStream
 (
 )
 ;
