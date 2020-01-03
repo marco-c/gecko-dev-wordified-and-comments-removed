@@ -173,6 +173,13 @@ h
 '
 ipc
 /
+MobileConnectionIPCService
+.
+h
+'
+'
+ipc
+/
 MobileConnectionParent
 .
 h
