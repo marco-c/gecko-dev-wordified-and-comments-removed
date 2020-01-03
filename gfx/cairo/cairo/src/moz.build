@@ -1738,6 +1738,14 @@ range
 -
 compare
 '
+'
+-
+Wno
+-
+error
+=
+uninitialized
+'
 ]
 if
 CONFIG
