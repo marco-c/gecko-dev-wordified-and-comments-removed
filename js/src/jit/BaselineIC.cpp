@@ -33888,6 +33888,12 @@ op
 =
 =
 JSOP_BINDNAME
+|
+|
+op
+=
+=
+JSOP_BINDGNAME
 )
 ;
 RootedPropertyName
