@@ -192,8 +192,10 @@ Snapshot
 override
 {
 return
-new
+MakeAndAddRef
+<
 SourceSurfaceDual
+>
 (
 mA
 mB

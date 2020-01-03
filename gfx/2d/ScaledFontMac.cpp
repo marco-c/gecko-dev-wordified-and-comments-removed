@@ -425,7 +425,7 @@ glyphPath
 )
 ;
 }
-TemporaryRef
+RefPtr
 <
 Path
 >
@@ -448,6 +448,10 @@ path
 ;
 return
 ret
+.
+forget
+(
+)
 ;
 }
 return

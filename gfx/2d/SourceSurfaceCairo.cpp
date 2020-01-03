@@ -272,8 +272,10 @@ imageSurf
 ;
 }
 return
-new
+MakeAndAddRef
+<
 DataSourceSurfaceWrapper
+>
 (
 dataSurf
 )

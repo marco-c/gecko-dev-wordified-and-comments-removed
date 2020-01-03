@@ -371,8 +371,10 @@ Snapshot
 )
 {
 return
-new
+MakeAndAddRef
+<
 SnapshotTiled
+>
 (
 mTiles
 mRect

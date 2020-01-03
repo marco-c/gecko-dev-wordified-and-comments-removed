@@ -145,8 +145,10 @@ mImage
 )
 ;
 return
-new
+MakeAndAddRef
+<
 DataSourceSurfaceWrapper
+>
 (
 dataSurf
 )

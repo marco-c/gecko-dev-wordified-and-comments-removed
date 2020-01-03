@@ -825,8 +825,10 @@ SurfaceDescriptor
 TSharedSurfaceDescriptor
 :
 return
-new
+MakeAndAddRef
+<
 SharedSurfaceTextureHost
+>
 (
 aFlags
 aDesc

@@ -479,8 +479,10 @@ Finish
 )
 {
 return
-new
+MakeAndAddRef
+<
 PathCG
+>
 (
 mCGPath
 mFillRule
@@ -510,8 +512,10 @@ mPath
 )
 ;
 return
-new
+MakeAndAddRef
+<
 PathBuilderCG
+>
 (
 path
 aFillRule
@@ -829,8 +833,10 @@ TranformCGPathApplierFunc
 )
 ;
 return
-new
+MakeAndAddRef
+<
 PathBuilderCG
+>
 (
 ta
 .
