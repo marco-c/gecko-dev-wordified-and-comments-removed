@@ -131,7 +131,7 @@ aShadowFallbackColor
 const
 nsIntRect
 &
-aTargetBBoxInFilterSpace
+aTargetBoundsInFilterSpace
 const
 gfxMatrix
 &
@@ -304,7 +304,7 @@ nscolor
 mShadowFallbackColor
 ;
 nsIntRect
-mTargetBBoxInFilterSpace
+mTargetBoundsInFilterSpace
 ;
 gfxMatrix
 mFrameSpaceInCSSPxToFilterSpaceTransform
