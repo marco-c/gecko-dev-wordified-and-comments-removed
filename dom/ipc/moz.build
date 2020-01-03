@@ -593,10 +593,6 @@ LOCAL_INCLUDES
 [
 '
 /
-caps
-'
-'
-/
 chrome
 '
 '

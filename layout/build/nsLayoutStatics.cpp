@@ -1561,13 +1561,6 @@ Init
 (
 )
 ;
-ServiceWorkerRegistrar
-:
-:
-Initialize
-(
-)
-;
 #
 ifdef
 MOZ_B2G

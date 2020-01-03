@@ -166,9 +166,6 @@ URIParams
 include
 PContentPermission
 ;
-include
-ServiceWorkerRegistrarTypes
-;
 using
 class
 IPC
@@ -661,16 +658,6 @@ CommandInt
 [
 ]
 richTextCommands
-;
-}
-;
-struct
-BrowserConfiguration
-{
-ServiceWorkerRegistrationData
-[
-]
-serviceWorkerRegistrations
 ;
 }
 ;
@@ -2920,8 +2907,6 @@ LoadURL
 (
 nsCString
 uri
-BrowserConfiguration
-config
 )
 ;
 CacheFileDescriptor
