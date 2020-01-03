@@ -3037,6 +3037,16 @@ Account
 >
 <
 !
+ENTITY
+fxaccount_enable_debug_mode
+'
+Enable
+Debug
+Mode
+'
+>
+<
+!
 -
 -
 Localization
