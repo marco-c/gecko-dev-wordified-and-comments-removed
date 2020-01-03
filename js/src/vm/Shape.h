@@ -715,11 +715,6 @@ bool
 adding
 )
 ;
-void
-fixupAfterMovingGC
-(
-)
-;
 private
 :
 Entry
@@ -1793,7 +1788,8 @@ void
 fixupAfterMovingGC
 (
 )
-;
+{
+}
 bool
 fixupBaseShapeTableEntry
 (
