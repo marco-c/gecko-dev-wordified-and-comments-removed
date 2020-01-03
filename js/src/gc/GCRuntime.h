@@ -3586,8 +3586,11 @@ incrementalAllowed
 unsigned
 generationalDisabled
 ;
+bool
+compactingEnabled
+;
 unsigned
-compactingDisabled
+compactingDisabledCount
 ;
 bool
 manipulatingDeadZones
