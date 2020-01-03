@@ -1525,6 +1525,16 @@ delete
 roomToken
 )
 ;
+eventEmitter
+.
+emit
+(
+"
+delete
+"
+room
+)
+;
 callback
 (
 null
