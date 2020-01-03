@@ -38,16 +38,6 @@ Add
 utilities
 and
 configuration
-ADD
-mozconfigs
-/
-/
-home
-/
-worker
-/
-mozconfigs
-/
 RUN
 mkdir
 -
