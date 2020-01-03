@@ -167,6 +167,10 @@ View
 import
 com
 .
+jayway
+.
+android
+.
 robotium
 .
 solo

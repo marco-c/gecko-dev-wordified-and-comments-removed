@@ -64,6 +64,10 @@ Instrumentation
 import
 com
 .
+jayway
+.
+android
+.
 robotium
 .
 solo

@@ -19,6 +19,10 @@ Actions
 import
 com
 .
+jayway
+.
+android
+.
 robotium
 .
 solo

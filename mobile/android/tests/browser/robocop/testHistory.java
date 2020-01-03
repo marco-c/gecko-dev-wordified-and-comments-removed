@@ -42,6 +42,10 @@ HomePager
 import
 com
 .
+jayway
+.
+android
+.
 robotium
 .
 solo
