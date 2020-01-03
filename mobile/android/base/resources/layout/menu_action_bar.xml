@@ -174,8 +174,9 @@ android
 background
 =
 "
-#
-FFE1E1E6
+color
+/
+toolbar_menu_dark_grey
 "
 /
 >
