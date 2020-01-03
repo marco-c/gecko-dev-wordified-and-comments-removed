@@ -2114,9 +2114,6 @@ CSSToLayoutDeviceScale
 mDefaultScale
 ;
 bool
-mShown
-;
-bool
 mUpdatedDimensions
 ;
 nsIntPoint
