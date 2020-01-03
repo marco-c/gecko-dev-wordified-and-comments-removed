@@ -54,9 +54,6 @@ class
 nsIPresShell
 ;
 class
-nsRenderingContext
-;
-class
 nsStyleContext
 ;
 class

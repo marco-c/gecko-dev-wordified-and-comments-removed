@@ -123,9 +123,6 @@ class
 nsFontMetrics
 ;
 class
-nsRenderingContext
-;
-class
 nsDeviceContext
 ;
 struct

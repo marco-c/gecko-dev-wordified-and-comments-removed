@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
