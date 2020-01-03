@@ -154,7 +154,7 @@ mDeviceResetCount
 (
 0
 )
-mFailedResetAttemps
+mFailedResetAttempts
 (
 0
 )
@@ -2876,7 +2876,7 @@ state
 DeviceOK
 )
 {
-mFailedResetAttemps
+mFailedResetAttempts
 =
 0
 ;
@@ -3080,7 +3080,7 @@ FailedToResetDevice
 (
 )
 {
-mFailedResetAttemps
+mFailedResetAttempts
 +
 =
 1
@@ -3118,11 +3118,11 @@ attempt
 "
 <
 <
-mFailedResetAttemps
+mFailedResetAttempts
 ;
 if
 (
-mFailedResetAttemps
+mFailedResetAttempts
 >
 10
 )
