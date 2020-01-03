@@ -1572,6 +1572,14 @@ ServiceWorkerRegistrationInfo
 aRegistration
 )
 ;
+void
+RemoveAllRegistrations
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 nsRefPtr
 <
 ServiceWorkerManagerChild
