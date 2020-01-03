@@ -132,14 +132,11 @@ DrawableCompat
 setTint
 (
 icon
-context
-.
-getResources
-(
-)
+ColorUtils
 .
 getColor
 (
+context
 colorID
 )
 )

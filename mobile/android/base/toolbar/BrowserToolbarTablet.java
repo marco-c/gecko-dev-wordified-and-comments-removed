@@ -693,9 +693,6 @@ BrowserToolbar
 getLightweightThemeDrawable
 (
 this
-getResources
-(
-)
 getTheme
 (
 )
