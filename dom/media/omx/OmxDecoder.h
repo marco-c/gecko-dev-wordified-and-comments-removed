@@ -301,6 +301,9 @@ mAudioSampleRate
 int64_t
 mDurationUs
 ;
+int64_t
+mVideoLastFrameTime
+;
 VideoFrame
 mVideoFrame
 ;
