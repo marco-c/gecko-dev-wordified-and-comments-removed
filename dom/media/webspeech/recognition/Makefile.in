@@ -104,8 +104,6 @@ DIST
 )
 /
 bin
-/
-models
 INSTALL_TARGETS
 +
 =
