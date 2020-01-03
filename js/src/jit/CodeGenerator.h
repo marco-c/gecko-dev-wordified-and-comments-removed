@@ -1016,6 +1016,14 @@ lir
 )
 ;
 bool
+visitNewArrayDynamicLength
+(
+LNewArrayDynamicLength
+*
+lir
+)
+;
+bool
 visitNewObjectVMCall
 (
 LNewObject

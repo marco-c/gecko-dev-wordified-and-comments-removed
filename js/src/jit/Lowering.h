@@ -344,6 +344,14 @@ ins
 )
 ;
 bool
+visitNewArrayDynamicLength
+(
+MNewArrayDynamicLength
+*
+ins
+)
+;
+bool
 visitNewObject
 (
 MNewObject
