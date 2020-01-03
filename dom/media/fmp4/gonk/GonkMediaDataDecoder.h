@@ -196,6 +196,15 @@ MediaTaskQueue
 >
 mTaskQueue
 ;
+nsRefPtr
+<
+MediaByteBuffer
+>
+mCodecSpecificData
+;
+nsAutoCString
+mMimeType
+;
 }
 ;
 class

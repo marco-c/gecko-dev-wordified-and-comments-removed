@@ -2617,6 +2617,7 @@ GVDM_LOG
 (
 "
 Configure
+video
 mime
 type
 :

@@ -599,12 +599,6 @@ MediaBuffer
 *
 mVideoBuffer
 ;
-nsRefPtr
-<
-MediaByteBuffer
->
-mCodecSpecificData
-;
 MediaDataDecoderCallback
 *
 mReaderCallback
@@ -705,9 +699,6 @@ mPendingVideoBuffers
 ;
 Mutex
 mPendingVideoBuffersLock
-;
-nsAutoCString
-mMimeType
 ;
 }
 ;

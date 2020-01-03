@@ -180,12 +180,6 @@ const
 uint32_t
 mAudioProfile
 ;
-nsTArray
-<
-uint8_t
->
-mUserData
-;
 bool
 mUseAdts
 ;
