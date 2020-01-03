@@ -18533,9 +18533,9 @@ MDefinition
 Op_IsObject
 :
 {
-TemporaryTypeSet
+MDefinition
 *
-oldType
+subject
 =
 ins
 -
@@ -18544,6 +18544,12 @@ getOperand
 (
 0
 )
+;
+TemporaryTypeSet
+*
+oldType
+=
+subject
 -
 >
 resultTypeSet
@@ -18561,7 +18567,7 @@ oldType
 {
 if
 (
-ins
+subject
 -
 >
 type
@@ -18590,7 +18596,7 @@ PrimitiveType
 (
 ValueTypeFromMIRType
 (
-ins
+subject
 -
 >
 type
@@ -18671,13 +18677,7 @@ false
 return
 replaceTypeSet
 (
-ins
--
->
-getOperand
-(
-0
-)
+subject
 type
 test
 )
