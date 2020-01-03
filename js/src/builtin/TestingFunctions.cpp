@@ -3757,10 +3757,9 @@ callee
 )
 )
 ;
-ReportUsageError
+JS_ReportError
 (
 cx
-callee
 "
 Incremental
 GC
