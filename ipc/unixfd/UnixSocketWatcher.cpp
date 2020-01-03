@@ -110,6 +110,8 @@ aAddrLen
 ;
 if
 (
+TEMP_FAILURE_RETRY
+(
 connect
 (
 GetFd
@@ -120,6 +122,7 @@ aAddrLen
 )
 <
 0
+)
 )
 {
 if
@@ -140,9 +143,10 @@ WRITE_WATCHER
 false
 )
 ;
+return
+NS_OK
+;
 }
-else
-{
 OnError
 (
 "
@@ -151,7 +155,6 @@ connect
 errno
 )
 ;
-}
 return
 NS_ERROR_FAILURE
 ;
