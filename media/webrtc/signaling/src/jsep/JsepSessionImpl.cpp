@@ -172,6 +172,17 @@ SipccSdpParser
 .
 h
 "
+#
+include
+"
+mozilla
+/
+net
+/
+DataChannelProtocol
+.
+h
+"
 namespace
 mozilla
 {
@@ -12350,7 +12361,7 @@ webrtc
 -
 datachannel
 "
-16
+WEBRTC_DATACHANNEL_STREAMS_DEFAULT
 )
 )
 ;
