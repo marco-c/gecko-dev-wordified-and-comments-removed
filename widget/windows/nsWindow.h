@@ -1086,6 +1086,17 @@ override
 ;
 virtual
 void
+UpdateWindowDraggingRegion
+(
+const
+nsIntRegion
+&
+aRegion
+)
+override
+;
+virtual
+void
 UpdateThemeGeometries
 (
 const
@@ -2462,6 +2473,9 @@ nsCOMPtr
 nsIIdleServiceInternal
 >
 mIdleService
+;
+nsIntRegion
+mDraggableRegion
 ;
 static
 HHOOK
