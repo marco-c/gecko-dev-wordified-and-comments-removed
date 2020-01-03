@@ -1314,7 +1314,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -2106,7 +2106,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -3224,7 +3224,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -3400,7 +3400,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -4182,7 +4182,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -4389,7 +4389,7 @@ ifdef
 DEBUG
 NS_ABORT_IF_FALSE
 (
-GetCurrentDoc
+OwnerDoc
 (
 )
 -
@@ -4489,7 +4489,7 @@ ifdef
 DEBUG
 NS_ABORT_IF_FALSE
 (
-GetCurrentDoc
+OwnerDoc
 (
 )
 -
@@ -4572,7 +4572,7 @@ node
 ;
 NS_ABORT_IF_FALSE
 (
-GetCurrentDoc
+OwnerDoc
 (
 )
 -
