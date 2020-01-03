@@ -324,9 +324,6 @@ class
 nsWindowSizes
 ;
 class
-nsSmallVoidArray
-;
-class
 nsDOMCaretPosition
 ;
 class
@@ -4484,7 +4481,11 @@ aElementId
 ;
 virtual
 const
-nsSmallVoidArray
+nsTArray
+<
+Element
+*
+>
 *
 GetAllElementsForId
 (
