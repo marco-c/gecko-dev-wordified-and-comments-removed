@@ -57,15 +57,6 @@ endif
 #
 include
 "
-js
-/
-OldDebugAPI
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions

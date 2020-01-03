@@ -55,15 +55,6 @@ h
 #
 include
 "
-js
-/
-OldDebugAPI
-.
-h
-"
-#
-include
-"
 xpcpublic
 .
 h

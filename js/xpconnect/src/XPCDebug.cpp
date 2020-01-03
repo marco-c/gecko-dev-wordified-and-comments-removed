@@ -13,15 +13,6 @@ jsprf
 h
 "
 #
-include
-"
-js
-/
-OldDebugAPI
-.
-h
-"
-#
 ifdef
 XP_WIN
 #

@@ -254,15 +254,6 @@ ScriptSettings
 .
 h
 "
-#
-include
-"
-js
-/
-OldDebugAPI
-.
-h
-"
 using
 namespace
 mozilla

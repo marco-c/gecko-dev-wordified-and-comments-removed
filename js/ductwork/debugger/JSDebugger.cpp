@@ -43,15 +43,6 @@ h
 #
 include
 "
-js
-/
-OldDebugAPI
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ModuleUtils

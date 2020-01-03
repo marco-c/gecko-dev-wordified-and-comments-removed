@@ -15,15 +15,6 @@ h
 #
 include
 "
-js
-/
-OldDebugAPI
-.
-h
-"
-#
-include
-"
 nsXBLPrototypeBinding
 .
 h

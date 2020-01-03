@@ -262,9 +262,7 @@ h
 #
 include
 "
-js
-/
-OldDebugAPI
+jsapi
 .
 h
 "

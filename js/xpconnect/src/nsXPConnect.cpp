@@ -49,15 +49,6 @@ h
 #
 include
 "
-js
-/
-OldDebugAPI
-.
-h
-"
-#
-include
-"
 nsJSEnvironment
 .
 h
