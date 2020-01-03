@@ -677,6 +677,7 @@ GetCORSMode
 (
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :

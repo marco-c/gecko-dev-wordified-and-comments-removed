@@ -1498,6 +1498,7 @@ nsAString
 &
 aInitDataType
 )
+MOZ_OVERRIDE
 ;
 bool
 IsEventAttributeName

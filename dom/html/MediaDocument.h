@@ -138,6 +138,7 @@ bool
 WillIgnoreCharsetOverride
 (
 )
+MOZ_OVERRIDE
 {
 return
 true

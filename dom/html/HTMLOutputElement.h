@@ -89,6 +89,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 NS_FORM_OUTPUT

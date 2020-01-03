@@ -1730,6 +1730,7 @@ nsISupports
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -1948,6 +1949,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 *
 aResult

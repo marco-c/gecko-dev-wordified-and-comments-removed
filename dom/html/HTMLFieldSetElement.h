@@ -343,6 +343,7 @@ IntrinsicState
 (
 )
 const
+MOZ_OVERRIDE
 ;
 void
 UpdateValidity

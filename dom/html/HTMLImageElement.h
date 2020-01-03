@@ -174,6 +174,7 @@ CORSMode
 GetCORSMode
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

@@ -277,6 +277,7 @@ nsAString
 &
 aTitle
 )
+MOZ_OVERRIDE
 {
 SetHTMLAttr
 (
@@ -317,6 +318,7 @@ nsAString
 &
 aLang
 )
+MOZ_OVERRIDE
 {
 SetHTMLAttr
 (
@@ -1321,12 +1323,6 @@ EventNameList
 .
 h
 "
-/
-/
-IWYU
-pragma
-:
-keep
 #
 undef
 ERROR_EVENT
@@ -1493,6 +1489,7 @@ UndoManager
 GetUndoManager
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -4528,6 +4525,7 @@ HTMLFieldSetElement
 GetFieldSet
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla

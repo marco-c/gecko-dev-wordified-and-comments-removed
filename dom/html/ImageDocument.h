@@ -264,6 +264,7 @@ nsresult
 CreateSyntheticDocument
 (
 )
+MOZ_OVERRIDE
 ;
 nsresult
 CheckOverflowing

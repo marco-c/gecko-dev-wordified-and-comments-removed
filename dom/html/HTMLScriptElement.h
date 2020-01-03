@@ -160,6 +160,7 @@ GetCORSMode
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
