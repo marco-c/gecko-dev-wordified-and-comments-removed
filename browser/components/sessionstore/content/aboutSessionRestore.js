@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 classes
@@ -470,11 +475,10 @@ winState
 )
 ;
 for
-each
 (
-var
+let
 tab
-in
+of
 winState
 .
 tabs
@@ -1342,11 +1346,10 @@ aIx
 )
 {
 for
-each
 (
-var
+let
 tab
-in
+of
 item
 .
 tabs
