@@ -46,6 +46,7 @@ Point
 .
 array
 (
+0
 )
 ;
 var

@@ -58,6 +58,7 @@ Point
 .
 array
 (
+N
 )
 ;
 function
@@ -118,7 +119,6 @@ foo
 new
 PointArray
 (
-N
 )
 )
 ;

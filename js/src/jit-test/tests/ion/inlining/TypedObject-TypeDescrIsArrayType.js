@@ -36,6 +36,7 @@ ArrayType
 T
 .
 int32
+100
 )
 ;
 function
@@ -69,7 +70,6 @@ w
 new
 AT
 (
-100
 )
 ;
 for

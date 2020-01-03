@@ -3847,7 +3847,7 @@ inlineConstructTypedObject
 CallInfo
 &
 callInfo
-SizedTypeDescr
+TypeDescr
 *
 target
 )

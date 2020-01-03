@@ -68,6 +68,7 @@ Point
 .
 array
 (
+L
 )
 ;
 var
@@ -76,7 +77,6 @@ points
 new
 Points
 (
-L
 )
 ;
 for
