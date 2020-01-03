@@ -25922,6 +25922,16 @@ compileAndGo
 )
 )
 .
+setHasPollutedScope
+(
+parent
+-
+>
+hasPollutedGlobalScope
+(
+)
+)
+.
 setSelfHostingMode
 (
 parent
