@@ -955,6 +955,16 @@ label
 ;
 functionLabel
 .
+className
+=
+"
+devtools
+-
+monospace
+"
+;
+functionLabel
+.
 setAttribute
 (
 "
