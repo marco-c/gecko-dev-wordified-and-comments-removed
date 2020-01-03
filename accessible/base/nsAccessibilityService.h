@@ -657,9 +657,6 @@ IPCAccessibilityActive
 (
 )
 {
-return
-false
-;
 #
 ifdef
 MOZ_B2G
