@@ -390,6 +390,13 @@ js
 '
 widgets
 /
+LineGraphWidget
+.
+js
+'
+'
+widgets
+/
 MdnDocsWidget
 .
 js
