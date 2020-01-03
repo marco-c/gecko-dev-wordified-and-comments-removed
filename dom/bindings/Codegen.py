@@ -97059,6 +97059,8 @@ idlObject
 =
 idlObject
         
+self
+.
 name
 =
 idlObject
@@ -97074,10 +97076,14 @@ descriptorProvider
 )
 :
             
+self
+.
 name
 =
 jsImplName
 (
+self
+.
 name
 )
         
@@ -97154,6 +97160,8 @@ s
 &
 "
 %
+self
+.
 name
 "
 aOther
@@ -97202,6 +97210,8 @@ CGClass
 __init__
 (
 self
+self
+.
 name
                          
 bases
@@ -97504,6 +97514,27 @@ append
 Argument
 (
 "
+const
+char
+*
+"
+"
+aExecutionReason
+"
+                             
+"
+nullptr
+"
+)
+)
+        
+args
+.
+append
+(
+Argument
+(
+"
 ExceptionHandling
 "
 "
@@ -97577,11 +97608,30 @@ fill
 "
 "
             
+if
+(
+!
+aExecutionReason
+)
+{
+              
+aExecutionReason
+=
+"
+{
+executionReason
+}
+"
+;
+            
+}
+            
 CallSetup
 s
 (
 this
 aRv
+aExecutionReason
 aExceptionHandling
 aCompartment
 )
@@ -97621,6 +97671,14 @@ errorReturn
 errorReturn
 =
 errorReturn
+            
+executionReason
+=
+method
+.
+getPrettyName
+(
+)
 )
         
 bodyWithThis
@@ -99642,6 +99700,27 @@ append
 Argument
 (
 "
+const
+char
+*
+"
+"
+aExecutionReason
+"
+                                     
+"
+nullptr
+"
+)
+)
+                
+args
+.
+append
+(
+Argument
+(
+"
 ExceptionHandling
 "
 "
@@ -99747,6 +99826,10 @@ rethrowContentException
 callSetup
 +
 =
+'
+"
+%
+s
 "
 eRethrowContentExceptions
 aCompartment
@@ -99756,7 +99839,13 @@ aIsJSImplementedWebIDL
 =
 *
 /
-"
+'
+%
+self
+.
+getPrettyName
+(
+)
             
 callSetup
 +
@@ -99777,10 +99866,20 @@ else
 callSetup
 +
 =
+'
+"
+%
+s
 "
 aExceptionHandling
 aCompartment
-"
+'
+%
+self
+.
+getPrettyName
+(
+)
         
 callSetup
 +

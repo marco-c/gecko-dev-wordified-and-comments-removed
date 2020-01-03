@@ -3297,6 +3297,10 @@ AutoEntryScript
 aes
 (
 globalObject
+"
+NPAPI
+doInvoke
+"
 )
 ;
 JSContext
@@ -3931,6 +3935,10 @@ AutoEntryScript
 aes
 (
 globalObject
+"
+NPAPI
+get
+"
 )
 ;
 JSContext
@@ -4093,6 +4101,10 @@ AutoEntryScript
 aes
 (
 globalObject
+"
+NPAPI
+set
+"
 )
 ;
 JSContext

@@ -6829,6 +6829,10 @@ AutoEntryScript
 aes
 (
 win
+"
+NPAPI
+NPN_evaluate
+"
 )
 ;
 JSContext

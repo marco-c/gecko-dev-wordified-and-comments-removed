@@ -272,6 +272,9 @@ toObject
 )
 )
 )
+"
+TestShellCommand
+"
 )
 ;
 JSContext

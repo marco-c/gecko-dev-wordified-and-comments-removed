@@ -1253,6 +1253,10 @@ aes
 emplace
 (
 globalObject
+"
+Worker
+runnable
+"
 isMainThread
 isMainThread
 ?
@@ -1354,6 +1358,10 @@ emplace
 DefaultGlobalObject
 (
 )
+"
+worker
+runnable
+"
 false
 GetCurrentThreadJSContext
 (

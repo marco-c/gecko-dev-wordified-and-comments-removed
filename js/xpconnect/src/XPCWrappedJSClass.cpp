@@ -2213,6 +2213,10 @@ AutoEntryScript
 aes
 (
 nativeGlobal
+"
+XPCWrappedJS
+QueryInterface
+"
 true
 )
 ;
@@ -3977,6 +3981,11 @@ AutoEntryScript
 aes
 (
 nativeGlobal
+"
+XPCWrappedJS
+method
+call
+"
 true
 )
 ;

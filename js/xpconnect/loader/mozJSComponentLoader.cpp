@@ -2835,6 +2835,12 @@ GetJSObject
 (
 )
 )
+"
+component
+loader
+report
+global
+"
 )
 ;
 RootedObject
@@ -4080,6 +4086,12 @@ CurrentGlobalOrNull
 cx
 )
 )
+"
+component
+loader
+load
+module
+"
 )
 ;
 AutoSaveContextOptions

@@ -608,12 +608,15 @@ ScriptSettingsStackEntry
 {
 public
 :
-explicit
 AutoEntryScript
 (
 nsIGlobalObject
 *
 aGlobalObject
+const
+char
+*
+aReason
 bool
 aIsMainThread
 =

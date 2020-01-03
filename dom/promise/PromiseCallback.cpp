@@ -714,6 +714,10 @@ value
 &
 retValue
 rv
+"
+promise
+callback
+"
 CallbackObject
 :
 :

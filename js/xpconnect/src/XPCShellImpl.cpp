@@ -7837,6 +7837,11 @@ AutoEntryScript
 aes
 (
 backstagePass
+"
+xpcshell
+argument
+processing
+"
 )
 ;
 result

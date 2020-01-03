@@ -633,6 +633,10 @@ AutoEntryScript
 aes
 (
 globalObject
+"
+nsHTTPIndex
+OnFTPControlLog
+"
 )
 ;
 JSContext
@@ -979,6 +983,12 @@ AutoEntryScript
 aes
 (
 globalObject
+"
+nsHTTPIndex
+set
+HTTPIndex
+property
+"
 )
 ;
 JSContext

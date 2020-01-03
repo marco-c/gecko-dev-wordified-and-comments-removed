@@ -13829,6 +13829,11 @@ AutoEntryScript
 aes
 (
 global
+"
+WebIDL
+dictionary
+creation
+"
 )
 ;
 aes

@@ -1083,6 +1083,11 @@ AutoEntryScript
 entryScript
 (
 innerGlobal
+"
+javascript
+:
+URI
+"
 true
 scriptContext
 -

@@ -237,6 +237,7 @@ AcceptNode
 *
 aNode
 aResult
+nullptr
 CallbackObject
 :
 :

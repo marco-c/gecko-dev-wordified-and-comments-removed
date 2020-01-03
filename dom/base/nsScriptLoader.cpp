@@ -5225,6 +5225,12 @@ AutoEntryScript
 entryScript
 (
 globalObject
+"
+<
+script
+>
+element
+"
 true
 context
 -

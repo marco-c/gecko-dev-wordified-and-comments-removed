@@ -53923,6 +53923,10 @@ nsDocShell
 :
 NotifyJSRunToCompletionStart
 (
+const
+char
+*
+aReason
 )
 {
 bool
