@@ -960,6 +960,17 @@ c1c1c1
 ;
 }
 .
+button
+[
+hidden
+]
+{
+display
+:
+none
+;
+}
+.
 dropdown
 {
 text

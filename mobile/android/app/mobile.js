@@ -7322,3 +7322,15 @@ vertical
 false
 )
 ;
+pref
+(
+"
+browser
+.
+readinglist
+.
+enabled
+"
+true
+)
+;
