@@ -1035,11 +1035,6 @@ Comment
 cpp
 '
 '
-CompositionStringSynthesizer
-.
-cpp
-'
-'
 Console
 .
 cpp

@@ -250,15 +250,6 @@ GetLayerTransaction
 (
 )
 ;
-nsresult
-GetTextEventDispatcher
-(
-TextEventDispatcher
-*
-*
-aDispatcher
-)
-;
 nsView
 *
 GetViewToDispatchEvent
