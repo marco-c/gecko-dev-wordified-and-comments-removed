@@ -8196,7 +8196,7 @@ nullptr
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 arrayBufferProto

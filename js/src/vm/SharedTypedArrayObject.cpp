@@ -1876,7 +1876,7 @@ return
 false
 ;
 return
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 proto

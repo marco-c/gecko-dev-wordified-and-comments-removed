@@ -1636,7 +1636,7 @@ nullptr
 if
 (
 !
-DefineNativeProperty
+NativeDefineProperty
 (
 cx
 proto
