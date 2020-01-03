@@ -4011,10 +4011,7 @@ CurrentState
 .
 color
 =
-gfxPlatform
-:
-:
-MaybeTransformColor
+ToDeviceColor
 (
 c
 )
