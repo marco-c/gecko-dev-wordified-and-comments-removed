@@ -1883,6 +1883,11 @@ MediaDecoder
 aDecoder
 )
 {
+MOZ_ASSERT
+(
+aDecoder
+)
+;
 mDecoder
 =
 aDecoder
