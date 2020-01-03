@@ -2817,7 +2817,13 @@ Notify
 int32_t
 aType
 const
-nsIntRect
+mozilla
+:
+:
+gfx
+:
+:
+IntRect
 *
 aRect
 )

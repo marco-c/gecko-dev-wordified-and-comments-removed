@@ -38,12 +38,6 @@ nsISupportsImpl
 .
 h
 "
-struct
-nsIntPoint
-;
-struct
-nsIntRect
-;
 namespace
 mozilla
 {
@@ -169,7 +163,10 @@ void
 RenderLayer
 (
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aClipRect
 )

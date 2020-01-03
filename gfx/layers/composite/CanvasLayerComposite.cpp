@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsPoint
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

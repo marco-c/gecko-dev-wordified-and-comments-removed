@@ -250,7 +250,6 @@ h
 "
 ;
 using
-struct
 nsIntRect
 from
 "

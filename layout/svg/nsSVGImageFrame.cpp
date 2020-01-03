@@ -1568,11 +1568,10 @@ test
 ;
 dirtyRect
 =
-aDirtyRect
--
->
 ToAppUnits
 (
+*
+aDirtyRect
 appUnitsPerDevPx
 )
 ;

@@ -654,7 +654,10 @@ SurfaceDescriptor
 &
 aInSnapshot
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aRect
 )
@@ -1245,7 +1248,10 @@ DrawTarget
 *
 aTarget
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 *
 aRect
 =
@@ -1262,7 +1268,10 @@ DrawTarget
 *
 aTarget
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 *
 aRect
 =

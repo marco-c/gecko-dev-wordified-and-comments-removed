@@ -1724,9 +1724,6 @@ height
 {
 rect
 =
-nsIntRect
-:
-:
 GetMaxSizedIntRect
 (
 )

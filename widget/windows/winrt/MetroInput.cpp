@@ -126,6 +126,13 @@ h
 "
 #
 include
+"
+nsPoint
+.
+h
+"
+#
+include
 <
 windows
 .

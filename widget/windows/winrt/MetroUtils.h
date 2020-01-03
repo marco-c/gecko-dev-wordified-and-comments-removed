@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsRect
+.
+h
+"
+#
+include
+"
 mozwrlbase
 .
 h
@@ -182,9 +189,6 @@ nsIBrowserDOMWindow
 ;
 class
 nsIDOMWindow
-;
-struct
-nsIntRect
 ;
 namespace
 mozilla

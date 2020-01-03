@@ -194,9 +194,6 @@ struct
 nsRect
 ;
 struct
-nsIntRect
-;
-struct
 nsPoint
 ;
 namespace

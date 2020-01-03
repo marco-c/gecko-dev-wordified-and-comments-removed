@@ -4749,6 +4749,11 @@ aRect
 .
 MoveTo
 (
+gfx
+:
+:
+ToIntPoint
+(
 LayoutDeviceIntPoint
 :
 :
@@ -4756,6 +4761,7 @@ ToUntyped
 (
 WidgetToScreenOffset
 (
+)
 )
 )
 )

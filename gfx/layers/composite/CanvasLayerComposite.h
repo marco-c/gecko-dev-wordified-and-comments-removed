@@ -72,9 +72,6 @@ nscore
 .
 h
 "
-struct
-nsIntPoint
-;
 namespace
 mozilla
 {

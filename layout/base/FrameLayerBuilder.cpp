@@ -8100,10 +8100,9 @@ aRect
 nsRect
 appUnitRect
 =
-deviceRect
-.
 ToAppUnits
 (
+deviceRect
 mAppUnitsPerDevPixel
 )
 ;
@@ -21629,10 +21628,9 @@ bounds
 .
 Contains
 (
-pixBounds
-.
 ToAppUnits
 (
+pixBounds
 appUnitsPerDevPixel
 )
 )
@@ -23010,10 +23008,9 @@ AppUnitsPerDevPixel
 nsRect
 boundRect
 =
-aRect
-.
 ToAppUnits
 (
+aRect
 appUnitsPerDevPixel
 )
 ;

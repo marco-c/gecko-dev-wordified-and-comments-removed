@@ -90,13 +90,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 nsRegion
 .
 h
@@ -332,7 +325,10 @@ BasicContainerLayer
 ChildrenPartitionVisibleRegion
 (
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aInRect
 )
@@ -383,7 +379,10 @@ _32
 )
 )
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 rect
 =
 aInRect

@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 LayersLogging
 .
 h
@@ -2183,7 +2176,7 @@ MayResample
 )
 )
 {
-nsIntRect
+IntRect
 bounds
 =
 neededRegion
@@ -2192,7 +2185,7 @@ GetBounds
 (
 )
 ;
-nsIntRect
+IntRect
 wholeTiles
 =
 bounds
@@ -2201,7 +2194,7 @@ wholeTiles
 .
 InflateToMultiple
 (
-nsIntSize
+IntSize
 (
 gfxPlatform
 :
@@ -2228,7 +2221,7 @@ GetTileHeight
 )
 )
 ;
-nsIntRect
+IntRect
 padded
 =
 bounds

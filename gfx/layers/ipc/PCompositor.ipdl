@@ -517,7 +517,7 @@ widgets
 async
 UpdatePluginConfigurations
 (
-nsIntPoint
+IntPoint
 aContentOffset
 nsIntRegion
 aVisibleRegion
@@ -758,7 +758,7 @@ MakeSnapshot
 (
 SurfaceDescriptor
 inSnapshot
-nsIntRect
+IntRect
 dirtyRect
 )
 ;

@@ -2645,9 +2645,6 @@ layerInvalidRect
 .
 IsEqualInterior
 (
-nsIntRect
-:
-:
 GetMaxSizedIntRect
 (
 )

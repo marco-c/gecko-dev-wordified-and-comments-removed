@@ -1616,9 +1616,9 @@ finalRegion
 .
 And
 (
-nsIntRect
+IntRect
 (
-nsIntPoint
+IntPoint
 (
 )
 bufferSize

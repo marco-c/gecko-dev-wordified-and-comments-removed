@@ -566,7 +566,10 @@ SwapChainD3D9
 Present
 (
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aRect
 )

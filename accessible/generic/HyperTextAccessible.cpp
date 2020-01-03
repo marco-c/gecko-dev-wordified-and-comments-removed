@@ -4848,10 +4848,9 @@ PresContext
 nsPoint
 coordsInAppUnits
 =
-coords
-.
 ToAppUnits
 (
+coords
 presContext
 -
 >
@@ -7477,10 +7476,9 @@ PresContext
 nsPoint
 coordsInAppUnits
 =
-coords
-.
 ToAppUnits
 (
+coords
 presContext
 -
 >

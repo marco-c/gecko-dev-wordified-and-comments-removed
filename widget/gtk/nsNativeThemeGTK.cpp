@@ -22,6 +22,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h
@@ -3711,7 +3718,13 @@ overflowRect
 .
 Inflate
 (
+gfx
+:
+:
+ToIntMargin
+(
 extraSize
+)
 )
 ;
 }

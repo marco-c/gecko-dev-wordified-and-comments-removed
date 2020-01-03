@@ -2042,10 +2042,9 @@ height
 ;
 dragRect
 =
-dragRect
-.
 ToAppUnits
 (
+dragRect
 nsPresContext
 :
 :

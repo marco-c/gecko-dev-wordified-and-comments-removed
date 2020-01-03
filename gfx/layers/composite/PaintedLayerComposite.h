@@ -14,7 +14,11 @@ h
 #
 include
 "
-gfxRect
+mozilla
+/
+gfx
+/
+Rect
 .
 h
 "
@@ -79,12 +83,6 @@ nscore
 .
 h
 "
-struct
-nsIntPoint
-;
-struct
-nsIntRect
-;
 namespace
 mozilla
 {
@@ -187,7 +185,10 @@ void
 RenderLayer
 (
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aClipRect
 )

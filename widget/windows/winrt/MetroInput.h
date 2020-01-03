@@ -98,9 +98,6 @@ h
 class
 MetroWidget
 ;
-struct
-nsIntPoint
-;
 namespace
 mozilla
 {

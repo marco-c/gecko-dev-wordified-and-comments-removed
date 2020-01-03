@@ -109,9 +109,6 @@ string
 struct
 gfxRGBA
 ;
-struct
-nsIntRect
-;
 namespace
 mozilla
 {

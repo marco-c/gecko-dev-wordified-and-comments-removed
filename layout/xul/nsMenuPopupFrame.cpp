@@ -6640,10 +6640,9 @@ height
 nsRect
 screenRect
 =
-screenRectPixels
-.
 ToAppUnits
 (
+screenRectPixels
 presContext
 -
 >

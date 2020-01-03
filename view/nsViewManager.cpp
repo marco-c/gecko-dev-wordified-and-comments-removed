@@ -2341,15 +2341,14 @@ DrawFrameCounter
 nsRect
 counterBounds
 =
+ToAppUnits
+(
 gfxPlatform
 :
 :
 FrameCounterBounds
 (
 )
-.
-ToAppUnits
-(
 AppUnitsPerDevPixel
 (
 )
@@ -2819,6 +2818,7 @@ i
 nsRect
 rr
 =
+ToAppUnits
 (
 clipRects
 [
@@ -2830,10 +2830,6 @@ bounds
 TopLeft
 (
 )
-)
-.
-ToAppUnits
-(
 AppUnitsPerDevPixel
 (
 )

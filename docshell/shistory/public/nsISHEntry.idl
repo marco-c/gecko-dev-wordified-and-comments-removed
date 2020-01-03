@@ -169,9 +169,13 @@ nsIBFCacheEntry
 C
 +
 +
-struct
-nsIntRect
-;
+#
+include
+"
+nsRect
+.
+h
+"
 class
 nsDocShellEditorData
 ;

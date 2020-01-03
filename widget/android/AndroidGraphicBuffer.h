@@ -11,6 +11,13 @@ gfxTypes
 .
 h
 "
+#
+include
+"
+nsRect
+.
+h
+"
 typedef
 void
 *
@@ -20,9 +27,6 @@ typedef
 void
 *
 EGLClientBuffer
-;
-struct
-nsIntRect
 ;
 namespace
 mozilla

@@ -354,9 +354,6 @@ while
 )
 #
 endif
-struct
-nsIntPoint
-;
 namespace
 mozilla
 {

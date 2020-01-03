@@ -36,9 +36,6 @@ nsPoint
 struct
 nsRect
 ;
-struct
-nsIntRect
-;
 namespace
 mozilla
 {

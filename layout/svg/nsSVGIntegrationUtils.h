@@ -53,9 +53,6 @@ nsIntRegion
 struct
 nsRect
 ;
-struct
-nsIntRect
-;
 namespace
 mozilla
 {

@@ -1137,6 +1137,8 @@ contentToResize
 nsRect
 appUnitsRect
 =
+ToAppUnits
+(
 LayoutDevicePixel
 :
 :
@@ -1144,9 +1146,6 @@ ToUntyped
 (
 rect
 )
-.
-ToAppUnits
-(
 aPresContext
 -
 >

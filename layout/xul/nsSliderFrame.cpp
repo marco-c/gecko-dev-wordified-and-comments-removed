@@ -2956,15 +2956,14 @@ AppUnitsPerDevPixel
 nsRect
 snappedThumbRect
 =
+ToAppUnits
+(
 newThumbRect
 .
 ToNearestPixels
 (
 appUnitsPerPixel
 )
-.
-ToAppUnits
-(
 appUnitsPerPixel
 )
 ;

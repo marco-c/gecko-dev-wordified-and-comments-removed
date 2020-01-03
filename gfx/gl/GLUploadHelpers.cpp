@@ -163,7 +163,7 @@ int
 DataOffset
 (
 const
-nsIntPoint
+IntPoint
 &
 aPoint
 int32_t
@@ -2024,11 +2024,11 @@ paintRegion
 )
 ;
 const
-nsIntRect
+IntRect
 *
 iterRect
 ;
-nsIntPoint
+IntPoint
 topLeft
 =
 paintRegion
@@ -2206,7 +2206,10 @@ aTexture
 bool
 aOverwrite
 const
-nsIntPoint
+gfx
+:
+:
+IntPoint
 &
 aSrcPoint
 bool

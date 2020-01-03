@@ -2607,9 +2607,15 @@ mInvalidRect
 UnionRect
 (
 mInvalidRect
-nsIntRect
+gfx
+:
+:
+IntRect
 (
-nsIntPoint
+gfx
+:
+:
+IntPoint
 (
 0
 0

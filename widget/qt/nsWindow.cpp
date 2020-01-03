@@ -6711,9 +6711,15 @@ aRect
 {
 aRect
 =
-nsIntRect
+gfx
+:
+:
+IntRect
 (
-nsIntPoint
+gfx
+:
+:
+IntPoint
 (
 0
 0
