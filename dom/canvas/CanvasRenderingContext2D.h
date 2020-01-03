@@ -3870,6 +3870,15 @@ JoinStyle
 :
 MITER_OR_BEVEL
 )
+filterString
+(
+MOZ_UTF16
+(
+"
+none
+"
+)
+)
 imageSmoothingEnabled
 (
 true
