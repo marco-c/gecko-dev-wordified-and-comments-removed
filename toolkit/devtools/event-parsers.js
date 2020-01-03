@@ -978,6 +978,10 @@ continue
 }
 let
 matches
+;
+try
+{
+matches
 =
 node
 .
@@ -991,6 +995,13 @@ matches
 selector
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 if
 (
 boolOnEventFound

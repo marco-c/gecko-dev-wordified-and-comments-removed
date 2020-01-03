@@ -1459,6 +1459,8 @@ of
 parsers
 )
 {
+try
+{
 if
 (
 hasListeners
@@ -1475,6 +1477,13 @@ rawNode
 return
 true
 ;
+}
+}
+catch
+(
+e
+)
+{
 }
 }
 return
@@ -1655,6 +1664,8 @@ of
 parsers
 )
 {
+try
+{
 let
 eventInfos
 =
@@ -1702,6 +1713,13 @@ dbg
 eventInfo
 )
 ;
+}
+}
+catch
+(
+e
+)
+{
 }
 }
 return
