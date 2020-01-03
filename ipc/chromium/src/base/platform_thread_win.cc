@@ -152,6 +152,9 @@ char
 name
 )
 {
+#
+ifdef
+HAVE_SEH_EXCEPTIONS
 if
 (
 !
@@ -225,6 +228,8 @@ EXCEPTION_CONTINUE_EXECUTION
 )
 {
 }
+#
+endif
 }
 bool
 PlatformThread
