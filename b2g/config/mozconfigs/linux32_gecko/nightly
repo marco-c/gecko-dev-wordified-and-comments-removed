@@ -145,16 +145,6 @@ Use
 sccache
 no_sccache
 =
-.
-"
-topsrcdir
-/
-build
-/
-mozconfig
-.
-cache
-"
 #
 B2G
 options

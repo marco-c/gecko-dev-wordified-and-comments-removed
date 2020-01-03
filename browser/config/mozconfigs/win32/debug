@@ -212,7 +212,9 @@ build
 /
 mozconfig
 .
-cache
+common
+.
+override
 "
 .
 "
@@ -222,7 +224,5 @@ build
 /
 mozconfig
 .
-common
-.
-override
+cache
 "
