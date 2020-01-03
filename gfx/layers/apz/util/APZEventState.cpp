@@ -15,6 +15,13 @@ h
 #
 include
 "
+APZCCallbackHelper
+.
+h
+"
+#
+include
+"
 mozilla
 /
 BasicEvents
