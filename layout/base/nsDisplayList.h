@@ -11089,16 +11089,6 @@ float
 aAppUnitsPerPixel
 )
 ;
-static
-nsRect
-GetFrameBoundsForTransform
-(
-const
-nsIFrame
-*
-aFrame
-)
-;
 struct
 FrameTransformProperties
 {
