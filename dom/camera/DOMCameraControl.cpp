@@ -1392,6 +1392,10 @@ __LINE__
 this
 )
 ;
+Destroy
+(
+)
+;
 }
 JSObject
 *
