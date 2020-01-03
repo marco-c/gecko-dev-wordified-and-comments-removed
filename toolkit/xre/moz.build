@@ -1021,14 +1021,9 @@ if
 CONFIG
 [
 '
-OS_TARGET
+_MSC_VER
 '
 ]
-!
-=
-'
-Darwin
-'
 :
 FAIL_ON_WARNINGS
 =
