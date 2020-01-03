@@ -60,6 +60,13 @@ include
 protocol
 PBackground
 ;
+include
+protocol
+PBlob
+;
+include
+DOMTypes
+;
 using
 struct
 mozilla
@@ -81,14 +88,6 @@ mozilla
 namespace
 dom
 {
-struct
-BroadcastChannelMessageData
-{
-SerializedStructuredCloneBuffer
-data
-;
-}
-;
 /
 /
 This
@@ -109,7 +108,7 @@ parent
 :
 PostMessage
 (
-BroadcastChannelMessageData
+ClonedMessageData
 message
 )
 ;
@@ -121,7 +120,7 @@ child
 :
 Notify
 (
-BroadcastChannelMessageData
+ClonedMessageData
 message
 )
 ;

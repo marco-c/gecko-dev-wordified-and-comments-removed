@@ -72,7 +72,7 @@ bool
 RecvNotify
 (
 const
-BroadcastChannelMessageData
+ClonedMessageData
 &
 aData
 )

@@ -236,7 +236,7 @@ BroadcastChannelParent
 *
 aParent
 const
-BroadcastChannelMessageData
+ClonedMessageData
 &
 aData
 const
@@ -293,7 +293,7 @@ BroadcastChannelParent
 mParent
 ;
 const
-BroadcastChannelMessageData
+ClonedMessageData
 &
 mData
 ;
@@ -400,7 +400,7 @@ BroadcastChannelParent
 *
 aParent
 const
-BroadcastChannelMessageData
+ClonedMessageData
 &
 aData
 const
