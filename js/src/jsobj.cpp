@@ -6577,21 +6577,15 @@ JSObject
 js
 :
 :
-NewObjectWithGivenProto
+NewObjectWithGivenTaggedProto
 (
 ExclusiveContext
 *
 cxArg
 const
-js
-:
-:
 Class
 *
 clasp
-js
-:
-:
 TaggedProto
 protoArg
 HandleObject
@@ -7569,7 +7563,7 @@ protoArg
 )
 {
 return
-NewObjectWithGivenProto
+NewObjectWithGivenTaggedProto
 (
 cxArg
 clasp
@@ -8819,7 +8813,7 @@ parent
 )
 ;
 return
-NewObjectWithGivenProto
+NewObjectWithGivenTaggedProto
 (
 cx
 &
@@ -9976,7 +9970,7 @@ isNative
 {
 clone
 =
-NewObjectWithGivenProto
+NewObjectWithGivenTaggedProto
 (
 cx
 obj
@@ -10346,8 +10340,6 @@ PlainObject
 :
 :
 class_
-TaggedProto
-(
 group
 -
 >
@@ -10357,7 +10349,6 @@ proto
 .
 toObject
 (
-)
 )
 parent
 kind

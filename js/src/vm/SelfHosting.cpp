@@ -7920,10 +7920,7 @@ selfHostedObject
 getClass
 (
 )
-TaggedProto
-(
 nullptr
-)
 cx
 -
 >
