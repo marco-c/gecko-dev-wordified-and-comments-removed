@@ -1720,6 +1720,17 @@ aHMD
 nullptr
 )
 override
+final
+;
+virtual
+void
+FinishFullscreenChange
+(
+bool
+aIsFullscreen
+)
+override
+final
 ;
 bool
 FullScreen

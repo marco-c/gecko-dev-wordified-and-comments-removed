@@ -3606,13 +3606,13 @@ fullScreen
 "
 ToggleChrome
 :
-Show
+Hide
 "
 :
 "
 ToggleChrome
 :
-Hide
+Show
 "
 }
 )
@@ -32587,11 +32587,6 @@ HTMLInputElement
 aElement
 .
 readOnly
-|
-|
-aElement
-.
-disabled
 |
 |
 (
