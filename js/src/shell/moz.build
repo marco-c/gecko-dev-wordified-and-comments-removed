@@ -155,6 +155,11 @@ jsoptparse
 .
 cpp
 '
+'
+OSObject
+.
+cpp
+'
 ]
 #
 Building
