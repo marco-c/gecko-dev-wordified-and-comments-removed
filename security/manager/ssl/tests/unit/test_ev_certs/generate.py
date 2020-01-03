@@ -198,6 +198,15 @@ cps
 "
 "
 )
+validity_days
+=
+3
+*
+365
++
+3
+*
+31
 def
 import_untrusted_cert
 (
@@ -382,6 +391,10 @@ int_ext_text
 ee_ext_text
                                              
 key_type
+                                             
+ee_validity_in_days
+=
+validity_days
 )
     
 pk12file
@@ -504,6 +517,10 @@ mozilla_testing_ev_policy
                                       
 int_key
 int_cert
+                                      
+validity_in_days
+=
+validity_days
 )
 ;
     
@@ -607,6 +624,10 @@ int_ext_text
 ee_ext_text
                                              
 key_type
+                                             
+ee_validity_in_days
+=
+validity_days
 )
     
 pk12file
@@ -810,6 +831,10 @@ int_ext_text
 ee_ext_text
                                       
 key_type
+                                      
+ee_validity_in_days
+=
+validity_days
 )
     
 pk12file

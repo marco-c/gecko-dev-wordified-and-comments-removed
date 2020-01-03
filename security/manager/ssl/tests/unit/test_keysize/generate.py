@@ -616,6 +616,14 @@ signer_cert_filename
 subject_string
         
 key_size
+        
+3
+*
+365
++
+3
+*
+31
 )
     
 generated_certs
