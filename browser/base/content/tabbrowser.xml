@@ -413,7 +413,7 @@ contextmenu
 =
 contentcontextmenu
 autocompletepopup
-selectpopup
+selectmenulist
 "
 /
 >
@@ -10703,7 +10703,7 @@ this
 hasAttribute
 (
 "
-selectpopup
+selectmenulist
 "
 )
 )
@@ -10712,14 +10712,14 @@ b
 setAttribute
 (
 "
-selectpopup
+selectmenulist
 "
 this
 .
 getAttribute
 (
 "
-selectpopup
+selectmenulist
 "
 )
 )

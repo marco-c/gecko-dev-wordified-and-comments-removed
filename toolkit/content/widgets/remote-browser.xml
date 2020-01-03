@@ -1819,7 +1819,7 @@ this
 hasAttribute
 (
 "
-selectpopup
+selectmenulist
 "
 )
 )
@@ -2251,7 +2251,7 @@ jsm
 )
 ;
 let
-dropdown
+menulist
 =
 document
 .
@@ -2262,7 +2262,7 @@ this
 getAttribute
 (
 "
-selectpopup
+selectmenulist
 "
 )
 )
@@ -2271,7 +2271,7 @@ SelectParentHelper
 .
 populate
 (
-dropdown
+menulist
 data
 .
 options
@@ -2285,7 +2285,7 @@ SelectParentHelper
 open
 (
 this
-dropdown
+menulist
 data
 .
 rect
@@ -2470,7 +2470,7 @@ jsm
 )
 ;
 let
-dropdown
+menulist
 =
 document
 .
@@ -2481,7 +2481,7 @@ this
 getAttribute
 (
 "
-selectpopup
+selectmenulist
 "
 )
 )
@@ -2490,7 +2490,7 @@ SelectParentHelper
 .
 hide
 (
-dropdown
+menulist
 )
 ;
 break
