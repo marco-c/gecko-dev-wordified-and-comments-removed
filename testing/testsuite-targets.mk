@@ -4827,6 +4827,7 @@ PKG_STAGE
 jit
 -
 test
+/
 cp
 -
 RL
@@ -4849,9 +4850,6 @@ jit
 -
 test
 /
-jit
--
-test
 cp
 -
 RL
@@ -4876,7 +4874,6 @@ test
 /
 tests
 /
-ecma_6
 cp
 -
 RL
@@ -4901,7 +4898,6 @@ test
 /
 tests
 /
-js1_8_5
 cp
 -
 RL
@@ -4926,7 +4922,6 @@ test
 /
 tests
 /
-lib
 stage
 -
 steeplechase
