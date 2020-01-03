@@ -88,6 +88,7 @@ aDestination
 class
 MOZ_STACK_CLASS
 nsQueryReferent
+final
 :
 public
 nsCOMPtr_helper

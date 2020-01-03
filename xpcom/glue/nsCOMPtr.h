@@ -359,6 +359,7 @@ mRawPtr
 ;
 class
 nsQueryInterfaceWithError
+final
 {
 public
 :
@@ -485,6 +486,7 @@ nsresult
 }
 class
 nsGetServiceByCID
+final
 {
 public
 :
@@ -529,6 +531,7 @@ mCID
 ;
 class
 nsGetServiceByCIDWithError
+final
 {
 public
 :
@@ -583,6 +586,7 @@ mErrorPtr
 ;
 class
 nsGetServiceByContractID
+final
 {
 public
 :
@@ -627,6 +631,7 @@ mContractID
 ;
 class
 nsGetServiceByContractIDWithError
+final
 {
 public
 :

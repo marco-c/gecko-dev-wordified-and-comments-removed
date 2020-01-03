@@ -21,6 +21,7 @@ h
 class
 MOZ_STACK_CLASS
 nsQueryArrayElementAt
+final
 :
 public
 nsCOMPtr_helper
