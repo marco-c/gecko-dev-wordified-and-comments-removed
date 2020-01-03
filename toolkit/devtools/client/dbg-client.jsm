@@ -1081,6 +1081,13 @@ appUninstall
 "
 appUninstall
 "
+"
+evaluationResult
+"
+:
+"
+evaluationResult
+"
 }
 ;
 const

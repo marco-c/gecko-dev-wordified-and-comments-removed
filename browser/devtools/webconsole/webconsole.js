@@ -14197,7 +14197,7 @@ this
 .
 webConsoleClient
 .
-evaluateJS
+evaluateJSAsync
 (
 aString
 onResult
