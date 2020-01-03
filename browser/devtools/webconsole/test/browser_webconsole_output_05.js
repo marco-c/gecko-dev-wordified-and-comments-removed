@@ -46,13 +46,10 @@ nsIPrefLocalizedString
 data
 ;
 let
-dateNow
+testDate
 =
-Date
-.
-now
-(
-)
+-
+310435200000
 ;
 let
 inputTests
@@ -178,7 +175,7 @@ Date
 (
 "
 +
-dateNow
+testDate
 +
 "
 )
@@ -193,7 +190,7 @@ Date
 new
 Date
 (
-dateNow
+testDate
 )
 )
 .
@@ -206,7 +203,7 @@ printOutput
 new
 Date
 (
-dateNow
+testDate
 )
 )
 .
@@ -655,7 +652,7 @@ finishUp
 {
 inputTests
 =
-dateNow
+testDate
 =
 null
 ;
