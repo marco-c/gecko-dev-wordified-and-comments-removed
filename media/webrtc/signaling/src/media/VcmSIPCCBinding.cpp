@@ -9964,7 +9964,7 @@ t_uint
 }
 if
 (
-ccsdpAttrGetFmtpMaxCpb
+ccsdpAttrGetFmtpMaxDpb
 (
 sdp_p
 level
@@ -9988,7 +9988,7 @@ t_uint
 }
 if
 (
-ccsdpAttrGetFmtpMaxCpb
+ccsdpAttrGetFmtpMaxBr
 (
 sdp_p
 level
