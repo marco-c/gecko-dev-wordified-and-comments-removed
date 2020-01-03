@@ -874,13 +874,9 @@ Linux
 TEST_HARNESS_BINS
 +
 =
-fix
--
-linux
--
-stack
+fix_linux_stack
 .
-pl
+py
 endif
 ifeq
 (
