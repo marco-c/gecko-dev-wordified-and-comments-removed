@@ -2092,7 +2092,7 @@ service
 >
 GetItemByServiceId
 (
-0
+mRilDataServiceId
 getter_AddRefs
 (
 connection
@@ -4351,7 +4351,7 @@ service
 >
 GetItemByServiceId
 (
-0
+mRilDataServiceId
 getter_AddRefs
 (
 connection
