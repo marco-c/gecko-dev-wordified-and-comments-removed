@@ -727,12 +727,6 @@ MOZ_ASSERT
 mReplyRequest
 )
 ;
-nsCOMPtr
-<
-SmsMessage
->
-message
-;
 switch
 (
 aReply
