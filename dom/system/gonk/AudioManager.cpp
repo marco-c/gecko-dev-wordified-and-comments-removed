@@ -986,8 +986,7 @@ ProcessDelayedA2dpRoute
 audio_policy_dev_state_t
 aState
 const
-char
-*
+nsCString
 aAddress
 )
 {
@@ -1005,6 +1004,10 @@ setDeviceConnectionState
 AUDIO_DEVICE_OUT_BLUETOOTH_A2DP
 aState
 aAddress
+.
+get
+(
+)
 )
 ;
 String8
@@ -1430,10 +1433,6 @@ NewRunnableFunction
 ProcessDelayedA2dpRoute
 audioState
 aAddress
-.
-get
-(
-)
 )
 1000
 )
