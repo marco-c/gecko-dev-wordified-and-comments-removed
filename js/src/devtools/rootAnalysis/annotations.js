@@ -732,6 +732,17 @@ int32
 :
 true
 "
+uint32
+nsXPConnect
+:
+:
+Release
+(
+)
+"
+:
+true
+"
 NS_LogInit
 "
 :

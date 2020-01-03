@@ -839,6 +839,7 @@ obj
 }
 class
 nsXPConnect
+final
 :
 public
 nsIXPConnect
@@ -7777,6 +7778,7 @@ mNextChunk
 ;
 class
 XPCWrappedNative
+final
 :
 public
 nsIXPConnectWrappedNative
@@ -8973,6 +8975,7 @@ NS_IXPCONNECT_WRAPPED_JS_CLASS_IID
 )
 class
 nsXPCWrappedJSClass
+final
 :
 public
 nsIXPCWrappedJSClass
