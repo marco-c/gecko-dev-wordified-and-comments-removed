@@ -4417,7 +4417,7 @@ temp
 responseUrl
 -
 >
-GetSpec
+GetSpecIgnoringRef
 (
 temp
 )
