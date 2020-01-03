@@ -33,15 +33,6 @@ record
 )
 ;
 void
-addUploadedRecord
-(
-ClientReadingListRecord
-up
-ServerReadingListRecord
-down
-)
-;
-void
 addDownloadedRecord
 (
 ServerReadingListRecord
