@@ -559,6 +559,11 @@ SetSyncPointForMediaStream
 (
 )
 ;
+void
+ResyncMediaStreamClock
+(
+)
+;
 int64_t
 GetCurrentTimeViaMediaStreamSync
 (
