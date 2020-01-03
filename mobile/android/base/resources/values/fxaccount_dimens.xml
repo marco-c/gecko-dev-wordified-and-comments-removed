@@ -102,7 +102,7 @@ name
 fxaccount_corner_radius
 "
 >
-5dp
+3dp
 <
 /
 dimen
@@ -137,7 +137,7 @@ name
 fxaccount_input_padding_horizontal
 "
 >
-20dp
+10dp
 <
 /
 dimen

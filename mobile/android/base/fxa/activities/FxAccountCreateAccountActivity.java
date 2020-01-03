@@ -790,6 +790,10 @@ updateFromIntentExtras
 (
 )
 ;
+maybeEnableAnimations
+(
+)
+;
 }
 Override
 protected

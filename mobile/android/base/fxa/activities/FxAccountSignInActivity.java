@@ -504,6 +504,10 @@ updateFromIntentExtras
 (
 )
 ;
+maybeEnableAnimations
+(
+)
+;
 TextView
 view
 =
