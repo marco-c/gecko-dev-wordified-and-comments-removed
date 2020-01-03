@@ -573,7 +573,11 @@ interface
 HTMLMediaElement
 {
 attribute
+(
 MediaStream
+or
+MediaSource
+)
 ?
 mozSrcObject
 ;
