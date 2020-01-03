@@ -2005,7 +2005,7 @@ enabled
 "
 ImageDecodeOnlyOnDrawEnabled
 bool
-true
+false
 )
 ;
 DECL_GFX_PREF
