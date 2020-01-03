@@ -220,6 +220,13 @@ cfx
 xpi
 -
 -
+no
+-
+strip
+-
+xpi
+-
+-
 pkgdir
 =
 (
