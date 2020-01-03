@@ -528,6 +528,16 @@ gfx
 StrokeOptions
 StrokeOptions
 ;
+typedef
+mozilla
+:
+:
+image
+:
+:
+DrawResult
+DrawResult
+;
 public
 :
 typedef
@@ -3435,7 +3445,7 @@ aFrame
 )
 ;
 static
-nsresult
+DrawResult
 DrawBackgroundImage
 (
 gfxContext
@@ -3474,7 +3484,7 @@ aImageFlags
 )
 ;
 static
-nsresult
+DrawResult
 DrawImage
 (
 gfxContext
@@ -3662,7 +3672,7 @@ aAppUnitsPerPixel
 ;
 }
 static
-nsresult
+DrawResult
 DrawSingleUnscaledImage
 (
 gfxContext
@@ -3695,7 +3705,7 @@ nullptr
 )
 ;
 static
-nsresult
+DrawResult
 DrawSingleImage
 (
 gfxContext
