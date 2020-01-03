@@ -52,6 +52,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 nsISupportsPrimitives
 .
 h

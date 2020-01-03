@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MemoryReporting

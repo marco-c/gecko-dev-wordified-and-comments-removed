@@ -365,6 +365,13 @@ h
 #
 include
 "
+nsIURL
+.
+h
+"
+#
+include
+"
 nsProxyRelease
 .
 h

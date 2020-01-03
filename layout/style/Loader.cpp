@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsIProtocolHandler
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

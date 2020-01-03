@@ -421,6 +421,13 @@ h
 #
 include
 "
+nsIURLParser
+.
+h
+"
+#
+include
+"
 nsIDOMDataChannel
 .
 h

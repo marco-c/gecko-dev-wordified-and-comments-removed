@@ -113,6 +113,13 @@ h
 #
 include
 "
+nsIDOMNode
+.
+h
+"
+#
+include
+"
 nsIOutputStream
 .
 h
@@ -121,6 +128,13 @@ h
 include
 "
 nsIInputStream
+.
+h
+"
+#
+include
+"
+nsIWeakReferenceUtils
 .
 h
 "

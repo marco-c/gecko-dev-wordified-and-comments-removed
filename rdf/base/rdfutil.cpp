@@ -96,6 +96,13 @@ rdfutil
 .
 h
 "
+#
+include
+"
+prtime
+.
+h
+"
 nsresult
 rdf_MakeRelativeRef
 (

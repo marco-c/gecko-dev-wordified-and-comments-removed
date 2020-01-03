@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 nsSocketTransportService2
 .
 h

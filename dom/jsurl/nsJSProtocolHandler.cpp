@@ -78,6 +78,13 @@ h
 #
 include
 "
+nsIStreamListener
+.
+h
+"
+#
+include
+"
 nsIComponentManager
 .
 h

@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsIStandardURL
+.
+h
+"
+#
+include
+"
 nsIAppsService
 .
 h

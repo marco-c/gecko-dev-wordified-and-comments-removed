@@ -112,6 +112,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h

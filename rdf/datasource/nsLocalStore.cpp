@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h

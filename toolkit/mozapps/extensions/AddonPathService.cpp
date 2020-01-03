@@ -71,6 +71,13 @@ h
 #
 include
 "
+nsIFileURL
+.
+h
+"
+#
+include
+"
 nsIResProtocolHandler
 .
 h

@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

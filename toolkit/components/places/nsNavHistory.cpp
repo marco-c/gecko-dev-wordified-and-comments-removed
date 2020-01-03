@@ -164,6 +164,13 @@ h
 #
 include
 "
+nsIIDNService
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

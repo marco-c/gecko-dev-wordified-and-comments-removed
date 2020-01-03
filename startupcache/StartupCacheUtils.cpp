@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsIFileURL
+.
+h
+"
+#
+include
+"
 nsIJARURI
 .
 h

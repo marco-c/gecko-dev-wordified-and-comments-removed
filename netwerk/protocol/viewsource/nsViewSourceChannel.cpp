@@ -47,6 +47,13 @@ nsNullPrincipal
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 NS_IMPL_ADDREF
 (
 nsViewSourceChannel

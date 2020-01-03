@@ -119,6 +119,13 @@ h
 #
 include
 "
+nsIFileURL
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

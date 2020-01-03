@@ -172,6 +172,13 @@ h
 #
 include
 "
+nsIFileURL
+.
+h
+"
+#
+include
+"
 nsIXPConnect
 .
 h

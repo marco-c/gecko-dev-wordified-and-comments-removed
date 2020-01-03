@@ -66,6 +66,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h

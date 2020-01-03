@@ -71,6 +71,13 @@ h
 #
 include
 "
+nsIOutputStream
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

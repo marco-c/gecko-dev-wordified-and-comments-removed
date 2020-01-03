@@ -236,6 +236,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 nsCSSRendering
 .
 h

@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsIStreamListener
+.
+h
+"
+#
+include
+"
 nsIPrefService
 .
 h

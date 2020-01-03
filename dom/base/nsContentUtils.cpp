@@ -984,6 +984,13 @@ h
 #
 include
 "
+nsIMIMEHeaderParam
+.
+h
+"
+#
+include
+"
 nsIMIMEService
 .
 h
@@ -1129,6 +1136,13 @@ h
 include
 "
 nsIURI
+.
+h
+"
+#
+include
+"
+nsIURIWithPrincipal
 .
 h
 "

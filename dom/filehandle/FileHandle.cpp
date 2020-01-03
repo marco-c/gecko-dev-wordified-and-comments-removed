@@ -121,6 +121,13 @@ h
 #
 include
 "
+nsIAsyncStreamCopier
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

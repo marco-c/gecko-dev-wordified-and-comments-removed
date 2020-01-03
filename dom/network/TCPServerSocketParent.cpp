@@ -1,6 +1,13 @@
 #
 include
 "
+nsIScriptSecurityManager
+.
+h
+"
+#
+include
+"
 TCPServerSocketParent
 .
 h

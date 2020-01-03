@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsIPipe
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

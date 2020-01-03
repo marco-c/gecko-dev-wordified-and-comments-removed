@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPtr

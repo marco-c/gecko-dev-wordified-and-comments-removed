@@ -62,6 +62,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 SerializedLoadContext
 .
 h

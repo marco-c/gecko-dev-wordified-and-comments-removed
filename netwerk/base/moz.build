@@ -796,6 +796,11 @@ nsNetUtil
 h
 '
 '
+nsNetUtil
+.
+inl
+'
+'
 nsReadLine
 .
 h

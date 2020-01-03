@@ -50,6 +50,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h

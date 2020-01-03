@@ -66,6 +66,13 @@ h
 #
 include
 "
+nsISimpleEnumerator
+.
+h
+"
+#
+include
+"
 nsIStreamListener
 .
 h
@@ -95,6 +102,13 @@ h
 include
 "
 nsIURI
+.
+h
+"
+#
+include
+"
+nsIURL
 .
 h
 "

@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsIScriptSecurityManager
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h

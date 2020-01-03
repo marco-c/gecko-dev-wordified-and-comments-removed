@@ -106,6 +106,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 pldhash
 .
 h

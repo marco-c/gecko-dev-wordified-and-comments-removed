@@ -68,6 +68,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h

@@ -45,6 +45,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsIDirectoryService
 .
 h

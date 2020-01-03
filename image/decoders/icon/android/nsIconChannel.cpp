@@ -68,6 +68,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsNullPrincipal
 .
 h

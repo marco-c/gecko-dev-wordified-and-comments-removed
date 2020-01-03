@@ -300,6 +300,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 IHistory
 .
 h

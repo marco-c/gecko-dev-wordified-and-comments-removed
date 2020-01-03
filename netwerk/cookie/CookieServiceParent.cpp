@@ -59,6 +59,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

@@ -89,6 +89,15 @@ include
 "
 mozilla
 /
+LoadInfo
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h

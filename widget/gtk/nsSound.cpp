@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

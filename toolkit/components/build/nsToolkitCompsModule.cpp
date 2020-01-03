@@ -17,6 +17,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 nsUserInfo
 .
 h

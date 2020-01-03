@@ -19,6 +19,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

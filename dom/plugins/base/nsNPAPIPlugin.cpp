@@ -393,6 +393,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Mutex

@@ -40,6 +40,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsIFileURL
 .
 h

@@ -113,6 +113,13 @@ h
 #
 include
 "
+nsISafeOutputStream
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
@@ -142,6 +149,13 @@ h
 include
 "
 nsNetUtil
+.
+h
+"
+#
+include
+"
+nsISafeOutputStream
 .
 h
 "

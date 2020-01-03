@@ -33,6 +33,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsDirectoryServiceUtils
+.
+h
+"
 class
 URLPropertyElement
 :

@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsIProtocolHandler
+.
+h
+"
+#
+include
+"
 nsScriptSecurityManager
 .
 h

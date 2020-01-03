@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsIURL
+.
+h
+"
+#
+include
+"
 nsIWebProgressListener
 .
 h

@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsIPrivateBrowsingChannel
+.
+h
+"
+#
+include
+"
 nsIWebSocketChannel
 .
 h

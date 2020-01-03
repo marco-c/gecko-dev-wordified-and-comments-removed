@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsISafeOutputStream
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Telemetry

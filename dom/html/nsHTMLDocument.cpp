@@ -189,6 +189,13 @@ h
 #
 include
 "
+nsIPrivateBrowsingChannel
+.
+h
+"
+#
+include
+"
 nsIContentViewerContainer
 .
 h
