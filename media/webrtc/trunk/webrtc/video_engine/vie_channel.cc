@@ -9941,6 +9941,12 @@ StartReceive
 (
 )
 ;
+vie_receiver_
+.
+StartRTCPReceive
+(
+)
+;
 return
 0
 ;
@@ -9972,6 +9978,12 @@ __FUNCTION__
 vie_receiver_
 .
 StopReceive
+(
+)
+;
+vie_receiver_
+.
+StopRTCPReceive
 (
 )
 ;
