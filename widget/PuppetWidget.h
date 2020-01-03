@@ -1110,6 +1110,12 @@ GetCaretOffset
 (
 )
 ;
+nsIWidgetListener
+*
+GetCurrentWidgetListener
+(
+)
+;
 class
 PaintTask
 :
