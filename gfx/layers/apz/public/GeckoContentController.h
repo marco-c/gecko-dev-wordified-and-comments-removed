@@ -30,6 +30,15 @@ h
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -91,7 +100,7 @@ const
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
@@ -109,7 +118,7 @@ const
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
@@ -127,7 +136,7 @@ const
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
@@ -147,7 +156,7 @@ const
 CSSPoint
 &
 aPoint
-int32_t
+Modifiers
 aModifiers
 const
 ScrollableLayerGuid
