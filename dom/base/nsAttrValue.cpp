@@ -136,6 +136,14 @@ include
 <
 algorithm
 >
+#
+ifdef
+LoadImage
+#
+undef
+LoadImage
+#
+endif
 using
 namespace
 mozilla
