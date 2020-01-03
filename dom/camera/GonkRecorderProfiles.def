@@ -6,6 +6,8 @@ Copyright
 C
 )
 2012
+-
+2015
 Mozilla
 Foundation
 *
@@ -265,6 +267,14 @@ camera
 .
 *
 /
+DEF_GONK_RECORDER_PROFILE_DETECT
+(
+"
+4kuhd
+"
+3840
+2160
+)
 DEF_GONK_RECORDER_PROFILE_DETECT
 (
 "
