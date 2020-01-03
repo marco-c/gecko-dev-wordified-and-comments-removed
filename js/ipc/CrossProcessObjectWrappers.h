@@ -124,14 +124,14 @@ outCpows
 }
 ;
 class
-CpowIdHolder
+CrossProcessCpowHolder
 :
 public
 CpowHolder
 {
 public
 :
-CpowIdHolder
+CrossProcessCpowHolder
 (
 dom
 :
