@@ -213,6 +213,14 @@ netwerk
 base
 '
 ]
+if
+CONFIG
+[
+'
+GNU_CC
+'
+]
+:
 CFLAGS
 +
 =
