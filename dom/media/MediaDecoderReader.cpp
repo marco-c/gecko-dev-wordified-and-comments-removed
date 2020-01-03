@@ -657,6 +657,15 @@ AssertCurrentThreadIn
 (
 )
 ;
+MOZ_ASSERT
+(
+mStartTime
+=
+=
+-
+1
+)
+;
 mStartTime
 =
 aStartTime
