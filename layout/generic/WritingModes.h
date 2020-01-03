@@ -991,6 +991,16 @@ friend
 class
 LogicalRect
 ;
+friend
+struct
+IPC
+:
+:
+ParamTraits
+<
+WritingMode
+>
+;
 static
 inline
 WritingMode
