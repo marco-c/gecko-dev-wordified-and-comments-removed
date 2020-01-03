@@ -10645,6 +10645,12 @@ revisedBaselineBCoord
 baselineBCoord
 -
 offset
+*
+lineWM
+.
+FlowRelativeToLineRelativeFactor
+(
+)
 ;
 pfd
 -
