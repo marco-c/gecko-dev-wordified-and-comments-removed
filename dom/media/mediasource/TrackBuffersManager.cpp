@@ -1510,6 +1510,14 @@ AppendState
 WAITING_FOR_SEGMENT
 )
 ;
+mAppendPromise
+.
+RejectIfExists
+(
+NS_ERROR_ABORT
+__func__
+)
+;
 }
 void
 TrackBuffersManager
