@@ -919,6 +919,11 @@ return
 mNeedsToFlushData
 ;
 }
+void
+CompleteDecode
+(
+)
+;
 RawAccessFrameRef
 EnsureFrame
 (
@@ -1037,6 +1042,9 @@ mDataError
 ;
 bool
 mDecodeAborted
+;
+bool
+mShouldReportError
 ;
 bool
 mImageIsTransient
