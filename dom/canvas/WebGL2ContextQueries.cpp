@@ -174,7 +174,10 @@ return
 LOCAL_GL_SAMPLES_PASSED
 ;
 }
-WebGLQueryRefPtr
+WebGLRefPtr
+<
+WebGLQuery
+>
 *
 WebGLContext
 :
