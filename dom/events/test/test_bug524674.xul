@@ -678,6 +678,10 @@ hasMoreElements
 {
 var
 current
+;
+try
+{
+current
 =
 e
 .
@@ -685,6 +689,15 @@ getNext
 (
 )
 ;
+}
+catch
+(
+ex
+)
+{
+continue
+;
+}
 var
 expected
 =
