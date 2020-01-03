@@ -871,11 +871,6 @@ mHasSize
 1
 ;
 bool
-mDecodeOnlyOnDraw
-:
-1
-;
-bool
 mTransient
 :
 1
