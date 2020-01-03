@@ -1756,9 +1756,6 @@ const
 nsIntRect
 &
 aRect
-nsDeviceContext
-*
-aContext
 nsWidgetInitData
 *
 aInitData
@@ -2070,7 +2067,6 @@ return
 CreatePopupContentView
 (
 newBounds
-aContext
 )
 ;
 }
@@ -3365,9 +3361,6 @@ const
 nsIntRect
 &
 aRect
-nsDeviceContext
-*
-aContext
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
@@ -3425,7 +3418,6 @@ Create
 thisAsWidget
 nullptr
 aRect
-aContext
 nullptr
 )
 ;

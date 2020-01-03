@@ -409,9 +409,6 @@ const
 nsIntRect
 &
 aRect
-nsDeviceContext
-*
-aContext
 nsWidgetInitData
 *
 aInitData
@@ -655,7 +652,6 @@ nullptr
 this
 nullptr
 aRect
-aContext
 aInitData
 )
 )

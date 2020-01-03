@@ -746,7 +746,6 @@ nsIWidget
 parentWidget
 nullptr
 r
-nullptr
 &
 widgetInitData
 )

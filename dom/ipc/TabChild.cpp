@@ -5326,7 +5326,6 @@ nsIntSize
 )
 )
 nullptr
-nullptr
 )
 ;
 baseWindow
@@ -15794,7 +15793,6 @@ nsIntSize
 0
 )
 )
-nullptr
 &
 initData
 )

@@ -1482,7 +1482,6 @@ nsIntSize
 )
 )
 nullptr
-nullptr
 )
 ;
 nsCOMPtr
