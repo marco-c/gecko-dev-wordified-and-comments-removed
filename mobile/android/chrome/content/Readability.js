@@ -1084,13 +1084,10 @@ _doc
 ;
 if
 (
+!
 doc
 .
 body
-=
-=
-=
-null
 )
 {
 let
