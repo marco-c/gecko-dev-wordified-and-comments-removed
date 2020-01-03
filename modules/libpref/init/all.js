@@ -33276,3 +33276,15 @@ allowForceReadOnly
 false
 )
 ;
+pref
+(
+"
+dom
+.
+requestSync
+.
+enabled
+"
+false
+)
+;
