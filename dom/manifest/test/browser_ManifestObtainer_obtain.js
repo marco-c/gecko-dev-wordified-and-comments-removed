@@ -3,11 +3,6 @@ use
 strict
 '
 ;
-const
-{
-ManifestObtainer
-}
-=
 Cu
 .
 import
@@ -21,12 +16,11 @@ gre
 /
 modules
 /
-WebManifest
+ManifestObtainer
 .
 jsm
 '
-{
-}
+this
 )
 ;
 requestLongerTimeout
