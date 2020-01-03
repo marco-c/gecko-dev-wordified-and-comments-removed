@@ -1710,6 +1710,11 @@ SameProcessMessageQueue
 cpp
 '
 '
+ScreenOrientation
+.
+cpp
+'
+'
 ScriptSettings
 .
 cpp

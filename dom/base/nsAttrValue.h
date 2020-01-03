@@ -94,6 +94,9 @@ BindingDeclarations
 .
 h
 "
+#
+undef
+LoadImage
 class
 nsAString
 ;
