@@ -73,13 +73,6 @@ h
 #
 include
 "
-CanvasUtils
-.
-h
-"
-#
-include
-"
 gfxTextRun
 .
 h

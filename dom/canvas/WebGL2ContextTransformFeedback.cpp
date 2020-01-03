@@ -33,17 +33,9 @@ GLContext
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
-;
+{
 already_AddRefed
 <
 WebGLTransformFeedback
@@ -911,4 +903,5 @@ GetTransformFeedbackVarying
 index
 )
 ;
+}
 }

@@ -173,7 +173,7 @@ Handle
 JSObject
 *
 >
-aGivenProto
+givenProto
 )
 {
 return
@@ -187,7 +187,7 @@ Wrap
 (
 cx
 this
-aGivenProto
+givenProto
 )
 ;
 }

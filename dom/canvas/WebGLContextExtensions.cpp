@@ -1858,6 +1858,9 @@ GetSupportedExtensions
 JSContext
 *
 cx
+dom
+:
+:
 Nullable
 <
 nsTArray

@@ -1,21 +1,13 @@
 #
 include
 "
-WebGLContext
-.
-h
-"
-#
-include
-"
 WebGLExtensions
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 WebGLExtensionBase
 :
 :
@@ -72,3 +64,4 @@ NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
 WebGLExtensionBase
 Release
 )
+}

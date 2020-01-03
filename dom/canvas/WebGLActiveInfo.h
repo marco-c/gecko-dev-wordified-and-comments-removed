@@ -14,15 +14,6 @@ h
 #
 include
 "
-js
-/
-TypeDecls
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -96,7 +87,7 @@ Handle
 JSObject
 *
 >
-aGivenProto
+givenProto
 )
 override
 ;

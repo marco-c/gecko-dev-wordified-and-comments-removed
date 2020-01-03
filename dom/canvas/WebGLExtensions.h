@@ -7,7 +7,9 @@ WEBGL_EXTENSIONS_H_
 #
 include
 "
-jsapi
+mozilla
+/
+AlreadyAddRefed
 .
 h
 "
@@ -44,6 +46,18 @@ h
 namespace
 mozilla
 {
+namespace
+dom
+{
+template
+<
+typename
+T
+>
+class
+Sequence
+;
+}
 class
 WebGLContext
 ;
@@ -136,7 +150,7 @@ Handle
 JSObject
 *
 >
-aGivenProto
+givenProto
 )
 override
 ;
@@ -167,7 +181,7 @@ Handle
 JSObject
 *
 >
-aGivenProto
+givenProto
 )
 {
 \
@@ -185,7 +199,7 @@ Wrap
 (
 cx
 this
-aGivenProto
+givenProto
 )
 ;
 \

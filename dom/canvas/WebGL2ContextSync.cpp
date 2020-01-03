@@ -19,17 +19,9 @@ WebGLSync
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
-;
+{
 already_AddRefed
 <
 WebGLSync
@@ -593,4 +585,5 @@ pname
 pname
 )
 ;
+}
 }

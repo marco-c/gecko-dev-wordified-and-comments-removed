@@ -77,6 +77,13 @@ h
 #
 include
 "
+WebGLActiveInfo
+.
+h
+"
+#
+include
+"
 WebGLBuffer
 .
 h
@@ -106,6 +113,13 @@ h
 include
 "
 WebGLRenderbuffer
+.
+h
+"
+#
+include
+"
+WebGLSampler
 .
 h
 "

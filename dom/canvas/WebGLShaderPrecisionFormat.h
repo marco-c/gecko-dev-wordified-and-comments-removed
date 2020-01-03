@@ -59,7 +59,7 @@ WrapObject
 (
 JSContext
 *
-aCx
+cx
 JS
 :
 :
@@ -68,7 +68,7 @@ Handle
 JSObject
 *
 >
-aGivenProto
+givenProto
 JS
 :
 :
@@ -77,7 +77,7 @@ MutableHandle
 JSObject
 *
 >
-aReflector
+reflector
 )
 ;
 GLint

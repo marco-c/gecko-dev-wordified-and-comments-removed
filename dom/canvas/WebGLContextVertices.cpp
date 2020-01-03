@@ -77,14 +77,9 @@ WebGLVertexAttribData
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
-namespace
-dom
-;
+{
 void
 WebGLContext
 :
@@ -1508,6 +1503,9 @@ JSObject
 *
 obj
 =
+dom
+:
+:
 Float32Array
 :
 :
@@ -1930,4 +1928,5 @@ index
 divisor
 )
 ;
+}
 }

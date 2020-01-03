@@ -94,7 +94,7 @@ Handle
 JSObject
 *
 >
-aGivenProto
+givenProto
 )
 override
 ;
@@ -210,7 +210,7 @@ GLenum
 attachments
 ErrorResult
 &
-aRv
+rv
 )
 ;
 void
@@ -238,7 +238,7 @@ GLsizei
 height
 ErrorResult
 &
-aRv
+rv
 )
 ;
 void
@@ -317,6 +317,9 @@ format
 GLenum
 type
 const
+dom
+:
+:
 Nullable
 <
 dom
@@ -355,6 +358,9 @@ format
 GLenum
 type
 const
+dom
+:
+:
 Nullable
 <
 dom

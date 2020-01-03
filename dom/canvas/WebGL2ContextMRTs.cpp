@@ -12,17 +12,9 @@ GLContext
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
-;
+{
 bool
 WebGL2Context
 :
@@ -664,4 +656,5 @@ depth
 stencil
 )
 ;
+}
 }

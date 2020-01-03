@@ -33,10 +33,9 @@ GLContext
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 void
 WebGLContext
 :
@@ -984,4 +983,5 @@ face
 mask
 )
 ;
+}
 }

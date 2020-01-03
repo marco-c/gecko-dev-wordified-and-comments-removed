@@ -41,6 +41,13 @@ h
 #
 include
 "
+GLScreenBuffer
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

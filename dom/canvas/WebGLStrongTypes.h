@@ -6,6 +6,11 @@ define
 WEBGL_STRONG_TYPES_H_
 #
 include
+<
+algorithm
+>
+#
+include
 "
 GLDefs
 .

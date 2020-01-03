@@ -14,13 +14,6 @@ h
 #
 include
 "
-WebGLStrongTypes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -35,6 +28,13 @@ mozilla
 dom
 /
 BindingUtils
+.
+h
+"
+#
+include
+"
+WebGLStrongTypes
 .
 h
 "

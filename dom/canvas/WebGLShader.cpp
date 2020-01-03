@@ -1796,7 +1796,7 @@ Handle
 JSObject
 *
 >
-aGivenProto
+givenProto
 )
 {
 return
@@ -1810,7 +1810,7 @@ Wrap
 (
 js
 this
-aGivenProto
+givenProto
 )
 ;
 }

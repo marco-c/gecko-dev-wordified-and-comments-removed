@@ -34,6 +34,13 @@ WebGLObjectModel
 .
 h
 "
+#
+include
+"
+WebGLStrongTypes
+.
+h
+"
 namespace
 mozilla
 {
@@ -272,7 +279,7 @@ Handle
 JSObject
 *
 >
-aGivenProto
+givenProto
 )
 override
 ;
