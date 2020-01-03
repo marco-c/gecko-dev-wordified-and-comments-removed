@@ -4307,16 +4307,6 @@ SetBaseURI
 finalURI
 )
 ;
-if
-(
-mWorkerPrivate
--
->
-IsServiceWorker
-(
-)
-)
-{
 mWorkerPrivate
 -
 >
@@ -4325,7 +4315,6 @@ InitChannelInfo
 channel
 )
 ;
-}
 WorkerPrivate
 *
 parent

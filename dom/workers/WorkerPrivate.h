@@ -1533,13 +1533,6 @@ GetChannelInfo
 )
 const
 {
-MOZ_ASSERT
-(
-IsServiceWorker
-(
-)
-)
-;
 return
 mLoadInfo
 .
@@ -1555,13 +1548,6 @@ ChannelInfo
 aChannelInfo
 )
 {
-MOZ_ASSERT
-(
-IsServiceWorker
-(
-)
-)
-;
 AssertIsOnMainThread
 (
 )

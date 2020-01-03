@@ -22,6 +22,9 @@ class
 nsIChannel
 ;
 class
+nsIDocument
+;
+class
 nsIURI
 ;
 namespace
@@ -141,6 +144,14 @@ return
 this
 ;
 }
+void
+InitFromDocument
+(
+nsIDocument
+*
+aDoc
+)
+;
 void
 InitFromChannel
 (
