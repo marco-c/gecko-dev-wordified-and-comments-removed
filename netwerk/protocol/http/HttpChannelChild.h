@@ -710,8 +710,11 @@ ResetInterception
 void
 OverrideWithSynthesizedResponse
 (
+nsAutoPtr
+<
 nsHttpResponseHead
-*
+>
+&
 aResponseHead
 nsInputStreamPump
 *
