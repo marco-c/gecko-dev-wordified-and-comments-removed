@@ -78,6 +78,9 @@ dom
 class
 DOMRequest
 ;
+class
+File
+;
 struct
 MediaMetaData
 ;
@@ -410,8 +413,8 @@ const
 nsAString
 &
 aDeviceAddress
-nsIDOMBlob
-*
+File
+&
 aBlob
 ErrorResult
 &

@@ -84,6 +84,17 @@ mozilla
 /
 dom
 /
+File
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 bluetooth
 /
 BluetoothAdapter
@@ -5213,8 +5224,8 @@ const
 nsAString
 &
 aDeviceAddress
-nsIDOMBlob
-*
+File
+&
 aBlob
 ErrorResult
 &
@@ -5316,6 +5327,7 @@ bs
 SendFile
 (
 aDeviceAddress
+&
 aBlob
 results
 )
@@ -5360,6 +5372,7 @@ cc
 >
 GetOrCreateActorForBlob
 (
+&
 aBlob
 )
 ;
