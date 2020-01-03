@@ -998,6 +998,13 @@ try
 {
 if
 (
+"
+shouldFocusContent
+"
+in
+l
+&
+&
 !
 l
 .
@@ -1013,6 +1020,13 @@ catch
 ex
 )
 {
+Cu
+.
+reportError
+(
+ex
+)
+;
 }
 }
 let
