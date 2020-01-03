@@ -1778,13 +1778,6 @@ functionDef
 (
 HandlePropertyName
 name
-const
-TokenStream
-:
-:
-Position
-&
-start
 FunctionType
 type
 FunctionSyntaxKind
