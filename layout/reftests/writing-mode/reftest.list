@@ -4176,3 +4176,17 @@ abspos
 reftest
 .
 list
+#
+Tests
+for
+tables
+with
+vertical
+writing
+modes
+include
+tables
+/
+reftest
+.
+list
