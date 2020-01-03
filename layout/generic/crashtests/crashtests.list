@@ -2613,17 +2613,10 @@ column
 enabled
 true
 )
-asserts
-(
-1
-)
 load
 600100
 .
 xhtml
-#
-bug
-866955
 pref
 (
 layout
