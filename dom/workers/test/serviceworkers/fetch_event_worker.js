@@ -18,7 +18,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 synthesized
@@ -60,7 +60,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 synthesized
@@ -107,7 +107,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 synthesized
@@ -166,7 +166,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 test
@@ -211,7 +211,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 synthesized
@@ -262,7 +262,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 synthesized
@@ -307,7 +307,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 ignored
@@ -327,7 +327,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 rejected
@@ -358,7 +358,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 nonresponse
@@ -390,7 +390,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 nonresponse2
@@ -423,7 +423,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 headers
@@ -516,7 +516,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 nonexistent_image
@@ -574,7 +574,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 nonexistent_script
@@ -617,7 +617,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 nonexistent_stylesheet
@@ -685,7 +685,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 nonexistent_page
@@ -754,7 +754,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 nonexistent_worker_script
@@ -803,7 +803,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 nonexistent_imported_script
@@ -846,7 +846,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 deliver
@@ -868,7 +868,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 hello
@@ -906,7 +906,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 hello
@@ -999,7 +999,7 @@ request
 .
 url
 .
-contains
+includes
 (
 '
 opaque
@@ -1071,7 +1071,7 @@ request
 .
 url
 .
-contains
+includes
 (
 '
 opaque
@@ -1171,7 +1171,7 @@ request
 .
 url
 .
-contains
+includes
 (
 '
 cors
@@ -1268,7 +1268,7 @@ request
 .
 url
 .
-contains
+includes
 (
 '
 example
@@ -1300,7 +1300,7 @@ request
 .
 url
 .
-contains
+includes
 (
 "
 index

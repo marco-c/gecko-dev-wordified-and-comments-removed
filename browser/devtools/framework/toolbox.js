@@ -8880,7 +8880,7 @@ if
 (
 oscpu
 .
-contains
+includes
 (
 "
 NT
@@ -8893,7 +8893,7 @@ NT
 |
 oscpu
 .
-contains
+includes
 (
 "
 NT
@@ -8910,7 +8910,7 @@ if
 (
 oscpu
 .
-contains
+includes
 (
 "
 NT
@@ -8927,7 +8927,7 @@ if
 (
 oscpu
 .
-contains
+includes
 (
 "
 NT
@@ -8944,7 +8944,7 @@ if
 (
 oscpu
 .
-contains
+includes
 (
 "
 NT
@@ -8961,7 +8961,7 @@ if
 (
 oscpu
 .
-contains
+includes
 (
 "
 NT
@@ -8978,7 +8978,7 @@ if
 (
 oscpu
 .
-contains
+includes
 (
 "
 OS
@@ -8993,7 +8993,7 @@ if
 (
 oscpu
 .
-contains
+includes
 (
 "
 Linux

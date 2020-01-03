@@ -1190,7 +1190,7 @@ if
 (
 classSelector
 .
-contains
+includes
 (
 "
 local
@@ -1207,7 +1207,7 @@ if
 (
 classSelector
 .
-contains
+includes
 (
 "
 screen

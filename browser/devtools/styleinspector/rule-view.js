@@ -8995,7 +8995,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 aValue
 )
@@ -9119,7 +9119,7 @@ matches
 =
 propertyName
 .
-contains
+includes
 (
 name
 )
@@ -9127,7 +9127,7 @@ name
 &
 propertyValue
 .
-contains
+includes
 (
 value
 )
@@ -9143,7 +9143,7 @@ name
 &
 propertyName
 .
-contains
+includes
 (
 name
 )
@@ -9156,7 +9156,7 @@ value
 &
 propertyValue
 .
-contains
+includes
 (
 value
 )

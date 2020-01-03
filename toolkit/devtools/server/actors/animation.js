@@ -348,7 +348,7 @@ if
 (
 names
 .
-contains
+includes
 (
 "
 "

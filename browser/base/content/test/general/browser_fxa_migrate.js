@@ -263,7 +263,7 @@ note
 .
 description
 .
-contains
+includes
 (
 email
 .
