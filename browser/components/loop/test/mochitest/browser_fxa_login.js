@@ -351,6 +351,14 @@ localhost
 "
 )
 ;
+MozLoopServiceInternal
+.
+mocks
+.
+pushHandler
+=
+mockPushHandler
+;
 registerCleanupFunction
 (
 function
@@ -399,6 +407,14 @@ push
 serverURL
 "
 )
+;
+MozLoopServiceInternal
+.
+mocks
+.
+pushHandler
+=
+undefined
 ;
 yield
 resetFxA
@@ -1846,7 +1862,6 @@ MozLoopService
 .
 register
 (
-mockPushHandler
 )
 ;
 yield
@@ -2523,7 +2538,6 @@ MozLoopService
 .
 register
 (
-mockPushHandler
 )
 ;
 let
