@@ -1817,6 +1817,9 @@ as
 {
 MOZ_ASSERT
 (
+this
+-
+>
 is
 <
 T
