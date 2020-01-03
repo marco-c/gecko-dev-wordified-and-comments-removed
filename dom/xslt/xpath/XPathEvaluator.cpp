@@ -820,7 +820,7 @@ nsAString
 &
 aExpression
 nsINode
-*
+&
 aContextNode
 XPathNSResolver
 *
@@ -875,7 +875,6 @@ expression
 Evaluate
 (
 aCx
-*
 aContextNode
 aType
 aResult

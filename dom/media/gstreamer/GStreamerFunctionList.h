@@ -326,6 +326,11 @@ GST_FUNC
 LIBGSTREAMER
 gst_util_uint64_scale
 )
+GST_FUNC
+(
+LIBGSTREAMER
+gst_version
+)
 #
 if
 GST_VERSION_MAJOR

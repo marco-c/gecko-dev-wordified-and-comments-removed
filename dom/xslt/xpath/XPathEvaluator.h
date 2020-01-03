@@ -216,7 +216,7 @@ nsAString
 &
 aExpression
 nsINode
-*
+&
 aContextNode
 XPathNSResolver
 *
