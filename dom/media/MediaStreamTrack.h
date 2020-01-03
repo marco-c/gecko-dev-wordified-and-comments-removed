@@ -150,7 +150,6 @@ nsAString
 &
 aID
 )
-const
 ;
 void
 GetLabel
@@ -198,20 +197,6 @@ mEnded
 true
 ;
 }
-void
-AssignId
-(
-const
-nsAString
-&
-aID
-)
-{
-mID
-=
-aID
-;
-}
 protected
 :
 virtual
@@ -229,7 +214,7 @@ mStream
 TrackID
 mTrackID
 ;
-nsString
+nsID
 mID
 ;
 bool
