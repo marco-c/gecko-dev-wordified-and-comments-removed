@@ -276,7 +276,7 @@ notificationId
 )
 ;
 }
-protected
+public
 void
 update
 (
