@@ -313,16 +313,6 @@ nsIContent
 aContent
 )
 ;
-static
-bool
-IsTestingIME
-(
-)
-{
-return
-sIsTestingIME
-;
-}
 protected
 :
 static
@@ -422,10 +412,6 @@ sPresContext
 static
 bool
 sInstalledMenuKeyboardListener
-;
-static
-bool
-sIsTestingIME
 ;
 static
 bool
