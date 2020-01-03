@@ -91,9 +91,6 @@ MPL
 .
 *
 /
-interface
-WindowProxy
-;
 /
 /
 http
@@ -1612,7 +1609,7 @@ boolean
 canBubble
 boolean
 cancelable
-WindowProxy
+Window
 ?
 view
 boolean

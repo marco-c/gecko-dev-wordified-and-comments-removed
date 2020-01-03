@@ -151,9 +151,6 @@ apply
 *
 /
 interface
-WindowProxy
-;
-interface
 CompositionEvent
 :
 UIEvent
@@ -187,7 +184,7 @@ boolean
 canBubbleArg
 boolean
 cancelableArg
-WindowProxy
+Window
 ?
 viewArg
 DOMString

@@ -155,9 +155,6 @@ apply
 .
 *
 /
-interface
-WindowProxy
-;
 [
 Constructor
 (
@@ -193,7 +190,7 @@ boolean
 aCanBubble
 boolean
 aCancelable
-WindowProxy
+Window
 ?
 aView
 long
@@ -278,7 +275,7 @@ UIEventInit
 :
 EventInit
 {
-WindowProxy
+Window
 ?
 view
 =

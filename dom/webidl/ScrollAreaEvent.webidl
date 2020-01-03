@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-WindowProxy
-;
-interface
 ScrollAreaEvent
 :
 UIEvent
@@ -131,7 +128,7 @@ boolean
 canBubble
 boolean
 cancelable
-WindowProxy
+Window
 ?
 view
 long
