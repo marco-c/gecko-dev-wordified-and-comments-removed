@@ -1600,9 +1600,6 @@ clearTables
 (
 )
 ;
-#
-ifdef
-JSGC_COMPACTING
 void
 fixupInitialShapeTable
 (
@@ -1632,8 +1629,6 @@ fixupGlobal
 (
 )
 ;
-#
-endif
 bool
 hasObjectMetadataCallback
 (
