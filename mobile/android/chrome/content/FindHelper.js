@@ -50,12 +50,6 @@ _findOpened
 (
 )
 ;
-this
-.
-_init
-(
-)
-;
 break
 ;
 }
