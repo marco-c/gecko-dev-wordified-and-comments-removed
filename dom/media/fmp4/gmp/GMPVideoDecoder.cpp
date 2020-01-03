@@ -28,7 +28,7 @@ defined
 (
 DEBUG
 )
-static
+extern
 bool
 IsOnGMPThread
 (
