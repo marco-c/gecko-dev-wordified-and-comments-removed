@@ -165,9 +165,6 @@ PBrowserOrId
 const
 SerializedLoadContext
 &
-const
-PrincipalInfo
-&
 )
 override
 ;

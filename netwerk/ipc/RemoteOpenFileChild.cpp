@@ -864,7 +864,6 @@ if
 MissingRequiredTabChild
 (
 mTabChild
-nullptr
 "
 remoteopenfile
 "
