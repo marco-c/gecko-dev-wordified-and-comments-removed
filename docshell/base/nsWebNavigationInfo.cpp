@@ -336,10 +336,6 @@ nsContentUtils
 FindInternalContentViewer
 (
 aType
-.
-get
-(
-)
 &
 vtype
 )

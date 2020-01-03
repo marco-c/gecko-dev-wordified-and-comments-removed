@@ -3924,8 +3924,8 @@ nsIDocumentLoaderFactory
 FindInternalContentViewer
 (
 const
-char
-*
+nsACString
+&
 aType
 ContentViewerType
 *

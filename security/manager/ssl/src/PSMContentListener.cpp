@@ -1048,8 +1048,8 @@ PSMContentListener
 DoContent
 (
 const
-char
-*
+nsACString
+&
 aContentType
 bool
 aIsContentPreferred
@@ -1076,7 +1076,14 @@ type
 =
 getPSMContentType
 (
+PromiseFlatCString
+(
 aContentType
+)
+.
+get
+(
+)
 )
 ;
 PR_LOG

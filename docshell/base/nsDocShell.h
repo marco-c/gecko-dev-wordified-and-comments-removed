@@ -916,8 +916,8 @@ nsresult
 CreateContentViewer
 (
 const
-char
-*
+nsACString
+&
 aContentType
 nsIRequest
 *
@@ -932,8 +932,8 @@ nsresult
 NewContentViewerObj
 (
 const
-char
-*
+nsACString
+&
 aContentType
 nsIRequest
 *

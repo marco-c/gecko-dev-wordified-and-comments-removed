@@ -296,8 +296,8 @@ nsDSURIContentListener
 DoContent
 (
 const
-char
-*
+nsACString
+&
 aContentType
 bool
 aIsContentPreferred
@@ -459,10 +459,7 @@ baseChannel
 mExistingJPEGRequest
 &
 &
-nsDependentCString
-(
 aContentType
-)
 .
 EqualsLiteral
 (

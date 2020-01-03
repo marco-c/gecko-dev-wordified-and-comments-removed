@@ -2857,10 +2857,6 @@ aListener
 DoContent
 (
 mContentType
-.
-get
-(
-)
 isPreferred
 aChannel
 getter_AddRefs

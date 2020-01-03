@@ -28916,8 +28916,8 @@ nsContentUtils
 FindInternalContentViewer
 (
 const
-char
-*
+nsACString
+&
 aType
 ContentViewerType
 *
@@ -28979,7 +28979,14 @@ Content
 -
 Viewers
 "
+PromiseFlatCString
+(
 aType
+)
+.
+get
+(
+)
 getter_Copies
 (
 contractID
@@ -29060,10 +29067,7 @@ DecoderTraits
 :
 IsSupportedInVideoDocument
 (
-nsDependentCString
-(
 aType
-)
 )
 )
 {

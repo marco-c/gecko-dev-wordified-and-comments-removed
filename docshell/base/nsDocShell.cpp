@@ -31604,11 +31604,14 @@ nsContentUtils
 :
 FindInternalContentViewer
 (
+NS_LITERAL_CSTRING
+(
 "
 text
 /
 html
 "
+)
 )
 ;
 if
@@ -35382,8 +35385,8 @@ nsDocShell
 CreateContentViewer
 (
 const
-char
-*
+nsACString
+&
 aContentType
 nsIRequest
 *
@@ -36015,8 +36018,8 @@ nsDocShell
 NewContentViewerObj
 (
 const
-char
-*
+nsACString
+&
 aContentType
 nsIRequest
 *

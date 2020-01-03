@@ -1297,7 +1297,10 @@ resource
 "
 chan
 newLoadGroup
+NS_LITERAL_CSTRING
+(
 IMAGE_SVG_XML
+)
 nullptr
 nullptr
 getter_AddRefs
