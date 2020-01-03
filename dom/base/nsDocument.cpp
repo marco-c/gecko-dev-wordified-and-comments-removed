@@ -10416,10 +10416,17 @@ mInUnlinkOrDeletion
 =
 oldVal
 ;
+if
+(
+!
+mMasterDocument
+)
+{
 mRegistry
 =
 nullptr
 ;
+}
 ResetStylesheetsToURI
 (
 aURI
