@@ -325,6 +325,11 @@ BoxObject
 webidl
 '
 '
+BroadcastChannel
+.
+webidl
+'
+'
 BrowserElement
 .
 webidl
