@@ -16969,7 +16969,7 @@ isPrimitive
 or
 self
 .
-isDOMString
+isString
 (
 )
 or
