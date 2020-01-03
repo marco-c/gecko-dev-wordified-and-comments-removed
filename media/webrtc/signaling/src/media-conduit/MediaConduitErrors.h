@@ -40,6 +40,7 @@ kMediaConduitMTUError
 kMediaConduitRTCPStatusError
 kMediaConduitKeyFrameRequestError
 kMediaConduitNACKStatusError
+kMediaConduitTMMBRStatusError
 }
 ;
 }
