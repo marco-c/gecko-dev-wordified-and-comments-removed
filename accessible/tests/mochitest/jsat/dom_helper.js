@@ -576,10 +576,15 @@ mozAccessFuGesture
 :
 '
 +
+JSON
+.
+stringify
+(
 types
 .
 shift
 (
+)
 )
 +
 '
