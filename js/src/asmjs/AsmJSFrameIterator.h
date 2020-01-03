@@ -6,15 +6,6 @@ define
 asmjs_AsmJSFrameIterator_h
 #
 include
-"
-mozilla
-/
-NullPtr
-.
-h
-"
-#
-include
 <
 stdint
 .

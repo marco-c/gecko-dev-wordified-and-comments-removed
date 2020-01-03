@@ -24,15 +24,6 @@ h
 #
 include
 "
-mozilla
-/
-NullPtr
-.
-h
-"
-#
-include
-"
 gmp
 -
 entrypoints

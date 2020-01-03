@@ -12,15 +12,6 @@ nsGkAtoms
 .
 h
 "
-#
-include
-"
-mozilla
-/
-NullPtr
-.
-h
-"
 static
 nsIAtom
 *

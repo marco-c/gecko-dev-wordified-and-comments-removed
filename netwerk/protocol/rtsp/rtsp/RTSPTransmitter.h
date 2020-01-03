@@ -114,15 +114,6 @@ endif
 #
 include
 "
-mozilla
-/
-NullPtr
-.
-h
-"
-#
-include
-"
 prnetdb
 .
 h

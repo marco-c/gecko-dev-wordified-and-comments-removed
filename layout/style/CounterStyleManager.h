@@ -37,15 +37,6 @@ include
 "
 mozilla
 /
-NullPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Attributes
 .
 h

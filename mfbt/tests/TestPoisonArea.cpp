@@ -8,15 +8,6 @@ IntegerPrintfMacros
 h
 "
 #
-include
-"
-mozilla
-/
-NullPtr
-.
-h
-"
-#
 define
 _GNU_SOURCE
 1

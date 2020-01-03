@@ -43,15 +43,6 @@ cctype
 #
 include
 "
-mozilla
-/
-NullPtr
-.
-h
-"
-#
-include
-"
 crashreporter
 .
 h

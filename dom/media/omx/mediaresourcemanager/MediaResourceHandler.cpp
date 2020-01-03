@@ -5,15 +5,6 @@ MediaResourceHandler
 .
 h
 "
-#
-include
-"
-mozilla
-/
-NullPtr
-.
-h
-"
 namespace
 android
 {

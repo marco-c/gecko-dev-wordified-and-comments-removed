@@ -54,15 +54,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-mozilla
-/
-NullPtr
-.
-h
-"
 static
 GMPPlatformAPI
 *

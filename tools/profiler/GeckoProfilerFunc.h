@@ -7,15 +7,6 @@ PROFILER_FUNCS_H
 #
 include
 "
-mozilla
-/
-NullPtr
-.
-h
-"
-#
-include
-"
 js
 /
 TypeDecls

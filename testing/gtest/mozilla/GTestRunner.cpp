@@ -24,15 +24,6 @@ Attributes
 h
 "
 #
-include
-"
-mozilla
-/
-NullPtr
-.
-h
-"
-#
 ifdef
 MOZ_CRASHREPORTER
 #
