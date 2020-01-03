@@ -1242,7 +1242,7 @@ ar
 "
 :
 )
-MOZ_PATH_PROGS
+AC_CHECK_PROGS
 (
 AS
 "
