@@ -242,17 +242,13 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 ProgressTracker
 )
-explicit
 ProgressTracker
 (
-Image
-*
-aImage
 )
 :
 mImage
 (
-aImage
+nullptr
 )
 mProgress
 (
@@ -410,8 +406,6 @@ RemoveObserver
 IProgressObserver
 *
 aObserver
-nsresult
-aStatus
 )
 ;
 size_t
@@ -542,8 +536,6 @@ EmulateRequestFinished
 IProgressObserver
 *
 aObserver
-nsresult
-aStatus
 )
 ;
 void
