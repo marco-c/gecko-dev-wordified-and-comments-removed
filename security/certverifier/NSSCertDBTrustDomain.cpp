@@ -822,7 +822,7 @@ ScopedCERTCertList
 &
 candidates
 bool
-isRoot
+useRoots
 Input
 encodedIssuerName
 TrustDomain
@@ -866,8 +866,11 @@ n
 )
 )
 {
-if
-(
+bool
+candidateIsRoot
+=
+!
+!
 n
 -
 >
@@ -875,9 +878,13 @@ cert
 -
 >
 isRoot
+;
+if
+(
+candidateIsRoot
 !
 =
-isRoot
+useRoots
 )
 {
 continue
