@@ -440,14 +440,6 @@ aEndTime
 ;
 virtual
 void
-CancelSeek
-(
-)
-{
-}
-;
-virtual
-void
 SetIdle
 (
 )
