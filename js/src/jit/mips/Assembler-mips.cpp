@@ -2433,7 +2433,7 @@ oom
 )
 ;
 }
-bool
+void
 Assembler
 :
 :
@@ -2443,12 +2443,14 @@ CodeLabel
 label
 )
 {
-return
+propagateOOM
+(
 codeLabels_
 .
 append
 (
 label
+)
 )
 ;
 }

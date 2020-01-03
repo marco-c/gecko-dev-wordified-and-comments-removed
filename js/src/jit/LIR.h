@@ -3200,7 +3200,7 @@ LIROP
 undef
 LIROP
 virtual
-bool
+void
 accept
 (
 LElementVisitor
@@ -3236,7 +3236,7 @@ opcode
 \
 }
 \
-bool
+void
 accept
 (
 LElementVisitor
@@ -3254,7 +3254,6 @@ this
 )
 ;
 \
-return
 visitor
 -
 >
@@ -3595,7 +3594,7 @@ VISIT_INS
 op
 )
 virtual
-bool
+void
 visit
 #
 #

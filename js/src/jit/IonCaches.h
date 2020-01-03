@@ -180,7 +180,7 @@ op
 )
 \
 virtual
-bool
+void
 visit
 #
 #
@@ -338,7 +338,7 @@ const
 0
 ;
 virtual
-bool
+void
 accept
 (
 CodeGenerator
@@ -1133,7 +1133,7 @@ ickind
 }
 \
 \
-bool
+void
 accept
 (
 CodeGenerator
@@ -1145,7 +1145,6 @@ visitor
 )
 {
 \
-return
 visitor
 -
 >

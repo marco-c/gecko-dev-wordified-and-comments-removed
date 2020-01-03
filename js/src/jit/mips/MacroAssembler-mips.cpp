@@ -6309,7 +6309,7 @@ jumpKind
 )
 ;
 }
-bool
+void
 MacroAssemblerMIPSCompat
 :
 :
@@ -6405,7 +6405,6 @@ Size
 )
 )
 ;
-return
 addCodeLabel
 (
 cl

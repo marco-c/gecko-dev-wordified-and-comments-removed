@@ -482,6 +482,16 @@ true
 {
 }
 void
+setOOM
+(
+)
+{
+enoughMemory_
+=
+false
+;
+}
+void
 writeByte
 (
 uint32_t

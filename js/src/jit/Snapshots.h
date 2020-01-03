@@ -1523,7 +1523,7 @@ bool
 resumeAfter
 )
 ;
-bool
+void
 writeInstruction
 (
 const

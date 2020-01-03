@@ -97,7 +97,7 @@ template
 typename
 T
 >
-bool
+void
 loadAndNoteViewTypeElement
 (
 AsmJSHeapAccess
@@ -208,7 +208,7 @@ masm
 ;
 public
 :
-bool
+void
 visitBox
 (
 LBox
@@ -216,7 +216,7 @@ LBox
 box
 )
 ;
-bool
+void
 visitBoxFloatingPoint
 (
 LBoxFloatingPoint
@@ -224,7 +224,7 @@ LBoxFloatingPoint
 box
 )
 ;
-bool
+void
 visitUnbox
 (
 LUnbox
@@ -232,7 +232,7 @@ LUnbox
 unbox
 )
 ;
-bool
+void
 visitValue
 (
 LValue
@@ -240,7 +240,7 @@ LValue
 value
 )
 ;
-bool
+void
 visitCompareB
 (
 LCompareB
@@ -248,7 +248,7 @@ LCompareB
 lir
 )
 ;
-bool
+void
 visitCompareBAndBranch
 (
 LCompareBAndBranch
@@ -256,7 +256,7 @@ LCompareBAndBranch
 lir
 )
 ;
-bool
+void
 visitCompareV
 (
 LCompareV
@@ -264,7 +264,7 @@ LCompareV
 lir
 )
 ;
-bool
+void
 visitCompareVAndBranch
 (
 LCompareVAndBranch
@@ -272,7 +272,7 @@ LCompareVAndBranch
 lir
 )
 ;
-bool
+void
 visitAsmJSUInt32ToDouble
 (
 LAsmJSUInt32ToDouble
@@ -280,7 +280,7 @@ LAsmJSUInt32ToDouble
 lir
 )
 ;
-bool
+void
 visitAsmJSUInt32ToFloat32
 (
 LAsmJSUInt32ToFloat32
@@ -288,7 +288,7 @@ LAsmJSUInt32ToFloat32
 lir
 )
 ;
-bool
+void
 visitTruncateDToInt32
 (
 LTruncateDToInt32
@@ -296,7 +296,7 @@ LTruncateDToInt32
 ins
 )
 ;
-bool
+void
 visitTruncateFToInt32
 (
 LTruncateFToInt32
@@ -304,7 +304,7 @@ LTruncateFToInt32
 ins
 )
 ;
-bool
+void
 visitLoadTypedArrayElementStatic
 (
 LLoadTypedArrayElementStatic
@@ -312,7 +312,7 @@ LLoadTypedArrayElementStatic
 ins
 )
 ;
-bool
+void
 visitStoreTypedArrayElementStatic
 (
 LStoreTypedArrayElementStatic
@@ -320,7 +320,7 @@ LStoreTypedArrayElementStatic
 ins
 )
 ;
-bool
+void
 visitAsmJSCall
 (
 LAsmJSCall
@@ -328,7 +328,7 @@ LAsmJSCall
 ins
 )
 ;
-bool
+void
 visitAsmJSLoadHeap
 (
 LAsmJSLoadHeap
@@ -336,7 +336,7 @@ LAsmJSLoadHeap
 ins
 )
 ;
-bool
+void
 visitAsmJSStoreHeap
 (
 LAsmJSStoreHeap
@@ -344,7 +344,7 @@ LAsmJSStoreHeap
 ins
 )
 ;
-bool
+void
 visitAsmJSCompareExchangeHeap
 (
 LAsmJSCompareExchangeHeap
@@ -352,7 +352,7 @@ LAsmJSCompareExchangeHeap
 ins
 )
 ;
-bool
+void
 visitAsmJSAtomicBinopHeap
 (
 LAsmJSAtomicBinopHeap
@@ -360,7 +360,7 @@ LAsmJSAtomicBinopHeap
 ins
 )
 ;
-bool
+void
 visitAsmJSLoadGlobalVar
 (
 LAsmJSLoadGlobalVar
@@ -368,7 +368,7 @@ LAsmJSLoadGlobalVar
 ins
 )
 ;
-bool
+void
 visitAsmJSStoreGlobalVar
 (
 LAsmJSStoreGlobalVar
@@ -376,7 +376,7 @@ LAsmJSStoreGlobalVar
 ins
 )
 ;
-bool
+void
 visitAsmJSLoadFuncPtr
 (
 LAsmJSLoadFuncPtr
@@ -384,7 +384,7 @@ LAsmJSLoadFuncPtr
 ins
 )
 ;
-bool
+void
 visitAsmJSLoadFFIFunc
 (
 LAsmJSLoadFFIFunc
@@ -392,7 +392,7 @@ LAsmJSLoadFFIFunc
 ins
 )
 ;
-bool
+void
 visitOutOfLineTruncate
 (
 OutOfLineTruncate
@@ -400,7 +400,7 @@ OutOfLineTruncate
 ool
 )
 ;
-bool
+void
 visitOutOfLineTruncateFloat32
 (
 OutOfLineTruncateFloat32

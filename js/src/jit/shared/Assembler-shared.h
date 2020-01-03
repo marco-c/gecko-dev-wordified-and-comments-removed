@@ -3462,6 +3462,16 @@ enoughMemory_
 success
 ;
 }
+void
+setOOM
+(
+)
+{
+enoughMemory_
+=
+false
+;
+}
 bool
 oom
 (

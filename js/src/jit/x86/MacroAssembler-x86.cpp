@@ -1104,9 +1104,6 @@ src
 )
 )
 ;
-enoughMemory_
-&
-=
 addCodeLabel
 (
 cl
@@ -1185,9 +1182,6 @@ src
 )
 )
 ;
-enoughMemory_
-&
-=
 addCodeLabel
 (
 cl
@@ -1318,9 +1312,6 @@ type
 )
 ;
 }
-enoughMemory_
-&
-=
 addCodeLabel
 (
 cl

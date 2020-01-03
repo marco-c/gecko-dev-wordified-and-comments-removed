@@ -8226,7 +8226,7 @@ framePushed_
 framePushed
 ;
 }
-bool
+void
 buildFakeExitFrame
 (
 Register

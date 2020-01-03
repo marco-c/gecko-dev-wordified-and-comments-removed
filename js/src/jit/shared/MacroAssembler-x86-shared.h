@@ -6754,7 +6754,7 @@ dest
 )
 ;
 }
-bool
+void
 buildFakeExitFrame
 (
 Register
