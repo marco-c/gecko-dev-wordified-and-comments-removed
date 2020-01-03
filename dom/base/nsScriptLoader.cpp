@@ -4810,6 +4810,14 @@ aScopeChain
 )
 )
 ;
+aOptions
+-
+>
+setNoScriptRval
+(
+true
+)
+;
 if
 (
 aRequest
