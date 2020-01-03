@@ -1674,6 +1674,8 @@ aResponseCode
 )
 {
 case
+:
+:
 ResponseCode
 :
 :
@@ -1754,6 +1756,8 @@ break
 ;
 }
 case
+:
+:
 ResponseCode
 :
 :
@@ -1824,6 +1828,8 @@ break
 ;
 }
 case
+:
+:
 ResponseCode
 :
 :
@@ -1837,12 +1843,16 @@ true
 break
 ;
 case
+:
+:
 ResponseCode
 :
 :
 VolumeDiskRemoved
 :
 case
+:
+:
 ResponseCode
 :
 :

@@ -225,7 +225,7 @@ nsINeighboringCellInfo
 idl
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

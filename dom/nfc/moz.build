@@ -106,7 +106,7 @@ MozNDEFRecord
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -156,7 +156,7 @@ MOZ_NFC
 '
 ]
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

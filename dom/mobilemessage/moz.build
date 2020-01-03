@@ -303,7 +303,7 @@ MobileMessageDatabaseService
 manifest
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
