@@ -61,7 +61,7 @@ GonkCameraImage
 )
 ;
 nsresult
-GetBuffer
+GetMediaBuffer
 (
 android
 :
@@ -73,7 +73,7 @@ aBuffer
 )
 ;
 nsresult
-SetBuffer
+SetMediaBuffer
 (
 android
 :
@@ -84,7 +84,7 @@ aBuffer
 )
 ;
 nsresult
-ClearBuffer
+ClearMediaBuffer
 (
 )
 ;
