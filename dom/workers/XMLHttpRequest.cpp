@@ -8854,6 +8854,8 @@ ThrowUncatchableException
 (
 )
 ;
+return
+;
 }
 if
 (
