@@ -337,12 +337,11 @@ mozAudioChannelTest
 .
 textContent
 "
-READY
+mozinterruptbegin
 "
 "
 AudioContext
 should
-not
 be
 muted
 by
@@ -375,12 +374,11 @@ mozAudioChannelTest
 .
 textContent
 "
-READY
+mozinterruptend
 "
 "
 AudioContext
 should
-not
 be
 muted
 by
