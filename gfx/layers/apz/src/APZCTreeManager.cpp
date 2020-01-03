@@ -2169,7 +2169,7 @@ if
 apzc
 -
 >
-HasNoParentWithSameLayersId
+IsRootContent
 (
 )
 )
@@ -2203,6 +2203,16 @@ constraints
 }
 }
 else
+if
+(
+!
+apzc
+-
+>
+HasNoParentWithSameLayersId
+(
+)
+)
 {
 apzc
 -
@@ -4773,7 +4783,7 @@ GetApzc
 )
 -
 >
-HasNoParentWithSameLayersId
+IsRootContent
 (
 )
 )
