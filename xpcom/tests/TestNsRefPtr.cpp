@@ -2251,8 +2251,6 @@ a
 nsCOMPtr
 |
 with
-NULL
-0
 nullptr
 [
 !
@@ -2269,7 +2267,7 @@ if
 foo1p
 !
 =
-0
+nullptr
 )
 printf
 (
@@ -2277,7 +2275,7 @@ printf
 foo1p
 !
 =
-0
+nullptr
 \
 n
 "
@@ -2285,7 +2283,7 @@ n
 ;
 if
 (
-0
+nullptr
 !
 =
 foo1p
@@ -2293,7 +2291,7 @@ foo1p
 printf
 (
 "
-0
+nullptr
 !
 =
 foo1p
@@ -2307,7 +2305,7 @@ if
 foo1p
 =
 =
-0
+nullptr
 )
 printf
 (
@@ -2315,7 +2313,7 @@ printf
 foo1p
 =
 =
-0
+nullptr
 \
 n
 "
@@ -2323,7 +2321,7 @@ n
 ;
 if
 (
-0
+nullptr
 =
 =
 foo1p
@@ -2331,7 +2329,7 @@ foo1p
 printf
 (
 "
-0
+nullptr
 =
 =
 foo1p
@@ -2717,7 +2715,7 @@ n
 Test
 13
 :
-numeric
+null
 pointer
 test
 ?
@@ -2731,7 +2729,7 @@ if
 foo1p
 =
 =
-0
+nullptr
 )
 printf
 (
