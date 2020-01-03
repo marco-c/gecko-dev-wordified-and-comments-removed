@@ -48,9 +48,6 @@ multiline
 "
 sticky
 "
-"
-unicode
-"
 ]
 ;
 testThrows
