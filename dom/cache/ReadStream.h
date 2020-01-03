@@ -70,10 +70,10 @@ namespace
 cache
 {
 class
-CacheReadStream
+PCacheReadStream
 ;
 class
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 ;
 class
 PCacheStreamControlParent
@@ -173,7 +173,7 @@ ReadStream
 Create
 (
 const
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 &
 aReadStreamOrVoid
 )
@@ -186,7 +186,7 @@ ReadStream
 Create
 (
 const
-CacheReadStream
+PCacheReadStream
 &
 aReadStream
 )
@@ -213,7 +213,7 @@ aStream
 void
 Serialize
 (
-CacheReadStreamOrVoid
+PCacheReadStreamOrVoid
 *
 aReadStreamOut
 )
@@ -221,7 +221,7 @@ aReadStreamOut
 void
 Serialize
 (
-CacheReadStream
+PCacheReadStream
 *
 aReadStreamOut
 )
