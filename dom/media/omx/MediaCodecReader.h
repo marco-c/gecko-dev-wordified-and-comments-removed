@@ -545,7 +545,7 @@ mDiscontinuity
 ;
 nsRefPtr
 <
-FlushableMediaTaskQueue
+MediaTaskQueue
 >
 mTaskQueue
 ;
