@@ -230,6 +230,11 @@ PluginProcessParent
 h
 '
 '
+PluginQuirks
+.
+h
+'
+'
 PluginScriptableObjectChild
 .
 h
@@ -497,6 +502,11 @@ cpp
 '
 '
 PluginProcessParent
+.
+cpp
+'
+'
+PluginQuirks
 .
 cpp
 '
