@@ -55,15 +55,6 @@ pragma
 GCC
 system_header
 #
-ifdef
-_WIN32
-#
-define
-NOMINMAX
-1
-#
-endif
-#
 include_next
 <
 new

@@ -7,9 +7,6 @@ WIN32_LEAN_AND_MEAN
 #
 endif
 #
-define
-NOMINMAX
-#
 include
 "
 crashreporter

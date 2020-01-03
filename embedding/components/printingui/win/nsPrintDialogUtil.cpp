@@ -1,8 +1,4 @@
 #
-define
-NOMINMAX
-1
-#
 include
 "
 plstr
