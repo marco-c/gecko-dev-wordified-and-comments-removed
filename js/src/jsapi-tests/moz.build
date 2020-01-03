@@ -156,11 +156,6 @@ testCloneScript
 cpp
 '
 '
-testConservativeGC
-.
-cpp
-'
-'
 testContexts
 .
 cpp

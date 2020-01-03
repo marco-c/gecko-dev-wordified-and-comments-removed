@@ -2931,9 +2931,6 @@ CX
 cx
 )
 {
-#
-ifdef
-JSGC_TRACK_EXACT_ROOTS
 js
 :
 :
@@ -3009,8 +3006,6 @@ ptr
 )
 )
 ;
-#
-endif
 }
 public
 :
@@ -3318,9 +3313,6 @@ rt
 )
 ;
 }
-#
-ifdef
-JSGC_TRACK_EXACT_ROOTS
 ~
 Rooted
 (
@@ -3352,11 +3344,6 @@ stack
 prev
 ;
 }
-#
-endif
-#
-ifdef
-JSGC_TRACK_EXACT_ROOTS
 Rooted
 <
 T
@@ -3380,8 +3367,6 @@ prev
 )
 ;
 }
-#
-endif
 operator
 const
 T
@@ -3576,9 +3561,6 @@ other
 }
 private
 :
-#
-ifdef
-JSGC_TRACK_EXACT_ROOTS
 Rooted
 <
 void
@@ -3590,8 +3572,6 @@ stack
 *
 prev
 ;
-#
-endif
 T
 ptr
 ;

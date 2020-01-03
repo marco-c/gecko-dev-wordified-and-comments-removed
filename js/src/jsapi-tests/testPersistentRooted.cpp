@@ -1,10 +1,4 @@
 #
-if
-defined
-(
-JSGC_USE_EXACT_ROOTING
-)
-#
 include
 "
 js
@@ -644,5 +638,3 @@ END_TEST
 (
 test_PersistentRootedAssign
 )
-#
-endif

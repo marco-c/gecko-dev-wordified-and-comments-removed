@@ -18,9 +18,6 @@ tests
 .
 h
 "
-#
-ifdef
-JSGC_USE_EXACT_ROOTING
 BEGIN_TEST
 (
 testWeakMap_basicOperations
@@ -959,5 +956,3 @@ END_TEST
 (
 testWeakMap_keyDelegates
 )
-#
-endif
