@@ -13824,7 +13824,7 @@ blocklistState
 nsIBlocklistService
 :
 :
-STATE_BLOCKED
+STATE_NOT_BLOCKED
 ;
 pluginHost
 -
