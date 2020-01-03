@@ -17911,7 +17911,8 @@ HandleObject
 uint32_t
 Value
 *
-MutableHandleValue
+Value
+*
 )
 ;
 static
