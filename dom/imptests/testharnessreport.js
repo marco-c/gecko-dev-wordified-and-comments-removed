@@ -1544,12 +1544,7 @@ setup
 output
 "
 :
-!
-SimpleTest
-.
-harnessParameters
-.
-closeWhenDone
+false
 "
 explicit_timeout
 "
