@@ -393,13 +393,13 @@ TT_SERVER
 TT_SERVER
 :
 -
-http
+https
 :
 /
 /
-tooltool
+api
 .
-pvt
+pub
 .
 build
 .
@@ -407,7 +407,8 @@ mozilla
 .
 org
 /
-build
+tooltool
+/
 }
 (
 cd
