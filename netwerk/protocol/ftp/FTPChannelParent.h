@@ -205,6 +205,10 @@ const
 uint32_t
 &
 aContentPolicyType
+const
+uint32_t
+&
+aInnerWindowID
 )
 ;
 bool
