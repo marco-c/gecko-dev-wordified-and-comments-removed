@@ -741,6 +741,9 @@ SetDispAcquireFence
 Layer
 *
 aLayer
+nsIWidget
+*
+aWidget
 )
 {
 }
