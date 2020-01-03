@@ -13021,7 +13021,7 @@ getOps
 )
 -
 >
-lookupGeneric
+lookupProperty
 )
 return
 true

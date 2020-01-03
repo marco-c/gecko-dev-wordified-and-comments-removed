@@ -34429,7 +34429,7 @@ clasp
 >
 ops
 .
-lookupGeneric
+lookupProperty
 )
 ;
 }
@@ -47075,7 +47075,7 @@ clasp
 >
 ops
 .
-getGeneric
+getProperty
 &
 &
 !
@@ -47098,7 +47098,7 @@ clasp
 >
 ops
 .
-setGeneric
+setProperty
 )
 return
 false
