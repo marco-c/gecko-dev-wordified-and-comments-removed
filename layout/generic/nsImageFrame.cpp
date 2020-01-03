@@ -9102,7 +9102,6 @@ gIconLoad
 nullptr
 loadFlags
 nullptr
-nullptr
 EmptyString
 (
 )

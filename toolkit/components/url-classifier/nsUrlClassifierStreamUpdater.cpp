@@ -391,7 +391,6 @@ nsIContentPolicy
 :
 TYPE_OTHER
 nullptr
-nullptr
 this
 loadFlags
 )

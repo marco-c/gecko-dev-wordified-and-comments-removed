@@ -357,7 +357,6 @@ aSecurityFlags
 aContentPolicyType
 nullptr
 nullptr
-nullptr
 nsIRequest
 :
 :

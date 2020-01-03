@@ -124,9 +124,6 @@ imgCacheExpirationTracker
 class
 imgMemoryReporter
 ;
-class
-nsIChannelPolicy
-;
 namespace
 mozilla
 {
@@ -931,9 +928,6 @@ aLoadFlags
 nsISupports
 *
 aCacheKey
-nsIChannelPolicy
-*
-aPolicy
 const
 nsAString
 &
@@ -1256,9 +1250,6 @@ imgRequestProxy
 *
 *
 aProxyRequest
-nsIChannelPolicy
-*
-aPolicy
 nsIPrincipal
 *
 aLoadingPrincipal
@@ -1296,9 +1287,6 @@ imgRequestProxy
 *
 *
 aProxyRequest
-nsIChannelPolicy
-*
-aPolicy
 nsIPrincipal
 *
 aLoadingPrincipal

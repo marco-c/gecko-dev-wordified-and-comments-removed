@@ -15975,7 +15975,6 @@ nsIContentPolicy
 :
 TYPE_OTHER
 nullptr
-nullptr
 ir
 )
 ;
