@@ -394,6 +394,7 @@ FlattenedConstraints
 public
 NormalizedConstraintSet
 {
+explicit
 FlattenedConstraints
 (
 const
