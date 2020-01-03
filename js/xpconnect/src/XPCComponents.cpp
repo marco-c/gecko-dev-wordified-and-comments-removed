@@ -214,6 +214,13 @@ ShimInterfaceInfo
 .
 h
 "
+#
+include
+"
+nsIAddonInterposition
+.
+h
+"
 using
 namespace
 mozilla
@@ -14588,6 +14595,7 @@ XPCWrappedNativeScope
 :
 SetAddonInterposition
 (
+cx
 addonId
 interposition
 )

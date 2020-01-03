@@ -6142,7 +6142,6 @@ JSAddonId
 *
 addonId
 ;
-{
 AutoJSAPI
 jsapi
 ;
@@ -6178,13 +6177,17 @@ addonId
 return
 false
 ;
-}
 return
 XPCWrappedNativeScope
 :
 :
 SetAddonInterposition
 (
+jsapi
+.
+cx
+(
+)
 addonId
 interposition
 )
