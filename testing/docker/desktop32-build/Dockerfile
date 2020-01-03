@@ -1,9 +1,5 @@
 FROM
-quay
-.
-io
-/
-djmitche
+taskcluster
 /
 ubuntu32
 -
@@ -13,7 +9,7 @@ build
 .
 0
 .
-4
+5
 MAINTAINER
 Morgan
 Reece
