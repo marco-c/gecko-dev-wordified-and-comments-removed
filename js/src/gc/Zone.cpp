@@ -62,6 +62,13 @@ h
 #
 include
 "
+jscompartmentinlines
+.
+h
+"
+#
+include
+"
 jsgcinlines
 .
 h

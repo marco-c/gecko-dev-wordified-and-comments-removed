@@ -224,6 +224,12 @@ mozilla
 :
 MakeRange
 ;
+using
+mozilla
+:
+:
+PodCopy
+;
 void
 *
 const
