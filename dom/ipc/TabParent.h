@@ -1226,6 +1226,11 @@ WidgetEvent
 aEvent
 )
 ;
+LayoutDeviceToCSSScale
+GetLayoutDeviceToCSSScale
+(
+)
+;
 virtual
 bool
 RecvRequestNativeKeyBindings
