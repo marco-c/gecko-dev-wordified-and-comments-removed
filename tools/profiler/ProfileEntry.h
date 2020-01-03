@@ -450,10 +450,6 @@ ProfileBuffer
 (
 int
 aEntrySize
-uint32_t
-aGeneration
-=
-0
 )
 ;
 void
