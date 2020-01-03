@@ -747,7 +747,7 @@ CPUInfo
 :
 avxEnabled
 =
-true
+false
 ;
 static
 uintptr_t

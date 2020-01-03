@@ -950,13 +950,13 @@ false
 }
 static
 void
-SetAVXDisabled
+SetAVXEnabled
 (
 )
 {
 avxEnabled
 =
-false
+true
 ;
 }
 }
