@@ -1498,6 +1498,13 @@ rule
 -
 button
 :
+not
+(
+[
+disabled
+]
+)
+:
 hover
 #
 pseudo
