@@ -479,11 +479,6 @@ if
 buf
 .
 nodename
-&
-&
-buf
-.
-nodename
 [
 0
 ]
