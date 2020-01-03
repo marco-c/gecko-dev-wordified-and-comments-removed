@@ -401,6 +401,7 @@ debug
 text
 to
 )
+{
 print
 (
 Array
@@ -416,4 +417,6 @@ join
 "
 )
 )
+;
+}
 ;

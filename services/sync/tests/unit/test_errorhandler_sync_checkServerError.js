@@ -1025,13 +1025,15 @@ status
 :
 400
 toString
-:
-function
 (
 )
+{
+return
 "
 14
 "
+;
+}
 }
 ;
 try

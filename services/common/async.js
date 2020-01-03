@@ -443,9 +443,10 @@ callback
 .
 wait
 =
-function
 (
 )
+=
+>
 Async
 .
 waitForSyncCallback

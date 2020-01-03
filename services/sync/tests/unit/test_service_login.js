@@ -1215,9 +1215,10 @@ Utils
 .
 mpLocked
 =
-function
 (
 )
+=
+>
 mpLocked
 ;
 let

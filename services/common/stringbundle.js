@@ -140,9 +140,10 @@ __defineGetter__
 "
 _stringBundle
 "
-function
 (
 )
+=
+>
 stringBundle
 )
 ;

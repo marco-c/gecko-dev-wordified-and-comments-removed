@@ -87,10 +87,9 @@ split
 .
 every
 (
-function
-(
 chr
-)
+=
+>
 key
 .
 indexOf

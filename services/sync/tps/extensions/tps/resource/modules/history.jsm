@@ -397,9 +397,10 @@ __defineGetter__
 "
 _visitStm
 "
-function
 (
 )
+=
+>
 stm
 )
 ;

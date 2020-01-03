@@ -8706,6 +8706,7 @@ function
 (
 e
 )
+{
 this
 .
 clientsEngine
@@ -8719,6 +8720,8 @@ wipeEngine
 e
 ]
 )
+;
+}
 this
 )
 ;
