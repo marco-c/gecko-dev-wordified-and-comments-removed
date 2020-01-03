@@ -1,6 +1,8 @@
 #
 include
 "
+mozilla
+/
 CDMCaps
 .
 h
@@ -8,7 +10,9 @@ h
 #
 include
 "
-EMELog
+mozilla
+/
+EMEUtils
 .
 h
 "

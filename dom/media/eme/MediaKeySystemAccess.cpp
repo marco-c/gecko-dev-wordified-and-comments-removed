@@ -106,6 +106,15 @@ nsIObserverService
 .
 h
 "
+#
+include
+"
+mozilla
+/
+EMEUtils
+.
+h
+"
 namespace
 mozilla
 {

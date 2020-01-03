@@ -100,7 +100,7 @@ include
 "
 mozilla
 /
-EMELog
+EMEUtils
 .
 h
 "
