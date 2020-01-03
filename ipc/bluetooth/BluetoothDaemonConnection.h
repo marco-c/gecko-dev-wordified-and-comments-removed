@@ -40,6 +40,9 @@ nsAutoPtr
 .
 h
 "
+class
+MessageLoop
+;
 namespace
 mozilla
 {
@@ -288,6 +291,9 @@ PrepareAccept
 UnixSocketConnector
 *
 aConnector
+MessageLoop
+*
+aIOLoop
 ConnectionOrientedSocketIO
 *
 &
@@ -330,6 +336,10 @@ override
 ;
 private
 :
+BluetoothDaemonConnectionIO
+*
+mIO
+;
 BluetoothDaemonPDUConsumer
 *
 mPDUConsumer
@@ -340,10 +350,6 @@ mConsumer
 ;
 int
 mIndex
-;
-BluetoothDaemonConnectionIO
-*
-mIO
 ;
 }
 ;

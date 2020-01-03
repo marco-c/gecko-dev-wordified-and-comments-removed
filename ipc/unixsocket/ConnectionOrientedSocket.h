@@ -20,6 +20,9 @@ DataSocket
 .
 h
 "
+class
+MessageLoop
+;
 namespace
 mozilla
 {
@@ -77,6 +80,9 @@ PrepareAccept
 UnixSocketConnector
 *
 aConnector
+MessageLoop
+*
+aIOLoop
 ConnectionOrientedSocketIO
 *
 &
