@@ -162,16 +162,6 @@ security
 /
 manager
 /
-boot
-/
-src
-'
-'
-/
-security
-/
-manager
-/
 ssl
 '
 '

@@ -4914,13 +4914,6 @@ RESPATH
 /
 components
 /
-pipboot
-.
-xpt
-RESPATH
-/
-components
-/
 pipnss
 .
 xpt

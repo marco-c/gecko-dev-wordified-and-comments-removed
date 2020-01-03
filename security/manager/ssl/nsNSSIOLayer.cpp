@@ -106,6 +106,13 @@ h
 #
 include
 "
+nsIWebProgressListener
+.
+h
+"
+#
+include
+"
 nsClientAuthRemember
 .
 h
