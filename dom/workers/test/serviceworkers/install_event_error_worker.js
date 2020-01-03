@@ -10,4 +10,3 @@ undefined
 doSomething
 ;
 }
-;
