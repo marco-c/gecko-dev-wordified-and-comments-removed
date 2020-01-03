@@ -1511,15 +1511,7 @@ nbodyfixed
 )
 )
 return
-script
-(
-)
--
->
-bodyLevelLocalIsAliased
-(
-local
-)
+false
 ;
 for
 (
