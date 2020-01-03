@@ -20685,7 +20685,7 @@ if
 mStatus
 >
 =
-Canceling
+Killing
 )
 {
 return
