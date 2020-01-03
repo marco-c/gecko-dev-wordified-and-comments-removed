@@ -493,7 +493,7 @@ transform2d
 =
 transform2d
 .
-Rotate
+PreRotate
 (
 SimplePseudoRandom
 (
@@ -1409,6 +1409,7 @@ Filter
 :
 :
 POINT
+true
 )
 ;
 return
@@ -1666,6 +1667,7 @@ Filter
 :
 :
 POINT
+true
 )
 ;
 return
@@ -2404,13 +2406,9 @@ screenRect
 height
 )
 nullptr
-gfx
-:
-:
-Matrix
-(
-)
 aScreenRect
+nullptr
+nullptr
 )
 ;
 test
