@@ -2247,19 +2247,11 @@ for
 let
 property
 of
-kSerializableDownloadProperties
+kPlainSerializableDownloadProperties
 )
 {
 if
 (
-property
-!
-=
-"
-startTime
-"
-&
-&
 this
 [
 property
@@ -2324,7 +2316,7 @@ contentType
 }
 ;
 const
-kSerializableDownloadProperties
+kPlainSerializableDownloadProperties
 =
 [
 "
@@ -2554,7 +2546,7 @@ for
 let
 property
 of
-kSerializableDownloadProperties
+kPlainSerializableDownloadProperties
 )
 {
 if
@@ -2583,7 +2575,7 @@ aSerializable
 property
 =
 >
-kSerializableDownloadProperties
+kPlainSerializableDownloadProperties
 .
 indexOf
 (
