@@ -263,6 +263,15 @@ label
 onclick
 =
 "
+if
+(
+event
+.
+which
+=
+=
+1
+)
 gFxAccounts
 .
 onMenuPanelCommand
