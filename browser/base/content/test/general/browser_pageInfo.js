@@ -132,8 +132,13 @@ loaded
 "
 )
 ;
-handlePageInfo
+pageInfo
+.
+onFinished
+.
+push
 (
+handlePageInfo
 )
 ;
 }

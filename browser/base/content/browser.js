@@ -12586,6 +12586,7 @@ BrowserPageInfo
 doc
 initialTab
 imageElement
+frameOuterWindowID
 )
 {
 var
@@ -12601,6 +12602,9 @@ initialTab
 imageElement
 :
 imageElement
+frameOuterWindowID
+:
+frameOuterWindowID
 }
 ;
 var
