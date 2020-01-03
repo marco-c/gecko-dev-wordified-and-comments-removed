@@ -1497,7 +1497,7 @@ proto
 js
 :
 :
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 proto

@@ -26271,7 +26271,7 @@ bindingsobj
 |
 |
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 bindingsobj
@@ -29859,7 +29859,7 @@ ac
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 obj
@@ -29999,7 +29999,7 @@ else
 MOZ_ASSERT_UNREACHABLE
 (
 "
-GetPropertyNames
+GetPropertyKeys
 must
 return
 only
@@ -33868,7 +33868,7 @@ ac
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 env

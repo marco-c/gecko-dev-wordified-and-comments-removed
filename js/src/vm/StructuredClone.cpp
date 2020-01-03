@@ -4295,7 +4295,7 @@ context
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 context
 (

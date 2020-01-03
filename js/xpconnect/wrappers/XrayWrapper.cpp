@@ -3482,7 +3482,7 @@ if
 js
 :
 :
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 target
@@ -7185,7 +7185,7 @@ if
 js
 :
 :
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 target
@@ -10611,7 +10611,7 @@ if
 js
 :
 :
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 expando

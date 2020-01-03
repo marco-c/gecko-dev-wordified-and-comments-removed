@@ -2178,7 +2178,7 @@ bool
 js
 :
 :
-GetPropertyNames
+GetPropertyKeys
 (
 JSContext
 *

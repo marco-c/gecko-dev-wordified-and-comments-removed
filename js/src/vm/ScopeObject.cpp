@@ -8887,7 +8887,7 @@ scope
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 target

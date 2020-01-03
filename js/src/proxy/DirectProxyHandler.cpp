@@ -320,7 +320,7 @@ target
 )
 ;
 return
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 target
@@ -446,7 +446,7 @@ target
 )
 ;
 return
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 target
@@ -1453,7 +1453,7 @@ target
 )
 ;
 return
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 target

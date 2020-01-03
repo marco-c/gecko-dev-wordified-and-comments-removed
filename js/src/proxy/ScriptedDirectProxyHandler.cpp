@@ -1199,7 +1199,7 @@ cx
 if
 (
 !
-GetPropertyNames
+GetPropertyKeys
 (
 cx
 target
