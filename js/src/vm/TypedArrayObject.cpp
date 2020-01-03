@@ -797,6 +797,7 @@ NativeType
 ElementType
 ;
 static
+MOZ_CONSTEXPR
 Scalar
 :
 :
@@ -810,8 +811,9 @@ TypeIDOfType
 <
 NativeType
 >
-(
-)
+:
+:
+id
 ;
 }
 static
