@@ -5821,7 +5821,8 @@ scrolling
 .
 fling_accel_interval
 "
-500
+-
+1
 )
 ;
 pref
@@ -5833,11 +5834,8 @@ scrolling
 .
 fling_accel_base_multiplier
 "
-"
+-
 1
-.
-0
-"
 )
 ;
 pref
@@ -5849,11 +5847,8 @@ scrolling
 .
 fling_accel_supplemental_multiplier
 "
-"
+-
 1
-.
-0
-"
 )
 ;
 pref
