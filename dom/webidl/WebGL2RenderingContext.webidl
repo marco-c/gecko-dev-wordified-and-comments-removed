@@ -3187,8 +3187,9 @@ bindTransformFeedback
 (
 GLenum
 target
-GLuint
-id
+WebGLTransformFeedback
+?
+tf
 )
 ;
 void
@@ -3209,8 +3210,6 @@ transformFeedbackVaryings
 WebGLProgram
 ?
 program
-GLsizei
-count
 sequence
 <
 DOMString

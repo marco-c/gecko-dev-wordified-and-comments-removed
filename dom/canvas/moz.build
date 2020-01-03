@@ -258,6 +258,11 @@ WebGL1Context
 cpp
 '
 '
+WebGL1ContextBuffers
+.
+cpp
+'
+'
 WebGL1ContextUniforms
 .
 cpp

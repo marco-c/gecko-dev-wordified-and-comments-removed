@@ -3985,6 +3985,7 @@ PFNGLDELETETRANSFORMFEEDBACKSPROC
 (
 GLsizei
 n
+const
 GLuint
 *
 ids

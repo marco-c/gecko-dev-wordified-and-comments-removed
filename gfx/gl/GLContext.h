@@ -10307,6 +10307,7 @@ fDeleteTransformFeedbacks
 (
 GLsizei
 n
+const
 GLuint
 *
 ids
