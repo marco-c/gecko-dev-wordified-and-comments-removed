@@ -1,5 +1,10 @@
 #
 include
+<
+algorithm
+>
+#
+include
 "
 WMFVideoMFTManager
 .
@@ -1857,7 +1862,14 @@ Create
 mVideoInfo
 mImageContainer
 aStreamOffset
+std
+:
+:
+max
+(
+0LL
 pts
+)
 duration
 b
 false
