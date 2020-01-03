@@ -383,6 +383,7 @@ float
 GetTime
 (
 )
+const
 ;
 private
 :

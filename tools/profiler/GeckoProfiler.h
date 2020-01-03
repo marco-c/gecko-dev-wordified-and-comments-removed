@@ -381,6 +381,10 @@ char
 *
 profiler_get_profile
 (
+float
+aSinceTime
+=
+0
 )
 {
 return
@@ -396,6 +400,10 @@ profiler_get_profile_jsobject
 JSContext
 *
 aCx
+float
+aSinceTime
+=
+0
 )
 {
 return
