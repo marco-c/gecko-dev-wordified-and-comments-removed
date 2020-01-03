@@ -1124,11 +1124,6 @@ IsObject
 \
 _
 (
-HaveSameClass
-)
-\
-_
-(
 HasClass
 )
 \

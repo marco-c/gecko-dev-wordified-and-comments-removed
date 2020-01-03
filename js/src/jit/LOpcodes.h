@@ -1578,11 +1578,6 @@ IsObjectAndBranch
 \
 _
 (
-HaveSameClass
-)
-\
-_
-(
 HasClass
 )
 \

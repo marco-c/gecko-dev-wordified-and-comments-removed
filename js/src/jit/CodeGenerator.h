@@ -2323,14 +2323,6 @@ lir
 )
 ;
 void
-visitHaveSameClass
-(
-LHaveSameClass
-*
-lir
-)
-;
-void
 visitHasClass
 (
 LHasClass
