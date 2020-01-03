@@ -2311,6 +2311,11 @@ unsetAllocDuringSweep
 (
 )
 ;
+void
+unmarkAll
+(
+)
+;
 }
 ;
 struct
