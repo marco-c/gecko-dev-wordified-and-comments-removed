@@ -774,6 +774,17 @@ phase
 ;
 if
 (
+#
+ifdef
+MOZ_B2G
+aHint
+=
+=
+SCROLLABLE
+&
+&
+#
+endif
 gfxPrefs
 :
 :
