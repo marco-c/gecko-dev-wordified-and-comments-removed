@@ -6157,7 +6157,7 @@ reg
 {
 masm
 .
-call
+call_r
 (
 reg
 .
@@ -6193,7 +6193,7 @@ REG
 :
 masm
 .
-call
+call_r
 (
 op
 .
