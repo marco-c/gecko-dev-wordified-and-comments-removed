@@ -490,7 +490,7 @@ SourceBuffer
 ;
 friend
 class
-AppendDataRunnable
+BufferAppendRunnable
 ;
 friend
 class
@@ -549,13 +549,8 @@ aRv
 )
 ;
 void
-AppendData
+BufferAppend
 (
-MediaLargeByteBuffer
-*
-aData
-TimeUnit
-aTimestampOffset
 uint32_t
 aAppendID
 )
