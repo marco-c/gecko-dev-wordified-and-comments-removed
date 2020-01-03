@@ -2157,6 +2157,11 @@ executeSoon
 =
 >
 {
+const
+MIN_HEIGHT
+=
+600
+;
 let
 win
 =
@@ -2187,6 +2192,10 @@ outerWidth
 let
 height
 =
+Math
+.
+max
+(
 win
 .
 outerHeight
@@ -2194,6 +2203,8 @@ outerHeight
 0
 .
 5
+MIN_HEIGHT
+)
 ;
 win
 .
