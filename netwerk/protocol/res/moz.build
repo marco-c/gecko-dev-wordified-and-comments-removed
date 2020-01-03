@@ -118,6 +118,11 @@ SOURCES
 =
 [
 '
+ExtensionProtocolHandler
+.
+cpp
+'
+'
 nsResProtocolHandler
 .
 cpp
