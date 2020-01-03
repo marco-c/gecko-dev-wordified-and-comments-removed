@@ -963,6 +963,17 @@ Register
 rd
 Register
 rs
+Register
+rt
+)
+;
+void
+ma_addu
+(
+Register
+rd
+Register
+rs
 )
 ;
 void
