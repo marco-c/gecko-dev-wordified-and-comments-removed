@@ -3801,6 +3801,10 @@ TYPE_MEMORY
 )
 {
 mFrontLock
+.
+get
+(
+)
 -
 >
 AddRef

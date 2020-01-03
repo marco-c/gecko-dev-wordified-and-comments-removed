@@ -1542,6 +1542,7 @@ operator
 (
 )
 const
+MOZ_NO_ADDREF_RELEASE_ON_RETURN
 {
 MOZ_ASSERT
 (

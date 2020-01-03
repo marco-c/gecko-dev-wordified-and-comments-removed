@@ -11033,7 +11033,13 @@ mFlags
 =
 DATA_CHANNEL_FLAGS_FINISH_OPEN
 ;
+DataChannel
+*
+rawChannel
+=
 channel
+;
+rawChannel
 -
 >
 AddRef
@@ -11044,7 +11050,7 @@ mPending
 .
 Push
 (
-channel
+rawChannel
 )
 ;
 return
