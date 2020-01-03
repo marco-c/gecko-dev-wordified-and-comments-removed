@@ -1069,6 +1069,13 @@ frames
 *
 aOutputChannels
 ;
+#
+if
+!
+defined
+(
+MOZILLA_XPCOMRT_API
+)
 if
 (
 !
@@ -1115,6 +1122,8 @@ mTimeStamp
 )
 ;
 }
+#
+endif
 }
 if
 (
