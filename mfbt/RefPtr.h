@@ -616,6 +616,9 @@ define
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 T
+.
+.
+.
 )
 \
 virtual
@@ -626,6 +629,7 @@ typeName
 (
 )
 const
+__VA_ARGS__
 {
 return
 #
@@ -639,6 +643,7 @@ typeSize
 (
 )
 const
+__VA_ARGS__
 {
 return
 sizeof
@@ -655,6 +660,9 @@ define
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 T
+.
+.
+.
 )
 #
 endif
