@@ -346,6 +346,12 @@ window
 GetDocument
 (
 )
+window
+-
+>
+GetOuterWindow
+(
+)
 )
 )
 ;
