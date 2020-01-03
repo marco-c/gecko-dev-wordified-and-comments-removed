@@ -4124,6 +4124,9 @@ this
 _getSettings
 (
 )
+#
+ifndef
+MOZ_WIDGET_ANDROID
 "
 profile
 "
@@ -4137,6 +4140,8 @@ this
 _getProfile
 (
 )
+#
+endif
 "
 partner
 "
