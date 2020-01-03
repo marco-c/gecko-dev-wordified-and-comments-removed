@@ -149,16 +149,6 @@ IsValidObject
 (
 )
 ;
-MaiHyperlink
-*
-GetMaiHyperlink
-(
-bool
-aCreate
-=
-true
-)
-;
 static
 const
 char

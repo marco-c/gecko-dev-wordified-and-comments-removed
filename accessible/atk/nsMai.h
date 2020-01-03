@@ -241,6 +241,12 @@ parent
 uintptr_t
 accWrap
 ;
+AtkHyperlink
+*
+GetAtkHyperlink
+(
+)
+;
 void
 Shutdown
 (
