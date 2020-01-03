@@ -3909,6 +3909,10 @@ CanBeSharedCrossNodeIds
 const
 {
 return
+!
+mAsyncShutdownInProgress
+&
+&
 mNodeId
 .
 IsEmpty
@@ -3934,6 +3938,11 @@ aNodeId
 const
 {
 return
+!
+mAsyncShutdownInProgress
+&
+&
+(
 (
 mNodeId
 .
@@ -3955,6 +3964,7 @@ mNodeId
 =
 =
 aNodeId
+)
 ;
 }
 void
