@@ -60,7 +60,7 @@ view
 .
 animation
 .
-AccelerateDecelerateInterpolator
+DecelerateInterpolator
 ;
 import
 android
@@ -198,11 +198,11 @@ ANIM_TIME_MS
 private
 static
 final
-AccelerateDecelerateInterpolator
+DecelerateInterpolator
 ANIM_INTERPOLATOR
 =
 new
-AccelerateDecelerateInterpolator
+DecelerateInterpolator
 (
 )
 ;
