@@ -84,7 +84,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /

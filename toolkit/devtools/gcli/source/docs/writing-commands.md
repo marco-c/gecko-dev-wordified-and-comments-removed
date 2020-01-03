@@ -618,7 +618,7 @@ should
 be
 stored
 in
-browser
+toolkit
 /
 locales
 /
@@ -628,7 +628,7 @@ US
 /
 chrome
 /
-browser
+global
 /
 devtools
 /
