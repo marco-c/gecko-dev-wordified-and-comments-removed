@@ -409,15 +409,7 @@ POLL_SESSION
 *
 60
 *
-5
-;
-exports
-.
-POLL_STEP
-=
-1000
-*
-3
+20
 ;
 exports
 .
