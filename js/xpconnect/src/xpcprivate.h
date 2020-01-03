@@ -13865,6 +13865,10 @@ forcePermissiveCOWs
 (
 false
 )
+CPOWTime
+(
+0
+)
 skipCOWCallableChecks
 (
 false
@@ -13978,6 +13982,9 @@ universalXPConnectEnabled
 ;
 bool
 forcePermissiveCOWs
+;
+PRIntervalTime
+CPOWTime
 ;
 bool
 skipCOWCallableChecks

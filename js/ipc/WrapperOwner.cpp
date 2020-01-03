@@ -49,6 +49,13 @@ h
 #
 include
 "
+CPOWTimer
+.
+h
+"
+#
+include
+"
 WrapperFactory
 .
 h
@@ -818,6 +825,12 @@ false
 \
 }
 \
+{
+\
+CPOWTimer
+timer
+;
+\
 return
 owner
 -
@@ -825,6 +838,8 @@ owner
 call
 args
 ;
+\
+}
 bool
 CPOWProxyHandler
 :
