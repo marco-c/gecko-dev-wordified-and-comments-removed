@@ -207,7 +207,7 @@ prototype
 __exposedProps__
 :
 {
-port
+localPort
 :
 '
 r
@@ -717,6 +717,9 @@ trans
 this
 .
 _binaryType
+this
+.
+useWin
 )
 ;
 this

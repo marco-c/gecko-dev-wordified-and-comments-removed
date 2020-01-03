@@ -619,6 +619,10 @@ backlog
 in
 DOMString
 binaryType
+in
+unsigned
+long
+appId
 )
 ;
 /

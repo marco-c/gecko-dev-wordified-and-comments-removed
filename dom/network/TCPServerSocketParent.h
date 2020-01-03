@@ -134,6 +134,11 @@ RecvRequestDelete
 )
 MOZ_OVERRIDE
 ;
+uint32_t
+GetAppId
+(
+)
+;
 void
 AddIPDLReference
 (
