@@ -877,6 +877,9 @@ nsStyleContext
 aOther
 nsChangeHint
 aParentHintsNotHandledForDescendants
+uint32_t
+*
+aEqualStructs
 )
 ;
 nscolor
