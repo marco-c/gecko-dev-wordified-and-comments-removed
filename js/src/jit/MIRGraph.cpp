@@ -4751,6 +4751,13 @@ removeAllOperands
 (
 )
 ;
+at
+-
+>
+setDiscarded
+(
+)
+;
 MPhiIterator
 result
 =
