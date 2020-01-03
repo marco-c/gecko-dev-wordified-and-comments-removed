@@ -207,13 +207,11 @@ py
 '
 MOZHARNESS_CONFIG
 :
-'
 builds
 /
 releng_base_android_64_builds
 .
 py
-'
 MH_CUSTOM_BUILD_VARIANT_CFG
 :
 api
