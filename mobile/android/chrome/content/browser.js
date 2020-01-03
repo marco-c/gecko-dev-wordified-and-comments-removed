@@ -1629,6 +1629,16 @@ Reader
 :
 UpdateReaderButton
 "
+"
+Reader
+:
+SetIntPref
+"
+"
+Reader
+:
+SetCharPref
+"
 ]
 "
 chrome
