@@ -845,7 +845,7 @@ if
 progressTracker
 -
 >
-ConsumerCount
+ObserverCount
 (
 )
 =
@@ -885,7 +885,7 @@ this
 progressTracker
 -
 >
-AddConsumer
+AddObserver
 (
 proxy
 )
@@ -944,7 +944,7 @@ if
 progressTracker
 -
 >
-RemoveConsumer
+RemoveObserver
 (
 proxy
 aStatus
@@ -958,7 +958,7 @@ if
 progressTracker
 -
 >
-ConsumerCount
+ObserverCount
 (
 )
 =
@@ -1770,7 +1770,7 @@ progressTracker
 progressTracker
 -
 >
-ConsumerCount
+ObserverCount
 (
 )
 >
@@ -1851,7 +1851,7 @@ if
 progressTracker
 -
 >
-FirstConsumerIs
+FirstObserverIs
 (
 proxy
 )
@@ -2808,7 +2808,7 @@ if
 progressTracker
 -
 >
-ConsumerCount
+ObserverCount
 (
 )
 =
@@ -3636,7 +3636,7 @@ GetProgressTracker
 freshTracker
 -
 >
-AdoptConsumers
+AdoptObservers
 (
 oldProgressTracker
 )

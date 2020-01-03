@@ -123,6 +123,11 @@ imgRequestProxy
 h
 '
 '
+IProgressObserver
+.
+h
+'
+'
 Orientation
 .
 h
