@@ -408,7 +408,7 @@ BrowserApp
 .
 getTabForBrowser
 (
-browser
+gBrowser
 )
 )
 ;
