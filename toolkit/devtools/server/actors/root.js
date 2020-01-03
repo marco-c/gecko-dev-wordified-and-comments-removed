@@ -294,6 +294,9 @@ true
 addNewRule
 :
 true
+getUniqueSelector
+:
+true
 }
 sayHello
 :
