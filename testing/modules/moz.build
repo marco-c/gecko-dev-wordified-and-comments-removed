@@ -141,6 +141,11 @@ Assert
 jsm
 '
 '
+MockRegistrar
+.
+jsm
+'
+'
 StructuredLog
 .
 jsm
