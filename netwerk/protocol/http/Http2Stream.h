@@ -369,6 +369,16 @@ SetAllHeadersReceived
 (
 )
 ;
+void
+UnsetAllHeadersReceived
+(
+)
+{
+mAllHeadersReceived
+=
+0
+;
+}
 bool
 AllHeadersReceived
 (
@@ -400,6 +410,8 @@ Http2Decompressor
 nsACString
 &
 nsACString
+&
+int32_t
 &
 )
 ;
