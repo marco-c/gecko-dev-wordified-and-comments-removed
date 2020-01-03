@@ -349,7 +349,10 @@ ScrollableLayerGuid
 &
 aGuid
 const
+Maybe
+<
 ZoomConstraints
+>
 &
 aConstraints
 )
@@ -889,6 +892,16 @@ nsRefPtr
 HitTestingTreeNode
 >
 mRootNode
+;
+std
+:
+:
+map
+<
+ScrollableLayerGuid
+ZoomConstraints
+>
+mZoomConstraints
 ;
 nsRefPtr
 <

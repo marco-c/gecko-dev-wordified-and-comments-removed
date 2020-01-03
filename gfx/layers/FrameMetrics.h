@@ -2412,6 +2412,13 @@ other
 }
 }
 ;
+typedef
+Maybe
+<
+ZoomConstraints
+>
+MaybeZoomConstraints
+;
 }
 }
 #

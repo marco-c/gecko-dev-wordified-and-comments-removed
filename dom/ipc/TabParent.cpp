@@ -12499,11 +12499,7 @@ ViewID
 &
 aViewId
 const
-bool
-&
-aIsRoot
-const
-ZoomConstraints
+MaybeZoomConstraints
 &
 aConstraints
 )
@@ -12526,7 +12522,6 @@ UpdateZoomConstraints
 (
 aPresShellId
 aViewId
-aIsRoot
 aConstraints
 )
 ;
