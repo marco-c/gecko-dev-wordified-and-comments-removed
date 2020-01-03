@@ -25,6 +25,9 @@ mir
 MIRGraph
 &
 graph
+bool
+*
+success
 )
 ;
 }
