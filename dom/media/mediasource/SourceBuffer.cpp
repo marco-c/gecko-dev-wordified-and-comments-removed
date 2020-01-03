@@ -1336,7 +1336,7 @@ this
 mTrackBuffer
 -
 >
-DiscardDecoder
+EndCurrentDecoder
 (
 )
 ;

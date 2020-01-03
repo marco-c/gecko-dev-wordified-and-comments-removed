@@ -170,6 +170,11 @@ DiscardDecoder
 )
 ;
 void
+EndCurrentDecoder
+(
+)
+;
+void
 Detach
 (
 )
