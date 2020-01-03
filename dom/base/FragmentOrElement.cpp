@@ -3412,7 +3412,7 @@ NodeInfo
 )
 -
 >
-NameInfo
+NameAtom
 (
 )
 -
