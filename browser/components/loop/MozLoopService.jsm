@@ -4937,6 +4937,7 @@ const
 onRoomsChange
 =
 (
+e
 )
 =
 >
@@ -4945,6 +4946,12 @@ MozLoopServiceInternal
 .
 notifyStatusChanged
 (
+"
+room
+-
+"
++
+e
 )
 ;
 }
@@ -4965,6 +4972,16 @@ on
 (
 "
 update
+"
+onRoomsChange
+)
+;
+LoopRooms
+.
+on
+(
+"
+delete
 "
 onRoomsChange
 )

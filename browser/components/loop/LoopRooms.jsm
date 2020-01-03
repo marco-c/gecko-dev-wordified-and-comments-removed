@@ -530,6 +530,11 @@ values
 {
 if
 (
+room
+.
+deleted
+|
+|
 !
 (
 "
