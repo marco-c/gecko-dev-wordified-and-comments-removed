@@ -279,6 +279,12 @@ defined
 (
 XP_WIN
 )
+&
+&
+defined
+(
+HASH_NODE_ID_WITH_DEVICE_ID
+)
 MOZ_NEVER_INLINE
 static
 bool
