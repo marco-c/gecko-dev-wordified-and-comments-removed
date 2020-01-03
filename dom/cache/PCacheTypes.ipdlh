@@ -170,9 +170,6 @@ bool
 ignoreVary
 ;
 bool
-prefixMatch
-;
-bool
 cacheNameSet
 ;
 nsString

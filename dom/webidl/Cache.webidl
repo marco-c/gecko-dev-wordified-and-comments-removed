@@ -308,11 +308,6 @@ ignoreVary
 =
 false
 ;
-boolean
-prefixMatch
-=
-false
-;
 DOMString
 cacheName
 ;
