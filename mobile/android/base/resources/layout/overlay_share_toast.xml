@@ -160,10 +160,10 @@ wrap_content
 "
 android
 :
-layout_gravity
+gravity
 =
 "
-center_vertical
+center
 "
 android
 :
