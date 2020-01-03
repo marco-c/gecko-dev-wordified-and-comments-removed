@@ -12299,7 +12299,7 @@ acknowledgement
 with
 gen
 %
-lu
+u
 \
 n
 "
