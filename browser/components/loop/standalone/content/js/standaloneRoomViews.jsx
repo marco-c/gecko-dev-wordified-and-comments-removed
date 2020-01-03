@@ -903,6 +903,11 @@ this
 .
 onFeedbackSent
 }
+noCloseText
+=
+{
+true
+}
 /
 >
 <
