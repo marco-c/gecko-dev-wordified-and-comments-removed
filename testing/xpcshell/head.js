@@ -1968,6 +1968,7 @@ true
 let
 {
 DebuggerServer
+OriginalLocation
 }
 =
 Components
@@ -2146,9 +2147,14 @@ file
 ;
 sourceActor
 .
-setBreakpoint
+_setBreakpoint
 (
+new
+OriginalLocation
+(
+sourceActor
 1
+)
 )
 ;
 }
