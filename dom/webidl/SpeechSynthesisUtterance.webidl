@@ -227,13 +227,5 @@ attribute
 EventHandler
 onboundary
 ;
-[
-ChromeOnly
-]
-readonly
-attribute
-DOMString
-chosenVoiceURI
-;
 }
 ;

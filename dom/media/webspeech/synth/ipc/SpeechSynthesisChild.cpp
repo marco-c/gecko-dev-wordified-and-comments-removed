@@ -237,10 +237,6 @@ SpeechSynthesisRequestChild
 :
 RecvOnStart
 (
-const
-nsString
-&
-aUri
 )
 {
 mTask
@@ -248,7 +244,6 @@ mTask
 >
 DispatchStartImpl
 (
-aUri
 )
 ;
 return

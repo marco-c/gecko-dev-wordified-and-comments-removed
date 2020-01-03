@@ -156,8 +156,6 @@ aCharIndex
 ;
 OnStart
 (
-nsString
-aUri
 )
 ;
 OnPause
