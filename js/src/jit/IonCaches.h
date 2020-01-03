@@ -443,9 +443,6 @@ rejoinLabel_
 void
 disable
 (
-IonScript
-*
-ion
 )
 ;
 inline
@@ -533,6 +530,8 @@ virtual
 void
 reset
 (
+ReprotectCode
+reprotect
 )
 ;
 bool
@@ -985,6 +984,8 @@ GetProperty
 void
 reset
 (
+ReprotectCode
+reprotect
 )
 ;
 Register
@@ -1574,6 +1575,8 @@ SetProperty
 void
 reset
 (
+ReprotectCode
+reprotect
 )
 ;
 Register
@@ -1922,6 +1925,8 @@ GetElement
 void
 reset
 (
+ReprotectCode
+reprotect
 )
 ;
 Register
@@ -2399,6 +2404,8 @@ SetElement
 void
 reset
 (
+ReprotectCode
+reprotect
 )
 ;
 Register

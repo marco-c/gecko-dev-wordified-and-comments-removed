@@ -6249,6 +6249,7 @@ i
 .
 reset
 (
+DontReprotect
 )
 ;
 }
