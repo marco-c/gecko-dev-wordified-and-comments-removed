@@ -756,7 +756,7 @@ messageLookupKey
 AssignLiteral
 (
 "
-LoadingMixedDisplayContent2
+LoadingMixedDisplayContent
 "
 )
 ;
@@ -768,7 +768,7 @@ messageLookupKey
 AssignLiteral
 (
 "
-LoadingMixedActiveContent2
+LoadingMixedActiveContent
 "
 )
 ;
