@@ -14491,7 +14491,7 @@ mReadyState
 nsIDOMHTMLMediaElement
 :
 :
-HAVE_CURRENT_DATA
+HAVE_METADATA
 )
 )
 &
