@@ -106,11 +106,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIPrivateBrowsingTrackingProtectionWhitelist
-.
-idl
-'
-'
 nsIUrlClassifierDBService
 .
 idl
@@ -245,11 +240,6 @@ manifest
 '
 '
 nsUrlClassifierHashCompleter
-.
-js
-'
-'
-PrivateBrowsingTrackingProtectionWhitelist
 .
 js
 '

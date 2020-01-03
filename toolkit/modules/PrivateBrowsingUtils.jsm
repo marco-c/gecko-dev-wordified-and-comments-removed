@@ -252,10 +252,6 @@ mozilla
 .
 org
 /
-url
--
-classifier
-/
 pbm
 -
 tp
@@ -295,10 +291,6 @@ Cc
 mozilla
 .
 org
-/
-url
--
-classifier
 /
 pbm
 -
