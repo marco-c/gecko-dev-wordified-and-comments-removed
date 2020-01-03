@@ -314,9 +314,9 @@ BluetoothGattService
 *
 aService
 const
-BluetoothGattId
+BluetoothGattCharAttribute
 &
-aCharId
+aChar
 )
 ;
 private
@@ -328,6 +328,15 @@ BluetoothGattCharacteristic
 ;
 void
 HandleDescriptorsDiscovered
+(
+const
+BluetoothValue
+&
+aValue
+)
+;
+void
+HandleCharacteristicValueUpdated
 (
 const
 BluetoothValue
