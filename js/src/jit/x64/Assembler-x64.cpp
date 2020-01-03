@@ -1075,7 +1075,7 @@ entry
 X86Assembler
 :
 :
-repatchPointer
+setPointer
 (
 entry
 +
