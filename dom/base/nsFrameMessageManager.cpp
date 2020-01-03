@@ -8929,6 +8929,7 @@ nsIPrincipal
 *
 aPrincipal
 )
+MOZ_OVERRIDE
 {
 if
 (

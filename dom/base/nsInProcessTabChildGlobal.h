@@ -231,6 +231,7 @@ Value
 >
 aRetval
 )
+MOZ_OVERRIDE
 {
 return
 mMessageManager
@@ -301,6 +302,7 @@ Value
 >
 aRetval
 )
+MOZ_OVERRIDE
 {
 return
 mMessageManager

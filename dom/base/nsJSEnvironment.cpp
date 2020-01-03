@@ -12563,6 +12563,7 @@ void
 *
 argv
 )
+MOZ_OVERRIDE
 ;
 void
 ReleaseJSObjects

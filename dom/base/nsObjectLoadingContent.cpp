@@ -1625,6 +1625,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Notify
@@ -1633,6 +1634,7 @@ nsITimer
 *
 timer
 )
+MOZ_OVERRIDE
 ;
 protected
 :

@@ -353,6 +353,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -404,6 +405,7 @@ Element
 GetNameSpaceElement
 (
 )
+MOZ_OVERRIDE
 {
 return
 GetElement

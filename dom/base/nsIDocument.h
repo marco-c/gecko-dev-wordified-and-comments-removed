@@ -6716,6 +6716,7 @@ Element
 GetNameSpaceElement
 (
 )
+MOZ_OVERRIDE
 {
 return
 GetRootElement

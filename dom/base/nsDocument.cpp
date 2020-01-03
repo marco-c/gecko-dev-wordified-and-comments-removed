@@ -42432,6 +42432,7 @@ CSSStyleSheet
 bool
 nsresult
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -51574,6 +51575,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <

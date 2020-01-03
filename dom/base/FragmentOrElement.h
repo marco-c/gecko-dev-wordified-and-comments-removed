@@ -241,6 +241,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 void
 NoticeNodeDestruction

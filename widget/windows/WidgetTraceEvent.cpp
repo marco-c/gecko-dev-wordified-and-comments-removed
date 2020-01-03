@@ -344,7 +344,7 @@ InitWidgetTracing
 {
 sEventHandle
 =
-CreateEvent
+CreateEventW
 (
 nullptr
 FALSE
