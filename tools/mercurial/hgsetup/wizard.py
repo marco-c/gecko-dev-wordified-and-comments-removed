@@ -45,6 +45,8 @@ config
 import
 (
     
+config_file
+    
 HgIncludeException
     
 MercurialConfig
@@ -1396,6 +1398,13 @@ date
 return
 1
         
+config_path
+=
+config_file
+(
+config_paths
+)
+        
 try
 :
             
@@ -1403,7 +1412,7 @@ c
 =
 MercurialConfig
 (
-config_paths
+config_path
 )
         
 except
