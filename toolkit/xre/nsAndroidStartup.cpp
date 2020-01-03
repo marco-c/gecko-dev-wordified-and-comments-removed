@@ -338,17 +338,4 @@ d
 result
 )
 ;
-mozilla
-:
-:
-widget
-:
-:
-GeckoAppShell
-:
-:
-NotifyXreExit
-(
-)
-;
 }

@@ -4865,12 +4865,6 @@ getIntent
 )
 )
 ;
-GeckoAppShell
-.
-gracefulExit
-(
-)
-;
 return
 ;
 }
@@ -17458,12 +17452,6 @@ this
 doRestart
 (
 args
-)
-;
-GeckoAppShell
-.
-gracefulExit
-(
 )
 ;
 }
