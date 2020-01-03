@@ -1401,6 +1401,11 @@ mLineAtStart
 :
 1
 ;
+bool
+mHasRuby
+:
+1
+;
 int32_t
 mSpanDepth
 ;
