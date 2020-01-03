@@ -160,7 +160,7 @@ include
 URIParams
 ;
 include
-ServiceWorkerRegistrarTypes
+BrowserConfiguration
 ;
 using
 class
@@ -759,16 +759,6 @@ CommandInt
 [
 ]
 richTextCommands
-;
-}
-;
-struct
-BrowserConfiguration
-{
-ServiceWorkerRegistrationData
-[
-]
-serviceWorkerRegistrations
 ;
 }
 ;

@@ -469,6 +469,11 @@ IPDL_SOURCES
 =
 [
 '
+BrowserConfiguration
+.
+ipdlh
+'
+'
 DOMTypes
 .
 ipdlh

@@ -2343,8 +2343,9 @@ event
 bool
 InitBrowserConfiguration
 (
-nsIURI
-*
+const
+nsCString
+&
 aURI
 BrowserConfiguration
 &
