@@ -582,6 +582,11 @@ break
 case
 READ_TIMECODESCALE
 :
+MOZ_ASSERT
+(
+mGotTimecodeScale
+)
+;
 mTimecodeScale
 =
 mVInt
