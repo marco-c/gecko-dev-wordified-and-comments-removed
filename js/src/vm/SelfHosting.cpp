@@ -5751,6 +5751,15 @@ obj_create
 JS_FN
 (
 "
+std_Object_propertyIsEnumerable
+"
+obj_propertyIsEnumerable
+1
+0
+)
+JS_FN
+(
+"
 std_Object_defineProperty
 "
 obj_defineProperty
