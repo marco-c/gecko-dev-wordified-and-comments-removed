@@ -910,15 +910,3 @@ ptr
 )
 ;
 }
-namespace
-mozilla
-{
-const
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
-}
