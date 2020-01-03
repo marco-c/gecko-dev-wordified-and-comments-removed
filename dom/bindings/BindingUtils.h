@@ -8008,8 +8008,13 @@ found
 JS
 :
 :
+MutableHandle
+<
+JS
+:
+:
 Value
-*
+>
 vp
 )
 ;
@@ -8036,6 +8041,9 @@ Handle
 jsid
 >
 id
+bool
+*
+has
 )
 ;
 bool
