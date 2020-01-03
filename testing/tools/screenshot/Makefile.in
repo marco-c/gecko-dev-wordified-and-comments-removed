@@ -53,15 +53,5 @@ MPL
 0
 /
 .
-ifeq
-(
-(
-MOZ_WIDGET_TOOLKIT
-)
-windows
-)
 MOZ_GLUE_PROGRAM_LDFLAGS
 =
-endif
-#
-windows
