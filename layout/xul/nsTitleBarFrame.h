@@ -128,7 +128,10 @@ protected
 bool
 mTrackingMouseMove
 ;
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 mLastPoint
 ;
 }
