@@ -1547,6 +1547,11 @@ MOZ_FINAL
 public
 RInstruction
 {
+private
+:
+uint32_t
+numOperands_
+;
 public
 :
 RINSTRUCTION_HEADER_
@@ -1561,7 +1566,7 @@ numOperands
 const
 {
 return
-2
+numOperands_
 ;
 }
 bool
