@@ -422,6 +422,9 @@ _id
 isServiceLock
 :
 true
+windowID
+:
+undefined
 }
 undefined
 Services
