@@ -427,6 +427,9 @@ define
 startScreenShare
 "
 {
+type
+:
+String
 }
 )
 EndScreenShare

@@ -367,6 +367,7 @@ startScreenShare
 :
 function
 (
+actionData
 )
 {
 this
@@ -403,9 +404,9 @@ config
 .
 videoSource
 =
-"
-window
-"
+actionData
+.
+type
 ;
 this
 .
