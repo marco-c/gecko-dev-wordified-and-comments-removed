@@ -141,7 +141,7 @@ c
 FINAL_LIBRARY
 =
 '
-gkmedias
+xul
 '
 if
 CONFIG

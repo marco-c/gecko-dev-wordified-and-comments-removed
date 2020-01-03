@@ -157,6 +157,11 @@ TestMoz2D
 cpp
 '
 '
+TestQcms
+.
+cpp
+'
+'
 TestRect
 .
 cpp
@@ -310,6 +315,12 @@ unittest
 gfx
 /
 layers
+'
+'
+/
+gfx
+/
+qcms
 '
 ]
 FINAL_LIBRARY
