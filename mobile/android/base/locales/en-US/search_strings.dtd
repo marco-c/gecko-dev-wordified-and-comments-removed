@@ -115,12 +115,10 @@ formatS
 <
 !
 ENTITY
-search_empty_title
+search_empty_title2
 '
-&
-brandShortName
-;
-Search
+Start
+searching
 '
 >
 <
