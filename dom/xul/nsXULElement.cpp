@@ -10534,9 +10534,6 @@ int32_t
 number
 )
 ;
-uint32_t
-i
-;
 if
 (
 mNumAttributes
@@ -10570,6 +10567,7 @@ attributeValue
 ;
 for
 (
+uint32_t
 i
 =
 0
@@ -10743,6 +10741,7 @@ numChildren
 ;
 for
 (
+uint32_t
 i
 =
 0
