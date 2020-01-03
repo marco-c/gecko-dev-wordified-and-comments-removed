@@ -113,6 +113,10 @@ observer
 {
 QueryInterface
 :
+SpecialPowers
+.
+wrapCallback
+(
 function
 (
 iid
@@ -166,6 +170,7 @@ return
 this
 ;
 }
+)
 observe
 :
 SpecialPowers
