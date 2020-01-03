@@ -4139,7 +4139,8 @@ mAudioTracks
 mLastFrameDuration
 ;
 }
-mActiveTrack
+bool
+activeTrack
 =
 false
 ;
@@ -4167,7 +4168,7 @@ if
 numAudios
 )
 {
-mActiveTrack
+activeTrack
 =
 true
 ;
@@ -4215,7 +4216,7 @@ if
 numVideos
 )
 {
-mActiveTrack
+activeTrack
 =
 true
 ;
@@ -4250,6 +4251,16 @@ mLastInfo
 mVideoTracks
 .
 mInfo
+;
+}
+if
+(
+activeTrack
+)
+{
+mActiveTrack
+=
+true
 ;
 }
 mFirstInitializationSegmentReceived
