@@ -747,11 +747,6 @@ IMENotification
 aIMENotification
 )
 ;
-nsresult
-NotifyIMEOfEditorRect
-(
-)
-;
 class
 PaintTask
 :
