@@ -521,6 +521,11 @@ nsViewportFrame
 cpp
 '
 '
+RubyReflowState
+.
+cpp
+'
+'
 RubyUtils
 .
 cpp
