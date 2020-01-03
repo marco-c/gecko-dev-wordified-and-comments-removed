@@ -55,7 +55,7 @@ NavigationHelper
 .
 enterAndLoadUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_READER_MODE_BASIC_ARTICLE
 )
@@ -70,7 +70,7 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_READER_MODE_BASIC_ARTICLE
 )

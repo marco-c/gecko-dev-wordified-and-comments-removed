@@ -147,7 +147,7 @@ url
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_ADOBE_FLASH_URL
 )

@@ -227,7 +227,7 @@ num
 {
 loadUrl
 (
-StringHelper
+mStringHelper
 .
 ABOUT_BLANK_URL
 )
@@ -238,7 +238,7 @@ ok
 (
 waitForText
 (
-StringHelper
+mStringHelper
 .
 ABOUT_BLANK_URL
 )
@@ -247,7 +247,7 @@ Loaded
 blank
 page
 "
-StringHelper
+mStringHelper
 .
 ABOUT_BLANK_URL
 )
