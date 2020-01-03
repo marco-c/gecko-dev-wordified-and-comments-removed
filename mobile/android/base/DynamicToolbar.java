@@ -364,7 +364,7 @@ return
 }
 final
 boolean
-immediate
+isImmediate
 =
 transition
 =
@@ -386,7 +386,7 @@ getLayerMarginsAnimator
 .
 showMargins
 (
-immediate
+isImmediate
 )
 ;
 }
@@ -400,7 +400,7 @@ getLayerMarginsAnimator
 .
 hideMargins
 (
-immediate
+isImmediate
 )
 ;
 }
