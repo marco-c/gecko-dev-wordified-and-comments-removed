@@ -475,6 +475,11 @@ Cache
 (
 )
 ;
+void
+DisconnectFromActor
+(
+)
+;
 RequestId
 AddRequestPromise
 (
