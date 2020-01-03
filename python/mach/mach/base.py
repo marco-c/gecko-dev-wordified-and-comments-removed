@@ -333,6 +333,10 @@ parser
 '
 arguments
 '
+        
+'
+argument_group_names
+'
     
 )
     
@@ -357,6 +361,10 @@ parser
 =
 None
 arguments
+=
+None
+        
+argument_group_names
 =
 None
 pass_context
@@ -415,6 +423,15 @@ self
 arguments
 =
 arguments
+or
+[
+]
+        
+self
+.
+argument_group_names
+=
+argument_group_names
 or
 [
 ]
