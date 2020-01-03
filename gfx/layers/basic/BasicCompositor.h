@@ -585,6 +585,9 @@ aSize
 MOZ_OVERRIDE
 {
 }
+#
+ifdef
+MOZ_DUMP_PAINTING
 virtual
 const
 char
@@ -601,6 +604,8 @@ Basic
 "
 ;
 }
+#
+endif
 virtual
 LayersBackend
 GetBackendType
