@@ -611,8 +611,6 @@ info
 {
 tagName
 :
-child
-.
 tagName
 textContent
 :
