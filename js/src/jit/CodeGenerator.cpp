@@ -45300,9 +45300,13 @@ code
 =
 linker
 .
-newCodeForIonScript
+newCode
+<
+CanGC
+>
 (
 cx
+ION_CODE
 )
 ;
 if
