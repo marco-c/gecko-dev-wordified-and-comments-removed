@@ -744,7 +744,9 @@ NewNativeObjectWithClassProto
 cx
 &
 js_NoSuchMethodClass
-nullptr
+NullPtr
+(
+)
 NullPtr
 (
 )

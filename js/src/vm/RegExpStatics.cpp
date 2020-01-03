@@ -190,7 +190,9 @@ RegExpStaticsObject
 >
 (
 cx
-nullptr
+NullPtr
+(
+)
 GlobalObject
 :
 :

@@ -559,7 +559,9 @@ Class
 *
 )
 clasp
-nullptr
+NullPtr
+(
+)
 parent
 SingletonObject
 )

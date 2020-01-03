@@ -3986,10 +3986,14 @@ GlobalObject
 global
 )
 {
+Rooted
+<
 JSObject
 *
+>
 base
-=
+(
+cx
 GlobalObject
 :
 :
@@ -3997,6 +4001,7 @@ getOrCreateIteratorPrototype
 (
 cx
 global
+)
 )
 ;
 if
@@ -8204,10 +8209,14 @@ GlobalObject
 global
 )
 {
+Rooted
+<
 JSObject
 *
+>
 base
-=
+(
+cx
 GlobalObject
 :
 :
@@ -8215,6 +8224,7 @@ getOrCreateIteratorPrototype
 (
 cx
 global
+)
 )
 ;
 if

@@ -1570,7 +1570,9 @@ PlainObject
 >
 (
 cx
-nullptr
+NullPtr
+(
+)
 cx
 -
 >
@@ -1647,10 +1649,9 @@ PlainObject
 >
 (
 cx
-nullptr
-js
-:
-:
+NullPtr
+(
+)
 NullPtr
 (
 )

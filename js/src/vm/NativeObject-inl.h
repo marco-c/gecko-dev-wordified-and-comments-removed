@@ -1745,8 +1745,7 @@ const
 Class
 *
 clasp
-JSObject
-*
+HandleObject
 proto
 HandleObject
 parent
@@ -1786,8 +1785,7 @@ const
 Class
 *
 clasp
-JSObject
-*
+HandleObject
 proto
 HandleObject
 parent
@@ -1823,8 +1821,7 @@ const
 Class
 *
 clasp
-JSObject
-*
+HandleObject
 proto
 HandleObject
 parent
@@ -1866,8 +1863,7 @@ const
 Class
 *
 clasp
-JSObject
-*
+HandleObject
 proto
 HandleObject
 parent

@@ -7343,7 +7343,6 @@ createBlankPrototypeInheriting
 (
 cx
 cls
-*
 iteratorProto
 )
 ;

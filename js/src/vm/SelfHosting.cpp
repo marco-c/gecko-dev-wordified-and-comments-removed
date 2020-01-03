@@ -7920,7 +7920,9 @@ selfHostedObject
 getClass
 (
 )
-nullptr
+NullPtr
+(
+)
 cx
 -
 >

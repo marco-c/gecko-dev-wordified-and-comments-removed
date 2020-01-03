@@ -6014,7 +6014,9 @@ PlainObject
 >
 (
 cx
-nullptr
+NullPtr
+(
+)
 self
 SingletonObject
 )

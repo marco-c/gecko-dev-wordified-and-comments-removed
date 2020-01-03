@@ -8642,7 +8642,9 @@ NewObjectWithClassProto
 (
 cx
 clasp
-nullptr
+NullPtr
+(
+)
 parent
 )
 ;
@@ -12118,7 +12120,9 @@ NewObjectWithClassProto
 (
 cx
 clasp
-nullptr
+NullPtr
+(
+)
 obj
 )
 )

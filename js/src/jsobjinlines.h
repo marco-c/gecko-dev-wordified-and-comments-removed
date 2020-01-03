@@ -2851,8 +2851,7 @@ const
 Class
 *
 clasp
-JSObject
-*
+HandleObject
 proto
 HandleObject
 parent
@@ -2892,8 +2891,7 @@ const
 Class
 *
 clasp
-JSObject
-*
+HandleObject
 proto
 HandleObject
 parent
@@ -2930,8 +2928,7 @@ NewObjectWithGivenProto
 ExclusiveContext
 *
 cx
-JSObject
-*
+HandleObject
 proto
 HandleObject
 parent
@@ -2970,8 +2967,7 @@ NewObjectWithGivenProto
 ExclusiveContext
 *
 cx
-JSObject
-*
+HandleObject
 proto
 HandleObject
 parent
@@ -3035,8 +3031,7 @@ const
 Class
 *
 clasp
-JSObject
-*
+HandleObject
 proto
 HandleObject
 parent
@@ -3061,8 +3056,7 @@ const
 Class
 *
 clasp
-JSObject
-*
+HandleObject
 proto
 HandleObject
 parent
@@ -3101,8 +3095,7 @@ const
 Class
 *
 clasp
-JSObject
-*
+HandleObject
 proto
 HandleObject
 parent
@@ -3151,8 +3144,7 @@ NewObjectWithProto
 ExclusiveContext
 *
 cx
-JSObject
-*
+HandleObject
 proto
 HandleObject
 parent
@@ -3215,8 +3207,7 @@ NewObjectWithProto
 ExclusiveContext
 *
 cx
-JSObject
-*
+HandleObject
 proto
 HandleObject
 parent
@@ -3288,7 +3279,9 @@ NewObjectWithClassProto
 (
 cx
 clasp
-nullptr
+NullPtr
+(
+)
 NullPtr
 (
 )

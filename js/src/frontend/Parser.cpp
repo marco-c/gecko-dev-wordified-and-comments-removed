@@ -6229,8 +6229,7 @@ HandleAtom
 atom
 FunctionSyntaxKind
 kind
-JSObject
-*
+HandleObject
 proto
 )
 {

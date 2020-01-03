@@ -1291,8 +1291,7 @@ js
 Class
 *
 clasp
-JSObject
-&
+HandleObject
 proto
 )
 ;
@@ -4388,10 +4387,10 @@ parentKey
 return
 nullptr
 ;
-JSObject
-*
+RootedObject
 parentProto
-=
+(
+cx
 &
 cx
 -
@@ -4409,6 +4408,7 @@ parentKey
 toObject
 (
 )
+)
 ;
 return
 cx
@@ -4423,7 +4423,6 @@ createBlankPrototypeInheriting
 (
 cx
 clasp
-*
 parentProto
 )
 ;

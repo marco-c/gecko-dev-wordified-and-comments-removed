@@ -7969,7 +7969,9 @@ NewObjectWithGivenProto
 cx
 &
 class_
-nullptr
+NullPtr
+(
+)
 cx
 -
 >
