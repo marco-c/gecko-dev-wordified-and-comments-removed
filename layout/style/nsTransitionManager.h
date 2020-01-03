@@ -377,6 +377,16 @@ mInAnimationOnlyStyleUpdate
 aInAnimationOnlyUpdate
 ;
 }
+bool
+InAnimationOnlyStyleUpdate
+(
+)
+const
+{
+return
+mInAnimationOnlyStyleUpdate
+;
+}
 virtual
 size_t
 SizeOfExcludingThis
