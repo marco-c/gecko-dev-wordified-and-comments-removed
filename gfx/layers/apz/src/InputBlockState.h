@@ -242,6 +242,12 @@ TimeoutContentResponse
 )
 ;
 bool
+IsContentResponseTimerExpired
+(
+)
+const
+;
+bool
 IsDefaultPrevented
 (
 )
