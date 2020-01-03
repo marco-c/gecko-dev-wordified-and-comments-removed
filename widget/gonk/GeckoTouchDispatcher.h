@@ -86,6 +86,13 @@ aMultiTouch
 )
 ;
 void
+DispatchTouchNonMoveEvent
+(
+MultiTouchInput
+aInput
+)
+;
+void
 DispatchTouchMoveEvents
 (
 TimeStamp
@@ -158,6 +165,9 @@ mTouchMoveEvents
 ;
 bool
 mHavePendingTouchMoves
+;
+int
+mInflightNonMoveEvents
 ;
 bool
 mResamplingEnabled
