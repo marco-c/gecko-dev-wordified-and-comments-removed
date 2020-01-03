@@ -164,6 +164,14 @@ Draggable
 const
 MOZ_OVERRIDE
 ;
+virtual
+bool
+IsInteractiveHTMLContent
+(
+)
+const
+MOZ_OVERRIDE
+;
 NS_DECL_NSIDOMHTMLIMAGEELEMENT
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (

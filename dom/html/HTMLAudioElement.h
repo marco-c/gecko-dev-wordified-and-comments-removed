@@ -79,6 +79,14 @@ NodeInfo
 aNodeInfo
 )
 ;
+virtual
+bool
+IsInteractiveHTMLContent
+(
+)
+const
+MOZ_OVERRIDE
+;
 using
 HTMLMediaElement
 :

@@ -689,6 +689,13 @@ IsLabelable
 )
 const
 ;
+virtual
+bool
+IsInteractiveHTMLContent
+(
+)
+const
+;
 NS_IMETHOD_
 (
 bool

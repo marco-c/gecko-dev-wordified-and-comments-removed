@@ -170,6 +170,14 @@ aChannel
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+IsInteractiveHTMLContent
+(
+)
+const
+MOZ_OVERRIDE
+;
 uint32_t
 Width
 (
