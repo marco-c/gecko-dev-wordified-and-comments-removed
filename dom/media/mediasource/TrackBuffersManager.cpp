@@ -3078,15 +3078,12 @@ MSE_DEBUG
 "
 Found
 invalid
+or
+incomplete
 data
-ignoring
 .
 "
 )
-;
-mInputBuffer
-=
-nullptr
 ;
 NeedMoreData
 (
