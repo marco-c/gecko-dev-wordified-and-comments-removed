@@ -8119,9 +8119,16 @@ empty
 )
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
+}
 InlineFrameIterator
 inlineIter
 (
