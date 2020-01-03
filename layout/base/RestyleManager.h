@@ -263,6 +263,15 @@ return
 mAnimationGeneration
 ;
 }
+static
+uint64_t
+GetMaxAnimationGenerationForFrame
+(
+nsIFrame
+*
+aFrame
+)
+;
 void
 IncrementAnimationGeneration
 (
@@ -1390,6 +1399,11 @@ RestyleChildren
 (
 nsRestyleHint
 aChildRestyleHint
+)
+;
+void
+AddLayerChangesForAnimation
+(
 )
 ;
 void
