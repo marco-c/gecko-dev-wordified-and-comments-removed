@@ -870,7 +870,7 @@ nsAnimationManager
 :
 UpdateStyleAndEvents
 (
-AnimationPlayerCollection
+AnimationCollection
 *
 aCollection
 TimeStamp
@@ -901,7 +901,7 @@ nsAnimationManager
 :
 QueueEvents
 (
-AnimationPlayerCollection
+AnimationCollection
 *
 aCollection
 EventArray
@@ -979,7 +979,7 @@ nsAnimationManager
 :
 MaybeUpdateCascadeResults
 (
-AnimationPlayerCollection
+AnimationCollection
 *
 aCollection
 )
@@ -1201,7 +1201,7 @@ StyleDisplay
 (
 )
 ;
-AnimationPlayerCollection
+AnimationCollection
 *
 collection
 =
@@ -3382,7 +3382,7 @@ UpdateCascadeResults
 nsStyleContext
 *
 aStyleContext
-AnimationPlayerCollection
+AnimationCollection
 *
 aElementAnimations
 )
@@ -3935,13 +3935,13 @@ l
 )
 )
 {
-AnimationPlayerCollection
+AnimationCollection
 *
 collection
 =
 static_cast
 <
-AnimationPlayerCollection
+AnimationCollection
 *
 >
 (
@@ -3978,7 +3978,7 @@ collection
 >
 CanPerformOnCompositorThread
 (
-AnimationPlayerCollection
+AnimationCollection
 :
 :
 CanAnimateFlags

@@ -378,11 +378,11 @@ typedef
 mozilla
 :
 :
-AnimationPlayerCollection
-AnimationPlayerCollection
+AnimationCollection
+AnimationCollection
 ;
 static
-AnimationPlayerCollection
+AnimationCollection
 *
 GetAnimationsForCompositor
 (
@@ -440,7 +440,7 @@ aNewStyleContext
 void
 UpdateCascadeResultsWithTransitions
 (
-AnimationPlayerCollection
+AnimationCollection
 *
 aTransitions
 )
@@ -448,7 +448,7 @@ aTransitions
 void
 UpdateCascadeResultsWithAnimations
 (
-AnimationPlayerCollection
+AnimationCollection
 *
 aAnimations
 )
@@ -457,7 +457,7 @@ void
 UpdateCascadeResultsWithAnimationsToBeDestroyed
 (
 const
-AnimationPlayerCollection
+AnimationCollection
 *
 aAnimations
 )
@@ -465,10 +465,10 @@ aAnimations
 void
 UpdateCascadeResults
 (
-AnimationPlayerCollection
+AnimationCollection
 *
 aTransitions
-AnimationPlayerCollection
+AnimationCollection
 *
 aAnimations
 )
@@ -612,7 +612,7 @@ dom
 Element
 *
 aElement
-AnimationPlayerCollection
+AnimationCollection
 *
 &
 aElementTransitions

@@ -175,7 +175,7 @@ class
 RestyleTracker
 ;
 struct
-AnimationPlayerCollection
+AnimationCollection
 ;
 namespace
 css
@@ -367,7 +367,7 @@ RestyleTracker
 aTracker
 )
 ;
-AnimationPlayerCollection
+AnimationCollection
 *
 GetAnimations
 (
@@ -449,7 +449,7 @@ false
 void
 NotifyCollectionUpdated
 (
-AnimationPlayerCollection
+AnimationCollection
 &
 aCollection
 )
@@ -557,12 +557,12 @@ struct
 mozilla
 :
 :
-AnimationPlayerCollection
+AnimationCollection
 ;
 void
 AddElementCollection
 (
-AnimationPlayerCollection
+AnimationCollection
 *
 aCollection
 )
@@ -636,7 +636,7 @@ false
 ;
 }
 static
-AnimationPlayerCollection
+AnimationCollection
 *
 GetAnimationsForCompositor
 (
@@ -874,12 +874,12 @@ EnsureStyleRule_IsNotThrottled
 }
 ;
 struct
-AnimationPlayerCollection
+AnimationCollection
 :
 public
 PRCList
 {
-AnimationPlayerCollection
+AnimationCollection
 (
 dom
 :
@@ -937,7 +937,7 @@ endif
 {
 MOZ_COUNT_CTOR
 (
-AnimationPlayerCollection
+AnimationCollection
 )
 ;
 PR_INIT_CLIST
@@ -947,7 +947,7 @@ this
 ;
 }
 ~
-AnimationPlayerCollection
+AnimationCollection
 (
 )
 {
@@ -967,7 +967,7 @@ dtor
 ;
 MOZ_COUNT_DTOR
 (
-AnimationPlayerCollection
+AnimationCollection
 )
 ;
 PR_REMOVE_LINK

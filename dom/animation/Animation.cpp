@@ -3130,7 +3130,7 @@ PostUpdate
 (
 )
 {
-AnimationPlayerCollection
+AnimationCollection
 *
 collection
 =
@@ -3604,7 +3604,7 @@ GetPresContext
 )
 ;
 }
-AnimationPlayerCollection
+AnimationCollection
 *
 Animation
 :

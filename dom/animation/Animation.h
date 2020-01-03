@@ -119,7 +119,7 @@ namespace
 mozilla
 {
 struct
-AnimationPlayerCollection
+AnimationCollection
 ;
 namespace
 css
@@ -941,7 +941,7 @@ const
 =
 0
 ;
-AnimationPlayerCollection
+AnimationCollection
 *
 GetCollection
 (

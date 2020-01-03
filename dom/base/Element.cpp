@@ -14518,13 +14518,13 @@ propIdx
 +
 )
 {
-AnimationPlayerCollection
+AnimationCollection
 *
 collection
 =
 static_cast
 <
-AnimationPlayerCollection
+AnimationCollection
 *
 >
 (
