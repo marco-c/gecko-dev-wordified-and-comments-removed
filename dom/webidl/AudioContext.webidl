@@ -216,11 +216,15 @@ float
 sampleRate
 )
 ;
-void
+Promise
+<
+AudioBuffer
+>
 decodeAudioData
 (
 ArrayBuffer
 audioData
+optional
 DecodeSuccessCallback
 successCallback
 optional
