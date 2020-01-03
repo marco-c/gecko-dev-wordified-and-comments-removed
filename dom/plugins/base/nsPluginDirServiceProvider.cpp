@@ -485,6 +485,7 @@ szJavaBuild
 }
 #
 if
+(
 defined
 (
 _MSC_VER
@@ -494,6 +495,13 @@ _MSC_VER
 _MSC_VER
 <
 1900
+)
+|
+|
+defined
+(
+__MINGW32__
+)
 auto
 wcstok
 =
