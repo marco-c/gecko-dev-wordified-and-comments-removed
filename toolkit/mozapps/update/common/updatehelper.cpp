@@ -135,6 +135,15 @@ argv
 )
 ;
 BOOL
+PathAppendSafe
+(
+LPWSTR
+base
+LPCWSTR
+extra
+)
+;
+BOOL
 PathGetSiblingFilePath
 (
 LPWSTR
