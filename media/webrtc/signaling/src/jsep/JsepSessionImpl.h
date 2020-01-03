@@ -1867,6 +1867,15 @@ std
 string
 mCNAME
 ;
+std
+:
+:
+set
+<
+uint32_t
+>
+mSsrcs
+;
 UniquePtr
 <
 Sdp
