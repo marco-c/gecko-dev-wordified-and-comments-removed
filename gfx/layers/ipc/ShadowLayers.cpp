@@ -2505,15 +2505,6 @@ InWorkerThread
 )
 {
 return
-MessageLoop
-:
-:
-current
-(
-)
-&
-&
-(
 GetMessageLoop
 (
 )
@@ -2534,7 +2525,6 @@ current
 >
 id
 (
-)
 )
 ;
 }
