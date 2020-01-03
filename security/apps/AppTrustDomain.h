@@ -247,6 +247,14 @@ pkix
 :
 DigestAlgorithm
 digestAlg
+mozilla
+:
+:
+pkix
+:
+:
+EndEntityOrCA
+endEntityOrCA
 )
 override
 ;

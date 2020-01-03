@@ -1092,6 +1092,7 @@ AppTrustDomain
 CheckSignatureDigestAlgorithm
 (
 DigestAlgorithm
+EndEntityOrCA
 )
 {
 return
