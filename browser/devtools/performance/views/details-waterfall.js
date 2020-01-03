@@ -394,6 +394,15 @@ getCurrentRecording
 (
 )
 ;
+if
+(
+!
+recording
+)
+{
+return
+;
+}
 let
 frames
 =
