@@ -166,6 +166,16 @@ Destroy
 ;
 }
 virtual
+void
+SetLayerManager
+(
+LayerManagerComposite
+*
+aManager
+)
+MOZ_OVERRIDE
+;
+virtual
 Layer
 *
 GetLayer

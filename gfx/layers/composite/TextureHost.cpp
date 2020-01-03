@@ -1681,6 +1681,10 @@ GetNextSibling
 )
 ;
 }
+mFirstSource
+=
+nullptr
+;
 mCompositor
 =
 aCompositor

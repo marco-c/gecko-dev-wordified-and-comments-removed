@@ -165,6 +165,16 @@ GetLayer
 MOZ_OVERRIDE
 ;
 virtual
+void
+SetLayerManager
+(
+LayerManagerComposite
+*
+aManager
+)
+MOZ_OVERRIDE
+;
+virtual
 TiledLayerComposer
 *
 GetTiledLayerComposer

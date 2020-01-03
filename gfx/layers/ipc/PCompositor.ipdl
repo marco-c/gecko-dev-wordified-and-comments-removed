@@ -608,6 +608,13 @@ uint64_t
 id
 )
 ;
+async
+AdoptChild
+(
+uint64_t
+id
+)
+;
 /
 /
 Make
