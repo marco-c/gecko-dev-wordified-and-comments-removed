@@ -96548,6 +96548,25 @@ eReportExceptions
 )
 )
         
+args
+.
+append
+(
+Argument
+(
+"
+JSCompartment
+*
+"
+"
+aCompartment
+"
+"
+nullptr
+"
+)
+)
+        
 argsWithoutThis
 =
 list
@@ -96596,6 +96615,7 @@ s
 this
 aRv
 aExceptionHandling
+aCompartment
 )
 ;
             
@@ -98668,31 +98688,10 @@ needThisHandling
 :
             
 if
+not
 self
 .
 rethrowContentException
-:
-                
-args
-.
-append
-(
-Argument
-(
-"
-JSCompartment
-*
-"
-"
-aCompartment
-"
-"
-nullptr
-"
-)
-)
-            
-else
 :
                 
 args
@@ -98710,6 +98709,25 @@ aExceptionHandling
                                      
 "
 eReportExceptions
+"
+)
+)
+            
+args
+.
+append
+(
+Argument
+(
+"
+JSCompartment
+*
+"
+"
+aCompartment
+"
+"
+nullptr
 "
 )
 )
@@ -98820,6 +98838,7 @@ callSetup
 =
 "
 aExceptionHandling
+aCompartment
 "
         
 callSetup
