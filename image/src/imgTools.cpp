@@ -296,9 +296,11 @@ HasError
 (
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 nsCOMPtr
 <
 nsIInputStream
@@ -341,10 +343,12 @@ NS_SUCCEEDED
 rv
 )
 )
+{
 inStream
 =
 bufStream
 ;
+}
 }
 uint64_t
 length
@@ -529,9 +533,11 @@ if
 !
 encoder
 )
+{
 return
 NS_IMAGELIB_ERROR_NO_ENCODER
 ;
+}
 DataSourceSurface
 :
 :
