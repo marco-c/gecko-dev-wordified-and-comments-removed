@@ -122,6 +122,7 @@ interface
 USSDSession
 {
 [
+NewObject
 Throws
 ]
 Promise
@@ -132,6 +133,18 @@ send
 (
 DOMString
 ussd
+)
+;
+[
+NewObject
+Throws
+]
+Promise
+<
+void
+>
+cancel
+(
 )
 ;
 }
