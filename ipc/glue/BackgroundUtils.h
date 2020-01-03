@@ -46,6 +46,9 @@ nscore
 h
 "
 class
+nsILoadInfo
+;
+class
 nsIPrincipal
 ;
 namespace

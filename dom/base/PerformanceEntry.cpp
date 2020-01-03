@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIURI
+MainThreadUtils
 .
 h
 "
@@ -20,6 +20,13 @@ mozilla
 dom
 /
 PerformanceEntryBinding
+.
+h
+"
+#
+include
+"
+nsIURI
 .
 h
 "

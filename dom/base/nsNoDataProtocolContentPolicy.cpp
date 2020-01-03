@@ -47,6 +47,13 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 NS_IMPL_ISUPPORTS
 (
 nsNoDataProtocolContentPolicy
