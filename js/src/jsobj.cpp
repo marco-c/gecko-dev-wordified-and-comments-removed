@@ -14622,8 +14622,8 @@ addProperty
 cx
 global
 id
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 slot
 attrs
 0
