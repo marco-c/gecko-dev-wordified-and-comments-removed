@@ -280,10 +280,7 @@ gCompWidth
 gCompHeight
 )
 caps
-CreateContextFlags
-:
-:
-REQUIRE_COMPAT_PROFILE
+true
 )
 ;
 return

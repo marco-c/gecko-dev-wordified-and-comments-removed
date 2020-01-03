@@ -258,6 +258,11 @@ GLContext
 >
 gl
 ;
+bool
+requireCompatProfile
+=
+true
+;
 gl
 =
 gl
@@ -268,13 +273,7 @@ GLContextProvider
 :
 CreateHeadless
 (
-gl
-:
-:
-CreateContextFlags
-:
-:
-REQUIRE_COMPAT_PROFILE
+requireCompatProfile
 )
 ;
 if

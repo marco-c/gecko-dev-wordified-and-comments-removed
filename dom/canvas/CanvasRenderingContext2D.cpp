@@ -3794,14 +3794,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 CanvasRenderingContext2D
 )
-CanvasRenderingContext2D
-:
-:
-RemoveDemotableContext
-(
-tmp
-)
-;
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mCanvasElement

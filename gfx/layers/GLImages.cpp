@@ -192,10 +192,7 @@ GLContextProvider
 :
 CreateHeadless
 (
-CreateContextFlags
-:
-:
-NONE
+false
 )
 ;
 if

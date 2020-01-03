@@ -4811,7 +4811,10 @@ GLContextProviderGLX
 :
 CreateHeadless
 (
-CreateContextFlags
+bool
+requireCompatProfile
+bool
+forceEnabled
 )
 {
 IntSize
@@ -4867,8 +4870,8 @@ const
 SurfaceCaps
 &
 caps
-CreateContextFlags
-flags
+bool
+requireCompatProfile
 )
 {
 nsRefPtr
@@ -4879,7 +4882,7 @@ glContext
 =
 CreateHeadless
 (
-flags
+requireCompatProfile
 )
 ;
 if
