@@ -522,6 +522,9 @@ sPluginBlacklist
 "
 flump3dec
 "
+"
+h264parse
+"
 }
 ;
 GStreamerFormatHelper
@@ -1337,6 +1340,16 @@ strstr
 className
 "
 Demux
+"
+)
+&
+&
+!
+strstr
+(
+className
+"
+Parser
 "
 )
 )
