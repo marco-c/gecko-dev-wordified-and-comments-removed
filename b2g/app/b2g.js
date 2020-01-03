@@ -7937,3 +7937,17 @@ enabled
 false
 )
 ;
+pref
+(
+"
+layers
+.
+compositor
+-
+lru
+-
+size
+"
+10
+)
+;
