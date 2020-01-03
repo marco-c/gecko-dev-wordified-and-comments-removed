@@ -3895,6 +3895,8 @@ Compiler
 JSContext
 *
 cx
+Engine
+engine
 )
 :
 ICStubCompiler
@@ -3904,10 +3906,7 @@ ICStub
 :
 :
 BinaryArith_Fallback
-Engine
-:
-:
-Baseline
+engine
 )
 {
 }
@@ -4066,6 +4065,8 @@ JSContext
 cx
 JSOp
 op
+Engine
+engine
 bool
 allowDouble
 )
@@ -4077,10 +4078,7 @@ ICStub
 :
 :
 BinaryArith_Int32
-Engine
-:
-:
-Baseline
+engine
 )
 op_
 (
@@ -4170,6 +4168,8 @@ Compiler
 JSContext
 *
 cx
+Engine
+engine
 )
 :
 ICStubCompiler
@@ -4179,10 +4179,7 @@ ICStub
 :
 :
 BinaryArith_StringConcat
-Engine
-:
-:
-Baseline
+engine
 )
 {
 }
@@ -4323,6 +4320,8 @@ Compiler
 JSContext
 *
 cx
+Engine
+engine
 bool
 lhsIsString
 )
@@ -4334,10 +4333,7 @@ ICStub
 :
 :
 BinaryArith_StringObjectConcat
-Engine
-:
-:
-Baseline
+engine
 )
 lhsIsString_
 (
@@ -4424,6 +4420,8 @@ JSContext
 cx
 JSOp
 op
+Engine
+engine
 )
 :
 ICMultiStubCompiler
@@ -4434,10 +4432,7 @@ ICStub
 :
 BinaryArith_Double
 op
-Engine
-:
-:
-Baseline
+engine
 )
 {
 }
@@ -4654,6 +4649,8 @@ JSContext
 cx
 JSOp
 op
+Engine
+engine
 bool
 lhsIsBool
 bool
@@ -4667,10 +4664,7 @@ ICStub
 :
 :
 BinaryArith_BooleanWithInt32
-Engine
-:
-:
-Baseline
+engine
 )
 op_
 (
@@ -4880,6 +4874,8 @@ JSContext
 cx
 JSOp
 op
+Engine
+engine
 bool
 lhsIsDouble
 )
@@ -4892,10 +4888,7 @@ ICStub
 :
 BinaryArith_DoubleWithInt32
 op
-Engine
-:
-:
-Baseline
+engine
 )
 lhsIsDouble_
 (
