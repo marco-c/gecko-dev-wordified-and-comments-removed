@@ -285,6 +285,9 @@ geolocation
 html
 '
 '
+icc
+'
+'
 json
 '
 '
@@ -485,9 +488,6 @@ DIRS
 +
 =
 [
-'
-icc
-'
 '
 wappush
 '
