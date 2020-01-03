@@ -125,7 +125,7 @@ cx
 ;
 CHECK
 (
-JS_LookupProperty
+JS_GetProperty
 (
 cx
 xobj

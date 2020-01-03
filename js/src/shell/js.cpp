@@ -26861,7 +26861,7 @@ cx
 if
 (
 !
-JS_LookupProperty
+JS_GetProperty
 (
 cx
 obj
@@ -26884,7 +26884,7 @@ cx
 if
 (
 !
-JS_LookupProperty
+JS_GetProperty
 (
 cx
 obj
@@ -27057,7 +27057,7 @@ i
 if
 (
 !
-JS_LookupPropertyById
+JS_GetPropertyById
 (
 cx
 global
