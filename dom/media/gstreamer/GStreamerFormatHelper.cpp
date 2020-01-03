@@ -1395,17 +1395,6 @@ className
 Demux
 "
 )
-&
-&
-!
-strstr
-(
-className
-"
-Parser
-"
-)
-)
 {
 return
 FALSE
