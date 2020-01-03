@@ -1793,13 +1793,6 @@ override
 ;
 virtual
 bool
-RecvNuwaFork
-(
-)
-override
-;
-virtual
-bool
 RecvNotifyProcessPriorityChanged
 (
 const
@@ -2448,6 +2441,11 @@ ContentChild
 )
 ;
 }
+;
+void
+InitOnContentProcessCreated
+(
+)
 ;
 uint64_t
 NextWindowID

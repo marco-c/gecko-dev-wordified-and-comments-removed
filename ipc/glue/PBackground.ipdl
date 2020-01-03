@@ -94,6 +94,10 @@ PMessagePort
 ;
 include
 protocol
+PNuwa
+;
+include
+protocol
 PServiceWorkerManager
 ;
 include
@@ -188,6 +192,9 @@ manages
 PMessagePort
 ;
 manages
+PNuwa
+;
+manages
 PServiceWorkerManager
 ;
 manages
@@ -272,6 +279,10 @@ nsID
 destinationUuid
 uint32_t
 sequenceId
+)
+;
+PNuwa
+(
 )
 ;
 MessagePortForceClose
