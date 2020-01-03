@@ -148,6 +148,9 @@ aTargetTime
 {
 if
 (
+aImage
+&
+&
 !
 aImage
 -
