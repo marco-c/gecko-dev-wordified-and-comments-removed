@@ -15399,6 +15399,9 @@ discovery
 "
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
@@ -15425,6 +15428,8 @@ enabled
 false
 )
 ;
+#
+endif
 #
 ifdef
 UNIX_BUT_NOT_MAC
