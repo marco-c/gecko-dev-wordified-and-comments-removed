@@ -8970,7 +8970,7 @@ NS_AUTOHEIGHT
 =
 cbSize
 .
-Height
+BSize
 (
 wm
 )
@@ -9004,7 +9004,7 @@ eStyleUnit_Percent
 {
 cbSize
 .
-Height
+BSize
 (
 wm
 )
