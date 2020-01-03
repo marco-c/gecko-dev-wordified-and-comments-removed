@@ -104,4 +104,11 @@ mochitest
 .
 ini
 '
+'
+mixedcontentblocker
+/
+mochitest
+.
+ini
+'
 ]
