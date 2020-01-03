@@ -17201,7 +17201,7 @@ argv
 {
 #
 ifdef
-LINUX
+ANDROID
 CHECK_ENVIRONMENT_FLAG
 (
 "
