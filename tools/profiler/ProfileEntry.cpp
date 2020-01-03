@@ -413,7 +413,7 @@ ProfileBuffer
 {
 mGeneration
 =
-UINT32_MAX
+INT_MAX
 ;
 deleteExpiredStoredMarkers
 (
@@ -449,16 +449,6 @@ mWritePos
 mEntrySize
 )
 {
-MOZ_ASSERT
-(
-mGeneration
-!
-=
-UINT32_MAX
--
-2
-)
-;
 mGeneration
 +
 +
