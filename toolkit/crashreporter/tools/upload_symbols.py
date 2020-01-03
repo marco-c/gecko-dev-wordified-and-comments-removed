@@ -418,8 +418,11 @@ successfully
 !
 '
 )
+        
+return
+0
     
-elif
+if
 r
 .
 status_code
@@ -440,6 +443,10 @@ token
 {
 0
 }
+:
+{
+1
+}
 )
 '
 .
@@ -448,6 +455,10 @@ format
 r
 .
 status_code
+                                                         
+r
+.
+reason
 )
               
 file
@@ -456,9 +467,6 @@ sys
 .
 stderr
 )
-        
-return
-1
     
 else
 :
@@ -474,6 +482,10 @@ response
 {
 0
 }
+:
+{
+1
+}
 '
 .
 format
@@ -481,6 +493,10 @@ format
 r
 .
 status_code
+                                                         
+r
+.
+reason
 )
               
 file
@@ -489,12 +505,54 @@ sys
 .
 stderr
 )
+    
+print
+(
+'
+Response
+body
+:
+\
+n
+{
+sep
+}
+\
+n
+{
+body
+}
+\
+n
+{
+sep
+}
+\
+n
+'
+.
+format
+(
         
-return
-1
+sep
+=
+'
+=
+'
+*
+20
+        
+body
+=
+r
+.
+text
+        
+)
+)
     
 return
-0
+1
 if
 __name__
 =

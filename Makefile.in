@@ -1812,6 +1812,8 @@ SOCORRO_SYMBOL_UPLOAD_TOKEN_FILE
 (
 PYTHON
 )
+-
+u
 (
 topsrcdir
 )
