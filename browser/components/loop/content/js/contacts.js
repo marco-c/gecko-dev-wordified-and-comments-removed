@@ -2637,6 +2637,11 @@ successL10n
 import_contacts_success_message
 "
 {
+num
+:
+stats
+.
+total
 total
 :
 stats
