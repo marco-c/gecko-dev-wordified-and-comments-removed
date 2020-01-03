@@ -140,6 +140,9 @@ lang
 bool
 localService
 ;
+bool
+queued
+;
 }
 ;
 sync

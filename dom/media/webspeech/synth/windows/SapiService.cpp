@@ -1169,6 +1169,7 @@ description
 )
 locale
 true
+true
 )
 ;
 CoTaskMemFree
