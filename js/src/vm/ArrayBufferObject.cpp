@@ -4799,10 +4799,13 @@ JSObject
 *
 view
 =
+MaybeForwarded
+(
 buf
 .
 firstView
 (
+)
 )
 ;
 MOZ_ASSERT
