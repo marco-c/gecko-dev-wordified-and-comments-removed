@@ -53,8 +53,9 @@ virtual
 ContainerParser
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 IsInitSegmentPresent
