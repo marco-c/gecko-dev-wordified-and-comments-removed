@@ -242,7 +242,7 @@ GetContent
 )
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 -
