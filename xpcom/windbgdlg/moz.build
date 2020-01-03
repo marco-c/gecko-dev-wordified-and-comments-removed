@@ -93,16 +93,6 @@ MPL
 0
 /
 .
-SOURCES
-+
-=
-[
-'
-windbgdlg
-.
-cpp
-'
-]
 SimplePrograms
 (
 [

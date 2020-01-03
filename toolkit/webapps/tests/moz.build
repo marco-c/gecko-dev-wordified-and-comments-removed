@@ -103,16 +103,6 @@ chrome
 ini
 '
 ]
-SOURCES
-+
-=
-[
-'
-TestWebappRT
-.
-cpp
-'
-]
 SimplePrograms
 (
 [
