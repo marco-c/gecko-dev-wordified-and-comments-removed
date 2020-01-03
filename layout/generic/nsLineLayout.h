@@ -76,6 +76,9 @@ nsLineList
 iterator
 *
 aLine
+nsLineLayout
+*
+aBaseLineLayout
 )
 ;
 ~
@@ -827,6 +830,11 @@ const
 nsHTMLReflowState
 *
 mBlockReflowState
+;
+nsLineLayout
+*
+const
+mBaseLineLayout
 ;
 nsIFrame
 *
