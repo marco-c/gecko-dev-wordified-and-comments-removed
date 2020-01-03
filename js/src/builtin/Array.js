@@ -2740,7 +2740,7 @@ ArrayIteratorNext
 var
 a
 =
-UnsafeGetReservedSlot
+UnsafeGetObjectFromReservedSlot
 (
 this
 ARRAY_ITERATOR_SLOT_ITERATED_OBJECT
@@ -2758,7 +2758,7 @@ ARRAY_ITERATOR_SLOT_NEXT_INDEX
 var
 itemKind
 =
-UnsafeGetReservedSlot
+UnsafeGetInt32FromReservedSlot
 (
 this
 ARRAY_ITERATOR_SLOT_ITEM_KIND
