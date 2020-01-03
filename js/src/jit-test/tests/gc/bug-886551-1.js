@@ -16,7 +16,7 @@ gc
 ;
 gcslice
 (
-0
+1
 )
 ;
 var
