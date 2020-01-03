@@ -2095,6 +2095,24 @@ self
 remoteProfile
 )
         
+blobberUploadDir
+=
+os
+.
+environ
+.
+get
+(
+'
+MOZ_UPLOAD_DIR
+'
+None
+)
+        
+if
+blobberUploadDir
+:
+            
 self
 .
 _dm
@@ -2104,14 +2122,7 @@ getDirectory
 self
 .
 remoteNSPR
-os
-.
-environ
-[
-"
-MOZ_UPLOAD_DIR
-"
-]
+blobberUploadDir
 )
         
 Mochitest
