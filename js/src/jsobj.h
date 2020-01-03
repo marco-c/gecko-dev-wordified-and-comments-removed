@@ -4180,8 +4180,6 @@ js
 TaggedProto
 >
 proto
-HandleObject
-parent
 )
 ;
 extern

@@ -9952,8 +9952,6 @@ js
 TaggedProto
 >
 proto
-HandleObject
-parent
 )
 {
 if
@@ -10019,7 +10017,9 @@ getClass
 (
 )
 proto
-parent
+NullPtr
+(
+)
 )
 ;
 if
@@ -10151,7 +10151,7 @@ JS
 :
 NullHandleValue
 proto
-parent
+nullptr
 options
 )
 ;

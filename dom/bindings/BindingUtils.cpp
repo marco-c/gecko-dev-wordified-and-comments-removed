@@ -9265,7 +9265,6 @@ JS_CloneObject
 aCx
 aObj
 proto
-newParent
 )
 )
 ;
