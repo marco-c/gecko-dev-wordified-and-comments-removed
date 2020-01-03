@@ -567,17 +567,9 @@ ImageClientSingle
 :
 FlushAllImages
 (
-bool
-aExceptFront
 AsyncTransactionWaiter
 *
 aAsyncTransactionWaiter
-)
-{
-if
-(
-!
-aExceptFront
 )
 {
 for
@@ -604,7 +596,6 @@ Clear
 (
 )
 ;
-}
 }
 bool
 ImageClientSingle

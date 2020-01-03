@@ -489,8 +489,6 @@ aClient
 ImageContainer
 *
 aContainer
-bool
-aExceptFront
 )
 ;
 virtual

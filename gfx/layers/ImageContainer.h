@@ -916,11 +916,6 @@ ClearAllImages
 )
 ;
 void
-ClearAllImagesExceptFront
-(
-)
-;
-void
 ClearCurrentImage
 (
 )
