@@ -30,7 +30,7 @@ self
         
 subject
 =
-Jar
+SlugidJar
 (
 )
         
@@ -71,7 +71,7 @@ str
         
 other_jar
 =
-Jar
+SlugidJar
 (
 )
         
