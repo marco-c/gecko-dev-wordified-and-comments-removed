@@ -1117,6 +1117,11 @@ mSuspendedStreams
 uint32_t
 mFirstCycleBreaker
 ;
+GraphTime
+mStateComputedTime
+=
+0
+;
 TimeStamp
 mLastMainThreadUpdate
 ;
