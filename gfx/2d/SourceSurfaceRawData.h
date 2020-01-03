@@ -44,6 +44,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DataSourceSurfaceRawData
+override
 )
 SourceSurfaceRawData
 (
@@ -84,6 +85,7 @@ uint8_t
 GetData
 (
 )
+override
 {
 return
 mRawData
@@ -94,6 +96,7 @@ int32_t
 Stride
 (
 )
+override
 {
 return
 mStride
@@ -105,6 +108,7 @@ GetType
 (
 )
 const
+override
 {
 return
 SurfaceType
@@ -119,6 +123,7 @@ GetSize
 (
 )
 const
+override
 {
 return
 mSize
@@ -130,6 +135,7 @@ GetFormat
 (
 )
 const
+override
 {
 return
 mFormat
@@ -159,6 +165,7 @@ void
 GuaranteePersistance
 (
 )
+override
 ;
 virtual
 bool
@@ -270,6 +277,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DataSourceSurfaceAlignedRawData
+override
 )
 SourceSurfaceAlignedRawData
 (
@@ -301,6 +309,7 @@ uint8_t
 GetData
 (
 )
+override
 {
 return
 mArray
@@ -311,6 +320,7 @@ int32_t
 Stride
 (
 )
+override
 {
 return
 mStride
@@ -322,6 +332,7 @@ GetType
 (
 )
 const
+override
 {
 return
 SurfaceType
@@ -336,6 +347,7 @@ GetSize
 (
 )
 const
+override
 {
 return
 mSize
@@ -347,6 +359,7 @@ GetFormat
 (
 )
 const
+override
 {
 return
 mFormat
