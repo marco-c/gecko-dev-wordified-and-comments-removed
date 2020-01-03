@@ -172,6 +172,8 @@ gnu
 .
 S
 :
+lib
+/
 arm
 /
 armopts
@@ -183,6 +185,8 @@ PERL
 (
 srcdir
 )
+/
+lib
 /
 arm
 /
@@ -217,6 +221,8 @@ gnu
 ASM_SUFFIX
 )
 :
+lib
+/
 arm
 /
 %
@@ -228,6 +234,8 @@ PERL
 (
 srcdir
 )
+/
+lib
 /
 arm
 /
