@@ -968,6 +968,15 @@ icon
 "
 android
 :
+logo
+=
+"
+drawable
+/
+logo
+"
+android
+:
 name
 =
 "
