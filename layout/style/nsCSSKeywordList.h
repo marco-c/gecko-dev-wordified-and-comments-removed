@@ -2361,6 +2361,11 @@ outside
 )
 CSS_KEY
 (
+over
+over
+)
+CSS_KEY
+(
 overlay
 overlay
 )
@@ -3300,6 +3305,11 @@ ultra
 -
 expanded
 ultra_expanded
+)
+CSS_KEY
+(
+under
+under
 )
 CSS_KEY
 (

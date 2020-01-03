@@ -6142,6 +6142,9 @@ uint8_t
 mHyphens
 ;
 uint8_t
+mRubyPosition
+;
+uint8_t
 mTextSizeAdjust
 ;
 uint8_t
