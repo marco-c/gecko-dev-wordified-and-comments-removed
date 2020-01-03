@@ -8,6 +8,13 @@ h
 #
 include
 "
+LayoutLogging
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h
@@ -1551,7 +1558,7 @@ break
 }
 }
 }
-NS_WARN_IF_FALSE
+LAYOUT_WARN_IF_FALSE
 (
 AvailableISize
 (
@@ -2103,7 +2110,7 @@ AvailableBSize
 NS_UNCONSTRAINEDSIZE
 ;
 }
-NS_WARN_IF_FALSE
+LAYOUT_WARN_IF_FALSE
 (
 (
 mFrameType
@@ -11348,7 +11355,7 @@ computedISizeCBWM
 availISizeCBWM
 ;
 }
-NS_WARN_IF_FALSE
+LAYOUT_WARN_IF_FALSE
 (
 NS_UNCONSTRAINEDSIZE
 !

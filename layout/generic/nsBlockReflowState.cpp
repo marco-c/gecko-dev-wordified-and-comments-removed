@@ -8,9 +8,7 @@ h
 #
 include
 "
-mozilla
-/
-DebugOnly
+LayoutLogging
 .
 h
 "
@@ -48,6 +46,15 @@ include
 mozilla
 /
 AutoRestore
+.
+h
+"
+#
+include
+"
+mozilla
+/
+DebugOnly
 .
 h
 "
@@ -473,7 +480,7 @@ GetNextInFlow
 )
 )
 ;
-NS_WARN_IF_FALSE
+LAYOUT_WARN_IF_FALSE
 (
 NS_UNCONSTRAINEDSIZE
 !

@@ -20,6 +20,13 @@ h
 #
 include
 "
+LayoutLogging
+.
+h
+"
+#
+include
+"
 SVGTextFrame
 .
 h
@@ -642,7 +649,7 @@ user
 "
 )
 ;
-NS_WARN_IF_FALSE
+LAYOUT_WARN_IF_FALSE
 (
 aISize
 !
@@ -4558,7 +4565,7 @@ nsGkAtoms
 :
 textFrame
 ;
-NS_WARN_IF_FALSE
+LAYOUT_WARN_IF_FALSE
 (
 psd
 -
@@ -14850,7 +14857,7 @@ psd
 >
 mWritingMode
 ;
-NS_WARN_IF_FALSE
+LAYOUT_WARN_IF_FALSE
 (
 psd
 -
