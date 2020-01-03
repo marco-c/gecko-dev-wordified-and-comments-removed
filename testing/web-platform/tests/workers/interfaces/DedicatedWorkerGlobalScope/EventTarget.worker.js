@@ -14,6 +14,7 @@ test
 (
 function
 (
+t
 )
 {
 var
@@ -32,7 +33,7 @@ listener
 evt
 )
 {
-this
+t
 .
 step
 (

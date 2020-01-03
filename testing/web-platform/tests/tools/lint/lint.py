@@ -515,7 +515,7 @@ path
 .
 join
 (
-here
+repo_root
 "
 lint
 .
