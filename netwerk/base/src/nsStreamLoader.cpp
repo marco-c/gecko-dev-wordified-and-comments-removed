@@ -158,6 +158,7 @@ nsStreamLoader
 nsIStreamLoader
 nsIRequestObserver
 nsIStreamListener
+nsIThreadRetargetableStreamListener
 )
 NS_IMETHODIMP
 nsStreamLoader
@@ -551,5 +552,17 @@ mData
 clearAndFree
 (
 )
+;
+}
+NS_IMETHODIMP
+nsStreamLoader
+:
+:
+CheckListenerChain
+(
+)
+{
+return
+NS_OK
 ;
 }
