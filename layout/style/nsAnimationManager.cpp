@@ -1704,7 +1704,7 @@ oldAnim
 newAnim
 -
 >
-Cancel
+CancelFromStyle
 (
 )
 ;
@@ -1807,7 +1807,7 @@ newAnimIdx
 ]
 -
 >
-Cancel
+CancelFromStyle
 (
 )
 ;

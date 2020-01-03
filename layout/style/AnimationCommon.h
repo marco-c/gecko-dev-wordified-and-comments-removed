@@ -1011,7 +1011,7 @@ animIdx
 ]
 -
 >
-Cancel
+CancelFromStyle
 (
 )
 ;
