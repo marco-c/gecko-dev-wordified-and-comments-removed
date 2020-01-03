@@ -774,9 +774,6 @@ DocshellEntryMonitor
 >
 mDocShellEntryMonitor
 ;
-bool
-mIsMainThread
-;
 }
 ;
 class
