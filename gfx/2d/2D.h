@@ -2782,16 +2782,6 @@ limit
 )
 ;
 static
-bool
-ReasonableSurfaceSize
-(
-const
-IntSize
-&
-aSize
-)
-;
-static
 TemporaryRef
 <
 DrawTarget
