@@ -1511,7 +1511,7 @@ GetStringFromName
 "
 editLogin
 .
-saved
+saved1
 "
 )
 "
@@ -1677,7 +1677,7 @@ GetStringFromName
 "
 editLogin
 .
-saved
+saved1
 "
 )
 "
