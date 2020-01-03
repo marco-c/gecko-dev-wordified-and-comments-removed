@@ -322,6 +322,12 @@ attribute
 boolean
 discovering
 ;
+readonly
+attribute
+BluetoothGattServer
+?
+gattServer
+;
 [
 AvailableIn
 =
