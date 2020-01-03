@@ -363,6 +363,9 @@ editor
 yield
 focusEditableField
 (
+ruleEditor
+.
+ruleView
 propEditor
 .
 nameSpan

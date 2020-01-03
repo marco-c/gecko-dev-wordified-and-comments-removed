@@ -497,6 +497,7 @@ onShown
 yield
 simulateColorPickerChange
 (
+view
 cPicker
 [
 1
@@ -574,9 +575,9 @@ to
 left
 rgb
 (
-255
-0
-102
+1
+1
+1
 )
 25
 %
