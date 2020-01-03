@@ -61,17 +61,6 @@ namespace
 cache
 {
 struct
-StreamHolder
-{
-nsCOMPtr
-<
-nsIOutputStream
->
-mValue
-;
-}
-;
-struct
 SavedRequest
 {
 SavedRequest

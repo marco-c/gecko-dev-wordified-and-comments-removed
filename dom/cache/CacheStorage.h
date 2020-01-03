@@ -107,9 +107,6 @@ namespace
 ipc
 {
 class
-IProtocol
-;
-class
 PrincipalInfo
 ;
 }
@@ -137,9 +134,6 @@ CacheStorageChild
 ;
 class
 Feature
-;
-class
-PCacheRequest
 ;
 class
 PCacheResponseOrVoid

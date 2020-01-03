@@ -77,9 +77,6 @@ PCacheRequestOrVoid
 class
 PCacheResponse
 ;
-class
-PCacheResponseOrVoid
-;
 struct
 SavedRequest
 ;
