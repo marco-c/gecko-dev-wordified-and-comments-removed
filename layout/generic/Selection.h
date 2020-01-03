@@ -713,7 +713,7 @@ bool
 ContainsNode
 (
 nsINode
-*
+&
 aNode
 bool
 aPartlyContained
