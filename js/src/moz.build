@@ -1675,6 +1675,13 @@ jsproxy
 cpp
 '
 '
+proxy
+/
+ScriptedDirectProxyHandler
+.
+cpp
+'
+'
 vm
 /
 ArgumentsObject
