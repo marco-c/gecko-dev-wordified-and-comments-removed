@@ -752,6 +752,16 @@ check
 =
 -
 j1
+AUTOMATION_EXTRA_CMDLINE
+-
+pretty
+-
+l10n
+-
+check
+=
+-
+j1
 #
 The
 commands
