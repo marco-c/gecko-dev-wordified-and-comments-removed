@@ -4359,16 +4359,7 @@ st
 den_rate
 <
 =
-16
-*
-(
-st
--
->
-oversample
-+
-8
-)
+441
 #
 else
 st
