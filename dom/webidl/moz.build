@@ -2285,11 +2285,6 @@ SVGGraphicsElement
 webidl
 '
 '
-SVGIFrameElement
-.
-webidl
-'
-'
 SVGImageElement
 .
 webidl

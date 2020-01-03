@@ -399,11 +399,6 @@ SVGGraphicsElement
 h
 '
 '
-SVGIFrameElement
-.
-h
-'
-'
 SVGImageElement
 .
 h
@@ -1020,11 +1015,6 @@ cpp
 '
 '
 SVGGraphicsElement
-.
-cpp
-'
-'
-SVGIFrameElement
 .
 cpp
 '
