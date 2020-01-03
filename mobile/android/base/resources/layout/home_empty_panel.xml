@@ -350,6 +350,14 @@ EmptyHint
 "
 android
 :
+textColorLink
+=
+"
+#
+FFA62F
+"
+android
+:
 layout_weight
 =
 "
