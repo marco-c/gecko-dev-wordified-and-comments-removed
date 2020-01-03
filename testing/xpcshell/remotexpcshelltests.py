@@ -101,6 +101,12 @@ args
 kwargs
 )
         
+self
+.
+shellReturnCode
+=
+None
+        
 mobileArgs
 =
 kwargs
