@@ -13229,8 +13229,9 @@ runtimeFromMainThread
 (
 )
 ;
-if
+MOZ_ASSERT
 (
+!
 rt
 -
 >
@@ -13238,8 +13239,6 @@ isHeapBusy
 (
 )
 )
-return
-false
 ;
 bool
 unmarkedArg
