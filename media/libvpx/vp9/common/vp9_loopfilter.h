@@ -257,7 +257,6 @@ int
 mi_col
 MODE_INFO
 *
-*
 mi_8x8
 const
 int
@@ -332,7 +331,6 @@ partial_frame
 void
 vp9_loop_filter_rows
 (
-const
 YV12_BUFFER_CONFIG
 *
 frame_buffer
@@ -358,7 +356,6 @@ typedef
 struct
 LoopFilterWorkerData
 {
-const
 YV12_BUFFER_CONFIG
 *
 frame_buffer
@@ -398,12 +395,13 @@ LFWorkerData
 int
 vp9_loop_filter_worker
 (
+LFWorkerData
+*
+const
+lf_data
 void
 *
-arg1
-void
-*
-arg2
+unused
 )
 ;
 #

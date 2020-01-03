@@ -18,6 +18,9 @@ RTCD_EXTERN
 extern
 #
 endif
+struct
+yv12_buffer_config
+;
 #
 ifdef
 __cplusplus
@@ -28,9 +31,6 @@ C
 {
 #
 endif
-struct
-yv12_buffer_config
-;
 void
 vp8_horizontal_line_2_1_scale_c
 (

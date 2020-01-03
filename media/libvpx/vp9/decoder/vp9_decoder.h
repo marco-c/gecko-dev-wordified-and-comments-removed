@@ -166,6 +166,9 @@ max_threads
 int
 inv_tile_order
 ;
+int
+need_resync
+;
 }
 VP9Decoder
 ;

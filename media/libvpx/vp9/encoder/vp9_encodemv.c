@@ -1781,6 +1781,8 @@ mi
 [
 0
 ]
+.
+src_mi
 ;
 const
 MB_MODE_INFO

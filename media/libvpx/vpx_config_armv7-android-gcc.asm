@@ -367,6 +367,10 @@ equ
 CONFIG_FP_MB_STATS
 0
 .
+equ
+CONFIG_EMULATE_HARDWARE_HIGHBITDEPTH
+0
+.
 section
 .
 note

@@ -9,6 +9,15 @@ include
 "
 vpx
 /
+vpx_codec
+.
+h
+"
+#
+include
+"
+vpx
+/
 vpx_integer
 .
 h
@@ -85,6 +94,9 @@ FRAME_TYPES
 ;
 int
 last_boosted_qindex
+;
+int
+last_kf_qindex
 ;
 int
 gfu_boost
@@ -247,6 +259,8 @@ vp9_convert_qindex_to_q
 (
 int
 qindex
+vpx_bit_depth_t
+bit_depth
 )
 ;
 void
@@ -380,6 +394,8 @@ int
 qindex
 double
 correction_factor
+vpx_bit_depth_t
+bit_depth
 )
 ;
 int
@@ -430,6 +446,8 @@ double
 qstart
 double
 qtarget
+vpx_bit_depth_t
+bit_depth
 )
 ;
 int
@@ -445,6 +463,8 @@ int
 qindex
 double
 rate_target_ratio
+vpx_bit_depth_t
+bit_depth
 )
 ;
 void

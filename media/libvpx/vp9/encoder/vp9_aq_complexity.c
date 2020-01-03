@@ -156,8 +156,11 @@ get_aq_c_strength
 (
 int
 q_index
+vpx_bit_depth_t
+bit_depth
 )
 {
+const
 int
 base_quant
 =
@@ -165,6 +168,7 @@ vp9_ac_quant
 (
 q_index
 0
+bit_depth
 )
 /
 4
@@ -265,6 +269,10 @@ cm
 -
 >
 base_qindex
+cm
+-
+>
+bit_depth
 )
 ;
 const
@@ -396,6 +404,10 @@ aq_strength
 [
 segment
 ]
+cm
+-
+>
+bit_depth
 )
 ;
 if
@@ -619,6 +631,10 @@ cm
 -
 >
 base_qindex
+cm
+-
+>
+bit_depth
 )
 ;
 const

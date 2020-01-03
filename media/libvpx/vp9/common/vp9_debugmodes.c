@@ -121,10 +121,7 @@ MODE_INFO
 *
 mi
 =
-cm
--
->
-mi_grid_visible
+NULL
 ;
 int
 rows
@@ -305,10 +302,7 @@ MODE_INFO
 *
 mi
 =
-cm
--
->
-mi_grid_visible
+NULL
 ;
 int
 rows

@@ -1176,6 +1176,8 @@ mi
 [
 0
 ]
+.
+src_mi
 -
 >
 mbmi
@@ -2240,7 +2242,6 @@ MACROBLOCKD
 xd
 MODE_INFO
 *
-*
 mi_8x8
 vp9_writer
 *
@@ -2267,9 +2268,6 @@ const
 mi
 =
 mi_8x8
-[
-0
-]
 ;
 const
 MODE_INFO
@@ -2285,6 +2283,8 @@ xd
 >
 mi_stride
 ]
+.
+src_mi
 ;
 const
 MODE_INFO
@@ -2302,6 +2302,8 @@ mi_8x8
 -
 1
 ]
+.
+src_mi
 :
 NULL
 ;
@@ -2582,7 +2584,7 @@ mi
 cm
 -
 >
-mi_grid_visible
+mi
 +
 (
 mi_row
@@ -2601,9 +2603,6 @@ xd
 -
 >
 mi
-[
-0
-]
 ;
 set_mi_row_col
 (
@@ -2995,7 +2994,7 @@ m
 cm
 -
 >
-mi_grid_visible
+mi
 [
 mi_row
 *
@@ -3006,6 +3005,8 @@ mi_stride
 +
 mi_col
 ]
+.
+src_mi
 ;
 partition
 =

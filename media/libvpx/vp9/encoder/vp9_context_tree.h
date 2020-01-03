@@ -28,7 +28,7 @@ uint8_t
 *
 zcoeff_blk
 ;
-int16_t
+tran_low_t
 *
 coeff
 [
@@ -38,7 +38,7 @@ MAX_MB_PLANE
 3
 ]
 ;
-int16_t
+tran_low_t
 *
 qcoeff
 [
@@ -48,7 +48,7 @@ MAX_MB_PLANE
 3
 ]
 ;
-int16_t
+tran_low_t
 *
 dqcoeff
 [
@@ -68,7 +68,7 @@ MAX_MB_PLANE
 3
 ]
 ;
-int16_t
+tran_low_t
 *
 coeff_pbuf
 [
@@ -78,7 +78,7 @@ MAX_MB_PLANE
 3
 ]
 ;
-int16_t
+tran_low_t
 *
 qcoeff_pbuf
 [
@@ -88,7 +88,7 @@ MAX_MB_PLANE
 3
 ]
 ;
-int16_t
+tran_low_t
 *
 dqcoeff_pbuf
 [

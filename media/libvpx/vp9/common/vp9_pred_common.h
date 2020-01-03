@@ -67,6 +67,8 @@ xd
 >
 mi_stride
 ]
+.
+src_mi
 :
 NULL
 ;
@@ -99,6 +101,8 @@ mi
 -
 1
 ]
+.
+src_mi
 :
 NULL
 ;

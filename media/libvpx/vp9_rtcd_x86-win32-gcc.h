@@ -19,16 +19,6 @@ extern
 #
 endif
 #
-ifdef
-__cplusplus
-extern
-"
-C
-"
-{
-#
-endif
-#
 include
 "
 vpx
@@ -45,6 +35,17 @@ vp9
 common
 /
 vp9_enums
+.
+h
+"
+#
+include
+"
+vp9
+/
+common
+/
+vp9_idct
 .
 h
 "
@@ -69,15 +70,25 @@ int_mv
 struct
 yv12_buffer_config
 ;
+#
+ifdef
+__cplusplus
+extern
+"
+C
+"
+{
+#
+endif
 int64_t
 vp9_block_error_c
 (
 const
-int16_t
+tran_low_t
 *
 coeff
 const
-int16_t
+tran_low_t
 *
 dqcoeff
 intptr_t
@@ -91,11 +102,11 @@ int64_t
 vp9_block_error_sse2
 (
 const
-int16_t
+tran_low_t
 *
 coeff
 const
-int16_t
+tran_low_t
 *
 dqcoeff
 intptr_t
@@ -109,11 +120,11 @@ int64_t
 vp9_block_error_avx2
 (
 const
-int16_t
+tran_low_t
 *
 coeff
 const
-int16_t
+tran_low_t
 *
 dqcoeff
 intptr_t
@@ -131,11 +142,11 @@ vp9_block_error
 )
 (
 const
-int16_t
+tran_low_t
 *
 coeff
 const
-int16_t
+tran_low_t
 *
 dqcoeff
 intptr_t
@@ -2848,7 +2859,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -2862,7 +2873,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -2880,7 +2891,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -2894,7 +2905,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -2908,7 +2919,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -2926,7 +2937,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -2940,7 +2951,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -2954,7 +2965,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -2968,7 +2979,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -2986,7 +2997,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3000,7 +3011,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3014,7 +3025,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3032,7 +3043,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3046,7 +3057,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3060,7 +3071,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3074,7 +3085,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3092,7 +3103,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3106,7 +3117,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3120,7 +3131,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3138,7 +3149,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3152,7 +3163,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3166,7 +3177,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3184,7 +3195,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3198,7 +3209,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3212,7 +3223,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3230,7 +3241,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3244,7 +3255,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3258,7 +3269,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3276,7 +3287,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3290,7 +3301,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3306,7 +3317,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3326,7 +3337,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3342,7 +3353,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3358,7 +3369,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3378,7 +3389,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3394,7 +3405,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3410,7 +3421,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3430,7 +3441,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3626,7 +3637,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3640,7 +3651,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -3658,7 +3669,7 @@ const
 int16_t
 *
 input
-int16_t
+tran_low_t
 *
 output
 int
@@ -4108,7 +4119,7 @@ void
 vp9_idct16x16_10_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4122,7 +4133,7 @@ void
 vp9_idct16x16_10_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4136,7 +4147,7 @@ void
 vp9_idct16x16_10_add_ssse3
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4154,7 +4165,7 @@ vp9_idct16x16_10_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4168,7 +4179,7 @@ void
 vp9_idct16x16_1_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4182,7 +4193,7 @@ void
 vp9_idct16x16_1_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4200,7 +4211,7 @@ vp9_idct16x16_1_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4214,7 +4225,7 @@ void
 vp9_idct16x16_256_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4228,7 +4239,7 @@ void
 vp9_idct16x16_256_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4242,7 +4253,7 @@ void
 vp9_idct16x16_256_add_ssse3
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4260,7 +4271,7 @@ vp9_idct16x16_256_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4274,7 +4285,7 @@ void
 vp9_idct32x32_1024_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4288,7 +4299,7 @@ void
 vp9_idct32x32_1024_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4306,7 +4317,7 @@ vp9_idct32x32_1024_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4320,7 +4331,7 @@ void
 vp9_idct32x32_1_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4334,7 +4345,7 @@ void
 vp9_idct32x32_1_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4352,7 +4363,7 @@ vp9_idct32x32_1_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4366,7 +4377,7 @@ void
 vp9_idct32x32_34_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4380,7 +4391,7 @@ void
 vp9_idct32x32_34_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4398,7 +4409,7 @@ vp9_idct32x32_34_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4412,7 +4423,7 @@ void
 vp9_idct4x4_16_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4426,7 +4437,7 @@ void
 vp9_idct4x4_16_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4444,7 +4455,7 @@ vp9_idct4x4_16_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4458,7 +4469,7 @@ void
 vp9_idct4x4_1_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4472,7 +4483,7 @@ void
 vp9_idct4x4_1_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4490,7 +4501,7 @@ vp9_idct4x4_1_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4504,7 +4515,7 @@ void
 vp9_idct8x8_12_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4518,7 +4529,7 @@ void
 vp9_idct8x8_12_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4536,7 +4547,7 @@ vp9_idct8x8_12_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4550,7 +4561,7 @@ void
 vp9_idct8x8_1_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4564,7 +4575,7 @@ void
 vp9_idct8x8_1_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4582,7 +4593,7 @@ vp9_idct8x8_1_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4596,7 +4607,7 @@ void
 vp9_idct8x8_64_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4610,7 +4621,7 @@ void
 vp9_idct8x8_64_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4628,7 +4639,7 @@ vp9_idct8x8_64_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4642,7 +4653,7 @@ void
 vp9_iht16x16_256_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4658,7 +4669,7 @@ void
 vp9_iht16x16_256_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4678,7 +4689,7 @@ vp9_iht16x16_256_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4694,7 +4705,7 @@ void
 vp9_iht4x4_16_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4710,7 +4721,7 @@ void
 vp9_iht4x4_16_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4730,7 +4741,7 @@ vp9_iht4x4_16_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4746,7 +4757,7 @@ void
 vp9_iht8x8_64_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4762,7 +4773,7 @@ void
 vp9_iht8x8_64_add_sse2
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4782,7 +4793,7 @@ vp9_iht8x8_64_add
 )
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4798,7 +4809,7 @@ void
 vp9_iwht4x4_16_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -4816,7 +4827,7 @@ void
 vp9_iwht4x4_1_add_c
 (
 const
-int16_t
+tran_low_t
 *
 input
 uint8_t
@@ -6104,7 +6115,7 @@ void
 vp9_quantize_b_c
 (
 const
-int16_t
+tran_low_t
 *
 coeff_ptr
 intptr_t
@@ -6127,10 +6138,10 @@ const
 int16_t
 *
 quant_shift_ptr
-int16_t
+tran_low_t
 *
 qcoeff_ptr
-int16_t
+tran_low_t
 *
 dqcoeff_ptr
 const
@@ -6160,7 +6171,7 @@ void
 vp9_quantize_b_32x32_c
 (
 const
-int16_t
+tran_low_t
 *
 coeff_ptr
 intptr_t
@@ -6183,10 +6194,10 @@ const
 int16_t
 *
 quant_shift_ptr
-int16_t
+tran_low_t
 *
 qcoeff_ptr
-int16_t
+tran_low_t
 *
 dqcoeff_ptr
 const
@@ -6216,7 +6227,7 @@ void
 vp9_quantize_fp_c
 (
 const
-int16_t
+tran_low_t
 *
 coeff_ptr
 intptr_t
@@ -6239,10 +6250,10 @@ const
 int16_t
 *
 quant_shift_ptr
-int16_t
+tran_low_t
 *
 qcoeff_ptr
-int16_t
+tran_low_t
 *
 dqcoeff_ptr
 const
@@ -6272,7 +6283,7 @@ void
 vp9_quantize_fp_32x32_c
 (
 const
-int16_t
+tran_low_t
 *
 coeff_ptr
 intptr_t
@@ -6295,10 +6306,10 @@ const
 int16_t
 *
 quant_shift_ptr
-int16_t
+tran_low_t
 *
 qcoeff_ptr
-int16_t
+tran_low_t
 *
 dqcoeff_ptr
 const

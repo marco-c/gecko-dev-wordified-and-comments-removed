@@ -19,6 +19,15 @@ include
 "
 vpx
 /
+vpx_codec
+.
+h
+"
+#
+include
+"
+vpx
+/
 vpx_frame_buffer
 .
 h
@@ -123,6 +132,10 @@ border
 ;
 int
 frame_size
+;
+unsigned
+int
+bit_depth
 ;
 int
 corrupted

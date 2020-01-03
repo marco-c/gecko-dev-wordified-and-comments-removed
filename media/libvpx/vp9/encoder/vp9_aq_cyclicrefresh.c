@@ -889,6 +889,10 @@ cm
 -
 >
 base_qindex
+cm
+-
+>
+bit_depth
 )
 ;
 vp9_clear_system_state
@@ -1071,6 +1075,10 @@ cm
 >
 base_qindex
 rate_ratio_qdelta
+cm
+-
+>
+bit_depth
 )
 ;
 if

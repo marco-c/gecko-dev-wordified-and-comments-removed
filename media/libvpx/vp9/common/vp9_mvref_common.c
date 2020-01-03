@@ -78,7 +78,7 @@ prev_mi
 cm
 -
 >
-prev_mi_grid_visible
+prev_mi
 [
 mi_row
 *
@@ -89,6 +89,8 @@ mi_stride
 +
 mi_col
 ]
+.
+src_mi
 :
 NULL
 ;
@@ -102,6 +104,9 @@ prev_mi
 ?
 &
 prev_mi
+-
+>
+src_mi
 -
 >
 mbmi
@@ -215,6 +220,8 @@ xd
 >
 mi_stride
 ]
+.
+src_mi
 ;
 const
 MB_MODE_INFO
@@ -366,6 +373,8 @@ xd
 >
 mi_stride
 ]
+.
+src_mi
 -
 >
 mbmi
@@ -553,6 +562,8 @@ xd
 >
 mi_stride
 ]
+.
+src_mi
 -
 >
 mbmi
@@ -879,6 +890,8 @@ mi
 [
 0
 ]
+.
+src_mi
 ;
 b_mode_info
 *

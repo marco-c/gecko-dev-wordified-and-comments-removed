@@ -75,17 +75,6 @@ unsigned
 int
 flags
 ;
-#
-if
-CONFIG_SPATIAL_SVC
-vpx_svc_parameters_t
-svc_params
-[
-VPX_SS_MAX_LAYERS
-]
-;
-#
-endif
 }
 ;
 #

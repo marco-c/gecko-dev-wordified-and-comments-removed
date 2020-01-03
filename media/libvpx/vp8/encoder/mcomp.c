@@ -2674,10 +2674,9 @@ bestmv
 as_mv
 .
 row
-<
-<
+*
 =
-3
+8
 ;
 bestmv
 -
@@ -2685,10 +2684,9 @@ bestmv
 as_mv
 .
 col
-<
-<
+*
 =
-3
+8
 ;
 startmv
 =
