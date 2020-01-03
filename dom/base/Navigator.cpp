@@ -2333,6 +2333,12 @@ GetDoc
 {
 return
 !
+NS_IsOffline
+(
+)
+&
+&
+!
 NS_IsAppOffline
 (
 mWindow
