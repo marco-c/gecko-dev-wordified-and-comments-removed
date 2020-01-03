@@ -1932,7 +1932,7 @@ event
 .
 detail
 .
-previousTabfromTab
+previousTab
 )
 {
 wasVisible
