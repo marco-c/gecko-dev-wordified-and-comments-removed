@@ -11891,15 +11891,6 @@ IsElement
 )
 &
 &
-(
-mContent
--
->
-GetParent
-(
-)
-|
-|
 mContent
 -
 >
@@ -11909,7 +11900,6 @@ GetPrimaryFrame
 =
 =
 mFrame
-)
 )
 {
 mContent
