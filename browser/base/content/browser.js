@@ -21790,13 +21790,6 @@ updateState
 location
 )
 ;
-UITour
-.
-onLocationChange
-(
-location
-)
-;
 }
 var
 shouldDisableFind

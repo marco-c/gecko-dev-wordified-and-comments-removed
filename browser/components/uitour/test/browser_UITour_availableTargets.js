@@ -172,11 +172,6 @@ privateWindow
 quit
 "
 "
-readerMode
--
-urlBar
-"
-"
 search
 "
 "
@@ -328,11 +323,6 @@ privateWindow
 "
 "
 quit
-"
-"
-readerMode
--
-urlBar
 "
 "
 search
@@ -492,11 +482,6 @@ privateWindow
 "
 "
 quit
-"
-"
-readerMode
--
-urlBar
 "
 "
 urlbar
