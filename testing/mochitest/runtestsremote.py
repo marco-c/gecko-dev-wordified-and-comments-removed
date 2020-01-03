@@ -3703,6 +3703,23 @@ true
 '
 )
         
+options
+.
+extraPrefs
+.
+append
+(
+'
+extensions
+.
+autoupdate
+.
+enabled
+=
+false
+'
+)
+        
 if
 (
 options
