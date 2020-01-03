@@ -3430,6 +3430,12 @@ this
 props
 .
 dispatcher
+showAlways
+:
+true
+showRoomName
+:
+true
 }
 )
 React

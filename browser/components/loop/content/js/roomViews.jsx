@@ -5284,6 +5284,16 @@ props
 .
 dispatcher
 }
+showAlways
+=
+{
+false
+}
+showRoomName
+=
+{
+false
+}
 /
 >
 <
