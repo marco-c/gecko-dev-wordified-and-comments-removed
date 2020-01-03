@@ -321,9 +321,13 @@ DefaultNurseryBytes
 =
 16
 *
-1024
-*
-1024
+js
+:
+:
+gc
+:
+:
+ChunkSize
 ;
 const
 uint32_t
