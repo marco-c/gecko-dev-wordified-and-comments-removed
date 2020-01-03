@@ -1136,7 +1136,10 @@ nsScriptLoadRequestList
 mNonAsyncExternalScriptInsertedRequests
 ;
 nsScriptLoadRequestList
-mAsyncRequests
+mLoadingAsyncRequests
+;
+nsScriptLoadRequestList
+mLoadedAsyncRequests
 ;
 nsScriptLoadRequestList
 mDeferRequests
