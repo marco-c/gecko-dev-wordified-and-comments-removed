@@ -8246,7 +8246,7 @@ event
 /
 >
 <
-toolbarbutton
+image
 id
 =
 "
@@ -8259,7 +8259,6 @@ button
 class
 =
 "
-tabbable
 urlbar
 -
 icon
@@ -8269,7 +8268,7 @@ hidden
 "
 true
 "
-oncommand
+onclick
 =
 "
 ReadingListUI
