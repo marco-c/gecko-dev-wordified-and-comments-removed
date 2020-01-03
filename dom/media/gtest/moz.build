@@ -113,11 +113,6 @@ TestGMPCrossOrigin
 cpp
 '
 '
-TestGMPRemoveAndDelete
-.
-cpp
-'
-'
 TestMP4Demuxer
 .
 cpp
