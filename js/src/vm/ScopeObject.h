@@ -4106,14 +4106,8 @@ HandleObject
 dynamicTerminatingScope
 MutableHandleObject
 dynamicScopeObj
-)
-;
-bool
-HasNonSyntacticStaticScopeChain
-(
-JSObject
-*
-staticScope
+MutableHandleObject
+staticScopeObj
 )
 ;
 #
