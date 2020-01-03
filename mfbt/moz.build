@@ -380,6 +380,11 @@ RefPtr
 h
 '
 '
+ReverseIterator
+.
+h
+'
+'
 RollingMean
 .
 h
