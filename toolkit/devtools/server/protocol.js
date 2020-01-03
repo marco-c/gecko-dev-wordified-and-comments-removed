@@ -4435,6 +4435,10 @@ Error
 "
 Connection
 closed
+pending
+request
+not
+sent
 "
 )
 )
