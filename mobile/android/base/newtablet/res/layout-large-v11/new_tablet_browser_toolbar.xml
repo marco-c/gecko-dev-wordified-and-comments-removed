@@ -624,6 +624,13 @@ menu
 "
 android
 :
+layout_alignWithParentIfMissing
+=
+"
+true
+"
+android
+:
 background
 =
 "
@@ -796,13 +803,6 @@ layout_alignParentRight
 =
 "
 true
-"
-android
-:
-layout_marginRight
-=
-"
-6dp
 "
 android
 :
