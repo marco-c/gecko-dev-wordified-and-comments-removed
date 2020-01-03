@@ -138,6 +138,12 @@ aDecoder
 ;
 AndroidMediaPluginHost
 *
+EnsureAndroidMediaPluginHost
+(
+)
+;
+AndroidMediaPluginHost
+*
 GetAndroidMediaPluginHost
 (
 )
