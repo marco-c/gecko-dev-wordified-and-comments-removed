@@ -79,6 +79,17 @@ jsm
 "
 )
 ;
+timerHandlers
+.
+startTimer
+=
+callback
+=
+>
+callback
+(
+)
+;
 let
 openChatOrig
 =

@@ -3,6 +3,17 @@ use
 strict
 "
 ;
+timerHandlers
+.
+startTimer
+=
+callback
+=
+>
+callback
+(
+)
+;
 Cu
 .
 import
