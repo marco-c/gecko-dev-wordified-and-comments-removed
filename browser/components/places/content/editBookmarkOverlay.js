@@ -961,8 +961,6 @@ this
 readOnly
 ;
 }
-if
-(
 showOrCollapse
 (
 "
@@ -973,6 +971,10 @@ isURI
 location
 "
 )
+;
+if
+(
+isURI
 )
 {
 this
