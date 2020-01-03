@@ -2629,9 +2629,9 @@ function
 let
 addonItem
 =
-document
+addonTooltip
 .
-tooltipNode
+triggerNode
 ;
 if
 (
