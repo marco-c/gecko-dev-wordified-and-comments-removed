@@ -2201,7 +2201,7 @@ aBorder
 .
 top
 =
-BC_BORDER_BOTTOM_HALF_COORD
+BC_BORDER_END_HALF_COORD
 (
 aPixelsToTwips
 mTopContBorderWidth
@@ -2211,7 +2211,7 @@ aBorder
 .
 bottom
 =
-BC_BORDER_TOP_HALF_COORD
+BC_BORDER_START_HALF_COORD
 (
 aPixelsToTwips
 mBottomContBorderWidth
