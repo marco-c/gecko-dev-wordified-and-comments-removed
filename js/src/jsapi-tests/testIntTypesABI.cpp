@@ -78,7 +78,7 @@ include
 "
 js
 /
-DebugAPI
+Debug
 .
 h
 "
