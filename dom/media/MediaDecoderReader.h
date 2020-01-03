@@ -588,6 +588,13 @@ aOffset
 {
 }
 virtual
+void
+NotifyDataRemoved
+(
+)
+{
+}
+virtual
 int64_t
 GetEvictionOffset
 (

@@ -208,6 +208,13 @@ aOffset
 )
 {
 }
+virtual
+void
+NotifyDataRemoved
+(
+)
+{
+}
 protected
 :
 virtual
