@@ -8198,7 +8198,8 @@ proto
 ;
 }
 }
-}
+else
+{
 gcNumber
 =
 rt
@@ -8210,6 +8211,8 @@ gcNumber
 (
 )
 ;
+}
+}
 }
 Rooted
 <
