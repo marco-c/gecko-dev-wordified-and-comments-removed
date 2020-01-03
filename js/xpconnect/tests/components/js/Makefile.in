@@ -85,6 +85,10 @@ xpctest_params
 .
 js
 \
+xpctest_returncode_child
+.
+js
+\
 xpctest
 .
 manifest

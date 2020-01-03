@@ -117,6 +117,11 @@ xpctest_params
 .
 idl
 '
+'
+xpctest_returncode
+.
+idl
+'
 ]
 XPIDL_MODULE
 =

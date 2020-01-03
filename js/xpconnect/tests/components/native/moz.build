@@ -115,6 +115,11 @@ xpctest_params
 .
 cpp
 '
+'
+xpctest_returncode
+.
+cpp
+'
 ]
 XPCOMBinaryComponent
 (
