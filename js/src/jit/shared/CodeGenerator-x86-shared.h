@@ -1347,6 +1347,14 @@ lir
 )
 ;
 bool
+visitSimdSelect
+(
+LSimdSelect
+*
+ins
+)
+;
+bool
 visitOutOfLineBailout
 (
 OutOfLineBailout

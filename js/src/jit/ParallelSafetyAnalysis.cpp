@@ -616,6 +616,10 @@ SAFE_OP
 (
 SimdBinaryBitwise
 )
+SAFE_OP
+(
+SimdTernaryBitwise
+)
 UNSAFE_OP
 (
 CloneLiteral

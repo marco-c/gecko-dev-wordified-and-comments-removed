@@ -64,6 +64,11 @@ SimdBinaryBitwise
 \
 _
 (
+SimdTernaryBitwise
+)
+\
+_
+(
 CloneLiteral
 )
 \

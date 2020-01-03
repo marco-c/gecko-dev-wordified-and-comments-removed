@@ -113,6 +113,11 @@ SimdBinaryBitwiseX4
 \
 _
 (
+SimdSelect
+)
+\
+_
+(
 Value
 )
 \
