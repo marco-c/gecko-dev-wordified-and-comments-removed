@@ -1972,7 +1972,6 @@ quirks
 notref
 .
 html
-fails
 =
 =
 underline
@@ -1995,14 +1994,6 @@ quirks
 ref
 .
 html
-#
-currently
-too
-quirky
-(
-bug
-403524
-)
 fails
 =
 =

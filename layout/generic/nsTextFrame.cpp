@@ -24415,10 +24415,8 @@ compatMode
 =
 =
 eCompatibility_NavQuirks
-)
-{
-if
-(
+&
+&
 f
 -
 >
@@ -24439,9 +24437,6 @@ table
 break
 ;
 }
-}
-else
-{
 if
 (
 f
@@ -24462,7 +24457,6 @@ IsAbsolutelyPositioned
 {
 break
 ;
-}
 }
 }
 }
