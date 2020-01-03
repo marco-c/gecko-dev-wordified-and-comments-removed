@@ -101,12 +101,6 @@ kStreamTransportServiceCID
 NS_STREAMTRANSPORTSERVICE_CID
 )
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 static
 PRLogModuleInfo
 *
@@ -114,8 +108,6 @@ gStreamPumpLog
 =
 nullptr
 ;
-#
-endif
 #
 undef
 LOG
@@ -185,12 +177,6 @@ nsInputStreamPump
 "
 )
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 !
@@ -205,8 +191,6 @@ nsStreamPump
 "
 )
 ;
-#
-endif
 }
 nsInputStreamPump
 :

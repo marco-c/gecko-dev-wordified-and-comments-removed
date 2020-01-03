@@ -1091,12 +1091,6 @@ i
 +
 )
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 nsAutoCString
 path
 ;
@@ -1129,8 +1123,6 @@ get
 )
 )
 ;
-#
-endif
 mItems
 [
 i

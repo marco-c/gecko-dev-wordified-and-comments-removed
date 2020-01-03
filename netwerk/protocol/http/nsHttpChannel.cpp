@@ -27753,9 +27753,6 @@ IsConnect
 return
 ;
 }
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 key
 ;
@@ -27794,8 +27791,6 @@ get
 )
 )
 ;
-#
-endif
 DoInvalidateCacheEntry
 (
 mURI
@@ -27974,9 +27969,6 @@ aURI
 nsresult
 rv
 ;
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 key
 ;
@@ -28013,8 +28005,6 @@ get
 )
 )
 ;
-#
-endif
 nsCOMPtr
 <
 nsICacheStorageService

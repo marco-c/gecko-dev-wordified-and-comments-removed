@@ -1210,9 +1210,6 @@ return
 rv
 ;
 }
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 path
 ;
@@ -1224,8 +1221,6 @@ GetNativePath
 path
 )
 ;
-#
-endif
 PRFileDesc
 *
 fd
@@ -1425,9 +1420,6 @@ return
 rv
 ;
 }
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 path
 ;
@@ -1439,8 +1431,6 @@ GetNativePath
 path
 )
 ;
-#
-endif
 rv
 =
 file

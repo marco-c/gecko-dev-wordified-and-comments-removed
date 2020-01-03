@@ -11,12 +11,6 @@ mozilla
 namespace
 net
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 PRLogModuleInfo
 *
 GetCache2Log
@@ -46,7 +40,5 @@ return
 sLog
 ;
 }
-#
-endif
 }
 }

@@ -31,16 +31,11 @@ NeckoChild
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 webSocketLog
 ;
-#
-endif
 #
 undef
 LOG
