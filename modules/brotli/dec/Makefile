@@ -6,12 +6,14 @@ include
 .
 .
 /
-.
-.
-/
 shared
 .
 mk
+CPPFLAGS
++
+=
+-
+Wall
 OBJS
 =
 bit_reader
