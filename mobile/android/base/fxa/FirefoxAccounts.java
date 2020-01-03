@@ -212,6 +212,13 @@ android
 .
 os
 .
+AsyncTask
+;
+import
+android
+.
+os
+.
 Bundle
 ;
 public
@@ -1211,7 +1218,9 @@ authority
 :
 AndroidFxAccount
 .
-getAndroidAuthorities
+DEFAULT_AUTHORITIES_TO_SYNC_AUTOMATICALLY_MAP
+.
+keySet
 (
 )
 )

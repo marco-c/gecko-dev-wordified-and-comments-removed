@@ -476,6 +476,9 @@ profile
 authServerURI
 tokenServerURI
 state
+AndroidFxAccount
+.
+DEFAULT_AUTHORITIES_TO_SYNC_AUTOMATICALLY_MAP
 )
 ;
 if
