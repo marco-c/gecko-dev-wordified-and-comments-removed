@@ -1991,9 +1991,6 @@ aContent
 nsIAtom
 *
 aAnimationProperty
-nsPresContext
-*
-aPresContext
 )
 {
 if

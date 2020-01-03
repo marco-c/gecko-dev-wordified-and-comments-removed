@@ -6489,7 +6489,6 @@ nsGkAtoms
 :
 :
 transitionsProperty
-aPresContext
 )
 )
 {
