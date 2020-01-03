@@ -259,6 +259,11 @@ testGCHeapPostBarriers
 cpp
 '
 '
+testGCMarking
+.
+cpp
+'
+'
 testGCOutOfMemory
 .
 cpp

@@ -71,6 +71,15 @@ include
 "
 js
 /
+TracingAPI
+.
+h
+"
+#
+include
+"
+js
+/
 UbiNode
 .
 h
@@ -1655,7 +1664,7 @@ JSContext
 const
 cx
 ;
-Zone
+JS
 :
 :
 ZoneSet
