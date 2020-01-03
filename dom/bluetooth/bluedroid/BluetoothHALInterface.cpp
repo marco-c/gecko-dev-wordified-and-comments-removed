@@ -2075,6 +2075,16 @@ remoteAddr
 false
 )
 {
+name
+=
+static_cast
+<
+bt_property_type_t
+>
+(
+0
+)
+;
 status
 =
 mInterface
