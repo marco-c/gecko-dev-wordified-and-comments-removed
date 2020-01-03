@@ -6407,10 +6407,8 @@ destroyQueueTail
 =
 nullptr
 ;
-PL_DHashTableDestroy
-(
+delete
 children
-)
 ;
 }
 else
@@ -7345,7 +7343,8 @@ PLDHashTable
 *
 hash
 =
-PL_NewDHashTable
+new
+PLDHashTable
 (
 &
 ChildrenHashOps
@@ -47396,10 +47395,8 @@ childrenDestroyed
 oldChildCount
 )
 {
-PL_DHashTableDestroy
-(
+delete
 children
-)
 ;
 mChildren
 .
