@@ -898,11 +898,6 @@ StringReplace
 \
 _
 (
-Substr
-)
-\
-_
-(
 Lambda
 )
 \

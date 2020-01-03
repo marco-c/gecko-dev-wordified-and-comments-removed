@@ -439,11 +439,6 @@ StringSplit
 \
 _
 (
-Substr
-)
-\
-_
-(
 Return
 )
 \

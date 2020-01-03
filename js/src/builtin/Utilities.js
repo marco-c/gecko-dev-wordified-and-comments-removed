@@ -11,11 +11,6 @@ std_Array_indexOf
 ArrayIndexOf
 ;
 var
-std_String_substring
-=
-String_substring
-;
-var
 std_WeakMap
 =
 WeakMap

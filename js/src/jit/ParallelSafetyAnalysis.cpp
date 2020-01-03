@@ -1431,10 +1431,6 @@ GuardString
 )
 UNSAFE_OP
 (
-Substr
-)
-UNSAFE_OP
-(
 NewDeclEnvObject
 )
 UNSAFE_OP
