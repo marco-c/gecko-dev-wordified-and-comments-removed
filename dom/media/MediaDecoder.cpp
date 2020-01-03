@@ -6427,14 +6427,6 @@ if
 aForceBuffering
 )
 {
-ReentrantMonitorAutoEnter
-mon
-(
-GetReentrantMonitor
-(
-)
-)
-;
 if
 (
 mDecoderStateMachine
@@ -6443,7 +6435,7 @@ mDecoderStateMachine
 mDecoderStateMachine
 -
 >
-StartBuffering
+DispatchStartBuffering
 (
 )
 ;
