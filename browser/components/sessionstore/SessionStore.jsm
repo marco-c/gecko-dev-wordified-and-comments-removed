@@ -269,6 +269,11 @@ setupSyncHandler
 "
 SessionStore
 :
+crashedTabRevived
+"
+"
+SessionStore
+:
 update
 "
 ]
