@@ -61,7 +61,10 @@ LoadInfo
 (
 nsIPrincipal
 *
-aPrincipal
+aLoadingPrincipal
+nsIPrincipal
+*
+aTriggeringPrincipal
 nsINode
 *
 aLoadingContext
@@ -87,7 +90,13 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mPrincipal
+mLoadingPrincipal
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mTriggeringPrincipal
 ;
 nsWeakPtr
 mLoadingContext
