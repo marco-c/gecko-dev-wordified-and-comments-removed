@@ -264,6 +264,11 @@ instanceof
 Ci
 .
 nsIDOMChromeWindow
+&
+&
+target
+.
+gMultiProcessBrowser
 )
 {
 return
