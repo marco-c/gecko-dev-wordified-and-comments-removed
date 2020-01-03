@@ -577,7 +577,7 @@ systemPrincipal
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_ALLOW_CROSS_ORIGIN_DATA_INHERITS
 nsIContentPolicy
 :
 :
@@ -662,10 +662,9 @@ listener
 channel
 -
 >
-AsyncOpen
+AsyncOpen2
 (
 listener
-nullptr
 )
 ;
 PumpEvents

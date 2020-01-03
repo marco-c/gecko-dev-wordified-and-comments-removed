@@ -167,9 +167,6 @@ ReadNTLM
 TestBlockingSocket
 '
 '
-TestCallbacks
-'
-'
 TestDNS
 '
 '
@@ -223,9 +220,6 @@ TestIOThreads
 '
 #
 TestSocketTransport
-'
-#
-TestStreamChannel
 '
 #
 TestStreamPump
