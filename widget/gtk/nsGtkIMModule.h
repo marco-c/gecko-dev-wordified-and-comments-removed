@@ -755,8 +755,6 @@ const
 nsAString
 &
 aCompositionString
-bool
-aIsCommit
 )
 ;
 bool
