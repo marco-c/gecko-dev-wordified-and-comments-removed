@@ -218,15 +218,6 @@ js
 GAIA_REPO
 =
 "
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
 (
 get_gaia_repo
 .
