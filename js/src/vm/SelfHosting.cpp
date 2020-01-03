@@ -2570,16 +2570,13 @@ ATTR_WRITABLE
 )
 ;
 desc
-.
-set
-(
+=
 PropDesc
 (
 value
 writable
 enumerable
 configurable
-)
 )
 ;
 bool

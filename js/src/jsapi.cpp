@@ -10962,15 +10962,12 @@ JSPROP_INDEX
 )
 {
 id
-.
-set
-(
+=
 INT_TO_JSID
 (
 intptr_t
 (
 name
-)
 )
 )
 ;

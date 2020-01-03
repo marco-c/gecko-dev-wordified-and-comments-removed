@@ -225,13 +225,10 @@ nullptr
 )
 )
 ;
+*
 heapData
--
->
-set
-(
+=
 initialObj
-)
 ;
 uintptr_t
 initialObjAsInt

@@ -7779,6 +7779,7 @@ Value
 v
 )
 {
+*
 static_cast
 <
 JS
@@ -7796,12 +7797,8 @@ Value
 (
 this
 )
--
->
-set
-(
+=
 v
-)
 ;
 }
 public
