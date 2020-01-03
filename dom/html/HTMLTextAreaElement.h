@@ -1430,8 +1430,8 @@ const
 nsAString
 &
 aValue
-bool
-aUserInput
+uint32_t
+aFlags
 )
 ;
 nsresult

@@ -2727,10 +2727,8 @@ const
 nsAString
 &
 aValue
-bool
-aUserInput
-bool
-aSetValueChanged
+uint32_t
+aFlags
 )
 ;
 nsresult
