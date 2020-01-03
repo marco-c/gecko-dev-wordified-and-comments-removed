@@ -23,6 +23,12 @@ BEGIN_TEST
 testGCHeapPostBarriers
 )
 {
+AutoLeaveZeal
+nozeal
+(
+cx
+)
+;
 JS_GC
 (
 cx

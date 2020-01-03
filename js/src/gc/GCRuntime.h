@@ -1478,6 +1478,17 @@ zealMode
 ;
 }
 void
+getZeal
+(
+uint8_t
+*
+zeal
+uint32_t
+*
+frequency
+)
+;
+void
 setZeal
 (
 uint8_t
