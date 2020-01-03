@@ -652,9 +652,6 @@ adbcommand
 =
 ADBCommand
 (
-.
-.
-.
 )
        
 except
@@ -1729,9 +1726,6 @@ adbhost
 =
 ADBHost
 (
-.
-.
-.
 )
        
 adbhost
@@ -2954,9 +2948,6 @@ adbdevice
 =
 ADBDevice
 (
-.
-.
-.
 )
        
 print
