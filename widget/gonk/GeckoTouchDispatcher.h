@@ -59,7 +59,7 @@ NotifyTouch
 (
 MultiTouchInput
 &
-aData
+aTouch
 uint64_t
 aEventTime
 )
@@ -185,6 +185,9 @@ mTouchTimeDiff
 ;
 uint64_t
 mLastTouchTime
+;
+uint64_t
+mDelayedVsyncThreshold
 ;
 }
 ;
