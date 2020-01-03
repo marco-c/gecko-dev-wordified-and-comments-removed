@@ -252,6 +252,14 @@ CallTempReg0
 ;
 masm
 .
+assertStackAlignment
+(
+JitStackAlignment
+0
+)
+;
+masm
+.
 reserveStack
 (
 frameSize
