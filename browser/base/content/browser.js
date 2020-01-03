@@ -38699,6 +38699,11 @@ aOpenParams
 .
 ignoreQueryString
 ;
+delete
+aOpenParams
+.
+replaceQueryString
+;
 function
 switchIfURIInWindow
 (
