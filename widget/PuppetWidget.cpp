@@ -1070,6 +1070,10 @@ PuppetWidget
 configuration
 .
 mChild
+.
+get
+(
+)
 )
 ;
 NS_ASSERTION

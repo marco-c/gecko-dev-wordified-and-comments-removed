@@ -1506,6 +1506,10 @@ i
 ]
 .
 mChild
+.
+get
+(
+)
 ;
 childWin
 -
