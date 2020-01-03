@@ -98,8 +98,6 @@ algorithm
 Input
 signature
 ;
-private
-:
 void
 operator
 =
@@ -108,6 +106,8 @@ const
 SignedDataWithSignature
 &
 )
+=
+delete
 ;
 }
 ;
@@ -260,8 +260,6 @@ const
 Input
 serialNumber
 ;
-private
-:
 void
 operator
 =
@@ -270,6 +268,8 @@ const
 CertID
 &
 )
+=
+delete
 ;
 }
 ;
@@ -381,14 +381,14 @@ IssuerChecker
 (
 )
 ;
-private
-:
 IssuerChecker
 (
 const
 IssuerChecker
 &
 )
+=
+delete
 ;
 void
 operator
@@ -398,6 +398,8 @@ const
 IssuerChecker
 &
 )
+=
+delete
 ;
 }
 ;
@@ -507,14 +509,14 @@ TrustDomain
 )
 {
 }
-private
-:
 TrustDomain
 (
 const
 TrustDomain
 &
 )
+=
+delete
 ;
 void
 operator
@@ -524,6 +526,8 @@ const
 TrustDomain
 &
 )
+=
+delete
 ;
 }
 ;
