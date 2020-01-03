@@ -1269,12 +1269,6 @@ alloc
 PersistentRootedObject
 exclusiveContextGlobal
 ;
-PersistentRootedObject
-optionsElement
-;
-PersistentRootedScript
-optionsIntroductionScript
-;
 JS
 :
 :

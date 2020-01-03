@@ -906,14 +906,6 @@ exclusiveContextGlobal
 initCx
 exclusiveContextGlobal
 )
-optionsElement
-(
-initCx
-)
-optionsIntroductionScript
-(
-initCx
-)
 callback
 (
 callback
