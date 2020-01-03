@@ -433,6 +433,16 @@ string
 /
 pref_header_devtools
 "
+android
+:
+id
+=
+"
++
+id
+/
+pref_header_devtools
+"
 >
 <
 extra
