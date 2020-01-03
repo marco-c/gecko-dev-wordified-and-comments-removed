@@ -1292,6 +1292,7 @@ FrameBlender
 :
 kDisposeRestorePrevious
 )
+{
 mAnim
 -
 >
@@ -1301,6 +1302,7 @@ reset
 (
 )
 ;
+}
 }
 else
 {
@@ -1795,8 +1797,10 @@ if
 !
 aFrameData
 )
+{
 return
 ;
+}
 memset
 (
 aFrameData
@@ -2447,6 +2451,7 @@ if
 (
 color
 )
+{
 dstPixels
 [
 c
@@ -2454,6 +2459,7 @@ c
 =
 color
 ;
+}
 }
 srcPixels
 +
@@ -2541,8 +2547,9 @@ width
 4
 )
 ;
-pixman_image_composite32
-(
+auto
+op
+=
 aBlendMethod
 =
 =
@@ -2554,6 +2561,10 @@ kBlendSource
 PIXMAN_OP_SRC
 :
 PIXMAN_OP_OVER
+;
+pixman_image_composite32
+(
+op
 src
 nullptr
 dst
