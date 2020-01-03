@@ -217,6 +217,9 @@ mStreamInitialized
 bool
 mDummyStreamInitialised
 ;
+bool
+mFailUncleanStops
+;
 z_stream
 d_stream
 ;
