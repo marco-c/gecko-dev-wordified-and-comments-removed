@@ -912,13 +912,6 @@ src
 '
 '
 /
-content
-/
-media
-/
-'
-'
-/
 dom
 /
 base
@@ -928,6 +921,13 @@ base
 dom
 /
 canvas
+'
+'
+/
+dom
+/
+media
+/
 '
 '
 /
