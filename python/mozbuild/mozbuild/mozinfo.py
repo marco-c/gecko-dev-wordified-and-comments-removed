@@ -898,6 +898,29 @@ format
 p
 )
             
+if
+d
+[
+'
+asan
+'
+]
+:
+                
+p
+=
+'
+{
+}
+-
+asan
+'
+.
+format
+(
+p
+)
+            
 return
 p
         
@@ -1032,20 +1055,6 @@ pgo
 return
 '
 pgo
-'
-        
-if
-d
-[
-'
-asan
-'
-]
-:
-            
-return
-'
-asan
 '
         
 return
