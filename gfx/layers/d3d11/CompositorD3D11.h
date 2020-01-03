@@ -578,6 +578,8 @@ HRESULT
 hr
 Severity
 aSeverity
+=
+DebugAssert
 )
 ;
 bool
