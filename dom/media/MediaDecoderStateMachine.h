@@ -1705,6 +1705,9 @@ mLowAudioThresholdUsecs
 int64_t
 mAmpleAudioThresholdUsecs
 ;
+int64_t
+mQuickBufferingLowDataThresholdUsecs
+;
 uint32_t
 AudioPrerollUsecs
 (
