@@ -767,6 +767,14 @@ EnsureResolved
 return
 NS_ERROR_UNEXPECTED
 ;
+if
+(
+!
+count
+)
+return
+NS_ERROR_UNEXPECTED
+;
 *
 count
 =
