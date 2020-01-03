@@ -11861,7 +11861,7 @@ endif
 #
 ifdef
 MOZ_DEV_EDITION
-pref
+sticky_pref
 (
 "
 lightweightThemes
@@ -11878,7 +11878,7 @@ org
 "
 )
 ;
-pref
+sticky_pref
 (
 "
 browser
@@ -13437,7 +13437,7 @@ inspectorWidth
 #
 ifdef
 MOZ_DEV_EDITION
-pref
+sticky_pref
 (
 "
 devtools
@@ -13451,7 +13451,7 @@ dark
 ;
 #
 else
-pref
+sticky_pref
 (
 "
 devtools

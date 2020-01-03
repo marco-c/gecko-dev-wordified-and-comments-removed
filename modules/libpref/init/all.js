@@ -1233,18 +1233,6 @@ percent
 pref
 (
 "
-mathml
-.
-scale_stretchy_operators
-.
-enabled
-"
-true
-)
-;
-pref
-(
-"
 media
 .
 cache_size
@@ -3084,12 +3072,6 @@ XP_WIN
 defined
 (
 XP_MACOSX
-)
-|
-|
-defined
-(
-MOZ_WIDGET_GONK
 )
 pref
 (
@@ -5340,7 +5322,7 @@ true
 #
 ifdef
 MOZ_DEV_EDITION
-pref
+sticky_pref
 (
 "
 devtools
@@ -5354,7 +5336,7 @@ true
 ;
 #
 else
-pref
+sticky_pref
 (
 "
 devtools
@@ -5397,7 +5379,7 @@ false
 #
 ifdef
 MOZ_DEV_EDITION
-pref
+sticky_pref
 (
 "
 devtools
@@ -5413,7 +5395,7 @@ true
 ;
 #
 else
-pref
+sticky_pref
 (
 "
 devtools
@@ -15440,7 +15422,7 @@ plugins
 .
 contentTimeoutSecs
 "
-10
+45
 )
 ;
 pref
