@@ -5626,6 +5626,13 @@ modules
 '
             
 '
+extra_js__TARGET
+:
+=
+misc
+'
+            
+'
 INSTALL_TARGETS
 +
 =
@@ -5654,6 +5661,13 @@ FINAL_TARGET
 modules
 /
 submodule
+'
+            
+'
+extra_js_submodule_TARGET
+:
+=
+misc
 '
             
 '
@@ -5686,6 +5700,13 @@ modules
 '
             
 '
+extra_pp_js__TARGET
+:
+=
+misc
+'
+            
+'
 PP_TARGETS
 +
 =
@@ -5713,6 +5734,13 @@ FINAL_TARGET
 modules
 /
 ppsub
+'
+            
+'
+extra_pp_js_ppsub_TARGET
+:
+=
+misc
 '
             
 '
