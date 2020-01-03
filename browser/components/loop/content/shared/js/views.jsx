@@ -4926,9 +4926,9 @@ _
 window
 .
 OT
-document
+navigator
 .
-webL10n
+mozL10n
 |
 |
 document

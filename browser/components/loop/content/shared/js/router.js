@@ -28,7 +28,6 @@ router
 (
 function
 (
-l10n
 )
 {
 "
@@ -565,13 +564,5 @@ BaseConversationRouter
 }
 )
 (
-document
-.
-webL10n
-|
-|
-document
-.
-mozL10n
 )
 ;
