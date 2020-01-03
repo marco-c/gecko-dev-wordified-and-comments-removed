@@ -713,7 +713,10 @@ void
 Transform
 (
 const
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 &
 aTransform
 )

@@ -138,13 +138,6 @@ h
 #
 include
 "
-gfx2DGlue
-.
-h
-"
-#
-include
-"
 gfxPrefs
 .
 h
