@@ -9,6 +9,8 @@ bfbfbf
 %
 define
 form_border_radius
+-
+radius
 2px
 %
 define
