@@ -212,6 +212,13 @@ NO_FLAGS
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+EndFrame
+(
+)
+MOZ_OVERRIDE
+;
 }
 ;
 }
