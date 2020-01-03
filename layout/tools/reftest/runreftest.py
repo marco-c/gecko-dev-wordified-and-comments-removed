@@ -17,8 +17,6 @@ OptionParser
 import
 collections
 import
-json
-import
 multiprocessing
 import
 os
@@ -32,8 +30,6 @@ import
 subprocess
 import
 sys
-import
-tempfile
 import
 threading
 SCRIPT_DIRECTORY
@@ -101,14 +97,6 @@ import
 mozprofile
 import
 mozrunner
-from
-mozrunner
-.
-utils
-import
-findInPath
-as
-which
 here
 =
 os
