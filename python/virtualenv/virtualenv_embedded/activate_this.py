@@ -96,11 +96,15 @@ old_os_path
 os
 .
 environ
-[
+.
+get
+(
 '
 PATH
 '
-]
+'
+'
+)
 os
 .
 environ

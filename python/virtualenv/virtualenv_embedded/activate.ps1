@@ -217,6 +217,14 @@ Scripts
 env
 :
 PATH
+if
+(
+!
+env
+:
+VIRTUAL_ENV_DISABLE_PROMPT
+)
+{
 function
 global
 :
@@ -275,6 +283,7 @@ nonewline
 function
 :
 _old_virtual_prompt
+}
 }
 #
 SIG

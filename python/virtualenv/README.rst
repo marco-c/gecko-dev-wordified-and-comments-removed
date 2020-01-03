@@ -90,13 +90,13 @@ virtualenv
 For
 documentation
 see
-http
+https
 :
 /
 /
-www
-.
 virtualenv
 .
-org
+pypa
+.
+io
 /
