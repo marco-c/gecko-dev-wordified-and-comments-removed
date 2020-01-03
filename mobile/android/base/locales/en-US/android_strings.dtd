@@ -3086,7 +3086,7 @@ Close
 Localization
 note
 (
-media_casting_to
+media_sending_to
 media_play
 media_pause
 media_stop
@@ -3116,9 +3116,9 @@ UI
 <
 !
 ENTITY
-media_casting_to
+media_sending_to
 "
-Casting
+Sending
 to
 Device
 "

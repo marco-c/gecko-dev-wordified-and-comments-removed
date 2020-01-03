@@ -178,7 +178,7 @@ id
 +
 id
 /
-media_casting_to
+media_sending_to
 "
 android
 :
@@ -260,7 +260,7 @@ contentDescription
 "
 string
 /
-media_casting_to
+media_sending_to
 "
 /
 >

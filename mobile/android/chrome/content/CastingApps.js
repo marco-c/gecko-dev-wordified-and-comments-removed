@@ -352,7 +352,7 @@ GetStringFromName
 "
 contextmenu
 .
-castToScreen
+sendToDevice
 "
 )
 this
@@ -2346,7 +2346,7 @@ GetStringFromName
 "
 contextmenu
 .
-castToScreen
+sendToDevice
 "
 )
 icon
@@ -2402,7 +2402,7 @@ GetStringFromName
 "
 contextmenu
 .
-castToScreen
+sendToDevice
 "
 )
 icon
@@ -2535,7 +2535,7 @@ GetStringFromName
 "
 casting
 .
-prompt
+sendToDevice
 "
 )
 }
