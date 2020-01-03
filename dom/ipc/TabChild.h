@@ -2514,6 +2514,9 @@ CachedFileDescriptorInfo
 class
 CachedFileDescriptorCallbackRunnable
 ;
+class
+DelayedDeleteRunnable
+;
 TextureFactoryIdentifier
 mTextureFactoryIdentifier
 ;
