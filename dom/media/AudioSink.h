@@ -33,6 +33,15 @@ AudioChannelBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Atomics
+.
+h
+"
 namespace
 mozilla
 {
@@ -244,7 +253,10 @@ const
 int64_t
 mStartTime
 ;
+Atomic
+<
 int64_t
+>
 mWritten
 ;
 int64_t

@@ -823,7 +823,13 @@ mInfo
 mRate
 )
 +
+static_cast
+<
+int64_t
+>
+(
 mWritten
+)
 ;
 CheckedInt64
 missingFrames
