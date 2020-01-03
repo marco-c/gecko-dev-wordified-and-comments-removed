@@ -1204,6 +1204,11 @@ mitigations
 sandbox
 :
 :
+MITIGATION_BOTTOM_UP_ASLR
+|
+sandbox
+:
+:
 MITIGATION_HEAP_TERMINATE
 |
 sandbox
