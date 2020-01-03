@@ -514,6 +514,10 @@ onreset
 ;
 attribute
 EventHandler
+onresize
+;
+attribute
+EventHandler
 onscroll
 ;
 attribute
@@ -794,10 +798,6 @@ onpageshow
 attribute
 EventHandler
 onpopstate
-;
-attribute
-EventHandler
-onresize
 ;
 /
 /
