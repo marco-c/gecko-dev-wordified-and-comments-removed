@@ -249,6 +249,11 @@ LLVMCONFIG
 ldflags
 -
 -
+system
+-
+libs
+-
+-
 libs
 core
 mc
@@ -256,6 +261,7 @@ analysis
 asmparser
 mcparser
 bitreader
+option
 |
 xargs
 if
