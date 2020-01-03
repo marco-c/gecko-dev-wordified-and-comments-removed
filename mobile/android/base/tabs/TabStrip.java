@@ -81,6 +81,17 @@ mozilla
 .
 gecko
 .
+BrowserApp
+.
+Refreshable
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 R
 ;
 import
@@ -128,6 +139,8 @@ class
 TabStrip
 extends
 ThemedLinearLayout
+implements
+Refreshable
 {
 private
 static
@@ -569,6 +582,7 @@ break
 }
 }
 }
+Override
 public
 void
 refresh
