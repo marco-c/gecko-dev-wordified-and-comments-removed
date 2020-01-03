@@ -12,8 +12,6 @@ if
 !
 shouldRunServiceTest
 (
-false
-true
 )
 )
 {
