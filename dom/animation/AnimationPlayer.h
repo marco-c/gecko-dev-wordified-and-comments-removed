@@ -482,7 +482,7 @@ Tick
 )
 ;
 void
-StartOnNextTick
+TriggerOnNextTick
 (
 const
 Nullable
@@ -494,7 +494,7 @@ aReadyTime
 )
 ;
 void
-StartNow
+TriggerNow
 (
 )
 ;

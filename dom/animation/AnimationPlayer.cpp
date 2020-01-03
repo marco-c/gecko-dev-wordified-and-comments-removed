@@ -1231,7 +1231,7 @@ void
 AnimationPlayer
 :
 :
-StartOnNextTick
+TriggerOnNextTick
 (
 const
 Nullable
@@ -1267,7 +1267,7 @@ void
 AnimationPlayer
 :
 :
-StartNow
+TriggerNow
 (
 )
 {
@@ -1891,7 +1891,7 @@ if
 doc
 )
 {
-StartOnNextTick
+TriggerOnNextTick
 (
 Nullable
 <
