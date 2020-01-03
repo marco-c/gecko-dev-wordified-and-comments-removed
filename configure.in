@@ -4217,7 +4217,11 @@ utility
 .
 MSMT_TOOL
 =
+{
+MT
+-
 mt
+}
 2
 >
 &
