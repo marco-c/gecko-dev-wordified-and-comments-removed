@@ -765,10 +765,12 @@ mTexture
 {
 KeepUntilFullDeallocation
 (
-new
+MakeUnique
+<
 TKeepAlive
 <
 ID3D10Texture2D
+>
 >
 (
 mTexture10
@@ -784,10 +786,12 @@ mTexture10
 {
 KeepUntilFullDeallocation
 (
-new
+MakeUnique
+<
 TKeepAlive
 <
 ID3D11Texture2D
+>
 >
 (
 mTexture

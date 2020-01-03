@@ -428,10 +428,6 @@ mTextureClient
 (
 nullptr
 )
-mKeep
-(
-nullptr
-)
 mIPCOpen
 (
 false
@@ -612,8 +608,10 @@ TextureClient
 *
 mTextureClient
 ;
+UniquePtr
+<
 KeepAlive
-*
+>
 mKeep
 ;
 bool
@@ -664,8 +662,9 @@ mWaitForRecycle
 =
 nullptr
 ;
-delete
 mKeep
+=
+nullptr
 ;
 }
 PTextureChild
@@ -2260,8 +2259,10 @@ TextureClient
 :
 KeepUntilFullDeallocation
 (
+UniquePtr
+<
 KeepAlive
-*
+>
 aKeep
 )
 {
@@ -2284,7 +2285,10 @@ mActor
 >
 mKeep
 =
+Move
+(
 aKeep
+)
 ;
 }
 void

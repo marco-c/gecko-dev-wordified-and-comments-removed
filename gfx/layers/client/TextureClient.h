@@ -1024,8 +1024,10 @@ mAddedToCompositableClient
 void
 KeepUntilFullDeallocation
 (
+UniquePtr
+<
 KeepAlive
-*
+>
 aKeep
 )
 ;

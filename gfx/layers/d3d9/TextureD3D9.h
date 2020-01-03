@@ -1013,6 +1013,11 @@ mDesc
 =
 aDesc
 ;
+if
+(
+mTexture
+)
+{
 gfxWindowsPlatform
 :
 :
@@ -1029,6 +1034,7 @@ Height
 *
 4
 ;
+}
 }
 virtual
 gfx
