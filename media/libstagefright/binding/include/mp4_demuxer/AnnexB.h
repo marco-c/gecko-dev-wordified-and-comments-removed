@@ -7,9 +7,9 @@ MP4_DEMUXER_ANNEX_B_H_
 #
 include
 "
-mozilla
+mp4_demuxer
 /
-Vector
+DecoderData
 .
 h
 "
@@ -20,14 +20,6 @@ T
 >
 struct
 already_AddRefed
-;
-template
-<
-class
-T
->
-class
-nsRcTArray
 ;
 namespace
 mp4_demuxer
