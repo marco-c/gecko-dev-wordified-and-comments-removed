@@ -5542,6 +5542,13 @@ type
 }
 if
 (
+mFrameMetrics
+.
+GetIsRoot
+(
+)
+&
+&
 gfxPrefs
 :
 :
