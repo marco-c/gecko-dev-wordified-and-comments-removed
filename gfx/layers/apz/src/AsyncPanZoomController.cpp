@@ -13166,6 +13166,10 @@ Lock
 frame
 =
 mFrameMetrics
+.
+MakePODObject
+(
+)
 ;
 mSharedLock
 -
