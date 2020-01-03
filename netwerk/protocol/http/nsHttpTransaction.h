@@ -421,12 +421,7 @@ nsILoadGroupConnectionInfo
 *
 aLoadGroupCI
 )
-{
-mLoadGroupCI
-=
-aLoadGroupCI
 ;
-}
 void
 DispatchedAsBlocking
 (
