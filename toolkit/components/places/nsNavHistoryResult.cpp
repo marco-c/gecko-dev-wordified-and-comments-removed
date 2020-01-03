@@ -11840,10 +11840,6 @@ const
 nsACString
 &
 aParentGUID
-const
-nsACString
-&
-aOldValue
 )
 {
 if
@@ -12035,7 +12031,6 @@ aItemType
 aParentId
 aGUID
 aParentGUID
-aOldValue
 )
 ;
 }
@@ -14556,10 +14551,6 @@ const
 nsACString
 &
 aParentGUID
-const
-nsACString
-&
-aOldValue
 )
 {
 if
@@ -14982,10 +14973,6 @@ const
 nsACString
 &
 aParentGUID
-const
-nsACString
-&
-aOldValue
 )
 {
 RESTART_AND_RETURN_IF_ASYNC_PENDING
@@ -15007,7 +14994,6 @@ aItemType
 aParentId
 aGUID
 aParentGUID
-aOldValue
 )
 ;
 }
@@ -17834,10 +17820,6 @@ const
 nsACString
 &
 aParentGUID
-const
-nsACString
-&
-aOldValue
 )
 {
 ENUMERATE_ALL_BOOKMARKS_OBSERVERS
@@ -17853,7 +17835,6 @@ aItemType
 aParentId
 aGUID
 aParentGUID
-aOldValue
 )
 )
 ;
@@ -18012,7 +17993,6 @@ aItemType
 aParentId
 aGUID
 aParentGUID
-aOldValue
 )
 ;
 }

@@ -170,9 +170,6 @@ isAnnotation
 nsCString
 newValue
 ;
-nsCString
-oldValue
-;
 }
 ;
 typedef
