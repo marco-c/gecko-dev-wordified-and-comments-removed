@@ -5602,6 +5602,15 @@ widget
 =
 widget
 ;
+localEvent
+.
+refPoint
+-
+=
+GetChildProcessOffset
+(
+)
+;
 widget
 -
 >
