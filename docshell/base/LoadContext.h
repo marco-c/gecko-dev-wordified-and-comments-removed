@@ -315,6 +315,13 @@ true
 endif
 {
 }
+LoadContext
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 private
 :
 ~
