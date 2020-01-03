@@ -970,9 +970,9 @@ BACK
 }
 waitForText
 (
-"
-Privacy
-"
+StringHelper
+.
+PRIVACY_SECTION_LABEL
 )
 ;
 mActions

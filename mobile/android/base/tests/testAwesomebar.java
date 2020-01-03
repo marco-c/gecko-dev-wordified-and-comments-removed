@@ -28,14 +28,9 @@ url
 =
 getAbsoluteUrl
 (
-"
-/
-robocop
-/
-robocop_blank_01
+StringHelper
 .
-html
-"
+ROBOCOP_BLANK_PAGE_01_URL
 )
 ;
 inputAndLoadUrl

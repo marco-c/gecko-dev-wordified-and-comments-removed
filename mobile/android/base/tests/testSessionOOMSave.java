@@ -83,11 +83,9 @@ home
 new
 PageInfo
 (
-"
-about
-:
-home
-"
+StringHelper
+.
+ABOUT_HOME_URL
 )
 ;
 PageInfo
