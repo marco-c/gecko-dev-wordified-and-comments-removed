@@ -326,6 +326,7 @@ getPropertyValue
 width
 "
 )
+;
 style
 .
 height

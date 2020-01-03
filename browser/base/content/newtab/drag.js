@@ -627,7 +627,9 @@ getElementById
 "
 newtab
 -
-scrollbox
+vertical
+-
+margin
 "
 )
 ;
