@@ -8695,7 +8695,7 @@ if
 mTextInputHandler
 -
 >
-IsOrWouldBeFocused
+IsFocused
 (
 )
 )
