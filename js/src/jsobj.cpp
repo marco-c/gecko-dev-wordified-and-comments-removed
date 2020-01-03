@@ -10151,7 +10151,6 @@ JS
 :
 NullHandleValue
 proto
-nullptr
 options
 )
 ;
