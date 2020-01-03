@@ -601,6 +601,7 @@ children
 let
 docwalker
 =
+new
 _documentWalker
 (
 node
