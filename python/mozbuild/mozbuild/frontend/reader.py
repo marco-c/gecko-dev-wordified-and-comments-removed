@@ -1136,6 +1136,23 @@ subcontext_types
 raise
 KeyError
 (
+'
+Cannot
+set
+"
+%
+s
+"
+because
+it
+is
+a
+reserved
+keyword
+'
+                           
+%
+key
 )
         
 if
