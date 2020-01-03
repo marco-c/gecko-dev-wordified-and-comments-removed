@@ -1473,11 +1473,9 @@ on
 (
 this
 .
-_callWatcher
-.
-_contentObserver
+tabActor
 "
-global
+window
 -
 destroyed
 "
@@ -1769,11 +1767,9 @@ off
 (
 this
 .
-_callWatcher
-.
-_contentObserver
+tabActor
 "
-global
+window
 -
 destroyed
 "
@@ -2484,7 +2480,9 @@ _onGlobalDestroyed
 :
 function
 (
+{
 id
+}
 )
 {
 if
