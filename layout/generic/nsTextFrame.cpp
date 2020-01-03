@@ -17375,11 +17375,9 @@ mJustificationSpacing
 mFrame
 -
 >
-GetSize
+ISize
 (
 )
-.
-width
 -
 naturalWidth
 ;
