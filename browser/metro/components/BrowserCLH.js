@@ -1107,14 +1107,12 @@ searchParam
 .
 replace
 (
-"
+/
 \
 "
-"
-"
-"
-"
+/
 g
+"
 "
 )
 )
