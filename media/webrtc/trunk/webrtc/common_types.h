@@ -1498,6 +1498,10 @@ short
 height
 ;
 unsigned
+char
+resolution_divisor
+;
+unsigned
 int
 startBitrate
 ;
