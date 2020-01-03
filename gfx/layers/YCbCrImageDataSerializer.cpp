@@ -84,6 +84,13 @@ yuv_convert
 h
 "
 #
+include
+"
+nsDebug
+.
+h
+"
+#
 define
 MOZ_ALIGN_WORD
 (
