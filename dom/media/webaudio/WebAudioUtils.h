@@ -417,10 +417,13 @@ type
 ;
 if
 (
+mozilla
+:
+:
+IsNaN
+(
 f
-!
-=
-f
+)
 )
 {
 NS_RUNTIMEABORT
