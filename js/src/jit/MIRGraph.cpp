@@ -106,6 +106,9 @@ optimizationInfo
 Label
 *
 outOfBoundsLabel
+Label
+*
+conversionErrorLabel
 bool
 usesSignalHandlersForAsmJSOOB
 )
@@ -195,6 +198,10 @@ alloc
 outOfBoundsLabel_
 (
 outOfBoundsLabel
+)
+conversionErrorLabel_
+(
+conversionErrorLabel
 )
 #
 if
