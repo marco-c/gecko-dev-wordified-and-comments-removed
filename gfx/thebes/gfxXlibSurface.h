@@ -383,6 +383,13 @@ GetGLXPixmap
 (
 )
 ;
+void
+BindGLXPixmap
+(
+GLXPixmap
+aPixmap
+)
+;
 #
 endif
 bool
