@@ -11735,12 +11735,9 @@ originAttributesSuffix
 ;
 if
 (
-NS_WARN_IF
-(
 NS_FAILED
 (
 rv
-)
 )
 )
 {
@@ -11983,8 +11980,6 @@ aPrincipal
 ;
 if
 (
-NS_WARN_IF
-(
 !
 BasePrincipal
 :
@@ -11997,7 +11992,6 @@ aPrincipal
 >
 IsCodebasePrincipal
 (
-)
 )
 )
 {
