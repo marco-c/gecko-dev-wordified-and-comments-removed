@@ -164,7 +164,7 @@ why
 .
 type
 "
-breakpoint
+debuggerStatement
 "
 )
 ;
@@ -177,7 +177,7 @@ frame
 where
 .
 line
-3
+4
 )
 ;
 bpClient
@@ -254,6 +254,11 @@ b
 ;
 \
 n
+"
++
+"
+debugger
+;
 "
 gDebuggee
 "
