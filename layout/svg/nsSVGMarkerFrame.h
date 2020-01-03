@@ -63,7 +63,7 @@ nsSVGUtils
 h
 "
 class
-nsRenderingContext
+gfxContext
 ;
 class
 nsSVGPathGeometryFrame
@@ -290,8 +290,8 @@ GetContentInsertionFrame
 nsresult
 PaintMark
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix

@@ -1446,9 +1446,6 @@ DoTextPathLayout
 bool
 ShouldRenderAsPath
 (
-nsRenderingContext
-*
-aContext
 nsTextFrame
 *
 aFrame

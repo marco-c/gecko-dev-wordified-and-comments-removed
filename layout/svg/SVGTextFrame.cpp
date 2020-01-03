@@ -11382,8 +11382,6 @@ if
 (
 ShouldRenderAsPath
 (
-&
-rendCtx
 frame
 paintSVGGlyphs
 )
@@ -18508,9 +18506,6 @@ SVGTextFrame
 :
 ShouldRenderAsPath
 (
-nsRenderingContext
-*
-aContext
 nsTextFrame
 *
 aFrame

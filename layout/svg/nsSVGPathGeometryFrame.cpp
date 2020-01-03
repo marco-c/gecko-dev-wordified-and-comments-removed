@@ -3849,13 +3849,6 @@ if
 num
 )
 {
-nsRenderingContext
-rendCtx
-(
-&
-aContext
-)
-;
 nsSVGMarkerFrame
 *
 markerFrames
@@ -3940,8 +3933,7 @@ frame
 >
 PaintMark
 (
-&
-rendCtx
+aContext
 aTransform
 this
 &
