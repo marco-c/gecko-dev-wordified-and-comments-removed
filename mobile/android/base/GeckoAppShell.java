@@ -9537,7 +9537,7 @@ Math
 .
 max
 (
-0
+1
 f
 .
 length
