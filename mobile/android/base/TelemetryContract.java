@@ -373,12 +373,6 @@ NONE
 (
 null
 )
-NOTIFICATION
-(
-"
-notification
-"
-)
 PAGEACTION
 (
 "
