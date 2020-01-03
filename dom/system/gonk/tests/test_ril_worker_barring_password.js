@@ -232,14 +232,6 @@ newPin
 NEW_PIN
 )
 ;
-equal
-(
-message
-.
-errorMsg
-GECKO_ERROR_SUCCESS
-)
-;
 }
 }
 )

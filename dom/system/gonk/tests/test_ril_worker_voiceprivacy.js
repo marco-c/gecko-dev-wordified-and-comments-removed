@@ -182,6 +182,9 @@ REQUEST_CDMA_SET_PREFERRED_VOICE_PRIVACY_MODE
 rilRequestError
 :
 ERROR_GENERIC_FAILURE
+errorMsg
+:
+GECKO_ERROR_GENERIC_FAILURE
 }
 )
 ;
@@ -212,9 +215,7 @@ equal
 postedMessage
 .
 errorMsg
-"
-GenericFailure
-"
+GECKO_ERROR_GENERIC_FAILURE
 )
 ;
 run_next_test

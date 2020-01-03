@@ -214,6 +214,9 @@ setCLIR
 rilRequestError
 :
 ERROR_GENERIC_FAILURE
+errorMsg
+:
+GECKO_ERROR_GENERIC_FAILURE
 }
 )
 ;
@@ -244,9 +247,7 @@ equal
 postedMessage
 .
 errorMsg
-"
-GenericFailure
-"
+GECKO_ERROR_GENERIC_FAILURE
 )
 ;
 ok
