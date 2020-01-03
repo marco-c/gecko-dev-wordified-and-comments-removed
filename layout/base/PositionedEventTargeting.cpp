@@ -2799,6 +2799,15 @@ n
 target
 )
 ;
+clickableAncestor
+=
+target
+-
+>
+GetContent
+(
+)
+;
 }
 }
 if
