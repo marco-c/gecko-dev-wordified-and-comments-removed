@@ -64,7 +64,6 @@ AllocationIntegrityState
 explicit
 AllocationIntegrityState
 (
-const
 LIRGraph
 &
 graph
@@ -90,7 +89,6 @@ populateSafepoints
 ;
 private
 :
-const
 LIRGraph
 &
 graph
