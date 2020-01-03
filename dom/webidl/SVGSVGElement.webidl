@@ -230,6 +230,9 @@ attribute
 SVGViewSpec
 currentView
 ;
+[
+UseCounter
+]
 attribute
 float
 currentScale
@@ -440,6 +443,9 @@ SVGMatrix
 matrix
 )
 ;
+[
+UseCounter
+]
 Element
 ?
 getElementById
