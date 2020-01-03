@@ -2655,6 +2655,14 @@ AsAudioBufferSourceNode
 if
 (
 node
+&
+&
+node
+-
+>
+Stream
+(
+)
 )
 {
 aSources
