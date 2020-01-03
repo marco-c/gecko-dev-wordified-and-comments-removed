@@ -350,6 +350,11 @@ malloc_table_t
 "
 :
 true
+"
+malloc_hook_table_t
+"
+:
+true
 }
 ;
 var
