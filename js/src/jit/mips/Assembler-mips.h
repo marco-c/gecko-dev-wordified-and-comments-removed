@@ -1247,7 +1247,7 @@ false
 static
 const
 uint32_t
-SimdStackAlignment
+SimdMemoryAlignment
 =
 8
 ;
@@ -1256,7 +1256,7 @@ const
 uint32_t
 AsmJSStackAlignment
 =
-SimdStackAlignment
+SimdMemoryAlignment
 ;
 static
 const

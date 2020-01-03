@@ -3140,7 +3140,7 @@ index
 (
 )
 %
-SimdStackAlignment
+SimdMemoryAlignment
 =
 =
 0
@@ -3161,7 +3161,7 @@ slot
 (
 )
 %
-SimdStackAlignment
+SimdMemoryAlignment
 =
 =
 0
@@ -3201,7 +3201,7 @@ index
 (
 )
 %
-SimdStackAlignment
+SimdMemoryAlignment
 =
 =
 0
@@ -3222,7 +3222,7 @@ slot
 (
 )
 %
-SimdStackAlignment
+SimdMemoryAlignment
 =
 =
 0

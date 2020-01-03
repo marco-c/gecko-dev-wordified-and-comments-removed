@@ -1577,7 +1577,7 @@ masm
 bytesNeeded
 (
 )
-SimdStackAlignment
+SimdMemoryAlignment
 )
 ;
 pod

@@ -119,7 +119,7 @@ stackOffset_
 AlignBytes
 (
 stackOffset_
-SimdStackAlignment
+SimdMemoryAlignment
 )
 ;
 current_
