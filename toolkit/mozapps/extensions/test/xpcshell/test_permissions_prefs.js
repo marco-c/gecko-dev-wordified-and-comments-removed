@@ -162,6 +162,10 @@ add
 TEST
 "
 "
+http
+:
+/
+/
 whitelist
 .
 example
@@ -205,6 +209,10 @@ add
 TEST
 "
 "
+http
+:
+/
+/
 blacklist
 .
 example
@@ -320,6 +328,10 @@ add
 TEST2
 "
 "
+https
+:
+/
+/
 whitelist2
 .
 example
@@ -372,6 +384,10 @@ add
 TEST3
 "
 "
+https
+:
+/
+/
 whitelist3
 .
 example
@@ -423,6 +439,10 @@ add
 TEST4
 "
 "
+https
+:
+/
+/
 whitelist4
 .
 example
@@ -469,6 +489,10 @@ TEST4
 "
 )
 "
+https
+:
+/
+/
 whitelist4
 .
 example
