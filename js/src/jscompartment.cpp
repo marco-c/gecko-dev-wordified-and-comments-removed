@@ -855,7 +855,7 @@ key
 .
 debugger
 )
-Mark
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -941,7 +941,7 @@ getTraceKind
 JSTRACE_OBJECT
 )
 ;
-Mark
+TraceManuallyBarrieredEdge
 (
 trc
 reinterpret_cast
