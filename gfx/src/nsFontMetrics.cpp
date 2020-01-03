@@ -172,6 +172,7 @@ ComputeFlags
 (
 aMetrics
 )
+nullptr
 )
 ;
 }
@@ -221,6 +222,7 @@ ComputeFlags
 (
 aMetrics
 )
+nullptr
 )
 ;
 }

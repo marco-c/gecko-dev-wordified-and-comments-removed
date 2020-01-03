@@ -41362,6 +41362,13 @@ UpdatePositionIfNeeded
 )
 ;
 }
+mPresContext
+-
+>
+NotifyMissingFonts
+(
+)
+;
 if
 (
 !

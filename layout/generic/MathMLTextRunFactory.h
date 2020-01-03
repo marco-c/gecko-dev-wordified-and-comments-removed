@@ -60,6 +60,9 @@ aTextRun
 gfxContext
 *
 aRefContext
+gfxMissingFontRecorder
+*
+aMFR
 )
 MOZ_OVERRIDE
 ;
