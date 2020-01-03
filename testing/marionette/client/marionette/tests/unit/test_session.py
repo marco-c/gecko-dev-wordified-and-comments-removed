@@ -107,16 +107,6 @@ self
 assertIn
 (
 "
-handlesAlerts
-"
-caps
-)
-        
-self
-.
-assertIn
-(
-"
 rotatable
 "
 caps
