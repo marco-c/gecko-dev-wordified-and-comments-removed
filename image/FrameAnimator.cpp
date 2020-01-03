@@ -922,7 +922,10 @@ mCompositingFrame
 DrawableRef
 (
 )
-true
+MatchType
+:
+:
+EXACT
 )
 ;
 }
