@@ -280,6 +280,11 @@ win_wlanLibrary
 .
 cpp
 '
+'
+win_xp_wifiScanner
+.
+cpp
+'
 ]
 elif
 CONFIG
