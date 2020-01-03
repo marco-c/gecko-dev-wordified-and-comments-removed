@@ -299,6 +299,15 @@ return
 mResponseTimeoutEnabled
 ;
 }
+uint32_t
+NetworkChangedTimeout
+(
+)
+{
+return
+mNetworkChangedTimeout
+;
+}
 uint16_t
 MaxRequestAttempts
 (
@@ -1303,6 +1312,9 @@ mResponseTimeout
 ;
 bool
 mResponseTimeoutEnabled
+;
+uint32_t
+mNetworkChangedTimeout
 ;
 uint16_t
 mMaxRequestAttempts
