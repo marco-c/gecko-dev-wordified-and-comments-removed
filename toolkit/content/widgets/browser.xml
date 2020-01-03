@@ -1842,7 +1842,9 @@ docShell
 .
 QueryInterface
 (
-Ci
+Components
+.
+interfaces
 .
 nsIWebNavigation
 )
