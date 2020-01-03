@@ -636,6 +636,8 @@ object
 Command
 (
 '
+taskcluster
+-
 trygraph
 '
 category
@@ -1460,7 +1462,7 @@ object
 Command
 (
 '
-ci
+taskcluster
 -
 build
 '
@@ -1745,7 +1747,7 @@ object
 Command
 (
 '
-ci
+taskcluster
 -
 test
 '
@@ -2155,7 +2157,7 @@ object
 Command
 (
 '
-ci
+taskcluster
 -
 docker
 -
