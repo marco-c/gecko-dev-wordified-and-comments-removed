@@ -339,11 +339,6 @@ mUserFontSet
 ;
 }
 void
-DestroyUserFontSet
-(
-)
-;
-void
 RemoveLoader
 (
 nsFontFaceLoader
