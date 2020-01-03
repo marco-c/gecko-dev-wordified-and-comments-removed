@@ -79,7 +79,7 @@ dom
 bluetooth
 :
 :
-TYPE_INVALID
+NUM_TYPE
 >
 {
 }
@@ -134,7 +134,7 @@ dom
 bluetooth
 :
 :
-SSP_VARIANT_PASSKEY_NOTIFICATION
+NUM_SSP_VARIANT
 >
 {
 }
@@ -189,7 +189,7 @@ dom
 bluetooth
 :
 :
-STATUS_RMT_DEV_DOWN
+NUM_STATUS
 >
 {
 }
