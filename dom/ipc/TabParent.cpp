@@ -11353,6 +11353,7 @@ manager
 ReceiveMessage
 (
 mFrameElement
+frameLoader
 aMessage
 aSync
 aCloneData

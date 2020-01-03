@@ -713,6 +713,14 @@ bindings
 )
 ;
 }
+already_AddRefed
+<
+nsIFrameLoader
+>
+GetFrameLoader
+(
+)
+;
 protected
 :
 virtual
@@ -754,6 +762,12 @@ mIsBrowserOrAppFrame
 ;
 bool
 mPreventEventsEscaping
+;
+nsCOMPtr
+<
+nsIFrameLoader
+>
+mFrameLoader
 ;
 public
 :
