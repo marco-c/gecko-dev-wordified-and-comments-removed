@@ -1,3 +1,10 @@
+body
+{
+background
+:
+none
+;
+}
 .
 panel
 {
@@ -55,13 +62,6 @@ bottom
 solid
 #
 ccc
-;
-background
--
-color
-:
-#
-fbfbfb
 ;
 color
 :
