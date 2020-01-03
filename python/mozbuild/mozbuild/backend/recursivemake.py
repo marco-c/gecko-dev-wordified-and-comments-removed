@@ -272,6 +272,10 @@ NO_DIST_INSTALL
 '
     
 '
+NO_EXPAND_LIBS
+'
+    
+'
 NO_JS_MANIFEST
 '
     
@@ -8843,6 +8847,26 @@ n
 libdef
 .
 import_name
+)
+        
+if
+libdef
+.
+no_expand_lib
+:
+            
+backend_file
+.
+write
+(
+'
+NO_EXPAND_LIBS
+:
+=
+1
+\
+n
+'
 )
     
 def

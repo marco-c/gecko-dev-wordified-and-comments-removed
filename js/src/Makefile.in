@@ -136,9 +136,6 @@ MAKE
 DIST_INSTALL
 =
 1
-NO_EXPAND_LIBS
-=
-1
 ifdef
 JS_HAS_CTYPES
 ifdef

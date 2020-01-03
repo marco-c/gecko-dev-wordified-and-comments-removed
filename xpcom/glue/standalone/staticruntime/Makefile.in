@@ -56,14 +56,3 @@ MPL
 DIST_INSTALL
 =
 1
-#
-Force
-to
-build
-a
-static
-library
-only
-NO_EXPAND_LIBS
-=
-1
