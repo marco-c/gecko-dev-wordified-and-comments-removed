@@ -3670,7 +3670,7 @@ mDocument
 if
 (
 langID
-!
+=
 =
 nsIProgrammingLanguage
 :
@@ -3678,6 +3678,10 @@ nsIProgrammingLanguage
 UNKNOWN
 )
 {
+return
+NS_OK
+;
+}
 nsCOMPtr
 <
 nsIScriptGlobalObject
@@ -3898,7 +3902,6 @@ mState
 =
 eInScript
 ;
-}
 return
 NS_OK
 ;
