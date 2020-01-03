@@ -493,6 +493,9 @@ pluginDumpID
 Attributes
 *
 /
+[
+Constant
+]
 readonly
 attribute
 DOMString
@@ -522,11 +525,6 @@ readonly
 attribute
 PCImplSignalingState
 signalingState
-;
-readonly
-attribute
-PCImplSipccState
-sipccState
 ;
 attribute
 DOMString

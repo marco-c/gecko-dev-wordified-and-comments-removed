@@ -287,6 +287,15 @@ out_pairs
 const
 ;
 nsresult
+GetDefaultCandidate
+(
+NrIceCandidate
+*
+candidate
+)
+const
+;
+nsresult
 ParseAttributes
 (
 std
@@ -337,7 +346,7 @@ NrIceCandidate
 remote
 )
 ;
-int
+size_t
 components
 (
 )
@@ -473,7 +482,7 @@ std
 string
 &
 name
-int
+size_t
 components
 )
 :
@@ -528,7 +537,7 @@ string
 name_
 ;
 const
-int
+size_t
 components_
 ;
 nr_ice_media_stream
