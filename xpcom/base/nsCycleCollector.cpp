@@ -15120,11 +15120,7 @@ isShutdown
 )
 )
 {
-nsRefPtr
-<
-nsCycleCollectorLogger
->
-logger
+mLogger
 =
 new
 nsCycleCollectorLogger
@@ -15141,7 +15137,7 @@ isShutdown
 )
 )
 {
-logger
+mLogger
 -
 >
 SetAllTraces
@@ -15149,14 +15145,6 @@ SetAllTraces
 )
 ;
 }
-mLogger
-=
-logger
-.
-forget
-(
-)
-;
 }
 bool
 forceGC
