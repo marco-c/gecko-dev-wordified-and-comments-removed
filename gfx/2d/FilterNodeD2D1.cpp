@@ -4014,6 +4014,10 @@ FAILED
 (
 hr
 )
+|
+|
+!
+mEffect
 )
 {
 gfxWarning
@@ -4062,6 +4066,10 @@ FAILED
 (
 hr
 )
+|
+|
+!
+mExtendInputEffect
 )
 {
 gfxWarning
@@ -4101,6 +4109,10 @@ FAILED
 (
 hr
 )
+|
+|
+!
+mBorderEffect
 )
 {
 gfxWarning
@@ -4690,6 +4702,10 @@ FAILED
 (
 hr
 )
+|
+|
+!
+mExtendInputEffect
 )
 {
 gfxWarning
@@ -4786,6 +4802,10 @@ FAILED
 (
 hr
 )
+|
+|
+!
+mPrePremultiplyEffect
 )
 {
 gfxWarning
@@ -4825,6 +4845,10 @@ FAILED
 (
 hr
 )
+|
+|
+!
+mPostUnpremultiplyEffect
 )
 {
 gfxWarning
