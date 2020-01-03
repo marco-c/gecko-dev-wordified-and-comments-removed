@@ -58,6 +58,15 @@ test_gbk
 js
 unit
 /
+test_hz
+-
+gb
+-
+2312
+.
+js
+unit
+/
 test_iso
 -
 2022
