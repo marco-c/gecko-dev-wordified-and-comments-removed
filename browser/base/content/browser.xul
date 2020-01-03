@@ -6335,8 +6335,6 @@ home
 button
 loop
 -
-call
--
 button
 "
 #
@@ -6362,8 +6360,6 @@ home
 -
 button
 loop
--
-call
 -
 button
 "

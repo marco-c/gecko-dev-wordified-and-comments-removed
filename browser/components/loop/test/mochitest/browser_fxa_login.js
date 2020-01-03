@@ -129,8 +129,6 @@ getElementById
 "
 loop
 -
-call
--
 button
 "
 )
@@ -2027,8 +2025,6 @@ getElementById
 (
 "
 loop
--
-call
 -
 button
 "

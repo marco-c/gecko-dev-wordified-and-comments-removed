@@ -673,8 +673,6 @@ query
 #
 loop
 -
-call
--
 button
 "
 }
