@@ -14,13 +14,6 @@ h
 #
 include
 "
-AndroidJavaWrappers
-.
-h
-"
-#
-include
-"
 AndroidSurfaceTexture
 .
 h
@@ -28,7 +21,7 @@ h
 #
 include
 "
-GeneratedSDKWrappers
+MediaCodec
 .
 h
 "
@@ -69,6 +62,9 @@ widget
 namespace
 android
 {
+namespace
+sdk
+{
 class
 MediaCodec
 ;
@@ -78,6 +74,7 @@ MediaFormat
 class
 ByteBuffer
 ;
+}
 }
 }
 class
@@ -208,6 +205,9 @@ widget
 android
 :
 :
+sdk
+:
+:
 MediaFormat
 *
 aFormat
@@ -291,6 +291,9 @@ widget
 android
 :
 :
+sdk
+:
+:
 MediaFormat
 >
 mFormat
@@ -308,6 +311,9 @@ widget
 :
 :
 android
+:
+:
+sdk
 :
 :
 MediaCodec
@@ -370,6 +376,9 @@ widget
 android
 :
 :
+sdk
+:
+:
 BufferInfo
 *
 aInfo
@@ -383,6 +392,9 @@ widget
 :
 :
 android
+:
+:
+sdk
 :
 :
 MediaFormat
@@ -409,6 +421,9 @@ widget
 android
 :
 :
+sdk
+:
+:
 BufferInfo
 *
 aInfo
@@ -419,6 +434,9 @@ widget
 :
 :
 android
+:
+:
+sdk
 :
 :
 MediaFormat
@@ -432,12 +450,12 @@ return
 NS_OK
 ;
 }
-void
+nsresult
 ResetInputBuffers
 (
 )
 ;
-void
+nsresult
 ResetOutputBuffers
 (
 )
