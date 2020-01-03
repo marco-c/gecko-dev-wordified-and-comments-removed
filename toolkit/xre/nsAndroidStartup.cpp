@@ -123,8 +123,9 @@ AutoAttachJavaThread
 {
 mozilla_AndroidBridge_SetMainThread
 (
--
-1
+pthread_t
+(
+)
 )
 ;
 attached
