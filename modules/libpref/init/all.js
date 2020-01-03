@@ -4123,6 +4123,13 @@ if
 !
 defined
 (
+MOZ_WIDGET_GONK
+)
+&
+&
+!
+defined
+(
 MOZ_WIDGET_ANDROID
 )
 pref
