@@ -13051,6 +13051,8 @@ aLoadingPrincipal
 int16_t
 *
 aImageBlockingStatus
+uint32_t
+aContentType
 )
 {
 NS_PRECONDITION
@@ -13240,10 +13242,7 @@ rv
 =
 NS_CheckContentLoadPolicy
 (
-nsIContentPolicy
-:
-:
-TYPE_IMAGE
+aContentType
 aURI
 aLoadingPrincipal
 aContext
@@ -13629,6 +13628,8 @@ imgRequestProxy
 *
 *
 aRequest
+uint32_t
+aContentPolicyType
 )
 {
 NS_PRECONDITION
