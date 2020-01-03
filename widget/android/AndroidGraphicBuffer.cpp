@@ -47,6 +47,13 @@ h
 #
 include
 "
+GLTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences
@@ -114,13 +121,6 @@ EGL_FALSE
 define
 EGL_NONE
 0x3038
-#
-define
-EGL_NO_CONTEXT
-(
-EGLContext
-)
-0
 #
 define
 EGL_DEFAULT_DISPLAY
