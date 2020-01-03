@@ -4386,6 +4386,12 @@ script
 cx
 )
 ;
+RootedValue
+unused
+(
+cx
+)
+;
 if
 (
 (
@@ -4420,6 +4426,8 @@ filename
 ptr
 (
 )
+&
+unused
 )
 )
 {
