@@ -233,7 +233,7 @@ return
 }
 PlacesTransactions
 .
-transact
+batch
 (
 function
 *
@@ -286,9 +286,11 @@ node
 .
 bookmarkGuid
 newParentGuid
-:
-newParentGuid
 }
+)
+.
+transact
+(
 )
 ;
 }
