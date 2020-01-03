@@ -1807,7 +1807,7 @@ AnimationMutation
 aMutationType
 )
 {
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 *
 effect
 =

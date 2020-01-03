@@ -1184,7 +1184,7 @@ Animation
 aAnimation
 )
 {
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 *
 effect
 =

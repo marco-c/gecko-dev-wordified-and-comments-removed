@@ -165,7 +165,7 @@ Animation
 webidl
 '
 '
-AnimationEffectReadOnly
+AnimationEffectReadonly
 .
 webidl
 '

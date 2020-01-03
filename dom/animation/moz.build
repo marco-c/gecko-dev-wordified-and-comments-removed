@@ -131,7 +131,7 @@ Animation
 h
 '
 '
-AnimationEffectReadOnly
+AnimationEffectReadonly
 .
 h
 '
@@ -178,7 +178,7 @@ Animation
 cpp
 '
 '
-AnimationEffectReadOnly
+AnimationEffectReadonly
 .
 cpp
 '

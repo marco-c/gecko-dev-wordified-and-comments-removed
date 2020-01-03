@@ -141,7 +141,7 @@ Animation
 :
 SetEffect
 (
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 *
 aEffect
 )

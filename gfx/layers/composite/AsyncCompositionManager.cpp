@@ -2273,7 +2273,7 @@ computedTiming
 dom
 :
 :
-KeyframeEffectReadOnly
+KeyframeEffectReadonly
 :
 :
 GetComputedTimingAt
