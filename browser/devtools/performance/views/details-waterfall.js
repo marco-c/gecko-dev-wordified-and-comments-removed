@@ -458,6 +458,8 @@ this
 _lastSelected
 =
 marker
+.
+uid
 ;
 }
 if
@@ -600,17 +602,13 @@ rootMarkerNode
 =
 WaterfallUtils
 .
-makeParentMarkerNode
+makeEmptyMarkerNode
 (
-{
-name
-:
 "
 (
 root
 )
 "
-}
 )
 ;
 WaterfallUtils
@@ -790,7 +788,8 @@ i
 i
 .
 marker
-=
+.
+uid
 =
 =
 this
