@@ -1032,6 +1032,14 @@ ool
 )
 ;
 bool
+visitNewTypedObject
+(
+LNewTypedObject
+*
+lir
+)
+;
+bool
 visitNewDeclEnvObject
 (
 LNewDeclEnvObject

@@ -945,6 +945,10 @@ UNSAFE_OP
 (
 NewArrayCopyOnWrite
 )
+UNSAFE_OP
+(
+NewTypedObject
+)
 CUSTOM_OP
 (
 NewObject

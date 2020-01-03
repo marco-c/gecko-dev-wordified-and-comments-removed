@@ -2307,6 +2307,11 @@ Call_Native
 \
 _
 (
+Call_ClassHook
+)
+\
+_
+(
 Call_ScriptedApplyArray
 )
 \
