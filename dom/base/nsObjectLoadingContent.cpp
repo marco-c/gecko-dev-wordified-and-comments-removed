@@ -15356,10 +15356,7 @@ break
 }
 if
 (
-nsNPObjWrapper
-:
-:
-IsWrapper
+JS_GetClass
 (
 js
 :
@@ -15369,6 +15366,10 @@ UncheckedUnwrap
 proto
 )
 )
+=
+=
+&
+sNPObjectJSWrapperClass
 )
 {
 if
