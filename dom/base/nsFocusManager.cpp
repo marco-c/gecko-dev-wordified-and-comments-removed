@@ -8935,6 +8935,12 @@ false
 ;
 }
 }
+if
+(
+!
+mFocusedContent
+)
+{
 nsPresContext
 *
 presContext
@@ -8959,6 +8965,7 @@ aFlags
 )
 )
 ;
+}
 if
 (
 !
