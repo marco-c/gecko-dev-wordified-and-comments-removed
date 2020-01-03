@@ -5157,6 +5157,15 @@ delete
 ;
 }
 ;
+JSObject
+*
+NewMemoryStatisticsObject
+(
+JSContext
+*
+cx
+)
+;
 }
 #
 ifdef
