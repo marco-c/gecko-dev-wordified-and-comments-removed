@@ -631,6 +631,16 @@ uint16_t
 level
 )
 ;
+void
+LoadSsrc
+(
+sdp_t
+*
+sdp
+uint16_t
+level
+)
+;
 bool
 LoadGroups
 (
