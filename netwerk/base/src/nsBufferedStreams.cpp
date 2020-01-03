@@ -3475,3 +3475,6 @@ return
 NS_OK
 ;
 }
+#
+undef
+METER
