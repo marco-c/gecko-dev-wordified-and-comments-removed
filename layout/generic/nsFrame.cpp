@@ -22308,7 +22308,7 @@ offset
 =
 docOffset
 .
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 currAPD
 aAPD
@@ -22349,7 +22349,7 @@ offset
 =
 docOffset
 .
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 currAPD
 aAPD

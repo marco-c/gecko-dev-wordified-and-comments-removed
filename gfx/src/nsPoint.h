@@ -136,7 +136,7 @@ const
 MOZ_WARN_UNUSED_RESULT
 inline
 nsPoint
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 int32_t
 aFromAPP
@@ -298,7 +298,7 @@ nsPoint
 nsPoint
 :
 :
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 int32_t
 aFromAPP

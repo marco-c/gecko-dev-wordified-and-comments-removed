@@ -16652,7 +16652,7 @@ rect
 =
 rect
 .
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 APD
 parentAPD
@@ -25290,7 +25290,7 @@ refpoint
 =
 mMouseLocation
 .
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 APD
 viewAPD
@@ -26065,7 +26065,7 @@ rect
 =
 rect
 .
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 aFrame
 -
@@ -39041,7 +39041,7 @@ scrollAmount
 =
 scrollAmount
 .
-ConvertAppUnits
+ScaleToOtherAppUnits
 (
 scrollAPD
 APD

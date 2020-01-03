@@ -1018,7 +1018,7 @@ out
 =
 out
 .
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 aFromView
 -
@@ -3167,7 +3167,7 @@ damagedRect
 =
 damagedRect
 .
-ConvertAppUnitsRoundOut
+ScaleToOtherAppUnitsRoundOut
 (
 APD
 rootAPD
