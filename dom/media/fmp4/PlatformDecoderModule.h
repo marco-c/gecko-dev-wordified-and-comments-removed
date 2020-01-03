@@ -469,6 +469,17 @@ ReleaseDecoder
 )
 {
 }
+virtual
+bool
+IsHardwareAccelerated
+(
+)
+const
+{
+return
+false
+;
+}
 }
 ;
 }

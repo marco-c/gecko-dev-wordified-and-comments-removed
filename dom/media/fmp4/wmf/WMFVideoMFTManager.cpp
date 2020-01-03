@@ -2393,4 +2393,17 @@ mDXVA2Manager
 )
 ;
 }
+bool
+WMFVideoMFTManager
+:
+:
+IsHardwareAccelerated
+(
+)
+const
+{
+return
+mUseHwAccel
+;
+}
 }

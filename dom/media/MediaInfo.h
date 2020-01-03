@@ -128,6 +128,10 @@ mHasVideo
 (
 false
 )
+mIsHardwareAccelerated
+(
+false
+)
 {
 mTrackInfo
 .
@@ -166,6 +170,9 @@ mHasVideo
 ;
 TrackInfo
 mTrackInfo
+;
+bool
+mIsHardwareAccelerated
 ;
 }
 ;
