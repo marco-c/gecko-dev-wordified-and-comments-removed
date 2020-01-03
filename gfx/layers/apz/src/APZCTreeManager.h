@@ -347,7 +347,7 @@ aPoint
 ;
 static
 const
-LayerMargin
+ScreenMargin
 CalculatePendingDisplayPort
 (
 const
