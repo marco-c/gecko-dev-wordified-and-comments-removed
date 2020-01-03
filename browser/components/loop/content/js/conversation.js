@@ -3239,6 +3239,11 @@ sdk
 window
 .
 OT
+mozLoop
+:
+navigator
+.
+mozLoop
 }
 )
 ;
