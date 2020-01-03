@@ -133,6 +133,9 @@ channel
 "
 user_agent
 "
+"
+url
+"
 ]
 _createPayload
 :

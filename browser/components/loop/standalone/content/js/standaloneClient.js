@@ -464,7 +464,7 @@ err
 {
 console
 .
-log
+error
 (
 "
 Error
@@ -473,6 +473,8 @@ call
 info
 "
 err
+.
+message
 )
 ;
 cb
