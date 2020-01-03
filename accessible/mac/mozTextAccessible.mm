@@ -346,6 +346,13 @@ return
 self
 getGeckoAccessible
 ]
+&
+&
+!
+[
+self
+getProxyAccessible
+]
 ;
 }
 -
