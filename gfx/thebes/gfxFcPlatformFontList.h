@@ -836,10 +836,15 @@ mBundledFontsInitialized
 ;
 #
 endif
-nsRefPtrHashtable
+nsBaseHashtable
 <
 nsStringHashKey
-gfxFontFamily
+nsCountedRef
+<
+FcPattern
+>
+FcPattern
+*
 >
 mLocalNames
 ;
