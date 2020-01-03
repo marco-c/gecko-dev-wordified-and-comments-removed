@@ -1563,17 +1563,6 @@ ContinueShutdown
 (
 )
 {
-ReentrantMonitorAutoEnter
-mon
-(
-mDecoder
--
->
-GetReentrantMonitor
-(
-)
-)
-;
 if
 (
 mTrackBuffers

@@ -398,9 +398,6 @@ mShutdownPromise
 bool
 mDecoderPerSegment
 ;
-bool
-mShutdown
-;
 }
 ;
 }
