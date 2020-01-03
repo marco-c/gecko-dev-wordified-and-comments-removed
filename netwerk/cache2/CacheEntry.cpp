@@ -839,9 +839,6 @@ CacheEntry
 )
 ;
 }
-#
-ifdef
-PR_LOG
 char
 const
 *
@@ -914,8 +911,6 @@ return
 "
 ;
 }
-#
-endif
 nsresult
 CacheEntry
 :
