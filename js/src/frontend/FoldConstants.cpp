@@ -3227,6 +3227,13 @@ pn_kid
 )
 )
 {
+handler
+.
+prepareNodeForMutation
+(
+pn
+)
+;
 pn
 -
 >
