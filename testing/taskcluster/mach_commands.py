@@ -3095,14 +3095,17 @@ task
 )
 )
             
-if
+for
+post_build
+in
+build
+[
 '
 post
 -
 build
 '
-in
-build
+]
 :
                 
 post_parameters
@@ -3118,14 +3121,7 @@ post_task
 =
 configure_dependent_task
 (
-build
-[
-'
-post
--
-build
-'
-]
+post_build
 [
 '
 task
