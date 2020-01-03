@@ -685,6 +685,8 @@ nsACString
 aEnhanceID
 bool
 aUseDisk
+uint32_t
+aPinningAppId
 )
 :
 mFrecency
@@ -724,6 +726,10 @@ aStorageID
 mUseDisk
 (
 aUseDisk
+)
+mPinningAppId
+(
+aPinningAppId
 )
 mIsDoomed
 (
@@ -1485,6 +1491,10 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+!
+mPinningAppId
 )
 {
 CacheIndex
@@ -1743,6 +1753,7 @@ fileKey
 aTruncate
 !
 mUseDisk
+mPinningAppId
 aPriority
 directLoad
 ?
@@ -2110,6 +2121,7 @@ mUseDisk
 &
 !
 aMemoryOnly
+mPinningAppId
 true
 true
 getter_AddRefs

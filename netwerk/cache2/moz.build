@@ -247,6 +247,11 @@ OldWrappers
 .
 cpp
 '
+'
+PinningCacheStorage
+.
+cpp
+'
 ]
 #
 AppCacheStorage

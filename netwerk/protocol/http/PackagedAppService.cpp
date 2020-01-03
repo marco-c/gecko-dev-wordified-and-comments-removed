@@ -209,6 +209,7 @@ CacheFileUtils
 AppendKeyPrefix
 (
 aInfo
+false
 prefix
 )
 ;
@@ -3037,6 +3038,7 @@ CacheFileUtils
 AppendKeyPrefix
 (
 aInfo
+false
 key
 )
 ;

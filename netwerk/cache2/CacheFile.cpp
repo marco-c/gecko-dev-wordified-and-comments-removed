@@ -862,6 +862,8 @@ bool
 aCreateNew
 bool
 aMemoryOnly
+uint32_t
+aPinningAppID
 bool
 aPriority
 CacheFileListener
@@ -1082,6 +1084,7 @@ CacheFileIOManager
 OpenFile
 (
 mKey
+aPinningAppID
 flags
 this
 )
