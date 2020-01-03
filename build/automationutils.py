@@ -3295,7 +3295,9 @@ self
 .
 seenShutdown
 =
-False
+set
+(
+)
   
 def
 log
@@ -3376,20 +3378,38 @@ line
 startswith
 (
 "
-TEST
--
-START
-|
-Shutdown
+Completed
+ShutdownLeaks
+collections
+in
+process
 "
 )
 :
           
+pid
+=
+int
+(
+line
+.
+split
+(
+)
+[
+-
+1
+]
+)
+          
 self
 .
 seenShutdown
-=
-True
+.
+add
+(
+pid
+)
     
 elif
 message
@@ -3930,6 +3950,11 @@ key
 )
     
 elif
+int
+(
+pid
+)
+in
 self
 .
 seenShutdown
@@ -4085,6 +4110,11 @@ key
 )
     
 elif
+int
+(
+pid
+)
+in
 self
 .
 seenShutdown
