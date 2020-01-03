@@ -870,6 +870,10 @@ Reset
 (
 )
 {
+mFirstCKPD
+=
+false
+;
 ResetCallArray
 (
 )
@@ -5025,6 +5029,10 @@ NS_IsMainThread
 )
 )
 ;
+mFirstCKPD
+=
+true
+;
 NS_ENSURE_TRUE_VOID
 (
 mController
@@ -6323,6 +6331,13 @@ ConnectSco
 ;
 }
 else
+if
+(
+mFirstCKPD
+)
+{
+}
+else
 {
 NotifyDialer
 (
@@ -6335,6 +6350,10 @@ CHUP
 )
 ;
 }
+mFirstCKPD
+=
+false
+;
 }
 else
 {

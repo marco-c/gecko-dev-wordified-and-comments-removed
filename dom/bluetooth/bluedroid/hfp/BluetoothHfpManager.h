@@ -777,6 +777,9 @@ mReceiveVgsFlag
 bool
 mDialingRequestProcessed
 ;
+bool
+mFirstCKPD
+;
 PhoneType
 mPhoneType
 ;
