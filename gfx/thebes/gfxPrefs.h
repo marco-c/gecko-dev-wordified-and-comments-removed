@@ -3152,11 +3152,11 @@ mousewheel
 .
 system_scroll_override_on_root_content
 .
-vertical
+horizontal
 .
 factor
 "
-MouseWheelRootVScrollDeltaFactor
+MouseWheelRootHScrollDeltaFactor
 int32_t
 100
 )
@@ -3169,11 +3169,11 @@ mousewheel
 .
 system_scroll_override_on_root_content
 .
-horizontal
+vertical
 .
 factor
 "
-MouseWheelRootHScrollDeltaFactor
+MouseWheelRootVScrollDeltaFactor
 int32_t
 100
 )
