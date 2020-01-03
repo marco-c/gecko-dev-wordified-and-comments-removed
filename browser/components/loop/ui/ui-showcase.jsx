@@ -8417,6 +8417,16 @@ FramedExample
 >
 <
 FramedExample
+cssClass
+=
+"
+standalone
+"
+dashed
+=
+{
+true
+}
 height
 =
 {

@@ -3019,6 +3019,11 @@ room
 conversation
 -
 wrapper
+standalone
+-
+room
+-
+wrapper
 "
 >
 <
@@ -3369,6 +3374,10 @@ div
 div
 >
 <
+/
+div
+>
+<
 sharedViews
 .
 ConversationToolbar
@@ -3471,10 +3480,6 @@ _roomIsActive
 }
 }
 /
->
-<
-/
-div
 >
 <
 loop
