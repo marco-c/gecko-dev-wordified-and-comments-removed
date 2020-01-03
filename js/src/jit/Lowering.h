@@ -1936,6 +1936,14 @@ ins
 )
 ;
 void
+visitSimdGeneralSwizzle
+(
+MSimdGeneralSwizzle
+*
+ins
+)
+;
+void
 visitSimdShuffle
 (
 MSimdShuffle

@@ -113,6 +113,16 @@ SimdSignMaskX4
 \
 _
 (
+SimdGeneralSwizzleI
+)
+\
+_
+(
+SimdGeneralSwizzleF
+)
+\
+_
+(
 SimdSwizzleI
 )
 \
