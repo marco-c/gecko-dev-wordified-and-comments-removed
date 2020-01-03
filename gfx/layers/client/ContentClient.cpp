@@ -1443,6 +1443,10 @@ BackendType
 :
 NONE
 mTextureFlags
+|
+ExtraTextureFlags
+(
+)
 TextureAllocationFlags
 :
 :
@@ -1487,6 +1491,10 @@ mTextureClient
 CreateSimilar
 (
 mTextureFlags
+|
+ExtraTextureFlags
+(
+)
 TextureAllocationFlags
 :
 :
