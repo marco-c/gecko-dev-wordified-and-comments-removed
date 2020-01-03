@@ -8513,6 +8513,11 @@ NODE_CHILD_OF
 :
 if
 (
+HasOwnContent
+(
+)
+&
+&
 mContent
 -
 >
@@ -8548,6 +8553,9 @@ GetContent
 if
 (
 parentContent
+&
+&
+parentContent
 -
 >
 IsMathMLElement
@@ -8579,6 +8587,11 @@ NODE_PARENT_OF
 :
 if
 (
+HasOwnContent
+(
+)
+&
+&
 mContent
 -
 >
