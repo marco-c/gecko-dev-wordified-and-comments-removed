@@ -2104,6 +2104,13 @@ kDominantBaselineKTable
 static
 const
 KTableValue
+kShapeRadiusKTable
+[
+]
+;
+static
+const
+KTableValue
 kFillRuleKTable
 [
 ]
