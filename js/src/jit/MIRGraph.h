@@ -1009,6 +1009,14 @@ at
 )
 ;
 void
+flagOperandsOfPrunedBranches
+(
+MInstruction
+*
+ins
+)
+;
+void
 markAsDead
 (
 )
