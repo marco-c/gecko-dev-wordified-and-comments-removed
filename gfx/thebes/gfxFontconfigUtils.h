@@ -1163,12 +1163,6 @@ FcPattern
 >
 mEmptyPatternArray
 ;
-nsTArray
-<
-nsCString
->
-mAliasForMultiFonts
-;
 FcConfig
 *
 mLastConfig
