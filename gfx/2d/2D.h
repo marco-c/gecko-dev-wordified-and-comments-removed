@@ -1088,10 +1088,15 @@ Stride
 ;
 mIsMapped
 =
-true
+!
+!
+aMappedSurface
+-
+>
+mData
 ;
 return
-true
+mIsMapped
 ;
 }
 virtual
