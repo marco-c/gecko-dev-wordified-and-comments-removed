@@ -16,7 +16,8 @@ AppConstants
 "
 ]
 ;
-let
+this
+.
 AppConstants
 =
 Object
@@ -184,6 +185,17 @@ MOZ_CRASHREPORTER
 #
 ifdef
 MOZ_CRASHREPORTER
+true
+#
+else
+false
+#
+endif
+MOZ_MAINTENANCE_SERVICE
+:
+#
+ifdef
+MOZ_MAINTENANCE_SERVICE
 true
 #
 else
