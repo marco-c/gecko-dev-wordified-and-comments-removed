@@ -2727,6 +2727,12 @@ float
 aLayerViewTranslation
 )
 ;
+public
+void
+onPanZoomStopped
+(
+)
+;
 }
 public
 interface
