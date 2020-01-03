@@ -115,15 +115,6 @@ include
 protocol
 PContent
 ;
-using
-AccessibleTextBoundary
-from
-"
-nsIAccessibleText
-.
-h
-"
-;
 namespace
 mozilla
 {
@@ -414,7 +405,7 @@ uint64_t
 aID
 int32_t
 aOffset
-AccessibleTextBoundary
+int32_t
 aBoundaryType
 )
 returns
@@ -438,7 +429,7 @@ uint64_t
 aID
 int32_t
 aOffset
-AccessibleTextBoundary
+int32_t
 aBoundaryType
 )
 returns
@@ -462,7 +453,7 @@ uint64_t
 aID
 int32_t
 aOffset
-AccessibleTextBoundary
+int32_t
 aBoundaryType
 )
 returns

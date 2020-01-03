@@ -268,7 +268,7 @@ int32_t
 &
 aOffset
 const
-AccessibleTextBoundary
+int32_t
 &
 aBoundaryType
 nsString
@@ -296,7 +296,7 @@ int32_t
 &
 aOffset
 const
-AccessibleTextBoundary
+int32_t
 &
 aBoundaryType
 nsString
@@ -324,7 +324,7 @@ int32_t
 &
 aOffset
 const
-AccessibleTextBoundary
+int32_t
 &
 aBoundaryType
 nsString
