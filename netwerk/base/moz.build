@@ -857,6 +857,11 @@ DashboardTypes
 h
 '
 '
+MemoryDownloader
+.
+h
+'
+'
 OfflineObserver
 .
 h
@@ -931,6 +936,11 @@ cpp
 '
 '
 LoadInfo
+.
+cpp
+'
+'
+MemoryDownloader
 .
 cpp
 '
