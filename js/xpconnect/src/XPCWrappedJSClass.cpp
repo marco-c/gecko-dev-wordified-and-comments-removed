@@ -2488,7 +2488,8 @@ if
 !
 result
 )
-return
+result
+=
 aJSObj
 ;
 JSObject

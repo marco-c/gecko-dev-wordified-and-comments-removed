@@ -381,13 +381,6 @@ nsIOfflineCacheUpdateObserver
 .
 STATE_ERROR
 :
-aUpdate
-.
-removeObserver
-(
-this
-)
-;
 errorReceived
 =
 true
@@ -415,6 +408,13 @@ nsIOfflineCacheUpdateObserver
 .
 STATE_FINISHED
 :
+aUpdate
+.
+removeObserver
+(
+this
+)
+;
 OfflineTest
 .
 ok
