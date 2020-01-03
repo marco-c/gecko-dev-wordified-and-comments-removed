@@ -1234,6 +1234,8 @@ nsIntRegion
 invalidRegion
 ;
 FrameMetrics
+[
+]
 metrics
 ;
 LayerColor

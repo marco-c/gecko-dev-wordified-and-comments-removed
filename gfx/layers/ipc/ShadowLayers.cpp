@@ -3319,7 +3319,7 @@ metrics
 mutant
 -
 >
-GetFrameMetrics
+GetAllFrameMetrics
 (
 )
 ;
