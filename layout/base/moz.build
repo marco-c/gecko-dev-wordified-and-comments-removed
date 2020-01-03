@@ -436,6 +436,11 @@ LayerState
 h
 '
 '
+LayoutLogging
+.
+h
+'
+'
 nsArenaMemoryStats
 .
 h
@@ -664,6 +669,11 @@ cpp
 '
 '
 GeometryUtils
+.
+cpp
+'
+'
+LayoutLogging
 .
 cpp
 '
