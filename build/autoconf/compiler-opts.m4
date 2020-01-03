@@ -1068,6 +1068,13 @@ z
 "
 MOZ_DEBUG
 "
+-
+o
+-
+n
+"
+MOZ_ASAN
+"
 ;
 then
 MOZ_NO_DEBUG_RTL
