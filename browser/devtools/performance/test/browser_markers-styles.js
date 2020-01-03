@@ -185,6 +185,13 @@ property
 )
 ;
 yield
+front
+.
+destroy
+(
+)
+;
+yield
 removeTab
 (
 target

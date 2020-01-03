@@ -198,6 +198,13 @@ fired
 )
 ;
 yield
+front
+.
+destroy
+(
+)
+;
+yield
 removeTab
 (
 target

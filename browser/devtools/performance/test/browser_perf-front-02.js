@@ -276,6 +276,13 @@ times
 )
 ;
 yield
+front
+.
+destroy
+(
+)
+;
+yield
 removeTab
 (
 target

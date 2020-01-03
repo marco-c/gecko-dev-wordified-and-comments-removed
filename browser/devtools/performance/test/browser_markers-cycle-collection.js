@@ -239,6 +239,13 @@ stopRecording
 )
 ;
 yield
+front
+.
+destroy
+(
+)
+;
+yield
 removeTab
 (
 target

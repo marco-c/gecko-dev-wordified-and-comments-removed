@@ -300,6 +300,13 @@ recording
 )
 ;
 yield
+front
+.
+destroy
+(
+)
+;
+yield
 removeTab
 (
 target

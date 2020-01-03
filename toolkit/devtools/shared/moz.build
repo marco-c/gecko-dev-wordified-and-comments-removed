@@ -133,6 +133,11 @@ memory
 js
 '
 '
+profiler
+.
+js
+'
+'
 system
 .
 js

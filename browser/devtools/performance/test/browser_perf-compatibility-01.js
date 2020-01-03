@@ -288,6 +288,13 @@ profilerStartTime
 )
 ;
 yield
+front
+.
+destroy
+(
+)
+;
+yield
 removeTab
 (
 target
