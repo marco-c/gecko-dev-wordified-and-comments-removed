@@ -985,9 +985,9 @@ err
 ;
 this
 .
-_shouldHaveSyncKeyBundle
-=
-false
+resetCredentials
+(
+)
 ;
 this
 .
