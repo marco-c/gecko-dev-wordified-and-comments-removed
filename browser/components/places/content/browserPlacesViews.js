@@ -7348,7 +7348,7 @@ elt
 ;
 if
 (
-PlacesUIUtils
+PlacesUtils
 .
 nodeIsFolder
 (
@@ -7359,9 +7359,9 @@ _placesNode
 &
 &
 !
-PlacesUIUtils
+PlacesUtils
 .
-isContentsReadOnly
+nodeIsReadOnly
 (
 elt
 .
