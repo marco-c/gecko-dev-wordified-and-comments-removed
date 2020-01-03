@@ -2345,6 +2345,13 @@ DonePrerollingAudio
 (
 )
 {
+MOZ_ASSERT
+(
+OnTaskQueue
+(
+)
+)
+;
 AssertCurrentThreadInMonitor
 (
 )
@@ -2373,6 +2380,13 @@ DonePrerollingVideo
 (
 )
 {
+MOZ_ASSERT
+(
+OnTaskQueue
+(
+)
+)
+;
 AssertCurrentThreadInMonitor
 (
 )
