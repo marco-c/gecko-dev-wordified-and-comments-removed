@@ -205,6 +205,11 @@ FormValidationHandler
 jsm
 '
 '
+HiddenFrame
+.
+jsm
+'
+'
 NetworkPrioritizer
 .
 jsm
