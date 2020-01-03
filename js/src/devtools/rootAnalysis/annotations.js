@@ -1671,6 +1671,12 @@ listNonGCPointers
 {
 return
 [
+'
+NPIdentifier
+'
+'
+XPCNativeMember
+'
 ]
 ;
 }
