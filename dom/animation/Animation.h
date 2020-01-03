@@ -1021,6 +1021,10 @@ true
 bool
 IsCurrent
 (
+const
+AnimationPlayer
+&
+aPlayer
 )
 const
 ;
