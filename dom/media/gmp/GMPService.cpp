@@ -4263,10 +4263,10 @@ nsIFile
 *
 aPath
 const
-nsCString
+nsACString
 &
 aFileName
-nsCString
+nsACString
 &
 aOutData
 int32_t
@@ -4442,14 +4442,13 @@ return
 NS_OK
 ;
 }
-static
 nsresult
 ReadSalt
 (
 nsIFile
 *
 aPath
-nsCString
+nsACString
 &
 aOutData
 )
@@ -5247,7 +5246,6 @@ return
 NS_OK
 ;
 }
-static
 bool
 MatchOrigin
 (
