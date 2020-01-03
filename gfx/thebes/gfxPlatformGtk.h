@@ -195,6 +195,7 @@ gfxPlatformFontList
 CreatePlatformFontList
 (
 )
+override
 ;
 virtual
 nsresult
