@@ -387,7 +387,13 @@ aMouseEvent
 )
 {
 return
-NS_OK
+nsEditorEventListener
+:
+:
+MouseDown
+(
+aMouseEvent
+)
 ;
 }
 int16_t
