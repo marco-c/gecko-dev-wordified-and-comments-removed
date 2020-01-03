@@ -4297,6 +4297,9 @@ true
 ;
 }
 ;
+if
+(
+!
 Chat
 .
 open
@@ -4310,7 +4313,12 @@ undefined
 undefined
 callback
 )
+)
+{
+return
+null
 ;
+}
 return
 windowId
 ;
