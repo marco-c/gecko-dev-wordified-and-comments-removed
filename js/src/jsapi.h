@@ -3129,7 +3129,10 @@ i
 )
 ;
 return
-DOUBLE_TO_JSVAL
+JS
+:
+:
+DoubleValue
 (
 d
 )

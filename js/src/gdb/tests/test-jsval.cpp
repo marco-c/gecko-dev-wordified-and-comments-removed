@@ -173,7 +173,7 @@ RootedValue
 onehundredthirtysevenonehundredtwentyeighths
 (
 cx
-DOUBLE_TO_JSVAL
+DoubleValue
 (
 137
 .
