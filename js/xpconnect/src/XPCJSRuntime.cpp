@@ -54,13 +54,6 @@ h
 #
 include
 "
-dom_quickstubs
-.
-h
-"
-#
-include
-"
 mozJSComponentLoader
 .
 h
