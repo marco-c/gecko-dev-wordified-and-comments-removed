@@ -395,11 +395,15 @@ else
 {
 masm
 .
-storeFloat32
+storeDouble
 (
 to
 .
 floatReg
+(
+)
+.
+doubleOverlay
 (
 )
 cycleSlot
