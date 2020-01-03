@@ -122,6 +122,9 @@ ffbf
 -
 06c995ae9f27
 }
+#
+ifdef
+HAVE_SIDEBAR
 component
 {
 22117140
@@ -156,3 +159,5 @@ aaf1
 -
 00805f8a4905
 }
+#
+endif
