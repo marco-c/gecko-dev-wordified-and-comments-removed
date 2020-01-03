@@ -652,7 +652,7 @@ R
 .
 drawable
 .
-sync_mobile_inactive
+device_mobile
 ;
 }
 return
@@ -660,7 +660,7 @@ R
 .
 drawable
 .
-sync_desktop_inactive
+device_pc
 ;
 }
 public
