@@ -2243,12 +2243,6 @@ PlainObject
 :
 class_
 proto
-cx
--
->
-global
-(
-)
 nullptr
 nfixed
 0
@@ -5522,12 +5516,6 @@ group
 -
 >
 proto
-(
-)
-templateShape
--
->
-getObjectParent
 (
 )
 templateShape

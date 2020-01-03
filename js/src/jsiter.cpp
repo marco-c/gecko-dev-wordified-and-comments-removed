@@ -2804,7 +2804,6 @@ TaggedProto
 (
 nullptr
 )
-nullptr
 metadata
 ITERATOR_FINALIZE_KIND
 )

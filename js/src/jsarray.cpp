@@ -15893,12 +15893,6 @@ TaggedProto
 (
 proto
 )
-cx
--
->
-global
-(
-)
 metadata
 gc
 :
@@ -16467,12 +16461,6 @@ class_
 TaggedProto
 (
 proto
-)
-cxArg
--
->
-global
-(
 )
 metadata
 gc

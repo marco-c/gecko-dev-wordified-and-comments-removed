@@ -18169,7 +18169,7 @@ Shape
 *
 newShape
 =
-ReshapeForParentAndAllocKind
+ReshapeForAllocKind
 (
 cx
 obj
@@ -18182,12 +18182,6 @@ obj
 -
 >
 getTaggedProto
-(
-)
-cx
--
->
-global
 (
 )
 allocKind

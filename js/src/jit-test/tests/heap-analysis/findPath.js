@@ -394,7 +394,7 @@ ANY
 edge
 :
 "
-parent
+global
 "
 }
 {
