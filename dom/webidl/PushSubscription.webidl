@@ -148,11 +148,6 @@ attribute
 USVString
 endpoint
 ;
-readonly
-attribute
-DOMString
-subscriptionId
-;
 Promise
 <
 boolean
