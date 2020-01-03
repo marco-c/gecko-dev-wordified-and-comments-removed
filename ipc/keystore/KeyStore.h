@@ -578,7 +578,7 @@ ReceiveSocketData
 (
 nsAutoPtr
 <
-UnixSocketRawData
+UnixSocketBuffer
 >
 &
 aMessage
@@ -648,7 +648,7 @@ Listen
 bool
 CheckSize
 (
-UnixSocketRawData
+UnixSocketBuffer
 *
 aMessage
 size_t
@@ -658,7 +658,7 @@ aExpectSize
 ResponseCode
 ReadCommand
 (
-UnixSocketRawData
+UnixSocketBuffer
 *
 aMessage
 )
@@ -666,7 +666,7 @@ aMessage
 ResponseCode
 ReadLength
 (
-UnixSocketRawData
+UnixSocketBuffer
 *
 aMessage
 )
@@ -674,7 +674,7 @@ aMessage
 ResponseCode
 ReadData
 (
-UnixSocketRawData
+UnixSocketBuffer
 *
 aMessage
 )
