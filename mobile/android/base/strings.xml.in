@@ -417,7 +417,7 @@ string
 name
 =
 "
-onboard_start_message
+firstrun_welcome_message
 "
 >
 &
@@ -432,7 +432,7 @@ string
 name
 =
 "
-onboard_start_subtext
+firstrun_welcome_subtext
 "
 >
 &
@@ -447,7 +447,7 @@ string
 name
 =
 "
-onboard_start_button_account
+firstrun_welcome_button_account
 "
 >
 &
@@ -462,7 +462,7 @@ string
 name
 =
 "
-onboard_start_button_browser
+firstrun_welcome_button_browser
 "
 >
 &
@@ -477,7 +477,7 @@ string
 name
 =
 "
-onboard_empty_contentDescription
+firstrun_empty_contentDescription
 "
 >
 <
