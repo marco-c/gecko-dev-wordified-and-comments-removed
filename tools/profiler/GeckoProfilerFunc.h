@@ -168,6 +168,15 @@ mozilla_sampler_is_active
 (
 )
 ;
+bool
+mozilla_sampler_feature_active
+(
+const
+char
+*
+aName
+)
+;
 void
 mozilla_sampler_responsiveness
 (
