@@ -185,11 +185,9 @@ new
 WeakSet
 (
 {
-[
-Symbol
-.
+"
 iterator
-]
+"
 :
 2
 }
@@ -204,9 +202,9 @@ typeof
 [
 ]
 [
-Symbol
-.
+"
 iterator
+"
 ]
 "
 function

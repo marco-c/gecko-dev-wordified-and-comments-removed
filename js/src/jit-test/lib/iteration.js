@@ -12,9 +12,9 @@ js
 const
 std_iterator
 =
-Symbol
-.
+'
 iterator
+'
 ;
 if
 (

@@ -91,9 +91,11 @@ intermediate
 value
 )
 [
-Symbol
-.
+\
+'
 iterator
+\
+'
 ]
 (
 .

@@ -1163,9 +1163,9 @@ intermediate
 value
 )
 [
-Symbol
-.
+'
 iterator
+'
 ]
 (
 .
@@ -1214,9 +1214,9 @@ intermediate
 value
 )
 [
-Symbol
-.
+'
 iterator
+'
 ]
 (
 .

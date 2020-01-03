@@ -1481,9 +1481,9 @@ typeof
 (
 aValues
 [
-Symbol
-.
+"
 iterator
+"
 ]
 )
 !
@@ -1708,9 +1708,9 @@ typeof
 (
 aValues
 [
-Symbol
-.
+"
 iterator
+"
 ]
 )
 !

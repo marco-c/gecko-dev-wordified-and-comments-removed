@@ -54,6 +54,13 @@ GeneratorFunctionPrototype
 .
 prototype
 ;
+var
+std_iterator
+=
+"
+iterator
+"
+;
 function
 TestGeneratorFunctionInstance
 (
@@ -299,6 +306,7 @@ throw
 "
 constructor
 "
+std_iterator
 ]
 ;
 var

@@ -15,11 +15,9 @@ var
 o
 =
 {
-[
-Symbol
-.
+'
 iterator
-]
+'
 :
 function
 (

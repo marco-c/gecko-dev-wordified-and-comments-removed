@@ -408,9 +408,9 @@ has
 var
 std_iterator
 =
-Symbol
-.
+'
 iterator
+'
 ;
 var
 std_StopIteration
