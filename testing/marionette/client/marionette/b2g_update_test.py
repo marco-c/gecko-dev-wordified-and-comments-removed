@@ -17,16 +17,6 @@ types
 import
 weakref
 from
-b2ginstance
-import
-B2GInstance
-from
-marionette_driver
-.
-errors
-import
-InvalidResponseException
-from
 marionette_driver
 .
 marionette
@@ -40,6 +30,10 @@ from
 marionette_transport
 import
 MarionetteTransport
+from
+b2ginstance
+import
+B2GInstance
 from
 runtests
 import
@@ -1609,9 +1603,6 @@ path
 )
 )
         
-try
-:
-            
 results
 =
 self
@@ -1621,7 +1612,7 @@ marionette
 execute_async_script
 (
 data
-                                                           
+                                                       
 script_args
 =
 [
@@ -1629,12 +1620,12 @@ self
 .
 testvars
 ]
-                                                           
+                                                       
 special_powers
 =
 True
 )
-            
+        
 self
 .
 handle_results
@@ -1643,19 +1634,6 @@ path
 stage
 results
 )
-        
-except
-InvalidResponseException
-e
-:
-            
-if
-not
-will_restart
-:
-                
-raise
-e
     
 def
 handle_results
