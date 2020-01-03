@@ -741,6 +741,9 @@ JS_SHELL_NAME
 (
 BIN_SUFFIX
 )
+(
+JITTEST_TEST_ARGS
+)
 check
 :
 :
