@@ -1255,6 +1255,9 @@ property
 AnimationData
 data
 ;
+float
+playbackRate
+;
 }
 ;
 /
