@@ -795,8 +795,6 @@ if
 this
 .
 _lastPermissionSortColumn
-.
-id
 =
 =
 "
@@ -890,10 +888,14 @@ this
 _permissions
 this
 .
+_lastPermissionSortColumn
+this
+.
 _permissionsComparator
 this
 .
 _lastPermissionSortColumn
+!
 this
 .
 _lastPermissionSortAscending
@@ -2096,7 +2098,6 @@ onPermissionSort
 "
 rawHost
 "
-false
 )
 ;
 document
