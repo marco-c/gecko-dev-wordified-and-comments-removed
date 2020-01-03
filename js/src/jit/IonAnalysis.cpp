@@ -16866,7 +16866,7 @@ script
 fun
 nullptr
 false
-DefinitePropertiesAnalysis
+Analysis_DefiniteProperties
 script
 -
 >
@@ -18041,7 +18041,7 @@ functionNonDelazifying
 )
 nullptr
 false
-ArgumentsUsageAnalysis
+Analysis_ArgumentsUsage
 true
 inlineScriptTree
 )

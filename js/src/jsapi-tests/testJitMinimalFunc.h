@@ -111,7 +111,6 @@ options
 info
 (
 0
-SequentialExecution
 )
 graph
 (
