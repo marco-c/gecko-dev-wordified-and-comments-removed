@@ -128,6 +128,15 @@ GetSelectedImageDensity
 (
 )
 ;
+bool
+SelectImage
+(
+bool
+aReselect
+=
+false
+)
+;
 protected
 :
 virtual
