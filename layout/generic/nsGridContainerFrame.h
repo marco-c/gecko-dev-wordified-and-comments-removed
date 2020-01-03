@@ -262,7 +262,10 @@ MOZ_ASSERT
 mEnd
 >
 =
-1
+nsStyleGridLine
+:
+:
+kMinLine
 &
 &
 mEnd
@@ -286,7 +289,10 @@ MOZ_ASSERT
 mStart
 >
 =
-1
+nsStyleGridLine
+:
+:
+kMinLine
 &
 &
 mStart
@@ -315,7 +321,10 @@ kAutoLine
 mEnd
 >
 =
-1
+nsStyleGridLine
+:
+:
+kMinLine
 &
 &
 mEnd
