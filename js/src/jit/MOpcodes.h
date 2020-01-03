@@ -1276,6 +1276,11 @@ _
 (
 ThrowUninitializedLexical
 )
+\
+_
+(
+Debugger
+)
 #
 define
 FORWARD_DECLARE

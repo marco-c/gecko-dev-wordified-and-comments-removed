@@ -1591,6 +1591,10 @@ ThrowUninitializedLexical
 )
 UNSAFE_OP
 (
+Debugger
+)
+UNSAFE_OP
+(
 ConvertElementsToDoubles
 )
 UNSAFE_OP

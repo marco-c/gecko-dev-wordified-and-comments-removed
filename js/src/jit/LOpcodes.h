@@ -1675,6 +1675,11 @@ _
 (
 ThrowUninitializedLexical
 )
+\
+_
+(
+Debugger
+)
 #
 if
 defined

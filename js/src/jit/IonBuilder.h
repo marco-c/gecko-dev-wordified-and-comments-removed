@@ -3354,6 +3354,11 @@ ScopeCoordinate
 sc
 )
 ;
+bool
+jsop_debugger
+(
+)
+;
 enum
 InliningStatus
 {

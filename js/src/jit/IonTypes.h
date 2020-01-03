@@ -126,6 +126,7 @@ Bailout_NonSymbolInput
 Bailout_GuardThreadExclusive
 Bailout_ParallelUnsafe
 Bailout_InitialState
+Bailout_Debugger
 Bailout_OverflowInvalidate
 Bailout_NonStringInputInvalidate
 Bailout_DoubleOutput
@@ -333,6 +334,14 @@ Bailout_InitialState
 return
 "
 Bailout_InitialState
+"
+;
+case
+Bailout_Debugger
+:
+return
+"
+Bailout_Debugger
 "
 ;
 case
