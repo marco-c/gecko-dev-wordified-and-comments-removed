@@ -311,11 +311,6 @@ nsISupports
 aContext
 )
 ;
-~
-ListenerAndContextContainer
-(
-)
-;
 nsCOMPtr
 <
 nsIWebSocketListener
@@ -327,6 +322,13 @@ nsCOMPtr
 nsISupports
 >
 mContext
+;
+private
+:
+~
+ListenerAndContextContainer
+(
+)
 ;
 }
 ;
