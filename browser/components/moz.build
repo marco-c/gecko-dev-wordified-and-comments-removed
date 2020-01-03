@@ -110,6 +110,9 @@ dirprovider
 downloads
 '
 '
+extensions
+'
+'
 feeds
 '
 '
@@ -129,6 +132,9 @@ preferences
 '
 '
 privatebrowsing
+'
+'
+readinglist
 '
 '
 search
