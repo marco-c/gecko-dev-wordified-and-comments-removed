@@ -5354,7 +5354,7 @@ enumerable
 "
 )
 ;
-assert_false
+assert_true
 (
 desc
 .
@@ -5367,6 +5367,7 @@ name
 .
 length
 is
+not
 configurable
 "
 )
