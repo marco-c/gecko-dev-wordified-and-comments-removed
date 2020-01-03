@@ -171,11 +171,3 @@ src
 ctypes
 '
 ]
-USE_LIBS
-+
-=
-[
-'
-mozalloc
-'
-]

@@ -9,13 +9,6 @@ h
 "
 #
 include
-"
-nsCRTGlue
-.
-h
-"
-#
-include
 <
 math
 .
