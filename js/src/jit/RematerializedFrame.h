@@ -207,6 +207,16 @@ prevUpToDate_
 true
 ;
 }
+void
+unsetPrevUpToDate
+(
+)
+{
+prevUpToDate_
+=
+false
+;
+}
 bool
 isDebuggee
 (

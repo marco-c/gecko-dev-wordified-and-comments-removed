@@ -3207,6 +3207,17 @@ scope
 ;
 static
 void
+unsetPrevUpToDateUntil
+(
+JSContext
+*
+cx
+AbstractFramePtr
+frame
+)
+;
+static
+void
 forwardLiveFrame
 (
 JSContext
