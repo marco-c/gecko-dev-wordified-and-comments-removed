@@ -6496,10 +6496,7 @@ Shape
 shapep
 )
 {
-gc
-:
-:
-MarkShapeUnbarriered
+TraceManuallyBarrieredEdge
 (
 &
 rt

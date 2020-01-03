@@ -824,7 +824,7 @@ tmp
 =
 existingShape
 ;
-MarkShapeUnbarriered
+TraceManuallyBarrieredEdge
 (
 zone
 -
