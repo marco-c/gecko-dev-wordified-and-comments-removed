@@ -34,15 +34,7 @@ panel
 .
 panelWin
 ;
-let
-connection
-=
-getPerformanceActorsConnection
-(
-target
-)
-;
-connection
+front
 .
 _profiler
 .

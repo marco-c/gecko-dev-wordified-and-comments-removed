@@ -61,8 +61,6 @@ once
 (
 front
 .
-_connection
-.
 _profiler
 "
 profiler
@@ -114,8 +112,6 @@ yield
 once
 (
 front
-.
-_connection
 .
 _profiler
 "

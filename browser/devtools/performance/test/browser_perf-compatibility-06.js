@@ -67,8 +67,6 @@ onceSpread
 (
 front
 .
-_connection
-.
 _profiler
 "
 profiler
