@@ -602,8 +602,6 @@ aWindow
 GetInputContext
 (
 )
-.
-mIMEState
 )
 ;
 case
@@ -623,8 +621,6 @@ aWindow
 GetInputContext
 (
 )
-.
-mIMEState
 )
 ;
 case
@@ -793,8 +789,6 @@ aWindow
 GetInputContext
 (
 )
-.
-mIMEState
 )
 ;
 }
