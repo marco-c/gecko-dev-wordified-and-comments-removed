@@ -7442,7 +7442,15 @@ return
 NS_CombineHint
 (
 hint
-nsChangeHint_AllReflowHints
+nsChangeHint_NeedReflow
+|
+nsChangeHint_ClearAncestorIntrinsics
+|
+nsChangeHint_ClearDescendantIntrinsics
+|
+nsChangeHint_NeedDirtyReflow
+|
+nsChangeHint_ReflowChangesSizeOrPosition
 )
 ;
 }
