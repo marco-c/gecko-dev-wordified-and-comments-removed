@@ -100,6 +100,13 @@ IsRootWrapper
 (
 )
 )
+{
+NS_ENSURE_TRUE
+(
+mRoot
+false
+)
+;
 return
 mRoot
 -
@@ -108,6 +115,7 @@ CanSkip
 (
 )
 ;
+}
 if
 (
 !
