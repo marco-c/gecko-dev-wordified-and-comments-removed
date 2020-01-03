@@ -345,7 +345,6 @@ editor
 yield
 focusEditableField
 (
-view
 valueSpan
 )
 ;
@@ -589,7 +588,6 @@ rgba
 yield
 simulateColorPickerChange
 (
-view
 picker
 rgbaColor
 )

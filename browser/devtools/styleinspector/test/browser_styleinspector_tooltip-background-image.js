@@ -1099,7 +1099,6 @@ ruleclose
 return
 focusEditableField
 (
-ruleView
 brace
 )
 ;
