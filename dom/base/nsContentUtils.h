@@ -270,6 +270,9 @@ class
 nsILineBreaker
 ;
 class
+nsILoadGroup
+;
+class
 nsIMessageBroadcaster
 ;
 class
@@ -1805,6 +1808,15 @@ IsInPrivateBrowsing
 nsIDocument
 *
 aDoc
+)
+;
+static
+bool
+IsInPrivateBrowsing
+(
+nsILoadGroup
+*
+aLoadGroup
 )
 ;
 static
