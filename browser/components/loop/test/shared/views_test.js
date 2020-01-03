@@ -195,6 +195,7 @@ Content
 Type
 "
 )
+{
 return
 "
 audio
@@ -202,6 +203,7 @@ audio
 ogg
 "
 ;
+}
 }
 responseType
 :
@@ -3404,6 +3406,7 @@ mozLoop
 "
 )
 )
+{
 sandbox
 .
 stub
@@ -3415,6 +3418,7 @@ mozLoop
 undefined
 )
 ;
+}
 }
 )
 ;

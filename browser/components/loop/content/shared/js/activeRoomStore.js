@@ -1681,11 +1681,8 @@ expires
 )
 ;
 actionData
-[
-"
+.
 sendTwoWayMediaTelemetry
-"
-]
 =
 this
 .

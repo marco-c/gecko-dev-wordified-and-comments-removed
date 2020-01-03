@@ -1190,9 +1190,11 @@ this
 .
 conversationInProgress
 )
+{
 return
 false
 ;
+}
 var
 callData
 =

@@ -322,6 +322,7 @@ style
 .
 maxWidth
 )
+{
 menu
 .
 style
@@ -332,6 +333,7 @@ maxWidth
 none
 "
 ;
+}
 if
 (
 menu
@@ -340,6 +342,7 @@ style
 .
 maxHeight
 )
+{
 menu
 .
 style
@@ -350,6 +353,7 @@ maxHeight
 none
 "
 ;
+}
 var
 x
 y

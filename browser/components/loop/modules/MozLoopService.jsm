@@ -3329,9 +3329,11 @@ gLocalizedStrings
 .
 size
 )
+{
 return
 gLocalizedStrings
 ;
+}
 let
 stringBundle
 =

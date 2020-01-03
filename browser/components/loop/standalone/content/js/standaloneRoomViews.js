@@ -773,6 +773,7 @@ props
 .
 roomUsed
 )
+{
 return
 (
 React
@@ -809,6 +810,7 @@ onFeedbackSent
 )
 )
 ;
+}
 this
 .
 onFeedbackSent

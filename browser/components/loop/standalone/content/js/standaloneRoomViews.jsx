@@ -890,6 +890,7 @@ props
 .
 roomUsed
 )
+{
 return
 (
 <
@@ -921,6 +922,7 @@ div
 >
 )
 ;
+}
 /
 /
 In

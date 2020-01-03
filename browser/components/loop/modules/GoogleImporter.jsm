@@ -503,6 +503,7 @@ getPrefType
 prefName
 )
 )
+{
 paramValue
 =
 Services
@@ -514,6 +515,7 @@ getCharPref
 prefName
 )
 ;
+}
 paramValue
 =
 Services

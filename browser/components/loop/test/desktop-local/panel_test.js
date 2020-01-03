@@ -2378,9 +2378,11 @@ pref
 support_url
 "
 )
+{
 return
 supportUrl
 ;
+}
 return
 "
 unseen

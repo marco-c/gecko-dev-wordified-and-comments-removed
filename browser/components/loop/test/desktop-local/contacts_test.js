@@ -3848,11 +3848,8 @@ fakeField
 expect
 (
 contact
-[
-"
+.
 fakeField
-"
-]
 [
 0
 ]
@@ -3936,11 +3933,8 @@ barbaz
 expect
 (
 contact
-[
-"
+.
 fakeField
-"
-]
 [
 0
 ]

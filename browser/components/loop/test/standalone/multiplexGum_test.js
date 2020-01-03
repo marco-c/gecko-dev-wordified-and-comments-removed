@@ -43,11 +43,8 @@ webkitGetUserMedia
 |
 (
 window
-[
-"
+.
 TBPlugin
-"
-]
 &
 &
 TBPlugin

@@ -1424,6 +1424,7 @@ tab
 .
 linkedBrowser
 )
+{
 tab
 .
 linkedBrowser
@@ -1435,6 +1436,7 @@ handle
 true
 )
 ;
+}
 reject
 (
 new
@@ -1480,6 +1482,7 @@ if
 (
 url
 )
+{
 tab
 .
 linkedBrowser
@@ -1489,6 +1492,7 @@ loadURI
 url
 )
 ;
+}
 }
 )
 ;
