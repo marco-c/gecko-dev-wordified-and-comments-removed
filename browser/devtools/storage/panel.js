@@ -373,6 +373,14 @@ destroy
 ;
 this
 .
+_front
+.
+destroy
+(
+)
+;
+this
+.
 _destroyed
 =
 true

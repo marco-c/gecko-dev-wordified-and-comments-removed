@@ -616,6 +616,7 @@ this
 .
 handleKeypress
 )
+;
 }
 hideSidebar
 :
