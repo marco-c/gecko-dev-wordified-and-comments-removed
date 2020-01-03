@@ -214,6 +214,9 @@ openh264
 imagecapture
 '
 '
+mediasink
+'
+'
 mediasource
 '
 '
@@ -998,11 +1001,6 @@ cpp
 '
 '
 AudioSegment
-.
-cpp
-'
-'
-AudioSink
 .
 cpp
 '

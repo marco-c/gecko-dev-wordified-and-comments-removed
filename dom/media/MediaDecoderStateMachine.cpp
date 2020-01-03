@@ -50,7 +50,9 @@ h
 #
 include
 "
-AudioSink
+mediasink
+/
+DecodedAudioDataSink
 .
 h
 "
@@ -4972,7 +4974,7 @@ IsPlaying
 )
 )
 ;
-StartAudioThread
+StartAudioSink
 (
 )
 ;
@@ -6667,7 +6669,7 @@ void
 MediaDecoderStateMachine
 :
 :
-StopAudioThread
+StopAudioSink
 (
 )
 {
@@ -8075,7 +8077,7 @@ void
 MediaDecoderStateMachine
 :
 :
-StartAudioThread
+StartAudioSink
 (
 )
 {
@@ -8122,7 +8124,7 @@ false
 mAudioSink
 =
 new
-AudioSink
+DecodedAudioDataSink
 (
 mAudioQueue
 GetMediaTime
@@ -11105,6 +11107,10 @@ StopPlayback
 )
 ;
 }
+MaybeStartPlayback
+(
+)
+;
 if
 (
 VideoQueue
@@ -11143,10 +11149,6 @@ IsFinished
 )
 )
 {
-MaybeStartPlayback
-(
-)
-;
 UpdateRenderedVideoFrames
 (
 )
@@ -11304,7 +11306,7 @@ mSentPlaybackEndedEvent
 =
 true
 ;
-StopAudioThread
+StopAudioSink
 (
 )
 ;
@@ -11376,7 +11378,7 @@ mState
 DECODER_STATE_DECODING_NONE
 )
 ;
-StopAudioThread
+StopAudioSink
 (
 )
 ;
@@ -14885,7 +14887,7 @@ mAudioCaptured
 self
 -
 >
-StopAudioThread
+StopAudioSink
 (
 )
 ;
@@ -15032,7 +15034,7 @@ IsPlaying
 self
 -
 >
-StartAudioThread
+StartAudioSink
 (
 )
 ;

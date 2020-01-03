@@ -1,13 +1,6 @@
 #
 include
 "
-AudioSink
-.
-h
-"
-#
-include
-"
 AudioStream
 .
 h
@@ -16,6 +9,13 @@ h
 include
 "
 MediaQueue
+.
+h
+"
+#
+include
+"
+DecodedAudioDataSink
 .
 h
 "
@@ -69,9 +69,10 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
-AudioSink
+DecodedAudioDataSink
 =
 %
 p
@@ -100,9 +101,10 @@ LogLevel
 :
 :
 Verbose
+\
 (
 "
-AudioSink
+DecodedAudioDataSink
 =
 %
 p
@@ -114,6 +116,9 @@ this
 __VA_ARGS__
 )
 )
+namespace
+media
+{
 static
 const
 int64_t
@@ -121,10 +126,10 @@ AUDIO_FUZZ_FRAMES
 =
 1
 ;
-AudioSink
+DecodedAudioDataSink
 :
 :
-AudioSink
+DecodedAudioDataSink
 (
 MediaQueue
 <
@@ -145,14 +150,14 @@ AudioChannel
 aChannel
 )
 :
-mAudioQueue
+AudioSink
 (
 aAudioQueue
 )
 mMonitor
 (
 "
-AudioSink
+DecodedAudioDataSink
 :
 :
 mMonitor
@@ -197,7 +202,7 @@ true
 {
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 SetState
@@ -219,7 +224,7 @@ aState
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 DispatchTask
@@ -261,7 +266,7 @@ rv
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 OnAudioQueueEvent
@@ -285,7 +290,7 @@ AudioLoop
 }
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 ConnectListener
@@ -311,7 +316,7 @@ Connect
 mThread
 this
 &
-AudioSink
+DecodedAudioDataSink
 :
 :
 OnAudioQueueEvent
@@ -332,7 +337,7 @@ Connect
 mThread
 this
 &
-AudioSink
+DecodedAudioDataSink
 :
 :
 OnAudioQueueEvent
@@ -340,7 +345,7 @@ OnAudioQueueEvent
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 DisconnectListener
@@ -365,7 +370,7 @@ Disconnect
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 ScheduleNextLoop
@@ -398,7 +403,7 @@ NS_NewRunnableMethod
 (
 this
 &
-AudioSink
+DecodedAudioDataSink
 :
 :
 AudioLoop
@@ -415,7 +420,7 @@ forget
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 ScheduleNextLoopCrossThread
@@ -428,7 +433,7 @@ AssertNotOnAudioThread
 ;
 nsRefPtr
 <
-AudioSink
+DecodedAudioDataSink
 >
 self
 =
@@ -482,7 +487,7 @@ nsRefPtr
 <
 GenericPromise
 >
-AudioSink
+DecodedAudioDataSink
 :
 :
 Init
@@ -551,7 +556,7 @@ p
 ;
 }
 int64_t
-AudioSink
+DecodedAudioDataSink
 :
 :
 GetPosition
@@ -601,7 +606,7 @@ mLastGoodPosition
 ;
 }
 bool
-AudioSink
+DecodedAudioDataSink
 :
 :
 HasUnplayedFrames
@@ -633,7 +638,7 @@ mWritten
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 Shutdown
@@ -665,7 +670,7 @@ Cancel
 }
 nsRefPtr
 <
-AudioSink
+DecodedAudioDataSink
 >
 self
 =
@@ -774,7 +779,7 @@ isNothing
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 SetVolume
@@ -789,7 +794,7 @@ AssertNotOnAudioThread
 ;
 nsRefPtr
 <
-AudioSink
+DecodedAudioDataSink
 >
 self
 =
@@ -846,7 +851,7 @@ forget
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 SetPlaybackRate
@@ -881,7 +886,7 @@ AudioStream
 ;
 nsRefPtr
 <
-AudioSink
+DecodedAudioDataSink
 >
 self
 =
@@ -938,7 +943,7 @@ forget
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 SetPreservesPitch
@@ -953,7 +958,7 @@ AssertNotOnAudioThread
 ;
 nsRefPtr
 <
-AudioSink
+DecodedAudioDataSink
 >
 self
 =
@@ -1010,7 +1015,7 @@ forget
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 SetPlaying
@@ -1025,7 +1030,7 @@ AssertNotOnAudioThread
 ;
 nsRefPtr
 <
-AudioSink
+DecodedAudioDataSink
 >
 self
 =
@@ -1166,7 +1171,7 @@ forget
 ;
 }
 nsresult
-AudioSink
+DecodedAudioDataSink
 :
 :
 InitializeAudioStream
@@ -1242,7 +1247,7 @@ NS_OK
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 Drain
@@ -1283,7 +1288,7 @@ Drain
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 Cleanup
@@ -1304,7 +1309,7 @@ __func__
 ;
 }
 bool
-AudioSink
+DecodedAudioDataSink
 :
 :
 ExpectMoreAudioData
@@ -1335,7 +1340,7 @@ IsFinished
 ;
 }
 bool
-AudioSink
+DecodedAudioDataSink
 :
 :
 WaitingForAudioToPlay
@@ -1372,7 +1377,7 @@ false
 ;
 }
 bool
-AudioSink
+DecodedAudioDataSink
 :
 :
 IsPlaybackContinuing
@@ -1406,7 +1411,7 @@ true
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 AudioLoop
@@ -1637,7 +1642,7 @@ ScheduleNextLoop
 }
 }
 bool
-AudioSink
+DecodedAudioDataSink
 :
 :
 PlayAudio
@@ -1806,7 +1811,7 @@ true
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 FinishAudioLoop
@@ -1867,7 +1872,7 @@ exit
 ;
 }
 uint32_t
-AudioSink
+DecodedAudioDataSink
 :
 :
 PlaySilence
@@ -1956,7 +1961,7 @@ frames
 ;
 }
 uint32_t
-AudioSink
+DecodedAudioDataSink
 :
 :
 PlayFromAudioQueue
@@ -2145,7 +2150,7 @@ mFrames
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 StartAudioStreamPlaybackIfNeeded
@@ -2202,7 +2207,7 @@ Start
 }
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 WriteSilence
@@ -2269,7 +2274,7 @@ StartAudioStreamPlaybackIfNeeded
 ;
 }
 int64_t
-AudioSink
+DecodedAudioDataSink
 :
 :
 GetEndTime
@@ -2326,7 +2331,7 @@ value
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 AssertOnAudioThread
@@ -2345,7 +2350,7 @@ mThread
 ;
 }
 void
-AudioSink
+DecodedAudioDataSink
 :
 :
 AssertNotOnAudioThread
@@ -2362,5 +2367,6 @@ NS_GetCurrentThread
 mThread
 )
 ;
+}
 }
 }
