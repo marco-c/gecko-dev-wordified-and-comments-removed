@@ -3726,6 +3726,16 @@ sIsPerformanceTimingEnabled
 }
 static
 bool
+IsUserTimingLoggingEnabled
+(
+)
+{
+return
+sIsUserTimingLoggingEnabled
+;
+}
+static
+bool
 IsResourceTimingEnabled
 (
 )
@@ -4684,6 +4694,10 @@ sIsPerformanceTimingEnabled
 static
 bool
 sIsResourceTimingEnabled
+;
+static
+bool
+sIsUserTimingLoggingEnabled
 ;
 static
 bool
