@@ -1663,6 +1663,13 @@ cpp
 '
 proxy
 /
+DirectProxyHandler
+.
+cpp
+'
+'
+proxy
+/
 jsproxy
 .
 cpp
