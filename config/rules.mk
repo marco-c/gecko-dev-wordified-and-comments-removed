@@ -6284,7 +6284,7 @@ host_
 )
 #
 The
-rust
+Rust
 compiler
 only
 outputs
@@ -6792,6 +6792,9 @@ REPORT_BUILD
 )
 (
 RUSTC
+)
+(
+RUSTFLAGS
 )
 -
 -
