@@ -599,6 +599,8 @@ ArrayBufferObject
 *
 >
 buffer
+bool
+hasStealableContents
 )
 ;
 bool
