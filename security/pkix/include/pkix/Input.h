@@ -805,7 +805,7 @@ input
 end
 ;
 }
-void
+Result
 SkipToEnd
 (
 Input
@@ -813,9 +813,7 @@ Input
 skipped
 )
 {
-(
-void
-)
+return
 Skip
 (
 static_cast
