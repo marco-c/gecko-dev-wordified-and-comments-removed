@@ -8941,7 +8941,7 @@ false
 ;
 }
 return
-GeckoAppShell
+GeckoThread
 :
 :
 PumpMessageLoop
