@@ -257,8 +257,9 @@ AnimationPlayer
 >
 ready
 ;
-/
-*
+[
+Throws
+]
 readonly
 attribute
 Promise
@@ -267,6 +268,8 @@ AnimationPlayer
 >
 finished
 ;
+/
+*
 void
 cancel
 (
