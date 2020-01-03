@@ -624,14 +624,6 @@ ins
 )
 ;
 void
-visitFilterArgumentsOrEval
-(
-MFilterArgumentsOrEval
-*
-ins
-)
-;
-void
 visitCallDirectEval
 (
 MCallDirectEval

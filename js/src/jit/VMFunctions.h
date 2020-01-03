@@ -3707,17 +3707,6 @@ Value
 vp
 )
 ;
-bool
-FilterArgumentsOrEval
-(
-JSContext
-*
-cx
-JSString
-*
-str
-)
-;
 void
 PostWriteBarrier
 (
