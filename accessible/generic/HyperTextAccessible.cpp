@@ -4606,6 +4606,16 @@ const
 {
 if
 (
+!
+HasOwnContent
+(
+)
+)
+return
+nullptr
+;
+if
+(
 mContent
 -
 >
