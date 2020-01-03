@@ -140,6 +140,13 @@ jsm
 '
 '
 PerformanceStats
+-
+content
+.
+js
+'
+'
+PerformanceStats
 .
 jsm
 '

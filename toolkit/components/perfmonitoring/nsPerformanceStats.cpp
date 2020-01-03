@@ -978,7 +978,7 @@ mProcessId
 ;
 groupId
 .
-AssignLiteral
+AppendLiteral
 (
 "
 thread
