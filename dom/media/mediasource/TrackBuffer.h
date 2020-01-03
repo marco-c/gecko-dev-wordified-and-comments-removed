@@ -395,6 +395,9 @@ ShutdownPromise
 >
 mShutdownPromise
 ;
+bool
+mDecoderPerSegment
+;
 }
 ;
 }
