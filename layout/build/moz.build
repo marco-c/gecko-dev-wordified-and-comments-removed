@@ -343,6 +343,12 @@ geolocation
 /
 dom
 /
+json
+'
+'
+/
+dom
+/
 media
 '
 '
@@ -350,14 +356,6 @@ media
 dom
 /
 speakermanager
-'
-'
-/
-dom
-/
-src
-/
-json
 '
 '
 /
