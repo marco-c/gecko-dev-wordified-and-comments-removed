@@ -2722,7 +2722,7 @@ else
 mMatrix2D
 -
 >
-Translate
+PreTranslate
 (
 aTx
 aTy
@@ -3061,7 +3061,7 @@ mMatrix2D
 mMatrix2D
 -
 >
-Rotate
+PreRotate
 (
 aAngle
 *

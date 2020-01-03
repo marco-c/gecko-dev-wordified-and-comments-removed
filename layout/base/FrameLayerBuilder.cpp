@@ -21981,7 +21981,7 @@ TopLeft
 ;
 maskTransform
 .
-Translate
+PreTranslate
 (
 -
 p
@@ -22003,7 +22003,7 @@ maskTransform
 ;
 imageTransform
 .
-Scale
+PreScale
 (
 mParameters
 .

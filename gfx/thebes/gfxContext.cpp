@@ -2117,7 +2117,7 @@ ChangeTransform
 (
 newMatrix
 .
-Translate
+PreTranslate
 (
 Float
 (
@@ -2156,7 +2156,7 @@ ChangeTransform
 (
 newMatrix
 .
-Scale
+PreScale
 (
 Float
 (
@@ -5910,12 +5910,9 @@ Invert
 (
 )
 ;
-Matrix
-deviceOffsetTranslation
-;
-deviceOffsetTranslation
+mat
 .
-Translate
+PreTranslate
 (
 deviceOffset
 .
@@ -5935,8 +5932,6 @@ new
 gfxPattern
 (
 src
-deviceOffsetTranslation
-*
 mat
 )
 ;
@@ -6033,12 +6028,9 @@ Invert
 (
 )
 ;
-Matrix
-deviceOffsetTranslation
-;
-deviceOffsetTranslation
+mat
 .
-Translate
+PreTranslate
 (
 deviceOffset
 .
@@ -6054,8 +6046,6 @@ CurrentState
 .
 surfTransform
 =
-deviceOffsetTranslation
-*
 mat
 ;
 }
