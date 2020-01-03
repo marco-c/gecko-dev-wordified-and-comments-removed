@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsIDOMHTMLBRElement
-.
-h
-"
-#
-include
-"
 nsUnicharUtilCIID
 .
 h
