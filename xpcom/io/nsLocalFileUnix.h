@@ -286,7 +286,7 @@ HAVE_LSTAT64
 !
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 if
