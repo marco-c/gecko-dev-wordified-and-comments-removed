@@ -117,6 +117,9 @@ schema
 ;
 return
 {
+Action
+:
+Action
 GetWindowData
 :
 Action

@@ -278,6 +278,7 @@ newRoomName
 "
 "
 }
+;
 }
 handleFormSubmit
 :

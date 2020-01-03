@@ -4185,10 +4185,8 @@ store
 .
 ActiveRoomStore
 (
+dispatcher
 {
-dispatcher
-:
-dispatcher
 mozLoop
 :
 navigator
@@ -4210,10 +4208,8 @@ store
 .
 RoomStore
 (
+dispatcher
 {
-dispatcher
-:
-dispatcher
 mozLoop
 :
 navigator

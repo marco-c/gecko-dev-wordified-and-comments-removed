@@ -853,10 +853,8 @@ store
 .
 RoomStore
 (
+dispatcher
 {
-dispatcher
-:
-dispatcher
 mozLoop
 :
 navigator
@@ -5177,10 +5175,8 @@ store
 .
 RoomStore
 (
+dispatcher
 {
-dispatcher
-:
-dispatcher
 mozLoop
 :
 navigator

@@ -426,6 +426,7 @@ newRoomName
 "
 "
 }
+;
 }
 handleFormSubmit
 :

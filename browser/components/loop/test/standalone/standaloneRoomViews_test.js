@@ -91,10 +91,8 @@ store
 .
 ActiveRoomStore
 (
+dispatcher
 {
-dispatcher
-:
-dispatcher
 mozLoop
 :
 {

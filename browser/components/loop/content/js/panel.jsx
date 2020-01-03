@@ -5497,15 +5497,13 @@ store
 .
 RoomStore
 (
+dispatcher
 {
 mozLoop
 :
 navigator
 .
 mozLoop
-dispatcher
-:
-dispatcher
 }
 )
 ;
