@@ -4822,19 +4822,11 @@ mochitest
 .
 log
     
-structured_logger
-=
-mochitest
-.
-structured_logger
-    
 message_logger
 .
 logger
 =
-mochitest
-.
-structured_logger
+log
     
 mochitest
 .
@@ -5687,7 +5679,7 @@ append
 test
 )
         
-structured_logger
+log
 .
 suite_start
 (

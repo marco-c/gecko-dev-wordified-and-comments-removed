@@ -1388,6 +1388,11 @@ thread
 :
 "
 "
+js_source
+:
+"
+TestRunner
+"
 pid
 :
 null
