@@ -8,7 +8,7 @@ mozilla_throw_msvc_h
 if
 defined
 (
-MOZ_MSVC_STL_WRAP__RAISE
+MOZ_MSVC_STL_WRAP_RAISE
 )
 #
 include
@@ -21,7 +21,7 @@ h
 elif
 defined
 (
-MOZ_MSVC_STL_WRAP__Throw
+MOZ_MSVC_STL_WRAP_Throw
 )
 #
 include

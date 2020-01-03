@@ -14,6 +14,12 @@ HEADER
 _h
 #
 if
+defined
+(
+__EXCEPTIONS
+)
+&
+&
 __EXCEPTIONS
 &
 &
