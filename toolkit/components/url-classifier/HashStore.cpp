@@ -1413,6 +1413,12 @@ Header
 )
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 rv
 =
 mAddChunks
@@ -1569,6 +1575,12 @@ nsISeekableStream
 :
 NS_SEEK_SET
 offset
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 rv
