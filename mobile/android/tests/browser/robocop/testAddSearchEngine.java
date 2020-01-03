@@ -904,8 +904,10 @@ return
 false
 ;
 }
-return
-(
+final
+int
+actualCount
+=
 searchResultList
 .
 getAdapter
@@ -925,6 +927,12 @@ getAdapter
 getCount
 (
 )
+-
+1
+;
+return
+(
+actualCount
 =
 =
 expectedCount
