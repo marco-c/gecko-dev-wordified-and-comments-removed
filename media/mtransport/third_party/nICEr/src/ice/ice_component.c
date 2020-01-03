@@ -2141,11 +2141,11 @@ r
 ;
 }
 else
-{
 if
 (
 suppress
 )
+{
 continue
 ;
 }
