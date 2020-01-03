@@ -214,6 +214,16 @@ so_sock_count
 "
 #
 define
+NR_ICE_REG_ICE_TCP_LISTEN_BACKLOG
+"
+ice
+.
+tcp
+.
+listen_backlog
+"
+#
+define
 NR_ICE_REG_KEEPALIVE_TIMER
 "
 ice
