@@ -3852,7 +3852,7 @@ nsIDOMEvent
 aDOMTextEvent
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aDOMTextEvent
 "

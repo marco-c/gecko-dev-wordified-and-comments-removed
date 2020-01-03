@@ -63,7 +63,7 @@ data
 +
 1
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 value
 <
@@ -101,7 +101,7 @@ value
 1
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 data
 =
@@ -608,7 +608,7 @@ data
 +
 1
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 data
 <
@@ -661,7 +661,7 @@ data
 1
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 data
 =

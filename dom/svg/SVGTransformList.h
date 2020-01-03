@@ -318,7 +318,7 @@ nsSVGTransform
 aTransform
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aIndex
 <
@@ -353,7 +353,7 @@ uint32_t
 aIndex
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aIndex
 <

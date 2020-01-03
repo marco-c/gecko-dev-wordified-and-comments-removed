@@ -7680,7 +7680,7 @@ scale
 aLayersUpdated
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 viewTransform
 "
@@ -7931,7 +7931,7 @@ scale
 aIsFirstPaint
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 viewTransform
 "

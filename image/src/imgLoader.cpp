@@ -4757,7 +4757,7 @@ trackersize
 +
 +
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 queuesize
 =
@@ -4775,7 +4775,7 @@ sync
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 queuesize
 <
@@ -5475,7 +5475,7 @@ nullptr
 }
 else
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 "
@@ -7840,7 +7840,7 @@ Remove
 spec
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 entry
@@ -8996,7 +8996,7 @@ get
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 request
@@ -10111,7 +10111,7 @@ get
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 request
@@ -11615,7 +11615,7 @@ i
 ]
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 proxy
 -

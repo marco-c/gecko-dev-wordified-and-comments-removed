@@ -74,7 +74,7 @@ nsStyleStructID
 aIndex
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 MinIndex
 <
@@ -117,7 +117,7 @@ aIndex
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 MinIndex
 <
@@ -571,7 +571,7 @@ nsStyleStructID
 aSID
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 <

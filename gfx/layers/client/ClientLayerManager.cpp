@@ -842,7 +842,7 @@ mPhase
 =
 PHASE_CONSTRUCTION
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mKeepAlive
 .
@@ -2933,7 +2933,7 @@ Layer
 aLayer
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 HasShadowManager
 (
@@ -2964,7 +2964,7 @@ ToClientLayer
 aLayer
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 shadowable
 "

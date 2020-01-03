@@ -2172,7 +2172,7 @@ PluginModuleChild
 data
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 !
@@ -2188,7 +2188,7 @@ descheduling
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 pmc
 -
@@ -2268,7 +2268,7 @@ PluginModuleChild
 data
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 pmc
 -
@@ -2310,7 +2310,7 @@ EnteredCxxStack
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 =
@@ -2358,7 +2358,7 @@ ExitedCxxStack
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -2396,7 +2396,7 @@ EnteredCxxStack
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mNestedLoopTimerObject
 =
@@ -2442,7 +2442,7 @@ ExitedCxxStack
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mNestedLoopTimerObject
 !
@@ -2583,7 +2583,7 @@ gtk_plug_class
 >
 dispose
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 *
 dispose
@@ -4588,7 +4588,7 @@ NPP
 aNPP
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 !

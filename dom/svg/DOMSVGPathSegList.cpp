@@ -555,7 +555,7 @@ newSegType
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 (
 index
@@ -757,7 +757,7 @@ dataIndex
 ;
 }
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 dataIndex
 =
@@ -770,7 +770,7 @@ error
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 index
 =
@@ -857,7 +857,7 @@ InternalAList
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mElement
 -
@@ -2029,7 +2029,7 @@ uint32_t
 aArgCountForItem
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 IsAnimValList
@@ -2078,7 +2078,7 @@ animVal
 return
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 animVal
 -
@@ -2146,7 +2146,7 @@ int32_t
 aArgCountForItem
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 IsAnimValList
@@ -2197,7 +2197,7 @@ animVal
 return
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 animVal
 -

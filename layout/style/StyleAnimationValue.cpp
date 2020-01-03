@@ -682,7 +682,7 @@ case
 eCSSKeyword_translate
 :
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aArray
 -
@@ -771,7 +771,7 @@ case
 eCSSKeyword_translatex
 :
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aArray
 -
@@ -831,7 +831,7 @@ case
 eCSSKeyword_translatey
 :
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aArray
 -
@@ -891,7 +891,7 @@ case
 eCSSKeyword_translatez
 :
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aArray
 -
@@ -951,7 +951,7 @@ case
 eCSSKeyword_scale
 :
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aArray
 -
@@ -1046,7 +1046,7 @@ case
 eCSSKeyword_scalex
 :
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aArray
 -
@@ -1106,7 +1106,7 @@ case
 eCSSKeyword_scaley
 :
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aArray
 -
@@ -1166,7 +1166,7 @@ case
 eCSSKeyword_scalez
 :
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aArray
 -
@@ -1278,7 +1278,7 @@ nsCSSValueList
 aResultTail
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aShadow
 "
@@ -1469,7 +1469,7 @@ nsCSSValue
 aValue
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 .
@@ -1498,7 +1498,7 @@ GetArrayValue
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 arr
 -
@@ -1570,7 +1570,7 @@ false
 }
 else
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 topval
 .
@@ -1625,7 +1625,7 @@ Item
 1
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 len
 .
@@ -1641,7 +1641,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 pct
 .
@@ -1793,7 +1793,7 @@ return
 result
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 .
@@ -2303,7 +2303,7 @@ GetArrayValue
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 posArray
 -
@@ -2376,7 +2376,7 @@ i
 i
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 posArray
 -
@@ -2432,7 +2432,7 @@ GetArrayValue
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 posArray
 -
@@ -2505,7 +2505,7 @@ i
 i
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 posArray
 -
@@ -3613,7 +3613,7 @@ break
 }
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -4016,7 +4016,7 @@ break
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -4202,7 +4202,7 @@ sides
 i
 ]
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 (
 rect1
@@ -4296,7 +4296,7 @@ break
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -4403,7 +4403,7 @@ GetCSSValueListValue
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 list1
@@ -4445,7 +4445,7 @@ list2
 >
 mValue
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 val1
 .
@@ -4522,7 +4522,7 @@ break
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -4556,7 +4556,7 @@ list2
 >
 mNext
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 list1
@@ -4660,7 +4660,7 @@ squareDistance
 .
 0
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 shadow1
@@ -4730,7 +4730,7 @@ i
 i
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 array1
 -
@@ -4752,7 +4752,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 array2
 -
@@ -4865,7 +4865,7 @@ Item
 5
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 (
 (
@@ -4978,7 +4978,7 @@ color2Value
 colorDistance
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 ok
 "
@@ -5010,7 +5010,7 @@ shadow2
 >
 mNext
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 shadow1
@@ -5083,7 +5083,7 @@ squareDistance
 .
 0
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 position1
@@ -5494,7 +5494,7 @@ true
 ;
 }
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -5699,7 +5699,7 @@ break
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -5770,7 +5770,7 @@ aValueRestrictions
 0
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue1
 .
@@ -5786,7 +5786,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue2
 .
@@ -5855,7 +5855,7 @@ aValueRestrictions
 0
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue1
 .
@@ -5871,7 +5871,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue2
 .
@@ -5940,7 +5940,7 @@ aValueRestrictions
 0
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue1
 .
@@ -5956,7 +5956,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue2
 .
@@ -6270,7 +6270,7 @@ GetUnit
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 unit
 =
@@ -6409,7 +6409,7 @@ nsCSSValueList
 aResultTail
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue1
 .
@@ -6425,7 +6425,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue2
 .
@@ -6691,7 +6691,7 @@ color2Value
 resultColorValue
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 ok
 "
@@ -6719,7 +6719,7 @@ GetColorValue
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 inset1
 =
@@ -6797,7 +6797,7 @@ nsCSSValue
 aResult
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue1
 .
@@ -6830,7 +6830,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue2
 .
@@ -6953,7 +6953,7 @@ nsCSSValue
 aResult
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue1
 .
@@ -6969,7 +6969,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue2
 .
@@ -8520,7 +8520,7 @@ nsCSSValueList
 aResultTail
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aList1
 "
@@ -8530,7 +8530,7 @@ list
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aList2
 "
@@ -8540,7 +8540,7 @@ list
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aList1
 -
@@ -8559,7 +8559,7 @@ function
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aList2
 -
@@ -8870,7 +8870,7 @@ getter_Transfers
 shadowValue
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 funcArg1
@@ -8948,7 +8948,7 @@ break
 }
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -9009,7 +9009,7 @@ nsCSSValueList
 aResultTail
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aList1
 |
@@ -9143,7 +9143,7 @@ GetArrayValue
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 TransformFunctionsMatch
 (
@@ -9169,7 +9169,7 @@ mismatch
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 *
@@ -9263,7 +9263,7 @@ case
 eCSSKeyword_translate3d
 :
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 a1
 -
@@ -9280,7 +9280,7 @@ count
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 a2
 -
@@ -9385,7 +9385,7 @@ case
 eCSSKeyword_scale3d
 :
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 a1
 -
@@ -9402,7 +9402,7 @@ count
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 a2
 -
@@ -9507,7 +9507,7 @@ case
 eCSSKeyword_skew
 :
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 a1
 -
@@ -9535,7 +9535,7 @@ count
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 a2
 -
@@ -9672,7 +9672,7 @@ case
 eCSSKeyword_rotatez
 :
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 a1
 -
@@ -9689,7 +9689,7 @@ count
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 a2
 -
@@ -10022,7 +10022,7 @@ break
 }
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -10053,7 +10053,7 @@ while
 aList1
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 aList2
@@ -10064,7 +10064,7 @@ mismatch
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 *
@@ -11475,7 +11475,7 @@ member
 )
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -11753,7 +11753,7 @@ member
 )
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -11787,7 +11787,7 @@ case
 eUnit_CSSRect
 :
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 nsCSSProps
 :
@@ -11965,7 +11965,7 @@ sides
 i
 ]
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 (
 rect1
@@ -12078,7 +12078,7 @@ break
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -12190,7 +12190,7 @@ mNext
 len2
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 len1
 >
@@ -12234,7 +12234,7 @@ GetUnit
 eCSSUnit_None
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 (
 list1
@@ -12358,7 +12358,7 @@ list2
 >
 mValue
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 v1
 .
@@ -12383,7 +12383,7 @@ unexpected
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 v2
 .
@@ -12785,7 +12785,7 @@ list1
 list2
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 *
@@ -12892,7 +12892,7 @@ mNext
 ;
 }
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 *
@@ -13637,7 +13637,7 @@ true
 ;
 }
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -13944,7 +13944,7 @@ bool
 aIsContextSensitive
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aTargetElement
 "
@@ -13954,7 +13954,7 @@ element
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aTargetElement
 -
@@ -15256,7 +15256,7 @@ break
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -15641,7 +15641,7 @@ StyleAnimationValue
 aComputedValue
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -15699,7 +15699,7 @@ kAnimTypeTable
 aProperty
 ]
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -16445,7 +16445,7 @@ nsStyleSVG
 styleStruct
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 (
 svg
@@ -16489,7 +16489,7 @@ svg
 mStrokeDasharray
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 svg
 -
@@ -16651,7 +16651,7 @@ break
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -17231,7 +17231,7 @@ getter_Transfers
 result
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 bg
 -
@@ -17356,7 +17356,7 @@ getter_Transfers
 result
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 bg
 -
@@ -17520,7 +17520,7 @@ mLength
 0
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 size
 .
@@ -17689,7 +17689,7 @@ mLength
 0
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 size
 .
@@ -18120,7 +18120,7 @@ GetDropShadow
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 shadowArray
 -
@@ -18334,7 +18334,7 @@ break
 }
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -19121,7 +19121,7 @@ return
 true
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 paint
 .
@@ -19567,7 +19567,7 @@ eUnit_Calc
 case
 eUnit_ObjectPosition
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsCSSValueUnit
 (
@@ -19586,7 +19586,7 @@ units
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aOther
 .
@@ -19622,7 +19622,7 @@ break
 case
 eUnit_CSSValuePair
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aOther
 .
@@ -19659,7 +19659,7 @@ break
 case
 eUnit_CSSValueTriplet
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aOther
 .
@@ -19696,7 +19696,7 @@ break
 case
 eUnit_CSSRect
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aOther
 .
@@ -19741,7 +19741,7 @@ eUnit_Filter
 case
 eUnit_BackgroundPosition
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -19838,7 +19838,7 @@ break
 case
 eUnit_CSSValuePairList
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aOther
 .
@@ -19876,7 +19876,7 @@ break
 case
 eUnit_UnparsedString
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aOther
 .
@@ -20195,7 +20195,7 @@ FreeValue
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsCSSValueUnit
 (
@@ -20207,7 +20207,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 !
@@ -20250,7 +20250,7 @@ FreeValue
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsCSSValuePairUnit
 (
@@ -20262,7 +20262,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValuePair
 !
@@ -20306,7 +20306,7 @@ FreeValue
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsCSSValueTripletUnit
 (
@@ -20318,7 +20318,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValueTriplet
 !
@@ -20362,7 +20362,7 @@ FreeValue
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsCSSRectUnit
 (
@@ -20374,7 +20374,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aRect
 !
@@ -20418,7 +20418,7 @@ FreeValue
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsCSSValueListUnit
 (
@@ -20430,7 +20430,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aUnit
 =
@@ -20524,7 +20524,7 @@ FreeValue
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValuePairList
 "
@@ -20671,7 +20671,7 @@ mUnit
 )
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mValue
 .
@@ -20820,7 +20820,7 @@ eUnit_Calc
 case
 eUnit_ObjectPosition
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsCSSValueUnit
 (

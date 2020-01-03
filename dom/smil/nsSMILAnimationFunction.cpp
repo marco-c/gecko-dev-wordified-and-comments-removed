@@ -927,7 +927,7 @@ mErrorFlags
 )
 return
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mSampleTime
 >
@@ -947,7 +947,7 @@ animation
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mSimpleDuration
 .
@@ -1280,7 +1280,7 @@ return
 -
 1
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mAnimationElement
 !
@@ -1513,7 +1513,7 @@ GetMillis
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 dur
 >
@@ -1529,7 +1529,7 @@ negative
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mSampleTime
 >
@@ -1790,7 +1790,7 @@ rv
 )
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 from
 "
@@ -1803,7 +1803,7 @@ interpolation
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 to
 "
@@ -1816,7 +1816,7 @@ interpolation
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 .
@@ -2117,7 +2117,7 @@ mode
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValues
 .
@@ -2293,7 +2293,7 @@ i
 curIntervalDist
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_SUCCEEDED
 (
@@ -2550,7 +2550,7 @@ return
 COMPUTE_DISTANCE_ERROR
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 tmpDist
 >
@@ -2688,7 +2688,7 @@ i
 ]
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 i
 =
@@ -2708,9 +2708,9 @@ current
 interval
 yet
 the
-"
-"
 current
+"
+"
 interval
 is
 not
@@ -2835,7 +2835,7 @@ keySplines
 return
 aProgress
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aIntervalIndex
 <

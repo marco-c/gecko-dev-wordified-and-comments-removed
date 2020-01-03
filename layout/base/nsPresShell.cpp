@@ -50645,7 +50645,7 @@ if
 displayDoc
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 container
@@ -50657,6 +50657,8 @@ shouldn
 '
 t
 have
+"
+"
 its
 own
 container

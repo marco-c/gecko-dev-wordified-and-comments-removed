@@ -5392,7 +5392,7 @@ mUpdate
 =
 aUpdate
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -5431,7 +5431,7 @@ StartStagedUpdate
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 NS_IsMainThread
@@ -5544,7 +5544,7 @@ ShutdownWatcherThread
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -5580,7 +5580,7 @@ WaitForProcess
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 NS_IsMainThread
@@ -5621,7 +5621,7 @@ UpdateDone
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (

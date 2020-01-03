@@ -1455,7 +1455,7 @@ PathLengthScaleForType
 aFor
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFor
 =

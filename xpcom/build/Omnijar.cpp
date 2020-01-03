@@ -660,7 +660,7 @@ nsIFile
 aPath
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsInitialized
 (
@@ -793,7 +793,7 @@ nsACString
 aResult
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsInitialized
 (

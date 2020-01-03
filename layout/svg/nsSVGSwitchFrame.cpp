@@ -772,7 +772,7 @@ mistake
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 (
@@ -872,7 +872,7 @@ if
 svgChild
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 (

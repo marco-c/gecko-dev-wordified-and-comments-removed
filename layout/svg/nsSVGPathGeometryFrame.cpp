@@ -247,7 +247,7 @@ MOZ_COUNT_CTOR
 nsDisplaySVGPathGeometry
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrame
 "
@@ -1663,7 +1663,7 @@ mistake
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 (
@@ -1887,7 +1887,7 @@ uint32_t
 aFlags
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFlags
 &

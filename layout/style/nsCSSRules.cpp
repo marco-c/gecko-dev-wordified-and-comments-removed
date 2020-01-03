@@ -284,7 +284,7 @@ aRuleData
 )
 \
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -1985,7 +1985,7 @@ GroupRule
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mSheet
@@ -8585,7 +8585,7 @@ Declaration
 aDecl
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aDecl
 "
@@ -9200,7 +9200,7 @@ Length
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 i_end
 !
@@ -10449,7 +10449,7 @@ nsMediaQueryResultCacheKey
 aKey
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -10652,7 +10652,7 @@ Declaration
 aDecl
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aDecl
 "
@@ -12778,7 +12778,7 @@ GetDesc
 eCSSCounterDesc_System
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 system
 .
@@ -12819,7 +12819,7 @@ nsCSSValue
 aValue
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aDescID
 >

@@ -1938,7 +1938,7 @@ oldTileCount
 ;
 }
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aNewValidRegion
 .
@@ -1976,7 +1976,7 @@ aPaintRegion
 ;
 #
 endif
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 oldAndPainted
 .
@@ -2345,7 +2345,7 @@ mRetainedHeight
 +
 tileY
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 index
 >
@@ -2585,7 +2585,7 @@ i
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 oldTileCount
 =

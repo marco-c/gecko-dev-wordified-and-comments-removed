@@ -320,7 +320,7 @@ mValue
 0f
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aList
 &
@@ -347,7 +347,7 @@ arg
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IndexIsValid
 (
@@ -716,7 +716,7 @@ mIsAnimValItem
 =
 aIsAnimValItem
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IndexIsValid
 (

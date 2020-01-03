@@ -1248,7 +1248,7 @@ Length
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 i
 !
@@ -1488,7 +1488,7 @@ return
 nullptr
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 collection
 "
@@ -1499,6 +1499,8 @@ transitions
 if
 we
 started
+"
+"
 any
 transitions
 "
@@ -1739,7 +1741,7 @@ nsCSSPropertySet
 aWhichStarted
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 nsCSSProps
@@ -2630,7 +2632,7 @@ i_end
 i
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 players
 [
@@ -2676,7 +2678,7 @@ transition
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 i
 =
@@ -2958,7 +2960,7 @@ TimeStamp
 aTime
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mPresContext
 "
@@ -3131,7 +3133,7 @@ CanThrottleAnimation
 now
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 collection
 -
@@ -3179,7 +3181,7 @@ Length
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 i
 !

@@ -3055,7 +3055,7 @@ rv
 return
 rv
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 preLength
 >

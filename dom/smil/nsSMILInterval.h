@@ -57,7 +57,7 @@ Begin
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mBegin
 &
@@ -95,7 +95,7 @@ End
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mBegin
 &

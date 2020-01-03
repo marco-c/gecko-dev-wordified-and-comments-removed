@@ -7462,7 +7462,7 @@ if
 mCleanMessageManager
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mIsChrome
 "
@@ -34001,7 +34001,7 @@ Run
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mTargetWindow
 -
@@ -34021,7 +34021,7 @@ window
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mSource
@@ -34103,7 +34103,7 @@ IsClosedOrClosing
 return
 NS_OK
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 targetWindow
 -
@@ -34505,7 +34505,7 @@ if
 callerInnerWin
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 callerInnerWin
 -

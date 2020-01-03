@@ -70,7 +70,7 @@ mParentHandle
 parentHandle
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mUILoop
 "
@@ -83,7 +83,7 @@ now
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 gProcessChild

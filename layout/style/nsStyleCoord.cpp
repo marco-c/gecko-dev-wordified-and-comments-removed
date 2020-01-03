@@ -333,7 +333,7 @@ GetCalcValue
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -501,7 +501,7 @@ return
 aHash
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "

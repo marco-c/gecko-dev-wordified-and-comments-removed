@@ -218,7 +218,7 @@ aNamespaceID
 aExtraName
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aOwnerManager
 "
@@ -511,7 +511,7 @@ break
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aNodeType
 =

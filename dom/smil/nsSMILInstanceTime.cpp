@@ -130,7 +130,7 @@ nsSMILInstanceTime
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mBaseInterval
@@ -147,7 +147,7 @@ Unlink
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mFixedEndpointRefCnt
 =
@@ -164,11 +164,11 @@ used
 as
 the
 fixed
-"
-"
 endpoint
 of
 an
+"
+"
 interval
 "
 )
@@ -238,7 +238,7 @@ mBaseInterval
 )
 return
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mCreator
 "
@@ -329,7 +329,7 @@ HandleDeletedInterval
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mBaseInterval
 "
@@ -341,13 +341,11 @@ on
 an
 independent
 instance
-"
-"
 time
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mCreator
 "
@@ -403,7 +401,7 @@ HandleFilteredInterval
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mBaseInterval
 "
@@ -415,8 +413,6 @@ on
 an
 independent
 instance
-"
-"
 time
 "
 )
@@ -481,7 +477,7 @@ AddRefFixedEndpoint
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mFixedEndpointRefCnt
 <
@@ -516,7 +512,7 @@ ReleaseFixedEndpoint
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mFixedEndpointRefCnt
 >
@@ -646,7 +642,7 @@ return
 nullptr
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mCreator
 "
@@ -707,7 +703,7 @@ nsSMILInterval
 aBaseInterval
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mBaseInterval
@@ -721,8 +717,6 @@ time
 with
 a
 different
-"
-"
 interval
 .
 "
@@ -733,7 +727,7 @@ if
 aBaseInterval
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mCreator
 "
@@ -745,9 +739,9 @@ dependent
 instance
 time
 without
-"
-"
 reference
+"
+"
 to
 the
 creating

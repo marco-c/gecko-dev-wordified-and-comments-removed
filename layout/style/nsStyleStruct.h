@@ -705,7 +705,7 @@ GetImageData
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mType
 =
@@ -721,7 +721,7 @@ image
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mImageTracked
 "
@@ -1461,7 +1461,7 @@ aBgPositioningArea
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mWidthType
 =
@@ -1500,7 +1500,7 @@ aBgPositioningArea
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mHeightType
 =
@@ -2818,7 +2818,7 @@ uint32_t
 i
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 i
 <
@@ -2856,7 +2856,7 @@ i
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 i
 <
@@ -5801,7 +5801,7 @@ uint8_t
 aStyle
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 (
 aStyle
@@ -7134,7 +7134,7 @@ mType
 aType
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mType
 =
@@ -9245,7 +9245,7 @@ imgRequestProxy
 aRequest
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mImageTracked
@@ -9263,7 +9263,7 @@ one
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mType
 =

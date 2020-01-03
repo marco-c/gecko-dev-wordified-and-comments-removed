@@ -393,7 +393,7 @@ mTransform
 nullptr
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aList
 &
@@ -410,7 +410,7 @@ arg
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IndexIsValid
 (
@@ -1232,7 +1232,7 @@ bool
 aIsAnimValItem
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 HasOwner
@@ -1266,7 +1266,7 @@ mTransform
 =
 nullptr
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IndexIsValid
 (
@@ -1289,7 +1289,7 @@ RemovingFromList
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mTransform
@@ -1485,7 +1485,7 @@ gfxMatrix
 aMatrix
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mIsAnimValItem

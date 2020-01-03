@@ -128,7 +128,7 @@ Type
 aType
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsInitialized
 (
@@ -168,7 +168,7 @@ Type
 aType
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsInitialized
 (
@@ -201,7 +201,7 @@ Type
 aType
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsInitialized
 (

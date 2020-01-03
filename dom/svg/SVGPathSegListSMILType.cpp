@@ -58,7 +58,7 @@ aValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 .
@@ -347,7 +347,7 @@ const_iterator
 aPathData2
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 SVGPathSegUtils
 :
@@ -376,7 +376,7 @@ segment
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 SVGPathSegUtils
 :
@@ -662,7 +662,7 @@ endType
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 pStart
 <
@@ -829,7 +829,7 @@ iterator
 aResultSeg
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aSeg2
 "
@@ -843,7 +843,7 @@ null
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aResultSeg
 "
@@ -871,7 +871,7 @@ aSeg2
 ]
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 aSeg1
@@ -921,7 +921,7 @@ if
 isArcType
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 aSeg1
@@ -1092,7 +1092,7 @@ SVGPathDataAndInfo
 aResult
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aCoeff1
 >
@@ -1117,7 +1117,7 @@ coefficients
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 aList2
@@ -1137,7 +1137,7 @@ identity
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aList1
 .
@@ -1178,7 +1178,7 @@ list
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aResult
 .
@@ -1311,7 +1311,7 @@ Length
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 success
 "
@@ -1379,7 +1379,7 @@ resultIter
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 (
 !
@@ -1536,7 +1536,7 @@ aState
 return
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 SVGPathSegUtils
 :
@@ -1573,7 +1573,7 @@ eRelativeToAbsolute
 :
 eAbsoluteToRelative
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 segmentLengthIncludingType
 =
@@ -1990,7 +1990,7 @@ state
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aStart
 =
@@ -2128,7 +2128,7 @@ IsIdentity
 )
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 dest
 .
@@ -2414,7 +2414,7 @@ mU
 mPtr
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 result
 .
@@ -2486,7 +2486,7 @@ Length
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 success
 "

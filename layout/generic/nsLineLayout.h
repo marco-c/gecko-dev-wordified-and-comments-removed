@@ -421,7 +421,7 @@ nscoord
 aAvailableISize
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mBlockRS
 "
@@ -430,6 +430,8 @@ not
 call
 this
 method
+"
+"
 if
 there
 is
@@ -437,8 +439,6 @@ no
 block
 reflow
 state
-"
-"
 available
 "
 )

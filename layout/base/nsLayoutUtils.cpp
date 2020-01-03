@@ -3873,7 +3873,7 @@ ViewID
 aId
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aId
 !
@@ -11038,7 +11038,7 @@ nscoord
 aYRadius
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aXOffset
 >
@@ -11058,7 +11058,7 @@ CheckCorner
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aXRadius
 >
@@ -35641,7 +35641,7 @@ EffectiveWidth
 ;
 }
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "

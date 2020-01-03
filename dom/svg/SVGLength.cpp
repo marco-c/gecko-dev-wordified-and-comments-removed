@@ -308,7 +308,7 @@ uint8_t
 aPerUnit
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsAbsoluteUnit
 (
@@ -323,7 +323,7 @@ unit
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsAbsoluteUnit
 (

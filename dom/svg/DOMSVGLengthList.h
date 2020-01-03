@@ -189,7 +189,7 @@ LengthNoFlush
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mItems
 .
@@ -469,7 +469,7 @@ IsAnimValList
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 this
 =

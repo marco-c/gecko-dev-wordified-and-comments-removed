@@ -696,7 +696,7 @@ InternalAList
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mElement
 -
@@ -1634,7 +1634,7 @@ uint32_t
 aIndex
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 IsAnimValList
@@ -1683,7 +1683,7 @@ animVal
 return
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 animVal
 -
@@ -1750,7 +1750,7 @@ uint32_t
 aIndex
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 IsAnimValList
@@ -1801,7 +1801,7 @@ animVal
 return
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 animVal
 -

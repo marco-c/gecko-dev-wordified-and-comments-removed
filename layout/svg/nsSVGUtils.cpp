@@ -808,7 +808,7 @@ nsRect
 aPreFilterRect
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrame
 -
@@ -963,7 +963,7 @@ nsIFrame
 aFrame
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrame
 -
@@ -1142,7 +1142,7 @@ GetParent
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 f
 -
@@ -1176,7 +1176,7 @@ nsSVGOuterSVGFrame
 f
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 outerSVGFrame
 &
@@ -1267,7 +1267,7 @@ nsIFrame
 aFrame
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrame
 -
@@ -1306,7 +1306,7 @@ nsIFrame
 aFrame
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 (
@@ -4540,7 +4540,7 @@ nsGkAtoms
 svgUseFrame
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 content
 -
@@ -5781,7 +5781,7 @@ GetContent
 (
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 content
 -

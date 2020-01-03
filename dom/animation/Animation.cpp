@@ -134,7 +134,7 @@ double
 aPortion
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 .
@@ -232,7 +232,7 @@ aPortion
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "

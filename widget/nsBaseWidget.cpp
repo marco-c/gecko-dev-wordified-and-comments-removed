@@ -1265,7 +1265,7 @@ nullptr
 :
 parent
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 parent

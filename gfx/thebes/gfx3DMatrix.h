@@ -369,7 +369,7 @@ int
 aIndex
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aIndex
 >
@@ -420,7 +420,7 @@ aIndex
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aIndex
 >

@@ -216,7 +216,7 @@ nsCSSProperty
 aProperty
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mData
@@ -234,7 +234,7 @@ expanded
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 nsCSSProps
@@ -309,7 +309,7 @@ ExpandTo
 data
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mData
@@ -414,7 +414,7 @@ aProperty
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -485,7 +485,7 @@ aSerialization
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -723,7 +723,7 @@ ValueFor
 p
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 val
@@ -1094,7 +1094,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 nsCSSProps
 :
@@ -1126,7 +1126,7 @@ top
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 nsCSSProps
 :
@@ -1158,7 +1158,7 @@ right
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 nsCSSProps
 :
@@ -1190,7 +1190,7 @@ bottom
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 nsCSSProps
 :
@@ -1867,7 +1867,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 StringEndsWith
 (
@@ -2388,7 +2388,7 @@ aSerialization
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 clip
 -
@@ -4033,7 +4033,7 @@ ValueFor
 eCSSProperty_text_decoration_style
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 decorationStyle
 -
@@ -4211,7 +4211,7 @@ ValueFor
 eCSSProperty_transition_delay
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 transDuration
 -
@@ -4257,7 +4257,7 @@ get
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 transTiming
 -
@@ -4303,7 +4303,7 @@ get
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 transDelay
 -
@@ -4535,7 +4535,7 @@ Truncate
 }
 else
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 transProp
 -
@@ -4787,7 +4787,7 @@ numProps
 =
 8
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 subprops
 [
@@ -4852,7 +4852,7 @@ i
 ]
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 values
 [
@@ -4929,7 +4929,7 @@ for
 ;
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 subprops
 [
@@ -5298,7 +5298,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 subprops
 [
@@ -5370,7 +5370,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 subprops
 [
@@ -5437,7 +5437,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 subprops
 [
@@ -6286,7 +6286,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 subprops
 [
@@ -6324,7 +6324,7 @@ break
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -6516,7 +6516,7 @@ aResult
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -6536,7 +6536,7 @@ range
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 (
 aProperty
@@ -7313,7 +7313,7 @@ doneProperty
 )
 continue
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 value
 .
@@ -7552,7 +7552,7 @@ InitializeEmpty
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mData
@@ -7585,7 +7585,7 @@ EnsureMutable
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mData
 "

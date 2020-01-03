@@ -4262,7 +4262,7 @@ mType
 )
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "
@@ -4272,6 +4272,8 @@ that
 point
 to
 SVG
+"
+"
 data
 "
 )
@@ -7682,7 +7684,7 @@ nsAString
 aSerialized
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsSVGType
 (

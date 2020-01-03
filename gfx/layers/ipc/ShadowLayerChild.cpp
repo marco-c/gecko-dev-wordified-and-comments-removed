@@ -19,6 +19,13 @@ ShadowLayers
 .
 h
 "
+#
+include
+"
+nsDebug
+.
+h
+"
 namespace
 mozilla
 {
@@ -60,7 +67,7 @@ ActorDestroyReason
 why
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 AncestorDeletion
 !

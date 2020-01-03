@@ -546,7 +546,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 surface
 "

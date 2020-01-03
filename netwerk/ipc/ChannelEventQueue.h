@@ -241,7 +241,7 @@ mSuspended
 |
 mFlushing
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 answer
 =

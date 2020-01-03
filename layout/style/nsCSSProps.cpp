@@ -692,7 +692,7 @@ ToLowerCase
 temp1
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 temp1
 .
@@ -712,7 +712,7 @@ table
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 -
 1
@@ -773,7 +773,7 @@ gPropertyTableRefCount
 +
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 gPropertyTable
@@ -785,7 +785,7 @@ array
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 gFontDescTable
@@ -797,7 +797,7 @@ array
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 gCounterDescTable
@@ -809,7 +809,7 @@ array
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 gPredefinedCounterStyleTable
@@ -1307,7 +1307,7 @@ eCSSProperty_UNKNOWN
 subprops
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -1501,7 +1501,7 @@ lastTerminator
 ;
 }
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 poolCursor
 =
@@ -1872,7 +1872,7 @@ shorthand
 count
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 count
 =
@@ -1987,7 +1987,7 @@ longhand
 count
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 count
 =
@@ -2202,7 +2202,7 @@ EnabledState
 aEnabled
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 gPropertyTable
 "
@@ -2332,7 +2332,7 @@ res
 eCSSProperty_COUNT
 ]
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -2411,7 +2411,7 @@ return
 eCSSPropertyExtra_variable
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 gPropertyTable
 "
@@ -2521,7 +2521,7 @@ res
 eCSSProperty_COUNT
 ]
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -2578,7 +2578,7 @@ nsACString
 aFontDesc
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 gFontDescTable
 "
@@ -2615,7 +2615,7 @@ nsAString
 aFontDesc
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 gFontDescTable
 "
@@ -2700,7 +2700,7 @@ nsAString
 aProperty
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 gCounterDescTable
 "
@@ -2737,7 +2737,7 @@ nsACString
 aProperty
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 gCounterDescTable
 "
@@ -2774,7 +2774,7 @@ nsAString
 aStyle
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 gPredefinedCounterStyleTable
 "
@@ -2814,7 +2814,7 @@ nsACString
 aStyle
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 gPredefinedCounterStyleTable
 "
@@ -2854,7 +2854,7 @@ nsCSSProperty
 aProperty
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 gPropertyTable
 "
@@ -2911,7 +2911,7 @@ nsCSSFontDesc
 aFontDescID
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 gFontDescTable
 "
@@ -2968,7 +2968,7 @@ nsCSSCounterDesc
 aCounterDesc
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 gCounterDescTable
 "
@@ -7413,7 +7413,7 @@ int32_t
 aValue
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aProp
 >
@@ -8697,7 +8697,7 @@ nsCSSProperty
 aProperty
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -8715,7 +8715,7 @@ range
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 nsCSSProps
 :
@@ -8780,7 +8780,7 @@ i
 ;
 }
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 false
 "

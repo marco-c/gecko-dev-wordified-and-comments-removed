@@ -303,7 +303,7 @@ Run
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -363,7 +363,7 @@ Run
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -442,7 +442,7 @@ Run
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -564,7 +564,7 @@ Run
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 NS_IsMainThread
@@ -865,7 +865,7 @@ Run
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 NS_IsMainThread
@@ -925,7 +925,7 @@ mInProgress
 false
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -1056,7 +1056,7 @@ Shutdown
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -1127,7 +1127,7 @@ bool
 mainThreadResponse
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -1242,7 +1242,7 @@ PendingPACQuery
 query
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 NS_IsMainThread
@@ -1460,7 +1460,7 @@ StartLoading
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -1816,7 +1816,7 @@ PostProcessPendingQ
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -1866,7 +1866,7 @@ nsresult
 status
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -1924,7 +1924,7 @@ nsresult
 status
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 NS_IsMainThread
@@ -1994,7 +1994,7 @@ ProcessPendingQ
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 NS_IsMainThread
@@ -2304,7 +2304,7 @@ uint8_t
 data
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -2629,7 +2629,7 @@ nsIAsyncVerifyRedirectCallback
 callback
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 NS_IsMainThread
 (
@@ -2744,7 +2744,7 @@ NamePACThread
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 NS_IsMainThread

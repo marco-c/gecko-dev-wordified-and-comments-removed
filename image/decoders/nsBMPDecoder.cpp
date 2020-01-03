@@ -429,7 +429,7 @@ FinishInternal
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 HasError
@@ -447,7 +447,7 @@ error
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 GetFrameCount
 (
@@ -725,7 +725,7 @@ uint32_t
 aCount
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 HasError
@@ -3387,7 +3387,7 @@ continue
 ;
 default
 :
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 0
 "

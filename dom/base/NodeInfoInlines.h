@@ -354,7 +354,7 @@ nsIAtom
 aExtraName
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aNodeType
 =
@@ -447,7 +447,7 @@ nodeType
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 (
 aNodeType
@@ -485,7 +485,7 @@ doctypes
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aNodeType
 =
@@ -528,7 +528,7 @@ namespace
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aName
 &
@@ -546,7 +546,7 @@ localName
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 (
 (

@@ -1496,7 +1496,7 @@ PRFileDesc
 fd
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mDnsRec
@@ -1627,7 +1627,7 @@ nsresult
 aStatus
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aRequest
 =
@@ -1692,7 +1692,7 @@ status
 nsresult
 rv
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mState
 =
@@ -2227,7 +2227,7 @@ oflags
 PRStatus
 status
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mState
 =
@@ -2357,7 +2357,7 @@ mDestinationAddr
 int32_t
 proxy_resolve
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mState
 =
@@ -2599,7 +2599,7 @@ ReadV4ConnectResponse
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mState
 =
@@ -2618,7 +2618,7 @@ state
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mDataLength
 =
@@ -2743,7 +2743,7 @@ WriteV5AuthRequest
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mVersion
 =
@@ -2817,7 +2817,7 @@ ReadV5AuthResponse
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mState
 =
@@ -2837,7 +2837,7 @@ state
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mDataLength
 =
@@ -3231,7 +3231,7 @@ uint32_t
 len
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mState
 =
@@ -3250,7 +3250,7 @@ state
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mDataLength
 >
@@ -3365,7 +3365,7 @@ res
 uint32_t
 len
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mState
 =
@@ -3378,7 +3378,7 @@ state
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mDataLength
 =
@@ -3752,7 +3752,7 @@ type
 uint32_t
 len
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mState
 =
@@ -3788,7 +3788,7 @@ return
 PR_FAILURE
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mDataLength
 =
@@ -4301,7 +4301,7 @@ ReadUint8
 uint8_t
 rv
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mReadOffset
 +
@@ -4355,7 +4355,7 @@ ReadUint16
 uint16_t
 rv
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mReadOffset
 +
@@ -4415,7 +4415,7 @@ ReadUint32
 uint32_t
 rv
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mReadOffset
 +
@@ -4519,7 +4519,7 @@ inet
 ip
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mReadOffset
 +
@@ -4577,7 +4577,7 @@ ip
 u8
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mReadOffset
 +
@@ -4652,7 +4652,7 @@ uint32_t
 sz
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mDataIoPtr
 =
@@ -4674,7 +4674,7 @@ progress
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mDataLength
 +

@@ -557,7 +557,7 @@ aValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 .
@@ -602,7 +602,7 @@ aValue
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aValue
 .
@@ -673,7 +673,7 @@ aSrc
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aDest
 .
@@ -690,7 +690,7 @@ types
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aDest
 .
@@ -768,7 +768,7 @@ aRight
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aLeft
 .
@@ -785,7 +785,7 @@ types
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aLeft
 .
@@ -1007,7 +1007,7 @@ aCount
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aDest
 .
@@ -1024,7 +1024,7 @@ types
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aDest
 .
@@ -1058,7 +1058,7 @@ ExtractMotionSegmentArray
 aValueToAdd
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 srcArr
 .
@@ -1078,7 +1078,7 @@ add
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 dstArr
 .
@@ -1119,7 +1119,7 @@ dstArr
 0
 ]
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 srcSeg
 .
@@ -1140,7 +1140,7 @@ path
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 dstSeg
 .
@@ -1183,7 +1183,7 @@ mU
 .
 mPathPointParams
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 srcSeg
 .
@@ -1210,7 +1210,7 @@ mismatch
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 srcParams
 .
@@ -1335,7 +1335,7 @@ aValueToAdd
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aDest
 .
@@ -1352,7 +1352,7 @@ types
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aDest
 .
@@ -1386,7 +1386,7 @@ ExtractMotionSegmentArray
 aValueToAdd
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 srcArr
 .
@@ -1452,7 +1452,7 @@ aDistance
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrom
 .
@@ -1469,7 +1469,7 @@ types
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFrom
 .
@@ -1504,7 +1504,7 @@ ExtractMotionSegmentArray
 aTo
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 fromArr
 .
@@ -1525,7 +1525,7 @@ value
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 toArr
 .
@@ -1566,7 +1566,7 @@ toArr
 0
 ]
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 from
 .
@@ -1615,7 +1615,7 @@ mU
 .
 mPathPointParams
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 fromParams
 .
@@ -1636,7 +1636,7 @@ path
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 fromParams
 .
@@ -1787,7 +1787,7 @@ aResult
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aStartVal
 .
@@ -1806,7 +1806,7 @@ types
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aStartVal
 .
@@ -1822,7 +1822,7 @@ interpolation
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aResult
 .
@@ -1837,7 +1837,7 @@ type
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aUnitDistance
 >
@@ -1892,7 +1892,7 @@ ExtractMotionSegmentArray
 aResult
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 startArr
 .
@@ -1913,7 +1913,7 @@ interpolation
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 endArr
 .
@@ -1934,7 +1934,7 @@ interpolation
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 resultArr
 .
@@ -1966,7 +1966,7 @@ endArr
 0
 ]
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 endSeg
 .
@@ -2049,7 +2049,7 @@ startArr
 0
 ]
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 startSeg
 .
@@ -2079,7 +2079,7 @@ mU
 .
 mPathPointParams
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 startSeg
 .
@@ -2106,7 +2106,7 @@ mismatch
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 startParams
 .
@@ -2271,7 +2271,7 @@ mTranslationParams
 .
 mY
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 arr
 [

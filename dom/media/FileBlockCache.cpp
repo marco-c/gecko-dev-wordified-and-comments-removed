@@ -828,7 +828,7 @@ mBlockChanges
 blockIndex
 ]
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 change
 "
@@ -841,8 +841,6 @@ contain
 entries
 for
 blocks
-"
-"
 with
 changes
 "

@@ -696,7 +696,7 @@ if
 SVGFrame
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 (
@@ -1408,7 +1408,7 @@ mistake
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 (
@@ -1428,7 +1428,7 @@ this
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 GetType
 (
@@ -1548,7 +1548,7 @@ if
 SVGFrame
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 (
@@ -1670,7 +1670,7 @@ container
 }
 }
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mContent
 -
@@ -1791,7 +1791,7 @@ uint32_t
 aFlags
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aFlags
 &

@@ -1677,7 +1677,7 @@ FramesToBytes
 aRate
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 bufferLimit
 %
@@ -2912,7 +2912,7 @@ Available
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 available
 %
@@ -3182,7 +3182,7 @@ mon
 mMonitor
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mBuffer
 .
@@ -3223,7 +3223,7 @@ double
 aVolume
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aVolume
 >
@@ -4946,7 +4946,7 @@ FramesToBytes
 mInRate
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 bufferLimit
 %
@@ -5056,7 +5056,7 @@ Length
 )
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 available
 %
@@ -5347,7 +5347,7 @@ insertTime
 )
 ;
 }
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mBuffer
 .

@@ -79,7 +79,7 @@ nsAString
 aResult
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 nsCSSProps
@@ -103,7 +103,7 @@ property
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 nsSMILCSSProperty
 :
@@ -234,7 +234,7 @@ mElement
 aElement
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 IsPropertyAnimatable
 (

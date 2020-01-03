@@ -54,7 +54,7 @@ mEndFixed
 false
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aOther
 .
@@ -64,7 +64,7 @@ IsEmpty
 (
 )
 "
-Attempt
+Attempting
 to
 copy
 -
@@ -74,10 +74,9 @@ interval
 with
 dependent
 times
-;
+"
+"
 this
-"
-"
 will
 lead
 to
@@ -91,7 +90,7 @@ intervals
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 aOther
@@ -104,7 +103,7 @@ aOther
 .
 mEndFixed
 "
-Attempt
+Attempting
 to
 copy
 -
@@ -126,7 +125,7 @@ nsSMILInterval
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mDependentTimes
 .
@@ -140,10 +139,10 @@ without
 disassociating
 dependent
 instance
-"
-"
 times
 .
+"
+"
 Unlink
 was
 not
@@ -271,7 +270,7 @@ Begin
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mBegin
 &
@@ -304,7 +303,7 @@ End
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mBegin
 &
@@ -339,7 +338,7 @@ nsSMILInstanceTime
 aBegin
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aBegin
 .
@@ -351,7 +350,7 @@ IsDefinite
 (
 )
 "
-Attempt
+Attempting
 to
 set
 unresolved
@@ -364,12 +363,12 @@ interval
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mBeginFixed
 "
-Attempt
+Attempting
 to
 set
 begin
@@ -383,7 +382,7 @@ fixed
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mBegin
@@ -398,7 +397,7 @@ GetBaseTime
 =
 mBegin
 "
-Attempt
+Attempting
 to
 make
 self
@@ -426,12 +425,12 @@ nsSMILInstanceTime
 aEnd
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mEndFixed
 "
-Attempt
+Attempting
 to
 set
 end
@@ -445,7 +444,7 @@ fixed
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mEnd
@@ -485,7 +484,7 @@ FixBegin
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mBegin
 &
@@ -503,7 +502,7 @@ interval
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mBeginFixed
@@ -537,7 +536,7 @@ FixEnd
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mBegin
 &
@@ -555,7 +554,7 @@ interval
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mBeginFixed
 "
@@ -572,7 +571,7 @@ begin
 "
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mEndFixed
@@ -673,7 +672,7 @@ RemoveElementSorted
 aTime
 )
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 found
 "

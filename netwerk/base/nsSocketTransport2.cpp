@@ -3942,7 +3942,7 @@ defined
 (
 XP_UNIX
 )
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mNetAddrIsSet
@@ -4323,7 +4323,7 @@ defined
 (
 XP_UNIX
 )
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mNetAddrIsSet

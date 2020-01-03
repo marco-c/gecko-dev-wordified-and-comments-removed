@@ -7078,7 +7078,7 @@ mDirty
 =
 true
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 mInner
 -
@@ -7681,7 +7681,7 @@ DidDirty
 (
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 !
 mInner

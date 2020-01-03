@@ -1214,7 +1214,7 @@ nsSMILTimeValueSpecParams
 aResult
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 StringBeginsWith
 (
@@ -1253,7 +1253,7 @@ nsSMILTimeValueSpecParams
 :
 ACCESSKEY
 ;
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 ACCESSKEY_PREFIX_LC
 .
@@ -1713,7 +1713,7 @@ read
 end
 )
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 write
 <

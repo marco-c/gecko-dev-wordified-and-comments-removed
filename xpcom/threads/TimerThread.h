@@ -300,7 +300,7 @@ aNewTimer
 )
 const
 {
-MOZ_ASSERT
+NS_ABORT_IF_FALSE
 (
 aNewTimer
 =
