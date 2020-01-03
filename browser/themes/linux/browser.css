@@ -4034,6 +4034,11 @@ menu
 ;
 }
 #
+placesContext_open
+\
+:
+newprivatewindow
+#
 privateBrowsingItem
 {
 list
