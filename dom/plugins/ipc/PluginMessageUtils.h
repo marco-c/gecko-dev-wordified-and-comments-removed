@@ -1045,7 +1045,6 @@ nsPtrHashKey
 NPObject
 >
 {
-explicit
 DeletingObjectEntry
 (
 const

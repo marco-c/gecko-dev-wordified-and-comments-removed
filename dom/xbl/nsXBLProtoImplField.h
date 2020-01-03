@@ -68,7 +68,6 @@ char16_t
 aReadOnly
 )
 ;
-explicit
 nsXBLProtoImplField
 (
 const

@@ -108,7 +108,6 @@ txObject
 {
 public
 :
-explicit
 txElementContext
 (
 const
@@ -276,7 +275,6 @@ txIParseContext
 {
 public
 :
-explicit
 txStylesheetCompilerState
 (
 txACompileObserver
@@ -872,7 +870,6 @@ txInScopeVariable
 {
 public
 :
-explicit
 txInScopeVariable
 (
 const

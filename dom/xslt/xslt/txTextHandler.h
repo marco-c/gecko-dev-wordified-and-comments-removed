@@ -26,7 +26,6 @@ txAXMLEventHandler
 {
 public
 :
-explicit
 txTextHandler
 (
 bool

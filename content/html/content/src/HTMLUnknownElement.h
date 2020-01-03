@@ -35,7 +35,6 @@ nsGenericHTMLElement
 {
 public
 :
-explicit
 HTMLUnknownElement
 (
 already_AddRefed

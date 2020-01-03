@@ -258,12 +258,11 @@ MediaDocumentStreamListener
 {
 public
 :
-explicit
 PluginStreamListener
 (
 PluginDocument
 *
-aDoc
+doc
 )
 :
 MediaDocumentStreamListener

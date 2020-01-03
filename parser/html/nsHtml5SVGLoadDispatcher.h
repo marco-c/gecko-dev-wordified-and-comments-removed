@@ -40,7 +40,6 @@ mDocument
 ;
 public
 :
-explicit
 nsHtml5SVGLoadDispatcher
 (
 nsIContent

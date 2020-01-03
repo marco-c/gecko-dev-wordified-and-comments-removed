@@ -769,7 +769,6 @@ NodePointer
 *
 mPtr
 ;
-explicit
 AutoClear
 (
 NodePointer

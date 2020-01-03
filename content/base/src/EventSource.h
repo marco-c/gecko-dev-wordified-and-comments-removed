@@ -125,7 +125,6 @@ AsyncVerifyRedirectCallbackFwr
 ;
 public
 :
-explicit
 EventSource
 (
 nsPIDOMWindow

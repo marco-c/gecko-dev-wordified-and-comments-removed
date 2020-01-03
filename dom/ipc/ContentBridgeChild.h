@@ -43,7 +43,6 @@ nsIContentChild
 {
 public
 :
-explicit
 ContentBridgeChild
 (
 Transport

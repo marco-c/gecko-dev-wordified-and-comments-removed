@@ -50,7 +50,6 @@ nsIDOMHTMLTableCellElement
 {
 public
 :
-explicit
 HTMLTableCellElement
 (
 already_AddRefed

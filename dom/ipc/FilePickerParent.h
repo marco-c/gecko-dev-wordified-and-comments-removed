@@ -165,7 +165,6 @@ nsIFilePickerShownCallback
 {
 public
 :
-explicit
 FilePickerShownCallback
 (
 FilePickerParent

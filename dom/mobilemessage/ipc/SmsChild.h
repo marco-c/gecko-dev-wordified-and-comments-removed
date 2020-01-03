@@ -299,7 +299,6 @@ mReplyRequest
 ;
 public
 :
-explicit
 SmsRequestChild
 (
 nsIMobileMessageCallback
@@ -365,7 +364,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSICURSORCONTINUECALLBACK
-explicit
 MobileMessageCursorChild
 (
 nsIMobileMessageCursorCallback

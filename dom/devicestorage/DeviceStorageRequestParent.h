@@ -86,7 +86,6 @@ PDeviceStorageRequestParent
 {
 public
 :
-explicit
 DeviceStorageRequestParent
 (
 const
@@ -161,7 +160,6 @@ nsRunnable
 {
 public
 :
-explicit
 CancelableRunnable
 (
 DeviceStorageRequestParent
@@ -310,7 +308,6 @@ CancelableRunnable
 {
 public
 :
-explicit
 PostSuccessEvent
 (
 DeviceStorageRequestParent

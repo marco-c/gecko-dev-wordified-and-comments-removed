@@ -899,7 +899,6 @@ mCache
 ;
 public
 :
-explicit
 DOMStorageCacheHolder
 (
 DOMStorageCache
@@ -1041,7 +1040,6 @@ TelemetryAutoTimer
 {
 public
 :
-explicit
 TelemetryAutoTimer
 (
 Telemetry

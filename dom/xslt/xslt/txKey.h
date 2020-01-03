@@ -112,7 +112,6 @@ txKeyValueHashKey
 *
 KeyTypePointer
 ;
-explicit
 txKeyValueHashEntry
 (
 KeyTypePointer
@@ -261,7 +260,6 @@ txIndexedKeyHashKey
 *
 KeyTypePointer
 ;
-explicit
 txIndexedKeyHashEntry
 (
 KeyTypePointer
@@ -357,7 +355,6 @@ txXSLKey
 {
 public
 :
-explicit
 txXSLKey
 (
 const
@@ -477,7 +474,6 @@ txKeyHash
 {
 public
 :
-explicit
 txKeyHash
 (
 const

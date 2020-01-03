@@ -77,7 +77,6 @@ nsPIWindowRoot
 {
 public
 :
-explicit
 nsWindowRoot
 (
 nsPIDOMWindow

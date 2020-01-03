@@ -56,7 +56,6 @@ nsXMLElement
 {
 public
 :
-explicit
 XBLChildrenElement
 (
 already_AddRefed
@@ -79,7 +78,6 @@ aNodeInfo
 )
 {
 }
-explicit
 XBLChildrenElement
 (
 already_AddRefed
@@ -575,7 +573,6 @@ nsINodeList
 {
 public
 :
-explicit
 nsAnonymousContentList
 (
 nsIContent

@@ -53,7 +53,6 @@ nsIHTMLMenu
 {
 public
 :
-explicit
 HTMLMenuElement
 (
 already_AddRefed

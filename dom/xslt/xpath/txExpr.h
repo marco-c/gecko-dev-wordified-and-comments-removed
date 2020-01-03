@@ -993,7 +993,6 @@ _NOT
 _TRUE
 }
 ;
-explicit
 txCoreFunctionCall
 (
 eType
@@ -1228,7 +1227,6 @@ PI_TYPE
 NODE_TYPE
 }
 ;
-explicit
 txNodeTypeTest
 (
 NodeType
@@ -1632,7 +1630,6 @@ PredicateList
 {
 public
 :
-explicit
 FilterExpr
 (
 Expr
@@ -1665,7 +1662,6 @@ Expr
 {
 public
 :
-explicit
 txLiteralExpr
 (
 double
@@ -1683,7 +1679,6 @@ nullptr
 )
 {
 }
-explicit
 txLiteralExpr
 (
 const
@@ -1703,7 +1698,6 @@ nullptr
 )
 {
 }
-explicit
 txLiteralExpr
 (
 txAExprResult
@@ -1736,7 +1730,6 @@ Expr
 {
 public
 :
-explicit
 UnaryExpr
 (
 Expr
@@ -2387,7 +2380,6 @@ public
 #
 ifdef
 TX_TO_STRING
-explicit
 txErrorExpr
 (
 const

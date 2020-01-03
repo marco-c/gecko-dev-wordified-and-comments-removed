@@ -329,7 +329,6 @@ opClearMatchingScope
 }
 OperationType
 ;
-explicit
 DBOperation
 (
 const

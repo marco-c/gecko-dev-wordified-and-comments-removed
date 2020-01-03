@@ -720,7 +720,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 nsXULElementTearoff
 nsIDOMElementCSSInlineStyle
 )
-explicit
 nsXULElementTearoff
 (
 nsXULElement
@@ -3554,7 +3553,6 @@ nsRunnable
 {
 public
 :
-explicit
 XULInContentErrorReporter
 (
 nsIDocument
@@ -8911,7 +8909,6 @@ nsRunnable
 {
 public
 :
-explicit
 MarginSetter
 (
 nsIWidget

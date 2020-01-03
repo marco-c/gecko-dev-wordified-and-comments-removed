@@ -101,7 +101,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_ISCRIPTELEMENT_IID
 )
-explicit
 nsIScriptElement
 (
 mozilla

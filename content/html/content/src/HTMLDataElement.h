@@ -49,7 +49,6 @@ nsGenericHTMLElement
 {
 public
 :
-explicit
 HTMLDataElement
 (
 already_AddRefed

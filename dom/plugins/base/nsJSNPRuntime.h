@@ -183,7 +183,6 @@ obj
 ;
 protected
 :
-explicit
 nsJSObjWrapper
 (
 NPP

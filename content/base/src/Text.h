@@ -34,7 +34,6 @@ nsGenericDOMDataNode
 {
 public
 :
-explicit
 Text
 (
 already_AddRefed
@@ -57,7 +56,6 @@ aNodeInfo
 )
 {
 }
-explicit
 Text
 (
 already_AddRefed

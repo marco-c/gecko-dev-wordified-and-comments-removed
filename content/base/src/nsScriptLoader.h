@@ -159,7 +159,6 @@ AutoCurrentScriptUpdater
 ;
 public
 :
-explicit
 nsScriptLoader
 (
 nsIDocument
@@ -836,7 +835,6 @@ nsAutoScriptLoaderDisabler
 {
 public
 :
-explicit
 nsAutoScriptLoaderDisabler
 (
 nsIDocument

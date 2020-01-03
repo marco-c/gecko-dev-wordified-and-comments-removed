@@ -587,7 +587,6 @@ nsRunnable
 {
 public
 :
-explicit
 nsAsyncDocShellDestroyer
 (
 nsIDocShell
@@ -1386,7 +1385,6 @@ nsRunnable
 {
 public
 :
-explicit
 DelayedStartLoadingRunnable
 (
 nsFrameLoader
@@ -3019,7 +3017,6 @@ mFrameLoader
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
-explicit
 AutoResetInShow
 (
 nsFrameLoader

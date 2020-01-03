@@ -39,7 +39,6 @@ txNodeSetAdaptor
 (
 )
 ;
-explicit
 txNodeSetAdaptor
 (
 txNodeSet

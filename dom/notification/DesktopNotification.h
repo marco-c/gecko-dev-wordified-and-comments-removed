@@ -136,7 +136,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DesktopNotificationCenter
 )
-explicit
 DesktopNotificationCenter
 (
 nsPIDOMWindow
@@ -426,7 +425,6 @@ nsIObserver
 public
 :
 NS_DECL_ISUPPORTS
-explicit
 AlertServiceObserver
 (
 DesktopNotification

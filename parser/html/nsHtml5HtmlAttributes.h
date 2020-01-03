@@ -165,7 +165,6 @@ values
 ;
 public
 :
-explicit
 nsHtml5HtmlAttributes
 (
 int32_t

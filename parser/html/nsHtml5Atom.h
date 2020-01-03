@@ -31,7 +31,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIATOM
-explicit
 nsHtml5Atom
 (
 const

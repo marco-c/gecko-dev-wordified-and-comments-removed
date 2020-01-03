@@ -238,7 +238,6 @@ Mutex
 {
 public
 :
-explicit
 RefCountedMutex
 (
 const
@@ -275,7 +274,6 @@ mMutex
 ;
 public
 :
-explicit
 SharedMutex
 (
 const
@@ -2174,7 +2172,6 @@ mTimeouts
 struct
 SyncLoopInfo
 {
-explicit
 SyncLoopInfo
 (
 EventTarget
@@ -3595,7 +3592,6 @@ mIndex
 ;
 public
 :
-explicit
 AutoSyncLoopHolder
 (
 WorkerPrivate

@@ -282,7 +282,6 @@ DOMError
 aError
 )
 ;
-explicit
 DOMRequest
 (
 nsPIDOMWindow

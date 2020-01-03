@@ -61,7 +61,6 @@ nsGenericHTMLElement
 {
 public
 :
-explicit
 HTMLMeterElement
 (
 already_AddRefed

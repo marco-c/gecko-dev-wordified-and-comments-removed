@@ -469,7 +469,6 @@ nsXULPrototypeNode
 )
 protected
 :
-explicit
 nsXULPrototypeNode
 (
 Type
@@ -1432,7 +1431,6 @@ nsIDOMXULElement
 {
 public
 :
-explicit
 nsXULElement
 (
 already_AddRefed

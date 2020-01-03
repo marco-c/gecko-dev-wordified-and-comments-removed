@@ -563,7 +563,6 @@ dom
 Element
 Element
 ;
-explicit
 nsIdentifierMapEntry
 (
 const
@@ -583,7 +582,6 @@ nullptr
 )
 {
 }
-explicit
 nsIdentifierMapEntry
 (
 const
@@ -841,19 +839,18 @@ ChangeCallback
 *
 KeyTypePointer
 ;
-explicit
 ChangeCallbackEntry
 (
 const
 ChangeCallback
 *
-aKey
+key
 )
 :
 mKey
 (
 *
-aKey
+key
 )
 {
 }
@@ -1074,7 +1071,6 @@ aAtom
 )
 {
 }
-explicit
 CustomElementHashKey
 (
 const
@@ -1390,7 +1386,6 @@ mOwnerData
 struct
 CustomElementData
 {
-explicit
 CustomElementData
 (
 nsIAtom
@@ -1664,7 +1659,6 @@ nsStubDocumentObserver
 {
 public
 :
-explicit
 nsDOMStyleSheetList
 (
 nsIDocument
@@ -1900,7 +1894,6 @@ PendingLoad
 }
 public
 :
-explicit
 PendingLoad
 (
 nsDocument
@@ -1985,7 +1978,6 @@ LoadgroupCallbacks
 }
 public
 :
-explicit
 LoadgroupCallbacks
 (
 nsIInterfaceRequestor
@@ -5483,7 +5475,6 @@ VerifyRootContentState
 ;
 #
 endif
-explicit
 nsDocument
 (
 const
@@ -6258,7 +6249,6 @@ nsDocumentOnStack
 {
 public
 :
-explicit
 nsDocumentOnStack
 (
 nsDocument

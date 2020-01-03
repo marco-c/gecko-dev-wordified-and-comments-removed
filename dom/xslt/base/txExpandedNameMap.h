@@ -96,7 +96,6 @@ iterator_base
 {
 public
 :
-explicit
 iterator_base
 (
 txExpandedNameMap_base
@@ -401,7 +400,6 @@ iterator_base
 {
 public
 :
-explicit
 iterator
 (
 txExpandedNameMap
@@ -614,7 +612,6 @@ iterator_base
 {
 public
 :
-explicit
 iterator
 (
 txOwningExpandedNameMap

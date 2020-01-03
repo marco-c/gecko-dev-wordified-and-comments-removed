@@ -377,7 +377,6 @@ error
 )
 private
 :
-explicit
 IDBMutableFile
 (
 IDBDatabase

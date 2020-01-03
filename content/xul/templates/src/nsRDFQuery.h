@@ -125,7 +125,6 @@ Finish
 }
 public
 :
-explicit
 nsRDFQuery
 (
 nsXULTemplateQueryProcessorRDF

@@ -144,7 +144,6 @@ txListIterator
 {
 public
 :
-explicit
 txListIterator
 (
 txList

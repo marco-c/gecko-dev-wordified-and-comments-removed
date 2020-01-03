@@ -182,7 +182,6 @@ txStackIterator
 public
 :
 inline
-explicit
 txStackIterator
 (
 txStack

@@ -112,7 +112,6 @@ const
 NS_DECL_NSIRUNNABLE
 protected
 :
-explicit
 FileSystemTaskBase
 (
 FileSystemBase

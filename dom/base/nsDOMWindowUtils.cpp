@@ -17510,7 +17510,6 @@ nsIJSRAIIHelper
 {
 public
 :
-explicit
 HandlingUserInputHelper
 (
 bool

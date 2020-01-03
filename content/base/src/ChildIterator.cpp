@@ -81,7 +81,6 @@ MatchedNodes
 {
 public
 :
-explicit
 MatchedNodes
 (
 HTMLContentElement
@@ -99,7 +98,6 @@ aInsertionPoint
 )
 {
 }
-explicit
 MatchedNodes
 (
 XBLChildrenElement

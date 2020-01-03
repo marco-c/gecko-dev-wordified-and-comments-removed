@@ -193,7 +193,6 @@ DOMPoint
 }
 public
 :
-explicit
 DOMPoint
 (
 nsISupports

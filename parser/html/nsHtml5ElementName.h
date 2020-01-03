@@ -214,7 +214,6 @@ flags
 ;
 protected
 :
-explicit
 nsHtml5ElementName
 (
 nsIAtom

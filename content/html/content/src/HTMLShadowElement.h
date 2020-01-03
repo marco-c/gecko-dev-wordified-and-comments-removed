@@ -28,7 +28,6 @@ nsStubMutationObserver
 {
 public
 :
-explicit
 HTMLShadowElement
 (
 already_AddRefed

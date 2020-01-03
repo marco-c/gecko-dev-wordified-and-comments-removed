@@ -77,7 +77,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 nsXULTemplateResultRDF
 )
 NS_DECL_NSIXULTEMPLATERESULT
-explicit
 nsXULTemplateResultRDF
 (
 nsIRDFResource

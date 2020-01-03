@@ -233,7 +233,6 @@ nsForceXMLListener
 ;
 public
 :
-explicit
 nsForceXMLListener
 (
 nsIStreamListener

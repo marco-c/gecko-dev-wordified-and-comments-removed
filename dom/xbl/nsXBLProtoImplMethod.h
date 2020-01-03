@@ -69,7 +69,6 @@ char
 *
 mName
 ;
-explicit
 nsXBLParameter
 (
 const
@@ -298,7 +297,6 @@ nsXBLProtoImplMember
 {
 public
 :
-explicit
 nsXBLProtoImplMethod
 (
 const
@@ -524,7 +522,6 @@ nsXBLProtoImplMethod
 {
 public
 :
-explicit
 nsXBLProtoImplAnonymousMethod
 (
 const

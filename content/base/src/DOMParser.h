@@ -355,7 +355,6 @@ this
 }
 private
 :
-explicit
 DOMParser
 (
 nsISupports
@@ -432,7 +431,6 @@ AttemptedInitMarker
 {
 public
 :
-explicit
 AttemptedInitMarker
 (
 bool

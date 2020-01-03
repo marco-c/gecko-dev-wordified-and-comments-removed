@@ -108,7 +108,6 @@ PluginInstanceChild
 ;
 public
 :
-explicit
 PluginScriptableObjectChild
 (
 ScriptableObjectType

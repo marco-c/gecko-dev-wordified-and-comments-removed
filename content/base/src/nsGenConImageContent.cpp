@@ -68,7 +68,6 @@ nsImageLoadingContent
 {
 public
 :
-explicit
 nsGenConImageContent
 (
 already_AddRefed

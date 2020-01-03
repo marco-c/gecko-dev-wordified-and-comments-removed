@@ -79,7 +79,6 @@ Link
 {
 public
 :
-explicit
 HTMLLinkElement
 (
 already_AddRefed

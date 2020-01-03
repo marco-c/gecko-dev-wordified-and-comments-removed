@@ -33,7 +33,6 @@ BIT_UNCOMPILED
 )
 {
 }
-explicit
 nsXBLMaybeCompiled
 (
 UncompiledT
@@ -55,7 +54,6 @@ BIT_UNCOMPILED
 )
 {
 }
-explicit
 nsXBLMaybeCompiled
 (
 JSObject

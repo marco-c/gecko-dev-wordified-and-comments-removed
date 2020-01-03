@@ -33,7 +33,6 @@ txAExprResult
 {
 public
 :
-explicit
 txNodeSet
 (
 txResultRecycler

@@ -26,7 +26,6 @@ eStartElementAtomTransaction
 eStartElementTransaction
 }
 ;
-explicit
 txOutputTransaction
 (
 txTransactionType
@@ -119,7 +118,6 @@ txOutputTransaction
 {
 public
 :
-explicit
 txCommentTransaction
 (
 const

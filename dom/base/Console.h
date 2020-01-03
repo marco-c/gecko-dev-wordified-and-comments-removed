@@ -118,7 +118,6 @@ nsITimerCallback
 )
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSIOBSERVER
-explicit
 Console
 (
 nsPIDOMWindow

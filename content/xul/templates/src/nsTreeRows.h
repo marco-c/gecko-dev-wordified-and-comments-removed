@@ -172,7 +172,6 @@ mRows
 ;
 public
 :
-explicit
 Subtree
 (
 Subtree

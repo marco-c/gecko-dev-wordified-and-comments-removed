@@ -42,7 +42,6 @@ nsTreeSanitizer
 {
 public
 :
-explicit
 nsTreeSanitizer
 (
 uint32_t

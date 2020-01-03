@@ -80,7 +80,6 @@ nsJSONWriter
 (
 )
 ;
-explicit
 nsJSONWriter
 (
 nsIOutputStream

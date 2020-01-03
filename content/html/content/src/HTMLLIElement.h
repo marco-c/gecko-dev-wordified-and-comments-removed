@@ -44,7 +44,6 @@ nsIDOMHTMLLIElement
 {
 public
 :
-explicit
 HTMLLIElement
 (
 already_AddRefed

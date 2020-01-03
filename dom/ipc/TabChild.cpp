@@ -918,7 +918,6 @@ nsITimerCallback
 public
 :
 NS_DECL_ISUPPORTS
-explicit
 DelayedFireContextMenuEvent
 (
 TabChild
@@ -3423,7 +3422,6 @@ mCallback
 bool
 mCanceled
 ;
-explicit
 CachedFileDescriptorInfo
 (
 const
@@ -3559,7 +3557,6 @@ mInfo
 ;
 public
 :
-explicit
 CachedFileDescriptorCallbackRunnable
 (
 CachedFileDescriptorInfo
