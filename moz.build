@@ -270,6 +270,11 @@ memory
 /
 mozalloc
 '
+'
+memory
+/
+volatile
+'
 ]
 if
 not
