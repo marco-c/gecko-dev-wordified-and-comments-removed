@@ -771,6 +771,12 @@ SamplesPromise
 >
 mDemuxRequest
 ;
+Maybe
+<
+size_t
+>
+mNextInsertionIndex
+;
 TrackBuffer
 mQueuedSamples
 ;
