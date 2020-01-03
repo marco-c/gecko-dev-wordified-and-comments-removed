@@ -679,9 +679,7 @@ info
 new
 MediaDeviceInfo
 (
-nsString
-(
-)
+id
 kind
 name
 )
