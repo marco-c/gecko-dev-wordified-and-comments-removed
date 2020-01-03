@@ -121,6 +121,9 @@ blur
 "
 updateposition
 "
+"
+taponcaret
+"
 }
 ;
 dictionary
