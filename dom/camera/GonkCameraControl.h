@@ -998,6 +998,9 @@ mLastThumbnailSize
 Size
 mLastRecorderSize
 ;
+Size
+mRequestedPreviewSize
+;
 uint32_t
 mPreviewFps
 ;
