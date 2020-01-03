@@ -55,4 +55,4 @@ MPL
 .
 MOZ_APP_DISPLAYNAME
 =
-MozillaDeveloperPreview
+Nightly

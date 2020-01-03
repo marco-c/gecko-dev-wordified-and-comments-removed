@@ -64,9 +64,7 @@ MPL
 ENTITY
 brandShorterName
 "
-Mozilla
-Developer
-Preview
+Nightly
 "
 >
 <
@@ -74,9 +72,7 @@ Preview
 ENTITY
 brandShortName
 "
-Mozilla
-Developer
-Preview
+Nightly
 "
 >
 <
@@ -84,9 +80,7 @@ Preview
 ENTITY
 brandFullName
 "
-Mozilla
-Developer
-Preview
+Nightly
 "
 >
 <
@@ -94,9 +88,7 @@ Preview
 ENTITY
 vendorShortName
 "
-mozilla
-.
-org
+Mozilla
 "
 >
 <
