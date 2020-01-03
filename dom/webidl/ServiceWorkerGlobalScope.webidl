@@ -165,6 +165,17 @@ attribute
 ServiceWorkerRegistration
 registration
 ;
+[
+Throws
+]
+Promise
+<
+boolean
+>
+skipWaiting
+(
+)
+;
 attribute
 EventHandler
 oninstall
