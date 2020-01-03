@@ -68,6 +68,13 @@ h
 #
 include
 "
+prmjtime
+.
+h
+"
+#
+include
+"
 gc
 /
 Marking
@@ -4111,6 +4118,9 @@ onLogAllocationSite
 (
 cx
 frame
+PRMJ_Now
+(
+)
 )
 ;
 }

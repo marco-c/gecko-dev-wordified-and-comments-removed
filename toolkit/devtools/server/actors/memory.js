@@ -923,7 +923,11 @@ allocations
 for
 (
 let
+{
+frame
+:
 stack
+}
 of
 allocations
 )
