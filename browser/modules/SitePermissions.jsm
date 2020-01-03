@@ -775,12 +775,6 @@ indexedDB
 {
 }
 "
-fullscreen
-"
-:
-{
-}
-"
 pointerLock
 "
 :

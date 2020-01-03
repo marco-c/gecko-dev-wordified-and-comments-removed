@@ -400,16 +400,6 @@ Windows
 <
 !
 ENTITY
-fullscreen
-.
-label
-"
-Fullscreen
-"
->
-<
-!
-ENTITY
 push
 .
 label
