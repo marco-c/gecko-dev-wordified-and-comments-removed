@@ -1557,6 +1557,11 @@ callback
 (
 trc
 nullptr
+JS
+:
+:
+GCCellPtr
+(
 entry
 .
 key
@@ -1568,7 +1573,12 @@ object
 get
 (
 )
-JSTRACE_OBJECT
+)
+JS
+:
+:
+GCCellPtr
+(
 entry
 .
 value
@@ -1580,7 +1590,7 @@ closure
 get
 (
 )
-JSTRACE_OBJECT
+)
 )
 ;
 }

@@ -1299,11 +1299,10 @@ callback
 (
 tracer
 memberOf
-key
-gc
+JS
 :
 :
-TraceKind
+GCCellPtr
 (
 r
 .
@@ -1315,11 +1314,10 @@ key
 (
 )
 )
-value
-gc
+JS
 :
 :
-TraceKind
+GCCellPtr
 (
 r
 .
