@@ -208,11 +208,6 @@ nsICancelable
 idl
 '
 '
-nsICaptivePortalService
-.
-idl
-'
-'
 nsIChannel
 .
 idl
@@ -862,11 +857,6 @@ net
 =
 [
 '
-CaptivePortalService
-.
-h
-'
-'
 ChannelDiverterChild
 .
 h
@@ -936,11 +926,6 @@ cpp
 '
 '
 BackgroundFileSaver
-.
-cpp
-'
-'
-CaptivePortalService
 .
 cpp
 '
