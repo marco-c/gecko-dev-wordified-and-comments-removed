@@ -420,7 +420,7 @@ undefined
 order
 =
 "
-both
+sequential
 "
 ;
 }
