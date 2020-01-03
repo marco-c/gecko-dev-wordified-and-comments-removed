@@ -676,6 +676,9 @@ gContentRestore
 .
 restoreTabContent
 (
+data
+.
+loadArguments
 finishCallback
 )
 ;
