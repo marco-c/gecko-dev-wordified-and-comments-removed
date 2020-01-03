@@ -1875,6 +1875,17 @@ ICEntry
 :
 Kind_CallVM
 :
+if
+(
+JSOp
+(
+*
+pc
+)
+!
+=
+JSOP_THROW
+)
 pc
 +
 =

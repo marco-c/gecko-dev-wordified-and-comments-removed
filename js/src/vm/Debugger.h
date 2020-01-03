@@ -2545,6 +2545,15 @@ HandleValue
 rval
 )
 ;
+static
+bool
+hasLiveOnExceptionUnwind
+(
+GlobalObject
+*
+global
+)
+;
 inline
 bool
 observesEnterFrame
