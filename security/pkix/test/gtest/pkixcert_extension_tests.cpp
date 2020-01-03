@@ -128,10 +128,7 @@ oneDayAfterNow
 subjectDER
 extensions
 nullptr
-SignatureAlgorithm
-:
-:
-rsa_pkcs1_with_sha256
+sha256WithRSAEncryption
 subjectKey
 )
 ;
