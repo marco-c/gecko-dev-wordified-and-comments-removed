@@ -1001,7 +1001,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 NPObjWrapper_Enumerate
 nullptr
 }

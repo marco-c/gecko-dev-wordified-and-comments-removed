@@ -105,7 +105,7 @@ freeze
 (
 a
 )
-InternalError
+TypeError
 )
 ;
 }

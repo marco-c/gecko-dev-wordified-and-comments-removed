@@ -2697,13 +2697,6 @@ getOwnPropertyDescriptor
 nullptr
 /
 *
-setPropertyAttributes
-*
-/
-                      
-nullptr
-/
-*
 deleteProperty
 *
 /
