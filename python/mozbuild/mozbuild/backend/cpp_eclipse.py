@@ -78,6 +78,14 @@ _paths_to_defines
         
 self
 .
+_project_name
+=
+'
+Gecko
+'
+        
+self
+.
 _workspace_dir
 =
 self
@@ -99,9 +107,9 @@ join
 self
 .
 _workspace_dir
-'
-gecko
-'
+self
+.
+_project_name
 )
         
 self
@@ -1593,9 +1601,9 @@ replace
 '
 PROJECT_NAME
 '
-'
-Gecko
-'
+self
+.
+_project_name
 )
         
 project
