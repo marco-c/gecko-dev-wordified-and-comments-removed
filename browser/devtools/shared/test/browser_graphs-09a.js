@@ -481,9 +481,13 @@ LineGraphWidget
 doc
 .
 body
+{
+metric
+:
 "
 fps
 "
+}
 )
 ;
 yield
