@@ -724,6 +724,10 @@ LOCAL_INCLUDES
 [
 '
 /
+caps
+'
+'
+/
 dom
 /
 broadcastchannel
