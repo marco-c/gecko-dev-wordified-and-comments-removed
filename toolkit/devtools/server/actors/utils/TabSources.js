@@ -89,12 +89,7 @@ const
 resolve
 }
 =
-require
-(
-"
-promise
-"
-)
+Promise
 ;
 loader
 .

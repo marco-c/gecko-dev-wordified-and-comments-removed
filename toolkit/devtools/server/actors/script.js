@@ -137,16 +137,6 @@ promise
 )
 ;
 const
-PromiseDebugging
-=
-require
-(
-"
-PromiseDebugging
-"
-)
-;
-const
 xpcInspector
 =
 require
@@ -6529,10 +6519,6 @@ undefined
 }
 if
 (
-!
-isWorker
-&
-&
 this
 .
 global
@@ -8231,7 +8217,7 @@ this
 .
 synchronize
 (
-promise
+Promise
 .
 all
 (
@@ -11799,7 +11785,7 @@ originalLocation
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -11808,7 +11794,7 @@ null
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (

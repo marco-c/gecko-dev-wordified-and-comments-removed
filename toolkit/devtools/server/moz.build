@@ -322,11 +322,6 @@ protocol
 .
 js
 '
-'
-worker
-.
-js
-'
 ]
 EXTRA_JS_MODULES
 .
