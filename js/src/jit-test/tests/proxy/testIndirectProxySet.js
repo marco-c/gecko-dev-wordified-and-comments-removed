@@ -100,9 +100,6 @@ hits
 +
 +
 ;
-return
-true
-;
 }
 }
 )

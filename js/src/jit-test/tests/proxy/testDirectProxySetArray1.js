@@ -66,9 +66,6 @@ writable
 true
 )
 ;
-return
-true
-;
 }
 }
 )

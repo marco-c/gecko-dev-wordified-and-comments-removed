@@ -28,9 +28,6 @@ hits
 +
 +
 ;
-return
-true
-;
 }
 }
 )

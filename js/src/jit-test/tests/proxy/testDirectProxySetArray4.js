@@ -52,9 +52,6 @@ ponies
 "
 )
 ;
-return
-true
-;
 }
 }
 )

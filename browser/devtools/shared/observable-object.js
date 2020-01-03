@@ -783,9 +783,6 @@ desc
 )
 ;
 }
-return
-true
-;
 }
 }
 ;

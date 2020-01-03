@@ -79,9 +79,6 @@ configurable
 true
 )
 ;
-return
-true
-;
 }
 }
 ;
