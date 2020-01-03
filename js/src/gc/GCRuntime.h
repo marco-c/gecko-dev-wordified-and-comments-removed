@@ -2619,6 +2619,15 @@ releaseHeldRelocatedArenas
 ;
 private
 :
+enum
+IncrementalProgress
+{
+NotFinished
+=
+0
+Finished
+}
+;
 void
 minorGCImpl
 (
@@ -2922,7 +2931,7 @@ bufferGrayRoots
 (
 )
 ;
-bool
+IncrementalProgress
 drainMarkStack
 (
 SliceBudget
@@ -3049,7 +3058,7 @@ endSweepingZoneGroup
 (
 )
 ;
-bool
+IncrementalProgress
 sweepPhase
 (
 SliceBudget
@@ -3132,7 +3141,7 @@ shouldCompact
 (
 )
 ;
-bool
+IncrementalProgress
 compactPhase
 (
 bool
