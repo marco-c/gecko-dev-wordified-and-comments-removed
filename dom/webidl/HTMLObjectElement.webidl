@@ -1304,6 +1304,16 @@ cancelPlayPreview
 (
 )
 ;
+[
+ChromeOnly
+Throws
+]
+readonly
+attribute
+unsigned
+long
+runID
+;
 }
 ;
 /

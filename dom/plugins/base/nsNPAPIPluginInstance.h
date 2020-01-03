@@ -1252,6 +1252,14 @@ GetContentsScaleFactor
 (
 )
 ;
+nsresult
+GetRunID
+(
+uint32_t
+*
+aRunID
+)
+;
 static
 bool
 InPluginCallUnsafeForReentry

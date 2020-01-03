@@ -433,6 +433,7 @@ mPluginName
 mPluginVersion
 ;
 }
+virtual
 nsresult
 GetRunID
 (
@@ -440,6 +441,7 @@ uint32_t
 *
 aRunID
 )
+override
 ;
 protected
 :
