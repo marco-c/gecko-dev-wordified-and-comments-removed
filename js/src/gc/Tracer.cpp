@@ -209,6 +209,7 @@ INSTANTIATE_ALL_VALID_TRACE_FUNCTIONS
 (
 name
 type
+_
 )
 \
 template
