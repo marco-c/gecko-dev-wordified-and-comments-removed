@@ -144,6 +144,14 @@ hwc_rect_t
 aVisibleRegionScreen
 )
 ;
+static
+nsIntRect
+HwcToIntRect
+(
+hwc_rect_t
+aRect
+)
+;
 }
 ;
 }
