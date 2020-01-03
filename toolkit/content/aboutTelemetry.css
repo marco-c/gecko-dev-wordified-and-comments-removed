@@ -419,6 +419,10 @@ display
 :
 block
 ;
+overflow
+:
+hidden
+;
 }
 .
 keyed
@@ -460,10 +464,6 @@ white
 space
 :
 nowrap
-;
-overflow
-:
-hidden
 ;
 }
 .
