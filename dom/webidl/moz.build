@@ -300,6 +300,11 @@ BatteryManager
 webidl
 '
 '
+BeforeAfterKeyboardEvent
+.
+webidl
+'
+'
 BeforeUnloadEvent
 .
 webidl
