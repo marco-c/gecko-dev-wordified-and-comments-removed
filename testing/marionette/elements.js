@@ -313,6 +313,12 @@ option
 radiobutton
 '
 '
+rowheader
+'
+'
+switch
+'
+'
 slider
 '
 '
