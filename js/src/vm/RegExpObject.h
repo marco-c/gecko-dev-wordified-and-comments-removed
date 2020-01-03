@@ -2026,6 +2026,17 @@ RegExpObject
 re
 )
 ;
+JSAtom
+*
+EscapeRegExpPattern
+(
+JSContext
+*
+cx
+HandleAtom
+src
+)
+;
 }
 #
 endif
