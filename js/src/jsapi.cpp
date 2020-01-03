@@ -25868,7 +25868,7 @@ requestInterrupt
 JSRuntime
 :
 :
-RequestInterruptUrgent
+RequestInterruptAnyThread
 )
 ;
 }

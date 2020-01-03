@@ -32,7 +32,7 @@ namespace
 js
 {
 bool
-EnsureSignalHandlersInstalled
+EnsureAsmJSSignalHandlersInstalled
 (
 JSRuntime
 *
@@ -41,11 +41,13 @@ rt
 ;
 extern
 void
-InterruptRunningJitCode
+RequestInterruptForAsmJSCode
 (
 JSRuntime
 *
 rt
+int
+interruptMode
 )
 ;
 #
