@@ -613,6 +613,7 @@ nsTextStore
 :
 OnSelectionChange
 (
+aIMENotification
 )
 ;
 if

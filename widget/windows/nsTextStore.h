@@ -750,7 +750,10 @@ static
 nsresult
 OnSelectionChange
 (
-void
+const
+IMENotification
+&
+aIMENotification
 )
 {
 NS_ASSERTION
@@ -779,6 +782,7 @@ sEnabledTextStore
 >
 OnSelectionChangeInternal
 (
+aIMENotification
 )
 :
 NS_OK
@@ -1276,7 +1280,10 @@ aIMENotification
 nsresult
 OnSelectionChangeInternal
 (
-void
+const
+IMENotification
+&
+aIMENotification
 )
 ;
 nsresult
