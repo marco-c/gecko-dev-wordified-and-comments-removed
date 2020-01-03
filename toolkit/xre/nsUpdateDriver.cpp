@@ -4253,10 +4253,9 @@ ioprioLevel
 ;
 PR_SetEnv
 (
-prioEnv
-.
-get
+ToNewCString
 (
+prioEnv
 )
 )
 ;
