@@ -1895,6 +1895,10 @@ gtk_window_get_type
 )
 STUB
 (
+gtk_window_get_type_hint
+)
+STUB
+(
 gtk_window_get_window_type
 )
 STUB
