@@ -241,6 +241,8 @@ nsISupports
 aData
 uint32_t
 aDataLen
+bool
+aIsPrivateData
 )
 {
 if
@@ -248,6 +250,10 @@ if
 aDataLen
 >
 kLargeDatasetSize
+&
+&
+!
+aIsPrivateData
 )
 {
 if
@@ -1605,6 +1611,7 @@ SetData
 (
 aData
 aDataLen
+mPrivateData
 )
 ;
 return
@@ -1717,6 +1724,7 @@ SetData
 (
 ConvertedData
 ConvertedLen
+mPrivateData
 )
 ;
 return

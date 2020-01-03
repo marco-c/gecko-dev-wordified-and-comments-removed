@@ -103,6 +103,8 @@ nsISupports
 inData
 uint32_t
 inDataLen
+bool
+aIsPrivateData
 )
 ;
 void
