@@ -66,6 +66,9 @@ idl
 interface
 nsIContentFrameMessageManager
 ;
+interface
+nsIWebBrowserChrome3
+;
 [
 scriptable
 uuid
@@ -90,6 +93,10 @@ readonly
 attribute
 nsIContentFrameMessageManager
 messageManager
+;
+attribute
+nsIWebBrowserChrome3
+webBrowserChrome
 ;
 [
 notxpcom
