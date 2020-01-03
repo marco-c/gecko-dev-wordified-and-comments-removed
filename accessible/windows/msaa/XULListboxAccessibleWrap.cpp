@@ -24,6 +24,12 @@ XULListboxAccessibleWrap
 IMPL_IUNKNOWN_QUERY_CLASS_COND
 (
 ia2AccessibleTable
+!
+IsDefunct
+(
+)
+&
+&
 IsMulticolumn
 (
 )
