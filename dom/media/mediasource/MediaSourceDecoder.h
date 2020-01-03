@@ -260,10 +260,6 @@ MediaSourceReader
 >
 mReader
 ;
-friend
-class
-MediaSourceReader
-;
 }
 ;
 }
