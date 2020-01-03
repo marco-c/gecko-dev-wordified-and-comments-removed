@@ -58,6 +58,7 @@ nsIAccessible
 aCaption
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSummary
@@ -67,6 +68,7 @@ nsAString
 aSummary
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetColumnCount
@@ -76,6 +78,7 @@ int32_t
 aColumnCount
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRowCount
@@ -85,6 +88,7 @@ int32_t
 aRowCount
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCellAt
@@ -99,6 +103,7 @@ nsIAccessible
 aCell
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCellIndexAt
@@ -112,6 +117,7 @@ int32_t
 aCellIndex
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetColumnIndexAt
@@ -123,6 +129,7 @@ int32_t
 aColumnIndex
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRowIndexAt
@@ -134,6 +141,7 @@ int32_t
 aRowIndex
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRowAndColumnIndicesAt
@@ -148,6 +156,7 @@ int32_t
 aColumnIndex
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetColumnExtentAt
@@ -161,6 +170,7 @@ int32_t
 aColumnExtent
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRowExtentAt
@@ -174,6 +184,7 @@ int32_t
 aRowExtent
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetColumnDescription
@@ -185,6 +196,7 @@ nsAString
 aDescription
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRowDescription
@@ -196,6 +208,7 @@ nsAString
 aDescription
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 IsColumnSelected
@@ -207,6 +220,7 @@ bool
 _retval
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 IsRowSelected
@@ -218,6 +232,7 @@ bool
 _retval
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 IsCellSelected
@@ -231,6 +246,7 @@ bool
 _retval
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectedCellCount
@@ -240,6 +256,7 @@ uint32_t
 aSelectedCellCount
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectedColumnCount
@@ -249,6 +266,7 @@ uint32_t
 aSelectedColumnCount
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectedRowCount
@@ -258,6 +276,7 @@ uint32_t
 aSelectedRowCount
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectedCells
@@ -268,6 +287,7 @@ nsIArray
 aSelectedCell
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectedCellIndices
@@ -281,6 +301,7 @@ int32_t
 aCellsArray
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectedColumnIndices
@@ -294,6 +315,7 @@ int32_t
 aColsArray
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectedRowIndices
@@ -307,6 +329,7 @@ int32_t
 aRowsArray
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SelectColumn
@@ -315,6 +338,7 @@ int32_t
 aColIdx
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SelectRow
@@ -323,6 +347,7 @@ int32_t
 aRowIdx
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 UnselectColumn
@@ -331,6 +356,7 @@ int32_t
 aColIdx
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 UnselectRow
@@ -339,6 +365,7 @@ int32_t
 aRowIdx
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 IsProbablyForLayout
@@ -348,6 +375,7 @@ bool
 aIsForLayout
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 protected
 :

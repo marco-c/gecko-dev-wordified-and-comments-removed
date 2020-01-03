@@ -114,6 +114,7 @@ void
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

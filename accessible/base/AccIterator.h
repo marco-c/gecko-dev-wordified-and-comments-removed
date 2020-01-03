@@ -94,6 +94,7 @@ Accessible
 Next
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -193,6 +194,7 @@ Accessible
 Next
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -284,6 +286,7 @@ Accessible
 Next
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -352,6 +355,7 @@ Accessible
 Next
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -412,6 +416,7 @@ Accessible
 Next
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -472,6 +477,7 @@ Accessible
 Next
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -557,6 +563,7 @@ Accessible
 Next
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -634,6 +641,7 @@ Accessible
 Next
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -705,6 +713,7 @@ Accessible
 Next
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -778,6 +787,7 @@ Accessible
 Next
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :

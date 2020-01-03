@@ -39,6 +39,7 @@ int32_t
 aAnchorCount
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetStartIndex
@@ -48,6 +49,7 @@ int32_t
 aStartIndex
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetEndIndex
@@ -57,6 +59,7 @@ int32_t
 aEndIndex
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetURI
@@ -69,6 +72,7 @@ nsIURI
 aURI
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAnchor
@@ -81,6 +85,7 @@ nsIAccessible
 aAccessible
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetValid
@@ -90,6 +95,7 @@ bool
 aValid
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 protected
 :

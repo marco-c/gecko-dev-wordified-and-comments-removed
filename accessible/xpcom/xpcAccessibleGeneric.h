@@ -133,6 +133,7 @@ ToInternalAccessible
 )
 const
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 virtual
 void

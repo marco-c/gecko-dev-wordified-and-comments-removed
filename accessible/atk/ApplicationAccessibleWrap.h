@@ -49,6 +49,7 @@ nsString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -70,6 +71,7 @@ Accessible
 *
 aChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

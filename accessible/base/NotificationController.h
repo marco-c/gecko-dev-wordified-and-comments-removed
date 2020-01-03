@@ -175,6 +175,7 @@ void
 Process
 (
 )
+MOZ_OVERRIDE
 {
 (
 mInstance
@@ -263,6 +264,7 @@ AddRef
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -272,6 +274,7 @@ Release
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
 (
@@ -614,6 +617,7 @@ mozilla
 TimeStamp
 aTime
 )
+MOZ_OVERRIDE
 ;
 private
 :
