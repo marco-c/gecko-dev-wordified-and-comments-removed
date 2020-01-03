@@ -130,16 +130,6 @@ SCHEDULE_SAFETY_MARGIN_MS
 class
 MediaStreamGraphImpl
 ;
-typedef
-int64_t
-GraphTime
-;
-const
-GraphTime
-GRAPH_TIME_MAX
-=
-MEDIA_TIME_MAX
-;
 class
 AudioCallbackDriver
 ;

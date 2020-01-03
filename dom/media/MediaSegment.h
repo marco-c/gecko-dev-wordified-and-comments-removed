@@ -92,6 +92,16 @@ STREAM_TIME_MAX
 =
 MEDIA_TIME_MAX
 ;
+typedef
+MediaTime
+GraphTime
+;
+const
+GraphTime
+GRAPH_TIME_MAX
+=
+MEDIA_TIME_MAX
+;
 class
 MediaSegment
 {
