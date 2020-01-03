@@ -35,17 +35,6 @@ h
 #
 include
 "
-jemalloc
-/
-internal
-/
-jemalloc_internal_defs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Types
@@ -396,7 +385,7 @@ _alloca
 else
 #
 ifdef
-JEMALLOC_HAS_ALLOCA_H
+HAVE_ALLOCA_H
 #
 include
 <
