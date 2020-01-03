@@ -541,7 +541,7 @@ public
 JS
 :
 :
-StaticTraceable
+Traceable
 {
 friend
 class

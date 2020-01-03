@@ -3771,7 +3771,7 @@ public
 JS
 :
 :
-StaticTraceable
+Traceable
 {
 public
 :

@@ -9185,7 +9185,7 @@ public
 JS
 :
 :
-StaticTraceable
+Traceable
 {
 JSObject
 *
