@@ -502,6 +502,11 @@ CacheStorage
 )
 ;
 void
+DisconnectFromActor
+(
+)
+;
+void
 MaybeRunPendingRequests
 (
 )
