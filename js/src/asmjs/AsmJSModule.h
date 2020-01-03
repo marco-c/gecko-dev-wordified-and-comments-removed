@@ -210,6 +210,7 @@ AsmJSSimdOperation_greaterThanOrEqual
 AsmJSSimdOperation_and
 AsmJSSimdOperation_or
 AsmJSSimdOperation_xor
+AsmJSSimdOperation_select
 }
 ;
 struct
