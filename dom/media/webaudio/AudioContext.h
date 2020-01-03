@@ -644,6 +644,9 @@ DecodeErrorCallback
 >
 &
 aFailureCallback
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed

@@ -216,6 +216,9 @@ float
 sampleRate
 )
 ;
+[
+Throws
+]
 Promise
 <
 AudioBuffer
