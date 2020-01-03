@@ -13367,11 +13367,6 @@ state
 ;
 }
 WrapElementForJNI
-(
-allowMultithread
-=
-true
-)
 public
 static
 void

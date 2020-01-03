@@ -132,11 +132,6 @@ GeneratedJNIWrappers
 .
 h
 '
-'
-GeneratedSDKWrappers
-.
-h
-'
 ]
 SOURCES
 +
@@ -179,11 +174,6 @@ cpp
 '
 '
 GeneratedJNIWrappers
-.
-cpp
-'
-'
-GeneratedSDKWrappers
 .
 cpp
 '

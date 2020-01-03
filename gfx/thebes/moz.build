@@ -318,6 +318,11 @@ GraphicsFilter
 h
 '
 '
+nsSurfaceTexture
+.
+h
+'
+'
 RoundedRect
 .
 h
@@ -1269,6 +1274,11 @@ cpp
 '
 '
 gfxUtils
+.
+cpp
+'
+'
+nsSurfaceTexture
 .
 cpp
 '
