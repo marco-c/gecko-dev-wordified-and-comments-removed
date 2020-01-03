@@ -146,6 +146,9 @@ nsIWidgetListener
 class
 nsIntRegion
 ;
+class
+nsIScreen
+;
 namespace
 mozilla
 {
@@ -2379,6 +2382,11 @@ MakeFullScreen
 (
 bool
 aFullScreen
+nsIScreen
+*
+aTargetScreen
+=
+nullptr
 )
 =
 0

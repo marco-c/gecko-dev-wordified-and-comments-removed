@@ -2631,6 +2631,9 @@ MakeFullScreen
 (
 bool
 aFullScreen
+nsIScreen
+*
+aScreen
 )
 {
 HideWindowChrome
@@ -2781,7 +2784,15 @@ nsCOMPtr
 nsIScreen
 >
 screen
+=
+aScreen
 ;
+if
+(
+!
+screen
+)
+{
 screenManager
 -
 >
@@ -2809,6 +2820,7 @@ screen
 )
 )
 ;
+}
 if
 (
 screen

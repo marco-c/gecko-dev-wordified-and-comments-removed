@@ -10928,6 +10928,9 @@ MakeFullScreen
 (
 bool
 aFullScreen
+nsIScreen
+*
+aTargetScreen
 )
 {
 nsCOMPtr
@@ -11023,6 +11026,7 @@ nsBaseWidget
 MakeFullScreen
 (
 aFullScreen
+aTargetScreen
 )
 ;
 if
