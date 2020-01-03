@@ -197,7 +197,7 @@ dom
 namespace
 mobilemessage
 {
-struct
+class
 SmsFilterData
 ;
 }
