@@ -1594,6 +1594,17 @@ bool
 aIsFullScreen
 bool
 aRequireTrust
+mozilla
+:
+:
+gfx
+:
+:
+VRHMDInfo
+*
+aHMD
+=
+nullptr
 )
 ;
 bool
