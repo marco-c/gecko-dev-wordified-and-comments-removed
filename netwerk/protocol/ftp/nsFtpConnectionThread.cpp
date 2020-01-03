@@ -8077,7 +8077,14 @@ pps
 >
 AsyncResolve
 (
+static_cast
+<
+nsIChannel
+*
+>
+(
 mChannel
+)
 0
 this
 getter_AddRefs

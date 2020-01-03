@@ -8869,7 +8869,14 @@ pps
 >
 AsyncResolve
 (
+static_cast
+<
+nsIChannel
+*
+>
+(
 this
+)
 mProxyResolveFlags
 this
 getter_AddRefs
