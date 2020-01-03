@@ -44630,12 +44630,6 @@ IsNumberType
 (
 type
 )
-|
-|
-IsSimdType
-(
-type
-)
 )
 ;
 setResultType

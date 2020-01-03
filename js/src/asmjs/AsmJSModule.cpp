@@ -1638,7 +1638,10 @@ masm
 bytesNeeded
 (
 )
-SimdStackAlignment
+sizeof
+(
+double
+)
 )
 ;
 pod

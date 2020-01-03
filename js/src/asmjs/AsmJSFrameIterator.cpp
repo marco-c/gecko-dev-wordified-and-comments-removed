@@ -1516,12 +1516,11 @@ offsetOfFP
 ;
 if
 (
-uint32_t
-d
+unsigned
+stackDec
 =
 StackDecrementForCall
 (
-ABIStackAlignment
 sizeof
 (
 AsmJSFrame
@@ -1535,7 +1534,7 @@ subPtr
 (
 Imm32
 (
-d
+stackDec
 )
 StackPointer
 )
@@ -1544,7 +1543,6 @@ masm
 .
 assertStackAlignment
 (
-ABIStackAlignment
 )
 ;
 masm

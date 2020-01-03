@@ -8734,8 +8734,6 @@ JS_ASSERT
 (
 !
 SupportsSimd
-(
-)
 &
 &
 simdSet
@@ -8956,8 +8954,6 @@ JS_ASSERT
 (
 !
 SupportsSimd
-(
-)
 &
 &
 simdSet
@@ -18409,7 +18405,7 @@ Imm32
 (
 ~
 (
-ABIStackAlignment
+StackAlignment
 -
 1
 )
@@ -19229,7 +19225,7 @@ ma_tst
 sp
 Imm32
 (
-ABIStackAlignment
+StackAlignment
 -
 1
 )
@@ -19358,7 +19354,7 @@ framePushed_
 stackAdjust
 +
 alignmentAtPrologue
-ABIStackAlignment
+StackAlignment
 )
 ;
 }
@@ -19377,7 +19373,7 @@ sizeof
 (
 intptr_t
 )
-ABIStackAlignment
+StackAlignment
 )
 ;
 }

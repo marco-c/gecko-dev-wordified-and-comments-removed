@@ -1169,7 +1169,7 @@ Imm32
 (
 ~
 (
-ABIStackAlignment
+StackAlignment
 -
 1
 )
@@ -1524,7 +1524,7 @@ sizeof
 (
 intptr_t
 )
-ABIStackAlignment
+StackAlignment
 )
 ;
 }
@@ -1540,7 +1540,7 @@ ComputeByteAlignment
 stackForCall_
 +
 framePushed_
-ABIStackAlignment
+StackAlignment
 )
 ;
 }
@@ -1600,7 +1600,7 @@ testq
 rsp
 Imm32
 (
-ABIStackAlignment
+StackAlignment
 -
 1
 )

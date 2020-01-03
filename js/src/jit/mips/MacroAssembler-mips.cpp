@@ -6824,7 +6824,7 @@ Imm32
 (
 ~
 (
-ABIStackAlignment
+StackAlignment
 -
 1
 )
@@ -7007,7 +7007,7 @@ Imm32
 (
 ~
 (
-ABIStackAlignment
+StackAlignment
 -
 1
 )
@@ -14530,7 +14530,7 @@ Imm32
 (
 ~
 (
-ABIStackAlignment
+StackAlignment
 -
 1
 )
@@ -15169,7 +15169,7 @@ as_andi
 (
 ScratchRegister
 sp
-ABIStackAlignment
+StackAlignment
 -
 1
 )
@@ -15230,7 +15230,7 @@ Imm32
 (
 ~
 (
-ABIStackAlignment
+StackAlignment
 -
 1
 )
@@ -15285,7 +15285,7 @@ framePushed
 (
 )
 %
-ABIStackAlignment
+StackAlignment
 !
 =
 0
@@ -15295,7 +15295,7 @@ aic
 .
 alignmentPadding
 =
-ABIStackAlignment
+StackAlignment
 -
 (
 framePushed
@@ -15328,7 +15328,7 @@ framePushed
 (
 )
 %
-ABIStackAlignment
+StackAlignment
 =
 =
 0
@@ -15440,7 +15440,7 @@ ComputeByteAlignment
 (
 *
 stackAdjust
-ABIStackAlignment
+StackAlignment
 )
 ;
 }
@@ -15458,7 +15458,7 @@ alignmentAtPrologue
 +
 *
 stackAdjust
-ABIStackAlignment
+StackAlignment
 )
 ;
 }
@@ -15947,12 +15947,12 @@ sizeof
 ResumeFromException
 )
 +
-ABIStackAlignment
+StackAlignment
 )
 &
 ~
 (
-ABIStackAlignment
+StackAlignment
 -
 1
 )

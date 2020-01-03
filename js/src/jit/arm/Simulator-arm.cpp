@@ -12868,7 +12868,7 @@ sp
 )
 &
 (
-ABIStackAlignment
+StackAlignment
 -
 1
 )
@@ -25784,7 +25784,7 @@ entry_stack
 &
 =
 ~
-ABIStackAlignment
+StackAlignment
 ;
 intptr_t
 *

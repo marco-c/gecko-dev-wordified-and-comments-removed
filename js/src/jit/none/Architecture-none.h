@@ -33,13 +33,6 @@ SimdStackAlignment
 =
 0
 ;
-static
-const
-uint32_t
-AsmJSStackAlignment
-=
-0
-;
 class
 Registers
 {
