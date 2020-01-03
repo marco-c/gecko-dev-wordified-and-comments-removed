@@ -1304,9 +1304,9 @@ ins
 )
 ;
 void
-visitTypedObjectDescr
+visitTypedObjectProto
 (
-MTypedObjectDescr
+MTypedObjectProto
 *
 ins
 )

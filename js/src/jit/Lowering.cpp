@@ -15040,9 +15040,9 @@ void
 LIRGenerator
 :
 :
-visitTypedObjectDescr
+visitTypedObjectProto
 (
-MTypedObjectDescr
+MTypedObjectProto
 *
 ins
 )
@@ -15060,7 +15060,7 @@ type
 MIRType_Object
 )
 ;
-define
+defineReturn
 (
 new
 (
@@ -15068,9 +15068,9 @@ alloc
 (
 )
 )
-LTypedObjectDescr
+LTypedObjectProto
 (
-useRegisterAtStart
+useFixed
 (
 ins
 -
@@ -15078,6 +15078,11 @@ ins
 object
 (
 )
+CallTempReg0
+)
+tempFixed
+(
+CallTempReg1
 )
 )
 ins

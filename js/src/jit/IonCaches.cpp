@@ -12371,7 +12371,7 @@ types
 TypeObject
 :
 :
-offsetOfAddendum
+offsetOfNewScript
 (
 )
 )

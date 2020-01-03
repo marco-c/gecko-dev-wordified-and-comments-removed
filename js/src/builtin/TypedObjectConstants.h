@@ -6,8 +6,12 @@ define
 builtin_TypedObjectConstants_h
 #
 define
-JS_TYPROTO_SLOTS
+JS_TYPROTO_SLOT_DESCR
 0
+#
+define
+JS_TYPROTO_SLOTS
+1
 #
 define
 JS_DESCR_SLOT_KIND

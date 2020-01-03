@@ -1121,7 +1121,7 @@ TypedArrayElements
 )
 SAFE_OP
 (
-TypedObjectDescr
+TypedObjectProto
 )
 SAFE_OP
 (
