@@ -1113,7 +1113,7 @@ ptr
 reinterpret_cast
 <
 const
-float
+AudioDataValue
 *
 >
 (
@@ -1153,7 +1153,7 @@ aOutputChannels
 {
 nsAutoTArray
 <
-float
+AudioDataValue
 *
 GUESS_AUDIO_CHANNELS
 >
@@ -1260,7 +1260,7 @@ ptr
 reinterpret_cast
 <
 const
-float
+AudioDataValue
 *
 >
 (
