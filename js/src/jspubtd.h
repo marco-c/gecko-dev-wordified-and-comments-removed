@@ -119,6 +119,12 @@ OwningCompileOptions
 )
 ;
 class
+JS_FRIEND_API
+(
+TransitiveCompileOptions
+)
+;
+class
 JS_PUBLIC_API
 (
 CompartmentOptions
@@ -711,10 +717,6 @@ IDVECTOR
 =
 -
 11
-IDVALVECTOR
-=
--
-12
 OBJVECTOR
 =
 -
