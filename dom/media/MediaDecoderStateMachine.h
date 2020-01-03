@@ -301,7 +301,10 @@ GetEndTime
 void
 SetDuration
 (
-int64_t
+media
+:
+:
+TimeUnit
 aDuration
 )
 ;
