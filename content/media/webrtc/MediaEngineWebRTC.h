@@ -485,6 +485,10 @@ mBackCamera
 (
 false
 )
+mOrientationChanged
+(
+true
+)
 mCaptureIndex
 (
 aIndex
@@ -948,6 +952,11 @@ aCallback
 )
 MOZ_OVERRIDE
 ;
+nsresult
+UpdatePhotoOrientation
+(
+)
+;
 #
 endif
 NS_IMETHODIMP
@@ -1111,6 +1120,9 @@ mCameraAngle
 ;
 bool
 mBackCamera
+;
+bool
+mOrientationChanged
 ;
 #
 else
