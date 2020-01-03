@@ -16,6 +16,18 @@ MemoryMetrics
 .
 h
 "
+#
+ifdef
+__APPLE__
+#
+include
+<
+TargetConditionals
+.
+h
+>
+#
+endif
 using
 namespace
 js
@@ -231,7 +243,7 @@ m_otherCodeBytes
 }
 }
 #
-ifdef
+if
 TARGET_OS_IPHONE
 bool
 ExecutableAllocator
