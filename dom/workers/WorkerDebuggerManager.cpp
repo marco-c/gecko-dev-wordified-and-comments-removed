@@ -70,7 +70,6 @@ aHasListeners
 )
 {
 }
-NS_DECL_THREADSAFE_ISUPPORTS
 private
 :
 ~
@@ -99,12 +98,6 @@ NS_OK
 ;
 }
 }
-;
-NS_IMPL_ISUPPORTS
-(
-RegisterDebuggerRunnable
-nsIRunnable
-)
 ;
 BEGIN_WORKERS_NAMESPACE
 class
