@@ -340,7 +340,7 @@ RecreateData
 )
 ;
 void
-Connect
+AddOutput
 (
 ProcessedMediaStream
 *
@@ -350,7 +350,7 @@ aFinishWhenEnded
 )
 ;
 void
-Remove
+RemoveOutput
 (
 MediaStream
 *

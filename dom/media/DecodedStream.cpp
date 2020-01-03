@@ -1692,7 +1692,7 @@ void
 DecodedStream
 :
 :
-Connect
+AddOutput
 (
 ProcessedMediaStream
 *
@@ -1746,7 +1746,7 @@ void
 DecodedStream
 :
 :
-Remove
+RemoveOutput
 (
 MediaStream
 *
