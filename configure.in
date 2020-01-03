@@ -63220,11 +63220,6 @@ pipe
 wrap
 =
 pipe2
--
--
-wrap
-=
-tgkill
 "
 fi
 fi
