@@ -23832,9 +23832,6 @@ types
 hasObjectFlags
 (
 constraints
-types
-:
-:
 OBJECT_FLAG_NON_PACKED
 )
 ;
@@ -23881,9 +23878,6 @@ types
 hasObjectFlags
 (
 constraints
-types
-:
-:
 OBJECT_FLAG_COPY_ON_WRITE
 )
 ;
@@ -23931,9 +23925,6 @@ types
 hasObjectFlags
 (
 constraints
-types
-:
-:
 OBJECT_FLAG_LENGTH_OVERFLOW
 )
 )

@@ -379,9 +379,6 @@ MIRGenerator
 :
 addAbortedNewScriptPropertiesGroup
 (
-types
-:
-:
 ObjectGroup
 *
 group

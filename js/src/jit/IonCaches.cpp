@@ -2070,9 +2070,6 @@ Address
 proto
 (
 scratchReg
-types
-:
-:
 ObjectGroup
 :
 :
@@ -8901,9 +8898,6 @@ reg
 (
 )
 ;
-types
-:
-:
 ObjectGroup
 *
 group
@@ -9059,9 +9053,6 @@ if
 needsTypeBarrier
 )
 {
-types
-:
-:
 ObjectGroup
 *
 group
@@ -11724,9 +11715,6 @@ obj
 Shape
 *
 oldShape
-types
-:
-:
 ObjectGroup
 *
 oldGroup
@@ -12019,9 +12007,6 @@ Equal
 Address
 (
 object
-types
-:
-:
 ObjectGroup
 :
 :
@@ -12371,9 +12356,6 @@ shouldCheck
 =
 false
 ;
-types
-:
-:
 ObjectGroup
 *
 group

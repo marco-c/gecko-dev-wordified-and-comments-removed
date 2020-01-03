@@ -16,13 +16,9 @@ h
 namespace
 js
 {
-namespace
-types
-{
-struct
+class
 ObjectGroup
 ;
-}
 namespace
 gc
 {
@@ -131,9 +127,6 @@ void
 TraceTypeNewScript
 (
 js
-:
-:
-types
 :
 :
 ObjectGroup
@@ -263,9 +256,6 @@ void
 TraceTypeNewScript
 (
 js
-:
-:
-types
 :
 :
 ObjectGroup

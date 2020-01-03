@@ -4165,9 +4165,6 @@ next
 )
 )
 {
-types
-:
-:
 ObjectGroup
 *
 group
@@ -4176,9 +4173,6 @@ iter
 .
 get
 <
-types
-:
-:
 ObjectGroup
 >
 (

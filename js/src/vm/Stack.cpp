@@ -759,10 +759,10 @@ obj
 return
 nullptr
 ;
-types
+ObjectGroup
 :
 :
-FixRestArgumentsType
+fixRestArgumentsGroup
 (
 cx
 obj

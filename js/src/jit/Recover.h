@@ -25,6 +25,15 @@ include
 "
 jit
 /
+MIR
+.
+h
+"
+#
+include
+"
+jit
+/
 Snapshots
 .
 h

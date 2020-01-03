@@ -61,6 +61,15 @@ MIRGraph
 .
 h
 "
+#
+include
+"
+vm
+/
+UnboxedObject
+.
+h
+"
 namespace
 js
 {

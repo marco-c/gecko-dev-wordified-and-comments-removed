@@ -520,9 +520,6 @@ Symbol
 DeclMarker
 (
 ObjectGroup
-types
-:
-:
 ObjectGroup
 )
 #

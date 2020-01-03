@@ -3909,9 +3909,6 @@ lir
 ;
 if
 (
-types
-:
-:
 ObjectGroup
 *
 funcGroup
@@ -4201,9 +4198,6 @@ emit
 masm
 )
 ;
-types
-:
-:
 ObjectGroup
 *
 group
@@ -21730,9 +21724,6 @@ NonZero
 Address
 (
 temp
-types
-:
-:
 ObjectGroup
 :
 :
@@ -21742,9 +21733,6 @@ offsetOfFlags
 )
 Imm32
 (
-types
-:
-:
 OBJECT_FLAG_UNKNOWN_PROPERTIES
 )
 &
@@ -22163,9 +22151,6 @@ NonZero
 Address
 (
 temp1
-types
-:
-:
 ObjectGroup
 :
 :
@@ -22175,9 +22160,6 @@ offsetOfFlags
 )
 Imm32
 (
-types
-:
-:
 OBJECT_FLAG_UNKNOWN_PROPERTIES
 )
 &
@@ -23188,9 +23170,6 @@ templateObject
 (
 )
 ;
-types
-:
-:
 ObjectGroup
 *
 group
@@ -25556,9 +25535,6 @@ Address
 clasp
 (
 temp
-types
-:
-:
 ObjectGroup
 :
 :
@@ -25610,9 +25586,6 @@ loadPtr
 Address
 (
 temp
-types
-:
-:
 ObjectGroup
 :
 :
@@ -28754,9 +28727,6 @@ loadPtr
 Address
 (
 out
-types
-:
-:
 ObjectGroup
 :
 :

@@ -425,9 +425,6 @@ shape
 =
 nullptr
 ;
-types
-:
-:
 ObjectGroup
 *
 group

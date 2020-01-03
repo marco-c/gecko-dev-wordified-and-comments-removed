@@ -4597,9 +4597,6 @@ isGroup
 return
 nullptr
 ;
-types
-:
-:
 ObjectGroup
 *
 obj
@@ -5482,11 +5479,12 @@ offset
 ;
 if
 (
-cx
--
->
+ObjectGroup
+:
+:
 findAllocationSiteForType
 (
+cx
 ty
 &
 script

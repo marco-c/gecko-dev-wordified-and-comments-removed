@@ -582,9 +582,6 @@ cx
 JSFunction
 *
 fun
-types
-:
-:
 ObjectGroup
 *
 group

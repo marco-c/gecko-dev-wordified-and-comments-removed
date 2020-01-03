@@ -1042,9 +1042,6 @@ lookupGroup
 js
 :
 :
-types
-:
-:
 ObjectGroup
 *
 group
@@ -1154,9 +1151,6 @@ fillGroup
 EntryIndex
 entry
 js
-:
-:
-types
 :
 :
 ObjectGroup
@@ -1492,9 +1486,6 @@ dst
 shape_
 )
 ;
-types
-:
-:
 ObjectGroup
 :
 :

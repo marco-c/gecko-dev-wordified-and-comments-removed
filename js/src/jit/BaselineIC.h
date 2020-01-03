@@ -13878,9 +13878,6 @@ ICSetElem_DenseAdd
 JitCode
 *
 stubCode
-types
-:
-:
 ObjectGroup
 *
 group
@@ -14034,9 +14031,6 @@ ICSetElem_DenseAddImpl
 JitCode
 *
 stubCode
-types
-:
-:
 ObjectGroup
 *
 group
@@ -14112,9 +14106,6 @@ space
 JitCode
 *
 code
-types
-:
-:
 ObjectGroup
 *
 group
@@ -18309,9 +18300,6 @@ cx
 ICStub
 *
 firstMonitorStub
-types
-:
-:
 ObjectGroup
 *
 group
@@ -22345,9 +22333,6 @@ Compiler
 JSContext
 *
 cx
-types
-:
-:
 ObjectGroup
 *
 group
@@ -22724,9 +22709,6 @@ cx
 Shape
 *
 shape
-types
-:
-:
 ObjectGroup
 *
 group

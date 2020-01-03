@@ -2742,11 +2742,12 @@ RootedObjectGroup
 group
 (
 cx
-cx
--
->
-getNewGroup
+ObjectGroup
+:
+:
+defaultNewGroup
 (
+cx
 &
 PropertyIteratorObject
 :
@@ -3340,9 +3341,6 @@ MarkObjectGroupFlags
 (
 cx
 obj
-types
-:
-:
 OBJECT_FLAG_ITERATED
 )
 ;
@@ -3542,9 +3540,6 @@ MarkObjectGroupFlags
 (
 cx
 obj
-types
-:
-:
 OBJECT_FLAG_ITERATED
 )
 ;

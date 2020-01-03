@@ -1239,9 +1239,6 @@ loadPtr
 Address
 (
 dest
-types
-:
-:
 ObjectGroup
 :
 :
@@ -1295,9 +1292,6 @@ cond
 Address
 (
 scratch
-types
-:
-:
 ObjectGroup
 :
 :
@@ -1692,9 +1686,6 @@ loadPtr
 Address
 (
 dest
-types
-:
-:
 ObjectGroup
 :
 :

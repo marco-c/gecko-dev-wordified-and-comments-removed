@@ -951,11 +951,12 @@ RootedObjectGroup
 group
 (
 cx
-cx
--
->
-getNewGroup
+ObjectGroup
+:
+:
+defaultNewGroup
 (
+cx
 clasp
 TaggedProto
 (

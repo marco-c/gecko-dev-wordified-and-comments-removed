@@ -302,9 +302,6 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-types
-:
-:
 ObjectGroup
 *
 thing
@@ -398,9 +395,6 @@ MarkChildren
 JSTracer
 *
 trc
-types
-:
-:
 ObjectGroup
 *
 group
@@ -3204,9 +3198,6 @@ ObjectGroup
 js
 :
 :
-types
-:
-:
 ObjectGroup
 )
 }
@@ -3453,9 +3444,6 @@ MarkInternal
 trc
 reinterpret_cast
 <
-types
-:
-:
 ObjectGroup
 *
 *
@@ -4278,9 +4266,6 @@ isGroup
 )
 )
 {
-types
-:
-:
 ObjectGroup
 *
 group
@@ -5853,9 +5838,6 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-types
-:
-:
 ObjectGroup
 *
 thing
@@ -7594,9 +7576,6 @@ ScanObjectGroup
 GCMarker
 *
 gcmarker
-types
-:
-:
 ObjectGroup
 *
 group
@@ -7810,9 +7789,6 @@ MarkChildren
 JSTracer
 *
 trc
-types
-:
-:
 ObjectGroup
 *
 group
@@ -8305,9 +8281,6 @@ JSTRACE_OBJECT_GROUP
 PushArenaTyped
 <
 js
-:
-:
-types
 :
 :
 ObjectGroup
@@ -9025,9 +8998,6 @@ ScanObjectGroup
 this
 reinterpret_cast
 <
-types
-:
-:
 ObjectGroup
 *
 >
@@ -9953,9 +9923,6 @@ obj
 return
 ;
 }
-types
-:
-:
 ObjectGroup
 *
 group
@@ -10755,9 +10722,6 @@ MarkChildren
 (
 trc
 (
-types
-:
-:
 ObjectGroup
 *
 )

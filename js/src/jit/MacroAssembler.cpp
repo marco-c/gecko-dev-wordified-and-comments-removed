@@ -339,9 +339,6 @@ nullptr
 ;
 }
 inline
-types
-:
-:
 ObjectGroup
 *
 getGroupNoBarrier
@@ -866,9 +863,6 @@ NonZero
 Address
 (
 scratch
-types
-:
-:
 ObjectGroup
 :
 :
@@ -878,9 +872,6 @@ offsetOfFlags
 )
 Imm32
 (
-types
-:
-:
 OBJECT_FLAG_UNKNOWN_PROPERTIES
 )
 &
@@ -1184,9 +1175,6 @@ emit
 this
 )
 ;
-types
-:
-:
 ObjectGroup
 *
 group

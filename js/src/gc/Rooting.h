@@ -40,13 +40,9 @@ ScriptSourceObject
 class
 Shape
 ;
-namespace
-types
-{
-struct
+class
 ObjectGroup
 ;
-}
 typedef
 JS
 :
@@ -75,9 +71,6 @@ JS
 :
 Handle
 <
-types
-:
-:
 ObjectGroup
 *
 >
@@ -210,9 +203,6 @@ JS
 :
 Rooted
 <
-types
-:
-:
 ObjectGroup
 *
 >

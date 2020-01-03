@@ -144,13 +144,9 @@ Shape
 class
 UnownedBaseShape
 ;
-namespace
-types
-{
-struct
+class
 ObjectGroup
 ;
-}
 namespace
 jit
 {
@@ -723,9 +719,6 @@ template
 struct
 MapTypeToTraceKind
 <
-types
-:
-:
 ObjectGroup
 >
 {
@@ -4237,9 +4230,6 @@ HeapPtrJitCode
 typedef
 HeapPtr
 <
-types
-:
-:
 ObjectGroup
 *
 >
@@ -4376,9 +4366,6 @@ ReadBarrieredJitCode
 typedef
 ReadBarriered
 <
-types
-:
-:
 ObjectGroup
 *
 >

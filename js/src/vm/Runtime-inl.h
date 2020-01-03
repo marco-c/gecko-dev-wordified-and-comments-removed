@@ -251,9 +251,6 @@ entry
 templateObject
 )
 ;
-types
-:
-:
 ObjectGroup
 *
 group

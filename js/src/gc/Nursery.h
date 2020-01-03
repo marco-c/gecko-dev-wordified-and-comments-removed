@@ -121,6 +121,9 @@ NativeObject
 class
 HeapSlot
 ;
+class
+ObjectGroup
+;
 void
 SetGCZeal
 (
@@ -141,13 +144,6 @@ Collector
 ;
 class
 MinorCollectionTracer
-;
-}
-namespace
-types
-{
-struct
-ObjectGroup
 ;
 }
 namespace
@@ -455,9 +451,6 @@ slots
 typedef
 Vector
 <
-types
-:
-:
 ObjectGroup
 *
 0

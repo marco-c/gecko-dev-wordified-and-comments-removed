@@ -20795,10 +20795,10 @@ idx
 count
 )
 ;
-types
+ObjectGroup
 :
 :
-FixArrayGroup
+fixArrayGroup
 (
 cx
 obj
@@ -21165,10 +21165,10 @@ false
 }
 }
 }
-types
+ObjectGroup
 :
 :
-FixObjectGroup
+fixPlainObjectGroup
 (
 cx
 obj

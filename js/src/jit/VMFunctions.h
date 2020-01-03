@@ -1677,9 +1677,6 @@ result
 =
 TypeToArgProperties
 <
-types
-:
-:
 ObjectGroup
 *
 >
@@ -4784,9 +4781,6 @@ MarkObjectGroupFromIon
 JSRuntime
 *
 rt
-types
-:
-:
 ObjectGroup
 *
 *

@@ -6678,9 +6678,6 @@ MarkObjectGroupFromIon
 JSRuntime
 *
 rt
-types
-:
-:
 ObjectGroup
 *
 *

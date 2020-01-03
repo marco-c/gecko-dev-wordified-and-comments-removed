@@ -2464,9 +2464,6 @@ cx
 global
 (
 )
-types
-:
-:
 OBJECT_FLAG_TYPED_OBJECT_NEUTERED
 )
 ;

@@ -15827,9 +15827,6 @@ AnalyzePoppedThis
 JSContext
 *
 cx
-types
-:
-:
 ObjectGroup
 *
 group
@@ -16600,9 +16597,6 @@ cx
 JSFunction
 *
 fun
-types
-:
-:
 ObjectGroup
 *
 group

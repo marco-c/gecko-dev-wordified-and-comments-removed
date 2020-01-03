@@ -67,9 +67,6 @@ MarkObjectGroupFlags
 (
 cx
 this
-types
-:
-:
 OBJECT_FLAG_LENGTH_OVERFLOW
 )
 ;

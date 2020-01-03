@@ -2609,9 +2609,6 @@ pSlotsElems
 struct
 TenureCount
 {
-types
-:
-:
 ObjectGroup
 *
 group
@@ -2647,9 +2644,6 @@ TenureCount
 &
 findEntry
 (
-types
-:
-:
 ObjectGroup
 *
 group
@@ -2660,9 +2654,6 @@ entries
 [
 PointerHasher
 <
-types
-:
-:
 ObjectGroup
 *
 3

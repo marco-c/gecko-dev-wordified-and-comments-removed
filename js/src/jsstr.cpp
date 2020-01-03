@@ -19578,7 +19578,10 @@ RootedObjectGroup
 group
 (
 cx
-GetCallerInitGroup
+ObjectGroup
+:
+:
+callingAllocationSiteGroup
 (
 cx
 JSProto_Array

@@ -49,6 +49,9 @@ NativeObject
 class
 GCMarker
 ;
+class
+ObjectGroup
+;
 namespace
 gc
 {
@@ -61,13 +64,6 @@ jit
 {
 class
 JitCode
-;
-}
-namespace
-types
-{
-struct
-ObjectGroup
 ;
 }
 static
@@ -510,9 +506,6 @@ obj
 void
 pushType
 (
-types
-:
-:
 ObjectGroup
 *
 group

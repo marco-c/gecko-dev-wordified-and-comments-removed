@@ -293,9 +293,6 @@ cx
 global
 (
 )
-types
-:
-:
 OBJECT_FLAG_REGEXP_FLAGS_SET
 )
 ;

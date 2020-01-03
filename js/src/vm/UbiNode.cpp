@@ -608,9 +608,6 @@ static_cast
 js
 :
 :
-types
-:
-:
 ObjectGroup
 *
 >
@@ -1608,9 +1605,6 @@ TracerConcrete
 js
 :
 :
-types
-:
-:
 ObjectGroup
 >
 :
@@ -1623,9 +1617,6 @@ MOZ_UTF16
 (
 "
 js
-:
-:
-types
 :
 :
 ObjectGroup
@@ -1717,9 +1708,6 @@ class
 TracerConcrete
 <
 js
-:
-:
-types
 :
 :
 ObjectGroup
