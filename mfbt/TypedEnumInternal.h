@@ -157,7 +157,7 @@ template
 typename
 DestinationType
 >
-explicit
+MOZ_EXPLICIT_CONVERSION
 MOZ_CONSTEXPR
 operator
 DestinationType
