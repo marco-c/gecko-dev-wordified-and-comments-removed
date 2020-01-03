@@ -963,6 +963,17 @@ return
 false
 ;
 }
+mNativeWindow
+=
+AndroidNativeWindow
+:
+:
+CreateFromSurface
+(
+env
+mSurface
+)
+;
 mID
 =
 +

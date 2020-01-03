@@ -237,6 +237,11 @@ EXPORTS
 =
 [
 '
+AndroidNativeWindow
+.
+h
+'
+'
 AndroidSurfaceTexture
 .
 h
@@ -755,6 +760,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AndroidNativeWindow
+.
+cpp
+'
 '
 AndroidSurfaceTexture
 .
