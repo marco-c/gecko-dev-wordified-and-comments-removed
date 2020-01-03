@@ -733,9 +733,9 @@ b
 )
 ;
 }
-}
 #
 endif
+}
 }
 inline
 float
