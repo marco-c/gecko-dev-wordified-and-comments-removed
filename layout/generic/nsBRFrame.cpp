@@ -448,7 +448,7 @@ StyleContext
 )
 -
 >
-IsDirectlyInsideRuby
+IsInlineDescendantOfRuby
 (
 )
 )

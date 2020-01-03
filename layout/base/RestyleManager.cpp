@@ -12664,7 +12664,7 @@ if
 oldContext
 -
 >
-IsDirectlyInsideRuby
+IsInlineDescendantOfRuby
 (
 )
 !
@@ -12672,7 +12672,7 @@ IsDirectlyInsideRuby
 aNewContext
 -
 >
-IsDirectlyInsideRuby
+IsInlineDescendantOfRuby
 (
 )
 )
@@ -12680,12 +12680,12 @@ IsDirectlyInsideRuby
 LOG_RESTYLE_CONTINUE
 (
 "
-NS_STYLE_IS_DIRECTLY_INSIDE_RUBY
+NS_STYLE_IS_INLINE_DESCENDANT_OF_RUBY
 differes
+"
+"
 between
 old
-"
-"
 and
 new
 style
