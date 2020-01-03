@@ -145,6 +145,8 @@ AsmJSMappedSize
 1024ULL
 *
 1024ULL
++
+AsmJSPageSize
 ;
 #
 endif
