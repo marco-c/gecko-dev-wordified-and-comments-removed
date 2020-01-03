@@ -46880,6 +46880,18 @@ pc
 if
 (
 !
+info
+(
+)
+.
+executionModeIsAnalysis
+(
+)
+)
+{
+if
+(
+!
 getPropTryArgumentsLength
 (
 &
@@ -46910,6 +46922,7 @@ emitted
 return
 emitted
 ;
+}
 BarrierKind
 barrier
 =
