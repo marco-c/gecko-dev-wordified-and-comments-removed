@@ -6191,6 +6191,10 @@ aOffset
 )
 ;
 }
+UpdateReadyStateForData
+(
+)
+;
 }
 void
 MediaDecoder
