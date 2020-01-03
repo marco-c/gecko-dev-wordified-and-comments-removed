@@ -321,6 +321,7 @@ system
 let
 map
 =
+new
 sandbox
 .
 WeakMap

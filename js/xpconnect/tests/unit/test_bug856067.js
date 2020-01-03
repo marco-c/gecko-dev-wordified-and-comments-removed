@@ -42,6 +42,7 @@ evalInSandbox
 var
 w
 =
+new
 WeakMap
 (
 )

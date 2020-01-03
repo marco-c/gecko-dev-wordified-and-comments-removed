@@ -364,6 +364,7 @@ WeakMap
 let
 mempty
 =
+new
 WeakMap
 (
 )
@@ -403,6 +404,7 @@ nonfreeing
 let
 m
 =
+new
 WeakMap
 (
 )
