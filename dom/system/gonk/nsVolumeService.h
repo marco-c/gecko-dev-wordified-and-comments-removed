@@ -119,6 +119,15 @@ Shutdown
 )
 ;
 void
+DumpNoLock
+(
+const
+char
+*
+aLabel
+)
+;
+void
 UpdateVolume
 (
 nsIVolume

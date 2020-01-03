@@ -753,6 +753,16 @@ nsPIDOMWindow
 aWindow
 )
 ;
+static
+int
+InstanceCount
+(
+)
+{
+return
+sInstanceCount
+;
+}
 nsresult
 Init
 (
@@ -1354,6 +1364,10 @@ ErrorResult
 &
 aRv
 )
+;
+static
+int
+sInstanceCount
 ;
 nsString
 mStorageType
