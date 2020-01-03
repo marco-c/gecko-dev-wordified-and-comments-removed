@@ -201,6 +201,7 @@ GetNodeTextContent
 this
 false
 aInnerHTML
+fallible
 )
 )
 {

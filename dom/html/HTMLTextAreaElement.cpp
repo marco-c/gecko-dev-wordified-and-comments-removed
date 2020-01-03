@@ -1300,6 +1300,7 @@ GetNodeTextContent
 this
 false
 aDefaultValue
+fallible
 )
 )
 {

@@ -167,6 +167,7 @@ GetNodeTextContent
 this
 false
 aText
+fallible
 )
 )
 {

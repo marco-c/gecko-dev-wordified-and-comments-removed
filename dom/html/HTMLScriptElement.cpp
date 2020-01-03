@@ -499,6 +499,7 @@ GetNodeTextContent
 this
 false
 aValue
+fallible
 )
 )
 {
@@ -950,6 +951,7 @@ GetNodeTextContent
 this
 false
 aInnerHTML
+fallible
 )
 )
 {

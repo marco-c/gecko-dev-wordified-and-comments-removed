@@ -5313,6 +5313,7 @@ GetNodeTextContent
 this
 true
 aTextContent
+fallible
 )
 )
 {
