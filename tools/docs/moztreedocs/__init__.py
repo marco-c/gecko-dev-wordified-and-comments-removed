@@ -84,6 +84,22 @@ output_dir
         
 self
 .
+_docs_dir
+=
+os
+.
+path
+.
+join
+(
+output_dir
+'
+staging
+'
+)
+        
+self
+.
 _conf_py_path
 =
 os
@@ -459,19 +475,9 @@ b
 '
 fmt
                 
-os
-.
-path
-.
-join
-(
 self
 .
-_output_dir
-'
-staging
-'
-)
+_docs_dir
                 
 os
 .
@@ -545,10 +551,7 @@ join
 (
 self
 .
-_output_dir
-'
-staging
-'
+_docs_dir
 '
 python
 '
@@ -803,22 +806,6 @@ rel_source
 )
 )
         
-stage_dir
-=
-os
-.
-path
-.
-join
-(
-self
-.
-_output_dir
-'
-staging
-'
-)
-        
 copier
 =
 FileCopier
@@ -836,7 +823,9 @@ copier
 .
 copy
 (
-stage_dir
+self
+.
+_docs_dir
 )
         
 with
@@ -973,7 +962,9 @@ path
 .
 join
 (
-stage_dir
+self
+.
+_docs_dir
 '
 index
 .
