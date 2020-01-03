@@ -243,6 +243,9 @@ null
 ;
 expectOnlyOneProcessCreated
 (
+'
+FOREGROUND_HIGH
+'
 )
 .
 then
@@ -255,15 +258,6 @@ chid
 childID
 =
 chid
-;
-return
-expectPriorityChange
-(
-childID
-'
-FOREGROUND_HIGH
-'
-)
 ;
 }
 )
