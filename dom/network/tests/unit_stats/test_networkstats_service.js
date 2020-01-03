@@ -1461,7 +1461,7 @@ getAlarms
 (
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_TYPE_WIFI
 testManifestURL
@@ -1532,7 +1532,7 @@ getAlarms
 (
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_TYPE_WIFI
 testManifestURL

@@ -171,7 +171,7 @@ saveAppStats
 (
 aAppId
 aIsInBrowser
-aNetwork
+aNetworkInfo
 aTimeStamp
 aRxBytes
 aTxBytes
@@ -182,7 +182,7 @@ aCallback
 if
 (
 !
-aNetwork
+aNetworkInfo
 )
 {
 if
@@ -194,7 +194,7 @@ debug
 (
 "
 |
-aNetwork
+aNetworkInfo
 |
 is
 not
@@ -236,7 +236,7 @@ aIsInBrowser
 "
 "
 +
-aNetwork
+aNetworkInfo
 .
 type
 +
@@ -282,7 +282,7 @@ aAppId
 aIsInBrowser
 "
 "
-aNetwork
+aNetworkInfo
 aTimeStamp
 aRxBytes
 aTxBytes
@@ -297,7 +297,7 @@ function
 saveServiceStats
 (
 aServiceType
-aNetwork
+aNetworkInfo
 aTimeStamp
 aRxBytes
 aTxBytes
@@ -308,7 +308,7 @@ aCallback
 if
 (
 !
-aNetwork
+aNetworkInfo
 )
 {
 if
@@ -320,7 +320,7 @@ debug
 (
 "
 |
-aNetwork
+aNetworkInfo
 |
 is
 not
@@ -357,7 +357,7 @@ aServiceType
 "
 "
 +
-aNetwork
+aNetworkInfo
 .
 type
 +
@@ -402,7 +402,7 @@ saveStats
 0
 false
 aServiceType
-aNetwork
+aNetworkInfo
 aTimeStamp
 aRxBytes
 aTxBytes
