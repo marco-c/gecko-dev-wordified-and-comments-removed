@@ -444,3 +444,10 @@ MemoryCallTreeView
 }
 )
 ;
+EventEmitter
+.
+decorate
+(
+MemoryCallTreeView
+)
+;

@@ -585,10 +585,3 @@ true
 }
 }
 ;
-EventEmitter
-.
-decorate
-(
-DetailsSubview
-)
-;

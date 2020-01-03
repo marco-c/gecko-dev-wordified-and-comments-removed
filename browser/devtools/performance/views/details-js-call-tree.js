@@ -518,3 +518,10 @@ JsCallTreeView
 }
 )
 ;
+EventEmitter
+.
+decorate
+(
+JsCallTreeView
+)
+;

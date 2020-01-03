@@ -518,3 +518,10 @@ MemoryFlameGraphView
 }
 )
 ;
+EventEmitter
+.
+decorate
+(
+MemoryFlameGraphView
+)
+;
