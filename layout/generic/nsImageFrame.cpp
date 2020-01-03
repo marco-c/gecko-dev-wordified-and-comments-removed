@@ -4765,6 +4765,11 @@ aRect
 {
 aRenderingContext
 .
+ThebesContext
+(
+)
+-
+>
 SetColor
 (
 StyleColor

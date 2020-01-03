@@ -2614,6 +2614,11 @@ ToReferenceFrame
 aCtx
 -
 >
+ThebesContext
+(
+)
+-
+>
 SetColor
 (
 mFrame

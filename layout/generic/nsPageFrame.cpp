@@ -1941,6 +1941,11 @@ drawTarget
 ;
 aRenderingContext
 .
+ThebesContext
+(
+)
+-
+>
 SetColor
 (
 NS_RGB
@@ -2954,6 +2959,11 @@ Size
 ;
 aRenderingContext
 .
+ThebesContext
+(
+)
+-
+>
 SetColor
 (
 NS_RGB

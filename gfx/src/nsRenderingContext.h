@@ -221,13 +221,6 @@ mP2A
 ;
 }
 void
-SetColor
-(
-nscolor
-aColor
-)
-;
-void
 SetFont
 (
 nsFontMetrics

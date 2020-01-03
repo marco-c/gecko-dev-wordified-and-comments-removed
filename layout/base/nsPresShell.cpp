@@ -46723,6 +46723,11 @@ black
 aRenderingContext
 -
 >
+ThebesContext
+(
+)
+-
+>
 SetColor
 (
 color2
@@ -46747,6 +46752,11 @@ y
 )
 ;
 aRenderingContext
+-
+>
+ThebesContext
+(
+)
 -
 >
 SetColor

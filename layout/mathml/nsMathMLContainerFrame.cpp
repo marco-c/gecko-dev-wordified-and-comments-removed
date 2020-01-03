@@ -508,6 +508,11 @@ red
 aCtx
 -
 >
+ThebesContext
+(
+)
+-
+>
 SetColor
 (
 NS_RGB
