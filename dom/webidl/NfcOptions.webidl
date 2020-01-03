@@ -141,6 +141,9 @@ NFCTechType
 >
 techList
 ;
+Uint8Array
+tagId
+;
 sequence
 <
 MozNDEFRecordOptions
