@@ -1190,6 +1190,14 @@ aOptions
 )
 ;
 CommandResult
+stopDhcp
+(
+NetworkParams
+&
+aOptions
+)
+;
+CommandResult
 enableInterface
 (
 NetworkParams
