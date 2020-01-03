@@ -182,7 +182,7 @@ MOZ_LOG
 GetMediaManagerLog
 (
 )
-6
+PR_LOG_VERBOSE
 msg
 )
 NS_IMPL_ISUPPORTS0
