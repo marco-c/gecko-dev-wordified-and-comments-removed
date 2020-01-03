@@ -4533,14 +4533,6 @@ enableSelection
 ;
 this
 .
-_findField
-.
-blur
-(
-)
-;
-this
-.
 _cancelTimers
 (
 )
