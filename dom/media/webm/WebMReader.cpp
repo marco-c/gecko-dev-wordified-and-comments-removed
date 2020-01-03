@@ -3650,9 +3650,6 @@ MediaData
 :
 :
 AUDIO_DATA
-RequestSampleCallback
-:
-:
 DECODE_ERROR
 )
 ;
@@ -3937,9 +3934,6 @@ MediaData
 :
 :
 AUDIO_DATA
-RequestSampleCallback
-:
-:
 DECODE_ERROR
 )
 ;
@@ -4031,9 +4025,6 @@ MediaData
 :
 :
 AUDIO_DATA
-RequestSampleCallback
-:
-:
 DECODE_ERROR
 )
 ;
