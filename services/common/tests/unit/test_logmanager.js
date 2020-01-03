@@ -241,7 +241,7 @@ Log
 .
 Level
 .
-Error
+Fatal
 )
 ;
 equal
@@ -657,7 +657,7 @@ Log
 .
 Level
 .
-Error
+Fatal
 )
 ;
 equal

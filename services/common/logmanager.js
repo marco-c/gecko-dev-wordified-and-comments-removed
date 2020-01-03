@@ -981,7 +981,7 @@ Log
 .
 Level
 .
-Error
+Fatal
 true
 )
 ;
