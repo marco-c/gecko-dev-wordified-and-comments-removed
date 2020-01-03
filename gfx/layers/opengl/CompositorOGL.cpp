@@ -7417,6 +7417,14 @@ AsLayerComposite
 if
 (
 shadow
+&
+&
+shadow
+-
+>
+GetCompositableHost
+(
+)
 )
 {
 composer
