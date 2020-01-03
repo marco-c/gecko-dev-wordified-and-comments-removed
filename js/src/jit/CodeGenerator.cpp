@@ -27373,6 +27373,13 @@ ImmGCPtr
 templateObj
 -
 >
+as
+<
+CallObject
+>
+(
+)
+.
 lastProperty
 (
 )

@@ -478,6 +478,10 @@ UnboxedPlainObject
 public
 JSObject
 {
+void
+*
+dummy_
+;
 uint8_t
 data_
 [

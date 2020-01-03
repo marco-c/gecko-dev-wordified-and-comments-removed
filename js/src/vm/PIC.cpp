@@ -787,7 +787,7 @@ shape
 obj
 -
 >
-lastProperty
+maybeShape
 (
 )
 )

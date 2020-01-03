@@ -911,6 +911,13 @@ if
 obj
 -
 >
+as
+<
+NativeObject
+>
+(
+)
+.
 lastProperty
 (
 )

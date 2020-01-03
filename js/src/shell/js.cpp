@@ -15916,7 +15916,7 @@ uintptr_t
 obj
 -
 >
-lastProperty
+maybeShape
 (
 )
 )

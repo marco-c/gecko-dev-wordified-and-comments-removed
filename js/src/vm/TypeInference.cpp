@@ -13366,6 +13366,13 @@ shape
 obj
 -
 >
+as
+<
+NativeObject
+>
+(
+)
+.
 lastProperty
 (
 )

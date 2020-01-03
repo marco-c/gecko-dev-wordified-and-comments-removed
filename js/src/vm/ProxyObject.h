@@ -31,6 +31,9 @@ ProxyObject
 public
 JSObject
 {
+HeapPtrShape
+shape
+;
 ProxyDataLayout
 data
 ;

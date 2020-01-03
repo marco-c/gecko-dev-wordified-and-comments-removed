@@ -1073,7 +1073,7 @@ pentry
 ;
 }
 inline
-JSObject
+NativeObject
 *
 newObjectFromHit
 (
@@ -1438,10 +1438,10 @@ static
 void
 copyCachedToObject
 (
-JSObject
+NativeObject
 *
 dst
-JSObject
+NativeObject
 *
 src
 gc
