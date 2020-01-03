@@ -754,8 +754,9 @@ nsIInputStream
 aStream
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+aStream
 !
 mBodyStream
 )
