@@ -13622,10 +13622,6 @@ mDownloadSuspendedByCache
 =
 aIsSuspended
 ;
-CheckAutoplayDataReady
-(
-)
-;
 }
 void
 HTMLMediaElement
@@ -14463,9 +14459,6 @@ mPaused
 &
 &
 (
-mDownloadSuspendedByCache
-|
-|
 (
 mDecoder
 &
