@@ -4,7 +4,7 @@ gc
 ;
 gcslice
 (
-0
+1
 )
 ;
 function
