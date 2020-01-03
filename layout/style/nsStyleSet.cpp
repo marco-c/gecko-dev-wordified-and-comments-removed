@@ -6458,7 +6458,7 @@ ruleWalker
 .
 SetLevel
 (
-eDocSheet
+eTransitionSheet
 false
 false
 )
