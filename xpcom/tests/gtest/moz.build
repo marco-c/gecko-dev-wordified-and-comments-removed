@@ -128,6 +128,11 @@ TestPipes
 cpp
 '
 '
+TestPLDHash
+.
+cpp
+'
+'
 TestPriorityQueue
 .
 cpp

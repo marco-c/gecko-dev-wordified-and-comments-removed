@@ -311,9 +311,6 @@ TestObserverService
 TestPipe
 '
 '
-TestPLDHash
-'
-'
 TestStringAPI
 '
 '
