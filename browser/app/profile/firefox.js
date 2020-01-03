@@ -14566,7 +14566,7 @@ mozilla
 .
 com
 /
-v2
+v3
 /
 links
 /
@@ -14574,6 +14574,10 @@ fetch
 /
 %
 LOCALE
+%
+/
+%
+CHANNEL
 %
 "
 )
@@ -14602,7 +14606,7 @@ mozilla
 .
 com
 /
-v2
+v3
 /
 links
 /
