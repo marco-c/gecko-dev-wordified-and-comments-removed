@@ -213,7 +213,7 @@ clientX
 <
 rect
 .
-y
+x
 ;
 }
 #
