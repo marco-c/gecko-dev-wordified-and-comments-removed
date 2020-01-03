@@ -1035,6 +1035,17 @@ ImageCompositeNotification
 aNotification
 )
 {
+if
+(
+!
+mCompositor
+-
+>
+GetTargetContext
+(
+)
+)
+{
 mImageCompositeNotifications
 .
 AppendElement
@@ -1042,6 +1053,7 @@ AppendElement
 aNotification
 )
 ;
+}
 }
 void
 ExtractImageCompositeNotifications
