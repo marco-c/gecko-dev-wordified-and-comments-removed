@@ -708,9 +708,6 @@ mNonPremult
 bool
 mOptimizable
 ;
-bool
-mInformedDiscardTracker
-;
 friend
 class
 DrawableFrameRef

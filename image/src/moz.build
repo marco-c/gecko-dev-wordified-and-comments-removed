@@ -153,11 +153,6 @@ Decoder
 cpp
 '
 '
-DiscardTracker
-.
-cpp
-'
-'
 DynamicImage
 .
 cpp
