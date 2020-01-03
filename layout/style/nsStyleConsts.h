@@ -327,6 +327,14 @@ parallel_
 )
 #
 define
+NS_BOXPROP_SOURCE_PHYSICAL
+0
+#
+define
+NS_BOXPROP_SOURCE_LOGICAL
+1
+#
+define
 NS_STYLE_BOX_SIZING_CONTENT
 0
 #

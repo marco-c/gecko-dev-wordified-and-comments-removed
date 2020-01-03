@@ -2484,6 +2484,15 @@ aProperty
 if
 (
 keywordTable
+&
+&
+keywordTable
+!
+=
+nsCSSProps
+:
+:
+kBoxPropSourceKTable
 )
 {
 size_t

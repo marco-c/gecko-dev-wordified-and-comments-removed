@@ -4765,7 +4765,7 @@ eCSSProperty_border_top_color
 aProperty
 =
 =
-eCSSProperty_border_right_color
+eCSSProperty_border_right_color_value
 |
 |
 aProperty
@@ -4777,7 +4777,7 @@ eCSSProperty_border_bottom_color
 aProperty
 =
 =
-eCSSProperty_border_left_color
+eCSSProperty_border_left_color_value
 |
 |
 aProperty

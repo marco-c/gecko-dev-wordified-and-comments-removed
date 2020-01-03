@@ -224,8 +224,6 @@ size_t
 backend
 -
 only
-or
-logical
 property
 "
 )
@@ -450,18 +448,12 @@ parsevariant_
 kwtable_
 )
 #
-define
-CSS_PROP_LIST_EXCLUDE_LOGICAL
-#
 include
 "
 nsCSSPropList
 .
 h
 "
-#
-undef
-CSS_PROP_LIST_EXCLUDE_LOGICAL
 #
 undef
 CSS_PROP
