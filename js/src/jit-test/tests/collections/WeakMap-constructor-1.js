@@ -20,3 +20,9 @@ WeakMap
 undefined
 )
 ;
+new
+WeakMap
+(
+null
+)
+;
