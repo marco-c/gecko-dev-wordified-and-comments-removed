@@ -1524,10 +1524,19 @@ leakAnalysis
 [
 ]
   
+leakedObjectAnalysis
+=
+[
+]
+  
 leakedObjectNames
 =
 [
 ]
+  
+recordLeakedObjects
+=
+False
   
 with
 open
@@ -1680,9 +1689,72 @@ TOTAL
 "
 :
         
+if
+totalBytesLeaked
+!
+=
+None
+:
+          
+leakAnalysis
+.
+append
+(
+"
+WARNING
+|
+leakcheck
+|
+%
+s
+multiple
+BloatView
+byte
+totals
+found
+"
+                              
+%
+processString
+)
+        
+else
+:
+          
+totalBytesLeaked
+=
+0
+        
+if
+bytesLeaked
+>
+totalBytesLeaked
+:
+          
 totalBytesLeaked
 =
 bytesLeaked
+          
+leakedObjectNames
+=
+[
+]
+          
+leakedObjectAnalysis
+=
+[
+]
+          
+recordLeakedObjects
+=
+True
+        
+else
+:
+          
+recordLeakedObjects
+=
+False
       
 if
 size
@@ -1741,6 +1813,8 @@ numLeaked
 !
 =
 0
+and
+recordLeakedObjects
 :
         
 leakedObjectNames
@@ -1750,7 +1824,7 @@ append
 name
 )
         
-leakAnalysis
+leakedObjectAnalysis
 .
 append
 (
@@ -1774,7 +1848,7 @@ s
 bytes
 )
 "
-                            
+                                    
 %
 (
 processString
@@ -1782,6 +1856,13 @@ numLeaked
 name
 bytesLeaked
 )
+)
+  
+leakAnalysis
+.
+extend
+(
+leakedObjectAnalysis
 )
   
 if
