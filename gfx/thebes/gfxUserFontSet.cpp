@@ -953,6 +953,8 @@ virtual
 void
 Message
 (
+int
+level
 const
 char
 *

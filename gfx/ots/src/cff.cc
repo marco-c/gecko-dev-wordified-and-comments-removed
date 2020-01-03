@@ -2535,7 +2535,7 @@ ots
 CFFIndex
 &
 index
-size_t
+uint16_t
 glyphs
 size_t
 sid_max
@@ -2658,7 +2658,7 @@ have_ros
 =
 false
 ;
-size_t
+uint16_t
 charstring_glyphs
 =
 0
@@ -3856,7 +3856,7 @@ format
 {
 for
 (
-size_t
+uint16_t
 j
 =
 0
@@ -4578,7 +4578,7 @@ case
 :
 for
 (
-unsigned
+uint16_t
 j
 =
 1
@@ -5178,7 +5178,7 @@ OTS_FAILURE
 ;
 }
 const
-size_t
+uint16_t
 num_glyphs
 =
 file
@@ -5372,6 +5372,7 @@ if
 !
 ValidateType2CharStringIndex
 (
+file
 *
 (
 file
