@@ -164,6 +164,11 @@ CDMProxy
 h
 '
 '
+DetailedPromise
+.
+h
+'
+'
 EMEUtils
 .
 h
@@ -185,6 +190,11 @@ cpp
 '
 '
 CDMProxy
+.
+cpp
+'
+'
+DetailedPromise
 .
 cpp
 '

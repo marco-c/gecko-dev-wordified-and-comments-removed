@@ -50,6 +50,9 @@ namespace
 dom
 {
 class
+DetailedPromise
+;
+class
 MediaKeySystemAccessManager
 final
 :
@@ -76,7 +79,7 @@ NS_DECL_NSIOBSERVER
 void
 Request
 (
-Promise
+DetailedPromise
 *
 aPromise
 const
@@ -105,7 +108,7 @@ PendingRequest
 {
 PendingRequest
 (
-Promise
+DetailedPromise
 *
 aPromise
 const
@@ -145,11 +148,15 @@ CancelTimer
 void
 RejectPromise
 (
+const
+nsCString
+&
+aReason
 )
 ;
 nsRefPtr
 <
-Promise
+DetailedPromise
 >
 mPromise
 ;
@@ -184,7 +191,7 @@ Subsequent
 void
 Request
 (
-Promise
+DetailedPromise
 *
 aPromise
 const
@@ -215,7 +222,7 @@ EnsureObserversAdded
 bool
 AwaitInstall
 (
-Promise
+DetailedPromise
 *
 aPromise
 const
