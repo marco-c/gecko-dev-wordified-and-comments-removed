@@ -747,9 +747,6 @@ bool
 mAllowThreadRetargeting
 ;
 bool
-mWasOpened
-;
-bool
 mWaitingOnAsyncRedirect
 ;
 bool
@@ -804,6 +801,9 @@ mContentDispositionFilename
 ;
 int64_t
 mContentLength
+;
+bool
+mWasOpened
 ;
 friend
 class

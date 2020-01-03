@@ -234,10 +234,6 @@ mAllowThreadRetargeting
 (
 true
 )
-mWasOpened
-(
-false
-)
 mWaitingOnAsyncRedirect
 (
 false
@@ -254,6 +250,10 @@ mContentLength
 (
 -
 1
+)
+mWasOpened
+(
+false
 )
 {
 mContentType

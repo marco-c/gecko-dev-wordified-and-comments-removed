@@ -433,9 +433,6 @@ mSuspendCount
 bool
 mIsPending
 ;
-bool
-mWasOpened
-;
 PRTime
 mLastModifiedTime
 ;

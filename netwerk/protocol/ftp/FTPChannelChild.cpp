@@ -173,10 +173,6 @@ mIsPending
 (
 false
 )
-mWasOpened
-(
-false
-)
 mLastModifiedTime
 (
 0
