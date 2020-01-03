@@ -102,9 +102,6 @@ endif
 struct
 StreamUpdate
 {
-int64_t
-mGraphUpdateIndex
-;
 nsRefPtr
 <
 MediaStream
@@ -193,9 +190,6 @@ MessageBlock
 {
 public
 :
-int64_t
-mGraphUpdateIndex
-;
 nsTArray
 <
 nsAutoPtr
@@ -806,16 +800,6 @@ mPortCount
 0
 ;
 }
-int64_t
-GetProcessingGraphUpdateIndex
-(
-)
-const
-{
-return
-mProcessingGraphUpdateIndex
-;
-}
 void
 AddStream
 (
@@ -1135,9 +1119,6 @@ mFirstCycleBreaker
 ;
 TimeStamp
 mLastMainThreadUpdate
-;
-int64_t
-mProcessingGraphUpdateIndex
 ;
 int32_t
 mPortCount
