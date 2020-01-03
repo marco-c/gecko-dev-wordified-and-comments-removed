@@ -7519,6 +7519,10 @@ PathBuilderD2D
 sink
 path
 aFillRule
+BackendType
+:
+:
+DIRECT2D
 )
 ;
 }
