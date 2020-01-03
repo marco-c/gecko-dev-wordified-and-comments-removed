@@ -3453,7 +3453,7 @@ mClip
 DrawRegionClip
 :
 :
-DRAW_SNAPPED
+DRAW
 ;
 result
 .

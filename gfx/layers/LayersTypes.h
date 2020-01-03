@@ -230,8 +230,7 @@ DrawRegionClip
 int8_t
 )
 DRAW
-DRAW_SNAPPED
-CLIP_NONE
+NONE
 MOZ_END_ENUM_CLASS
 (
 DrawRegionClip

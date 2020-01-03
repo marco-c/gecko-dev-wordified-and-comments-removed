@@ -4585,7 +4585,7 @@ aPaintRegion
 DrawRegionClip
 :
 :
-CLIP_NONE
+NONE
 nsIntRegion
 (
 )
@@ -7089,7 +7089,7 @@ GetBounds
 DrawRegionClip
 :
 :
-CLIP_NONE
+NONE
 nsIntRegion
 (
 )
