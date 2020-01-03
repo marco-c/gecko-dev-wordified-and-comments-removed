@@ -44,7 +44,7 @@ ShutdownLibrary
 (
 )
 ;
-int
+uint32_t
 MaxNumberOfChannels
 (
 )
@@ -54,7 +54,7 @@ InitPreferredSampleRate
 (
 )
 ;
-int
+uint32_t
 PreferredSampleRate
 (
 )
