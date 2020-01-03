@@ -7566,9 +7566,8 @@ selectionCarets
 selectionCarets
 -
 >
-SetVisibility
+NotifyBlur
 (
-false
 )
 ;
 }

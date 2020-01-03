@@ -115,6 +115,9 @@ collapsetostart
 "
 collapsetoend
 "
+"
+blur
+"
 }
 ;
 dictionary
