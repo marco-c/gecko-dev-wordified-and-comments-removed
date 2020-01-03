@@ -2632,7 +2632,7 @@ aAtkObj
 >
 role
 =
-ATK_ROLE_UNKNOWN
+ATK_ROLE_SECTION
 ;
 return
 aAtkObj
