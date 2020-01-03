@@ -459,11 +459,6 @@ aLastPart
 )
 MOZ_OVERRIDE
 ;
-void
-BlockOnloadForDecodeOnDraw
-(
-)
-;
 nsresult
 SetSourceSizeHint
 (
@@ -843,11 +838,6 @@ mNotifying
 ;
 bool
 mHasSize
-:
-1
-;
-bool
-mBlockedOnload
 :
 1
 ;
