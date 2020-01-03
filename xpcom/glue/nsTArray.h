@@ -5864,11 +5864,6 @@ ActualAlloc
 )
 ;
 }
-template
-<
-class
-Item
->
 elem_type
 *
 AppendElement
