@@ -12,7 +12,7 @@ mozilla
 /
 dom
 /
-DocumentTimeline
+AnimationTimeline
 .
 h
 "
@@ -184,7 +184,7 @@ GetKey
 dom
 :
 :
-DocumentTimeline
+AnimationTimeline
 *
 timeline
 =

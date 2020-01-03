@@ -57,6 +57,17 @@ mozilla
 /
 dom
 /
+DocumentTimeline
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 KeyframeEffect
 .
 h
@@ -2474,7 +2485,7 @@ aTarget
 dom
 :
 :
-DocumentTimeline
+AnimationTimeline
 *
 aTimeline
 AnimationPtrArray

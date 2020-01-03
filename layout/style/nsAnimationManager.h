@@ -231,7 +231,7 @@ CSSAnimation
 dom
 :
 :
-DocumentTimeline
+AnimationTimeline
 *
 aTimeline
 const
@@ -909,7 +909,7 @@ mozilla
 dom
 :
 :
-DocumentTimeline
+AnimationTimeline
 *
 aTimeline
 mozilla
