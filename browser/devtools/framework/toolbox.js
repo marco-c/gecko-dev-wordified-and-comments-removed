@@ -4149,6 +4149,15 @@ tilt
 ;
 if
 (
+!
+tiltButton
+)
+{
+return
+;
+}
+if
+(
 tiltEnabled
 )
 {
