@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 classes

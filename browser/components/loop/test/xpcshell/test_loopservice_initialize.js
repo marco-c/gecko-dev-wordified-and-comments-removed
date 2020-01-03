@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 let
 startTimerCalled
 =
@@ -6,6 +11,7 @@ false
 add_task
 (
 function
+*
 test_initialize_no_expiry
 (
 )

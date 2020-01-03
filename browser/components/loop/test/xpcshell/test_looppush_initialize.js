@@ -1,4 +1,8 @@
-{
+"
+use
+strict
+"
+;
 let
 dummyCallback
 =
@@ -1444,4 +1448,3 @@ run_next_test
 ;
 }
 ;
-}

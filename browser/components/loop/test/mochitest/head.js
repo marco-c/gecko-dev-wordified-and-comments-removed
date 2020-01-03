@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 HAWK_TOKEN_LENGTH
 =
@@ -595,7 +600,7 @@ false
 "
 )
 ;
-yield
+return
 promiseGetMozLoopAPI
 (
 )
@@ -1843,11 +1848,13 @@ callback
 if
 (
 !
+(
 guid
 in
 this
 .
 _store
+)
 )
 {
 callback

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 test_locale
 (

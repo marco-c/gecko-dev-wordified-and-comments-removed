@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 LOOP_HAWK_PREF
 =
