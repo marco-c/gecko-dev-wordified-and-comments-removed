@@ -19460,6 +19460,10 @@ Value
 TimeStamp
 (
 )
+.
+toDouble
+(
+)
 )
 ;
 }

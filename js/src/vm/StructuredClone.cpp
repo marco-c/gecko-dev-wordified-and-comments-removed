@@ -8277,7 +8277,7 @@ NumbersAreIdentical
 d
 t
 .
-value
+toDouble
 (
 )
 )
