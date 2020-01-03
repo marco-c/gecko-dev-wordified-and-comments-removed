@@ -869,15 +869,6 @@ void
 CompositableClient
 :
 :
-OnTransaction
-(
-)
-{
-}
-void
-CompositableClient
-:
-:
 ClearCachedResources
 (
 )

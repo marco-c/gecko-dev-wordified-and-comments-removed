@@ -436,12 +436,6 @@ aClient
 ;
 virtual
 void
-OnTransaction
-(
-)
-;
-virtual
-void
 OnDetach
 (
 )

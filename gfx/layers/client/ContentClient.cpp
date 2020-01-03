@@ -540,10 +540,6 @@ Update
 aReadbackUpdates
 )
 {
-OnTransaction
-(
-)
-;
 }
 void
 ContentClient
