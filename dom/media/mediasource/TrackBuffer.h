@@ -207,11 +207,6 @@ BreakCycles
 )
 ;
 void
-ResetDecode
-(
-)
-;
-void
 ResetParserState
 (
 )
