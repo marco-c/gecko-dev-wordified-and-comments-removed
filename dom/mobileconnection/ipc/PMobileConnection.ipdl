@@ -317,7 +317,7 @@ int32_t
 aNetworkSelectionMode
 int32_t
 aRadioState
-nsString
+int32_t
 [
 ]
 aSupportedNetworkTypes

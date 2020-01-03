@@ -164,7 +164,7 @@ int32_t
 aRadioState
 nsTArray
 <
-nsString
+int32_t
 >
 *
 aSupportedNetworkTypes

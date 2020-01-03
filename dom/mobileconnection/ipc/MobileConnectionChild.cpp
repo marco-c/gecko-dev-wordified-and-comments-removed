@@ -407,8 +407,7 @@ MobileConnectionChild
 :
 GetSupportedNetworkTypes
 (
-char16_t
-*
+int32_t
 *
 *
 aTypes
@@ -441,8 +440,7 @@ aTypes
 =
 static_cast
 <
-char16_t
-*
+int32_t
 *
 >
 (
@@ -458,8 +456,7 @@ aLength
 *
 sizeof
 (
-char16_t
-*
+int32_t
 )
 )
 )
@@ -496,13 +493,10 @@ aTypes
 i
 ]
 =
-ToNewUnicode
-(
 mSupportedNetworkTypes
 [
 i
 ]
-)
 ;
 }
 return
