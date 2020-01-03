@@ -519,6 +519,7 @@ nsIDOMMutationEvent
 :
 :
 MODIFICATION
+nullptr
 )
 ;
 }
