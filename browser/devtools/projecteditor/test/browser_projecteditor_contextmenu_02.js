@@ -44,6 +44,12 @@ textEditorContextMenuPopup
 =
 projecteditor
 ;
+projecteditor
+.
+_updateMenuItems
+(
+)
+;
 let
 cmdDelete
 =

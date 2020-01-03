@@ -34,6 +34,12 @@ projecteditor
 .
 menubar
 ;
+projecteditor
+.
+_updateMenuItems
+(
+)
+;
 ok
 (
 projecteditor
