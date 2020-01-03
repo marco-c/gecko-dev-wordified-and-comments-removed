@@ -215,14 +215,6 @@ UnbindTextureSource
 )
 override
 ;
-virtual
-TextureSource
-*
-GetTextureSources
-(
-)
-override
-;
 #
 if
 defined
