@@ -10746,6 +10746,11 @@ if
 bDeletedBR
 )
 {
+NS_ENSURE_STATE
+(
+leafNode
+)
+;
 :
 :
 DOMPoint
