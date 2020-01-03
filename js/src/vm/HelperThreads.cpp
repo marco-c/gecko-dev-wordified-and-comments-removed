@@ -5679,7 +5679,6 @@ compressionTask
 >
 work
 (
-sourceCompressor
 )
 ;
 }
