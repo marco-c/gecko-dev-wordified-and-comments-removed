@@ -88,6 +88,8 @@ const
 nsAString
 &
 aCause
+TimelineStackRequest
+aStackRequest
 )
 :
 mName
@@ -128,6 +130,12 @@ aMetaData
 =
 =
 TRACING_INTERVAL_START
+&
+&
+aStackRequest
+!
+=
+NO_STACK
 )
 {
 CaptureStack

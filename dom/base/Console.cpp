@@ -4375,6 +4375,9 @@ virtual
 void
 AddDetails
 (
+JSContext
+*
+aCx
 mozilla
 :
 :
@@ -4471,6 +4474,9 @@ virtual
 void
 AddDetails
 (
+JSContext
+*
+aCx
 mozilla
 :
 :
