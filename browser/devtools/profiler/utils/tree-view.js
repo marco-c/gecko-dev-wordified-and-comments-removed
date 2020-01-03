@@ -867,13 +867,13 @@ a
 .
 frame
 .
-duration
+samples
 <
 b
 .
 frame
 .
-duration
+samples
 ?
 1
 :
