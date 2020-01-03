@@ -9,6 +9,9 @@ pngpriv
 h
 "
 #
+ifdef
+PNG_READ_SUPPORTED
+#
 if
 PNG_ARM_NEON_IMPLEMENTATION
 =
@@ -67,9 +70,6 @@ pointer
 *
 temp_pointer
 )
-#
-ifdef
-PNG_READ_SUPPORTED
 #
 if
 PNG_ARM_NEON_OPT

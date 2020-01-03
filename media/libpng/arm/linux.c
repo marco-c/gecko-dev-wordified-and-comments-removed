@@ -427,6 +427,9 @@ bug
 }
 }
 }
+#
+ifdef
+PNG_WARNINGS_SUPPORTED
 else
 png_warning
 (
@@ -441,6 +444,8 @@ failed
 "
 )
 ;
+#
+endif
 return
 0
 ;

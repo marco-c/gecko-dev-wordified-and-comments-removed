@@ -12679,7 +12679,7 @@ row_buf
 +
 1
 ;
-png_uint_32
+png_alloc_size_t
 row_width
 =
 png_ptr
@@ -13982,6 +13982,10 @@ row_width
 )
 bytes_to_copy
 =
+(
+unsigned
+int
+)
 row_width
 ;
 }
@@ -14605,6 +14609,10 @@ row_width
 )
 bytes_to_copy
 =
+(
+unsigned
+int
+)
 row_width
 ;
 }
