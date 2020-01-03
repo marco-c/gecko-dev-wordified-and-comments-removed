@@ -883,9 +883,17 @@ DOMRequest
 fireSuccess
 (
 request
+Cu
+.
+cloneInto
+(
 msg
 .
 data
+this
+.
+_window
+)
 )
 ;
 break
