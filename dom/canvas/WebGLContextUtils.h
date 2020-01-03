@@ -89,6 +89,13 @@ GLenum
 webGLType
 )
 ;
+GLenum
+TexImageTargetToTexTarget
+(
+GLenum
+texImageTarget
+)
+;
 struct
 GLComponents
 {

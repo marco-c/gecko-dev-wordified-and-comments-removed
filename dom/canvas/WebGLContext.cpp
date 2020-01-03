@@ -1129,7 +1129,15 @@ mGLMaxTextureSize
 =
 0
 ;
+mGLMaxTextureSizeLog2
+=
+0
+;
 mGLMaxCubeMapTextureSize
+=
+0
+;
+mGLMaxCubeMapTextureSizeLog2
 =
 0
 ;
@@ -7146,7 +7154,7 @@ WebGLContext
 TexImageFromVideoElement
 (
 GLenum
-target
+texImageTarget
 GLint
 level
 GLenum
@@ -7398,9 +7406,9 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTarget
+activeBoundTextureForTexImageTarget
 (
-target
+texImageTarget
 )
 ;
 const
@@ -7416,7 +7424,7 @@ tex
 >
 ImageInfoAt
 (
-target
+texImageTarget
 0
 )
 ;
@@ -7467,7 +7475,7 @@ gl
 >
 fTexImage2D
 (
-target
+texImageTarget
 level
 internalformat
 srcImage
@@ -7523,7 +7531,7 @@ tex
 GLName
 (
 )
-target
+texImageTarget
 mPixelStoreFlipY
 )
 ;
@@ -7537,7 +7545,7 @@ tex
 >
 SetImageInfo
 (
-target
+texImageTarget
 level
 srcImage
 -
@@ -7568,7 +7576,10 @@ tex
 >
 Bind
 (
-target
+TexImageTargetToTexTarget
+(
+texImageTarget
+)
 )
 ;
 }
