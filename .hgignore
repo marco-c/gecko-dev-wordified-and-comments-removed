@@ -528,3 +528,17 @@ en_US
 \
 .
 html
+#
+Android
+Gradle
+artifacts
+.
+^
+mobile
+/
+android
+/
+gradle
+/
+.
+gradle

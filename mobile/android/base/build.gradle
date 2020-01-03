@@ -21,8 +21,10 @@ apply
 plugin
 :
 '
+com
+.
 android
--
+.
 library
 '
 android
@@ -66,7 +68,7 @@ buildTypes
 {
 release
 {
-runProguard
+minifyEnabled
 false
 proguardFile
 getDefaultProguardFile

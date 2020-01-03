@@ -297,3 +297,16 @@ platform
 /
 sync
 /
+#
+Android
+Gradle
+artifacts
+.
+mobile
+/
+android
+/
+gradle
+/
+.
+gradle
