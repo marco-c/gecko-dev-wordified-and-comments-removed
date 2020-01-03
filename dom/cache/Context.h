@@ -376,6 +376,9 @@ aManager
 nsIThread
 *
 aTarget
+Action
+*
+aInitAction
 )
 ;
 ~
@@ -386,9 +389,6 @@ Context
 void
 Init
 (
-Action
-*
-aInitAction
 Context
 *
 aOldContext
@@ -481,6 +481,12 @@ nsRefPtr
 QuotaInitRunnable
 >
 mInitRunnable
+;
+nsRefPtr
+<
+Action
+>
+mInitAction
 ;
 nsTArray
 <
