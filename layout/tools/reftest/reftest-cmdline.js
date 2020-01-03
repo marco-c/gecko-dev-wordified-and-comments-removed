@@ -506,6 +506,7 @@ helpInfo
 :
 "
 -
+-
 reftest
 <
 file

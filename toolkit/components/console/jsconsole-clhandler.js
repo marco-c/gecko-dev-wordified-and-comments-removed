@@ -206,6 +206,7 @@ helpInfo
 :
 "
 -
+-
 jsconsole
 Open
 the

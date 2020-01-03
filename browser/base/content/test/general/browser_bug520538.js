@@ -58,6 +58,7 @@ tabCount
 "
 '
 -
+-
 new
 -
 tab
@@ -86,6 +87,7 @@ tabCount
 "
 '
 -
+-
 new
 -
 tab
@@ -110,6 +112,7 @@ gURLBar
 inputField
 "
 '
+-
 -
 new
 -

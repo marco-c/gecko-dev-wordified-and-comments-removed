@@ -467,6 +467,7 @@ helpInfo
 :
 "
 -
+-
 tps
 <
 file
@@ -486,6 +487,7 @@ n
 +
 "
 -
+-
 tpsphase
 <
 phase
@@ -504,6 +506,7 @@ n
 "
 +
 "
+-
 -
 tpslogfile
 <

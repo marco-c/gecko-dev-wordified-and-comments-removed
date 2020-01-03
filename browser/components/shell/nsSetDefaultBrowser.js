@@ -106,6 +106,7 @@ helpInfo
 :
 "
 -
+-
 setDefaultBrowser
 Set
 this
