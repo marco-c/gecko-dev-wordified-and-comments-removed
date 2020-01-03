@@ -2862,10 +2862,10 @@ aContentLength
 *
 aContentLength
 =
-mContentLength
+0
 ;
 return
-NS_OK
+NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
