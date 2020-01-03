@@ -2382,12 +2382,11 @@ false
 ;
 }
 }
-NS_ADDREF
-(
-*
-aFiles
-=
 fileArray
+.
+forget
+(
+aFiles
 )
 ;
 return

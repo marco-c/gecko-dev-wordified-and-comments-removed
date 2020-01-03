@@ -6804,14 +6804,10 @@ NS_ERROR_CSP_FORM_ACTION_VIOLATION
 ;
 }
 }
-*
-aActionURL
-=
 actionURL
-;
-NS_ADDREF
+.
+forget
 (
-*
 aActionURL
 )
 ;

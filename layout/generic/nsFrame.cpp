@@ -12852,14 +12852,10 @@ offset
 return
 NS_ERROR_FAILURE
 ;
-*
-aParentContent
-=
 parentContent
-;
-NS_ADDREF
+.
+forget
 (
-*
 aParentContent
 )
 ;

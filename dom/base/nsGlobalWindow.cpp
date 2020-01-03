@@ -17711,12 +17711,11 @@ prompter
 NS_ERROR_NO_INTERFACE
 )
 ;
-NS_ADDREF
-(
-*
-aPrompt
-=
 prompter
+.
+forget
+(
+aPrompt
 )
 ;
 return

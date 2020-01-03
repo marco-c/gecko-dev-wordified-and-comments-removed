@@ -937,12 +937,11 @@ g_slist_free
 list
 )
 ;
-NS_ADDREF
-(
-*
-aResult
-=
 items
+.
+forget
+(
+aResult
 )
 ;
 return

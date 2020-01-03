@@ -492,12 +492,11 @@ rv
 return
 rv
 ;
-NS_ADDREF
-(
-*
-result
-=
 localFile
+.
+forget
+(
+result
 )
 ;
 return

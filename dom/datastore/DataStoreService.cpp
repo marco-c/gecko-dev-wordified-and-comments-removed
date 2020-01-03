@@ -4931,14 +4931,10 @@ get
 )
 ;
 }
-*
-aManifestURLs
-=
 manifestURLs
-;
-NS_ADDREF
+.
+forget
 (
-*
 aManifestURLs
 )
 ;

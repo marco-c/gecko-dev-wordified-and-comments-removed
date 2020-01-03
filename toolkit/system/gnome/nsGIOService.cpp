@@ -565,12 +565,11 @@ uri_schemes
 +
 ;
 }
-NS_ADDREF
-(
-*
-aSchemes
-=
 array
+.
+forget
+(
+aSchemes
 )
 ;
 return

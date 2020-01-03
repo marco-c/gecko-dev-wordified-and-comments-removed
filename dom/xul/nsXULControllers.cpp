@@ -413,14 +413,10 @@ if
 supportsCommand
 )
 {
-*
-_retval
-=
 controller
-;
-NS_ADDREF
+.
+forget
 (
-*
 _retval
 )
 ;

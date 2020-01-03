@@ -1003,12 +1003,11 @@ rv
 return
 rv
 ;
-NS_ADDREF
-(
-*
-_retval
-=
 url
+.
+forget
+(
+_retval
 )
 ;
 return

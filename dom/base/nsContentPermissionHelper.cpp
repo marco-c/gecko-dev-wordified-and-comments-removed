@@ -654,12 +654,11 @@ rv
 )
 ;
 }
-NS_ADDREF
-(
-*
-aOptions
-=
 options
+.
+forget
+(
+aOptions
 )
 ;
 return
