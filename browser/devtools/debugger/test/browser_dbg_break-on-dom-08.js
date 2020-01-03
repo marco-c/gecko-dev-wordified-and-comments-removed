@@ -218,14 +218,16 @@ aPanel
 48
 )
 ;
-sendMouseClickToTab
+generateMouseClickInTab
 (
 gTab
+"
 content
 .
 document
 .
 body
+"
 )
 ;
 yield
