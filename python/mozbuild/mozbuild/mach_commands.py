@@ -5454,6 +5454,10 @@ DebuggerSearch
 KeepLooking
 )
         
+if
+debugger
+:
+            
 debuggerInfo
 =
 mozdebug
@@ -5463,12 +5467,12 @@ get_debugger_info
 debugger
 debugger_args
 )
-        
+            
 if
 not
 debuggerInfo
 :
-            
+                
 print
 (
 "
@@ -5484,7 +5488,7 @@ PATH
 .
 "
 )
-            
+                
 return
 1
         
@@ -7037,6 +7041,10 @@ DebuggerSearch
 KeepLooking
 )
             
+if
+debugger
+:
+                
 self
 .
 debuggerInfo
@@ -7048,14 +7056,14 @@ get_debugger_info
 debugger
 debugparams
 )
-            
+                
 if
 not
 self
 .
 debuggerInfo
 :
-                
+                    
 print
 (
 "
@@ -7071,7 +7079,7 @@ PATH
 .
 "
 )
-                
+                    
 return
 1
             
