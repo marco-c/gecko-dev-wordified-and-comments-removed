@@ -157,6 +157,7 @@ KeysChangeFunc
 (
 session
 keys
+token
 )
 {
 session
@@ -278,6 +279,8 @@ in
 session
 .
 keyIdsReceived
+token
++
 "
 session
 .
@@ -329,9 +332,7 @@ manager
 .
 started
 (
-test
-.
-_token
+token
 )
 ;
 var
@@ -375,6 +376,7 @@ session
 test
 .
 keys
+token
 )
 false
 )
@@ -483,9 +485,7 @@ manager
 .
 finished
 (
-test
-.
-_token
+token
 )
 ;
 ok
@@ -650,8 +650,10 @@ ok
 session
 .
 gotKeysChanged
+token
++
 "
-Should
+should
 have
 received
 at
@@ -680,6 +682,8 @@ keyIdsReceived
 [
 kid
 ]
+token
++
 "
 key
 with
