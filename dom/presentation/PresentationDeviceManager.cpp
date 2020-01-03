@@ -76,6 +76,7 @@ nsIPresentationDeviceManager
 nsIPresentationDeviceListener
 nsIPresentationDeviceEventListener
 nsIObserver
+nsISupportsWeakReference
 )
 PresentationDeviceManager
 :
