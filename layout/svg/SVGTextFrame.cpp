@@ -8194,17 +8194,6 @@ HandleTextGeometry
 if
 (
 mRenderMode
-!
-=
-SVGAutoRenderState
-:
-:
-NORMAL
-)
-{
-if
-(
-mRenderMode
 =
 =
 SVGAutoRenderState
@@ -8242,7 +8231,6 @@ Fill
 (
 )
 ;
-}
 }
 else
 {

@@ -517,7 +517,6 @@ enum
 RenderMode
 {
 NORMAL
-CLIP
 CLIP_MASK
 }
 ;
