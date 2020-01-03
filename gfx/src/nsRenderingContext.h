@@ -270,15 +270,6 @@ aColor
 )
 ;
 void
-Scale
-(
-float
-aSx
-float
-aSy
-)
-;
-void
 DrawLine
 (
 const
