@@ -8298,7 +8298,7 @@ props
 ;
 }
 NativePropertyHooks
-sWorkerNativePropertyHooks
+sEmptyNativePropertyHooks
 =
 {
 nullptr

@@ -11054,7 +11054,7 @@ protop
 }
 extern
 NativePropertyHooks
-sWorkerNativePropertyHooks
+sEmptyNativePropertyHooks
 ;
 enum
 {

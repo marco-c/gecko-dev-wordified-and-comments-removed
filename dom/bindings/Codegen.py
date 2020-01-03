@@ -1751,11 +1751,12 @@ self
 :
         
 if
+not
 self
 .
 descriptor
 .
-workers
+wantsXrays
 :
             
 return
@@ -1898,11 +1899,12 @@ self
 :
         
 if
+not
 self
 .
 descriptor
 .
-workers
+wantsXrays
 :
             
 return
@@ -2230,12 +2232,13 @@ descriptor
 return
 "
 &
-sWorkerNativePropertyHooks
+sEmptyNativePropertyHooks
 "
 if
+not
 descriptor
 .
-workers
+wantsXrays
 else
 "
 sNativePropertyHooks
@@ -12680,12 +12683,11 @@ self
 :
         
 return
-not
 self
 .
 descriptor
 .
-workers
+wantsXrays
     
 def
 __str__
@@ -17320,12 +17322,11 @@ idsToInit
 ]
         
 if
-not
 self
 .
 descriptor
 .
-workers
+wantsXrays
 :
             
 for
@@ -77474,11 +77475,12 @@ properties
 )
         
 if
-not
 descriptor
 .
-workers
-and
+wantsXrays
+:
+            
+if
 descriptor
 .
 concrete
@@ -77487,7 +77489,7 @@ descriptor
 .
 proxy
 :
-            
+                
 cgThings
 .
 append
@@ -77497,7 +77499,7 @@ CGResolveOwnProperty
 descriptor
 )
 )
-            
+                
 cgThings
 .
 append
@@ -77507,7 +77509,7 @@ CGEnumerateOwnProperties
 descriptor
 )
 )
-        
+            
 elif
 descriptor
 .
@@ -77515,7 +77517,7 @@ needsXrayResolveHooks
 (
 )
 :
-            
+                
 cgThings
 .
 append
@@ -77525,7 +77527,7 @@ CGResolveOwnPropertyViaResolve
 descriptor
 )
 )
-            
+                
 cgThings
 .
 append
