@@ -381,12 +381,13 @@ EventDispatchingCallback
 aCallback
 =
 nullptr
-nsCOMArray
+nsTArray
 <
 dom
 :
 :
 EventTarget
+*
 >
 *
 aTargets
