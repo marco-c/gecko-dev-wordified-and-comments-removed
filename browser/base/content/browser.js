@@ -1837,7 +1837,7 @@ defineLazyGetter
 (
 this
 "
-PageMenu
+PageMenuParent
 "
 function
 (
@@ -1873,7 +1873,7 @@ return
 new
 tmp
 .
-PageMenu
+PageMenuParent
 (
 )
 ;
