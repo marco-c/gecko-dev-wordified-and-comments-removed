@@ -92,7 +92,10 @@ string
 aData
 GMPTask
 *
-aContinuation
+aOnSuccess
+GMPTask
+*
+aOnFailure
 )
 ;
 GMPErr
@@ -113,7 +116,10 @@ uint32_t
 aNumBytes
 GMPTask
 *
-aContinuation
+aOnSuccess
+GMPTask
+*
+aOnFailure
 )
 ;
 GMPErr
