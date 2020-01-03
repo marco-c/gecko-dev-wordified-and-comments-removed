@@ -149,7 +149,7 @@ CDMProxy
 >
 mProxy
 ;
-nsAutoPtr
+nsRefPtr
 <
 PlatformDecoderModule
 >

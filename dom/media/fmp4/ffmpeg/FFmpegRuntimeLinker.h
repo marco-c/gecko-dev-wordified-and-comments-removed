@@ -6,6 +6,13 @@ define
 __FFmpegRuntimeLinker_h__
 #
 include
+"
+PlatformDecoderModule
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -14,9 +21,6 @@ h
 namespace
 mozilla
 {
-class
-PlatformDecoderModule
-;
 struct
 AvFormatLib
 ;
@@ -38,8 +42,10 @@ Unlink
 )
 ;
 static
+already_AddRefed
+<
 PlatformDecoderModule
-*
+>
 CreateDecoderModule
 (
 )
