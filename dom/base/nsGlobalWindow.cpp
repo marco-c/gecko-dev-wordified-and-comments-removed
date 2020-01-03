@@ -38621,6 +38621,14 @@ if
 IsShowModalDialogEnabled
 (
 )
+|
+|
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Content
 )
 {
 aError
