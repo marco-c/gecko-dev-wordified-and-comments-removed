@@ -205,11 +205,6 @@ BadCertServer
 BIN_SUFFIX
 )
 \
-ClientAuthServer
-(
-BIN_SUFFIX
-)
-\
 OCSPStaplingServer
 (
 BIN_SUFFIX

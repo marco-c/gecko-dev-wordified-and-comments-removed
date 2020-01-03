@@ -103,9 +103,6 @@ GeckoSimplePrograms
 BadCertServer
 '
 '
-ClientAuthServer
-'
-'
 GenerateOCSPResponse
 '
 '
