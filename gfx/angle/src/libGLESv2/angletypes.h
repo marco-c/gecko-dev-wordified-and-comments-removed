@@ -31,7 +31,7 @@ Buffer
 class
 ProgramBinary
 ;
-struct
+class
 VertexAttribute
 ;
 struct

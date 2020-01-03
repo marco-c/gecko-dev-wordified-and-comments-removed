@@ -14,6 +14,17 @@ include
 <
 algorithm
 >
+#
+include
+"
+compiler
+/
+translator
+/
+ShHandle
+.
+h
+"
 namespace
 {
 int
