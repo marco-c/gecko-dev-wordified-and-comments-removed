@@ -333,9 +333,6 @@ search
 searchIcon
 "
 "
-siteIdentity
-"
-"
 urlbar
 "
 .
@@ -509,9 +506,6 @@ search
 searchIcon
 "
 "
-siteIdentity
-"
-"
 urlbar
 "
 .
@@ -683,9 +677,6 @@ quit
 readerMode
 -
 urlBar
-"
-"
-siteIdentity
 "
 "
 urlbar
