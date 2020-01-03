@@ -6896,8 +6896,10 @@ nullptr
 }
 mTVManager
 =
-new
 TVManager
+:
+:
+Create
 (
 mWindow
 )

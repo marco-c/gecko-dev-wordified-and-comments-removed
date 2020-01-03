@@ -37,6 +37,15 @@ CreateFakeTVService
 (
 )
 ;
+static
+already_AddRefed
+<
+nsITVService
+>
+AutoCreateTVService
+(
+)
+;
 }
 ;
 }
