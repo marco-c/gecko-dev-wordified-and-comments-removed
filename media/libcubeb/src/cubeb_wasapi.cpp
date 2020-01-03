@@ -3783,6 +3783,14 @@ stm
 audio_clock
 )
 ;
+SafeRelease
+(
+stm
+-
+>
+audio_stream_volume
+)
+;
 cubeb_resampler_destroy
 (
 stm
