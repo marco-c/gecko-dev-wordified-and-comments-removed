@@ -3341,6 +3341,13 @@ TouchEventInterceptor
 java
 '
 '
+trackingprotection
+/
+TrackingProtectionPrompt
+.
+java
+'
+'
 updater
 /
 UpdateService

@@ -690,7 +690,7 @@ dimen
 name
 =
 "
-tab_queue_content_width
+overlay_prompt_content_width
 "
 >
 260dp
@@ -703,7 +703,7 @@ dimen
 name
 =
 "
-tab_queue_button_width
+overlay_prompt_button_width
 "
 >
 148dp
@@ -716,7 +716,7 @@ dimen
 name
 =
 "
-tab_queue_container_width
+overlay_prompt_container_width
 "
 >
 dimen
