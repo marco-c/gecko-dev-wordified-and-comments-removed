@@ -1349,6 +1349,11 @@ Close
 (
 )
 {
+if
+(
+mSocket
+)
+{
 mSocket
 -
 >
@@ -1360,6 +1365,7 @@ mSocket
 =
 nullptr
 ;
+}
 }
 void
 RilConsumer
