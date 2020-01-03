@@ -373,6 +373,8 @@ static
 void
 ChromeStackWalker
 (
+uint32_t
+aFrameNumber
 void
 *
 aPC

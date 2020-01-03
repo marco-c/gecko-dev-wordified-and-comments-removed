@@ -2685,6 +2685,8 @@ static
 void
 StackWalkCallback
 (
+uint32_t
+aFrameNumber
 void
 *
 aPC
@@ -2828,6 +2830,7 @@ pc_array
 ;
 StackWalkCallback
 (
+0
 aSample
 -
 >
