@@ -2063,10 +2063,12 @@ TypeSet
 :
 isSubset
 (
+const
 TypeSet
 *
 other
 )
+const
 {
 if
 (
