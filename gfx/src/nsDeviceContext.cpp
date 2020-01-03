@@ -207,13 +207,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

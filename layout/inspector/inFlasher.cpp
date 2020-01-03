@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h

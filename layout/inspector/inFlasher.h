@@ -25,9 +25,6 @@ nsColor
 .
 h
 "
-class
-nsRenderingContext
-;
 #
 define
 BOUND_INNER

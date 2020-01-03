@@ -54,9 +54,6 @@ class
 Area
 ;
 class
-nsRenderingContext
-;
-class
 nsImageFrame
 ;
 class

@@ -48,9 +48,6 @@ class
 nsIFrame
 ;
 class
-nsRenderingContext
-;
-class
 nsIntRegion
 ;
 struct
