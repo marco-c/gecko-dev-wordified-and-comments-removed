@@ -3051,3 +3051,17 @@ test
 true
 )
 ;
+user_pref
+(
+"
+browser
+.
+urlbar
+.
+suggest
+.
+searches
+"
+false
+)
+;
