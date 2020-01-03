@@ -445,6 +445,11 @@ ToString
 h
 '
 '
+Tuple
+.
+h
+'
+'
 TypedEnumBits
 .
 h
