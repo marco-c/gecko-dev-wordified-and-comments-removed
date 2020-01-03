@@ -206,6 +206,9 @@ Length
 )
 )
 ;
+#
+ifdef
+DEBUG
 for
 (
 uint32_t
@@ -249,6 +252,8 @@ id
 )
 ;
 }
+#
+endif
 return
 consumed
 ;
