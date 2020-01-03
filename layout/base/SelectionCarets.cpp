@@ -350,13 +350,6 @@ kMoveStartTolerancePx
 =
 5
 ;
-static
-const
-int32_t
-kScrollEndTimerDelay
-=
-300
-;
 NS_IMPL_ISUPPORTS
 (
 SelectionCarets
@@ -6452,7 +6445,10 @@ after
 d
 ms
 "
-kScrollEndTimerDelay
+TouchCaret
+:
+:
+sScrollEndTimerDelay
 )
 ;
 mScrollEndDetectorTimer
@@ -6462,7 +6458,10 @@ InitWithFuncCallback
 (
 FireScrollEnd
 this
-kScrollEndTimerDelay
+TouchCaret
+:
+:
+sScrollEndTimerDelay
 nsITimer
 :
 :
