@@ -331,9 +331,6 @@ char
 aPrefix
 )
 ;
-#
-ifdef
-MOZ_DUMP_PAINTING
 virtual
 void
 Dump
@@ -371,8 +368,6 @@ GetAsSurface
 )
 MOZ_OVERRIDE
 ;
-#
-endif
 virtual
 bool
 Lock

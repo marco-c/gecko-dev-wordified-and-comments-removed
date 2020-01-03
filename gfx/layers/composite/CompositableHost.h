@@ -748,9 +748,6 @@ return
 mAttached
 ;
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 virtual
 void
 Dump
@@ -806,8 +803,6 @@ return
 nullptr
 ;
 }
-#
-endif
 virtual
 void
 PrintInfo
