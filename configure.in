@@ -53019,6 +53019,13 @@ MOZ_PATH_PROGS
 (
 MAKENSISU
 MAKENSISU
+makensis
+-
+3
+.
+0b1
+.
+exe
 makensisu
 -
 3
