@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_net_SpdyZlibReporter_h
+#
+define
+mozilla_net_SpdyZlibReporter_h
+#
 include
 "
 mozilla
@@ -149,3 +155,5 @@ aAnonymize
 }
 ;
 }
+#
+endif
