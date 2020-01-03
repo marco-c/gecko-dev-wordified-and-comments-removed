@@ -783,15 +783,6 @@ details
 -
 pane
 "
-class
-=
-"
-devtools
--
-responsive
--
-container
-"
 flex
 =
 "
@@ -806,11 +797,6 @@ id
 waterfall
 -
 view
-"
-flex
-=
-"
-1
 "
 >
 <
