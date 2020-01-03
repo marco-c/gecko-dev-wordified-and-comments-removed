@@ -7190,9 +7190,6 @@ mBackgroundSink
 ;
 }
 }
-Matrix
-transform
-;
 gfxPoint
 p
 =
@@ -7206,9 +7203,13 @@ aContainerParameters
 .
 mOffset
 ;
+Matrix
 transform
-.
-Translate
+=
+Matrix
+:
+:
+Translation
 (
 p
 .

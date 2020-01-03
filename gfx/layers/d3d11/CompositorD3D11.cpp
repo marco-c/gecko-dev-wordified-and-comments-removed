@@ -4552,10 +4552,11 @@ viewport
 ;
 Matrix
 viewMatrix
-;
-viewMatrix
-.
-Translate
+=
+Matrix
+:
+:
+Translation
 (
 -
 1
