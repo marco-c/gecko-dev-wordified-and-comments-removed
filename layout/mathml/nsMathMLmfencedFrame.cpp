@@ -1992,9 +1992,10 @@ data
 nsBoundingMetrics
 metrics
 =
-aRenderingContext
-.
-GetBoundingMetrics
+nsLayoutUtils
+:
+:
+AppUnitBoundsOfString
 (
 data
 .
@@ -2006,6 +2007,7 @@ data
 Length
 (
 )
+aRenderingContext
 )
 ;
 charSize
