@@ -4482,6 +4482,10 @@ UsesRootEMUnits
 &
 &
 aPrimaryFrame
+&
+&
+!
+mInRebuildAllStyleData
 )
 {
 nsStyleContext
@@ -4554,10 +4558,6 @@ mFont
 size
 )
 {
-newContext
-=
-nullptr
-;
 mRebuildAllRestyleHint
 |
 =
@@ -4569,7 +4569,7 @@ mRebuildAllExtraHint
 aMinHint
 )
 ;
-DoRebuildAllStyleData
+StartRebuildAllStyleData
 (
 aRestyleTracker
 )
