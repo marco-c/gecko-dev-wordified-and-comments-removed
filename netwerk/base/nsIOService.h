@@ -490,9 +490,6 @@ bool
 mConnectivity
 ;
 bool
-mOfflineMirrorsConnectivity
-;
-bool
 mSettingOffline
 ;
 bool
