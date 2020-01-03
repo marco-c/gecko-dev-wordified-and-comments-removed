@@ -23,6 +23,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -377,6 +386,7 @@ file
 uint32_t
 lineno
 )
+MOZ_PRETEND_NORETURN_FOR_STATIC_ANALYSIS
 ;
 #
 define
