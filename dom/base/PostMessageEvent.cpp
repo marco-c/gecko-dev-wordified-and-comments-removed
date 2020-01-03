@@ -154,6 +154,11 @@ bool
 aTrustedCaller
 )
 :
+StructuredCloneHelper
+(
+CloningSupported
+TransferringSupported
+)
 mSource
 (
 aSource
