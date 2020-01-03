@@ -146,9 +146,14 @@ opus
 mp4
 *
 .
+m4s
+*
+.
 wav
 )
 rm
+-
+f
 *
 .
 ogg
@@ -182,6 +187,12 @@ headers
 *
 .
 mp4
+^
+headers
+^
+*
+.
+m4s
 ^
 headers
 ^
