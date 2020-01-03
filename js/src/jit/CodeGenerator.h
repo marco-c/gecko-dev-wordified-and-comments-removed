@@ -1288,6 +1288,14 @@ lir
 )
 ;
 bool
+visitSubstr
+(
+LSubstr
+*
+lir
+)
+;
+bool
 visitInitializedLength
 (
 LInitializedLength

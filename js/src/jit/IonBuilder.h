@@ -3947,6 +3947,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineSubstringKernel
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineForceSequentialOrInParallelSection
 (
 CallInfo
