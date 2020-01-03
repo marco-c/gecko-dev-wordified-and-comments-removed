@@ -2083,15 +2083,6 @@ media
 :
 NullableTimeUnit
 >
-mNetworkDuration
-;
-Mirror
-<
-media
-:
-:
-NullableTimeUnit
->
 mEstimatedDuration
 ;
 Mirror
