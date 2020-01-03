@@ -218,6 +218,9 @@ mozilla
 TimeStamp
 mChangedTime
 ;
+bool
+mAllowChangedEvent
+;
 }
 ;
 #
