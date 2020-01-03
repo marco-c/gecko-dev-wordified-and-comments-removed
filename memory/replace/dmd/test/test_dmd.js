@@ -667,6 +667,8 @@ sort
 by
 .
 json
+.
+gz
 "
 ]
 )
