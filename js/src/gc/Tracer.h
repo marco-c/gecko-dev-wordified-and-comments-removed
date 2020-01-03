@@ -799,12 +799,6 @@ SliceBudget
 budget
 )
 ;
-bool
-hasBufferedGrayRoots
-(
-)
-const
-;
 void
 resetBufferedGrayRoots
 (
