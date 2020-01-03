@@ -6828,6 +6828,12 @@ createAndStart
 )
 ;
 }
+ThreadUtils
+.
+reduceGeckoPriority
+(
+)
+;
 MemoryMonitor
 .
 getInstance
@@ -8596,6 +8602,12 @@ intent
 )
 ;
 }
+ThreadUtils
+.
+resetGeckoPriority
+(
+)
+;
 }
 private
 String
