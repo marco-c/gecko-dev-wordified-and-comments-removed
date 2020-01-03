@@ -1737,9 +1737,9 @@ migrate
 verify
 "
 :
-this
+fxaMigrator
 .
-openPreferences
+resendVerificationMail
 (
 )
 ;
