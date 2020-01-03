@@ -41,7 +41,7 @@ import
 tempfile
 outputVersion
 =
-3
+4
 allocatorFns
 =
 [
@@ -2228,6 +2228,30 @@ isSampled
 =
 True
         
+if
+'
+num
+'
+in
+block
+:
+            
+num
+=
+block
+[
+'
+num
+'
+]
+        
+else
+:
+            
+num
+=
+1
+        
 usableSize
 =
 reqSize
@@ -2237,25 +2261,29 @@ slopSize
 heapUsableSize
 +
 =
+num
+*
 usableSize
         
 heapBlocks
 +
 =
-1
+num
         
 record
 .
 numBlocks
 +
 =
-1
+num
         
 record
 .
 reqSize
 +
 =
+num
+*
 reqSize
         
 record
@@ -2263,6 +2291,8 @@ record
 slopSize
 +
 =
+num
+*
 slopSize
         
 record
@@ -2270,6 +2300,8 @@ record
 usableSize
 +
 =
+num
+*
 usableSize
         
 record
@@ -2380,7 +2412,7 @@ isSampled
 ]
 +
 =
-1
+num
     
 digest
 =

@@ -86,7 +86,7 @@ size_t
 mLiveBlockTable
 ;
 size_t
-mDeadBlockList
+mDeadBlockTable
 ;
 Sizes
 (
