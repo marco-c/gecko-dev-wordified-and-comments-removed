@@ -566,9 +566,6 @@ send
 (
 self
 msg
-ignore_response
-=
-False
 )
 :
         
@@ -592,29 +589,6 @@ msg
 '
 :
 '
-.
-        
-The
-ignore_response
-parameter
-indicates
-no
-response
-is
-expected
-from
-        
-the
-remote
-end
-for
-instance
-when
-the
-client
-requests
-a
-quit
 .
         
 "
@@ -770,11 +744,6 @@ else
 raise
 e
         
-if
-not
-ignore_response
-:
-            
 response
 =
 self
@@ -782,19 +751,6 @@ self
 receive
 (
 )
-        
-else
-:
-            
-response
-=
-{
-'
-ok
-'
-:
-True
-}
         
 return
 response
