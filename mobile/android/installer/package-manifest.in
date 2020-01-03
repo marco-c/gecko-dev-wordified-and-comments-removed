@@ -3807,6 +3807,13 @@ BINPATH
 /
 components
 /
+PaymentProvider
+.
+js
+BINPATH
+/
+components
+/
 Payment
 .
 manifest
@@ -3815,6 +3822,13 @@ BINPATH
 components
 /
 PaymentsUI
+.
+js
+BINPATH
+/
+components
+/
+PaymentProviderStrategy
 .
 js
 #
