@@ -7785,6 +7785,7 @@ if
 (
 uri
 )
+{
 uri
 =
 uri
@@ -7807,6 +7808,7 @@ uri
 )
 )
 ;
+}
 document
 .
 getAnonymousElementByAttribute
