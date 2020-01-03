@@ -324,6 +324,7 @@ NS_ACCESSIBLETEXTRANGE_IMPL_IID
 )
 private
 :
+explicit
 xpcAccessibleTextRange
 (
 TextRange

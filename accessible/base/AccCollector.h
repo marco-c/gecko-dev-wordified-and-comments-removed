@@ -173,6 +173,7 @@ aAccessible
 ;
 protected
 :
+explicit
 EmbeddedObjCollector
 (
 Accessible

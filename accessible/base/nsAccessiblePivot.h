@@ -72,6 +72,7 @@ a11y
 Accessible
 Accessible
 ;
+explicit
 nsAccessiblePivot
 (
 Accessible

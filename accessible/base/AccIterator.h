@@ -121,6 +121,7 @@ AccIterator
 struct
 IteratorState
 {
+explicit
 IteratorState
 (
 Accessible
@@ -606,6 +607,7 @@ AccIterable
 {
 public
 :
+explicit
 SingleAccIterator
 (
 Accessible
@@ -672,6 +674,7 @@ AccIterable
 {
 public
 :
+explicit
 ItemIterator
 (
 Accessible
