@@ -2293,6 +2293,8 @@ TextureClient
 :
 ForceRemove
 (
+bool
+sync
 )
 {
 if
@@ -2305,6 +2307,9 @@ mActor
 {
 if
 (
+sync
+|
+|
 GetFlags
 (
 )

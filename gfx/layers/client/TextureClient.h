@@ -1048,6 +1048,10 @@ GetIPDLActor
 void
 ForceRemove
 (
+bool
+sync
+=
+false
 )
 ;
 virtual
