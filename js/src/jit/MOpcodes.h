@@ -1311,6 +1311,11 @@ _
 (
 NewTarget
 )
+\
+_
+(
+ArrowNewTarget
+)
 #
 define
 FORWARD_DECLARE
