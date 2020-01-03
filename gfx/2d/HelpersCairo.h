@@ -794,7 +794,7 @@ R5G6B5
 ;
 default
 :
-gfxWarning
+gfxCriticalError
 (
 )
 <
@@ -804,16 +804,9 @@ Unknown
 cairo
 format
 "
-;
-MOZ_ASSERT
-(
-false
-"
-Unknown
-cairo
+<
+<
 format
-"
-)
 ;
 return
 SurfaceFormat
