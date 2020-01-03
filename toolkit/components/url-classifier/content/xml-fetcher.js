@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+this
+.
+PROT_NewXMLHttpRequest
+=
 function
 PROT_NewXMLHttpRequest
 (
@@ -110,6 +114,10 @@ return
 request
 ;
 }
+this
+.
+PROT_XMLFetcher
+=
 function
 PROT_XMLFetcher
 (

@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+this
+.
+G_CryptoHasher
+=
 function
 G_CryptoHasher
 (
@@ -603,6 +607,10 @@ join
 #
 ifdef
 DEBUG
+this
+.
+TEST_G_CryptoHasher
+=
 function
 TEST_G_CryptoHasher
 (

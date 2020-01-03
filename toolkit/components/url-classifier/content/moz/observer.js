@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+this
+.
+G_ObserverWrapper
+=
 function
 G_ObserverWrapper
 (
@@ -156,6 +160,10 @@ data
 )
 ;
 }
+this
+.
+G_ObserverServiceObserver
+=
 function
 G_ObserverServiceObserver
 (
@@ -322,6 +330,10 @@ unregister
 #
 ifdef
 DEBUG
+this
+.
+TEST_G_Observer
+=
 function
 TEST_G_Observer
 (

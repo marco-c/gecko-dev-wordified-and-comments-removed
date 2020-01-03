@@ -110,6 +110,7 @@ configure
 sh
 MOZ_SAFE_BROWSING
 =
+1
 MOZ_SERVICES_COMMON
 =
 1

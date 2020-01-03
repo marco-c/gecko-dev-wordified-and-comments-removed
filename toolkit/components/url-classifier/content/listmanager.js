@@ -79,6 +79,10 @@ jsm
 "
 )
 ;
+this
+.
+log
+=
 function
 log
 (
@@ -175,6 +179,10 @@ n
 )
 ;
 }
+this
+.
+QueryAdapter
+=
 function
 QueryAdapter
 (
@@ -210,6 +218,10 @@ value
 )
 ;
 }
+this
+.
+PROT_ListManager
+=
 function
 PROT_ListManager
 (

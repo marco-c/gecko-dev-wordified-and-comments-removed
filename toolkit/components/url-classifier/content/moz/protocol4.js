@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+this
+.
+G_Protocol4Parser
+=
 function
 G_Protocol4Parser
 (
@@ -311,6 +315,10 @@ text
 #
 ifdef
 DEBUG
+this
+.
+TEST_G_Protocol4Parser
+=
 function
 TEST_G_Protocol4Parser
 (

@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+this
+.
+BindToObject
+=
 function
 BindToObject
 (

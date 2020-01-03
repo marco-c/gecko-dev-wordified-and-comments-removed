@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+this
+.
+PROT_VersionParser
+=
 function
 PROT_VersionParser
 (
@@ -864,6 +868,10 @@ true
 #
 ifdef
 DEBUG
+this
+.
+TEST_PROT_WireFormat
+=
 function
 TEST_PROT_WireFormat
 (

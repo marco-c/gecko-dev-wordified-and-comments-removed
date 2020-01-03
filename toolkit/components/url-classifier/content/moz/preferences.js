@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+this
+.
+G_Preferences
+=
 function
 G_Preferences
 (
@@ -762,6 +766,10 @@ observers_
 }
 ;
 }
+this
+.
+G_PreferenceObserver
+=
 function
 G_PreferenceObserver
 (
@@ -873,6 +881,10 @@ NS_ERROR_NO_INTERFACE
 #
 ifdef
 DEBUG
+this
+.
+TEST_G_Preferences
+=
 function
 TEST_G_Preferences
 (
