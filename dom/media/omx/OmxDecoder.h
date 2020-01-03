@@ -302,7 +302,7 @@ int64_t
 mDurationUs
 ;
 int64_t
-mVideoLastFrameTime
+mLastSeekTime
 ;
 VideoFrame
 mVideoFrame
