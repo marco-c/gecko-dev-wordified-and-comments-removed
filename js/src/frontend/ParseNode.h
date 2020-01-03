@@ -552,6 +552,16 @@ LET
 \
 F
 (
+LETBLOCK
+)
+\
+F
+(
+LETEXPR
+)
+\
+F
+(
 IMPORT
 )
 \
