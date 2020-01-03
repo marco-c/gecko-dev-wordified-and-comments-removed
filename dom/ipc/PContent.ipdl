@@ -2228,6 +2228,10 @@ nsCString
 vendor
 )
 ;
+AppInit
+(
+)
+;
 /
 /
 Notify

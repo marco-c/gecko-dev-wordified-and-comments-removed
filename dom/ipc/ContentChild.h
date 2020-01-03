@@ -1687,6 +1687,13 @@ override
 ;
 virtual
 bool
+RecvAppInit
+(
+)
+override
+;
+virtual
+bool
 RecvLastPrivateDocShellDestroyed
 (
 )
