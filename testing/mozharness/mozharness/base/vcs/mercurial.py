@@ -636,8 +636,6 @@ template
 '
 {
 node
-|
-short
 }
 '
 ]

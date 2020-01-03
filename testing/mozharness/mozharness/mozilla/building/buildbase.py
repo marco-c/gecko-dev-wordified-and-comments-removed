@@ -7984,8 +7984,6 @@ template
 '
 {
 node
-|
-short
 }
 '
 ]

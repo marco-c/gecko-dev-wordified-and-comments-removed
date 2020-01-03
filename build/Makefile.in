@@ -172,8 +172,6 @@ template
 '
 {
 node
-|
-short
 }
 \
 n

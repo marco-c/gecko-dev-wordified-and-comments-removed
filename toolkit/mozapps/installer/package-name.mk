@@ -990,8 +990,6 @@ template
 "
 {
 node
-|
-short
 }
 \
 n

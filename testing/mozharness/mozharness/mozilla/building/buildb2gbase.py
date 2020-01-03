@@ -1483,8 +1483,6 @@ template
 '
 {
 node
-|
-short
 }
 '
 ]

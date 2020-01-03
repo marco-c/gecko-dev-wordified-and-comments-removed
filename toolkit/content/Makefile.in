@@ -114,8 +114,6 @@ template
 '
 {
 node
-|
-short
 }
 \
 n
