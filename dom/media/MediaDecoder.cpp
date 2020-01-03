@@ -1206,6 +1206,11 @@ ResyncMediaStreamClock
 )
 ;
 }
+else
+{
+return
+;
+}
 for
 (
 int32_t
@@ -3545,12 +3550,10 @@ mPlayState
 PLAY_STATE_SEEKING
 |
 |
-(
 mPlayState
 =
 =
 PLAY_STATE_LOADING
-)
 )
 {
 return
