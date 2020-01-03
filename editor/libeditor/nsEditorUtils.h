@@ -476,6 +476,7 @@ nsIDOMNode
 *
 aNode
 )
+const
 =
 0
 ;
@@ -488,6 +489,7 @@ nsINode
 *
 aNode
 )
+const
 {
 return
 operator
@@ -534,6 +536,7 @@ nsDOMIterator
 void
 AppendList
 (
+const
 nsBoolDomIterFunctor
 &
 functor
@@ -552,6 +555,7 @@ const
 void
 AppendList
 (
+const
 nsBoolDomIterFunctor
 &
 functor
@@ -621,6 +625,7 @@ nsIDOMNode
 *
 aNode
 )
+const
 {
 return
 true
