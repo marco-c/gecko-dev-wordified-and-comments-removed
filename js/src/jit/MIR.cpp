@@ -16808,6 +16808,11 @@ MDefinition
 obj
 )
 {
+setResultType
+(
+MIRType_Object
+)
+;
 setRecoveredOnBailout
 (
 )

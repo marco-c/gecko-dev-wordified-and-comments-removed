@@ -10753,6 +10753,11 @@ MDefinition
 arr
 )
 {
+setResultType
+(
+MIRType_Object
+)
+;
 setRecoveredOnBailout
 (
 )
