@@ -679,6 +679,7 @@ DoDispatchEvents
 ;
 }
 }
+virtual
 mozilla
 :
 :
@@ -703,6 +704,7 @@ aPseudoType
 bool
 aCreateIfNeeded
 )
+MOZ_OVERRIDE
 ;
 nsIStyleRule
 *

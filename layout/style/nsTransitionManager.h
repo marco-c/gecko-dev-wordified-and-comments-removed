@@ -531,9 +531,10 @@ FlushFlags
 aFlags
 )
 ;
+virtual
 AnimationPlayerCollection
 *
-GetElementTransitions
+GetAnimationPlayers
 (
 mozilla
 :
@@ -552,6 +553,7 @@ aPseudoType
 bool
 aCreateIfNeeded
 )
+MOZ_OVERRIDE
 ;
 void
 WalkTransitionRule
