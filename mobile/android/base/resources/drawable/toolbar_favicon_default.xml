@@ -106,7 +106,9 @@ android
 src
 =
 "
-null
+drawable
+/
+favicon_globe
 "
 /
 >
