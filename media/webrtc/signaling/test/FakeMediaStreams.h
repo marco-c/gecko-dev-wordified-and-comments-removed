@@ -296,6 +296,15 @@ MediaStream
 )
 {
 }
+uint32_t
+GraphRate
+(
+)
+{
+return
+16000
+;
+}
 void
 AddListener
 (
