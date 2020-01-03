@@ -5751,7 +5751,7 @@ GetSkiaGLGlue
 ;
 #
 if
-USE_SKIA
+USE_SKIA_GPU
 if
 (
 glue
