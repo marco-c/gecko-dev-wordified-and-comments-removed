@@ -165,14 +165,6 @@ ussd
 ;
 }
 ;
-struct
-HangUpConferenceRequest
-{
-uint32_t
-clientId
-;
-}
-;
 union
 IPCTelephonyRequest
 {
@@ -181,8 +173,6 @@ EnumerateCallsRequest
 DialRequest
 ;
 USSDRequest
-;
-HangUpConferenceRequest
 ;
 }
 ;
