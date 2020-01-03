@@ -1179,7 +1179,9 @@ aFlags
 ;
 }
 return
+(
 nullptr
+)
 ;
 }
 static
