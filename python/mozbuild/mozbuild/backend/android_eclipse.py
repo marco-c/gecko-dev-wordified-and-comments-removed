@@ -1394,7 +1394,10 @@ cpe
 dstdir
 )
         
-if
+for
+src
+dst
+in
 project
 .
 libs
@@ -1402,24 +1405,16 @@ libs
             
 manifest
 .
-add_pattern_copy
+add_copy
 (
 mozpath
 .
 join
 (
 srcdir
-project
-.
-libs
+src
 )
-'
-*
-*
-'
-'
-libs
-'
+dst
 )
         
 return
