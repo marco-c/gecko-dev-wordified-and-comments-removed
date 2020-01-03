@@ -158,11 +158,6 @@ gfxCrashReporterUtils
 h
 '
 '
-gfxTelemetry
-.
-h
-'
-'
 nsBoundingMetrics
 .
 h
@@ -325,11 +320,6 @@ cpp
 '
 '
 gfxCrashReporterUtils
-.
-cpp
-'
-'
-gfxTelemetry
 .
 cpp
 '
