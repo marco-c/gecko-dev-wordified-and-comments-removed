@@ -3381,6 +3381,11 @@ CallGroupErrorEvent
 webidl
 '
 '
+CameraClosedEvent
+.
+webidl
+'
+'
 CameraConfigurationEvent
 .
 webidl

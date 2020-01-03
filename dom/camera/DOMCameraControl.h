@@ -1275,6 +1275,8 @@ DOMCameraControlListener
 :
 HardwareState
 aState
+nsresult
+aReason
 )
 ;
 void

@@ -100,10 +100,6 @@ GonkCamera
 Monitor
 "
 )
-mCameraControl
-(
-nullptr
-)
 mCallbackMonitor
 (
 "
@@ -111,6 +107,10 @@ GonkCamera
 .
 CallbackMonitor
 "
+)
+mCameraControl
+(
+nullptr
 )
 mRotation
 (
@@ -223,7 +223,10 @@ OnHardwareStateChange
 (
 HardwareState
 aState
+nsresult
+aReason
 )
+MOZ_OVERRIDE
 ;
 void
 GetRotation
@@ -244,6 +247,7 @@ aWidth
 uint32_t
 aHeight
 )
+MOZ_OVERRIDE
 ;
 void
 OnUserError
@@ -253,6 +257,7 @@ aContext
 nsresult
 aError
 )
+MOZ_OVERRIDE
 ;
 void
 OnTakePictureComplete
@@ -267,6 +272,7 @@ nsAString
 &
 aMimeType
 )
+MOZ_OVERRIDE
 ;
 void
 AllocImpl

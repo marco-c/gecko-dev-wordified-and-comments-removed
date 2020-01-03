@@ -239,6 +239,11 @@ bool
 aIsMoving
 )
 ;
+void
+InjectFakeSystemFailure
+(
+)
+;
 private
 :
 TestGonkCameraHardware

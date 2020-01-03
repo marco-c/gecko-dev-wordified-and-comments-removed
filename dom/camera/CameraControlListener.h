@@ -78,6 +78,8 @@ OnHardwareStateChange
 (
 HardwareState
 aState
+nsresult
+aReason
 )
 {
 }
