@@ -170,7 +170,7 @@ pinArg
 CertVerifier
 :
 :
-ocsp_get_config
+OcspGetConfig
 ocspGETConfig
 CertVerifier
 :
@@ -495,7 +495,7 @@ const
 CertVerifier
 :
 :
-ocsp_get_config
+OcspGetConfig
 mOCSPGetConfig
 ;
 CertVerifier

@@ -60,11 +60,11 @@ SharedCertVerifier
 )
 SharedCertVerifier
 (
-ocsp_download_config
+OcspDownloadConfig
 odc
-ocsp_strict_config
+OcspStrictConfig
 osc
-ocsp_get_config
+OcspGetConfig
 ogc
 PinningMode
 pinningMode
