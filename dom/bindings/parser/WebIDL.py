@@ -6751,6 +6751,11 @@ isMethod
 (
 )
 and
+m
+!
+=
+member
+and
 alias
 in
 m
