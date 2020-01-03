@@ -14882,7 +14882,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetRequester
 (
 nsIContentPermissionRequester
@@ -14890,6 +14890,7 @@ nsIContentPermissionRequester
 *
 aRequester
 )
+override
 {
 NS_ENSURE_ARG_POINTER
 (
