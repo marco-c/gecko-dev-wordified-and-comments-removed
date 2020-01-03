@@ -273,6 +273,9 @@ class
 nsIPrincipal
 ;
 class
+nsIRequest
+;
+class
 nsIRunnable
 ;
 class
@@ -4075,6 +4078,15 @@ const
 nsACString
 &
 aHeader
+)
+;
+static
+uint64_t
+GetInnerWindowID
+(
+nsIRequest
+*
+aRequest
 )
 ;
 private
