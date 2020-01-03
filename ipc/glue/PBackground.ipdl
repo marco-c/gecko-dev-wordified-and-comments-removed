@@ -70,6 +70,10 @@ PBlob
 ;
 include
 protocol
+PBroadcastChannel
+;
+include
+protocol
 PFileDescriptorSet
 ;
 include
@@ -78,6 +82,9 @@ PVsync
 ;
 include
 DOMTypes
+;
+include
+PBackgroundSharedTypes
 ;
 include
 PBackgroundIDBSharedTypes
@@ -100,6 +107,9 @@ PBackgroundTest
 ;
 manages
 PBlob
+;
+manages
+PBroadcastChannel
 ;
 manages
 PFileDescriptorSet
@@ -137,6 +147,16 @@ loggingInfo
 ;
 PVsync
 (
+)
+;
+PBroadcastChannel
+(
+PrincipalInfo
+pInfo
+nsString
+origin
+nsString
+channel
 )
 ;
 both
