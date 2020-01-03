@@ -215,6 +215,7 @@ mColorPaint
 =
 null
 )
+{
 canvas
 .
 drawPaint
@@ -222,6 +223,7 @@ drawPaint
 mColorPaint
 )
 ;
+}
 canvas
 .
 drawPaint
