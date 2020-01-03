@@ -6988,6 +6988,9 @@ kInSetConfiguration
 if
 (
 mSetInitialConfig
+&
+&
+mCameraControl
 )
 {
 DOM_CAMERA_LOGI
