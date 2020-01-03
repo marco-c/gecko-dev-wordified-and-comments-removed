@@ -1058,10 +1058,6 @@ generate_suggestedsites
 \
 -
 -
-verbose
-\
--
--
 android
 -
 package
@@ -1154,10 +1150,6 @@ FORCE
 call
 py_action
 generate_browsersearch
-\
--
--
-verbose
 \
 (
 if
