@@ -1241,6 +1241,15 @@ HDC
 dc
 )
 ;
+static
+void
+ClearCompositor
+(
+nsWindow
+*
+aWindow
+)
+;
 bool
 AssociateDefaultIMC
 (

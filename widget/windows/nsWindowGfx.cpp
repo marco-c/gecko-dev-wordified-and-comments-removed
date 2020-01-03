@@ -738,12 +738,9 @@ UpdateRenderMode
 (
 )
 ;
-mLayerManager
-=
-nullptr
-;
-DestroyCompositor
+EnumAllWindows
 (
+ClearCompositor
 )
 ;
 return
