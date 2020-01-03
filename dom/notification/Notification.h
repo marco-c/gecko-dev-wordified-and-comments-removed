@@ -413,6 +413,10 @@ const
 nsAString
 &
 aIconUrl
+const
+NotificationBehavior
+&
+aBehavior
 nsPIDOMWindow
 *
 aWindow
@@ -625,6 +629,9 @@ nsCOMPtr
 nsIStructuredCloneContainer
 >
 mDataObjectContainer
+;
+NotificationBehavior
+mBehavior
 ;
 nsCOMPtr
 <

@@ -144,5 +144,10 @@ data
 "
 "
 ;
+NotificationBehavior
+mozbehavior
+=
+null
+;
 }
 ;
