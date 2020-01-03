@@ -15552,18 +15552,6 @@ enforcement_level
 pref
 (
 "
-security
-.
-onecrl
-.
-maximum_staleness_in_seconds
-"
-0
-)
-;
-pref
-(
-"
 plain_text
 .
 wrap_long_lines
@@ -16314,7 +16302,7 @@ false
 endif
 #
 ifdef
-E10S_TESTING_ONLY
+NIGHTLY_BUILD
 pref
 (
 "

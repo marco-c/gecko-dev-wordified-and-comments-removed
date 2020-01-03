@@ -28397,9 +28397,12 @@ dnl
 dnl
 Multiprocess
 Firefox
-Nightly
 Testing
 UI
+-
+Nightly
+and
+Aurora
 dnl
 To
 be
@@ -28467,9 +28470,9 @@ dnl
 if
 test
 -
-n
+z
 "
-NIGHTLY_BUILD
+RELEASE_BUILD
 "
 ;
 then
