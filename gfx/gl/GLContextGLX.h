@@ -35,6 +35,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 GLContextGLX
+MOZ_OVERRIDE
 )
 static
 already_AddRefed
