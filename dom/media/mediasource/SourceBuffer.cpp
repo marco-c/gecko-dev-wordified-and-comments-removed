@@ -1882,6 +1882,11 @@ yet
 ;
 if
 (
+aLength
+)
+{
+if
+(
 !
 mTrackBuffer
 -
@@ -1952,6 +1957,7 @@ CheckEndTime
 (
 )
 ;
+}
 nsCOMPtr
 <
 nsIRunnable
