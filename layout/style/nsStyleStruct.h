@@ -4501,7 +4501,11 @@ MaxDifference
 )
 {
 return
+NS_CombineHint
+(
 NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_NeutralChange
+)
 ;
 }
 static
