@@ -3363,7 +3363,7 @@ file
 .
 append
 (
-FILE_WEB_MANIFEST
+FILE_RDF_MANIFEST
 )
 ;
 if
@@ -3388,7 +3388,7 @@ file
 .
 leafName
 =
-FILE_RDF_MANIFEST
+FILE_WEB_MANIFEST
 ;
 if
 (
@@ -3424,11 +3424,11 @@ aZipReader
 .
 hasEntry
 (
-FILE_WEB_MANIFEST
+FILE_RDF_MANIFEST
 )
 )
 return
-FILE_WEB_MANIFEST
+FILE_RDF_MANIFEST
 ;
 if
 (
@@ -3436,11 +3436,11 @@ aZipReader
 .
 hasEntry
 (
-FILE_RDF_MANIFEST
+FILE_WEB_MANIFEST
 )
 )
 return
-FILE_RDF_MANIFEST
+FILE_WEB_MANIFEST
 ;
 return
 null
