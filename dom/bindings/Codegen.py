@@ -57153,6 +57153,7 @@ IDLInterfaceMember
 DependsOnValues
         
 return
+(
 affects
 =
 =
@@ -57160,12 +57161,23 @@ affects
 Nothing
 "
 and
+                
+(
 dependsOn
 !
 =
 "
 Everything
 "
+and
+dependsOn
+!
+=
+"
+DeviceState
+"
+)
+)
     
 def
 aliasSet
@@ -57252,6 +57264,13 @@ dependsOn
 =
 "
 Nothing
+"
+or
+dependsOn
+=
+=
+"
+DeviceState
 "
 :
             
