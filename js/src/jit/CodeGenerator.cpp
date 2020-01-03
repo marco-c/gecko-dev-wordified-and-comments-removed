@@ -17031,9 +17031,6 @@ isConstant
 )
 )
 {
-#
-ifdef
-DEBUG
 MOZ_ASSERT
 (
 !
@@ -17059,8 +17056,6 @@ toObject
 )
 )
 ;
-#
-endif
 }
 else
 {
