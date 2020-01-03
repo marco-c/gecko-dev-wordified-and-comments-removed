@@ -18,15 +18,6 @@ imgIContainer
 .
 h
 >
-#
-include
-"
-cairo
--
-features
-.
-h
-"
 class
 nsWindowGfx
 {
