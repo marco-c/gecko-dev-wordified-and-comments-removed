@@ -3138,6 +3138,12 @@ int64_t
 mAudioEndTime
 ;
 int64_t
+AudioEndTime
+(
+)
+const
+;
+int64_t
 mDecodedAudioEndTime
 ;
 int64_t
