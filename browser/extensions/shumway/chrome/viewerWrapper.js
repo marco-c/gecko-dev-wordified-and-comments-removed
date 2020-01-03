@@ -139,8 +139,11 @@ contentWindow
 wrappedJSObject
 ;
 var
-shumwayComAdapter
+shumwayComAdapterHooks
 =
+{
+}
+;
 ShumwayCom
 .
 createAdapter
@@ -157,6 +160,7 @@ getEnvironment
 :
 getEnvironment
 }
+shumwayComAdapterHooks
 )
 ;
 shumwayActions
@@ -169,7 +173,7 @@ call
 )
 {
 return
-shumwayComAdapter
+shumwayComAdapterHooks
 .
 onExternalCallback
 (
@@ -195,7 +199,7 @@ function
 args
 )
 {
-shumwayComAdapter
+shumwayComAdapterHooks
 .
 onLoadFileCallback
 (

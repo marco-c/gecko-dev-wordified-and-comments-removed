@@ -54,7 +54,7 @@ call
 if
 (
 !
-shumwayComAdapter
+shumwayComAdapterHooks
 .
 onExternalCallback
 )
@@ -64,7 +64,7 @@ undefined
 ;
 }
 return
-shumwayComAdapter
+shumwayComAdapterHooks
 .
 onExternalCallback
 (
@@ -88,7 +88,10 @@ content
 }
 ;
 var
-shumwayComAdapter
+shumwayComAdapterHooks
+=
+{
+}
 ;
 function
 sendMessage
@@ -229,13 +232,13 @@ externalInterfaceWrapper
 }
 )
 ;
-shumwayComAdapter
-=
 ShumwayCom
 .
 createAdapter
 (
 content
+.
+wrappedJSObject
 {
 sendMessage
 :
@@ -254,6 +257,7 @@ environment
 ;
 }
 }
+shumwayComAdapterHooks
 )
 ;
 content
@@ -282,7 +286,7 @@ message
 if
 (
 !
-shumwayComAdapter
+shumwayComAdapterHooks
 .
 onLoadFileCallback
 )
@@ -290,7 +294,7 @@ onLoadFileCallback
 return
 ;
 }
-shumwayComAdapter
+shumwayComAdapterHooks
 .
 onLoadFileCallback
 (
