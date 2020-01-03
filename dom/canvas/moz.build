@@ -588,11 +588,6 @@ WebGLShaderPrecisionFormat
 cpp
 '
 '
-WebGLShaderValidator
-.
-cpp
-'
-'
 WebGLSync
 .
 cpp
@@ -614,11 +609,6 @@ cpp
 '
 '
 WebGLUniformLocation
-.
-cpp
-'
-'
-WebGLValidateStrings
 .
 cpp
 '
