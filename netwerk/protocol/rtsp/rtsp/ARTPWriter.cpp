@@ -635,8 +635,9 @@ char
 *
 mime
 ;
-CHECK
+if
 (
+!
 mSource
 -
 >
@@ -652,7 +653,11 @@ kKeyMIMEType
 mime
 )
 )
+{
+return
+ERROR_UNSUPPORTED
 ;
+}
 mMode
 =
 INVALID

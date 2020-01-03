@@ -71,7 +71,7 @@ desc
 )
 ;
 static
-void
+bool
 MakeFormat
 (
 const

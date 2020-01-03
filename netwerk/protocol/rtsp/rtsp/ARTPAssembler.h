@@ -110,7 +110,7 @@ packetLost
 0
 ;
 static
-void
+bool
 CopyTimes
 (
 const

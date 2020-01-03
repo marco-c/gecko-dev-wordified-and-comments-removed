@@ -200,7 +200,7 @@ ARTPSource
 source
 )
 ;
-void
+bool
 submitAccessUnit
 (
 )

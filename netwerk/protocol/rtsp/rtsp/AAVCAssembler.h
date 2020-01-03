@@ -140,7 +140,7 @@ ARTPSource
 source
 )
 ;
-void
+bool
 addSingleNALUnit
 (
 const
@@ -178,7 +178,7 @@ ABuffer
 buffer
 )
 ;
-void
+bool
 submitAccessUnit
 (
 )
