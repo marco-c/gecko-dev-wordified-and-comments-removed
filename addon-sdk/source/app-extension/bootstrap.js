@@ -1960,13 +1960,6 @@ loaderSandbox
 unloadSandbox
 (
 cuddlefishSandbox
-.
-xulappSandbox
-)
-;
-unloadSandbox
-(
-cuddlefishSandbox
 )
 ;
 cuddlefishSandbox
