@@ -4100,14 +4100,6 @@ nsPrincipal
 (
 )
 ;
-if
-(
-!
-codebase
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 nsresult
 rv
 =
@@ -5246,12 +5238,6 @@ system
 new
 nsSystemPrincipal
 (
-)
-;
-NS_ENSURE_TRUE
-(
-system
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 mSystemPrincipal
