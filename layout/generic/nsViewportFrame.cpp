@@ -879,9 +879,9 @@ ShouldReflowAllKids
 |
 aReflowState
 .
-mFlags
-.
-mVResize
+IsVResize
+(
+)
 |
 |
 NS_SUBTREE_DIRTY

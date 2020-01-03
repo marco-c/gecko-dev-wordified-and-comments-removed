@@ -3156,9 +3156,9 @@ if
 (
 aReflowState
 .
-mFlags
-.
-mVResize
+IsVResize
+(
+)
 &
 &
 (
@@ -3175,11 +3175,10 @@ NS_FRAME_CONTAINS_RELATIVE_HEIGHT
 {
 kidReflowState
 .
-mFlags
-.
-mVResize
-=
+SetVResize
+(
 true
+)
 ;
 }
 nsPoint

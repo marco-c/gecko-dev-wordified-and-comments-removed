@@ -4438,11 +4438,10 @@ NS_TABLE_CELL_HAD_SPECIAL_REFLOW
 {
 kidReflowState
 .
-mFlags
-.
-mVResize
-=
+SetVResize
+(
 true
+)
 ;
 }
 nsPoint
