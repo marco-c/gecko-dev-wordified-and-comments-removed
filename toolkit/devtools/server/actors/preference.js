@@ -118,6 +118,10 @@ handle
 let
 PreferenceActor
 =
+exports
+.
+PreferenceActor
+=
 protocol
 .
 ActorClass
