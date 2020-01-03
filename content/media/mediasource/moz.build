@@ -117,11 +117,6 @@ UNIFIED_SOURCES
 =
 [
 '
-ContainerParser
-.
-cpp
-'
-'
 MediaSource
 .
 cpp
