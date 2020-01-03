@@ -111,4 +111,4 @@ members
 extract
 extract_tarball
 extract_zip
-rmtree
+remove
