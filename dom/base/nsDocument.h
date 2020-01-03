@@ -982,11 +982,10 @@ aImageOnly
 false
 )
 ;
-nsAutoTArray
+nsTArray
 <
 Element
 *
-1
 >
 mIdContentList
 ;
