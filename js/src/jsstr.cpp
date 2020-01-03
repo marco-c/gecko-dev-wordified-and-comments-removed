@@ -4854,9 +4854,9 @@ false
 ;
 if
 (
+EqualStrings
+(
 formStr
-=
-=
 cx
 -
 >
@@ -4865,6 +4865,7 @@ names
 )
 .
 NFC
+)
 )
 {
 form
@@ -4875,9 +4876,9 @@ UNORM_NFC
 else
 if
 (
+EqualStrings
+(
 formStr
-=
-=
 cx
 -
 >
@@ -4886,6 +4887,7 @@ names
 )
 .
 NFD
+)
 )
 {
 form
@@ -4896,9 +4898,9 @@ UNORM_NFD
 else
 if
 (
+EqualStrings
+(
 formStr
-=
-=
 cx
 -
 >
@@ -4907,6 +4909,7 @@ names
 )
 .
 NFKC
+)
 )
 {
 form
@@ -4917,9 +4920,9 @@ UNORM_NFKC
 else
 if
 (
+EqualStrings
+(
 formStr
-=
-=
 cx
 -
 >
@@ -4928,6 +4931,7 @@ names
 )
 .
 NFKD
+)
 )
 {
 form
