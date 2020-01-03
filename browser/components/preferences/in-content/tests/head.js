@@ -383,7 +383,11 @@ styleSheet
 of
 content
 .
-document
+gSubDialog
+.
+_frame
+.
+contentDocument
 .
 styleSheets
 )
