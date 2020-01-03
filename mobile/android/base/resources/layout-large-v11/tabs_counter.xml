@@ -144,7 +144,7 @@ background
 "
 drawable
 /
-new_tablet_tabs_count_foreground
+tabs_count_foreground
 "
 android
 :
