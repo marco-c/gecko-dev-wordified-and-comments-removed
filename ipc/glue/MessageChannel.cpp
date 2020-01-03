@@ -1320,6 +1320,16 @@ CanSend
 )
 const
 {
+if
+(
+!
+mMonitor
+)
+{
+return
+false
+;
+}
 MonitorAutoLock
 lock
 (
