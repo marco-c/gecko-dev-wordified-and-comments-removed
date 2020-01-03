@@ -610,6 +610,9 @@ originalUrl
 generatedSource
 :
 generatedSource
+isInlineSource
+:
+isInlineSource
 contentType
 :
 contentType
