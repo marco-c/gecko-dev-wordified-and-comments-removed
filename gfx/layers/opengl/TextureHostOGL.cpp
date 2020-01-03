@@ -2350,9 +2350,6 @@ mSize
 )
 ;
 }
-return
-NS_SUCCEEDED
-(
 mSurfTex
 -
 >
@@ -2362,7 +2359,9 @@ gl
 (
 )
 )
-)
+;
+return
+true
 ;
 }
 void
