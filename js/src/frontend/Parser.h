@@ -1826,6 +1826,8 @@ functionArguments
 (
 FunctionSyntaxKind
 kind
+FunctionType
+type
 Node
 *
 list
