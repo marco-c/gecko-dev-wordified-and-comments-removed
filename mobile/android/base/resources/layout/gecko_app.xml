@@ -79,7 +79,13 @@ MPL
 -
 >
 <
-RelativeLayout
+org
+.
+mozilla
+.
+gecko
+.
+OuterLayout
 xmlns
 :
 android
@@ -1065,5 +1071,11 @@ Toast
 >
 <
 /
-RelativeLayout
+org
+.
+mozilla
+.
+gecko
+.
+OuterLayout
 >
