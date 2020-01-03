@@ -258,7 +258,7 @@ gecko
 tabs
 .
 TabsPanel
-TabsListContainer
+PanelViewContainer
 "
 android
 :
