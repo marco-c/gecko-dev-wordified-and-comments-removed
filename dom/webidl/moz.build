@@ -2690,11 +2690,6 @@ XPathResult
 webidl
 '
 '
-XSLTProcessor
-.
-webidl
-'
-'
 XULCommandEvent
 .
 webidl

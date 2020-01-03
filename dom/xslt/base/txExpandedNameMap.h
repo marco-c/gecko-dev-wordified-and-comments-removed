@@ -7,13 +7,6 @@ TRANSFRMX_EXPANDEDNAMEMAP_H
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -21,7 +14,7 @@ h
 #
 include
 "
-txExpandedName
+txXMLUtils
 .
 h
 "

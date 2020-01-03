@@ -103,11 +103,6 @@ txDouble
 cpp
 '
 '
-txExpandedName
-.
-cpp
-'
-'
 txExpandedNameMap
 .
 cpp
