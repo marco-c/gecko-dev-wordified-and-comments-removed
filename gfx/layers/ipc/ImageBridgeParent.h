@@ -498,7 +498,7 @@ aReply
 )
 ;
 void
-SendFenceHandleToTrackerIfPresent
+AppendDeliverFenceMessage
 (
 uint64_t
 aDestHolderId
@@ -514,7 +514,7 @@ aCompositableHost
 ;
 static
 void
-SendFenceHandleToTrackerIfPresent
+AppendDeliverFenceMessage
 (
 base
 :
@@ -537,11 +537,11 @@ using
 CompositableParentManager
 :
 :
-SendPendingAsyncMessges
+SendPendingAsyncMessages
 ;
 static
 void
-SendPendingAsyncMessges
+SendPendingAsyncMessages
 (
 base
 :

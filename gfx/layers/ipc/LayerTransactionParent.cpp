@@ -977,14 +977,14 @@ AutoLayerTransactionParentAsyncMessageSender
 mLayerTransaction
 -
 >
-SendPendingAsyncMessges
+SendPendingAsyncMessages
 (
 )
 ;
 ImageBridgeParent
 :
 :
-SendPendingAsyncMessges
+SendPendingAsyncMessages
 (
 mLayerTransaction
 -
@@ -5103,7 +5103,7 @@ GetChildProcessId
 ImageBridgeParent
 :
 :
-SendFenceHandleToTrackerIfPresent
+AppendDeliverFenceMessage
 (
 GetChildProcessId
 (
