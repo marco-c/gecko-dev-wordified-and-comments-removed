@@ -39,10 +39,6 @@ Units
 .
 h
 "
-extern
-nsIntRect
-gScreenBounds
-;
 class
 ANativeWindowBuffer
 ;
@@ -56,6 +52,9 @@ struct
 InputContextAction
 ;
 }
+class
+nsScreenGonk
+;
 class
 nsWindow
 :
@@ -587,6 +586,12 @@ mozilla
 MultiTouchInput
 >
 mSynthesizedTouchInput
+;
+nsRefPtr
+<
+nsScreenGonk
+>
+mScreen
 ;
 }
 ;
