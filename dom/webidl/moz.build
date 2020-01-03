@@ -415,11 +415,6 @@ ChromeNotifications
 webidl
 '
 '
-ChromeUtils
-.
-webidl
-'
-'
 Client
 .
 webidl
@@ -836,11 +831,6 @@ webidl
 '
 '
 Headers
-.
-webidl
-'
-'
-HeapSnapshot
 .
 webidl
 '
