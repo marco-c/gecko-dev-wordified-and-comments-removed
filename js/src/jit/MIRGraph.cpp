@@ -2011,9 +2011,7 @@ MOZ_ASSERT
 entryResumePoint_
 )
 ;
-MResumePoint
-*
-callerResumePoint
+callerResumePoint_
 =
 pred
 ?
@@ -2038,7 +2036,6 @@ this
 pc
 (
 )
-callerResumePoint
 MResumePoint
 :
 :
@@ -2443,6 +2440,15 @@ pred
 nullptr
 )
 ;
+callerResumePoint_
+=
+pred
+-
+>
+callerResumePoint
+(
+)
+;
 if
 (
 !
@@ -2510,9 +2516,6 @@ New
 alloc
 this
 pc
-(
-)
-callerResumePoint
 (
 )
 MResumePoint
