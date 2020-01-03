@@ -245,7 +245,6 @@ history
 const
 {
 invalidResolve
-invalidReject
 createTree
 createBookmark
 compareWithHost

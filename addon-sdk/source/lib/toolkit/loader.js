@@ -4602,6 +4602,15 @@ Addon
 SDK
 "
 }
+prototype
+:
+options
+.
+sandboxPrototype
+|
+|
+{
+}
 }
 )
 ;

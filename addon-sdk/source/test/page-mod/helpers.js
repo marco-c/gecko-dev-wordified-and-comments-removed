@@ -103,6 +103,7 @@ require
 (
 "
 .
+.
 /
 lib
 /
@@ -174,6 +175,7 @@ prefixURI
 require
 (
 '
+.
 .
 /
 fixtures
