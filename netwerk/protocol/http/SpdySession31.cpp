@@ -3579,9 +3579,6 @@ aStatusCode
 4
 )
 ;
-#
-ifdef
-DEBUG
 if
 (
 gHttpHandler
@@ -3601,8 +3598,6 @@ Debug
 )
 ;
 }
-#
-endif
 LogIO
 (
 this
