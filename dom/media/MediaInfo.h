@@ -596,8 +596,10 @@ MONO
 )
 mImage
 (
-nsIntSize
+nsIntRect
 (
+0
+0
 aWidth
 aHeight
 )
@@ -735,7 +737,7 @@ mDisplay
 StereoMode
 mStereoMode
 ;
-nsIntSize
+nsIntRect
 mImage
 ;
 nsRefPtr
