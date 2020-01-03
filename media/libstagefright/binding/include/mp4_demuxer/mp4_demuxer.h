@@ -99,6 +99,15 @@ size
 =
 0
 ;
+virtual
+void
+DiscardBefore
+(
+int64_t
+offset
+)
+{
+}
 protected
 :
 virtual

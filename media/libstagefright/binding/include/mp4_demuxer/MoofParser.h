@@ -438,6 +438,16 @@ Microseconds
 >
 GetCompositionRange
 (
+const
+nsTArray
+<
+mozilla
+:
+:
+MediaByteRange
+>
+&
+aByteRanges
 )
 ;
 bool
