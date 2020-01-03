@@ -383,7 +383,7 @@ accTree
 {
 role
 :
-ROLE_GROUPING
+ROLE_RADIO_GROUP
 children
 :
 [
