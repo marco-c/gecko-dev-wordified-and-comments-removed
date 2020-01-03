@@ -130,6 +130,7 @@ register_idl
 self
 source
 module
+install_target
 allow_existing
 =
 False
@@ -262,6 +263,8 @@ basename
 =
 entry
         
+t
+=
 self
 .
 modules
@@ -274,10 +277,18 @@ entry
 module
 '
 ]
+(
+install_target
 set
 (
 )
 )
+)
+        
+t
+[
+1
+]
 .
 add
 (
@@ -1181,6 +1192,10 @@ source_path
 obj
 .
 module
+                
+obj
+.
+install_target
 )
         
 elif
