@@ -252,7 +252,7 @@ webapprt
 ini
 '
 ]
-MOCHITEST_MANIFESTS
+MOCHITEST_WEBAPPRT_CONTENT_MANIFESTS
 +
 =
 [
@@ -261,7 +261,7 @@ test
 /
 content
 /
-mochitest
+webapprt
 .
 ini
 '

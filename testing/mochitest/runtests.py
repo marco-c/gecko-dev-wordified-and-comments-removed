@@ -3293,6 +3293,25 @@ closeWhenDone
 if
 options
 .
+webapprtContent
+:
+        
+self
+.
+urlOpts
+.
+append
+(
+"
+testRoot
+=
+webapprtContent
+"
+)
+      
+if
+options
+.
 logFile
 :
         
@@ -3964,6 +3983,19 @@ webapprt
 chrome
 "
     
+elif
+options
+.
+webapprtContent
+:
+      
+return
+"
+webapprt
+-
+content
+"
+    
 else
 :
       
@@ -4374,6 +4406,20 @@ testRoot
 =
 '
 webapprtChrome
+'
+      
+elif
+options
+.
+webapprtContent
+:
+        
+self
+.
+testRoot
+=
+'
+webapprtContent
 '
       
 elif
