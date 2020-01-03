@@ -353,6 +353,12 @@ mImageContainer
 ReorderQueue
 mReorderQueue
 ;
+uint32_t
+mPictureWidth
+;
+uint32_t
+mPictureHeight
+;
 private
 :
 VDADecoder
