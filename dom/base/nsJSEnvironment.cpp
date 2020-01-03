@@ -7508,15 +7508,6 @@ existed
 "
 )
 ;
-if
-(
-!
-sIncrementalCC
-)
-{
-return
-;
-}
 CallCreateInstance
 (
 "
