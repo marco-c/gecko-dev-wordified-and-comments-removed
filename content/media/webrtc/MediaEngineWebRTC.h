@@ -918,7 +918,7 @@ aHeight
 )
 ;
 uint32_t
-ConvertPixexFormatToFOURCC
+ConvertPixelFormatToFOURCC
 (
 int
 aFormat
