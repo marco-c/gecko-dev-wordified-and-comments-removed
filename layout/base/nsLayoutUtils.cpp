@@ -5579,6 +5579,13 @@ SchedulePaint
 ;
 }
 }
+aPresShell
+-
+>
+ScheduleImageVisibilityUpdate
+(
+)
+;
 return
 true
 ;
