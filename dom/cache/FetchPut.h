@@ -44,7 +44,7 @@ dom
 /
 cache
 /
-PCacheTypes
+CacheTypes
 .
 h
 "
@@ -183,7 +183,7 @@ aCacheId
 const
 nsTArray
 <
-PCacheRequest
+CacheRequest
 >
 &
 aRequests
@@ -219,8 +219,8 @@ FetchObserver
 struct
 State
 {
-PCacheRequest
-mPCacheRequest
+CacheRequest
+mCacheRequest
 ;
 nsCOMPtr
 <
@@ -234,8 +234,8 @@ FetchObserver
 >
 mFetchObserver
 ;
-PCacheResponse
-mPCacheResponse
+CacheResponse
+mCacheResponse
 ;
 nsCOMPtr
 <
@@ -270,7 +270,7 @@ aCacheId
 const
 nsTArray
 <
-PCacheRequest
+CacheRequest
 >
 &
 aRequests
@@ -332,7 +332,7 @@ bool
 MatchInPutList
 (
 const
-PCacheRequest
+CacheRequest
 &
 aRequest
 const

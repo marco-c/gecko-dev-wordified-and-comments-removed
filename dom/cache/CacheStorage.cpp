@@ -1021,10 +1021,10 @@ return
 nullptr
 ;
 }
-PCacheQueryParams
+CacheQueryParams
 params
 ;
-ToPCacheQueryParams
+ToCacheQueryParams
 (
 params
 aOptions
@@ -1056,7 +1056,7 @@ mArgs
 =
 StorageMatchArgs
 (
-PCacheRequest
+CacheRequest
 (
 )
 params
