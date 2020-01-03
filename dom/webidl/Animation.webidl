@@ -177,6 +177,8 @@ IsWebAnimationsEnabled
 ]
 interface
 Animation
+:
+EventTarget
 {
 /
 /
