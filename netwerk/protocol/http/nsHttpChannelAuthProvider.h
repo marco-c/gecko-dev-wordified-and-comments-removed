@@ -89,6 +89,12 @@ nsHttpChannelAuthProvider
 (
 )
 ;
+static
+void
+InitializePrefs
+(
+)
+;
 private
 :
 virtual
@@ -444,6 +450,11 @@ ProcessSTSHeader
 (
 )
 ;
+bool
+BlockPrompt
+(
+)
+;
 private
 :
 nsIHttpAuthenticableChannel
@@ -531,6 +542,10 @@ nsRefPtr
 nsHttpHandler
 >
 mHttpHandler
+;
+static
+uint32_t
+sAuthAllowPref
 ;
 }
 ;
