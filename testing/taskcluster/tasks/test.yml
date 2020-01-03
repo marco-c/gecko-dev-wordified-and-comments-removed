@@ -261,6 +261,15 @@ mozharness_rev
 }
 }
 '
+MOZILLA_BUILD_URL
+:
+'
+{
+{
+build_url
+}
+}
+'
 #
 All
 builds
