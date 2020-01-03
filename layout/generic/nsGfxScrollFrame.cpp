@@ -22299,7 +22299,7 @@ PresShell
 )
 ;
 int32_t
-pizelSize
+pixelSize
 =
 nsPresContext
 :
@@ -22316,7 +22316,7 @@ newValue
 .
 AppendInt
 (
-pizelSize
+pixelSize
 )
 ;
 if
