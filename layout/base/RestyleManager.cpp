@@ -307,7 +307,7 @@ mPresContext
 (
 aPresContext
 )
-mRebuildAllStyleData
+mDoRebuildAllStyleData
 (
 false
 )
@@ -6725,7 +6725,7 @@ instead
 "
 )
 ;
-mRebuildAllStyleData
+mDoRebuildAllStyleData
 =
 false
 ;
@@ -7077,7 +7077,7 @@ blocker
 ;
 if
 (
-mRebuildAllStyleData
+mDoRebuildAllStyleData
 )
 {
 RebuildAllStyleData
@@ -7279,7 +7279,7 @@ restyles
 ;
 if
 (
-mRebuildAllStyleData
+mDoRebuildAllStyleData
 )
 {
 RebuildAllStyleData
@@ -7668,7 +7668,7 @@ instead
 "
 )
 ;
-mRebuildAllStyleData
+mDoRebuildAllStyleData
 =
 true
 ;

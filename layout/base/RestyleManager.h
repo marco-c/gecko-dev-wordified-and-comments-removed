@@ -1168,7 +1168,7 @@ nsPresContext
 mPresContext
 ;
 bool
-mRebuildAllStyleData
+mDoRebuildAllStyleData
 :
 1
 ;
