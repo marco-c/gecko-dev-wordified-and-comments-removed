@@ -60,6 +60,15 @@ nightly
 -
 debug
 '
+extra
+:
+treeherder
+:
+collection
+:
+debug
+:
+true
 payload
 :
 cache
