@@ -120,6 +120,9 @@ class
 nsUrlClassifierDBServiceWorker
 ;
 class
+nsICryptoHash
+;
+class
 nsIThread
 ;
 class
@@ -315,6 +318,12 @@ static
 nsIThread
 *
 gDbBackgroundThread
+;
+nsCOMPtr
+<
+nsICryptoHash
+>
+mCryptoHashMain
 ;
 }
 ;
