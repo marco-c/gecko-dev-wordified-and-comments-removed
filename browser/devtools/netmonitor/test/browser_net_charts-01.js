@@ -1,16 +1,3 @@
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-TypeError
-:
-aValue
-.
-content
-is
-undefined
-"
-)
-;
 function
 test
 (

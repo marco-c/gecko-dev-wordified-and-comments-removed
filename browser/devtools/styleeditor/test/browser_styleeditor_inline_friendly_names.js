@@ -1,14 +1,3 @@
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-Error
-:
-Unknown
-sheet
-source
-"
-)
-;
 let
 gUI
 ;

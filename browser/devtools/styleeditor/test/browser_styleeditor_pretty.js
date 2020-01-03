@@ -1,14 +1,3 @@
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-Error
-:
-Unknown
-sheet
-source
-"
-)
-;
 const
 TESTCASE_URI
 =

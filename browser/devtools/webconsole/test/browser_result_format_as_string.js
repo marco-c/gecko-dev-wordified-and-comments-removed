@@ -1,13 +1,3 @@
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-(
-"
-Error
-:
-Connection
-closed
-"
-)
-;
 const
 TEST_URI
 =
