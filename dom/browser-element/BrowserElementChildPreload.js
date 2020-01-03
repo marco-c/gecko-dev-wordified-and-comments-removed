@@ -3191,7 +3191,9 @@ return
 }
 if
 (
-isMouseUp
+e
+.
+visible
 &
 &
 !
