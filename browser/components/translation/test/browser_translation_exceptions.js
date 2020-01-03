@@ -350,7 +350,7 @@ push
 (
 perm
 .
-host
+principal
 )
 ;
 }
@@ -1134,7 +1134,13 @@ sites
 [
 0
 ]
+.
+origin
 "
+http
+:
+/
+/
 example
 .
 com
