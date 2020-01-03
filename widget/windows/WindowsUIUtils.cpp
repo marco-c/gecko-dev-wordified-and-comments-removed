@@ -177,8 +177,10 @@ Windows
 Foundation
 ;
 #
-ifndef
-UserInteractionMode
+if
+MOZ_WINSDK_MAXVER
+<
+0x0A000000
 namespace
 ABI
 {
@@ -227,8 +229,10 @@ UIViewSettings
 #
 endif
 #
-ifndef
-IUIViewSettings
+if
+MOZ_WINSDK_MAXVER
+<
+0x0A000000
 namespace
 ABI
 {
