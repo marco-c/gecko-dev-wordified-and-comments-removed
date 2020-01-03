@@ -5518,6 +5518,14 @@ scriptFilename
 )
 const
 ;
+const
+char16_t
+*
+scriptDisplayURL
+(
+)
+const
+;
 unsigned
 computeLine
 (
