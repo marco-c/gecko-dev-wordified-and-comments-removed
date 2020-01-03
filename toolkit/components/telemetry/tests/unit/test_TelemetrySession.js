@@ -7312,7 +7312,7 @@ sessionState
 .
 profileSubsessionCounter
 +
-2
+3
 ;
 const
 expectedUUID
