@@ -2851,6 +2851,12 @@ bool
 outVal
 )
 {
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 *
 outVal
 =
@@ -2871,6 +2877,12 @@ bool
 inVal
 )
 {
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 mDisablePrefetch
 =
 !
