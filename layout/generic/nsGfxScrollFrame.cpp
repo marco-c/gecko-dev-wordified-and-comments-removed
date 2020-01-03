@@ -2537,7 +2537,11 @@ presContext
 *
 aMetrics
 kidReflowState
-0
+wm
+LogicalPoint
+(
+wm
+)
 0
 NS_FRAME_NO_MOVE_FRAME
 status
@@ -2565,7 +2569,11 @@ presContext
 aMetrics
 &
 kidReflowState
-0
+wm
+LogicalPoint
+(
+wm
+)
 0
 NS_FRAME_NO_MOVE_FRAME
 |
