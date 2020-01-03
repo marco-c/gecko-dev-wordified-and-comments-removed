@@ -67442,7 +67442,6 @@ let
 readPhonebook
 =
 function
-readPhonebook
 (
 contacts
 )
