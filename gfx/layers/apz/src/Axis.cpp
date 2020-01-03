@@ -1098,7 +1098,7 @@ result
 .
 value
 *
-mOverscrollOffset
+mFirstOverscrollAnimationSample
 .
 value
 )
