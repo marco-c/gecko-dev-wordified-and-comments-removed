@@ -16932,6 +16932,12 @@ new
 ServiceWorkerClientInfo
 (
 aDoc
+aDoc
+-
+>
+GetWindow
+(
+)
 )
 ;
 }
@@ -18542,6 +18548,12 @@ ServiceWorkerClientInfo
 clientInfo
 (
 document
+document
+-
+>
+GetWindow
+(
+)
 )
 ;
 data
