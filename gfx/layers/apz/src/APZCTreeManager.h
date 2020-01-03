@@ -310,6 +310,17 @@ aPreventDefault
 )
 ;
 void
+SetTargetAPZC
+(
+uint64_t
+aInputBlockId
+const
+ScrollableLayerGuid
+&
+aGuid
+)
+;
+void
 UpdateZoomConstraints
 (
 const
