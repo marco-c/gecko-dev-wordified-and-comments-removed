@@ -439,7 +439,7 @@ nsPNGDecoder
 nsPNGDecoder
 (
 RasterImage
-*
+&
 aImage
 )
 :

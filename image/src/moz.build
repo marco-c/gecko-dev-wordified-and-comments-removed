@@ -228,11 +228,6 @@ ShutdownTracker
 cpp
 '
 '
-SourceBuffer
-.
-cpp
-'
-'
 SurfaceCache
 .
 cpp

@@ -328,7 +328,7 @@ nsJPEGDecoder
 nsJPEGDecoder
 (
 RasterImage
-*
+&
 aImage
 Decoder
 :
@@ -959,8 +959,7 @@ int
 sampleSize
 =
 mImage
--
->
+.
 GetRequestedSampleSize
 (
 )
