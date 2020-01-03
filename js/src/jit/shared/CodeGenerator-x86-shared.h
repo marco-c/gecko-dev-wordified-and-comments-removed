@@ -1396,6 +1396,14 @@ lir
 )
 ;
 bool
+visitSimdShift
+(
+LSimdShift
+*
+lir
+)
+;
+bool
 visitSimdSelect
 (
 LSimdSelect

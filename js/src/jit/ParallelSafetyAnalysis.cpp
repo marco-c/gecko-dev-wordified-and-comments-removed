@@ -621,6 +621,10 @@ SimdBinaryBitwise
 )
 SAFE_OP
 (
+SimdShift
+)
+SAFE_OP
+(
 SimdTernaryBitwise
 )
 UNSAFE_OP

@@ -79,6 +79,11 @@ SimdBinaryBitwise
 \
 _
 (
+SimdShift
+)
+\
+_
+(
 SimdTernaryBitwise
 )
 \
