@@ -1653,6 +1653,13 @@ java
 '
 firstrun
 /
+RestrictedWelcomePanel
+.
+java
+'
+'
+firstrun
+/
 WelcomePanel
 .
 java
