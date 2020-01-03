@@ -139,6 +139,13 @@ prerror
 .
 h
 "
+#
+include
+"
+secmod
+.
+h
+"
 namespace
 mozilla
 {
@@ -999,6 +1006,12 @@ internal
 :
 :
 SECOID_DestroyAlgorithmID_true
+)
+MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
+(
+ScopedSECMODModule
+SECMODModule
+SECMOD_DestroyModule
 )
 }
 #
