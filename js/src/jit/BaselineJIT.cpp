@@ -1131,7 +1131,7 @@ script
 )
 ;
 }
-TraceLogger
+TraceLoggerThread
 *
 logger
 =

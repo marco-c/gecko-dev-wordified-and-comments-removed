@@ -1122,7 +1122,7 @@ source_
 js
 :
 :
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
@@ -2479,7 +2479,7 @@ false
 js
 :
 :
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
@@ -2861,7 +2861,7 @@ generatorKind
 js
 :
 :
-TraceLogger
+TraceLoggerThread
 *
 logger
 =

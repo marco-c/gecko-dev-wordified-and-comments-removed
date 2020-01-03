@@ -2707,7 +2707,7 @@ backgroundCodegen
 js
 :
 :
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
@@ -6682,7 +6682,7 @@ graph
 (
 )
 ;
-TraceLogger
+TraceLoggerThread
 *
 logger
 ;
@@ -8262,7 +8262,7 @@ graph
 (
 )
 ;
-TraceLogger
+TraceLoggerThread
 *
 logger
 ;
@@ -8685,7 +8685,7 @@ LIRGraph
 lir
 )
 {
-TraceLogger
+TraceLoggerThread
 *
 logger
 ;
@@ -8880,7 +8880,7 @@ ionFinishedList
 (
 )
 ;
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
@@ -9545,7 +9545,7 @@ OptimizationLevel
 optimizationLevel
 )
 {
-TraceLogger
+TraceLoggerThread
 *
 logger
 =

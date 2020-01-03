@@ -2191,6 +2191,13 @@ TraceLogging
 .
 cpp
 '
+'
+vm
+/
+TraceLoggingGraph
+.
+cpp
+'
 ]
 if
 not

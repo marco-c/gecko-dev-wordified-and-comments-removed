@@ -7247,7 +7247,7 @@ Address
 enabledAddress
 (
 logger
-TraceLogger
+TraceLoggerThread
 :
 :
 offsetOfEnabled
@@ -7436,7 +7436,7 @@ Address
 enabledAddress
 (
 logger
-TraceLogger
+TraceLoggerThread
 :
 :
 offsetOfEnabled
