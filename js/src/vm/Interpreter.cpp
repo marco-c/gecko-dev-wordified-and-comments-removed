@@ -9042,10 +9042,6 @@ logger
 TraceLogStopEvent
 (
 logger
-TraceLogger
-:
-:
-Scripts
 )
 ;
 interpReturnOK

@@ -3883,10 +3883,6 @@ IonMonkey
 TraceLogStopEvent
 (
 logger
-TraceLogger
-:
-:
-Scripts
 )
 ;
 break
@@ -3989,10 +3985,6 @@ Baseline
 TraceLogStopEvent
 (
 logger
-TraceLogger
-:
-:
-Scripts
 )
 ;
 JSScript

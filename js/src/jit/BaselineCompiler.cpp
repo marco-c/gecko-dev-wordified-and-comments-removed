@@ -2268,10 +2268,6 @@ masm
 tracelogStop
 (
 loggerReg
-TraceLogger
-:
-:
-Scripts
 )
 ;
 masm
