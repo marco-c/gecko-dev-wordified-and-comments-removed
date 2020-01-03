@@ -179,6 +179,13 @@ DOMSVGLength
 h
 "
 #
+include
+"
+nsDocument
+.
+h
+"
+#
 undef
 GetCurrentTime
 namespace
