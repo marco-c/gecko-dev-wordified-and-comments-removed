@@ -810,6 +810,14 @@ state
 -
 changed
 "
+#
+define
+NS_VOLUME_REMOVED
+"
+volume
+-
+removed
+"
 namespace
 mozilla
 {

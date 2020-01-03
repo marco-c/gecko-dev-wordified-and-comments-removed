@@ -174,6 +174,15 @@ VolumeInfo
 aResult
 )
 ;
+void
+RemoveVolumeByName
+(
+const
+nsAString
+&
+aName
+)
+;
 private
 :
 ~

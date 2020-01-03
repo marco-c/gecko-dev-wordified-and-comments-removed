@@ -3351,6 +3351,17 @@ override
 ;
 virtual
 bool
+RecvRemoveFakeVolume
+(
+const
+nsString
+&
+fsName
+)
+override
+;
+virtual
+bool
 RecvKeywordToURI
 (
 const
