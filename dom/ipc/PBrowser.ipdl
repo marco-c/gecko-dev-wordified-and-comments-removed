@@ -3020,12 +3020,6 @@ WidgetCompositionEvent
 event
 )
 ;
-TextEvent
-(
-WidgetCompositionEvent
-event
-)
-;
 SelectionEvent
 (
 WidgetSelectionEvent
