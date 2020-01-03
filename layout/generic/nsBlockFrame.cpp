@@ -7692,7 +7692,7 @@ autoBSize
 =
 aReflowState
 .
-ApplyMinMaxHeight
+ApplyMinMaxBSize
 (
 contentBSize
 )
