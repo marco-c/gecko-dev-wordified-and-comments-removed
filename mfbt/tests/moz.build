@@ -157,6 +157,9 @@ TestRefPtr
 TestRollingMean
 '
 '
+TestSegmentedVector
+'
+'
 TestSHA1
 '
 '

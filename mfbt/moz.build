@@ -385,6 +385,11 @@ Scoped
 h
 '
 '
+SegmentedVector
+.
+h
+'
+'
 SHA1
 .
 h
