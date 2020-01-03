@@ -35,6 +35,13 @@ nsIObserver
 h
 "
 #
+include
+"
+nsIDOMGeoPosition
+.
+h
+"
+#
 ifdef
 MOZ_B2G_RIL
 #
@@ -431,9 +438,6 @@ nsIGeolocationUpdate
 >
 mLocationCallback
 ;
-PRTime
-mLastGPSDerivedLocationTime
-;
 nsCOMPtr
 <
 nsIThread
@@ -445,6 +449,12 @@ nsCOMPtr
 nsIGeolocationProvider
 >
 mNetworkLocationProvider
+;
+nsCOMPtr
+<
+nsIDOMGeoPosition
+>
+mLastGPSPosition
 ;
 class
 NetworkLocationUpdate
