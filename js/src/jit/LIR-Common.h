@@ -6746,7 +6746,7 @@ getTemp
 const
 LDefinition
 *
-getTempCopy
+getTempStackCounter
 (
 )
 {
