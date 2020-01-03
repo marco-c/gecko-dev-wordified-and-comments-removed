@@ -204,6 +204,13 @@ nsIIccService
 h
 "
 #
+include
+"
+nsIDataCallManager
+.
+h
+"
+#
 endif
 #
 ifdef
