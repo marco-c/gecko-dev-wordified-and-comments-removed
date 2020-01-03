@@ -65,6 +65,7 @@ VRHMDType
 uint16_t
 {
 Oculus
+Cardboard
 NumHMDTypes
 }
 ;
@@ -987,6 +988,13 @@ aHMDResult
 ;
 protected
 :
+VRHMDManager
+(
+)
+{
+}
+virtual
+~
 VRHMDManager
 (
 )

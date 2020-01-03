@@ -1953,7 +1953,7 @@ eyeToSourceScaleAndOffset
 =
 scaleOut
 [
-0
+1
 ]
 .
 x
@@ -1967,7 +1967,7 @@ eyeToSourceScaleAndOffset
 =
 scaleOut
 [
-0
+1
 ]
 .
 y
@@ -1981,7 +1981,7 @@ eyeToSourceScaleAndOffset
 =
 scaleOut
 [
-1
+0
 ]
 .
 x
@@ -1995,7 +1995,7 @@ eyeToSourceScaleAndOffset
 =
 scaleOut
 [
-1
+0
 ]
 .
 y
