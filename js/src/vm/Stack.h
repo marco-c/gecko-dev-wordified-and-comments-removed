@@ -1076,6 +1076,8 @@ public
 :
 enum
 Flags
+:
+uint32_t
 {
 GLOBAL
 =
