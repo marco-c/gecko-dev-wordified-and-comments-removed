@@ -2243,7 +2243,7 @@ R
 .
 layout
 .
-new_tablet_tabs_item_cell
+tablet_tabs_item_cell
 )
 ;
 mCloseClickListener
