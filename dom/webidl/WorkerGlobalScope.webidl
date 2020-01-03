@@ -259,6 +259,10 @@ WorkerGlobalScope
 implements
 WindowBase64
 ;
+WorkerGlobalScope
+implements
+GlobalFetch
+;
 /
 /
 Not
