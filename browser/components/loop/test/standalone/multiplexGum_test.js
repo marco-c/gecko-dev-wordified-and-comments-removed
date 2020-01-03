@@ -1239,7 +1239,6 @@ fires
 "
 function
 (
-done
 )
 {
 var
@@ -1397,16 +1396,13 @@ reject
 (
 )
 ;
-done
-(
-)
-;
 }
 )
 ;
 }
 )
 ;
+return
 promiseCalledOnce
 .
 then
@@ -1473,10 +1469,6 @@ equal
 0
 )
 ;
-done
-(
-)
-;
 }
 )
 ;
@@ -1508,7 +1500,6 @@ fires
 "
 function
 (
-done
 )
 {
 var
@@ -1582,10 +1573,6 @@ fired
 )
 ;
 reject
-(
-)
-;
-done
 (
 )
 ;
@@ -1663,6 +1650,7 @@ resolve
 }
 )
 ;
+return
 promiseCalledOnce
 .
 then
@@ -1714,10 +1702,6 @@ property
 pending
 '
 false
-)
-;
-done
-(
 )
 ;
 }
