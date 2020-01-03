@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 test
 (
@@ -32,6 +37,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -184,9 +192,6 @@ click
 )
 )
 ;
-let
-packet
-=
 yield
 fetchedScopes
 ;
@@ -345,8 +350,6 @@ null
 )
 ;
 }
-else
-{
 return
 waitForThreadEvents
 (
@@ -354,7 +357,6 @@ aPanel
 aState
 )
 ;
-}
 }
 function
 waitForThreadEvents
@@ -428,11 +430,11 @@ aEventName
 function
 onEvent
 (
-aEventName
+eventName
 .
 .
 .
-aArgs
+args
 )
 {
 info
@@ -443,7 +445,7 @@ event
 '
 "
 +
-aEventName
+eventName
 +
 "
 '
@@ -482,7 +484,7 @@ Enough
 '
 "
 +
-aEventName
+eventName
 +
 "
 '
@@ -499,7 +501,7 @@ thread
 .
 removeListener
 (
-aEventName
+eventName
 onEvent
 )
 ;
@@ -510,7 +512,7 @@ resolve
 apply
 (
 deferred
-aArgs
+args
 )
 ;
 }

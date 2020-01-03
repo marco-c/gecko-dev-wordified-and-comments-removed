@@ -718,10 +718,10 @@ jsterm
 .
 history
 )
-'
+"
 [
 ]
-'
+"
 "
 Clearing
 history
@@ -758,10 +758,10 @@ jsterm
 .
 history
 )
-'
+"
 [
 ]
-'
+"
 "
 Clearing
 history

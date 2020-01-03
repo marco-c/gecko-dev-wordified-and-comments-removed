@@ -23,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -88,7 +91,6 @@ debugger
 ;
 let
 {
-panel
 panelWin
 }
 =
@@ -107,7 +109,6 @@ panelWin
 let
 {
 activeThread
-StackFrames
 }
 =
 DebuggerController
@@ -282,7 +283,6 @@ Checking
 the
 first
 command
-(
 which
 is
 the
@@ -291,6 +291,9 @@ to
 resolve
 since
 it
+"
++
+"
 paused
 "
 )

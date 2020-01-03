@@ -21,6 +21,9 @@ browser
 /
 devtools
 /
+"
++
+"
 webconsole
 /
 test
@@ -73,6 +76,9 @@ Web
 Console
 basic
 network
+"
++
+"
 logging
 test
 "

@@ -18,6 +18,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -77,6 +80,7 @@ hud
 ;
 }
 )
+;
 }
 )
 ;
@@ -302,13 +306,6 @@ index
 [
 1
 ]
-;
-let
-valueEl
-=
-prop
-.
-_valueLabel
 ;
 gToolbox
 .

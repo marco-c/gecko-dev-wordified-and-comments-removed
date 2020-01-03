@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -18,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -571,6 +579,7 @@ executeSoon
 )
 =
 >
+{
 gJSTerm
 .
 execute
@@ -586,6 +595,8 @@ then
 (
 onExecuteFooObjTestProp2
 )
+;
+}
 )
 ;
 }

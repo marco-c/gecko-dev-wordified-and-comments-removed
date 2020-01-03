@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -146,6 +151,7 @@ Object
 ]
 }
 )
+;
 content
 .
 console

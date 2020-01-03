@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 PREF
 =
@@ -29,6 +34,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test

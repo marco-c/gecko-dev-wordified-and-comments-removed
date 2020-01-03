@@ -23,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -65,7 +68,7 @@ TEST_TIMESTAMP
 let
 localizedString
 =
-WCU_l10n
+WCUL10n
 .
 timestampString
 (

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -17,6 +22,9 @@ bug
 787981
 -
 check
+"
++
+"
 that
 long
 strings
@@ -439,6 +447,7 @@ false
 ]
 }
 )
+;
 }
 )
 ;

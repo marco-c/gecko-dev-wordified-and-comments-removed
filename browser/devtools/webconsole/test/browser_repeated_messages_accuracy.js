@@ -23,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -364,6 +367,7 @@ repeats
 ]
 }
 )
+;
 }
 function
 testConsoleRepeats

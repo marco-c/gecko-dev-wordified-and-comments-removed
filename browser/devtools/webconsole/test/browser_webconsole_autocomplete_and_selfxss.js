@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -263,6 +268,7 @@ paste
 tests
 "
 )
+;
 WebConsoleUtils
 .
 usageCount
@@ -283,6 +289,7 @@ count
 getter
 "
 )
+;
 for
 (
 let
@@ -326,6 +333,7 @@ count
 incremented
 "
 )
+;
 WebConsoleUtils
 .
 usageCount
@@ -377,11 +385,11 @@ notificationbox
 .
 getNotificationWithValue
 (
-'
+"
 selfxss
 -
 notification
-'
+"
 )
 ;
 ok
@@ -426,7 +434,7 @@ allow
 pasting
 "
 ;
-var
+let
 evt
 =
 document
