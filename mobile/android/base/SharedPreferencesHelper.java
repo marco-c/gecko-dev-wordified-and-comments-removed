@@ -793,7 +793,7 @@ name
 }
 editor
 .
-commit
+apply
 (
 )
 ;
