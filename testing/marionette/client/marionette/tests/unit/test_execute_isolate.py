@@ -4,17 +4,11 @@ import
 MarionetteTestCase
 skip_if_b2g
 from
-marionette_driver
-.
 errors
 import
-(
 JavascriptException
-                                      
 MarionetteException
-                                      
 ScriptTimeoutException
-)
 class
 TestExecuteIsolationContent
 (

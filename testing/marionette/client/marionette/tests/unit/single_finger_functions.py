@@ -1,12 +1,8 @@
 from
-marionette_driver
-.
 marionette
 import
 Actions
 from
-marionette_driver
-.
 errors
 import
 TimeoutException
