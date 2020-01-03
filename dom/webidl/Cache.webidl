@@ -173,7 +173,7 @@ interface
 Cache
 {
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -189,7 +189,7 @@ options
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -209,7 +209,7 @@ options
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -222,7 +222,7 @@ request
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -238,7 +238,7 @@ requests
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -253,7 +253,7 @@ response
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -269,7 +269,7 @@ options
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <

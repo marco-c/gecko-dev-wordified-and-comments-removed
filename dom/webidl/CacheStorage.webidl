@@ -175,7 +175,7 @@ interface
 CacheStorage
 {
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -191,7 +191,7 @@ options
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -204,7 +204,7 @@ cacheName
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -217,7 +217,7 @@ cacheName
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -230,7 +230,7 @@ cacheName
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
