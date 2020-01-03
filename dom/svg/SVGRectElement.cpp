@@ -541,7 +541,12 @@ SetEmpty
 *
 aBounds
 =
+aTransform
+.
+TransformBounds
+(
 rect
+)
 ;
 return
 true
