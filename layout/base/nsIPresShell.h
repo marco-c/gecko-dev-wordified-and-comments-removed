@@ -2714,7 +2714,7 @@ aPointerId
 )
 ;
 static
-void
+bool
 CheckPointerCaptureState
 (
 uint32_t
