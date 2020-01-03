@@ -4416,6 +4416,7 @@ ControlMessage
 {
 public
 :
+explicit
 Message
 (
 PipelineListener
