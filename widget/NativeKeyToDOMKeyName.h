@@ -4622,6 +4622,11 @@ Qt
 :
 Key_Zoom
 )
+KEY_MAP_ANDROID
+(
+HomeScreen
+AKEYCODE_HOME
+)
 #
 undef
 KEY_MAP_WIN

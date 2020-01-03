@@ -35,6 +35,13 @@ PrintableKey
 MozPrintableKey
 "
 )
+DEFINE_KEYNAME_INTERNAL
+(
+HomeScreen
+"
+MozHomeScreen
+"
+)
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
 Alt
