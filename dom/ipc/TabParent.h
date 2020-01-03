@@ -1678,7 +1678,7 @@ return
 mTabId
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 GetChildProcessOffset
 (
 )
