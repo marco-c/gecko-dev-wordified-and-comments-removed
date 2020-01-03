@@ -511,11 +511,6 @@ PassPointerEventsToChildren
 (
 )
 ;
-nsIntPoint
-GetChromeDisplacement
-(
-)
-;
 protected
 :
 friend
