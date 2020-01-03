@@ -490,6 +490,16 @@ GeneratePing
 (
 )
 ;
+nsresult
+OnNetworkChanged
+(
+)
+;
+nsresult
+StartPinging
+(
+)
+;
 void
 BeginOpen
 (
