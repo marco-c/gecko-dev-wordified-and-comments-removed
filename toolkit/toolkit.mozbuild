@@ -1244,6 +1244,13 @@ testing
 /
 modules
 '
+'
+testing
+/
+web
+-
+platform
+'
 ]
 )
 if
