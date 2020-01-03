@@ -9765,6 +9765,9 @@ function
 DebuggerController
 .
 _target
+configurable
+:
+true
 }
 "
 gHostType
@@ -9779,6 +9782,9 @@ function
 DebuggerView
 .
 _hostType
+configurable
+:
+true
 }
 "
 gClient
@@ -9793,6 +9799,9 @@ function
 DebuggerController
 .
 client
+configurable
+:
+true
 }
 "
 gThreadClient
@@ -9807,6 +9816,9 @@ function
 DebuggerController
 .
 activeThread
+configurable
+:
+true
 }
 "
 gCallStackPageSize
@@ -9819,6 +9831,9 @@ function
 (
 )
 CALL_STACK_PAGE_SIZE
+configurable
+:
+true
 }
 }
 )

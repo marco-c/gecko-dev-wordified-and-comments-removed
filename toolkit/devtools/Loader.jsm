@@ -2531,6 +2531,9 @@ module
 |
 property
 )
+configurable
+:
+true
 }
 )
 ;
