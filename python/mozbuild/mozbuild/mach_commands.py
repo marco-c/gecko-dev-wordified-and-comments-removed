@@ -7052,40 +7052,26 @@ CommandArgument
 '
 -
 -
-max
+show
 -
-records
+dump
+-
+stats
 '
-default
+action
 =
-None
-type
-=
-str
+'
+store_true
+'
         
 help
 =
 '
-Number
-of
-stack
-trace
-records
-to
-print
-of
-each
-kind
-[
-1
-.
-.
-1000000
-]
-.
-Default
-is
-1000
+Show
+stats
+when
+doing
+dumps
 .
 '
 )
@@ -7099,7 +7085,7 @@ remote
 background
 sample_below
 max_frames
-max_records
+show_dump_stats
 )
 :
         
@@ -7256,7 +7242,7 @@ max_frames
 )
         
 if
-max_records
+show_dump_stats
 :
             
 dmd_params
@@ -7266,13 +7252,14 @@ append
 '
 -
 -
-max
+show
 -
-records
+dump
+-
+stats
 =
+yes
 '
-+
-max_records
 )
         
 if
