@@ -3264,6 +3264,11 @@ return
 0
 ;
 }
+#
+if
+_MSC_VER
+<
+1900
 int
 snprintf
 (
@@ -3319,5 +3324,7 @@ return
 ret
 ;
 }
+#
+endif
 #
 endif
