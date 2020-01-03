@@ -503,6 +503,17 @@ inplen
 UINT32_MAX
 )
 ;
+#
+ifdef
+MOZ_MSAN
+__msan_unpoison
+(
+out
+outlen
+)
+;
+#
+endif
 z_stream
 zs
 ;
