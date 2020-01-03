@@ -1609,6 +1609,10 @@ gServiceInterrupt
 return
 true
 ;
+gServiceInterrupt
+=
+false
+;
 bool
 result
 ;
@@ -1731,10 +1735,6 @@ gExitCode
 gExitCode
 =
 EXITCODE_TIMEOUT
-;
-gServiceInterrupt
-=
-false
 ;
 return
 result
