@@ -324,6 +324,11 @@ CASE_RETURN
 TYPE_FETCH
 )
 ;
+CASE_RETURN
+(
+TYPE_IMAGESET
+)
+;
 default
 :
 return

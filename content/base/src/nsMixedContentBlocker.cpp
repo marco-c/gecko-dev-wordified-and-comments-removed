@@ -1209,6 +1209,9 @@ eMixedDisplay
 break
 ;
 case
+TYPE_IMAGESET
+:
+case
 TYPE_CSP_REPORT
 :
 case
