@@ -1867,6 +1867,12 @@ mReady
 =
 nullptr
 ;
+mStartTime
+.
+SetNull
+(
+)
+;
 mIsPending
 =
 true
