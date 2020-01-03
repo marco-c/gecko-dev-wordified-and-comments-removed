@@ -1623,10 +1623,12 @@ nsStreamCopierIB
 {
 }
 struct
+MOZ_STACK_CLASS
 ReadSegmentsState
 {
 nsIOutputStream
 *
+MOZ_NON_OWNING_REF
 mSink
 ;
 nsresult
@@ -1808,10 +1810,12 @@ nsStreamCopierOB
 {
 }
 struct
+MOZ_STACK_CLASS
 WriteSegmentsState
 {
 nsIInputStream
 *
+MOZ_NON_OWNING_REF
 mSource
 ;
 nsresult
