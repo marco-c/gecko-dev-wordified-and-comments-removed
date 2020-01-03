@@ -573,7 +573,12 @@ __func__
 MSE_DEBUGV
 (
 "
+mLastAudioTime
+=
+%
+lld
 "
+mLastAudioTime
 )
 ;
 if
@@ -1338,9 +1343,14 @@ d
 %
 lld
 )
+mLastVideoTime
+=
+%
+lld
 "
 aSkipToNextKeyframe
 aTimeThreshold
+mLastVideoTime
 )
 ;
 if
