@@ -7345,6 +7345,22 @@ appendChild
 testsuite
 )
         
+reload
+(
+sys
+)
+        
+sys
+.
+setdefaultencoding
+(
+'
+utf
+-
+8
+'
+)
+        
 return
 doc
 .
