@@ -70,6 +70,15 @@ service
 1
 "
 ;
+platform
+=
+{
+value
+:
+"
+"
+}
+;
 var
 gVersion
 ;
