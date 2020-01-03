@@ -573,13 +573,7 @@ NotSpiderMonkeyObjfileError
         
 self
 .
-mod_GCCellPtr
-=
-None
-        
-self
-.
-mod_Interpreter
+mod_JSString
 =
 None
         
@@ -591,13 +585,13 @@ None
         
 self
 .
-mod_JSString
+mod_jsval
 =
 None
         
 self
 .
-mod_jsval
+mod_Interpreter
 =
 None
 def
