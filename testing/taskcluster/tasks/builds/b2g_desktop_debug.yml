@@ -11,6 +11,13 @@ b2g_desktop_base
 .
 yml
 '
+variables
+:
+build_type
+:
+'
+debug
+'
 task
 :
 payload
