@@ -2152,7 +2152,10 @@ subsession
 ?
 Telemetry
 .
-subsessionHistogramSnapshots
+snapshotSubsessionHistograms
+(
+false
+)
 :
 Telemetry
 .
