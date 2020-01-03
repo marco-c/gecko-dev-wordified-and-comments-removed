@@ -77,3 +77,4 @@ mozprofile
 mozprocess
 mozrunner
 mozcrash
+mozdebug
