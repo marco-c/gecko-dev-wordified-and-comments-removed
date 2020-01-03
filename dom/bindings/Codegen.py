@@ -41031,7 +41031,7 @@ Returns
 a
 tuple
 containing
-four
+five
 things
 :
     
@@ -41163,6 +41163,37 @@ no
 arguments
 .
     
+5
+)
+The
+name
+of
+a
+function
+that
+needs
+to
+be
+called
+with
+the
+return
+value
+       
+before
+using
+it
+or
+None
+if
+no
+function
+needs
+to
+be
+called
+.
+    
 "
 "
 "
@@ -41180,6 +41211,7 @@ isVoid
 :
         
 return
+None
 None
 None
 None
@@ -41238,6 +41270,7 @@ result
 None
 None
 None
+None
     
 if
 returnType
@@ -41269,6 +41302,7 @@ ref
 "
 None
 None
+None
         
 return
 CGGeneric
@@ -41280,6 +41314,7 @@ DOMString
 "
 ref
 "
+None
 None
 None
     
@@ -41301,6 +41336,7 @@ nsCString
 "
 ref
 "
+None
 None
 None
     
@@ -41352,6 +41388,7 @@ result
 None
 None
 None
+None
     
 if
 returnType
@@ -41385,6 +41422,10 @@ name
 .
 nativeType
 )
+        
+conversion
+=
+None
         
 if
 descriptorProvider
@@ -41424,7 +41465,7 @@ result
 )
         
 elif
-resultAlreadyAddRefed
+isMember
 :
             
 result
@@ -41440,15 +41481,31 @@ result
 else
 :
             
-result
+conversion
 =
-CGWrapper
+CGGeneric
 (
-result
-post
-=
 "
-*
+StrongOrRawPtr
+<
+%
+s
+>
+"
+%
+result
+.
+define
+(
+)
+)
+            
+result
+=
+CGGeneric
+(
+"
+auto
 "
 )
         
@@ -41457,6 +41514,7 @@ result
 None
 None
 None
+conversion
     
 if
 returnType
@@ -41494,6 +41552,7 @@ name
 None
 None
 None
+None
     
 if
 returnType
@@ -41517,6 +41576,7 @@ JS
 Value
 "
 )
+None
 None
 None
 None
@@ -41544,6 +41604,7 @@ None
 "
 cx
 "
+None
     
 if
 returnType
@@ -41574,6 +41635,7 @@ JSObject
 None
 None
 None
+None
         
 return
 CGGeneric
@@ -41596,6 +41658,7 @@ None
 "
 cx
 "
+None
     
 if
 returnType
@@ -41627,17 +41690,18 @@ result
 _
 _
 _
+_
 =
 getRetvalDeclarationForType
 (
 returnType
 .
 inner
-                                                      
+                                                         
 descriptorProvider
-                                                      
+                                                         
 resultAlreadyAddRefed
-                                                      
+                                                         
 isMember
 =
 "
@@ -41722,6 +41786,7 @@ ref
 "
 rooter
 None
+None
     
 if
 returnType
@@ -41753,17 +41818,18 @@ result
 _
 _
 _
+_
 =
 getRetvalDeclarationForType
 (
 returnType
 .
 inner
-                                                      
+                                                         
 descriptorProvider
-                                                      
+                                                         
 resultAlreadyAddRefed
-                                                      
+                                                         
 isMember
 =
 "
@@ -41847,6 +41913,7 @@ result
 ref
 "
 rooter
+None
 None
     
 if
@@ -41958,6 +42025,7 @@ ref
 "
 None
 resultArgs
+None
     
 if
 returnType
@@ -42063,6 +42131,7 @@ ref
 "
 None
 resultArgs
+None
     
 if
 returnType
@@ -42101,6 +42170,7 @@ result
         
 return
 result
+None
 None
 None
 None
@@ -42464,6 +42534,7 @@ result
 resultOutParam
 resultRooter
 resultArgs
+resultConversion
 =
 \
             
@@ -42878,9 +42949,36 @@ post
 =
 "
 )
-;
-\
-n
+"
+)
+]
+)
+        
+if
+resultConversion
+is
+not
+None
+:
+            
+call
+=
+CGList
+(
+[
+resultConversion
+CGWrapper
+(
+call
+pre
+=
+"
+(
+"
+post
+=
+"
+)
 "
 )
 ]
@@ -42934,7 +43032,7 @@ not
 None
 :
                 
-resultArgs
+resultArgsStr
 =
 "
 (
@@ -42948,7 +43046,7 @@ resultArgs
 else
 :
                 
-resultArgs
+resultArgsStr
 =
 "
 "
@@ -42966,32 +43064,76 @@ post
 s
 %
 s
-;
-\
-n
 "
 %
 (
 resultVar
-resultArgs
+resultArgsStr
 )
 )
 )
             
+if
+resultOutParam
+is
+None
+and
+resultArgs
+is
+None
+:
+                
+call
+=
+CGList
+(
+[
+result
+CGWrapper
+(
+call
+pre
+=
+"
+(
+"
+post
+=
+"
+)
+"
+)
+]
+)
+            
+else
+:
+                
 self
 .
 cgRoot
 .
 prepend
 (
+CGWrapper
+(
 result
+post
+=
+"
+;
+\
+n
+"
 )
-            
-if
-not
-resultOutParam
-:
+)
                 
+if
+resultOutParam
+is
+None
+:
+                    
 call
 =
 CGWrapper
@@ -43011,6 +43153,13 @@ call
 CGWrapper
 (
 call
+post
+=
+"
+;
+\
+n
+"
 )
         
 self
@@ -53388,15 +53537,16 @@ _
 resultOutParam
 _
 _
+_
 =
 getRetvalDeclarationForType
 (
 attr
 .
 type
-                                                              
+                                                                 
 descriptor
-                                                              
+                                                                 
 False
 )
         
