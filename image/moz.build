@@ -375,11 +375,6 @@ ImageFactory
 cpp
 '
 '
-ImageMetadata
-.
-cpp
-'
-'
 ImageOps
 .
 cpp
