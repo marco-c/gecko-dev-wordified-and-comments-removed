@@ -555,6 +555,14 @@ MP4Sample
 (
 )
 ;
+MP4Sample
+(
+const
+MP4Sample
+&
+copy
+)
+;
 ~
 MP4Sample
 (
