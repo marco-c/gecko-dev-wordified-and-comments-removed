@@ -724,12 +724,7 @@ operators
 \
 F
 (
-TYPEOFNAME
-)
-\
-F
-(
-TYPEOFEXPR
+TYPEOF
 )
 \
 F

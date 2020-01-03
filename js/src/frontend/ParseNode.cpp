@@ -710,10 +710,7 @@ PushResult
 Recyclable
 ;
 case
-PNK_TYPEOFNAME
-:
-case
-PNK_TYPEOFEXPR
+PNK_TYPEOF
 :
 case
 PNK_VOID

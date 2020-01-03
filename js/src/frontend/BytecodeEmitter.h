@@ -2246,16 +2246,6 @@ pn
 )
 ;
 bool
-emitTypeof
-(
-ParseNode
-*
-node
-JSOp
-op
-)
-;
-bool
 emitLogical
 (
 ParseNode
