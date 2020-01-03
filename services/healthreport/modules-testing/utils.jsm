@@ -743,7 +743,6 @@ function
 (
 branch
 policy
-recorder
 stateLeaf
 )
 {
@@ -754,7 +753,6 @@ call
 this
 branch
 policy
-recorder
 stateLeaf
 )
 ;
@@ -1214,7 +1212,6 @@ healthreport
 .
 "
 policy
-null
 "
 state
 -
