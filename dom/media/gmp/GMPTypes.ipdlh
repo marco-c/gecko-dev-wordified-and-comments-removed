@@ -148,6 +148,11 @@ uint32_t
 ]
 mCipherBytes
 ;
+nsCString
+[
+]
+mSessionIds
+;
 }
 ;
 struct
