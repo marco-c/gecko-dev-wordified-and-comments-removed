@@ -472,6 +472,14 @@ aSize
 )
 ;
 static
+bool
+CanHold
+(
+size_t
+aSize
+)
+;
+static
 void
 LockImage
 (
