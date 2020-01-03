@@ -918,6 +918,10 @@ allocations
 :
 [
 ]
+allocationsTimestamps
+:
+[
+]
 }
 ;
 for
@@ -927,6 +931,7 @@ let
 frame
 :
 stack
+timestamp
 }
 of
 allocations
@@ -993,6 +998,15 @@ get
 (
 waived
 )
+)
+;
+packet
+.
+allocationsTimestamps
+.
+push
+(
+timestamp
 )
 ;
 }
