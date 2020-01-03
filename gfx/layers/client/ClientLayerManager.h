@@ -1143,6 +1143,12 @@ OverfillCallback
 >
 mOverfillCallbacks
 ;
+mozilla
+:
+:
+TimeStamp
+mTransactionStart
+;
 nsTArray
 <
 RefPtr

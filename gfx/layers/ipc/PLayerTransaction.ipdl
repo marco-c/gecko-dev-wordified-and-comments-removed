@@ -407,6 +407,8 @@ uint32_t
 paintSequenceNumber
 bool
 isRepeatTransaction
+TimeStamp
+transactionStart
 )
 returns
 (
@@ -457,6 +459,8 @@ uint32_t
 paintSequenceNumber
 bool
 isRepeatTransaction
+TimeStamp
+transactionStart
 )
 ;
 /
