@@ -5365,7 +5365,7 @@ JS_ASSERT_IF
 mir
 -
 >
-isEffectful
+needsResumePoint
 (
 )
 mir
