@@ -100,6 +100,15 @@ optional
 DeviceStorageChangeEventInit
 eventInitDict
 )
+Pref
+=
+"
+device
+.
+storage
+.
+enabled
+"
 ]
 interface
 DeviceStorageChangeEvent

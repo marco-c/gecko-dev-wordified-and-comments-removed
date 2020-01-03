@@ -99,6 +99,17 @@ since
 ;
 }
 ;
+[
+Pref
+=
+"
+device
+.
+storage
+.
+enabled
+"
+]
 interface
 DeviceStorage
 :
