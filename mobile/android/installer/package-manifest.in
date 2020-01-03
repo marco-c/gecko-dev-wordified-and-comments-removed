@@ -1405,9 +1405,6 @@ crypto
 component
 .
 xpt
-#
-ifdef
-MOZ_CAPTIVEDETECT
 BINPATH
 /
 components
@@ -1415,8 +1412,6 @@ components
 captivedetect
 .
 xpt
-#
-endif
 BINPATH
 /
 components
@@ -2667,9 +2662,6 @@ HealthReportService
 js
 #
 endif
-#
-ifdef
-MOZ_CAPTIVEDETECT
 BINPATH
 /
 components
@@ -2684,8 +2676,6 @@ components
 captivedetect
 .
 js
-#
-endif
 #
 ifdef
 MOZ_WEBSPEECH
