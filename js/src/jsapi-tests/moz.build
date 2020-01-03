@@ -216,6 +216,11 @@ testFindSCCs
 cpp
 '
 '
+testForOfIterator
+.
+cpp
+'
+'
 testFreshGlobalEvalRedefinition
 .
 cpp
