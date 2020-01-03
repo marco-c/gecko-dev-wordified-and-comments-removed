@@ -693,6 +693,10 @@ task
 :
 tasks
 /
+post
+-
+builds
+/
 upload_symbols
 .
 yml
