@@ -1040,6 +1040,7 @@ mPrincipal
 ;
 gfxFontEntry
 *
+MOZ_NON_OWNING_REF
 mFontEntry
 ;
 uint32_t
@@ -1599,6 +1600,7 @@ mLength
 ;
 gfxFontEntry
 *
+MOZ_NON_OWNING_REF
 mFontEntry
 ;
 bool
