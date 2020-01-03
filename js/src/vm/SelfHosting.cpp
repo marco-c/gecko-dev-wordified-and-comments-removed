@@ -7572,6 +7572,9 @@ zone
 {
 return
 selfHostingGlobal_
+&
+&
+selfHostingGlobal_
 -
 >
 zoneFromAnyThread
