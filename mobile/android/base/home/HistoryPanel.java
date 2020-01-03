@@ -1328,13 +1328,6 @@ hintBuilder
 ;
 emptyHint
 .
-setText
-(
-hintBuilder
-)
-;
-emptyHint
-.
 setMovementMethod
 (
 LinkMovementMethod
