@@ -624,7 +624,7 @@ Reset
 )
 ;
 void
-FinishParsing
+EndFrameSession
 (
 )
 ;

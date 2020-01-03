@@ -683,7 +683,7 @@ mFrameIndex
 ;
 mParser
 .
-FinishParsing
+EndFrameSession
 (
 )
 ;
@@ -744,7 +744,7 @@ numFrames
 ;
 mParser
 .
-FinishParsing
+EndFrameSession
 (
 )
 ;
@@ -1001,6 +1001,12 @@ mSamplesPerSecond
 mChannels
 =
 0
+;
+mParser
+.
+Reset
+(
+)
 ;
 }
 nsRefPtr
@@ -1783,7 +1789,7 @@ mFrameIndex
 ;
 mParser
 .
-FinishParsing
+EndFrameSession
 (
 )
 ;
@@ -1992,7 +1998,7 @@ void
 FrameParser
 :
 :
-FinishParsing
+EndFrameSession
 (
 )
 {
