@@ -314,7 +314,7 @@ genexp
 :
 [
 FOR_OF_PAREN
-9999
+1
 ]
 desc
 :
@@ -356,7 +356,7 @@ genexp
 :
 [
 FOR_OF_PAREN
-9999
+3
 ]
 desc
 :
@@ -590,7 +590,7 @@ genexp
 :
 [
 FOR_OF_PAREN
-9999
+1
 ]
 desc
 :
@@ -1860,12 +1860,6 @@ ctx
 !
 =
 PAREN_PAREN
-&
-&
-ctx
-!
-=
-FOR_OF_PAREN
 )
 reportCompare
 (
