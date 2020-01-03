@@ -143,7 +143,7 @@ y
 ;
 }
 var
-testTarget
+testDevice
 =
 {
 id
@@ -244,9 +244,9 @@ browser
 ;
 SimpleServiceDiscovery
 .
-unregisterTarget
+unregisterDevice
 (
-testTarget
+testDevice
 )
 ;
 }
@@ -254,9 +254,9 @@ testTarget
 ;
 SimpleServiceDiscovery
 .
-registerTarget
+registerDevice
 (
-testTarget
+testDevice
 )
 ;
 let
