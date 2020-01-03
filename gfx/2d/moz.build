@@ -254,6 +254,11 @@ SourceSurfaceCairo
 h
 '
 '
+StackArray
+.
+h
+'
+'
 Tools
 .
 h
