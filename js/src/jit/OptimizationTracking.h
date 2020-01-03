@@ -1721,7 +1721,7 @@ IonTrackedTypeWithAddendum
 &
 tracked
 )
-MOZ_OVERRIDE
+override
 ;
 void
 operator
@@ -1736,7 +1736,7 @@ site
 MIRType
 mirType
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

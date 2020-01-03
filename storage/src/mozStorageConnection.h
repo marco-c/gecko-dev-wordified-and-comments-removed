@@ -143,7 +143,7 @@ storage
 {
 class
 Connection
-MOZ_FINAL
+final
 :
 public
 mozIStorageConnection
@@ -553,7 +553,7 @@ mAsyncOnly
 ;
 class
 CallbackComplete
-MOZ_FINAL
+final
 :
 public
 nsRunnable

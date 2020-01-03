@@ -80,7 +80,7 @@ gmp
 {
 class
 GMPProcessParent
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -127,7 +127,7 @@ bool
 CanShutdown
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true

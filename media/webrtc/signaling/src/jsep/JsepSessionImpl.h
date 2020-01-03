@@ -196,7 +196,7 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -210,7 +210,7 @@ JsepTrack
 &
 track
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -231,7 +231,7 @@ string
 &
 trackId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -252,7 +252,7 @@ string
 &
 pwd
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -260,7 +260,7 @@ RemoteIsIceLite
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mRemoteIsIceLite
@@ -281,7 +281,7 @@ GetIceOptions
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mIceOptions
@@ -309,7 +309,7 @@ uint8_t
 &
 value
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -323,7 +323,7 @@ string
 &
 extensionName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -337,7 +337,7 @@ string
 &
 extensionName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 std
@@ -352,7 +352,7 @@ JsepCodecDescription
 Codecs
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCodecs
@@ -391,7 +391,7 @@ string
 &
 newTrackId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 std
@@ -408,7 +408,7 @@ GetLocalTracks
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 std
@@ -425,7 +425,7 @@ GetRemoteTracks
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 std
@@ -442,7 +442,7 @@ GetRemoteTracksAdded
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 std
@@ -459,7 +459,7 @@ GetRemoteTracksRemoved
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -476,7 +476,7 @@ string
 *
 offer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -493,7 +493,7 @@ string
 *
 answer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 std
@@ -504,7 +504,7 @@ GetLocalDescription
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 std
@@ -515,7 +515,7 @@ GetRemoteDescription
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -531,7 +531,7 @@ string
 &
 sdp
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -547,7 +547,7 @@ string
 &
 sdp
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -570,7 +570,7 @@ mid
 uint16_t
 level
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -596,7 +596,7 @@ bool
 *
 skipped
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -614,14 +614,14 @@ defaultCandidatePort
 uint16_t
 level
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Close
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -633,7 +633,7 @@ GetLastError
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -641,7 +641,7 @@ IsIceControlling
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mIceControlling
@@ -673,7 +673,7 @@ GetTransports
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mTransports
@@ -691,7 +691,7 @@ GetNegotiatedTrackPairs
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mNegotiatedTrackPairs
@@ -703,7 +703,7 @@ AllLocalTracksAreAssigned
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

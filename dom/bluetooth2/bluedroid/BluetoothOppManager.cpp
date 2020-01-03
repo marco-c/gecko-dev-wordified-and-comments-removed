@@ -661,7 +661,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

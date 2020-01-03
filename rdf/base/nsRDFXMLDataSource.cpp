@@ -452,7 +452,7 @@ char
 *
 uri
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetSource
@@ -470,7 +470,7 @@ nsIRDFResource
 *
 source
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -501,7 +501,7 @@ nsISimpleEnumerator
 *
 sources
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -532,7 +532,7 @@ nsIRDFNode
 *
 target
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -563,7 +563,7 @@ nsISimpleEnumerator
 *
 targets
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -593,7 +593,7 @@ aTarget
 bool
 tv
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Unassert
@@ -608,7 +608,7 @@ nsIRDFNode
 *
 target
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Change
@@ -626,7 +626,7 @@ nsIRDFNode
 *
 aNewTarget
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Move
@@ -644,7 +644,7 @@ nsIRDFNode
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HasAssertion
@@ -664,7 +664,7 @@ bool
 *
 hasAssertion
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -687,7 +687,7 @@ nsIRDFObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -706,7 +706,7 @@ nsIRDFObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -731,7 +731,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -758,7 +758,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -783,7 +783,7 @@ nsISimpleEnumerator
 *
 labels
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -807,7 +807,7 @@ nsISimpleEnumerator
 *
 labels
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -828,7 +828,7 @@ nsISimpleEnumerator
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -851,7 +851,7 @@ nsISimpleEnumerator
 *
 commands
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -880,7 +880,7 @@ bool
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -908,7 +908,7 @@ nsISupportsArray
 *
 aArguments
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -926,7 +926,7 @@ NS_IMETHOD
 BeginUpdateBatch
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -941,7 +941,7 @@ NS_IMETHOD
 EndUpdateBatch
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -966,7 +966,7 @@ rdfITripleVisitor
 *
 aVisitor
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -1011,7 +1011,7 @@ rdfITripleVisitor
 *
 aVisitor
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv

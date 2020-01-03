@@ -61,7 +61,7 @@ gShmemMapped
 ;
 class
 ShmemReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -87,7 +87,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv

@@ -109,7 +109,7 @@ nsAString
 &
 aCompartmentName
 )
-MOZ_OVERRIDE
+override
 {
 aCompartmentName
 .
@@ -130,7 +130,7 @@ uint64_t
 *
 aTime
 )
-MOZ_OVERRIDE
+override
 {
 *
 aTime
@@ -148,7 +148,7 @@ nsAString
 &
 aAddonId
 )
-MOZ_OVERRIDE
+override
 {
 aAddonId
 .
@@ -169,7 +169,7 @@ uint64_t
 *
 aCPOWTime
 )
-MOZ_OVERRIDE
+override
 {
 *
 aCPOWTime

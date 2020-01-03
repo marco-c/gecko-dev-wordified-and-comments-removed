@@ -83,7 +83,7 @@ bool
 IsBrowserStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -96,7 +96,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -110,7 +110,7 @@ int32_t
 *
 written
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -125,7 +125,7 @@ bool
 &
 artificial
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

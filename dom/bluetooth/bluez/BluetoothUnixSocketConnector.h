@@ -70,7 +70,7 @@ int
 Create
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -95,7 +95,7 @@ char
 *
 aAddress
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -104,7 +104,7 @@ SetUp
 int
 aFd
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -113,7 +113,7 @@ SetUpListenSocket
 int
 aFd
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -133,7 +133,7 @@ nsAString
 &
 aAddrStr
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

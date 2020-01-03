@@ -156,7 +156,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -479,7 +479,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -497,7 +497,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -510,7 +510,7 @@ aPosition
 ControlPlayStatus
 aPlayStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -525,7 +525,7 @@ nsAString
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -540,7 +540,7 @@ nsAString
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -558,7 +558,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -576,7 +576,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -588,7 +588,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -604,7 +604,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -613,7 +613,7 @@ AdapterStateChangedNotification
 bool
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -628,7 +628,7 @@ BluetoothProperty
 *
 aProperties
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -647,7 +647,7 @@ BluetoothProperty
 *
 aProperties
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -660,7 +660,7 @@ BluetoothProperty
 *
 aProperties
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -669,7 +669,7 @@ DiscoveryStateChangedNotification
 bool
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -686,7 +686,7 @@ aBdName
 uint32_t
 aCod
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -707,7 +707,7 @@ aPairingVariant
 uint32_t
 aPasskey
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -722,7 +722,7 @@ aRemoteBdAddr
 BluetoothBondState
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -737,7 +737,7 @@ aRemoteBdAddr
 bool
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -752,7 +752,7 @@ aBuf
 uint8_t
 aLen
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -763,7 +763,7 @@ aStatus
 uint16_t
 aNumPackets
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

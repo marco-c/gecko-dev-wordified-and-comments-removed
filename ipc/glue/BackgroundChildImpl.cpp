@@ -125,7 +125,7 @@ namespace
 {
 class
 TestChild
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -193,7 +193,7 @@ nsCString
 &
 aTestArg
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

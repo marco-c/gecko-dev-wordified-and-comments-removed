@@ -179,7 +179,7 @@ data
 ;
 class
 StartupCacheListener
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -483,7 +483,7 @@ ifdef
 DEBUG
 class
 StartupCacheDebugOutputStream
-MOZ_FINAL
+final
 :
 public
 nsIObjectOutputStream
@@ -574,7 +574,7 @@ NS_STARTUPCACHE_CID
 }
 class
 StartupCacheWrapper
-MOZ_FINAL
+final
 :
 public
 nsIStartupCache

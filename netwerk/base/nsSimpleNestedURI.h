@@ -78,7 +78,7 @@ bool
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSimpleURI
@@ -88,7 +88,7 @@ StartClone
 RefHandlingEnum
 refHandlingMode
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Read
@@ -97,7 +97,7 @@ nsIObjectInputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Write
@@ -106,7 +106,7 @@ nsIObjectOutputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIIPCSERIALIZABLEURI
 NS_IMETHOD
@@ -116,7 +116,7 @@ nsCID
 *
 aClassIDNoAlloc
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

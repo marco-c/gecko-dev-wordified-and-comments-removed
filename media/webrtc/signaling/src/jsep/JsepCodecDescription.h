@@ -44,7 +44,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -1151,7 +1151,7 @@ SdpFmtpAttributeList
 fmtp
 )
 const
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -1163,7 +1163,7 @@ SdpRtcpFbAttributeList
 rtcpfb
 )
 const
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -1178,7 +1178,7 @@ Parameters
 &
 params
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -1196,7 +1196,7 @@ Feedback
 &
 feedback
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -1298,7 +1298,7 @@ SdpFmtpAttributeList
 fmtp
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1519,7 +1519,7 @@ SdpRtcpFbAttributeList
 rtcpfb
 )
 const
-MOZ_OVERRIDE
+override
 {
 rtcpfb
 .
@@ -1575,7 +1575,7 @@ Parameters
 &
 params
 )
-MOZ_OVERRIDE
+override
 {
 switch
 (
@@ -1687,7 +1687,7 @@ Feedback
 &
 feedback
 )
-MOZ_OVERRIDE
+override
 {
 switch
 (
@@ -2049,7 +2049,7 @@ Parameters
 fmtp
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2395,7 +2395,7 @@ SdpFmtpAttributeList
 fmtp
 )
 const
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -2407,7 +2407,7 @@ SdpRtcpFbAttributeList
 rtcpfb
 )
 const
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -2422,7 +2422,7 @@ Parameters
 &
 params
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -2440,7 +2440,7 @@ Feedback
 &
 feedback
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -2467,7 +2467,7 @@ SdpMediaSection
 remoteMsection
 )
 const
-MOZ_OVERRIDE
+override
 {
 auto
 &

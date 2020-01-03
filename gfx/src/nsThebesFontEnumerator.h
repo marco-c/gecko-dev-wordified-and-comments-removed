@@ -29,7 +29,7 @@ h
 "
 class
 nsThebesFontEnumerator
-MOZ_FINAL
+final
 :
 public
 nsIFontEnumerator

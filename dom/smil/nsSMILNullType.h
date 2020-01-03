@@ -55,7 +55,7 @@ nsSMILValue
 aValue
 )
 const
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -67,7 +67,7 @@ nsSMILValue
 aValue
 )
 const
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -83,7 +83,7 @@ nsSMILValue
 aSrc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -99,7 +99,7 @@ nsSMILValue
 aRight
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -116,7 +116,7 @@ uint32_t
 aCount
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -135,7 +135,7 @@ double
 aDistance
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -156,7 +156,7 @@ nsSMILValue
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

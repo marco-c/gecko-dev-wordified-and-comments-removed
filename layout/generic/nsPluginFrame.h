@@ -203,7 +203,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -213,7 +213,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -223,7 +223,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -243,7 +243,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -259,7 +259,7 @@ aReflowState
 nsDidReflowStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -277,7 +277,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -296,7 +296,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -305,7 +305,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -315,7 +315,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsPluginFrameSuper
@@ -340,7 +340,7 @@ bool
 NeedsView
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -358,7 +358,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -370,7 +370,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -380,7 +380,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 NS_METHOD
 GetPluginInstance
@@ -390,7 +390,7 @@ nsNPAPIPluginInstance
 *
 aPluginInstance
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -399,7 +399,7 @@ SetIsDocumentActive
 bool
 aIsActive
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -416,7 +416,7 @@ Cursor
 &
 aCursor
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetEmptyWidgetConfiguration
@@ -489,7 +489,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -532,14 +532,14 @@ bool
 ReflowFinished
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ReflowCallbackCanceled
 (
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -608,7 +608,7 @@ nsIWidget
 GetWidget
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInnerView
@@ -688,7 +688,7 @@ aWithMouse
 =
 false
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsHidden
@@ -883,7 +883,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -998,7 +998,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRegion
@@ -1011,7 +1011,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1024,7 +1024,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1037,7 +1037,7 @@ nsRegion
 *
 aVisibleRegion
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -1064,7 +1064,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 {
 return
 static_cast
@@ -1101,7 +1101,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 {
 return
 static_cast

@@ -168,7 +168,7 @@ SetPlugin
 nsNPAPIPlugin
 *
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -176,7 +176,7 @@ bool
 HasRequiredFunctions
 (
 )
-MOZ_OVERRIDE
+override
 {
 mNP_Initialize
 =
@@ -355,7 +355,7 @@ NPError
 *
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 #
 else
@@ -370,7 +370,7 @@ NPError
 *
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -382,7 +382,7 @@ NPError
 *
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -394,7 +394,7 @@ char
 *
 aMimeDesc
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -412,7 +412,7 @@ NPError
 *
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 #
 if
@@ -437,7 +437,7 @@ NPError
 *
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -470,7 +470,7 @@ NPError
 *
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -485,7 +485,7 @@ aFlags
 uint64_t
 aMaxAge
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -498,7 +498,7 @@ nsCString
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -510,7 +510,7 @@ NPWindow
 *
 aWindow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -529,7 +529,7 @@ ImageContainer
 *
 aContainer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -541,14 +541,14 @@ nsIntSize
 *
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsOOP
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -570,7 +570,7 @@ bool
 *
 aDrawing
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -581,7 +581,7 @@ aInstance
 double
 aContentsScaleFactor
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -592,7 +592,7 @@ SetBackgroundUnknown
 NPP
 instance
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -608,7 +608,7 @@ gfxContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -623,7 +623,7 @@ const
 nsIntRect
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void

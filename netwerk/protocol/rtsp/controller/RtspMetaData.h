@@ -44,7 +44,7 @@ net
 {
 class
 RtspMetaData
-MOZ_FINAL
+final
 :
 public
 nsIStreamingProtocolMetaData

@@ -37,7 +37,7 @@ h
 "
 class
 nsLayoutHistoryState
-MOZ_FINAL
+final
 :
 public
 nsILayoutHistoryState
@@ -69,7 +69,7 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsPresState
@@ -81,7 +81,7 @@ nsCString
 &
 aKey
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -92,7 +92,7 @@ nsCString
 &
 aKey
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -100,7 +100,7 @@ HasStates
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -110,7 +110,7 @@ const
 bool
 aFlag
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

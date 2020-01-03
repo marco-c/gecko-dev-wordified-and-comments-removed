@@ -166,7 +166,7 @@ void
 EnsureFresh
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <
@@ -178,7 +178,7 @@ mCollection
 ;
 class
 HTMLPropertiesCollection
-MOZ_FINAL
+final
 :
 public
 nsIHTMLCollection
@@ -229,7 +229,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -245,7 +245,7 @@ JSObject
 GetWrapperPreserveColorInternal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsWrapperCache
@@ -266,7 +266,7 @@ GetElementAt
 uint32_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetDocument
@@ -281,7 +281,7 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Element
@@ -296,7 +296,7 @@ bool
 &
 aFound
 )
-MOZ_OVERRIDE
+override
 {
 aFound
 =
@@ -386,7 +386,7 @@ nsString
 &
 aNames
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIDOMHTMLCOLLECTION
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -483,7 +483,7 @@ mIsDirty
 ;
 class
 PropertyNodeList
-MOZ_FINAL
+final
 :
 public
 nsINodeList
@@ -524,7 +524,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetDocument
@@ -562,7 +562,7 @@ Item
 uint32_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
@@ -583,7 +583,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsINode
@@ -591,7 +591,7 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AppendElement

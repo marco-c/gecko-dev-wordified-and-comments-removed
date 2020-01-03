@@ -1762,7 +1762,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1997,7 +1997,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2101,7 +2101,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCameraControl
@@ -2175,7 +2175,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCameraControl
@@ -2242,7 +2242,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCameraControl
@@ -2309,7 +2309,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCameraControl
@@ -2376,7 +2376,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCameraControl
@@ -2480,7 +2480,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCameraControl
@@ -2580,7 +2580,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCameraControl
@@ -2647,7 +2647,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCameraControl
@@ -2714,7 +2714,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCameraControl
@@ -2781,7 +2781,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCameraControl
@@ -2848,7 +2848,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mCameraControl
@@ -3037,7 +3037,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 mCameraControl
 -
@@ -3167,7 +3167,7 @@ nsresult
 RunImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 mCameraControl
 -

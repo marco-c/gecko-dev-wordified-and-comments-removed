@@ -191,7 +191,7 @@ mW
 ;
 class
 DOMPoint
-MOZ_FINAL
+final
 :
 public
 DOMPointReadOnly
@@ -313,7 +313,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetX

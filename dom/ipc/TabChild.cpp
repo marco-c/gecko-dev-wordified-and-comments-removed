@@ -816,7 +816,7 @@ TabChild
 :
 :
 DelayedFireContextMenuEvent
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback
@@ -844,7 +844,7 @@ Notify
 nsITimer
 *
 )
-MOZ_OVERRIDE
+override
 {
 mTabChild
 -
@@ -3444,7 +3444,7 @@ TabChild
 :
 :
 DelayedDeleteRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -4074,7 +4074,7 @@ ScrollableLayerGuid
 aTargets
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -4165,7 +4165,7 @@ TouchBehaviorFlags
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -4255,7 +4255,7 @@ bool
 aPreventDefault
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (

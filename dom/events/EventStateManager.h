@@ -137,7 +137,7 @@ TabParent
 }
 class
 OverOutElementsWrapper
-MOZ_FINAL
+final
 :
 public
 nsISupports

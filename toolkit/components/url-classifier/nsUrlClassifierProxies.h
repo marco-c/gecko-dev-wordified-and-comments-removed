@@ -57,7 +57,7 @@ h
 "
 class
 UrlClassifierDBServiceWorkerProxy
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierDBServiceWorker
@@ -566,7 +566,7 @@ mTarget
 ;
 class
 UrlClassifierLookupCallbackProxy
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierLookupCallback
@@ -673,7 +673,7 @@ mTarget
 ;
 class
 UrlClassifierCallbackProxy
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierCallback
@@ -768,7 +768,7 @@ mTarget
 ;
 class
 UrlClassifierUpdateObserverProxy
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierUpdateObserver

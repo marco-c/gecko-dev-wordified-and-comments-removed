@@ -108,7 +108,7 @@ nsPrefetchNode
 ;
 class
 nsPrefetchService
-MOZ_FINAL
+final
 :
 public
 nsIPrefetchService
@@ -289,7 +289,7 @@ mDisabled
 ;
 class
 nsPrefetchNode
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

@@ -120,7 +120,7 @@ GetName
 nsAString
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -129,7 +129,7 @@ GetUUID
 nsAString
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -147,14 +147,14 @@ MediaEnginePrefs
 &
 aPrefs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Deallocate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -164,7 +164,7 @@ SourceMediaStream
 *
 TrackID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -174,7 +174,7 @@ SourceMediaStream
 *
 TrackID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -183,7 +183,7 @@ SetDirectListeners
 bool
 aHasDirectListeners
 )
-MOZ_OVERRIDE
+override
 {
 }
 ;
@@ -206,7 +206,7 @@ aNoise
 int32_t
 aPlayoutDelay
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -228,7 +228,7 @@ aId
 StreamTime
 aDesiredTime
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
@@ -247,7 +247,7 @@ MediaTrackConstraintSet
 &
 aConstraintSets
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -258,7 +258,7 @@ bool
 IsFake
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -273,7 +273,7 @@ MediaSourceEnum
 GetMediaSource
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 dom
@@ -293,7 +293,7 @@ PhotoCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -377,7 +377,7 @@ GetName
 nsAString
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -386,7 +386,7 @@ GetUUID
 nsAString
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -404,14 +404,14 @@ MediaEnginePrefs
 &
 aPrefs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Deallocate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -421,7 +421,7 @@ SourceMediaStream
 *
 TrackID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -431,7 +431,7 @@ SourceMediaStream
 *
 TrackID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -440,7 +440,7 @@ SetDirectListeners
 bool
 aHasDirectListeners
 )
-MOZ_OVERRIDE
+override
 {
 }
 ;
@@ -463,7 +463,7 @@ aNoise
 int32_t
 aPlayoutDelay
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -485,7 +485,7 @@ aId
 StreamTime
 aDesiredTime
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -493,7 +493,7 @@ bool
 IsFake
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -508,7 +508,7 @@ MediaSourceEnum
 GetMediaSource
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 dom
@@ -528,7 +528,7 @@ PhotoCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED

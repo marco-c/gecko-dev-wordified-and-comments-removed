@@ -800,7 +800,7 @@ MediaPromise
 *
 aPromise
 )
-MOZ_OVERRIDE
+override
 {
 aPromise
 -
@@ -1015,7 +1015,7 @@ void
 Disconnect
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertOnDispatchThread
 (
@@ -1051,7 +1051,7 @@ DoResolve
 ResolveValueType
 aResolveValue
 )
-MOZ_OVERRIDE
+override
 {
 Consumer
 :
@@ -1121,7 +1121,7 @@ DoReject
 RejectValueType
 aRejectValue
 )
-MOZ_OVERRIDE
+override
 {
 Consumer
 :
@@ -2606,7 +2606,7 @@ PromiseType
 Invoke
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 (
@@ -2703,7 +2703,7 @@ PromiseType
 Invoke
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 (
@@ -2813,7 +2813,7 @@ PromiseType
 Invoke
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 (

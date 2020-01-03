@@ -51,7 +51,7 @@ nsCString
 ;
 class
 nsTextFragment
-MOZ_FINAL
+final
 {
 public
 :

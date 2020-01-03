@@ -98,7 +98,7 @@ SetLinkState
 nsLinkState
 aState
 )
-MOZ_OVERRIDE
+override
 {
 mHandler
 (
@@ -121,7 +121,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 0

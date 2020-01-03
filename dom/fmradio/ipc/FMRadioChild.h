@@ -41,7 +41,7 @@ h
 BEGIN_FMRADIO_NAMESPACE
 class
 FMRadioChild
-MOZ_FINAL
+final
 :
 public
 IFMRadioService
@@ -78,7 +78,7 @@ IsEnabled
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -86,7 +86,7 @@ IsRDSEnabled
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
@@ -94,7 +94,7 @@ GetFrequency
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
@@ -102,7 +102,7 @@ GetFrequencyUpperBound
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
@@ -110,7 +110,7 @@ GetFrequencyLowerBound
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
@@ -118,7 +118,7 @@ GetChannelWidth
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 Nullable
@@ -130,7 +130,7 @@ GetPi
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 Nullable
@@ -141,7 +141,7 @@ GetPty
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -151,7 +151,7 @@ nsString
 &
 aPSName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -161,7 +161,7 @@ nsString
 &
 aRadiotext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -171,7 +171,7 @@ uint64_t
 &
 aRDSGroup
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -183,7 +183,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -193,7 +193,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -205,7 +205,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -223,7 +223,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -233,7 +233,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -242,7 +242,7 @@ SetRDSGroupMask
 uint32_t
 aRDSGroupMask
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -252,7 +252,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -262,7 +262,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -272,7 +272,7 @@ FMRadioEventObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -282,7 +282,7 @@ FMRadioEventObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -291,14 +291,14 @@ EnableAudio
 bool
 aAudioEnabled
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 Recv__delete__
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -309,7 +309,7 @@ double
 &
 aFrequency
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -324,7 +324,7 @@ double
 &
 aFrequency
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -335,7 +335,7 @@ bool
 &
 aEnabled
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -350,7 +350,7 @@ uint16_t
 &
 aCode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -365,7 +365,7 @@ uint8_t
 &
 aPTY
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -376,7 +376,7 @@ nsString
 &
 aPSName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -387,7 +387,7 @@ nsString
 &
 aRadiotext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -398,7 +398,7 @@ uint64_t
 &
 aGroup
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PFMRadioRequestChild
@@ -410,7 +410,7 @@ FMRadioRequestArgs
 &
 aArgs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -420,7 +420,7 @@ PFMRadioRequestChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

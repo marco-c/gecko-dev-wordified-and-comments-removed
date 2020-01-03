@@ -106,7 +106,7 @@ widget
 {
 class
 AudioSession
-MOZ_FINAL
+final
 :
 public
 IAudioSessionEvents

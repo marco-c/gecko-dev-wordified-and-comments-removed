@@ -426,7 +426,7 @@ NS_NAVHISTORYRESULT_IID
 }
 class
 nsNavHistoryResult
-MOZ_FINAL
+final
 :
 public
 nsSupportsWeakReference
@@ -471,7 +471,7 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSINAVHISTORYRESULT
 NS_DECL_BOOKMARK_HISTORY_OBSERVER_EXTERNAL
 (
-MOZ_OVERRIDE
+override
 )
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
@@ -732,7 +732,7 @@ nsACString
 &
 aTitle
 )
-MOZ_OVERRIDE
+override
 \
 {
 aTitle
@@ -751,7 +751,7 @@ uint32_t
 *
 aAccessCount
 )
-MOZ_OVERRIDE
+override
 \
 {
 *
@@ -771,7 +771,7 @@ PRTime
 *
 aTime
 )
-MOZ_OVERRIDE
+override
 \
 {
 *
@@ -791,7 +791,7 @@ int32_t
 *
 aIndentLevel
 )
-MOZ_OVERRIDE
+override
 \
 {
 *
@@ -811,7 +811,7 @@ int32_t
 *
 aIndex
 )
-MOZ_OVERRIDE
+override
 \
 {
 *
@@ -831,7 +831,7 @@ PRTime
 *
 aDateAdded
 )
-MOZ_OVERRIDE
+override
 \
 {
 *
@@ -851,7 +851,7 @@ PRTime
 *
 aLastModified
 )
-MOZ_OVERRIDE
+override
 \
 {
 *
@@ -871,7 +871,7 @@ int64_t
 *
 aId
 )
-MOZ_OVERRIDE
+override
 \
 {
 *
@@ -896,7 +896,7 @@ nsACString
 &
 aIcon
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -918,7 +918,7 @@ nsINavHistoryContainerResultNode
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -940,7 +940,7 @@ nsINavHistoryResult
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -961,7 +961,7 @@ nsAString
 &
 aTags
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -982,7 +982,7 @@ nsACString
 &
 aPageGuid
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -1003,7 +1003,7 @@ nsACString
 &
 aBookmarkGuid
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -1061,7 +1061,7 @@ nsACString
 &
 aIcon
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetParent
@@ -1071,7 +1071,7 @@ nsINavHistoryContainerResultNode
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetParentResult
@@ -1081,7 +1081,7 @@ nsINavHistoryResult
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetType
@@ -1090,7 +1090,7 @@ uint32_t
 *
 type
 )
-MOZ_OVERRIDE
+override
 {
 *
 type
@@ -1111,7 +1111,7 @@ nsACString
 &
 aURI
 )
-MOZ_OVERRIDE
+override
 {
 aURI
 =
@@ -1128,7 +1128,7 @@ nsAString
 &
 aTags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPageGuid
@@ -1137,7 +1137,7 @@ nsACString
 &
 aPageGuid
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetBookmarkGuid
@@ -1146,7 +1146,7 @@ nsACString
 &
 aBookmarkGuid
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1579,7 +1579,7 @@ uint16_t
 *
 _state
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -1600,7 +1600,7 @@ bool
 *
 aContainerOpen
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -1620,7 +1620,7 @@ SetContainerOpen
 bool
 aContainerOpen
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -1641,7 +1641,7 @@ uint32_t
 *
 aChildCount
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -1665,7 +1665,7 @@ nsINavHistoryResultNode
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -1690,7 +1690,7 @@ uint32_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -1725,7 +1725,7 @@ nsINavHistoryResultNode
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 \
 {
 return
@@ -1840,7 +1840,7 @@ uint32_t
 *
 type
 )
-MOZ_OVERRIDE
+override
 {
 *
 type
@@ -1858,7 +1858,7 @@ nsACString
 &
 aURI
 )
-MOZ_OVERRIDE
+override
 {
 aURI
 =
@@ -1876,7 +1876,7 @@ void
 OnRemoving
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 AreChildrenVisible
@@ -2567,7 +2567,7 @@ NS_NAVHISTORYCONTAINERRESULTNODE_IID
 )
 class
 nsNavHistoryQueryResultNode
-MOZ_FINAL
+final
 :
 public
 nsNavHistoryContainerResultNode
@@ -2649,7 +2649,7 @@ uint32_t
 *
 type
 )
-MOZ_OVERRIDE
+override
 {
 *
 type
@@ -2670,7 +2670,7 @@ nsACString
 &
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 NS_FORWARD_CONTAINERNODE_EXCEPT_HASCHILDREN
 NS_IMETHOD
@@ -2680,7 +2680,7 @@ bool
 *
 aHasChildren
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSINAVHISTORYQUERYRESULTNODE
 bool
@@ -2698,7 +2698,7 @@ nsresult
 OpenContainer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_BOOKMARK_HISTORY_OBSERVER_INTERNAL
 virtual
@@ -2706,7 +2706,7 @@ void
 OnRemoving
 (
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -2757,14 +2757,14 @@ nsresult
 Refresh
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint16_t
 GetSortType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2774,7 +2774,7 @@ nsACString
 &
 aSortingAnnotation
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2787,7 +2787,7 @@ aData
 SortComparator
 aComparator
 )
-MOZ_OVERRIDE
+override
 ;
 nsCOMPtr
 <
@@ -2824,7 +2824,7 @@ nsNavHistoryQueryResultNode
 ;
 class
 nsNavHistoryFolderResultNode
-MOZ_FINAL
+final
 :
 public
 nsNavHistoryContainerResultNode
@@ -2865,7 +2865,7 @@ uint32_t
 *
 type
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2906,7 +2906,7 @@ nsACString
 &
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 NS_FORWARD_CONTAINERNODE_EXCEPT_HASCHILDREN
 NS_IMETHOD
@@ -2916,7 +2916,7 @@ bool
 *
 aHasChildren
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSINAVHISTORYQUERYRESULTNODE
 virtual
@@ -2924,14 +2924,14 @@ nsresult
 OpenContainer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 OpenContainerAsync
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_ASYNCSTATEMENTCALLBACK
 NS_DECL_NSINAVBOOKMARKOBSERVER
@@ -2940,7 +2940,7 @@ void
 OnRemoving
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 mContentsValid
@@ -2967,7 +2967,7 @@ nsresult
 Refresh
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 StartIncrementalUpdate

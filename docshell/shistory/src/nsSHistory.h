@@ -77,7 +77,7 @@ nsISHTransaction
 ;
 class
 nsSHistory
-MOZ_FINAL
+final
 :
 public
 PRCList

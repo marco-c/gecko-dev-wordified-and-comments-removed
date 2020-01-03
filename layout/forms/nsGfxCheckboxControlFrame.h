@@ -55,7 +55,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -88,7 +88,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -104,7 +104,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

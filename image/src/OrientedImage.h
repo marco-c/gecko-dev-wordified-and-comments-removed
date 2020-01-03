@@ -67,7 +67,7 @@ int32_t
 *
 aWidth
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetHeight
@@ -76,7 +76,7 @@ int32_t
 *
 aHeight
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetIntrinsicSize
@@ -85,7 +85,7 @@ nsSize
 *
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetIntrinsicRatio
@@ -94,7 +94,7 @@ nsSize
 *
 aRatio
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -110,7 +110,7 @@ aWhichFrame
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -133,7 +133,7 @@ aManager
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -166,7 +166,7 @@ aSVGContext
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -179,7 +179,7 @@ nsIntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 nsIntSize
 OptimalImageSizeForDest
@@ -195,7 +195,7 @@ aFilter
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

@@ -79,19 +79,19 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CheckForNewChrome
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CheckForOSAccessibility
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetLocalesForPackage
@@ -105,7 +105,7 @@ nsIUTF8StringEnumerator
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IsLocaleRTL
@@ -118,7 +118,7 @@ bool
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetSelectedLocale
@@ -131,7 +131,7 @@ nsACString
 &
 aLocale
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Observe
@@ -148,7 +148,7 @@ char16_t
 *
 someData
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -164,7 +164,7 @@ nsISimpleEnumerator
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetStyleOverlays
@@ -177,7 +177,7 @@ nsISimpleEnumerator
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -264,7 +264,7 @@ nsresult
 UpdateSelectedLocale
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsIURI
 *
@@ -283,7 +283,7 @@ nsCString
 &
 aPath
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetFlagsFromPackage
@@ -296,7 +296,7 @@ uint32_t
 *
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 struct
 ProviderEntry
@@ -670,7 +670,7 @@ argv
 int
 flags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -689,7 +689,7 @@ argv
 int
 flags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -708,7 +708,7 @@ argv
 int
 flags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -727,7 +727,7 @@ argv
 int
 flags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -746,7 +746,7 @@ argv
 int
 flags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -765,7 +765,7 @@ argv
 int
 flags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -784,7 +784,7 @@ argv
 int
 flags
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

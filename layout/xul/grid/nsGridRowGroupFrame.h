@@ -41,7 +41,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -84,7 +84,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

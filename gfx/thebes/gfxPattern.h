@@ -93,7 +93,7 @@ cairo_pattern_t
 ;
 class
 gfxPattern
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_REFCOUNTING
 (

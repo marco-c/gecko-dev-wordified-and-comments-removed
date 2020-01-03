@@ -597,7 +597,7 @@ HIST_CMD_RELOAD
 ;
 class
 nsSHistoryObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver

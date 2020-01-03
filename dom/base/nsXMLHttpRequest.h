@@ -479,13 +479,13 @@ void
 DisconnectFromOwner
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 nsXMLHttpRequestUpload
-MOZ_FINAL
+final
 :
 public
 nsXHREventTarget
@@ -541,7 +541,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsISupports
 *
@@ -588,7 +588,7 @@ nsXMLHttpRequestXPCOMifier
 ;
 class
 nsXMLHttpRequest
-MOZ_FINAL
+final
 :
 public
 nsXHREventTarget
@@ -643,7 +643,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla
@@ -1000,7 +1000,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
@@ -2294,7 +2294,7 @@ void
 DisconnectFromOwner
 (
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -2978,7 +2978,7 @@ mOldVal
 ;
 class
 nsXMLHttpRequestXPCOMifier
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener
@@ -3091,7 +3091,7 @@ nsIDOMEvent
 *
 event
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <

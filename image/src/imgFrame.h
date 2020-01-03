@@ -960,7 +960,7 @@ mOptimizable
 ;
 class
 DrawableFrameRef
-MOZ_FINAL
+final
 {
 public
 :
@@ -1192,7 +1192,7 @@ mRef
 ;
 class
 RawAccessFrameRef
-MOZ_FINAL
+final
 {
 public
 :

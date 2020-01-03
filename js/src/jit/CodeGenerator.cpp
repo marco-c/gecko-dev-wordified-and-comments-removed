@@ -2328,8 +2328,8 @@ CodeGenerator
 *
 codegen
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 MOZ_ASSERT
 (

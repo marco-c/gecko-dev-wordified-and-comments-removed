@@ -32,7 +32,7 @@ nsISupportsArray
 ;
 class
 nsSupportsArrayEnumerator
-MOZ_FINAL
+final
 :
 public
 nsIBidirectionalEnumerator

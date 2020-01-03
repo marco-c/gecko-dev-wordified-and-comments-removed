@@ -1549,7 +1549,7 @@ NS_OK
 }
 class
 VisitedQuery
-MOZ_FINAL
+final
 :
 public
 AsyncStatementCallback
@@ -1804,7 +1804,7 @@ nsISupports
 *
 aStatement
 )
-MOZ_OVERRIDE
+override
 {
 NS_ENSURE_SUCCESS
 (
@@ -1874,7 +1874,7 @@ mozIStorageResultSet
 *
 aResults
 )
-MOZ_OVERRIDE
+override
 {
 mIsVisited
 =
@@ -1891,7 +1891,7 @@ mozIStorageError
 *
 aError
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -1903,7 +1903,7 @@ HandleCompletion
 uint16_t
 aReason
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -3053,7 +3053,7 @@ false
 }
 class
 InsertVisitedURIs
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -5054,7 +5054,7 @@ mHistory
 ;
 class
 GetPlaceInfo
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -5755,7 +5755,7 @@ mHistory
 ;
 class
 SetDownloadAnnotations
-MOZ_FINAL
+final
 :
 public
 mozIVisitInfoCallback
@@ -5807,7 +5807,7 @@ mozIPlaceInfo
 *
 aPlaceInfo
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -5820,7 +5820,7 @@ mozIPlaceInfo
 *
 aPlaceInfo
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -6052,7 +6052,7 @@ NS_IMETHOD
 HandleCompletion
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -8297,7 +8297,7 @@ NS_OK
 }
 class
 ConcurrentStatementsHolder
-MOZ_FINAL
+final
 :
 public
 mozIStorageCompletionCallback
@@ -8346,7 +8346,7 @@ nsISupports
 *
 aConnection
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

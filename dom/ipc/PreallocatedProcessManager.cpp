@@ -126,7 +126,7 @@ namespace
 {
 class
 PreallocatedProcessManagerImpl
-MOZ_FINAL
+final
 :
 public
 nsIObserver

@@ -35,7 +35,7 @@ aContext
 ;
 class
 nsRubyFrame
-MOZ_FINAL
+final
 :
 public
 nsRubyFrameSuper
@@ -55,7 +55,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -65,7 +65,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -78,7 +78,7 @@ InlineMinISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -91,7 +91,7 @@ InlinePrefISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -111,7 +111,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -125,7 +125,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

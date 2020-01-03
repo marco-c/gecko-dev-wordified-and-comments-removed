@@ -56,7 +56,7 @@ nsGridRowGroupLayout
 CastToRowGroupLayout
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -68,7 +68,7 @@ nsGridLayout2
 CastToGridLayout
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -91,7 +91,7 @@ aRequestor
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIGridPart
@@ -106,7 +106,7 @@ nsIFrame
 *
 aParentBox
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -129,7 +129,7 @@ Slice
 &
 aNewChildren
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -149,7 +149,7 @@ Slice
 &
 aNewChildren
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -165,7 +165,7 @@ nsIFrame
 *
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -181,7 +181,7 @@ nsIFrame
 *
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -193,7 +193,7 @@ aBox
 bool
 aIsHorizontal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIGridPart
@@ -201,7 +201,7 @@ nsIGridPart
 AsGridPart
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this

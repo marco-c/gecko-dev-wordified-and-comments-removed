@@ -86,13 +86,13 @@ nsresult
 &
 reason
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Recv__delete__
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -103,7 +103,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

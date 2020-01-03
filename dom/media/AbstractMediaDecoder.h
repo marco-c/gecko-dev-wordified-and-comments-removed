@@ -634,7 +634,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mDecoder
 -
@@ -700,7 +700,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mDecoder
 -
@@ -764,7 +764,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsAutoPtr
 <
@@ -835,7 +835,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

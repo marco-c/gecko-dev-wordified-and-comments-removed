@@ -82,7 +82,7 @@ mScreen
 ;
 class
 nsScreenManagerWin
-MOZ_FINAL
+final
 :
 public
 nsIScreenManager

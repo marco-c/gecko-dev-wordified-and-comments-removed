@@ -44,7 +44,7 @@ Cache
 ;
 class
 CacheChild
-MOZ_FINAL
+final
 :
 public
 PCacheChild
@@ -80,7 +80,7 @@ void
 StartDestroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -91,7 +91,7 @@ ActorDestroy
 ActorDestroyReason
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -110,7 +110,7 @@ PCacheResponseOrVoid
 &
 aResponse
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -132,7 +132,7 @@ PCacheResponse
 &
 responses
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -147,7 +147,7 @@ nsresult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -162,7 +162,7 @@ nsresult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -181,7 +181,7 @@ bool
 &
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -203,7 +203,7 @@ PCacheRequest
 &
 requests
 )
-MOZ_OVERRIDE
+override
 ;
 Cache
 *

@@ -56,7 +56,7 @@ voicemail
 {
 class
 VoicemailIPCProvider
-MOZ_FINAL
+final
 :
 public
 nsIVoicemailProvider

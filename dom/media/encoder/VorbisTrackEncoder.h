@@ -55,8 +55,8 @@ TrackMetadataBase
 GetMetadata
 (
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 nsresult
 GetEncodedTrack
@@ -65,8 +65,8 @@ EncodedFrameContainer
 &
 aData
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 protected
 :
@@ -74,8 +74,8 @@ int
 GetPacketDuration
 (
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 1024
@@ -89,8 +89,8 @@ aChannels
 int
 aSamplingRate
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 private
 :

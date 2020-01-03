@@ -115,7 +115,7 @@ dom
 {
 class
 PluginDocument
-MOZ_FINAL
+final
 :
 public
 MediaDocument
@@ -161,7 +161,7 @@ aSink
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -171,7 +171,7 @@ nsIScriptGlobalObject
 *
 aScriptGlobalObject
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -181,7 +181,7 @@ nsIRequest
 *
 aNewRequest
 )
-MOZ_OVERRIDE
+override
 ;
 const
 nsCString

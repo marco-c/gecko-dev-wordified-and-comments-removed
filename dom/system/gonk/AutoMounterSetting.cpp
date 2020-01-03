@@ -255,7 +255,7 @@ system
 {
 class
 SettingsServiceCallback
-MOZ_FINAL
+final
 :
 public
 nsISettingsServiceCallback
@@ -369,7 +369,7 @@ nsISettingsServiceCallback
 )
 class
 CheckVolumeSettingsCallback
-MOZ_FINAL
+final
 :
 public
 nsISettingsServiceCallback

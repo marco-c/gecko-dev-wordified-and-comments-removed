@@ -55,7 +55,7 @@ h
 "
 class
 gfxXlibSurface
-MOZ_FINAL
+final
 :
 public
 gfxASurface
@@ -201,14 +201,14 @@ gfxIntSize
 &
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Finish
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -217,7 +217,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 Display
 *
@@ -332,7 +332,7 @@ GetMemoryLocation
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 if

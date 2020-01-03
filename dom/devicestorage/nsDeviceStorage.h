@@ -230,7 +230,7 @@ DEVICE_STORAGE_REQUEST_CREATEFD
 ;
 class
 DeviceStorageUsedSpaceCache
-MOZ_FINAL
+final
 {
 public
 :
@@ -252,7 +252,7 @@ DeviceStorageUsedSpaceCache
 ;
 class
 InvalidateRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -290,7 +290,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsRefPtr
 <
@@ -536,7 +536,7 @@ sDeviceStorageUsedSpaceCache
 ;
 class
 DeviceStorageTypeChecker
-MOZ_FINAL
+final
 {
 public
 :
@@ -694,7 +694,7 @@ sDeviceStorageTypeChecker
 ;
 class
 ContinueCursorEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -745,7 +745,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -773,7 +773,7 @@ mRequest
 ;
 class
 nsDOMDeviceStorageCursor
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -824,7 +824,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 nsDOMDeviceStorageCursor
 (
@@ -868,7 +868,7 @@ void
 RequestComplete
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

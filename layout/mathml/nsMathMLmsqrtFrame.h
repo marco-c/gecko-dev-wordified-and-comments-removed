@@ -56,7 +56,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 InheritAutomaticData
@@ -65,7 +65,7 @@ nsIFrame
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -79,14 +79,14 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsMrowLike
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mFrames

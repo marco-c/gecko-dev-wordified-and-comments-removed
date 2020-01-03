@@ -93,7 +93,7 @@ status
 ;
 class
 nsFtpControlConnection
-MOZ_FINAL
+final
 :
 public
 nsIInputStreamCallback

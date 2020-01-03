@@ -96,7 +96,7 @@ nsHashPropertyBag
 ;
 class
 nsHashPropertyBagCC
-MOZ_FINAL
+final
 :
 public
 nsHashPropertyBagBase

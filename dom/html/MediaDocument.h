@@ -88,7 +88,7 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -121,7 +121,7 @@ aSink
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -131,14 +131,14 @@ nsIScriptGlobalObject
 *
 aGlobalObject
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 WillIgnoreCharsetOverride
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true

@@ -218,7 +218,7 @@ nsISupports
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetSuccessResult
@@ -238,7 +238,7 @@ Value
 >
 aVal
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -313,7 +313,7 @@ Value
 >
 aVal
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -478,7 +478,7 @@ nsISupports
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 uint64_t
 mOffset
@@ -556,7 +556,7 @@ nsISupports
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

@@ -1349,7 +1349,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1445,7 +1445,7 @@ MemoryReportRequestChild
 }
 class
 CycleCollectWithLogsChild
-MOZ_FINAL
+final
 :
 public
 PCycleCollectWithLogsChild
@@ -1500,7 +1500,7 @@ FILE
 *
 aCCLog
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1540,7 +1540,7 @@ NS_IMETHOD
 CloseGCLog
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1568,7 +1568,7 @@ NS_IMETHOD
 CloseCCLog
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1599,7 +1599,7 @@ nsAString
 &
 aIdentifier
 )
-MOZ_OVERRIDE
+override
 {
 return
 UnimplementedProperty
@@ -1615,7 +1615,7 @@ nsAString
 &
 aIdentifier
 )
-MOZ_OVERRIDE
+override
 {
 return
 UnimplementedProperty
@@ -1630,7 +1630,7 @@ int32_t
 *
 aIdentifier
 )
-MOZ_OVERRIDE
+override
 {
 return
 UnimplementedProperty
@@ -1644,7 +1644,7 @@ SetProcessIdentifier
 int32_t
 aIdentifier
 )
-MOZ_OVERRIDE
+override
 {
 return
 UnimplementedProperty
@@ -1660,7 +1660,7 @@ nsIFile
 *
 aPath
 )
-MOZ_OVERRIDE
+override
 {
 return
 UnimplementedProperty
@@ -1676,7 +1676,7 @@ nsIFile
 *
 aPath
 )
-MOZ_OVERRIDE
+override
 {
 return
 UnimplementedProperty
@@ -1907,7 +1907,7 @@ mData
 ;
 class
 ConsoleListener
-MOZ_FINAL
+final
 :
 public
 nsIConsoleListener
@@ -2194,7 +2194,7 @@ NS_OK
 }
 class
 SystemMessageHandledObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -2318,7 +2318,7 @@ nsIObserver
 )
 class
 BackgroundChildPrimer
-MOZ_FINAL
+final
 :
 public
 nsIIPCBackgroundChildCreateCallback
@@ -2347,7 +2347,7 @@ PBackgroundChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2369,7 +2369,7 @@ void
 ActorFailed
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -3760,7 +3760,7 @@ actor
 }
 class
 MemoryReportsWrapper
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -3806,7 +3806,7 @@ MemoryReportsWrapper
 )
 class
 MemoryReportCallback
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporterCallback
@@ -3854,7 +3854,7 @@ nsISupports
 *
 aiWrappedReports
 )
-MOZ_OVERRIDE
+override
 {
 MemoryReportsWrapper
 *

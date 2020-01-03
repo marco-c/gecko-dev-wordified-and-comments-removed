@@ -143,7 +143,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -153,7 +153,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -515,7 +515,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -563,7 +563,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 {
 nsListControlFrame
 *

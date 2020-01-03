@@ -169,7 +169,7 @@ SVGSVGElement
 ;
 class
 DOMSVGTranslatePoint
-MOZ_FINAL
+final
 :
 public
 nsISVGPoint
@@ -235,14 +235,14 @@ DOMSVGPoint
 Copy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 float
 X
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mPt
@@ -257,7 +257,7 @@ float
 Y
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mPt
@@ -277,7 +277,7 @@ ErrorResult
 &
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -289,7 +289,7 @@ ErrorResult
 &
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -302,7 +302,7 @@ SVGMatrix
 &
 matrix
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsISupports
@@ -310,7 +310,7 @@ nsISupports
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <
@@ -393,7 +393,7 @@ SVGSVGElementBase
 ;
 class
 SVGSVGElement
-MOZ_FINAL
+final
 :
 public
 SVGSVGElementBase
@@ -460,7 +460,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 nsresult
@@ -579,7 +579,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -589,7 +589,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -599,7 +599,7 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfxMatrix
@@ -615,7 +615,7 @@ aWhich
 eAllTransforms
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -623,7 +623,7 @@ HasValidDimensions
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 float
 GetLength
@@ -737,7 +737,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 IsOverriddenBy
@@ -1062,7 +1062,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1073,7 +1073,7 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
+override
 ;
 SVGViewElement
 *
@@ -1329,7 +1329,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {
@@ -1357,7 +1357,7 @@ EnumAttributesInfo
 GetEnumInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {
@@ -1389,7 +1389,7 @@ nsSVGViewBox
 GetViewBox
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 SVGAnimatedPreserveAspectRatio
@@ -1397,7 +1397,7 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsSVGViewBox
 mViewBox

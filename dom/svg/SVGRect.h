@@ -41,7 +41,7 @@ dom
 {
 class
 SVGRect
-MOZ_FINAL
+final
 :
 public
 SVGIRect
@@ -91,8 +91,8 @@ X
 (
 )
 const
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 return
 mX
@@ -108,7 +108,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_FINAL
+final
 {
 mX
 =
@@ -121,8 +121,8 @@ Y
 (
 )
 const
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 return
 mY
@@ -138,7 +138,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_FINAL
+final
 {
 mY
 =
@@ -151,8 +151,8 @@ Width
 (
 )
 const
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 return
 mWidth
@@ -168,7 +168,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_FINAL
+final
 {
 mWidth
 =
@@ -181,8 +181,8 @@ Height
 (
 )
 const
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 return
 mHeight
@@ -198,7 +198,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_FINAL
+final
 {
 mHeight
 =
@@ -212,7 +212,7 @@ GetParentObject
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mParent

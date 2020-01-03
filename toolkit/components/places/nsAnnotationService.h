@@ -84,7 +84,7 @@ places
 {
 class
 AnnotatedResult
-MOZ_FINAL
+final
 :
 public
 mozIAnnotatedResult
@@ -150,7 +150,7 @@ mAnnotationValue
 }
 class
 nsAnnotationService
-MOZ_FINAL
+final
 :
 public
 nsIAnnotationService

@@ -44,7 +44,7 @@ h
 "
 class
 nsInterfaceRequestorAgg
-MOZ_FINAL
+final
 :
 public
 nsIInterfaceRequestor

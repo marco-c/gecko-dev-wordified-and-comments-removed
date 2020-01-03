@@ -2395,7 +2395,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4849,7 +4849,7 @@ DBusMessage
 *
 aReply
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -5386,7 +5386,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -9580,7 +9580,7 @@ mConnection
 ;
 class
 StartBluetoothRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -9890,7 +9890,7 @@ rv
 }
 class
 DisableBluetoothRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -10006,7 +10006,7 @@ rv
 ;
 class
 DeleteDBusConnectionTask
-MOZ_FINAL
+final
 :
 public
 Task
@@ -10312,7 +10312,7 @@ PL_DHASH_NEXT
 ;
 class
 StopBluetoothRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -10457,7 +10457,7 @@ DBusMessage
 *
 aReply
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -10870,7 +10870,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -11182,7 +11182,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -11554,7 +11554,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -11995,7 +11995,7 @@ DBusMessage
 *
 aReply
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -12740,7 +12740,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -13374,7 +13374,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 Send
 (
@@ -13432,7 +13432,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 const
 char
@@ -13500,7 +13500,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 Send
 (
@@ -13803,7 +13803,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -14021,7 +14021,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -14343,7 +14343,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -14709,7 +14709,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -15867,7 +15867,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 static
 const
@@ -16155,7 +16155,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -17119,7 +17119,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -17894,7 +17894,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -18436,7 +18436,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -18694,7 +18694,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

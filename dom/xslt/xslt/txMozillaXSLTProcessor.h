@@ -192,7 +192,7 @@ properties
 "
 class
 txMozillaXSLTProcessor
-MOZ_FINAL
+final
 :
 public
 nsIXSLTProcessor
@@ -226,7 +226,7 @@ nsITransformObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 LoadStyleSheet
@@ -238,7 +238,7 @@ nsIDocument
 *
 aLoaderDocument
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetSourceContentModel
@@ -247,13 +247,13 @@ nsIDOMNode
 *
 aSource
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CancelLoads
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -271,7 +271,7 @@ nsString
 &
 aNamespace
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AddXSLTParam
@@ -296,7 +296,7 @@ nsIDOMNode
 *
 aContext
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIMUTATIONOBSERVER_CHARACTERDATACHANGED
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
@@ -322,7 +322,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsISupports
 *

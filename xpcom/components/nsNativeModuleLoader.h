@@ -34,7 +34,7 @@ FileLocation
 }
 class
 nsNativeModuleLoader
-MOZ_FINAL
+final
 {
 public
 :

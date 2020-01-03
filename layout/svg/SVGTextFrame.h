@@ -443,7 +443,7 @@ gfxMatrix
 &
 aCTM
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -462,7 +462,7 @@ gfxMatrix
 &
 aCTM
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetFillOpacity
@@ -480,7 +480,7 @@ float
 GetFillOpacity
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mFillOpacity
@@ -502,7 +502,7 @@ float
 GetStrokeOpacity
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStrokeOpacity
@@ -695,7 +695,7 @@ mStrokeOpacity
 }
 class
 SVGTextFrame
-MOZ_FINAL
+final
 :
 public
 SVGTextFrameBase
@@ -867,7 +867,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -881,7 +881,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsContainerFrame
@@ -889,7 +889,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 GetFirstPrincipalChild
@@ -918,7 +918,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -927,7 +927,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -941,7 +941,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -966,7 +966,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -978,7 +978,7 @@ FrameWithDistance
 *
 aCurrentBestFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -987,7 +987,7 @@ NotifySVGChanged
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1007,7 +1007,7 @@ aDirtyRect
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -1019,21 +1019,21 @@ gfxPoint
 &
 aPoint
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ReflowSVG
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
 GetCoveredRegion
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 SVGBBox
@@ -1046,14 +1046,14 @@ aToBBoxUserspace
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfxMatrix
 GetCanvasTM
 (
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 GetNumberOfChars
@@ -1269,7 +1269,7 @@ private
 :
 class
 MutationObserver
-MOZ_FINAL
+final
 :
 public
 nsStubMutationObserver

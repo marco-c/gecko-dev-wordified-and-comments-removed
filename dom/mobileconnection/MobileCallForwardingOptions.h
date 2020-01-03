@@ -38,7 +38,7 @@ mobileconnection
 {
 class
 MobileCallForwardingOptions
-MOZ_FINAL
+final
 :
 public
 nsIMobileCallForwardingOptions

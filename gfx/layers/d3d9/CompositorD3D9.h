@@ -88,14 +88,14 @@ bool
 Initialize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -103,7 +103,7 @@ TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -117,7 +117,7 @@ IntSize
 &
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -125,7 +125,7 @@ GetMaxTextureSize
 (
 )
 const
-MOZ_FINAL
+final
 ;
 virtual
 void
@@ -136,7 +136,7 @@ aFlags
 =
 0
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -156,7 +156,7 @@ aRect
 SurfaceInitMode
 aInit
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -184,7 +184,7 @@ IntPoint
 &
 aSourcePoint
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -202,7 +202,7 @@ GetCurrentRenderTarget
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mCurrentRT
@@ -220,7 +220,7 @@ IntSize
 &
 aSize
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -235,7 +235,7 @@ Rect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -272,7 +272,7 @@ Matrix4x4
 &
 aTransform
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -313,14 +313,14 @@ aRenderBoundsOut
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 EndFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -334,7 +334,7 @@ Matrix
 &
 aTransform
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -349,14 +349,14 @@ IntSize
 &
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 SupportsPartialTextureUpdate
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -373,7 +373,7 @@ Name
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -389,7 +389,7 @@ GetBackendType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 LayersBackend
@@ -405,7 +405,7 @@ GetWidget
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mWidget
@@ -447,7 +447,7 @@ bool
 Ready
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -458,7 +458,7 @@ ScreenPoint
 &
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -501,7 +501,7 @@ TextureFlags
 :
 NO_FLAGS
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -571,7 +571,7 @@ GetWidgetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 gfx

@@ -39,7 +39,7 @@ nsIFile
 ;
 class
 nsDirectoryIndexStream
-MOZ_FINAL
+final
 :
 public
 nsIInputStream

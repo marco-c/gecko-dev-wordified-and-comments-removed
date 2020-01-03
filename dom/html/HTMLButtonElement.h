@@ -48,7 +48,7 @@ dom
 {
 class
 HTMLButtonElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLFormElementWithState
@@ -97,7 +97,7 @@ int32_t
 TabIndexDefault
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
@@ -112,7 +112,7 @@ bool
 aIgnoreTabindex
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -127,7 +127,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mType
@@ -137,7 +137,7 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -146,13 +146,13 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SaveState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RestoreState
@@ -161,7 +161,7 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -170,7 +170,7 @@ IsDisabledForEvents
 uint32_t
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -179,7 +179,7 @@ FieldSetDisabledChanged
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -189,7 +189,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -199,7 +199,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -220,7 +220,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -240,7 +240,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -258,7 +258,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -273,14 +273,14 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DoneCreatingElement
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 UpdateBarredFromConstraintValidation
@@ -292,7 +292,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -310,7 +310,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 AfterSetAttr
@@ -327,7 +327,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -346,7 +346,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -361,7 +361,7 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Autofocus

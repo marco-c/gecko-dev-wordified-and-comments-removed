@@ -57,7 +57,7 @@ h
 "
 class
 nsHtml5Speculation
-MOZ_FINAL
+final
 :
 public
 nsAHtml5TreeOpSink

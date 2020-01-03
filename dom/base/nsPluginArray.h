@@ -54,7 +54,7 @@ nsMimeType
 ;
 class
 nsPluginArray
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -105,7 +105,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Init
@@ -262,7 +262,7 @@ mHiddenPlugins
 ;
 class
 nsPluginElement
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -311,7 +311,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsPluginTag
 *

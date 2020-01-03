@@ -47,7 +47,7 @@ NS_IMETHODIMP
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 Show
@@ -62,7 +62,7 @@ nsIWebBrowserPrint
 *
 aWebBrowserPrint
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 ShowPageSetup
@@ -74,7 +74,7 @@ nsIPrintSettings
 *
 aSettings
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

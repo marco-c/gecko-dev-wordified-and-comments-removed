@@ -53,7 +53,7 @@ mobileconnection
 {
 class
 MobileConnectionCallback
-MOZ_FINAL
+final
 :
 public
 nsIMobileConnectionCallback

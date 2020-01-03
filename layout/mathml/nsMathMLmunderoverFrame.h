@@ -55,7 +55,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 InheritAutomaticData
@@ -64,13 +64,13 @@ nsIFrame
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 TransmitAutomaticData
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 UpdatePresentationData
@@ -80,7 +80,7 @@ aFlagsValues
 uint32_t
 aFlagsToUpdate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -94,7 +94,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 uint8_t
 ScriptIncrement
@@ -103,7 +103,7 @@ nsIFrame
 *
 aFrame
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

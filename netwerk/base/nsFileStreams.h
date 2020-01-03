@@ -292,7 +292,7 @@ NS_IMETHOD
 Close
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Tell
@@ -301,7 +301,7 @@ int64_t
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Available
@@ -310,7 +310,7 @@ uint64_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Read
@@ -324,7 +324,7 @@ uint32_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ReadSegments
@@ -340,7 +340,7 @@ uint32_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsFileStreamBase
@@ -362,7 +362,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsFileStreamBase
@@ -382,7 +382,7 @@ aWhence
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 nsFileInputStream
 (
@@ -524,7 +524,7 @@ int64_t
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Available
@@ -533,7 +533,7 @@ uint64_t
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Read
@@ -547,7 +547,7 @@ uint32_t
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Seek
@@ -557,7 +557,7 @@ aWhence
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsresult
@@ -697,13 +697,13 @@ nsresult
 DoOpen
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 Close
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 Write
@@ -718,7 +718,7 @@ uint32_t
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 Init
@@ -733,7 +733,7 @@ perm
 int32_t
 behaviorFlags
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -780,7 +780,7 @@ NS_IMETHOD
 Finish
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -810,7 +810,7 @@ NS_IMETHOD
 Flush
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsFileStreamBase
@@ -834,7 +834,7 @@ uint32_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsFileStreamBase
@@ -860,7 +860,7 @@ uint32_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsFileStreamBase
@@ -888,7 +888,7 @@ uint32_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsFileStreamBase

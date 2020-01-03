@@ -569,7 +569,7 @@ aOutPath
 }
 class
 DelayedPathSetter
-MOZ_FINAL
+final
 :
 public
 nsIObserver

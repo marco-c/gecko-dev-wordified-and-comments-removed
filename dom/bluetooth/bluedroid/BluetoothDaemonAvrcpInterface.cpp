@@ -1890,7 +1890,7 @@ BluetoothDaemonAvrcpModule
 :
 :
 NotificationHandlerWrapper
-MOZ_FINAL
+final
 {
 public
 :
@@ -1923,7 +1923,7 @@ BluetoothDaemonAvrcpModule
 :
 :
 RemoteFeatureInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -2165,7 +2165,7 @@ BluetoothDaemonAvrcpModule
 :
 :
 GetPlayerAppValueInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -2305,7 +2305,7 @@ BluetoothDaemonAvrcpModule
 :
 :
 GetPlayerAppAttrsTextInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -2445,7 +2445,7 @@ BluetoothDaemonAvrcpModule
 :
 :
 GetPlayerAppValuesTextInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -2640,7 +2640,7 @@ BluetoothDaemonAvrcpModule
 :
 :
 GetElementAttrInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -2850,7 +2850,7 @@ BluetoothDaemonAvrcpModule
 :
 :
 PassthroughCmdInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -3325,7 +3325,7 @@ BluetoothDaemonAvrcpInterface
 :
 :
 InitResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothSetupResultHandler
@@ -3356,7 +3356,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -3378,7 +3378,7 @@ void
 RegisterModule
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -3501,7 +3501,7 @@ BluetoothDaemonAvrcpInterface
 :
 :
 CleanupResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothSetupResultHandler
@@ -3539,7 +3539,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -3567,7 +3567,7 @@ void
 UnregisterModule
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

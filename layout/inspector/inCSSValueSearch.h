@@ -67,7 +67,7 @@ nsIURI
 ;
 class
 inCSSValueSearch
-MOZ_FINAL
+final
 :
 public
 inICSSValueSearch

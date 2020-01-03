@@ -67,7 +67,7 @@ nsRect
 ;
 class
 nsImageMap
-MOZ_FINAL
+final
 :
 public
 nsStubMutationObserver

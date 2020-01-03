@@ -101,7 +101,7 @@ h
 "
 class
 nsDNSService
-MOZ_FINAL
+final
 :
 public
 nsPIDNSService

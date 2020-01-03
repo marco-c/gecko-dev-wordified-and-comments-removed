@@ -6607,7 +6607,7 @@ Destroy
 }
 class
 nsDOMStyleSheetSetList
-MOZ_FINAL
+final
 :
 public
 DOMStringList
@@ -6637,7 +6637,7 @@ void
 EnsureFresh
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -6867,7 +6867,7 @@ nsIDocument
 :
 :
 SelectorCacheKeyDeleter
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -26069,7 +26069,7 @@ namespace
 {
 class
 ProcessStackRunner
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -26102,7 +26102,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsDocument
 :
@@ -43101,7 +43101,7 @@ namespace
 {
 class
 StubCSSLoaderObserver
-MOZ_FINAL
+final
 :
 public
 nsICSSLoaderObserver
@@ -43122,7 +43122,7 @@ CSSStyleSheet
 bool
 nsresult
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -52265,7 +52265,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <

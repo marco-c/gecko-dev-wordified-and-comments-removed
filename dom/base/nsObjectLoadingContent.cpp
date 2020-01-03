@@ -1651,7 +1651,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Notify
@@ -1660,7 +1660,7 @@ nsITimer
 *
 timer
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -5620,7 +5620,7 @@ NS_OK
 }
 class
 ObjectInterfaceRequestorShim
-MOZ_FINAL
+final
 :
 public
 nsIInterfaceRequestor

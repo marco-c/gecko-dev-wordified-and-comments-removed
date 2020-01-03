@@ -61,8 +61,8 @@ int32_t
 *
 aY
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 NS_IMETHOD
 GetImageSize
@@ -74,8 +74,8 @@ int32_t
 *
 aHeight
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 protected
 :

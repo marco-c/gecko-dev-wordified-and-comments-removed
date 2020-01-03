@@ -29,7 +29,7 @@ h
 "
 class
 nsAutoCopyListener
-MOZ_FINAL
+final
 :
 public
 nsISelectionListener

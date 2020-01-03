@@ -25,7 +25,7 @@ nsFontMetrics
 ;
 class
 nsMathMLmfencedFrame
-MOZ_FINAL
+final
 :
 public
 nsMathMLContainerFrame
@@ -56,7 +56,7 @@ nsStyleContext
 *
 aStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsStyleContext
@@ -67,7 +67,7 @@ int32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 InheritAutomaticData
@@ -76,7 +76,7 @@ nsIFrame
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -88,7 +88,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -108,7 +108,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -126,7 +126,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -139,7 +139,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -153,7 +153,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -162,7 +162,7 @@ ChildListChanged
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -172,7 +172,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsresult
@@ -237,7 +237,7 @@ bool
 IsMrowLike
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true

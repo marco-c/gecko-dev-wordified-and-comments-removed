@@ -125,7 +125,7 @@ IsAllocated
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -137,7 +137,7 @@ HasInternalBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -152,7 +152,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSize
@@ -166,7 +166,7 @@ SurfaceDescriptor
 &
 aOutDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -175,14 +175,14 @@ Lock
 OpenMode
 mode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Unlock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -190,7 +190,7 @@ IsLocked
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mIsLocked
@@ -205,7 +205,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 gfx
@@ -237,7 +237,7 @@ aAllocFlags
 ALLOC_DEFAULT
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -255,7 +255,7 @@ aSize
 TextureAllocationFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -328,7 +328,7 @@ IsAllocated
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -340,7 +340,7 @@ HasInternalBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -368,7 +368,7 @@ SurfaceDescriptor
 &
 aOutDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -377,14 +377,14 @@ Lock
 OpenMode
 mode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Unlock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -392,7 +392,7 @@ IsLocked
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mIsLocked
@@ -407,7 +407,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 gfx
@@ -439,7 +439,7 @@ aAllocFlags
 ALLOC_DEFAULT
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -457,7 +457,7 @@ aSize
 TextureAllocationFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 {
 return
 false

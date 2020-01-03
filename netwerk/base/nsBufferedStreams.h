@@ -212,13 +212,13 @@ NS_IMETHOD
 Fill
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Flush
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -303,7 +303,7 @@ NS_IMETHOD
 Fill
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK

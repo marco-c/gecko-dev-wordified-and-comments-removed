@@ -69,7 +69,7 @@ SVGAElementBase
 ;
 class
 SVGAElement
-MOZ_FINAL
+final
 :
 public
 SVGAElementBase
@@ -140,7 +140,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -158,7 +158,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -168,7 +168,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -189,7 +189,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -207,7 +207,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -222,7 +222,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -236,7 +236,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -248,7 +248,7 @@ aTabIndex
 bool
 aWithMouse
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -260,7 +260,7 @@ nsIURI
 aURI
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -270,7 +270,7 @@ nsAString
 &
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -281,7 +281,7 @@ GetHrefURI
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventStates
@@ -289,7 +289,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetAttr
@@ -337,7 +337,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -351,7 +351,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -402,7 +402,7 @@ StringAttributesInfo
 GetStringInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

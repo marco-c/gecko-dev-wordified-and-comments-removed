@@ -34,7 +34,7 @@ public
 :
 class
 StoreRef
-MOZ_FINAL
+final
 {
 public
 :

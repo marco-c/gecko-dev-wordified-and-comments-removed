@@ -436,7 +436,7 @@ WidgetGUIEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -449,7 +449,7 @@ WidgetKeyboardEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -462,7 +462,7 @@ WidgetWheelEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -475,7 +475,7 @@ WidgetContentCommandEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -486,7 +486,7 @@ MSG
 &
 aMsg
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -497,7 +497,7 @@ bool
 IsTopLevelWidget
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -511,7 +511,7 @@ GetParentWindowBase
 bool
 aIncludeOwner
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -533,7 +533,7 @@ aPoint
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -867,7 +867,7 @@ GetMaxTouchPoints
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1010,7 +1010,7 @@ nsIMEUpdatePreference
 GetIMEUpdatePreference
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SizeModeChanged
@@ -1393,7 +1393,7 @@ void
 ConfigureAPZCTreeManager
 (
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -1402,7 +1402,7 @@ GeckoContentController
 NewRootContentController
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetSubclass
@@ -1429,7 +1429,7 @@ IMENotification
 &
 aIMENotification
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DispatchAsyncScrollEvent

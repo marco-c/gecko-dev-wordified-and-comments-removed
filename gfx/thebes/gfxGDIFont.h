@@ -150,7 +150,7 @@ uint32_t
 GetSpaceGlyph
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -160,7 +160,7 @@ gfxContext
 *
 aContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 RunMetrics
@@ -184,7 +184,7 @@ aSpacing
 uint16_t
 aOrientation
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfxFont
@@ -194,7 +194,7 @@ CopyWithAntialiasOption
 AntialiasOption
 anAAOption
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -202,7 +202,7 @@ ProvidesGetGlyph
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -223,7 +223,7 @@ aUnicode
 uint32_t
 aVarSelector
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -231,7 +231,7 @@ ProvidesGlyphWidths
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -247,7 +247,7 @@ aDrawTarget
 uint16_t
 aGID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -285,7 +285,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 FONT_TYPE_GDI
@@ -300,7 +300,7 @@ Metrics
 GetHorizontalMetrics
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -325,7 +325,7 @@ gfxShapedText
 *
 aShapedText
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Initialize

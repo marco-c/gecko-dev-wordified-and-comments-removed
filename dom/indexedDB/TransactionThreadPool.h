@@ -78,7 +78,7 @@ indexedDB
 {
 class
 TransactionThreadPool
-MOZ_FINAL
+final
 {
 class
 FinishTransactionRunnable

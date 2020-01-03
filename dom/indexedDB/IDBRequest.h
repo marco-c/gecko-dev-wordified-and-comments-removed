@@ -296,7 +296,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetSource
@@ -568,7 +568,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -647,7 +647,7 @@ ResultCallback
 ;
 class
 IDBOpenDBRequest
-MOZ_FINAL
+final
 :
 public
 IDBRequest
@@ -735,7 +735,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 IDBFactory
 *
@@ -782,7 +782,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

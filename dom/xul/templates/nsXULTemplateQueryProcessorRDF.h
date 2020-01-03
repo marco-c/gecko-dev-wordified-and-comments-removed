@@ -167,7 +167,7 @@ nsXULTemplateResultRDF
 ;
 class
 nsXULTemplateQueryProcessorRDF
-MOZ_FINAL
+final
 :
 public
 nsIXULTemplateQueryProcessor

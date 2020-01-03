@@ -1082,7 +1082,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsContentUtils
 :
@@ -1840,7 +1840,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -1886,7 +1886,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 {
 return
 static_cast
@@ -1923,7 +1923,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

@@ -486,7 +486,7 @@ DOMQuad
 :
 :
 QuadBounds
-MOZ_FINAL
+final
 :
 public
 DOMRectReadOnly
@@ -528,7 +528,7 @@ X
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 double
 x1
@@ -552,7 +552,7 @@ Y
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 double
 y1
@@ -576,7 +576,7 @@ Width
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 double
 x1
@@ -602,7 +602,7 @@ Height
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 double
 y1

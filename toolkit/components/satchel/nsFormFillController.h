@@ -132,7 +132,7 @@ nsINode
 ;
 class
 nsFormFillController
-MOZ_FINAL
+final
 :
 public
 nsIFormFillController

@@ -186,7 +186,7 @@ sRilConsumers
 ;
 class
 ConnectWorkerToRIL
-MOZ_FINAL
+final
 :
 public
 WorkerTask
@@ -200,13 +200,13 @@ JSContext
 *
 aCx
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 SendRilSocketDataTask
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -237,7 +237,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -837,7 +837,7 @@ PostToRIL
 }
 class
 DispatchRILEvent
-MOZ_FINAL
+final
 :
 public
 WorkerTask
@@ -871,7 +871,7 @@ JSContext
 *
 aCx
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1047,7 +1047,7 @@ rval
 }
 class
 RilConnector
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -1077,7 +1077,7 @@ int
 Create
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 CreateAddr
@@ -1095,7 +1095,7 @@ char
 *
 aAddress
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 SetUp
@@ -1103,7 +1103,7 @@ SetUp
 int
 aFd
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 SetUpListenSocket
@@ -1111,7 +1111,7 @@ SetUpListenSocket
 int
 aFd
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetSocketAddr
@@ -1124,7 +1124,7 @@ nsAString
 &
 aAddrStr
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

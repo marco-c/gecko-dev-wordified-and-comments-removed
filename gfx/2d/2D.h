@@ -505,7 +505,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 PatternType
@@ -574,7 +574,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 PatternType
@@ -667,7 +667,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 PatternType
@@ -767,7 +767,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 PatternType
@@ -967,7 +967,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DataSourceSurface
-MOZ_OVERRIDE
+override
 )
 DataSourceSurface
 (
@@ -1032,7 +1032,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 SurfaceType
@@ -1123,7 +1123,7 @@ DataSourceSurface
 GetDataSurface
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

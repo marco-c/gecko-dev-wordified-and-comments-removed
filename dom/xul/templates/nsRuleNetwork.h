@@ -2864,7 +2864,7 @@ bool
 &
 aTakenInstantiations
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult

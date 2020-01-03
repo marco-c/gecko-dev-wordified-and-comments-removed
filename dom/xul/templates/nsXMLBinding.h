@@ -139,7 +139,7 @@ nsXMLBinding
 ;
 class
 nsXMLBindingSet
-MOZ_FINAL
+final
 {
 ~
 nsXMLBindingSet

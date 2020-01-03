@@ -66,7 +66,7 @@ ShadowableLayer
 AsShadowableLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -78,7 +78,7 @@ Layer
 AsLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -89,7 +89,7 @@ void
 RenderLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 }

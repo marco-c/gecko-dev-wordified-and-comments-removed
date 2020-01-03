@@ -175,7 +175,7 @@ input_
 ;
 class
 TransportLayerDtls
-MOZ_FINAL
+final
 :
 public
 TransportLayer

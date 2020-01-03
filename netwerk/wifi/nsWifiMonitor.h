@@ -209,7 +209,7 @@ ifndef
 MOZ_WIDGET_GONK
 class
 nsWifiMonitor
-MOZ_FINAL
+final
 :
 nsIRunnable
 nsIWifiMonitor
@@ -296,7 +296,7 @@ h
 "
 class
 nsWifiMonitor
-MOZ_FINAL
+final
 :
 nsIWifiMonitor
 nsIWifiScanResultsReady

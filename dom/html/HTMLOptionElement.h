@@ -49,7 +49,7 @@ HTMLSelectElement
 ;
 class
 HTMLOptionElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -174,7 +174,7 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -192,7 +192,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -210,7 +210,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetSelectedInternal
@@ -237,7 +237,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -252,7 +252,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventStates
@@ -260,7 +260,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -281,7 +281,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 CopyInnerTo
@@ -303,7 +303,7 @@ IsDisabled
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 HasAttr
@@ -495,7 +495,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 HTMLSelectElement
 *

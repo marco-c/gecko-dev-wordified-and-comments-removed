@@ -56,7 +56,7 @@ dom
 {
 class
 PeriodicWave
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -121,7 +121,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 DataLength

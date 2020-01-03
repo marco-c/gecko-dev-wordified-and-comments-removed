@@ -844,7 +844,7 @@ GetTableAction
 uint32_t
 aTag
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1036,7 +1036,7 @@ format
 .
 )
 MSGFUNC_FMT_ATTR
-MOZ_OVERRIDE
+override
 {
 va_list
 va

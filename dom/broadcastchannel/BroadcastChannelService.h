@@ -47,7 +47,7 @@ ClonedMessageData
 ;
 class
 BroadcastChannelService
-MOZ_FINAL
+final
 {
 public
 :

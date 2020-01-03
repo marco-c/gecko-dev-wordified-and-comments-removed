@@ -51,7 +51,7 @@ nsIArray
 ;
 class
 nsNSSCertificateDB
-MOZ_FINAL
+final
 :
 public
 nsIX509CertDB
@@ -205,7 +205,7 @@ void
 virtualDestroyNSSReference
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 ;

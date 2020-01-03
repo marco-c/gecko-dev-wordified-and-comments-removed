@@ -50,7 +50,7 @@ nsString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 a11y
@@ -60,14 +60,14 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
 NativeState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -75,7 +75,7 @@ IsWidget
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 Accessible
@@ -84,7 +84,7 @@ ContainerWidget
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :

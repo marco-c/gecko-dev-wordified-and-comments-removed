@@ -78,7 +78,7 @@ RevisionAddedEnableStoreCallback
 ;
 class
 DataStoreService
-MOZ_FINAL
+final
 :
 public
 nsIDataStoreService

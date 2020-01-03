@@ -59,7 +59,7 @@ aFlags
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetContainerData
@@ -78,7 +78,7 @@ aFlags
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetMetadata
@@ -87,7 +87,7 @@ TrackMetadataBase
 *
 aMetadata
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

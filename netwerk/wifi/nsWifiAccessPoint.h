@@ -52,7 +52,7 @@ define
 __nsWifiAccessPoint__
 class
 nsWifiAccessPoint
-MOZ_FINAL
+final
 :
 public
 nsIWifiAccessPoint

@@ -99,7 +99,7 @@ DrawTarget
 }
 class
 nsCaret
-MOZ_FINAL
+final
 :
 public
 nsISelectionListener

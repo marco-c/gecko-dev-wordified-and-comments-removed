@@ -90,7 +90,7 @@ h
 "
 class
 nsWindowsSystemProxySettings
-MOZ_FINAL
+final
 :
 public
 nsISystemProxySettings

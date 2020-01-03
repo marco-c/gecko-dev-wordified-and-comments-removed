@@ -217,7 +217,7 @@ pkix
 Time
 time
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Result
@@ -259,7 +259,7 @@ TrustLevel
 &
 trustLevel
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Result
@@ -274,7 +274,7 @@ pkix
 DigestAlgorithm
 digestAlg
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Result
@@ -292,7 +292,7 @@ unsigned
 int
 modulusSizeInBits
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Result
@@ -317,7 +317,7 @@ pkix
 Input
 subjectPublicKeyInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Result
@@ -340,7 +340,7 @@ pkix
 NamedCurve
 curve
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Result
@@ -365,7 +365,7 @@ pkix
 Input
 subjectPublicKeyInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Result
@@ -393,7 +393,7 @@ digestBuf
 size_t
 digestBufLen
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Result
@@ -446,7 +446,7 @@ Input
 *
 aiaExtension
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Result
@@ -471,7 +471,7 @@ pkix
 Time
 time
 )
-MOZ_OVERRIDE
+override
 ;
 CertVerifier
 :

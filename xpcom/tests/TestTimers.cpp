@@ -253,7 +253,7 @@ mReentrantMonitor
 ;
 class
 TimerCallback
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback
@@ -289,7 +289,7 @@ nsITimer
 *
 aTimer
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (

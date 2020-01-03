@@ -56,7 +56,7 @@ eColGroupAnonymousCell
 ;
 class
 nsTableColGroupFrame
-MOZ_FINAL
+final
 :
 public
 nsContainerFrame
@@ -93,7 +93,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 {
 }
 nsTableColGroupType
@@ -127,7 +127,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -139,7 +139,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -151,7 +151,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -166,7 +166,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -178,7 +178,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RemoveChild
@@ -208,7 +208,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -217,7 +217,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 AddColsToTable
@@ -247,7 +247,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 Dump
@@ -344,7 +344,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame
@@ -373,7 +373,7 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -388,14 +388,14 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 InvalidateFrameForRemoval
 (
 )
-MOZ_OVERRIDE
+override
 {
 InvalidateFrameSubtree
 (
@@ -438,7 +438,7 @@ aReflowState
 nullptr
 )
 const
-MOZ_OVERRIDE
+override
 ;
 int32_t
 mColCount

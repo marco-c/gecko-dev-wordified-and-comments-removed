@@ -96,7 +96,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -126,7 +126,7 @@ char
 *
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 mGotProcessingError
@@ -158,7 +158,7 @@ bool
 AnswerError
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -167,7 +167,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 fail
 (

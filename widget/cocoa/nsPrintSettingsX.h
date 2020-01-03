@@ -149,7 +149,7 @@ nsIPrintSettings
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 _Assign
@@ -158,7 +158,7 @@ nsIPrintSettings
 *
 aPS
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 InitUnwriteableMargin

@@ -192,7 +192,7 @@ CacheEntryHandle
 ;
 class
 CacheEntry
-MOZ_FINAL
+final
 :
 public
 nsICacheEntry
@@ -507,7 +507,7 @@ aResult
 bool
 aIsNew
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnFileDoomed
@@ -515,7 +515,7 @@ OnFileDoomed
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <
@@ -1305,7 +1305,7 @@ mEntry
 ;
 class
 CacheOutputCloseListener
-MOZ_FINAL
+final
 :
 public
 nsRunnable

@@ -274,7 +274,7 @@ aServiceUuid
 int
 aChannel
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -286,7 +286,7 @@ nsAString
 &
 aDeviceAddress
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -297,7 +297,7 @@ nsAString
 &
 aDeviceAddress
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -305,7 +305,7 @@ bool
 IsConnected
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -321,7 +321,7 @@ BluetoothProfileController
 *
 aController
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -332,7 +332,7 @@ BluetoothProfileController
 *
 aController
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -344,7 +344,7 @@ nsAString
 &
 aErrorStr
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -356,7 +356,7 @@ nsAString
 &
 AErrorStr
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -364,7 +364,7 @@ void
 Reset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 END_BLUETOOTH_NAMESPACE
 #

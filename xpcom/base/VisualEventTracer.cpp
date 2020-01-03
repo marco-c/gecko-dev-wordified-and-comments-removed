@@ -1884,7 +1884,7 @@ ifdef
 MOZ_VISUAL_EVENT_TRACER
 class
 VisualEventTracerLog
-MOZ_FINAL
+final
 :
 public
 nsIVisualEventTracerLog

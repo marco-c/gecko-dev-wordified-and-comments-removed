@@ -107,7 +107,7 @@ IDBFileHandle
 ;
 class
 FileImplSnapshot
-MOZ_FINAL
+final
 :
 public
 FileImplBase
@@ -212,7 +212,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -223,7 +223,7 @@ nsIInputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -231,7 +231,7 @@ MayBeClonedToOtherThreads
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -256,7 +256,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -264,7 +264,7 @@ IsStoredFile
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -272,7 +272,7 @@ IsWholeFile
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -280,7 +280,7 @@ IsSnapshot
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;

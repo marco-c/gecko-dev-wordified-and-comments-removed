@@ -1516,7 +1516,7 @@ namespace
 {
 class
 nsReverseStringSQLFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction

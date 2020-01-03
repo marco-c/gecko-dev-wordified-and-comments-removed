@@ -871,7 +871,7 @@ MozExternalRefCountType
 AddRef
 (
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -882,7 +882,7 @@ MozExternalRefCountType
 Release
 (
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;

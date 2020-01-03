@@ -80,7 +80,7 @@ dom
 {
 class
 ImageData
-MOZ_FINAL
+final
 :
 public
 nsISupports

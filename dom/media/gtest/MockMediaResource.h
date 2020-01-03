@@ -54,7 +54,7 @@ URI
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -65,7 +65,7 @@ nsresult
 Close
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -78,7 +78,7 @@ Suspend
 bool
 aCloseImmediately
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -86,7 +86,7 @@ void
 Resume
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -97,7 +97,7 @@ nsIPrincipal
 GetCurrentPrincipal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -108,7 +108,7 @@ bool
 CanClone
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -125,7 +125,7 @@ MediaDecoder
 *
 aDecoder
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -141,7 +141,7 @@ MediaCacheStream
 ReadMode
 aMode
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -151,7 +151,7 @@ SetPlaybackRate
 uint32_t
 aBytesPerSecond
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -167,7 +167,7 @@ uint32_t
 *
 aBytes
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -188,7 +188,7 @@ uint32_t
 *
 aBytes
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -199,7 +199,7 @@ aWhence
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -210,7 +210,7 @@ int64_t
 Tell
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -221,7 +221,7 @@ void
 Pin
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -229,7 +229,7 @@ void
 Unpin
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -240,7 +240,7 @@ bool
 *
 aIsReliable
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -251,7 +251,7 @@ int64_t
 GetLength
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int64_t
@@ -260,7 +260,7 @@ GetNextCachedData
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int64_t
@@ -269,7 +269,7 @@ GetCachedDataEnd
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -278,7 +278,7 @@ IsDataCachedToEndOfResource
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -289,7 +289,7 @@ bool
 IsSuspendedByCache
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -300,7 +300,7 @@ bool
 IsSuspended
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -318,7 +318,7 @@ aOffset
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 {
 uint32_t
 bytesRead
@@ -359,7 +359,7 @@ bool
 IsTransportSeekable
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -374,7 +374,7 @@ nsIStreamListener
 *
 aStreamListener
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -387,7 +387,7 @@ MediaByteRange
 &
 aRanges
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -397,7 +397,7 @@ GetContentType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mContentType

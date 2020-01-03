@@ -96,7 +96,7 @@ size_t
 *
 aBytesRead
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -113,7 +113,7 @@ size_t
 *
 aBytesRead
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -123,7 +123,7 @@ int64_t
 *
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 struct
 ReadRecord

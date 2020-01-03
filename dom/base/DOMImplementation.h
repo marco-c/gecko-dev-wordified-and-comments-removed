@@ -99,7 +99,7 @@ DocumentType
 ;
 class
 DOMImplementation
-MOZ_FINAL
+final
 :
 public
 nsIDOMDOMImplementation
@@ -190,7 +190,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIDOMDOMIMPLEMENTATION
 bool

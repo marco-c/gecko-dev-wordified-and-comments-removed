@@ -78,7 +78,7 @@ mEncodedFrames
 ;
 class
 EncodedFrame
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (

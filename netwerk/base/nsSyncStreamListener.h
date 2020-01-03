@@ -43,7 +43,7 @@ h
 "
 class
 nsSyncStreamListener
-MOZ_FINAL
+final
 :
 public
 nsISyncStreamListener

@@ -94,7 +94,7 @@ ManagerId
 ;
 class
 CacheStorageParent
-MOZ_FINAL
+final
 :
 public
 PCacheStorageParent
@@ -145,14 +145,14 @@ ActorDestroy
 ActorDestroyReason
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvTeardown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -171,7 +171,7 @@ PCacheQueryParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -186,7 +186,7 @@ nsString
 &
 aKey
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -201,7 +201,7 @@ nsString
 &
 aKey
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -216,7 +216,7 @@ nsString
 &
 aKey
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -227,7 +227,7 @@ RequestId
 &
 aRequestId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -239,7 +239,7 @@ ManagerId
 *
 aManagerId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -257,7 +257,7 @@ StreamList
 *
 aStreamList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -270,7 +270,7 @@ aRv
 bool
 aCacheFound
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -283,7 +283,7 @@ aRv
 CacheId
 aCacheId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -296,7 +296,7 @@ aRv
 bool
 aCacheDeleted
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -314,7 +314,7 @@ nsString
 &
 aKeys
 )
-MOZ_OVERRIDE
+override
 ;
 CacheStreamControlParent
 *

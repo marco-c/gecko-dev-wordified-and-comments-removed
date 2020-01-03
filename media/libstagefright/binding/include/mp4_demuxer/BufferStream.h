@@ -50,7 +50,7 @@ size_t
 *
 aBytesRead
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -67,7 +67,7 @@ size_t
 *
 aBytesRead
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -77,7 +77,7 @@ int64_t
 *
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -86,7 +86,7 @@ DiscardBefore
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AppendBytes

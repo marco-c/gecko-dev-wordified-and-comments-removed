@@ -35,8 +35,8 @@ double
 *
 aValue
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 NS_IMETHOD
 GetMinimumValue
@@ -45,8 +45,8 @@ double
 *
 aValue
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 NS_IMETHOD
 GetCurrentValue
@@ -55,8 +55,8 @@ double
 *
 aValue
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 NS_IMETHOD
 SetCurrentValue
@@ -64,8 +64,8 @@ SetCurrentValue
 double
 aValue
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 NS_IMETHOD
 GetMinimumIncrement
@@ -74,8 +74,8 @@ double
 *
 aMinIncrement
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 protected
 :

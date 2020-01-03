@@ -83,7 +83,7 @@ ContentParent
 ;
 class
 MmsMessage
-MOZ_FINAL
+final
 :
 public
 nsIDOMMozMmsMessage
@@ -94,7 +94,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMMOZMMSMESSAGE
 struct
 Attachment
-MOZ_FINAL
+final
 {
 nsRefPtr
 <

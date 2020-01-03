@@ -116,7 +116,7 @@ aSessionId
 uint32_t
 aSessionIdLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -127,7 +127,7 @@ aPromiseId
 bool
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -136,7 +136,7 @@ ResolvePromise
 uint32_t
 aPromiseId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -153,7 +153,7 @@ aMessage
 uint32_t
 aMessageLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -174,7 +174,7 @@ aMessage
 uint32_t
 aMessageLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -189,7 +189,7 @@ aSessionIdLength
 GMPTimestamp
 aExpiryTime
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -202,7 +202,7 @@ aSessionId
 uint32_t
 aSessionIdLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -225,7 +225,7 @@ aMessage
 uint32_t
 aMessageLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -246,7 +246,7 @@ aKeyIdLength
 GMPMediaKeyStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -255,7 +255,7 @@ SetCapabilities
 uint64_t
 aCaps
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -267,7 +267,7 @@ aBuffer
 GMPErr
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -282,7 +282,7 @@ uint32_t
 *
 aVoucherLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -297,7 +297,7 @@ uint32_t
 *
 aVoucherLength
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -311,7 +311,7 @@ bool
 RecvInit
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -341,7 +341,7 @@ GMPSessionType
 &
 aSessionType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -356,7 +356,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -378,7 +378,7 @@ uint8_t
 &
 aResponse
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -393,7 +393,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -408,7 +408,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -430,7 +430,7 @@ GMPDecryptionData
 &
 aMetadata
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -448,14 +448,14 @@ uint8_t
 &
 aServerCert
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvDecryptingComplete
 (
 )
-MOZ_OVERRIDE
+override
 ;
 template
 <

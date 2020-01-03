@@ -437,7 +437,7 @@ aDidSelfCopy
 ;
 class
 ContentClientBasic
-MOZ_FINAL
+final
 :
 public
 ContentClient
@@ -469,7 +469,7 @@ void
 Clear
 (
 )
-MOZ_OVERRIDE
+override
 {
 RotatedContentBuffer
 :
@@ -489,7 +489,7 @@ aLayer
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 {
 return
 RotatedContentBuffer
@@ -522,7 +522,7 @@ aIter
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 {
 return
 RotatedContentBuffer
@@ -547,7 +547,7 @@ DrawTarget
 &
 aReturned
 )
-MOZ_OVERRIDE
+override
 {
 BorrowDrawTarget
 :
@@ -637,7 +637,7 @@ DrawTarget
 *
 aWhiteDT
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TextureInfo
@@ -645,7 +645,7 @@ GetTextureInfo
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -742,7 +742,7 @@ void
 Clear
 (
 )
-MOZ_OVERRIDE
+override
 {
 RotatedContentBuffer
 :
@@ -782,7 +782,7 @@ aDumpHtml
 =
 false
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PaintState
@@ -794,7 +794,7 @@ aLayer
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 {
 return
 RotatedContentBuffer
@@ -827,7 +827,7 @@ aIter
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 {
 return
 RotatedContentBuffer
@@ -852,7 +852,7 @@ DrawTarget
 &
 aReturned
 )
-MOZ_OVERRIDE
+override
 {
 BorrowDrawTarget
 :
@@ -868,7 +868,7 @@ void
 BeginPaint
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -886,7 +886,7 @@ aReadbackUpdates
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -903,7 +903,7 @@ aVisibleRegion
 bool
 aDidSelfCopy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -914,7 +914,7 @@ nsIntRegion
 &
 aFrontUpdatedRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -983,7 +983,7 @@ DrawTarget
 *
 aWhiteDT
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1141,7 +1141,7 @@ void
 Clear
 (
 )
-MOZ_OVERRIDE
+override
 {
 ContentClientRemoteBuffer
 :
@@ -1174,7 +1174,7 @@ aVisibleRegion
 bool
 aDidSelfCopy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1185,14 +1185,14 @@ nsIntRegion
 &
 aFrontUpdatedRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 BeginPaint
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1203,14 +1203,14 @@ nsIntRegion
 &
 aRegionToDraw
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 EnsureBackBufferIfFrontBuffer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TextureInfo
@@ -1218,7 +1218,7 @@ GetTextureInfo
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 TextureInfo
@@ -1253,7 +1253,7 @@ aDumpHtml
 =
 false
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1262,7 +1262,7 @@ void
 DestroyFrontBuffer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1284,7 +1284,7 @@ void
 AbortTextureClientCreation
 (
 )
-MOZ_OVERRIDE
+override
 {
 mTextureClient
 =
@@ -1364,7 +1364,7 @@ nsIntRegion
 &
 aRegionToDraw
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TextureInfo
@@ -1372,7 +1372,7 @@ GetTextureInfo
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 TextureInfo

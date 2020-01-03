@@ -46,7 +46,7 @@ nsIChannel
 *
 aChannel
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

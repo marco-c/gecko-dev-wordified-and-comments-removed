@@ -86,7 +86,7 @@ nsIContent
 ;
 class
 nsXULTooltipListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener

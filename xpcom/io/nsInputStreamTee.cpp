@@ -152,7 +152,7 @@ args
 endif
 class
 nsInputStreamTee
-MOZ_FINAL
+final
 :
 public
 nsIInputStreamTee

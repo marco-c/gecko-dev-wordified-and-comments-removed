@@ -160,7 +160,7 @@ namespace
 {
 class
 PromiseHolder
-MOZ_FINAL
+final
 :
 public
 WorkerFeature
@@ -378,7 +378,7 @@ mClean
 ;
 class
 ResolvePromiseWorkerRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -555,7 +555,7 @@ true
 ;
 class
 ReleasePromiseRunnable
-MOZ_FINAL
+final
 :
 public
 MainThreadWorkerControlRunnable
@@ -634,7 +634,7 @@ true
 ;
 class
 MatchAllRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -698,7 +698,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (

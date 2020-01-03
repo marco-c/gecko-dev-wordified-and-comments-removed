@@ -55,7 +55,7 @@ PSmsChild
 ;
 class
 SmsIPCService
-MOZ_FINAL
+final
 :
 public
 nsISmsService

@@ -138,7 +138,7 @@ MOZ_HUNSPELL_CID
 }
 class
 mozHunspell
-MOZ_FINAL
+final
 :
 public
 mozISpellCheckingEngine
@@ -200,7 +200,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT

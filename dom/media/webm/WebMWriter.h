@@ -45,7 +45,7 @@ GetKind
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 METADATA_VORBIS
@@ -81,7 +81,7 @@ GetKind
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 METADATA_VP8
@@ -122,7 +122,7 @@ aFlags
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetContainerData
@@ -141,7 +141,7 @@ aFlags
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetMetadata
@@ -150,7 +150,7 @@ TrackMetadataBase
 *
 aMetadata
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

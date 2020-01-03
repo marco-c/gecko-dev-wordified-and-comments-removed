@@ -429,7 +429,7 @@ MediaSegment
 &
 aQueuedMedia
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -558,7 +558,7 @@ MediaStreamGraph
 *
 aGraph
 )
-MOZ_OVERRIDE
+override
 {
 nsRefPtr
 <

@@ -103,7 +103,7 @@ dom
 ;
 class
 nsAttributeTextNode
-MOZ_FINAL
+final
 :
 public
 nsTextNode
@@ -192,7 +192,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -207,7 +207,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 NS_DECL_NSIMUTATIONOBSERVER_NODEWILLBEDESTROYED
@@ -229,7 +229,7 @@ bool
 aCloneText
 )
 const
-MOZ_OVERRIDE
+override
 {
 already_AddRefed
 <

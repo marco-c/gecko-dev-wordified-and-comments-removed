@@ -1468,7 +1468,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

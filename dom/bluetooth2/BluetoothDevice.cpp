@@ -143,7 +143,7 @@ DOMEventTargetHelper
 )
 class
 FetchUuidsTask
-MOZ_FINAL
+final
 :
 public
 BluetoothReplyRunnable
@@ -323,7 +323,7 @@ void
 ReleaseMembers
 (
 )
-MOZ_OVERRIDE
+override
 {
 BluetoothReplyRunnable
 :

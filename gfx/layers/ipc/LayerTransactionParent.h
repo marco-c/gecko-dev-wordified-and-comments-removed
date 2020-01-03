@@ -234,7 +234,7 @@ Shmem
 *
 aShmem
 )
-MOZ_OVERRIDE
+override
 {
 return
 PLayerTransactionParent
@@ -269,7 +269,7 @@ Shmem
 *
 aShmem
 )
-MOZ_OVERRIDE
+override
 {
 return
 PLayerTransactionParent
@@ -294,7 +294,7 @@ Shmem
 &
 aShmem
 )
-MOZ_OVERRIDE
+override
 {
 PLayerTransactionParent
 :
@@ -311,7 +311,7 @@ GetCompositorBackendType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -319,7 +319,7 @@ IsSameProcess
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 const
 uint64_t
@@ -355,7 +355,7 @@ CompositableHost
 *
 aCompositableHost
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -372,7 +372,7 @@ FenceHandle
 &
 aFence
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -386,7 +386,7 @@ AsyncParentMessageData
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 base
@@ -396,7 +396,7 @@ ProcessId
 GetChildProcessId
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mChildProcessId
@@ -411,7 +411,7 @@ OpReplyRemoveTexture
 &
 aReply
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -420,7 +420,7 @@ bool
 RecvShutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -469,7 +469,7 @@ EditReplyArray
 *
 reply
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -515,21 +515,21 @@ TimeStamp
 &
 aTransactionStart
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvClearCachedResources
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvForceComposite
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -540,14 +540,14 @@ TimeStamp
 &
 aTime
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvLeaveTestMode
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -560,7 +560,7 @@ float
 *
 aOpacity
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -573,7 +573,7 @@ MaybeTransform
 *
 aTransform
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -595,7 +595,7 @@ int32_t
 &
 aY
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -605,7 +605,7 @@ APZTestData
 *
 aOutData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -619,7 +619,7 @@ float
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PLayerParent
@@ -627,7 +627,7 @@ PLayerParent
 AllocPLayerParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -637,7 +637,7 @@ PLayerParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PCompositableParent
@@ -649,7 +649,7 @@ TextureInfo
 &
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -659,7 +659,7 @@ PCompositableParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTextureParent
@@ -675,7 +675,7 @@ TextureFlags
 &
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -685,7 +685,7 @@ PTextureParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -699,7 +699,7 @@ AsyncChildMessageData
 &
 aMessages
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -708,7 +708,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Attach

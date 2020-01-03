@@ -14056,7 +14056,7 @@ rv
 }
 class
 AsyncVerifyRedirectCallbackForwarder
-MOZ_FINAL
+final
 :
 public
 nsIAsyncVerifyRedirectCallback
@@ -14088,7 +14088,7 @@ OnRedirectVerifyCallback
 nsresult
 result
 )
-MOZ_OVERRIDE
+override
 {
 mXHR
 -

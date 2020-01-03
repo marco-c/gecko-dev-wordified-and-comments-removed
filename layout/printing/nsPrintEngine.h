@@ -125,7 +125,7 @@ nsIWeakReference
 ;
 class
 nsPrintEngine
-MOZ_FINAL
+final
 :
 public
 nsIObserver

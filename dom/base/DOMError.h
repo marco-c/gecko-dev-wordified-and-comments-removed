@@ -184,7 +184,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 already_AddRefed

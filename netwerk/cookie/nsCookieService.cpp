@@ -2065,7 +2065,7 @@ mozIStorageError
 *
 aError
 )
-MOZ_OVERRIDE
+override
 {
 int32_t
 result
@@ -2162,7 +2162,7 @@ NS_OK
 ;
 class
 InsertCookieDBListener
-MOZ_FINAL
+final
 :
 public
 DBListenerErrorHandler
@@ -2176,7 +2176,7 @@ char
 GetOpType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -2213,7 +2213,7 @@ HandleResult
 mozIStorageResultSet
 *
 )
-MOZ_OVERRIDE
+override
 {
 NS_NOTREACHED
 (
@@ -2238,7 +2238,7 @@ HandleCompletion
 uint16_t
 aReason
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2305,7 +2305,7 @@ mozIStorageStatementCallback
 )
 class
 UpdateCookieDBListener
-MOZ_FINAL
+final
 :
 public
 DBListenerErrorHandler
@@ -2319,7 +2319,7 @@ char
 GetOpType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -2356,7 +2356,7 @@ HandleResult
 mozIStorageResultSet
 *
 )
-MOZ_OVERRIDE
+override
 {
 NS_NOTREACHED
 (
@@ -2381,7 +2381,7 @@ HandleCompletion
 uint16_t
 aReason
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -2396,7 +2396,7 @@ mozIStorageStatementCallback
 )
 class
 RemoveCookieDBListener
-MOZ_FINAL
+final
 :
 public
 DBListenerErrorHandler
@@ -2410,7 +2410,7 @@ char
 GetOpType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -2447,7 +2447,7 @@ HandleResult
 mozIStorageResultSet
 *
 )
-MOZ_OVERRIDE
+override
 {
 NS_NOTREACHED
 (
@@ -2472,7 +2472,7 @@ HandleCompletion
 uint16_t
 aReason
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -2487,7 +2487,7 @@ mozIStorageStatementCallback
 )
 class
 ReadCookieDBListener
-MOZ_FINAL
+final
 :
 public
 DBListenerErrorHandler
@@ -2501,7 +2501,7 @@ char
 GetOpType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -2556,7 +2556,7 @@ mozIStorageResultSet
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -2691,7 +2691,7 @@ HandleCompletion
 uint16_t
 aReason
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2788,7 +2788,7 @@ mozIStorageStatementCallback
 )
 class
 CloseCookieDBListener
-MOZ_FINAL
+final
 :
 public
 mozIStorageCompletionCallback
@@ -2829,7 +2829,7 @@ nsresult
 nsISupports
 *
 )
-MOZ_OVERRIDE
+override
 {
 gCookieService
 -
@@ -2854,7 +2854,7 @@ namespace
 {
 class
 AppClearDataObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -2883,7 +2883,7 @@ char16_t
 *
 data
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

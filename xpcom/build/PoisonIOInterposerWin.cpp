@@ -467,7 +467,7 @@ char16_t
 Filename
 (
 )
-MOZ_OVERRIDE
+override
 ;
 ~
 WinIOAutoObservation

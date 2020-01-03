@@ -187,7 +187,7 @@ nsCString
 &
 aRecordName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -198,7 +198,7 @@ nsCString
 &
 aRecordName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -216,14 +216,14 @@ uint8_t
 &
 aBytes
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvGetRecordNames
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -234,7 +234,7 @@ nsCString
 &
 aRecordName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -243,7 +243,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

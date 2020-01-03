@@ -81,7 +81,7 @@ nsDocumentOpenInfo
 ;
 class
 nsURILoader
-MOZ_FINAL
+final
 :
 public
 nsIURILoader

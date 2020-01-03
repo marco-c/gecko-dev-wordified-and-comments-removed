@@ -66,7 +66,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 VideoTrack
@@ -74,7 +74,7 @@ VideoTrack
 AsVideoTrack
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -89,7 +89,7 @@ aEnabled
 int
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Selected

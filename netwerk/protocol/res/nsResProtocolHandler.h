@@ -81,7 +81,7 @@ aCID
 ;
 class
 nsResProtocolHandler
-MOZ_FINAL
+final
 :
 public
 nsIResProtocolHandler

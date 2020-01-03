@@ -36,7 +36,7 @@ h
 "
 class
 nsHttpNegotiateAuth
-MOZ_FINAL
+final
 :
 public
 nsIHttpAuthenticator

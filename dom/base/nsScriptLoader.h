@@ -90,7 +90,7 @@ AutoJSAPI
 }
 class
 nsScriptLoader
-MOZ_FINAL
+final
 :
 public
 nsIStreamLoaderObserver

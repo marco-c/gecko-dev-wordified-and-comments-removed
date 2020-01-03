@@ -53,7 +53,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -63,7 +63,7 @@ NodeType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -79,7 +79,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

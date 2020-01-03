@@ -105,7 +105,7 @@ EventSourceInit
 ;
 class
 EventSource
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -163,7 +163,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsPIDOMWindow
 *
@@ -287,7 +287,7 @@ void
 DisconnectFromOwner
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

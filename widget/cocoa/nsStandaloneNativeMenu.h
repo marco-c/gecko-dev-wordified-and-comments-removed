@@ -45,7 +45,7 @@ nsMenuObjectTypeX
 MenuObjectType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 eStandaloneNativeMenuObjectType
@@ -56,7 +56,7 @@ void
 NativeData
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mMenu
@@ -79,7 +79,7 @@ void
 IconUpdated
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsMenuX
 *

@@ -82,7 +82,7 @@ nsHttpTransaction
 ;
 class
 SpdySession31
-MOZ_FINAL
+final
 :
 public
 ASpdySession
@@ -125,13 +125,13 @@ bool
 nsIInterfaceRequestor
 *
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 CanReuse
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -146,7 +146,7 @@ bool
 RoomForMoreStreams
 (
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 ReadTimeoutTick
@@ -154,13 +154,13 @@ ReadTimeoutTick
 PRIntervalTime
 now
 )
-MOZ_OVERRIDE
+override
 ;
 PRIntervalTime
 IdleTime
 (
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 RegisterStreamID
@@ -514,7 +514,7 @@ TransactionHasDataToWrite
 nsAHttpTransaction
 *
 )
-MOZ_OVERRIDE
+override
 ;
 void
 TransactionHasDataToWrite
@@ -532,7 +532,7 @@ size
 bool
 forceCommitment
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 BufferOutput
@@ -610,7 +610,7 @@ nsCString
 &
 log
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 SendingChunkSize
@@ -677,7 +677,7 @@ void
 SendPing
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 MaybeReTunnel
@@ -685,7 +685,7 @@ MaybeReTunnel
 nsAHttpTransaction
 *
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

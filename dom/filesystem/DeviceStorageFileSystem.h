@@ -64,7 +64,7 @@ void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsPIDOMWindow
@@ -73,7 +73,7 @@ GetWindow
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -88,7 +88,7 @@ nsAString
 aRealPath
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -102,7 +102,7 @@ nsAString
 aRealPath
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -112,7 +112,7 @@ GetRootName
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -123,7 +123,7 @@ nsIFile
 aFile
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -134,7 +134,7 @@ Directory
 aDir
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

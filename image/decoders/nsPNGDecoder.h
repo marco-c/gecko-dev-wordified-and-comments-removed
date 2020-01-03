@@ -75,7 +75,7 @@ void
 InitInternal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -88,7 +88,7 @@ aBuffer
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Telemetry
@@ -98,7 +98,7 @@ ID
 SpeedHistogram
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 CreateFrame

@@ -656,7 +656,7 @@ BluetoothDaemonA2dpModule
 :
 :
 NotificationHandlerWrapper
-MOZ_FINAL
+final
 {
 public
 :
@@ -689,7 +689,7 @@ BluetoothDaemonA2dpModule
 :
 :
 ConnectionStateInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -826,7 +826,7 @@ BluetoothDaemonA2dpModule
 :
 :
 AudioStateInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -1111,7 +1111,7 @@ BluetoothDaemonA2dpInterface
 :
 :
 InitResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothSetupResultHandler
@@ -1142,7 +1142,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1164,7 +1164,7 @@ void
 RegisterModule
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1278,7 +1278,7 @@ BluetoothDaemonA2dpInterface
 :
 :
 CleanupResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothSetupResultHandler
@@ -1316,7 +1316,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1344,7 +1344,7 @@ void
 UnregisterModule
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

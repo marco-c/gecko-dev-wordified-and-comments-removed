@@ -52,7 +52,7 @@ dom
 {
 class
 HTMLMapElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -99,7 +99,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
 (
@@ -153,7 +153,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

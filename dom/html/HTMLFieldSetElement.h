@@ -67,7 +67,7 @@ dom
 {
 class
 HTMLFieldSetElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLFormElement
@@ -134,7 +134,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -152,7 +152,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -166,7 +166,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -177,7 +177,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -187,7 +187,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 NS_FORM_FIELDSET
@@ -197,7 +197,7 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -206,7 +206,7 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -215,7 +215,7 @@ IsDisabledForEvents
 uint32_t
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -236,7 +236,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 const
 nsIContent
@@ -343,7 +343,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 UpdateValidity
@@ -378,7 +378,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

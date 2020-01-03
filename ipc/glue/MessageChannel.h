@@ -1440,7 +1440,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mTask
 -

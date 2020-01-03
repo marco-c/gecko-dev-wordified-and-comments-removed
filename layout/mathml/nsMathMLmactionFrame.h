@@ -70,7 +70,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -82,7 +82,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -91,7 +91,7 @@ ChildListChanged
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -105,7 +105,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -126,7 +126,7 @@ MouseOut
 ;
 class
 MouseListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -207,7 +207,7 @@ nsIFrame
 GetSelectedFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

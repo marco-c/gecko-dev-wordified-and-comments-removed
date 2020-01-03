@@ -71,7 +71,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
@@ -91,7 +91,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -101,7 +101,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -111,7 +111,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -131,7 +131,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -150,7 +150,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -166,7 +166,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsStyleContext
@@ -177,7 +177,7 @@ int32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -189,7 +189,7 @@ nsStyleContext
 *
 aStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -204,7 +204,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -219,7 +219,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -231,7 +231,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -249,7 +249,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -260,7 +260,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -274,7 +274,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -296,7 +296,7 @@ bool
 HonorPrintBackgroundSettings
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -310,7 +310,7 @@ aOn
 bool
 aRepaint
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -324,7 +324,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsContainerFrame
@@ -332,7 +332,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 GetFirstPrincipalChild
@@ -353,7 +353,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame

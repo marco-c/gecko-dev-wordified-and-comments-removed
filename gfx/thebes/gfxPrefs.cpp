@@ -87,7 +87,7 @@ aVar
 int32_t
 aDefault
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

@@ -1789,7 +1789,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -1925,7 +1925,7 @@ PBrowserParent
 *
 browserParent
 )
-MOZ_OVERRIDE
+override
 {
 TabParent
 *
@@ -1990,7 +1990,7 @@ PBrowserParent
 *
 browserParent
 )
-MOZ_OVERRIDE
+override
 {
 TabParent
 *
@@ -2044,7 +2044,7 @@ bool
 RecvEnableBatteryNotifications
 (
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2063,7 +2063,7 @@ bool
 RecvDisableBatteryNotifications
 (
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2085,7 +2085,7 @@ BatteryInformation
 *
 aBatteryInfo
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2107,7 +2107,7 @@ BatteryInformation
 &
 aBatteryInfo
 )
-MOZ_OVERRIDE
+override
 {
 unused
 <
@@ -2123,7 +2123,7 @@ bool
 RecvEnableNetworkNotifications
 (
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2142,7 +2142,7 @@ bool
 RecvDisableNetworkNotifications
 (
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2164,7 +2164,7 @@ NetworkInformation
 *
 aNetworkInfo
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2186,7 +2186,7 @@ NetworkInformation
 &
 aNetworkInfo
 )
-MOZ_OVERRIDE
+override
 {
 unused
 <
@@ -2202,7 +2202,7 @@ bool
 RecvEnableScreenConfigurationNotifications
 (
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2221,7 +2221,7 @@ bool
 RecvDisableScreenConfigurationNotifications
 (
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2243,7 +2243,7 @@ ScreenConfiguration
 *
 aScreenConfiguration
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2272,7 +2272,7 @@ bool
 *
 aAllowed
 )
-MOZ_OVERRIDE
+override
 {
 *
 aAllowed
@@ -2294,7 +2294,7 @@ bool
 RecvUnlockScreenOrientation
 (
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2315,7 +2315,7 @@ ScreenConfiguration
 &
 aScreenConfiguration
 )
-MOZ_OVERRIDE
+override
 {
 unused
 <
@@ -2334,7 +2334,7 @@ bool
 *
 aEnabled
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2375,7 +2375,7 @@ bool
 &
 aEnabled
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2413,7 +2413,7 @@ bool
 *
 aEnabled
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2454,7 +2454,7 @@ bool
 &
 aEnabled
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2492,7 +2492,7 @@ bool
 *
 aAllowed
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2533,7 +2533,7 @@ bool
 &
 aAllowed
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2571,7 +2571,7 @@ double
 *
 aBrightness
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2612,7 +2612,7 @@ double
 &
 aBrightness
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2651,7 +2651,7 @@ int64_t
 &
 aDeltaMilliseconds
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2690,7 +2690,7 @@ nsCString
 &
 aTimezoneSpec
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2728,7 +2728,7 @@ nsCString
 *
 aTimezoneSpec
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2768,7 +2768,7 @@ int32_t
 *
 aTimezoneOffset
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2805,7 +2805,7 @@ bool
 RecvEnableSystemClockChangeNotifications
 (
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2824,7 +2824,7 @@ bool
 RecvDisableSystemClockChangeNotifications
 (
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2843,7 +2843,7 @@ bool
 RecvEnableSystemTimezoneChangeNotifications
 (
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2862,7 +2862,7 @@ bool
 RecvDisableSystemTimezoneChangeNotifications
 (
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2885,7 +2885,7 @@ SensorType
 &
 aSensor
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2909,7 +2909,7 @@ SensorType
 &
 aSensor
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -2932,7 +2932,7 @@ SensorData
 &
 aSensorData
 )
-MOZ_OVERRIDE
+override
 {
 unused
 <
@@ -2964,7 +2964,7 @@ uint64_t
 &
 aProcessID
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2994,7 +2994,7 @@ bool
 RecvEnableWakeLockNotifications
 (
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -3013,7 +3013,7 @@ bool
 RecvDisableWakeLockNotifications
 (
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -3039,7 +3039,7 @@ WakeLockInformation
 *
 aWakeLockInfo
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -3062,7 +3062,7 @@ WakeLockInformation
 &
 aWakeLockInfo
 )
-MOZ_OVERRIDE
+override
 {
 unused
 <
@@ -3082,7 +3082,7 @@ SwitchDevice
 &
 aDevice
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -3106,7 +3106,7 @@ SwitchDevice
 &
 aDevice
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -3129,7 +3129,7 @@ SwitchEvent
 &
 aSwitchEvent
 )
-MOZ_OVERRIDE
+override
 {
 unused
 <
@@ -3155,7 +3155,7 @@ SwitchState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 {
 *
 aState
@@ -3180,7 +3180,7 @@ int64_t
 &
 aClockDeltaMS
 )
-MOZ_OVERRIDE
+override
 {
 unused
 <
@@ -3199,7 +3199,7 @@ SystemTimezoneChangeInformation
 &
 aSystemTimezoneChangeInfo
 )
-MOZ_OVERRIDE
+override
 {
 unused
 <
@@ -3219,7 +3219,7 @@ nsString
 &
 aReason
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -3349,7 +3349,7 @@ ProtocolCloneContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 {
 ContentParent
 *
@@ -3421,7 +3421,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 {
 sHalChildDestroyed
 =
@@ -3437,7 +3437,7 @@ BatteryInformation
 &
 aBatteryInfo
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -3463,7 +3463,7 @@ SensorData
 &
 aSensorData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3474,7 +3474,7 @@ NetworkInformation
 &
 aNetworkInfo
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -3497,7 +3497,7 @@ WakeLockInformation
 &
 aWakeLockInfo
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -3520,7 +3520,7 @@ ScreenConfiguration
 &
 aScreenConfiguration
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -3549,7 +3549,7 @@ SwitchEvent
 &
 aEvent
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -3572,7 +3572,7 @@ int64_t
 &
 aClockDeltaMS
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :
@@ -3595,7 +3595,7 @@ SystemTimezoneChangeInformation
 &
 aSystemTimezoneChangeInfo
 )
-MOZ_OVERRIDE
+override
 {
 hal
 :

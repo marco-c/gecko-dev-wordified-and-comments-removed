@@ -214,7 +214,7 @@ fd
 int16_t
 outflags
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -240,7 +240,7 @@ PRFileDesc
 *
 fd
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -270,7 +270,7 @@ bool
 *
 aIsLocal
 )
-MOZ_OVERRIDE
+override
 {
 *
 aIsLocal
@@ -283,7 +283,7 @@ uint64_t
 ByteCountSent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -294,7 +294,7 @@ uint64_t
 ByteCountReceived
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 0

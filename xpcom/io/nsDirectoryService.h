@@ -82,7 +82,7 @@ NS_DIRECTORY_SERVICE_CID
 }
 class
 nsDirectoryService
-MOZ_FINAL
+final
 :
 public
 nsIDirectoryService

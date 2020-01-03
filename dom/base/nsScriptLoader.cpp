@@ -347,7 +347,7 @@ dom
 ;
 class
 nsScriptLoadRequest
-MOZ_FINAL
+final
 :
 public
 nsISupports

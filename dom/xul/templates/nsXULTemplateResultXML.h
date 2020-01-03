@@ -57,7 +57,7 @@ h
 "
 class
 nsXULTemplateResultXML
-MOZ_FINAL
+final
 :
 public
 nsIXULTemplateResult

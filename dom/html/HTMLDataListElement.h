@@ -35,7 +35,7 @@ dom
 {
 class
 HTMLDataListElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -114,7 +114,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 static
 bool
@@ -164,7 +164,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

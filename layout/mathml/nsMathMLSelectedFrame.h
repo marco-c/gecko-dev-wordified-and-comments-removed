@@ -33,13 +33,13 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 TransmitAutomaticData
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -51,7 +51,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -60,7 +60,7 @@ ChildListChanged
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -78,7 +78,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -93,7 +93,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -143,7 +143,7 @@ aPadding
 ComputeSizeFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -163,7 +163,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsQueryFrame
@@ -173,7 +173,7 @@ FrameIID
 GetFrameId
 (
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;

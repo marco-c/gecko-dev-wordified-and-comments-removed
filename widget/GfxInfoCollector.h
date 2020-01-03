@@ -195,7 +195,7 @@ InfoObject
 &
 obj
 )
-MOZ_OVERRIDE
+override
 {
 (
 mPointer

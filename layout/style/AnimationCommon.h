@@ -214,7 +214,7 @@ StateRuleProcessorData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRestyleHint
@@ -224,7 +224,7 @@ PseudoElementStateRuleProcessorData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -234,7 +234,7 @@ StateRuleProcessorData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRestyleHint
@@ -244,7 +244,7 @@ AttributeRuleProcessorData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -254,7 +254,7 @@ nsPresContext
 *
 aPresContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -264,7 +264,7 @@ ElementRuleProcessorData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -274,7 +274,7 @@ PseudoElementRuleProcessorData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -284,7 +284,7 @@ AnonBoxRuleProcessorData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -297,7 +297,7 @@ XULTreeRuleProcessorData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -313,7 +313,7 @@ aMallocSizeOf
 )
 const
 MOZ_MUST_OVERRIDE
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -327,7 +327,7 @@ aMallocSizeOf
 )
 const
 MOZ_MUST_OVERRIDE
-MOZ_OVERRIDE
+override
 ;
 void
 Disconnect
@@ -621,7 +621,7 @@ mIsObservingRefreshDriver
 ;
 class
 AnimValuesStyleRule
-MOZ_FINAL
+final
 :
 public
 nsIStyleRule
@@ -637,7 +637,7 @@ nsRuleData
 *
 aRuleData
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -657,7 +657,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

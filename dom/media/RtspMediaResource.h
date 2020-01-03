@@ -81,8 +81,8 @@ RtspMediaResource
 GetRtspPointer
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 return
 this
@@ -103,7 +103,7 @@ bool
 IsRealTime
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -170,7 +170,7 @@ uint32_t
 *
 aBytes
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_FAILURE
@@ -186,7 +186,7 @@ MediaCacheStream
 ReadMode
 aMode
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -196,7 +196,7 @@ SetPlaybackRate
 uint32_t
 aBytesPerSecond
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -212,7 +212,7 @@ uint32_t
 *
 aBytes
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -227,7 +227,7 @@ aWhence
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -238,7 +238,7 @@ int64_t
 Tell
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -249,7 +249,7 @@ void
 Pin
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -257,7 +257,7 @@ void
 Unpin
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -265,7 +265,7 @@ bool
 IsSuspendedByCache
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mIsSuspend
@@ -276,7 +276,7 @@ bool
 IsSuspended
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -287,7 +287,7 @@ bool
 IsTransportSeekable
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -301,7 +301,7 @@ bool
 *
 aIsReliable
 )
-MOZ_OVERRIDE
+override
 {
 *
 aIsReliable
@@ -317,7 +317,7 @@ int64_t
 GetLength
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -340,7 +340,7 @@ GetNextCachedData
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -353,7 +353,7 @@ GetCachedDataEnd
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -366,7 +366,7 @@ IsDataCachedToEndOfResource
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -382,7 +382,7 @@ MediaByteRange
 &
 aRanges
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_FAILURE
@@ -397,14 +397,14 @@ nsIStreamListener
 *
 aStreamListener
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Close
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -413,14 +413,14 @@ Suspend
 bool
 aCloseImmediately
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Resume
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -430,14 +430,14 @@ nsIPrincipal
 GetCurrentPrincipal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 CanClone
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -454,7 +454,7 @@ MediaDecoder
 *
 aDecoder
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -472,7 +472,7 @@ aOffset
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_FAILURE
@@ -486,7 +486,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -496,7 +496,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf
@@ -512,7 +512,7 @@ aMallocSizeOf
 }
 class
 Listener
-MOZ_FINAL
+final
 :
 public
 nsIInterfaceRequestor

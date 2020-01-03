@@ -96,7 +96,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

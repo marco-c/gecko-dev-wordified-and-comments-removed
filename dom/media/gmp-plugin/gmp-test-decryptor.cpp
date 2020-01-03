@@ -658,7 +658,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 ReadRecord
 (
@@ -671,7 +671,7 @@ void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 {
 delete
 this
@@ -733,7 +733,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 FakeDecryptor
 :
@@ -762,7 +762,7 @@ void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 {
 delete
 this
@@ -826,7 +826,7 @@ string
 &
 aData
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -928,7 +928,7 @@ string
 &
 aData
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1074,7 +1074,7 @@ string
 &
 aData
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1192,7 +1192,7 @@ string
 &
 aData
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1361,7 +1361,7 @@ GMPRecord
 *
 aRecord
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1486,7 +1486,7 @@ GMPRecord
 *
 aRecord
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2088,7 +2088,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 FakeDecryptor
 :
@@ -2112,7 +2112,7 @@ void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 {
 delete
 this
@@ -2164,7 +2164,7 @@ string
 &
 aData
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2284,7 +2284,7 @@ string
 &
 aData
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

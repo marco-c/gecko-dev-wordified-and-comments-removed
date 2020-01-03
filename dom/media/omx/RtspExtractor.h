@@ -70,8 +70,8 @@ size_t
 countTracks
 (
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 virtual
 android
@@ -89,8 +89,8 @@ getTrack
 size_t
 index
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 virtual
 android
@@ -112,8 +112,8 @@ flag
 =
 0
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 virtual
 uint32_t
@@ -121,8 +121,8 @@ flags
 (
 )
 const
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 ;
 RtspExtractor
 (
@@ -161,7 +161,7 @@ virtual
 RtspExtractor
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 private

@@ -412,7 +412,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsAutoString
 domEventToFire
@@ -594,7 +594,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsMenuFrame
 *
@@ -947,7 +947,7 @@ nullptr
 }
 class
 nsASyncMenuInitialization
-MOZ_FINAL
+final
 :
 public
 nsIReflowCallback
@@ -973,7 +973,7 @@ bool
 ReflowFinished
 (
 )
-MOZ_OVERRIDE
+override
 {
 bool
 shouldFlush
@@ -1028,7 +1028,7 @@ void
 ReflowCallbackCanceled
 (
 )
-MOZ_OVERRIDE
+override
 {
 delete
 this

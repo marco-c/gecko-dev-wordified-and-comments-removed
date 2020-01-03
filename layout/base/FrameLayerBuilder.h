@@ -862,7 +862,7 @@ RemoveFrameFromLayerManager
 )
 class
 DisplayItemData
-MOZ_FINAL
+final
 {
 public
 :

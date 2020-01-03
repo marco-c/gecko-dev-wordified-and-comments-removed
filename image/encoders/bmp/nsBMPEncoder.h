@@ -76,7 +76,7 @@ b081a3ba8c0b
 }
 class
 nsBMPEncoder
-MOZ_FINAL
+final
 :
 public
 imgIEncoder

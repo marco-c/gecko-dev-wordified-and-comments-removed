@@ -28,7 +28,7 @@ dom
 {
 class
 HTMLFontElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -198,7 +198,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -212,7 +212,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -220,7 +220,7 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -241,7 +241,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -269,7 +269,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

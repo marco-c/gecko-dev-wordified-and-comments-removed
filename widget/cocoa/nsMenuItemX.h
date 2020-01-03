@@ -126,7 +126,7 @@ void
 NativeData
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 (
@@ -140,7 +140,7 @@ nsMenuObjectTypeX
 MenuObjectType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 eMenuItemObjectType

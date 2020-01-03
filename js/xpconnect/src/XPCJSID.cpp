@@ -818,7 +818,7 @@ forget
 }
 class
 SharedScriptableHelperForJSIID
-MOZ_FINAL
+final
 :
 public
 nsIXPCScriptable

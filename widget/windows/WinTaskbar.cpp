@@ -563,7 +563,7 @@ rv
 }
 class
 DefaultController
-MOZ_FINAL
+final
 :
 public
 nsITaskbarPreviewController

@@ -123,7 +123,7 @@ CompositableClient
 *
 aClient
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint8_t
@@ -131,7 +131,7 @@ uint8_t
 GetBuffer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -144,7 +144,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -155,7 +155,7 @@ PlanarYCbCrData
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -166,7 +166,7 @@ Data
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -185,7 +185,7 @@ AllocateBuffer
 uint32_t
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint8_t
@@ -195,14 +195,14 @@ AllocateAndGetNewBuffer
 uint32_t
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsValid
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -212,7 +212,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf
@@ -234,7 +234,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -76,7 +76,7 @@ nsNPAPIPlugin
 ;
 class
 nsPluginTag
-MOZ_FINAL
+final
 :
 public
 nsIPluginTag

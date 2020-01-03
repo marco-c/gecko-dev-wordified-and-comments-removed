@@ -107,7 +107,7 @@ NS_IMETHOD
 DuplicatePrivateData
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -124,7 +124,7 @@ aMsg
 bool
 aSerializeInterfaceType
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -144,7 +144,7 @@ void
 *
 aIter
 )
-MOZ_OVERRIDE
+override
 ;
 static
 LayoutDeviceIntPoint
@@ -536,7 +536,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 UIEventBinding
@@ -782,7 +782,7 @@ NS_IMETHOD
 DuplicatePrivateData
 (
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -814,7 +814,7 @@ bool
 aSerializeInterfaceType
 )
 \
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -849,7 +849,7 @@ void
 *
 aIter
 )
-MOZ_OVERRIDE
+override
 \
 {
 \

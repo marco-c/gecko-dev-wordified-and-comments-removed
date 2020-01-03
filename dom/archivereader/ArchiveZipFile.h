@@ -174,7 +174,7 @@ nsIInputStream
 *
 *
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -212,7 +212,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

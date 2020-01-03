@@ -22,7 +22,7 @@ h
 "
 class
 nsAtomService
-MOZ_FINAL
+final
 :
 public
 nsIAtomService

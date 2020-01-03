@@ -59,7 +59,7 @@ Value
 ;
 class
 AsyncStatementParamsHolder
-MOZ_FINAL
+final
 :
 public
 nsIXPConnectJSObjectHolder

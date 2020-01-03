@@ -69,7 +69,7 @@ CSS_NUMBER_UINT32
 32U
 class
 nsROCSSPrimitiveValue
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -112,8 +112,8 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 virtual
 void
@@ -130,8 +130,8 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 virtual
 uint16_t
@@ -139,8 +139,8 @@ CssValueType
 (
 )
 const
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 uint16_t
 PrimitiveType
@@ -449,7 +449,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

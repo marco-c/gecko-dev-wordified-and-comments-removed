@@ -66,7 +66,7 @@ abeb
 }
 class
 nsProxyInfo
-MOZ_FINAL
+final
 :
 public
 nsIProxyInfo

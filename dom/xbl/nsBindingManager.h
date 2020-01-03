@@ -137,7 +137,7 @@ CSSStyleSheet
 }
 class
 nsBindingManager
-MOZ_FINAL
+final
 :
 public
 nsStubMutationObserver

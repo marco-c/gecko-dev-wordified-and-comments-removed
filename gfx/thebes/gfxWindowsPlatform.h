@@ -197,7 +197,7 @@ nsIMemoryReporter
 class
 MOZ_STACK_CLASS
 DCFromDrawTarget
-MOZ_FINAL
+final
 {
 public
 :
@@ -375,7 +375,7 @@ size
 gfxContentType
 contentType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -861,7 +861,7 @@ VsyncSource
 CreateHardwareVsyncSource
 (
 )
-MOZ_OVERRIDE
+override
 ;
 static
 mozilla

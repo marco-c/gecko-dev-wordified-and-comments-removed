@@ -58,7 +58,7 @@ dom
 {
 class
 CellBroadcast
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -143,7 +143,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 IMPL_EVENT_HANDLER
 (

@@ -249,7 +249,7 @@ GEO_ALA_TYPE_NONE
 endif
 class
 GeolocationSetting
-MOZ_FINAL
+final
 {
 public
 :
@@ -522,7 +522,7 @@ mOrigin
 ;
 class
 nsGeolocationSettings
-MOZ_FINAL
+final
 :
 public
 nsIObserver

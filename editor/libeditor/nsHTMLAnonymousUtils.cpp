@@ -512,7 +512,7 @@ f
 }
 class
 nsElementDeletionObserver
-MOZ_FINAL
+final
 :
 public
 nsIMutationObserver

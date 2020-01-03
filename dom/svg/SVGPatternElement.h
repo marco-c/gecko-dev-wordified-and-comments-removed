@@ -93,7 +93,7 @@ SVGPatternElementBase
 ;
 class
 SVGPatternElement
-MOZ_FINAL
+final
 :
 public
 SVGPatternElementBase
@@ -168,7 +168,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -191,7 +191,7 @@ nsIAtom
 name
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -212,7 +212,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -220,7 +220,7 @@ HasValidDimensions
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -235,7 +235,7 @@ aFlags
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -244,7 +244,7 @@ GetTransformListAttrName
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsGkAtoms
@@ -340,14 +340,14 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSVGViewBox
@@ -355,7 +355,7 @@ nsSVGViewBox
 GetViewBox
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 SVGAnimatedPreserveAspectRatio
@@ -363,14 +363,14 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 StringAttributesInfo
 GetStringInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

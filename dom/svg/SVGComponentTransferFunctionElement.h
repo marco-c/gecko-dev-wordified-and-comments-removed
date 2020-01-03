@@ -128,7 +128,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -161,7 +161,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -228,21 +228,21 @@ NumberAttributesInfo
 GetNumberInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 NumberListAttributesInfo
 GetNumberListInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {
@@ -410,7 +410,7 @@ int32_t
 GetChannel
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -435,7 +435,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -455,7 +455,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -554,7 +554,7 @@ int32_t
 GetChannel
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 1
@@ -579,7 +579,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -599,7 +599,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -698,7 +698,7 @@ int32_t
 GetChannel
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 2
@@ -723,7 +723,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -743,7 +743,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -842,7 +842,7 @@ int32_t
 GetChannel
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 3
@@ -867,7 +867,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -887,7 +887,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

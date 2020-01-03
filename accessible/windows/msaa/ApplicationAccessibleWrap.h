@@ -49,7 +49,7 @@ nsIPersistentProperties
 NativeAttributes
 (
 )
-MOZ_OVERRIDE
+override
 ;
 STDMETHODIMP
 QueryInterface

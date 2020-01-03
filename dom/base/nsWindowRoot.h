@@ -114,7 +114,7 @@ GetExistingListenerManager
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -125,7 +125,7 @@ EventListenerManager
 GetOrCreateListenerManager
 (
 )
-MOZ_OVERRIDE
+override
 ;
 using
 mozilla
@@ -178,7 +178,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsPIDOMWindow
@@ -186,7 +186,7 @@ nsPIDOMWindow
 GetWindow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -197,7 +197,7 @@ nsIControllers
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -212,7 +212,7 @@ nsIController
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -231,7 +231,7 @@ nsCString
 &
 aDisabledCommands
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMNode
@@ -239,7 +239,7 @@ nsIDOMNode
 GetPopupNode
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -249,7 +249,7 @@ nsIDOMNode
 *
 aNode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -265,7 +265,7 @@ EventTarget
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 {
 mParent
 =
@@ -284,7 +284,7 @@ EventTarget
 GetParentTarget
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mParent
@@ -296,7 +296,7 @@ nsIDOMWindow
 GetOwnerGlobal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsIGlobalObject
 *
@@ -322,7 +322,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (

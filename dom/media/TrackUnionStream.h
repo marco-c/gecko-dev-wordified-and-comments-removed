@@ -43,7 +43,7 @@ MediaInputPort
 *
 aPort
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -56,7 +56,7 @@ aTo
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -67,7 +67,7 @@ aOutputID
 bool
 aEnabled
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

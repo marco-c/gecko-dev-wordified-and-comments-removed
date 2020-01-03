@@ -94,7 +94,7 @@ IMEStateManager
 ;
 class
 TextComposition
-MOZ_FINAL
+final
 {
 friend
 class
@@ -594,7 +594,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -646,7 +646,7 @@ false
 ;
 class
 TextCompositionArray
-MOZ_FINAL
+final
 :
 public
 nsAutoTArray

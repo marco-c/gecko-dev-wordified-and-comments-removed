@@ -162,7 +162,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -182,7 +182,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -197,7 +197,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -206,7 +206,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -220,7 +220,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -243,7 +243,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -347,7 +347,7 @@ gfxMatrix
 GetCanvasTM
 (
 )
-MOZ_OVERRIDE
+override
 ;
 class
 MOZ_STACK_CLASS
@@ -459,7 +459,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -475,7 +475,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -499,14 +499,14 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfxMatrix
 GetCanvasTM
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 static_cast

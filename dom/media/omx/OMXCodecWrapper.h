@@ -452,7 +452,7 @@ mAMRCSDProvided
 ;
 class
 OMXAudioEncoder
-MOZ_FINAL
+final
 :
 public
 OMXCodecWrapper
@@ -506,7 +506,7 @@ ABuffer
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -597,7 +597,7 @@ mSampleDuration
 ;
 class
 OMXVideoEncoder
-MOZ_FINAL
+final
 :
 public
 OMXCodecWrapper
@@ -708,7 +708,7 @@ ABuffer
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -727,7 +727,7 @@ aData
 size_t
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -55,7 +55,7 @@ RuleCache
 ;
 class
 nsAccessiblePivot
-MOZ_FINAL
+final
 :
 public
 nsIAccessiblePivot

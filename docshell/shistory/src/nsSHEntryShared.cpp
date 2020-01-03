@@ -151,7 +151,7 @@ HistoryTrackerBase
 ;
 class
 HistoryTracker
-MOZ_FINAL
+final
 :
 public
 HistoryTrackerBase

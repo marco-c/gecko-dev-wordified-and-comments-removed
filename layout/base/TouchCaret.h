@@ -71,7 +71,7 @@ mozilla
 {
 class
 TouchCaret
-MOZ_FINAL
+final
 :
 public
 nsISelectionListener

@@ -959,7 +959,7 @@ GetExistingFrame
 ;
 class
 SetupProtoChainRunner
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -984,7 +984,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

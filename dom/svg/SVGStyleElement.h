@@ -68,7 +68,7 @@ dom
 {
 class
 SVGStyleElement
-MOZ_FINAL
+final
 :
 public
 SVGStyleElementBase
@@ -146,7 +146,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -172,7 +172,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -187,7 +187,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetAttr
@@ -235,7 +235,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -249,7 +249,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -268,7 +268,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -289,7 +289,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIMUTATIONOBSERVER_CHARACTERDATACHANGED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
@@ -413,7 +413,7 @@ bool
 *
 aIsInline
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetStyleSheetInfo
@@ -434,7 +434,7 @@ bool
 *
 aIsAlternate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 CORSMode
@@ -442,7 +442,7 @@ GetCORSMode
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 ContentChanged

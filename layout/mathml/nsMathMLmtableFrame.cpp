@@ -1367,7 +1367,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -1443,7 +1443,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 {
 nsStyleBorder
 styleBorder

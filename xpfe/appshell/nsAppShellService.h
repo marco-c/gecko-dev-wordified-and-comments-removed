@@ -76,7 +76,7 @@ NS_APPSHELLSERVICE_CID
 }
 class
 nsAppShellService
-MOZ_FINAL
+final
 :
 public
 nsIAppShellService

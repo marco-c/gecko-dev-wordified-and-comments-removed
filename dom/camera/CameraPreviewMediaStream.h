@@ -62,7 +62,7 @@ nsIRunnable
 >
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -106,7 +106,7 @@ CameraPreviewMediaStream
 AsCameraPreviewStream
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -121,7 +121,7 @@ void
 *
 aKey
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -133,7 +133,7 @@ aKey
 float
 aVolume
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -143,7 +143,7 @@ void
 *
 aKey
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -153,7 +153,7 @@ VideoFrameContainer
 *
 aContainer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -163,7 +163,7 @@ VideoFrameContainer
 *
 aContainer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -172,7 +172,7 @@ ChangeExplicitBlockerCount
 int32_t
 aDelta
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -182,7 +182,7 @@ MediaStreamListener
 *
 aListener
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -192,14 +192,14 @@ MediaStreamListener
 *
 aListener
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnPreviewStateChange

@@ -90,7 +90,7 @@ current
 }
 class
 Runnable
-MOZ_FINAL
+final
 {
 public
 :
@@ -157,7 +157,7 @@ mTask
 ;
 class
 SyncRunnable
-MOZ_FINAL
+final
 {
 public
 :

@@ -85,7 +85,7 @@ SdpErrorHolder
 ;
 class
 SipccSdpBandwidths
-MOZ_FINAL
+final
 :
 public
 std
@@ -131,7 +131,7 @@ const
 ;
 class
 SipccSdpMediaSection
-MOZ_FINAL
+final
 :
 public
 SdpMediaSection
@@ -154,7 +154,7 @@ GetMediaType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mMediaType
@@ -167,7 +167,7 @@ GetPort
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -177,7 +177,7 @@ unsigned
 int
 port
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 unsigned
@@ -186,7 +186,7 @@ GetPortCount
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 Protocol
@@ -194,7 +194,7 @@ GetProtocol
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -204,7 +204,7 @@ GetConnection
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 SdpConnection
@@ -212,7 +212,7 @@ SdpConnection
 GetConnection
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
@@ -227,7 +227,7 @@ string
 type
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -246,7 +246,7 @@ GetFormats
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -256,7 +256,7 @@ GetAttributeList
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 SdpAttributeList
@@ -264,7 +264,7 @@ SdpAttributeList
 GetAttributeList
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 SdpDirectionAttribute
@@ -272,7 +272,7 @@ GetDirectionAttribute
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -297,14 +297,14 @@ clockrate
 uint16_t
 channels
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearCodecs
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -327,7 +327,7 @@ name
 uint16_t
 streams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -340,7 +340,7 @@ ostream
 &
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

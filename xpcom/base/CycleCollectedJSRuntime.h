@@ -93,7 +93,7 @@ Root
 void
 *
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -120,7 +120,7 @@ Unlink
 void
 *
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -152,7 +152,7 @@ Unroot
 void
 *
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -185,7 +185,7 @@ void
 *
 aPtr
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -215,7 +215,7 @@ nsCycleCollectionTraversalCallback
 &
 aCb
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -246,7 +246,7 @@ Root
 void
 *
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -273,7 +273,7 @@ Unlink
 void
 *
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -305,7 +305,7 @@ Unroot
 void
 *
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -337,7 +337,7 @@ DeleteCycleCollectable
 void
 *
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -367,7 +367,7 @@ nsCycleCollectionTraversalCallback
 &
 aCb
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

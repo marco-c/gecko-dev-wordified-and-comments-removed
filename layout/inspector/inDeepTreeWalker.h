@@ -40,7 +40,7 @@ inIDOMUtils
 ;
 class
 inDeepTreeWalker
-MOZ_FINAL
+final
 :
 public
 inIDeepTreeWalker

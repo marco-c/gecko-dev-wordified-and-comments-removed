@@ -434,7 +434,7 @@ URLSearchParams
 *
 aSearchParams
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

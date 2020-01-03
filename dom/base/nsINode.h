@@ -643,7 +643,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -987,7 +987,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool
@@ -2217,7 +2217,7 @@ GetExistingListenerManager
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -2228,7 +2228,7 @@ EventListenerManager
 GetOrCreateListenerManager
 (
 )
-MOZ_OVERRIDE
+override
 ;
 using
 mozilla
@@ -2287,7 +2287,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 using
 nsIDOMEventTarget
@@ -2301,7 +2301,7 @@ nsIDOMWindow
 GetOwnerGlobal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AddMutationObserver
@@ -6246,7 +6246,7 @@ nsAString
 aNodeName
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6274,7 +6274,7 @@ nsAString
 aNodeValue
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6302,7 +6302,7 @@ nsAString
 aNodeValue
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6341,7 +6341,7 @@ uint16_t
 aNodeType
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6371,7 +6371,7 @@ nsIDOMNode
 aParentNode
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6396,7 +6396,7 @@ nsIDOMElement
 aParentElement
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6421,7 +6421,7 @@ nsIDOMNodeList
 aChildNodes
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6446,7 +6446,7 @@ nsIDOMNode
 aFirstChild
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6471,7 +6471,7 @@ nsIDOMNode
 aLastChild
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6496,7 +6496,7 @@ nsIDOMNode
 aPreviousSibling
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6521,7 +6521,7 @@ nsIDOMNode
 aNextSibling
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6546,7 +6546,7 @@ nsIDOMDocument
 aOwnerDocument
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6577,7 +6577,7 @@ nsIDOMNode
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6608,7 +6608,7 @@ nsIDOMNode
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6636,7 +6636,7 @@ nsIDOMNode
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6665,7 +6665,7 @@ nsIDOMNode
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6688,7 +6688,7 @@ bool
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6722,7 +6722,7 @@ nsIDOMNode
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6815,7 +6815,7 @@ Normalize
 (
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6841,7 +6841,7 @@ nsAString
 aNamespaceURI
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6868,7 +6868,7 @@ nsAString
 aPrefix
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6895,7 +6895,7 @@ nsAString
 aLocalName
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6923,7 +6923,7 @@ bool
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6947,7 +6947,7 @@ nsAString
 aBaseURI
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -6977,7 +6977,7 @@ uint16_t
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -7002,7 +7002,7 @@ nsAString
 aTextContent
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -7042,7 +7042,7 @@ nsAString
 aTextContent
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -7085,7 +7085,7 @@ nsAString
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -7117,7 +7117,7 @@ bool
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -7151,7 +7151,7 @@ nsAString
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -7182,7 +7182,7 @@ bool
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -7215,7 +7215,7 @@ nsIVariant
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -7246,7 +7246,7 @@ nsIVariant
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -7274,7 +7274,7 @@ bool
 aResult
 )
 __VA_ARGS__
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -7296,7 +7296,7 @@ NS_FORWARD_NSIDOMNODE_TO_NSINODE
 \
 NS_FORWARD_NSIDOMNODE_TO_NSINODE_HELPER
 (
-MOZ_FINAL
+final
 )
 #
 define

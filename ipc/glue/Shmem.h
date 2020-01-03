@@ -87,7 +87,7 @@ ipc
 {
 class
 Shmem
-MOZ_FINAL
+final
 {
 friend
 struct

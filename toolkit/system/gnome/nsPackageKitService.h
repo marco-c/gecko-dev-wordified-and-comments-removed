@@ -32,7 +32,7 @@ NS_PACKAGEKITSERVICE_CID
 }
 class
 nsPackageKitService
-MOZ_FINAL
+final
 :
 public
 nsIPackageKitService

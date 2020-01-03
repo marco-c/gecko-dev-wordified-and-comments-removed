@@ -29,7 +29,7 @@ h
 "
 class
 nsGridRowLeafLayout
-MOZ_FINAL
+final
 :
 public
 nsGridRowLayout
@@ -56,7 +56,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -69,7 +69,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -82,7 +82,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -95,7 +95,7 @@ nsBoxLayoutState
 &
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Layout
@@ -107,7 +107,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -123,7 +123,7 @@ int32_t
 &
 aComputedColumnCount
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -136,7 +136,7 @@ nsBoxLayoutState
 &
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -149,14 +149,14 @@ nsGridRow
 *
 aRows
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Type
 GetType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 eRowLeaf
@@ -188,7 +188,7 @@ int32_t
 &
 aFlexes
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -211,7 +211,7 @@ nsComputedBoxSize
 &
 aComputedBoxSizes
 )
-MOZ_OVERRIDE
+override
 ;
 nsGridRowLeafLayout
 (

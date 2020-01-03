@@ -169,7 +169,7 @@ aCancelable
 ;
 class
 IDBVersionChangeEvent
-MOZ_FINAL
+final
 :
 public
 Event
@@ -338,7 +338,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

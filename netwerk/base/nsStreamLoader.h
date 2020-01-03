@@ -48,7 +48,7 @@ nsIRequest
 ;
 class
 nsStreamLoader
-MOZ_FINAL
+final
 :
 public
 nsIStreamLoader

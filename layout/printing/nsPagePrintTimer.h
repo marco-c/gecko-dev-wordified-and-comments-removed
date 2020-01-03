@@ -46,7 +46,7 @@ nsPrintEngine
 ;
 class
 nsPagePrintTimer
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -118,7 +118,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Stop

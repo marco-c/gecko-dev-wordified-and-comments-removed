@@ -104,7 +104,7 @@ mHolder
 ;
 class
 StatementParamsHolder
-MOZ_FINAL
+final
 :
 public
 StatementJSObjectHolder
@@ -137,7 +137,7 @@ StatementParamsHolder
 ;
 class
 StatementRowHolder
-MOZ_FINAL
+final
 :
 public
 StatementJSObjectHolder

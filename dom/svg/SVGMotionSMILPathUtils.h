@@ -340,7 +340,7 @@ nsAString
 &
 aValueStr
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

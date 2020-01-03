@@ -573,7 +573,7 @@ ImageCacheObserver
 ;
 class
 ImageCache
-MOZ_FINAL
+final
 :
 public
 nsExpirationTracker
@@ -685,7 +685,7 @@ nullptr
 ;
 class
 ImageCacheObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -740,7 +740,7 @@ char16_t
 *
 aSomeData
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -884,7 +884,7 @@ nsIObserver
 )
 class
 CanvasImageCacheShutdownObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver

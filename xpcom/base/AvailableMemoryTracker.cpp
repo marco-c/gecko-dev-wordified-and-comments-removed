@@ -1205,7 +1205,7 @@ sNumLowPhysicalMemEvents
 }
 class
 LowEventsReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -1559,7 +1559,7 @@ nsIMemoryReporter
 endif
 class
 nsJemallocFreeDirtyPagesRunnable
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -1614,7 +1614,7 @@ NS_OK
 }
 class
 nsMemoryPressureWatcher
-MOZ_FINAL
+final
 :
 public
 nsIObserver

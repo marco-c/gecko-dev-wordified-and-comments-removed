@@ -31,7 +31,7 @@ nsColorControlFrameSuper
 ;
 class
 nsColorControlFrame
-MOZ_FINAL
+final
 :
 public
 nsColorControlFrameSuper
@@ -71,7 +71,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_QUERYFRAME_TARGET
 (
@@ -86,7 +86,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -100,7 +100,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -115,7 +115,7 @@ ContentInfo
 &
 aElements
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -131,7 +131,7 @@ aElements
 uint32_t
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -145,7 +145,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -153,7 +153,7 @@ IsLeaf
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -165,7 +165,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Element
@@ -178,7 +178,7 @@ nsCSSPseudoElements
 Type
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 UpdateColor

@@ -68,7 +68,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 AudioTrack
@@ -76,7 +76,7 @@ AudioTrack
 AsAudioTrack
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -91,7 +91,7 @@ aEnabled
 int
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Enabled

@@ -40,7 +40,7 @@ WorkerDataStore
 ;
 class
 WorkerDataStoreCursor
-MOZ_FINAL
+final
 {
 public
 :

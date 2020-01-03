@@ -29,7 +29,7 @@ h
 "
 class
 nsConsoleMessage
-MOZ_FINAL
+final
 :
 public
 nsIConsoleMessage

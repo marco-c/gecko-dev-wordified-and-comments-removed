@@ -79,7 +79,7 @@ BluetoothRequestParent
 :
 :
 ReplyRunnable
-MOZ_FINAL
+final
 :
 public
 BluetoothReplyRunnable
@@ -123,7 +123,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -216,7 +216,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -236,7 +236,7 @@ void
 ReleaseMembers
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

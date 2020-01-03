@@ -64,7 +64,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -74,7 +74,7 @@ nsBoxLayoutState
 &
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

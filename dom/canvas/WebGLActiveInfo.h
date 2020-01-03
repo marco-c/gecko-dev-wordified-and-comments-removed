@@ -65,7 +65,7 @@ WebGLContext
 ;
 class
 WebGLActiveInfo
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -98,7 +98,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 WebGLContext
 *

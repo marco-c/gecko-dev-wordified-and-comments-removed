@@ -432,7 +432,7 @@ NS_OK
 }
 class
 nsAsyncResolveRequest
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -654,7 +654,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -674,7 +674,7 @@ Cancel
 nsresult
 reason
 )
-MOZ_OVERRIDE
+override
 {
 NS_ENSURE_ARG
 (
@@ -776,7 +776,7 @@ nsCString
 &
 newPACURL
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -4946,7 +4946,7 @@ NS_OK
 }
 class
 nsAsyncBridgeRequest
-MOZ_FINAL
+final
 :
 public
 nsPACManCallback
@@ -4989,7 +4989,7 @@ nsCString
 &
 newPACURL
 )
-MOZ_OVERRIDE
+override
 {
 MutexAutoLock
 lock

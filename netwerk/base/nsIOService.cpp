@@ -5985,7 +5985,7 @@ NS_OK
 }
 class
 IOServiceProxyCallback
-MOZ_FINAL
+final
 :
 public
 nsIProtocolProxyCallback

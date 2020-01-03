@@ -66,7 +66,7 @@ pathLen
 ;
 class
 nsNoAuthURLParser
-MOZ_FINAL
+final
 :
 public
 nsBaseURLParser
@@ -106,7 +106,7 @@ uint32_t
 int32_t
 *
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -141,7 +141,7 @@ int32_t
 *
 port
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ParseAfterScheme
@@ -165,7 +165,7 @@ int32_t
 *
 pathLen
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -218,7 +218,7 @@ int32_t
 *
 port
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ParseUserInfo
@@ -242,7 +242,7 @@ int32_t
 *
 passwordLen
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ParseServerInfo
@@ -263,7 +263,7 @@ int32_t
 *
 port
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ParseAfterScheme
@@ -287,7 +287,7 @@ int32_t
 *
 pathLen
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

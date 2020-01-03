@@ -52,7 +52,7 @@ dom
 {
 class
 SVGStopElement
-MOZ_FINAL
+final
 :
 public
 SVGStopElementBase
@@ -121,7 +121,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -137,7 +137,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -158,7 +158,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -175,7 +175,7 @@ NumberAttributesInfo
 GetNumberInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsSVGNumber2
 mOffset

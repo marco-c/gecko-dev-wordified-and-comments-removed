@@ -867,7 +867,7 @@ aTryUseXHRDocBaseURI
 false
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1766,7 +1766,7 @@ public
 :
 class
 SelectorCache
-MOZ_FINAL
+final
 :
 public
 nsExpirationTracker
@@ -1801,7 +1801,7 @@ SelectorCacheKey
 *
 aSelector
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 GetList
@@ -6830,7 +6830,7 @@ Element
 GetNameSpaceElement
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 GetRootElement

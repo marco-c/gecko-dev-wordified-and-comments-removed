@@ -83,7 +83,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -112,7 +112,7 @@ nsCString
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -146,7 +146,7 @@ SerializedLoadContext
 &
 loadContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -172,7 +172,7 @@ ProtocolCloneContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

@@ -171,7 +171,7 @@ FetchPut
 :
 :
 Runnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -201,7 +201,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -264,7 +264,7 @@ FetchPut
 :
 :
 FetchObserver
-MOZ_FINAL
+final
 :
 public
 FetchDriverObserver
@@ -293,7 +293,7 @@ InternalResponse
 *
 aResponse
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -311,7 +311,7 @@ void
 OnResponseEnd
 (
 )
-MOZ_OVERRIDE
+override
 {
 mFetchPut
 -

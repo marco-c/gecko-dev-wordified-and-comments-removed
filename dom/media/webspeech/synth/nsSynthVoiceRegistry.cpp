@@ -339,7 +339,7 @@ dom
 {
 class
 VoiceData
-MOZ_FINAL
+final
 {
 private
 :

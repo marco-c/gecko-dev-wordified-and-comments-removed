@@ -52,7 +52,7 @@ ResponsiveImageSelector
 ;
 class
 HTMLSourceElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -104,7 +104,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -122,7 +122,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 MatchesCurrentMedia
@@ -387,7 +387,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -399,7 +399,7 @@ DOMString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -410,7 +410,7 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -428,7 +428,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

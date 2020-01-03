@@ -94,7 +94,7 @@ bool
 RecvNonce
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 BreakNestedLoop
@@ -108,7 +108,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -168,14 +168,14 @@ bool
 RecvStart
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 AnswerR
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -184,7 +184,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

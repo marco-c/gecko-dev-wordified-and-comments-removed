@@ -64,7 +64,7 @@ Text
 }
 struct
 nsRangeStore
-MOZ_FINAL
+final
 {
 nsRangeStore
 (

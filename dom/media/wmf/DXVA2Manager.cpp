@@ -84,7 +84,7 @@ IUnknown
 GetDXVADeviceManager
 (
 )
-MOZ_OVERRIDE
+override
 ;
 HRESULT
 CopyToImage
@@ -104,7 +104,7 @@ Image
 *
 aOutImage
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -186,7 +186,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -211,7 +211,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -227,7 +227,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSVGAnimatedTransformList
@@ -239,7 +239,7 @@ aFlags
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -248,7 +248,7 @@ GetTransformListAttrName
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsGkAtoms
@@ -296,14 +296,14 @@ EnumAttributesInfo
 GetEnumInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 StringAttributesInfo
 GetStringInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {
@@ -436,7 +436,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -459,7 +459,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -500,7 +500,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {
@@ -605,7 +605,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -628,7 +628,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -677,7 +677,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

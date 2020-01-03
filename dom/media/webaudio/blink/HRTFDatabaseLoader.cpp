@@ -330,7 +330,7 @@ HRTFDatabaseLoader
 :
 :
 ProxyReleaseEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -355,7 +355,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mLoader
 -

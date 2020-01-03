@@ -224,7 +224,7 @@ image
 {
 class
 SVGRootRenderingObserver
-MOZ_FINAL
+final
 :
 public
 nsSVGRenderingObserver
@@ -355,7 +355,7 @@ Element
 GetTarget
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mDocWrapper
@@ -371,7 +371,7 @@ void
 DoUpdate
 (
 )
-MOZ_OVERRIDE
+override
 {
 Element
 *
@@ -496,7 +496,7 @@ mHonoringInvalidations
 ;
 class
 SVGParseCompleteListener
-MOZ_FINAL
+final
 :
 public
 nsStubDocumentObserver
@@ -580,7 +580,7 @@ nsIDocument
 *
 aDocument
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -672,7 +672,7 @@ nsIDocumentObserver
 )
 class
 SVGLoadEventListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -796,7 +796,7 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

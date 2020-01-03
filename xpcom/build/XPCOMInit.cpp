@@ -1696,7 +1696,7 @@ nullptr
 }
 class
 ICUReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -1784,7 +1784,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT
@@ -1848,7 +1848,7 @@ sAmount
 ;
 class
 OggReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -1875,7 +1875,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT
@@ -1945,7 +1945,7 @@ ifdef
 MOZ_VPX
 class
 VPXReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -1972,7 +1972,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT
@@ -2041,7 +2041,7 @@ ifdef
 MOZ_WEBM
 class
 NesteggReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -2068,7 +2068,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT

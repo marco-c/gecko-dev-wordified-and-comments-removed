@@ -71,7 +71,7 @@ TextEventDispatcher
 }
 class
 TextInputProcessor
-MOZ_FINAL
+final
 :
 public
 nsITextInputProcessor
@@ -120,7 +120,7 @@ IMENotification
 &
 aNotification
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -132,7 +132,7 @@ TextEventDispatcher
 *
 aTextEventDispatcher
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

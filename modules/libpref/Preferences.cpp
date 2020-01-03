@@ -670,7 +670,7 @@ mCallback
 ;
 class
 ValueObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -1282,7 +1282,7 @@ n
 }
 class
 PreferenceServiceReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter

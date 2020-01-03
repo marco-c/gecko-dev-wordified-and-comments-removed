@@ -69,7 +69,7 @@ MediaSegment
 &
 aQueuedMedia
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -84,7 +84,7 @@ MediaStreamListener
 MediaStreamGraphEvent
 event
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

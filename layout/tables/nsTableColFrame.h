@@ -117,7 +117,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 int32_t
 GetColIndex
@@ -157,7 +157,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -175,7 +175,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -185,7 +185,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -199,7 +199,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -209,7 +209,7 @@ GetSplittableType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 int32_t
 GetSpan
@@ -667,7 +667,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsSplittableFrame
@@ -696,7 +696,7 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -711,14 +711,14 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 InvalidateFrameForRemoval
 (
 )
-MOZ_OVERRIDE
+override
 {
 InvalidateFrameSubtree
 (

@@ -379,7 +379,7 @@ DOMMediaStream
 *
 aMediaStream
 )
-MOZ_OVERRIDE
+override
 {
 mPrincipalChanged
 =
@@ -395,7 +395,7 @@ File
 >
 aBlob
 )
-MOZ_OVERRIDE
+override
 {
 nsRefPtr
 <
@@ -433,7 +433,7 @@ PhotoError
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 return
 mImageCapture

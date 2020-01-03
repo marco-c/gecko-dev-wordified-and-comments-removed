@@ -85,7 +85,7 @@ p
 a
 class
 nsZipHeader
-MOZ_FINAL
+final
 :
 public
 nsIZipEntry

@@ -830,8 +830,8 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 mDecoder
 -

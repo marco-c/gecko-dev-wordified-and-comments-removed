@@ -28,7 +28,7 @@ ctypes
 {
 class
 Module
-MOZ_FINAL
+final
 :
 public
 nsIXPCScriptable

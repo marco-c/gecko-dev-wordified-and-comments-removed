@@ -79,7 +79,7 @@ namespace
 {
 class
 WatchedErrorEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -175,7 +175,7 @@ mOsError
 ;
 class
 WatchedSuccessEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -263,7 +263,7 @@ mResourcePath
 ;
 class
 WatchedChangeEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable

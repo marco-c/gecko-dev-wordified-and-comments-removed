@@ -71,7 +71,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -81,7 +81,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -95,7 +95,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -104,7 +104,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -118,7 +118,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

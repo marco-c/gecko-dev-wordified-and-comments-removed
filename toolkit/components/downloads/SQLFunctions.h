@@ -34,7 +34,7 @@ downloads
 {
 class
 GenerateGUIDFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction

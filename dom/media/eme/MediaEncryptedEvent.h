@@ -113,7 +113,7 @@ dom
 {
 class
 MediaEncryptedEvent
-MOZ_FINAL
+final
 :
 public
 Event
@@ -175,7 +175,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 already_AddRefed

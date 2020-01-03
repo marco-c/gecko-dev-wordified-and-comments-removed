@@ -3364,7 +3364,7 @@ typeChecker
 }
 class
 OverrideRootDir
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -9035,7 +9035,7 @@ true
 }
 class
 DeviceStorageCursorRequest
-MOZ_FINAL
+final
 :
 public
 nsIContentPermissionRequest
@@ -12688,7 +12688,7 @@ mRequest
 ;
 class
 DeviceStorageRequest
-MOZ_FINAL
+final
 :
 public
 nsIContentPermissionRequest
@@ -12931,7 +12931,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -12994,7 +12994,7 @@ nsIArray
 *
 aTypes
 )
-MOZ_OVERRIDE
+override
 {
 nsCString
 type
@@ -13082,7 +13082,7 @@ nsIPrincipal
 *
 aRequestingPrincipal
 )
-MOZ_OVERRIDE
+override
 {
 NS_IF_ADDREF
 (
@@ -13104,7 +13104,7 @@ nsIDOMWindow
 *
 aRequestingWindow
 )
-MOZ_OVERRIDE
+override
 {
 NS_IF_ADDREF
 (
@@ -13126,7 +13126,7 @@ nsIDOMElement
 *
 aRequestingElement
 )
-MOZ_OVERRIDE
+override
 {
 *
 aRequestingElement
@@ -13141,7 +13141,7 @@ NS_IMETHOD
 Cancel
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -13176,7 +13176,7 @@ JS
 HandleValue
 aChoices
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

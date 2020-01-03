@@ -122,7 +122,7 @@ WorkerThread
 :
 :
 Observer
-MOZ_FINAL
+final
 :
 public
 nsIThreadObserver

@@ -1065,7 +1065,7 @@ namespace
 {
 class
 VibratorRunnable
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -1807,7 +1807,7 @@ NS_OK
 }
 class
 BatteryObserver
-MOZ_FINAL
+final
 :
 public
 IUeventObserver
@@ -4726,7 +4726,7 @@ args
 )
 class
 OomVictimLogger
-MOZ_FINAL
+final
 :
 public
 nsIObserver

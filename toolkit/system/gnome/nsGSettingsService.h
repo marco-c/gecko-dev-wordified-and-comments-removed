@@ -32,7 +32,7 @@ NS_GSETTINGSSERVICE_CID
 }
 class
 nsGSettingsService
-MOZ_FINAL
+final
 :
 public
 nsIGSettingsService

@@ -78,7 +78,7 @@ h
 "
 class
 nsCategoryObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -149,7 +149,7 @@ T
 >
 class
 nsCategoryCache
-MOZ_FINAL
+final
 {
 public
 :

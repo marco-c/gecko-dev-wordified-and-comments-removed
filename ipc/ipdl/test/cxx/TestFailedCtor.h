@@ -140,7 +140,7 @@ PTestFailedCtorSubParent
 AllocPTestFailedCtorSubParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -150,7 +150,7 @@ PTestFailedCtorSubParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -159,7 +159,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -219,7 +219,7 @@ PTestFailedCtorSubChild
 AllocPTestFailedCtorSubChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -229,7 +229,7 @@ PTestFailedCtorSubChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -239,7 +239,7 @@ PTestFailedCtorSubChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -252,7 +252,7 @@ char
 *
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -261,7 +261,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 fail
 (
@@ -321,7 +321,7 @@ PTestFailedCtorSubsubParent
 AllocPTestFailedCtorSubsubParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -331,14 +331,14 @@ PTestFailedCtorSubsubParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvSync
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -351,7 +351,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 TestFailedCtorSubsub
 *
@@ -395,7 +395,7 @@ PTestFailedCtorSubsubChild
 AllocPTestFailedCtorSubsubChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -405,7 +405,7 @@ PTestFailedCtorSubsubChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -414,7 +414,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -460,7 +460,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 mWhy
 =

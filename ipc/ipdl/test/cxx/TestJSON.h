@@ -95,7 +95,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 }
 }
@@ -159,7 +159,7 @@ JSONVariant
 *
 o
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTestHandleParent
@@ -167,7 +167,7 @@ PTestHandleParent
 AllocPTestHandleParent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mKid
@@ -186,7 +186,7 @@ PTestHandleParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -202,7 +202,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -287,7 +287,7 @@ bool
 RecvStart
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTestHandleChild
@@ -295,7 +295,7 @@ PTestHandleChild
 AllocPTestHandleChild
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mKid
@@ -314,7 +314,7 @@ PTestHandleChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 {
 delete
 actor
@@ -330,7 +330,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

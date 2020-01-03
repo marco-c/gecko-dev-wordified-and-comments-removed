@@ -913,7 +913,7 @@ nsIFile
 *
 _result
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1134,7 +1134,7 @@ nsISimpleEnumerator
 *
 _enum
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <

@@ -39,7 +39,7 @@ nsIWidget
 ;
 class
 nsColorPicker
-MOZ_FINAL
+final
 :
 public
 nsIColorPicker

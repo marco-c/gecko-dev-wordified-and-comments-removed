@@ -143,7 +143,7 @@ RADIAL_PROP_TRANSFORM
 ;
 class
 RadialGradientEffectD2D1
-MOZ_FINAL
+final
 :
 public
 ID2D1EffectImpl

@@ -1561,7 +1561,7 @@ NS_OK
 }
 class
 PositionChangeEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable

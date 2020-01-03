@@ -534,7 +534,7 @@ mKey
 ;
 class
 GradientCache
-MOZ_FINAL
+final
 :
 public
 nsExpirationTracker

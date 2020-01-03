@@ -864,7 +864,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mParent
 -
@@ -888,7 +888,7 @@ void
 Cancel
 (
 )
-MOZ_OVERRIDE
+override
 {
 mozilla
 :
@@ -8326,7 +8326,7 @@ Clear
 }
 class
 OfflineObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -12514,7 +12514,7 @@ ifdef
 MOZ_ENABLE_PROFILER_SPS
 class
 PluginProfilerObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver

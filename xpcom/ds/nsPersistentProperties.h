@@ -53,7 +53,7 @@ nsIUnicharInputStream
 ;
 class
 nsPersistentProperties
-MOZ_FINAL
+final
 :
 public
 nsIPersistentProperties
@@ -107,7 +107,7 @@ mArena
 ;
 class
 nsPropertyElement
-MOZ_FINAL
+final
 :
 public
 nsIPropertyElement

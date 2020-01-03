@@ -179,7 +179,7 @@ GetImage
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -187,7 +187,7 @@ HasImage
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -198,7 +198,7 @@ GetProgressTracker
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 imgRequest
@@ -207,7 +207,7 @@ GetOwner
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mOwner
@@ -221,7 +221,7 @@ imgRequest
 *
 aOwner
 )
-MOZ_OVERRIDE
+override
 {
 mOwner
 =
@@ -3627,7 +3627,7 @@ GetImage
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 nsRefPtr
 <
@@ -3657,7 +3657,7 @@ HasImage
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mImage
@@ -3672,7 +3672,7 @@ GetProgressTracker
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mImage
@@ -3690,7 +3690,7 @@ GetOwner
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -3704,7 +3704,7 @@ imgRequest
 *
 aOwner
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

@@ -245,7 +245,7 @@ ImagesMallocSizeOf
 )
 class
 imgMemoryReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -271,7 +271,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -4180,7 +4180,7 @@ NS_OK
 }
 class
 imgCacheExpirationTracker
-MOZ_FINAL
+final
 :
 public
 nsExpirationTracker

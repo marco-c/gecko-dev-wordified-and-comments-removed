@@ -25,7 +25,7 @@ mozilla
 {
 class
 NativeOSFileInternalsService
-MOZ_FINAL
+final
 :
 public
 nsINativeOSFileInternalsService

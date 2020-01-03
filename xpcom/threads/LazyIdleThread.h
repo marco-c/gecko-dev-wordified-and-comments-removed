@@ -100,7 +100,7 @@ mozilla
 {
 class
 LazyIdleThread
-MOZ_FINAL
+final
 :
 public
 nsIThread

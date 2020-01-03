@@ -66,7 +66,7 @@ nsDisplayXULImage
 ;
 class
 nsImageBoxListener
-MOZ_FINAL
+final
 :
 public
 imgINotificationObserver
@@ -111,7 +111,7 @@ mFrame
 ;
 class
 nsImageBoxFrame
-MOZ_FINAL
+final
 :
 public
 nsLeafBoxFrame
@@ -161,7 +161,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -171,7 +171,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -181,14 +181,14 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 MarkIntrinsicISizesDirty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Notify
@@ -231,7 +231,7 @@ nsIFrame
 *
 asPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -245,7 +245,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -255,7 +255,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -265,7 +265,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -274,7 +274,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -288,7 +288,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -318,7 +318,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 ~
@@ -517,7 +517,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -531,7 +531,7 @@ nsIntPoint
 &
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -544,7 +544,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -577,7 +577,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -594,7 +594,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -607,7 +607,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (

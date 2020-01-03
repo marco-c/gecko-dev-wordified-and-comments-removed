@@ -1031,7 +1031,7 @@ namespace
 {
 class
 nsNameThreadRunnable
-MOZ_FINAL
+final
 :
 public
 nsIRunnable

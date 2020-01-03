@@ -31,7 +31,7 @@ mobilemessage
 {
 class
 MobileMessageService
-MOZ_FINAL
+final
 :
 public
 nsIMobileMessageService

@@ -1612,7 +1612,7 @@ MediaStreamListener
 MediaStreamGraphEvent
 event
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

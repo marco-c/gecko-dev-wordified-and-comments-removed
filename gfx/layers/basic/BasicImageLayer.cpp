@@ -188,7 +188,7 @@ nsIntRegion
 &
 aRegion
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -238,7 +238,7 @@ Layer
 *
 aMaskLayer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -248,7 +248,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

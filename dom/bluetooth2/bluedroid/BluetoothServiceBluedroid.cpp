@@ -606,7 +606,7 @@ BluetoothServiceBluedroid
 :
 :
 EnableResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothResultHandler
@@ -619,7 +619,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -659,7 +659,7 @@ BluetoothServiceBluedroid
 :
 :
 ProfileInitResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothProfileResultHandler
@@ -688,7 +688,7 @@ void
 Init
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -712,7 +712,7 @@ OnError
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -761,7 +761,7 @@ BluetoothServiceBluedroid
 :
 :
 InitResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothResultHandler
@@ -772,7 +772,7 @@ void
 Init
 (
 )
-MOZ_OVERRIDE
+override
 {
 static
 void
@@ -860,7 +860,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -987,7 +987,7 @@ BluetoothServiceBluedroid
 :
 :
 DisableResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothResultHandler
@@ -1000,7 +1000,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1669,7 +1669,7 @@ BluetoothServiceBluedroid
 :
 :
 GetRemoteDevicePropertiesResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothResultHandler
@@ -1696,7 +1696,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2078,7 +2078,7 @@ BluetoothServiceBluedroid
 :
 :
 StartDiscoveryResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothResultHandler
@@ -2104,7 +2104,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2187,7 +2187,7 @@ BluetoothServiceBluedroid
 :
 :
 CancelDiscoveryResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothResultHandler
@@ -2213,7 +2213,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2296,7 +2296,7 @@ BluetoothServiceBluedroid
 :
 :
 GetRemoteServicesResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothResultHandler
@@ -2322,7 +2322,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2428,7 +2428,7 @@ BluetoothServiceBluedroid
 :
 :
 SetAdapterPropertyResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothResultHandler
@@ -2454,7 +2454,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2586,7 +2586,7 @@ BluetoothServiceBluedroid
 :
 :
 CreateBondResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothResultHandler
@@ -2617,7 +2617,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 sBondingRunnableArray
 .
@@ -2702,7 +2702,7 @@ BluetoothServiceBluedroid
 :
 :
 RemoveBondResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothResultHandler
@@ -2733,7 +2733,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 sUnbondingRunnableArray
 .
@@ -2816,7 +2816,7 @@ BluetoothServiceBluedroid
 :
 :
 PinReplyResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothResultHandler
@@ -2840,7 +2840,7 @@ void
 PinReply
 (
 )
-MOZ_OVERRIDE
+override
 {
 DispatchReplySuccess
 (
@@ -2854,7 +2854,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 DispatchReplyError
 (
@@ -2943,7 +2943,7 @@ BluetoothServiceBluedroid
 :
 :
 SspReplyResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothResultHandler
@@ -2967,7 +2967,7 @@ void
 SspReply
 (
 )
-MOZ_OVERRIDE
+override
 {
 DispatchReplySuccess
 (
@@ -2981,7 +2981,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 DispatchReplyError
 (
@@ -4196,7 +4196,7 @@ BluetoothServiceBluedroid
 :
 :
 ProfileDeinitResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothProfileResultHandler
@@ -4225,7 +4225,7 @@ void
 Deinit
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -4249,7 +4249,7 @@ OnError
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -4295,7 +4295,7 @@ BluetoothServiceBluedroid
 :
 :
 SetAdapterPropertyDiscoverableResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothResultHandler
@@ -4308,7 +4308,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_LOGR
 (

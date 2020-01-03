@@ -165,7 +165,7 @@ PBackgroundIDBDatabaseFileChild
 ;
 class
 IDBDatabase
-MOZ_FINAL
+final
 :
 public
 IDBWrapperCache
@@ -709,7 +709,7 @@ void
 LastRelease
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -719,7 +719,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -739,7 +739,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

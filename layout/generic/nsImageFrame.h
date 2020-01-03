@@ -251,7 +251,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -261,7 +261,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -277,7 +277,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -295,7 +295,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -305,7 +305,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -315,7 +315,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -325,14 +325,14 @@ IntrinsicSize
 GetIntrinsicSize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
 GetIntrinsicRatio
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -352,7 +352,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -369,7 +369,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -388,7 +388,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -405,7 +405,7 @@ Cursor
 &
 aCursor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -419,7 +419,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -435,7 +435,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -446,7 +446,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -456,7 +456,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 ImageFrameSuper
@@ -488,7 +488,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 List
@@ -511,7 +511,7 @@ aFlags
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -527,7 +527,7 @@ aReflowState
 nullptr
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetIntrinsicImageSize
@@ -680,7 +680,7 @@ InlineMinISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DisconnectMap
@@ -692,14 +692,14 @@ bool
 ReflowFinished
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ReflowCallbackCanceled
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -762,7 +762,7 @@ aPadding
 ComputeSizeFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsServerImageMap
@@ -1085,7 +1085,7 @@ aRequest
 ;
 class
 IconLoad
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -1302,7 +1302,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1319,7 +1319,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1332,7 +1332,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -1348,7 +1348,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 gfxRect
 GetDestRect
@@ -1370,7 +1370,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 ;
 nsRect
 GetBounds
@@ -1422,7 +1422,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 return
 GetBounds
@@ -1442,7 +1442,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -1462,7 +1462,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1476,7 +1476,7 @@ nsIntPoint
 &
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (

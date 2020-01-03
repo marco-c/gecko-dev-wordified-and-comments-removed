@@ -506,7 +506,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Notify
@@ -522,7 +522,7 @@ ScreenConfiguration
 &
 aConfiguration
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -561,7 +561,7 @@ private
 :
 class
 FullScreenEventListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener

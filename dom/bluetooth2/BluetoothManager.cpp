@@ -306,7 +306,7 @@ void
 ReleaseMembers
 (
 )
-MOZ_OVERRIDE
+override
 {
 BluetoothReplyRunnable
 :

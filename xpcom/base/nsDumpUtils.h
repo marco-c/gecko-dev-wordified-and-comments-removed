@@ -187,7 +187,7 @@ OnFileCanReadWithoutBlocking
 int
 aFd
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -198,7 +198,7 @@ OnFileCanWriteWithoutBlocking
 int
 aFd
 )
-MOZ_OVERRIDE
+override
 {
 }
 ;
@@ -235,7 +235,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

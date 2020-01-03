@@ -154,7 +154,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 DOMRequestReadyState
 ReadyState
@@ -374,7 +374,7 @@ RootResultVal
 ;
 class
 DOMRequestService
-MOZ_FINAL
+final
 :
 public
 nsIDOMRequestService

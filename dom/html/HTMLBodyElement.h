@@ -77,7 +77,7 @@ nsRuleData
 *
 aRuleData
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -97,7 +97,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -109,7 +109,7 @@ mPart
 ;
 class
 HTMLBodyElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -232,6 +232,12 @@ EventNameList
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+keep
 #
 undef
 BEFOREUNLOAD_EVENT
@@ -507,7 +513,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -522,7 +528,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -530,7 +536,7 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WalkContentStyleRules
@@ -539,7 +545,7 @@ nsRuleWalker
 *
 aRuleWalker
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -553,7 +559,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -563,7 +569,7 @@ nsIEditor
 GetAssociatedEditor
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -584,7 +590,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -594,7 +600,7 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -622,7 +628,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

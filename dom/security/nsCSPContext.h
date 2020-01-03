@@ -316,7 +316,7 @@ CSPViolationReportListener
 ;
 class
 CSPReportRedirectSink
-MOZ_FINAL
+final
 :
 public
 nsIChannelEventSink

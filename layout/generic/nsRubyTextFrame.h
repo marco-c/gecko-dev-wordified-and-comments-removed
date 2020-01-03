@@ -29,7 +29,7 @@ aContext
 ;
 class
 nsRubyTextFrame
-MOZ_FINAL
+final
 :
 public
 nsRubyTextFrameSuper
@@ -49,7 +49,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -57,7 +57,7 @@ CanContinueTextRun
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -71,7 +71,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -91,7 +91,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -111,7 +111,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsAutoHidden

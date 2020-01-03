@@ -134,7 +134,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 nsresult
@@ -182,7 +182,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -200,7 +200,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -211,7 +211,7 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventStates
@@ -219,7 +219,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -233,7 +233,7 @@ nsIAtom
 name
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -251,7 +251,7 @@ Matrix
 &
 aTransform
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -264,7 +264,7 @@ PathBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -272,7 +272,7 @@ HasValidDimensions
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -293,7 +293,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 CopyInnerTo
@@ -384,7 +384,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 SVGAnimatedPreserveAspectRatio
@@ -392,14 +392,14 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 StringAttributesInfo
 GetStringInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

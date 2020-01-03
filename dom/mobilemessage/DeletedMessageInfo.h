@@ -38,7 +38,7 @@ mobilemessage
 {
 class
 DeletedMessageInfo
-MOZ_FINAL
+final
 :
 public
 nsIDeletedMessageInfo

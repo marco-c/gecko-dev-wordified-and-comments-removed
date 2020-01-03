@@ -335,7 +335,7 @@ BluetoothHfpManager
 :
 :
 GetVolumeTask
-MOZ_FINAL
+final
 :
 public
 nsISettingsServiceCallback
@@ -489,7 +489,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -521,7 +521,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -569,7 +569,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1075,7 +1075,7 @@ BluetoothHfpManager
 :
 :
 CleanupInitResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -1113,7 +1113,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -1152,7 +1152,7 @@ void
 Init
 (
 )
-MOZ_OVERRIDE
+override
 {
 sBluetoothHfpInterface
 =
@@ -1176,7 +1176,7 @@ void
 Cleanup
 (
 )
-MOZ_OVERRIDE
+override
 {
 sBluetoothHfpInterface
 =
@@ -1232,7 +1232,7 @@ BluetoothHfpManager
 :
 :
 InitResultHandlerRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1261,7 +1261,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mRes
 -
@@ -1289,7 +1289,7 @@ BluetoothHfpManager
 :
 :
 OnErrorProfileResultHandlerRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1324,7 +1324,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mRes
 -
@@ -1657,7 +1657,7 @@ BluetoothHfpManager
 :
 :
 CleanupResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -1683,7 +1683,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -1722,7 +1722,7 @@ void
 Cleanup
 (
 )
-MOZ_OVERRIDE
+override
 {
 sBluetoothHfpInterface
 =
@@ -1757,7 +1757,7 @@ BluetoothHfpManager
 :
 :
 DeinitResultHandlerRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1786,7 +1786,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mRes
 -
@@ -2352,7 +2352,7 @@ BluetoothHfpManager
 :
 :
 VolumeControlResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -2365,7 +2365,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -2920,7 +2920,7 @@ BluetoothHfpManager
 :
 :
 ClccResponseResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -2933,7 +2933,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -3088,7 +3088,7 @@ BluetoothHfpManager
 :
 :
 FormattedAtResponseResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -3101,7 +3101,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -3159,7 +3159,7 @@ BluetoothHfpManager
 :
 :
 AtResponseResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -3172,7 +3172,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -3229,7 +3229,7 @@ BluetoothHfpManager
 :
 :
 PhoneStateChangeResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -3242,7 +3242,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -3391,7 +3391,7 @@ BluetoothHfpManager
 :
 :
 DeviceStatusNotificationResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -3404,7 +3404,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -4377,7 +4377,7 @@ BluetoothHfpManager
 :
 :
 ConnectAudioResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -4390,7 +4390,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -4476,7 +4476,7 @@ BluetoothHfpManager
 :
 :
 DisconnectAudioResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -4489,7 +4489,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -4626,7 +4626,7 @@ BluetoothHfpManager
 :
 :
 ConnectResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -4657,7 +4657,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -4826,7 +4826,7 @@ BluetoothHfpManager
 :
 :
 DisconnectResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -4857,7 +4857,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -5828,7 +5828,7 @@ BluetoothHfpManager
 :
 :
 CindResponseResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -5841,7 +5841,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -5940,7 +5940,7 @@ BluetoothHfpManager
 :
 :
 CopsResponseResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeResultHandler
@@ -5953,7 +5953,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (

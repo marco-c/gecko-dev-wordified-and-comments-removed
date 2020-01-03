@@ -325,7 +325,7 @@ CharacterDataChangeInfo
 *
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -347,7 +347,7 @@ CharacterDataChangeInfo
 *
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -381,7 +381,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -415,7 +415,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -440,7 +440,7 @@ aFirstNewContent
 int32_t
 aNewIndexInContainer
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -465,7 +465,7 @@ aChild
 int32_t
 aIndexInContainer
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -494,7 +494,7 @@ nsIContent
 *
 aPreviousSibling
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -509,7 +509,7 @@ nsINode
 *
 aNode
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -523,7 +523,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define

@@ -245,7 +245,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -258,7 +258,7 @@ GetEffectiveTransformForBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mEffectiveTransformForBuffer
@@ -340,7 +340,7 @@ char
 *
 aPrefix
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -357,7 +357,7 @@ void
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

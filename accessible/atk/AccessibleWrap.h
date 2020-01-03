@@ -104,7 +104,7 @@ void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -115,7 +115,7 @@ void
 *
 aOutAccessible
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -125,7 +125,7 @@ AccEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 AtkObject
 *

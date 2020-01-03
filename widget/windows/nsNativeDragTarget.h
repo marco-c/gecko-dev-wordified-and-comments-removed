@@ -77,7 +77,7 @@ IDataObject
 ;
 class
 nsNativeDragTarget
-MOZ_FINAL
+final
 :
 public
 IDropTarget

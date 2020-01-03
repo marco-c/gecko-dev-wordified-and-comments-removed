@@ -564,7 +564,7 @@ aMallocSizeOf
 }
 class
 GroupRuleRuleList
-MOZ_FINAL
+final
 :
 public
 dom
@@ -588,7 +588,7 @@ CSSStyleSheet
 GetParentObject
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMCSSRule
@@ -601,14 +601,14 @@ bool
 &
 aFound
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
 Length
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DropReference

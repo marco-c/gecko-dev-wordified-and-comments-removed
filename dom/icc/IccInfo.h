@@ -94,7 +94,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 Nullable
 <
@@ -180,7 +180,7 @@ mIccInfo
 ;
 class
 GsmIccInfo
-MOZ_FINAL
+final
 :
 public
 IccInfo
@@ -227,7 +227,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetMsisdn
@@ -258,7 +258,7 @@ mGsmIccInfo
 ;
 class
 CdmaIccInfo
-MOZ_FINAL
+final
 :
 public
 IccInfo
@@ -305,7 +305,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetMdn

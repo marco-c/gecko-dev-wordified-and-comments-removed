@@ -33,7 +33,7 @@ CustomEventInit
 ;
 class
 CustomEvent
-MOZ_FINAL
+final
 :
 public
 Event
@@ -133,7 +133,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetDetail

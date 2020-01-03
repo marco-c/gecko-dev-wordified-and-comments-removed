@@ -50,7 +50,7 @@ nsTransactionStack
 ;
 class
 nsTransactionItem
-MOZ_FINAL
+final
 {
 nsCOMArray
 <

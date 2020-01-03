@@ -85,7 +85,7 @@ SavedResponse
 ;
 class
 DBSchema
-MOZ_FINAL
+final
 {
 public
 :

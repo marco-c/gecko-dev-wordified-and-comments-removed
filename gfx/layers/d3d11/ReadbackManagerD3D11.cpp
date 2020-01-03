@@ -84,7 +84,7 @@ mSink
 ;
 class
 ReadbackResultWriterD3D11
-MOZ_FINAL
+final
 :
 public
 nsIRunnable

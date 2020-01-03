@@ -40,7 +40,7 @@ embedding
 {
 class
 PrintProgressDialogChild
-MOZ_FINAL
+final
 :
 public
 PPrintProgressDialogChild
@@ -67,7 +67,7 @@ bool
 RecvDialogOpened
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -76,7 +76,7 @@ public
 ;
 class
 nsDataObjCollection
-MOZ_FINAL
+final
 :
 public
 nsIDataObjCollection

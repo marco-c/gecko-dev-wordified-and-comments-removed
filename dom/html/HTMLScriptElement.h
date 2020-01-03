@@ -42,7 +42,7 @@ dom
 {
 class
 HTMLScriptElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -91,7 +91,7 @@ nsAString
 &
 aInnerHTML
 )
-MOZ_OVERRIDE
+override
 ;
 using
 nsGenericHTMLElement
@@ -114,7 +114,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIDOMHTMLSCRIPTELEMENT
 virtual
@@ -125,7 +125,7 @@ nsAString
 &
 type
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -135,7 +135,7 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -145,14 +145,14 @@ nsAString
 &
 charset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 FreezeUriAsyncDefer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 CORSMode
@@ -160,7 +160,7 @@ GetCORSMode
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -178,7 +178,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -197,7 +197,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -218,7 +218,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -236,7 +236,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetText
@@ -408,14 +408,14 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 HasScriptContent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

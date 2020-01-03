@@ -77,7 +77,7 @@ c3d63a58f1d2
 }
 class
 nsHTMLURIRefObject
-MOZ_FINAL
+final
 :
 public
 nsIURIRefObject

@@ -183,7 +183,7 @@ BorderColorStyle
 ;
 class
 nsCSSBorderRenderer
-MOZ_FINAL
+final
 {
 typedef
 mozilla

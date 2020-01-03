@@ -93,7 +93,7 @@ ConsoleStackEntry
 ;
 class
 Console
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -150,7 +150,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Log

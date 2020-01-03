@@ -1183,7 +1183,7 @@ endif
 ;
 class
 BluetoothDaemonHandsfreeInterface
-MOZ_FINAL
+final
 :
 public
 BluetoothHandsfreeInterface

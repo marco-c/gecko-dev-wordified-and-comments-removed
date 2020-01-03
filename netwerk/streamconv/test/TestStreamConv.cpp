@@ -144,7 +144,7 @@ NS_STREAMCONVERTERSERVICE_CID
 ;
 class
 EndListener
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener
@@ -180,7 +180,7 @@ sourceOffset
 uint32_t
 count
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -351,7 +351,7 @@ nsISupports
 *
 ctxt
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -369,7 +369,7 @@ ctxt
 nsresult
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK

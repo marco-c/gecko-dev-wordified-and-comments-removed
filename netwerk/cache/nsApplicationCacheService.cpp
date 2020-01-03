@@ -841,7 +841,7 @@ namespace
 {
 class
 AppCacheClearDataObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -864,7 +864,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

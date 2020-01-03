@@ -106,7 +106,7 @@ processed
 }
 class
 UnownedCallback
-MOZ_FINAL
+final
 :
 public
 mozIStorageStatementCallback
@@ -182,7 +182,7 @@ mozIStorageResultSet
 *
 aResultSet
 )
-MOZ_OVERRIDE
+override
 {
 sResult
 =
@@ -225,7 +225,7 @@ mozIStorageError
 *
 aError
 )
-MOZ_OVERRIDE
+override
 {
 sError
 =
@@ -267,7 +267,7 @@ HandleCompletion
 uint16_t
 aReason
 )
-MOZ_OVERRIDE
+override
 {
 mCompleted
 =

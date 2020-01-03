@@ -257,7 +257,7 @@ Http2Compressor
 ;
 class
 Http2Decompressor
-MOZ_FINAL
+final
 :
 public
 Http2BaseCompressor
@@ -550,7 +550,7 @@ mIsPush
 ;
 class
 Http2Compressor
-MOZ_FINAL
+final
 :
 public
 Http2BaseCompressor

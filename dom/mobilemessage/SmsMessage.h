@@ -61,7 +61,7 @@ dom
 {
 class
 SmsMessage
-MOZ_FINAL
+final
 :
 public
 nsIDOMMozSmsMessage

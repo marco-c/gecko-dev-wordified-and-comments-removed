@@ -256,7 +256,7 @@ GMPPlatformAPI
 *
 aPlatformAPI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -274,14 +274,14 @@ void
 *
 aPluginAPI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -294,7 +294,7 @@ SandboxStarter
 *
 aStarter
 )
-MOZ_OVERRIDE
+override
 {
 mSandboxStarter
 =

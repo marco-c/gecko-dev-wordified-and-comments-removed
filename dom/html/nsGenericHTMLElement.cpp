@@ -996,7 +996,7 @@ nsIDOMCSSStyleDeclaration
 *
 aStyle
 )
-MOZ_OVERRIDE
+override
 {
 NS_ADDREF
 (

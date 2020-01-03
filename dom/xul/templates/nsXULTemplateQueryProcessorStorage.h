@@ -74,7 +74,7 @@ nsXULTemplateQueryProcessorStorage
 ;
 class
 nsXULTemplateResultSetStorage
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator
@@ -134,7 +134,7 @@ aArray
 ;
 class
 nsXULTemplateQueryProcessorStorage
-MOZ_FINAL
+final
 :
 public
 nsIXULTemplateQueryProcessor

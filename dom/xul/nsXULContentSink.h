@@ -82,7 +82,7 @@ nsXULPrototypeNode
 ;
 class
 XULContentSinkImpl
-MOZ_FINAL
+final
 :
 public
 nsIXMLContentSink
@@ -107,7 +107,7 @@ WillParse
 (
 void
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -119,7 +119,7 @@ WillBuildModel
 nsDTDMode
 aDTDMode
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidBuildModel
@@ -127,21 +127,21 @@ DidBuildModel
 bool
 aTerminated
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillInterrupt
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillResume
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetParser
@@ -150,7 +150,7 @@ nsParserBase
 *
 aParser
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -159,7 +159,7 @@ FlushPendingNotifications
 mozFlushType
 aType
 )
-MOZ_OVERRIDE
+override
 {
 }
 NS_IMETHOD
@@ -169,7 +169,7 @@ nsACString
 &
 aCharset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsISupports
@@ -177,7 +177,7 @@ nsISupports
 GetTarget
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Init

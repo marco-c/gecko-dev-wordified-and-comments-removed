@@ -129,7 +129,7 @@ Voicemail
 :
 :
 Listener
-MOZ_FINAL
+final
 :
 public
 nsIVoicemailListener

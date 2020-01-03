@@ -259,7 +259,7 @@ mozIStorageResultSet
 *
 aResultSet
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -476,7 +476,7 @@ HandleCompletion
 uint16_t
 aReason
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -582,7 +582,7 @@ nsIRequest
 nsISupports
 *
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -598,7 +598,7 @@ nsISupports
 nsresult
 aStatusCode
 )
-MOZ_OVERRIDE
+override
 {
 (
 void

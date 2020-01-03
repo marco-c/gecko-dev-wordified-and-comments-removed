@@ -2489,7 +2489,7 @@ namespace
 {
 class
 AsyncInitDatabase
-MOZ_FINAL
+final
 :
 public
 nsRunnable

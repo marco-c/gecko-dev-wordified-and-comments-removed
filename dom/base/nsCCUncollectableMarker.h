@@ -31,7 +31,7 @@ h
 "
 class
 nsCCUncollectableMarker
-MOZ_FINAL
+final
 :
 public
 nsIObserver

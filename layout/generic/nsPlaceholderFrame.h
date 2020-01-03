@@ -58,7 +58,7 @@ PLACEHOLDER_FOR_POPUP
 )
 class
 nsPlaceholderFrame
-MOZ_FINAL
+final
 :
 public
 nsFrame
@@ -199,7 +199,7 @@ InlineMinISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -212,7 +212,7 @@ InlinePrefISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -222,7 +222,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -232,7 +232,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -242,7 +242,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -262,7 +262,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -272,7 +272,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 #
 if
@@ -310,7 +310,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -338,7 +338,7 @@ aFlags
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -349,7 +349,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -360,14 +360,14 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsEmpty
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -378,7 +378,7 @@ bool
 IsSelfEmpty
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -390,7 +390,7 @@ CanContinueTextRun
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -406,7 +406,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsIFrame
 *
@@ -448,7 +448,7 @@ nsIFrame
 aProviderFrame
 )
 const
-MOZ_OVERRIDE
+override
 ;
 static
 nsIFrame

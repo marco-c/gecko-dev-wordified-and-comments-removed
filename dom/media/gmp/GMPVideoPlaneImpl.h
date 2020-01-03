@@ -116,7 +116,7 @@ aStride
 int32_t
 aPlaneSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -127,7 +127,7 @@ GMPPlane
 &
 aPlane
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -142,7 +142,7 @@ uint8_t
 *
 aBuffer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -152,7 +152,7 @@ GMPPlane
 &
 aPlane
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -160,14 +160,14 @@ AllocatedSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ResetSize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -175,7 +175,7 @@ IsZeroSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -183,7 +183,7 @@ Stride
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -193,7 +193,7 @@ Buffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint8_t
@@ -201,14 +201,14 @@ uint8_t
 Buffer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

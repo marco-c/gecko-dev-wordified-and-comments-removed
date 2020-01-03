@@ -29,7 +29,7 @@ h
 "
 class
 nsColumnSetFrame
-MOZ_FINAL
+final
 :
 public
 nsContainerFrame
@@ -63,7 +63,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -78,7 +78,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -90,7 +90,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -105,7 +105,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -117,7 +117,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -129,7 +129,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -139,7 +139,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -157,7 +157,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsIFrame
 *
@@ -194,7 +194,7 @@ aChild
 bool
 aForceNormal
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame
@@ -218,7 +218,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame
@@ -254,7 +254,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -263,7 +263,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -299,7 +299,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName

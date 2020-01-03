@@ -62,7 +62,7 @@ GMPDecryptorCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 {
 mCallback
 =
@@ -92,7 +92,7 @@ aInitDataSize
 GMPSessionType
 aSessionType
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -108,7 +108,7 @@ aSessionId
 uint32_t
 aSessionIdLength
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -130,7 +130,7 @@ aResponse
 uint32_t
 aResponseSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -145,7 +145,7 @@ aSessionId
 uint32_t
 aSessionIdLength
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -161,7 +161,7 @@ aSessionId
 uint32_t
 aSessionIdLength
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -177,7 +177,7 @@ aServerCert
 uint32_t
 aServerCertSize
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -191,7 +191,7 @@ GMPEncryptedBufferMetadata
 *
 aMetadata
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -199,7 +199,7 @@ void
 DecryptingComplete
 (
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -280,7 +280,7 @@ void
 BeginShutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

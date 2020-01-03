@@ -758,7 +758,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetCommandStateParams
@@ -774,7 +774,7 @@ nsISupports
 *
 aCommandContext
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DoCommandParams
@@ -790,7 +790,7 @@ nsISupports
 *
 aCommandContext
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -2375,7 +2375,7 @@ mark
 endif
 class
 nsClipboardCommand
-MOZ_FINAL
+final
 :
 public
 nsIControllerCommand
@@ -4051,7 +4051,7 @@ GoBack
 endif
 class
 nsClipboardDragDropHookCommand
-MOZ_FINAL
+final
 :
 public
 nsIControllerCommand

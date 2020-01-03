@@ -134,7 +134,7 @@ WebSocketImpl
 ;
 class
 WebSocket
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -177,7 +177,7 @@ nsIAtom
 *
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -187,14 +187,14 @@ nsIAtom
 *
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DisconnectFromOwner
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsPIDOMWindow
 *
@@ -226,7 +226,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :

@@ -61,7 +61,7 @@ dom
 {
 class
 SVGSetElement
-MOZ_FINAL
+final
 :
 public
 SVGAnimationElement
@@ -133,7 +133,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -156,7 +156,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSMILAnimationFunction
@@ -164,7 +164,7 @@ nsSMILAnimationFunction
 AnimationFunction
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

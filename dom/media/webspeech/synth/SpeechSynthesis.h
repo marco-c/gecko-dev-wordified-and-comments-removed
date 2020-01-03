@@ -69,7 +69,7 @@ nsSpeechTask
 ;
 class
 SpeechSynthesis
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -116,7 +116,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Pending

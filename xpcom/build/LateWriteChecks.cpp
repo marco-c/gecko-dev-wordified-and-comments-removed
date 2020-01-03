@@ -412,7 +412,7 @@ aPC
 }
 class
 LateWriteObserver
-MOZ_FINAL
+final
 :
 public
 IOInterposeObserver

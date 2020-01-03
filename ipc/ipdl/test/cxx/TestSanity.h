@@ -106,7 +106,7 @@ uint8_t
 &
 dummy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -115,7 +115,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -184,7 +184,7 @@ int8_t
 &
 dummy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -193,7 +193,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

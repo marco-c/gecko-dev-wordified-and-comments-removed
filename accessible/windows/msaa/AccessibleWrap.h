@@ -543,7 +543,7 @@ void
 *
 aOutAccessible
 )
-MOZ_OVERRIDE
+override
 ;
 static
 IDispatch

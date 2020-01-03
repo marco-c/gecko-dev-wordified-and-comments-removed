@@ -3719,7 +3719,7 @@ forget
 }
 class
 DefaultTooltipTextProvider
-MOZ_FINAL
+final
 :
 public
 nsITooltipTextProvider

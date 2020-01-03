@@ -213,7 +213,7 @@ aCurrentSize
 ;
 class
 CacheStorageService
-MOZ_FINAL
+final
 :
 public
 nsICacheStorageService

@@ -358,7 +358,7 @@ eLogicalSideIEnd
 ;
 struct
 LogicalSides
-MOZ_FINAL
+final
 {
 LogicalSides
 (

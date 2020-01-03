@@ -43,7 +43,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -57,7 +57,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -71,7 +71,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

@@ -315,7 +315,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -336,7 +336,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -346,7 +346,7 @@ HasValidDimensions
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 IsNodeOfType
@@ -355,7 +355,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -601,7 +601,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 Size
 GetKernelUnitLength
@@ -698,7 +698,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -774,7 +774,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSVGString
@@ -782,7 +782,7 @@ nsSVGString
 GetResultImageName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStringAttributes
@@ -802,7 +802,7 @@ nsSVGStringInfo
 &
 aSources
 )
-MOZ_OVERRIDE
+override
 ;
 NS_FORWARD_NSIDOMSVGELEMENT
 (
@@ -822,7 +822,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -835,7 +835,7 @@ aInputIndex
 bool
 aInputIsAlreadySRGB
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -846,21 +846,21 @@ NumberAttributesInfo
 GetNumberInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 NumberPairAttributesInfo
 GetNumberPairInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 StringAttributesInfo
 GetStringInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 AttributeMap
 ComputeLightAttributes

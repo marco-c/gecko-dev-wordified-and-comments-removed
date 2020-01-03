@@ -106,7 +106,7 @@ bool
 ShouldContinueFromReplyTimeout
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -119,7 +119,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 passed
 (
@@ -190,7 +190,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 QuitChild
 (

@@ -97,7 +97,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -117,7 +117,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -127,7 +127,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -137,7 +137,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -146,7 +146,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -160,7 +160,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

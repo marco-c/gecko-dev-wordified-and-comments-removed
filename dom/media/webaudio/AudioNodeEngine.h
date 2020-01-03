@@ -308,7 +308,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 size_t
 amount
@@ -377,7 +377,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

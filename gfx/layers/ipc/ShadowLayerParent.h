@@ -168,7 +168,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

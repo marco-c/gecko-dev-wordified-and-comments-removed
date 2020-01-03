@@ -47,7 +47,7 @@ DBusConnection
 *
 connection
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -57,7 +57,7 @@ DBusConnection
 *
 connection
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -67,7 +67,7 @@ DBusMessage
 *
 msg
 )
-MOZ_OVERRIDE
+override
 ;
 void
 UpdateNetworkStatus

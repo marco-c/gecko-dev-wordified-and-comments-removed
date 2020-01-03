@@ -493,7 +493,7 @@ TextureSourceOGL
 AsSourceOGL
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -522,7 +522,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mInitParams
@@ -538,7 +538,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -576,7 +576,7 @@ Compositor
 *
 aCompositor
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

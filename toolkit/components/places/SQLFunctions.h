@@ -31,7 +31,7 @@ places
 {
 class
 MatchAutoCompleteFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction
@@ -240,7 +240,7 @@ _fixedSpec
 ;
 class
 CalculateFrecencyFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction
@@ -267,7 +267,7 @@ aDBConn
 ;
 class
 GenerateGUIDFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction
@@ -294,7 +294,7 @@ aDBConn
 ;
 class
 GetUnreversedHostFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction
@@ -321,7 +321,7 @@ aDBConn
 ;
 class
 FixupURLFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction
@@ -348,7 +348,7 @@ aDBConn
 ;
 class
 FrecencyNotificationFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction

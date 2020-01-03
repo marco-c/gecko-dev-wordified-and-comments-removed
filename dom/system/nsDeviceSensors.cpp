@@ -195,7 +195,7 @@ NoIndex
 ;
 class
 nsDeviceSensorData
-MOZ_FINAL
+final
 :
 public
 nsIDeviceSensorData

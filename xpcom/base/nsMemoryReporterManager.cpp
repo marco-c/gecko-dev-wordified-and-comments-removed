@@ -650,7 +650,7 @@ aN
 }
 class
 ResidentUniqueReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -676,7 +676,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 int64_t
 amount
@@ -2386,7 +2386,7 @@ NS_OK
 }
 class
 WindowsAddressSpaceReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -2412,7 +2412,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 MEMORY_BASIC_INFORMATION
 info
@@ -3036,7 +3036,7 @@ ifdef
 HAVE_VSIZE_MAX_CONTIGUOUS_REPORTER
 class
 VsizeMaxContiguousReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -3062,7 +3062,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 int64_t
 amount
@@ -3127,7 +3127,7 @@ ifdef
 HAVE_PRIVATE_REPORTER
 class
 PrivateReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -3153,7 +3153,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 int64_t
 amount
@@ -3235,7 +3235,7 @@ ifdef
 HAVE_VSIZE_AND_RESIDENT_REPORTERS
 class
 VsizeReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -3261,7 +3261,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 int64_t
 amount
@@ -3406,7 +3406,7 @@ nsIMemoryReporter
 )
 class
 ResidentReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -3432,7 +3432,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 int64_t
 amount
@@ -3660,7 +3660,7 @@ NS_ERROR_FAILURE
 }
 class
 ResidentPeakReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -3686,7 +3686,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 int64_t
 amount
@@ -3750,7 +3750,7 @@ HAVE_PAGE_FAULT_REPORTERS
 1
 class
 PageFaultsSoftReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -3776,7 +3776,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 struct
 rusage
@@ -4021,7 +4021,7 @@ NS_OK
 }
 class
 PageFaultsHardReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -4047,7 +4047,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 int64_t
 amount
@@ -4295,7 +4295,7 @@ allocated
 }
 class
 JemallocHeapReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -4321,7 +4321,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 jemalloc_stats_t
 stats
@@ -5002,7 +5002,7 @@ nsIMemoryReporter
 endif
 class
 AtomTablesReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -5032,7 +5032,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 size_t
 Main
@@ -5134,7 +5134,7 @@ ifdef
 DEBUG
 class
 DeadlockDetectorReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -5164,7 +5164,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT
@@ -5217,7 +5217,7 @@ dmd
 {
 class
 DMDReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -5237,7 +5237,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 dmd
 :
@@ -7699,7 +7699,7 @@ NS_OK
 }
 class
 Int64Wrapper
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -7734,7 +7734,7 @@ Int64Wrapper
 )
 class
 ExplicitCallback
-MOZ_FINAL
+final
 :
 public
 nsIHandleReportCallback
@@ -7773,7 +7773,7 @@ nsISupports
 *
 aWrappedExplicit
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -9618,7 +9618,7 @@ dmd
 {
 class
 DoNothingCallback
-MOZ_FINAL
+final
 :
 public
 nsIHandleReportCallback

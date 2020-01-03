@@ -205,7 +205,7 @@ file
 "
 class
 nsFileResult
-MOZ_FINAL
+final
 :
 public
 nsIAutoCompleteResult
@@ -940,7 +940,7 @@ NS_OK
 }
 class
 nsFileComplete
-MOZ_FINAL
+final
 :
 public
 nsIAutoCompleteSearch

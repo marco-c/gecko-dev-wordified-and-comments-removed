@@ -72,7 +72,7 @@ ZIP_BUFLEN
 )
 class
 nsDeflateConverter
-MOZ_FINAL
+final
 :
 public
 nsIStreamConverter

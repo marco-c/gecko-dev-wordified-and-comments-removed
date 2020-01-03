@@ -675,7 +675,7 @@ mLoadGroup
 ;
 class
 InterfaceRequestor
-MOZ_FINAL
+final
 :
 public
 nsIInterfaceRequestor
@@ -713,7 +713,7 @@ void
 *
 aSink
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

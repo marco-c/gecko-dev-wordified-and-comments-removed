@@ -55,7 +55,7 @@ uintptr_t
 &
 aChildId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -64,7 +64,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -75,7 +75,7 @@ uint16_t
 &
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetWidget

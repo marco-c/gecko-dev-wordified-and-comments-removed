@@ -32,7 +32,7 @@ Icc
 ;
 class
 IccListener
-MOZ_FINAL
+final
 :
 public
 nsIIccListener

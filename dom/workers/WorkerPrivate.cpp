@@ -1136,7 +1136,7 @@ rawSupports
 }
 class
 ExternalRunnableWrapper
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -1200,7 +1200,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -1248,7 +1248,7 @@ NS_IMETHOD
 Cancel
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsresult
 rv
@@ -3913,7 +3913,7 @@ nullptr
 ;
 class
 MainThreadReleaseRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -3993,7 +3993,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -4067,7 +4067,7 @@ MainThreadReleaseRunnable
 ;
 class
 WorkerFinishedRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerControlRunnable
@@ -4112,7 +4112,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -4131,7 +4131,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -4145,7 +4145,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -4286,7 +4286,7 @@ true
 ;
 class
 TopLevelWorkerFinishedRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -4331,7 +4331,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -4477,7 +4477,7 @@ NS_OK
 ;
 class
 ModifyBusyCountRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerControlRunnable
@@ -4520,7 +4520,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 aWorkerPrivate
@@ -4546,7 +4546,7 @@ aWorkerPrivate
 bool
 aRunResult
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -4571,7 +4571,7 @@ return
 ;
 class
 CompileScriptRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -4617,7 +4617,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 WorkerGlobalScope
 *
@@ -4712,7 +4712,7 @@ result
 ;
 class
 CompileDebuggerScriptRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerDebuggerRunnable
@@ -4756,7 +4756,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 WorkerDebuggerGlobalScope
 *
@@ -4833,7 +4833,7 @@ DebuggerScript
 ;
 class
 CloseEventRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -4868,7 +4868,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -4900,7 +4900,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -4930,7 +4930,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 JS
 :
@@ -5092,7 +5092,7 @@ aWorkerPrivate
 bool
 aRunResult
 )
-MOZ_OVERRIDE
+override
 {
 WorkerRunnable
 :
@@ -5135,7 +5135,7 @@ CloseHandlerFinished
 ;
 class
 MessageEventRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -5456,7 +5456,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT_IF
 (
@@ -5673,7 +5673,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 WorkerDebuggerGlobalScope
 *
@@ -5855,7 +5855,7 @@ true
 ;
 class
 NotifyRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerControlRunnable
@@ -5924,7 +5924,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 aWorkerPrivate
@@ -5950,7 +5950,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -5980,7 +5980,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 aWorkerPrivate
@@ -5997,7 +5997,7 @@ mStatus
 ;
 class
 CloseRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerControlRunnable
@@ -6032,7 +6032,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 aWorkerPrivate
@@ -6058,7 +6058,7 @@ aCx
 ;
 class
 SuspendRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerControlRunnable
@@ -6093,7 +6093,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 aWorkerPrivate
@@ -6109,7 +6109,7 @@ aCx
 ;
 class
 ResumeRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerControlRunnable
@@ -6144,7 +6144,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 aWorkerPrivate
@@ -6160,7 +6160,7 @@ aCx
 ;
 class
 ReportErrorRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -6857,7 +6857,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 {
 aWorkerPrivate
 -
@@ -6878,7 +6878,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 JS
 :
@@ -7124,7 +7124,7 @@ innerWindowId
 ;
 class
 TimerRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -7159,7 +7159,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -7178,7 +7178,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -7192,7 +7192,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 aWorkerPrivate
@@ -7220,7 +7220,7 @@ aClosure
 }
 class
 TimerThreadEventTarget
-MOZ_FINAL
+final
 :
 public
 nsIEventTarget
@@ -7285,7 +7285,7 @@ aRunnable
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -7340,7 +7340,7 @@ bool
 *
 aIsOnCurrentThread
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -7381,7 +7381,7 @@ NS_OK
 ;
 class
 KillCloseEventRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -7394,7 +7394,7 @@ mTimer
 ;
 class
 KillScriptRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerControlRunnable
@@ -7429,7 +7429,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -7448,7 +7448,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -7462,7 +7462,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -7667,7 +7667,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -7699,7 +7699,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -7729,7 +7729,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -7756,7 +7756,7 @@ true
 ;
 class
 UpdateRuntimeOptionsRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerControlRunnable
@@ -7807,7 +7807,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 aWorkerPrivate
 -
@@ -7826,7 +7826,7 @@ true
 ;
 class
 UpdatePreferenceRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerControlRunnable
@@ -7876,7 +7876,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 aWorkerPrivate
 -
@@ -7896,7 +7896,7 @@ true
 ;
 class
 UpdateLanguagesRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -7945,7 +7945,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 aWorkerPrivate
 -
@@ -7964,7 +7964,7 @@ true
 ;
 class
 UpdateJSWorkerMemoryParameterRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerControlRunnable
@@ -8016,7 +8016,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 aWorkerPrivate
 -
@@ -8039,7 +8039,7 @@ ifdef
 JS_GC_ZEAL
 class
 UpdateGCZealRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerControlRunnable
@@ -8091,7 +8091,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 aWorkerPrivate
 -
@@ -8113,7 +8113,7 @@ true
 endif
 class
 GarbageCollectRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerControlRunnable
@@ -8165,7 +8165,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8184,7 +8184,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -8198,7 +8198,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 aWorkerPrivate
 -
@@ -8501,7 +8501,7 @@ ZoneStats
 *
 aZoneStats
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -8589,7 +8589,7 @@ CompartmentStats
 *
 aCompartmentStats
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -8754,7 +8754,7 @@ extras
 ;
 class
 MessagePortRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -8816,7 +8816,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -8850,7 +8850,7 @@ true
 ;
 class
 DummyRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -8905,7 +8905,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT_UNREACHABLE
 (
@@ -8937,7 +8937,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT_UNREACHABLE
 (
@@ -8964,7 +8964,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -9330,7 +9330,7 @@ Derived
 :
 :
 EventTarget
-MOZ_FINAL
+final
 :
 public
 nsIEventTarget
@@ -9515,7 +9515,7 @@ Derived
 :
 :
 SynchronizeAndResumeRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -9596,7 +9596,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -10266,7 +10266,7 @@ WorkerPrivate
 :
 :
 MemoryReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -10332,7 +10332,7 @@ aClosure
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -10838,7 +10838,7 @@ WorkerPrivate
 :
 :
 PreemptingRunnableInfo
-MOZ_FINAL
+final
 {
 nsCOMPtr
 <

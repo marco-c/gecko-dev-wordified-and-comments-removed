@@ -33,7 +33,7 @@ Element
 }
 class
 inDOMUtils
-MOZ_FINAL
+final
 :
 public
 inIDOMUtils

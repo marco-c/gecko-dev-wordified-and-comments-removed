@@ -19,7 +19,7 @@ dom
 {
 class
 TVTunerData
-MOZ_FINAL
+final
 :
 public
 nsITVTunerData
@@ -54,7 +54,7 @@ mCount
 ;
 class
 TVChannelData
-MOZ_FINAL
+final
 :
 public
 nsITVChannelData
@@ -102,7 +102,7 @@ mIsFree
 ;
 class
 TVProgramData
-MOZ_FINAL
+final
 :
 public
 nsITVProgramData

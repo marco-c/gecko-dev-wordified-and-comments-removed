@@ -262,7 +262,7 @@ aCharset
 nsDetectionConfident
 aConf
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 internalEncodingDeclaration

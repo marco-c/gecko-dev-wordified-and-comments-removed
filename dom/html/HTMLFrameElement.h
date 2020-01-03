@@ -45,7 +45,7 @@ dom
 {
 class
 HTMLFrameElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLFrameElement
@@ -100,7 +100,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -121,7 +121,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 SetFrameBorder
@@ -358,7 +358,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

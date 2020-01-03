@@ -3802,7 +3802,7 @@ mGeolocation
 }
 class
 BeaconStreamListener
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener
@@ -10109,7 +10109,7 @@ aPrincipal
 }
 class
 HasDataStoreSupportRunnable
-MOZ_FINAL
+final
 :
 public
 workers
@@ -10165,7 +10165,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 workers
 :

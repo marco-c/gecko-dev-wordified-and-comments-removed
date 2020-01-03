@@ -65,7 +65,7 @@ nsRenderingContext
 ;
 class
 nsCanvasFrame
-MOZ_FINAL
+final
 :
 public
 nsContainerFrame
@@ -112,7 +112,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -123,7 +123,7 @@ GetWritingMode
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 nsIContent
 *
@@ -186,7 +186,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -198,7 +198,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -213,7 +213,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -225,7 +225,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -237,7 +237,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -247,7 +247,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -267,7 +267,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -277,7 +277,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame
@@ -308,7 +308,7 @@ ContentInfo
 &
 aElements
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -324,7 +324,7 @@ aElements
 uint32_t
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 mozilla
 :
@@ -427,7 +427,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PaintFocus
@@ -448,7 +448,7 @@ aX
 nscoord
 aY
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -459,7 +459,7 @@ aX
 nscoord
 aY
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -469,7 +469,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -481,7 +481,7 @@ aChild
 bool
 aForceNormal
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -547,7 +547,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -566,7 +566,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 nsRect
 CanvasArea
@@ -632,7 +632,7 @@ mCustomContentContainer
 ;
 class
 DummyTouchListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -647,7 +647,7 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -717,7 +717,7 @@ nsRegion
 *
 aVisibleRegion
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_GET_A
@@ -739,7 +739,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -780,7 +780,7 @@ nscolor
 *
 aColor
 )
-MOZ_OVERRIDE
+override
 {
 *
 aColor
@@ -802,7 +802,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 nsCanvasFrame
 *
@@ -857,7 +857,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 {
 aOutFrames
 -
@@ -877,7 +877,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -903,7 +903,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 {
 const
 nsDisplayItemBoundsGeometry
@@ -939,7 +939,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetExtraBackgroundColor
@@ -974,7 +974,7 @@ stringstream
 &
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -1029,14 +1029,14 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 NotifyRenderingChanged
 (
 )
-MOZ_OVERRIDE
+override
 {
 mFrame
 -
@@ -1081,7 +1081,7 @@ LayerManager
 *
 aManager
 )
-MOZ_OVERRIDE
+override
 {
 return
 mBackgroundStyle
@@ -1119,7 +1119,7 @@ bool
 SupportsOptimizingToImage
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -1170,7 +1170,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (

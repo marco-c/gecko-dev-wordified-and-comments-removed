@@ -509,7 +509,7 @@ mData
 ;
 class
 UnixSocketRawData
-MOZ_FINAL
+final
 :
 public
 UnixSocketIOBuffer
@@ -778,7 +778,7 @@ T
 >
 class
 SocketIOEventRunnable
-MOZ_FINAL
+final
 :
 public
 SocketIORunnable
@@ -822,7 +822,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -958,7 +958,7 @@ T
 >
 class
 SocketIOReceiveRunnable
-MOZ_FINAL
+final
 :
 public
 SocketIORunnable
@@ -995,7 +995,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1089,7 +1089,7 @@ T
 >
 class
 SocketIORequestClosingRunnable
-MOZ_FINAL
+final
 :
 public
 SocketIORunnable
@@ -1119,7 +1119,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1204,7 +1204,7 @@ T
 >
 class
 SocketIODeleteInstanceRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1228,7 +1228,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mInstance
 =
@@ -1623,7 +1623,7 @@ void
 Cancel
 (
 )
-MOZ_OVERRIDE
+override
 {
 mIO
 =
@@ -1678,7 +1678,7 @@ Tdata
 >
 class
 SocketIOSendTask
-MOZ_FINAL
+final
 :
 public
 SocketIOTask
@@ -1720,7 +1720,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1793,7 +1793,7 @@ Tio
 >
 class
 SocketIOShutdownTask
-MOZ_FINAL
+final
 :
 public
 SocketIOTask
@@ -1823,7 +1823,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

@@ -41,7 +41,7 @@ NS_DOWNLOADHISTORY_CID
 }
 class
 nsDownloadHistory
-MOZ_FINAL
+final
 :
 public
 nsIDownloadHistory

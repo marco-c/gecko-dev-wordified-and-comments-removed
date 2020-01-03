@@ -198,7 +198,7 @@ DebugFdRegistry
 &
 aRegistry
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

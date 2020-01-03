@@ -892,7 +892,7 @@ current
 }
 class
 CancelableRunnableWrapper
-MOZ_FINAL
+final
 :
 public
 nsCancelableRunnable
@@ -1594,7 +1594,7 @@ PRIVATE_REMOTE_INPUT_STREAM_IID
 )
 class
 BlobInputStreamTether
-MOZ_FINAL
+final
 :
 public
 nsIMultiplexInputStream
@@ -1829,7 +1829,7 @@ nsIInputStream
 NS_INTERFACE_MAP_END
 class
 RemoteInputStream
-MOZ_FINAL
+final
 :
 public
 nsIInputStream
@@ -1981,13 +1981,13 @@ nsIInputStream
 BlockAndGetInternalStream
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 InputStreamChild
-MOZ_FINAL
+final
 :
 public
 PBlobStreamChild
@@ -2052,13 +2052,13 @@ OptionalFileDescriptorSet
 &
 aFDs
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 InputStreamParent
-MOZ_FINAL
+final
 :
 public
 PBlobStreamParent
@@ -2322,14 +2322,14 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 {
 }
 }
 ;
 class
 EmptyBlobImpl
-MOZ_FINAL
+final
 :
 public
 FileImplBase
@@ -2402,7 +2402,7 @@ aContentType
 ErrorResult
 &
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2466,7 +2466,7 @@ nsIInputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 {
 NS_ENSURE_ARG_POINTER
 (
@@ -2508,7 +2508,7 @@ NS_OK
 ;
 class
 SameProcessInputStreamBlobImpl
-MOZ_FINAL
+final
 :
 public
 FileImplBase
@@ -2636,7 +2636,7 @@ nsAString
 ErrorResult
 &
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -2656,7 +2656,7 @@ nsIInputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 {
 NS_ENSURE_ARG_POINTER
 (
@@ -2687,7 +2687,7 @@ NS_OK
 struct
 MOZ_STACK_CLASS
 CreateBlobImplMetadata
-MOZ_FINAL
+final
 {
 nsString
 mContentType
@@ -5774,7 +5774,7 @@ BlobParent
 :
 :
 IDTableEntry
-MOZ_FINAL
+final
 {
 const
 nsID
@@ -6057,7 +6057,7 @@ BlobParent
 :
 :
 OpenStreamRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -6813,7 +6813,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -7065,7 +7065,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -7086,7 +7086,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -7097,14 +7097,14 @@ nsIInputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int64_t
 GetFileId
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int64_t
@@ -7114,7 +7114,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -7123,7 +7123,7 @@ SetLastModified
 int64_t
 aLastModified
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -7132,7 +7132,7 @@ SetMutable
 bool
 aMutable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 BlobChild
@@ -7140,7 +7140,7 @@ BlobChild
 GetBlobChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 BlobParent
@@ -7148,7 +7148,7 @@ BlobParent
 GetBlobParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -7200,7 +7200,7 @@ RemoteBlobImpl
 :
 :
 CreateStreamHelper
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -7294,7 +7294,7 @@ BlobChild
 :
 :
 RemoteBlobSliceImpl
-MOZ_FINAL
+final
 :
 public
 RemoteBlobImpl
@@ -7395,7 +7395,7 @@ BlobChild
 GetBlobChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -7417,7 +7417,7 @@ BlobParent
 :
 :
 RemoteBlobImpl
-MOZ_FINAL
+final
 :
 public
 FileImpl
@@ -7466,7 +7466,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -7476,7 +7476,7 @@ nsAString
 &
 aPath
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int64_t
@@ -7486,7 +7486,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -7495,7 +7495,7 @@ SetLastModified
 int64_t
 aLastModified
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -7508,7 +7508,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -7521,7 +7521,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
@@ -7531,7 +7531,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -7541,7 +7541,7 @@ nsAString
 &
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -7562,7 +7562,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -7578,7 +7578,7 @@ GetSubBlobImpls
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -7589,14 +7589,14 @@ nsIInputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int64_t
 GetFileId
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -7606,7 +7606,7 @@ FileInfo
 *
 aFileInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 FileInfo
@@ -7617,7 +7617,7 @@ FileManager
 *
 aFileManager
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -7637,7 +7637,7 @@ nsACString
 &
 aCharset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -7648,7 +7648,7 @@ bool
 aMutable
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -7657,7 +7657,7 @@ SetMutable
 bool
 aMutable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -7676,7 +7676,7 @@ aLength
 uint64_t
 aLastModifiedDate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -7684,7 +7684,7 @@ IsMemoryFile
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -7692,7 +7692,7 @@ IsSizeUnknown
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -7700,7 +7700,7 @@ IsDateUnknown
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -7708,7 +7708,7 @@ IsFile
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -7716,7 +7716,7 @@ MayBeClonedToOtherThreads
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 BlobChild
@@ -7724,7 +7724,7 @@ BlobChild
 GetBlobChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 BlobParent
@@ -7732,7 +7732,7 @@ BlobParent
 GetBlobParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

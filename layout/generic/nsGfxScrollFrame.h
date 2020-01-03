@@ -342,14 +342,14 @@ bool
 ReflowFinished
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ReflowCallbackCanceled
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 CurPosAttributeChanged
@@ -1946,7 +1946,7 @@ GetWritingMode
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1991,7 +1991,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -2099,7 +2099,7 @@ aRadii
 ]
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2121,7 +2121,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -2131,7 +2131,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2141,14 +2141,14 @@ nsMargin
 &
 aPadding
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsCollapsed
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2168,14 +2168,14 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 UpdateOverflow
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2195,7 +2195,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2207,7 +2207,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2222,7 +2222,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2234,7 +2234,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2244,7 +2244,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIScrollableFrame
@@ -2252,7 +2252,7 @@ nsIScrollableFrame
 GetScrollTargetFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -2264,7 +2264,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2284,7 +2284,7 @@ bool
 DoesClipChildren
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -2296,7 +2296,7 @@ GetSplittableType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsPoint
@@ -2306,7 +2306,7 @@ nsIFrame
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 {
 nsPoint
 pt
@@ -2351,7 +2351,7 @@ ContentInfo
 &
 aElements
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2367,7 +2367,7 @@ aElements
 uint32_t
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -2376,7 +2376,7 @@ GetScrolledFrame
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2395,7 +2395,7 @@ GetScrollbarStyles
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2411,7 +2411,7 @@ GetScrollbarVisibility
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2427,7 +2427,7 @@ GetActualScrollbarSizes
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2445,7 +2445,7 @@ nsBoxLayoutState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2467,7 +2467,7 @@ nsRenderingContext
 *
 aRC
 )
-MOZ_OVERRIDE
+override
 {
 nsBoxLayoutState
 bls
@@ -2496,7 +2496,7 @@ nsRenderingContext
 *
 aRC
 )
-MOZ_OVERRIDE
+override
 {
 nsBoxLayoutState
 bls
@@ -2522,7 +2522,7 @@ GetScrolledRect
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2538,7 +2538,7 @@ GetScrollPortRect
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2554,7 +2554,7 @@ GetScrollPosition
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2570,7 +2570,7 @@ GetLogicalScrollPosition
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2586,7 +2586,7 @@ GetScrollRange
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2602,7 +2602,7 @@ GetScrollPositionClampingScrollPortSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2618,7 +2618,7 @@ GetResolution
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2635,7 +2635,7 @@ SetResolution
 float
 aResolution
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2653,7 +2653,7 @@ SetResolutionAndScaleTo
 float
 aResolution
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2670,7 +2670,7 @@ GetLineScrollAmount
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2686,7 +2686,7 @@ GetPageScrollAmount
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2721,7 +2721,7 @@ nsIScrollableFrame
 :
 DISABLE_SNAP
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -2753,7 +2753,7 @@ nsIScrollableFrame
 :
 INSTANT
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -2781,7 +2781,7 @@ aOrigin
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -2797,7 +2797,7 @@ CSSIntPoint
 GetScrollPositionCSSPixels
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -2846,7 +2846,7 @@ nsIScrollableFrame
 :
 DISABLE_SNAP
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -2874,7 +2874,7 @@ CSSPoint
 &
 aDestination
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -2889,7 +2889,7 @@ void
 ScrollSnap
 (
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -2903,7 +2903,7 @@ void
 ScrollToRestoredPosition
 (
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -2920,7 +2920,7 @@ nsIScrollPositionListener
 *
 aListener
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -2938,7 +2938,7 @@ nsIScrollPositionListener
 *
 aListener
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -2956,7 +2956,7 @@ nsIContent
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -2970,7 +2970,7 @@ NS_IMETHOD
 PostScrolledAreaEventForCurrentArea
 (
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -2990,7 +2990,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3006,7 +3006,7 @@ bool
 IsProcessingAsyncScroll
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3021,7 +3021,7 @@ void
 ResetScrollPositionForLayerPixelAlignment
 (
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -3036,7 +3036,7 @@ IsResolutionSet
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3050,7 +3050,7 @@ DidHistoryRestore
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3063,7 +3063,7 @@ void
 ClearDidHistoryRestore
 (
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -3081,7 +3081,7 @@ nsRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3102,7 +3102,7 @@ nsRect
 aRect
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3119,7 +3119,7 @@ nsIAtom
 LastScrollOrigin
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3135,7 +3135,7 @@ nsIAtom
 LastSmoothScrollOrigin
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3150,7 +3150,7 @@ uint32_t
 CurrentScrollGeneration
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3165,7 +3165,7 @@ nsPoint
 LastScrollDestination
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3182,7 +3182,7 @@ ResetScrollInfoIfGeneration
 uint32_t
 aGeneration
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -3198,7 +3198,7 @@ WantAsyncScroll
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3233,7 +3233,7 @@ FrameMetrics
 aOutput
 )
 const
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -3253,7 +3253,7 @@ IsIgnoringViewportClipping
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3269,7 +3269,7 @@ MarkScrollbarsDirtyForReflow
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -3286,7 +3286,7 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 {
 NS_ENSURE_ARG_POINTER
 (
@@ -3313,7 +3313,7 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 {
 NS_ENSURE_ARG_POINTER
 (
@@ -3338,7 +3338,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3350,7 +3350,7 @@ aScrollbar
 int32_t
 aDirection
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -3371,7 +3371,7 @@ aScrollbar
 int32_t
 aDirection
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -3392,7 +3392,7 @@ aScrollbar
 int32_t
 aDirection
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -3411,7 +3411,7 @@ nsScrollbarFrame
 *
 aScrollbar
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -3433,7 +3433,7 @@ aOldPos
 nscoord
 aNewPos
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -3452,7 +3452,7 @@ VisibilityChanged
 bool
 aVisible
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -3463,7 +3463,7 @@ GetScrollbarBox
 bool
 aVertical
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3480,7 +3480,7 @@ ScrollbarActivityStarted
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3488,7 +3488,7 @@ ScrollbarActivityStopped
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3497,7 +3497,7 @@ SetTransformingByAPZ
 bool
 aTransforming
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -3512,7 +3512,7 @@ IsTransformingByAPZ
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3534,7 +3534,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -3552,7 +3552,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -3644,7 +3644,7 @@ mHelper
 ;
 class
 nsXULScrollFrame
-MOZ_FINAL
+final
 :
 public
 nsBoxFrame
@@ -3706,7 +3706,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -3729,7 +3729,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -3738,7 +3738,7 @@ bool
 UpdateOverflow
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3758,7 +3758,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3770,7 +3770,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3785,7 +3785,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3797,7 +3797,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3807,7 +3807,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIScrollableFrame
@@ -3815,7 +3815,7 @@ nsIScrollableFrame
 GetScrollTargetFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -3827,7 +3827,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -3847,7 +3847,7 @@ bool
 DoesClipChildren
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -3859,7 +3859,7 @@ GetSplittableType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsPoint
@@ -3869,7 +3869,7 @@ nsIFrame
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 {
 nsPoint
 pt
@@ -3916,7 +3916,7 @@ ContentInfo
 &
 aElements
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3932,7 +3932,7 @@ aElements
 uint32_t
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -3942,7 +3942,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -3952,7 +3952,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -3962,7 +3962,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -3972,7 +3972,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DoLayout
@@ -3981,7 +3981,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -3991,7 +3991,7 @@ nsMargin
 &
 aPadding
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -4014,7 +4014,7 @@ aRadii
 ]
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4153,7 +4153,7 @@ GetScrolledFrame
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4172,7 +4172,7 @@ GetScrollbarStyles
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4188,7 +4188,7 @@ GetScrollbarVisibility
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4204,7 +4204,7 @@ GetActualScrollbarSizes
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4222,7 +4222,7 @@ nsBoxLayoutState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4244,7 +4244,7 @@ nsRenderingContext
 *
 aRC
 )
-MOZ_OVERRIDE
+override
 {
 nsBoxLayoutState
 bls
@@ -4273,7 +4273,7 @@ nsRenderingContext
 *
 aRC
 )
-MOZ_OVERRIDE
+override
 {
 nsBoxLayoutState
 bls
@@ -4299,7 +4299,7 @@ GetScrolledRect
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4315,7 +4315,7 @@ GetScrollPortRect
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4331,7 +4331,7 @@ GetScrollPosition
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4347,7 +4347,7 @@ GetLogicalScrollPosition
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4363,7 +4363,7 @@ GetScrollRange
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4379,7 +4379,7 @@ GetScrollPositionClampingScrollPortSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4395,7 +4395,7 @@ GetResolution
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4412,7 +4412,7 @@ SetResolution
 float
 aResolution
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4430,7 +4430,7 @@ SetResolutionAndScaleTo
 float
 aResolution
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4447,7 +4447,7 @@ GetLineScrollAmount
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4463,7 +4463,7 @@ GetPageScrollAmount
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4495,7 +4495,7 @@ nsIScrollableFrame
 :
 DISABLE_SNAP
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4527,7 +4527,7 @@ nsIScrollableFrame
 :
 INSTANT
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4555,7 +4555,7 @@ aOrigin
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4571,7 +4571,7 @@ CSSIntPoint
 GetScrollPositionCSSPixels
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4620,7 +4620,7 @@ nsIScrollableFrame
 :
 DISABLE_SNAP
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4648,7 +4648,7 @@ CSSPoint
 &
 aDestination
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4663,7 +4663,7 @@ void
 ScrollSnap
 (
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4677,7 +4677,7 @@ void
 ScrollToRestoredPosition
 (
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4694,7 +4694,7 @@ nsIScrollPositionListener
 *
 aListener
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4712,7 +4712,7 @@ nsIScrollPositionListener
 *
 aListener
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4730,7 +4730,7 @@ nsIContent
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4744,7 +4744,7 @@ NS_IMETHOD
 PostScrolledAreaEventForCurrentArea
 (
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4764,7 +4764,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4780,7 +4780,7 @@ bool
 IsProcessingAsyncScroll
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4795,7 +4795,7 @@ void
 ResetScrollPositionForLayerPixelAlignment
 (
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4810,7 +4810,7 @@ IsResolutionSet
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4824,7 +4824,7 @@ DidHistoryRestore
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4837,7 +4837,7 @@ void
 ClearDidHistoryRestore
 (
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4855,7 +4855,7 @@ nsRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4876,7 +4876,7 @@ nsRect
 aRect
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4893,7 +4893,7 @@ nsIAtom
 LastScrollOrigin
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4909,7 +4909,7 @@ nsIAtom
 LastSmoothScrollOrigin
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4924,7 +4924,7 @@ uint32_t
 CurrentScrollGeneration
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4939,7 +4939,7 @@ nsPoint
 LastScrollDestination
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -4956,7 +4956,7 @@ ResetScrollInfoIfGeneration
 uint32_t
 aGeneration
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -4972,7 +4972,7 @@ WantAsyncScroll
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -5007,7 +5007,7 @@ FrameMetrics
 aOutput
 )
 const
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -5027,7 +5027,7 @@ IsIgnoringViewportClipping
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -5043,7 +5043,7 @@ MarkScrollbarsDirtyForReflow
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -5060,7 +5060,7 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 {
 NS_ENSURE_ARG_POINTER
 (
@@ -5087,7 +5087,7 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 {
 NS_ENSURE_ARG_POINTER
 (
@@ -5112,7 +5112,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -5122,7 +5122,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -5163,7 +5163,7 @@ aScrollbar
 int32_t
 aDirection
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -5184,7 +5184,7 @@ aScrollbar
 int32_t
 aDirection
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -5205,7 +5205,7 @@ aScrollbar
 int32_t
 aDirection
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -5224,7 +5224,7 @@ nsScrollbarFrame
 *
 aScrollbar
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -5246,7 +5246,7 @@ aOldPos
 nscoord
 aNewPos
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -5265,7 +5265,7 @@ VisibilityChanged
 bool
 aVisible
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -5276,7 +5276,7 @@ GetScrollbarBox
 bool
 aVertical
 )
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -5293,7 +5293,7 @@ ScrollbarActivityStarted
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -5301,7 +5301,7 @@ ScrollbarActivityStopped
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -5310,7 +5310,7 @@ SetTransformingByAPZ
 bool
 aTransforming
 )
-MOZ_OVERRIDE
+override
 {
 mHelper
 .
@@ -5325,7 +5325,7 @@ IsTransformingByAPZ
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mHelper
@@ -5347,7 +5347,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

@@ -166,7 +166,7 @@ mType
 ;
 class
 nsVariant
-MOZ_FINAL
+final
 :
 public
 nsIWritableVariant

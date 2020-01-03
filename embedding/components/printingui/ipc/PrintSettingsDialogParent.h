@@ -23,7 +23,7 @@ embedding
 {
 class
 PrintSettingsDialogParent
-MOZ_FINAL
+final
 :
 public
 PPrintSettingsDialogParent
@@ -37,7 +37,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 MOZ_IMPLICIT
 PrintSettingsDialogParent

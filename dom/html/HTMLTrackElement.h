@@ -94,7 +94,7 @@ WebVTTListener
 ;
 class
 HTMLTrackElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -395,7 +395,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -405,7 +405,7 @@ DOMString
 &
 aText
 )
-MOZ_OVERRIDE
+override
 {
 GetSrc
 (
@@ -422,7 +422,7 @@ nsAString
 &
 aText
 )
-MOZ_OVERRIDE
+override
 {
 ErrorResult
 rv
@@ -451,7 +451,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -469,7 +469,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -480,7 +480,7 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool
@@ -537,7 +537,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnChannelRedirect

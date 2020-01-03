@@ -212,7 +212,7 @@ dom
 {
 class
 VersionChangeListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -241,7 +241,7 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 {
 nsString
 type

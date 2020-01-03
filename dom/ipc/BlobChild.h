@@ -77,7 +77,7 @@ PBlobStreamChild
 ;
 class
 BlobChild
-MOZ_FINAL
+final
 :
 public
 PBlobChild
@@ -579,7 +579,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBlobStreamChild
@@ -595,7 +595,7 @@ uint64_t
 &
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -605,7 +605,7 @@ PBlobStreamChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -614,7 +614,7 @@ BlobChild
 :
 :
 FriendKey
-MOZ_FINAL
+final
 {
 friend
 class

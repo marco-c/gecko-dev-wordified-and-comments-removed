@@ -51,7 +51,7 @@ dom
 {
 class
 HTMLAudioElement
-MOZ_FINAL
+final
 :
 public
 HTMLMediaElement
@@ -87,7 +87,7 @@ bool
 aIgnoreTabindex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 using
 HTMLMediaElement
@@ -108,7 +108,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -118,7 +118,7 @@ nsIHttpChannel
 *
 aChannel
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMNode
@@ -126,7 +126,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -181,7 +181,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

@@ -46,7 +46,7 @@ dom
 {
 class
 TelephonyCallId
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -108,7 +108,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetNumber

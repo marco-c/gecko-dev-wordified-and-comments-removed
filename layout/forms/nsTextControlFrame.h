@@ -80,7 +80,7 @@ Element
 }
 class
 nsTextControlFrame
-MOZ_FINAL
+final
 :
 public
 nsContainerFrame
@@ -124,7 +124,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIScrollableFrame
@@ -132,7 +132,7 @@ nsIScrollableFrame
 GetScrollTargetFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 do_QueryFrame
@@ -151,7 +151,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -161,7 +161,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -211,7 +211,7 @@ aPadding
 bool
 aShrinkWrap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -231,7 +231,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -241,14 +241,14 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsCollapsed
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -256,7 +256,7 @@ IsLeaf
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -272,7 +272,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -288,7 +288,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 aResult
 .
@@ -313,7 +313,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame
@@ -349,7 +349,7 @@ ContentInfo
 &
 aElements
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -365,7 +365,7 @@ aElements
 uint32_t
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -377,7 +377,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -395,7 +395,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -414,7 +414,7 @@ nsCSSPseudoElements
 Type
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -425,7 +425,7 @@ aOn
 bool
 aRepaint
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -439,7 +439,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetEditor
@@ -449,7 +449,7 @@ nsIEditor
 *
 aEditor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetSelectionStart
@@ -457,7 +457,7 @@ SetSelectionStart
 int32_t
 aSelectionStart
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetSelectionEnd
@@ -465,7 +465,7 @@ SetSelectionEnd
 int32_t
 aSelectionEnd
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetSelectionRange
@@ -479,7 +479,7 @@ aDirection
 =
 eNone
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetSelectionRange
@@ -496,7 +496,7 @@ aDirection
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetOwnedSelectionController
@@ -506,7 +506,7 @@ nsISelectionController
 *
 aSelCon
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsFrameSelection
@@ -514,7 +514,7 @@ nsFrameSelection
 GetOwnedFrameSelection
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetPhonetic
@@ -523,14 +523,14 @@ nsAString
 &
 aPhonetic
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 EnsureEditorInitialized
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SaveState
@@ -540,7 +540,7 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 RestoreState
@@ -549,7 +549,7 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -558,7 +558,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -572,7 +572,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetText
@@ -590,7 +590,7 @@ nsPeekOffsetStruct
 *
 aPos
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_QUERYFRAME
 NS_DECLARE_FRAME_PROPERTY
@@ -825,7 +825,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Revoke
@@ -985,7 +985,7 @@ nsresult
 ScrollSelectionIntoView
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

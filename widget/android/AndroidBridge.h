@@ -405,7 +405,7 @@ mRunTime
 ;
 class
 AndroidBridge
-MOZ_FINAL
+final
 {
 public
 :
@@ -2748,7 +2748,7 @@ NS_ANDROIDBRIDGE_CID
 }
 class
 nsAndroidBridge
-MOZ_FINAL
+final
 :
 public
 nsIAndroidBridge

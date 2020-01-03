@@ -213,7 +213,7 @@ DOMEventTargetHelper
 )
 class
 StartDiscoveryTask
-MOZ_FINAL
+final
 :
 public
 BluetoothReplyRunnable
@@ -364,7 +364,7 @@ void
 ReleaseMembers
 (
 )
-MOZ_OVERRIDE
+override
 {
 BluetoothReplyRunnable
 :

@@ -145,7 +145,7 @@ SensorData
 &
 aSensorData
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

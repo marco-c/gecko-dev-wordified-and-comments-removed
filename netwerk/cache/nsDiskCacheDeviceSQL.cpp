@@ -1241,7 +1241,7 @@ mClientID
 ;
 class
 nsOfflineCacheDeviceInfo
-MOZ_FINAL
+final
 :
 public
 nsICacheDeviceInfo
@@ -1540,7 +1540,7 @@ NS_OK
 }
 class
 nsOfflineCacheBinding
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -2320,7 +2320,7 @@ entry
 }
 class
 nsOfflineCacheEntryInfo
-MOZ_FINAL
+final
 :
 public
 nsICacheEntryInfo

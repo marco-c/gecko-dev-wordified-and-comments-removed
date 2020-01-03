@@ -220,7 +220,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -236,7 +236,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -246,7 +246,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -263,7 +263,7 @@ Cursor
 &
 aCursor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -273,7 +273,7 @@ CharacterDataChangeInfo
 *
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -282,7 +282,7 @@ GetNextContinuation
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mNextContinuation
@@ -296,7 +296,7 @@ nsIFrame
 *
 aNextContinuation
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -373,7 +373,7 @@ GetNextInFlowVirtual
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 GetNextInFlow
@@ -416,7 +416,7 @@ nsIFrame
 *
 aNextInFlow
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -494,7 +494,7 @@ LastInFlow
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -503,7 +503,7 @@ LastContinuation
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSplittableType
@@ -511,7 +511,7 @@ GetSplittableType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 NS_FRAME_SPLITTABLE
@@ -524,7 +524,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -534,7 +534,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsFrame
@@ -568,7 +568,7 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -583,7 +583,7 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -609,7 +609,7 @@ aFlags
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -620,7 +620,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 ToCString
@@ -645,7 +645,7 @@ GetDebugStateBits
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -656,7 +656,7 @@ CalcContentOffsetsFromFramePoint
 nsPoint
 aPoint
 )
-MOZ_OVERRIDE
+override
 ;
 ContentOffsets
 GetCharacterOffsetAtFramePoint
@@ -690,7 +690,7 @@ int32_t
 *
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 FrameSearchResult
@@ -706,7 +706,7 @@ aRespectClusters
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 FrameSearchResult
@@ -725,7 +725,7 @@ PeekWordState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -747,7 +747,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {
@@ -782,7 +782,7 @@ int32_t
 end
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -793,7 +793,7 @@ start
 int32_t
 end
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -805,7 +805,7 @@ nsPoint
 *
 outPoint
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -823,7 +823,7 @@ nsIFrame
 *
 outChildFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -833,21 +833,21 @@ nsISelection
 *
 aSelection
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsEmpty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsSelfEmpty
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 IsEmpty
@@ -866,7 +866,7 @@ WritingMode
 aWritingMode
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -874,7 +874,7 @@ HasSignificantTerminalNewline
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 IsAtEndOfLine
@@ -915,7 +915,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -964,7 +964,7 @@ void
 MarkIntrinsicISizesDirty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -974,7 +974,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -984,7 +984,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -997,7 +997,7 @@ InlineMinISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1010,7 +1010,7 @@ InlinePrefISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -1060,7 +1060,7 @@ aPadding
 ComputeSizeFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -1071,7 +1071,7 @@ gfxContext
 aContext
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1087,7 +1087,7 @@ nscoord
 *
 aXMost
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1107,7 +1107,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1115,7 +1115,7 @@ CanContinueTextRun
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 struct
 TrimOutput
@@ -1164,7 +1164,7 @@ aSkippedMaxLength
 =
 UINT32_MAX
 )
-MOZ_OVERRIDE
+override
 ;
 nsOverflowAreas
 RecomputeOverflow
@@ -1503,7 +1503,7 @@ GetCaretColorAt
 int32_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 int16_t
 GetSelectionStatus
@@ -1794,7 +1794,7 @@ bool
 UpdateOverflow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AssignJustificationGaps
@@ -1848,7 +1848,7 @@ IsFrameSelected
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 SelectionDetails
 *
@@ -2472,7 +2472,7 @@ bool
 HasAnyNoncollapsedCharacters
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ClearMetrics

@@ -23,7 +23,7 @@ dom
 {
 class
 IccCardLockError
-MOZ_FINAL
+final
 :
 public
 DOMError
@@ -84,7 +84,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 int16_t
 RetryCount

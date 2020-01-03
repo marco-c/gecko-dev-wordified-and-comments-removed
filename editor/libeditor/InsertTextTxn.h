@@ -133,7 +133,7 @@ bool
 *
 aDidMerge
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetData

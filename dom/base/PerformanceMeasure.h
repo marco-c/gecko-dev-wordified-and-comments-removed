@@ -23,7 +23,7 @@ dom
 {
 class
 PerformanceMeasure
-MOZ_FINAL
+final
 :
 public
 PerformanceEntry
@@ -63,7 +63,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 DOMHighResTimeStamp
@@ -71,7 +71,7 @@ StartTime
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mStartTime
@@ -83,7 +83,7 @@ Duration
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mDuration

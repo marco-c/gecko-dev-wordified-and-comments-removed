@@ -914,7 +914,7 @@ sNotificationHandler
 ;
 class
 BluetoothDaemonAvrcpInterface
-MOZ_FINAL
+final
 :
 public
 BluetoothAvrcpInterface
@@ -949,7 +949,7 @@ BluetoothAvrcpResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Cleanup
@@ -958,7 +958,7 @@ BluetoothAvrcpResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetPlayStatusRsp
@@ -973,7 +973,7 @@ BluetoothAvrcpResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ListPlayerAppAttrRsp
@@ -988,7 +988,7 @@ BluetoothAvrcpResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ListPlayerAppValueRsp
@@ -1002,7 +1002,7 @@ BluetoothAvrcpResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetPlayerAppValueRsp
@@ -1021,7 +1021,7 @@ BluetoothAvrcpResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetPlayerAppAttrTextRsp
@@ -1041,7 +1041,7 @@ BluetoothAvrcpResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetPlayerAppValueTextRsp
@@ -1061,7 +1061,7 @@ BluetoothAvrcpResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetElementAttrRsp
@@ -1076,7 +1076,7 @@ BluetoothAvrcpResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetPlayerAppValueRsp
@@ -1087,7 +1087,7 @@ BluetoothAvrcpResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RegisterNotificationRsp
@@ -1104,7 +1104,7 @@ BluetoothAvrcpResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetVolume
@@ -1115,7 +1115,7 @@ BluetoothAvrcpResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

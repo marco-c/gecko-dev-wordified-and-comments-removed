@@ -29,7 +29,7 @@ h
 "
 class
 nsParserUtils
-MOZ_FINAL
+final
 :
 public
 nsIScriptableUnescapeHTML

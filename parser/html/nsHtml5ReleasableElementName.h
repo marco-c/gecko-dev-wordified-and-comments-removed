@@ -22,7 +22,7 @@ h
 "
 class
 nsHtml5ReleasableElementName
-MOZ_FINAL
+final
 :
 public
 nsHtml5ElementName

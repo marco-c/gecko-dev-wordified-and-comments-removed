@@ -117,7 +117,7 @@ IntSize
 GetSize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -130,7 +130,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TextureClient
@@ -141,14 +141,14 @@ CompositableClient
 *
 aClient
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsValid
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

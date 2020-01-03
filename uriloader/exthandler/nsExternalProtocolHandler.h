@@ -53,7 +53,7 @@ nsIURI
 ;
 class
 nsExternalProtocolHandler
-MOZ_FINAL
+final
 :
 public
 nsIExternalProtocolHandler

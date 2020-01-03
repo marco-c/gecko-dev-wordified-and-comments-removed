@@ -26,7 +26,7 @@ dom
 {
 class
 TVServiceNotifyRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

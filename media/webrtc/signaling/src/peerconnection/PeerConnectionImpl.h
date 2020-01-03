@@ -609,7 +609,7 @@ string
 *
 idp
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1075,7 +1075,7 @@ CheckThread
 )
 class
 PeerConnectionImpl
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -1286,7 +1286,7 @@ aChannel
 #
 ifdef
 MOZILLA_INTERNAL_API
-MOZ_OVERRIDE
+override
 #
 endif
 ;
@@ -2546,7 +2546,7 @@ DOMMediaStream
 *
 aMediaStream
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetRemoteTrackId
@@ -2754,7 +2754,7 @@ void
 virtualDestroyNSSReference
 (
 )
-MOZ_FINAL
+final
 ;
 void
 destructorSafeDestroyNSSReference

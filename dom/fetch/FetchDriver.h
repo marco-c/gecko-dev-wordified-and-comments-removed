@@ -136,7 +136,7 @@ FetchDriverObserver
 ;
 class
 FetchDriver
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

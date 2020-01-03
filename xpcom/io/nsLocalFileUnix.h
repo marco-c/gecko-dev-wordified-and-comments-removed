@@ -331,7 +331,7 @@ lstat
 endif
 class
 nsLocalFile
-MOZ_FINAL
+final
 #
 ifdef
 MOZ_WIDGET_COCOA

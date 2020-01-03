@@ -221,7 +221,7 @@ nullptr
 ;
 class
 FreetypeReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -1677,7 +1677,7 @@ ifdef
 MOZ_WIDGET_GONK
 class
 GonkVsyncSource
-MOZ_FINAL
+final
 :
 public
 VsyncSource
@@ -1695,7 +1695,7 @@ Display
 GetGlobalDisplay
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mGlobalDisplay
@@ -1703,7 +1703,7 @@ mGlobalDisplay
 }
 class
 GonkDisplay
-MOZ_FINAL
+final
 :
 public
 VsyncSource
@@ -1738,7 +1738,7 @@ void
 EnableVsync
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1778,7 +1778,7 @@ void
 DisableVsync
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1819,7 +1819,7 @@ bool
 IsVsyncEnabled
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

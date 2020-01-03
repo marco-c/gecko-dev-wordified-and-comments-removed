@@ -74,7 +74,7 @@ nsIChannel
 ;
 class
 nsAsyncRedirectVerifyHelper
-MOZ_FINAL
+final
 :
 public
 nsIRunnable

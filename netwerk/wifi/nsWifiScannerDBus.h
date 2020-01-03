@@ -31,7 +31,7 @@ mozilla
 {
 class
 nsWifiScannerDBus
-MOZ_FINAL
+final
 {
 public
 :

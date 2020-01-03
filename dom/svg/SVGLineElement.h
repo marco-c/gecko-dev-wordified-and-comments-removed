@@ -52,7 +52,7 @@ SVGLineElementBase
 ;
 class
 SVGLineElement
-MOZ_FINAL
+final
 :
 public
 SVGLineElementBase
@@ -94,7 +94,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 nsresult
@@ -137,14 +137,14 @@ nsIAtom
 name
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsMarkable
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -161,7 +161,7 @@ nsSVGMark
 *
 aMarks
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -171,7 +171,7 @@ SimplePath
 *
 aSimplePath
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -184,7 +184,7 @@ PathBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -202,7 +202,7 @@ Matrix
 &
 aTransform
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -223,7 +223,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -264,7 +264,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

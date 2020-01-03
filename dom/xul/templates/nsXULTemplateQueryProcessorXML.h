@@ -148,7 +148,7 @@ NS_IXMLQUERY_IID
 }
 class
 nsXMLQuery
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -339,7 +339,7 @@ NS_IXMLQUERY_IID
 )
 class
 nsXULTemplateResultSetXML
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator
@@ -426,7 +426,7 @@ mPosition
 ;
 class
 nsXULTemplateQueryProcessorXML
-MOZ_FINAL
+final
 :
 public
 nsIXULTemplateQueryProcessor

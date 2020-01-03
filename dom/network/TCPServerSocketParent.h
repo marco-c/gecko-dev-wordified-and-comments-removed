@@ -125,14 +125,14 @@ bool
 RecvClose
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvRequestDelete
 (
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 GetAppId
@@ -169,7 +169,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 PNeckoParent
 *

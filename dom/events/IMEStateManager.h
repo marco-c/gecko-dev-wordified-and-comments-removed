@@ -436,7 +436,7 @@ sIsGettingNewIMEState
 class
 MOZ_STACK_CLASS
 GettingNewIMEStateBlocker
-MOZ_FINAL
+final
 {
 public
 :

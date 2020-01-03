@@ -353,7 +353,7 @@ FOR_EACH_SIZE
 ;
 class
 nsWindowMemoryReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -393,7 +393,7 @@ nsWindowMemoryReporter
 ;
 class
 GhostWindowsReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -425,7 +425,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT

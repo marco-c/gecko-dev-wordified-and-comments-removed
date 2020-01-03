@@ -35,7 +35,7 @@ cellbroadcast
 {
 class
 CellBroadcastParent
-MOZ_FINAL
+final
 :
 public
 PCellBroadcastParent
@@ -67,7 +67,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

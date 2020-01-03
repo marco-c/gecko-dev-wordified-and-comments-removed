@@ -50,7 +50,7 @@ aContext
 ;
 class
 nsRubyTextContainerFrame
-MOZ_FINAL
+final
 :
 public
 nsRubyTextContainerFrameSuper
@@ -70,7 +70,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -80,7 +80,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -100,7 +100,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -114,7 +114,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -128,7 +128,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -140,7 +140,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -155,7 +155,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -167,7 +167,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsSpanContainer

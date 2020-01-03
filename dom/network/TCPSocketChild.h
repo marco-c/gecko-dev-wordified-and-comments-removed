@@ -143,7 +143,7 @@ MozExternalRefCountType
 Release
 (
 )
-MOZ_OVERRIDE
+override
 ;
 TCPSocketChild
 (
@@ -184,14 +184,14 @@ nsString
 &
 aReadyState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvRequestDelete
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -206,7 +206,7 @@ uint32_t
 &
 aTrackingNumber
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

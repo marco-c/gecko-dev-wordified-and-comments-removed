@@ -170,7 +170,7 @@ MiniShmBase
 *
 aMiniShmObj
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -180,7 +180,7 @@ MiniShmBase
 *
 aMiniShmObj
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

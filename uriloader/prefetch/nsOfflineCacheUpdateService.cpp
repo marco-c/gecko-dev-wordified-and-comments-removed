@@ -559,7 +559,7 @@ NS_OK
 }
 class
 nsOfflineCachePendingUpdate
-MOZ_FINAL
+final
 :
 public
 nsIWebProgressListener

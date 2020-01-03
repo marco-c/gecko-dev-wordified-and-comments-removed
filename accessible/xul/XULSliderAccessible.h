@@ -50,7 +50,7 @@ nsString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 a11y
@@ -60,7 +60,7 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
@@ -68,7 +68,7 @@ NativeInteractiveState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -76,14 +76,14 @@ NativelyUnavailable
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 CanHaveAnonChildren
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
@@ -91,7 +91,7 @@ MaxValue
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
@@ -99,7 +99,7 @@ MinValue
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
@@ -107,7 +107,7 @@ CurValue
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
@@ -115,7 +115,7 @@ Step
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -124,14 +124,14 @@ SetCurValue
 double
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint8_t
 ActionCount
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -143,7 +143,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -152,7 +152,7 @@ DoAction
 uint8_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -243,7 +243,7 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

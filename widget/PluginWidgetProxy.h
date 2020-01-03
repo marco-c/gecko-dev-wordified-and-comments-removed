@@ -37,7 +37,7 @@ widget
 {
 class
 PluginWidgetProxy
-MOZ_FINAL
+final
 :
 public
 PuppetWidget
@@ -93,13 +93,13 @@ aInitData
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetFocus
@@ -109,7 +109,7 @@ aRaise
 =
 false
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetParent
@@ -118,7 +118,7 @@ nsIWidget
 *
 aNewParent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIWidget
@@ -127,7 +127,7 @@ GetParent
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -137,14 +137,14 @@ GetNativeData
 uint32_t
 aDataType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsTransparencyMode
 GetTransparencyMode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 eTransparencyOpaque
@@ -161,7 +161,7 @@ nsIntRect
 *
 aRects
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :

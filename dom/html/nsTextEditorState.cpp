@@ -723,7 +723,7 @@ suppressHandlers
 }
 class
 nsAnonDivObserver
-MOZ_FINAL
+final
 :
 public
 nsStubMutationObserver
@@ -765,7 +765,7 @@ mTextEditorState
 ;
 class
 nsTextInputSelectionImpl
-MOZ_FINAL
+final
 :
 public
 nsSupportsWeakReference
@@ -823,7 +823,7 @@ SetDisplaySelection
 int16_t
 toggle
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetDisplaySelection
@@ -832,7 +832,7 @@ int16_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetSelectionFlags
@@ -840,7 +840,7 @@ SetSelectionFlags
 int16_t
 aInEnable
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetSelectionFlags
@@ -849,7 +849,7 @@ int16_t
 *
 aOutEnable
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetSelection
@@ -861,7 +861,7 @@ nsISelection
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ScrollSelectionIntoView
@@ -873,7 +873,7 @@ aRegion
 int16_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 RepaintSelection
@@ -881,7 +881,7 @@ RepaintSelection
 int16_t
 type
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 RepaintSelection
@@ -899,7 +899,7 @@ SetCaretEnabled
 bool
 enabled
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetCaretReadOnly
@@ -907,7 +907,7 @@ SetCaretReadOnly
 bool
 aReadOnly
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetCaretEnabled
@@ -916,7 +916,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetCaretVisible
@@ -925,7 +925,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetCaretVisibilityDuringSelection
@@ -933,7 +933,7 @@ SetCaretVisibilityDuringSelection
 bool
 aVisibility
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 PhysicalMove
@@ -945,7 +945,7 @@ aAmount
 bool
 aExtend
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CharacterMove
@@ -955,19 +955,19 @@ aForward
 bool
 aExtend
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CharacterExtendForDelete
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CharacterExtendForBackspace
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WordMove
@@ -977,7 +977,7 @@ aForward
 bool
 aExtend
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WordExtendForDelete
@@ -985,7 +985,7 @@ WordExtendForDelete
 bool
 aForward
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 LineMove
@@ -995,7 +995,7 @@ aForward
 bool
 aExtend
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IntraLineMove
@@ -1005,7 +1005,7 @@ aForward
 bool
 aExtend
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 PageMove
@@ -1015,7 +1015,7 @@ aForward
 bool
 aExtend
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CompleteScroll
@@ -1023,7 +1023,7 @@ CompleteScroll
 bool
 aForward
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CompleteMove
@@ -1033,7 +1033,7 @@ aForward
 bool
 aExtend
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ScrollPage
@@ -1041,7 +1041,7 @@ ScrollPage
 bool
 aForward
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ScrollLine
@@ -1049,7 +1049,7 @@ ScrollLine
 bool
 aForward
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ScrollCharacter
@@ -1057,14 +1057,14 @@ ScrollCharacter
 bool
 aRight
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SelectAll
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CheckVisibility
@@ -1080,7 +1080,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1097,7 +1097,7 @@ bool
 *
 aRetval
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

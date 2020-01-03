@@ -118,7 +118,7 @@ aExpectedData
 ;
 class
 OutputStreamCallback
-MOZ_FINAL
+final
 :
 public
 nsIOutputStreamCallback

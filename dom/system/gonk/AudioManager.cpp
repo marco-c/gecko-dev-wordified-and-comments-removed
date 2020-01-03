@@ -694,7 +694,7 @@ NS_OK
 ;
 class
 AudioChannelVolInitCallback
-MOZ_FINAL
+final
 :
 public
 nsISettingsServiceCallback

@@ -104,7 +104,7 @@ aIsCopying
 bool
 aRewriteEncodingDeclaration
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendText
@@ -120,7 +120,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendCDATASection
@@ -136,7 +136,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendProcessingInstruction
@@ -152,7 +152,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendComment
@@ -168,7 +168,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendDoctype
@@ -180,7 +180,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendElementStart
@@ -207,7 +207,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendElementEnd
@@ -225,7 +225,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Flush
@@ -234,7 +234,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -250,7 +250,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

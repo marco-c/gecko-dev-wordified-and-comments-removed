@@ -36,7 +36,7 @@ dom
 {
 class
 WindowsLocationProvider
-MOZ_FINAL
+final
 :
 public
 nsIGeolocationProvider

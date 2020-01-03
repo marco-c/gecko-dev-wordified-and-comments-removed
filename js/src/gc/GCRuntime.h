@@ -350,7 +350,7 @@ void
 run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

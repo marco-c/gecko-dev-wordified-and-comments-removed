@@ -52,7 +52,7 @@ mozilla
 {
 class
 NetworkWorker
-MOZ_FINAL
+final
 :
 public
 nsINetworkWorker

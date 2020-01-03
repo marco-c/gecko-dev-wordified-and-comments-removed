@@ -94,7 +94,7 @@ bool
 ShouldContinueFromReplyTimeout
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -111,7 +111,7 @@ bool
 AnswerStackFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -120,7 +120,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -185,7 +185,7 @@ bool
 RecvStart
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -211,7 +211,7 @@ bool
 AnswerStackFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -237,7 +237,7 @@ bool
 AnswerHang
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -246,7 +246,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

@@ -82,7 +82,7 @@ aIndex
 int32_t
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 switch
 (
@@ -168,14 +168,14 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DestroyMediaStream
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint16_t
@@ -183,7 +183,7 @@ NumberOfInputs
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -197,7 +197,7 @@ NodeType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -213,7 +213,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -223,7 +223,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -233,7 +233,7 @@ DOMMediaStream
 *
 aMediaStream
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

@@ -100,7 +100,7 @@ IDBFactory
 ;
 class
 IndexedDatabaseManager
-MOZ_FINAL
+final
 :
 public
 nsIObserver

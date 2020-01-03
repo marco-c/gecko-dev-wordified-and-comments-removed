@@ -299,7 +299,7 @@ GetObserverService
 ;
 class
 nsFontCache
-MOZ_FINAL
+final
 :
 public
 nsIObserver

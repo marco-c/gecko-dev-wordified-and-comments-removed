@@ -62,7 +62,7 @@ nsEditor
 *
 aEditor
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -76,7 +76,7 @@ nsIDOMMouseEvent
 *
 aMouseEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -86,7 +86,7 @@ nsIDOMMouseEvent
 *
 aMouseEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -96,7 +96,7 @@ nsIDOMMouseEvent
 *
 aMouseEvent
 )
-MOZ_OVERRIDE
+override
 ;
 inline
 nsHTMLEditor

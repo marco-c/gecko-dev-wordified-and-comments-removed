@@ -72,7 +72,7 @@ EXTENDINPUT_PROP_OUTPUT_RECT
 ;
 class
 ExtendInputEffectD2D1
-MOZ_FINAL
+final
 :
 public
 ID2D1EffectImpl

@@ -192,7 +192,7 @@ Link
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -212,7 +212,7 @@ Link
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -229,7 +229,7 @@ aLastVisitedURI
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -243,7 +243,7 @@ nsAString
 &
 aTitle
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -253,7 +253,7 @@ nsIURI
 *
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 }
 #

@@ -108,7 +108,7 @@ ClearCachedResults
 ;
 class
 nsRDFQuery
-MOZ_FINAL
+final
 :
 public
 nsITemplateRDFQuery
@@ -187,7 +187,7 @@ nsIDOMNode
 *
 aQueryNode
 )
-MOZ_OVERRIDE
+override
 {
 *
 aQueryNode
@@ -239,7 +239,7 @@ void
 ClearCachedResults
 (
 )
-MOZ_OVERRIDE
+override
 {
 mCachedResults
 =
@@ -251,7 +251,7 @@ nsXULTemplateQueryProcessorRDF
 Processor
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mProcessor
@@ -262,7 +262,7 @@ nsIAtom
 GetMemberVariable
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mMemberVariable

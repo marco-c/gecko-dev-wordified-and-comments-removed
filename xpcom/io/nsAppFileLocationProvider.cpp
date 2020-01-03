@@ -2161,7 +2161,7 @@ bool
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 while
 (
@@ -2252,7 +2252,7 @@ nsISupports
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2373,7 +2373,7 @@ PATH_SEPARATOR
 endif
 class
 nsPathsDirectoryEnumerator
-MOZ_FINAL
+final
 :
 public
 nsAppDirectoryEnumerator

@@ -2218,7 +2218,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2461,7 +2461,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -16925,7 +16925,7 @@ nsRectVisibility_kVisible
 }
 class
 PaintTimerCallBack
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback
@@ -16954,7 +16954,7 @@ nsITimer
 *
 aTimer
 )
-MOZ_FINAL
+final
 {
 mShell
 -

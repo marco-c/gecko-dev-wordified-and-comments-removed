@@ -1322,7 +1322,7 @@ AMETA_SHIFT_ON
 ;
 class
 nsAndroidDisplayport
-MOZ_FINAL
+final
 :
 public
 nsIAndroidDisplayport

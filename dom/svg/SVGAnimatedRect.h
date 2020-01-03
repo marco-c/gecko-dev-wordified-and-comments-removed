@@ -65,7 +65,7 @@ dom
 {
 class
 SVGAnimatedRect
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -119,7 +119,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <

@@ -306,7 +306,7 @@ aScopes
 ;
 class
 DOMStorageDBThread
-MOZ_FINAL
+final
 :
 public
 DOMStorageDBBridge
@@ -577,7 +577,7 @@ mFlushFailureCount
 ;
 class
 ThreadObserver
-MOZ_FINAL
+final
 :
 public
 nsIThreadObserver

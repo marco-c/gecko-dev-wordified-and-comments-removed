@@ -176,7 +176,7 @@ MSGResult
 }
 class
 nsTextStore
-MOZ_FINAL
+final
 :
 public
 ITextStoreACP
@@ -1409,7 +1409,7 @@ mLockQueued
 ;
 class
 Composition
-MOZ_FINAL
+final
 {
 public
 :
@@ -2017,7 +2017,7 @@ CurrentSelection
 ;
 struct
 PendingAction
-MOZ_FINAL
+final
 {
 enum
 ActionType
@@ -2228,7 +2228,7 @@ RecordCompositionUpdateAction
 class
 MOZ_STACK_CLASS
 AutoPendingActionAndContentFlusher
-MOZ_FINAL
+final
 {
 public
 :
@@ -2322,7 +2322,7 @@ mTextStore
 ;
 class
 Content
-MOZ_FINAL
+final
 {
 public
 :
@@ -2641,7 +2641,7 @@ aTextContent
 ;
 class
 MouseTracker
-MOZ_FINAL
+final
 {
 public
 :

@@ -174,7 +174,7 @@ TextureSourceBasic
 AsSourceBasic
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -192,7 +192,7 @@ DrawTarget
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSurface
@@ -203,7 +203,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSurface
@@ -220,7 +220,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSurface
@@ -255,7 +255,7 @@ aSrcOffset
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 {
 mSurface
 =
@@ -270,7 +270,7 @@ void
 DeallocateDeviceData
 (
 )
-MOZ_OVERRIDE
+override
 {
 mSurface
 =

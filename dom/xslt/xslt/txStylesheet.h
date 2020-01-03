@@ -68,7 +68,7 @@ txXSLKey
 ;
 class
 txStylesheet
-MOZ_FINAL
+final
 {
 public
 :

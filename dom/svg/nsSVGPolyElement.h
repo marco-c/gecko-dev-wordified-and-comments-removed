@@ -84,7 +84,7 @@ nsIAtom
 name
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 SVGAnimatedPointList
@@ -92,7 +92,7 @@ SVGAnimatedPointList
 GetAnimatedPointList
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 &
@@ -106,7 +106,7 @@ GetPointListAttrName
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsGkAtoms
@@ -121,7 +121,7 @@ HasValidDimensions
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -132,14 +132,14 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsMarkable
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -156,7 +156,7 @@ nsSVGMark
 *
 aMarks
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -174,7 +174,7 @@ Matrix
 &
 aTransform
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <

@@ -129,7 +129,7 @@ uint64_t
 PluginID
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mGMP
@@ -149,7 +149,7 @@ void
 Terminated
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -167,7 +167,7 @@ aNumberOfCores
 uint32_t
 aMaxPayloadSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -201,7 +201,7 @@ VideoFrameType
 *
 aFrameTypes
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -214,14 +214,14 @@ EncodedImageCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
 Release
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -232,7 +232,7 @@ aPacketLoss
 int
 aRTT
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -243,7 +243,7 @@ aNewBitRate
 uint32_t
 aFrameRate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -260,7 +260,7 @@ uint8_t
 &
 aCodecSpecificInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -269,7 +269,7 @@ Error
 GMPErr
 aError
 )
-MOZ_OVERRIDE
+override
 {
 }
 private
@@ -398,7 +398,7 @@ uint64_t
 PluginID
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mGMP
@@ -418,7 +418,7 @@ void
 Terminated
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -434,7 +434,7 @@ aCodecSettings
 int32_t
 aNumberOfCores
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -471,7 +471,7 @@ aRenderTimeMs
 -
 1
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -484,21 +484,21 @@ DecodedImageCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
 Release
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
 Reset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -508,7 +508,7 @@ GMPVideoi420Frame
 *
 aDecodedFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -518,7 +518,7 @@ const
 uint64_t
 aPictureId
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -533,7 +533,7 @@ const
 uint64_t
 aPictureId
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -545,7 +545,7 @@ void
 InputDataExhausted
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -553,7 +553,7 @@ void
 DrainComplete
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -561,7 +561,7 @@ void
 ResetComplete
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -571,7 +571,7 @@ Error
 GMPErr
 aError
 )
-MOZ_OVERRIDE
+override
 {
 mDecoderStatus
 =

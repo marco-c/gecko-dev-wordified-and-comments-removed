@@ -256,7 +256,7 @@ aRunParams
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

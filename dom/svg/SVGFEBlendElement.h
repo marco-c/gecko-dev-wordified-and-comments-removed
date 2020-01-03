@@ -126,7 +126,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -161,7 +161,7 @@ SourceSurface
 &
 aInputImages
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -174,7 +174,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSVGString
@@ -182,7 +182,7 @@ nsSVGString
 GetResultImageName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStringAttributes
@@ -202,7 +202,7 @@ nsSVGStringInfo
 &
 aSources
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -223,7 +223,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -256,14 +256,14 @@ EnumAttributesInfo
 GetEnumInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 StringAttributesInfo
 GetStringInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

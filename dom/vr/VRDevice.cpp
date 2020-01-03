@@ -899,7 +899,7 @@ zNear
 double
 zFar
 )
-MOZ_OVERRIDE
+override
 {
 gfx
 :
@@ -1015,7 +1015,7 @@ GetEyeTranslation
 VREye
 aEye
 )
-MOZ_OVERRIDE
+override
 {
 gfx
 :
@@ -1074,7 +1074,7 @@ GetCurrentEyeFieldOfView
 VREye
 aEye
 )
-MOZ_OVERRIDE
+override
 {
 return
 CopyFieldOfView
@@ -1100,7 +1100,7 @@ GetRecommendedEyeFieldOfView
 VREye
 aEye
 )
-MOZ_OVERRIDE
+override
 {
 return
 CopyFieldOfView
@@ -1126,7 +1126,7 @@ GetMaximumEyeFieldOfView
 VREye
 aEye
 )
-MOZ_OVERRIDE
+override
 {
 return
 CopyFieldOfView
@@ -1154,7 +1154,7 @@ GetRecommendedEyeRenderRect
 VREye
 aEye
 )
-MOZ_OVERRIDE
+override
 {
 const
 IntSize
@@ -1349,7 +1349,7 @@ GetState
 double
 timeOffset
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1409,7 +1409,7 @@ void
 ZeroSensor
 (
 )
-MOZ_OVERRIDE
+override
 {
 mHMD
 -

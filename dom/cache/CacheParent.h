@@ -81,7 +81,7 @@ SavedResponse
 ;
 class
 CacheParent
-MOZ_FINAL
+final
 :
 public
 PCacheParent
@@ -125,14 +125,14 @@ ActorDestroy
 ActorDestroyReason
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvTeardown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -151,7 +151,7 @@ PCacheQueryParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -170,7 +170,7 @@ PCacheQueryParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -188,7 +188,7 @@ PCacheRequest
 &
 aRequests
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -203,7 +203,7 @@ CacheRequestResponse
 &
 aPut
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -222,7 +222,7 @@ PCacheQueryParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -241,7 +241,7 @@ PCacheQueryParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -259,7 +259,7 @@ StreamList
 *
 aStreamList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -280,7 +280,7 @@ StreamList
 *
 aStreamList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -291,7 +291,7 @@ aRequestId
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -304,7 +304,7 @@ aRv
 bool
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -325,7 +325,7 @@ StreamList
 *
 aStreamList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -339,7 +339,7 @@ aRequestId
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <

@@ -47,7 +47,7 @@ h
 "
 class
 nsAuthGSSAPI
-MOZ_FINAL
+final
 :
 public
 nsIAuthModule

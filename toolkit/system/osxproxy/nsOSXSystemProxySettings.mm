@@ -198,7 +198,7 @@ h
 "
 class
 nsOSXSystemProxySettings
-MOZ_FINAL
+final
 :
 public
 nsISystemProxySettings

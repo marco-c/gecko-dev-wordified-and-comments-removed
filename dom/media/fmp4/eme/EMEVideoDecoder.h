@@ -65,7 +65,7 @@ Error
 GMPErr
 aErr
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -150,14 +150,14 @@ nsCString
 &
 aTags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsCString
 GetNodeId
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPUnique
@@ -176,7 +176,7 @@ MP4Sample
 *
 aSample
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

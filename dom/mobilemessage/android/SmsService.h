@@ -22,7 +22,7 @@ mobilemessage
 {
 class
 SmsService
-MOZ_FINAL
+final
 :
 public
 nsISmsService

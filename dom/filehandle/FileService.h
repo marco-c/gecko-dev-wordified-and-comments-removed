@@ -103,7 +103,7 @@ FileHandleBase
 ;
 class
 FileService
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -209,7 +209,7 @@ private
 :
 class
 FileHandleQueue
-MOZ_FINAL
+final
 :
 public
 FileHelperListener
@@ -227,7 +227,7 @@ MozExternalRefCountType
 AddRef
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -236,7 +236,7 @@ MozExternalRefCountType
 Release
 (
 )
-MOZ_OVERRIDE
+override
 ;
 inline
 nsresult
@@ -255,7 +255,7 @@ FileHelper
 *
 aFileHelper
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

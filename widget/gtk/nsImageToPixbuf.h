@@ -33,7 +33,7 @@ SourceSurface
 }
 class
 nsImageToPixbuf
-MOZ_FINAL
+final
 :
 public
 nsIImageToPixbuf
@@ -62,7 +62,7 @@ imgIContainer
 *
 aImage
 )
-MOZ_OVERRIDE
+override
 ;
 static
 GdkPixbuf

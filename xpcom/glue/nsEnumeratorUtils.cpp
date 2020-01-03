@@ -62,7 +62,7 @@ nsAString
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 static
 EmptyEnumeratorImpl
@@ -240,7 +240,7 @@ NS_OK
 }
 class
 nsSingletonEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator
@@ -255,7 +255,7 @@ bool
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetNext
@@ -265,7 +265,7 @@ nsISupports
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 explicit
 nsSingletonEnumerator
@@ -489,7 +489,7 @@ NS_OK
 }
 class
 nsUnionEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator
@@ -504,7 +504,7 @@ bool
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetNext
@@ -514,7 +514,7 @@ nsISupports
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 nsUnionEnumerator
 (

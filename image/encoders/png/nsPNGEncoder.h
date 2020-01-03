@@ -79,7 +79,7 @@ b81e
 }
 class
 nsPNGEncoder
-MOZ_FINAL
+final
 :
 public
 imgIEncoder

@@ -42,7 +42,7 @@ dom
 {
 class
 HTMLSharedListElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -95,7 +95,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -103,7 +103,7 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -117,7 +117,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -138,7 +138,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 Reversed
@@ -331,7 +331,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

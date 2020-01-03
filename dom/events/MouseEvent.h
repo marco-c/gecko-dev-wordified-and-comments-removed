@@ -92,7 +92,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 MouseEventBinding
@@ -111,7 +111,7 @@ uint32_t
 Which
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 Button

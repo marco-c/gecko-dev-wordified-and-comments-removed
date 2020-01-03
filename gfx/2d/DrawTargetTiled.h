@@ -103,7 +103,7 @@ IsTiledDrawTarget
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -115,7 +115,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mTiles
@@ -137,7 +137,7 @@ GetBackendType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mTiles
@@ -161,14 +161,14 @@ SourceSurface
 Snapshot
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntSize
 GetSize
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -207,7 +207,7 @@ void
 Flush
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -233,7 +233,7 @@ DrawOptions
 &
 aOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -259,7 +259,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -285,7 +285,7 @@ aSigma
 CompositionOp
 aOperator
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -301,7 +301,7 @@ Rect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -325,7 +325,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -343,7 +343,7 @@ IntPoint
 &
 aDestination
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -366,7 +366,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -397,7 +397,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -432,7 +432,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -463,7 +463,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -486,7 +486,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -518,7 +518,7 @@ aRenderingOptions
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -541,7 +541,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -552,7 +552,7 @@ Path
 *
 aPath
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -563,14 +563,14 @@ Rect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 PopClip
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -581,7 +581,7 @@ Matrix
 &
 aTransform
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -604,7 +604,7 @@ SurfaceFormat
 aFormat
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mTiles
@@ -636,7 +636,7 @@ SourceSurface
 aSurface
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mTiles
@@ -666,7 +666,7 @@ NativeSurface
 aSurface
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mTiles
@@ -698,7 +698,7 @@ SurfaceFormat
 aFormat
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mTiles
@@ -732,7 +732,7 @@ FillRule
 FILL_WINDING
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mTiles
@@ -770,7 +770,7 @@ ExtendMode
 CLAMP
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mTiles
@@ -799,7 +799,7 @@ CreateFilter
 FilterType
 aType
 )
-MOZ_OVERRIDE
+override
 {
 return
 mTiles

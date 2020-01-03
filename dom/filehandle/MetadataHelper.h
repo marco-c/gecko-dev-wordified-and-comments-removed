@@ -58,7 +58,7 @@ MetadataHelper
 ;
 class
 MetadataParameters
-MOZ_FINAL
+final
 {
 friend
 class
@@ -202,7 +202,7 @@ nsISupports
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetSuccessResult
@@ -222,7 +222,7 @@ Value
 >
 aVal
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -269,7 +269,7 @@ nsISupports
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

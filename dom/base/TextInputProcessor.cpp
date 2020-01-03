@@ -74,7 +74,7 @@ mozilla
 {
 class
 TextInputProcessorNotification
-MOZ_FINAL
+final
 :
 public
 nsITextInputProcessorNotification
@@ -104,8 +104,8 @@ nsACString
 &
 aType
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 aType
 =

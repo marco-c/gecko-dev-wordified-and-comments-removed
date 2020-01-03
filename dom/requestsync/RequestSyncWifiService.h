@@ -41,7 +41,7 @@ dom
 {
 class
 RequestSyncWifiService
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -77,7 +77,7 @@ NetworkInformation
 &
 aNetworkInfo
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

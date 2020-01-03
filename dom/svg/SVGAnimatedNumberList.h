@@ -257,7 +257,7 @@ bool
 aPreventCachingOfSandwich
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSMILValue
@@ -265,14 +265,14 @@ GetBaseValue
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearAnimValue
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -283,7 +283,7 @@ nsSMILValue
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

@@ -232,7 +232,7 @@ dom
 {
 class
 NotificationStorageCallback
-MOZ_FINAL
+final
 :
 public
 nsINotificationStorageCallback
@@ -362,7 +362,7 @@ JSContext
 *
 aCx
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -571,7 +571,7 @@ JSContext
 *
 aCx
 )
-MOZ_OVERRIDE
+override
 {
 JSAutoCompartment
 ac

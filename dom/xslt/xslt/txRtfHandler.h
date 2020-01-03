@@ -140,13 +140,13 @@ endDocument
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 startDocument
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

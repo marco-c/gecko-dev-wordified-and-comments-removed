@@ -77,7 +77,7 @@ IsAllocated
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -87,7 +87,7 @@ SurfaceDescriptor
 &
 aOutDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -98,7 +98,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSize
@@ -111,14 +111,14 @@ Lock
 OpenMode
 aMode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Unlock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -126,7 +126,7 @@ IsLocked
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mLocked
@@ -144,7 +144,7 @@ aSize
 TextureAllocationFlags
 flags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -152,7 +152,7 @@ CanExposeDrawTarget
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -167,7 +167,7 @@ DrawTarget
 BorrowDrawTarget
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -178,7 +178,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mFormat
@@ -190,7 +190,7 @@ HasInternalBuffer
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -216,7 +216,7 @@ aAllocFlags
 ALLOC_DEFAULT
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

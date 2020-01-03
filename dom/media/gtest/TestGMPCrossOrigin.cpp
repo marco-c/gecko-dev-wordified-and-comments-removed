@@ -1041,7 +1041,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1124,7 +1124,7 @@ char16_t
 *
 aSomeData
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1362,7 +1362,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1482,7 +1482,7 @@ char16_t
 *
 aSomeData
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -5420,7 +5420,7 @@ uint8_t
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 {
 MonitorAutoLock
 mon
@@ -5551,7 +5551,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -5563,7 +5563,7 @@ aPromiseId
 bool
 aSuccess
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -5573,7 +5573,7 @@ ResolvePromise
 uint32_t
 aPromiseId
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -5589,7 +5589,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -5603,7 +5603,7 @@ aSessionId
 GMPTimestamp
 aExpiryTime
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -5615,7 +5615,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -5635,7 +5635,7 @@ nsCString
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -5656,7 +5656,7 @@ aKeyId
 GMPMediaKeyStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -5666,7 +5666,7 @@ SetCaps
 uint64_t
 aCaps
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -5685,7 +5685,7 @@ uint8_t
 &
 aDecryptedData
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -5693,7 +5693,7 @@ void
 Terminated
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 private

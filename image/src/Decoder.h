@@ -194,14 +194,14 @@ IsEmpty
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 Decoder
-MOZ_OVERRIDE
+override
 )
 virtual
 void
 Resume
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsSizeDecode

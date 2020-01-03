@@ -76,7 +76,7 @@ nsIPrincipal
 GetPrincipal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mPrincipal
@@ -88,7 +88,7 @@ JSObject
 GetGlobalJSObject
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ForgetGlobalObject

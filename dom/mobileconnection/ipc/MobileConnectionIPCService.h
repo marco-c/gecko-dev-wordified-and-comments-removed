@@ -42,7 +42,7 @@ mobileconnection
 {
 class
 MobileConnectionIPCService
-MOZ_FINAL
+final
 :
 public
 nsIMobileConnectionService

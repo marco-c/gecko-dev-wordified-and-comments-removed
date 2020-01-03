@@ -98,7 +98,7 @@ aProcessLoad
 ;
 class
 LoadMonitor
-MOZ_FINAL
+final
 :
 public
 nsIObserver

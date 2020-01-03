@@ -24,7 +24,7 @@ h
 "
 class
 nsColorPickerProxy
-MOZ_FINAL
+final
 :
 public
 nsIColorPicker
@@ -55,7 +55,7 @@ nsString
 &
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -66,7 +66,7 @@ nsString
 &
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

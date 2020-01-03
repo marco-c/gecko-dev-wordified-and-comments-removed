@@ -60,7 +60,7 @@ HTMLTrackElement
 ;
 class
 WebVTTListener
-MOZ_FINAL
+final
 :
 public
 nsIWebVTTListener

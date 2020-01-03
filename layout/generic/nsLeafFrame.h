@@ -52,7 +52,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 {
 DO_GLOBAL_REFLOW_COUNT_DSP
 (
@@ -76,7 +76,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -86,7 +86,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -136,7 +136,7 @@ aPadding
 bool
 aShrinkWrap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -156,7 +156,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -185,7 +185,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsFrame

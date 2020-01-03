@@ -82,7 +82,7 @@ PPrintProgressDialogChild
 AllocPPrintProgressDialogChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -92,7 +92,7 @@ PPrintProgressDialogChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PPrintSettingsDialogChild
@@ -100,7 +100,7 @@ PPrintSettingsDialogChild
 AllocPPrintSettingsDialogChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -110,7 +110,7 @@ PPrintSettingsDialogChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

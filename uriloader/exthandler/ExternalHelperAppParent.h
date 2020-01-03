@@ -120,7 +120,7 @@ nsCString
 &
 entityID
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvOnDataAvailable
@@ -138,7 +138,7 @@ uint32_t
 &
 count
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvOnStopRequest
@@ -148,7 +148,7 @@ nsresult
 &
 code
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvDivertToParentUsing
@@ -157,7 +157,7 @@ PChannelDiverterParent
 *
 diverter
 )
-MOZ_OVERRIDE
+override
 ;
 ExternalHelperAppParent
 (
@@ -221,7 +221,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Delete

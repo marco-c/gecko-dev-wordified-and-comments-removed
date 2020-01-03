@@ -69,7 +69,7 @@ nsIFrame
 GetSelectedFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

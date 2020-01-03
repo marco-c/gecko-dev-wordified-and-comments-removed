@@ -52,7 +52,7 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -70,7 +70,7 @@ aLength
 =
 UINT32_MAX
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 ENameValueFlag
@@ -80,7 +80,7 @@ nsString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetText
@@ -115,7 +115,7 @@ void
 CacheChildren
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

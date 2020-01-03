@@ -483,7 +483,7 @@ _mPrev
 ;
 class
 nsLineBox
-MOZ_FINAL
+final
 :
 public
 nsLineLink
@@ -6611,7 +6611,7 @@ aOther
 }
 class
 nsLineIterator
-MOZ_FINAL
+final
 :
 public
 nsILineIterator
@@ -6632,21 +6632,21 @@ void
 DisposeLineIterator
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
 GetNumLines
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 GetDirection
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetLine
@@ -6664,7 +6664,7 @@ nsRect
 &
 aLineBounds
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -6678,7 +6678,7 @@ aStartLine
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 FindFrameAt
@@ -6698,7 +6698,7 @@ bool
 *
 aPosIsAfterLastFrame
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetNextSiblingOnLine
@@ -6710,7 +6710,7 @@ aFrame
 int32_t
 aLineNumber
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CheckLineOrder
@@ -6729,7 +6729,7 @@ nsIFrame
 *
 aLastVisual
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Init

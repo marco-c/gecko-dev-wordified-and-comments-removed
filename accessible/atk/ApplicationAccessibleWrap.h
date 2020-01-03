@@ -49,7 +49,7 @@ nsString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -61,7 +61,7 @@ Accessible
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -71,7 +71,7 @@ Accessible
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -82,7 +82,7 @@ void
 *
 aOutAccessible
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

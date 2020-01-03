@@ -61,7 +61,7 @@ dom
 {
 class
 SVGAnimateMotionElement
-MOZ_FINAL
+final
 :
 public
 SVGAnimationElement
@@ -133,7 +133,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -156,7 +156,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSMILAnimationFunction
@@ -164,7 +164,7 @@ nsSMILAnimationFunction
 AnimationFunction
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -179,7 +179,7 @@ nsIAtom
 aLocalName
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSMILTargetAttrType
@@ -187,7 +187,7 @@ GetTargetAttributeType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -196,7 +196,7 @@ GetPathDataAttrName
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsGkAtoms

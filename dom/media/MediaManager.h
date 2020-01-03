@@ -910,7 +910,7 @@ aGraph
 StreamTime
 aDesiredTime
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -960,7 +960,7 @@ MediaStreamListener
 MediaStreamGraphEvent
 aEvent
 )
-MOZ_OVERRIDE
+override
 {
 switch
 (
@@ -1210,7 +1210,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1378,7 +1378,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -2212,7 +2212,7 @@ aData
 ;
 class
 MediaManager
-MOZ_FINAL
+final
 :
 public
 nsIMediaManagerService

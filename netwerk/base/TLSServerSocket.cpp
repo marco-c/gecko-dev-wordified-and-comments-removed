@@ -780,7 +780,7 @@ namespace
 {
 class
 TLSServerSecurityObserverProxy
-MOZ_FINAL
+final
 :
 public
 nsITLSServerSecurityObserver

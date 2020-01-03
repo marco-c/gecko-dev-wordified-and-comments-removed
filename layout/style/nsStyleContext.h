@@ -44,7 +44,7 @@ nsPresContext
 ;
 class
 nsStyleContext
-MOZ_FINAL
+final
 {
 public
 :

@@ -82,7 +82,7 @@ aContext
 ;
 class
 nsListBoxBodyFrame
-MOZ_FINAL
+final
 :
 public
 nsBoxFrame
@@ -195,7 +195,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -205,7 +205,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -219,7 +219,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -231,7 +231,7 @@ aScrollbar
 int32_t
 aDirection
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -243,7 +243,7 @@ aScrollbar
 int32_t
 aDirection
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -255,7 +255,7 @@ aScrollbar
 int32_t
 aDirection
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -265,7 +265,7 @@ nsScrollbarFrame
 *
 aScrollbar
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -279,7 +279,7 @@ aOldPos
 int32_t
 aNewPos
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -288,7 +288,7 @@ VisibilityChanged
 bool
 aVisible
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -298,7 +298,7 @@ GetScrollbarBox
 bool
 aVertical
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -306,7 +306,7 @@ ScrollbarActivityStarted
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -315,7 +315,7 @@ ScrollbarActivityStopped
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -323,14 +323,14 @@ bool
 ReflowFinished
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ReflowCallbackCanceled
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DoLayout
@@ -339,14 +339,14 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 MarkIntrinsicISizesDirty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -356,7 +356,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -366,7 +366,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 int32_t
 GetRowCount
@@ -635,14 +635,14 @@ bool
 SupportsOrdinalsInChildren
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 ComputesOwnOverflowArea
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -694,7 +694,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

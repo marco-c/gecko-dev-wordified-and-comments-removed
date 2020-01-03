@@ -197,7 +197,7 @@ NS_IEQUALS_IID
 )
 class
 ConsumerContext
-MOZ_FINAL
+final
 :
 public
 nsIEquals
@@ -226,7 +226,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 *
 _retval

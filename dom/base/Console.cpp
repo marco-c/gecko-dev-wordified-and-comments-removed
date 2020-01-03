@@ -646,7 +646,7 @@ ConsoleStructuredCloneCallbacksError
 ;
 class
 ConsoleCallData
-MOZ_FINAL
+final
 {
 public
 :
@@ -1481,7 +1481,7 @@ mSyncLoopTarget
 ;
 class
 ConsoleCallDataRunnable
-MOZ_FINAL
+final
 :
 public
 ConsoleRunnable
@@ -1523,7 +1523,7 @@ JSContext
 *
 aCx
 )
-MOZ_OVERRIDE
+override
 {
 mWorkerPrivate
 -
@@ -1716,7 +1716,7 @@ nsPIDOMWindow
 *
 aInnerWindow
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2092,7 +2092,7 @@ mData
 ;
 class
 ConsoleProfileRunnable
-MOZ_FINAL
+final
 :
 public
 ConsoleRunnable
@@ -2148,7 +2148,7 @@ JSContext
 *
 aCx
 )
-MOZ_OVERRIDE
+override
 {
 ClearException
 ce
@@ -2345,7 +2345,7 @@ nsPIDOMWindow
 *
 aInnerWindow
 )
-MOZ_OVERRIDE
+override
 {
 ClearException
 ce
@@ -4054,7 +4054,7 @@ TimelineMarker
 *
 aOther
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -4100,7 +4100,7 @@ ProfileTimelineMarker
 &
 aMarker
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

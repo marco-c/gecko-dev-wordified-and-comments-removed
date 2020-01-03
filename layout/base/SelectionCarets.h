@@ -124,7 +124,7 @@ Selection
 }
 class
 SelectionCarets
-MOZ_FINAL
+final
 :
 public
 nsIReflowObserver
@@ -168,7 +168,7 @@ void
 ScrollPositionChanged
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -181,7 +181,7 @@ mozilla
 CSSIntPoint
 aScrollPos
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -194,7 +194,7 @@ mozilla
 CSSIntPoint
 aScrollPos
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Init

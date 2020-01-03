@@ -56,7 +56,7 @@ obj
 ;
 class
 nsSerializationHelper
-MOZ_FINAL
+final
 :
 public
 nsISerializationHelper

@@ -2400,7 +2400,7 @@ ErrorCode
 }
 class
 OpenSocketRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -2425,7 +2425,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

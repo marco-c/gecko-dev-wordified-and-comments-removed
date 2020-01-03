@@ -79,7 +79,7 @@ txAExprResult
 GetResult
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mValue

@@ -179,7 +179,7 @@ nsAString
 &
 aCssText
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -191,7 +191,7 @@ nsAString
 &
 aCssText
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -206,7 +206,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -249,7 +249,7 @@ nsIDOMCSSValue
 *
 aVal
 )
-MOZ_OVERRIDE
+override
 {
 mozilla
 :
@@ -325,7 +325,7 @@ nsAString
 &
 aReturn
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -340,7 +340,7 @@ nsAString
 &
 aReturn
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -360,7 +360,7 @@ nsAString
 &
 aPriority
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -371,7 +371,7 @@ uint32_t
 *
 aLength
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -384,7 +384,7 @@ nsAString
 &
 aReturn
 )
-MOZ_OVERRIDE
+override
 {
 bool
 found
@@ -421,7 +421,7 @@ nsIDOMCSSRule
 *
 aParentRule
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -719,7 +719,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -734,7 +734,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -749,7 +749,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -762,7 +762,7 @@ nsAString
 &
 aCssText
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -773,7 +773,7 @@ nsAString
 &
 aCssText
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -787,7 +787,7 @@ nsAString
 &
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -801,7 +801,7 @@ nsAString
 &
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -815,7 +815,7 @@ nsAString
 &
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -834,7 +834,7 @@ nsAString
 &
 priority
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -844,7 +844,7 @@ uint32_t
 *
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -856,7 +856,7 @@ nsAString
 &
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -867,7 +867,7 @@ nsIDOMCSSRule
 *
 aParentRule
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

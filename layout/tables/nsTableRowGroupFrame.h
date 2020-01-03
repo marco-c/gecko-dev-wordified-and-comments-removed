@@ -141,7 +141,7 @@ MIN_ROWS_NEEDING_CURSOR
 20
 class
 nsTableRowGroupFrame
-MOZ_FINAL
+final
 :
 public
 nsContainerFrame
@@ -183,7 +183,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -193,7 +193,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -205,7 +205,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -220,7 +220,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -232,7 +232,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -240,7 +240,7 @@ GetUsedMargin
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -248,7 +248,7 @@ GetUsedBorder
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -256,7 +256,7 @@ GetUsedPadding
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -274,7 +274,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -294,14 +294,14 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 UpdateOverflow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -310,7 +310,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsTableRowFrame
 *
@@ -330,7 +330,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -415,7 +415,7 @@ void
 DisposeLineIterator
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -423,14 +423,14 @@ int32_t
 GetNumLines
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 GetDirection
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetLine
@@ -448,7 +448,7 @@ nsRect
 &
 aLineBounds
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -462,7 +462,7 @@ aStartLine
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 FindFrameAt
@@ -482,7 +482,7 @@ bool
 *
 aPosIsAfterLastFrame
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CheckLineOrder
@@ -501,7 +501,7 @@ nsIFrame
 *
 aLastVisual
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetNextSiblingOnLine
@@ -513,7 +513,7 @@ aFrame
 int32_t
 aLineNumber
 )
-MOZ_OVERRIDE
+override
 ;
 struct
 FrameCursorData
@@ -606,7 +606,7 @@ nsILineIterator
 GetLineIterator
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -620,7 +620,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame
@@ -649,7 +649,7 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -664,14 +664,14 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 InvalidateFrameForRemoval
 (
 )
-MOZ_OVERRIDE
+override
 {
 InvalidateFrameSubtree
 (
@@ -713,7 +713,7 @@ aReflowState
 nullptr
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 PlaceChild

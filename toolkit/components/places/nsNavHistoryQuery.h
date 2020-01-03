@@ -34,7 +34,7 @@ NS_NAVHISTORYQUERY_IID
 }
 class
 nsNavHistoryQuery
-MOZ_FINAL
+final
 :
 public
 nsINavHistoryQuery
@@ -412,7 +412,7 @@ NS_NAVHISTORYQUERYOPTIONS_IID
 }
 class
 nsNavHistoryQueryOptions
-MOZ_FINAL
+final
 :
 public
 nsINavHistoryQueryOptions

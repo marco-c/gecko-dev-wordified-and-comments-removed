@@ -181,7 +181,7 @@ T
 >
 class
 nsMainThreadPtrHolder
-MOZ_FINAL
+final
 {
 public
 :

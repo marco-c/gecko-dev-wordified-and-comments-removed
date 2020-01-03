@@ -461,7 +461,7 @@ aMallocSizeOf
 ;
 class
 PermanentAtomImpl
-MOZ_FINAL
+final
 :
 public
 AtomImpl

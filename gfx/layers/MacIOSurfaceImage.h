@@ -88,7 +88,7 @@ IntSize
 GetSize
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 gfx
@@ -122,7 +122,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TextureClient
@@ -133,7 +133,7 @@ CompositableClient
 *
 aClient
 )
-MOZ_OVERRIDE
+override
 ;
 MacIOSurfaceImage
 (

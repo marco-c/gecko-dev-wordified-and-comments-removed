@@ -106,7 +106,7 @@ uint32_t
 &
 aTimerId
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

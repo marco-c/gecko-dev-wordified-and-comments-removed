@@ -95,7 +95,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -111,7 +111,7 @@ WidgetMouseEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

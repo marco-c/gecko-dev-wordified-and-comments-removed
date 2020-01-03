@@ -109,7 +109,7 @@ GFX_ARGB32_OFFSET_B
 endif
 class
 nsSVGMaskFrame
-MOZ_FINAL
+final
 :
 public
 nsSVGMaskFrameBase
@@ -213,7 +213,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -232,7 +232,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -252,7 +252,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -262,7 +262,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -276,7 +276,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -380,7 +380,7 @@ gfxMatrix
 GetCanvasTM
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

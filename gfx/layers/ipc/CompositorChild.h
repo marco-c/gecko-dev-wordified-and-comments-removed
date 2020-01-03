@@ -138,7 +138,7 @@ FrameMetrics
 ;
 class
 CompositorChild
-MOZ_FINAL
+final
 :
 public
 PCompositorChild
@@ -228,14 +228,14 @@ uint64_t
 &
 aTransactionId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvInvalidateAll
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -246,7 +246,7 @@ uint32_t
 &
 aOverfill
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -268,7 +268,7 @@ PluginWindowData
 &
 aPlugins
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -282,7 +282,7 @@ uintptr_t
 &
 aWindowList
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RequestNotifyAfterRemotePaint
@@ -434,7 +434,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -444,7 +444,7 @@ PLayerTransactionChild
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -453,7 +453,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -485,7 +485,7 @@ uint32_t
 &
 aAPZCId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -500,14 +500,14 @@ uint32_t
 &
 aAPZCId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvRemotePaintIsReady
 (
 )
-MOZ_OVERRIDE
+override
 ;
 class
 SharedFrameMetricsData

@@ -29,7 +29,7 @@ h
 "
 class
 nsMacUtilsImpl
-MOZ_FINAL
+final
 :
 public
 nsIMacUtils

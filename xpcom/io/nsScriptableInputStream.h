@@ -67,7 +67,7 @@ scriptableinputstream
 "
 class
 nsScriptableInputStream
-MOZ_FINAL
+final
 :
 public
 nsIScriptableInputStream

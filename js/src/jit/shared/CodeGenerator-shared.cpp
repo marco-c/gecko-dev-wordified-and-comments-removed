@@ -4901,7 +4901,7 @@ JS
 TrackedOutcome
 outcome
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ALWAYS_TRUE
 (
@@ -4975,7 +4975,7 @@ IonTrackedTypeWithAddendum
 &
 tracked
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ALWAYS_TRUE
 (
@@ -5003,7 +5003,7 @@ site
 MIRType
 mirType
 )
-MOZ_OVERRIDE
+override
 {
 OptimizationTypeInfo
 ty

@@ -67,7 +67,7 @@ void
 NotifyOwnerDocumentActivityChanged
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

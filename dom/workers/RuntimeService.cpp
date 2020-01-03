@@ -3018,7 +3018,7 @@ aCx
 }
 class
 LogViolationDetailsRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -4308,7 +4308,7 @@ void
 PrepareForForgetSkippable
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -4316,7 +4316,7 @@ void
 BeginCycleCollectionCallback
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -4327,7 +4327,7 @@ CycleCollectorResults
 &
 aResults
 )
-MOZ_OVERRIDE
+override
 {
 }
 void
@@ -4336,7 +4336,7 @@ DispatchDeferredDeletion
 bool
 aContinuation
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -4356,7 +4356,7 @@ CustomGCCallback
 JSGCStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -4402,7 +4402,7 @@ ifdef
 ENABLE_TESTS
 class
 TestPBackgroundCreateCallback
-MOZ_FINAL
+final
 :
 public
 nsIIPCBackgroundChildCreateCallback
@@ -4418,7 +4418,7 @@ PBackgroundChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_RELEASE_ASSERT
 (
@@ -4431,7 +4431,7 @@ void
 ActorFailed
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -4574,7 +4574,7 @@ ok
 endif
 class
 WorkerBackgroundChildCallback
-MOZ_FINAL
+final
 :
 public
 nsIIPCBackgroundChildCreateCallback
@@ -4629,7 +4629,7 @@ PBackgroundChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 {
 *
 mDone
@@ -4642,7 +4642,7 @@ void
 ActorFailed
 (
 )
-MOZ_OVERRIDE
+override
 {
 *
 mDone
@@ -4654,7 +4654,7 @@ true
 ;
 class
 WorkerThreadPrimaryRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -4675,7 +4675,7 @@ mParentRuntime
 ;
 class
 FinishedRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -4779,7 +4779,7 @@ NS_DECL_NSIRUNNABLE
 ;
 class
 WorkerTaskRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -4831,7 +4831,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -4850,7 +4850,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -4864,7 +4864,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 return
 mTask
@@ -5102,7 +5102,7 @@ override
 }
 class
 BackgroundChildCallback
-MOZ_FINAL
+final
 :
 public
 nsIIPCBackgroundChildCreateCallback
@@ -5139,7 +5139,7 @@ PBackgroundChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -5156,7 +5156,7 @@ void
 ActorFailed
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (

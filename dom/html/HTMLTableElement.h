@@ -70,7 +70,7 @@ TableRowsCollection
 ;
 class
 HTMLTableElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -821,7 +821,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -829,7 +829,7 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -843,7 +843,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -864,7 +864,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -882,7 +882,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -897,7 +897,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -915,7 +915,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -933,7 +933,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -972,7 +972,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsIContent
 *

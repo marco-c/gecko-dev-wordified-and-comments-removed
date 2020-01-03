@@ -407,7 +407,7 @@ nsIAsyncInputStream
 *
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1044,7 +1044,7 @@ bool
 Write
 (
 )
-MOZ_OVERRIDE
+override
 {
 Packet
 packet
@@ -1224,7 +1224,7 @@ bool
 Write
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1678,7 +1678,7 @@ bool
 Write
 (
 )
-MOZ_OVERRIDE
+override
 {
 Packet
 packet
@@ -1810,7 +1810,7 @@ bool
 Write
 (
 )
-MOZ_OVERRIDE
+override
 {
 mPacket
 -
@@ -1900,7 +1900,7 @@ bool
 Write
 (
 )
-MOZ_OVERRIDE
+override
 {
 Packet
 packet
@@ -1983,7 +1983,7 @@ nsISocketTransport
 *
 aTransport
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2039,7 +2039,7 @@ aServ
 nsresult
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -2136,7 +2136,7 @@ NS_IMETHODIMP
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 DebugGLData
 *

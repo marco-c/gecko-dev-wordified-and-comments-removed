@@ -74,7 +74,7 @@ dom
 {
 class
 AudioParam
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -190,7 +190,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetValueCurveAtTime
@@ -672,7 +672,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 size_t
 amount
@@ -724,7 +724,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

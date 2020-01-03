@@ -97,7 +97,7 @@ VideoStreamTrack
 ;
 class
 ImageCapture
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -151,7 +151,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 ImageCaptureBinding

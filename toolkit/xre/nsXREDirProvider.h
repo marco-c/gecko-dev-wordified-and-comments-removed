@@ -50,7 +50,7 @@ h
 "
 class
 nsXREDirProvider
-MOZ_FINAL
+final
 :
 public
 nsIDirectoryServiceProvider2
@@ -69,7 +69,7 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -79,7 +79,7 @@ AddRef
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -89,7 +89,7 @@ Release
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIDIRECTORYSERVICEPROVIDER
 NS_DECL_NSIDIRECTORYSERVICEPROVIDER2

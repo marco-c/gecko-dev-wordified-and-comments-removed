@@ -109,7 +109,7 @@ PerformanceEntry
 }
 class
 nsPerformanceTiming
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -256,7 +256,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 DOMTimeMilliSec
 NavigationStart
@@ -792,7 +792,7 @@ mReportCrossOriginRedirect
 ;
 class
 nsPerformanceNavigation
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -858,7 +858,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint16_t
 Type
@@ -911,7 +911,7 @@ mPerformance
 ;
 class
 nsPerformance
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -1019,7 +1019,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 DOMHighResTimeStamp
 Now

@@ -45,7 +45,7 @@ mozilla
 {
 class
 WMFSourceReaderCallback
-MOZ_FINAL
+final
 :
 public
 IMFSourceReaderCallback

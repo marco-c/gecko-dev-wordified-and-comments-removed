@@ -63,7 +63,7 @@ bool
 RecvOpen
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -72,11 +72,11 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 class
 ColorPickerShownCallback
-MOZ_FINAL
+final
 :
 public
 nsIColorPickerShownCallback

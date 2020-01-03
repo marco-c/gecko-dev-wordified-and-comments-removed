@@ -230,7 +230,7 @@ uint32_t
 OperatingSystemVersion
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef

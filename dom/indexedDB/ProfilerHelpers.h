@@ -157,7 +157,7 @@ indexedDB
 class
 MOZ_STACK_CLASS
 LoggingIdString
-MOZ_FINAL
+final
 :
 public
 nsAutoCString
@@ -305,7 +305,7 @@ BeginWriting
 class
 MOZ_STACK_CLASS
 LoggingString
-MOZ_FINAL
+final
 :
 public
 nsAutoCString

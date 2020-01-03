@@ -70,7 +70,7 @@ SVGSymbolElementBase
 ;
 class
 SVGSymbolElement
-MOZ_FINAL
+final
 :
 public
 SVGSymbolElementBase
@@ -146,7 +146,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -163,7 +163,7 @@ nsIAtom
 name
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -184,7 +184,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -210,7 +210,7 @@ nsSVGViewBox
 GetViewBox
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 SVGAnimatedPreserveAspectRatio
@@ -218,7 +218,7 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsSVGViewBox
 mViewBox

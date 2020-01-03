@@ -490,7 +490,7 @@ get
 }
 class
 nsManifestCheck
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

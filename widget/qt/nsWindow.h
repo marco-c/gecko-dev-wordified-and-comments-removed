@@ -590,7 +590,7 @@ uint32_t
 GetGLFrameBufferFormat
 (
 )
-MOZ_OVERRIDE
+override
 ;
 mozilla
 :
@@ -608,7 +608,7 @@ DrawTarget
 StartRemoteDrawing
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void

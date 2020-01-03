@@ -1222,7 +1222,7 @@ void
 popFront
 (
 )
-MOZ_OVERRIDE
+override
 {
 i
 +
@@ -2367,7 +2367,7 @@ void
 popFront
 (
 )
-MOZ_OVERRIDE
+override
 {
 i
 +

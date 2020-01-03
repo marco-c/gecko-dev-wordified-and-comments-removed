@@ -136,7 +136,7 @@ NS_IMETHODIMP
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -276,7 +276,7 @@ aState
 nsresult
 aReason
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

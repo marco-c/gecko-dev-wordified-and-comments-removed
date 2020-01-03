@@ -107,7 +107,7 @@ OnFileCanReadWithoutBlocking
 int
 aFd
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnFileCanWriteWithoutBlocking
@@ -115,7 +115,7 @@ OnFileCanWriteWithoutBlocking
 int
 aFd
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Watch
@@ -269,7 +269,7 @@ mRes
 ;
 class
 SocketMessageWatcherTask
-MOZ_FINAL
+final
 :
 public
 Task
@@ -287,7 +287,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -299,7 +299,7 @@ mWatcher
 ;
 class
 DeleteSocketMessageWatcherTask
-MOZ_FINAL
+final
 :
 public
 Task
@@ -317,7 +317,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -90,7 +90,7 @@ be03932b56e0
 }
 class
 nsJPEGEncoder
-MOZ_FINAL
+final
 :
 public
 imgIEncoder

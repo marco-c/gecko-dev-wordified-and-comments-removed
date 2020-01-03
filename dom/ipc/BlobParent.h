@@ -114,7 +114,7 @@ PBlobStreamParent
 ;
 class
 BlobParent
-MOZ_FINAL
+final
 :
 public
 PBlobParent
@@ -565,7 +565,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBlobStreamParent
@@ -581,7 +581,7 @@ uint64_t
 &
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -599,7 +599,7 @@ uint64_t
 &
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -609,7 +609,7 @@ PBlobStreamParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -620,7 +620,7 @@ ResolveMysteryParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -641,14 +641,14 @@ OptionalFileDescriptorSet
 *
 aFDs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvWaitForSliceCreation
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -658,7 +658,7 @@ int64_t
 *
 aFileId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -668,7 +668,7 @@ nsString
 *
 aFilePath
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -677,7 +677,7 @@ BlobParent
 :
 :
 FriendKey
-MOZ_FINAL
+final
 {
 friend
 class

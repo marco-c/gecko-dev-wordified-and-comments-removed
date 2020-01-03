@@ -231,7 +231,7 @@ Layer
 GetLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -245,7 +245,7 @@ LayerManagerComposite
 *
 aManager
 )
-MOZ_OVERRIDE
+override
 {
 LayerComposite
 :
@@ -307,14 +307,14 @@ void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 LayerComposite
 *
 GetFirstChildComposite
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -325,7 +325,7 @@ nsIntRect
 &
 aClipRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -336,7 +336,7 @@ RenderTargetIntRect
 &
 aClipRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -350,7 +350,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
-MOZ_OVERRIDE
+override
 {
 DefaultComputeEffectiveTransforms
 (
@@ -363,7 +363,7 @@ void
 CleanupResources
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 LayerComposite
@@ -371,7 +371,7 @@ LayerComposite
 AsLayerComposite
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -382,7 +382,7 @@ CompositableHost
 GetCompositableHost
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -394,7 +394,7 @@ GetPostXScale
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -417,7 +417,7 @@ GetPostYScale
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -442,7 +442,7 @@ Name
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -633,7 +633,7 @@ Layer
 GetLayer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -643,14 +643,14 @@ void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 LayerComposite
 *
 GetFirstChildComposite
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -661,7 +661,7 @@ nsIntRect
 &
 aClipRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -672,7 +672,7 @@ RenderTargetIntRect
 &
 aClipRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -686,7 +686,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
-MOZ_OVERRIDE
+override
 {
 DefaultComputeEffectiveTransforms
 (
@@ -699,7 +699,7 @@ void
 CleanupResources
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 LayerComposite
@@ -707,7 +707,7 @@ LayerComposite
 AsLayerComposite
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -718,7 +718,7 @@ CompositableHost
 GetCompositableHost
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -732,7 +732,7 @@ Name
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "

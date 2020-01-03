@@ -33,7 +33,7 @@ NextPartObserver
 NS_INLINE_DECL_REFCOUNTING
 (
 NextPartObserver
-MOZ_OVERRIDE
+override
 )
 explicit
 NextPartObserver
@@ -117,7 +117,7 @@ aRect
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -153,7 +153,7 @@ OnLoadComplete
 bool
 aLastPart
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -201,7 +201,7 @@ void
 BlockOnload
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -209,7 +209,7 @@ void
 UnblockOnload
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -217,7 +217,7 @@ void
 SetHasImage
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -225,7 +225,7 @@ void
 OnStartDecode
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -234,7 +234,7 @@ NotificationsDeferred
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -246,7 +246,7 @@ SetNotificationsDeferred
 (
 bool
 )
-MOZ_OVERRIDE
+override
 {
 }
 private

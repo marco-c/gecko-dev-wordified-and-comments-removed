@@ -80,7 +80,7 @@ SharedThreadPool
 ;
 class
 WMFByteStream
-MOZ_FINAL
+final
 :
 public
 IMFByteStream

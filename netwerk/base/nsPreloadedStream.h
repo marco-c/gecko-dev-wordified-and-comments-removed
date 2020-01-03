@@ -35,7 +35,7 @@ net
 {
 class
 nsPreloadedStream
-MOZ_FINAL
+final
 :
 public
 nsIAsyncInputStream

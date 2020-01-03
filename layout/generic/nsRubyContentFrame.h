@@ -32,7 +32,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 IsIntraLevelWhitespace

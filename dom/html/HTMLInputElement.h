@@ -170,7 +170,7 @@ FileList
 ;
 class
 UploadLastDir
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -214,7 +214,7 @@ aDir
 ;
 class
 ContentPrefCallback
-MOZ_FINAL
+final
 :
 public
 nsIContentPrefCallback2
@@ -274,7 +274,7 @@ mResult
 ;
 class
 HTMLInputElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLFormElementWithState
@@ -364,7 +364,7 @@ int32_t
 TabIndexDefault
 (
 )
-MOZ_OVERRIDE
+override
 ;
 using
 nsGenericHTMLElement
@@ -380,7 +380,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -390,7 +390,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -400,7 +400,7 @@ bool
 aIgnoreTabindex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIDOMHTMLINPUTELEMENT
 NS_DECL_NSIPHONETIC
@@ -412,7 +412,7 @@ nsIEditor
 *
 aEditor
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsGenericHTMLElement
@@ -432,7 +432,7 @@ nsAString
 &
 aInput
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -442,7 +442,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mType
@@ -452,7 +452,7 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -461,13 +461,13 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SaveState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -477,14 +477,14 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 AllowDrop
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -493,7 +493,7 @@ IsDisabledForEvents
 uint32_t
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -502,7 +502,7 @@ FieldSetDisabledChanged
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -517,7 +517,7 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -536,7 +536,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsChangeHint
@@ -550,7 +550,7 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -564,7 +564,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -572,7 +572,7 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -582,7 +582,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -592,7 +592,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PostHandleEventForRangeThumb
@@ -652,7 +652,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -667,14 +667,14 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DoneCreatingElement
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventStates
@@ -682,7 +682,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -693,7 +693,7 @@ AddStates
 EventStates
 aStates
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -702,7 +702,7 @@ RemoveStates
 EventStates
 aStates
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -712,7 +712,7 @@ SetValueChanged
 bool
 aValueChanged
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -722,7 +722,7 @@ IsSingleLineTextControl
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -732,7 +732,7 @@ IsTextArea
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -742,7 +742,7 @@ IsPlainTextControl
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -752,7 +752,7 @@ IsPasswordTextControl
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -761,7 +761,7 @@ int32_t
 GetCols
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -770,7 +770,7 @@ int32_t
 GetWrapCols
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -779,7 +779,7 @@ int32_t
 GetRows
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -791,7 +791,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -801,7 +801,7 @@ ValueChanged
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -816,7 +816,7 @@ bool
 aIgnoreWrap
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -826,7 +826,7 @@ nsIEditor
 GetTextEditor
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -836,7 +836,7 @@ nsISelectionController
 GetSelectionController
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -846,7 +846,7 @@ nsFrameSelection
 GetConstFrameSelection
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 BindToFrame
@@ -855,7 +855,7 @@ nsTextControlFrame
 *
 aFrame
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -867,13 +867,13 @@ nsTextControlFrame
 *
 aFrame
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CreateEditor
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -883,7 +883,7 @@ nsIContent
 GetRootEditorNode
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -893,7 +893,7 @@ Element
 CreatePlaceholderNode
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -903,7 +903,7 @@ Element
 GetPlaceholderNode
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -914,7 +914,7 @@ UpdatePlaceholderVisibility
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -923,7 +923,7 @@ bool
 GetPlaceholderVisibility
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -932,7 +932,7 @@ void
 InitializeKeyboardEventListeners
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -943,7 +943,7 @@ OnValueChanged
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -952,7 +952,7 @@ bool
 HasCachedSelection
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetDisplayFileName
@@ -1067,7 +1067,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -1301,7 +1301,7 @@ aValidationMessage
 ValidityStateType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 void
 UpdateValueMissingValidityStateForRadio
@@ -2719,7 +2719,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 using
 nsGenericHTMLFormElementWithState
@@ -2844,7 +2844,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2862,7 +2862,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 DispatchSelectEvent
@@ -3899,7 +3899,7 @@ Done
 int16_t
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

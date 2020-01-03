@@ -2197,7 +2197,7 @@ mPendingDataStores
 ;
 class
 RevisionAddedEnableStoreCallback
-MOZ_FINAL
+final
 :
 public
 DataStoreRevisionCallback
@@ -2320,7 +2320,7 @@ mManifestURL
 ;
 class
 FirstRevisionIdCallback
-MOZ_FINAL
+final
 :
 public
 DataStoreDBCallback

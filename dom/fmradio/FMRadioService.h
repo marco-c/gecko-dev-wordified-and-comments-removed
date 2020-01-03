@@ -417,7 +417,7 @@ Seeking
 ;
 class
 FMRadioService
-MOZ_FINAL
+final
 :
 public
 IFMRadioService
@@ -466,7 +466,7 @@ IsEnabled
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -474,7 +474,7 @@ IsRDSEnabled
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
@@ -482,7 +482,7 @@ GetFrequency
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
@@ -490,7 +490,7 @@ GetFrequencyUpperBound
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
@@ -498,7 +498,7 @@ GetFrequencyLowerBound
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
@@ -506,7 +506,7 @@ GetChannelWidth
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 Nullable
@@ -518,7 +518,7 @@ GetPi
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 Nullable
@@ -529,7 +529,7 @@ GetPty
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -539,7 +539,7 @@ nsString
 &
 aPsname
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -549,7 +549,7 @@ nsString
 &
 aRadiotext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -559,7 +559,7 @@ uint64_t
 &
 aRDSGroup
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -571,7 +571,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -581,7 +581,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -593,7 +593,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -611,7 +611,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -621,7 +621,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -630,7 +630,7 @@ SetRDSGroupMask
 uint32_t
 aRDSGroupMask
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -640,7 +640,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -650,7 +650,7 @@ FMRadioReplyRunnable
 *
 aReplyRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -660,7 +660,7 @@ FMRadioEventObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -670,7 +670,7 @@ FMRadioEventObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -679,7 +679,7 @@ EnableAudio
 bool
 aAudioEnabled
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Notify
@@ -692,7 +692,7 @@ FMRadioOperationInformation
 &
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Notify
@@ -705,7 +705,7 @@ FMRadioRDSGroup
 &
 aRDSGroup
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIOBSERVER
 protected

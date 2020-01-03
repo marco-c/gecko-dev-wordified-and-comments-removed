@@ -45,7 +45,7 @@ dom
 {
 class
 SVGPolylineElement
-MOZ_FINAL
+final
 :
 public
 SVGPolylineElementBase
@@ -87,7 +87,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 nsresult
@@ -130,7 +130,7 @@ PathBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -153,7 +153,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;

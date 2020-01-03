@@ -68,7 +68,7 @@ Optional
 ;
 class
 SpeechGrammarList
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -134,7 +134,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 Length

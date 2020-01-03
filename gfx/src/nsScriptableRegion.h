@@ -44,7 +44,7 @@ h
 class
 NS_GFX
 nsScriptableRegion
-MOZ_FINAL
+final
 :
 public
 nsIScriptableRegion

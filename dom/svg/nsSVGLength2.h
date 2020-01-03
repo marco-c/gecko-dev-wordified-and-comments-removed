@@ -190,7 +190,7 @@ uint8_t
 aCtxType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -227,7 +227,7 @@ GetEmLength
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 float
@@ -235,7 +235,7 @@ GetExLength
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 float
@@ -245,7 +245,7 @@ uint8_t
 aCtxType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -294,7 +294,7 @@ GetEmLength
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 float
@@ -302,7 +302,7 @@ GetExLength
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -313,7 +313,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -959,7 +959,7 @@ bool
 aPreventCachingOfSandwich
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSMILValue
@@ -967,14 +967,14 @@ GetBaseValue
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearAnimValue
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -985,7 +985,7 @@ nsSMILValue
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

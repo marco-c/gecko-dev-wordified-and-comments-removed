@@ -23,7 +23,7 @@ h
 "
 class
 nsDOMScriptObjectFactory
-MOZ_FINAL
+final
 :
 public
 nsIDOMScriptObjectFactory
@@ -54,7 +54,7 @@ GetClassInfoInstance
 nsDOMClassInfoID
 aID
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -68,7 +68,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 RegisterDOMClassInfo
@@ -97,7 +97,7 @@ nsCID
 *
 aConstructorCID
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

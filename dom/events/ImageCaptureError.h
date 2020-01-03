@@ -42,7 +42,7 @@ dom
 {
 class
 ImageCaptureError
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -94,7 +94,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint16_t
 Code

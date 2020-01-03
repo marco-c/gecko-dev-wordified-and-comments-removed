@@ -66,7 +66,7 @@ NS_CHROMEPROTOCOLHANDLER_CID
 }
 class
 nsChromeProtocolHandler
-MOZ_FINAL
+final
 :
 public
 nsIProtocolHandler

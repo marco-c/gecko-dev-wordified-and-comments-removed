@@ -550,7 +550,7 @@ char
 ClassName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -563,7 +563,7 @@ uint32_t
 ClassSize
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 sizeof
@@ -580,7 +580,7 @@ void
 ReleaseSubtree
 (
 )
-MOZ_OVERRIDE
+override
 {
 for
 (
@@ -668,7 +668,7 @@ NodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -700,7 +700,7 @@ NodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetAttrAt
@@ -813,7 +813,7 @@ char
 ClassName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -826,7 +826,7 @@ uint32_t
 ClassSize
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 sizeof
@@ -865,7 +865,7 @@ NodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SerializeOutOfLine
@@ -908,7 +908,7 @@ NodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 DeserializeOutOfLine
@@ -1152,7 +1152,7 @@ char
 ClassName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -1165,7 +1165,7 @@ uint32_t
 ClassSize
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 sizeof
@@ -1204,7 +1204,7 @@ NodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1236,7 +1236,7 @@ NodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
+override
 ;
 nsString
 mValue
@@ -1278,7 +1278,7 @@ char
 ClassName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -1291,7 +1291,7 @@ uint32_t
 ClassSize
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 sizeof
@@ -1330,7 +1330,7 @@ NodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1362,7 +1362,7 @@ NodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
+override
 ;
 nsString
 mTarget
@@ -1423,7 +1423,7 @@ nsScriptEventHandlerOwnerTearoff
 ;
 class
 nsXULElement
-MOZ_FINAL
+final
 :
 public
 nsStyledElement
@@ -1496,7 +1496,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1514,7 +1514,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1525,7 +1525,7 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1536,14 +1536,14 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DestroyContent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -1559,7 +1559,7 @@ int32_t
 aIndent
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1574,7 +1574,7 @@ bool
 aDumpAll
 )
 const
-MOZ_OVERRIDE
+override
 {
 }
 #
@@ -1588,7 +1588,7 @@ aKeyCausesActivation
 bool
 aIsTrustedEvent
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 ClickWithInputSource
@@ -1604,7 +1604,7 @@ GetBindingParent
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1614,7 +1614,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1626,7 +1626,7 @@ aTabIndex
 bool
 aWithMouse
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WalkContentStyleRules
@@ -1635,7 +1635,7 @@ nsRuleWalker
 *
 aRuleWalker
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsChangeHint
@@ -1649,7 +1649,7 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -1663,7 +1663,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 SetTemplateGenerated
@@ -1727,7 +1727,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -1738,7 +1738,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetFrameLoader
@@ -1767,7 +1767,7 @@ void
 RecompileScriptEventListeners
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetXULBindingParent
@@ -1788,7 +1788,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -1802,7 +1802,7 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetXULAttr
@@ -2736,7 +2736,7 @@ GetScopeChainParent
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 Element
 *
@@ -2873,7 +2873,7 @@ nsSlots
 CreateSlots
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 LoadSrc
@@ -2908,7 +2908,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2926,7 +2926,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2935,7 +2935,7 @@ UpdateEditableState
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2954,7 +2954,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -2971,7 +2971,7 @@ bool
 *
 aDefer
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AddListenerFor
@@ -3222,7 +3222,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 MaybeUpdatePrivateLifetime

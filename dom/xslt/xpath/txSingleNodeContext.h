@@ -73,7 +73,7 @@ txAExprResult
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -108,7 +108,7 @@ txXPathNode
 &
 aNode
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -138,7 +138,7 @@ void
 getPrivateContext
 (
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -167,7 +167,7 @@ txResultRecycler
 recycler
 (
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -201,7 +201,7 @@ aMsg
 nsresult
 aRes
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -268,7 +268,7 @@ txXPathNode
 getContextNode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mNode
@@ -278,7 +278,7 @@ uint32_t
 size
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 1
@@ -288,7 +288,7 @@ uint32_t
 position
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 1

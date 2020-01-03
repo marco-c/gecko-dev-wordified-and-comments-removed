@@ -62,7 +62,7 @@ AsyncPanZoomController
 ;
 class
 GestureEventListener
-MOZ_FINAL
+final
 {
 public
 :

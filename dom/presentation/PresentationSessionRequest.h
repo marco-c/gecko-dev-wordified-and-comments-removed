@@ -33,7 +33,7 @@ dom
 {
 class
 PresentationSessionRequest
-MOZ_FINAL
+final
 :
 public
 nsIPresentationSessionRequest

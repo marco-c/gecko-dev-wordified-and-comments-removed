@@ -119,7 +119,7 @@ NS_ITESTSERVICE_IID
 )
 class
 nsTestService
-MOZ_FINAL
+final
 :
 public
 nsITestService

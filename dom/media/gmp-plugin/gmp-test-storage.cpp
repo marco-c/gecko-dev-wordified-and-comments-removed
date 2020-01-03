@@ -103,7 +103,7 @@ OpenComplete
 GMPErr
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -169,7 +169,7 @@ aData
 uint32_t
 aDataSize
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -179,7 +179,7 @@ WriteComplete
 GMPErr
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 mRecord
 -
@@ -440,7 +440,7 @@ OpenComplete
 GMPErr
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 auto
 err
@@ -488,7 +488,7 @@ aData
 uint32_t
 aDataSize
 )
-MOZ_OVERRIDE
+override
 {
 mRecord
 -
@@ -532,7 +532,7 @@ WriteComplete
 GMPErr
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 }
 private
@@ -738,7 +738,7 @@ OpenComplete
 GMPErr
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 Done
 (
@@ -759,7 +759,7 @@ aData
 uint32_t
 aDataSize
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -780,7 +780,7 @@ WriteComplete
 GMPErr
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (

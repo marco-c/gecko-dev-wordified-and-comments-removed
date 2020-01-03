@@ -75,7 +75,7 @@ SpdyPush31TransactionBuffer
 ;
 class
 SpdyPushedStream31
-MOZ_FINAL
+final
 :
 public
 SpdyStream31
@@ -268,7 +268,7 @@ mDeferCleanupOnSuccess
 ;
 class
 SpdyPush31TransactionBuffer
-MOZ_FINAL
+final
 :
 public
 nsAHttpTransaction

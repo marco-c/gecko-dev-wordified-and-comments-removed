@@ -44,7 +44,7 @@ h
 "
 class
 nsSimpleArrayEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator
@@ -341,7 +341,7 @@ NS_OK
 }
 class
 nsCOMArrayEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator

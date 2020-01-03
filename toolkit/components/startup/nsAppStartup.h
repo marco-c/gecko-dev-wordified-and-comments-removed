@@ -103,7 +103,7 @@ NS_TOOLKIT_APPSTARTUP_CID
 }
 class
 nsAppStartup
-MOZ_FINAL
+final
 :
 public
 nsIAppStartup

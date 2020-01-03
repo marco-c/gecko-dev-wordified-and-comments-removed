@@ -60,7 +60,7 @@ mozilla
 {
 class
 LoadContext
-MOZ_FINAL
+final
 :
 public
 nsILoadContext

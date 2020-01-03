@@ -69,7 +69,7 @@ SVGPathElement
 ;
 class
 SVGMPathElement
-MOZ_FINAL
+final
 :
 public
 SVGMPathElementBase
@@ -145,7 +145,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -175,7 +175,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -193,7 +193,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -204,7 +204,7 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -218,7 +218,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -237,7 +237,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 SVGPathElement
 *
@@ -290,7 +290,7 @@ Element
 *
 aTo
 )
-MOZ_OVERRIDE
+override
 {
 nsReferencedElement
 :
@@ -348,7 +348,7 @@ bool
 IsPersistent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -368,7 +368,7 @@ StringAttributesInfo
 GetStringInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 UpdateHrefTarget

@@ -94,7 +94,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -109,7 +109,7 @@ nsCString
 &
 data
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

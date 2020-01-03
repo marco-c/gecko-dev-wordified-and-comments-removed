@@ -235,7 +235,7 @@ REQUEST_RESUME_AT
 )
 class
 NotifyTargetChangeRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

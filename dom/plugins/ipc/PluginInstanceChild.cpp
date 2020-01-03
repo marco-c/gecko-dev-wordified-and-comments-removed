@@ -10111,7 +10111,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 RemoveFromAsyncList
 (

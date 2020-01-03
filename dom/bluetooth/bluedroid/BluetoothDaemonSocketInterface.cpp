@@ -315,7 +315,7 @@ T
 >
 class
 DeleteTask
-MOZ_FINAL
+final
 :
 public
 Task
@@ -339,7 +339,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mPtr
 =
@@ -361,7 +361,7 @@ BluetoothDaemonSocketModule
 :
 :
 AcceptWatcher
-MOZ_FINAL
+final
 :
 public
 SocketMessageWatcher
@@ -390,7 +390,7 @@ Proceed
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -830,7 +830,7 @@ BluetoothDaemonSocketModule
 :
 :
 ListenInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -942,7 +942,7 @@ BluetoothDaemonSocketModule
 :
 :
 ConnectWatcher
-MOZ_FINAL
+final
 :
 public
 SocketMessageWatcher
@@ -971,7 +971,7 @@ Proceed
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

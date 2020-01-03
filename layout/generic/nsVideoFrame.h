@@ -131,7 +131,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -145,7 +145,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 nsSize
 GetVideoIntrinsicSize
@@ -160,7 +160,7 @@ nsSize
 GetIntrinsicRatio
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -210,7 +210,7 @@ aPadding
 ComputeSizeFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -220,7 +220,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -230,7 +230,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -240,7 +240,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -248,7 +248,7 @@ IsLeaf
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -268,7 +268,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -284,7 +284,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -295,7 +295,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -305,7 +305,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsSplittableFrame
@@ -336,7 +336,7 @@ ContentInfo
 &
 aElements
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -352,7 +352,7 @@ aElements
 uint32_t
 aFilters
 )
-MOZ_OVERRIDE
+override
 ;
 nsIContent
 *
@@ -391,7 +391,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

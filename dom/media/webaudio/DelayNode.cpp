@@ -194,7 +194,7 @@ DelayNodeEngine
 AsDelayNodeEngine
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -231,7 +231,7 @@ aValue
 TrackRate
 aSampleRate
 )
-MOZ_OVERRIDE
+override
 {
 switch
 (
@@ -296,7 +296,7 @@ bool
 *
 aFinished
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -676,7 +676,7 @@ AudioChunk
 *
 aOutput
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -717,7 +717,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 size_t
 amount
@@ -752,7 +752,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

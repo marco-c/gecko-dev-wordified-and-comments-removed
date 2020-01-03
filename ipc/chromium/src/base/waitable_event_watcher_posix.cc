@@ -71,7 +71,7 @@ base
 {
 class
 Flag
-MOZ_FINAL
+final
 {
 public
 :
@@ -141,7 +141,7 @@ flag_
 ;
 class
 AsyncWaiter
-MOZ_FINAL
+final
 :
 public
 WaitableEvent

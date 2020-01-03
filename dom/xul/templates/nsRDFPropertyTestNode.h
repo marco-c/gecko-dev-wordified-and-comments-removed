@@ -125,7 +125,7 @@ bool
 aCantHandleYet
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -145,7 +145,7 @@ Instantiation
 aInitialBindings
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -162,7 +162,7 @@ nsIRDFNode
 aTarget
 )
 const
-MOZ_OVERRIDE
+override
 ;
 class
 Element
@@ -230,7 +230,7 @@ Type
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -247,7 +247,7 @@ Hash
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mozilla
@@ -283,7 +283,7 @@ MemoryElement
 aElement
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (

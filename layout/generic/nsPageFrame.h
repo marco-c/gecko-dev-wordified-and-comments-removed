@@ -35,7 +35,7 @@ nsSharedPageData
 ;
 class
 nsPageFrame
-MOZ_FINAL
+final
 :
 public
 nsContainerFrame
@@ -74,7 +74,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -92,7 +92,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -101,7 +101,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -115,7 +115,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -143,7 +143,7 @@ bool
 HonorPrintBackgroundSettings
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -330,7 +330,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -339,7 +339,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -353,7 +353,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -364,14 +364,14 @@ nscoord
 GetIntrinsicISize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
 GetIntrinsicBSize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 mHaveReflowed

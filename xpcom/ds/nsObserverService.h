@@ -65,7 +65,7 @@ nsIMemoryReporter
 ;
 class
 nsObserverService
-MOZ_FINAL
+final
 :
 public
 nsIObserverService

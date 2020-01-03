@@ -235,7 +235,7 @@ Value
 >
 aRetval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mMessageManager
@@ -306,7 +306,7 @@ Value
 >
 aRetval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mMessageManager
@@ -336,7 +336,7 @@ nsIDOMWindow
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetDocShell
@@ -346,7 +346,7 @@ nsIDocShell
 *
 aDocShell
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIINPROCESSCONTENTFRAMEMESSAGEMANAGER
 virtual
@@ -391,7 +391,7 @@ aJSONRetVal
 bool
 aIsSync
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -427,7 +427,7 @@ nsIPrincipal
 *
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -440,7 +440,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AddEventListener
@@ -490,7 +490,7 @@ aWantsUntrusted
 uint8_t
 optional_argc
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla
@@ -524,7 +524,7 @@ JSContext
 GetJSContextForEventHandlers
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsContentUtils
@@ -541,7 +541,7 @@ nsIPrincipal
 GetPrincipal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mPrincipal
@@ -657,7 +657,7 @@ JSObject
 GetGlobalJSObject
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -696,7 +696,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (

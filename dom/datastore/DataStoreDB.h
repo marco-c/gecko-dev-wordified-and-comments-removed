@@ -79,7 +79,7 @@ DataStoreDBCallback
 ;
 class
 DataStoreDB
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -138,7 +138,7 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

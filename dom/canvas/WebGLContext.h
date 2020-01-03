@@ -828,7 +828,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -842,7 +842,7 @@ GetWidth
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -850,7 +850,7 @@ GetHeight
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -862,7 +862,7 @@ width
 int32_t
 height
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 InitializeWithSurface
@@ -874,7 +874,7 @@ gfxASurface
 int32_t
 int32_t
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -884,7 +884,7 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -902,7 +902,7 @@ int32_t
 *
 out_format
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetInputStream
@@ -920,7 +920,7 @@ nsIInputStream
 *
 out_stream
 )
-MOZ_OVERRIDE
+override
 ;
 mozilla
 :
@@ -941,14 +941,14 @@ bool
 *
 out_premultAlpha
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetIsOpaque
 (
 bool
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -959,7 +959,7 @@ bool
 GetIsOpaque
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -983,14 +983,14 @@ Value
 >
 options
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetIsIPC
 (
 bool
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1001,7 +1001,7 @@ void
 DidRefresh
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Redraw
@@ -1010,7 +1010,7 @@ const
 gfxRect
 &
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1286,13 +1286,13 @@ LayerManager
 *
 manager
 )
-MOZ_OVERRIDE
+override
 ;
 void
 MarkContextClean
 (
 )
-MOZ_OVERRIDE
+override
 {
 mInvalidated
 =
@@ -8334,7 +8334,7 @@ object
 }
 class
 WebGLObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver

@@ -710,7 +710,7 @@ gNumCacheFills
 endif
 class
 nsXULElementTearoff
-MOZ_FINAL
+final
 :
 public
 nsIDOMElementCSSInlineStyle
@@ -753,7 +753,7 @@ nsIDOMCSSStyleDeclaration
 *
 aStyle
 )
-MOZ_OVERRIDE
+override
 {
 nsXULElement
 *

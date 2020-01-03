@@ -23,7 +23,7 @@ mozilla
 {
 class
 MSCOMInitThreadPoolListener
-MOZ_FINAL
+final
 :
 public
 nsIThreadPoolListener

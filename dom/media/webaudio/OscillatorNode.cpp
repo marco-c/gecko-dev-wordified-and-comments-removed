@@ -195,7 +195,7 @@ aValue
 TrackRate
 aSampleRate
 )
-MOZ_OVERRIDE
+override
 {
 mRecomputeParameters
 =
@@ -282,7 +282,7 @@ aIndex
 StreamTime
 aParam
 )
-MOZ_OVERRIDE
+override
 {
 switch
 (
@@ -329,7 +329,7 @@ aIndex
 int32_t
 aParam
 )
-MOZ_OVERRIDE
+override
 {
 switch
 (
@@ -551,7 +551,7 @@ ThreadSharedFloatArrayBufferList
 >
 aBuffer
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1325,7 +1325,7 @@ bool
 *
 aFinished
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1522,7 +1522,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 size_t
 amount
@@ -1581,7 +1581,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

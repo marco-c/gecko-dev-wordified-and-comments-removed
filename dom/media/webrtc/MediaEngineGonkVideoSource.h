@@ -172,14 +172,14 @@ MediaEnginePrefs
 &
 aPrefs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Deallocate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -191,7 +191,7 @@ aStream
 TrackID
 aID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -203,7 +203,7 @@ aSource
 TrackID
 aID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -220,7 +220,7 @@ aId
 StreamTime
 aDesiredTime
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnHardwareStateChange
@@ -230,7 +230,7 @@ aState
 nsresult
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetRotation
@@ -251,7 +251,7 @@ aWidth
 uint32_t
 aHeight
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnUserError
@@ -261,7 +261,7 @@ aContext
 nsresult
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnTakePictureComplete
@@ -276,7 +276,7 @@ nsAString
 &
 aMimeType
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AllocImpl
@@ -347,7 +347,7 @@ PhotoCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 UpdatePhotoOrientation
@@ -391,7 +391,7 @@ size_t
 NumCapabilities
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 InitDirectMediaBuffer

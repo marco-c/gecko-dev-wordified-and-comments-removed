@@ -31,7 +31,7 @@ dom
 {
 class
 HTMLElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -68,7 +68,7 @@ nsAString
 &
 aInnerHTML
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -89,7 +89,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -111,7 +111,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

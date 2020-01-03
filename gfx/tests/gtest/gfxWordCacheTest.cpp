@@ -122,7 +122,7 @@ nullptr
 ;
 class
 FrameTextRunCache
-MOZ_FINAL
+final
 :
 public
 nsExpirationTracker

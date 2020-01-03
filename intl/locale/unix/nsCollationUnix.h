@@ -43,7 +43,7 @@ h
 "
 class
 nsCollationUnix
-MOZ_FINAL
+final
 :
 public
 nsICollation

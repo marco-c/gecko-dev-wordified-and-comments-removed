@@ -61,7 +61,7 @@ FileDescriptor
 ;
 class
 FileDescriptorSetChild
-MOZ_FINAL
+final
 :
 public
 PFileDescriptorSetChild
@@ -124,7 +124,7 @@ FileDescriptor
 &
 aFileDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

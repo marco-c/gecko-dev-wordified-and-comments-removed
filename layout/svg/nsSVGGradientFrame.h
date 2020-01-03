@@ -140,7 +140,7 @@ gfxRect
 *
 aOverrideBounds
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -154,7 +154,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -168,7 +168,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -416,7 +416,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -427,7 +427,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -441,7 +441,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -455,7 +455,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -504,14 +504,14 @@ SVGLinearGradientElement
 *
 aDefault
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 GradientVectorLengthIsZero
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -521,7 +521,7 @@ gfxPattern
 CreateGradient
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -584,7 +584,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -595,7 +595,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -609,7 +609,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -623,7 +623,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -697,14 +697,14 @@ SVGRadialGradientElement
 *
 aDefault
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 GradientVectorLengthIsZero
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -714,7 +714,7 @@ gfxPattern
 CreateGradient
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

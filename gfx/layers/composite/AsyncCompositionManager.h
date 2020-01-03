@@ -292,7 +292,7 @@ mTranslation
 ;
 class
 AsyncCompositionManager
-MOZ_FINAL
+final
 {
 friend
 class

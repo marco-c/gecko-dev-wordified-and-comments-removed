@@ -70,7 +70,7 @@ ServiceWorkerClient
 }
 class
 MessageEvent
-MOZ_FINAL
+final
 :
 public
 Event
@@ -118,7 +118,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetData

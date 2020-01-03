@@ -2450,7 +2450,7 @@ void
 DidRefresh
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

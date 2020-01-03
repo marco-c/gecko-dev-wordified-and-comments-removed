@@ -54,7 +54,7 @@ MSGResult
 ;
 class
 IMEHandler
-MOZ_FINAL
+final
 {
 public
 :

@@ -43,7 +43,7 @@ nsGridRowGroupLayout
 CastToRowGroupLayout
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -60,7 +60,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -73,7 +73,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -86,7 +86,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -102,7 +102,7 @@ int32_t
 &
 aComputedColumnCount
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -115,7 +115,7 @@ nsBoxLayoutState
 &
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -128,7 +128,7 @@ nsGridRow
 *
 aRows
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -140,14 +140,14 @@ aBox
 bool
 aIsHorizontal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
 GetRowCount
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mRowCount
@@ -158,7 +158,7 @@ Type
 GetType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 eRowGroup
@@ -187,7 +187,7 @@ nsBoxLayoutState
 &
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void

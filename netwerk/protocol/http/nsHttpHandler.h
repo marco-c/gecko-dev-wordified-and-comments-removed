@@ -138,7 +138,7 @@ FRAMECHECK_STRICT
 ;
 class
 nsHttpHandler
-MOZ_FINAL
+final
 :
 public
 nsIHttpProtocolHandler

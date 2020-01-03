@@ -55,7 +55,7 @@ PProcessHangMonitorChild
 ;
 class
 ProcessHangMonitor
-MOZ_FINAL
+final
 :
 public
 nsIObserver

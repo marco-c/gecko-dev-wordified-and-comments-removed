@@ -547,7 +547,7 @@ forget
 }
 class
 DictionaryFetcher
-MOZ_FINAL
+final
 :
 public
 nsIContentPrefCallback2
@@ -596,7 +596,7 @@ nsIContentPref
 *
 aPref
 )
-MOZ_OVERRIDE
+override
 {
 nsCOMPtr
 <
@@ -642,7 +642,7 @@ HandleCompletion
 uint16_t
 reason
 )
-MOZ_OVERRIDE
+override
 {
 mSpellCheck
 -
@@ -662,7 +662,7 @@ HandleError
 nsresult
 error
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -1224,7 +1224,7 @@ NS_OK
 }
 class
 CallbackCaller
-MOZ_FINAL
+final
 :
 public
 nsRunnable

@@ -73,7 +73,7 @@ EventTarget
 }
 class
 nsXBLService
-MOZ_FINAL
+final
 :
 public
 nsSupportsWeakReference

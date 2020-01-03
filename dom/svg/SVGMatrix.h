@@ -60,7 +60,7 @@ dom
 {
 class
 SVGMatrix
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -156,7 +156,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 float
 A

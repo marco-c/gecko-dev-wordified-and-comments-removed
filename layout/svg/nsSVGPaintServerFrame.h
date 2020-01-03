@@ -174,7 +174,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -185,7 +185,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsSVGPaintServerFrameBase

@@ -60,7 +60,7 @@ ZIP_CHUNK
 16384
 class
 ArchiveInputStream
-MOZ_FINAL
+final
 :
 public
 nsIInputStream

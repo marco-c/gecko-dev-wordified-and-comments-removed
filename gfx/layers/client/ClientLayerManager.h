@@ -197,7 +197,7 @@ TextureClientPool
 ;
 class
 ClientLayerManager
-MOZ_FINAL
+final
 :
 public
 LayerManager
@@ -227,7 +227,7 @@ void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 {
 ClearCachedResources
 (
@@ -257,7 +257,7 @@ ShadowLayerForwarder
 AsShadowForwarder
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mForwarder
@@ -269,7 +269,7 @@ ClientLayerManager
 AsClientLayerManager
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -281,7 +281,7 @@ GetMaxTextureSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -301,14 +301,14 @@ gfxContext
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 BeginTransaction
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -319,7 +319,7 @@ aFlags
 =
 END_DEFAULT
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -335,14 +335,14 @@ aFlags
 =
 END_DEFAULT
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 LayersBackend
 GetBackendType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 LayersBackend
@@ -356,7 +356,7 @@ LayersBackend
 GetCompositorBackendType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 AsShadowForwarder
@@ -377,7 +377,7 @@ nsAString
 &
 name
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -387,7 +387,7 @@ Name
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -403,7 +403,7 @@ Layer
 *
 aLayer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -413,7 +413,7 @@ Layer
 *
 aLayer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -425,7 +425,7 @@ aLayer
 PaintedLayerCreationHint
 aHint
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -435,7 +435,7 @@ PaintedLayer
 CreatePaintedLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -447,7 +447,7 @@ CreatePaintedLayerWithHint
 PaintedLayerCreationHint
 aHint
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -457,7 +457,7 @@ ContainerLayer
 CreateContainerLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -467,7 +467,7 @@ ImageLayer
 CreateImageLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -477,7 +477,7 @@ CanvasLayer
 CreateCanvasLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -487,7 +487,7 @@ ReadbackLayer
 CreateReadbackLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -497,7 +497,7 @@ ColorLayer
 CreateColorLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -507,7 +507,7 @@ RefLayer
 CreateRefLayer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
@@ -528,7 +528,7 @@ void
 FlushRendering
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SendInvalidRegion
@@ -546,7 +546,7 @@ StartFrameTimeRecording
 int32_t
 aBufferSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -561,14 +561,14 @@ float
 &
 aFrameIntervals
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 NeedsWidgetInvalidation
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -603,7 +603,7 @@ bool
 IsCompositingCheap
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -611,7 +611,7 @@ HasShadowManagerInternal
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 HasShadowManager
@@ -624,7 +624,7 @@ void
 SetIsFirstPaint
 (
 )
-MOZ_OVERRIDE
+override
 ;
 TextureClientPool
 *
@@ -675,7 +675,7 @@ Configuration
 &
 aConfigurations
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -687,7 +687,7 @@ aSubtree
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 void
 HandleMemoryPressure
@@ -803,7 +803,7 @@ bool
 ShouldAvoidComponentAlphaLayers
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -904,7 +904,7 @@ void
 Composite
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -920,7 +920,7 @@ OverfillCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -930,7 +930,7 @@ const
 uint32_t
 aOverfill
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -954,7 +954,7 @@ CompositionOp
 &
 aMixBlendModes
 )
-MOZ_OVERRIDE
+override
 {
 return
 (
@@ -976,7 +976,7 @@ bool
 AreComponentAlphaLayersEnabled
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 LogTestDataForCurrentPaint
@@ -1099,7 +1099,7 @@ nsAString
 &
 aProperty
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1119,7 +1119,7 @@ private
 :
 class
 MemoryPressureObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver

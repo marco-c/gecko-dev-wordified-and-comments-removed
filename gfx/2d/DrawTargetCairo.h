@@ -171,7 +171,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DrawTargetCairo
-MOZ_OVERRIDE
+override
 )
 friend
 class
@@ -193,7 +193,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 BackendType
@@ -201,7 +201,7 @@ GetBackendType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 BackendType
@@ -218,14 +218,14 @@ SourceSurface
 Snapshot
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntSize
 GetSize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -234,7 +234,7 @@ SetPermitSubpixelAA
 bool
 aPermitSubpixelAA
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -254,7 +254,7 @@ SurfaceFormat
 *
 aFormat
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -264,14 +264,14 @@ uint8_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Flush
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -305,7 +305,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -331,7 +331,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -357,7 +357,7 @@ aSigma
 CompositionOp
 aOperator
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -368,7 +368,7 @@ Rect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -386,7 +386,7 @@ IntPoint
 &
 aDestination
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -401,7 +401,7 @@ IntPoint
 &
 aDestination
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -424,7 +424,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -455,7 +455,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -490,7 +490,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -521,7 +521,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -544,7 +544,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -572,7 +572,7 @@ aRenderingOptions
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -595,7 +595,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -619,7 +619,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -630,7 +630,7 @@ Path
 *
 aPath
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -641,14 +641,14 @@ Rect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 PopClip
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -666,7 +666,7 @@ FillRule
 FILL_WINDING
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -689,7 +689,7 @@ SurfaceFormat
 aFormat
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -703,7 +703,7 @@ SourceSurface
 aSurface
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -718,7 +718,7 @@ NativeSurface
 aSurface
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -735,7 +735,7 @@ SurfaceFormat
 aFormat
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -754,7 +754,7 @@ float
 aSigma
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -777,7 +777,7 @@ ExtendMode
 CLAMP
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -789,7 +789,7 @@ CreateFilter
 FilterType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -799,7 +799,7 @@ GetNativeSurface
 NativeSurfaceType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Init
@@ -855,7 +855,7 @@ Matrix
 &
 aTransform
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PrepareForDrawing

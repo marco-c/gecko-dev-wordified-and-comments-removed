@@ -123,7 +123,7 @@ EventStates
 }
 class
 nsEmptyStyleRule
-MOZ_FINAL
+final
 :
 public
 nsIStyleRule
@@ -147,7 +147,7 @@ nsRuleData
 *
 aRuleData
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -167,7 +167,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -175,7 +175,7 @@ endif
 ;
 class
 nsInitialStyleRule
-MOZ_FINAL
+final
 :
 public
 nsIStyleRule
@@ -199,7 +199,7 @@ nsRuleData
 *
 aRuleData
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -219,7 +219,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -227,7 +227,7 @@ endif
 ;
 class
 nsDisableTextZoomStyleRule
-MOZ_FINAL
+final
 :
 public
 nsIStyleRule
@@ -251,7 +251,7 @@ nsRuleData
 *
 aRuleData
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -271,7 +271,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

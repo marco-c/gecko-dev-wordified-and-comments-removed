@@ -57,7 +57,7 @@ char16_t
 *
 aReturn
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ToLower
@@ -68,7 +68,7 @@ char16_t
 *
 aReturn
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ToTitle
@@ -79,7 +79,7 @@ char16_t
 *
 aReturn
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ToUpper
@@ -94,7 +94,7 @@ aReturn
 uint32_t
 aLen
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ToLower
@@ -109,7 +109,7 @@ aReturn
 uint32_t
 aLen
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CaseInsensitiveCompare
@@ -128,7 +128,7 @@ int32_t
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

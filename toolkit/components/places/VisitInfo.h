@@ -38,7 +38,7 @@ places
 {
 class
 VisitInfo
-MOZ_FINAL
+final
 :
 public
 mozIVisitInfo

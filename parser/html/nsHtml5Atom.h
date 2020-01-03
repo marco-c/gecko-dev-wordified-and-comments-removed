@@ -22,7 +22,7 @@ h
 "
 class
 nsHtml5Atom
-MOZ_FINAL
+final
 :
 public
 nsIAtom

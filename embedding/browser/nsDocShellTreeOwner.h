@@ -204,7 +204,7 @@ NS_ICDOCSHELLTREEOWNER_IID
 )
 class
 nsDocShellTreeOwner
-MOZ_FINAL
+final
 :
 public
 nsIDocShellTreeOwner
@@ -409,7 +409,7 @@ mAuthPrompter
 ;
 class
 ChromeTooltipListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -442,7 +442,7 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 MouseMove
@@ -607,7 +607,7 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AddChromeListeners

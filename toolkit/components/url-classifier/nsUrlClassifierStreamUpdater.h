@@ -74,7 +74,7 @@ nsIURI
 ;
 class
 nsUrlClassifierStreamUpdater
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierStreamUpdater

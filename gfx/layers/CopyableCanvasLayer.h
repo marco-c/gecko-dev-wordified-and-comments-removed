@@ -153,7 +153,7 @@ Data
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -164,7 +164,7 @@ Data
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsGLLayer

@@ -140,7 +140,7 @@ IResumable
 ;
 class
 SourceBufferIterator
-MOZ_FINAL
+final
 {
 public
 :
@@ -626,7 +626,7 @@ mData
 ;
 class
 SourceBuffer
-MOZ_FINAL
+final
 {
 public
 :

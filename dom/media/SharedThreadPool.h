@@ -97,7 +97,7 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -107,7 +107,7 @@ AddRef
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -117,7 +117,7 @@ Release
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 NS_FORWARD_SAFE_NSITHREADPOOL
 (

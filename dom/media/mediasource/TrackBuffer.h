@@ -103,7 +103,7 @@ TimeRanges
 }
 class
 TrackBuffer
-MOZ_FINAL
+final
 {
 public
 :

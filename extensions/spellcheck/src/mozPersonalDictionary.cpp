@@ -159,7 +159,7 @@ mEncoder
 )
 class
 mozPersonalDictionaryLoader
-MOZ_FINAL
+final
 :
 public
 nsRunnable

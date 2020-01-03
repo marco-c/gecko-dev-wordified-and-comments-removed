@@ -989,7 +989,7 @@ isTrustedHost
 }
 class
 nsNTLMSessionState
-MOZ_FINAL
+final
 :
 public
 nsISupports

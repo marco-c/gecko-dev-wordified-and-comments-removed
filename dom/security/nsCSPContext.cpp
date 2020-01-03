@@ -3673,7 +3673,7 @@ NS_OK
 }
 class
 CSPReportSenderRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

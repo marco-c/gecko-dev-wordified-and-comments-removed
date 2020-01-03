@@ -221,7 +221,7 @@ char
 Name
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 n
@@ -233,7 +233,7 @@ Type
 GetType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 e
@@ -5175,7 +5175,7 @@ bool
 SupportsOptimizingToImage
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -5282,7 +5282,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 {
 mPaint
 (
@@ -5384,7 +5384,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -5494,7 +5494,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 {
 mFrame
 -
@@ -5802,7 +5802,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -5815,7 +5815,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -5893,7 +5893,7 @@ nsRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -5906,7 +5906,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -5919,7 +5919,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -5937,7 +5937,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -5954,7 +5954,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -6060,7 +6060,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRegion
@@ -6073,7 +6073,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -6118,7 +6118,7 @@ nscolor
 *
 aColor
 )
-MOZ_OVERRIDE
+override
 {
 *
 aColor
@@ -6140,7 +6140,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsDisplayItemGeometry
@@ -6151,7 +6151,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -6178,7 +6178,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 {
 const
 nsDisplaySolidColorGeometry
@@ -6248,7 +6248,7 @@ stringstream
 &
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -6327,7 +6327,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -6347,7 +6347,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -6371,7 +6371,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -6384,7 +6384,7 @@ nsRegion
 *
 aVisibleRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRegion
@@ -6397,7 +6397,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -6410,7 +6410,7 @@ nscolor
 *
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -6423,7 +6423,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -6436,14 +6436,14 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
 GetPerFrameKey
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -6471,7 +6471,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -6497,7 +6497,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -6513,7 +6513,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -6527,7 +6527,7 @@ nsIntPoint
 &
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsRegion
@@ -6558,7 +6558,7 @@ LayerManager
 *
 aManager
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -6704,7 +6704,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRegion
@@ -6717,7 +6717,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -6730,7 +6730,7 @@ nscolor
 *
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -6743,7 +6743,7 @@ nscolor
 *
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -6756,7 +6756,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -6769,7 +6769,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -6797,7 +6797,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -6823,7 +6823,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -6836,7 +6836,7 @@ stringstream
 &
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -6930,7 +6930,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRegion
@@ -6943,7 +6943,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -6956,7 +6956,7 @@ nscolor
 *
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -6980,7 +6980,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -6996,7 +6996,7 @@ DisplayItemClip
 *
 aClip
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -7004,7 +7004,7 @@ CanApplyOpacity
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -7017,7 +7017,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -7050,7 +7050,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -7080,7 +7080,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 {
 const
 nsDisplaySolidColorGeometry
@@ -7160,7 +7160,7 @@ stringstream
 &
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -7210,7 +7210,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -7245,7 +7245,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -7271,7 +7271,7 @@ nscolor
 *
 aColor
 )
-MOZ_OVERRIDE
+override
 {
 *
 aColor
@@ -7293,7 +7293,7 @@ bool
 ClearsBackground
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -7314,7 +7314,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla
@@ -7341,7 +7341,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -7354,7 +7354,7 @@ TYPE_CLEAR_BACKGROUND
 ;
 class
 nsDisplayBoxShadowOuter
-MOZ_FINAL
+final
 :
 public
 nsDisplayItem
@@ -7423,7 +7423,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -7436,7 +7436,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -7447,7 +7447,7 @@ nsRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -7460,7 +7460,7 @@ nsRegion
 *
 aVisibleRegion
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -7484,7 +7484,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -7500,7 +7500,7 @@ DisplayItemClip
 *
 aClip
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -7539,7 +7539,7 @@ CanApplyOpacity
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -7554,7 +7554,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -7642,7 +7642,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -7655,7 +7655,7 @@ nsRegion
 *
 aVisibleRegion
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -7673,7 +7673,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -7699,7 +7699,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 {
 const
 nsDisplayBoxShadowInnerGeometry
@@ -7817,7 +7817,7 @@ nsRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -7830,7 +7830,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -7843,7 +7843,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -7923,7 +7923,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -7936,7 +7936,7 @@ TYPE_EVENT_RECEIVER
 ;
 class
 nsDisplayLayerEventRegions
-MOZ_FINAL
+final
 :
 public
 nsDisplayItem
@@ -7999,7 +7999,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -8059,7 +8059,7 @@ DisplayItemClip
 *
 aClip
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -8081,7 +8081,7 @@ CanApplyOpacity
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8158,7 +8158,7 @@ stringstream
 &
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -8255,7 +8255,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 mBounds
 =
@@ -8301,7 +8301,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -8314,7 +8314,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRegion
@@ -8327,7 +8327,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -8340,7 +8340,7 @@ nscolor
 *
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -8353,7 +8353,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -8366,7 +8366,7 @@ nsRegion
 *
 aVisibleRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -8379,7 +8379,7 @@ nsDisplayItem
 *
 aItem
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -8397,7 +8397,7 @@ nsIFrame
 *
 aFrames
 )
-MOZ_OVERRIDE
+override
 {
 aFrames
 -
@@ -8416,7 +8416,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -8430,7 +8430,7 @@ nsRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -8549,7 +8549,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsDisplayList
@@ -8557,7 +8557,7 @@ nsDisplayList
 GetSameCoordinateSystemChildren
 (
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -8623,7 +8623,7 @@ nsDisplayList
 GetChildren
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 &
@@ -8636,7 +8636,7 @@ ZIndex
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 (
@@ -8944,7 +8944,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -8964,7 +8964,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 LayerState
@@ -8981,7 +8981,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -8994,7 +8994,7 @@ nsRegion
 *
 aVisibleRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -9007,7 +9007,7 @@ nsDisplayItem
 *
 aItem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -9024,7 +9024,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -9041,7 +9041,7 @@ DisplayItemClip
 *
 aClip
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -9049,7 +9049,7 @@ CanApplyOpacity
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -9059,7 +9059,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 NeedsActiveLayer
@@ -9087,7 +9087,7 @@ stringstream
 &
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 CanUseAsyncAnimations
@@ -9096,7 +9096,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -9151,7 +9151,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -9171,7 +9171,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -9188,7 +9188,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -9206,7 +9206,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -9219,7 +9219,7 @@ nsRegion
 *
 aVisibleRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -9232,7 +9232,7 @@ nsDisplayItem
 *
 aItem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -9242,7 +9242,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -9323,7 +9323,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 LayerState
@@ -9340,7 +9340,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -9381,7 +9381,7 @@ nsDisplayItem
 *
 aItem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -9391,7 +9391,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -9500,7 +9500,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 LayerState
@@ -9517,7 +9517,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla
@@ -9537,7 +9537,7 @@ nsDisplayItem
 *
 aItem
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -9551,7 +9551,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -9635,7 +9635,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -9648,7 +9648,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -9661,7 +9661,7 @@ nsRegion
 *
 aVisibleRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -9671,7 +9671,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRegion
@@ -9684,7 +9684,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -9773,7 +9773,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -9834,7 +9834,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -9858,7 +9858,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla
@@ -9878,7 +9878,7 @@ nsDisplayItem
 *
 aItem
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -9973,7 +9973,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -9993,7 +9993,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -10003,7 +10003,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRegion
@@ -10016,7 +10016,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -10040,7 +10040,7 @@ nsRegion
 *
 aVisibleRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 LayerState
@@ -10057,7 +10057,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -10070,7 +10070,7 @@ nsDisplayItem
 *
 aItem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -10080,7 +10080,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 intptr_t
 GetScrollLayerCount
@@ -10120,7 +10120,7 @@ stringstream
 &
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsDisplayPortOpaque
@@ -10257,7 +10257,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -10277,7 +10277,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 LayerState
@@ -10294,7 +10294,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -10304,7 +10304,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -10321,7 +10321,7 @@ nsDisplayItem
 *
 aItem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -10331,7 +10331,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 void
 MarkHoisted
@@ -10401,7 +10401,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -10425,7 +10425,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -10438,7 +10438,7 @@ nsRegion
 *
 aVisibleRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 LayerState
@@ -10455,7 +10455,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla
@@ -10540,7 +10540,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -10564,7 +10564,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -10577,7 +10577,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -10603,7 +10603,7 @@ nsRegion
 *
 aVisibleRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -10616,7 +10616,7 @@ nsDisplayItem
 *
 aItem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -10626,7 +10626,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -10654,7 +10654,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -10674,7 +10674,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 gfxRect
 BBoxInUserSpace
@@ -10697,7 +10697,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -10723,7 +10723,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PaintAsLayer
@@ -10898,7 +10898,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -10936,7 +10936,7 @@ nsDisplayList
 GetChildren
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStoredList
@@ -10968,7 +10968,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -10981,7 +10981,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRegion
@@ -10994,7 +10994,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -11007,7 +11007,7 @@ nscolor
 *
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 LayerState
@@ -11024,7 +11024,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -11044,7 +11044,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -11054,7 +11054,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -11067,7 +11067,7 @@ nsRegion
 *
 aVisibleRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -11080,14 +11080,14 @@ nsDisplayItem
 *
 aItem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
 GetPerFrameKey
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 (
@@ -11123,7 +11123,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -11134,7 +11134,7 @@ ReferenceFrameForChildren
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -11163,7 +11163,7 @@ GetVisibleRectForChildren
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mChildrenVisibleRect
@@ -11486,7 +11486,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 MaybePrerender
@@ -11517,7 +11517,7 @@ stringstream
 &
 aStream
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -11639,7 +11639,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -11656,7 +11656,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 ;
 struct
 ClipEdges
@@ -11929,7 +11929,7 @@ ContainerLayerParameters
 &
 aParameters
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla
@@ -11956,7 +11956,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

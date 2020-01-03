@@ -508,7 +508,7 @@ APZEventState
 }
 class
 DelayedFireSingleTapEvent
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback
@@ -554,7 +554,7 @@ Notify
 nsITimer
 *
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

@@ -894,7 +894,7 @@ nsIFrame
 *
 aFrame
 )
-MOZ_OVERRIDE
+override
 {
 nsIFrame
 *

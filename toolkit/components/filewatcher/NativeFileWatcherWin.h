@@ -51,7 +51,7 @@ mozilla
 {
 class
 NativeFileWatcherService
-MOZ_FINAL
+final
 :
 public
 nsINativeFileWatcherService

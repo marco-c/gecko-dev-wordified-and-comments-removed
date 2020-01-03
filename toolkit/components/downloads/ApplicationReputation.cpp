@@ -447,7 +447,7 @@ PendingDBLookup
 ;
 class
 PendingLookup
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener
@@ -660,7 +660,7 @@ SendRemoteQueryInternal
 ;
 class
 PendingDBLookup
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierCallback

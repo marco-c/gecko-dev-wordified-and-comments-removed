@@ -42,7 +42,7 @@ h
 "
 class
 nsScreenManagerProxy
-MOZ_FINAL
+final
 :
 public
 nsIScreenManager

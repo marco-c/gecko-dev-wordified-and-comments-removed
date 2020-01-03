@@ -293,7 +293,7 @@ IDBFactory
 :
 :
 BackgroundCreateCallback
-MOZ_FINAL
+final
 :
 public
 nsIIPCBackgroundChildCreateCallback

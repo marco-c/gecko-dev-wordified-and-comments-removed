@@ -100,7 +100,7 @@ NS_DOM_CACHE_READSTREAM_IID
 }
 class
 ReadStream
-MOZ_FINAL
+final
 :
 public
 nsIInputStream

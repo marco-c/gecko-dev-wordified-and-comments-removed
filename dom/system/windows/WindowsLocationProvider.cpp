@@ -206,7 +206,7 @@ aError
 }
 class
 LocationEvent
-MOZ_FINAL
+final
 :
 public
 ILocationEvents
@@ -244,7 +244,7 @@ ULONG
 AddRef
 (
 )
-MOZ_OVERRIDE
+override
 ;
 STDMETHODIMP_
 (
@@ -253,7 +253,7 @@ ULONG
 Release
 (
 )
-MOZ_OVERRIDE
+override
 ;
 STDMETHODIMP
 QueryInterface
@@ -265,7 +265,7 @@ void
 *
 ppv
 )
-MOZ_OVERRIDE
+override
 ;
 STDMETHODIMP
 OnStatusChanged
@@ -275,7 +275,7 @@ aReportType
 LOCATION_REPORT_STATUS
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 STDMETHODIMP
 OnLocationChanged
@@ -286,7 +286,7 @@ ILocationReport
 *
 aReport
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

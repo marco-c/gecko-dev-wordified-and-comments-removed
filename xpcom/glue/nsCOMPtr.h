@@ -305,7 +305,7 @@ const
 class
 MOZ_STACK_CLASS
 nsQueryInterface
-MOZ_FINAL
+final
 {
 public
 :
@@ -874,7 +874,7 @@ T
 >
 class
 nsCOMPtr
-MOZ_FINAL
+final
 #
 ifdef
 NSCAP_FEATURE_USE_BASE

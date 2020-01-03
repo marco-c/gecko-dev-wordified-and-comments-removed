@@ -937,7 +937,7 @@ nscoord
 y
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -958,7 +958,7 @@ StrokeOptions
 &
 aStrokeOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -971,7 +971,7 @@ nsRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -1169,7 +1169,7 @@ nsAString
 &
 aSpec
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1181,7 +1181,7 @@ nscoord
 y
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1202,7 +1202,7 @@ StrokeOptions
 &
 aStrokeOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1215,7 +1215,7 @@ nsRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -1827,7 +1827,7 @@ nsAString
 &
 aSpec
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1839,7 +1839,7 @@ nscoord
 y
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1860,7 +1860,7 @@ StrokeOptions
 &
 aStrokeOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1873,7 +1873,7 @@ nsRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -2881,7 +2881,7 @@ nsAString
 &
 aSpec
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2893,7 +2893,7 @@ nscoord
 y
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2914,7 +2914,7 @@ StrokeOptions
 &
 aStrokeOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2927,7 +2927,7 @@ nsRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

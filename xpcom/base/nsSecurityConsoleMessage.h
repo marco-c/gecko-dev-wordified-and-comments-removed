@@ -20,7 +20,7 @@ h
 "
 class
 nsSecurityConsoleMessage
-MOZ_FINAL
+final
 :
 public
 nsISecurityConsoleMessage

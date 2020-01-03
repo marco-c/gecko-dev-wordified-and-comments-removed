@@ -3231,7 +3231,7 @@ JS
 class
 MOZ_STACK_CLASS
 SourceBufferHolder
-MOZ_FINAL
+final
 {
 public
 :
@@ -13946,7 +13946,7 @@ element
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 elementRoot
@@ -13958,7 +13958,7 @@ elementAttributeName
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 elementAttributeNameRoot
@@ -13970,7 +13970,7 @@ introductionScript
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 introductionScriptRoot
@@ -14515,7 +14515,7 @@ element
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 elementRoot
@@ -14527,7 +14527,7 @@ elementAttributeName
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 elementAttributeNameRoot
@@ -14539,7 +14539,7 @@ introductionScript
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 introductionScriptRoot

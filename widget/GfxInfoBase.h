@@ -171,7 +171,7 @@ int32_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetFeatureSuggestedDriverVersion
@@ -182,7 +182,7 @@ nsAString
 &
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetWebGLParameter
@@ -195,7 +195,7 @@ nsAString
 &
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetFailures
@@ -213,7 +213,7 @@ char
 *
 failures
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -226,7 +226,7 @@ nsACString
 &
 failure
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetInfo
@@ -244,7 +244,7 @@ JS
 Value
 >
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -259,7 +259,7 @@ void
 GetData
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 static

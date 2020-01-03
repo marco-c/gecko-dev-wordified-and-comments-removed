@@ -89,7 +89,7 @@ dom
 {
 class
 SVGPathElement
-MOZ_FINAL
+final
 :
 public
 SVGPathElementBase
@@ -155,7 +155,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 explicit
 SVGPathElement
@@ -189,7 +189,7 @@ nsIAtom
 name
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -197,7 +197,7 @@ HasValidDimensions
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -208,14 +208,14 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsMarkable
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -228,7 +228,7 @@ nsSVGMark
 *
 aMarks
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -241,7 +241,7 @@ PathBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -251,7 +251,7 @@ Path
 GetOrBuildPathForMeasuring
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -272,7 +272,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 SVGAnimatedPathSegList
@@ -280,7 +280,7 @@ SVGAnimatedPathSegList
 GetAnimPathSegList
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 &
@@ -294,7 +294,7 @@ GetPathDataAttrName
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsGkAtoms
@@ -641,7 +641,7 @@ NumberAttributesInfo
 GetNumberInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 SVGAnimatedPathSegList
 mD

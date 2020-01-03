@@ -4703,7 +4703,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 RefreshWatchdog
 (
@@ -7570,7 +7570,7 @@ rt
 }
 class
 JSMainRuntimeTemporaryPeakReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -7596,7 +7596,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT
@@ -12902,7 +12902,7 @@ rtTotalOut
 }
 class
 JSMainRuntimeCompartmentsReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -13050,7 +13050,7 @@ closure
 bool
 anonymize
 )
-MOZ_OVERRIDE
+override
 {
 Data
 data
@@ -13243,7 +13243,7 @@ nsISupports
 *
 aSupports
 )
-MOZ_OVERRIDE
+override
 {
 size_t
 n
@@ -13550,7 +13550,7 @@ ZoneStats
 *
 zStats
 )
-MOZ_OVERRIDE
+override
 {
 nsXPConnect
 *
@@ -13755,7 +13755,7 @@ CompartmentStats
 *
 cstats
 )
-MOZ_OVERRIDE
+override
 {
 xpc
 :

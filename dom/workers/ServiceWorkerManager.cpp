@@ -970,7 +970,7 @@ ServiceWorkerRegisterJob
 ;
 class
 ContinueInstallTask
-MOZ_FINAL
+final
 :
 public
 ContinueLifecycleTask
@@ -1005,13 +1005,13 @@ aSuccess
 bool
 aActivateImmediately
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 ContinueActivateTask
-MOZ_FINAL
+final
 :
 public
 ContinueLifecycleTask
@@ -1046,13 +1046,13 @@ aSuccess
 bool
 aActivateImmediately
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 ContinueLifecycleRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1112,7 +1112,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -1135,7 +1135,7 @@ NS_OK
 ;
 class
 LifecycleEventWorkerRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -1203,7 +1203,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1285,7 +1285,7 @@ aDesc
 ;
 class
 ServiceWorkerResolveWindowPromiseOnUpdateCallback
-MOZ_FINAL
+final
 :
 public
 ServiceWorkerUpdateFinishCallback
@@ -1337,7 +1337,7 @@ ServiceWorkerRegistrationInfo
 *
 aInfo
 )
-MOZ_OVERRIDE
+override
 {
 nsRefPtr
 <
@@ -1373,7 +1373,7 @@ UpdateFailed
 nsresult
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 mPromise
 -
@@ -1392,7 +1392,7 @@ ErrorEventInit
 &
 aErrorDesc
 )
-MOZ_OVERRIDE
+override
 {
 AutoJSAPI
 jsapi
@@ -1630,7 +1630,7 @@ error
 ;
 class
 ContinueUpdateRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1677,7 +1677,7 @@ Run
 ;
 class
 CheckWorkerEvaluationAndContinueUpdateWorkerRunnable
-MOZ_FINAL
+final
 :
 public
 WorkerRunnable
@@ -1729,7 +1729,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 aWorkerPrivate
 -
@@ -1939,7 +1939,7 @@ NS_OK
 }
 class
 ServiceWorkerRegisterJob
-MOZ_FINAL
+final
 :
 public
 ServiceWorkerJob
@@ -2076,7 +2076,7 @@ void
 Start
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2286,7 +2286,7 @@ uint8_t
 *
 aString
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -4360,7 +4360,7 @@ aRunnable
 }
 class
 LifecycleEventPromiseHandler
-MOZ_FINAL
+final
 :
 public
 PromiseNativeHandler
@@ -4432,7 +4432,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 WorkerPrivate
 *
@@ -4492,7 +4492,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 WorkerPrivate
 *
@@ -6692,7 +6692,7 @@ false
 }
 class
 ServiceWorkerUnregisterJob
-MOZ_FINAL
+final
 :
 public
 ServiceWorkerJob
@@ -6767,7 +6767,7 @@ void
 Start
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -9366,7 +9366,7 @@ nsACString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 mHeaderNames
 .
@@ -9545,7 +9545,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -9570,7 +9570,7 @@ FetchEventRunnable
 }
 class
 ResumeRequest
-MOZ_FINAL
+final
 :
 public
 nsRunnable

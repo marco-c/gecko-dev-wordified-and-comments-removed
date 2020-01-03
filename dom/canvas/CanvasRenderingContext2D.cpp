@@ -947,7 +947,7 @@ gCanvasAzureMemoryUsed
 ;
 class
 Canvas2dPixelsReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -973,7 +973,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT
@@ -10508,7 +10508,7 @@ void
 DoUpdate
 (
 )
-MOZ_OVERRIDE
+override
 {
 mContext
 -
@@ -10665,7 +10665,7 @@ GetEmLength
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 NSAppUnitsToFloatPixels
@@ -10688,7 +10688,7 @@ GetExLength
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 gfxTextPerfMetrics
 *
@@ -10766,7 +10766,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 Size

@@ -235,7 +235,7 @@ value
 }
 class
 gfxFontFeatureValueSet
-MOZ_FINAL
+final
 {
 public
 :

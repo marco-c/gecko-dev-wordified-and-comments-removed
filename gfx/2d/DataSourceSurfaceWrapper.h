@@ -28,7 +28,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DataSourceSurfaceWrapper
-MOZ_OVERRIDE
+override
 )
 explicit
 DataSourceSurfaceWrapper
@@ -50,7 +50,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 SurfaceType
@@ -65,7 +65,7 @@ uint8_t
 GetData
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSurface
@@ -81,7 +81,7 @@ int32_t
 Stride
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSurface
@@ -98,7 +98,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSurface
@@ -115,7 +115,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSurface
@@ -132,7 +132,7 @@ IsValid
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSurface

@@ -79,7 +79,7 @@ SVGMPathElement
 }
 class
 SVGMotionSMILAnimationFunction
-MOZ_FINAL
+final
 :
 public
 nsSMILAnimationFunction
@@ -120,7 +120,7 @@ aParseResult
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -130,7 +130,7 @@ nsIAtom
 *
 aAttribute
 )
-MOZ_OVERRIDE
+override
 ;
 void
 MpathChanged
@@ -163,7 +163,7 @@ GetCalcMode
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -177,7 +177,7 @@ nsSMILValueArray
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -186,7 +186,7 @@ CheckValueListDependentAttrs
 uint32_t
 aNumValues
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -194,7 +194,7 @@ IsToAnimation
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 CheckKeyPoints

@@ -52,7 +52,7 @@ nsIDOMWindow
 ;
 class
 ThirdPartyUtil
-MOZ_FINAL
+final
 :
 public
 mozIThirdPartyUtil

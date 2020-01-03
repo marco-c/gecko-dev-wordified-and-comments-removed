@@ -124,7 +124,7 @@ namespace
 {
 class
 SendNfcSocketDataTask
-MOZ_FINAL
+final
 :
 public
 nsRunnable

@@ -27,7 +27,7 @@ h
 "
 class
 nsDOMCSSValueList
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -85,8 +85,8 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 virtual
 void
@@ -103,8 +103,8 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 virtual
 uint16_t
@@ -112,8 +112,8 @@ CssValueType
 (
 )
 const
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 CSSValue
 *
@@ -203,7 +203,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

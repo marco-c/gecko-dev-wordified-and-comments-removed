@@ -468,7 +468,7 @@ delete
 ;
 class
 nsStyleGradient
-MOZ_FINAL
+final
 {
 public
 :
@@ -2684,7 +2684,7 @@ aOther
 ;
 class
 nsCSSShadowArray
-MOZ_FINAL
+final
 {
 public
 :
@@ -11430,7 +11430,7 @@ mFillOpacity
 ;
 class
 nsStyleBasicShape
-MOZ_FINAL
+final
 {
 public
 :

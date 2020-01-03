@@ -100,7 +100,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -114,7 +114,7 @@ MobileConnectionRequest
 &
 aRequest
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PMobileConnectionRequestParent
@@ -126,7 +126,7 @@ MobileConnectionRequest
 &
 request
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -136,7 +136,7 @@ PMobileConnectionRequestParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -167,7 +167,7 @@ int32_t
 *
 aSupportedNetworkTypes
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -418,7 +418,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SendReply

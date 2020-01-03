@@ -50,7 +50,7 @@ h
 "
 class
 nsAuthSambaNTLM
-MOZ_FINAL
+final
 :
 public
 nsIAuthModule

@@ -160,7 +160,7 @@ gWifiCertService
 ;
 class
 ImportCertTask
-MOZ_FINAL
+final
 :
 public
 CryptoTask
@@ -239,7 +239,7 @@ nsresult
 CalculateResult
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1284,7 +1284,7 @@ mResult
 ;
 class
 DeleteCertTask
-MOZ_FINAL
+final
 :
 public
 CryptoTask
@@ -1347,7 +1347,7 @@ nsresult
 CalculateResult
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

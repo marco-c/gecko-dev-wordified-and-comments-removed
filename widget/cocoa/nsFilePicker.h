@@ -72,7 +72,7 @@ nsAString
 &
 aDefaultString
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetDefaultString
@@ -82,7 +82,7 @@ nsAString
 &
 aDefaultString
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetDefaultExtension
@@ -91,7 +91,7 @@ nsAString
 &
 aDefaultExtension
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetFilterIndex
@@ -100,7 +100,7 @@ int32_t
 *
 aFilterIndex
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetFilterIndex
@@ -108,7 +108,7 @@ SetFilterIndex
 int32_t
 aFilterIndex
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetDefaultExtension
@@ -118,7 +118,7 @@ nsAString
 &
 aDefaultExtension
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetFile
@@ -128,7 +128,7 @@ nsIFile
 *
 aFile
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetFileURL
@@ -138,7 +138,7 @@ nsIURI
 *
 aFileURL
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetFiles
@@ -148,7 +148,7 @@ nsISimpleEnumerator
 *
 aFiles
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Show
@@ -157,7 +157,7 @@ int16_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendFilter
@@ -171,7 +171,7 @@ nsAString
 &
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 NSArray
 *
@@ -199,7 +199,7 @@ nsAString
 &
 aTitle
 )
-MOZ_OVERRIDE
+override
 ;
 int16_t
 GetLocalFiles

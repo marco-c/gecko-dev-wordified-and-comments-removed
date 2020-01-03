@@ -119,7 +119,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -128,7 +128,7 @@ bool
 SubregionIsUnionOfRegions
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -165,7 +165,7 @@ SourceSurface
 &
 aInputImages
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSVGString
@@ -173,7 +173,7 @@ nsSVGString
 GetResultImageName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStringAttributes
@@ -194,7 +194,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -215,7 +215,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -224,7 +224,7 @@ bool
 ProducesSRGB
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -235,7 +235,7 @@ StringAttributesInfo
 GetStringInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

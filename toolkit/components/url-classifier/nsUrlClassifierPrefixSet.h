@@ -89,7 +89,7 @@ h
 "
 class
 nsUrlClassifierPrefixSet
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierPrefixSet
@@ -110,7 +110,7 @@ nsACString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetPrefixes
@@ -122,7 +122,7 @@ aArray
 uint32_t
 aLength
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPrefixes
@@ -135,7 +135,7 @@ uint32_t
 *
 aPrefixes
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Contains
@@ -146,7 +146,7 @@ bool
 *
 aFound
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IsEmpty
@@ -155,7 +155,7 @@ bool
 *
 aEmpty
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 LoadFromFile
@@ -164,7 +164,7 @@ nsIFile
 *
 aFile
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 StoreToFile
@@ -173,7 +173,7 @@ nsIFile
 *
 aFile
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetPrefixesNative

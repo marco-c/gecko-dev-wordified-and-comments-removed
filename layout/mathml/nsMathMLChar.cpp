@@ -600,7 +600,7 @@ TYPE_OTHER
 }
 class
 nsPropertiesTable
-MOZ_FINAL
+final
 :
 public
 nsGlyphTable
@@ -675,7 +675,7 @@ nsGlyphCode
 aGlyphCode
 )
 const
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -725,7 +725,7 @@ aVertical
 uint32_t
 aPosition
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsGlyphCode
@@ -746,7 +746,7 @@ aVertical
 uint32_t
 aSize
 )
-MOZ_OVERRIDE
+override
 {
 return
 ElementAt
@@ -779,7 +779,7 @@ aChar
 bool
 aVertical
 )
-MOZ_OVERRIDE
+override
 {
 return
 (
@@ -862,7 +862,7 @@ nsGlyphCode
 &
 aGlyph
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1573,7 +1573,7 @@ nullptr
 }
 class
 nsOpenTypeTable
-MOZ_FINAL
+final
 :
 public
 nsGlyphTable
@@ -1610,7 +1610,7 @@ aVertical
 uint32_t
 aPosition
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsGlyphCode
@@ -1631,7 +1631,7 @@ aVertical
 uint32_t
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1650,7 +1650,7 @@ aChar
 bool
 aVertical
 )
-MOZ_OVERRIDE
+override
 ;
 const
 FontFamilyName
@@ -1663,7 +1663,7 @@ nsGlyphCode
 aGlyphCode
 )
 const
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -1705,7 +1705,7 @@ nsGlyphCode
 &
 aGlyph
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsOpenTypeTable
@@ -2350,7 +2350,7 @@ textRun
 }
 class
 nsGlyphTableList
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -7749,7 +7749,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -7922,7 +7922,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -7939,7 +7939,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -7952,7 +7952,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -8225,7 +8225,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -8328,7 +8328,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 {
 mChar
 -
@@ -8365,7 +8365,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 bool
 snap
@@ -8384,7 +8384,7 @@ uint32_t
 GetPerFrameKey
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 (
@@ -8488,7 +8488,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (

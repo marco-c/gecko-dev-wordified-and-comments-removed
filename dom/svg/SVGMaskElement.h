@@ -62,7 +62,7 @@ SVGMaskElementBase
 ;
 class
 SVGMaskElement
-MOZ_FINAL
+final
 :
 public
 SVGMaskElementBase
@@ -137,7 +137,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -160,7 +160,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -174,7 +174,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -182,7 +182,7 @@ HasValidDimensions
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -239,14 +239,14 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

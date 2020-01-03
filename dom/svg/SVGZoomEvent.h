@@ -63,7 +63,7 @@ dom
 {
 class
 SVGZoomEvent
-MOZ_FINAL
+final
 :
 public
 UIEvent
@@ -108,7 +108,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 SVGZoomEventBinding

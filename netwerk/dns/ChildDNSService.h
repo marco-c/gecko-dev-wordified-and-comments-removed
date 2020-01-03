@@ -65,7 +65,7 @@ net
 {
 class
 ChildDNSService
-MOZ_FINAL
+final
 :
 public
 nsPIDNSService

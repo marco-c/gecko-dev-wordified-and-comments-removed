@@ -1003,7 +1003,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsCurrentTask
@@ -1484,7 +1484,7 @@ aBufferSize
 {
 class
 PicoSynthDataRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

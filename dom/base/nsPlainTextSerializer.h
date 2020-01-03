@@ -90,7 +90,7 @@ Element
 }
 class
 nsPlainTextSerializer
-MOZ_FINAL
+final
 :
 public
 nsIContentSerializer
@@ -118,7 +118,7 @@ aIsCopying
 bool
 aIsWholeDocument
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendText
@@ -134,7 +134,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendCDATASection
@@ -150,7 +150,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendProcessingInstruction
@@ -166,7 +166,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -186,7 +186,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -202,7 +202,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -233,7 +233,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendElementEnd
@@ -251,7 +251,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Flush
@@ -260,7 +260,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendDocumentStart
@@ -272,7 +272,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

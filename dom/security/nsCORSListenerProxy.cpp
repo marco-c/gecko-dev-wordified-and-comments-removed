@@ -4071,7 +4071,7 @@ NS_OK
 }
 class
 nsCORSPreflightListener
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

@@ -731,7 +731,7 @@ mEvent
 ;
 class
 SwitchEventObserver
-MOZ_FINAL
+final
 :
 public
 IUeventObserver

@@ -2758,7 +2758,7 @@ names
 endif
 class
 InputScopeImpl
-MOZ_FINAL
+final
 :
 public
 ITfInputScope
@@ -3073,7 +3073,7 @@ mInputScopes
 ;
 class
 TSFStaticSink
-MOZ_FINAL
+final
 :
 public
 ITfActiveLanguageProfileNotifySink

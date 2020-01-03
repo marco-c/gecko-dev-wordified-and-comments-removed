@@ -65,7 +65,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeSoftware
-MOZ_OVERRIDE
+override
 )
 virtual
 ~
@@ -109,7 +109,7 @@ FilterBackend
 GetBackendType
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 FILTER_BACKEND_SOFTWARE
@@ -125,7 +125,7 @@ SourceSurface
 *
 aSurface
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -137,7 +137,7 @@ FilterNode
 *
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -179,7 +179,7 @@ FilterNodeSoftware
 *
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -406,7 +406,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeTransformSoftware
-MOZ_OVERRIDE
+override
 )
 FilterNodeTransformSoftware
 (
@@ -419,7 +419,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -442,7 +442,7 @@ aIndex
 uint32_t
 aGraphicsFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -455,7 +455,7 @@ Matrix
 &
 aMatrix
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -471,7 +471,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -482,7 +482,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -491,7 +491,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -502,7 +502,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 IntRect
 SourceRectForOutputRect
@@ -534,7 +534,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeBlendSoftware
-MOZ_OVERRIDE
+override
 )
 FilterNodeBlendSoftware
 (
@@ -547,7 +547,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -570,7 +570,7 @@ aIndex
 uint32_t
 aBlendMode
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -586,7 +586,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -597,7 +597,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -606,7 +606,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -617,7 +617,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -637,7 +637,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeMorphologySoftware
-MOZ_OVERRIDE
+override
 )
 FilterNodeMorphologySoftware
 (
@@ -650,7 +650,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -675,7 +675,7 @@ IntSize
 &
 aRadii
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -686,7 +686,7 @@ aIndex
 uint32_t
 aOperator
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -702,7 +702,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -713,7 +713,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -722,7 +722,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -733,7 +733,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -756,7 +756,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeColorMatrixSoftware
-MOZ_OVERRIDE
+override
 )
 virtual
 const
@@ -765,7 +765,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -790,7 +790,7 @@ Matrix5x4
 &
 aMatrix
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -801,7 +801,7 @@ aIndex
 uint32_t
 aAlphaMode
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -817,7 +817,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -828,7 +828,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -837,7 +837,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -848,7 +848,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -871,7 +871,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeFloodSoftware
-MOZ_OVERRIDE
+override
 )
 virtual
 const
@@ -880,7 +880,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -905,7 +905,7 @@ Color
 &
 aColor
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -921,7 +921,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -935,7 +935,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -946,7 +946,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -966,7 +966,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeTileSoftware
-MOZ_OVERRIDE
+override
 )
 virtual
 const
@@ -975,7 +975,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -1000,7 +1000,7 @@ IntRect
 &
 aSourceRect
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1016,7 +1016,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -1027,7 +1027,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -1036,7 +1036,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1047,7 +1047,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1067,7 +1067,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeComponentTransferSoftware
-MOZ_OVERRIDE
+override
 )
 FilterNodeComponentTransferSoftware
 (
@@ -1088,7 +1088,7 @@ aIndex
 bool
 aDisable
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1104,7 +1104,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -1115,7 +1115,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -1124,7 +1124,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1135,7 +1135,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1195,7 +1195,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeTableTransferSoftware
-MOZ_OVERRIDE
+override
 )
 virtual
 const
@@ -1204,7 +1204,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -1231,7 +1231,7 @@ aFloat
 uint32_t
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1247,7 +1247,7 @@ aTable
 256
 ]
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1319,7 +1319,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeDiscreteTransferSoftware
-MOZ_OVERRIDE
+override
 )
 virtual
 const
@@ -1328,7 +1328,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -1355,7 +1355,7 @@ aFloat
 uint32_t
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1371,7 +1371,7 @@ aTable
 256
 ]
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1443,7 +1443,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeLinearTransformSoftware
-MOZ_OVERRIDE
+override
 )
 FilterNodeLinearTransferSoftware
 (
@@ -1456,7 +1456,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -1479,7 +1479,7 @@ aIndex
 Float
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1495,7 +1495,7 @@ aTable
 256
 ]
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1550,7 +1550,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeGammaTransferSoftware
-MOZ_OVERRIDE
+override
 )
 FilterNodeGammaTransferSoftware
 (
@@ -1563,7 +1563,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -1586,7 +1586,7 @@ aIndex
 Float
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1602,7 +1602,7 @@ aTable
 256
 ]
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1671,7 +1671,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeConvolveMatrixSoftware
-MOZ_OVERRIDE
+override
 )
 FilterNodeConvolveMatrixSoftware
 (
@@ -1684,7 +1684,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -1709,7 +1709,7 @@ IntSize
 &
 aKernelSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1724,7 +1724,7 @@ aMatrix
 uint32_t
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1735,7 +1735,7 @@ aIndex
 Float
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1748,7 +1748,7 @@ Size
 &
 aKernelUnitLength
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1761,7 +1761,7 @@ IntRect
 &
 aSourceRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1774,7 +1774,7 @@ IntPoint
 &
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1785,7 +1785,7 @@ aIndex
 uint32_t
 aEdgeMode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1796,7 +1796,7 @@ aIndex
 bool
 aPreserveAlpha
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1812,7 +1812,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -1823,7 +1823,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -1832,7 +1832,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1843,7 +1843,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1932,7 +1932,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeDisplacementMapSoftware
-MOZ_OVERRIDE
+override
 )
 FilterNodeDisplacementMapSoftware
 (
@@ -1945,7 +1945,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -1968,7 +1968,7 @@ aIndex
 Float
 aScale
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1979,7 +1979,7 @@ aIndex
 uint32_t
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1995,7 +1995,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -2006,7 +2006,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -2015,7 +2015,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2026,7 +2026,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2061,7 +2061,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeTurbulenceSoftware
-MOZ_OVERRIDE
+override
 )
 FilterNodeTurbulenceSoftware
 (
@@ -2074,7 +2074,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -2099,7 +2099,7 @@ Size
 &
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2112,7 +2112,7 @@ IntRect
 &
 aRenderRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2123,7 +2123,7 @@ aIndex
 bool
 aStitchable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2134,7 +2134,7 @@ aIndex
 uint32_t
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -2150,7 +2150,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -2161,7 +2161,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -2170,7 +2170,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2205,7 +2205,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeArithmeticCombineSoftware
-MOZ_OVERRIDE
+override
 )
 FilterNodeArithmeticCombineSoftware
 (
@@ -2218,7 +2218,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -2245,7 +2245,7 @@ aFloat
 uint32_t
 aSize
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -2261,7 +2261,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -2272,7 +2272,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -2281,7 +2281,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2292,7 +2292,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2321,7 +2321,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeCompositeSoftware
-MOZ_OVERRIDE
+override
 )
 FilterNodeCompositeSoftware
 (
@@ -2334,7 +2334,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -2357,7 +2357,7 @@ aIndex
 uint32_t
 aOperator
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -2373,7 +2373,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -2384,7 +2384,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -2393,7 +2393,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2404,7 +2404,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2424,7 +2424,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeBlurXYSoftware
-MOZ_OVERRIDE
+override
 )
 protected
 :
@@ -2440,7 +2440,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -2451,7 +2451,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -2460,7 +2460,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 IntRect
 InflatedSourceOrDestRect
@@ -2480,7 +2480,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Size
@@ -2503,7 +2503,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeGaussianBlurSoftware
-MOZ_OVERRIDE
+override
 )
 FilterNodeGaussianBlurSoftware
 (
@@ -2516,7 +2516,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -2539,7 +2539,7 @@ aIndex
 Float
 aStdDeviation
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -2548,7 +2548,7 @@ Size
 StdDeviationXY
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2568,7 +2568,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeDirectionalBlurSoftware
-MOZ_OVERRIDE
+override
 )
 FilterNodeDirectionalBlurSoftware
 (
@@ -2581,7 +2581,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -2604,7 +2604,7 @@ aIndex
 Float
 aStdDeviation
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2615,7 +2615,7 @@ aIndex
 uint32_t
 aBlurDirection
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -2624,7 +2624,7 @@ Size
 StdDeviationXY
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2647,7 +2647,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeCropSoftware
-MOZ_OVERRIDE
+override
 )
 virtual
 const
@@ -2656,7 +2656,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -2681,7 +2681,7 @@ Rect
 &
 aSourceRect
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -2697,7 +2697,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -2708,7 +2708,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -2717,7 +2717,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2728,7 +2728,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2748,7 +2748,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodePremultiplySoftware
-MOZ_OVERRIDE
+override
 )
 virtual
 const
@@ -2757,7 +2757,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -2779,7 +2779,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -2790,7 +2790,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -2799,7 +2799,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2810,7 +2810,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -2825,7 +2825,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeUnpremultiplySoftware
-MOZ_OVERRIDE
+override
 )
 virtual
 const
@@ -2834,7 +2834,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -2856,7 +2856,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -2867,7 +2867,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -2876,7 +2876,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2887,7 +2887,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -2934,7 +2934,7 @@ typeName
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mTypeName
@@ -2946,7 +2946,7 @@ typeSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 sizeof
@@ -2974,7 +2974,7 @@ char
 GetName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -2996,7 +2996,7 @@ uint32_t
 aIndex
 Float
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3008,7 +3008,7 @@ const
 Size
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3020,7 +3020,7 @@ const
 Point3D
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3032,7 +3032,7 @@ const
 Color
 &
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -3048,7 +3048,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntRect
@@ -3059,7 +3059,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -3068,7 +3068,7 @@ InputIndex
 uint32_t
 aInputEnumIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3079,7 +3079,7 @@ IntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

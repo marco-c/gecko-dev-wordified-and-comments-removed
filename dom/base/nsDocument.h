@@ -1693,7 +1693,7 @@ GetParentObject
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mDocument
@@ -1704,7 +1704,7 @@ uint32_t
 Length
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -1720,7 +1720,7 @@ bool
 &
 aFound
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1741,7 +1741,7 @@ mDocument
 ;
 class
 nsOnloadBlocker
-MOZ_FINAL
+final
 :
 public
 nsIRequest
@@ -1982,7 +1982,7 @@ PendingLoad
 ;
 class
 LoadgroupCallbacks
-MOZ_FINAL
+final
 :
 public
 nsIInterfaceRequestor
@@ -2032,7 +2032,7 @@ _i
 #
 #
 Shim
-MOZ_FINAL
+final
 :
 public
 nsIInterfaceRequestor
@@ -2327,7 +2327,7 @@ nsILoadGroup
 *
 aLoadGroup
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2343,7 +2343,7 @@ nsIPrincipal
 *
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2376,7 +2376,7 @@ aContentSink
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -2385,7 +2385,7 @@ void
 StopDocumentLoad
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2394,7 +2394,7 @@ NotifyPossibleTitleChange
 bool
 aBoundTitleElement
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2404,7 +2404,7 @@ nsIURI
 *
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2414,7 +2414,7 @@ nsIURI
 *
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2424,7 +2424,7 @@ nsIURI
 *
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2434,7 +2434,7 @@ nsIPrincipal
 *
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2445,7 +2445,7 @@ nsAString
 &
 aContentType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2455,7 +2455,7 @@ nsIURI
 *
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2465,7 +2465,7 @@ nsAString
 &
 aBaseTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2476,7 +2476,7 @@ nsACString
 &
 aCharSetID
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2486,7 +2486,7 @@ nsIObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2496,7 +2496,7 @@ nsIObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Element
@@ -2514,7 +2514,7 @@ aData
 bool
 aForImage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2531,7 +2531,7 @@ aData
 bool
 aForImage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2545,7 +2545,7 @@ nsAString
 aData
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2559,7 +2559,7 @@ nsAString
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -2578,14 +2578,14 @@ nsStyleSet
 *
 aStyleSet
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DeleteShell
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2595,7 +2595,7 @@ bool
 *
 aAllowPlugins
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -2611,7 +2611,7 @@ UndoManager
 GetUndoManager
 (
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool
@@ -2637,7 +2637,7 @@ AnimationTimeline
 Timeline
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2650,7 +2650,7 @@ nsIDocument
 *
 aSubDoc
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDocument
@@ -2662,7 +2662,7 @@ nsIContent
 aContent
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 Element
@@ -2674,7 +2674,7 @@ nsIDocument
 aDocument
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 Element
@@ -2683,7 +2683,7 @@ GetRootElementInternal
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2696,7 +2696,7 @@ CSSStyleSheet
 *
 aSheet
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -2704,7 +2704,7 @@ GetNumberOfStyleSheets
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIStyleSheet
@@ -2715,7 +2715,7 @@ int32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -2726,7 +2726,7 @@ nsIStyleSheet
 aSheet
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2736,7 +2736,7 @@ nsIStyleSheet
 *
 aSheet
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2746,7 +2746,7 @@ nsIStyleSheet
 *
 aSheet
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2765,7 +2765,7 @@ nsIStyleSheet
 &
 aNewSheets
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2795,7 +2795,7 @@ aSheet
 int32_t
 aIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2807,7 +2807,7 @@ aSheet
 bool
 aApplicable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2819,7 +2819,7 @@ nsIURI
 *
 aSheetURI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2831,7 +2831,7 @@ nsIStyleSheet
 *
 aSheet
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2843,7 +2843,7 @@ nsIURI
 *
 sheetURI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIStyleSheet
@@ -2851,7 +2851,7 @@ nsIStyleSheet
 FirstAdditionalAuthorSheet
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIChannel
@@ -2860,7 +2860,7 @@ GetChannel
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mChannel
@@ -2873,7 +2873,7 @@ GetFailedChannel
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mFailedChannel
@@ -2887,7 +2887,7 @@ nsIChannel
 *
 aChannel
 )
-MOZ_OVERRIDE
+override
 {
 mFailedChannel
 =
@@ -2902,7 +2902,7 @@ nsIScriptGlobalObject
 *
 aGlobalObject
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2912,7 +2912,7 @@ nsIScriptGlobalObject
 *
 aScriptObject
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIGlobalObject
@@ -2921,7 +2921,7 @@ GetScopeObject
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 SetScopeObject
@@ -2930,7 +2930,7 @@ nsIGlobalObject
 *
 aGlobal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsScriptLoader
@@ -2938,7 +2938,7 @@ nsScriptLoader
 ScriptLoader
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2951,7 +2951,7 @@ nsIAtom
 *
 aId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2964,7 +2964,7 @@ nsIAtom
 *
 aId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2977,7 +2977,7 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2990,7 +2990,7 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3000,7 +3000,7 @@ nsIDocumentObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3010,7 +3010,7 @@ nsIDocumentObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3019,7 +3019,7 @@ BeginUpdate
 nsUpdateType
 aUpdateType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3028,21 +3028,21 @@ EndUpdate
 nsUpdateType
 aUpdateType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 BeginLoad
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 EndLoad
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3051,7 +3051,7 @@ SetReadyStateInternal
 ReadyState
 rs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3066,7 +3066,7 @@ mozilla
 EventStates
 aStateMask
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3078,7 +3078,7 @@ mozilla
 EventStates
 aStateMask
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3094,7 +3094,7 @@ nsIStyleRule
 *
 aNewStyleRule
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3107,7 +3107,7 @@ nsIStyleRule
 *
 aStyleRule
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3120,7 +3120,7 @@ nsIStyleRule
 *
 aStyleRule
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3129,7 +3129,7 @@ FlushPendingNotifications
 mozFlushType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3138,7 +3138,7 @@ FlushExternalResources
 mozFlushType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3156,7 +3156,7 @@ const
 int32_t
 aStandalone
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3172,14 +3172,14 @@ nsAString
 &
 Standalone
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsScriptEnabled
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3197,7 +3197,7 @@ EventTarget
 *
 aDispatchStartTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3215,7 +3215,7 @@ EventTarget
 *
 aDispatchStartTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3225,7 +3225,7 @@ nsINode
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3235,7 +3235,7 @@ nsINode
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3245,7 +3245,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIContent
@@ -3256,7 +3256,7 @@ uint32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIContent
@@ -3270,7 +3270,7 @@ uint32_t
 aChildCount
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -3282,7 +3282,7 @@ nsINode
 aPossibleChild
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
@@ -3290,7 +3290,7 @@ GetChildCount
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -3304,7 +3304,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3315,7 +3315,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -3336,7 +3336,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -3355,7 +3355,7 @@ aVisitor
 bool
 aFlushContent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3375,7 +3375,7 @@ HTMLInputElement
 *
 aRadio
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -3393,7 +3393,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetNextRadioButton
@@ -3425,7 +3425,7 @@ HTMLInputElement
 *
 aRadioOut
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3439,7 +3439,7 @@ nsIFormControl
 *
 aRadio
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3453,7 +3453,7 @@ nsIFormControl
 *
 aRadio
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
@@ -3465,7 +3465,7 @@ nsAString
 aName
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3478,7 +3478,7 @@ aName
 bool
 aRequiredAdded
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3490,7 +3490,7 @@ nsAString
 aName
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3503,7 +3503,7 @@ aName
 bool
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 nsRadioGroupStruct
 *
@@ -3538,7 +3538,7 @@ ScreenIntSize
 &
 aDisplaySize
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnAppThemeChanged
@@ -3597,7 +3597,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -3608,7 +3608,7 @@ EventListenerManager
 GetOrCreateListenerManager
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -3620,7 +3620,7 @@ GetExistingListenerManager
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIPrincipal
@@ -3628,7 +3628,7 @@ nsIPrincipal
 GetPrincipal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
 NS_DECL_NSIOBSERVER
@@ -3657,14 +3657,14 @@ nsIContent
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Sanitize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3676,7 +3676,7 @@ void
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -3686,21 +3686,21 @@ nsIRequest
 *
 aNewRequest
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 RemovedFromDocShell
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -3711,14 +3711,14 @@ GetLayoutHistoryState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 BlockOnload
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3727,7 +3727,7 @@ UnblockOnload
 bool
 aFireSync
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3743,7 +3743,7 @@ Link
 *
 aLink
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3759,7 +3759,7 @@ Link
 *
 aLink
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3769,7 +3769,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -3800,7 +3800,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Element
@@ -3819,7 +3819,7 @@ nsAString
 aAttrValue
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 Element
@@ -3835,7 +3835,7 @@ aIgnoreRootScrollFrame
 bool
 aFlushLayout
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -3862,14 +3862,14 @@ nsIDOMNodeList
 *
 aReturn
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 FlushSkinBindings
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -3879,7 +3879,7 @@ nsFrameLoader
 *
 aLoader
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -3892,7 +3892,7 @@ nsIRunnable
 *
 aFinalizer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3902,7 +3902,7 @@ nsIDocShell
 *
 aShell
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDocument
@@ -3920,7 +3920,7 @@ ExternalResourceLoad
 *
 aPendingLoad
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3932,7 +3932,7 @@ void
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 nsTArray
 <
@@ -3945,7 +3945,7 @@ nsSMILAnimationController
 GetAnimationController
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -3956,8 +3956,8 @@ PendingPlayerTracker
 GetPendingPlayerTracker
 (
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 mPendingPlayerTracker
@@ -3972,7 +3972,7 @@ PendingPlayerTracker
 GetOrCreatePendingPlayerTracker
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetImagesNeedAnimating
@@ -3980,7 +3980,7 @@ SetImagesNeedAnimating
 bool
 aAnimating
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -3991,7 +3991,7 @@ aWhat
 uint32_t
 aIncrease
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4002,7 +4002,7 @@ aWhat
 bool
 aFireEvents
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DecreaseEventSuppression
@@ -4048,7 +4048,7 @@ nsIDocument
 GetTemplateContentsOwner
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
@@ -4118,14 +4118,14 @@ void
 PreloadPictureOpened
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 PreloadPictureClosed
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4148,7 +4148,7 @@ nsAString
 &
 aMediaAttr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -4173,7 +4173,7 @@ nsAString
 &
 aSizesAttr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4189,7 +4189,7 @@ aCrossOriginAttr
 ReferrerPolicy
 aReferrerPolicy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4199,7 +4199,7 @@ nsIURI
 *
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4219,7 +4219,7 @@ aCrossOriginAttr
 ReferrerPolicy
 aReferrerPolicy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -4238,7 +4238,7 @@ CSSStyleSheet
 *
 sheet
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsISupports
@@ -4246,7 +4246,7 @@ nsISupports
 GetCurrentContentSink
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -4256,7 +4256,7 @@ EventStates
 GetDocumentState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4267,7 +4267,7 @@ nsACString
 &
 aUri
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4278,7 +4278,7 @@ nsACString
 &
 aUri
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AsyncBlockOnload
@@ -4293,21 +4293,21 @@ nsIURI
 *
 aDocumentURI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ScrollToRef
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ResetScrolledToRefAlready
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4316,7 +4316,7 @@ SetChangeScrollPosWhenScrollingToRef
 bool
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Element
@@ -4328,7 +4328,7 @@ nsAString
 &
 aElementId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -4342,7 +4342,7 @@ nsAString
 aElementId
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 Element
@@ -4354,7 +4354,7 @@ nsAString
 &
 aElementId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4368,7 +4368,7 @@ Element
 *
 aElement
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -4378,7 +4378,7 @@ imgIRequest
 *
 aImage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -4390,7 +4390,7 @@ aImage
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -4399,7 +4399,7 @@ SetImageLockingState
 bool
 aLocked
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -4409,7 +4409,7 @@ nsIObjectLoadingContent
 *
 aPlugin
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4419,7 +4419,7 @@ nsIObjectLoadingContent
 *
 aPlugin
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4433,7 +4433,7 @@ nsIObjectLoadingContent
 &
 aPlugins
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -4444,7 +4444,7 @@ nsIVariant
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsDOMNavigationTiming
@@ -4453,7 +4453,7 @@ GetNavigationTiming
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -4463,7 +4463,7 @@ nsDOMNavigationTiming
 *
 aTiming
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Element
@@ -4475,7 +4475,7 @@ nsAString
 &
 aNormalizedMapName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Element
@@ -4483,7 +4483,7 @@ Element
 GetFullScreenElement
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4502,28 +4502,28 @@ FullScreenOptions
 &
 aOptions
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 RestorePreviousFullScreenState
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsFullscreenLeaf
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsFullScreenDoc
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4532,7 +4532,7 @@ SetApprovedForFullscreen
 bool
 aIsApproved
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -4546,14 +4546,14 @@ nsAString
 &
 aNewOrigin
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 RemoteFrameFullscreenReverted
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDocument
@@ -4561,7 +4561,7 @@ nsIDocument
 GetFullscreenRoot
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4571,7 +4571,7 @@ nsIDocument
 *
 aRoot
 )
-MOZ_OVERRIDE
+override
 ;
 long
 BlockedTrackingNodeCount
@@ -4657,7 +4657,7 @@ bool
 MozFullScreenEnabled
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Element
@@ -4671,7 +4671,7 @@ ErrorResult
 &
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RequestPointerLock
@@ -4680,7 +4680,7 @@ Element
 *
 aElement
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 ShouldLockPointer
@@ -4728,7 +4728,7 @@ void
 PostVisibilityUpdateEvent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4739,7 +4739,7 @@ nsWindowSizes
 aWindowSizes
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMNode
@@ -4747,7 +4747,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -4788,7 +4788,7 @@ aDefinition
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -4921,7 +4921,7 @@ aTypeName
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -4941,7 +4941,7 @@ ErrorResult
 &
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -4980,7 +4980,7 @@ ErrorResult
 &
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -4994,7 +4994,7 @@ StyleSheetList
 StyleSheets
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -5005,7 +5005,7 @@ nsAString
 &
 aSheetSet
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -5015,7 +5015,7 @@ nsString
 &
 aSheetSet
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -5029,7 +5029,7 @@ DOMStringList
 StyleSheetSets
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -5040,7 +5040,7 @@ nsAString
 &
 aSheetSet
 )
-MOZ_OVERRIDE
+override
 ;
 using
 nsIDocument
@@ -5076,7 +5076,7 @@ ErrorResult
 &
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -5104,7 +5104,7 @@ ErrorResult
 &
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -5114,7 +5114,7 @@ nsIDocument
 *
 aDocument
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDocument
@@ -5122,7 +5122,7 @@ nsIDocument
 MasterDocument
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mMasterDocument
@@ -5144,7 +5144,7 @@ nsIDocument
 *
 master
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -5166,7 +5166,7 @@ bool
 IsMasterDocument
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -5185,7 +5185,7 @@ ImportManager
 ImportManager
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -5258,7 +5258,7 @@ nsINode
 *
 aLink
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSubImportLinks
@@ -5277,7 +5277,7 @@ nsINode
 *
 aLink
 )
-MOZ_OVERRIDE
+override
 {
 return
 mSubImportLinks
@@ -5296,7 +5296,7 @@ nsINode
 *
 aLink
 )
-MOZ_OVERRIDE
+override
 {
 mSubImportLinks
 .
@@ -5314,7 +5314,7 @@ GetSubImportLink
 uint32_t
 aIdx
 )
-MOZ_OVERRIDE
+override
 {
 return
 aIdx
@@ -5342,7 +5342,7 @@ void
 UnblockDOMContentLoaded
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -5519,7 +5519,7 @@ nsString
 &
 aTitle
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -5536,7 +5536,7 @@ ErrorResult
 &
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -5673,7 +5673,7 @@ GetWindowInternal
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIScriptGlobalObject
@@ -5682,14 +5682,14 @@ GetScriptHandlingObjectInternal
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 InternalAllowXULXBL
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -5882,7 +5882,7 @@ nsAString
 *
 aTypeExtension
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool

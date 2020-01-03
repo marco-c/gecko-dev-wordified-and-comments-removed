@@ -128,7 +128,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -137,14 +137,14 @@ OfflineNotification
 nsISupports
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
 GetAppId
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NECKO_UNKNOWN_APP_ID
@@ -167,7 +167,7 @@ ProtocolCloneContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PCookieServiceParent
@@ -175,7 +175,7 @@ PCookieServiceParent
 AllocPCookieServiceParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -185,7 +185,7 @@ PCookieServiceParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 {
 return
 PNeckoParent
@@ -199,7 +199,7 @@ aActor
 }
 class
 NestedFrameAuthPrompt
-MOZ_FINAL
+final
 :
 public
 nsIAuthPrompt2
@@ -233,7 +233,7 @@ nsIAuthInformation
 bool
 *
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -258,7 +258,7 @@ nsICancelable
 *
 *
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -289,7 +289,7 @@ HttpChannelCreationArgs
 &
 aOpenArgs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -311,7 +311,7 @@ HttpChannelCreationArgs
 &
 aOpenArgs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -320,7 +320,7 @@ DeallocPHttpChannelParent
 PHttpChannelParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -329,7 +329,7 @@ DeallocPCookieServiceParent
 PCookieServiceParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PWyciwygChannelParent
@@ -337,7 +337,7 @@ PWyciwygChannelParent
 AllocPWyciwygChannelParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -346,7 +346,7 @@ DeallocPWyciwygChannelParent
 PWyciwygChannelParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PFTPChannelParent
@@ -366,7 +366,7 @@ FTPChannelCreationArgs
 &
 aOpenArgs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -388,7 +388,7 @@ FTPChannelCreationArgs
 &
 aOpenArgs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -397,7 +397,7 @@ DeallocPFTPChannelParent
 PFTPChannelParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PWebSocketParent
@@ -413,7 +413,7 @@ SerializedLoadContext
 &
 aSerialized
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -422,7 +422,7 @@ DeallocPWebSocketParent
 PWebSocketParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTCPSocketParent
@@ -438,7 +438,7 @@ uint16_t
 &
 port
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PRemoteOpenFileParent
@@ -458,7 +458,7 @@ OptionalURIParams
 &
 aAppURI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -480,7 +480,7 @@ OptionalURIParams
 &
 aAppURI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -490,7 +490,7 @@ PRemoteOpenFileParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -499,7 +499,7 @@ DeallocPTCPSocketParent
 PTCPSocketParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTCPServerSocketParent
@@ -519,7 +519,7 @@ nsString
 &
 aBinaryType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -540,7 +540,7 @@ nsString
 &
 aBinaryType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -549,7 +549,7 @@ DeallocPTCPServerSocketParent
 PTCPServerSocketParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PUDPSocketParent
@@ -561,7 +561,7 @@ nsCString
 &
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -574,7 +574,7 @@ nsCString
 &
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -583,7 +583,7 @@ DeallocPUDPSocketParent
 PUDPSocketParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PDNSRequestParent
@@ -603,7 +603,7 @@ nsCString
 &
 aNetworkInterface
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -625,7 +625,7 @@ nsCString
 &
 aNetworkInterface
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -634,7 +634,7 @@ DeallocPDNSRequestParent
 PDNSRequestParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -645,7 +645,7 @@ URIParams
 &
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -660,7 +660,7 @@ uint16_t
 &
 flags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -679,7 +679,7 @@ nsresult
 &
 reason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -705,7 +705,7 @@ ProtocolCloneContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PRtspControllerParent
@@ -713,7 +713,7 @@ PRtspControllerParent
 AllocPRtspControllerParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -722,7 +722,7 @@ DeallocPRtspControllerParent
 PRtspControllerParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PRtspChannelParent
@@ -734,7 +734,7 @@ RtspChannelConnectArgs
 &
 aArgs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -748,7 +748,7 @@ RtspChannelConnectArgs
 &
 aArgs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -757,7 +757,7 @@ DeallocPRtspChannelParent
 PRtspChannelParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PChannelDiverterParent
@@ -769,7 +769,7 @@ ChannelDiverterArgs
 &
 channel
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -783,7 +783,7 @@ ChannelDiverterArgs
 &
 channel
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -793,7 +793,7 @@ PChannelDiverterParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -816,7 +816,7 @@ nsString
 &
 aDomain
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -831,7 +831,7 @@ bool
 &
 aUserCancel
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

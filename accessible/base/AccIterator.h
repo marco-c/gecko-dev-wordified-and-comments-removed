@@ -94,7 +94,7 @@ Accessible
 Next
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -194,7 +194,7 @@ Accessible
 Next
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -286,7 +286,7 @@ Accessible
 Next
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -355,7 +355,7 @@ Accessible
 Next
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -416,7 +416,7 @@ Accessible
 Next
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -477,7 +477,7 @@ Accessible
 Next
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -563,7 +563,7 @@ Accessible
 Next
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -608,7 +608,7 @@ mCurrIdx
 ;
 class
 ARIAOwnedByIterator
-MOZ_FINAL
+final
 :
 public
 RelatedAccIterator
@@ -637,7 +637,7 @@ Accessible
 Next
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -677,7 +677,7 @@ mDependent
 ;
 class
 ARIAOwnsIterator
-MOZ_FINAL
+final
 :
 public
 AccIterable
@@ -706,7 +706,7 @@ Accessible
 Next
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -782,7 +782,7 @@ Accessible
 Next
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -854,7 +854,7 @@ Accessible
 Next
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -928,7 +928,7 @@ Accessible
 Next
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

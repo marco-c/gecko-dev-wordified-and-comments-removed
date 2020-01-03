@@ -766,7 +766,7 @@ mCallbackFlags
 ;
 class
 nsPipe
-MOZ_FINAL
+final
 :
 public
 nsIPipe
@@ -1015,7 +1015,7 @@ mInited
 class
 MOZ_STACK_CLASS
 AutoReadSegment
-MOZ_FINAL
+final
 {
 public
 :

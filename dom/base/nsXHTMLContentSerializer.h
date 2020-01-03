@@ -81,7 +81,7 @@ aIsCopying
 bool
 aRewriteEncodingDeclaration
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendText
@@ -97,7 +97,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AppendDocumentStart
@@ -109,7 +109,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -130,7 +130,7 @@ nsresult
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_WARN_UNUSED_RESULT
 virtual
@@ -149,7 +149,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_WARN_UNUSED_RESULT
 virtual
@@ -166,7 +166,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -182,7 +182,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -195,7 +195,7 @@ nsAString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -207,7 +207,7 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -219,7 +219,7 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -231,7 +231,7 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -243,7 +243,7 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 HasLongLines
@@ -265,7 +265,7 @@ nsIContent
 *
 aNode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -275,7 +275,7 @@ nsIContent
 *
 aNode
 )
-MOZ_OVERRIDE
+override
 ;
 NS_WARN_UNUSED_RESULT
 virtual
@@ -306,7 +306,7 @@ aSkipAttr
 bool
 aAddNSAttr
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsFirstChildOfOL
@@ -354,7 +354,7 @@ nsAString
 &
 aOutputStr
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 EscapeURI

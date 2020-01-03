@@ -120,7 +120,7 @@ value
 ;
 class
 nsSAXAttributes
-MOZ_FINAL
+final
 :
 public
 nsISAXMutableAttributes

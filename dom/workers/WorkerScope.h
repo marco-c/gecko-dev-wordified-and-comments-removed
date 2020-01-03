@@ -201,7 +201,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -230,7 +230,7 @@ GetGlobalJSObject
 (
 void
 )
-MOZ_OVERRIDE
+override
 {
 return
 GetWrapper
@@ -585,7 +585,7 @@ aRv
 ;
 class
 DedicatedWorkerGlobalScope
-MOZ_FINAL
+final
 :
 public
 WorkerGlobalScope
@@ -623,7 +623,7 @@ JSObject
 >
 aReflector
 )
-MOZ_OVERRIDE
+override
 ;
 void
 PostMessage
@@ -668,7 +668,7 @@ message
 ;
 class
 SharedWorkerGlobalScope
-MOZ_FINAL
+final
 :
 public
 WorkerGlobalScope
@@ -713,7 +713,7 @@ JSObject
 >
 aReflector
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetName
@@ -744,7 +744,7 @@ connect
 ;
 class
 ServiceWorkerGlobalScope
-MOZ_FINAL
+final
 :
 public
 WorkerGlobalScope
@@ -800,7 +800,7 @@ JSObject
 >
 aReflector
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetScope
@@ -866,7 +866,7 @@ message
 ;
 class
 WorkerDebuggerGlobalScope
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -906,7 +906,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -946,7 +946,7 @@ GetGlobalJSObject
 (
 void
 )
-MOZ_OVERRIDE
+override
 {
 return
 GetWrapper

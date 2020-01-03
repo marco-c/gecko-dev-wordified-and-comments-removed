@@ -183,7 +183,7 @@ mSize
 ;
 class
 OriginInfo
-MOZ_FINAL
+final
 {
 friend
 class
@@ -452,7 +452,7 @@ false
 ;
 class
 GroupInfo
-MOZ_FINAL
+final
 {
 friend
 class

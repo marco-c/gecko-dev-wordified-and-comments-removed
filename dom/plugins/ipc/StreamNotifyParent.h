@@ -88,7 +88,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -100,7 +100,7 @@ bool
 &
 allow
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 *

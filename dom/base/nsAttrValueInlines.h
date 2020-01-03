@@ -32,7 +32,7 @@ MiscContainer
 ;
 struct
 MiscContainer
-MOZ_FINAL
+final
 {
 typedef
 nsAttrValue

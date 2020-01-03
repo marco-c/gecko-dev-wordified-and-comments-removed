@@ -353,7 +353,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AudioStateNotification
@@ -365,7 +365,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AnswerCallNotification
@@ -375,7 +375,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 void
 HangupCallNotification
@@ -385,7 +385,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 void
 VolumeNotification
@@ -399,7 +399,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DtmfNotification
@@ -411,7 +411,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 void
 CallHoldNotification
@@ -423,7 +423,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DialCallNotification
@@ -437,7 +437,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 void
 CnumNotification
@@ -447,7 +447,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 void
 CindNotification
@@ -457,7 +457,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 void
 CopsNotification
@@ -467,7 +467,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ClccNotification
@@ -477,7 +477,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 void
 UnknownAtNotification
@@ -491,7 +491,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 void
 KeyPressedNotification
@@ -501,7 +501,7 @@ nsAString
 &
 aBdAddress
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

@@ -82,7 +82,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -94,7 +94,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -106,7 +106,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -118,7 +118,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -133,7 +133,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -145,7 +145,7 @@ ChildListID
 aList
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -159,7 +159,7 @@ ChildList
 aLists
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DoLayout
@@ -168,7 +168,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -178,7 +178,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -187,7 +187,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -201,7 +201,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName

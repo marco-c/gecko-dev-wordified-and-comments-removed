@@ -163,7 +163,7 @@ aInitData
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 void
 InitIMEState
@@ -191,13 +191,13 @@ aForceUseIWidgetParent
 =
 false
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Show
@@ -205,7 +205,7 @@ Show
 bool
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -213,7 +213,7 @@ IsVisible
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mVisible
@@ -230,7 +230,7 @@ int32_t
 *
 aY
 )
-MOZ_OVERRIDE
+override
 {
 *
 aX
@@ -254,7 +254,7 @@ aX
 double
 aY
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -270,7 +270,7 @@ aHeight
 bool
 aRepaint
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Resize
@@ -286,7 +286,7 @@ aHeight
 bool
 aRepaint
 )
-MOZ_OVERRIDE
+override
 {
 return
 Resize
@@ -303,7 +303,7 @@ Enable
 bool
 aState
 )
-MOZ_OVERRIDE
+override
 {
 mEnabled
 =
@@ -319,7 +319,7 @@ IsEnabled
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mEnabled
@@ -333,7 +333,7 @@ aRaise
 =
 false
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -347,7 +347,7 @@ Configuration
 &
 aConfigurations
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Invalidate
@@ -357,7 +357,7 @@ nsIntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -392,7 +392,7 @@ GetNativeData
 uint32_t
 aDataType
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ReparentNativeWidget
@@ -401,7 +401,7 @@ nsIWidget
 *
 aNewParent
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_UNEXPECTED
@@ -415,7 +415,7 @@ nsAString
 &
 aTitle
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_UNEXPECTED
@@ -429,7 +429,7 @@ LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mozilla
@@ -465,7 +465,7 @@ nsEventStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 nsEventStatus
 DispatchAPZAwareEvent
@@ -474,7 +474,7 @@ WidgetInputEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 CaptureRollupEvents
@@ -485,7 +485,7 @@ aListener
 bool
 aDoCapture
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_UNEXPECTED
@@ -512,7 +512,7 @@ void
 *
 aCallbackData
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 struct
@@ -523,7 +523,7 @@ nsTransparencyMode
 GetTransparencyMode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 eTransparencyTransparent
@@ -562,7 +562,7 @@ aAllowRetaining
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -579,7 +579,7 @@ InputContextAction
 &
 aAction
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -588,14 +588,14 @@ InputContext
 GetInputContext
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIMEUpdatePreference
 GetIMEUpdatePreference
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetCursor
@@ -603,7 +603,7 @@ SetCursor
 nsCursor
 aCursor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetCursor
@@ -616,7 +616,7 @@ aHotspotX
 uint32_t
 aHotspotY
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsBaseWidget
@@ -635,21 +635,21 @@ float
 GetDPI
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 double
 GetDefaultScaleInternal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 NeedsPaint
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TabChild
@@ -657,7 +657,7 @@ TabChild
 GetOwningTabChild
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mTabChild
@@ -713,7 +713,7 @@ nsString
 &
 aCommitted
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetPluginFocused
@@ -722,7 +722,7 @@ bool
 &
 aFocused
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -741,7 +741,7 @@ IMENotification
 &
 aIMENotification
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -1231,7 +1231,7 @@ uint32_t
 *
 aId
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRect
@@ -1249,7 +1249,7 @@ int32_t
 *
 aHeight
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetAvailRect
@@ -1267,7 +1267,7 @@ int32_t
 *
 aHeight
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPixelDepth
@@ -1276,7 +1276,7 @@ int32_t
 *
 aPixelDepth
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetColorDepth
@@ -1285,7 +1285,7 @@ int32_t
 *
 aColorDepth
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRotation
@@ -1294,7 +1294,7 @@ uint32_t
 *
 aRotation
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetRotation
@@ -1302,13 +1302,13 @@ SetRotation
 uint32_t
 aRotation
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 PuppetScreenManager
-MOZ_FINAL
+final
 :
 public
 nsIScreenManager

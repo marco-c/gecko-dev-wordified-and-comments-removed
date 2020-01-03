@@ -83,7 +83,7 @@ dom
 {
 class
 Attr
-MOZ_FINAL
+final
 :
 public
 nsIAttribute
@@ -138,7 +138,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -152,7 +152,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -162,7 +162,7 @@ nsAString
 &
 aNodeValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -176,7 +176,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIDOMATTR
 virtual
@@ -187,7 +187,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetMap
@@ -196,7 +196,7 @@ nsDOMAttributeMap
 *
 aMap
 )
-MOZ_OVERRIDE
+override
 ;
 Element
 *
@@ -212,7 +212,7 @@ nsIDocument
 *
 aDocument
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -222,7 +222,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint32_t
@@ -230,7 +230,7 @@ GetChildCount
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIContent
@@ -241,7 +241,7 @@ uint32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIContent
@@ -255,7 +255,7 @@ uint32_t
 aChildCount
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -267,7 +267,7 @@ nsINode
 aPossibleChild
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -281,7 +281,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -292,7 +292,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -313,7 +313,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -328,7 +328,7 @@ aTryUseXHRDocBaseURI
 false
 )
 const
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -353,7 +353,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -377,7 +377,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 SetValue
@@ -414,7 +414,7 @@ Element
 GetNameSpaceElement
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 GetElement

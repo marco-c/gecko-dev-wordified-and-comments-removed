@@ -86,7 +86,7 @@ aWasAlternate
 nsresult
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 void
 LoadResources

@@ -168,7 +168,7 @@ aStencilRB
 ;
 class
 GLBlitHelper
-MOZ_FINAL
+final
 {
 enum
 Channel

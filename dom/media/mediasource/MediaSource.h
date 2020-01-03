@@ -178,7 +178,7 @@ MOZILLA_DOM_MEDIASOURCE_IMPLEMENTATION_IID
 }
 class
 MediaSource
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -333,7 +333,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Attach

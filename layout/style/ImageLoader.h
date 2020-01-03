@@ -84,7 +84,7 @@ ImageValue
 ;
 class
 ImageLoader
-MOZ_FINAL
+final
 :
 public
 imgINotificationObserver

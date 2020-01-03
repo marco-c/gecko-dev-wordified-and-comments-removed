@@ -57,7 +57,7 @@ nsAString
 &
 stringOut
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 FormatTMTime
@@ -80,7 +80,7 @@ nsAString
 &
 stringOut
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 FormatPRTime
@@ -101,7 +101,7 @@ nsAString
 &
 stringOut
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 FormatPRExplodedTime
@@ -123,7 +123,7 @@ nsAString
 &
 stringOut
 )
-MOZ_OVERRIDE
+override
 ;
 nsDateTimeFormatUnix
 (

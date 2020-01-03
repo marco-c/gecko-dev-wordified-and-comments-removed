@@ -282,7 +282,7 @@ AssertIsOnWorkerThread
 ;
 class
 DataStoreCursorNextRunnable
-MOZ_FINAL
+final
 :
 public
 DataStoreCursorRunnable
@@ -387,7 +387,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -423,7 +423,7 @@ true
 ;
 class
 DataStoreCursorCloseRunnable
-MOZ_FINAL
+final
 :
 public
 DataStoreCursorRunnable
@@ -481,7 +481,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (

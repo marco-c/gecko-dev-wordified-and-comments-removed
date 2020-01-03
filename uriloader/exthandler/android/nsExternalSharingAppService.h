@@ -33,7 +33,7 @@ NS_EXTERNALSHARINGAPPSERVICE_CID
 }
 class
 nsExternalSharingAppService
-MOZ_FINAL
+final
 :
 public
 nsIExternalSharingAppService

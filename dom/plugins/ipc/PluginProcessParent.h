@@ -207,7 +207,7 @@ bool
 CanShutdown
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -267,7 +267,7 @@ aTimeoutMs
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -276,14 +276,14 @@ OnChannelConnected
 int32_t
 peer_pid
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 OnChannelError
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsConnected

@@ -58,7 +58,7 @@ VoiceData
 ;
 class
 nsSynthVoiceRegistry
-MOZ_FINAL
+final
 :
 public
 nsISynthVoiceRegistry

@@ -66,7 +66,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 VideoStreamTrack
@@ -74,7 +74,7 @@ VideoStreamTrack
 AsVideoStreamTrack
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -88,7 +88,7 @@ nsAString
 &
 aKind
 )
-MOZ_OVERRIDE
+override
 {
 aKind
 .

@@ -151,7 +151,7 @@ mFilename
 ;
 class
 MainThreadIOLoggerImpl
-MOZ_FINAL
+final
 :
 public
 mozilla

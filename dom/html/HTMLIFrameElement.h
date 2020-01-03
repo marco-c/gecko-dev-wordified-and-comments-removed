@@ -42,7 +42,7 @@ dom
 {
 class
 HTMLIFrameElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLFrameElement
@@ -86,7 +86,7 @@ bool
 aIgnoreTabindex
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -110,7 +110,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -124,7 +124,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -132,7 +132,7 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -153,7 +153,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetAttr
@@ -201,7 +201,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -219,7 +219,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -233,7 +233,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 GetSandboxFlags
@@ -791,7 +791,7 @@ DOMString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -802,7 +802,7 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -822,7 +822,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

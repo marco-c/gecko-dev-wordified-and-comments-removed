@@ -462,7 +462,7 @@ BluetoothA2dpManager
 :
 :
 InitAvrcpResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothAvrcpResultHandler
@@ -488,7 +488,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -546,7 +546,7 @@ void
 Init
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -577,7 +577,7 @@ BluetoothA2dpManager
 :
 :
 InitA2dpResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothA2dpResultHandler
@@ -603,7 +603,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -642,7 +642,7 @@ void
 Init
 (
 )
-MOZ_OVERRIDE
+override
 {
 BluetoothInterface
 *
@@ -744,7 +744,7 @@ BluetoothA2dpManager
 :
 :
 OnErrorProfileResultHandlerRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -779,7 +779,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mRes
 -
@@ -1266,7 +1266,7 @@ BluetoothA2dpManager
 :
 :
 CleanupAvrcpResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothAvrcpResultHandler
@@ -1292,7 +1292,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -1354,7 +1354,7 @@ void
 Cleanup
 (
 )
-MOZ_OVERRIDE
+override
 {
 sBtAvrcpInterface
 =
@@ -1389,7 +1389,7 @@ BluetoothA2dpManager
 :
 :
 CleanupA2dpResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothA2dpResultHandler
@@ -1415,7 +1415,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_WARNING
 (
@@ -1458,7 +1458,7 @@ void
 Cleanup
 (
 )
-MOZ_OVERRIDE
+override
 {
 sBtA2dpInterface
 =
@@ -1512,7 +1512,7 @@ BluetoothA2dpManager
 :
 :
 CleanupA2dpResultHandlerRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1536,7 +1536,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 sBtA2dpInterface
 =
@@ -1742,7 +1742,7 @@ BluetoothA2dpManager
 :
 :
 ConnectResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothA2dpResultHandler
@@ -1755,7 +1755,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_LOGR
 (
@@ -1962,7 +1962,7 @@ BluetoothA2dpManager
 :
 :
 DisconnectResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothA2dpResultHandler
@@ -1975,7 +1975,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 BT_LOGR
 (

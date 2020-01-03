@@ -2429,7 +2429,7 @@ A11Y_TRYBLOCK_END
 }
 class
 AccessibleEnumerator
-MOZ_FINAL
+final
 :
 public
 IEnumVARIANT

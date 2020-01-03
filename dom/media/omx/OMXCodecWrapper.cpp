@@ -3158,7 +3158,7 @@ NS_ERROR_FAILURE
 }
 class
 InputBufferHelper
-MOZ_FINAL
+final
 {
 public
 :

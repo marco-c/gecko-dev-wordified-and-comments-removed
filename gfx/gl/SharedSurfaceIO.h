@@ -68,7 +68,7 @@ void
 LockProdImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -76,7 +76,7 @@ void
 UnlockProdImpl
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -84,14 +84,14 @@ void
 Fence
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 WaitSync
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -102,7 +102,7 @@ bool
 PollSync
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -128,14 +128,14 @@ GLvoid
 *
 pixels
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GLuint
 ProdTexture
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mProdTex
@@ -147,7 +147,7 @@ ProdTextureTarget
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 LOCAL_GL_TEXTURE_RECTANGLE_ARB
@@ -205,7 +205,7 @@ NeedsIndirectReads
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -328,7 +328,7 @@ IntSize
 &
 size
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

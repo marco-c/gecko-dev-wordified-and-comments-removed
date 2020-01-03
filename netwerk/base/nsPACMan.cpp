@@ -186,7 +186,7 @@ result
 }
 class
 ExecuteCallback
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -284,7 +284,7 @@ mPACURL
 ;
 class
 ShutdownThread
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -344,7 +344,7 @@ mThread
 ;
 class
 WaitForThreadShutdown
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -423,7 +423,7 @@ mPACMan
 ;
 class
 PACLoadComplete
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -490,7 +490,7 @@ mPACMan
 ;
 class
 ExecutePACThreadAction
-MOZ_FINAL
+final
 :
 public
 nsRunnable

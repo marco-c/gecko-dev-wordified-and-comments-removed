@@ -552,7 +552,7 @@ kMaxStdDeviation
 ;
 class
 AttributeMap
-MOZ_FINAL
+final
 {
 public
 :
@@ -1063,7 +1063,7 @@ Max
 ;
 class
 FilterPrimitiveDescription
-MOZ_FINAL
+final
 {
 public
 :
@@ -1444,7 +1444,7 @@ mIsTainted
 ;
 struct
 FilterDescription
-MOZ_FINAL
+final
 {
 FilterDescription
 (

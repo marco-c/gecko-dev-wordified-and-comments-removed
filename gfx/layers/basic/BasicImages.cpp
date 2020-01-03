@@ -229,7 +229,7 @@ Data
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -238,7 +238,7 @@ SetDelayedConversion
 bool
 aDelayed
 )
-MOZ_OVERRIDE
+override
 {
 mDelayedConversion
 =
@@ -255,7 +255,7 @@ SourceSurface
 GetAsSourceSurface
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -265,7 +265,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf
@@ -287,7 +287,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 size_t
 size

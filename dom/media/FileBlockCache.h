@@ -115,7 +115,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Read
@@ -143,7 +143,7 @@ aDestBlockIndex
 ;
 struct
 BlockChange
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (

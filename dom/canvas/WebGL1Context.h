@@ -49,7 +49,7 @@ IsWebGL2
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -73,7 +73,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -93,7 +93,7 @@ char
 *
 info
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -106,7 +106,7 @@ char
 *
 info
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -119,7 +119,7 @@ char
 *
 info
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -135,7 +135,7 @@ char
 *
 info
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

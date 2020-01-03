@@ -373,7 +373,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -5138,7 +5138,7 @@ bool
 ReflowFinished
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -5149,7 +5149,7 @@ void
 ReflowCallbackCanceled
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 }

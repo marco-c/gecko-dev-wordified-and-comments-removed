@@ -142,7 +142,7 @@ mConstraintName
 ;
 class
 MediaMgrError
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -200,7 +200,7 @@ dom
 {
 class
 MediaStreamError
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -294,7 +294,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsPIDOMWindow
 *

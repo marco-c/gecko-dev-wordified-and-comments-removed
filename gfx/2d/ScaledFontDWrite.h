@@ -29,7 +29,7 @@ gfx
 {
 class
 ScaledFontDWrite
-MOZ_FINAL
+final
 :
 public
 ScaledFontBase

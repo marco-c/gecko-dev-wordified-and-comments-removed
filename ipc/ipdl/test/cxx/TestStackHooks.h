@@ -94,7 +94,7 @@ bool
 RecvAsync
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -124,7 +124,7 @@ bool
 RecvSync
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -154,7 +154,7 @@ bool
 AnswerRpc
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -184,7 +184,7 @@ bool
 AnswerStackFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -193,7 +193,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -228,7 +228,7 @@ void
 EnteredCxxStack
 (
 )
-MOZ_OVERRIDE
+override
 {
 mOnStack
 =
@@ -240,7 +240,7 @@ void
 ExitedCxxStack
 (
 )
-MOZ_OVERRIDE
+override
 {
 mOnStack
 =
@@ -252,7 +252,7 @@ void
 EnteredCall
 (
 )
-MOZ_OVERRIDE
+override
 {
 +
 +
@@ -264,7 +264,7 @@ void
 ExitedCall
 (
 )
-MOZ_OVERRIDE
+override
 {
 -
 -
@@ -311,14 +311,14 @@ bool
 RecvStart
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 AnswerStackFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -327,7 +327,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -393,7 +393,7 @@ void
 EnteredCxxStack
 (
 )
-MOZ_OVERRIDE
+override
 {
 +
 +
@@ -409,7 +409,7 @@ void
 ExitedCxxStack
 (
 )
-MOZ_OVERRIDE
+override
 {
 +
 +
@@ -425,7 +425,7 @@ void
 EnteredCall
 (
 )
-MOZ_OVERRIDE
+override
 {
 +
 +
@@ -437,7 +437,7 @@ void
 ExitedCall
 (
 )
-MOZ_OVERRIDE
+override
 {
 -
 -

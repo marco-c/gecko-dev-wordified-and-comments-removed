@@ -29,7 +29,7 @@ h
 "
 class
 nsGNOMEShellService
-MOZ_FINAL
+final
 :
 public
 nsIShellService

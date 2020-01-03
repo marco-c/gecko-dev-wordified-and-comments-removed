@@ -5612,7 +5612,7 @@ rv
 }
 class
 nsSingletonFactory
-MOZ_FINAL
+final
 :
 public
 nsIFactory

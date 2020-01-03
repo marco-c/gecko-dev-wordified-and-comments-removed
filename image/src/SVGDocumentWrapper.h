@@ -98,7 +98,7 @@ image
 {
 class
 SVGDocumentWrapper
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

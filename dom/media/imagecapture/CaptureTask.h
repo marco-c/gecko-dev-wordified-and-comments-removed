@@ -62,7 +62,7 @@ MediaSegment
 &
 aQueuedMedia
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -74,7 +74,7 @@ aGraph
 MediaStreamGraphEvent
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -84,7 +84,7 @@ DOMMediaStream
 *
 aMediaStream
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 TaskComplete

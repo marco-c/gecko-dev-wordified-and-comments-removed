@@ -574,7 +574,7 @@ ifdef
 MOZ_VISUAL_EVENT_TRACER
 class
 VisualEventTracer
-MOZ_FINAL
+final
 :
 public
 nsIVisualEventTracer

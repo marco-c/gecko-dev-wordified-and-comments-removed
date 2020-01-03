@@ -57,7 +57,7 @@ cache
 {
 class
 FileUtils
-MOZ_FINAL
+final
 {
 public
 :

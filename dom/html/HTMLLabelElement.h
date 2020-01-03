@@ -38,7 +38,7 @@ dom
 {
 class
 HTMLLabelElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLFormElement
@@ -88,7 +88,7 @@ bool
 aIgnoreTabindex
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -172,7 +172,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -182,7 +182,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 NS_FORM_LABEL
@@ -192,7 +192,7 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -201,7 +201,7 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -209,7 +209,7 @@ IsDisabled
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -223,7 +223,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -234,7 +234,7 @@ aKeyCausesActivation
 bool
 aIsTrustedEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -255,7 +255,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsGenericHTMLElement
 *
@@ -290,7 +290,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsGenericHTMLElement
 *

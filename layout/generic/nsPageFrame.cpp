@@ -2473,7 +2473,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 {
 mFrame
 -
@@ -2507,7 +2507,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 bool
 snap
@@ -2526,7 +2526,7 @@ void
 DisableComponentAlpha
 (
 )
-MOZ_OVERRIDE
+override
 {
 mDisableSubpixelAA
 =

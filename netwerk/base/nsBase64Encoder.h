@@ -29,7 +29,7 @@ h
 "
 class
 nsBase64Encoder
-MOZ_FINAL
+final
 :
 public
 nsIOutputStream

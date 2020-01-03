@@ -68,7 +68,7 @@ IMENotification
 ;
 class
 TextEventDispatcher
-MOZ_FINAL
+final
 {
 ~
 TextEventDispatcher

@@ -27,7 +27,7 @@ h
 "
 class
 nsMIMEInfoAndroid
-MOZ_FINAL
+final
 :
 public
 nsIMIMEInfo
@@ -150,7 +150,7 @@ public
 :
 class
 SystemChooser
-MOZ_FINAL
+final
 :
 public
 nsIHandlerApp

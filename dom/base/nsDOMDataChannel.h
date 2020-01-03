@@ -161,7 +161,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsPIDOMWindow
 *
@@ -398,7 +398,7 @@ nsACString
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -412,7 +412,7 @@ nsACString
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -435,7 +435,7 @@ nsISupports
 *
 aContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -445,7 +445,7 @@ nsISupports
 *
 aContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void

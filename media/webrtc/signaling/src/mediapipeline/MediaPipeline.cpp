@@ -6461,7 +6461,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 StreamTime
 current_end

@@ -49,7 +49,7 @@ PTelephonyChild
 ;
 class
 TelephonyIPCService
-MOZ_FINAL
+final
 :
 public
 nsITelephonyService

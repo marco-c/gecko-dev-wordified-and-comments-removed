@@ -89,7 +89,7 @@ nsIChannel
 *
 channel
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

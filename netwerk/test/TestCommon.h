@@ -53,7 +53,7 @@ false
 ;
 class
 nsQuitPumpingEvent
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -71,7 +71,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 gKeepPumpingEvents
 =

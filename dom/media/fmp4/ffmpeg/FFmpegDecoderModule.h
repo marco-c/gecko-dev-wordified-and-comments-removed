@@ -86,7 +86,7 @@ nsresult
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -124,7 +124,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 {
 nsRefPtr
 <
@@ -173,7 +173,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 {
 nsRefPtr
 <
@@ -209,7 +209,7 @@ char
 *
 aMimeType
 )
-MOZ_OVERRIDE
+override
 {
 return
 FFmpegAudioDecoder
@@ -236,7 +236,7 @@ char
 *
 aMimeType
 )
-MOZ_OVERRIDE
+override
 {
 return
 FFmpegH264Decoder
@@ -266,7 +266,7 @@ VideoDecoderConfig
 &
 aConfig
 )
-MOZ_OVERRIDE
+override
 {
 return
 true

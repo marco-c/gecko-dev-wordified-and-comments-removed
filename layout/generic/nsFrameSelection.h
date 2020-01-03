@@ -348,7 +348,7 @@ nsIScrollableFrame
 ;
 class
 nsFrameSelection
-MOZ_FINAL
+final
 {
 public
 :

@@ -112,7 +112,7 @@ namespace
 {
 class
 ProgressRunnable
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -170,7 +170,7 @@ mProgressMax
 ;
 class
 CloseRunnable
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -211,7 +211,7 @@ mFileHelper
 ;
 class
 DestroyRunnable
-MOZ_FINAL
+final
 :
 public
 nsIRunnable

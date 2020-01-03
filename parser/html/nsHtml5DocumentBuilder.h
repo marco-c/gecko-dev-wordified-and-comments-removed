@@ -291,14 +291,14 @@ void
 UpdateChildCounts
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 FlushTags
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

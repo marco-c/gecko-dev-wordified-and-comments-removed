@@ -26,7 +26,7 @@ a11y
 {
 class
 ChildrenEnumVariant
-MOZ_FINAL
+final
 :
 public
 IEnumVARIANT

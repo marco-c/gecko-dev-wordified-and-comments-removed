@@ -573,7 +573,7 @@ const
 ;
 struct
 DBState
-MOZ_FINAL
+final
 {
 DBState
 (
@@ -750,7 +750,7 @@ RESULT_FAILURE
 ;
 class
 nsCookieService
-MOZ_FINAL
+final
 :
 public
 nsICookieService

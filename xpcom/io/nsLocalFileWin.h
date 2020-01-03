@@ -108,7 +108,7 @@ h
 >
 class
 nsLocalFile
-MOZ_FINAL
+final
 :
 public
 nsILocalFileWin

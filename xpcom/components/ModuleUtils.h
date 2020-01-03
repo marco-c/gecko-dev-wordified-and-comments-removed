@@ -455,7 +455,7 @@ mozilla
 {
 class
 GenericModule
-MOZ_FINAL
+final
 :
 public
 nsIModule

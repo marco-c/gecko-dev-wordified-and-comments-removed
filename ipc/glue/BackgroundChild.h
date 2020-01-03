@@ -63,7 +63,7 @@ PBackgroundChild
 ;
 class
 BackgroundChild
-MOZ_FINAL
+final
 {
 friend
 class

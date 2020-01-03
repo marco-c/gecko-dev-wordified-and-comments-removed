@@ -761,7 +761,7 @@ mOrdinal
 ;
 class
 nsDisplayBullet
-MOZ_FINAL
+final
 :
 public
 nsDisplayItem
@@ -818,7 +818,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 {
 *
 aSnap
@@ -860,7 +860,7 @@ nsIFrame
 *
 aOutFrames
 )
-MOZ_OVERRIDE
+override
 {
 aOutFrames
 -
@@ -882,7 +882,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -899,7 +899,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 bool
 snap
@@ -922,7 +922,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -948,7 +948,7 @@ nsRegion
 *
 aInvalidRegion
 )
-MOZ_OVERRIDE
+override
 {
 const
 nsDisplayBulletGeometry

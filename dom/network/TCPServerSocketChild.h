@@ -128,7 +128,7 @@ MozExternalRefCountType
 Release
 (
 )
-MOZ_OVERRIDE
+override
 ;
 TCPServerSocketChild
 (
@@ -147,7 +147,7 @@ PTCPSocketChild
 *
 socket
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -170,7 +170,7 @@ uint32_t
 &
 aColumnNumber
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

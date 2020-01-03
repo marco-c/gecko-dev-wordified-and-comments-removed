@@ -64,7 +64,7 @@ PBackgroundParent
 ;
 class
 BackgroundParent
-MOZ_FINAL
+final
 {
 friend
 class

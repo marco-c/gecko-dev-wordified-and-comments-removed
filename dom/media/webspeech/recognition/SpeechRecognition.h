@@ -274,7 +274,7 @@ GetSpeechRecognitionService
 ;
 class
 SpeechRecognition
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -327,7 +327,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 already_AddRefed
@@ -1115,7 +1115,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 AudioSegment
 *

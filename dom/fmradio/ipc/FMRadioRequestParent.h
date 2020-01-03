@@ -32,7 +32,7 @@ h
 BEGIN_FMRADIO_NAMESPACE
 class
 FMRadioRequestParent
-MOZ_FINAL
+final
 :
 public
 PFMRadioRequestParent
@@ -57,7 +57,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Run

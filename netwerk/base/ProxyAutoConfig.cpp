@@ -2622,7 +2622,7 @@ arg
 }
 class
 PACResolver
-MOZ_FINAL
+final
 :
 public
 nsIDNSListener
@@ -2654,7 +2654,7 @@ record
 nsresult
 status
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -2696,7 +2696,7 @@ nsITimer
 *
 timer
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

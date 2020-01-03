@@ -351,7 +351,7 @@ nsACString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IsPending
@@ -360,7 +360,7 @@ bool
 *
 aIsPending
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetStatus
@@ -369,7 +369,7 @@ nsresult
 *
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetLoadGroup
@@ -379,7 +379,7 @@ nsILoadGroup
 *
 aLoadGroup
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetLoadGroup
@@ -388,7 +388,7 @@ nsILoadGroup
 *
 aLoadGroup
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetLoadFlags
@@ -397,7 +397,7 @@ nsLoadFlags
 *
 aLoadFlags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetLoadFlags
@@ -405,7 +405,7 @@ SetLoadFlags
 nsLoadFlags
 aLoadFlags
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetOriginalURI
@@ -415,7 +415,7 @@ nsIURI
 *
 aOriginalURI
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetOriginalURI
@@ -424,7 +424,7 @@ nsIURI
 *
 aOriginalURI
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetURI
@@ -434,7 +434,7 @@ nsIURI
 *
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetOwner
@@ -444,7 +444,7 @@ nsISupports
 *
 aOwner
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetOwner
@@ -453,7 +453,7 @@ nsISupports
 *
 aOwner
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetLoadInfo
@@ -463,7 +463,7 @@ nsILoadInfo
 *
 aLoadInfo
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetLoadInfo
@@ -472,7 +472,7 @@ nsILoadInfo
 *
 aLoadInfo
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetNotificationCallbacks
@@ -482,7 +482,7 @@ nsIInterfaceRequestor
 *
 aCallbacks
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetNotificationCallbacks
@@ -491,7 +491,7 @@ nsIInterfaceRequestor
 *
 aCallbacks
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetContentType
@@ -500,7 +500,7 @@ nsACString
 &
 aContentType
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetContentType
@@ -510,7 +510,7 @@ nsACString
 &
 aContentType
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetContentCharset
@@ -519,7 +519,7 @@ nsACString
 &
 aContentCharset
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetContentCharset
@@ -529,7 +529,7 @@ nsACString
 &
 aContentCharset
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetContentDisposition
@@ -538,7 +538,7 @@ uint32_t
 *
 aContentDisposition
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetContentDisposition
@@ -546,7 +546,7 @@ SetContentDisposition
 uint32_t
 aContentDisposition
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetContentDispositionFilename
@@ -555,7 +555,7 @@ nsAString
 &
 aContentDispositionFilename
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetContentDispositionFilename
@@ -565,7 +565,7 @@ nsAString
 &
 aContentDispositionFilename
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetContentDispositionHeader
@@ -574,7 +574,7 @@ nsACString
 &
 aContentDispositionHeader
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetContentLength
@@ -583,7 +583,7 @@ int64_t
 *
 aContentLength
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetContentLength
@@ -591,7 +591,7 @@ SetContentLength
 int64_t
 aContentLength
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Open
@@ -601,7 +601,7 @@ nsIInputStream
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetApplyConversion
@@ -610,7 +610,7 @@ bool
 *
 value
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetApplyConversion
@@ -618,7 +618,7 @@ SetApplyConversion
 bool
 value
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetContentEncodings
@@ -628,7 +628,7 @@ nsIUTF8StringEnumerator
 *
 aEncodings
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DoApplyContentConversions
@@ -644,7 +644,7 @@ nsISupports
 *
 aCtxt
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRequestMethod
@@ -653,7 +653,7 @@ nsACString
 &
 aMethod
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetRequestMethod
@@ -663,7 +663,7 @@ nsACString
 &
 aMethod
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetReferrer
@@ -673,7 +673,7 @@ nsIURI
 *
 referrer
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetReferrer
@@ -682,7 +682,7 @@ nsIURI
 *
 referrer
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetReferrerPolicy
@@ -691,7 +691,7 @@ uint32_t
 *
 referrerPolicy
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetReferrerWithPolicy
@@ -702,7 +702,7 @@ referrer
 uint32_t
 referrerPolicy
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRequestHeader
@@ -715,7 +715,7 @@ nsACString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetRequestHeader
@@ -731,7 +731,7 @@ aValue
 bool
 aMerge
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 VisitRequestHeaders
@@ -740,7 +740,7 @@ nsIHttpHeaderVisitor
 *
 visitor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetResponseHeader
@@ -753,7 +753,7 @@ nsACString
 &
 value
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetResponseHeader
@@ -769,7 +769,7 @@ value
 bool
 merge
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 VisitResponseHeaders
@@ -778,7 +778,7 @@ nsIHttpHeaderVisitor
 *
 visitor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetAllowPipelining
@@ -787,7 +787,7 @@ bool
 *
 value
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetAllowPipelining
@@ -795,7 +795,7 @@ SetAllowPipelining
 bool
 value
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetAllowSTS
@@ -804,7 +804,7 @@ bool
 *
 value
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetAllowSTS
@@ -812,7 +812,7 @@ SetAllowSTS
 bool
 value
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRedirectionLimit
@@ -821,7 +821,7 @@ uint32_t
 *
 value
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetRedirectionLimit
@@ -829,7 +829,7 @@ SetRedirectionLimit
 uint32_t
 value
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IsNoStoreResponse
@@ -838,7 +838,7 @@ bool
 *
 value
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IsNoCacheResponse
@@ -847,7 +847,7 @@ bool
 *
 value
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IsPrivateResponse
@@ -856,7 +856,7 @@ bool
 *
 value
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetResponseStatus
@@ -865,7 +865,7 @@ uint32_t
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetResponseStatusText
@@ -874,7 +874,7 @@ nsACString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRequestSucceeded
@@ -883,7 +883,7 @@ bool
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 RedirectTo
@@ -892,7 +892,7 @@ nsIURI
 *
 newURI
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetDocumentURI
@@ -902,7 +902,7 @@ nsIURI
 *
 aDocumentURI
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetDocumentURI
@@ -911,7 +911,7 @@ nsIURI
 *
 aDocumentURI
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRequestVersion
@@ -923,7 +923,7 @@ uint32_t
 *
 minor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetResponseVersion
@@ -935,7 +935,7 @@ uint32_t
 *
 minor
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetCookie
@@ -945,7 +945,7 @@ char
 *
 aCookieHeader
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetThirdPartyFlags
@@ -954,7 +954,7 @@ uint32_t
 *
 aForce
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetThirdPartyFlags
@@ -962,7 +962,7 @@ SetThirdPartyFlags
 uint32_t
 aForce
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetForceAllowThirdPartyCookie
@@ -971,7 +971,7 @@ bool
 *
 aForce
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetForceAllowThirdPartyCookie
@@ -979,7 +979,7 @@ SetForceAllowThirdPartyCookie
 bool
 aForce
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetCanceled
@@ -988,7 +988,7 @@ bool
 *
 aCanceled
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetChannelIsForDownload
@@ -997,7 +997,7 @@ bool
 *
 aChannelIsForDownload
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetChannelIsForDownload
@@ -1005,7 +1005,7 @@ SetChannelIsForDownload
 bool
 aChannelIsForDownload
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetCacheKeysRedirectChain
@@ -1017,7 +1017,7 @@ nsCString
 *
 cacheKeys
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetLocalAddress
@@ -1026,7 +1026,7 @@ nsACString
 &
 addr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetLocalPort
@@ -1035,7 +1035,7 @@ int32_t
 *
 port
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRemoteAddress
@@ -1044,7 +1044,7 @@ nsACString
 &
 addr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRemotePort
@@ -1053,7 +1053,7 @@ int32_t
 *
 port
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetAllowSpdy
@@ -1062,7 +1062,7 @@ bool
 *
 aAllowSpdy
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetAllowSpdy
@@ -1070,7 +1070,7 @@ SetAllowSpdy
 bool
 aAllowSpdy
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetApiRedirectToURI
@@ -1080,7 +1080,7 @@ nsIURI
 *
 aApiRedirectToURI
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 AddSecurityMessage
@@ -1105,7 +1105,7 @@ nsISecurityConsoleMessage
 &
 aMessages
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetResponseTimeoutEnabled
@@ -1114,7 +1114,7 @@ bool
 *
 aEnable
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetResponseTimeoutEnabled
@@ -1122,7 +1122,7 @@ SetResponseTimeoutEnabled
 bool
 aEnable
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AddRedirect
@@ -1131,7 +1131,7 @@ nsIPrincipal
 *
 aRedirect
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ForcePending
@@ -1139,7 +1139,7 @@ ForcePending
 bool
 aForcePending
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetLastModifiedTime
@@ -1148,13 +1148,13 @@ PRTime
 *
 lastModifiedTime
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ForceNoIntercept
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetTopWindowURI
@@ -1164,13 +1164,13 @@ nsIURI
 *
 aTopWindowURI
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ContinueBeginConnect
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetProxyURI
@@ -1180,7 +1180,7 @@ nsIURI
 *
 proxyURI
 )
-MOZ_OVERRIDE
+override
 ;
 inline
 void
@@ -1204,7 +1204,7 @@ nsIHttpUpgradeListener
 *
 aListener
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPriority
@@ -1213,7 +1213,7 @@ int32_t
 *
 value
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 AdjustPriority
@@ -1221,7 +1221,7 @@ AdjustPriority
 int32_t
 delta
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetClassFlags
@@ -1230,7 +1230,7 @@ uint32_t
 *
 outFlags
 )
-MOZ_OVERRIDE
+override
 {
 *
 outFlags
@@ -1248,7 +1248,7 @@ nsACString
 &
 aEntityID
 )
-MOZ_OVERRIDE
+override
 ;
 class
 nsContentEncodings

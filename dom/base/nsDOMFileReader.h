@@ -191,7 +191,7 @@ nsAString
 &
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -203,7 +203,7 @@ aStream
 uint64_t
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -218,7 +218,7 @@ nsAString
 &
 aTerminationEvent
 )
-MOZ_OVERRIDE
+override
 ;
 nsPIDOMWindow
 *
@@ -251,7 +251,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 already_AddRefed

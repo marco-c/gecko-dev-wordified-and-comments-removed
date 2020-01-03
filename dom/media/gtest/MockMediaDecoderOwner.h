@@ -31,7 +31,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -44,7 +44,7 @@ FireTimeUpdate
 bool
 aPeriodic
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -52,7 +52,7 @@ bool
 GetPaused
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -73,7 +73,7 @@ MetadataTags
 >
 aTags
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -81,7 +81,7 @@ void
 NetworkError
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -89,7 +89,7 @@ void
 DecodeError
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -97,7 +97,7 @@ void
 LoadAborted
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -105,7 +105,7 @@ void
 PlaybackEnded
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -113,7 +113,7 @@ void
 SeekStarted
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -121,7 +121,7 @@ void
 SeekCompleted
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -129,7 +129,7 @@ void
 DownloadSuspended
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -139,7 +139,7 @@ DownloadResumed
 bool
 aForceNetworkLoading
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -149,7 +149,7 @@ NotifySuspendedByCache
 bool
 aIsSuspended
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -157,7 +157,7 @@ void
 NotifyDecoderPrincipalChanged
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -167,7 +167,7 @@ UpdateReadyStateForData
 NextFrameStatus
 aNextFrame
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -176,7 +176,7 @@ VideoFrameContainer
 GetVideoFrameContainer
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -187,7 +187,7 @@ void
 ResetConnectionState
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 }

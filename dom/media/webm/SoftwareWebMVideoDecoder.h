@@ -54,7 +54,7 @@ unsigned
 int
 aHeight
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -66,14 +66,14 @@ aKeyframeSkip
 int64_t
 aTimeThreshold
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 explicit
 SoftwareWebMVideoDecoder

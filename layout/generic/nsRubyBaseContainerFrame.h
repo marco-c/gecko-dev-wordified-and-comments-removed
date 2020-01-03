@@ -57,7 +57,7 @@ RubyColumn
 }
 class
 nsRubyBaseContainerFrame
-MOZ_FINAL
+final
 :
 public
 nsContainerFrame
@@ -77,7 +77,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -87,7 +87,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -95,7 +95,7 @@ CanContinueTextRun
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -108,7 +108,7 @@ InlineMinISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -121,7 +121,7 @@ InlinePrefISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -171,7 +171,7 @@ aPadding
 ComputeSizeFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -191,7 +191,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -204,7 +204,7 @@ WritingMode
 aWritingMode
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -218,7 +218,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

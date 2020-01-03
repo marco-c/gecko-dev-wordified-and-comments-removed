@@ -64,13 +64,13 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Cancel
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

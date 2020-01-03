@@ -83,7 +83,7 @@ VsyncObserver
 ;
 class
 CompositorVsyncDispatcher
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
@@ -159,7 +159,7 @@ mDidShutdown
 ;
 class
 RefreshTimerVsyncDispatcher
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (

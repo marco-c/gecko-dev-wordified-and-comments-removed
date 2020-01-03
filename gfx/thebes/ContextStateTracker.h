@@ -157,7 +157,7 @@ mSectionStack
 ;
 class
 ContextStateTrackerOGL
-MOZ_FINAL
+final
 :
 public
 ContextStateTracker

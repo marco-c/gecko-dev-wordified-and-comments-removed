@@ -4603,7 +4603,7 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 {
 mContent
 -

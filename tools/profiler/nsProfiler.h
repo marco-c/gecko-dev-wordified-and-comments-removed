@@ -29,7 +29,7 @@ h
 "
 class
 nsProfiler
-MOZ_FINAL
+final
 :
 public
 nsIProfiler

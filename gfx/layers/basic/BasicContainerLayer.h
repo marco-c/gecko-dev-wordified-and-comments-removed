@@ -115,7 +115,7 @@ nsIntRegion
 &
 aRegion
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -158,7 +158,7 @@ Layer
 *
 aAfter
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -209,7 +209,7 @@ Layer
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -262,7 +262,7 @@ Layer
 *
 aAfter
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -317,7 +317,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 ChildrenPartitionVisibleRegion
@@ -366,14 +366,14 @@ ReadbackProcessor
 *
 aReadback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
 GetMaxLayerSize
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 4096

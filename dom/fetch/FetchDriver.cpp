@@ -2714,7 +2714,7 @@ namespace
 {
 class
 FillResponseHeaders
-MOZ_FINAL
+final
 :
 public
 nsIHttpHeaderVisitor
@@ -2758,7 +2758,7 @@ nsACString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 ErrorResult
 result

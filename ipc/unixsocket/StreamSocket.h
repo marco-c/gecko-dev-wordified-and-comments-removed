@@ -117,7 +117,7 @@ void
 CloseSocket
 (
 )
-MOZ_OVERRIDE
+override
 {
 Close
 (

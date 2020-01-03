@@ -68,7 +68,7 @@ Maybe
 ;
 class
 EventListenerInfo
-MOZ_FINAL
+final
 :
 public
 nsIEventListenerInfo
@@ -178,7 +178,7 @@ mInSystemEventGroup
 ;
 class
 EventListenerService
-MOZ_FINAL
+final
 :
 public
 nsIEventListenerService

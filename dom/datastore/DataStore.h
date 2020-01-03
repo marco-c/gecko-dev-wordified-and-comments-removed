@@ -39,7 +39,7 @@ OwningStringOrUnsignedLong
 ;
 class
 DataStore
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -93,7 +93,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool

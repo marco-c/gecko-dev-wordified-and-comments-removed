@@ -146,7 +146,7 @@ ifdef
 MOZ_UPDATER
 class
 nsUpdateProcessor
-MOZ_FINAL
+final
 :
 public
 nsIUpdateProcessor

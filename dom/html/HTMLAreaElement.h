@@ -76,7 +76,7 @@ dom
 {
 class
 HTMLAreaElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -116,7 +116,7 @@ int32_t
 TabIndexDefault
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIDOMHTMLAREAELEMENT
 virtual
@@ -127,7 +127,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -137,7 +137,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -149,7 +149,7 @@ nsIURI
 aURI
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -159,7 +159,7 @@ nsAString
 &
 aTarget
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -170,7 +170,7 @@ GetHrefURI
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -188,7 +188,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -203,7 +203,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetAttr
@@ -251,7 +251,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -265,7 +265,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -286,7 +286,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventStates
@@ -294,7 +294,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 SetAlt
@@ -685,7 +685,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -695,7 +695,7 @@ DOMString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -706,7 +706,7 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 nsRefPtr
 <

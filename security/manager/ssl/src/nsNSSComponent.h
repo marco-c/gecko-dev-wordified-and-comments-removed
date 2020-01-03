@@ -424,7 +424,7 @@ nsCertVerificationThread
 ;
 class
 nsNSSComponent
-MOZ_FINAL
+final
 :
 public
 nsIEntropyCollector
@@ -488,7 +488,7 @@ char
 *
 messageID
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetPIPNSSBundleString
@@ -501,7 +501,7 @@ nsAString
 &
 outString
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 PIPBundleFormatStringFromName
@@ -521,7 +521,7 @@ nsAString
 &
 outString
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetNSSBundleString
@@ -534,7 +534,7 @@ nsAString
 &
 outString
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 NSSBundleFormatStringFromName
@@ -554,13 +554,13 @@ nsAString
 &
 outString
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 LogoutAuthenticatedPK11
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifndef
@@ -572,7 +572,7 @@ SECMODModule
 *
 module
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ShutdownSmartCardThread
@@ -581,7 +581,7 @@ SECMODModule
 *
 module
 )
-MOZ_OVERRIDE
+override
 ;
 void
 LaunchSmartCardThreads
@@ -618,7 +618,7 @@ bool
 *
 initialized
 )
-MOZ_OVERRIDE
+override
 ;
 :
 :
@@ -638,7 +638,7 @@ SharedCertVerifier
 GetDefaultCertVerifier
 (
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool

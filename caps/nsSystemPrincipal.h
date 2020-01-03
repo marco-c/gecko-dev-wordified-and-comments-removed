@@ -52,7 +52,7 @@ systemprincipal
 "
 class
 nsSystemPrincipal
-MOZ_FINAL
+final
 :
 public
 nsJSPrincipals
@@ -74,7 +74,7 @@ nsACString
 &
 aStr
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -84,7 +84,7 @@ void
 dumpImpl
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

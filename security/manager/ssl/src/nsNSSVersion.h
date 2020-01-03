@@ -22,7 +22,7 @@ h
 "
 class
 nsNSSVersion
-MOZ_FINAL
+final
 :
 public
 nsINSSVersion

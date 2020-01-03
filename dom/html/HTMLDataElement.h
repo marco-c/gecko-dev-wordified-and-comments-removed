@@ -42,7 +42,7 @@ dom
 {
 class
 HTMLDataElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -115,7 +115,7 @@ DOMString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -126,7 +126,7 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -147,7 +147,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -175,7 +175,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

@@ -1414,7 +1414,7 @@ mName
 ;
 class
 xptiInterfaceInfo
-MOZ_FINAL
+final
 :
 public
 nsIInterfaceInfo
@@ -1430,7 +1430,7 @@ char
 *
 aName
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1455,7 +1455,7 @@ nsIID
 *
 aIID
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1479,7 +1479,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1503,7 +1503,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1528,7 +1528,7 @@ nsIInterfaceInfo
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -1565,7 +1565,7 @@ uint16_t
 *
 aMethodCount
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1589,7 +1589,7 @@ uint16_t
 *
 aConstantCount
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1617,7 +1617,7 @@ nsXPTMethodInfo
 *
 info
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1651,7 +1651,7 @@ nsXPTMethodInfo
 *
 info
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1685,7 +1685,7 @@ char
 *
 name
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1718,7 +1718,7 @@ nsIInterfaceInfo
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1751,7 +1751,7 @@ nsIID
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1785,7 +1785,7 @@ nsXPTType
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1820,7 +1820,7 @@ uint8_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1853,7 +1853,7 @@ uint8_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1883,7 +1883,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1910,7 +1910,7 @@ char
 *
 name
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1936,7 +1936,7 @@ nsIID
 *
 iid
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1960,7 +1960,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -1988,7 +1988,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -2019,7 +2019,7 @@ nsIID
 *
 iid
 )
-MOZ_OVERRIDE
+override
 {
 return
 !

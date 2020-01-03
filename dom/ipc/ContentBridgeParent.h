@@ -81,7 +81,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DeferredDestroy
@@ -113,7 +113,7 @@ BlobConstructorParams
 &
 params
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBrowserParent
@@ -148,7 +148,7 @@ bool
 &
 aIsForBrowser
 )
-MOZ_OVERRIDE
+override
 ;
 jsipc
 :
@@ -158,14 +158,14 @@ CPOWManager
 GetCPOWManager
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 ContentParentId
 ChildID
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mChildID
@@ -176,7 +176,7 @@ bool
 IsForApp
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mIsForApp
@@ -187,7 +187,7 @@ bool
 IsForBrowser
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mIsForBrowser
@@ -275,7 +275,7 @@ nsString
 *
 aRetvals
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -307,7 +307,7 @@ Principal
 &
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 jsipc
@@ -318,7 +318,7 @@ PJavaScriptParent
 AllocPJavaScriptParent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -330,7 +330,7 @@ jsipc
 PJavaScriptParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBrowserParent
@@ -362,7 +362,7 @@ bool
 &
 aIsForBrowser
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -371,7 +371,7 @@ DeallocPBrowserParent
 PBrowserParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBlobParent
@@ -383,7 +383,7 @@ BlobConstructorParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -392,7 +392,7 @@ DeallocPBlobParent
 PBlobParent
 *
 )
-MOZ_OVERRIDE
+override
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (

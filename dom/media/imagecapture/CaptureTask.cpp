@@ -466,7 +466,7 @@ File
 >
 aBlob
 )
-MOZ_OVERRIDE
+override
 {
 nsRefPtr
 <

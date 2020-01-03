@@ -959,7 +959,7 @@ mKeepAttached
 ;
 class
 AutoLockCompositableHost
-MOZ_FINAL
+final
 {
 public
 :

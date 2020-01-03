@@ -859,7 +859,7 @@ private
 :
 class
 nsHalfOpenSocket
-MOZ_FINAL
+final
 :
 public
 nsIOutputStreamCallback

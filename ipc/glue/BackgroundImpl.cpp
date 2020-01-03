@@ -478,7 +478,7 @@ NS_IsMainThread
 }
 class
 ParentImpl
-MOZ_FINAL
+final
 :
 public
 BackgroundParentImpl
@@ -991,7 +991,7 @@ ProtocolCloneContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1000,13 +1000,13 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 ChildImpl
-MOZ_FINAL
+final
 :
 public
 BackgroundChildImpl
@@ -1529,7 +1529,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 static
 already_AddRefed
@@ -1547,7 +1547,7 @@ ParentImpl
 :
 :
 ShutdownObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -1584,7 +1584,7 @@ ParentImpl
 :
 :
 RequestMessageLoopRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1649,7 +1649,7 @@ ParentImpl
 :
 :
 ShutdownBackgroundThreadRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1686,7 +1686,7 @@ ParentImpl
 :
 :
 ForceCloseBackgroundActorsRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1749,7 +1749,7 @@ ParentImpl
 :
 :
 CreateCallbackRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1806,7 +1806,7 @@ ParentImpl
 :
 :
 ConnectActorRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1963,7 +1963,7 @@ ChildImpl
 :
 :
 ShutdownObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -2000,7 +2000,7 @@ ChildImpl
 :
 :
 CreateActorRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -2047,7 +2047,7 @@ ChildImpl
 :
 :
 ParentCreateCallback
-MOZ_FINAL
+final
 :
 public
 ParentImpl
@@ -2111,14 +2111,14 @@ MessageLoop
 *
 aMessageLoop
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Failure
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -2127,7 +2127,7 @@ ChildImpl
 :
 :
 AlreadyCreatedCallbackRunnable
-MOZ_FINAL
+final
 :
 public
 nsCancelableRunnable
@@ -2158,7 +2158,7 @@ ChildImpl
 :
 :
 FailedCreateCallbackRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -2188,7 +2188,7 @@ ChildImpl
 :
 :
 OpenChildProcessActorRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -2295,7 +2295,7 @@ ChildImpl
 :
 :
 OpenMainProcessActorRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

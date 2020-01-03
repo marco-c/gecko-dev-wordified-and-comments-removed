@@ -138,7 +138,7 @@ dom
 {
 class
 Selection
-MOZ_FINAL
+final
 :
 public
 nsISelectionPrivate
@@ -532,7 +532,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsINode
 *
@@ -1304,7 +1304,7 @@ mApplyUserSelectStyle
 class
 MOZ_STACK_CLASS
 SelectionBatcher
-MOZ_FINAL
+final
 {
 private
 :

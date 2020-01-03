@@ -69,7 +69,7 @@ NS_ANNOPROTOCOLHANDLER_CID
 }
 class
 nsAnnoProtocolHandler
-MOZ_FINAL
+final
 :
 public
 nsIProtocolHandler

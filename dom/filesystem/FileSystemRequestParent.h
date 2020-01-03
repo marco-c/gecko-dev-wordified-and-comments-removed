@@ -48,7 +48,7 @@ FileSystemBase
 ;
 class
 FileSystemRequestParent
-MOZ_FINAL
+final
 :
 public
 PFileSystemRequestParent
@@ -99,7 +99,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

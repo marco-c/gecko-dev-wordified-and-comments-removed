@@ -76,7 +76,7 @@ net
 {
 class
 NullHttpChannel
-MOZ_FINAL
+final
 :
 public
 nsINullChannel

@@ -54,7 +54,7 @@ nsIFormControl
 *
 aRadio
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -89,7 +89,7 @@ nsIFormControl
 *
 aRadio
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -134,7 +134,7 @@ nsIFormControl
 *
 aRadio
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -189,7 +189,7 @@ nsIFormControl
 *
 aRadio
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

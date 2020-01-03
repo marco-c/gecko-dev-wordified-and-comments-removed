@@ -107,7 +107,7 @@ size_t
 &
 expectedSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -116,7 +116,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -187,7 +187,7 @@ size_t
 &
 expectedSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -196,7 +196,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

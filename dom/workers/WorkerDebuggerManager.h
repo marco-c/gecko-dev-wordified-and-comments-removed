@@ -78,7 +78,7 @@ WorkerDebugger
 ;
 class
 WorkerDebuggerManager
-MOZ_FINAL
+final
 :
 public
 nsIWorkerDebuggerManager

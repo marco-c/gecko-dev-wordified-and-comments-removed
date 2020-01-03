@@ -159,7 +159,7 @@ namespace
 {
 class
 MemoryPressureWatcher
-MOZ_FINAL
+final
 :
 public
 nsIRunnable

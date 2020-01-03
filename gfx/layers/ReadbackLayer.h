@@ -197,7 +197,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
-MOZ_OVERRIDE
+override
 {
 mEffectiveTransform
 =
@@ -499,7 +499,7 @@ char
 *
 aPrefix
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -516,7 +516,7 @@ void
 *
 aParent
 )
-MOZ_OVERRIDE
+override
 ;
 uint64_t
 mSequenceCounter

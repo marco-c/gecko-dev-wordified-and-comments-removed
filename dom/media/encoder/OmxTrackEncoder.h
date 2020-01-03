@@ -48,7 +48,7 @@ TrackMetadataBase
 GetMetadata
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetEncodedTrack
@@ -57,7 +57,7 @@ EncodedFrameContainer
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -75,7 +75,7 @@ aDisplayHeight
 TrackRate
 aTrackRate
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -124,7 +124,7 @@ EncodedFrameContainer
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -160,7 +160,7 @@ mEncoder
 ;
 class
 OmxAACAudioTrackEncoder
-MOZ_FINAL
+final
 :
 public
 OmxAudioTrackEncoder
@@ -183,7 +183,7 @@ TrackMetadataBase
 GetMetadata
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -195,13 +195,13 @@ aChannels
 int
 aSamplingRate
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 OmxAMRAudioTrackEncoder
-MOZ_FINAL
+final
 :
 public
 OmxAudioTrackEncoder
@@ -231,7 +231,7 @@ TrackMetadataBase
 GetMetadata
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -243,7 +243,7 @@ aChannels
 int
 aSamplingRate
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

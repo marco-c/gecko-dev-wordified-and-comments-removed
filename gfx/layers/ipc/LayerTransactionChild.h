@@ -198,7 +198,7 @@ PLayerChild
 AllocPLayerChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -208,7 +208,7 @@ PLayerChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PCompositableChild
@@ -220,7 +220,7 @@ TextureInfo
 &
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -230,7 +230,7 @@ PCompositableChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTextureChild
@@ -246,7 +246,7 @@ TextureFlags
 &
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -256,7 +256,7 @@ PTextureChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -270,7 +270,7 @@ AsyncParentMessageData
 &
 aMessages
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -279,7 +279,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AddIPDLReference

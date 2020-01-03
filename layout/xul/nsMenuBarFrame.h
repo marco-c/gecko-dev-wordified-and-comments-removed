@@ -72,7 +72,7 @@ aContext
 ;
 class
 nsMenuBarFrame
-MOZ_FINAL
+final
 :
 public
 nsBoxFrame
@@ -101,7 +101,7 @@ nsMenuFrame
 GetCurrentMenuItem
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetCurrentMenuItem
@@ -110,14 +110,14 @@ nsMenuFrame
 *
 aMenuItem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 CurrentMenuIsBeingDestroyed
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ChangeMenuItem
@@ -128,7 +128,7 @@ aMenuItem
 bool
 aSelectFirstItem
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetActive
@@ -136,14 +136,14 @@ SetActive
 bool
 aActiveFlag
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsMenuBar
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -154,7 +154,7 @@ bool
 IsContextMenu
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -165,7 +165,7 @@ bool
 IsActive
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mIsActive
@@ -176,7 +176,7 @@ bool
 IsMenu
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -187,7 +187,7 @@ bool
 IsOpen
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -234,7 +234,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -244,7 +244,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -253,7 +253,7 @@ LockMenuUntilClosed
 bool
 aLock
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -261,7 +261,7 @@ bool
 IsMenuLocked
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -318,7 +318,7 @@ bool
 MenuClosed
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsMenuFrame
 *
@@ -349,7 +349,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -392,7 +392,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName

@@ -137,7 +137,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -146,7 +146,7 @@ bool
 SubregionIsUnionOfRegions
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -184,7 +184,7 @@ SourceSurface
 &
 aInputImages
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -197,7 +197,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSVGString
@@ -205,7 +205,7 @@ nsSVGString
 GetResultImageName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStringAttributes
@@ -229,7 +229,7 @@ nsIPrincipal
 *
 aReferencePrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -243,7 +243,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -264,7 +264,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -282,7 +282,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -300,7 +300,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -311,7 +311,7 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventStates
@@ -319,7 +319,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHODIMP
 Notify
@@ -334,7 +334,7 @@ nsIntRect
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 void
 MaybeLoadSVGImage
@@ -380,7 +380,7 @@ bool
 ProducesSRGB
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -392,14 +392,14 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 StringAttributesInfo
 GetStringInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

@@ -138,7 +138,7 @@ NS_PROCESS_CID
 }
 class
 nsProcess
-MOZ_FINAL
+final
 :
 public
 nsIProcess

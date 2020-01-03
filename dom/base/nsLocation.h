@@ -86,7 +86,7 @@ nsIDocShellLoadInfo
 ;
 class
 nsLocation
-MOZ_FINAL
+final
 :
 public
 nsIDOMLocation
@@ -649,7 +649,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 URLSearchParamsUpdated
@@ -664,7 +664,7 @@ URLSearchParams
 *
 aSearchParams
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

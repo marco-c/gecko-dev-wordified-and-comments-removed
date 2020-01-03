@@ -58,7 +58,7 @@ GMPParent
 ;
 class
 GMPDecryptorParent
-MOZ_FINAL
+final
 :
 public
 GMPDecryptorProxy
@@ -87,7 +87,7 @@ GMPDecryptorProxyCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -111,7 +111,7 @@ aInitData
 GMPSessionType
 aSessionType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -124,7 +124,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -144,7 +144,7 @@ uint8_t
 &
 aResponse
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -157,7 +157,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -170,7 +170,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -186,7 +186,7 @@ uint8_t
 &
 aServerCert
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -209,14 +209,14 @@ uint8_t
 &
 aBuffer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Close
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Shutdown
@@ -243,7 +243,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -258,7 +258,7 @@ bool
 &
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -269,7 +269,7 @@ uint32_t
 &
 aPromiseId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -288,7 +288,7 @@ nsCString
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -310,7 +310,7 @@ uint8_t
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -325,7 +325,7 @@ double
 &
 aExpiryTime
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -336,7 +336,7 @@ nsCString
 &
 aSessionId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -359,7 +359,7 @@ nsCString
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -381,7 +381,7 @@ GMPMediaKeyStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -403,7 +403,7 @@ uint8_t
 &
 aBuffer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -414,7 +414,7 @@ uint64_t
 &
 aCaps
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -423,14 +423,14 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 Recv__delete__
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 mIsOpen

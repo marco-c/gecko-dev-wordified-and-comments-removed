@@ -44,7 +44,7 @@ mozilla
 {
 class
 ProfileUnlockerWin
-MOZ_FINAL
+final
 :
 public
 nsIProfileUnlocker

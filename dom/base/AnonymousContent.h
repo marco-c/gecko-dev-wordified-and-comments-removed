@@ -47,7 +47,7 @@ Element
 ;
 class
 AnonymousContent
-MOZ_FINAL
+final
 {
 public
 :

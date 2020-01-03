@@ -172,7 +172,7 @@ TableUpdate
 }
 class
 nsUrlClassifierDBService
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierDBService
@@ -375,7 +375,7 @@ gDbBackgroundThread
 ;
 class
 nsUrlClassifierDBServiceWorker
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierDBServiceWorker

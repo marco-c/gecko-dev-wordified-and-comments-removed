@@ -92,7 +92,7 @@ NS_IFOO_IID
 )
 class
 Foo
-MOZ_FINAL
+final
 :
 public
 IFoo
@@ -114,7 +114,7 @@ nsrefcnt
 RefCnt
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mRefCnt
@@ -127,7 +127,7 @@ int32_t
 ID
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mID

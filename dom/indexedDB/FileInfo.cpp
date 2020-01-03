@@ -101,7 +101,7 @@ IdType
 >
 class
 FileInfoImpl
-MOZ_FINAL
+final
 :
 public
 FileInfo
@@ -156,7 +156,7 @@ Id
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 int64_t
@@ -169,7 +169,7 @@ mFileId
 ;
 class
 CleanupFileRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

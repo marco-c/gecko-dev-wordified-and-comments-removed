@@ -47,7 +47,7 @@ dom
 {
 class
 PresentationDeviceManager
-MOZ_FINAL
+final
 :
 public
 nsIPresentationDeviceManager

@@ -77,7 +77,7 @@ h
 "
 class
 nsGeoPositionCoords
-MOZ_FINAL
+final
 :
 public
 nsIDOMGeoPositionCoords
@@ -125,7 +125,7 @@ mSpeed
 ;
 class
 nsGeoPosition
-MOZ_FINAL
+final
 :
 public
 nsIDOMGeoPosition
@@ -204,7 +204,7 @@ Coordinates
 ;
 class
 Position
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -260,7 +260,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 Coordinates
 *
@@ -308,7 +308,7 @@ mGeoPosition
 ;
 class
 Coordinates
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -364,7 +364,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 double
 Latitude

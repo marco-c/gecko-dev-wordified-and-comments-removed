@@ -189,7 +189,7 @@ NS_DOM_CAMERA_CONTROL_CID
 }
 class
 nsDOMCameraControl
-MOZ_FINAL
+final
 :
 public
 DOMMediaStream
@@ -823,7 +823,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 operator
 nsISupports
@@ -907,7 +907,7 @@ nsDOMCameraControl
 ;
 class
 DOMCameraConfiguration
-MOZ_FINAL
+final
 :
 public
 dom
@@ -1141,7 +1141,7 @@ nsIAtom
 *
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DispatchPreviewStateEvent

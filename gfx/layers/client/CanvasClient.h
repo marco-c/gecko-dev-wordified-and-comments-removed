@@ -253,7 +253,7 @@ GetTextureInfo
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 TextureInfo
@@ -271,7 +271,7 @@ void
 Clear
 (
 )
-MOZ_OVERRIDE
+override
 {
 mBuffer
 =
@@ -291,7 +291,7 @@ ClientCanvasLayer
 *
 aLayer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -301,7 +301,7 @@ TextureClient
 *
 aTexture
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -335,7 +335,7 @@ void
 OnDetach
 (
 )
-MOZ_OVERRIDE
+override
 {
 mBuffer
 =
@@ -439,7 +439,7 @@ GetTextureInfo
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 TextureInfo
@@ -456,7 +456,7 @@ void
 Clear
 (
 )
-MOZ_OVERRIDE
+override
 {
 ClearSurfaces
 (
@@ -476,14 +476,14 @@ ClientCanvasLayer
 *
 aLayer
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 OnDetach
 (
 )
-MOZ_OVERRIDE
+override
 {
 ClearSurfaces
 (

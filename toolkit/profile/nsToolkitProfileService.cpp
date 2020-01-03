@@ -200,7 +200,7 @@ mozilla
 ;
 class
 nsToolkitProfile
-MOZ_FINAL
+final
 :
 public
 nsIToolkitProfile
@@ -280,7 +280,7 @@ mForExternalApp
 ;
 class
 nsToolkitProfileLock
-MOZ_FINAL
+final
 :
 public
 nsIProfileLock
@@ -353,7 +353,7 @@ mLock
 ;
 class
 nsToolkitProfileFactory
-MOZ_FINAL
+final
 :
 public
 nsIFactory
@@ -372,7 +372,7 @@ NS_DECL_NSIFACTORY
 ;
 class
 nsToolkitProfileService
-MOZ_FINAL
+final
 :
 public
 nsIToolkitProfileService
@@ -531,7 +531,7 @@ gService
 ;
 class
 ProfileEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator

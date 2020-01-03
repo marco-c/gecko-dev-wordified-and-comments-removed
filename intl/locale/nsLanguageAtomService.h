@@ -63,7 +63,7 @@ NS_LANGUAGEATOMSERVICE_CID
 }
 class
 nsLanguageAtomService
-MOZ_FINAL
+final
 :
 public
 nsILanguageAtomService
@@ -84,7 +84,7 @@ nsresult
 *
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -98,7 +98,7 @@ nsACString
 &
 aCharSet
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -109,7 +109,7 @@ nsresult
 *
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -123,7 +123,7 @@ nsresult
 *
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 nsLanguageAtomService
 (

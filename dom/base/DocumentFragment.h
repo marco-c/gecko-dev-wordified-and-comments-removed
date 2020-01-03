@@ -218,7 +218,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetAttr
@@ -266,7 +266,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -284,7 +284,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -300,7 +300,7 @@ uint32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -312,7 +312,7 @@ GetAttrCount
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 0
@@ -326,7 +326,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMNode
@@ -334,7 +334,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -356,7 +356,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -386,7 +386,7 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -412,7 +412,7 @@ Element
 GetNameSpaceElement
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -472,7 +472,7 @@ int32_t
 aIndent
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -487,7 +487,7 @@ bool
 aDumpAll
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -518,7 +518,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsIContent
 *

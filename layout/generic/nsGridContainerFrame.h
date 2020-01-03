@@ -39,7 +39,7 @@ aContext
 ;
 class
 nsGridContainerFrame
-MOZ_FINAL
+final
 :
 public
 nsContainerFrame
@@ -69,7 +69,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -78,7 +78,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -92,7 +92,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

@@ -463,7 +463,7 @@ delete
 ;
 class
 BackgroundFactoryChild
-MOZ_FINAL
+final
 :
 public
 PBackgroundIDBFactoryChild
@@ -556,7 +556,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBackgroundIDBFactoryRequestChild
@@ -568,7 +568,7 @@ FactoryRequestParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -578,7 +578,7 @@ PBackgroundIDBFactoryRequestChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBackgroundIDBDatabaseChild
@@ -593,7 +593,7 @@ PBackgroundIDBFactoryRequestChild
 *
 aRequest
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -603,7 +603,7 @@ PBackgroundIDBDatabaseChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 SendDeleteMe
@@ -704,7 +704,7 @@ NoteActorDestroyed
 ;
 class
 BackgroundFactoryRequestChild
-MOZ_FINAL
+final
 :
 public
 BackgroundRequestChildBase
@@ -820,7 +820,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -831,7 +831,7 @@ FactoryRequestResponse
 &
 aResponse
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -842,7 +842,7 @@ PrincipalInfo
 &
 aPrincipalInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -853,13 +853,13 @@ uint64_t
 &
 aCurrentVersion
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 BackgroundDatabaseChild
-MOZ_FINAL
+final
 :
 public
 PBackgroundIDBDatabaseChild
@@ -992,7 +992,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBackgroundIDBDatabaseFileChild
@@ -1003,7 +1003,7 @@ PBlobChild
 *
 aBlobChild
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1013,7 +1013,7 @@ PBackgroundIDBDatabaseFileChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBackgroundIDBTransactionChild
@@ -1032,7 +1032,7 @@ Mode
 &
 aMode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1042,7 +1042,7 @@ PBackgroundIDBTransactionChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBackgroundIDBVersionChangeTransactionChild
@@ -1066,7 +1066,7 @@ int64_t
 &
 aNextIndexId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1092,7 +1092,7 @@ int64_t
 &
 aNextIndexId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1102,7 +1102,7 @@ PBackgroundIDBVersionChangeTransactionChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1117,14 +1117,14 @@ NullableVersion
 &
 aNewVersion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvInvalidate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 SendDeleteMe
@@ -1241,7 +1241,7 @@ aDOMObject
 ;
 class
 BackgroundTransactionChild
-MOZ_FINAL
+final
 :
 public
 BackgroundTransactionBase
@@ -1267,7 +1267,7 @@ AssertIsOnOwningThread
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -1298,7 +1298,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvComplete
@@ -1308,7 +1308,7 @@ nsresult
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBackgroundIDBRequestChild
@@ -1320,7 +1320,7 @@ RequestParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1330,7 +1330,7 @@ PBackgroundIDBRequestChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBackgroundIDBCursorChild
@@ -1342,7 +1342,7 @@ OpenCursorParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1352,7 +1352,7 @@ PBackgroundIDBCursorChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 SendDeleteMe
@@ -1365,7 +1365,7 @@ delete
 ;
 class
 BackgroundVersionChangeTransactionChild
-MOZ_FINAL
+final
 :
 public
 BackgroundTransactionBase
@@ -1391,7 +1391,7 @@ AssertIsOnOwningThread
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -1441,7 +1441,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvComplete
@@ -1451,7 +1451,7 @@ nsresult
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBackgroundIDBRequestChild
@@ -1463,7 +1463,7 @@ RequestParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1473,7 +1473,7 @@ PBackgroundIDBRequestChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBackgroundIDBCursorChild
@@ -1485,7 +1485,7 @@ OpenCursorParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1495,7 +1495,7 @@ PBackgroundIDBCursorChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 SendDeleteMe
@@ -1508,7 +1508,7 @@ delete
 ;
 class
 BackgroundRequestChild
-MOZ_FINAL
+final
 :
 public
 BackgroundRequestChildBase
@@ -1652,7 +1652,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1663,13 +1663,13 @@ RequestResponse
 &
 aResponse
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
 class
 BackgroundCursorChild
-MOZ_FINAL
+final
 :
 public
 PBackgroundIDBCursorChild
@@ -1909,7 +1909,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1920,7 +1920,7 @@ CursorResponse
 &
 aResponse
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 SendContinue

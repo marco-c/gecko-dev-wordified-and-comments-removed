@@ -78,7 +78,7 @@ aRegressionOutput
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DumpRegressionData
@@ -90,7 +90,7 @@ FILE
 *
 aOutputFile
 )
-MOZ_OVERRIDE
+override
 ;
 struct
 Node

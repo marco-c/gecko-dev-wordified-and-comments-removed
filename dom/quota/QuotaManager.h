@@ -207,7 +207,7 @@ mIsApp
 ;
 class
 QuotaManager
-MOZ_FINAL
+final
 :
 public
 nsIQuotaManager

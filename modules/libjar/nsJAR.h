@@ -199,7 +199,7 @@ JARManifestStatusType
 ;
 class
 nsJAR
-MOZ_FINAL
+final
 :
 public
 nsIZipReader
@@ -507,7 +507,7 @@ mIsSynthetic
 ;
 class
 nsJAREnumerator
-MOZ_FINAL
+final
 :
 public
 nsIUTF8StringEnumerator

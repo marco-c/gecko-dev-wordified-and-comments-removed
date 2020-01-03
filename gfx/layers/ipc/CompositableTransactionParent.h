@@ -171,7 +171,7 @@ IsOnCompositorSide
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true

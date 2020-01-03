@@ -137,7 +137,7 @@ dom
 ;
 class
 nsJSScriptTimeoutHandler
-MOZ_FINAL
+final
 :
 public
 nsIScriptTimeoutHandler
@@ -208,7 +208,7 @@ char16_t
 GetHandlerText
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Function
@@ -216,7 +216,7 @@ Function
 GetCallback
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mFunction
@@ -235,7 +235,7 @@ uint32_t
 *
 aLineNo
 )
-MOZ_OVERRIDE
+override
 {
 *
 aFileName
@@ -265,7 +265,7 @@ Value
 GetArgs
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mArgs

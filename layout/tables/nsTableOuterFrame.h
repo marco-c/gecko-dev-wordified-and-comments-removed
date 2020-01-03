@@ -76,7 +76,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -88,7 +88,7 @@ ChildListID
 aListID
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -102,7 +102,7 @@ ChildList
 aLists
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -114,7 +114,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -126,7 +126,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -141,7 +141,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -153,7 +153,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsContainerFrame
@@ -161,7 +161,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 GetFirstPrincipalChild
@@ -188,7 +188,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -208,7 +208,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 void
 BuildDisplayListForInnerTable
@@ -237,7 +237,7 @@ WritingMode
 aWritingMode
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -247,7 +247,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -257,7 +257,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -307,7 +307,7 @@ aPadding
 bool
 aShrinkWrap
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -327,7 +327,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -336,7 +336,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -350,7 +350,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -365,7 +365,7 @@ nsIFrame
 aProviderFrame
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsIContent
 *
@@ -851,7 +851,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame

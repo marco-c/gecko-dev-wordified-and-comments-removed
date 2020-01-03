@@ -258,7 +258,7 @@ mX
 ;
 class
 SwapChainD3D9
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_REFCOUNTING
 (
@@ -342,7 +342,7 @@ mWnd
 ;
 class
 DeviceManagerD3D9
-MOZ_FINAL
+final
 {
 public
 :

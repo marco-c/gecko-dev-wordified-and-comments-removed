@@ -98,7 +98,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -113,14 +113,14 @@ MediaData
 &
 aOutput
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Flush
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -135,7 +135,7 @@ MP4Sample
 *
 aSample
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 status_t
@@ -148,7 +148,7 @@ MP4Sample
 *
 aSample
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

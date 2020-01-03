@@ -3249,7 +3249,7 @@ NS_IMETHODIMP
 Close
 (
 )
-MOZ_OVERRIDE
+override
 {
 mTLSFilter
 =
@@ -3271,7 +3271,7 @@ uint64_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStream
@@ -3290,7 +3290,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStream
@@ -3316,7 +3316,7 @@ uint32_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStream
@@ -3343,7 +3343,7 @@ uint32_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -3358,7 +3358,7 @@ uint32_t
 *
 countWritten
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -3572,7 +3572,7 @@ NS_IMETHODIMP
 Close
 (
 )
-MOZ_OVERRIDE
+override
 {
 mTLSFilter
 =
@@ -3591,7 +3591,7 @@ NS_IMETHODIMP
 Flush
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStream
@@ -3609,7 +3609,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStream
@@ -3635,7 +3635,7 @@ uint32_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStream
@@ -3662,7 +3662,7 @@ uint32_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStream
@@ -3689,7 +3689,7 @@ uint32_t
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -3705,7 +3705,7 @@ uint32_t
 *
 countRead
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

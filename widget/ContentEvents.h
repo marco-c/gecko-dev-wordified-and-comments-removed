@@ -83,7 +83,7 @@ InternalScrollPortEvent
 AsScrollPortEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -134,7 +134,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -231,7 +231,7 @@ InternalScrollAreaEvent
 AsScrollAreaEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -264,7 +264,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -361,7 +361,7 @@ InternalFormEvent
 AsFormEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -394,7 +394,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -485,7 +485,7 @@ InternalClipboardEvent
 AsClipboardEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -514,7 +514,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -616,7 +616,7 @@ InternalFocusEvent
 AsFocusEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -653,7 +653,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -777,7 +777,7 @@ InternalTransitionEvent
 AsTransitionEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -818,7 +818,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -932,7 +932,7 @@ InternalAnimationEvent
 AsAnimationEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -973,7 +973,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1087,7 +1087,7 @@ InternalSVGZoomEvent
 AsSVGZoomEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -1123,7 +1123,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1210,7 +1210,7 @@ InternalSMILTimeEvent
 AsSMILTimeEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -1251,7 +1251,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

@@ -153,7 +153,7 @@ MediaSegment
 &
 aQueuedMedia
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -168,7 +168,7 @@ MediaStreamListener
 MediaStreamGraphEvent
 event
 )
-MOZ_OVERRIDE
+override
 ;
 static
 already_AddRefed

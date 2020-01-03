@@ -35,7 +35,7 @@ dom
 {
 class
 HTMLModElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -78,7 +78,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 GetCite
@@ -188,7 +188,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

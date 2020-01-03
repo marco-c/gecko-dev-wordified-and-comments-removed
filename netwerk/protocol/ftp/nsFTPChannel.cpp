@@ -363,7 +363,7 @@ namespace
 {
 class
 FTPEventSinkProxy
-MOZ_FINAL
+final
 :
 public
 nsIFTPEventSink

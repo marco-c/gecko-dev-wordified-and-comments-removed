@@ -23,7 +23,7 @@ dom
 {
 class
 ContainerBoxObject
-MOZ_FINAL
+final
 :
 public
 BoxObject
@@ -52,7 +52,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <

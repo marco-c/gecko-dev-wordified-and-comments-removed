@@ -51,7 +51,7 @@ InternalMutationEvent
 AsMutationEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -90,7 +90,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

@@ -98,7 +98,7 @@ void
 *
 aOutAccessible
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 Class
@@ -111,14 +111,14 @@ void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 InvalidateChildren
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -130,7 +130,7 @@ Accessible
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -140,7 +140,7 @@ Accessible
 *
 aAccessible
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -150,7 +150,7 @@ AccEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsIgnored

@@ -50,7 +50,7 @@ h
 "
 class
 nsNativeDragSource
-MOZ_FINAL
+final
 :
 public
 IDropSource

@@ -141,7 +141,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -167,7 +167,7 @@ AutoIdVector
 props
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 getPropertyDescriptor
@@ -202,7 +202,7 @@ JSPropertyDescriptor
 desc
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -231,7 +231,7 @@ JSObject
 objp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -257,7 +257,7 @@ AutoIdVector
 props
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 watch
@@ -293,7 +293,7 @@ JSObject
 callable
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 unwatch
@@ -320,7 +320,7 @@ jsid
 id
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -453,7 +453,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 {
 bool
 unused
@@ -546,7 +546,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 preventExtensions
@@ -571,7 +571,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 isExtensible
@@ -593,7 +593,7 @@ bool
 extensible
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 has
@@ -623,7 +623,7 @@ bool
 bp
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 set
@@ -676,7 +676,7 @@ ObjectOpResult
 result
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool

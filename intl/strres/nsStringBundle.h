@@ -173,7 +173,7 @@ nsExtensibleStringBundle
 ;
 class
 nsExtensibleStringBundle
-MOZ_FINAL
+final
 :
 public
 nsIStringBundle

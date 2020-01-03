@@ -80,7 +80,7 @@ HttpChannelCreationArgs
 &
 aOpenArgs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -89,7 +89,7 @@ DeallocPHttpChannelChild
 PHttpChannelChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PCookieServiceChild
@@ -97,7 +97,7 @@ PCookieServiceChild
 AllocPCookieServiceChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -106,7 +106,7 @@ DeallocPCookieServiceChild
 PCookieServiceChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PWyciwygChannelChild
@@ -114,7 +114,7 @@ PWyciwygChannelChild
 AllocPWyciwygChannelChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -123,7 +123,7 @@ DeallocPWyciwygChannelChild
 PWyciwygChannelChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PFTPChannelChild
@@ -143,7 +143,7 @@ FTPChannelCreationArgs
 &
 aOpenArgs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -152,7 +152,7 @@ DeallocPFTPChannelChild
 PFTPChannelChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PWebSocketChild
@@ -166,7 +166,7 @@ const
 SerializedLoadContext
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -175,7 +175,7 @@ DeallocPWebSocketChild
 PWebSocketChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTCPSocketChild
@@ -191,7 +191,7 @@ uint16_t
 &
 port
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -200,7 +200,7 @@ DeallocPTCPSocketChild
 PTCPSocketChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTCPServerSocketChild
@@ -220,7 +220,7 @@ nsString
 &
 aBinaryType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -229,7 +229,7 @@ DeallocPTCPServerSocketChild
 PTCPServerSocketChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PUDPSocketChild
@@ -241,7 +241,7 @@ nsCString
 &
 aFilter
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -250,7 +250,7 @@ DeallocPUDPSocketChild
 PUDPSocketChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PDNSRequestChild
@@ -270,7 +270,7 @@ nsCString
 &
 aNetworkInterface
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -279,7 +279,7 @@ DeallocPDNSRequestChild
 PDNSRequestChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PRemoteOpenFileChild
@@ -297,7 +297,7 @@ const
 OptionalURIParams
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -306,7 +306,7 @@ DeallocPRemoteOpenFileChild
 PRemoteOpenFileChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PRtspControllerChild
@@ -314,7 +314,7 @@ PRtspControllerChild
 AllocPRtspControllerChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -323,7 +323,7 @@ DeallocPRtspControllerChild
 PRtspControllerChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PRtspChannelChild
@@ -335,7 +335,7 @@ RtspChannelConnectArgs
 &
 aArgs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -344,7 +344,7 @@ DeallocPRtspChannelChild
 PRtspChannelChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PChannelDiverterChild
@@ -356,7 +356,7 @@ ChannelDiverterArgs
 &
 channel
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -366,7 +366,7 @@ PChannelDiverterChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -389,7 +389,7 @@ uint64_t
 &
 aCallbackId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -404,7 +404,7 @@ bool
 &
 aOffline
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

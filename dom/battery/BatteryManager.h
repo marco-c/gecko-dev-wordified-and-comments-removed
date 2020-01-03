@@ -97,7 +97,7 @@ BatteryInformation
 &
 aBatteryInfo
 )
-MOZ_OVERRIDE
+override
 ;
 nsPIDOMWindow
 *
@@ -130,7 +130,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Charging

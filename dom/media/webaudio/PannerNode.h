@@ -114,14 +114,14 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DestroyMediaStream
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -133,7 +133,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -172,7 +172,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -797,7 +797,7 @@ NodeType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -813,7 +813,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -823,7 +823,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :

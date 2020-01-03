@@ -119,7 +119,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -142,7 +142,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 FilterPrimitiveDescription
@@ -175,7 +175,7 @@ SourceSurface
 &
 aInputImages
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -188,7 +188,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <

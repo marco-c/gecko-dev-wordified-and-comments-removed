@@ -8981,7 +8981,7 @@ NS_OK
 class
 MOZ_STACK_CLASS
 nsIRenderingContextBidiProcessor
-MOZ_FINAL
+final
 :
 public
 nsBidiPresUtils
@@ -9053,7 +9053,7 @@ aLength
 nsBidiDirection
 aDirection
 )
-MOZ_OVERRIDE
+override
 {
 mFontMetrics
 -
@@ -9080,7 +9080,7 @@ nscoord
 GetWidth
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nsLayoutUtils
@@ -9105,7 +9105,7 @@ nscoord
 aIOffset
 nscoord
 )
-MOZ_OVERRIDE
+override
 {
 nsPoint
 pt

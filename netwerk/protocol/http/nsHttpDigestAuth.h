@@ -77,7 +77,7 @@ NONCE_COUNT_LENGTH
 8
 class
 nsHttpDigestAuth
-MOZ_FINAL
+final
 :
 public
 nsIHttpAuthenticator

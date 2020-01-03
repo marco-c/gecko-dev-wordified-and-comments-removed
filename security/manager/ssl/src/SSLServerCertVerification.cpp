@@ -6119,7 +6119,7 @@ nsresult
 CalculateResult
 (
 )
-MOZ_OVERRIDE
+override
 {
 EnsureIdentityInfoLoaded
 (
@@ -6134,7 +6134,7 @@ void
 ReleaseNSSResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -6144,7 +6144,7 @@ CallCallback
 nsresult
 rv
 )
-MOZ_OVERRIDE
+override
 {
 }
 }

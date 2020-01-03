@@ -282,7 +282,7 @@ IsDebuggerRunnable
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -299,7 +299,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -322,7 +322,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -377,7 +377,7 @@ bool
 DispatchInternal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -458,7 +458,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -481,7 +481,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -545,14 +545,14 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 DispatchInternal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -617,7 +617,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -640,7 +640,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -697,7 +697,7 @@ bool
 DispatchInternal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 using
 WorkerRunnable
@@ -748,7 +748,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -771,7 +771,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -816,7 +816,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -831,7 +831,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -846,7 +846,7 @@ aWorkerPrivate
 bool
 aRunResult
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -906,7 +906,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

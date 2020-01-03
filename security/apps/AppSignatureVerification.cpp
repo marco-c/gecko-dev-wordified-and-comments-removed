@@ -3104,7 +3104,7 @@ NS_OK
 }
 class
 OpenSignedAppFileTask
-MOZ_FINAL
+final
 :
 public
 CryptoTask
@@ -3151,7 +3151,7 @@ nsresult
 CalculateResult
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 OpenSignedAppFile
@@ -3174,7 +3174,7 @@ void
 ReleaseNSSResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -3184,7 +3184,7 @@ CallCallback
 nsresult
 rv
 )
-MOZ_OVERRIDE
+override
 {
 (
 void
@@ -3233,7 +3233,7 @@ mSignerCert
 ;
 class
 VerifySignedmanifestTask
-MOZ_FINAL
+final
 :
 public
 CryptoTask
@@ -3287,7 +3287,7 @@ nsresult
 CalculateResult
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 VerifySignedManifest
@@ -3307,7 +3307,7 @@ void
 ReleaseNSSResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -3317,7 +3317,7 @@ CallCallback
 nsresult
 rv
 )
-MOZ_OVERRIDE
+override
 {
 (
 void

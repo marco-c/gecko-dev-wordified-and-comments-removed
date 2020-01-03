@@ -44,7 +44,7 @@ role
 NativeRole
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

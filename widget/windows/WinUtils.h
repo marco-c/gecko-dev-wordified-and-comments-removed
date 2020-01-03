@@ -581,7 +581,7 @@ ifdef
 MOZ_PLACES
 class
 myDownloadObserver
-MOZ_FINAL
+final
 :
 public
 nsIDownloadObserver
@@ -1263,7 +1263,7 @@ ifdef
 MOZ_PLACES
 class
 AsyncFaviconDataReady
-MOZ_FINAL
+final
 :
 public
 nsIFaviconDataCallback

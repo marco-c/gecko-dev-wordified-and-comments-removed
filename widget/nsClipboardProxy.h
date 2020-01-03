@@ -87,7 +87,7 @@ NS_CLIPBOARDPROXY_IID
 )
 class
 nsClipboardProxy
-MOZ_FINAL
+final
 :
 public
 nsIClipboardProxy
@@ -109,7 +109,7 @@ ClipboardCapabilities
 &
 aClipboardCaps
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -444,7 +444,7 @@ op
 }
 class
 RResumePoint
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -500,7 +500,7 @@ const
 ;
 class
 RBitNot
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -538,7 +538,7 @@ const
 ;
 class
 RBitAnd
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -576,7 +576,7 @@ const
 ;
 class
 RBitOr
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -614,7 +614,7 @@ const
 ;
 class
 RBitXor
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -652,7 +652,7 @@ const
 ;
 class
 RLsh
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -690,7 +690,7 @@ const
 ;
 class
 RRsh
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -728,7 +728,7 @@ const
 ;
 class
 RUrsh
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -766,7 +766,7 @@ const
 ;
 class
 RAdd
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -809,7 +809,7 @@ const
 ;
 class
 RSub
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -852,7 +852,7 @@ const
 ;
 class
 RMul
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -895,7 +895,7 @@ const
 ;
 class
 RDiv
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -938,7 +938,7 @@ const
 ;
 class
 RMod
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -976,7 +976,7 @@ const
 ;
 class
 RNot
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1014,7 +1014,7 @@ const
 ;
 class
 RConcat
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1052,7 +1052,7 @@ const
 ;
 class
 RStringLength
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1090,7 +1090,7 @@ const
 ;
 class
 RArgumentsLength
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1128,7 +1128,7 @@ const
 ;
 class
 RFloor
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1166,7 +1166,7 @@ const
 ;
 class
 RCeil
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1204,7 +1204,7 @@ const
 ;
 class
 RRound
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1242,7 +1242,7 @@ const
 ;
 class
 RCharCodeAt
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1280,7 +1280,7 @@ const
 ;
 class
 RFromCharCode
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1318,7 +1318,7 @@ const
 ;
 class
 RPow
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1356,7 +1356,7 @@ const
 ;
 class
 RPowHalf
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1394,7 +1394,7 @@ const
 ;
 class
 RMinMax
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1437,7 +1437,7 @@ const
 ;
 class
 RAbs
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1475,7 +1475,7 @@ const
 ;
 class
 RSqrt
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1518,7 +1518,7 @@ const
 ;
 class
 RAtan2
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1556,7 +1556,7 @@ const
 ;
 class
 RHypot
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1599,7 +1599,7 @@ const
 ;
 class
 RMathFunction
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1642,7 +1642,7 @@ const
 ;
 class
 RStringSplit
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1680,7 +1680,7 @@ const
 ;
 class
 RRegExpExec
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1718,7 +1718,7 @@ const
 ;
 class
 RRegExpTest
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1756,7 +1756,7 @@ const
 ;
 class
 RRegExpReplace
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1794,7 +1794,7 @@ const
 ;
 class
 RStringReplace
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1832,7 +1832,7 @@ const
 ;
 class
 RTypeOf
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1870,7 +1870,7 @@ const
 ;
 class
 RToDouble
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1908,7 +1908,7 @@ const
 ;
 class
 RToFloat32
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1946,7 +1946,7 @@ const
 ;
 class
 RTruncateToInt32
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -1984,7 +1984,7 @@ const
 ;
 class
 RNewObject
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -2030,7 +2030,7 @@ const
 ;
 class
 RNewArray
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -2076,7 +2076,7 @@ const
 ;
 class
 RNewDerivedTypedObject
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -2114,7 +2114,7 @@ const
 ;
 class
 RCreateThisWithTemplate
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -2157,7 +2157,7 @@ const
 ;
 class
 RLambda
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -2195,7 +2195,7 @@ const
 ;
 class
 RSimdBox
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -2238,7 +2238,7 @@ const
 ;
 class
 RObjectState
-MOZ_FINAL
+final
 :
 public
 RInstruction
@@ -2295,7 +2295,7 @@ const
 ;
 class
 RArrayState
-MOZ_FINAL
+final
 :
 public
 RInstruction

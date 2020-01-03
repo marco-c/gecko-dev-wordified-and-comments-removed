@@ -72,7 +72,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 nsIFrame
@@ -104,7 +104,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsresult
@@ -176,7 +176,7 @@ aEventStatus
 bool
 aControlHeld
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -198,7 +198,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -220,7 +220,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -238,7 +238,7 @@ WidgetGUIEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 void
 StartRepeat

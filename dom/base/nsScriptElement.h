@@ -73,7 +73,7 @@ nsresult
 FireErrorEvent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -90,7 +90,7 @@ bool
 MaybeProcessScript
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

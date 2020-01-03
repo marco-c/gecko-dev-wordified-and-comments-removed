@@ -43,7 +43,7 @@ dom
 {
 class
 DeviceRotationRate
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -109,7 +109,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 DeviceRotationRateBinding
@@ -189,7 +189,7 @@ mGamma
 ;
 class
 DeviceAcceleration
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -255,7 +255,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 DeviceAccelerationBinding
@@ -335,7 +335,7 @@ mZ
 ;
 class
 DeviceMotionEvent
-MOZ_FINAL
+final
 :
 public
 Event
@@ -388,7 +388,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 DeviceMotionEventBinding

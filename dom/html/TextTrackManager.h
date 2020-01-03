@@ -120,7 +120,7 @@ TextTrackCue
 ;
 class
 TextTrackManager
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener

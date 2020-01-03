@@ -30,7 +30,7 @@ dom
 {
 class
 MobileConnectionArray
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -77,7 +77,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 MobileConnection
 *

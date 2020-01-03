@@ -84,7 +84,7 @@ sniffer
 "
 class
 nsMediaSniffer
-MOZ_FINAL
+final
 :
 public
 nsIContentSniffer

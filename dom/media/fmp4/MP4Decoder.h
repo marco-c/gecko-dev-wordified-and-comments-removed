@@ -32,7 +32,7 @@ MediaDecoder
 Clone
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -59,7 +59,7 @@ MediaDecoderStateMachine
 CreateStateMachine
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -72,7 +72,7 @@ CDMProxy
 *
 aProxy
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif

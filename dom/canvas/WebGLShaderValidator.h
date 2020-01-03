@@ -40,7 +40,7 @@ webgl
 {
 class
 ShaderValidator
-MOZ_FINAL
+final
 {
 const
 ShHandle

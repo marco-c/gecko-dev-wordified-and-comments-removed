@@ -539,7 +539,7 @@ mRowEnd
 ;
 struct
 GridTemplateAreasValue
-MOZ_FINAL
+final
 {
 nsTArray
 <
@@ -674,7 +674,7 @@ delete
 ;
 class
 FontFamilyListRefCnt
-MOZ_FINAL
+final
 :
 public
 FontFamilyList
@@ -2978,7 +2978,7 @@ nsCSSValue
 :
 :
 Array
-MOZ_FINAL
+final
 {
 static
 Array
@@ -3700,7 +3700,7 @@ delete
 ;
 struct
 nsCSSValueList_heap
-MOZ_FINAL
+final
 :
 public
 nsCSSValueList
@@ -3732,7 +3732,7 @@ nsCSSValueList_heap
 ;
 struct
 nsCSSValueSharedList
-MOZ_FINAL
+final
 {
 nsCSSValueSharedList
 (
@@ -4221,7 +4221,7 @@ sides
 ;
 struct
 nsCSSRect_heap
-MOZ_FINAL
+final
 :
 public
 nsCSSRect
@@ -4596,7 +4596,7 @@ mYValue
 ;
 struct
 nsCSSValuePair_heap
-MOZ_FINAL
+final
 :
 public
 nsCSSValuePair
@@ -4978,7 +4978,7 @@ mZValue
 ;
 struct
 nsCSSValueTriplet_heap
-MOZ_FINAL
+final
 :
 public
 nsCSSValueTriplet
@@ -5306,7 +5306,7 @@ delete
 ;
 struct
 nsCSSValuePairList_heap
-MOZ_FINAL
+final
 :
 public
 nsCSSValuePairList
@@ -5541,7 +5541,7 @@ const
 ;
 struct
 nsCSSValueGradient
-MOZ_FINAL
+final
 {
 nsCSSValueGradient
 (
@@ -5969,7 +5969,7 @@ delete
 ;
 struct
 nsCSSValueTokenStream
-MOZ_FINAL
+final
 {
 nsCSSValueTokenStream
 (
@@ -6265,7 +6265,7 @@ delete
 ;
 class
 nsCSSValueFloatColor
-MOZ_FINAL
+final
 {
 public
 :

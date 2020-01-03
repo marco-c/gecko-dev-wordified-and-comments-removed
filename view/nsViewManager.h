@@ -79,7 +79,7 @@ nsIPresShell
 ;
 class
 nsViewManager
-MOZ_FINAL
+final
 {
 ~
 nsViewManager

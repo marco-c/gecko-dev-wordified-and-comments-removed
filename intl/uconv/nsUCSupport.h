@@ -211,14 +211,14 @@ SetInputErrorBehavior
 int32_t
 aBehavior
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 char16_t
 GetCharacterForUnMapped
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

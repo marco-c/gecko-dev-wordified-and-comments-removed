@@ -108,7 +108,7 @@ nsINode
 ;
 class
 txTransformNotifier
-MOZ_FINAL
+final
 :
 public
 nsIScriptLoaderObserver
@@ -137,7 +137,7 @@ aWasAlternate
 nsresult
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Init

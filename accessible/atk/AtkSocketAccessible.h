@@ -114,7 +114,7 @@ void
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -125,7 +125,7 @@ void
 *
 aOutAccessible
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

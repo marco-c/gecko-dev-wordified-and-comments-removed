@@ -137,7 +137,7 @@ mSent
 class
 MOZ_STACK_CLASS
 AutoChildRequest
-MOZ_FINAL
+final
 :
 public
 AutoChildBase
@@ -198,7 +198,7 @@ mRequestOrVoid
 class
 MOZ_STACK_CLASS
 AutoChildRequestList
-MOZ_FINAL
+final
 :
 public
 AutoChildBase
@@ -260,7 +260,7 @@ mRequestList
 class
 MOZ_STACK_CLASS
 AutoChildRequestResponse
-MOZ_FINAL
+final
 :
 public
 AutoChildBase
@@ -387,7 +387,7 @@ mSent
 class
 MOZ_STACK_CLASS
 AutoParentRequestList
-MOZ_FINAL
+final
 :
 public
 AutoParentBase
@@ -450,7 +450,7 @@ mRequestList
 class
 MOZ_STACK_CLASS
 AutoParentResponseList
-MOZ_FINAL
+final
 :
 public
 AutoParentBase
@@ -513,7 +513,7 @@ mResponseList
 class
 MOZ_STACK_CLASS
 AutoParentResponseOrVoid
-MOZ_FINAL
+final
 :
 public
 AutoParentBase

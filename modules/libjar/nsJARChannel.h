@@ -146,7 +146,7 @@ nsJARInputThunk
 ;
 class
 nsJARChannel
-MOZ_FINAL
+final
 :
 public
 nsIJARChannel
@@ -280,7 +280,7 @@ MemoryDownloader
 Data
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 #
 if

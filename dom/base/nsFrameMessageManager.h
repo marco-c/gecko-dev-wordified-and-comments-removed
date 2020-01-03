@@ -533,7 +533,7 @@ JSObject
 >
 aObjp
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -551,7 +551,7 @@ mObj
 ;
 class
 nsFrameMessageManager
-MOZ_FINAL
+final
 :
 public
 nsIContentFrameMessageManager
@@ -1848,7 +1848,7 @@ sScriptCacheCleaner
 ;
 class
 nsScriptCacheCleaner
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -1914,7 +1914,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 nsMessageManagerScriptExecutor
 :

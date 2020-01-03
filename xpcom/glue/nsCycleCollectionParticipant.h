@@ -367,7 +367,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -391,7 +391,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -416,7 +416,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -441,7 +441,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -466,7 +466,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -491,7 +491,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -516,7 +516,7 @@ void
 aClosure
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -844,7 +844,7 @@ void
 *
 aClosure
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -916,7 +916,7 @@ void
 *
 aPtr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -928,7 +928,7 @@ void
 *
 aPtr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -947,7 +947,7 @@ void
 *
 aClosure
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool
@@ -2178,7 +2178,7 @@ void
 CheckForRightParticipant
 (
 )
-MOZ_OVERRIDE
+override
 #
 define
 NS_CHECK_FOR_RIGHT_PARTICIPANT_BODY
@@ -2288,7 +2288,7 @@ nsCycleCollectionTraversalCallback
 cb
 )
 \
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2301,7 +2301,7 @@ void
 *
 p
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -2420,7 +2420,7 @@ void
 *
 p
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -2483,7 +2483,7 @@ void
 BaseCycleCollectable
 (
 )
-MOZ_FINAL
+final
 {
 }
 #
@@ -2601,7 +2601,7 @@ p
 bool
 aRemovingAllowed
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2614,7 +2614,7 @@ void
 *
 p
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2627,7 +2627,7 @@ void
 *
 p
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMPL_GET_XPCOM_CYCLE_COLLECTION_PARTICIPANT
@@ -2702,7 +2702,7 @@ void
 closure
 )
 \
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMPL_GET_XPCOM_CYCLE_COLLECTION_PARTICIPANT
@@ -2783,7 +2783,7 @@ void
 *
 closure
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2798,7 +2798,7 @@ p
 bool
 aRemovingAllowed
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2811,7 +2811,7 @@ void
 *
 p
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2824,7 +2824,7 @@ void
 *
 p
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMPL_GET_XPCOM_CYCLE_COLLECTION_PARTICIPANT
@@ -2902,7 +2902,7 @@ void
 *
 closure
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2917,7 +2917,7 @@ p
 bool
 aRemovingAllowed
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2930,7 +2930,7 @@ void
 *
 p
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -2943,7 +2943,7 @@ void
 *
 p
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMPL_GET_XPCOM_CYCLE_COLLECTION_PARTICIPANT
@@ -2998,7 +2998,7 @@ nsCycleCollectionTraversalCallback
 cb
 )
 \
-MOZ_OVERRIDE
+override
 ;
 \
 static
@@ -3066,7 +3066,7 @@ void
 *
 p
 )
-MOZ_OVERRIDE
+override
 ;
 #
 define
@@ -3206,7 +3206,7 @@ void
 closure
 )
 \
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMPL_GET_XPCOM_CYCLE_COLLECTION_PARTICIPANT
@@ -3246,7 +3246,7 @@ void
 *
 n
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -3259,7 +3259,7 @@ void
 *
 n
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -3272,7 +3272,7 @@ void
 *
 n
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -3286,7 +3286,7 @@ nsCycleCollectionTraversalCallback
 cb
 )
 \
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -3299,7 +3299,7 @@ void
 *
 n
 )
-MOZ_OVERRIDE
+override
 \
 {
 \
@@ -3495,7 +3495,7 @@ p
 bool
 aRemovingAllowed
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -3508,7 +3508,7 @@ void
 *
 p
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -3521,7 +3521,7 @@ void
 *
 p
 )
-MOZ_OVERRIDE
+override
 ;
 \
 static
@@ -3602,7 +3602,7 @@ p
 bool
 aRemovingAllowed
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -3615,7 +3615,7 @@ void
 *
 p
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD_
@@ -3628,7 +3628,7 @@ void
 *
 p
 )
-MOZ_OVERRIDE
+override
 ;
 \
 static
@@ -3710,7 +3710,7 @@ void
 closure
 )
 \
-MOZ_OVERRIDE
+override
 ;
 \
 static

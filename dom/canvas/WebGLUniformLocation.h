@@ -72,7 +72,7 @@ LinkedProgramInfo
 }
 class
 WebGLUniformLocation
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -107,7 +107,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 WebGLContext
 *

@@ -35,7 +35,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DrawTargetRecording
-MOZ_OVERRIDE
+override
 )
 DrawTargetRecording
 (
@@ -62,7 +62,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mFinalDT
@@ -79,7 +79,7 @@ GetBackendType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mFinalDT
@@ -98,14 +98,14 @@ SourceSurface
 Snapshot
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntSize
 GetSize
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mFinalDT
@@ -121,7 +121,7 @@ void
 Flush
 (
 )
-MOZ_OVERRIDE
+override
 {
 mFinalDT
 -
@@ -163,7 +163,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -189,7 +189,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -215,7 +215,7 @@ aSigma
 CompositionOp
 aOperator
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -226,7 +226,7 @@ Rect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -244,7 +244,7 @@ IntPoint
 &
 aDestination
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -267,7 +267,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -298,7 +298,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -333,7 +333,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -364,7 +364,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -387,7 +387,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -419,7 +419,7 @@ aRenderingOptions
 =
 nullptr
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -442,7 +442,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -466,7 +466,7 @@ DrawOptions
 (
 )
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -477,7 +477,7 @@ Path
 *
 aPath
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -488,14 +488,14 @@ Rect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 PopClip
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -518,7 +518,7 @@ SurfaceFormat
 aFormat
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -532,7 +532,7 @@ SourceSurface
 aSurface
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -547,7 +547,7 @@ NativeSurface
 aSurface
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -564,7 +564,7 @@ SurfaceFormat
 aFormat
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -582,7 +582,7 @@ FillRule
 FILL_WINDING
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -605,7 +605,7 @@ ExtendMode
 CLAMP
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TemporaryRef
@@ -617,7 +617,7 @@ CreateFilter
 FilterType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -628,7 +628,7 @@ Matrix
 &
 aTransform
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -638,7 +638,7 @@ GetNativeSurface
 NativeSurfaceType
 aType
 )
-MOZ_OVERRIDE
+override
 {
 return
 mFinalDT

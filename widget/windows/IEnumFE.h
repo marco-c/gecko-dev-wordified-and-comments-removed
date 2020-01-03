@@ -228,7 +228,7 @@ mFormat
 ;
 class
 CEnumFormatEtc
-MOZ_FINAL
+final
 :
 public
 IEnumFORMATETC

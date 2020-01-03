@@ -253,7 +253,7 @@ char
 *
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetSource
@@ -271,7 +271,7 @@ nsIRDFResource
 *
 aSource
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -302,7 +302,7 @@ nsISimpleEnumerator
 *
 aSources
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -333,7 +333,7 @@ nsIRDFNode
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -364,7 +364,7 @@ nsISimpleEnumerator
 *
 aTargets
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -394,7 +394,7 @@ aTarget
 bool
 aTruthValue
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -422,7 +422,7 @@ nsIRDFNode
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -452,7 +452,7 @@ nsIRDFNode
 *
 aNewTarget
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -483,7 +483,7 @@ nsIRDFNode
 *
 aTarget
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -516,7 +516,7 @@ bool
 *
 hasAssertion
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -539,7 +539,7 @@ nsIRDFObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -552,7 +552,7 @@ nsIRDFObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -571,7 +571,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -598,7 +598,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -623,7 +623,7 @@ nsISimpleEnumerator
 *
 aLabels
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -647,7 +647,7 @@ nsISimpleEnumerator
 *
 aLabels
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -668,7 +668,7 @@ nsISimpleEnumerator
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -691,7 +691,7 @@ nsISimpleEnumerator
 *
 aCommands
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IsCommandEnabled
@@ -709,7 +709,7 @@ bool
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DoCommand
@@ -724,13 +724,13 @@ nsISupportsArray
 *
 aArguments
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 BeginUpdateBatch
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -745,7 +745,7 @@ NS_IMETHOD
 EndUpdateBatch
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInner
@@ -763,7 +763,7 @@ bool
 *
 _result
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Init
@@ -773,13 +773,13 @@ char
 *
 uri
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Flush
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 FlushTo
@@ -789,7 +789,7 @@ char
 *
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Refresh
@@ -797,7 +797,7 @@ Refresh
 bool
 sync
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIOBSERVER
 }

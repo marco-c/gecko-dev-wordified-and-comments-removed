@@ -13,7 +13,7 @@ h
 "
 class
 nsClipboard
-MOZ_FINAL
+final
 :
 public
 nsIClipboard

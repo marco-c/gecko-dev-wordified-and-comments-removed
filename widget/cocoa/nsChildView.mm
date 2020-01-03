@@ -2222,7 +2222,7 @@ gl
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mGLContext
@@ -2241,7 +2241,7 @@ gfx
 SurfaceFormat
 aFormat
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -2280,7 +2280,7 @@ GetProjMatrix
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mProjMatrix
@@ -2294,7 +2294,7 @@ ShaderProgramOGL
 *
 aProg
 )
-MOZ_OVERRIDE
+override
 {
 mGLContext
 -
@@ -2332,7 +2332,7 @@ Rect
 &
 aTextureRect
 )
-MOZ_OVERRIDE
+override
 ;
 void
 BeginFrame

@@ -115,7 +115,7 @@ StreamList
 ;
 class
 Manager
-MOZ_FINAL
+final
 {
 public
 :

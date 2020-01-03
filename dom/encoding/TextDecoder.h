@@ -58,7 +58,7 @@ ArrayBufferViewOrArrayBuffer
 ;
 class
 TextDecoder
-MOZ_FINAL
+final
 :
 public
 NonRefcountedDOMObject

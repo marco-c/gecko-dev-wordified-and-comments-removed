@@ -106,7 +106,7 @@ PCacheReadStream
 *
 aReadStreamOut
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -129,7 +129,7 @@ FileDescriptor
 &
 aFds
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -152,7 +152,7 @@ FileDescriptor
 &
 aFdsOut
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -165,7 +165,7 @@ nsID
 &
 aId
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -175,7 +175,7 @@ void
 AssertOwningThread
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -186,7 +186,7 @@ ActorDestroy
 ActorDestroyReason
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -197,7 +197,7 @@ nsID
 &
 aId
 )
-MOZ_OVERRIDE
+override
 ;
 void
 NotifyClose

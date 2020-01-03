@@ -133,7 +133,7 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -216,7 +216,7 @@ MP4Sample
 *
 aSample
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -368,7 +368,7 @@ MP4Sample
 *
 aSample
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -470,7 +470,7 @@ nsresult
 Flush
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -524,7 +524,7 @@ nsresult
 Drain
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -571,7 +571,7 @@ nsresult
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -755,14 +755,14 @@ MP4Sample
 *
 aSample
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

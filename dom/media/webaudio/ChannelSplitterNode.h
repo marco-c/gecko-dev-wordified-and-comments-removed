@@ -56,7 +56,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint16_t
@@ -64,7 +64,7 @@ NumberOfOutputs
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mOutputCount
@@ -78,7 +78,7 @@ NodeType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 "
@@ -94,7 +94,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

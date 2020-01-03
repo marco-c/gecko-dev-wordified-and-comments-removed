@@ -214,7 +214,7 @@ workers
 Status
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -531,7 +531,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 already_AddRefed

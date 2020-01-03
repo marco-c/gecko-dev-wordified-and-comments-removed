@@ -23726,7 +23726,7 @@ location
 unsigned
 lineno
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -23891,7 +23891,7 @@ char
 *
 mirType
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -24037,7 +24037,7 @@ strategy
 TrackedOutcome
 outcome
 )
-MOZ_OVERRIDE
+override
 {
 Sprint
 (

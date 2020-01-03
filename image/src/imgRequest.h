@@ -153,7 +153,7 @@ ProgressTracker
 }
 class
 imgRequest
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

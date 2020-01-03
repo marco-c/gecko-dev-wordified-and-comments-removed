@@ -69,7 +69,7 @@ datasignatureverifier
 "
 class
 nsDataSignatureVerifier
-MOZ_FINAL
+final
 :
 public
 nsIDataSignatureVerifier

@@ -46,7 +46,7 @@ NS_IMETHOD
 TransmitAutomaticData
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -61,7 +61,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsresult
@@ -96,7 +96,7 @@ nsIFrame
 *
 aFrame
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

@@ -75,7 +75,7 @@ EMBED_URI_SIZE
 128
 class
 nsAndroidHistory
-MOZ_FINAL
+final
 :
 public
 mozilla

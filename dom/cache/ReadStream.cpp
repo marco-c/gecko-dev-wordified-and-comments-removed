@@ -133,7 +133,7 @@ ReadStream
 :
 :
 Inner
-MOZ_FINAL
+final
 :
 public
 ReadStream
@@ -178,14 +178,14 @@ void
 CloseStream
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 CloseStreamWithoutReporting
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -197,7 +197,7 @@ nsID
 aId
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_METHOD
 Close
@@ -330,7 +330,7 @@ ReadStream
 :
 :
 Inner
-MOZ_OVERRIDE
+override
 )
 }
 ;
@@ -342,7 +342,7 @@ Inner
 :
 :
 NoteClosedRunnable
-MOZ_FINAL
+final
 :
 public
 nsCancelableRunnable
@@ -426,7 +426,7 @@ Inner
 :
 :
 ForgetRunnable
-MOZ_FINAL
+final
 :
 public
 nsCancelableRunnable

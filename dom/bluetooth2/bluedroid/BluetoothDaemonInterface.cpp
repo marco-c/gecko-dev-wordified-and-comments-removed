@@ -4137,7 +4137,7 @@ aPDU
 }
 class
 AdapterPropertiesInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -4304,7 +4304,7 @@ aPDU
 }
 class
 RemoteDevicePropertiesInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -4501,7 +4501,7 @@ aPDU
 }
 class
 DeviceFoundInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -4674,7 +4674,7 @@ aPDU
 }
 class
 PinRequestInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -4835,7 +4835,7 @@ aPDU
 }
 class
 SspRequestInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -5041,7 +5041,7 @@ aPDU
 }
 class
 BondStateChangedInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -5195,7 +5195,7 @@ aPDU
 }
 class
 AclStateChangedInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -5356,7 +5356,7 @@ aPDU
 }
 class
 DutModeRecvInitOp
-MOZ_FINAL
+final
 :
 private
 PDUInitOp
@@ -5745,7 +5745,7 @@ aPDU
 ;
 class
 BluetoothDaemonProtocol
-MOZ_FINAL
+final
 :
 public
 BluetoothDaemonPDUConsumer
@@ -5787,7 +5787,7 @@ BluetoothSetupResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 UnregisterModule
@@ -5798,7 +5798,7 @@ BluetoothSetupResultHandler
 *
 aRes
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Send
@@ -5810,7 +5810,7 @@ void
 *
 aUserData
 )
-MOZ_OVERRIDE
+override
 ;
 void
 StoreUserData
@@ -5820,7 +5820,7 @@ BluetoothDaemonPDU
 &
 aPDU
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Handle
@@ -5829,7 +5829,7 @@ BluetoothDaemonPDU
 &
 aPDU
 )
-MOZ_OVERRIDE
+override
 ;
 void
 *
@@ -6529,7 +6529,7 @@ userData
 }
 class
 BluetoothDaemonListenSocket
-MOZ_FINAL
+final
 :
 public
 ipc
@@ -6550,19 +6550,19 @@ void
 OnConnectSuccess
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnConnectError
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnDisconnect
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -6686,7 +6686,7 @@ LISTEN_SOCKET
 }
 class
 BluetoothDaemonChannel
-MOZ_FINAL
+final
 :
 public
 BluetoothDaemonConnection
@@ -6712,26 +6712,26 @@ void
 OnConnectSuccess
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnConnectError
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 OnDisconnect
 (
 )
-MOZ_OVERRIDE
+override
 ;
 ConnectionOrientedSocketIO
 *
 GetIO
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -6976,7 +6976,7 @@ BluetoothDaemonInterface
 :
 :
 InitResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothSetupResultHandler
@@ -7018,7 +7018,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -7046,7 +7046,7 @@ void
 RegisterModule
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -7547,7 +7547,7 @@ break
 }
 class
 BluetoothDaemonSocketConnector
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -7578,7 +7578,7 @@ int
 Create
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -7641,7 +7641,7 @@ char
 *
 aAddress
 )
-MOZ_OVERRIDE
+override
 {
 static
 const
@@ -7758,7 +7758,7 @@ SetUp
 int
 aFd
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -7805,7 +7805,7 @@ SetUpListenSocket
 int
 aFd
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -7822,7 +7822,7 @@ nsAString
 &
 aAddrStr
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -8295,7 +8295,7 @@ BluetoothDaemonInterface
 :
 :
 CleanupResultHandler
-MOZ_FINAL
+final
 :
 public
 BluetoothSetupResultHandler
@@ -8330,7 +8330,7 @@ OnError
 BluetoothStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 Proceed
 (
@@ -8341,7 +8341,7 @@ void
 UnregisterModule
 (
 )
-MOZ_OVERRIDE
+override
 {
 Proceed
 (

@@ -63,7 +63,7 @@ nsresult
 Send
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -71,7 +71,7 @@ void
 OnEvent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

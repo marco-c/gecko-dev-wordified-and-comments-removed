@@ -164,7 +164,7 @@ NS_DATATRANSFER_IID
 }
 class
 DataTransfer
-MOZ_FINAL
+final
 :
 public
 nsIDOMDataTransfer
@@ -283,7 +283,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsISupports
 *

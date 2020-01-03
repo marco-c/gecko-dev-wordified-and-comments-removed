@@ -71,7 +71,7 @@ uint16_t
 *
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -96,7 +96,7 @@ bool
 *
 aPartial
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -121,7 +121,7 @@ bool
 *
 aIsUpgrade
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -146,7 +146,7 @@ nsACString
 &
 aUpdateDomain
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -172,7 +172,7 @@ nsIURI
 *
 aManifestURI
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -197,7 +197,7 @@ bool
 *
 aSucceeded
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -229,7 +229,7 @@ nsIURI
 *
 aDocumentURI
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -263,7 +263,7 @@ nsIObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -291,7 +291,7 @@ nsIURI
 *
 aURI
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -318,7 +318,7 @@ aObserver
 bool
 aHoldWeak
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -344,7 +344,7 @@ nsIOfflineCacheUpdateObserver
 *
 aObserver
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -369,7 +369,7 @@ uint64_t
 *
 _result
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -391,7 +391,7 @@ NS_IMETHOD
 Cancel
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -409,7 +409,7 @@ Cancel
 }
 class
 OfflineCacheUpdateGlue
-MOZ_FINAL
+final
 :
 public
 nsSupportsWeakReference
@@ -442,7 +442,7 @@ Schedule
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 Init
@@ -464,7 +464,7 @@ aAppID
 bool
 aInBrowser
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIOFFLINECACHEUPDATEOBSERVER
 OfflineCacheUpdateGlue

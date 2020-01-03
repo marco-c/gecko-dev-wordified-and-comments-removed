@@ -946,7 +946,7 @@ mNetId
 ;
 class
 CommandChain
-MOZ_FINAL
+final
 {
 public
 :
@@ -1119,7 +1119,7 @@ mIsPending
 ;
 class
 NetworkUtils
-MOZ_FINAL
+final
 {
 public
 :

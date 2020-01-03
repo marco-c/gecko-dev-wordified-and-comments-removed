@@ -200,7 +200,7 @@ ipc
 {
 class
 DoWorkRunnable
-MOZ_FINAL
+final
 :
 public
 nsICancelableRunnable

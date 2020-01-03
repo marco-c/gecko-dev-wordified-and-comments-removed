@@ -571,7 +571,7 @@ D3D10_FEATURE_LEVEL_9_3
 ;
 class
 GfxD2DSurfaceReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -718,7 +718,7 @@ nsIMemoryReporter
 endif
 class
 GfxD2DVramReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -936,7 +936,7 @@ rendering_mode
 "
 class
 GPUAdapterReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -1630,7 +1630,7 @@ sD3D11MemoryUsed
 ;
 class
 D3D11TextureReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -1656,7 +1656,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT
@@ -1703,7 +1703,7 @@ sD3D9MemoryUsed
 ;
 class
 D3D9TextureReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -1729,7 +1729,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT
@@ -1776,7 +1776,7 @@ sD3D9SurfaceImageUsed
 ;
 class
 D3D9SurfaceImageReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -1802,7 +1802,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT
@@ -1849,7 +1849,7 @@ sD3D9SharedTextureUsed
 ;
 class
 D3D9SharedTextureReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -1875,7 +1875,7 @@ aData
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 return
 MOZ_COLLECT_REPORT
@@ -5447,21 +5447,6 @@ DeviceResetReason
 :
 :
 INVALID_CALL
-;
-break
-;
-case
-E_OUTOFMEMORY
-:
-*
-aResetReason
-=
-DeviceResetReason
-:
-:
-OUT_OF_MEMORY
-;
-break
 ;
 default
 :
@@ -9049,7 +9034,7 @@ dwmEnabled
 }
 class
 D3DVsyncSource
-MOZ_FINAL
+final
 :
 public
 VsyncSource
@@ -9058,7 +9043,7 @@ public
 :
 class
 D3DVsyncDisplay
-MOZ_FINAL
+final
 :
 public
 VsyncSource
@@ -9144,7 +9129,7 @@ void
 EnableVsync
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -9217,7 +9202,7 @@ void
 DisableVsync
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -9261,7 +9246,7 @@ bool
 IsVsyncEnabled
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -9658,7 +9643,7 @@ Display
 GetGlobalDisplay
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 *

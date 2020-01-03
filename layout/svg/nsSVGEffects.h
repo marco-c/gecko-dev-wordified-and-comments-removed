@@ -319,7 +319,7 @@ Element
 GetTarget
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mElement
@@ -334,7 +334,7 @@ void
 DoUpdate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 class
 SourceReference
@@ -371,7 +371,7 @@ Element
 *
 aTo
 )
-MOZ_OVERRIDE
+override
 {
 mContainer
 -
@@ -409,7 +409,7 @@ bool
 IsPersistent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -526,7 +526,7 @@ void
 DoUpdate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsSVGFrameReferenceFromProperty
 mFrameReference
@@ -535,7 +535,7 @@ mFrameReference
 ;
 class
 nsSVGFilterReference
-MOZ_FINAL
+final
 :
 public
 nsSVGIDRenderingObserver
@@ -607,7 +607,7 @@ void
 Invalidate
 (
 )
-MOZ_OVERRIDE
+override
 {
 DoUpdate
 (
@@ -629,7 +629,7 @@ void
 DoUpdate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -773,7 +773,7 @@ void
 DoUpdate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsSVGFrameReferenceFromProperty
 mFrameReference
@@ -815,7 +815,7 @@ void
 DoUpdate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -856,7 +856,7 @@ bool
 ObservesReflow
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -869,7 +869,7 @@ void
 DoUpdate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -918,7 +918,7 @@ void
 DoUpdate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

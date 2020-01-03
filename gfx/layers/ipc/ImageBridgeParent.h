@@ -133,7 +133,7 @@ layers
 {
 class
 ImageBridgeParent
-MOZ_FINAL
+final
 :
 public
 PImageBridgeParent
@@ -186,7 +186,7 @@ GetCompositorBackendType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -195,7 +195,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 static
 PImageBridgeParent
@@ -220,7 +220,7 @@ CompositableHost
 *
 aCompositableHost
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -237,7 +237,7 @@ FenceHandle
 &
 aFence
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -251,7 +251,7 @@ AsyncParentMessageData
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 base
@@ -261,7 +261,7 @@ ProcessId
 GetChildProcessId
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mChildProcessId
@@ -279,7 +279,7 @@ EditReplyArray
 *
 aReply
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -290,7 +290,7 @@ EditArray
 &
 aEdits
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -298,7 +298,7 @@ IsAsync
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -315,7 +315,7 @@ aInfo
 uint64_t
 *
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 DeallocPCompositableParent
@@ -324,7 +324,7 @@ PCompositableParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTextureParent
@@ -340,7 +340,7 @@ TextureFlags
 &
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -350,7 +350,7 @@ PTextureParent
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -364,21 +364,21 @@ AsyncChildMessageData
 &
 aMessages
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvWillStop
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvStop
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 MessageLoop
@@ -387,7 +387,7 @@ GetMessageLoop
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 AllocShmem
@@ -409,7 +409,7 @@ Shmem
 *
 aShmem
 )
-MOZ_OVERRIDE
+override
 {
 return
 PImageBridgeParent
@@ -443,7 +443,7 @@ Shmem
 *
 aShmem
 )
-MOZ_OVERRIDE
+override
 {
 return
 PImageBridgeParent
@@ -467,7 +467,7 @@ Shmem
 &
 aShmem
 )
-MOZ_OVERRIDE
+override
 {
 PImageBridgeParent
 :
@@ -484,7 +484,7 @@ IsSameProcess
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -495,7 +495,7 @@ OpReplyRemoveTexture
 &
 aReply
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -600,7 +600,7 @@ ProtocolCloneContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

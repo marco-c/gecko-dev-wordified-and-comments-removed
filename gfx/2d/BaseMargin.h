@@ -16,7 +16,7 @@ mozilla
 {
 struct
 Sides
-MOZ_FINAL
+final
 {
 Sides
 (

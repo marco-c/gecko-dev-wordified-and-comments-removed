@@ -374,7 +374,7 @@ size_t
 *
 bytes_read
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStream
@@ -403,7 +403,7 @@ size_t
 *
 bytes_read
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStream
@@ -426,7 +426,7 @@ int64_t
 *
 size
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStream

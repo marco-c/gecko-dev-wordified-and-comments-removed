@@ -155,7 +155,7 @@ h
 endif
 class
 nsDownloadManager
-MOZ_FINAL
+final
 :
 public
 nsIDownloadManager
@@ -774,7 +774,7 @@ nsDownload
 ;
 class
 nsDownload
-MOZ_FINAL
+final
 :
 public
 nsIDownload

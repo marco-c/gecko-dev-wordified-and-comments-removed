@@ -77,7 +77,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -87,7 +87,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -97,7 +97,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -109,7 +109,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -124,7 +124,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -136,7 +136,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 nsTableRowFrame
@@ -157,7 +157,7 @@ GetUsedMargin
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -165,7 +165,7 @@ GetUsedBorder
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -173,7 +173,7 @@ GetUsedPadding
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -191,7 +191,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 nsTableCellFrame
 *
@@ -217,7 +217,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DidResize
@@ -231,7 +231,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -245,7 +245,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -571,7 +571,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame
@@ -600,7 +600,7 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -615,14 +615,14 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 InvalidateFrameForRemoval
 (
 )
-MOZ_OVERRIDE
+override
 {
 InvalidateFrameSubtree
 (
@@ -643,7 +643,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -686,7 +686,7 @@ aReflowState
 nullptr
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nscoord
 ComputeCellXOffset

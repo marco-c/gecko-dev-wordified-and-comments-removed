@@ -27,7 +27,7 @@ mozilla
 {
 class
 GenericFactory
-MOZ_FINAL
+final
 :
 public
 nsIFactory

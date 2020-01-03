@@ -391,7 +391,7 @@ ETLD_STR_NUM1
 ;
 class
 nsEffectiveTLDService
-MOZ_FINAL
+final
 :
 public
 nsIEffectiveTLDService

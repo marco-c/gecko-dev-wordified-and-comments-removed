@@ -3130,7 +3130,7 @@ KeyedHistogram
 ;
 class
 TelemetryImpl
-MOZ_FINAL
+final
 :
 public
 nsITelemetry

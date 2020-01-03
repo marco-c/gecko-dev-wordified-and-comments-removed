@@ -651,7 +651,7 @@ mBuffer
 ;
 class
 WakeLockListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMMozWakeLockListener

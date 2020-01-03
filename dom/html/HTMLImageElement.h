@@ -80,7 +80,7 @@ ResponsiveImageSelector
 ;
 class
 HTMLImageElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -162,7 +162,7 @@ Draggable
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -172,7 +172,7 @@ bool
 aIgnoreTabindex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIDOMHTMLIMAGEELEMENT
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
@@ -184,7 +184,7 @@ CORSMode
 GetCORSMode
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -203,7 +203,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsChangeHint
@@ -217,7 +217,7 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -231,7 +231,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -239,7 +239,7 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -249,7 +249,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsHTMLFocusable
@@ -263,7 +263,7 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetAttr
@@ -311,7 +311,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -329,7 +329,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -340,7 +340,7 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventStates
@@ -348,7 +348,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -369,7 +369,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 CopyInnerTo
@@ -899,7 +899,7 @@ void
 DestroyContent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool
@@ -1069,7 +1069,7 @@ DOMString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1080,7 +1080,7 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -1100,7 +1100,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 UpdateFormOwner
@@ -1123,7 +1123,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -1141,7 +1141,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 HTMLFormElement
 *

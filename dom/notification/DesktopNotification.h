@@ -122,7 +122,7 @@ DesktopNotification
 ;
 class
 DesktopNotificationCenter
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -223,7 +223,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -273,7 +273,7 @@ DesktopNotificationRequest
 ;
 class
 DesktopNotification
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -378,7 +378,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Show
@@ -479,7 +479,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

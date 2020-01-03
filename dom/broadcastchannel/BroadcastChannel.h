@@ -81,7 +81,7 @@ BroadcastChannelMessage
 ;
 class
 BroadcastChannel
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -140,7 +140,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 already_AddRefed
@@ -253,7 +253,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -272,7 +272,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Shutdown

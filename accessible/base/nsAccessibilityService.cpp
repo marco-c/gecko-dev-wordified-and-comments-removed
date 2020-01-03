@@ -1844,7 +1844,7 @@ sPluginTimers
 ;
 class
 PluginTimerCallBack
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback
@@ -1878,7 +1878,7 @@ nsITimer
 *
 aTimer
 )
-MOZ_FINAL
+final
 {
 if
 (

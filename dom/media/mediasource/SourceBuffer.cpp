@@ -366,8 +366,8 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 mSourceBuffer
 -
@@ -442,8 +442,8 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 if
 (

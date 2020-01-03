@@ -136,7 +136,7 @@ mozPersonalDictionaryLoader
 ;
 class
 mozPersonalDictionary
-MOZ_FINAL
+final
 :
 public
 mozIPersonalDictionary

@@ -61,7 +61,7 @@ FileDescriptor
 ;
 class
 FileDescriptorSetParent
-MOZ_FINAL
+final
 :
 public
 PFileDescriptorSetParent
@@ -122,7 +122,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -133,7 +133,7 @@ FileDescriptor
 &
 aFileDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

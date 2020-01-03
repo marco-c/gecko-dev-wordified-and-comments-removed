@@ -42,7 +42,7 @@ dom
 {
 class
 HTMLOutputElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLFormElement
@@ -89,7 +89,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 NS_FORM_OUTPUT
@@ -99,7 +99,7 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -108,7 +108,7 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -116,7 +116,7 @@ IsDisabled
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -140,7 +140,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 ParseAttribute
@@ -158,7 +158,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -167,14 +167,14 @@ DoneAddingChildren
 bool
 aHaveNotified
 )
-MOZ_OVERRIDE
+override
 ;
 EventStates
 IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -192,7 +192,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 void
 DescendantsChanged
@@ -226,7 +226,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsDOMSettableTokenList
 *

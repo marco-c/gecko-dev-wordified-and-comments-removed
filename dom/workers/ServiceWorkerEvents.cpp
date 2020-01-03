@@ -401,7 +401,7 @@ namespace
 {
 class
 CancelChannelRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -467,7 +467,7 @@ NS_OK
 ;
 class
 FinishResponse
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -689,7 +689,7 @@ rv
 ;
 class
 RespondWithHandler
-MOZ_FINAL
+final
 :
 public
 PromiseNativeHandler
@@ -752,7 +752,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RejectedCallback
@@ -772,7 +772,7 @@ Value
 >
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 void
 CancelRequest

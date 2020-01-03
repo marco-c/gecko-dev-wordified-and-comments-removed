@@ -670,7 +670,7 @@ this
 }
 class
 EnableRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -813,7 +813,7 @@ mPreemphasis
 ;
 class
 ReadAirplaneModeSettingTask
-MOZ_FINAL
+final
 :
 public
 nsISettingsServiceCallback
@@ -1073,7 +1073,7 @@ nsISettingsServiceCallback
 )
 class
 DisableRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1147,7 +1147,7 @@ NS_OK
 ;
 class
 SetFrequencyRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1189,7 +1189,7 @@ mFrequency
 ;
 class
 SeekRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1251,7 +1251,7 @@ mDirection
 ;
 class
 NotifyRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

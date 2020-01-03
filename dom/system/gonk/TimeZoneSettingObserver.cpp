@@ -295,7 +295,7 @@ TimeZoneSettingObserver
 ;
 class
 TimeZoneSettingCb
-MOZ_FINAL
+final
 :
 public
 nsISettingsServiceCallback

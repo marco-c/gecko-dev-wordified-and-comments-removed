@@ -38,7 +38,7 @@ storage
 {
 class
 AsyncStatementParams
-MOZ_FINAL
+final
 :
 public
 mozIStorageStatementParams

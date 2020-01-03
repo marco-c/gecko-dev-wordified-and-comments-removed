@@ -47,7 +47,7 @@ eMathMLFrameType
 GetMathMLFrameType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -60,7 +60,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -75,7 +75,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -93,13 +93,13 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 TransmitAutomaticData
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -109,7 +109,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nscoord
@@ -139,7 +139,7 @@ nsIFrame
 *
 aFrame
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

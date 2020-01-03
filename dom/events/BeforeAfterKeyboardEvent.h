@@ -71,7 +71,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 BeforeAfterKeyboardEventBinding

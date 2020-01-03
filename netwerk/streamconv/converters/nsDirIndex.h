@@ -23,7 +23,7 @@ h
 "
 class
 nsDirIndex
-MOZ_FINAL
+final
 :
 public
 nsIDirIndex

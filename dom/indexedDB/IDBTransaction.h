@@ -140,7 +140,7 @@ RequestParams
 ;
 class
 IDBTransaction
-MOZ_FINAL
+final
 :
 public
 IDBWrapperCache
@@ -759,7 +759,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -769,7 +769,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

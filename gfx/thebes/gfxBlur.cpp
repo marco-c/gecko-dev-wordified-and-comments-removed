@@ -1235,7 +1235,7 @@ mKey
 ;
 class
 BlurCache
-MOZ_FINAL
+final
 :
 public
 nsExpirationTracker

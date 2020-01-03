@@ -70,7 +70,7 @@ android
 ;
 class
 MozMtpDatabase
-MOZ_FINAL
+final
 :
 public
 MtpDatabase
@@ -400,7 +400,7 @@ private
 :
 struct
 DbEntry
-MOZ_FINAL
+final
 {
 DbEntry
 (
@@ -741,7 +741,7 @@ ProtectedDbArray
 ;
 struct
 StorageEntry
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (

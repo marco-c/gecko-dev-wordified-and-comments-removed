@@ -318,7 +318,7 @@ mPresContext
 ;
 class
 nsMenuPopupFrame
-MOZ_FINAL
+final
 :
 public
 nsBoxFrame
@@ -349,7 +349,7 @@ nsMenuFrame
 GetCurrentMenuItem
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetCurrentMenuItem
@@ -358,14 +358,14 @@ nsMenuFrame
 *
 aMenuItem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 CurrentMenuIsBeingDestroyed
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ChangeMenuItem
@@ -376,7 +376,7 @@ aMenuItem
 bool
 aSelectFirstItem
 )
-MOZ_OVERRIDE
+override
 ;
 nsPopupState
 PopupState
@@ -405,7 +405,7 @@ SetActive
 bool
 aActiveFlag
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -416,7 +416,7 @@ bool
 IsActive
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -427,7 +427,7 @@ bool
 IsMenuBar
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -443,7 +443,7 @@ bool
 IsContextMenu
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mIsContextMenu
@@ -454,7 +454,7 @@ bool
 MenuClosed
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -467,14 +467,14 @@ LockMenuUntilClosed
 bool
 aLock
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsMenuLocked
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mIsMenuLocked
@@ -505,7 +505,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -519,7 +519,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -529,7 +529,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsNoAutoHide
@@ -580,7 +580,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -588,7 +588,7 @@ IsLeaf
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 LayoutPopup
@@ -672,7 +672,7 @@ bool
 IsMenu
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mPopupType
@@ -685,7 +685,7 @@ bool
 IsOpen
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mPopupState
@@ -864,7 +864,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsGkAtoms
@@ -885,7 +885,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -1103,14 +1103,14 @@ bool
 ReflowFinished
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ReflowCallbackCanceled
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1130,7 +1130,7 @@ uint32_t
 &
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 void
 InitPositionFromAnchorAlign

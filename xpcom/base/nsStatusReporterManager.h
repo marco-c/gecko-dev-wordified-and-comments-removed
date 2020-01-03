@@ -21,7 +21,7 @@ h
 "
 class
 nsStatusReporter
-MOZ_FINAL
+final
 :
 public
 nsIStatusReporter

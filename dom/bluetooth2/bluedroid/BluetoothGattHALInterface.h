@@ -50,7 +50,7 @@ BluetoothHALInterface
 ;
 class
 BluetoothGattClientHALInterface
-MOZ_FINAL
+final
 :
 public
 BluetoothGattClientInterface
@@ -481,7 +481,7 @@ endif
 ;
 class
 BluetoothGattHALInterface
-MOZ_FINAL
+final
 :
 public
 BluetoothGattInterface

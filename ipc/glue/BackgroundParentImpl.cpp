@@ -311,7 +311,7 @@ NS_IsMainThread
 }
 class
 TestParent
-MOZ_FINAL
+final
 :
 public
 mozilla
@@ -364,7 +364,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -1057,7 +1057,7 @@ namespace
 {
 class
 CheckPrincipalRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1455,7 +1455,7 @@ namespace
 {
 class
 RegisterServiceWorkerCallback
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1543,7 +1543,7 @@ mData
 ;
 class
 UnregisterServiceWorkerCallback
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1634,7 +1634,7 @@ mScope
 ;
 class
 CheckPrincipalWithCallbackRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable

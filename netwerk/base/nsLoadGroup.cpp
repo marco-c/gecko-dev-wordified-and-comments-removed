@@ -4478,7 +4478,7 @@ rv
 }
 class
 nsLoadGroupConnectionInfo
-MOZ_FINAL
+final
 :
 public
 nsILoadGroupConnectionInfo

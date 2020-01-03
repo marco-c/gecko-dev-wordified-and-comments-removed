@@ -75,7 +75,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 VideoTrack
 *
@@ -92,7 +92,7 @@ void
 EmptyTracks
 (
 )
-MOZ_OVERRIDE
+override
 ;
 int32_t
 SelectedIndex
@@ -137,7 +137,7 @@ VideoTrackList
 AsVideoTrackList
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this

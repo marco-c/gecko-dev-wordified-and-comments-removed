@@ -247,7 +247,7 @@ nsISupports
 *
 aCatalogData
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HandleProcessingInstruction
@@ -261,7 +261,7 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HandleXMLDeclaration
@@ -277,7 +277,7 @@ aEncoding
 int32_t
 aStandalone
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 ReportError
@@ -297,7 +297,7 @@ bool
 *
 aRetval
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillBuildModel
@@ -305,7 +305,7 @@ WillBuildModel
 nsDTDMode
 aDTDMode
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidBuildModel
@@ -313,7 +313,7 @@ DidBuildModel
 bool
 aTerminated
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetDocumentCharset
@@ -322,7 +322,7 @@ nsACString
 &
 aCharset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsISupports
@@ -330,7 +330,7 @@ nsISupports
 GetTarget
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidProcessATokenImpl
@@ -345,7 +345,7 @@ nsIDOMDocumentFragment
 *
 aFragment
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetTargetDocument
@@ -354,25 +354,25 @@ nsIDocument
 *
 aDocument
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillBuildContent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidBuildContent
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 IgnoreFirstContainer
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetPreventScriptExecution
@@ -380,7 +380,7 @@ SetPreventScriptExecution
 bool
 aPreventScriptExecution
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -403,7 +403,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -443,7 +443,7 @@ dom
 FromParser
 aFromParser
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -453,7 +453,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -462,7 +462,7 @@ MaybeStartLayout
 bool
 aIgnorePendingSheets
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -490,7 +490,7 @@ nsSubstring
 &
 aMedia
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 LoadXSLStyleSheet

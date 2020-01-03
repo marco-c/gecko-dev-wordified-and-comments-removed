@@ -36,7 +36,7 @@ dom
 {
 class
 ScrollBoxObject
-MOZ_FINAL
+final
 :
 public
 BoxObject
@@ -65,7 +65,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIScrollableFrame

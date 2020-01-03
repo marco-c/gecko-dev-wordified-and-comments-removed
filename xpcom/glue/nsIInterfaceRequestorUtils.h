@@ -115,7 +115,7 @@ void
 *
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

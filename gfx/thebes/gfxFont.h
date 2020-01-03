@@ -890,7 +890,7 @@ mShapedWords
 ;
 class
 gfxFontCache
-MOZ_FINAL
+final
 :
 public
 nsExpirationTracker
@@ -989,7 +989,7 @@ gfxFont
 *
 aFont
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Flush
@@ -1053,7 +1053,7 @@ protected
 :
 class
 MemoryReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -1072,7 +1072,7 @@ NS_DECL_NSIMEMORYREPORTER
 ;
 class
 Observer
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -3868,7 +3868,7 @@ CompressedGlyph
 GetCharacterGlyphs
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 &

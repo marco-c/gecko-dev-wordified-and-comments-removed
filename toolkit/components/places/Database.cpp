@@ -917,7 +917,7 @@ JOURNAL_DELETE
 }
 class
 ConnectionCloseCallback
-MOZ_FINAL
+final
 :
 public
 mozIStorageCompletionCallback

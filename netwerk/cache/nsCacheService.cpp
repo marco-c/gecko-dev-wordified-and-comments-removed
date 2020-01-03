@@ -927,7 +927,7 @@ nsIObserver
 )
 class
 nsSetDiskSmartSizeCallback
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback
@@ -948,7 +948,7 @@ nsITimer
 *
 aTimer
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

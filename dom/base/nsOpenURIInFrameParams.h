@@ -14,7 +14,7 @@ h
 "
 class
 nsOpenURIInFrameParams
-MOZ_FINAL
+final
 :
 public
 nsIOpenURIInFrameParams

@@ -176,7 +176,7 @@ JSObject
 GetGlobalJSObject
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -203,7 +203,7 @@ nsIPrincipal
 GetPrincipal
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mPrincipal
@@ -227,7 +227,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (

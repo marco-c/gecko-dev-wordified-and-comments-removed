@@ -11214,7 +11214,7 @@ void
 run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 getArenasToUpdate
@@ -22110,7 +22110,7 @@ void
 run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 public

@@ -104,7 +104,7 @@ CellBroadcast
 :
 :
 Listener
-MOZ_FINAL
+final
 :
 public
 nsICellBroadcastListener

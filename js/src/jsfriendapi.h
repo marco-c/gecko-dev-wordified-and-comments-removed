@@ -4971,7 +4971,7 @@ JSCompartment
 c
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -4994,7 +4994,7 @@ JSCompartment
 c
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 !
@@ -5021,7 +5021,7 @@ JSCompartment
 c
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 IsSystemCompartment
@@ -5065,7 +5065,7 @@ JSCompartment
 c
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 c
@@ -5109,7 +5109,7 @@ JSCompartment
 c
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 JS_GetCompartmentPrincipals

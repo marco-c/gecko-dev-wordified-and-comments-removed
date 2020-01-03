@@ -286,7 +286,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -298,7 +298,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -310,7 +310,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -325,7 +325,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -337,7 +337,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -349,7 +349,7 @@ ChildListID
 aListID
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -363,7 +363,7 @@ ChildList
 aLists
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -376,7 +376,7 @@ WritingMode
 aWritingMode
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -384,7 +384,7 @@ GetCaretBaseline
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -394,7 +394,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSplittableType
@@ -402,7 +402,7 @@ GetSplittableType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -410,7 +410,7 @@ IsFloatContainingBlock
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -428,7 +428,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -437,7 +437,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -447,7 +447,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame
@@ -481,7 +481,7 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -496,7 +496,7 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -522,7 +522,7 @@ aFlags
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -533,7 +533,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -546,7 +546,7 @@ GetDebugStateBits
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -564,7 +564,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -594,7 +594,7 @@ nsIFrame
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -604,28 +604,28 @@ nsISelection
 *
 aSelection
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsEmpty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 CachedIsEmpty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsSelfEmpty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 BulletIsEmpty
@@ -723,7 +723,7 @@ void
 MarkIntrinsicISizesDirty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -742,7 +742,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -752,7 +752,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -763,7 +763,7 @@ gfxContext
 aContext
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -779,7 +779,7 @@ nscoord
 *
 aXMost
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ComputeFinalBSize
@@ -828,7 +828,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -842,14 +842,14 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 DrainSelfOverflowList
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -863,7 +863,7 @@ aForceNormal
 =
 false
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -875,7 +875,7 @@ aNextInFlow
 bool
 aDeletingEmptyFrames
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -1428,7 +1428,7 @@ bool
 UpdateOverflow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -2192,7 +2192,7 @@ nsILineIterator
 GetLineIterator
 (
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :

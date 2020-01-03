@@ -190,7 +190,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -201,7 +201,7 @@ nsString
 &
 aNode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -212,14 +212,14 @@ nsString
 &
 aNode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvStopNotifying
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -233,7 +233,7 @@ Request
 &
 aRequest
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBluetoothRequestParent
@@ -245,7 +245,7 @@ Request
 &
 aRequest
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -255,7 +255,7 @@ PBluetoothRequestParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -266,7 +266,7 @@ BluetoothSignal
 &
 aSignal
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -339,7 +339,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 void
 RequestComplete

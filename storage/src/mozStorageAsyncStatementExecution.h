@@ -107,7 +107,7 @@ StatementData
 ;
 class
 AsyncExecuteStatements
-MOZ_FINAL
+final
 :
 public
 nsIRunnable

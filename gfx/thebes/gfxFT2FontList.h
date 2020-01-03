@@ -213,7 +213,7 @@ GetFontTable
 uint32_t
 aTableTag
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -228,7 +228,7 @@ uint8_t
 &
 aBuffer
 )
-MOZ_OVERRIDE
+override
 ;
 void
 CheckForBrokenFont

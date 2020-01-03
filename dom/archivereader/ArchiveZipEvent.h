@@ -76,7 +76,7 @@ nsString
 &
 aFilename
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMFile
@@ -87,7 +87,7 @@ ArchiveReader
 *
 aArchiveReader
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -157,7 +157,7 @@ nsresult
 Exec
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

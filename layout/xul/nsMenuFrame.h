@@ -130,7 +130,7 @@ nsMenuFrame
 ;
 class
 nsMenuTimerMediator
-MOZ_FINAL
+final
 :
 public
 nsITimerCallback
@@ -167,7 +167,7 @@ mFrame
 ;
 class
 nsMenuFrame
-MOZ_FINAL
+final
 :
 public
 nsBoxFrame
@@ -195,7 +195,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -205,7 +205,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -215,7 +215,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -231,7 +231,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -246,7 +246,7 @@ aState
 bool
 aDebug
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -260,7 +260,7 @@ ChildListID
 aList
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -274,7 +274,7 @@ ChildList
 aLists
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -284,7 +284,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -302,7 +302,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -321,7 +321,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -333,7 +333,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -345,7 +345,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -360,7 +360,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -372,7 +372,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -381,7 +381,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsGkAtoms
@@ -403,7 +403,7 @@ nsIScrollableFrame
 GetScrollTargetFrame
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsIContent
 *
@@ -664,7 +664,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -772,7 +772,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 ~

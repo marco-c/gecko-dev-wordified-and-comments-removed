@@ -583,7 +583,7 @@ BluetoothService
 :
 :
 StartupTask
-MOZ_FINAL
+final
 :
 public
 nsISettingsServiceCallback

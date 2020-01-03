@@ -1179,7 +1179,7 @@ mPrevLoad
 ;
 class
 RTCLoadInfo
-MOZ_FINAL
+final
 {
 private
 :

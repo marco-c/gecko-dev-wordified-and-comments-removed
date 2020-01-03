@@ -47,7 +47,7 @@ nsPluginElement
 ;
 class
 nsMimeTypeArray
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -94,7 +94,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Refresh
@@ -215,7 +215,7 @@ mHiddenMimeTypes
 ;
 class
 nsMimeType
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -282,7 +282,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 const
 nsString

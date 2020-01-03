@@ -226,7 +226,7 @@ isHighAccuracy
 ;
 class
 nsGeolocationService
-MOZ_FINAL
+final
 :
 public
 nsIGeolocationUpdate
@@ -408,7 +408,7 @@ dom
 {
 class
 Geolocation
-MOZ_FINAL
+final
 :
 public
 nsIDOMGeoGeolocation
@@ -466,7 +466,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 int32_t
 WatchPosition
@@ -698,7 +698,7 @@ mClearedWatchIDs
 ;
 class
 PositionError
-MOZ_FINAL
+final
 :
 public
 nsIDOMGeoPositionError
@@ -747,7 +747,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 int16_t
 Code

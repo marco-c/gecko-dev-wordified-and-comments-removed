@@ -1294,7 +1294,7 @@ NS_OK
 }
 class
 nsStorageInputStream
-MOZ_FINAL
+final
 :
 public
 nsIInputStream

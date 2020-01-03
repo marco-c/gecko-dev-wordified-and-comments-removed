@@ -58,7 +58,7 @@ HyperTextAccessible
 ;
 struct
 TextPoint
-MOZ_FINAL
+final
 {
 TextPoint
 (
@@ -152,7 +152,7 @@ const
 ;
 class
 TextRange
-MOZ_FINAL
+final
 {
 public
 :

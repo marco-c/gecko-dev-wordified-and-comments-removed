@@ -49,7 +49,7 @@ int32_t
 *
 outHeight
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetAvailRectDisplayPix
@@ -67,7 +67,7 @@ int32_t
 *
 outHeight
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 LockMinimumBrightness
@@ -75,7 +75,7 @@ LockMinimumBrightness
 uint32_t
 aBrightness
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 UnlockMinimumBrightness
@@ -83,7 +83,7 @@ UnlockMinimumBrightness
 uint32_t
 aBrightness
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetRotation
@@ -92,7 +92,7 @@ uint32_t
 *
 aRotation
 )
-MOZ_OVERRIDE
+override
 {
 *
 aRotation
@@ -112,7 +112,7 @@ SetRotation
 uint32_t
 aRotation
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_ERROR_NOT_AVAILABLE
@@ -125,7 +125,7 @@ double
 *
 aContentsScaleFactor
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

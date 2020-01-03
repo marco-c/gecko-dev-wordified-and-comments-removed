@@ -469,7 +469,7 @@ end
 }
 class
 nsIncrementalDownload
-MOZ_FINAL
+final
 :
 public
 nsIIncrementalDownload

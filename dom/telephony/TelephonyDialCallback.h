@@ -117,7 +117,7 @@ telephony
 {
 class
 TelephonyDialCallback
-MOZ_FINAL
+final
 :
 public
 TelephonyCallback

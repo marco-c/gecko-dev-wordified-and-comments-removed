@@ -421,7 +421,7 @@ aStreamListener
 ;
 class
 nsExternalAppHandler
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

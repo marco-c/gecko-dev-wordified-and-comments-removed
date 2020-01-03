@@ -133,7 +133,7 @@ SourceBuffer
 }
 class
 SourceBufferResource
-MOZ_FINAL
+final
 :
 public
 MediaResource
@@ -154,7 +154,7 @@ nsresult
 Close
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -163,7 +163,7 @@ Suspend
 bool
 aCloseImmediately
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -175,7 +175,7 @@ void
 Resume
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -190,7 +190,7 @@ nsIPrincipal
 GetCurrentPrincipal
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -211,7 +211,7 @@ MediaDecoder
 *
 aDecoder
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -231,7 +231,7 @@ MediaCacheStream
 ReadMode
 aMode
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -245,7 +245,7 @@ SetPlaybackRate
 uint32_t
 aBytesPerSecond
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -265,7 +265,7 @@ uint32_t
 *
 aBytes
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -282,7 +282,7 @@ uint32_t
 *
 aBytes
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -293,14 +293,14 @@ aWhence
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int64_t
 Tell
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mOffset
@@ -311,7 +311,7 @@ void
 Pin
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -323,7 +323,7 @@ void
 Unpin
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -338,7 +338,7 @@ bool
 *
 aIsReliable
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -358,7 +358,7 @@ int64_t
 GetLength
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mInputBuffer
@@ -375,7 +375,7 @@ GetNextCachedData
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 ReentrantMonitorAutoEnter
 mon
@@ -440,7 +440,7 @@ GetCachedDataEnd
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -458,7 +458,7 @@ IsDataCachedToEndOfResource
 int64_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -469,7 +469,7 @@ bool
 IsSuspendedByCache
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -484,7 +484,7 @@ bool
 IsSuspended
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -506,14 +506,14 @@ aOffset
 uint32_t
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsTransportSeekable
 (
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -532,7 +532,7 @@ nsIStreamListener
 *
 aStreamListener
 )
-MOZ_OVERRIDE
+override
 {
 UNIMPLEMENTED
 (
@@ -553,7 +553,7 @@ MediaByteRange
 &
 aRanges
 )
-MOZ_OVERRIDE
+override
 {
 ReentrantMonitorAutoEnter
 mon
@@ -602,7 +602,7 @@ GetContentType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mType
@@ -616,7 +616,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 ReentrantMonitorAutoEnter
 mon
@@ -667,7 +667,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

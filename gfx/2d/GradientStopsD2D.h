@@ -76,7 +76,7 @@ IsValid
 (
 )
 const
-MOZ_FINAL
+final
 {
 return
 mDevice

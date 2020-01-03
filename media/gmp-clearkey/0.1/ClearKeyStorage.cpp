@@ -161,7 +161,7 @@ OpenComplete
 GMPErr
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -214,7 +214,7 @@ aData
 uint32_t
 aDataSize
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -236,7 +236,7 @@ WriteComplete
 GMPErr
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -517,7 +517,7 @@ OpenComplete
 GMPErr
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 auto
 err
@@ -567,7 +567,7 @@ aData
 uint32_t
 aDataSize
 )
-MOZ_OVERRIDE
+override
 {
 Done
 (
@@ -584,7 +584,7 @@ WriteComplete
 GMPErr
 aStatus
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

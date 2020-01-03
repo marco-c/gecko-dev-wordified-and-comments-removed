@@ -144,7 +144,7 @@ NS_TICKLER_IID
 }
 class
 Tickler
-MOZ_FINAL
+final
 :
 public
 nsSupportsWeakReference
@@ -287,7 +287,7 @@ NS_TICKLER_IID
 else
 class
 Tickler
-MOZ_FINAL
+final
 :
 public
 nsISupports

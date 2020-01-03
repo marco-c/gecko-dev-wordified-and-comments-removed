@@ -94,7 +94,7 @@ nsDelayedBlurOrFocusEvent
 ;
 class
 nsFocusManager
-MOZ_FINAL
+final
 :
 public
 nsIFocusManager

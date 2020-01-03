@@ -73,7 +73,7 @@ MobileMessageCursorCallback
 }
 class
 MobileMessageCursor
-MOZ_FINAL
+final
 :
 public
 DOMCursor
@@ -108,7 +108,7 @@ Continue
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -118,7 +118,7 @@ ErrorResult
 &
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -151,7 +151,7 @@ mobilemessage
 {
 class
 MobileMessageCursorCallback
-MOZ_FINAL
+final
 :
 public
 nsIMobileMessageCursorCallback

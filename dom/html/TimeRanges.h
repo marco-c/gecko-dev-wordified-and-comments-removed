@@ -63,7 +63,7 @@ dom
 {
 class
 TimeRanges
-MOZ_FINAL
+final
 :
 public
 nsIDOMTimeRanges

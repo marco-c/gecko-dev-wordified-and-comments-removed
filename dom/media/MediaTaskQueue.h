@@ -279,7 +279,7 @@ NS_METHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

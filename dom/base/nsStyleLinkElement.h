@@ -97,7 +97,7 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -125,7 +125,7 @@ CSSStyleSheet
 *
 aStyleSheet
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -138,7 +138,7 @@ CSSStyleSheet
 GetStyleSheet
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 InitStyleLinkElement
@@ -146,7 +146,7 @@ InitStyleLinkElement
 bool
 aDontLoadStyle
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 UpdateStyleSheet
@@ -163,7 +163,7 @@ aIsAlternate
 bool
 aForceReload
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 SetEnableUpdates
@@ -171,7 +171,7 @@ SetEnableUpdates
 bool
 aEnableUpdates
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetCharset
@@ -180,7 +180,7 @@ nsAString
 &
 aCharset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -190,7 +190,7 @@ nsIURI
 *
 aNewBaseURI
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -199,7 +199,7 @@ SetLineNumber
 uint32_t
 aLineNumber
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 RelValue

@@ -52,7 +52,7 @@ nsBulletFrame
 ;
 class
 nsBulletListener
-MOZ_FINAL
+final
 :
 public
 imgINotificationObserver
@@ -97,7 +97,7 @@ mFrame
 ;
 class
 nsBulletFrame
-MOZ_FINAL
+final
 :
 public
 nsFrame
@@ -203,7 +203,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -221,7 +221,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -230,7 +230,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -240,7 +240,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -254,7 +254,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -276,7 +276,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -286,7 +286,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -296,7 +296,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 int32_t
 SetListItemOrdinal
@@ -347,14 +347,14 @@ bool
 IsEmpty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsSelfEmpty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -367,7 +367,7 @@ WritingMode
 aWritingMode
 )
 const
-MOZ_OVERRIDE
+override
 ;
 float
 GetFontSizeInflation

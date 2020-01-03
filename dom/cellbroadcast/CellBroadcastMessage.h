@@ -57,7 +57,7 @@ CellBroadcastEtwsInfo
 ;
 class
 CellBroadcastMessage
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -137,7 +137,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 ServiceId
@@ -324,7 +324,7 @@ mEtwsInfo
 ;
 class
 CellBroadcastEtwsInfo
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -380,7 +380,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 const
 Nullable

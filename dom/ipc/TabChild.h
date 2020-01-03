@@ -377,7 +377,7 @@ Value
 >
 aRetval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mMessageManager
@@ -448,7 +448,7 @@ Value
 >
 aRetval
 )
-MOZ_OVERRIDE
+override
 {
 return
 mMessageManager
@@ -478,7 +478,7 @@ nsIDOMWindow
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetDocShell
@@ -488,7 +488,7 @@ nsIDocShell
 *
 aDocShell
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 AddEventListener
@@ -541,7 +541,7 @@ aWantsUntrusted
 uint8_t
 optional_argc
 )
-MOZ_OVERRIDE
+override
 {
 return
 DOMEventTargetHelper
@@ -564,7 +564,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 {
 aVisitor
 .
@@ -582,7 +582,7 @@ JSContext
 GetJSContextForEventHandlers
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIPrincipal
@@ -590,7 +590,7 @@ nsIPrincipal
 GetPrincipal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -598,7 +598,7 @@ JSObject
 GetGlobalJSObject
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 JSObject
@@ -618,7 +618,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_CRASH
 (
@@ -658,7 +658,7 @@ TabChildGlobal
 ;
 class
 ContentListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMEventListener
@@ -934,7 +934,7 @@ mWebBrowserChrome
 ;
 class
 TabChild
-MOZ_FINAL
+final
 :
 public
 TabChildBase
@@ -1144,7 +1144,7 @@ aJSONRetVal
 bool
 aIsSync
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1180,7 +1180,7 @@ nsIPrincipal
 *
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1203,7 +1203,7 @@ ZoomConstraints
 &
 aConstraints
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1218,7 +1218,7 @@ BrowserConfiguration
 &
 aConfiguration
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1233,7 +1233,7 @@ FileDescriptor
 &
 aFileDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1263,7 +1263,7 @@ bool
 &
 aParentIsActive
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1286,7 +1286,7 @@ nsIntPoint
 &
 chromeDisp
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1300,7 +1300,7 @@ FrameMetrics
 &
 aFrameMetrics
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1315,7 +1315,7 @@ CSSPoint
 &
 aDestination
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1330,7 +1330,7 @@ uint32_t
 &
 aScrollGeneration
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1355,7 +1355,7 @@ ScrollableLayerGuid
 &
 aGuid
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1380,7 +1380,7 @@ ScrollableLayerGuid
 &
 aGuid
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1409,7 +1409,7 @@ uint64_t
 &
 aInputBlockId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1428,21 +1428,21 @@ int
 &
 aArg
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvActivate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvDeactivate
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1477,7 +1477,7 @@ bool
 &
 aIgnoreRootScrollFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1491,7 +1491,7 @@ WidgetMouseEvent
 &
 event
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1505,7 +1505,7 @@ WidgetMouseEvent
 &
 event
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1523,7 +1523,7 @@ MaybeNativeKeyBinding
 &
 aBindings
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1545,7 +1545,7 @@ uint64_t
 &
 aInputBlockId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1564,7 +1564,7 @@ uint64_t
 &
 aInputBlockId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1583,7 +1583,7 @@ uint64_t
 &
 aInputBlockId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1610,7 +1610,7 @@ bool
 &
 aPreventDefault
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1624,7 +1624,7 @@ WidgetCompositionEvent
 &
 event
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1638,7 +1638,7 @@ WidgetSelectionEvent
 &
 event
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1653,7 +1653,7 @@ bool
 &
 capture
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1668,7 +1668,7 @@ bool
 &
 aRunInGlobalScope
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1697,7 +1697,7 @@ Principal
 &
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1712,7 +1712,7 @@ bool
 &
 aOffline
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PDocumentRendererChild
@@ -1747,7 +1747,7 @@ nsIntSize
 &
 renderSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1757,7 +1757,7 @@ PDocumentRendererChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1794,7 +1794,7 @@ nsIntSize
 &
 renderSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PColorPickerChild
@@ -1810,7 +1810,7 @@ nsString
 &
 initialColor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1820,7 +1820,7 @@ PColorPickerChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PContentPermissionRequestChild
@@ -1842,7 +1842,7 @@ Principal
 &
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1852,7 +1852,7 @@ PContentPermissionRequestChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PFilePickerChild
@@ -1868,7 +1868,7 @@ int16_t
 &
 aMode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1878,7 +1878,7 @@ PFilePickerChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PIndexedDBPermissionRequestChild
@@ -1890,7 +1890,7 @@ Principal
 &
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1900,7 +1900,7 @@ PIndexedDBPermissionRequestChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIWebNavigation
@@ -1909,7 +1909,7 @@ WebNavigation
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mWebNav
@@ -1921,7 +1921,7 @@ nsIWidget
 WebWidget
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mWidget
@@ -2153,14 +2153,14 @@ bool
 RecvUIResolutionChanged
 (
 )
-MOZ_OVERRIDE
+override
 ;
 PPluginWidgetChild
 *
 AllocPPluginWidgetChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 DeallocPPluginWidgetChild
@@ -2169,7 +2169,7 @@ PPluginWidgetChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 CreatePluginWidget
@@ -2225,7 +2225,7 @@ PRenderFrameChild
 AllocPRenderFrameChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2235,14 +2235,14 @@ PRenderFrameChild
 *
 aFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvDestroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2253,7 +2253,7 @@ bool
 &
 aEnabled
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2264,14 +2264,14 @@ bool
 &
 aIsActive
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvRequestNotifyAfterRemotePaint
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2282,7 +2282,7 @@ bool
 &
 aActivated
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -2332,7 +2332,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 FrameScriptLoading

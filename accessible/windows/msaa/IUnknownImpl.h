@@ -183,7 +183,7 @@ STDMETHODCALLTYPE
 AddRef
 (
 )
-MOZ_FINAL
+final
 \
 {
 \
@@ -220,7 +220,7 @@ STDMETHODCALLTYPE
 Release
 (
 )
-MOZ_FINAL
+final
 \
 {
 \

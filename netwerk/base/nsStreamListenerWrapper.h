@@ -43,7 +43,7 @@ h
 "
 class
 nsStreamListenerWrapper
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

@@ -66,8 +66,8 @@ MediaDecoder
 Clone
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 virtual
 MediaDecoderStateMachine
@@ -75,8 +75,8 @@ MediaDecoderStateMachine
 CreateStateMachine
 (
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 virtual
 void
@@ -85,8 +85,8 @@ ApplyStateToStateMachine
 PlayState
 aState
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 }
 ;

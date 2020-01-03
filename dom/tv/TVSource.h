@@ -64,7 +64,7 @@ TVTuner
 ;
 class
 TVSource
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -112,7 +112,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 SetCurrentChannel

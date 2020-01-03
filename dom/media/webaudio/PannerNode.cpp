@@ -296,7 +296,7 @@ aIndex
 int32_t
 aParam
 )
-MOZ_OVERRIDE
+override
 {
 switch
 (
@@ -477,7 +477,7 @@ ThreeDPoint
 &
 aParam
 )
-MOZ_OVERRIDE
+override
 {
 switch
 (
@@ -590,7 +590,7 @@ aIndex
 double
 aParam
 )
-MOZ_OVERRIDE
+override
 {
 switch
 (
@@ -724,7 +724,7 @@ bool
 *
 aFinished
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -974,7 +974,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 size_t
 amount
@@ -1016,7 +1016,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

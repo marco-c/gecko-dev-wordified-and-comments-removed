@@ -105,7 +105,7 @@ nsBoundingMetrics
 ;
 class
 nsFontMetrics
-MOZ_FINAL
+final
 {
 public
 :

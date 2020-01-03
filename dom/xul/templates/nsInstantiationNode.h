@@ -66,7 +66,7 @@ bool
 &
 aMatched
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

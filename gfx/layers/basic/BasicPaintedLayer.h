@@ -192,7 +192,7 @@ nsIntRegion
 &
 aRegion
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -233,7 +233,7 @@ nsIntRegion
 &
 aRegion
 )
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -299,7 +299,7 @@ void
 *
 aCallbackData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -317,14 +317,14 @@ ReadbackProcessor
 *
 aReadback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearCachedResources
 (
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -358,7 +358,7 @@ Matrix4x4
 &
 aTransformToSurface
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

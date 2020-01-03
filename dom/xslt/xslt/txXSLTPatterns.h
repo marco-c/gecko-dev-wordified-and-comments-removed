@@ -186,14 +186,14 @@ txIMatchContext
 *
 aContext
 )
-MOZ_OVERRIDE
+override
 ;
 \
 double
 getDefaultPriority
 (
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -204,7 +204,7 @@ getSubExprAt
 uint32_t
 aPos
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -217,7 +217,7 @@ Expr
 *
 aExpr
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -228,7 +228,7 @@ getSubPatternAt
 uint32_t
 aPos
 )
-MOZ_OVERRIDE
+override
 ;
 \
 virtual
@@ -241,7 +241,7 @@ txPattern
 *
 aPattern
 )
-MOZ_OVERRIDE
+override
 #
 ifndef
 TX_TO_STRING
@@ -265,7 +265,7 @@ nsAString
 &
 aDest
 )
-MOZ_OVERRIDE
+override
 #
 endif
 #
@@ -413,7 +413,7 @@ Type
 getType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -653,7 +653,7 @@ Type
 getType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 txNodeTest
 *

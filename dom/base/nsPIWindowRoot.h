@@ -184,7 +184,7 @@ nsIDOMWindow
 GetOwnerGlobal
 (
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;

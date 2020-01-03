@@ -338,7 +338,7 @@ FrameIID
 GetFrameId
 (
 )
-MOZ_OVERRIDE
+override
 MOZ_MUST_OVERRIDE
 ;
 #
@@ -497,7 +497,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -507,7 +507,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsStyleContext
@@ -518,7 +518,7 @@ int32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -530,7 +530,7 @@ nsStyleContext
 *
 aStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -543,7 +543,7 @@ WritingMode
 aWritingMode
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -555,7 +555,7 @@ ChildListID
 aListID
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -569,7 +569,7 @@ ChildList
 aLists
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -588,7 +588,7 @@ nsEventStatus
 *
 aEventStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -605,7 +605,7 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -622,7 +622,7 @@ Cursor
 &
 aCursor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -634,7 +634,7 @@ nsPoint
 *
 outPoint
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -652,7 +652,7 @@ nsIFrame
 *
 outChildFrame
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsresult
@@ -681,7 +681,7 @@ CharacterDataChangeInfo
 *
 aInfo
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -695,7 +695,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSplittableType
@@ -703,7 +703,7 @@ GetSplittableType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -712,7 +712,7 @@ GetPrevContinuation
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -721,7 +721,7 @@ SetPrevContinuation
 nsIFrame
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -730,7 +730,7 @@ GetNextContinuation
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -739,7 +739,7 @@ SetNextContinuation
 nsIFrame
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -748,7 +748,7 @@ GetPrevInFlowVirtual
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -757,7 +757,7 @@ SetPrevInFlow
 nsIFrame
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIFrame
@@ -766,7 +766,7 @@ GetNextInFlowVirtual
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -775,7 +775,7 @@ SetNextInFlow
 nsIFrame
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -784,7 +784,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -798,7 +798,7 @@ uint8_t
 aSelectStyle
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -812,7 +812,7 @@ nsISelectionController
 *
 aSelCon
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 FrameSearchResult
@@ -824,7 +824,7 @@ int32_t
 *
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 FrameSearchResult
@@ -840,7 +840,7 @@ aRespectClusters
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 FrameSearchResult
@@ -859,7 +859,7 @@ PeekWordState
 *
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 BreakWordBetweenPunctuation
@@ -898,7 +898,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -912,7 +912,7 @@ int32_t
 aEnd
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -922,7 +922,7 @@ nsIFrame
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -938,7 +938,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -953,7 +953,7 @@ nsIFrame
 aProviderFrame
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 DoGetParentStyleContext
@@ -978,21 +978,21 @@ bool
 IsEmpty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 IsSelfEmpty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 MarkIntrinsicISizesDirty
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -1002,7 +1002,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -1012,7 +1012,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1025,7 +1025,7 @@ InlineMinISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1038,7 +1038,7 @@ InlinePrefISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntrinsicISizeOffsetData
@@ -1048,7 +1048,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -1058,14 +1058,14 @@ IntrinsicSize
 GetIntrinsicSize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
 GetIntrinsicRatio
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -1115,7 +1115,7 @@ aPadding
 ComputeSizeFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 nsRect
 ComputeSimpleTightBounds
@@ -1193,7 +1193,7 @@ nsPresContext
 *
 aPresContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1213,7 +1213,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -1229,7 +1229,7 @@ aReflowState
 nsDidReflowStatus
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ReflowAbsoluteFrames
@@ -1286,14 +1286,14 @@ CanContinueTextRun
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 UpdateOverflow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 HandlePress
@@ -1424,7 +1424,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -1434,7 +1434,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -1444,7 +1444,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -1454,7 +1454,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -1464,14 +1464,14 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 ComputesOwnOverflowArea
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -1869,7 +1869,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -2140,7 +2140,7 @@ nsILineIterator
 GetLineIterator
 (
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -2195,7 +2195,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -2208,7 +2208,7 @@ nsAutoString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -2286,7 +2286,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 nsresult
 MakeFrameName
@@ -2324,7 +2324,7 @@ GetDebugStateBits
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -2339,7 +2339,7 @@ out
 int32_t
 aIndent
 )
-MOZ_OVERRIDE
+override
 ;
 static
 bool

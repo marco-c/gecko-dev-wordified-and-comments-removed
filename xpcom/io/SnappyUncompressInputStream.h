@@ -55,7 +55,7 @@ mozilla
 {
 class
 SnappyUncompressInputStream
-MOZ_FINAL
+final
 :
 public
 nsIInputStream

@@ -89,7 +89,7 @@ B6123BCEAF21
 }
 class
 nsICOEncoder
-MOZ_FINAL
+final
 :
 public
 imgIEncoder

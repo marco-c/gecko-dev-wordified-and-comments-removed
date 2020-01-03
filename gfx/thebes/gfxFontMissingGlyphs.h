@@ -40,7 +40,7 @@ Pattern
 }
 class
 gfxFontMissingGlyphs
-MOZ_FINAL
+final
 {
 typedef
 mozilla

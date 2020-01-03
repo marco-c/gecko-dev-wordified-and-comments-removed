@@ -40,7 +40,7 @@ WakeLockTopic
 ;
 class
 WakeLockListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMMozWakeLockListener
@@ -79,7 +79,7 @@ nsAString
 &
 state
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

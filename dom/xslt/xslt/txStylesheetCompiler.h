@@ -529,7 +529,7 @@ int32_t
 &
 aID
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 resolveFunctionCall
@@ -544,13 +544,13 @@ FunctionCall
 *
 aFunction
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 caseInsensitiveNameTests
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 fcp
@@ -570,7 +570,7 @@ SetErrorOffset
 uint32_t
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -719,7 +719,7 @@ mValue
 ;
 class
 txStylesheetCompiler
-MOZ_FINAL
+final
 :
 private
 txStylesheetCompilerState

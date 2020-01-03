@@ -98,7 +98,7 @@ DOMRectList
 }
 class
 nsRange
-MOZ_FINAL
+final
 :
 public
 nsIDOMRange
@@ -956,8 +956,8 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 ;
 private
 :

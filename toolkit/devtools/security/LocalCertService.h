@@ -16,7 +16,7 @@ mozilla
 {
 class
 LocalCertService
-MOZ_FINAL
+final
 :
 public
 nsILocalCertService

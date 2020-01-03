@@ -246,7 +246,7 @@ handle_
 else
 struct
 WaitableEventKernel
-MOZ_FINAL
+final
 {
 public
 :

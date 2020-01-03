@@ -96,7 +96,7 @@ NodeTable
 ;
 class
 ImportLoader
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener
@@ -249,7 +249,7 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Open
@@ -536,7 +536,7 @@ mUpdater
 ;
 class
 ImportManager
-MOZ_FINAL
+final
 :
 public
 nsISupports

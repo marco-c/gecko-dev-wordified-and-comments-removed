@@ -1493,7 +1493,7 @@ bool
 wantNames
 )
 const
-MOZ_OVERRIDE
+override
 ;
 const
 char16_t
@@ -1502,7 +1502,7 @@ typeName
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 concreteTypeName
@@ -1594,7 +1594,7 @@ typeName
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 concreteTypeName
@@ -1610,7 +1610,7 @@ bool
 wantNames
 )
 const
-MOZ_OVERRIDE
+override
 ;
 JS
 :
@@ -1621,7 +1621,7 @@ zone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1718,7 +1718,7 @@ compartment
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -1790,7 +1790,7 @@ jsObjectClassName
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 explicit
 TracerConcreteWithCompartmentAndClassName
@@ -1921,7 +1921,7 @@ typeName
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 size_t
 size
@@ -1933,7 +1933,7 @@ MallocSizeOf
 mallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 EdgeRange
 *
@@ -1946,7 +1946,7 @@ bool
 wantNames
 )
 const
-MOZ_OVERRIDE
+override
 ;
 JS
 :
@@ -1957,7 +1957,7 @@ zone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 JSCompartment
 *
@@ -1965,7 +1965,7 @@ compartment
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 explicit
 Concrete

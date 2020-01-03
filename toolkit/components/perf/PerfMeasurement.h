@@ -28,7 +28,7 @@ jsperf
 {
 class
 Module
-MOZ_FINAL
+final
 :
 public
 nsIXPCScriptable

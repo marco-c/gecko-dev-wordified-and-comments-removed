@@ -62,7 +62,7 @@ NfcEventOptions
 }
 class
 NfcService
-MOZ_FINAL
+final
 :
 public
 nsINfcService
@@ -120,7 +120,7 @@ UnixSocketRawData
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -130,7 +130,7 @@ enum
 SocketType
 aSocketType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -140,7 +140,7 @@ enum
 SocketType
 aSocketType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -150,7 +150,7 @@ enum
 SocketType
 aSocketType
 )
-MOZ_OVERRIDE
+override
 ;
 nsCOMPtr
 <

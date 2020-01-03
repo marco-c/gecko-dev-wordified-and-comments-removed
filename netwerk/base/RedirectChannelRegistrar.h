@@ -49,7 +49,7 @@ net
 {
 class
 RedirectChannelRegistrar
-MOZ_FINAL
+final
 :
 public
 nsIRedirectChannelRegistrar

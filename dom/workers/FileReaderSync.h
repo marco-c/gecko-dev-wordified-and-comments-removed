@@ -44,7 +44,7 @@ Optional
 BEGIN_WORKERS_NAMESPACE
 class
 FileReaderSync
-MOZ_FINAL
+final
 {
 NS_INLINE_DECL_REFCOUNTING
 (

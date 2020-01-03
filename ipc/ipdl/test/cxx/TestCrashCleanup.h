@@ -96,7 +96,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -149,7 +149,7 @@ bool
 AnswerDIEDIEDIE
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -158,7 +158,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 {
 fail
 (

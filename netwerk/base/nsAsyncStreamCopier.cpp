@@ -83,7 +83,7 @@ args
 )
 class
 AsyncApplyBufferingPolicyEvent
-MOZ_FINAL
+final
 :
 public
 nsRunnable

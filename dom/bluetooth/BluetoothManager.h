@@ -119,7 +119,7 @@ BluetoothNamedValue
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 GetEnabled
@@ -186,14 +186,14 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DisconnectFromOwner
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

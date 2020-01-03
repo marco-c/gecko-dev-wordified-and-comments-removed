@@ -101,7 +101,7 @@ GlobalObject
 }
 class
 nsFormData
-MOZ_FINAL
+final
 :
 public
 nsIDOMFormData
@@ -301,7 +301,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 nsISupports
 *
@@ -521,7 +521,7 @@ nsIInputStream
 *
 aPostDataStream
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -536,7 +536,7 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 {
 FormDataTuple
 *
@@ -571,7 +571,7 @@ File
 *
 aBlob
 )
-MOZ_OVERRIDE
+override
 {
 FormDataTuple
 *

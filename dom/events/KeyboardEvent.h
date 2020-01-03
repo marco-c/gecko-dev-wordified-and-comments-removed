@@ -116,7 +116,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 KeyboardEventBinding
@@ -191,7 +191,7 @@ uint32_t
 Which
 (
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 Location

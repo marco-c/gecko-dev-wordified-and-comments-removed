@@ -50,7 +50,7 @@ h
 "
 class
 nsAutoCompleteSimpleResult
-MOZ_FINAL
+final
 :
 public
 nsIAutoCompleteSimpleResult

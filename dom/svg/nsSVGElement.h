@@ -317,7 +317,7 @@ aResult
 )
 const
 MOZ_MUST_OVERRIDE
-MOZ_OVERRIDE
+override
 ;
 typedef
 mozilla
@@ -404,7 +404,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -418,7 +418,7 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsChangeHint
@@ -432,7 +432,7 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -442,7 +442,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WalkContentStyleRules
@@ -451,7 +451,7 @@ nsRuleWalker
 *
 aRuleWalker
 )
-MOZ_OVERRIDE
+override
 ;
 void
 WalkAnimatedContentStyleRules
@@ -473,7 +473,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 static
 const
@@ -1171,7 +1171,7 @@ nsIAtom
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AnimationNeedsResample
@@ -1188,7 +1188,7 @@ void
 RecompileScriptEventListeners
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetStringBaseValue
@@ -1287,8 +1287,8 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_FINAL
-MOZ_OVERRIDE
+final
+override
 {
 return
 this
@@ -1356,7 +1356,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -1377,8 +1377,8 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
-MOZ_FINAL
+override
+final
 {
 return
 NS_OK
@@ -1402,7 +1402,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1421,7 +1421,7 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 static
 nsresult

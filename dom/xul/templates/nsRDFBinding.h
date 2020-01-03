@@ -129,7 +129,7 @@ RDFBinding
 ;
 class
 RDFBindingSet
-MOZ_FINAL
+final
 {
 private
 :

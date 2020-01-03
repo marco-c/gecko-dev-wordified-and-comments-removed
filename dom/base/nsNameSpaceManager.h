@@ -160,7 +160,7 @@ mKey
 ;
 class
 nsNameSpaceManager
-MOZ_FINAL
+final
 {
 public
 :

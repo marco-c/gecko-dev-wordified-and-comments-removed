@@ -138,7 +138,7 @@ SVGAnimatedPreserveAspectRatio
 ;
 class
 SVGPreserveAspectRatio
-MOZ_FINAL
+final
 {
 friend
 class
@@ -360,7 +360,7 @@ dom
 {
 class
 DOMSVGPreserveAspectRatio
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -429,7 +429,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint16_t
 Align

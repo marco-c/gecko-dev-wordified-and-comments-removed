@@ -107,7 +107,7 @@ bool
 *
 aInterrupt
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidDo
@@ -121,7 +121,7 @@ aTransaction
 nsresult
 aDoResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillUndo
@@ -136,7 +136,7 @@ bool
 *
 aInterrupt
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidUndo
@@ -150,7 +150,7 @@ aTransaction
 nsresult
 aUndoResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillRedo
@@ -165,7 +165,7 @@ bool
 *
 aInterrupt
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidRedo
@@ -179,7 +179,7 @@ aTransaction
 nsresult
 aRedoResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillBeginBatch
@@ -191,7 +191,7 @@ bool
 *
 aInterrupt
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidBeginBatch
@@ -202,7 +202,7 @@ aManager
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillEndBatch
@@ -214,7 +214,7 @@ bool
 *
 aInterrupt
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidEndBatch
@@ -225,7 +225,7 @@ aManager
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillMerge
@@ -243,7 +243,7 @@ bool
 *
 aInterrupt
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 DidMerge
@@ -262,7 +262,7 @@ aDidMerge
 nsresult
 aMergeResult
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 Init

@@ -86,7 +86,7 @@ uint32_t
 GetSpaceGlyph
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -94,7 +94,7 @@ ProvidesGetGlyph
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -109,7 +109,7 @@ unicode
 uint32_t
 variation_selector
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -117,7 +117,7 @@ ProvidesGlyphWidths
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 true
@@ -133,7 +133,7 @@ aDrawTarget
 uint16_t
 aGID
 )
-MOZ_OVERRIDE
+override
 ;
 cairo_scaled_font_t
 *
@@ -154,7 +154,7 @@ gfxContext
 *
 aContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 FontType
@@ -162,7 +162,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 FONT_TYPE_FT2
@@ -177,7 +177,7 @@ Metrics
 GetHorizontalMetrics
 (
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 mSpaceGlyph

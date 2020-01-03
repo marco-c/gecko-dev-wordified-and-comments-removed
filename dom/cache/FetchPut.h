@@ -119,7 +119,7 @@ cache
 {
 class
 FetchPut
-MOZ_FINAL
+final
 :
 public
 Manager
@@ -359,7 +359,7 @@ aRequestId
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 void
 MaybeSetError
@@ -380,7 +380,7 @@ GetGlobalObject
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -391,7 +391,7 @@ AssertOwningThread
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif

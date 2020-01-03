@@ -94,7 +94,7 @@ nsBoxLayoutState
 &
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -107,7 +107,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -120,7 +120,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSize
@@ -133,7 +133,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -146,7 +146,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
-MOZ_OVERRIDE
+override
 ;
 static
 uint8_t

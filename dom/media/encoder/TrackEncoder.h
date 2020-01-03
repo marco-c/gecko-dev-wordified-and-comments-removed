@@ -265,7 +265,7 @@ MediaSegment
 &
 aQueuedMedia
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -348,7 +348,7 @@ void
 NotifyEndOfStream
 (
 )
-MOZ_OVERRIDE
+override
 ;
 int
 mChannels
@@ -420,7 +420,7 @@ MediaSegment
 &
 aQueuedMedia
 )
-MOZ_OVERRIDE
+override
 ;
 size_t
 SizeOfExcludingThis
@@ -467,7 +467,7 @@ void
 NotifyEndOfStream
 (
 )
-MOZ_OVERRIDE
+override
 ;
 int
 mFrameWidth

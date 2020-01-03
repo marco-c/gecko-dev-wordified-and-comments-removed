@@ -799,7 +799,7 @@ aBoundElement
 ;
 class
 nsXBLStreamListener
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

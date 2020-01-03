@@ -48,7 +48,7 @@ storage
 {
 class
 Row
-MOZ_FINAL
+final
 :
 public
 mozIStorageRow

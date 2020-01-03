@@ -119,7 +119,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -154,7 +154,7 @@ SourceSurface
 &
 aInputImages
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSVGString
@@ -162,7 +162,7 @@ nsSVGString
 GetResultImageName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStringAttributes
@@ -182,7 +182,7 @@ nsSVGStringInfo
 &
 aSources
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -203,7 +203,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -212,7 +212,7 @@ StringAttributesInfo
 GetStringInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

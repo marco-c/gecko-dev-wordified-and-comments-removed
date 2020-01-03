@@ -55,7 +55,7 @@ DocAccessible
 ;
 class
 TreeWalker
-MOZ_FINAL
+final
 {
 public
 :

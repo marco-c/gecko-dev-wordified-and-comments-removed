@@ -178,7 +178,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 size_t
@@ -191,7 +191,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 explicit
 nsStandardURL
@@ -345,7 +345,7 @@ mLen
 ;
 class
 nsPrefObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver

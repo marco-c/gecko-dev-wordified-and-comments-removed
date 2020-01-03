@@ -151,7 +151,7 @@ rec
 nsresult
 status
 )
-MOZ_OVERRIDE
+override
 {
 printf
 (

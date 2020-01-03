@@ -195,7 +195,7 @@ CacheFileChunk
 *
 aChunk
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnChunkWritten
@@ -206,7 +206,7 @@ CacheFileChunk
 *
 aChunk
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnChunkAvailable
@@ -219,7 +219,7 @@ CacheFileChunk
 *
 aChunk
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnChunkUpdated
@@ -228,7 +228,7 @@ CacheFileChunk
 *
 aChunk
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnFileOpened
@@ -239,7 +239,7 @@ aHandle
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnDataWritten
@@ -254,7 +254,7 @@ aBuf
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnDataRead
@@ -268,7 +268,7 @@ aBuf
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnFileDoomed
@@ -279,7 +279,7 @@ aHandle
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnEOFSet
@@ -290,7 +290,7 @@ aHandle
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnFileRenamed
@@ -301,7 +301,7 @@ aHandle
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnMetadataRead
@@ -309,7 +309,7 @@ OnMetadataRead
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OnMetadataWritten
@@ -317,7 +317,7 @@ OnMetadataWritten
 nsresult
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 OpenInputStream

@@ -237,7 +237,7 @@ CompositableClient
 *
 aCompositable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTextureChild
@@ -251,7 +251,7 @@ aSharedData
 TextureFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 void
 Attach
@@ -423,7 +423,7 @@ SurfaceDescriptorTiles
 &
 aTileLayerDescriptor
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AttachAsyncCompositable
@@ -446,7 +446,7 @@ TextureClient
 *
 aTexture
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -462,7 +462,7 @@ TextureClient
 *
 aTexture
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -472,7 +472,7 @@ TextureClient
 *
 aTexture
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -490,7 +490,7 @@ nsIntRegion
 &
 aUpdatedRegion
 )
-MOZ_OVERRIDE
+override
 ;
 void
 UpdatePictureRect
@@ -503,7 +503,7 @@ nsIntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -519,7 +519,7 @@ nsIntRegion
 *
 aRegion
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -532,7 +532,7 @@ TextureClient
 *
 aClient
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -548,7 +548,7 @@ TextureClient
 *
 aClientOnWhite
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -565,7 +565,7 @@ OverlaySource
 &
 aOverlay
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -584,7 +584,7 @@ FenceHandle
 &
 aFence
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 EndTransaction
@@ -662,7 +662,7 @@ void
 SendPendingAsyncMessges
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 HasShadowManager
@@ -729,7 +729,7 @@ Shmem
 *
 aShmem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -758,7 +758,7 @@ Shmem
 *
 aShmem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -774,7 +774,7 @@ Shmem
 &
 aShmem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -782,7 +782,7 @@ IPCOpen
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -790,7 +790,7 @@ IsSameProcess
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 PLayerChild
 *

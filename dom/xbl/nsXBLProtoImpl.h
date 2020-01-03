@@ -47,7 +47,7 @@ nsXBLProtoImplAnonymousMethod
 ;
 class
 nsXBLProtoImpl
-MOZ_FINAL
+final
 {
 public
 :

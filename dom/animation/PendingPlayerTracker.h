@@ -44,7 +44,7 @@ mozilla
 {
 class
 PendingPlayerTracker
-MOZ_FINAL
+final
 {
 public
 :

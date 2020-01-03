@@ -116,7 +116,7 @@ dom
 {
 class
 CameraRecorderVideoProfile
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -177,7 +177,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 BitsPerSecond
@@ -295,7 +295,7 @@ CameraRecorderVideoProfile
 ;
 class
 CameraRecorderAudioProfile
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -356,7 +356,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 uint32_t
 BitsPerSecond
@@ -440,7 +440,7 @@ CameraRecorderAudioProfile
 ;
 class
 CameraRecorderProfile
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -498,7 +498,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetMimeType
@@ -619,7 +619,7 @@ CameraClosedListenerProxy
 ;
 class
 CameraRecorderProfiles
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -673,7 +673,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 CameraRecorderProfile
 *
@@ -763,7 +763,7 @@ CameraRecorderProfiles
 ;
 class
 CameraCapabilities
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -829,7 +829,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetPreviewSizes

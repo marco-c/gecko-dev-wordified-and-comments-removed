@@ -40,7 +40,7 @@ dom
 {
 class
 AnimationEffect
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -98,7 +98,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetName

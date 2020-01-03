@@ -359,7 +359,7 @@ on
 .
 class
 MacWakeLockListener
-MOZ_FINAL
+final
 :
 public
 nsIDOMMozWakeLockListener
@@ -393,7 +393,7 @@ nsAString
 &
 aState
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

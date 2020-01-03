@@ -60,7 +60,7 @@ nsSynthVoiceRegistry
 ;
 class
 SpeechSynthesisUtterance
-MOZ_FINAL
+final
 :
 public
 DOMEventTargetHelper
@@ -125,7 +125,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 static
 already_AddRefed

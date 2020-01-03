@@ -399,7 +399,7 @@ StatusReporter_
 #
 #
 _classname
-MOZ_FINAL
+final
 :
 public
 nsIStatusReporter
@@ -427,7 +427,7 @@ nsACString
 &
 name
 )
-MOZ_OVERRIDE
+override
 \
 {
 name
@@ -449,7 +449,7 @@ nsACString
 &
 process
 )
-MOZ_OVERRIDE
+override
 \
 {
 process
@@ -470,7 +470,7 @@ nsACString
 &
 desc
 )
-MOZ_OVERRIDE
+override
 \
 {
 _desc_Function

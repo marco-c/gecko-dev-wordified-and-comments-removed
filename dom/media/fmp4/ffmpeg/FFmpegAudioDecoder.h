@@ -78,7 +78,7 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -91,14 +91,14 @@ MP4Sample
 *
 aSample
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 Drain
 (
 )
-MOZ_OVERRIDE
+override
 ;
 static
 AVCodecID

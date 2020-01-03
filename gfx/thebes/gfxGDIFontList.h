@@ -1062,7 +1062,7 @@ uint8_t
 &
 aBuffer
 )
-MOZ_OVERRIDE
+override
 ;
 LOGFONTW
 mLogFont

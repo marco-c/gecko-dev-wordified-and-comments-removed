@@ -54,7 +54,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 MakeFrameName
@@ -99,7 +99,7 @@ nsMargin
 &
 aBorderAndPadding
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;

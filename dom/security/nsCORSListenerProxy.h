@@ -113,7 +113,7 @@ aPreflightChannel
 ;
 class
 nsCORSListenerProxy
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

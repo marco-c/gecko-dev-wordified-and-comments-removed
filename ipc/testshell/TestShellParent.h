@@ -76,7 +76,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 PTestShellCommandParent
 *
@@ -87,7 +87,7 @@ nsString
 &
 aCommand
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 DeallocPTestShellCommandParent
@@ -96,7 +96,7 @@ PTestShellCommandParent
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 CommandDone

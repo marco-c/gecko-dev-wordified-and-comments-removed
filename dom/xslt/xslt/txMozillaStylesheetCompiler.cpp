@@ -356,7 +356,7 @@ aSpec
 }
 class
 txStylesheetSink
-MOZ_FINAL
+final
 :
 public
 nsIXMLContentSink
@@ -389,7 +389,7 @@ WillParse
 (
 void
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -401,14 +401,14 @@ DidBuildModel
 bool
 aTerminated
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 WillInterrupt
 (
 void
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -419,7 +419,7 @@ WillResume
 (
 void
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -432,7 +432,7 @@ nsParserBase
 *
 aParser
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -445,7 +445,7 @@ FlushPendingNotifications
 mozFlushType
 aType
 )
-MOZ_OVERRIDE
+override
 {
 }
 NS_IMETHOD
@@ -455,7 +455,7 @@ nsACString
 &
 aCharset
 )
-MOZ_OVERRIDE
+override
 {
 return
 NS_OK
@@ -467,7 +467,7 @@ nsISupports
 GetTarget
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -1596,7 +1596,7 @@ NS_ERROR_NO_INTERFACE
 }
 class
 txCompileObserver
-MOZ_FINAL
+final
 :
 public
 txACompileObserver
@@ -2749,7 +2749,7 @@ NS_OK
 }
 class
 txSyncCompileObserver
-MOZ_FINAL
+final
 :
 public
 txACompileObserver

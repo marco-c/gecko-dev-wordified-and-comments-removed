@@ -797,7 +797,7 @@ aSurfaceWidth
 int
 aSurfaceHeight
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void
@@ -922,7 +922,7 @@ void
 ConfigureAPZCTreeManager
 (
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -931,7 +931,7 @@ GeckoContentController
 CreateRootContentController
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 UserActivity
@@ -1148,7 +1148,7 @@ IMENotification
 &
 aIMENotification
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void

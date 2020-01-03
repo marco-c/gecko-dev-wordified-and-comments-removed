@@ -40,7 +40,7 @@ InternalHeaders
 ;
 class
 InternalResponse
-MOZ_FINAL
+final
 {
 friend
 class

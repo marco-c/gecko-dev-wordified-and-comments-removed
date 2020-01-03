@@ -32,7 +32,7 @@ NS_GIOSERVICE_CID
 }
 class
 nsGIOService
-MOZ_FINAL
+final
 :
 public
 nsIGIOService

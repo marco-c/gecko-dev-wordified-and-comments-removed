@@ -297,7 +297,7 @@ AssertIsOnWorkerThread
 ;
 class
 DataStoreGetStringRunnable
-MOZ_FINAL
+final
 :
 public
 DataStoreRunnable
@@ -391,7 +391,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -431,7 +431,7 @@ true
 ;
 class
 DataStoreGetReadOnlyRunnable
-MOZ_FINAL
+final
 :
 public
 DataStoreRunnable
@@ -494,7 +494,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -610,7 +610,7 @@ mPromiseWorkerProxy
 ;
 class
 DataStoreGetRunnable
-MOZ_FINAL
+final
 :
 public
 DataStoreProxyRunnable
@@ -704,7 +704,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -741,7 +741,7 @@ true
 ;
 class
 DataStorePutRunnable
-MOZ_FINAL
+final
 :
 public
 DataStoreProxyRunnable
@@ -870,7 +870,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -997,7 +997,7 @@ true
 ;
 class
 DataStoreAddRunnable
-MOZ_FINAL
+final
 :
 public
 DataStoreProxyRunnable
@@ -1132,7 +1132,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -1259,7 +1259,7 @@ true
 ;
 class
 DataStoreRemoveRunnable
-MOZ_FINAL
+final
 :
 public
 DataStoreProxyRunnable
@@ -1346,7 +1346,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -1384,7 +1384,7 @@ true
 ;
 class
 DataStoreClearRunnable
-MOZ_FINAL
+final
 :
 public
 DataStoreProxyRunnable
@@ -1458,7 +1458,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -1495,7 +1495,7 @@ true
 ;
 class
 DataStoreSyncStoreRunnable
-MOZ_FINAL
+final
 :
 public
 DataStoreRunnable
@@ -1576,7 +1576,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -2476,7 +2476,7 @@ aCx
 }
 class
 DataStoreGetLengthRunnable
-MOZ_FINAL
+final
 :
 public
 DataStoreProxyRunnable
@@ -2538,7 +2538,7 @@ bool
 MainThreadRun
 (
 )
-MOZ_OVERRIDE
+override
 {
 AssertIsOnMainThread
 (
@@ -2882,7 +2882,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

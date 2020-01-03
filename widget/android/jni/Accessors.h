@@ -779,7 +779,7 @@ Args
 .
 args
 )
-MOZ_OVERRIDE
+override
 {
 JNIEnv
 *
@@ -948,7 +948,7 @@ Args
 .
 args
 )
-MOZ_OVERRIDE
+override
 {
 JNIEnv
 *

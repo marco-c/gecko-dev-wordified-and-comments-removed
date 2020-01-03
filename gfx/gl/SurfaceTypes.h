@@ -44,7 +44,7 @@ gl
 {
 struct
 SurfaceCaps
-MOZ_FINAL
+final
 {
 bool
 any

@@ -58,7 +58,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -73,7 +73,7 @@ nsISupports
 *
 aCommandRefCon
 )
-MOZ_OVERRIDE
+override
 =
 0
 ;
@@ -120,7 +120,7 @@ bool
 *
 _retval
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -134,7 +134,7 @@ nsISupports
 *
 aCommandRefCon
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -151,7 +151,7 @@ nsISupports
 *
 aCommandRefCon
 )
-MOZ_OVERRIDE
+override
 ;
 \
 NS_IMETHOD
@@ -168,7 +168,7 @@ nsISupports
 *
 aCommandRefCon
 )
-MOZ_OVERRIDE
+override
 ;
 \
 }

@@ -155,7 +155,7 @@ aValue
 TrackRate
 aSampleRate
 )
-MOZ_OVERRIDE
+override
 {
 switch
 (
@@ -220,7 +220,7 @@ bool
 *
 aFinished
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -459,7 +459,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 AudioNodeEngine
@@ -479,7 +479,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 aMallocSizeOf

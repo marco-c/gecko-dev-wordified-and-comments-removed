@@ -240,7 +240,7 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 {
 mSurfaceTexture
 =
@@ -292,7 +292,7 @@ void
 Cleanup
 (
 )
-MOZ_OVERRIDE
+override
 {
 mGLContext
 =
@@ -310,7 +310,7 @@ MP4Sample
 *
 aSample
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -521,7 +521,7 @@ aFormat
 Microseconds
 aDuration
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

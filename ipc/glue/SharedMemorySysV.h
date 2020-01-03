@@ -166,7 +166,7 @@ Create
 size_t
 aNbytes
 )
-MOZ_OVERRIDE
+override
 {
 int
 id
@@ -218,7 +218,7 @@ Map
 size_t
 nBytes
 )
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -380,7 +380,7 @@ memory
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mData
@@ -392,7 +392,7 @@ Type
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 TYPE_SYSV

@@ -108,7 +108,7 @@ StringOrFileOrDirectory
 ;
 class
 Directory
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -175,7 +175,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetName

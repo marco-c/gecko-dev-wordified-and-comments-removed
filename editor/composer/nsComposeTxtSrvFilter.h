@@ -20,7 +20,7 @@ h
 "
 class
 nsComposeTxtSrvFilter
-MOZ_FINAL
+final
 :
 public
 nsITextServicesFilter

@@ -124,7 +124,7 @@ mozIStorageService
 ;
 class
 nsApplicationCacheNamespace
-MOZ_FINAL
+final
 :
 public
 nsIApplicationCacheNamespace
@@ -164,7 +164,7 @@ mData
 ;
 class
 nsOfflineCacheEvictionFunction
-MOZ_FINAL
+final
 :
 public
 mozIStorageFunction
@@ -226,7 +226,7 @@ mItems
 ;
 class
 nsOfflineCacheDevice
-MOZ_FINAL
+final
 :
 public
 nsCacheDevice
@@ -245,7 +245,7 @@ nsresult
 Init
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 InitWithSqlite
@@ -260,7 +260,7 @@ nsresult
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -270,7 +270,7 @@ GetDeviceID
 (
 void
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsCacheEntry
@@ -284,7 +284,7 @@ bool
 *
 collision
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -294,7 +294,7 @@ nsCacheEntry
 *
 entry
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -304,7 +304,7 @@ nsCacheEntry
 *
 entry
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -314,7 +314,7 @@ nsCacheEntry
 *
 entry
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -332,7 +332,7 @@ nsIInputStream
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -350,7 +350,7 @@ nsIOutputStream
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -364,7 +364,7 @@ nsIFile
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -376,7 +376,7 @@ entry
 int32_t
 deltaSize
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -386,7 +386,7 @@ nsICacheVisitor
 *
 visitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -397,7 +397,7 @@ char
 *
 clientID
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 GetOwnerDomains

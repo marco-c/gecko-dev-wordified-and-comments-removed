@@ -79,7 +79,7 @@ const
 int32_t
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AddAnnotation
@@ -92,7 +92,7 @@ const
 double
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AddAnnotation
@@ -106,7 +106,7 @@ nsAString
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AddAnnotation
@@ -120,7 +120,7 @@ nsACString
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AddAnnotation
@@ -133,7 +133,7 @@ const
 bool
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 size_t
 SizeOfIncludingThis
@@ -145,14 +145,14 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 IsEmpty
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 UniquePtr
 <
@@ -161,7 +161,7 @@ Enumerator
 GetEnumerator
 (
 )
-MOZ_OVERRIDE
+override
 ;
 typedef
 std

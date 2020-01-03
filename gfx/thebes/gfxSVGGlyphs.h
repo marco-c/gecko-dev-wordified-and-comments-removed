@@ -117,7 +117,7 @@ Element
 }
 class
 gfxSVGGlyphsDocument
-MOZ_FINAL
+final
 :
 public
 nsAPostRefreshObserver
@@ -165,7 +165,7 @@ void
 DidRefresh
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

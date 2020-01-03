@@ -134,14 +134,14 @@ GMPVideoFrameFormat
 GetFrameFormat
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -158,7 +158,7 @@ aStride_u
 int32_t
 aStride_v
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -193,7 +193,7 @@ aStride_u
 int32_t
 aStride_v
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -204,7 +204,7 @@ GMPVideoi420Frame
 &
 aFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -214,7 +214,7 @@ GMPVideoi420Frame
 *
 aFrame
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint8_t
@@ -224,7 +224,7 @@ Buffer
 GMPPlaneType
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 const
@@ -236,7 +236,7 @@ GMPPlaneType
 aType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -246,7 +246,7 @@ GMPPlaneType
 aType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -256,7 +256,7 @@ GMPPlaneType
 aType
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -265,7 +265,7 @@ SetWidth
 int32_t
 aWidth
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 GMPErr
@@ -274,7 +274,7 @@ SetHeight
 int32_t
 aHeight
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -282,7 +282,7 @@ Width
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -290,7 +290,7 @@ Height
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -299,7 +299,7 @@ SetTimestamp
 uint64_t
 aTimestamp
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
@@ -307,7 +307,7 @@ Timestamp
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -316,7 +316,7 @@ SetDuration
 uint64_t
 aDuration
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 uint64_t
@@ -324,7 +324,7 @@ Duration
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -332,14 +332,14 @@ IsZeroSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ResetSize
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

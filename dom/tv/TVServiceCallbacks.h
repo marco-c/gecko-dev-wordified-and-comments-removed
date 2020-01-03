@@ -45,7 +45,7 @@ TVSource
 ;
 class
 TVServiceSourceSetterCallback
-MOZ_FINAL
+final
 :
 public
 nsITVServiceCallback
@@ -96,7 +96,7 @@ mSourceType
 ;
 class
 TVServiceChannelScanCallback
-MOZ_FINAL
+final
 :
 public
 nsITVServiceCallback
@@ -147,7 +147,7 @@ mIsScanning
 ;
 class
 TVServiceChannelSetterCallback
-MOZ_FINAL
+final
 :
 public
 nsITVServiceCallback
@@ -200,7 +200,7 @@ mChannelNumber
 ;
 class
 TVServiceTunerGetterCallback
-MOZ_FINAL
+final
 :
 public
 nsITVServiceCallback
@@ -238,7 +238,7 @@ mManager
 ;
 class
 TVServiceChannelGetterCallback
-MOZ_FINAL
+final
 :
 public
 nsITVServiceCallback
@@ -284,7 +284,7 @@ mPromise
 ;
 class
 TVServiceProgramGetterCallback
-MOZ_FINAL
+final
 :
 public
 nsITVServiceCallback

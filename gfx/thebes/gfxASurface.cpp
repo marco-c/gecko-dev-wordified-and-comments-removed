@@ -2520,7 +2520,7 @@ Max
 ;
 class
 SurfaceMemoryReporter
-MOZ_FINAL
+final
 :
 public
 nsIMemoryReporter
@@ -2546,7 +2546,7 @@ aClosure
 bool
 aAnonymize
 )
-MOZ_OVERRIDE
+override
 {
 const
 size_t

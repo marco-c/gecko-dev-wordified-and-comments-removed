@@ -427,7 +427,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -442,7 +442,7 @@ int32_t
 &
 aCookie
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -1700,7 +1700,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool

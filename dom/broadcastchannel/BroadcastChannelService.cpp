@@ -260,7 +260,7 @@ namespace
 struct
 MOZ_STACK_CLASS
 PostMessageData
-MOZ_FINAL
+final
 {
 PostMessageData
 (

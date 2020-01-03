@@ -45,7 +45,7 @@ StorageBaseStatementInternal
 ;
 class
 BindingParamsArray
-MOZ_FINAL
+final
 :
 public
 mozIStorageBindingParamsArray

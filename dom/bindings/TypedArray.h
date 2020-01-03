@@ -1104,7 +1104,7 @@ JSTracer
 *
 trc
 )
-MOZ_OVERRIDE
+override
 {
 mArray
 -
@@ -1191,7 +1191,7 @@ JSTracer
 *
 trc
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

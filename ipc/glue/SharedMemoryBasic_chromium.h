@@ -35,7 +35,7 @@ ipc
 {
 class
 SharedMemoryBasic
-MOZ_FINAL
+final
 :
 public
 SharedMemory
@@ -77,7 +77,7 @@ Create
 size_t
 aNbytes
 )
-MOZ_OVERRIDE
+override
 {
 bool
 ok
@@ -115,7 +115,7 @@ Map
 size_t
 nBytes
 )
-MOZ_OVERRIDE
+override
 {
 bool
 ok
@@ -149,7 +149,7 @@ memory
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 mSharedMemory
@@ -165,7 +165,7 @@ Type
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 TYPE_BASIC

@@ -141,7 +141,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -151,7 +151,7 @@ nsIFrame
 *
 aDestructRoot
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -167,7 +167,7 @@ AccType
 AccessibleType
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -183,7 +183,7 @@ aAttribute
 int32_t
 aModType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -193,7 +193,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -208,7 +208,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -223,7 +223,7 @@ nsFrameList
 &
 aFrameList
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -235,7 +235,7 @@ nsIFrame
 *
 aOldFrame
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -245,7 +245,7 @@ nsContainerFrame
 GetContentInsertionFrame
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 GetFirstPrincipalChild
@@ -264,7 +264,7 @@ GetUsedMargin
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -275,7 +275,7 @@ nsHTMLReflowState
 &
 aReflowState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -286,7 +286,7 @@ nsHTMLReflowState
 &
 aReflowState
 )
-MOZ_OVERRIDE
+override
 ;
 friend
 nsIFrame
@@ -317,7 +317,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 DrawResult
 PaintCellBackground
@@ -359,7 +359,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -369,7 +369,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 IntrinsicISizeOffsetData
@@ -379,7 +379,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -399,7 +399,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIAtom
@@ -408,7 +408,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -422,7 +422,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -490,7 +490,7 @@ int32_t
 &
 aColIndex
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -501,7 +501,7 @@ int32_t
 aRowIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -518,7 +518,7 @@ int32_t
 aColIndex
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 SetColIndex
@@ -634,7 +634,7 @@ bool
 UpdateOverflow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -644,7 +644,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 nsContainerFrame
@@ -673,7 +673,7 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -688,14 +688,14 @@ aDisplayItemKey
 =
 0
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 InvalidateFrameForRemoval
 (
 )
-MOZ_OVERRIDE
+override
 {
 InvalidateFrameSubtree
 (
@@ -716,7 +716,7 @@ aReflowState
 nullptr
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -936,7 +936,7 @@ NS_TABLE_CELL_HAS_PCT_OVER_HEIGHT
 }
 class
 nsBCTableCellFrame
-MOZ_FINAL
+final
 :
 public
 nsTableCellFrame
@@ -974,7 +974,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -982,7 +982,7 @@ GetUsedBorder
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1005,7 +1005,7 @@ aRadii
 ]
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsMargin
@@ -1017,7 +1017,7 @@ nsMargin
 aBorder
 )
 const
-MOZ_OVERRIDE
+override
 ;
 BCPixelSize
 GetBorderWidth
@@ -1053,7 +1053,7 @@ nsMargin
 GetBorderOverflow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -1067,7 +1067,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -1087,7 +1087,7 @@ aPt
 uint32_t
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

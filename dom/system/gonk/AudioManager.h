@@ -114,7 +114,7 @@ AudioChannelVolInitCallback
 ;
 class
 AudioManager
-MOZ_FINAL
+final
 :
 public
 nsIAudioManager

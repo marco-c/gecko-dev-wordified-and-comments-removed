@@ -181,7 +181,7 @@ void
 Complete
 (
 )
-MOZ_OVERRIDE
+override
 {
 ReleaseTextureClient
 (
@@ -193,7 +193,7 @@ void
 Cancel
 (
 )
-MOZ_OVERRIDE
+override
 {
 ReleaseTextureClient
 (
@@ -208,7 +208,7 @@ TextureClient
 *
 aTextureClient
 )
-MOZ_OVERRIDE
+override
 {
 ReleaseTextureClient
 (
@@ -227,7 +227,7 @@ FenceHandle
 &
 aReleaseFenceHandle
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

@@ -81,7 +81,7 @@ RequestOrUSVString
 ;
 class
 Request
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -127,7 +127,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 {
 return
 RequestBinding

@@ -38,7 +38,7 @@ dom
 {
 class
 HTMLOptGroupElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -83,7 +83,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -94,7 +94,7 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -104,7 +104,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 EventStates
@@ -112,7 +112,7 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -133,7 +133,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -151,7 +151,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsIDOMNode
@@ -159,7 +159,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -171,7 +171,7 @@ IsDisabled
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 return
 HasAttr
@@ -270,7 +270,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :

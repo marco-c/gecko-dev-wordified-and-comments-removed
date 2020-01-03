@@ -74,7 +74,7 @@ net
 {
 class
 RemoteOpenFileChild
-MOZ_FINAL
+final
 :
 public
 PRemoteOpenFileChild
@@ -209,7 +209,7 @@ const
 FileDescriptor
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -224,7 +224,7 @@ FileDescriptor
 &
 aFD
 )
-MOZ_OVERRIDE
+override
 ;
 void
 HandleFileDescriptorAndNotifyListener

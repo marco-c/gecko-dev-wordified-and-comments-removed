@@ -131,7 +131,7 @@ A175
 }
 class
 nsPartChannel
-MOZ_FINAL
+final
 :
 public
 nsIChannel

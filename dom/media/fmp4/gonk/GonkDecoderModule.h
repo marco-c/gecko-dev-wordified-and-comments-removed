@@ -41,7 +41,7 @@ nsresult
 Shutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -81,7 +81,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -104,7 +104,7 @@ MediaDataDecoderCallback
 *
 aCallback
 )
-MOZ_OVERRIDE
+override
 ;
 static
 void

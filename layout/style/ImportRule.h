@@ -57,7 +57,7 @@ css
 {
 class
 ImportRule
-MOZ_FINAL
+final
 :
 public
 Rule
@@ -134,7 +134,7 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -144,7 +144,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 already_AddRefed
@@ -155,7 +155,7 @@ Clone
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 void
 SetSheet
@@ -175,7 +175,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_NSIDOMCSSRULE
 NS_DECL_NSIDOMCSSIMPORTRULE

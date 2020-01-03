@@ -73,7 +73,7 @@ SVGAnimationElement
 }
 class
 SVGAnimatedPreserveAspectRatio
-MOZ_FINAL
+final
 {
 public
 :
@@ -359,7 +359,7 @@ public
 :
 struct
 SMILPreserveAspectRatio
-MOZ_FINAL
+final
 :
 public
 nsISMILAttr
@@ -417,7 +417,7 @@ bool
 aPreventCachingOfSandwich
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSMILValue
@@ -425,14 +425,14 @@ GetBaseValue
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 ClearAnimValue
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -443,7 +443,7 @@ nsSMILValue
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 }
 ;
@@ -454,7 +454,7 @@ dom
 {
 class
 DOMSVGAnimatedPreserveAspectRatio
-MOZ_FINAL
+final
 :
 public
 nsISupports
@@ -520,7 +520,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <

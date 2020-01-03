@@ -291,7 +291,7 @@ dom
 ;
 class
 nsGeolocationRequest
-MOZ_FINAL
+final
 :
 public
 nsIContentPermissionRequest
@@ -570,7 +570,7 @@ Value
 >
 aResult
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -692,7 +692,7 @@ nsAString
 &
 aName
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

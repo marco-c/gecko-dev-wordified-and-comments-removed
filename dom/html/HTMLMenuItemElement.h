@@ -41,7 +41,7 @@ Visitor
 ;
 class
 HTMLMenuItemElement
-MOZ_FINAL
+final
 :
 public
 nsGenericHTMLElement
@@ -101,7 +101,7 @@ EventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -111,7 +111,7 @@ EventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -129,7 +129,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -148,14 +148,14 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DoneCreatingElement
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -176,7 +176,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 uint8_t
 GetType
@@ -434,7 +434,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -454,7 +454,7 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
+override
 ;
 void
 WalkRadioGroup

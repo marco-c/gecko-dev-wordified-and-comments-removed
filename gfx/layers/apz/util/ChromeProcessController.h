@@ -106,7 +106,7 @@ void
 Destroy
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -117,7 +117,7 @@ FrameMetrics
 &
 aFrameMetrics
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -129,7 +129,7 @@ aTask
 int
 aDelayMs
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -150,7 +150,7 @@ CSSPoint
 &
 aDestination
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -168,7 +168,7 @@ uint32_t
 &
 aScrollGeneration
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -188,7 +188,7 @@ ScrollableLayerGuid
 &
 aGuid
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -209,7 +209,7 @@ ScrollableLayerGuid
 &
 aGuid
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -231,7 +231,7 @@ aGuid
 uint64_t
 aInputBlockId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -254,7 +254,7 @@ CSSSize
 &
 aScrollableSize
 )
-MOZ_OVERRIDE
+override
 {
 }
 virtual
@@ -270,7 +270,7 @@ aChange
 int
 aArg
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

@@ -86,7 +86,7 @@ NodeInfo
 }
 class
 nsNodeInfoManager
-MOZ_FINAL
+final
 {
 private
 :

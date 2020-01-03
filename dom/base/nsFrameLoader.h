@@ -171,7 +171,7 @@ QX11EmbedContainer
 endif
 class
 nsFrameLoader
-MOZ_FINAL
+final
 :
 public
 nsIFrameLoader
@@ -342,7 +342,7 @@ aURL
 bool
 aRunInGlobalScope
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -378,7 +378,7 @@ nsIPrincipal
 *
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -389,7 +389,7 @@ nsAString
 &
 aPermission
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -400,7 +400,7 @@ nsAString
 &
 aManifestURL
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -411,7 +411,7 @@ nsAString
 &
 aPermission
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Show

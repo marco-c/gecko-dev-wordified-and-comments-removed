@@ -83,7 +83,7 @@ AudioContext
 ;
 class
 AudioBuffer
-MOZ_FINAL
+final
 :
 public
 nsWrapperCache
@@ -162,7 +162,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 float
 SampleRate

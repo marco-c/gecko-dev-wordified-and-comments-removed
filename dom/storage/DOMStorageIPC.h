@@ -67,7 +67,7 @@ DOMLocalStorageManager
 ;
 class
 DOMStorageDBChild
-MOZ_FINAL
+final
 :
 public
 DOMStorageDBBridge
@@ -423,7 +423,7 @@ mIPCOpen
 ;
 class
 DOMStorageDBParent
-MOZ_FINAL
+final
 :
 public
 PStorageParent
@@ -466,7 +466,7 @@ ProtocolCloneContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -710,7 +710,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvAsyncPreload
@@ -724,7 +724,7 @@ bool
 &
 aPriority
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvPreload
@@ -753,7 +753,7 @@ nsresult
 *
 aRv
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvAsyncGetUsage
@@ -763,7 +763,7 @@ nsCString
 &
 aScope
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvAsyncAddItem
@@ -781,7 +781,7 @@ nsString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvAsyncUpdateItem
@@ -799,7 +799,7 @@ nsString
 &
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvAsyncRemoveItem
@@ -813,7 +813,7 @@ nsString
 &
 aKey
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvAsyncClear
@@ -823,13 +823,13 @@ nsCString
 &
 aScope
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvAsyncFlush
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -844,7 +844,7 @@ nsACString
 &
 aScopePrefix
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

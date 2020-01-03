@@ -148,7 +148,7 @@ CALLBACK_TYPE_OBSERVER
 ;
 class
 nsTimerImpl
-MOZ_FINAL
+final
 :
 public
 nsITimer
@@ -266,7 +266,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
+override
 ;
 private
 :

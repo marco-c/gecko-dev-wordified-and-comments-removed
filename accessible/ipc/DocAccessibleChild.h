@@ -134,7 +134,7 @@ uint64_t
 *
 aState
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -148,7 +148,7 @@ nsString
 *
 aName
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -162,7 +162,7 @@ nsString
 *
 aValue
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -176,7 +176,7 @@ nsString
 *
 aDesc
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -197,7 +197,7 @@ uint64_t
 *
 aTargets
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -214,7 +214,7 @@ RelationTargets
 *
 aRelations
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -231,7 +231,7 @@ Attribute
 *
 aAttributes
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -245,7 +245,7 @@ int32_t
 *
 aOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -263,7 +263,7 @@ bool
 *
 aValid
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -277,7 +277,7 @@ int32_t
 *
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -291,7 +291,7 @@ int32_t
 *
 aCount
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -313,7 +313,7 @@ nsString
 *
 aText
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -341,7 +341,7 @@ int32_t
 *
 aEndOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -369,7 +369,7 @@ int32_t
 *
 aEndOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -397,7 +397,7 @@ int32_t
 *
 aEndOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -415,7 +415,7 @@ uint16_t
 *
 aChar
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -446,7 +446,7 @@ int32_t
 *
 aEndOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -463,7 +463,7 @@ Attribute
 *
 aAttributes
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -489,7 +489,7 @@ nsIntRect
 *
 aRetVal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -511,7 +511,7 @@ nsIntRect
 *
 aRetVal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -537,7 +537,7 @@ int32_t
 *
 aRetVal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -564,7 +564,7 @@ int32_t
 *
 aEndOffset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -590,7 +590,7 @@ bool
 *
 aSucceeded
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -612,7 +612,7 @@ bool
 *
 aSucceeded
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -630,7 +630,7 @@ bool
 *
 aSucceeded
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -653,7 +653,7 @@ uint32_t
 &
 aScrollType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -684,7 +684,7 @@ int32_t
 &
 aY
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -699,7 +699,7 @@ nsString
 &
 aText
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -718,7 +718,7 @@ int32_t
 &
 aPosition
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -737,7 +737,7 @@ int32_t
 &
 aEndPos
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -756,7 +756,7 @@ int32_t
 &
 aEndPos
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -775,7 +775,7 @@ int32_t
 &
 aEndPos
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -790,7 +790,7 @@ int32_t
 &
 aPosition
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

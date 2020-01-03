@@ -46,7 +46,7 @@ widget
 {
 class
 NativeKeyBindings
-MOZ_FINAL
+final
 {
 typedef
 nsIWidget

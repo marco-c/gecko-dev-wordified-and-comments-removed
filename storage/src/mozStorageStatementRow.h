@@ -35,7 +35,7 @@ storage
 {
 class
 StatementRow
-MOZ_FINAL
+final
 :
 public
 mozIStorageStatementRow

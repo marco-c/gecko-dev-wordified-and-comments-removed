@@ -74,7 +74,7 @@ BluetoothSignalObserver
 *
 aMsgHandler
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -88,7 +88,7 @@ BluetoothSignalObserver
 *
 aMsgHandler
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -98,7 +98,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -115,7 +115,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -127,7 +127,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -137,7 +137,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -147,7 +147,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -163,7 +163,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -179,7 +179,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -193,7 +193,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -211,7 +211,7 @@ BluetoothProfileManagerBase
 *
 aManager
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -225,7 +225,7 @@ BluetoothProfileManagerBase
 *
 aManager
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -243,7 +243,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -259,7 +259,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -275,7 +275,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -293,7 +293,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -309,7 +309,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -322,7 +322,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -342,7 +342,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -359,7 +359,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -373,7 +373,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -389,7 +389,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -399,7 +399,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -409,7 +409,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -419,7 +419,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -432,7 +432,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -442,7 +442,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -452,7 +452,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -482,7 +482,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -500,7 +500,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -513,7 +513,7 @@ aPosition
 ControlPlayStatus
 aPlayStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -528,7 +528,7 @@ nsAString
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -543,7 +543,7 @@ nsAString
 &
 aMessage
 )
-MOZ_OVERRIDE
+override
 ;
 protected
 :
@@ -572,14 +572,14 @@ nsresult
 HandleStartup
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 HandleShutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -588,14 +588,14 @@ nsresult
 StartInternal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
 StopInternal
 (
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsSignalRegistered

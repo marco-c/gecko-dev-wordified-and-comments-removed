@@ -33,7 +33,7 @@ h
 "
 class
 nsNetAddr
-MOZ_FINAL
+final
 :
 public
 nsINetAddr

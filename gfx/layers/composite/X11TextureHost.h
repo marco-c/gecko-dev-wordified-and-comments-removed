@@ -76,14 +76,14 @@ Compositor
 *
 aCompositor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 Lock
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -94,7 +94,7 @@ GetFormat
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 gfx
@@ -105,7 +105,7 @@ GetSize
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 TextureSource
@@ -113,7 +113,7 @@ TextureSource
 GetTextureSources
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mTextureSource
@@ -130,7 +130,7 @@ DataSourceSurface
 GetAsSurface
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 nullptr
@@ -146,7 +146,7 @@ char
 Name
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 "

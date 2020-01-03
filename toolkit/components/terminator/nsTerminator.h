@@ -23,7 +23,7 @@ mozilla
 {
 class
 nsTerminator
-MOZ_FINAL
+final
 :
 public
 nsIObserver

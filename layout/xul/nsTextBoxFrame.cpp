@@ -677,7 +677,7 @@ gInsertSeparatorBeforeAccessKey
 }
 class
 nsAsyncAccesskeyUpdate
-MOZ_FINAL
+final
 :
 public
 nsIReflowCallback
@@ -703,7 +703,7 @@ bool
 ReflowFinished
 (
 )
-MOZ_OVERRIDE
+override
 {
 bool
 shouldFlush
@@ -755,7 +755,7 @@ void
 ReflowCallbackCanceled
 (
 )
-MOZ_OVERRIDE
+override
 {
 delete
 this
@@ -1186,7 +1186,7 @@ nsRenderingContext
 *
 aCtx
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsRect
@@ -1199,7 +1199,7 @@ bool
 *
 aSnap
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -1216,14 +1216,14 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
 DisableComponentAlpha
 (
 )
-MOZ_OVERRIDE
+override
 {
 mDisableSubpixelAA
 =

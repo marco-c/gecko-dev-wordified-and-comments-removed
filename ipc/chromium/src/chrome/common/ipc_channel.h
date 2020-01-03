@@ -211,7 +211,7 @@ Message
 *
 message
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 Unsound_IsClosed

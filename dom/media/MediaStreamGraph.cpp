@@ -8618,7 +8618,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mStream
 -
@@ -8646,7 +8646,7 @@ void
 RunDuringShutdown
 (
 )
-MOZ_OVERRIDE
+override
 {
 Run
 (
@@ -8657,7 +8657,7 @@ Run
 ;
 class
 MediaStreamGraphShutdownObserver
-MOZ_FINAL
+final
 :
 public
 nsIObserver
@@ -11554,7 +11554,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mStream
 -
@@ -11579,7 +11579,7 @@ void
 RunDuringShutdown
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

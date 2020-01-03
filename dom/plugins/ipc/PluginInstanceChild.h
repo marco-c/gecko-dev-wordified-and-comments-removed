@@ -287,7 +287,7 @@ NPRemoteWindow
 &
 window
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -300,7 +300,7 @@ NPError
 *
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -313,7 +313,7 @@ NPError
 *
 rv
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -327,7 +327,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -340,7 +340,7 @@ NPError
 *
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -354,7 +354,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -368,7 +368,7 @@ int16_t
 *
 handled
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -389,7 +389,7 @@ Shmem
 *
 rtnmem
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -407,7 +407,7 @@ int16_t
 *
 handled
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -422,7 +422,7 @@ NPRemoteWindow
 &
 aWindow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -455,7 +455,7 @@ const
 bool
 &
 )
-MOZ_OVERRIDE
+override
 {
 return
 new
@@ -472,7 +472,7 @@ PPluginSurfaceChild
 *
 s
 )
-MOZ_OVERRIDE
+override
 {
 delete
 s
@@ -493,7 +493,7 @@ int16_t
 *
 handled
 )
-MOZ_OVERRIDE
+override
 {
 PaintTracker
 pt
@@ -515,7 +515,7 @@ NPRemoteEvent
 &
 event
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -526,7 +526,7 @@ double
 &
 aContentsScaleFactor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -536,7 +536,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PPluginScriptableObjectChild
@@ -544,7 +544,7 @@ PPluginScriptableObjectChild
 AllocPPluginScriptableObjectChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -554,7 +554,7 @@ PPluginScriptableObjectChild
 *
 aObject
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -564,7 +564,7 @@ PPluginScriptableObjectChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -593,7 +593,7 @@ nsCString
 &
 aHeaders
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -617,7 +617,7 @@ uint16_t
 *
 stype
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -635,7 +635,7 @@ bool
 &
 seekable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBrowserStreamChild
@@ -662,7 +662,7 @@ nsCString
 &
 headers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -672,7 +672,7 @@ PBrowserStreamChild
 *
 stream
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PPluginStreamChild
@@ -691,7 +691,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -701,7 +701,7 @@ PPluginStreamChild
 *
 stream
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PStreamNotifyChild
@@ -732,7 +732,7 @@ NPError
 *
 result
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -742,28 +742,28 @@ PStreamNotifyChild
 *
 notifyData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 AnswerSetPluginFocus
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 AnswerUpdateWindow
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvNPP_DidComposite
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 if
@@ -1022,7 +1022,7 @@ nsIntRect
 &
 aRect
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PPluginBackgroundDestroyerChild
@@ -1030,7 +1030,7 @@ PPluginBackgroundDestroyerChild
 AllocPPluginBackgroundDestroyerChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1040,7 +1040,7 @@ PPluginBackgroundDestroyerChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1050,7 +1050,7 @@ PPluginBackgroundDestroyerChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 #
 if
@@ -1350,7 +1350,7 @@ void
 Run
 (
 )
-MOZ_OVERRIDE
+override
 ;
 WNDPROC
 GetProc
@@ -1949,7 +1949,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 mLayersRendering

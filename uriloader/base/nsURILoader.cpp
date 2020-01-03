@@ -359,7 +359,7 @@ disable_background_handling
 "
 class
 nsDocumentOpenInfo
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener

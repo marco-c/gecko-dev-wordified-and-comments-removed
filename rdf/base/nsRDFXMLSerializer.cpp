@@ -5127,7 +5127,7 @@ n
 }
 class
 QNameCollector
-MOZ_FINAL
+final
 :
 public
 rdfITripleVisitor

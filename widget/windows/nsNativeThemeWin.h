@@ -240,7 +240,7 @@ ThemeDrawsFocusForWidget
 uint8_t
 aWidgetType
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 ThemeNeedsComboboxDropmarker
@@ -254,7 +254,7 @@ WidgetAppearanceDependsOnWindowFocus
 uint8_t
 aWidgetType
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {
@@ -275,14 +275,14 @@ aFrame
 uint8_t
 aWidgetType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 ShouldHideScrollbars
 (
 )
-MOZ_OVERRIDE
+override
 ;
 nsNativeThemeWin
 (

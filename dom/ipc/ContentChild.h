@@ -224,7 +224,7 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD_
 (
@@ -234,7 +234,7 @@ AddRef
 (
 void
 )
-MOZ_OVERRIDE
+override
 {
 return
 1
@@ -248,7 +248,7 @@ Release
 (
 void
 )
-MOZ_OVERRIDE
+override
 {
 return
 1
@@ -421,7 +421,7 @@ base
 ProcessId
 otherProcess
 )
-MOZ_OVERRIDE
+override
 ;
 PContentBridgeParent
 *
@@ -442,7 +442,7 @@ base
 ProcessId
 otherProcess
 )
-MOZ_OVERRIDE
+override
 ;
 PContentBridgeChild
 *
@@ -463,7 +463,7 @@ base
 ProcessId
 otherProcess
 )
-MOZ_OVERRIDE
+override
 ;
 PCompositorChild
 *
@@ -484,7 +484,7 @@ base
 ProcessId
 aOtherProcess
 )
-MOZ_OVERRIDE
+override
 ;
 PSharedBufferManagerChild
 *
@@ -505,7 +505,7 @@ base
 ProcessId
 aOtherProcess
 )
-MOZ_OVERRIDE
+override
 ;
 PImageBridgeChild
 *
@@ -526,7 +526,7 @@ base
 ProcessId
 aOtherProcess
 )
-MOZ_OVERRIDE
+override
 ;
 PProcessHangMonitorChild
 *
@@ -538,7 +538,7 @@ aTransport
 ProcessId
 aOtherProcess
 )
-MOZ_OVERRIDE
+override
 ;
 #
 if
@@ -564,7 +564,7 @@ bool
 RecvSetProcessSandbox
 (
 )
-MOZ_OVERRIDE
+override
 ;
 PBackgroundChild
 *
@@ -576,7 +576,7 @@ aTransport
 ProcessId
 aOtherProcess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBrowserChild
@@ -608,7 +608,7 @@ bool
 &
 aIsForBrowser
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -617,7 +617,7 @@ DeallocPBrowserChild
 PBrowserChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PDeviceStorageRequestChild
@@ -628,7 +628,7 @@ const
 DeviceStorageParams
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -637,7 +637,7 @@ DeallocPDeviceStorageRequestChild
 PDeviceStorageRequestChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PFileSystemRequestChild
@@ -648,7 +648,7 @@ const
 FileSystemParams
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -657,7 +657,7 @@ DeallocPFileSystemRequestChild
 PFileSystemRequestChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBlobChild
@@ -669,7 +669,7 @@ BlobConstructorParams
 &
 aParams
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -679,7 +679,7 @@ PBlobChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PCrashReporterChild
@@ -701,7 +701,7 @@ uint32_t
 &
 processType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -710,7 +710,7 @@ DeallocPCrashReporterChild
 PCrashReporterChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PHalChild
@@ -718,7 +718,7 @@ PHalChild
 AllocPHalChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -727,7 +727,7 @@ DeallocPHalChild
 PHalChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PMemoryReportRequestChild
@@ -751,7 +751,7 @@ MaybeFileDesc
 &
 aDMDFile
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -761,7 +761,7 @@ PMemoryReportRequestChild
 *
 actor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -787,7 +787,7 @@ MaybeFileDesc
 &
 aDMDFile
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PCycleCollectWithLogsChild
@@ -807,7 +807,7 @@ FileDescriptor
 &
 aCCLog
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -817,7 +817,7 @@ PCycleCollectWithLogsChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -839,14 +839,14 @@ FileDescriptor
 &
 aCCLog
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvAudioChannelNotify
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -865,7 +865,7 @@ nsString
 &
 aManifestURL
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTestShellChild
@@ -873,7 +873,7 @@ PTestShellChild
 AllocPTestShellChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -882,7 +882,7 @@ DeallocPTestShellChild
 PTestShellChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -891,7 +891,7 @@ RecvPTestShellConstructor
 PTestShellChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 jsipc
 :
@@ -901,7 +901,7 @@ CPOWManager
 GetCPOWManager
 (
 )
-MOZ_OVERRIDE
+override
 ;
 PMobileConnectionChild
 *
@@ -926,7 +926,7 @@ uint32_t
 &
 aClientId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -936,7 +936,7 @@ PMobileConnectionChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PNeckoChild
@@ -944,7 +944,7 @@ PNeckoChild
 AllocPNeckoChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -953,7 +953,7 @@ DeallocPNeckoChild
 PNeckoChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PPrintingChild
@@ -961,7 +961,7 @@ PPrintingChild
 AllocPPrintingChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -970,7 +970,7 @@ DeallocPPrintingChild
 PPrintingChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PScreenManagerChild
@@ -987,7 +987,7 @@ bool
 *
 aSuccess
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -996,7 +996,7 @@ DeallocPScreenManagerChild
 PScreenManagerChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PExternalHelperAppChild
@@ -1039,7 +1039,7 @@ PBrowserChild
 *
 aBrowser
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1049,7 +1049,7 @@ PExternalHelperAppChild
 *
 aService
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PCellBroadcastChild
@@ -1057,7 +1057,7 @@ PCellBroadcastChild
 AllocPCellBroadcastChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 PCellBroadcastChild
 *
@@ -1076,7 +1076,7 @@ PCellBroadcastChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PSmsChild
@@ -1084,7 +1084,7 @@ PSmsChild
 AllocPSmsChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1093,7 +1093,7 @@ DeallocPSmsChild
 PSmsChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PTelephonyChild
@@ -1101,7 +1101,7 @@ PTelephonyChild
 AllocPTelephonyChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1110,7 +1110,7 @@ DeallocPTelephonyChild
 PTelephonyChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PVoicemailChild
@@ -1118,7 +1118,7 @@ PVoicemailChild
 AllocPVoicemailChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 PVoicemailChild
 *
@@ -1136,7 +1136,7 @@ DeallocPVoicemailChild
 PVoicemailChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PStorageChild
@@ -1144,7 +1144,7 @@ PStorageChild
 AllocPStorageChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1154,7 +1154,7 @@ PStorageChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PBluetoothChild
@@ -1162,7 +1162,7 @@ PBluetoothChild
 AllocPBluetoothChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1172,7 +1172,7 @@ PBluetoothChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PFMRadioChild
@@ -1180,7 +1180,7 @@ PFMRadioChild
 AllocPFMRadioChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1190,7 +1190,7 @@ PFMRadioChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PAsmJSCacheEntryChild
@@ -1219,7 +1219,7 @@ Principal
 &
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1229,7 +1229,7 @@ PAsmJSCacheEntryChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PSpeechSynthesisChild
@@ -1237,7 +1237,7 @@ PSpeechSynthesisChild
 AllocPSpeechSynthesisChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1247,7 +1247,7 @@ PSpeechSynthesisChild
 *
 aActor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1283,7 +1283,7 @@ bool
 &
 reset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1294,7 +1294,7 @@ ChromeRegistryItem
 &
 item
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -1308,7 +1308,7 @@ PJavaScriptChild
 AllocPJavaScriptChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1323,7 +1323,7 @@ jsipc
 PJavaScriptChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PRemoteSpellcheckEngineChild
@@ -1331,7 +1331,7 @@ PRemoteSpellcheckEngineChild
 AllocPRemoteSpellcheckEngineChild
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1340,7 +1340,7 @@ DeallocPRemoteSpellcheckEngineChild
 PRemoteSpellcheckEngineChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1351,14 +1351,14 @@ bool
 &
 offline
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvSpeakerManagerNotify
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1369,7 +1369,7 @@ URIParams
 &
 aURI
 )
-MOZ_OVERRIDE
+override
 ;
 nsresult
 AddRemoteAlertObserver
@@ -1396,7 +1396,7 @@ uint32_t
 &
 aMemoryAvailable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1407,7 +1407,7 @@ PrefSetting
 &
 aPref
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1422,7 +1422,7 @@ nsString
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1433,7 +1433,7 @@ nsString
 &
 aURL
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1462,7 +1462,7 @@ Principal
 &
 aPrincipal
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1473,7 +1473,7 @@ GeoPosition
 &
 somewhere
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1484,7 +1484,7 @@ uint16_t
 &
 errorCode
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1498,7 +1498,7 @@ nsString
 &
 aDictionaries
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1512,7 +1512,7 @@ Permission
 &
 permission
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1523,7 +1523,7 @@ gfxIntSize
 &
 size
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1534,28 +1534,28 @@ nsString
 &
 reason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvActivateA11y
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvGarbageCollect
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvCycleCollect
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1586,14 +1586,14 @@ nsCString
 &
 vendor
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvLastPrivateDocShellDestroyed
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1607,7 +1607,7 @@ VolumeInfo
 &
 aVolumes
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1630,7 +1630,7 @@ nsCString
 &
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1681,14 +1681,14 @@ bool
 &
 aIsHotSwappable
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvNuwaFork
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1702,14 +1702,14 @@ ProcessPriority
 &
 aPriority
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvMinimizeMemoryUsage
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1724,7 +1724,7 @@ uint32_t
 &
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1739,7 +1739,7 @@ uint32_t
 &
 aType
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1750,14 +1750,14 @@ nsString
 &
 state
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvNuwaFreeze
 (
 )
-MOZ_OVERRIDE
+override
 ;
 void
 AddIdleObserver
@@ -1796,14 +1796,14 @@ nsString
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvOnAppThemeChanged
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1821,7 +1821,7 @@ ProcessId
 &
 aProcessId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1836,7 +1836,7 @@ bool
 &
 aResult
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1865,14 +1865,14 @@ nsCString
 &
 aThreadNameFilters
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvStopProfiler
 (
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1882,14 +1882,14 @@ nsCString
 *
 aProfile
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
 RecvShutdown
 (
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -1951,7 +1951,7 @@ BlobConstructorParams
 &
 params
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PFileDescriptorSetChild
@@ -1962,7 +1962,7 @@ const
 FileDescriptor
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -1971,7 +1971,7 @@ DeallocPFileDescriptorSetChild
 PFileDescriptorSetChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2005,7 +2005,7 @@ bool
 &
 aIsForBrowser
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2039,7 +2039,7 @@ bool
 &
 aIsForBrowser
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 PDocAccessibleChild
@@ -2052,7 +2052,7 @@ const
 uint64_t
 &
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2061,7 +2061,7 @@ DeallocPDocAccessibleChild
 PDocAccessibleChild
 *
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetAvailableDictionaries
@@ -2104,7 +2104,7 @@ TabId
 &
 aTabId
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -2114,7 +2114,7 @@ POfflineCacheUpdateChild
 *
 offlineCacheUpdate
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :
@@ -2125,7 +2125,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -2138,7 +2138,7 @@ char
 *
 aReason
 )
-MOZ_OVERRIDE
+override
 ;
 MOZ_NORETURN
 void

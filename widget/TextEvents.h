@@ -249,7 +249,7 @@ WidgetKeyboardEvent
 AsKeyboardEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -345,7 +345,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -859,7 +859,7 @@ InternalBeforeAfterKeyboardEvent
 AsBeforeAfterKeyboardEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -892,7 +892,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1041,7 +1041,7 @@ WidgetCompositionEvent
 AsCompositionEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -1084,7 +1084,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1326,7 +1326,7 @@ WidgetQueryContentEvent
 AsQueryContentEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -1375,7 +1375,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -1879,7 +1879,7 @@ WidgetSelectionEvent
 AsSelectionEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -1940,7 +1940,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 NS_ASSERTION
 (
@@ -2023,7 +2023,7 @@ InternalEditorInputEvent
 AsEditorInputEvent
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 this
@@ -2093,7 +2093,7 @@ Duplicate
 (
 )
 const
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

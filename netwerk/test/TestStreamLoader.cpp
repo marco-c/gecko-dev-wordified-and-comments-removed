@@ -78,7 +78,7 @@ args
 )
 class
 MyStreamLoaderObserver
-MOZ_FINAL
+final
 :
 public
 nsIStreamLoaderObserver

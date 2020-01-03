@@ -64,7 +64,7 @@ h
 "
 class
 nsXULTemplateResultRDF
-MOZ_FINAL
+final
 :
 public
 nsIXULTemplateResult

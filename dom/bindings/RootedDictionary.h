@@ -86,7 +86,7 @@ JSTracer
 *
 trc
 )
-MOZ_OVERRIDE
+override
 {
 this
 -
@@ -154,7 +154,7 @@ JSTracer
 *
 trc
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

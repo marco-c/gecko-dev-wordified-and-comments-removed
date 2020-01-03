@@ -161,7 +161,7 @@ MediaStreamListener
 MediaStreamGraphEvent
 event
 )
-MOZ_OVERRIDE
+override
 {
 switch
 (
@@ -228,7 +228,7 @@ aGraph
 Blocking
 aBlocked
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

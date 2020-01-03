@@ -46,7 +46,7 @@ dom
 {
 class
 XMLStylesheetProcessingInstruction
-MOZ_FINAL
+final
 :
 public
 ProcessingInstruction
@@ -141,7 +141,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
@@ -164,7 +164,7 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -182,7 +182,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -197,7 +197,7 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -207,7 +207,7 @@ nsIURI
 *
 aNewBaseURI
 )
-MOZ_OVERRIDE
+override
 ;
 NS_IMETHOD
 GetCharset
@@ -216,7 +216,7 @@ nsAString
 &
 aCharset
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -233,7 +233,7 @@ ErrorResult
 &
 rv
 )
-MOZ_OVERRIDE
+override
 {
 nsGenericDOMDataNode
 :
@@ -294,7 +294,7 @@ bool
 *
 aIsInline
 )
-MOZ_OVERRIDE
+override
 ;
 void
 GetStyleSheetInfo
@@ -315,7 +315,7 @@ bool
 *
 aIsAlternate
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsGenericDOMDataNode
@@ -335,7 +335,7 @@ bool
 aCloneText
 )
 const
-MOZ_OVERRIDE
+override
 ;
 }
 ;

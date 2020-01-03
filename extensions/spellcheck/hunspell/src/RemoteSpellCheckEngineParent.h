@@ -51,7 +51,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -65,7 +65,7 @@ bool
 *
 success
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -79,7 +79,7 @@ bool
 *
 aIsMisspelled
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -99,7 +99,7 @@ nsString
 *
 aSuggestions
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

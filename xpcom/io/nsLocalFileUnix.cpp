@@ -418,7 +418,7 @@ NS_ERROR_NOT_INITIALIZED
 PR_END_MACRO
 class
 nsDirEnumeratorUnix
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator

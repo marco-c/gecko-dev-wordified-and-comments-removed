@@ -63,7 +63,7 @@ BlobImpl
 ;
 class
 RDFServiceImpl
-MOZ_FINAL
+final
 :
 public
 nsIRDFService

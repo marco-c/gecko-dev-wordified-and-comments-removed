@@ -1255,7 +1255,7 @@ namespace
 {
 class
 UDPMessageProxy
-MOZ_FINAL
+final
 :
 public
 nsIUDPMessage
@@ -2392,7 +2392,7 @@ namespace
 {
 class
 SocketListenerProxy
-MOZ_FINAL
+final
 :
 public
 nsIUDPSocketListener

@@ -88,7 +88,7 @@ nsProperties_HashBase
 ;
 class
 nsProperties
-MOZ_FINAL
+final
 :
 public
 nsIProperties

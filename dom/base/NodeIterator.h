@@ -46,7 +46,7 @@ dom
 {
 class
 NodeIterator
-MOZ_FINAL
+final
 :
 public
 nsIDOMNodeIterator

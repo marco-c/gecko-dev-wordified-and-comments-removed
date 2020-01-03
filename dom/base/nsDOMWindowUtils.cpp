@@ -17712,7 +17712,7 @@ namespace
 {
 class
 HandlingUserInputHelper
-MOZ_FINAL
+final
 :
 public
 nsIJSRAIIHelper

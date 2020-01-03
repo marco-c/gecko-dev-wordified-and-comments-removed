@@ -55,7 +55,7 @@ widget
 {
 class
 WinTaskbar
-MOZ_FINAL
+final
 :
 public
 nsIWinTaskbar

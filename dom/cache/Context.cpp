@@ -186,7 +186,7 @@ PersistenceType
 ;
 class
 QuotaReleaseRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -219,7 +219,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -359,7 +359,7 @@ Context
 :
 :
 QuotaInitRunnable
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -503,7 +503,7 @@ Resolve
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (
@@ -1137,7 +1137,7 @@ Context
 :
 :
 ActionRunnable
-MOZ_FINAL
+final
 :
 public
 nsIRunnable
@@ -1342,7 +1342,7 @@ Resolve
 nsresult
 aRv
 )
-MOZ_OVERRIDE
+override
 {
 MOZ_ASSERT
 (

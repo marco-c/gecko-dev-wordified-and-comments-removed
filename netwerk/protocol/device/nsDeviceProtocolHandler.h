@@ -42,7 +42,7 @@ NS_DEVICEPROTOCOLHANDLER_CID
 }
 class
 nsDeviceProtocolHandler
-MOZ_FINAL
+final
 :
 public
 nsIProtocolHandler

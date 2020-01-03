@@ -3217,7 +3217,7 @@ NS_OK
 }
 class
 nsUrlClassifierLookupCallback
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierLookupCallback
@@ -4242,7 +4242,7 @@ tableStr
 }
 class
 nsUrlClassifierClassifyCallback
-MOZ_FINAL
+final
 :
 public
 nsIUrlClassifierCallback

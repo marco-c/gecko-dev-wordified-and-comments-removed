@@ -119,7 +119,7 @@ JSObject
 >
 aGivenProto
 )
-MOZ_OVERRIDE
+override
 ;
 public
 :
@@ -128,7 +128,7 @@ bool
 SubregionIsUnionOfRegions
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 false
@@ -165,7 +165,7 @@ SourceSurface
 &
 aInputImages
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -178,7 +178,7 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsSVGString
@@ -186,7 +186,7 @@ nsSVGString
 GetResultImageName
 (
 )
-MOZ_OVERRIDE
+override
 {
 return
 mStringAttributes
@@ -206,7 +206,7 @@ nsSVGStringInfo
 &
 aSources
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -227,7 +227,7 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 already_AddRefed
 <
@@ -244,7 +244,7 @@ StringAttributesInfo
 GetStringInfo
 (
 )
-MOZ_OVERRIDE
+override
 ;
 enum
 {

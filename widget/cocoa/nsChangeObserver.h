@@ -30,7 +30,7 @@ nsIAtom
 *
 aAttribute
 )
-MOZ_OVERRIDE
+override
 ;
 \
 void
@@ -45,7 +45,7 @@ aChild
 int32_t
 aIndexInContainer
 )
-MOZ_OVERRIDE
+override
 ;
 \
 void
@@ -61,7 +61,7 @@ nsIContent
 *
 aChild
 )
-MOZ_OVERRIDE
+override
 ;
 class
 nsChangeObserver

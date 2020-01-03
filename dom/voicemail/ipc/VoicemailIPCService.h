@@ -51,7 +51,7 @@ voicemail
 {
 class
 VoicemailIPCService
-MOZ_FINAL
+final
 :
 public
 PVoicemailChild
@@ -82,7 +82,7 @@ nsString
 &
 aDisplayName
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 RecvNotifyStatusChanged
@@ -108,7 +108,7 @@ nsString
 &
 aDisplayName
 )
-MOZ_OVERRIDE
+override
 ;
 void
 ActorDestroy
@@ -116,7 +116,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 private
 :

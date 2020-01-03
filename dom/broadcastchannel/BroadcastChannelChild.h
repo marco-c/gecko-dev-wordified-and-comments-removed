@@ -33,7 +33,7 @@ BroadcastChannel
 ;
 class
 BroadcastChannelChild
-MOZ_FINAL
+final
 :
 public
 PBroadcastChannelChild
@@ -76,7 +76,7 @@ ClonedMessageData
 &
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 bool
 IsActorDestroyed
@@ -114,7 +114,7 @@ ActorDestroy
 ActorDestroyReason
 aWhy
 )
-MOZ_OVERRIDE
+override
 ;
 BroadcastChannel
 *

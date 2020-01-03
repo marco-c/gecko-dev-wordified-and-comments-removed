@@ -1947,7 +1947,7 @@ host2
 }
 class
 nsPingListener
-MOZ_FINAL
+final
 :
 public
 nsIStreamListener
@@ -37002,7 +37002,7 @@ ifdef
 MOZ_PLACES
 class
 nsCopyFaviconCallback
-MOZ_FINAL
+final
 :
 public
 nsIFaviconDataCallback
@@ -37046,7 +37046,7 @@ nsACString
 &
 aMimeType
 )
-MOZ_OVERRIDE
+override
 {
 if
 (

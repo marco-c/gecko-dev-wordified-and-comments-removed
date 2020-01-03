@@ -22,7 +22,7 @@ h
 "
 class
 nsFirstLetterFrame
-MOZ_FINAL
+final
 :
 public
 nsContainerFrame
@@ -65,7 +65,7 @@ nsDisplayListSet
 &
 aLists
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -81,7 +81,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -93,7 +93,7 @@ nsFrameList
 &
 aChildList
 )
-MOZ_OVERRIDE
+override
 ;
 #
 ifdef
@@ -107,7 +107,7 @@ nsAString
 aResult
 )
 const
-MOZ_OVERRIDE
+override
 ;
 #
 endif
@@ -118,7 +118,7 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 bool
 IsFloating
@@ -142,7 +142,7 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
+override
 {
 if
 (
@@ -189,7 +189,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -199,7 +199,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -212,7 +212,7 @@ InlineMinISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -225,7 +225,7 @@ InlinePrefISizeData
 *
 aData
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 mozilla
@@ -275,7 +275,7 @@ aPadding
 ComputeSizeFlags
 aFlags
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 void
@@ -295,7 +295,7 @@ nsReflowStatus
 &
 aStatus
 )
-MOZ_OVERRIDE
+override
 ;
 virtual
 bool
@@ -303,7 +303,7 @@ CanContinueTextRun
 (
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nscoord
@@ -316,7 +316,7 @@ WritingMode
 aWritingMode
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 LogicalSides
@@ -330,7 +330,7 @@ aReflowState
 nullptr
 )
 const
-MOZ_OVERRIDE
+override
 ;
 virtual
 nsresult
@@ -348,7 +348,7 @@ nsIFrame
 *
 outChildFrame
 )
-MOZ_OVERRIDE
+override
 ;
 nscoord
 GetFirstLetterBaseline

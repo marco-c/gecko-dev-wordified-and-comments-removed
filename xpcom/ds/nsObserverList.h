@@ -351,7 +351,7 @@ mObservers
 ;
 class
 nsObserverEnumerator
-MOZ_FINAL
+final
 :
 public
 nsISimpleEnumerator
