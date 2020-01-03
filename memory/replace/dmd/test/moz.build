@@ -93,13 +93,16 @@ MPL
 0
 /
 .
-SimplePrograms
+GeckoSimplePrograms
 (
 [
 '
 SmokeDMD
 '
 ]
+linkage
+=
+None
 )
 #
 See
