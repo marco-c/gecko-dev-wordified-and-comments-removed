@@ -2796,6 +2796,12 @@ mContext
 (
 aContext
 )
+mAlpha
+(
+0
+.
+0
+)
 {
 }
 ~
