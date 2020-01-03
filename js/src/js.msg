@@ -1885,11 +1885,9 @@ to
 define
 accessor
 property
-'
 {
 0
 }
-'
 "
 )
 MSG_DEF
@@ -4866,11 +4864,9 @@ denied
 to
 access
 property
-'
 {
 0
 }
-'
 "
 )
 MSG_DEF
