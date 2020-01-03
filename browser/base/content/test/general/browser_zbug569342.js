@@ -1,3 +1,9 @@
+thisTestLeaksUncaughtRejectionsAndShouldBeFixed
+(
+"
+"
+)
+;
 var
 gTab
 =

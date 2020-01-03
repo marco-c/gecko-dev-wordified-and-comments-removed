@@ -1,3 +1,14 @@
+thisTestLeaksUncaughtRejectionsAndShouldBeFixed
+(
+"
+TypeError
+:
+Assert
+is
+null
+"
+)
+;
 let
 SocialService
 =

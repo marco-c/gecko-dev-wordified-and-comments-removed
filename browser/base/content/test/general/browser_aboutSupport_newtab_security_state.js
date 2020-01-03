@@ -1,3 +1,16 @@
+thisTestLeaksUncaughtRejectionsAndShouldBeFixed
+(
+"
+TypeError
+:
+window
+.
+location
+is
+null
+"
+)
+;
 add_task
 (
 function
