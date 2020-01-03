@@ -334,6 +334,9 @@ return
 ;
 }
 }
+if
+(
+!
 mCallbacks
 .
 AppendElement
@@ -342,7 +345,8 @@ AppendElement
 aListener
 fallible
 )
-;
+)
+{
 if
 (
 !
@@ -355,6 +359,7 @@ NS_RELEASE_THIS
 (
 )
 ;
+}
 }
 }
 void
