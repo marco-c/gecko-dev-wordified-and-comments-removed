@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-AnimationPlayer
+Animation
 .
 h
 "
@@ -76,7 +76,7 @@ AddPlayPending
 dom
 :
 :
-AnimationPlayer
+Animation
 &
 aPlayer
 )
@@ -111,7 +111,7 @@ RemovePlayPending
 dom
 :
 :
-AnimationPlayer
+Animation
 &
 aPlayer
 )
@@ -130,7 +130,7 @@ const
 dom
 :
 :
-AnimationPlayer
+Animation
 &
 aPlayer
 )
@@ -150,7 +150,7 @@ AddPausePending
 dom
 :
 :
-AnimationPlayer
+Animation
 &
 aPlayer
 )
@@ -185,7 +185,7 @@ RemovePausePending
 dom
 :
 :
-AnimationPlayer
+Animation
 &
 aPlayer
 )
@@ -204,7 +204,7 @@ const
 dom
 :
 :
-AnimationPlayer
+Animation
 &
 aPlayer
 )
@@ -278,7 +278,7 @@ nsRefPtrHashKey
 dom
 :
 :
-AnimationPlayer
+Animation
 >
 >
 AnimationPlayerSet
@@ -289,7 +289,7 @@ AddPending
 dom
 :
 :
-AnimationPlayer
+Animation
 &
 aPlayer
 AnimationPlayerSet
@@ -303,7 +303,7 @@ RemovePending
 dom
 :
 :
-AnimationPlayer
+Animation
 &
 aPlayer
 AnimationPlayerSet
@@ -318,7 +318,7 @@ const
 dom
 :
 :
-AnimationPlayer
+Animation
 &
 aPlayer
 const

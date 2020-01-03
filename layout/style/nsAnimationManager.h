@@ -43,7 +43,7 @@ mozilla
 /
 dom
 /
-AnimationPlayer
+Animation
 .
 h
 "
@@ -224,7 +224,7 @@ public
 dom
 :
 :
-AnimationPlayer
+Animation
 {
 public
 :
@@ -242,7 +242,7 @@ aTimeline
 dom
 :
 :
-AnimationPlayer
+Animation
 (
 aTimeline
 )

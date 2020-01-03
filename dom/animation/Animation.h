@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_AnimationPlayer_h
+mozilla_dom_Animation_h
 #
 define
-mozilla_dom_AnimationPlayer_h
+mozilla_dom_Animation_h
 #
 include
 "
@@ -43,7 +43,7 @@ mozilla
 /
 dom
 /
-AnimationPlayerBinding
+AnimationBinding
 .
 h
 "
@@ -141,7 +141,7 @@ namespace
 dom
 {
 class
-AnimationPlayer
+Animation
 :
 public
 nsISupports
@@ -152,7 +152,7 @@ protected
 :
 virtual
 ~
-AnimationPlayer
+Animation
 (
 )
 {
@@ -160,7 +160,7 @@ AnimationPlayer
 public
 :
 explicit
-AnimationPlayer
+Animation
 (
 DocumentTimeline
 *
@@ -205,7 +205,7 @@ false
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-AnimationPlayer
+Animation
 )
 DocumentTimeline
 *

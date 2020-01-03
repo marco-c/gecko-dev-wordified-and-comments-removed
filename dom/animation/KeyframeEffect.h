@@ -1037,7 +1037,7 @@ bool
 IsInPlay
 (
 const
-AnimationPlayer
+Animation
 &
 aPlayer
 )
@@ -1047,7 +1047,7 @@ bool
 IsCurrent
 (
 const
-AnimationPlayer
+Animation
 &
 aPlayer
 )

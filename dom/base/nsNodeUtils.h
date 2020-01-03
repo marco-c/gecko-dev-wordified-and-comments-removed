@@ -61,7 +61,7 @@ namespace
 dom
 {
 class
-AnimationPlayer
+Animation
 ;
 }
 }
@@ -268,7 +268,7 @@ mozilla
 dom
 :
 :
-AnimationPlayer
+Animation
 *
 aPlayer
 )
@@ -283,7 +283,7 @@ mozilla
 dom
 :
 :
-AnimationPlayer
+Animation
 *
 aPlayer
 )
@@ -298,7 +298,7 @@ mozilla
 dom
 :
 :
-AnimationPlayer
+Animation
 *
 aPlayer
 )

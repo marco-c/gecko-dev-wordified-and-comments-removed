@@ -102,6 +102,13 @@ nsIDOMWindow
 h
 "
 #
+include
+"
+nsRefreshDriver
+.
+h
+"
+#
 define
 APZCCH_LOG
 (

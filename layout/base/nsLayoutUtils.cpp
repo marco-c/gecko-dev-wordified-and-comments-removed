@@ -2538,7 +2538,10 @@ playerIdx
 ;
 )
 {
-AnimationPlayer
+dom
+:
+:
+Animation
 *
 player
 =

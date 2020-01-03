@@ -72,7 +72,7 @@ mozilla
 /
 dom
 /
-AnimationPlayer
+Animation
 .
 h
 "
@@ -1674,7 +1674,7 @@ nsAnimationReceiver
 :
 RecordAnimationMutation
 (
-AnimationPlayer
+Animation
 *
 aPlayer
 AnimationMutation
@@ -1936,7 +1936,7 @@ nsAnimationReceiver
 :
 AnimationAdded
 (
-AnimationPlayer
+Animation
 *
 aPlayer
 )
@@ -1954,7 +1954,7 @@ nsAnimationReceiver
 :
 AnimationChanged
 (
-AnimationPlayer
+Animation
 *
 aPlayer
 )
@@ -1972,7 +1972,7 @@ nsAnimationReceiver
 :
 AnimationRemoved
 (
-AnimationPlayer
+Animation
 *
 aPlayer
 )

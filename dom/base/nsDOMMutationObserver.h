@@ -140,7 +140,7 @@ mozilla
 /
 dom
 /
-AnimationPlayer
+Animation
 .
 h
 "
@@ -192,7 +192,7 @@ mozilla
 dom
 :
 :
-AnimationPlayer
+Animation
 >
 >
 AnimationPlayerArray
@@ -1868,7 +1868,7 @@ mozilla
 dom
 :
 :
-AnimationPlayer
+Animation
 *
 aPlayer
 AnimationMutation
@@ -3251,7 +3251,7 @@ mozilla
 dom
 :
 :
-AnimationPlayer
+Animation
 *
 aPlayer
 )
@@ -3384,7 +3384,7 @@ mozilla
 dom
 :
 :
-AnimationPlayer
+Animation
 *
 aPlayer
 )
@@ -3496,7 +3496,7 @@ mozilla
 dom
 :
 :
-AnimationPlayer
+Animation
 *
 aPlayer
 )
@@ -3620,7 +3620,7 @@ mozilla
 dom
 :
 :
-AnimationPlayer
+Animation
 *
 aPlayer
 )
@@ -3674,7 +3674,7 @@ mozilla
 dom
 :
 :
-AnimationPlayer
+Animation
 >
 mPlayer
 ;

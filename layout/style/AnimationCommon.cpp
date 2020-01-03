@@ -176,7 +176,7 @@ mozilla
 dom
 :
 :
-AnimationPlayer
+Animation
 ;
 using
 mozilla
@@ -2858,7 +2858,7 @@ playerIdx
 )
 {
 const
-AnimationPlayer
+Animation
 *
 player
 =
@@ -2994,7 +2994,7 @@ playerIdx
 )
 {
 const
-AnimationPlayer
+Animation
 *
 player
 =
@@ -4421,7 +4421,7 @@ playerIdx
 )
 {
 const
-AnimationPlayer
+Animation
 &
 player
 =

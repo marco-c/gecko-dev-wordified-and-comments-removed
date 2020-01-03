@@ -63,7 +63,7 @@ AddPending
 dom
 :
 :
-AnimationPlayer
+Animation
 &
 aPlayer
 AnimationPlayerSet
@@ -93,7 +93,7 @@ RemovePending
 dom
 :
 :
-AnimationPlayer
+Animation
 &
 aPlayer
 AnimationPlayerSet
@@ -120,7 +120,7 @@ const
 dom
 :
 :
-AnimationPlayer
+Animation
 &
 aPlayer
 const
@@ -140,7 +140,7 @@ const_cast
 dom
 :
 :
-AnimationPlayer
+Animation
 *
 >
 (
@@ -158,7 +158,7 @@ nsRefPtrHashKey
 dom
 :
 :
-AnimationPlayer
+Animation
 >
 *
 aKey
@@ -170,7 +170,7 @@ aReadyTime
 dom
 :
 :
-AnimationPlayer
+Animation
 *
 player
 =
@@ -297,7 +297,7 @@ nsRefPtrHashKey
 dom
 :
 :
-AnimationPlayer
+Animation
 >
 *
 aKey

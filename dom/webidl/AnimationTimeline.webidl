@@ -175,7 +175,7 @@ implemented
 :
 /
 /
-AnimationPlayer
+Animation
 play
 (
 optional
@@ -190,7 +190,7 @@ null
 /
 sequence
 <
-AnimationPlayer
+Animation
 >
 getAnimations
 (

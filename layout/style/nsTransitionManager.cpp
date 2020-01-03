@@ -199,7 +199,7 @@ mozilla
 dom
 :
 :
-AnimationPlayer
+Animation
 ;
 using
 mozilla
@@ -213,13 +213,6 @@ KeyframeEffectReadonly
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
-:
-:
-layers
 ;
 using
 namespace
@@ -482,7 +475,7 @@ FlushStyle
 )
 ;
 return
-AnimationPlayer
+Animation
 :
 :
 PlayStateFromJS
@@ -502,7 +495,7 @@ FlushStyle
 (
 )
 ;
-AnimationPlayer
+Animation
 :
 :
 PlayFromJS
@@ -1375,7 +1368,7 @@ do
 -
 i
 ;
-AnimationPlayer
+Animation
 *
 player
 =
@@ -3567,7 +3560,7 @@ do
 -
 i
 ;
-AnimationPlayer
+Animation
 *
 player
 =

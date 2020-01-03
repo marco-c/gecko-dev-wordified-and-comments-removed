@@ -237,7 +237,7 @@ readonly
 attribute
 sequence
 <
-AnimationPlayer
+Animation
 >
 addedAnimations
 ;
@@ -250,7 +250,7 @@ readonly
 attribute
 sequence
 <
-AnimationPlayer
+Animation
 >
 changedAnimations
 ;
@@ -263,7 +263,7 @@ readonly
 attribute
 sequence
 <
-AnimationPlayer
+Animation
 >
 removedAnimations
 ;

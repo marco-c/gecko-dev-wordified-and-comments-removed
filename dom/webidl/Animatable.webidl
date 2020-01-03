@@ -165,7 +165,7 @@ IsWebAnimationsEnabled
 ]
 sequence
 <
-AnimationPlayer
+Animation
 >
 getAnimations
 (

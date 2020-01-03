@@ -78,7 +78,7 @@ mozilla
 /
 dom
 /
-AnimationPlayer
+Animation
 .
 h
 "
@@ -861,7 +861,7 @@ nsRefPtr
 dom
 :
 :
-AnimationPlayer
+Animation
 >
 >
 AnimationPlayerPtrArray

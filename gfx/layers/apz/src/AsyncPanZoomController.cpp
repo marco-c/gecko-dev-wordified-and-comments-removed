@@ -239,7 +239,7 @@ mozilla
 /
 dom
 /
-AnimationPlayer
+KeyframeEffect
 .
 h
 "

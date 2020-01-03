@@ -1,7 +1,7 @@
 #
 include
 "
-AnimationPlayer
+Animation
 .
 h
 "
@@ -19,7 +19,7 @@ mozilla
 /
 dom
 /
-AnimationPlayerBinding
+AnimationBinding
 .
 h
 "
@@ -75,7 +75,7 @@ dom
 {
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
-AnimationPlayer
+Animation
 mTimeline
 mEffect
 mReady
@@ -83,15 +83,15 @@ mFinished
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
-AnimationPlayer
+Animation
 )
 NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
-AnimationPlayer
+Animation
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
-AnimationPlayer
+Animation
 )
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_ENTRY
@@ -101,7 +101,7 @@ nsISupports
 NS_INTERFACE_MAP_END
 JSObject
 *
-AnimationPlayer
+Animation
 :
 :
 WrapObject
@@ -124,7 +124,7 @@ return
 dom
 :
 :
-AnimationPlayerBinding
+AnimationBinding
 :
 :
 Wrap
@@ -136,7 +136,7 @@ aGivenProto
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 SetStartTime
@@ -319,7 +319,7 @@ Nullable
 <
 TimeDuration
 >
-AnimationPlayer
+Animation
 :
 :
 GetCurrentTime
@@ -415,7 +415,7 @@ result
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 SilentlySetCurrentTime
@@ -531,7 +531,7 @@ SetNull
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 SetCurrentTime
@@ -592,7 +592,7 @@ PostUpdate
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 SetPlaybackRate
@@ -660,7 +660,7 @@ time
 }
 }
 void
-AnimationPlayer
+Animation
 :
 :
 SilentlySetPlaybackRate
@@ -728,7 +728,7 @@ time
 }
 }
 AnimationPlayState
-AnimationPlayer
+Animation
 :
 :
 PlayState
@@ -907,7 +907,7 @@ nullptr
 }
 Promise
 *
-AnimationPlayer
+Animation
 :
 :
 GetReady
@@ -975,7 +975,7 @@ mReady
 }
 Promise
 *
-AnimationPlayer
+Animation
 :
 :
 GetFinished
@@ -1036,7 +1036,7 @@ mFinished
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 Play
@@ -1056,7 +1056,7 @@ PostUpdate
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 Pause
@@ -1076,7 +1076,7 @@ Nullable
 <
 double
 >
-AnimationPlayer
+Animation
 :
 :
 GetStartTimeAsDouble
@@ -1095,7 +1095,7 @@ mStartTime
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 SetStartTimeAsDouble
@@ -1126,7 +1126,7 @@ Nullable
 <
 double
 >
-AnimationPlayer
+Animation
 :
 :
 GetCurrentTimeAsDouble
@@ -1147,7 +1147,7 @@ GetCurrentTime
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 SetCurrentTimeAsDouble
@@ -1214,7 +1214,7 @@ Value
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 SetEffect
@@ -1269,7 +1269,7 @@ UpdateRelevance
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 Tick
@@ -1386,7 +1386,7 @@ UpdateTiming
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 TriggerOnNextTick
@@ -1422,7 +1422,7 @@ aReadyTime
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 TriggerNow
@@ -1493,7 +1493,7 @@ Nullable
 <
 TimeDuration
 >
-AnimationPlayer
+Animation
 :
 :
 GetCurrentOrPendingStartTime
@@ -1567,7 +1567,7 @@ result
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 Cancel
@@ -1640,7 +1640,7 @@ UpdateEffect
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 UpdateRelevance
@@ -1702,7 +1702,7 @@ this
 }
 }
 bool
-AnimationPlayer
+Animation
 :
 :
 CanThrottle
@@ -1772,7 +1772,7 @@ mFinishedAtLastComposeStyle
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 ComposeStyle
@@ -2017,7 +2017,7 @@ Finished
 }
 }
 void
-AnimationPlayer
+Animation
 :
 :
 DoPlay
@@ -2342,7 +2342,7 @@ UpdateTiming
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 DoPause
@@ -2459,7 +2459,7 @@ UpdateFinishedState
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 ResumeAt
@@ -2619,7 +2619,7 @@ this
 }
 }
 void
-AnimationPlayer
+Animation
 :
 :
 PauseAt
@@ -2715,7 +2715,7 @@ this
 }
 }
 void
-AnimationPlayer
+Animation
 :
 :
 UpdateTiming
@@ -2732,7 +2732,7 @@ UpdateEffect
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 UpdateFinishedState
@@ -3062,7 +3062,7 @@ GetCurrentTime
 ;
 }
 void
-AnimationPlayer
+Animation
 :
 :
 UpdateEffect
@@ -3091,7 +3091,7 @@ UpdateRelevance
 }
 }
 void
-AnimationPlayer
+Animation
 :
 :
 FlushStyle
@@ -3123,7 +3123,7 @@ Flush_Style
 }
 }
 void
-AnimationPlayer
+Animation
 :
 :
 PostUpdate
@@ -3153,7 +3153,7 @@ NotifyPlayerUpdated
 }
 }
 void
-AnimationPlayer
+Animation
 :
 :
 CancelPendingTasks
@@ -3253,7 +3253,7 @@ SetNull
 ;
 }
 bool
-AnimationPlayer
+Animation
 :
 :
 IsFinished
@@ -3329,7 +3329,7 @@ ToMilliseconds
 ;
 }
 bool
-AnimationPlayer
+Animation
 :
 :
 IsPossiblyOrphanedPendingPlayer
@@ -3447,7 +3447,7 @@ this
 ;
 }
 StickyTimeDuration
-AnimationPlayer
+Animation
 :
 :
 EffectEnd
@@ -3490,7 +3490,7 @@ mActiveDuration
 }
 nsIDocument
 *
-AnimationPlayer
+Animation
 :
 :
 GetRenderedDocument
@@ -3548,7 +3548,7 @@ GetComposedDoc
 }
 nsPresContext
 *
-AnimationPlayer
+Animation
 :
 :
 GetPresContext
@@ -3606,7 +3606,7 @@ GetPresContext
 }
 AnimationPlayerCollection
 *
-AnimationPlayer
+Animation
 :
 :
 GetCollection

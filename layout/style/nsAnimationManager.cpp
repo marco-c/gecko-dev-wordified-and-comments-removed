@@ -138,7 +138,7 @@ mozilla
 dom
 :
 :
-AnimationPlayer
+Animation
 ;
 using
 mozilla
@@ -178,7 +178,7 @@ FlushStyle
 )
 ;
 return
-AnimationPlayer
+Animation
 :
 :
 GetReady
@@ -201,7 +201,7 @@ mPauseShouldStick
 =
 false
 ;
-AnimationPlayer
+Animation
 :
 :
 Play
@@ -222,7 +222,7 @@ mPauseShouldStick
 =
 true
 ;
-AnimationPlayer
+Animation
 :
 :
 Pause
@@ -250,7 +250,7 @@ FlushStyle
 )
 ;
 return
-AnimationPlayer
+Animation
 :
 :
 PlayStateFromJS
@@ -270,7 +270,7 @@ FlushStyle
 (
 )
 ;
-AnimationPlayer
+Animation
 :
 :
 PlayFromJS
@@ -298,7 +298,7 @@ mPauseShouldStick
 {
 DoPlay
 (
-AnimationPlayer
+Animation
 :
 :
 LimitBehavior
@@ -1402,7 +1402,7 @@ newIdx
 ;
 )
 {
-AnimationPlayer
+Animation
 *
 newPlayer
 =
@@ -3422,7 +3422,7 @@ playerIdx
 )
 {
 const
-AnimationPlayer
+Animation
 *
 player
 =
