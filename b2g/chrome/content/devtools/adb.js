@@ -4,15 +4,6 @@ strict
 "
 ;
 const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
-const
 DEBUG
 =
 false
