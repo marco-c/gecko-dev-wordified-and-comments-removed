@@ -107,11 +107,6 @@ HOME
 workspace
 extra
 :
-treeherder
-:
-groupSymbol
-:
-x86
 #
 Rather
 then

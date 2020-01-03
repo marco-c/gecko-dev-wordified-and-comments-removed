@@ -31,7 +31,7 @@ task
 :
 workerType
 :
-emualtor
+emulator
 -
 x86
 -
@@ -89,6 +89,11 @@ prefix
 .
 .
 .
+groupSymbol
+:
+"
+?
+"
 machine
 :
 platform
@@ -96,6 +101,8 @@ platform
 b2g
 -
 emu
+-
+x86
 -
 kk
 payload
