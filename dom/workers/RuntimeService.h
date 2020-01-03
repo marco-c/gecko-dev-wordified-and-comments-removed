@@ -14,6 +14,13 @@ h
 #
 include
 "
+WorkerPrivate
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
@@ -47,6 +54,13 @@ h
 include
 "
 nsTArray
+.
+h
+"
+#
+include
+"
+WorkerPrivate
 .
 h
 "
