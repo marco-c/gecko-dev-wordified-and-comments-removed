@@ -1113,6 +1113,7 @@ SetData
 (
 i
 stolenData
+js_free
 reinterpret_cast
 <
 float

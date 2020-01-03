@@ -160,6 +160,7 @@ SetData
 (
 0
 buffer
+free
 buffer
 )
 ;
@@ -179,6 +180,7 @@ SetData
 (
 1
 nullptr
+free
 buffer
 +
 aLength
