@@ -238,5 +238,8 @@ XP_WIN
 mozjs
 .
 dll
+gkmedias
+.
+dll
 #
 endif
