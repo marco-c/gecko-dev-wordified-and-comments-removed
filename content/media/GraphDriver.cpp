@@ -2239,7 +2239,7 @@ GraphImpl
 )
 )
 {
-MOZ_ASSERT
+NS_WARN_IF_FALSE
 (
 mDriver
 -
