@@ -65,8 +65,6 @@ const
 nsString
 &
 aChannel
-bool
-aPrivateBrowsing
 )
 ;
 private
@@ -81,8 +79,6 @@ const
 nsAString
 &
 aChannel
-bool
-aPrivateBrowsing
 )
 ;
 ~
@@ -128,9 +124,6 @@ mOrigin
 ;
 nsString
 mChannel
-;
-bool
-mPrivateBrowsing
 ;
 }
 ;

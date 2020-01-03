@@ -229,8 +229,6 @@ nsString
 origin
 nsString
 channel
-bool
-privateBrowsing
 )
 ;
 RegisterServiceWorker

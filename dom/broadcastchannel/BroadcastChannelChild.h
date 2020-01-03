@@ -90,13 +90,16 @@ mActorDestroyed
 }
 private
 :
-explicit
 BroadcastChannelChild
 (
 const
 nsAString
 &
 aOrigin
+const
+nsAString
+&
+aChannel
 )
 ;
 ~
@@ -119,6 +122,9 @@ mBC
 ;
 nsString
 mOrigin
+;
+nsString
+mChannel
 ;
 bool
 mActorDestroyed
