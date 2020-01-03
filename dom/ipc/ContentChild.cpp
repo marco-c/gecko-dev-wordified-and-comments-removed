@@ -3722,6 +3722,10 @@ RecvBidiKeyboardNotify
 isLangRTL
 )
 ;
+SendPJavaScriptConstructor
+(
+)
+;
 if
 (
 domainPolicy
