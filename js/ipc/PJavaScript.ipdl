@@ -515,10 +515,10 @@ returns
 (
 ReturnStatus
 rs
-nsString
+JSIDVariant
 [
 ]
-names
+ids
 )
 ;
 prio
