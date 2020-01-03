@@ -783,6 +783,7 @@ nsOfflineCacheUpdate
 *
 aUpdate
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -1148,6 +1149,7 @@ nsOfflineCacheUpdate
 *
 aUpdate
 )
+MOZ_OVERRIDE
 ;
 static
 nsOfflineCacheUpdateService
