@@ -490,6 +490,14 @@ aReason
 )
 override
 ;
+nsresult
+GetAddress
+(
+nsACString
+&
+aAddress
+)
+;
 nsCOMPtr
 <
 nsIServerSocket
