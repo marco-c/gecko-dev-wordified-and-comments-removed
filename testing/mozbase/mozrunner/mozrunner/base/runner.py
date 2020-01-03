@@ -242,7 +242,7 @@ self
 .
 crashed
 =
-False
+0
     
 def
 __del__
@@ -547,6 +547,12 @@ self
 .
 output_timeout
 )
+        
+self
+.
+crashed
+=
+0
         
 return
 self
@@ -1057,12 +1063,6 @@ minidumps
 '
 )
         
-self
-.
-crashed
-=
-False
-        
 try
 :
             
@@ -1096,23 +1096,25 @@ py
 self
 .
 crashed
++
 =
 mozcrash
 .
 log_crashes
 (
+                    
 logger
-                                                    
+                    
 dump_directory
-                                                    
+                    
 self
 .
 symbols_path
-                                                    
+                    
 dump_save_path
 =
 dump_save_path
-                                                    
+                    
 test
 =
 test_name
@@ -1121,8 +1123,6 @@ test_name
 else
 :
                 
-self
-.
 crashed
 =
 mozcrash
@@ -1148,6 +1148,17 @@ quiet
 =
 quiet
 )
+                
+if
+crashed
+:
+                    
+self
+.
+crashed
++
+=
+1
         
 except
 :
