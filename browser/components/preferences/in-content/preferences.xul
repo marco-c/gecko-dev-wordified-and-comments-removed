@@ -1783,6 +1783,11 @@ dialogTitle
 >
 <
 caption
+class
+=
+"
+titlebar
+"
 flex
 =
 "
@@ -1800,6 +1805,11 @@ id
 =
 "
 dialogTitle
+"
+class
+=
+"
+title
 "
 flex
 =
