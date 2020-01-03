@@ -1912,6 +1912,13 @@ cpp
 '
 vm
 /
+SharedTypedArrayObject
+.
+cpp
+'
+'
+vm
+/
 SPSProfiler
 .
 cpp

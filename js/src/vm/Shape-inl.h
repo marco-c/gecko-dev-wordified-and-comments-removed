@@ -52,7 +52,7 @@ include
 "
 vm
 /
-TypedArrayObject
+TypedArrayCommon
 .
 h
 "
@@ -983,14 +983,9 @@ shape
 {
 if
 (
-obj
--
->
-is
-<
-TypedArrayObject
->
+IsAnyTypedArray
 (
+obj
 )
 )
 return

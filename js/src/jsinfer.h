@@ -2510,6 +2510,14 @@ getTypedArrayType
 (
 )
 ;
+Scalar
+:
+:
+Type
+getSharedTypedArrayType
+(
+)
+;
 bool
 isDOMClass
 (

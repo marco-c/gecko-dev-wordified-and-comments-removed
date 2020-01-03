@@ -3496,7 +3496,7 @@ interruptExit_
 StaticLinkData
 staticLinkData_
 ;
-HeapPtrArrayBufferObject
+HeapPtrArrayBufferObjectMaybeShared
 maybeHeap_
 ;
 bool
@@ -6749,7 +6749,7 @@ initHeap
 (
 Handle
 <
-ArrayBufferObject
+ArrayBufferObjectMaybeShared
 *
 >
 heap
@@ -6779,7 +6779,7 @@ restoreToInitialState
 uint8_t
 *
 prevCode
-ArrayBufferObject
+ArrayBufferObjectMaybeShared
 *
 maybePrevBuffer
 ExclusiveContext
@@ -6856,7 +6856,7 @@ heapDatum
 )
 ;
 }
-ArrayBufferObject
+ArrayBufferObjectMaybeShared
 *
 maybeHeapBufferObject
 (
