@@ -6759,7 +6759,10 @@ CacheEntry
 >
 event
 =
-NS_NewRunnableMethod
+NS_NewRunnableMethodWithArg
+<
+double
+>
 (
 this
 &
@@ -6767,6 +6770,7 @@ CacheEntry
 :
 :
 StoreFrecency
+mFrecency
 )
 ;
 NS_DispatchToMainThread
@@ -6900,6 +6904,8 @@ CacheEntry
 :
 StoreFrecency
 (
+double
+aFrecency
 )
 {
 MOZ_ASSERT
@@ -6924,7 +6930,7 @@ SetFrecency
 (
 FRECENCY2INT
 (
-mFrecency
+aFrecency
 )
 )
 ;
