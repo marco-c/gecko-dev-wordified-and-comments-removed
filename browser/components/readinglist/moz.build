@@ -74,6 +74,11 @@ ReadingList
 .
 jsm
 '
+'
+SQLiteStore
+.
+jsm
+'
 ]
 TESTING_JS_MODULES
 +
