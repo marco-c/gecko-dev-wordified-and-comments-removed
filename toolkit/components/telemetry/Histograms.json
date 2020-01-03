@@ -10833,7 +10833,7 @@ expires_in_version
 "
 :
 "
-never
+42
 "
 "
 kind
@@ -10881,7 +10881,7 @@ expires_in_version
 "
 :
 "
-never
+42
 "
 "
 kind
@@ -10929,7 +10929,7 @@ expires_in_version
 "
 :
 "
-never
+42
 "
 "
 kind
@@ -11007,7 +11007,7 @@ description
 "
 :
 "
-SPDY
+H2
 :
 Settings
 Max
@@ -11025,7 +11025,7 @@ expires_in_version
 "
 :
 "
-never
+42
 "
 "
 kind
@@ -11075,7 +11075,7 @@ expires_in_version
 "
 :
 "
-never
+42
 "
 "
 kind
@@ -11153,10 +11153,11 @@ description
 "
 :
 "
-SPDY
+H2
 :
 Settings
-IW
+Initial
+Window
 (
 rounded
 to
