@@ -156,7 +156,7 @@ do_check_eq
 (
 thread
 .
-synchronize
+unsafeSynchronize
 (
 p
 )

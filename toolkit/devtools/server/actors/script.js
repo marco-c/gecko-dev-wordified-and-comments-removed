@@ -3250,7 +3250,7 @@ originalSourceActor
 =
 this
 .
-synchronize
+unsafeSynchronize
 (
 this
 .
@@ -3325,7 +3325,7 @@ originalSourceActor
 =
 thread
 .
-synchronize
+unsafeSynchronize
 (
 thread
 .
@@ -3545,7 +3545,7 @@ newLocation
 =
 thread
 .
-synchronize
+unsafeSynchronize
 (
 thread
 .
@@ -4397,7 +4397,7 @@ error
 )
 ;
 }
-synchronize
+unsafeSynchronize
 :
 function
 (
@@ -4451,7 +4451,7 @@ aError
 "
 Error
 inside
-synchronize
+unsafeSynchronize
 :
 "
 )
@@ -7689,7 +7689,7 @@ originalSourceActor
 =
 this
 .
-synchronize
+unsafeSynchronize
 (
 this
 .
@@ -7833,7 +7833,7 @@ sourceActor
 =
 this
 .
-synchronize
+unsafeSynchronize
 (
 this
 .
@@ -8115,7 +8115,7 @@ aSource
 ;
 this
 .
-synchronize
+unsafeSynchronize
 (
 this
 .
@@ -8252,7 +8252,7 @@ length
 {
 this
 .
-synchronize
+unsafeSynchronize
 (
 promise
 .
@@ -13293,7 +13293,7 @@ this
 .
 threadActor
 .
-synchronize
+unsafeSynchronize
 (
 this
 .
