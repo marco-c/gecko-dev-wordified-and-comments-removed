@@ -281,13 +281,6 @@ class
 )
 &
 &
-this
-.
-props
-.
-cssClass
-&
-&
 parentHeadNode
 .
 getAttribute
