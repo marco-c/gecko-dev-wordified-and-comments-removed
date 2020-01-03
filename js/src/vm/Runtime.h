@@ -4645,6 +4645,9 @@ mozilla
 MallocSizeOf
 debuggerMallocSizeOf
 ;
+int64_t
+lastAnimationTime
+;
 }
 ;
 namespace
