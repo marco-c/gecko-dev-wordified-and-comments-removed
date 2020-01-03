@@ -333,9 +333,9 @@ jsapi
 ;
 if
 (
-!
 NS_WARN_IF
 (
+!
 jsapi
 .
 Init
@@ -407,9 +407,9 @@ jsapi
 ;
 if
 (
-!
 NS_WARN_IF
 (
+!
 jsapi
 .
 Init
@@ -500,9 +500,9 @@ jsapi
 ;
 if
 (
-!
 NS_WARN_IF
 (
+!
 jsapi
 .
 Init
@@ -675,9 +675,9 @@ jsapi
 ;
 if
 (
-!
 NS_WARN_IF
 (
+!
 jsapi
 .
 Init
