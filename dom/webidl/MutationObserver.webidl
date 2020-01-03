@@ -307,6 +307,7 @@ takeRecords
 ;
 [
 ChromeOnly
+Throws
 ]
 sequence
 <
