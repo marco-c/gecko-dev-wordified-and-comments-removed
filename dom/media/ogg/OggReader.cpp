@@ -4103,11 +4103,11 @@ newVorbisState
 =
 nullptr
 ;
+nsAutoPtr
+<
 MetadataTags
-*
+>
 tags
-=
-nullptr
 ;
 if
 (
@@ -4693,10 +4693,6 @@ mAudio
 .
 mRate
 info
-.
-forget
-(
-)
 tags
 )
 ;
