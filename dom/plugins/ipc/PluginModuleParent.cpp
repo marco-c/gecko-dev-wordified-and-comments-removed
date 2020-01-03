@@ -2456,6 +2456,10 @@ this
 ;
 #
 endif
+RegisterSettingsCallbacks
+(
+)
+;
 #
 ifdef
 MOZ_CRASHREPORTER
@@ -3132,10 +3136,6 @@ mRunID
 sNextRunID
 +
 +
-;
-RegisterSettingsCallbacks
-(
-)
 ;
 #
 ifdef
