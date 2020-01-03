@@ -5880,6 +5880,7 @@ nsChildView
 BackingScaleFactor
 (
 )
+const
 {
 if
 (

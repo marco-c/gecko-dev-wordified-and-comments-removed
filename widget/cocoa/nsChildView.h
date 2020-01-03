@@ -1454,6 +1454,7 @@ CGFloat
 BackingScaleFactor
 (
 )
+const
 ;
 void
 BackingScaleFactorChanged
@@ -2059,6 +2060,7 @@ CocoaPointsToDevPixels
 CGFloat
 aPts
 )
+const
 {
 return
 nsCocoaUtils
@@ -2081,6 +2083,7 @@ NSPoint
 &
 aPt
 )
+const
 {
 return
 nsCocoaUtils
@@ -2103,6 +2106,7 @@ NSRect
 &
 aRect
 )
+const
 {
 return
 nsCocoaUtils
@@ -2123,6 +2127,7 @@ DevPixelsToCocoaPoints
 int32_t
 aPixels
 )
+const
 {
 return
 nsCocoaUtils
@@ -2145,6 +2150,7 @@ nsIntRect
 &
 aRect
 )
+const
 {
 return
 nsCocoaUtils
@@ -2470,6 +2476,7 @@ mBasicCompositorImage
 nsIntRegion
 mDirtyTitlebarRegion
 ;
+mutable
 CGFloat
 mBackingScaleFactor
 ;
