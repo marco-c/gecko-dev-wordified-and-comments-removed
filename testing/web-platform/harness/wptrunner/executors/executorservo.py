@@ -575,19 +575,6 @@ not
 None
 :
                     
-self
-.
-result_data
-[
-"
-test
-"
-]
-=
-test
-.
-url
-                    
 result
 =
 self
