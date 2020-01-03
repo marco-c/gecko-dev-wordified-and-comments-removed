@@ -159,6 +159,7 @@ namespace
 {
 class
 MemoryPressureWatcher
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -747,6 +748,14 @@ over
 return
 NS_OK
 ;
+}
+protected
+:
+~
+MemoryPressureWatcher
+(
+)
+{
 }
 private
 :
