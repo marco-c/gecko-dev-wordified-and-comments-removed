@@ -519,7 +519,7 @@ return
 frame
 ;
 }
-nsIFrame
+nsCanvasFrame
 *
 TouchCaret
 :

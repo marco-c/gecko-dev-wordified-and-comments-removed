@@ -58,6 +58,9 @@ Units
 h
 "
 class
+nsCanvasFrame
+;
+class
 nsIFrame
 ;
 class
@@ -163,7 +166,7 @@ aOutRect
 nullptr
 )
 ;
-nsIFrame
+nsCanvasFrame
 *
 GetCanvasFrame
 (
