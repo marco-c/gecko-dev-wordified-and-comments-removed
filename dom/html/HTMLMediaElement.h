@@ -2779,6 +2779,14 @@ mMediaInfo
 bool
 mIsEncrypted
 ;
+#
+ifdef
+MOZ_EME
+EncryptionInfo
+mPendingEncryptedInitData
+;
+#
+endif
 bool
 mDownloadSuspendedByCache
 ;
