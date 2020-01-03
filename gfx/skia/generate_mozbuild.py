@@ -334,21 +334,12 @@ INTEL_ARCHITECTURE
 '
 ]
 and
-(
 CONFIG
 [
 '
 GNU_CC
 '
 ]
-or
-CONFIG
-[
-'
-CLANG_CL
-'
-]
-)
 :
     
 if
