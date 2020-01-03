@@ -3420,7 +3420,15 @@ gfxFontFamily
 *
 fallback
 =
-FindFamilyByCanonicalName
+gfxPlatformFontList
+:
+:
+PlatformFontList
+(
+)
+-
+>
+FindFamily
 (
 familyName
 )
