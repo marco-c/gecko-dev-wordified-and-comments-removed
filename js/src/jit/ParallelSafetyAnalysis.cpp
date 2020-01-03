@@ -609,10 +609,6 @@ SimdSignMask
 )
 SAFE_OP
 (
-SimdUnaryArith
-)
-SAFE_OP
-(
 SimdBinaryComp
 )
 SAFE_OP
