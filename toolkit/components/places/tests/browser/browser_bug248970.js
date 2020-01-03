@@ -227,7 +227,9 @@ bookmarksDeferred
 promise
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {
