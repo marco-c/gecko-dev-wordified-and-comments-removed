@@ -441,16 +441,6 @@ return
 mContentType
 ;
 }
-ImageFormat
-GetImageFormat
-(
-)
-const
-{
-return
-mImageFormat
-;
-}
 virtual
 bool
 InUpdate
@@ -541,9 +531,6 @@ mWrapMode
 ;
 ContentType
 mContentType
-;
-ImageFormat
-mImageFormat
 ;
 gfx
 :
