@@ -732,7 +732,7 @@ JSTRACE_OBJECT_GROUP
 }
 ;
 void
-MarkValueForBarrier
+MarkValueUnbarriered
 (
 JSTracer
 *
@@ -1600,7 +1600,7 @@ js
 gc
 :
 :
-MarkValueForBarrier
+MarkValueUnbarriered
 (
 shadowZone
 -

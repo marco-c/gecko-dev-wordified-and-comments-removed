@@ -2372,7 +2372,10 @@ toGetIntrinsic_Constant
 (
 )
 ;
-TraceEdge
+gc
+:
+:
+MarkValue
 (
 trc
 &

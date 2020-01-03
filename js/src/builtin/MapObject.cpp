@@ -3690,7 +3690,10 @@ void
 this
 )
 ;
-TraceEdge
+gc
+:
+:
+MarkValue
 (
 trc
 &
@@ -5209,7 +5212,10 @@ key
 trc
 )
 ;
-TraceEdge
+gc
+:
+:
+MarkValue
 (
 trc
 &
@@ -5403,7 +5409,10 @@ prior
 =
 key
 ;
-TraceManuallyBarrieredEdge
+gc
+:
+:
+MarkValueUnbarriered
 (
 trc
 &

@@ -3422,7 +3422,7 @@ isExtended
 )
 )
 {
-TraceRange
+MarkValueRange
 (
 trc
 ArrayLength
@@ -3433,10 +3433,6 @@ toExtended
 -
 >
 extendedSlots
-)
-(
-HeapValue
-*
 )
 toExtended
 (

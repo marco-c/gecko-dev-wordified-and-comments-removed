@@ -5445,7 +5445,7 @@ views
 {
 if
 (
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 pkey
 )
@@ -5485,7 +5485,7 @@ i
 {
 if
 (
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 views
@@ -5914,7 +5914,7 @@ TypedArrayLayout
 BUFFER_SLOT
 )
 ;
-TraceEdge
+MarkSlot
 (
 trc
 &

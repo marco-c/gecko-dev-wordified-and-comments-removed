@@ -1641,7 +1641,10 @@ setTracingLocation
 prior
 )
 ;
-TraceManuallyBarrieredEdge
+gc
+:
+:
+Mark
 (
 trc
 &

@@ -21907,7 +21907,7 @@ obj
 )
 )
 {
-TraceManuallyBarrieredCrossCompartmentEdge
+MarkCrossCompartmentScriptUnbarriered
 (
 trc
 obj
@@ -27395,7 +27395,7 @@ obj
 )
 )
 {
-TraceManuallyBarrieredCrossCompartmentEdge
+MarkCrossCompartmentObjectUnbarriered
 (
 trc
 obj
@@ -33980,7 +33980,7 @@ getPrivate
 )
 )
 {
-TraceManuallyBarrieredCrossCompartmentEdge
+MarkCrossCompartmentObjectUnbarriered
 (
 trc
 obj
@@ -39349,7 +39349,7 @@ getPrivate
 )
 )
 {
-TraceManuallyBarrieredCrossCompartmentEdge
+MarkCrossCompartmentObjectUnbarriered
 (
 trc
 obj

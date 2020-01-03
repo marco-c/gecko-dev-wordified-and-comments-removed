@@ -2086,7 +2086,10 @@ hasReturnValue
 (
 )
 )
-TraceManuallyBarrieredEdge
+gc
+:
+:
+MarkValueUnbarriered
 (
 trc
 &
@@ -2118,7 +2121,10 @@ start
 <
 end
 )
-TraceRootRange
+gc
+:
+:
+MarkValueRootRange
 (
 trc
 end
@@ -2373,7 +2379,10 @@ numFormalArgs
 )
 )
 ;
-TraceRootRange
+gc
+:
+:
+MarkValueRootRange
 (
 trc
 argc
@@ -2391,7 +2400,10 @@ argv
 }
 else
 {
-TraceRootRange
+gc
+:
+:
+MarkValueRootRange
 (
 trc
 2
