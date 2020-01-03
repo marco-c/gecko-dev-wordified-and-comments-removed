@@ -24,10 +24,7 @@ template
 <
 typename
 IndexType
-MOZ_TEMPLATE_ENUM_CLASS_ENUM_TYPE
-(
 IndexType
-)
 SizeAsEnumValue
 typename
 ValueType
@@ -84,10 +81,7 @@ template
 <
 typename
 IndexType
-MOZ_TEMPLATE_ENUM_CLASS_ENUM_TYPE
-(
 IndexType
-)
 SizeAsEnumValue
 typename
 ValueType

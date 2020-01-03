@@ -1356,7 +1356,7 @@ gfxContentType
 >
 :
 public
-ContiguousTypedEnumSerializer
+ContiguousEnumSerializer
 <
 gfxContentType
 gfxContentType
@@ -1381,7 +1381,7 @@ gfxSurfaceType
 >
 :
 public
-ContiguousTypedEnumSerializer
+ContiguousEnumSerializer
 <
 gfxSurfaceType
 gfxSurfaceType
@@ -1443,7 +1443,7 @@ LayersBackend
 >
 :
 public
-ContiguousTypedEnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1492,7 +1492,7 @@ ScaleMode
 >
 :
 public
-ContiguousTypedEnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1535,7 +1535,7 @@ gfxImageFormat
 >
 :
 public
-ContiguousTypedEnumSerializer
+ContiguousEnumSerializer
 <
 gfxImageFormat
 gfxImageFormat
@@ -1609,7 +1609,7 @@ AttributeType
 >
 :
 public
-ContiguousTypedEnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1658,7 +1658,7 @@ PrimitiveType
 >
 :
 public
-ContiguousTypedEnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1707,7 +1707,7 @@ ColorSpace
 >
 :
 public
-ContiguousTypedEnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1756,7 +1756,7 @@ TextureFlags
 >
 :
 public
-BitFlagsTypedEnumSerializer
+BitFlagsEnumSerializer
 <
 mozilla
 :
@@ -1795,7 +1795,7 @@ TextureIdentifier
 >
 :
 public
-ContiguousTypedEnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -1844,7 +1844,7 @@ DeprecatedTextureHostFlags
 >
 :
 public
-BitFlagsTypedEnumSerializer
+BitFlagsEnumSerializer
 <
 mozilla
 :
@@ -1883,7 +1883,7 @@ DiagnosticTypes
 >
 :
 public
-BitFlagsTypedEnumSerializer
+BitFlagsEnumSerializer
 <
 mozilla
 :
@@ -5301,7 +5301,7 @@ CompositableType
 >
 :
 public
-ContiguousTypedEnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
@@ -5350,7 +5350,7 @@ SurfaceFormat
 >
 :
 public
-ContiguousTypedEnumSerializer
+ContiguousEnumSerializer
 <
 mozilla
 :
