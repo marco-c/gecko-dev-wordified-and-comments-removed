@@ -472,11 +472,6 @@ aOverscroll
 const
 ;
 void
-ClearOverscrollAnimationState
-(
-)
-;
-void
 StepOverscrollAnimation
 (
 double
