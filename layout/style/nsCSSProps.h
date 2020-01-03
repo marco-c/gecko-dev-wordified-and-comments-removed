@@ -1729,6 +1729,14 @@ aProperty
 ]
 ;
 }
+static
+nsCSSProperty
+BoxShorthandFor
+(
+nsCSSProperty
+aProperty
+)
+;
 private
 :
 static
