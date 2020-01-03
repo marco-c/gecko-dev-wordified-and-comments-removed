@@ -699,6 +699,8 @@ aCTRun
 ;
 if
 (
+uint32_t
+(
 range
 .
 location
@@ -706,6 +708,7 @@ location
 range
 .
 length
+)
 <
 =
 startOffset
