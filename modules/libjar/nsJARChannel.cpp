@@ -3543,6 +3543,9 @@ mIsPending
 =
 true
 ;
+#
+ifndef
+RELEASE_BUILD
 if
 (
 ShouldIntercept
@@ -3625,6 +3628,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 return
 ContinueAsyncOpen
 (
