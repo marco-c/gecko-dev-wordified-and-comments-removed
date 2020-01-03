@@ -168,9 +168,6 @@ h
 secondaryCert
 .
 h
-xpcshellCert
-.
-h
 export
 :
 :
@@ -191,13 +188,6 @@ h
 (
 SECONDARY_CERT
 )
-xpcshellCert
-.
-h
-:
-xpcshellCertificate
-.
-der
 (
 CERT_HEADERS
 )
