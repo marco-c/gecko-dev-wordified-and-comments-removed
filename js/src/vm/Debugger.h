@@ -852,6 +852,10 @@ DebuggerMemory
 ;
 friend
 class
+SavedStacks
+;
+friend
+class
 mozilla
 :
 :
@@ -1010,6 +1014,9 @@ AllocationSiteList
 ;
 bool
 trackingAllocationSites
+;
+double
+allocationSamplingProbability
 ;
 AllocationSiteList
 allocationsLog
