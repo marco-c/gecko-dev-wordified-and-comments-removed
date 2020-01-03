@@ -4723,6 +4723,7 @@ js
 GeneratorThrowOrClose
 (
 cx
+frame
 genObj
 arg
 resumeKind

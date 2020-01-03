@@ -741,6 +741,11 @@ yieldIndex
 isRunning
 (
 )
+|
+|
+isClosing
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -992,6 +997,8 @@ GeneratorThrowOrClose
 JSContext
 *
 cx
+AbstractFramePtr
+frame
 Handle
 <
 GeneratorObject
@@ -1002,6 +1009,16 @@ HandleValue
 val
 uint32_t
 resumeKind
+)
+;
+void
+SetReturnValueForClosingGenerator
+(
+JSContext
+*
+cx
+AbstractFramePtr
+frame
 )
 ;
 }
