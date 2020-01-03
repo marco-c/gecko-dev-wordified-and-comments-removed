@@ -695,6 +695,10 @@ endif
 ifdef
 _MSC_VER
 #
+define
+HAVE_WIN32_ATOMIC_PRIMITIVES
+1
+#
 ifndef
 __cplusplus
 #
