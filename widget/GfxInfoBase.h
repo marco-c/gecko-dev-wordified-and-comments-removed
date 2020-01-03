@@ -185,6 +185,10 @@ GetFailures
 uint32_t
 *
 failureCount
+int32_t
+*
+*
+indices
 char
 *
 *
@@ -407,15 +411,6 @@ GfxDriverInfo
 &
 aDriverInfo
 )
-;
-nsCString
-mFailures
-[
-9
-]
-;
-uint32_t
-mFailureCount
 ;
 Mutex
 mMutex
