@@ -769,6 +769,11 @@ MediaStreamTrack
 h
 '
 '
+RTCIdentityProviderRegistrar
+.
+h
+'
+'
 TextTrack
 .
 h
@@ -985,6 +990,11 @@ cpp
 '
 '
 MP3FrameParser
+.
+cpp
+'
+'
+RTCIdentityProviderRegistrar
 .
 cpp
 '
