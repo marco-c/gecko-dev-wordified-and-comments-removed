@@ -3007,7 +3007,7 @@ nblockscopes
 nyieldoffsets
 ;
 uint32_t
-prologLength
+prologueLength
 version
 ;
 uint32_t
@@ -3323,7 +3323,7 @@ mode
 XDR_ENCODE
 )
 {
-prologLength
+prologueLength
 =
 script
 -
@@ -3963,7 +3963,7 @@ xdr
 codeUint32
 (
 &
-prologLength
+prologueLength
 )
 )
 return
@@ -4481,7 +4481,7 @@ script
 >
 mainOffset_
 =
-prologLength
+prologueLength
 ;
 script
 -
@@ -14149,12 +14149,12 @@ offset
 )
 ;
 uint32_t
-prologLength
+prologueLength
 =
 bce
 -
 >
-prologOffset
+prologueOffset
 (
 )
 ;
@@ -14269,7 +14269,7 @@ script
 >
 mainOffset_
 =
-prologLength
+prologueLength
 ;
 script
 -
@@ -14286,7 +14286,7 @@ script
 >
 setLength
 (
-prologLength
+prologueLength
 +
 mainLength
 )
@@ -14344,14 +14344,14 @@ code
 bce
 -
 >
-prolog
+prologue
 .
 code
 .
 begin
 (
 )
-prologLength
+prologueLength
 )
 ;
 PodCopy
@@ -14361,7 +14361,7 @@ jsbytecode
 (
 code
 +
-prologLength
+prologueLength
 bce
 -
 >
@@ -14837,7 +14837,7 @@ script
 yieldOffsets
 (
 )
-prologLength
+prologueLength
 )
 ;
 }

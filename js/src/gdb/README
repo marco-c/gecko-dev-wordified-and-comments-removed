@@ -1716,7 +1716,7 @@ for
 -
 tests
 /
-prolog
+prologue
 .
 py
 passing

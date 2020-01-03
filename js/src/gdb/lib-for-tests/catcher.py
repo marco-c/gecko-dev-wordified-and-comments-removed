@@ -17,7 +17,7 @@ join
 (
 testlibdir
 '
-prolog
+prologue
 .
 py
 '

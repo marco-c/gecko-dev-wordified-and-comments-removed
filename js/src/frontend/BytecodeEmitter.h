@@ -429,7 +429,7 @@ YieldOffsetArray
 &
 array
 uint32_t
-prologLength
+prologueLength
 )
 ;
 }
@@ -558,7 +558,7 @@ lastColumn
 }
 ;
 EmitSection
-prolog
+prologue
 main
 *
 current
@@ -919,13 +919,13 @@ begin
 ;
 }
 ptrdiff_t
-prologOffset
+prologueOffset
 (
 )
 const
 {
 return
-prolog
+prologue
 .
 code
 .
@@ -933,7 +933,7 @@ end
 (
 )
 -
-prolog
+prologue
 .
 code
 .
@@ -954,14 +954,14 @@ main
 ;
 }
 void
-switchToProlog
+switchToPrologue
 (
 )
 {
 current
 =
 &
-prolog
+prologue
 ;
 }
 SrcNotesVector
@@ -1789,7 +1789,7 @@ bool
 maybeEmitVarDecl
 (
 JSOp
-prologOp
+prologueOp
 ParseNode
 *
 pn
@@ -2069,7 +2069,7 @@ BytecodeEmitter
 *
 bce
 JSOp
-prologOp
+prologueOp
 ParseNode
 *
 pn
@@ -2084,7 +2084,7 @@ bool
 emitDestructuringDeclsWithEmitter
 (
 JSOp
-prologOp
+prologueOp
 ParseNode
 *
 pattern
@@ -2094,7 +2094,7 @@ bool
 emitDestructuringDecls
 (
 JSOp
-prologOp
+prologueOp
 ParseNode
 *
 pattern
@@ -2104,7 +2104,7 @@ bool
 emitInitializeDestructuringDecls
 (
 JSOp
-prologOp
+prologueOp
 ParseNode
 *
 pattern

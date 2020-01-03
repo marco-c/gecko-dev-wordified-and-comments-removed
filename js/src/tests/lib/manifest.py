@@ -536,7 +536,7 @@ js_bin
         
 self
 .
-js_prolog
+js_prologue
 =
 xulinfo
 .
@@ -614,7 +614,7 @@ e
 '
 self
 .
-js_prolog
+js_prologue
                 
 '
 -
