@@ -215,7 +215,10 @@ ResetDecode
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsRefPtr
+<
+VideoDataPromise
+>
 RequestVideoData
 (
 bool
@@ -226,7 +229,10 @@ aTimeThreshold
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsRefPtr
+<
+AudioDataPromise
+>
 RequestAudioData
 (
 )
