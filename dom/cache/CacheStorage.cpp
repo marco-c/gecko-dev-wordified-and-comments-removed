@@ -1091,6 +1091,14 @@ aWorkerPrivate
 ServiceWorkersTestingInWindow
 (
 )
+|
+|
+aWorkerPrivate
+-
+>
+IsServiceWorker
+(
+)
 ;
 if
 (
