@@ -1359,6 +1359,10 @@ if
 mDiscardable
 )
 {
+mLockCount
++
++
+;
 SurfaceCache
 :
 :
