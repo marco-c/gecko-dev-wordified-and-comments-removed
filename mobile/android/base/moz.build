@@ -2965,11 +2965,6 @@ RestrictedProfiles
 java
 '
 '
-ScrollAnimator
-.
-java
-'
-'
 ServiceNotificationClient
 .
 java
