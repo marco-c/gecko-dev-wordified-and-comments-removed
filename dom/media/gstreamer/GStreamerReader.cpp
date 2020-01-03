@@ -3560,8 +3560,10 @@ Tell
 (
 )
 ;
+nsRefPtr
+<
 VideoData
-*
+>
 video
 =
 VideoData

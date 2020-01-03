@@ -382,7 +382,7 @@ ProcessOutput
 (
 )
 {
-nsAutoPtr
+nsRefPtr
 <
 MediaData
 >
@@ -425,10 +425,6 @@ mCallback
 Output
 (
 output
-.
-forget
-(
-)
 )
 ;
 continue
@@ -513,13 +509,6 @@ NS_ERROR_ABORT
 if
 (
 output
-.
-get
-(
-)
-!
-=
-nullptr
 )
 {
 mCallback
@@ -528,10 +517,6 @@ mCallback
 Output
 (
 output
-.
-forget
-(
-)
 )
 ;
 }

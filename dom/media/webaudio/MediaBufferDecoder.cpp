@@ -967,7 +967,7 @@ RequestAudioData
 (
 )
 ;
-nsAutoPtr
+nsRefPtr
 <
 AudioData
 >
@@ -1012,10 +1012,6 @@ audioQueue
 Push
 (
 audio
-.
-forget
-(
-)
 )
 ;
 }
@@ -1274,7 +1270,7 @@ UnknownError
 return
 ;
 }
-nsAutoPtr
+nsRefPtr
 <
 AudioData
 >

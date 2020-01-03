@@ -616,9 +616,6 @@ mTime
 mTimeThreshold
 )
 ;
-delete
-aSample
-;
 mAudioReader
 -
 >
@@ -877,9 +874,6 @@ aSample
 mTime
 mTimeThreshold
 )
-;
-delete
-aSample
 ;
 mVideoReader
 -

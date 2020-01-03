@@ -1325,7 +1325,7 @@ paused
 "
 )
 ;
-nsAutoPtr
+nsRefPtr
 <
 AudioData
 >

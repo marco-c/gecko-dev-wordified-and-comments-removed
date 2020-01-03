@@ -57,8 +57,10 @@ mTime
 typedef
 nsTPriorityQueue
 <
+nsRefPtr
+<
 VideoData
-*
+>
 ReorderQueueComparator
 >
 ReorderQueue

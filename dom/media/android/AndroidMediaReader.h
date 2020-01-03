@@ -120,7 +120,7 @@ mVideoSeekTimeUs
 int64_t
 mAudioSeekTimeUs
 ;
-nsAutoPtr
+nsRefPtr
 <
 VideoData
 >

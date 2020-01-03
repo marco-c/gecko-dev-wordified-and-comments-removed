@@ -1775,8 +1775,10 @@ Tell
 (
 )
 ;
+nsRefPtr
+<
 VideoData
-*
+>
 v
 ;
 if

@@ -4845,8 +4845,10 @@ ret
 TH_DUPFRAME
 )
 {
+nsRefPtr
+<
 VideoData
-*
+>
 v
 =
 VideoData
@@ -5036,8 +5038,10 @@ mSkip
 0
 ;
 }
+nsRefPtr
+<
 VideoData
-*
+>
 v
 =
 VideoData
@@ -8180,7 +8184,12 @@ v
 mKeyframe
 )
 {
-delete
+nsRefPtr
+<
+VideoData
+>
+releaseMe
+=
 mVideoQueue
 .
 PopFront

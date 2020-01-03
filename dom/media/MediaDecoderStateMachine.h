@@ -1381,7 +1381,7 @@ mAudioPrerollUsecs
 uint32_t
 mVideoPrerollFrames
 ;
-nsAutoPtr
+nsRefPtr
 <
 VideoData
 >

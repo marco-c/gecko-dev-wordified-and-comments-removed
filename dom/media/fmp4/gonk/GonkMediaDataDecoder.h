@@ -95,7 +95,7 @@ Output
 (
 int64_t
 aStreamOffset
-nsAutoPtr
+nsRefPtr
 <
 MediaData
 >

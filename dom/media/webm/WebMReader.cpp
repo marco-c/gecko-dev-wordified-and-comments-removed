@@ -5276,8 +5276,10 @@ mInitialFrame
 height
 ;
 }
+nsRefPtr
+<
 VideoData
-*
+>
 v
 =
 VideoData
