@@ -2504,7 +2504,7 @@ return
 target
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 widgetPoint
 =
 nsLayoutUtils
@@ -2541,13 +2541,7 @@ aEvent
 >
 refPoint
 =
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 widgetPoint
-)
 ;
 }
 return

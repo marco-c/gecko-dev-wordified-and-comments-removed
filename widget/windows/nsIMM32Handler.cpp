@@ -9635,7 +9635,7 @@ mRect
 toplevelWindow
 -
 >
-WidgetToScreenOffset
+WidgetToScreenOffsetUntyped
 (
 )
 ;
@@ -9801,7 +9801,7 @@ clippedPluginRect
 aWindow
 -
 >
-WidgetToScreenOffset
+WidgetToScreenOffsetUntyped
 (
 )
 ;
@@ -9972,7 +9972,7 @@ MoveBy
 aReferenceWidget
 -
 >
-WidgetToScreenOffset
+WidgetToScreenOffsetUntyped
 (
 )
 )
@@ -9989,7 +9989,7 @@ MoveBy
 aNewOriginWidget
 -
 >
-WidgetToScreenOffset
+WidgetToScreenOffsetUntyped
 (
 )
 )

@@ -1874,14 +1874,14 @@ MoveBy
 topLevelWidget
 -
 >
-WidgetToScreenOffset
+WidgetToScreenOffsetUntyped
 (
 )
 -
 mWidget
 -
 >
-WidgetToScreenOffset
+WidgetToScreenOffsetUntyped
 (
 )
 )
@@ -1903,11 +1903,6 @@ charAtPt
 refPoint
 +
 =
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 aMouseEvent
 -
 >
@@ -1923,7 +1918,6 @@ mWidget
 >
 WidgetToScreenOffset
 (
-)
 )
 ;
 }

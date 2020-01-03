@@ -867,7 +867,7 @@ IsEffectivelyVisible
 )
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 screenPoint
 =
 parentWidget

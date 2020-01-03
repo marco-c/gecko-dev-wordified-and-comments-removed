@@ -532,11 +532,6 @@ mMouseDownPoint
 =
 refPoint
 +
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 aEvent
 -
 >
@@ -545,7 +540,6 @@ widget
 >
 WidgetToScreenOffset
 (
-)
 )
 ;
 mTrackingMouseMove
@@ -722,11 +716,6 @@ screenPoint
 =
 refPoint
 +
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 aEvent
 -
 >
@@ -735,7 +724,6 @@ widget
 >
 WidgetToScreenOffset
 (
-)
 )
 ;
 LayoutDeviceIntPoint

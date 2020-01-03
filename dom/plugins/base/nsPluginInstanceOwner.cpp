@@ -9950,17 +9950,11 @@ anEvent
 .
 refPoint
 +
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 widget
 -
 >
 WidgetToScreenOffset
 (
-)
 )
 ;
 #

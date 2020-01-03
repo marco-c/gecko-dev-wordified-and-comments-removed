@@ -1066,7 +1066,10 @@ aDataType
 )
 ;
 virtual
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
 )
