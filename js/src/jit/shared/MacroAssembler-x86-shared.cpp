@@ -1092,9 +1092,8 @@ if
 maybeNonZero
 )
 {
-xorpd
+zeroDouble
 (
-ScratchDoubleReg
 ScratchDoubleReg
 )
 ;
