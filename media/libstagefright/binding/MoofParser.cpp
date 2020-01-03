@@ -1313,6 +1313,9 @@ aMdhd
 .
 ToMicroseconds
 (
+(
+int64_t
+)
 decodeTime
 +
 ctsOffset
@@ -1325,6 +1328,9 @@ aMdhd
 .
 ToMicroseconds
 (
+(
+int64_t
+)
 decodeTime
 +
 ctsOffset
