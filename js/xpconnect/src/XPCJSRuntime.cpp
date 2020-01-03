@@ -2187,6 +2187,16 @@ priv
 return
 true
 ;
+if
+(
+priv
+-
+>
+universalXPConnectEnabled
+)
+return
+true
+;
 priv
 -
 >
