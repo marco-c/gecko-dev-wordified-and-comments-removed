@@ -62,6 +62,10 @@ char
 aScheme
 uint32_t
 aFlags
+bool
+aEnforceFileOrJar
+=
+true
 )
 ;
 NS_INLINE_DECL_REFCOUNTING
@@ -158,6 +162,9 @@ nsCOMPtr
 nsIIOService
 >
 mIOService
+;
+bool
+mEnforceFileOrJar
 ;
 }
 ;
