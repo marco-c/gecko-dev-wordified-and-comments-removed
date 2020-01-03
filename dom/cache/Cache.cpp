@@ -246,7 +246,7 @@ validScheme
 =
 false
 ;
-nsAutoString
+NS_ConvertUTF16toUTF8
 url
 (
 aUrl
@@ -299,7 +299,7 @@ MSG_INVALID_URL_SCHEME
 &
 label
 &
-url
+aUrl
 )
 ;
 return

@@ -250,10 +250,10 @@ CacheRequest
 nsCString
 method
 ;
-nsString
+nsCString
 url
 ;
-nsString
+nsCString
 urlWithoutQuery
 ;
 HeadersEntry
@@ -299,7 +299,7 @@ CacheResponse
 ResponseType
 type
 ;
-nsString
+nsCString
 url
 ;
 uint32_t

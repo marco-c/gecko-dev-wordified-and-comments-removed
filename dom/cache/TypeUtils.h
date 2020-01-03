@@ -328,13 +328,13 @@ static
 void
 ProcessURL
 (
-nsAString
+nsACString
 &
 aUrl
 bool
 *
 aSchemeValidOut
-nsAString
+nsACString
 *
 aUrlWithoutQueryOut
 ErrorResult

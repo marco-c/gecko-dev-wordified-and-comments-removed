@@ -188,7 +188,7 @@ const
 int32_t
 kMaxWipeSchemaVersion
 =
-13
+14
 ;
 namespace
 {
@@ -196,7 +196,7 @@ const
 int32_t
 kLatestSchemaVersion
 =
-13
+14
 ;
 const
 int32_t
@@ -5359,7 +5359,7 @@ entries
 "
 )
 ;
-nsAutoString
+nsAutoCString
 urlToMatch
 ;
 if
@@ -5503,7 +5503,7 @@ rv
 state
 -
 >
-BindStringByName
+BindUTF8StringByName
 (
 NS_LITERAL_CSTRING
 (
@@ -8614,7 +8614,7 @@ rv
 state
 -
 >
-BindStringByName
+BindUTF8StringByName
 (
 NS_LITERAL_CSTRING
 (
@@ -8649,7 +8649,7 @@ rv
 state
 -
 >
-BindStringByName
+BindUTF8StringByName
 (
 NS_LITERAL_CSTRING
 (
@@ -8994,7 +8994,7 @@ rv
 state
 -
 >
-BindStringByName
+BindUTF8StringByName
 (
 NS_LITERAL_CSTRING
 (
@@ -10179,7 +10179,7 @@ rv
 state
 -
 >
-GetString
+GetUTF8String
 (
 1
 aSavedResponseOut
@@ -10923,7 +10923,7 @@ rv
 state
 -
 >
-GetString
+GetUTF8String
 (
 1
 aSavedRequestOut
@@ -10956,7 +10956,7 @@ rv
 state
 -
 >
-GetString
+GetUTF8String
 (
 2
 aSavedRequestOut
