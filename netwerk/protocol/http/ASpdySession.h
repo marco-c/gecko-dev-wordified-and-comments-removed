@@ -123,6 +123,16 @@ nsISocketTransport
 )
 ;
 virtual
+bool
+MaybeReTunnel
+(
+nsAHttpTransaction
+*
+)
+=
+0
+;
+virtual
 void
 PrintDiagnostics
 (

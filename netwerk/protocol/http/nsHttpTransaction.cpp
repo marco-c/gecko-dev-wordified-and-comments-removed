@@ -526,10 +526,6 @@ mResponseTimeoutEnabled
 (
 true
 )
-mDontRouteViaWildCard
-(
-false
-)
 mForceRestart
 (
 false
@@ -3436,6 +3432,10 @@ mConnected
 =
 false
 ;
+mTunnelProvider
+=
+nullptr
+;
 if
 (
 reason
@@ -4413,10 +4413,9 @@ this
 )
 )
 ;
-SetDontRouteViaWildCard
-(
-false
-)
+mTunnelProvider
+=
+nullptr
 ;
 nsCOMPtr
 <
