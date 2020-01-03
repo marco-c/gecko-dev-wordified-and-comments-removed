@@ -54,9 +54,6 @@ class
 FileSystemParams
 ;
 class
-Promise
-;
-class
 FileSystemTaskBase
 :
 public

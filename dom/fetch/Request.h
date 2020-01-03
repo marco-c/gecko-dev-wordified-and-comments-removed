@@ -58,9 +58,6 @@ RequestBinding
 .
 h
 "
-class
-nsPIDOMWindow
-;
 namespace
 mozilla
 {
@@ -72,9 +69,6 @@ Headers
 ;
 class
 InternalHeaders
-;
-class
-Promise
 ;
 class
 RequestOrUSVString

@@ -21,9 +21,6 @@ nsIObserver
 h
 "
 class
-nsGlobalWindow
-;
-class
 nsITabChild
 ;
 class
@@ -49,9 +46,6 @@ ContentParent
 }
 class
 PProcessHangMonitorParent
-;
-class
-PProcessHangMonitorChild
 ;
 class
 ProcessHangMonitor

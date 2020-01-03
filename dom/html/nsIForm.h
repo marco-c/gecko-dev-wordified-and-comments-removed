@@ -21,12 +21,6 @@ h
 class
 nsIFormControl
 ;
-class
-nsISimpleEnumerator
-;
-class
-nsIURI
-;
 #
 define
 NS_FORM_METHOD_GET

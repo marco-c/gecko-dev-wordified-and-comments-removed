@@ -33,9 +33,6 @@ txOutputFormat
 h
 "
 class
-nsIDOMCharacterData
-;
-class
 nsIDOMDocument
 ;
 class

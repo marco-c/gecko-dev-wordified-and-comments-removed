@@ -36,9 +36,6 @@ class
 txOutputTransaction
 ;
 class
-txCharacterTransaction
-;
-class
 txResultBuffer
 {
 public

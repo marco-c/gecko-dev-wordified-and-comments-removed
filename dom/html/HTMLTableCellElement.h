@@ -27,9 +27,6 @@ nsIDOMHTMLTableCellElement
 .
 h
 "
-class
-nsIDOMHTMLTableRowElement
-;
 namespace
 mozilla
 {

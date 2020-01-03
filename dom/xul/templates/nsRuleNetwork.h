@@ -63,9 +63,6 @@ nsIRDFNode
 h
 "
 class
-nsIRDFResource
-;
-class
 nsXULTemplateResultSetRDF
 ;
 class

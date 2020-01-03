@@ -14,9 +14,6 @@ TestJSImplGenBinding
 .
 h
 "
-class
-nsPIDOMWindow
-;
 namespace
 mozilla
 {

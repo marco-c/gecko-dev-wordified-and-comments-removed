@@ -41,9 +41,6 @@ h
 namespace
 mozilla
 {
-struct
-SerializedStructuredCloneBuffer
-;
 namespace
 dom
 {

@@ -48,9 +48,6 @@ namespace
 dom
 {
 class
-ResponsiveImageSelector
-;
-class
 HTMLSourceElement
 final
 :

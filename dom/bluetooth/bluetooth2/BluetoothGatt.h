@@ -79,12 +79,6 @@ Promise
 }
 BEGIN_BLUETOOTH_NAMESPACE
 class
-BluetoothReplyRunnable
-;
-class
-BluetoothService
-;
-class
 BluetoothSignal
 ;
 class

@@ -39,9 +39,6 @@ nsID
 h
 "
 class
-nsIDOMBlob
-;
-class
 nsIEventTarget
 ;
 class

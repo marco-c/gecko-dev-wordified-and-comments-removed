@@ -86,15 +86,6 @@ class
 nsIDOMDocumentFragment
 ;
 class
-nsIDOMElement
-;
-class
-nsIStyleSheet
-;
-class
-nsIDOMNode
-;
-class
 nsITransformObserver
 ;
 class

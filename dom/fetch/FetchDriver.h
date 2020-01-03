@@ -85,9 +85,6 @@ namespace
 dom
 {
 class
-BlobSet
-;
-class
 InternalRequest
 ;
 class

@@ -67,9 +67,6 @@ class
 nsIAtom
 ;
 class
-txIParseContext
-;
-class
 txIMatchContext
 ;
 class

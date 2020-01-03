@@ -160,9 +160,6 @@ class
 nsIContent
 ;
 class
-nsIRDFCompositeDataSource
-;
-class
 nsXULTemplateResultRDF
 ;
 class

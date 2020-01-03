@@ -161,13 +161,7 @@ class
 nsICycleCollectorLogSink
 ;
 class
-nsIDOMBlob
-;
-class
 nsIDumpGCAndCCLogsCallback
-;
-class
-nsIMemoryReporter
 ;
 class
 nsITimer
@@ -203,9 +197,6 @@ TestShellParent
 namespace
 jsipc
 {
-class
-JavaScriptShared
-;
 class
 PJavaScriptParent
 ;

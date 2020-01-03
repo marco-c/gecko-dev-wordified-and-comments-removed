@@ -150,9 +150,6 @@ class
 nsIRDFCompositeDataSource
 ;
 class
-nsIXULDocument
-;
-class
 nsXULTemplateBuilder
 :
 public

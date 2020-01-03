@@ -47,9 +47,6 @@ InternalResponse
 .
 h
 "
-class
-nsPIDOMWindow
-;
 namespace
 mozilla
 {
@@ -57,16 +54,10 @@ namespace
 dom
 {
 class
-ArrayBufferOrArrayBufferViewOrUSVStringOrURLSearchParams
-;
-class
 Headers
 ;
 class
 InternalHeaders
-;
-class
-Promise
 ;
 class
 Response

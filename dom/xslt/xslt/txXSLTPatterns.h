@@ -35,9 +35,6 @@ txXMLUtils
 h
 "
 class
-ProcessorState
-;
-class
 txPattern
 {
 public

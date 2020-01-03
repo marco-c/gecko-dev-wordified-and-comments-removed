@@ -31,9 +31,6 @@ h
 "
 BEGIN_BLUETOOTH_NAMESPACE
 class
-BluetoothDevice
-;
-class
 BluetoothSignal
 ;
 class

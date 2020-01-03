@@ -34,9 +34,6 @@ mozilla
 ipc
 ;
 class
-BlutoothDaemonInterface
-;
-class
 BluetoothDaemonSocketModule
 {
 public

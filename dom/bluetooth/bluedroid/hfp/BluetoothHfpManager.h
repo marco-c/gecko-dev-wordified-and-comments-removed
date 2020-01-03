@@ -61,9 +61,6 @@ h
 "
 BEGIN_BLUETOOTH_NAMESPACE
 class
-BluetoothReplyRunnable
-;
-class
 BluetoothSocket
 ;
 class

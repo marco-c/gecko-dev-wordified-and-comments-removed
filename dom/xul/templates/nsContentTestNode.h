@@ -42,9 +42,6 @@ nsIDOMDocument
 h
 "
 class
-nsIXULTemplateBuilder
-;
-class
 nsContentTestNode
 :
 public

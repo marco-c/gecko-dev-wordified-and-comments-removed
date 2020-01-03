@@ -15,9 +15,6 @@ class
 nsSMILValue
 ;
 class
-nsISMILType
-;
-class
 nsIContent
 ;
 class

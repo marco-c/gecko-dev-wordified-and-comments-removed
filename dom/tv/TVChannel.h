@@ -40,9 +40,6 @@ class
 Promise
 ;
 class
-TVProgram
-;
-class
 TVSource
 ;
 class

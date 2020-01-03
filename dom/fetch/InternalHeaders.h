@@ -40,9 +40,6 @@ nsWrapperCache
 .
 h
 "
-class
-nsPIDOMWindow
-;
 namespace
 mozilla
 {
@@ -59,9 +56,6 @@ T
 >
 class
 MozMap
-;
-class
-HeadersOrByteStringSequenceSequenceOrByteStringMozMap
 ;
 class
 InternalHeaders

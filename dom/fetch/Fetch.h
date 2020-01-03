@@ -102,9 +102,6 @@ WorkerFeature
 h
 "
 class
-nsIOutputStream
-;
-class
 nsIGlobalObject
 ;
 namespace

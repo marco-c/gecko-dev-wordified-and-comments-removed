@@ -61,9 +61,6 @@ nsINode
 namespace
 mozilla
 {
-class
-ErrorResult
-;
 namespace
 dom
 {

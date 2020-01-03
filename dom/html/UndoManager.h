@@ -71,9 +71,6 @@ h
 class
 nsITransactionManager
 ;
-class
-nsIMutationObserver
-;
 namespace
 mozilla
 {

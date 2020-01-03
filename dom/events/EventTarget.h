@@ -28,9 +28,6 @@ h
 class
 nsIDOMWindow
 ;
-class
-nsIDOMEventListener
-;
 namespace
 mozilla
 {

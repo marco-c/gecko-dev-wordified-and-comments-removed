@@ -99,9 +99,6 @@ class
 nsIStreamListener
 ;
 class
-nsStyleSet
-;
-class
 nsXBLBinding
 ;
 template

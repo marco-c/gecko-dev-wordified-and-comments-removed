@@ -43,9 +43,6 @@ class
 txInstruction
 ;
 class
-txToplevelItem
-;
-class
 txTemplateItem
 ;
 class

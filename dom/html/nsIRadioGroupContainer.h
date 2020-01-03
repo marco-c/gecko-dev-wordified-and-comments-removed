@@ -12,9 +12,6 @@ nsISupports
 h
 "
 class
-nsString
-;
-class
 nsIRadioVisitor
 ;
 class

@@ -54,9 +54,6 @@ class
 BluetoothSignal
 ;
 class
-BluetoothSocket
-;
-class
 BluetoothDevice
 :
 public

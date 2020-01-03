@@ -91,9 +91,6 @@ class
 txInstruction
 ;
 class
-txIOutputHandlerFactory
-;
-class
 txLoadedDocumentEntry
 :
 public

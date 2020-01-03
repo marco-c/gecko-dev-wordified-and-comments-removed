@@ -98,9 +98,6 @@ class
 nsIEditor
 ;
 class
-nsIParser
-;
-class
 nsIURI
 ;
 class
