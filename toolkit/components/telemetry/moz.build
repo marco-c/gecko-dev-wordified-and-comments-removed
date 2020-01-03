@@ -212,12 +212,12 @@ EXTRA_PP_JS_MODULES
 =
 [
 '
-TelemetryEnvironment
+TelemetryController
 .
 jsm
 '
 '
-TelemetryPing
+TelemetryEnvironment
 .
 jsm
 '
