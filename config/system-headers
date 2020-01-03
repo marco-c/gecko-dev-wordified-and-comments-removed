@@ -1403,6 +1403,14 @@ h
 dl
 .
 h
+#
+ifdef
+MOZ_WIDGET_GONK
+dns_sd
+.
+h
+#
+endif
 docobj
 .
 h
