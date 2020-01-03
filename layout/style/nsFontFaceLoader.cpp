@@ -605,6 +605,12 @@ ctx
 >
 UserFontSetUpdated
 (
+loader
+-
+>
+GetUserFontEntry
+(
+)
 )
 ;
 LOG
@@ -916,6 +922,7 @@ ctx
 >
 UserFontSetUpdated
 (
+mUserFontEntry
 )
 ;
 LOG
