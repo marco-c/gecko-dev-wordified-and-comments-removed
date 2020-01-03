@@ -375,7 +375,6 @@ p
 )
 ;
 }
-explicit
 Heap
 (
 const
