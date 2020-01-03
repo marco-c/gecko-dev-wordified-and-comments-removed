@@ -69,7 +69,7 @@ e
 =
 =
 =
-undefined
+42
 &
 &
 f
@@ -85,7 +85,7 @@ outer
 =
 =
 =
-43
+undefined
 )
 ;
 }
