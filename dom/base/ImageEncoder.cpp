@@ -59,6 +59,15 @@ h
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h
@@ -780,6 +789,9 @@ rv
 )
 )
 {
+unused
+<
+<
 mEncodingCompleteEvent
 .
 forget

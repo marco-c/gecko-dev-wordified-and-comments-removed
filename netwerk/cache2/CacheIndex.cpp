@@ -129,6 +129,15 @@ Telemetry
 h
 "
 #
+include
+"
+mozilla
+/
+unused
+.
+h
+"
+#
 define
 kMinUnwrittenChanges
 300
@@ -15479,6 +15488,9 @@ mDirEnumerator
 )
 )
 ;
+unused
+<
+<
 mDirEnumerator
 .
 forget
