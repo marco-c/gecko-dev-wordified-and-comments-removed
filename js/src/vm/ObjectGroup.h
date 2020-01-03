@@ -804,16 +804,7 @@ setProtoUnchecked
 TaggedProto
 proto
 )
-{
-proto_
-=
-proto
-.
-raw
-(
-)
 ;
-}
 void
 initSingleton
 (
