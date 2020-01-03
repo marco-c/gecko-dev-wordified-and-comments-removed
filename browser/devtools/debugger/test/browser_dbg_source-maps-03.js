@@ -318,6 +318,9 @@ setBreakpoint
 line
 :
 30
+column
+:
+21
 }
 aResponse
 =
@@ -362,6 +365,9 @@ breakpoint
 on
 line
 30
+and
+column
+10
 .
 "
 )
