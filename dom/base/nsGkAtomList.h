@@ -5075,6 +5075,13 @@ ondischargingtimechange
 )
 GK_ATOM
 (
+ondisconnect
+"
+ondisconnect
+"
+)
+GK_ATOM
+(
 ondisconnected
 "
 ondisconnected

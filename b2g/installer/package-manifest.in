@@ -1174,6 +1174,13 @@ RESPATH
 /
 components
 /
+dom_inputport
+.
+xpt
+RESPATH
+/
+components
+/
 dom_views
 .
 xpt
