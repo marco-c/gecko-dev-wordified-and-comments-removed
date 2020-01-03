@@ -1459,6 +1459,17 @@ DumpState
 (
 )
 {
+if
+(
+!
+LOG_ENABLED
+(
+)
+)
+{
+return
+;
+}
 LOG
 (
 (
