@@ -101,6 +101,14 @@ aError
 ;
 }
 ;
+#
+define
+GMP_API_AUDIO_DECODER
+"
+decode
+-
+audio
+"
 class
 GMPAudioDecoder
 {

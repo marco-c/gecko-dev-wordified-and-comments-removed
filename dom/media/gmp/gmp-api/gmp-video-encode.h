@@ -103,6 +103,14 @@ aError
 ;
 }
 ;
+#
+define
+GMP_API_VIDEO_ENCODER
+"
+encode
+-
+video
+"
 class
 GMPVideoEncoder
 {

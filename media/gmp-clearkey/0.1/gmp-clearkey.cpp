@@ -124,11 +124,7 @@ if
 strcmp
 (
 aApiName
-"
-eme
--
-decrypt
-"
+GMP_API_DECRYPTOR
 )
 )
 {

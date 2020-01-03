@@ -4486,11 +4486,7 @@ mAPIName
 .
 EqualsLiteral
 (
-"
-eme
--
-decrypt
-"
+GMP_API_DECRYPTOR
 )
 &
 &

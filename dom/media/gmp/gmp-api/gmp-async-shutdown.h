@@ -4,6 +4,14 @@ GMP_ASYNC_SHUTDOWN_H_
 #
 define
 GMP_ASYNC_SHUTDOWN_H_
+#
+define
+GMP_API_ASYNC_SHUTDOWN
+"
+async
+-
+shutdown
+"
 class
 GMPAsyncShutdown
 {
