@@ -14123,7 +14123,7 @@ GetParent
 )
 ;
 }
-MOZ_ASSERT
+NS_ASSERTION
 (
 aFrame
 "
@@ -15019,6 +15019,9 @@ mFrame
 ;
 if
 (
+rubyBase
+&
+&
 IsRubyAlignSpaceAround
 (
 rubyBase
@@ -15091,6 +15094,9 @@ mFrame
 ;
 if
 (
+rubyBase
+&
+&
 IsRubyAlignSpaceAround
 (
 rubyBase
