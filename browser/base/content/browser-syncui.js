@@ -2719,6 +2719,8 @@ errorhandler
 networkFailureReportTimeout
 "
 )
+*
+1000
 )
 ;
 prolonged
