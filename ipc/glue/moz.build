@@ -727,12 +727,6 @@ LOCAL_INCLUDES
 /
 dom
 /
-broadcastchannel
-'
-'
-/
-dom
-/
 indexedDB
 '
 '
