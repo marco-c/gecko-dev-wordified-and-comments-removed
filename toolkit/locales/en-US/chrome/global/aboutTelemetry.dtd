@@ -75,6 +75,16 @@ Data
 ENTITY
 aboutTelemetry
 .
+changeDataChoices
+"
+Change
+"
+>
+<
+!
+ENTITY
+aboutTelemetry
+.
 uploadEnabled
 "
 FHR
