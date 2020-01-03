@@ -357,7 +357,6 @@ Opening
 database
 at
 "
-+
 this
 .
 _store
@@ -517,7 +516,6 @@ Initialization
 failed
 :
 "
-+
 e
 )
 ;
@@ -1294,11 +1292,9 @@ _getAllLogins
 :
 returning
 "
-+
 logins
 .
 length
-+
 "
 logins
 .
@@ -1997,11 +1993,9 @@ _searchLogins
 :
 returning
 "
-+
 fallbackLogins
 .
 length
-+
 "
 fallback
 logins
@@ -2024,11 +2018,9 @@ _searchLogins
 :
 returning
 "
-+
 foundLogins
 .
 length
-+
 "
 logins
 "
@@ -2136,11 +2128,9 @@ _getAllDisabledHosts
 :
 returning
 "
-+
 disabledHosts
 .
 length
-+
 "
 disabled
 hosts
@@ -2191,7 +2181,6 @@ is
 enabled
 for
 "
-+
 hostname
 )
 ;
@@ -2248,13 +2237,10 @@ saving
 enabled
 for
 "
-+
 hostname
-+
 "
 to
 "
-+
 enabled
 )
 ;
@@ -2464,11 +2450,9 @@ _findLogins
 :
 returning
 "
-+
 logins
 .
 length
-+
 "
 logins
 "
@@ -2585,7 +2569,6 @@ counted
 logins
 :
 "
-+
 logins
 .
 length
