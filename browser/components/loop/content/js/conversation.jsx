@@ -735,6 +735,15 @@ guid
 callback
 )
 {
+/
+/
+See
+nsIPrefBranch
+const
+PREF_STRING
+=
+32
+;
 navigator
 .
 mozLoop
@@ -747,6 +756,7 @@ ot
 guid
 "
 guid
+PREF_STRING
 )
 ;
 callback
