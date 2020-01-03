@@ -15434,7 +15434,7 @@ plugins
 .
 asyncInit
 "
-true
+false
 )
 ;
 pref
