@@ -3712,8 +3712,9 @@ nullptr
 return
 false
 ;
-if
-(
+bool
+isNewInstruction
+=
 sim
 -
 >
@@ -3723,6 +3724,10 @@ block
 =
 =
 nullptr
+;
+if
+(
+isNewInstruction
 )
 def
 -
@@ -3853,6 +3858,14 @@ true
 def
 =
 sim
+;
+if
+(
+!
+isNewInstruction
+)
+return
+true
 ;
 }
 if
