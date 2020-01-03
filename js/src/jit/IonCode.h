@@ -109,10 +109,7 @@ public
 gc
 :
 :
-BarrieredCell
-<
-JitCode
->
+TenuredCell
 {
 protected
 :

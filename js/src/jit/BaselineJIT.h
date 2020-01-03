@@ -498,7 +498,7 @@ New
 (
 JSScript
 *
-script
+jsscript
 uint32_t
 prologueOffset
 uint32_t

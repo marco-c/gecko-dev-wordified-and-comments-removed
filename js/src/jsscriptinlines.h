@@ -770,7 +770,7 @@ BaselineScript
 :
 writeBarrierPre
 (
-tenuredZone
+zone
 (
 )
 baseline

@@ -1167,7 +1167,12 @@ trc
 obj
 -
 >
-tenuredZone
+asTenured
+(
+)
+-
+>
+zone
 (
 )
 -

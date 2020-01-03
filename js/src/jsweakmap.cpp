@@ -933,6 +933,11 @@ if
 key
 -
 >
+asTenured
+(
+)
+-
+>
 isMarked
 (
 BLACK
@@ -941,6 +946,11 @@ BLACK
 &
 !
 key
+-
+>
+asTenured
+(
+)
 -
 >
 isMarked

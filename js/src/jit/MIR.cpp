@@ -16417,7 +16417,12 @@ templateObject
 )
 -
 >
-tenuredGetAllocKind
+asTenured
+(
+)
+-
+>
+getAllocKind
 (
 )
 )

@@ -74,10 +74,7 @@ js
 gc
 :
 :
-BarrieredCell
-<
-Symbol
->
+TenuredCell
 {
 private
 :

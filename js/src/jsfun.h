@@ -2214,7 +2214,12 @@ EXTENDED
 =
 =
 (
-tenuredGetAllocKind
+asTenured
+(
+)
+-
+>
+getAllocKind
 (
 )
 =
@@ -2347,7 +2352,12 @@ isTenured
 kind
 =
 =
-tenuredGetAllocKind
+asTenured
+(
+)
+-
+>
+getAllocKind
 (
 )
 )

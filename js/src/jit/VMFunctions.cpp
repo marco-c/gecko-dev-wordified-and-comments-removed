@@ -5695,7 +5695,12 @@ kind
 obj
 -
 >
-tenuredGetAllocKind
+asTenured
+(
+)
+-
+>
+getAllocKind
 (
 )
 ;
@@ -5730,7 +5735,12 @@ JS_ASSERT
 obj
 -
 >
-tenuredZone
+asTenured
+(
+)
+-
+>
+zone
 (
 )
 =
@@ -5811,7 +5821,7 @@ isAtomsZone
 str
 -
 >
-tenuredZone
+zone
 (
 )
 )
@@ -5823,7 +5833,7 @@ JS_ASSERT
 str
 -
 >
-tenuredZone
+zone
 (
 )
 =
@@ -5889,7 +5899,7 @@ kind
 str
 -
 >
-tenuredGetAllocKind
+getAllocKind
 (
 )
 ;
@@ -6033,7 +6043,7 @@ isAtomsZone
 sym
 -
 >
-tenuredZone
+zone
 (
 )
 )
@@ -6103,7 +6113,7 @@ JS_ASSERT
 sym
 -
 >
-tenuredGetAllocKind
+getAllocKind
 (
 )
 =

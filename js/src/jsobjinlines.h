@@ -572,7 +572,12 @@ if
 !
 IsBackgroundFinalized
 (
-tenuredGetAllocKind
+asTenured
+(
+)
+-
+>
+getAllocKind
 (
 )
 )
@@ -5920,7 +5925,12 @@ allocKind
 baseobj
 -
 >
-tenuredGetAllocKind
+asTenured
+(
+)
+-
+>
+getAllocKind
 (
 )
 )
