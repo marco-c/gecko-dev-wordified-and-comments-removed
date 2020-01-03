@@ -822,6 +822,14 @@ endif
 if
 (
 document
+&
+&
+document
+-
+>
+IsContentLoaded
+(
+)
 )
 {
 nsRefPtr
