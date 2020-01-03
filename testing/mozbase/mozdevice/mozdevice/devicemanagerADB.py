@@ -5077,7 +5077,7 @@ self
 )
 :
         
-data
+proc
 =
 self
 .
@@ -5092,17 +5092,12 @@ id
 "
 ]
 )
-.
-output
-[
-0
-]
         
 if
-data
+proc
 .
-find
-(
+output
+and
 '
 uid
 =
@@ -5111,10 +5106,13 @@ uid
 root
 )
 '
-)
->
-=
+in
+proc
+.
+output
+[
 0
+]
 :
             
 self
@@ -5199,20 +5197,11 @@ kill
 (
 )
         
-data
-=
+if
 proc
 .
 output
-[
-0
-]
-        
-if
-data
-.
-find
-(
+and
 '
 uid
 =
@@ -5221,10 +5210,13 @@ uid
 root
 )
 '
-)
->
-=
+in
+proc
+.
+output
+[
 0
+]
 :
             
 self
