@@ -139,11 +139,6 @@ Credentials
 jsm
 '
 '
-FxAccounts
-.
-jsm
-'
-'
 FxAccountsClient
 .
 jsm
@@ -184,7 +179,7 @@ EXTRA_PP_JS_MODULES
 =
 [
 '
-FxAccountsStorage
+FxAccounts
 .
 jsm
 '
