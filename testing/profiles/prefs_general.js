@@ -1594,7 +1594,7 @@ webm
 .
 enabled
 "
-true
+false
 )
 ;
 user_pref
