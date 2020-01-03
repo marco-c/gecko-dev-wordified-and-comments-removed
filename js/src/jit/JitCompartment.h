@@ -753,6 +753,15 @@ trc
 )
 ;
 static
+void
+MarkJitcodeGlobalTableUnconditionally
+(
+JSTracer
+*
+trc
+)
+;
+static
 bool
 MarkJitcodeGlobalTableIteratively
 (
