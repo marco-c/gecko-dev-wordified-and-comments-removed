@@ -5977,7 +5977,7 @@ mTransmitterTransport
 mTransmitterTransport
 -
 >
-SendRtpPacket
+SendRtcpPacket
 (
 data
 len
