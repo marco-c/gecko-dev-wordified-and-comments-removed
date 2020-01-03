@@ -1068,7 +1068,7 @@ stdin
 )
     
 def
-yum_install
+dnf_install
 (
 self
 *
@@ -1076,6 +1076,31 @@ packages
 )
 :
         
+if
+self
+.
+which
+(
+'
+dnf
+'
+)
+:
+            
+command
+=
+[
+'
+dnf
+'
+'
+install
+'
+]
+        
+else
+:
+            
 command
 =
 [
@@ -1118,7 +1143,7 @@ command
 )
     
 def
-yum_groupinstall
+dnf_groupinstall
 (
 self
 *
@@ -1126,6 +1151,31 @@ packages
 )
 :
         
+if
+self
+.
+which
+(
+'
+dnf
+'
+)
+:
+            
+command
+=
+[
+'
+dnf
+'
+'
+groupinstall
+'
+]
+        
+else
+:
+            
 command
 =
 [
@@ -1152,7 +1202,7 @@ command
 )
     
 def
-yum_update
+dnf_update
 (
 self
 *
@@ -1160,6 +1210,31 @@ packages
 )
 :
         
+if
+self
+.
+which
+(
+'
+dnf
+'
+)
+:
+            
+command
+=
+[
+'
+dnf
+'
+'
+update
+'
+]
+        
+else
+:
+            
 command
 =
 [
