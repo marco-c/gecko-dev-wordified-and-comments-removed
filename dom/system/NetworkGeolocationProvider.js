@@ -2360,7 +2360,7 @@ result
 push
 (
 {
-radio
+radioType
 :
 radioTechFamily
 mobileCountryCode
