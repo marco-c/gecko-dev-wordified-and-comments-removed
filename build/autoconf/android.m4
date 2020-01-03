@@ -413,6 +413,9 @@ in
 android_gnu_compiler_version
 4
 .
+9
+4
+.
 8
 4
 .
