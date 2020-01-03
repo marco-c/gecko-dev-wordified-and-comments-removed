@@ -697,7 +697,7 @@ aFromMetadataDecode
 )
 ;
 void
-RecoverFromLossOfFrames
+RecoverFromInvalidFrames
 (
 const
 nsIntSize

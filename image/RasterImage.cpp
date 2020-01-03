@@ -2612,7 +2612,7 @@ if
 srcSurf
 )
 {
-RecoverFromLossOfFrames
+RecoverFromInvalidFrames
 (
 mSize
 aFlags
@@ -3953,7 +3953,7 @@ if
 aFromMetadataDecode
 )
 {
-RecoverFromLossOfFrames
+RecoverFromInvalidFrames
 (
 mSize
 DECODE_FLAGS_DEFAULT
@@ -5818,7 +5818,7 @@ void
 RasterImage
 :
 :
-RecoverFromLossOfFrames
+RecoverFromInvalidFrames
 (
 const
 IntSize
@@ -5840,8 +5840,11 @@ return
 NS_WARNING
 (
 "
-An
-imgFrame
+A
+RasterImage
+'
+s
+frames
 became
 invalid
 .
@@ -6684,7 +6687,7 @@ aFlags
 )
 )
 {
-RecoverFromLossOfFrames
+RecoverFromInvalidFrames
 (
 aSize
 aFlags
