@@ -78157,12 +78157,6 @@ hasInterfacePrototypeObject
 :
                 
 if
-m
-.
-returnsPromise
-(
-)
-and
 descriptor
 .
 needsSpecialGenericOps
@@ -78170,9 +78164,26 @@ needsSpecialGenericOps
 )
 :
                     
+if
+m
+.
+returnsPromise
+(
+)
+:
+                        
 props
 .
 isPromiseReturningMethod
+=
+True
+                    
+else
+:
+                        
+props
+.
+isGenericMethod
 =
 True
                 
@@ -78190,20 +78201,6 @@ CrossOriginCallable
 props
 .
 isCrossOriginMethod
-=
-True
-                
-elif
-descriptor
-.
-needsSpecialGenericOps
-(
-)
-:
-                    
-props
-.
-isGenericMethod
 =
 True
     
