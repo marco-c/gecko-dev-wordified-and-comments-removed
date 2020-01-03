@@ -1294,8 +1294,8 @@ override
 ;
 #
 endif
-int32_t
-GetColumnISize
+nscoord
+GetColumnISizeFromFirstInFlow
 (
 int32_t
 aColIndex
