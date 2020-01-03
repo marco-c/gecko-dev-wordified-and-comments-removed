@@ -1200,6 +1200,11 @@ BookmarksTracker
 version
 :
 2
+_defaultSort
+:
+"
+index
+"
 syncPriority
 :
 4
