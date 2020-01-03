@@ -235,7 +235,7 @@ nsIThread
 >
 mThread
 ;
-RefPtr
+nsRefPtr
 <
 AudioStream
 >
