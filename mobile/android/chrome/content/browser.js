@@ -14941,6 +14941,11 @@ _target
 BrowserEventHandler
 .
 _highlightElement
+|
+|
+event
+.
+target
 ;
 if
 (
