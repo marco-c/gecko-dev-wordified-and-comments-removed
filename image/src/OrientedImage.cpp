@@ -495,9 +495,8 @@ InnerImage
 )
 -
 >
-FrameIsOpaque
+IsOpaque
 (
-aWhichFrame
 )
 )
 {

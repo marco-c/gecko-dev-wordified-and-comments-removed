@@ -9403,12 +9403,8 @@ if
 imageContainer
 -
 >
-FrameIsOpaque
+IsOpaque
 (
-imgIContainer
-:
-:
-FRAME_CURRENT
 )
 )
 {

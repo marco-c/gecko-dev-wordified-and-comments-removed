@@ -101,17 +101,6 @@ aFlags
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD_
-(
-bool
-)
-FrameIsOpaque
-(
-uint32_t
-aWhichFrame
-)
-MOZ_OVERRIDE
-;
 NS_IMETHOD
 GetImageContainer
 (

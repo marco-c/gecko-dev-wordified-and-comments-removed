@@ -312,6 +312,16 @@ GetImageStatus
 )
 const
 ;
+Progress
+GetProgress
+(
+)
+const
+{
+return
+mProgress
+;
+}
 void
 Notify
 (
