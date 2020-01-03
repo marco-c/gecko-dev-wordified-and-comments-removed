@@ -1562,8 +1562,6 @@ rt
 void
 *
 addr
-uint8_t
-index
 ForEachTrackedOptimizationAttemptOp
 &
 op
@@ -1625,8 +1623,6 @@ rt
 void
 *
 addr
-uint8_t
-index
 ForEachTrackedOptimizationTypeInfoOp
 &
 op
