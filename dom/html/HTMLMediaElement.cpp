@@ -9277,10 +9277,6 @@ nsIDOMHTMLMediaElement
 NETWORK_EMPTY
 )
 ;
-AddRemoveSelfReference
-(
-)
-;
 ChangeDelayLoadStatus
 (
 false
@@ -12585,10 +12581,6 @@ nsIDOMHTMLMediaElement
 NETWORK_IDLE
 )
 ;
-AddRemoveSelfReference
-(
-)
-;
 }
 void
 HTMLMediaElement
@@ -13334,10 +13326,6 @@ NETWORK_IDLE
 )
 ;
 }
-AddRemoveSelfReference
-(
-)
-;
 ChangeDelayLoadStatus
 (
 false
@@ -13671,10 +13659,6 @@ nsIDOMHTMLMediaElement
 NETWORK_IDLE
 )
 ;
-AddRemoveSelfReference
-(
-)
-;
 }
 }
 void
@@ -13701,10 +13685,6 @@ nsIDOMHTMLMediaElement
 :
 :
 NETWORK_LOADING
-)
-;
-AddRemoveSelfReference
-(
 )
 ;
 }
@@ -14754,6 +14734,10 @@ suspend
 )
 ;
 }
+AddRemoveSelfReference
+(
+)
+;
 }
 bool
 HTMLMediaElement
