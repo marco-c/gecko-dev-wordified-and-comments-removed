@@ -1482,6 +1482,14 @@ mDemuxer
 HasValidVideo
 (
 )
+&
+&
+mDecoder
+-
+>
+GetImageContainer
+(
+)
 ;
 const
 VideoDecoderConfig
