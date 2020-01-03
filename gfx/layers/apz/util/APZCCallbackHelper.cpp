@@ -990,7 +990,7 @@ doc
 aContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
