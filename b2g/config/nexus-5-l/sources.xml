@@ -321,7 +321,7 @@ b2g
 revision
 =
 "
-52775e03a2d8532429dff579cb2cd56718e488c3
+6b0721ca0e92788df30daf8f7a5fb2863544f9c8
 "
 >
 <
@@ -633,7 +633,7 @@ host
 revision
 =
 "
-50d1ca4ab8add54523b7bc692860d57e8ee4c0d1
+ffc05a232799fe8fcb3e47b7440b52b1fb4244c0
 "
 /
 >
@@ -697,7 +697,7 @@ android
 revision
 =
 "
-fb3845864573857677f9b500040a8f011eaf5078
+337e0ef5e40f02a1ae59b90db0548976c70a7226
 "
 /
 >
@@ -757,7 +757,7 @@ eabi
 revision
 =
 "
-354496e8eddd28c743d8e02c02eeab02958367e6
+8af5ff6f5dced9eb5a8127459df6c75d24342204
 "
 /
 >
@@ -821,7 +821,7 @@ androideabi
 revision
 =
 "
-b37c91354272b7413a0dc058b7445e677921d39e
+30915518fa7ea07166efedc191a4f40aef516fe7
 "
 /
 >
@@ -888,7 +888,7 @@ glibc2
 revision
 =
 "
-a227c92e0170bcf2296a63386956946b0dd78ca7
+96eee58e3389fb05a835310d6a06a6ba4486097a
 "
 /
 >
@@ -955,7 +955,7 @@ glibc2
 revision
 =
 "
-884626610186b6dbea52cec5194b1c4bcfe1cb98
+7c8a46698171aa2e0be09edb43d15a6acf832770
 "
 /
 >
@@ -1019,7 +1019,7 @@ android
 revision
 =
 "
-29f9b82faa1af9730f52e933dca848546cbea84c
+24b2038be8a636fd4a5d21f0abae1e466b07bcf7
 "
 /
 >
@@ -1069,7 +1069,7 @@ x86
 revision
 =
 "
-0c2ee5a39ca67d5fceeeee4b55baa3e9c01f0dca
+ab14644af0429dfb6744e9709f9ef46fb7bf73e4
 "
 /
 >
@@ -1092,7 +1092,7 @@ common
 revision
 =
 "
-20de8dac0204c1a15ba305d0913749d8736455e6
+05f67c8cf7b9669da6f37f74b3388b594e319b84
 "
 /
 >
@@ -1115,7 +1115,7 @@ sample
 revision
 =
 "
-e6dc0e5648eeab3c1f7b7bccf2d277ba89cc5dd4
+298675b60a633253434c4829339534c08292dc92
 "
 /
 >
@@ -1140,7 +1140,7 @@ cpp
 revision
 =
 "
-811d1ba9b99353d3d88378fd6d944d33f935a735
+39fd88f57cec1dd6e9c70f85ab0c76587f7ba766
 "
 /
 >
@@ -1161,7 +1161,7 @@ bionic
 revision
 =
 "
-68e8555eea90ce70eabdaa8c9b2f00ddda103c4e
+7741d30da4f0f0c15e6622ca75ad396e78eab7dd
 "
 /
 >
@@ -1186,7 +1186,7 @@ recovery
 revision
 =
 "
-7ae254886b35f13b338b3c48bdc484e76329ba17
+c9ef7996198ad29e706b352cbb773a7dad5bdc5c
 "
 /
 >
@@ -1211,7 +1211,7 @@ aac
 revision
 =
 "
-c5c637158b23360310d330905e354a1dcd1220a7
+78fdf0627dd31f77fe71fde289512f749032a787
 "
 /
 >
@@ -1236,7 +1236,7 @@ bison
 revision
 =
 "
-27b034c868a896f78154132910ebf279c14a7aea
+4efa7909d921823fbfcf85f5c64ad3578803e2ee
 "
 /
 >
@@ -1265,7 +1265,7 @@ bluedroid
 revision
 =
 "
-3c0b9cd51d643e0bf6f01c6d8b07fce25e3b2778
+cdae70948d67a920e8847ad0323ff11f51dbcaf9
 "
 /
 >
@@ -1290,7 +1290,7 @@ bsdiff
 revision
 =
 "
-7f634b9ed876d9d9b9a7e58c3e671b7a01ec411d
+d7a2c5578467c3b8375943bee09c20a692d8d2a0
 "
 /
 >
@@ -1315,7 +1315,7 @@ bzip2
 revision
 =
 "
-997e320d341281512b1b1c3a1087f87328c74453
+c41fb467156106c6274c12e1279fbd5340757667
 "
 /
 >
@@ -1340,7 +1340,7 @@ checkpolicy
 revision
 =
 "
-f819e420440e14418927366148373537796173b7
+a1d60ce948816137de49ea0737d9a9d6b54adab7
 "
 /
 >
@@ -1365,7 +1365,7 @@ clang
 revision
 =
 "
-5692adcdd1dec21baf7aef57249cc9a32de05314
+6c6bfc254506351c5753de7e2fe3eab6bca40d2b
 "
 /
 >
@@ -1394,7 +1394,7 @@ rt
 revision
 =
 "
-e2565ddc676409d3cbf6b6a46c9fca6dfe953d5d
+3b8d597882284a3694b9bca7500ee9d9a4f02683
 "
 /
 >
@@ -1419,7 +1419,7 @@ dhcpcd
 revision
 =
 "
-84e2cbce82c0e7374f75771c708336fcdf1ecefa
+72519f06fc08fe450607e040544267cd0befdee3
 "
 /
 >
@@ -1444,7 +1444,7 @@ dnsmasq
 revision
 =
 "
-38895f25447b72f2749564fa4444616347d335e3
+6e8e5151469e8da0eadb894813201f5e87e7ad66
 "
 /
 >
@@ -1469,7 +1469,7 @@ e2fsprogs
 revision
 =
 "
-6bf16cd4eefe67583db6efd8ecf72571f5d8d249
+566faf84e682b1e8233ed9853c9a0a4dd8c3bc37
 "
 /
 >
@@ -1494,7 +1494,7 @@ elfutils
 revision
 =
 "
-17541cad868bfd18e6148d4fa3dc3a7d20a25732
+5084a43adc8ae0de74888842a47d33d66f3fd2ca
 "
 /
 >
@@ -1519,7 +1519,7 @@ expat
 revision
 =
 "
-f49624e0fef9915a3a8326b46e91cb4c464555e4
+47e857874d4a893bc90288f98f392448151cf741
 "
 /
 >
@@ -1573,7 +1573,7 @@ fdlibm
 revision
 =
 "
-de3b2c981c66345b51fbf0822e4058c36eecb9ac
+f24510089e8b5cb533c0406fd2e9c5a8eb1b201b
 "
 /
 >
@@ -1598,7 +1598,7 @@ flac
 revision
 =
 "
-4477379717f7b0fa20a8f0614f970c70d373cb7b
+ae2004f637dd0eb68d763f441d3ff1cf285d42b4
 "
 /
 >
@@ -1623,7 +1623,7 @@ freetype
 revision
 =
 "
-33a0a0c5b597e7b5ab2cada25ae411d9bb42ff26
+a177e10e69985dc9640b89f615e1c0b61fb4f0f4
 "
 /
 >
@@ -1652,7 +1652,7 @@ demangle
 revision
 =
 "
-2be5e099459d0deaee9f2f779870fdf003a105dc
+9d1a7f107acea987ed2440c0a310a6c42f667bd7
 "
 /
 >
@@ -1677,7 +1677,7 @@ genext2fs
 revision
 =
 "
-30158c8359ddab07867c01a472b2a0afec3bd87b
+c7e3aae061a272caa34e5a465edd9927cde42ac8
 "
 /
 >
@@ -1702,7 +1702,7 @@ giflib
 revision
 =
 "
-81d8b32f20d35036f0ffd3f8388122a449252d28
+f0f278e928db903456cbbc2dfff2a678c31a9d27
 "
 /
 >
@@ -1727,7 +1727,7 @@ gtest
 revision
 =
 "
-f86535d49037cb8ba5fc65202a9d3ad7614e4647
+5d13a30f9978eb09254ebc83ae51d6a730eec215
 "
 /
 >
@@ -1752,7 +1752,7 @@ harfbuzz_ng
 revision
 =
 "
-37dfd64c0134cb4473b2750d1a54e29abeab0290
+647fa898029679d4fac6958332c88c5f3f169439
 "
 /
 >
@@ -1777,7 +1777,7 @@ icu
 revision
 =
 "
-7a2a040f28d700f0f1538b442bef816b665214c9
+a41b209dc1f9836733c59a30e862784e8895ac7c
 "
 /
 >
@@ -1802,7 +1802,7 @@ iproute2
 revision
 =
 "
-3c143dd332acaaea50af2e9a3a0ea47cd235a807
+acf444b6a524b4bce5b7cfe81b29e2839ff6e508
 "
 /
 >
@@ -1831,7 +1831,7 @@ tools
 revision
 =
 "
-003a6d9b6f990bfbf0e4f04dfdb2084eb52f2f05
+bf460d6fcb58d7f8e95f5d3ab9ffa2e7e16c2957
 "
 /
 >
@@ -1856,7 +1856,7 @@ iptables
 revision
 =
 "
-33890e955960f8ac8f88c28beb779346b57e0c15
+11beff4f1ad782fd1d8e5c1857f2c2088abb42f6
 "
 /
 >
@@ -1881,7 +1881,7 @@ jack
 revision
 =
 "
-f416b56a51c2b47bdaa72b542973846b7b3d5cea
+cd80e83b301ac9c5a845d8d01dc73084891cd19d
 "
 /
 >
@@ -1906,7 +1906,7 @@ jemalloc
 revision
 =
 "
-2dc8e0401cea426ec2524da2dacf6070b98d9bf7
+a6a05e48b628346ec4342f8b6d1c3d0a5987236e
 "
 /
 >
@@ -1931,7 +1931,7 @@ jhead
 revision
 =
 "
-cab94ace65c4ebb0ba466e2f884078454f5e14d8
+3b6bb83af87698537d150ee004ba27720af50f54
 "
 /
 >
@@ -1956,7 +1956,7 @@ jpeg
 revision
 =
 "
-c78f0d394e6a65cdf679a5c437a4092482a42972
+b5c22f7648e1b03241abb05733aec47e2bf66462
 "
 /
 >
@@ -1981,7 +1981,7 @@ jsmn
 revision
 =
 "
-b38b4fe9a246bf36b821c542d0712d8c38699ac0
+646c4a36fd8cdb1ecd2080963bd26d9e245473c5
 "
 /
 >
@@ -2006,7 +2006,7 @@ jsoncpp
 revision
 =
 "
-d2c5c6cdb5e8315b8ad02f0f3259e67c89f82a21
+d9d8c51470b0cd2b95219c6b596ef90ae7915b8e
 "
 /
 >
@@ -2031,7 +2031,7 @@ junit
 revision
 =
 "
-ea4284c223ecedb4094af8fb1e44b8d7a453ad95
+a9d933b7f8f42007de21bc674a61d491e14b48df
 "
 /
 >
@@ -2056,7 +2056,7 @@ libcxxabi
 revision
 =
 "
-bb937c1004a8705f22422f8b96176e135471215c
+31349d4fd0a2ee4744d1cade9fa774dd2213be80
 "
 /
 >
@@ -2081,7 +2081,7 @@ libcxx
 revision
 =
 "
-4242ca3e7c035aebc9895d18c22fa3394577cbdf
+7cff60f9e680dc58c9a913eddc049946e3616265
 "
 /
 >
@@ -2106,7 +2106,7 @@ libgsm
 revision
 =
 "
-e9d878fc0e5485544e54919a32d621d4281f8cc0
+7f76ac798f682fed4662c789010050789eabee89
 "
 /
 >
@@ -2131,7 +2131,7 @@ liblzf
 revision
 =
 "
-b61d5b6275ddb9688777dda6b3196fa6b671811e
+0e6384fa203d8c7499fe64c9e93930df8e50cc99
 "
 /
 >
@@ -2160,7 +2160,7 @@ nxp
 revision
 =
 "
-84022905ba12dc0a71a38f652d4325447559ac0d
+13c47f6dfcd78c59243e997b5df30c5155949d59
 "
 /
 >
@@ -2185,7 +2185,7 @@ libnl
 revision
 =
 "
-77a22ce82e6aca58206321558e5ef283c673e8c3
+b1e000e9a7b0048a5e8335a32125b405bd77c53b
 "
 /
 >
@@ -2210,7 +2210,7 @@ libogg
 revision
 =
 "
-ce31af3deb35cfa7801907ab47dd567f7342f728
+9a2354608fdae6e105b28d4456a94146e41616c7
 "
 /
 >
@@ -2235,7 +2235,7 @@ libopus
 revision
 =
 "
-48641b8569f2e4706d0745b5392a1ea51959a7d2
+46be742257e102568f59c3ce18e322cf0b258799
 "
 /
 >
@@ -2260,7 +2260,7 @@ libpcap
 revision
 =
 "
-2e6cfa7b97a305d36c9d7305e17bff1e89430c00
+03c8b18ba58ac3347c18875779e162c75c652715
 "
 /
 >
@@ -2285,7 +2285,7 @@ libpng
 revision
 =
 "
-1ee9d65ed400cdd1865140e34ceac503c47f5697
+8eac982ec2415fbc83e5a61899e0ca7eba4fe96d
 "
 /
 >
@@ -2310,7 +2310,7 @@ libselinux
 revision
 =
 "
-5c3fe1dec7cd818dcd7af8742b7d9349359109dc
+317bc4b75ea40dfb5988c12f607505a86c6c2823
 "
 /
 >
@@ -2335,7 +2335,7 @@ libsepol
 revision
 =
 "
-ebb551cc7b2db5af523758a5bae6b4336885f274
+24b924ffd20dbf7359a9e15a10a8d1cfd6309597
 "
 /
 >
@@ -2360,7 +2360,7 @@ libunwind
 revision
 =
 "
-9a5b400cc8b62a8df95a22307b4ad9470e5699d2
+e3fa64fe20e4eaf13c2231727158bd5fac4e53ec
 "
 /
 >
@@ -2385,7 +2385,7 @@ libvpx
 revision
 =
 "
-ae97799c21f85b0b16e4c9720a45d5d10fccb552
+652843c7218cdfcd42c98a839b72941d0e4696ba
 "
 /
 >
@@ -2410,7 +2410,7 @@ llvm
 revision
 =
 "
-4c69c3c662cf672e89f827aaab6bbb2eee4d3cea
+63e3c6329893697af239dae0ddab843a3e1623a3
 "
 /
 >
@@ -2435,7 +2435,7 @@ mdnsresponder
 revision
 =
 "
-c2361f084d4d2ef3ff5f89cd2b73122f6a729612
+32a5f67c10e0b87cf95bbbaad489b8e3f098eb01
 "
 /
 >
@@ -2460,7 +2460,7 @@ mksh
 revision
 =
 "
-8b9324223df9b4e4754f9b13c1229f7e8c92fd5a
+c452c566cd6face953c9e33d01c4df652d39fdf6
 "
 /
 >
@@ -2485,7 +2485,7 @@ netcat
 revision
 =
 "
-e81a29a522fe7df9c1803478de07d050dd82a71e
+00d9d6b1aa7772c96878db17d556f29150705be8
 "
 /
 >
@@ -2510,7 +2510,7 @@ openssl
 revision
 =
 "
-49e31f1f0e48744f3113bc36dee5182186251238
+bf4112b16f0ede8128ba7ff3c17a0056834b7c75
 "
 /
 >
@@ -2535,7 +2535,7 @@ pcre
 revision
 =
 "
-24cc1690dbc0525d42184db5781954414802413d
+89b3b9780dbdd7c682b9bf2efd0f476a1ebc5d33
 "
 /
 >
@@ -2560,7 +2560,7 @@ protobuf
 revision
 =
 "
-766926b875dac06bde2b96b0c3f8d28c8647a4c4
+cdb14929d7c934944079ce070f5eb2f9459f824c
 "
 /
 >
@@ -2589,7 +2589,7 @@ iop
 revision
 =
 "
-990aa0668849d1d88c4a12f9e0039a7981cf4c7a
+33d0429591d345687755c25f23ea2e46df5cd293
 "
 /
 >
@@ -2614,7 +2614,7 @@ scrypt
 revision
 =
 "
-4593ce16971f9704e7810052567aecf803f812b0
+d809e38af0d89747cde00970271fb64d42333302
 "
 /
 >
@@ -2639,7 +2639,7 @@ sepolicy
 revision
 =
 "
-c105aabfdd2f3efe02ed8c5b51025b55e54b632d
+bb16e19f8bb7a2fe6bbd4b6e0bebf465fdd0fc30
 "
 /
 >
@@ -2664,7 +2664,7 @@ sfntly
 revision
 =
 "
-3ab9ff62deba8ec0b6de91c675cac39e0b17fbd3
+d2bab207acad60e098d0652b5ed7348c96a249f3
 "
 /
 >
@@ -2689,7 +2689,7 @@ skia
 revision
 =
 "
-72b56c79228338ddd5ec5b70bf5d42154f592705
+b0fe7c355d4d95ff89b8e9e459285fe2b98e366d
 "
 /
 >
@@ -2714,7 +2714,7 @@ sonivox
 revision
 =
 "
-425b4dd3a2994e262f7c1f0e1ed5ebe3ece41eea
+3d04f03d824d5ea8835e577785b51022820ae763
 "
 /
 >
@@ -2739,7 +2739,7 @@ speex
 revision
 =
 "
-fc41a0b3eda8aba60d213288ac845ad7610144c9
+9d73341cd881c415e6fce726ea4918654cd03145
 "
 /
 >
@@ -2764,7 +2764,7 @@ sqlite
 revision
 =
 "
-933fe9d087995054be1a90c969bb2ae538f52a0f
+2394fd03445b9496025558d4e48a54c09180e132
 "
 /
 >
@@ -2789,7 +2789,7 @@ stlport
 revision
 =
 "
-d2c2e9e77ff8af17dbd8bafb10b6882d16f877fb
+49f98215d1dea7f96f7560528bc8528570e2e05b
 "
 /
 >
@@ -2814,7 +2814,7 @@ strace
 revision
 =
 "
-13aaaead6e65b6dcb55c4d6b16588577804f0d1a
+a093fa84778892c96159ccee02dc8d6c4378a124
 "
 /
 >
@@ -2839,7 +2839,7 @@ svox
 revision
 =
 "
-04dc7d54a9f6c4a9c943cf6440ad45823fbc4e3f
+7543f63ace85c9812dfc5263d63ed190eebb7f1c
 "
 /
 >
@@ -2864,7 +2864,7 @@ tagsoup
 revision
 =
 "
-ae474049a3f8129316266bc6aac3337c9a135a29
+5ad81cc518df943dbff3a566f3db5a3aae4b3098
 "
 /
 >
@@ -2889,7 +2889,7 @@ tcpdump
 revision
 =
 "
-9f6a22df2778388d8992b6c3bbaef412b35d583b
+f28770c517d9ca78bf25779d833da2d8a3aa1c61
 "
 /
 >
@@ -2914,7 +2914,7 @@ tinyalsa
 revision
 =
 "
-c9c11a4e003f1ded33fbfde0a4bae032b0538235
+73444308ffa76f7df107c9b5c8eb657d2a212017
 "
 /
 >
@@ -2939,7 +2939,7 @@ tinycompress
 revision
 =
 "
-cfc3e36e320bcb46da2dda9f94b2852cb76c61c5
+d65aa7ba2e7548452906d3d61ee03c94cc64f25d
 "
 /
 >
@@ -2964,7 +2964,7 @@ tinyxml2
 revision
 =
 "
-cb31036a6e8213d59646dcee369e63dd4023b732
+ea87469657dd498dd76ea01b35daab9d48503a3c
 "
 /
 >
@@ -2989,7 +2989,7 @@ tinyxml
 revision
 =
 "
-c758d7fa7252c2690838b18eb92c796dd1698a8e
+d09b587fe9bd7f1524d434c15941a5483c2d7046
 "
 /
 >
@@ -3014,7 +3014,7 @@ tremolo
 revision
 =
 "
-2e50b37fd997644ebb1b769f6963977a129a0578
+7954026e4cbeeaa4bb7d7e2c82a6556ea34c58ab
 "
 /
 >
@@ -3039,7 +3039,7 @@ webp
 revision
 =
 "
-f6fc76c4baeeacfc933e75ad14e721b742c0c99b
+5df3d5cb644f301e4a0c78b939e411b061a36558
 "
 /
 >
@@ -3064,7 +3064,7 @@ webrtc
 revision
 =
 "
-701d8ae1fe80514e8be0bb8e481e309bed8baf92
+de40077759a01a02a3e21b30ea0755f2d6fc4e09
 "
 /
 >
@@ -3089,7 +3089,7 @@ yaffs2
 revision
 =
 "
-2da1900eb304796e96c1b7575163b0489fc2eb80
+b2aadfdf9482777530efac1fb13a25ff401e78ee
 "
 /
 >
@@ -3114,7 +3114,7 @@ zlib
 revision
 =
 "
-78dd4cb86e1c4e6a644c2222abe0f53e739bf868
+a9dc8ffc4b43f0ff455d52fc5a889e92794962a4
 "
 /
 >
@@ -3139,7 +3139,7 @@ zopfli
 revision
 =
 "
-139e51d6095b5f89dfdd9bc5d33b35500cd7869a
+8b994159cf3fc74a58e42fca72bc6849e6027912
 "
 /
 >
@@ -3164,7 +3164,7 @@ native
 revision
 =
 "
-a0c1c949e35a44aa9018d1b4803cb2d833c16d59
+c39bd4ee1f4b3ef92bf7a45824b77703f40a5fd4
 "
 /
 >
@@ -3193,7 +3193,7 @@ emoji
 revision
 =
 "
-4af3e0b694fa015b2fed61f4508cf01fab2f58b9
+2293192ed15b88ebe962fb5377dd197200e6472b
 "
 /
 >
@@ -3218,7 +3218,7 @@ libhardware
 revision
 =
 "
-7ed97eeed061e95b466f24693c2f0120f40e2bf5
+f5feb2aa2047fbaf13be448fe8d06bff3ccf7b84
 "
 /
 >
@@ -3243,7 +3243,7 @@ libhardware_legacy
 revision
 =
 "
-a9a2f3f3f17b4e1ab0d3b00a67b4c5250e26194f
+8d075b4d5e9e032b18fbc8b5def63827d1b4a30d
 "
 /
 >
@@ -3264,7 +3264,7 @@ libcore
 revision
 =
 "
-1a07f00d8163f497a785a3285ec55fe551ba95c1
+bdec7d684c083760bef7bc4ba2429cceccaaf7d0
 "
 /
 >
@@ -3285,7 +3285,7 @@ libnativehelper
 revision
 =
 "
-4834b58ed7af3ee69523177e00e55603ac90ed50
+27bcc086236cedd31c056303e255c6d0ea3d4a50
 "
 /
 >
@@ -3306,7 +3306,7 @@ ndk
 revision
 =
 "
-869c05cab7b4315c2bc607493db3f5b18ead2580
+42e85f81cc6c74af145056ee80b06e520cccb9a7
 "
 /
 >
@@ -3332,7 +3332,7 @@ b2g
 revision
 =
 "
-da8b660db117e2a69a7624bfdca2f02cad397f2e
+f105a2d852c988fb1aa16a1e758ca7f93dd54fe9
 "
 /
 >
@@ -3357,7 +3357,7 @@ ndk
 revision
 =
 "
-5fd638a4a0ff3677fc3c970fab038d6db1bb7665
+1d080491f26dfdfd76d5bbc3e6b40c660e8565af
 "
 /
 >
@@ -3412,7 +3412,7 @@ sdk
 revision
 =
 "
-a982f43b7f2d5916dc3a859667a8ba78e50b6202
+61a10cbd19d6b7fc052a8cb92dfa1b37b93754f3
 "
 /
 >
@@ -3437,7 +3437,7 @@ tools
 revision
 =
 "
-6e18b61ee446bdd9880c07ae84197a087490c2e5
+9e892a67a01671f312c76b0880dedaa6ba478148
 "
 /
 >
@@ -3488,7 +3488,7 @@ extras
 revision
 =
 "
-18f7c51415917eb0e21b30f220db7bd0be4130a7
+47fa016e2248b80aebd5928402c7409f8e0ca64e
 "
 /
 >
@@ -3539,7 +3539,7 @@ media
 revision
 =
 "
-adf8fbacf7395858884690df5e3ce46bc75fa683
+70bfebc66d9c6a4c614a8c7efde90e8e7e1d8641
 "
 /
 >
@@ -3564,7 +3564,7 @@ netd
 revision
 =
 "
-655392625db084a7122d65a15acf74db7f1da7f7
+d113f0ceefa9ce29eb3c86e2d23c7417a70b4048
 "
 /
 >
@@ -3589,7 +3589,7 @@ security
 revision
 =
 "
-e6b3fdd892ad994ec3fd0b8959d630e31881801b
+94e1617f6f2bc2286d005e79cffa6bf0721b06b3
 "
 /
 >
@@ -3614,7 +3614,7 @@ vold
 revision
 =
 "
-eb59d2afd5f6e1cbab2ef985a8dd1c7105b499e8
+c065e301e38ea0c241164e2a373e1ecefbeaf2ec
 "
 /
 >
@@ -3640,7 +3640,7 @@ b2g
 revision
 =
 "
-ea531874885eed7f68802048218ed86dde927f58
+e372b6a77f71c8f9fbbf6f8adbfa7bf8ef45dc60
 "
 /
 >
@@ -3666,7 +3666,7 @@ b2g
 revision
 =
 "
-df7e0cfbbc7e954ed26c73ac17832a5ff035f046
+04e26ebdc36ca83f4ee3e9e2082b3fcf04c5b971
 "
 /
 >
@@ -3692,7 +3692,7 @@ b2g
 revision
 =
 "
-73f7e7f12c8c5459f7a39e2fa343f083c942864d
+0dbf5baafadf6d233c0a29e392fa3293f0121673
 "
 /
 >
@@ -3718,7 +3718,7 @@ b2g
 revision
 =
 "
-4df51d9abf6cc9a6ec49b965e621699e0e6dc4fb
+f594bc64eacac490857748b1139ffcb34c856bbd
 "
 /
 >
@@ -3740,9 +3740,9 @@ android
 -
 5
 .
-0
+1
 .
-0_r6
+0_r1
 "
 sync
 -
@@ -3795,7 +3795,7 @@ neon
 revision
 =
 "
-ba62cc8b78c30d36181b8060a2016cc8da166236
+fe7df1bc8dd0fd71571505d7be1c31a4ad1e40fb
 "
 /
 >
@@ -3825,7 +3825,7 @@ b2g
 revision
 =
 "
-c37663f828891cf7a49451a04f3f1ce7f7e5c054
+01a78e0cd81f7a48ac12f854e094dead0deb094d
 "
 /
 >
@@ -3857,7 +3857,7 @@ b2g
 revision
 =
 "
-1268f640184df5ef759ada669f101a613451673a
+1d42cfba2e91a07b1bea1d1591b8aed4db9cb9a5
 "
 /
 >
@@ -3886,7 +3886,7 @@ nci
 revision
 =
 "
-0cb8574d338bf9f15b45ace7c08ad6deae9673ee
+5d0ae53d9588c3d70c005aec9be94af9a534de16
 "
 /
 >
@@ -3911,7 +3911,7 @@ wpa_supplicant_8
 revision
 =
 "
-16abda2258c9aa1ed78f00bb0a9b2b43b4cb919e
+c15b6e266136cd0cdd9b94d0bbed1962d9dd6672
 "
 /
 >
@@ -3940,7 +3940,7 @@ libbt
 revision
 =
 "
-3e856528121ae0af0ca26c97cb563160c7e16d85
+399fe3d3c8f38c599a56becddc456133e62a5d70
 "
 /
 >
@@ -3969,7 +3969,7 @@ wlan
 revision
 =
 "
-d9e716e14e685f4fc124ae591a1cd0899bc4d7b5
+3f3134d5cb19d5ace48d36d0100467a545d430eb
 "
 /
 >
@@ -3998,7 +3998,7 @@ audio
 revision
 =
 "
-505aa92674337b76ce7d038800f2a6d7dc340ac9
+810c3dd29d009822a71eba9910e429a9ad114533
 "
 /
 >
@@ -4026,7 +4026,7 @@ b2g
 revision
 =
 "
-c43952000d57f08b93a0e4fb77052871ce587976
+d8a56d7215bd26a61e43dcde20e64826a5fec265
 "
 /
 >
@@ -4055,7 +4055,7 @@ keymaster
 revision
 =
 "
-028649652cd8f8f18cfb47d34bd78c435eb030ca
+eaede9f8bc206736a889bc57817047c31e205589
 "
 /
 >
@@ -4084,7 +4084,7 @@ media
 revision
 =
 "
-758a80fbb178b5663d4edbb46944b2dc553cb1ca
+12364db20d6710f0003a4f00962c9790ad3c13e3
 "
 /
 >
@@ -4113,7 +4113,7 @@ msm8x74
 revision
 =
 "
-aa0124820e22302149b1f2db603a9a72f1972527
+f09920b2b488cf68bcbe9f7bbbde84a509a1d7a5
 "
 /
 >
@@ -4142,7 +4142,7 @@ power
 revision
 =
 "
-37499eb89f31233135ca73b830b067ab24dc1be2
+29e9aeaf278b16fea4cb1ab4d05b8b8c9083c15b
 "
 /
 >
@@ -4171,7 +4171,7 @@ sensors
 revision
 =
 "
-3724fd91ef5183684d97e2bf1d7ff948faabe090
+fde83fdf67e9b919f8a49008725bd595221bf33f
 "
 /
 >
@@ -4200,7 +4200,7 @@ wlan
 revision
 =
 "
-2e54754cc0529d26ccac37ed291600048adbf6c0
+6417804bea95f6e46094a01a06025a86e28c5b0d
 "
 /
 >
@@ -4225,7 +4225,7 @@ ril
 revision
 =
 "
-71dfa8228ad0d6cdf6bac0426ac59404ab74b7f3
+e00d716e7e3d31729f75399855b6921e90cb0b66
 "
 /
 >
