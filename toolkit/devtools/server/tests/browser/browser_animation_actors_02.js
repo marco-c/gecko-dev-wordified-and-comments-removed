@@ -376,6 +376,8 @@ yield
 player
 .
 ready
+(
+)
 ;
 ok
 (
