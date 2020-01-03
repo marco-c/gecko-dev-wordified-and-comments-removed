@@ -12340,6 +12340,7 @@ msg
 endif
 static
 DWORD
+WINAPI
 InitDwriteBG
 (
 LPVOID
@@ -13032,9 +13033,6 @@ CreateThread
 (
 nullptr
 0
-(
-LPTHREAD_START_ROUTINE
-)
 &
 InitDwriteBG
 nullptr
