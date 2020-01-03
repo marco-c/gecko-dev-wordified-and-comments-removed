@@ -4823,7 +4823,7 @@ aGuid
 =
 aConstraints
 .
-value
+ref
 (
 )
 ;

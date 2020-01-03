@@ -2775,12 +2775,6 @@ mAsyncPanZoomEnabled
 CSSSize
 mUnscaledInnerSize
 ;
-Maybe
-<
-ScrollableLayerGuid
->
-mLastZoomConstraintsGuid
-;
 DISALLOW_EVIL_CONSTRUCTORS
 (
 TabChild

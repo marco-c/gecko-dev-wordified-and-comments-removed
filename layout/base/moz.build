@@ -837,6 +837,11 @@ TouchManager
 .
 cpp
 '
+'
+ZoomConstraintsClient
+.
+cpp
+'
 ]
 #
 nsPresArena

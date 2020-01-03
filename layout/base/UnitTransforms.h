@@ -32,6 +32,7 @@ PixelCastJustification
 uint8_t
 {
 ScreenIsParentLayerForRoot
+LayoutDeviceIsScreenForBounds
 RenderTargetIsParentLayerForRoot
 ParentLayerToLayerForRootComposition
 MovingDownToChildren
