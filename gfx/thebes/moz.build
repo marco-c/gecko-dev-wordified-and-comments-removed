@@ -333,6 +333,11 @@ RoundedRect
 h
 '
 '
+SoftwareVsyncSource
+.
+h
+'
+'
 VsyncSource
 .
 h
@@ -1283,6 +1288,11 @@ cpp
 '
 '
 nsUnicodeRange
+.
+cpp
+'
+'
+SoftwareVsyncSource
 .
 cpp
 '

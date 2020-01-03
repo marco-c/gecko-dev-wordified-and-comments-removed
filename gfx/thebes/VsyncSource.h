@@ -1,4 +1,10 @@
 #
+ifndef
+GFX_VSYNCSOURCE_H
+#
+define
+GFX_VSYNCSOURCE_H
+#
 include
 "
 mozilla
@@ -85,6 +91,7 @@ CompositorVsyncDispatcher
 aCompositorVsyncDispatcher
 )
 ;
+virtual
 void
 NotifyVsync
 (
@@ -192,3 +199,5 @@ VsyncSource
 ;
 }
 }
+#
+endif
