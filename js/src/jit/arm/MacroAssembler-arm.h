@@ -291,6 +291,17 @@ dest
 )
 ;
 void
+convertInt32ToDouble
+(
+const
+BaseIndex
+&
+src
+FloatRegister
+dest
+)
+;
+void
 convertUInt32ToFloat32
 (
 Register
