@@ -2749,6 +2749,13 @@ java
 '
 tabs
 /
+TabsLayoutAdapter
+.
+java
+'
+'
+tabs
+/
 TabsLayoutItemView
 .
 java
