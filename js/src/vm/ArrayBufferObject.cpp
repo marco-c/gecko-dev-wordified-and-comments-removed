@@ -1663,11 +1663,15 @@ unwrapped
 =
 CheckedUnwrap
 (
-oldBuffer
+oldBufferObj
 )
 ;
 if
 (
+!
+unwrapped
+|
+|
 !
 unwrapped
 -
