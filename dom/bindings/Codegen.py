@@ -20495,7 +20495,6 @@ getInstance
 )
                                       
 proto
-global
 aObject
 aReflector
 )
@@ -20591,7 +20590,6 @@ ToJSClass
 (
 )
 proto
-global
 aObject
 aReflector
 )
