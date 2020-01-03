@@ -3314,7 +3314,6 @@ deliverListenerEvent
 notifyCFStateChanged
 "
 [
-true
 aAction
 aReason
 aNumber

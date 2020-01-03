@@ -171,8 +171,6 @@ aMessage
 ;
 NotifyCFStateChanged
 (
-bool
-aSuccess
 uint16_t
 aAction
 uint16_t
