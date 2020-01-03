@@ -450,7 +450,7 @@ aField
 i
 ]
 .
-get
+GetRawValue
 (
 )
 aName
