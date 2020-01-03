@@ -34,6 +34,12 @@ aFlags
 const
 MOZ_OVERRIDE
 ;
+bool
+IsIntraLevelWhitespace
+(
+)
+const
+;
 protected
 :
 explicit
