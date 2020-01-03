@@ -13787,7 +13787,7 @@ RestyleManager
 )
 -
 >
-PostAnimationRestyleEvent
+PostRestyleEvent
 (
 aElement
 aHint
