@@ -19435,6 +19435,12 @@ JS_ARM_SIMULATOR
 |
 defined
 (
+JS_ARM64_SIMULATOR
+)
+|
+|
+defined
+(
 JS_MIPS_SIMULATOR
 )
 void
@@ -19535,6 +19541,12 @@ if
 defined
 (
 JS_ARM_SIMULATOR
+)
+|
+|
+defined
+(
+JS_ARM64_SIMULATOR
 )
 |
 |
