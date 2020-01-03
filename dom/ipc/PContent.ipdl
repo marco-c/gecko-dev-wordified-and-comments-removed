@@ -3213,6 +3213,10 @@ uint32_t
 processType
 )
 ;
+prio
+(
+urgent
+)
 sync
 GetRandomValues
 (
