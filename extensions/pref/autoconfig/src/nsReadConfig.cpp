@@ -1095,7 +1095,7 @@ rv
 =
 NS_GetSpecialDirectory
 (
-XRE_EXECUTABLE_FILE
+NS_GRE_DIR
 getter_AddRefs
 (
 jsFile
@@ -1117,7 +1117,7 @@ rv
 jsFile
 -
 >
-SetNativeLeafName
+AppendNative
 (
 nsDependentCString
 (
