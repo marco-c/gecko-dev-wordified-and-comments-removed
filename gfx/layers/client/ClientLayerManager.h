@@ -1043,6 +1043,16 @@ mTransactionIdAllocator
 aAllocator
 ;
 }
+float
+RequestProperty
+(
+const
+nsAString
+&
+aProperty
+)
+MOZ_OVERRIDE
+;
 protected
 :
 enum

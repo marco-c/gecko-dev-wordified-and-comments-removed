@@ -980,6 +980,15 @@ mUnusedApzTransformWarning
 true
 ;
 }
+bool
+LastFrameMissedHWC
+(
+)
+{
+return
+mLastFrameMissedHWC
+;
+}
 private
 :
 nsIntRegion
@@ -1142,6 +1151,9 @@ mTextRenderer
 ;
 bool
 mGeometryChanged
+;
+bool
+mLastFrameMissedHWC
 ;
 }
 ;
