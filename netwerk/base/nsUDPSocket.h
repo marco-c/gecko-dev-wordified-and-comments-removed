@@ -52,6 +52,13 @@ nsINetworkManager
 h
 "
 #
+include
+"
+nsProxyRelease
+.
+h
+"
+#
 endif
 class
 nsUDPSocket
