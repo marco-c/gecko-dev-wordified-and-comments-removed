@@ -3422,9 +3422,16 @@ pairCount
 )
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 RegExpRunStatus_Error
 ;
+}
 size_t
 charsOffset
 =

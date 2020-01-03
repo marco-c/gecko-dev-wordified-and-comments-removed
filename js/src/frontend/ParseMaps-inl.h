@@ -75,6 +75,16 @@ Map
 (
 )
 ;
+if
+(
+!
+map_
+)
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 !
 !
