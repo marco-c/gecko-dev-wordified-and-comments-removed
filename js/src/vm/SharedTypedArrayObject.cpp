@@ -4150,6 +4150,8 @@ CreatePrototype
 \
 nullptr
 \
+nullptr
+\
 Shared
 #
 #

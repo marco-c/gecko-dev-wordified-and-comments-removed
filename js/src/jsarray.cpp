@@ -16031,6 +16031,7 @@ FinalizeKind
 >
 CreateArrayPrototype
 array_static_methods
+nullptr
 array_methods
 }
 }

@@ -15582,6 +15582,7 @@ FinalizeKind
 >
 GenericCreatePrototype
 date_static_methods
+nullptr
 date_methods
 nullptr
 FinishDateClassInit

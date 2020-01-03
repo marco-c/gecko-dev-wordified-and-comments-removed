@@ -931,6 +931,7 @@ SavedFrame
 :
 :
 staticFunctions
+nullptr
 SavedFrame
 :
 :

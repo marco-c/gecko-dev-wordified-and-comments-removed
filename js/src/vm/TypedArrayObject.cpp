@@ -4193,6 +4193,7 @@ TypedArrayObject
 :
 :
 staticFunctions
+nullptr
 TypedArrayObject
 :
 :
@@ -9685,6 +9686,8 @@ nullptr
 \
 nullptr
 \
+nullptr
+\
 _typedArray
 :
 :
@@ -10073,6 +10076,8 @@ typedArray
 :
 :
 createPrototype
+\
+nullptr
 \
 nullptr
 \

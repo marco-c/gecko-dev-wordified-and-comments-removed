@@ -1388,6 +1388,11 @@ JSFunctionSpec
 constructorFunctions
 ;
 const
+JSPropertySpec
+*
+constructorProperties
+;
+const
 JSFunctionSpec
 *
 prototypeFunctions
@@ -1551,6 +1556,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 }
 #
 define
@@ -1644,7 +1650,7 @@ void
 *
 reserved
 [
-24
+25
 ]
 ;
 }
