@@ -28,6 +28,8 @@ final
 public
 nsISubstitutingProtocolHandler
 public
+nsIProtocolHandlerWithDynamicFlags
+public
 mozilla
 :
 :
@@ -38,6 +40,7 @@ nsSupportsWeakReference
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_NSIPROTOCOLHANDLERWITHDYNAMICFLAGS
 NS_FORWARD_NSIPROTOCOLHANDLER
 (
 mozilla
@@ -67,11 +70,6 @@ moz
 -
 extension
 "
-URI_STD
-|
-URI_DANGEROUS_TO_LOAD
-|
-URI_IS_LOCAL_RESOURCE
 )
 {
 }

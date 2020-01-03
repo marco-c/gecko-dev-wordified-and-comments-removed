@@ -7580,8 +7580,9 @@ rv
 handler
 -
 >
-GetProtocolFlags
+DoGetProtocolFlags
 (
+uri
 &
 info
 -
