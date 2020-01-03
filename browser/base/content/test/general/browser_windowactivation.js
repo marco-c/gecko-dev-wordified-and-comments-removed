@@ -71,6 +71,17 @@ waitForExplicitFinish
 (
 )
 ;
+waitForFocus
+(
+reallyRunTests
+)
+;
+}
+function
+reallyRunTests
+(
+)
+{
 let
 tab1
 =

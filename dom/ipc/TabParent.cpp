@@ -3489,6 +3489,8 @@ const
 nsIntSize
 &
 size
+bool
+aParentIsActive
 )
 {
 mShown
@@ -3710,6 +3712,7 @@ scrolling
 textureFactoryIdentifier
 layersId
 renderFrame
+aParentIsActive
 )
 ;
 }

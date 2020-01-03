@@ -1063,6 +1063,8 @@ const
 nsIntSize
 &
 size
+bool
+aParentIsActive
 )
 ;
 void

@@ -1299,6 +1299,10 @@ aLayersId
 PRenderFrameChild
 *
 aRenderFrame
+const
+bool
+&
+aParentIsActive
 )
 MOZ_OVERRIDE
 ;
@@ -2256,6 +2260,15 @@ return
 mIPCOpen
 ;
 }
+bool
+ParentIsActive
+(
+)
+{
+return
+mParentIsActive
+;
+}
 protected
 :
 virtual
@@ -2751,6 +2764,9 @@ mDefaultScale
 ;
 bool
 mIPCOpen
+;
+bool
+mParentIsActive
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (

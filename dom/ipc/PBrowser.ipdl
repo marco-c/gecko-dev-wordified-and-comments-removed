@@ -2899,6 +2899,8 @@ layersId
 nullable
 PRenderFrame
 renderFrame
+bool
+parentIsActive
 )
 ;
 LoadURL

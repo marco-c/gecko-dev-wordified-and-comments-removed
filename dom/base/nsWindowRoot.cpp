@@ -185,6 +185,16 @@ mWindow
 =
 aWindow
 ;
+MOZ_ASSERT
+(
+mWindow
+-
+>
+IsOuterWindow
+(
+)
+)
+;
 }
 nsWindowRoot
 :

@@ -4308,6 +4308,10 @@ mIPCOpen
 (
 true
 )
+mParentIsActive
+(
+false
+)
 {
 if
 (
@@ -8367,6 +8371,7 @@ aScrolling
 aTextureFactoryIdentifier
 aLayersId
 aRenderFrame
+mParentIsActive
 )
 ;
 mDidFakeShow
@@ -8879,6 +8884,10 @@ aLayersId
 PRenderFrameChild
 *
 aRenderFrame
+const
+bool
+&
+aParentIsActive
 )
 {
 MOZ_ASSERT
@@ -8909,6 +8918,11 @@ mDidFakeShow
 ApplyShowInfo
 (
 aInfo
+)
+;
+RecvParentActivated
+(
+aParentIsActive
 )
 ;
 return
@@ -8996,6 +9010,11 @@ InitTabChildGlobal
 ApplyShowInfo
 (
 aInfo
+)
+;
+RecvParentActivated
+(
+aParentIsActive
 )
 ;
 return
@@ -10219,6 +10238,10 @@ bool
 aActivated
 )
 {
+mParentIsActive
+=
+aActivated
+;
 nsFocusManager
 *
 fm
