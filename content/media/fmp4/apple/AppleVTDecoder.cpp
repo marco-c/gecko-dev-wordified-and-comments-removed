@@ -2289,6 +2289,9 @@ kCFTypeDictionaryKeyCallBacks
 kCFTypeDictionaryValueCallBacks
 )
 ;
+#
+if
+0
 AutoCFRelease
 <
 CFStringRef
@@ -2311,6 +2314,8 @@ kVTVideoDecoderSpecification_EnableHardwareAcceleratedVideoDecoder
 kCFBooleanTrue
 )
 ;
+#
+endif
 VTDecompressionOutputCallbackRecord
 cb
 =
