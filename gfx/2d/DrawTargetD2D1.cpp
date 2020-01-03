@@ -167,6 +167,11 @@ MarkIndependent
 )
 ;
 }
+if
+(
+mDC
+)
+{
 mDC
 -
 >
@@ -174,6 +179,7 @@ EndDraw
 (
 )
 ;
+}
 for
 (
 auto
