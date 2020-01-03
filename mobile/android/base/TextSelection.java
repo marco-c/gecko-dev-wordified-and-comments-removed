@@ -259,11 +259,6 @@ focusHandle
 ;
 private
 final
-EventDispatcher
-eventDispatcher
-;
-private
-final
 DrawListener
 mDrawListener
 ;
@@ -356,10 +351,6 @@ TextSelectionHandle
 caretHandle
 TextSelectionHandle
 focusHandle
-EventDispatcher
-eventDispatcher
-GeckoApp
-activity
 )
 {
 this
@@ -379,12 +370,6 @@ this
 focusHandle
 =
 focusHandle
-;
-this
-.
-eventDispatcher
-=
-eventDispatcher
 ;
 mDrawListener
 =
