@@ -15546,9 +15546,6 @@ tooltiptext
 "
 showInPrivateBrowsing
 "
-"
-viewId
-"
 ]
 ;
 for
