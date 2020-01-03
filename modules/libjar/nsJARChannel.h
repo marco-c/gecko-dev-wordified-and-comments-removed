@@ -509,6 +509,9 @@ mSynthesizedResponsePump
 int64_t
 mSynthesizedStreamLength
 ;
+bool
+mForceNoIntercept
+;
 friend
 class
 mozilla
