@@ -7061,6 +7061,7 @@ nsRunnable
 {
 public
 :
+explicit
 Callback
 (
 nsICacheEntryDoomCallback

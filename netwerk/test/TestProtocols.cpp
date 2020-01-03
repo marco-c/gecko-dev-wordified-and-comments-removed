@@ -913,6 +913,7 @@ URLLoadInfo
 ;
 public
 :
+explicit
 URLLoadInfo
 (
 const
