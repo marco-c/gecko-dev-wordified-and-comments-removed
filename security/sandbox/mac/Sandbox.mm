@@ -4667,8 +4667,6 @@ security
 .
 sandbox
 .
-macos
-.
 content
 .
 level

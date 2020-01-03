@@ -10296,13 +10296,11 @@ security
 .
 sandbox
 .
-windows
-.
 content
 .
-moreStrict
+level
 "
-false
+0
 )
 ;
 #
@@ -10357,8 +10355,6 @@ pref
 security
 .
 sandbox
-.
-macos
 .
 content
 .
@@ -16312,9 +16308,6 @@ true
 ;
 #
 endif
-#
-ifndef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -16331,8 +16324,6 @@ enabled
 false
 )
 ;
-#
-endif
 pref
 (
 "

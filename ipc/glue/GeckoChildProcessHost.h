@@ -591,9 +591,6 @@ mEnableSandboxLogging
 int32_t
 mSandboxLevel
 ;
-bool
-mMoreStrictSandbox
-;
 #
 endif
 #
