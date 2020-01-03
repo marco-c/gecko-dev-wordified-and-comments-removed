@@ -1118,6 +1118,10 @@ IsEmpty
 )
 )
 ;
+mWaitingForPluginsAsyncShutdown
+=
+false
+;
 }
 while
 (
