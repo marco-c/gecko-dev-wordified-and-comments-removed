@@ -170,7 +170,7 @@ message
 put
 (
 "
-userSearch
+userRequested
 "
 "
 "
