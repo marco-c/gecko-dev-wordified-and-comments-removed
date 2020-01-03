@@ -1035,6 +1035,11 @@ UserSelect
 )
 COMPUTED_STYLE_PROP
 (
+_moz_window_dragging
+WindowDragging
+)
+COMPUTED_STYLE_PROP
+(
 _moz_window_shadow
 WindowShadow
 )

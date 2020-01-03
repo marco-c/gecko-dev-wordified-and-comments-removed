@@ -10498,6 +10498,9 @@ uint8_t
 mUserFocus
 ;
 uint8_t
+mWindowDragging
+;
+uint8_t
 mCursor
 ;
 uint32_t
