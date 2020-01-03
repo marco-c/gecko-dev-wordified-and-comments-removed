@@ -124,6 +124,9 @@ framework
 inspector
 '
 '
+projecteditor
+'
+'
 layoutview
 '
 '
@@ -134,9 +137,6 @@ netmonitor
 '
 '
 profiler
-'
-'
-projecteditor
 '
 '
 responsivedesign
@@ -164,9 +164,6 @@ styleinspector
 '
 '
 tilt
-'
-'
-timeline
 '
 '
 webaudioeditor

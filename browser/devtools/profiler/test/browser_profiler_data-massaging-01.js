@@ -1,4 +1,3 @@
-s
 const
 WAIT_TIME
 =
