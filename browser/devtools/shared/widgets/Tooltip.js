@@ -4803,6 +4803,11 @@ chromeWindow
 copyOnSelect
 :
 false
+context
+:
+"
+picker
+"
 }
 )
 ;
