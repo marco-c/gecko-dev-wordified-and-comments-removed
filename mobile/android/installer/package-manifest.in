@@ -983,6 +983,13 @@ BINPATH
 /
 components
 /
+dom_presentation
+.
+xpt
+BINPATH
+/
+components
+/
 downloads
 .
 xpt

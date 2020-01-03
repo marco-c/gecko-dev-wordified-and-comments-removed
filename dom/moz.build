@@ -585,6 +585,14 @@ DIRS
 bluetooth
 '
 ]
+DIRS
++
+=
+[
+'
+presentation
+'
+]
 TEST_DIRS
 +
 =
