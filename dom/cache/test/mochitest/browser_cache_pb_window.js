@@ -502,16 +502,6 @@ set
 [
 [
 '
-browser
-.
-privatebrowing
-.
-autostart
-'
-true
-]
-[
-'
 dom
 .
 caches
