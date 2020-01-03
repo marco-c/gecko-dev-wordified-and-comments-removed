@@ -184,11 +184,6 @@ SimpleTest
 js
 '
 '
-SpawnTask
-.
-js
-'
-'
 test
 .
 css
