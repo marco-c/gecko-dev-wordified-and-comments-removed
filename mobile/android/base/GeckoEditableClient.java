@@ -39,8 +39,6 @@ setUpdateGecko
 (
 boolean
 update
-boolean
-force
 )
 ;
 void
