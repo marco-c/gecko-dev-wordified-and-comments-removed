@@ -7586,7 +7586,7 @@ userPrefs
 [
 PREF_TEST
 ]
-undefined
+1
 )
 ;
 Assert
@@ -7730,7 +7730,7 @@ userPrefs
 [
 PREF_TEST
 ]
-1
+2
 )
 ;
 Assert
@@ -8156,7 +8156,7 @@ sessionState
 .
 profileSubsessionCounter
 +
-2
+3
 ;
 const
 expectedUUID

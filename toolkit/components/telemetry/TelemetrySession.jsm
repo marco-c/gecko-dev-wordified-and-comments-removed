@@ -9353,7 +9353,7 @@ _onEnvironmentChange
 function
 (
 reason
-oldEnvironment
+data
 )
 {
 this
@@ -9411,9 +9411,6 @@ true
 addEnvironment
 :
 true
-overrideEnvironment
-:
-oldEnvironment
 }
 ;
 TelemetryPing
