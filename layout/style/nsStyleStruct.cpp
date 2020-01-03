@@ -3004,10 +3004,6 @@ DevPixelsToAppUnits
 1
 )
 ;
-SetOutlineInitialColor
-(
-)
-;
 }
 nsStyleOutline
 :
