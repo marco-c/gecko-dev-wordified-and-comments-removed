@@ -232,6 +232,16 @@ Tabs
 <
 !
 ENTITY
+paneSearch
+.
+title
+"
+Search
+"
+>
+<
+!
+ENTITY
 paneContent
 .
 title

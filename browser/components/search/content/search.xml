@@ -2681,9 +2681,16 @@ _textbox
 .
 placeholder
 =
+this
+.
+_stringBundle
+.
+getString
+(
 "
-Search
+searchPlaceholder
 "
+)
 ;
 else
 this

@@ -671,7 +671,11 @@ paneSearch
 label
 =
 "
-Search
+&
+paneSearch
+.
+title
+;
 "
 src
 =
