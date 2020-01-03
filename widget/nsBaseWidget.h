@@ -1976,10 +1976,6 @@ nsIWidgetListener
 *
 mAttachedWidgetListener
 ;
-nsDeviceContext
-*
-mContext
-;
 nsRefPtr
 <
 LayerManager
