@@ -668,7 +668,7 @@ if
 child
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
@@ -767,7 +767,7 @@ if
 aContextElem
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

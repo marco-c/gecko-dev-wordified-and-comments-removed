@@ -4317,7 +4317,7 @@ if
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -12506,7 +12506,7 @@ if
 thisContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 |
@@ -12590,7 +12590,7 @@ if
 child
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

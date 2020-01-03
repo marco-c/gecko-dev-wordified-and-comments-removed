@@ -800,7 +800,7 @@ doc
 doc
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 )

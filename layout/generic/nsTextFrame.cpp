@@ -24380,7 +24380,7 @@ GetContent
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

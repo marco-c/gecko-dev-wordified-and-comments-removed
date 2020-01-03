@@ -1259,7 +1259,7 @@ parent
 parent
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 &

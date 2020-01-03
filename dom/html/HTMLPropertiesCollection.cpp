@@ -1139,7 +1139,7 @@ mRoot
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -1166,7 +1166,7 @@ IsElement
 (
 )
 "
-IsHTML
+IsHTMLElement
 (
 )
 returned

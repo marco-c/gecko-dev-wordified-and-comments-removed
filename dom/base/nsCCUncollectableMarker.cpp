@@ -2439,7 +2439,7 @@ doc
 doc
 -
 >
-IsXUL
+IsXULDocument
 (
 )
 )

@@ -1181,7 +1181,7 @@ aData
 mElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -1440,7 +1440,7 @@ aData
 mElement
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -1511,7 +1511,7 @@ aData
 mElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -1690,7 +1690,7 @@ mActiveRule
 element
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -1734,7 +1734,7 @@ cellpadding
 element
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

@@ -4408,7 +4408,7 @@ if
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -4444,7 +4444,7 @@ if
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -4580,7 +4580,7 @@ while
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

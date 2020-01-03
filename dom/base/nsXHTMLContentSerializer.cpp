@@ -2014,7 +2014,7 @@ if
 child
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

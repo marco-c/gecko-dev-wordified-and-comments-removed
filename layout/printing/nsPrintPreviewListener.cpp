@@ -829,7 +829,7 @@ content
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

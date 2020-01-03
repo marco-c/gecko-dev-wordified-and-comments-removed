@@ -4374,7 +4374,7 @@ if
 aChild
 -
 >
-IsXUL
+IsXULElement
 (
 )
 |

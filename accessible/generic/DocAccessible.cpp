@@ -498,7 +498,7 @@ mDocumentNode
 mDocumentNode
 -
 >
-IsXUL
+IsXULDocument
 (
 )
 )
@@ -3461,7 +3461,7 @@ GetContent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -5623,7 +5623,7 @@ AsContent
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -6241,7 +6241,7 @@ if
 aRelProviderElm
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 |
@@ -6296,7 +6296,7 @@ if
 aRelProviderElm
 -
 >
-IsXUL
+IsXULElement
 (
 )
 |

@@ -815,7 +815,7 @@ aContent
 aContent
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
@@ -853,7 +853,7 @@ if
 aContent
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -941,7 +941,7 @@ parent
 parent
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
@@ -8668,7 +8668,7 @@ GetContent
 )
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -9669,7 +9669,7 @@ NS_ASSERTION
 aContent
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
@@ -10347,7 +10347,7 @@ if
 aElement
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -16865,7 +16865,7 @@ element
 element
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

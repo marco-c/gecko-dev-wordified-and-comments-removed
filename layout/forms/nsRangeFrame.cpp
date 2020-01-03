@@ -2043,7 +2043,7 @@ MOZ_ASSERT
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -2266,7 +2266,7 @@ MOZ_ASSERT
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -3583,7 +3583,7 @@ MOZ_ASSERT
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

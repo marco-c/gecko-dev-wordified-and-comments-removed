@@ -4428,7 +4428,7 @@ if
 mRoot
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

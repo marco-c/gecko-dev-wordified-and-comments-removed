@@ -1543,7 +1543,7 @@ if
 child
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

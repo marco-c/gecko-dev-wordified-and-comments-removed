@@ -95,7 +95,7 @@ if
 aElement
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

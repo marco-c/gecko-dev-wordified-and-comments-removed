@@ -2340,7 +2340,7 @@ host
 host
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -4812,7 +4812,7 @@ content
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -6155,7 +6155,7 @@ htmlDoc
 mDocument
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 )
@@ -8215,7 +8215,7 @@ element
 element
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -8987,7 +8987,7 @@ content
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 |

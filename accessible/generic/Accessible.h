@@ -1240,7 +1240,7 @@ return
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &

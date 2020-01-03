@@ -2357,7 +2357,7 @@ row
 mContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -3845,7 +3845,7 @@ if
 aElement
 -
 >
-IsXUL
+IsXULElement
 (
 )
 |
@@ -3867,7 +3867,7 @@ GetParent
 parent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -3972,7 +3972,7 @@ if
 element
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -4656,7 +4656,7 @@ grandParent
 grandParent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -4786,7 +4786,7 @@ if
 aChild
 -
 >
-IsXUL
+IsXULElement
 (
 )
 |
@@ -4795,7 +4795,7 @@ IsXUL
 aContainer
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -4897,7 +4897,7 @@ if
 element
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -5196,7 +5196,7 @@ if
 aChild
 -
 >
-IsXUL
+IsXULElement
 (
 )
 |
@@ -5205,7 +5205,7 @@ IsXUL
 aContainer
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -5307,7 +5307,7 @@ if
 element
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -5628,7 +5628,7 @@ if
 aContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -5691,7 +5691,7 @@ if
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -5892,7 +5892,7 @@ child
 child
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -6088,7 +6088,7 @@ if
 aContainer
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -6147,7 +6147,7 @@ if
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -6253,7 +6253,7 @@ child
 child
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -6360,7 +6360,7 @@ child
 child
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -6606,7 +6606,7 @@ if
 grandParent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -6748,7 +6748,7 @@ if
 aContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

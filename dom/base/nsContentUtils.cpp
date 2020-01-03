@@ -18447,7 +18447,7 @@ isHTML
 document
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 ;
@@ -18568,7 +18568,7 @@ contextAsContent
 contextAsContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -21316,7 +21316,7 @@ if
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -21329,7 +21329,7 @@ a
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -21342,7 +21342,7 @@ area
 aContent
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
@@ -31087,7 +31087,7 @@ if
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

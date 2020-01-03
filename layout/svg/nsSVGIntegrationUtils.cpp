@@ -1657,7 +1657,7 @@ GetContent
 )
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

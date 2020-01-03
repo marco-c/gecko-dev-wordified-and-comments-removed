@@ -1232,7 +1232,7 @@ if
 element
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

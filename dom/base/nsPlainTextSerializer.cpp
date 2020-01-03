@@ -7817,7 +7817,7 @@ if
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

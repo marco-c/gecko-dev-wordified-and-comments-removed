@@ -5655,7 +5655,7 @@ GetContent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

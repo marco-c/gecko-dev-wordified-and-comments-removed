@@ -2009,7 +2009,7 @@ if
 aContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

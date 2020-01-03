@@ -962,7 +962,7 @@ if
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

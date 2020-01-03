@@ -6415,7 +6415,7 @@ if
 docShellElement
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

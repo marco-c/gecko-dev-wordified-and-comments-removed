@@ -1933,7 +1933,7 @@ content
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -2615,7 +2615,7 @@ content
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -3242,7 +3242,7 @@ content
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -3531,7 +3531,7 @@ content
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -3725,7 +3725,7 @@ content
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

@@ -10695,7 +10695,7 @@ content
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -15623,7 +15623,7 @@ if
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -16287,7 +16287,7 @@ GetContent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -19393,7 +19393,7 @@ GetContent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

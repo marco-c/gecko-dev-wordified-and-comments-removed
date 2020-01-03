@@ -2773,7 +2773,7 @@ if
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

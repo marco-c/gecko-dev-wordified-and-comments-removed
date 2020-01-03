@@ -2375,7 +2375,7 @@ if
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 &
@@ -3355,7 +3355,7 @@ GetContent
 )
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -3491,7 +3491,7 @@ if
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 &
@@ -3526,7 +3526,7 @@ if
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -4481,7 +4481,7 @@ if
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 &
@@ -4545,7 +4545,7 @@ MOZ_ASSERT
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 "
@@ -5365,7 +5365,7 @@ if
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -5786,7 +5786,7 @@ MOZ_ASSERT
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 "
@@ -8282,7 +8282,7 @@ GetContent
 )
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -8406,7 +8406,7 @@ if
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

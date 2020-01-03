@@ -3509,7 +3509,7 @@ if
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -3948,7 +3948,7 @@ content
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -5244,7 +5244,7 @@ content
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 ;
@@ -8047,7 +8047,7 @@ GetContent
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -9004,7 +9004,7 @@ content
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -10245,7 +10245,7 @@ GetContent
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -13583,7 +13583,7 @@ GetContent
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -13753,7 +13753,7 @@ if
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -16496,7 +16496,7 @@ GetContent
 )
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &

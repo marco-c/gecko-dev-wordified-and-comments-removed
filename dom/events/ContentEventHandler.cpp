@@ -916,7 +916,7 @@ return
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -7688,7 +7688,7 @@ brContent
 brContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

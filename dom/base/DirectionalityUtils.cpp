@@ -137,7 +137,7 @@ return
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 |
@@ -203,7 +203,7 @@ return
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -3122,7 +3122,7 @@ if
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -3301,7 +3301,7 @@ aElement
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

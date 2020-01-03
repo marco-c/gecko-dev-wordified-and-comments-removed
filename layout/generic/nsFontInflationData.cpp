@@ -1515,7 +1515,7 @@ GetContent
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

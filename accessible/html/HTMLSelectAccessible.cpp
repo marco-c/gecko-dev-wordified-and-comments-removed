@@ -461,7 +461,7 @@ if
 childContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

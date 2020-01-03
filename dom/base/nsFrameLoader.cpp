@@ -976,7 +976,7 @@ isSrcdoc
 mOwnerContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -1049,7 +1049,7 @@ if
 mOwnerContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -1769,7 +1769,7 @@ isSrcdoc
 mOwnerContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -3927,16 +3927,6 @@ NS_FRAME_FIRST_REFLOW
 )
 )
 {
-nsIntPoint
-chromeDisp
-=
-aFrame
--
->
-GetChromeDisplacement
-(
-)
-;
 mRemoteBrowser
 -
 >
@@ -3944,7 +3934,6 @@ UpdateDimensions
 (
 dimensions
 size
-chromeDisp
 )
 ;
 }
@@ -7697,7 +7686,7 @@ mIsTopLevelContent
 mOwnerContent
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -8851,16 +8840,6 @@ dimensions
 NS_ERROR_FAILURE
 )
 ;
-nsIntPoint
-chromeDisp
-=
-aIFrame
--
->
-GetChromeDisplacement
-(
-)
-;
 mRemoteBrowser
 -
 >
@@ -8868,7 +8847,6 @@ UpdateDimensions
 (
 dimensions
 size
-chromeDisp
 )
 ;
 }
@@ -9528,7 +9506,7 @@ if
 mOwnerContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -10894,7 +10872,7 @@ mRemoteFrame
 mOwnerContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -10992,7 +10970,7 @@ if
 mOwnerContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &

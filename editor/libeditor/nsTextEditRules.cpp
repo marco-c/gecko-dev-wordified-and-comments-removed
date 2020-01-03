@@ -4572,7 +4572,7 @@ if
 lastChild
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

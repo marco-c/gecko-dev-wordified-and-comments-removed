@@ -4673,7 +4673,7 @@ imageFrame
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -4732,7 +4732,7 @@ imageFrame
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 |
@@ -4895,7 +4895,7 @@ isHTML
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 ;
@@ -5404,7 +5404,7 @@ newAcc
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -5556,7 +5556,7 @@ if
 content
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -5627,7 +5627,7 @@ if
 content
 -
 >
-IsMathML
+IsMathMLElement
 (
 )
 )
@@ -6700,7 +6700,7 @@ if
 child
 -
 >
-IsXUL
+IsXULElement
 (
 nsGkAtoms
 :
@@ -6916,7 +6916,7 @@ parent
 parent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &

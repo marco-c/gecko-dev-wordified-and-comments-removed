@@ -2267,7 +2267,7 @@ a
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

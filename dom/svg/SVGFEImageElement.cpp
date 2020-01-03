@@ -1418,7 +1418,7 @@ GetParent
 )
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

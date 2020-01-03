@@ -3217,7 +3217,7 @@ isHtml
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 ;
@@ -3227,7 +3227,7 @@ isXul
 aContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 ;
@@ -3237,7 +3237,7 @@ isSvg
 aContent
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 ;

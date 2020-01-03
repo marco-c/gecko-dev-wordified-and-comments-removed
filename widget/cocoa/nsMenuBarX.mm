@@ -871,7 +871,7 @@ menu
 menuContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

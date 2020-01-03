@@ -273,7 +273,7 @@ GetParent
 parent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -481,7 +481,7 @@ if
 child
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

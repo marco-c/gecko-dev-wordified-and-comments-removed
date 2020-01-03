@@ -559,7 +559,7 @@ doc
 doc
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 )
@@ -618,7 +618,7 @@ doc
 doc
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 )

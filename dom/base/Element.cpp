@@ -987,7 +987,7 @@ classes
 ;
 if
 (
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -1902,12 +1902,12 @@ bool
 isXULorPluginElement
 =
 (
-IsXUL
+IsXULElement
 (
 )
 |
 |
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -1916,7 +1916,7 @@ object
 )
 |
 |
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -1925,7 +1925,7 @@ embed
 )
 |
 |
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -2608,7 +2608,7 @@ aFlushLayout
 {
 if
 (
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -3901,7 +3901,7 @@ ScrollHeight
 {
 if
 (
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -3979,7 +3979,7 @@ ScrollWidth
 {
 if
 (
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -4388,7 +4388,7 @@ IsInAnonymousSubtree
 doc
 -
 >
-IsXUL
+IsXULDocument
 (
 )
 )
@@ -4489,7 +4489,7 @@ IsInAnonymousSubtree
 doc
 -
 >
-IsXUL
+IsXULDocument
 (
 )
 )
@@ -5200,7 +5200,7 @@ mAttrsAndChildren
 GetAttr
 (
 aName
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -5232,7 +5232,7 @@ else
 {
 if
 (
-IsXUL
+IsXULElement
 (
 )
 )
@@ -5315,7 +5315,7 @@ nameAtom
 ;
 if
 (
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -7021,7 +7021,7 @@ inStyleScope
 }
 if
 (
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -7221,7 +7221,7 @@ MayHaveStyle
 &
 &
 !
-IsXUL
+IsXULElement
 (
 )
 )
@@ -7909,7 +7909,7 @@ nullptr
 }
 if
 (
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -9863,7 +9863,7 @@ HasValidDir
 )
 |
 |
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -10981,7 +10981,7 @@ HasValidDir
 )
 |
 |
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -14630,7 +14630,7 @@ OwnerDoc
 )
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 )
@@ -15158,7 +15158,7 @@ if
 doc
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 &

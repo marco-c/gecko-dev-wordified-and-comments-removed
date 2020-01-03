@@ -7694,7 +7694,7 @@ if
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

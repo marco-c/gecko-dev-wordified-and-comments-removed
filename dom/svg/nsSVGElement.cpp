@@ -6736,7 +6736,7 @@ ancestor
 ancestor
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

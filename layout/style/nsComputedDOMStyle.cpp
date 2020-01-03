@@ -1444,7 +1444,7 @@ eAll
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -2157,7 +2157,7 @@ eAll
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

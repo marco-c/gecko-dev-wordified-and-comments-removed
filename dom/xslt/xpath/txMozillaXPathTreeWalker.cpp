@@ -1930,7 +1930,7 @@ Content
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

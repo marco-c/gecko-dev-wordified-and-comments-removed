@@ -955,7 +955,7 @@ select
 baseElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -8148,7 +8148,7 @@ select
 baseElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -19992,7 +19992,7 @@ select
 content
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

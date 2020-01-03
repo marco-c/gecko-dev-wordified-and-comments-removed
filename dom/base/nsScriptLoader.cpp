@@ -803,7 +803,7 @@ if
 aScriptElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -2572,7 +2572,7 @@ if
 scriptContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

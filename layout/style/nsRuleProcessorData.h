@@ -1241,7 +1241,7 @@ mIsHTMLDocument
 aDocument
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 )

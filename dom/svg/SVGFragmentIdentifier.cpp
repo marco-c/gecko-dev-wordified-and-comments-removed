@@ -155,7 +155,7 @@ element
 element
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
@@ -1294,7 +1294,7 @@ GetRootElement
 )
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

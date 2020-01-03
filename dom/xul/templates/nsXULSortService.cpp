@@ -320,7 +320,7 @@ if
 child
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )

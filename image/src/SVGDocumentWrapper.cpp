@@ -1694,7 +1694,7 @@ rootElem
 rootElem
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

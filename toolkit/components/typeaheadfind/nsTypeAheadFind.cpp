@@ -3752,7 +3752,7 @@ if
 startContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )

@@ -254,7 +254,7 @@ if
 root
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -329,7 +329,7 @@ IsElement
 aKid
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )

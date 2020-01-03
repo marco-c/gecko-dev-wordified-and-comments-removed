@@ -4547,7 +4547,7 @@ if
 containingElement
 -
 >
-IsXUL
+IsXULElement
 (
 )
 |

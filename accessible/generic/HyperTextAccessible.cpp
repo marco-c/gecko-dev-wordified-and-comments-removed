@@ -1481,7 +1481,7 @@ findContent
 findContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &
@@ -8363,7 +8363,7 @@ if
 mContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

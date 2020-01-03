@@ -886,7 +886,7 @@ if
 target
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -898,7 +898,7 @@ a
 target
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

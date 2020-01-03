@@ -246,7 +246,7 @@ if
 content
 -
 >
-IsXUL
+IsXULElement
 (
 )
 |

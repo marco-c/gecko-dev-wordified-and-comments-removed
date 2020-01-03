@@ -6215,7 +6215,7 @@ if
 currentAncestor
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

@@ -2121,7 +2121,7 @@ alt
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -2134,7 +2134,7 @@ object
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

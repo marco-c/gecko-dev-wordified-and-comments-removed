@@ -3434,7 +3434,7 @@ OwnerDoc
 )
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 |
@@ -24044,7 +24044,7 @@ nullptr
 bool
 needsLowercase
 =
-IsHTML
+IsHTMLDocument
 (
 )
 &
@@ -24968,7 +24968,7 @@ rv
 {
 if
 (
-IsHTML
+IsHTMLDocument
 (
 )
 )
@@ -27011,7 +27011,7 @@ lcName
 ;
 if
 (
-IsHTML
+IsHTMLDocument
 (
 )
 )
@@ -30713,7 +30713,7 @@ rootElement
 rootElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -30786,7 +30786,7 @@ if
 child
 -
 >
-IsHTML
+IsHTMLElement
 (
 aTag
 )
@@ -31548,7 +31548,7 @@ mHasWarnedAboutBoxObjects
 aElement
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -35896,7 +35896,7 @@ if
 (
 (
 !
-IsHTML
+IsHTMLDocument
 (
 )
 |
@@ -36600,7 +36600,7 @@ ifdef
 DEBUG
 if
 (
-IsHTML
+IsHTMLDocument
 (
 )
 )
@@ -36672,7 +36672,7 @@ aName
 ;
 if
 (
-IsHTML
+IsHTMLDocument
 (
 )
 )
@@ -36711,7 +36711,7 @@ aName
 ;
 if
 (
-IsHTML
+IsHTMLDocument
 (
 )
 )
@@ -36993,7 +36993,7 @@ index
 )
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

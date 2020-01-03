@@ -2266,7 +2266,7 @@ if
 grandparent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
@@ -2408,7 +2408,7 @@ if
 greatgrandparent
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :

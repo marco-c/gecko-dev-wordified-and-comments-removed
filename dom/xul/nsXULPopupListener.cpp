@@ -683,7 +683,7 @@ browser
 targetContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &

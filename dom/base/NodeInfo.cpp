@@ -399,7 +399,7 @@ GetDocument
 )
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 )

@@ -3774,7 +3774,7 @@ xulDoc
 aContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -3838,7 +3838,7 @@ if
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -3892,7 +3892,7 @@ if
 aContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -5076,7 +5076,7 @@ iframe
 target
 -
 >
-IsXUL
+IsXULElement
 (
 )
 &
@@ -5957,7 +5957,7 @@ if
 mGestureDownContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -6063,7 +6063,7 @@ if
 mGestureDownContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -11360,20 +11360,7 @@ if
 aNode
 -
 >
-IsElement
-(
-)
-&
-&
-aNode
--
->
-AsElement
-(
-)
--
->
-IsXUL
+IsXULElement
 (
 )
 )
@@ -12337,7 +12324,7 @@ activeContent
 activeContent
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -20145,7 +20132,7 @@ if
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 &

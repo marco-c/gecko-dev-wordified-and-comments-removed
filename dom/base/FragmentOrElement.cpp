@@ -1598,7 +1598,7 @@ if
 elem
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -6098,7 +6098,7 @@ if
 tmp
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 |
@@ -6106,7 +6106,7 @@ IsHTML
 tmp
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -6308,7 +6308,7 @@ Unlink
 tmp
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -8737,7 +8737,7 @@ if
 tmp
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 |
@@ -8745,7 +8745,7 @@ IsHTML
 tmp
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 )
@@ -8985,7 +8985,7 @@ cb
 tmp
 -
 >
-IsXUL
+IsXULElement
 (
 )
 )
@@ -11299,7 +11299,7 @@ if
 aContent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 |
@@ -11307,7 +11307,7 @@ IsHTML
 aContent
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 |
@@ -11315,7 +11315,7 @@ IsSVG
 aContent
 -
 >
-IsMathML
+IsMathMLElement
 (
 )
 )
@@ -11709,7 +11709,7 @@ aParent
 aParent
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -12097,7 +12097,7 @@ if
 aElement
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 )
@@ -12553,7 +12553,7 @@ if
 elem
 -
 >
-IsHTML
+IsHTMLElement
 (
 )
 |
@@ -12561,7 +12561,7 @@ IsHTML
 elem
 -
 >
-IsSVG
+IsSVGElement
 (
 )
 |
@@ -12569,7 +12569,7 @@ IsSVG
 elem
 -
 >
-IsMathML
+IsMathMLElement
 (
 )
 )
@@ -13425,7 +13425,7 @@ if
 doc
 -
 >
-IsHTML
+IsHTMLDocument
 (
 )
 )

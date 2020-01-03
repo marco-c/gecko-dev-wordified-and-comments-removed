@@ -680,7 +680,7 @@ genericTarget
 genericTarget
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :
@@ -895,7 +895,7 @@ aParent
 aParent
 -
 >
-IsSVG
+IsSVGElement
 (
 nsGkAtoms
 :

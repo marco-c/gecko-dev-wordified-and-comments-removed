@@ -3332,7 +3332,7 @@ if
 element
 -
 >
-IsHTML
+IsHTMLElement
 (
 nsGkAtoms
 :
