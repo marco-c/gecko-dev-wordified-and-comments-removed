@@ -157,6 +157,9 @@ MultiTouchInput
 mTouchMoveEvents
 ;
 bool
+mHavePendingTouchMoves
+;
+bool
 mResamplingEnabled
 ;
 bool
