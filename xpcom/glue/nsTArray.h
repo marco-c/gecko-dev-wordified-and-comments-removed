@@ -34,6 +34,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 BinarySearch
 .
 h
@@ -2466,6 +2475,7 @@ class
 E
 >
 struct
+MOZ_NEEDS_MEMMOVABLE_TYPE
 nsTArray_CopyChooser
 {
 typedef
