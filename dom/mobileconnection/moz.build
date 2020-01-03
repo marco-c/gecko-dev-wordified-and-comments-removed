@@ -192,6 +192,13 @@ idl
 '
 interfaces
 /
+nsIMobileCallForwardingOptions
+.
+idl
+'
+'
+interfaces
+/
 nsIMobileCellInfo
 .
 idl
