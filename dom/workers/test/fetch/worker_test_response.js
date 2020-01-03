@@ -2066,10 +2066,6 @@ testDefaultCtor
 (
 )
 ;
-testClone
-(
-)
-;
 testRedirect
 (
 )
@@ -2101,6 +2097,11 @@ testBodyUsed
 then
 (
 testBodyExtraction
+)
+.
+then
+(
+testClone
 )
 .
 then
