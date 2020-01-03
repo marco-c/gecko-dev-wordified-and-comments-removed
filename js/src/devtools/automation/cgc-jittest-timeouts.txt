@@ -55,6 +55,11 @@ testBug686274
 js
 basic
 /
+testManyVars
+.
+js
+basic
+/
 testTypedArrayInit
 .
 js
