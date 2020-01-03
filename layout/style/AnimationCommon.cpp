@@ -835,6 +835,11 @@ return
 collection
 ;
 }
+NS_IMPL_ISUPPORTS
+(
+CommonAnimationManager
+nsIStyleRuleProcessor
+)
 nsRestyleHint
 CommonAnimationManager
 :

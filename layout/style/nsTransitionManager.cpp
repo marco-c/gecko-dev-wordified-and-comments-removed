@@ -851,11 +851,6 @@ TransitionProperty
 )
 ;
 }
-NS_IMPL_ISUPPORTS
-(
-nsTransitionManager
-nsIStyleRuleProcessor
-)
 void
 nsTransitionManager
 :
