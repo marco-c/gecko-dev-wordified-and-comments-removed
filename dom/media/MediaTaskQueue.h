@@ -164,6 +164,10 @@ DispatchFailureHandling
 aFailureHandling
 =
 AssertDispatchSuccess
+DispatchReason
+aReason
+=
+NormalDispatch
 )
 override
 {
@@ -183,6 +187,7 @@ Move
 aRunnable
 )
 AbortIfFlushing
+aReason
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -292,6 +297,10 @@ nsIRunnable
 aRunnable
 DispatchMode
 aMode
+DispatchReason
+aReason
+=
+NormalDispatch
 )
 ;
 RefPtr
@@ -338,6 +347,10 @@ MediaTaskQueue
 aQueue
 )
 :
+AutoTaskDispatcher
+(
+true
+)
 mQueue
 (
 aQueue
