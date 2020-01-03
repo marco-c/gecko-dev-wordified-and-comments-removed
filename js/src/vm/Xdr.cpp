@@ -640,9 +640,6 @@ void
 data
 uint32_t
 length
-JSPrincipals
-*
-originPrincipals
 )
 :
 XDRState
@@ -660,13 +657,6 @@ setData
 data
 length
 )
-;
-this
--
->
-originPrincipals_
-=
-originPrincipals
 ;
 }
 template

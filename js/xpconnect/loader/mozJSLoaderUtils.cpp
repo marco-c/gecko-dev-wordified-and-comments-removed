@@ -128,7 +128,6 @@ JS_DecodeScript
 cx
 buf
 len
-nullptr
 )
 )
 ;

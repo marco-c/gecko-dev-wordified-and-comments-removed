@@ -20210,9 +20210,6 @@ void
 data
 uint32_t
 length
-JSPrincipals
-*
-originPrincipals
 )
 ;
 extern
@@ -20232,9 +20229,6 @@ void
 data
 uint32_t
 length
-JSPrincipals
-*
-originPrincipals
 )
 ;
 namespace

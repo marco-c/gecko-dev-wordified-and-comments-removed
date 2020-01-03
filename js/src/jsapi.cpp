@@ -32716,9 +32716,6 @@ void
 data
 uint32_t
 length
-JSPrincipals
-*
-originPrincipals
 )
 {
 XDRDecoder
@@ -32727,7 +32724,6 @@ decoder
 cx
 data
 length
-originPrincipals
 )
 ;
 RootedScript
@@ -32770,9 +32766,6 @@ void
 data
 uint32_t
 length
-JSPrincipals
-*
-originPrincipals
 )
 {
 XDRDecoder
@@ -32781,7 +32774,6 @@ decoder
 cx
 data
 length
-originPrincipals
 )
 ;
 RootedObject

@@ -6545,12 +6545,6 @@ JS_DecodeScript
 cx
 loadBuffer
 loadLength
-options
-.
-originPrincipals
-(
-cx
-)
 )
 ;
 }
