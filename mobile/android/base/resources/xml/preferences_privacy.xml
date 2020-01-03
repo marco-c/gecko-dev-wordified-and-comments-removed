@@ -535,6 +535,17 @@ Gecko
 PreferenceCategory
 android
 :
+key
+=
+"
+android
+.
+not_a_preference
+.
+category_private_data
+"
+android
+:
 title
 =
 "
