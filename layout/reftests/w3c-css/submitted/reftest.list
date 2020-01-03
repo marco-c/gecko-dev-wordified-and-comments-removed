@@ -99,16 +99,6 @@ reftest
 .
 list
 #
-Filter
-Effects
-Module
-include
-filters
-/
-reftest
-.
-list
-#
 Flexible
 Box
 Layout
@@ -240,6 +230,7 @@ reftest
 list
 #
 Transforms
+#
 include
 transforms
 /
