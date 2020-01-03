@@ -865,6 +865,11 @@ id
 "
 defaultFont
 "
+delayprefsave
+=
+"
+true
+"
 /
 >
 <
@@ -904,6 +909,11 @@ id
 =
 "
 defaultFontSize
+"
+delayprefsave
+=
+"
+true
 "
 >
 <
