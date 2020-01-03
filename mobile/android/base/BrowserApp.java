@@ -11735,6 +11735,15 @@ encode
 keywordSearch
 )
 )
+.
+replace
+(
+"
+%
+S
+"
+keywordSearch
+)
 ;
 Tabs
 .
