@@ -819,6 +819,11 @@ MoveTempToTarget
 (
 )
 ;
+nsresult
+FixTargetPermissions
+(
+)
+;
 void
 SetStartTime
 (
