@@ -2936,7 +2936,7 @@ false
 ;
 EnsureTimerStarted
 (
-false
+eAllowTimeToGoBackwards
 )
 ;
 mCompletedTransaction
@@ -2965,7 +2965,6 @@ this
 >
 EnsureTimerStarted
 (
-false
 )
 ;
 return
@@ -2993,7 +2992,6 @@ this
 >
 EnsureTimerStarted
 (
-false
 )
 ;
 return
@@ -3037,7 +3035,6 @@ nullptr
 ;
 EnsureTimerStarted
 (
-false
 )
 ;
 return
@@ -3204,7 +3201,6 @@ aRequest
 }
 EnsureTimerStarted
 (
-false
 )
 ;
 return
@@ -3280,8 +3276,8 @@ nsRefreshDriver
 :
 EnsureTimerStarted
 (
-bool
-aAdjustingTimer
+EnsureTimerStartedFlags
+aFlags
 )
 {
 if
@@ -3296,7 +3292,11 @@ mActiveTimer
 &
 &
 !
-aAdjustingTimer
+(
+aFlags
+&
+eAdjustingTimer
+)
 )
 return
 ;
@@ -3427,6 +3427,17 @@ this
 }
 mMostRecentRefresh
 =
+aFlags
+&
+eAllowTimeToGoBackwards
+?
+mActiveTimer
+-
+>
+MostRecentRefresh
+(
+)
+:
 std
 :
 :
@@ -3443,6 +3454,17 @@ mMostRecentRefresh
 ;
 mMostRecentRefreshEpochTime
 =
+aFlags
+&
+eAllowTimeToGoBackwards
+?
+mActiveTimer
+-
+>
+MostRecentRefreshEpochTime
+(
+)
+:
 std
 :
 :
@@ -6396,7 +6418,6 @@ DoRefresh
 ;
 EnsureTimerStarted
 (
-false
 )
 ;
 }
@@ -6891,7 +6912,7 @@ mActiveTimer
 {
 EnsureTimerStarted
 (
-true
+eAdjustingTimer
 )
 ;
 }
@@ -6996,7 +7017,6 @@ true
 ;
 EnsureTimerStarted
 (
-false
 )
 ;
 }
@@ -7050,7 +7070,6 @@ ConfigureHighPrecision
 ;
 EnsureTimerStarted
 (
-false
 )
 ;
 }
