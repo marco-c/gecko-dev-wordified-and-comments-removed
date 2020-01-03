@@ -65,15 +65,6 @@ XULTreeBuilder
 )
 #
 endif
-#
-ifdef
-MOZ_XUL
-DOMCI_CLASS
-(
-TreeColumn
-)
-#
-endif
 DOMCI_CLASS
 (
 CSSMozDocumentRule

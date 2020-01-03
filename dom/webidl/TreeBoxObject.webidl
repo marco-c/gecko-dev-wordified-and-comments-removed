@@ -95,9 +95,6 @@ interface
 MozTreeView
 ;
 interface
-MozTreeColumn
-;
-interface
 nsIScriptableRegion
 ;
 dictionary
@@ -108,7 +105,7 @@ row
 =
 0
 ;
-MozTreeColumn
+TreeColumn
 ?
 col
 =
@@ -419,7 +416,7 @@ ensureCellIsVisible
 (
 long
 row
-MozTreeColumn
+TreeColumn
 ?
 col
 )
@@ -585,7 +582,7 @@ scrollToCell
 (
 long
 row
-MozTreeColumn
+TreeColumn
 ?
 col
 )
@@ -619,7 +616,7 @@ possible
 void
 scrollToColumn
 (
-MozTreeColumn
+TreeColumn
 ?
 col
 )
@@ -668,7 +665,7 @@ invalidate
 void
 invalidateColumn
 (
-MozTreeColumn
+TreeColumn
 ?
 col
 )
@@ -685,7 +682,7 @@ invalidateCell
 (
 long
 row
-MozTreeColumn
+TreeColumn
 ?
 col
 )
@@ -706,7 +703,7 @@ long
 startIndex
 long
 endIndex
-MozTreeColumn
+TreeColumn
 ?
 col
 )
@@ -942,7 +939,7 @@ getCoordsForCellItem
 (
 long
 row
-MozTreeColumn
+TreeColumn
 col
 DOMString
 element
@@ -968,7 +965,7 @@ getCoordsForCellItem
 (
 long
 row
-MozTreeColumn
+TreeColumn
 col
 DOMString
 element
@@ -1009,7 +1006,7 @@ isCellCropped
 (
 long
 row
-MozTreeColumn
+TreeColumn
 ?
 col
 )

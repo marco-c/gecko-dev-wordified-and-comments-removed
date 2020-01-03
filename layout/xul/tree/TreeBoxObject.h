@@ -33,6 +33,9 @@ class
 nsTreeBodyFrame
 ;
 class
+nsTreeColumn
+;
+class
 nsTreeColumns
 ;
 namespace
@@ -224,8 +227,8 @@ GetCoordsForCellItem
 (
 int32_t
 row
-nsITreeColumn
-*
+nsTreeColumn
+&
 col
 const
 nsAString
@@ -299,8 +302,8 @@ JSContext
 cx
 int32_t
 row
-nsITreeColumn
-*
+nsTreeColumn
+&
 col
 const
 nsAString

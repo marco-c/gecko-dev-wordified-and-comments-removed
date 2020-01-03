@@ -138,6 +138,11 @@ nsTreeColFrame
 h
 '
 '
+nsTreeColumns
+.
+h
+'
+'
 nsTreeUtils
 .
 h

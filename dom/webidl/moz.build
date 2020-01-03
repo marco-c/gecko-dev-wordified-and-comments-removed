@@ -2540,6 +2540,11 @@ TreeBoxObject
 webidl
 '
 '
+TreeColumn
+.
+webidl
+'
+'
 TreeColumns
 .
 webidl
