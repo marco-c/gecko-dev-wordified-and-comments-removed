@@ -6974,6 +6974,15 @@ containerWidth
 childStatus
 )
 ;
+childRS
+.
+ApplyRelativePositioning
+(
+&
+childPos
+containerWidth
+)
+;
 FinishReflowChild
 (
 child
