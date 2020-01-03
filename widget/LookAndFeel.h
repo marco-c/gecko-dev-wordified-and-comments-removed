@@ -222,8 +222,6 @@ eIntID_PhysicalHomeButton
 eIntID_ScrollbarDisplayOnMouseMove
 eIntID_ScrollbarFadeBeginDelay
 eIntID_ScrollbarFadeDuration
-eIntID_ContextMenuOffsetVertical
-eIntID_ContextMenuOffsetHorizontal
 }
 ;
 enum
