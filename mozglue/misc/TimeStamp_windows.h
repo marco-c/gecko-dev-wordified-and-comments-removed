@@ -4,6 +4,15 @@ mozilla_TimeStamp_windows_h
 #
 define
 mozilla_TimeStamp_windows_h
+#
+include
+"
+mozilla
+/
+Types
+.
+h
+"
 namespace
 mozilla
 {
@@ -50,6 +59,7 @@ mHasQPC
 bool
 mIsNull
 ;
+MFBT_API
 TimeStampValue
 (
 uint64_t
@@ -60,6 +70,7 @@ bool
 aHasQPC
 )
 ;
+MFBT_API
 uint64_t
 CheckQPC
 (
@@ -101,6 +112,7 @@ true
 }
 public
 :
+MFBT_API
 uint64_t
 operator
 -
@@ -158,6 +170,7 @@ mHasQPC
 )
 ;
 }
+MFBT_API
 TimeStampValue
 &
 operator
@@ -169,6 +182,7 @@ int64_t
 aOther
 )
 ;
+MFBT_API
 TimeStampValue
 &
 operator

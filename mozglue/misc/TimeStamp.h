@@ -50,14 +50,9 @@ h
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
-nsDebug
+mozilla
+/
+Types
 .
 h
 "
@@ -106,6 +101,7 @@ BaseTimeDurationPlatformUtils
 public
 :
 static
+MFBT_API
 double
 ToSeconds
 (
@@ -114,6 +110,7 @@ aTicks
 )
 ;
 static
+MFBT_API
 double
 ToSecondsSigDigits
 (
@@ -122,6 +119,7 @@ aTicks
 )
 ;
 static
+MFBT_API
 int64_t
 TicksFromMilliseconds
 (
@@ -130,6 +128,7 @@ aMilliseconds
 )
 ;
 static
+MFBT_API
 int64_t
 ResolutionInTicks
 (
@@ -796,21 +795,6 @@ aMultiplier
 INT64_MAX
 )
 {
-NS_WARNING
-(
-"
-Out
--
-of
--
-range
-multiplier
-when
-multiplying
-BaseTimeDuration
-"
-)
-;
 return
 Forever
 (
@@ -1521,6 +1505,7 @@ mValue
 ;
 }
 static
+MFBT_API
 TimeStamp
 Now
 (
@@ -1534,6 +1519,7 @@ true
 ;
 }
 static
+MFBT_API
 TimeStamp
 NowLoRes
 (
@@ -1547,6 +1533,7 @@ false
 ;
 }
 static
+MFBT_API
 TimeStamp
 ProcessCreation
 (
@@ -1556,6 +1543,7 @@ aIsInconsistent
 )
 ;
 static
+MFBT_API
 void
 RecordProcessRestart
 (
@@ -2113,12 +2101,14 @@ aOther
 ;
 }
 static
-nsresult
+MFBT_API
+void
 Startup
 (
 )
 ;
 static
+MFBT_API
 void
 Shutdown
 (
@@ -2161,6 +2151,7 @@ aValue
 {
 }
 static
+MFBT_API
 TimeStamp
 Now
 (
@@ -2169,6 +2160,7 @@ aHighResolution
 )
 ;
 static
+MFBT_API
 uint64_t
 ComputeProcessUptime
 (

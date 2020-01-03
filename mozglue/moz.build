@@ -137,6 +137,9 @@ DIRS
 '
 build
 '
+'
+misc
+'
 ]
 if
 CONFIG

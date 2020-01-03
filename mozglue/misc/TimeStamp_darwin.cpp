@@ -48,13 +48,6 @@ TimeStamp
 .
 h
 "
-#
-include
-"
-nsDebug
-.
-h
-"
 static
 uint64_t
 sResolution
@@ -389,7 +382,7 @@ sResolution
 )
 ;
 }
-nsresult
+void
 TimeStamp
 :
 :
@@ -403,7 +396,6 @@ gInitialized
 )
 {
 return
-NS_OK
 ;
 }
 mach_timebase_info_data_t
@@ -426,8 +418,9 @@ kr
 KERN_SUCCESS
 )
 {
-NS_RUNTIMEABORT
+MOZ_RELEASE_ASSERT
 (
+false
 "
 mach_timebase_info
 failed
@@ -486,7 +479,6 @@ gInitialized
 true
 ;
 return
-NS_OK
 ;
 }
 void
