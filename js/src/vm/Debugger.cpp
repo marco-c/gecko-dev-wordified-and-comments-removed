@@ -37526,7 +37526,7 @@ ac
 if
 (
 !
-DefineProperty
+StandardDefineProperty
 (
 cx
 obj
@@ -37798,7 +37798,7 @@ i
 if
 (
 !
-DefineProperty
+StandardDefineProperty
 (
 cx
 obj
