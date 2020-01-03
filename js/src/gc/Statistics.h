@@ -308,6 +308,11 @@ char
 reason
 )
 {
+if
+(
+!
+aborted
+)
 slices
 .
 back
@@ -698,7 +703,7 @@ GCSliceCallback
 sliceCallback
 ;
 bool
-abortSlices
+aborted
 ;
 void
 beginGC
