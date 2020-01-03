@@ -870,7 +870,7 @@ Authenticators
 get
 (
 "
-PROMPT
+OOB_CERT
 "
 )
 ;
