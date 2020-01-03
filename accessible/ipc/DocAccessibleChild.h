@@ -699,6 +699,7 @@ nsString
 &
 aText
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -717,6 +718,7 @@ int32_t
 &
 aPosition
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -735,6 +737,7 @@ int32_t
 &
 aEndPos
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -753,6 +756,7 @@ int32_t
 &
 aEndPos
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -771,6 +775,7 @@ int32_t
 &
 aEndPos
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -785,6 +790,7 @@ int32_t
 &
 aPosition
 )
+MOZ_OVERRIDE
 ;
 private
 :
