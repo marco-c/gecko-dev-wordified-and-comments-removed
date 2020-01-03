@@ -567,6 +567,10 @@ friend
 class
 OMXCodecWrapper
 ;
+friend
+class
+InputBufferHelper
+;
 SpeexResamplerState
 *
 mResampler
