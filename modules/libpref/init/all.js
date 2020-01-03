@@ -7091,7 +7091,7 @@ pbmode
 .
 enabled
 "
-false
+true
 )
 ;
 pref
