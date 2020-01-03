@@ -1337,6 +1337,9 @@ frontend
 enum
 TokenKind
 {
+TOK_ERROR
+=
+0
 #
 define
 EMIT_ENUM
