@@ -64,6 +64,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 SkiaGLGlue
 )
+explicit
 SkiaGLGlue
 (
 GLContext

@@ -787,6 +787,7 @@ mFinalFilterNode
 struct
 AdjustedPattern
 {
+explicit
 AdjustedPattern
 (
 const

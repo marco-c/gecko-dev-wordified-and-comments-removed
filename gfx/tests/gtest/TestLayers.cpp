@@ -235,6 +235,7 @@ ContainerLayer
 {
 public
 :
+explicit
 TestContainerLayer
 (
 LayerManager
@@ -301,6 +302,7 @@ ThebesLayer
 {
 public
 :
+explicit
 TestThebesLayer
 (
 LayerManager

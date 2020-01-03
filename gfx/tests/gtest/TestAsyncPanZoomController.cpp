@@ -891,6 +891,7 @@ Test
 {
 public
 :
+explicit
 APZCBasicTester
 (
 AsyncPanZoomController
@@ -2605,6 +2606,7 @@ APZCBasicTester
 {
 public
 :
+explicit
 APZCPinchTester
 (
 AsyncPanZoomController
@@ -11385,6 +11387,7 @@ CancelableTask
 {
 public
 :
+explicit
 MockTask
 (
 TaskRunMetrics

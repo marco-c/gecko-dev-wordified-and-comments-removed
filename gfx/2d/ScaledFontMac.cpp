@@ -792,6 +792,7 @@ shift
 struct
 writeBuf
 {
+explicit
 writeBuf
 (
 int

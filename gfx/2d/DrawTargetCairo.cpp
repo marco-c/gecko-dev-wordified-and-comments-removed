@@ -1015,6 +1015,7 @@ AutoClearDeviceOffset
 {
 public
 :
+explicit
 AutoClearDeviceOffset
 (
 SourceSurface
@@ -1033,6 +1034,7 @@ aSurface
 )
 ;
 }
+explicit
 AutoClearDeviceOffset
 (
 const

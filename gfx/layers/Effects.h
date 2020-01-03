@@ -544,6 +544,7 @@ EffectColorMatrix
 public
 Effect
 {
+explicit
 EffectColorMatrix
 (
 gfx

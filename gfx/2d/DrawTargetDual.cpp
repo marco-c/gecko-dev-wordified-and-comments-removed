@@ -24,6 +24,7 @@ DualSurface
 public
 :
 inline
+explicit
 DualSurface
 (
 SourceSurface
@@ -100,6 +101,7 @@ DualPattern
 public
 :
 inline
+explicit
 DualPattern
 (
 const

@@ -143,6 +143,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DataSourceSurfaceCairo
 )
+explicit
 DataSourceSurfaceCairo
 (
 cairo_surface_t

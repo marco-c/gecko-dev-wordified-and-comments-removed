@@ -84,6 +84,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 ScaledFontBase
 )
+explicit
 ScaledFontBase
 (
 Float
