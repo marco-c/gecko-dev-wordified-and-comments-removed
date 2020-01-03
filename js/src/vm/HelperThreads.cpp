@@ -2378,6 +2378,7 @@ i
 +
 +
 )
+{
 threads
 [
 i
@@ -2387,6 +2388,17 @@ destroy
 (
 )
 ;
+threads
+[
+i
+]
+.
+~
+HelperThread
+(
+)
+;
+}
 js_free
 (
 threads
@@ -5679,6 +5691,7 @@ compressionTask
 >
 work
 (
+sourceCompressor
 )
 ;
 }

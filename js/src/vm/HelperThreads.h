@@ -54,6 +54,15 @@ Ion
 .
 h
 "
+#
+include
+"
+vm
+/
+Compression
+.
+h
+"
 namespace
 js
 {
@@ -856,6 +865,9 @@ SourceCompressionTask
 *
 compressionTask
 ;
+Compressor
+sourceCompressor
+;
 GCHelperState
 *
 gcHelperState
@@ -1501,6 +1513,9 @@ complete
 ResultType
 work
 (
+Compressor
+&
+comp
 )
 ;
 bool
