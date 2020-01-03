@@ -7615,7 +7615,9 @@ desc
 .
 initFields
 (
-obj
+NullPtr
+(
+)
 value
 attrs
 getter

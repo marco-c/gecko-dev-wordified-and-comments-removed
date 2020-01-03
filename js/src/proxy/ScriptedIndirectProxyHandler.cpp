@@ -1034,7 +1034,7 @@ fval
 )
 &
 &
-FromPropertyDescriptor
+FromPropertyDescriptorToObject
 (
 cx
 desc
@@ -2356,17 +2356,6 @@ receiver
 toObject
 (
 )
-)
-;
-desc
-.
-object
-(
-)
-.
-set
-(
-receiverObj
 )
 ;
 return
