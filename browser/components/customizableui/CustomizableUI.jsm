@@ -17533,6 +17533,16 @@ _toolbar
 .
 customizationTarget
 )
+|
+|
+(
+aEvent
+&
+&
+aEvent
+.
+rangeParent
+)
 )
 return
 ;
