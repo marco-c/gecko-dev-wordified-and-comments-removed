@@ -839,7 +839,7 @@ JS_SHELL_NAME
 (
 BIN_SUFFIX
 )
-export
+check
 :
 :
 check

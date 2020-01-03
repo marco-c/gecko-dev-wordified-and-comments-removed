@@ -3569,23 +3569,6 @@ main
 )
 :
     
-if
-"
-MOZ_NO_BUILD_TIME_SM_CHECKS
-"
-in
-os
-.
-environ
-:
-        
-sys
-.
-exit
-(
-0
-)
-    
 ok
 =
 check_style
