@@ -961,6 +961,16 @@ APPEND_DEVICE
 break
 ;
 case
+Nvidia8800GTS
+:
+APPEND_DEVICE
+(
+0x0193
+)
+;
+break
+;
+case
 Bug1137716
 :
 APPEND_DEVICE
