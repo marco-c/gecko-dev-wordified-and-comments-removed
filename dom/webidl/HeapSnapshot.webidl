@@ -113,6 +113,7 @@ Exposed
 (
 Window
 System
+Worker
 )
 ]
 interface
