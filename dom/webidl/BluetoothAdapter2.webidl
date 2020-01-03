@@ -297,6 +297,11 @@ attribute
 BluetoothAdapterState
 state
 ;
+[
+AvailableIn
+=
+CertifiedApps
+]
 readonly
 attribute
 DOMString
@@ -591,6 +596,9 @@ getPairedDevices
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 getConnectedDevices
@@ -754,6 +762,9 @@ optional
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 connect
@@ -769,6 +780,9 @@ serviceUuid
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 disconnect
@@ -796,6 +810,9 @@ time
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 sendFile
@@ -809,6 +826,9 @@ blob
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 stopSendingFile
@@ -820,6 +840,9 @@ deviceAddress
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 confirmReceivingFile
@@ -843,6 +866,9 @@ connection
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 connectSco
@@ -852,6 +878,9 @@ connectSco
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 disconnectSco
@@ -861,6 +890,9 @@ disconnectSco
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 isScoConnected
@@ -944,6 +976,9 @@ and
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 answerWaitingCall
@@ -953,6 +988,9 @@ answerWaitingCall
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 ignoreWaitingCall
@@ -962,6 +1000,9 @@ ignoreWaitingCall
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 toggleCalls
@@ -978,6 +1019,9 @@ methods
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 sendMediaMetaData
@@ -990,6 +1034,9 @@ mediaMetaData
 [
 NewObject
 Throws
+AvailableIn
+=
+CertifiedApps
 ]
 DOMRequest
 sendMediaPlayStatus
