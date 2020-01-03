@@ -596,6 +596,9 @@ size_t
 >
 mBundleLevel
 ;
+uint32_t
+mRecvonlySsrc
+;
 RefPtr
 <
 JsepTrack
