@@ -1333,6 +1333,17 @@ mProperty
 continue
 ;
 }
+if
+(
+!
+prop
+.
+mWinsInCascade
+)
+{
+continue
+;
+}
 aSetProperties
 .
 AddProperty
