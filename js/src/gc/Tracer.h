@@ -799,6 +799,9 @@ SliceBudget
 budget
 )
 ;
+bool
+bufferingGrayRootsFailed
+;
 void
 resetBufferedGrayRoots
 (
