@@ -443,6 +443,15 @@ current
 +
 ;
 }
+if
+(
+!
+IS_SURROGATE
+(
+ch
+)
+)
+{
 Directionality
 dir
 =
@@ -473,6 +482,7 @@ current
 return
 dir
 ;
+}
 }
 }
 if
