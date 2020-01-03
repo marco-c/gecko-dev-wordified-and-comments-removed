@@ -13379,7 +13379,7 @@ if
 player
 -
 >
-IsCurrent
+HasCurrentSource
 (
 )
 )
