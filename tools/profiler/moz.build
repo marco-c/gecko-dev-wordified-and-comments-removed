@@ -139,11 +139,6 @@ GeckoProfilerImpl
 h
 '
 '
-JSStreamWriter
-.
-h
-'
-'
 ProfilerMarkers
 .
 h
@@ -487,6 +482,12 @@ LOCAL_INCLUDES
 +
 =
 [
+'
+/
+docshell
+/
+base
+'
 '
 /
 ipc
