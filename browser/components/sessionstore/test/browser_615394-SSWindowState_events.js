@@ -379,7 +379,7 @@ waitForExplicitFinish
 ;
 requestLongerTimeout
 (
-2
+4
 )
 ;
 runNextTest
