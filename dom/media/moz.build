@@ -688,6 +688,11 @@ MediaDecoderStateMachine
 h
 '
 '
+MediaFormatReader
+.
+h
+'
+'
 MediaInfo
 .
 h
@@ -1130,6 +1135,11 @@ cpp
 '
 '
 MediaDevices
+.
+cpp
+'
+'
+MediaFormatReader
 .
 cpp
 '
