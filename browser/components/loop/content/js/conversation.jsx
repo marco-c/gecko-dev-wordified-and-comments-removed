@@ -1218,7 +1218,7 @@ WindowUnload
 ;
 React
 .
-renderComponent
+render
 (
 <
 AppControllerView

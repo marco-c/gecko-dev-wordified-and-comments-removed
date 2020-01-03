@@ -181,12 +181,15 @@ TestUtils
 .
 renderIntoDocument
 (
+React
+.
+createElement
+(
 loop
 .
 standaloneRoomViews
 .
 StandaloneRoomView
-(
 {
 dispatcher
 :

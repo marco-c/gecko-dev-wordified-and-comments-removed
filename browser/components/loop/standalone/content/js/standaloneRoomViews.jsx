@@ -1116,7 +1116,7 @@ terms_of_use_url
 :
 React
 .
-renderComponentToStaticMarkup
+renderToStaticMarkup
 (
 <
 a
@@ -1156,7 +1156,7 @@ privacy_notice_url
 :
 React
 .
-renderComponentToStaticMarkup
+renderToStaticMarkup
 (
 <
 a

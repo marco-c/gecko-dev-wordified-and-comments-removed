@@ -31,9 +31,9 @@ createClass
 {
 displayName
 :
-'
+"
 FxOSHiddenMarketplaceView
-'
+"
 render
 :
 function
@@ -43,10 +43,11 @@ function
 return
 React
 .
-DOM
-.
-iframe
+createElement
 (
+"
+iframe
+"
 {
 id
 :

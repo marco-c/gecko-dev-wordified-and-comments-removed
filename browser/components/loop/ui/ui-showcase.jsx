@@ -5096,7 +5096,7 @@ try
 {
 React
 .
-renderComponent
+render
 (
 <
 App

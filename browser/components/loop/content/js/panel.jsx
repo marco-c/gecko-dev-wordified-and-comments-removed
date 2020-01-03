@@ -1488,7 +1488,7 @@ terms_of_use
 :
 React
 .
-renderComponentToStaticMarkup
+renderToStaticMarkup
 (
 <
 a
@@ -1524,7 +1524,7 @@ privacy_notice
 :
 React
 .
-renderComponentToStaticMarkup
+renderToStaticMarkup
 (
 <
 a
@@ -6631,7 +6631,7 @@ notifications
 ;
 React
 .
-renderComponent
+render
 (
 <
 PanelView
