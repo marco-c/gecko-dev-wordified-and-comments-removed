@@ -4387,6 +4387,12 @@ Init
 uri
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 rv
 =
 channel
