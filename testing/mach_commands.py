@@ -448,8 +448,6 @@ mach_command
 :
 '
 mochitest
--
-browser
 '
         
 '
@@ -542,8 +540,6 @@ mach_command
 :
 '
 mochitest
--
-browser
 '
         
 '
@@ -613,7 +609,7 @@ flavor
 '
 :
 '
-mochitest
+plain
 '
 '
 test_paths
@@ -1132,6 +1128,14 @@ flavor
 :
 '
 mochitest
+'
+            
+'
+subsuite
+'
+:
+'
+default
 '
             
 '
