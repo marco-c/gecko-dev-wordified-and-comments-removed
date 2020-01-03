@@ -15346,8 +15346,9 @@ rv
 )
 )
 {
-rv
-=
+(
+void
+)
 target
 -
 >
@@ -15361,7 +15362,7 @@ gUserUmask
 ;
 }
 return
-rv
+NS_OK
 ;
 }
 nsresult
