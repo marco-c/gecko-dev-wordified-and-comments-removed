@@ -596,6 +596,14 @@ return
 NS_COMPOSITION_COMMIT_AS_IS
 "
 ;
+case
+NS_COMPOSITION_COMMIT
+:
+return
+"
+NS_COMPOSITION_COMMIT
+"
+;
 default
 :
 return
