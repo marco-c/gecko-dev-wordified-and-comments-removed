@@ -3067,6 +3067,7 @@ Entry
 ;
 public
 :
+explicit
 nsAutoAnimationMutationBatch
 (
 nsINode
