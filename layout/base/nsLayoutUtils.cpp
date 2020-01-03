@@ -3030,9 +3030,9 @@ min
 )
 )
 {
-aMaxScale
+maxScale
 =
-aMinScale
+minScale
 =
 gfxSize
 (
