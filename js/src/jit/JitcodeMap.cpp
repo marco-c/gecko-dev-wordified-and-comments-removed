@@ -1602,7 +1602,13 @@ if
 (
 pcDeltaU
 >
+static_cast
+<
+uint32_t
+>
+(
 ENC3_PC_DELTA_MAX
+)
 )
 pcDeltaU
 |
@@ -1707,7 +1713,13 @@ if
 (
 pcDeltaU
 >
+static_cast
+<
+uint32_t
+>
+(
 ENC4_PC_DELTA_MAX
+)
 )
 pcDeltaU
 |

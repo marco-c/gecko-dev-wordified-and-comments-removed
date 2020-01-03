@@ -1937,6 +1937,9 @@ recoverBailout
 }
 }
 ;
+#
+ifdef
+DEBUG
 static
 inline
 bool
@@ -1972,6 +1975,8 @@ isSetProp_Fallback
 )
 ;
 }
+#
+endif
 static
 inline
 void

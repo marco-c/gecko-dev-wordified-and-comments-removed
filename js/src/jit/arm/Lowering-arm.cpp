@@ -3482,9 +3482,8 @@ needsBoundsCheck
 )
 )
 {
-int32_t
-ptrValue
-=
+MOZ_ASSERT
+(
 ptr
 -
 >
@@ -3500,10 +3499,6 @@ value
 toInt32
 (
 )
-;
-MOZ_ASSERT
-(
-ptrValue
 >
 =
 0

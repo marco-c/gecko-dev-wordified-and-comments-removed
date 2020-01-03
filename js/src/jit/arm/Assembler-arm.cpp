@@ -14441,6 +14441,9 @@ extractOp1
 index
 )
 ;
+#
+ifdef
+DEBUG
 Operand2
 op
 =
@@ -14460,6 +14463,8 @@ isImm8
 )
 )
 ;
+#
+endif
 Imm8
 imm8
 =
