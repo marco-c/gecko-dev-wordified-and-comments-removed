@@ -195,8 +195,6 @@ GetRefreshTimerVsyncDispatcher
 (
 )
 ;
-protected
-:
 virtual
 Display
 &
@@ -206,6 +204,8 @@ GetGlobalDisplay
 =
 0
 ;
+protected
+:
 virtual
 ~
 VsyncSource
