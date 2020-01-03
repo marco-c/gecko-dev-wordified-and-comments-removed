@@ -422,6 +422,7 @@ if
 (
 DEBUG
 )
+{
 this
 .
 context
@@ -437,8 +438,17 @@ type
 "
 +
 type
++
+"
+token
+"
++
+this
+.
+mToken
 )
 ;
+}
 this
 .
 outgoingIndex
