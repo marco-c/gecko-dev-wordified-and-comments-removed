@@ -4385,7 +4385,7 @@ allowGC
 >
 extern
 bool
-NonProxyLookupOwnProperty
+HasOwnProperty
 (
 JSContext
 *
