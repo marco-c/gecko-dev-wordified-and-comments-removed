@@ -2117,7 +2117,7 @@ RootedObject
 buffer
 (
 cx
-NewDenseFullyAllocatedArray
+NewDenseAllocatedArray
 (
 cx
 length

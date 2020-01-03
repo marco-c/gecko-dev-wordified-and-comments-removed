@@ -959,7 +959,7 @@ RootedObject
 result
 (
 cx
-NewDenseFullyAllocatedArray
+NewDenseAllocatedArray
 (
 cx
 length

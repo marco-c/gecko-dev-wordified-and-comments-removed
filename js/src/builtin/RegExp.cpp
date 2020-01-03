@@ -145,7 +145,7 @@ RootedObject
 arr
 (
 cx
-NewDenseFullyAllocatedArrayWithTemplate
+NewDenseAllocatedArrayWithTemplate
 (
 cx
 numPairs

@@ -1609,8 +1609,8 @@ private
 uint32_t
 count_
 ;
-AllocatingBehaviour
-allocatingBehaviour_
+bool
+isAllocating_
 ;
 public
 :

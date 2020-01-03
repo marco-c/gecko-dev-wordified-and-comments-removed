@@ -1540,7 +1540,7 @@ RootedObject
 obj
 (
 cx
-NewDenseFullyAllocatedArray
+NewDenseAllocatedArray
 (
 cx
 count

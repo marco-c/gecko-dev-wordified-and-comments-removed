@@ -16015,12 +16015,9 @@ VALUES_PER_HEADER
 bool
 allocating
 =
-allocatingBehaviour
+isAllocating
 (
 )
-!
-=
-NewArray_Unallocating
 &
 &
 count
