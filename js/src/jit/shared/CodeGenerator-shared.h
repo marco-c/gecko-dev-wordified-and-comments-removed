@@ -179,7 +179,7 @@ interruptCheck
 struct
 ReciprocalMulConstants
 {
-int32_t
+int64_t
 multiplier
 ;
 int32_t
@@ -1853,8 +1853,10 @@ numLocs
 ReciprocalMulConstants
 computeDivisionConstants
 (
-int
+uint32_t
 d
+int
+maxLog
 )
 ;
 protected
