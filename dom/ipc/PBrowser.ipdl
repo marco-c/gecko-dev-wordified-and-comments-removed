@@ -1143,6 +1143,8 @@ aBaseURI
 )
 returns
 (
+nsresult
+rv
 bool
 windowOpened
 FrameScriptInfo

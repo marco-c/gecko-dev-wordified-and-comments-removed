@@ -7115,6 +7115,9 @@ remote
 "
 )
 ;
+nsresult
+rv
+;
 if
 (
 !
@@ -7135,6 +7138,8 @@ NS_ConvertUTF8toUTF16
 (
 baseURIString
 )
+&
+rv
 aWindowIsNew
 &
 frameScripts
@@ -7145,6 +7150,18 @@ urlToLoad
 {
 return
 NS_ERROR_NOT_AVAILABLE
+;
+}
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
+return
+rv
 ;
 }
 }
