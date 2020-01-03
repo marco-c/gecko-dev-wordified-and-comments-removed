@@ -238,6 +238,9 @@ not
 loaded
 in
 the
+"
++
+"
 animationinspector
 window
 "
@@ -874,8 +877,6 @@ async
 function
 *
 (
-e
-id
 )
 {
 if
@@ -1058,7 +1059,7 @@ hasToggleAll
 )
 {
 return
-promis
+promise
 .
 resolve
 (
