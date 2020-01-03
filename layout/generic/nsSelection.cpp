@@ -2433,7 +2433,7 @@ nsFrameSelection
 :
 SetCaretBidiLevel
 (
-uint8_t
+nsBidiLevel
 aLevel
 )
 {
@@ -2444,7 +2444,7 @@ aLevel
 return
 ;
 }
-uint8_t
+nsBidiLevel
 nsFrameSelection
 :
 :
@@ -4864,7 +4864,7 @@ newFrame
 =
 nullptr
 ;
-uint8_t
+nsBidiLevel
 baseLevel
 =
 NS_GET_BASE_LEVEL
@@ -4872,7 +4872,7 @@ NS_GET_BASE_LEVEL
 currentFrame
 )
 ;
-uint8_t
+nsBidiLevel
 currentLevel
 =
 NS_GET_EMBEDDING_LEVEL
@@ -4880,7 +4880,7 @@ NS_GET_EMBEDDING_LEVEL
 currentFrame
 )
 ;
-uint8_t
+nsBidiLevel
 newLevel
 =
 newFrame
@@ -4995,7 +4995,7 @@ nsIFrame
 aFrameIn
 nsDirection
 aDirection
-uint8_t
+nsBidiLevel
 aBidiLevel
 nsIFrame
 *
@@ -5009,7 +5009,7 @@ NS_ENSURE_STATE
 mShell
 )
 ;
-uint8_t
+nsBidiLevel
 foundLevel
 =
 0
@@ -16125,7 +16125,7 @@ if
 aVisual
 )
 {
-uint8_t
+nsBidiLevel
 caretBidiLevel
 =
 mFrameSelection
@@ -24566,7 +24566,7 @@ GetPresContext
 (
 )
 ;
-uint8_t
+nsBidiLevel
 levelBefore
 levelAfter
 ;
@@ -24580,7 +24580,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-uint8_t
+nsBidiLevel
 level
 =
 NS_GET_EMBEDDING_LEVEL
