@@ -15351,10 +15351,16 @@ isFiniteNonNegative
 (
 )
 )
+{
 needsNegativeIntCheck_
 =
 false
 ;
+setNotGuard
+(
+)
+;
+}
 }
 void
 MLoadTypedArrayElementStatic

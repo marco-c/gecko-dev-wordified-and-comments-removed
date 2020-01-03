@@ -34017,6 +34017,10 @@ setMovable
 (
 )
 ;
+setGuard
+(
+)
+;
 MOZ_ASSERT
 (
 elements
