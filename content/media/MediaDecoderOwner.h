@@ -31,14 +31,6 @@ public
 :
 virtual
 void
-DownloadProgressed
-(
-)
-=
-0
-;
-virtual
-void
 DownloadStalled
 (
 )

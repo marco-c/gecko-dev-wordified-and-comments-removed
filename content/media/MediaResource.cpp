@@ -4012,6 +4012,7 @@ mOffset
 false
 )
 ;
+}
 element
 -
 >
@@ -4019,10 +4020,6 @@ DownloadResumed
 (
 )
 ;
-}
-else
-{
-}
 }
 }
 }
