@@ -99,7 +99,7 @@ SharedLibrary
 clearkey
 '
 )
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
