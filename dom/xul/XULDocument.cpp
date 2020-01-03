@@ -14856,8 +14856,7 @@ if
 bodyContent
 )
 {
-nsresult
-rv
+bodyContent
 =
 document
 -
@@ -14873,16 +14872,6 @@ treechildren
 )
 nullptr
 kNameSpaceID_XUL
-getter_AddRefs
-(
-bodyContent
-)
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 aElement
