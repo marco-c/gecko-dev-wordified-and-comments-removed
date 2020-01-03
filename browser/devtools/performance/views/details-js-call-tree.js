@@ -493,6 +493,7 @@ root
 .
 toggleCategories
 (
+!
 options
 .
 contentOnly
