@@ -614,10 +614,10 @@ mozilla
 :
 :
 WritingMode
-aLineWM
+aContainerWM
 nscoord
 &
-aLineWidth
+aContainerWidth
 )
 ;
 static
