@@ -1243,6 +1243,13 @@ block
 )
 )
 {
+obj_
+-
+>
+setImplicitlyUsedUnchecked
+(
+)
+;
 }
 MBasicBlock
 *
@@ -3528,6 +3535,13 @@ state_
 nullptr
 )
 {
+arr_
+-
+>
+setImplicitlyUsedUnchecked
+(
+)
+;
 }
 MBasicBlock
 *
