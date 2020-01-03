@@ -262,7 +262,7 @@ JSObject
 JavaScriptParent
 :
 :
-defaultScope
+scopeForTargetObjects
 (
 )
 {

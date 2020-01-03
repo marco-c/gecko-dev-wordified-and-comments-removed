@@ -666,7 +666,7 @@ isParent
 virtual
 JSObject
 *
-defaultScope
+scopeForTargetObjects
 (
 )
 =

@@ -276,7 +276,7 @@ JSObject
 JavaScriptChild
 :
 :
-defaultScope
+scopeForTargetObjects
 (
 )
 {
