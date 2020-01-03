@@ -1089,7 +1089,6 @@ function
 notifyUserAcceptedP2P
 (
 appId
-tabId
 )
 {
 cpmm
@@ -1105,9 +1104,6 @@ NotifyUserAcceptedP2P
 appId
 :
 appId
-tabId
-:
-tabId
 }
 )
 ;
