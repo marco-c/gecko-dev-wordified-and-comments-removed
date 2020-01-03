@@ -63,3 +63,13 @@ jar
 mn
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+Pocket
+.
+jsm
+'
+]
