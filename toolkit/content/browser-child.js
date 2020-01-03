@@ -2219,17 +2219,6 @@ id
 ;
 let
 AddonsChild
-;
-if
-(
-Services
-.
-appinfo
-.
-browserTabsRemoteAutostart
-)
-{
-AddonsChild
 =
 RemoteAddonsChild
 .
@@ -2258,7 +2247,6 @@ AddonsChild
 }
 )
 ;
-}
 addMessageListener
 (
 "
