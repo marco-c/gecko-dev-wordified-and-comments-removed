@@ -37,6 +37,7 @@ DummyAccessible
 {
 public
 :
+explicit
 GtkWindowAccessible
 (
 AtkObject
