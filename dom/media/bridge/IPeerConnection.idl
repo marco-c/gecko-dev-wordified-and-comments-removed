@@ -350,13 +350,6 @@ only
 const
 unsigned
 long
-kInvalidCandidate
-=
-2
-;
-const
-unsigned
-long
 kInvalidMediastreamTrack
 =
 3

@@ -1225,6 +1225,8 @@ DOMMediaStream
 *
 domstream
 int
+pipeline_index
+int
 level
 bool
 is_video
@@ -1275,6 +1277,10 @@ domstream_
 (
 domstream
 )
+pipeline_index_
+(
+pipeline_index
+)
 is_video_
 (
 is_video
@@ -1296,6 +1302,17 @@ TrackID
 track_id
 )
 ;
+virtual
+TrackID
+pipeline_index
+(
+)
+const
+{
+return
+pipeline_index_
+;
+}
 virtual
 TrackID
 const
@@ -1744,6 +1761,9 @@ listener_
 DOMMediaStream
 *
 domstream_
+;
+int
+pipeline_index_
 ;
 bool
 is_video_

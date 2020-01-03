@@ -56,11 +56,15 @@ h
 #
 endif
 namespace
-mozilla
+sipcc
 {
 class
 PeerConnectionImpl
 ;
+}
+namespace
+mozilla
+{
 namespace
 dom
 {
@@ -83,6 +87,9 @@ Remote
 ;
 MediaStreamList
 (
+sipcc
+:
+:
 PeerConnectionImpl
 *
 peerConnection
@@ -138,6 +145,9 @@ MediaStreamList
 ;
 nsRefPtr
 <
+sipcc
+:
+:
 PeerConnectionImpl
 >
 mPeerConnection

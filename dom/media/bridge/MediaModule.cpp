@@ -71,7 +71,7 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 nsStunUDPSocketFilterHandler
 )
 namespace
-mozilla
+sipcc
 {
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -102,7 +102,7 @@ kCIDs
 kPEERCONNECTION_CID
 false
 nullptr
-mozilla
+sipcc
 :
 :
 PeerConnectionImplConstructor
