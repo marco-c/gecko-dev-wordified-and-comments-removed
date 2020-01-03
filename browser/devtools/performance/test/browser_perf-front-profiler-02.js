@@ -71,6 +71,9 @@ activated
 "
 )
 ;
+let
+rec
+=
 yield
 front
 .
@@ -86,6 +89,7 @@ front
 .
 stopRecording
 (
+rec
 )
 ;
 ok
@@ -129,6 +133,8 @@ active
 "
 )
 ;
+rec
+=
 yield
 front
 .
@@ -144,6 +150,7 @@ front
 .
 stopRecording
 (
+rec
 )
 ;
 ok
