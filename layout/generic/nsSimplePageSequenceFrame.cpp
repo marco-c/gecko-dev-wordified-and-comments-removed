@@ -660,6 +660,10 @@ nsReflowStatus
 aStatus
 )
 {
+MarkInReflow
+(
+)
+;
 NS_PRECONDITION
 (
 aPresContext

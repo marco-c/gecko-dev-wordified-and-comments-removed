@@ -1187,16 +1187,6 @@ aWidthInCB
 ;
 virtual
 void
-WillReflow
-(
-nsPresContext
-*
-aPresContext
-)
-override
-;
-virtual
-void
 Reflow
 (
 nsPresContext

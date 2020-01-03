@@ -1753,14 +1753,6 @@ aContainingBlock
 height
 )
 ;
-aKidFrame
--
->
-WillReflow
-(
-aPresContext
-)
-;
 const
 nsMargin
 &

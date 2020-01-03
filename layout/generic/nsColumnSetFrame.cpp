@@ -4617,6 +4617,10 @@ nsReflowStatus
 aStatus
 )
 {
+MarkInReflow
+(
+)
+;
 nsPresContext
 :
 :

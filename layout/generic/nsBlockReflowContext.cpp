@@ -1312,14 +1312,6 @@ BStart
 )
 ;
 }
-mFrame
--
->
-WillReflow
-(
-mPresContext
-)
-;
 #
 ifdef
 DEBUG

@@ -3415,6 +3415,10 @@ nsReflowStatus
 aStatus
 )
 {
+MarkInReflow
+(
+)
+;
 if
 (
 !

@@ -3456,6 +3456,10 @@ nsReflowStatus
 aStatus
 )
 {
+MarkInReflow
+(
+)
+;
 mPresentationData
 .
 flags

@@ -4796,14 +4796,6 @@ DisableResizeReflowOptimization
 )
 ;
 }
-aFrame
--
->
-WillReflow
-(
-mPresContext
-)
-;
 nsHTMLReflowMetrics
 metrics
 (

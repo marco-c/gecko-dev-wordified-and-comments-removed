@@ -5302,6 +5302,10 @@ nsReflowStatus
 aStatus
 )
 {
+MarkInReflow
+(
+)
+;
 DO_GLOBAL_REFLOW_COUNT
 (
 "
@@ -32881,16 +32885,6 @@ availSize
 ;
 nsReflowStatus
 status
-;
-aBulletFrame
--
->
-WillReflow
-(
-aState
-.
-mPresContext
-)
 ;
 aBulletFrame
 -
