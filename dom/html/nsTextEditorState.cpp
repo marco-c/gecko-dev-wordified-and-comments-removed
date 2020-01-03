@@ -3503,6 +3503,16 @@ EditAction
 (
 )
 {
+if
+(
+!
+mFrame
+)
+{
+return
+NS_OK
+;
+}
 nsWeakFrame
 weakFrame
 =
