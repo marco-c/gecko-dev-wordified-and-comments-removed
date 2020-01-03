@@ -1570,7 +1570,6 @@ TypedArrayObject
 :
 isOriginalLengthGetter
 (
-type
 native
 )
 )
