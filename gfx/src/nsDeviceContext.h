@@ -457,7 +457,7 @@ nsIScreen
 outScreen
 )
 ;
-void
+bool
 CalcPrintingSize
 (
 )
