@@ -585,6 +585,10 @@ GetPrimaryFrame
 ;
 if
 (
+!
+frame
+|
+|
 frame
 -
 >
