@@ -934,6 +934,11 @@ MediaManager
 cpp
 '
 '
+MediaPromise
+.
+cpp
+'
+'
 MediaRecorder
 .
 cpp
