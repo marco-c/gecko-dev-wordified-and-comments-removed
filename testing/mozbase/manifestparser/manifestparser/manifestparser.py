@@ -6836,8 +6836,6 @@ get
 '
 subsuite
 '
-'
-'
 )
             
 if
@@ -6934,15 +6932,6 @@ options
 :
             
 if
-options
-.
-hasattr
-(
-'
-subsuite
-'
-)
-and
 options
 .
 subsuite
