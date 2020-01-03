@@ -686,6 +686,12 @@ Image
 >
 GetCurrentImage
 (
+layers
+:
+:
+ImageContainer
+*
+aContainer
 )
 ;
 void
@@ -787,15 +793,6 @@ mRequestedResolution
 int
 mRequestedSampleSize
 ;
-nsRefPtr
-<
-layers
-:
-:
-ImageContainer
->
-mImageContainer
-;
 WeakPtr
 <
 layers
@@ -803,7 +800,7 @@ layers
 :
 ImageContainer
 >
-mImageContainerCache
+mImageContainer
 ;
 #
 ifdef
