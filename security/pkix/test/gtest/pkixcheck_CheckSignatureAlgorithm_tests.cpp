@@ -984,6 +984,10 @@ CloneReusedKeyPair
 ASSERT_TRUE
 (
 keyPair
+.
+get
+(
+)
 )
 ;
 ByteString
