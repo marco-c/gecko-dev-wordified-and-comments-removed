@@ -4416,10 +4416,14 @@ gViewSourceUtils
 .
 viewSource
 (
+{
+URL
+:
 url
-null
-null
+lineNumber
+:
 line
+}
 )
 ;
 ]
