@@ -6659,13 +6659,7 @@ isBailoutJS
 )
 )
 ;
-mozilla
-:
-:
-DebugOnly
-<
 FrameType
->
 prevFrameType
 =
 iter
