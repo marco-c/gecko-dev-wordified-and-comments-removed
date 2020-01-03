@@ -287,16 +287,6 @@ ContinueEvict
 )
 ;
 nsresult
-LockImage
-(
-)
-;
-nsresult
-UnlockImage
-(
-)
-;
-nsresult
 StartDecoding
 (
 )
