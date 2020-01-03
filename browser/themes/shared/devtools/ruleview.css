@@ -257,6 +257,15 @@ ruleview
 -
 rule
 [
+unmatched
+=
+true
+]
+.
+ruleview
+-
+rule
+[
 uneditable
 =
 true
