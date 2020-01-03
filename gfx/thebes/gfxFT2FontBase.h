@@ -123,9 +123,9 @@ virtual
 int32_t
 GetGlyphWidth
 (
-gfxContext
-*
-aCtx
+DrawTarget
+&
+aDrawTarget
 uint16_t
 aGID
 )

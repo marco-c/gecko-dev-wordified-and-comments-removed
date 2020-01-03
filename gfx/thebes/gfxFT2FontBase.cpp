@@ -767,9 +767,9 @@ gfxFT2FontBase
 :
 GetGlyphWidth
 (
-gfxContext
-*
-aCtx
+DrawTarget
+&
+aDrawTarget
 uint16_t
 aGID
 )
