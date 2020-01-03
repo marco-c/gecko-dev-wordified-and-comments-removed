@@ -3527,13 +3527,6 @@ environment
 )
 ;
 }
-typedef
-AutoVectorRooter
-<
-PropertyDescriptor
->
-AutoPropertyDescriptorVector
-;
 JSObject
 *
 NewObjectWithGivenTaggedProto
