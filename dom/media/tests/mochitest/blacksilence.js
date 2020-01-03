@@ -338,7 +338,7 @@ audio
 ;
 audio
 .
-mozSrcObject
+srcObject
 =
 stream
 ;
@@ -536,7 +536,7 @@ video
 ;
 video
 .
-mozSrcObject
+srcObject
 =
 stream
 ;

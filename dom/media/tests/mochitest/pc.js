@@ -3742,7 +3742,7 @@ element
 ;
 element
 .
-mozSrcObject
+srcObject
 =
 stream
 ;

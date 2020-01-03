@@ -449,7 +449,7 @@ self
 .
 viewfinder
 .
-mozSrcObject
+srcObject
 =
 null
 ;
@@ -1092,7 +1092,7 @@ self
 .
 viewfinder
 .
-mozSrcObject
+srcObject
 =
 null
 ;
@@ -1665,7 +1665,7 @@ self
 .
 viewfinder
 .
-mozSrcObject
+srcObject
 =
 self
 .
