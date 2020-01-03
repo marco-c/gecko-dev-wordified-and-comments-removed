@@ -15638,7 +15638,7 @@ plugins
 .
 asyncInit
 "
-false
+true
 )
 ;
 pref
