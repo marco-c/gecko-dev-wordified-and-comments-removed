@@ -105,6 +105,13 @@ tags
 superTag
 "
 ]
+style
+:
+[
+"
+tag
+"
+]
 }
 ]
 }

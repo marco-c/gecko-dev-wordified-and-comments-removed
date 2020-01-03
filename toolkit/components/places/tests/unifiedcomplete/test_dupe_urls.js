@@ -121,6 +121,13 @@ mozilla
 .
 org
 "
+style
+:
+[
+"
+autofill
+"
+]
 }
 ]
 }
