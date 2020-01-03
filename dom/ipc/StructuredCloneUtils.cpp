@@ -214,7 +214,7 @@ Length
 ;
 nsRefPtr
 <
-File
+Blob
 >
 blob
 =
@@ -282,12 +282,14 @@ global
 ;
 nsRefPtr
 <
-File
+Blob
 >
 newBlob
 =
-new
-File
+Blob
+:
+:
+Create
 (
 global
 blob
@@ -301,7 +303,7 @@ Impl
 if
 (
 !
-GetOrCreateDOMReflector
+ToJSValue
 (
 aCx
 newBlob
@@ -377,7 +379,7 @@ aClosure
 )
 ;
 {
-File
+Blob
 *
 blob
 =

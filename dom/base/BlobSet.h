@@ -134,7 +134,7 @@ mBlobImpls
 }
 already_AddRefed
 <
-File
+Blob
 >
 GetBlobInternal
 (

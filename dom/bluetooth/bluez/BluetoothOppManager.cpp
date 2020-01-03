@@ -1532,8 +1532,10 @@ nsIDOMBlob
 >
 blob
 =
-new
-File
+Blob
+:
+:
+Create
 (
 nullptr
 impl

@@ -76,7 +76,7 @@ namespace
 dom
 {
 class
-File
+Blob
 ;
 }
 class
@@ -305,7 +305,7 @@ mozilla
 dom
 :
 :
-File
+Blob
 &
 aData
 mozilla
