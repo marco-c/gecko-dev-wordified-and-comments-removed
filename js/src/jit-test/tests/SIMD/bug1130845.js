@@ -59,9 +59,13 @@ b
 ;
 assertEq
 (
-c
+Int32x4
 .
-x
+extractLane
+(
+c
+0
+)
 0
 )
 ;
