@@ -301,6 +301,9 @@ false
 getUsedFontFaces
 :
 true
+memoryActorAllocations
+:
+true
 }
 sayHello
 :

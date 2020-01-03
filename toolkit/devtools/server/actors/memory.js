@@ -795,6 +795,8 @@ RetVal
 (
 0
 "
+nullable
+:
 number
 "
 )
@@ -853,6 +855,8 @@ RetVal
 (
 0
 "
+nullable
+:
 number
 "
 )
