@@ -9807,6 +9807,13 @@ GetInputBlockId
 )
 ;
 }
+InputAPZContext
+:
+:
+SetRoutedToChildProcess
+(
+)
+;
 return
 nsEventStatus_eIgnore
 ;

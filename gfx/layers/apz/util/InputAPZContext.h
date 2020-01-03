@@ -31,6 +31,10 @@ static
 uint64_t
 sBlockId
 ;
+static
+bool
+sRoutedToChildProcess
+;
 public
 :
 static
@@ -42,6 +46,12 @@ GetTargetLayerGuid
 static
 uint64_t
 GetInputBlockId
+(
+)
+;
+static
+void
+SetRoutedToChildProcess
 (
 )
 ;
@@ -62,6 +72,11 @@ InputAPZContext
 (
 )
 ;
+bool
+WasRoutedToChildProcess
+(
+)
+;
 private
 :
 ScrollableLayerGuid
@@ -69,6 +84,9 @@ mOldGuid
 ;
 uint64_t
 mOldBlockId
+;
+bool
+mOldRoutedToChildProcess
 ;
 }
 ;
