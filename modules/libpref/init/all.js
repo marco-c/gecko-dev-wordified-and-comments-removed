@@ -3318,7 +3318,7 @@ format
 -
 reader
 "
-false
+true
 )
 ;
 pref
