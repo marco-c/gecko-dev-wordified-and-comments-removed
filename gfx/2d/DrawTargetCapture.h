@@ -189,7 +189,8 @@ aSigma
 CompositionOp
 aOperator
 )
-;
+{
+}
 virtual
 void
 ClearRect
