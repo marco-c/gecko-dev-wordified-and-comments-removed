@@ -234,6 +234,15 @@ ChromeOnly
 readonly
 attribute
 DOMString
+path
+;
+[
+GetterThrows
+ChromeOnly
+]
+readonly
+attribute
+DOMString
 mozFullPath
 ;
 }

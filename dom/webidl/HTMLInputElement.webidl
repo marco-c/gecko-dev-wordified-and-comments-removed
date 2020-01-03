@@ -757,6 +757,7 @@ long
 textLength
 ;
 [
+Throws
 ChromeOnly
 ]
 sequence
