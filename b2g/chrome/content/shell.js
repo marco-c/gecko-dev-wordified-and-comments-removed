@@ -3712,10 +3712,13 @@ function
 evt
 )
 {
-this
+SystemAppProxy
 .
-sendChromeEvent
+_sendCustomEvent
 (
+'
+mozSystemWindowChromeEvent
+'
 {
 type
 :
