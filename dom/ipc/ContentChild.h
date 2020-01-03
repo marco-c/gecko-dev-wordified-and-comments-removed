@@ -1486,6 +1486,10 @@ const
 bool
 &
 aIsFake
+const
+bool
+&
+aIsUnmounting
 )
 MOZ_OVERRIDE
 ;

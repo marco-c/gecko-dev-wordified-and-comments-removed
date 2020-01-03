@@ -11884,6 +11884,9 @@ isFormatting
 bool
 isFake
 ;
+bool
+isUnmounting
+;
 vol
 -
 >
@@ -11954,6 +11957,15 @@ GetIsFake
 isFake
 )
 ;
+vol
+-
+>
+GetIsUnmounting
+(
+&
+isUnmounting
+)
+;
 #
 ifdef
 MOZ_NUWA_PROCESS
@@ -11987,6 +11999,7 @@ isMediaPresent
 isSharing
 isFormatting
 isFake
+isUnmounting
 )
 ;
 }

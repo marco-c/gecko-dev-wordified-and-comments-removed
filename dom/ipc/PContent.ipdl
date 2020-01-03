@@ -990,6 +990,9 @@ isFormatting
 bool
 isFake
 ;
+bool
+isUnmounting
+;
 }
 ;
 union
@@ -1740,6 +1743,8 @@ bool
 isFormatting
 bool
 isFake
+bool
+isUnmounting
 )
 ;
 /
