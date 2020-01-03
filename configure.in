@@ -29301,7 +29301,9 @@ AM_PATH_NSS
 (
 3
 .
-18
+17
+.
+4
 [
 MOZ_NATIVE_NSS
 =
@@ -53019,6 +53021,13 @@ MOZ_PATH_PROGS
 (
 MAKENSISU
 MAKENSISU
+makensis
+-
+3
+.
+0b1
+.
+exe
 makensisu
 -
 3
