@@ -1150,6 +1150,19 @@ function
 event
 )
 {
+if
+(
+event
+.
+button
+=
+=
+2
+)
+{
+return
+;
+}
 let
 idx
 =
@@ -1264,6 +1277,7 @@ onClick
 call
 (
 null
+event
 )
 ;
 }
