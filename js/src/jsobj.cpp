@@ -14367,12 +14367,6 @@ cx
 NewFunction
 (
 cx
-js
-:
-:
-NullPtr
-(
-)
 constructor
 nargs
 JSFunction

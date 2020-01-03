@@ -4797,9 +4797,6 @@ fun
 NewFunction
 (
 cx
-NullPtr
-(
-)
 CallAsmJS
 numArgs
 JSFunction
@@ -4940,9 +4937,6 @@ cx
 NewFunction
 (
 cx
-NullPtr
-(
-)
 nullptr
 0
 JSFunction
@@ -6438,9 +6432,6 @@ moduleFun
 NewFunction
 (
 cx
-NullPtr
-(
-)
 LinkAsmJS
 origFun
 -

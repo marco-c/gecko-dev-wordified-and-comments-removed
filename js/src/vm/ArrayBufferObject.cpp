@@ -8143,12 +8143,6 @@ getter
 NewFunction
 (
 cx
-js
-:
-:
-NullPtr
-(
-)
 ArrayBufferObject
 :
 :

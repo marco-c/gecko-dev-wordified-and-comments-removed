@@ -6322,9 +6322,6 @@ fun
 NewFunctionWithProto
 (
 context
-NullPtr
-(
-)
 nullptr
 0
 flags

@@ -2200,9 +2200,6 @@ return
 NewFunction
 (
 cx
-NullPtr
-(
-)
 ctor
 length
 JSFunction
@@ -3145,9 +3142,6 @@ fun
 NewFunction
 (
 cx
-NullPtr
-(
-)
 nullptr
 nargs
 JSFunction

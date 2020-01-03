@@ -1610,9 +1610,6 @@ getter
 NewFunction
 (
 cx
-NullPtr
-(
-)
 SharedArrayBufferObject
 :
 :

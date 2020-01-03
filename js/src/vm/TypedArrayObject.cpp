@@ -1018,9 +1018,6 @@ return
 NewFunctionWithProto
 (
 cx
-NullPtr
-(
-)
 class_constructor
 3
 JSFunction
@@ -1126,9 +1123,6 @@ fun
 NewFunction
 (
 cx
-NullPtr
-(
-)
 ArrayBufferObject
 :
 :
@@ -10624,9 +10618,6 @@ getter
 NewFunction
 (
 cx
-NullPtr
-(
-)
 DataViewObject
 :
 :
@@ -10880,9 +10871,6 @@ cx
 NewFunction
 (
 cx
-NullPtr
-(
-)
 ArrayBufferObject
 :
 :

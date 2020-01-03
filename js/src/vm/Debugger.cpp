@@ -30701,12 +30701,6 @@ getobj
 NewFunction
 (
 cx
-js
-:
-:
-NullPtr
-(
-)
 DebuggerArguments_getArg
 0
 JSFunction
