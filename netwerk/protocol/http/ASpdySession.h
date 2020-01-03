@@ -191,6 +191,12 @@ NS_SUCCEEDED
 (
 code
 )
+|
+|
+code
+=
+=
+NS_BASE_STREAM_WOULD_BLOCK
 )
 {
 return
