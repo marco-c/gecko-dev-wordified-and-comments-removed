@@ -1863,7 +1863,6 @@ OP2_PADDD_VdqWdq
 }
 ;
 static
-inline
 bool
 IsXMMReversedOperands
 (
@@ -30343,7 +30342,6 @@ X86Registers
 :
 r12
 ;
-inline
 bool
 regRequiresRex
 (
@@ -30363,7 +30361,6 @@ r8
 )
 ;
 }
-inline
 void
 emitRex
 (
@@ -30426,7 +30423,6 @@ b
 )
 ;
 }
-inline
 void
 emitRexW
 (
@@ -30447,7 +30443,6 @@ b
 )
 ;
 }
-inline
 void
 emitRexIf
 (
@@ -30492,7 +30487,6 @@ b
 )
 ;
 }
-inline
 void
 emitRexIfNeeded
 (
@@ -30530,7 +30524,6 @@ b
 }
 #
 else
-inline
 bool
 regRequiresRex
 (
@@ -30541,7 +30534,6 @@ return
 false
 ;
 }
-inline
 void
 emitRexIf
 (
@@ -30571,7 +30563,6 @@ prefix
 )
 ;
 }
-inline
 void
 emitRexIfNeeded
 (
