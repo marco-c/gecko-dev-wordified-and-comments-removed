@@ -45,6 +45,11 @@ EditorInputEvent
 )
 NS_EVENT_CLASS
 (
+Internal
+BeforeAfterKeyboardEvent
+)
+NS_EVENT_CLASS
+(
 Widget
 MouseEventBase
 )
