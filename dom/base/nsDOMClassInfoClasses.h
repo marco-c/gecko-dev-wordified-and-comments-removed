@@ -1,9 +1,5 @@
 DOMCI_CLASS
 (
-Window
-)
-DOMCI_CLASS
-(
 DOMPrototype
 )
 DOMCI_CLASS
@@ -60,10 +56,6 @@ TreeContentView
 )
 #
 endif
-DOMCI_CLASS
-(
-ChromeWindow
-)
 #
 ifdef
 MOZ_XUL
@@ -109,10 +101,6 @@ Blob
 DOMCI_CLASS
 (
 File
-)
-DOMCI_CLASS
-(
-ModalContentWindow
 )
 DOMCI_CLASS
 (
