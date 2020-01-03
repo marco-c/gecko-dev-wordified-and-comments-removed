@@ -63,7 +63,10 @@ nsPresContext
 struct
 nsFlowAreaRect
 {
-nsRect
+mozilla
+:
+:
+LogicalRect
 mRect
 ;
 bool
@@ -71,6 +74,11 @@ mHasFloats
 ;
 nsFlowAreaRect
 (
+mozilla
+:
+:
+WritingMode
+aWritingMode
 nscoord
 aICoord
 nscoord
@@ -85,6 +93,7 @@ aHasFloats
 :
 mRect
 (
+aWritingMode
 aICoord
 aBCoord
 aISize
