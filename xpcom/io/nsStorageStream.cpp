@@ -124,12 +124,6 @@ ipc
 :
 StringInputStreamParams
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 static
 PRLogModuleInfo
 *
@@ -162,8 +156,6 @@ return
 sLog
 ;
 }
-#
-endif
 #
 ifdef
 LOG

@@ -46,9 +46,6 @@ using
 namespace
 mozilla
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -81,8 +78,6 @@ return
 sLog
 ;
 }
-#
-endif
 #
 ifdef
 LOG

@@ -69,12 +69,6 @@ h
 "
 #
 endif
-#
-if
-defined
-(
-PR_LOGGING
-)
 extern
 PRLogModuleInfo
 *
@@ -86,13 +80,6 @@ GetTimerLog
 define
 DEBUG_TIMERS
 1
-#
-else
-#
-undef
-DEBUG_TIMERS
-#
-endif
 #
 define
 NS_TIMER_CID

@@ -4515,9 +4515,6 @@ aResult
 nsresult
 rv
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -4563,8 +4560,6 @@ buf
 ;
 }
 }
-#
-endif
 PR_ASSERT
 (
 aResult
@@ -4682,9 +4677,6 @@ NS_ERROR_INVALID_ARG
 nsresult
 rv
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -4709,8 +4701,6 @@ aContractID
 )
 ;
 }
-#
-endif
 nsCOMPtr
 <
 nsIFactory
@@ -5067,9 +5057,6 @@ rv
 NS_ERROR_FACTORY_NOT_REGISTERED
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -5133,8 +5120,6 @@ buf
 ;
 }
 }
-#
-endif
 return
 rv
 ;
