@@ -142,9 +142,9 @@ if
 DOGFOOD
 -
 ne
-0
+1
 -
-o
+a
 VARIANT
 !
 =
