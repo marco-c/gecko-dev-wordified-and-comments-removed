@@ -6242,9 +6242,14 @@ rv
 csp
 -
 >
-PermitsFormAction
+Permits
 (
 actionURL
+nsIContentSecurityPolicy
+:
+:
+FORM_ACTION_DIRECTIVE
+true
 &
 permitsFormAction
 )

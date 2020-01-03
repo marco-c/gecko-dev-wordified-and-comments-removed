@@ -15938,9 +15938,14 @@ rv
 csp
 -
 >
-PermitsBaseURI
+Permits
 (
 aURI
+nsIContentSecurityPolicy
+:
+:
+BASE_URI_DIRECTIVE
+true
 &
 permitsBaseURI
 )
