@@ -210,7 +210,7 @@ aStatus
 nscoord
 aContentBoxMainSize
 nscoord
-aAvailableHeightForContent
+aAvailableBSizeForContent
 nsTArray
 <
 StrutInfo
@@ -319,7 +319,7 @@ aReflowState
 nscoord
 aContentBoxMainSize
 nscoord
-aAvailableHeightForContent
+aAvailableBSizeForContent
 const
 nsTArray
 <
@@ -369,7 +369,7 @@ aAxisTracker
 nscoord
 aSumLineCrossSizes
 nscoord
-aAvailableHeightForContent
+aAvailableBSizeForContent
 bool
 *
 aIsDefinite
