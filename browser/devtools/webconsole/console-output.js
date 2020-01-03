@@ -587,11 +587,6 @@ debugger
 eval
 code
 "
-"
-self
--
-hosted
-"
 ]
 ;
 const

@@ -47,11 +47,6 @@ eval
 code
 "
 "
-self
--
-hosted
-"
-"
 XStringBundle
 "
 ]
