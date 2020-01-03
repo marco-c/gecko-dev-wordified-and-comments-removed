@@ -134,6 +134,8 @@ Stream
 aSource
 uint32_t
 aTrackId
+bool
+aIsAudio
 Monitor
 *
 aMonitor

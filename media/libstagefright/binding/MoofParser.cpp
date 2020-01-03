@@ -161,6 +161,7 @@ mTrex
 mMdhd
 mEdts
 mSinf
+mIsAudio
 )
 ;
 if
@@ -1205,6 +1206,8 @@ aEdts
 Sinf
 &
 aSinf
+bool
+aIsAudio
 )
 :
 mRange
@@ -1265,6 +1268,7 @@ aTrex
 aMdhd
 aEdts
 aSinf
+aIsAudio
 )
 ;
 }
@@ -1731,6 +1735,8 @@ aEdts
 Sinf
 &
 aSinf
+bool
+aIsAudio
 )
 {
 Tfhd
@@ -1949,6 +1955,7 @@ tfhd
 tfdt
 aMdhd
 aEdts
+aIsAudio
 )
 ;
 if
@@ -2103,6 +2110,8 @@ aMdhd
 Edts
 &
 aEdts
+bool
+aIsAudio
 )
 {
 if
@@ -2601,6 +2610,9 @@ sampleFlags
 &
 0x1010000
 )
+|
+|
+aIsAudio
 ;
 mIndex
 .

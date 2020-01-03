@@ -1602,6 +1602,7 @@ MoofParser
 (
 mStream
 0
+false
 &
 mMonitor
 )

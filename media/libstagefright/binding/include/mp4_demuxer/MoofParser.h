@@ -530,6 +530,8 @@ aEdts
 Sinf
 &
 aSinf
+bool
+aIsAudio
 )
 ;
 bool
@@ -610,6 +612,8 @@ aEdts
 Sinf
 &
 aSinf
+bool
+aIsAudio
 )
 ;
 void
@@ -630,6 +634,8 @@ aMdhd
 Edts
 &
 aEdts
+bool
+aIsAudio
 )
 ;
 void
@@ -670,6 +676,8 @@ Stream
 aSource
 uint32_t
 aTrackId
+bool
+aIsAudio
 Monitor
 *
 aMonitor
@@ -690,6 +698,10 @@ aTrackId
 mMonitor
 (
 aMonitor
+)
+mIsAudio
+(
+aIsAudio
 )
 {
 }
@@ -886,6 +898,9 @@ nsTArray
 Moof
 >
 mMoofs
+;
+bool
+mIsAudio
 ;
 }
 ;
