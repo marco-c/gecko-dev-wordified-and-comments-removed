@@ -352,6 +352,15 @@ ChromeOnly
 ]
 readonly
 attribute
+EventTarget
+?
+composedTarget
+;
+[
+ChromeOnly
+]
+readonly
+attribute
 boolean
 multipleActionsPrevented
 ;
