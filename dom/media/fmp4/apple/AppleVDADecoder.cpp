@@ -1773,7 +1773,7 @@ rv
 noErr
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 AppleVDADecoder
@@ -1782,8 +1782,9 @@ Couldn
 '
 t
 create
+hardware
+VDA
 decoder
-!
 "
 )
 ;
@@ -2187,16 +2188,6 @@ Init
 )
 )
 {
-NS_ERROR
-(
-"
-AppleVDADecoder
-an
-error
-occurred
-"
-)
-;
 return
 nullptr
 ;
