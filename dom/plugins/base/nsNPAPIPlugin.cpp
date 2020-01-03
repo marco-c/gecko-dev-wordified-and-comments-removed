@@ -1732,14 +1732,6 @@ nsNPAPIPlugin
 (
 )
 ;
-if
-(
-!
-plugin
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 PluginLibrary
 *
 pluginLib
