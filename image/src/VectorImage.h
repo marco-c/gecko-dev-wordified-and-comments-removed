@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_imagelib_VectorImage_h_
+mozilla_image_src_VectorImage_h
 #
 define
-mozilla_imagelib_VectorImage_h_
+mozilla_image_src_VectorImage_h
 #
 include
 "
