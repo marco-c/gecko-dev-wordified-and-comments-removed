@@ -34925,6 +34925,9 @@ PNK_IMPORT
 case
 PNK_EXPORT
 :
+case
+PNK_EXPORT_FROM
+:
 bce
 -
 >
