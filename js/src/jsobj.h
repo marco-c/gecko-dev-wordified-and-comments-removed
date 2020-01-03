@@ -4244,6 +4244,16 @@ PropertyDescriptor
 desc
 )
 ;
+void
+CompletePropertyDescriptor
+(
+MutableHandle
+<
+PropertyDescriptor
+>
+desc
+)
+;
 extern
 bool
 ReadPropertyDescriptors
