@@ -1967,6 +1967,11 @@ filter
 nsGkAtoms
 :
 :
+filterRes
+&
+nsGkAtoms
+:
+:
 filterUnits
 &
 nsGkAtoms

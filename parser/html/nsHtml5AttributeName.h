@@ -1835,6 +1835,11 @@ ATTR_DRAGGABLE
 static
 nsHtml5AttributeName
 *
+ATTR_FILTERRES
+;
+static
+nsHtml5AttributeName
+*
 ATTR_FILL_RULE
 ;
 static
@@ -3035,6 +3040,11 @@ ATTR_ARIA_DESCRIBEDBY
 static
 nsHtml5AttributeName
 *
+ATTR_CONTENTSTYLETYPE
+;
+static
+nsHtml5AttributeName
+*
 ATTR_FONT_SIZE_ADJUST
 ;
 static
@@ -3111,6 +3121,11 @@ static
 nsHtml5AttributeName
 *
 ATTR_ARIA_AUTOCOMPLETE
+;
+static
+nsHtml5AttributeName
+*
+ATTR_CONTENTSCRIPTTYPE
 ;
 static
 nsHtml5AttributeName
@@ -3251,6 +3266,11 @@ static
 nsHtml5AttributeName
 *
 ATTR_STRIKETHROUGH_THICKNESS
+;
+static
+nsHtml5AttributeName
+*
+ATTR_EXTERNALRESOURCESREQUIRED
 ;
 static
 nsHtml5AttributeName
