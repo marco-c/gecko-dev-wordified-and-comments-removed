@@ -2169,6 +2169,11 @@ const
 nsStylePosition
 *
 aStylePos
+nsPoint
+*
+aAnchorPoint
+=
+nullptr
 )
 ;
 static
@@ -3545,6 +3550,12 @@ SVGImageContext
 aSVGContext
 uint32_t
 aImageFlags
+const
+nsPoint
+*
+aAnchorPoint
+=
+nullptr
 const
 nsRect
 *
