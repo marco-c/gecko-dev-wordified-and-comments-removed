@@ -2700,9 +2700,6 @@ true
 bool
 WriteFormData
 (
-JSContext
-*
-aCx
 JSStructuredCloneWriter
 *
 aWriter
@@ -2714,11 +2711,6 @@ WorkerStructuredCloneClosure
 aClosure
 )
 {
-MOZ_ASSERT
-(
-aCx
-)
-;
 MOZ_ASSERT
 (
 aWriter
@@ -2757,10 +2749,6 @@ MOZ_STACK_CLASS
 Closure
 final
 {
-JSContext
-*
-mCx
-;
 JSStructuredCloneWriter
 *
 mWriter
@@ -2773,9 +2761,6 @@ public
 :
 Closure
 (
-JSContext
-*
-aCx
 JSStructuredCloneWriter
 *
 aWriter
@@ -2784,10 +2769,6 @@ WorkerStructuredCloneClosure
 aClones
 )
 :
-mCx
-(
-aCx
-)
 mWriter
 (
 aWriter
@@ -2932,7 +2913,6 @@ true
 Closure
 closure
 (
-aCx
 aWriter
 aClosure
 )
@@ -3297,7 +3277,6 @@ if
 (
 WriteFormData
 (
-aCx
 aWriter
 formData
 *
