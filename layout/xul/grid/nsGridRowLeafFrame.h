@@ -73,9 +73,6 @@ aResult
 endif
 nsGridRowLeafFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -88,7 +85,6 @@ aLayoutManager
 :
 nsBoxFrame
 (
-aPresShell
 aContext
 aIsRoot
 aLayoutManager

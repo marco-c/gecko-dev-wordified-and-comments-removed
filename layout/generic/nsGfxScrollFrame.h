@@ -3270,9 +3270,6 @@ protected
 :
 nsHTMLScrollFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -4958,9 +4955,6 @@ protected
 :
 nsXULScrollFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext

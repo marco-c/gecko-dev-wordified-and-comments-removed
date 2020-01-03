@@ -349,13 +349,6 @@ aPresShell
 )
 nsListControlFrame
 (
-aPresShell
-aPresShell
--
->
-GetDocument
-(
-)
 aContext
 )
 ;
@@ -380,12 +373,6 @@ nsListControlFrame
 :
 nsListControlFrame
 (
-nsIPresShell
-*
-aShell
-nsIDocument
-*
-aDocument
 nsStyleContext
 *
 aContext
@@ -393,7 +380,6 @@ aContext
 :
 nsHTMLScrollFrame
 (
-aShell
 aContext
 false
 )

@@ -117,7 +117,6 @@ aPresShell
 )
 nsLeafBoxFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -131,9 +130,6 @@ nsLeafBoxFrame
 :
 nsLeafBoxFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext

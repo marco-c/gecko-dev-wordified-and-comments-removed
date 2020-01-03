@@ -558,7 +558,6 @@ aPresShell
 )
 nsTreeBodyFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -588,9 +587,6 @@ nsTreeBodyFrame
 :
 nsTreeBodyFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -598,7 +594,6 @@ aContext
 :
 nsLeafBoxFrame
 (
-aPresShell
 aContext
 )
 mSlots

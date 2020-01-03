@@ -861,7 +861,6 @@ aPresShell
 )
 nsSplitterFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -875,9 +874,6 @@ nsSplitterFrame
 :
 nsSplitterFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -885,7 +881,6 @@ aContext
 :
 nsBoxFrame
 (
-aPresShell
 aContext
 )
 mInner

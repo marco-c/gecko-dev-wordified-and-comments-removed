@@ -308,7 +308,6 @@ aPresShell
 )
 nsTextControlFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -456,9 +455,6 @@ nsTextControlFrame
 :
 nsTextControlFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext

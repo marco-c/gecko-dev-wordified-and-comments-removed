@@ -480,9 +480,6 @@ nsListBoxBodyFrame
 :
 nsListBoxBodyFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -493,7 +490,6 @@ aLayoutManager
 :
 nsBoxFrame
 (
-aPresShell
 aContext
 false
 aLayoutManager
@@ -6255,7 +6251,6 @@ aPresShell
 )
 nsListBoxBodyFrame
 (
-aPresShell
 aContext
 layout
 )

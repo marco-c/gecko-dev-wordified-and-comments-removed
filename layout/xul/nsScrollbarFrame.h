@@ -43,11 +43,9 @@ nsBoxFrame
 {
 public
 :
+explicit
 nsScrollbarFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -55,7 +53,6 @@ aContext
 :
 nsBoxFrame
 (
-aShell
 aContext
 )
 mScrollbarMediator

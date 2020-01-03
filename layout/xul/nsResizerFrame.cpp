@@ -186,7 +186,6 @@ aPresShell
 )
 nsResizerFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -200,9 +199,6 @@ nsResizerFrame
 :
 nsResizerFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -210,7 +206,6 @@ aContext
 :
 nsTitleBarFrame
 (
-aPresShell
 aContext
 )
 {

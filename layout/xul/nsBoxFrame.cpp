@@ -352,7 +352,6 @@ aPresShell
 )
 nsBoxFrame
 (
-aPresShell
 aContext
 aIsRoot
 aLayoutManager
@@ -378,7 +377,6 @@ aPresShell
 )
 nsBoxFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -409,9 +407,6 @@ nsBoxFrame
 :
 nsBoxFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -472,7 +467,14 @@ nullptr
 {
 NS_NewSprocketLayout
 (
-aPresShell
+PresContext
+(
+)
+-
+>
+PresShell
+(
+)
 layout
 )
 ;

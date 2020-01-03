@@ -77,11 +77,9 @@ MOZ_OVERRIDE
 endif
 protected
 :
+explicit
 nsProgressMeterFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -89,7 +87,6 @@ aContext
 :
 nsBoxFrame
 (
-aPresShell
 aContext
 )
 mNeedsReflowCallback

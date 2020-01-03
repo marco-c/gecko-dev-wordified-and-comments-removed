@@ -121,7 +121,6 @@ aPresShell
 )
 nsTitleBarFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -135,9 +134,6 @@ nsTitleBarFrame
 :
 nsTitleBarFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -145,7 +141,6 @@ aContext
 :
 nsBoxFrame
 (
-aPresShell
 aContext
 false
 )

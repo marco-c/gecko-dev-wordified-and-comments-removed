@@ -506,7 +506,6 @@ aPresShell
 )
 nsImageBoxFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -603,9 +602,6 @@ nsImageBoxFrame
 :
 nsImageBoxFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -613,7 +609,6 @@ aContext
 :
 nsLeafBoxFrame
 (
-aShell
 aContext
 )
 mIntrinsicSize

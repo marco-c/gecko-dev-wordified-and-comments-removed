@@ -70,11 +70,9 @@ nsStyleContext
 aContext
 )
 ;
+explicit
 nsResizerFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext

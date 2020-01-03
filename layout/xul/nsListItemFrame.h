@@ -78,11 +78,9 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 nsListItemFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext

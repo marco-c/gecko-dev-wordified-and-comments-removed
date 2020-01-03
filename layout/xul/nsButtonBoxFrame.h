@@ -39,11 +39,9 @@ nsIPresShell
 aPresShell
 )
 ;
+explicit
 nsButtonBoxFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -51,7 +49,6 @@ aContext
 :
 nsBoxFrame
 (
-aPresShell
 aContext
 false
 )

@@ -206,7 +206,6 @@ aPresShell
 )
 nsProgressMeterFrame
 (
-aPresShell
 aContext
 )
 ;

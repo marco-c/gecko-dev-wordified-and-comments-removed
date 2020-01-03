@@ -99,11 +99,9 @@ NS_DECLARE_FRAME_PROPERTY
 ContentScrollPos
 DestroyPoint
 )
+explicit
 nsTextControlFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext

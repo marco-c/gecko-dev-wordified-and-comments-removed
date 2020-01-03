@@ -257,7 +257,6 @@ aPresShell
 )
 nsSliderFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -283,9 +282,6 @@ nsSliderFrame
 :
 nsSliderFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -293,7 +289,6 @@ aContext
 :
 nsBoxFrame
 (
-aPresShell
 aContext
 )
 mCurPos

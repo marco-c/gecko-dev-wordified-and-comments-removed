@@ -152,7 +152,6 @@ aPresShell
 )
 nsButtonBoxFrame
 (
-aPresShell
 aContext
 )
 ;

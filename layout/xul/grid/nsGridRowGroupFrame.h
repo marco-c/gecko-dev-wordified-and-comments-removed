@@ -60,9 +60,6 @@ aResult
 endif
 nsGridRowGroupFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -73,7 +70,6 @@ aLayoutManager
 :
 nsBoxFrame
 (
-aPresShell
 aContext
 false
 aLayoutManager

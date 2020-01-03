@@ -44,11 +44,9 @@ nsBoxFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsSplitterFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext

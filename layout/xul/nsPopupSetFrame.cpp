@@ -87,7 +87,6 @@ aPresShell
 )
 nsPopupSetFrame
 (
-aPresShell
 aContext
 )
 ;

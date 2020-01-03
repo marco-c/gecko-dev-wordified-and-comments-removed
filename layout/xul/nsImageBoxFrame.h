@@ -341,11 +341,9 @@ aManager
 ;
 protected
 :
+explicit
 nsImageBoxFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext

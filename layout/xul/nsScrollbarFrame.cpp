@@ -93,7 +93,6 @@ aPresShell
 )
 nsScrollbarFrame
 (
-aPresShell
 aContext
 )
 ;

@@ -87,7 +87,6 @@ aPresShell
 )
 nsStackFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -101,9 +100,6 @@ nsStackFrame
 :
 nsStackFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext
@@ -111,7 +107,6 @@ aContext
 :
 nsBoxFrame
 (
-aPresShell
 aContext
 )
 {
@@ -123,7 +118,14 @@ layout
 ;
 NS_NewStackLayout
 (
-aPresShell
+PresContext
+(
+)
+-
+>
+PresShell
+(
+)
 layout
 )
 ;

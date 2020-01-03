@@ -179,11 +179,9 @@ nsStyleContext
 aContext
 )
 ;
+explicit
 nsDocElementBoxFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -191,7 +189,6 @@ aContext
 :
 nsBoxFrame
 (
-aShell
 aContext
 true
 )
@@ -318,7 +315,6 @@ aPresShell
 )
 nsDocElementBoxFrame
 (
-aPresShell
 aContext
 )
 ;

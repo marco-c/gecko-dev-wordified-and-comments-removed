@@ -322,7 +322,6 @@ aPresShell
 )
 nsTextBoxFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -450,9 +449,6 @@ nsTextBoxFrame
 :
 nsTextBoxFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -460,7 +456,6 @@ aContext
 :
 nsLeafBoxFrame
 (
-aShell
 aContext
 )
 mAccessKeyInfo

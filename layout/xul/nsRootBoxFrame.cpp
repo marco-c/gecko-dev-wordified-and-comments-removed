@@ -182,9 +182,6 @@ aContext
 ;
 nsRootBoxFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -436,7 +433,6 @@ aPresShell
 )
 nsRootBoxFrame
 (
-aPresShell
 aContext
 )
 ;
@@ -450,9 +446,6 @@ nsRootBoxFrame
 :
 nsRootBoxFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext
@@ -460,7 +453,6 @@ aContext
 :
 nsBoxFrame
 (
-aShell
 aContext
 true
 )
@@ -477,7 +469,14 @@ layout
 ;
 NS_NewStackLayout
 (
-aShell
+PresContext
+(
+)
+-
+>
+PresShell
+(
+)
 layout
 )
 ;

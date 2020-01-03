@@ -87,11 +87,9 @@ nsMenuBarFrame
 )
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsMenuBarFrame
 (
-nsIPresShell
-*
-aShell
 nsStyleContext
 *
 aContext

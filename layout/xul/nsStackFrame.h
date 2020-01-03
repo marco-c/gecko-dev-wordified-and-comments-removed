@@ -91,11 +91,9 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 nsStackFrame
 (
-nsIPresShell
-*
-aPresShell
 nsStyleContext
 *
 aContext

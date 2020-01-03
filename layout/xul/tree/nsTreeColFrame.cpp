@@ -112,7 +112,6 @@ aPresShell
 )
 nsTreeColFrame
 (
-aPresShell
 aContext
 )
 ;
