@@ -2267,7 +2267,7 @@ GetContent
 )
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 =
