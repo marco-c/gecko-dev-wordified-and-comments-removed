@@ -1048,6 +1048,9 @@ findIndex
 (
 uint32_t
 offset
+uint32_t
+*
+entryOffsetOut
 )
 const
 ;

@@ -1425,6 +1425,9 @@ trackedOptimizationIndexAtAddr
 void
 *
 ptr
+uint32_t
+*
+entryOffsetOut
 )
 ;
 bool
@@ -3235,6 +3238,9 @@ trackedOptimizationIndexAtAddr
 void
 *
 addr
+uint32_t
+*
+entryOffsetOut
 )
 {
 switch
@@ -3255,6 +3261,7 @@ ionEntry
 trackedOptimizationIndexAtAddr
 (
 addr
+entryOffsetOut
 )
 ;
 case
