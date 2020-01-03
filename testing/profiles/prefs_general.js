@@ -740,6 +740,16 @@ user_pref
 "
 extensions
 .
+autoDisableScopes
+"
+0
+)
+;
+user_pref
+(
+"
+extensions
+.
 getAddons
 .
 cache
