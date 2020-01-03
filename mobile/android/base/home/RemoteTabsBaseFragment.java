@@ -175,6 +175,17 @@ mozilla
 .
 gecko
 .
+fxa
+.
+SyncStatusListener
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 widget
 .
 GeckoSwipeRefreshLayout
@@ -1230,8 +1241,6 @@ protected
 class
 RemoteTabsSyncListener
 implements
-FirefoxAccounts
-.
 SyncStatusListener
 {
 Override
