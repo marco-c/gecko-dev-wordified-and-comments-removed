@@ -570,6 +570,9 @@ COLUMNHEADER
 Roles
 .
 ROWHEADER
+Roles
+.
+STATUSBAR
 ]
 ;
 var
@@ -805,6 +808,11 @@ case
 Roles
 .
 ROWHEADER
+:
+case
+Roles
+.
+STATUSBAR
 :
 if
 (
