@@ -2032,6 +2032,14 @@ ins
 )
 ;
 void
+visitSimdBinaryArith
+(
+MSimdBinaryArith
+*
+ins
+)
+;
+void
 visitSimdBinaryBitwise
 (
 MSimdBinaryBitwise

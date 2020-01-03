@@ -629,14 +629,6 @@ ins
 )
 ;
 void
-visitSimdBinaryArith
-(
-MSimdBinaryArith
-*
-ins
-)
-;
-void
 visitSimdTernaryBitwise
 (
 MSimdTernaryBitwise
