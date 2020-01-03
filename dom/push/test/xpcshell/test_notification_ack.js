@@ -177,6 +177,10 @@ org
 /
 1
 '
+originAttributes
+:
+'
+'
 version
 :
 1
@@ -223,6 +227,10 @@ org
 /
 2
 '
+originAttributes
+:
+'
+'
 version
 :
 2
@@ -268,6 +276,10 @@ example
 org
 /
 3
+'
+originAttributes
+:
+'
 '
 version
 :
