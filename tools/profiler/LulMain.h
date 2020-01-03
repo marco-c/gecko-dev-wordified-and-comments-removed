@@ -38,6 +38,7 @@ TaggedUWord
 {
 public
 :
+explicit
 TaggedUWord
 (
 uintptr_t
@@ -264,6 +265,7 @@ LUL
 {
 public
 :
+explicit
 LUL
 (
 void

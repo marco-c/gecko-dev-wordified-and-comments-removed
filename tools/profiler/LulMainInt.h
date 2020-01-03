@@ -356,6 +356,7 @@ SecMap
 {
 public
 :
+explicit
 SecMap
 (
 void

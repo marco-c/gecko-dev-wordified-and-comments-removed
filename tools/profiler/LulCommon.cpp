@@ -93,6 +93,7 @@ UniqueString
 {
 public
 :
+explicit
 UniqueString
 (
 string
