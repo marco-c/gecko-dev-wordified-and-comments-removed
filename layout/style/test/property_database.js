@@ -26383,7 +26383,9 @@ initial_values
 :
 [
 "
-top
+block
+-
+start
 "
 ]
 other_values
@@ -26392,11 +26394,6 @@ other_values
 "
 block
 -
-start
-"
-"
-block
--
 end
 "
 "
@@ -26422,6 +26419,9 @@ block
 end
 -
 outside
+"
+"
+top
 "
 "
 bottom
