@@ -3367,12 +3367,6 @@ NS_OK
 }
 static
 bool
-gBrowserTabsRemoteInitialized
-=
-false
-;
-static
-bool
 gBrowserTabsRemoteAutostart
 =
 false
