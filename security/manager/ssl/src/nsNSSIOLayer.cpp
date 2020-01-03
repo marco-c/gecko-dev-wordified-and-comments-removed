@@ -4738,7 +4738,6 @@ err
 PR_CONNECT_RESET_ERROR
 &
 &
-!
 socketInfo
 -
 >
@@ -4750,7 +4749,7 @@ IOLayerHelpers
 (
 )
 .
-isInsecureFallbackSite
+fallbackLimitReached
 (
 socketInfo
 -
@@ -4758,6 +4757,9 @@ socketInfo
 GetHostName
 (
 )
+range
+.
+max
 )
 )
 {
