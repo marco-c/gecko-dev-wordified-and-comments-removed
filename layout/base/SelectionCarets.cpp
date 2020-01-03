@@ -6317,6 +6317,14 @@ UpdateSelectionCarets
 (
 )
 ;
+if
+(
+mDragMode
+=
+=
+NONE
+)
+{
 DispatchSelectionStateChangedEvent
 (
 GetSelection
@@ -6328,6 +6336,7 @@ SelectionState
 Updateposition
 )
 ;
+}
 }
 return
 NS_OK
