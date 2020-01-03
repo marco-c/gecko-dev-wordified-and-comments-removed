@@ -100,11 +100,15 @@ testing
 description
 =
 '
-Runs
+Run
 the
 luciddream
 test
 suite
+(
+remote
+debugging
+)
 .
 '
 )
