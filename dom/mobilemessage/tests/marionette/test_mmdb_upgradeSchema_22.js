@@ -3252,8 +3252,6 @@ return
 createMessageCursor
 (
 aMmdb
-{
-}
 )
 .
 then
