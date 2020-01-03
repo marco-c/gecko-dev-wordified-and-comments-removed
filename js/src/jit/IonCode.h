@@ -426,7 +426,7 @@ insnSize_
 ;
 }
 void
-trace
+traceChildren
 (
 JSTracer
 *

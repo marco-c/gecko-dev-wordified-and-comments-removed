@@ -1883,6 +1883,14 @@ AutoClearTypeInferenceStateOnOOM
 oom
 )
 ;
+void
+traceChildren
+(
+JSTracer
+*
+trc
+)
+;
 private
 :
 #

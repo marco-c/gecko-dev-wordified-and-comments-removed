@@ -252,7 +252,7 @@ THING_ROOT_SYMBOL
 }
 inline
 void
-markChildren
+traceChildren
 (
 JSTracer
 *

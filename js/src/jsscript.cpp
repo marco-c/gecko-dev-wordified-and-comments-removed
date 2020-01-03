@@ -19557,7 +19557,7 @@ void
 JSScript
 :
 :
-markChildren
+traceChildren
 (
 JSTracer
 *
@@ -19876,7 +19876,7 @@ void
 LazyScript
 :
 :
-markChildren
+traceChildren
 (
 JSTracer
 *

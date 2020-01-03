@@ -3362,7 +3362,7 @@ void
 JitCode
 :
 :
-trace
+traceChildren
 (
 JSTracer
 *
@@ -13774,7 +13774,7 @@ needsIncrementalBarrier
 ionCode
 -
 >
-trace
+traceChildren
 (
 zone
 -

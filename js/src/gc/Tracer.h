@@ -1019,7 +1019,7 @@ mark
 thing
 )
 )
-markChildren
+dispatchToTraceChildren
 (
 thing
 )
@@ -1031,7 +1031,7 @@ typename
 T
 >
 void
-markChildren
+dispatchToTraceChildren
 (
 T
 *

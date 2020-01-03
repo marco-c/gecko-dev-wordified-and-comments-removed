@@ -946,7 +946,7 @@ isIndexed
 const
 ;
 void
-markChildren
+traceChildren
 (
 JSTracer
 *
