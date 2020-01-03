@@ -3781,9 +3781,9 @@ ifdef
 MOZ_MULET
 BINPATH
 /
-defaults
+browser
 /
-pref
+PREF_DIR
 /
 b2g
 .
