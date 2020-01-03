@@ -68,6 +68,8 @@ x
 ;
 const
 x
+=
+undefined
 ;
 '
 )
@@ -152,6 +154,8 @@ x
 ;
 const
 x
+=
+undefined
 ;
 }
 )
@@ -324,6 +328,8 @@ window
 {
 const
 x
+=
+undefined
 ;
 }
 }

@@ -80,6 +80,8 @@ e
 ;
 const
 e
+=
+undefined
 ;
 }
 )

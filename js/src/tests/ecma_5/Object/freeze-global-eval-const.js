@@ -15,6 +15,8 @@ eval
 '
 const
 q
+=
+undefined
 ;
 '
 )
