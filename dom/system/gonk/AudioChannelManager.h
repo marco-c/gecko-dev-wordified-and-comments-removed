@@ -81,12 +81,6 @@ AudioChannelManager
 (
 )
 ;
-virtual
-~
-AudioChannelManager
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMEVENTLISTENER
 void
@@ -179,6 +173,14 @@ IMPL_EVENT_HANDLER
 (
 headphoneschange
 )
+protected
+:
+virtual
+~
+AudioChannelManager
+(
+)
+;
 private
 :
 void
