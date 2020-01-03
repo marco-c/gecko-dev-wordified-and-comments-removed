@@ -561,11 +561,11 @@ what
 {
 case
 '
-list
+runtime
 -
-tabs
+global
 -
-response
+actors
 '
 :
 Monitor

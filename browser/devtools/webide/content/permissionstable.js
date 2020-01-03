@@ -229,11 +229,11 @@ what
 =
 =
 "
-list
+runtime
 -
-tabs
+global
 -
-response
+actors
 "
 )
 {
