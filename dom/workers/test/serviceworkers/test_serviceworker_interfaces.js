@@ -488,6 +488,9 @@ enabled
 "
 }
 "
+WindowClient
+"
+"
 WorkerGlobalScope
 "
 "
