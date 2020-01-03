@@ -520,6 +520,14 @@ aTag
 )
 ;
 bool
+IsIgnorableRubyAnnotation
+(
+nsIAtom
+*
+aTag
+)
+;
+bool
 IsElementPreformatted
 (
 mozilla
@@ -608,6 +616,9 @@ mLineBreakDue
 ;
 bool
 mPreformattedBlockBoundary
+;
+bool
+mWithRubyAnnotation
 ;
 nsString
 mURL
