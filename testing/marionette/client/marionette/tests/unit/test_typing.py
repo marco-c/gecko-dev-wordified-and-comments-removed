@@ -1516,6 +1516,16 @@ value
 "
 )
     
+'
+'
+'
+Disabled
+.
+Reenable
+in
+Bug
+1068728
+    
 def
 testNumericShiftKeys
 (
@@ -1648,6 +1658,10 @@ strip
 )
 )
     
+'
+'
+'
+    
 def
 testLowerCaseAlphaKeys
 (
@@ -1722,6 +1736,16 @@ value
 )
 lowerAlphas
 )
+    
+'
+'
+'
+Disabled
+.
+Reenable
+in
+Bug
+1068735
     
 def
 testUppercaseAlphaKeys
@@ -1832,6 +1856,20 @@ strip
 (
 )
 )
+    
+'
+'
+'
+    
+'
+'
+'
+Disabled
+.
+Reenable
+in
+Bug
+1068726
     
 def
 testAllPrintableKeys
@@ -1974,6 +2012,20 @@ strip
 )
 )
     
+'
+'
+'
+    
+'
+'
+'
+Disabled
+.
+Reenable
+in
+Bug
+1068733
+    
 def
 testSpecialSpaceKeys
 (
@@ -2064,6 +2116,10 @@ fgh
 ij
 "
 )
+    
+'
+'
+'
     
 def
 testShouldTypeAnInteger
