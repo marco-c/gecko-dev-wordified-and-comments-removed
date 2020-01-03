@@ -143,8 +143,16 @@ EndLineReflow
 void
 UpdateBand
 (
+mozilla
+:
+:
+WritingMode
+aWM
 const
-nsRect
+mozilla
+:
+:
+LogicalRect
 &
 aNewAvailableSpace
 nsIFrame
@@ -341,7 +349,7 @@ nsIFrame
 *
 aFloat
 nscoord
-aAvailableWidth
+aAvailableISize
 )
 {
 return
@@ -352,7 +360,7 @@ AddFloat
 (
 this
 aFloat
-aAvailableWidth
+aAvailableISize
 )
 ;
 }
