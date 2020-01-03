@@ -780,6 +780,14 @@ MediaTrack
 aTrack
 )
 ;
+void
+NotifyMediaStreamTracksAvailable
+(
+DOMMediaStream
+*
+aStream
+)
+;
 virtual
 bool
 IsNodeOfType
@@ -1756,6 +1764,9 @@ MediaLoadListener
 class
 StreamListener
 ;
+class
+MediaStreamTracksAvailableCallback
+;
 virtual
 void
 GetItemValueText
@@ -2403,6 +2414,9 @@ mNetworkState
 ;
 nsMediaReadyState
 mReadyState
+;
+NextFrameStatus
+mLastNextFrameStatus
 ;
 enum
 LoadAlgorithmState
