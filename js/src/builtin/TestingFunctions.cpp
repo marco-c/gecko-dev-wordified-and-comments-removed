@@ -6389,6 +6389,15 @@ dumpHeap
 "
 )
 ;
+if
+(
+dumpFile
+)
+fclose
+(
+dumpFile
+)
+;
 return
 false
 ;
