@@ -2559,6 +2559,15 @@ mPendingUninstall
 =
 false
 ;
+swm
+-
+>
+StoreRegistration
+(
+mPrincipal
+mRegistration
+)
+;
 Succeed
 (
 )
