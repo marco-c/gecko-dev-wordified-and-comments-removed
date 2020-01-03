@@ -1698,6 +1698,13 @@ state
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+RecvNuwaFreeze
+(
+)
+MOZ_OVERRIDE
+;
 void
 AddIdleObserver
 (
