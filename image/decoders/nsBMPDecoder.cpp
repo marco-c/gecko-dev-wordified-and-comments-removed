@@ -467,7 +467,7 @@ frames
 if
 (
 !
-IsSizeDecode
+IsMetadataDecode
 (
 )
 &
@@ -1264,7 +1264,7 @@ return
 }
 if
 (
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )

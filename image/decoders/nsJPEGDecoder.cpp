@@ -765,7 +765,7 @@ JPEG_ERROR
 &
 &
 !
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )
@@ -1083,7 +1083,7 @@ return
 }
 if
 (
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )

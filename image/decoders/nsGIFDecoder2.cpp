@@ -252,7 +252,7 @@ error
 if
 (
 !
-IsSizeDecode
+IsMetadataDecode
 (
 )
 &
@@ -2730,7 +2730,7 @@ q
 ;
 if
 (
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )
@@ -3552,7 +3552,7 @@ return
 }
 if
 (
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )
@@ -4200,11 +4200,11 @@ gif_done
 MOZ_ASSERT
 (
 !
-IsSizeDecode
+IsMetadataDecode
 (
 )
 "
-Size
+Metadata
 decodes
 shouldn
 '

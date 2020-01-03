@@ -205,7 +205,7 @@ return
 }
 if
 (
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )

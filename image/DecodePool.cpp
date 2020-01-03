@@ -637,12 +637,12 @@ if
 aDecoder
 -
 >
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )
 {
-mSizeDecodeQueue
+mMetadataDecodeQueue
 .
 AppendElement
 (
@@ -689,7 +689,7 @@ do
 if
 (
 !
-mSizeDecodeQueue
+mMetadataDecodeQueue
 .
 IsEmpty
 (
@@ -699,7 +699,7 @@ IsEmpty
 return
 PopWorkFromQueue
 (
-mSizeDecodeQueue
+mMetadataDecodeQueue
 )
 ;
 }
@@ -834,7 +834,7 @@ nsRefPtr
 Decoder
 >
 >
-mSizeDecodeQueue
+mMetadataDecodeQueue
 ;
 nsTArray
 <

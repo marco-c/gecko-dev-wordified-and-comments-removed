@@ -7519,12 +7519,12 @@ GetDecodeFlags
 )
 ;
 bool
-wasSize
+wasMetadata
 =
 aDecoder
 -
 >
-IsSizeDecode
+IsMetadataDecode
 (
 )
 ;
@@ -7541,7 +7541,7 @@ GetDecodeDone
 if
 (
 !
-wasSize
+wasMetadata
 &
 &
 aDecoder
@@ -7578,7 +7578,7 @@ done
 if
 (
 !
-wasSize
+wasMetadata
 )
 {
 Telemetry
@@ -7694,7 +7694,7 @@ DoError
 else
 if
 (
-wasSize
+wasMetadata
 &
 &
 !
@@ -7711,7 +7711,7 @@ if
 mLoadProgress
 &
 &
-wasSize
+wasMetadata
 )
 {
 NotifyForLoadEvent
@@ -7753,7 +7753,7 @@ if
 done
 &
 &
-wasSize
+wasMetadata
 &
 &
 mWantFullDecode

@@ -548,7 +548,7 @@ now
 decoder
 -
 >
-SetSizeDecode
+SetMetadataDecode
 (
 false
 )
@@ -767,7 +767,7 @@ now
 decoder
 -
 >
-SetSizeDecode
+SetMetadataDecode
 (
 true
 )

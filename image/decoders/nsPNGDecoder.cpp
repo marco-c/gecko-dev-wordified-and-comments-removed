@@ -913,7 +913,7 @@ InitInternal
 {
 if
 (
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )
@@ -1308,7 +1308,7 @@ error
 ;
 if
 (
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )

@@ -1515,9 +1515,9 @@ mImage
 mContainedDecoder
 -
 >
-SetSizeDecode
+SetMetadataDecode
 (
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )
@@ -1639,7 +1639,7 @@ aCount
 if
 (
 !
-IsSizeDecode
+IsMetadataDecode
 (
 )
 &
@@ -1850,9 +1850,9 @@ true
 mContainedDecoder
 -
 >
-SetSizeDecode
+SetMetadataDecode
 (
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )
@@ -2007,7 +2007,7 @@ GetHeight
 ;
 if
 (
-IsSizeDecode
+IsMetadataDecode
 (
 )
 )
