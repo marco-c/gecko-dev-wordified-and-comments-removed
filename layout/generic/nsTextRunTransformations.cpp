@@ -17,6 +17,15 @@ h
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -95,6 +104,10 @@ IrishCasing
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 define
 LATIN_CAPITAL_LETTER_I_WITH_DOT_ABOVE
