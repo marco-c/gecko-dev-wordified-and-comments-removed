@@ -4991,7 +4991,6 @@ CPOWProxyHandler
 singleton
 v
 nullptr
-junkScope
 options
 )
 ;

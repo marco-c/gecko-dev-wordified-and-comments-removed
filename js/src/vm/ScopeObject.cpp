@@ -9315,12 +9315,6 @@ DebugScopeProxy
 singleton
 priv
 nullptr
-&
-scope
-.
-global
-(
-)
 )
 ;
 if
