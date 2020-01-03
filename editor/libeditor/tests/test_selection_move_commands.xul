@@ -1358,7 +1358,10 @@ testMoveCommand
 "
 cmd_endLine
 "
-body
+node
+(
+0
+)
 1
 )
 ;
@@ -1379,7 +1382,10 @@ testSelectCommand
 "
 cmd_selectEndLine
 "
-body
+node
+(
+0
+)
 1
 )
 ;
