@@ -91,6 +91,17 @@ MPL
 .
 *
 /
+[
+Pref
+=
+"
+dom
+.
+mobileconnection
+.
+enabled
+"
+]
 interface
 MozMobileConnectionArray
 {
