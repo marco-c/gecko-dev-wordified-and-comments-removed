@@ -146,6 +146,11 @@ DOMHelpers
 jsm
 '
 '
+FloatingScrollbars
+.
+jsm
+'
+'
 Jsbeautify
 .
 jsm
