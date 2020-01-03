@@ -2141,6 +2141,14 @@ TextureFlags
 DEALLOCATE_CLIENT
 )
 ;
+textureClient
+-
+>
+SetIsOpaque
+(
+true
+)
+;
 usage
 |
 =
