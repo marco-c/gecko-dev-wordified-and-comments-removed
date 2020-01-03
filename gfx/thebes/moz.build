@@ -318,11 +318,6 @@ gfxUtils
 h
 '
 '
-gfxVR
-.
-h
-'
-'
 GraphicsFilter
 .
 h
@@ -1278,11 +1273,6 @@ cpp
 '
 '
 gfxUtils
-.
-cpp
-'
-'
-gfxVR
 .
 cpp
 '
