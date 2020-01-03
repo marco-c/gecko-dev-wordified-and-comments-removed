@@ -26,8 +26,7 @@ LEFT
 RIGHT
 ENTER
 MENU
-Deprecated
-BACK
+DELETE
 }
 public
 interface
