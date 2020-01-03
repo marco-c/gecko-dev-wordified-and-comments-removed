@@ -1840,17 +1840,6 @@ prior
 =
 proto
 ;
-JS
-:
-:
-AutoOriginalTraceLocation
-reloc
-(
-trc
-&
-proto
-)
-;
 TraceManuallyBarrieredEdge
 (
 trc
