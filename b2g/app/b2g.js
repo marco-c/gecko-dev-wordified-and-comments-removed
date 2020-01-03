@@ -2538,7 +2538,7 @@ gonk
 .
 enabled
 "
-false
+true
 )
 ;
 #
@@ -6536,7 +6536,7 @@ fling_curve_function_x1
 "
 0
 .
-41
+0
 "
 )
 ;
@@ -6564,7 +6564,7 @@ fling_curve_function_x2
 "
 0
 .
-76
+58
 "
 )
 ;
@@ -6592,7 +6592,7 @@ fling_curve_threshold_inches_per_ms
 "
 0
 .
-01
+03
 "
 )
 ;
@@ -6606,7 +6606,7 @@ fling_friction
 "
 0
 .
-0024
+003
 "
 )
 ;
