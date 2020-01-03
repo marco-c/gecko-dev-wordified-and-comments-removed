@@ -1879,7 +1879,7 @@ word
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -1951,7 +1951,7 @@ word
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -1997,7 +1997,7 @@ word
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2014,7 +2014,7 @@ word
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2066,7 +2066,7 @@ value
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2114,7 +2114,7 @@ reg
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2143,7 +2143,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2182,7 +2182,7 @@ scale
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2206,7 +2206,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2258,7 +2258,7 @@ movq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -2282,7 +2282,7 @@ movq_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -2311,7 +2311,7 @@ movq_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -2350,7 +2350,7 @@ movq_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -2531,7 +2531,7 @@ vmovq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -2562,7 +2562,7 @@ encoding
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2583,12 +2583,12 @@ movq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2609,12 +2609,12 @@ xchgq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2635,12 +2635,12 @@ movslq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2688,7 +2688,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2727,7 +2727,7 @@ scale
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2762,12 +2762,12 @@ andq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2791,7 +2791,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2834,7 +2834,7 @@ reg
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2863,7 +2863,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2902,7 +2902,7 @@ scale
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2926,7 +2926,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2964,7 +2964,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3089,12 +3089,12 @@ addq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3137,7 +3137,7 @@ reg
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3166,7 +3166,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3190,7 +3190,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3228,7 +3228,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3249,12 +3249,12 @@ subq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3297,7 +3297,7 @@ reg
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3326,7 +3326,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3350,7 +3350,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3402,7 +3402,7 @@ subq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -3426,7 +3426,7 @@ subq_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -3474,7 +3474,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3498,7 +3498,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3522,7 +3522,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3546,7 +3546,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3567,12 +3567,12 @@ orq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3615,7 +3615,7 @@ reg
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3644,7 +3644,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3668,7 +3668,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3703,12 +3703,12 @@ xorq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3732,7 +3732,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3803,7 +3803,7 @@ movq_i64r
 1
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3932,7 +3932,7 @@ prev
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4008,7 +4008,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4047,7 +4047,7 @@ scale
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4083,7 +4083,7 @@ movl_ripr
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4110,7 +4110,7 @@ movq_ripr
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4245,7 +4245,7 @@ movl_rrip
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4380,7 +4380,7 @@ leaq_rip
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4454,12 +4454,12 @@ cmpq_rr
 (
 rhs
 .
-code
+encoding
 (
 )
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -4497,7 +4497,7 @@ cmpq_rr
 (
 rhs
 .
-code
+encoding
 (
 )
 lhs
@@ -4521,7 +4521,7 @@ cmpq_rm
 (
 rhs
 .
-code
+encoding
 (
 )
 lhs
@@ -4550,7 +4550,7 @@ cmpq_rm
 (
 rhs
 .
-code
+encoding
 (
 )
 lhs
@@ -4593,7 +4593,7 @@ rhs
 value
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -4740,7 +4740,7 @@ reg
 )
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -4769,7 +4769,7 @@ base
 )
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -4807,7 +4807,7 @@ rhs
 value
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -4828,12 +4828,12 @@ testq_rr
 (
 rhs
 .
-code
+encoding
 (
 )
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -5209,7 +5209,7 @@ encoding
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5235,7 +5235,7 @@ encoding
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5258,7 +5258,7 @@ vcvtsq2sd_rr
 (
 src1
 .
-code
+encoding
 (
 )
 src0
@@ -5291,7 +5291,7 @@ vcvtsq2ss_rr
 (
 src1
 .
-code
+encoding
 (
 )
 src0

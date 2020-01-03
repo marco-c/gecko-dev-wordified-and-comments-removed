@@ -77,7 +77,10 @@ scale_
 :
 3
 ;
-int32_t
+Register
+:
+:
+Encoding
 index_
 :
 5
@@ -102,7 +105,7 @@ base_
 (
 reg
 .
-code
+encoding
 (
 )
 )
@@ -148,7 +151,7 @@ address
 .
 base
 .
-code
+encoding
 (
 )
 )
@@ -179,7 +182,7 @@ address
 .
 base
 .
-code
+encoding
 (
 )
 )
@@ -195,7 +198,7 @@ address
 .
 index
 .
-code
+encoding
 (
 )
 )
@@ -229,7 +232,7 @@ base_
 (
 base
 .
-code
+encoding
 (
 )
 )
@@ -241,7 +244,7 @@ index_
 (
 index
 .
-code
+encoding
 (
 )
 )
@@ -267,7 +270,7 @@ base_
 (
 reg
 .
-code
+encoding
 (
 )
 )
@@ -420,7 +423,7 @@ kind_
 Register
 :
 :
-Code
+Encoding
 reg
 (
 )
@@ -440,7 +443,7 @@ return
 Register
 :
 :
-Code
+Encoding
 (
 base_
 )
@@ -449,7 +452,7 @@ base_
 Register
 :
 :
-Code
+Encoding
 base
 (
 )
@@ -477,7 +480,7 @@ return
 Register
 :
 :
-Code
+Encoding
 (
 base_
 )
@@ -486,7 +489,7 @@ base_
 Register
 :
 :
-Code
+Encoding
 index
 (
 )
@@ -503,13 +506,7 @@ MEM_SCALE
 )
 ;
 return
-Register
-:
-:
-Code
-(
 index_
-)
 ;
 }
 Scale
@@ -638,7 +635,7 @@ REG
 return
 r
 .
-code
+encoding
 (
 )
 =
@@ -653,7 +650,7 @@ MEM_REG_DISP
 return
 r
 .
-code
+encoding
 (
 )
 =
@@ -668,7 +665,7 @@ MEM_SCALE
 return
 r
 .
-code
+encoding
 (
 )
 =
@@ -680,7 +677,7 @@ base
 |
 r
 .
-code
+encoding
 (
 )
 =
@@ -2011,7 +2008,7 @@ imm32
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2032,12 +2029,12 @@ movl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2080,7 +2077,7 @@ reg
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2109,7 +2106,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2148,7 +2145,7 @@ scale
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2172,7 +2169,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2224,7 +2221,7 @@ movl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -2248,7 +2245,7 @@ movl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -2277,7 +2274,7 @@ movl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -2316,7 +2313,7 @@ movl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -2475,12 +2472,12 @@ xchgl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3030,7 +3027,7 @@ src
 .
 base
 .
-code
+encoding
 (
 )
 dest
@@ -3063,14 +3060,14 @@ src
 .
 base
 .
-code
+encoding
 (
 )
 src
 .
 index
 .
-code
+encoding
 (
 )
 src
@@ -3111,7 +3108,7 @@ dest
 .
 base
 .
-code
+encoding
 (
 )
 )
@@ -3144,14 +3141,14 @@ dest
 .
 base
 .
-code
+encoding
 (
 )
 dest
 .
 index
 .
-code
+encoding
 (
 )
 dest
@@ -3182,7 +3179,7 @@ src
 .
 base
 .
-code
+encoding
 (
 )
 dest
@@ -3215,14 +3212,14 @@ src
 .
 base
 .
-code
+encoding
 (
 )
 src
 .
 index
 .
-code
+encoding
 (
 )
 src
@@ -3263,7 +3260,7 @@ dest
 .
 base
 .
-code
+encoding
 (
 )
 )
@@ -3296,14 +3293,14 @@ dest
 .
 base
 .
-code
+encoding
 (
 )
 dest
 .
 index
 .
-code
+encoding
 (
 )
 dest
@@ -3956,7 +3953,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3995,7 +3992,7 @@ scale
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4030,12 +4027,12 @@ movsbl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4083,7 +4080,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4122,7 +4119,7 @@ scale
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4184,7 +4181,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4223,7 +4220,7 @@ scale
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4263,7 +4260,7 @@ value
 255
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4301,7 +4298,7 @@ movb_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4330,7 +4327,7 @@ movb_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4504,7 +4501,7 @@ reg
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4533,7 +4530,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4572,7 +4569,7 @@ scale
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4607,12 +4604,12 @@ movzwl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4696,7 +4693,7 @@ movw_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4725,7 +4722,7 @@ movw_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4877,12 +4874,12 @@ movswl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4930,7 +4927,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4969,7 +4966,7 @@ scale
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5031,7 +5028,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5070,7 +5067,7 @@ scale
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -6215,7 +6212,7 @@ call_r
 (
 reg
 .
-code
+encoding
 (
 )
 )
@@ -6412,12 +6409,12 @@ cmpl_rr
 (
 rhs
 .
-code
+encoding
 (
 )
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -6460,7 +6457,7 @@ reg
 )
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -6489,7 +6486,7 @@ base
 )
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -6513,7 +6510,7 @@ address
 )
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -6565,7 +6562,7 @@ cmpl_rr
 (
 rhs
 .
-code
+encoding
 (
 )
 lhs
@@ -6589,7 +6586,7 @@ cmpl_rm
 (
 rhs
 .
-code
+encoding
 (
 )
 lhs
@@ -6618,7 +6615,7 @@ cmpl_rm
 (
 rhs
 .
-code
+encoding
 (
 )
 lhs
@@ -6661,7 +6658,7 @@ rhs
 value
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -6826,7 +6823,7 @@ rhs
 value
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -6857,12 +6854,12 @@ cmpw_rr
 (
 rhs
 .
-code
+encoding
 (
 )
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -6893,7 +6890,7 @@ cond
 )
 r
 .
-code
+encoding
 (
 )
 )
@@ -6946,12 +6943,12 @@ testb_rr
 (
 rhs
 .
-code
+encoding
 (
 )
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -6972,12 +6969,12 @@ testw_rr
 (
 lhs
 .
-code
+encoding
 (
 )
 rhs
 .
-code
+encoding
 (
 )
 )
@@ -6998,12 +6995,12 @@ testl_rr
 (
 lhs
 .
-code
+encoding
 (
 )
 rhs
 .
-code
+encoding
 (
 )
 )
@@ -7027,7 +7024,7 @@ rhs
 value
 lhs
 .
-code
+encoding
 (
 )
 )
@@ -7157,7 +7154,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -7181,7 +7178,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -7356,7 +7353,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -7496,12 +7493,12 @@ addl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -7539,7 +7536,7 @@ addl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -7563,7 +7560,7 @@ addl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -7592,7 +7589,7 @@ addl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -7647,12 +7644,12 @@ subl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -7695,7 +7692,7 @@ reg
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -7724,7 +7721,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -7776,7 +7773,7 @@ subl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -7800,7 +7797,7 @@ subl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -7829,7 +7826,7 @@ subl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -7884,12 +7881,12 @@ orl_rr
 (
 reg
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -7927,7 +7924,7 @@ orl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -7951,7 +7948,7 @@ orl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -7980,7 +7977,7 @@ orl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -8038,7 +8035,7 @@ imm
 value
 reg
 .
-code
+encoding
 (
 )
 )
@@ -8178,12 +8175,12 @@ xorl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -8221,7 +8218,7 @@ xorl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -8245,7 +8242,7 @@ xorl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -8274,7 +8271,7 @@ xorl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -8332,7 +8329,7 @@ imm
 value
 reg
 .
-code
+encoding
 (
 )
 )
@@ -8472,12 +8469,12 @@ andl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -8515,7 +8512,7 @@ andl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -8539,7 +8536,7 @@ andl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -8568,7 +8565,7 @@ andl_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -8626,7 +8623,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -8788,7 +8785,7 @@ reg
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -8817,7 +8814,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -8874,7 +8871,7 @@ reg
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -8903,7 +8900,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -8960,7 +8957,7 @@ reg
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -8989,7 +8986,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9046,7 +9043,7 @@ reg
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9075,7 +9072,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9114,12 +9111,12 @@ bsr_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9138,7 +9135,7 @@ imull_r
 (
 multiplier
 .
-code
+encoding
 (
 )
 )
@@ -9162,12 +9159,12 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9188,12 +9185,12 @@ imull_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9219,12 +9216,12 @@ imm
 value
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9267,7 +9264,7 @@ reg
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9296,7 +9293,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9403,7 +9400,7 @@ negl_r
 (
 reg
 .
-code
+encoding
 (
 )
 )
@@ -9496,7 +9493,7 @@ notl_r
 (
 reg
 .
-code
+encoding
 (
 )
 )
@@ -9521,7 +9518,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9546,7 +9543,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9571,7 +9568,7 @@ imm
 value
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9590,7 +9587,7 @@ shrl_CLr
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9609,7 +9606,7 @@ shll_CLr
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9628,7 +9625,7 @@ sarl_CLr
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -9917,7 +9914,7 @@ addb_rm
 (
 src
 .
-code
+encoding
 (
 )
 op
@@ -9946,7 +9943,7 @@ addb_rm
 (
 src
 .
-code
+encoding
 (
 )
 op
@@ -10119,7 +10116,7 @@ subb_rm
 (
 src
 .
-code
+encoding
 (
 )
 op
@@ -10148,7 +10145,7 @@ subb_rm
 (
 src
 .
-code
+encoding
 (
 )
 op
@@ -10321,7 +10318,7 @@ andb_rm
 (
 src
 .
-code
+encoding
 (
 )
 op
@@ -10350,7 +10347,7 @@ andb_rm
 (
 src
 .
-code
+encoding
 (
 )
 op
@@ -10523,7 +10520,7 @@ orb_rm
 (
 src
 .
-code
+encoding
 (
 )
 op
@@ -10552,7 +10549,7 @@ orb_rm
 (
 src
 .
-code
+encoding
 (
 )
 op
@@ -10725,7 +10722,7 @@ xorb_rm
 (
 src
 .
-code
+encoding
 (
 )
 op
@@ -10754,7 +10751,7 @@ xorb_rm
 (
 src
 .
-code
+encoding
 (
 )
 op
@@ -11299,7 +11296,7 @@ cmpxchgb
 (
 src
 .
-code
+encoding
 (
 )
 mem
@@ -11328,7 +11325,7 @@ cmpxchgb
 (
 src
 .
-code
+encoding
 (
 )
 mem
@@ -11406,7 +11403,7 @@ cmpxchgw
 (
 src
 .
-code
+encoding
 (
 )
 mem
@@ -11435,7 +11432,7 @@ cmpxchgw
 (
 src
 .
-code
+encoding
 (
 )
 mem
@@ -11513,7 +11510,7 @@ cmpxchgl
 (
 src
 .
-code
+encoding
 (
 )
 mem
@@ -11542,7 +11539,7 @@ cmpxchgl
 (
 src
 .
-code
+encoding
 (
 )
 mem
@@ -11614,7 +11611,7 @@ lock_xaddb_rm
 (
 srcdest
 .
-code
+encoding
 (
 )
 mem
@@ -11643,7 +11640,7 @@ lock_xaddb_rm
 (
 srcdest
 .
-code
+encoding
 (
 )
 mem
@@ -11739,7 +11736,7 @@ lock_xaddl_rm
 (
 srcdest
 .
-code
+encoding
 (
 )
 mem
@@ -11768,7 +11765,7 @@ lock_xaddl_rm
 (
 srcdest
 .
-code
+encoding
 (
 )
 mem
@@ -11913,7 +11910,7 @@ push_r
 (
 src
 .
-code
+encoding
 (
 )
 )
@@ -11939,7 +11936,7 @@ src
 .
 base
 .
-code
+encoding
 (
 )
 )
@@ -12032,7 +12029,7 @@ pop_r
 (
 src
 .
-code
+encoding
 (
 )
 )
@@ -12058,7 +12055,7 @@ src
 .
 base
 .
-code
+encoding
 (
 )
 )
@@ -12132,12 +12129,12 @@ movzbl_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -12168,7 +12165,7 @@ idivl_r
 (
 divisor
 .
-code
+encoding
 (
 )
 )
@@ -12187,7 +12184,7 @@ divl_r
 (
 divisor
 .
-code
+encoding
 (
 )
 )
@@ -12220,7 +12217,7 @@ vpinsrd_irr
 lane
 src1
 .
-code
+encoding
 (
 )
 src0
@@ -12375,7 +12372,7 @@ encoding
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -13002,7 +12999,7 @@ encoding
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -13035,7 +13032,7 @@ encoding
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -13214,7 +13211,7 @@ vcvtsi2ss_rr
 (
 src1
 .
-code
+encoding
 (
 )
 src0
@@ -13254,7 +13251,7 @@ vcvtsi2sd_rr
 (
 src1
 .
-code
+encoding
 (
 )
 src0
@@ -13363,7 +13360,7 @@ encoding
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -13396,7 +13393,7 @@ encoding
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -14519,7 +14516,7 @@ vmovd_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -14557,7 +14554,7 @@ encoding
 )
 dest
 .
-code
+encoding
 (
 )
 )

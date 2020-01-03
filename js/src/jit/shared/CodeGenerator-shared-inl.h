@@ -1027,7 +1027,7 @@ ToRegister
 alloc
 )
 .
-code
+encoding
 (
 )
 )
