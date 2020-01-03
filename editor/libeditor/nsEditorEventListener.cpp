@@ -3414,6 +3414,14 @@ SetCaretReadOnly
 true
 )
 ;
+mCaret
+-
+>
+SetVisibilityDuringSelection
+(
+true
+)
+;
 }
 presShell
 -
