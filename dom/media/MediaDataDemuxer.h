@@ -118,6 +118,16 @@ Init
 0
 ;
 virtual
+bool
+IsThreadSafe
+(
+)
+{
+return
+false
+;
+}
+virtual
 already_AddRefed
 <
 MediaDataDemuxer
