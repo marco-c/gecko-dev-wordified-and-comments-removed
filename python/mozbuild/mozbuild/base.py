@@ -1653,6 +1653,8 @@ self
 )
 :
         
+from
+.
 import
 mozinfo
         
