@@ -115,6 +115,11 @@ Icc
 h
 '
 '
+IccCardLockError
+.
+h
+'
+'
 IccInfo
 .
 h
@@ -136,6 +141,11 @@ cpp
 '
 '
 Icc
+.
+cpp
+'
+'
+IccCardLockError
 .
 cpp
 '
