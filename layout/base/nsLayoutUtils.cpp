@@ -730,6 +730,15 @@ RestyleManager
 .
 h
 "
+#
+include
+"
+mozilla
+/
+EventDispatcher
+.
+h
+"
 using
 namespace
 mozilla

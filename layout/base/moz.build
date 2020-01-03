@@ -783,6 +783,11 @@ RestyleTracker
 cpp
 '
 '
+ScrollbarStyles
+.
+cpp
+'
+'
 SelectionCarets
 .
 cpp

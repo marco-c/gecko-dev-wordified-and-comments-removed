@@ -14362,7 +14362,6 @@ ScrollbarStyles
 (
 NS_STYLE_OVERFLOW_HIDDEN
 NS_STYLE_OVERFLOW_HIDDEN
-NS_STYLE_SCROLL_BEHAVIOR_AUTO
 )
 ;
 }
@@ -14388,17 +14387,6 @@ return
 ScrollbarStyles
 (
 disp
--
->
-mOverflowX
-disp
--
->
-mOverflowY
-disp
--
->
-mScrollBehavior
 )
 ;
 }

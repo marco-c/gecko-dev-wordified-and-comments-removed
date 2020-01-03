@@ -2370,7 +2370,6 @@ ScrollbarStyles
 (
 NS_STYLE_OVERFLOW_HIDDEN
 verticalStyle
-NS_STYLE_SCROLL_BEHAVIOR_AUTO
 )
 ;
 }
