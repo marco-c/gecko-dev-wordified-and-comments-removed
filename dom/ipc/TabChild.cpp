@@ -7474,10 +7474,7 @@ aPositionSpecified
 aSizeSpecified
 url
 name
-NS_ConvertUTF8toUTF16
-(
 features
-)
 NS_ConvertUTF8toUTF16
 (
 baseURIString
