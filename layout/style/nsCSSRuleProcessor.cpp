@@ -918,7 +918,9 @@ ToLocalOps
 table
 -
 >
-ops
+Ops
+(
+)
 )
 -
 >
@@ -1002,7 +1004,9 @@ ToLocalOps
 table
 -
 >
-ops
+Ops
+(
+)
 )
 -
 >
