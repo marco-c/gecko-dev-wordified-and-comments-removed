@@ -14529,7 +14529,7 @@ ruby
 .
 enabled
 "
-false
+true
 )
 ;
 pref
