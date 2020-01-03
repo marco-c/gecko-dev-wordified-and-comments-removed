@@ -286,6 +286,10 @@ wrap_content
 "
 >
 <
+view
+class
+=
+"
 org
 .
 mozilla
@@ -294,7 +298,9 @@ gecko
 .
 tabs
 .
-TabsListLayout
+TabsPanel
+TabsLayout
+"
 android
 :
 id
