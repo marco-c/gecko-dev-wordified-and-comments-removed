@@ -199,6 +199,16 @@ if
 (
 !
 timeline
+)
+{
+return
+PL_DHASH_REMOVE
+;
+}
+if
+(
+!
+timeline
 -
 >
 TracksWallclockTime
