@@ -14053,10 +14053,15 @@ gfx
 IntSize
 alignment
 =
-gfxPrefs
+gfxPlatform
 :
 :
-LayersTilesEnabled
+GetPlatform
+(
+)
+-
+>
+UseTiling
 (
 )
 ?

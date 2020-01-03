@@ -937,7 +937,7 @@ return
 gfxPrefs
 :
 :
-LayersTilesEnabled
+LayersTilesEnabledDoNotUseDirectly
 (
 )
 ;
