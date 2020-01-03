@@ -13528,7 +13528,7 @@ this
 GECKO_CALL_ERROR_REJECTED_DETINATION_FEATURE
 =
 "
-CallRejectedDestinationFeature
+CallRejectedDestinationFeatureError
 "
 ;
 this
