@@ -670,6 +670,7 @@ COMPILE_ENVIRONMENT
 )
 compile
 )
+misc
 libs
 tools
 endif
