@@ -117,6 +117,9 @@ test_cert_trust
 '
 test_intermediate_basic_usage_constraints
 '
+'
+test_pinning_dynamic
+'
 ]
 if
 not
