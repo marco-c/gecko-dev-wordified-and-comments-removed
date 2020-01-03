@@ -7,6 +7,11 @@ GOOGLE_PROTOBUF_IO_ZERO_COPY_STREAM_IMPL_LITE_H__
 #
 include
 <
+vector
+>
+#
+include
+<
 string
 >
 #
