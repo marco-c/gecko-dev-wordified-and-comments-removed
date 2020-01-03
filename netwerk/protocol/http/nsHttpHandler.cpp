@@ -820,6 +820,10 @@ mProduct
 Gecko
 "
 )
+mCompatFirefoxEnabled
+(
+false
+)
 mUserAgentIsDirty
 (
 true
@@ -970,6 +974,10 @@ mRequestTokenBucketHz
 mRequestTokenBucketBurst
 (
 32
+)
+mCriticalRequestPrioritization
+(
+true
 )
 mTCPKeepaliveShortLivedEnabled
 (
