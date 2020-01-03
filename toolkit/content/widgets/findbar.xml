@@ -4511,13 +4511,6 @@ _cancelTimers
 ;
 this
 .
-toggleHighlight
-(
-false
-)
-;
-this
-.
 _findFailedString
 =
 null
