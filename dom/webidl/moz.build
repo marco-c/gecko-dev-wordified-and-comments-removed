@@ -1815,6 +1815,16 @@ PerformanceNavigation
 webidl
 '
 '
+PerformanceObserver
+.
+webidl
+'
+'
+PerformanceObserverEntryList
+.
+webidl
+'
+'
 PerformanceResourceTiming
 .
 webidl
