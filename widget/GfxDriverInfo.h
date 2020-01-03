@@ -296,6 +296,7 @@ Geforce7300GT
 Nvidia310M
 AMDRadeonHD5800
 Bug1137716
+Bug1116812
 DeviceFamilyMax
 }
 ;
