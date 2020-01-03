@@ -12017,6 +12017,13 @@ WidgetCompositionEvent
 event
 )
 {
+unused
+<
+<
+SendOnEventNeedingAckReceived
+(
+)
+;
 WidgetCompositionEvent
 localEvent
 (
@@ -12053,6 +12060,13 @@ WidgetSelectionEvent
 event
 )
 {
+unused
+<
+<
+SendOnEventNeedingAckReceived
+(
+)
+;
 WidgetSelectionEvent
 localEvent
 (

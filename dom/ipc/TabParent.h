@@ -765,6 +765,13 @@ override
 ;
 virtual
 bool
+RecvOnEventNeedingAckReceived
+(
+)
+override
+;
+virtual
+bool
 RecvEndIMEComposition
 (
 const
