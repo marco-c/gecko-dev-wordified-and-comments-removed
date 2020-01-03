@@ -62,9 +62,6 @@ class
 APZCTreeManager
 ;
 class
-GestureEventListener
-;
-class
 TargetConfig
 ;
 class
