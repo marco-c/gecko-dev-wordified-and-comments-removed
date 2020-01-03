@@ -1641,6 +1641,18 @@ parameters
 '
 :
 additional_parameters
+                
+'
+build_name
+'
+:
+platform
+                
+'
+build_type
+'
+:
+build_type
             
 }
 )
