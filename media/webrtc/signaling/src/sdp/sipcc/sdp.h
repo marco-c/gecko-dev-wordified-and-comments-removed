@@ -1199,7 +1199,7 @@ H
 #
 define
 SDP_MAX_MEDIA_STREAMS
-10
+32
 #
 define
 SDP_MAGIC_NUM
