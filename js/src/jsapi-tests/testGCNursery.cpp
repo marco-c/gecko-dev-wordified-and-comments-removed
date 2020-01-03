@@ -81,6 +81,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 _finalize
 nullptr
 nullptr
@@ -109,6 +110,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 1
 )
+nullptr
 nullptr
 nullptr
 nullptr

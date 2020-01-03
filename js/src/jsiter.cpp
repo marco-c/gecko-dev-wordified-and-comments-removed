@@ -5517,6 +5517,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 finalize
 nullptr
 nullptr
@@ -7149,6 +7150,7 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_StopIteration
 )
+nullptr
 nullptr
 nullptr
 nullptr

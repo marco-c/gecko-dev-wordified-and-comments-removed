@@ -4196,6 +4196,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 {
 GenericCreateConstructor
 <
@@ -9793,6 +9794,13 @@ resolve
 nullptr
 /
 *
+mayResolve
+*
+/
+\
+nullptr
+/
+*
 convert
 *
 /
@@ -10044,6 +10052,13 @@ resolve
 nullptr
 /
 *
+mayResolve
+*
+/
+\
+nullptr
+/
+*
 convert
 *
 /
@@ -10233,6 +10248,7 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_DataView
 )
+nullptr
 nullptr
 nullptr
 nullptr

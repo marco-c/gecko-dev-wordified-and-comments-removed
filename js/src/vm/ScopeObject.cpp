@@ -3136,6 +3136,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT
 {
@@ -5458,6 +5459,7 @@ RESERVED_SLOTS
 )
 |
 JSCLASS_IS_ANONYMOUS
+nullptr
 nullptr
 nullptr
 nullptr

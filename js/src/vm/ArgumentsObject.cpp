@@ -3453,6 +3453,7 @@ nullptr
 args_enumerate
 args_resolve
 nullptr
+nullptr
 ArgumentsObject
 :
 :
@@ -3499,6 +3500,7 @@ nullptr
 nullptr
 strictargs_enumerate
 strictargs_resolve
+nullptr
 nullptr
 ArgumentsObject
 :

@@ -4637,6 +4637,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 ExpandoObjectFinalize
 }
 ;

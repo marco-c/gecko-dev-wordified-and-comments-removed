@@ -2180,6 +2180,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 collator_finalize
 }
 ;
@@ -4850,6 +4851,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 numberFormat_finalize
 }
 ;
@@ -7297,6 +7299,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 DATE_TIME_FORMAT_SLOTS_COUNT
 )
+nullptr
 nullptr
 nullptr
 nullptr

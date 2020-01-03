@@ -1016,6 +1016,7 @@ NPObjWrapper_GetProperty
 NPObjWrapper_SetProperty
 nullptr
 NPObjWrapper_Resolve
+nullptr
 NPObjWrapper_Convert
 NPObjWrapper_Finalize
 NPObjWrapper_Call
@@ -1174,6 +1175,7 @@ class
 JSCLASS_HAS_PRIVATE
 |
 JSCLASS_IMPLEMENTS_BARRIERS
+nullptr
 nullptr
 nullptr
 nullptr

@@ -6550,6 +6550,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 FinalizeStub
 nullptr
 nullptr

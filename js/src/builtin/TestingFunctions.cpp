@@ -6622,6 +6622,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 finalize_counter_finalize
 }
 ;
@@ -10414,6 +10415,7 @@ CloneBufferObject
 :
 NUM_SLOTS
 )
+nullptr
 nullptr
 nullptr
 nullptr

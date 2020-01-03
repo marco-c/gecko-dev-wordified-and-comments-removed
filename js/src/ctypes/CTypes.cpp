@@ -2485,6 +2485,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 ConstructAbstract
 nullptr
 ConstructAbstract
@@ -2517,6 +2518,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 CTYPE_SLOTS
 )
+nullptr
 nullptr
 nullptr
 nullptr
@@ -2572,6 +2574,7 @@ Setter
 nullptr
 nullptr
 nullptr
+nullptr
 CData
 :
 :
@@ -2602,6 +2605,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 CCLOSURE_SLOTS
 )
+nullptr
 nullptr
 nullptr
 nullptr
@@ -2649,6 +2653,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 CDATAFINALIZER_SLOTS
 )
+nullptr
 nullptr
 nullptr
 nullptr
@@ -3686,6 +3691,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 Int64Base
 :
 :
@@ -3705,6 +3711,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 INT64_SLOTS
 )
+nullptr
 nullptr
 nullptr
 nullptr

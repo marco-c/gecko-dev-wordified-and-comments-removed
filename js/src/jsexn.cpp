@@ -376,6 +376,13 @@ resolve
 nullptr
 /
 *
+mayResolve
+*
+/
+\
+nullptr
+/
+*
 convert
 *
 /
@@ -464,6 +471,7 @@ ErrorObject
 :
 RESERVED_SLOTS
 )
+nullptr
 nullptr
 nullptr
 nullptr
