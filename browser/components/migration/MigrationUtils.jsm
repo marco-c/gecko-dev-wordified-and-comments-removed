@@ -282,6 +282,13 @@ Safari
 safari
 "
 "
+Firefox
+"
+:
+"
+firefox
+"
+"
 Google
 Chrome
 "
@@ -1574,6 +1581,9 @@ migratorKeysOrdered
 ifdef
 XP_WIN
 "
+firefox
+"
+"
 ie
 "
 "
@@ -1586,6 +1596,9 @@ safari
 elifdef
 XP_MACOSX
 "
+firefox
+"
+"
 safari
 "
 "
@@ -1594,6 +1607,9 @@ chrome
 #
 elifdef
 XP_UNIX
+"
+firefox
+"
 "
 chrome
 "
