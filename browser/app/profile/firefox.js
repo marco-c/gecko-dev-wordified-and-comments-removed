@@ -16342,9 +16342,6 @@ true
 ;
 #
 endif
-#
-ifndef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -16361,8 +16358,6 @@ enabled
 false
 )
 ;
-#
-endif
 pref
 (
 "
