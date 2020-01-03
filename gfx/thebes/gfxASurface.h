@@ -680,6 +680,7 @@ GetSize
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mSize

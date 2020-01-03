@@ -989,6 +989,7 @@ gfxFont
 *
 aFont
 )
+MOZ_OVERRIDE
 ;
 void
 Flush
@@ -3851,11 +3852,13 @@ p
 )
 ;
 }
+virtual
 CompressedGlyph
 *
 GetCharacterGlyphs
 (
 )
+MOZ_OVERRIDE
 {
 return
 &
