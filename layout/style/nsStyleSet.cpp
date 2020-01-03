@@ -10651,9 +10651,6 @@ aNewParentContext
 Element
 *
 aElement
-Element
-*
-aElementOrPseudoElement
 )
 {
 MOZ_ASSERT
