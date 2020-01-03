@@ -221,6 +221,14 @@ WMFUtils
 cpp
 '
 ]
+OS_LIBS
++
+=
+[
+'
+mfuuid
+'
+]
 DEFINES
 [
 '

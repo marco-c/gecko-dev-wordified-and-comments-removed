@@ -246,7 +246,6 @@ aOutAnnexB
 )
 {
 auto
-&
 it
 =
 aBuffer
