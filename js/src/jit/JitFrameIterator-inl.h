@@ -154,10 +154,10 @@ const
 {
 if
 (
-type_
 !
-=
-JitFrame_Exit
+isExitFrame
+(
+)
 |
 |
 isFakeExitFrame

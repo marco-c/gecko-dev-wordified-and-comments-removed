@@ -7310,6 +7310,10 @@ active_
 (
 active
 )
+isLazyLinkExitFrame_
+(
+false
+)
 rematerializedFrames_
 (
 nullptr
