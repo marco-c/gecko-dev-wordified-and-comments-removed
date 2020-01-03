@@ -628,7 +628,7 @@ about
 :
 accounts
 ?
-entryPoint
+entrypoint
 =
 menupanel
 "

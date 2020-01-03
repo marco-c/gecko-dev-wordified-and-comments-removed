@@ -2443,7 +2443,7 @@ openAccountsPage
 (
 null
 {
-entryPoint
+entrypoint
 :
 "
 menupanel
@@ -2517,7 +2517,7 @@ selectedBrowser
 {
 urlParams
 .
-entryPoint
+entrypoint
 =
 "
 uitour
@@ -2620,7 +2620,7 @@ openAccountsPage
 reauth
 "
 {
-entryPoint
+entrypoint
 :
 entryPoint
 }
