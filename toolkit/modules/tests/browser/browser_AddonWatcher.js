@@ -643,6 +643,7 @@ snap2
 .
 sum
 >
+=
 expectedMinSum
 Histogram
 {
@@ -874,7 +875,7 @@ totalCPOWTime
 "
 expectedMinSum
 :
-1000
+400
 }
 )
 ;
