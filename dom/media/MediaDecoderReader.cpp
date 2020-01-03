@@ -1065,12 +1065,7 @@ MOZ_ASSERT
 mReader
 -
 >
-GetTaskQueue
-(
-)
--
->
-IsCurrentThreadIn
+OnTaskQueue
 (
 )
 )
@@ -1148,12 +1143,7 @@ MOZ_ASSERT
 mReader
 -
 >
-GetTaskQueue
-(
-)
--
->
-IsCurrentThreadIn
+OnTaskQueue
 (
 )
 )

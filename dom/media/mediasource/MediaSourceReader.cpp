@@ -789,7 +789,7 @@ mLastAudioTime
 >
 Then
 (
-GetTaskQueue
+TaskQueue
 (
 )
 __func__
@@ -887,7 +887,7 @@ RequestAudioData
 >
 Then
 (
-GetTaskQueue
+TaskQueue
 (
 )
 __func__
@@ -1033,7 +1033,7 @@ RequestAudioData
 >
 Then
 (
-GetTaskQueue
+TaskQueue
 (
 )
 __func__
@@ -1313,7 +1313,7 @@ mLastAudioTime
 >
 Then
 (
-GetTaskQueue
+TaskQueue
 (
 )
 __func__
@@ -1610,7 +1610,7 @@ mLastVideoTime
 >
 Then
 (
-GetTaskQueue
+TaskQueue
 (
 )
 __func__
@@ -1713,7 +1713,7 @@ mTimeThreshold
 >
 Then
 (
-GetTaskQueue
+TaskQueue
 (
 )
 __func__
@@ -2045,7 +2045,7 @@ mLastVideoTime
 >
 Then
 (
-GetTaskQueue
+TaskQueue
 (
 )
 __func__
@@ -2324,7 +2324,7 @@ Shutdown
 >
 Then
 (
-GetTaskQueue
+TaskQueue
 (
 )
 __func__
@@ -3378,7 +3378,7 @@ CreateReaderForType
 (
 aType
 decoder
-GetTaskQueue
+TaskQueue
 (
 )
 )
@@ -3822,7 +3822,7 @@ AttemptSeek
 )
 )
 ;
-GetTaskQueue
+TaskQueue
 (
 )
 -
@@ -4320,7 +4320,7 @@ seekTime
 >
 Then
 (
-GetTaskQueue
+TaskQueue
 (
 )
 __func__
@@ -4606,7 +4606,7 @@ seekTime
 >
 Then
 (
-GetTaskQueue
+TaskQueue
 (
 )
 __func__
@@ -5865,7 +5865,7 @@ NotifyTimeRangesChanged
 )
 )
 ;
-GetTaskQueue
+TaskQueue
 (
 )
 -
