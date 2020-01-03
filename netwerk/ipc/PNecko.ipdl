@@ -296,6 +296,12 @@ uint64_t
 -
 -
 -
+prio
+(
+normal
+upto
+urgent
+)
 sync
 protocol
 PNecko
@@ -348,6 +354,11 @@ __delete__
 (
 )
 ;
+prio
+(
+urgent
+)
+async
 PCookieService
 (
 )
