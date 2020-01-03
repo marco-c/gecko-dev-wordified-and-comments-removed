@@ -123,6 +123,15 @@ h
 #
 include
 "
+libdisplay
+/
+BootAnimation
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -4500,6 +4509,10 @@ updateHeadphoneSwitch
 mEnableDraw
 =
 true
+;
+StopBootAnimation
+(
+)
 ;
 NotifyEvent
 (
