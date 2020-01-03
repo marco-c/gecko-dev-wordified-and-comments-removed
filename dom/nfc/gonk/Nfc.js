@@ -1314,7 +1314,7 @@ this
 .
 removeEventTarget
 (
-msg
+message
 .
 target
 )
