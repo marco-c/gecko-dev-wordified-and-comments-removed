@@ -544,15 +544,6 @@ ActivateSSL
 (
 )
 ;
-nsresult
-SyncNSSNames
-(
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
-)
-;
 nsCString
 mNegotiatedNPN
 ;
