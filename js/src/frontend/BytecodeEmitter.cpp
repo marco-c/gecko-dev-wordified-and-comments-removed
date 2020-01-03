@@ -4141,7 +4141,7 @@ enclosingStaticScope
 ;
 stmtStack
 .
-linkAsInnermostScopal
+linkAsInnermostScopeStmt
 (
 stmt
 *
