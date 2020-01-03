@@ -232,6 +232,7 @@ nsACString
 &
 aReason
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SynthesizeHeader
@@ -348,6 +349,7 @@ nsACString
 &
 aReason
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SynthesizeHeader
