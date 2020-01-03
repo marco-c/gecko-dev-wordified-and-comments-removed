@@ -19170,7 +19170,7 @@ LDFLAGS
 -
 MaxILKSize
 :
-2147483647
+0x7FF00000
 "
 fi
 dnl
