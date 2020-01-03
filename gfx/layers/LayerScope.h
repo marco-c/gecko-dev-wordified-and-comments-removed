@@ -82,7 +82,7 @@ aMatrix
 ;
 static
 void
-SetLayerRects
+SetDrawRects
 (
 size_t
 aRects
@@ -93,6 +93,13 @@ gfx
 Rect
 *
 aLayerRects
+const
+gfx
+:
+:
+Rect
+*
+aTextureRects
 )
 ;
 static
@@ -158,6 +165,14 @@ static
 void
 SetHWComposed
 (
+)
+;
+static
+void
+SetPixelScale
+(
+double
+devPixelsPerCSSPixel
 )
 ;
 static

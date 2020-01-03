@@ -1376,6 +1376,9 @@ metrics
 string
 contentDescription
 ;
+nsCString
+displayListLog
+;
 }
 ;
 struct
