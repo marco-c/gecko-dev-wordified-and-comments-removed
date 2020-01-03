@@ -6,6 +6,13 @@ PlatformDecoderModule
 h
 "
 #
+include
+"
+AVCCDecoderModule
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -659,8 +666,12 @@ PlatformDecoderModule
 m
 (
 new
+AVCCDecoderModule
+(
+new
 AppleDecoderModule
 (
+)
 )
 )
 ;
