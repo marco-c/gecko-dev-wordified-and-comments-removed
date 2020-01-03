@@ -74,7 +74,7 @@ nsChangeHint_ChildrenOnlyTransform
 nsChangeHint_RecomputePosition
 =
 0x10000
-nsChangeHint_AddOrRemoveTransform
+nsChangeHint_UpdateContainingBlock
 =
 0x20000
 nsChangeHint_BorderStyleNoneChange
@@ -500,7 +500,7 @@ nsChangeHint_ChildrenOnlyTransform
 nsChangeHint_RecomputePosition
 |
 \
-nsChangeHint_AddOrRemoveTransform
+nsChangeHint_UpdateContainingBlock
 |
 \
 nsChangeHint_BorderStyleNoneChange
@@ -551,7 +551,7 @@ nsChangeHint_ChildrenOnlyTransform
 |
 nsChangeHint_RecomputePosition
 |
-nsChangeHint_AddOrRemoveTransform
+nsChangeHint_UpdateContainingBlock
 |
 nsChangeHint_BorderStyleNoneChange
 |

@@ -13109,7 +13109,7 @@ NS_UpdateHint
 hint
 NS_CombineHint
 (
-nsChangeHint_AddOrRemoveTransform
+nsChangeHint_UpdateContainingBlock
 NS_CombineHint
 (
 nsChangeHint_UpdateOverflow
