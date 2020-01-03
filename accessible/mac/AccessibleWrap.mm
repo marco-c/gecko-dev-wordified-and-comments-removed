@@ -511,6 +511,17 @@ rv
 rv
 )
 ;
+if
+(
+IPCAccessibilityActive
+(
+)
+)
+{
+return
+NS_OK
+;
+}
 uint32_t
 eventType
 =
