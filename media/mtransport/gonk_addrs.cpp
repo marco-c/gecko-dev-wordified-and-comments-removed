@@ -199,6 +199,11 @@ nsINetworkInterfaceListService
 :
 :
 LIST_NOT_INCLUDE_DUN_INTERFACES
+|
+nsINetworkInterfaceListService
+:
+:
+LIST_NOT_INCLUDE_FOTA_INTERFACES
 ;
 nsCOMPtr
 <
