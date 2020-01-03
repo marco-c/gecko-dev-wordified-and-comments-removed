@@ -3392,7 +3392,6 @@ fails
 CONSTRAINED_AAPT_CONFIGURATIONS
 :
 =
-mdpi
 hdpi
 define
 aapt_command
