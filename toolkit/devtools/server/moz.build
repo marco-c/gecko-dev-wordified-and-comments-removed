@@ -182,11 +182,6 @@ AutoMemMap
 h
 '
 '
-ChromeUtils
-.
-h
-'
-'
 CoreDump
 .
 pb
@@ -215,11 +210,6 @@ SOURCES
 [
 '
 AutoMemMap
-.
-cpp
-'
-'
-ChromeUtils
 .
 cpp
 '

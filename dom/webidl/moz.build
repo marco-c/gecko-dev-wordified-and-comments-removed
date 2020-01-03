@@ -2660,6 +2660,11 @@ TextTrackList
 webidl
 '
 '
+ThreadSafeChromeUtils
+.
+webidl
+'
+'
 TimeEvent
 .
 webidl

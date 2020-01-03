@@ -805,6 +805,11 @@ ChildIterator
 h
 '
 '
+ChromeUtils
+.
+h
+'
+'
 Comment
 .
 h
@@ -1066,6 +1071,11 @@ cpp
 '
 '
 ChildIterator
+.
+cpp
+'
+'
+ChromeUtils
 .
 cpp
 '

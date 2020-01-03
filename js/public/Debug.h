@@ -43,6 +43,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jspubtd
 .
 h
