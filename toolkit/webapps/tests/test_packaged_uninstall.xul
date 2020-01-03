@@ -1020,7 +1020,7 @@ testAppInfo
 .
 trashDir
 .
-includes
+contains
 (
 "
 .

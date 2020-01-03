@@ -3685,7 +3685,7 @@ if
 (
 message
 .
-includes
+contains
 (
 '
 contentWorker

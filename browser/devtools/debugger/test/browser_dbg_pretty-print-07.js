@@ -112,7 +112,7 @@ s
 .
 url
 .
-includes
+contains
 (
 '
 code_ugly
@@ -185,7 +185,7 @@ ok
 (
 source
 .
-includes
+contains
 (
 "
 \
@@ -237,7 +237,7 @@ ok
 !
 source
 .
-includes
+contains
 (
 "
 \

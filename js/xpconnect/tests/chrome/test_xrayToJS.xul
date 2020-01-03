@@ -1737,7 +1737,7 @@ isReleaseBuild
 !
 version
 .
-includes
+contains
 (
 "
 a

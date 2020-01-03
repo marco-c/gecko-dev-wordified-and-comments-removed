@@ -1052,7 +1052,7 @@ body
 .
 outerHTML
 .
-includes
+contains
 (
 clipboard
 .

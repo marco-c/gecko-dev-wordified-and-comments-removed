@@ -215,7 +215,7 @@ value
 "
 )
 .
-includes
+contains
 (
 "
 [
@@ -257,7 +257,7 @@ value
 "
 )
 .
-includes
+contains
 (
 "
 [
@@ -863,7 +863,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -1006,7 +1006,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -1168,7 +1168,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -1290,7 +1290,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -1408,7 +1408,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -1526,7 +1526,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -1644,7 +1644,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -2100,7 +2100,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -2222,7 +2222,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -2340,7 +2340,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -2458,7 +2458,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -2576,7 +2576,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token
@@ -2694,7 +2694,7 @@ value
 .
 className
 .
-includes
+contains
 (
 "
 token

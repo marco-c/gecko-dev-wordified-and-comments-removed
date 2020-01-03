@@ -630,7 +630,7 @@ ok
 (
 vertSource
 .
-includes
+contains
 (
 "
 I
@@ -644,7 +644,7 @@ special
 &
 fragSource
 .
-includes
+contains
 (
 "
 I

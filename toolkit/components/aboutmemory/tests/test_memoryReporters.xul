@@ -1121,7 +1121,7 @@ if
 (
 aPath
 .
-includes
+contains
 (
 bigStringPrefix
 )
@@ -1139,7 +1139,7 @@ if
 (
 aPath
 .
-includes
+contains
 (
 "
 !
@@ -1163,7 +1163,7 @@ if
 (
 aPath
 .
-includes
+contains
 (
 "
 )
@@ -1195,7 +1195,7 @@ if
 (
 aPath
 .
-includes
+contains
 (
 '
 <
@@ -1242,7 +1242,7 @@ if
 (
 aPath
 .
-includes
+contains
 (
 '
 http

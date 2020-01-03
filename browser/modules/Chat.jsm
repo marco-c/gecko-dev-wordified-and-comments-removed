@@ -116,7 +116,7 @@ chromehidden
 "
 )
 .
-includes
+contains
 (
 "
 extrachrome
@@ -133,7 +133,7 @@ chromehidden
 '
 )
 .
-includes
+contains
 (
 "
 toolbar

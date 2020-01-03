@@ -651,7 +651,7 @@ attachment
 .
 label
 .
-includes
+contains
 (
 aUrl
 )
@@ -682,7 +682,7 @@ source
 .
 url
 .
-includes
+contains
 (
 aUrl
 )

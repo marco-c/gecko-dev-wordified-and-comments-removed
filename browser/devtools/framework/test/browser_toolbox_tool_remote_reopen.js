@@ -486,7 +486,7 @@ if
 (
 actor
 .
-includes
+contains
 (
 "
 framerateActor

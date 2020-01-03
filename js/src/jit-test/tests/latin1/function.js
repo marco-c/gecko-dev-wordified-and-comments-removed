@@ -57,7 +57,7 @@ toSource
 (
 )
 .
-includes
+contains
 (
 "
 arg1
@@ -109,7 +109,7 @@ toSource
 (
 )
 .
-includes
+contains
 (
 "
 arg1

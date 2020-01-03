@@ -205,7 +205,7 @@ error
 .
 link
 .
-includes
+contains
 (
 "
 ERROR
@@ -239,7 +239,7 @@ error
 .
 link
 .
-includes
+contains
 (
 "
 ERROR
@@ -356,7 +356,7 @@ ok
 (
 vertSource
 .
-includes
+contains
 (
 "
 vec4
@@ -527,7 +527,7 @@ error
 .
 link
 .
-includes
+contains
 (
 "
 ERROR
@@ -644,7 +644,7 @@ ok
 (
 fragSource
 .
-includes
+contains
 (
 "
 vec3

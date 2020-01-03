@@ -3423,7 +3423,7 @@ toLowerCase
 (
 )
 .
-includes
+contains
 (
 aTerm
 )
@@ -3437,7 +3437,7 @@ toLowerCase
 (
 )
 .
-includes
+contains
 (
 aTerm
 )

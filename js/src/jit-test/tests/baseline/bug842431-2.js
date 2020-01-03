@@ -106,7 +106,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 555

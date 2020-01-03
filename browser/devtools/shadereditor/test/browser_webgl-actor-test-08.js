@@ -239,7 +239,7 @@ ok
 (
 vertSource
 .
-includes
+contains
 (
 "
 vFragmentColor
@@ -271,7 +271,7 @@ ok
 (
 fragSource
 .
-includes
+contains
 (
 "
 gl_FragColor

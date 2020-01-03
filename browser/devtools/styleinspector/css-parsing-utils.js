@@ -30,7 +30,7 @@ hasDoubleQuotes
 =
 string
 .
-includes
+contains
 (
 '
 "
@@ -42,7 +42,7 @@ hasSingleQuotes
 =
 string
 .
-includes
+contains
 (
 "
 '

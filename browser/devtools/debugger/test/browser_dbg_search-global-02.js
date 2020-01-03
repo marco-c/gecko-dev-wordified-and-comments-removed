@@ -365,7 +365,7 @@ getSelectedSourceURL
 gSources
 )
 .
-includes
+contains
 (
 "
 -
@@ -516,7 +516,7 @@ getSelectedSourceURL
 gSources
 )
 .
-includes
+contains
 (
 "
 -
@@ -728,7 +728,7 @@ getSelectedSourceURL
 gSources
 )
 .
-includes
+contains
 (
 "
 -
@@ -940,7 +940,7 @@ getSelectedSourceURL
 gSources
 )
 .
-includes
+contains
 (
 "
 -
@@ -1162,7 +1162,7 @@ getSelectedSourceURL
 gSources
 )
 .
-includes
+contains
 (
 "
 -
@@ -1352,7 +1352,7 @@ getSelectedSourceURL
 gSources
 )
 .
-includes
+contains
 (
 "
 -

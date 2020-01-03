@@ -80,7 +80,7 @@ s
 >
 s
 .
-includes
+contains
 (
 "
 index

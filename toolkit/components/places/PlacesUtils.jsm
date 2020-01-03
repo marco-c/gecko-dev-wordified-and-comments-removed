@@ -6393,7 +6393,7 @@ aURL
 (
 aURL
 .
-includes
+contains
 (
 "
 #

@@ -204,7 +204,7 @@ is
 (
 msg
 .
-includes
+contains
 (
 expected
 [

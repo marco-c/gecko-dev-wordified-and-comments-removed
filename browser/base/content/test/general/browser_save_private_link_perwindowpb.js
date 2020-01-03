@@ -167,7 +167,7 @@ is
 (
 urispec
 .
-includes
+contains
 (
 filename
 )

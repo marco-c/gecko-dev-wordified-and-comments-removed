@@ -244,7 +244,7 @@ body
 .
 textContent
 .
-includes
+contains
 (
 '
 {

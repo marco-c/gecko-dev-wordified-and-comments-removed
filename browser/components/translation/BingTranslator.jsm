@@ -464,7 +464,7 @@ if
 (
 body
 .
-includes
+contains
 (
 "
 TranslateApiException
@@ -475,7 +475,7 @@ TranslateApiException
 (
 body
 .
-includes
+contains
 (
 "
 balance
@@ -485,7 +485,7 @@ balance
 |
 body
 .
-includes
+contains
 (
 "
 active

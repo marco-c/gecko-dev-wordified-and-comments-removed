@@ -6131,7 +6131,7 @@ if
 (
 property
 .
-includes
+contains
 (
 "
 color

@@ -50,7 +50,7 @@ do_check_true
 (
 s
 .
-includes
+contains
 (
 "
 foo
@@ -63,7 +63,7 @@ do_check_true
 (
 s
 .
-includes
+contains
 (
 "
 test_with_error
@@ -74,7 +74,7 @@ do_check_true
 (
 s
 .
-includes
+contains
 (
 "
 test_safeErrorString
@@ -88,7 +88,7 @@ do_check_true
 (
 s
 .
-includes
+contains
 (
 "
 Line
@@ -100,7 +100,7 @@ do_check_true
 (
 s
 .
-includes
+contains
 (
 "
 column
@@ -154,7 +154,7 @@ do_check_true
 (
 s
 .
-includes
+contains
 (
 "
 batman
@@ -187,7 +187,7 @@ do_check_true
 (
 s
 .
-includes
+contains
 (
 "
 not

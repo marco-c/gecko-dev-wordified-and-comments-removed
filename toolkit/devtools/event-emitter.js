@@ -730,7 +730,7 @@ if
 (
 file
 .
-includes
+contains
 (
 "
 -

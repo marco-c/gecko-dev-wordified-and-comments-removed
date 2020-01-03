@@ -577,7 +577,7 @@ functionCalls
 .
 argsPreview
 .
-includes
+contains
 (
 "
 Function

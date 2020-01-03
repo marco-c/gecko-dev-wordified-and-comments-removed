@@ -2045,7 +2045,7 @@ navigator
 .
 platform
 .
-includes
+contains
 (
 "
 Mac

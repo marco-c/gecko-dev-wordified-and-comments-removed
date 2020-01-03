@@ -2309,7 +2309,7 @@ if
 (
 value
 .
-includes
+contains
 (
 okstring
 )

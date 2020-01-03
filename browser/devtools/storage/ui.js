@@ -2556,7 +2556,7 @@ regex
 &
 value
 .
-includes
+contains
 (
 kv
 )
@@ -2565,7 +2565,7 @@ kv
 (
 value
 .
-includes
+contains
 (
 p
 )

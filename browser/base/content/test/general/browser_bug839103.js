@@ -170,7 +170,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 CSSStyleSheet
@@ -529,7 +529,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 CSSStyleSheet
@@ -901,7 +901,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 CSSStyleSheet
@@ -925,7 +925,7 @@ stylesheet
 .
 href
 .
-includes
+contains
 (
 gStyleSheet
 )
@@ -1065,7 +1065,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 CSSStyleSheet
@@ -1236,7 +1236,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 CSSStyleSheet
@@ -1402,7 +1402,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 CSSStyleSheet

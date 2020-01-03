@@ -275,7 +275,7 @@ aResponse
 .
 contentType
 .
-includes
+contains
 (
 "
 javascript

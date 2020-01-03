@@ -57,7 +57,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 variable

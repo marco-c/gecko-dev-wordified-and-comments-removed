@@ -184,7 +184,7 @@ testVar
 .
 id
 .
-includes
+contains
 (
 "
 something
@@ -306,7 +306,7 @@ target
 .
 id
 .
-includes
+contains
 (
 "
 something
@@ -1171,7 +1171,7 @@ testChild
 .
 id
 .
-includes
+contains
 (
 "
 child
@@ -1299,7 +1299,7 @@ target
 .
 id
 .
-includes
+contains
 (
 "
 child

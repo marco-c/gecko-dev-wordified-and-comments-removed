@@ -466,7 +466,7 @@ alt
 :
 toolModifiers
 .
-includes
+contains
 (
 "
 alt
@@ -476,7 +476,7 @@ shift
 :
 toolModifiers
 .
-includes
+contains
 (
 "
 shift

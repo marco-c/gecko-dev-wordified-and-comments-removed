@@ -15654,7 +15654,7 @@ if
 (
 url
 .
-includes
+contains
 (
 "
 |
@@ -19730,7 +19730,7 @@ aUrlToAdd
 !
 aUrlToAdd
 .
-includes
+contains
 (
 "
 "
@@ -34213,7 +34213,7 @@ separator
 =
 spec
 .
-includes
+contains
 (
 "
 ?

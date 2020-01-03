@@ -585,7 +585,7 @@ getText
 (
 )
 .
-includes
+contains
 (
 "
 SyntaxError

@@ -3996,7 +3996,7 @@ if
 !
 selectedVal
 .
-includes
+contains
 (
 "
 /

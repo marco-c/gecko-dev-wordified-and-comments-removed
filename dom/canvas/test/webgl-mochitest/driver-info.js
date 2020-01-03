@@ -678,7 +678,7 @@ if
 (
 glRenderer
 .
-includes
+contains
 (
 '
 llvmpipe
@@ -698,7 +698,7 @@ if
 (
 glRenderer
 .
-includes
+contains
 (
 '
 Android
@@ -719,7 +719,7 @@ if
 (
 glRenderer
 .
-includes
+contains
 (
 '
 ANGLE
@@ -739,7 +739,7 @@ if
 (
 glVendor
 .
-includes
+contains
 (
 '
 NVIDIA

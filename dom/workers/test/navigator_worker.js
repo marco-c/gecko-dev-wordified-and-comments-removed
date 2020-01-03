@@ -73,7 +73,7 @@ navigator
 .
 userAgent
 .
-includes
+contains
 (
 "
 Android

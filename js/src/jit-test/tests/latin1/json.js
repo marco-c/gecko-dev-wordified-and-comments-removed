@@ -230,7 +230,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 line
@@ -293,7 +293,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 line

@@ -5170,7 +5170,7 @@ toLowerCase
 return
 name
 .
-includes
+contains
 (
 lowerCaseSearchToken
 )
@@ -5178,7 +5178,7 @@ lowerCaseSearchToken
 |
 file
 .
-includes
+contains
 (
 lowerCaseSearchToken
 )
@@ -5186,7 +5186,7 @@ lowerCaseSearchToken
 |
 line
 .
-includes
+contains
 (
 lowerCaseSearchToken
 )
@@ -5194,7 +5194,7 @@ lowerCaseSearchToken
 |
 args
 .
-includes
+contains
 (
 lowerCaseSearchToken
 )

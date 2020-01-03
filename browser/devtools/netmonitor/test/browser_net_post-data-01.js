@@ -477,7 +477,7 @@ hidden
 !
 aBox
 .
-includes
+contains
 (
 "
 params
@@ -528,7 +528,7 @@ hidden
 !
 aBox
 .
-includes
+contains
 (
 "
 textarea
@@ -1468,7 +1468,7 @@ getText
 (
 )
 .
-includes
+contains
 (
 "
 Content
@@ -1515,7 +1515,7 @@ getText
 (
 )
 .
-includes
+contains
 (
 "
 Content
@@ -1562,7 +1562,7 @@ getText
 (
 )
 .
-includes
+contains
 (
 "
 Content
@@ -1609,7 +1609,7 @@ getText
 (
 )
 .
-includes
+contains
 (
 "
 Content
@@ -1657,7 +1657,7 @@ getText
 (
 )
 .
-includes
+contains
 (
 "
 Some
@@ -1694,7 +1694,7 @@ getText
 (
 )
 .
-includes
+contains
 (
 "
 42
@@ -1727,7 +1727,7 @@ getText
 (
 )
 .
-includes
+contains
 (
 "
 Extra

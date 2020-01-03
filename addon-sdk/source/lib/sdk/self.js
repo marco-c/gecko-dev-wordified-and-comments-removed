@@ -256,7 +256,7 @@ path
 >
 path
 .
-includes
+contains
 (
 "
 :

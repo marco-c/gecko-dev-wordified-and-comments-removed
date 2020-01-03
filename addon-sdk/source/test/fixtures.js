@@ -47,7 +47,7 @@ path
 &
 path
 .
-includes
+contains
 (
 "
 :

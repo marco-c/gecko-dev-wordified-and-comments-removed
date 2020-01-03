@@ -6905,7 +6905,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 Sandbox

@@ -1090,7 +1090,7 @@ error
 &
 text
 .
-includes
+contains
 (
 "
 can

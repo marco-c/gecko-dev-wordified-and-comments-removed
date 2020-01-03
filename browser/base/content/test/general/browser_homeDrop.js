@@ -277,7 +277,7 @@ m
 .
 message
 .
-includes
+contains
 (
 "
 NS_ERROR_DOM_BAD_URI

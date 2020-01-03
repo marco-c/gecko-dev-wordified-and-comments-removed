@@ -78,7 +78,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 length

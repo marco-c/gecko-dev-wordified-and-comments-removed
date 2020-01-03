@@ -461,7 +461,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 expected
@@ -528,7 +528,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 expected

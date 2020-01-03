@@ -135,7 +135,7 @@ ok
 (
 prettyText
 .
-includes
+contains
 (
 "
 \

@@ -81,7 +81,7 @@ s
 >
 s
 .
-includes
+contains
 (
 "
 fmt
@@ -123,7 +123,7 @@ s
 >
 s
 .
-includes
+contains
 (
 "
 sts
@@ -501,7 +501,7 @@ s
 >
 s
 .
-includes
+contains
 (
 "
 res
@@ -942,7 +942,7 @@ s
 >
 s
 .
-includes
+contains
 (
 "
 jsonp
@@ -1060,7 +1060,7 @@ s
 >
 s
 .
-includes
+contains
 (
 "
 jsonp

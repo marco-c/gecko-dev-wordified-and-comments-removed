@@ -170,7 +170,7 @@ e
 .
 message
 .
-includes
+contains
 (
 "
 not

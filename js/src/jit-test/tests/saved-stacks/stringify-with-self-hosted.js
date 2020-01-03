@@ -38,7 +38,7 @@ toString
 (
 )
 .
-includes
+contains
 (
 "
 self

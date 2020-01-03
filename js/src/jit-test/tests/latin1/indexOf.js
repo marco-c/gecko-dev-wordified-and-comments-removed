@@ -542,7 +542,7 @@ testIndexOf
 )
 ;
 function
-testincludes
+testContains
 (
 )
 {
@@ -574,7 +574,7 @@ assertEq
 (
 s1
 .
-includes
+contains
 (
 s1
 )
@@ -585,7 +585,7 @@ assertEq
 (
 s1
 .
-includes
+contains
 (
 s2
 )
@@ -596,7 +596,7 @@ assertEq
 (
 s1
 .
-includes
+contains
 (
 s2
 12
@@ -608,7 +608,7 @@ assertEq
 (
 s2
 .
-includes
+contains
 (
 s1
 )
@@ -619,7 +619,7 @@ assertEq
 (
 s1
 .
-includes
+contains
 (
 "
 abc
@@ -634,7 +634,7 @@ assertEq
 (
 s1
 .
-includes
+contains
 (
 "
 def
@@ -655,7 +655,7 @@ assertEq
 (
 s1
 .
-includes
+contains
 (
 "
 def
@@ -697,7 +697,7 @@ assertEq
 (
 s3
 .
-includes
+contains
 (
 s2
 )
@@ -708,7 +708,7 @@ assertEq
 (
 s3
 .
-includes
+contains
 (
 s2
 13
@@ -720,7 +720,7 @@ assertEq
 (
 s3
 .
-includes
+contains
 (
 toLatin1
 (
@@ -736,7 +736,7 @@ assertEq
 (
 s3
 .
-includes
+contains
 (
 "
 \
@@ -750,7 +750,7 @@ assertEq
 (
 s3
 .
-includes
+contains
 (
 "
 \
@@ -765,7 +765,7 @@ assertEq
 (
 s3
 .
-includes
+contains
 (
 "
 \
@@ -781,7 +781,7 @@ assertEq
 (
 s3
 .
-includes
+contains
 (
 s3
 )
@@ -789,7 +789,7 @@ true
 )
 ;
 }
-testincludes
+testContains
 (
 )
 ;

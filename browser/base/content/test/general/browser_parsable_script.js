@@ -449,7 +449,7 @@ parseValue
 &
 parseValue
 .
-includes
+contains
 (
 "
 :
@@ -567,7 +567,7 @@ uri
 .
 spec
 .
-includes
+contains
 (
 parseValue
 )

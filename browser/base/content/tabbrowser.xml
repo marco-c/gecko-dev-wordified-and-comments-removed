@@ -6572,7 +6572,7 @@ chromehidden
 "
 )
 .
-includes
+contains
 (
 "
 location
