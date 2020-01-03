@@ -2317,6 +2317,11 @@ UIResolutionChanged
 )
 ;
 void
+UIResolutionChangedSync
+(
+)
+;
+void
 SysColorChanged
 (
 )
