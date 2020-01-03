@@ -172,6 +172,7 @@ TextContainerIterator
 {
 public
 :
+explicit
 TextContainerIterator
 (
 nsRubyBaseContainerFrame
@@ -294,6 +295,7 @@ AutoSetTextContainers
 {
 public
 :
+explicit
 AutoSetTextContainers
 (
 nsRubyBaseContainerFrame
@@ -399,6 +401,7 @@ SegmentEnumerator
 {
 public
 :
+explicit
 SegmentEnumerator
 (
 nsRubyFrame

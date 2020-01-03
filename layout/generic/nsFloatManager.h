@@ -232,6 +232,7 @@ aContainerWidth
 struct
 SavedState
 {
+explicit
 SavedState
 (
 mozilla

@@ -901,6 +901,7 @@ nsContainerFrame
 *
 mNextInFlow
 ;
+explicit
 ContinuationTraversingState
 (
 nsContainerFrame
