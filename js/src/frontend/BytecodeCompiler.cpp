@@ -922,7 +922,7 @@ sourceCompressor
 )
 {
 return
-nullptr
+false
 ;
 }
 }
@@ -1525,7 +1525,7 @@ ref
 )
 )
 return
-nullptr
+false
 ;
 parseContext
 .
