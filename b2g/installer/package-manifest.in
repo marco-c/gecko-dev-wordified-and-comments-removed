@@ -5637,3 +5637,11 @@ clearkey
 info
 #
 endif
+#
+ifdef
+PKG_LOCALE_MANIFEST
+#
+include
+PKG_LOCALE_MANIFEST
+#
+endif
