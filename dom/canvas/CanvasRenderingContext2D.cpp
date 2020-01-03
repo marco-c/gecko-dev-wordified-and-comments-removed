@@ -16444,8 +16444,10 @@ i
 IsMissing
 (
 )
-&
-&
+)
+{
+if
+(
 d
 -
 >
@@ -16509,6 +16511,7 @@ push_back
 newGlyph
 )
 ;
+}
 continue
 ;
 }
