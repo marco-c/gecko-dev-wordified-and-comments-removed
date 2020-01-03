@@ -1297,6 +1297,7 @@ module
 newChannel
 (
 uri
+null
 )
 ;
 channel
