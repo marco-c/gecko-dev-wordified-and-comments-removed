@@ -133,9 +133,6 @@ MAKE
 )
 '
 )
-DIST_INSTALL
-=
-1
 ifdef
 JS_HAS_CTYPES
 ifdef

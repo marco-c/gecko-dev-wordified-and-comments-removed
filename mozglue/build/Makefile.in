@@ -54,9 +54,6 @@ MPL
 0
 /
 .
-DIST_INSTALL
-=
-1
 #
 For
 FORCE_SHARED_LIB

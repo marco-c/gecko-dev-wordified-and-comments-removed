@@ -595,3 +595,6 @@ Wl
 bind_at_load
 '
 ]
+DIST_INSTALL
+=
+True

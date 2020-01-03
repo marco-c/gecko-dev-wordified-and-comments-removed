@@ -4068,3 +4068,6 @@ True
 NO_EXPAND_LIBS
 =
 True
+DIST_INSTALL
+=
+True

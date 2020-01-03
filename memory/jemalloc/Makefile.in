@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-ifdef
-MOZ_GLUE_IN_PROGRAM
-DIST_INSTALL
-=
-1
-endif
 include
 (
 topsrcdir

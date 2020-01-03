@@ -55,9 +55,3 @@ MPL
 .
 STLFLAGS
 =
-ifdef
-MOZ_GLUE_IN_PROGRAM
-DIST_INSTALL
-=
-1
-endif

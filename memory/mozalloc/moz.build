@@ -337,3 +337,6 @@ memory
 build
 '
 ]
+DIST_INSTALL
+=
+True

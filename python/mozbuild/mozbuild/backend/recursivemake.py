@@ -188,6 +188,10 @@ DIRS
 '
     
 '
+DIST_INSTALL
+'
+    
+'
 EXTRA_DSO_LDOPTS
 '
     

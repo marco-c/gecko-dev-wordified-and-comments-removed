@@ -260,3 +260,6 @@ MOZ_NO_MOZALLOC
 ]
 =
 True
+DIST_INSTALL
+=
+True
