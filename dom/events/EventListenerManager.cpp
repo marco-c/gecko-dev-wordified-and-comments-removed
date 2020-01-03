@@ -4458,11 +4458,6 @@ setElementAttributeName
 (
 jsStr
 )
-.
-setDefineOnScope
-(
-false
-)
 ;
 JS
 :
