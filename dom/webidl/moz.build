@@ -780,6 +780,11 @@ ExtendableEvent
 webidl
 '
 '
+FakePluginTagInit
+.
+webidl
+'
+'
 Fetch
 .
 webidl
