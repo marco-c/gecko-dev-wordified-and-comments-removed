@@ -1515,11 +1515,10 @@ this
 _tabsList
 ;
 for
-each
 (
 let
 client
-in
+of
 remoteTabs
 )
 {
