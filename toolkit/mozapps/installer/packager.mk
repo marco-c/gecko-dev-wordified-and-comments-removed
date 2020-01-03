@@ -2208,9 +2208,8 @@ MOZ_PKG_SRCDIR
 CREATE_SOURCE_TAR
 )
 -
-(
-DIR_TO_BE_PACKAGED
-)
+.
+/
 )
 |
 xz
