@@ -523,7 +523,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-AnswerBridgeToChildProcess
+RecvBridgeToChildProcess
 (
 const
 ContentParentId
@@ -534,7 +534,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-AnswerLoadPlugin
+RecvLoadPlugin
 (
 const
 uint32_t

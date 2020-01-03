@@ -326,6 +326,10 @@ ProcessId
 aOtherProcess
 ProtocolId
 aProtocol
+PriorityValue
+aPriority
+=
+PRIORITY_NORMAL
 )
 :
 IPC
@@ -335,7 +339,7 @@ Message
 (
 MSG_ROUTING_CONTROL
 CHANNEL_OPENED_MESSAGE_TYPE
-PRIORITY_NORMAL
+aPriority
 )
 {
 IPC
@@ -556,6 +560,13 @@ ChannelOpened
 parentSide
 childId
 aProtocol
+IPC
+:
+:
+Message
+:
+:
+PRIORITY_URGENT
 )
 )
 |
@@ -572,6 +583,13 @@ ChannelOpened
 childSide
 parentId
 aChildProtocol
+IPC
+:
+:
+Message
+:
+:
+PRIORITY_URGENT
 )
 )
 )

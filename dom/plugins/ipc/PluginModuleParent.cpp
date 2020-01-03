@@ -664,7 +664,7 @@ if
 cp
 -
 >
-CallLoadPlugin
+SendLoadPlugin
 (
 aPluginId
 )
