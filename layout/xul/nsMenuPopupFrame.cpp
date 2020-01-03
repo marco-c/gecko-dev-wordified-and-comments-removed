@@ -5632,7 +5632,7 @@ factor
 devContext
 -
 >
-AppUnitsPerDevPixelAtUnitFullZoom
+UnscaledAppUnitsPerDevPixel
 (
 )
 ;

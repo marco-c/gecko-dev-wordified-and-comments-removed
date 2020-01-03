@@ -4239,7 +4239,7 @@ if
 mDeviceContext
 -
 >
-SetFullZoom
+SetPixelScale
 (
 mFullZoom
 )
@@ -6585,7 +6585,7 @@ mCurAppUnitsPerDevPixel
 mDeviceContext
 -
 >
-SetFullZoom
+SetPixelScale
 (
 aZoom
 )
