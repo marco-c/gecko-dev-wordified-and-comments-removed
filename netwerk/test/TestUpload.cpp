@@ -57,6 +57,12 @@ prlog
 .
 h
 "
+#
+if
+defined
+(
+PR_LOGGING
+)
 static
 PRLogModuleInfo
 *
@@ -64,6 +70,8 @@ gTestLog
 =
 nullptr
 ;
+#
+endif
 #
 define
 LOG
@@ -396,6 +404,12 @@ argv
 2
 ]
 ;
+#
+if
+defined
+(
+PR_LOGGING
+)
 gTestLog
 =
 PR_NewLogModule
@@ -405,6 +419,8 @@ Test
 "
 )
 ;
+#
+endif
 {
 nsCOMPtr
 <

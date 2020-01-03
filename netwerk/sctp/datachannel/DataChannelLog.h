@@ -20,6 +20,9 @@ prlog
 .
 h
 "
+#
+ifdef
+PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -34,6 +37,8 @@ GetSCTPLog
 (
 )
 ;
+#
+endif
 #
 undef
 LOG

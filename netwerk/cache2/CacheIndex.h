@@ -3625,6 +3625,9 @@ SHUTDOWN
 6
 }
 ;
+#
+ifdef
+PR_LOGGING
 static
 char
 const
@@ -3635,6 +3638,8 @@ EState
 aState
 )
 ;
+#
+endif
 void
 ChangeState
 (

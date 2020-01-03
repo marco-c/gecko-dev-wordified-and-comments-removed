@@ -145,6 +145,12 @@ aOverrideStatus
 kPBOverride_Unset
 )
 ;
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 !
@@ -159,6 +165,8 @@ nsWebSocket
 "
 )
 ;
+#
+endif
 mObserver
 =
 new

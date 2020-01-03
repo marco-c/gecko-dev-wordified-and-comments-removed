@@ -26,6 +26,12 @@ nsString
 .
 h
 "
+#
+if
+defined
+(
+PR_LOGGING
+)
 PRLogModuleInfo
 *
 gCacheLog
@@ -140,6 +146,8 @@ rv
 ;
 }
 }
+#
+endif
 uint32_t
 SecondsFromPRTime
 (

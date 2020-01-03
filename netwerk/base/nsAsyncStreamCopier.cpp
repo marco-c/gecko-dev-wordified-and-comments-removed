@@ -54,6 +54,12 @@ mozilla
 #
 undef
 LOG
+#
+if
+defined
+(
+PR_LOGGING
+)
 static
 PRLogModuleInfo
 *
@@ -61,6 +67,8 @@ gStreamCopierLog
 =
 nullptr
 ;
+#
+endif
 #
 define
 LOG
@@ -248,6 +256,12 @@ mShouldSniffBuffering
 false
 )
 {
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 !
@@ -262,6 +276,8 @@ nsStreamCopier
 "
 )
 ;
+#
+endif
 LOG
 (
 (

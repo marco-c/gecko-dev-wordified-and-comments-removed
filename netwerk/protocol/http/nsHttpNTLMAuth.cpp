@@ -1166,6 +1166,9 @@ true
 }
 #
 endif
+#
+ifdef
+PR_LOGGING
 if
 (
 !
@@ -1190,6 +1193,8 @@ n
 )
 )
 ;
+#
+endif
 }
 #
 ifdef

@@ -96,6 +96,12 @@ stdlib
 .
 h
 >
+#
+if
+defined
+(
+PR_LOGGING
+)
 static
 PRLogModuleInfo
 *
@@ -103,6 +109,8 @@ gTestLog
 =
 nullptr
 ;
+#
+endif
 #
 define
 LOG
@@ -494,6 +502,12 @@ nullptr
 nullptr
 )
 ;
+#
+if
+defined
+(
+PR_LOGGING
+)
 gTestLog
 =
 PR_NewLogModule
@@ -503,6 +517,8 @@ Test
 "
 )
 ;
+#
+endif
 nsCOMPtr
 <
 nsIFile
@@ -547,6 +563,12 @@ port
 file
 )
 ;
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 NS_FAILED
@@ -573,6 +595,8 @@ rv
 )
 )
 ;
+#
+endif
 LOG
 (
 (

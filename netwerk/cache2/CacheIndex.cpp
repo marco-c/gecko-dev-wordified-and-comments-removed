@@ -15592,6 +15592,9 @@ return
 PL_DHASH_REMOVE
 ;
 }
+#
+ifdef
+PR_LOGGING
 char
 const
 *
@@ -15682,6 +15685,8 @@ return
 "
 ;
 }
+#
+endif
 void
 CacheIndex
 :

@@ -61,6 +61,12 @@ prlog
 .
 h
 "
+#
+if
+defined
+(
+PR_LOGGING
+)
 static
 PRLogModuleInfo
 *
@@ -68,6 +74,8 @@ gTestLog
 =
 nullptr
 ;
+#
+endif
 #
 define
 LOG
@@ -617,6 +625,12 @@ return
 1
 ;
 }
+#
+if
+defined
+(
+PR_LOGGING
+)
 gTestLog
 =
 PR_NewLogModule
@@ -626,6 +640,8 @@ Test
 "
 )
 ;
+#
+endif
 rv
 =
 NS_InitXPCOM2
