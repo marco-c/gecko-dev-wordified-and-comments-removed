@@ -6215,7 +6215,6 @@ actorID
 }
 ;
 }
-let
 scripts
 =
 this
@@ -9983,6 +9982,9 @@ resolveURIToLocalPath
 aURI
 )
 {
+let
+resolved
+;
 switch
 (
 aURI
@@ -10008,7 +10010,6 @@ case
 chrome
 "
 :
-let
 resolved
 =
 Cc
@@ -19370,6 +19371,11 @@ optimizedOut
 value
 .
 missingArguments
+|
+|
+value
+.
+uninitialized
 )
 )
 {

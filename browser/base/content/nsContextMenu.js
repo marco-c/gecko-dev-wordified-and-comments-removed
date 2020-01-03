@@ -5710,7 +5710,6 @@ this
 onEditableArea
 )
 {
-var
 win
 =
 this
