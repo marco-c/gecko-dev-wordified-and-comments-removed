@@ -544,6 +544,15 @@ return
 false
 ;
 }
+void
+BluetoothHfpManager
+:
+:
+HandleBackendError
+(
+)
+{
+}
 bool
 BluetoothHfpManager
 :

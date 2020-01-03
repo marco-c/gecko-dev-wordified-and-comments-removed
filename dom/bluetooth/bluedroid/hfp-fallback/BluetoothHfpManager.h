@@ -78,6 +78,11 @@ DisconnectSco
 (
 )
 ;
+void
+HandleBackendError
+(
+)
+;
 protected
 :
 virtual
