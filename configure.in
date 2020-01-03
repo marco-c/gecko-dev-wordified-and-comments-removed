@@ -62545,6 +62545,13 @@ n
 "
 NIGHTLY_BUILD
 "
+-
+a
+-
+z
+"
+gonkdir
+"
 ;
 then
 MOZ_JEMALLOC3
