@@ -97,7 +97,7 @@ confirm
 :
 function
 (
-aWindow
+aBrowser
 aURL
 aInstalls
 )
@@ -197,7 +197,9 @@ prompt
 .
 confirmEx
 (
-aWindow
+aBrowser
+.
+contentWindow
 title
 install
 .

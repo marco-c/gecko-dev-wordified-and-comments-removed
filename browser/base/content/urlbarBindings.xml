@@ -8873,17 +8873,6 @@ notification
 browser
 ;
 let
-contentWindow
-=
-this
-.
-notification
-.
-options
-.
-contentWindow
-;
-let
 sourceURI
 =
 this
@@ -9074,7 +9063,7 @@ weblistener
 .
 onWebInstallRequested
 (
-contentWindow
+browser
 sourceURI
 installs
 installs
