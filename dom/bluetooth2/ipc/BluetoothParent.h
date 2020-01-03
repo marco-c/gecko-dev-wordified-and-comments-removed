@@ -643,6 +643,15 @@ bool
 DoRequest
 (
 const
+DiscoverGattServicesRequest
+&
+aRequest
+)
+;
+bool
+DoRequest
+(
+const
 UnregisterGattClientRequest
 &
 aRequest

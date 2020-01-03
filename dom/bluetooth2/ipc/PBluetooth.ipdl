@@ -464,6 +464,14 @@ deviceAddress
 }
 ;
 struct
+DiscoverGattServicesRequest
+{
+nsString
+appUuid
+;
+}
+;
+struct
 UnregisterGattClientRequest
 {
 int
@@ -548,6 +556,8 @@ SendPlayStatusRequest
 ConnectGattClientRequest
 ;
 DisconnectGattClientRequest
+;
+DiscoverGattServicesRequest
 ;
 UnregisterGattClientRequest
 ;

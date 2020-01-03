@@ -135,6 +135,17 @@ already_AddRefed
 <
 Promise
 >
+DiscoverServices
+(
+ErrorResult
+&
+aRv
+)
+;
+already_AddRefed
+<
+Promise
+>
 ReadRemoteRssi
 (
 ErrorResult
@@ -235,6 +246,9 @@ mConnectionState
 ;
 nsString
 mDeviceAddr
+;
+bool
+mDiscoveringServices
 ;
 }
 ;
