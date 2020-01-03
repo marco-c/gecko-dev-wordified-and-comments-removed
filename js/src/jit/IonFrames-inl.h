@@ -214,6 +214,14 @@ prevType
 )
 =
 =
+JitFrame_Unwound_BaselineJS
+|
+|
+prevType
+(
+)
+=
+=
 JitFrame_Unwound_BaselineStub
 |
 |

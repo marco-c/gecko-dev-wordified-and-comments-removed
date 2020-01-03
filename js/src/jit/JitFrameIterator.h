@@ -65,6 +65,7 @@ JitFrame_BaselineJS
 JitFrame_BaselineStub
 JitFrame_Entry
 JitFrame_Rectifier
+JitFrame_Unwound_BaselineJS
 JitFrame_Unwound_IonJS
 JitFrame_Unwound_BaselineStub
 JitFrame_Unwound_Rectifier
