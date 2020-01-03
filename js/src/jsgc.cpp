@@ -27211,6 +27211,15 @@ abortSweepAfterCurrentGroup
 =
 true
 ;
+JSGCInvocationKind
+oldInvocationKind
+=
+invocationKind
+;
+invocationKind
+=
+GC_NORMAL
+;
 SliceBudget
 budget
 ;
@@ -27225,6 +27234,10 @@ gcreason
 :
 RESET
 )
+;
+invocationKind
+=
+oldInvocationKind
 ;
 {
 gcstats
