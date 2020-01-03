@@ -1441,7 +1441,7 @@ IsTransformed
 aFrame
 -
 >
-StyleDisplay
+StylePosition
 (
 )
 -
@@ -11402,7 +11402,7 @@ TYPE_TRANSFORM
 mFrame
 -
 >
-StyleDisplay
+StylePosition
 (
 )
 -
