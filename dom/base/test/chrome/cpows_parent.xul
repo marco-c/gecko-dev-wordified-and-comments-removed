@@ -1496,6 +1496,15 @@ result
 "
 )
 ;
+function
+f
+(
+)
+{
+return
+101
+;
+}
 let
 obj
 =
@@ -1531,6 +1540,9 @@ from_parent
 obj
 :
 obj
+func
+:
+f
 }
 )
 ;
