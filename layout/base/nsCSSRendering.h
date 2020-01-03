@@ -1852,7 +1852,7 @@ aSkipRect
 protected
 :
 gfxAlphaBoxBlur
-blur
+mAlphaBoxBlur
 ;
 nsRefPtr
 <

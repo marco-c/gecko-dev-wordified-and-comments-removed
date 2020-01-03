@@ -23768,7 +23768,7 @@ aSkipRect
 ;
 mContext
 =
-blur
+mAlphaBoxBlur
 .
 Init
 (
@@ -23786,7 +23786,7 @@ else
 {
 mContext
 =
-blur
+mAlphaBoxBlur
 .
 Init
 (
@@ -23856,7 +23856,7 @@ gfxMatrix
 )
 ;
 }
-blur
+mAlphaBoxBlur
 .
 Paint
 (
