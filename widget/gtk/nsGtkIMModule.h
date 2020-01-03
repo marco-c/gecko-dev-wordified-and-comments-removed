@@ -394,6 +394,15 @@ eCompositionState_CompositionChangeEventDispatched
 )
 ;
 }
+bool
+IsValidContext
+(
+GtkIMContext
+*
+aContext
+)
+const
+;
 #
 ifdef
 PR_LOGGING
@@ -650,6 +659,9 @@ ResetIME
 void
 GetCompositionString
 (
+GtkIMContext
+*
+aContext
 nsAString
 &
 aCompositionString
