@@ -406,7 +406,7 @@ messages
 text
 :
 "
-NodeList
+Array
 [
 "
 category
