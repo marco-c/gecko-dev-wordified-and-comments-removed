@@ -72,7 +72,11 @@ SRTP_MASTER_SALT_LENGTH
 #
 define
 SRTP_MAX_EXPANSION
-20
+(
+SRTP_MAX_TRAILER_LEN
++
+4
+)
 class
 SrtpFlow
 {
