@@ -209,9 +209,6 @@ matchString
 "
 fooBarWorker
 "
-expectError
-:
-true
 }
 {
 file
