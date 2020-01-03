@@ -2175,6 +2175,14 @@ MArrowNewTarget
 ins
 )
 ;
+void
+visitAtomicIsLockFree
+(
+MAtomicIsLockFree
+*
+ins
+)
+;
 }
 ;
 }

@@ -2547,6 +2547,15 @@ atomics_xor
 ;
 break
 ;
+case
+AsmJSAtomicsBuiltin_isLockFree
+:
+native
+=
+atomics_isLockFree
+;
+break
+;
 }
 if
 (

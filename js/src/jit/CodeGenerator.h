@@ -2038,6 +2038,14 @@ lir
 )
 ;
 void
+visitAtomicIsLockFree
+(
+LAtomicIsLockFree
+*
+lir
+)
+;
+void
 visitCompareExchangeTypedArrayElement
 (
 LCompareExchangeTypedArrayElement

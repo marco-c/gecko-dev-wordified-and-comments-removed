@@ -3938,6 +3938,14 @@ target
 )
 ;
 InliningStatus
+inlineAtomicsIsLockFree
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineUnsafeSetReservedSlot
 (
 CallInfo
