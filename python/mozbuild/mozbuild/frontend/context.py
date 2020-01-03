@@ -3503,7 +3503,7 @@ components
 "
 "
 '
-libs
+misc
 '
 )
     
@@ -3734,7 +3734,7 @@ distribution
 "
 "
 '
-libs
+misc
 '
 )
     

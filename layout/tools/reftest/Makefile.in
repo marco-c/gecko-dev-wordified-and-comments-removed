@@ -476,6 +476,7 @@ netwerk
 test
 /
 httpserver
+misc
 libs
 XPI_NAME
 =
@@ -484,6 +485,7 @@ reftest
 (
 MAKE
 )
+misc
 libs
 XPI_NAME
 =
