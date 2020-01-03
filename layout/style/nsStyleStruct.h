@@ -8242,6 +8242,12 @@ NS_STYLE_DISPLAY_INLINE_BLOCK
 =
 =
 mDisplay
+|
+|
+NS_STYLE_DISPLAY_TABLE_CAPTION
+=
+=
+mDisplay
 ;
 }
 bool
