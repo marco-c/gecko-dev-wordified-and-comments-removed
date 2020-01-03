@@ -721,6 +721,9 @@ roomFailure
 error
 :
 Object
+failedJoinRequest
+:
+Boolean
 }
 )
 SetupRoomInfo

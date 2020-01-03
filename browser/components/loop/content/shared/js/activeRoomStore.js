@@ -342,6 +342,9 @@ FULL
 ROOM_STATES
 .
 FAILED
+actionData
+.
+failedJoinRequest
 )
 ;
 }
@@ -502,6 +505,9 @@ RoomFailure
 error
 :
 error
+failedJoinRequest
+:
+false
 }
 )
 )
@@ -993,6 +999,9 @@ RoomFailure
 error
 :
 error
+failedJoinRequest
+:
+true
 }
 )
 )
@@ -1931,6 +1940,9 @@ RoomFailure
 error
 :
 error
+failedJoinRequest
+:
+false
 }
 )
 )
@@ -1961,6 +1973,7 @@ _leaveRoom
 function
 (
 nextState
+failedJoinRequest
 )
 {
 if
@@ -2052,6 +2065,11 @@ _timeout
 }
 if
 (
+!
+failedJoinRequest
+&
+&
+(
 this
 .
 _storeState
@@ -2102,6 +2120,7 @@ roomState
 ROOM_STATES
 .
 HAS_PARTICIPANTS
+)
 )
 {
 this
