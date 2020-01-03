@@ -120,6 +120,15 @@ tests
 /
 test
 -
+asmjs
+.
+cpp
+'
+'
+tests
+/
+test
+-
 Interpreter
 .
 cpp
