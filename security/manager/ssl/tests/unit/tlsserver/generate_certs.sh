@@ -1870,6 +1870,15 @@ default
 ee
 .
 der
+export_cert
+otherIssuerEE
+other
+-
+issuer
+-
+ee
+.
+der
 #
 A
 cert
