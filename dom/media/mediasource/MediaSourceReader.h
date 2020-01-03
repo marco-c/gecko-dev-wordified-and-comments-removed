@@ -468,6 +468,10 @@ SwitchAudioReader
 (
 int64_t
 aTarget
+int64_t
+aError
+=
+0
 )
 ;
 bool
@@ -475,6 +479,10 @@ SwitchVideoReader
 (
 int64_t
 aTarget
+int64_t
+aError
+=
+0
 )
 ;
 already_AddRefed
@@ -485,6 +493,8 @@ SelectReader
 (
 int64_t
 aTarget
+int64_t
+aError
 const
 nsTArray
 <

@@ -306,6 +306,10 @@ Find
 (
 double
 aTime
+double
+aError
+=
+0
 )
 ;
 bool

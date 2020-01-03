@@ -977,7 +977,6 @@ if
 SwitchAudioReader
 (
 mLastAudioTime
-+
 EOS_FUZZ_US
 )
 )
@@ -1440,7 +1439,6 @@ if
 SwitchVideoReader
 (
 mLastVideoTime
-+
 EOS_FUZZ_US
 )
 )
@@ -1818,6 +1816,8 @@ SelectReader
 (
 int64_t
 aTarget
+int64_t
+aError
 const
 nsTArray
 <
@@ -1918,6 +1918,12 @@ Find
 double
 (
 aTarget
+)
+/
+USECS_PER_S
+double
+(
+aError
 )
 /
 USECS_PER_S
@@ -2037,6 +2043,7 @@ reader
 SelectReader
 (
 aTarget
+EOS_FUZZ_US
 trackBuffer
 -
 >
@@ -2059,6 +2066,8 @@ SwitchAudioReader
 (
 int64_t
 aTarget
+int64_t
+aError
 )
 {
 ReentrantMonitorAutoEnter
@@ -2091,6 +2100,7 @@ newReader
 SelectReader
 (
 aTarget
+aError
 mAudioTrack
 -
 >
@@ -2162,6 +2172,8 @@ SwitchVideoReader
 (
 int64_t
 aTarget
+int64_t
+aError
 )
 {
 ReentrantMonitorAutoEnter
@@ -2194,6 +2206,7 @@ newReader
 SelectReader
 (
 aTarget
+aError
 mVideoTrack
 -
 >
