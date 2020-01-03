@@ -12662,6 +12662,11 @@ crypto
 :
 1
 ;
+bool
+rtcIdentityProvider
+:
+1
+;
 }
 ;
 already_AddRefed
