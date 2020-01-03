@@ -509,7 +509,7 @@ aDefaultPoint
 )
 ;
 static
-nsIntPoint
+LayoutDeviceIntPoint
 GetScreenCoords
 (
 nsPresContext

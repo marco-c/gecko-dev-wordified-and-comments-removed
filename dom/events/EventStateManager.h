@@ -582,7 +582,7 @@ aEvent
 )
 ;
 static
-nsIntPoint
+LayoutDeviceIntPoint
 sLastScreenPoint
 ;
 static

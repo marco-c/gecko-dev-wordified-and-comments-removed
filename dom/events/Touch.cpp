@@ -119,7 +119,7 @@ aPageY
 ;
 mScreenPoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 aScreenX
 aScreenY
@@ -212,7 +212,7 @@ CSSIntPoint
 ;
 mScreenPoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 0
 0
