@@ -424,6 +424,11 @@ editable
 "
 true
 "
+sortable
+=
+"
+false
+"
 /
 >
 <
@@ -446,6 +451,11 @@ engineNameColumn
 .
 label
 ;
+"
+sortable
+=
+"
+false
 "
 /
 >
@@ -474,6 +484,11 @@ editable
 =
 "
 true
+"
+sortable
+=
+"
+false
 "
 /
 >
