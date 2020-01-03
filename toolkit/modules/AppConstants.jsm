@@ -279,6 +279,17 @@ else
 false
 #
 endif
+DEBUG
+:
+#
+ifdef
+DEBUG
+true
+#
+else
+false
+#
+endif
 MOZ_APP_NAME
 :
 "
