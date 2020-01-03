@@ -977,10 +977,16 @@ reportError
 Failed
 to
 execute
+WebChannel
 callback
 :
 "
-+
+)
+;
+Cu
+.
+reportError
+(
 ex
 )
 ;

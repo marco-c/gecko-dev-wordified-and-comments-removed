@@ -103,9 +103,6 @@ common
 '
 crypto
 '
-'
-fxaccounts
-'
 ]
 if
 CONFIG
@@ -120,6 +117,14 @@ MOZ_WIDGET_TOOLKIT
 android
 '
 :
+DIRS
++
+=
+[
+'
+fxaccounts
+'
+]
 #
 MOZ_SERVICES_HEALTHREPORT
 and
