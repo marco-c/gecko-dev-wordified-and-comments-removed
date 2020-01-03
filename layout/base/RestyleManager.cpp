@@ -6877,6 +6877,10 @@ RestyleTracker
 aRestyleTracker
 )
 {
+BeginProcessingRestyles
+(
+)
+;
 mInRebuildAllStyleData
 =
 true
@@ -7023,7 +7027,7 @@ aRestyleTracker
 restyleHint
 )
 ;
-FlushOverflowChangedTracker
+EndProcessingRestyles
 (
 )
 ;
