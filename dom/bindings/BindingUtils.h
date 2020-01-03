@@ -13529,7 +13529,7 @@ aPermissions
 )
 ;
 bool
-CheckSafetyInPrerendering
+EnforceNotInPrerendering
 (
 JSContext
 *
@@ -13537,6 +13537,14 @@ aCx
 JSObject
 *
 aObj
+)
+;
+void
+HandlePrerenderingViolation
+(
+nsPIDOMWindow
+*
+aWindow
 )
 ;
 bool
