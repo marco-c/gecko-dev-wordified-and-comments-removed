@@ -84,6 +84,13 @@ h
 #
 include
 "
+TouchManager
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -3007,11 +3014,6 @@ aRect
 )
 ;
 void
-EvictTouches
-(
-)
-;
-void
 HandleKeyboardEvent
 (
 nsINode
@@ -3270,6 +3272,9 @@ mFirstCallbackEventRequest
 nsCallbackEventRequest
 *
 mLastCallbackEventRequest
+;
+TouchManager
+mTouchManager
 ;
 nsRefPtr
 <
