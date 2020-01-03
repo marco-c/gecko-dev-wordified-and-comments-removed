@@ -5775,6 +5775,13 @@ onpairedstatuschanged
 )
 GK_ATOM
 (
+onpairingaborted
+"
+onpairingaborted
+"
+)
+GK_ATOM
+(
 onpairingconfirmationreq
 "
 onpairingconfirmationreq
