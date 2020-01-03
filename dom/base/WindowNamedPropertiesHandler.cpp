@@ -1281,6 +1281,13 @@ JS
 :
 NullHandleValue
 aProto
+js
+:
+:
+GetGlobalForObjectCrossCompartment
+(
+aProto
+)
 options
 )
 ;

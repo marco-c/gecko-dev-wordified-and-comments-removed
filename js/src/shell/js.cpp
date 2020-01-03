@@ -21589,6 +21589,16 @@ toObject
 (
 )
 &
+obj
+.
+toObject
+(
+)
+.
+global
+(
+)
+&
 Wrapper
 :
 :

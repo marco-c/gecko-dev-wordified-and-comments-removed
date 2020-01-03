@@ -103,6 +103,9 @@ HandleValue
 priv
 TaggedProto
 proto_
+JSObject
+*
+parent_
 const
 ProxyOptions
 &

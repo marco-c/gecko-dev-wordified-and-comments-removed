@@ -132,6 +132,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+parent
 const
 Wrapper
 *
@@ -142,6 +145,11 @@ WrapperOptions
 options
 )
 {
+MOZ_ASSERT
+(
+parent
+)
+;
 RootedValue
 priv
 (
@@ -164,6 +172,7 @@ options
 proto
 (
 )
+parent
 options
 )
 ;
@@ -655,6 +664,8 @@ HandleObject
 existing
 HandleObject
 obj
+HandleObject
+parent
 )
 {
 MOZ_ASSERT
@@ -692,6 +703,7 @@ New
 (
 cx
 obj
+parent
 &
 CrossCompartmentWrapper
 :
