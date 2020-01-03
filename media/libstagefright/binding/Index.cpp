@@ -70,6 +70,7 @@ RangeFinder
 {
 public
 :
+explicit
 RangeFinder
 (
 const

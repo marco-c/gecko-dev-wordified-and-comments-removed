@@ -166,6 +166,7 @@ WebMWriter
 {
 public
 :
+explicit
 TestWebMWriter
 (
 int

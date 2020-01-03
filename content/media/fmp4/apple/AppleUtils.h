@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
@@ -106,6 +115,7 @@ AutoCFRelease
 {
 public
 :
+MOZ_IMPLICIT
 AutoCFRelease
 (
 T

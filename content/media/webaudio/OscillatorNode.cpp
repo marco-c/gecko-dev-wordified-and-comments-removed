@@ -97,6 +97,7 @@ DCBlocker
 {
 public
 :
+explicit
 DCBlocker
 (
 float

@@ -154,6 +154,7 @@ DataSource
 {
 public
 :
+explicit
 DataSourceAdapter
 (
 Stream

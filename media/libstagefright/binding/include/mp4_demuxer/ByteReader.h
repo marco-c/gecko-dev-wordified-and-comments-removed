@@ -51,6 +51,7 @@ mRemaining
 )
 {
 }
+explicit
 ByteReader
 (
 const

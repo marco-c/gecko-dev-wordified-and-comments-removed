@@ -273,6 +273,7 @@ nsRunnable
 {
 public
 :
+explicit
 InitTask
 (
 EMEAudioDecoder

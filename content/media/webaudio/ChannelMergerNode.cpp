@@ -53,6 +53,7 @@ AudioNodeEngine
 {
 public
 :
+explicit
 ChannelMergerNodeEngine
 (
 ChannelMergerNode
