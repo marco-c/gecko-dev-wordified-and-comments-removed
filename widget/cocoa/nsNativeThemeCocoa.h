@@ -782,6 +782,10 @@ private
 :
 NSButtonCell
 *
+mDisclosureButtonCell
+;
+NSButtonCell
+*
 mHelpButtonCell
 ;
 NSButtonCell
