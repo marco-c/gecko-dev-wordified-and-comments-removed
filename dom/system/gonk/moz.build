@@ -569,6 +569,11 @@ ril_worker
 js
 '
 '
+ril_worker_buf_object
+.
+js
+'
+'
 RILSystemMessenger
 .
 jsm
