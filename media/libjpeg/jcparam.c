@@ -609,7 +609,7 @@ cinfo
 JPOOL_PERMANENT
 MAX_COMPONENTS
 *
-SIZEOF
+sizeof
 (
 jpeg_component_info
 )
@@ -1891,7 +1891,7 @@ cinfo
 >
 script_space_size
 *
-SIZEOF
+sizeof
 (
 jpeg_scan_info
 )

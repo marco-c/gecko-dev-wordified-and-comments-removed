@@ -1060,7 +1060,7 @@ num_components
 rgroup_height
 )
 *
-SIZEOF
+sizeof
 (
 JSAMPROW
 )
@@ -1157,7 +1157,7 @@ true_buffer
 *
 rgroup_height
 *
-SIZEOF
+sizeof
 (
 JSAMPROW
 )
@@ -1283,7 +1283,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_IMAGE
-SIZEOF
+sizeof
 (
 my_prep_controller
 )

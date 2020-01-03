@@ -50,8 +50,6 @@ METHODDEF
 void
 )
 post_process_1pass
-JPP
-(
 (
 j_decompress_ptr
 cinfo
@@ -69,7 +67,6 @@ JDIMENSION
 out_row_ctr
 JDIMENSION
 out_rows_avail
-)
 )
 ;
 #
@@ -80,8 +77,6 @@ METHODDEF
 void
 )
 post_process_prepass
-JPP
-(
 (
 j_decompress_ptr
 cinfo
@@ -99,7 +94,6 @@ JDIMENSION
 out_row_ctr
 JDIMENSION
 out_rows_avail
-)
 )
 ;
 METHODDEF
@@ -107,8 +101,6 @@ METHODDEF
 void
 )
 post_process_2pass
-JPP
-(
 (
 j_decompress_ptr
 cinfo
@@ -126,7 +118,6 @@ JDIMENSION
 out_row_ctr
 JDIMENSION
 out_rows_avail
-)
 )
 ;
 #
@@ -927,7 +918,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_IMAGE
-SIZEOF
+sizeof
 (
 my_post_controller
 )

@@ -565,8 +565,7 @@ definition
 %
 define
 SEG_TEXT
-.
-text
+_text
 align
 =
 16
@@ -578,8 +577,7 @@ CODE
 %
 define
 SEG_CONST
-.
-data
+_data
 align
 =
 16

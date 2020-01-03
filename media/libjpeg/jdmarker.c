@@ -862,7 +862,7 @@ cinfo
 >
 num_components
 *
-SIZEOF
+sizeof
 (
 jpeg_component_info
 )
@@ -1919,7 +1919,7 @@ count
 count
 )
 *
-SIZEOF
+sizeof
 (
 UINT8
 )
@@ -2035,7 +2035,7 @@ htblptr
 >
 bits
 bits
-SIZEOF
+sizeof
 (
 (
 *
@@ -2057,7 +2057,7 @@ htblptr
 >
 huffval
 huffval
-SIZEOF
+sizeof
 (
 (
 *
@@ -2555,7 +2555,6 @@ examine_app0
 j_decompress_ptr
 cinfo
 JOCTET
-FAR
 *
 data
 unsigned
@@ -3058,7 +3057,6 @@ examine_app14
 j_decompress_ptr
 cinfo
 JOCTET
-FAR
 *
 data
 unsigned
@@ -3389,7 +3387,6 @@ examine_app0
 cinfo
 (
 JOCTET
-FAR
 *
 )
 b
@@ -3407,7 +3404,6 @@ examine_app14
 cinfo
 (
 JOCTET
-FAR
 *
 )
 b
@@ -3503,7 +3499,6 @@ bytes_read
 data_length
 ;
 JOCTET
-FAR
 *
 data
 ;
@@ -3628,7 +3623,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_IMAGE
-SIZEOF
+sizeof
 (
 struct
 jpeg_marker_struct
@@ -3684,7 +3679,6 @@ data
 =
 (
 JOCTET
-FAR
 *
 )
 (
@@ -5304,7 +5298,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_PERMANENT
-SIZEOF
+sizeof
 (
 my_marker_reader
 )
@@ -5470,7 +5464,7 @@ mem
 >
 max_alloc_chunk
 -
-SIZEOF
+sizeof
 (
 struct
 jpeg_marker_struct

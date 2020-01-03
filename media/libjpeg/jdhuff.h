@@ -1,21 +1,4 @@
 #
-ifdef
-NEED_SHORT_EXTERNAL_NAMES
-#
-define
-jpeg_make_d_derived_tbl
-jMkDDerived
-#
-define
-jpeg_fill_bit_buffer
-jFilBitBuf
-#
-define
-jpeg_huff_decode
-jHufDecode
-#
-endif
-#
 define
 HUFF_LOOKAHEAD
 8
@@ -64,8 +47,6 @@ EXTERN
 void
 )
 jpeg_make_d_derived_tbl
-JPP
-(
 (
 j_decompress_ptr
 cinfo
@@ -77,7 +58,6 @@ d_derived_tbl
 *
 *
 pdtbl
-)
 )
 ;
 #
@@ -438,8 +418,6 @@ EXTERN
 boolean
 )
 jpeg_fill_bit_buffer
-JPP
-(
 (
 bitread_working_state
 *
@@ -452,7 +430,6 @@ int
 bits_left
 int
 nbits
-)
 )
 ;
 #
@@ -850,8 +827,6 @@ EXTERN
 int
 )
 jpeg_huff_decode
-JPP
-(
 (
 bitread_working_state
 *
@@ -867,6 +842,5 @@ d_derived_tbl
 htbl
 int
 min_bits
-)
 )
 ;

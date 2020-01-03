@@ -4534,7 +4534,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_IMAGE
-SIZEOF
+sizeof
 (
 arith_entropy_encoder
 )

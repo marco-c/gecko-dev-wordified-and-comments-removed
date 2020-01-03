@@ -195,7 +195,7 @@ alloc_small
 (
 cinfo
 JPOOL_PERMANENT
-SIZEOF
+sizeof
 (
 JQUANT_TBL
 )
@@ -246,7 +246,7 @@ alloc_small
 (
 cinfo
 JPOOL_PERMANENT
-SIZEOF
+sizeof
 (
 JHUFF_TBL
 )

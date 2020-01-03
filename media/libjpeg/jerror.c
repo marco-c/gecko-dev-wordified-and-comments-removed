@@ -48,15 +48,6 @@ EXIT_FAILURE
 #
 endif
 #
-ifdef
-NEED_SHORT_EXTERNAL_NAMES
-#
-define
-jpeg_std_message_table
-jMsgTable
-#
-endif
-#
 define
 JMESSAGE
 (

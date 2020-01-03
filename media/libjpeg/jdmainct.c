@@ -110,8 +110,6 @@ METHODDEF
 void
 )
 process_data_simple_main
-JPP
-(
 (
 j_decompress_ptr
 cinfo
@@ -122,7 +120,6 @@ JDIMENSION
 out_row_ctr
 JDIMENSION
 out_rows_avail
-)
 )
 ;
 METHODDEF
@@ -130,8 +127,6 @@ METHODDEF
 void
 )
 process_data_context_main
-JPP
-(
 (
 j_decompress_ptr
 cinfo
@@ -142,7 +137,6 @@ JDIMENSION
 out_row_ctr
 JDIMENSION
 out_rows_avail
-)
 )
 ;
 #
@@ -153,8 +147,6 @@ METHODDEF
 void
 )
 process_data_crank_post
-JPP
-(
 (
 j_decompress_ptr
 cinfo
@@ -165,7 +157,6 @@ JDIMENSION
 out_row_ctr
 JDIMENSION
 out_rows_avail
-)
 )
 ;
 #
@@ -244,7 +235,7 @@ num_components
 *
 2
 *
-SIZEOF
+sizeof
 (
 JSAMPARRAY
 )
@@ -350,7 +341,7 @@ M
 )
 )
 *
-SIZEOF
+sizeof
 (
 JSAMPROW
 )
@@ -1759,7 +1750,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_IMAGE
-SIZEOF
+sizeof
 (
 my_main_controller
 )

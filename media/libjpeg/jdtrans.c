@@ -20,12 +20,9 @@ LOCAL
 void
 )
 transdecode_master_selection
-JPP
-(
 (
 j_decompress_ptr
 cinfo
-)
 )
 ;
 GLOBAL

@@ -59,7 +59,7 @@ if
 structsize
 !
 =
-SIZEOF
+sizeof
 (
 struct
 jpeg_compress_struct
@@ -72,7 +72,7 @@ JERR_BAD_STRUCT_SIZE
 (
 int
 )
-SIZEOF
+sizeof
 (
 struct
 jpeg_compress_struct
@@ -106,7 +106,7 @@ client_data
 MEMZERO
 (
 cinfo
-SIZEOF
+sizeof
 (
 struct
 jpeg_compress_struct
@@ -753,16 +753,16 @@ int
 datalen
 )
 {
-JMETHOD
-(
 void
+(
+*
 write_marker_byte
+)
 (
 j_compress_ptr
 info
 int
 val
-)
 )
 ;
 if

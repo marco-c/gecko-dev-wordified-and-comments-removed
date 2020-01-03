@@ -45,12 +45,9 @@ METHODDEF
 int
 )
 consume_markers
-JPP
-(
 (
 j_decompress_ptr
 cinfo
-)
 )
 ;
 LOCAL
@@ -1192,7 +1189,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_IMAGE
-SIZEOF
+sizeof
 (
 JQUANT_TBL
 )
@@ -1208,7 +1205,7 @@ quant_tbl_ptrs
 [
 qtblno
 ]
-SIZEOF
+sizeof
 (
 JQUANT_TBL
 )
@@ -1618,7 +1615,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_PERMANENT
-SIZEOF
+sizeof
 (
 my_input_controller
 )

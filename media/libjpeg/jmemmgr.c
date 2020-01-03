@@ -35,14 +35,11 @@ extern
 char
 *
 getenv
-JPP
-(
 (
 const
 char
 *
 name
-)
 )
 ;
 #
@@ -91,7 +88,7 @@ WITH_SIMD
 #
 define
 ALIGN_SIZE
-SIZEOF
+sizeof
 (
 double
 )
@@ -139,7 +136,6 @@ small_pool_hdr
 typedef
 struct
 large_pool_struct
-FAR
 *
 large_pool_ptr
 ;
@@ -573,7 +569,7 @@ ALIGN_SIZE
 if
 (
 (
-SIZEOF
+sizeof
 (
 small_pool_hdr
 )
@@ -668,7 +664,7 @@ NULL
 {
 min_request
 =
-SIZEOF
+sizeof
 (
 small_pool_hdr
 )
@@ -841,7 +837,7 @@ hdr_ptr
 data_ptr
 +
 =
-SIZEOF
+sizeof
 (
 small_pool_hdr
 )
@@ -902,7 +898,6 @@ data_ptr
 METHODDEF
 (
 void
-FAR
 *
 )
 alloc_large
@@ -930,7 +925,6 @@ large_pool_ptr
 hdr_ptr
 ;
 char
-FAR
 *
 data_ptr
 ;
@@ -945,7 +939,7 @@ ALIGN_SIZE
 if
 (
 (
-SIZEOF
+sizeof
 (
 large_pool_hdr
 )
@@ -994,7 +988,7 @@ jpeg_get_large
 cinfo
 sizeofobject
 +
-SIZEOF
+sizeof
 (
 large_pool_hdr
 )
@@ -1025,7 +1019,7 @@ total_space_allocated
 =
 sizeofobject
 +
-SIZEOF
+sizeof
 (
 large_pool_hdr
 )
@@ -1082,7 +1076,7 @@ hdr_ptr
 data_ptr
 +
 =
-SIZEOF
+sizeof
 (
 small_pool_hdr
 )
@@ -1111,7 +1105,6 @@ ALIGN_SIZE
 return
 (
 void
-FAR
 *
 )
 data_ptr
@@ -1163,7 +1156,7 @@ if
 (
 ALIGN_SIZE
 %
-SIZEOF
+sizeof
 (
 JSAMPLE
 )
@@ -1192,7 +1185,7 @@ samplesperrow
 ALIGN_SIZE
 )
 /
-SIZEOF
+sizeof
 (
 JSAMPLE
 )
@@ -1203,7 +1196,7 @@ ltemp
 (
 MAX_ALLOC_CHUNK
 -
-SIZEOF
+sizeof
 (
 large_pool_hdr
 )
@@ -1215,7 +1208,7 @@ long
 )
 samplesperrow
 *
-SIZEOF
+sizeof
 (
 JSAMPLE
 )
@@ -1277,7 +1270,7 @@ size_t
 (
 numrows
 *
-SIZEOF
+sizeof
 (
 JSAMPROW
 )
@@ -1328,7 +1321,7 @@ size_t
 )
 samplesperrow
 *
-SIZEOF
+sizeof
 (
 JSAMPLE
 )
@@ -1414,7 +1407,7 @@ ltemp
 if
 (
 (
-SIZEOF
+sizeof
 (
 JBLOCK
 )
@@ -1436,7 +1429,7 @@ ltemp
 (
 MAX_ALLOC_CHUNK
 -
-SIZEOF
+sizeof
 (
 large_pool_hdr
 )
@@ -1448,7 +1441,7 @@ long
 )
 blocksperrow
 *
-SIZEOF
+sizeof
 (
 JBLOCK
 )
@@ -1510,7 +1503,7 @@ size_t
 (
 numrows
 *
-SIZEOF
+sizeof
 (
 JBLOCKROW
 )
@@ -1561,7 +1554,7 @@ size_t
 )
 blocksperrow
 *
-SIZEOF
+sizeof
 (
 JBLOCK
 )
@@ -1660,7 +1653,7 @@ alloc_small
 (
 cinfo
 pool_id
-SIZEOF
+sizeof
 (
 struct
 jvirt_sarray_control
@@ -1787,7 +1780,7 @@ alloc_small
 (
 cinfo
 pool_id
-SIZEOF
+sizeof
 (
 struct
 jvirt_barray_control
@@ -1953,7 +1946,7 @@ sptr
 >
 samplesperrow
 *
-SIZEOF
+sizeof
 (
 JSAMPLE
 )
@@ -1977,7 +1970,7 @@ sptr
 >
 samplesperrow
 *
-SIZEOF
+sizeof
 (
 JSAMPLE
 )
@@ -2036,7 +2029,7 @@ bptr
 >
 blocksperrow
 *
-SIZEOF
+sizeof
 (
 JBLOCK
 )
@@ -2060,7 +2053,7 @@ bptr
 >
 blocksperrow
 *
-SIZEOF
+sizeof
 (
 JBLOCK
 )
@@ -2239,7 +2232,7 @@ samplesperrow
 (
 long
 )
-SIZEOF
+sizeof
 (
 JSAMPLE
 )
@@ -2424,7 +2417,7 @@ blocksperrow
 (
 long
 )
-SIZEOF
+sizeof
 (
 JBLOCK
 )
@@ -2523,7 +2516,7 @@ ptr
 >
 samplesperrow
 *
-SIZEOF
+sizeof
 (
 JSAMPLE
 )
@@ -2665,7 +2658,6 @@ ptr
 b_s_info
 (
 void
-FAR
 *
 )
 ptr
@@ -2698,7 +2690,6 @@ ptr
 b_s_info
 (
 void
-FAR
 *
 )
 ptr
@@ -2751,7 +2742,7 @@ ptr
 >
 blocksperrow
 *
-SIZEOF
+sizeof
 (
 JBLOCK
 )
@@ -2893,7 +2884,6 @@ ptr
 b_s_info
 (
 void
-FAR
 *
 )
 ptr
@@ -2926,7 +2916,6 @@ ptr
 b_s_info
 (
 void
-FAR
 *
 )
 ptr
@@ -3209,7 +3198,7 @@ ptr
 >
 samplesperrow
 *
-SIZEOF
+sizeof
 (
 JSAMPLE
 )
@@ -3241,7 +3230,6 @@ jzero_far
 (
 (
 void
-FAR
 *
 )
 ptr
@@ -3564,7 +3552,7 @@ ptr
 >
 blocksperrow
 *
-SIZEOF
+sizeof
 (
 JBLOCK
 )
@@ -3596,7 +3584,6 @@ jzero_far
 (
 (
 void
-FAR
 *
 )
 ptr
@@ -3922,7 +3909,7 @@ lhdr_ptr
 >
 bytes_left
 +
-SIZEOF
+sizeof
 (
 large_pool_hdr
 )
@@ -3932,7 +3919,6 @@ jpeg_free_large
 cinfo
 (
 void
-FAR
 *
 )
 lhdr_ptr
@@ -4000,7 +3986,7 @@ shdr_ptr
 >
 bytes_left
 +
-SIZEOF
+sizeof
 (
 small_pool_hdr
 )
@@ -4079,7 +4065,7 @@ cinfo
 -
 >
 mem
-SIZEOF
+sizeof
 (
 my_memory_mgr
 )
@@ -4196,7 +4182,7 @@ my_mem_ptr
 jpeg_get_small
 (
 cinfo
-SIZEOF
+sizeof
 (
 my_memory_mgr
 )
@@ -4398,7 +4384,7 @@ mem
 >
 total_space_allocated
 =
-SIZEOF
+sizeof
 (
 my_memory_mgr
 )

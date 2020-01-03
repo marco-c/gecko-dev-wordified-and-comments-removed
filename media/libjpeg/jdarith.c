@@ -3625,7 +3625,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_IMAGE
-SIZEOF
+sizeof
 (
 arith_entropy_decoder
 )
@@ -3748,7 +3748,7 @@ num_components
 *
 DCTSIZE2
 *
-SIZEOF
+sizeof
 (
 int
 )

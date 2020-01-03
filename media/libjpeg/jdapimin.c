@@ -59,7 +59,7 @@ if
 structsize
 !
 =
-SIZEOF
+sizeof
 (
 struct
 jpeg_decompress_struct
@@ -72,7 +72,7 @@ JERR_BAD_STRUCT_SIZE
 (
 int
 )
-SIZEOF
+sizeof
 (
 struct
 jpeg_decompress_struct
@@ -106,7 +106,7 @@ client_data
 MEMZERO
 (
 cinfo
-SIZEOF
+sizeof
 (
 struct
 jpeg_decompress_struct

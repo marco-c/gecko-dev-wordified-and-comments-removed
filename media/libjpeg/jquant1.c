@@ -413,7 +413,6 @@ LOCFSERROR
 endif
 typedef
 FSERROR
-FAR
 *
 FSERRPTR
 ;
@@ -1450,7 +1449,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_IMAGE
-SIZEOF
+sizeof
 (
 ODITHER_MATRIX
 )
@@ -2146,7 +2145,6 @@ jzero_far
 (
 (
 void
-FAR
 *
 )
 output_buf
@@ -2159,7 +2157,7 @@ size_t
 (
 width
 *
-SIZEOF
+sizeof
 (
 JSAMPLE
 )
@@ -2729,7 +2727,6 @@ jzero_far
 (
 (
 void
-FAR
 *
 )
 output_buf
@@ -2742,7 +2739,7 @@ size_t
 (
 width
 *
-SIZEOF
+sizeof
 (
 JSAMPLE
 )
@@ -3099,7 +3096,7 @@ output_width
 2
 )
 *
-SIZEOF
+sizeof
 (
 FSERROR
 )
@@ -3370,7 +3367,7 @@ output_width
 2
 )
 *
-SIZEOF
+sizeof
 (
 FSERROR
 )
@@ -3397,7 +3394,6 @@ jzero_far
 (
 (
 void
-FAR
 *
 )
 cquantize
@@ -3486,7 +3482,7 @@ j_common_ptr
 )
 cinfo
 JPOOL_IMAGE
-SIZEOF
+sizeof
 (
 my_cquantizer
 )
