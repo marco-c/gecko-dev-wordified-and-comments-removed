@@ -206,7 +206,7 @@ size_t
 aNbytes
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 -
 1
@@ -321,7 +321,7 @@ size_t
 nBytes
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 nullptr
 =
@@ -402,7 +402,7 @@ Handle
 aNewHandle
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mShmFd
 >

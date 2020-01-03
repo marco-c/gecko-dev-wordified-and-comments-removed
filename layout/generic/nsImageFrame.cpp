@@ -5585,7 +5585,7 @@ nsPoint
 aPt
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gIconLoad
 "

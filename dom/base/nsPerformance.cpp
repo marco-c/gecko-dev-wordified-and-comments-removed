@@ -2356,7 +2356,7 @@ aElem2
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aElem1
 &
@@ -2409,7 +2409,7 @@ aElem2
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aElem1
 &

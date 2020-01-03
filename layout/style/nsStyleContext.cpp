@@ -2957,7 +2957,7 @@ Category
 CSS
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsHintSubset
 (
@@ -4806,7 +4806,7 @@ aStyleContext
 aResult
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 success
 "

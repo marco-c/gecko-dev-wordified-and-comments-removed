@@ -241,7 +241,7 @@ uint32_t
 aCapacity
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mBuffer
@@ -309,7 +309,7 @@ uint32_t
 aLength
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mBuffer
 &
@@ -323,7 +323,7 @@ initialized
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aLength
 <
@@ -416,7 +416,7 @@ uint32_t
 aSize2
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mBuffer
 &
@@ -430,7 +430,7 @@ initialized
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aSize
 <
@@ -517,7 +517,7 @@ uint32_t
 aSize
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mBuffer
 &

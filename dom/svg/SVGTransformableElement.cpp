@@ -346,7 +346,7 @@ nsChangeHint_ReconstructFrame
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aModType
 =
@@ -434,7 +434,7 @@ return
 result
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aWhich
 =

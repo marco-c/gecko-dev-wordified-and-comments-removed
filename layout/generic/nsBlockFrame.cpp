@@ -13166,7 +13166,7 @@ bool
 aKeepReflowGoing
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aLine
 -
@@ -13423,7 +13423,7 @@ fromLine
 =
 aFromLine
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 fromLine
 "
@@ -13435,7 +13435,7 @@ from
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 fromLine
 -
@@ -13449,7 +13449,7 @@ line
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aLine
 -
@@ -14257,7 +14257,7 @@ aCoord
 0
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -19160,7 +19160,7 @@ SetSplitLeftFloatAcrossBreak
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFloat
 -
@@ -19448,7 +19448,7 @@ LineReflowStatus
 aLineReflowStatus
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aLine
 -
@@ -19481,7 +19481,7 @@ GetCurrentSpanCount
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 pushCount
 >
@@ -19607,7 +19607,7 @@ if
 pushCount
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aLine
 -
@@ -19623,7 +19623,7 @@ push
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 nullptr
 !
@@ -34436,7 +34436,7 @@ if
 aFinalCheckOK
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 line
 -

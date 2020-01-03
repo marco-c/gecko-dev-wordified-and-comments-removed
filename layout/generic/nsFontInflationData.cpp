@@ -824,7 +824,7 @@ wm
 =
 NS_UNCONSTRAINEDSIZE
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 frame
 -
@@ -871,7 +871,7 @@ availSize
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 reflowStates
 [
@@ -1027,7 +1027,7 @@ bfc
 eFromEnd
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 firstInflatableDescendant

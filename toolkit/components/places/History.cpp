@@ -8262,7 +8262,7 @@ SetLinkState
 eLinkState_Visited
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 key
 =
@@ -10025,7 +10025,7 @@ NS_IHISTORY_CONTRACTID
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 service
 "

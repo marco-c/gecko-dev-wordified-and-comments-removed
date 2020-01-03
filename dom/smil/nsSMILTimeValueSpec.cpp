@@ -376,7 +376,7 @@ IsEventBased
 )
 return
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aContextNode
 "
@@ -494,7 +494,7 @@ GetCurrentDoc
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 doc
 "
@@ -526,7 +526,7 @@ GetRootElement
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -1233,7 +1233,7 @@ Element
 aTarget
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsEventBased
 (
@@ -1247,14 +1247,14 @@ event
 listener
 for
 unexpected
+"
+"
 nsSMILTimeValueSpec
-"
-"
 type
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mParams
 .
@@ -1271,6 +1271,8 @@ there
 is
 no
 event
+"
+"
 name
 "
 )
@@ -1424,7 +1426,7 @@ Element
 aTarget
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aTarget
 "
@@ -1539,7 +1541,7 @@ nsIDOMEvent
 aEvent
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mEventListener
 "
@@ -1552,7 +1554,7 @@ listener
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsEventBased
 (
@@ -1568,7 +1570,7 @@ nsSMILTimeValueSpec
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aEvent
 "
@@ -2113,7 +2115,7 @@ IsIndefinite
 return
 docTime
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 docTime
 .

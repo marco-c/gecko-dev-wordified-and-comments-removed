@@ -1365,7 +1365,7 @@ uint32_t
 aFlags
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mIsNewBuffer
@@ -1755,7 +1755,7 @@ rect
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mTextureClient
 "

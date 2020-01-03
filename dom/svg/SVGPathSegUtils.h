@@ -378,7 +378,7 @@ same
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsValidType
 (
@@ -455,7 +455,7 @@ aType
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsValidType
 (
@@ -481,7 +481,7 @@ uint32_t
 aType
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsValidType
 (
@@ -656,7 +656,7 @@ uint32_t
 aType
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsValidType
 (
@@ -857,7 +857,7 @@ uint32_t
 aType
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsValidType
 (
@@ -898,7 +898,7 @@ uint32_t
 aType
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsRelativeOrAbsoluteType
 (
@@ -948,7 +948,7 @@ uint32_t
 aType
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsRelativeOrAbsoluteType
 (

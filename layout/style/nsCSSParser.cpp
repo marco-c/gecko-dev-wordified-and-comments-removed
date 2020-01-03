@@ -6952,7 +6952,7 @@ float
 aSelectorList
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aSelectorList
 .
@@ -15834,7 +15834,7 @@ eParseDeclaration_InBraces
 |
 eParseDeclaration_AllowImportant
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mViewportUnitsEnabled
 "
@@ -23012,7 +23012,7 @@ pseudoClassType
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 nsCSSPseudoClasses
 :
@@ -28634,7 +28634,7 @@ aKeywordTable
 ]
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 aVariantMask
@@ -28809,7 +28809,7 @@ aKeywordTable
 ]
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 aVariantMask
@@ -29043,7 +29043,7 @@ numbers
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 (
@@ -40493,7 +40493,7 @@ nsCSSProperty
 aPropID
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mHashlessColorQuirk
@@ -40508,7 +40508,7 @@ set
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mUnitlessLengthQuirk
@@ -40699,7 +40699,7 @@ allowVariables
 =
 false
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -42099,7 +42099,7 @@ ParseAll
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -42235,7 +42235,7 @@ aPropID
 eCSSProperty_COUNT_no_shorthands
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -42423,7 +42423,7 @@ aValue
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -42458,7 +42458,7 @@ variant
 0
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -42522,7 +42522,7 @@ aPropID
 {
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -47846,7 +47846,7 @@ mask
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aVariantMask
 !
@@ -47970,7 +47970,7 @@ int32_t
 aVariantMask
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aVariantMask
 !
@@ -48167,7 +48167,7 @@ nsCSSValue
 aValue
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 .
@@ -48234,7 +48234,7 @@ bool
 aHadFinalWS
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aVariantMask
 !
@@ -48308,7 +48308,7 @@ variantMask
 return
 false
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 variantMask
 !
@@ -48324,7 +48324,7 @@ appropriately
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 (
@@ -48420,7 +48420,7 @@ storage
 aValue
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 storage
 =
@@ -48689,7 +48689,7 @@ int32_t
 aVariantMask
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aVariantMask
 !
@@ -49331,7 +49331,7 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 nsCSSProps
 :
@@ -58550,7 +58550,7 @@ GetUnit
 eCSSUnit_Unset
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 position
 .
@@ -59015,7 +59015,7 @@ return
 false
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 -
@@ -59034,7 +59034,7 @@ function
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 -
@@ -59052,7 +59052,7 @@ array
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 -
@@ -60084,7 +60084,7 @@ GetUnit
 eCSSUnit_Null
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aTail
@@ -60108,7 +60108,7 @@ SetListValue
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aTail
@@ -60125,7 +60125,7 @@ entry
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aContainer
 .
@@ -60240,7 +60240,7 @@ maxNumProperties
 =
 8
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aNumProperties
 <
@@ -60646,7 +60646,7 @@ eParseAnimationOrTransitionShorthand_Error
 ;
 }
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 kTransitionProperties
 [

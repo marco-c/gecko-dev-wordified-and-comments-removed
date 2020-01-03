@@ -158,7 +158,7 @@ AddIPDLReference
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mIPCOpen
@@ -189,7 +189,7 @@ ReleaseIPDLReference
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mIPCOpen
 "
@@ -1079,7 +1079,7 @@ AddIPDLReference
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mIPCOpen
@@ -1110,7 +1110,7 @@ ReleaseIPDLReference
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mIPCOpen
 "

@@ -1477,7 +1477,7 @@ uint32_t
 aIndex
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 IsAnimValList
@@ -1518,7 +1518,7 @@ IsAnimating
 return
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 animVal
 -
@@ -1585,7 +1585,7 @@ uint32_t
 aIndex
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 IsAnimValList
@@ -1628,7 +1628,7 @@ IsAnimating
 return
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 animVal
 -

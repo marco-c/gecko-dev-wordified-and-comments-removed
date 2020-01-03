@@ -408,7 +408,7 @@ RawAccessFrameRef
 aFrameRef
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mInitialized
@@ -2387,7 +2387,7 @@ Orientation
 aOrientation
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aWidth
 >
@@ -2404,7 +2404,7 @@ negative
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aHeight
 >
@@ -2458,7 +2458,7 @@ PostFrameStart
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mInFrame
@@ -2633,7 +2633,7 @@ nsIntRect
 aRectAtTargetSize
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mInFrame
 "
@@ -2650,7 +2650,7 @@ frame
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrentFrame
 "
@@ -2709,7 +2709,7 @@ int32_t
 aLoopCount
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 IsSizeDecode
@@ -2730,7 +2730,7 @@ decode
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mInFrame
@@ -2752,7 +2752,7 @@ frame
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mDecodeDone
@@ -2820,7 +2820,7 @@ nsresult
 aFailureCode
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_FAILED
 (

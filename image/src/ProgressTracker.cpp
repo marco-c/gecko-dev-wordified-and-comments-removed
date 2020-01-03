@@ -335,7 +335,7 @@ Image
 aImage
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aImage
 "
@@ -345,7 +345,7 @@ image
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mImage
@@ -373,7 +373,7 @@ ResetImage
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mImage
 "

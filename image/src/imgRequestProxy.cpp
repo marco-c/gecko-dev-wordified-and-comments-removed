@@ -562,7 +562,7 @@ request
 aOwner
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mAnimationConsumers
 =
@@ -1291,7 +1291,7 @@ UnlockImage
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mLockCount
 >
@@ -3300,7 +3300,7 @@ this
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 HasImage
 (

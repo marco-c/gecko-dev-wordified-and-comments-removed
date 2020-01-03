@@ -2243,7 +2243,7 @@ encPassword
 useEncPassword
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mPort
 >
@@ -2709,7 +2709,7 @@ mHost
 mLen
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mPort
 >

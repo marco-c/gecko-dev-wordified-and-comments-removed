@@ -12200,7 +12200,7 @@ NS_IsMainThread
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gExceptionHandler
 !
@@ -13153,7 +13153,7 @@ kNullNotifyPipe
 return
 true
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 gExceptionHandler
@@ -13289,7 +13289,7 @@ SetRemoteExceptionHandler
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 gExceptionHandler
@@ -13423,7 +13423,7 @@ kNullNotifyPipe
 return
 true
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 gExceptionHandler

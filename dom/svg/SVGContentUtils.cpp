@@ -312,7 +312,7 @@ nsIContent
 aContent
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aContent
 -
@@ -1294,7 +1294,7 @@ nsIFrame
 aFrame
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFrame
 "
@@ -1328,7 +1328,7 @@ nsStyleContext
 aStyleContext
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aStyleContext
 "
@@ -1351,7 +1351,7 @@ PresContext
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 presContext
 "
@@ -1476,7 +1476,7 @@ nsIFrame
 aFrame
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFrame
 "
@@ -1510,7 +1510,7 @@ nsStyleContext
 aStyleContext
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aStyleContext
 "
@@ -1533,7 +1533,7 @@ PresContext
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 presContext
 "

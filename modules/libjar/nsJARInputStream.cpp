@@ -91,7 +91,7 @@ rv
 =
 NS_OK
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aJar
 "
@@ -103,7 +103,7 @@ null
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 item
 "
@@ -275,7 +275,7 @@ char
 aDir
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aJar
 "
@@ -287,7 +287,7 @@ null
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aDir
 "

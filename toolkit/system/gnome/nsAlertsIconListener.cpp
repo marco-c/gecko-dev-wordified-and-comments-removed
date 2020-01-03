@@ -240,7 +240,7 @@ gpointer
 marshal_data
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 n_param_values
 >

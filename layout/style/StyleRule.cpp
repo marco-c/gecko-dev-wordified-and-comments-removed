@@ -3346,7 +3346,7 @@ isPseudoElement
 #
 ifdef
 MOZ_XUL
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 nsCSSAnonBoxes
 :
@@ -6261,7 +6261,7 @@ if
 mWasMatched
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mImportantRule
@@ -6522,7 +6522,7 @@ nsRuleData
 aRuleData
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mWasMatched
 "

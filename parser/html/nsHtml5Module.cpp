@@ -357,7 +357,7 @@ NewHtml5Parser
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 sNsHtml5ModuleInitialized
 "
@@ -410,7 +410,7 @@ nsIChannel
 aChannel
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 sNsHtml5ModuleInitialized
 "

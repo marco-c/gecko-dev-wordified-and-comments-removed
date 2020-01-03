@@ -227,7 +227,7 @@ FinishInternal
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 HasError
@@ -785,7 +785,7 @@ uint32_t
 aCount
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 HasError
@@ -2248,7 +2248,7 @@ return
 ;
 }
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mRow
 "

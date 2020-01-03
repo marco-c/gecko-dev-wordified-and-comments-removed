@@ -103,7 +103,7 @@ aFrame
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mFrame
@@ -1998,7 +1998,7 @@ mContent
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 lengthElement
 "
@@ -2501,7 +2501,7 @@ mContent
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 lengthElement
 "

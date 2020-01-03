@@ -245,7 +245,7 @@ GetContentInsertionFrame
 )
 MOZ_OVERRIDE
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 GetFirstPrincipalChild
 (

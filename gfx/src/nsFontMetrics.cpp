@@ -108,6 +108,15 @@ nsStyleConsts
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
 class
 gfxUserFontSet
 ;
@@ -624,7 +633,7 @@ gfxTextPerfMetrics
 aTextPerf
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mP2A
 =

@@ -584,7 +584,7 @@ Start
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mState
 =
@@ -668,7 +668,7 @@ GeckoProcessType_Content
 return
 NS_ERROR_FAILURE
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 XRE_GetProcessType
 (
@@ -822,7 +822,7 @@ mState
 =
 FAILED
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mDisplayName
@@ -1182,7 +1182,7 @@ Stop
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mState
 =
@@ -1332,7 +1332,7 @@ nsString
 aIconPath
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mState
 =
@@ -1405,7 +1405,7 @@ nsString
 aIconPath
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mState
 =
@@ -1418,7 +1418,7 @@ violated
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 XRE_GetProcessType
 (

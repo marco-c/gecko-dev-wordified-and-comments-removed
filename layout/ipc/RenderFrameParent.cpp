@@ -1607,7 +1607,7 @@ ContainerLayerParameters
 aContainerParameters
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFrame
 "
@@ -1625,7 +1625,7 @@ frame
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mContainer
@@ -1872,7 +1872,7 @@ nsIContent
 aContent
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mFrameLoader
 -

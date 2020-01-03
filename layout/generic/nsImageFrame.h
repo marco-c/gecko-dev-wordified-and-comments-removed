@@ -1119,7 +1119,7 @@ nsImageFrame
 frame
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mIconObservers
@@ -1172,7 +1172,7 @@ RemoveElement
 frame
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 didRemove
 "

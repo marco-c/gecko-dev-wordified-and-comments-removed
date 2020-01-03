@@ -1274,7 +1274,7 @@ uint32_t
 aCount
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 HasError
@@ -3664,7 +3664,7 @@ png_ptr
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 decoder

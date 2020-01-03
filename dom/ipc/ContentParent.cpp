@@ -10659,7 +10659,7 @@ get
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 permissionManager
 "
@@ -10698,7 +10698,7 @@ enumerator
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -19729,7 +19729,7 @@ platforms
 ;
 #
 else
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 >

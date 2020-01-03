@@ -3800,7 +3800,7 @@ Setup2DTransform
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 is2D
 |
@@ -4119,7 +4119,7 @@ paintLayerContext
 groupTarget
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 untransformedDT
 "

@@ -130,7 +130,7 @@ ReadUnlock
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 readCount
 >
@@ -197,7 +197,7 @@ GetReadCount
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 readCount
 >
@@ -301,7 +301,7 @@ GetReadOnlyData
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSurface
 -

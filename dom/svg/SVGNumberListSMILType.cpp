@@ -63,7 +63,7 @@ aValue
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 .
@@ -428,7 +428,7 @@ mU
 mPtr
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 dest
 .
@@ -460,7 +460,7 @@ Element
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 valueToAdd
 .
@@ -496,7 +496,7 @@ Element
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 dest
 .
@@ -585,7 +585,7 @@ return
 NS_OK
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 dest
 .
@@ -998,7 +998,7 @@ mU
 mPtr
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 end
 .
@@ -1015,7 +1015,7 @@ element
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 start
 .
@@ -1117,7 +1117,7 @@ Length
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 start
 .
