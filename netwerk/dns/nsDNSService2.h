@@ -200,6 +200,9 @@ mOffline
 bool
 mNotifyResolution
 ;
+bool
+mOfflineLocalhost
+;
 nsMainThreadPtrHandle
 <
 nsIObserverService
