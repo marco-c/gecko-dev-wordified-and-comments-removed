@@ -965,6 +965,8 @@ PostRebuildAllStyleDataEvent
 (
 nsChangeHint
 aExtraHint
+nsRestyleHint
+aRestyleHint
 )
 ;
 #

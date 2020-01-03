@@ -8172,6 +8172,7 @@ RestyleManager
 PostRebuildAllStyleDataEvent
 (
 aExtraHint
+eRestyle_Subtree
 )
 ;
 }

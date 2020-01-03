@@ -7241,6 +7241,8 @@ PostRebuildAllStyleDataEvent
 (
 nsChangeHint
 aExtraHint
+nsRestyleHint
+aRestyleHint
 )
 {
 NS_ASSERTION
@@ -7282,8 +7284,9 @@ aExtraHint
 )
 ;
 mRebuildAllRestyleHint
+|
 =
-eRestyle_Subtree
+aRestyleHint
 ;
 PostRestyleEventInternal
 (
