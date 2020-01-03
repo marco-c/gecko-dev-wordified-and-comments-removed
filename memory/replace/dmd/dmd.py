@@ -145,6 +145,12 @@ pod_calloc
 '
 pod_realloc
 '
+    
+'
+?
+?
+?
+'
 ]
 class
 Record

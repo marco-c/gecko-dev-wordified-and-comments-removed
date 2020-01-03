@@ -5967,7 +5967,9 @@ FpWriteFunc
 OpenOutputFile
 (
 "
-full1
+full
+-
+empty
 .
 json
 "
@@ -5985,7 +5987,9 @@ FpWriteFunc
 OpenOutputFile
 (
 "
-full2
+full
+-
+unsampled1
 .
 json
 "
@@ -6003,7 +6007,9 @@ FpWriteFunc
 OpenOutputFile
 (
 "
-full3
+full
+-
+unsampled2
 .
 json
 "
@@ -6021,7 +6027,9 @@ FpWriteFunc
 OpenOutputFile
 (
 "
-full4
+full
+-
+sampled
 .
 json
 "
