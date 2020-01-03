@@ -1410,12 +1410,6 @@ nsdocshell
 >
 NotifyAsyncPanZoomStarted
 (
-sf
--
->
-GetScrollPositionCSSPixels
-(
-)
 )
 ;
 }
@@ -1541,12 +1535,6 @@ nsdocshell
 >
 NotifyAsyncPanZoomStopped
 (
-sf
--
->
-GetScrollPositionCSSPixels
-(
-)
 )
 ;
 }
