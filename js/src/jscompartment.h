@@ -666,6 +666,9 @@ isSelfHosting
 bool
 marked
 ;
+bool
+warnedAboutNoSuchMethod
+;
 JSAddonId
 *
 addonId
