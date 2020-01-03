@@ -775,10 +775,10 @@ angle
 void
 HandlePanningUpdate
 (
-float
-aDX
-float
-aDY
+const
+ScreenPoint
+&
+aDelta
 )
 ;
 nsEventStatus

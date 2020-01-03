@@ -164,13 +164,13 @@ ClearOverscroll
 (
 )
 ;
-float
+ScreenCoord
 PanDistance
 (
 )
 const
 ;
-float
+ScreenCoord
 PanDistance
 (
 ScreenCoord
