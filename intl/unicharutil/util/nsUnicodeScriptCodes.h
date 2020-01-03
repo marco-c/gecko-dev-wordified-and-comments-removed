@@ -74,7 +74,7 @@ mNumericValue
 ;
 unsigned
 char
-mHanVariant
+mVertOrient
 :
 2
 ;
