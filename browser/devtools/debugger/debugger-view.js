@@ -2391,8 +2391,6 @@ get
 instrumentsPaneHidden
 (
 )
-{
-return
 this
 .
 _instrumentsPane
@@ -2405,14 +2403,10 @@ pane
 collapsed
 "
 )
-;
-}
 get
 instrumentsPaneTab
 (
 )
-{
-return
 this
 .
 _instrumentsPane
@@ -2420,8 +2414,6 @@ _instrumentsPane
 selectedTab
 .
 id
-;
-}
 toggleInstrumentsPane
 :
 function
@@ -3331,8 +3323,6 @@ get
 hidden
 (
 )
-{
-return
 this
 .
 _panel
@@ -3355,8 +3345,6 @@ state
 "
 hiding
 "
-;
-}
 clearView
 :
 function
