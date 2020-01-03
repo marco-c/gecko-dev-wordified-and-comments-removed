@@ -261,7 +261,11 @@ get
 isRootActor
 (
 )
+{
+return
 true
+;
+}
 get
 exited
 (

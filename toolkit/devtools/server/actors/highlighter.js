@@ -689,6 +689,8 @@ get
 conn
 (
 )
+{
+return
 this
 .
 _inspector
@@ -699,6 +701,8 @@ this
 _inspector
 .
 conn
+;
+}
 _createHighlighter
 :
 function
@@ -2144,6 +2148,8 @@ get
 conn
 (
 )
+{
+return
 this
 .
 _inspector
@@ -2154,6 +2160,8 @@ this
 _inspector
 .
 conn
+;
+}
 destroy
 :
 function

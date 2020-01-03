@@ -531,7 +531,10 @@ gPort
 catch
 (
 e
+)
+{
 if
+(
 e
 .
 result
@@ -559,6 +562,13 @@ true
 ;
 return
 ;
+}
+else
+{
+throw
+e
+;
+}
 }
 do_check_true
 (

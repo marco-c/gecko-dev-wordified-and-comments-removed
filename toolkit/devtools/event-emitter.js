@@ -667,10 +667,9 @@ aEvent
 .
 some
 (
-function
-(
 l
-)
+=
+>
 l
 =
 =

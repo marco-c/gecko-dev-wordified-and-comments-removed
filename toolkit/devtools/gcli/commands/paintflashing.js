@@ -445,11 +445,15 @@ get
 hidden
 (
 )
+{
+return
 gcli
 .
 hiddenByChromePref
 (
 )
+;
+}
 description
 :
 l10n
@@ -594,11 +598,15 @@ get
 hidden
 (
 )
+{
+return
 gcli
 .
 hiddenByChromePref
 (
 )
+;
+}
 description
 :
 l10n
@@ -616,6 +624,7 @@ paintflashingChromeDesc
 exec
 :
 function
+*
 (
 args
 context
@@ -797,6 +806,7 @@ paintflashingManual
 exec
 :
 function
+*
 (
 args
 context

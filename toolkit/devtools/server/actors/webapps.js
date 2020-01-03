@@ -3077,11 +3077,10 @@ null
 }
 ;
 for
-each
 (
 let
 frame
-in
+of
 self
 .
 _appFrames

@@ -1612,7 +1612,10 @@ policy
 catch
 (
 e
+)
+{
 if
+(
 e
 .
 name
@@ -1665,6 +1668,13 @@ aOptions
 policy
 )
 ;
+}
+else
+{
+throw
+e
+;
+}
 }
 let
 chunks

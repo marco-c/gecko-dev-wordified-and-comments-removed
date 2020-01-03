@@ -118,6 +118,7 @@ initTestDebuggerServer
 add_task
 (
 function
+*
 (
 )
 {
