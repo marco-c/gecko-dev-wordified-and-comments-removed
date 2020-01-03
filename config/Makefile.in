@@ -93,13 +93,6 @@ NSBUILDROOT
 :
 =
 endif
-ifdef
-GNU_CC
-MODULE_OPTIMIZE_FLAGS
-=
--
-O3
-endif
 include
 (
 topsrcdir
