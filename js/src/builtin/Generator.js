@@ -7,6 +7,15 @@ val
 if
 (
 !
+IsSuspendedStarGenerator
+(
+this
+)
+)
+{
+if
+(
+!
 IsObject
 (
 this
@@ -59,6 +68,7 @@ ThrowError
 JSMSG_NESTING_GENERATOR
 )
 ;
+}
 try
 {
 return
@@ -99,6 +109,15 @@ function
 StarGeneratorThrow
 (
 val
+)
+{
+if
+(
+!
+IsSuspendedStarGenerator
+(
+this
+)
 )
 {
 if
@@ -149,6 +168,7 @@ ThrowError
 JSMSG_NESTING_GENERATOR
 )
 ;
+}
 try
 {
 return

@@ -9789,6 +9789,11 @@ address
 R0
 )
 ;
+if
+(
+ionCompileable_
+)
+{
 ICTypeMonitor_Fallback
 :
 :
@@ -9820,6 +9825,7 @@ stubSpace_
 return
 false
 ;
+}
 frame
 .
 push
