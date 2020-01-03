@@ -2730,6 +2730,17 @@ mHideDynamicToolbarOnActionModeEnd
 =
 false
 ;
+mProgressView
+.
+setPrivateMode
+(
+tab
+.
+isPrivate
+(
+)
+)
+;
 break
 ;
 case
