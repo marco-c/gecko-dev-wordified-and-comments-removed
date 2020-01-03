@@ -5012,8 +5012,6 @@ decoder
 >
 AllocateFrame
 (
-*
-aSize
 )
 ;
 }

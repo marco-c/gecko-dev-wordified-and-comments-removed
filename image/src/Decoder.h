@@ -656,14 +656,6 @@ virtual
 nsresult
 AllocateFrame
 (
-const
-nsIntSize
-&
-aTargetSize
-=
-nsIntSize
-(
-)
 )
 ;
 already_AddRefed
@@ -815,7 +807,6 @@ OVER
 void
 PostInvalidation
 (
-const
 nsIntRect
 &
 aRect
@@ -858,10 +849,6 @@ EnsureFrame
 uint32_t
 aFrameNum
 const
-nsIntSize
-&
-aTargetSize
-const
 nsIntRect
 &
 aFrameRect
@@ -884,10 +871,6 @@ InternalAddFrame
 (
 uint32_t
 aFrameNum
-const
-nsIntSize
-&
-aTargetSize
 const
 nsIntRect
 &
