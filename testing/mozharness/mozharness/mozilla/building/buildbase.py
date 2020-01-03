@@ -1779,6 +1779,23 @@ py
 '
         
 '
+tsan
+'
+:
+'
+builds
+/
+releng_sub_
+%
+s_configs
+/
+%
+s_tsan
+.
+py
+'
+        
+'
 b2g
 -
 debug

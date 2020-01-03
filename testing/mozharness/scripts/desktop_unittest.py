@@ -171,6 +171,9 @@ mozbase
 '
 mozmill
 '
+'
+webapprt
+'
 ]
 class
 DesktopUnittest

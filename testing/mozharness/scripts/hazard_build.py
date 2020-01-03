@@ -1940,9 +1940,19 @@ self
 query_compiler_manifest
 (
 )
+"
+sh
+"
++
+self
+.
+config
+[
+'
+compiler_setup
+'
+]
                             
-output_dir
-=
 dirs
 [
 '
@@ -1960,9 +1970,19 @@ self
 query_sixgill_manifest
 (
 )
+"
+sh
+"
++
+self
+.
+config
+[
+'
+sixgill_setup
+'
+]
                             
-output_dir
-=
 dirs
 [
 '
@@ -2009,9 +2029,19 @@ self
 query_b2g_compiler_manifest
 (
 )
+"
+sh
+"
++
+self
+.
+config
+[
+'
+compiler_setup
+'
+]
                             
-output_dir
-=
 dirs
 [
 '
