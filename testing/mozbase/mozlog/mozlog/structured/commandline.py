@@ -492,6 +492,12 @@ in
 formatters
 :
                 
+if
+fmt
+in
+log_formatters
+:
+                    
 group
 .
 add_option
@@ -515,7 +521,7 @@ optname
 action
 =
 action
-                                 
+                                     
 help
 =
 help_str
@@ -607,6 +613,12 @@ in
 formatters
 :
                 
+if
+fmt
+in
+log_formatters
+:
+                    
 group
 .
 add_argument
@@ -630,7 +642,7 @@ optname
 action
 =
 action
-                                   
+                                       
 help
 =
 help_str
