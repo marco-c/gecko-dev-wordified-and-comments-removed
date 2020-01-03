@@ -483,8 +483,6 @@ ObserveEditableNode
 void
 NotifyIMEOfBlur
 (
-bool
-aPostEvent
 )
 ;
 void
