@@ -616,16 +616,6 @@ GetAsSourceSurface
 0
 ;
 virtual
-bool
-IsValid
-(
-)
-{
-return
-true
-;
-}
-virtual
 GrallocImage
 *
 AsGrallocImage
