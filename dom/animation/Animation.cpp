@@ -3836,7 +3836,7 @@ doc
 )
 {
 return
-false
+true
 ;
 }
 PendingAnimationTracker
