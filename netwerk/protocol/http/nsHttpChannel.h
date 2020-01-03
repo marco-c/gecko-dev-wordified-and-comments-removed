@@ -550,11 +550,13 @@ hasHeaders
 ;
 }
 nsresult
-SetReferrerInternal
+SetReferrerWithPolicyInternal
 (
 nsIURI
 *
 referrer
+uint32_t
+referrerPolicy
 )
 {
 nsAutoCString
@@ -584,6 +586,10 @@ rv
 mReferrer
 =
 referrer
+;
+mReferrerPolicy
+=
+referrerPolicy
 ;
 mRequestHead
 .

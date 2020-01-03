@@ -474,6 +474,11 @@ referrer
 )
 a
 .
+referrerPolicy
+(
+)
+a
+.
 apiRedirectTo
 (
 )
@@ -800,6 +805,10 @@ const
 OptionalURIParams
 &
 aReferrerURI
+const
+uint32_t
+&
+aReferrerPolicy
 const
 OptionalURIParams
 &
@@ -1313,9 +1322,10 @@ referrerUri
 mChannel
 -
 >
-SetReferrerInternal
+SetReferrerWithPolicyInternal
 (
 referrerUri
+aReferrerPolicy
 )
 ;
 if

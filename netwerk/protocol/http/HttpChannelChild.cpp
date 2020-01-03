@@ -5612,6 +5612,14 @@ referrer
 )
 )
 ;
+openArgs
+.
+referrerPolicy
+(
+)
+=
+mReferrerPolicy
+;
 SerializeURI
 (
 mAPIRedirectToURI
