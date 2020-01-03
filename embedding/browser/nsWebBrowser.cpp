@@ -1505,11 +1505,16 @@ nsIDOMWindow
 aResult
 )
 {
-NS_ENSURE_STATE
+if
 (
+!
 mDocShell
 )
+{
+return
+NS_ERROR_UNEXPECTED
 ;
+}
 nsCOMPtr
 <
 nsIDOMWindow
