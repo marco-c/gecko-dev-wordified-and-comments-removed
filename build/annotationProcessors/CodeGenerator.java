@@ -316,7 +316,6 @@ n
 "
 typedef
 const
-typename
 mozilla
 :
 :
@@ -331,9 +330,6 @@ clsName
 +
 "
 >
-:
-:
-Type
 &
 Param
 ;
