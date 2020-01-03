@@ -4648,6 +4648,7 @@ UpdateChannel
 .
 get
 (
+false
 )
 ;
 }
@@ -4741,6 +4742,12 @@ _getPrefData
 (
 )
 }
+;
+this
+.
+_updateSearchEngine
+(
+)
 ;
 }
 _updateProfile
