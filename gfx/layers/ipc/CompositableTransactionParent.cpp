@@ -1130,15 +1130,8 @@ if
 IsAsync
 (
 )
-)
-{
-ScheduleComposition
-(
-op
-)
-;
-if
-(
+&
+&
 compositable
 -
 >
@@ -1147,6 +1140,11 @@ GetLayer
 )
 )
 {
+ScheduleComposition
+(
+op
+)
+;
 compositable
 -
 >
@@ -1159,7 +1157,6 @@ SetInvalidRectToVisibleRegion
 (
 )
 ;
-}
 }
 break
 ;
