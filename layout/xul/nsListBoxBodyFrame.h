@@ -485,7 +485,7 @@ void
 UpdateIndex
 (
 int32_t
-aDirection
+aNewPos
 )
 ;
 nsIFrame
@@ -777,6 +777,14 @@ void
 ComputeTotalRowCount
 (
 )
+;
+int32_t
+ToRowIndex
+(
+nscoord
+aPos
+)
+const
 ;
 void
 RemoveChildFrame
