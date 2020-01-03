@@ -5318,7 +5318,9 @@ ifeq
 (
 AB_CD
 :
-en_US
+en
+-
+US
 =
 )
 )
