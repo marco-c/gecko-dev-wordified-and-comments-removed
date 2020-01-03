@@ -3541,10 +3541,8 @@ hasFirstResult
 yield
 this
 .
-_matchKnownUrl
+_matchSearchEngineUrl
 (
-conn
-queries
 )
 ;
 }
@@ -3567,8 +3565,10 @@ hasFirstResult
 yield
 this
 .
-_matchSearchEngineUrl
+_matchKnownUrl
 (
+conn
+queries
 )
 ;
 }
