@@ -112,12 +112,6 @@ USE_LIBS
 =
 [
 '
-mozalloc
-'
-'
 xpt
-'
-'
-xul
 '
 ]
