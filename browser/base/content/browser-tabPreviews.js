@@ -242,6 +242,16 @@ aTab
 aShouldCache
 )
 {
+if
+(
+gMultiProcessBrowser
+)
+return
+new
+Image
+(
+)
+;
 let
 browser
 =
