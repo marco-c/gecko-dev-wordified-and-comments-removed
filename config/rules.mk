@@ -10234,9 +10234,6 @@ that
 DIST_FILES_FLAGS
 :
 =
-(
-XULAPP_DEFINES
-)
 -
 -
 silence
