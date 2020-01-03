@@ -1073,7 +1073,10 @@ aNotifications
 >
 MoveElementsFrom
 (
+Move
+(
 mImageCompositeNotifications
+)
 )
 ;
 }

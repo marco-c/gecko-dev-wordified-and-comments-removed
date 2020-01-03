@@ -7042,7 +7042,10 @@ mUpdateRunnables
 .
 MoveElementsFrom
 (
+Move
+(
 mPendingUpdateRunnables
+)
 )
 ;
 }
@@ -9299,9 +9302,12 @@ controlMessagesToRunDuringShutdown
 .
 MoveElementsFrom
 (
+Move
+(
 mb
 .
 mMessages
+)
 )
 ;
 }
@@ -12397,7 +12403,10 @@ mUpdateTracks
 .
 MoveElementsFrom
 (
+Move
+(
 mPendingTracks
+)
 )
 ;
 if

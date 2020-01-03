@@ -788,7 +788,10 @@ aResult
 .
 MoveElementsFrom
 (
+Move
+(
 mLogs
+)
 )
 ;
 }

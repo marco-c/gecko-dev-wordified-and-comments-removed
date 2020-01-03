@@ -6573,7 +6573,10 @@ aArray
 .
 MoveElementsFrom
 (
+Move
+(
 toSort
+)
 )
 ;
 }
@@ -6606,7 +6609,10 @@ aArray
 .
 MoveElementsFrom
 (
+Move
+(
 toSort
+)
 )
 ;
 }
