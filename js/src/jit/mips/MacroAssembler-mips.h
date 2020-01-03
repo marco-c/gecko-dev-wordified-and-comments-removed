@@ -7262,7 +7262,13 @@ callJitFromAsmJS
 Register
 callee
 )
+{
+call
+(
+callee
+)
 ;
+}
 void
 reserveStack
 (
