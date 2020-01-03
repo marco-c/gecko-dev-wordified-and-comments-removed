@@ -6276,6 +6276,10 @@ mDrawTarget
 (
 nullptr
 )
+mBufferProvider
+(
+nullptr
+)
 mGLContext
 (
 nullptr
@@ -6308,6 +6312,10 @@ gfx
 DrawTarget
 *
 mDrawTarget
+;
+PersistentBufferProvider
+*
+mBufferProvider
 ;
 mozilla
 :
