@@ -205,7 +205,7 @@ aIsConnected
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Notify
 (
 nsITimer
