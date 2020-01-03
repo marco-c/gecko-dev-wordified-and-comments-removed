@@ -10,5 +10,12 @@ function
 )
 {
 }
+getLoopBoolPref
+:
+function
+(
+)
+{
+}
 }
 ;
