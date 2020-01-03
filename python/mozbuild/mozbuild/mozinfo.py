@@ -1034,6 +1034,12 @@ buildapp
 '
 in
 d
+and
+'
+bits
+'
+in
+d
 :
         
 d
