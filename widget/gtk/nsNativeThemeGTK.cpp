@@ -3329,6 +3329,14 @@ moz_gtk_get_tab_thickness
 (
 )
 ;
+if
+(
+!
+gap_height
+)
+return
+false
+;
 int32_t
 extra
 =
