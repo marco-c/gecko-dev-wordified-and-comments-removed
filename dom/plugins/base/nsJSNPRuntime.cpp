@@ -999,12 +999,12 @@ class
 JSCLASS_HAS_PRIVATE
 |
 JSCLASS_IMPLEMENTS_BARRIERS
-JS_PropertyStub
-JS_DeletePropertyStub
+nullptr
+nullptr
 JS_PropertyStub
 JS_StrictPropertyStub
-JS_EnumerateStub
-JS_ResolveStub
+nullptr
+nullptr
 NPObjectMember_Convert
 NPObjectMember_Finalize
 NPObjectMember_Call

@@ -24,13 +24,12 @@ my_resolve_class
 MyResolve
 "
 JSCLASS_HAS_PRIVATE
-JS_PropertyStub
-JS_DeletePropertyStub
+nullptr
+nullptr
 JS_PropertyStub
 JS_StrictPropertyStub
-JS_EnumerateStub
+nullptr
 my_resolve
-JS_ConvertStub
 }
 ;
 obj1

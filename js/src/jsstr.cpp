@@ -2299,13 +2299,12 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_String
 )
-JS_PropertyStub
-JS_DeletePropertyStub
+nullptr
+nullptr
 JS_PropertyStub
 JS_StrictPropertyStub
 str_enumerate
 str_resolve
-JS_ConvertStub
 }
 ;
 static

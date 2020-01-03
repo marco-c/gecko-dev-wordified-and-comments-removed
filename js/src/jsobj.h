@@ -3053,10 +3053,8 @@ ok
 ;
 if
 (
+!
 op
-=
-=
-JS_ConvertStub
 )
 ok
 =

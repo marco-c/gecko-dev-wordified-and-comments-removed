@@ -1734,7 +1734,10 @@ true
 ;
 }
 return
-JS_ConvertStub
+JS
+:
+:
+OrdinaryToPrimitive
 (
 cx
 obj
@@ -2178,8 +2181,8 @@ XPCONNECT_GLOBAL_FLAGS_WITH_EXTRA_SLOTS
 (
 1
 )
-JS_PropertyStub
-JS_DeletePropertyStub
+nullptr
+nullptr
 JS_PropertyStub
 JS_StrictPropertyStub
 sandbox_enumerate
@@ -2218,7 +2221,7 @@ XPCONNECT_GLOBAL_FLAGS_WITH_EXTRA_SLOTS
 1
 )
 sandbox_addProperty
-JS_DeletePropertyStub
+nullptr
 JS_PropertyStub
 JS_StrictPropertyStub
 sandbox_enumerate

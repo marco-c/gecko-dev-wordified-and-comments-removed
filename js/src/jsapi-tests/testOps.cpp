@@ -84,12 +84,12 @@ myClass
 MyClass
 "
 0
-JS_PropertyStub
-JS_DeletePropertyStub
+nullptr
+nullptr
 JS_PropertyStub
 JS_StrictPropertyStub
-JS_EnumerateStub
-JS_ResolveStub
+nullptr
+nullptr
 my_convert
 }
 ;

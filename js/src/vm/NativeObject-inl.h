@@ -2695,9 +2695,6 @@ getClass
 -
 >
 resolve
-!
-=
-JS_ResolveStub
 )
 {
 if

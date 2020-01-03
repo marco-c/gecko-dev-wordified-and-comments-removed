@@ -82,13 +82,13 @@ cls
 global
 "
 JSCLASS_GLOBAL_FLAGS
-JS_PropertyStub
-JS_DeletePropertyStub
+nullptr
+nullptr
 JS_PropertyStub
 JS_StrictPropertyStub
 GlobalEnumerate
 GlobalResolve
-JS_ConvertStub
+nullptr
 nullptr
 nullptr
 nullptr
