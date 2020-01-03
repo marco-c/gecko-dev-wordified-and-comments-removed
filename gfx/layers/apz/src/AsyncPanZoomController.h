@@ -1081,6 +1081,11 @@ OnTouchEndOrCancel
 (
 )
 ;
+void
+OverscrollAnimationEnding
+(
+)
+;
 uint64_t
 mLayersId
 ;
