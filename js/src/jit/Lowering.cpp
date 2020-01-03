@@ -18498,7 +18498,7 @@ if
 ins
 -
 >
-isFloatWrite
+isFloatArray
 (
 )
 )
@@ -18508,7 +18508,7 @@ MOZ_ASSERT_IF
 ins
 -
 >
-writeType
+arrayType
 (
 )
 =
@@ -18538,7 +18538,7 @@ MOZ_ASSERT_IF
 ins
 -
 >
-writeType
+arrayType
 (
 )
 =
@@ -18619,7 +18619,16 @@ if
 ins
 -
 >
-isByteWrite
+isByteArray
+(
+)
+&
+&
+!
+ins
+-
+>
+isSimdWrite
 (
 )
 )
@@ -18800,7 +18809,7 @@ if
 ins
 -
 >
-isFloatWrite
+isFloatArray
 (
 )
 )
@@ -18934,7 +18943,7 @@ if
 ins
 -
 >
-isByteWrite
+isByteArray
 (
 )
 )
