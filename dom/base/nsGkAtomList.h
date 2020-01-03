@@ -13485,7 +13485,7 @@ GK_ATOM
 (
 onmozinterruptend
 "
-onmozinterruptbegin
+onmozinterruptend
 "
 )
 GK_ATOM
