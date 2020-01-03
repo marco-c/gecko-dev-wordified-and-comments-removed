@@ -414,6 +414,13 @@ nsIGonkMobileConnectionService
 .
 idl
 '
+'
+gonk
+/
+nsIMobileConnectionMessenger
+.
+idl
+'
 ]
 EXTRA_COMPONENTS
 +
