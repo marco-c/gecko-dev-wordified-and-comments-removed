@@ -1139,11 +1139,6 @@ mActiveTouchId
 -
 1
 ;
-SetVisibility
-(
-false
-)
-;
 LaunchLongTapDetector
 (
 )
@@ -6226,14 +6221,6 @@ selection
 carets
 !
 "
-)
-;
-self
--
->
-SetVisibility
-(
-true
 )
 ;
 self
