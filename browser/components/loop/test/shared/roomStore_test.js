@@ -392,6 +392,13 @@ function
 )
 {
 }
+notifyUITour
+:
+function
+(
+)
+{
+}
 rooms
 :
 {
