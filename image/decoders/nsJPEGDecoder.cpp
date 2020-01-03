@@ -1021,7 +1021,9 @@ return
 int
 sampleSize
 =
-mImage
+GetImage
+(
+)
 -
 >
 GetRequestedSampleSize
