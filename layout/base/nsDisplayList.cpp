@@ -5073,14 +5073,6 @@ GetBounds
 widgetBounds
 )
 ;
-widgetBounds
-.
-MoveTo
-(
-0
-0
-)
-;
 metrics
 .
 mCompositionBounds
