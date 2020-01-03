@@ -1201,13 +1201,13 @@ ClearMessage
 (
 )
 {
-if
+MOZ_ASSERT
 (
 IsErrorWithMessage
 (
 )
 )
-{
+;
 delete
 mMessage
 ;
@@ -1224,7 +1224,6 @@ false
 ;
 #
 endif
-}
 }
 void
 ErrorResult
