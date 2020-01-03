@@ -7630,6 +7630,9 @@ _getDocShell
 content
 .
 window
+|
+|
+window
 )
 .
 QueryInterface
