@@ -6458,7 +6458,7 @@ length
 1
 ]
 .
-discardProducer
+releaseProducer
 (
 )
 ;
@@ -6502,7 +6502,7 @@ inputs_
 i
 ]
 .
-discardProducer
+releaseProducer
 (
 )
 ;

@@ -950,7 +950,7 @@ setUseRemovedUnchecked
 use
 -
 >
-discardProducer
+releaseProducer
 (
 )
 ;

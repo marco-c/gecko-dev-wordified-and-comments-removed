@@ -280,7 +280,7 @@ def
 )
 ;
 bool
-discardPhiOperands
+releasePhiOperands
 (
 MPhi
 *
@@ -296,7 +296,7 @@ SetUseRemoved
 )
 ;
 bool
-discardInsOperands
+releaseInsOperands
 (
 MInstruction
 *

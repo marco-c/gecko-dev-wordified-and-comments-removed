@@ -943,7 +943,7 @@ bool
 ValueNumberer
 :
 :
-discardPhiOperands
+releasePhiOperands
 (
 MPhi
 *
@@ -1063,7 +1063,7 @@ bool
 ValueNumberer
 :
 :
-discardInsOperands
+releaseInsOperands
 (
 MInstruction
 *
@@ -1112,7 +1112,7 @@ o
 ins
 -
 >
-discardOperand
+releaseOperand
 (
 o
 )
@@ -1268,7 +1268,7 @@ block
 if
 (
 !
-discardPhiOperands
+releasePhiOperands
 (
 phi
 phiBlock
@@ -1315,7 +1315,7 @@ toInstruction
 if
 (
 !
-discardInsOperands
+releaseInsOperands
 (
 ins
 useRemovedOption
@@ -2908,7 +2908,7 @@ false
 if
 (
 !
-discardInsOperands
+releaseInsOperands
 (
 control
 )

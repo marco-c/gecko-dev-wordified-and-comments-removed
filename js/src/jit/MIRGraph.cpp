@@ -3817,7 +3817,7 @@ RefType_DiscardOperands
 rp
 -
 >
-discardUses
+releaseUses
 (
 )
 ;
@@ -3979,7 +3979,7 @@ i
 ins
 -
 >
-discardOperand
+releaseOperand
 (
 i
 )

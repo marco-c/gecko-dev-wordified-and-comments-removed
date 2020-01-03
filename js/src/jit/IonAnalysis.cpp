@@ -282,7 +282,7 @@ entryResumePoint
 rp
 -
 >
-discardUses
+releaseUses
 (
 )
 ;
