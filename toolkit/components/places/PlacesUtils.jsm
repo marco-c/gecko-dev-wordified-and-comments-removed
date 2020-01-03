@@ -8334,6 +8334,11 @@ close
 (
 )
 ;
+throw
+(
+ex
+)
+;
 }
 return
 Promise
