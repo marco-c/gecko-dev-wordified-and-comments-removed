@@ -560,15 +560,6 @@ rsa
 1024
 )
 ;
-checkForKeyType
-(
-"
-dsa
-"
-960
-1024
-)
-;
 run_next_test
 (
 )
