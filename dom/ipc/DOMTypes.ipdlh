@@ -300,7 +300,7 @@ contentType
 uint64_t
 length
 ;
-uint64_t
+int64_t
 modDate
 ;
 /

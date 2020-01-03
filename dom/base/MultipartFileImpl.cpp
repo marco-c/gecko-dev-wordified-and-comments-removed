@@ -952,7 +952,7 @@ MOZ_ASSERT
 mLastModificationDate
 =
 =
-UINT64_MAX
+INT64_MAX
 )
 ;
 uint64_t
@@ -960,7 +960,7 @@ totalLength
 =
 0
 ;
-uint64_t
+int64_t
 lastModified
 =
 0
@@ -1081,7 +1081,7 @@ IsFile
 )
 )
 {
-uint64_t
+int64_t
 partLastModified
 =
 blob
@@ -1697,6 +1697,9 @@ Failed
 return
 ;
 }
+int64_t
+unusedDate
+;
 aRv
 =
 blob
@@ -1705,7 +1708,7 @@ blob
 GetMozLastModifiedDate
 (
 &
-unused
+unusedDate
 )
 ;
 if

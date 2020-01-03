@@ -771,7 +771,7 @@ GetSize
 fileSize
 )
 ;
-uint64_t
+int64_t
 lastModifiedDate
 ;
 aFile

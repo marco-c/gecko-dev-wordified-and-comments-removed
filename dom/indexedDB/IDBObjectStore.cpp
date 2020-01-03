@@ -816,7 +816,7 @@ type
 nsString
 name
 ;
-uint64_t
+int64_t
 lastModifiedDate
 ;
 BlobOrFileData
@@ -833,7 +833,7 @@ size
 )
 lastModifiedDate
 (
-UINT64_MAX
+INT64_MAX
 )
 {
 MOZ_COUNT_CTOR
@@ -1718,7 +1718,7 @@ IsFile
 )
 )
 {
-uint64_t
+int64_t
 lastModifiedDate
 ;
 MOZ_ALWAYS_TRUE
@@ -2584,7 +2584,7 @@ aTag
 SCTAG_DOM_FILE_WITHOUT_LASTMODIFIEDDATE
 )
 ;
-uint64_t
+int64_t
 lastModifiedDate
 ;
 if
@@ -2597,7 +2597,7 @@ SCTAG_DOM_FILE_WITHOUT_LASTMODIFIEDDATE
 {
 lastModifiedDate
 =
-UINT64_MAX
+INT64_MAX
 ;
 }
 else

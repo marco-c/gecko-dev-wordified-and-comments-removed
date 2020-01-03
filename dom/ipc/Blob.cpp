@@ -2366,7 +2366,7 @@ const
 nsAString
 &
 aContentType
-uint64_t
+int64_t
 aLastModifiedDate
 )
 :
@@ -2574,7 +2574,7 @@ nsAString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aLastModifiedDate
 nsIInputStream
 *
@@ -2606,7 +2606,7 @@ MOZ_ASSERT
 aLastModifiedDate
 !
 =
-UINT64_MAX
+INT64_MAX
 )
 ;
 MOZ_ASSERT
@@ -2698,7 +2698,7 @@ mName
 uint64_t
 mLength
 ;
-uint64_t
+int64_t
 mLastModifiedDate
 ;
 bool
@@ -4023,7 +4023,7 @@ modDate
 )
 =
 =
-UINT64_MAX
+INT64_MAX
 )
 )
 {
@@ -6914,7 +6914,7 @@ nsAString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aModDate
 )
 ;
@@ -6949,7 +6949,7 @@ nsAString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aModDate
 )
 ;
@@ -7673,7 +7673,7 @@ nsAString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aLastModifiedDate
 )
 override
@@ -7779,7 +7779,7 @@ nsAString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aModDate
 )
 :
@@ -7860,7 +7860,7 @@ nsAString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aModDate
 )
 :
@@ -7976,7 +7976,7 @@ EmptyString
 (
 )
 UINT64_MAX
-UINT64_MAX
+INT64_MAX
 )
 mIsSlice
 (
@@ -10478,7 +10478,7 @@ nsAString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aLastModifiedDate
 )
 {
@@ -11262,7 +11262,7 @@ GetName
 name
 )
 ;
-uint64_t
+int64_t
 modDate
 =
 otherImpl
@@ -11606,7 +11606,7 @@ GetName
 name
 )
 ;
-uint64_t
+int64_t
 lastModifiedDate
 =
 blobImpl
@@ -12318,7 +12318,7 @@ GetName
 name
 )
 ;
-uint64_t
+int64_t
 modDate
 =
 aBlobImpl
@@ -13016,7 +13016,7 @@ nsString
 aContentType
 uint64_t
 aLength
-uint64_t
+int64_t
 aLastModifiedDate
 )
 {
@@ -13039,7 +13039,7 @@ MOZ_ASSERT
 aLastModifiedDate
 !
 =
-UINT64_MAX
+INT64_MAX
 )
 ;
 mBlobImpl
@@ -13118,7 +13118,7 @@ SetLazyData
 voidString
 aContentType
 aLength
-UINT64_MAX
+INT64_MAX
 )
 ;
 NormalBlobConstructorParams
@@ -14329,7 +14329,7 @@ GetName
 name
 )
 ;
-uint64_t
+int64_t
 modDate
 =
 aBlobImpl
@@ -16346,7 +16346,7 @@ params
 length
 (
 )
-UINT64_MAX
+INT64_MAX
 )
 ;
 return
@@ -16429,7 +16429,7 @@ modDate
 )
 =
 =
-UINT64_MAX
+INT64_MAX
 )
 )
 {
