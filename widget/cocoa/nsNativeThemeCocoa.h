@@ -241,6 +241,15 @@ aWidgetType
 MOZ_OVERRIDE
 ;
 virtual
+bool
+NeedToClearBackgroundBehindWidget
+(
+uint8_t
+aWidgetType
+)
+MOZ_OVERRIDE
+;
+virtual
 Transparency
 GetWidgetTransparency
 (

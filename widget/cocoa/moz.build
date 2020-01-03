@@ -313,6 +313,11 @@ OSXNotificationCenter
 mm
 '
 '
+VibrancyManager
+.
+mm
+'
+'
 WidgetTraceEvent
 .
 mm
