@@ -152,6 +152,13 @@ obj
 struct
 Policy
 {
+static
+const
+bool
+AllowGetPrototypeOf
+=
+false
+;
 }
 ;
 struct
@@ -439,6 +446,13 @@ ExposedPropertiesOnly
 public
 Policy
 {
+static
+const
+bool
+AllowGetPrototypeOf
+=
+true
+;
 static
 bool
 check
