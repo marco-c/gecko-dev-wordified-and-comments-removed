@@ -9144,7 +9144,9 @@ regs
 .
 has
 (
-BaselineStackReg
+getStackPointer
+(
+)
 )
 )
 ;
@@ -9280,7 +9282,9 @@ store32
 temp
 Address
 (
-BaselineStackReg
+getStackPointer
+(
+)
 0
 )
 )

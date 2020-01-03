@@ -39,13 +39,6 @@ BaselineFrameReg
 static
 constexpr
 Register
-BaselineStackReg
-=
-PseudoStackPointer
-;
-static
-constexpr
-Register
 R0_
 =
 r2

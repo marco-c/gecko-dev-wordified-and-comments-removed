@@ -834,7 +834,7 @@ Stack
 )
 masm
 .
-addPtr
+addToStackPtr
 (
 Imm32
 (
@@ -843,7 +843,6 @@ sizeof
 Value
 )
 )
-BaselineStackReg
 )
 ;
 popped
@@ -930,7 +929,7 @@ poppedStack
 )
 masm
 .
-addPtr
+addToStackPtr
 (
 Imm32
 (
@@ -941,7 +940,6 @@ Value
 *
 poppedStack
 )
-BaselineStackReg
 )
 ;
 }
