@@ -1,0 +1,12 @@
+Service
+-
+Worker
+-
+Allowed
+:
+/
+tests
+/
+dom
+/
+workers
