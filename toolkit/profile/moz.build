@@ -115,6 +115,11 @@ nsIProfileMigrator
 idl
 '
 '
+nsIProfileUnlocker
+.
+idl
+'
+'
 nsIToolkitProfile
 .
 idl

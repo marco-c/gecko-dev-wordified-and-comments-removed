@@ -1347,13 +1347,6 @@ components
 prefetch
 .
 xpt
-BINPATH
-/
-components
-/
-profile
-.
-xpt
 #
 ifdef
 MOZ_ENABLE_PROFILER_SPS

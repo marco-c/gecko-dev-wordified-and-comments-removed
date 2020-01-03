@@ -727,15 +727,6 @@ ipc
 ]
 #
 toolkit
-DIRS
-+
-=
-[
-'
-/
-profile
-'
-]
 #
 This
 must
