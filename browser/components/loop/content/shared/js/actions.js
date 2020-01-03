@@ -139,7 +139,7 @@ define
 gatherCallData
 "
 {
-callId
+windowId
 :
 [
 String

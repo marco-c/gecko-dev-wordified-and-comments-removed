@@ -843,6 +843,14 @@ sessionType
 =
 sessionType
 ;
+callData
+.
+windowId
+=
+callData
+.
+callId
+;
 this
 .
 _startCall
@@ -954,7 +962,7 @@ conversationType
 +
 callData
 .
-callId
+windowId
 )
 ;
 }
@@ -987,7 +995,7 @@ contact
 callType
 :
 callType
-callId
+windowId
 :
 Math
 .
@@ -1117,7 +1125,7 @@ getCallData
 :
 function
 (
-loopCallId
+conversationWindowId
 )
 {
 if
@@ -1135,10 +1143,10 @@ callsData
 .
 data
 .
-callId
+windowId
 =
 =
-loopCallId
+conversationWindowId
 )
 {
 return
@@ -1160,7 +1168,7 @@ releaseCallData
 :
 function
 (
-loopCallId
+conversationWindowId
 )
 {
 if
@@ -1178,10 +1186,10 @@ callsData
 .
 data
 .
-callId
+windowId
 =
 =
-loopCallId
+conversationWindowId
 )
 {
 LoopCallsInternal

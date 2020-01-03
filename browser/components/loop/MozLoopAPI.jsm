@@ -955,7 +955,7 @@ value
 :
 function
 (
-loopCallId
+conversationWindowId
 )
 {
 return
@@ -967,7 +967,7 @@ LoopCalls
 .
 getCallData
 (
-loopCallId
+conversationWindowId
 )
 targetWindow
 )
@@ -987,14 +987,14 @@ value
 :
 function
 (
-loopCallId
+conversationWindowId
 )
 {
 LoopCalls
 .
 releaseCallData
 (
-loopCallId
+conversationWindowId
 )
 ;
 }
