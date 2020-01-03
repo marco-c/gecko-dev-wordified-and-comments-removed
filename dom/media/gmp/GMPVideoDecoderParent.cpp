@@ -179,6 +179,15 @@ mVideoHost
 (
 this
 )
+mPluginId
+(
+aPlugin
+-
+>
+GetPluginId
+(
+)
+)
 {
 MOZ_ASSERT
 (

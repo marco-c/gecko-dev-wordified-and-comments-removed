@@ -845,7 +845,7 @@ mGMP
 mGMP
 -
 >
-ParentID
+GetPluginId
 (
 )
 =
@@ -853,7 +853,7 @@ ParentID
 aGMP
 -
 >
-ParentID
+GetPluginId
 (
 )
 )

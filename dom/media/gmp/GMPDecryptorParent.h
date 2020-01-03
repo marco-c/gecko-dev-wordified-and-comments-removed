@@ -83,7 +83,11 @@ GetPluginId
 )
 const
 override
+{
+return
+mPluginId
 ;
+}
 virtual
 nsresult
 Init

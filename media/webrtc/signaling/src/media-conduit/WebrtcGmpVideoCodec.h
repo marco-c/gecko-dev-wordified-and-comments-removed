@@ -146,7 +146,7 @@ mGMP
 mGMP
 -
 >
-ParentID
+GetPluginId
 (
 )
 :
@@ -854,7 +854,7 @@ mGMP
 mGMP
 -
 >
-ParentID
+GetPluginId
 (
 )
 :
