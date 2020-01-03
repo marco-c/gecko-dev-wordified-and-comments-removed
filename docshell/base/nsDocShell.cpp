@@ -3949,7 +3949,7 @@ if
 gDocShellLeakLog
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gDocShellLeakLog
 PR_LOG_DEBUG
@@ -4101,7 +4101,7 @@ if
 gDocShellLeakLog
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gDocShellLeakLog
 PR_LOG_DEBUG
@@ -4832,7 +4832,7 @@ defined
 (
 DEBUG
 )
-PR_LOG
+MOZ_LOG
 (
 gDocShellLog
 PR_LOG_DEBUG
@@ -6490,7 +6490,7 @@ GetAsciiSpec
 uristr
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocShellLog
 PR_LOG_DEBUG
@@ -6915,7 +6915,7 @@ shEntry
 #
 ifdef
 DEBUG
-PR_LOG
+MOZ_LOG
 (
 gDocShellLog
 PR_LOG_DEBUG
@@ -21897,7 +21897,7 @@ channel
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gDocShellLog
 PR_LOG_DEBUG
@@ -43489,7 +43489,7 @@ channel
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gDocShellLog
 PR_LOG_DEBUG
@@ -43765,7 +43765,7 @@ rootSH
 nullptr
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocShellLog
 PR_LOG_DEBUG
@@ -45713,7 +45713,7 @@ channel
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gDocShellLog
 PR_LOG_DEBUG
