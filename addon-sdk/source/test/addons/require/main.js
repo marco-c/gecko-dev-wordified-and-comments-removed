@@ -40,7 +40,7 @@ notEqual
 require
 (
 "
-memory
+list
 "
 )
 require
@@ -48,9 +48,9 @@ require
 "
 sdk
 /
-deprecated
+util
 /
-memory
+list
 "
 )
 "
@@ -72,7 +72,7 @@ ok
 require
 (
 "
-memory
+list
 "
 )
 .
