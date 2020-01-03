@@ -2001,14 +2001,6 @@ B2G
 4
 )
 random
--
-if
-(
-winWidget
-|
-|
-cocoaWidget
-)
 =
 =
 list
