@@ -905,10 +905,12 @@ true
 >
 <
 hbox
-pack
+class
 =
 "
-center
+button
+-
+container
 "
 >
 <
