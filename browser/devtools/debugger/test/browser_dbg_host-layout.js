@@ -539,7 +539,7 @@ is
 (
 gView
 .
-_sourcesPane
+_workersAndSourcesPane
 .
 parentNode
 .
@@ -551,6 +551,8 @@ widgets
 "
 "
 The
+workers
+and
 sources
 pane
 '
@@ -604,7 +606,7 @@ is
 (
 gView
 .
-_sourcesPane
+_workersAndSourcesPane
 .
 parentNode
 .
@@ -620,6 +622,8 @@ container
 "
 "
 The
+workers
+and
 sources
 pane
 '

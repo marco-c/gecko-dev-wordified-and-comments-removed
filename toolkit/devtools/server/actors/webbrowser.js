@@ -3620,6 +3620,13 @@ new
 WorkerActorList
 (
 {
+type
+:
+Ci
+.
+nsIWorkerDebugger
+.
+TYPE_DEDICATED
 window
 :
 this
