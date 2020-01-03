@@ -140,6 +140,14 @@ XPCSHELLTESTROOT
 )
 /
 unit_aus_update
+aus
+-
+update
+-
+head_TARGET
+:
+=
+misc
 INSTALL_TARGETS
 +
 =
@@ -151,7 +159,7 @@ xpcshell
 data_TARGET
 :
 =
-libs
+misc
 xpcshell
 -
 data_DEST
@@ -213,7 +221,7 @@ updater
 head_TARGET
 :
 =
-libs
+misc
 base
 -
 updater
@@ -259,7 +267,7 @@ updater
 head_TARGET
 :
 =
-libs
+misc
 service
 -
 updater
@@ -310,7 +318,7 @@ test
 helper_TARGET
 :
 =
-libs
+misc
 xpcshell
 -
 test
@@ -393,6 +401,12 @@ CHROMETESTROOT
 )
 /
 chrome
+chrome
+-
+shared_TARGET
+:
+=
+misc
 _CHROME_DATA
 :
 =
@@ -415,7 +429,7 @@ chrome
 data_TARGET
 :
 =
-libs
+misc
 chrome
 -
 data_DEST
