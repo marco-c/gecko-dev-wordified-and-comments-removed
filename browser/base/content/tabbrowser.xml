@@ -30404,6 +30404,8 @@ copyModifier
 =
 this
 .
+tabbrowser
+.
 AppConstants
 .
 platform
