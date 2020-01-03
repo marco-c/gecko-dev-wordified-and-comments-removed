@@ -85,7 +85,7 @@ flags
 ;
 }
 ;
-void
+nsresult
 PREF_Init
 (
 )

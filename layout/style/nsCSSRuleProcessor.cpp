@@ -2465,7 +2465,6 @@ PL_DHashTableAdd
 (
 aTable
 aKey
-fallible
 )
 )
 ;
@@ -2524,7 +2523,6 @@ PL_DHashTableAdd
 (
 aTable
 aKey
-fallible
 )
 )
 ;
@@ -4778,7 +4776,6 @@ PL_DHashTableAdd
 &
 mAttributeSelectors
 aAttribute
-fallible
 )
 )
 ;
@@ -13640,7 +13637,6 @@ curID
 -
 >
 mAtom
-fallible
 )
 )
 ;
@@ -13732,7 +13728,6 @@ curClass
 -
 >
 mAtom
-fallible
 )
 )
 ;
@@ -14973,7 +14968,6 @@ NS_INT32_TO_PTR
 (
 weight
 )
-fallible
 )
 )
 ;

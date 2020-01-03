@@ -717,6 +717,9 @@ mGlobalNames
 PLDHashTable
 mNavigatorNames
 ;
+bool
+mIsInitialized
+;
 }
 ;
 #

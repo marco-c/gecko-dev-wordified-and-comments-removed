@@ -299,7 +299,7 @@ nsCertTree
 (
 )
 ;
-void
+nsresult
 InitCompareHash
 (
 )

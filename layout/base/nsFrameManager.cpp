@@ -634,7 +634,6 @@ aPlaceholderFrame
 GetOutOfFlowFrame
 (
 )
-fallible
 )
 )
 ;
