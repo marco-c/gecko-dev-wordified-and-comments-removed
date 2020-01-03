@@ -50,6 +50,13 @@ mismatch
 namespace
 mozilla
 {
+namespace
+widget
+{
+struct
+IMENotification
+;
+}
 enum
 PhysicalAxis
 {
@@ -1571,6 +1578,13 @@ ParamTraits
 <
 WritingMode
 >
+;
+friend
+struct
+widget
+:
+:
+IMENotification
 ;
 static
 inline

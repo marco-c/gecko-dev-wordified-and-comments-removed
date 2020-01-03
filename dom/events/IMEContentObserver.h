@@ -238,6 +238,13 @@ return
 mWidget
 ;
 }
+nsPresContext
+*
+GetPresContext
+(
+)
+const
+;
 nsresult
 GetSelectionAndRoot
 (
