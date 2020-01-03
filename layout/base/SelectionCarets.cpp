@@ -1631,7 +1631,7 @@ visibility
 s
 "
 (
-mStartCaretVisible
+mEndCaretVisible
 ?
 "
 shown
