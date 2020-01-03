@@ -11,6 +11,11 @@ roomToken
 _nxD4V4FflQ
 "
 "
+decryptedContext
+"
+:
+{
+"
 roomName
 "
 :
@@ -19,6 +24,7 @@ First
 Room
 Name
 "
+}
 "
 roomUrl
 "
@@ -79,6 +85,11 @@ roomToken
 QzBbvGmIZWU
 "
 "
+decryptedContext
+"
+:
+{
+"
 roomName
 "
 :
@@ -87,6 +98,7 @@ Second
 Room
 Name
 "
+}
 "
 roomUrl
 "
@@ -147,6 +159,11 @@ roomToken
 3jKS_Els9IU
 "
 "
+decryptedContext
+"
+:
+{
+"
 roomName
 "
 :
@@ -154,6 +171,7 @@ roomName
 UX
 Discussion
 "
+}
 "
 roomUrl
 "

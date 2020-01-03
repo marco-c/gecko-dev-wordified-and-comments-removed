@@ -2798,6 +2798,9 @@ sample
 /
 QzBbvGmIZWU
 "
+decryptedContext
+:
+{
 roomName
 :
 "
@@ -2805,6 +2808,7 @@ Second
 Room
 Name
 "
+}
 maxSize
 :
 2
@@ -3028,6 +3032,8 @@ value
 eql
 (
 roomData
+.
+decryptedContext
 .
 roomName
 )
@@ -3781,7 +3787,7 @@ describe
 (
 "
 Room
-URL
+Entry
 click
 "
 function
@@ -3790,7 +3796,7 @@ function
 {
 var
 roomEntry
-urlLink
+roomEntryNode
 ;
 beforeEach
 (
@@ -3830,21 +3836,12 @@ roomData
 }
 )
 ;
-urlLink
+roomEntryNode
 =
 roomEntry
 .
 getDOMNode
 (
-)
-.
-querySelector
-(
-"
-p
->
-a
-"
 )
 ;
 }
@@ -3869,7 +3866,7 @@ Simulate
 .
 click
 (
-urlLink
+roomEntryNode
 )
 ;
 sinon
@@ -3929,7 +3926,7 @@ Simulate
 .
 click
 (
-urlLink
+roomEntryNode
 )
 ;
 sinon
@@ -4013,6 +4010,9 @@ extend
 }
 roomData
 {
+decryptedContext
+:
+{
 roomName
 :
 "
@@ -4020,6 +4020,7 @@ New
 room
 name
 "
+}
 ctime
 :
 new

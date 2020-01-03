@@ -790,6 +790,8 @@ exec
 (
 room
 .
+decryptedContext
+.
 roomName
 )
 ;
@@ -900,6 +902,9 @@ var
 roomCreationData
 =
 {
+decryptedContext
+:
+{
 roomName
 :
 this
@@ -910,6 +915,7 @@ actionData
 .
 nameTemplate
 )
+}
 roomOwner
 :
 actionData

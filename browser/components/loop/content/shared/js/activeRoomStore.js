@@ -567,6 +567,8 @@ roomName
 :
 roomData
 .
+decryptedContext
+.
 roomName
 roomOwner
 :
@@ -1284,6 +1286,8 @@ UpdateRoomInfo
 roomName
 :
 roomData
+.
+decryptedContext
 .
 roomName
 roomOwner
