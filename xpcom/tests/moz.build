@@ -368,6 +368,10 @@ TestThreads
 '
 #
 '
+TestTimeStamp
+'
+#
+'
 TestXPIDLString
 '
 #
