@@ -1479,9 +1479,13 @@ selector
 s
 "
 this
-ToNewCString
+NS_LossyConvertUTF16toASCII
 (
 nsSelectorString
+)
+.
+get
+(
 )
 )
 )
