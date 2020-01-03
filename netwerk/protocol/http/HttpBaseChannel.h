@@ -1434,6 +1434,14 @@ nsISupports
 aSecurityInfo
 )
 ;
+void
+OverrideURI
+(
+nsIURI
+*
+aRedirectedURI
+)
+;
 public
 :
 bool
