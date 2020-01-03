@@ -2033,6 +2033,7 @@ nsITimer
 *
 aTimer
 )
+MOZ_OVERRIDE
 {
 mWindow
 -
