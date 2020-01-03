@@ -30270,14 +30270,6 @@ update
 .
 xml
 "
-RmDir
-/
-r
-"
-INSTDIR
-\
-distribution
-"
 ;
 Remove
 files
