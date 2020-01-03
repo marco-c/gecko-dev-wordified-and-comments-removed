@@ -688,6 +688,10 @@ nsPluginFrameSuper
 (
 aContext
 )
+mInstanceOwner
+(
+nullptr
+)
 mReflowCallbackPosted
 (
 false
