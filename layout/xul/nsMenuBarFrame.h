@@ -411,8 +411,10 @@ aResult
 endif
 protected
 :
+nsRefPtr
+<
 nsMenuBarListener
-*
+>
 mMenuBarListener
 ;
 bool
