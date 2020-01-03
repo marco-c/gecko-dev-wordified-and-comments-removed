@@ -219,6 +219,10 @@ InstallPhaseEvent
 (
 aOwner
 )
+mActivateImmediately
+(
+false
+)
 {
 }
 NS_IMPL_ADDREF_INHERITED
