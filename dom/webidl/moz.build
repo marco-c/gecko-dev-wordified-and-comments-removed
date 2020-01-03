@@ -1700,6 +1700,11 @@ ResourceStatsManager
 webidl
 '
 '
+Response
+.
+webidl
+'
+'
 RGBColor
 .
 webidl
