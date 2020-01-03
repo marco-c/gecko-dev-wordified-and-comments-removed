@@ -158,6 +158,11 @@ function
 (
 prefName
 defaultValue
+valueType
+=
+Ci
+.
+nsISupportsString
 )
 {
 if
@@ -195,6 +200,7 @@ _get
 (
 prefName
 defaultValue
+valueType
 )
 ;
 }
@@ -204,6 +210,7 @@ function
 (
 prefName
 defaultValue
+valueType
 )
 {
 switch
@@ -233,9 +240,7 @@ _prefSvc
 getComplexValue
 (
 prefName
-Ci
-.
-nsISupportsString
+valueType
 )
 .
 data
