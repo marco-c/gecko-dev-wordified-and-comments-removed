@@ -600,7 +600,7 @@ id
 MarkExactStackRootList
 <
 Value
-MarkValueRoot
+TraceRoot
 >
 (
 trc
@@ -923,7 +923,7 @@ this
 >
 vector
 ;
-MarkValueRootRange
+TraceRootRange
 (
 trc
 vector
@@ -1060,7 +1060,7 @@ id
 "
 )
 ;
-MarkValueRoot
+TraceRoot
 (
 trc
 &
@@ -1362,7 +1362,7 @@ AutoValueArray
 this
 )
 ;
-MarkValueRootRange
+TraceRootRange
 (
 trc
 array
@@ -1846,7 +1846,7 @@ case
 WRAPPER
 :
 {
-MarkValueUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -1925,7 +1925,7 @@ p
 +
 +
 )
-MarkValueUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -2021,7 +2021,7 @@ this
 >
 array
 )
-MarkValueRootRange
+TraceRootRange
 (
 trc
 tag_
@@ -2183,7 +2183,7 @@ JSTracer
 trc
 )
 {
-MarkValueRoot
+TraceRoot
 (
 trc
 reinterpret_cast
@@ -2330,7 +2330,7 @@ obj
 "
 )
 ;
-MarkValueRoot
+TraceRoot
 (
 trc
 &
@@ -2774,7 +2774,7 @@ Value
 :
 markChain
 <
-MarkValueRoot
+TraceRoot
 >
 (
 trc
@@ -3025,7 +3025,7 @@ front
 (
 )
 ;
-MarkValueRoot
+TraceRoot
 (
 trc
 entry

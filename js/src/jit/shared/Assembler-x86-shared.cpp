@@ -325,10 +325,7 @@ IMPL_TO_JSVAL
 layout
 )
 ;
-gc
-:
-:
-MarkValueUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

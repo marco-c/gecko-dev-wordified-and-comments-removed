@@ -115,10 +115,7 @@ end
 1
 )
 ;
-gc
-:
-:
-MarkValueRootRange
+TraceRootRange
 (
 trc
 end
@@ -159,10 +156,7 @@ calleeToken
 )
 )
 ;
-gc
-:
-:
-MarkValueRoot
+TraceRoot
 (
 trc
 &
@@ -199,10 +193,7 @@ numFormalArgs
 )
 )
 ;
-gc
-:
-:
-MarkValueRootRange
+TraceRootRange
 (
 trc
 numArgs
@@ -242,10 +233,7 @@ hasReturnValue
 (
 )
 )
-gc
-:
-:
-MarkValueRoot
+TraceRoot
 (
 trc
 returnValue

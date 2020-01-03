@@ -4052,7 +4052,7 @@ private
 "
 )
 ;
-MarkValue
+TraceEdge
 (
 trc
 proxy
@@ -4080,7 +4080,7 @@ CrossCompartmentWrapperObject
 (
 )
 )
-MarkValue
+TraceEdge
 (
 trc
 proxy

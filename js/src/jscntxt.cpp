@@ -5319,7 +5319,7 @@ isExceptionPending
 (
 )
 )
-MarkValueRoot
+TraceRoot
 (
 trc
 &

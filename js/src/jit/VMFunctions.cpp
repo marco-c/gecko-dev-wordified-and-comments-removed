@@ -6391,10 +6391,7 @@ Value
 vp
 )
 {
-gc
-:
-:
-MarkValueUnbarriered
+TraceManuallyBarrieredEdge
 (
 &
 rt
