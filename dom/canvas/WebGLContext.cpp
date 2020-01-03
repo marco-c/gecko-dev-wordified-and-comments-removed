@@ -1209,6 +1209,14 @@ mGLMaxUniformBufferBindings
 =
 0
 ;
+mGLMax3DTextureSize
+=
+0
+;
+mGLMaxArrayTextureLayers
+=
+0
+;
 mPixelStorePackAlignment
 =
 4
