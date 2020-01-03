@@ -23,13 +23,6 @@ Error
 (
 )
 ;
-mProxyDecoder
--
->
-Shutdown
-(
-)
-;
 }
 void
 MediaDataDecoderCallbackProxy
