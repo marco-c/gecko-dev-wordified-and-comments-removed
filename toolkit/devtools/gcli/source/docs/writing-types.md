@@ -51,7 +51,7 @@ number
 boolean
 .
 A
-Javascript
+JavaScript
 boolean
 *
 selection
@@ -400,7 +400,7 @@ addition
 defining
 the
 following
-functions
+function
 can
 be
 helpful
@@ -411,14 +411,10 @@ default
 implementations
 :
 *
-increment
+nudge
 (
 value
-)
-*
-decrement
-(
-value
+by
 )
 Type
 Conversion

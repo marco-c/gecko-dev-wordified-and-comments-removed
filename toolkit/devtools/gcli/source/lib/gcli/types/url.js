@@ -263,11 +263,13 @@ this
 ;
 if
 (
+'
+window
+'
+in
 context
 .
 environment
-.
-window
 )
 {
 try

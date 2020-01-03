@@ -28,14 +28,14 @@ Services
 )
 ;
 const
-gcli
+l10n
 =
 require
 (
 "
 gcli
 /
-index
+l10n
 "
 )
 ;
@@ -206,6 +206,16 @@ items
 =
 [
 {
+item
+:
+"
+command
+"
+runAt
+:
+"
+client
+"
 name
 :
 "
@@ -213,7 +223,7 @@ listen
 "
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -223,7 +233,7 @@ listenDesc
 )
 manual
 :
-gcli
+l10n
 .
 lookupFormat
 (
@@ -276,7 +286,7 @@ port
 }
 description
 :
-gcli
+l10n
 .
 lookup
 (
@@ -313,7 +323,7 @@ throw
 new
 Error
 (
-gcli
+l10n
 .
 lookup
 (
@@ -346,7 +356,7 @@ initialized
 )
 {
 return
-gcli
+l10n
 .
 lookupFormat
 (
@@ -365,7 +375,7 @@ port
 ;
 }
 return
-gcli
+l10n
 .
 lookup
 (

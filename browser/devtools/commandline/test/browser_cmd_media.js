@@ -354,6 +354,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

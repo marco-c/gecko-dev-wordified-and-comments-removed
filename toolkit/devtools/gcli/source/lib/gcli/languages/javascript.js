@@ -140,7 +140,7 @@ input
 return
 this
 .
-eval
+evaluate
 (
 input
 )
@@ -433,7 +433,7 @@ this
 )
 ;
 }
-eval
+evaluate
 :
 function
 (
@@ -445,7 +445,7 @@ host
 .
 script
 .
-eval
+evaluate
 (
 input
 )

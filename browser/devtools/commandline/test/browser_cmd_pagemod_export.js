@@ -51,6 +51,7 @@ handleError
 ;
 }
 function
+*
 spawnTest
 (
 )
@@ -2124,13 +2125,6 @@ status
 INCOMPLETE
 '
 }
-root
-:
-{
-value
-:
-undefined
-}
 ignoreCase
 :
 {
@@ -2203,13 +2197,6 @@ value
 '
 bar
 '
-}
-root
-:
-{
-value
-:
-undefined
 }
 ignoreCase
 :

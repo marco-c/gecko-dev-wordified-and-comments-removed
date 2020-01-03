@@ -202,7 +202,6 @@ div
 function
 Tooltip
 (
-options
 components
 )
 {
@@ -246,13 +245,8 @@ classList
 .
 add
 (
-options
-.
-tooltipClass
-|
-|
 '
-gcli
+gcliterm
 -
 tooltip
 '
@@ -981,9 +975,8 @@ this
 )
 )
 .
-then
+catch
 (
-null
 util
 .
 errorHandler

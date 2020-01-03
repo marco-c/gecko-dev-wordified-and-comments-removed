@@ -51,6 +51,7 @@ handleError
 ;
 }
 function
+*
 testTask
 (
 )
@@ -138,6 +139,13 @@ TEST_URI
 exec
 :
 {
+output
+:
+'
+'
+error
+:
+false
 }
 }
 ]

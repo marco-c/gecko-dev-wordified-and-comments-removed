@@ -41,6 +41,7 @@ handleError
 ;
 }
 function
+*
 spawnTest
 (
 )
@@ -260,7 +261,8 @@ exec
 {
 output
 :
-true
+"
+"
 }
 }
 ]
