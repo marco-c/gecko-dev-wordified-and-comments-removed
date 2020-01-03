@@ -26,6 +26,8 @@ MozLoopAPI
 .
 jsm
 "
+{
+}
 )
 ;
 gMozLoopAPI
