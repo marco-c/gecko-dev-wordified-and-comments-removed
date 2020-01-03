@@ -4631,6 +4631,12 @@ Failed
 )
 )
 {
+errorResult
+.
+ClearMessage
+(
+)
+;
 return
 errorResult
 .
@@ -4639,7 +4645,6 @@ ErrorCode
 )
 ;
 }
-;
 nsAutoCString
 cachedValue
 ;
@@ -4665,6 +4670,12 @@ Failed
 )
 )
 {
+errorResult
+.
+ClearMessage
+(
+)
+;
 return
 errorResult
 .
@@ -4673,7 +4684,6 @@ ErrorCode
 )
 ;
 }
-;
 if
 (
 queryValue
