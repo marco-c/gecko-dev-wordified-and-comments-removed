@@ -1229,6 +1229,10 @@ NPNetscapeFuncs
 *
 mNPNIface
 ;
+NPPluginFuncs
+*
+mNPPIface
+;
 nsNPAPIPlugin
 *
 mPlugin
@@ -1319,10 +1323,6 @@ mSurrogateInstances
 ;
 nsresult
 mAsyncNewRv
-;
-NPPluginFuncs
-*
-mAsyncInitPluginFuncs
 ;
 }
 ;
