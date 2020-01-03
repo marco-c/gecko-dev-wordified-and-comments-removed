@@ -15,7 +15,7 @@ gUI
 const
 FIRST_TEST_PAGE
 =
-TEST_BASE
+TEST_BASE_HTTP
 +
 "
 inline
@@ -27,7 +27,7 @@ html
 const
 SECOND_TEST_PAGE
 =
-TEST_BASE
+TEST_BASE_HTTP
 +
 "
 inline

@@ -1,7 +1,7 @@
 const
 TESTCASE_URI_HTML
 =
-TEST_BASE
+TEST_BASE_HTTP
 +
 "
 simple
@@ -12,7 +12,7 @@ html
 const
 TESTCASE_URI_CSS
 =
-TEST_BASE
+TEST_BASE_HTTP
 +
 "
 simple

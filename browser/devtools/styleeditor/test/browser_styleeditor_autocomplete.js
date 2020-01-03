@@ -12,7 +12,7 @@ source
 const
 TESTCASE_URI
 =
-TEST_BASE
+TEST_BASE_HTTP
 +
 "
 autocomplete

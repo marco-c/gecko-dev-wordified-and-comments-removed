@@ -78,7 +78,7 @@ jsm
 const
 TESTCASE_URI_HTML
 =
-TEST_BASE
+TEST_BASE_HTTP
 +
 "
 sourcemaps
@@ -91,7 +91,7 @@ html
 const
 TESTCASE_URI_CSS
 =
-TEST_BASE
+TEST_BASE_HTTP
 +
 "
 sourcemap
@@ -106,7 +106,7 @@ css
 const
 TESTCASE_URI_REG_CSS
 =
-TEST_BASE
+TEST_BASE_HTTP
 +
 "
 simple
@@ -117,7 +117,7 @@ css
 const
 TESTCASE_URI_SCSS
 =
-TEST_BASE
+TEST_BASE_HTTP
 +
 "
 sourcemap
@@ -132,7 +132,7 @@ scss
 const
 TESTCASE_URI_MAP
 =
-TEST_BASE
+TEST_BASE_HTTP
 +
 "
 sourcemap
