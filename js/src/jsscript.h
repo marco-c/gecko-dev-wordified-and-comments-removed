@@ -6684,6 +6684,12 @@ FreeOp
 fop
 )
 ;
+void
+fixupAfterMovingGC
+(
+)
+{
+}
 static
 inline
 js
@@ -8080,6 +8086,12 @@ FreeOp
 fop
 )
 ;
+void
+fixupAfterMovingGC
+(
+)
+{
+}
 static
 inline
 js
