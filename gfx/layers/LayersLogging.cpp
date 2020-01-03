@@ -1321,7 +1321,9 @@ er
 "
 m
 .
-mDevPixelsPerCSSPixel
+GetDevPixelsPerCSSPixel
+(
+)
 .
 scale
 m

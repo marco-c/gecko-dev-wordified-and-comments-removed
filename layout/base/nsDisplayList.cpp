@@ -4544,8 +4544,8 @@ resolutionToScreen
 ;
 metrics
 .
-mDevPixelsPerCSSPixel
-=
+SetDevPixelsPerCSSPixel
+(
 CSSToLayoutDeviceScale
 (
 (
@@ -4559,6 +4559,7 @@ AppUnitsPerCSSPixel
 )
 /
 auPerDevPixel
+)
 )
 ;
 const
@@ -4580,7 +4581,9 @@ mCumulativeResolution
 *
 metrics
 .
-mDevPixelsPerCSSPixel
+GetDevPixelsPerCSSPixel
+(
+)
 *
 layerToParentLayerScale
 )

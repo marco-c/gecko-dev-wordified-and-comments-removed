@@ -14280,9 +14280,10 @@ layerToParentLayerScale
 ;
 metrics
 .
-mDevPixelsPerCSSPixel
-=
+SetDevPixelsPerCSSPixel
+(
 deviceScale
+)
 ;
 metrics
 .

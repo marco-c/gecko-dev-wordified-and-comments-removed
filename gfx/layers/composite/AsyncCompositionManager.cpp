@@ -3986,7 +3986,9 @@ userZoom
 (
 metrics
 .
-mDevPixelsPerCSSPixel
+GetDevPixelsPerCSSPixel
+(
+)
 *
 metrics
 .

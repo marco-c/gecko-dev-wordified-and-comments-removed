@@ -4266,11 +4266,12 @@ CSSToParentLayerScale
 ;
 metrics
 .
-mDevPixelsPerCSSPixel
-=
+SetDevPixelsPerCSSPixel
+(
 CSSToLayoutDeviceScale
 (
 3
+)
 )
 ;
 metrics

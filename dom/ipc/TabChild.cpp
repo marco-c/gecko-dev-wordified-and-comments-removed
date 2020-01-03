@@ -1234,8 +1234,8 @@ CalculateIntrinsicScale
 ;
 mLastRootMetrics
 .
-mDevPixelsPerCSSPixel
-=
+SetDevPixelsPerCSSPixel
+(
 WebWidget
 (
 )
@@ -1243,6 +1243,7 @@ WebWidget
 >
 GetDefaultScale
 (
+)
 )
 ;
 mLastRootMetrics
@@ -1257,7 +1258,9 @@ GetZoom
 /
 mLastRootMetrics
 .
-mDevPixelsPerCSSPixel
+GetDevPixelsPerCSSPixel
+(
+)
 *
 ParentLayerToLayerScale
 (
@@ -1945,7 +1948,9 @@ ScreenToLayoutDeviceScale
 /
 metrics
 .
-mDevPixelsPerCSSPixel
+GetDevPixelsPerCSSPixel
+(
+)
 )
 ;
 float
@@ -2122,8 +2127,8 @@ GetPresContext
 {
 metrics
 .
-mDevPixelsPerCSSPixel
-=
+SetDevPixelsPerCSSPixel
+(
 CSSToLayoutDeviceScale
 (
 (
@@ -2143,6 +2148,7 @@ AppUnitsPerDevPixel
 (
 )
 )
+)
 ;
 }
 }
@@ -2158,7 +2164,9 @@ GetZoom
 /
 metrics
 .
-mDevPixelsPerCSSPixel
+GetDevPixelsPerCSSPixel
+(
+)
 *
 ParentLayerToLayerScale
 (
@@ -2305,7 +2313,9 @@ screenW
 /
 metrics
 .
-mDevPixelsPerCSSPixel
+GetDevPixelsPerCSSPixel
+(
+)
 .
 scale
 )
@@ -15383,14 +15393,6 @@ RecvUIResolutionChanged
 (
 )
 {
-mDPI
-=
-0
-;
-mDefaultScale
-=
-0
-;
 static_cast
 <
 PuppetWidget
