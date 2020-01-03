@@ -2141,13 +2141,6 @@ bug
 needs
 -
 focus
-pref
-(
-selectioncaret
-.
-enabled
-false
-)
 =
 =
 824080
@@ -2182,6 +2175,8 @@ html
 needs
 -
 focus
+test
+-
 pref
 (
 selectioncaret
@@ -2221,13 +2216,6 @@ html
 needs
 -
 focus
-pref
-(
-selectioncaret
-.
-enabled
-false
-)
 =
 =
 824080
@@ -2245,6 +2233,8 @@ html
 needs
 -
 focus
+test
+-
 pref
 (
 selectioncaret

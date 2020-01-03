@@ -32645,6 +32645,16 @@ pref
 "
 selectioncaret
 .
+noneditable
+"
+false
+)
+;
+pref
+(
+"
+selectioncaret
+.
 inflatesize
 .
 threshold
