@@ -1309,6 +1309,12 @@ mDiscoverableTimeout
 ;
 #
 endif
+bool
+mIsRestart
+;
+bool
+mIsFirstTimeToggleOffBt
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
