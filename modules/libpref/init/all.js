@@ -13587,7 +13587,7 @@ isolation
 .
 enabled
 "
-false
+true
 )
 ;
 pref
