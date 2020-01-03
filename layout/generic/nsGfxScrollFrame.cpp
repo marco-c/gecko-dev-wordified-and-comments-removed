@@ -13562,7 +13562,7 @@ aOutput
 const
 {
 nsRect
-viewport
+scrollport
 =
 mScrollPort
 +
@@ -13603,7 +13603,7 @@ GetIsViewportOverridden
 *
 aClipRect
 =
-viewport
+scrollport
 ;
 }
 if
@@ -13648,7 +13648,7 @@ mOuter
 aContainerReferenceFrame
 aLayer
 mScrollParentID
-viewport
+scrollport
 false
 false
 aParameters
