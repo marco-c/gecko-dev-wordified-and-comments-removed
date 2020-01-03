@@ -600,7 +600,9 @@ presShellResolution
 =
 aMetrics
 .
-mPresShellResolution
+GetPresShellResolution
+(
+)
 *
 aMetrics
 .

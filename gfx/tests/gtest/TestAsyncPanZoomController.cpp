@@ -4267,11 +4267,12 @@ LayoutDeviceToLayerScale
 ;
 metrics
 .
-mPresShellResolution
-=
+SetPresShellResolution
+(
 2
 .
 0f
+)
 ;
 metrics
 .

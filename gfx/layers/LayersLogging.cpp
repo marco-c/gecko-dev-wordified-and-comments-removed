@@ -1362,7 +1362,9 @@ GetDevPixelsPerCSSPixel
 scale
 m
 .
-mPresShellResolution
+GetPresShellResolution
+(
+)
 m
 .
 GetCumulativeResolution

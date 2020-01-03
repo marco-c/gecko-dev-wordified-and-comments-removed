@@ -14326,9 +14326,10 @@ deviceScale
 ;
 metrics
 .
-mPresShellResolution
-=
+SetPresShellResolution
+(
 resolution
+)
 ;
 metrics
 .

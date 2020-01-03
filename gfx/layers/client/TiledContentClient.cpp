@@ -7118,7 +7118,9 @@ aTileOrigin
 .
 y
 *
-mPresShellResolution
+GetPresShellResolution
+(
+)
 GetTileLength
 (
 )

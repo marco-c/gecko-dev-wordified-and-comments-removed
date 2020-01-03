@@ -411,10 +411,14 @@ PostScale
 (
 metrics
 .
-mPresShellResolution
+GetPresShellResolution
+(
+)
 metrics
 .
-mPresShellResolution
+GetPresShellResolution
+(
+)
 1
 .
 f

@@ -1081,7 +1081,9 @@ Metrics
 (
 )
 .
-mPresShellResolution
+GetPresShellResolution
+(
+)
 )
 ;
 nsIntRect
