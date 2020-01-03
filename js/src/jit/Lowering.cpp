@@ -10053,6 +10053,11 @@ alloc
 )
 )
 LOsrEntry
+(
+temp
+(
+)
+)
 ;
 defineFixed
 (

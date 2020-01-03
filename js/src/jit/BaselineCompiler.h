@@ -1206,6 +1206,16 @@ emitSPSPop
 (
 )
 ;
+void
+emitProfilerEnterFrame
+(
+)
+;
+void
+emitProfilerExitFrame
+(
+)
+;
 bool
 initScopeChain
 (
