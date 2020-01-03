@@ -390,7 +390,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -413,7 +413,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -683,7 +683,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -706,7 +706,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
