@@ -297,9 +297,6 @@ aRenderingContext
 nscoord
 ReflowColumns
 (
-nsPresContext
-*
-aPresContext
 bool
 aAllowLineBreak
 const
@@ -321,9 +318,6 @@ aStatus
 nscoord
 ReflowOneColumn
 (
-nsPresContext
-*
-aPresContext
 bool
 aAllowLineBreak
 const
@@ -356,9 +350,6 @@ aStatus
 nscoord
 ReflowSpans
 (
-nsPresContext
-*
-aPresContext
 const
 nsHTMLReflowState
 &
