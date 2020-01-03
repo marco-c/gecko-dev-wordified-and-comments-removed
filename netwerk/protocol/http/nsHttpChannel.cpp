@@ -2185,7 +2185,7 @@ else
 {
 ContinueHandleAsyncRedirect
 (
-NS_OK
+mStatus
 )
 ;
 }
