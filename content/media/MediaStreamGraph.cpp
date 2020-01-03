@@ -14442,6 +14442,19 @@ monitorLock
 mMonitor
 )
 ;
+if
+(
+!
+CurrentDriver
+(
+)
+-
+>
+AsOfflineClockDriver
+(
+)
+)
+{
 CurrentDriver
 (
 )
@@ -14451,6 +14464,7 @@ WakeUp
 (
 )
 ;
+}
 }
 if
 (
