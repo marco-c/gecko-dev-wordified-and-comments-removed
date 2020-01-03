@@ -32,6 +32,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+NullPtr
+.
+h
+"
 class
 WriteRecordClient
 :
