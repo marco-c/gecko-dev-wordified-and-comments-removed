@@ -2378,6 +2378,7 @@ aDb
 RunStatus
 aStatus
 )
+override
 {
 AssertIsInMainProcess
 (
@@ -2727,6 +2728,7 @@ nsIDOMEvent
 *
 aEvent
 )
+override
 {
 AssertIsInMainProcess
 (
