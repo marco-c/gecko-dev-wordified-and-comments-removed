@@ -4007,6 +4007,12 @@ style
 GTK_STYLE_CLASS_TOOLTIP
 )
 ;
+gtk_style_context_add_class
+(
+style
+GTK_STYLE_CLASS_BACKGROUND
+)
+;
 gtk_style_context_get_background_color
 (
 style
