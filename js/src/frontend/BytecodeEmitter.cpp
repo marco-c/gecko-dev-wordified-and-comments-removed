@@ -34541,11 +34541,6 @@ JSOP_POP
 return
 false
 ;
-bool
-shouldPopResult
-=
-false
-;
 if
 (
 names
@@ -34620,17 +34615,6 @@ JSOP_DEFVAR
 return
 false
 ;
-shouldPopResult
-=
-true
-;
-}
-}
-if
-(
-shouldPopResult
-)
-{
 if
 (
 Emit1
@@ -34645,6 +34629,7 @@ JSOP_POP
 return
 false
 ;
+}
 }
 MOZ_ALWAYS_TRUE
 (
