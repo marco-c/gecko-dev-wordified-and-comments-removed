@@ -2615,6 +2615,17 @@ dest
 new
 CSSAnimation
 (
+mPresContext
+-
+>
+Document
+(
+)
+-
+>
+GetScopeObject
+(
+)
 aTimeline
 src
 .

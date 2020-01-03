@@ -2789,6 +2789,17 @@ animation
 new
 CSSTransition
 (
+mPresContext
+-
+>
+Document
+(
+)
+-
+>
+GetScopeObject
+(
+)
 timeline
 )
 ;

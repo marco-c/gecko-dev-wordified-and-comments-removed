@@ -66,6 +66,9 @@ TimeStamp
 h
 "
 class
+nsIGlobalObject
+;
+class
 nsStyleContext
 ;
 namespace
@@ -228,6 +231,9 @@ public
 explicit
 CSSAnimation
 (
+nsIGlobalObject
+*
+aGlobal
 dom
 :
 :
@@ -245,6 +251,7 @@ dom
 :
 Animation
 (
+aGlobal
 aTimeline
 )
 mAnimationName
