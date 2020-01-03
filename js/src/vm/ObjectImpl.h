@@ -2801,7 +2801,7 @@ value
 )
 ;
 }
-inline
+MOZ_ALWAYS_INLINE
 void
 setCrossCompartmentSlot
 (
