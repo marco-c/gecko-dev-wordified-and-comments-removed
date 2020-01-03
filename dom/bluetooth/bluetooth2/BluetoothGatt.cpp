@@ -190,12 +190,6 @@ DOMEventTargetHelper
 (
 aWindow
 )
-mAppUuid
-(
-EmptyString
-(
-)
-)
 mClientIf
 (
 0

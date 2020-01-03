@@ -119,12 +119,6 @@ DOMEventTargetHelper
 (
 aWindow
 )
-mLeScanUuid
-(
-EmptyString
-(
-)
-)
 {
 MOZ_ASSERT
 (
