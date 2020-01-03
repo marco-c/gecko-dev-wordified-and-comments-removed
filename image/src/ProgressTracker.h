@@ -80,7 +80,7 @@ Image
 ;
 enum
 {
-FLAG_HAS_SIZE
+FLAG_SIZE_AVAILABLE
 =
 1u
 <
@@ -92,19 +92,19 @@ FLAG_DECODE_STARTED
 <
 <
 1
-FLAG_DECODE_STOPPED
+FLAG_DECODE_COMPLETE
 =
 1u
 <
 <
 2
-FLAG_FRAME_STOPPED
+FLAG_FRAME_COMPLETE
 =
 1u
 <
 <
 3
-FLAG_REQUEST_STOPPED
+FLAG_LOAD_COMPLETE
 =
 1u
 <
@@ -140,7 +140,7 @@ FLAG_IS_MULTIPART
 <
 <
 9
-FLAG_MULTIPART_STOPPED
+FLAG_LAST_PART_COMPLETE
 =
 1u
 <
@@ -166,7 +166,7 @@ NoProgress
 ;
 inline
 Progress
-OnStopRequestProgress
+LoadCompleteProgress
 (
 bool
 aLastPart
@@ -179,7 +179,7 @@ aStatus
 Progress
 progress
 =
-FLAG_REQUEST_STOPPED
+FLAG_LOAD_COMPLETE
 ;
 if
 (
@@ -189,7 +189,7 @@ aLastPart
 progress
 |
 =
-FLAG_MULTIPART_STOPPED
+FLAG_LAST_PART_COMPLETE
 ;
 }
 if

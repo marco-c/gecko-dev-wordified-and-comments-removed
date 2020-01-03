@@ -3182,7 +3182,7 @@ mImage
 Progress
 progress
 =
-OnStopRequestProgress
+LoadCompleteProgress
 (
 lastPart
 false
