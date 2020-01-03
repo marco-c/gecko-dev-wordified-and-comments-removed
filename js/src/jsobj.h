@@ -1238,6 +1238,12 @@ ClassInfo
 info
 )
 ;
+size_t
+sizeOfIncludingThisInNursery
+(
+)
+const
+;
 static
 inline
 bool

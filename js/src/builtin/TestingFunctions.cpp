@@ -13817,6 +13817,13 @@ runtime
 >
 debuggerMallocSizeOf
 ;
+{
+JS
+:
+:
+AutoCheckCannotGC
+autoCannotGC
+;
 JS
 :
 :
@@ -13843,9 +13850,9 @@ rval
 (
 )
 .
-set
+setNumber
 (
-NumberValue
+uint32_t
 (
 node
 .
@@ -13867,6 +13874,7 @@ setUndefined
 (
 )
 ;
+}
 return
 true
 ;
