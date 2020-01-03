@@ -613,16 +613,6 @@ pref
 "
 dom
 .
-enable_user_timing
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 gamepad
 .
 enabled
