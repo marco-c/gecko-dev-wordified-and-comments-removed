@@ -32749,6 +32749,7 @@ nsAString
 &
 aInputEncoding
 )
+const
 {
 WarnOnceAbout
 (
@@ -45290,6 +45291,7 @@ HasWarnedAbout
 DeprecatedOperations
 aOperation
 )
+const
 {
 static_assert
 (
@@ -45327,7 +45329,15 @@ aOperation
 bool
 asError
 )
+const
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 HasWarnedAbout
@@ -45398,6 +45408,7 @@ HasWarnedAbout
 DocumentWarnings
 aWarning
 )
+const
 {
 static_assert
 (
@@ -45442,7 +45453,15 @@ aParams
 uint32_t
 aParamsLength
 )
+const
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 HasWarnedAbout
