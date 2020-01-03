@@ -342,6 +342,12 @@ char
 >
 dictionary
 ;
+zxx_stream
+:
+:
+StaticAllocator
+allocator
+;
 }
 ;
 inline
