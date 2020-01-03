@@ -52,6 +52,8 @@ TestManifest
     
 TestWebIDLFile
     
+UnifiedSources
+    
 XPIDLFile
     
 WebIDLFile
@@ -1529,6 +1531,49 @@ obj
 .
 basename
 )
+)
+        
+elif
+isinstance
+(
+obj
+UnifiedSources
+)
+:
+            
+if
+obj
+.
+have_unified_mapping
+:
+                
+self
+.
+_write_unified_files
+(
+obj
+.
+unified_source_mapping
+obj
+.
+objdir
+)
+            
+if
+hasattr
+(
+self
+'
+_process_unified_sources
+'
+)
+:
+                
+self
+.
+_process_unified_sources
+(
+obj
 )
         
 else
