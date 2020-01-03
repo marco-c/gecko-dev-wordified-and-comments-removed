@@ -1463,6 +1463,11 @@ root
 '
 :
 IGNORE_EXPLICIT_NAME
+'
+statusbar
+'
+:
+NAME_FROM_SUBTREE_RULE
 }
 objectOutputFunctions
 :
