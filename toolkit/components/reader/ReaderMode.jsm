@@ -146,7 +146,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 ReaderMode
 =
 {
