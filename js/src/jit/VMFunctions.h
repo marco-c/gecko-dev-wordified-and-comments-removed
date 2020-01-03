@@ -4247,6 +4247,17 @@ rval
 )
 ;
 bool
+DebugAfterYield
+(
+JSContext
+*
+cx
+BaselineFrame
+*
+frame
+)
+;
+bool
 StrictEvalPrologue
 (
 JSContext

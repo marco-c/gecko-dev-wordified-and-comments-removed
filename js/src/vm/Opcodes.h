@@ -3576,12 +3576,13 @@ JOF_BYTE
 )
 \
 \
+\
 macro
 (
-JSOP_UNUSED208
+JSOP_DEBUGAFTERYIELD
 208
 "
-unused208
+debugafteryield
 "
 NULL
 1
