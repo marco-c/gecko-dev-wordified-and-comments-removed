@@ -608,7 +608,7 @@ state
 unsigned
 long
 long
-mozPriority
+priority
 ;
 boolean
 readable
