@@ -45,6 +45,15 @@ aSample
 )
 ;
 static
+void
+ConvertSampleToAVCC
+(
+MP4Sample
+*
+aSample
+)
+;
+static
 already_AddRefed
 <
 ByteBuffer

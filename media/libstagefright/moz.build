@@ -538,6 +538,17 @@ include
 /
 mp4_demuxer
 /
+ByteWriter
+.
+h
+'
+'
+binding
+/
+include
+/
+mp4_demuxer
+/
 DecoderData
 .
 h
