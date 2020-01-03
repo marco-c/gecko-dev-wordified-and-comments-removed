@@ -160,6 +160,10 @@ NS_FORWARD_SAFE_NSIMESSAGEMANAGERGLOBAL
 (
 mMessageManager
 )
+NS_FORWARD_SAFE_NSICONTENTPROCESSMESSAGEMANAGER
+(
+mMessageManager
+)
 virtual
 void
 LoadScript
@@ -244,6 +248,16 @@ bindings
 )
 ;
 }
+void
+SetInitialProcessData
+(
+JS
+:
+:
+HandleValue
+aInitialData
+)
+;
 protected
 :
 virtual
