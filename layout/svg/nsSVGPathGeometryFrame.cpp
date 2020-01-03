@@ -761,15 +761,13 @@ mStrokeLinecap
 element
 -
 >
-Tag
+IsSVGElement
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 path
+)
 )
 {
 element
