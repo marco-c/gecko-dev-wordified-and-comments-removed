@@ -3456,9 +3456,6 @@ File
 >
 mFiles
 ;
-nsString
-mFirstFilePath
-;
 nsRefPtr
 <
 FileList
