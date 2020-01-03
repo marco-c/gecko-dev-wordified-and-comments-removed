@@ -355,6 +355,9 @@ this
 props
 .
 sdk
+isDesktop
+:
+true
 conversationAppStore
 :
 this

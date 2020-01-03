@@ -728,6 +728,13 @@ notifications
 sdk
 :
 {
+on
+:
+sandbox
+.
+stub
+(
+)
 }
 dispatcher
 :

@@ -485,6 +485,11 @@ props
 .
 sdk
 }
+isDesktop
+=
+{
+true
+}
 conversationAppStore
 =
 {
