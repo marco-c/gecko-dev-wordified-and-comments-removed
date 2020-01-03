@@ -120,6 +120,16 @@ nsIIccService
 .
 idl
 '
+'
+nsIStkCmdFactory
+.
+idl
+'
+'
+nsIStkProactiveCmd
+.
+idl
+'
 ]
 if
 CONFIG
