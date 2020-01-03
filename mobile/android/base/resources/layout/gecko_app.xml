@@ -504,7 +504,7 @@ match_parent
 FrameLayout
 >
 <
-LinearLayout
+View
 android
 :
 id
@@ -558,13 +558,6 @@ layerType
 =
 "
 hardware
-"
-android
-:
-orientation
-=
-"
-horizontal
 "
 /
 >
