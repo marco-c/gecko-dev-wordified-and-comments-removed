@@ -706,6 +706,13 @@ RestyleManager
 *
 mRestyleManager
 ;
+AutoRestore
+<
+ReframingStyleContexts
+*
+>
+mRestorePointer
+;
 ReframingStyleContextTable
 mElementContexts
 ;
