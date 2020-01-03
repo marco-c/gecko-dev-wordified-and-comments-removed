@@ -3416,6 +3416,12 @@ used
 /
 >
 <
+/
+sharedViews
+.
+MediaLayoutView
+>
+<
 sharedViews
 .
 ConversationToolbar
@@ -3518,12 +3524,6 @@ _roomIsActive
 }
 }
 /
->
-<
-/
-sharedViews
-.
-MediaLayoutView
 >
 <
 loop
