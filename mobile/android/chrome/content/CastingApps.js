@@ -1019,13 +1019,6 @@ bind
 (
 this
 )
-parent
-:
-NativeWindow
-.
-menu
-.
-toolsMenuID
 }
 )
 ;
