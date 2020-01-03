@@ -1671,7 +1671,7 @@ masm
 ma_addu
 (
 realFramePtr
-StackPointer
+framePtr
 Imm32
 (
 sizeof
