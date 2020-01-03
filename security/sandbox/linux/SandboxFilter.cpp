@@ -592,6 +592,9 @@ __NR_write
 case
 __NR_read
 :
+case
+__NR_writev
+:
 return
 Allow
 (
