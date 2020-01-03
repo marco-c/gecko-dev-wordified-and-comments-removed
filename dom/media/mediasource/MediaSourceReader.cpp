@@ -4406,13 +4406,16 @@ maxDuration
 }
 if
 (
-maxDuration
 !
+maxDuration
+)
+{
+maxDuration
 =
 -
 1
-)
-{
+;
+}
 static_cast
 <
 MediaSourceDecoder
@@ -4428,7 +4431,6 @@ SetDecodedDuration
 maxDuration
 )
 ;
-}
 *
 aInfo
 =
