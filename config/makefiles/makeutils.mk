@@ -1687,6 +1687,14 @@ loader
 #
 #
 #
+ifdef
+MOZILLA_DIR
+topORerr
+=
+(
+MOZILLA_DIR
+)
+else
 topORerr
 =
 (
@@ -1705,6 +1713,7 @@ not
 defined
 )
 )
+endif
 ifdef
 USE_AUTOTARGETS_MK
 #
