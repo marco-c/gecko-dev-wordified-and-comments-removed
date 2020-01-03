@@ -8,6 +8,7 @@ newGlobal
 var
 array
 =
+new
 global
 .
 Int8Array
