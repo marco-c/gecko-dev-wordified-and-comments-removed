@@ -650,7 +650,6 @@ hasChild
 :
 function
 (
-resource
 name
 )
 {
@@ -659,7 +658,7 @@ for
 let
 child
 of
-resource
+this
 .
 children
 )

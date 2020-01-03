@@ -201,11 +201,10 @@ resource
 }
 if
 (
-resource
+parent
 .
 hasChild
 (
-parent
 name
 )
 )
@@ -418,11 +417,10 @@ i
 }
 while
 (
-resource
+parent
 .
 hasChild
 (
-parent
 name
 )
 )
