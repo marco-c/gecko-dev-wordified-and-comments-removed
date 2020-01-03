@@ -416,6 +416,9 @@ CompositableForwarder
 class
 SurfaceDescriptor
 ;
+class
+GrallocImage
+;
 struct
 ImageBackendData
 {
@@ -612,6 +615,17 @@ GetAsSourceSurface
 =
 0
 ;
+virtual
+GrallocImage
+*
+AsGrallocImage
+(
+)
+{
+return
+nullptr
+;
+}
 protected
 :
 Image
