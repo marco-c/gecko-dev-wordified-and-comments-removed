@@ -281,6 +281,11 @@ bailoutInfo
 =
 nullptr
 ;
+bool
+poppedLastSPSFrame
+=
+false
+;
 uint32_t
 retval
 =
@@ -295,6 +300,9 @@ activation
 iter
 false
 bailoutInfo
+nullptr
+&
+poppedLastSPSFrame
 )
 ;
 MOZ_ASSERT
@@ -366,6 +374,10 @@ bailoutKind
 =
 Bailout_ArgumentCheck
 )
+&
+&
+!
+poppedLastSPSFrame
 ;
 JSScript
 *
@@ -550,6 +562,11 @@ bailoutInfo
 =
 nullptr
 ;
+bool
+poppedLastSPSFrame
+=
+false
+;
 uint32_t
 retval
 =
@@ -564,6 +581,9 @@ activation
 iter
 true
 bailoutInfo
+nullptr
+&
+poppedLastSPSFrame
 )
 ;
 MOZ_ASSERT
@@ -635,6 +655,10 @@ bailoutKind
 =
 Bailout_ArgumentCheck
 )
+&
+&
+!
+poppedLastSPSFrame
 ;
 JSScript
 *
@@ -1043,6 +1067,11 @@ bailoutInfo
 =
 nullptr
 ;
+bool
+poppedLastSPSFrame
+=
+false
+;
 uint32_t
 retval
 =
@@ -1060,6 +1089,8 @@ true
 bailoutInfo
 &
 excInfo
+&
+poppedLastSPSFrame
 )
 ;
 if
