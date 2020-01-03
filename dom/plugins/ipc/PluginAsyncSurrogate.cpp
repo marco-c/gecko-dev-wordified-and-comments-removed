@@ -2837,6 +2837,16 @@ realObject
 >
 parent
 ;
+if
+(
+!
+actor
+)
+{
+return
+false
+;
+}
 bool
 success
 =
