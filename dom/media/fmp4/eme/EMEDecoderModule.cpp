@@ -804,7 +804,7 @@ MediaDataDecoder
 EMEDecoderModule
 :
 :
-CreateH264Decoder
+CreateVideoDecoder
 (
 const
 VideoDecoderConfig
@@ -876,7 +876,7 @@ decoder
 mPDM
 -
 >
-CreateH264Decoder
+CreateVideoDecoder
 (
 aConfig
 aLayersBackend

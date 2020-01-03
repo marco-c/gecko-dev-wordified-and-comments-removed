@@ -145,7 +145,7 @@ already_AddRefed
 <
 MediaDataDecoder
 >
-CreateH264Decoder
+CreateVideoDecoder
 (
 const
 mp4_demuxer
@@ -202,6 +202,16 @@ aCallback
 virtual
 bool
 SupportsAudioMimeType
+(
+const
+char
+*
+aMimeType
+)
+;
+virtual
+bool
+SupportsVideoMimeType
 (
 const
 char

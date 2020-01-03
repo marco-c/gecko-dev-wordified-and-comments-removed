@@ -258,7 +258,7 @@ MediaDataDecoder
 SharedDecoderManager
 :
 :
-CreateH264Decoder
+CreateVideoDecoder
 (
 const
 mp4_demuxer
@@ -311,7 +311,7 @@ mDecoder
 platform
 -
 >
-CreateH264Decoder
+CreateVideoDecoder
 (
 aConfig
 aLayersBackend
