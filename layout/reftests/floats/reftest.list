@@ -1051,7 +1051,6 @@ vlr
 ref
 .
 html
-fails
 =
 =
 float
@@ -1078,9 +1077,6 @@ vlr
 ref
 .
 html
-#
-bug
-1122253
 fails
 =
 =
@@ -1503,7 +1499,6 @@ vrl
 ref
 .
 html
-fails
 =
 =
 float
@@ -1530,9 +1525,6 @@ vrl
 ref
 .
 html
-#
-bug
-1122253
 fails
 =
 =
