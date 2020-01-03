@@ -301,13 +301,6 @@ h
 #
 include
 "
-TiledLayerBuffer
-.
-h
-"
-#
-include
-"
 HeapCopyOfStackArray
 .
 h

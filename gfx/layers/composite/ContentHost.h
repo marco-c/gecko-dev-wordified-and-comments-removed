@@ -251,9 +251,6 @@ Compositor
 class
 ThebesBufferData
 ;
-class
-TiledLayerComposer
-;
 struct
 EffectChain
 ;
@@ -268,17 +265,6 @@ CompositableHost
 {
 public
 :
-virtual
-TiledLayerComposer
-*
-AsTiledLayerComposer
-(
-)
-{
-return
-nullptr
-;
-}
 virtual
 bool
 UpdateThebes

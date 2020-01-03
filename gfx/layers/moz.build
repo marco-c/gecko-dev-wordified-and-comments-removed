@@ -857,6 +857,13 @@ TextureHost
 h
 '
 '
+composite
+/
+TiledContentHost
+.
+h
+'
+'
 Compositor
 .
 h

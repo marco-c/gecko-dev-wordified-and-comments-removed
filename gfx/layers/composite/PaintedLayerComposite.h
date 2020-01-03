@@ -96,9 +96,6 @@ class
 ContentHost
 ;
 class
-TiledLayerComposer
-;
-class
 PaintedLayerComposite
 :
 public
@@ -169,14 +166,6 @@ SetLayerManager
 LayerManagerComposite
 *
 aManager
-)
-override
-;
-virtual
-TiledLayerComposer
-*
-GetTiledLayerComposer
-(
 )
 override
 ;

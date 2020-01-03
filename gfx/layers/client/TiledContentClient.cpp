@@ -6403,10 +6403,6 @@ i
 tile
 ;
 }
-mTiles
-=
-newTiles
-;
 PostValidate
 (
 aPaintRegion
@@ -6441,6 +6437,10 @@ i
 )
 ;
 }
+mTiles
+=
+newTiles
+;
 mValidRegion
 =
 newValidRegion
