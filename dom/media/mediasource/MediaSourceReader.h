@@ -291,6 +291,7 @@ bool
 IsMediaSeekable
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -403,6 +404,7 @@ void
 BreakCycles
 (
 )
+MOZ_OVERRIDE
 ;
 bool
 IsShutdown

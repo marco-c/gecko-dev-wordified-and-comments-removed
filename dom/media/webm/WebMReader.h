@@ -525,18 +525,21 @@ MediaDecoderReader
 *
 aCloneDonor
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
 ResetDecode
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 DecodeAudioData
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -548,12 +551,14 @@ aKeyframeSkip
 int64_t
 aTimeThreshold
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 HasAudio
 (
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -582,6 +587,7 @@ bool
 HasVideo
 (
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -617,6 +623,7 @@ MetadataTags
 *
 aTags
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRefPtr
@@ -647,6 +654,7 @@ TimeRanges
 *
 aBuffered
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -661,6 +669,7 @@ aLength
 int64_t
 aOffset
 )
+MOZ_OVERRIDE
 ;
 virtual
 int64_t
@@ -669,6 +678,7 @@ GetEvictionOffset
 double
 aTime
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

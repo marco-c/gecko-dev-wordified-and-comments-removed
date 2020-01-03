@@ -1057,6 +1057,7 @@ bool
 IsTransportSeekable
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1352,6 +1353,7 @@ MetadataTags
 >
 aTags
 )
+MOZ_OVERRIDE
 ;
 int64_t
 GetSeekTime
@@ -1414,6 +1416,7 @@ MetadataTags
 >
 aTags
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1425,6 +1428,7 @@ MediaInfo
 >
 aInfo
 )
+MOZ_OVERRIDE
 ;
 void
 ConstructMediaTracks

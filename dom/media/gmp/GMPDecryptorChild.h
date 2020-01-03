@@ -451,6 +451,7 @@ GMPDecryptionData
 &
 aMetadata
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

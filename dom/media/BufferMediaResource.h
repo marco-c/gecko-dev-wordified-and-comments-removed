@@ -110,6 +110,7 @@ nsresult
 Close
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -122,6 +123,7 @@ Suspend
 bool
 aCloseImmediately
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -129,6 +131,7 @@ void
 Resume
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -139,6 +142,7 @@ nsIPrincipal
 GetCurrentPrincipal
 (
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <
@@ -161,6 +165,7 @@ bool
 CanClone
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -177,6 +182,7 @@ MediaDecoder
 *
 aDecoder
 )
+MOZ_OVERRIDE
 {
 return
 nullptr
@@ -192,6 +198,7 @@ MediaCacheStream
 ReadMode
 aMode
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -201,6 +208,7 @@ SetPlaybackRate
 uint32_t
 aBytesPerSecond
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -216,6 +224,7 @@ uint32_t
 *
 aBytes
 )
+MOZ_OVERRIDE
 {
 *
 aBytes
@@ -274,6 +283,7 @@ uint32_t
 *
 aBytes
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
@@ -315,6 +325,7 @@ aWhence
 int64_t
 aOffset
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -432,24 +443,11 @@ NS_OK
 ;
 }
 virtual
-void
-StartSeekingForMetadata
-(
-)
-{
-}
-virtual
-void
-EndSeekingForMetadata
-(
-)
-{
-}
-virtual
 int64_t
 Tell
 (
 )
+MOZ_OVERRIDE
 {
 return
 mOffset
@@ -460,6 +458,7 @@ void
 Pin
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -467,6 +466,7 @@ void
 Unpin
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -477,6 +477,7 @@ bool
 *
 aIsReliable
 )
+MOZ_OVERRIDE
 {
 *
 aIsReliable
@@ -493,6 +494,7 @@ int64_t
 GetLength
 (
 )
+MOZ_OVERRIDE
 {
 return
 mLength
@@ -505,6 +507,7 @@ GetNextCachedData
 int64_t
 aOffset
 )
+MOZ_OVERRIDE
 {
 return
 aOffset
@@ -517,6 +520,7 @@ GetCachedDataEnd
 int64_t
 aOffset
 )
+MOZ_OVERRIDE
 {
 return
 mLength
@@ -529,6 +533,7 @@ IsDataCachedToEndOfResource
 int64_t
 aOffset
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -539,6 +544,7 @@ bool
 IsSuspendedByCache
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -549,6 +555,7 @@ bool
 IsSuspended
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -566,6 +573,7 @@ aOffset
 uint32_t
 aCount
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -620,6 +628,7 @@ nsIStreamListener
 *
 aStreamListener
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_FAILURE
@@ -636,6 +645,7 @@ MediaByteRange
 &
 aRanges
 )
+MOZ_OVERRIDE
 {
 aRanges
 .

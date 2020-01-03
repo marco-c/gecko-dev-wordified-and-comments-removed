@@ -65,6 +65,7 @@ VideoStreamTrack
 AsVideoStreamTrack
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -78,6 +79,7 @@ nsAString
 &
 aKind
 )
+MOZ_OVERRIDE
 {
 aKind
 .

@@ -570,10 +570,12 @@ friend
 class
 MediaStreamGraphInitThreadRunnable
 ;
+virtual
 uint32_t
 IterationDuration
 (
 )
+MOZ_OVERRIDE
 {
 return
 MEDIA_GRAPH_TARGET_PERIOD_MS
@@ -745,6 +747,7 @@ OfflineClockDriver
 AsOfflineClockDriver
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -920,10 +923,12 @@ cubeb_state
 aState
 )
 ;
+virtual
 uint32_t
 IterationDuration
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -949,6 +954,7 @@ AudioCallbackDriver
 AsAudioCallbackDriver
 (
 )
+MOZ_OVERRIDE
 {
 return
 this

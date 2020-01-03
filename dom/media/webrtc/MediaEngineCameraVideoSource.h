@@ -180,6 +180,7 @@ MediaSourceType
 GetMediaSource
 (
 )
+MOZ_OVERRIDE
 {
 return
 MediaSourceType

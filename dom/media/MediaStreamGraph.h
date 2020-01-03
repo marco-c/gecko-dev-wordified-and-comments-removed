@@ -1686,6 +1686,7 @@ SourceMediaStream
 AsSourceStream
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -1696,6 +1697,7 @@ void
 DestroyImpl
 (
 )
+MOZ_OVERRIDE
 ;
 void
 SetPullEnabled
@@ -2508,6 +2510,7 @@ ProcessedMediaStream
 AsProcessedStream
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -2578,6 +2581,7 @@ void
 DestroyImpl
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {
