@@ -259,6 +259,15 @@ Shutdown
 (
 )
 ;
+void
+FireStateChangeEvent
+(
+uint64_t
+aState
+bool
+aEnabled
+)
+;
 }
 ;
 #
