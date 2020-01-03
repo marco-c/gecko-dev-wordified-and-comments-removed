@@ -162,7 +162,7 @@ SSLVersionRange
 versions_defaults_stream
 =
 {
-SSL_LIBRARY_VERSION_3_0
+SSL_LIBRARY_VERSION_TLS_1_0
 SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;

@@ -3243,9 +3243,11 @@ created
 .
 if
 [
+"
 {
 NSS_BUILD_SOFTOKEN_ONLY
 }
+"
 =
 "
 1

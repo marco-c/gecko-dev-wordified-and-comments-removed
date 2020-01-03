@@ -2202,6 +2202,9 @@ key_size_limit
 PRBool
 tls_keygen
 ;
+PRBool
+ephemeral
+;
 }
 ssl3KEADef
 ;
