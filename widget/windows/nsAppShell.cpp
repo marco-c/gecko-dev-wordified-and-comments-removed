@@ -160,6 +160,7 @@ widget
 ;
 class
 WinWakeLockListener
+MOZ_FINAL
 :
 public
 nsIDOMMozWakeLockListener

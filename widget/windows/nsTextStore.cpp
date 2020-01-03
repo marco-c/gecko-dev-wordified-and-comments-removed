@@ -5588,11 +5588,6 @@ nsTextStore
 (
 )
 :
-mLockedContent
-(
-mComposition
-mSelection
-)
 mEditCookie
 (
 0
@@ -5608,6 +5603,11 @@ mLock
 mLockQueued
 (
 0
+)
+mLockedContent
+(
+mComposition
+mSelection
 )
 mRequestedAttrValues
 (

@@ -382,6 +382,12 @@ return
 mIsTopWidgetWindow
 ;
 }
+using
+nsWindowBase
+:
+:
+DispatchPluginEvent
+;
 NS_IMETHOD
 Create
 (
