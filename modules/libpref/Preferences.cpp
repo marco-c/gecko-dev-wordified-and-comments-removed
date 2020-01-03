@@ -1168,10 +1168,6 @@ sPreferences
 if
 (
 gHashTable
-.
-IsInitialized
-(
-)
 )
 {
 n
@@ -1179,7 +1175,6 @@ n
 =
 PL_DHashTableSizeOfExcludingThis
 (
-&
 gHashTable
 nullptr
 aMallocSizeOf
@@ -3309,7 +3304,8 @@ aPrefs
 SetCapacity
 (
 gHashTable
-.
+-
+>
 Capacity
 (
 )
@@ -3317,7 +3313,6 @@ Capacity
 ;
 PL_DHashTableEnumerate
 (
-&
 gHashTable
 pref_GetPrefs
 aPrefs
@@ -4191,10 +4186,6 @@ if
 (
 !
 gHashTable
-.
-IsInitialized
-(
-)
 )
 return
 NS_ERROR_NOT_INITIALIZED
@@ -4257,7 +4248,8 @@ char
 *
 [
 gHashTable
-.
+-
+>
 EntryCount
 (
 )
@@ -4269,7 +4261,8 @@ memset
 valueArray
 0
 gHashTable
-.
+-
+>
 EntryCount
 (
 )
@@ -4298,7 +4291,6 @@ SAVE_ALL
 ;
 PL_DHashTableEnumerate
 (
-&
 gHashTable
 pref_savePref
 &
@@ -4309,7 +4301,8 @@ NS_QuickSort
 (
 valueArray
 gHashTable
-.
+-
+>
 EntryCount
 (
 )
@@ -4355,7 +4348,8 @@ valueIdx
 valueIdx
 <
 gHashTable
-.
+-
+>
 EntryCount
 (
 )
