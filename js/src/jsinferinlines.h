@@ -443,9 +443,9 @@ false
 ;
 }
 inline
-ObjectGroupKey
+TypeSetObjectKey
 *
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 get
@@ -471,7 +471,7 @@ isSingleton
 )
 return
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 )
 (
@@ -485,7 +485,7 @@ obj
 ;
 return
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 )
 obj
@@ -497,9 +497,9 @@ group
 ;
 }
 inline
-ObjectGroupKey
+TypeSetObjectKey
 *
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 get
@@ -525,7 +525,7 @@ singleton
 )
 return
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 )
 (
@@ -544,7 +544,7 @@ singleton
 ;
 return
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 )
 group
@@ -553,7 +553,7 @@ group
 inline
 ObjectGroup
 *
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 groupNoBarrier
@@ -578,7 +578,7 @@ this
 inline
 JSObject
 *
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 singletonNoBarrier
@@ -611,7 +611,7 @@ this
 inline
 ObjectGroup
 *
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 group
@@ -641,7 +641,7 @@ res
 inline
 JSObject
 *
-ObjectGroupKey
+TypeSetObjectKey
 :
 :
 singleton
@@ -769,7 +769,7 @@ Type
 :
 ObjectType
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 obj
 )
@@ -5000,7 +5000,7 @@ nullptr
 ;
 }
 inline
-ObjectGroupKey
+TypeSetObjectKey
 *
 Type
 :
@@ -5019,7 +5019,7 @@ isObject
 ;
 return
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 )
 data
@@ -5208,10 +5208,10 @@ TYPE_FLAG_ANYOBJECT
 |
 HashSetLookup
 <
-ObjectGroupKey
+TypeSetObjectKey
 *
-ObjectGroupKey
-ObjectGroupKey
+TypeSetObjectKey
+TypeSetObjectKey
 >
 (
 objectSet
@@ -5466,7 +5466,7 @@ count
 ;
 }
 inline
-ObjectGroupKey
+TypeSetObjectKey
 *
 TypeSet
 :
@@ -5507,7 +5507,7 @@ i
 ;
 return
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 )
 objectSet
@@ -5533,7 +5533,7 @@ i
 )
 const
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -5578,7 +5578,7 @@ i
 )
 const
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -5623,7 +5623,7 @@ i
 )
 const
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =
@@ -5668,7 +5668,7 @@ i
 )
 const
 {
-ObjectGroupKey
+TypeSetObjectKey
 *
 key
 =

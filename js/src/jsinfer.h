@@ -694,7 +694,7 @@ class
 TypeSet
 ;
 struct
-ObjectGroupKey
+TypeSetObjectKey
 ;
 class
 Type
@@ -882,7 +882,7 @@ JSVAL_TYPE_UNKNOWN
 ;
 }
 inline
-ObjectGroupKey
+TypeSetObjectKey
 *
 objectKey
 (
@@ -1180,7 +1180,7 @@ ObjectType
 (
 ObjectGroup
 *
-obj
+group
 )
 ;
 static
@@ -1188,9 +1188,9 @@ inline
 Type
 ObjectType
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
-obj
+key
 )
 ;
 static
@@ -1500,7 +1500,7 @@ protected
 TypeFlags
 flags
 ;
-ObjectGroupKey
+TypeSetObjectKey
 *
 *
 objectSet
@@ -1774,7 +1774,7 @@ getObjectCount
 const
 ;
 inline
-ObjectGroupKey
+TypeSetObjectKey
 *
 getObject
 (
@@ -2274,7 +2274,7 @@ TemporaryTypeSet
 (
 uint32_t
 flags
-ObjectGroupKey
+TypeSetObjectKey
 *
 *
 objectSet
@@ -4834,13 +4834,13 @@ class
 HeapTypeSetKey
 ;
 struct
-ObjectGroupKey
+TypeSetObjectKey
 {
 static
 intptr_t
 keyBits
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 obj
 )
@@ -4853,11 +4853,11 @@ obj
 ;
 }
 static
-ObjectGroupKey
+TypeSetObjectKey
 *
 getKey
 (
-ObjectGroupKey
+TypeSetObjectKey
 *
 obj
 )
@@ -4868,7 +4868,7 @@ obj
 }
 static
 inline
-ObjectGroupKey
+TypeSetObjectKey
 *
 get
 (
@@ -4879,7 +4879,7 @@ obj
 ;
 static
 inline
-ObjectGroupKey
+TypeSetObjectKey
 *
 get
 (
@@ -5051,9 +5051,9 @@ HeapTypeSetKey
 {
 friend
 struct
-ObjectGroupKey
+TypeSetObjectKey
 ;
-ObjectGroupKey
+TypeSetObjectKey
 *
 object_
 ;
@@ -5084,7 +5084,7 @@ nullptr
 )
 {
 }
-ObjectGroupKey
+TypeSetObjectKey
 *
 object
 (
