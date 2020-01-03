@@ -180,10 +180,6 @@ MOZ_PKG_PLATFORM
 :
 =
 win64
--
-(
-TARGET_CPU
-)
 else
 MOZ_PKG_PLATFORM
 :
