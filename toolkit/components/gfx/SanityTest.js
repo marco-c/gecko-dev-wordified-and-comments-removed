@@ -1343,8 +1343,7 @@ Preferences
 get
 (
 pref
-"
-"
+undefined
 )
 ;
 if
@@ -1361,11 +1360,11 @@ true
 }
 if
 (
-value
+prefValue
 =
 =
-"
-"
+=
+undefined
 )
 {
 reportTestReason
