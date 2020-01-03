@@ -9413,6 +9413,13 @@ thread
 "
 )
 ;
+if
+(
+!
+mInitialized
+)
+return
+;
 ReentrantMonitorAutoEnter
 mon
 (
