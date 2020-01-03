@@ -10340,7 +10340,7 @@ macos
 .
 content
 .
-moreStrict
+level
 "
 1
 )
