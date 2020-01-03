@@ -16173,3 +16173,15 @@ enabled
 false
 )
 ;
+pref
+(
+"
+browser
+.
+readinglist
+.
+enabled
+"
+false
+)
+;
