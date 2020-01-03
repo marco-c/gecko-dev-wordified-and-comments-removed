@@ -629,17 +629,6 @@ nsIAccessibleEvent
 EVENT_HIDE
 ;
 }
-Accessible
-*
-Parent
-(
-)
-const
-{
-return
-mParent
-;
-}
 protected
 :
 nsCOMPtr
