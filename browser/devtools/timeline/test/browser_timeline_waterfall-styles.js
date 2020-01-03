@@ -187,6 +187,8 @@ require
 "
 devtools
 /
+shared
+/
 timeline
 /
 global

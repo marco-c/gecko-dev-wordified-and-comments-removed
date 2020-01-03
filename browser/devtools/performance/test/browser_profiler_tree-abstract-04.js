@@ -52,15 +52,8 @@ jsm
 }
 )
 ;
-let
-test
-=
-Task
-.
-async
-(
 function
-*
+spawnTest
 (
 )
 {
@@ -203,8 +196,6 @@ finish
 )
 ;
 }
-)
-;
 function
 MyCustomTreeItem
 (

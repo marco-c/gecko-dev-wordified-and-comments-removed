@@ -1,7 +1,5 @@
-add_task
-(
 function
-*
+spawnTest
 (
 )
 {
@@ -16,6 +14,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 timeline
 /
@@ -164,5 +164,3 @@ key
 ;
 }
 }
-)
-;

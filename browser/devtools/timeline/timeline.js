@@ -160,6 +160,8 @@ MarkersOverview
 "
 devtools
 /
+shared
+/
 timeline
 /
 markers
@@ -179,6 +181,8 @@ MemoryOverview
 "
 "
 devtools
+/
+shared
 /
 timeline
 /
@@ -200,6 +204,8 @@ Waterfall
 "
 devtools
 /
+shared
+/
 timeline
 /
 waterfall
@@ -217,6 +223,8 @@ MarkerDetails
 "
 "
 devtools
+/
+shared
 /
 timeline
 /
@@ -237,6 +245,8 @@ TIMELINE_BLUEPRINT
 "
 "
 devtools
+/
+shared
 /
 timeline
 /

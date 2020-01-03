@@ -168,6 +168,8 @@ L10N
 "
 devtools
 /
+shared
+/
 profiler
 /
 global
@@ -185,6 +187,8 @@ CATEGORIES
 "
 "
 devtools
+/
+shared
 /
 profiler
 /
@@ -204,6 +208,8 @@ CATEGORY_MAPPINGS
 "
 devtools
 /
+shared
+/
 profiler
 /
 global
@@ -222,6 +228,8 @@ CATEGORY_OTHER
 "
 devtools
 /
+shared
+/
 profiler
 /
 global
@@ -239,6 +247,8 @@ ThreadNode
 "
 "
 devtools
+/
+shared
 /
 profiler
 /
@@ -259,6 +269,8 @@ CallView
 "
 "
 devtools
+/
+shared
 /
 profiler
 /
