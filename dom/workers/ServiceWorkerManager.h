@@ -833,9 +833,6 @@ FinishFetch
 ServiceWorkerRegistrationInfo
 *
 aRegistration
-nsPIDOMWindow
-*
-aWindow
 )
 ;
 void
@@ -925,15 +922,12 @@ ServiceWorkerRegistrationInfo
 aRegistration
 )
 ;
-NS_IMETHOD
+nsresult
 Update
 (
 ServiceWorkerRegistrationInfo
 *
 aRegistration
-nsPIDOMWindow
-*
-aWindow
 )
 ;
 void

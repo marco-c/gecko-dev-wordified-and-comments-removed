@@ -748,8 +748,7 @@ void
 Update
 (
 )
-{
-}
+;
 already_AddRefed
 <
 Promise
