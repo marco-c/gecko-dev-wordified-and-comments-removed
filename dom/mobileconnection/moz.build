@@ -412,15 +412,6 @@ nsIMobileConnectionMessenger
 idl
 '
 ]
-if
-not
-CONFIG
-[
-'
-DISABLE_MOZ_RIL_GEOLOC
-'
-]
-:
 EXTRA_COMPONENTS
 +
 =
