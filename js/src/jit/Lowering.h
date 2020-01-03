@@ -1752,6 +1752,14 @@ ins
 )
 ;
 void
+visitProfilerStackOp
+(
+MProfilerStackOp
+*
+ins
+)
+;
+void
 visitIsCallable
 (
 MIsCallable

@@ -2186,6 +2186,14 @@ ins
 )
 ;
 void
+visitProfilerStackOp
+(
+LProfilerStackOp
+*
+lir
+)
+;
+void
 visitGetDOMProperty
 (
 LGetDOMProperty

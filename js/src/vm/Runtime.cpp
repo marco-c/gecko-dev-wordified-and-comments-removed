@@ -388,10 +388,6 @@ jitJSContext
 (
 nullptr
 )
-jitActivation
-(
-nullptr
-)
 jitStackLimit_
 (
 0xbad

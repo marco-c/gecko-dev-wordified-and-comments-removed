@@ -162,12 +162,6 @@ false
 spsPushToggleOffset_
 (
 )
-profilerEnterFrameToggleOffset_
-(
-)
-profilerExitFrameToggleOffset_
-(
-)
 traceLoggerEnterToggleOffset_
 (
 )

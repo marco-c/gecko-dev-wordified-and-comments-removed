@@ -1498,6 +1498,11 @@ InterruptCheckImplicit
 \
 _
 (
+ProfilerStackOp
+)
+\
+_
+(
 GetDOMProperty
 )
 \
