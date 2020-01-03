@@ -351,7 +351,6 @@ gz
 '
 tests
 :
-[
 '
 public
 /
@@ -363,18 +362,6 @@ tests
 .
 zip
 '
-'
-public
-/
-build
-/
-gaia
--
-tests
-.
-zip
-'
-]
 symbols
 :
 '
