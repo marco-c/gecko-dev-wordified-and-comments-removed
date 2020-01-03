@@ -150,6 +150,13 @@ h
 '
 ipc
 /
+IccIPCUtils
+.
+h
+'
+'
+ipc
+/
 IccParent
 .
 h
@@ -210,6 +217,13 @@ cpp
 ipc
 /
 IccIPCService
+.
+cpp
+'
+'
+ipc
+/
+IccIPCUtils
 .
 cpp
 '
