@@ -352,6 +352,14 @@ aResult
 )
 )
 {
+if
+(
+mDecryptor
+-
+>
+mCallback
+)
+{
 mDecryptor
 -
 >
@@ -362,6 +370,7 @@ Error
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -724,6 +733,10 @@ mTaskQueue
 nullptr
 ;
 mProxy
+=
+nullptr
+;
+mCallback
 =
 nullptr
 ;
