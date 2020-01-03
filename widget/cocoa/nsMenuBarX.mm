@@ -5116,6 +5116,7 @@ aTitle
 {
 if
 (
+(
 self
 =
 [
@@ -5124,6 +5125,7 @@ initWithTitle
 :
 aTitle
 ]
+)
 )
 {
 mMenuBarOwner
@@ -5160,6 +5162,7 @@ aMenuBarOwner
 {
 if
 (
+(
 self
 =
 [
@@ -5168,6 +5171,7 @@ initWithTitle
 :
 aTitle
 ]
+)
 )
 {
 mMenuBarOwner
@@ -5350,7 +5354,6 @@ _performActionWithHighlightingForItemAtIndex
 NSInteger
 )
 index
-;
 {
 NSMenu
 *

@@ -333,12 +333,14 @@ aProvider
 {
 if
 (
+(
 self
 =
 [
 super
 init
 ]
+)
 )
 {
 mProvider

@@ -20113,7 +20113,6 @@ fullScreenButtonPositionWithDefaultPosition
 NSPoint
 )
 aDefaultPosition
-;
 {
 if
 (
