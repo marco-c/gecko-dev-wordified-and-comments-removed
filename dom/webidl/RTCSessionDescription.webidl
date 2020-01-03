@@ -138,6 +138,9 @@ pranswer
 "
 answer
 "
+"
+rollback
+"
 }
 ;
 dictionary
@@ -153,7 +156,8 @@ DOMString
 ?
 sdp
 =
-null
+"
+"
 ;
 }
 ;

@@ -103,6 +103,7 @@ JsepSdpType
 kJsepSdpOffer
 kJsepSdpAnswer
 kJsepSdpPranswer
+kJsepSdpRollback
 }
 ;
 struct
