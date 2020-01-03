@@ -1235,15 +1235,7 @@ json_time_from_now
 now
 '
 :
-datetime
-.
-datetime
-.
-now
-(
-)
-.
-isoformat
+current_json_time
 (
 )
         
@@ -1934,15 +1926,7 @@ json_time_from_now
 now
 '
 :
-datetime
-.
-datetime
-.
-now
-(
-)
-.
-isoformat
+current_json_time
 (
 )
             
