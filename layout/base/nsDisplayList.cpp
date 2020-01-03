@@ -3035,6 +3035,10 @@ GetAnimationsForCompositor
 (
 content
 aProperty
+GetCompositorAnimationOptions
+:
+:
+NotifyActiveLayerTracker
 )
 ;
 AnimationPlayerCollection
@@ -3048,6 +3052,10 @@ GetAnimationsForCompositor
 (
 content
 aProperty
+GetCompositorAnimationOptions
+:
+:
+NotifyActiveLayerTracker
 )
 ;
 if
