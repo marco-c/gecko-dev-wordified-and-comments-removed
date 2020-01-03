@@ -6516,6 +6516,13 @@ liveRegs
 ;
 }
 void
+alignJitStackBasedOnNArgs
+(
+Register
+nargs
+)
+;
+void
 assertStackAlignment
 (
 uint32_t
