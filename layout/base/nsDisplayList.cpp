@@ -4732,9 +4732,6 @@ LayoutDeviceToLayerScale
 aContainerParameters
 .
 mXScale
-aContainerParameters
-.
-mYScale
 )
 )
 ;
