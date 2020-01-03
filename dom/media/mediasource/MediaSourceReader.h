@@ -585,6 +585,16 @@ aError
 )
 ;
 void
+DoAudioRequest
+(
+)
+;
+void
+DoVideoRequest
+(
+)
+;
+void
 RequestAudioDataComplete
 (
 int64_t
