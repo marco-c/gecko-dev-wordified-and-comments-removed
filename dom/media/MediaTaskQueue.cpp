@@ -770,9 +770,6 @@ IsCurrentThreadIn
 (
 )
 {
-#
-ifdef
-DEBUG
 MonitorAutoLock
 mon
 (
@@ -787,13 +784,6 @@ NS_GetCurrentThread
 =
 mRunningThread
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 nsresult
 MediaTaskQueue
