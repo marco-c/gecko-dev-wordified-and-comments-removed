@@ -21967,6 +21967,23 @@ s
 (
 aObject
 )
+\
+n
+"
+            
+"
+\
+"
+Multiple
+inheritance
+for
+%
+s
+is
+broken
+.
+\
+"
 )
 ;
 \
@@ -21975,6 +21992,9 @@ n
 %
             
 (
+desc
+.
+nativeType
 desc
 .
 nativeType
