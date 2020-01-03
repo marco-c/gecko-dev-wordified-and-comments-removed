@@ -2805,7 +2805,6 @@ lock
 void
 decommitArenas
 (
-const
 AutoLockGC
 &
 lock
@@ -2816,7 +2815,6 @@ expireChunksAndArenas
 (
 bool
 shouldShrink
-const
 AutoLockGC
 &
 lock

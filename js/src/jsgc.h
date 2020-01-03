@@ -3676,7 +3676,6 @@ array
 void
 doSweep
 (
-const
 AutoLockGC
 &
 lock

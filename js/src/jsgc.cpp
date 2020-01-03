@@ -8795,6 +8795,17 @@ nullptr
 ;
 MOZ_ASSERT
 (
+!
+maybeLock
+-
+>
+wasUnlocked
+(
+)
+)
+;
+MOZ_ASSERT
+(
 al
 .
 isCursorAtEnd
@@ -14925,12 +14936,6 @@ usedBytes
 thresholdBytes
 )
 {
-AutoUnlockGC
-unlock
-(
-rt
-)
-;
 triggerZoneGC
 (
 zone
@@ -14987,12 +14992,6 @@ zone
 gcDelayBytes
 )
 {
-AutoUnlockGC
-unlock
-(
-rt
-)
-;
 triggerZoneGC
 (
 zone
@@ -15534,7 +15533,6 @@ GCRuntime
 :
 decommitArenas
 (
-const
 AutoLockGC
 &
 lock
@@ -15719,7 +15717,7 @@ ok
 AutoUnlockGC
 unlock
 (
-rt
+lock
 )
 ;
 ok
@@ -15783,7 +15781,6 @@ expireChunksAndArenas
 (
 bool
 shouldShrink
-const
 AutoLockGC
 &
 lock
@@ -15819,7 +15816,7 @@ lock
 AutoUnlockGC
 unlock
 (
-rt
+lock
 )
 ;
 freeChunkList
@@ -16613,7 +16610,7 @@ chunk
 AutoUnlockGC
 unlock
 (
-runtime
+lock
 )
 ;
 chunk
@@ -16819,7 +16816,6 @@ GCHelperState
 :
 doSweep
 (
-const
 AutoLockGC
 &
 lock
@@ -16837,7 +16833,7 @@ false
 AutoUnlockGC
 unlock
 (
-rt
+lock
 )
 ;
 rt
