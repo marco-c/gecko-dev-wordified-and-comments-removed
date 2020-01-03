@@ -1526,6 +1526,11 @@ browser
 if
 (
 browserWin
+&
+&
+browserWin
+.
+BrowserViewSourceOfDocument
 )
 {
 return
