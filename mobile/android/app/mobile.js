@@ -7380,3 +7380,15 @@ compositor
 true
 )
 ;
+pref
+(
+"
+gfx
+.
+vsync
+.
+refreshdriver
+"
+true
+)
+;
