@@ -7570,6 +7570,8 @@ DispatchTrustedEvent
 aName
 )
 ;
+if
+(
 NS_WARN_IF
 (
 NS_FAILED
@@ -7577,7 +7579,9 @@ NS_FAILED
 rv
 )
 )
-;
+)
+{
+}
 }
 }
 }
