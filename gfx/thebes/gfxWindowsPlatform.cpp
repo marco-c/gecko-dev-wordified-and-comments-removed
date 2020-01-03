@@ -8642,7 +8642,7 @@ LayersD3D11DisableWARP
 GetModuleHandleA
 (
 "
-nvdxgiwrapper
+nvdxgiwrap
 .
 dll
 "
