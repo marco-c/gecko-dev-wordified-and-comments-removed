@@ -4059,7 +4059,7 @@ SetPredictedDataSize
 mResponseHead
 -
 >
-ContentLength
+TotalEntitySize
 (
 )
 )
@@ -4072,10 +4072,6 @@ NS_ERROR_FILE_TOO_BIG
 rv
 )
 {
-mCacheEntry
-=
-nullptr
-;
 LOG
 (
 (
@@ -4083,8 +4079,6 @@ LOG
 entry
 too
 big
-throwing
-away
 "
 )
 )
@@ -8817,6 +8811,8 @@ int64_t
 partialLen
 int64_t
 contentLength
+bool
+ignoreMissingPartialLen
 )
 {
 mIsPartialRequest
@@ -8830,6 +8826,7 @@ IsResumable
 (
 partialLen
 contentLength
+ignoreMissingPartialLen
 )
 )
 return
@@ -21928,6 +21925,7 @@ MaybeSetupByteRangeRequest
 (
 size
 contentLength
+true
 )
 ;
 if

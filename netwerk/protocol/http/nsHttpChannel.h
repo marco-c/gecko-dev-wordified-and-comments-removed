@@ -1358,6 +1358,10 @@ int64_t
 partialLen
 int64_t
 contentLength
+bool
+ignoreMissingPartialLen
+=
+false
 )
 ;
 nsresult
