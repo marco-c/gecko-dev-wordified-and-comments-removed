@@ -139,11 +139,6 @@ GeckoProfilerImpl
 h
 '
 '
-JSStreamWriter
-.
-h
-'
-'
 ProfilerMarkers
 .
 h
