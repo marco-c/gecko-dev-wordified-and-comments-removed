@@ -232,6 +232,7 @@ protected
 struct
 CapabilityCandidate
 {
+explicit
 CapabilityCandidate
 (
 uint8_t
