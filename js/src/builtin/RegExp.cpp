@@ -1219,7 +1219,7 @@ true
 }
 MOZ_ALWAYS_INLINE
 bool
-IsRegExp
+IsRegExpObject
 (
 HandleValue
 v
@@ -1260,7 +1260,7 @@ args
 {
 MOZ_ASSERT
 (
-IsRegExp
+IsRegExpObject
 (
 args
 .
@@ -1330,7 +1330,7 @@ vp
 return
 CallNonGenericMethod
 <
-IsRegExp
+IsRegExpObject
 regexp_compile_impl
 >
 (
@@ -1559,7 +1559,7 @@ args
 {
 MOZ_ASSERT
 (
-IsRegExp
+IsRegExpObject
 (
 args
 .
@@ -1645,7 +1645,7 @@ vp
 return
 CallNonGenericMethod
 <
-IsRegExp
+IsRegExpObject
 regexp_global_impl
 >
 (
@@ -1667,7 +1667,7 @@ args
 {
 MOZ_ASSERT
 (
-IsRegExp
+IsRegExpObject
 (
 args
 .
@@ -1753,7 +1753,7 @@ vp
 return
 CallNonGenericMethod
 <
-IsRegExp
+IsRegExpObject
 regexp_ignoreCase_impl
 >
 (
@@ -1775,7 +1775,7 @@ args
 {
 MOZ_ASSERT
 (
-IsRegExp
+IsRegExpObject
 (
 args
 .
@@ -1861,7 +1861,7 @@ vp
 return
 CallNonGenericMethod
 <
-IsRegExp
+IsRegExpObject
 regexp_multiline_impl
 >
 (
@@ -1883,7 +1883,7 @@ args
 {
 MOZ_ASSERT
 (
-IsRegExp
+IsRegExpObject
 (
 args
 .
@@ -2003,7 +2003,7 @@ vp
 return
 CallNonGenericMethod
 <
-IsRegExp
+IsRegExpObject
 regexp_source_impl
 >
 (
@@ -2025,7 +2025,7 @@ args
 {
 MOZ_ASSERT
 (
-IsRegExp
+IsRegExpObject
 (
 args
 .
@@ -2111,7 +2111,7 @@ vp
 return
 CallNonGenericMethod
 <
-IsRegExp
+IsRegExpObject
 regexp_sticky_impl
 >
 (
@@ -3741,7 +3741,7 @@ return
 CallNonGenericMethod
 (
 cx
-IsRegExp
+IsRegExpObject
 regexp_exec_impl
 args
 )
@@ -3845,7 +3845,7 @@ length
 ;
 MOZ_ASSERT
 (
-IsRegExp
+IsRegExpObject
 (
 args
 [
@@ -4028,7 +4028,7 @@ return
 CallNonGenericMethod
 (
 cx
-IsRegExp
+IsRegExpObject
 regexp_test_impl
 args
 )
@@ -4073,7 +4073,7 @@ length
 ;
 MOZ_ASSERT
 (
-IsRegExp
+IsRegExpObject
 (
 args
 [
