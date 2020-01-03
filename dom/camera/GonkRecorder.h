@@ -93,10 +93,6 @@ MOZ_EXPORT
 AudioSource
 ;
 class
-MOZ_EXPORT
-MediaProfiles
-;
-class
 GonkCameraHardware
 ;
 struct
