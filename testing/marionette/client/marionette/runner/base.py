@@ -213,6 +213,17 @@ b2g_pid
 '
 )
         
+logcat_stdout
+=
+kwargs
+.
+pop
+(
+'
+logcat_stdout
+'
+)
+        
 if
 pid
 :
@@ -268,6 +279,9 @@ self
 b2g_pid
 =
 pid
+logcat_stdout
+=
+logcat_stdout
 )
         
 StructuredTestResult
@@ -1351,6 +1365,19 @@ b2g_pid
 =
 None
         
+self
+.
+logcat_stdout
+=
+kwargs
+.
+pop
+(
+'
+logcat_stdout
+'
+)
+        
 if
 self
 .
@@ -1486,6 +1513,12 @@ logger
 self
 .
 logger
+                                
+logcat_stdout
+=
+self
+.
+logcat_stdout
 )
     
 def
@@ -1941,6 +1974,45 @@ store
 logcat
 dump
 files
+'
+)
+        
+self
+.
+add_option
+(
+'
+-
+-
+logcat
+-
+stdout
+'
+                        
+action
+=
+'
+store_true
+'
+                        
+dest
+=
+'
+logcat_stdout
+'
+                        
+default
+=
+False
+                        
+help
+=
+'
+dump
+adb
+logcat
+to
+stdout
 '
 )
         
@@ -3490,10 +3562,13 @@ False
 logdir
 =
 None
+logcat_stdout
+=
+False
+                 
 xml_output
 =
 None
-                 
 repeat
 =
 0
@@ -3649,6 +3724,12 @@ self
 logdir
 =
 logdir
+        
+self
+.
+logcat_stdout
+=
+logcat_stdout
         
 self
 .
@@ -6102,6 +6183,12 @@ capabilities
 self
 .
 capabilities
+                                          
+logcat_stdout
+=
+self
+.
+logcat_stdout
 )
             
 results
