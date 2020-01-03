@@ -246,7 +246,7 @@ mozilla
 ipc
 :
 :
-UnixSocketRawData
+UnixSocketBuffer
 >
 &
 aMessage

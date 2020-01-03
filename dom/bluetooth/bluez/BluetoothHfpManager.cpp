@@ -3096,7 +3096,7 @@ BluetoothSocket
 aSocket
 nsAutoPtr
 <
-UnixSocketRawData
+UnixSocketBuffer
 >
 &
 aMessage

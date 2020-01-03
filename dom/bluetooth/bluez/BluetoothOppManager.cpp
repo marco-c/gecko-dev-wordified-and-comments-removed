@@ -3293,7 +3293,7 @@ ComposePacket
 (
 uint8_t
 aOpCode
-UnixSocketRawData
+UnixSocketBuffer
 *
 aMessage
 )
@@ -3479,7 +3479,7 @@ BluetoothOppManager
 :
 ServerDataHandler
 (
-UnixSocketRawData
+UnixSocketBuffer
 *
 aMessage
 )
@@ -4019,7 +4019,7 @@ BluetoothOppManager
 :
 ClientDataHandler
 (
-UnixSocketRawData
+UnixSocketBuffer
 *
 aMessage
 )
@@ -4596,7 +4596,7 @@ BluetoothSocket
 aSocket
 nsAutoPtr
 <
-UnixSocketRawData
+UnixSocketBuffer
 >
 &
 aMessage
