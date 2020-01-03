@@ -207,8 +207,8 @@ aVolume
 override
 ;
 virtual
-double
-GetMediaTimeSecs
+int64_t
+GetMediaTimeUs
 (
 )
 override
@@ -357,11 +357,6 @@ dom
 WakeLock
 >
 mWakeLock
-;
-int64_t
-GetMediaTimeUs
-(
-)
 ;
 int64_t
 GetOutputPlayPositionUs_l
