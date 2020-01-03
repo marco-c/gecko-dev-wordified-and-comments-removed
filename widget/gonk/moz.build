@@ -169,6 +169,11 @@ EXPORTS
 =
 [
 '
+GeckoTouchDispatcher
+.
+h
+'
+'
 GonkPermission
 .
 h
