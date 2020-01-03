@@ -38162,7 +38162,6 @@ dispatchEvent
 event
 )
 ;
-}
 this
 .
 _selectedIndex
@@ -38346,6 +38345,7 @@ toTab
 }
 )
 ;
+}
 return
 val
 ;
