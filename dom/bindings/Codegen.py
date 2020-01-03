@@ -28386,17 +28386,20 @@ incrementNestingLevel
 )
 :
         
-return
-1
 if
 nestingLevel
 is
 "
 "
-else
-+
-+
+:
+            
+return
+1
+        
+return
 nestingLevel
++
+1
     
 assert
 not
