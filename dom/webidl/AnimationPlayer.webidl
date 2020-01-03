@@ -212,7 +212,6 @@ BinaryName
 startTimeAsDouble
 "
 ]
-readonly
 attribute
 double
 ?
