@@ -3606,6 +3606,11 @@ browser
 target
 .
 frameLoader
+&
+&
+target
+.
+permanentKey
 )
 {
 this
