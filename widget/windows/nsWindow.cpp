@@ -1041,16 +1041,6 @@ sTrimOnMinimize
 =
 2
 ;
-const
-char
-*
-nsWindow
-:
-:
-sDefaultMainWindowClass
-=
-kClassNameGeneral
-;
 TriStateBool
 nsWindow
 :
@@ -2050,7 +2040,7 @@ WS_CLIPSIBLINGS
 ;
 }
 }
-nsAutoString
+nsString
 className
 ;
 if
@@ -11117,7 +11107,7 @@ uint32_t
 aDataType
 )
 {
-nsAutoString
+nsString
 className
 ;
 switch
@@ -30178,9 +30168,9 @@ IsEmpty
 {
 aClass
 .
-AssignASCII
+AssignLiteral
 (
-sDefaultMainWindowClass
+kClassNameGeneral
 )
 ;
 }

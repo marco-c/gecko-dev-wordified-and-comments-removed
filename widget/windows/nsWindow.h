@@ -2473,12 +2473,6 @@ int
 sTrimOnMinimize
 ;
 static
-const
-char
-*
-sDefaultMainWindowClass
-;
-static
 TriStateBool
 sHasBogusPopupsDropShadowOnMultiMonitor
 ;
