@@ -142,10 +142,6 @@ Cancel
 (
 )
 ;
-ForceEnd
-(
-)
-;
 child
 :
 __delete__

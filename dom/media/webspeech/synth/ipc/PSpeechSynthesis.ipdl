@@ -140,9 +140,6 @@ lang
 bool
 localService
 ;
-bool
-queued
-;
 }
 ;
 sync
@@ -177,12 +174,6 @@ bool
 aIsDefault
 )
 ;
-IsSpeakingChanged
-(
-bool
-aIsSpeaking
-)
-;
 parent
 :
 __delete__
@@ -206,7 +197,7 @@ aPitch
 )
 ;
 sync
-ReadVoicesAndState
+ReadVoiceList
 (
 )
 returns
@@ -219,8 +210,6 @@ nsString
 [
 ]
 aDefaults
-bool
-aIsSpeaking
 )
 ;
 }
