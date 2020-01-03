@@ -3183,10 +3183,7 @@ has
 if
 (
 !
-JSObject
-:
-:
-hasProperty
+HasOwnProperty
 (
 cx
 obj
@@ -3209,8 +3206,12 @@ stderr
 "
 already
 has
+own
+property
+'
 %
 s
+'
 \
 n
 "
