@@ -1031,7 +1031,7 @@ nsString
 >
 types
 ;
-BT_APPEND_ENUM_STRING
+BT_APPEND_ENUM_STRING_FALLIBLE
 (
 types
 BluetoothManagerAttribute
