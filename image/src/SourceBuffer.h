@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_IMAGELIB_SOURCEBUFFER_H_
+mozilla_image_src_sourcebuffer_h
 #
 define
-MOZILLA_IMAGELIB_SOURCEBUFFER_H_
+mozilla_image_src_sourcebuffer_h
 #
 include
 "

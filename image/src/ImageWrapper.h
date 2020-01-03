@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_IMAGELIB_IMAGEWRAPPER_H_
+mozilla_image_src_ImageWrapper_h
 #
 define
-MOZILLA_IMAGELIB_IMAGEWRAPPER_H_
+mozilla_image_src_ImageWrapper_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_IMAGELIB_ORIENTATION_H_
+mozilla_image_src_Orientation_h
 #
 define
-MOZILLA_IMAGELIB_ORIENTATION_H_
+mozilla_image_src_Orientation_h
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_IMAGELIB_IMAGEURL_H_
+mozilla_image_src_ImageURL_h
 #
 define
-MOZILLA_IMAGELIB_IMAGEURL_H_
+mozilla_image_src_ImageURL_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_IMAGELIB_PROGRESSOBSERVER_H_
+mozilla_image_src_IProgressObserver_h
 #
 define
-MOZILLA_IMAGELIB_PROGRESSOBSERVER_H_
+mozilla_image_src_IProgressObserver_h
 #
 include
 "

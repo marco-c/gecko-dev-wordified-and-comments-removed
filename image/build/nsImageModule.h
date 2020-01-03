@@ -1,9 +1,9 @@
 #
 ifndef
-nsImageModule_h
+mozilla_image_build_nsImageModule_h
 #
 define
-nsImageModule_h
+mozilla_image_build_nsImageModule_h
 #
 include
 "
