@@ -42086,13 +42086,6 @@ get
 )
 )
 ;
-doc
--
->
-mHasHadScriptHandlingObject
-=
-hasHadScriptObject
-;
 if
 (
 !
@@ -42110,6 +42103,13 @@ GetScopeObject
 )
 ;
 }
+doc
+-
+>
+mHasHadScriptHandlingObject
+=
+hasHadScriptObject
+;
 doc
 -
 >
