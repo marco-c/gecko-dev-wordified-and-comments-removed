@@ -197,13 +197,6 @@ MOZ_ASSERT
 aWindow
 )
 ;
-MOZ_ASSERT
-(
-IsDOMBinding
-(
-)
-)
-;
 const
 InfallibleTArray
 <
