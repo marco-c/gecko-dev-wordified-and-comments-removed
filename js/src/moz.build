@@ -3540,6 +3540,15 @@ CXXFLAGS
 wd4805
 '
 ]
+CXXFLAGS
++
+=
+[
+'
+-
+we4067
+'
+]
 if
 CONFIG
 [

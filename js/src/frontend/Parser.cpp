@@ -12402,7 +12402,7 @@ else
 {
 #
 if
-not
+!
 JS_HAS_EXPR_CLOSURES
 MOZ_ASSERT
 (
