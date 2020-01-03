@@ -5837,13 +5837,13 @@ if
 (
 rule
 .
-selectorText
+domRule
+.
+type
 =
 =
 =
-"
-element
-"
+ELEMENT_STYLE
 )
 {
 let
