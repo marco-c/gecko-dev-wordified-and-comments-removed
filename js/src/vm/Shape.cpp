@@ -8007,6 +8007,17 @@ InitialShapeEntry
 p
 )
 ;
+if
+(
+entry
+.
+shape
+=
+=
+shape
+)
+return
+;
 #
 ifdef
 DEBUG
