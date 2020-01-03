@@ -673,6 +673,12 @@ fullscreenAllowed
 bool
 isPrivate
 ;
+float
+dpi
+;
+double
+defaultScale
+;
 }
 ;
 prio
