@@ -297,8 +297,8 @@ nsPluginInstanceOwner
 *
 aOwner
 const
-char
-*
+nsACString
+&
 aMIMEType
 )
 ;
