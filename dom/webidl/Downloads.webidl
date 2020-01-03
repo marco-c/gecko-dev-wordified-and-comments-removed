@@ -304,6 +304,9 @@ the
 finalized
 download
 .
+[
+UnsafeInPrerendering
+]
 Promise
 <
 DOMDownload
@@ -338,6 +341,9 @@ that
 were
 removed
 .
+[
+UnsafeInPrerendering
+]
 Promise
 <
 sequence
@@ -624,6 +630,9 @@ Pauses
 the
 download
 .
+[
+UnsafeInPrerendering
+]
 Promise
 <
 DOMDownload
@@ -649,6 +658,9 @@ has
 /
 succeeded
 .
+[
+UnsafeInPrerendering
+]
 Promise
 <
 DOMDownload
