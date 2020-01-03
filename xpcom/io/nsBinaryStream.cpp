@@ -1707,10 +1707,13 @@ NS_OK
 ;
 }
 struct
+MOZ_STACK_CLASS
 ReadSegmentsClosure
 {
+nsCOMPtr
+<
 nsIInputStream
-*
+>
 mRealInputStream
 ;
 void
