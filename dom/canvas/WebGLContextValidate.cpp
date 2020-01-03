@@ -7302,11 +7302,10 @@ MakeContextCurrent
 ;
 if
 (
-!
 gl
 -
 >
-IsGLES
+IsCompatibilityProfile
 (
 )
 )
@@ -7746,11 +7745,10 @@ mMaxFramebufferColorAttachments
 ;
 if
 (
-!
 gl
 -
 >
-IsGLES
+IsCompatibilityProfile
 (
 )
 )
