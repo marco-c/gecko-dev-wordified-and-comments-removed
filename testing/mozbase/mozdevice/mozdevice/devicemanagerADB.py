@@ -3829,7 +3829,7 @@ all
 "
 :
             
-utime
+uptime
 =
 self
 .
@@ -3843,10 +3843,8 @@ uptime
 )
             
 if
-(
 not
-utime
-)
+uptime
 :
                 
 raise
@@ -3902,15 +3900,14 @@ d
 }
 )
 "
-utime
+uptime
 )
             
-ret
-[
-"
+if
+m
+:
+                
 uptime
-"
-]
 =
 "
 %
@@ -3929,7 +3926,7 @@ seconds
 %
 tuple
 (
-                
+                    
 [
 int
 (
@@ -3951,6 +3948,15 @@ groups
 ]
 ]
 )
+            
+ret
+[
+"
+uptime
+"
+]
+=
+uptime
         
 if
 directive
