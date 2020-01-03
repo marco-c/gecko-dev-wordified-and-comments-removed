@@ -104,9 +104,6 @@ public
 :
 EGLImageTextureClient
 (
-ISurfaceAllocator
-*
-aAllocator
 TextureFlags
 aFlags
 EGLImageImage
@@ -293,9 +290,6 @@ public
 :
 SurfaceTextureClient
 (
-ISurfaceAllocator
-*
-aAllocator
 TextureFlags
 aFlags
 gl

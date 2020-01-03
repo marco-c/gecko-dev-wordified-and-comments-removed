@@ -87,9 +87,6 @@ public
 :
 TextureClientD3D11
 (
-ISurfaceAllocator
-*
-aAllocator
 gfx
 :
 :

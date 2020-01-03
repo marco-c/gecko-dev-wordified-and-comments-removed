@@ -141,12 +141,15 @@ aFlags
 :
 TextureClient
 (
-aAllocator
 aFlags
 )
 mFormat
 (
 aFormat
+)
+mAllocator
+(
+aAllocator
 )
 mLocked
 (

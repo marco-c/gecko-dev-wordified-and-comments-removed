@@ -27,9 +27,6 @@ DIBTextureClient
 :
 DIBTextureClient
 (
-ISurfaceAllocator
-*
-aAllocator
 gfx
 :
 :
@@ -41,7 +38,6 @@ aFlags
 :
 TextureClient
 (
-aAllocator
 aFlags
 )
 mFormat
@@ -98,7 +94,6 @@ tex
 new
 DIBTextureClient
 (
-mAllocator
 mFormat
 mFlags
 |
