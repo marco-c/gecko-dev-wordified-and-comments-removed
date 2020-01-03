@@ -334,6 +334,14 @@ MSimdSplatX4
 ins
 )
 ;
+bool
+visitSimdValueX4
+(
+MSimdValueX4
+*
+ins
+)
+;
 }
 ;
 }

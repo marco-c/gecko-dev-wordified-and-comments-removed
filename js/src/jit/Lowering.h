@@ -1952,14 +1952,6 @@ ins
 )
 ;
 bool
-visitSimdValueX4
-(
-MSimdValueX4
-*
-ins
-)
-;
-bool
 visitSimdConstant
 (
 MSimdConstant

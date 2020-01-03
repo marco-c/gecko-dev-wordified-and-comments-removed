@@ -73,6 +73,16 @@ AsmJSLoadFuncPtr
 \
 _
 (
+SimdValueInt32x4
+)
+\
+_
+(
+SimdValueFloat32x4
+)
+\
+_
+(
 UDivOrMod
 )
 #
