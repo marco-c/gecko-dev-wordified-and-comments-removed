@@ -113,6 +113,11 @@ restore_on_demand
 "
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 function
 crashBrowser
 (
