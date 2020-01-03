@@ -613,4 +613,7 @@ marionette
 .
 restart
 (
+clean
+=
+True
 )
