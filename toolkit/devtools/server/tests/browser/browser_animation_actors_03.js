@@ -512,12 +512,14 @@ state
 .
 name
 "
+width
 "
 "
 Transition
-has
-no
 name
+matches
+transition
+property
 "
 )
 ;
