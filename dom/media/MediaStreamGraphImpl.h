@@ -838,10 +838,6 @@ RemoveStream
 MediaStream
 *
 aStream
-bool
-aLocked
-=
-true
 )
 ;
 void
