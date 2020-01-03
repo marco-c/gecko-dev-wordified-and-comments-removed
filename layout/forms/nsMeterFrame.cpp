@@ -1327,17 +1327,6 @@ StyleDisplay
 mOrient
 =
 =
-NS_STYLE_ORIENT_AUTO
-|
-|
-StyleDisplay
-(
-)
--
->
-mOrient
-=
-=
 NS_STYLE_ORIENT_HORIZONTAL
 )
 {

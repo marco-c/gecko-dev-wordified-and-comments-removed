@@ -5570,12 +5570,14 @@ kOrientKTable
 ]
 =
 {
+eCSSKeyword_inline
+NS_STYLE_ORIENT_INLINE
+eCSSKeyword_block
+NS_STYLE_ORIENT_BLOCK
 eCSSKeyword_horizontal
 NS_STYLE_ORIENT_HORIZONTAL
 eCSSKeyword_vertical
 NS_STYLE_ORIENT_VERTICAL
-eCSSKeyword_auto
-NS_STYLE_ORIENT_AUTO
 eCSSKeyword_UNKNOWN
 -
 1

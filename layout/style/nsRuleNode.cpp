@@ -29162,7 +29162,7 @@ parentDisplay
 -
 >
 mOrient
-NS_STYLE_ORIENT_AUTO
+NS_STYLE_ORIENT_INLINE
 0
 0
 0

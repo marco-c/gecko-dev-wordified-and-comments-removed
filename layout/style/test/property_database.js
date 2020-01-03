@@ -34121,7 +34121,7 @@ initial_values
 :
 [
 "
-auto
+inline
 "
 ]
 other_values
@@ -34132,6 +34132,9 @@ horizontal
 "
 "
 vertical
+"
+"
+block
 "
 ]
 invalid_values
