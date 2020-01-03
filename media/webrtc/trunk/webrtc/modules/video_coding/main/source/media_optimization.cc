@@ -1542,6 +1542,9 @@ TimeInMilliseconds
 (
 )
 ;
+bool
+same_frame
+;
 PurgeOldFrameSamples
 (
 now_ms
@@ -1591,6 +1594,10 @@ time_complete_ms
 =
 now_ms
 ;
+same_frame
+=
+true
+;
 }
 else
 {
@@ -1605,6 +1612,10 @@ timestamp
 now_ms
 )
 )
+;
+same_frame
+=
+false
 ;
 }
 UpdateSentBitrate
@@ -1750,6 +1761,12 @@ encoded_length
 }
 if
 (
+!
+same_frame
+)
+{
+if
+(
 delta_frame
 )
 {
@@ -1764,6 +1781,7 @@ key_frame_cnt_
 +
 +
 ;
+}
 }
 }
 return
