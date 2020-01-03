@@ -9047,6 +9047,12 @@ return
 true
 ;
 case
+PNK_STATEMENTLIST
+:
+case
+PNK_CATCHLIST
+:
+case
 PNK_OR
 :
 case
@@ -9824,9 +9830,6 @@ case
 PNK_GENEXP
 :
 case
-PNK_STATEMENTLIST
-:
-case
 PNK_ARGSBODY
 :
 case
@@ -9843,9 +9846,6 @@ PNK_EXPORT_SPEC_LIST
 :
 case
 PNK_IMPORT_SPEC_LIST
-:
-case
-PNK_CATCHLIST
 :
 case
 PNK_LABEL
