@@ -5092,14 +5092,6 @@ reset
 if
 (
 throwing
-&
-&
-JS_WrapValue
-(
-oldcx
-&
-exc
-)
 )
 JS_SetPendingException
 (
