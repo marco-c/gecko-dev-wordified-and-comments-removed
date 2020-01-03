@@ -3552,6 +3552,13 @@ None
 process_args
 =
 None
+                 
+adb_host
+=
+None
+adb_port
+=
+None
 )
 :
         
@@ -3667,6 +3674,18 @@ self
 device_serial
 =
 device_serial
+        
+self
+.
+adb_host
+=
+adb_host
+        
+self
+.
+adb_port
+=
+adb_port
         
 if
 bin
