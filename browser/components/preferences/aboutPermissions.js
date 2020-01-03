@@ -797,7 +797,7 @@ remove
 (
 this
 .
-httpURI
+host
 aType
 )
 ;

@@ -873,9 +873,14 @@ aDomain
 )
 pm
 .
-removePermission
+remove
 (
 perm
+.
+host
+perm
+.
+type
 )
 ;
 }

@@ -5306,6 +5306,8 @@ permissionManager
 remove
 (
 uri
+.
+host
 "
 image
 "

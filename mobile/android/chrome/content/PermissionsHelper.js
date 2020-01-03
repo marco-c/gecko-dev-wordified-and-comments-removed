@@ -844,6 +844,8 @@ perms
 remove
 (
 aURI
+.
+host
 aType
 )
 ;

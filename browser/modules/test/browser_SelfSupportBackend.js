@@ -531,7 +531,11 @@ perms
 .
 remove
 (
-pageURI
+"
+example
+.
+com
+"
 "
 uitour
 "

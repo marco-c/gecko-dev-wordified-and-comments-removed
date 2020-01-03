@@ -998,9 +998,14 @@ Services
 .
 perms
 .
-removePermission
+remove
 (
 perm
+.
+host
+perm
+.
+type
 )
 ;
 }

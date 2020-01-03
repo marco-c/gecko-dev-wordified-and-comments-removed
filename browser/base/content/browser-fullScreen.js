@@ -1727,6 +1727,13 @@ perms
 EXPIRE_SESSION
 )
 ;
+let
+host
+=
+uri
+.
+host
+;
 var
 onFullscreenchange
 =
@@ -1760,7 +1767,7 @@ perms
 .
 remove
 (
-uri
+host
 "
 fullscreen
 "
