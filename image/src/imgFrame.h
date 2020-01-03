@@ -691,6 +691,9 @@ bool
 mCompositingFailed
 ;
 bool
+mHasNoAlpha
+;
+bool
 mNonPremult
 ;
 bool
