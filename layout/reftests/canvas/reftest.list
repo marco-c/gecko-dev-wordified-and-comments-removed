@@ -1340,9 +1340,6 @@ fails
 -
 if
 (
-azureQuartz
-&
-&
 OSX
 =
 =

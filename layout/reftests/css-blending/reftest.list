@@ -341,7 +341,7 @@ fuzzy
 -
 if
 (
-cocoaWidget
+azureQuartz
 3
 7597
 )
@@ -1046,7 +1046,7 @@ fuzzy
 -
 if
 (
-cocoaWidget
+azureQuartz
 |
 |
 d2d
