@@ -551,7 +551,7 @@ IsPannable
 const
 ;
 bool
-IsMovingFast
+IsFlingingFast
 (
 )
 const

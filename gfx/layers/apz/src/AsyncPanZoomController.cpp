@@ -7138,7 +7138,7 @@ CurrentTouchBlock
 )
 -
 >
-IsDuringFastMotion
+IsDuringFastFling
 (
 )
 )
@@ -7155,7 +7155,7 @@ press
 because
 of
 fast
-motion
+fling
 \
 n
 "
@@ -11004,7 +11004,7 @@ bool
 AsyncPanZoomController
 :
 :
-IsMovingFast
+IsFlingingFast
 (
 )
 const
@@ -11017,6 +11017,12 @@ mMonitor
 ;
 if
 (
+mState
+=
+=
+FLING
+&
+&
 GetVelocityVector
 (
 )

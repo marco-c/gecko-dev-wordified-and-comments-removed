@@ -599,12 +599,12 @@ const
 override
 ;
 void
-SetDuringFastMotion
+SetDuringFastFling
 (
 )
 ;
 bool
-IsDuringFastMotion
+IsDuringFastFling
 (
 )
 const
@@ -704,7 +704,7 @@ bool
 mAllowedTouchBehaviorSet
 ;
 bool
-mDuringFastMotion
+mDuringFastFling
 ;
 bool
 mSingleTapOccurred

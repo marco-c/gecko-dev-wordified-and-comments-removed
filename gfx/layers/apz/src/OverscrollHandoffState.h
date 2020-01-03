@@ -355,7 +355,7 @@ HasOverscrolledApzc
 const
 ;
 bool
-HasFastMovingApzc
+HasFastFlungApzc
 (
 )
 const

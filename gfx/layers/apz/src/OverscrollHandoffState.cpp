@@ -690,7 +690,7 @@ bool
 OverscrollHandoffChain
 :
 :
-HasFastMovingApzc
+HasFastFlungApzc
 (
 )
 const
@@ -702,7 +702,7 @@ AnyApzc
 AsyncPanZoomController
 :
 :
-IsMovingFast
+IsFlingingFast
 )
 ;
 }
