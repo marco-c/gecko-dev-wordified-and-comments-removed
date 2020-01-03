@@ -713,7 +713,7 @@ GetTestShellSingleton
 jsipc
 :
 :
-JavaScriptShared
+CPOWManager
 *
 GetCPOWManager
 (

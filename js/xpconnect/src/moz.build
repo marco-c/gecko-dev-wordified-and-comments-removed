@@ -377,12 +377,6 @@ workers
 '
 '
 /
-js
-/
-ipc
-'
-'
-/
 layout
 /
 base
