@@ -360,6 +360,10 @@ Shutdown
 (
 )
 {
+DiscardDecoder
+(
+)
+;
 mParentDecoder
 -
 >
@@ -391,10 +395,6 @@ mParentDecoder
 GetReentrantMonitor
 (
 )
-)
-;
-DiscardDecoder
-(
 )
 ;
 for
