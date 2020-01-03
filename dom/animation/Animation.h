@@ -737,6 +737,16 @@ UpdateRelevance
 (
 )
 ;
+bool
+HasLowerCompositeOrderThan
+(
+const
+Animation
+&
+aOther
+)
+const
+;
 void
 SetIsRunningOnCompositor
 (
