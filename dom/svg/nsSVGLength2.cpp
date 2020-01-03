@@ -92,6 +92,13 @@ DOMSVGLength
 .
 h
 "
+#
+include
+"
+LayoutLogging
+.
+h
+"
 using
 namespace
 mozilla
@@ -549,7 +556,7 @@ aLength
 0f
 )
 {
-NS_WARNING
+LAYOUT_WARNING
 (
 "
 zero
