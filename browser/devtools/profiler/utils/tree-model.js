@@ -153,6 +153,12 @@ endAt
 {
 this
 .
+samples
+=
+0
+;
+this
+.
 duration
 =
 0
@@ -299,6 +305,12 @@ this
 _previousSampleTime
 =
 sampleTime
+;
+this
+.
+samples
++
++
 ;
 this
 .
