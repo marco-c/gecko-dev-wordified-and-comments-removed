@@ -27,7 +27,7 @@ nsTArray
 .
 h
 "
-class
+struct
 nsCSSSelector
 ;
 enum
