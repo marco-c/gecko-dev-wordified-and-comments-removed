@@ -6329,6 +6329,7 @@ ICBinaryArith_Fallback
 >
 stub
 (
+engine
 frame
 stub_
 )
