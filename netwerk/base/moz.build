@@ -781,6 +781,11 @@ nsReadLine
 h
 '
 '
+nsSimpleNestedURI
+.
+h
+'
+'
 nsSimpleURI
 .
 h

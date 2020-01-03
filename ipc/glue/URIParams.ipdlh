@@ -244,6 +244,8 @@ NullPrincipalURIParams
 ;
 JSURIParams
 ;
+SimpleNestedURIParams
+;
 }
 ;
 union
@@ -263,6 +265,17 @@ simpleParams
 ;
 OptionalURIParams
 baseURI
+;
+}
+;
+struct
+SimpleNestedURIParams
+{
+SimpleURIParams
+simpleParams
+;
+URIParams
+innerURI
 ;
 }
 ;

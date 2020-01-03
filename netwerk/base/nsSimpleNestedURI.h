@@ -25,6 +25,13 @@ nsINestedURI
 .
 h
 "
+#
+include
+"
+nsIIPCSerializableURI
+.
+h
+"
 class
 nsSimpleNestedURI
 :
@@ -101,6 +108,7 @@ aStream
 )
 MOZ_OVERRIDE
 ;
+NS_DECL_NSIIPCSERIALIZABLEURI
 NS_IMETHOD
 GetClassIDNoAlloc
 (
