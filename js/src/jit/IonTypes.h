@@ -125,7 +125,6 @@ Bailout_NonSimdInt32x4Input
 Bailout_NonSimdFloat32x4Input
 Bailout_InitialState
 Bailout_Debugger
-Bailout_UninitializedLexical
 Bailout_OverflowInvalidate
 Bailout_NonStringInputInvalidate
 Bailout_DoubleOutput
@@ -133,6 +132,7 @@ Bailout_ArgumentCheck
 Bailout_BoundsCheck
 Bailout_Neutered
 Bailout_ShapeGuard
+Bailout_UninitializedLexical
 Bailout_IonExceptionDebugMode
 }
 ;
@@ -352,14 +352,6 @@ Bailout_Debugger
 "
 ;
 case
-Bailout_UninitializedLexical
-:
-return
-"
-Bailout_UninitializedLexical
-"
-;
-case
 Bailout_OverflowInvalidate
 :
 return
@@ -413,6 +405,14 @@ Bailout_ShapeGuard
 return
 "
 Bailout_ShapeGuard
+"
+;
+case
+Bailout_UninitializedLexical
+:
+return
+"
+Bailout_UninitializedLexical
 "
 ;
 case

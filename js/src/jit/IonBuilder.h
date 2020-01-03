@@ -5509,6 +5509,9 @@ bool
 failedShapeGuard_
 ;
 bool
+failedLexicalCheck_
+;
+bool
 nonStringIteration_
 ;
 MInstruction
