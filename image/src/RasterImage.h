@@ -730,10 +730,6 @@ mRequestStatus
 (
 REQUEST_INACTIVE
 )
-mChunkCount
-(
-0
-)
 mAllocatedNewFrame
 (
 false
@@ -761,12 +757,6 @@ REQUEST_WORK_DONE
 REQUEST_STOPPED
 }
 mRequestStatus
-;
-TimeDuration
-mDecodeTime
-;
-int32_t
-mChunkCount
 ;
 bool
 mAllocatedNewFrame
