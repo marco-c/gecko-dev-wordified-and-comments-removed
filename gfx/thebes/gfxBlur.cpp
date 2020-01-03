@@ -2023,6 +2023,16 @@ aDestDrawTarget
 topLeft
 )
 ;
+if
+(
+!
+result
+)
+{
+return
+nullptr
+;
+}
 IntRect
 expandedMinRect
 (
