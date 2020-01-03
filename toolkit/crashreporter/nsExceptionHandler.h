@@ -144,6 +144,14 @@ UpdateCrashEventsDir
 (
 )
 ;
+void
+SetMemoryReportFile
+(
+nsIFile
+*
+aFile
+)
+;
 bool
 GetCrashEventsDir
 (
