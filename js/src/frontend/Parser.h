@@ -1905,6 +1905,8 @@ FunctionSyntaxKind
 kind
 GeneratorKind
 generatorKind
+bool
+isStatic
 JSOp
 Op
 )

@@ -1561,6 +1561,15 @@ stack
 \
 macro
 (
+static
+static_
+"
+static
+"
+)
+\
+macro
+(
 sticky
 sticky
 "

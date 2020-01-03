@@ -713,6 +713,8 @@ Node
 fn
 JSOp
 op
+bool
+isStatic
 )
 {
 return

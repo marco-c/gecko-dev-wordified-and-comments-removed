@@ -1962,6 +1962,8 @@ ParseNode
 fn
 JSOp
 op
+bool
+isStatic
 )
 {
 MOZ_ASSERT
@@ -2025,7 +2027,7 @@ ClassMethod
 key
 fn
 op
-false
+isStatic
 )
 ;
 if
