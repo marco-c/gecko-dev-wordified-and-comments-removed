@@ -506,6 +506,13 @@ function
 (
 )
 {
+yield
+this
+.
+_stopRecording
+(
+)
+;
 this
 .
 _markers
@@ -513,13 +520,6 @@ _markers
 length
 =
 0
-;
-yield
-this
-.
-_stopRecording
-(
-)
 ;
 }
 _onMarkers
