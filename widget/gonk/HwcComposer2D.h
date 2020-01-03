@@ -62,6 +62,15 @@ Fence
 h
 >
 #
+include
+<
+utils
+/
+Timers
+.
+h
+>
+#
 endif
 namespace
 mozilla
