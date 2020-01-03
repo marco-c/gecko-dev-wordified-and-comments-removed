@@ -1215,6 +1215,9 @@ mShouldDropFrames
 bool
 mPendingAudioInitTask
 ;
+uint64_t
+mLastGoodPosition
+;
 }
 ;
 class
