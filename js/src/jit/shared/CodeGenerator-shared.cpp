@@ -6387,6 +6387,17 @@ Imm32
 failure
 )
 ;
+masm
+.
+store32
+(
+Imm32
+(
+0
+)
+checkRegs
+)
+;
 RegisterSet
 liveRegs
 =
