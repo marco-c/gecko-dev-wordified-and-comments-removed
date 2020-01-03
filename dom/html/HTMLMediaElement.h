@@ -2298,6 +2298,11 @@ PRELOAD_ENOUGH
 }
 ;
 void
+DoLoad
+(
+)
+;
+void
 SuspendLoad
 (
 )
@@ -2820,6 +2825,9 @@ mWaitingFired
 ;
 bool
 mIsRunningLoadMethod
+;
+bool
+mIsDoingExplicitLoad
 ;
 bool
 mIsLoadingFromSourceChildren
