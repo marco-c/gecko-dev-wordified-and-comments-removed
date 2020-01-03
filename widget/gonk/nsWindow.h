@@ -94,6 +94,17 @@ nsWindow
 ;
 static
 void
+NotifyVsync
+(
+mozilla
+:
+:
+TimeStamp
+aVsyncTimestamp
+)
+;
+static
+void
 DoDraw
 (
 void
