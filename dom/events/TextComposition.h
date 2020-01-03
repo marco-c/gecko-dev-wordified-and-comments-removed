@@ -307,6 +307,11 @@ nsIEditor
 aEditor
 )
 ;
+void
+OnEditorDestroyed
+(
+)
+;
 class
 MOZ_STACK_CLASS
 CompositionChangeEventHandlingMarker

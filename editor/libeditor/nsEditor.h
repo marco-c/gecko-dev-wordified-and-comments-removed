@@ -1798,6 +1798,12 @@ IsIMEComposing
 )
 const
 ;
+bool
+ShouldHandleIMEComposition
+(
+)
+const
+;
 static
 nsresult
 GetTagString
