@@ -108,7 +108,7 @@ config
 rules
 .
 mk
-target
+export
 :
 :
 (
