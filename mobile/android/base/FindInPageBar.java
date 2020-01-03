@@ -547,6 +547,15 @@ hide
 (
 )
 {
+if
+(
+!
+mInflated
+)
+{
+return
+;
+}
 mFindText
 .
 setText

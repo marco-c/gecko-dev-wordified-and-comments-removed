@@ -14207,6 +14207,12 @@ color
 white
 )
 ;
+mFindInPageBar
+.
+hide
+(
+)
+;
 }
 private
 void
