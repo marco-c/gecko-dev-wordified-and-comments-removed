@@ -1277,11 +1277,7 @@ Seek
 int64_t
 aTime
 int64_t
-aStartTime
-int64_t
 aEndTime
-int64_t
-aCurrentTime
 )
 {
 nsresult

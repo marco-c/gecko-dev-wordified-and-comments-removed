@@ -2527,11 +2527,7 @@ Seek
 int64_t
 aTarget
 int64_t
-aStartTime
-int64_t
 aEndTime
-int64_t
-aCurrentTime
 )
 {
 NS_ASSERTION

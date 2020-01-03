@@ -351,11 +351,7 @@ Seek
 int64_t
 aTime
 int64_t
-aStartTime
-int64_t
 aEndTime
-int64_t
-aCurrentTime
 )
 MOZ_OVERRIDE
 ;
@@ -750,13 +746,7 @@ int64_t
 mPendingSeekTime
 ;
 int64_t
-mPendingStartTime
-;
-int64_t
 mPendingEndTime
-;
-int64_t
-mPendingCurrentTime
 ;
 bool
 mWaitingForSeekData
