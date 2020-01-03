@@ -8811,7 +8811,9 @@ android
 paddingTop
 "
 >
-16dp
+dimen
+/
+home_remote_tabs_top_padding
 <
 /
 item
