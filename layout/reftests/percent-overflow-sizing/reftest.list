@@ -310,6 +310,14 @@ bug
 #
 bug
 773482
+fuzzy
+-
+if
+(
+B2G
+1
+11
+)
 fails
 -
 if
@@ -333,6 +341,7 @@ html
 bug
 650591
 732565
+1136304
 skip
 -
 if
