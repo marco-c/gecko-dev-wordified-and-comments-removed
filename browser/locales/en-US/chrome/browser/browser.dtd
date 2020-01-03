@@ -2750,6 +2750,16 @@ e
 >
 <
 !
+ENTITY
+browserToolboxCmd
+.
+commandkey
+"
+i
+"
+>
+<
+!
 -
 -
 LOCALIZATION
