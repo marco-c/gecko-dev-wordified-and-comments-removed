@@ -3102,6 +3102,17 @@ phase
 )
 ;
 void
+markBufferedGrayRoots
+(
+JS
+:
+:
+Zone
+*
+zone
+)
+;
+void
 markGrayReferencesInCurrentGroup
 (
 gcstats
