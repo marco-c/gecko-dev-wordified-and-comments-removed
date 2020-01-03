@@ -1056,6 +1056,12 @@ providers
 "
 )
 ;
+window
+.
+focus
+(
+)
+;
 PopupNotifications
 .
 transitionsEnabled
