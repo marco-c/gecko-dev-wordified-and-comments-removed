@@ -2319,7 +2319,7 @@ EventListenerManagerMapEntry
 ;
 }
 class
-SameOriginChecker
+SameOriginCheckerImpl
 MOZ_FINAL
 :
 public
@@ -2328,7 +2328,7 @@ public
 nsIInterfaceRequestor
 {
 ~
-SameOriginChecker
+SameOriginCheckerImpl
 (
 )
 {
@@ -25505,7 +25505,7 @@ sSameOriginChecker
 sSameOriginChecker
 =
 new
-SameOriginChecker
+SameOriginCheckerImpl
 (
 )
 ;
@@ -25660,12 +25660,12 @@ rv
 }
 NS_IMPL_ISUPPORTS
 (
-SameOriginChecker
+SameOriginCheckerImpl
 nsIChannelEventSink
 nsIInterfaceRequestor
 )
 NS_IMETHODIMP
-SameOriginChecker
+SameOriginCheckerImpl
 :
 :
 AsyncOnChannelRedirect
@@ -25729,7 +25729,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-SameOriginChecker
+SameOriginCheckerImpl
 :
 :
 GetInterface
