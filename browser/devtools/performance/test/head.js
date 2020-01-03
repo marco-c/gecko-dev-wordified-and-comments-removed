@@ -1608,6 +1608,8 @@ win
 (
 "
 #
+main
+-
 record
 -
 button
@@ -1842,6 +1844,8 @@ win
 (
 "
 #
+main
+-
 record
 -
 button
