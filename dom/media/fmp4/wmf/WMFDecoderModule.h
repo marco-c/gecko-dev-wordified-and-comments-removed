@@ -104,8 +104,8 @@ bool
 SupportsVideoMimeType
 (
 const
-char
-*
+nsACString
+&
 aMimeType
 )
 override
@@ -114,8 +114,8 @@ bool
 SupportsAudioMimeType
 (
 const
-char
-*
+nsACString
+&
 aMimeType
 )
 override

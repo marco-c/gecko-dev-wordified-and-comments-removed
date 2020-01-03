@@ -11,15 +11,6 @@ FFmpegDataDecoder
 .
 h
 "
-#
-include
-"
-mp4_demuxer
-/
-DecoderData
-.
-h
-"
 namespace
 mozilla
 {
@@ -105,8 +96,8 @@ AVCodecID
 GetCodecId
 (
 const
-char
-*
+nsACString
+&
 aMimeType
 )
 ;

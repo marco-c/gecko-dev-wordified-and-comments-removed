@@ -1063,8 +1063,8 @@ bool
 SupportsAudioMimeType
 (
 const
-char
-*
+nsACString
+&
 aMimeType
 )
 override

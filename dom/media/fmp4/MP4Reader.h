@@ -548,8 +548,8 @@ bool
 IsSupportedAudioMimeType
 (
 const
-char
-*
+nsACString
+&
 aMimeType
 )
 ;
@@ -557,8 +557,8 @@ bool
 IsSupportedVideoMimeType
 (
 const
-char
-*
+nsACString
+&
 aMimeType
 )
 ;

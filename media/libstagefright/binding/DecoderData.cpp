@@ -952,10 +952,13 @@ frequency_index
 &
 &
 (
-mime_type
 !
-=
+mime_type
+.
+Equals
+(
 MEDIA_MIMETYPE_AUDIO_AAC
+)
 |
 |
 aac_profile
