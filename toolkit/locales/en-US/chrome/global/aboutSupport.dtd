@@ -604,6 +604,17 @@ Use
 ENTITY
 aboutSupport
 .
+appBasicsServiceWorkers
+"
+Registered
+ServiceWorkers
+"
+>
+<
+!
+ENTITY
+aboutSupport
+.
 appBasicsMultiProcessSupport
 "
 Multiprocess
