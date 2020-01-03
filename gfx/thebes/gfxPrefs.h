@@ -1488,7 +1488,7 @@ predict
 "
 TouchResampleMaxPredict
 int32_t
-8000000
+8
 )
 ;
 DECL_GFX_PREF
@@ -1507,7 +1507,7 @@ adjust
 "
 TouchVsyncSampleAdjust
 int32_t
-5000000
+5
 )
 ;
 DECL_GFX_PREF
@@ -1526,7 +1526,7 @@ resample
 "
 TouchResampleMinTime
 int32_t
-2000000
+2
 )
 ;
 DECL_GFX_PREF
@@ -1545,7 +1545,7 @@ threshold
 "
 TouchResampleVsyncDelayThreshold
 int32_t
-20000000
+20
 )
 ;
 DECL_GFX_PREF

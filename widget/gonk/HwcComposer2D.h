@@ -416,6 +416,9 @@ Fence
 >
 mPrevDisplayFence
 ;
+nsecs_t
+mLastVsyncTime
+;
 #
 endif
 nsTArray
