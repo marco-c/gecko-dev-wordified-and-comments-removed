@@ -1,0 +1,8 @@
+runTestRequests
+(
+[
+SyncRequestSettingTimeoutAfterOpen
+SyncRequestSettingTimeoutBeforeOpen
+]
+)
+;

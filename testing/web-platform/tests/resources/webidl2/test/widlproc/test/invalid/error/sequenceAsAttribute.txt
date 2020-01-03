@@ -1,0 +1,17 @@
+invalid
+/
+idl
+/
+sequenceAsAttribute
+.
+widl
+:
+2
+:
+at
+'
+sequence
+'
+:
+expected
+type

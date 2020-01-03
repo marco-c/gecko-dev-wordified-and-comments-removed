@@ -1,0 +1,16 @@
+document
+.
+write
+(
+'
+<
+svg
+>
+<
+!
+[
+CDATA
+[
+'
+)
+;

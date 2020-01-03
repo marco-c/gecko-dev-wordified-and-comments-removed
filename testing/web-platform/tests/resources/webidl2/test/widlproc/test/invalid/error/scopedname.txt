@@ -1,0 +1,17 @@
+invalid
+/
+idl
+/
+scopedname
+.
+widl
+:
+2
+:
+at
+'
+:
+'
+:
+expected
+identifier

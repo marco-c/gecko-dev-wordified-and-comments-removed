@@ -1,0 +1,5 @@
+var
+testDummyValue
+=
+0
+;
