@@ -1576,14 +1576,12 @@ FILE
 fp
 )
 const
-MOZ_OVERRIDE
 ;
 void
 dump
 (
 )
 const
-MOZ_OVERRIDE
 ;
 void
 dumpLocation
@@ -1955,7 +1953,6 @@ kind
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 MNode
@@ -3436,7 +3433,7 @@ typePolicySpecialization
 ;
 #
 define
-INSTRUCTION_HEADER_WITHOUT_TYPEPOLICY
+INSTRUCTION_HEADER
 (
 opcode
 )
@@ -3460,7 +3457,6 @@ op
 (
 )
 const
-MOZ_OVERRIDE
 {
 \
 return
@@ -3476,7 +3472,6 @@ opName
 (
 )
 const
-MOZ_OVERRIDE
 {
 \
 return
@@ -3493,7 +3488,6 @@ MDefinitionVisitor
 *
 visitor
 )
-MOZ_OVERRIDE
 {
 \
 visitor
@@ -3509,17 +3503,6 @@ this
 ;
 \
 }
-#
-define
-INSTRUCTION_HEADER
-(
-opcode
-)
-\
-INSTRUCTION_HEADER_WITHOUT_TYPEPOLICY
-(
-opcode
-)
 \
 virtual
 TypePolicy
@@ -3527,7 +3510,6 @@ TypePolicy
 typePolicy
 (
 )
-MOZ_OVERRIDE
 ;
 \
 virtual
@@ -3535,7 +3517,6 @@ MIRType
 typePolicySpecialization
 (
 )
-MOZ_OVERRIDE
 ;
 #
 define
@@ -3549,7 +3530,6 @@ canClone
 (
 )
 const
-MOZ_OVERRIDE
 {
 \
 return
@@ -3572,7 +3552,6 @@ MDefinitionVector
 inputs
 )
 const
-MOZ_OVERRIDE
 {
 \
 MInstruction
@@ -4909,7 +4888,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -5030,7 +5008,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -5048,7 +5025,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 needTruncation
@@ -5056,7 +5032,6 @@ needTruncation
 TruncateKind
 kind
 )
-MOZ_OVERRIDE
 ;
 TruncateKind
 operandTruncateKind
@@ -5065,7 +5040,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 TruncateKind
 truncateKind
@@ -5240,14 +5214,12 @@ FILE
 fp
 )
 const
-MOZ_OVERRIDE
 ;
 HashNumber
 valueHash
 (
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -5258,14 +5230,12 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 ;
 AliasSet
 getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -5283,7 +5253,6 @@ MDefinition
 *
 def
 )
-MOZ_OVERRIDE
 {
 MConstant
 *
@@ -5347,7 +5316,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 needTruncation
@@ -5355,20 +5323,17 @@ needTruncation
 TruncateKind
 kind
 )
-MOZ_OVERRIDE
 ;
 void
 truncate
 (
 )
-MOZ_OVERRIDE
 ;
 bool
 canProduceFloat32
 (
 )
 const
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -5563,7 +5528,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 SimdTypeToScalarType
@@ -5582,7 +5546,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -5602,7 +5565,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -5619,7 +5581,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -5740,7 +5701,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 SimdTypeToScalarType
@@ -5759,7 +5719,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -5779,7 +5738,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -5796,7 +5754,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -5854,6 +5811,7 @@ INSTRUCTION_HEADER
 (
 SimdConstant
 )
+;
 static
 MSimdConstant
 *
@@ -5891,7 +5849,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -5942,7 +5899,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -6030,6 +5986,7 @@ INSTRUCTION_HEADER
 (
 SimdConvert
 )
+;
 static
 MSimdConvert
 *
@@ -6065,7 +6022,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -6085,7 +6041,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -6171,6 +6126,7 @@ INSTRUCTION_HEADER
 (
 SimdReinterpretCast
 )
+;
 static
 MSimdReinterpretCast
 *
@@ -6206,7 +6162,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -6226,7 +6181,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -6345,6 +6299,7 @@ INSTRUCTION_HEADER
 (
 SimdExtractElement
 )
+;
 static
 MSimdExtractElement
 *
@@ -6390,7 +6345,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -6410,7 +6364,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -6632,7 +6585,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 use
@@ -6660,7 +6612,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -6680,7 +6631,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 binaryCongruentTo
@@ -6766,6 +6716,7 @@ INSTRUCTION_HEADER
 (
 SimdSignMask
 )
+;
 static
 MSimdSignMask
 *
@@ -6795,7 +6746,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -6815,7 +6765,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -7207,6 +7156,7 @@ INSTRUCTION_HEADER
 (
 SimdSwizzle
 )
+;
 static
 MSimdSwizzle
 *
@@ -7255,7 +7205,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -7300,7 +7249,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -7319,7 +7267,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -7482,6 +7429,7 @@ INSTRUCTION_HEADER
 (
 SimdShuffle
 )
+;
 static
 MInstruction
 *
@@ -7674,7 +7622,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -7719,7 +7666,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -7840,6 +7786,7 @@ INSTRUCTION_HEADER
 (
 SimdUnaryArith
 )
+;
 static
 MSimdUnaryArith
 *
@@ -7885,7 +7832,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -7905,7 +7851,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -8102,6 +8047,7 @@ INSTRUCTION_HEADER
 (
 SimdBinaryComp
 )
+;
 static
 MSimdBinaryComp
 *
@@ -8138,7 +8084,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -8251,7 +8196,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -8539,6 +8483,7 @@ INSTRUCTION_HEADER
 (
 SimdBinaryArith
 )
+;
 static
 MSimdBinaryArith
 *
@@ -8578,7 +8523,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -8608,7 +8552,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -8753,6 +8696,7 @@ INSTRUCTION_HEADER
 (
 SimdBinaryBitwise
 )
+;
 static
 MSimdBinaryBitwise
 *
@@ -8792,7 +8736,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -8822,7 +8765,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -8946,6 +8888,7 @@ INSTRUCTION_HEADER
 (
 SimdShift
 )
+;
 static
 MSimdShift
 *
@@ -8982,7 +8925,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -9012,7 +8954,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -9158,6 +9099,7 @@ INSTRUCTION_HEADER
 (
 SimdSelect
 )
+;
 static
 MSimdSelect
 *
@@ -9215,7 +9157,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -9245,7 +9186,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -9426,14 +9366,12 @@ FILE
 fp
 )
 const
-MOZ_OVERRIDE
 ;
 HashNumber
 valueHash
 (
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -9444,7 +9382,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -9485,7 +9422,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -9519,7 +9455,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -9569,7 +9504,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -9603,7 +9537,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -9668,7 +9601,6 @@ isControlInstruction
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -9682,7 +9614,6 @@ FILE
 fp
 )
 const
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -9814,7 +9745,6 @@ getUseFor
 size_t
 index
 )
-MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -9838,7 +9768,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -9881,7 +9810,6 @@ numSuccessors
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 successors_
@@ -9954,7 +9882,6 @@ size_t
 i
 )
 const
-MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -9981,7 +9908,6 @@ MBasicBlock
 *
 successor
 )
-MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -10192,7 +10118,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -10215,7 +10140,6 @@ numOperands
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 1
@@ -10284,7 +10208,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -10630,7 +10553,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -10825,7 +10747,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -10849,7 +10770,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 filtersUndefinedOrNull
@@ -10899,7 +10819,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -11000,7 +10919,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -11092,7 +11010,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -11171,7 +11088,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -11187,7 +11103,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -11656,7 +11571,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -11675,14 +11589,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -11835,7 +11747,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -12029,7 +11940,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -12263,14 +12173,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -12412,7 +12320,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -12514,7 +12421,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -12528,7 +12434,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -12617,6 +12522,7 @@ INSTRUCTION_HEADER
 (
 NewDerivedTypedObject
 )
+;
 static
 MNewDerivedTypedObject
 *
@@ -12710,7 +12616,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -12729,14 +12634,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -13010,14 +12913,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -13221,14 +13122,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -13357,7 +13256,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -13514,7 +13412,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -13799,7 +13696,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -14219,7 +14115,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -14492,7 +14387,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -14664,7 +14558,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -14760,7 +14653,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -14829,7 +14721,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -14918,7 +14809,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -15057,7 +14947,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -15158,7 +15047,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -15342,7 +15230,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -15527,7 +15414,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 filtersUndefinedOrNull
@@ -15736,7 +15622,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -15803,13 +15688,11 @@ FILE
 fp
 )
 const
-MOZ_OVERRIDE
 ;
 void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 void
 trySpecializeFloat32
@@ -15818,14 +15701,12 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 isFloat32Commutative
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -15837,13 +15718,11 @@ needTruncation
 TruncateKind
 kind
 )
-MOZ_OVERRIDE
 ;
 void
 truncate
 (
 )
-MOZ_OVERRIDE
 ;
 TruncateKind
 operandTruncateKind
@@ -15852,7 +15731,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -15865,7 +15743,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 compareType_
@@ -15899,7 +15776,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -16147,7 +16023,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -16161,7 +16036,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -16567,7 +16441,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -16612,7 +16485,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -16631,7 +16503,6 @@ FILE
 fp
 )
 const
-MOZ_OVERRIDE
 ;
 void
 makeInfallible
@@ -16732,7 +16603,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -16821,7 +16691,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -16936,7 +16805,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -16955,7 +16823,6 @@ FILE
 fp
 )
 const
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -17026,6 +16893,7 @@ INSTRUCTION_HEADER
 (
 CreateThisWithTemplate
 )
+;
 static
 MCreateThisWithTemplate
 *
@@ -17117,7 +16985,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -17136,14 +17003,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -17257,7 +17122,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -17273,7 +17137,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -17363,7 +17226,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -17379,7 +17241,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -17473,7 +17334,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -17489,7 +17349,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -17600,7 +17459,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -17744,7 +17602,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -17809,7 +17666,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -17936,7 +17792,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -18146,7 +18001,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -18157,7 +18011,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -18202,7 +18055,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -18220,7 +18072,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 needTruncation
@@ -18228,13 +18079,11 @@ needTruncation
 TruncateKind
 kind
 )
-MOZ_OVERRIDE
 ;
 void
 truncate
 (
 )
-MOZ_OVERRIDE
 ;
 TruncateKind
 operandTruncateKind
@@ -18243,7 +18092,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -18256,7 +18104,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -18298,14 +18145,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -18476,7 +18321,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -18487,7 +18331,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -18532,7 +18375,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -18550,7 +18392,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 canConsumeFloat32
@@ -18560,7 +18401,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -18571,7 +18411,6 @@ canProduceFloat32
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -18585,14 +18424,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -18644,6 +18481,7 @@ INSTRUCTION_HEADER
 (
 AsmJSUnsignedToDouble
 )
+;
 static
 MAsmJSUnsignedToDouble
 *
@@ -18676,7 +18514,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -18687,7 +18524,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -18701,7 +18537,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -18754,6 +18589,7 @@ INSTRUCTION_HEADER
 (
 AsmJSUnsignedToFloat32
 )
+;
 static
 MAsmJSUnsignedToFloat32
 *
@@ -18786,7 +18622,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -18797,7 +18632,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -18811,7 +18645,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -18827,7 +18660,6 @@ canProduceFloat32
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -18962,13 +18794,11 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 analyzeEdgeCasesBackward
 (
 )
-MOZ_OVERRIDE
 ;
 bool
 canBeNegativeZero
@@ -19014,7 +18844,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -19028,7 +18857,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -19046,13 +18874,11 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -19065,7 +18891,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -19198,7 +19023,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -19209,7 +19033,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -19223,7 +19046,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -19241,7 +19063,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 TruncateKind
 operandTruncateKind
@@ -19250,7 +19071,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -19263,7 +19083,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -19349,7 +19168,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -19360,7 +19178,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -19374,7 +19191,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -19482,7 +19298,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -19496,7 +19311,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -19589,7 +19403,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 infer
@@ -19605,7 +19418,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -19619,7 +19431,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -19656,7 +19467,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -19666,14 +19476,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 specialization_
@@ -19788,7 +19596,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 cacheInputMaybeCallableOrEmulatesUndefined
@@ -19820,7 +19627,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -19840,7 +19646,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -19916,14 +19721,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -20054,7 +19857,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 MDefinition
 *
@@ -20114,7 +19916,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 binaryCongruentTo
@@ -20128,7 +19929,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -20165,7 +19965,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -20237,7 +20036,6 @@ foldIfZero
 size_t
 operand
 )
-MOZ_OVERRIDE
 {
 return
 getOperand
@@ -20253,7 +20051,6 @@ foldIfNegOne
 size_t
 operand
 )
-MOZ_OVERRIDE
 {
 return
 getOperand
@@ -20269,7 +20066,6 @@ MDefinition
 foldIfEqual
 (
 )
-MOZ_OVERRIDE
 {
 return
 getOperand
@@ -20285,7 +20081,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -20295,14 +20090,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 specialization_
@@ -20385,7 +20178,6 @@ foldIfZero
 size_t
 operand
 )
-MOZ_OVERRIDE
 {
 return
 getOperand
@@ -20403,7 +20195,6 @@ foldIfNegOne
 size_t
 operand
 )
-MOZ_OVERRIDE
 {
 return
 getOperand
@@ -20417,7 +20208,6 @@ MDefinition
 foldIfEqual
 (
 )
-MOZ_OVERRIDE
 {
 return
 getOperand
@@ -20433,7 +20223,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -20443,14 +20232,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 specialization_
@@ -20533,7 +20320,6 @@ foldIfZero
 size_t
 operand
 )
-MOZ_OVERRIDE
 {
 return
 getOperand
@@ -20551,7 +20337,6 @@ foldIfNegOne
 size_t
 operand
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -20562,7 +20347,6 @@ MDefinition
 foldIfEqual
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -20575,7 +20359,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -20585,14 +20368,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 specialization_
@@ -20640,7 +20421,6 @@ foldIfNegOne
 size_t
 operand
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -20651,7 +20431,6 @@ MDefinition
 foldIfEqual
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -20668,7 +20447,6 @@ jsbytecode
 *
 pc
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -20740,7 +20518,6 @@ foldIfZero
 size_t
 operand
 )
-MOZ_OVERRIDE
 {
 return
 getOperand
@@ -20756,7 +20533,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -20766,14 +20542,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 specialization_
@@ -20856,7 +20630,6 @@ foldIfZero
 size_t
 operand
 )
-MOZ_OVERRIDE
 {
 return
 getOperand
@@ -20872,7 +20645,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -20882,14 +20654,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 specialization_
@@ -20978,7 +20748,6 @@ foldIfZero
 size_t
 operand
 )
-MOZ_OVERRIDE
 {
 if
 (
@@ -21007,7 +20776,6 @@ jsbytecode
 *
 pc
 )
-MOZ_OVERRIDE
 ;
 bool
 bailoutsDisabled
@@ -21032,13 +20800,11 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -21048,14 +20814,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 specialization_
@@ -21129,7 +20893,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 virtual
 double
@@ -21176,7 +20939,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -21187,7 +20949,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 binaryCongruentTo
@@ -21201,7 +20962,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -21391,7 +21151,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -21440,7 +21199,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -21459,7 +21217,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 computeRange
@@ -21468,7 +21225,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -21478,14 +21234,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -21496,7 +21250,6 @@ isFloat32Commutative
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -21509,7 +21262,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -21660,7 +21412,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -21680,7 +21431,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -21698,14 +21448,12 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 isFloat32Commutative
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -21718,7 +21466,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -21728,14 +21475,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -21882,7 +21627,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -21896,7 +21640,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -21925,7 +21668,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 computeRange
@@ -21934,13 +21676,11 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -22062,7 +21802,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -22076,7 +21815,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -22094,14 +21832,12 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 isFloat32Commutative
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -22114,7 +21850,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -22124,14 +21859,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -22261,7 +21994,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -22275,7 +22007,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -22291,7 +22022,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -22305,14 +22035,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -22442,7 +22170,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -22456,7 +22183,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -22472,7 +22198,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -22486,14 +22211,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -22634,7 +22357,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -22648,7 +22370,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -22664,7 +22385,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -22678,14 +22398,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -22794,7 +22512,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -22838,7 +22555,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -22853,7 +22569,6 @@ void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -22863,14 +22578,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -22927,7 +22640,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -22943,7 +22655,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -22956,7 +22667,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -23129,7 +22839,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -23178,7 +22887,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -23194,7 +22902,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -23208,7 +22915,6 @@ FILE
 fp
 )
 const
-MOZ_OVERRIDE
 ;
 static
 const
@@ -23225,7 +22931,6 @@ isFloat32Commutative
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 function_
@@ -23253,7 +22958,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 computeRange
@@ -23262,7 +22966,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -23272,14 +22975,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 switch
 (
@@ -23450,7 +23151,6 @@ isFloat32Commutative
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -23460,7 +23160,6 @@ double
 getIdentity
 (
 )
-MOZ_OVERRIDE
 {
 return
 0
@@ -23479,7 +23178,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 needTruncation
@@ -23487,13 +23185,11 @@ needTruncation
 TruncateKind
 kind
 )
-MOZ_OVERRIDE
 ;
 void
 truncate
 (
 )
-MOZ_OVERRIDE
 ;
 TruncateKind
 operandTruncateKind
@@ -23502,7 +23198,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -23512,14 +23207,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 specialization_
@@ -23665,7 +23358,6 @@ double
 getIdentity
 (
 )
-MOZ_OVERRIDE
 {
 return
 0
@@ -23676,7 +23368,6 @@ isFloat32Commutative
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -23695,7 +23386,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 needTruncation
@@ -23703,13 +23393,11 @@ needTruncation
 TruncateKind
 kind
 )
-MOZ_OVERRIDE
 ;
 void
 truncate
 (
 )
-MOZ_OVERRIDE
 ;
 TruncateKind
 operandTruncateKind
@@ -23718,7 +23406,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -23728,14 +23415,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 specialization_
@@ -23934,31 +23619,26 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 analyzeEdgeCasesForward
 (
 )
-MOZ_OVERRIDE
 ;
 void
 analyzeEdgeCasesBackward
 (
 )
-MOZ_OVERRIDE
 ;
 void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 double
 getIdentity
 (
 )
-MOZ_OVERRIDE
 {
 return
 1
@@ -23973,7 +23653,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -24072,7 +23751,6 @@ MDefinition
 *
 ins
 )
-MOZ_OVERRIDE
 ;
 bool
 fallible
@@ -24106,7 +23784,6 @@ isFloat32Commutative
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -24119,7 +23796,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 needTruncation
@@ -24127,13 +23803,11 @@ needTruncation
 TruncateKind
 kind
 )
-MOZ_OVERRIDE
 ;
 void
 truncate
 (
 )
-MOZ_OVERRIDE
 ;
 TruncateKind
 operandTruncateKind
@@ -24142,7 +23816,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 Mode
 mode
@@ -24162,14 +23835,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 specialization_
@@ -24394,25 +24065,21 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 analyzeEdgeCasesForward
 (
 )
-MOZ_OVERRIDE
 ;
 void
 analyzeEdgeCasesBackward
 (
 )
-MOZ_OVERRIDE
 ;
 double
 getIdentity
 (
 )
-MOZ_OVERRIDE
 {
 MOZ_CRASH
 (
@@ -24563,7 +24230,6 @@ isFloat32Commutative
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -24576,7 +24242,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 fallible
@@ -24590,19 +24255,16 @@ needTruncation
 TruncateKind
 kind
 )
-MOZ_OVERRIDE
 ;
 void
 truncate
 (
 )
-MOZ_OVERRIDE
 ;
 void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 TruncateKind
 operandTruncateKind
@@ -24611,7 +24273,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -24621,14 +24282,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 specialization_
@@ -24815,13 +24474,11 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 double
 getIdentity
 (
 )
-MOZ_OVERRIDE
 {
 MOZ_CRASH
 (
@@ -24890,7 +24547,6 @@ void
 analyzeEdgeCasesForward
 (
 )
-MOZ_OVERRIDE
 ;
 bool
 isUnsigned
@@ -24910,14 +24566,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 specialization_
@@ -24938,7 +24592,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 needTruncation
@@ -24946,19 +24599,16 @@ needTruncation
 TruncateKind
 kind
 )
-MOZ_OVERRIDE
 ;
 void
 truncate
 (
 )
-MOZ_OVERRIDE
 ;
 void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 TruncateKind
 operandTruncateKind
@@ -24967,7 +24617,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -25089,7 +24738,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -25103,7 +24751,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -25122,14 +24769,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -25231,7 +24876,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -25246,7 +24890,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -25264,7 +24907,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -25274,14 +24916,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -25366,7 +25006,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -25386,7 +25025,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -25403,14 +25041,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -25613,7 +25249,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -25625,7 +25260,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -25644,14 +25278,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -25727,7 +25359,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -25822,7 +25453,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -25836,7 +25466,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -25912,7 +25541,6 @@ getUseFor
 size_t
 index
 )
-MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -25940,7 +25568,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 {
 return
 &
@@ -25952,23 +25579,10 @@ index
 }
 public
 :
-INSTRUCTION_HEADER_WITHOUT_TYPEPOLICY
+INSTRUCTION_HEADER
 (
 Phi
 )
-virtual
-TypePolicy
-*
-typePolicy
-(
-)
-;
-virtual
-MIRType
-typePolicySpecialization
-(
-)
-;
 MPhi
 (
 TempAllocator
@@ -26068,7 +25682,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 {
 return
 inputs_
@@ -26086,7 +25699,6 @@ numOperands
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 inputs_
@@ -26394,7 +26006,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 MDefinition
 *
@@ -26411,7 +26022,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 isIterator
@@ -26438,7 +26048,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -26456,7 +26065,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 MDefinition
 *
@@ -26469,7 +26077,6 @@ canProduceFloat32
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 canProduceFloat32_
@@ -26495,7 +26102,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 canConsumeFloat32_
@@ -26520,7 +26126,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 needTruncation
@@ -26528,13 +26133,11 @@ needTruncation
 TruncateKind
 kind
 )
-MOZ_OVERRIDE
 ;
 void
 truncate
 (
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -26611,7 +26214,6 @@ FILE
 fp
 )
 const
-MOZ_OVERRIDE
 ;
 static
 MBeta
@@ -26647,7 +26249,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -26665,7 +26266,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -26775,7 +26375,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -27114,7 +26713,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -27303,7 +26901,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -27381,7 +26978,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -27516,7 +27112,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -27624,7 +27219,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -27753,7 +27347,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -27769,7 +27362,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -27892,14 +27484,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -27942,7 +27532,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -28062,7 +27651,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -28076,14 +27664,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -28231,7 +27817,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -28286,6 +27871,7 @@ INSTRUCTION_HEADER
 (
 RegExpReplace
 )
+;
 static
 MRegExpReplace
 *
@@ -28326,14 +27912,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -28420,6 +28004,7 @@ INSTRUCTION_HEADER
 (
 StringReplace
 )
+;
 static
 MStringReplace
 *
@@ -28461,7 +28046,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -28475,7 +28059,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -28494,14 +28077,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -28600,6 +28181,7 @@ INSTRUCTION_HEADER
 (
 Substr
 )
+;
 static
 MSubstr
 *
@@ -28680,7 +28262,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -28694,7 +28275,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -29052,14 +28632,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -29331,7 +28909,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -29345,7 +28922,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -29453,7 +29029,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -29467,7 +29042,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -29572,14 +29146,12 @@ FILE
 fp
 )
 const
-MOZ_OVERRIDE
 ;
 HashNumber
 valueHash
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 (
@@ -29600,7 +29172,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 ins
@@ -29634,7 +29205,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -29742,7 +29312,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -29756,7 +29325,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -29893,7 +29461,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -29907,7 +29474,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -30025,7 +29591,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -30039,7 +29604,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -30062,7 +29626,6 @@ needsResumePoint
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 false
@@ -30159,7 +29722,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -30173,7 +29735,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -30195,7 +29756,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -30307,7 +29867,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -30415,7 +29974,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -30429,7 +29987,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -30451,7 +30008,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -30563,7 +30119,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -30667,7 +30222,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -30681,7 +30235,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -30703,7 +30256,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -30794,7 +30346,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -30808,7 +30359,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -30940,7 +30490,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -30996,7 +30545,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -31141,7 +30689,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -31274,6 +30821,7 @@ INSTRUCTION_HEADER
 (
 Not
 )
+;
 void
 cacheOperandMightEmulateUndefined
 (
@@ -31287,7 +30835,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 void
 markOperandCantEmulateUndefined
@@ -31325,7 +30872,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -31340,7 +30886,6 @@ void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 void
 trySpecializeFloat32
@@ -31349,14 +30894,12 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 isFloat32Commutative
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -31373,7 +30916,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -31390,7 +30932,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -31407,14 +30948,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -31617,7 +31156,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -31628,7 +31166,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -31698,7 +31235,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -31716,7 +31252,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -31855,7 +31390,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -31880,7 +31414,6 @@ void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -32147,7 +31680,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -32240,14 +31772,12 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 AliasSet
 getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -32476,7 +32006,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -32549,7 +32078,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -32568,7 +32096,6 @@ void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -32776,7 +32303,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -32849,7 +32375,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -33022,7 +32547,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -33078,7 +32602,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -33393,7 +32916,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -33639,7 +33161,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -33881,7 +33402,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -34100,7 +33620,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -34271,7 +33790,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -34404,7 +33922,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -34431,7 +33948,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -34606,7 +34122,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -34631,7 +34146,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -34749,7 +34263,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -34761,7 +34274,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -34789,7 +34301,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -35060,7 +34571,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -35100,7 +34610,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -35179,7 +34688,6 @@ FILE
 fp
 )
 const
-MOZ_OVERRIDE
 ;
 void
 computeRange
@@ -35188,14 +34696,12 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 canProduceFloat32
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 arrayType_
@@ -35426,7 +34932,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -35499,7 +35004,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -35519,7 +35023,6 @@ canProduceFloat32
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 arrayType_
@@ -35653,6 +35156,7 @@ INSTRUCTION_HEADER
 (
 LoadTypedArrayElementStatic
 )
+;
 static
 MLoadTypedArrayElementStatic
 *
@@ -35765,14 +35269,12 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 ;
 AliasSet
 getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -35836,7 +35338,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 needTruncation
@@ -35844,14 +35345,12 @@ needTruncation
 TruncateKind
 kind
 )
-MOZ_OVERRIDE
 ;
 bool
 canProduceFloat32
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 viewType
@@ -35869,7 +35368,6 @@ void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -36172,7 +35670,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -36234,7 +35731,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canConsumeFloat32
@@ -36244,7 +35740,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 use
@@ -36588,7 +36083,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -36610,7 +36104,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canConsumeFloat32
@@ -36620,7 +36113,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 use
@@ -36713,6 +36205,7 @@ INSTRUCTION_HEADER
 (
 StoreTypedArrayElementStatic
 )
+;
 static
 MStoreTypedArrayElementStatic
 *
@@ -36890,7 +36383,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -36912,7 +36404,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canConsumeFloat32
@@ -36922,7 +36413,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 use
@@ -36949,7 +36439,6 @@ void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -37040,6 +36529,7 @@ INSTRUCTION_HEADER
 (
 EffectiveAddress
 )
+;
 static
 MEffectiveAddress
 *
@@ -37198,7 +36688,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -37209,7 +36698,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -37223,7 +36711,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -37241,7 +36728,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -37359,7 +36845,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -37411,14 +36896,12 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 AliasSet
 getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -37442,7 +36925,6 @@ MDefinition
 store
 )
 const
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -37616,7 +37098,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -38255,7 +37736,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -38312,7 +37792,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -38362,7 +37841,6 @@ MBasicBlock
 *
 block
 )
-MOZ_OVERRIDE
 ;
 bool
 updateForReplacement
@@ -38371,7 +37849,6 @@ MDefinition
 *
 ins
 )
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -38505,7 +37982,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -38653,7 +38129,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -38687,7 +38162,6 @@ MDefinition
 store
 )
 const
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -38927,7 +38401,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -40075,7 +39548,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -40146,7 +39618,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -40317,14 +39788,12 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 ;
 AliasSet
 getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -40495,7 +39964,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -40566,7 +40034,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -40724,7 +40191,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -40795,7 +40261,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -40927,7 +40392,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -40976,7 +40440,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -41114,7 +40577,6 @@ valueHash
 (
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -41125,7 +40587,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -41177,14 +40638,12 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 AliasSet
 getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -41223,7 +40682,6 @@ MDefinition
 store
 )
 const
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -41317,14 +40775,12 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 AliasSet
 getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -41576,7 +41032,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -41804,7 +41259,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -41820,7 +41274,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -41874,6 +41327,7 @@ INSTRUCTION_HEADER
 (
 CallsiteCloneCache
 )
+;
 static
 MCallsiteCloneCache
 *
@@ -41932,7 +41386,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -42487,7 +41940,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -42662,6 +42114,7 @@ INSTRUCTION_HEADER
 (
 SetElementCache
 )
+;
 static
 MSetElementCache
 *
@@ -42718,7 +42171,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 use
@@ -42874,7 +42326,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -42907,7 +42358,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -42987,7 +42437,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -43076,7 +42525,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -43221,7 +42669,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -43366,7 +42813,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -43764,7 +43210,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -43843,7 +43288,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 JSJitInfo
 :
@@ -43924,7 +43368,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -44038,7 +43481,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 false
@@ -44053,7 +43495,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -44160,7 +43601,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 MDefinition
 *
@@ -44185,7 +43625,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -44199,7 +43638,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -44217,7 +43655,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -44227,14 +43664,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -44323,7 +43758,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -44339,7 +43773,6 @@ isFloat32Commutative
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -44352,7 +43785,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -44365,7 +43797,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -44382,7 +43813,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -44398,7 +43828,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -44408,14 +43837,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -44504,7 +43931,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -44520,7 +43946,6 @@ isFloat32Commutative
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -44533,7 +43958,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -44546,7 +43970,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -44563,7 +43986,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -44579,7 +44001,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 ALLOW_CLONE
 (
@@ -44664,7 +44085,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -44680,7 +44100,6 @@ isFloat32Commutative
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -44693,7 +44112,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -44706,7 +44124,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -44723,7 +44140,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -44740,14 +44156,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -45001,7 +44415,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -45167,7 +44580,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -45403,14 +44815,12 @@ void
 collectRangeInfoPreTrunc
 (
 )
-MOZ_OVERRIDE
 ;
 AliasSet
 getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -45434,7 +44844,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -45723,7 +45132,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -45737,7 +45145,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -45755,7 +45162,6 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 bool
 writeRecoverData
@@ -45765,14 +45171,12 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -45881,7 +45285,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -45895,7 +45298,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -46030,7 +45432,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 false
@@ -46041,7 +45442,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -46182,6 +45582,7 @@ INSTRUCTION_HEADER
 (
 Rest
 )
+;
 static
 MRest
 *
@@ -46239,7 +45640,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -46255,7 +45655,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true
@@ -46365,7 +45764,6 @@ MDefinition
 def
 )
 const
-MOZ_OVERRIDE
 {
 return
 false
@@ -46376,7 +45774,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -46393,7 +45790,6 @@ neverHoist
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 resultTypeSet
@@ -46554,7 +45950,6 @@ FILE
 fp
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -46565,14 +45960,12 @@ MDefinition
 def
 )
 const
-MOZ_OVERRIDE
 ;
 AliasSet
 getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -46589,7 +45982,6 @@ neverHoist
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 resultTypeSet
@@ -46835,7 +46227,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -46950,7 +46341,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -46972,7 +46362,6 @@ MUse
 use
 )
 const
-MOZ_OVERRIDE
 {
 return
 use
@@ -47033,6 +46422,7 @@ INSTRUCTION_HEADER
 (
 NewDeclEnvObject
 )
+;
 static
 MNewDeclEnvObject
 *
@@ -47072,7 +46462,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -47139,7 +46528,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -47450,7 +46838,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -47525,7 +46912,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -47700,7 +47086,6 @@ getUseFor
 size_t
 index
 )
-MOZ_OVERRIDE
 {
 return
 &
@@ -47719,7 +47104,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 {
 return
 &
@@ -47793,7 +47177,6 @@ kind
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 MNode
@@ -47833,7 +47216,6 @@ numOperands
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 numAllocatedOperands
@@ -47970,7 +47352,6 @@ size_t
 index
 )
 const
-MOZ_OVERRIDE
 {
 return
 operands_
@@ -48182,7 +47563,6 @@ CompactBufferWriter
 writer
 )
 const
-MOZ_OVERRIDE
 ;
 void
 addStore
@@ -48244,7 +47624,6 @@ FILE
 fp
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -48252,7 +47631,6 @@ dump
 (
 )
 const
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -48296,6 +47674,7 @@ INSTRUCTION_HEADER
 (
 IsCallable
 )
+;
 static
 MIsCallable
 *
@@ -48339,7 +47718,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -48392,6 +47770,7 @@ INSTRUCTION_HEADER
 (
 IsObject
 )
+;
 static
 MIsObject
 *
@@ -48439,7 +47818,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 return
 congruentIfOperandsEqual
@@ -48453,7 +47831,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -48531,6 +47908,7 @@ INSTRUCTION_HEADER
 (
 HasClass
 )
+;
 static
 MHasClass
 *
@@ -48591,7 +47969,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -48611,7 +47988,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 {
 if
 (
@@ -48762,6 +48138,7 @@ INSTRUCTION_HEADER
 (
 RecompileCheck
 )
+;
 static
 MRecompileCheck
 *
@@ -48838,7 +48215,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -48897,6 +48273,7 @@ INSTRUCTION_HEADER
 (
 MemoryBarrier
 )
+;
 static
 MMemoryBarrier
 *
@@ -48937,7 +48314,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -49054,6 +48430,7 @@ INSTRUCTION_HEADER
 (
 CompareExchangeTypedArrayElement
 )
+;
 static
 MCompareExchangeTypedArrayElement
 *
@@ -49211,7 +48588,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -49328,6 +48704,7 @@ INSTRUCTION_HEADER
 (
 AtomicTypedArrayElementBinop
 )
+;
 static
 MAtomicTypedArrayElementBinop
 *
@@ -49472,7 +48849,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -49501,6 +48877,7 @@ INSTRUCTION_HEADER
 (
 Debugger
 )
+;
 static
 MDebugger
 *
@@ -49564,6 +48941,7 @@ INSTRUCTION_HEADER
 (
 AsmJSNeg
 )
+;
 static
 MAsmJSNeg
 *
@@ -49867,6 +49245,7 @@ INSTRUCTION_HEADER
 (
 AsmJSLoadHeap
 )
+;
 static
 MAsmJSLoadHeap
 *
@@ -49953,14 +49332,12 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 ;
 AliasSet
 getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -49984,7 +49361,6 @@ MDefinition
 def
 )
 const
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -50064,6 +49440,7 @@ INSTRUCTION_HEADER
 (
 AsmJSStoreHeap
 )
+;
 static
 MAsmJSStoreHeap
 *
@@ -50164,7 +49541,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -50242,6 +49618,7 @@ INSTRUCTION_HEADER
 (
 AsmJSCompareExchangeHeap
 )
+;
 static
 MAsmJSCompareExchangeHeap
 *
@@ -50330,7 +49707,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -50413,6 +49789,7 @@ INSTRUCTION_HEADER
 (
 AsmJSAtomicBinopHeap
 )
+;
 static
 MAsmJSAtomicBinopHeap
 *
@@ -50496,7 +49873,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -50574,6 +49950,7 @@ INSTRUCTION_HEADER
 (
 AsmJSLoadGlobalVar
 )
+;
 static
 MAsmJSLoadGlobalVar
 *
@@ -50618,7 +49995,6 @@ valueHash
 (
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -50629,7 +50005,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 ;
 MDefinition
 *
@@ -50639,14 +50014,12 @@ TempAllocator
 &
 alloc
 )
-MOZ_OVERRIDE
 ;
 AliasSet
 getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 isConstant_
@@ -50679,7 +50052,6 @@ MDefinition
 def
 )
 const
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -50722,6 +50094,7 @@ INSTRUCTION_HEADER
 (
 AsmJSStoreGlobalVar
 )
+;
 static
 MAsmJSStoreGlobalVar
 *
@@ -50778,7 +50151,6 @@ getAliasSet
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 AliasSet
@@ -50839,6 +50211,7 @@ INSTRUCTION_HEADER
 (
 AsmJSLoadFuncPtr
 )
+;
 static
 MAsmJSLoadFuncPtr
 *
@@ -50895,7 +50268,6 @@ valueHash
 (
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -50906,7 +50278,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -50943,6 +50314,7 @@ INSTRUCTION_HEADER
 (
 AsmJSLoadFFIFunc
 )
+;
 static
 MAsmJSLoadFFIFunc
 *
@@ -50981,7 +50353,6 @@ valueHash
 (
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 congruentTo
@@ -50992,7 +50363,6 @@ MDefinition
 ins
 )
 const
-MOZ_OVERRIDE
 ;
 }
 ;
@@ -51030,6 +50400,7 @@ INSTRUCTION_HEADER
 (
 AsmJSParameter
 )
+;
 static
 MAsmJSParameter
 *
@@ -51104,6 +50475,7 @@ INSTRUCTION_HEADER
 (
 AsmJSReturn
 )
+;
 static
 MAsmJSReturn
 *
@@ -51151,6 +50523,7 @@ INSTRUCTION_HEADER
 (
 AsmJSVoidReturn
 )
+;
 static
 MAsmJSVoidReturn
 *
@@ -51212,6 +50585,7 @@ INSTRUCTION_HEADER
 (
 AsmJSPassStackArg
 )
+;
 static
 MAsmJSPassStackArg
 *
@@ -51515,6 +50889,7 @@ INSTRUCTION_HEADER
 (
 AsmJSCall
 )
+;
 struct
 Arg
 {
@@ -51694,7 +51069,6 @@ possiblyCalls
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 true

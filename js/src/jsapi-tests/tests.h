@@ -1908,7 +1908,6 @@ char
 name
 (
 )
-MOZ_OVERRIDE
 {
 return
 #
@@ -1926,7 +1925,6 @@ JS
 HandleObject
 global
 )
-MOZ_OVERRIDE
 #
 define
 END_TEST
@@ -1978,7 +1976,6 @@ char
 name
 (
 )
-MOZ_OVERRIDE
 {
 return
 #
@@ -1996,7 +1993,6 @@ JS
 HandleObject
 global
 )
-MOZ_OVERRIDE
 #
 define
 END_FIXTURE_TEST

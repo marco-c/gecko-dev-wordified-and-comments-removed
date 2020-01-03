@@ -924,7 +924,6 @@ void
 reset
 (
 )
-MOZ_OVERRIDE
 ;
 void
 emitInitialJump
@@ -936,7 +935,6 @@ AddCacheState
 &
 addState
 )
-MOZ_OVERRIDE
 ;
 void
 bindInitialJump
@@ -948,7 +946,6 @@ AddCacheState
 &
 addState
 )
-MOZ_OVERRIDE
 ;
 void
 updateBaseAddress
@@ -960,7 +957,6 @@ MacroAssembler
 &
 masm
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1026,7 +1022,6 @@ void
 reset
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1039,7 +1034,6 @@ AddCacheState
 *
 addState
 )
-MOZ_OVERRIDE
 ;
 void
 emitInitialJump
@@ -1051,7 +1045,6 @@ AddCacheState
 &
 addState
 )
-MOZ_OVERRIDE
 ;
 void
 bindInitialJump
@@ -1063,7 +1056,6 @@ AddCacheState
 &
 addState
 )
-MOZ_OVERRIDE
 ;
 void
 updateBaseAddress
@@ -1075,7 +1067,6 @@ MacroAssembler
 &
 masm
 )
-MOZ_OVERRIDE
 ;
 virtual
 void

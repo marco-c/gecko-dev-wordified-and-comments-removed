@@ -1328,7 +1328,6 @@ void
 uninit
 (
 )
-MOZ_OVERRIDE
 {
 trusted_glob
 =
