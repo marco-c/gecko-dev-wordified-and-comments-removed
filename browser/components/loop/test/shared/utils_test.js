@@ -1055,7 +1055,7 @@ id
 {
 case
 "
-share_email_subject4
+share_email_subject5
 "
 :
 return
@@ -1065,7 +1065,7 @@ subject
 ;
 case
 "
-share_email_body4
+share_email_body5
 "
 :
 return
