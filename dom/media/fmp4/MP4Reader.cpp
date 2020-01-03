@@ -2671,6 +2671,14 @@ IsCurrentThreadIn
 )
 )
 ;
+if
+(
+mShutdown
+)
+{
+return
+;
+}
 uint32_t
 parsed
 =

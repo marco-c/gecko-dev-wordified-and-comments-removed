@@ -695,6 +695,9 @@ mStartTime
 bool
 mHitAudioDecodeError
 ;
+bool
+mShutdown
+;
 private
 :
 MediaPromiseHolder
@@ -723,9 +726,6 @@ mAudioDiscontinuity
 ;
 bool
 mVideoDiscontinuity
-;
-bool
-mShutdown
 ;
 }
 ;
