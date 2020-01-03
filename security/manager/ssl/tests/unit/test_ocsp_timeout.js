@@ -292,6 +292,11 @@ timeDifference
 ms
 )
 ;
+const
+FUZZ_MS
+=
+300
+;
 if
 (
 useHardFail
@@ -300,6 +305,8 @@ useHardFail
 do_check_true
 (
 timeDifference
++
+FUZZ_MS
 >
 10000
 )
@@ -310,6 +317,8 @@ else
 do_check_true
 (
 timeDifference
++
+FUZZ_MS
 >
 2000
 )
