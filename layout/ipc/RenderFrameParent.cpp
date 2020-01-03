@@ -1778,10 +1778,14 @@ gfx
 :
 Matrix4x4
 m
-;
-m
-.
-Translate
+=
+gfx
+:
+:
+Matrix4x4
+:
+:
+Translation
 (
 offset
 .
@@ -1796,7 +1800,7 @@ y
 ;
 m
 .
-Scale
+PreScale
 (
 aContainerParameters
 .

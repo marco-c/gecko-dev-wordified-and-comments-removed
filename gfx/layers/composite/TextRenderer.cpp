@@ -768,7 +768,7 @@ aTransform
 ;
 transform
 .
-Scale
+PreScale
 (
 scaleFactor
 scaleFactor
