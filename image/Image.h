@@ -630,13 +630,6 @@ INIT_FLAG_DOWNSCALE_DURING_DECODE
 =
 0x10
 ;
-static
-const
-uint32_t
-INIT_FLAG_SYNC_LOAD
-=
-0x20
-;
 virtual
 already_AddRefed
 <
