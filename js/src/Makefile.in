@@ -823,8 +823,13 @@ tinderbox
 -
 -
 tbpl
+\
 (
 JITTEST_VALGRIND_FLAG
+)
+\
+(
+JITTEST_EXTRA_ARGS
 )
 \
 (
