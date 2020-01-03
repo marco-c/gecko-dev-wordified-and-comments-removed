@@ -2673,7 +2673,7 @@ JS_SIMDTYPEREPR_INT8
 :
 return
 "
-int8x16
+Int8x16
 "
 ;
 case
@@ -2681,7 +2681,7 @@ JS_SIMDTYPEREPR_INT16
 :
 return
 "
-int16x8
+Int16x8
 "
 ;
 case
@@ -2689,7 +2689,7 @@ JS_SIMDTYPEREPR_INT32
 :
 return
 "
-int32x4
+Int32x4
 "
 ;
 case
@@ -2697,7 +2697,7 @@ JS_SIMDTYPEREPR_FLOAT32
 :
 return
 "
-float32x4
+Float32x4
 "
 ;
 case
@@ -2705,7 +2705,7 @@ JS_SIMDTYPEREPR_FLOAT64
 :
 return
 "
-float64x2
+Float64x2
 "
 ;
 }
@@ -3042,6 +3042,8 @@ this
 )
 ;
 return
+SIMD
+.
 {
 protoString
 }
@@ -3190,6 +3192,8 @@ this
 )
 ;
 return
+SIMD
+.
 {
 protoString
 }
@@ -3270,6 +3274,8 @@ this
 )
 ;
 return
+SIMD
+.
 {
 protoString
 }
@@ -3338,6 +3344,8 @@ this
 )
 ;
 return
+SIMD
+.
 {
 protoString
 }
@@ -3384,6 +3392,8 @@ this
 )
 ;
 return
+SIMD
+.
 {
 protoString
 }
