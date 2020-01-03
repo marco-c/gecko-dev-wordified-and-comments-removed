@@ -1752,7 +1752,7 @@ enabled
 "
 ImageDownscaleDuringDecodeEnabled
 bool
-false
+true
 )
 ;
 DECL_GFX_PREF
