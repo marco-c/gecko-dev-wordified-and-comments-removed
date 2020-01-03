@@ -4,6 +4,9 @@ mozilla_layers_APZThreadUtils_h
 #
 define
 mozilla_layers_APZThreadUtils_h
+class
+Task
+;
 namespace
 mozilla
 {
@@ -39,6 +42,15 @@ static
 void
 AssertOnCompositorThread
 (
+)
+;
+static
+void
+RunOnControllerThread
+(
+Task
+*
+aTask
 )
 ;
 }
