@@ -1795,6 +1795,17 @@ tryD2D
 device
 &
 &
+device
+-
+>
+GetFeatureLevel
+(
+)
+>
+=
+D3D_FEATURE_LEVEL_10_0
+&
+&
 DoesD3D11DeviceSupportResourceSharing
 (
 device
