@@ -2881,16 +2881,6 @@ true
 "
 media
 .
-mediasource
-.
-whitelist
-"
-false
-]
-[
-"
-media
-.
 fragmented
 -
 mp4

@@ -110,16 +110,6 @@ enabled
 "
 true
 ]
-[
-"
-media
-.
-mediasource
-.
-whitelist
-"
-false
-]
 ]
 }
 bootstrapTest
