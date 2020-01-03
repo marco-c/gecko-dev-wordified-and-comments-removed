@@ -1784,6 +1784,9 @@ AddPendingRestylesForDescendantsMatchingSelectors
 Element
 *
 aElement
+Element
+*
+aRestyleRoot
 )
 ;
 #
