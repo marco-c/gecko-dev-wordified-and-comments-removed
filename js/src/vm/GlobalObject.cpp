@@ -2239,7 +2239,6 @@ NewNativeObjectWithGivenProto
 cx
 clasp
 proto
-global
 SingletonObject
 )
 )
@@ -2697,7 +2696,6 @@ GlobalDebuggees_class
 NullPtr
 (
 )
-global
 )
 ;
 if

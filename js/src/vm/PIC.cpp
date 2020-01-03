@@ -1410,7 +1410,6 @@ jsclass
 NullPtr
 (
 )
-global
 )
 ;
 if

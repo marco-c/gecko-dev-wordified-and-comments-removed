@@ -225,7 +225,6 @@ StarGeneratorObject
 :
 class_
 proto
-global
 )
 ;
 }
@@ -278,7 +277,6 @@ LegacyGeneratorObject
 :
 class_
 proto
-global
 )
 ;
 }

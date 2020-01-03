@@ -10266,9 +10266,6 @@ PlainObject
 :
 class_
 proto
-NullPtr
-(
-)
 kind
 newKind
 )
