@@ -704,6 +704,16 @@ origin
 aQuotaInfo
 .
 mOrigin
++
+NS_LITERAL_CSTRING
+(
+"
+&
+cache
+=
+private
+"
+)
 )
 ;
 if
