@@ -242,14 +242,6 @@ project
 (
 '
 :
-omnijar
-'
-)
-compile
-project
-(
-'
-:
 preprocessed_code
 '
 )
