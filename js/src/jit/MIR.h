@@ -881,6 +881,15 @@ const
 ;
 protected
 :
+friend
+void
+AssertBasicGraphCoherency
+(
+MIRGraph
+&
+graph
+)
+;
 virtual
 MUse
 *
