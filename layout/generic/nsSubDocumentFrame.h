@@ -34,6 +34,13 @@ nsFrameLoader
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 class
 nsSubDocumentFrame
 :
@@ -435,7 +442,10 @@ uint32_t
 aFlags
 )
 ;
-nsIntSize
+mozilla
+:
+:
+ScreenIntSize
 GetSubdocumentSize
 (
 )

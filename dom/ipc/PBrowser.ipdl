@@ -235,6 +235,15 @@ h
 "
 ;
 using
+ScreenIntSize
+from
+"
+Units
+.
+h
+"
+;
+using
 struct
 mozilla
 :
@@ -3075,7 +3084,7 @@ point
 /
 Show
 (
-nsIntSize
+ScreenIntSize
 size
 ShowInfo
 info
@@ -3110,7 +3119,7 @@ UpdateDimensions
 (
 nsIntRect
 rect
-nsIntSize
+ScreenIntSize
 size
 ScreenOrientation
 orientation

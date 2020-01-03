@@ -1218,7 +1218,7 @@ bool
 RecvShow
 (
 const
-nsIntSize
+ScreenIntSize
 &
 aSize
 const
@@ -1252,7 +1252,7 @@ nsIntRect
 &
 rect
 const
-nsIntSize
+ScreenIntSize
 &
 size
 const
@@ -1271,9 +1271,6 @@ bool
 RecvUpdateFrame
 (
 const
-mozilla
-:
-:
 layers
 :
 :

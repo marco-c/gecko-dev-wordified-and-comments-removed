@@ -1047,7 +1047,7 @@ return
 presShell
 ;
 }
-nsIntSize
+ScreenIntSize
 nsSubDocumentFrame
 :
 :
@@ -1136,7 +1136,7 @@ PresContext
 )
 ;
 return
-nsIntSize
+ScreenIntSize
 (
 presContext
 -
@@ -1161,7 +1161,7 @@ height
 }
 }
 return
-nsIntSize
+ScreenIntSize
 (
 10
 10
@@ -1274,7 +1274,7 @@ Size
 ;
 }
 return
-nsIntSize
+ScreenIntSize
 (
 presContext
 -
