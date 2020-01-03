@@ -187,6 +187,9 @@ test_2
 compileAndGo
 :
 true
+isRunOnce
+:
+true
 }
 )
 ;
