@@ -906,6 +906,7 @@ propertyList
 >
 mObjectValueMap
 aObject
+fallible
 )
 )
 ;

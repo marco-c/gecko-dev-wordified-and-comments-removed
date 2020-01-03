@@ -813,6 +813,7 @@ PL_DHashTableAdd
 &
 aCompareCache
 aCert
+fallible
 )
 )
 ;

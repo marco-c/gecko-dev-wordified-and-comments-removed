@@ -3351,6 +3351,7 @@ PL_DHashTableAdd
 &
 gHashTable
 key
+fallible
 )
 )
 ;

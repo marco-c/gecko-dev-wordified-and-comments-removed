@@ -2135,6 +2135,7 @@ PL_DHashTableAdd
 &
 mMappedAttrTable
 aMapped
+fallible
 )
 )
 ;
@@ -2303,6 +2304,7 @@ PL_DHashTableAdd
 mLangRuleTable
 &
 aLanguage
+fallible
 )
 )
 ;
