@@ -690,7 +690,7 @@ type
 '
 nfc
 -
-write
+share
 '
 '
 allow

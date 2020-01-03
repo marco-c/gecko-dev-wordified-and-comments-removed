@@ -305,7 +305,7 @@ QueryInfo
 ]
 ;
 const
-NFC_IPC_READ_PERM_MSG_NAMES
+NFC_IPC_NFC_PERM_MSG_NAMES
 =
 [
 "
@@ -323,12 +323,6 @@ NFC
 :
 Close
 "
-]
-;
-const
-NFC_IPC_WRITE_PERM_MSG_NAMES
-=
-[
 "
 NFC
 :
@@ -344,6 +338,12 @@ NFC
 :
 Format
 "
+]
+;
+const
+NFC_IPC_NFC_SHARE_PERM_MSG_NAMES
+=
+[
 "
 NFC
 :
@@ -688,7 +688,7 @@ for
 let
 message
 of
-NFC_IPC_READ_PERM_MSG_NAMES
+NFC_IPC_NFC_PERM_MSG_NAMES
 )
 {
 ppmm
@@ -705,7 +705,7 @@ for
 let
 message
 of
-NFC_IPC_WRITE_PERM_MSG_NAMES
+NFC_IPC_NFC_SHARE_PERM_MSG_NAMES
 )
 {
 ppmm
@@ -795,7 +795,7 @@ for
 let
 message
 of
-NFC_IPC_READ_PERM_MSG_NAMES
+NFC_IPC_NFC_PERM_MSG_NAMES
 )
 {
 ppmm
@@ -812,7 +812,7 @@ for
 let
 message
 of
-NFC_IPC_WRITE_PERM_MSG_NAMES
+NFC_IPC_NFC_SHARE_PERM_MSG_NAMES
 )
 {
 ppmm
@@ -1532,7 +1532,7 @@ name
 else
 if
 (
-NFC_IPC_READ_PERM_MSG_NAMES
+NFC_IPC_NFC_PERM_MSG_NAMES
 .
 indexOf
 (
@@ -1557,8 +1557,6 @@ assertPermission
 (
 "
 nfc
--
-read
 "
 )
 )
@@ -1567,6 +1565,7 @@ debug
 (
 "
 Nfc
+Peer
 message
 "
 +
@@ -1583,8 +1582,6 @@ with
 no
 '
 nfc
--
-read
 '
 privileges
 .
@@ -1599,7 +1596,7 @@ null
 else
 if
 (
-NFC_IPC_WRITE_PERM_MSG_NAMES
+NFC_IPC_NFC_SHARE_PERM_MSG_NAMES
 .
 indexOf
 (
@@ -1625,7 +1622,7 @@ assertPermission
 "
 nfc
 -
-write
+share
 "
 )
 )
@@ -1652,7 +1649,7 @@ no
 '
 nfc
 -
-write
+share
 '
 privileges
 .
