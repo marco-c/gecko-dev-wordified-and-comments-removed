@@ -526,7 +526,9 @@ dicts
 indexOf
 (
 "
-base_utf
+base
+-
+utf
 "
 )
 -
@@ -566,7 +568,9 @@ setCurrentDictionary
 (
 editor
 "
-base_utf
+base
+-
+utf
 "
 )
 ;
@@ -614,7 +618,9 @@ getCurrentDictionary
 editor
 )
 "
-base_utf
+base
+-
+utf
 "
 "
 current
@@ -792,7 +798,9 @@ dicts
 indexOf
 (
 "
-base_utf
+base
+-
+utf
 "
 )
 -
