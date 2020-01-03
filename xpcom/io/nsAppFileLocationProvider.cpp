@@ -2325,8 +2325,10 @@ NS_ERROR_FAILURE
 }
 protected
 :
+nsCOMPtr
+<
 nsIDirectoryServiceProvider
-*
+>
 mProvider
 ;
 const
