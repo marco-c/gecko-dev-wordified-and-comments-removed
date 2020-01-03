@@ -85,11 +85,11 @@ MessagePortMessage
 aMessages
 )
 {
-MOZ_ASSERT
+if
 (
 mPort
 )
-;
+{
 mPort
 -
 >
@@ -98,6 +98,7 @@ Entangled
 aMessages
 )
 ;
+}
 return
 true
 ;
@@ -117,11 +118,11 @@ MessagePortMessage
 aMessages
 )
 {
-MOZ_ASSERT
+if
 (
 mPort
 )
-;
+{
 mPort
 -
 >
@@ -130,6 +131,7 @@ MessagesReceived
 aMessages
 )
 ;
+}
 return
 true
 ;
