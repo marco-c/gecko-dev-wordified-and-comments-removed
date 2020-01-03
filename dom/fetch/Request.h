@@ -79,12 +79,12 @@ MOZ_FINAL
 public
 nsISupports
 public
-nsWrapperCache
-public
 FetchBody
 <
 Request
 >
+public
+nsWrapperCache
 {
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS

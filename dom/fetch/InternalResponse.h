@@ -297,6 +297,12 @@ nsIInputStream
 aBody
 )
 {
+MOZ_ASSERT
+(
+!
+mBody
+)
+;
 mBody
 =
 aBody
