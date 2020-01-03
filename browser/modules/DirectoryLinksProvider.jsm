@@ -871,7 +871,7 @@ relatedSite
 of
 link
 .
-related
+suggested
 )
 {
 let
@@ -1967,7 +1967,7 @@ position
 if
 (
 "
-related
+suggested
 "
 =
 =
@@ -2478,7 +2478,7 @@ sortedLinks
 if
 (
 "
-related
+suggested
 "
 =
 =
@@ -2511,7 +2511,7 @@ lastVisitDate
 type
 :
 "
-related
+suggested
 "
 }
 0
@@ -2699,7 +2699,7 @@ lastVisitDate
 type
 :
 "
-related
+suggested
 "
 targetedSite
 :
