@@ -1430,7 +1430,7 @@ LSimdValueX4
 lir
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -1446,7 +1446,7 @@ LInt32x4
 ins
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -1462,7 +1462,7 @@ LFloat32x4
 ins
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -1478,7 +1478,7 @@ LSimdExtractElementI
 ins
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -1494,7 +1494,7 @@ LSimdExtractElementF
 ins
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -1510,7 +1510,7 @@ LSimdBinaryArithIx4
 lir
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -1526,7 +1526,7 @@ LSimdBinaryArithFx4
 lir
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI

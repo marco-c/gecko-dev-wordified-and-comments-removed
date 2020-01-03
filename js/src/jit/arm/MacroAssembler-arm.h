@@ -2786,7 +2786,7 @@ mode
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3189,7 +3189,7 @@ Address
 dest
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -3208,7 +3208,7 @@ Register
 dest
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -8636,7 +8636,7 @@ FloatRegister
 dest
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -8653,7 +8653,7 @@ Address
 addr
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -8672,7 +8672,7 @@ FloatRegister
 dest
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -8689,7 +8689,7 @@ Address
 addr
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -8708,7 +8708,7 @@ FloatRegister
 dest
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -8725,7 +8725,7 @@ Address
 addr
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -8744,7 +8744,7 @@ FloatRegister
 dest
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI
@@ -8761,7 +8761,7 @@ Address
 addr
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 NYI

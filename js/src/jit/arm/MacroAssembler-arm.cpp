@@ -3590,7 +3590,7 @@ Condition
 c
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Feature
@@ -3747,7 +3747,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 trying
@@ -4065,7 +4065,7 @@ return
 NotEqual
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Condition
@@ -4156,7 +4156,7 @@ return
 NotEqual
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Condition
@@ -4521,7 +4521,7 @@ Condition
 cc
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Feature
@@ -6158,7 +6158,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Other
@@ -17142,7 +17142,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bogus
@@ -17574,7 +17574,7 @@ dest
 return
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 why
@@ -17828,7 +17828,7 @@ dest
 return
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 why
@@ -18783,7 +18783,7 @@ break
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -18933,7 +18933,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -19712,7 +19712,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -19842,7 +19842,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -19933,7 +19933,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
