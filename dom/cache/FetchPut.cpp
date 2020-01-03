@@ -126,19 +126,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-cache
-/
-PCacheTypes
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -383,7 +370,7 @@ aCacheId
 const
 nsTArray
 <
-PCacheRequest
+CacheRequest
 >
 &
 aRequests
@@ -552,7 +539,7 @@ aCacheId
 const
 nsTArray
 <
-PCacheRequest
+CacheRequest
 >
 &
 aRequests
@@ -662,7 +649,7 @@ AppendElement
 s
 -
 >
-mPCacheRequest
+mCacheRequest
 =
 aRequests
 [
@@ -982,7 +969,7 @@ mStateList
 i
 ]
 .
-mPCacheRequest
+mCacheRequest
 )
 ;
 if
@@ -1202,14 +1189,14 @@ aObserver
 ErrorResult
 rv
 ;
-ToPCacheResponseWithoutBody
+ToCacheResponseWithoutBody
 (
 mStateList
 [
 i
 ]
 .
-mPCacheResponse
+mCacheResponse
 *
 aInternalResponse
 rv
@@ -1449,7 +1436,7 @@ mStateList
 i
 ]
 .
-mPCacheRequest
+mCacheRequest
 putList
 )
 )
@@ -1488,7 +1475,7 @@ mStateList
 i
 ]
 .
-mPCacheRequest
+mCacheRequest
 ;
 entry
 -
@@ -1502,7 +1489,7 @@ mStateList
 i
 ]
 .
-mPCacheResponse
+mCacheResponse
 ;
 requestStreamList
 .
@@ -1563,7 +1550,7 @@ FetchPut
 MatchInPutList
 (
 const
-PCacheRequest
+CacheRequest
 &
 aRequest
 const
@@ -1648,7 +1635,7 @@ i
 )
 {
 const
-PCacheRequest
+CacheRequest
 &
 cachedRequest
 =
@@ -1662,7 +1649,7 @@ request
 )
 ;
 const
-PCacheResponse
+CacheResponse
 &
 cachedResponse
 =

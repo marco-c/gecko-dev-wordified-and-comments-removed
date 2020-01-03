@@ -444,6 +444,11 @@ IPDL_SOURCES
 =
 [
 '
+CacheTypes
+.
+ipdlh
+'
+'
 PCache
 .
 ipdl
@@ -467,11 +472,6 @@ ipdl
 PCacheStreamControl
 .
 ipdl
-'
-'
-PCacheTypes
-.
-ipdlh
 '
 ]
 include
