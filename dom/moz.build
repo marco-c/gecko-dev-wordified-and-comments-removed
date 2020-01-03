@@ -364,9 +364,6 @@ system
 ipc
 '
 '
-identity
-'
-'
 workers
 '
 '
@@ -570,6 +567,9 @@ DIRS
 [
 '
 downloads
+'
+'
+identity
 '
 '
 mobileid
