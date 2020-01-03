@@ -5377,8 +5377,6 @@ _kids
 )
 {
 return
-max
-=
 Math
 .
 abs

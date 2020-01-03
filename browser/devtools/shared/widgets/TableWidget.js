@@ -1069,7 +1069,6 @@ id
 checked
 )
 ;
-let
 checked
 =
 this

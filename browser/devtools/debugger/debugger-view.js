@@ -1152,7 +1152,6 @@ modifiers
 }
 )
 {
-let
 key
 =
 document

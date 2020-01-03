@@ -734,6 +734,9 @@ aMessage
 .
 data
 ;
+let
+cursorList
+;
 switch
 (
 aMessage
@@ -926,7 +929,6 @@ return
 null
 ;
 }
-let
 cursorList
 =
 this

@@ -5720,7 +5720,6 @@ continue
 return
 ;
 }
-let
 threadRecord
 =
 {

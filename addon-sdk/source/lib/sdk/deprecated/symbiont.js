@@ -956,11 +956,6 @@ load
 DOMContentLoaded
 '
 ;
-let
-self
-=
-this
-;
 this
 .
 _loadEvent

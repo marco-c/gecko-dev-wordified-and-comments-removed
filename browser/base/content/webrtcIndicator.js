@@ -882,7 +882,6 @@ function
 desiredX
 )
 {
-let
 desiredX
 =
 Math

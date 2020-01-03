@@ -1629,7 +1629,6 @@ aCancelCallback
 return
 ;
 }
-let
 type
 =
 {

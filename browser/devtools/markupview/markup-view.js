@@ -6032,7 +6032,6 @@ size
 bgSize
 )
 ;
-let
 height
 =
 ~

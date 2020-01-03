@@ -114,16 +114,6 @@ getThemeDefinition
 oldTheme
 )
 ;
-let
-newThemeDef
-=
-gDevTools
-.
-getThemeDefinition
-(
-newTheme
-)
-;
 if
 (
 oldThemeDef

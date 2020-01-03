@@ -350,7 +350,6 @@ window
 return
 window
 ;
-var
 window
 =
 BrowserWindow
