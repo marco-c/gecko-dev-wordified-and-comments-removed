@@ -309,9 +309,9 @@ style
 width
 :
 &
-dialog
+sanitizeDialog2
 .
-width2
+width
 ;
 ;
 "
