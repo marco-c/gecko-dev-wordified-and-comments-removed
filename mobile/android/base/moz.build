@@ -2386,13 +2386,6 @@ java
 '
 home
 /
-RecyclerViewItemClickListener
-.
-java
-'
-'
-home
-/
 RemoteTabsBaseFragment
 .
 java
@@ -3681,6 +3674,13 @@ java
 widget
 /
 LoginDoorHanger
+.
+java
+'
+'
+widget
+/
+RecyclerViewClickSupport
 .
 java
 '
