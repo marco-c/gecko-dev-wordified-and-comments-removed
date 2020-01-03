@@ -3551,6 +3551,17 @@ construct
 false
 )
 {
+MOZ_ASSERT
+(
+2
++
+argc
++
+construct
+>
+argc
+)
+;
 if
 (
 !
