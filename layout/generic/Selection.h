@@ -95,6 +95,9 @@ mozilla
 class
 ErrorResult
 ;
+struct
+AutoPrepareFocusRange
+;
 }
 struct
 RangeData
@@ -976,6 +979,13 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 ;
 private
 :
+friend
+struct
+mozilla
+:
+:
+AutoPrepareFocusRange
+;
 class
 ScrollSelectionIntoViewEvent
 ;
