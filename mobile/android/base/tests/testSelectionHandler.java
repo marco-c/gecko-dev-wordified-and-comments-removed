@@ -130,9 +130,6 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
-.
-ROBOCOP_SELECTION_HANDLER_TITLE
 url
 )
 ;

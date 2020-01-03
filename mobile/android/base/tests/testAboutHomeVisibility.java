@@ -81,9 +81,6 @@ assertTitle
 (
 StringHelper
 .
-ABOUT_HOME_TITLE
-StringHelper
-.
 ABOUT_HOME_URL
 )
 ;
@@ -115,9 +112,6 @@ assertTitle
 (
 StringHelper
 .
-ROBOCOP_BLANK_PAGE_01_TITLE
-StringHelper
-.
 ROBOCOP_BLANK_PAGE_01_URL
 )
 ;
@@ -140,9 +134,6 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
-.
-ROBOCOP_BLANK_PAGE_02_TITLE
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
@@ -198,9 +189,6 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
-.
-ABOUT_HOME_TITLE
 StringHelper
 .
 ABOUT_HOME_URL

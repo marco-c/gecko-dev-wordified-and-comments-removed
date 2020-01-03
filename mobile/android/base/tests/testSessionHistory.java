@@ -69,9 +69,6 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
-.
-ROBOCOP_BLANK_PAGE_01_TITLE
 url
 )
 ;
@@ -92,9 +89,6 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
-.
-ROBOCOP_BLANK_PAGE_02_TITLE
 url
 )
 ;
@@ -115,9 +109,6 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
-.
-ROBOCOP_BLANK_PAGE_03_TITLE
 url
 )
 ;
@@ -133,9 +124,6 @@ assertTitle
 (
 StringHelper
 .
-ROBOCOP_BLANK_PAGE_02_TITLE
-StringHelper
-.
 ROBOCOP_BLANK_PAGE_02_URL
 )
 ;
@@ -149,9 +137,6 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
-.
-ROBOCOP_BLANK_PAGE_01_TITLE
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
@@ -169,9 +154,6 @@ assertTitle
 (
 StringHelper
 .
-ROBOCOP_BLANK_PAGE_02_TITLE
-StringHelper
-.
 ROBOCOP_BLANK_PAGE_02_URL
 )
 ;
@@ -185,9 +167,6 @@ mToolbar
 .
 assertTitle
 (
-StringHelper
-.
-ROBOCOP_BLANK_PAGE_02_TITLE
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
