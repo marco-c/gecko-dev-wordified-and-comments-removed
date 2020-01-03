@@ -266,11 +266,6 @@ Console
 jsm
 '
 '
-DevToolsUtils
-.
-jsm
-'
-'
 LayoutHelpers
 .
 jsm
