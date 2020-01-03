@@ -59,15 +59,6 @@ h
 "
 #
 endif
-#
-include
-"
-js
-/
-OldDebugAPI
-.
-h
-"
 struct
 JSCompartment
 ;
