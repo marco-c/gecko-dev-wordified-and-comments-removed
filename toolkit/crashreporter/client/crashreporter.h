@@ -532,12 +532,9 @@ bool
 UIShowCrashUI
 (
 const
-std
-:
-:
-string
+StringTable
 &
-dumpfile
+files
 const
 StringTable
 &

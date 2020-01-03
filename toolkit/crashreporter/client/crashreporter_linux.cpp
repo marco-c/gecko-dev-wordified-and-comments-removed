@@ -1828,9 +1828,9 @@ bool
 UIShowCrashUI
 (
 const
-string
+StringTable
 &
-dumpfile
+files
 const
 StringTable
 &
@@ -1848,9 +1848,9 @@ string
 restartArgs
 )
 {
-gDumpFile
+gFiles
 =
-dumpfile
+files
 ;
 gQueryParameters
 =

@@ -153,13 +153,10 @@ showCrashUI
 :
 (
 const
-std
-:
-:
-string
+StringTable
 &
 )
-dumpfile
+files
 queryParameters
 :
 (
@@ -194,7 +191,7 @@ std
 string
 &
 )
-dumpfile
+message
 ;
 -
 (
