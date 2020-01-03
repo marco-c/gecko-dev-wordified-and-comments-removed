@@ -112,17 +112,6 @@ MPL
 *
 /
 [
-JSImplementation
-=
-"
-mozilla
-.
-org
-/
-voicemailstatus
-;
-1
-"
 Pref
 =
 "

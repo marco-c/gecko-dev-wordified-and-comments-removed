@@ -54,7 +54,7 @@ namespace
 dom
 {
 class
-MozVoicemailStatus
+VoicemailStatus
 ;
 class
 Voicemail
@@ -118,7 +118,7 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-MozVoicemailStatus
+VoicemailStatus
 >
 GetStatus
 (
