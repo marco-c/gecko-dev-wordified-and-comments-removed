@@ -351,6 +351,8 @@ getElementById
 (
 aIDForNextTest
 )
+.
+href
 ;
 gTestWin
 .
