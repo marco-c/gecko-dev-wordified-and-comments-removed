@@ -958,6 +958,16 @@ if
 link
 .
 frecent_sites
+|
+|
+"
+sponsored
+"
+=
+=
+link
+.
+type
 )
 {
 return
