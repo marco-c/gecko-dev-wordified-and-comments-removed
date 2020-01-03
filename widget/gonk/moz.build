@@ -475,16 +475,6 @@ LOCAL_INCLUDES
 /
 dom
 /
-media
-/
-omx
-/
-mediaresourcemanager
-'
-'
-/
-dom
-/
 system
 /
 android

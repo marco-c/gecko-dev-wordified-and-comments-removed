@@ -529,9 +529,6 @@ chromium
 /
 src
 '
-'
-mediaresourcemanager
-'
 ]
 CXXFLAGS
 +

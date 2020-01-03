@@ -112,6 +112,10 @@ include
 ProtocolTypes
 ;
 include
+protocol
+PMediaSystemResourceManager
+;
+include
 "
 mozilla
 /
@@ -230,6 +234,9 @@ PCompositable
 ;
 manages
 PTexture
+;
+manages
+PMediaSystemResourceManager
 ;
 child
 :
@@ -428,6 +435,11 @@ SurfaceDescriptor
 aSharedData
 TextureFlags
 aTextureFlags
+)
+;
+async
+PMediaSystemResourceManager
+(
 )
 ;
 async

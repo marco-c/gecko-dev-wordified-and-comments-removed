@@ -156,16 +156,6 @@ media
 omx
 /
 '
-'
-/
-dom
-/
-media
-/
-omx
-/
-mediaresourcemanager
-'
 ]
 include
 (
