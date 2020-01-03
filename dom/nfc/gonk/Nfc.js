@@ -2429,6 +2429,16 @@ sessionId
 )
 )
 {
+if
+(
+message
+.
+records
+)
+{
+}
+else
+{
 gMessageManager
 .
 onPeerEvent
@@ -2441,6 +2451,7 @@ message
 sessionToken
 )
 ;
+}
 }
 else
 {
