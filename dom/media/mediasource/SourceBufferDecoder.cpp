@@ -127,6 +127,8 @@ aResource
 AbstractMediaDecoder
 *
 aParentDecoder
+int64_t
+aTimestampOffset
 )
 :
 mResource
@@ -140,6 +142,10 @@ aParentDecoder
 mReader
 (
 nullptr
+)
+mTimestampOffset
+(
+aTimestampOffset
 )
 mMediaDuration
 (

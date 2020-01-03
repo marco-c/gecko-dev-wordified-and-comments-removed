@@ -814,6 +814,14 @@ GetResource
 &
 mDemuxerMonitor
 )
+GetDecoder
+(
+)
+-
+>
+GetTimestampOffset
+(
+)
 &
 mDemuxerMonitor
 )

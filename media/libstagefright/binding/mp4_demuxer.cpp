@@ -337,6 +337,8 @@ MP4Demuxer
 Stream
 *
 source
+Microseconds
+aTimestampOffset
 Monitor
 *
 aMonitor
@@ -352,6 +354,10 @@ StageFrightPrivate
 mSource
 (
 source
+)
+mTimestampOffset
+(
+aTimestampOffset
 )
 mMonitor
 (
@@ -611,6 +617,7 @@ mSource
 mAudioConfig
 .
 mTrackId
+mTimestampOffset
 mMonitor
 )
 ;
@@ -749,6 +756,7 @@ mSource
 mVideoConfig
 .
 mTrackId
+mTimestampOffset
 mMonitor
 )
 ;
@@ -1250,6 +1258,7 @@ Update
 mAudioConfig
 .
 media_time
+mTimestampOffset
 )
 ;
 return
@@ -1427,6 +1436,7 @@ Update
 mVideoConfig
 .
 media_time
+mTimestampOffset
 )
 ;
 sample

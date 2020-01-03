@@ -594,6 +594,9 @@ Update
 int64_t
 &
 aMediaTime
+int64_t
+&
+aTimestampOffset
 )
 ;
 void

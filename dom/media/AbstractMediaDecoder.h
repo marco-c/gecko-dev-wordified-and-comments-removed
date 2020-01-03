@@ -181,6 +181,17 @@ aDecoded
 ;
 virtual
 int64_t
+GetTimestampOffset
+(
+)
+const
+{
+return
+0
+;
+}
+virtual
+int64_t
 GetMediaDuration
 (
 )

@@ -130,6 +130,8 @@ uint8_t
 aData
 uint32_t
 aLength
+int64_t
+aTimestampOffset
 )
 ;
 bool
@@ -254,6 +256,8 @@ SourceBufferDecoder
 >
 NewDecoder
 (
+int64_t
+aTimestampOffset
 )
 ;
 bool
@@ -380,6 +384,9 @@ Maybe
 int64_t
 >
 mLastEndTimestamp
+;
+int64_t
+mLastTimestampOffset
 ;
 MediaInfo
 mInfo

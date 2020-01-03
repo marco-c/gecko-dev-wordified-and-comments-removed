@@ -2345,6 +2345,8 @@ const
 nsACString
 &
 aType
+int64_t
+aTimestampOffset
 )
 {
 if
@@ -2380,6 +2382,7 @@ SourceBufferResource
 aType
 )
 mDecoder
+aTimestampOffset
 )
 ;
 nsRefPtr
