@@ -276,6 +276,10 @@ enterCompartmentDepth
 (
 0
 )
+totalTime
+(
+0
+)
 data
 (
 nullptr
@@ -769,6 +773,9 @@ return
 true
 ;
 }
+#
+ifdef
+JSGC_GENERATIONAL
 class
 WrapperMapRef
 :
@@ -1058,6 +1065,8 @@ front
 }
 #
 endif
+#
+endif
 bool
 JSCompartment
 :
@@ -1175,6 +1184,9 @@ wrapper
 )
 )
 ;
+#
+ifdef
+JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 !
@@ -1247,6 +1259,8 @@ ref
 )
 ;
 }
+#
+endif
 return
 success
 ;
