@@ -1765,6 +1765,17 @@ json
 "
 json
 "
+"
+application
+/
+manifest
++
+json
+"
+:
+"
+json
+"
 }
 isTextMimeType
 :
