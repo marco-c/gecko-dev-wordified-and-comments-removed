@@ -4975,7 +4975,6 @@ mochitest
 a11y
 '
 True
-True
 )
             
 BROWSER_CHROME
@@ -4995,7 +4994,6 @@ mochitest
 browser
 '
 True
-True
 )
             
 ANDROID_INSTRUMENTATION
@@ -5010,7 +5008,6 @@ instrumentation
 '
 .
 '
-False
 False
 )
             
@@ -5033,7 +5030,6 @@ jetpack
 package
 '
 True
-True
 )
             
 JETPACK_ADDON
@@ -5054,7 +5050,6 @@ jetpack
 -
 addon
 '
-True
 False
 )
             
@@ -5075,7 +5070,6 @@ mochitest
 metro
 '
 True
-True
 )
             
 MOCHITEST
@@ -5093,7 +5087,6 @@ mochitest
 tests
 '
 True
-True
 )
             
 MOCHITEST_CHROME
@@ -5110,7 +5103,6 @@ mochitest
 '
 chrome
 '
-True
 True
 )
             
@@ -5131,7 +5123,6 @@ mochitest
 webapprtChrome
 '
 True
-True
 )
             
 WEBRTC_SIGNALLING_TEST
@@ -5147,7 +5138,6 @@ steeplechase
 .
 '
 True
-True
 )
             
 XPCSHELL_TESTS
@@ -5162,7 +5152,6 @@ xpcshell
 '
 .
 '
-False
 True
 )
         
@@ -5558,7 +5547,6 @@ manifest_path
 flavor
 install_root
 install_subdir
-filter_inactive
 package_tests
 =
 info
@@ -5742,30 +5730,6 @@ filtered
 m
 .
 tests
-            
-if
-filter_inactive
-:
-                
-filtered
-=
-m
-.
-active_tests
-(
-exists
-=
-False
-disabled
-=
-True
-                    
-*
-*
-self
-.
-info
-)
             
 if
 flavor
