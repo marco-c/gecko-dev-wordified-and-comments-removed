@@ -89,6 +89,14 @@ class
 menuitem
 -
 iconic
+searchengine
+-
+menuitem
+menuitem
+-
+with
+-
+favicon
 "
 )
 ;
