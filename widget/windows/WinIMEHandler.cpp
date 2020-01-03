@@ -663,6 +663,16 @@ aWindow
 )
 ;
 }
+else
+{
+nsTextStore
+:
+:
+OnUpdateComposition
+(
+)
+;
+}
 return
 NS_OK
 ;
