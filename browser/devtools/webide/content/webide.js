@@ -7681,6 +7681,10 @@ i
 ;
 let
 url
+;
+try
+{
+url
 =
 new
 URL
@@ -7690,6 +7694,15 @@ tab
 url
 )
 ;
+}
+catch
+(
+e
+)
+{
+continue
+;
+}
 tab
 .
 favicon
