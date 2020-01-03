@@ -238,6 +238,7 @@ selectView
 DEFAULT_DETAILS_SUBVIEW
 )
 ;
+yield
 this
 .
 setAvailableViews
@@ -351,7 +352,12 @@ setAvailableViews
 )
 setAvailableViews
 :
+Task
+.
+async
+(
 function
+*
 (
 )
 {
@@ -425,6 +431,7 @@ view
 )
 )
 {
+yield
 this
 .
 selectView
@@ -435,6 +442,7 @@ DEFAULT_DETAILS_SUBVIEW
 }
 }
 }
+)
 selectView
 :
 Task
