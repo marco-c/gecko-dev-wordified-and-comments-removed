@@ -75,6 +75,17 @@ mozilla
 /
 dom
 /
+File
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FormDataBinding
 .
 h
@@ -88,9 +99,6 @@ ErrorResult
 namespace
 dom
 {
-class
-File
-;
 class
 HTMLFormElement
 ;
