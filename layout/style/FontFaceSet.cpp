@@ -1766,7 +1766,7 @@ channel
 ;
 rv
 =
-NS_NewChannelInternal
+NS_NewChannelWithTriggeringPrincipal
 (
 getter_AddRefs
 (
@@ -5814,7 +5814,7 @@ NS_ERROR_FAILURE
 }
 rv
 =
-NS_NewChannelInternal
+NS_NewChannelWithTriggeringPrincipal
 (
 getter_AddRefs
 (

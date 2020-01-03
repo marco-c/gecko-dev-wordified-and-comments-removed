@@ -3154,12 +3154,11 @@ else
 {
 rv
 =
-NS_OpenURIInternal
+NS_OpenURI
 (
 mDownloader
 nullptr
 mJarBaseURI
-nullptr
 nsContentUtils
 :
 :

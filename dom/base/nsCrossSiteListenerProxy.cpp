@@ -4960,14 +4960,13 @@ else
 {
 rv
 =
-NS_NewChannelInternal
+NS_NewChannel
 (
 getter_AddRefs
 (
 preflightChannel
 )
 uri
-nullptr
 nsContentUtils
 :
 :
