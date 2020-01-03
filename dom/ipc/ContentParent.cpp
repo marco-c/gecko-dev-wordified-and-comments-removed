@@ -9283,7 +9283,7 @@ ContentParent
 :
 :
 ShutDownProcess
-CLOSE_CHANNEL
+SEND_SHUTDOWN_MESSAGE
 )
 )
 ;

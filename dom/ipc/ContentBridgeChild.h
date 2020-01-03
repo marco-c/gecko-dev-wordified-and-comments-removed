@@ -26,6 +26,13 @@ nsIContentChild
 .
 h
 "
+#
+include
+"
+nsIObserver
+.
+h
+"
 namespace
 mozilla
 {
@@ -40,6 +47,8 @@ public
 PContentBridgeChild
 public
 nsIContentChild
+public
+nsIObserver
 {
 public
 :
@@ -52,6 +61,7 @@ aTransport
 )
 ;
 NS_DECL_ISUPPORTS
+NS_DECL_NSIOBSERVER
 static
 ContentBridgeChild
 *
