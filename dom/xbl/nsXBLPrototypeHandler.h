@@ -504,14 +504,12 @@ if
 mHandler
 )
 {
+mHandler
+=
 NS_NewXBLEventHandler
 (
 this
 mEventName
-getter_AddRefs
-(
-mHandler
-)
 )
 ;
 }

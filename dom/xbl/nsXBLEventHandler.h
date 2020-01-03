@@ -336,7 +336,10 @@ mUsingContentXBLScope
 ;
 }
 ;
-nsresult
+already_AddRefed
+<
+nsXBLEventHandler
+>
 NS_NewXBLEventHandler
 (
 nsXBLPrototypeHandler
@@ -345,10 +348,6 @@ aHandler
 nsIAtom
 *
 aEventType
-nsXBLEventHandler
-*
-*
-aResult
 )
 ;
 nsresult
