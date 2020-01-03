@@ -3272,6 +3272,13 @@ principals
 every
 (
 e
+instanceof
+Ci
+.
+nsIDOMWindow
+&
+&
+e
 =
 >
 Cu
@@ -3280,13 +3287,6 @@ isCrossProcessWrapper
 (
 e
 )
-&
-&
-e
-instanceof
-Ci
-.
-nsIDOMWindow
 )
 )
 {
