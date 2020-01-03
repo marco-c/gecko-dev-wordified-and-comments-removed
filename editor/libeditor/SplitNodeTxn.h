@@ -45,6 +45,9 @@ nsEditor
 class
 nsIContent
 ;
+class
+nsINode
+;
 namespace
 mozilla
 {

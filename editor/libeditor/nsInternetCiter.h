@@ -11,6 +11,13 @@ nscore
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsInternetCiter
 {
