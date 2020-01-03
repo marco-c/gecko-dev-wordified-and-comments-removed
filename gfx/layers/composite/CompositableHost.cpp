@@ -403,6 +403,13 @@ aTexture
 return
 ;
 }
+if
+(
+GetCompositor
+(
+)
+)
+{
 aTexture
 -
 >
@@ -413,6 +420,7 @@ GetCompositor
 )
 )
 ;
+}
 }
 void
 CompositableHost
