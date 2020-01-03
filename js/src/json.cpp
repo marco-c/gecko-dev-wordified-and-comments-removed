@@ -4476,9 +4476,9 @@ cx
 global
 js_JSON_str
 JSON
-0
-JS_PropertyStub
-JS_StrictPropertyStub
+JSPROP_PROPOP_ACCESSORS
+JS_STUBGETTER
+JS_STUBSETTER
 )
 )
 return

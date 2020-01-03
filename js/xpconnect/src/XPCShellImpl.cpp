@@ -7778,14 +7778,8 @@ JS
 :
 :
 UndefinedHandleValue
-JSPROP_NATIVE_ACCESSORS
-|
 JSPROP_SHARED
-JS_CAST_NATIVE_TO
-(
 GetLocationProperty
-JSPropertyOp
-)
 nullptr
 )
 ;

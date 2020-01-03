@@ -228,7 +228,7 @@ JSPROP_SHARED
 JSPROP_ENUMERATE
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSNative
 (
 JSObject
 *
@@ -237,7 +237,7 @@ funGetObj
 )
 JS_DATA_TO_FUNC_PTR
 (
-JSStrictPropertyOp
+JSNative
 (
 JSObject
 *
@@ -267,7 +267,7 @@ JSPROP_SHARED
 JSPROP_PERMANENT
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSNative
 (
 JSObject
 *
@@ -276,7 +276,7 @@ funGetObj
 )
 JS_DATA_TO_FUNC_PTR
 (
-JSStrictPropertyOp
+JSNative
 (
 JSObject
 *

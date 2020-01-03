@@ -778,7 +778,7 @@ UndefinedHandleValue
 mJSAttributes
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSNative
 getter
 .
 get
@@ -787,7 +787,7 @@ get
 )
 JS_DATA_TO_FUNC_PTR
 (
-JSStrictPropertyOp
+JSNative
 setter
 .
 get

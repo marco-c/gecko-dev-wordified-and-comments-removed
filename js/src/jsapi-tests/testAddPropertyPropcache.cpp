@@ -174,8 +174,10 @@ arr
 "
 arr
 JSPROP_ENUMERATE
-JS_PropertyStub
-JS_StrictPropertyStub
+|
+JSPROP_PROPOP_ACCESSORS
+JS_STUBGETTER
+JS_STUBSETTER
 )
 )
 ;
@@ -245,8 +247,10 @@ arrObj
 i
 obj
 JSPROP_ENUMERATE
-JS_PropertyStub
-JS_StrictPropertyStub
+|
+JSPROP_PROPOP_ACCESSORS
+JS_STUBGETTER
+JS_STUBSETTER
 )
 )
 ;

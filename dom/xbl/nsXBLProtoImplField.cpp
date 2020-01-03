@@ -1722,7 +1722,7 @@ AccessorAttributes
 )
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSNative
 get
 .
 get
@@ -1731,7 +1731,7 @@ get
 )
 JS_DATA_TO_FUNC_PTR
 (
-JSStrictPropertyOp
+JSNative
 set
 .
 get

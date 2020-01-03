@@ -19514,9 +19514,9 @@ obj
 Reflect
 "
 Reflect
-0
-JS_PropertyStub
-JS_StrictPropertyStub
+JSPROP_PROPOP_ACCESSORS
+JS_STUBGETTER
+JS_STUBSETTER
 )
 )
 {
