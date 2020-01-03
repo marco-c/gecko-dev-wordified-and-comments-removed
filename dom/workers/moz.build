@@ -411,6 +411,11 @@ WorkerScope
 cpp
 '
 '
+WorkerThread
+.
+cpp
+'
+'
 XMLHttpRequest
 .
 cpp
