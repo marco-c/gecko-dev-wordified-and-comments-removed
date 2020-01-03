@@ -1,0 +1,8 @@
+[
+nosetests
+]
+with
+-
+xunit
+=
+1
