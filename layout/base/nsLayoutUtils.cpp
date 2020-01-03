@@ -14985,9 +14985,11 @@ return
 NS_OK
 ;
 }
-static
 FrameMetrics
-CalculateFrameMetricsForDisplayPort
+nsLayoutUtils
+:
+:
+CalculateBasicFrameMetrics
 (
 nsIScrollableFrame
 *
@@ -15361,7 +15363,7 @@ content
 FrameMetrics
 metrics
 =
-CalculateFrameMetricsForDisplayPort
+CalculateBasicFrameMetrics
 (
 aScrollFrame
 )

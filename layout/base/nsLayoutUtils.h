@@ -5038,6 +5038,15 @@ aValue
 }
 }
 static
+FrameMetrics
+CalculateBasicFrameMetrics
+(
+nsIScrollableFrame
+*
+aScrollFrame
+)
+;
+static
 bool
 CalculateAndSetDisplayPortMargins
 (
