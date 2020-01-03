@@ -3455,7 +3455,6 @@ options
 )
 .
 extraWarningsOption
-false
 )
 ;
 ParseContext
