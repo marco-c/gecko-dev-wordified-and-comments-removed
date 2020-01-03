@@ -143,6 +143,14 @@ ParentDestroy
 (
 )
 ;
+void
+SetParent
+(
+nsIWidget
+*
+aParent
+)
+;
 private
 :
 void
