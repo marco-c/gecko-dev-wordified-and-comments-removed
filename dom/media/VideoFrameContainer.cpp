@@ -284,8 +284,6 @@ VideoFrameContainer
 :
 ClearCurrentFrame
 (
-bool
-aResetSize
 )
 {
 MutexAutoLock
@@ -325,7 +323,7 @@ ClearAllImages
 ;
 mImageSizeChanged
 =
-aResetSize
+false
 ;
 }
 ImageContainer
