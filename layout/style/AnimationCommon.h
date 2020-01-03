@@ -457,14 +457,6 @@ return
 false
 ;
 }
-void
-NotifyCollectionUpdated
-(
-AnimationCollection
-&
-aCollection
-)
-;
 enum
 FlushFlags
 {
@@ -1045,6 +1037,7 @@ RestyleType
 {
 Throttled
 Standard
+Layer
 }
 ;
 void
@@ -1402,11 +1395,6 @@ hint
 ;
 }
 }
-void
-NotifyAnimationUpdated
-(
-)
-;
 static
 void
 LogAsyncAnimationFailure

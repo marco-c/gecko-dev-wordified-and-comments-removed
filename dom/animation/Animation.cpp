@@ -3864,8 +3864,15 @@ collection
 collection
 -
 >
-NotifyAnimationUpdated
+RequestRestyle
 (
+AnimationCollection
+:
+:
+RestyleType
+:
+:
+Layer
 )
 ;
 }
