@@ -502,12 +502,11 @@ rv
 rv
 )
 ;
-NS_ADDREF
-(
-*
-_stmt
-=
 event
+.
+forget
+(
+_stmt
 )
 ;
 return

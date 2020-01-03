@@ -6674,12 +6674,11 @@ return
 rv
 ;
 }
-NS_ADDREF
-(
-*
-_handle
-=
 pendingStatement
+.
+forget
+(
+_handle
 )
 ;
 return
