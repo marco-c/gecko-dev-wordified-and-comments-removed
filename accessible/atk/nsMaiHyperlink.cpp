@@ -315,8 +315,7 @@ MaiHyperlink
 :
 MaiHyperlink
 (
-Accessible
-*
+uintptr_t
 aHyperLink
 )
 :

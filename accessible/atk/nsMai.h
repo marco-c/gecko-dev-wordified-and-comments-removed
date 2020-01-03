@@ -232,6 +232,13 @@ atkMinorVersion
 )
 ;
 }
+static
+const
+uintptr_t
+IS_PROXY
+=
+1
+;
 struct
 MaiAtkObject
 {
