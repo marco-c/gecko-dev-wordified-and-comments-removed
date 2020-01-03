@@ -1,6 +1,13 @@
 #
 include
 "
+nsEditorCommands
+.
+h
+"
+#
+include
+"
 mozFlushType
 .
 h
@@ -41,13 +48,6 @@ h
 include
 "
 nsDebug
-.
-h
-"
-#
-include
-"
-nsEditorCommands
 .
 h
 "

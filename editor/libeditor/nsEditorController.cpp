@@ -1,6 +1,13 @@
 #
 include
 "
+nsEditorController
+.
+h
+"
+#
+include
+"
 mozilla
 /
 mozalloc
@@ -18,13 +25,6 @@ h
 include
 "
 nsEditorCommands
-.
-h
-"
-#
-include
-"
-nsEditorController
 .
 h
 "

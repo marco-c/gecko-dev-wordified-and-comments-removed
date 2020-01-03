@@ -1,6 +1,13 @@
 #
 include
 "
+nsEditorEventListener
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -101,13 +108,6 @@ h
 include
 "
 nsEditor
-.
-h
-"
-#
-include
-"
-nsEditorEventListener
 .
 h
 "

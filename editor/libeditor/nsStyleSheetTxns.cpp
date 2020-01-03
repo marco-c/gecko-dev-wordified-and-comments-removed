@@ -1,5 +1,12 @@
 #
 include
+"
+nsStyleSheetTxns
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -67,13 +74,6 @@ h
 include
 "
 nsIEditor
-.
-h
-"
-#
-include
-"
-nsStyleSheetTxns
 .
 h
 "

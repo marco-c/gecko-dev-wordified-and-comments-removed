@@ -1,6 +1,13 @@
 #
 include
 "
+nsPlaintextEditor
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -307,13 +314,6 @@ h
 include
 "
 nsLiteralString
-.
-h
-"
-#
-include
-"
-nsPlaintextEditor
 .
 h
 "

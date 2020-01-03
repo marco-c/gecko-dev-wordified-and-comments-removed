@@ -1,6 +1,13 @@
 #
 include
 "
+nsHTMLEditorEventListener
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -55,13 +62,6 @@ h
 include
 "
 nsHTMLEditor
-.
-h
-"
-#
-include
-"
-nsHTMLEditorEventListener
 .
 h
 "

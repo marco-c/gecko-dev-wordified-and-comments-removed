@@ -1,6 +1,13 @@
 #
 include
 "
+nsWSRunObject
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -141,13 +148,6 @@ h
 include
 "
 nsTextFragment
-.
-h
-"
-#
-include
-"
-nsWSRunObject
 .
 h
 "

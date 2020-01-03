@@ -1,5 +1,12 @@
 #
 include
+"
+nsHTMLEditRules
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -151,13 +158,6 @@ h
 include
 "
 nsHTMLCSSUtils
-.
-h
-"
-#
-include
-"
-nsHTMLEditRules
 .
 h
 "

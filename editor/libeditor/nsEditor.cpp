@@ -1,6 +1,13 @@
 #
 include
 "
+nsEditor
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -287,13 +294,6 @@ h
 include
 "
 nsDebug
-.
-h
-"
-#
-include
-"
-nsEditor
 .
 h
 "

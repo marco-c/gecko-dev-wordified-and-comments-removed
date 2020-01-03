@@ -1,6 +1,13 @@
 #
 include
 "
+nsTextEditRules
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -246,13 +253,6 @@ mozilla
 dom
 /
 NodeIterator
-.
-h
-"
-#
-include
-"
-nsTextEditRules
 .
 h
 "

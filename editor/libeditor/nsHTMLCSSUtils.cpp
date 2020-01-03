@@ -1,6 +1,13 @@
 #
 include
 "
+nsHTMLCSSUtils
+.
+h
+"
+#
+include
+"
 ChangeStyleTxn
 .
 h
@@ -132,13 +139,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsHTMLCSSUtils
 .
 h
 "

@@ -1,6 +1,13 @@
 #
 include
 "
+nsSelectionState
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -99,13 +106,6 @@ h
 include
 "
 nsRange
-.
-h
-"
-#
-include
-"
-nsSelectionState
 .
 h
 "

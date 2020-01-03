@@ -1,14 +1,14 @@
 #
 include
 "
-DeleteNodeTxn
+DeleteRangeTxn
 .
 h
 "
 #
 include
 "
-DeleteRangeTxn
+DeleteNodeTxn
 .
 h
 "

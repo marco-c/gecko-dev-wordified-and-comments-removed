@@ -1,6 +1,13 @@
 #
 include
 "
+nsHTMLEditUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ArrayUtils
@@ -73,13 +80,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsHTMLEditUtils
 .
 h
 "
