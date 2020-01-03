@@ -774,6 +774,7 @@ false
 }
 WrappableJSErrorResult
 (
+const
 WrappableJSErrorResult
 &
 other
