@@ -230,17 +230,10 @@ double
 ?
 currentTime
 ;
-/
-*
-Not
-yet
-implemented
 attribute
 double
 playbackRate
 ;
-*
-/
 [
 BinaryName
 =
