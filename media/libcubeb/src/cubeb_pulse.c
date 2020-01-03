@@ -2552,10 +2552,6 @@ cubeb
 ctx
 )
 {
-pa_operation
-*
-o
-;
 if
 (
 ctx
