@@ -48867,13 +48867,13 @@ public
 MNullaryInstruction
 {
 const
-int
+MemoryBarrierBits
 type_
 ;
 explicit
 MMemoryBarrier
 (
-int
+MemoryBarrierBits
 type
 )
 :
@@ -48892,7 +48892,7 @@ MembarAllbits
 )
 =
 =
-0
+MembarNobits
 )
 ;
 setGuard
@@ -48915,7 +48915,7 @@ New
 TempAllocator
 &
 alloc
-int
+MemoryBarrierBits
 type
 =
 MembarFull
@@ -48932,7 +48932,7 @@ type
 )
 ;
 }
-int
+MemoryBarrierBits
 type
 (
 )

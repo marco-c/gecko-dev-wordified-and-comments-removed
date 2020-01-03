@@ -13947,7 +13947,7 @@ CodeGeneratorARM
 :
 memoryBarrier
 (
-int
+MemoryBarrierBits
 barrier
 )
 {

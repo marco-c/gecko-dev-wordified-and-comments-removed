@@ -26989,7 +26989,7 @@ LInstructionHelper
 private
 :
 const
-int
+MemoryBarrierBits
 type_
 ;
 public
@@ -27001,7 +27001,7 @@ MemoryBarrier
 explicit
 LMemoryBarrier
 (
-int
+MemoryBarrierBits
 type
 )
 :
@@ -27020,11 +27020,11 @@ MembarAllbits
 )
 =
 =
-0
+MembarNobits
 )
 ;
 }
-int
+MemoryBarrierBits
 type
 (
 )
