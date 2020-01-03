@@ -11,25 +11,13 @@ sys
 if
 mozinfo
 .
-isMac
+isWin
 :
     
 psarg
 =
 '
--
-Acj
-'
-elif
-mozinfo
-.
-isLinux
-:
-    
-psarg
-=
-'
-axwww
+ax
 '
 else
 :
@@ -37,7 +25,7 @@ else
 psarg
 =
 '
-ax
+axwww
 '
 def
 ps
