@@ -885,7 +885,7 @@ catch
 ex
 )
 {
-LOG
+do_print
 (
 "
 Problem
@@ -1421,7 +1421,7 @@ aArray
 aRoot
 )
 {
-LOG
+do_print
 (
 "
 Comparing
@@ -1495,7 +1495,7 @@ moz_historyvisits
 "
 )
 ;
-LOG
+do_print
 (
 "
 Found
@@ -1522,7 +1522,7 @@ i
 +
 )
 {
-LOG
+do_print
 (
 aRoot
 .
@@ -1535,7 +1535,7 @@ uri
 )
 ;
 }
-LOG
+do_print
 (
 "
 Expected
@@ -1570,7 +1570,7 @@ i
 .
 isInQuery
 )
-LOG
+do_print
 (
 aArray
 [
@@ -1653,7 +1653,7 @@ i
 isSeparator
 )
 {
-LOG
+do_print
 (
 "
 testing
@@ -1905,7 +1905,7 @@ containerOpen
 =
 false
 ;
-LOG
+do_print
 (
 "
 Comparing
@@ -2066,7 +2066,7 @@ aRoot
 hasChildren
 )
 {
-LOG
+do_print
 (
 "
 Result
@@ -2096,7 +2096,7 @@ childCount
 i
 )
 {
-LOG
+do_print
 (
 "
 Result

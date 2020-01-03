@@ -1016,7 +1016,7 @@ task_populateDB
 addItem
 )
 ;
-LOG
+do_print
 (
 "
 Adding
@@ -1085,7 +1085,7 @@ task_populateDB
 change1
 )
 ;
-LOG
+do_print
 (
 "
 LiveUpdate
@@ -1145,7 +1145,7 @@ task_populateDB
 change3
 )
 ;
-LOG
+do_print
 (
 "
 LiveUpdate
@@ -1204,7 +1204,7 @@ task_populateDB
 change5
 )
 ;
-LOG
+do_print
 (
 "
 LiveUpdate

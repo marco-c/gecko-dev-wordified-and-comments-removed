@@ -476,7 +476,7 @@ containerOpen
 =
 true
 ;
-LOG
+do_print
 (
 "
 Number
@@ -511,7 +511,7 @@ childCount
 i
 )
 {
-LOG
+do_print
 (
 "
 result
@@ -549,7 +549,7 @@ testData
 root
 )
 ;
-LOG
+do_print
 (
 "
 Adding
@@ -558,6 +558,7 @@ to
 query
 "
 )
+;
 var
 change1
 =
@@ -614,7 +615,7 @@ root
 )
 )
 ;
-LOG
+do_print
 (
 "
 Updating
@@ -668,7 +669,7 @@ root
 )
 )
 ;
-LOG
+do_print
 (
 "
 Updating
@@ -833,7 +834,7 @@ root
 )
 )
 ;
-LOG
+do_print
 (
 "
 Deleting
