@@ -8867,11 +8867,6 @@ mQuirks
 =
 QUIRK_ALLOW_OFFLINE_RENDERER
 ;
-mQuirks
-|
-=
-QUIRK_FLASH_HIDE_HIDPI_SUPPORT
-;
 }
 else
 if
