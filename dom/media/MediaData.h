@@ -748,6 +748,9 @@ Image
 >
 mImage
 ;
+bool
+mSentToCompositor
+;
 VideoData
 (
 int64_t

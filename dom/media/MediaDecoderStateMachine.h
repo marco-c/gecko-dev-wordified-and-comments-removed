@@ -1146,18 +1146,6 @@ OnTaskQueue
 )
 )
 ;
-int
-emptyVideoSize
-=
-mState
-=
-=
-DECODER_STATE_BUFFERING
-?
-1
-:
-0
-;
 return
 IsVideoDecoding
 (
@@ -1183,7 +1171,7 @@ GetSize
 )
 <
 =
-emptyVideoSize
+1
 ;
 }
 bool
@@ -3306,6 +3294,8 @@ VideoPrerollFrames
 )
 *
 mPlaybackRate
++
+1
 ;
 }
 void
