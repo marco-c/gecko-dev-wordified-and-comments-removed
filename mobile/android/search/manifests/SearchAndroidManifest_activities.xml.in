@@ -40,6 +40,15 @@ search_app_name
 "
 android
 :
+configChanges
+=
+"
+orientation
+|
+screenSize
+"
+android
+:
 theme
 =
 "
