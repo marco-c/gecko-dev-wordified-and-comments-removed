@@ -3218,12 +3218,17 @@ let
 tooltip
 =
 text
+?
+text
 .
 substr
 (
 0
 BREAKPOINT_LINE_TOOLTIP_MAX_LENGTH
 )
+:
+"
+"
 ;
 lineTextNode
 .
