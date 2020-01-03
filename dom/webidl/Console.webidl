@@ -351,6 +351,12 @@ lineNumber
 =
 0
 ;
+unsigned
+long
+columnNumber
+=
+0
+;
 DOMString
 functionName
 =
@@ -537,6 +543,12 @@ filename
 unsigned
 long
 lineNumber
+=
+0
+;
+unsigned
+long
+columnNumber
 =
 0
 ;
