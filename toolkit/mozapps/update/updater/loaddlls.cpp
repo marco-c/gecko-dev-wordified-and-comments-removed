@@ -284,7 +284,7 @@ L
 '
 }
 ;
-GetSystemDirectory
+GetSystemDirectoryW
 (
 systemDirectory
 MAX_PATH

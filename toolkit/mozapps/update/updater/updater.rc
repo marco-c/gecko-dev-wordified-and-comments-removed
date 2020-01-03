@@ -466,6 +466,17 @@ exe
 .
 manifest
 "
+IDR_COMCTL32_MANIFEST
+RT_MANIFEST
+"
+updater
+.
+exe
+.
+comctl32
+.
+manifest
+"
 /
 /
 /
