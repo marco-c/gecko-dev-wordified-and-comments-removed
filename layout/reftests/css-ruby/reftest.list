@@ -860,7 +860,6 @@ text
 enabled
 true
 )
-fails
 =
 =
 ruby
@@ -883,9 +882,6 @@ lr
 ref
 .
 html
-#
-bug
-1112474
 pref
 (
 layout
@@ -899,7 +895,6 @@ text
 enabled
 true
 )
-fails
 =
 =
 ruby
@@ -922,9 +917,6 @@ rl
 ref
 .
 html
-#
-bug
-1112474
 !
 =
 ruby
