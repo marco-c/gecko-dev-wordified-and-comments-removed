@@ -7,6 +7,8 @@ configobj
 import
 ConfigObj
 import
+codecs
+import
 re
 import
 os
@@ -313,11 +315,20 @@ infile
 :
             
 with
+codecs
+.
 open
 (
 infile
 '
 r
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
 as
