@@ -255,12 +255,6 @@ using
 namespace
 mozilla
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 static
 PRLogModuleInfo
 *
@@ -291,8 +285,6 @@ return
 gCspContextPRLog
 ;
 }
-#
-endif
 #
 define
 CSPCONTEXTLOG
@@ -498,9 +490,6 @@ int16_t
 outDecision
 )
 {
-#
-ifdef
-PR_LOGGING
 {
 nsAutoCString
 spec
@@ -535,8 +524,6 @@ get
 )
 ;
 }
-#
-endif
 nsresult
 rv
 =
@@ -782,9 +769,6 @@ outDecision
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 {
 nsAutoCString
 spec
@@ -833,8 +817,6 @@ get
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -4452,9 +4434,6 @@ EmptyCString
 )
 )
 ;
-#
-ifdef
-PR_LOGGING
 {
 nsAutoCString
 spec
@@ -4490,8 +4469,6 @@ get
 )
 ;
 }
-#
-endif
 ancestorsArray
 .
 AppendElement
@@ -4528,9 +4505,6 @@ a
 +
 )
 {
-#
-ifdef
-PR_LOGGING
 {
 nsAutoCString
 spec
@@ -4569,8 +4543,6 @@ get
 )
 ;
 }
-#
-endif
 bool
 okToSendAncestor
 =
@@ -4673,9 +4645,6 @@ true
 true
 )
 ;
-#
-ifdef
-PR_LOGGING
 {
 nsAutoCString
 spec
@@ -4729,8 +4698,6 @@ deny
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
