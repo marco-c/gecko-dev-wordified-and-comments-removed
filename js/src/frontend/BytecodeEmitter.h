@@ -837,6 +837,11 @@ checkSingletonContext
 )
 ;
 bool
+checkRunOnceContext
+(
+)
+;
+bool
 needsImplicitThis
 (
 )
