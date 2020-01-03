@@ -822,9 +822,6 @@ FrameBlender
 >
 mFrameBlender
 ;
-DrawableFrameRef
-mMultipartDecodedFrame
-;
 nsCOMPtr
 <
 nsIProperties
@@ -918,7 +915,7 @@ mDecodeOnDraw
 1
 ;
 bool
-mMultipart
+mTransient
 :
 1
 ;

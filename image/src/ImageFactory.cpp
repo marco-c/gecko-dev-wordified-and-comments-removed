@@ -285,7 +285,7 @@ imageFlags
 Image
 :
 :
-INIT_FLAG_MULTIPART
+INIT_FLAG_TRANSIENT
 ;
 }
 return
