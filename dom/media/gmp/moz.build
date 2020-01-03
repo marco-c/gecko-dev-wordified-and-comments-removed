@@ -692,6 +692,11 @@ GMPTimerParent
 cpp
 '
 '
+GMPUtils
+.
+cpp
+'
+'
 GMPVideoDecoderChild
 .
 cpp

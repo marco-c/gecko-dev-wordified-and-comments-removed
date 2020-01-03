@@ -122,6 +122,13 @@ EMEUtils
 .
 h
 "
+#
+include
+"
+GMPUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -754,6 +761,7 @@ Cdm_disabled
 }
 if
 (
+(
 !
 WMFDecoderModule
 :
@@ -768,6 +776,13 @@ WMFDecoderModule
 :
 :
 HasAAC
+(
+)
+)
+|
+|
+!
+EMEVoucherFileExists
 (
 )
 )
