@@ -3301,12 +3301,6 @@ addProvider
 DirectoryLinksProvider
 )
 ;
-BrowserNewTabPreloader
-.
-init
-(
-)
-;
 #
 ifdef
 NIGHTLY_BUILD
