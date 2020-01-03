@@ -1105,14 +1105,6 @@ l10n
 -
 stage
 '
-\
-DIST
-=
-'
-(
-_ABS_DIST
-)
-'
 endif
 #
 packaging
