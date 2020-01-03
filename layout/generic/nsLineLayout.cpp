@@ -9349,6 +9349,10 @@ mLogicalBSize
 =
 deltaLeading
 ;
+zeroEffectiveSpanBox
+=
+false
+;
 }
 }
 if
