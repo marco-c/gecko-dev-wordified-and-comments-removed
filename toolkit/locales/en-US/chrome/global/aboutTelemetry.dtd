@@ -126,6 +126,17 @@ Data
 ENTITY
 aboutTelemetry
 .
+telemetryLogSection
+"
+Telemetry
+Log
+"
+>
+<
+!
+ENTITY
+aboutTelemetry
+.
 slowSqlSection
 "
 Slow
