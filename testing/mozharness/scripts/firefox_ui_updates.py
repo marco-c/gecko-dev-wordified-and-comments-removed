@@ -657,6 +657,12 @@ all_actions
 [
                 
 '
+purge
+-
+builds
+'
+                
+'
 clobber
 '
                 

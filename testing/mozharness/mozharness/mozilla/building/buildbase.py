@@ -7366,11 +7366,6 @@ as
 mozconfig
 :
                 
-next
-(
-mozconfig
-)
-                
 for
 line
 in
