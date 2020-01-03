@@ -186,8 +186,6 @@ security
 manager
 /
 ssl
-/
-src
 '
 ]
 MOCHITEST_MANIFESTS
