@@ -605,7 +605,7 @@ uint32_t
 mOutgoingBufferedAmount
 ;
 nsString
-mOriginalURL
+mURI
 ;
 nsString
 mEffectiveURL
