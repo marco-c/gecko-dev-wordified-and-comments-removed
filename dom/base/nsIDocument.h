@@ -4599,6 +4599,11 @@ aCallbacks
 )
 ;
 bool
+ShouldThrottleFrameRequests
+(
+)
+;
+bool
 InUnlinkOrDeletion
 (
 )
