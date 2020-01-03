@@ -1048,6 +1048,14 @@ method
 "
 put
 "
+|
+|
+method
+=
+=
+"
+patch
+"
 )
 {
 request
