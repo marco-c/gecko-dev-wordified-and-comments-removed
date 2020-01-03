@@ -1039,7 +1039,7 @@ doc
 .
 nodePrincipal
 ;
-sendSyncMessage
+sendRpcMessage
 (
 "
 contextmenu
