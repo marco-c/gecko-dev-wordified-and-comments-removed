@@ -62,9 +62,9 @@ referencesVia
 (
 o
 '
-type
+group
 ;
-type_proto
+group_proto
 '
 C
 .
