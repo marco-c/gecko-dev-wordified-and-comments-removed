@@ -1524,7 +1524,7 @@ double
 StackPointer
 )
 ;
-movsd
+vmovsd
 (
 src
 Address
@@ -3735,7 +3735,7 @@ CodeOffsetLabel
 (
 masm
 .
-movsd_ripr
+vmovsd_ripr
 (
 dest
 .
@@ -3762,7 +3762,7 @@ CodeOffsetLabel
 (
 masm
 .
-movss_ripr
+vmovss_ripr
 (
 dest
 .
@@ -3789,7 +3789,7 @@ CodeOffsetLabel
 (
 masm
 .
-movdqa_ripr
+vmovdqa_ripr
 (
 dest
 .
@@ -3816,7 +3816,7 @@ CodeOffsetLabel
 (
 masm
 .
-movaps_ripr
+vmovaps_ripr
 (
 dest
 .
@@ -3870,7 +3870,7 @@ CodeOffsetLabel
 (
 masm
 .
-movsd_rrip
+vmovsd_rrip
 (
 dest
 .
@@ -3897,7 +3897,7 @@ CodeOffsetLabel
 (
 masm
 .
-movss_rrip
+vmovss_rrip
 (
 dest
 .
@@ -3924,7 +3924,7 @@ CodeOffsetLabel
 (
 masm
 .
-movdqa_rrip
+vmovdqa_rrip
 (
 dest
 .
@@ -3951,7 +3951,7 @@ CodeOffsetLabel
 (
 masm
 .
-movaps_rrip
+vmovaps_rrip
 (
 dest
 .
