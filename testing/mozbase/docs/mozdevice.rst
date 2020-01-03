@@ -1643,6 +1643,14 @@ root
 =
 False
 )
+.
+.
+autoattribute
+:
+:
+ADBDevice
+.
+test_root
 Process
 management
 methods
