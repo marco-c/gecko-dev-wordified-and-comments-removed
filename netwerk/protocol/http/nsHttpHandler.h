@@ -697,6 +697,15 @@ return
 mTCPKeepaliveLongLivedIdleTimeS
 ;
 }
+bool
+GetEnforceH1Framing
+(
+)
+{
+return
+mEnforceH1Framing
+;
+}
 nsHttpAuthCache
 *
 AuthCache
@@ -1672,6 +1681,9 @@ mTCPKeepaliveLongLivedEnabled
 ;
 int32_t
 mTCPKeepaliveLongLivedIdleTimeS
+;
+bool
+mEnforceH1Framing
 ;
 private
 :
