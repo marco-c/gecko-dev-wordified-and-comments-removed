@@ -2989,7 +2989,7 @@ appNotifier
 >
 ShowAppNotification
 (
-mIconUrl
+absoluteUrl
 mTitle
 mBody
 observer
