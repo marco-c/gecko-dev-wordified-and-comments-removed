@@ -883,7 +883,7 @@ nsIContent
 aChildNode
 )
 {
-UpdateTree
+UpdateTreeOnRemoval
 (
 (
 aContainer
@@ -893,7 +893,6 @@ aContainer
 this
 )
 aChildNode
-false
 )
 ;
 }
@@ -1142,7 +1141,15 @@ ProcessInvalidationList
 )
 ;
 void
-UpdateTree
+UpdateTreeOnInsertion
+(
+Accessible
+*
+aContainer
+)
+;
+void
+UpdateTreeOnRemoval
 (
 Accessible
 *
@@ -1150,8 +1157,6 @@ aContainer
 nsIContent
 *
 aChildNode
-bool
-aIsInsert
 )
 ;
 enum

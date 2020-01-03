@@ -1351,6 +1351,10 @@ aContent
 aDoc
 )
 {
+mType
+=
+eHTMLComboboxType
+;
 mGenericTypes
 |
 =
