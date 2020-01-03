@@ -1494,6 +1494,16 @@ aXPCOMFile
 tempLen
 )
 ;
+tempBuffer
+[
+tempLen
+]
+=
+'
+\
+0
+'
+;
 const
 char
 *
