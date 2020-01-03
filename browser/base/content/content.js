@@ -1141,6 +1141,13 @@ doc
 .
 referrer
 ;
+let
+referrerPolicy
+=
+doc
+.
+referrerPolicy
+;
 if
 (
 Services
@@ -1234,6 +1241,7 @@ docLocation
 charSet
 baseURI
 referrer
+referrerPolicy
 }
 {
 event
@@ -1300,6 +1308,9 @@ charSet
 referrer
 :
 referrer
+referrerPolicy
+:
+referrerPolicy
 }
 ;
 }
@@ -3778,6 +3789,11 @@ null
 bookmark
 :
 false
+referrerPolicy
+:
+ownerDoc
+.
+referrerPolicy
 }
 ;
 if

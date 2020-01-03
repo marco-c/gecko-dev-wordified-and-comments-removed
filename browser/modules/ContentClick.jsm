@@ -339,6 +339,11 @@ referrerURI
 browser
 .
 documentURI
+referrerPolicy
+:
+json
+.
+referrerPolicy
 noReferrer
 :
 json
