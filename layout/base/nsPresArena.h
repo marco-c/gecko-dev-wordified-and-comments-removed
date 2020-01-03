@@ -94,6 +94,8 @@ nsRuleNode_id
 nsStyleContext_id
 nsInheritedStyleData_id
 nsResetStyleData_id
+nsConditionalResetStyleData_id
+nsConditionalResetStyleDataEntry_id
 nsFrameList_id
 CustomCounterStyle_id
 DependentBuiltinCounterStyle_id
