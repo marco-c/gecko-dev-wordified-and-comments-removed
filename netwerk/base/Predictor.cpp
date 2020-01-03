@@ -6911,7 +6911,11 @@ key
 ;
 mLRUStamp
 =
+ok
+?
 lastHit
+:
+0
 ;
 }
 return
