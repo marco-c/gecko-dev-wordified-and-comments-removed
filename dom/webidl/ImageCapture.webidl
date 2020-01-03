@@ -158,6 +158,15 @@ apply
 *
 /
 [
+Pref
+=
+"
+dom
+.
+imagecapture
+.
+enabled
+"
 Constructor
 (
 VideoStreamTrack
