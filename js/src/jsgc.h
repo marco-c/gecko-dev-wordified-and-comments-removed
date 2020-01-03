@@ -86,6 +86,9 @@ h
 namespace
 js
 {
+class
+AutoLockGC
+;
 namespace
 gc
 {
@@ -3737,6 +3740,10 @@ array
 void
 doSweep
 (
+const
+AutoLockGC
+&
+lock
 )
 ;
 public
