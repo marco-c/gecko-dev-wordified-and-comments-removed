@@ -1058,6 +1058,9 @@ mSpeechGrammarList
 bool
 mInterimResults
 ;
+uint32_t
+mMaxAlternatives
+;
 void
 ProcessTestEventRequest
 (
