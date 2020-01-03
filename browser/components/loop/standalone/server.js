@@ -131,17 +131,6 @@ loopServerPort
 '
 ;
 "
-+
-"
-loop
-.
-config
-.
-pendingCallTimeout
-=
-20000
-;
-"
 )
 ;
 }
