@@ -787,11 +787,13 @@ else
 if
 (
 mIsolateCount
+*
+sizeof
+(
+Isolate
+)
 <
 =
-(
-int32_t
-)
 mIsolatesSize
 )
 {
