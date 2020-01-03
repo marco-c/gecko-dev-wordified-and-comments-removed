@@ -1138,6 +1138,17 @@ NonBuiltinFrameIter
 iter
 (
 cx
+cx
+-
+>
+compartment
+(
+)
+-
+>
+principals
+(
+)
 )
 ;
 if
