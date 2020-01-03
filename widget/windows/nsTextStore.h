@@ -2790,6 +2790,9 @@ bool
 mPendingOnLayoutChange
 ;
 bool
+mPendingDestroy
+;
+bool
 mNativeCaretIsCreated
 ;
 static
