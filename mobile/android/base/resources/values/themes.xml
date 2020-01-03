@@ -1264,9 +1264,7 @@ GeckoBase
 -
 -
 Make
-the
-share
-overlay
+an
 activity
 appear
 like
@@ -1281,7 +1279,7 @@ style
 name
 =
 "
-ShareOverlayActivity
+OverlayActivity
 "
 >
 <

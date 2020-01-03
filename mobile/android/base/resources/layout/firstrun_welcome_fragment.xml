@@ -444,7 +444,7 @@ background
 "
 drawable
 /
-firstrun_button_background
+button_background_action_orange_round
 "
 android
 :
