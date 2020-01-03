@@ -1899,7 +1899,10 @@ VideoData
 >
 mVideoQueue
 ;
+Watchable
+<
 State
+>
 mState
 ;
 MediaTaskQueue
@@ -1935,6 +1938,9 @@ mEndTime
 ;
 bool
 mDurationSet
+;
+WatcherHolder
+mNextFrameStatusUpdater
 ;
 Canonical
 <
@@ -2587,7 +2593,10 @@ mAudioCaptured
 bool
 mPositionChangeQueued
 ;
+Watchable
+<
 bool
+>
 mAudioCompleted
 ;
 bool
