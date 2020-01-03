@@ -1320,7 +1320,7 @@ mProperty
 )
 )
 {
-return
+continue
 ;
 }
 aSetProperties
