@@ -19,6 +19,16 @@ nsThreadUtils
 h
 "
 BEGIN_BLUETOOTH_NAMESPACE
+nsresult
+Convert
+(
+nsresult
+aIn
+BluetoothStatus
+&
+aOut
+)
+;
 template
 <
 typename

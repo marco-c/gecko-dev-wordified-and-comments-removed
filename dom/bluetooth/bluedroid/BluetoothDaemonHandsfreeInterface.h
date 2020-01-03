@@ -1494,6 +1494,16 @@ BluetoothStatus
 aStatus
 )
 ;
+void
+DispatchError
+(
+BluetoothHandsfreeResultHandler
+*
+aRes
+nsresult
+aRv
+)
+;
 BluetoothDaemonHandsfreeModule
 *
 mModule

@@ -126,6 +126,11 @@ BluetoothInterface
 cpp
 '
 '
+BluetoothInterfaceHelpers
+.
+cpp
+'
+'
 BluetoothManager
 .
 cpp

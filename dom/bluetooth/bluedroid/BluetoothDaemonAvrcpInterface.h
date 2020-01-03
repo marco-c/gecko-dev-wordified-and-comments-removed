@@ -1136,6 +1136,16 @@ BluetoothStatus
 aStatus
 )
 ;
+void
+DispatchError
+(
+BluetoothAvrcpResultHandler
+*
+aRes
+nsresult
+aRv
+)
+;
 BluetoothDaemonAvrcpModule
 *
 mModule

@@ -462,6 +462,16 @@ BluetoothStatus
 aStatus
 )
 ;
+void
+DispatchError
+(
+BluetoothResultHandler
+*
+aRes
+nsresult
+aRv
+)
+;
 nsCString
 mListenSocketName
 ;
