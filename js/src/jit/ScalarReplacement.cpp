@@ -412,10 +412,6 @@ isDefinition
 (
 )
 )
-{
-if
-(
-!
 ins
 -
 >
@@ -429,15 +425,8 @@ accept
 &
 view
 )
-)
-return
-false
 ;
-}
 else
-if
-(
-!
 view
 .
 visitResumePoint
@@ -449,12 +438,7 @@ toResumePoint
 (
 )
 )
-)
-{
-return
-false
 ;
-}
 }
 for
 (
@@ -1163,7 +1147,7 @@ assertSuccess
 endif
 public
 :
-bool
+void
 visitResumePoint
 (
 MResumePoint
@@ -1171,7 +1155,7 @@ MResumePoint
 rp
 )
 ;
-bool
+void
 visitStoreFixedSlot
 (
 MStoreFixedSlot
@@ -1179,7 +1163,7 @@ MStoreFixedSlot
 ins
 )
 ;
-bool
+void
 visitLoadFixedSlot
 (
 MLoadFixedSlot
@@ -1187,7 +1171,7 @@ MLoadFixedSlot
 ins
 )
 ;
-bool
+void
 visitStoreSlot
 (
 MStoreSlot
@@ -1195,7 +1179,7 @@ MStoreSlot
 ins
 )
 ;
-bool
+void
 visitLoadSlot
 (
 MLoadSlot
@@ -1203,7 +1187,7 @@ MLoadSlot
 ins
 )
 ;
-bool
+void
 visitGuardShape
 (
 MGuardShape
@@ -1854,7 +1838,7 @@ hasOneUse
 }
 #
 endif
-bool
+void
 ObjectMemoryView
 :
 :
@@ -1872,11 +1856,8 @@ obj_
 state_
 )
 ;
-return
-true
-;
 }
-bool
+void
 ObjectMemoryView
 :
 :
@@ -1900,7 +1881,6 @@ object
 obj_
 )
 return
-true
 ;
 state_
 =
@@ -1964,11 +1944,8 @@ discard
 ins
 )
 ;
-return
-true
-;
 }
-bool
+void
 ObjectMemoryView
 :
 :
@@ -1992,7 +1969,6 @@ object
 obj_
 )
 return
-true
 ;
 ins
 -
@@ -2026,11 +2002,8 @@ discard
 ins
 )
 ;
-return
-true
-;
 }
-bool
+void
 ObjectMemoryView
 :
 :
@@ -2108,7 +2081,6 @@ obj_
 )
 ;
 return
-true
 ;
 }
 state_
@@ -2173,11 +2145,8 @@ discard
 ins
 )
 ;
-return
-true
-;
 }
-bool
+void
 ObjectMemoryView
 :
 :
@@ -2255,7 +2224,6 @@ obj_
 )
 ;
 return
-true
 ;
 }
 ins
@@ -2290,11 +2258,8 @@ discard
 ins
 )
 ;
-return
-true
-;
 }
-bool
+void
 ObjectMemoryView
 :
 :
@@ -2318,7 +2283,6 @@ obj
 obj_
 )
 return
-true
 ;
 ins
 -
@@ -2340,9 +2304,6 @@ discard
 (
 ins
 )
-;
-return
-true
 ;
 }
 static
@@ -3459,7 +3420,7 @@ elements
 ;
 public
 :
-bool
+void
 visitResumePoint
 (
 MResumePoint
@@ -3467,7 +3428,7 @@ MResumePoint
 rp
 )
 ;
-bool
+void
 visitStoreElement
 (
 MStoreElement
@@ -3475,7 +3436,7 @@ MStoreElement
 ins
 )
 ;
-bool
+void
 visitLoadElement
 (
 MLoadElement
@@ -3483,7 +3444,7 @@ MLoadElement
 ins
 )
 ;
-bool
+void
 visitSetInitializedLength
 (
 MSetInitializedLength
@@ -3491,7 +3452,7 @@ MSetInitializedLength
 ins
 )
 ;
-bool
+void
 visitInitializedLength
 (
 MInitializedLength
@@ -3499,7 +3460,7 @@ MInitializedLength
 ins
 )
 ;
-bool
+void
 visitArrayLength
 (
 MArrayLength
@@ -4112,7 +4073,7 @@ hasLiveDefUses
 }
 #
 endif
-bool
+void
 ArrayMemoryView
 :
 :
@@ -4129,9 +4090,6 @@ rp
 arr_
 state_
 )
-;
-return
-true
 ;
 }
 bool
@@ -4236,7 +4194,7 @@ toInstruction
 )
 ;
 }
-bool
+void
 ArrayMemoryView
 :
 :
@@ -4267,7 +4225,6 @@ elements
 )
 )
 return
-true
 ;
 int32_t
 index
@@ -4327,11 +4284,8 @@ ins
 elements
 )
 ;
-return
-true
-;
 }
-bool
+void
 ArrayMemoryView
 :
 :
@@ -4362,7 +4316,6 @@ elements
 )
 )
 return
-true
 ;
 int32_t
 index
@@ -4397,11 +4350,8 @@ ins
 elements
 )
 ;
-return
-true
-;
 }
-bool
+void
 ArrayMemoryView
 :
 :
@@ -4432,7 +4382,6 @@ elements
 )
 )
 return
-true
 ;
 state_
 =
@@ -4529,11 +4478,8 @@ ins
 elements
 )
 ;
-return
-true
-;
 }
-bool
+void
 ArrayMemoryView
 :
 :
@@ -4564,7 +4510,6 @@ elements
 )
 )
 return
-true
 ;
 ins
 -
@@ -4585,11 +4530,8 @@ ins
 elements
 )
 ;
-return
-true
-;
 }
-bool
+void
 ArrayMemoryView
 :
 :
@@ -4620,7 +4562,6 @@ elements
 )
 )
 return
-true
 ;
 if
 (
@@ -4675,9 +4616,6 @@ discardInstruction
 ins
 elements
 )
-;
-return
-true
 ;
 }
 bool

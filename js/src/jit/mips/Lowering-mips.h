@@ -54,7 +54,7 @@ lirGraph
 }
 protected
 :
-bool
+void
 useBox
 (
 LInstruction
@@ -81,7 +81,7 @@ useAtStart
 false
 )
 ;
-bool
+void
 useBoxFixed
 (
 LInstruction
@@ -176,7 +176,7 @@ size_t
 lirIndex
 )
 ;
-bool
+void
 defineUntypedPhi
 (
 MPhi
@@ -186,7 +186,7 @@ size_t
 lirIndex
 )
 ;
-bool
+void
 lowerForShift
 (
 LInstructionHelper
@@ -208,7 +208,7 @@ MDefinition
 rhs
 )
 ;
-bool
+void
 lowerUrshD
 (
 MUrsh
@@ -216,7 +216,7 @@ MUrsh
 mir
 )
 ;
-bool
+void
 lowerForALU
 (
 LInstructionHelper
@@ -235,7 +235,7 @@ MDefinition
 input
 )
 ;
-bool
+void
 lowerForALU
 (
 LInstructionHelper
@@ -257,7 +257,7 @@ MDefinition
 rhs
 )
 ;
-bool
+void
 lowerForFPU
 (
 LInstructionHelper
@@ -281,7 +281,7 @@ template
 size_t
 Temps
 >
-bool
+void
 lowerForFPU
 (
 LInstructionHelper
@@ -303,7 +303,7 @@ MDefinition
 rhs
 )
 ;
-bool
+void
 lowerForCompIx4
 (
 LSimdBinaryCompIx4
@@ -330,7 +330,7 @@ rhs
 )
 ;
 }
-bool
+void
 lowerForCompFx4
 (
 LSimdBinaryCompFx4
@@ -357,7 +357,7 @@ rhs
 )
 ;
 }
-bool
+void
 lowerForBitAndAndBranch
 (
 LBitAndAndBranch
@@ -374,7 +374,7 @@ MDefinition
 rhs
 )
 ;
-bool
+void
 lowerConstantDouble
 (
 double
@@ -384,7 +384,7 @@ MInstruction
 ins
 )
 ;
-bool
+void
 lowerConstantFloat32
 (
 float
@@ -394,7 +394,7 @@ MInstruction
 ins
 )
 ;
-bool
+void
 lowerTruncateDToInt32
 (
 MTruncateToInt32
@@ -402,7 +402,7 @@ MTruncateToInt32
 ins
 )
 ;
-bool
+void
 lowerTruncateFToInt32
 (
 MTruncateToInt32
@@ -410,7 +410,7 @@ MTruncateToInt32
 ins
 )
 ;
-bool
+void
 lowerDivI
 (
 MDiv
@@ -418,7 +418,7 @@ MDiv
 div
 )
 ;
-bool
+void
 lowerModI
 (
 MMod
@@ -426,7 +426,7 @@ MMod
 mod
 )
 ;
-bool
+void
 lowerMulI
 (
 MMul
@@ -440,7 +440,7 @@ MDefinition
 rhs
 )
 ;
-bool
+void
 lowerUDiv
 (
 MDiv
@@ -448,7 +448,7 @@ MDiv
 div
 )
 ;
-bool
+void
 lowerUMod
 (
 MMod
@@ -456,7 +456,7 @@ MMod
 mod
 )
 ;
-bool
+void
 visitPowHalf
 (
 MPowHalf
@@ -464,7 +464,7 @@ MPowHalf
 ins
 )
 ;
-bool
+void
 visitAsmJSNeg
 (
 MAsmJSNeg
@@ -500,7 +500,7 @@ ins
 ;
 public
 :
-bool
+void
 visitConstant
 (
 MConstant
@@ -508,7 +508,7 @@ MConstant
 ins
 )
 ;
-bool
+void
 visitBox
 (
 MBox
@@ -516,7 +516,7 @@ MBox
 box
 )
 ;
-bool
+void
 visitUnbox
 (
 MUnbox
@@ -524,7 +524,7 @@ MUnbox
 unbox
 )
 ;
-bool
+void
 visitReturn
 (
 MReturn
@@ -532,7 +532,7 @@ MReturn
 ret
 )
 ;
-bool
+void
 lowerPhi
 (
 MPhi
@@ -540,7 +540,7 @@ MPhi
 phi
 )
 ;
-bool
+void
 visitGuardShape
 (
 MGuardShape
@@ -548,7 +548,7 @@ MGuardShape
 ins
 )
 ;
-bool
+void
 visitGuardObjectType
 (
 MGuardObjectType
@@ -556,7 +556,7 @@ MGuardObjectType
 ins
 )
 ;
-bool
+void
 visitAsmJSUnsignedToDouble
 (
 MAsmJSUnsignedToDouble
@@ -564,7 +564,7 @@ MAsmJSUnsignedToDouble
 ins
 )
 ;
-bool
+void
 visitAsmJSUnsignedToFloat32
 (
 MAsmJSUnsignedToFloat32
@@ -572,7 +572,7 @@ MAsmJSUnsignedToFloat32
 ins
 )
 ;
-bool
+void
 visitAsmJSLoadHeap
 (
 MAsmJSLoadHeap
@@ -580,7 +580,7 @@ MAsmJSLoadHeap
 ins
 )
 ;
-bool
+void
 visitAsmJSStoreHeap
 (
 MAsmJSStoreHeap
@@ -588,7 +588,7 @@ MAsmJSStoreHeap
 ins
 )
 ;
-bool
+void
 visitAsmJSCompareExchangeHeap
 (
 MAsmJSCompareExchangeHeap
@@ -596,7 +596,7 @@ MAsmJSCompareExchangeHeap
 ins
 )
 ;
-bool
+void
 visitAsmJSAtomicBinopHeap
 (
 MAsmJSAtomicBinopHeap
@@ -604,7 +604,7 @@ MAsmJSAtomicBinopHeap
 ins
 )
 ;
-bool
+void
 visitAsmJSLoadFuncPtr
 (
 MAsmJSLoadFuncPtr
@@ -612,7 +612,7 @@ MAsmJSLoadFuncPtr
 ins
 )
 ;
-bool
+void
 visitStoreTypedArrayElementStatic
 (
 MStoreTypedArrayElementStatic
@@ -620,7 +620,7 @@ MStoreTypedArrayElementStatic
 ins
 )
 ;
-bool
+void
 visitForkJoinGetSlice
 (
 MForkJoinGetSlice
@@ -628,7 +628,7 @@ MForkJoinGetSlice
 ins
 )
 ;
-bool
+void
 visitSimdTernaryBitwise
 (
 MSimdTernaryBitwise
@@ -636,7 +636,7 @@ MSimdTernaryBitwise
 ins
 )
 ;
-bool
+void
 visitSimdSplatX4
 (
 MSimdSplatX4
@@ -644,7 +644,7 @@ MSimdSplatX4
 ins
 )
 ;
-bool
+void
 visitSimdValueX4
 (
 MSimdValueX4
@@ -652,7 +652,7 @@ MSimdValueX4
 ins
 )
 ;
-bool
+void
 visitCompareExchangeTypedArrayElement
 (
 MCompareExchangeTypedArrayElement
@@ -660,7 +660,7 @@ MCompareExchangeTypedArrayElement
 ins
 )
 ;
-bool
+void
 visitAtomicTypedArrayElementBinop
 (
 MAtomicTypedArrayElementBinop
@@ -668,7 +668,7 @@ MAtomicTypedArrayElementBinop
 ins
 )
 ;
-bool
+void
 visitSubstr
 (
 MSubstr

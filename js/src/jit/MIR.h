@@ -1521,7 +1521,7 @@ const
 0
 ;
 virtual
-bool
+void
 accept
 (
 MDefinitionVisitor
@@ -3426,7 +3426,7 @@ opcode
 \
 }
 \
-bool
+void
 accept
 (
 MDefinitionVisitor
@@ -3435,7 +3435,6 @@ visitor
 )
 {
 \
-return
 visitor
 -
 >
