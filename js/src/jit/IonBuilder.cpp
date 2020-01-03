@@ -65566,6 +65566,13 @@ type
 MIRType_MagicUninitializedLexical
 )
 {
+input
+-
+>
+setImplicitlyUsedUnchecked
+(
+)
+;
 lexicalCheck
 =
 MThrowUninitializedLexical
