@@ -12,6 +12,10 @@ typedef
 PRUint16
 SSL3ProtocolVersion
 ;
+#
+define
+TLS_1_3_DRAFT_VERSION
+3
 typedef
 PRUint16
 ssl3CipherSuite
@@ -248,6 +252,9 @@ insufficient_security
 internal_error
 =
 80
+inappropriate_fallback
+=
+86
 user_canceled
 =
 90
