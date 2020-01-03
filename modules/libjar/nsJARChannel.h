@@ -324,6 +324,11 @@ ContinueAsyncOpen
 )
 ;
 void
+FinishAsyncOpen
+(
+)
+;
+void
 ResetInterception
 (
 )
