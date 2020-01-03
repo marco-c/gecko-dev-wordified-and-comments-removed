@@ -404,7 +404,7 @@ const
 ;
 static
 const
-ScreenMargin
+LayerMargin
 CalculatePendingDisplayPort
 (
 const

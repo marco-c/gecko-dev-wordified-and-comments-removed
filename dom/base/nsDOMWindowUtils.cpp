@@ -2208,7 +2208,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-ScreenMargin
+LayerMargin
 displayportMargins
 (
 aTopMargin

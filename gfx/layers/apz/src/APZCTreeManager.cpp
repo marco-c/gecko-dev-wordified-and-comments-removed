@@ -326,7 +326,7 @@ mApzcMap
 }
 ;
 const
-ScreenMargin
+LayerMargin
 APZCTreeManager
 :
 :

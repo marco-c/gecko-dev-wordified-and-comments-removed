@@ -369,7 +369,7 @@ DisplayPortMarginsPropertyData
 DisplayPortMarginsPropertyData
 (
 const
-ScreenMargin
+LayerMargin
 &
 aMargins
 uint32_t
@@ -398,7 +398,7 @@ aPriority
 )
 {
 }
-ScreenMargin
+LayerMargin
 mMargins
 ;
 uint32_t
@@ -576,8 +576,8 @@ typedef
 mozilla
 :
 :
-ScreenMargin
-ScreenMargin
+LayerMargin
+LayerMargin
 ;
 typedef
 mozilla
@@ -662,7 +662,7 @@ nsIPresShell
 *
 aPresShell
 const
-ScreenMargin
+LayerMargin
 &
 aMargins
 uint32_t
@@ -1544,15 +1544,6 @@ const
 nsIFrame
 *
 aAncestor
-)
-;
-static
-gfxSize
-GetTransformToAncestorScale
-(
-nsIFrame
-*
-aFrame
 )
 ;
 enum
