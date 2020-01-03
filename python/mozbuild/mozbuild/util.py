@@ -62,6 +62,9 @@ def
 hash_file
 (
 path
+hasher
+=
+None
 )
 :
     
@@ -88,6 +91,8 @@ digest
     
 h
 =
+hasher
+or
 hashlib
 .
 sha1
