@@ -50,6 +50,16 @@ mozdevice
 import
 devicemanagerADB
 DMError
+from
+mozlog
+import
+structured
+from
+mozlog
+.
+structured
+import
+commandline
 DEVICE_TEST_ROOT
 =
 '
@@ -1183,6 +1193,7 @@ run_remote_xpcshell
 parser
 options
 args
+log
 )
 :
     
@@ -1515,6 +1526,7 @@ B2GXPCShellRemote
 dm
 options
 args
+log
 )
     
 options
@@ -1609,6 +1621,15 @@ B2GOptions
 (
 )
     
+structured
+.
+commandline
+.
+add_logging_group
+(
+parser
+)
+    
 options
 args
 =
@@ -1618,11 +1639,36 @@ parse_args
 (
 )
     
+log
+=
+commandline
+.
+setup_logging
+(
+"
+Remote
+XPCShell
+"
+                                    
+options
+                                    
+{
+"
+tbpl
+"
+:
+sys
+.
+stdout
+}
+)
+    
 run_remote_xpcshell
 (
 parser
 options
 args
+log
 )
 if
 __name__

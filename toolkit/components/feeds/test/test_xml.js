@@ -39,7 +39,6 @@ try
 {
 do_print
 (
-true
 "
 Testing
 feed
