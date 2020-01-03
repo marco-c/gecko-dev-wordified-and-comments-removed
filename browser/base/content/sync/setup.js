@@ -3692,12 +3692,6 @@ complete
 "
 )
 ;
-gSyncUtils
-.
-openFirstSyncProgressPage
-(
-)
-;
 }
 Weave
 .
