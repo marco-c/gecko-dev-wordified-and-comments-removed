@@ -1172,6 +1172,9 @@ mDisplayPort
 .
 height
 )
+<
+=
+2
 )
 {
 return
