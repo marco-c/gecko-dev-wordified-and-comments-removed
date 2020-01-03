@@ -167,8 +167,7 @@ ScrollableLayerGuid
 aGuid
 )
 MOZ_OVERRIDE
-{
-}
+;
 virtual
 void
 HandleLongTap
@@ -250,6 +249,12 @@ void
 InitializeRoot
 (
 )
+;
+float
+GetPresShellResolution
+(
+)
+const
 ;
 }
 ;
