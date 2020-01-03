@@ -1,4 +1,12 @@
 #
+define
+_USE_MATH_DEFINES
+#
+include
+<
+cmath
+>
+#
 include
 "
 DrawTargetTiled
@@ -12,14 +20,6 @@ Logging
 .
 h
 "
-#
-define
-_USE_MATH_DEFINES
-#
-include
-<
-cmath
->
 using
 namespace
 std
