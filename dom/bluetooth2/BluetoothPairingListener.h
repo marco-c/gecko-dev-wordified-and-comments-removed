@@ -63,9 +63,14 @@ aWindow
 void
 DispatchPairingEvent
 (
-BluetoothDevice
-*
-aDevice
+const
+nsAString
+&
+aName
+const
+nsAString
+&
+aAddress
 const
 nsAString
 &

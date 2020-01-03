@@ -113,8 +113,8 @@ Event
 {
 readonly
 attribute
-BluetoothDevice
-device
+DOMString
+deviceName
 ;
 readonly
 attribute
@@ -129,8 +129,8 @@ BluetoothPairingEventInit
 EventInit
 {
 required
-BluetoothDevice
-device
+DOMString
+deviceName
 ;
 required
 BluetoothPairingHandle
