@@ -69,7 +69,7 @@ const
 version
 =
 "
-__MOZ_APP_VERSION_ABOUT__
+__MOZ_APP_VERSION_DISPLAY__
 "
 ;
 if

@@ -2688,7 +2688,7 @@ browser
 /
 config
 /
-version_about
+version_display
 .
 txt
 \

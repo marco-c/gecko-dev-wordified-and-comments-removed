@@ -981,7 +981,7 @@ version
 :
 AppConstants
 .
-MOZ_APP_VERSION_ABOUT
+MOZ_APP_VERSION_DISPLAY
 buildID
 :
 Services
