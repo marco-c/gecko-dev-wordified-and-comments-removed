@@ -5707,7 +5707,7 @@ BluetoothDaemonProtocol
 void
 SetConnection
 (
-BluetoothDaemonConnection
+DaemonSocket
 *
 aConnection
 )
@@ -5886,7 +5886,7 @@ void
 aUserData
 )
 ;
-BluetoothDaemonConnection
+DaemonSocket
 *
 mConnection
 ;
@@ -5913,7 +5913,7 @@ BluetoothDaemonProtocol
 :
 SetConnection
 (
-BluetoothDaemonConnection
+DaemonSocket
 *
 aConnection
 )
@@ -7336,7 +7336,7 @@ mCmdChannel
 mCmdChannel
 =
 new
-BluetoothDaemonConnection
+DaemonSocket
 (
 mProtocol
 this
@@ -9027,7 +9027,7 @@ mNtfChannel
 mNtfChannel
 =
 new
-BluetoothDaemonConnection
+DaemonSocket
 (
 mProtocol
 this

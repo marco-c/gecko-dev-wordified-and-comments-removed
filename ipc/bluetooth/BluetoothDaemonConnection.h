@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_ipc_bluetooth_BluetoothDaemonConnection_h
+mozilla_ipc_bluetooth_DaemonSocket_h
 #
 define
-mozilla_ipc_bluetooth_BluetoothDaemonConnection_h
+mozilla_ipc_bluetooth_DaemonSocket_h
 #
 include
 "
@@ -265,14 +265,14 @@ DaemonSocketIOConsumer
 }
 ;
 class
-BluetoothDaemonConnection
+DaemonSocket
 :
 public
 ConnectionOrientedSocket
 {
 public
 :
-BluetoothDaemonConnection
+DaemonSocket
 (
 DaemonSocketIOConsumer
 *
@@ -286,7 +286,7 @@ aIndex
 ;
 virtual
 ~
-BluetoothDaemonConnection
+DaemonSocket
 (
 )
 ;

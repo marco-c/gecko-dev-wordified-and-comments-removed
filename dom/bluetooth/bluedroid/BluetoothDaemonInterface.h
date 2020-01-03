@@ -40,7 +40,7 @@ namespace
 ipc
 {
 class
-BluetoothDaemonConnection
+DaemonSocket
 ;
 class
 ListenSocket
@@ -548,7 +548,7 @@ mozilla
 ipc
 :
 :
-BluetoothDaemonConnection
+DaemonSocket
 >
 mCmdChannel
 ;
@@ -560,7 +560,7 @@ mozilla
 ipc
 :
 :
-BluetoothDaemonConnection
+DaemonSocket
 >
 mNtfChannel
 ;

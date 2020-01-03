@@ -974,7 +974,7 @@ aConnectionStatus
 UnixSocketConnector
 *
 aConnector
-BluetoothDaemonConnection
+DaemonSocket
 *
 aConnection
 DaemonSocketIOConsumer
@@ -1039,7 +1039,7 @@ override
 ;
 private
 :
-BluetoothDaemonConnection
+DaemonSocket
 *
 mConnection
 ;
@@ -1076,7 +1076,7 @@ aConnectionStatus
 UnixSocketConnector
 *
 aConnector
-BluetoothDaemonConnection
+DaemonSocket
 *
 aConnection
 DaemonSocketIOConsumer
@@ -1304,10 +1304,10 @@ mShuttingDownOnIOThread
 true
 ;
 }
-BluetoothDaemonConnection
+DaemonSocket
 :
 :
-BluetoothDaemonConnection
+DaemonSocket
 (
 DaemonSocketIOConsumer
 *
@@ -1342,17 +1342,17 @@ mConsumer
 )
 ;
 }
-BluetoothDaemonConnection
+DaemonSocket
 :
 :
 ~
-BluetoothDaemonConnection
+DaemonSocket
 (
 )
 {
 }
 nsresult
-BluetoothDaemonConnection
+DaemonSocket
 :
 :
 PrepareAccept
@@ -1410,7 +1410,7 @@ NS_OK
 ;
 }
 void
-BluetoothDaemonConnection
+DaemonSocket
 :
 :
 SendSocketData
@@ -1460,7 +1460,7 @@ aBuffer
 ;
 }
 void
-BluetoothDaemonConnection
+DaemonSocket
 :
 :
 Close
@@ -1532,7 +1532,7 @@ NotifyDisconnect
 ;
 }
 void
-BluetoothDaemonConnection
+DaemonSocket
 :
 :
 OnConnectSuccess
@@ -1549,7 +1549,7 @@ mIndex
 ;
 }
 void
-BluetoothDaemonConnection
+DaemonSocket
 :
 :
 OnConnectError
@@ -1566,7 +1566,7 @@ mIndex
 ;
 }
 void
-BluetoothDaemonConnection
+DaemonSocket
 :
 :
 OnDisconnect
