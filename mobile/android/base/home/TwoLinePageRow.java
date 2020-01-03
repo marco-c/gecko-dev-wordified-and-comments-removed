@@ -534,10 +534,6 @@ null
 return
 ;
 }
-final
-String
-tabUrl
-;
 if
 (
 tab
@@ -549,6 +545,8 @@ null
 return
 ;
 }
+final
+String
 tabUrl
 =
 tab
@@ -565,6 +563,15 @@ pageUrl
 equals
 (
 tabUrl
+)
+&
+&
+!
+pageUrl
+.
+equals
+(
+data
 )
 )
 {
