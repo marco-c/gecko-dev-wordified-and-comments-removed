@@ -309,9 +309,16 @@ addr
 =
 1
 )
+{
+fclose
+(
+fp
+)
+;
 return
 false
 ;
+}
 fclose
 (
 fp
