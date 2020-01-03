@@ -580,10 +580,6 @@ mAppNotes
 bool
 ret
 =
-true
-;
-ret
-=
 CrashReporter
 :
 :
@@ -613,11 +609,6 @@ mChildDumpID
 processNotes
 )
 ;
-if
-(
-!
-ret
-)
 }
 if
 (
