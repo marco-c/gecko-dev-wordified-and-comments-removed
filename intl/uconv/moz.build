@@ -363,13 +363,6 @@ cpp
 '
 ucvja
 /
-nsUnicodeToJISx0201
-.
-cpp
-'
-'
-ucvja
-/
 nsUnicodeToSJIS
 .
 cpp
@@ -1016,13 +1009,6 @@ cpp
 ucvtw
 /
 nsUnicodeToBIG5HKSCS
-.
-cpp
-'
-'
-ucvtw
-/
-nsUnicodeToHKSCS
 .
 cpp
 '
