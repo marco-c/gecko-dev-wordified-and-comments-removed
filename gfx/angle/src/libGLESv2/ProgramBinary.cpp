@@ -7344,6 +7344,7 @@ writeBytes
 (
 reinterpret_cast
 <
+const
 unsigned
 char
 *
