@@ -46,6 +46,15 @@ include
 "
 mozilla
 /
+StickyTimeDuration
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleAnimationValue
 .
 h
@@ -174,7 +183,7 @@ const
 double
 kNullTimeFraction
 ;
-TimeDuration
+StickyTimeDuration
 mActiveDuration
 ;
 double
@@ -560,7 +569,7 @@ mTiming
 ;
 }
 static
-TimeDuration
+StickyTimeDuration
 ActiveDuration
 (
 const

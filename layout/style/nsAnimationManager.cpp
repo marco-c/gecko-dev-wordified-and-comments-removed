@@ -382,7 +382,10 @@ Name
 (
 )
 message
+StickyTimeDuration
+(
 elapsedTime
+)
 aCollection
 -
 >
@@ -431,7 +434,7 @@ SetLastNotification
 0
 )
 ;
-TimeDuration
+StickyTimeDuration
 elapsedTime
 =
 std
@@ -439,11 +442,14 @@ std
 :
 min
 (
+StickyTimeDuration
+(
 anim
 -
 >
 InitialAdvance
 (
+)
 )
 computedTiming
 .
