@@ -2411,7 +2411,7 @@ ClonedBlockObject
 *
 clone
 (
-ExclusiveContext
+JSContext
 *
 cx
 Handle
