@@ -4067,6 +4067,10 @@ isCachedEval_
 =
 true
 ;
+hasRunOnce_
+=
+false
+;
 }
 void
 uncacheForEval
