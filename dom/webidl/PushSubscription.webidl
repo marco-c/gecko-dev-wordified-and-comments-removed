@@ -115,9 +115,6 @@ api
 /
 *
 /
-interface
-Principal
-;
 [
 JSImplementation
 =
@@ -138,8 +135,8 @@ DOMString
 pushEndpoint
 DOMString
 scope
-Principal
-principal
+DOMString
+pageURL
 )
 ChromeOnly
 ]

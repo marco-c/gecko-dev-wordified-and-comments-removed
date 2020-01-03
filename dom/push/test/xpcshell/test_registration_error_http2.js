@@ -103,8 +103,10 @@ makeStub
 (
 db
 {
-getByIdentifiers
+getByScope
 (
+prev
+scope
 )
 {
 return

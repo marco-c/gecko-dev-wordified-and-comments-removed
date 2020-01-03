@@ -192,10 +192,6 @@ page
 /
 1
 '
-originAttributes
-:
-'
-'
 version
 :
 2
@@ -438,8 +434,6 @@ com
 page
 /
 2
-'
-'
 '
 )
 ;

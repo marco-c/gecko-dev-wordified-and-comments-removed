@@ -148,10 +148,6 @@ com
 /
 1
 '
-originAttributes
-:
-"
-"
 version
 :
 2
@@ -198,10 +194,6 @@ com
 /
 2
 '
-originAttributes
-:
-"
-"
 version
 :
 2
