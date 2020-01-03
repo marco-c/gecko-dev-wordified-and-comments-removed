@@ -139,6 +139,9 @@ originAttributes
 version
 :
 1
+quota
+:
+Infinity
 }
 )
 ;

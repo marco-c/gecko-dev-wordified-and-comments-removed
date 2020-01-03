@@ -392,6 +392,9 @@ inBrowser
 false
 }
 )
+quota
+:
+Infinity
 }
 )
 ;

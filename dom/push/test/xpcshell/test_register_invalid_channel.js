@@ -254,6 +254,10 @@ invalid
 -
 channel
 '
+ChromeUtils
+.
+originAttributesToSuffix
+(
 {
 appId
 :
@@ -266,6 +270,7 @@ inBrowser
 :
 false
 }
+)
 )
 function
 (

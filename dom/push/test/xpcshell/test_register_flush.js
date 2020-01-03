@@ -199,6 +199,9 @@ originAttributes
 version
 :
 2
+quota
+:
+Infinity
 }
 ;
 yield

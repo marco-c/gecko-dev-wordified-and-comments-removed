@@ -251,6 +251,10 @@ net
 /
 case
 '
+ChromeUtils
+.
+originAttributesToSuffix
+(
 {
 appId
 :
@@ -263,6 +267,7 @@ inBrowser
 :
 false
 }
+)
 )
 DEFAULT_TIMEOUT
 '

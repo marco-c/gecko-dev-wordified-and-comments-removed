@@ -270,6 +270,10 @@ com
 /
 mismatched
 '
+ChromeUtils
+.
+originAttributesToSuffix
+(
 {
 appId
 :
@@ -282,6 +286,7 @@ inBrowser
 :
 false
 }
+)
 )
 function
 (

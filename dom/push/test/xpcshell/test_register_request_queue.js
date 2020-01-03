@@ -248,6 +248,10 @@ page
 /
 1
 '
+ChromeUtils
+.
+originAttributesToSuffix
+(
 {
 appId
 :
@@ -260,6 +264,7 @@ inBrowser
 :
 false
 }
+)
 )
 ;
 let
@@ -282,6 +287,10 @@ page
 /
 1
 '
+ChromeUtils
+.
+originAttributesToSuffix
+(
 {
 appId
 :
@@ -294,6 +303,7 @@ inBrowser
 :
 false
 }
+)
 )
 ;
 yield

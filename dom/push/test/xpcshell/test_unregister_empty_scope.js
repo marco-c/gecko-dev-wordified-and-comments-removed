@@ -129,6 +129,10 @@ unregister
 (
 '
 '
+ChromeUtils
+.
+originAttributesToSuffix
+(
 {
 appId
 :
@@ -141,6 +145,7 @@ inBrowser
 :
 false
 }
+)
 )
 function
 (

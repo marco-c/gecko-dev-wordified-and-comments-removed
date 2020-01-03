@@ -264,6 +264,10 @@ com
 /
 mistyped
 '
+ChromeUtils
+.
+originAttributesToSuffix
+(
 {
 appId
 :
@@ -276,6 +280,7 @@ inBrowser
 :
 false
 }
+)
 )
 function
 (

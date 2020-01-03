@@ -430,6 +430,9 @@ inBrowser
 false
 }
 )
+quota
+:
+Infinity
 }
 {
 subscriptionUri
@@ -492,6 +495,9 @@ inBrowser
 false
 }
 )
+quota
+:
+Infinity
 }
 {
 subscriptionUri
@@ -554,6 +560,9 @@ inBrowser
 false
 }
 )
+quota
+:
+Infinity
 }
 ]
 ;

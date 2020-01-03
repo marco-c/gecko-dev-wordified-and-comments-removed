@@ -138,6 +138,10 @@ net
 /
 nonexistent
 '
+ChromeUtils
+.
+originAttributesToSuffix
+(
 {
 appId
 :
@@ -150,6 +154,7 @@ inBrowser
 :
 false
 }
+)
 )
 ;
 yield

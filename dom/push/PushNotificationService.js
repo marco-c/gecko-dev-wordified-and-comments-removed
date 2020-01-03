@@ -250,7 +250,14 @@ _register
 (
 {
 scope
+:
+scope
 originAttributes
+:
+originAttributes
+maxQuota
+:
+Infinity
 }
 )
 ;
