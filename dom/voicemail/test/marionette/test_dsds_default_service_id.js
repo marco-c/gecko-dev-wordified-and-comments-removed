@@ -35,11 +35,9 @@ mozilla
 .
 org
 /
-ril
+voicemail
 /
-content
--
-helper
+gonkvoicemailservice
 ;
 1
 "
