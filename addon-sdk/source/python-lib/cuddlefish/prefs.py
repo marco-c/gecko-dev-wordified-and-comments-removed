@@ -500,13 +500,13 @@ url
 '
 :
 '
-http
+https
 :
 /
 /
 localhost
 /
-repair
+selfsupport
 -
 dummy
 '
