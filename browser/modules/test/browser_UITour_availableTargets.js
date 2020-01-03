@@ -178,7 +178,7 @@ quit
 search
 "
 "
-searchProvider
+searchIcon
 "
 "
 urlbar
@@ -334,7 +334,7 @@ quit
 search
 "
 "
-searchProvider
+searchIcon
 "
 "
 urlbar
