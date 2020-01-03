@@ -79,13 +79,6 @@ h
 >
 #
 include
-<
-sched
-.
-h
->
-#
-include
 "
 nsAppShell
 .
@@ -4397,8 +4390,9 @@ return
 nullptr
 ;
 }
-sched_yield
+usleep
 (
+100000ul
 )
 ;
 profile
