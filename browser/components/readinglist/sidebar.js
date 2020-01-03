@@ -952,7 +952,7 @@ return
 }
 log
 .
-debug
+trace
 (
 Setting
 activeItem
@@ -1130,10 +1130,10 @@ return
 }
 log
 .
-debug
+trace
 (
 Setting
-activeItem
+selectedItem
 :
 {
 node
@@ -1347,7 +1347,7 @@ index
 {
 log
 .
-debug
+trace
 (
 Setting
 selectedIndex
