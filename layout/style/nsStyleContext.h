@@ -378,7 +378,7 @@ NS_STYLE_HAS_TEXT_DECORATION_LINES
 ;
 }
 bool
-IsInlineDescendantOfRuby
+ShouldSuppressLineBreak
 (
 )
 const
@@ -389,7 +389,7 @@ return
 (
 mBits
 &
-NS_STYLE_IS_INLINE_DESCENDANT_OF_RUBY
+NS_STYLE_SUPPRESS_LINEBREAK
 )
 ;
 }

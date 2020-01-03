@@ -2513,7 +2513,7 @@ StyleContext
 )
 -
 >
-IsInlineDescendantOfRuby
+ShouldSuppressLineBreak
 (
 )
 ;
@@ -14117,7 +14117,7 @@ StyleContext
 )
 -
 >
-IsInlineDescendantOfRuby
+ShouldSuppressLineBreak
 (
 )
 )
@@ -15017,7 +15017,7 @@ StyleContext
 )
 -
 >
-IsInlineDescendantOfRuby
+ShouldSuppressLineBreak
 (
 )
 )
@@ -15092,7 +15092,7 @@ StyleContext
 )
 -
 >
-IsInlineDescendantOfRuby
+ShouldSuppressLineBreak
 (
 )
 )

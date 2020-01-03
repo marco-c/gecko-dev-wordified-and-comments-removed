@@ -18278,7 +18278,7 @@ StyleContext
 )
 -
 >
-IsInlineDescendantOfRuby
+ShouldSuppressLineBreak
 (
 )
 &
