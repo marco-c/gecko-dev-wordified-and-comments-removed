@@ -463,12 +463,8 @@ messages
 text
 :
 '
-"
 foo
-"
-"
 bar
-"
 '
 category
 :

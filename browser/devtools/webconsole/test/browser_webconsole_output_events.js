@@ -141,9 +141,7 @@ mousemove
 text
 :
 /
-"
 eventLogger
-"
 mousemove
 {
 target
@@ -212,9 +210,7 @@ keypress
 text
 :
 /
-"
 eventLogger
-"
 keypress
 Shift
 {
