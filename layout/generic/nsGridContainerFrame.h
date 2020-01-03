@@ -807,7 +807,9 @@ GridNamedArea
 aAreaEnd
 uint32_t
 aExplicitGridEnd
-uint32_t
+int32_t
+aGridStart
+int32_t
 aGridEnd
 const
 nsStylePosition
