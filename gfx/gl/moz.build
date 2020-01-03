@@ -367,11 +367,6 @@ SharedSurfaceGL
 h
 '
 '
-SurfaceStream
-.
-h
-'
-'
 SurfaceTypes
 .
 h
@@ -847,11 +842,6 @@ cpp
 '
 '
 SharedSurfaceGL
-.
-cpp
-'
-'
-SurfaceStream
 .
 cpp
 '

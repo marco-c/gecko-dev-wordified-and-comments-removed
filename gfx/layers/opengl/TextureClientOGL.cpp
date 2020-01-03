@@ -8,13 +8,6 @@ h
 #
 include
 "
-SurfaceStream
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions

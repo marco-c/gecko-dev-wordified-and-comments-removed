@@ -401,17 +401,6 @@ size
 }
 ;
 struct
-SurfaceStreamDescriptor
-{
-uintptr_t
-surfStream
-;
-bool
-yflip
-;
-}
-;
-struct
 SharedSurfaceDescriptor
 {
 uintptr_t
@@ -500,8 +489,6 @@ SurfaceDescriptorX11
 SurfaceTextureDescriptor
 ;
 EGLImageDescriptor
-;
-SurfaceStreamDescriptor
 ;
 SurfaceDescriptorMacIOSurface
 ;

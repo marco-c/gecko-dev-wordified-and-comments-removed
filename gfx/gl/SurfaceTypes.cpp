@@ -168,7 +168,7 @@ false
 ;
 premultAlpha
 =
-false
+true
 ;
 preserve
 =

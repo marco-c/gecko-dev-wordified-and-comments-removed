@@ -46,13 +46,6 @@ SharedSurfaceGL
 h
 "
 #
-include
-"
-SurfaceStream
-.
-h
-"
-#
 ifdef
 MOZ_WIDGET_GONK
 #
