@@ -153,7 +153,7 @@ run_next_test
 }
 ;
 var
-testTarget
+testDevice
 =
 {
 target
@@ -205,9 +205,9 @@ cleanup
 {
 SimpleServiceDiscovery
 .
-unregisterTarget
+unregisterDevice
 (
-testTarget
+testDevice
 )
 ;
 Services
@@ -248,9 +248,9 @@ false
 ;
 SimpleServiceDiscovery
 .
-registerTarget
+registerDevice
 (
-testTarget
+testDevice
 )
 ;
 let
