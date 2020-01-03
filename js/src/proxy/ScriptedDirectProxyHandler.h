@@ -20,7 +20,7 @@ class
 ScriptedDirectProxyHandler
 :
 public
-DirectProxyHandler
+BaseProxyHandler
 {
 public
 :
@@ -29,7 +29,7 @@ ScriptedDirectProxyHandler
 (
 )
 :
-DirectProxyHandler
+BaseProxyHandler
 (
 &
 family
