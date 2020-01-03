@@ -498,6 +498,12 @@ name
 root
 )
 "
+uid
+:
+(
+void
+0
+)
 start
 :
 (
@@ -519,6 +525,9 @@ name
 "
 Styles
 "
+uid
+:
+2
 start
 :
 1
@@ -540,6 +549,9 @@ name
 "
 Styles
 "
+uid
+:
+1
 }
 {
 start
@@ -553,6 +565,9 @@ name
 "
 Styles
 "
+uid
+:
+3
 }
 ]
 }
@@ -562,6 +577,9 @@ name
 "
 Reflow
 "
+uid
+:
+6
 start
 :
 5
@@ -583,6 +601,9 @@ name
 "
 Reflow
 "
+uid
+:
+5
 }
 {
 start
@@ -596,6 +617,9 @@ name
 "
 Reflow
 "
+uid
+:
+7
 }
 ]
 }
@@ -605,6 +629,9 @@ name
 "
 Paint
 "
+uid
+:
+10
 start
 :
 9
@@ -626,6 +653,9 @@ name
 "
 Paint
 "
+uid
+:
+9
 }
 {
 start
@@ -639,6 +669,9 @@ name
 "
 Paint
 "
+uid
+:
+11
 }
 ]
 }
@@ -662,6 +695,9 @@ type
 "
 foo1
 "
+uid
+:
+13
 }
 {
 start
@@ -675,6 +711,9 @@ name
 "
 TimeStamp
 "
+uid
+:
+14
 }
 {
 name
@@ -687,6 +726,9 @@ DOMEvent
 +
 JS
 "
+uid
+:
+16
 start
 :
 17
@@ -716,6 +758,9 @@ type
 "
 foo2
 "
+uid
+:
+15
 }
 {
 start
@@ -735,6 +780,9 @@ stack
 endStack
 :
 2
+uid
+:
+17
 }
 ]
 type
@@ -763,6 +811,9 @@ DOMEvent
 +
 JS
 "
+uid
+:
+20
 start
 :
 21
@@ -792,6 +843,9 @@ type
 "
 foo3
 "
+uid
+:
+19
 }
 {
 start
@@ -811,6 +865,9 @@ stack
 endStack
 :
 4
+uid
+:
+21
 }
 ]
 type
@@ -839,6 +896,9 @@ DOMEvent
 +
 JS
 "
+uid
+:
+24
 start
 :
 25
@@ -868,6 +928,9 @@ type
 "
 foo4
 "
+uid
+:
+23
 }
 {
 start
@@ -887,6 +950,9 @@ stack
 endStack
 :
 6
+uid
+:
+25
 }
 ]
 type
@@ -910,6 +976,9 @@ name
 "
 Javascript
 "
+uid
+:
+28
 start
 :
 29
@@ -937,6 +1006,9 @@ stack
 endStack
 :
 8
+uid
+:
+27
 }
 {
 start
@@ -956,6 +1028,9 @@ stack
 endStack
 :
 10
+uid
+:
+29
 }
 ]
 }
@@ -979,6 +1054,9 @@ type
 "
 foo5
 "
+uid
+:
+31
 }
 {
 start
@@ -1000,6 +1078,9 @@ type
 "
 foo6
 "
+uid
+:
+32
 }
 {
 name
@@ -1012,6 +1093,9 @@ DOMEvent
 +
 JS
 "
+uid
+:
+34
 start
 :
 37
@@ -1041,6 +1125,9 @@ type
 "
 foo6
 "
+uid
+:
+33
 }
 {
 start
@@ -1060,6 +1147,9 @@ stack
 endStack
 :
 12
+uid
+:
+35
 }
 ]
 type
@@ -1083,6 +1173,9 @@ name
 "
 Javascript
 "
+uid
+:
+38
 start
 :
 41
@@ -1110,6 +1203,9 @@ stack
 endStack
 :
 14
+uid
+:
+37
 }
 {
 start
@@ -1129,6 +1225,9 @@ stack
 endStack
 :
 16
+uid
+:
+39
 }
 ]
 }
@@ -1144,6 +1243,9 @@ name
 "
 GarbageCollection
 "
+uid
+:
+41
 }
 ]
 }
