@@ -2089,7 +2089,7 @@ AddObserver
 (
 this
 NS_NETWORK_LINK_TOPIC
-false
+true
 )
 ;
 }
