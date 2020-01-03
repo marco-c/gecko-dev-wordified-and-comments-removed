@@ -1421,6 +1421,7 @@ expr
 -
 1
 ]
+GTEST_ATTRIBUTE_UNUSED_
 template
 <
 typename
