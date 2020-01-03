@@ -718,17 +718,6 @@ imgIContainer
 .
 h
 "
-#
-include
-"
-mozilla
-/
-net
-/
-ReferrerPolicy
-.
-h
-"
 using
 namespace
 mozilla

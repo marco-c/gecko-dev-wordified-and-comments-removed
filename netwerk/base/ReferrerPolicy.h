@@ -50,7 +50,7 @@ RP_Default
 nsIHttpChannel
 :
 :
-REFERRER_POLICY_NO_REFERRER_WHEN_DOWNGRADE
+REFERRER_POLICY_DEFAULT
 RP_Origin_When_Crossorigin
 =
 nsIHttpChannel
