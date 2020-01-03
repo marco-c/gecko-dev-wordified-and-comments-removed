@@ -1652,7 +1652,7 @@ this
 state
 )
 .
-commit
+apply
 (
 )
 ;
