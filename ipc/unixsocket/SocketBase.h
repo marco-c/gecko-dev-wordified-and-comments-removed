@@ -626,7 +626,7 @@ const
 ;
 virtual
 void
-Close
+CloseSocket
 (
 )
 =

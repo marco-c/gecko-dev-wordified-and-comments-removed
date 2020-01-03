@@ -1163,7 +1163,7 @@ socketBase
 socketBase
 -
 >
-Close
+CloseSocket
 (
 )
 ;

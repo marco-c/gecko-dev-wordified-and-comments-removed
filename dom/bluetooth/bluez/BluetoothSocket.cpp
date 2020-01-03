@@ -2658,7 +2658,7 @@ void
 BluetoothSocket
 :
 :
-Close
+CloseSocket
 (
 )
 {

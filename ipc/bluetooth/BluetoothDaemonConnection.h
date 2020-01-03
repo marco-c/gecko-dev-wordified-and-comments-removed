@@ -297,7 +297,7 @@ aBuffer
 override
 ;
 void
-Close
+CloseSocket
 (
 )
 override

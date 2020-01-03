@@ -77,6 +77,11 @@ aCOSocket
 )
 ;
 void
+Close
+(
+)
+;
+void
 GetSocketAddr
 (
 nsAString
@@ -85,7 +90,7 @@ aAddrStr
 )
 ;
 void
-Close
+CloseSocket
 (
 )
 override
