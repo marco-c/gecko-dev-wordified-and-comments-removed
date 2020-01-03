@@ -88,11 +88,8 @@ gfx
 :
 IntSize
 aSize
-gfx
-:
-:
-BackendType
-aMoz2dBackend
+BackendSelector
+aSelector
 TextureFlags
 aTextureFlags
 TextureAllocationFlags

@@ -3120,13 +3120,10 @@ surface
 GetSize
 (
 )
-gfx
+BackendSelector
 :
 :
-BackendType
-:
-:
-NONE
+Content
 TextureFlags
 :
 :

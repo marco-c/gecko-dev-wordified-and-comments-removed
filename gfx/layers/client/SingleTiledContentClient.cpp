@@ -319,13 +319,10 @@ ImageFormatToSurfaceFormat
 mFormat
 )
 mSize
-gfx
+BackendSelector
 :
 :
-BackendType
-:
-:
-NONE
+Content
 TextureFlags
 :
 :
