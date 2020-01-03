@@ -539,7 +539,7 @@ ffi
 :
 Object
 .
-preventExtensions
+defineProperty
 }
 )
 (
