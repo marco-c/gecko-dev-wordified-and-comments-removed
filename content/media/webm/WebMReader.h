@@ -679,7 +679,7 @@ OpusMSDecoder
 *
 mOpusDecoder
 ;
-int
+uint16_t
 mSkip
 ;
 uint64_t
@@ -735,6 +735,14 @@ mHasVideo
 bool
 mHasAudio
 ;
+#
+ifdef
+MOZ_OPUS
+bool
+mPaddingDiscarded
+;
+#
+endif
 }
 ;
 }
