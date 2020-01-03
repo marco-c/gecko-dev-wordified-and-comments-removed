@@ -268,6 +268,9 @@ assert_true
 assert_false
 "
 "
+assert_throws
+"
+"
 test
 "
 ]

@@ -488,6 +488,9 @@ CSSTransition
 :
 PlayFromJS
 (
+ErrorResult
+&
+aRv
 )
 {
 FlushStyle
@@ -499,6 +502,7 @@ Animation
 :
 PlayFromJS
 (
+aRv
 )
 ;
 }

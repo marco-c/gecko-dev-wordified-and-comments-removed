@@ -279,6 +279,7 @@ finish
 )
 ;
 [
+Throws
 BinaryName
 =
 "

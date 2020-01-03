@@ -287,6 +287,9 @@ virtual
 void
 Play
 (
+ErrorResult
+&
+aRv
 LimitBehavior
 aLimitBehavior
 )
@@ -314,6 +317,9 @@ virtual
 void
 PlayFromJS
 (
+ErrorResult
+&
+aRv
 )
 override
 ;
