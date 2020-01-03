@@ -350,6 +350,8 @@ block
 MBasicBlock
 *
 pred
+size_t
+predIndex
 )
 ;
 bool
