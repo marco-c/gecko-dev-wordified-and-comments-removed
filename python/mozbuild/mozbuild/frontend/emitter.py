@@ -3376,10 +3376,6 @@ EXTRA_ASSEMBLER_FLAGS
 '
             
 '
-EXTRA_COMPILE_FLAGS
-'
-            
-'
 EXTRA_COMPONENTS
 '
             
