@@ -863,6 +863,11 @@ TextTrackRegion
 cpp
 '
 '
+TrackUnionStream
+.
+cpp
+'
+'
 VideoFrameContainer
 .
 cpp
