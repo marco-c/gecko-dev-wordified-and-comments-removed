@@ -3002,12 +3002,15 @@ Test17
 ;
 if
 (
-OtherProcess
+OtherPid
 (
 )
 !
 =
-0
+ipc
+:
+:
+kCurrentProcessId
 )
 {
 Test18
