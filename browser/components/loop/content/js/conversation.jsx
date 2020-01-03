@@ -2816,3 +2816,17 @@ document
 mozL10n
 )
 ;
+document
+.
+addEventListener
+(
+'
+DOMContentLoaded
+'
+loop
+.
+conversation
+.
+init
+)
+;
