@@ -33,6 +33,9 @@ class
 nsIDOMWindowUtils
 ;
 class
+nsIDocument
+;
+class
 nsIPresShell
 ;
 class
@@ -318,6 +321,13 @@ const
 nsIPresShell
 *
 GetPresShell
+(
+)
+const
+;
+nsIDocument
+*
+GetDocument
 (
 )
 const
