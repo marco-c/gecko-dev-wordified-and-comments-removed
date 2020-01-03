@@ -2647,6 +2647,9 @@ true
 }
 )
 ;
+yield
+promiseNotificationShown
+(
 PopupNotifications
 .
 getNotification
@@ -2657,9 +2660,6 @@ webRTC
 sharingDevices
 "
 )
-.
-reshow
-(
 )
 ;
 activateSecondaryAction
@@ -4652,6 +4652,9 @@ aRequestAudio
 }
 )
 ;
+yield
+promiseNotificationShown
+(
 PopupNotifications
 .
 getNotification
@@ -4662,9 +4665,6 @@ webRTC
 sharingDevices
 "
 )
-.
-reshow
-(
 )
 ;
 let
