@@ -1395,6 +1395,14 @@ Code
 PHASE_NO_PARENT
 }
 {
+PHASE_RELAZIFY_FUNCTIONS
+"
+Relazify
+Functions
+"
+PHASE_NO_PARENT
+}
+{
 PHASE_PURGE
 "
 Purge
