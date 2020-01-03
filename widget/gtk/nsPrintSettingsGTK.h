@@ -494,6 +494,15 @@ aDuplex
 )
 override
 ;
+NS_IMETHOD
+GetOutputFormat
+(
+int16_t
+*
+aOutputFormat
+)
+override
+;
 protected
 :
 virtual
