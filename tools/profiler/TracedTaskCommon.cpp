@@ -503,8 +503,10 @@ return
 task
 ;
 }
+already_AddRefed
+<
 FakeTracedTask
-*
+>
 CreateFakeTracedTask
 (
 int
@@ -512,7 +514,7 @@ int
 aVptr
 )
 {
-nsAutoPtr
+nsRefPtr
 <
 FakeTracedTask
 >

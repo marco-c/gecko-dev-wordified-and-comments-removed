@@ -162,8 +162,10 @@ nsIRunnable
 aRunnable
 )
 ;
+already_AddRefed
+<
 FakeTracedTask
-*
+>
 CreateFakeTracedTask
 (
 int

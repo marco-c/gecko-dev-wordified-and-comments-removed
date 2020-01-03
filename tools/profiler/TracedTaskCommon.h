@@ -200,6 +200,13 @@ EndFakeTracedTask
 ;
 private
 :
+virtual
+~
+FakeTracedTask
+(
+)
+{
+}
 FakeTracedTask
 (
 )
