@@ -1585,14 +1585,9 @@ if
 CONFIG
 [
 '
-OS_TARGET
+GKMEDIAS_SHARED_LIBRARY
 '
 ]
-=
-=
-'
-WINNT
-'
 :
 DEFINES
 [
