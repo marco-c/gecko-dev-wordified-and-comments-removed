@@ -3976,7 +3976,7 @@ GetRoot
 )
 ;
 LayerMetricsWrapper
-scrollbar
+prevAncestor
 (
 aScrollbar
 )
@@ -4011,11 +4011,15 @@ AsRefLayer
 {
 root
 =
-ancestor
+prevAncestor
 ;
 break
 ;
 }
+prevAncestor
+=
+ancestor
+;
 if
 (
 LayerIsScrollbarTarget
