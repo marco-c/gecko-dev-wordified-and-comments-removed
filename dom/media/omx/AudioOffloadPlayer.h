@@ -284,7 +284,7 @@ mStartPosUs
 SeekTarget
 mSeekTarget
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 MediaDecoder
 :

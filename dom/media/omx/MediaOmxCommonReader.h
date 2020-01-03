@@ -54,7 +54,7 @@ MediaDecoderReader
 public
 :
 typedef
-MediaPromise
+MozPromise
 <
 bool
 bool

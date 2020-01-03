@@ -119,7 +119,7 @@ VideoData
 >
 mLastVideoFrame
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 MediaDecoderReader
 :
@@ -128,7 +128,7 @@ SeekPromise
 >
 mSeekPromise
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaDecoderReader
 :

@@ -696,11 +696,6 @@ MediaMetadataManager
 h
 '
 '
-MediaPromise
-.
-h
-'
-'
 MediaQueue
 .
 h
@@ -742,6 +737,11 @@ h
 '
 '
 MediaTrackList
+.
+h
+'
+'
+MozPromise
 .
 h
 '

@@ -14,7 +14,7 @@ h
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "
@@ -72,7 +72,7 @@ SourceBufferContentManager
 )
 ;
 typedef
-MediaPromise
+MozPromise
 <
 bool
 nsresult

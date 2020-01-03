@@ -32,7 +32,7 @@ h
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "
@@ -176,7 +176,7 @@ CANCELED
 }
 ;
 typedef
-MediaPromise
+MozPromise
 <
 nsRefPtr
 <
@@ -188,7 +188,7 @@ true
 MetadataPromise
 ;
 typedef
-MediaPromise
+MozPromise
 <
 nsRefPtr
 <
@@ -200,7 +200,7 @@ true
 AudioDataPromise
 ;
 typedef
-MediaPromise
+MozPromise
 <
 nsRefPtr
 <
@@ -212,7 +212,7 @@ true
 VideoDataPromise
 ;
 typedef
-MediaPromise
+MozPromise
 <
 int64_t
 nsresult
@@ -221,7 +221,7 @@ true
 SeekPromise
 ;
 typedef
-MediaPromise
+MozPromise
 <
 MediaData
 :
@@ -1031,7 +1031,7 @@ NullableTimeUnit
 >
 mDuration
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaTimerPromise
 >
@@ -1113,13 +1113,13 @@ mShutdown
 ;
 private
 :
-MediaPromiseHolder
+MozPromiseHolder
 <
 AudioDataPromise
 >
 mBaseAudioPromise
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 VideoDataPromise
 >

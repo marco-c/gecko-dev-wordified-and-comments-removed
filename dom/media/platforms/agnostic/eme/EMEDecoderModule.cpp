@@ -76,7 +76,7 @@ namespace
 mozilla
 {
 typedef
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 CDMProxy
 :

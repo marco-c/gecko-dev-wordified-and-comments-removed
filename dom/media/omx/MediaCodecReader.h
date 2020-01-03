@@ -626,7 +626,7 @@ MediaExtractor
 >
 mExtractor
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 MediaDecoderReader
 :
@@ -635,13 +635,13 @@ MetadataPromise
 >
 mMetadataPromise
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaResourcePromise
 >
 mMediaResourceRequest
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 MediaResourcePromise
 >
@@ -770,7 +770,7 @@ AudioTrack
 (
 )
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 AudioDataPromise
 >
@@ -844,7 +844,7 @@ gfx
 IntRect
 mRelativePictureRect
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 VideoDataPromise
 >

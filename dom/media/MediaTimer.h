@@ -11,7 +11,7 @@ MediaTimer_h_
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "
@@ -114,7 +114,7 @@ __VA_ARGS__
 )
 )
 typedef
-MediaPromise
+MozPromise
 <
 bool
 bool

@@ -24,7 +24,7 @@ h
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "
@@ -47,7 +47,7 @@ namespace
 mozilla
 ;
 typedef
-MediaPromise
+MozPromise
 <
 int
 double
@@ -343,7 +343,7 @@ false
 }
 TEST
 (
-MediaPromise
+MozPromise
 BasicResolve
 )
 {
@@ -422,7 +422,7 @@ DO_FAIL
 }
 TEST
 (
-MediaPromise
+MozPromise
 BasicReject
 )
 {
@@ -505,7 +505,7 @@ BeginShutdown
 }
 TEST
 (
-MediaPromise
+MozPromise
 AsyncResolve
 )
 {
@@ -748,7 +748,7 @@ DO_FAIL
 }
 TEST
 (
-MediaPromise
+MozPromise
 CompletionPromises
 )
 {
@@ -1047,7 +1047,7 @@ BeginShutdown
 }
 TEST
 (
-MediaPromise
+MozPromise
 PromiseAllResolve
 )
 {
@@ -1213,7 +1213,7 @@ DO_FAIL
 }
 TEST
 (
-MediaPromise
+MozPromise
 PromiseAllReject
 )
 {

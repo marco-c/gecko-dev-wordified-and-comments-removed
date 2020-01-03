@@ -1912,7 +1912,7 @@ MediaTimer
 >
 mMediaTimer
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 mozilla
 :
@@ -1947,7 +1947,7 @@ VideoDataPromise
 VideoDataPromise
 ;
 typedef
-MediaPromise
+MozPromise
 <
 bool
 bool
@@ -2568,7 +2568,7 @@ mAudioStartTime
 mVideoStartTime
 ;
 }
-MediaPromiseHolder
+MozPromiseHolder
 <
 HaveStartTimePromise
 >
@@ -2916,7 +2916,7 @@ IsEmpty
 SeekTarget
 mTarget
 ;
-MediaPromiseHolder
+MozPromiseHolder
 <
 MediaDecoder
 :
@@ -3225,7 +3225,7 @@ mIsAudioPrerolling
 bool
 mIsVideoPrerolling
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -3234,7 +3234,7 @@ AudioDataPromise
 >
 mAudioDataRequest
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -3304,7 +3304,7 @@ idle
 "
 ;
 }
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -3313,7 +3313,7 @@ WaitForDataPromise
 >
 mVideoWaitRequest
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -3383,7 +3383,7 @@ idle
 "
 ;
 }
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -3457,7 +3457,7 @@ mDropVideoUntilNextDiscontinuity
 bool
 mDecodeToSeekTarget
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -3469,7 +3469,7 @@ mSeekRequest
 int64_t
 mCurrentTimeBeforeSeek
 ;
-MediaPromiseRequestHolder
+MozPromiseRequestHolder
 <
 MediaDecoderReader
 :

@@ -64,7 +64,7 @@ h
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "
@@ -141,7 +141,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 CDMProxy
 )
 typedef
-MediaPromise
+MozPromise
 <
 DecryptResult
 DecryptResult
@@ -764,7 +764,7 @@ DecryptJob
 )
 {
 }
-MediaPromiseHolder
+MozPromiseHolder
 <
 DecryptPromise
 >

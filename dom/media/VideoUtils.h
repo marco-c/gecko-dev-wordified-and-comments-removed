@@ -55,7 +55,7 @@ h
 #
 include
 "
-MediaPromise
+MozPromise
 .
 h
 "
