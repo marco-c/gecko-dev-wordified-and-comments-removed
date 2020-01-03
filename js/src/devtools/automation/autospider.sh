@@ -705,6 +705,9 @@ m
 R
 "
 fi
+RUN_JSTESTS
+=
+true
 if
 [
 [
@@ -802,6 +805,18 @@ jstests
 slow
 .
 txt
+case
+"
+platform
+"
+in
+win
+*
+)
+RUN_JSTESTS
+=
+false
+esac
 fi
 if
 [
@@ -856,6 +871,10 @@ tests
 |
 exit
 1
+if
+RUN_JSTESTS
+;
+then
 COMMAND_PREFIX
 MAKE
 check
@@ -865,3 +884,4 @@ jstests
 |
 exit
 1
+fi
