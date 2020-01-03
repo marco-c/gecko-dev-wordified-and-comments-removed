@@ -376,6 +376,11 @@ aWidth
 aHeight
 )
 )
+mCodecSpecificConfig
+(
+new
+MediaByteBuffer
+)
 mExtraData
 (
 new
@@ -414,6 +419,12 @@ mStereoMode
 ;
 nsIntSize
 mImage
+;
+nsRefPtr
+<
+MediaByteBuffer
+>
+mCodecSpecificConfig
 ;
 nsRefPtr
 <
