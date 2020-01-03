@@ -428,15 +428,11 @@ void
 nsString
 nsString
 uint32_t
-nsString
+BluetoothSspVariant
 uint32_t
 const
 nsAString
 &
-const
-nsAString
-&
-uint32_t
 const
 nsAString
 &
