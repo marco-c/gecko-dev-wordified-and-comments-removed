@@ -641,6 +641,14 @@ JS_GetCurrentEmbedderTime
 (
 )
 ;
+JSRuntime
+*
+rt
+=
+runtimeFromAnyThread
+(
+)
+;
 for
 (
 auto
@@ -752,6 +760,7 @@ dbgp
 >
 logTenurePromotion
 (
+rt
 *
 range
 .
