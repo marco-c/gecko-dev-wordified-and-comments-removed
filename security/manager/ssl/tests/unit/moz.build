@@ -123,9 +123,6 @@ test_intermediate_basic_usage_constraints
 '
 test_pinning_dynamic
 '
-'
-test_ocsp_url
-'
 ]
 if
 not
