@@ -162,7 +162,7 @@ app
 DENY_ACTION
 trusted
 :
-DENY_ACTION
+PROMPT_ACTION
 privileged
 :
 PROMPT_ACTION
@@ -347,7 +347,7 @@ app
 DENY_ACTION
 trusted
 :
-DENY_ACTION
+PROMPT_ACTION
 privileged
 :
 PROMPT_ACTION
@@ -382,7 +382,7 @@ app
 DENY_ACTION
 trusted
 :
-DENY_ACTION
+PROMPT_ACTION
 privileged
 :
 PROMPT_ACTION
@@ -417,7 +417,7 @@ app
 DENY_ACTION
 trusted
 :
-DENY_ACTION
+PROMPT_ACTION
 privileged
 :
 PROMPT_ACTION
@@ -452,7 +452,7 @@ app
 DENY_ACTION
 trusted
 :
-DENY_ACTION
+PROMPT_ACTION
 privileged
 :
 PROMPT_ACTION
@@ -1286,7 +1286,7 @@ app
 DENY_ACTION
 trusted
 :
-DENY_ACTION
+ALLOW_ACTION
 privileged
 :
 DENY_ACTION
