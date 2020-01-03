@@ -30,6 +30,15 @@ mozilla
 .
 gecko
 .
+R
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 Telemetry
 ;
 import
