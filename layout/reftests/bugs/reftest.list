@@ -25931,7 +25931,7 @@ skip
 if
 (
 !
-browserIsRemote
+asyncPanZoom
 )
 =
 =
@@ -25955,7 +25955,7 @@ skip
 if
 (
 !
-browserIsRemote
+asyncPanZoom
 )
 =
 =
