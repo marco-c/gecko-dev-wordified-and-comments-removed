@@ -571,10 +571,6 @@ frames
 :
 [
 ]
-counts
-:
-[
-]
 }
 profile
 :
