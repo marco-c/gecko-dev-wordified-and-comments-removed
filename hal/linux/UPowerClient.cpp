@@ -56,6 +56,11 @@ nsAutoRef
 .
 h
 "
+#
+include
+<
+cmath
+>
 template
 <
 >
@@ -1448,6 +1453,8 @@ else
 {
 mLevel
 =
+round
+(
 g_value_get_double
 (
 static_cast
@@ -1463,6 +1470,7 @@ aHashTable
 "
 Percentage
 "
+)
 )
 )
 )
