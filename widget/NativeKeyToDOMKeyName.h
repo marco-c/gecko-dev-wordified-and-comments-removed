@@ -4341,6 +4341,11 @@ KEY_MAP_ANDROID
 TVPower
 AKEYCODE_TV_POWER
 )
+KEY_MAP_GTK
+(
+VideoModeNext
+GDK_Next_VMode
+)
 KEY_MAP_WIN
 (
 ZoomToggle

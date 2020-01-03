@@ -845,6 +845,10 @@ TVPower
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
+VideoModeNext
+)
+DEFINE_KEYNAME_WITH_SAME_NAME
+(
 ZoomToggle
 )
 #
