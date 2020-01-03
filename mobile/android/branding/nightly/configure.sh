@@ -53,16 +53,8 @@ MPL
 0
 /
 .
-ANDROID_PACKAGE_NAME
-=
-org
-.
-mozilla
-.
-fennec_larch
 MOZ_APP_DISPLAYNAME
 =
-Larch
 Nightly
 MOZ_UPDATER
 =
