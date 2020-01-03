@@ -873,6 +873,7 @@ GraphSpewer
 {
 public
 :
+explicit
 GraphSpewer
 (
 TempAllocator
