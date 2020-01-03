@@ -238,6 +238,14 @@ NotifyTimeRangesChanged
 (
 )
 ;
+void
+GetMozDebugReaderData
+(
+nsAString
+&
+aString
+)
+;
 private
 :
 ~

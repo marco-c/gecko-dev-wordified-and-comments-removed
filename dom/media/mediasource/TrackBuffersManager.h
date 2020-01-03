@@ -335,6 +335,16 @@ TrackInfo
 TrackType
 )
 ;
+TimeIntervals
+SafeBuffered
+(
+TrackInfo
+:
+:
+TrackType
+)
+const
+;
 bool
 IsEnded
 (
@@ -426,6 +436,10 @@ override
 endif
 private
 :
+friend
+class
+MediaSourceDemuxer
+;
 virtual
 ~
 TrackBuffersManager
