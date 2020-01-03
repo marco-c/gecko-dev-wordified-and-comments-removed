@@ -2351,11 +2351,14 @@ label
 )
 ;
 bool
-emitDefaults
+emitDefaultsAndDestructuring
 (
 ParseNode
 *
 pn
+ParseNode
+*
+pndestruct
 )
 ;
 bool
