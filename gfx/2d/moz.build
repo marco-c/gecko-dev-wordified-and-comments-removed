@@ -204,6 +204,11 @@ PathHelpers
 h
 '
 '
+PatternHelpers
+.
+h
+'
+'
 Point
 .
 h
