@@ -23,7 +23,6 @@ requestLongerTimeout
 ;
 let
 gTab
-gDebuggee
 gPanel
 gDebugger
 ;
@@ -41,7 +40,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -51,10 +49,6 @@ aPanel
 gTab
 =
 aTab
-;
-gDebuggee
-=
-aDebuggee
 ;
 gPanel
 =
@@ -949,10 +943,12 @@ aCallback
 }
 )
 ;
-gDebuggee
-.
-test
+callInTab
 (
+gTab
+"
+test
+"
 )
 ;
 }
