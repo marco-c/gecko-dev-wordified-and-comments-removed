@@ -52,8 +52,6 @@ const
 nsAFlatCString
 &
 aURI
-bool
-aIRI
 nsAString
 &
 _retval
