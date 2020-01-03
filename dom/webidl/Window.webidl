@@ -378,12 +378,13 @@ browsing
 context
 [
 Unforgeable
-Throws
+Constant
+StoreInSlot
 CrossOriginReadable
 ]
 readonly
 attribute
-WindowProxy
+Window
 window
 ;
 [
