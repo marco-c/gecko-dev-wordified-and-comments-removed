@@ -2873,7 +2873,7 @@ Singleton
 )
 -
 >
-GetEventTarget
+GetIOEventTarget
 (
 )
 ;

@@ -539,12 +539,6 @@ return
 spec
 ;
 }
-static
-void
-Initialize
-(
-)
-;
 private
 :
 void

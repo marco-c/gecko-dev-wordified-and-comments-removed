@@ -24,14 +24,14 @@ h
 #
 include
 "
-ImageFactory
+DecodePool
 .
 h
 "
 #
 include
 "
-RasterImage
+ImageFactory
 .
 h
 "
@@ -794,7 +794,7 @@ mozilla
 image
 :
 :
-RasterImage
+DecodePool
 :
 :
 Initialize
