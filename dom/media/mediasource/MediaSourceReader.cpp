@@ -240,6 +240,10 @@ mLastVideoTime
 (
 0
 )
+mForceVideoDecodeAhead
+(
+false
+)
 mOriginalSeekTime
 (
 -
@@ -1405,6 +1409,8 @@ bool
 aSkipToNextKeyframe
 int64_t
 aTimeThreshold
+bool
+aForceDecodeAhead
 )
 {
 MOZ_ASSERT
@@ -1568,6 +1574,10 @@ Exists
 )
 )
 ;
+mForceVideoDecodeAhead
+=
+aForceDecodeAhead
+;
 SwitchSourceResult
 ret
 =
@@ -1713,6 +1723,7 @@ GetReaderVideoTime
 (
 mTimeThreshold
 )
+mForceVideoDecodeAhead
 )
 -
 >
@@ -4239,6 +4250,10 @@ mPendingSeekTime
 =
 -
 1
+;
+mForceVideoDecodeAhead
+=
+false
 ;
 if
 (

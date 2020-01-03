@@ -141,6 +141,8 @@ bool
 aSkipToNextKeyframe
 int64_t
 aTimeThreshold
+bool
+aForceDecodeAhead
 )
 override
 ;
@@ -980,6 +982,9 @@ mLastAudioTime
 ;
 int64_t
 mLastVideoTime
+;
+bool
+mForceVideoDecodeAhead
 ;
 MediaPromiseRequestHolder
 <

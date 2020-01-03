@@ -308,6 +308,8 @@ bool
 aSkipToNextKeyframe
 int64_t
 aTimeThreshold
+bool
+aForceDecodeAhead
 )
 {
 EnsureActive
@@ -322,6 +324,7 @@ RequestVideoData
 (
 aSkipToNextKeyframe
 aTimeThreshold
+aForceDecodeAhead
 )
 ;
 }
