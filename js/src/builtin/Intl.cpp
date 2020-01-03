@@ -822,6 +822,7 @@ Locale
 {
 public
 :
+explicit
 Locale
 (
 const
