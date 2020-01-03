@@ -992,7 +992,11 @@ GeneratorThrowOrClose
 JSContext
 *
 cx
-HandleObject
+Handle
+<
+GeneratorObject
+*
+>
 obj
 HandleValue
 val
