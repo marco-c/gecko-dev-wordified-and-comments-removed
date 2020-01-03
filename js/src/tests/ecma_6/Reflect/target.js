@@ -9,6 +9,12 @@ undefined
 [
 ]
 ]
+construct
+:
+[
+[
+]
+]
 defineProperty
 :
 [

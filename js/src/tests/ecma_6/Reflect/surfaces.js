@@ -112,6 +112,9 @@ methods
 apply
 :
 3
+construct
+:
+2
 defineProperty
 :
 3
