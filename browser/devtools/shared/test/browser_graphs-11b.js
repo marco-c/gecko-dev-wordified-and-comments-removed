@@ -1,7 +1,5 @@
 let
-{
 BarGraphWidget
-}
 =
 devtools
 .

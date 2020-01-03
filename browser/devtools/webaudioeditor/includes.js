@@ -304,7 +304,6 @@ widgets
 /
 LineGraphWidget
 "
-true
 )
 ;
 let
