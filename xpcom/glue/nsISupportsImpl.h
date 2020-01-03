@@ -4801,11 +4801,9 @@ NS_IMETHODIMP
 _class
 :
 :
-GetHelperForLanguage
+GetScriptableHelper
 (
-uint32_t
-_language
-nsISupports
+nsIXPCScriptable
 *
 *
 _retval

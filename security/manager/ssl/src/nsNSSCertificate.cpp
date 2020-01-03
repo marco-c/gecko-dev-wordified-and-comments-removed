@@ -8756,11 +8756,9 @@ NS_IMETHODIMP
 nsNSSCertificate
 :
 :
-GetHelperForLanguage
+GetScriptableHelper
 (
-uint32_t
-language
-nsISupports
+nsIXPCScriptable
 *
 *
 _retval

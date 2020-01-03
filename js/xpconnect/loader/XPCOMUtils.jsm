@@ -226,12 +226,11 @@ return
 _interfaces
 ;
 }
-getHelperForLanguage
+getScriptableHelper
 :
 function
-XPCU_getHelperForLanguage
+XPCU_getScriptableHelper
 (
-language
 )
 null
 contractID

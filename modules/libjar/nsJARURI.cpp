@@ -670,11 +670,9 @@ NS_IMETHODIMP
 nsJARURI
 :
 :
-GetHelperForLanguage
+GetScriptableHelper
 (
-uint32_t
-language
-nsISupports
+nsIXPCScriptable
 *
 *
 _retval
