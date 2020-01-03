@@ -133,6 +133,9 @@ server
 sourcemap
 '
 '
+shared
+'
+'
 styleinspector
 '
 '
