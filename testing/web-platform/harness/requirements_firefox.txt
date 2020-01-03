@@ -1,11 +1,9 @@
-marionette_client
+marionette_driver
 >
 =
 0
 .
-7
-.
-10
+4
 mozprofile
 >
 =
@@ -24,3 +22,9 @@ mozcrash
 0
 .
 13
+mozrunner
+>
+=
+6
+.
+7

@@ -768,9 +768,6 @@ except
 socket
 .
 timeout
-errors
-.
-InvalidResponseException
 IOError
 )
 :
@@ -1511,12 +1508,7 @@ set_script_timeout
 )
         
 except
-(
 IOError
-errors
-.
-InvalidResponseException
-)
 :
             
 self
@@ -1706,9 +1698,6 @@ except
 socket
 .
 timeout
-errors
-.
-InvalidResponseException
 IOError
 )
 :
