@@ -37,7 +37,7 @@ public
 :
 static
 void
-ConvertSample
+ConvertSampleToAnnexB
 (
 MP4Sample
 *
