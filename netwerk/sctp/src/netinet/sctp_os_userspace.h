@@ -2029,6 +2029,14 @@ __Userspace_os_Windows
 )
 #
 if
+!
+defined
+(
+ANDROID
+)
+&
+&
+(
 defined
 (
 INET
@@ -2038,6 +2046,7 @@ INET
 defined
 (
 INET6
+)
 )
 #
 include
