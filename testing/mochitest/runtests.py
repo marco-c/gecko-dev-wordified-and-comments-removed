@@ -8704,6 +8704,12 @@ false
 )
 )
     
+if
+options
+.
+strictContentSandbox
+:
+        
 options
 .
 extraPrefs
@@ -8711,21 +8717,18 @@ extraPrefs
 append
 (
 "
-browser
-.
-tabs
-.
-remote
+security
 .
 sandbox
-=
-%
-s
-"
-%
-options
 .
-contentSandbox
+windows
+.
+content
+.
+moreStrict
+=
+true
+"
 )
     
 extensions

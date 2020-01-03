@@ -3166,6 +3166,8 @@ enabled
 "
 -
 -
+strict
+-
 content
 -
 sandbox
@@ -3174,35 +3176,25 @@ sandbox
         
 {
 "
-choices
+action
 "
 :
-[
 "
-off
+store_true
 "
-"
-warn
-"
-"
-on
-"
-]
           
 "
 default
 "
 :
-"
-off
-"
+False
           
 "
 dest
 "
 :
 "
-contentSandbox
+strictContentSandbox
 "
           
 "
@@ -3213,25 +3205,15 @@ help
 Run
 tests
 with
-the
+a
+more
+strict
 content
 sandbox
-enabled
-or
-in
-warn
-only
-mode
 (
 Windows
 only
 )
-.
--
--
-e10s
-is
-assumed
 .
 "
         
@@ -4241,23 +4223,6 @@ paths
 "
 "
         
-if
-options
-.
-contentSandbox
-!
-=
-'
-off
-'
-:
-            
-options
-.
-e10s
-=
-True
-        
 mozinfo
 .
 update
@@ -4279,12 +4244,12 @@ update
 (
 {
 "
-contentSandbox
+strictContentSandbox
 "
 :
 options
 .
-contentSandbox
+strictContentSandbox
 }
 )
         
