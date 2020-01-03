@@ -520,7 +520,7 @@ click
 (
 )
         
-video
+pending_header
 =
 self
 .
@@ -529,8 +529,11 @@ wait_for_element_displayed
 By
 .
 CLASS_NAME
+                                                         
 "
-media
+pending
+-
+header
 "
 )
         
@@ -538,17 +541,18 @@ self
 .
 assertEqual
 (
-video
+pending_header
 .
 tag_name
 "
-div
+header
 "
+                         
 "
 expect
 a
-video
-container
+pending
+header
 "
 )
     
