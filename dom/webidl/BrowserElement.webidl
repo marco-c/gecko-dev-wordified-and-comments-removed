@@ -557,9 +557,6 @@ height
 optional
 DOMString
 mimeType
-=
-"
-"
 )
 ;
 [
