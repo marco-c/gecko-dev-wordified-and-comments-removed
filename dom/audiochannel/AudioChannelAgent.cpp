@@ -373,6 +373,16 @@ do_QueryInterface
 topWindow
 )
 ;
+if
+(
+!
+mWindow
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 mWindow
 =
 mWindow
