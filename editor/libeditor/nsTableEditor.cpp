@@ -387,6 +387,7 @@ mSelection
 ;
 public
 :
+explicit
 nsSelectionBatcherForTable
 (
 nsISelection

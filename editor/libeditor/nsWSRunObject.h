@@ -37,6 +37,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Text
@@ -118,6 +127,7 @@ otherBlock
 thisBlock
 }
 ;
+MOZ_IMPLICIT
 WSType
 (
 const

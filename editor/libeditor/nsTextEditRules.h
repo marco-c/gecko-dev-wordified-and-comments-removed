@@ -832,6 +832,7 @@ nsRulesInfo
 {
 public
 :
+explicit
 nsTextRulesInfo
 (
 EditAction
@@ -968,6 +969,7 @@ nsAutoLockRulesSniffing
 {
 public
 :
+explicit
 nsAutoLockRulesSniffing
 (
 nsTextEditRules
@@ -1022,6 +1024,7 @@ nsAutoLockListener
 {
 public
 :
+explicit
 nsAutoLockListener
 (
 bool

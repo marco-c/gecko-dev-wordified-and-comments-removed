@@ -113,6 +113,7 @@ nsTransactionManager
 ;
 public
 :
+explicit
 nsTransactionManager
 (
 int32_t
