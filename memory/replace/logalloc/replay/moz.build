@@ -149,11 +149,3 @@ memory
 DISABLE_STL_WRAPPING
 =
 True
-DEFINES
-[
-'
-MOZ_REPLACE_MALLOC
-'
-]
-=
-True
