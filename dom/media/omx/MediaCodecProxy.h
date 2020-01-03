@@ -448,6 +448,11 @@ AskMediaCodecAndWait
 (
 )
 ;
+bool
+AsyncAskMediaCodec
+(
+)
+;
 void
 SetMediaCodecFree
 (
