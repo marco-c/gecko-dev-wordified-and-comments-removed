@@ -78,6 +78,7 @@ mozilla
 namespace
 dom
 {
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -101,6 +102,7 @@ Value
 aValue
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 ToJSValue
@@ -420,6 +422,7 @@ return
 true
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 ToJSValue
@@ -479,6 +482,7 @@ template
 class
 T
 >
+MOZ_WARN_UNUSED_RESULT
 typename
 EnableIf
 <
@@ -550,6 +554,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 typename
 EnableIf
 <
@@ -666,6 +671,7 @@ template
 class
 T
 >
+MOZ_WARN_UNUSED_RESULT
 typename
 EnableIf
 <
@@ -754,6 +760,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -799,6 +806,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -844,6 +852,7 @@ template
 class
 T
 >
+MOZ_WARN_UNUSED_RESULT
 typename
 EnableIf
 <
@@ -892,6 +901,7 @@ aValue
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 ToJSValue
@@ -938,6 +948,7 @@ aValue
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 ToJSValue
@@ -986,6 +997,7 @@ aValue
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 inline
 bool
 ToJSValue
@@ -1034,6 +1046,7 @@ aValue
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -1055,6 +1068,7 @@ Value
 aValue
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -1082,6 +1096,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 typename
 EnableIf
 <
@@ -1132,6 +1147,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -1266,6 +1282,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -1315,6 +1332,7 @@ template
 typename
 T
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
@@ -1366,6 +1384,7 @@ T
 int
 N
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 ToJSValue
 (
