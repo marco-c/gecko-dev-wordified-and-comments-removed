@@ -61,6 +61,13 @@ nsString
 .
 h
 "
+#
+include
+"
+nsQueryObject
+.
+h
+"
 USING_BLUETOOTH_NAMESPACE
 NS_IMPL_ISUPPORTS
 (
