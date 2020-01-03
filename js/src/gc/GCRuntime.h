@@ -3683,6 +3683,15 @@ isCompacting
 JSGCInvocationKind
 invocationKind
 ;
+JS
+:
+:
+gcreason
+:
+:
+Reason
+initialReason
+;
 mozilla
 :
 :
