@@ -363,6 +363,15 @@ return
 mKeepaliveEnabledPref
 ;
 }
+bool
+IsTelemetryEnabled
+(
+)
+{
+return
+mTelemetryEnabledPref
+;
+}
 protected
 :
 virtual
