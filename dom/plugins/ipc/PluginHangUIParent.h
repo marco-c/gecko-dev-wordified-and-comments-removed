@@ -63,7 +63,7 @@ namespace
 plugins
 {
 class
-PluginModuleParent
+PluginModuleChromeParent
 ;
 class
 PluginHangUIParent
@@ -75,7 +75,7 @@ public
 :
 PluginHangUIParent
 (
-PluginModuleParent
+PluginModuleChromeParent
 *
 aModule
 const
@@ -230,7 +230,7 @@ private
 Mutex
 mMutex
 ;
-PluginModuleParent
+PluginModuleChromeParent
 *
 mModule
 ;

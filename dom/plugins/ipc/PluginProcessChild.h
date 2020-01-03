@@ -70,6 +70,10 @@ ProcessChild
 (
 aParentHandle
 )
+mPlugin
+(
+true
+)
 {
 }
 virtual

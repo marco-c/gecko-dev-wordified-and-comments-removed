@@ -287,7 +287,7 @@ PluginHangUIParent
 :
 PluginHangUIParent
 (
-PluginModuleParent
+PluginModuleChromeParent
 *
 aModule
 const

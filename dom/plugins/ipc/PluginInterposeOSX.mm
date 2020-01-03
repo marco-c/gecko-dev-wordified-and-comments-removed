@@ -3256,7 +3256,7 @@ pmc
 PluginModuleChild
 :
 :
-current
+GetChrome
 (
 )
 ;
@@ -3978,7 +3978,7 @@ pmc
 PluginModuleChild
 :
 :
-current
+GetChrome
 (
 )
 ;
@@ -4017,7 +4017,7 @@ pmc
 PluginModuleChild
 :
 :
-current
+GetChrome
 (
 )
 ;
@@ -4053,7 +4053,7 @@ pmc
 PluginModuleChild
 :
 :
-current
+GetChrome
 (
 )
 ;
@@ -4090,7 +4090,7 @@ pmc
 PluginModuleChild
 :
 :
-current
+GetChrome
 (
 )
 ;
@@ -4128,7 +4128,7 @@ pmc
 PluginModuleChild
 :
 :
-current
+GetChrome
 (
 )
 ;
@@ -4163,7 +4163,7 @@ pmc
 PluginModuleChild
 :
 :
-current
+GetChrome
 (
 )
 ;

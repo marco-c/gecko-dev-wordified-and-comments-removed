@@ -180,6 +180,11 @@ NPEventWindows
 h
 '
 '
+PluginBridge
+.
+h
+'
+'
 PluginInstanceChild
 .
 h

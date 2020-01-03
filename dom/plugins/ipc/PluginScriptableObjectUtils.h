@@ -507,12 +507,12 @@ TPPluginScriptableObjectChild
 {
 NS_ASSERTION
 (
-PluginModuleChild
-:
-:
-current
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Plugin
 "
 Should
 only

@@ -111,7 +111,7 @@ child
 PluginModuleChild
 :
 :
-current
+GetChrome
 (
 )
 ;

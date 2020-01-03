@@ -564,7 +564,7 @@ false
 return
 mPlugin
 .
-Init
+InitForChrome
 (
 pluginFilename
 ParentHandle
