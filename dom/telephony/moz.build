@@ -122,6 +122,11 @@ CallsList
 h
 '
 '
+MMICall
+.
+h
+'
+'
 Telephony
 .
 h
@@ -214,6 +219,11 @@ cpp
 ipc
 /
 TelephonyParent
+.
+cpp
+'
+'
+MMICall
 .
 cpp
 '
