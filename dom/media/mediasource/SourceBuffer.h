@@ -170,6 +170,18 @@ AsyncEventRunner
 namespace
 dom
 {
+using
+media
+:
+:
+TimeUnit
+;
+using
+media
+:
+:
+TimeIntervals
+;
 class
 TimeRanges
 ;
@@ -542,7 +554,7 @@ AppendData
 MediaLargeByteBuffer
 *
 aData
-double
+TimeUnit
 aTimestampOffset
 uint32_t
 aAppendID
