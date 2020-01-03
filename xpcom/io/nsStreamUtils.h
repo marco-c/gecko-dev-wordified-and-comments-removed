@@ -317,10 +317,13 @@ aWriteCount
 )
 ;
 struct
+MOZ_STACK_CLASS
 nsWriteSegmentThunk
 {
+nsCOMPtr
+<
 nsIInputStream
-*
+>
 mStream
 ;
 nsWriteSegmentFun
