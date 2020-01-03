@@ -10697,6 +10697,14 @@ mDrawRegion
 Or
 (
 mDrawRegion
+mVisibleRegion
+)
+;
+mDrawRegion
+.
+Or
+(
+mDrawRegion
 aDrawRect
 )
 ;
