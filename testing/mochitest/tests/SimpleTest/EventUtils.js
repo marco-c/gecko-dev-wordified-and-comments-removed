@@ -2480,6 +2480,13 @@ advanceTimeAndRefresh
 1000
 )
 ;
+if
+(
+!
+aCallback
+)
+return
+;
 aWindow
 .
 waitForAllPaintsFlushed
