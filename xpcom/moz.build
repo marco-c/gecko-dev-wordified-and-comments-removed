@@ -120,6 +120,8 @@ DIRS
 idl
 -
 parser
+/
+xpidl
 '
 ]
 DIRS

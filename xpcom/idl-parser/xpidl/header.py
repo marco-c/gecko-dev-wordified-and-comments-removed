@@ -3814,13 +3814,10 @@ write
 (
 iface_template_epilog
 )
-if
-__name__
-=
-=
-'
-__main__
-'
+def
+main
+(
+)
 :
     
 from
@@ -4408,3 +4405,15 @@ s
 "
 %
 dep
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+main
+(
+)

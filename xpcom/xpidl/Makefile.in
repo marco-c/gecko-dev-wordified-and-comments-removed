@@ -73,6 +73,8 @@ xpcom
 idl
 -
 parser
+/
+xpidl
 )
 endif
 (
