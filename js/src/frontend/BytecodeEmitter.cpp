@@ -3463,7 +3463,7 @@ asGlobalSharedContext
 )
 -
 >
-evalStaticScope
+topStaticScope
 (
 )
 ;

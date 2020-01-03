@@ -1929,8 +1929,8 @@ tempLifoAlloc
 (
 )
 scopeobj
-callerScript
 staticScope
+callerScript
 options
 srcBuf
 linearStr
@@ -2438,8 +2438,8 @@ tempLifoAlloc
 (
 )
 scopeobj
-callerScript
 staticScope
+callerScript
 options
 srcBuf
 linearStr
