@@ -8393,11 +8393,9 @@ android
 background
 "
 >
-android
-:
 drawable
 /
-list_selector_background
+overlay_share_button_background
 <
 /
 item

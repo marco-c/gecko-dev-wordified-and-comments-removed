@@ -203,6 +203,15 @@ id
 /
 client_name
 "
+style
+=
+"
+style
+/
+ShareOverlayButton
+.
+Text
+"
 android
 :
 layout_gravity

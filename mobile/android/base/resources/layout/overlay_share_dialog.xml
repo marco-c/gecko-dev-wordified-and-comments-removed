@@ -291,7 +291,7 @@ background
 "
 color
 /
-background_light
+overlay_share_header_background
 "
 android
 :
@@ -498,7 +498,7 @@ background
 "
 color
 /
-overlay_share_background_colour
+overlay_share_background
 "
 android
 :
@@ -581,15 +581,6 @@ id
 id
 /
 overlay_send_tab_btn
-"
-android
-:
-background
-=
-"
-color
-/
-overlay_share_background_colour
 "
 android
 :
