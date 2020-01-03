@@ -7777,7 +7777,7 @@ Max
 (
 size_t
 (
-ABIStackAlignment
+JitStackAlignment
 )
 sizeof
 (
