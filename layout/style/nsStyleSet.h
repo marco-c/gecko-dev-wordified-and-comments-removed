@@ -1144,6 +1144,11 @@ sheetType
 aSheetType
 )
 ;
+void
+ClearSelectors
+(
+)
+;
 private
 :
 nsStyleSet
