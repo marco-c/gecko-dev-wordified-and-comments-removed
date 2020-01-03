@@ -402,7 +402,7 @@ s
 c
 "
 mFeature
-mStatusChar
+statusChar
 )
 ;
 if
