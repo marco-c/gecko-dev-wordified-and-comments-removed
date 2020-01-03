@@ -388,10 +388,6 @@ TestStorageStream
 '
 #
 '
-TestStrings
-'
-#
-'
 TestSynchronization
 '
 #
