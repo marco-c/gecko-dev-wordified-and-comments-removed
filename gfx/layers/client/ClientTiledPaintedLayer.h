@@ -257,9 +257,6 @@ aOutScrollAncestor
 LayerMetricsWrapper
 *
 aOutDisplayPortAncestor
-bool
-*
-aOutHasTransformAnimation
 )
 ;
 private
@@ -283,6 +280,11 @@ mManager
 }
 void
 BeginPaint
+(
+)
+;
+bool
+UseFastPath
 (
 )
 ;
