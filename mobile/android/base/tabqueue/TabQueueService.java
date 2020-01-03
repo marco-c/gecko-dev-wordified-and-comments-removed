@@ -346,7 +346,7 @@ R
 .
 layout
 .
-button_toast
+tab_queue_toast
 null
 )
 ;
@@ -434,7 +434,7 @@ WindowManager
 .
 LayoutParams
 .
-WRAP_CONTENT
+MATCH_PARENT
 WindowManager
 .
 LayoutParams
