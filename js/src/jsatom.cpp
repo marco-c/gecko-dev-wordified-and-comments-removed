@@ -1013,11 +1013,12 @@ ImmutablePropertyNamePtr
 *
 descriptions
 =
-&
 commonNames
 -
 >
-Symbol_iterator
+wellKnownSymbolDescriptions
+(
+)
 ;
 ImmutableSymbolPtr
 *
