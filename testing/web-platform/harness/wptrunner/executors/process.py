@@ -93,7 +93,7 @@ return
 True
     
 def
-run_test
+do_test
 (
 self
 test

@@ -52,8 +52,7 @@ executors
 executormarionette
 import
 MarionetteTestharnessExecutor
-MarionetteReftestExecutor
-required_files
+MarionetteRefTestExecutor
 here
 =
 os
@@ -119,7 +118,7 @@ reftest
 "
 :
 "
-MarionetteReftestExecutor
+MarionetteRefTestExecutor
 "
 }
                  
@@ -291,7 +290,9 @@ ca_cert_path
 def
 executor_kwargs
 (
+test_type
 http_server_url
+cache_manager
 *
 *
 kwargs
@@ -302,7 +303,10 @@ executor_kwargs
 =
 base_executor_kwargs
 (
+test_type
 http_server_url
+                                           
+cache_manager
 *
 *
 kwargs
@@ -360,12 +364,6 @@ bind_hostname
 "
 false
 "
-            
-"
-required_files
-"
-:
-required_files
             
 "
 certificate_domain

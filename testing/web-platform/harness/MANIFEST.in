@@ -35,6 +35,14 @@ js
 include
 wptrunner
 /
+testharnessreport
+-
+servo
+.
+js
+include
+wptrunner
+/
 executors
 /
 testharness_marionette

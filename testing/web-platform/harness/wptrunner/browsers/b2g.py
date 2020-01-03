@@ -53,7 +53,6 @@ executors
 executormarionette
 import
 MarionetteTestharnessExecutor
-required_files
 from
 .
 .
@@ -189,7 +188,9 @@ False
 def
 executor_kwargs
 (
+test_type
 http_server_url
+cache_manager
 *
 *
 kwargs
@@ -214,6 +215,24 @@ None
 timeout_multiplier
 =
 2
+    
+if
+test_type
+=
+=
+"
+reftest
+"
+:
+        
+executor_kwargs
+[
+"
+cache_manager
+"
+]
+=
+cache_manager
     
 executor_kwargs
 =
@@ -272,12 +291,6 @@ test_server_port
 "
 :
 False
-            
-"
-required_files
-"
-:
-required_files
 }
 class
 B2GBrowser
