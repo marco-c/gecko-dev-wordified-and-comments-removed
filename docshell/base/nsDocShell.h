@@ -2437,9 +2437,6 @@ mOriginalUriString
 nsWeakPtr
 mOpener
 ;
-nsWeakPtr
-mOpenedRemote
-;
 uint32_t
 mJSRunToCompletionDepth
 ;
