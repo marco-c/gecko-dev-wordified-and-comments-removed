@@ -938,7 +938,7 @@ touchSensitiveRegion
 )
 )
 {
-LayoutDeviceToParentLayerScale
+LayoutDeviceToParentLayerScale2D
 parentCumulativeResolution
 =
 aLayer

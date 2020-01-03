@@ -1696,7 +1696,10 @@ float
 resolution
 ;
 float
-frameResolution
+frameXResolution
+;
+float
+frameYResolution
 ;
 }
 ;

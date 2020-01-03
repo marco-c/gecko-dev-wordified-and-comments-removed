@@ -1089,7 +1089,7 @@ mTransformToCompBounds
 LayerIntRect
 mCriticalDisplayPort
 ;
-CSSToParentLayerScale
+CSSToParentLayerScale2D
 mResolution
 ;
 LayerRect
@@ -1304,7 +1304,7 @@ DiscardBuffers
 )
 ;
 const
-CSSToParentLayerScale
+CSSToParentLayerScale2D
 &
 GetFrameResolution
 (
@@ -1318,7 +1318,7 @@ void
 SetFrameResolution
 (
 const
-CSSToParentLayerScale
+CSSToParentLayerScale2D
 &
 aResolution
 )
@@ -1480,7 +1480,7 @@ void
 *
 mCallbackData
 ;
-CSSToParentLayerScale
+CSSToParentLayerScale2D
 mFrameResolution
 ;
 gfxContentType

@@ -2087,6 +2087,10 @@ GetFrameMetrics
 GetZoom
 (
 )
+.
+ToScaleFactor
+(
+)
 ;
 ParentLayerCoord
 focus
