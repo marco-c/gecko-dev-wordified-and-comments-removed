@@ -2121,11 +2121,6 @@ final
 public
 RInstruction
 {
-private
-:
-bool
-tenuredHeap_
-;
 public
 :
 RINSTRUCTION_HEADER_
