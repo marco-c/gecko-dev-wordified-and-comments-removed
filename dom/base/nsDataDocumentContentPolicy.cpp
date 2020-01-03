@@ -354,7 +354,7 @@ nullptr
 NS_LITERAL_STRING
 (
 "
-CheckSameOriginError
+ExternalDataError
 "
 )
 principalURI
