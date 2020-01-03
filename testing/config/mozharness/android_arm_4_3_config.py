@@ -1323,7 +1323,7 @@ testsdir
 "
 :
 "
-cppunittests
+cppunittest
 "
             
 "
