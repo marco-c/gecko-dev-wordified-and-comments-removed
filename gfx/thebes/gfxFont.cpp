@@ -18048,6 +18048,13 @@ descender
 )
 )
 ;
+if
+(
+halfExtent
+>
+0
+)
+{
 metrics
 -
 >
@@ -18071,6 +18078,7 @@ vhea
 lineGap
 )
 ;
+}
 }
 }
 if
