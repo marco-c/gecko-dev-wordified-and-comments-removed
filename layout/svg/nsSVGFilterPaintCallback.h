@@ -8,7 +8,7 @@ class
 nsIFrame
 ;
 class
-nsRenderingContext
+gfxContext
 ;
 struct
 nsIntRect
@@ -22,8 +22,8 @@ virtual
 void
 Paint
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 nsIFrame
 *

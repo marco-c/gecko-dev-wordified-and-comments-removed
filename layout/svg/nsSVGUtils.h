@@ -152,9 +152,6 @@ class
 nsPresContext
 ;
 class
-nsRenderingContext
-;
-class
 nsStyleContext
 ;
 class
