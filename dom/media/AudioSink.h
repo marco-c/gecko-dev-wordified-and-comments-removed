@@ -110,11 +110,6 @@ HasUnplayedFrames
 )
 ;
 void
-PrepareToShutdown
-(
-)
-;
-void
 Shutdown
 (
 )
