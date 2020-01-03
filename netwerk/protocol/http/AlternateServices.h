@@ -247,6 +247,15 @@ AltSvcMapping
 map
 )
 ;
+bool
+HTTPS
+(
+)
+{
+return
+mHttps
+;
+}
 void
 GetConnectionInfo
 (

@@ -2425,7 +2425,7 @@ if
 mConnInfo
 -
 >
-GetRelaxed
+GetInsecureScheme
 (
 )
 )
@@ -2645,7 +2645,7 @@ if
 transCI
 -
 >
-GetRelaxed
+GetInsecureScheme
 (
 )
 &
@@ -2681,7 +2681,8 @@ happen
 -
 https
 on
-relaxed
+insecure
+scheme
 tls
 stream
 \
@@ -2700,7 +2701,8 @@ https
 /
 on
 tls
-relaxed
+insecure
+scheme
 "
 )
 ;

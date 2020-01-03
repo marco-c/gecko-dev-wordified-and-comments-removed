@@ -878,9 +878,9 @@ GetPrivate
 clone
 -
 >
-SetRelaxed
+SetInsecureScheme
 (
-GetRelaxed
+GetInsecureScheme
 (
 )
 )
@@ -983,9 +983,9 @@ GetPrivate
 clone
 -
 >
-SetRelaxed
+SetInsecureScheme
 (
-GetRelaxed
+GetInsecureScheme
 (
 )
 )
