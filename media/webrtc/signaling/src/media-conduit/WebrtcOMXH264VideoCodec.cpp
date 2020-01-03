@@ -1002,6 +1002,10 @@ mStarted
 (
 false
 )
+mCallback
+(
+aCallback
+)
 mDecodedFrameLock
 (
 "
@@ -1010,10 +1014,6 @@ decoded
 frame
 lock
 "
-)
-mCallback
-(
-aCallback
 )
 mEnding
 (
