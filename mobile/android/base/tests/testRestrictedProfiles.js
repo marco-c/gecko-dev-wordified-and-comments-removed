@@ -111,6 +111,13 @@ pc
 parentalControlsEnabled
 )
 ;
+do_check_false
+(
+pc
+.
+blockFileDownloadsEnabled
+)
+;
 do_check_true
 (
 pc
@@ -247,7 +254,7 @@ GetForThread
 )
 ;
 var
-geckoAppShell
+profile
 =
 JNI
 .
@@ -297,7 +304,7 @@ JNI
 ReadString
 (
 jenv
-geckoAppShell
+profile
 .
 getUserRestrictions
 (
