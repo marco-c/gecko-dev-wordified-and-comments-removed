@@ -2354,9 +2354,11 @@ ToNumber
 (
 cx
 args
-[
+.
+get
+(
 i
-]
+)
 &
 mem
 [
@@ -2368,6 +2370,8 @@ return
 false
 ;
 }
+break
+;
 }
 }
 args
