@@ -15854,6 +15854,12 @@ defined
 (
 MOZ_WIDGET_GTK
 )
+|
+|
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 nsWindowType
 winType
 =
