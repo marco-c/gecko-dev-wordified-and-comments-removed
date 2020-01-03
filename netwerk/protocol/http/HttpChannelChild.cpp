@@ -574,14 +574,7 @@ progress
 mOwner
 -
 >
-GetResponseHead
-(
-)
--
->
-ContentLength
-(
-)
+mSynthesizedStreamLength
 )
 ;
 }
@@ -678,6 +671,10 @@ HttpChannelChild
 >
 (
 this
+)
+mSynthesizedStreamLength
+(
+0
 )
 mIsFromCache
 (
@@ -8208,6 +8205,8 @@ aResponseHead
 nsInputStreamPump
 *
 aPump
+int64_t
+aStreamLength
 )
 {
 mSynthesizedResponsePump
@@ -8217,6 +8216,10 @@ aPump
 mResponseHead
 =
 aResponseHead
+;
+mSynthesizedStreamLength
+=
+aStreamLength
 ;
 for
 (

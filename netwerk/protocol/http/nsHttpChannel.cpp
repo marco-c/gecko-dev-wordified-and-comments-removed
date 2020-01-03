@@ -12797,6 +12797,13 @@ LOAD_ONLY_IF_MODIFIED
 ;
 }
 else
+if
+(
+mInterceptCache
+!
+=
+INTERCEPTED
+)
 {
 return
 rv

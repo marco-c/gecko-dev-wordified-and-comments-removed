@@ -185,6 +185,9 @@ nsICacheEntry
 >
 mSynthesizedCacheEntry
 ;
+bool
+mOldApplyConversion
+;
 public
 :
 InterceptedChannelChrome
