@@ -7214,7 +7214,7 @@ AddToCCKind
 (
 value
 .
-gcKind
+traceKind
 (
 )
 )

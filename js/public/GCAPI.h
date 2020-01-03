@@ -1295,7 +1295,13 @@ kind
 )
 !
 =
-JSTRACE_SHAPE
+JS
+:
+:
+TraceKind
+:
+:
+Shape
 )
 ;
 if

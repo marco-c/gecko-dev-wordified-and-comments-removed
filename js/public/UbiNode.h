@@ -628,7 +628,10 @@ value
 ;
 Node
 (
-JSGCTraceKind
+JS
+:
+:
+TraceKind
 kind
 void
 *

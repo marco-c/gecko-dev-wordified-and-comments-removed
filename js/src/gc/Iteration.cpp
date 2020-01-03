@@ -204,7 +204,10 @@ AllAllocKinds
 )
 )
 {
-JSGCTraceKind
+JS
+:
+:
+TraceKind
 traceKind
 =
 MapAllocToTraceKind
