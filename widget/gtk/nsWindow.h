@@ -179,7 +179,7 @@ args
 MOZ_LOG
 (
 gWidgetLog
-4
+PR_LOG_DEBUG
 args
 )
 #
@@ -191,7 +191,7 @@ args
 MOZ_LOG
 (
 gWidgetFocusLog
-4
+PR_LOG_DEBUG
 args
 )
 #
@@ -203,7 +203,7 @@ args
 MOZ_LOG
 (
 gWidgetDragLog
-4
+PR_LOG_DEBUG
 args
 )
 #
@@ -215,7 +215,7 @@ args
 MOZ_LOG
 (
 gWidgetDrawLog
-4
+PR_LOG_DEBUG
 args
 )
 #
