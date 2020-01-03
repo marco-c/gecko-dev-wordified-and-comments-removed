@@ -960,6 +960,8 @@ aTracer
 #
 ifdef
 DEBUG
+public
+:
 void
 CheckCCWrapperTraversal
 (
@@ -971,6 +973,8 @@ nsScriptObjectTracer
 aTracer
 )
 ;
+private
+:
 #
 endif
 enum
