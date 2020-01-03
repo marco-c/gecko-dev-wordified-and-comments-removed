@@ -765,14 +765,14 @@ NS_WARNING
 .
 .
 frame
+tagged
+as
 dropped
 .
 .
 .
 "
 )
-;
-return
 ;
 }
 MOZ_ASSERT
