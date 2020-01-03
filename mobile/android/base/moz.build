@@ -3275,6 +3275,13 @@ java
 '
 widget
 /
+FadedSingleColorTextView
+.
+java
+'
+'
+widget
+/
 FadedTextView
 .
 java
