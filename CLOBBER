@@ -195,13 +195,13 @@ any
 more
 .
 Bug
-1056337
+1119997
 -
 Change
-default
-compiler
+build
+environment
 for
 B2G
-ICS
+devide
 builds
 .
