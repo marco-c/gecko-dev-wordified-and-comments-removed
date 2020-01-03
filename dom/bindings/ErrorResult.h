@@ -142,6 +142,10 @@ mMightHaveUnreportedJSException
 =
 false
 ;
+mHasMessage
+=
+false
+;
 #
 endif
 }
@@ -166,6 +170,12 @@ MOZ_ASSERT
 (
 !
 mMightHaveUnreportedJSException
+)
+;
+MOZ_ASSERT
+(
+!
+mHasMessage
 )
 ;
 }
@@ -775,6 +785,9 @@ ifdef
 DEBUG
 bool
 mMightHaveUnreportedJSException
+;
+bool
+mHasMessage
 ;
 #
 endif
