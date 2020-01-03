@@ -175,8 +175,9 @@ android
 color
 =
 "
-#
-D7D7DC
+color
+/
+new_tablet_highlight
 "
 /
 >
@@ -278,8 +279,9 @@ android
 color
 =
 "
-#
-C0C9D0
+color
+/
+new_tablet_highlight_focused
 "
 /
 >
