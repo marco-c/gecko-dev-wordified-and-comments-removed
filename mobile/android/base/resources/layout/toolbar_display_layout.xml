@@ -293,7 +293,7 @@ gecko
 .
 widget
 .
-FadedSingleColorTextView
+FadedMultiColorTextView
 android
 :
 id
@@ -342,6 +342,15 @@ fadeWidth
 =
 "
 40dip
+"
+gecko
+:
+fadeBackgroundColor
+=
+"
+color
+/
+toolbar_display_layout_bg
 "
 gecko
 :
