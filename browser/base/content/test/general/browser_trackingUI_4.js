@@ -108,7 +108,7 @@ TrackingProtection
 null
 ;
 let
-browser
+tabbrowser
 =
 null
 ;
@@ -146,7 +146,7 @@ function
 {
 TrackingProtection
 =
-browser
+tabbrowser
 =
 null
 ;
@@ -257,7 +257,7 @@ n
 numChanges
 )
 {
-browser
+tabbrowser
 .
 removeProgressListener
 (
@@ -272,7 +272,7 @@ resolve
 }
 }
 ;
-browser
+tabbrowser
 .
 addProgressListener
 (
@@ -311,7 +311,7 @@ BrowserTestUtils
 .
 openNewForegroundTab
 (
-browser
+tabbrowser
 BENIGN_PAGE
 )
 ;
@@ -376,7 +376,7 @@ BrowserTestUtils
 .
 openNewForegroundTab
 (
-browser
+tabbrowser
 TRACKING_PAGE
 )
 ;
@@ -438,7 +438,7 @@ waitForSecurityChange
 (
 )
 ;
-browser
+tabbrowser
 .
 selectedTab
 =
@@ -508,7 +508,7 @@ waitForSecurityChange
 (
 )
 ;
-browser
+tabbrowser
 .
 selectedTab
 =
@@ -573,7 +573,7 @@ waitForSecurityChange
 2
 )
 ;
-browser
+tabbrowser
 .
 reload
 (
@@ -636,7 +636,7 @@ addTestTrackers
 (
 )
 ;
-browser
+tabbrowser
 =
 gBrowser
 ;
@@ -718,7 +718,7 @@ true
 true
 )
 ;
-browser
+tabbrowser
 =
 privateWin
 .
@@ -726,7 +726,7 @@ gBrowser
 ;
 TrackingProtection
 =
-browser
+tabbrowser
 .
 ownerGlobal
 .
