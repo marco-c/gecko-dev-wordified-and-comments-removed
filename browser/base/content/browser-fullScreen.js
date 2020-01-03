@@ -2415,12 +2415,6 @@ _isChromeCollapsed
 return
 ;
 }
-this
-.
-_isChromeCollapsed
-=
-false
-;
 if
 (
 trackMouse
@@ -2480,6 +2474,12 @@ this
 )
 ;
 }
+this
+.
+_isChromeCollapsed
+=
+false
+;
 }
 hideNavToolbox
 :
