@@ -119,11 +119,6 @@ UNIFIED_SOURCES
 =
 [
 '
-ClearKeyBase64
-.
-cpp
-'
-'
 ClearKeyDecryptionManager
 .
 cpp
@@ -242,14 +237,6 @@ ENABLE_WMF
 ]
 =
 True
-TEST_DIRS
-+
-=
-[
-'
-gtest
-'
-]
 LOCAL_INCLUDES
 +
 =
