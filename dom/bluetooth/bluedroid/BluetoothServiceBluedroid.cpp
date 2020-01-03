@@ -11478,11 +11478,6 @@ remoteBdAddr
 )
 ;
 }
-MOZ_ASSERT
-(
-nameExists
-)
-;
 BT_APPEND_NAMED_VALUE
 (
 propertiesArray
