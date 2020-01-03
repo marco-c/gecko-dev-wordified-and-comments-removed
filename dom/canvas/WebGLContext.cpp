@@ -8528,7 +8528,9 @@ Scalar
 :
 MaxTypedArrayViewType
 srcFormat
-mPixelStorePremultiplyAlpha
+res
+.
+mIsPremultiplied
 )
 ;
 }
