@@ -216,6 +216,8 @@ aInfo
 void
 Ended
 (
+bool
+aEnded
 )
 ;
 bool

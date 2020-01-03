@@ -743,6 +743,8 @@ MediaSourceDecoder
 :
 Ended
 (
+bool
+aEnded
 )
 {
 ReentrantMonitorAutoEnter
@@ -758,6 +760,7 @@ mReader
 >
 Ended
 (
+aEnded
 )
 ;
 mon
