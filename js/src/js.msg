@@ -6293,6 +6293,8 @@ object
 /
 Typed
 object
+/
+SIMD
 MSG_DEF
 (
 JSMSG_INVALID_PROTOTYPE
@@ -6366,6 +6368,18 @@ too
 large
 to
 allocate
+"
+)
+MSG_DEF
+(
+JSMSG_SIMD_FAILED_CONVERSION
+0
+JSEXN_RANGEERR
+"
+SIMD
+conversion
+loses
+precision
 "
 )
 /
