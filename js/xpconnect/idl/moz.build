@@ -113,6 +113,11 @@ nsIJSRuntimeService
 idl
 '
 '
+nsIRemoteTagService
+.
+idl
+'
+'
 nsIScriptError
 .
 idl

@@ -188,6 +188,9 @@ isCallable
 bool
 isConstructor
 ;
+nsCString
+objectTag
+;
 }
 ;
 union
