@@ -37906,3 +37906,15 @@ useAudioChannelAPI
 false
 )
 ;
+pref
+(
+"
+dom
+.
+requestcontext
+.
+enabled
+"
+false
+)
+;
