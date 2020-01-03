@@ -252,7 +252,7 @@ _checkAppManifest
 (
 aMessage
 .
-seName
+origin
 aMessage
 .
 aid
@@ -315,7 +315,7 @@ _checkAppManifest
 function
 _checkAppManifest
 (
-aSeName
+aOrigin
 aAid
 aManifest
 )
@@ -350,11 +350,18 @@ aAid
 let
 seName
 =
-aSeName
+(
+aOrigin
+)
+?
+aOrigin
 .
 toUpperCase
 (
 )
+:
+"
+"
 ;
 let
 hciRules
