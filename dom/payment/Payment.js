@@ -518,6 +518,10 @@ false
 ;
 }
 return
+Cu
+.
+exportFunction
+(
 this
 .
 pay
@@ -525,6 +529,8 @@ pay
 bind
 (
 this
+)
+aWindow
 )
 ;
 }
