@@ -8316,7 +8316,7 @@ onclick
 "
 ReaderParent
 .
-toggleReaderMode
+buttonClick
 (
 event
 )
