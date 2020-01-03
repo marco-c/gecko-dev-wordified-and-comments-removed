@@ -6768,11 +6768,13 @@ topView
 ;
 while
 (
+(
 topView
 =
 parentView
 .
 ownerView
+)
 )
 {
 parentView
