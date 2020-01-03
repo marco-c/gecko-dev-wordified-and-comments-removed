@@ -1791,7 +1791,7 @@ cpp
 '
 vm
 /
-ObjectImpl
+NativeObject
 .
 cpp
 '

@@ -704,10 +704,7 @@ fieldName
 addGCType
 (
 '
-js
-:
-:
-ObjectImpl
+JSObject
 '
 )
 ;

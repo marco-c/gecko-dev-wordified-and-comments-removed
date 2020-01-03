@@ -150,7 +150,7 @@ include
 "
 vm
 /
-NumberObject
+NativeObject
 -
 inl
 .
@@ -161,7 +161,7 @@ include
 "
 vm
 /
-ObjectImpl
+NumberObject
 -
 inl
 .

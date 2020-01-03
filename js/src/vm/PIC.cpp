@@ -44,15 +44,6 @@ include
 "
 vm
 /
-ObjectImpl
-.
-h
-"
-#
-include
-"
-vm
-/
 SelfHosting
 .
 h
@@ -69,7 +60,7 @@ include
 "
 vm
 /
-ObjectImpl
+NativeObject
 -
 inl
 .

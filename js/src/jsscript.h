@@ -100,7 +100,7 @@ include
 "
 vm
 /
-ObjectImpl
+NativeObject
 .
 h
 "
