@@ -98,6 +98,11 @@ UNIFIED_SOURCES
 =
 [
 '
+TestArray
+.
+cpp
+'
+'
 TestFileUtils
 .
 cpp
