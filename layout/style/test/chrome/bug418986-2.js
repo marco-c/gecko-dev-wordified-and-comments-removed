@@ -422,6 +422,11 @@ windows
 -
 win8
 "
+"
+windows
+-
+win10
+"
 ]
 ;
 let
