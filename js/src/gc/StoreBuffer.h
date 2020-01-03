@@ -509,10 +509,7 @@ maybeCompact
 StoreBuffer
 *
 owner
-gcstats
-:
-:
-Phase
+int
 phase
 )
 ;
