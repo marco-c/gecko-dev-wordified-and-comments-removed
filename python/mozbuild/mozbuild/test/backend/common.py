@@ -115,6 +115,14 @@ substs
 '
 :
 [
+(
+'
+OS_TARGET
+'
+'
+WINNT
+'
+)
 ]
 }
 {
