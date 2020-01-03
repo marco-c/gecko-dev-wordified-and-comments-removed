@@ -69,7 +69,8 @@ Promise
 .
 jsm
 "
-this
+{
+}
 )
 .
 Promise
