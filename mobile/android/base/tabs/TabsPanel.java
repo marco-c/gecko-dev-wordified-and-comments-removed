@@ -732,6 +732,13 @@ setTabsPanel
 this
 )
 ;
+if
+(
+Versions
+.
+feature11Plus
+)
+{
 mFooter
 =
 (
@@ -746,6 +753,7 @@ id
 tabs_panel_footer
 )
 ;
+}
 mAddTab
 =
 (
@@ -2302,6 +2310,7 @@ mFooter
 =
 null
 )
+{
 mFooter
 .
 setVisibility
@@ -2311,6 +2320,7 @@ View
 GONE
 )
 ;
+}
 mAddTab
 .
 setVisibility
