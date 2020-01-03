@@ -399,11 +399,6 @@ mIgnoreAudioOutputFormat
 (
 false
 )
-mStartTime
-(
--
-1
-)
 mHitAudioDecodeError
 (
 false
@@ -1109,10 +1104,9 @@ OnTaskQueue
 ;
 NS_ENSURE_TRUE
 (
-mStartTime
->
-=
-0
+HaveStartTime
+(
+)
 media
 :
 :

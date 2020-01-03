@@ -5389,10 +5389,9 @@ UpdateIndex
 ;
 NS_ENSURE_TRUE
 (
-mStartTime
->
-=
-0
+HaveStartTime
+(
+)
 media
 :
 :
@@ -5502,7 +5501,9 @@ i
 .
 start
 -
-mStartTime
+StartTime
+(
+)
 )
 media
 :
@@ -5519,7 +5520,9 @@ i
 .
 end
 -
-mStartTime
+StartTime
+(
+)
 )
 )
 ;
