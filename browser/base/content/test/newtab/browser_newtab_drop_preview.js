@@ -4,6 +4,11 @@ runTests
 )
 {
 yield
+addNewTabPageTab
+(
+)
+;
+yield
 setLinks
 (
 "
