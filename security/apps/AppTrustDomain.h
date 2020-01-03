@@ -200,6 +200,7 @@ Input
 *
 aiaExtension
 )
+MOZ_OVERRIDE
 ;
 virtual
 Result

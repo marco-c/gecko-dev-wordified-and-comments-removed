@@ -205,6 +205,7 @@ void
 virtualDestroyNSSReference
 (
 )
+MOZ_OVERRIDE
 {
 }
 ;

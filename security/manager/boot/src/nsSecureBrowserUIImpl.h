@@ -220,6 +220,7 @@ bool
 *
 cancelSubmit
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NotifyInvalidSubmit
@@ -231,6 +232,7 @@ nsIArray
 *
 invalidElements
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
