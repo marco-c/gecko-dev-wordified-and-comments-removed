@@ -1142,9 +1142,16 @@ str
 *
 str
 )
+{
+*
+str
+=
+nullptr
+;
 return
 nullptr
 ;
+}
 NS_tchar
 *
 ret
