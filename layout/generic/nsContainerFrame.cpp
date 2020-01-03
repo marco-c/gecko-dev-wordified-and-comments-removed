@@ -5147,7 +5147,6 @@ aReflowState
 .
 mFloatManager
 )
-{
 nsBlockFrame
 :
 :
@@ -5158,19 +5157,8 @@ frame
 aReflowState
 .
 mFloatManager
-aReflowState
-.
-GetWritingMode
-(
-)
-aReflowState
-.
-ComputedWidth
-(
-)
 )
 ;
-}
 }
 ConsiderChildOverflow
 (

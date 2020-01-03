@@ -41012,7 +41012,7 @@ transformedCharsFit
 {
 aLineLayout
 .
-SetTrimmableISize
+SetTrimmableWidth
 (
 NSToCoordFloor
 (
