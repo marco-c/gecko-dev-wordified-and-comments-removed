@@ -809,8 +809,14 @@ CK_FLAGS
 CK_VOID_PTR
 CK_NOTIFY
 CK_SESSION_HANDLE_PTR
+phSession
 )
 {
+*
+phSession
+=
+1
+;
 return
 CKR_OK
 ;
