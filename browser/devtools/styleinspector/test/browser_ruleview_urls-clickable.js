@@ -167,7 +167,7 @@ querySelector
 .
 ruleview
 -
-propertyvaluecontainer
+propertycontainer
 a
 "
 )
@@ -220,7 +220,7 @@ querySelector
 .
 ruleview
 -
-propertyvaluecontainer
+propertycontainer
 a
 "
 )
@@ -274,7 +274,7 @@ querySelector
 .
 ruleview
 -
-propertyvaluecontainer
+propertycontainer
 a
 "
 )
@@ -328,7 +328,7 @@ querySelector
 .
 ruleview
 -
-propertyvaluecontainer
+propertycontainer
 a
 "
 )
@@ -382,7 +382,7 @@ querySelector
 .
 ruleview
 -
-propertyvaluecontainer
+propertycontainer
 a
 "
 )
@@ -436,7 +436,7 @@ querySelector
 .
 ruleview
 -
-propertyvaluecontainer
+propertycontainer
 a
 "
 )
@@ -491,7 +491,7 @@ querySelector
 .
 ruleview
 -
-propertyvaluecontainer
+propertycontainer
 a
 "
 )
