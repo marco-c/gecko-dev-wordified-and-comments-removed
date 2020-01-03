@@ -698,6 +698,17 @@ NS_INLINE_FRAME_BIDI_VISUAL_IS_LAST
 )
 FRAME_STATE_GROUP
 (
+RubyText
+nsRubyTextFrame
+)
+FRAME_STATE_BIT
+(
+RubyText
+24
+NS_RUBY_TEXT_FRAME_AUTOHIDE
+)
+FRAME_STATE_GROUP
+(
 Placeholder
 nsPlaceholderFrame
 )
