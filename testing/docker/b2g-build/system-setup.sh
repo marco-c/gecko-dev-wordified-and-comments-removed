@@ -409,7 +409,9 @@ http
 :
 /
 /
-puppetagain
+mockbuild
+-
+repos
 .
 pub
 .
@@ -418,12 +420,6 @@ build
 mozilla
 .
 org
-/
-data
-/
-repos
-/
-yum
 /
 releng
 /
