@@ -5359,9 +5359,12 @@ coreSymbols
 }
 if
 (
-IsExtensionSupported
+IsSupported
 (
-ARB_sync
+GLFeature
+:
+:
+sync
 )
 )
 {
@@ -5506,7 +5509,7 @@ NS_ERROR
 "
 GL
 supports
-ARB_sync
+sync
 without
 supplying
 its

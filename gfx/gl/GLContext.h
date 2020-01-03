@@ -313,6 +313,7 @@ sRGB_framebuffer
 sRGB_texture
 sampler_objects
 standard_derivatives
+sync
 texture_3D
 texture_3D_compressed
 texture_3D_copy
