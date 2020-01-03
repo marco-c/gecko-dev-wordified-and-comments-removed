@@ -213,6 +213,11 @@ aType
 aMem
 )
 ;
+if
+(
+retval
+)
+{
 MOZ_ASSERT
 (
 aMem
@@ -229,11 +234,6 @@ uint8_t
 aSize
 )
 ;
-if
-(
-retval
-)
-{
 mData
 -
 >
