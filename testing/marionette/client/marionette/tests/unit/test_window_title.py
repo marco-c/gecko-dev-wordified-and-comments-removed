@@ -1,7 +1,11 @@
 from
 marionette
+.
+marionette_test
 import
 MarionetteTestCase
+skip_if_b2g
+skip_if_b2g
 class
 TestTitleChrome
 (
