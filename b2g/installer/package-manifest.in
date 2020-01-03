@@ -5099,3 +5099,13 @@ bin
 BIN_SUFFIX
 #
 endif
+#
+ifdef
+PACKAGE_MOZTT
+BINPATH
+/
+fonts
+/
+*
+#
+endif
