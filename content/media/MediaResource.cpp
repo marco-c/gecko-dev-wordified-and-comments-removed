@@ -2304,7 +2304,7 @@ mChannel
 secMan
 -
 >
-GetChannelPrincipal
+GetChannelResultPrincipal
 (
 mChannel
 getter_AddRefs
@@ -5887,7 +5887,7 @@ nullptr
 secMan
 -
 >
-GetChannelPrincipal
+GetChannelResultPrincipal
 (
 mChannel
 getter_AddRefs

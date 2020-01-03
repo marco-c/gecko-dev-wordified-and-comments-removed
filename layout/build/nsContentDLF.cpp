@@ -435,7 +435,7 @@ principal
 securityManager
 -
 >
-GetChannelPrincipal
+GetChannelResultPrincipal
 (
 aChannel
 getter_AddRefs

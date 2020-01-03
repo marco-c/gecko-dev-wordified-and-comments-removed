@@ -2073,7 +2073,7 @@ rv
 ssm
 -
 >
-GetChannelPrincipal
+GetChannelResultPrincipal
 (
 channel
 getter_AddRefs

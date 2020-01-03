@@ -2594,7 +2594,7 @@ rv
 secMan
 -
 >
-GetChannelPrincipal
+GetChannelResultPrincipal
 (
 chan
 getter_AddRefs

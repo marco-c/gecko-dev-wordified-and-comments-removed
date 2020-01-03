@@ -3143,7 +3143,7 @@ oldPrincipal
 secMan
 -
 >
-GetChannelPrincipal
+GetChannelResultPrincipal
 (
 aOldChannel
 getter_AddRefs

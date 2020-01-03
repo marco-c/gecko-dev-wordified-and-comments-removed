@@ -3039,7 +3039,7 @@ GetSecurityManager
 )
 -
 >
-GetChannelPrincipal
+GetChannelURIPrincipal
 (
 aOldChannel
 getter_AddRefs
@@ -3062,7 +3062,7 @@ GetSecurityManager
 )
 -
 >
-GetChannelPrincipal
+GetChannelURIPrincipal
 (
 aNewChannel
 getter_AddRefs
