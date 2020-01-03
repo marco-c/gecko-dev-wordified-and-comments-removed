@@ -1830,6 +1830,14 @@ slotType
 MIRType_None
 )
 ;
+bool
+shouldAbortOnPreliminaryGroups
+(
+MDefinition
+*
+obj
+)
+;
 MDefinition
 *
 tryInnerizeWindow
