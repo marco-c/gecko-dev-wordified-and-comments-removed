@@ -2193,16 +2193,6 @@ top
 )
 ;
 bool
-emitSyntheticStatements
-(
-ParseNode
-*
-pn
-ptrdiff_t
-top
-)
-;
-bool
 emitDelete
 (
 ParseNode
@@ -2356,9 +2346,6 @@ emitDefaultsAndDestructuring
 ParseNode
 *
 pn
-ParseNode
-*
-pndestruct
 )
 ;
 bool

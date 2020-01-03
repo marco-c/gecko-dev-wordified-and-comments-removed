@@ -3004,9 +3004,6 @@ case
 PNK_STATEMENTLIST
 :
 case
-PNK_SEQ
-:
-case
 PNK_ARGSBODY
 :
 case
