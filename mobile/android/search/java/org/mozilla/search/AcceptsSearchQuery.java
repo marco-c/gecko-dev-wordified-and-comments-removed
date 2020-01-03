@@ -39,6 +39,13 @@ SuggestionAnimation
 suggestionAnimation
 )
 ;
+void
+onQueryChange
+(
+String
+query
+)
+;
 public
 interface
 SuggestionAnimation
