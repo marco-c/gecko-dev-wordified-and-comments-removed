@@ -209,7 +209,6 @@ nsPresContext
 aPresContext
 )
 ;
-NS_DECL_ISUPPORTS
 virtual
 nsRestyleHint
 HasStateDependentStyle

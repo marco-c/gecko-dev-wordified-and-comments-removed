@@ -696,6 +696,11 @@ aPresContext
 )
 {
 }
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+nsAnimationManager
+)
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 void
 MaybeUpdateCascadeResults
 (
