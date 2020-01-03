@@ -1009,7 +1009,7 @@ is
 (
 gURLBar
 .
-value
+textValue
 test
 .
 expectedURL
@@ -1178,7 +1178,7 @@ replace
 =
 gURLBar
 .
-value
+textValue
 )
 {
 ok

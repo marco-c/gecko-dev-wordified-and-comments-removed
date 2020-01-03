@@ -412,7 +412,7 @@ is
 (
 gURLBar
 .
-value
+textValue
 expectedURL
 "
 entering

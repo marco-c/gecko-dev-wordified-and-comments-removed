@@ -101,6 +101,16 @@ TEST_DIRS
 cpp
 '
 ]
+TESTING_JS_MODULES
++
+=
+[
+'
+PlacesTestUtils
+.
+jsm
+'
+]
 XPCSHELL_TESTS_MANIFESTS
 +
 =
