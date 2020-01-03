@@ -2272,9 +2272,6 @@ GAUSSIAN_KERNEL_STEP
 <
 <
 "
-<
-<
-endl
 ;
 "
 <
