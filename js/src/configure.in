@@ -4927,15 +4927,6 @@ AC_SUBST
 (
 TAR
 )
-if
-test
--
-z
-"
-TINDERBOX_SKIP_PERL_VERSION_CHECK
-"
-;
-then
 AC_MSG_CHECKING
 (
 [
@@ -5024,7 +5015,6 @@ required
 .
 ]
 )
-fi
 fi
 AC_MSG_CHECKING
 (
