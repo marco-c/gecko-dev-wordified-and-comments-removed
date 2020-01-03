@@ -2376,7 +2376,7 @@ tn
 kind
 =
 =
-JSTRY_ITER
+JSTRY_FOR_IN
 &
 &
 stackDepth
