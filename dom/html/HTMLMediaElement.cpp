@@ -16488,6 +16488,9 @@ HAVE_ENOUGH_DATA
 |
 |
 mSrcStream
+|
+|
+mMediaSource
 )
 &
 &
