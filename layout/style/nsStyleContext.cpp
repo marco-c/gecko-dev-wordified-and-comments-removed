@@ -322,6 +322,10 @@ mRefCnt
 #
 ifdef
 DEBUG
+mFrameRefCnt
+(
+0
+)
 mComputingStruct
 (
 nsStyleStructID_None
