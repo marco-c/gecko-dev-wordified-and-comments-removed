@@ -363,14 +363,6 @@ FALSE
 return
 ;
 }
-#
-if
-GTK_CHECK_VERSION
-(
-2
-12
-0
-)
 GdkPixbuf
 *
 preview_pixbuf_temp
@@ -389,8 +381,6 @@ g_object_unref
 preview_pixbuf_temp
 )
 ;
-#
-endif
 gint
 x_padding
 =
