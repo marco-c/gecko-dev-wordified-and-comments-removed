@@ -270,7 +270,6 @@ group
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -282,7 +281,6 @@ answer
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -294,7 +292,6 @@ hangUp
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -306,7 +303,6 @@ hold
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <

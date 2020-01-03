@@ -406,7 +406,6 @@ error
 /
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -493,7 +492,6 @@ error
 /
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -575,7 +573,6 @@ error
 /
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -710,7 +707,6 @@ true
 /
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -841,7 +837,6 @@ true
 /
 [
 NewObject
-Throws
 ]
 Promise
 <

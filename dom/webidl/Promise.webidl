@@ -317,7 +317,6 @@ first
 .
 [
 NewObject
-Throws
 ]
 static
 Promise
@@ -333,7 +332,6 @@ value
 ;
 [
 NewObject
-Throws
 ]
 static
 Promise
@@ -379,7 +377,6 @@ passed
 .
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -409,7 +406,6 @@ null
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -430,7 +426,6 @@ null
 ;
 [
 NewObject
-Throws
 ]
 static
 Promise
@@ -448,7 +443,6 @@ iterable
 ;
 [
 NewObject
-Throws
 ]
 static
 Promise

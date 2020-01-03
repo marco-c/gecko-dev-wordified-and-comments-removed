@@ -562,7 +562,6 @@ isRemovable
 ;
 [
 NewObject
-Throws
 ]
 /
 /

@@ -123,7 +123,6 @@ USSDSession
 {
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -137,7 +136,6 @@ ussd
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <

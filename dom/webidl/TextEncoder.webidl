@@ -178,7 +178,6 @@ DOMString
 encoding
 ;
 [
-Throws
 NewObject
 ]
 Uint8Array

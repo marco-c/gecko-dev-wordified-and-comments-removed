@@ -912,7 +912,6 @@ eme
 .
 enabled
 "
-Throws
 NewObject
 ]
 Promise

@@ -2020,7 +2020,6 @@ DOMError
 /
 [
 NewObject
-Throws
 ]
 Promise
 <

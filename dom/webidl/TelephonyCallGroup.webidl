@@ -166,7 +166,6 @@ call
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <

@@ -139,7 +139,6 @@ passkey
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -153,7 +152,6 @@ aPinCode
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <

@@ -241,7 +241,6 @@ uuids
 /
 [
 NewObject
-Throws
 ]
 Promise
 <

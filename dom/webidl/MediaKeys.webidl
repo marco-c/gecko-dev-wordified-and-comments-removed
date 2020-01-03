@@ -224,7 +224,6 @@ temporary
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <

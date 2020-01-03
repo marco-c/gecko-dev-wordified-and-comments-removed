@@ -213,7 +213,6 @@ closed
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -233,7 +232,6 @@ initData
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -251,7 +249,6 @@ session
 operations
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -269,7 +266,6 @@ response
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -281,7 +277,6 @@ close
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -293,7 +288,6 @@ remove
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <

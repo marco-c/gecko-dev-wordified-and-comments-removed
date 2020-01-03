@@ -1001,7 +1001,6 @@ interface
 NavigatorDataStore
 {
 [
-Throws
 NewObject
 Func
 =
@@ -1270,7 +1269,6 @@ resolved
 with
 ?
 [
-Throws
 NewObject
 Func
 =
@@ -2679,7 +2677,6 @@ eme
 .
 enabled
 "
-Throws
 NewObject
 ]
 Promise

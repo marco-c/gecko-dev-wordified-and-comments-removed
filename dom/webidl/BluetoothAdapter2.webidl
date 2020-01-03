@@ -483,7 +483,6 @@ disabled
 /
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -495,7 +494,6 @@ enable
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -507,7 +505,6 @@ disable
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -521,7 +518,6 @@ aName
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -535,7 +531,6 @@ aDiscoverable
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -547,7 +542,6 @@ startDiscovery
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -559,7 +553,6 @@ stopDiscovery
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <
@@ -573,7 +566,6 @@ deviceAddress
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <

@@ -241,7 +241,6 @@ keySystem
 ;
 [
 NewObject
-Throws
 ]
 Promise
 <

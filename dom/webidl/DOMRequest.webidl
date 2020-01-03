@@ -171,7 +171,6 @@ passed
 .
 [
 NewObject
-Throws
 ]
 Promise
 <
