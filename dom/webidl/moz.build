@@ -490,6 +490,11 @@ CSS
 webidl
 '
 '
+CSSLexer
+.
+webidl
+'
+'
 CSSPrimitiveValue
 .
 webidl

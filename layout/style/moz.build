@@ -534,6 +534,11 @@ CSS
 h
 '
 '
+CSSLexer
+.
+h
+'
+'
 CSSRuleList
 .
 h
@@ -634,6 +639,11 @@ cpp
 '
 '
 CSS
+.
+cpp
+'
+'
+CSSLexer
 .
 cpp
 '
