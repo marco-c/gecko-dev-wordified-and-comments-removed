@@ -458,6 +458,14 @@ aCommand
 if
 (
 controller
+&
+&
+controller
+.
+isCommandEnabled
+(
+aCommand
+)
 )
 controller
 .
