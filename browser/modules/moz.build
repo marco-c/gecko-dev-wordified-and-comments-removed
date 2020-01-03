@@ -159,6 +159,11 @@ BrowserUITelemetry
 jsm
 '
 '
+CastingApps
+.
+jsm
+'
+'
 Chat
 .
 jsm
