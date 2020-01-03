@@ -658,6 +658,15 @@ return
 mAccurateVisibleRegions
 ;
 }
+bool
+IsBuildingCaret
+(
+)
+{
+return
+mBuildCaret
+;
+}
 void
 IgnorePaintSuppression
 (
