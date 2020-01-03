@@ -596,6 +596,14 @@ Listener
 *
 mExistingListener
 ;
+#
+ifdef
+MOZ_NUWA_PROCESS
+bool
+mIsToNuwaProcess
+;
+#
+endif
 }
 ;
 class
