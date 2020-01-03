@@ -8112,10 +8112,7 @@ if
 mResolution
 !
 =
-CSSToParentLayerScale
-(
 1
-)
 )
 {
 aRegionToPaint
