@@ -27193,12 +27193,6 @@ JS_NewObjectWithGivenProto
 aCx
 nullptr
 htmlProto
-JS
-:
-:
-NullPtr
-(
-)
 )
 ;
 if
