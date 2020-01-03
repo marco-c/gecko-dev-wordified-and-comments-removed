@@ -532,14 +532,6 @@ Create
 (
 )
 {
-MOZ_ASSERT
-(
-!
-NS_IsMainThread
-(
-)
-)
-;
 nsRefPtr
 <
 PlatformDecoderModule
