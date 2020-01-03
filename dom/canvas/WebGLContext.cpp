@@ -3870,6 +3870,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
++
++
+mGeneration
+;
 NS_ENSURE_TRUE
 (
 Preferences
@@ -4126,10 +4130,6 @@ true
 mOptionsFrozen
 =
 true
-;
-+
-+
-mGeneration
 ;
 if
 (
