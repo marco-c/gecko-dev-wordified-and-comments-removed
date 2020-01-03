@@ -76,12 +76,6 @@ checkDivHeight
 inspector
 )
 ;
-gBrowser
-.
-removeCurrentTab
-(
-)
-;
 }
 )
 ;

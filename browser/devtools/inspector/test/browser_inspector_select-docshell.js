@@ -536,12 +536,6 @@ enabled
 "
 )
 ;
-gBrowser
-.
-removeCurrentTab
-(
-)
-;
 }
 )
 ;

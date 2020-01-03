@@ -65,12 +65,6 @@ unknownHighlighterTypeShouldntBeAccepted
 inspector
 )
 ;
-gBrowser
-.
-removeCurrentTab
-(
-)
-;
 }
 )
 ;
