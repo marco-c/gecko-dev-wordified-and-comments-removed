@@ -1088,6 +1088,8 @@ CanAnimate_AllowPartial
 2
 }
 ;
+private
+:
 static
 bool
 CanAnimatePropertyOnCompositor
@@ -1105,6 +1107,8 @@ CanAnimateFlags
 aFlags
 )
 ;
+public
+:
 static
 bool
 IsCompositorAnimationDisabledForFrame
