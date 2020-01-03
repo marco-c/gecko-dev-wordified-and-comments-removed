@@ -2785,13 +2785,8 @@ haveNativeStack
 =
 GeckoThread
 .
-checkLaunchState
+isRunning
 (
-GeckoThread
-.
-LaunchState
-.
-GeckoRunning
 )
 ?
 requestNativeStack

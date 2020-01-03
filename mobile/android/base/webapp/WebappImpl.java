@@ -749,13 +749,8 @@ if
 !
 GeckoThread
 .
-checkLaunchState
+isRunning
 (
-GeckoThread
-.
-LaunchState
-.
-GeckoRunning
 )
 |
 |
