@@ -3660,6 +3660,9 @@ pid
 uint64_t
 size
 ;
+unused
+<
+<
 fgets
 (
 buffer
@@ -3667,6 +3670,9 @@ kBufferLen
 iommu
 )
 ;
+unused
+<
+<
 fgets
 (
 buffer
@@ -3771,6 +3777,9 @@ allocation
 ;
 }
 }
+unused
+<
+<
 fgets
 (
 buffer
@@ -3899,6 +3908,9 @@ size
 =
 0
 ;
+unused
+<
+<
 fscanf
 (
 sizeFile
@@ -5215,6 +5227,9 @@ buff
 1024
 ]
 ;
+unused
+<
+<
 fgets
 (
 buff
