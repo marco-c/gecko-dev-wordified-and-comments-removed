@@ -1865,7 +1865,7 @@ if
 nsContentUtils
 :
 :
-GettersDecodeURLHash
+EncodeDecodeURLHash
 (
 )
 )
