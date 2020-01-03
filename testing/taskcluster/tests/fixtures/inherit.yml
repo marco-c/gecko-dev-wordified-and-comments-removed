@@ -1,0 +1,16 @@
+inherits
+:
+from
+:
+'
+templates
+.
+yml
+'
+variables
+:
+woot
+:
+'
+inherit
+'
