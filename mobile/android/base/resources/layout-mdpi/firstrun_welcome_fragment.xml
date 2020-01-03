@@ -144,7 +144,7 @@ android
 layout_height
 =
 "
-match_parent
+wrap_content
 "
 android
 :
@@ -491,6 +491,13 @@ layout_height
 =
 "
 wrap_content
+"
+android
+:
+minHeight
+=
+"
+92dp
 "
 android
 :
