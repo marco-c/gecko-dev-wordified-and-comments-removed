@@ -530,6 +530,7 @@ Ci
 .
 nsIDocShell
 )
+{
 SessionStorage
 .
 restore
@@ -542,6 +543,12 @@ tabData
 storage
 )
 ;
+delete
+tabData
+.
+storage
+;
+}
 }
 restoreTabContent
 :
