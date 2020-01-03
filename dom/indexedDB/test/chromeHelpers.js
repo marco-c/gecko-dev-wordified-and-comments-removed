@@ -42,17 +42,6 @@ function
 (
 )
 {
-Cu
-.
-importGlobalProperties
-(
-[
-"
-indexedDB
-"
-]
-)
-;
 SimpleTest
 .
 waitForExplicitFinish

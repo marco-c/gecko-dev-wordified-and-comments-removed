@@ -215,17 +215,6 @@ jsm
 window
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-indexedDB
-"
-]
-)
-;
 let
 contactsDB
 =
