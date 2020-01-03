@@ -41,17 +41,5 @@ bool
 b
 )
 ;
-namespace
-js
-{
-inline
-bool
-BooleanGetPrimitiveValue
-(
-HandleObject
-obj
-)
-;
-}
 #
 endif
