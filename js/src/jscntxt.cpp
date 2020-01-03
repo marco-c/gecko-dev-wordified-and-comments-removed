@@ -733,6 +733,8 @@ MOZ_CRASH
 cx
 -
 >
+roots
+.
 checkNoGCRooters
 (
 )
@@ -876,7 +878,7 @@ cx
 ;
 }
 void
-ContextFriendFields
+RootLists
 :
 :
 checkNoGCRooters
@@ -903,7 +905,7 @@ i
 )
 MOZ_ASSERT
 (
-thingGCRooters
+stackRoots_
 [
 i
 ]

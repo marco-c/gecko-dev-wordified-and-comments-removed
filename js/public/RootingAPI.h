@@ -2435,7 +2435,9 @@ stack
 cx
 -
 >
-thingGCRooters
+roots
+.
+stackRoots_
 [
 kind
 ]

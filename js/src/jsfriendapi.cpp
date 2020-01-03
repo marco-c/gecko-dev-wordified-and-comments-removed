@@ -252,11 +252,6 @@ UINTPTR_MAX
 ;
 #
 endif
-PodArrayZero
-(
-thingGCRooters
-)
-;
 }
 JS_FRIEND_API
 (
