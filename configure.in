@@ -3524,8 +3524,9 @@ n
 "
 MOZ_RUST
 "
--
-a
+&
+&
+test
 -
 z
 "
