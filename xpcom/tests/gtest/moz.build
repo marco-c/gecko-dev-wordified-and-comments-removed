@@ -118,6 +118,11 @@ TestPipes
 cpp
 '
 '
+TestPriorityQueue
+.
+cpp
+'
+'
 TestSnappyStreams
 .
 cpp
