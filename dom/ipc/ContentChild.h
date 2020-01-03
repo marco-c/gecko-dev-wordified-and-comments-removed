@@ -2283,6 +2283,17 @@ actor
 )
 override
 ;
+virtual
+bool
+RecvGamepadUpdate
+(
+const
+GamepadChangeEvent
+&
+aGamepadEvent
+)
+override
+;
 private
 :
 virtual

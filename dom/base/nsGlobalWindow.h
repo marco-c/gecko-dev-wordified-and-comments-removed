@@ -304,6 +304,13 @@ nsSize
 h
 "
 #
+include
+"
+nsCheapSets
+.
+h
+"
+#
 define
 DEFAULT_HOME_PAGE
 "
@@ -7430,6 +7437,12 @@ mHasGamepad
 #
 ifdef
 MOZ_GAMEPAD
+nsCheapSet
+<
+nsUint32HashKey
+>
+mGamepadIndexSet
+;
 nsRefPtrHashtable
 <
 nsUint32HashKey
