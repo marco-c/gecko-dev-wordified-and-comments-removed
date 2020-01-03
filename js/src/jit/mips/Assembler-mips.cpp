@@ -1494,12 +1494,15 @@ ptr
 gc
 :
 :
-MarkGCThingUnbarriered
+TraceManuallyBarrieredGenericPointerEdge
 (
 trc
 reinterpret_cast
 <
-void
+gc
+:
+:
+Cell
 *
 *
 >
