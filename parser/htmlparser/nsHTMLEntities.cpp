@@ -422,7 +422,7 @@ EntityNodeEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 gEntityToUnicode
@@ -430,7 +430,6 @@ node
 -
 >
 mStr
-PL_DHASH_ADD
 )
 )
 ;
@@ -468,7 +467,7 @@ EntityNodeEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 gUnicodeToEntity
@@ -479,7 +478,6 @@ node
 >
 mUnicode
 )
-PL_DHASH_ADD
 )
 )
 ;
@@ -684,7 +682,7 @@ EntityNodeEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 gEntityToUnicode
@@ -693,7 +691,6 @@ aEntity
 get
 (
 )
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -815,7 +812,7 @@ EntityNodeEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 gUnicodeToEntity
@@ -823,7 +820,6 @@ NS_INT32_TO_PTR
 (
 aUnicode
 )
-PL_DHASH_LOOKUP
 )
 )
 ;

@@ -2500,11 +2500,10 @@ RuleHashTableEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 aTable
 aKey
-PL_DHASH_ADD
 )
 )
 ;
@@ -2559,11 +2558,10 @@ RuleHashTagTableEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 aTable
 aKey
-PL_DHASH_ADD
 )
 )
 ;
@@ -3195,7 +3193,7 @@ RuleHashTableEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 mNameSpaceTable
@@ -3203,7 +3201,6 @@ NS_INT32_TO_PTR
 (
 nameSpace
 )
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -3258,12 +3255,11 @@ RuleHashTableEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 mTagTable
 tag
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -3321,12 +3317,11 @@ RuleHashTableEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 mIdTable
 id
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -3397,7 +3392,7 @@ RuleHashTableEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 mClassTable
@@ -3408,7 +3403,6 @@ AtomAt
 (
 index
 )
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -4819,12 +4813,11 @@ AtomSelectorEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 mAttributeSelectors
 aAttribute
-PL_DHASH_ADD
 )
 )
 ;
@@ -11350,7 +11343,7 @@ RuleHashTagTableEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 cascade
@@ -11361,7 +11354,6 @@ aData
 -
 >
 mPseudoTag
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -11496,7 +11488,7 @@ RuleHashTagTableEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 cascade
@@ -11507,7 +11499,6 @@ aData
 -
 >
 mPseudoTag
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -12580,7 +12571,7 @@ AtomSelectorEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 cascade
@@ -12588,7 +12579,6 @@ cascade
 >
 mIdSelectors
 id
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -12705,7 +12695,7 @@ AtomSelectorEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 cascade
@@ -12713,7 +12703,6 @@ cascade
 >
 mClassSelectors
 curClass
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -12759,7 +12748,7 @@ AtomSelectorEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 cascade
@@ -12770,7 +12759,6 @@ aData
 -
 >
 mAttribute
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -13630,7 +13618,7 @@ AtomSelectorEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 aCascade
@@ -13641,7 +13629,6 @@ curID
 -
 >
 mAtom
-PL_DHASH_ADD
 )
 )
 ;
@@ -13722,7 +13709,7 @@ AtomSelectorEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 aCascade
@@ -13733,7 +13720,6 @@ curClass
 -
 >
 mAtom
-PL_DHASH_ADD
 )
 )
 ;
@@ -14977,7 +14963,7 @@ RuleByWeightEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 data
@@ -14988,7 +14974,6 @@ NS_INT32_TO_PTR
 (
 weight
 )
-PL_DHASH_ADD
 )
 )
 ;

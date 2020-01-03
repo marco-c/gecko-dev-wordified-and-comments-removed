@@ -1514,12 +1514,11 @@ nullptr
 ;
 hashEntry
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 table
 key
-PL_DHASH_LOOKUP
 )
 ;
 if
@@ -1591,7 +1590,7 @@ NS_ERROR_NULL_POINTER
 ;
 hashEntry
 =
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 table
@@ -1602,7 +1601,6 @@ cacheEntry
 >
 mKey
 )
-PL_DHASH_ADD
 )
 ;
 #
@@ -1741,10 +1739,7 @@ entry
 ;
 #
 endif
-(
-void
-)
-PL_DHashTableOperate
+PL_DHashTableRemove
 (
 &
 table
@@ -1755,7 +1750,6 @@ cacheEntry
 >
 mKey
 )
-PL_DHASH_REMOVE
 )
 ;
 }

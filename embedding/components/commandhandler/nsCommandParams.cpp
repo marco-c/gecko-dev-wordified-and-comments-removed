@@ -920,7 +920,7 @@ aName
 (
 void
 )
-PL_DHashTableOperate
+PL_DHashTableRemove
 (
 &
 mValuesHash
@@ -929,7 +929,6 @@ void
 *
 )
 aName
-PL_DHASH_REMOVE
 )
 ;
 return
@@ -960,7 +959,7 @@ foundEntry
 HashEntry
 *
 )
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 mValuesHash
@@ -969,7 +968,6 @@ void
 *
 )
 aName
-PL_DHASH_LOOKUP
 )
 ;
 if
@@ -1014,7 +1012,7 @@ foundEntry
 HashEntry
 *
 )
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 mValuesHash
@@ -1023,7 +1021,6 @@ void
 *
 )
 aName
-PL_DHASH_LOOKUP
 )
 ;
 if
@@ -1052,7 +1049,7 @@ foundEntry
 HashEntry
 *
 )
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 mValuesHash
@@ -1061,7 +1058,6 @@ void
 *
 )
 aName
-PL_DHASH_ADD
 )
 ;
 if

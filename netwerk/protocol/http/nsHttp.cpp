@@ -503,7 +503,7 @@ PLDHashEntryStub
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 sAtomTable
@@ -511,7 +511,6 @@ atoms
 [
 i
 ]
-PL_DHASH_ADD
 )
 )
 ;
@@ -681,12 +680,11 @@ PLDHashEntryStub
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 sAtomTable
 str
-PL_DHASH_ADD
 )
 )
 ;

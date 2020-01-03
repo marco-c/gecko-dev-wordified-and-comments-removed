@@ -518,7 +518,7 @@ PlaceholderMapEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 const_cast
 <
@@ -530,7 +530,6 @@ PLDHashTable
 mPlaceholderMap
 )
 aFrame
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -628,7 +627,7 @@ PlaceholderMapEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 mPlaceholderMap
@@ -638,7 +637,6 @@ aPlaceholderFrame
 GetOutOfFlowFrame
 (
 )
-PL_DHASH_ADD
 )
 )
 ;
@@ -733,7 +731,7 @@ mPlaceholderMap
 ops
 )
 {
-PL_DHashTableOperate
+PL_DHashTableRemove
 (
 &
 mPlaceholderMap
@@ -743,7 +741,6 @@ aPlaceholderFrame
 GetOutOfFlowFrame
 (
 )
-PL_DHASH_REMOVE
 )
 ;
 }

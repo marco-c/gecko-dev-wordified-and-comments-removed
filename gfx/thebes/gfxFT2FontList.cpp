@@ -3015,7 +3015,7 @@ FNCMapEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 mMap
@@ -3024,7 +3024,6 @@ filename
 get
 (
 )
-PL_DHASH_ADD
 )
 )
 ;
@@ -3132,7 +3131,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 mMap
@@ -3141,7 +3140,6 @@ aFileName
 get
 (
 )
-PL_DHASH_LOOKUP
 )
 ;
 if
@@ -3251,7 +3249,7 @@ FNCMapEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 mMap
@@ -3260,7 +3258,6 @@ aFileName
 get
 (
 )
-PL_DHASH_ADD
 )
 )
 ;

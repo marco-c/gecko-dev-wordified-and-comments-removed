@@ -319,7 +319,7 @@ singleton
 mListLock
 )
 ;
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 singleton
@@ -327,7 +327,6 @@ singleton
 >
 mObjects
 o
-PL_DHASH_ADD
 )
 ;
 }
@@ -363,7 +362,7 @@ singleton
 mListLock
 )
 ;
-PL_DHashTableOperate
+PL_DHashTableRemove
 (
 &
 singleton
@@ -371,7 +370,6 @@ singleton
 >
 mObjects
 o
-PL_DHASH_REMOVE
 )
 ;
 }
@@ -407,7 +405,7 @@ singleton
 mListLock
 )
 ;
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 singleton
@@ -415,7 +413,6 @@ singleton
 >
 mPK11LogoutCancelObjects
 o
-PL_DHASH_ADD
 )
 ;
 }
@@ -451,7 +448,7 @@ singleton
 mListLock
 )
 ;
-PL_DHashTableOperate
+PL_DHashTableRemove
 (
 &
 singleton
@@ -459,7 +456,6 @@ singleton
 >
 mPK11LogoutCancelObjects
 o
-PL_DHASH_REMOVE
 )
 ;
 }

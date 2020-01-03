@@ -2786,12 +2786,11 @@ entry
 Entry
 *
 )
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 mTable
 &
 key
-PL_DHASH_ADD
 )
 ;
 if
