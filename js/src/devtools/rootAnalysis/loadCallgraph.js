@@ -950,7 +950,11 @@ GCRuntime
 collect
 (
 uint8
-int64
+js
+:
+:
+SliceBudget
+*
 uint32
 uint32
 )
