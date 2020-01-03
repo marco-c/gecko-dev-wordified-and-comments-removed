@@ -835,10 +835,6 @@ mReader
 PushVideoPacket
 (
 next_holder
-.
-forget
-(
-)
 )
 ;
 }
