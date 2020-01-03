@@ -1996,7 +1996,15 @@ storeBuffer
 .
 putGeneric
 (
-UnbarrieredRef
+gc
+:
+:
+HashKeyRef
+<
+ObjectValueMap
+JSObject
+*
+>
 (
 weakMap
 key

@@ -6089,7 +6089,6 @@ thing
 ;
 if
 (
-!
 thing
 -
 >
@@ -6098,7 +6097,7 @@ shadowRuntimeFromAnyThread
 )
 -
 >
-needsIncrementalBarrier
+isHeapBusy
 (
 )
 )
@@ -6221,7 +6220,6 @@ thing
 )
 |
 |
-!
 thing
 -
 >
@@ -6230,7 +6228,7 @@ shadowRuntimeFromAnyThread
 )
 -
 >
-needsIncrementalBarrier
+isHeapBusy
 (
 )
 )
