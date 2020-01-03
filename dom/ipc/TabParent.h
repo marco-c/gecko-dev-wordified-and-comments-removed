@@ -466,6 +466,9 @@ FrameScriptInfo
 >
 *
 aFrameScripts
+nsCString
+*
+aURLToLoad
 )
 MOZ_OVERRIDE
 ;
@@ -2031,7 +2034,10 @@ TabParent
 sNextTabParent
 ;
 bool
-mSkipLoad
+mCreatingWindow
+;
+nsCString
+mDelayedURL
 ;
 nsTArray
 <
