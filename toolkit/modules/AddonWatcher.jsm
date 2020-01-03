@@ -540,7 +540,7 @@ limits
 .
 longestDuration
 "
-7
+128
 )
 )
 )
