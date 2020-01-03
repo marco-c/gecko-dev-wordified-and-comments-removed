@@ -7965,7 +7965,7 @@ enabled
 .
 http2
 "
-false
+true
 )
 ;
 pref
@@ -32755,6 +32755,16 @@ pref
 selectioncaret
 .
 enabled
+"
+false
+)
+;
+pref
+(
+"
+selectioncaret
+.
+noneditable
 "
 false
 )
