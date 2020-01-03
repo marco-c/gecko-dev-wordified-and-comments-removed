@@ -315,9 +315,9 @@ logConsoleErrors
 true
 OS
 :
-"
-XPCShell
-"
+XULRuntime
+.
+OS
 XPCOMABI
 :
 "
