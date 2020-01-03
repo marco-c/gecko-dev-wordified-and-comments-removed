@@ -956,6 +956,11 @@ this
 )
 ;
 }
+void
+prepareForCompacting
+(
+)
+;
 #
 ifdef
 DEBUG

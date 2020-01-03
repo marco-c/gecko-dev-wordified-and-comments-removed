@@ -4570,6 +4570,14 @@ numUnaliasedBodyLevelLocals
 ;
 }
 size_t
+calculateLiveFixed
+(
+jsbytecode
+*
+pc
+)
+;
+size_t
 fixedLexicalBegin
 (
 )
