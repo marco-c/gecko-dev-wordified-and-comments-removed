@@ -4160,6 +4160,11 @@ self
 subrole
 ]
 ;
+if
+(
+subrole
+)
+{
 size_t
 idx
 =
@@ -4198,6 +4203,7 @@ idx
 description
 )
 ;
+}
 }
 return
 NSAccessibilityRoleDescription
