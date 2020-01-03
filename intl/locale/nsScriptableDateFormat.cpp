@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Snprintf
-.
-h
-"
-#
-include
-"
 nsILocaleService
 .
 h
@@ -464,7 +455,7 @@ string
 32
 ]
 ;
-snprintf_literal
+sprintf
 (
 string
 "

@@ -69,15 +69,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-Snprintf
-.
-h
-"
-#
-include
 <
 algorithm
 >
@@ -1098,7 +1089,7 @@ buf
 100
 ]
 ;
-snprintf_literal
+sprintf
 (
 buf
 "

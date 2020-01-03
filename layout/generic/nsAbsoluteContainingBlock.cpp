@@ -55,15 +55,6 @@ nsGridContainerFrame
 h
 "
 #
-include
-"
-mozilla
-/
-Snprintf
-.
-h
-"
-#
 ifdef
 DEBUG
 #
@@ -82,8 +73,6 @@ aSize
 char
 *
 aBuf
-int
-aBufSize
 )
 {
 if
@@ -127,10 +116,9 @@ deadbeef
 }
 else
 {
-snprintf
+sprintf
 (
 aBuf
-aBufSize
 "
 %
 d
@@ -1585,7 +1573,6 @@ AvailableWidth
 (
 )
 width
-16
 )
 ;
 PrettyUC
@@ -1596,7 +1583,6 @@ AvailableHeight
 (
 )
 height
-16
 )
 ;
 printf
@@ -1621,7 +1607,6 @@ ComputedWidth
 (
 )
 width
-16
 )
 ;
 PrettyUC
@@ -1632,7 +1617,6 @@ ComputedHeight
 (
 )
 height
-16
 )
 ;
 printf

@@ -445,7 +445,7 @@ const
 ;
 virtual
 void
-dumpToString
+dump
 (
 String8
 &
