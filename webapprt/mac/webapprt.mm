@@ -2606,7 +2606,7 @@ org
 .
 mozilla
 .
-aurora
+firefoxdeveloperedition
 "
 "
 org
