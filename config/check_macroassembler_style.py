@@ -1164,10 +1164,13 @@ archs
 =
 set
 (
+sorted
+(
 signatures
 [
 s
 ]
+)
 )
         
 if
