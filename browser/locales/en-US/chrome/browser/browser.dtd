@@ -2826,6 +2826,16 @@ Toolbox
 <
 !
 ENTITY
+browserContentToolboxMenu
+.
+accesskey
+"
+x
+"
+>
+<
+!
+ENTITY
 devToolbarCloseButton
 .
 tooltiptext

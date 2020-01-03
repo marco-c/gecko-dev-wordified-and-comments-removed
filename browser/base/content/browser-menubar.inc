@@ -4208,6 +4208,15 @@ observes
 "
 devtoolsMenuBroadcaster_BrowserContentToolbox
 "
+accesskey
+=
+"
+&
+browserContentToolboxMenu
+.
+accesskey
+;
+"
 /
 >
 <
