@@ -724,7 +724,7 @@ cmd_goToLine
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 promptAndGoToLine
 (
@@ -748,7 +748,7 @@ cmd_highlightSyntax
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 toggleSyntaxHighlighting
 (
@@ -767,7 +767,7 @@ cmd_wrapLongLines
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 toggleWrapping
 (
@@ -1208,7 +1208,7 @@ accesskey
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 onContextMenuCopyLinkOrEmail
 (
@@ -1247,7 +1247,7 @@ accesskey
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 onContextMenuCopyLinkOrEmail
 (

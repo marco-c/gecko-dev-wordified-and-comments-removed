@@ -753,7 +753,7 @@ cmd_reload
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 reload
 (
@@ -772,7 +772,7 @@ cmd_goToLine
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 promptAndGoToLine
 (
@@ -796,7 +796,7 @@ cmd_highlightSyntax
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 toggleSyntaxHighlighting
 (
@@ -815,7 +815,7 @@ cmd_wrapLongLines
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 toggleWrapping
 (
@@ -893,7 +893,7 @@ Back
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 goBack
 (
@@ -918,7 +918,7 @@ Forward
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 goForward
 (
@@ -1891,7 +1891,7 @@ accesskey
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 onContextMenuCopyLinkOrEmail
 (
@@ -1930,7 +1930,7 @@ accesskey
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 onContextMenuCopyLinkOrEmail
 (
@@ -2638,7 +2638,7 @@ accesskey
 oncommand
 =
 "
-viewSourceChrome
+ViewSourceChrome
 .
 onSetCharacterSet
 (

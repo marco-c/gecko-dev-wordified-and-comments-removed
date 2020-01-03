@@ -211,7 +211,7 @@ i
 {
 aWindow
 .
-viewSourceChrome
+ViewSourceChrome
 .
 goToLine
 (
