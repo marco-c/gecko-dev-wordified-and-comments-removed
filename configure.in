@@ -8282,7 +8282,7 @@ _PLATFORM_DEFAULT_TOOLKIT
 =
 cairo
 -
-gtk2
+gtk3
 if
 test
 -

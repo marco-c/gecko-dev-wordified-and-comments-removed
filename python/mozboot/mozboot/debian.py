@@ -141,6 +141,14 @@ dev
 '
         
 '
+libgtk
+-
+3
+-
+dev
+'
+        
+'
 libiw
 -
 dev

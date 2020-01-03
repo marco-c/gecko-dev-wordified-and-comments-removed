@@ -144,6 +144,12 @@ devel
 '
             
 '
+gtk2
+-
+devel
+'
+            
+'
 libstdc
 +
 +

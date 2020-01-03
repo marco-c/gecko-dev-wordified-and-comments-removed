@@ -93,6 +93,12 @@ gtk
 '
             
 '
+gtk
++
+3
+'
+            
+'
 dbus
 -
 glib

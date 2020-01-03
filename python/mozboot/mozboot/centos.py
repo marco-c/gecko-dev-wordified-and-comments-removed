@@ -164,6 +164,12 @@ devel
 '
             
 '
+gtk3
+-
+devel
+'
+            
+'
 libstdc
 +
 +
