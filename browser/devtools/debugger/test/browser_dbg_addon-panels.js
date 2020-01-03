@@ -37,7 +37,7 @@ enabled
 "
 devtools
 .
-profiler
+performance
 .
 enabled
 "
