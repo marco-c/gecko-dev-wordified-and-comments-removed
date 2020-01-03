@@ -250,11 +250,6 @@ nsFaviconService
 cpp
 '
 '
-nsMaybeWeakPtr
-.
-cpp
-'
-'
 nsNavBookmarks
 .
 cpp
