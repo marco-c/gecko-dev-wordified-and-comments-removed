@@ -851,7 +851,7 @@ cx
 #
 define
 JSPROP_SHADOWABLE
-JSPROP_INDEX
+JSPROP_INTERNAL_USE_BIT
 class
 AccessorShape
 ;
