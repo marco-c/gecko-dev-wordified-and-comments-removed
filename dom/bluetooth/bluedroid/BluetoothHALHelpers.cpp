@@ -1608,7 +1608,7 @@ val
 )
 aOut
 .
-mTypeOfDevice
+mDeviceType
 )
 ;
 break

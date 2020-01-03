@@ -1744,7 +1744,9 @@ nsAString
 aBdName
 uint32_t
 aCod
-BluetoothSspVariant
+const
+nsAString
+&
 aPairingVariant
 uint32_t
 aPassKey
