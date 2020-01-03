@@ -163,9 +163,9 @@ mozilla
 .
 gecko
 .
-util
+mozglue
 .
-HardwareUtils
+ContextUtils
 ;
 import
 org
@@ -176,7 +176,7 @@ gecko
 .
 util
 .
-StringUtils
+HardwareUtils
 ;
 import
 org
@@ -658,7 +658,7 @@ final
 String
 extraText
 =
-StringUtils
+ContextUtils
 .
 getStringExtra
 (

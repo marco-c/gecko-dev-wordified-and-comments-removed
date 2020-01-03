@@ -205,6 +205,19 @@ util
 .
 Log
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+ContextUtils
+.
+SafeIntent
+;
 public
 final
 class
@@ -255,7 +268,7 @@ MOZ_APP_ABI
 private
 static
 volatile
-Intent
+SafeIntent
 sIntent
 ;
 private
@@ -835,7 +848,7 @@ static
 void
 setLastIntent
 (
-Intent
+SafeIntent
 intent
 )
 {
@@ -887,7 +900,7 @@ from
 it
 here
 final
-Intent
+SafeIntent
 intent
 =
 sIntent

@@ -275,6 +275,13 @@ java
 '
 mozglue
 /
+ContextUtils
+.
+java
+'
+'
+mozglue
+/
 DirectBufferAllocator
 .
 java
