@@ -338,6 +338,12 @@ uint16_t
 priority
 )
 ;
+SetClassOfService
+(
+uint32_t
+cos
+)
+;
 SetCacheTokenCachedCharset
 (
 nsCString

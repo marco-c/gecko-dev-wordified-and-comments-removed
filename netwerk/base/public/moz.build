@@ -223,6 +223,11 @@ nsIChildChannel
 idl
 '
 '
+nsIClassOfService
+.
+idl
+'
+'
 nsIContentSniffer
 .
 idl

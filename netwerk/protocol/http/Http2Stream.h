@@ -574,6 +574,11 @@ uint8_t
 bool
 )
 ;
+void
+UpdatePriorityDependency
+(
+)
+;
 virtual
 bool
 HasSink
@@ -859,6 +864,9 @@ mPriority
 ;
 uint8_t
 mPriorityWeight
+;
+uint8_t
+mPriorityDependency
 ;
 int64_t
 mClientReceiveWindow
