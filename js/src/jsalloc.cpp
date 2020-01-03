@@ -33,7 +33,7 @@ nbytes
 return
 static_cast
 <
-ThreadSafeContext
+ExclusiveContext
 *
 >
 (
@@ -61,7 +61,7 @@ js_ReportAllocationOverflow
 (
 static_cast
 <
-ThreadSafeContext
+ExclusiveContext
 *
 >
 (

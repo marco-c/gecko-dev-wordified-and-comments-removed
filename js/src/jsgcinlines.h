@@ -2072,6 +2072,11 @@ PossiblyFail
 js_ReportOutOfMemory
 (
 cx
+-
+>
+asJSContext
+(
+)
 )
 ;
 return
