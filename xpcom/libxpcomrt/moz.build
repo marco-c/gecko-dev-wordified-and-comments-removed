@@ -821,13 +821,6 @@ threads
 '
 '
 /
-netwerk
-/
-standalone
-/
-'
-'
-/
 xpcom
 /
 reflect
