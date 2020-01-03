@@ -121,11 +121,6 @@ BluetoothInterface
 cpp
 '
 '
-BluetoothPbapRequestHandle
-.
-cpp
-'
-'
 BluetoothUtils
 .
 cpp
@@ -832,11 +827,6 @@ h
 '
 '
 BluetoothCommon
-.
-h
-'
-'
-BluetoothPbapRequestHandle
 .
 h
 '
