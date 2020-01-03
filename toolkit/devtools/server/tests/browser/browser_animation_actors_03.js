@@ -387,6 +387,13 @@ getAnimationPlayersForNode
 node
 )
 ;
+yield
+player
+.
+ready
+(
+)
+;
 let
 state
 =
@@ -602,6 +609,13 @@ front
 getAnimationPlayersForNode
 (
 node
+)
+;
+yield
+player
+.
+ready
+(
 )
 ;
 state
