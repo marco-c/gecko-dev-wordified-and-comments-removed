@@ -1496,12 +1496,10 @@ bottom
 Rect
 devPxRect
 =
-NSRectToSnappedRect
+NSRectToRect
 (
 rect
 appUnitsPerDevPixel
-*
-drawTarget
 )
 ;
 RefPtr
