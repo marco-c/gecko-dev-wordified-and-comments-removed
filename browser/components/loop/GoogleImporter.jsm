@@ -2120,7 +2120,7 @@ addressNode
 )
 ]
 ;
-contacts
+contact
 .
 adr
 .
