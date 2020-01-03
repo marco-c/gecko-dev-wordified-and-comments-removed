@@ -2912,6 +2912,13 @@ flex
 "
 1
 "
+id
+=
+"
+deck
+-
+panels
+"
 >
 <
 vbox
