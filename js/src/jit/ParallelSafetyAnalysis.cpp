@@ -593,6 +593,10 @@ SimdExtractElement
 )
 SAFE_OP
 (
+SimdInsertElement
+)
+SAFE_OP
+(
 SimdSignMask
 )
 SAFE_OP

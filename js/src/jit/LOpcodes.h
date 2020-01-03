@@ -78,6 +78,16 @@ SimdExtractElementF
 \
 _
 (
+SimdInsertElementI
+)
+\
+_
+(
+SimdInsertElementF
+)
+\
+_
+(
 SimdSignMaskX4
 )
 \

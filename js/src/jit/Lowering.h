@@ -1920,6 +1920,14 @@ ins
 )
 ;
 bool
+visitSimdInsertElement
+(
+MSimdInsertElement
+*
+ins
+)
+;
+bool
 visitSimdSignMask
 (
 MSimdSignMask
