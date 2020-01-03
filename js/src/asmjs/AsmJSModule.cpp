@@ -1567,6 +1567,10 @@ peekTokenPos
 (
 &
 pos
+TokenStream
+:
+:
+Operand
 )
 )
 return
@@ -12168,6 +12172,10 @@ peekTokenPos
 (
 &
 pos
+TokenStream
+:
+:
+Operand
 )
 )
 ;
