@@ -984,6 +984,14 @@ rect
 )
 ;
 void
+Clip
+(
+Path
+*
+aPath
+)
+;
+void
 UpdateSurfaceClip
 (
 )
