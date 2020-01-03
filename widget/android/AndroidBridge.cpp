@@ -10004,11 +10004,13 @@ env
 1
 )
 ;
+int
+width
+height
+;
 float
 x
 y
-width
-height
 pageLeft
 pageTop
 pageRight
@@ -10154,11 +10156,7 @@ cssPageRight
 cssPageBottom
 x
 y
-x
-+
 width
-y
-+
 height
 zoom
 )

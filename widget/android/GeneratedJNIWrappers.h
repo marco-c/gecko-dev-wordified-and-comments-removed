@@ -18248,8 +18248,8 @@ float
 float
 float
 float
-float
-float
+int32_t
+int32_t
 float
 >
 Args
@@ -18276,7 +18276,7 @@ signature
 =
 "
 (
-FFFFFFFFFFFFF
+FFFFFFFFFFIIF
 )
 V
 "
@@ -18333,8 +18333,8 @@ float
 float
 float
 float
-float
-float
+int32_t
+int32_t
 float
 )
 -

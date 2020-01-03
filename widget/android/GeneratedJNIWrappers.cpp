@@ -9374,9 +9374,9 @@ float
 a8
 float
 a9
-float
+int32_t
 a10
-float
+int32_t
 a11
 float
 a12
