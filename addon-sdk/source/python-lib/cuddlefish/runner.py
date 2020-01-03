@@ -3212,17 +3212,6 @@ stack
 '
     
 env
-[
-'
-NS_TRACE_MALLOC_DISABLE_STACKS
-'
-]
-=
-'
-1
-'
-    
-env
 .
 update
 (

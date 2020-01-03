@@ -3282,12 +3282,6 @@ NS_BUILD_REFCNT_LOGGING
 |
 defined
 (
-NS_TRACE_MALLOC
-)
-|
-|
-defined
-(
 MOZ_VALGRIND
 )
 #
