@@ -253,6 +253,8 @@ aLineWM
 nscoord
 &
 aLineWidth
+nscoord
+aStart
 )
 ;
 static
@@ -668,6 +670,9 @@ aLineWM
 nscoord
 &
 aLineWidth
+nscoord
+&
+aStart
 )
 ;
 static
