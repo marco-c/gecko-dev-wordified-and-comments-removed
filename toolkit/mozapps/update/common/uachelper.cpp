@@ -426,6 +426,9 @@ FALSE
 )
 )
 {
+#
+ifdef
+UPDATER_LOG_PRIVS
 LOG
 (
 (
@@ -446,9 +449,14 @@ i
 )
 )
 ;
+#
+endif
 }
 else
 {
+#
+ifdef
+UPDATER_LOG_PRIVS
 LOG
 (
 (
@@ -478,6 +486,8 @@ GetLastError
 )
 )
 ;
+#
+endif
 result
 =
 FALSE
