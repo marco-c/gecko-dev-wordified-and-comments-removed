@@ -202,14 +202,10 @@ Throws
 void
 respondWith
 (
-(
-Response
-or
 Promise
 <
 Response
 >
-)
 r
 )
 ;

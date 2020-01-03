@@ -327,8 +327,7 @@ mIsReload
 void
 RespondWith
 (
-const
-ResponseOrPromise
+Promise
 &
 aArg
 ErrorResult
