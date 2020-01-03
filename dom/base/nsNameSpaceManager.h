@@ -28,9 +28,6 @@ StaticPtr
 h
 "
 class
-nsIAtom
-;
-class
 nsAString
 ;
 class

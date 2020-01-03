@@ -47,9 +47,6 @@ class
 nsString
 ;
 class
-nsCString
-;
-class
 nsTextFragment
 final
 {

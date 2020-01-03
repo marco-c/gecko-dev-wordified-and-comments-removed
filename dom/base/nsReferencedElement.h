@@ -56,9 +56,6 @@ class
 nsIURI
 ;
 class
-nsCycleCollectionCallback
-;
-class
 nsReferencedElement
 {
 public

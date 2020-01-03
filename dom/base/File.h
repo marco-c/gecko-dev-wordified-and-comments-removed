@@ -184,16 +184,10 @@ nsWeakReference
 h
 "
 class
-nsDOMMultipartFile
-;
-class
 nsIFile
 ;
 class
 nsIInputStream
-;
-class
-nsIClassInfo
 ;
 #
 define

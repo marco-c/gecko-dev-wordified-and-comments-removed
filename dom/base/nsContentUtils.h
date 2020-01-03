@@ -216,16 +216,10 @@ class
 nsIContentSecurityPolicy
 ;
 class
-nsIDocShell
-;
-class
 nsIDocument
 ;
 class
 nsIDocumentLoaderFactory
-;
-class
-nsIDocumentObserver
 ;
 class
 nsIDOMDocument
@@ -237,9 +231,6 @@ class
 nsIDOMEvent
 ;
 class
-nsIDOMHTMLFormElement
-;
-class
 nsIDOMHTMLInputElement
 ;
 class
@@ -247,9 +238,6 @@ nsIDOMKeyEvent
 ;
 class
 nsIDOMNode
-;
-class
-nsIDOMScriptObjectFactory
 ;
 class
 nsIDOMWindow
@@ -274,9 +262,6 @@ nsIInterfaceRequestor
 ;
 class
 nsIIOService
-;
-class
-nsIJSRuntimeService
 ;
 class
 nsILineBreaker
@@ -310,9 +295,6 @@ nsIRunnable
 ;
 class
 nsIScriptContext
-;
-class
-nsIScriptGlobalObject
 ;
 class
 nsIScriptSecurityManager
@@ -349,9 +331,6 @@ nsPIDOMWindow
 ;
 class
 nsPresContext
-;
-class
-nsScriptObjectTracer
 ;
 class
 nsStringBuffer

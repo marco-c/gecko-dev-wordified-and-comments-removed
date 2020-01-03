@@ -45,12 +45,6 @@ class
 nsIURI
 ;
 class
-nsIChannel
-;
-class
-nsIDOMWindow
-;
-class
 ThirdPartyUtil
 final
 :

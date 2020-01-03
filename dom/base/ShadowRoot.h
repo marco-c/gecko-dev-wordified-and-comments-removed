@@ -61,16 +61,7 @@ class
 nsIContent
 ;
 class
-nsIDocument
-;
-class
-nsPIDOMWindow
-;
-class
 nsXBLPrototypeBinding
-;
-class
-nsTagNameMapEntry
 ;
 namespace
 mozilla

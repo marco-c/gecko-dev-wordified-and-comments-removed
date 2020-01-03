@@ -88,9 +88,6 @@ nsInProcessTabChildGlobal
 class
 nsWindowRoot
 ;
-class
-XPCWrappedNativeScope
-;
 #
 define
 NS_WRAPPERCACHE_IID

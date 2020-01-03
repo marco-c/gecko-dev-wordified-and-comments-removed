@@ -74,9 +74,6 @@ RTSPURI_SCHEME
 rtsp
 "
 class
-nsIDOMBlob
-;
-class
 nsIPrincipal
 ;
 namespace

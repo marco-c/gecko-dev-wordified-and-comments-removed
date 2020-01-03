@@ -50,9 +50,6 @@ class
 nsHTMLStyleSheet
 ;
 class
-nsRuleWalker
-;
-class
 nsMappedAttributes
 final
 :

@@ -452,9 +452,6 @@ aData
 }
 }
 }
-class
-nsAXPCNativeCallContext
-;
 struct
 nsMessageListenerInfo
 {

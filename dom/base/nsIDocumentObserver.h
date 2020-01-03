@@ -28,9 +28,6 @@ nsIMutationObserver
 h
 "
 class
-nsIAtom
-;
-class
 nsIContent
 ;
 class
@@ -38,9 +35,6 @@ nsIStyleSheet
 ;
 class
 nsIStyleRule
-;
-class
-nsString
 ;
 class
 nsIDocument

@@ -240,9 +240,6 @@ class
 nsIDOMDocument
 ;
 class
-nsIDOMDocumentFragment
-;
-class
 nsIDOMDocumentType
 ;
 class
@@ -432,9 +429,6 @@ FrameRequestCallback
 ;
 class
 ImportManager
-;
-class
-OverfillCallback
 ;
 class
 HTMLBodyElement

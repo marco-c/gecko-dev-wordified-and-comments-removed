@@ -30,16 +30,10 @@ FromParser
 h
 "
 class
-nsAString
-;
-class
 nsIContent
 ;
 class
 imgRequestProxy
-;
-class
-nsNodeInfoManager
 ;
 class
 nsGenericHTMLElement
