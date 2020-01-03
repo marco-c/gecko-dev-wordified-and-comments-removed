@@ -38,10 +38,10 @@ class
 nsIOutputStream
 ;
 class
-nsIPrincipal
+nsILoadGroup
 ;
 class
-nsPIDOMWindow
+nsIPrincipal
 ;
 namespace
 mozilla
@@ -120,6 +120,9 @@ aRequest
 nsIPrincipal
 *
 aPrincipal
+nsILoadGroup
+*
+aLoadGroup
 )
 ;
 NS_IMETHOD
@@ -137,6 +140,12 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipal
+;
+nsCOMPtr
+<
+nsILoadGroup
+>
+mLoadGroup
 ;
 nsRefPtr
 <
