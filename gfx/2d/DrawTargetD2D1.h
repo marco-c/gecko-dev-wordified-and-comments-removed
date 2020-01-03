@@ -996,6 +996,12 @@ mTempBitmap
 ;
 RefPtr
 <
+ID2D1Effect
+>
+mBlendEffect
+;
+RefPtr
+<
 IDWriteRenderingParams
 >
 mTextRenderingParams
