@@ -68,7 +68,7 @@ StoreBuffer
 GenericBuffer
 :
 :
-mark
+trace
 (
 StoreBuffer
 *
@@ -165,7 +165,7 @@ size
 edge
 -
 >
-mark
+trace
 (
 trc
 )

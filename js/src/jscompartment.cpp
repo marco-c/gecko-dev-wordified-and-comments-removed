@@ -860,12 +860,13 @@ key
 {
 }
 void
-mark
+trace
 (
 JSTracer
 *
 trc
 )
+override
 {
 CrossCompartmentKey
 prior

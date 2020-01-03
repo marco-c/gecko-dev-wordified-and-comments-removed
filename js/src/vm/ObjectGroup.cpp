@@ -1827,12 +1827,13 @@ associated
 {
 }
 void
-mark
+trace
 (
 JSTracer
 *
 trc
 )
+override
 {
 JSObject
 *

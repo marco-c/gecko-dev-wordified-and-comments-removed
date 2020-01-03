@@ -7302,12 +7302,13 @@ objectFlags
 {
 }
 void
-mark
+trace
 (
 JSTracer
 *
 trc
 )
+override
 {
 TaggedProto
 priorProto
