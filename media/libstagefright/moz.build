@@ -505,6 +505,17 @@ include
 /
 mp4_demuxer
 /
+AtomType
+.
+h
+'
+'
+binding
+/
+include
+/
+mp4_demuxer
+/
 BufferStream
 .
 h

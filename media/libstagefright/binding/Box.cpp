@@ -52,10 +52,6 @@ mContext
 (
 aContext
 )
-mType
-(
-0
-)
 mParent
 (
 aParent
@@ -403,10 +399,6 @@ Box
 mContext
 (
 nullptr
-)
-mType
-(
-0
 )
 {
 }
