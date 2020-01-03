@@ -300,12 +300,6 @@ meta
 uint32_t
 timescale
 ;
-uint64_t
-segment_duration
-;
-int64_t
-media_time
-;
 sp
 <
 SampleTable
@@ -491,11 +485,6 @@ off64_t
 data_offset
 size_t
 data_size
-)
-;
-void
-storeEditList
-(
 )
 ;
 Track

@@ -308,10 +308,6 @@ duration
 (
 0
 )
-media_time
-(
-0
-)
 {
 }
 const
@@ -324,9 +320,6 @@ mTrackId
 ;
 int64_t
 duration
-;
-int64_t
-media_time
 ;
 CryptoTrack
 crypto
@@ -563,9 +556,6 @@ MP4Sample
 void
 Update
 (
-int64_t
-&
-aMediaTime
 )
 ;
 void

@@ -946,9 +946,6 @@ sample
 >
 Update
 (
-mAudioConfig
-.
-media_time
 )
 ;
 return
@@ -1028,9 +1025,6 @@ sample
 >
 Update
 (
-mVideoConfig
-.
-media_time
 )
 ;
 sample
