@@ -23788,7 +23788,6 @@ callback
 new
 FrameRequestCallback
 (
-cx
 callbackObj
 GetIncumbentGlobal
 (

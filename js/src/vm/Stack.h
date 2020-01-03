@@ -3718,9 +3718,6 @@ asyncStack_
 RootedString
 asyncCause_
 ;
-bool
-asyncCallIsExplicit_
-;
 JS
 :
 :
@@ -4049,16 +4046,6 @@ asyncCause
 {
 return
 asyncCause_
-;
-}
-bool
-asyncCallIsExplicit
-(
-)
-const
-{
-return
-asyncCallIsExplicit_
 ;
 }
 private

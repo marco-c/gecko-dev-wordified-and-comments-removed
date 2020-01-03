@@ -564,10 +564,6 @@ asyncCauseForNewActivations
 (
 nullptr
 )
-asyncCallIsExplicit
-(
-false
-)
 entryMonitor
 (
 nullptr

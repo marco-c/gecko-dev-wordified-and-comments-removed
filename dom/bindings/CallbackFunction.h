@@ -32,9 +32,6 @@ public
 explicit
 CallbackFunction
 (
-JSContext
-*
-aCx
 JS
 :
 :
@@ -51,7 +48,6 @@ aIncumbentGlobal
 :
 CallbackObject
 (
-aCx
 aCallable
 aIncumbentGlobal
 )

@@ -1488,7 +1488,6 @@ handlerCallback
 new
 EventHandlerNonNull
 (
-nullptr
 bound
 nullptr
 )

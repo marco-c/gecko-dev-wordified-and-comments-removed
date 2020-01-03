@@ -6034,7 +6034,6 @@ thenCallback
 new
 PromiseInit
 (
-nullptr
 thenObj
 mozilla
 :
