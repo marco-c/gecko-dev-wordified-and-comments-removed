@@ -675,10 +675,11 @@ debuggerArgs
 debugger_arguments
 +
 =
-[
 debuggerArgs
-]
-;
+.
+split
+(
+)
     
 debugger_interactive
 =
