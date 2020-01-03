@@ -231,6 +231,15 @@ function
 text
 )
 {
+if
+(
+text
+!
+=
+=
+responseText
+)
+{
 is
 (
 text
@@ -245,6 +254,7 @@ correct
 "
 )
 ;
+}
 }
 )
 ;
