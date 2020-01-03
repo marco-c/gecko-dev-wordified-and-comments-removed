@@ -30,6 +30,11 @@ function
 (
 )
 {
+"
+use
+strict
+"
+;
 var
 ConversationAppStore
 =

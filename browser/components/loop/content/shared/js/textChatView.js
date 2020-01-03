@@ -49,6 +49,11 @@ function
 mozL10n
 )
 {
+"
+use
+strict
+"
+;
 var
 sharedActions
 =

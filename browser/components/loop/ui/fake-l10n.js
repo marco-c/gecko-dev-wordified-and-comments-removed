@@ -1,3 +1,13 @@
+(
+function
+(
+)
+{
+"
+use
+strict
+"
+;
 navigator
 .
 mozL10n
@@ -45,11 +55,6 @@ function
 match
 )
 {
-"
-use
-strict
-"
-;
 return
 match
 .
@@ -107,4 +112,9 @@ US
 "
 }
 }
+;
+}
+)
+(
+)
 ;

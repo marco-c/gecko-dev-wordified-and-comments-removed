@@ -5,6 +5,16 @@ queuedFrames
 [
 ]
 ;
+(
+function
+(
+)
+{
+"
+use
+strict
+"
+;
 window
 .
 Frame
@@ -603,5 +613,10 @@ body
 ;
 }
 }
+)
+;
+}
+)
+(
 )
 ;

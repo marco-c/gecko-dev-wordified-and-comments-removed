@@ -641,6 +641,16 @@ updated
 }
 ]
 ;
+(
+function
+(
+)
+{
+"
+use
+strict
+"
+;
 navigator
 .
 mozLoop
@@ -934,4 +944,9 @@ function
 {
 }
 }
+;
+}
+)
+(
+)
 ;

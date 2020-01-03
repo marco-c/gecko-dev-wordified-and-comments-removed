@@ -17,6 +17,11 @@ function
 mozL10n
 )
 {
+"
+use
+strict
+"
+;
 var
 CALL_STATES
 =
