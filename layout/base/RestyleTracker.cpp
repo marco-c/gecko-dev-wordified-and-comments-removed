@@ -150,7 +150,12 @@ buf
 aElement
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 -
