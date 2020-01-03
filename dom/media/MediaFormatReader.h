@@ -1089,6 +1089,12 @@ mSizeOfQueue
 =
 0
 ;
+mNextStreamSourceID
+.
+reset
+(
+)
+;
 }
 Atomic
 <
@@ -1098,6 +1104,12 @@ mSizeOfQueue
 ;
 uint32_t
 mLastStreamSourceID
+;
+Maybe
+<
+uint32_t
+>
+mNextStreamSourceID
 ;
 media
 :
