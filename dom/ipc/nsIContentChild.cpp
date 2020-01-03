@@ -549,7 +549,7 @@ UnpackClonedMessageDataForChild
 aData
 )
 ;
-CpowIdHolder
+CrossProcessCpowHolder
 cpows
 (
 this
