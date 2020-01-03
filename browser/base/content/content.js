@@ -2864,6 +2864,13 @@ content
 .
 document
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 content
 .
