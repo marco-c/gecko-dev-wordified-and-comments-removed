@@ -3761,7 +3761,7 @@ invalidated
 ionScript
 -
 >
-decref
+decrementInvalidationCount
 (
 cx
 -
@@ -3900,7 +3900,7 @@ invalidated
 ionScript
 -
 >
-decref
+decrementInvalidationCount
 (
 cx
 -

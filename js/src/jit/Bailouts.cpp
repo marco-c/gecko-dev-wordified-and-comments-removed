@@ -441,7 +441,7 @@ ionScript
 )
 -
 >
-decref
+decrementInvalidationCount
 (
 cx
 -
@@ -907,7 +907,7 @@ ionScript
 )
 -
 >
-decref
+decrementInvalidationCount
 (
 cx
 -

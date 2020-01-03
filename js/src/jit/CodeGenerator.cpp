@@ -22495,7 +22495,7 @@ temp
 IonScript
 :
 :
-offsetOfRefcount
+offsetOfInvalidationCount
 (
 )
 )

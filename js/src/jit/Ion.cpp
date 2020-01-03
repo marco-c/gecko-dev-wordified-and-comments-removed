@@ -4258,7 +4258,7 @@ backedgeEntries_
 (
 0
 )
-refcount_
+invalidationCount_
 (
 0
 )
@@ -13837,7 +13837,7 @@ fop
 ionScript
 -
 >
-incref
+incrementInvalidationCount
 (
 )
 ;
@@ -14011,7 +14011,8 @@ ionScript
 %
 p
 (
-ref
+inv
+count
 %
 u
 )
@@ -14026,7 +14027,7 @@ ionScript
 ionScript
 -
 >
-refcount
+invalidationCount
 (
 )
 (
@@ -14388,7 +14389,7 @@ ion
 )
 -
 >
-incref
+incrementInvalidationCount
 (
 )
 ;
@@ -14552,7 +14553,7 @@ nullptr
 ionScript
 -
 >
-decref
+decrementInvalidationCount
 (
 fop
 )
