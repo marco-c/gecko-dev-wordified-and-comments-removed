@@ -178,12 +178,12 @@ XPIDL_SOURCES
 =
 [
 '
-nsIGonkSmsService
+nsIGonkMobileMessageDatabaseService
 .
 idl
 '
 '
-nsIRilMobileMessageDatabaseService
+nsIGonkSmsService
 .
 idl
 '
