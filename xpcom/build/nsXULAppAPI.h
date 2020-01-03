@@ -504,6 +504,13 @@ XRE_GetProcessType
 (
 )
 )
+XRE_API
+(
+bool
+XRE_IsParentProcess
+(
+)
+)
 typedef
 void
 (
