@@ -5377,7 +5377,6 @@ GetLibrary
 )
 ;
 }
-explicit
 operator
 bool
 (

@@ -1108,7 +1108,6 @@ return
 mActor
 ;
 }
-explicit
 operator
 bool
 (

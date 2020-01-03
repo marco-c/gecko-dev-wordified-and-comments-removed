@@ -675,7 +675,6 @@ mLength
 )
 ;
 }
-explicit
 operator
 bool
 (

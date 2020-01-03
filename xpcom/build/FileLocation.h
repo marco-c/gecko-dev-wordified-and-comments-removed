@@ -190,7 +190,6 @@ defined
 (
 MOZILLA_XPCOMRT_API
 )
-explicit
 operator
 bool
 (
@@ -203,7 +202,6 @@ mBaseFile
 }
 #
 else
-explicit
 operator
 bool
 (

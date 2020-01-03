@@ -108,11 +108,6 @@ TestCustomHeap
 cpp
 '
 '
-TestExplicitOperatorBool
-.
-cpp
-'
-'
 TestGlobalClass
 .
 cpp

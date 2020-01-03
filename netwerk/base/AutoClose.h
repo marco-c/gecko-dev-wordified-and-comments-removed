@@ -42,7 +42,6 @@ Close
 )
 ;
 }
-explicit
 operator
 bool
 (

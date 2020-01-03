@@ -2629,7 +2629,6 @@ aInit
 )
 {
 }
-MOZ_IMPLICIT
 operator
 bool
 (
