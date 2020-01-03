@@ -111,6 +111,17 @@ attribute
 object
 global
 ;
+void
+postMessage
+(
+DOMString
+message
+)
+;
+attribute
+EventHandler
+onmessage
+;
 }
 ;
 /
