@@ -2722,7 +2722,7 @@ ROOM_STATES
 HAS_PARTICIPANTS
 remoteSrcVideoObject
 :
-false
+null
 remoteVideoEnabled
 :
 false
