@@ -1345,6 +1345,17 @@ HMDInfoOculus
 VRHMDInfo
 )
 ;
+mDeviceName
+.
+AssignLiteral
+(
+"
+Oculus
+VR
+HMD
+"
+)
+;
 mSupportedSensorBits
 =
 0
