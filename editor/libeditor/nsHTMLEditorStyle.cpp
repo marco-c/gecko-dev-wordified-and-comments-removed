@@ -6702,8 +6702,9 @@ if
 mHTMLCSSUtils
 -
 >
-IsCSSInvertable
+IsCSSInvertible
 (
+*
 aProperty
 aAttribute
 )
@@ -6904,8 +6905,9 @@ eComputed
 mHTMLCSSUtils
 -
 >
-IsCSSInvertable
+IsCSSInvertible
 (
+*
 aProperty
 aAttribute
 )

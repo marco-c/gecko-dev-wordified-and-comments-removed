@@ -343,10 +343,10 @@ aPropertyValue
 )
 ;
 bool
-IsCSSInvertable
+IsCSSInvertible
 (
 nsIAtom
-*
+&
 aProperty
 const
 nsAString
