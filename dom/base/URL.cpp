@@ -2383,7 +2383,7 @@ if
 nsContentUtils
 :
 :
-EncodeDecodeURLHash
+GettersDecodeURLHash
 (
 )
 )

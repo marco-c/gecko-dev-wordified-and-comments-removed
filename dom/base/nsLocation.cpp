@@ -1272,7 +1272,7 @@ if
 nsContentUtils
 :
 :
-EncodeDecodeURLHash
+GettersDecodeURLHash
 (
 )
 )
