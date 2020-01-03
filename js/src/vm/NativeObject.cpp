@@ -1584,15 +1584,6 @@ capacity
 }
 #
 endif
-#
-if
-defined
-(
-_MSC_VER
-)
-MOZ_NEVER_INLINE
-#
-endif
 Shape
 *
 js
