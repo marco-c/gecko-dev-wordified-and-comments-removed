@@ -1226,12 +1226,9 @@ argv
 )
 :
     
-filename
+filenames
 =
 argv
-[
-0
-]
     
 histograms
 =
@@ -1239,9 +1236,9 @@ list
 (
 histogram_tools
 .
-from_file
+from_files
 (
-filename
+filenames
 )
 )
     
