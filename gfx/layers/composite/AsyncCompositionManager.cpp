@@ -239,6 +239,13 @@ UnitTransforms
 h
 "
 #
+include
+"
+gfxPrefs
+.
+h
+"
+#
 if
 defined
 (

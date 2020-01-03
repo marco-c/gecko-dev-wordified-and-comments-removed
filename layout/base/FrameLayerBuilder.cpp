@@ -7144,6 +7144,9 @@ animatedGeometryRootParent
 if
 (
 scrollable
+#
+ifdef
+MOZ_B2G
 &
 &
 scrollable
@@ -7152,6 +7155,8 @@ scrollable
 WantAsyncScroll
 (
 )
+#
+endif
 )
 {
 return
@@ -7258,12 +7263,11 @@ layer
 if
 (
 !
-mManager
+layer
 -
 >
 IsOptimizedFor
 (
-layer
 GetLayerCreationHint
 (
 aAnimatedGeometryRoot

@@ -731,6 +731,17 @@ Android
 &
 browserIsRemote
 )
+fuzzy
+-
+if
+(
+OSX
+=
+=
+1010
+1
+565
+)
 =
 =
 scrollable
