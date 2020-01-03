@@ -31632,12 +31632,8 @@ return
 false
 ;
 }
-Rooted
-<
-JSFlatString
-*
->
-flat
+RootedLinearString
+linear
 (
 cx
 code
@@ -31647,7 +31643,7 @@ toString
 )
 -
 >
-ensureFlat
+ensureLinear
 (
 cx
 )
@@ -31656,7 +31652,7 @@ cx
 if
 (
 !
-flat
+linear
 )
 return
 false
@@ -32242,7 +32238,7 @@ stableChars
 initTwoByte
 (
 cx
-flat
+linear
 )
 )
 return
