@@ -559,3 +559,15 @@ moz
 DialogText
 ;
 }
+xul
+|
+spinbuttons
+{
+-
+moz
+-
+appearance
+:
+none
+;
+}
