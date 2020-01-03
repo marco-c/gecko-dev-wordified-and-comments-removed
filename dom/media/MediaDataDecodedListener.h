@@ -42,12 +42,6 @@ RequestSampleCallback
 {
 public
 :
-using
-RequestSampleCallback
-:
-:
-NotDecodedReason
-;
 MediaDataDecodedListener
 (
 Target
@@ -197,6 +191,9 @@ MediaData
 :
 Type
 aType
+MediaDecoderReader
+:
+:
 NotDecodedReason
 aReason
 )
@@ -520,7 +517,7 @@ MediaData
 :
 Type
 aType
-RequestSampleCallback
+MediaDecoderReader
 :
 :
 NotDecodedReason
@@ -590,7 +587,7 @@ MediaData
 Type
 mType
 ;
-RequestSampleCallback
+MediaDecoderReader
 :
 :
 NotDecodedReason
