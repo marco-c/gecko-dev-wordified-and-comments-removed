@@ -1349,13 +1349,6 @@ OnFaviconLoadedListener
 java
 '
 '
-favicons
-/
-RemoteFavicon
-.
-java
-'
-'
 FilePicker
 .
 java
