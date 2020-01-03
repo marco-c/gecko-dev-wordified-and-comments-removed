@@ -325,11 +325,11 @@ pixels
 !
 define
 APPNAME_BMP_WIDTH_DU
-93u
+123u
 !
 define
 APPNAME_BMP_HEIGHT_DU
-44u
+56u
 !
 define
 INTRO_BLURB_WIDTH_DU
