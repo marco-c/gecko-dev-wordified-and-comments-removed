@@ -192,6 +192,7 @@ applet
 element
 [
 NeedResolve
+UnsafeInPrerendering
 ]
 interface
 HTMLAppletElement

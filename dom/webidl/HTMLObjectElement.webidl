@@ -217,6 +217,7 @@ object
 element
 [
 NeedResolve
+UnsafeInPrerendering
 ]
 interface
 HTMLObjectElement
