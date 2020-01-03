@@ -681,6 +681,10 @@ IsDirty
 return
 ;
 }
+Painted
+(
+)
+;
 if
 (
 !

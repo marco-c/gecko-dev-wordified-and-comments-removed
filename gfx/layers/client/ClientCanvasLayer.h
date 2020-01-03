@@ -189,6 +189,7 @@ nsIntRegion
 &
 aRegion
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -229,18 +230,21 @@ Data
 &
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 RenderLayer
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ClearCachedResources
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -264,6 +268,7 @@ SpecificLayerAttributes
 &
 aAttrs
 )
+MOZ_OVERRIDE
 {
 aAttrs
 =
@@ -280,6 +285,7 @@ Layer
 AsLayer
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -291,6 +297,7 @@ ShadowableLayer
 AsShadowableLayer
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -301,6 +308,7 @@ void
 Disconnect
 (
 )
+MOZ_OVERRIDE
 {
 mCanvasClient
 =

@@ -1821,13 +1821,6 @@ this
 mFrontTex
 )
 ;
-aLayer
--
->
-Painted
-(
-)
-;
 }
 }
 }
