@@ -48919,6 +48919,15 @@ empty
 )
 ;
 }
+void
+computeRange
+(
+TempAllocator
+&
+alloc
+)
+override
+;
 }
 ;
 class
