@@ -280,9 +280,6 @@ define
 USE_EXECV
 #
 endif
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -313,8 +310,6 @@ return
 sUpdateLog
 ;
 }
-#
-endif
 #
 define
 LOG
