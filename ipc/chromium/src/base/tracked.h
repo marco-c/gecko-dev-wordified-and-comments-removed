@@ -262,6 +262,12 @@ Location
 from_here
 )
 ;
+Location
+GetBirthPlace
+(
+)
+const
+;
 void
 ResetBirthTime
 (
