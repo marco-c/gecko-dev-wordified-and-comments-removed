@@ -78,6 +78,10 @@ JSObject
 *
 scopeChain_
 ;
+JSFunction
+*
+callee_
+;
 ArgumentsObject
 *
 argsObj_
@@ -534,10 +538,15 @@ callee
 )
 const
 {
-return
-fun
+MOZ_ASSERT
+(
+isFunctionFrame
 (
 )
+)
+;
+return
+callee_
 ;
 }
 Value
@@ -550,7 +559,7 @@ return
 ObjectValue
 (
 *
-fun
+callee
 (
 )
 )
