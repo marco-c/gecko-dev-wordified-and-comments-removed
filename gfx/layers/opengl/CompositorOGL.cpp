@@ -899,6 +899,13 @@ mQuadVBO
 ;
 }
 mGLContext
+-
+>
+MarkDestroyed
+(
+)
+;
+mGLContext
 =
 nullptr
 ;

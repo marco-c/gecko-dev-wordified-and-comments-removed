@@ -9787,6 +9787,11 @@ GLContext
 (
 )
 ;
+void
+MarkDestroyed
+(
+)
+;
 protected
 :
 typedef
@@ -9916,11 +9921,6 @@ ReleaseSurface
 )
 {
 }
-void
-MarkDestroyed
-(
-)
-;
 bool
 IsDestroyed
 (
