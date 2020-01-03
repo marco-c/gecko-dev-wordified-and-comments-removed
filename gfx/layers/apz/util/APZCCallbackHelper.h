@@ -397,12 +397,6 @@ nsString
 aEvent
 )
 ;
-static
-void
-NotifyFlushComplete
-(
-)
-;
 }
 ;
 }

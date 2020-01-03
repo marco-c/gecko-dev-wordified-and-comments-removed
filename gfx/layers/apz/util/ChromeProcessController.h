@@ -287,13 +287,6 @@ aEvent
 )
 override
 ;
-virtual
-void
-NotifyFlushComplete
-(
-)
-override
-;
 private
 :
 nsCOMPtr

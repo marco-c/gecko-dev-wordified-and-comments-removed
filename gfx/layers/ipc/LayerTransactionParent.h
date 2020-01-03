@@ -583,13 +583,6 @@ override
 ;
 virtual
 bool
-RecvFlushApzRepaints
-(
-)
-override
-;
-virtual
-bool
 RecvGetAPZTestData
 (
 APZTestData

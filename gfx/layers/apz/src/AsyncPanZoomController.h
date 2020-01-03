@@ -383,11 +383,6 @@ aIsFirstPaint
 )
 ;
 void
-FlushRepaintIfPending
-(
-)
-;
-void
 SetCompositorParent
 (
 CompositorParent

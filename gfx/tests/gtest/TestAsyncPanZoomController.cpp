@@ -496,14 +496,6 @@ aArg
 )
 )
 ;
-MOCK_METHOD0
-(
-NotifyFlushComplete
-void
-(
-)
-)
-;
 }
 ;
 class

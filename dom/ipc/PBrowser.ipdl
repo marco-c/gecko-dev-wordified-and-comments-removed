@@ -3672,10 +3672,6 @@ int
 aArg
 )
 ;
-NotifyFlushComplete
-(
-)
-;
 /
 *
 *
