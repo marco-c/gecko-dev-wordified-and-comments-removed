@@ -3066,6 +3066,7 @@ PC_LOCAL_SET_REMOTE_DESCRIPTION
 test
 )
 {
+return
 test
 .
 setRemoteDescription
