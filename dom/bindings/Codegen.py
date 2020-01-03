@@ -24485,6 +24485,7 @@ Window
 "
 and
                     
+(
 m
 .
 identifier
@@ -24495,6 +24496,18 @@ name
 "
 window
 "
+or
+m
+.
+identifier
+.
+name
+=
+=
+"
+self
+"
+)
 )
 :
                     

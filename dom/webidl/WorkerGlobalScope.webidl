@@ -182,6 +182,10 @@ WorkerGlobalScope
 :
 EventTarget
 {
+[
+Constant
+Cached
+]
 readonly
 attribute
 WorkerGlobalScope
