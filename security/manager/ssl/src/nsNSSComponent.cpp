@@ -624,6 +624,9 @@ nssEnsure
 case
 nssEnsureOnChromeOnly
 :
+case
+nssEnsureChromeOrContent
+:
 if
 (
 PR_AtomicAdd
