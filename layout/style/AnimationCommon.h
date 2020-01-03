@@ -1296,11 +1296,6 @@ eRestyle_CSSTransitions
 :
 eRestyle_CSSAnimations
 ;
-hint
-|
-=
-eRestyle_ChangeAnimationPhase
-;
 aPresContext
 -
 >
