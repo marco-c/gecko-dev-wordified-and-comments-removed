@@ -1615,14 +1615,14 @@ const
 gfx
 :
 :
-Point3D
+Point
 &
 aPoint1
 const
 gfx
 :
 :
-Point3D
+Point
 &
 aPoint2
 )
