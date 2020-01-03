@@ -919,6 +919,9 @@ version
 =
 3
 ;
+return
+profile
+;
 }
 ;
 function
