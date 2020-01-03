@@ -32,6 +32,11 @@ add_task
 :
 false
 "
+BrowserTestUtils
+"
+:
+true
+"
 Cc
 "
 :
