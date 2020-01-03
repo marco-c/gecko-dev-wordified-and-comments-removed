@@ -181,7 +181,7 @@ return
 rv
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -732,7 +732,7 @@ Assign
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG

@@ -374,7 +374,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gJSCLLog
 PR_LOG_DEBUG

@@ -43,7 +43,7 @@ LOGE
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gMediaDecoderLog
 PR_LOG_ERROR
@@ -59,7 +59,7 @@ LOGW
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gMediaDecoderLog
 PR_LOG_WARNING
@@ -75,7 +75,7 @@ LOGD
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gMediaDecoderLog
 PR_LOG_DEBUG

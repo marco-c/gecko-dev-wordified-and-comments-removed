@@ -7448,7 +7448,7 @@ nscoord
 aFlexContainerMainSize
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetFlexContainerLog
 (
@@ -7611,7 +7611,7 @@ GetMainSize
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 GetFlexContainerLog
 (
@@ -8069,7 +8069,7 @@ totalDesiredPortionOfOrigFreeSpace
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 GetFlexContainerLog
 (
@@ -8284,7 +8284,7 @@ GetMainSize
 sizeDelta
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetFlexContainerLog
 (
@@ -8327,7 +8327,7 @@ totalViolation
 =
 0
 ;
-PR_LOG
+MOZ_LOG
 (
 GetFlexContainerLog
 (
@@ -8529,7 +8529,7 @@ iterationCounter
 mNumItems
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetFlexContainerLog
 (
@@ -12486,7 +12486,7 @@ aDesiredSize
 aStatus
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetFlexContainerLog
 (

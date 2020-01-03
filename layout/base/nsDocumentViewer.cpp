@@ -712,7 +712,7 @@ PR_PL
 (
 _p1
 )
-PR_LOG
+MOZ_LOG
 (
 GetPrintingLog
 (

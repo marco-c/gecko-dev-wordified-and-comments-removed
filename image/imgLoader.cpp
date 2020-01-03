@@ -6094,7 +6094,7 @@ tmpCacheEntry
 tmpCacheEntry
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -6137,7 +6137,7 @@ GetRequest
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -6173,7 +6173,7 @@ aKey
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -7562,7 +7562,7 @@ aLoadFlags
 hasExpired
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -7617,7 +7617,7 @@ GetSpec
 spec
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -7730,7 +7730,7 @@ requestAppCache
 groupAppCache
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -9274,7 +9274,7 @@ entry
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -9411,7 +9411,7 @@ imgIRequest
 CORS_NONE
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -9488,7 +9488,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -9542,7 +9542,7 @@ listener
 corsproxy
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -9613,7 +9613,7 @@ openRes
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -11359,7 +11359,7 @@ CheckListenerChain
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -12276,7 +12276,7 @@ CheckListenerChain
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (

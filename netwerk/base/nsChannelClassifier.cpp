@@ -203,7 +203,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gChannelClassifierLog
 PR_LOG_DEBUG

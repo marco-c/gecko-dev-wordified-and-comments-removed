@@ -3131,7 +3131,7 @@ target
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -3698,7 +3698,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -3731,7 +3731,7 @@ result
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (
@@ -4342,7 +4342,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetImgLog
 (

@@ -2243,7 +2243,7 @@ GetUCKeyboardLayout
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -2393,7 +2393,7 @@ len
 chars
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -2493,7 +2493,7 @@ char16_t
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -4146,7 +4146,7 @@ aInsertString
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -5454,7 +5454,7 @@ isARepeat
 :
 false
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -5612,7 +5612,7 @@ used
 in
 XP
 level
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -6252,7 +6252,7 @@ expectedChar
 1
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -6380,7 +6380,7 @@ keyCode
 0
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -6524,7 +6524,7 @@ lockState
 kEventKeyModifierNumLockMask
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -6878,7 +6878,7 @@ altCharCodes
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -7454,7 +7454,7 @@ altCharCodes
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -7563,7 +7563,7 @@ altCharCodes
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -7613,7 +7613,7 @@ bool
 aCmdIsPressed
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -9015,7 +9015,7 @@ CreateAllKeyboardLayoutList
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -9107,7 +9107,7 @@ GetInputSourceID
 isid
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -9438,7 +9438,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -9466,7 +9466,7 @@ return
 false
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -9718,7 +9718,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -9807,7 +9807,7 @@ firstResponder
 ]
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -9851,7 +9851,7 @@ IsDefaultPrevented
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -9985,7 +9985,7 @@ IsASCIICapableOnly
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -10020,7 +10020,7 @@ interpretKeyEventsCalled
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -10047,7 +10047,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -10076,7 +10076,7 @@ IsDefaultPrevented
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -10325,7 +10325,7 @@ mKeyPressDispatched
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -10368,7 +10368,7 @@ from
 here
 on
 .
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -10449,7 +10449,7 @@ aNativeEvent
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -10560,7 +10560,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -10657,7 +10657,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -10693,7 +10693,7 @@ kungFuDeathGrip
 mWidget
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -12644,7 +12644,7 @@ Destroyed
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -12907,7 +12907,7 @@ GetCurrentKeyEvent
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -13883,7 +13883,7 @@ GetCurrentKeyEvent
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -14034,7 +14034,7 @@ mKeyPressDispatched
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -14659,7 +14659,7 @@ GetBundleID
 bundleID0
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -15116,7 +15116,7 @@ CreateAllIMEModeList
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -15208,7 +15208,7 @@ GetInputSourceID
 isid
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -15640,7 +15640,7 @@ NotifyIMEOfFocusChangeInGecko
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -15900,7 +15900,7 @@ DiscardIMEComposition
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -16037,7 +16037,7 @@ SyncASCIICapableOnly
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -16616,7 +16616,7 @@ NSRange
 aSelectedRange
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -16861,7 +16861,7 @@ count
 +
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -17107,7 +17107,7 @@ AppendElement
 range
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -17218,7 +17218,7 @@ AppendElement
 range
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -17293,7 +17293,7 @@ NSRange
 aSelectedRange
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -17446,7 +17446,7 @@ nsAString
 aCommitString
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -17609,7 +17609,7 @@ aReplacementRange
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -17824,7 +17824,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -18002,7 +18002,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -18046,7 +18046,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -18106,7 +18106,7 @@ aReplacementRange
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -18350,7 +18350,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -18516,7 +18516,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -18590,7 +18590,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -18649,7 +18649,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -18690,7 +18690,7 @@ ConversationIdentifier
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -18788,7 +18788,7 @@ textContent
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -18879,7 +18879,7 @@ aActualRange
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -19018,7 +19018,7 @@ DispatchEvent
 textContent
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -19337,7 +19337,7 @@ HasMarkedText
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -19403,7 +19403,7 @@ MarkedRange
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -19470,7 +19470,7 @@ SelectedRange
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -19571,7 +19571,7 @@ DispatchEvent
 selection
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -19915,7 +19915,7 @@ aActualRange
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -20371,7 +20371,7 @@ aActualRange
 actualRange
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -20494,7 +20494,7 @@ aPoint
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -20702,7 +20702,7 @@ GetValidAttributesForMarkedText
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -21073,7 +21073,7 @@ bool
 aFocus
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -21242,7 +21242,7 @@ nsChildView
 aDestroyingWidget
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -21401,7 +21401,7 @@ OnStartIMEComposition
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -21483,7 +21483,7 @@ aIMECompositionString
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -21586,7 +21586,7 @@ OnEndIMEComposition
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -21683,7 +21683,7 @@ aString
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -21797,7 +21797,7 @@ KillIMEComposition
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -21916,7 +21916,7 @@ discardMarkedText
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -22005,7 +22005,7 @@ IsIMEComposing
 )
 return
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -22098,7 +22098,7 @@ IsIMEComposing
 )
 return
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -22601,7 +22601,7 @@ OpenSystemPreferredLanguageIME
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -22633,7 +22633,7 @@ if
 langList
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -22789,7 +22789,7 @@ GetInputSourceID
 foundTIS
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -23109,7 +23109,7 @@ nsChildView
 aDestroyingWidget
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -23200,7 +23200,7 @@ IsMeta
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -23696,7 +23696,7 @@ GetWindowLevel
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -23829,7 +23829,7 @@ window
 level
 ]
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS
@@ -23934,7 +23934,7 @@ return
 NS_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ALWAYS

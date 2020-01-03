@@ -251,7 +251,7 @@ char16_t
 *
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -370,7 +370,7 @@ OBSERVER_TOPIC_IDLE
 0
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -550,7 +550,7 @@ nullptr
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -611,7 +611,7 @@ PRTime
 PR_USEC_PER_SEC
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -747,7 +747,7 @@ nowSec
 -
 lastDaily
 ;
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -794,7 +794,7 @@ SECONDS_PER_DAY
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -822,7 +822,7 @@ hasBeenLongWait
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -870,7 +870,7 @@ secondsSinceLastDaily
 *
 PR_MSEC_PER_SEC
 ;
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -945,7 +945,7 @@ if
 obs
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -1061,7 +1061,7 @@ available
 "
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -1142,7 +1142,7 @@ void
 aClosure
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -1224,7 +1224,7 @@ delayTime
 *
 PR_USEC_PER_MSEC
 ;
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -1533,7 +1533,7 @@ return
 NS_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -1634,7 +1634,7 @@ mDeltaToNextIdleSwitchInS
 aIdleTimeInS
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -1823,7 +1823,7 @@ RemoveElementAt
 listenerIndex
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -1884,7 +1884,7 @@ return
 NS_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_WARNING
@@ -1951,7 +1951,7 @@ uint32_t
 idleDeltaInMS
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -1999,7 +1999,7 @@ mIdleObserverCount
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -2175,7 +2175,7 @@ numberOfPendingNotifications
 -
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -2285,7 +2285,7 @@ PollIdleTime
 polledIdleTimeMS
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -2332,7 +2332,7 @@ ToMilliseconds
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -2526,7 +2526,7 @@ currentIdleTimeInMS
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_ALWAYS
@@ -2572,7 +2572,7 @@ endif
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -2793,7 +2793,7 @@ if
 numberOfPendingNotifications
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -2838,7 +2838,7 @@ numberOfPendingNotifications
 -
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -2938,7 +2938,7 @@ Now
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -3069,7 +3069,7 @@ mCurrentlySetToTimeoutAt
 -
 currentTime
 ;
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -3172,7 +3172,7 @@ UINT32_MAX
 mDeltaToNextIdleSwitchInS
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -3244,7 +3244,7 @@ nextTimeoutAt
 -
 curTime
 ;
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG
@@ -3331,7 +3331,7 @@ nextTimeoutAt
 pollTimeout
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sLog
 PR_LOG_DEBUG

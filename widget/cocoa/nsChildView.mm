@@ -32478,7 +32478,7 @@ mGeckoChild
 return
 NSDragOperationNone
 ;
-PR_LOG
+MOZ_LOG
 (
 sCocoaLog
 PR_LOG_ALWAYS
@@ -33043,7 +33043,7 @@ sender
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 ;
-PR_LOG
+MOZ_LOG
 (
 sCocoaLog
 PR_LOG_ALWAYS
@@ -33181,7 +33181,7 @@ NSDraggingInfo
 )
 sender
 {
-PR_LOG
+MOZ_LOG
 (
 sCocoaLog
 PR_LOG_ALWAYS
@@ -33223,7 +33223,7 @@ NSDraggingInfo
 )
 sender
 {
-PR_LOG
+MOZ_LOG
 (
 sCocoaLog
 PR_LOG_ALWAYS
@@ -33879,7 +33879,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 nsresult
 rv
 ;
-PR_LOG
+MOZ_LOG
 (
 sCocoaLog
 PR_LOG_ALWAYS

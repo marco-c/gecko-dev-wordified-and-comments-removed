@@ -625,7 +625,7 @@ GetSpec
 uriSpec
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gWin32SoundLog
 PR_LOG_ALWAYS
@@ -764,7 +764,7 @@ GetSpec
 url
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gWin32SoundLog
 PR_LOG_ALWAYS

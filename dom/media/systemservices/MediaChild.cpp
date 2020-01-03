@@ -72,7 +72,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gMediaChildLog
 PR_LOG_DEBUG

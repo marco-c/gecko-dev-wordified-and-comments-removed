@@ -1116,7 +1116,7 @@ uint32_t
 http_response_data_len
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -1297,7 +1297,7 @@ if
 retryable_error
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -1380,7 +1380,7 @@ if
 (
 retryable_error
 )
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -1405,7 +1405,7 @@ n
 )
 ;
 else
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -2601,7 +2601,7 @@ aStatus
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3809,7 +3809,7 @@ cipherInfo
 SECSuccess
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3872,7 +3872,7 @@ protocolVersion
 SSL_LIBRARY_VERSION_TLS_1_2
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3930,7 +3930,7 @@ keaType
 ssl_kea_ecdh
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3981,7 +3981,7 @@ symCipher
 ssl_calg_aes_gcm
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4062,7 +4062,7 @@ Length
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4134,7 +4134,7 @@ NoteTimeUntilReady
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4816,7 +4816,7 @@ GetTLSVersionRange
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5512,7 +5512,7 @@ HasServerCert
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5559,7 +5559,7 @@ get
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG

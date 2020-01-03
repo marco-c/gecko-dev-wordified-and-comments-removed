@@ -65,7 +65,7 @@ LOGD
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -77,7 +77,7 @@ LOGE
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_ERROR

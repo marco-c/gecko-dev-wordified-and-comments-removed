@@ -124,7 +124,7 @@ SOCKET_LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gSocketTransportLog
 PR_LOG_DEBUG

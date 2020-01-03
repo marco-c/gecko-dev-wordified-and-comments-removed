@@ -2151,7 +2151,7 @@ PromiseFlatCString
 aFileExt
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 mLog
 PR_LOG_DEBUG
@@ -2414,7 +2414,7 @@ haveAppForType
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 mLog
 PR_LOG_DEBUG
@@ -2581,7 +2581,7 @@ haveAppForExt
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 mLog
 PR_LOG_DEBUG
@@ -3943,7 +3943,7 @@ cfType
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 mLog
 PR_LOG_DEBUG

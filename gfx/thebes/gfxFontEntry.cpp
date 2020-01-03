@@ -6538,7 +6538,7 @@ aMatchData
 mCh
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 log
 PR_LOG_DEBUG

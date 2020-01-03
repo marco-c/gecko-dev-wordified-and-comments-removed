@@ -80,7 +80,7 @@ arg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetSourceBufferResourceLog
 (
@@ -124,7 +124,7 @@ arg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetSourceBufferResourceLog
 (

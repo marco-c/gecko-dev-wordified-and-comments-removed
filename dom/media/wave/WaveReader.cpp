@@ -101,7 +101,7 @@ LOG
 type
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 gMediaDecoderLog
 type
@@ -117,7 +117,7 @@ SEEK_LOG
 type
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 gMediaDecoderLog
 type

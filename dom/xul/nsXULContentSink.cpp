@@ -1809,7 +1809,7 @@ eInEpilog
 case
 eInScript
 :
-PR_LOG
+MOZ_LOG
 (
 gContentSinkLog
 PR_LOG_WARNING
@@ -2871,7 +2871,7 @@ kNameSpaceID_XUL
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gContentSinkLog
 PR_LOG_ERROR
@@ -2936,7 +2936,7 @@ GetName
 anodeC
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gContentSinkLog
 PR_LOG_ERROR
@@ -3103,7 +3103,7 @@ GetName
 anodeC
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gContentSinkLog
 PR_LOG_ERROR
@@ -3990,7 +3990,7 @@ aAttributes
 ]
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gContentSinkLog
 PR_LOG_DEBUG

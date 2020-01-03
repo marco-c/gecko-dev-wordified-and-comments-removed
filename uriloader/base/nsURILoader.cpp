@@ -304,7 +304,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 nsURILoader
 :
@@ -319,7 +319,7 @@ LOG_ERROR
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 nsURILoader
 :

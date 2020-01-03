@@ -304,7 +304,7 @@ Init
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetTimerLog
 (
@@ -485,7 +485,7 @@ Shutdown
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetTimerLog
 (
@@ -616,7 +616,7 @@ Shutdown
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetTimerLog
 (
@@ -740,6 +740,10 @@ nullptr
 }
 #
 endif
+NS_SetIgnoreStatusOfCurrentThread
+(
+)
+;
 MonitorAutoLock
 lock
 (
@@ -956,7 +960,7 @@ timer
 =
 nullptr
 ;
-PR_LOG
+MOZ_LOG
 (
 GetTimerLog
 (
@@ -1251,7 +1255,7 @@ waitFor
 =
 PR_INTERVAL_NO_TIMEOUT
 )
-PR_LOG
+MOZ_LOG
 (
 GetTimerLog
 (
@@ -1269,7 +1273,7 @@ n
 )
 ;
 else
-PR_LOG
+MOZ_LOG
 (
 GetTimerLog
 (

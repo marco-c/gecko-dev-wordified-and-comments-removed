@@ -102,7 +102,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gRtspLog
 PR_LOG_DEBUG

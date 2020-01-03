@@ -277,7 +277,7 @@ LOG
 type
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 gTrackElementLog
 type

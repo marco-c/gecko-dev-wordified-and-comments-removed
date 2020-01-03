@@ -124,7 +124,7 @@ LOG
 (
 x
 )
-PR_LOG
+MOZ_LOG
 (
 GetObserverServiceLog
 (

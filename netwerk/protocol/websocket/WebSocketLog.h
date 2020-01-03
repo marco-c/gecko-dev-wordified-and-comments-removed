@@ -47,7 +47,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 webSocketLog
 PR_LOG_DEBUG

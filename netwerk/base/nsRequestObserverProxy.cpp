@@ -62,7 +62,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gRequestObserverProxyLog
 PR_LOG_DEBUG

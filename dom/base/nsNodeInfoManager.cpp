@@ -639,7 +639,7 @@ if
 (
 gNodeInfoManagerLeakPRLog
 )
-PR_LOG
+MOZ_LOG
 (
 gNodeInfoManagerLeakPRLog
 PR_LOG_DEBUG
@@ -697,7 +697,7 @@ if
 (
 gNodeInfoManagerLeakPRLog
 )
-PR_LOG
+MOZ_LOG
 (
 gNodeInfoManagerLeakPRLog
 PR_LOG_DEBUG
@@ -923,7 +923,7 @@ if
 (
 gNodeInfoManagerLeakPRLog
 )
-PR_LOG
+MOZ_LOG
 (
 gNodeInfoManagerLeakPRLog
 PR_LOG_DEBUG

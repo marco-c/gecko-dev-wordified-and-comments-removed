@@ -1098,7 +1098,7 @@ aTargets
 atargetsC
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCommandLog
 PR_LOG_NOTICE
@@ -1226,7 +1226,7 @@ aTargets
 atargetsC
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCommandLog
 PR_LOG_NOTICE
@@ -1393,7 +1393,7 @@ updater
 mTargets
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCommandLog
 PR_LOG_NOTICE
@@ -1700,7 +1700,7 @@ aEventName
 aeventnameC
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCommandLog
 PR_LOG_NOTICE

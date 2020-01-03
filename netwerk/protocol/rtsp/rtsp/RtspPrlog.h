@@ -27,7 +27,7 @@ msg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gRtspLog
 PR_LOG_ALWAYS
@@ -47,7 +47,7 @@ msg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gRtspLog
 PR_LOG_DEBUG
@@ -67,7 +67,7 @@ msg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gRtspLog
 PR_LOG_ERROR
@@ -87,7 +87,7 @@ msg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gRtspLog
 PR_LOG_WARNING

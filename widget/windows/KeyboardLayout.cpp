@@ -11262,7 +11262,7 @@ MAPVK_VSC_TO_VK_EX
 :
 MAPVK_VSC_TO_VK
 ;
-PR_LOG
+MOZ_LOG
 (
 sKeyboardLayoutLogger
 PR_LOG_DEBUG
@@ -11345,7 +11345,7 @@ kMapType
 mKeyboardLayout
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sKeyboardLayoutLogger
 PR_LOG_DEBUG

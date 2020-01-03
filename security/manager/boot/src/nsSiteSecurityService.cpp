@@ -230,7 +230,7 @@ SSSLOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 GetSSSLog
 (

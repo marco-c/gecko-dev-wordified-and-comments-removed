@@ -847,7 +847,7 @@ if
 isCertRevoked
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -1415,7 +1415,7 @@ Input
 aiaExtension
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -1505,7 +1505,7 @@ CertVerifier
 :
 OCSP_STAPLING_GOOD
 ;
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -1547,7 +1547,7 @@ CertVerifier
 :
 OCSP_STAPLING_EXPIRED
 ;
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -1573,7 +1573,7 @@ CertVerifier
 :
 OCSP_STAPLING_INVALID
 ;
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -1614,7 +1614,7 @@ CertVerifier
 :
 OCSP_STAPLING_NONE
 ;
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -1676,7 +1676,7 @@ cachedResponseValidThrough
 time
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -1708,7 +1708,7 @@ Result
 ERROR_REVOKED_CERTIFICATE
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -1732,7 +1732,7 @@ Result
 ERROR_REVOKED_CERTIFICATE
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -1823,7 +1823,7 @@ false
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -2402,7 +2402,7 @@ mOCSPFetching
 FetchOCSPForDVSoftFail
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -2437,7 +2437,7 @@ Result
 ERROR_OCSP_UNKNOWN_CERT
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -2472,7 +2472,7 @@ stapledOCSPResponseResult
 Success
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -2500,7 +2500,7 @@ return
 stapledOCSPResponseResult
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -2553,7 +2553,7 @@ mOCSPFetching
 FetchOCSPForDVSoftFail
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -2604,7 +2604,7 @@ stapledOCSPResponseResult
 Success
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -2633,7 +2633,7 @@ return
 stapledOCSPResponseResult
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -2817,7 +2817,7 @@ Result
 ERROR_OCSP_UNKNOWN_CERT
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -3371,7 +3371,7 @@ Time
 time
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG

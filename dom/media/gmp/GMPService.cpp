@@ -277,7 +277,7 @@ LOGD
 (
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 GetGMPLog
 (
@@ -292,7 +292,7 @@ LOG
 level
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 GetGMPLog
 (

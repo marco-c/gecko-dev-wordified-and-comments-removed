@@ -40,7 +40,7 @@ EME_LOG
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetEMELog
 (
@@ -81,7 +81,7 @@ EME_VERBOSE_LOG
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetEMEVerboseLog
 (

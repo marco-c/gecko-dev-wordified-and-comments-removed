@@ -824,7 +824,7 @@ matchAttr
 ;
 #
 endif
-PR_LOG
+MOZ_LOG
 (
 txLog
 :
@@ -876,7 +876,7 @@ get
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 txLog
 :

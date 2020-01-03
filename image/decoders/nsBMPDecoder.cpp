@@ -1053,7 +1053,7 @@ ProcessInfoHeader
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetBMPLog
 (
@@ -1398,7 +1398,7 @@ bpp
 8
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetBMPLog
 (
@@ -1454,7 +1454,7 @@ bpp
 1
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetBMPLog
 (
@@ -1510,7 +1510,7 @@ bpp
 32
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetBMPLog
 (
@@ -2765,7 +2765,7 @@ bpp
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetBMPLog
 (

@@ -252,7 +252,7 @@ MM_LOG
 (
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 GetMediaManagerLog
 (

@@ -1132,7 +1132,7 @@ bool
 aTakenInstantiations
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1235,7 +1235,7 @@ last
 kid
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1354,7 +1354,7 @@ rv
 }
 }
 }
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1393,7 +1393,7 @@ aInstantiations
 nsresult
 rv
 ;
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1456,7 +1456,7 @@ cantHandleYet
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1513,7 +1513,7 @@ nullptr
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1539,7 +1539,7 @@ rv
 NS_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gXULTemplateLog
 PR_LOG_DEBUG

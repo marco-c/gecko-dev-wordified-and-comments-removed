@@ -1436,7 +1436,7 @@ CheckCertOverrides
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -1526,7 +1526,7 @@ GetBypassAuthentication
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -1633,7 +1633,7 @@ if
 sss
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -1706,7 +1706,7 @@ nsrv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -1771,7 +1771,7 @@ nsrv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -1816,7 +1816,7 @@ strictTransportSecurityEnabled
 hasPinningInformation
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -2015,7 +2015,7 @@ probeValue
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -2055,7 +2055,7 @@ mInfoObject
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -2085,7 +2085,7 @@ this
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -2435,7 +2435,7 @@ if
 collected_errors
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -2956,7 +2956,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3023,7 +3023,7 @@ return
 SECSuccess
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3090,7 +3090,7 @@ if
 commonNameInSubjectAltNames
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3355,7 +3355,7 @@ SECSuccess
 isBuiltIn
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3420,7 +3420,7 @@ rv
 SECSuccess
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3508,7 +3508,7 @@ if
 subjectAltNames
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3718,7 +3718,7 @@ Length
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3879,7 +3879,7 @@ buf
 PR_SUCCESS
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -3997,7 +3997,7 @@ buf
 PR_SUCCESS
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4048,7 +4048,7 @@ buf
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4086,7 +4086,7 @@ true
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5139,7 +5139,7 @@ nsc
 evStatus
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5376,7 +5376,7 @@ Run
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5622,7 +5622,7 @@ PR_GetError
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5814,7 +5814,7 @@ return
 SECFailure
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG

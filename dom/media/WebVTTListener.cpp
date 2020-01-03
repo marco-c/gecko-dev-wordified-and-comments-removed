@@ -128,7 +128,7 @@ VTT_LOG
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gTextTrackLog
 PR_LOG_DEBUG

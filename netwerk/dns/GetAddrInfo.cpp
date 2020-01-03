@@ -152,7 +152,7 @@ msg
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 gGetAddrInfoLog
 PR_LOG_DEBUG
@@ -179,7 +179,7 @@ msg
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 gGetAddrInfoLog
 PR_LOG_WARNING

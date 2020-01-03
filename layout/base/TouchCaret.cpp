@@ -228,7 +228,7 @@ message
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 gTouchCaretLog
 PR_LOG_DEBUG
@@ -273,7 +273,7 @@ message
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 gTouchCaretLog
 PR_LOG_DEBUG

@@ -182,7 +182,7 @@ HASH_FAILURE
 size_t
 idx
 ;
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningTelemetryLog
 PR_LOG_DEBUG
@@ -289,7 +289,7 @@ idx
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPublicKeyPinningTelemetryLog
 PR_LOG_DEBUG

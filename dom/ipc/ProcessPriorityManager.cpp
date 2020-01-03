@@ -455,7 +455,7 @@ fmt
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 GetPPMLog
 (
@@ -483,7 +483,7 @@ fmt
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 GetPPMLog
 (

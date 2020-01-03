@@ -257,7 +257,7 @@ msg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gOmxDecoderLog
 type

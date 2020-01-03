@@ -2252,7 +2252,7 @@ exist
 "
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS
@@ -2407,7 +2407,7 @@ exist
 "
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ALWAYS

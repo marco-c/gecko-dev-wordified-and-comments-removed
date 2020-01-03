@@ -655,7 +655,7 @@ lockFileName
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 MCD
 PR_LOG_DEBUG
@@ -791,7 +791,7 @@ obscure_value
 obscureValue
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 MCD
 PR_LOG_DEBUG
@@ -841,7 +841,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 MCD
 PR_LOG_DEBUG

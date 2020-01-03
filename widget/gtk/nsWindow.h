@@ -176,7 +176,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gWidgetLog
 4
@@ -188,7 +188,7 @@ LOGFOCUS
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gWidgetFocusLog
 4
@@ -200,7 +200,7 @@ LOGDRAG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gWidgetDragLog
 4
@@ -212,7 +212,7 @@ LOGDRAW
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gWidgetDrawLog
 4

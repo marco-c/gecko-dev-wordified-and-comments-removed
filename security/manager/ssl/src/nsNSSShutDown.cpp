@@ -497,7 +497,7 @@ doPK11Logout
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -695,7 +695,7 @@ restrictActivityToCurrentThread
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -718,7 +718,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG

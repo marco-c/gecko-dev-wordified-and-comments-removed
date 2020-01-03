@@ -1853,7 +1853,7 @@ doneLoading
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 txLog
 :
@@ -1923,7 +1923,7 @@ char16_t
 aParam
 )
 {
-PR_LOG
+MOZ_LOG
 (
 txLog
 :
@@ -2037,7 +2037,7 @@ txStylesheetCompiler
 aCompiler
 )
 {
-PR_LOG
+MOZ_LOG
 (
 txLog
 :
@@ -2949,7 +2949,7 @@ aType
 #
 ifdef
 TX_DEBUG_STACK
-PR_LOG
+MOZ_LOG
 (
 txLog
 :
@@ -3069,7 +3069,7 @@ pop
 #
 ifdef
 TX_DEBUG_STACK
-PR_LOG
+MOZ_LOG
 (
 txLog
 :
@@ -3330,7 +3330,7 @@ nsAString
 aURI
 )
 {
-PR_LOG
+MOZ_LOG
 (
 txLog
 :
@@ -3534,7 +3534,7 @@ ImportFrame
 aFrame
 )
 {
-PR_LOG
+MOZ_LOG
 (
 txLog
 :

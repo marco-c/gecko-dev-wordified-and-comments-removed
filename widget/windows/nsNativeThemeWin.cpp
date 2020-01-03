@@ -6570,7 +6570,7 @@ clipRect
 if
 0
 {
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ERROR
@@ -6617,7 +6617,7 @@ _32
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gWindowsLog
 PR_LOG_ERROR

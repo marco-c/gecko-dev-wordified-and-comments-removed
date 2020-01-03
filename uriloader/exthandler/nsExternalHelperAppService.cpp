@@ -632,7 +632,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 nsExternalHelperAppService
 :
@@ -7562,7 +7562,7 @@ break
 break
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 nsExternalHelperAppService
 :
@@ -7620,7 +7620,7 @@ rv
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsExternalHelperAppService
 :
@@ -7853,7 +7853,7 @@ title
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsExternalHelperAppService
 :
@@ -7973,7 +7973,7 @@ GetDocShell
 qiRv
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsExternalHelperAppService
 :
@@ -8042,7 +8042,7 @@ if
 prompter
 )
 {
-PR_LOG
+MOZ_LOG
 (
 nsExternalHelperAppService
 :

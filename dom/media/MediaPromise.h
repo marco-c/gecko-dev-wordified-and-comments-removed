@@ -116,7 +116,7 @@ gMediaPromiseLog
 )
 ;
 \
-PR_LOG
+MOZ_LOG
 (
 gMediaPromiseLog
 PR_LOG_DEBUG

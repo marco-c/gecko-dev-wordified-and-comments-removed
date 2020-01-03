@@ -238,7 +238,7 @@ x
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetGMPLog
 (

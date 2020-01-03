@@ -108,7 +108,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gRtspChildLog
 PR_LOG_DEBUG

@@ -19,7 +19,7 @@ FFMPEG_LOG
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetFFmpegDecoderLog
 (

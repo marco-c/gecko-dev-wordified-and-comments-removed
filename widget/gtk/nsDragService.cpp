@@ -568,7 +568,7 @@ nsDragService
 "
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -607,7 +607,7 @@ nsDragService
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -716,7 +716,7 @@ application
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -1157,7 +1157,7 @@ uint32_t
 aActionType
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -1741,7 +1741,7 @@ StartDragSession
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -1774,7 +1774,7 @@ bool
 aDoneDrag
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -1875,7 +1875,7 @@ bool
 aCanDrop
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -1911,7 +1911,7 @@ bool
 aCanDrop
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -2343,7 +2343,7 @@ uint32_t
 aNumItems
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -2363,7 +2363,7 @@ if
 mTargetWidget
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -2469,7 +2469,7 @@ aNumItems
 1
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -2501,7 +2501,7 @@ uint32_t
 aItemIndex
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -2532,7 +2532,7 @@ if
 mTargetWidget
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -2620,7 +2620,7 @@ if
 isList
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -2705,7 +2705,7 @@ flavorStr
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -2775,7 +2775,7 @@ tmpDataLen
 =
 0
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -2825,7 +2825,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -2842,7 +2842,7 @@ n
 continue
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -2876,7 +2876,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -2981,7 +2981,7 @@ flavorStr
 FALSE
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3035,7 +3035,7 @@ if
 mTargetDragData
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3057,7 +3057,7 @@ true
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3300,7 +3300,7 @@ kUnicodeMime
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3352,7 +3352,7 @@ if
 mTargetDragData
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3406,7 +3406,7 @@ if
 convertedText
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3453,7 +3453,7 @@ true
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3500,7 +3500,7 @@ if
 mTargetDragData
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3558,7 +3558,7 @@ if
 convertedText
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3613,7 +3613,7 @@ kURLMime
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3666,7 +3666,7 @@ if
 mTargetDragData
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3726,7 +3726,7 @@ if
 convertedText
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3768,7 +3768,7 @@ true
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3796,7 +3796,7 @@ if
 dataFound
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3845,7 +3845,7 @@ if
 mTargetDragData
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3903,7 +3903,7 @@ if
 convertedText
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -3945,7 +3945,7 @@ true
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4020,7 +4020,7 @@ genericDataWrapper
 mTargetDragDataLen
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4060,7 +4060,7 @@ bool
 _retval
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4096,7 +4096,7 @@ if
 mTargetWidget
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4138,7 +4138,7 @@ if
 isList
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4328,7 +4328,7 @@ flavorStr
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4365,7 +4365,7 @@ aDataFlavor
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4441,7 +4441,7 @@ gdk_atom_name
 atom
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4478,7 +4478,7 @@ aDataFlavor
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4542,7 +4542,7 @@ kFileMime
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4620,7 +4620,7 @@ kURLMime
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4708,7 +4708,7 @@ kFileMime
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4774,7 +4774,7 @@ GdkDragContext
 aDragContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4882,7 +4882,7 @@ guint32
 aTime
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -4953,7 +4953,7 @@ mTargetDragDataLen
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -5101,7 +5101,7 @@ GdkAtom
 aFlavor
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -5119,7 +5119,7 @@ aFlavor
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -5162,7 +5162,7 @@ aFlavor
 mTargetTime
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -5194,7 +5194,7 @@ mTargetDragDataReceived
 mDoingDrag
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -5239,7 +5239,7 @@ gtk_main_iteration
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -5377,7 +5377,7 @@ flags
 =
 0
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -5583,7 +5583,7 @@ flags
 =
 0
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -5794,7 +5794,7 @@ flags
 =
 0
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -5866,7 +5866,7 @@ flags
 =
 0
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -5927,7 +5927,7 @@ flags
 =
 0
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -6001,7 +6001,7 @@ flags
 =
 0
 ;
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -6715,7 +6715,7 @@ guint32
 aTime
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -6759,7 +6759,7 @@ if
 typeName
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -6780,7 +6780,7 @@ n
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -6818,7 +6818,7 @@ if
 mSourceDataItems
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -7445,7 +7445,7 @@ gpointer
 aData
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -7496,7 +7496,7 @@ gpointer
 aData
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -7545,7 +7545,7 @@ gpointer
 aData
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -7596,7 +7596,7 @@ gpointer
 aData
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG
@@ -7914,7 +7914,7 @@ mTargetWindow
 mPendingWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sDragLm
 PR_LOG_DEBUG

@@ -148,7 +148,7 @@ LOG
 (
 x
 )
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_DEBUG
@@ -1480,7 +1480,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_DEBUG
@@ -2518,7 +2518,7 @@ mNeedsStart
 =
 false
 ;
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -2550,7 +2550,7 @@ high
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_DEBUG
@@ -2992,7 +2992,7 @@ Length
 bytesToCopy
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -3074,7 +3074,7 @@ mState
 RUNNING
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -3114,7 +3114,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -5161,7 +5161,7 @@ ToMilliseconds
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -5189,7 +5189,7 @@ mOutRate
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -5217,7 +5217,7 @@ old_len
 available
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING
@@ -5418,7 +5418,7 @@ if
 underrunFrames
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gAudioStreamLog
 PR_LOG_WARNING

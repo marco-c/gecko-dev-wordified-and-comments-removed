@@ -11394,7 +11394,7 @@ range
 >
 next
 )
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :
@@ -11427,7 +11427,7 @@ length
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :

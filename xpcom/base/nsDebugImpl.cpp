@@ -1531,7 +1531,7 @@ aLine
 #
 undef
 PrintToBuffer
-PR_LOG
+MOZ_LOG
 (
 gDebugLog
 ll

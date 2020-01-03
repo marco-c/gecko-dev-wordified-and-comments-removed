@@ -1145,7 +1145,7 @@ if
 gJSDiagnostics
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gJSDiagnostics
 JSREPORT_IS_WARNING

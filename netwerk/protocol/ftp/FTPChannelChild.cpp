@@ -135,7 +135,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gFTPLog
 PR_LOG_DEBUG

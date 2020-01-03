@@ -469,7 +469,7 @@ CertID
 aCertID
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG
@@ -1126,7 +1126,7 @@ lock
 mMutex
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gCertVerifierLog
 PR_LOG_DEBUG

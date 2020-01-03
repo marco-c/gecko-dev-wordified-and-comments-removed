@@ -1186,7 +1186,7 @@ aName
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG

@@ -53,7 +53,7 @@ IC_LOG
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetICLog
 (

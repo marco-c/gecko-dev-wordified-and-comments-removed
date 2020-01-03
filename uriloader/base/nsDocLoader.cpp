@@ -442,7 +442,7 @@ ClearInternalProgress
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -512,7 +512,7 @@ rv
 return
 rv
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -560,7 +560,7 @@ Destroy
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -837,7 +837,7 @@ rv
 =
 NS_OK
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -1315,7 +1315,7 @@ GetActiveCount
 count
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -1590,7 +1590,7 @@ GetActiveCount
 count
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -2243,7 +2243,7 @@ ClearInternalProgress
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -2394,7 +2394,7 @@ mDocumentRequest
 buffer
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -2498,7 +2498,7 @@ request
 buffer
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -2588,7 +2588,7 @@ request
 buffer
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -2726,7 +2726,7 @@ request
 buffer
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -3470,7 +3470,7 @@ LOAD_TARGETED
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -3615,7 +3615,7 @@ aRequest
 buffer
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -4122,7 +4122,7 @@ request
 buffer
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -4408,7 +4408,7 @@ aRequest
 buffer
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -4518,7 +4518,7 @@ nsIWebProgress
 :
 :
 NOTIFY_LOCATION
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -5240,7 +5240,7 @@ int32_t
 aPriority
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG
@@ -5312,7 +5312,7 @@ int32_t
 aDelta
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gDocLoaderLog
 PR_LOG_DEBUG

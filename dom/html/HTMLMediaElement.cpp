@@ -612,7 +612,7 @@ LOG
 type
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 gMediaElementLog
 type
@@ -625,7 +625,7 @@ LOG_EVENT
 type
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 gMediaElementEventsLog
 type

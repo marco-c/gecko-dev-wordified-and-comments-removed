@@ -128,7 +128,7 @@ nsDirectoryIndexStream
 "
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -302,7 +302,7 @@ GetNativePath
 path
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -640,7 +640,7 @@ nsDirectoryIndexStream
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -999,7 +999,7 @@ GetNativePath
 path
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -1050,7 +1050,7 @@ if
 hidden
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG

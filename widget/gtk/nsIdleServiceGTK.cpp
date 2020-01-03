@@ -165,7 +165,7 @@ if
 xsslib
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sIdleLog
 PR_LOG_WARNING
@@ -231,7 +231,7 @@ if
 !
 _XSSQueryExtension
 )
-PR_LOG
+MOZ_LOG
 (
 sIdleLog
 PR_LOG_WARNING
@@ -253,7 +253,7 @@ if
 !
 _XSSAllocInfo
 )
-PR_LOG
+MOZ_LOG
 (
 sIdleLog
 PR_LOG_WARNING
@@ -275,7 +275,7 @@ if
 !
 _XSSQueryInfo
 )
-PR_LOG
+MOZ_LOG
 (
 sIdleLog
 PR_LOG_WARNING
@@ -409,7 +409,7 @@ if
 dplay
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sIdleLog
 PR_LOG_WARNING
@@ -503,7 +503,7 @@ return
 true
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sIdleLog
 PR_LOG_WARNING

@@ -136,7 +136,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gUrlClassifierStreamUpdaterLog
 PR_LOG_DEBUG

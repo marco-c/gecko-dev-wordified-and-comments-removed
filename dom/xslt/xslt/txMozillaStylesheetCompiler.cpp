@@ -2230,7 +2230,7 @@ GetSpec
 spec
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 txLog
 :

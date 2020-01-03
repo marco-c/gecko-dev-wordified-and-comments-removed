@@ -69,7 +69,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gStreamCopierLog
 PR_LOG_DEBUG

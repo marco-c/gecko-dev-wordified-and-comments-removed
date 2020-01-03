@@ -465,7 +465,7 @@ srv
 SQLITE_OK
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_ERROR
@@ -493,7 +493,7 @@ aNativeConnection
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_ERROR
@@ -522,7 +522,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_NOTICE
@@ -1118,7 +1118,7 @@ return
 rc
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_NOTICE
@@ -1373,7 +1373,7 @@ isClosed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_NOTICE
@@ -1469,7 +1469,7 @@ msg
 ;
 #
 endif
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_WARNING
@@ -1885,7 +1885,7 @@ NS_ERROR_NOT_INITIALIZED
 #
 ifdef
 DEBUG
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_DEBUG
@@ -2243,7 +2243,7 @@ GetLastErrorString
 errStr
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_DEBUG
@@ -2336,7 +2336,7 @@ if
 mExecuting
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gStorageLog
 PR_LOG_ERROR

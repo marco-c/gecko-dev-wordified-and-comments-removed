@@ -10401,7 +10401,7 @@ NPError
 error
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetPluginLog
 (

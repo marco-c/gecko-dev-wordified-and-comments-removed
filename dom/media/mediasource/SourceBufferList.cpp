@@ -101,7 +101,7 @@ arg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetMediaSourceAPILog
 (
@@ -137,7 +137,7 @@ arg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetMediaSourceLog
 (

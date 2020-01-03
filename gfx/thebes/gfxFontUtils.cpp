@@ -128,7 +128,7 @@ LOG
 log
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gfxPlatform
 :

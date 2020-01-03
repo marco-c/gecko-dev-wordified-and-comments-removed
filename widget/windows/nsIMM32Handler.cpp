@@ -1107,7 +1107,7 @@ true
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -1285,7 +1285,7 @@ mNativeCaretIsCreated
 false
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -1316,7 +1316,7 @@ if
 mIsComposing
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -1339,7 +1339,7 @@ n
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -1428,7 +1428,7 @@ bool
 aForce
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -1553,7 +1553,7 @@ AssociateDefaultContext
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -1645,7 +1645,7 @@ bool
 aForce
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -1770,7 +1770,7 @@ AssociateDefaultContext
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -2543,7 +2543,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -2628,7 +2628,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -2733,7 +2733,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -2776,7 +2776,7 @@ FALSE
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -2931,7 +2931,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3027,7 +3027,7 @@ lParam
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3057,7 +3057,7 @@ return
 true
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3136,7 +3136,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3190,7 +3190,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3251,7 +3251,7 @@ wParam
 case
 IMN_CHANGECANDIDATE
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3287,7 +3287,7 @@ break
 case
 IMN_CLOSECANDIDATE
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3323,7 +3323,7 @@ break
 case
 IMN_CLOSESTATUSWINDOW
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3354,7 +3354,7 @@ break
 case
 IMN_GUIDELINE
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3385,7 +3385,7 @@ break
 case
 IMN_OPENCANDIDATE
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3421,7 +3421,7 @@ break
 case
 IMN_OPENSTATUSWINDOW
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3452,7 +3452,7 @@ break
 case
 IMN_SETCANDIDATEPOS
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3488,7 +3488,7 @@ break
 case
 IMN_SETCOMPOSITIONFONT
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3519,7 +3519,7 @@ break
 case
 IMN_SETCOMPOSITIONWINDOW
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3550,7 +3550,7 @@ break
 case
 IMN_SETCONVERSIONMODE
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3581,7 +3581,7 @@ break
 case
 IMN_SETOPENSTATUS
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3612,7 +3612,7 @@ break
 case
 IMN_SETSENTENCEMODE
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3643,7 +3643,7 @@ break
 case
 IMN_SETSTATUSWINDOWPOS
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3674,7 +3674,7 @@ break
 case
 IMN_PRIVATE
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3739,7 +3739,7 @@ wParam
 case
 IMR_RECONVERTSTRING
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3785,7 +3785,7 @@ true
 case
 IMR_QUERYCHARPOSITION
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3831,7 +3831,7 @@ true
 case
 IMR_DOCUMENTFEED
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3876,7 +3876,7 @@ true
 ;
 default
 :
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3935,7 +3935,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -3998,7 +3998,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -4053,7 +4053,7 @@ aWindow
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -4121,7 +4121,7 @@ ShouldDrawCompositionStringOurselves
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -4236,7 +4236,7 @@ recWParam
 recLParam
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -4271,7 +4271,7 @@ lParam
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -4349,7 +4349,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -4457,7 +4457,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -4500,7 +4500,7 @@ FALSE
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -4678,7 +4678,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -4777,7 +4777,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -4868,7 +4868,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -5029,7 +5029,7 @@ recWParam
 recLParam
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -5064,7 +5064,7 @@ lParam
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -5208,7 +5208,7 @@ selection
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -5283,7 +5283,7 @@ mComposingWindow
 =
 aWindow
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -5414,7 +5414,7 @@ message
 WM_IME_COMPOSITION
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -5475,7 +5475,7 @@ GCS_RESULTSTR
 mCompositionString
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -5527,7 +5527,7 @@ aIMEContext
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -5565,7 +5565,7 @@ lParam
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -5683,7 +5683,7 @@ IsEmpty
 startCompositionMessageHasBeenSent
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -5768,7 +5768,7 @@ sIMEProperty
 IME_PROP_UNICODE
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -5872,7 +5872,7 @@ clauseArrayLength
 clauseArrayLength2
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -6024,7 +6024,7 @@ clauseArrayLength
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -6142,7 +6142,7 @@ attrArrayLength
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -6229,7 +6229,7 @@ pos
 "
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -6316,7 +6316,7 @@ focus
 "
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -6455,7 +6455,7 @@ RECONVERTSTRING
 aReconv
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -6499,7 +6499,7 @@ dwStrOffset
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -6543,7 +6543,7 @@ dwTargetStrOffset
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -6673,7 +6673,7 @@ selection
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -6738,7 +6738,7 @@ len
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -6767,7 +6767,7 @@ oResult
 =
 needSize
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -6803,7 +6803,7 @@ dwSize
 needSize
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -6929,7 +6929,7 @@ WCHAR
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -7013,7 +7013,7 @@ if
 pCharPosition
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -7051,7 +7051,7 @@ IMECHARPOSITION
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -7110,7 +7110,7 @@ GetWindowHandle
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -7163,7 +7163,7 @@ dwCharPos
 len
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -7305,7 +7305,7 @@ mSucceeded
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ERROR
@@ -7424,7 +7424,7 @@ oResult
 =
 TRUE
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -7622,7 +7622,7 @@ selection
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -7712,7 +7712,7 @@ targetLength
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -7783,7 +7783,7 @@ textContent
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -7830,7 +7830,7 @@ Length
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -7956,7 +7956,7 @@ oResult
 =
 needSize
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -7992,7 +7992,7 @@ dwSize
 needSize
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -8096,7 +8096,7 @@ length
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -8219,7 +8219,7 @@ WCHAR
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -8277,7 +8277,7 @@ return
 false
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -8511,7 +8511,7 @@ state
 "
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -8701,7 +8701,7 @@ AppendElement
 range
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -8770,7 +8770,7 @@ Length
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -8865,7 +8865,7 @@ lastOffset
 =
 current
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -8920,7 +8920,7 @@ mCursorPosition
 NO_IME_CARET
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -8964,7 +8964,7 @@ Length
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -9037,7 +9037,7 @@ AppendElement
 range
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -9138,7 +9138,7 @@ fallible
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -9199,7 +9199,7 @@ WCHAR
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -9503,7 +9503,7 @@ fallible
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -9622,7 +9622,7 @@ selection
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -9829,7 +9829,7 @@ GetWritingMode
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -9850,7 +9850,7 @@ aOffset
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -9992,7 +9992,7 @@ selection
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -10066,7 +10066,7 @@ caretRect
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -10118,7 +10118,7 @@ GetWritingMode
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -10325,7 +10325,7 @@ caretRect
 height
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -10387,7 +10387,7 @@ ShouldDrawCompositionStringOurselves
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -10438,7 +10438,7 @@ length
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -10775,7 +10775,7 @@ YMost
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -10891,7 +10891,7 @@ candForm
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -11017,7 +11017,7 @@ editorRectEvent
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -11332,7 +11332,7 @@ compForm
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -11784,7 +11784,7 @@ defaultLogFont
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ERROR
@@ -11826,7 +11826,7 @@ lfFaceName
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -11982,7 +11982,7 @@ logFont
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ERROR
@@ -12087,7 +12087,7 @@ logFont
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_WARNING
@@ -12398,7 +12398,7 @@ offset
 +
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS
@@ -12519,7 +12519,7 @@ MSGResult
 aResult
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gIMM32Log
 PR_LOG_ALWAYS

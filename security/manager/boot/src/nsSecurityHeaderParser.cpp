@@ -293,7 +293,7 @@ SHPARSERLOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 GetSHParserLog
 (

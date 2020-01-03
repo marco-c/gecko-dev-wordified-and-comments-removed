@@ -108,6 +108,15 @@ include
 <
 algorithm
 >
+#
+include
+"
+mozilla
+/
+Logging
+.
+h
+"
 PRLogModuleInfo
 *
 MCD
@@ -463,7 +472,7 @@ aStatus
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 MCD
 PR_LOG_DEBUG
@@ -526,7 +535,7 @@ httpStatus
 200
 )
 {
-PR_LOG
+MOZ_LOG
 (
 MCD
 PR_LOG_DEBUG
@@ -744,7 +753,7 @@ IsEmpty
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 MCD
 PR_LOG_DEBUG
@@ -1077,7 +1086,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 MCD
 PR_LOG_DEBUG
@@ -1112,7 +1121,7 @@ return
 rv
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 MCD
 PR_LOG_DEBUG

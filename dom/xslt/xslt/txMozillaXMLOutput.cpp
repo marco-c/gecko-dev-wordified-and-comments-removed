@@ -1142,7 +1142,7 @@ mBadChildLevel
 -
 mBadChildLevel
 ;
-PR_LOG
+MOZ_LOG
 (
 txLog
 :
@@ -2182,7 +2182,7 @@ mBadChildLevel
 +
 mBadChildLevel
 ;
-PR_LOG
+MOZ_LOG
 (
 txLog
 :
@@ -2233,7 +2233,7 @@ MAX_REFLOW_DEPTH
 +
 mBadChildLevel
 ;
-PR_LOG
+MOZ_LOG
 (
 txLog
 :

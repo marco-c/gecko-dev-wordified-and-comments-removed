@@ -919,7 +919,7 @@ pipnss
 "
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -1076,7 +1076,7 @@ nsNSSComponent
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -1126,7 +1126,7 @@ EnsureNSSInitialized
 nssShutdown
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -1497,7 +1497,7 @@ if
 lock
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_ERROR
@@ -1718,7 +1718,7 @@ if
 lock
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_ERROR
@@ -3942,7 +3942,7 @@ dbDirOverride
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4002,7 +4002,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_ERROR
@@ -4053,7 +4053,7 @@ if
 profileFileWin
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_ERROR
@@ -4109,7 +4109,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_ERROR
@@ -4146,7 +4146,7 @@ InitializeNSS
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4238,7 +4238,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4331,7 +4331,7 @@ init_rv
 SECSuccess
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4387,7 +4387,7 @@ init_rv
 SECSuccess
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4433,7 +4433,7 @@ init_rv
 SECSuccess
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_ERROR
@@ -4640,7 +4640,7 @@ InitializeCipherSuite
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_ERROR
@@ -4731,7 +4731,7 @@ if
 sssService
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4752,7 +4752,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4779,7 +4779,7 @@ ShutdownNSS
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4843,7 +4843,7 @@ StopObserve
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_ERROR
@@ -4892,7 +4892,7 @@ CleanupIdentityInfo
 ;
 #
 endif
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4931,7 +4931,7 @@ NSS_Shutdown
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_ALWAYS
@@ -4949,7 +4949,7 @@ n
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -4994,7 +4994,7 @@ rv
 =
 NS_OK
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5015,7 +5015,7 @@ if
 mShutdownObjectList
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5052,7 +5052,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_ERROR
@@ -5137,7 +5137,7 @@ rv
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_ERROR
@@ -5183,7 +5183,7 @@ if
 mCertVerificationThread
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5444,7 +5444,7 @@ PROFILE_CHANGE_TEARDOWN_TOPIC
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5485,7 +5485,7 @@ PROFILE_BEFORE_CHANGE_TOPIC
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -5598,7 +5598,7 @@ InitializeNSS
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_ERROR
@@ -5637,7 +5637,7 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6077,7 +6077,7 @@ PROFILE_CHANGE_NET_TEARDOWN_TOPIC
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6114,7 +6114,7 @@ PROFILE_CHANGE_NET_RESTORE_TOPIC
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6492,7 +6492,7 @@ mObserversRegistered
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG
@@ -6632,7 +6632,7 @@ mObserversRegistered
 =
 false
 ;
-PR_LOG
+MOZ_LOG
 (
 gPIPNSSLog
 PR_LOG_DEBUG

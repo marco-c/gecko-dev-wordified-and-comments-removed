@@ -6355,7 +6355,7 @@ if
 (
 gDOMLeakPRLog
 )
-PR_LOG
+MOZ_LOG
 (
 gDOMLeakPRLog
 PR_LOG_DEBUG
@@ -6773,7 +6773,7 @@ if
 (
 gDOMLeakPRLog
 )
-PR_LOG
+MOZ_LOG
 (
 gDOMLeakPRLog
 PR_LOG_DEBUG

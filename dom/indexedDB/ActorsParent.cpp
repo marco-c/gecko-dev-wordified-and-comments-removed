@@ -855,7 +855,7 @@ IDB_DEBUG_LOG
 _args
 )
 \
-PR_LOG
+MOZ_LOG
 (
 IndexedDatabaseManager
 :

@@ -91,7 +91,7 @@ gStateWatchingLog
 )
 ;
 \
-PR_LOG
+MOZ_LOG
 (
 gStateWatchingLog
 PR_LOG_DEBUG

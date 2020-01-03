@@ -102,7 +102,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gLoadManagerLog
 PR_LOG_DEBUG

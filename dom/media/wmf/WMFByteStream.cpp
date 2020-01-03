@@ -127,7 +127,7 @@ WMF_BS_LOG
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gWMFByteStreamLog
 PR_LOG_DEBUG

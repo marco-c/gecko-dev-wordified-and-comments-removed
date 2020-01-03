@@ -693,7 +693,7 @@ mReflowCallbackPosted
 false
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetObjectFrameLog
 (
@@ -722,7 +722,7 @@ nsPluginFrame
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetObjectFrameLog
 (
@@ -831,7 +831,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetObjectFrameLog
 (

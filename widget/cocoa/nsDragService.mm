@@ -2331,7 +2331,7 @@ flavorStr
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sCocoaLog
 PR_LOG_ALWAYS

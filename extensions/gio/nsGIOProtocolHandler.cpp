@@ -131,7 +131,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 sGIOLog
 PR_LOG_DEBUG

@@ -1106,7 +1106,7 @@ nsPluginStreamListenerPeer
 #
 ifdef
 PLUGIN_LOGGING
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :
@@ -1222,7 +1222,7 @@ GetSpec
 urlSpec
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :
@@ -2279,7 +2279,7 @@ contentType
 #
 ifdef
 PLUGIN_LOGGING
-PR_LOG
+MOZ_LOG
 (
 nsPluginLogging
 :

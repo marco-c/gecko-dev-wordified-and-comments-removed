@@ -284,7 +284,7 @@ PREDICTOR_LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gPredictorLog
 4

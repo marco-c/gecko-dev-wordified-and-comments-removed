@@ -524,7 +524,7 @@ mWindow
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -1343,7 +1343,7 @@ if
 psmInfo
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -1377,7 +1377,7 @@ nsIWebProgressListener
 STATE_IS_INSECURE
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -1422,7 +1422,7 @@ res
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -1584,7 +1584,7 @@ isFtp
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -1618,7 +1618,7 @@ STATE_IS_INSECURE
 }
 }
 }
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -1781,7 +1781,7 @@ info
 aRequest
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -1901,7 +1901,7 @@ mSSLStatus
 temp_SSLStatus
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -2009,7 +2009,7 @@ reqState
 STATE_IS_BROKEN
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -2038,7 +2038,7 @@ mSubRequestsBrokenSecurity
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -2298,7 +2298,7 @@ if
 isToplevelProgress
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -2325,7 +2325,7 @@ this
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -2354,7 +2354,7 @@ this
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -2380,7 +2380,7 @@ this
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -2412,7 +2412,7 @@ if
 aRequest
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -2458,7 +2458,7 @@ GetName
 reqname
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -2655,7 +2655,7 @@ nsIChannel
 LOAD_DOCUMENT_URI
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -2704,7 +2704,7 @@ nsIChannel
 LOAD_DOCUMENT_URI
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -2813,7 +2813,7 @@ if
 ftpRequest
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -3429,7 +3429,7 @@ flag
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -3478,7 +3478,7 @@ STATE_STOP
 channel
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -3754,7 +3754,7 @@ allowSecurityStateChange
 inProgress
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -3783,7 +3783,7 @@ if
 prevContentSecurity
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -3831,7 +3831,7 @@ Flush
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -3944,7 +3944,7 @@ if
 newContentSecurity
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -3987,7 +3987,7 @@ GetCountSubRequestsNoSecurity
 newSubNo
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -4067,7 +4067,7 @@ mNewToplevelSecurityStateKnown
 false
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -4165,7 +4165,7 @@ return
 NS_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -4359,7 +4359,7 @@ GetCountSubRequestsNoSecurity
 subNo
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -4578,7 +4578,7 @@ newSecurityState
 lis_broken_security
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -4723,7 +4723,7 @@ if
 toplevelEventSink
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -4757,7 +4757,7 @@ state
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -4831,7 +4831,7 @@ notification
 ;
 #
 endif
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -4902,7 +4902,7 @@ if
 vs
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG
@@ -5199,7 +5199,7 @@ GetSpec
 temp
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gSecureDocLog
 PR_LOG_DEBUG

@@ -49,7 +49,7 @@ type
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetCameraLog
 (

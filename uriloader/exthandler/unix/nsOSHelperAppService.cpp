@@ -209,7 +209,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 mLog
 PR_LOG_DEBUG

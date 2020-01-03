@@ -89,7 +89,7 @@ arg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 GetDemuxerLog
 (

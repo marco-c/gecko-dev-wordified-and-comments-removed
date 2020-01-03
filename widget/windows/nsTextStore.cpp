@@ -2907,7 +2907,7 @@ mInputScopes
 aList
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -3764,7 +3764,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -3844,7 +3844,7 @@ mIPProfileCookie
 TF_INVALID_COOKIE
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -3919,7 +3919,7 @@ mLangProfileCookie
 TF_INVALID_COOKIE
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -3958,7 +3958,7 @@ false
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -4006,7 +4006,7 @@ Destroy
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -4079,7 +4079,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -4135,7 +4135,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -4209,7 +4209,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -4265,7 +4265,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -4369,7 +4369,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -4446,7 +4446,7 @@ Truncate
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -4595,7 +4595,7 @@ mActiveTIPKeyboardDescription
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -4805,7 +4805,7 @@ hr
 profileMgr
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -4869,7 +4869,7 @@ hr
 S_FALSE
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -4925,7 +4925,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -4965,7 +4965,7 @@ return
 false
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -5050,7 +5050,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -5122,7 +5122,7 @@ hr
 enumLangProfiles
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -5210,7 +5210,7 @@ GUID_TFCAT_TIP_KEYBOARD
 continue
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -5284,7 +5284,7 @@ return
 true
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -5407,7 +5407,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -5539,7 +5539,7 @@ hr
 enumLangProfiles
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -5862,7 +5862,7 @@ SetCapacity
 5
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -5894,7 +5894,7 @@ nsTextStore
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -5926,7 +5926,7 @@ nsWindowBase
 aWidget
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -5971,7 +5971,7 @@ if
 mDocumentMgr
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -6024,7 +6024,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -6099,7 +6099,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -6160,7 +6160,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -6205,7 +6205,7 @@ return
 false
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -6269,7 +6269,7 @@ Destroy
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -6416,7 +6416,7 @@ IsEmpty
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -6452,7 +6452,7 @@ Clear
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -6587,7 +6587,7 @@ return
 S_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -6641,7 +6641,7 @@ DWORD
 dwMask
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -6723,7 +6723,7 @@ if
 punk
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -6763,7 +6763,7 @@ IID_ITextStoreACPSink
 riid
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -6820,7 +6820,7 @@ if
 mSink
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -6898,7 +6898,7 @@ comparison1
 comparison2
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -6957,7 +6957,7 @@ IUnknown
 punk
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -7001,7 +7001,7 @@ if
 punk
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -7039,7 +7039,7 @@ if
 mSink
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -7113,7 +7113,7 @@ comparison1
 comparison2
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -7177,7 +7177,7 @@ HRESULT
 phrSession
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -7237,7 +7237,7 @@ if
 mSink
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -7278,7 +7278,7 @@ if
 phrSession
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -7326,7 +7326,7 @@ dwLockFlags
 TS_LF_SYNC
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -7488,7 +7488,7 @@ OnLockGranted
 mLock
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -7646,7 +7646,7 @@ mLockQueued
 =
 0
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -7773,7 +7773,7 @@ OnLockGranted
 mLock
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -7941,7 +7941,7 @@ if
 mSink
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -8013,7 +8013,7 @@ if
 service
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -8075,7 +8075,7 @@ if
 mSink
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -8128,7 +8128,7 @@ Destroy
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -8207,7 +8207,7 @@ dwLockFlags
 TS_LF_SYNC
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -8245,7 +8245,7 @@ return
 S_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -8455,7 +8455,7 @@ PendingAction
 COMPOSITION_START
 :
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -8574,7 +8574,7 @@ selectionSet
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -8607,7 +8607,7 @@ break
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -8689,7 +8689,7 @@ PendingAction
 COMPOSITION_UPDATE
 :
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -9006,7 +9006,7 @@ n
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -9137,7 +9137,7 @@ PendingAction
 COMPOSITION_END
 :
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -9208,7 +9208,7 @@ n
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -9298,7 +9298,7 @@ PendingAction
 SELECTION_SET
 :
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -9429,7 +9429,7 @@ Destroyed
 continue
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -9480,7 +9480,7 @@ TS_STATUS
 pdcs
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -9514,7 +9514,7 @@ if
 pdcs
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -9583,7 +9583,7 @@ LONG
 pacpResultEnd
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -9644,7 +9644,7 @@ pacpResultStart
 pacpResultEnd
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -9690,7 +9690,7 @@ acpTestStart
 acpTestEnd
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -9735,7 +9735,7 @@ acpTestStart
 +
 cch
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -9798,7 +9798,7 @@ ULONG
 pcFetched
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -9852,7 +9852,7 @@ IsReadLocked
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -9897,7 +9897,7 @@ pSelection
 pcFetched
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -9955,7 +9955,7 @@ ulIndex
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -10005,7 +10005,7 @@ IsDirty
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -10054,7 +10054,7 @@ pcFetched
 =
 1
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -10200,7 +10200,7 @@ text
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -10466,7 +10466,7 @@ GetWritingMode
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -10711,7 +10711,7 @@ start
 length
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -10802,7 +10802,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -10850,7 +10850,7 @@ propValue
 vt
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -10942,7 +10942,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -11019,7 +11019,7 @@ hr
 info
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -11075,7 +11075,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -11113,7 +11113,7 @@ return
 hr
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -11169,7 +11169,7 @@ ITfRange
 aRangeNew
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -11223,7 +11223,7 @@ IsComposing
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -11307,7 +11307,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -11373,7 +11373,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -11408,7 +11408,7 @@ return
 hr
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -11510,7 +11510,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -11546,7 +11546,7 @@ hr
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -11618,7 +11618,7 @@ newStart
 +
 newLength
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -11745,7 +11745,7 @@ IsDirty
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -11788,7 +11788,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -11961,7 +11961,7 @@ IsInitialized
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -12122,7 +12122,7 @@ currentSelection
 =
 oldSelection
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -12413,7 +12413,7 @@ RecordCompositionUpdateAction
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -12505,7 +12505,7 @@ IsComposing
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -12572,7 +12572,7 @@ hr
 attrPropetry
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -12646,7 +12646,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -12722,7 +12722,7 @@ hr
 enumRanges
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -12784,7 +12784,7 @@ IsDirty
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -13005,7 +13005,7 @@ length
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -13060,7 +13060,7 @@ if
 length
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -13536,7 +13536,7 @@ mIncomplete
 =
 false
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -13579,7 +13579,7 @@ bool
 aDispatchCompositionChangeEvent
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -13703,7 +13703,7 @@ IsDirty
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -13767,7 +13767,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -13827,7 +13827,7 @@ EndOffset
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -13894,7 +13894,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -14026,7 +14026,7 @@ TS_SELECTION_ACP
 pSelection
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -14152,7 +14152,7 @@ IsReadWriteLocked
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -14198,7 +14198,7 @@ ulCount
 1
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -14239,7 +14239,7 @@ if
 pSelection
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -14289,7 +14289,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -14323,7 +14323,7 @@ this
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -14382,7 +14382,7 @@ LONG
 pacpNext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -14508,7 +14508,7 @@ IsReadLocked
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -14576,7 +14576,7 @@ ulRunInfoReq
 prgRunInfo
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -14636,7 +14636,7 @@ acpEnd
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -14745,7 +14745,7 @@ IsInitialized
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -14801,7 +14801,7 @@ acpStart
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -14869,7 +14869,7 @@ acpEnd
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -15067,7 +15067,7 @@ acpStart
 length
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -15185,7 +15185,7 @@ TS_TEXTCHANGE
 pChange
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -15303,7 +15303,7 @@ IsReadWriteLocked
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -15387,7 +15387,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -15436,7 +15436,7 @@ pChange
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -15471,7 +15471,7 @@ return
 E_FAIL
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -15557,7 +15557,7 @@ IDataObject
 ppDataObject
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -15610,7 +15610,7 @@ IUnknown
 ppunk
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -15664,7 +15664,7 @@ BOOL
 pfInsertable
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -15728,7 +15728,7 @@ TS_TEXTCHANGE
 pChange
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -16163,7 +16163,7 @@ TS_ATTRID
 aFilterAttrs
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -16254,7 +16254,7 @@ i
 +
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -16342,7 +16342,7 @@ TS_ATTRID
 paFilterAttrs
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -16410,7 +16410,7 @@ DWORD
 dwFlags
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -16485,7 +16485,7 @@ DWORD
 dwFlags
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -16587,7 +16587,7 @@ pfFound
 plFoundOffset
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -16620,7 +16620,7 @@ return
 E_INVALIDARG
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -16694,7 +16694,7 @@ pcFetched
 paAttrVals
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -16769,7 +16769,7 @@ ulCount
 expectedCount
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -16813,7 +16813,7 @@ return
 E_INVALIDARG
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -16899,7 +16899,7 @@ GetAttrID
 i
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -17165,7 +17165,7 @@ return
 S_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -17236,7 +17236,7 @@ LONG
 pacp
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -17272,7 +17272,7 @@ IsReadLocked
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -17314,7 +17314,7 @@ if
 pacp
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -17365,7 +17365,7 @@ IsInitialized
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -17434,7 +17434,7 @@ TsViewCookie
 pvcView
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -17468,7 +17468,7 @@ if
 pvcView
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -17506,7 +17506,7 @@ pvcView
 =
 TEXTSTORE_DEFAULT_VIEW
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -17560,7 +17560,7 @@ LONG
 pacp
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -17644,7 +17644,7 @@ IsReadLocked
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -17688,7 +17688,7 @@ vcView
 TEXTSTORE_DEFAULT_VIEW
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -17729,7 +17729,7 @@ if
 pt
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -17768,7 +17768,7 @@ if
 pacp
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -17810,7 +17810,7 @@ IsLayoutChanged
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -17921,7 +17921,7 @@ Destroyed
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -17957,7 +17957,7 @@ return
 E_FAIL
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -18028,7 +18028,7 @@ mSucceeded
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -18084,7 +18084,7 @@ WidgetQueryContentEvent
 NOT_FOUND
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -18221,7 +18221,7 @@ IsInitialized
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -18298,7 +18298,7 @@ LONG_MAX
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -18346,7 +18346,7 @@ LONG
 offset
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -18401,7 +18401,7 @@ BOOL
 pfClipped
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -18460,7 +18460,7 @@ IsReadLocked
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -18504,7 +18504,7 @@ vcView
 TEXTSTORE_DEFAULT_VIEW
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -18549,7 +18549,7 @@ prc
 pfClipped
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -18594,7 +18594,7 @@ acpEnd
 acpStart
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -18711,7 +18711,7 @@ acpEnd
 =
 acpStart
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -18811,7 +18811,7 @@ MinOffsetOfLayoutChanged
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -18907,7 +18907,7 @@ acpStart
 acpEnd
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -18958,7 +18958,7 @@ acpEnd
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -19043,7 +19043,7 @@ event
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -19163,7 +19163,7 @@ if
 refWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -19224,7 +19224,7 @@ prc
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -19412,7 +19412,7 @@ CreateNativeCaret
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -19502,7 +19502,7 @@ RECT
 prc
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -19543,7 +19543,7 @@ vcView
 TEXTSTORE_DEFAULT_VIEW
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -19584,7 +19584,7 @@ if
 prc
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -19627,7 +19627,7 @@ prc
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -19662,7 +19662,7 @@ return
 E_FAIL
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -19740,7 +19740,7 @@ RECT
 aScreenExt
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -19795,7 +19795,7 @@ event
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -19869,7 +19869,7 @@ if
 refWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -19921,7 +19921,7 @@ boundRect
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -20042,7 +20042,7 @@ aScreenExt
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -20117,7 +20117,7 @@ HWND
 phwnd
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -20170,7 +20170,7 @@ vcView
 TEXTSTORE_DEFAULT_VIEW
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -20211,7 +20211,7 @@ if
 phwnd
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -20254,7 +20254,7 @@ GetWindowHandle
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -20322,7 +20322,7 @@ TS_TEXTCHANGE
 pChange
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -20457,7 +20457,7 @@ cch
 pchText
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -20506,7 +20506,7 @@ IsReadLocked
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -20552,7 +20552,7 @@ pacpStart
 pacpEnd
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -20602,7 +20602,7 @@ IsDirty
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -20713,7 +20713,7 @@ IsReadWriteLocked
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -20757,7 +20757,7 @@ if
 pChange
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -20808,7 +20808,7 @@ pacpEnd
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -20855,7 +20855,7 @@ pChange
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -20916,7 +20916,7 @@ acpNewEnd
 ;
 }
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -21027,7 +21027,7 @@ TS_TEXTCHANGE
 aTextChange
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -21103,7 +21103,7 @@ IsInitialized
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -21279,7 +21279,7 @@ EndOffset
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -21405,7 +21405,7 @@ TS_TEXTCHANGE
 pChange
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -21456,7 +21456,7 @@ bool
 aPreserveSelection
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -21544,7 +21544,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -21606,7 +21606,7 @@ bool
 aPreserveSelection
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -21688,7 +21688,7 @@ IsInitialized
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -21778,7 +21778,7 @@ IsDirty
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -21870,7 +21870,7 @@ action
 aPreserveSelection
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -21988,7 +21988,7 @@ RecordCompositionEndAction
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -22106,7 +22106,7 @@ IsInitialized
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -22149,7 +22149,7 @@ EndComposition
 action
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -22190,7 +22190,7 @@ BOOL
 pfOk
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -22260,7 +22260,7 @@ IsComposing
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -22329,7 +22329,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -22384,7 +22384,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -22424,7 +22424,7 @@ pfOk
 =
 TRUE
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -22465,7 +22465,7 @@ ITfRange
 pRangeNew
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -22531,7 +22531,7 @@ mDocumentMgr
 mContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -22577,7 +22577,7 @@ IsComposing
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -22621,7 +22621,7 @@ mView
 pComposition
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -22677,7 +22677,7 @@ mIncomplete
 =
 true
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -22725,7 +22725,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -22774,7 +22774,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -22835,7 +22835,7 @@ IsDirty
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -22870,7 +22870,7 @@ return
 E_FAIL
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -22981,7 +22981,7 @@ ITfCompositionView
 pComposition
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -23061,7 +23061,7 @@ IsComposing
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -23105,7 +23105,7 @@ mView
 pComposition
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -23155,7 +23155,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -23190,7 +23190,7 @@ return
 hr
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -23234,7 +23234,7 @@ DWORD
 pdwCookie
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -23282,7 +23282,7 @@ if
 pdwCookie
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -23331,7 +23331,7 @@ if
 range
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -23372,7 +23372,7 @@ if
 pSink
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -23490,7 +23490,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -23551,7 +23551,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -23600,7 +23600,7 @@ Cookie
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -23646,7 +23646,7 @@ DWORD
 dwCookie
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -23684,7 +23684,7 @@ MouseTracker
 kInvalidCookie
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -23738,7 +23738,7 @@ Length
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -23794,7 +23794,7 @@ IsUsing
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -23836,7 +23836,7 @@ UnadviseSink
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -23880,7 +23880,7 @@ InputContext
 aContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -24121,7 +24121,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -24172,7 +24172,7 @@ aContext
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -24264,7 +24264,7 @@ aFocusedWidget
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -24310,7 +24310,7 @@ mDocumentMgr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -24431,7 +24431,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -24505,7 +24505,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -24661,7 +24661,7 @@ IMENotification
 aIMENotification
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -24816,7 +24816,7 @@ IsInInt32Range
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -24871,7 +24871,7 @@ IsComposing
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -24966,7 +24966,7 @@ mTextChangeData
 mNewEndOffset
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -25049,7 +25049,7 @@ OnSelectionChangeInternal
 void
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -25165,7 +25165,7 @@ IsComposing
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -25215,7 +25215,7 @@ if
 mIsRecordingActionsWithoutLock
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -25259,7 +25259,7 @@ OnSelectionChange
 }
 else
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -25325,7 +25325,7 @@ mSink
 NS_ERROR_FAILURE
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -25409,7 +25409,7 @@ return
 NS_OK
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -25864,7 +25864,7 @@ CreateNativeCaret
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -25921,7 +25921,7 @@ IsDirty
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -26004,7 +26004,7 @@ queryCaretRect
 mSucceeded
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -26080,7 +26080,7 @@ if
 mNativeCaretIsCreated
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -26149,7 +26149,7 @@ if
 toplevelWindow
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -26240,7 +26240,7 @@ bool
 aDiscard
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -26392,7 +26392,7 @@ mComposition
 .
 mStart
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -26502,7 +26502,7 @@ if
 services
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -26672,7 +26672,7 @@ bool
 aState
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -26718,7 +26718,7 @@ comp
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -26762,7 +26762,7 @@ lVal
 =
 aState
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -26908,7 +26908,7 @@ InputContextAction
 aAction
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -27122,7 +27122,7 @@ comp
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -27155,7 +27155,7 @@ aContext
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -27243,7 +27243,7 @@ comp
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -27276,7 +27276,7 @@ aContext
 return
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -27343,7 +27343,7 @@ nsTextStoreWidgets
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -27371,7 +27371,7 @@ if
 sThreadMgr
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -27432,7 +27432,7 @@ BrowserTabsRemoteAutostart
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -27507,7 +27507,7 @@ hr
 inputProcessorProfiles
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -27576,7 +27576,7 @@ hr
 threadMgr
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -27643,7 +27643,7 @@ hr
 messagePump
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -27713,7 +27713,7 @@ hr
 keystrokeMgr
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -27770,7 +27770,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -27834,7 +27834,7 @@ hr
 displayAttributeMgr
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -27905,7 +27905,7 @@ hr
 categoryMgr
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -27972,7 +27972,7 @@ hr
 disabledDocumentMgr
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -28051,7 +28051,7 @@ hr
 disabledContext
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -28098,7 +28098,7 @@ MarkContextAsEmpty
 disabledContext
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -28157,7 +28157,7 @@ Shutdown
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -28324,7 +28324,7 @@ do_not_return_no_layout_error_at_caret
 true
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -28461,7 +28461,7 @@ Terminate
 void
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ALWAYS
@@ -29476,7 +29476,7 @@ nsTextStore
 aTextStore
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -29543,7 +29543,7 @@ LastElement
 this
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -29599,7 +29599,7 @@ Length
 kInvalidCookie
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -29704,7 +29704,7 @@ ITfMouseSink
 aMouseSink
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -29786,7 +29786,7 @@ if
 mSink
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -29845,7 +29845,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -29900,7 +29900,7 @@ mLength
 0
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -29973,7 +29973,7 @@ textContent
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -30050,7 +30050,7 @@ mLength
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -30116,7 +30116,7 @@ mSink
 =
 aMouseSink
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -30182,7 +30182,7 @@ UnadviseSink
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -30301,7 +30301,7 @@ aButtonStatus
 eaten
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -30387,7 +30387,7 @@ if
 sInputProcessorProfiles
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -30461,7 +30461,7 @@ IsVistaOrLater
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR
@@ -30538,7 +30538,7 @@ hr
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 sTextStoreLog
 PR_LOG_ERROR

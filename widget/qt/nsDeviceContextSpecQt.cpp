@@ -151,7 +151,7 @@ DO_PR_DEBUG_LOG
 (
 x
 )
-PR_LOG
+MOZ_LOG
 (
 DeviceContextSpecQtLM
 PR_LOG_DEBUG

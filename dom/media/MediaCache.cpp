@@ -132,7 +132,7 @@ CACHE_LOG
 type
 msg
 )
-PR_LOG
+MOZ_LOG
 (
 gMediaCacheLog
 type

@@ -129,7 +129,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gUrlClassifierPrefixSetLog
 PR_LOG_DEBUG

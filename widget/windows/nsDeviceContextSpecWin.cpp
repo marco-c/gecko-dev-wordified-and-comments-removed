@@ -214,7 +214,7 @@ PR_PL
 (
 _p1
 )
-PR_LOG
+MOZ_LOG
 (
 kWidgetPrintingLogMod
 PR_LOG_DEBUG

@@ -65,7 +65,7 @@ msg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gVorbisTrackEncoderLog
 PR_LOG_DEBUG

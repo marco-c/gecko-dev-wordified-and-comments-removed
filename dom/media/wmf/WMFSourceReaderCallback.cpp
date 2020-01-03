@@ -30,7 +30,7 @@ WMF_CB_LOG
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gWMFSourceReaderCallbackLog
 PR_LOG_DEBUG

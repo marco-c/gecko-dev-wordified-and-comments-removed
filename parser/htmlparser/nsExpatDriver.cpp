@@ -4642,7 +4642,7 @@ EndReading
 end
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetExpatDriverLog
 (
@@ -4752,7 +4752,7 @@ if
 blocked
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetExpatDriverLog
 (
@@ -4846,7 +4846,7 @@ Expat
 "
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetExpatDriverLog
 (
@@ -4938,7 +4938,7 @@ size_forward
 )
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetExpatDriverLog
 (
@@ -5144,7 +5144,7 @@ BlockedOrInterrupted
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetExpatDriverLog
 (
@@ -5415,7 +5415,7 @@ Mark
 (
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 GetExpatDriverLog
 (

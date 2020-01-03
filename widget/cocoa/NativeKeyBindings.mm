@@ -351,7 +351,7 @@ NativeKeyBindings
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gNativeKeyBindingsLog
 PR_LOG_ALWAYS
@@ -1243,7 +1243,7 @@ void
 aCallbackData
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gNativeKeyBindingsLog
 PR_LOG_ALWAYS
@@ -1310,7 +1310,7 @@ type
 NSKeyDown
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gNativeKeyBindingsLog
 PR_LOG_ALWAYS
@@ -1336,7 +1336,7 @@ return
 false
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gNativeKeyBindingsLog
 PR_LOG_ALWAYS
@@ -1370,7 +1370,7 @@ cocoaEvent
 bindingCommands
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gNativeKeyBindingsLog
 PR_LOG_ALWAYS
@@ -1463,7 +1463,7 @@ selectorString
 nsSelectorString
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gNativeKeyBindingsLog
 PR_LOG_ALWAYS
@@ -1691,7 +1691,7 @@ IsEmpty
 )
 )
 {
-PR_LOG
+MOZ_LOG
 (
 gNativeKeyBindingsLog
 PR_LOG_ALWAYS
@@ -1743,7 +1743,7 @@ geckoCommands
 i
 ]
 ;
-PR_LOG
+MOZ_LOG
 (
 gNativeKeyBindingsLog
 PR_LOG_ALWAYS
@@ -1784,7 +1784,7 @@ aCallbackData
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gNativeKeyBindingsLog
 PR_LOG_ALWAYS

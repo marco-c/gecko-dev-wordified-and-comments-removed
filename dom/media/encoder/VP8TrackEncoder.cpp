@@ -81,7 +81,7 @@ msg
 .
 .
 )
-PR_LOG
+MOZ_LOG
 (
 gVP8TrackEncoderLog
 PR_LOG_DEBUG

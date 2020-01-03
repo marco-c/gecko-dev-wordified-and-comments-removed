@@ -147,7 +147,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gWifiMonitorLog
 PR_LOG_DEBUG

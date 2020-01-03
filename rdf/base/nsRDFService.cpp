@@ -3197,7 +3197,7 @@ PromiseFlatCString
 aURI
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -4474,7 +4474,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -4540,7 +4540,7 @@ hdr
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -4681,7 +4681,7 @@ uri
 return
 NS_ERROR_UNEXPECTED
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -4841,7 +4841,7 @@ aReplace
 return
 NS_ERROR_FAILURE
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_NOTICE
@@ -4920,7 +4920,7 @@ key
 aDataSource
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_NOTICE
@@ -5072,7 +5072,7 @@ hep
 hep
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_NOTICE
@@ -5628,7 +5628,7 @@ mKey
 =
 value
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -5707,7 +5707,7 @@ mLiterals
 value
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -5826,7 +5826,7 @@ mKey
 =
 value
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -5900,7 +5900,7 @@ mInts
 value
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -6014,7 +6014,7 @@ mKey
 =
 value
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -6088,7 +6088,7 @@ mDates
 value
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -6189,7 +6189,7 @@ mBlob
 =
 aBlob
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG
@@ -6262,7 +6262,7 @@ aBlob
 mData
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gLog
 PR_LOG_DEBUG

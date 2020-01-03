@@ -2260,7 +2260,7 @@ PluginModuleChild
 endif
 default
 :
-PR_LOG
+MOZ_LOG
 (
 GetPluginLog
 (
@@ -2389,7 +2389,7 @@ void
 aValue
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetPluginLog
 (
@@ -2754,7 +2754,7 @@ rv
 endif
 default
 :
-PR_LOG
+MOZ_LOG
 (
 GetPluginLog
 (
@@ -9607,7 +9607,7 @@ AnswerSetPluginFocus
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetPluginLog
 (
@@ -9707,7 +9707,7 @@ AnswerUpdateWindow
 (
 )
 {
-PR_LOG
+MOZ_LOG
 (
 GetPluginLog
 (

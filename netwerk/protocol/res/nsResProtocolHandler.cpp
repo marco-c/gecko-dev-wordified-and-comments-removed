@@ -1894,7 +1894,7 @@ GetAsciiSpec
 spec
 )
 ;
-PR_LOG
+MOZ_LOG
 (
 gResLog
 PR_LOG_DEBUG

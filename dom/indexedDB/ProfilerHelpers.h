@@ -1402,7 +1402,7 @@ args
 )
 ;
 }
-PR_LOG
+MOZ_LOG
 (
 logModule
 logLevel

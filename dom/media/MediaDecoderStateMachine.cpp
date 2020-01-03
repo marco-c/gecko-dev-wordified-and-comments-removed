@@ -297,7 +297,7 @@ x
 .
 )
 \
-PR_LOG
+MOZ_LOG
 (
 m
 l

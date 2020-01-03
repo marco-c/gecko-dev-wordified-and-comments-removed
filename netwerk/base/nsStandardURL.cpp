@@ -243,7 +243,7 @@ LOG
 (
 args
 )
-PR_LOG
+MOZ_LOG
 (
 gStandardURLLog
 PR_LOG_DEBUG

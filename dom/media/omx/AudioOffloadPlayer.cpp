@@ -186,7 +186,7 @@ type
 msg
 )
 \
-PR_LOG
+MOZ_LOG
 (
 gAudioOffloadPlayerLog
 type
