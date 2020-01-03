@@ -265,6 +265,11 @@ ScriptPreloader
 jsm
 '
 '
+TrustedHostedAppsUtils
+.
+jsm
+'
+'
 Webapps
 .
 jsm
