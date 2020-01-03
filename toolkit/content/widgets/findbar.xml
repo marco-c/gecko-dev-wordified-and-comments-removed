@@ -1341,9 +1341,6 @@ class
 findbar
 -
 highlight
-findbar
--
-button
 tabbable
 "
 label
@@ -1421,9 +1418,6 @@ findbar
 case
 -
 sensitive
-findbar
--
-button
 tabbable
 "
 label
