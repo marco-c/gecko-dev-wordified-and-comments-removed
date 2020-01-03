@@ -713,7 +713,7 @@ network
 .
 predictor
 .
-enable
+enabled
 "
 false
 )

@@ -682,7 +682,7 @@ predictor
 .
 enabled
 "
-false
+true
 )
 ;
 pref
