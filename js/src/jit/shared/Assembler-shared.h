@@ -127,7 +127,6 @@ class
 HeapAccess
 ;
 }
-;
 static
 const
 uint32_t

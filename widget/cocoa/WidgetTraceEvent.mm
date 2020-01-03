@@ -146,6 +146,9 @@ sTracerProcessed
 false
 ;
 }
+/
+/
+namespace
 namespace
 mozilla
 {

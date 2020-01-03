@@ -35,7 +35,6 @@ class
 URIParams
 ;
 }
-;
 enum
 DomainSetChangeType
 {

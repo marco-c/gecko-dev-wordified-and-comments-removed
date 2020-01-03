@@ -33,7 +33,6 @@ class
 Thread
 ;
 }
-;
 namespace
 mozilla
 {

@@ -354,7 +354,15 @@ class
 LayerManager
 ;
 }
+/
+/
+namespace
+layers
 }
+/
+/
+namespace
+mozilla
 using
 namespace
 mozilla

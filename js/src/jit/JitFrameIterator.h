@@ -59,7 +59,6 @@ class
 ActivationIterator
 ;
 }
-;
 namespace
 js
 {

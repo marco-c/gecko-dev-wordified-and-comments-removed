@@ -955,8 +955,10 @@ sUpdateTimer
 }
 /
 /
+namespace
 hal_impl
 }
 /
 /
+namespace
 mozilla

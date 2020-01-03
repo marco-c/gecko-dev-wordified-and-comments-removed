@@ -3670,7 +3670,6 @@ class
 JitActivation
 ;
 }
-;
 class
 Activation
 {

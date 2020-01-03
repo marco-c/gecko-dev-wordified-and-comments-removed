@@ -792,7 +792,6 @@ promise
 ;
 }
 }
-;
 class
 ThenableResolverTask
 final

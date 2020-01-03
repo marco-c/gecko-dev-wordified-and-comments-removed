@@ -204,6 +204,9 @@ CPU_TYPE_ANY
 }
 ;
 }
+/
+/
+namespace
 void
 LaunchChildMac
 (

@@ -82,7 +82,6 @@ class
 EventTarget
 ;
 }
-;
 template
 <
 typename

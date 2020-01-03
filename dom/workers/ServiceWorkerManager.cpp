@@ -6973,7 +6973,6 @@ forget
 ;
 }
 }
-;
 class
 LifecycleEventPromiseHandler
 final

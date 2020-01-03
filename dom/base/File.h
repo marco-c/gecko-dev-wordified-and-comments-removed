@@ -222,7 +222,6 @@ class
 FileInfo
 ;
 }
-;
 struct
 BlobPropertyBag
 ;

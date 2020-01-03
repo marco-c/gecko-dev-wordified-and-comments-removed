@@ -5700,7 +5700,6 @@ setAutoFlushICacheRange
 }
 ;
 }
-;
 bool
 AsmJSModule
 :

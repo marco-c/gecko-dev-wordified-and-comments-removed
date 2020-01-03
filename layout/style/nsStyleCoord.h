@@ -92,7 +92,6 @@ eLogicalEdgeEnd
 }
 ;
 }
-;
 enum
 nsStyleUnit
 :

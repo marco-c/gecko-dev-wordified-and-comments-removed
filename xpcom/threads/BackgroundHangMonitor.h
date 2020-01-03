@@ -55,7 +55,6 @@ class
 ThreadHangStats
 ;
 }
-;
 class
 BackgroundHangThread
 ;

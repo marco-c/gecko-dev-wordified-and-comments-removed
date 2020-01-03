@@ -354,7 +354,6 @@ gCanUseExtraThreads
 true
 ;
 }
-;
 void
 js
 :
