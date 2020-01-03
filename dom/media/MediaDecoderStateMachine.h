@@ -1346,6 +1346,9 @@ int64_t
 mAudioEndTime
 ;
 int64_t
+mDecodedAudioEndTime
+;
+int64_t
 mVideoFrameEndTime
 ;
 double
