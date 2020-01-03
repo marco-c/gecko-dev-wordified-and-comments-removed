@@ -7805,7 +7805,7 @@ SetLineJoin
 JoinStyle
 :
 :
-MITER
+MITER_OR_BEVEL
 )
 ;
 break
