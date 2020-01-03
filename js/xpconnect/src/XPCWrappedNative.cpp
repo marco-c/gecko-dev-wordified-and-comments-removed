@@ -19,13 +19,6 @@ h
 #
 include
 "
-nsIProgrammingLanguage
-.
-h
-"
-#
-include
-"
 nsWrapperCacheInlines
 .
 h
