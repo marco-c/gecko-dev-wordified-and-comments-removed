@@ -1698,13 +1698,6 @@ tableInterpolationFactor
 )
 ;
 mPhase
-+
-=
-basePhaseIncrement
-*
-mFinalFrequency
-;
-mPhase
 =
 fmod
 (
@@ -1806,6 +1799,13 @@ tableInterpolationFactor
 )
 *
 higher
+;
+mPhase
++
+=
+basePhaseIncrement
+*
+mFinalFrequency
 ;
 }
 }
