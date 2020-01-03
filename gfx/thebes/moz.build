@@ -605,6 +605,11 @@ SOURCES
 =
 [
 '
+gfxFcPlatformFontList
+.
+cpp
+'
+'
 gfxFontconfigUtils
 .
 cpp
