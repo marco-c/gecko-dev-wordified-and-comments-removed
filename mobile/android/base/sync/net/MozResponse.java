@@ -855,8 +855,6 @@ this
 getIntegerHeader
 (
 "
-x
--
 backoff
 "
 )
