@@ -6224,13 +6224,6 @@ nsIPrincipal
 >
 mSheetPrincipal
 ;
-mozilla
-:
-:
-CSSStyleSheet
-*
-mSheet
-;
 uint32_t
 mLineNumber
 ;
