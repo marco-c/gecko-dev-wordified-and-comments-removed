@@ -4993,7 +4993,7 @@ dest
 ;
 }
 void
-moveAlignedInt32x4
+moveInt32x4
 (
 FloatRegister
 src
@@ -5369,7 +5369,7 @@ dest
 ;
 }
 void
-moveAlignedFloat32x4
+moveFloat32x4
 (
 FloatRegister
 src
@@ -5689,7 +5689,7 @@ src
 =
 dest
 )
-moveAlignedFloat32x4
+moveFloat32x4
 (
 src
 dest

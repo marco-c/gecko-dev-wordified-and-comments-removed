@@ -2509,7 +2509,7 @@ isFloatReg
 )
 masm
 .
-moveAlignedInt32x4
+moveInt32x4
 (
 from
 .
@@ -2636,7 +2636,7 @@ isFloatReg
 )
 masm
 .
-moveAlignedFloat32x4
+moveFloat32x4
 (
 from
 .
