@@ -33,6 +33,17 @@ SyncProfile
 (
 )
 ;
+void
+StreamJSON
+(
+SpliceableJSONWriter
+&
+aWriter
+UniqueStacks
+&
+aUniqueStacks
+)
+;
 virtual
 void
 EndUnwind

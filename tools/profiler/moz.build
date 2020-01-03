@@ -139,11 +139,6 @@ GeckoProfilerImpl
 h
 '
 '
-JSStreamWriter
-.
-h
-'
-'
 ProfilerBacktrace
 .
 h
@@ -181,11 +176,6 @@ UNIFIED_SOURCES
 =
 [
 '
-JSStreamWriter
-.
-cpp
-'
-'
 nsProfiler
 .
 cpp
@@ -207,6 +197,11 @@ cpp
 '
 '
 ProfileEntry
+.
+cpp
+'
+'
+ProfileJSONWriter
 .
 cpp
 '

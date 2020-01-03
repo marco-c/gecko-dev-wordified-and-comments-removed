@@ -136,11 +136,6 @@ UNIFIED_SOURCES
 =
 [
 '
-JSStreamWriterTest
-.
-cpp
-'
-'
 ThreadProfileTest
 .
 cpp

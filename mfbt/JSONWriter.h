@@ -563,7 +563,7 @@ MultiLineStyle
 SingleLineStyle
 }
 ;
-private
+protected
 :
 const
 UniquePtr

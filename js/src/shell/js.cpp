@@ -24467,6 +24467,15 @@ return
 true
 ;
 }
+gc
+:
+:
+AutoSuppressGC
+suppress
+(
+cx
+)
+;
 jit
 :
 :

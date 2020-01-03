@@ -11,6 +11,15 @@ LulPlatformMacros
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Atomics
+.
+h
+"
 namespace
 lul
 {
