@@ -6883,11 +6883,11 @@ JSObject
 addr
 )
 ;
-HeapValue
+HeapSlot
 *
 vp
 ;
-HeapValue
+HeapSlot
 *
 end
 ;

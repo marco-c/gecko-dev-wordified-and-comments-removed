@@ -767,9 +767,6 @@ strictCompartmentChecking
 }
 #
 endif
-MarkStack
-stack
-;
 private
 :
 #
@@ -1076,10 +1073,10 @@ pushValueArray
 JSObject
 *
 obj
-void
+HeapSlot
 *
 start
-void
+HeapSlot
 *
 end
 )
@@ -1195,6 +1192,9 @@ SliceBudget
 &
 budget
 )
+;
+MarkStack
+stack
 ;
 uint32_t
 color
