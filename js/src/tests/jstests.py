@@ -55,7 +55,7 @@ lib
 .
 tests
 import
-TestCase
+RefTestCase
 get_jitflags
 from
 lib
@@ -2034,7 +2034,7 @@ debugger_path
     
 prefix
 =
-TestCase
+RefTestCase
 .
 build_js_cmd_prefix
 (
@@ -2042,7 +2042,7 @@ options
 .
 js_shell
 js_cmd_args
-                                          
+                                             
 debugger_prefix
 )
     
@@ -2455,12 +2455,12 @@ test_gen
 =
 manifest
 .
-load
+load_reftests
 (
 test_dir
 requested_paths
 excluded_paths
-                              
+                                      
 xul_tester
 )
     
@@ -2983,7 +2983,7 @@ test_gen
 .
 get_command
 (
-TestCase
+RefTestCase
 .
 js_cmd_prefix
 )

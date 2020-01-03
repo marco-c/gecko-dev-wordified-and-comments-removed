@@ -2114,7 +2114,7 @@ test_list
 [
 jittests
 .
-Test
+JitTest
 .
 from_file
 (
