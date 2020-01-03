@@ -217,8 +217,9 @@ i
 arr
 -
 >
-initDenseElement
+initDenseElementWithType
 (
+cx
 i
 UndefinedValue
 (
