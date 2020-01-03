@@ -1725,11 +1725,6 @@ _
 (
 NewTarget
 )
-\
-_
-(
-ArrowNewTarget
-)
 #
 if
 defined

@@ -2484,7 +2484,7 @@ lambda_arrow
 "
 NULL
 5
-2
+1
 1
 JOF_OBJECT
 )
