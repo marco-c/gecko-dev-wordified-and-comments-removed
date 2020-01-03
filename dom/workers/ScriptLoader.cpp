@@ -537,8 +537,6 @@ bool
 aIsMainScript
 WorkerScriptType
 aWorkerScriptType
-nsContentPolicyType
-aContentPolicyType
 nsIChannel
 *
 *
@@ -603,7 +601,10 @@ rv
 =
 NS_CheckContentLoadPolicy
 (
-aContentPolicyType
+nsIContentPolicy
+:
+:
+TYPE_SCRIPT
 uri
 principal
 parentDoc
@@ -839,7 +840,10 @@ nsILoadInfo
 :
 :
 SEC_NORMAL
-aContentPolicyType
+nsIContentPolicy
+:
+:
+TYPE_SCRIPT
 loadGroup
 nullptr
 flags
@@ -877,7 +881,10 @@ nsILoadInfo
 :
 :
 SEC_NORMAL
-aContentPolicyType
+nsIContentPolicy
+:
+:
+TYPE_SCRIPT
 loadGroup
 nullptr
 flags
@@ -3419,12 +3426,6 @@ IsMainWorkerScript
 (
 )
 mWorkerScriptType
-mWorkerPrivate
--
->
-ContentPolicyType
-(
-)
 getter_AddRefs
 (
 channel
@@ -6677,10 +6678,6 @@ baseURI
 parentDoc
 loadGroup
 mScriptURL
-nsIContentPolicy
-:
-:
-TYPE_INTERNAL_WORKER
 getter_AddRefs
 (
 channel
@@ -7658,8 +7655,6 @@ const
 nsAString
 &
 aScriptURL
-nsContentPolicyType
-aContentPolicyType
 nsIChannel
 *
 *
@@ -7717,7 +7712,6 @@ secMan
 aScriptURL
 true
 WorkerScript
-aContentPolicyType
 aChannel
 )
 ;
