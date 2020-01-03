@@ -652,7 +652,7 @@ message1
 return
 ;
 }
-info
+ok
 (
 true
 "
