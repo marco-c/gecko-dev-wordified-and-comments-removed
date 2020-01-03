@@ -701,6 +701,10 @@ mAttachedWidgetListener
 (
 nullptr
 )
+mLayerManager
+(
+nullptr
+)
 mCompositorVsyncDispatcher
 (
 nullptr
