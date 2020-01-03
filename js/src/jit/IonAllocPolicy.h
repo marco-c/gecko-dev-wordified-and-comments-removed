@@ -70,6 +70,16 @@ lifoScope_
 ;
 public
 :
+static
+const
+size_t
+BallastSize
+;
+static
+const
+size_t
+PreferredLifoChunkSize
+;
 explicit
 TempAllocator
 (
@@ -236,9 +246,7 @@ alloc
 .
 ensureUnusedApproximate
 (
-16
-*
-1024
+BallastSize
 )
 ;
 }
