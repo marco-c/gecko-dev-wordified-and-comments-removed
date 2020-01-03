@@ -15911,6 +15911,12 @@ shape
 return
 nullptr
 ;
+AutoSetNewObjectMetadata
+metadata
+(
+cx
+)
+;
 RootedArrayObject
 arrayProto
 (
@@ -15935,6 +15941,7 @@ TenuredHeap
 shape
 group
 0
+metadata
 )
 )
 ;
@@ -16006,6 +16013,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Array
 )
+|
+JSCLASS_DELAY_METADATA_CALLBACK
 array_addProperty
 nullptr
 nullptr
@@ -16272,6 +16281,12 @@ ArrayObject
 class_
 )
 ;
+AutoSetNewObjectMetadata
+metadata
+(
+cx
+)
+;
 JSObject
 *
 obj
@@ -16446,6 +16461,12 @@ shape
 return
 nullptr
 ;
+AutoSetNewObjectMetadata
+metadata
+(
+cxArg
+)
+;
 RootedArrayObject
 arr
 (
@@ -16469,6 +16490,7 @@ class_
 shape
 group
 length
+metadata
 )
 )
 ;
@@ -16889,6 +16911,12 @@ JSObject
 templateObject
 )
 {
+AutoSetNewObjectMetadata
+metadata
+(
+cx
+)
+;
 gc
 :
 :
@@ -16986,6 +17014,7 @@ heap
 shape
 group
 length
+metadata
 )
 )
 ;

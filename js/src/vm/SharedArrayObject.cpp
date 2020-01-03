@@ -1144,6 +1144,12 @@ SharedArrayRawBuffer
 buffer
 )
 {
+AutoSetNewObjectMetadata
+metadata
+(
+cx
+)
+;
 Rooted
 <
 SharedArrayBufferObject
@@ -1415,6 +1421,8 @@ class_
 SharedArrayBuffer
 "
 JSCLASS_IMPLEMENTS_BARRIERS
+|
+JSCLASS_DELAY_METADATA_CALLBACK
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (

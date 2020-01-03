@@ -10472,6 +10472,13 @@ fop
 c
 -
 >
+sweepObjectPendingMetadata
+(
+)
+;
+c
+-
+>
 sweepSelfHostingScriptSource
 (
 )
@@ -23300,6 +23307,13 @@ sweepGlobalObject
 (
 &
 fop
+)
+;
+c
+-
+>
+sweepObjectPendingMetadata
+(
 )
 ;
 c

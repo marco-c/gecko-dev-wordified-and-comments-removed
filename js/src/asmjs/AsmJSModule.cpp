@@ -5946,6 +5946,8 @@ JSCLASS_IS_ANONYMOUS
 |
 JSCLASS_IMPLEMENTS_BARRIERS
 |
+JSCLASS_DELAY_METADATA_CALLBACK
+|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 AsmJSModuleObject
@@ -5986,6 +5988,12 @@ AsmJSModule
 module
 )
 {
+AutoSetNewObjectMetadata
+metadata
+(
+cx
+)
+;
 JSObject
 *
 obj
