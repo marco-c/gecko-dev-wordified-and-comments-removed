@@ -782,6 +782,7 @@ TypedObjectSet
 descr
 typedObj
 offset
+name
 fromValue
 )
 {
@@ -827,6 +828,7 @@ TypedObjectSetReference
 descr
 typedObj
 offset
+name
 fromValue
 )
 ;
@@ -965,6 +967,7 @@ typedObj
 offset
 +
 fieldOffset
+fieldName
 fieldValue
 )
 ;
@@ -1069,6 +1072,7 @@ TypedObjectSet
 elemDescr
 typedObj
 elemOffset
+null
 fromValue
 [
 i
@@ -1286,6 +1290,7 @@ TypedObjectSetReference
 descr
 typedObj
 offset
+name
 fromValue
 )
 {
@@ -1310,6 +1315,7 @@ Store_Any
 (
 typedObj
 offset
+name
 fromValue
 )
 ;
@@ -1339,6 +1345,7 @@ Store_Object
 (
 typedObj
 offset
+name
 value
 )
 ;
@@ -1350,6 +1357,7 @@ Store_string
 (
 typedObj
 offset
+name
 ToString
 (
 fromValue
@@ -1586,6 +1594,7 @@ ConvertAndCopyTo
 destDescr
 destTypedObj
 destOffset
+fieldName
 fromValue
 )
 {
@@ -1649,6 +1658,7 @@ TypedObjectSet
 destDescr
 destTypedObj
 destOffset
+fieldName
 fromValue
 )
 ;
@@ -3776,6 +3786,7 @@ TypedObjectSet
 grainType
 result
 outOffset
+null
 r
 )
 ;
@@ -4287,6 +4298,7 @@ TypedObjectSet
 outGrainType
 result
 outOffset
+null
 r
 )
 ;
@@ -4652,6 +4664,7 @@ TypedObjectSet
 outGrainType
 result
 outOffset
+null
 r
 )
 ;
@@ -4828,6 +4841,7 @@ TypedObjectSet
 outGrainType
 result
 outOffset
+null
 r
 )
 ;

@@ -3158,9 +3158,12 @@ private
 :
 \
 static
-void
+bool
 store
 (
+ThreadSafeContext
+*
+cx
 T
 *
 heap
@@ -3168,6 +3171,12 @@ const
 Value
 &
 v
+\
+TypedObject
+*
+obj
+jsid
+id
 )
 ;
 \
