@@ -2906,7 +2906,7 @@ Ci
 .
 mozIStorageStatementCallback
 .
-REASON_CANCELLED
+REASON_CANCELED
 :
 if
 (
