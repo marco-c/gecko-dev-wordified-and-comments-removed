@@ -7453,7 +7453,7 @@ android
 ellipsize
 "
 >
-end
+none
 <
 /
 item
@@ -7468,7 +7468,7 @@ android
 maxLines
 "
 >
-1
+3
 <
 /
 item
