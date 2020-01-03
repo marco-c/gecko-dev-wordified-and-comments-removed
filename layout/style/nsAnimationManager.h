@@ -732,13 +732,6 @@ aTime
 )
 override
 ;
-void
-FlushAnimations
-(
-FlushFlags
-aFlags
-)
-;
 nsIStyleRule
 *
 CheckAnimationRule

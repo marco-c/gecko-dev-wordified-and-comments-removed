@@ -840,13 +840,6 @@ aTime
 override
 ;
 void
-FlushTransitions
-(
-FlushFlags
-aFlags
-)
-;
-void
 QueueEvent
 (
 mozilla

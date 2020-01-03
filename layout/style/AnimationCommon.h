@@ -464,6 +464,13 @@ Can_Throttle
 Cannot_Throttle
 }
 ;
+void
+FlushAnimations
+(
+FlushFlags
+aFlags
+)
+;
 nsIStyleRule
 *
 GetAnimationRule
