@@ -70,6 +70,13 @@ webaudioeditor
 =
 [
 '
+modules
+/
+queue
+.
+js
+'
+'
 panel
 .
 js

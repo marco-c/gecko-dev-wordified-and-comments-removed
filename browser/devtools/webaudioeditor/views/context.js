@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-debounce
+throttle
 }
 =
 require
@@ -63,9 +63,9 @@ CED3D9
 }
 ;
 const
-GRAPH_DEBOUNCE_TIMER
+GRAPH_THROTTLE_TIMER
 =
-100
+500
 ;
 const
 GRAPH_REDRAW_EVENTS
@@ -151,7 +151,7 @@ this
 .
 draw
 =
-debounce
+throttle
 (
 this
 .
@@ -161,7 +161,7 @@ bind
 (
 this
 )
-GRAPH_DEBOUNCE_TIMER
+GRAPH_THROTTLE_TIMER
 )
 ;
 (
