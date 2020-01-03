@@ -1807,6 +1807,11 @@ profilerUI
 startRecording
 ;
 "
+standalone
+=
+"
+true
+"
 /
 >
 <
@@ -2022,6 +2027,11 @@ profilerUI
 .
 stopRecording
 ;
+"
+standalone
+=
+"
+true
 "
 /
 >
