@@ -698,6 +698,10 @@ ConsoleRunnable
 (
 )
 {
+Shutdown
+(
+)
+;
 }
 bool
 Dispatch
