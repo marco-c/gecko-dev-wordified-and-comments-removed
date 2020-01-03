@@ -450,8 +450,8 @@ media
 .
 useAudioChannelService
 "
+SetterThrows
 ]
-readonly
 attribute
 AudioChannel
 mozAudioChannelType
