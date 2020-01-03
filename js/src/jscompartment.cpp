@@ -3883,15 +3883,6 @@ sourceObject
 lazy
 -
 >
-maybeScript
-(
-)
-&
-&
-!
-lazy
--
->
 hasUncompiledEnclosingScript
 (
 )
