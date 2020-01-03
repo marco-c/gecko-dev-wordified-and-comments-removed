@@ -324,6 +324,15 @@ forget
 }
 already_AddRefed
 <
+mozilla
+:
+:
+dom
+:
+:
+workers
+:
+:
 MessagePort
 >
 SharedWorker
