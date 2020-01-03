@@ -609,6 +609,13 @@ WindowsVersion
 h
 "
 #
+include
+"
+gfxPrefs
+.
+h
+"
+#
 ifndef
 PROCESS_DEP_ENABLE
 #
@@ -8846,6 +8853,13 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+gfxPrefs
+:
+:
+GetSingleton
+(
 )
 ;
 rv
