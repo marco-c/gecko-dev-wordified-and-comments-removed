@@ -1223,6 +1223,10 @@ urlIndex
 =
 content
 .
+toUpperCase
+(
+)
+.
 indexOf
 (
 "
