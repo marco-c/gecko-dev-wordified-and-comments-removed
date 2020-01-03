@@ -9989,7 +9989,7 @@ rv
 =
 mAttrsAndChildren
 .
-SetAndTakeAttr
+SetAndSwapAttr
 (
 aName
 aParsedValue
@@ -10036,7 +10036,7 @@ rv
 =
 mAttrsAndChildren
 .
-SetAndTakeAttr
+SetAndSwapAttr
 (
 ni
 aParsedValue

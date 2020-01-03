@@ -1221,7 +1221,7 @@ rv
 =
 mAttrsAndChildren
 .
-SetAndTakeAttr
+SetAndSwapAttr
 (
 nsGkAtoms
 :
@@ -6575,7 +6575,7 @@ serializedValue
 ;
 mAttrsAndChildren
 .
-SetAndTakeAttr
+SetAndSwapAttr
 (
 aName
 oldAttrValue

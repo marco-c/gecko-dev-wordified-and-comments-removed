@@ -1996,7 +1996,7 @@ element
 >
 mAttrsAndChildren
 .
-SetAndTakeAttr
+SetAndSwapAttr
 (
 originalName
 -
@@ -2017,7 +2017,7 @@ element
 >
 mAttrsAndChildren
 .
-SetAndTakeAttr
+SetAndSwapAttr
 (
 originalName
 -
@@ -8559,7 +8559,7 @@ rv
 =
 mAttrsAndChildren
 .
-SetAndTakeAttr
+SetAndSwapAttr
 (
 protoattr
 -
@@ -8579,7 +8579,7 @@ rv
 =
 mAttrsAndChildren
 .
-SetAndTakeAttr
+SetAndSwapAttr
 (
 protoattr
 -
