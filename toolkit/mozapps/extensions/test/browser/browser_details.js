@@ -1250,8 +1250,6 @@ get
 detail
 -
 screenshot
--
-box
 "
 )
 "
@@ -2974,8 +2972,6 @@ get
 detail
 -
 screenshot
--
-box
 "
 )
 "
@@ -3810,8 +3806,6 @@ get
 detail
 -
 screenshot
--
-box
 "
 )
 "
@@ -9825,8 +9819,6 @@ get
 detail
 -
 screenshot
--
-box
 "
 )
 "
