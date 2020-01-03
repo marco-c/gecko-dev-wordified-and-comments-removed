@@ -1978,6 +1978,7 @@ mResource
 -
 >
 mOffset
+true
 )
 ;
 RESOURCE_LOG

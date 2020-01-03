@@ -326,8 +326,16 @@ mOmxReader
 >
 NotifyDataArrived
 (
-length
+Interval
+<
+int64_t
+>
+(
 mOffset
+mOffset
++
+length
+)
 )
 ;
 mLength
