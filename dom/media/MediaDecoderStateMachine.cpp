@@ -11446,7 +11446,6 @@ mSentPlaybackEndedEvent
 =
 true
 ;
-}
 StopAudioThread
 (
 )
@@ -11458,6 +11457,7 @@ StopPlayback
 (
 )
 ;
+}
 return
 NS_OK
 ;
