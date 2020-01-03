@@ -6537,6 +6537,7 @@ JSPropertyDescriptor
 >
 desc
 bool
+&
 cacheOnHolder
 )
 {
