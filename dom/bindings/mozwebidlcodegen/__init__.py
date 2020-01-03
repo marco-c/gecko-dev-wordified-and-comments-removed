@@ -816,7 +816,7 @@ self
 config_path
 inputs
 exported_header_dir
-        
+            
 codegen_dir
 state_path
 cache_dir
@@ -825,7 +825,7 @@ None
 make_deps_path
 =
 None
-        
+            
 make_deps_target
 =
 None
@@ -1104,7 +1104,7 @@ or
 not
 make_deps_path
 and
-            
+                
 make_deps_target
 )
 :
