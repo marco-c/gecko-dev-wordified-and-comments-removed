@@ -827,14 +827,6 @@ this
 exitDomFullScreen
 )
 ;
-if
-(
-!
-this
-.
-useLionFullScreen
-)
-{
 window
 .
 addEventListener
@@ -845,7 +837,6 @@ activate
 this
 )
 ;
-}
 this
 .
 hideNavToolbox
@@ -977,13 +968,6 @@ this
 exitDomFullScreen
 )
 ;
-if
-(
-!
-this
-.
-useLionFullScreen
-)
 window
 .
 removeEventListener
