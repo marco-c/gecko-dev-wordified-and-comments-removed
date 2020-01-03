@@ -1025,7 +1025,7 @@ sSampler
 maskCoords
 )
 .
-a
+r
 ;
 return
 tRGB
@@ -1079,7 +1079,7 @@ LayerTextureSamplerLinear
 maskCoords
 )
 .
-a
+r
 ;
 return
 tRGB
@@ -1148,7 +1148,7 @@ sSampler
 maskCoords
 )
 .
-a
+r
 ;
 return
 result
@@ -1335,7 +1335,7 @@ sSampler
 aTexCoords
 )
 .
-a
+r
 -
 0
 .
@@ -1353,7 +1353,7 @@ sSampler
 aTexCoords
 )
 .
-a
+r
 -
 0
 .
@@ -1371,7 +1371,7 @@ sSampler
 aTexCoords
 )
 .
-a
+r
 -
 0
 .
@@ -1485,7 +1485,7 @@ sSampler
 maskCoords
 )
 .
-a
+r
 ;
 return
 CalculateYCbCrColor
@@ -1579,7 +1579,7 @@ sSampler
 maskCoords
 )
 .
-a
+r
 ;
 result
 .
@@ -1631,7 +1631,7 @@ sSampler
 maskCoords
 )
 .
-a
+r
 ;
 return
 fLayerColor

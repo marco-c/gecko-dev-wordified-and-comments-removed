@@ -152,7 +152,7 @@ SurfaceFormat
 A8
 :
 return
-DXGI_FORMAT_A8_UNORM
+DXGI_FORMAT_R8_UNORM
 ;
 default
 :
@@ -2021,7 +2021,7 @@ SurfaceFormat
 :
 A8
 ?
-DXGI_FORMAT_A8_UNORM
+DXGI_FORMAT_R8_UNORM
 :
 DXGI_FORMAT_B8G8R8A8_UNORM
 aSize

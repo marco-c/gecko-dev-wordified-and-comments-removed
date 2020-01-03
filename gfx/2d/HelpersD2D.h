@@ -551,6 +551,9 @@ format
 case
 DXGI_FORMAT_A8_UNORM
 :
+case
+DXGI_FORMAT_R8_UNORM
+:
 return
 SurfaceFormat
 :
