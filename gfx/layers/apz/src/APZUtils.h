@@ -71,6 +71,14 @@ typedef
 uint32_t
 TouchBehaviorFlags
 ;
+const
+float
+COORDINATE_EPSILON
+=
+0
+.
+01f
+;
 template
 <
 typename
@@ -101,6 +109,7 @@ x
 0
 .
 0f
+COORDINATE_EPSILON
 )
 &
 &
@@ -112,6 +121,7 @@ y
 0
 .
 0f
+COORDINATE_EPSILON
 )
 ;
 }
