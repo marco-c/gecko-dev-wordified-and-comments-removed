@@ -1478,6 +1478,12 @@ finish
 }
 )
 ;
+mockPushHandler
+.
+registrationPushURL
+=
+kEndPointUrl
+;
 yield
 MozLoopService
 .

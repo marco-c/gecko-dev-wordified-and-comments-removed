@@ -246,6 +246,12 @@ setupFakeLoopServer
 (
 )
 ;
+mockPushHandler
+.
+registrationPushURL
+=
+kEndPointUrl
+;
 do_register_cleanup
 (
 function

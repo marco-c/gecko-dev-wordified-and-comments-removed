@@ -130,6 +130,12 @@ actionReceived
 =
 false
 ;
+mockPushHandler
+.
+registrationPushURL
+=
+kEndPointUrl
+;
 MozLoopService
 .
 promiseRegisteredWithServers

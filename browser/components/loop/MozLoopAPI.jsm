@@ -1379,6 +1379,7 @@ value
 :
 function
 (
+sessionType
 callback
 )
 {
@@ -1386,6 +1387,7 @@ MozLoopService
 .
 promiseRegisteredWithServers
 (
+sessionType
 )
 .
 then
