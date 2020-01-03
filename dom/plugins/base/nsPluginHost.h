@@ -1214,6 +1214,14 @@ uint32_t
 aEpoch
 )
 ;
+bool
+ShouldAddPlugin
+(
+nsPluginTag
+*
+aPluginTag
+)
+;
 nsRefPtr
 <
 nsPluginTag
