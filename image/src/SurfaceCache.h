@@ -284,7 +284,7 @@ RasterSurfaceKey
 const
 IntSize
 &
-const
+uint32_t
 uint32_t
 )
 ;
@@ -301,7 +301,6 @@ Maybe
 SVGImageContext
 >
 &
-const
 float
 )
 ;
@@ -333,9 +332,10 @@ gfx
 IntSize
 &
 aSize
-const
 uint32_t
 aFlags
+uint32_t
+aFrameNum
 )
 {
 return
@@ -345,9 +345,10 @@ aSize
 Nothing
 (
 )
-0
-.
-0f
+float
+(
+aFrameNum
+)
 aFlags
 )
 ;
@@ -370,7 +371,6 @@ SVGImageContext
 >
 &
 aSVGContext
-const
 float
 aAnimationTime
 )

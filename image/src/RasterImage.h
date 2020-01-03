@@ -330,7 +330,11 @@ GetNumFrames
 (
 )
 const
+{
+return
+mFrameCount
 ;
+}
 virtual
 size_t
 SizeOfSourceWithComputedFallback
@@ -877,6 +881,9 @@ mDecoder
 DecodeStatus
 mDecodeStatus
 ;
+uint32_t
+mFrameCount
+;
 Progress
 mNotifyProgress
 ;
@@ -915,11 +922,6 @@ mHasSourceData
 ;
 bool
 mDecoded
-:
-1
-;
-bool
-mHasFirstFrame
 :
 1
 ;

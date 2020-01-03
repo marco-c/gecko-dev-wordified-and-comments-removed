@@ -211,6 +211,11 @@ RawAccessRef
 (
 )
 ;
+void
+SetRawAccessOnly
+(
+)
+;
 bool
 Draw
 (
