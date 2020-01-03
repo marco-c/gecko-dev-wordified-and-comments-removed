@@ -523,7 +523,7 @@ case
 type
 :
 :
-X4
+Simd
 :
 case
 type
@@ -669,7 +669,7 @@ case
 type
 :
 :
-X4
+Simd
 :
 case
 type
@@ -830,7 +830,7 @@ case
 type
 :
 :
-X4
+Simd
 :
 case
 type
@@ -1091,14 +1091,14 @@ ReferenceTypeDescr
 )
 ;
 }
-X4TypeDescr
+SimdTypeDescr
 :
 :
 Type
 TypedObjectPrediction
 :
 :
-x4Type
+simdType
 (
 )
 const
@@ -1106,7 +1106,7 @@ const
 return
 extractType
 <
-X4TypeDescr
+SimdTypeDescr
 >
 (
 )

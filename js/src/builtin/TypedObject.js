@@ -300,10 +300,10 @@ offset
 )
 ;
 case
-JS_TYPEREPR_X4_KIND
+JS_TYPEREPR_SIMD_KIND
 :
 return
-TypedObjectGetX4
+TypedObjectGetSimd
 (
 descr
 typedObj
@@ -683,7 +683,7 @@ undefined
 ;
 }
 function
-TypedObjectGetX4
+TypedObjectGetSimd
 (
 descr
 typedObj
@@ -704,7 +704,7 @@ type
 )
 {
 case
-JS_X4TYPEREPR_FLOAT32
+JS_SIMDTYPEREPR_FLOAT32
 :
 var
 x
@@ -762,7 +762,7 @@ w
 )
 ;
 case
-JS_X4TYPEREPR_INT32
+JS_SIMDTYPEREPR_INT32
 :
 var
 x
@@ -825,7 +825,7 @@ assert
 false
 "
 Unhandled
-x4
+SIMD
 type
 :
 "
@@ -960,9 +960,9 @@ fromValue
 return
 ;
 case
-JS_TYPEREPR_X4_KIND
+JS_TYPEREPR_SIMD_KIND
 :
-TypedObjectSetX4
+TypedObjectSetSimd
 (
 descr
 typedObj
@@ -1527,7 +1527,7 @@ undefined
 ;
 }
 function
-TypedObjectSetX4
+TypedObjectSetSimd
 (
 descr
 typedObj
@@ -1979,7 +1979,7 @@ this
 ;
 }
 function
-X4ProtoString
+SimdProtoString
 (
 type
 )
@@ -1990,7 +1990,7 @@ type
 )
 {
 case
-JS_X4TYPEREPR_INT32
+JS_SIMDTYPEREPR_INT32
 :
 return
 "
@@ -1998,7 +1998,7 @@ int32x4
 "
 ;
 case
-JS_X4TYPEREPR_FLOAT32
+JS_SIMDTYPEREPR_FLOAT32
 :
 return
 "
@@ -2021,7 +2021,7 @@ undefined
 ;
 }
 function
-X4ToSource
+SimdToSource
 (
 )
 {
@@ -2044,7 +2044,7 @@ ThrowError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
-X4
+SIMD
 "
 "
 toSource
@@ -2069,13 +2069,13 @@ descr
 )
 !
 =
-JS_TYPEREPR_X4_KIND
+JS_TYPEREPR_SIMD_KIND
 )
 ThrowError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
-X4
+SIMD
 "
 "
 toSource
@@ -2093,7 +2093,7 @@ descr
 )
 ;
 return
-X4ProtoString
+SimdProtoString
 (
 type
 )

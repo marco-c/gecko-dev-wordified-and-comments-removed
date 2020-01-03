@@ -1550,7 +1550,7 @@ type
 ;
 }
 static
-X4TypeDescr
+SimdTypeDescr
 :
 :
 Type
@@ -1724,7 +1724,7 @@ type
 )
 ;
 RootedObject
-x4desc
+simdDesc
 (
 cx
 &
@@ -1738,12 +1738,12 @@ toObject
 if
 (
 !
-x4desc
+simdDesc
 -
 >
 is
 <
-X4TypeDescr
+SimdTypeDescr
 >
 (
 )
@@ -1767,12 +1767,12 @@ type
 )
 !
 =
-x4desc
+simdDesc
 -
 >
 as
 <
-X4TypeDescr
+SimdTypeDescr
 >
 (
 )
@@ -3792,7 +3792,7 @@ true
 }
 JSObject
 *
-x4obj
+simdObj
 ;
 switch
 (
@@ -3892,7 +3892,7 @@ AsmJSModule
 :
 Return_Int32x4
 :
-x4obj
+simdObj
 =
 CreateSimd
 <
@@ -3914,7 +3914,7 @@ coercedArgs
 if
 (
 !
-x4obj
+simdObj
 )
 return
 false
@@ -3930,7 +3930,7 @@ set
 ObjectValue
 (
 *
-x4obj
+simdObj
 )
 )
 ;
@@ -3942,7 +3942,7 @@ AsmJSModule
 :
 Return_Float32x4
 :
-x4obj
+simdObj
 =
 CreateSimd
 <
@@ -3964,7 +3964,7 @@ coercedArgs
 if
 (
 !
-x4obj
+simdObj
 )
 return
 false
@@ -3980,7 +3980,7 @@ set
 ObjectValue
 (
 *
-x4obj
+simdObj
 )
 )
 ;

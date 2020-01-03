@@ -36211,7 +36211,7 @@ case
 type
 :
 :
-X4
+Simd
 :
 return
 true
@@ -40455,7 +40455,7 @@ case
 type
 :
 :
-X4
+Simd
 :
 return
 true
@@ -46401,7 +46401,7 @@ case
 type
 :
 :
-X4
+Simd
 :
 return
 true
@@ -49512,7 +49512,7 @@ case
 type
 :
 :
-X4
+Simd
 :
 return
 true
