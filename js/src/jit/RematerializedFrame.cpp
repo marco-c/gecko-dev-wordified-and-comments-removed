@@ -61,6 +61,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+ScopeObject
+-
+inl
+.
+h
+"
 using
 namespace
 js
