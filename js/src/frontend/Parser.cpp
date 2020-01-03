@@ -11748,6 +11748,12 @@ Node
 list
 )
 {
+handler
+.
+disableSyntaxParser
+(
+)
+;
 if
 (
 !
