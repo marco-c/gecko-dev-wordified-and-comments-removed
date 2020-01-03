@@ -571,12 +571,18 @@ capabilities
 =
 {
 "
+desiredCapabilities
+"
+:
+{
+"
 somethingAwesome
 "
 :
 "
 cake
 "
+}
 }
         
 self
