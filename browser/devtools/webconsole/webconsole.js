@@ -14687,13 +14687,13 @@ window
 }
 ;
 let
-tab
+tabPanel
 =
 this
 .
 sidebar
 .
-getTab
+getTabPanel
 (
 "
 variablesview
@@ -14702,7 +14702,7 @@ variablesview
 ;
 if
 (
-tab
+tabPanel
 )
 {
 if

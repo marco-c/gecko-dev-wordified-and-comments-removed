@@ -1278,8 +1278,13 @@ devtools
 sidebar
 -
 tabs
->
 tabs
+.
+devtools
+-
+sidebar
+-
+alltabs
 .
 CodeMirror
 -
