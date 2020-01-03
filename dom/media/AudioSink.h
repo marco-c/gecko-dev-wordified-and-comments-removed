@@ -101,9 +101,6 @@ AudioData
 >
 &
 aAudioQueue
-ReentrantMonitor
-&
-aMonitor
 int64_t
 aStartTime
 const
@@ -172,6 +169,11 @@ SetPlaying
 (
 bool
 aPlaying
+)
+;
+void
+NotifyData
+(
 )
 ;
 private
@@ -268,7 +270,7 @@ GetReentrantMonitor
 const
 {
 return
-mDecoderMonitor
+mMonitor
 ;
 }
 void
@@ -298,9 +300,9 @@ AudioData
 &
 mAudioQueue
 ;
+mutable
 ReentrantMonitor
-&
-mDecoderMonitor
+mMonitor
 ;
 nsCOMPtr
 <
