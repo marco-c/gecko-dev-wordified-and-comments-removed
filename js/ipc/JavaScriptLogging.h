@@ -92,7 +92,10 @@ StackLoggingEnabled
 )
 {
 \
-js_DumpBacktrace
+js
+:
+:
+DumpBacktrace
 (
 cx
 )

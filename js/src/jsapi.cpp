@@ -16006,7 +16006,7 @@ nullptr
 }
 static
 bool
-js_generic_native_method_dispatcher
+GenericNativeMethodDispatcher
 (
 JSContext
 *
@@ -16364,7 +16364,7 @@ DefineFunction
 cx
 ctor
 id
-js_generic_native_method_dispatcher
+GenericNativeMethodDispatcher
 fs
 -
 >

@@ -941,7 +941,7 @@ fun
 #
 ifdef
 DEBUG
-js_DumpValue
+DumpValue
 (
 ObjectValue
 (
@@ -1072,7 +1072,7 @@ chain
 #
 ifdef
 DEBUG
-js_DumpValue
+DumpValue
 (
 ObjectValue
 (
@@ -1117,7 +1117,7 @@ obj
 #
 ifdef
 DEBUG
-js_DumpValue
+DumpValue
 (
 ObjectValue
 (
@@ -1154,7 +1154,7 @@ this
 #
 ifdef
 DEBUG
-js_DumpValue
+DumpValue
 (
 thisValue
 (
@@ -1235,7 +1235,7 @@ i
 #
 ifdef
 DEBUG
-js_DumpValue
+DumpValue
 (
 argv
 (
@@ -1298,7 +1298,7 @@ i
 #
 ifdef
 DEBUG
-js_DumpValue
+DumpValue
 (
 locals
 (

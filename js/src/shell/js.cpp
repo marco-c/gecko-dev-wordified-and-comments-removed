@@ -11404,7 +11404,7 @@ colspan
 =
 SN_OFFSET_TO_COLSPAN
 (
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -11428,7 +11428,7 @@ SRC_SETLINE
 :
 lineno
 =
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -11475,7 +11475,7 @@ u
 "
 unsigned
 (
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -11483,7 +11483,7 @@ sn
 )
 unsigned
 (
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 1
@@ -11491,7 +11491,7 @@ sn
 )
 unsigned
 (
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 2
@@ -11514,7 +11514,7 @@ u
 "
 unsigned
 (
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -11540,7 +11540,7 @@ u
 "
 unsigned
 (
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -11569,7 +11569,7 @@ u
 "
 unsigned
 (
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -11617,7 +11617,7 @@ u
 "
 unsigned
 (
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -11677,7 +11677,7 @@ u
 "
 unsigned
 (
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0
@@ -11691,7 +11691,7 @@ caseOff
 (
 unsigned
 )
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 1
@@ -11762,7 +11762,7 @@ u
 "
 unsigned
 (
-js_GetSrcNoteOffset
+GetSrcNoteOffset
 (
 sn
 0

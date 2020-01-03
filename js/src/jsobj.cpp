@@ -21234,7 +21234,10 @@ JS_FRIEND_API
 (
 void
 )
-js_DumpValue
+js
+:
+:
+DumpValue
 (
 const
 Value
@@ -21261,7 +21264,10 @@ JS_FRIEND_API
 (
 void
 )
-js_DumpId
+js
+:
+:
+DumpId
 (
 jsid
 id
@@ -22684,7 +22690,10 @@ JS_FRIEND_API
 (
 void
 )
-js_DumpInterpreterFrame
+js
+:
+:
+DumpInterpreterFrame
 (
 JSContext
 *
@@ -23232,7 +23241,10 @@ JS_FRIEND_API
 (
 void
 )
-js_DumpBacktrace
+js
+:
+:
+DumpBacktrace
 (
 JSContext
 *

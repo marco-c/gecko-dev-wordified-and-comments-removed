@@ -3194,7 +3194,10 @@ JS_FRIEND_API
 (
 void
 )
-js_DumpString
+js
+:
+:
+DumpString
 (
 JSString
 *
@@ -3213,7 +3216,10 @@ JS_FRIEND_API
 (
 void
 )
-js_DumpAtom
+js
+:
+:
+DumpAtom
 (
 JSAtom
 *
@@ -3232,7 +3238,10 @@ JS_FRIEND_API
 (
 void
 )
-js_DumpChars
+js
+:
+:
+DumpChars
 (
 const
 char16_t
@@ -3284,7 +3293,10 @@ JS_FRIEND_API
 (
 void
 )
-js_DumpObject
+js
+:
+:
+DumpObject
 (
 JSObject
 *

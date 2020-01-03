@@ -319,7 +319,7 @@ obj
 MOZ_CRASH
 (
 "
-js_InitViaClassSpec
+InitViaClassSpec
 (
 )
 should
