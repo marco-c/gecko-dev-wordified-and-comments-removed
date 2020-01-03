@@ -16,7 +16,7 @@ variables
 are
 defined
 test
-REPOSITORY
+GECKO_HEAD_REPOSITORY
 #
 Should
 be
@@ -28,7 +28,7 @@ to
 pull
 from
 test
-REVISION
+GECKO_HEAD_REV
 #
 Should
 be
@@ -262,13 +262,13 @@ checkout
 -
 revision
 =
-REVISION
+GECKO_HEAD_REV
 \
 -
 -
 repo
 =
-REPOSITORY
+GECKO_HEAD_REPOSITORY
 #
 Move
 files
