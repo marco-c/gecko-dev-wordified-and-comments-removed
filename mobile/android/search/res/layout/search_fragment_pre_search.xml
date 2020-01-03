@@ -192,6 +192,13 @@ layout_weight
 "
 android
 :
+scrollbarStyle
+=
+"
+outsideOverlay
+"
+android
+:
 paddingLeft
 =
 "
