@@ -206,8 +206,6 @@ create
 JSContext
 *
 cx
-HandleScript
-script
 HandleFunction
 callee
 unsigned
@@ -320,6 +318,18 @@ JitFrameLayout
 frame
 HandleObject
 scopeChain
+)
+;
+static
+ArgumentsObject
+*
+createTemplateObject
+(
+JSContext
+*
+cx
+bool
+strict
 )
 ;
 uint32_t
