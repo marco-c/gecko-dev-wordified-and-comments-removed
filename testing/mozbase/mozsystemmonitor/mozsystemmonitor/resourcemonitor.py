@@ -30,6 +30,34 @@ contextlib
 import
 contextmanager
 def
+get_disk_io_counters
+(
+)
+:
+    
+try
+:
+        
+io_counters
+=
+psutil
+.
+disk_io_counters
+(
+)
+    
+except
+RuntimeError
+:
+        
+io_counters
+=
+[
+]
+    
+return
+io_counters
+def
 _collect
 (
 pipe
@@ -90,9 +118,7 @@ time
     
 io_last
 =
-psutil
-.
-disk_io_counters
+get_disk_io_counters
 (
 )
     
@@ -163,9 +189,7 @@ sleep_interval
         
 io
 =
-psutil
-.
-disk_io_counters
+get_disk_io_counters
 (
 )
         
@@ -979,9 +1003,7 @@ False
         
 io
 =
-psutil
-.
-disk_io_counters
+get_disk_io_counters
 (
 )
         
