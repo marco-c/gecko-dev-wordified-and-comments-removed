@@ -5,7 +5,9 @@ from
 '
 tasks
 /
-build
+builds
+/
+firefox_base
 .
 yml
 '

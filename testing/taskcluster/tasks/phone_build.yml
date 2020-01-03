@@ -424,6 +424,11 @@ head_ref
 '
 extra
 :
+build_product
+:
+'
+b2g
+'
 index
 :
 rank

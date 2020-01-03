@@ -5,7 +5,9 @@ from
 '
 tasks
 /
-build
+builds
+/
+mobile_base
 .
 yml
 '
