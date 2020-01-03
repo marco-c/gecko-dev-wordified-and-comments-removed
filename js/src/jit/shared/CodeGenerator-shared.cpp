@@ -7329,6 +7329,12 @@ defined
 (
 JS_CODEGEN_ARM
 )
+|
+|
+defined
+(
+JS_CODEGEN_ARM64
+)
 if
 (
 ool
@@ -7481,6 +7487,13 @@ if
 defined
 (
 JS_CODEGEN_ARM
+)
+&
+&
+!
+defined
+(
+JS_CODEGEN_ARM64
 )
 if
 (

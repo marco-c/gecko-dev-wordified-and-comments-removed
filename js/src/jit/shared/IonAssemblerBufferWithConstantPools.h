@@ -2970,6 +2970,9 @@ curpool
 offset
 <
 =
+(
+size_t
+)
 destOffset
 )
 {

@@ -56,6 +56,12 @@ h
 elif
 defined
 (
+JS_CODEGEN_ARM64
+)
+#
+elif
+defined
+(
 JS_CODEGEN_MIPS
 )
 #
