@@ -197,7 +197,7 @@ animated
 :
 false
 }
-6
+5
 )
 ;
 is
@@ -214,10 +214,10 @@ pane
 )
 .
 selectedIndex
-6
+5
 "
 The
-sixth
+fifth
 tab
 in
 the
