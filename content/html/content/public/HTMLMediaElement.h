@@ -2396,9 +2396,6 @@ mNetworkState
 nsMediaReadyState
 mReadyState
 ;
-NextFrameStatus
-mLastNextFrameStatus
-;
 enum
 LoadAlgorithmState
 {
