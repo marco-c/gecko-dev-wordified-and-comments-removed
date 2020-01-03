@@ -678,6 +678,7 @@ HasInPlaySource
 )
 &
 &
+(
 PlayState
 (
 )
@@ -687,6 +688,16 @@ AnimationPlayState
 :
 :
 Running
+|
+|
+mPendingState
+=
+=
+PendingState
+:
+:
+PlayPending
+)
 ;
 }
 bool
