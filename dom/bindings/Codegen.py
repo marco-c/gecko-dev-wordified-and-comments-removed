@@ -72868,7 +72868,7 @@ proxy
 if
 (
 !
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 expando
