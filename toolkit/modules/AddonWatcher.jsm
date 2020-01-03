@@ -506,7 +506,7 @@ limits
 .
 totalCPOWTime
 "
-1000
+1000000
 )
 *
 this
