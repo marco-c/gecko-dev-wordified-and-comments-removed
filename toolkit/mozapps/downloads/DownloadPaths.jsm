@@ -131,7 +131,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0644
+0o644
 )
 ;
 return
