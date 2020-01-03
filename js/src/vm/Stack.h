@@ -1252,11 +1252,6 @@ Value
 )
 ;
 }
-void
-writeBarrierPost
-(
-)
-;
 Value
 *
 slots
