@@ -392,7 +392,7 @@ mJSObj
 ;
 cb
 .
-NoteJSChild
+NoteJSObject
 (
 tmp
 -

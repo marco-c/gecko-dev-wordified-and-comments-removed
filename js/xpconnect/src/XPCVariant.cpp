@@ -354,7 +354,7 @@ if
 (
 val
 .
-isObjectOrNull
+isObject
 (
 )
 )
@@ -369,11 +369,12 @@ mJSVal
 ;
 cb
 .
-NoteJSChild
+NoteJSObject
 (
+&
 val
 .
-toObjectOrNull
+toObject
 (
 )
 )
