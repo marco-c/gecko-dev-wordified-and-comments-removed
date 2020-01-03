@@ -6879,6 +6879,7 @@ aRestyleTracker
 {
 BeginProcessingRestyles
 (
+aRestyleTracker
 )
 ;
 mInRebuildAllStyleData
@@ -7334,6 +7335,9 @@ RestyleManager
 :
 BeginProcessingRestyles
 (
+RestyleTracker
+&
+aRestyleTracker
 )
 {
 mPresContext

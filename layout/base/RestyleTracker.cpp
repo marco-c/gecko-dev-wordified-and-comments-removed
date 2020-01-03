@@ -1003,6 +1003,8 @@ mRestyleManager
 >
 BeginProcessingRestyles
 (
+*
+this
 )
 ;
 LOG_RESTYLE

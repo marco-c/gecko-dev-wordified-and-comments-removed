@@ -807,6 +807,9 @@ Count
 void
 BeginProcessingRestyles
 (
+RestyleTracker
+&
+aRestyleTracker
 )
 ;
 void
