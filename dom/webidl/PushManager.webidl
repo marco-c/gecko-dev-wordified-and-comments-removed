@@ -161,9 +161,9 @@ getSubscription
 ;
 Promise
 <
-PushPermissionStatus
+PushPermissionState
 >
-hasPermission
+permissionState
 (
 )
 ;
@@ -226,7 +226,7 @@ scope
 }
 ;
 enum
-PushPermissionStatus
+PushPermissionState
 {
 "
 granted
@@ -235,7 +235,7 @@ granted
 denied
 "
 "
-default
+prompt
 "
 }
 ;
