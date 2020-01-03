@@ -220,15 +220,6 @@ AssetManager
 import
 android
 .
-content
-.
-res
-.
-Resources
-;
-import
-android
-.
 database
 .
 Cursor
@@ -2794,7 +2785,7 @@ expected
 ;
 if
 (
-mStringHelper
+StringHelper
 .
 ABOUT_HOME_URL
 .
@@ -2806,7 +2797,7 @@ url
 {
 expected
 =
-mStringHelper
+StringHelper
 .
 ABOUT_HOME_TITLE
 ;
@@ -3135,7 +3126,7 @@ pinSiteFound
 =
 waitForText
 (
-mStringHelper
+StringHelper
 .
 CONTEXT_MENU_PIN_SITE
 )
@@ -3159,7 +3150,7 @@ mSolo
 .
 clickOnText
 (
-mStringHelper
+StringHelper
 .
 CONTEXT_MENU_PIN_SITE
 )
@@ -3223,7 +3214,7 @@ unpinSiteFound
 =
 waitForText
 (
-mStringHelper
+StringHelper
 .
 CONTEXT_MENU_UNPIN_SITE
 )
@@ -3247,7 +3238,7 @@ mSolo
 .
 clickOnText
 (
-mStringHelper
+StringHelper
 .
 CONTEXT_MENU_UNPIN_SITE
 )
@@ -4140,10 +4131,10 @@ clearPrivateData
 {
 selectSettingsItem
 (
-mStringHelper
+StringHelper
 .
 PRIVACY_SECTION_LABEL
-mStringHelper
+StringHelper
 .
 CLEAR_PRIVATE_DATA_LABEL
 )

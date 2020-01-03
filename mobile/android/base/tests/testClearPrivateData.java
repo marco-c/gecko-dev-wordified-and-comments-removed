@@ -92,7 +92,7 @@ blank1
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -102,7 +102,7 @@ blank2
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
 )
@@ -110,7 +110,7 @@ ROBOCOP_BLANK_PAGE_02_URL
 String
 title
 =
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 ;
@@ -128,7 +128,7 @@ mDatabaseHelper
 .
 addOrUpdateMobileBookmark
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_02_TITLE
 blank2
@@ -307,7 +307,7 @@ clear
 String
 titleGeolocation
 =
-mStringHelper
+StringHelper
 .
 ROBOCOP_GEOLOCATION_TITLE
 ;
@@ -316,7 +316,7 @@ url
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_GEOLOCATION_URL
 )
@@ -417,7 +417,7 @@ save
 String
 title
 =
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 ;
@@ -426,7 +426,7 @@ loginUrl
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_LOGIN_URL
 )
@@ -473,7 +473,7 @@ checkDevice
 title
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -527,7 +527,7 @@ ok
 (
 waitForText
 (
-mStringHelper
+StringHelper
 .
 PRIVACY_SECTION_LABEL
 )
@@ -696,7 +696,7 @@ ok
 (
 waitForText
 (
-mStringHelper
+StringHelper
 .
 CONTEXT_MENU_ITEMS_IN_URL_BAR
 [
@@ -726,7 +726,7 @@ else
 {
 selectMenuItem
 (
-mStringHelper
+StringHelper
 .
 PAGE_LABEL
 )
@@ -737,7 +737,7 @@ ok
 (
 waitForText
 (
-mStringHelper
+StringHelper
 .
 CONTEXT_MENU_ITEMS_IN_URL_BAR
 [
@@ -764,7 +764,7 @@ mSolo
 .
 clickOnText
 (
-mStringHelper
+StringHelper
 .
 CONTEXT_MENU_ITEMS_IN_URL_BAR
 [

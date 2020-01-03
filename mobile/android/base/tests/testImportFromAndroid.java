@@ -847,17 +847,17 @@ importDataFromAndroid
 {
 waitForText
 (
-mStringHelper
+StringHelper
 .
 TITLE_PLACE_HOLDER
 )
 ;
 selectSettingsItem
 (
-mStringHelper
+StringHelper
 .
 CUSTOMIZE_SECTION_LABEL
-mStringHelper
+StringHelper
 .
 IMPORT_FROM_ANDROID_LABEL
 )
@@ -965,7 +965,7 @@ type
 {
 waitForText
 (
-mStringHelper
+StringHelper
 .
 IMPORT_FROM_ANDROID_LABEL
 )
@@ -984,7 +984,7 @@ BACK
 }
 waitForText
 (
-mStringHelper
+StringHelper
 .
 PRIVACY_SECTION_LABEL
 )
@@ -1008,7 +1008,7 @@ mSolo
 .
 waitForText
 (
-mStringHelper
+StringHelper
 .
 TITLE_PLACE_HOLDER
 )

@@ -264,7 +264,7 @@ NavigationHelper
 .
 enterAndLoadUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -273,7 +273,7 @@ mToolbar
 .
 assertTitle
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )

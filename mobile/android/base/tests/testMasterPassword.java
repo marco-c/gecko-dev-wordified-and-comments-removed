@@ -91,10 +91,10 @@ badPassword
 {
 selectSettingsItem
 (
-mStringHelper
+StringHelper
 .
 PRIVACY_SECTION_LABEL
-mStringHelper
+StringHelper
 .
 MASTER_PASSWORD_LABEL
 )
@@ -356,7 +356,7 @@ waitForText
 ^
 "
 +
-mStringHelper
+StringHelper
 .
 MASTER_PASSWORD_LABEL
 +
@@ -372,7 +372,7 @@ clickOnText
 ^
 "
 +
-mStringHelper
+StringHelper
 .
 MASTER_PASSWORD_LABEL
 +
@@ -610,7 +610,7 @@ BACK
 }
 waitForText
 (
-mStringHelper
+StringHelper
 .
 SETTINGS_LABEL
 )
@@ -639,10 +639,10 @@ badPassword
 {
 selectSettingsItem
 (
-mStringHelper
+StringHelper
 .
 PRIVACY_SECTION_LABEL
-mStringHelper
+StringHelper
 .
 MASTER_PASSWORD_LABEL
 )
@@ -1093,10 +1093,10 @@ clearPrivateData
 {
 selectSettingsItem
 (
-mStringHelper
+StringHelper
 .
 PRIVACY_SECTION_LABEL
-mStringHelper
+StringHelper
 .
 CLEAR_PRIVATE_DATA_LABEL
 )
@@ -1357,7 +1357,7 @@ BACK
 }
 waitForText
 (
-mStringHelper
+StringHelper
 .
 SETTINGS_LABEL
 )
