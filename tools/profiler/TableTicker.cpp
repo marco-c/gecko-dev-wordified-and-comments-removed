@@ -576,6 +576,7 @@ tasktracer
 :
 StartLogging
 (
+sStartTime
 )
 ;
 b

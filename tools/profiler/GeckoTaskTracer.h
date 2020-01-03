@@ -11,6 +11,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TimeStamp
+.
+h
+"
 class
 Task
 ;
@@ -110,6 +119,11 @@ aFormat
 void
 StartLogging
 (
+mozilla
+:
+:
+TimeStamp
+aStartTime
 )
 ;
 void
