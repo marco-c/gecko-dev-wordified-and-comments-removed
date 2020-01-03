@@ -199,16 +199,6 @@ namespace
 wmf
 {
 HRESULT
-LoadDLLs
-(
-)
-;
-HRESULT
-UnloadDLLs
-(
-)
-;
-HRESULT
 MFStartup
 (
 )
