@@ -41,15 +41,11 @@ GMPDecryptorProxy
 h
 "
 namespace
-mp4_demuxer
+mozilla
 {
 class
 CryptoSample
 ;
-}
-namespace
-mozilla
-{
 namespace
 gmp
 {
@@ -205,9 +201,6 @@ Decrypt
 uint32_t
 aId
 const
-mp4_demuxer
-:
-:
 CryptoSample
 &
 aCrypto

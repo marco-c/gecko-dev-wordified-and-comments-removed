@@ -28,7 +28,7 @@ nsString
 h
 "
 namespace
-mp4_demuxer
+mozilla
 {
 class
 CryptoSample
@@ -364,7 +364,7 @@ Decrypt
 uint32_t
 aId
 const
-mp4_demuxer
+mozilla
 :
 :
 CryptoSample
