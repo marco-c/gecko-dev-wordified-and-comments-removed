@@ -218,8 +218,6 @@ mozilla
 .
 gecko
 .
-browser
-.
 harness
 .
 BrowserInstrumentationTestRunner
