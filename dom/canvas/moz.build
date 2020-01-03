@@ -217,11 +217,6 @@ ImageData
 .
 cpp
 '
-'
-ImageEncoder
-.
-cpp
-'
 ]
 #
 WebGL

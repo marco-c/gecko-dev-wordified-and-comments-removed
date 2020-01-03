@@ -317,6 +317,11 @@ DOMRequest
 h
 '
 '
+ImageEncoder
+.
+h
+'
+'
 MessageChannel
 .
 h
@@ -433,6 +438,11 @@ cpp
 '
 '
 DOMRequest
+.
+cpp
+'
+'
+ImageEncoder
 .
 cpp
 '
