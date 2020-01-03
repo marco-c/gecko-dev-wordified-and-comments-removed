@@ -176,6 +176,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 EqualsConsideringDomain
@@ -187,6 +188,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetHashValue
@@ -195,6 +197,7 @@ uint32_t
 *
 aHashValue
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetURI
@@ -204,6 +207,7 @@ nsIURI
 *
 aURI
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDomain
@@ -213,6 +217,7 @@ nsIURI
 *
 aDomain
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetDomain
@@ -221,6 +226,7 @@ nsIURI
 *
 aDomain
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetOrigin
@@ -230,6 +236,7 @@ char
 *
 aOrigin
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Subsumes
@@ -241,6 +248,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SubsumesConsideringDomain
@@ -252,6 +260,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CheckMayLoad
@@ -264,6 +273,7 @@ report
 bool
 allowIfInheritsPrincipal
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetJarPrefix
@@ -272,6 +282,7 @@ nsACString
 &
 aJarPrefix
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAppStatus
@@ -280,6 +291,7 @@ uint16_t
 *
 aAppStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAppId
@@ -288,6 +300,7 @@ uint32_t
 *
 aAppStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetIsInBrowserElement
@@ -296,6 +309,7 @@ bool
 *
 aIsInBrowserElement
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetUnknownAppId
@@ -304,6 +318,7 @@ bool
 *
 aUnknownAppId
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetIsNullPrincipal
@@ -312,6 +327,7 @@ bool
 *
 aIsNullPrincipal
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetBaseDomain
@@ -320,6 +336,7 @@ nsACString
 &
 aBaseDomain
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -329,6 +346,7 @@ void
 dumpImpl
 (
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -513,6 +531,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 EqualsConsideringDomain
@@ -524,6 +543,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetHashValue
@@ -532,6 +552,7 @@ uint32_t
 *
 aHashValue
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetURI
@@ -541,6 +562,7 @@ nsIURI
 *
 aURI
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDomain
@@ -550,6 +572,7 @@ nsIURI
 *
 aDomain
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetDomain
@@ -558,6 +581,7 @@ nsIURI
 *
 aDomain
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetOrigin
@@ -567,6 +591,7 @@ char
 *
 aOrigin
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Subsumes
@@ -578,6 +603,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SubsumesConsideringDomain
@@ -589,6 +615,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CheckMayLoad
@@ -601,6 +628,7 @@ report
 bool
 allowIfInheritsPrincipal
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetJarPrefix
@@ -609,6 +637,7 @@ nsACString
 &
 aJarPrefix
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAppStatus
@@ -617,6 +646,7 @@ uint16_t
 *
 aAppStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAppId
@@ -625,6 +655,7 @@ uint32_t
 *
 aAppStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetIsInBrowserElement
@@ -633,6 +664,7 @@ bool
 *
 aIsInBrowserElement
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetUnknownAppId
@@ -641,6 +673,7 @@ bool
 *
 aUnknownAppId
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetIsNullPrincipal
@@ -649,6 +682,7 @@ bool
 *
 aIsNullPrincipal
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetBaseDomain
@@ -657,6 +691,7 @@ nsACString
 &
 aBaseDomain
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -666,6 +701,7 @@ void
 dumpImpl
 (
 )
+MOZ_OVERRIDE
 ;
 #
 endif
