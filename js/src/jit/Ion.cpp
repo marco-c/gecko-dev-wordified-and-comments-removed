@@ -7253,6 +7253,12 @@ mir
 compilingAsmJS
 (
 )
+&
+&
+doRepeatOptimizations
+=
+=
+1
 )
 {
 if
