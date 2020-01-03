@@ -7670,6 +7670,9 @@ const
 sessionState
 =
 {
+sessionId
+:
+null
 subsessionId
 :
 null
