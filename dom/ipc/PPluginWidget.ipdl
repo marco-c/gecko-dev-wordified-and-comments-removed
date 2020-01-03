@@ -253,9 +253,14 @@ __delete__
 ;
 parent
 :
-async
+sync
 Create
 (
+)
+returns
+(
+nsresult
+aResult
 )
 ;
 async

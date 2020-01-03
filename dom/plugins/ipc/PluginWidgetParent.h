@@ -95,6 +95,9 @@ virtual
 bool
 RecvCreate
 (
+nsresult
+*
+aResult
 )
 MOZ_OVERRIDE
 ;
@@ -138,6 +141,14 @@ mActorDestroyed
 void
 ParentDestroy
 (
+)
+;
+void
+SetParent
+(
+nsIWidget
+*
+aParent
 )
 ;
 private
