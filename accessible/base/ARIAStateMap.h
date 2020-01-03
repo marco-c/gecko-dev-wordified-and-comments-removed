@@ -40,6 +40,7 @@ eARIADisabled
 eARIAExpanded
 eARIAHasPopup
 eARIAInvalid
+eARIAModal
 eARIAMultiline
 eARIAMultiSelectable
 eARIAOrientation

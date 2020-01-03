@@ -1201,6 +1201,7 @@ eARIADisabled
 eARIAExpanded
 eARIAHasPopup
 eARIAInvalid
+eARIAModal
 eARIARequired
 eARIANone
 }
@@ -1409,6 +1410,18 @@ nsGkAtoms
 :
 :
 aria_live
+ATTR_VALTOKEN
+|
+ATTR_GLOBAL
+}
+{
+&
+nsGkAtoms
+:
+:
+aria_modal
+ATTR_BYPASSOBJ
+|
 ATTR_VALTOKEN
 |
 ATTR_GLOBAL
