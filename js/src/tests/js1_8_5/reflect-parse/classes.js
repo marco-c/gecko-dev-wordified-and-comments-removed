@@ -1047,7 +1047,7 @@ constructor
 ;
 }
 "
-TypeError
+InternalError
 )
 ;
 assertClassError
