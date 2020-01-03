@@ -6850,6 +6850,12 @@ rootElement
 )
 ;
 }
+SelectionBatcher
+selectionBatcher
+(
+aSelection
+)
+;
 nsresult
 rv
 =
