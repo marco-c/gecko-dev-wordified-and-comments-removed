@@ -340,6 +340,8 @@ variant
 checkManifest
 .
 dependsOn
+rootProject
+.
 generateCodeAndResources
 }
 apply

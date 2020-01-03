@@ -2,8 +2,10 @@ apply
 plugin
 :
 '
+com
+.
 android
--
+.
 library
 '
 android
@@ -109,6 +111,8 @@ variant
 checkManifest
 .
 dependsOn
+rootProject
+.
 generateCodeAndResources
 }
 dependencies

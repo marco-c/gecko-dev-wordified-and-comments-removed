@@ -63,6 +63,8 @@ variant
 checkManifest
 .
 dependsOn
+rootProject
+.
 generateCodeAndResources
 }
 dependencies
