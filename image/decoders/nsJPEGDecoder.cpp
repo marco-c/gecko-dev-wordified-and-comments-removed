@@ -1556,8 +1556,6 @@ colorpsace
 ;
 return
 ;
-break
-;
 }
 }
 mInfo

@@ -86,7 +86,6 @@ gif_image_start
 gif_image_header
 gif_image_header_continue
 gif_image_colormap
-gif_image_body
 gif_lzw_start
 gif_lzw
 gif_sub_block
