@@ -1356,7 +1356,13 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
+parseInt
+(
+'
 0770
+'
+8
+)
 )
 ;
 }
