@@ -8851,14 +8851,6 @@ this
 )
 ;
 }
-mFontFaceSet
--
->
-EnsureUserFontSet
-(
-this
-)
-;
 bool
 changed
 =
