@@ -9305,7 +9305,7 @@ masm
 .
 vroundsd
 (
-X86Assembler
+X86Encoding
 :
 :
 RoundDown
@@ -9542,7 +9542,7 @@ masm
 .
 vroundss
 (
-X86Assembler
+X86Encoding
 :
 :
 RoundDown
@@ -9826,7 +9826,7 @@ masm
 .
 vroundsd
 (
-X86Assembler
+X86Encoding
 :
 :
 RoundUp
@@ -10079,7 +10079,7 @@ masm
 .
 vroundss
 (
-X86Assembler
+X86Encoding
 :
 :
 RoundUp
@@ -10424,7 +10424,7 @@ masm
 .
 vroundsd
 (
-X86Assembler
+X86Encoding
 :
 :
 RoundDown
@@ -10782,7 +10782,7 @@ masm
 .
 vroundss
 (
-X86Assembler
+X86Encoding
 :
 :
 RoundDown

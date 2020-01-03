@@ -2991,7 +2991,7 @@ code
 )
 {
 case
-X86Registers
+X86Encoding
 :
 :
 xmm0
@@ -3010,7 +3010,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm1
@@ -3029,7 +3029,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm2
@@ -3048,7 +3048,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm3
@@ -3067,7 +3067,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm4
@@ -3086,7 +3086,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm5
@@ -3105,7 +3105,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm6
@@ -3124,7 +3124,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm7
@@ -3143,7 +3143,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm8
@@ -3162,7 +3162,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm9
@@ -3181,7 +3181,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm10
@@ -3200,7 +3200,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm11
@@ -3219,7 +3219,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm12
@@ -3238,7 +3238,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm13
@@ -3257,7 +3257,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm14
@@ -3276,7 +3276,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm15
@@ -3318,10 +3318,10 @@ code
 )
 {
 case
-X86Registers
+X86Encoding
 :
 :
-eax
+rax
 :
 RAX_sig
 (
@@ -3333,10 +3333,10 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-ecx
+rcx
 :
 RCX_sig
 (
@@ -3348,10 +3348,10 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-edx
+rdx
 :
 RDX_sig
 (
@@ -3363,10 +3363,10 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-ebx
+rbx
 :
 RBX_sig
 (
@@ -3378,10 +3378,10 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-esp
+rsp
 :
 RSP_sig
 (
@@ -3393,10 +3393,10 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-ebp
+rbp
 :
 RBP_sig
 (
@@ -3408,10 +3408,10 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-esi
+rsi
 :
 RSI_sig
 (
@@ -3423,10 +3423,10 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-edi
+rdi
 :
 RDI_sig
 (
@@ -3438,7 +3438,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r8
@@ -3453,7 +3453,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r9
@@ -3468,7 +3468,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r10
@@ -3483,7 +3483,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r11
@@ -3498,7 +3498,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r12
@@ -3513,7 +3513,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r13
@@ -3528,7 +3528,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r14
@@ -3543,7 +3543,7 @@ context
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r15
@@ -4170,7 +4170,7 @@ code
 )
 {
 case
-X86Registers
+X86Encoding
 :
 :
 xmm0
@@ -4187,7 +4187,7 @@ __fpu_xmm0
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm1
@@ -4204,7 +4204,7 @@ __fpu_xmm1
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm2
@@ -4221,7 +4221,7 @@ __fpu_xmm2
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm3
@@ -4238,7 +4238,7 @@ __fpu_xmm3
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm4
@@ -4255,7 +4255,7 @@ __fpu_xmm4
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm5
@@ -4272,7 +4272,7 @@ __fpu_xmm5
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm6
@@ -4289,7 +4289,7 @@ __fpu_xmm6
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm7
@@ -4306,7 +4306,7 @@ __fpu_xmm7
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm8
@@ -4323,7 +4323,7 @@ __fpu_xmm8
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm9
@@ -4340,7 +4340,7 @@ __fpu_xmm9
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm10
@@ -4357,7 +4357,7 @@ __fpu_xmm10
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm11
@@ -4374,7 +4374,7 @@ __fpu_xmm11
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm12
@@ -4391,7 +4391,7 @@ __fpu_xmm12
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm13
@@ -4408,7 +4408,7 @@ __fpu_xmm13
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm14
@@ -4425,7 +4425,7 @@ __fpu_xmm14
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 xmm15
@@ -4493,10 +4493,10 @@ code
 )
 {
 case
-X86Registers
+X86Encoding
 :
 :
-eax
+rax
 :
 state
 .
@@ -4507,10 +4507,10 @@ __rax
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-ecx
+rcx
 :
 state
 .
@@ -4521,10 +4521,10 @@ __rcx
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-edx
+rdx
 :
 state
 .
@@ -4535,10 +4535,10 @@ __rdx
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-ebx
+rbx
 :
 state
 .
@@ -4549,10 +4549,10 @@ __rbx
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-esp
+rsp
 :
 state
 .
@@ -4563,10 +4563,10 @@ __rsp
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-ebp
+rbp
 :
 state
 .
@@ -4577,10 +4577,10 @@ __rbp
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-esi
+rsi
 :
 state
 .
@@ -4591,10 +4591,10 @@ __rsi
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
-edi
+rdi
 :
 state
 .
@@ -4605,7 +4605,7 @@ __rdi
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r8
@@ -4619,7 +4619,7 @@ __r8
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r9
@@ -4633,7 +4633,7 @@ __r9
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r10
@@ -4647,7 +4647,7 @@ __r10
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r11
@@ -4661,7 +4661,7 @@ __r11
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r12
@@ -4675,7 +4675,7 @@ __r12
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r13
@@ -4689,7 +4689,7 @@ __r13
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r14
@@ -4703,7 +4703,7 @@ __r14
 break
 ;
 case
-X86Registers
+X86Encoding
 :
 :
 r15
