@@ -217,7 +217,10 @@ on
 "
 stdout
 "
+(
+e
 data
+)
 =
 >
 {
@@ -241,7 +244,10 @@ on
 "
 stderr
 "
+(
+e
 data
+)
 =
 >
 {
@@ -651,6 +657,7 @@ once
 exit
 "
 (
+e
 exitCode
 )
 =
