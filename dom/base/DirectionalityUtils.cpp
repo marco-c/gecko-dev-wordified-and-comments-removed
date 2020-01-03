@@ -1420,13 +1420,14 @@ PL_DHASH_REMOVE
 }
 public
 :
-void
+uint32_t
 UpdateAutoDirection
 (
 Directionality
 aDir
 )
 {
+return
 mElements
 .
 EnumerateEntries
@@ -1575,7 +1576,7 @@ aElement
 ;
 }
 static
-void
+uint32_t
 UpdateTextNodeDirection
 (
 nsINode
@@ -1601,6 +1602,7 @@ UpdateTextNodeDirection
 "
 )
 ;
+return
 GetDirectionalityMap
 (
 aTextNode
@@ -2806,8 +2808,8 @@ aTextNode
 HasTextNodeDirectionalityMap
 (
 )
-)
-{
+&
+&
 nsTextNodeDirectionalityMap
 :
 :
@@ -2816,10 +2818,11 @@ UpdateTextNodeDirection
 aTextNode
 newDir
 )
+)
+{
+return
 ;
 }
-else
-{
 SetAncestorDirectionIfAuto
 (
 aTextNode
@@ -2827,7 +2830,6 @@ newDir
 aNotify
 )
 ;
-}
 }
 }
 void
