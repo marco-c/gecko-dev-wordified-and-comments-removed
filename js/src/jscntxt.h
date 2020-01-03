@@ -1733,9 +1733,6 @@ js
 ObjectSet
 cycleDetectorSet
 ;
-JSErrorReporter
-errorReporter
-;
 void
 *
 data

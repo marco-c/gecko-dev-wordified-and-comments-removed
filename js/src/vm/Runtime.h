@@ -3756,6 +3756,9 @@ structuredCloneCallbacks
 JSAccumulateTelemetryDataCallback
 telemetryCallback
 ;
+JSErrorReporter
+errorReporter
+;
 JS
 :
 :

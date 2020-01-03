@@ -843,6 +843,10 @@ telemetryCallback
 (
 nullptr
 )
+errorReporter
+(
+nullptr
+)
 propertyRemovals
 (
 0
