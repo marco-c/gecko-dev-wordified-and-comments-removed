@@ -1609,16 +1609,6 @@ push
 recording
 )
 ;
-this
-.
-emit
-(
-EVENTS
-.
-RECORDING_CREATED
-recording
-)
-;
 return
 recording
 ;
