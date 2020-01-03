@@ -122,6 +122,13 @@ attribute
 EventHandler
 onmessage
 ;
+void
+reportError
+(
+DOMString
+message
+)
+;
 }
 ;
 /
