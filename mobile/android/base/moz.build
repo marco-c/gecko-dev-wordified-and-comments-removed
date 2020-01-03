@@ -1932,13 +1932,6 @@ java
 '
 gfx
 /
-TileLayer
-.
-java
-'
-'
-gfx
-/
 TouchEventHandler
 .
 java

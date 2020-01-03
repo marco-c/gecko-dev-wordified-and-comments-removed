@@ -71,7 +71,7 @@ public
 class
 ScrollbarLayer
 extends
-TileLayer
+Layer
 {
 private
 static
@@ -2034,7 +2034,7 @@ image
 size
 mismatch
 in
-TileLayer
+ScrollbarLayer
 !
 "
 )
