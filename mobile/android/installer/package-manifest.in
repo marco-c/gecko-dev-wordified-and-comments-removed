@@ -404,10 +404,11 @@ prefix
 .
 BINPATH
 /
-MOZ_CHILD_PROCESS_NAME
-BINPATH
-/
-MOZ_CHILD_PROCESS_NAME_PIE
+DLL_PREFIX
+plugin
+-
+container
+DLL_SUFFIX
 [
 xpcom
 ]
