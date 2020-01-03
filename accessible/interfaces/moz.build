@@ -172,6 +172,11 @@ nsIAccessibleImage
 idl
 '
 '
+nsIAccessibleObjectAttributeChangedEvent
+.
+idl
+'
+'
 nsIAccessiblePivot
 .
 idl

@@ -53,6 +53,15 @@ interfaces
 nsIAccessibleVirtualCursorChangeEvent
 ;
 const
+nsIAccessibleObjectAttributeChangedEvent
+=
+Components
+.
+interfaces
+.
+nsIAccessibleObjectAttributeChangedEvent
+;
+const
 nsIAccessibleStates
 =
 Components
