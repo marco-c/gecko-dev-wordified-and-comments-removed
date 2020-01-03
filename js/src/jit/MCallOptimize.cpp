@@ -9826,7 +9826,7 @@ constructing
 return
 InliningStatus_NotInlined
 ;
-NativeObject
+JSObject
 *
 templateObject
 =
