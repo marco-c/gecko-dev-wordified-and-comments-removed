@@ -4937,6 +4937,11 @@ GDK_RGBA_TO_NS_RGBA
 color
 )
 ;
+gtk_widget_path_free
+(
+path
+)
+;
 #
 endif
 gboolean
