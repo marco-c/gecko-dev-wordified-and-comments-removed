@@ -224,6 +224,12 @@ see
 nsICookiePermission
 *
 /
+prio
+(
+normal
+upto
+urgent
+)
 sync
 protocol
 PCookieService
@@ -422,6 +428,10 @@ string
 .
 *
 /
+prio
+(
+urgent
+)
 sync
 GetCookieString
 (
@@ -645,6 +655,11 @@ mozIThirdPartyUtil
 isThirdPartyChannel
 *
 /
+prio
+(
+urgent
+)
+async
 SetCookieString
 (
 URIParams

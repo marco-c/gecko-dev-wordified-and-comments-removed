@@ -3473,6 +3473,17 @@ readyState
 "
 loading
 "
+location
+:
+{
+href
+:
+"
+about
+:
+blank
+"
+}
 }
 ;
 RemoteBrowserElementInterposition

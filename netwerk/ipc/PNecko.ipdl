@@ -310,6 +310,12 @@ net
 -
 -
 -
+prio
+(
+normal
+upto
+urgent
+)
 sync
 protocol
 PNecko
@@ -362,6 +368,11 @@ __delete__
 (
 )
 ;
+prio
+(
+urgent
+)
+async
 PCookieService
 (
 )

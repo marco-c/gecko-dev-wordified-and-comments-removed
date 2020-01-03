@@ -1165,7 +1165,7 @@ prio
 (
 normal
 upto
-high
+urgent
 )
 intr
 protocol
