@@ -96,7 +96,7 @@ aBuffered
 MOZ_OVERRIDE
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+NS_OK
 ;
 }
 virtual
@@ -107,7 +107,10 @@ SetIdle
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsRefPtr
+<
+VideoDataPromise
+>
 RequestVideoData
 (
 bool
@@ -118,7 +121,10 @@ aTimeThreshold
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsRefPtr
+<
+AudioDataPromise
+>
 RequestAudioData
 (
 )
