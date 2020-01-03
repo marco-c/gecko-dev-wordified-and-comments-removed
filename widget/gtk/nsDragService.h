@@ -259,12 +259,6 @@ _retval
 )
 override
 ;
-NS_IMETHOD
-UpdateDragEffect
-(
-)
-override
-;
 static
 nsDragService
 *
@@ -445,12 +439,6 @@ GdkDragContext
 >
 mTargetDragContext
 ;
-nsCountedRef
-<
-GdkDragContext
->
-mTargetDragContextForRemote
-;
 guint
 mTargetTime
 ;
@@ -571,9 +559,6 @@ DispatchMotionEvents
 void
 ReplyToDragMotion
 (
-GdkDragContext
-*
-aDragContext
 )
 ;
 gboolean
