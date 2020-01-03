@@ -280,6 +280,13 @@ UseTiling
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+UseProgressivePaint
+(
+)
+MOZ_OVERRIDE
+;
 uint32_t
 GetAntiAliasingThreshold
 (

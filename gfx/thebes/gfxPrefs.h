@@ -2636,7 +2636,7 @@ progressive
 -
 paint
 "
-UseProgressiveTilePainting
+ProgressivePaintDoNotUseDirectly
 bool
 false
 )
