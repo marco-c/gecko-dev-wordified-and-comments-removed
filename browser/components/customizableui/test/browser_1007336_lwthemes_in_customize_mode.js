@@ -446,7 +446,7 @@ Services
 .
 prefs
 .
-prefHasUserValue
+getCharPref
 (
 "
 lightweightThemes
@@ -454,7 +454,8 @@ lightweightThemes
 selectedThemeID
 "
 )
-false
+"
+"
 "
 No
 lwtheme

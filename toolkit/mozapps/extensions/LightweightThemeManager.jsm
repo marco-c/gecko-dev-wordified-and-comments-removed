@@ -1643,10 +1643,12 @@ id
 else
 _prefs
 .
-deleteBranch
+setCharPref
 (
 "
 selectedThemeID
+"
+"
 "
 )
 ;
