@@ -48,7 +48,7 @@ extend
 _activeView
 :
 undefined
-_notifier
+_notifications
 :
 undefined
 constructor
@@ -71,7 +71,7 @@ if
 !
 options
 .
-notifier
+notifications
 )
 {
 throw
@@ -81,18 +81,18 @@ Error
 "
 missing
 required
-notifier
+notifications
 "
 )
 ;
 }
 this
 .
-_notifier
+_notifications
 =
 options
 .
-notifier
+notifications
 ;
 Backbone
 .
@@ -464,7 +464,7 @@ error
 ;
 this
 .
-_notifier
+_notifications
 .
 errorL10n
 (
@@ -508,7 +508,7 @@ function
 {
 this
 .
-_notifier
+_notifications
 .
 warnL10n
 (
@@ -532,7 +532,7 @@ function
 {
 this
 .
-_notifier
+_notifications
 .
 warnL10n
 (
