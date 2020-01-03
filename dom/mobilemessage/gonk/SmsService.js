@@ -1688,7 +1688,7 @@ _broadcastSmsSystemMessage
 (
 Ci
 .
-nsISmsMessenger_new
+nsISmsMessenger
 .
 NOTIFICATION_TYPE_SENT_FAILED
 aDomMessage
@@ -1904,7 +1904,7 @@ NOTIFICATION_TYPE_DELIVERY_SUCCESS
 kSmsDeliveryErrorObserverTopic
 Ci
 .
-nsISmsMessenger_new
+nsISmsMessenger
 .
 NOTIFICATION_TYPE_DELIVERY_ERROR
 ]
@@ -3988,7 +3988,7 @@ _broadcastSmsSystemMessage
 (
 Ci
 .
-nsISmsMessenger_new
+nsISmsMessenger
 .
 NOTIFICATION_TYPE_SENT_FAILED
 aSendingMessage
@@ -4255,7 +4255,7 @@ _broadcastSmsSystemMessage
 (
 Ci
 .
-nsISmsMessenger_new
+nsISmsMessenger
 .
 NOTIFICATION_TYPE_SENT_FAILED
 aDomMessage
