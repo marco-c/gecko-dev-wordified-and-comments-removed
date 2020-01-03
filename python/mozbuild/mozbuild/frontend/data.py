@@ -1261,6 +1261,9 @@ __slots__
 srcdir_files
 '
 '
+srcdir_pattern_files
+'
+'
 objdir_files
 '
 )
@@ -1271,6 +1274,7 @@ __init__
 self
 context
 srcdir_files
+srcdir_pattern_files
 objdir_files
 )
 :
@@ -1288,6 +1292,12 @@ self
 srcdir_files
 =
 srcdir_files
+        
+self
+.
+srcdir_pattern_files
+=
+srcdir_pattern_files
         
 self
 .
