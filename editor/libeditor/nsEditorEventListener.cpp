@@ -4452,6 +4452,16 @@ SpellCheckIfNeeded
 (
 )
 ;
+if
+(
+!
+mEditor
+)
+{
+return
+NS_OK
+;
+}
 nsCOMPtr
 <
 nsIDOMEventTarget
