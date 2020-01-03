@@ -1026,6 +1026,10 @@ capability
 int32_t
 capabilityIndex
 ;
+_requestedCapability
+=
+requestedCapability
+;
 if
 (
 (
