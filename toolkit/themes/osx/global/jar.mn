@@ -106,9 +106,7 @@ css
 .
 .
 /
-windows
-/
-global
+shared
 /
 about
 .
@@ -130,9 +128,7 @@ css
 .
 .
 /
-windows
-/
-global
+shared
 /
 aboutCache
 .
@@ -154,9 +150,7 @@ css
 .
 .
 /
-windows
-/
-global
+shared
 /
 aboutCacheEntry
 .
@@ -178,9 +172,7 @@ css
 .
 .
 /
-windows
-/
-global
+shared
 /
 aboutMemory
 .
@@ -202,9 +194,7 @@ css
 .
 .
 /
-windows
-/
-global
+shared
 /
 aboutReader
 .
@@ -226,9 +216,7 @@ css
 .
 .
 /
-windows
-/
-global
+shared
 /
 aboutSupport
 .
@@ -250,9 +238,7 @@ css
 .
 .
 /
-windows
-/
-global
+shared
 /
 appPicker
 .
