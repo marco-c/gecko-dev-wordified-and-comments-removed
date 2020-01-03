@@ -2168,6 +2168,11 @@ _isSignedIn
 >
 <
 SettingsDropdownEntry
+icon
+=
+"
+tour
+"
 label
 =
 {
