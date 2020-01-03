@@ -5993,12 +5993,12 @@ if
 (
 imageInfo
 .
-WebGLFormat
+WebGLInternalFormat
 (
 )
 !
 =
-format
+internalFormat
 |
 |
 imageInfo

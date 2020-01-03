@@ -268,7 +268,7 @@ WebGLContext
 :
 GetBitsPerTexel
 (
-mWebGLFormat
+mWebGLInternalFormat
 mWebGLType
 )
 ;
@@ -684,7 +684,7 @@ aWidth
 GLsizei
 aHeight
 TexInternalFormat
-aFormat
+aInternalFormat
 TexType
 aType
 WebGLImageDataStatus
@@ -729,7 +729,7 @@ ImageInfo
 (
 aWidth
 aHeight
-aFormat
+aInternalFormat
 aType
 aStatus
 )
@@ -2886,11 +2886,11 @@ MakeContextCurrent
 )
 ;
 TexInternalFormat
-format
+internalformat
 =
 imageInfo
 .
-mWebGLFormat
+mWebGLInternalFormat
 ;
 TexType
 type
@@ -2904,7 +2904,7 @@ texelformat
 =
 GetWebGLTexelFormat
 (
-format
+internalformat
 type
 )
 ;
@@ -2919,7 +2919,7 @@ GLName
 )
 imageTarget
 level
-format
+internalformat
 imageInfo
 .
 mHeight
@@ -3059,7 +3059,7 @@ LOCAL_GL_NONE
 DriverFormatsFromFormatAndType
 (
 gl
-format
+internalformat
 type
 &
 driverInternalFormat
