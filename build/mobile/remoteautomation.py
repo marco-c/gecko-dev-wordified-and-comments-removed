@@ -80,6 +80,17 @@ _devicemanager
 =
 None
     
+_specialAmCommands
+=
+(
+'
+instrument
+'
+'
+start
+'
+)
+    
 def
 __init__
 (
@@ -1398,11 +1409,10 @@ extraArgs
 [
 0
 ]
-=
-=
-"
-instrument
-"
+in
+RemoteAutomation
+.
+_specialAmCommands
 :
             
 return
@@ -1675,11 +1685,10 @@ cmd
 [
 1
 ]
-=
-=
-"
-instrument
-"
+in
+RemoteAutomation
+.
+_specialAmCommands
 :
                 
 self
