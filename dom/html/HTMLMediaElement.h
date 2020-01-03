@@ -706,6 +706,11 @@ ShouldCheckAllowOrigin
 )
 ;
 bool
+IsCORSSameOrigin
+(
+)
+;
+bool
 IsPotentiallyPlaying
 (
 )

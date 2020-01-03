@@ -390,11 +390,6 @@ IsBoundToMediaElement
 )
 const
 ;
-nsresult
-CheckPrincipals
-(
-)
-;
 private
 :
 bool
