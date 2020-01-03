@@ -26811,7 +26811,7 @@ name
 ripOffset
 nameFPReg
 (
-src0
+dst
 )
 )
 ;
@@ -26828,7 +26828,7 @@ twoByteRipOp
 (
 opcode
 ripOffset
-src0
+dst
 )
 ;
 return
@@ -26929,7 +26929,7 @@ rm
 )
 nameFPReg
 (
-src0
+dst
 )
 )
 ;
@@ -26949,7 +26949,7 @@ opcode
 RegisterID
 )
 rm
-src0
+dst
 )
 ;
 return
@@ -27059,7 +27059,7 @@ base
 )
 nameFPReg
 (
-src0
+dst
 )
 )
 ;
@@ -27077,7 +27077,7 @@ twoByteOp
 opcode
 offset
 base
-src0
+dst
 )
 ;
 return
@@ -27195,7 +27195,7 @@ base
 )
 nameFPReg
 (
-src0
+dst
 )
 )
 ;
@@ -27213,7 +27213,7 @@ twoByteOp_disp32
 opcode
 offset
 base
-src0
+dst
 )
 ;
 return
@@ -27344,7 +27344,7 @@ index
 scale
 nameFPReg
 (
-src0
+dst
 )
 )
 ;
@@ -27364,7 +27364,7 @@ offset
 base
 index
 scale
-src0
+dst
 )
 ;
 return
@@ -27480,7 +27480,7 @@ name
 address
 nameFPReg
 (
-src0
+dst
 )
 )
 ;
@@ -27497,7 +27497,7 @@ twoByteOp
 (
 opcode
 address
-src0
+dst
 )
 ;
 return
@@ -27591,7 +27591,7 @@ rm
 )
 nameFPReg
 (
-src0
+dst
 )
 )
 ;
@@ -27612,7 +27612,7 @@ escape
 RegisterID
 )
 rm
-src0
+dst
 )
 ;
 return
@@ -27725,7 +27725,7 @@ base
 )
 nameFPReg
 (
-src0
+dst
 )
 )
 ;
@@ -27744,7 +27744,7 @@ opcode
 escape
 offset
 base
-src0
+dst
 )
 ;
 return
@@ -27840,7 +27840,7 @@ rm
 )
 nameFPReg
 (
-src0
+dst
 )
 )
 ;
@@ -27861,7 +27861,7 @@ ESCAPE_BLENDVPS
 RegisterID
 )
 rm
-src0
+dst
 )
 ;
 return
@@ -27965,7 +27965,7 @@ base
 )
 nameFPReg
 (
-src0
+dst
 )
 )
 ;
@@ -27984,7 +27984,7 @@ OP3_BLENDVPS_VdqWdq
 ESCAPE_BLENDVPS
 offset
 base
-src0
+dst
 )
 ;
 return
