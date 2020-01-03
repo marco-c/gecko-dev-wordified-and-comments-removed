@@ -1959,9 +1959,9 @@ true
 }
 if
 (
-!
-hostChar
+peek
 (
+SLASH
 )
 )
 {
