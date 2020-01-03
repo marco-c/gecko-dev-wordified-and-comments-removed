@@ -3856,6 +3856,11 @@ HandleValue
 value
 )
 ;
+template
+<
+bool
+Locked
+>
 bool
 InitProp
 (
