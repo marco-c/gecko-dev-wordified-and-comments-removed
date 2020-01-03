@@ -1565,7 +1565,10 @@ mOffset
 nsString
 mString
 ;
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 mRect
 ;
 nsIWidget

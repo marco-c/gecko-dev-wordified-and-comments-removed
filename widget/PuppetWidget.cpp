@@ -2428,7 +2428,7 @@ targetCauseOffset
 ;
 nsAutoTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 16
 >
 textRectArray
@@ -2448,7 +2448,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 caretRect
 ;
 GetCaretRect
@@ -2483,7 +2483,7 @@ uint32_t
 aStartOffset
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 &
 aTextRectArray
@@ -2688,7 +2688,7 @@ PuppetWidget
 :
 GetCaretRect
 (
-nsIntRect
+LayoutDeviceIntRect
 &
 aCaretRect
 uint32_t
@@ -2775,7 +2775,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 if
@@ -2809,7 +2809,7 @@ PuppetWidget
 :
 GetEditorRect
 (
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )
@@ -3250,7 +3250,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 editorRect
 ;
 if
@@ -3274,7 +3274,7 @@ targetCauseOffset
 ;
 nsAutoTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 16
 >
 textRectArray
@@ -3297,7 +3297,7 @@ GetCaretOffset
 )
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 caretRect
 ;
 GetCaretRect

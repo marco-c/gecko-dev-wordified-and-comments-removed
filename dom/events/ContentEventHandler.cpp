@@ -874,6 +874,11 @@ mReply
 .
 mRect
 =
+LayoutDevicePixel
+:
+:
+FromUntyped
+(
 resultRect
 .
 ToOutsidePixels
@@ -883,6 +888,7 @@ mPresContext
 >
 AppUnitsPerDevPixel
 (
+)
 )
 )
 ;
@@ -5337,6 +5343,11 @@ mReply
 .
 mRect
 =
+LayoutDevicePixel
+:
+:
+FromUntyped
+(
 rect
 .
 ToOutsidePixels
@@ -5346,6 +5357,7 @@ mPresContext
 >
 AppUnitsPerDevPixel
 (
+)
 )
 )
 ;
@@ -5573,6 +5585,11 @@ mReply
 .
 mRect
 =
+LayoutDevicePixel
+:
+:
+FromUntyped
+(
 caretRect
 .
 ToOutsidePixels
@@ -5587,6 +5604,7 @@ PresContext
 >
 AppUnitsPerDevPixel
 (
+)
 )
 )
 ;
@@ -5768,6 +5786,11 @@ mReply
 .
 mRect
 =
+LayoutDevicePixel
+:
+:
+FromUntyped
+(
 rect
 .
 ToOutsidePixels
@@ -5777,6 +5800,7 @@ mPresContext
 >
 AppUnitsPerDevPixel
 (
+)
 )
 )
 ;

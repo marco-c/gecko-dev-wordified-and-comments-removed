@@ -794,7 +794,10 @@ NotifyIMEOfPositionChange
 bool
 GetEditorRect
 (
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 &
 aEditorRect
 )
@@ -807,7 +810,10 @@ uint32_t
 aStartOffset
 nsTArray
 <
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 >
 &
 aRectArray
@@ -819,7 +825,10 @@ aTargetCauseOffset
 bool
 GetCaretRect
 (
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 &
 aCaretRect
 uint32_t

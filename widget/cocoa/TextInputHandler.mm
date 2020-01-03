@@ -19623,7 +19623,7 @@ kungFuDeathGrip
 this
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 r
 ;
 bool
@@ -19855,7 +19855,13 @@ nsCocoaUtils
 :
 DevPixelsToCocoaPoints
 (
+LayoutDevicePixel
+:
+:
+ToUntyped
+(
 r
+)
 mWidget
 -
 >
