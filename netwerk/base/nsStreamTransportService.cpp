@@ -1365,6 +1365,8 @@ STSThreadPoolListener
 )
 {
 }
+protected
+:
 ~
 STSThreadPoolListener
 (
