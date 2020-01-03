@@ -1281,6 +1281,11 @@ name
 "
 OverlayActivity
 "
+parent
+=
+"
+Gecko
+"
 >
 <
 item
