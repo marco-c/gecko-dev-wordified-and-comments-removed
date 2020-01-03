@@ -20477,7 +20477,6 @@ JSOp
 pc
 )
 obj
-obj
 idval
 res
 )
@@ -20870,7 +20869,6 @@ JSOp
 *
 pc
 )
-obj
 obj
 idval
 res

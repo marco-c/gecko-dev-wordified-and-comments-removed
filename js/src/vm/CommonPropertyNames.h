@@ -1660,15 +1660,6 @@ style
 \
 macro
 (
-super
-super
-"
-super
-"
-)
-\
-macro
-(
 test
 test
 "
