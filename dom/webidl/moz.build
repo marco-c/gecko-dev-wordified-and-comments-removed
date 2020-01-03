@@ -2795,6 +2795,11 @@ Worker
 webidl
 '
 '
+WorkerDebuggerGlobalScope
+.
+webidl
+'
+'
 WorkerGlobalScope
 .
 webidl
