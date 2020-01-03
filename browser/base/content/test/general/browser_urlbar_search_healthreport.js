@@ -189,7 +189,7 @@ let
 defaultEngineID
 =
 "
-yahoo
+google
 "
 ;
 let

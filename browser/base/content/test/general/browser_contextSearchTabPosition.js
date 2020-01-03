@@ -387,7 +387,7 @@ let
 defaultProviderID
 =
 "
-yahoo
+google
 "
 ;
 let
