@@ -157,6 +157,17 @@ when
 )
 const
 ;
+virtual
+BaseElf
+*
+AsBaseElf
+(
+)
+{
+return
+this
+;
+}
 private
 :
 void
