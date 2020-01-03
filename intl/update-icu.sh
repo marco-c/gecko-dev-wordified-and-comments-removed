@@ -85,7 +85,7 @@ g
 .
 for
 ICU
-52
+55
 .
 1
 :
@@ -116,7 +116,7 @@ tags
 /
 release
 -
-52
+55
 -
 1
 /
@@ -613,6 +613,8 @@ icu_dir
 SVN
 -
 INFO
+exit
+0
 patch
 -
 d
