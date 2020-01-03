@@ -84,6 +84,9 @@ ContainerParser
 class
 MediaSourceDecoder
 ;
+class
+LargeDataBuffer
+;
 namespace
 dom
 {
@@ -124,12 +127,9 @@ Shutdown
 bool
 AppendData
 (
-const
-uint8_t
+LargeDataBuffer
 *
 aData
-uint32_t
-aLength
 int64_t
 aTimestampOffset
 )
@@ -287,12 +287,9 @@ aTimestampOffset
 bool
 AppendDataToCurrentResource
 (
-const
-uint8_t
+LargeDataBuffer
 *
 aData
-uint32_t
-aLength
 uint32_t
 aDuration
 )
