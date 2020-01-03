@@ -856,9 +856,6 @@ true
 )
 ;
 }
-}
-)
-;
 return
 this
 .
@@ -915,6 +912,9 @@ this
 _error
 (
 reason
+)
+;
+}
 )
 ;
 }
