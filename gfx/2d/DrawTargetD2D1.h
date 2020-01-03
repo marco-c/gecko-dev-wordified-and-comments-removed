@@ -681,6 +681,12 @@ Matrix
 aSourceTransform
 ExtendMode
 aExtendMode
+const
+IntRect
+*
+aSourceRect
+=
+nullptr
 )
 ;
 TemporaryRef
@@ -705,6 +711,7 @@ GetImageForSurface
 aSurface
 mat
 aExtendMode
+nullptr
 )
 ;
 }
