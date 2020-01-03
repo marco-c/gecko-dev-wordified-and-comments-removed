@@ -1674,14 +1674,14 @@ win
 GetVersion
 (
 )
->
+<
 base
 :
 :
 win
 :
 :
-VERSION_WIN8_1
+VERSION_VISTA
 )
 {
 result
@@ -1698,7 +1698,7 @@ USER_RESTRICTED_SAME_ACCESS
 sandbox
 :
 :
-USER_RESTRICTED
+USER_LOCKDOWN
 )
 ;
 }
@@ -1718,7 +1718,7 @@ USER_RESTRICTED_SAME_ACCESS
 sandbox
 :
 :
-USER_LOCKDOWN
+USER_RESTRICTED
 )
 ;
 }
