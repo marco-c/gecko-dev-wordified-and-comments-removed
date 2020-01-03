@@ -76,6 +76,15 @@ Performance
 (
 )
 ;
+void
+InsertUserEntry
+(
+PerformanceEntry
+*
+aEntry
+)
+override
+;
 WorkerPrivate
 *
 mWorkerPrivate
