@@ -10134,8 +10134,10 @@ data
 =
 promise
 .
-reject
+resolve
 (
+{
+}
 )
 ;
 }
@@ -10196,6 +10198,14 @@ size
 =
 >
 {
+if
+(
+data
+&
+&
+size
+)
+{
 tooltip
 .
 setImageContent
@@ -10205,10 +10215,7 @@ size
 )
 ;
 }
-(
-)
-=
->
+else
 {
 tooltip
 .
@@ -10216,6 +10223,7 @@ setBrokenImageContent
 (
 )
 ;
+}
 }
 )
 ;
