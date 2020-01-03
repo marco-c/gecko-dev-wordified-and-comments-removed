@@ -367,7 +367,6 @@ IntSize
 &
 aSize
 )
-override
 ;
 virtual
 bool

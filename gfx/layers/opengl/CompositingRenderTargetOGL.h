@@ -176,6 +176,10 @@ gl
 GLContext
 GLContext
 ;
+friend
+class
+CompositorOGL
+;
 struct
 InitParams
 {
