@@ -990,6 +990,11 @@ ResponsiveImageSelector
 h
 '
 '
+SameProcessMessageQueue
+.
+h
+'
+'
 ScreenOrientation
 .
 h
@@ -1661,6 +1666,11 @@ cpp
 '
 '
 ResponsiveImageSelector
+.
+cpp
+'
+'
+SameProcessMessageQueue
 .
 cpp
 '
