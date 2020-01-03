@@ -1583,7 +1583,7 @@ this
 MediaDecoderStateMachine
 :
 :
-DispatchOnPlaybackOffsetUpdate
+OnPlaybackOffsetUpdate
 aPlaybackOffset
 )
 ;
