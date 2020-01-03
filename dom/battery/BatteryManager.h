@@ -134,11 +134,7 @@ Charging
 (
 )
 const
-{
-return
-mCharging
 ;
-}
 double
 ChargingTime
 (
@@ -156,11 +152,7 @@ Level
 (
 )
 const
-{
-return
-mLevel
 ;
-}
 IMPL_EVENT_HANDLER
 (
 chargingchange
