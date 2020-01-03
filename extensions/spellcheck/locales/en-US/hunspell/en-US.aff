@@ -1,11 +1,9 @@
 SET
-UTF8
+ISO8859
+-
+1
 TRY
 esianrtolcdugmphbyfvkwzESIANRTOLCDUGMPHBYFVKWZ
-'
-ICONV
-1
-ICONV
 '
 NOSUGGEST
 !
