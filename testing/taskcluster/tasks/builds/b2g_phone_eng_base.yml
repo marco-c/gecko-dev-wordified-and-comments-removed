@@ -38,11 +38,6 @@ B2G_SYSTEM_APPS
 '
 1
 '
-MOZILLA_OFFICIAL
-:
-'
-1
-'
 MOZ_TELEMETRY_REPORTING
 :
 '
@@ -77,11 +72,6 @@ Zhuyin
 en
 -
 Dvorak
-'
-B2G_UPDATER
-:
-'
-1
 '
 B2G_UPDATE_CHANNEL
 :
