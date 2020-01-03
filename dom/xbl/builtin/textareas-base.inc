@@ -13,7 +13,7 @@ VK_LEFT
 command
 =
 "
-cmd_charPrevious
+cmd_moveLeft
 "
 /
 >
@@ -32,7 +32,7 @@ VK_RIGHT
 command
 =
 "
-cmd_charNext
+cmd_moveRight
 "
 /
 >
@@ -56,7 +56,7 @@ shift
 command
 =
 "
-cmd_selectCharPrevious
+cmd_selectLeft
 "
 /
 >
@@ -80,7 +80,7 @@ shift
 command
 =
 "
-cmd_selectCharNext
+cmd_selectRight
 "
 /
 >
@@ -99,7 +99,7 @@ VK_UP
 command
 =
 "
-cmd_linePrevious
+cmd_moveUp
 "
 /
 >
@@ -118,7 +118,7 @@ VK_DOWN
 command
 =
 "
-cmd_lineNext
+cmd_moveDown
 "
 /
 >
@@ -142,7 +142,7 @@ shift
 command
 =
 "
-cmd_selectLinePrevious
+cmd_selectUp
 "
 /
 >
@@ -166,7 +166,7 @@ shift
 command
 =
 "
-cmd_selectLineNext
+cmd_selectDown
 "
 /
 >
@@ -292,16 +292,16 @@ key
 "
 z
 "
-command
-=
-"
-cmd_redo
-"
 modifiers
 =
 "
 accel
 shift
+"
+command
+=
+"
+cmd_redo
 "
 /
 >

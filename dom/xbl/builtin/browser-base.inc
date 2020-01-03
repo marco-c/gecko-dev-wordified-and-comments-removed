@@ -54,7 +54,7 @@ VK_UP
 command
 =
 "
-cmd_linePrevious
+cmd_moveUp
 "
 /
 >
@@ -73,7 +73,7 @@ VK_DOWN
 command
 =
 "
-cmd_lineNext
+cmd_moveDown
 "
 /
 >
@@ -92,7 +92,7 @@ VK_LEFT
 command
 =
 "
-cmd_charPrevious
+cmd_moveLeft
 "
 /
 >
@@ -111,7 +111,7 @@ VK_RIGHT
 command
 =
 "
-cmd_charNext
+cmd_moveRight
 "
 /
 >
