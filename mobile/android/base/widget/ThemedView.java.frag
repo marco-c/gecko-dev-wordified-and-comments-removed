@@ -846,4 +846,14 @@ id
 )
 ;
 }
+protected
+LightweightTheme
+getTheme
+(
+)
+{
+return
+mTheme
+;
+}
 }
