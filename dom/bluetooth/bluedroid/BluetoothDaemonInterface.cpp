@@ -7457,6 +7457,15 @@ Close
 case
 LISTEN_SOCKET
 :
+if
+(
+!
+mResultHandlerQ
+.
+IsEmpty
+(
+)
+)
 {
 nsRefPtr
 <
