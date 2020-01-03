@@ -245,14 +245,12 @@ BLAH
 txt
 "
 ;
-unsigned
-long
+uint32
 creation_mode
 =
 OPEN_EXISTING
 ;
-unsigned
-long
+uint32
 flags
 =
 FILE_ATTRIBUTE_NORMAL

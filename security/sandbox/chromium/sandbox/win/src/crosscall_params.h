@@ -339,6 +339,11 @@ param_info_
 .
 offset_
 =
+static_cast
+<
+uint32
+>
+(
 parameters_
 -
 reinterpret_cast
@@ -348,6 +353,7 @@ char
 >
 (
 this
+)
 )
 ;
 }
@@ -372,6 +378,11 @@ param_info_
 .
 offset_
 =
+static_cast
+<
+uint32
+>
+(
 parameters_
 -
 reinterpret_cast
@@ -381,6 +392,7 @@ char
 >
 (
 this
+)
 )
 ;
 }

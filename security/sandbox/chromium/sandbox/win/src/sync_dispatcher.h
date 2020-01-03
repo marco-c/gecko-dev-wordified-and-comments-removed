@@ -100,9 +100,9 @@ base
 string16
 *
 name
-DWORD
+uint32
 event_type
-DWORD
+uint32
 initial_state
 )
 ;
@@ -118,7 +118,7 @@ base
 string16
 *
 name
-DWORD
+uint32
 desired_access
 )
 ;

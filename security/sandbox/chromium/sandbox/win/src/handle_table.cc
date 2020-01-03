@@ -474,7 +474,13 @@ key
 .
 ProcessId
 =
+static_cast
+<
+USHORT
+>
+(
 process_id
+)
 ;
 const
 SYSTEM_HANDLE_INFORMATION

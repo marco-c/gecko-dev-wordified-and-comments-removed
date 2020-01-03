@@ -131,7 +131,7 @@ need_specialization
 )
 ;
 return
-ULONG_TYPE
+UINT32_TYPE
 ;
 }
 private

@@ -107,7 +107,7 @@ namespace
 {
 static
 const
-DWORD
+uint32
 kAllowedRegFlags
 =
 KEY_QUERY_VALUE
@@ -596,7 +596,7 @@ TargetPolicy
 REG_ALLOW_READONLY
 :
 {
-DWORD
+uint32
 restricted_flags
 =
 ~

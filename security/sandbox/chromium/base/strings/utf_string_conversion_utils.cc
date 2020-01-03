@@ -262,7 +262,13 @@ output
 >
 push_back
 (
+static_cast
+<
+char
+>
+(
 code_point
+)
 )
 ;
 return

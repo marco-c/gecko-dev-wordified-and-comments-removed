@@ -495,10 +495,6 @@ Take
 (
 )
 ;
-SharedMemIPCServer
-*
-server
-=
 ipc_server_
 .
 release
@@ -651,6 +647,10 @@ if
 CreateProcessAsUserW
 (
 lockdown_token_
+.
+Get
+(
+)
 exe_path
 cmd_line
 .
@@ -778,6 +778,10 @@ SetThreadToken
 &
 temp_thread
 initial_token_
+.
+Get
+(
+)
 )
 )
 {
@@ -1245,6 +1249,10 @@ GetCurrentProcess
 (
 )
 shared_section_
+.
+Get
+(
+)
 sandbox_process_info_
 .
 process_handle
@@ -1275,6 +1283,10 @@ shared_memory
 MapViewOfFile
 (
 shared_section_
+.
+Get
+(
+)
 FILE_MAP_WRITE
 |
 FILE_MAP_READ

@@ -240,6 +240,16 @@ return
 has_non_stop_time_stamp_counter_
 ;
 }
+bool
+has_broken_neon
+(
+)
+const
+{
+return
+has_broken_neon_
+;
+}
 IntelMicroArchitecture
 GetIntelMicroArchitecture
 (
@@ -321,6 +331,9 @@ has_aesni_
 ;
 bool
 has_non_stop_time_stamp_counter_
+;
+bool
+has_broken_neon_
 ;
 std
 :

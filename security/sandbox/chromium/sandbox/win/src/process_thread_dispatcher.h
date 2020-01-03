@@ -94,9 +94,9 @@ NtOpenThread
 IPCInfo
 *
 ipc
-DWORD
+uint32
 desired_access
-DWORD
+uint32
 thread_id
 )
 ;
@@ -106,9 +106,9 @@ NtOpenProcess
 IPCInfo
 *
 ipc
-DWORD
+uint32
 desired_access
-DWORD
+uint32
 process_id
 )
 ;
@@ -120,7 +120,7 @@ IPCInfo
 ipc
 HANDLE
 process
-DWORD
+uint32
 desired_access
 )
 ;
@@ -132,9 +132,9 @@ IPCInfo
 ipc
 HANDLE
 process
-DWORD
+uint32
 desired_access
-DWORD
+uint32
 attributes
 )
 ;

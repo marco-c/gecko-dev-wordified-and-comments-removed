@@ -164,11 +164,11 @@ object
 }
 protected
 :
-virtual
 ~
 SequencedTaskRunner
 (
 )
+override
 {
 }
 private

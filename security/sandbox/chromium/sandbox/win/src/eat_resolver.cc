@@ -107,13 +107,6 @@ eat_entry_
 return
 STATUS_INVALID_PARAMETER
 ;
-size_t
-thunk_bytes
-=
-GetInternalThunkSize
-(
-)
-;
 #
 if
 defined
@@ -133,6 +126,13 @@ target_
 )
 return
 STATUS_BUFFER_TOO_SMALL
+;
+size_t
+thunk_bytes
+=
+GetInternalThunkSize
+(
+)
 ;
 storage_bytes
 -

@@ -218,6 +218,13 @@ module
 )
 ;
 }
+virtual
+~
+PEImage
+(
+)
+{
+}
 HMODULE
 module
 (

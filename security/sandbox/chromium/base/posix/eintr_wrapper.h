@@ -41,7 +41,7 @@ x
 (
 {
 \
-typeof
+decltype
 (
 x
 )
@@ -97,7 +97,7 @@ eintr_wrapper_counter
 0
 ;
 \
-typeof
+decltype
 (
 x
 )
@@ -155,7 +155,7 @@ x
 (
 {
 \
-typeof
+decltype
 (
 x
 )

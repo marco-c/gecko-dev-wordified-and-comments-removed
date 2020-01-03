@@ -48,11 +48,11 @@ RunsTasksOnCurrentThread
 }
 protected
 :
-virtual
 ~
 SingleThreadTaskRunner
 (
 )
+override
 {
 }
 }

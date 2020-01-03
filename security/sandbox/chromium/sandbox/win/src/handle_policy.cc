@@ -385,11 +385,6 @@ GetCurrentProcess
 (
 )
 ;
-DWORD
-result
-=
-ERROR_SUCCESS
-;
 if
 (
 !

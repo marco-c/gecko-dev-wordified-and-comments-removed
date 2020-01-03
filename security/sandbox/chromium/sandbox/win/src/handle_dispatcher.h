@@ -85,11 +85,11 @@ IPCInfo
 ipc
 HANDLE
 source_handle
-DWORD
+uint32
 target_process_id
-DWORD
+uint32
 desired_access
-DWORD
+uint32
 options
 )
 ;

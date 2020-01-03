@@ -492,8 +492,8 @@ open_thread
 {
 {
 IPC_NTOPENTHREAD_TAG
-ULONG_TYPE
-ULONG_TYPE
+UINT32_TYPE
+UINT32_TYPE
 }
 reinterpret_cast
 <
@@ -516,8 +516,8 @@ open_process
 {
 {
 IPC_NTOPENPROCESS_TAG
-ULONG_TYPE
-ULONG_TYPE
+UINT32_TYPE
+UINT32_TYPE
 }
 reinterpret_cast
 <
@@ -541,7 +541,7 @@ process_token
 {
 IPC_NTOPENPROCESSTOKEN_TAG
 VOIDPTR_TYPE
-ULONG_TYPE
+UINT32_TYPE
 }
 reinterpret_cast
 <
@@ -565,8 +565,8 @@ process_tokenex
 {
 IPC_NTOPENPROCESSTOKENEX_TAG
 VOIDPTR_TYPE
-ULONG_TYPE
-ULONG_TYPE
+UINT32_TYPE
+UINT32_TYPE
 }
 reinterpret_cast
 <
@@ -724,9 +724,9 @@ NtOpenThread
 IPCInfo
 *
 ipc
-DWORD
+uint32
 desired_access
-DWORD
+uint32
 thread_id
 )
 {
@@ -783,9 +783,9 @@ NtOpenProcess
 IPCInfo
 *
 ipc
-DWORD
+uint32
 desired_access
-DWORD
+uint32
 process_id
 )
 {
@@ -844,7 +844,7 @@ IPCInfo
 ipc
 HANDLE
 process
-DWORD
+uint32
 desired_access
 )
 {
@@ -903,9 +903,9 @@ IPCInfo
 ipc
 HANDLE
 process
-DWORD
+uint32
 desired_access
-DWORD
+uint32
 attributes
 )
 {

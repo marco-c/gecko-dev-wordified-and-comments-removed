@@ -13,6 +13,11 @@ h
 "
 #
 include
+<
+new
+>
+#
+include
 "
 sandbox
 /
@@ -169,7 +174,6 @@ thunk
 new
 (
 storage
-NT_PLACE
 )
 InternalThunk
 ;
