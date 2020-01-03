@@ -1623,7 +1623,7 @@ HDC
 hDC
 int
 format
-gfxIntSize
+IntSize
 &
 size
 )
@@ -1693,12 +1693,12 @@ hDC
 int
 format
 const
-gfxIntSize
+IntSize
 &
 requested
 )
 {
-gfxIntSize
+IntSize
 max
 ;
 if
@@ -2032,7 +2032,7 @@ GLContextWGL
 CreatePBufferOffscreenContext
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 GLContextWGL
@@ -2702,10 +2702,10 @@ sWGLLib
 fChoosePixelFormat
 )
 {
-gfxIntSize
+IntSize
 dummySize
 =
-gfxIntSize
+IntSize
 (
 16
 16

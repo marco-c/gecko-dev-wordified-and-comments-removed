@@ -364,7 +364,10 @@ GLContextEGL
 CreateEGLPixmapOffscreenContext
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 size
 )
@@ -377,7 +380,10 @@ GLContextEGL
 CreateEGLPBufferOffscreenContext
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 size
 )
@@ -443,7 +449,10 @@ EGLConfig
 config
 EGLenum
 bindToTextureFormat
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 pbsize
 )

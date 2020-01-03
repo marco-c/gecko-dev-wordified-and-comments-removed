@@ -4345,7 +4345,7 @@ GLContextGLX
 CreateOffscreenPixmapContext
 (
 const
-gfxIntSize
+IntSize
 &
 size
 )
@@ -4613,7 +4613,7 @@ error
 =
 false
 ;
-gfxIntSize
+IntSize
 dummySize
 (
 16
@@ -4814,10 +4814,10 @@ CreateHeadless
 bool
 )
 {
-gfxIntSize
+IntSize
 dummySize
 =
-gfxIntSize
+IntSize
 (
 16
 16
@@ -4860,7 +4860,7 @@ GLContextProviderGLX
 CreateOffscreen
 (
 const
-gfxIntSize
+IntSize
 &
 size
 const
@@ -4987,10 +4987,10 @@ triedToCreateContext
 =
 true
 ;
-gfxIntSize
+IntSize
 dummySize
 =
-gfxIntSize
+IntSize
 (
 16
 16

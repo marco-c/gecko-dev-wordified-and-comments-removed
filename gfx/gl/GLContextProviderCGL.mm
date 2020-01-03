@@ -1318,7 +1318,7 @@ GLContextProviderCGL
 CreateOffscreen
 (
 const
-gfxIntSize
+IntSize
 &
 size
 const

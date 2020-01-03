@@ -57,7 +57,10 @@ GLContextProviderNull
 CreateOffscreen
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 const
 SurfaceCaps
