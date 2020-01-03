@@ -884,6 +884,7 @@ flag
 SYNCHRONOUS
 )
 ;
+B2G_ACL_EXPORT
 already_AddRefed
 <
 Image
@@ -1209,6 +1210,7 @@ mozilla
 ReentrantMonitor
 ReentrantMonitor
 ;
+B2G_ACL_EXPORT
 ~
 ImageContainer
 (

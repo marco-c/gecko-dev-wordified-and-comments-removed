@@ -969,6 +969,7 @@ aComp
 endif
 bool
 NS_FASTCALL
+B2G_ACL_EXPORT
 EqualsASCII
 (
 const
@@ -982,6 +983,7 @@ const
 ;
 bool
 NS_FASTCALL
+B2G_ACL_EXPORT
 EqualsASCII
 (
 const
@@ -3439,6 +3441,7 @@ F_VOIDED
 }
 void
 NS_FASTCALL
+B2G_ACL_EXPORT
 Finalize
 (
 )

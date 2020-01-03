@@ -66,6 +66,7 @@ ImageContainer
 class
 VideoFrameContainer
 {
+B2G_ACL_EXPORT
 ~
 VideoFrameContainer
 (
@@ -106,6 +107,7 @@ ImageContainer
 aContainer
 )
 ;
+B2G_ACL_EXPORT
 void
 SetCurrentFrame
 (
@@ -156,6 +158,7 @@ INVALIDATE_DEFAULT
 )
 ;
 }
+B2G_ACL_EXPORT
 void
 InvalidateWithFlags
 (
@@ -163,6 +166,7 @@ uint32_t
 aFlags
 )
 ;
+B2G_ACL_EXPORT
 ImageContainer
 *
 GetImageContainer

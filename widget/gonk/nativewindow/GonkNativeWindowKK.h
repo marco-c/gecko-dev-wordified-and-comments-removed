@@ -171,6 +171,7 @@ GonkBufferQueue
 NO_BUFFER_AVAILABLE
 }
 ;
+B2G_ACL_EXPORT
 GonkNativeWindow
 (
 int
@@ -272,6 +273,7 @@ uint32_t
 defaultFormat
 )
 ;
+B2G_ACL_EXPORT
 already_AddRefed
 <
 TextureClient
@@ -299,6 +301,7 @@ ANativeWindowBuffer
 buffer
 )
 ;
+B2G_ACL_EXPORT
 void
 setNewFrameCallback
 (

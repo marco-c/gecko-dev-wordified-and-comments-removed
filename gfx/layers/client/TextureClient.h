@@ -1178,6 +1178,7 @@ true
 }
 private
 :
+B2G_ACL_EXPORT
 void
 Finalize
 (

@@ -110,6 +110,7 @@ String8
 name
 )
 ;
+B2G_ACL_EXPORT
 sp
 <
 GonkBufferQueue
