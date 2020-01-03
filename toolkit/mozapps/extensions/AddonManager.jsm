@@ -8101,6 +8101,11 @@ getInstallsByTypes_safeCall
 aProviderInstalls
 )
 {
+if
+(
+aProviderInstalls
+)
+{
 installs
 =
 installs
@@ -8110,6 +8115,7 @@ concat
 aProviderInstalls
 )
 ;
+}
 aCaller
 .
 callNext
@@ -9704,6 +9710,11 @@ getAddonsByTypes_concatAddons
 aProviderAddons
 )
 {
+if
+(
+aProviderAddons
+)
+{
 addons
 =
 addons
@@ -9713,6 +9724,7 @@ concat
 aProviderAddons
 )
 ;
+}
 aCaller
 .
 callNext
@@ -9934,6 +9946,11 @@ getAddonsWithOperationsByTypes_concatAddons
 aProviderAddons
 )
 {
+if
+(
+aProviderAddons
+)
+{
 addons
 =
 addons
@@ -9943,6 +9960,7 @@ concat
 aProviderAddons
 )
 ;
+}
 aCaller
 .
 callNext
