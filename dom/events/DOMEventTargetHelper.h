@@ -723,6 +723,17 @@ bool
 aRetVal
 )
 ;
+virtual
+bool
+IsCertainlyAliveForCC
+(
+)
+const
+{
+return
+false
+;
+}
 nsRefPtr
 <
 EventListenerManager

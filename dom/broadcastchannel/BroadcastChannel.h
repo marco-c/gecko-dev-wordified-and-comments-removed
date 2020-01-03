@@ -355,6 +355,17 @@ UpdateMustKeepAlive
 (
 )
 ;
+bool
+IsCertainlyAliveForCC
+(
+)
+const
+override
+{
+return
+mIsKeptAlive
+;
+}
 nsRefPtr
 <
 BroadcastChannelChild
