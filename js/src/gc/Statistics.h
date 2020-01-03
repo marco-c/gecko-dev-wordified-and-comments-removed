@@ -90,6 +90,8 @@ gcstats
 {
 enum
 Phase
+:
+uint8_t
 {
 PHASE_MUTATOR
 PHASE_GC_BEGIN
