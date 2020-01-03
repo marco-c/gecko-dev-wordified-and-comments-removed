@@ -1057,7 +1057,7 @@ close
 )
 ;
 let
-AppFramesMock
+FramesMock
 =
 {
 list
@@ -1099,8 +1099,8 @@ webapps
 "
 )
 .
-setAppFramesMock
+setFramesMock
 (
-AppFramesMock
+FramesMock
 )
 ;

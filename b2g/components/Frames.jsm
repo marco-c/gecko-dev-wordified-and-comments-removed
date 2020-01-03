@@ -9,7 +9,7 @@ EXPORTED_SYMBOLS
 =
 [
 '
-AppFrames
+Frames
 '
 ]
 ;
@@ -146,15 +146,13 @@ false
 ;
 SystemAppProxy
 .
-getAppFrames
+getFrames
 (
 )
 .
 forEach
 (
-(
 frame
-)
 =
 >
 {
@@ -196,6 +194,11 @@ mozapp
 '
 )
 ;
+if
+(
+mozapp
+)
+{
 this
 .
 _apps
@@ -220,6 +223,7 @@ mozapp
 1
 )
 ;
+}
 }
 )
 ;
@@ -413,6 +417,11 @@ frame
 )
 ;
 let
+isFirstAppFrame
+=
+null
+;
+let
 mozapp
 =
 frame
@@ -424,6 +433,11 @@ mozapp
 '
 )
 ;
+if
+(
+mozapp
+)
+{
 let
 count
 =
@@ -453,7 +467,6 @@ mozapp
 count
 )
 ;
-let
 isFirstAppFrame
 =
 (
@@ -464,6 +477,7 @@ count
 1
 )
 ;
+}
 listeners
 .
 forEach
@@ -477,7 +491,7 @@ try
 {
 listener
 .
-onAppFrameCreated
+onFrameCreated
 (
 frame
 isFirstAppFrame
@@ -562,6 +576,11 @@ mm
 )
 ;
 let
+isLastAppFrame
+=
+null
+;
+let
 mozapp
 =
 frame
@@ -573,6 +592,11 @@ mozapp
 '
 )
 ;
+if
+(
+mozapp
+)
+{
 let
 count
 =
@@ -602,7 +626,6 @@ mozapp
 count
 )
 ;
-let
 isLastAppFrame
 =
 (
@@ -613,6 +636,7 @@ count
 0
 )
 ;
+}
 listeners
 .
 forEach
@@ -626,7 +650,7 @@ try
 {
 listener
 .
-onAppFrameDestroyed
+onFrameDestroyed
 (
 frame
 isLastAppFrame
@@ -676,11 +700,11 @@ n
 }
 ;
 let
-AppFrames
+Frames
 =
 this
 .
-AppFrames
+Frames
 =
 {
 list
@@ -691,7 +715,7 @@ list
 >
 SystemAppProxy
 .
-getAppFrames
+getFrames
 (
 )
 addObserver

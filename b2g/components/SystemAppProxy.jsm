@@ -493,10 +493,10 @@ listener
 ;
 }
 }
-getAppFrames
+getFrames
 :
 function
-systemApp_getAppFrames
+systemApp_getFrames
 (
 )
 {
@@ -534,12 +534,9 @@ contentDocument
 .
 querySelectorAll
 (
-"
+'
 iframe
-[
-mozapp
-]
-"
+'
 )
 ;
 for
