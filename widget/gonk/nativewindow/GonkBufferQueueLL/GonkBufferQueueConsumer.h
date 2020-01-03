@@ -209,7 +209,7 @@ const
 ;
 virtual
 void
-dump
+dumpToString
 (
 String8
 &
