@@ -618,9 +618,9 @@ HandleObject
 obj
 HandleId
 id
-bool
-*
-succeeded
+ObjectOpResult
+&
+result
 )
 ;
 static

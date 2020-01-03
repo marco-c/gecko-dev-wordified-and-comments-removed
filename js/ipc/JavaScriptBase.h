@@ -278,9 +278,6 @@ id
 ReturnStatus
 *
 rs
-bool
-*
-success
 )
 {
 return
@@ -298,7 +295,6 @@ objId
 )
 id
 rs
-success
 )
 ;
 }
@@ -1053,9 +1049,6 @@ id
 ReturnStatus
 *
 rs
-bool
-*
-success
 )
 {
 return
@@ -1071,7 +1064,6 @@ serialize
 )
 id
 rs
-success
 )
 ;
 }

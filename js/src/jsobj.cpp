@@ -3958,7 +3958,7 @@ if
 callDelProperty
 )
 {
-bool
+ObjectOpResult
 ignored
 ;
 if
@@ -3978,7 +3978,6 @@ getClass
 delProperty
 obj
 id
-&
 ignored
 )
 )
@@ -14611,8 +14610,8 @@ if
 named
 )
 {
-bool
-succeeded
+ObjectOpResult
+ignored
 ;
 RootedId
 id
@@ -14629,8 +14628,7 @@ DeleteProperty
 cx
 obj
 id
-&
-succeeded
+ignored
 )
 ;
 }

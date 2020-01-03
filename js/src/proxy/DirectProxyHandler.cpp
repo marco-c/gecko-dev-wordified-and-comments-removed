@@ -300,9 +300,9 @@ HandleObject
 proxy
 HandleId
 id
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -339,7 +339,7 @@ DeleteProperty
 cx
 target
 id
-bp
+result
 )
 ;
 }

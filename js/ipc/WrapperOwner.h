@@ -194,9 +194,12 @@ JS
 :
 HandleId
 id
-bool
-*
-bp
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 ;
 bool
@@ -828,9 +831,6 @@ id
 ReturnStatus
 *
 rs
-bool
-*
-success
 )
 =
 0

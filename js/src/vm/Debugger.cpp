@@ -36495,8 +36495,8 @@ ec
 ac
 )
 ;
-bool
-succeeded
+ObjectOpResult
+result
 ;
 if
 (
@@ -36506,8 +36506,7 @@ DeleteProperty
 cx
 obj
 id
-&
-succeeded
+result
 )
 )
 return
@@ -36521,7 +36520,11 @@ rval
 .
 setBoolean
 (
-succeeded
+result
+.
+ok
+(
+)
 )
 ;
 return

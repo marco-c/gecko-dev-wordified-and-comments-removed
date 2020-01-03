@@ -2566,9 +2566,9 @@ HandleObject
 obj
 HandleId
 id
-bool
-*
-succeeded
+ObjectOpResult
+&
+result
 )
 {
 if
@@ -2589,7 +2589,7 @@ DeleteProperty
 cx
 obj
 id
-succeeded
+result
 )
 ;
 }

@@ -896,9 +896,9 @@ HandleObject
 wrapper
 HandleId
 id
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -945,7 +945,7 @@ delete_
 cx
 wrapper
 id
-bp
+result
 )
 ;
 js

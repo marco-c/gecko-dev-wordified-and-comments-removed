@@ -185,9 +185,9 @@ HandleObject
 wrapper
 HandleId
 id
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 const
 {

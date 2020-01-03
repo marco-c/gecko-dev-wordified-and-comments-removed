@@ -289,8 +289,6 @@ returns
 (
 ReturnStatus
 rs
-bool
-successful
 )
 ;
 prio

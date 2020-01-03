@@ -95,9 +95,9 @@ HandleObject
 proxy
 HandleId
 id
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 ;
 static

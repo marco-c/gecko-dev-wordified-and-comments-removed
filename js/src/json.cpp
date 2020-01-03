@@ -3510,8 +3510,8 @@ isUndefined
 )
 )
 {
-bool
-succeeded
+ObjectOpResult
+ignored
 ;
 if
 (
@@ -3521,8 +3521,7 @@ DeleteProperty
 cx
 obj
 id
-&
-succeeded
+ignored
 )
 )
 return
@@ -3638,8 +3637,8 @@ isUndefined
 )
 )
 {
-bool
-succeeded
+ObjectOpResult
+ignored
 ;
 if
 (
@@ -3649,8 +3648,7 @@ DeleteProperty
 cx
 obj
 id
-&
-succeeded
+ignored
 )
 )
 return

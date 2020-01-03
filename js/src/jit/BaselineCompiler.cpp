@@ -8831,7 +8831,7 @@ FunctionInfo
 DeleteElementFn
 >
 (
-DeleteElement
+DeleteElementJit
 <
 true
 >
@@ -8847,7 +8847,7 @@ FunctionInfo
 DeleteElementFn
 >
 (
-DeleteElement
+DeleteElementJit
 <
 false
 >
@@ -9490,7 +9490,7 @@ FunctionInfo
 DeletePropertyFn
 >
 (
-DeleteProperty
+DeletePropertyJit
 <
 true
 >
@@ -9506,7 +9506,7 @@ FunctionInfo
 DeletePropertyFn
 >
 (
-DeleteProperty
+DeletePropertyJit
 <
 false
 >

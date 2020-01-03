@@ -172,9 +172,12 @@ Handle
 jsid
 >
 aId
-bool
-*
-aBp
+JS
+:
+:
+ObjectOpResult
+&
+aResult
 )
 const
 MOZ_OVERRIDE

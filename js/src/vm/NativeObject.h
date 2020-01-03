@@ -5703,9 +5703,9 @@ HandleNativeObject
 obj
 HandleId
 id
-bool
-*
-succeeded
+ObjectOpResult
+&
+result
 )
 ;
 template
