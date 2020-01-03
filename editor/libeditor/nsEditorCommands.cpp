@@ -2538,7 +2538,7 @@ rv
 editor
 -
 >
-CanCut
+CanDelete
 (
 outCmdEnabled
 )
