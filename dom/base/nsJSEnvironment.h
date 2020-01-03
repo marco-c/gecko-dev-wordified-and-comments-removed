@@ -130,6 +130,10 @@ NS_GC_DELAY
 /
 /
 ms
+#
+define
+NS_MAJOR_FORGET_SKIPPABLE_CALLS
+5
 class
 nsJSContext
 :

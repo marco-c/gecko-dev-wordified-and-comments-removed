@@ -651,7 +651,7 @@ ms
 #
 define
 NS_CC_SKIPPABLE_DELAY
-400
+250
 /
 /
 ms
@@ -726,10 +726,6 @@ NS_UNLIMITED_SCRIPT_RUNTIME
 <
 32
 )
-#
-define
-NS_MAJOR_FORGET_SKIPPABLE_CALLS
-2
 static
 nsITimer
 *
@@ -8891,6 +8887,7 @@ else
 if
 (
 (
+(
 sPreviousSuspectedCount
 +
 100
@@ -8898,6 +8895,14 @@ sPreviousSuspectedCount
 <
 =
 suspected
+)
+|
+|
+(
+sCleanupsSinceLastGC
+<
+NS_MAJOR_FORGET_SKIPPABLE_CALLS
+)
 )
 {
 FireForgetSkippable
