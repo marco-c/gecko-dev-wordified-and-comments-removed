@@ -1,7 +1,15 @@
 FROM
-centos
+quay
+.
+io
+/
+mozilla
+/
+ubuntu
 :
-centos7
+12
+.
+04
 MAINTAINER
 Jonas
 Finnemann
