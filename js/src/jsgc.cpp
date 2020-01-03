@@ -9457,6 +9457,15 @@ return
 allArenas
 ;
 }
+if
+(
+isCursorAtEnd
+(
+)
+)
+return
+nullptr
+;
 ArenaHeader
 *
 *
