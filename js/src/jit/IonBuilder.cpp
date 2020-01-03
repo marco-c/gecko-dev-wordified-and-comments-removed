@@ -26331,7 +26331,7 @@ templateObject
 >
 is
 <
-PlainObject
+JSObject
 >
 (
 )
@@ -30422,7 +30422,7 @@ templateObject
 >
 is
 <
-PlainObject
+JSObject
 >
 (
 )

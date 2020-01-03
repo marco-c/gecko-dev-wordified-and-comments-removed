@@ -2822,12 +2822,12 @@ PRELIMINARY_OBJECT_COUNT
 =
 20
 ;
-PlainObject
+NativeObject
 *
 *
 preliminaryObjects
 ;
-HeapPtrPlainObject
+HeapPtrNativeObject
 templateObject_
 ;
 Initializer
@@ -2950,7 +2950,7 @@ return
 true
 ;
 }
-PlainObject
+NativeObject
 *
 templateObject
 (
@@ -3009,7 +3009,7 @@ endif
 void
 registerNewObject
 (
-PlainObject
+NativeObject
 *
 res
 )
@@ -3017,7 +3017,7 @@ res
 void
 unregisterNewObject
 (
-PlainObject
+NativeObject
 *
 res
 )
@@ -5415,7 +5415,7 @@ fixObjectType
 ExclusiveContext
 *
 cx
-PlainObject
+NativeObject
 *
 obj
 )

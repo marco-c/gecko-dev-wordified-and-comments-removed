@@ -260,11 +260,13 @@ global
 -
 >
 createBlankPrototype
-<
-PlainObject
->
 (
 cx
+&
+JSObject
+:
+:
+class_
 )
 )
 ;

@@ -51,10 +51,7 @@ js
 Jsvalify
 (
 &
-js
-:
-:
-PlainObject
+JSObject
 :
 :
 class_

@@ -11717,7 +11717,7 @@ templateObjectIsClassPrototype_
 templateObjectIsClassPrototype
 )
 {
-PlainObject
+JSObject
 *
 obj
 =
@@ -11828,7 +11828,7 @@ return
 templateObjectIsClassPrototype_
 ;
 }
-PlainObject
+NativeObject
 *
 templateObject
 (
@@ -11858,7 +11858,7 @@ toObject
 .
 as
 <
-PlainObject
+NativeObject
 >
 (
 )
@@ -16948,7 +16948,7 @@ initialHeap
 )
 ;
 }
-PlainObject
+NativeObject
 *
 templateObject
 (
@@ -16978,7 +16978,7 @@ toObject
 .
 as
 <
-PlainObject
+NativeObject
 >
 (
 )
@@ -46995,17 +46995,13 @@ MNewDeclEnvObject
 public
 MNullaryInstruction
 {
-AlwaysTenured
-<
-DeclEnvObject
-*
->
+AlwaysTenuredNativeObject
 templateObj_
 ;
 explicit
 MNewDeclEnvObject
 (
-DeclEnvObject
+NativeObject
 *
 templateObj
 )
@@ -47039,7 +47035,7 @@ New
 TempAllocator
 &
 alloc
-DeclEnvObject
+NativeObject
 *
 templateObj
 )
@@ -47055,7 +47051,7 @@ templateObj
 )
 ;
 }
-DeclEnvObject
+NativeObject
 *
 templateObj
 (
@@ -47088,11 +47084,7 @@ MNewCallObjectBase
 public
 MNullaryInstruction
 {
-AlwaysTenured
-<
-CallObject
-*
->
+AlwaysTenuredNativeObject
 templateObj_
 ;
 protected
@@ -47100,7 +47092,7 @@ protected
 explicit
 MNewCallObjectBase
 (
-CallObject
+NativeObject
 *
 templateObj
 )
@@ -47121,7 +47113,7 @@ MIRType_Object
 }
 public
 :
-CallObject
+NativeObject
 *
 templateObject
 (
@@ -47163,7 +47155,7 @@ NewCallObject
 explicit
 MNewCallObject
 (
-CallObject
+NativeObject
 *
 templateObj
 )
@@ -47182,7 +47174,7 @@ New
 TempAllocator
 &
 alloc
-CallObject
+NativeObject
 *
 templateObj
 )
@@ -47215,7 +47207,7 @@ NewRunOnceCallObject
 explicit
 MNewRunOnceCallObject
 (
-CallObject
+NativeObject
 *
 templateObj
 )
@@ -47234,7 +47226,7 @@ New
 TempAllocator
 &
 alloc
-CallObject
+NativeObject
 *
 templateObj
 )
@@ -47258,11 +47250,7 @@ MNewCallObjectPar
 public
 MUnaryInstruction
 {
-AlwaysTenured
-<
-CallObject
-*
->
+AlwaysTenuredNativeObject
 templateObj_
 ;
 MNewCallObjectPar
@@ -47270,7 +47258,7 @@ MNewCallObjectPar
 MDefinition
 *
 cx
-CallObject
+NativeObject
 *
 templateObj
 )
@@ -47344,7 +47332,7 @@ getOperand
 )
 ;
 }
-CallObject
+NativeObject
 *
 templateObj
 (

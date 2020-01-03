@@ -15627,7 +15627,7 @@ MInstruction
 ins
 bool
 definitelyExecuted
-HandlePlainObject
+HandleNativeObject
 baseobj
 Vector
 <
@@ -16392,7 +16392,7 @@ types
 TypeObject
 *
 type
-HandlePlainObject
+HandleNativeObject
 baseobj
 Vector
 <
