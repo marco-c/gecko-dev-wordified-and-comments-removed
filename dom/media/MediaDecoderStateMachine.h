@@ -849,6 +849,11 @@ Complete
 )
 ;
 }
+void
+ResetDecode
+(
+)
+;
 private
 :
 void
