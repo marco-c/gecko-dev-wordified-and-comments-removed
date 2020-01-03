@@ -597,6 +597,9 @@ aContext
 Manager
 *
 aManager
+Data
+*
+aData
 nsIThread
 *
 aTarget
@@ -621,6 +624,10 @@ CreateThreadsafeHandle
 mManager
 (
 aManager
+)
+mData
+(
+aData
 )
 mTarget
 (
@@ -661,6 +668,11 @@ mContext
 MOZ_ASSERT
 (
 mManager
+)
+;
+MOZ_ASSERT
+(
+mData
 )
 ;
 MOZ_ASSERT
@@ -944,6 +956,12 @@ nsRefPtr
 Manager
 >
 mManager
+;
+nsRefPtr
+<
+Data
+>
+mData
 ;
 nsCOMPtr
 <
@@ -1535,7 +1553,7 @@ RunOnTarget
 (
 resolver
 mQuotaInfo
-nullptr
+mData
 )
 ;
 MOZ_ASSERT
@@ -3190,6 +3208,7 @@ QuotaInitRunnable
 (
 this
 mManager
+mData
 mTarget
 aInitAction
 )
