@@ -251,9 +251,15 @@ ifneq
 JS_BINARY
 )
 )
+ifndef
+MOZ_DEBUG
+ifndef
+NIGHTLY_BUILD
 MOZ_PACKAGER_MINIFY_JS
 =
 1
+endif
+endif
 endif
 ifeq
 (
