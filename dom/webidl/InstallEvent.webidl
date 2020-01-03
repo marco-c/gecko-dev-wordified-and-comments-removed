@@ -187,7 +187,7 @@ issues
 dictionary
 InstallEventInit
 :
-EventInit
+ExtendableEventInit
 {
 ServiceWorker
 ?
