@@ -217,16 +217,6 @@ DispatchAudioCaptured
 )
 ;
 void
-UpdateStreamBlockingForPlayState
-(
-)
-;
-void
-UpdateStreamBlockingForStateMachinePlaying
-(
-)
-;
-void
 RecreateDecodedStream
 (
 MediaStreamGraph

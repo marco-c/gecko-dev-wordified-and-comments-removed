@@ -114,13 +114,10 @@ aPreservesPitch
 )
 ;
 void
-StartPlayback
+SetPlaying
 (
-)
-;
-void
-StopPlayback
-(
+bool
+aPlaying
 )
 ;
 private
