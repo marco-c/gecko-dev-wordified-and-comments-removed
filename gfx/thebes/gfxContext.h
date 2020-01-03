@@ -867,11 +867,6 @@ Clip
 )
 ;
 void
-ResetClip
-(
-)
-;
-void
 Clip
 (
 const
@@ -899,11 +894,6 @@ aPath
 ;
 void
 PopClip
-(
-)
-;
-void
-UpdateSurfaceClip
 (
 )
 ;
