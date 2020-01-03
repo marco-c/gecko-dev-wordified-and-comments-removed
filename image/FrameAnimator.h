@@ -281,7 +281,7 @@ GetFirstFrameRefreshArea
 )
 const
 ;
-LookupResult
+DrawableFrameRef
 GetCompositedFrame
 (
 uint32_t

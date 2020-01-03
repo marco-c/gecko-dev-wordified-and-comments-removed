@@ -49,13 +49,6 @@ h
 #
 include
 "
-LookupResult
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -630,7 +623,7 @@ uint32_t
 aFlags
 )
 ;
-LookupResult
+DrawableFrameRef
 LookupFrameInternal
 (
 uint32_t

@@ -88,13 +88,13 @@ namespace
 image
 {
 class
+DrawableFrameRef
+;
+class
 Image
 ;
 class
 imgFrame
-;
-class
-LookupResult
 ;
 struct
 SurfaceMemoryCounter
@@ -483,7 +483,7 @@ Shutdown
 )
 ;
 static
-LookupResult
+DrawableFrameRef
 Lookup
 (
 const
@@ -507,7 +507,7 @@ Nothing
 )
 ;
 static
-LookupResult
+DrawableFrameRef
 LookupBestMatch
 (
 const
