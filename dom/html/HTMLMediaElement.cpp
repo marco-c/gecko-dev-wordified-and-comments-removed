@@ -12707,9 +12707,11 @@ const
 MediaInfo
 *
 aInfo
+nsAutoPtr
+<
 const
 MetadataTags
-*
+>
 aTags
 )
 {
@@ -12734,6 +12736,10 @@ HasVideo
 mTags
 =
 aTags
+.
+forget
+(
+)
 ;
 mLoadedDataFired
 =
