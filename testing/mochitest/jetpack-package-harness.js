@@ -16,9 +16,7 @@ const
 TEST_ID
 =
 "
-jetpack
--
-tests
+mochikit
 mozilla
 .
 org
@@ -179,7 +177,10 @@ function
 testModule
 (
 require
+{
 url
+expected
+}
 )
 {
 return
