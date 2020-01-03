@@ -13044,7 +13044,7 @@ View
 VISIBLE
 )
 ;
-mHomePager
+mHomePagerContainer
 .
 setVisibility
 (
@@ -13115,7 +13115,7 @@ getUserVisibleHint
 return
 ;
 }
-mHomePager
+mHomePagerContainer
 .
 setVisibility
 (
