@@ -10990,5 +10990,17 @@ void
 data
 )
 ;
+extern
+JS_FRIEND_API
+(
+void
+)
+JS_ClearAllPostBarrierCallbacks
+(
+JSRuntime
+*
+rt
+)
+;
 #
 endif
