@@ -436,7 +436,6 @@ initialize
 function
 (
 client
-form
 )
 {
 protocol
@@ -451,14 +450,6 @@ call
 (
 this
 client
-null
-)
-;
-this
-.
-form
-(
-form
 )
 ;
 }
@@ -513,7 +504,7 @@ actorID
 =
 form
 .
-actorID
+actor
 ;
 this
 .
