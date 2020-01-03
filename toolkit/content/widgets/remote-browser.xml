@@ -2295,6 +2295,9 @@ options
 data
 .
 selectedIndex
+this
+.
+_fullZoom
 )
 ;
 this
