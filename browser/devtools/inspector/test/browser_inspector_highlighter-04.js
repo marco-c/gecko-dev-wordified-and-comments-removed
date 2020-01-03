@@ -179,7 +179,6 @@ let
 {
 inspector
 toolbox
-testActor
 }
 =
 yield
@@ -234,10 +233,11 @@ let
 foundId
 =
 yield
-testActor
-.
 getHighlighterNodeAttribute
 (
+toolbox
+.
+highlighter
 id
 "
 id

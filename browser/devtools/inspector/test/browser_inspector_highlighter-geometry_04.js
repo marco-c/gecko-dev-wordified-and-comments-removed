@@ -36,7 +36,7 @@ function
 let
 {
 inspector
-testActor
+toolbox
 }
 =
 yield
@@ -70,7 +70,6 @@ checkArrows
 (
 highlighter
 inspector
-testActor
 "
 .
 absolute
@@ -160,7 +159,6 @@ checkArrows
 (
 highlighter
 inspector
-testActor
 "
 .
 relative
@@ -210,7 +208,6 @@ checkArrows
 (
 highlighter
 inspector
-testActor
 "
 .
 fixed
@@ -287,7 +284,6 @@ checkArrows
 (
 highlighter
 inspector
-testActor
 selector
 arrows
 )
@@ -334,7 +330,6 @@ yield
 checkArrow
 (
 highlighter
-testActor
 side
 arrows
 [
@@ -349,7 +344,6 @@ function
 checkArrow
 (
 highlighter
-testActor
 name
 expectedCoordinates
 )
@@ -366,10 +360,9 @@ let
 value
 =
 yield
-testActor
-.
 getHighlighterNodeAttribute
 (
+highlighter
 ID
 +
 "
@@ -379,7 +372,6 @@ arrow
 +
 name
 coordinate
-highlighter
 )
 ;
 is

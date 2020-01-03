@@ -276,7 +276,7 @@ function
 let
 {
 inspector
-testActor
+toolbox
 }
 =
 yield
@@ -318,7 +318,6 @@ testNode
 (
 inspector
 highlighter
-testActor
 data
 )
 ;
@@ -355,7 +354,6 @@ testNode
 (
 inspector
 highlighter
-testActor
 data
 )
 {
@@ -400,7 +398,6 @@ yield
 isOffsetParentVisible
 (
 highlighter
-testActor
 )
 )
 data
@@ -431,7 +428,6 @@ yield
 isCurrentNodeVisible
 (
 highlighter
-testActor
 )
 )
 data
@@ -462,7 +458,6 @@ yield
 hasVisibleArrows
 (
 highlighter
-testActor
 )
 )
 data
@@ -490,7 +485,6 @@ yield
 isSizeVisible
 (
 highlighter
-testActor
 )
 )
 data
@@ -518,17 +512,15 @@ function
 isOffsetParentVisible
 (
 highlighter
-testActor
 )
 {
 let
 hidden
 =
 yield
-testActor
-.
 getHighlighterNodeAttribute
 (
+highlighter
 ID
 +
 "
@@ -539,7 +531,6 @@ parent
 "
 hidden
 "
-highlighter
 )
 ;
 return
@@ -552,17 +543,15 @@ function
 isCurrentNodeVisible
 (
 highlighter
-testActor
 )
 {
 let
 hidden
 =
 yield
-testActor
-.
 getHighlighterNodeAttribute
 (
+highlighter
 ID
 +
 "
@@ -573,7 +562,6 @@ node
 "
 hidden
 "
-highlighter
 )
 ;
 return
@@ -586,7 +574,6 @@ function
 hasVisibleArrows
 (
 highlighter
-testActor
 )
 {
 for
@@ -614,10 +601,9 @@ let
 hidden
 =
 yield
-testActor
-.
 getHighlighterNodeAttribute
 (
+highlighter
 ID
 +
 "
@@ -629,7 +615,6 @@ side
 "
 hidden
 "
-highlighter
 )
 ;
 if
@@ -652,17 +637,15 @@ function
 isSizeVisible
 (
 highlighter
-testActor
 )
 {
 let
 hidden
 =
 yield
-testActor
-.
 getHighlighterNodeAttribute
 (
+highlighter
 ID
 +
 "
@@ -673,7 +656,6 @@ size
 "
 hidden
 "
-highlighter
 )
 ;
 return

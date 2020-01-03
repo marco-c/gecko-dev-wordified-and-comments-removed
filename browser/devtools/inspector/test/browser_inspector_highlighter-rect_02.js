@@ -24,7 +24,7 @@ function
 let
 {
 inspector
-testActor
+toolbox
 }
 =
 yield
@@ -114,10 +114,9 @@ let
 style
 =
 yield
-testActor
-.
 getHighlighterNodeAttribute
 (
+highlighter
 "
 highlighted
 -
@@ -126,7 +125,6 @@ rect
 "
 style
 "
-highlighter
 )
 ;
 is
