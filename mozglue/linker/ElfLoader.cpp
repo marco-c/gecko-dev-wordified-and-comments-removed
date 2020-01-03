@@ -1641,6 +1641,10 @@ flags
 ;
 return
 handle
+.
+forget
+(
+)
 ;
 }
 const

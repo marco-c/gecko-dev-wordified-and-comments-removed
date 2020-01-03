@@ -775,6 +775,10 @@ Unlock
 ;
 return
 data
+.
+forget
+(
+)
 ;
 }
 virtual

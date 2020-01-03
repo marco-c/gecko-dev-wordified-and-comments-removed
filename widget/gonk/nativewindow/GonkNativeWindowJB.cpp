@@ -619,6 +619,10 @@ this
 ;
 return
 textureClient
+.
+forget
+(
+)
 ;
 }
 void

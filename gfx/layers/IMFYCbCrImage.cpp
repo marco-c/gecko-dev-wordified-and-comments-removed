@@ -433,6 +433,10 @@ nullptr
 }
 return
 result
+.
+forget
+(
+)
 ;
 }
 static

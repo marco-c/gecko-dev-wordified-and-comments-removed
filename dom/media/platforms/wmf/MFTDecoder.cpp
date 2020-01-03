@@ -324,6 +324,10 @@ nullptr
 ;
 return
 attr
+.
+forget
+(
+)
 ;
 }
 HRESULT

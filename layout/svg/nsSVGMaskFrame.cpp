@@ -1742,6 +1742,10 @@ maskSurfaceMatrix
 ;
 return
 destMaskSurface
+.
+forget
+(
+)
 ;
 }
 nsresult

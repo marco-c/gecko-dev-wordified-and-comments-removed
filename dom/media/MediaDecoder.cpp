@@ -923,6 +923,10 @@ TaskQueue
 Dispatch
 (
 event
+.
+forget
+(
+)
 )
 ;
 if
@@ -992,6 +996,10 @@ TaskQueue
 Dispatch
 (
 event
+.
+forget
+(
+)
 )
 ;
 }

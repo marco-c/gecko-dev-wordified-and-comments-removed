@@ -589,6 +589,10 @@ seeking
 ;
 return
 seeking
+.
+forget
+(
+)
 ;
 }
 HRESULT

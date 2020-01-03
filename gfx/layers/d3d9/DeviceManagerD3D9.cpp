@@ -4118,6 +4118,10 @@ aTextureHost
 }
 return
 result
+.
+forget
+(
+)
 ;
 }
 #

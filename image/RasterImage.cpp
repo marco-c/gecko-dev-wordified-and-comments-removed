@@ -2713,6 +2713,10 @@ Unmap
 ;
 return
 surf
+.
+forget
+(
+)
 ;
 }
 NS_IMETHODIMP_

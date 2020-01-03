@@ -292,5 +292,9 @@ Unlock
 ;
 return
 dataSurface
+.
+forget
+(
+)
 ;
 }

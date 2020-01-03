@@ -346,6 +346,10 @@ zip
 ;
 return
 zip
+.
+forget
+(
+)
 ;
 }
 Zip

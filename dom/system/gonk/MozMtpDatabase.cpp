@@ -856,6 +856,10 @@ aHandle
 }
 return
 entry
+.
+forget
+(
+)
 ;
 }
 void

@@ -240,6 +240,10 @@ nullptr
 }
 return
 tex
+.
+forget
+(
+)
 ;
 }
 bool

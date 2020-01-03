@@ -14607,6 +14607,10 @@ nullptr
 }
 return
 drawTarget
+.
+forget
+(
+)
 ;
 }
 void
@@ -15205,6 +15209,10 @@ mUpdateDrawTarget
 ;
 return
 drawTarget
+.
+forget
+(
+)
 ;
 }
 #

@@ -2245,6 +2245,10 @@ Unmap
 ;
 return
 surface
+.
+forget
+(
+)
 ;
 }
 rv
@@ -2287,6 +2291,10 @@ nullptr
 }
 return
 surface
+.
+forget
+(
+)
 ;
 }
 android

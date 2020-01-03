@@ -139,6 +139,10 @@ aSurface
 ;
 return
 texture
+.
+forget
+(
+)
 ;
 }
 bool

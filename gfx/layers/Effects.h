@@ -1153,6 +1153,10 @@ break
 }
 return
 result
+.
+forget
+(
+)
 ;
 }
 inline

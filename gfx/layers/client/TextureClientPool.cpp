@@ -555,6 +555,10 @@ mOutstandingClients
 ;
 return
 textureClient
+.
+forget
+(
+)
 ;
 }
 ShrinkToMaximumSize
@@ -680,6 +684,10 @@ mOutstandingClients
 ;
 return
 textureClient
+.
+forget
+(
+)
 ;
 }
 void

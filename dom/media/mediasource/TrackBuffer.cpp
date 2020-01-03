@@ -3251,6 +3251,10 @@ GetTaskQueue
 Dispatch
 (
 task
+.
+forget
+(
+)
 )
 ;
 return
@@ -5544,6 +5548,10 @@ GetTaskQueue
 Dispatch
 (
 task
+.
+forget
+(
+)
 )
 ;
 }

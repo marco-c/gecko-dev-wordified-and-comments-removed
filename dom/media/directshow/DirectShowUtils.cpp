@@ -1320,6 +1320,10 @@ matches
 {
 return
 pin
+.
+forget
+(
+)
 ;
 }
 }

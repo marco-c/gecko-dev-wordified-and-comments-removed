@@ -1276,6 +1276,10 @@ mTaskQueue
 Dispatch
 (
 task
+.
+forget
+(
+)
 )
 ;
 return
@@ -1486,6 +1490,10 @@ mTaskQueue
 Dispatch
 (
 task
+.
+forget
+(
+)
 )
 ;
 return
