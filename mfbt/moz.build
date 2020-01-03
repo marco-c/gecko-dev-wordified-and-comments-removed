@@ -429,6 +429,11 @@ WeakPtr
 .
 h
 '
+'
+unused
+.
+h
+'
 ]
 if
 CONFIG
@@ -589,6 +594,11 @@ cpp
 '
 '
 TaggedAnonymousMemory
+.
+cpp
+'
+'
+unused
 .
 cpp
 '

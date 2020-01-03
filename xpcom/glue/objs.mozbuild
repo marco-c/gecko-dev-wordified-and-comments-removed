@@ -279,11 +279,6 @@ nsTextFormatter
 .
 cpp
 '
-'
-unused
-.
-cpp
-'
 ]
 xpcom_gluens_src_cppsrcs
 =
