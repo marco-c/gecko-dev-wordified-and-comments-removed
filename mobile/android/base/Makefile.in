@@ -524,6 +524,10 @@ JAVA_CLASSPATH
 ALL_JARS
 =
 \
+constants
+.
+jar
+\
 gecko
 -
 R
@@ -1435,6 +1439,9 @@ mozglue_PP_JAVAFILES
 gecko
 -
 browser_PP_JAVAFILES
+)
+(
+constants_PP_JAVAFILES
 )
 )
 manifest
