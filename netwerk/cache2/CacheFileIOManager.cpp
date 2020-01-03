@@ -12803,6 +12803,7 @@ CacheIndex
 :
 GetEntryForEviction
 (
+false
 &
 hash
 &
@@ -17526,6 +17527,12 @@ if
 rv
 =
 =
+NS_ERROR_FILE_ALREADY_EXISTS
+|
+|
+rv
+=
+=
 NS_ERROR_FILE_NO_DEVICE_SPACE
 )
 {
@@ -17609,6 +17616,7 @@ CacheIndex
 :
 GetEntryForEviction
 (
+true
 &
 hash
 &
