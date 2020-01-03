@@ -3400,6 +3400,11 @@ mIsLastChromeOnlyEscapeKeyConsumed
 :
 1
 ;
+bool
+mHasReceivedPaintMessage
+:
+1
+;
 static
 bool
 sDisableNonTestMouseEvents
