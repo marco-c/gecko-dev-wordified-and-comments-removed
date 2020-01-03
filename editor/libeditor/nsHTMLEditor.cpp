@@ -15711,12 +15711,6 @@ aNode
 aProperty
 )
 ;
-MOZ_ASSERT_IF
-(
-aAttribute
-aValue
-)
-;
 bool
 isSet
 ;

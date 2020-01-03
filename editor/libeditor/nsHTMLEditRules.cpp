@@ -21800,6 +21800,7 @@ mHTMLEditor
 >
 GetInlinePropertyBase
 (
+*
 propItem
 -
 >
@@ -35681,6 +35682,7 @@ mHTMLEditor
 >
 GetInlinePropertyBase
 (
+*
 mCachedStyles
 [
 i
