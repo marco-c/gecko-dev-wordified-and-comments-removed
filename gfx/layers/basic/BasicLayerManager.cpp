@@ -398,7 +398,7 @@ gfxContext
 *
 aContext
 const
-nsIntRect
+IntRect
 &
 aRect
 )
@@ -678,7 +678,7 @@ forget
 ;
 }
 static
-nsIntRect
+IntRect
 ToInsideIntRect
 (
 const
@@ -699,7 +699,7 @@ RoundIn
 )
 ;
 return
-nsIntRect
+IntRect
 (
 r
 .
@@ -844,7 +844,7 @@ GetEffectiveVisibleRegion
 )
 ;
 const
-nsIntRect
+IntRect
 &
 bounds
 =
@@ -1327,14 +1327,14 @@ static
 void
 TransformIntRect
 (
-nsIntRect
+IntRect
 &
 aRect
 const
 Matrix
 &
 aMatrix
-nsIntRect
+IntRect
 (
 *
 aRoundMethod
@@ -1403,11 +1403,11 @@ Layer
 *
 aLayer
 const
-nsIntRect
+IntRect
 &
 aClipRect
 const
-nsIntRect
+IntRect
 &
 aDirtyRect
 nsIntRegion
@@ -1417,7 +1417,7 @@ uint32_t
 aFlags
 )
 {
-nsIntRect
+IntRect
 newClipRect
 (
 aClipRect
@@ -1471,7 +1471,7 @@ if
 clipRect
 )
 {
-nsIntRect
+IntRect
 cr
 =
 ParentLayerIntRect
@@ -1637,7 +1637,7 @@ GetEffectiveVisibleRegion
 (
 )
 ;
-nsIntRect
+IntRect
 r
 =
 region
@@ -1707,7 +1707,7 @@ region
 while
 (
 const
-nsIntRect
+IntRect
 *
 sr
 =
@@ -1829,7 +1829,7 @@ Layer
 *
 aLayer
 const
-nsIntRect
+IntRect
 &
 aVisibleRect
 )
@@ -1854,7 +1854,7 @@ IsHidden
 )
 return
 ;
-nsIntRect
+IntRect
 newVisibleRect
 (
 aVisibleRect
@@ -1881,7 +1881,7 @@ if
 clipRect
 )
 {
-nsIntRect
+IntRect
 cr
 =
 ParentLayerIntRect
@@ -2427,7 +2427,7 @@ END_NO_COMPOSITE
 )
 )
 {
-nsIntRect
+IntRect
 clipRect
 ;
 {
@@ -2526,7 +2526,7 @@ mRegionToClear
 )
 ;
 const
-nsIntRect
+IntRect
 *
 r
 ;
@@ -4471,7 +4471,7 @@ aTarget
 else
 {
 const
-nsIntRect
+IntRect
 &
 bounds
 =

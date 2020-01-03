@@ -57,7 +57,10 @@ IDirect3DSurface9
 *
 aSurface
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aRegion
 )
@@ -78,7 +81,10 @@ IDirect3DSurface9
 >
 mSurface
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 mRegion
 ;
 }

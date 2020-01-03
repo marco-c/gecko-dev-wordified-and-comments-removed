@@ -232,7 +232,7 @@ RoundOut
 (
 )
 ;
-nsIntRect
+IntRect
 r
 (
 clip

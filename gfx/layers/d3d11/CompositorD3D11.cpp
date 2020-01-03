@@ -5794,7 +5794,7 @@ size
 offset
 )
 ;
-nsIntRect
+IntRect
 intRect
 =
 IntRect
@@ -5834,7 +5834,7 @@ intRect
 )
 ;
 }
-nsIntRect
+IntRect
 invalidRect
 =
 invalidRegionSafe
@@ -5917,7 +5917,7 @@ invalidRect
 IntersectRect
 (
 invalidRect
-nsIntRect
+IntRect
 (
 aClipRectIn
 -
@@ -6204,7 +6204,7 @@ mInvalidRegion
 )
 ;
 const
-nsIntRect
+IntRect
 *
 r
 ;
@@ -6515,7 +6515,7 @@ EnsureSize
 (
 )
 {
-nsIntRect
+IntRect
 rect
 ;
 mWidget

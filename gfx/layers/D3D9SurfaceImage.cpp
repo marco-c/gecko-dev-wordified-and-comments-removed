@@ -426,7 +426,10 @@ hr
 )
 ;
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 region
 =

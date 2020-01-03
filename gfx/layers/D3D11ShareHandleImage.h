@@ -74,7 +74,10 @@ ID3D11DeviceContext
 *
 aContext
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aRegion
 )
@@ -115,7 +118,10 @@ ID3D11DeviceContext
 >
 mContext
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 mRegion
 ;
 }
@@ -196,7 +202,10 @@ GetTexture
 const
 ;
 virtual
-nsIntRect
+gfx
+:
+:
+IntRect
 GetPictureRect
 (
 )
@@ -214,7 +223,10 @@ gfx
 IntSize
 mSize
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 mPictureRect
 ;
 RefPtr

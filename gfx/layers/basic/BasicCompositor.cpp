@@ -2547,7 +2547,7 @@ aInvalidRegion
 intRect
 )
 ;
-nsIntRect
+IntRect
 invalidRect
 =
 invalidRegionSafe
@@ -2951,7 +2951,7 @@ mInvalidRegion
 for
 (
 const
-nsIntRect
+IntRect
 *
 r
 =

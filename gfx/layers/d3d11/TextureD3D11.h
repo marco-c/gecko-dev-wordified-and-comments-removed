@@ -834,7 +834,10 @@ size
 ;
 }
 virtual
-nsIntRect
+gfx
+:
+:
+IntRect
 GetTileRect
 (
 )

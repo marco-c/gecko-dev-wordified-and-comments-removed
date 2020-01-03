@@ -4117,7 +4117,7 @@ aDestRegion
 )
 ;
 const
-nsIntRect
+IntRect
 *
 iterRect
 ;
@@ -4558,7 +4558,7 @@ GetMaxTextureSize
 )
 ;
 }
-nsIntRect
+IntRect
 DataTextureSourceD3D11
 :
 :
@@ -4575,7 +4575,7 @@ mCurrentTile
 )
 ;
 return
-nsIntRect
+IntRect
 (
 rect
 .

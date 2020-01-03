@@ -3541,7 +3541,7 @@ EnsureSize
 (
 )
 {
-nsIntRect
+IntRect
 rect
 ;
 mWidget
