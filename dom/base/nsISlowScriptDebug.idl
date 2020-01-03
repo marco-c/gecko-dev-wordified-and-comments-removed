@@ -117,7 +117,7 @@ b4a9
 )
 ]
 interface
-nsISlowScriptDebugerStartupCallback
+nsISlowScriptDebuggerStartupCallback
 :
 nsISupports
 {
@@ -156,7 +156,7 @@ in
 nsIDOMEventTarget
 aBrowser
 in
-nsISlowScriptDebugerStartupCallback
+nsISlowScriptDebuggerStartupCallback
 aCallback
 )
 ;
