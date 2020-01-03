@@ -55,10 +55,7 @@ false
 )
 ;
 return
-JSObject
-:
-:
-getProperty
+GetProperty
 (
 cx
 handler
@@ -164,10 +161,7 @@ iterate
 )
 ;
 return
-JSObject
-:
-:
-getProperty
+GetProperty
 (
 cx
 handler
@@ -499,10 +493,7 @@ false
 if
 (
 !
-JSObject
-:
-:
-getElement
+GetElement
 (
 cx
 obj

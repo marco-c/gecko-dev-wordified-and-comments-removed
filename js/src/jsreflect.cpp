@@ -531,10 +531,7 @@ true
 ;
 }
 return
-JSObject
-:
-:
-getGeneric
+GetProperty
 (
 cx
 obj
@@ -3989,10 +3986,7 @@ continue
 if
 (
 !
-JSObject
-:
-:
-setElement
+SetElement
 (
 cx
 array

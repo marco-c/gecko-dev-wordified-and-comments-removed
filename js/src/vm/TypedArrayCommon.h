@@ -1712,10 +1712,7 @@ i
 if
 (
 !
-JSObject
-:
-:
-getElement
+GetElement
 (
 cx
 source

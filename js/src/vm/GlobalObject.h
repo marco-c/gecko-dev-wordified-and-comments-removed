@@ -3134,10 +3134,7 @@ value
 )
 ;
 return
-JSObject
-:
-:
-setProperty
+SetProperty
 (
 cx
 holder

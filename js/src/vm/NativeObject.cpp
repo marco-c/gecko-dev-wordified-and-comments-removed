@@ -8751,10 +8751,7 @@ idHandle
 vpHandle
 )
 :
-JSObject
-:
-:
-getGeneric
+GetProperty
 (
 cx
 obj2Handle
@@ -10428,10 +10425,7 @@ strict
 ;
 }
 return
-JSObject
-:
-:
-setGeneric
+SetProperty
 (
 cx
 proto

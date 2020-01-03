@@ -8223,10 +8223,7 @@ name
 if
 (
 !
-JSObject
-:
-:
-getGeneric
+GetProperty
 (
 cx
 obj

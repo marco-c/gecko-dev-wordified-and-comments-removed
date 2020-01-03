@@ -2725,10 +2725,7 @@ strict
 ;
 }
 return
-JSObject
-:
-:
-setGeneric
+SetProperty
 (
 cx
 obj
