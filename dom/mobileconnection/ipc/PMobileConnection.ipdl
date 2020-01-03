@@ -207,7 +207,7 @@ aIccId
 ;
 NotifyRadioStateChanged
 (
-nsString
+int32_t
 aRadioState
 )
 ;
@@ -317,7 +317,7 @@ nsString
 aIccId
 int32_t
 aNetworkSelectionMode
-nsString
+int32_t
 aRadioState
 nsString
 [
