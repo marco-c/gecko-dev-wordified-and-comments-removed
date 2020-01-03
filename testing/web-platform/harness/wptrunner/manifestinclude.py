@@ -533,23 +533,19 @@ os
 .
 path
 .
-abspath
+join
 (
 os
 .
 path
 .
-join
+abspath
 (
 os
 .
 curdir
-url
 )
-[
-1
-:
-]
+url
 )
         
 rest

@@ -16,15 +16,9 @@ mozlog
 2
 .
 8
-#
-Unfortunately
-just
-for
-gdb
-flags
-mozrunner
+mozdebug
 >
 =
-6
+0
 .
 1

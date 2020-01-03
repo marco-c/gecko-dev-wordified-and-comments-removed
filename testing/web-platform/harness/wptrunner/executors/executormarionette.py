@@ -256,7 +256,7 @@ self
 .
 executor
 .
-debug_args
+debug_info
 is
 None
 :
@@ -1807,7 +1807,7 @@ close_after_done
 =
 True
                  
-debug_args
+debug_info
 =
 None
 )
@@ -1841,9 +1841,9 @@ timeout_multiplier
 =
 timeout_multiplier
                                      
-debug_args
+debug_info
 =
-debug_args
+debug_info
 )
         
 self
@@ -2007,7 +2007,7 @@ timeout_multiplier
 if
 self
 .
-debug_args
+debug_info
 is
 None
                    
@@ -2228,7 +2228,7 @@ None
 close_after_done
 =
 True
-debug_args
+debug_info
 =
 None
 )
@@ -2265,9 +2265,9 @@ timeout_multiplier
 =
 timeout_multiplier
                                  
-debug_args
+debug_info
 =
-debug_args
+debug_info
 )
         
 self
@@ -2551,7 +2551,7 @@ timeout
 if
 self
 .
-debug_args
+debug_info
 is
 None
 else

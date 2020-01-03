@@ -973,7 +973,7 @@ True
 capabilities
 =
 None
-debug_args
+debug_info
 =
 None
 )
@@ -1007,9 +1007,9 @@ timeout_multiplier
 =
 timeout_multiplier
                                      
-debug_args
+debug_info
 =
-debug_args
+debug_info
 )
         
 self
@@ -1264,7 +1264,7 @@ close_after_done
 =
 True
                  
-debug_args
+debug_info
 =
 None
 capabilities
@@ -1305,9 +1305,9 @@ timeout_multiplier
 =
 timeout_multiplier
                                  
-debug_args
+debug_info
 =
-debug_args
+debug_info
 )
         
 self

@@ -795,6 +795,13 @@ pause_after_test
 "
 ]
                                  
+kwargs
+[
+"
+debug_info
+"
+]
+                                 
 env_options
 )
 as
@@ -1075,7 +1082,7 @@ pause_on_unexpected
 kwargs
 [
 "
-debug_args
+debug_info
 "
 ]
 )
