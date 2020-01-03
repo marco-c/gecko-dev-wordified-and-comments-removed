@@ -33336,7 +33336,7 @@ if
 (
 dh_p_bits
 <
-DH_MIN_P_BITS
+SSL_DH_MIN_P_BITS
 )
 {
 errCode
@@ -49446,7 +49446,7 @@ sec
 .
 authKeyBits
 <
-1023
+SSL_RSA_MIN_MODULUS_BITS
 )
 |
 |
@@ -49464,7 +49464,7 @@ sec
 .
 authKeyBits
 <
-DSA_MIN_P_BITS
+SSL_DSA_MIN_P_BITS
 )
 |
 |
@@ -49482,7 +49482,7 @@ sec
 .
 authKeyBits
 <
-DH_MIN_P_BITS
+SSL_DH_MIN_P_BITS
 )
 )
 {
@@ -54505,7 +54505,7 @@ ss
 ;
 PORT_SetError
 (
-SSL_ERROR_RX_RECORD_TOO_LONG
+SSL_ERROR_RX_MALFORMED_HANDSHAKE
 )
 ;
 return
