@@ -127,7 +127,7 @@ homeButton
 addEventListener
 (
 '
-touchstart
+mousedown
 '
 function
 (
@@ -188,7 +188,7 @@ homeButton
 addEventListener
 (
 '
-touchend
+mouseup
 '
 function
 (
@@ -282,7 +282,7 @@ rotateButton
 addEventListener
 (
 '
-touchstart
+mousedown
 '
 function
 (
@@ -307,7 +307,7 @@ rotateButton
 addEventListener
 (
 '
-touchend
+mouseup
 '
 function
 (
