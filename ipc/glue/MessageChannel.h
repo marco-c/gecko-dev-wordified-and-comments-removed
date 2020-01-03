@@ -369,6 +369,16 @@ CanSend
 )
 const
 ;
+ChannelState
+GetChannelState__TotallyRacy
+(
+)
+const
+{
+return
+mChannelState
+;
+}
 void
 SetReplyTimeoutMs
 (
