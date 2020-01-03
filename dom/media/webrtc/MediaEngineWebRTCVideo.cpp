@@ -646,7 +646,12 @@ aSource
 >
 TimeToTicksRoundUp
 (
-USECS_PER_S
+aSource
+-
+>
+GraphRate
+(
+)
 aDesiredTime
 )
 ;
@@ -2005,7 +2010,12 @@ aStream
 AddTrack
 (
 aID
-USECS_PER_S
+aStream
+-
+>
+GraphRate
+(
+)
 0
 new
 VideoSegment
