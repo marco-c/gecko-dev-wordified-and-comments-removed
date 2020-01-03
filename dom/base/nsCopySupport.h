@@ -181,11 +181,6 @@ aPresShell
 nsISelection
 *
 aSelection
-bool
-*
-aActionTaken
-=
-nullptr
 )
 ;
 }
