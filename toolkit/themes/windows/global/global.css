@@ -1439,9 +1439,6 @@ bottom
 %
 endif
 }
-%
-ifdef
-XP_WIN
 .
 close
 -
@@ -1681,5 +1678,3 @@ rect
 ;
 }
 }
-%
-endif
