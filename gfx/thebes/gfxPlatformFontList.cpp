@@ -1250,6 +1250,10 @@ mNumFamilies
 (
 0
 )
+mFontlistInitCount
+(
+0
+)
 {
 mOtherFamilyNamesInitialized
 =
@@ -1373,6 +1377,10 @@ InitFontList
 (
 )
 {
+mFontlistInitCount
++
++
+;
 if
 (
 LOG_FONTINIT_ENABLED
