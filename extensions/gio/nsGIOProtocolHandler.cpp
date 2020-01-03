@@ -472,6 +472,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTSTREAM
+explicit
 nsGIOInputStream
 (
 const
