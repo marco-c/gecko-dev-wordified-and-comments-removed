@@ -709,6 +709,14 @@ Filter
 :
 :
 GOOD
+const
+IntRect
+&
+aSamplingRect
+=
+IntRect
+(
+)
 )
 :
 mSurface
@@ -726,6 +734,10 @@ aFilter
 mMatrix
 (
 aMatrix
+)
+mSamplingRect
+(
+aSamplingRect
 )
 {
 }
@@ -757,6 +769,9 @@ mFilter
 ;
 Matrix
 mMatrix
+;
+IntRect
+mSamplingRect
 ;
 }
 ;
