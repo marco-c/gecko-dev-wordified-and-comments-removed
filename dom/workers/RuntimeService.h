@@ -333,9 +333,6 @@ mPlatform
 nsString
 mPlatformOverridden
 ;
-nsString
-mUserAgent
-;
 nsTArray
 <
 nsString
