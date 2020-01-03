@@ -895,6 +895,9 @@ isInterruptCheck
 )
 continue
 ;
+#
+ifdef
+DEBUG
 JitSpew
 (
 JitSpew_Unrolling
@@ -917,6 +920,8 @@ opName
 )
 )
 ;
+#
+endif
 return
 ;
 }

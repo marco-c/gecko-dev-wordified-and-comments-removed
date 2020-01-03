@@ -1480,6 +1480,9 @@ MDefinition
 def
 )
 {
+#
+ifdef
+DEBUG
 JitSpew
 (
 JitSpew_GVN
@@ -1525,9 +1528,6 @@ id
 )
 )
 ;
-#
-ifdef
-DEBUG
 MOZ_ASSERT
 (
 def
@@ -3548,6 +3548,9 @@ toInstruction
 )
 )
 ;
+#
+ifdef
+DEBUG
 JitSpew
 (
 JitSpew_GVN
@@ -3589,6 +3592,8 @@ id
 )
 )
 ;
+#
+endif
 ReplaceAllUsesWith
 (
 def
@@ -3665,6 +3670,9 @@ def
 )
 )
 {
+#
+ifdef
+DEBUG
 JitSpew
 (
 JitSpew_GVN
@@ -3706,6 +3714,8 @@ id
 )
 )
 ;
+#
+endif
 ReplaceAllUsesWith
 (
 def
@@ -3891,6 +3901,9 @@ block
 "
 )
 ;
+#
+ifdef
+DEBUG
 JitSpew
 (
 JitSpew_GVN
@@ -3933,6 +3946,8 @@ getNumInstructionIds
 )
 )
 ;
+#
+endif
 size_t
 oldNumSuccs
 =

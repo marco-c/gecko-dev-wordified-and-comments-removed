@@ -179,6 +179,9 @@ possiblyCalls
 )
 )
 {
+#
+ifdef
+DEBUG
 JitSpew
 (
 JitSpew_LICM
@@ -206,6 +209,8 @@ id
 )
 )
 ;
+#
+endif
 return
 true
 ;
@@ -687,6 +692,9 @@ hoistPoint
 hasCalls
 )
 ;
+#
+ifdef
+DEBUG
 JitSpew
 (
 JitSpew_LICM
@@ -720,6 +728,8 @@ id
 )
 )
 ;
+#
+endif
 opIns
 -
 >
@@ -886,6 +896,9 @@ hasCalls
 )
 )
 {
+#
+ifdef
+DEBUG
 JitSpew
 (
 JitSpew_LICM
@@ -917,6 +930,8 @@ id
 )
 )
 ;
+#
+endif
 continue
 ;
 }
@@ -927,6 +942,9 @@ hoistPoint
 hasCalls
 )
 ;
+#
+ifdef
+DEBUG
 JitSpew
 (
 JitSpew_LICM
@@ -951,6 +969,8 @@ id
 )
 )
 ;
+#
+endif
 block
 -
 >
@@ -990,6 +1010,9 @@ lastIns
 (
 )
 ;
+#
+ifdef
+DEBUG
 JitSpew
 (
 JitSpew_LICM
@@ -1028,6 +1051,8 @@ id
 )
 )
 ;
+#
+endif
 MBasicBlock
 *
 backedge
