@@ -4337,6 +4337,7 @@ NS_OK
 }
 nsRootPresContext
 *
+MOZ_NON_OWNING_REF
 mPresContext
 ;
 }
