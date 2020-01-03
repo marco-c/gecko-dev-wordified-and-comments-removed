@@ -1878,9 +1878,8 @@ n
 =
 mJSHolders
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;

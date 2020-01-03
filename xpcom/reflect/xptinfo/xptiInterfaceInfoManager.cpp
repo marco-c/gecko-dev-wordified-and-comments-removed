@@ -136,9 +136,8 @@ mWorkingSet
 .
 mIIDTable
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;
@@ -149,9 +148,8 @@ mWorkingSet
 .
 mNameTable
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
-nullptr
 aMallocSizeOf
 )
 ;
