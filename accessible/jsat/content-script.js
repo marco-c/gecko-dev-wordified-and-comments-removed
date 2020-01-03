@@ -613,11 +613,6 @@ horizontal
 }
 )
 ;
-sendScrollCoordinates
-(
-position
-)
-;
 }
 }
 function

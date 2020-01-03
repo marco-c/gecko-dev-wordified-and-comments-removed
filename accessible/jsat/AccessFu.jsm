@@ -3758,7 +3758,7 @@ break
 ;
 case
 '
-doubletaphold1
+taphold1
 '
 :
 this
