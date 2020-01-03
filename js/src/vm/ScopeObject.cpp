@@ -177,8 +177,11 @@ MOZ_ASSERT
 (
 JOF_OPTYPE
 (
+JSOp
+(
 *
 pc
+)
 )
 =
 =
