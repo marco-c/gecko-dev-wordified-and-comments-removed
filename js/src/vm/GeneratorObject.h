@@ -1033,7 +1033,7 @@ class_
 }
 ;
 bool
-GeneratorThrow
+GeneratorThrowOrClose
 (
 JSContext
 *
@@ -1042,6 +1042,8 @@ HandleObject
 obj
 HandleValue
 val
+uint32_t
+resumeKind
 )
 ;
 }

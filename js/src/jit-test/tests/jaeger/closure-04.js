@@ -1,3 +1,8 @@
+var
+depth
+=
+0
+;
 test
 (
 )
@@ -7,6 +12,16 @@ test
 (
 )
 {
+if
+(
++
++
+depth
+>
+400
+)
+return
+;
 var
 catch1
 catch2
