@@ -226,6 +226,11 @@ aNewState
 )
 ;
 void
+ClearTarget
+(
+)
+;
+void
 CursorOutOfRange
 (
 IInkCursor
@@ -263,8 +268,8 @@ IConnectionPoint
 >
 mConnectionPoint
 ;
-uint32_t
-mRefCount
+HWND
+mTargetWindow
 =
 0
 ;
@@ -273,8 +278,8 @@ mCookie
 =
 0
 ;
-HWND
-mTargetWindow
+uint32_t
+mRefCount
 =
 0
 ;
