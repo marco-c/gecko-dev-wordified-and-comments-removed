@@ -156,6 +156,8 @@ nsIPrincipal
 aPrincipal
 bool
 aPrivateBrowsing
+bool
+aForceTrustedOrigin
 ErrorResult
 &
 aRv

@@ -5208,6 +5208,7 @@ CHROME_ONLY_NAMESPACE
 mSandboxGlobalObject
 aPrincipal
 mPrivateBrowsing
+true
 error
 )
 ;
