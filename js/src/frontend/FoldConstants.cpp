@@ -5634,12 +5634,6 @@ pn2
 =
 nullptr
 ;
-ParseNode
-*
-pn3
-=
-nullptr
-;
 switch
 (
 pn
@@ -6712,13 +6706,6 @@ return
 false
 ;
 }
-pn3
-=
-pn
--
->
-pn_kid3
-;
 break
 ;
 case
