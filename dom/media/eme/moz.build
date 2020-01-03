@@ -136,6 +136,11 @@ MediaKeySystemAccess
 .
 h
 '
+'
+MediaKeySystemAccessManager
+.
+h
+'
 ]
 EXPORTS
 .
@@ -220,6 +225,11 @@ cpp
 '
 '
 MediaKeySystemAccess
+.
+cpp
+'
+'
+MediaKeySystemAccessManager
 .
 cpp
 '
