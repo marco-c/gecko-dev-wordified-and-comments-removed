@@ -151,6 +151,11 @@ CodeGenerator
 java
 '
 '
+SDKProcessor
+.
+java
+'
+'
 utils
 /
 AlphabeticAnnotatableEntityComparator
