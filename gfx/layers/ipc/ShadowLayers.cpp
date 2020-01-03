@@ -3822,12 +3822,6 @@ false
 ;
 }
 }
-mPluginWindowData
-.
-Clear
-(
-)
-;
 *
 aSent
 =
