@@ -1399,15 +1399,18 @@ accept
         
 self
 .
-assertEqual
+wait_for_condition
 (
-self
-.
-marionette
+lambda
+mn
+:
+mn
 .
 get_url
 (
 )
+=
+=
 "
 about
 :
