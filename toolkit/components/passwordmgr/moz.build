@@ -256,6 +256,11 @@ LoginManagerParent
 .
 jsm
 '
+'
+LoginRecipes
+.
+jsm
+'
 ]
 if
 CONFIG
