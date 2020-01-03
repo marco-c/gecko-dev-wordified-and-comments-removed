@@ -574,7 +574,7 @@ uint8_t
 >
 mTechList
 ;
-bool
+int32_t
 mIsP2P
 ;
 nsTArray
