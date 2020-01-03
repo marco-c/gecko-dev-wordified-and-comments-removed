@@ -966,6 +966,8 @@ getTabBrowser
 ;
 let
 tab
+;
+tab
 =
 tabbrowser
 .
