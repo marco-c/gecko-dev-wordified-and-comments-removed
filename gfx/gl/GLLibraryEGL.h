@@ -372,6 +372,10 @@ mIsANGLE
 (
 false
 )
+mIsWARP
+(
+false
+)
 {
 }
 void
@@ -1672,6 +1676,16 @@ mIsANGLE
 ;
 }
 bool
+IsWARP
+(
+)
+const
+{
+return
+mIsWARP
+;
+}
+bool
 HasKHRImageBase
 (
 )
@@ -2649,6 +2663,9 @@ mEGLDisplay
 ;
 bool
 mIsANGLE
+;
+bool
+mIsWARP
 ;
 }
 ;

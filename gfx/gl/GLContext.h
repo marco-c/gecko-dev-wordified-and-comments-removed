@@ -400,6 +400,17 @@ return
 false
 ;
 }
+virtual
+bool
+IsWARP
+(
+)
+const
+{
+return
+false
+;
+}
 inline
 bool
 IsCoreProfile

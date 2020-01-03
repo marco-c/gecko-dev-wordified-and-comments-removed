@@ -501,6 +501,12 @@ ANGLE_ENABLE_WINDOWS_STORE
 )
 if
 (
+displayId
+!
+=
+EGL_DEFAULT_DISPLAY
+&
+&
 WindowFromDC
 (
 displayId
