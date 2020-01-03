@@ -8720,6 +8720,14 @@ SetBounds
 visibleRect
 )
 ;
+colorLayer
+-
+>
+SetClipRect
+(
+nullptr
+)
+;
 layer
 =
 colorLayer
