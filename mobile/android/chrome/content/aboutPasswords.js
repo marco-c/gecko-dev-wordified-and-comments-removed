@@ -1942,6 +1942,10 @@ event
 target
 .
 value
+.
+toLowerCase
+(
+)
 ;
 let
 logins
