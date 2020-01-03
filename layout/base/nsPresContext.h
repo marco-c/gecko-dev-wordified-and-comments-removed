@@ -791,6 +791,8 @@ RebuildAllStyleData
 (
 nsChangeHint
 aExtraHint
+nsRestyleHint
+aRestyleHint
 )
 ;
 void
