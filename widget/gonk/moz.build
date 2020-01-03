@@ -377,11 +377,6 @@ GfxInfo
 cpp
 '
 '
-GonkClipboardData
-.
-cpp
-'
-'
 GonkMemoryPressureMonitoring
 .
 cpp
@@ -507,10 +502,6 @@ skia
 include
 /
 core
-'
-'
-/
-image
 '
 '
 /
