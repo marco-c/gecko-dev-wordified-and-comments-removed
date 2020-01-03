@@ -173,6 +173,14 @@ update
 ;
 if
 (
+!
+aSrc
+|
+|
+!
+aDst
+|
+|
 aSrcRect
 .
 IsEmpty
