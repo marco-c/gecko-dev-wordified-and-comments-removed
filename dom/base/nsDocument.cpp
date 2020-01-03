@@ -48370,7 +48370,7 @@ SetFullscreenInternal
 nsPIDOMWindow
 :
 :
-eForFullscreenAPI
+eForForceExitFullscreen
 false
 )
 ;

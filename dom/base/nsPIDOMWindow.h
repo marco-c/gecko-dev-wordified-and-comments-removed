@@ -1394,6 +1394,7 @@ FullscreenReason
 {
 eForFullscreenMode
 eForFullscreenAPI
+eForForceExitFullscreen
 }
 ;
 virtual
