@@ -17397,6 +17397,17 @@ JSFunction
 (
 )
 ;
+if
+(
+fun
+-
+>
+isNative
+(
+)
+)
+continue
+;
 funScript
 =
 GetOrCreateFunctionScript
