@@ -1,5 +1,7 @@
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -155,11 +157,9 @@ rerender
 yield
 teardown
 (
-panel
-)
-;
-finish
-(
+target
 )
 ;
 }
+)
+;

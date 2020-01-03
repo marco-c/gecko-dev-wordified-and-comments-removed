@@ -1,5 +1,7 @@
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -354,14 +356,12 @@ float
 yield
 teardown
 (
-panel
-)
-;
-finish
-(
+target
 )
 ;
 }
+)
+;
 function
 setAndCheckVariable
 (

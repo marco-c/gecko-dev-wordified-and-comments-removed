@@ -1,5 +1,7 @@
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -217,11 +219,9 @@ connection
 yield
 teardown
 (
-panel
-)
-;
-finish
-(
+target
 )
 ;
 }
+)
+;

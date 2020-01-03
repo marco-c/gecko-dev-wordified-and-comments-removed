@@ -1,5 +1,7 @@
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -310,11 +312,9 @@ msg
 yield
 teardown
 (
-panel
-)
-;
-finish
-(
+target
 )
 ;
 }
+)
+;

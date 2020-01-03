@@ -8,8 +8,10 @@ closed
 "
 )
 ;
+add_task
+(
 function
-spawnTest
+*
 (
 )
 {
@@ -336,11 +338,9 @@ anymore
 yield
 teardown
 (
-panel
-)
-;
-finish
-(
+target
 )
 ;
 }
+)
+;
