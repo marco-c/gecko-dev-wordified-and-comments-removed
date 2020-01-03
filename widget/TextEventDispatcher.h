@@ -100,6 +100,14 @@ GetState
 const
 ;
 nsresult
+StartComposition
+(
+nsEventStatus
+&
+aStatus
+)
+;
+nsresult
 SetPendingCompositionString
 (
 const
