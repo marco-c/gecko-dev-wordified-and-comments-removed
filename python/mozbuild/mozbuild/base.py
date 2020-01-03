@@ -168,7 +168,7 @@ os
 .
 path
 .
-normpath
+normcase
 (
 os
 .
@@ -187,7 +187,7 @@ os
 .
 path
 .
-normpath
+normcase
 (
 os
 .
