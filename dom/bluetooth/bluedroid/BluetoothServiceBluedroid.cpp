@@ -5981,7 +5981,12 @@ sBtInterface
 SspReply
 (
 aDeviceAddress
-SSP_VARIANT_PASSKEY_CONFIRMATION
+NS_ConvertUTF8toUTF16
+(
+"
+PasskeyConfirmation
+"
+)
 aConfirm
 0
 new
