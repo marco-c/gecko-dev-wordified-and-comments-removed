@@ -23270,7 +23270,9 @@ aIMENotification
 .
 mSelectionChangeData
 .
-mLength
+Length
+(
+)
 )
 ;
 if
