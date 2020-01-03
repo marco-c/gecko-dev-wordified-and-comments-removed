@@ -316,11 +316,6 @@ WebGLContext
 cpp
 '
 '
-WebGLContextAsyncQueries
-.
-cpp
-'
-'
 WebGLContextBuffers
 .
 cpp

@@ -1,7 +1,7 @@
 #
 include
 "
-WebGLContext
+WebGLQuery
 .
 h
 "
@@ -15,7 +15,7 @@ h
 #
 include
 "
-WebGLQuery
+WebGLContext
 .
 h
 "
@@ -186,14 +186,6 @@ mContext
 GetQueryTargetSlot
 (
 mType
-"
-WebGLQuery
-:
-:
-IsActive
-(
-)
-"
 )
 ;
 MOZ_ASSERT

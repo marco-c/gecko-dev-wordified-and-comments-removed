@@ -135,7 +135,7 @@ mType
 ;
 friend
 class
-WebGLContext
+WebGL2Context
 ;
 }
 ;
