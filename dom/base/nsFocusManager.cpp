@@ -7877,6 +7877,7 @@ false
 nullptr
 )
 ;
+}
 nsRefPtr
 <
 SelectionCarets
@@ -7900,9 +7901,13 @@ selectionCarets
 >
 NotifyBlur
 (
+aIsLeavingDocument
+|
+|
+!
+mActiveWindow
 )
 ;
-}
 }
 if
 (

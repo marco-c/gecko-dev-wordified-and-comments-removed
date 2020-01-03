@@ -152,6 +152,8 @@ NS_DECL_NSISELECTIONLISTENER
 void
 NotifyBlur
 (
+bool
+aIsLeavingDocument
 )
 ;
 virtual
