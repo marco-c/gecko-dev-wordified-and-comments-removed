@@ -1044,8 +1044,7 @@ this
 )
 ;
 }
-JSObject
-*
+bool
 IDBKeyRange
 :
 :
@@ -1054,6 +1053,15 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aReflector
 )
 {
 return
@@ -1064,6 +1072,7 @@ Wrap
 (
 aCx
 this
+aReflector
 )
 ;
 }
