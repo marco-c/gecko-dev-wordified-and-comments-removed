@@ -1821,11 +1821,6 @@ tab
 browser
 )
 ;
-yield
-test_click_on_pinned_tab_after_mute
-(
-)
-;
 }
 }
 add_task
@@ -1912,6 +1907,11 @@ test_on_browser
 )
 ;
 }
+)
+;
+add_task
+(
+test_click_on_pinned_tab_after_mute
 )
 ;
 add_task
