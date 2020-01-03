@@ -559,17 +559,6 @@ MOZ_UPDATE_CHANNEL
 "
 nightly
 "
--
-o
-"
-{
-MOZ_UPDATE_CHANNEL
-}
-"
-=
-"
-aurora
-"
 ;
 then
 '
