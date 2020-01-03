@@ -22132,6 +22132,16 @@ false
 if
 (
 !
+emitToObject
+(
+)
+)
+return
+false
+;
+if
+(
+!
 emit2
 (
 JSOP_SYMBOL
