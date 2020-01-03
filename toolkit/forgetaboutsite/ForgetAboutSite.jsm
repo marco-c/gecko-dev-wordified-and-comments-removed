@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 Components
 .
 utils
@@ -266,7 +271,6 @@ true
 )
 ;
 let
-(
 cs
 =
 Cc
@@ -294,8 +298,7 @@ Ci
 .
 nsICacheStorageService
 )
-)
-{
+;
 try
 {
 cs
@@ -332,9 +335,7 @@ toString
 )
 ;
 }
-}
 let
-(
 imageCache
 =
 Cc
@@ -363,8 +364,7 @@ getImgCacheForDocument
 (
 null
 )
-)
-{
+;
 try
 {
 imageCache
@@ -403,9 +403,7 @@ toString
 )
 ;
 }
-}
 let
-(
 cm
 =
 Cc
@@ -427,8 +425,7 @@ Ci
 .
 nsICookieManager2
 )
-)
-{
+;
 let
 enumerator
 =
@@ -481,7 +478,6 @@ false
 )
 ;
 }
-}
 const
 phInterface
 =
@@ -497,7 +493,6 @@ phInterface
 FLAG_CLEAR_ALL
 ;
 let
-(
 ph
 =
 Cc
@@ -519,8 +514,7 @@ getService
 (
 phInterface
 )
-)
-{
+;
 let
 tags
 =
@@ -570,7 +564,6 @@ catch
 e
 )
 {
-}
 }
 }
 let
@@ -663,7 +656,6 @@ reportError
 else
 {
 let
-(
 dm
 =
 Cc
@@ -687,8 +679,7 @@ Ci
 .
 nsIDownloadManager
 )
-)
-{
+;
 for
 (
 let
@@ -756,9 +747,10 @@ remove
 ;
 }
 }
-}
-function
+const
 deleteAllLike
+=
+function
 (
 db
 )
@@ -947,7 +939,6 @@ null
 }
 }
 let
-(
 lm
 =
 Cc
@@ -971,8 +962,7 @@ Ci
 .
 nsILoginManager
 )
-)
-{
+;
 try
 {
 let
@@ -1095,9 +1085,7 @@ disabledHosts
 true
 )
 ;
-}
 let
-(
 pm
 =
 Cc
@@ -1119,9 +1107,7 @@ Ci
 .
 nsIPermissionManager
 )
-)
-{
-let
+;
 enumerator
 =
 pm
@@ -1176,9 +1162,7 @@ type
 )
 ;
 }
-}
 let
-(
 qm
 =
 Cc
@@ -1204,8 +1188,7 @@ Ci
 .
 nsIQuotaManager
 )
-)
-{
+;
 let
 caUtils
 =
@@ -1307,7 +1290,6 @@ clearStoragesForURI
 httpsURI
 )
 ;
-}
 function
 onContentPrefsRemovalFinished
 (
