@@ -404,6 +404,17 @@ TransitionProperty
 const
 ;
 bool
+HasLowerCompositeOrderThan
+(
+const
+Animation
+&
+aOther
+)
+const
+override
+;
+bool
 IsUsingCustomCompositeOrder
 (
 )
