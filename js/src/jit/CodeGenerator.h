@@ -2267,6 +2267,14 @@ lir
 )
 ;
 bool
+visitIsObjectAndBranch
+(
+LIsObjectAndBranch
+*
+lir
+)
+;
+bool
 visitHaveSameClass
 (
 LHaveSameClass
