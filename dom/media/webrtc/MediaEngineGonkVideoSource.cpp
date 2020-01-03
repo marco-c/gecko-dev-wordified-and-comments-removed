@@ -1022,6 +1022,11 @@ break
 ;
 }
 }
+#
+if
+ANDROID_VERSION
+<
+21
 if
 (
 NS_FAILED
@@ -1036,6 +1041,8 @@ return
 NS_ERROR_FAILURE
 ;
 }
+#
+endif
 return
 NS_OK
 ;
@@ -1883,6 +1890,15 @@ NS_IsMainThread
 )
 )
 ;
+if
+(
+mCameraSource
+.
+get
+(
+)
+)
+{
 mCameraSource
 -
 >
@@ -1894,6 +1910,7 @@ mCameraSource
 =
 nullptr
 ;
+}
 hal
 :
 :
