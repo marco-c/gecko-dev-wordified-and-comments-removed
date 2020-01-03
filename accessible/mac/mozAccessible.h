@@ -331,6 +331,17 @@ void
 )
 selectedTextDidChange
 ;
+-
+(
+id
+)
+childAt
+:
+(
+uint32_t
+)
+i
+;
 #
 pragma
 mark
