@@ -5056,9 +5056,6 @@ class
 EventTimelineMarker
 :
 public
-nsDocShell
-:
-:
 TimelineMarker
 {
 public
@@ -5077,9 +5074,6 @@ nsAString
 &
 aCause
 )
-:
-nsDocShell
-:
 :
 TimelineMarker
 (
@@ -5502,9 +5496,6 @@ mozilla
 :
 UniquePtr
 <
-nsDocShell
-:
-:
 TimelineMarker
 >
 marker

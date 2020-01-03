@@ -3674,9 +3674,6 @@ class
 ConsoleTimelineMarker
 :
 public
-nsDocShell
-:
-:
 TimelineMarker
 {
 public
@@ -3693,9 +3690,6 @@ nsAString
 &
 aCause
 )
-:
-nsDocShell
-:
 :
 TimelineMarker
 (
@@ -3726,9 +3720,6 @@ bool
 Equals
 (
 const
-nsDocShell
-:
-:
 TimelineMarker
 *
 aOther
@@ -3737,9 +3728,6 @@ aOther
 if
 (
 !
-nsDocShell
-:
-:
 TimelineMarker
 :
 :
@@ -4427,9 +4415,6 @@ mozilla
 :
 UniquePtr
 <
-nsDocShell
-:
-:
 TimelineMarker
 >
 marker

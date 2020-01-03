@@ -349,6 +349,11 @@ SerializedLoadContext
 .
 cpp
 '
+'
+TimelineMarker
+.
+cpp
+'
 ]
 FAIL_ON_WARNINGS
 =

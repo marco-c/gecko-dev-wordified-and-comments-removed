@@ -21052,9 +21052,6 @@ class
 LayerTimelineMarker
 :
 public
-nsDocShell
-:
-:
 TimelineMarker
 {
 public
@@ -21069,9 +21066,6 @@ nsIntRegion
 &
 aRegion
 )
-:
-nsDocShell
-:
 :
 TimelineMarker
 (
@@ -21909,9 +21903,6 @@ mozilla
 :
 UniquePtr
 <
-nsDocShell
-:
-:
 TimelineMarker
 >
 marker
