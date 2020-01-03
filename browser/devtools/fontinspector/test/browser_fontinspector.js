@@ -384,7 +384,7 @@ ostrich
 -
 regular
 .
-woff
+ttf
 "
 "
 font
@@ -414,7 +414,7 @@ format
 .
 textContent
 "
-woff
+truetype
 "
 "
 font
