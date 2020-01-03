@@ -92,11 +92,16 @@ gPanel
 TAB_URL
 true
 )
+;
 gSources
 .
 selectedValue
 =
+getSourceActor
+(
+gSources
 TAB_URL
+)
 ;
 return
 shown

@@ -276,9 +276,10 @@ initially
 ;
 is
 (
+getSelectedSourceURL
+(
 gSources
-.
-selectedValue
+)
 EXAMPLE_URL
 +
 "

@@ -371,7 +371,7 @@ ok
 isCaretPos
 (
 gPanel
-1
+6
 1
 )
 "
@@ -396,8 +396,8 @@ isEditorSel
 (
 gPanel
 [
-1
-1
+165
+165
 ]
 )
 "

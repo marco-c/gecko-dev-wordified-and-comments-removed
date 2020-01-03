@@ -130,7 +130,7 @@ is
 gFrames
 .
 selectedIndex
-3
+1
 "
 Newest
 frame
@@ -224,7 +224,7 @@ search
 debugger
 /
 )
-172
+166
 "
 The
 second
@@ -282,7 +282,7 @@ is
 gClassicFrames
 .
 selectedIndex
-3
+1
 "
 Oldest
 frame
@@ -399,7 +399,7 @@ is
 gFrames
 .
 selectedIndex
-3
+1
 "
 Newest
 frame
@@ -495,7 +495,7 @@ search
 debugger
 /
 )
-172
+166
 "
 The
 second
@@ -567,7 +567,7 @@ querySelector
 #
 stackframe
 -
-3
+1
 "
 )
 gDebugger

@@ -381,7 +381,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -409,7 +409,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -437,7 +437,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -465,7 +465,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -493,7 +493,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -523,7 +523,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -553,7 +553,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -584,7 +584,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -618,7 +618,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -657,7 +657,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -685,7 +685,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -717,7 +717,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -749,7 +749,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -1291,7 +1291,7 @@ gSources
 highlightBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -1307,7 +1307,7 @@ finished
 ;
 }
 let
-selectedUrl
+selectedActor
 =
 gSources
 .
@@ -1322,7 +1322,7 @@ _selectedBreakpointItem
 ;
 ok
 (
-selectedUrl
+selectedActor
 "
 There
 should
@@ -1362,8 +1362,8 @@ selectedBreakpoint
 .
 attachment
 .
-url
-selectedUrl
+actor
+selectedActor
 "
 The
 breakpoint
@@ -1512,8 +1512,8 @@ aBreakpointClient
 .
 location
 .
-url
-selectedUrl
+actor
+selectedActor
 "
 The
 breakpoint
@@ -1601,11 +1601,12 @@ testAfterReload
 )
 {
 let
-selectedUrl
+selectedActor
 =
+getSelectedSourceURL
+(
 gSources
-.
-selectedValue
+)
 ;
 let
 selectedBreakpoint
@@ -1616,7 +1617,7 @@ _selectedBreakpointItem
 ;
 ok
 (
-selectedUrl
+selectedActor
 "
 There
 should

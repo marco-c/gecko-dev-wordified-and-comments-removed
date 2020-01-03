@@ -198,7 +198,7 @@ indexOf
 debugger
 "
 )
-172
+166
 "
 The
 correct
@@ -1023,7 +1023,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -1053,15 +1053,7 @@ line
 text
 :
 "
-eval
-(
-\
-"
 debugger
-;
-\
-"
-)
 ;
 "
 }
@@ -1072,7 +1064,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -1117,7 +1109,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .

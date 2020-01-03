@@ -73,7 +73,7 @@ panel
 addBreakpoint
 (
 {
-url
+actor
 :
 sources
 .

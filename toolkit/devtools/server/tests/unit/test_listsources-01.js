@@ -185,6 +185,11 @@ return
 s
 .
 url
+&
+&
+s
+.
+url
 .
 match
 (
@@ -258,9 +263,11 @@ gClient
 }
 )
 ;
-gDebuggee
+Components
 .
-eval
+utils
+.
+evalInSandbox
 (
 "
 var
@@ -302,6 +309,7 @@ b
 \
 n
 "
+gDebuggee
 )
 ;
 }

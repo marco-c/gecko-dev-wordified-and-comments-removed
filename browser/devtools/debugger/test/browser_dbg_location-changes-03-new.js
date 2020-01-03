@@ -206,9 +206,10 @@ widget
 ;
 is
 (
+getSelectedSourceURL
+(
 gSources
-.
-selectedValue
+)
 EXAMPLE_URL
 +
 "

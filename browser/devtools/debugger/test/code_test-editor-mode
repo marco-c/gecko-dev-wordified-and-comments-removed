@@ -32,12 +32,6 @@ secondCall
 (
 )
 {
-eval
-(
-"
 debugger
-;
-"
-)
 ;
 }

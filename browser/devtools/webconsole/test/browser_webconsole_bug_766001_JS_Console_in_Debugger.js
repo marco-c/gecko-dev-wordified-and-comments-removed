@@ -441,7 +441,13 @@ view
 Sources
 .
 selectedValue
+getSourceActor
+(
+view
+.
+Sources
 url
+)
 "
 expected
 source

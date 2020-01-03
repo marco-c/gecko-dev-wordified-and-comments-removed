@@ -329,6 +329,9 @@ true
 conditionalBreakpoints
 :
 true
+debuggerSourceActors
+:
+true
 bulk
 :
 true

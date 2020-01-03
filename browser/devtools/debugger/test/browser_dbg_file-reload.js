@@ -115,9 +115,10 @@ view
 )
 is
 (
+getSelectedSourceURL
+(
 gSources
-.
-selectedValue
+)
 JS_URL
 "
 The
@@ -290,9 +291,10 @@ reloading
 )
 is
 (
+getSelectedSourceURL
+(
 gSources
-.
-selectedValue
+)
 JS_URL
 "
 The

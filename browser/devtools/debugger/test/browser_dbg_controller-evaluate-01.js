@@ -134,7 +134,7 @@ is
 framesView
 .
 itemCount
-4
+2
 "
 Should
 have
@@ -343,14 +343,14 @@ panel
 .
 js
 "
-1
+6
 )
 ;
 checkView
 (
 0
 1
-1
+6
 [
 /
 secondCall
@@ -449,7 +449,7 @@ checkView
 (
 0
 1
-1
+6
 [
 /
 secondCall
@@ -496,7 +496,7 @@ foo
 {
 depth
 :
-3
+1
 }
 )
 ;
@@ -573,7 +573,7 @@ checkView
 (
 0
 1
-1
+6
 [
 /
 secondCall

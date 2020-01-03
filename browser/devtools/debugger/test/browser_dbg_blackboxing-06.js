@@ -139,7 +139,7 @@ testBlackBox
 )
 {
 const
-selectedUrl
+selectedActor
 =
 gSources
 .
@@ -166,7 +166,7 @@ then
 >
 {
 const
-newSelectedUrl
+newSelectedActor
 =
 gSources
 .
@@ -174,8 +174,8 @@ selectedValue
 ;
 isnot
 (
-selectedUrl
-newSelectedUrl
+selectedActor
+newSelectedActor
 "
 Should
 not
@@ -206,7 +206,7 @@ is
 gSources
 .
 selectedValue
-newSelectedUrl
+newSelectedActor
 "
 The
 selected

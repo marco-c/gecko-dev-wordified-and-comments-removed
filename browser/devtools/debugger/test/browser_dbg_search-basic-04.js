@@ -200,8 +200,8 @@ isEditorSel
 (
 gPanel
 [
-160
-160
+151
+151
 ]
 )
 "
@@ -626,9 +626,9 @@ setText
 gSearchBox
 "
 #
+(
+)
 ;
-\
-"
 "
 )
 ;
@@ -638,7 +638,7 @@ isCaretPos
 (
 gPanel
 5
-23
+16
 )
 "
 The
@@ -664,8 +664,8 @@ isEditorSel
 (
 gPanel
 [
-153
-155
+145
+148
 ]
 )
 "
@@ -693,9 +693,9 @@ getSelection
 (
 )
 "
+(
+)
 ;
-\
-"
 "
 "
 The
@@ -726,8 +726,8 @@ ok
 isCaretPos
 (
 gPanel
-5
-22
+4
+21
 )
 "
 The
@@ -753,8 +753,8 @@ isEditorSel
 (
 gPanel
 [
-153
-154
+128
+130
 ]
 )
 "
@@ -782,7 +782,8 @@ getSelection
 (
 )
 "
-;
+(
+)
 "
 "
 The
@@ -805,7 +806,7 @@ correct
 backspaceText
 (
 gSearchBox
-1
+2
 )
 ;
 ok
@@ -813,8 +814,8 @@ ok
 isCaretPos
 (
 gPanel
-5
-22
+4
+20
 )
 "
 The
@@ -840,8 +841,8 @@ isEditorSel
 (
 gPanel
 [
-154
-154
+129
+129
 ]
 )
 "
@@ -903,7 +904,7 @@ isCaretPos
 (
 gPanel
 5
-22
+16
 )
 "
 The
@@ -929,8 +930,8 @@ isEditorSel
 (
 gPanel
 [
-153
-154
+147
+148
 ]
 )
 "
@@ -996,7 +997,7 @@ isCaretPos
 (
 gPanel
 5
-22
+16
 )
 "
 The
@@ -1022,8 +1023,8 @@ isEditorSel
 (
 gPanel
 [
-154
-154
+148
+148
 ]
 )
 "

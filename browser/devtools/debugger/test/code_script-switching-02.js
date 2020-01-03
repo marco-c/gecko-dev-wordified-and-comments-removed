@@ -3,13 +3,7 @@ secondCall
 (
 )
 {
-eval
-(
-"
 debugger
-;
-"
-)
 ;
 function
 foo

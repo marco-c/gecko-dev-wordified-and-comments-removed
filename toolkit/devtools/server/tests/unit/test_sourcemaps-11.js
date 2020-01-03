@@ -612,7 +612,7 @@ check_frame
 where
 :
 {
-url
+source
 line
 column
 }
@@ -622,6 +622,8 @@ aExpectedUrl
 {
 do_check_eq
 (
+source
+.
 url
 aExpectedUrl
 )

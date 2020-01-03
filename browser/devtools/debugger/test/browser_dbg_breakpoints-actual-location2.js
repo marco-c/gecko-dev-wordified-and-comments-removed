@@ -196,7 +196,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -213,7 +213,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -233,7 +233,7 @@ gPanel
 addBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -261,7 +261,7 @@ gPanel
 removeBreakpoint
 (
 {
-url
+actor
 :
 gSources
 .
@@ -444,7 +444,7 @@ breakpointClient
 .
 location
 .
-url
+actor
 gSources
 .
 selectedValue
@@ -483,7 +483,7 @@ breakpointClient
 .
 requestedLocation
 .
-url
+actor
 gSources
 .
 selectedValue

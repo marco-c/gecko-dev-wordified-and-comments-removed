@@ -156,9 +156,11 @@ gClient
 }
 )
 ;
-gDebuggee
+Components
 .
-eval
+utils
+.
+evalInSandbox
 (
 function
 inc
@@ -176,6 +178,7 @@ n
 toString
 (
 )
+gDebuggee
 )
 ;
 }

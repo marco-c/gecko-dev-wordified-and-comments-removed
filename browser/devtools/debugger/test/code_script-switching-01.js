@@ -3,14 +3,8 @@ firstCall
 (
 )
 {
-eval
-(
-"
 secondCall
 (
-)
-;
-"
 )
 ;
 }
