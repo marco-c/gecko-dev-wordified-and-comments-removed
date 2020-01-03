@@ -1301,14 +1301,9 @@ aCount
 ;
 dstArr
 .
-Clear
+ReplaceElementAt
 (
-)
-;
-dstArr
-.
-AppendElement
-(
+0
 MotionSegment
 (
 newX
