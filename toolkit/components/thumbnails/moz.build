@@ -139,6 +139,11 @@ PageThumbsWorker
 .
 js
 '
+'
+PageThumbUtils
+.
+jsm
+'
 ]
 JAR_MANIFESTS
 +
