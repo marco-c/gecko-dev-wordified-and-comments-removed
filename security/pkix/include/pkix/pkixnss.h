@@ -78,15 +78,6 @@ Result
 result
 )
 ;
-const
-char
-*
-MapResultToName
-(
-Result
-result
-)
-;
 static
 const
 PRErrorCode

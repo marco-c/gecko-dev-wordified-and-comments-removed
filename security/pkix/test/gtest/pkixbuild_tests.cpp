@@ -24,6 +24,15 @@ h
 #
 include
 "
+pkix
+/
+pkixnss
+.
+h
+"
+#
+include
+"
 pkixgtest
 .
 h
