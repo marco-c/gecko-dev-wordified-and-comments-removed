@@ -2316,7 +2316,6 @@ infoObject
 >
 SetStatusErrorBits
 (
-*
 nssCert
 collected_errors
 )

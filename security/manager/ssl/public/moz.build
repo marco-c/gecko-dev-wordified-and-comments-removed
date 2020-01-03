@@ -158,11 +158,6 @@ nsIGenKeypairInfoDlg
 idl
 '
 '
-nsIIdentityInfo
-.
-idl
-'
-'
 nsIKeygenThread
 .
 idl

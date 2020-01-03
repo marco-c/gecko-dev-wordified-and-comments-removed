@@ -364,7 +364,6 @@ NS_IMPL_ISUPPORTS
 (
 nsNSSCertificate
 nsIX509Cert
-nsIIdentityInfo
 nsISerializable
 nsIClassInfo
 )
@@ -6841,7 +6840,7 @@ rv
 }
 #
 endif
-NS_IMETHODIMP
+nsresult
 nsNSSCertificate
 :
 :

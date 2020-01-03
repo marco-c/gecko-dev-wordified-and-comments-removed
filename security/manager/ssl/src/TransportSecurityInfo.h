@@ -303,8 +303,8 @@ mSSLStatus
 void
 SetStatusErrorBits
 (
-nsIX509Cert
-&
+nsNSSCertificate
+*
 cert
 uint32_t
 collected_errors

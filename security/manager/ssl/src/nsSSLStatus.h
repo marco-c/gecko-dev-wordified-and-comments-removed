@@ -85,7 +85,7 @@ nsSSLStatus
 void
 SetServerCert
 (
-nsIX509Cert
+nsNSSCertificate
 *
 aServerCert
 nsNSSCertificate

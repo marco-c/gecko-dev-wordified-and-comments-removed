@@ -163,15 +163,6 @@ false
 ;
 }
 void
-GetPreviousCert
-(
-nsIX509Cert
-*
-*
-_result
-)
-;
-void
 SetTLSVersionRange
 (
 SSLVersionRange
