@@ -1614,6 +1614,7 @@ Axis
 GetVelocity
 (
 )
+const
 {
 return
 mAxisLocked

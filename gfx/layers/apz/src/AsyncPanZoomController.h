@@ -775,6 +775,7 @@ ScreenPoint
 GetVelocityVector
 (
 )
+const
 ;
 ScreenPoint
 GetFirstTouchScreenPoint

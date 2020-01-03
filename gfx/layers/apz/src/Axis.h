@@ -214,6 +214,7 @@ float
 GetVelocity
 (
 )
+const
 ;
 void
 SetVelocity

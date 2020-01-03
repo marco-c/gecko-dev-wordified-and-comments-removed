@@ -7449,6 +7449,7 @@ AsyncPanZoomController
 GetVelocityVector
 (
 )
+const
 {
 return
 ScreenPoint
