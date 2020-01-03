@@ -869,6 +869,8 @@ ladvapi32
 -
 lws2_32
 -
+lmswsock
+-
 lwinmm
 else
 OS_LIBS
@@ -877,6 +879,9 @@ advapi32
 .
 lib
 ws2_32
+.
+lib
+mswsock
 .
 lib
 winmm
