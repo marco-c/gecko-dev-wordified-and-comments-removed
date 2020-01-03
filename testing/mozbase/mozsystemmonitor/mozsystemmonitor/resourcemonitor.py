@@ -4,6 +4,8 @@ import
 sys
 import
 time
+import
+warnings
 try
 :
     
@@ -972,6 +974,12 @@ _stopped
 =
 False
         
+self
+.
+_process
+=
+None
+        
 if
 psutil
 is
@@ -980,6 +988,9 @@ None
             
 return
         
+try
+:
+            
 cpu_percent
 =
 psutil
@@ -991,7 +1002,7 @@ cpu_percent
 0
 True
 )
-        
+            
 cpu_times
 =
 psutil
@@ -1000,13 +1011,13 @@ cpu_times
 (
 False
 )
-        
+            
 io
 =
 get_disk_io_counters
 (
 )
-        
+            
 virt
 =
 psutil
@@ -1014,7 +1025,7 @@ psutil
 virtual_memory
 (
 )
-        
+            
 swap
 =
 psutil
@@ -1022,6 +1033,31 @@ psutil
 swap_memory
 (
 )
+        
+except
+Exception
+as
+e
+:
+            
+warnings
+.
+warn
+(
+'
+psutil
+failed
+to
+run
+:
+%
+s
+'
+%
+e
+)
+            
+return
         
 self
 .
@@ -1204,9 +1240,10 @@ instance
 "
         
 if
-psutil
-is
-None
+not
+self
+.
+_process
 :
             
 return
@@ -1294,9 +1331,10 @@ stop
 "
         
 if
-psutil
-is
-None
+not
+self
+.
+_process
 :
             
 self
