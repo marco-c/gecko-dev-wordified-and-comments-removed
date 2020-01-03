@@ -418,6 +418,13 @@ aOverscroll
 )
 const
 ;
+void
+StepOverscrollAnimation
+(
+double
+aStepDurationMilliseconds
+)
+;
 float
 ToLocalVelocity
 (
