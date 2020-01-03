@@ -421,17 +421,4 @@ return
 NS_OK
 ;
 }
-nsIURI
-*
-LoadInfo
-:
-:
-BaseURI
-(
-)
-{
-return
-mBaseURI
-;
-}
 }
