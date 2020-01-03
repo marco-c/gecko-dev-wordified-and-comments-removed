@@ -498,6 +498,7 @@ NotDecodedReason
 {
 END_OF_STREAM
 DECODE_ERROR
+WAITING_FOR_DATA
 }
 ;
 virtual
