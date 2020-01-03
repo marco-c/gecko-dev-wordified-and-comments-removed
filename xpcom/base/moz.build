@@ -421,11 +421,6 @@ HoldDropJSObjects
 h
 '
 '
-JSObjectHolder
-.
-h
-'
-'
 LinuxUtils
 .
 h
@@ -535,11 +530,6 @@ cpp
 '
 '
 HoldDropJSObjects
-.
-cpp
-'
-'
-JSObjectHolder
 .
 cpp
 '
