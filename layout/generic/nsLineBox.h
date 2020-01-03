@@ -6662,9 +6662,6 @@ aNumFramesOnLine
 nsRect
 &
 aLineBounds
-uint32_t
-*
-aLineFlags
 )
 MOZ_OVERRIDE
 ;

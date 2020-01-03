@@ -8376,9 +8376,6 @@ aNumFramesOnLine
 nsRect
 &
 aLineBounds
-uint32_t
-*
-aLineFlags
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -8389,11 +8386,6 @@ aFirstFrameOnLine
 NS_ENSURE_ARG_POINTER
 (
 aNumFramesOnLine
-)
-;
-NS_ENSURE_ARG_POINTER
-(
-aLineFlags
 )
 ;
 nsTableFrame
@@ -8418,11 +8410,6 @@ table
 GetCellMap
 (
 )
-;
-*
-aLineFlags
-=
-0
 ;
 *
 aFirstFrameOnLine

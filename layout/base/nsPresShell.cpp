@@ -15202,9 +15202,6 @@ trash2
 nsRect
 lineBounds
 ;
-uint32_t
-trash3
-;
 if
 (
 NS_SUCCEEDED
@@ -15220,8 +15217,6 @@ trash1
 &
 trash2
 lineBounds
-&
-trash3
 )
 )
 )

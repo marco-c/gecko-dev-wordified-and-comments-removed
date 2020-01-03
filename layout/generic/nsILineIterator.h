@@ -33,14 +33,6 @@ nsIFrame
 struct
 nsRect
 ;
-#
-define
-NS_LINE_FLAG_IS_BLOCK
-0x1
-#
-define
-NS_LINE_FLAG_ENDS_IN_BREAK
-0x4
 class
 nsILineIterator
 {
@@ -93,9 +85,6 @@ aNumFramesOnLine
 nsRect
 &
 aLineBounds
-uint32_t
-*
-aLineFlags
 )
 =
 0
