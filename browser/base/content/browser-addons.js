@@ -1796,9 +1796,9 @@ function
 (
 )
 {
-Application
+BrowserUtils
 .
-restart
+restartApplication
 (
 )
 ;
@@ -2377,9 +2377,9 @@ function
 (
 )
 {
-Application
+BrowserUtils
 .
-restart
+restartApplication
 (
 )
 ;

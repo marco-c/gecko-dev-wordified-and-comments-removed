@@ -26539,11 +26539,11 @@ enterTabbedMode
 <
 body
 >
-Application
+Services
 .
 console
 .
-log
+logStringMessage
 (
 "
 enterTabbedMode
