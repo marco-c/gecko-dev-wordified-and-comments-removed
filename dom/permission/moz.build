@@ -102,6 +102,11 @@ dom
 =
 [
 '
+Permissions
+.
+h
+'
+'
 PermissionStatus
 .
 h
@@ -111,6 +116,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+Permissions
+.
+cpp
+'
 '
 PermissionStatus
 .
