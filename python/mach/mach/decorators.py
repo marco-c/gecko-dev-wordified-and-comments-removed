@@ -420,6 +420,12 @@ category
 description
 =
 description
+docstring
+=
+value
+.
+__doc__
+            
 conditions
 =
 conditions
@@ -582,6 +588,12 @@ subcommand
 description
 =
 description
+            
+docstring
+=
+value
+.
+__doc__
             
 arguments
 =

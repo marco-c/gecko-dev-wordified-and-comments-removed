@@ -323,6 +323,10 @@ description
 '
         
 '
+docstring
+'
+        
+'
 conditions
 '
         
@@ -362,6 +366,9 @@ description
 =
 None
         
+docstring
+=
+None
 conditions
 =
 None
@@ -414,6 +421,12 @@ self
 description
 =
 description
+        
+self
+.
+docstring
+=
+docstring
         
 self
 .
