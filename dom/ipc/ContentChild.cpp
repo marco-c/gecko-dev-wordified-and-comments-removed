@@ -8231,7 +8231,8 @@ defined
 (
 DEBUG
 )
-and
+&
+&
 !
 defined
 (
