@@ -112,7 +112,7 @@ self
 )
     
 def
-testAddCookie
+test_add_cookie
 (
 self
 )
@@ -165,7 +165,7 @@ cookie_returned
 )
     
 def
-testAddingACookieThatExpiredInThePast
+test_adding_a_cookie_that_expired_in_the_past
 (
 self
 )
@@ -232,7 +232,7 @@ cookies
 )
     
 def
-testDeleteAllCookie
+test_delete_all_cookie
 (
 self
 )
@@ -309,7 +309,7 @@ get_cookies
 )
     
 def
-testDeleteCookie
+test_delete_cookie
 (
 self
 )
@@ -408,7 +408,7 @@ cookie_returned
 )
     
 def
-testShouldGetCookieByName
+test_should_get_cookie_by_name
 (
 self
 )
@@ -487,7 +487,7 @@ value
 )
     
 def
-testGetAllCookies
+test_get_all_cookies
 (
 self
 )
@@ -650,7 +650,7 @@ cookies
 )
     
 def
-testShouldNotDeleteCookiesWithASimilarName
+test_should_not_delete_cookies_with_a_similar_name
 (
 self
 )
