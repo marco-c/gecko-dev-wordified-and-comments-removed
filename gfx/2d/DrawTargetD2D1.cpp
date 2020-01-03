@@ -5270,6 +5270,10 @@ tmpBitmap
 )
 )
 ;
+PopAllClips
+(
+)
+;
 mDC
 -
 >
@@ -5316,6 +5320,15 @@ D2DBlendMode
 aOp
 )
 )
+;
+PushClipsToDC
+(
+mDC
+)
+;
+mClipsArePushed
+=
+true
 ;
 mDC
 -
