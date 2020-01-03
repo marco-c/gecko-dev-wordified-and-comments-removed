@@ -5450,6 +5450,19 @@ nullptr
 #
 ifdef
 MOZ_DMD
+if
+(
+!
+s
+-
+>
+mDMDDumpIdent
+.
+IsEmpty
+(
+)
+)
+{
 nsresult
 rv
 =
@@ -5484,6 +5497,7 @@ parentDMDFile
 =
 nullptr
 ;
+}
 }
 #
 endif
