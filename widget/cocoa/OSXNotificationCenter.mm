@@ -1391,7 +1391,6 @@ nsIRequest
 :
 LOAD_NORMAL
 nullptr
-nullptr
 EmptyString
 (
 )

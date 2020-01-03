@@ -4133,7 +4133,6 @@ nsIContentPolicy
 :
 :
 TYPE_MEDIA
-nullptr
 loadGroup
 nullptr
 loadFlags
@@ -6049,7 +6048,6 @@ nsIContentPolicy
 :
 :
 TYPE_MEDIA
-nullptr
 loadGroup
 )
 ;
