@@ -7885,3 +7885,15 @@ size
 10
 )
 ;
+pref
+(
+"
+dom
+.
+audiochannel
+.
+mutedByDefault
+"
+true
+)
+;
