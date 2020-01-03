@@ -1017,15 +1017,6 @@ this
 _scrollbox
 .
 boxObject
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIScrollBoxObject
-)
 ;
 }
 return

@@ -187,9 +187,6 @@ class
 nsIBFCacheEntry
 ;
 class
-nsIBoxObject
-;
-class
 nsIChannel
 ;
 class
@@ -345,6 +342,9 @@ AnimationTimeline
 ;
 class
 Attr
+;
+class
+BoxObject
 ;
 class
 CDATASection
@@ -3120,7 +3120,13 @@ aContent
 virtual
 already_AddRefed
 <
-nsIBoxObject
+mozilla
+:
+:
+dom
+:
+:
+BoxObject
 >
 GetBoxObjectFor
 (

@@ -1309,7 +1309,7 @@ mPopupAnchor
 int8_t
 mPosition
 ;
-int8_t
+uint8_t
 mConsumeRollupEvent
 ;
 FlipType

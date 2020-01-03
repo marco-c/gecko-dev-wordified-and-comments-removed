@@ -150,6 +150,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+BoxObject
+.
+h
+"
+#
+include
+"
 nsXPIDLString
 .
 h

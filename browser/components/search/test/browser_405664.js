@@ -41,7 +41,7 @@ pbo
 "
 popup
 is
-nsIPopupBoxObject
+PopupBoxObject
 "
 )
 ;

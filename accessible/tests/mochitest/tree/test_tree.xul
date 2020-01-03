@@ -476,7 +476,7 @@ treeBoxObject
 var
 view
 =
-treeBoxObject
+aTree
 .
 view
 ;
@@ -635,8 +635,6 @@ invoke
 this
 .
 DOMNode
-.
-treeBoxObject
 .
 view
 =

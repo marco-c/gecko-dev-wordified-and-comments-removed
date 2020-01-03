@@ -259,8 +259,6 @@ length
 ;
 rejectsTree
 .
-treeBoxObject
-.
 view
 =
 rejectsTreeView

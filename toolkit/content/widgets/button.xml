@@ -338,11 +338,7 @@ this
 .
 boxObject
 instanceof
-Components
-.
-interfaces
-.
-nsIMenuBoxObject
+MenuBoxObject
 )
 {
 this
@@ -1267,11 +1263,7 @@ this
 .
 boxObject
 instanceof
-Components
-.
-interfaces
-.
-nsIMenuBoxObject
+MenuBoxObject
 )
 {
 if

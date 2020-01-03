@@ -529,13 +529,6 @@ this
 _list
 .
 boxObject
-.
-QueryInterface
-(
-Ci
-.
-nsIScrollBoxObject
-)
 ;
 boxObject
 .

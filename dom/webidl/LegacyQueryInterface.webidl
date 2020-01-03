@@ -171,6 +171,10 @@ BarProp
 implements
 LegacyQueryInterface
 ;
+BoxObject
+implements
+LegacyQueryInterface
+;
 CaretPosition
 implements
 LegacyQueryInterface

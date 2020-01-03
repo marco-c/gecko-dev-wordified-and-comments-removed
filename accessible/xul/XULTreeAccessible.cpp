@@ -825,7 +825,7 @@ nsITreeColumn
 >
 column
 ;
-nsAutoCString
+nsAutoString
 childEltUnused
 ;
 mTree
@@ -3017,7 +3017,7 @@ GetCoordsForCellItem
 (
 mRow
 column
-EmptyCString
+EmptyString
 (
 )
 &
@@ -4085,7 +4085,7 @@ nsITreeColumn
 >
 column
 ;
-nsAutoCString
+nsAutoString
 pseudoElm
 ;
 if
@@ -4123,7 +4123,7 @@ column
 ;
 pseudoElm
 =
-NS_LITERAL_CSTRING
+NS_LITERAL_STRING
 (
 "
 twisty

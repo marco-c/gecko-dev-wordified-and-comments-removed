@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-MozBoxObject
-;
-interface
 MozControllers
 ;
 interface
@@ -418,7 +415,7 @@ Throws
 ]
 readonly
 attribute
-MozBoxObject
+BoxObject
 ?
 boxObject
 ;

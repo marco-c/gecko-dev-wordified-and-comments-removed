@@ -741,15 +741,6 @@ menuBoxObject
 this
 .
 boxObject
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIMenuBoxObject
-)
 ;
 this
 .

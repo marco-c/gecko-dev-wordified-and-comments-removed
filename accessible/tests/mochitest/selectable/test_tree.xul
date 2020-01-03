@@ -435,8 +435,6 @@ this
 .
 DOMNode
 .
-treeBoxObject
-.
 view
 =
 aView

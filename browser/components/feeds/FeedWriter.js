@@ -4646,17 +4646,6 @@ firstChild
 .
 boxObject
 ;
-popupbox
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIPopupBoxObject
-)
-;
 if
 (
 popupbox

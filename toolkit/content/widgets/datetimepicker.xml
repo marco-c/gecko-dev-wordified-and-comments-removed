@@ -10115,11 +10115,7 @@ this
 .
 boxObject
 instanceof
-Components
-.
-interfaces
-.
-nsIMenuBoxObject
+MenuBoxObject
 )
 this
 .

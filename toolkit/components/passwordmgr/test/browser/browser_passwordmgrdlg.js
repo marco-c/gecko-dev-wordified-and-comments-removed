@@ -556,8 +556,6 @@ view
 =
 tree
 .
-treeBoxObject
-.
 view
 ;
 is

@@ -316,8 +316,6 @@ this
 .
 DOMNode
 .
-treeBoxObject
-.
 view
 =
 new
@@ -502,8 +500,6 @@ tableTester_invoke
 this
 .
 DOMNode
-.
-treeBoxObject
 .
 view
 =

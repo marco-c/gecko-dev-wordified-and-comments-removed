@@ -1346,7 +1346,7 @@ nsITreeColumn
 >
 column
 ;
-nsAutoCString
+nsAutoString
 childEltUnused
 ;
 mTree
@@ -2025,7 +2025,7 @@ GetCoordsForCellItem
 (
 mRow
 mColumn
-NS_LITERAL_CSTRING
+NS_LITERAL_STRING
 (
 "
 cell

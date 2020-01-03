@@ -4257,15 +4257,6 @@ return
 this
 .
 boxObject
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIListBoxObject
-)
 ;
 "
 readonly

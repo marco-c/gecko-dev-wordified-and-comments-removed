@@ -2395,17 +2395,6 @@ boxObject
 ;
 boxObject
 .
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIScrollBoxObject
-)
-;
-boxObject
-.
 scrollToElement
 (
 line

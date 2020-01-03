@@ -156,11 +156,7 @@ gTrigger
 .
 boxObject
 instanceof
-Components
-.
-interfaces
-.
-nsIMenuBoxObject
+MenuBoxObject
 ;
 gCachedEvent
 =

@@ -956,15 +956,6 @@ this
 .
 boxObject
 .
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIContainerBoxObject
-)
-.
 docShell
 ;
 "

@@ -18683,15 +18683,6 @@ y
 ;
 detailViewBoxObject
 .
-QueryInterface
-(
-Ci
-.
-nsIScrollBoxObject
-)
-;
-detailViewBoxObject
-.
 scrollTo
 (
 0

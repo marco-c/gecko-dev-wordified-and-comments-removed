@@ -1008,15 +1008,6 @@ menu
 .
 boxObject
 .
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIMenuBoxObject
-)
-.
 activeChild
 =
 (

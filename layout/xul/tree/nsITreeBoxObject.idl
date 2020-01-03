@@ -119,7 +119,6 @@ interface
 nsIScriptableRegion
 ;
 [
-scriptable
 uuid
 (
 64BA5199
@@ -901,7 +900,7 @@ out
 nsITreeColumn
 col
 out
-ACString
+AString
 childElt
 )
 ;
@@ -932,7 +931,7 @@ in
 nsITreeColumn
 col
 in
-ACString
+AString
 element
 out
 long

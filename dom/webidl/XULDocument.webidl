@@ -115,9 +115,6 @@ interface
 XULCommandDispatcher
 ;
 interface
-MozBoxObject
-;
-interface
 MozObserver
 ;
 [
@@ -315,7 +312,7 @@ attr
 [
 Throws
 ]
-MozBoxObject
+BoxObject
 ?
 getBoxObjectFor
 (

@@ -664,15 +664,6 @@ newEditorElement
 .
 boxObject
 .
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIEditorBoxObject
-)
-.
 docShell
 ;
 progress

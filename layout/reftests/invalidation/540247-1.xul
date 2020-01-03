@@ -132,15 +132,6 @@ s
 )
 .
 boxObject
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIScrollBoxObject
-)
 ;
 sbo
 .

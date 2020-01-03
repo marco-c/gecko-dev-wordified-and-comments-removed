@@ -4543,13 +4543,6 @@ element
 .
 boxObject
 .
-QueryInterface
-(
-Ci
-.
-nsIMenuBoxObject
-)
-.
 activeChild
 =
 null

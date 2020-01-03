@@ -3073,13 +3073,6 @@ this
 _list
 .
 boxObject
-.
-QueryInterface
-(
-Ci
-.
-nsIScrollBoxObject
-)
 get
 parentNode
 (

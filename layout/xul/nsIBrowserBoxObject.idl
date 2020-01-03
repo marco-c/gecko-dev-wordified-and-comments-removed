@@ -108,12 +108,11 @@ deprecated
 Please
 consider
 using
-nsIContainerBoxObject
+ContainerBoxObject
 .
 *
 /
 [
-scriptable
 uuid
 (
 db436f2f

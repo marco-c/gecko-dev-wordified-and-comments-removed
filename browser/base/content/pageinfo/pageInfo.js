@@ -2938,8 +2938,6 @@ metatree
 ;
 metaTree
 .
-treeBoxObject
-.
 view
 =
 gMetaView

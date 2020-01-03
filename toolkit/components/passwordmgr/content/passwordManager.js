@@ -614,8 +614,6 @@ length
 ;
 signonsTree
 .
-treeBoxObject
-.
 view
 =
 signonsTreeView

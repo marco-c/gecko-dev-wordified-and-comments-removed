@@ -86,6 +86,9 @@ dom
 class
 Element
 ;
+class
+TreeBoxObject
+;
 }
 }
 #
@@ -518,7 +521,13 @@ aCx
 )
 MOZ_OVERRIDE
 ;
-nsITreeBoxObject
+mozilla
+:
+:
+dom
+:
+:
+TreeBoxObject
 *
 GetTree
 (

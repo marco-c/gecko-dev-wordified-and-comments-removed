@@ -292,7 +292,7 @@ nsITreeColumn
 *
 aColumn
 const
-nsCString
+nsAString
 &
 aPseudoElt
 )

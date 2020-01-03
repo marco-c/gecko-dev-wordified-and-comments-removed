@@ -414,7 +414,7 @@ h
 #
 include
 "
-nsIListBoxObject
+ListBoxObject
 .
 h
 "
@@ -642,6 +642,17 @@ mozilla
 dom
 /
 XULElementBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+BoxObject
 .
 h
 "
@@ -6825,7 +6836,7 @@ ErrorCode
 }
 already_AddRefed
 <
-nsIBoxObject
+BoxObject
 >
 nsXULElement
 :

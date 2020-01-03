@@ -83,8 +83,6 @@ this
 .
 treeNode
 .
-treeBoxObject
-.
 view
 =
 aTreeView

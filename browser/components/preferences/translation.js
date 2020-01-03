@@ -136,8 +136,6 @@ this
 .
 _tree
 .
-treeBoxObject
-.
 view
 =
 this

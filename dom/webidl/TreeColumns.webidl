@@ -57,9 +57,6 @@ MPL
 *
 /
 interface
-MozTreeBoxObject
-;
-interface
 MozTreeColumn
 ;
 [
@@ -87,7 +84,7 @@ columns
 /
 readonly
 attribute
-MozTreeBoxObject
+TreeBoxObject
 ?
 tree
 ;
