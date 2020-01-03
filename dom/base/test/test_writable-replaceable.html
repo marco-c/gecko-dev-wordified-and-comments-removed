@@ -192,8 +192,21 @@ createTest
 prop
 typeStr
 valCode
+replaceable
 )
 {
+var
+newType
+=
+replaceable
+?
+typeof
+(
+valCode
+)
+:
+typeStr
+;
 var
 code
 =
@@ -305,7 +318,7 @@ prop
 "
 '
 +
-typeStr
+newType
 +
 '
 "
@@ -342,7 +355,7 @@ prop
 "
 '
 +
-typeStr
+newType
 +
 '
 "
@@ -383,6 +396,7 @@ number
 123
 "
 '
+true
 ]
 [
 "
@@ -396,6 +410,7 @@ number
 456
 "
 '
+true
 ]
 [
 "
@@ -409,6 +424,7 @@ number
 654
 "
 '
+true
 ]
 [
 "
@@ -422,6 +438,7 @@ number
 321
 "
 '
+true
 ]
 [
 "
@@ -435,6 +452,7 @@ number
 17
 "
 '
+true
 ]
 [
 "
@@ -448,6 +466,7 @@ number
 42
 "
 '
+true
 ]
 [
 "
@@ -460,6 +479,7 @@ string
 {
 }
 '
+false
 ]
 [
 "
@@ -472,6 +492,7 @@ string
 {
 }
 '
+false
 ]
 ]
 .
