@@ -1474,6 +1474,8 @@ native
 void
 nativeInit
 (
+ClassLoader
+clsLoader
 )
 ;
 public
@@ -1858,10 +1860,15 @@ addIdleHandler
 idleHandler
 )
 ;
-GeckoAppShell
-.
 nativeInit
 (
+GeckoAppShell
+.
+class
+.
+getClassLoader
+(
+)
 )
 ;
 String
