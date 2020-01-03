@@ -537,14 +537,6 @@ eax
 mov
 esp
 ebp
-#
-ifdef
-__clang__
-pop
-ebp
-ret
-#
-endif
 }
 }
 #
