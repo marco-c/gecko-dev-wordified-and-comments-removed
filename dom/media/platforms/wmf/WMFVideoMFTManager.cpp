@@ -191,6 +191,11 @@ layers
 :
 LayersBackend
 ;
+#
+if
+MOZ_WINSDK_MAXVER
+<
+0x0A000000
 const
 GUID
 MFVideoFormat_VP80
@@ -231,6 +236,8 @@ MFVideoFormat_VP90
 }
 }
 ;
+#
+endif
 const
 CLSID
 CLSID_WebmMfVp8Dec
