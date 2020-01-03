@@ -65,6 +65,8 @@ nsCString
 aOrigin
 bool
 aPrivateBrowsing
+bool
+aPersist
 )
 ;
 void

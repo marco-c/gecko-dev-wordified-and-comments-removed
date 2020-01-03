@@ -90,6 +90,8 @@ nsCString
 aOrigin
 bool
 aPrivateBrowsing
+bool
+aPersist
 )
 {
 nsRefPtr
@@ -164,6 +166,7 @@ RecvGetOriginKey
 id
 aOrigin
 aPrivateBrowsing
+aPersist
 )
 ;
 }
@@ -182,6 +185,7 @@ SendGetOriginKey
 id
 aOrigin
 aPrivateBrowsing
+aPersist
 )
 ;
 }
