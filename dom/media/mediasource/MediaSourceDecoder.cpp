@@ -395,7 +395,7 @@ TimeRanges
 (
 )
 ;
-mMediaSource
+mReader
 -
 >
 GetBuffered
