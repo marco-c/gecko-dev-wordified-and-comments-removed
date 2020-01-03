@@ -48,7 +48,7 @@ include
 "
 jit
 /
-IonAllocPolicy
+JitAllocPolicy
 .
 h
 "
@@ -177,7 +177,7 @@ jitRuntime
 const
 {
 return
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -322,7 +322,7 @@ instrumentedProfilingIsCached_
 {
 instrumentedProfiling_
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -614,7 +614,7 @@ types
 TypeObject
 *
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 TypeObjectVector
 ;

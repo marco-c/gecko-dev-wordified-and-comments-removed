@@ -59,7 +59,7 @@ include
 "
 jit
 /
-IonMacroAssembler
+MacroAssembler
 .
 h
 "
@@ -1559,7 +1559,7 @@ bool
 newType
 )
 ;
-IonExecStatus
+JitExecStatus
 EnterBaselineMethod
 (
 JSContext
@@ -1570,7 +1570,7 @@ RunState
 state
 )
 ;
-IonExecStatus
+JitExecStatus
 EnterBaselineAtBranch
 (
 JSContext

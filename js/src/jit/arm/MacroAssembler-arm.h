@@ -56,7 +56,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 .
 h
 "
@@ -2725,7 +2725,7 @@ Always
 )
 ;
 void
-ma_callIon
+ma_callJit
 (
 const
 Register
@@ -2733,7 +2733,7 @@ reg
 )
 ;
 void
-ma_callIonNoPush
+ma_callJitNoPush
 (
 const
 Register
@@ -2741,7 +2741,7 @@ reg
 )
 ;
 void
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 const
 Register
@@ -2749,7 +2749,7 @@ reg
 )
 ;
 void
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 Label
 *
@@ -3424,7 +3424,7 @@ Always
 rs
 )
 ;
-ma_callIonHalfPush
+ma_callJitHalfPush
 (
 ScratchRegister
 )
@@ -8263,7 +8263,7 @@ dynStack
 )
 ;
 void
-callIon
+callJit
 (
 Register
 callee

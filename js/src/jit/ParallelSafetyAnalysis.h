@@ -74,7 +74,7 @@ Vector
 JSScript
 *
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 CallTargetVector
 ;

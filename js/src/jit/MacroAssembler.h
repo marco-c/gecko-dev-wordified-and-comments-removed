@@ -1,9 +1,9 @@
 #
 ifndef
-jit_IonMacroAssembler_h
+jit_MacroAssembler_h
 #
 define
-jit_IonMacroAssembler_h
+jit_MacroAssembler_h
 #
 include
 "
@@ -713,16 +713,16 @@ mozilla
 :
 Maybe
 <
-IonContext
+JitContext
 >
-ionContext_
+jitContext_
 ;
 mozilla
 :
 :
 Maybe
 <
-AutoIonContextAlloc
+AutoJitContextAlloc
 >
 alloc_
 ;
@@ -762,11 +762,11 @@ sps_
 nullptr
 )
 {
-IonContext
+JitContext
 *
-icx
+jcx
 =
-GetIonContext
+GetJitContext
 (
 )
 ;
@@ -774,7 +774,7 @@ JSContext
 *
 cx
 =
-icx
+jcx
 -
 >
 cx
@@ -791,7 +791,7 @@ cx
 if
 (
 !
-icx
+jcx
 -
 >
 temp
@@ -815,7 +815,7 @@ moveResolver_
 setAllocator
 (
 *
-icx
+jcx
 -
 >
 temp
@@ -832,7 +832,7 @@ m_buffer
 .
 id
 =
-icx
+jcx
 -
 >
 getNextAssemblerId
@@ -875,7 +875,7 @@ constructRoot
 cx
 )
 ;
-ionContext_
+jitContext_
 .
 emplace
 (
@@ -905,7 +905,7 @@ moveResolver_
 setAllocator
 (
 *
-ionContext_
+jitContext_
 -
 >
 temp
@@ -922,7 +922,7 @@ m_buffer
 .
 id
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -1988,7 +1988,7 @@ loadPtr
 (
 AbsoluteAddress
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -2015,7 +2015,7 @@ loadPtr
 (
 AbsoluteAddress
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -3560,7 +3560,7 @@ CompileZone
 *
 zone
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -3648,7 +3648,7 @@ JitRuntime
 *
 rt
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -4865,7 +4865,7 @@ movePtr
 (
 ImmPtr
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -4962,7 +4962,7 @@ leaveExitFrame
 {
 freeStack
 (
-IonExitFooterFrame
+ExitFooterFrame
 :
 :
 Size
@@ -5125,7 +5125,7 @@ reenterSPSFrame
 ;
 }
 uint32_t
-callIon
+callJit
 (
 Register
 callee
@@ -5138,7 +5138,7 @@ leaveSPSFrame
 MacroAssemblerSpecific
 :
 :
-callIon
+callJit
 (
 callee
 )

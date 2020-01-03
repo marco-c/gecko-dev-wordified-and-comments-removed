@@ -82,13 +82,13 @@ ReadFrame_Actuals
 }
 ;
 class
-IonCommonFrameLayout
+CommonFrameLayout
 ;
 class
-IonJSFrameLayout
+JitFrameLayout
 ;
 class
-IonExitFrameLayout
+ExitFrameLayout
 ;
 class
 BaselineFrame
@@ -194,7 +194,7 @@ return
 activation_
 ;
 }
-IonCommonFrameLayout
+CommonFrameLayout
 *
 current
 (
@@ -203,7 +203,7 @@ const
 {
 return
 (
-IonCommonFrameLayout
+CommonFrameLayout
 *
 )
 current_
@@ -217,7 +217,7 @@ returnAddress
 )
 const
 ;
-IonJSFrameLayout
+JitFrameLayout
 *
 jsFrame
 (
@@ -232,7 +232,7 @@ isFakeExitFrame
 const
 ;
 inline
-IonExitFrameLayout
+ExitFrameLayout
 *
 exitFrame
 (
@@ -760,7 +760,7 @@ Values
 >
 results_
 ;
-IonJSFrameLayout
+JitFrameLayout
 *
 fp_
 ;
@@ -772,7 +772,7 @@ public
 explicit
 RInstructionResults
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 )
@@ -817,7 +817,7 @@ isInitialized
 )
 const
 ;
-IonJSFrameLayout
+JitFrameLayout
 *
 frame
 (
@@ -1032,7 +1032,7 @@ snapshot_
 RecoverReader
 recover_
 ;
-IonJSFrameLayout
+JitFrameLayout
 *
 fp_
 ;
@@ -1451,7 +1451,7 @@ IonScript
 ionScript
 SnapshotOffset
 snapshotOffset
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 const

@@ -52,7 +52,7 @@ include
 "
 jit
 /
-IonFrames
+JitCompartment
 .
 h
 "
@@ -61,7 +61,7 @@ include
 "
 jit
 /
-JitCompartment
+JitFrames
 .
 h
 "
@@ -137,7 +137,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 -
 inl
 .
@@ -236,7 +236,7 @@ ionScript
 ?
 ionScript
 :
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 )
@@ -4198,7 +4198,7 @@ if
 ok
 )
 {
-IonJSFrameLayout
+JitFrameLayout
 *
 prefix
 =

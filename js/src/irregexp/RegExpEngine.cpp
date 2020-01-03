@@ -7775,7 +7775,7 @@ Maybe
 jit
 :
 :
-IonContext
+JitContext
 >
 ctx
 ;

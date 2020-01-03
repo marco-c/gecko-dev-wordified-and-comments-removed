@@ -44,7 +44,7 @@ namespace
 jit
 {
 class
-IonJSFrameLayout
+JitFrameLayout
 ;
 }
 struct
@@ -261,7 +261,7 @@ cx
 jit
 :
 :
-IonJSFrameLayout
+JitFrameLayout
 *
 frame
 HandleObject
@@ -827,7 +827,7 @@ MaybeForwardToCallObject
 jit
 :
 :
-IonJSFrameLayout
+JitFrameLayout
 *
 frame
 HandleObject

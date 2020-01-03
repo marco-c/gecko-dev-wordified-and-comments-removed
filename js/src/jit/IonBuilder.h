@@ -4817,7 +4817,7 @@ Vector
 <
 CFGState
 8
-IonAllocPolicy
+JitAllocPolicy
 >
 cfgStack_
 ;
@@ -4825,7 +4825,7 @@ Vector
 <
 ControlFlowInfo
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 loops_
 ;
@@ -4833,7 +4833,7 @@ Vector
 <
 ControlFlowInfo
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 switches_
 ;
@@ -4841,7 +4841,7 @@ Vector
 <
 ControlFlowInfo
 2
-IonAllocPolicy
+JitAllocPolicy
 >
 labels_
 ;
@@ -4850,7 +4850,7 @@ Vector
 MInstruction
 *
 2
-IonAllocPolicy
+JitAllocPolicy
 >
 iterators_
 ;
@@ -4858,7 +4858,7 @@ Vector
 <
 LoopHeader
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 loopHeaders_
 ;

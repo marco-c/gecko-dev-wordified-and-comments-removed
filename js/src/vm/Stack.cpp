@@ -7910,7 +7910,7 @@ JitActivation
 :
 maybeIonFrameRecovery
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 )
@@ -7967,7 +7967,7 @@ JitActivation
 :
 removeIonFrameRecovery
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 )

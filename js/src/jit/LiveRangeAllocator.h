@@ -1106,7 +1106,7 @@ Vector
 <
 Range
 1
-IonAllocPolicy
+JitAllocPolicy
 >
 ranges_
 ;
@@ -1846,7 +1846,7 @@ Vector
 LiveInterval
 *
 1
-IonAllocPolicy
+JitAllocPolicy
 >
 intervals_
 ;

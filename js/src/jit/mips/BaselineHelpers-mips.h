@@ -36,7 +36,7 @@ include
 "
 jit
 /
-IonMacroAssembler
+MacroAssembler
 .
 h
 "
@@ -367,7 +367,7 @@ Imm32
 (
 sizeof
 (
-IonCommonFrameLayout
+CommonFrameLayout
 )
 )
 StackPointer
@@ -381,7 +381,7 @@ t6
 Address
 (
 StackPointer
-IonCommonFrameLayout
+CommonFrameLayout
 :
 :
 offsetOfDescriptor
@@ -398,7 +398,7 @@ ra
 Address
 (
 StackPointer
-IonCommonFrameLayout
+CommonFrameLayout
 :
 :
 offsetOfReturnAddress

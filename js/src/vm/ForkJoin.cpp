@@ -6994,8 +6994,8 @@ Up
 "
 )
 ;
-IonContext
-icx
+JitContext
+jcx
 (
 CompileRuntime
 :

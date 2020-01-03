@@ -55,7 +55,7 @@ include
 "
 jit
 /
-IonFrames
+JitCompartment
 .
 h
 "
@@ -64,7 +64,7 @@ include
 "
 jit
 /
-JitCompartment
+JitFrames
 .
 h
 "

@@ -1569,7 +1569,7 @@ const
 Sprinter
 sp
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -2113,7 +2113,7 @@ const
 Sprinter
 sp
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -9409,7 +9409,7 @@ JitSpew_Range
 Sprinter
 sp
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -9507,7 +9507,7 @@ Vector
 MBoundsCheck
 *
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 hoistedChecks
 (

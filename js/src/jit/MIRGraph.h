@@ -18,7 +18,7 @@ include
 "
 jit
 /
-IonAllocPolicy
+JitAllocPolicy
 .
 h
 "
@@ -2403,7 +2403,7 @@ Vector
 MBasicBlock
 *
 1
-IonAllocPolicy
+JitAllocPolicy
 >
 predecessors_
 ;
@@ -2482,7 +2482,7 @@ Vector
 MBasicBlock
 *
 1
-IonAllocPolicy
+JitAllocPolicy
 >
 immediatelyDominated_
 ;
@@ -2590,7 +2590,7 @@ Vector
 MBasicBlock
 *
 1
-IonAllocPolicy
+JitAllocPolicy
 >
 MIRGraphReturns
 ;

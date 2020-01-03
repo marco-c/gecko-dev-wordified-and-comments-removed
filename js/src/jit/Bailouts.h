@@ -16,7 +16,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrameIterator
 .
 h
 "
@@ -25,7 +25,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JitFrames
 .
 h
 "

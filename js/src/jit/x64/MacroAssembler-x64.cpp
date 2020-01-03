@@ -34,7 +34,7 @@ include
 "
 jit
 /
-IonFrames
+JitCompartment
 .
 h
 "
@@ -43,7 +43,7 @@ include
 "
 jit
 /
-JitCompartment
+JitFrames
 .
 h
 "
@@ -1999,7 +1999,7 @@ JitCode
 *
 excTail
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -2736,7 +2736,7 @@ Nursery
 &
 nursery
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -2845,7 +2845,7 @@ Nursery
 &
 nursery
 =
-GetIonContext
+GetJitContext
 (
 )
 -

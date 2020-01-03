@@ -248,7 +248,7 @@ types
 :
 Type
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 argTypes
 ;
@@ -259,7 +259,7 @@ types
 :
 Type
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 varTypes
 ;
@@ -7121,7 +7121,7 @@ Vector
 MDefinition
 *
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 popped
 (
@@ -7134,7 +7134,7 @@ Vector
 <
 size_t
 4
-IonAllocPolicy
+JitAllocPolicy
 >
 poppedUses
 (
@@ -35682,7 +35682,7 @@ JSGC_GENERATIONAL
 if
 (
 !
-GetIonContext
+GetJitContext
 (
 )
 -

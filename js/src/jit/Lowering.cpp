@@ -12477,7 +12477,7 @@ JSAtomState
 &
 names
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -12523,7 +12523,7 @@ JSAtomState
 &
 names
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -14568,7 +14568,7 @@ ins
 {
 if
 (
-GetIonContext
+GetJitContext
 (
 )
 -

@@ -79,7 +79,7 @@ include
 "
 jit
 /
-IonMacroAssembler
+IonTypes
 .
 h
 "
@@ -88,7 +88,7 @@ include
 "
 jit
 /
-IonTypes
+MacroAssembler
 .
 h
 "

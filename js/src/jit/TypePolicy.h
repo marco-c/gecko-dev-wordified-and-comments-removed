@@ -9,7 +9,7 @@ include
 "
 jit
 /
-IonAllocPolicy
+IonTypes
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 jit
 /
-IonTypes
+JitAllocPolicy
 .
 h
 "

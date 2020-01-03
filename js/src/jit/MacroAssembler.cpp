@@ -3,7 +3,7 @@ include
 "
 jit
 /
-IonMacroAssembler
+MacroAssembler
 .
 h
 "
@@ -3500,7 +3500,7 @@ Assembler
 NotEqual
 AbsoluteAddress
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -3523,7 +3523,7 @@ fail
 endif
 if
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -3658,7 +3658,7 @@ Nursery
 &
 nursery
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -3799,7 +3799,7 @@ CompileZone
 *
 zone
 =
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -4059,7 +4059,7 @@ regNBytes
 ;
 call
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -4138,7 +4138,7 @@ regSlots
 ;
 call
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -6964,7 +6964,7 @@ movePtr
 (
 ImmPtr
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -7009,7 +7009,7 @@ linkExitFrame
 AbsoluteAddress
 jitTop
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -7411,7 +7411,7 @@ resumeAddr
 ;
 enterFakeExitFrame
 (
-IonExitFrameLayout
+ExitFrameLayout
 :
 :
 BareToken
@@ -7595,7 +7595,7 @@ addPtr
 (
 Imm32
 (
-IonExitFrameLayout
+ExitFrameLayout
 :
 :
 SizeWithFooter
@@ -7794,7 +7794,7 @@ addPtr
 (
 Imm32
 (
-IonExitFrameLayout
+ExitFrameLayout
 :
 :
 SizeWithFooter

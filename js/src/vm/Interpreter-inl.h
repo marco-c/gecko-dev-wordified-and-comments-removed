@@ -4172,7 +4172,7 @@ Method_Compiled
 jit
 :
 :
-IonExecStatus
+JitExecStatus
 result
 =
 jit
@@ -4203,7 +4203,7 @@ result
 jit
 :
 :
-IonExec_Ok
+JitExec_Ok
 )
 ;
 return

@@ -36,7 +36,7 @@ include
 "
 jit
 /
-IonMacroAssembler
+MacroAssembler
 .
 h
 "

@@ -4424,7 +4424,7 @@ RInstructionResults
 *
 maybeIonFrameRecovery
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 )
@@ -4432,7 +4432,7 @@ fp
 void
 removeIonFrameRecovery
 (
-IonJSFrameLayout
+JitFrameLayout
 *
 fp
 )

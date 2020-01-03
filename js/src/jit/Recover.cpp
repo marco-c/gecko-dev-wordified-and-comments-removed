@@ -386,7 +386,7 @@ ifdef
 DEBUG
 if
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -434,7 +434,7 @@ if
 !
 ReconstructStackDepth
 (
-GetIonContext
+GetJitContext
 (
 )
 -

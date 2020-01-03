@@ -15116,7 +15116,7 @@ destroy
 jit
 :
 :
-DestroyIonScripts
+DestroyJitScripts
 (
 fop
 this
@@ -19659,7 +19659,7 @@ trc
 jit
 :
 :
-TraceIonScripts
+TraceJitScripts
 (
 trc
 this

@@ -9168,8 +9168,8 @@ cx
 jit
 :
 :
-IonContext
-ictx
+JitContext
+jctx
 (
 cx
 nullptr
@@ -26226,7 +26226,7 @@ asRematerializedFrame
 jit
 :
 :
-IonJSFrameLayout
+JitFrameLayout
 *
 jsFrame
 =
@@ -26234,7 +26234,7 @@ jsFrame
 jit
 :
 :
-IonJSFrameLayout
+JitFrameLayout
 *
 )
 frame

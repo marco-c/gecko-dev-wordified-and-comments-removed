@@ -3192,7 +3192,7 @@ Vector
 <
 CodeOffsetLabel
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 ionScriptLabels_
 ;

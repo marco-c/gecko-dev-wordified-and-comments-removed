@@ -4458,7 +4458,7 @@ CompilerConstraint
 jit
 :
 :
-IonAllocPolicy
+JitAllocPolicy
 >
 constraints
 ;
@@ -4469,7 +4469,7 @@ FrozenScript
 jit
 :
 :
-IonAllocPolicy
+JitAllocPolicy
 >
 frozenScripts
 ;

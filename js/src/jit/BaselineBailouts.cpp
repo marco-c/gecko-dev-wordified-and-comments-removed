@@ -124,7 +124,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 -
 inl
 .
@@ -298,7 +298,7 @@ JitFrameIterator
 &
 iter_
 ;
-IonJSFrameLayout
+JitFrameLayout
 *
 frame_
 ;
@@ -360,7 +360,7 @@ frame_
 (
 static_cast
 <
-IonJSFrameLayout
+JitFrameLayout
 *
 >
 (
@@ -1559,7 +1559,7 @@ bufferUsed_
 ;
 }
 inline
-IonJSFrameLayout
+JitFrameLayout
 *
 startFrame
 (
@@ -1571,7 +1571,7 @@ frame_
 }
 BufferPointer
 <
-IonJSFrameLayout
+JitFrameLayout
 >
 topFrameAddress
 (
@@ -1580,7 +1580,7 @@ topFrameAddress
 return
 pointerAtStackOffset
 <
-IonJSFrameLayout
+JitFrameLayout
 >
 (
 0
@@ -1595,7 +1595,7 @@ calculatePrevFramePtr
 {
 BufferPointer
 <
-IonJSFrameLayout
+JitFrameLayout
 >
 topFrame
 =
@@ -1640,7 +1640,7 @@ JitFrame_BaselineStub
 size_t
 offset
 =
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 Size
@@ -1654,7 +1654,7 @@ prevFrameLocalSize
 (
 )
 +
-IonBaselineStubFrameLayout
+BaselineStubFrameLayout
 :
 :
 reverseOffsetOfSavedFramePtr
@@ -1679,7 +1679,7 @@ JitFrame_Rectifier
 size_t
 priorOffset
 =
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 Size
@@ -1742,13 +1742,13 @@ JS_CODEGEN_MIPS
 )
 BufferPointer
 <
-IonRectifierFrameLayout
+RectifierFrameLayout
 >
 priorFrame
 =
 pointerAtStackOffset
 <
-IonRectifierFrameLayout
+RectifierFrameLayout
 >
 (
 priorOffset
@@ -1791,7 +1791,7 @@ nullptr
 size_t
 extraOffset
 =
-IonRectifierFrameLayout
+RectifierFrameLayout
 :
 :
 Size
@@ -1805,7 +1805,7 @@ prevFrameLocalSize
 (
 )
 +
-IonBaselineStubFrameLayout
+BaselineStubFrameLayout
 :
 :
 reverseOffsetOfSavedFramePtr
@@ -3081,7 +3081,7 @@ framePushed
 (
 )
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfThis
@@ -3252,7 +3252,7 @@ framePushed
 (
 )
 +
-IonJSFrameLayout
+JitFrameLayout
 :
 :
 offsetOfActualArg

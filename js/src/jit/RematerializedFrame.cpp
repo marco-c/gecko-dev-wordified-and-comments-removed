@@ -12,7 +12,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 .
 h
 "
@@ -37,7 +37,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 -
 inl
 .

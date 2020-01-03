@@ -56,7 +56,7 @@ Vector
 <
 uint32_t
 2
-IonAllocPolicy
+JitAllocPolicy
 >
 registers
 ;

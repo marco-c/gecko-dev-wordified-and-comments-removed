@@ -80,7 +80,7 @@ include
 "
 jit
 /
-IonLinker
+JitSpewer
 .
 h
 "
@@ -89,7 +89,7 @@ include
 "
 jit
 /
-JitSpewer
+Linker
 .
 h
 "
@@ -162,7 +162,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrames
 -
 inl
 .
@@ -246,7 +246,7 @@ RootedScript
 script
 (
 cx
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 )
@@ -410,7 +410,7 @@ RootedScript
 script
 (
 cx
-GetTopIonJSScript
+GetTopJitJSScript
 (
 cx
 )
@@ -4611,8 +4611,8 @@ stubCode
 return
 stubCode
 ;
-IonContext
-ictx
+JitContext
+jctx
 (
 cx
 nullptr
@@ -23516,7 +23516,7 @@ offsetOfPCOffset
 }
 masm
 .
-callIon
+callJit
 (
 code
 )
@@ -39544,7 +39544,7 @@ offsetOfPCOffset
 }
 masm
 .
-callIon
+callJit
 (
 code
 )
@@ -45309,7 +45309,7 @@ offsetOfPCOffset
 }
 masm
 .
-callIon
+callJit
 (
 code
 )
@@ -52745,7 +52745,7 @@ offsetOfPCOffset
 }
 masm
 .
-callIon
+callJit
 (
 code
 )
@@ -53962,7 +53962,7 @@ masm
 .
 enterFakeExitFrame
 (
-IonNativeExitFrameLayout
+NativeExitFrameLayout
 :
 :
 Token
@@ -54086,7 +54086,7 @@ loadValue
 Address
 (
 StackPointer
-IonNativeExitFrameLayout
+NativeExitFrameLayout
 :
 :
 offsetOfResult
@@ -54387,7 +54387,7 @@ masm
 .
 enterFakeExitFrame
 (
-IonNativeExitFrameLayout
+NativeExitFrameLayout
 :
 :
 Token
@@ -54479,7 +54479,7 @@ loadValue
 Address
 (
 StackPointer
-IonNativeExitFrameLayout
+NativeExitFrameLayout
 :
 :
 offsetOfResult
@@ -54917,7 +54917,7 @@ offsetOfPCOffset
 ;
 masm
 .
-callIon
+callJit
 (
 target
 )
@@ -55330,7 +55330,7 @@ offsetOfPCOffset
 ;
 masm
 .
-callIon
+callJit
 (
 target
 )
@@ -55984,7 +55984,7 @@ offsetOfPCOffset
 }
 masm
 .
-callIon
+callJit
 (
 code
 )

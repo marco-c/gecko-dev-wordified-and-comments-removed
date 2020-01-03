@@ -16,7 +16,7 @@ include
 "
 jit
 /
-IonAllocPolicy
+JitAllocPolicy
 .
 h
 "
@@ -109,7 +109,7 @@ Vector
 <
 BytecodeInfo
 0
-IonAllocPolicy
+JitAllocPolicy
 >
 infos_
 ;

@@ -44,7 +44,7 @@ Vector
 <
 BufferOffset
 512
-OldIonAllocPolicy
+OldJitAllocPolicy
 >
 LoadOffsets
 ;
@@ -56,7 +56,7 @@ struct
 Pool
 :
 public
-OldIonAllocPolicy
+OldJitAllocPolicy
 {
 private
 :

@@ -378,7 +378,7 @@ func
 {
 if
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -413,7 +413,7 @@ pass
 {
 if
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -450,7 +450,7 @@ ra
 {
 if
 (
-GetIonContext
+GetJitContext
 (
 )
 -
@@ -481,7 +481,7 @@ IonSpewEndFunction
 {
 if
 (
-GetIonContext
+GetJitContext
 (
 )
 -
