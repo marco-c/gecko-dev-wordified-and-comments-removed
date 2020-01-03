@@ -4434,7 +4434,7 @@ exports
 [
 "
 test
-MozRequestAnimationFrame
+requestAnimationFrame
 "
 ]
 =
@@ -4462,7 +4462,7 @@ ContentScriptScope
 {
 window
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 function
 callback
