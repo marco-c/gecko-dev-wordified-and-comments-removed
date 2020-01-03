@@ -1306,16 +1306,6 @@ _
 (
 Debugger
 )
-\
-_
-(
-NewTarget
-)
-\
-_
-(
-ArrowNewTarget
-)
 #
 define
 FORWARD_DECLARE

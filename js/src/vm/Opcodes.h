@@ -853,7 +853,7 @@ spreadnew
 "
 NULL
 1
-4
+3
 1
 JOF_BYTE
 |
@@ -2484,7 +2484,7 @@ lambda_arrow
 "
 NULL
 5
-2
+1
 1
 JOF_OBJECT
 )
@@ -2789,15 +2789,15 @@ JOF_DETECTING
 \
 macro
 (
-JSOP_NEWTARGET
+JSOP_UNUSED148
 148
 "
-newtarget
+unused148
 "
 NULL
 1
 0
-1
+0
 JOF_BYTE
 )
 \

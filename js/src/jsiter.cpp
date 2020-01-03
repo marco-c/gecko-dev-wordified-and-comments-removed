@@ -2498,7 +2498,8 @@ ReportValueError2
 (
 cx
 JSMSG_BAD_TRAP_RETURN_VALUE
-JSDVG_IGNORE_STACK
+-
+1
 val
 nullptr
 bytes
