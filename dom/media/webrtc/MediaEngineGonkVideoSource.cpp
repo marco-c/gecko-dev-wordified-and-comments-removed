@@ -376,8 +376,6 @@ delta
 size
 )
 ;
-if
-(
 aSource
 -
 >
@@ -389,13 +387,7 @@ aID
 segment
 )
 )
-)
-{
-aLastEndTime
-=
-aDesiredTime
 ;
-}
 }
 }
 void
