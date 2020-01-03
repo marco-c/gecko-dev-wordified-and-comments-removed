@@ -601,11 +601,6 @@ WebGLExtensionVertexArray
 cpp
 '
 '
-WebGLFormats
-.
-cpp
-'
-'
 WebGLFramebuffer
 .
 cpp
