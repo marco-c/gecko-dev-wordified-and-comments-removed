@@ -341,6 +341,13 @@ SMOOTH_MSD
 NORMAL
 }
 ;
+enum
+ScrollMomentum
+{
+NOT_MOMENTUM
+SYNTHESIZED_MOMENTUM_EVENT
+}
+;
 virtual
 void
 ScrollTo
@@ -438,10 +445,10 @@ nsIAtom
 aOrigin
 =
 nullptr
-bool
-aIsMomentum
+ScrollMomentum
+aMomentum
 =
-false
+NOT_MOMENTUM
 )
 =
 0
