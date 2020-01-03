@@ -1595,12 +1595,6 @@ mPlugin
 return
 ;
 }
-nsAutoString
-dumpId
-(
-aBrowserDumpId
-)
-;
 nsRefPtr
 <
 nsNPAPIPlugin
@@ -1641,8 +1635,7 @@ MessageLoop
 current
 (
 )
-&
-dumpId
+aBrowserDumpId
 )
 ;
 }
@@ -5373,9 +5366,6 @@ FinishHangUI
 ;
 #
 endif
-nsString
-dummy
-;
 TerminateChildProcess
 (
 MessageLoop
@@ -5384,8 +5374,9 @@ MessageLoop
 current
 (
 )
-&
-dummy
+EmptyString
+(
+)
 )
 ;
 GetIPCChannel
@@ -5469,8 +5460,9 @@ TerminateChildProcess
 MessageLoop
 *
 aMsgLoop
+const
 nsAString
-*
+&
 aBrowserDumpId
 )
 {
@@ -5603,13 +5595,9 @@ browserDumpFile
 ;
 if
 (
-aBrowserDumpId
-&
-&
 !
 aBrowserDumpId
--
->
+.
 IsEmpty
 (
 )
@@ -5620,7 +5608,6 @@ CrashReporter
 :
 GetMinidumpForID
 (
-*
 aBrowserDumpId
 getter_AddRefs
 (
@@ -5680,7 +5667,6 @@ CrashReporter
 :
 DeleteMinidumpFilesForID
 (
-*
 aBrowserDumpId
 )
 ;
