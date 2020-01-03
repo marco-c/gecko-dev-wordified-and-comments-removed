@@ -134,6 +134,15 @@ xpcshell
 .
 ini
 '
+'
+test
+/
+xpcshell
+/
+xpcshell
+.
+ini
+'
 ]
 EXTRA_JS_MODULES
 +
@@ -176,6 +185,11 @@ jsm
 '
 '
 CustomizationTabPreloader
+.
+jsm
+'
+'
+DirectoryLinksProvider
 .
 jsm
 '
