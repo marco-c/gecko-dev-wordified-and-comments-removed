@@ -37,10 +37,12 @@ promiseBrowserLoaded
 browser
 )
 ;
-browser
+yield
+BrowserTestUtils
 .
 loadURI
 (
+browser
 "
 about
 :
