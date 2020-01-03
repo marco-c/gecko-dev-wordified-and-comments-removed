@@ -2564,7 +2564,7 @@ IsFormatting
 (
 int
 )
-mVolume
+aVolume
 -
 >
 IsUnmounting
@@ -2582,7 +2582,7 @@ IsRemovable
 (
 int
 )
-mVolume
+aVolume
 -
 >
 IsHotSwappable
