@@ -251,13 +251,6 @@ aThreadLimit
 {
 MOZ_ASSERT
 (
-NS_IsMainThread
-(
-)
-)
-;
-MOZ_ASSERT
-(
 sMonitor
 &
 &
@@ -768,13 +761,6 @@ nsCString
 aName
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 nsresult
 rv
 ;
