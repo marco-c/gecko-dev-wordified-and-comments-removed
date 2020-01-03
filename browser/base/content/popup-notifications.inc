@@ -535,9 +535,7 @@ pointerLock
 -
 cancel
 "
-value
-=
-"
+>
 &
 pointerLock
 .
@@ -545,8 +543,9 @@ notification
 .
 message
 ;
-"
+<
 /
+label
 >
 <
 /
