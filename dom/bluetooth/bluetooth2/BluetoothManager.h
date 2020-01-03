@@ -86,6 +86,11 @@ BluetoothSignalObserver
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+BluetoothManager
+DOMEventTargetHelper
+)
 IMPL_EVENT_HANDLER
 (
 attributechanged
@@ -212,13 +217,6 @@ aWindow
 ~
 BluetoothManager
 (
-)
-;
-void
-ListenToBluetoothSignal
-(
-bool
-aStart
 )
 ;
 bool
