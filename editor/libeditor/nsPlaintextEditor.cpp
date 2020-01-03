@@ -5126,6 +5126,15 @@ selection
 return
 false
 ;
+if
+(
+IsPasswordEditor
+(
+)
+)
+return
+false
+;
 return
 !
 selection
