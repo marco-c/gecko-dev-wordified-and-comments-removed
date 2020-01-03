@@ -3629,16 +3629,6 @@ sIsResourceTimingEnabled
 }
 static
 bool
-ShouldEncodeURLHash
-(
-)
-{
-return
-sEncodeURLHash
-;
-}
-static
-bool
 HasPluginWithUncontrolledEventDispatch
 (
 nsIDocument
@@ -4551,10 +4541,6 @@ sIsResourceTimingEnabled
 static
 bool
 sIsExperimentalAutocompleteEnabled
-;
-static
-bool
-sEncodeURLHash
 ;
 static
 nsHtml5StringParser
