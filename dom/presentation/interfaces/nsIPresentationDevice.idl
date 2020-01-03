@@ -317,7 +317,7 @@ this
 session
 .
 *
-return
+returns
 The
 control
 channel
@@ -325,6 +325,13 @@ for
 this
 session
 .
+*
+throws
+NS_ERROR_FAILURE
+if
+the
+establishment
+fails
 *
 /
 nsIPresentationControlChannel

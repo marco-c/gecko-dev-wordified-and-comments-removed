@@ -437,6 +437,11 @@ to
 send
 .
 *
+throws
+NS_ERROR_FAILURE
+on
+failure
+*
 /
 void
 sendOffer
@@ -474,6 +479,11 @@ answer
 to
 send
 .
+*
+throws
+NS_ERROR_FAILURE
+on
+failure
 *
 /
 void
