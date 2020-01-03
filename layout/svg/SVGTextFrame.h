@@ -118,6 +118,9 @@ dom
 class
 SVGIRect
 ;
+class
+SVGPathElement
+;
 }
 struct
 CharPosition
@@ -1454,9 +1457,15 @@ bool
 aShouldPaintSVGGlyphs
 )
 ;
-nsIFrame
+mozilla
+:
+:
+dom
+:
+:
+SVGPathElement
 *
-GetTextPathPathFrame
+GetTextPathPathElement
 (
 nsIFrame
 *

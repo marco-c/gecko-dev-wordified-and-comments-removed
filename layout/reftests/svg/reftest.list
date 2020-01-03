@@ -5719,6 +5719,16 @@ pass
 svg
 =
 =
+textPath
+-
+04
+.
+svg
+pass
+.
+svg
+=
+=
 text
 -
 style
