@@ -74,6 +74,7 @@ NodeReturn
 NodeHoistableDeclaration
 NodeBreak
 NodeThrow
+NodeEmptyStatement
 NodeSuperProperty
 NodeSuperElement
 NodeFunctionCall
@@ -1024,7 +1025,7 @@ pos
 )
 {
 return
-NodeGeneric
+NodeEmptyStatement
 ;
 }
 Node
@@ -1876,6 +1877,12 @@ pn
 =
 =
 NodeThrow
+|
+|
+pn
+=
+=
+NodeEmptyStatement
 ;
 }
 void

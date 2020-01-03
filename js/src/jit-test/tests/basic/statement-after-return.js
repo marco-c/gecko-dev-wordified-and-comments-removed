@@ -752,6 +752,11 @@ f
 {
 return
 ;
+;
+/
+/
+empty
+statement
 }
 )
 ;
