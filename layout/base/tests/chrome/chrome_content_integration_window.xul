@@ -373,11 +373,10 @@ SpecialPowers
 ]
 ;
 for
-each
 (
 var
 name
-in
+of
 imports
 )
 {

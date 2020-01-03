@@ -462,11 +462,10 @@ onerror
 ]
 ;
 for
-each
 (
 var
 name
-in
+of
 imports
 )
 {
