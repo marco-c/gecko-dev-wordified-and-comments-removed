@@ -1759,7 +1759,7 @@ CLIENT
 {
 MOZ_MTLOG
 (
-ML_DEBUG
+ML_INFO
 "
 Setting
 up
@@ -1807,7 +1807,7 @@ else
 {
 MOZ_MTLOG
 (
-ML_DEBUG
+ML_INFO
 "
 Setting
 up
@@ -2783,7 +2783,7 @@ i
 {
 MOZ_MTLOG
 (
-ML_INFO
+ML_DEBUG
 LAYER_INFO
 <
 <
@@ -2866,7 +2866,7 @@ i
 {
 MOZ_MTLOG
 (
-ML_INFO
+ML_DEBUG
 LAYER_INFO
 <
 <
