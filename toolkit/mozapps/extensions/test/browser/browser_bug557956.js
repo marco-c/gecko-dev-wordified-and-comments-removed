@@ -3456,6 +3456,7 @@ TelemetrySession
 .
 shutdown
 (
+false
 )
 .
 then

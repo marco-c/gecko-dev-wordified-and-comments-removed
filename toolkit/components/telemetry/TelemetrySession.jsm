@@ -1195,6 +1195,9 @@ shutdown
 :
 function
 (
+aForceSavePending
+=
+true
 )
 {
 return
@@ -1202,7 +1205,7 @@ Impl
 .
 shutdown
 (
-true
+aForceSavePending
 )
 ;
 }
@@ -5733,6 +5736,13 @@ savePendingPings
 )
 ;
 }
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 }
 ;
