@@ -135,6 +135,7 @@ aDesktopStartupID
 uint32_t
 aTimestamp
 )
+MOZ_OVERRIDE
 ;
 nsInterfaceHashtable
 <
