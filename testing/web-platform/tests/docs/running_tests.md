@@ -229,7 +229,7 @@ the
 browser
 crashing
 that
-connot
+cannot
 be
 handled
 by

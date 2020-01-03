@@ -2811,9 +2811,7 @@ e
 g
 .
 using
-'
 color
-'
 to
 determine
 pass
@@ -2830,11 +2828,9 @@ g
 .
 to
 using
-'
 background
 -
 color
-'
 )
 while
 preserving

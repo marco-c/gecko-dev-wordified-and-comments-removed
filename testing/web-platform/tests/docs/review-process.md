@@ -206,7 +206,7 @@ web
 platform
 -
 tests
-sumbissions
+submissions
 .
 Although
 it
@@ -350,7 +350,7 @@ automatically
 labelled
 in
 the
-Github
+GitHub
 repository
 .
 Check
