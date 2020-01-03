@@ -178,7 +178,7 @@ android
 layout_height
 =
 "
-48dp
+match_parent
 "
 android
 :
