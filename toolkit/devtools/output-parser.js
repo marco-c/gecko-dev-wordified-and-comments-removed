@@ -605,8 +605,10 @@ if
 !
 token
 )
+{
 break
 ;
+}
 if
 (
 token
