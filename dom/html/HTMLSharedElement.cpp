@@ -788,7 +788,7 @@ aDocument
 >
 SetChromeXHRDocBaseURI
 (
-newBaseURI
+nullptr
 )
 ;
 if
@@ -803,14 +803,6 @@ aDocument
 -
 >
 SetBaseURI
-(
-nullptr
-)
-;
-aDocument
--
->
-SetChromeXHRDocBaseURI
 (
 nullptr
 )
