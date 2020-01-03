@@ -226,15 +226,7 @@ onconnected
 ;
 attribute
 EventHandler
-onholding
-;
-attribute
-EventHandler
 onheld
-;
-attribute
-EventHandler
-onresuming
 ;
 attribute
 EventHandler
