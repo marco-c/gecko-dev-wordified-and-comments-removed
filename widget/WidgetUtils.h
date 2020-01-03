@@ -124,6 +124,12 @@ WidgetUtils
 public
 :
 static
+void
+Shutdown
+(
+)
+;
+static
 already_AddRefed
 <
 nsIWidget
