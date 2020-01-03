@@ -2005,7 +2005,7 @@ mixedMode
 =
 siteIdentity
 .
-getMixedMode
+getMixedModeActive
 (
 )
 ;
