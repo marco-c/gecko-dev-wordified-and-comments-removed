@@ -3291,6 +3291,11 @@ MozSettingsEvent
 webidl
 '
 '
+MozSettingsTransactionEvent
+.
+webidl
+'
+'
 MozSmsEvent
 .
 webidl
