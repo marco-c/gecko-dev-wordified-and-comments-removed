@@ -99,12 +99,6 @@ FMRadioEventType
 {
 FrequencyChanged
 EnabledChanged
-RDSEnabledChanged
-PIChanged
-PSChanged
-PTYChanged
-RadiotextChanged
-NewRDSGroup
 }
 ;
 typedef
