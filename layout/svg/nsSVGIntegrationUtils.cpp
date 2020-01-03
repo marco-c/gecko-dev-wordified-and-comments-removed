@@ -2238,7 +2238,8 @@ nsFilterInstance
 PaintFilteredFrame
 (
 aFrame
-aCtx
+*
+gfx
 tm
 &
 callback

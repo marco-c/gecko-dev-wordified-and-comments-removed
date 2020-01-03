@@ -3010,8 +3010,7 @@ nsFilterInstance
 PaintFilteredFrame
 (
 aFrame
-&
-rendCtx
+aContext
 aTransform
 &
 paintCallback

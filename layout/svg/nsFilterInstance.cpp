@@ -294,8 +294,8 @@ PaintFilteredFrame
 nsIFrame
 *
 aFilteredFrame
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 const
 gfxMatrix
@@ -375,12 +375,8 @@ instance
 .
 Render
 (
+&
 aContext
--
->
-ThebesContext
-(
-)
 )
 ;
 }
