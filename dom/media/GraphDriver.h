@@ -380,8 +380,6 @@ aLastSwitchNextIterationStart
 GraphTime
 aLastSwitchNextIterationEnd
 GraphTime
-aLastSwitchNextStateComputedTime
-GraphTime
 aLastSwitchStateComputedTime
 )
 ;
@@ -435,9 +433,6 @@ mIterationEnd
 ;
 GraphTime
 mStateComputedTime
-;
-GraphTime
-mNextStateComputedTime
 ;
 MediaStreamGraphImpl
 *
