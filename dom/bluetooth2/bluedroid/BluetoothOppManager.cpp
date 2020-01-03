@@ -364,6 +364,9 @@ NS_ERROR_UNEXPECTED
 ;
 }
 class
+BluetoothOppManager
+:
+:
 SendSocketDataTask
 :
 public
@@ -437,6 +440,9 @@ mSize
 }
 ;
 class
+BluetoothOppManager
+:
+:
 ReadFileTask
 :
 public
@@ -623,6 +629,9 @@ mAvailablePacketSize
 }
 ;
 class
+BluetoothOppManager
+:
+:
 CloseSocketTask
 :
 public
