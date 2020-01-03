@@ -201,8 +201,7 @@ virtual
 nsBaseChannel
 (
 )
-{
-}
+;
 private
 :
 virtual
