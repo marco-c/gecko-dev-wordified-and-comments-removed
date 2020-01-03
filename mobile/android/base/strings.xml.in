@@ -1303,11 +1303,11 @@ string
 name
 =
 "
-overlay_share_header
+overlay_share_label
 "
 >
 &
-overlay_share_header
+overlay_share_label
 ;
 <
 /
