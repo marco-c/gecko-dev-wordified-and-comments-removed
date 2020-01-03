@@ -357,22 +357,9 @@ SEC_ERROR_CA_CERT_INVALID
 )
 ;
 let
-ee_error
+error
 =
-0
-;
-let
-ca_error
-=
-0
-;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
-=
-SEC_ERROR_CA_CERT_INVALID
+MOZILLA_PKIX_ERROR_V1_CERT_USED_AS_CA
 ;
 check_ca_err
 (
@@ -386,7 +373,7 @@ v1_ca
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -403,7 +390,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -420,7 +407,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -437,7 +424,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -454,7 +441,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -471,7 +458,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -488,7 +475,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -505,7 +492,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_ok_ca
@@ -634,11 +621,7 @@ der
 )
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -654,7 +637,7 @@ v1_ca
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -671,7 +654,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -688,7 +671,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -705,7 +688,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -722,7 +705,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -739,7 +722,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -756,7 +739,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -773,7 +756,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_ok_ca
@@ -902,11 +885,7 @@ der
 )
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -922,7 +901,7 @@ v1_ca
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -939,7 +918,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -956,7 +935,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -973,7 +952,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -990,7 +969,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1007,7 +986,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1024,7 +1003,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1041,7 +1020,7 @@ v1_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_ok_ca
@@ -1170,13 +1149,9 @@ der
 )
 )
 ;
-ca_error
+error
 =
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
-=
-SEC_ERROR_CA_CERT_INVALID
+MOZILLA_PKIX_ERROR_V1_CERT_USED_AS_CA
 ;
 check_ca_err
 (
@@ -1190,7 +1165,7 @@ v1_ca_bc
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -1207,7 +1182,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1224,7 +1199,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1241,7 +1216,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1258,7 +1233,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1275,7 +1250,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1292,7 +1267,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1309,7 +1284,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_ok_ca
@@ -1438,11 +1413,7 @@ der
 )
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -1458,7 +1429,7 @@ v1_ca_bc
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -1475,7 +1446,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1492,7 +1463,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1509,7 +1480,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1526,7 +1497,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1543,7 +1514,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1560,7 +1531,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1577,7 +1548,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_ok_ca
@@ -1706,11 +1677,7 @@ der
 )
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -1726,7 +1693,7 @@ v1_ca_bc
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -1743,7 +1710,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1760,7 +1727,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1777,7 +1744,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1794,7 +1761,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1811,7 +1778,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1828,7 +1795,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -1845,7 +1812,7 @@ v1_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_ok_ca
@@ -1974,13 +1941,9 @@ der
 )
 )
 ;
-ca_error
+error
 =
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
-=
-SEC_ERROR_CA_CERT_INVALID
+MOZILLA_PKIX_ERROR_V1_CERT_USED_AS_CA
 ;
 check_ca_err
 (
@@ -1994,7 +1957,7 @@ v2_ca
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -2011,7 +1974,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2028,7 +1991,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2045,7 +2008,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2062,7 +2025,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2079,7 +2042,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2096,7 +2059,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2113,14 +2076,10 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -2136,7 +2095,7 @@ v2_ca
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -2153,7 +2112,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2170,7 +2129,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2187,7 +2146,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2204,7 +2163,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2221,7 +2180,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2238,7 +2197,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2255,14 +2214,10 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -2278,7 +2233,7 @@ v2_ca
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -2295,7 +2250,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2312,7 +2267,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2329,7 +2284,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2346,7 +2301,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2363,7 +2318,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2380,7 +2335,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2397,14 +2352,10 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -2420,7 +2371,7 @@ v2_ca
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -2437,7 +2388,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2454,7 +2405,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2471,7 +2422,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2488,7 +2439,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2505,7 +2456,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2522,7 +2473,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2539,14 +2490,10 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -2562,7 +2509,7 @@ v2_ca
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -2579,7 +2526,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2596,7 +2543,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2613,7 +2560,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2630,7 +2577,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2647,7 +2594,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2664,7 +2611,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2681,14 +2628,10 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -2704,7 +2647,7 @@ v2_ca
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -2721,7 +2664,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2738,7 +2681,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2755,7 +2698,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2772,7 +2715,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2789,7 +2732,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2806,7 +2749,7 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2823,16 +2766,12 @@ v2_ca
 der
 '
 )
-ee_error
+error
 )
 ;
-ca_error
+error
 =
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
-=
-SEC_ERROR_CA_CERT_INVALID
+MOZILLA_PKIX_ERROR_V1_CERT_USED_AS_CA
 ;
 check_ca_err
 (
@@ -2846,7 +2785,7 @@ v2_ca_bc
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -2863,7 +2802,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2880,7 +2819,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2897,7 +2836,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2914,7 +2853,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2931,7 +2870,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2948,7 +2887,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -2965,7 +2904,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_ok_ca
@@ -3094,11 +3033,7 @@ der
 )
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -3114,7 +3049,7 @@ v2_ca_bc
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -3131,7 +3066,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3148,7 +3083,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3165,7 +3100,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3182,7 +3117,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3199,7 +3134,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3216,7 +3151,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3233,7 +3168,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_ok_ca
@@ -3362,11 +3297,7 @@ der
 )
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -3382,7 +3313,7 @@ v2_ca_bc
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -3399,7 +3330,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3416,7 +3347,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3433,7 +3364,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3450,7 +3381,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3467,7 +3398,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3484,7 +3415,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3501,7 +3432,7 @@ v2_ca_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_ok_ca
@@ -3630,13 +3561,9 @@ der
 )
 )
 ;
-ca_error
+error
 =
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
-=
-SEC_ERROR_CA_CERT_INVALID
+MOZILLA_PKIX_ERROR_V1_CERT_USED_AS_CA
 ;
 check_ca_err
 (
@@ -3650,7 +3577,7 @@ v3_ca
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -3667,7 +3594,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3684,7 +3611,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3701,7 +3628,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3718,7 +3645,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3735,7 +3662,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3752,7 +3679,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3769,7 +3696,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_ok_ca
@@ -3898,11 +3825,7 @@ der
 )
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -3918,7 +3841,7 @@ v3_ca
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -3935,7 +3858,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3952,7 +3875,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3969,7 +3892,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -3986,7 +3909,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4003,7 +3926,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4020,7 +3943,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4037,7 +3960,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_ok_ca
@@ -4166,11 +4089,7 @@ der
 )
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -4186,7 +4105,7 @@ v3_ca
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -4203,7 +4122,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4220,7 +4139,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4237,7 +4156,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4254,7 +4173,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4271,7 +4190,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4288,7 +4207,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4305,7 +4224,7 @@ v3_ca
 der
 '
 )
-ee_error
+error
 )
 ;
 check_ok_ca
@@ -4434,13 +4353,9 @@ der
 )
 )
 ;
-ca_error
+error
 =
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
-=
-SEC_ERROR_CA_CERT_INVALID
+MOZILLA_PKIX_ERROR_V1_CERT_USED_AS_CA
 ;
 check_ca_err
 (
@@ -4454,7 +4369,7 @@ v3_ca_missing_bc
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -4471,7 +4386,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4488,7 +4403,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4505,7 +4420,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4522,7 +4437,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4539,7 +4454,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4556,7 +4471,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4573,14 +4488,10 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -4596,7 +4507,7 @@ v3_ca_missing_bc
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -4613,7 +4524,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4630,7 +4541,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4647,7 +4558,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4664,7 +4575,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4681,7 +4592,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4698,7 +4609,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4715,14 +4626,10 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -4738,7 +4645,7 @@ v3_ca_missing_bc
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -4755,7 +4662,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4772,7 +4679,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4789,7 +4696,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4806,7 +4713,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4823,7 +4730,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4840,7 +4747,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4857,14 +4764,10 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -4880,7 +4783,7 @@ v3_ca_missing_bc
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -4897,7 +4800,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4914,7 +4817,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4931,7 +4834,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4948,7 +4851,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4965,7 +4868,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4982,7 +4885,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -4999,14 +4902,10 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -5022,7 +4921,7 @@ v3_ca_missing_bc
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -5039,7 +4938,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -5056,7 +4955,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -5073,7 +4972,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -5090,7 +4989,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -5107,7 +5006,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -5124,7 +5023,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -5141,14 +5040,10 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
-ca_error
-=
-SEC_ERROR_CA_CERT_INVALID
-;
-ee_error
+error
 =
 SEC_ERROR_CA_CERT_INVALID
 ;
@@ -5164,7 +5059,7 @@ v3_ca_missing_bc
 der
 '
 )
-ca_error
+error
 )
 ;
 check_cert_err
@@ -5181,7 +5076,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -5198,7 +5093,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -5215,7 +5110,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -5232,7 +5127,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -5249,7 +5144,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -5266,7 +5161,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
@@ -5283,7 +5178,7 @@ v3_ca_missing_bc
 der
 '
 )
-ee_error
+error
 )
 ;
 check_cert_err
