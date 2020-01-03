@@ -91,16 +91,6 @@ return
 NS_OK
 ;
 }
-NS_IMETHOD
-GetPath
-(
-const
-char
-*
-*
-aPath
-)
-;
 private
 :
 nsCOMPtr
