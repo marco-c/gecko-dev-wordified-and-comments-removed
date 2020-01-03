@@ -2604,6 +2604,12 @@ overflow
 :
 auto
 ;
+min
+-
+width
+:
+50px
+;
 }
 .
 marker
