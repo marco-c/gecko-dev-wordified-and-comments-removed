@@ -1256,6 +1256,15 @@ toControlInstruction
 )
 ;
 }
+MConstant
+*
+optimizedOutConstant
+(
+TempAllocator
+&
+alloc
+)
+;
 MPhiIterator
 phisBegin
 (

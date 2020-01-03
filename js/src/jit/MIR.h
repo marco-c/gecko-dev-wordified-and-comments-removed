@@ -2487,6 +2487,14 @@ MDefinition
 dom
 )
 ;
+void
+optimizeOutAllUses
+(
+TempAllocator
+&
+alloc
+)
+;
 virtual
 bool
 updateForReplacement
