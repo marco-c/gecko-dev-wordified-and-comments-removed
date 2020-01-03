@@ -547,6 +547,14 @@ hide
 (
 )
 {
+mFindText
+.
+setText
+(
+"
+"
+)
+;
 setVisibility
 (
 GONE
