@@ -4582,7 +4582,7 @@ exists
 "
 "
     
-parentWithInterfaceObject
+parentInterface
 =
 descriptor
 .
@@ -4590,33 +4590,13 @@ interface
 .
 parent
     
-while
-(
-parentWithInterfaceObject
-and
-           
-not
-parentWithInterfaceObject
-.
-hasInterfaceObject
-(
-)
-)
-:
-        
-parentWithInterfaceObject
-=
-parentWithInterfaceObject
-.
-parent
-    
 if
-parentWithInterfaceObject
+parentInterface
 :
         
 parentIfaceName
 =
-parentWithInterfaceObject
+parentInterface
 .
 identifier
 .
