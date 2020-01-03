@@ -287,6 +287,11 @@ orglen
 )
 mCentralStruct
 aArchiveReader
+-
+>
+GetFileImpl
+(
+)
 )
 )
 ;
