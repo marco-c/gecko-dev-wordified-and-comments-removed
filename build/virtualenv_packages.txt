@@ -7,6 +7,15 @@ testing
 marionette
 /
 transport
+marionette_driver
+.
+pth
+:
+testing
+/
+marionette
+/
+driver
 marionette
 .
 pth
