@@ -24017,7 +24017,7 @@ Failed
 )
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 )
@@ -24525,7 +24525,7 @@ Failed
 )
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 )

@@ -8440,7 +8440,7 @@ Failed
 )
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 )
