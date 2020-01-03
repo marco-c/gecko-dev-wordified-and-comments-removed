@@ -403,7 +403,7 @@ behavior
 Throws
 ]
 void
-testThrowDOMError
+testThrowError
 (
 )
 ;

@@ -1935,11 +1935,8 @@ this
 .
 _window
 .
-DOMError
+Error
 (
-e
-.
-name
 e
 .
 message
