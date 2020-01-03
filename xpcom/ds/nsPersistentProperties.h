@@ -101,7 +101,6 @@ nsIPersistentProperties
 *
 mSubclass
 ;
-struct
 PLDHashTable
 mTable
 ;
