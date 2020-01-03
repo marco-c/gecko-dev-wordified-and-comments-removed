@@ -1053,7 +1053,7 @@ aSelectionEvent
 )
 ;
 void
-OnEventNeedingAckReceived
+OnEventNeedingAckHandled
 (
 nsIWidget
 *

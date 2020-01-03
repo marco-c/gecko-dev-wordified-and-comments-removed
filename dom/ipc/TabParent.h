@@ -780,7 +780,7 @@ override
 ;
 virtual
 bool
-RecvOnEventNeedingAckReceived
+RecvOnEventNeedingAckHandled
 (
 const
 uint32_t

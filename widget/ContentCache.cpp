@@ -5755,7 +5755,7 @@ void
 ContentCacheInParent
 :
 :
-OnEventNeedingAckReceived
+OnEventNeedingAckHandled
 (
 nsIWidget
 *
@@ -5778,7 +5778,7 @@ ContentCacheInParent
 0x
 %
 p
-OnEventNeedingAckReceived
+OnEventNeedingAckHandled
 (
 aWidget
 =

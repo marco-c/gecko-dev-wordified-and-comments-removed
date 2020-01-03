@@ -1697,12 +1697,12 @@ composition
 *
 *
 *
-OnEventNeedingAckReceived
+OnEventNeedingAckHandled
 (
 )
 is
 called
-when
+after
 a
 child
 process
@@ -1732,7 +1732,7 @@ message
 value
 of
 the
-received
+handled
 event
 .
 *
@@ -1742,7 +1742,7 @@ prio
 urgent
 )
 async
-OnEventNeedingAckReceived
+OnEventNeedingAckHandled
 (
 uint32_t
 message

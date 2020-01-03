@@ -9615,7 +9615,7 @@ bool
 TabParent
 :
 :
-RecvOnEventNeedingAckReceived
+RecvOnEventNeedingAckHandled
 (
 const
 uint32_t
@@ -9654,7 +9654,7 @@ this
 ;
 mContentCache
 .
-OnEventNeedingAckReceived
+OnEventNeedingAckHandled
 (
 widget
 aMessage
