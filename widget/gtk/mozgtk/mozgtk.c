@@ -235,6 +235,14 @@ gdk_screen_get_font_options
 )
 STUB
 (
+gdk_screen_get_height
+)
+STUB
+(
+gdk_screen_get_height_mm
+)
+STUB
+(
 gdk_screen_get_number
 )
 STUB
@@ -1973,6 +1981,10 @@ gdk_window_get_type
 STUB
 (
 gdk_x11_window_get_xid
+)
+STUB
+(
+gdk_x11_display_get_type
 )
 STUB
 (
