@@ -134,6 +134,11 @@ ClearKeySession
 cpp
 '
 '
+ClearKeySessionManager
+.
+cpp
+'
+'
 ClearKeyStorage
 .
 cpp

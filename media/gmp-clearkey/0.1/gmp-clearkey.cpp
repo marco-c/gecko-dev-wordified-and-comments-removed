@@ -15,7 +15,7 @@ h
 #
 include
 "
-ClearKeyDecryptionManager
+ClearKeySessionManager
 .
 h
 "
@@ -127,7 +127,7 @@ GMPNotImplementedErr
 aPluginAPI
 =
 new
-ClearKeyDecryptionManager
+ClearKeySessionManager
 (
 )
 ;

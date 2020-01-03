@@ -22,7 +22,7 @@ h
 #
 include
 "
-ClearKeyDecryptionManager
+ClearKeySessionManager
 .
 h
 "
@@ -374,7 +374,7 @@ public
 :
 CreateSessionTask
 (
-ClearKeyDecryptionManager
+ClearKeySessionManager
 *
 aTarget
 uint32_t
@@ -477,7 +477,7 @@ private
 :
 RefPtr
 <
-ClearKeyDecryptionManager
+ClearKeySessionManager
 >
 mTarget
 ;
@@ -504,7 +504,7 @@ ClearKeyPersistence
 :
 DeferCreateSessionIfNotReady
 (
-ClearKeyDecryptionManager
+ClearKeySessionManager
 *
 aInstance
 uint32_t
@@ -569,7 +569,7 @@ public
 :
 LoadSessionTask
 (
-ClearKeyDecryptionManager
+ClearKeySessionManager
 *
 aTarget
 uint32_t
@@ -640,7 +640,7 @@ private
 :
 RefPtr
 <
-ClearKeyDecryptionManager
+ClearKeySessionManager
 >
 mTarget
 ;
@@ -658,7 +658,7 @@ ClearKeyPersistence
 :
 DeferLoadSessionIfNotReady
 (
-ClearKeyDecryptionManager
+ClearKeySessionManager
 *
 aInstance
 uint32_t
@@ -744,7 +744,7 @@ public
 :
 LoadSessionFromKeysTask
 (
-ClearKeyDecryptionManager
+ClearKeySessionManager
 *
 aTarget
 const
@@ -801,7 +801,7 @@ private
 :
 RefPtr
 <
-ClearKeyDecryptionManager
+ClearKeySessionManager
 >
 mTarget
 ;
@@ -819,7 +819,7 @@ ClearKeyPersistence
 :
 LoadSessionData
 (
-ClearKeyDecryptionManager
+ClearKeySessionManager
 *
 aInstance
 const
