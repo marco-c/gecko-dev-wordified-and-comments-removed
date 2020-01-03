@@ -19,12 +19,6 @@ MOZILLA_EXTERNAL_LINKAGE
 #
 include
 "
-mozilla
-/
-media
-/
-webrtc
-/
 WebrtcGlobalChild
 .
 h
