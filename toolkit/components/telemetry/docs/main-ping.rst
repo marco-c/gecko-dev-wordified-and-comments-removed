@@ -353,6 +353,11 @@ date
 /
 daily
 precision
+ISO
+date
+in
+local
+time
 subsessionLength
 :
 <
