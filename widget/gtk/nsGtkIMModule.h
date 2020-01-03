@@ -359,6 +359,9 @@ mFilterKeyEvent
 bool
 mKeyDownEventWasSent
 ;
+bool
+mIsDeletingSurrounding
+;
 static
 nsGtkIMModule
 *
