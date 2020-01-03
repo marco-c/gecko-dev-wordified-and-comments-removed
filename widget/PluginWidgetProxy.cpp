@@ -420,14 +420,6 @@ mWidget
 nullptr
 ;
 mActor
--
->
-Send__delete__
-(
-mActor
-)
-;
-mActor
 =
 nullptr
 ;
