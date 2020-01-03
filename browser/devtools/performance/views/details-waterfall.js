@@ -622,7 +622,7 @@ rootMarkerNode
 =
 WaterfallUtils
 .
-makeParentMarkerNode
+createParentNode
 (
 {
 name
@@ -640,7 +640,7 @@ WaterfallUtils
 collapseMarkersIntoNode
 (
 {
-markerNode
+rootNode
 :
 rootMarkerNode
 markersList

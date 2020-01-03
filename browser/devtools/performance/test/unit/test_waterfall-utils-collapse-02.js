@@ -1,4 +1,16 @@
 function
+run_test
+(
+)
+{
+run_next_test
+(
+)
+;
+}
+add_task
+(
+function
 test
 (
 )
@@ -26,7 +38,7 @@ rootMarkerNode
 =
 WaterfallUtils
 .
-makeParentMarkerNode
+createParentNode
 (
 {
 name
@@ -44,7 +56,7 @@ WaterfallUtils
 collapseMarkersIntoNode
 (
 {
-markerNode
+rootNode
 :
 rootMarkerNode
 markersList
@@ -129,7 +141,7 @@ uid
 "
 )
 {
-is
+equal
 (
 marker
 [
@@ -159,11 +171,9 @@ rootMarkerNode
 gExpectedOutput
 )
 ;
-finish
-(
+}
 )
 ;
-}
 const
 gTestMarkers
 =
