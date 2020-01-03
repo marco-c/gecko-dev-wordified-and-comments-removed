@@ -4366,9 +4366,16 @@ hasBehavior
 searches
 "
 )
+|
+|
+this
+.
+_inPrivateWindow
 )
+{
 return
 ;
+}
 this
 .
 _searchSuggestionController
