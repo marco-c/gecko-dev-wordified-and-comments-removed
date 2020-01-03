@@ -829,7 +829,7 @@ mThreadCount
 uint32_t
 mActiveAnyThreadCount
 ;
-PLDHashTable
+PLDHashTable2
 mDB
 ;
 PRCList
