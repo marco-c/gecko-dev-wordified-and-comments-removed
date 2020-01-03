@@ -1147,7 +1147,7 @@ export
 install
 -
 dist
--
+/
 sdk
 ifndef
 JS_STANDALONE
