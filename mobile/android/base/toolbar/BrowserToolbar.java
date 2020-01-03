@@ -1647,6 +1647,12 @@ View
 v
 )
 {
+urlEditLayout
+.
+clearFocus
+(
+)
+;
 toggleTabs
 (
 )

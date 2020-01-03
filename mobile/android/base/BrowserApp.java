@@ -9364,6 +9364,15 @@ FOCUS_BLOCK_DESCENDANTS
 )
 ;
 }
+else
+{
+mBrowserToolbar
+.
+cancelEdit
+(
+)
+;
+}
 mTabsPanel
 .
 finishTabsAnimation
