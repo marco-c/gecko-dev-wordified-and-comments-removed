@@ -4534,7 +4534,7 @@ GetInstance
 )
 {
 static
-StaticRefPtr
+nsRefPtr
 <
 imgLoader
 >
