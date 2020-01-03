@@ -437,6 +437,13 @@ DialNumberUtils
 .
 jsm
 '
+'
+gonk
+/
+TelephonyUtils
+.
+jsm
+'
 ]
 FAIL_ON_WARNINGS
 =
