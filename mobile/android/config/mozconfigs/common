@@ -454,12 +454,6 @@ PATH
 =
 topsrcdir
 /
-gcc
-/
-bin
-:
-topsrcdir
-/
 apache
 -
 ant
