@@ -1850,7 +1850,7 @@ DrawTarget
 &
 aDrawTarget
 bool
-aIgnoreScale
+aAllowScaleOr90DegreeRotate
 =
 false
 )
@@ -1861,7 +1861,7 @@ UserToDevicePixelSnapped
 (
 aRect
 aDrawTarget
-aIgnoreScale
+aAllowScaleOr90DegreeRotate
 )
 )
 {
