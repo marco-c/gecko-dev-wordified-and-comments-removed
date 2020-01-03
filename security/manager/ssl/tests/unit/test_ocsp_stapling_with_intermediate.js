@@ -155,7 +155,9 @@ example
 .
 com
 "
-PRErrorCodeSuccess
+Cr
+.
+NS_OK
 )
 ;
 add_test
