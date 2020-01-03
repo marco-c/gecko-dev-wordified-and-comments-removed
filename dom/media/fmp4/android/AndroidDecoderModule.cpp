@@ -285,9 +285,6 @@ AnnexB
 ConvertSample
 (
 aSample
-mConfig
-.
-annex_b
 )
 ;
 return

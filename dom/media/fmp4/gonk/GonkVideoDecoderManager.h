@@ -502,14 +502,6 @@ MediaBuffer
 aBuffer
 )
 ;
-const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
-&
-mConfig
-;
 uint32_t
 mVideoWidth
 ;

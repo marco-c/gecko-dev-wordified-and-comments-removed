@@ -220,10 +220,6 @@ mVideoHeight
 (
 0
 )
-mConfig
-(
-aConfig
-)
 mImageContainer
 (
 aImageContainer
@@ -732,9 +728,6 @@ AnnexB
 ConvertSample
 (
 aSample
-mConfig
-.
-annex_b
 )
 ;
 const

@@ -201,14 +201,6 @@ mVideoHeight
 nsIntRect
 mPictureRegion
 ;
-const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
-&
-mConfig
-;
 RefPtr
 <
 MFTDecoder
