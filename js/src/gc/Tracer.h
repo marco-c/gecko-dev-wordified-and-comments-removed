@@ -996,17 +996,6 @@ str
 void
 eagerlyMarkChildren
 (
-JS
-:
-:
-Symbol
-*
-sym
-)
-;
-void
-eagerlyMarkChildren
-(
 LazyScript
 *
 thing
