@@ -30,15 +30,6 @@ BluetoothValue
 class
 BluetoothReplyRunnable
 ;
-uint16_t
-UuidToServiceClassInt
-(
-const
-BluetoothUuid
-&
-mUuid
-)
-;
 bool
 SetJsObject
 (

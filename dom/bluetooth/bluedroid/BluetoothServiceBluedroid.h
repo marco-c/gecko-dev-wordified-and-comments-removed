@@ -747,6 +747,15 @@ nsAString
 aPlayStatus
 )
 ;
+uint16_t
+UuidToServiceClassInt
+(
+const
+BluetoothUuid
+&
+mUuid
+)
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
