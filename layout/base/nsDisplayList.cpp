@@ -24024,6 +24024,10 @@ aScrollFrame
 aScrolledFrame
 aScrollFrame
 )
+mHoisted
+(
+false
+)
 {
 #
 ifdef
@@ -24104,6 +24108,10 @@ gfxPrefs
 LayoutEventRegionsEnabled
 (
 )
+&
+&
+!
+mHoisted
 )
 {
 return
@@ -24148,6 +24156,10 @@ gfxPrefs
 LayoutEventRegionsEnabled
 (
 )
+&
+&
+!
+mHoisted
 )
 {
 return

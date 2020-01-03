@@ -459,6 +459,11 @@ PaintedLayerData
 aLayerData
 =
 nullptr
+ContainerState
+*
+aContainingContainerState
+=
+nullptr
 )
 ;
 void
@@ -653,7 +658,6 @@ const
 nsIntRect
 &
 aItemVisibleRect
-const
 ContainerState
 &
 aContainerState
@@ -1437,6 +1441,16 @@ mContainingPaintedLayer
 mRetainingManager
 ;
 }
+ContainerState
+*
+GetContainingContainerState
+(
+)
+{
+return
+mContainingContainerState
+;
+}
 void
 SetLayerTreeCompressionMode
 (
@@ -1544,6 +1558,10 @@ mPaintedLayerItems
 PaintedLayerData
 *
 mContainingPaintedLayer
+;
+ContainerState
+*
+mContainingContainerState
 ;
 uint32_t
 mInitialDOMGeneration
