@@ -158,7 +158,7 @@ def
 )
 ;
 bool
-insert
+add
 (
 AddPtr
 p
