@@ -1644,11 +1644,15 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 mUpdating
 )
+{
+return
 ;
+}
 mUpdating
 =
 false
