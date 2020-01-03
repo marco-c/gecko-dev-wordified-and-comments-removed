@@ -4468,7 +4468,7 @@ SetDtlsPeer
 1
 )
 ;
-ConnectSocketExpectFail
+ConnectSocket
 (
 )
 ;
@@ -4485,7 +4485,7 @@ SetDtlsPeer
 2
 )
 ;
-ConnectSocketExpectFail
+ConnectSocket
 (
 )
 ;

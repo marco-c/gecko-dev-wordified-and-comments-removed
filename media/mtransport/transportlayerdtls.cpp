@@ -4389,16 +4389,6 @@ peer_cert
 if
 (
 rv
-!
-=
-SECSuccess
-)
-break
-;
-}
-if
-(
-rv
 =
 =
 SECSuccess
@@ -4419,6 +4409,7 @@ forget
 return
 SECSuccess
 ;
+}
 }
 }
 break
