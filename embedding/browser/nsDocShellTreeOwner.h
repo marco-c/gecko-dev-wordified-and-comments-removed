@@ -442,7 +442,6 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 MouseMove
@@ -607,7 +606,6 @@ nsIDOMEvent
 *
 aEvent
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AddChromeListeners

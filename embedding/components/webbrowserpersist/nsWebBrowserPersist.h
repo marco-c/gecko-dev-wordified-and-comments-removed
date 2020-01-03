@@ -1083,7 +1083,6 @@ nsIDOMNode
 *
 aOutNode
 )
-MOZ_OVERRIDE
 ;
 nsWebBrowserPersist
 *
