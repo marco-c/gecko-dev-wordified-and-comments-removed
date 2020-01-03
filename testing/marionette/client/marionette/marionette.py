@@ -41,10 +41,6 @@ MarionetteTransport
 from
 mozrunner
 import
-B2GDeviceRunner
-from
-mozrunner
-import
 B2GEmulatorRunner
 import
 geckoinstance
@@ -3575,7 +3571,7 @@ port
 =
 self
 .
-remote_port
+local_port
 =
 port
         
@@ -3674,7 +3670,7 @@ int
 (
 self
 .
-remote_port
+port
 )
             
 if
@@ -3880,7 +3876,7 @@ port
 =
 self
 .
-remote_port
+port
                                            
 bin
 =
@@ -3928,7 +3924,7 @@ port
 !
 "
         
-elif
+if
 emulator
 :
             
@@ -4021,7 +4017,7 @@ remote_port
 =
 self
 .
-remote_port
+port
 )
             
 assert
@@ -4046,7 +4042,7 @@ port
 !
 "
         
-elif
+if
 connect_to_running_emulator
 :
             
@@ -4101,7 +4097,7 @@ remote_port
 =
 self
 .
-remote_port
+port
 )
             
 assert
@@ -4125,106 +4121,6 @@ for
 port
 !
 "
-        
-elif
-app
-and
-app
-.
-lower
-(
-)
-=
-=
-'
-b2g
-'
-:
-            
-_runner
-=
-B2GDeviceRunner
-(
-adb_path
-=
-adb_path
-                                      
-logdir
-=
-logdir
-                                      
-serial
-=
-device_serial
-                                      
-symbols_path
-=
-symbols_path
-                                      
-process_args
-=
-process_args
-)
-            
-try
-:
-                
-_runner
-.
-start
-(
-)
-                
-self
-.
-port
-=
-_runner
-.
-device
-.
-setup_port_forwarding
-(
-remote_port
-=
-self
-.
-remote_port
-)
-                
-assert
-(
-_runner
-.
-device
-.
-wait_for_port
-(
-self
-.
-port
-)
-)
-"
-Timed
-out
-waiting
-for
-port
-!
-"
-                
-self
-.
-runner
-=
-_runner
-            
-except
-IOError
-:
-                
-pass
         
 self
 .
@@ -5823,10 +5719,7 @@ self
 runner
 :
             
-crashed
-=
-bool
-(
+if
 self
 .
 runner
@@ -5839,14 +5732,6 @@ self
 .
 test_name
 )
-)
-            
-if
-crashed
-and
-self
-.
-emulator
 :
                 
 returncode
@@ -5864,6 +5749,10 @@ name
 '
 emulator
 '
+                
+crashed
+=
+True
         
 elif
 self
@@ -5871,10 +5760,7 @@ self
 instance
 :
             
-crashed
-=
-bool
-(
+if
 self
 .
 instance
@@ -5883,13 +5769,18 @@ runner
 .
 check_for_crashes
 (
+                    
 test_name
 =
 self
 .
 test_name
 )
-)
+:
+                
+crashed
+=
+True
         
 if
 returncode
@@ -5917,6 +5808,7 @@ code
 d
 '
 %
+                
 (
 name
 returncode
