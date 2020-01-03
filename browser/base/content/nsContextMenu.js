@@ -149,6 +149,12 @@ if
 (
 !
 aIsShift
+&
+&
+!
+this
+.
+isRemote
 )
 {
 this
