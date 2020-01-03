@@ -3224,6 +3224,8 @@ jsbytecode
 last
 =
 nullptr
+;
+jsbytecode
 *
 earlier
 =
@@ -12531,6 +12533,8 @@ DeferredEdge
 head
 =
 edge
+;
+DeferredEdge
 *
 prev
 =
@@ -40298,6 +40302,8 @@ elemType
 MDefinition
 *
 elements
+;
+MDefinition
 *
 scaledOffset
 ;
@@ -40424,6 +40430,8 @@ name
 MDefinition
 *
 elements
+;
+MDefinition
 *
 scaledOffset
 ;
@@ -64755,6 +64763,8 @@ value
 MDefinition
 *
 elements
+;
+MDefinition
 *
 scaledOffset
 ;
@@ -64972,6 +64982,8 @@ false
 MDefinition
 *
 elements
+;
+MDefinition
 *
 scaledOffset
 ;

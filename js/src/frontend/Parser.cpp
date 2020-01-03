@@ -22294,6 +22294,8 @@ context
 ParseNode
 *
 pn2
+;
+ParseNode
 *
 pn3
 ;
@@ -31827,8 +31829,12 @@ adjust
 ParseNode
 *
 pn
+;
+ParseNode
 *
 pn3
+;
+ParseNode
 *
 *
 pnp

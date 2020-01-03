@@ -349,6 +349,8 @@ DebugModeOSRVolatileJitFrameIterator
 *
 *
 stack
+;
+DebugModeOSRVolatileJitFrameIterator
 *
 prev
 ;

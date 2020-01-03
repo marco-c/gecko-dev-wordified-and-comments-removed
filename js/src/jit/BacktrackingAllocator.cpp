@@ -767,6 +767,8 @@ getInterval
 (
 0
 )
+;
+LiveInterval
 *
 interval1
 =
@@ -1040,6 +1042,8 @@ vregs
 [
 vreg0
 ]
+;
+BacktrackingVirtualRegister
 *
 reg1
 =
@@ -1225,6 +1229,8 @@ reg0
 group
 (
 )
+;
+VirtualRegisterGroup
 *
 group1
 =
@@ -1519,6 +1525,8 @@ vregs
 [
 def
 ]
+;
+BacktrackingVirtualRegister
 &
 usedReg
 =
@@ -11819,6 +11827,8 @@ LiveInterval
 preInterval
 =
 nullptr
+;
+LiveInterval
 *
 postInterval
 =

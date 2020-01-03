@@ -1738,10 +1738,16 @@ DEBUG
 HeapSlot
 *
 fixedStart
+;
+HeapSlot
 *
 fixedEnd
+;
+HeapSlot
 *
 slotsStart
+;
+HeapSlot
 *
 slotsEnd
 ;

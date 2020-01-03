@@ -10210,6 +10210,8 @@ ParseNode
 pnup
 =
 nullptr
+;
+ParseNode
 *
 pndown
 ;
@@ -30008,8 +30010,6 @@ PNK_ARGSBODY
 ;
 ParseNode
 *
-arg
-*
 pnlast
 =
 pn
@@ -30021,6 +30021,8 @@ last
 ;
 for
 (
+ParseNode
+*
 arg
 =
 pn

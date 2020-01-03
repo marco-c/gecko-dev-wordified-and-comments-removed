@@ -2289,10 +2289,14 @@ ParseNode
 pn1
 =
 nullptr
+;
+ParseNode
 *
 pn2
 =
 nullptr
+;
+ParseNode
 *
 pn3
 =

@@ -937,6 +937,8 @@ pcOffset
 JSTryNote
 *
 tn
+;
+JSTryNote
 *
 tnEnd
 ;

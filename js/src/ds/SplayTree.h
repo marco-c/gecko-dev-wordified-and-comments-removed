@@ -35,8 +35,12 @@ item
 Node
 *
 left
+;
+Node
 *
 right
+;
+Node
 *
 parent
 ;
@@ -76,6 +80,8 @@ alloc
 Node
 *
 root
+;
+Node
 *
 freeList
 ;
@@ -492,6 +498,8 @@ root
 Node
 *
 swap
+;
+Node
 *
 swapChild
 ;
@@ -698,6 +706,8 @@ Node
 node
 =
 root
+;
+Node
 *
 parent
 ;

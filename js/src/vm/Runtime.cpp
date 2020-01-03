@@ -3070,8 +3070,12 @@ defaultLocale
 char
 *
 locale
+;
+char
 *
 lang
+;
+char
 *
 p
 ;

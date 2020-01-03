@@ -2915,8 +2915,12 @@ format
 char16_t
 *
 buffer
+;
+char16_t
 *
 fmt
+;
+char16_t
 *
 out
 ;

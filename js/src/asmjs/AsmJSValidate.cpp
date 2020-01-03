@@ -38831,6 +38831,8 @@ MBasicBlock
 thenBlock
 =
 nullptr
+;
+MBasicBlock
 *
 elseBlock
 =
@@ -39642,6 +39644,8 @@ expr
 MDefinition
 *
 lhsDef
+;
+MDefinition
 *
 rhsDef
 ;
@@ -40147,6 +40151,8 @@ expr
 MDefinition
 *
 lhsDef
+;
+MDefinition
 *
 rhsDef
 ;
@@ -40585,6 +40591,8 @@ comp
 MDefinition
 *
 lhsDef
+;
+MDefinition
 *
 rhsDef
 ;
@@ -42914,6 +42922,8 @@ MBasicBlock
 maybeAndTest
 =
 nullptr
+;
+MBasicBlock
 *
 maybeOrTest
 =
@@ -42926,6 +42936,8 @@ ifTrueBlock
 =
 &
 maybeAndTest
+;
+MBasicBlock
 *
 *
 ifFalseBlock
@@ -42938,6 +42950,8 @@ ParseNode
 ifTrueBlockNode
 =
 lhs
+;
+ParseNode
 *
 ifFalseBlockNode
 =
@@ -43425,6 +43439,8 @@ MBasicBlock
 thenBlock
 =
 nullptr
+;
+MBasicBlock
 *
 elseBlock
 =

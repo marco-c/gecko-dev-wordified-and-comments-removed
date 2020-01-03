@@ -3077,10 +3077,16 @@ getDenseInitializedLength
 HeapSlot
 *
 fixedStart
+;
+HeapSlot
 *
 fixedEnd
+;
+HeapSlot
 *
 dynStart
+;
+HeapSlot
 *
 dynEnd
 ;
@@ -3525,6 +3531,8 @@ NativeObject
 >
 (
 )
+;
+NativeObject
 *
 nsrc
 =

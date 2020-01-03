@@ -9761,6 +9761,8 @@ addr
 HeapValue
 *
 vp
+;
+HeapValue
 *
 end
 ;
@@ -10016,6 +10018,8 @@ budget
 HeapSlot
 *
 vp
+;
+HeapSlot
 *
 end
 ;

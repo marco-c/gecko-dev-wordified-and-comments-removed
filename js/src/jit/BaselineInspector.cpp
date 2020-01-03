@@ -1215,6 +1215,8 @@ monomorphicStub
 (
 pc
 )
+;
+ICStub
 *
 second
 =

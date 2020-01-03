@@ -21280,8 +21280,14 @@ const
 char
 *
 filename
+;
+const
+char
 *
 lineno
+;
+const
+char
 *
 colno
 ;

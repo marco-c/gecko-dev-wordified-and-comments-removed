@@ -997,6 +997,8 @@ mir
 Label
 *
 stringEntry
+;
+Label
 *
 stringRejoin
 ;
@@ -56828,6 +56830,8 @@ input
 Label
 *
 stringEntry
+;
+Label
 *
 stringRejoin
 ;
