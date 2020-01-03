@@ -734,6 +734,7 @@ objectvalue
 ref
 .
 svg
+#
 pref
 (
 gfx
@@ -767,6 +768,7 @@ svg
 #
 bug
 872483
+1135329
 pref
 (
 gfx
