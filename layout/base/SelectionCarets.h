@@ -274,7 +274,7 @@ aPosition
 )
 ;
 bool
-IsOnStartFrame
+IsOnStartFrameInner
 (
 const
 nsPoint
@@ -283,7 +283,7 @@ aPosition
 )
 ;
 bool
-IsOnEndFrame
+IsOnEndFrameInner
 (
 const
 nsPoint
@@ -298,6 +298,16 @@ GetStartFrameRect
 ;
 nsRect
 GetEndFrameRect
+(
+)
+;
+nsRect
+GetStartFrameRectInner
+(
+)
+;
+nsRect
+GetEndFrameRectInner
 (
 )
 ;
