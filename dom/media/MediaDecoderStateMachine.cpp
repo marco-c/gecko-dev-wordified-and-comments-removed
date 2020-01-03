@@ -6186,7 +6186,7 @@ AssertCurrentThreadInMonitor
 mDecoder
 -
 >
-NotifyPlaybackStopped
+DispatchPlaybackStopped
 (
 )
 ;
@@ -6388,7 +6388,7 @@ playback
 mDecoder
 -
 >
-NotifyPlaybackStarted
+DispatchPlaybackStarted
 (
 )
 ;
