@@ -5471,6 +5471,10 @@ GetDefaultView
 const
 {
 return
+mMasterDocument
+?
+nullptr
+:
 GetWindow
 (
 )
@@ -6898,6 +6902,12 @@ bool
 mDidFireDOMContentLoaded
 :
 1
+;
+nsCOMPtr
+<
+nsIDocument
+>
+mMasterDocument
 ;
 }
 ;
