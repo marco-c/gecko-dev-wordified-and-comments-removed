@@ -186,7 +186,7 @@ f
 ;
 this
 .
-name
+globalName
 =
 "
 main
@@ -194,7 +194,7 @@ main
 ;
 g
 .
-name
+globalName
 =
 "
 g
@@ -202,7 +202,7 @@ g
 ;
 h
 .
-name
+globalName
 =
 "
 h
@@ -212,7 +212,7 @@ assertEq
 (
 result
 .
-name
+globalName
 "
 h
 "
