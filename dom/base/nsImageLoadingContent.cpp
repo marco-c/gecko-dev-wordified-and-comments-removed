@@ -3418,6 +3418,14 @@ req
 policyType
 )
 ;
+aDocument
+-
+>
+ForgetImagePreload
+(
+aNewURI
+)
+;
 if
 (
 NS_SUCCEEDED

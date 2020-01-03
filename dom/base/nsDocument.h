@@ -4059,6 +4059,16 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+ForgetImagePreload
+(
+nsIURI
+*
+aURI
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 PreloadStyle
 (
 nsIURI
@@ -6166,8 +6176,9 @@ mPendingTitleChangeEvent
 nsExternalResourceMap
 mExternalResourceMap
 ;
-nsCOMArray
+nsRefPtrHashtable
 <
+nsURIHashKey
 imgIRequest
 >
 mPreloadingImages
