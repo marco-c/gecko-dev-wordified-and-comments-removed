@@ -130,13 +130,6 @@ defs
 >
 <
 style
-type
-=
-"
-text
-/
-css
-"
 >
 use
 :
@@ -168,7 +161,7 @@ hover
 fill
 :
 #
-FFFFFF
+fff
 ;
 }
 <

@@ -61,13 +61,6 @@ MPL
 >
 <
 svg
-version
-=
-"
-1
-.
-1
-"
 xmlns
 =
 "
@@ -126,11 +119,6 @@ defs
 <
 style
 >
-<
-!
-[
-CDATA
-[
 %
 filter
 substitution
@@ -289,9 +277,6 @@ customToolbarColor
 }
 %
 endif
-]
-]
->
 <
 /
 style
