@@ -127,6 +127,9 @@ test_ev_certs
 test_intermediate_basic_usage_constraints
 '
 '
+test_keysize
+'
+'
 test_keysize_ev
 '
 '
