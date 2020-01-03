@@ -1364,6 +1364,10 @@ CSSPoint
 &
 aPoint
 const
+Modifiers
+&
+aModifiers
+const
 ScrollableLayerGuid
 &
 aGuid
@@ -1376,6 +1380,10 @@ const
 CSSPoint
 &
 aPoint
+const
+Modifiers
+&
+aModifiers
 const
 ScrollableLayerGuid
 &
@@ -1394,6 +1402,10 @@ CSSPoint
 &
 aPoint
 const
+Modifiers
+&
+aModifiers
+const
 ScrollableLayerGuid
 &
 aGuid
@@ -1406,6 +1418,10 @@ const
 CSSPoint
 &
 aPoint
+const
+Modifiers
+&
+aModifiers
 const
 ScrollableLayerGuid
 &

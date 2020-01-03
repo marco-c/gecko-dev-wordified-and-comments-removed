@@ -1610,6 +1610,8 @@ const
 LayoutDevicePoint
 &
 aRefPoint
+Modifiers
+aModifiers
 nsIWidget
 *
 aWidget
@@ -1718,6 +1720,12 @@ clickCount
 }
 event
 .
+modifiers
+=
+aModifiers
+;
+event
+.
 widget
 =
 aWidget
@@ -1812,6 +1820,8 @@ const
 LayoutDevicePoint
 &
 aPoint
+Modifiers
+aModifiers
 nsIWidget
 *
 aWidget
@@ -1865,6 +1875,7 @@ DispatchSynthesizedMouseEvent
 NS_MOUSE_MOVE
 time
 aPoint
+aModifiers
 aWidget
 )
 ;
@@ -1873,6 +1884,7 @@ DispatchSynthesizedMouseEvent
 NS_MOUSE_BUTTON_DOWN
 time
 aPoint
+aModifiers
 aWidget
 )
 ;
@@ -1881,6 +1893,7 @@ DispatchSynthesizedMouseEvent
 NS_MOUSE_BUTTON_UP
 time
 aPoint
+aModifiers
 aWidget
 )
 ;

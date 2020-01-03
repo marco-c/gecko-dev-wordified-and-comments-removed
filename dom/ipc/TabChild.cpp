@@ -9252,6 +9252,10 @@ CSSPoint
 &
 aPoint
 const
+Modifiers
+&
+aModifiers
+const
 ScrollableLayerGuid
 &
 aGuid
@@ -9410,6 +9414,10 @@ CSSPoint
 &
 aPoint
 const
+Modifiers
+&
+aModifiers
+const
 ScrollableLayerGuid
 &
 aGuid
@@ -9429,6 +9437,7 @@ mAPZEventState
 ProcessSingleTap
 (
 aPoint
+aModifiers
 aGuid
 GetPresShellResolution
 (
@@ -9450,6 +9459,10 @@ const
 CSSPoint
 &
 aPoint
+const
+Modifiers
+&
+aModifiers
 const
 ScrollableLayerGuid
 &
@@ -9477,6 +9490,7 @@ GetDOMWindowUtils
 (
 )
 aPoint
+aModifiers
 aGuid
 aInputBlockId
 GetPresShellResolution
@@ -9500,6 +9514,10 @@ CSSPoint
 &
 aPoint
 const
+Modifiers
+&
+aModifiers
+const
 ScrollableLayerGuid
 &
 aGuid
@@ -9519,6 +9537,7 @@ mAPZEventState
 ProcessLongTapUp
 (
 aPoint
+aModifiers
 aGuid
 GetPresShellResolution
 (
@@ -10375,7 +10394,7 @@ NS_TOUCH_END
 if
 (
 !
-TouchManager
+nsIPresShell
 :
 :
 gPreventMouseEvents
@@ -10389,6 +10408,7 @@ DispatchSynthesizedMouseEvent
 NS_MOUSE_MOVE
 time
 currentPoint
+0
 mWidget
 )
 ;
@@ -10400,6 +10420,7 @@ DispatchSynthesizedMouseEvent
 NS_MOUSE_BUTTON_DOWN
 time
 currentPoint
+0
 mWidget
 )
 ;
@@ -10411,6 +10432,7 @@ DispatchSynthesizedMouseEvent
 NS_MOUSE_BUTTON_UP
 time
 currentPoint
+0
 mWidget
 )
 ;

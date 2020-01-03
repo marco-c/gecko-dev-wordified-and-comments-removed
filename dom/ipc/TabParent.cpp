@@ -4683,6 +4683,7 @@ unused
 SendHandleDoubleTap
 (
 aPoint
+aModifiers
 aGuid
 )
 ;
@@ -4718,6 +4719,7 @@ unused
 SendHandleSingleTap
 (
 aPoint
+aModifiers
 aGuid
 )
 ;
@@ -4755,6 +4757,7 @@ unused
 SendHandleLongTap
 (
 aPoint
+aModifiers
 aGuid
 aInputBlockId
 )
@@ -4791,6 +4794,7 @@ unused
 SendHandleLongTapUp
 (
 aPoint
+aModifiers
 aGuid
 )
 ;
@@ -5668,6 +5672,10 @@ CSSPoint
 &
 aPoint
 const
+Modifiers
+&
+aModifiers
+const
 ScrollableLayerGuid
 &
 aGuid
@@ -5692,6 +5700,7 @@ AdjustTapToChildWidget
 (
 aPoint
 )
+aModifiers
 aGuid
 )
 ;
@@ -5706,6 +5715,10 @@ const
 CSSPoint
 &
 aPoint
+const
+Modifiers
+&
+aModifiers
 const
 ScrollableLayerGuid
 &
@@ -5735,6 +5748,7 @@ AdjustTapToChildWidget
 (
 aPoint
 )
+aModifiers
 aGuid
 aInputBlockId
 )
@@ -5751,6 +5765,10 @@ CSSPoint
 &
 aPoint
 const
+Modifiers
+&
+aModifiers
+const
 ScrollableLayerGuid
 &
 aGuid
@@ -5775,6 +5793,7 @@ AdjustTapToChildWidget
 (
 aPoint
 )
+aModifiers
 aGuid
 )
 ;
@@ -5789,6 +5808,10 @@ const
 CSSPoint
 &
 aPoint
+const
+Modifiers
+&
+aModifiers
 const
 ScrollableLayerGuid
 &
@@ -5814,6 +5837,7 @@ AdjustTapToChildWidget
 (
 aPoint
 )
+aModifiers
 aGuid
 )
 ;

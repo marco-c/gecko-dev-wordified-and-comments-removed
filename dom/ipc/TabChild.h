@@ -1307,6 +1307,10 @@ CSSPoint
 &
 aPoint
 const
+Modifiers
+&
+aModifiers
+const
 mozilla
 :
 :
@@ -1328,6 +1332,10 @@ CSSPoint
 &
 aPoint
 const
+Modifiers
+&
+aModifiers
+const
 mozilla
 :
 :
@@ -1348,6 +1356,10 @@ const
 CSSPoint
 &
 aPoint
+const
+Modifiers
+&
+aModifiers
 const
 mozilla
 :
@@ -1373,6 +1385,10 @@ const
 CSSPoint
 &
 aPoint
+const
+Modifiers
+&
+aModifiers
 const
 mozilla
 :

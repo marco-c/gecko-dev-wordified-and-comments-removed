@@ -632,6 +632,7 @@ mAPZEventState
 ProcessSingleTap
 (
 aPoint
+aModifiers
 aGuid
 GetPresShellResolution
 (
@@ -708,6 +709,7 @@ GetDOMWindowUtils
 (
 )
 aPoint
+aModifiers
 aGuid
 aInputBlockId
 GetPresShellResolution
@@ -776,6 +778,7 @@ mAPZEventState
 ProcessLongTapUp
 (
 aPoint
+aModifiers
 aGuid
 GetPresShellResolution
 (
