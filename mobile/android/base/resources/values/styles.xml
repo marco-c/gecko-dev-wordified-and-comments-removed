@@ -1062,7 +1062,7 @@ android
 scaleType
 "
 >
-fitCenter
+centerInside
 <
 /
 item
