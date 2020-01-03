@@ -195,11 +195,11 @@ ssl
 SSLException
 ;
 import
-org
+ch
 .
-apache
+boye
 .
-http
+httpclientandroidlib
 .
 protocol
 .
