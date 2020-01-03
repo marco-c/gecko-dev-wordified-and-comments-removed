@@ -8923,6 +8923,9 @@ variableDeclarator
 ParseNode
 *
 pn
+VarDeclKind
+*
+pkind
 MutableHandleValue
 dst
 )
@@ -9262,6 +9265,9 @@ pattern
 ParseNode
 *
 pn
+VarDeclKind
+*
+pkind
 MutableHandleValue
 dst
 )
@@ -9272,6 +9278,9 @@ arrayPattern
 ParseNode
 *
 pn
+VarDeclKind
+*
+pkind
 MutableHandleValue
 dst
 )
@@ -9282,6 +9291,9 @@ objectPattern
 ParseNode
 *
 pn
+VarDeclKind
+*
+pkind
 MutableHandleValue
 dst
 )
@@ -10288,17 +10300,7 @@ let
 ?
 VARDECL_LET
 :
-pn
--
->
-isKind
-(
-PNK_VAR
-)
-?
 VARDECL_VAR
-:
-VARDECL_CONST
 ;
 NodeVector
 dtors
@@ -10356,6 +10358,8 @@ variableDeclarator
 (
 next
 &
+kind
+&
 child
 )
 )
@@ -10395,6 +10399,9 @@ variableDeclarator
 ParseNode
 *
 pn
+VarDeclKind
+*
+pkind
 MutableHandleValue
 dst
 )
@@ -10540,6 +10547,7 @@ return
 pattern
 (
 pnleft
+pkind
 &
 left
 )
@@ -10683,6 +10691,11 @@ pn_count
 return
 false
 ;
+VarDeclKind
+kind
+=
+VARDECL_LET_HEAD
+;
 for
 (
 ParseNode
@@ -10716,6 +10729,8 @@ if
 variableDeclarator
 (
 next
+&
+kind
 &
 child
 )
@@ -11831,6 +11846,7 @@ pn
 -
 >
 pn_kid1
+nullptr
 &
 var
 )
@@ -13060,6 +13076,7 @@ head
 -
 >
 pn_kid2
+nullptr
 &
 var
 )
@@ -13143,6 +13160,7 @@ head
 -
 >
 pn_kid2
+nullptr
 &
 var
 )
@@ -14017,6 +14035,7 @@ in
 -
 >
 pn_kid2
+nullptr
 &
 patt
 )
@@ -15100,6 +15119,7 @@ pn
 -
 >
 pn_left
+nullptr
 &
 lhs
 )
@@ -17149,6 +17169,9 @@ arrayPattern
 ParseNode
 *
 pn
+VarDeclKind
+*
+pkind
 MutableHandleValue
 dst
 )
@@ -17261,6 +17284,7 @@ next
 -
 >
 pn_kid
+pkind
 &
 target
 )
@@ -17310,6 +17334,7 @@ if
 pattern
 (
 next
+pkind
 &
 patt
 )
@@ -17350,6 +17375,9 @@ objectPattern
 ParseNode
 *
 pn
+VarDeclKind
+*
+pkind
 MutableHandleValue
 dst
 )
@@ -17536,6 +17564,7 @@ if
 pattern
 (
 target
+pkind
 &
 patt
 )
@@ -17601,6 +17630,9 @@ pattern
 ParseNode
 *
 pn
+VarDeclKind
+*
+pkind
 MutableHandleValue
 dst
 )
@@ -17629,6 +17661,7 @@ return
 objectPattern
 (
 pn
+pkind
 dst
 )
 ;
@@ -17639,8 +17672,31 @@ return
 arrayPattern
 (
 pn
+pkind
 dst
 )
+;
+case
+PNK_NAME
+:
+if
+(
+pkind
+&
+&
+(
+pn
+-
+>
+pn_dflags
+&
+PND_CONST
+)
+)
+*
+pkind
+=
+VARDECL_CONST
 ;
 default
 :
@@ -18372,6 +18428,7 @@ destruct
 -
 >
 pn_left
+nullptr
 &
 node
 )
