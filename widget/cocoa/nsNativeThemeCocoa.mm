@@ -19328,10 +19328,10 @@ aResult
 >
 SizeTo
 (
-kDisclosureButtonSize
+kHelpButtonSize
 .
 width
-kDisclosureButtonSize
+kHelpButtonSize
 .
 height
 )
