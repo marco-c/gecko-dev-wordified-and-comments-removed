@@ -957,7 +957,7 @@ FMRadioCountry
 aCountry
 )
 ;
-void
+bool
 EnableRDS
 (
 uint32_t

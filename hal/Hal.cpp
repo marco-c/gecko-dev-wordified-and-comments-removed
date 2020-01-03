@@ -3874,7 +3874,7 @@ CancelFMRadioSeek
 )
 ;
 }
-void
+bool
 EnableRDS
 (
 uint32_t
@@ -3885,12 +3885,13 @@ AssertMainThread
 (
 )
 ;
-PROXY_IF_SANDBOXED
+RETURN_PROXY_IF_SANDBOXED
 (
 EnableRDS
 (
 aMask
 )
+false
 )
 ;
 }

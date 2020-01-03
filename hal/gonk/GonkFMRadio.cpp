@@ -3009,7 +3009,7 @@ static
 int
 sRDSPipeFD
 ;
-void
+bool
 EnableRDS
 (
 uint32_t
@@ -3026,6 +3026,7 @@ sRadioEnabled
 sRDSSupported
 )
 return
+false
 ;
 if
 (
@@ -3042,6 +3043,7 @@ if
 sRDSEnabled
 )
 return
+true
 ;
 int
 pipefd
@@ -3084,6 +3086,7 @@ rc
 )
 ;
 return
+false
 ;
 }
 ScopedClose
@@ -3136,6 +3139,7 @@ rc
 )
 ;
 return
+false
 ;
 }
 sRDSPipeFD
@@ -3197,6 +3201,7 @@ sRDSEnabled
 false
 ;
 return
+false
 ;
 }
 readfd
@@ -3210,6 +3215,9 @@ writefd
 forget
 (
 )
+;
+return
+true
 ;
 }
 void

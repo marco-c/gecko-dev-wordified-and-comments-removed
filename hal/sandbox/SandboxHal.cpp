@@ -1548,7 +1548,7 @@ contexts
 )
 ;
 }
-void
+bool
 EnableRDS
 (
 uint32_t
@@ -1569,6 +1569,9 @@ contexts
 .
 "
 )
+;
+return
+false
 ;
 }
 void
