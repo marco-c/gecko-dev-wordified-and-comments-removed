@@ -355,7 +355,7 @@ takeReferenceSnapshot
 (
 )
 var
-gOnStopFrameCounter
+gPollCounter
 =
 0
 ;
@@ -518,11 +518,11 @@ none
 ;
 }
 function
-myOnStopFrame
+myPoll
 (
 )
 {
-gOnStopFrameCounter
+gPollCounter
 +
 +
 ;
@@ -530,7 +530,7 @@ ok
 (
 true
 "
-myOnStopFrame
+myPoll
 called
 "
 )
@@ -577,11 +577,11 @@ call
 #
 "
 +
-gOnStopFrameCounter
+gPollCounter
 +
 "
 to
-onStopFrame
+myPoll
 "
 )
 ;
@@ -593,7 +593,7 @@ cleanUpAndFinish
 else
 setTimeout
 (
-myOnStopFrame
+myPoll
 1
 )
 ;
@@ -636,11 +636,11 @@ call
 #
 "
 +
-gOnStopFrameCounter
+gPollCounter
 +
 "
 to
-onStopFrame
+myPoll
 "
 )
 ;
@@ -663,7 +663,7 @@ chance
 that
 failTest
 and
-myOnStopFrame
+myPoll
 are
 triggered
 /
@@ -746,7 +746,7 @@ clearAllImageCaches
 ;
 setTimeout
 (
-myOnStopFrame
+myPoll
 1
 )
 ;
@@ -758,7 +758,7 @@ image
 -
 loading
 !
-myOnStopFrame
+myPoll
 handles
 the
 rest
