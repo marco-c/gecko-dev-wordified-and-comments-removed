@@ -379,6 +379,9 @@ define
 dataChannelsAvailable
 "
 {
+available
+:
+Boolean
 }
 )
 SendTextChatMessage
