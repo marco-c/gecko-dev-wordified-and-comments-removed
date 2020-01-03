@@ -262,6 +262,13 @@ return
 NULL
 ;
 }
+#
+if
+!
+defined
+(
+WEBRTC_GONK
+)
 if
 (
 ca_Init_
@@ -317,6 +324,8 @@ first_frame_
 false
 ;
 }
+#
+endif
 return
 ContentMetrics
 (
@@ -491,6 +500,13 @@ return
 VPM_MEMORY
 ;
 }
+#
+if
+!
+defined
+(
+WEBRTC_GONK
+)
 prev_frame_
 .
 reset
@@ -514,6 +530,8 @@ return
 VPM_MEMORY
 ;
 }
+#
+endif
 ca_Init_
 =
 true
