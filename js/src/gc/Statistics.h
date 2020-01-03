@@ -318,6 +318,16 @@ GCSliceCallback
 callback
 )
 ;
+int64_t
+clearMaxGCPauseAccumulator
+(
+)
+;
+int64_t
+getMaxGCPauseSinceClear
+(
+)
+;
 private
 :
 JSRuntime
@@ -467,6 +477,9 @@ STAT_LIMIT
 ;
 size_t
 preBytes
+;
+int64_t
+maxPauseInInterval
 ;
 #
 ifdef
