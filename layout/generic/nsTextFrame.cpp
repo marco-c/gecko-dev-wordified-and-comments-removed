@@ -29715,13 +29715,11 @@ aMaxLength
 ;
 const
 nscoord
-frameWidth
+frameISize
 =
-GetSize
+ISize
 (
 )
-.
-width
 ;
 const
 bool
@@ -29866,7 +29864,7 @@ maxAdvance
 =
 gfxFloat
 (
-frameWidth
+frameISize
 -
 endEdge
 )
@@ -29954,7 +29952,7 @@ NSToCoordFloor
 (
 gfxFloat
 (
-frameWidth
+frameISize
 )
 -
 advanceWidth
