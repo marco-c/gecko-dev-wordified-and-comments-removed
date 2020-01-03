@@ -200,17 +200,6 @@ favicons
 .
 OnFaviconLoadedListener
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-toolbar
-.
-SiteIdentityPopup
-;
 public
 class
 LoginDoorHanger
