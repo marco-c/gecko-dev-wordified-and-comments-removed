@@ -65,7 +65,7 @@ sdp_mca_t
 *
 sdp_alloc_mca
 (
-u32
+uint32_t
 line
 )
 {
@@ -625,7 +625,7 @@ buf
 char
 *
 mkiVal
-u16
+uint16_t
 *
 mkiLen
 )
@@ -878,7 +878,7 @@ FALSE
 mkiLen
 =
 (
-u16
+uint16_t
 )
 strtoul_result
 ;
@@ -1313,7 +1313,7 @@ return
 token_list
 ;
 }
-u32
+uint32_t
 sdp_getnextnumtok_or_null
 (
 const
@@ -1511,12 +1511,12 @@ token_list
 ;
 return
 (
-u32
+uint32_t
 )
 numval
 ;
 }
-u32
+uint32_t
 sdp_getnextnumtok
 (
 const
@@ -1670,7 +1670,7 @@ token_list
 ;
 return
 (
-u32
+uint32_t
 )
 numval
 ;
