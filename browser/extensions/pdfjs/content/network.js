@@ -560,6 +560,8 @@ args
 onProgressiveData
 )
 {
+try
+{
 xhr
 .
 responseType
@@ -572,6 +574,13 @@ chunked
 arraybuffer
 '
 ;
+}
+catch
+(
+e
+)
+{
+}
 if
 (
 xhr
