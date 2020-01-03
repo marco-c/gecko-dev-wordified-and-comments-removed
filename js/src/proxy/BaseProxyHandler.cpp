@@ -526,14 +526,9 @@ result
 ;
 ownDesc
 .
-clear
+setDataDescriptor
 (
-)
-;
-ownDesc
-.
-setAttributes
-(
+UndefinedHandleValue
 JSPROP_ENUMERATE
 )
 ;
