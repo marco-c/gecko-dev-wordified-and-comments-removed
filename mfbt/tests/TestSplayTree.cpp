@@ -1159,6 +1159,9 @@ SplayNoCopy
 &
 )
 {
+return
+0
+;
 }
 }
 ;
