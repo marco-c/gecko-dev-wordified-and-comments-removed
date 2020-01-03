@@ -1059,6 +1059,12 @@ SurfaceDescriptor
 :
 TSurfaceDescriptorD3D10
 :
+case
+SurfaceDescriptor
+:
+:
+TSurfaceDescriptorDXGIYCbCr
+:
 if
 (
 Compositor

@@ -355,6 +355,11 @@ D3D9SurfaceImage
 cpp
 '
 '
+IMFYCbCrImage
+.
+cpp
+'
+'
 TextureDIB
 .
 cpp
