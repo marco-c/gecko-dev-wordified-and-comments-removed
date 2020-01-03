@@ -740,7 +740,7 @@ const
 ;
 virtual
 bool
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 const
@@ -757,7 +757,7 @@ ShutdownOnIOThread
 ;
 virtual
 void
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 =

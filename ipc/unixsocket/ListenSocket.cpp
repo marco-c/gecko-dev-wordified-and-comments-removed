@@ -150,7 +150,7 @@ GetSocketBase
 override
 ;
 bool
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 const
@@ -164,7 +164,7 @@ const
 override
 ;
 void
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 override
@@ -286,7 +286,7 @@ IsConsumerThread
 ;
 MOZ_ASSERT
 (
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -766,7 +766,7 @@ bool
 ListenSocketIO
 :
 :
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 const
@@ -802,7 +802,7 @@ void
 ListenSocketIO
 :
 :
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 {
@@ -816,7 +816,7 @@ IsConsumerThread
 MOZ_ASSERT
 (
 !
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -1291,7 +1291,7 @@ IsConsumerThread
 mIO
 -
 >
-ShutdownOnMainThread
+ShutdownOnConsumerThread
 (
 )
 ;

@@ -1027,7 +1027,7 @@ NS_WARN_IF
 io
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
@@ -1165,7 +1165,7 @@ NS_WARN_IF
 io
 -
 >
-IsShutdownOnMainThread
+IsShutdownOnConsumerThread
 (
 )
 )
