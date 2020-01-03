@@ -4,6 +4,24 @@ test
 )
 {
 let
+FrameUtils
+=
+devtools
+.
+require
+(
+"
+devtools
+/
+performance
+/
+frame
+-
+utils
+"
+)
+;
+let
 {
 FrameNode
 }
@@ -99,7 +117,7 @@ line
 456
 isContent
 :
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -441,7 +459,7 @@ line
 456
 isContent
 :
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -781,7 +799,7 @@ line
 456
 isContent
 :
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -1109,7 +1127,7 @@ line
 456
 isContent
 :
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -1457,7 +1475,7 @@ line
 456
 isContent
 :
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -1781,7 +1799,7 @@ category
 CATEGORY_OTHER
 isContent
 :
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -2026,7 +2044,7 @@ EnterJIT
 "
 isContent
 :
-FrameNode
+FrameUtils
 .
 isContent
 (
@@ -2469,7 +2487,7 @@ line
 123
 isContent
 :
-FrameNode
+FrameUtils
 .
 isContent
 (
