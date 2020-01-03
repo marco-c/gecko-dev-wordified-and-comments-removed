@@ -187,6 +187,13 @@ Destroy
 )
 ;
 void
+OnPreviewStateChange
+(
+bool
+aActive
+)
+;
+void
 Invalidate
 (
 )
@@ -228,6 +235,9 @@ mDiscardedFrames
 ;
 bool
 mRateLimit
+;
+bool
+mTrackCreated
 ;
 nsRefPtr
 <
