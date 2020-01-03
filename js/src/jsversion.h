@@ -261,4 +261,13 @@ define
 JS_OLD_GETTER_SETTER_METHODS
 1
 #
+ifdef
+NIGHTLY_BUILD
+#
+define
+JS_HAS_CLASSES
+1
+#
+endif
+#
 endif
