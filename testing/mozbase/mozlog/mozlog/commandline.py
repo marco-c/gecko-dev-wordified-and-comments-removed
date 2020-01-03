@@ -1153,7 +1153,7 @@ handler
 def
 setup_logging
 (
-suite
+logger
 args
 defaults
 =
@@ -1208,15 +1208,33 @@ get_default_logger
     
 :
 param
-suite
+logger
 :
-The
+A
+StructuredLogger
+instance
+or
+string
 name
-of
+.
+If
+a
+string
+a
+                   
+new
+StructuredLogger
+instance
+will
+be
+created
+using
+                   
+logger
+as
 the
-testsuite
-being
-run
+name
+.
     
 :
 param
@@ -1335,11 +1353,20 @@ StructuredLogger
 "
 "
     
+if
+not
+isinstance
+(
+logger
+StructuredLogger
+)
+:
+        
 logger
 =
 StructuredLogger
 (
-suite
+logger
 )
     
 formatter_options
