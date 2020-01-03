@@ -329,6 +329,11 @@ BookmarkJSONUtils
 jsm
 '
 '
+Bookmarks
+.
+jsm
+'
+'
 ClusterLib
 .
 js
