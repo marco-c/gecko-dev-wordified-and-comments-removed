@@ -17,6 +17,13 @@ h
 #
 include
 "
+KeyboardLayout
+.
+h
+"
+#
+include
+"
 WinUtils
 .
 h
