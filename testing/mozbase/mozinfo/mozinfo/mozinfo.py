@@ -10,18 +10,9 @@ import
 re
 import
 sys
-from
-distutils
-.
-version
-import
-LooseVersion
 _os
 =
 os
-StringVersion
-=
-LooseVersion
 class
 unknown
 (
@@ -516,10 +507,7 @@ os_version
 '
 ]
 =
-StringVersion
-(
 os_version
-)
 if
 processor
 in
@@ -1320,10 +1308,6 @@ update
     
 '
 find_and_update_from_json
-'
-    
-'
-StringVersion
 '
     
 ]
