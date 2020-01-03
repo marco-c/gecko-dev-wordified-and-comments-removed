@@ -128,6 +128,12 @@ errors
 [
 ]
 ;
+this
+.
+logExceptions
+=
+true
+;
 }
 ;
 Parser
@@ -309,6 +315,13 @@ push
 e
 )
 ;
+if
+(
+this
+.
+logExceptions
+)
+{
 DevToolsUtils
 .
 reportException
@@ -317,6 +330,7 @@ aUrl
 e
 )
 ;
+}
 }
 }
 else
@@ -387,6 +401,13 @@ push
 e
 )
 ;
+if
+(
+this
+.
+logExceptions
+)
+{
 DevToolsUtils
 .
 reportException
@@ -395,6 +416,7 @@ aUrl
 e
 )
 ;
+}
 }
 }
 }

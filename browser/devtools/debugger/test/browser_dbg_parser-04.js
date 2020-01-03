@@ -144,6 +144,12 @@ Parser
 (
 )
 ;
+parser
+.
+logExceptions
+=
+false
+;
 let
 parsed
 =
