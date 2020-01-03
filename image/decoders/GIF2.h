@@ -1,9 +1,9 @@
 #
 ifndef
-GIF2_H
+mozilla_image_decoders_GIF2_H
 #
 define
-GIF2_H
+mozilla_image_decoders_GIF2_H
 #
 define
 MAX_LZW_BITS

@@ -1,9 +1,9 @@
 #
 ifndef
-nsPNGDecoder_h
+mozilla_image_decoders_nsPNGDecoder_h
 #
 define
-nsPNGDecoder_h
+mozilla_image_decoders_nsPNGDecoder_h
 #
 include
 "

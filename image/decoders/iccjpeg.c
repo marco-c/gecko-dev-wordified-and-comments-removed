@@ -389,6 +389,7 @@ seq_no
 +
 +
 )
+{
 marker_present
 [
 seq_no
@@ -396,6 +397,7 @@ seq_no
 =
 0
 ;
+}
 for
 (
 marker

@@ -1,9 +1,9 @@
 #
 ifndef
-ICCJPEG_H
+mozilla_image_decoders_iccjpeg_h
 #
 define
-ICCJPEG_H
+mozilla_image_decoders_iccjpeg_h
 #
 include
 <

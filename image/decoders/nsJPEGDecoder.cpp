@@ -733,6 +733,7 @@ m
 +
 +
 )
+{
 jpeg_save_markers
 (
 &
@@ -743,6 +744,7 @@ m
 0xFFFF
 )
 ;
+}
 }
 void
 nsJPEGDecoder

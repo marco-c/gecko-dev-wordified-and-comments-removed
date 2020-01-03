@@ -1,9 +1,9 @@
 #
 ifndef
-nsICODecoder_h
+mozilla_image_decoders_nsICODecoder_h
 #
 define
-nsICODecoder_h
+mozilla_image_decoders_nsICODecoder_h
 #
 include
 "
