@@ -327,6 +327,10 @@ NS_NATIVE_PLUGIN_OBJECT_PTR
 endif
 #
 define
+NS_NATIVE_PLUGIN_ID
+105
+#
+define
 NS_IWIDGET_IID
 \
 {

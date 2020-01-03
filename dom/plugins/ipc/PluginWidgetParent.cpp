@@ -690,13 +690,6 @@ failure
 "
 )
 ;
-mWidget
--
->
-RegisterPluginWindowForRemoteUpdates
-(
-)
-;
 #
 if
 defined
@@ -809,6 +802,13 @@ failure
 ;
 #
 endif
+mWidget
+-
+>
+RegisterPluginWindowForRemoteUpdates
+(
+)
+;
 return
 true
 ;

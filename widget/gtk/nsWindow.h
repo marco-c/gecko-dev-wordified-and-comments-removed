@@ -1717,6 +1717,11 @@ DispatchRestoreEventAccessible
 ;
 #
 endif
+void
+ResizePluginSocketWidget
+(
+)
+;
 nsPluginNativeWindowGtk
 *
 mPluginNativeWindow
