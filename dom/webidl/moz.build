@@ -1825,6 +1825,11 @@ PermissionSettings
 webidl
 '
 '
+PermissionStatus
+.
+webidl
+'
+'
 PhoneNumberService
 .
 webidl
