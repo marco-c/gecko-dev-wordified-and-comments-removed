@@ -7997,11 +7997,6 @@ source_path
         
 return
 revision
-[
-0
-:
-12
-]
 .
 encode
 (
