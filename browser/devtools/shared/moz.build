@@ -464,6 +464,13 @@ js
 '
 widgets
 /
+MdnDocsWidget
+.
+js
+'
+'
+widgets
+/
 Spectrum
 .
 js
