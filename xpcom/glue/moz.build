@@ -400,11 +400,6 @@ nsVersionComparator
 h
 '
 '
-nsVoidArray
-.
-h
-'
-'
 nsWeakReference
 .
 h

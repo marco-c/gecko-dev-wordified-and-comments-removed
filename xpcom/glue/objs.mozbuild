@@ -217,11 +217,6 @@ nsVersionComparator
 cpp
 '
 '
-nsVoidArray
-.
-cpp
-'
-'
 nsWeakReference
 .
 cpp
