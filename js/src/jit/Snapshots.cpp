@@ -1698,7 +1698,7 @@ const
 uint32_t
 SNAPSHOT_BAILOUTKIND_BITS
 =
-5
+6
 ;
 static
 const
