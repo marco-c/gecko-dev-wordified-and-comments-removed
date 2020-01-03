@@ -199,5 +199,11 @@ peerIdentity
 =
 null
 ;
+sequence
+<
+RTCCertificate
+>
+certificates
+;
 }
 ;

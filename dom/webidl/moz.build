@@ -1910,6 +1910,11 @@ RGBColor
 webidl
 '
 '
+RTCCertificate
+.
+webidl
+'
+'
 RTCConfiguration
 .
 webidl
