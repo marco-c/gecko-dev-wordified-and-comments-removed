@@ -14188,7 +14188,7 @@ mHostname
 nsContentUtils
 :
 :
-GetUTFNonNullOrigin
+GetUTFOrigin
 (
 aBaseURI
 mLocationInfo

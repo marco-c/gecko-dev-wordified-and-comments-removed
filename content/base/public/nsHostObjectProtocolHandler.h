@@ -181,6 +181,9 @@ const
 nsACString
 &
 aScheme
+nsIPrincipal
+*
+aPrincipal
 nsACString
 &
 aUri

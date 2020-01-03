@@ -1180,7 +1180,7 @@ origin
 nsContentUtils
 :
 :
-GetUTFNonNullOrigin
+GetUTFOrigin
 (
 uri
 origin

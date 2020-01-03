@@ -1667,6 +1667,7 @@ NS_LITERAL_CSTRING
 (
 FONTTABLEURI_SCHEME
 )
+nullptr
 mSVGGlyphsDocumentURI
 )
 ;
