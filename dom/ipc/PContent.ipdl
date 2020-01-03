@@ -598,8 +598,6 @@ ChromePackage
 ;
 OverrideMapping
 ;
-ResourceMapping
-;
 }
 ;
 namespace
