@@ -314,6 +314,10 @@ is
 a
 bit
 dysfunctional
+[
+Constant
+Cached
+]
 readonly
 attribute
 Performance
