@@ -45200,6 +45200,11 @@ true
 ;
 }
 }
+fclose
+(
+inFile
+)
+;
 }
 }
 }
