@@ -422,17 +422,6 @@ void
 BufferDecoder
 :
 :
-UpdatePlaybackPosition
-(
-int64_t
-aTime
-)
-{
-}
-void
-BufferDecoder
-:
-:
 OnReadMetadataCompleted
 (
 )

@@ -344,16 +344,6 @@ aTime
 ;
 virtual
 void
-UpdatePlaybackPosition
-(
-int64_t
-aTime
-)
-=
-0
-;
-virtual
-void
 OnReadMetadataCompleted
 (
 )
