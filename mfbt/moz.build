@@ -375,6 +375,11 @@ Range
 h
 '
 '
+RangedArray
+.
+h
+'
+'
 RangedPtr
 .
 h
