@@ -378,6 +378,22 @@ i386
         
 self
 .
+run_as_root
+(
+[
+'
+apt
+-
+get
+'
+'
+update
+'
+]
+)
+        
+self
+.
 apt_install
 (
 *
