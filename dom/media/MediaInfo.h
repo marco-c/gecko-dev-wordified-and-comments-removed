@@ -156,6 +156,10 @@ mHasVideo
 =
 aHasVideo
 ;
+mIsHardwareAccelerated
+=
+false
+;
 mTrackInfo
 .
 Init
@@ -224,6 +228,9 @@ mHasVideo
 ;
 TrackInfo
 mTrackInfo
+;
+bool
+mIsHardwareAccelerated
 ;
 }
 ;

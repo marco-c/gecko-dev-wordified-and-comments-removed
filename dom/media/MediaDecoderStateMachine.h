@@ -1601,10 +1601,7 @@ int64_t
 mLowDataThresholdUsecs
 ;
 uint32_t
-GetAmpleVideoFrames
-(
-)
-const
+mAmpleVideoFrames
 ;
 int64_t
 mLowAudioThresholdUsecs
@@ -1676,9 +1673,7 @@ IsRealTime
 ?
 0
 :
-GetAmpleVideoFrames
-(
-)
+mAmpleVideoFrames
 /
 2
 ;
