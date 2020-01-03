@@ -10992,6 +10992,11 @@ isCommit
 |
 |
 newTagName
+.
+toLowerCase
+(
+)
+=
 =
 =
 this
@@ -10999,6 +11004,10 @@ this
 node
 .
 tagName
+.
+toLowerCase
+(
+)
 |
 |
 !
