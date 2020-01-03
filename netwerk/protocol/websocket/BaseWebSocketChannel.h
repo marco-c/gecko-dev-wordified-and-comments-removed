@@ -319,7 +319,7 @@ mLoadInfo
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
 mTargetThread
 ;

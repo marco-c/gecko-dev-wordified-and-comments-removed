@@ -211,7 +211,7 @@ mOwner
 ;
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
 mTargetThread
 ;

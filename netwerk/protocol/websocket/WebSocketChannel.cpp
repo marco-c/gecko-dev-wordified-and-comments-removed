@@ -2578,11 +2578,10 @@ CallAcknowledge
 MOZ_FINAL
 :
 public
-nsIRunnable
+nsCancelableRunnable
 {
 public
 :
-NS_DECL_THREADSAFE_ISUPPORTS
 CallAcknowledge
 (
 WebSocketChannel
@@ -2674,11 +2673,6 @@ mSize
 ;
 }
 ;
-NS_IMPL_ISUPPORTS
-(
-CallAcknowledge
-nsIRunnable
-)
 class
 CallOnTransportAvailable
 MOZ_FINAL
