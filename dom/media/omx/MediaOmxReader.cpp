@@ -2358,17 +2358,6 @@ duration
 mLastParserDuration
 )
 {
-ReentrantMonitorAutoEnter
-mon
-(
-decoder
--
->
-GetReentrantMonitor
-(
-)
-)
-;
 mLastParserDuration
 =
 duration
@@ -2376,7 +2365,7 @@ duration
 decoder
 -
 >
-UpdateEstimatedMediaDuration
+DispatchUpdateEstimatedMediaDuration
 (
 mLastParserDuration
 )

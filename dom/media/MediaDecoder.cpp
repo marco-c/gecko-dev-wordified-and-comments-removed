@@ -4813,6 +4813,13 @@ int64_t
 aDuration
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 mPlayState
