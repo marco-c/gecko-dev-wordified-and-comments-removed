@@ -47,12 +47,6 @@ results
 ;
 this
 .
-isWorker
-=
-false
-;
-this
-.
 Cc
 [
 "
