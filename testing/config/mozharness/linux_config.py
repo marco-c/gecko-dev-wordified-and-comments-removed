@@ -692,6 +692,18 @@ raw_log_file
 )
 s
 "
+                
+"
+-
+-
+utility
+-
+path
+=
+tests
+/
+bin
+"
             
 ]
             
