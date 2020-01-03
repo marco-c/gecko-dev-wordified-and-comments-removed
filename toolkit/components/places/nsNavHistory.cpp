@@ -743,10 +743,6 @@ nsPIPlacesDatabase
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsPIPlacesHistoryListenersNotifier
-)
-NS_INTERFACE_MAP_ENTRY
-(
 mozIStorageVacuumParticipant
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
@@ -13718,7 +13714,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNavHistory
 :
 :

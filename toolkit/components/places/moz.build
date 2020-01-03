@@ -194,11 +194,6 @@ nsPIPlacesDatabase
 .
 idl
 '
-'
-nsPIPlacesHistoryListenersNotifier
-.
-idl
-'
 ]
 EXPORTS
 .
