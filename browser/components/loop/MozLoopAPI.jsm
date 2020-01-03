@@ -2733,7 +2733,6 @@ value
 function
 (
 subject
-params
 )
 {
 UITour
@@ -2741,7 +2740,6 @@ UITour
 notify
 (
 subject
-params
 )
 ;
 }
