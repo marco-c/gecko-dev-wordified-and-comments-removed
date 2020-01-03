@@ -988,14 +988,6 @@ shape
 void
 eagerlyMarkChildren
 (
-BaseShape
-*
-base
-)
-;
-void
-eagerlyMarkChildren
-(
 JSString
 *
 str
