@@ -680,6 +680,11 @@ srcKey
 len
 )
 #
+if
+_MSC_VER
+<
+1900
+#
 define
 snprintf
 (
@@ -696,6 +701,8 @@ _TRUNCATE
 format
 name
 )
+#
+endif
 #
 define
 inline
