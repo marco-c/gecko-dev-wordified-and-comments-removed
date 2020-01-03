@@ -2474,19 +2474,19 @@ NSPR_LOG_MODULES
 '
 signaling
 :
-5
+3
 mtransport
 :
-5
+4
 datachannel
 :
-5
+4
 jsep
 :
-5
+4
 MediaPipelineFactory
 :
-5
+4
 '
 )
   
