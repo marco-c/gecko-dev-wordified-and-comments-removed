@@ -12725,9 +12725,6 @@ T
 >
 Impl
 ;
-cyclecollector
-:
-:
 DeferredFinalize
 (
 Impl
@@ -12765,9 +12762,6 @@ T
 aObject
 )
 {
-cyclecollector
-:
-:
 DeferredFinalize
 (
 reinterpret_cast

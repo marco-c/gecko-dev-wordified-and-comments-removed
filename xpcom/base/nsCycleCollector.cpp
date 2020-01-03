@@ -15598,9 +15598,6 @@ nullptr
 namespace
 mozilla
 {
-namespace
-cyclecollector
-{
 void
 DeferredFinalize
 (
@@ -15688,7 +15685,6 @@ aFunc
 aThing
 )
 ;
-}
 }
 }
 MOZ_NEVER_INLINE

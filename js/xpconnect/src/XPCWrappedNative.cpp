@@ -2486,9 +2486,6 @@ GetDoingFinalization
 )
 )
 {
-cyclecollector
-:
-:
 DeferredFinalize
 (
 mIdentity
@@ -3829,9 +3826,6 @@ if
 rt
 )
 {
-cyclecollector
-:
-:
 DeferredFinalize
 (
 obj

@@ -1978,9 +1978,6 @@ GCIsRunning
 )
 )
 {
-cyclecollector
-:
-:
 DeferredFinalize
 (
 mOuter

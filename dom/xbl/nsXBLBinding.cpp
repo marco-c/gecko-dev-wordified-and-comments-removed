@@ -367,9 +367,6 @@ obj
 )
 )
 ;
-cyclecollector
-:
-:
 DeferredFinalize
 (
 docInfo
