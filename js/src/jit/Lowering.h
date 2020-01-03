@@ -928,14 +928,6 @@ ins
 )
 ;
 bool
-visitSubstr
-(
-MSubstr
-*
-ins
-)
-;
-bool
 visitStart
 (
 MStart
