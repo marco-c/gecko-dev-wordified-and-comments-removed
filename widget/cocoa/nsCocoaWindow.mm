@@ -12747,16 +12747,6 @@ EnableSecureEventInput
 )
 ;
 }
-else
-{
-TextInputHandler
-:
-:
-EnsureSecureEventInputDisabled
-(
-)
-;
-}
 return
 NS_OK
 ;

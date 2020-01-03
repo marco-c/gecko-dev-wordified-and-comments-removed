@@ -8572,16 +8572,6 @@ EnableSecureEventInput
 )
 ;
 }
-else
-{
-TextInputHandler
-:
-:
-EnsureSecureEventInputDisabled
-(
-)
-;
-}
 NS_ENSURE_TRUE
 (
 mTextInputHandler
