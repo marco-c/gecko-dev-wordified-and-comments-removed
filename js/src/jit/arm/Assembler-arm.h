@@ -5676,7 +5676,14 @@ label
 )
 ;
 void
-align
+haltingAlign
+(
+int
+alignment
+)
+;
+void
+nopAlign
 (
 int
 alignment

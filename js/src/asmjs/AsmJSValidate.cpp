@@ -10468,7 +10468,7 @@ finishedFunctionBodies_
 ;
 masm_
 .
-align
+haltingAlign
 (
 AsmJSPageSize
 )
@@ -50290,7 +50290,7 @@ begin
 ;
 masm
 .
-align
+haltingAlign
 (
 CodeAlignment
 )
@@ -54831,7 +54831,7 @@ masm
 ;
 masm
 .
-align
+haltingAlign
 (
 CodeAlignment
 )
@@ -55764,7 +55764,7 @@ masm
 ;
 masm
 .
-align
+haltingAlign
 (
 CodeAlignment
 )

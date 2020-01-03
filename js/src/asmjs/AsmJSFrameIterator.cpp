@@ -1196,7 +1196,7 @@ flushBuffer
 endif
 masm
 .
-align
+haltingAlign
 (
 CodeAlignment
 )
@@ -1229,7 +1229,7 @@ body
 ;
 masm
 .
-align
+haltingAlign
 (
 CodeAlignment
 )
@@ -1697,7 +1697,7 @@ begin
 {
 masm
 .
-align
+haltingAlign
 (
 CodeAlignment
 )

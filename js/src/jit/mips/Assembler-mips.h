@@ -3810,7 +3810,14 @@ dest
 public
 :
 BufferOffset
-align
+haltingAlign
+(
+int
+alignment
+)
+;
+BufferOffset
+nopAlign
 (
 int
 alignment

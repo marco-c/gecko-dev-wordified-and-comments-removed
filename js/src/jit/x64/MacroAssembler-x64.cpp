@@ -833,7 +833,7 @@ empty
 )
 masm
 .
-align
+haltingAlign
 (
 sizeof
 (
@@ -899,7 +899,7 @@ empty
 )
 masm
 .
-align
+haltingAlign
 (
 sizeof
 (
@@ -965,7 +965,7 @@ empty
 )
 masm
 .
-align
+haltingAlign
 (
 SimdMemoryAlignment
 )

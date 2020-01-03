@@ -872,7 +872,7 @@ return
 ;
 masm
 .
-align
+haltingAlign
 (
 SizeOfJumpTableEntry
 )

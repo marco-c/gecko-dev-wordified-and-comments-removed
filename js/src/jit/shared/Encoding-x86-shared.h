@@ -38,6 +38,9 @@ MaxInstructionSize
 enum
 OneByteOpcodeID
 {
+OP_NOP_00
+=
+0x00
 OP_ADD_EbGb
 =
 0x00
@@ -65,6 +68,12 @@ OP_OR_EAXIv
 OP_2BYTE_ESCAPE
 =
 0x0F
+OP_NOP_0F
+=
+0x0F
+OP_NOP_1F
+=
+0x1F
 OP_AND_EbGb
 =
 0x20
@@ -121,6 +130,12 @@ PRE_REX
 0x40
 #
 endif
+OP_NOP_40
+=
+0x40
+OP_NOP_44
+=
+0x44
 OP_PUSH_EAX
 =
 0x50
@@ -152,6 +167,9 @@ PRE_OPERAND_SIZE
 PRE_SSE_66
 =
 0x66
+OP_NOP_66
+=
+0x66
 OP_PUSH_Iz
 =
 0x68
@@ -170,6 +188,9 @@ OP_JCC_rel8
 OP_GROUP1_EbIb
 =
 0x80
+OP_NOP_80
+=
+0x80
 OP_GROUP1_EvIz
 =
 0x81
@@ -177,6 +198,9 @@ OP_GROUP1_EvIb
 =
 0x83
 OP_TEST_EbGb
+=
+0x84
+OP_NOP_84
 =
 0x84
 OP_TEST_EvGv
