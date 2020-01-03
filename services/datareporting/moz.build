@@ -140,11 +140,6 @@ policy
 .
 jsm
 '
-'
-sessions
-.
-jsm
-'
 ]
 TESTING_JS_MODULES
 .
