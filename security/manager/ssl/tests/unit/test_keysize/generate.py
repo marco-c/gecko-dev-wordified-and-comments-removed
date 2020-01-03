@@ -1189,7 +1189,7 @@ generated_ev_root_filenames
     
 CertUtils
 .
-print_cert_info_for_ev
+print_cert_info
 (
 cert_filename
 )
