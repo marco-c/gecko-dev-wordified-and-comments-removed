@@ -60684,11 +60684,6 @@ readStringDelimiter
 strLen
 )
 ;
-if
-(
-pnnElement
-)
-{
 pnn
 .
 push
@@ -60696,7 +60691,6 @@ push
 pnnElement
 )
 ;
-}
 let
 RIL
 =
@@ -60708,9 +60702,6 @@ RIL
 ;
 if
 (
-pnnElement
-&
-&
 options
 .
 p1
