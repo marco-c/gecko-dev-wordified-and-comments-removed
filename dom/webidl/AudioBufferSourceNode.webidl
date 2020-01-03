@@ -165,6 +165,11 @@ attribute
 AudioParam
 playbackRate
 ;
+readonly
+attribute
+AudioParam
+detune
+;
 attribute
 boolean
 loop
