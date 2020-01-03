@@ -5868,7 +5868,8 @@ EmptyList
 )
 ;
 }
-nsresult
+nsIFrame
+*
 nsContainerFrame
 :
 :
@@ -5877,10 +5878,6 @@ CreateNextInFlow
 nsIFrame
 *
 aFrame
-nsIFrame
-*
-&
-aNextInFlowResult
 )
 {
 NS_PRECONDITION
@@ -5933,10 +5930,6 @@ pc
 PresContext
 (
 )
-;
-aNextInFlowResult
-=
-nullptr
 ;
 nsIFrame
 *
@@ -6012,13 +6005,12 @@ nextInFlow
 )
 )
 ;
-aNextInFlowResult
-=
+return
 nextInFlow
 ;
 }
 return
-NS_OK
+nullptr
 ;
 }
 void
