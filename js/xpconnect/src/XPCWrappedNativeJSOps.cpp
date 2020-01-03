@@ -3106,6 +3106,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 XPC_WN_JSOp_ThisObject
 }
 }

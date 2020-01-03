@@ -2676,6 +2676,13 @@ defineProperty
 nullptr
 /
 *
+hasProperty
+*
+/
+                      
+nullptr
+/
+*
 getProperty
 *
 /
