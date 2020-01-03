@@ -790,6 +790,7 @@ aPath
 endif
 private
 :
+virtual
 ~
 SourceBufferResource
 (
