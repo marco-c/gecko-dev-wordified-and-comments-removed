@@ -3855,8 +3855,7 @@ should
 navigate
 to
 call
-/
-feedback
+failed
 when
 network
 disconnects
@@ -3883,9 +3882,11 @@ TestUtils
 findRenderedComponentWithType
 (
 icView
-sharedView
+loop
 .
-FeedbackView
+conversation
+.
+IncomingCallFailedView
 )
 ;
 }
