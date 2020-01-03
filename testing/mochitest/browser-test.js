@@ -6285,7 +6285,7 @@ stack
 {
 if
 (
-self
+this
 .
 __expected
 =
@@ -6301,7 +6301,7 @@ if
 condition
 )
 {
-self
+this
 .
 __num_failed
 +
