@@ -9316,7 +9316,7 @@ classList
 contains
 (
 "
-styleinspector
+user
 -
 open
 "
@@ -13760,7 +13760,7 @@ classList
 contains
 (
 "
-styleinspector
+user
 -
 open
 "
@@ -13802,7 +13802,7 @@ classList
 remove
 (
 "
-styleinspector
+user
 -
 open
 "
@@ -13834,7 +13834,7 @@ classList
 add
 (
 "
-styleinspector
+user
 -
 open
 "
@@ -13866,7 +13866,7 @@ classList
 contains
 (
 "
-styleinspector
+user
 -
 open
 "
@@ -13937,7 +13937,7 @@ classList
 contains
 (
 "
-styleinspector
+user
 -
 open
 "
