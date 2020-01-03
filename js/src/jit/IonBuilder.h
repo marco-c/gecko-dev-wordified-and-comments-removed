@@ -5481,6 +5481,9 @@ inspector
 size_t
 inliningDepth_
 ;
+size_t
+inlinedBytecodeLength_
+;
 static
 const
 size_t

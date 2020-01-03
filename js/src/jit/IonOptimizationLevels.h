@@ -164,6 +164,9 @@ uint32_t
 inlineMaxBytecodePerCallSiteMainThread_
 ;
 uint32_t
+inlineMaxTotalBytecodeLength_
+;
+uint32_t
 inliningMaxCallerBytecodeLength_
 ;
 uint32_t
@@ -527,6 +530,16 @@ limitScriptSize
 inlineMaxBytecodePerCallSiteOffThread_
 :
 inlineMaxBytecodePerCallSiteMainThread_
+;
+}
+uint32_t
+inlineMaxTotalBytecodeLength
+(
+)
+const
+{
+return
+inlineMaxTotalBytecodeLength_
 ;
 }
 uint32_t
