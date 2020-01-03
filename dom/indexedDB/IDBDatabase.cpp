@@ -5564,9 +5564,8 @@ IndexedDatabaseManager
 :
 CommonPostHandleEvent
 (
-this
-mFactory
 aVisitor
+mFactory
 )
 ;
 if
