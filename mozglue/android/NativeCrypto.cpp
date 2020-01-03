@@ -110,7 +110,7 @@ than
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 jbyte
@@ -123,7 +123,7 @@ env
 GetByteArrayElements
 (
 jpassword
-NULL
+nullptr
 )
 ;
 size_t
@@ -147,7 +147,7 @@ env
 GetByteArrayElements
 (
 jsalt
-NULL
+nullptr
 )
 ;
 size_t
@@ -228,11 +228,11 @@ if
 out
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 env
@@ -286,7 +286,7 @@ env
 GetByteArrayElements
 (
 jstr
-NULL
+nullptr
 )
 ;
 size_t
@@ -360,11 +360,11 @@ if
 out
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 env
