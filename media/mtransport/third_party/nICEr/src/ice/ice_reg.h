@@ -249,6 +249,14 @@ ice
 trickle_grace_period
 "
 #
+define
+NR_ICE_REG_PREF_FORCE_INTERFACE_NAME
+"
+ice
+.
+forced_interface_name
+"
+#
 ifdef
 __cplusplus
 }
