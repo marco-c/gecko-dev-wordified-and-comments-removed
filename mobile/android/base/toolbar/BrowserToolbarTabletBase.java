@@ -271,6 +271,13 @@ menuButton
 )
 )
 ;
+urlDisplayLayout
+.
+updateSiteIdentityAnchor
+(
+backButton
+)
+;
 }
 private
 void
