@@ -4210,6 +4210,11 @@ return
 mOriginalDocument
 ;
 }
+void
+UnlinkOriginalDocumentIfStatic
+(
+)
+;
 virtual
 void
 PreloadPictureOpened
@@ -7280,6 +7285,9 @@ mExternalScriptsBeingEvaluated
 ;
 int32_t
 mFrameRequestCallbackCounter
+;
+uint32_t
+mStaticCloneCount
 ;
 nsTArray
 <
