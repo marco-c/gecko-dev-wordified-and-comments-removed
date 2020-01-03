@@ -242,7 +242,7 @@ makeObserver
 (
 FxAccountsCommon
 .
-ON_PROFILE_CHANGE_NOTIFICATION
+ONPROFILE_IMAGE_CHANGE_NOTIFICATION
 function
 (
 subject

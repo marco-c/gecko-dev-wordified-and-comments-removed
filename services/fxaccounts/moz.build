@@ -159,11 +159,6 @@ FxAccountsOAuthGrantClient
 jsm
 '
 '
-FxAccountsProfile
-.
-jsm
-'
-'
 FxAccountsProfileChannel
 .
 jsm
