@@ -2147,6 +2147,12 @@ nsIPrompt
 .
 BUTTON_POS_1
 )
++
+Ci
+.
+nsIPrompt
+.
+BUTTON_POS_1_DEFAULT
 ;
 let
 type
@@ -2378,8 +2384,8 @@ aOwnerWindow
 title
 message
 buttonFlags
-cancelButton
 okButton
+cancelButton
 null
 null
 {
@@ -2391,7 +2397,7 @@ return
 rv
 =
 =
-1
+0
 )
 ;
 }
