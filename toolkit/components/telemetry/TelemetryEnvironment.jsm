@@ -4184,6 +4184,17 @@ function
 (
 )
 {
+if
+(
+!
+Services
+.
+search
+)
+{
+return
+;
+}
 this
 .
 _log
