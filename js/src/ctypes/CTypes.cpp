@@ -4613,9 +4613,6 @@ JS_NewObject
 cx
 &
 sCDataProtoClass
-NullPtr
-(
-)
 parent
 )
 )
@@ -6067,12 +6064,6 @@ JS_NewObject
 cx
 &
 sCTypesGlobalClass
-NullPtr
-(
-)
-NullPtr
-(
-)
 )
 )
 ;
@@ -6173,9 +6164,6 @@ JS_NewObject
 cx
 &
 sCDataFinalizerProtoClass
-NullPtr
-(
-)
 ctypes
 )
 )
@@ -30263,12 +30251,6 @@ JS_NewObject
 cx
 &
 sCClosureClass
-NullPtr
-(
-)
-NullPtr
-(
-)
 )
 )
 ;

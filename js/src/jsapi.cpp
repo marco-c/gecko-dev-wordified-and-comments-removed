@@ -9489,8 +9489,6 @@ JSClass
 *
 jsclasp
 HandleObject
-proto
-HandleObject
 parent
 )
 {
@@ -9529,7 +9527,6 @@ cx
 assertSameCompartment
 (
 cx
-proto
 parent
 )
 ;
@@ -9589,7 +9586,7 @@ NewObjectWithClassProto
 (
 cx
 clasp
-proto
+nullptr
 parent
 )
 ;

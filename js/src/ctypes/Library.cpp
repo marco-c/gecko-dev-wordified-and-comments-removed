@@ -353,12 +353,6 @@ JS_NewObject
 cx
 &
 sLibraryClass
-NullPtr
-(
-)
-NullPtr
-(
-)
 )
 )
 ;

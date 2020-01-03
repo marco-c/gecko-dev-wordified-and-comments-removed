@@ -9665,12 +9665,6 @@ JS_NewObject
 cx
 &
 ControllersShimClass
-JS
-:
-:
-NullPtr
-(
-)
 obj
 )
 )

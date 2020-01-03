@@ -2197,12 +2197,6 @@ JS_NewObject
 (
 cx
 nullptr
-JS
-:
-:
-NullPtr
-(
-)
 scope
 )
 ;
