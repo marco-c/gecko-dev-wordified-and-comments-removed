@@ -328,10 +328,11 @@ NS_IsMainThread
 }
 #
 endif
-NS_IMPL_ISUPPORTS_INHERITED0
+NS_IMPL_ISUPPORTS_INHERITED
 (
 FileImplSnapshot
 FileImpl
+PIFileImplSnapshot
 )
 void
 FileImplSnapshot
