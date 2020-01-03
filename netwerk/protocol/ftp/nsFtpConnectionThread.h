@@ -1,9 +1,9 @@
 #
 ifndef
-__nsFtpState__h_
+__nsFtpConnectionThread__h_
 #
 define
-__nsFtpState__h_
+__nsFtpConnectionThread__h_
 #
 include
 "
@@ -638,10 +638,6 @@ mServerIsIPv6
 ;
 bool
 mUseUTF8
-;
-static
-uint32_t
-mSessionStartTime
 ;
 mozilla
 :
