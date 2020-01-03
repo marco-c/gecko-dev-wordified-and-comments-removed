@@ -636,6 +636,7 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 and
+(
 CONFIG
 [
 '
@@ -647,6 +648,19 @@ ANDROID_VERSION
 '
 17
 '
+or
+CONFIG
+[
+'
+ANDROID_VERSION
+'
+]
+>
+=
+'
+21
+'
+)
 :
 DEFINES
 [
