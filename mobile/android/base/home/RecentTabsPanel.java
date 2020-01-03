@@ -1139,7 +1139,7 @@ R
 .
 drawable
 .
-icon_last_tabs_empty
+icon_remote_tabs_empty
 )
 ;
 final
