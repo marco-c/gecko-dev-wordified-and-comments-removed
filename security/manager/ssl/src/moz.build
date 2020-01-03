@@ -345,11 +345,6 @@ nsSSLStatus
 cpp
 '
 '
-nsStreamCipher
-.
-cpp
-'
-'
 nsTLSSocketProvider
 .
 cpp

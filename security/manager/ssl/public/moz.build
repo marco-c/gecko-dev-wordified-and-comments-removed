@@ -228,11 +228,6 @@ nsISSLStatus
 idl
 '
 '
-nsIStreamCipher
-.
-idl
-'
-'
 nsITokenDialogs
 .
 idl
