@@ -1197,6 +1197,15 @@ mSpdyInfo
 ;
 }
 bool
+IsH2MandatorySuiteEnabled
+(
+)
+{
+return
+mH2MandatorySuiteEnabled
+;
+}
+bool
 Active
 (
 )
@@ -1413,6 +1422,9 @@ mMaxRequestDelay
 ;
 uint16_t
 mIdleSynTimeout
+;
+bool
+mH2MandatorySuiteEnabled
 ;
 bool
 mPipeliningEnabled
