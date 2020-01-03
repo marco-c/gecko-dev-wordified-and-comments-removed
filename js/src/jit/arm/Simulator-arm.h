@@ -715,6 +715,11 @@ end_sim_pc
 2
 }
 ;
+bool
+init
+(
+)
+;
 inline
 bool
 conditionallyExecute
