@@ -102,6 +102,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 prlog
 .
