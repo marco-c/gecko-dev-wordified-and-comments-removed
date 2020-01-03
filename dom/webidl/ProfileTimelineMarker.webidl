@@ -100,12 +100,12 @@ name
 "
 "
 ;
-DOMTimeStamp
+DOMHighResTimeStamp
 start
 =
 0
 ;
-DOMTimeStamp
+DOMHighResTimeStamp
 end
 =
 0

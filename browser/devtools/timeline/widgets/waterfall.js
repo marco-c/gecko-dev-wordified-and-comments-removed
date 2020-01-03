@@ -406,6 +406,10 @@ this
 .
 _headerContents
 timeStart
+-
+markers
+.
+startTime
 dataScale
 )
 ;

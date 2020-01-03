@@ -2360,11 +2360,8 @@ mOpener
 nsWeakPtr
 mOpenedRemote
 ;
-mozilla
-:
-:
-TimeStamp
-mProfileTimelineStartTime
+bool
+mProfileTimelineRecording
 ;
 #
 ifdef
@@ -2381,7 +2378,7 @@ aName
 ProfilerMarkerTracing
 *
 aPayload
-float
+DOMHighResTimeStamp
 aTime
 )
 :
@@ -2417,7 +2414,7 @@ ProfilerMarkerTracing
 *
 mPayload
 ;
-float
+DOMHighResTimeStamp
 mTime
 ;
 }
@@ -2431,11 +2428,6 @@ mProfileTimelineMarkers
 ;
 #
 endif
-float
-GetProfileTimelineDelta
-(
-)
-;
 void
 ClearProfileTimelineMarkers
 (
