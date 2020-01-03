@@ -684,6 +684,12 @@ Shutdown
 (
 )
 {
+MOZ_ASSERT
+(
+!
+mActiveProxy
+)
+;
 if
 (
 mDecoder
