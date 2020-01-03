@@ -141,6 +141,16 @@ property
 )
 ASTDEF
 (
+AST_PROTOTYPEMUTATION
+"
+PrototypeMutation
+"
+"
+prototypeMutation
+"
+)
+ASTDEF
+(
 AST_MODULE_DECL
 "
 ModuleDeclaration
