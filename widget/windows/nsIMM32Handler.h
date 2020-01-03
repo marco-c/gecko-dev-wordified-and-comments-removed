@@ -931,6 +931,12 @@ HandleEndComposition
 nsWindow
 *
 aWindow
+const
+nsAString
+*
+aCommitString
+=
+nullptr
 )
 ;
 bool
@@ -1068,7 +1074,11 @@ nsIMEContext
 aIMEContext
 DWORD
 aIndex
+nsAString
+&
+aCompositionString
 )
+const
 ;
 bool
 GetTargetClauseRange
@@ -1093,10 +1103,6 @@ const
 nsIMEContext
 &
 aIMEContext
-bool
-aCheckAttr
-=
-true
 )
 ;
 already_AddRefed
@@ -1234,9 +1240,6 @@ mComposingWindow
 ;
 nsString
 mCompositionString
-;
-nsString
-mLastDispatchedCompositionString
 ;
 InfallibleTArray
 <
