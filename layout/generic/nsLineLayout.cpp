@@ -393,7 +393,7 @@ mBStartEdge
 =
 0
 ;
-mTrimmableWidth
+mTrimmableISize
 =
 0
 ;
@@ -4365,7 +4365,7 @@ outOfFlowFrame
 )
 {
 nscoord
-availableWidth
+availableISize
 =
 psd
 -
@@ -4378,7 +4378,7 @@ psd
 >
 mICoord
 -
-mTrimmableWidth
+mTrimmableISize
 )
 ;
 if
@@ -4389,7 +4389,7 @@ psd
 mNoWrap
 )
 {
-availableWidth
+availableISize
 =
 0
 ;
@@ -4399,7 +4399,7 @@ placedFloat
 AddFloat
 (
 outOfFlowFrame
-availableWidth
+availableISize
 )
 ;
 NS_ASSERTION
@@ -5056,7 +5056,7 @@ PFD_SKIPWHENTRIMMINGWHITESPACE
 )
 )
 {
-mTrimmableWidth
+mTrimmableISize
 =
 0
 ;
@@ -5878,7 +5878,7 @@ IEnd
 lineWM
 )
 -
-mTrimmableWidth
+mTrimmableISize
 +
 endMargin
 >
