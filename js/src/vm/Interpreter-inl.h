@@ -3371,6 +3371,17 @@ ArrayObject
 >
 (
 )
+|
+|
+obj
+-
+>
+is
+<
+UnboxedArrayObject
+>
+(
+)
 )
 ;
 if

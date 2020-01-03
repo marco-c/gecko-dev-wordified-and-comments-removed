@@ -11028,6 +11028,20 @@ isSingleton
 )
 &
 &
+!
+obj
+-
+>
+group
+(
+)
+-
+>
+hasUnanalyzedPreliminaryObjects
+(
+)
+&
+&
 obj
 -
 >
@@ -11043,6 +11057,7 @@ getProto
 (
 )
 )
+{
 narr
 -
 >
@@ -11056,6 +11071,7 @@ group
 )
 )
 ;
+}
 }
 static
 inline

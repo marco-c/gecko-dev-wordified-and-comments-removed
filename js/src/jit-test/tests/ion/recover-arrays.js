@@ -14,7 +14,7 @@ trigger
 ]
 <
 =
-20
+100
 )
 setJitCompilerOption
 (
@@ -25,7 +25,7 @@ warmup
 .
 trigger
 "
-20
+100
 )
 ;
 var

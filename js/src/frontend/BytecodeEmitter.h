@@ -1630,6 +1630,8 @@ ParseNode
 pn
 uint32_t
 count
+JSOp
+op
 )
 ;
 bool
