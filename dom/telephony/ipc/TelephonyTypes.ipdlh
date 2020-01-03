@@ -127,11 +127,7 @@ h
 "
 ;
 using
-struct
-IPC
-:
-:
-MozCallForwardingOptions
+nsMobileCallForwardingOptions
 from
 "
 mozilla
@@ -220,7 +216,7 @@ nsString
 [
 ]
 ;
-MozCallForwardingOptions
+nsMobileCallForwardingOptions
 [
 ]
 ;
