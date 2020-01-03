@@ -2301,7 +2301,10 @@ corsListener
 Init
 (
 chan
-true
+DataURIHandling
+:
+:
+Allow
 )
 ;
 if

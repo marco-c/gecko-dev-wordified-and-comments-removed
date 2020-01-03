@@ -2565,6 +2565,10 @@ listener
 Init
 (
 channel
+DataURIHandling
+:
+:
+Disallow
 )
 ;
 if

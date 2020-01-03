@@ -7232,7 +7232,10 @@ corsproxy
 Init
 (
 newChannel
-true
+DataURIHandling
+:
+:
+Allow
 )
 ;
 if
@@ -9684,7 +9687,10 @@ corsproxy
 Init
 (
 newChannel
-true
+DataURIHandling
+:
+:
+Allow
 )
 ;
 if

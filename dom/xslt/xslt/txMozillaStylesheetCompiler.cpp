@@ -2169,6 +2169,10 @@ listener
 Init
 (
 channel
+DataURIHandling
+:
+:
+Disallow
 )
 ;
 NS_ENSURE_SUCCESS
