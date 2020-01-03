@@ -2751,6 +2751,13 @@ mNeedsRefreshes
 ;
 }
 }
+mManager
+-
+>
+CheckNeedsRefresh
+(
+)
+;
 }
 bool
 AnimationPlayerCollection

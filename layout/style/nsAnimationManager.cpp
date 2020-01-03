@@ -608,10 +608,6 @@ aCollection
 mPendingEvents
 )
 ;
-CheckNeedsRefresh
-(
-)
-;
 }
 void
 nsAnimationManager
