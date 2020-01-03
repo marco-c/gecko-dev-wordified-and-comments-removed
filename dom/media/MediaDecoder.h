@@ -316,8 +316,6 @@ class
 MediaDecoder
 :
 public
-nsIObserver
-public
 AbstractMediaDecoder
 {
 public
