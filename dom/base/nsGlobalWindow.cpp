@@ -7944,15 +7944,6 @@ nsIDOMWindow
 )
 #
 ifdef
-MOZ_B2G
-NS_INTERFACE_MAP_ENTRY
-(
-nsIDOMWindowB2G
-)
-#
-endif
-#
-ifdef
 MOZ_WEBSPEECH
 NS_INTERFACE_MAP_ENTRY
 (
