@@ -364,8 +364,13 @@ error
 .
 errno
 )
-roomState
-:
+}
+)
+;
+this
+.
+_leaveRoom
+(
 actionData
 .
 error
@@ -385,7 +390,6 @@ FULL
 ROOM_STATES
 .
 FAILED
-}
 )
 ;
 }
