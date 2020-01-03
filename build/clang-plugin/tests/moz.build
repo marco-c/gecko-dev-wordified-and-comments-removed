@@ -132,6 +132,11 @@ TestStackClass
 .
 cpp
 '
+'
+TestTrivialCtorDtor
+.
+cpp
+'
 ]
 DISABLE_STL_WRAPPING
 =
