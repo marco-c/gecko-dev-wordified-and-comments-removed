@@ -2760,7 +2760,10 @@ GetFlatJSObjectPreserveColor
 ;
 if
 (
-xpc_IsGrayGCThing
+JS
+:
+:
+ObjectIsMarkedGray
 (
 obj
 )
@@ -2850,7 +2853,10 @@ CCGeneration
 )
 )
 {
-jsval
+JS
+:
+:
+Value
 val
 =
 v
@@ -2870,7 +2876,10 @@ isObject
 &
 &
 !
-xpc_IsGrayGCThing
+JS
+:
+:
+ObjectIsMarkedGray
 (
 &
 val

@@ -82,7 +82,10 @@ return
 mCallback
 &
 &
-xpc_IsGrayGCThing
+JS
+:
+:
+ObjectIsMarkedGray
 (
 mCallback
 )

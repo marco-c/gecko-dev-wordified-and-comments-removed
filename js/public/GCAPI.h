@@ -1158,10 +1158,6 @@ JS
 GCThingIsMarkedGray
 (
 thing
-.
-asCell
-(
-)
 )
 )
 JS
