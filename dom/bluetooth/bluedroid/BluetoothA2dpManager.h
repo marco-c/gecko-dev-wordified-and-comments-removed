@@ -100,6 +100,12 @@ BluetoothProfileResultHandler
 aRes
 )
 ;
+virtual
+~
+BluetoothA2dpManager
+(
+)
+;
 void
 OnConnectError
 (
@@ -221,14 +227,6 @@ GetArtist
 nsAString
 &
 aArtist
-)
-;
-protected
-:
-virtual
-~
-BluetoothA2dpManager
-(
 )
 ;
 private

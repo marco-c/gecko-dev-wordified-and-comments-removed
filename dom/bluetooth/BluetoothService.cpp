@@ -762,14 +762,6 @@ return
 NS_OK
 ;
 }
-protected
-:
-~
-StartupTask
-(
-)
-{
-}
 }
 ;
 NS_IMPL_ISUPPORTS

@@ -760,14 +760,6 @@ return
 NS_OK
 ;
 }
-protected
-:
-~
-GetVolumeTask
-(
-)
-{
-}
 }
 ;
 NS_IMPL_ISUPPORTS
