@@ -574,10 +574,10 @@ graph
 _onMouseMove
 (
 {
-clientX
+testX
 :
 x
-clientY
+testY
 :
 y
 }
@@ -588,10 +588,10 @@ graph
 _onMouseWheel
 (
 {
-clientX
+testX
 :
 x
-clientY
+testY
 :
 y
 axis
