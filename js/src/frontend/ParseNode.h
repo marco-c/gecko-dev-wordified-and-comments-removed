@@ -412,11 +412,6 @@ IF
 \
 F
 (
-ELSE
-)
-\
-F
-(
 SWITCH
 )
 \
