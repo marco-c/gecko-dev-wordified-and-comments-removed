@@ -488,9 +488,6 @@ class
 nsDocumentOnStack
 ;
 class
-nsPointerLockPermissionRequest
-;
-class
 nsISecurityConsoleMessage
 ;
 class
