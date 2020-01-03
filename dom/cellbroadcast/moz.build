@@ -114,6 +114,11 @@ CellBroadcast
 .
 h
 '
+'
+CellBroadcastMessage
+.
+h
+'
 ]
 SOURCES
 +
@@ -121,6 +126,11 @@ SOURCES
 [
 '
 CellBroadcast
+.
+cpp
+'
+'
+CellBroadcastMessage
 .
 cpp
 '

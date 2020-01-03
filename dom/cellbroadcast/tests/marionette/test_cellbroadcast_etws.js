@@ -248,7 +248,7 @@ ok
 aMessage
 .
 cdmaServiceCategory
-!
+=
 =
 null
 "

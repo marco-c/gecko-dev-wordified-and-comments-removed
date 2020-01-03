@@ -1240,11 +1240,6 @@ InterAppMessagePort
 webidl
 '
 '
-KeyAlgorithm
-.
-webidl
-'
-'
 KeyboardEvent
 .
 webidl
@@ -1371,6 +1366,11 @@ webidl
 '
 '
 MozActivity
+.
+webidl
+'
+'
+MozCellBroadcastMessage
 .
 webidl
 '

@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-domstubs
-.
-idl
-"
-#
-include
-"
 nsICellBroadcastService
 .
 idl
