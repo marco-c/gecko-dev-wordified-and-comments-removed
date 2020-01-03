@@ -256,6 +256,14 @@ cmd_copyOrDelete
 ;
 NS_REGISTER_ONE_COMMAND
 (
+nsCopyAndCollapseToEndCommand
+"
+cmd_copyAndCollapseToEnd
+"
+)
+;
+NS_REGISTER_ONE_COMMAND
+(
 nsSelectAllCommand
 "
 cmd_selectAll
