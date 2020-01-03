@@ -27,7 +27,7 @@ mozilla
 /
 ipc
 /
-UnixSocket
+UnixSocketConnector
 .
 h
 >

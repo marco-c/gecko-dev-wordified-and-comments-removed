@@ -83,13 +83,6 @@ class
 BlobParent
 ;
 }
-namespace
-ipc
-{
-class
-UnixSocketConsumer
-;
-}
 }
 BEGIN_BLUETOOTH_NAMESPACE
 class

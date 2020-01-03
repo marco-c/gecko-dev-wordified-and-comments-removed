@@ -39,7 +39,7 @@ mozilla
 /
 ipc
 /
-UnixSocket
+SocketBase
 .
 h
 "
