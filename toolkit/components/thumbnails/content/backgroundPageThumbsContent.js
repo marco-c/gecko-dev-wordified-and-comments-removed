@@ -629,7 +629,7 @@ canvas
 =
 PageThumbs
 .
-_createCanvas
+createCanvas
 (
 content
 )

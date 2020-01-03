@@ -760,7 +760,7 @@ canvas
 =
 this
 .
-_createCanvas
+createCanvas
 (
 )
 ;
@@ -835,7 +835,7 @@ canvas
 =
 this
 .
-_createCanvas
+createCanvas
 (
 )
 ;
@@ -1614,7 +1614,7 @@ scale
 ]
 ;
 }
-_createCanvas
+createCanvas
 :
 function
 PageThumbs_createCanvas
