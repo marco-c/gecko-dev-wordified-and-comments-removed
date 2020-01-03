@@ -3534,7 +3534,6 @@ avail_in
 0
 &
 &
-!
 (
 png_ptr
 -
@@ -3543,6 +3542,9 @@ flags
 &
 PNG_FLAG_ZSTREAM_ENDED
 )
+=
+=
+0
 )
 {
 int
@@ -4875,6 +4877,8 @@ png_ptr
 }
 }
 else
+#
+endif
 {
 png_push_have_row
 (
@@ -4901,6 +4905,9 @@ png_structrp
 png_ptr
 )
 {
+#
+ifdef
+PNG_READ_INTERLACING_SUPPORTED
 static
 PNG_CONST
 png_byte
@@ -4992,6 +4999,9 @@ num_rows
 )
 return
 ;
+#
+ifdef
+PNG_READ_INTERLACING_SUPPORTED
 if
 (
 png_ptr
@@ -5241,6 +5251,8 @@ num_rows
 )
 ;
 }
+#
+endif
 }
 void
 png_push_have_info
@@ -5355,6 +5367,9 @@ pass
 )
 ;
 }
+#
+ifdef
+PNG_READ_INTERLACING_SUPPORTED
 void
 PNGAPI
 png_progressive_combine_row
@@ -5391,6 +5406,8 @@ old_row
 )
 ;
 }
+#
+endif
 void
 PNGAPI
 png_set_progressive_read_fn

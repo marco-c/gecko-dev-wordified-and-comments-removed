@@ -2724,8 +2724,6 @@ palette
 "
 )
 ;
-return
-;
 }
 png_free_data
 (
@@ -4590,6 +4588,19 @@ trans_color
 NULL
 )
 {
+#
+ifdef
+PNG_WARNINGS_SUPPORTED
+if
+(
+info_ptr
+-
+>
+bit_depth
+<
+16
+)
+{
 int
 sample_max
 =
@@ -4602,6 +4613,8 @@ info_ptr
 >
 bit_depth
 )
+-
+1
 ;
 if
 (
@@ -4678,6 +4691,9 @@ bit_depth
 "
 )
 ;
+}
+#
+endif
 info_ptr
 -
 >
@@ -7467,6 +7483,9 @@ use
 return
 ;
 }
+#
+ifndef
+__COVERITY__
 if
 (
 size
@@ -7493,7 +7512,8 @@ size
 ZLIB_IO_MAX
 ;
 }
-else
+#
+endif
 if
 (
 size

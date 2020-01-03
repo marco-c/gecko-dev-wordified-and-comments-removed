@@ -12,7 +12,7 @@ PNG_LIBPNG_VER_STRING
 .
 6
 .
-16
+17
 "
 #
 define
@@ -25,11 +25,11 @@ version
 .
 6
 .
-16
+17
 -
-December
-22
-2014
+March
+25
+2015
 \
 n
 "
@@ -52,7 +52,7 @@ PNG_LIBPNG_VER_MINOR
 #
 define
 PNG_LIBPNG_VER_RELEASE
-16
+17
 #
 define
 PNG_LIBPNG_VER_BUILD
@@ -130,14 +130,14 @@ PNG_LIBPNG_BUILD_STABLE
 #
 define
 PNG_LIBPNG_VER
-10616
+10617
 /
 *
 1
 .
 6
 .
-16
+17
 *
 /
 #
@@ -259,7 +259,7 @@ endif
 typedef
 char
 *
-png_libpng_version_1_6_16
+png_libpng_version_1_6_17
 ;
 typedef
 struct
@@ -3348,6 +3348,9 @@ current
 value
 *
 /
+#
+ifdef
+PNG_WRITE_SUPPORTED
 PNG_EXPORT
 (
 67
@@ -3363,6 +3366,8 @@ filters
 )
 )
 ;
+#
+endif
 #
 define
 PNG_NO_FILTERS
@@ -3426,6 +3431,9 @@ PNG_FILTER_VALUE_PAETH
 define
 PNG_FILTER_VALUE_LAST
 5
+#
+ifdef
+PNG_WRITE_SUPPORTED
 #
 ifdef
 PNG_WRITE_WEIGHTED_FILTER_SUPPORTED
@@ -3518,7 +3526,7 @@ value
 /
 #
 ifdef
-PNG_WRITE_SUPPORTED
+PNG_WRITE_CUSTOMIZE_COMPRESSION_SUPPORTED
 PNG_EXPORT
 (
 69
@@ -3654,6 +3662,8 @@ method
 )
 )
 ;
+#
+endif
 #
 endif
 #
@@ -7038,6 +7048,7 @@ png_byte
 )
 (
 (
+(
 temp
 +
 (
@@ -7050,6 +7061,9 @@ temp
 >
 >
 8
+)
+&
+0xff
 )
 ;
 }
@@ -7118,6 +7132,9 @@ composite
 png_uint_16
 )
 (
+0xffff
+&
+(
 (
 temp
 +
@@ -7131,6 +7148,7 @@ temp
 >
 >
 16
+)
 )
 ;
 }
@@ -7150,9 +7168,13 @@ bg
 composite
 )
 =
+\
 (
 png_byte
 )
+(
+0xff
+&
 (
 (
 (
@@ -7197,6 +7219,7 @@ alpha
 /
 255
 )
+)
 #
 define
 png_composite_16
@@ -7211,9 +7234,13 @@ bg
 composite
 )
 =
+\
 (
 png_uint_16
 )
+(
+0xffff
+&
 (
 (
 (
@@ -7257,6 +7284,7 @@ alpha
 )
 /
 65535
+)
 )
 #
 endif

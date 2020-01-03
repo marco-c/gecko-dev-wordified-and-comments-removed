@@ -5679,6 +5679,9 @@ errmsg
 truncated
 "
 ;
+#
+ifndef
+__COVERITY__
 else
 errmsg
 =
@@ -5689,6 +5692,8 @@ zstream
 .
 msg
 ;
+#
+endif
 }
 }
 else
