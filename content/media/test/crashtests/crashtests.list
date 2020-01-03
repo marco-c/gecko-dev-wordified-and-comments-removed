@@ -509,6 +509,12 @@ into
 other
 tests
 .
+skip
+-
+if
+(
+winWidget
+)
 load
 691096
 -
