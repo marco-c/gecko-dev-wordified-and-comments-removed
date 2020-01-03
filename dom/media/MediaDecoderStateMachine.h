@@ -2672,6 +2672,9 @@ mSentLoadedMetadataEvent
 bool
 mSentFirstFrameLoadedEvent
 ;
+bool
+mSentPlaybackEndedEvent
+;
 }
 ;
 }
