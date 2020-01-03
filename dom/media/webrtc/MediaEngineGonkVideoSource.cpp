@@ -299,7 +299,13 @@ delta
 =
 aDesiredTime
 -
-aLastEndTime
+aSource
+-
+>
+GetEndOfAppendedData
+(
+aID
+)
 ;
 LOGFRAME
 (
