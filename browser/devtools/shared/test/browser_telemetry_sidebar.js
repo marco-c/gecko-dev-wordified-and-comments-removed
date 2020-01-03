@@ -297,6 +297,9 @@ fontinspector
 "
 layoutview
 "
+"
+animationinspector
+"
 ]
 ;
 sidebarTools

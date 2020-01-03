@@ -98,6 +98,9 @@ DIRS
 =
 [
 '
+animationinspector
+'
+'
 app
 -
 manager
