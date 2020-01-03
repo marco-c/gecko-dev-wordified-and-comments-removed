@@ -606,6 +606,9 @@ mStartedOutput
 bool
 mLineBreakDue
 ;
+bool
+mPreformattedBlockBoundary
+;
 nsString
 mURL
 ;

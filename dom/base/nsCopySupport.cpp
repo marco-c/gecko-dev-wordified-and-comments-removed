@@ -459,6 +459,11 @@ nsIDocumentEncoder
 :
 :
 OutputRaw
+|
+nsIDocumentEncoder
+:
+:
+OutputForPlainTextClipboardCopy
 ;
 nsCOMPtr
 <
