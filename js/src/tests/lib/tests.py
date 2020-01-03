@@ -514,6 +514,13 @@ options
 =
 [
 ]
+        
+self
+.
+jitflags
+=
+[
+]
     
 staticmethod
     
@@ -643,7 +650,13 @@ js_cmd_prefix
 +
 self
 .
+jitflags
++
+self
+.
 options
+\
+              
 +
 Test
 .
@@ -651,8 +664,6 @@ prefix_command
 (
 dirname
 )
-\
-              
 +
 [
 '
