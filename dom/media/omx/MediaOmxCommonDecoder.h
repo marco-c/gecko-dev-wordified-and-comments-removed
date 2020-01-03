@@ -52,6 +52,7 @@ aInfo
 MediaDecoderEventVisibility
 aEventVisibility
 )
+override
 ;
 virtual
 void
@@ -60,14 +61,18 @@ ChangeState
 PlayState
 aState
 )
+override
 ;
 virtual
 void
-ApplyStateToStateMachine
+CallSeek
 (
-PlayState
-aState
+const
+SeekTarget
+&
+aTarget
 )
+override
 ;
 virtual
 void
@@ -76,6 +81,7 @@ SetVolume
 double
 aVolume
 )
+override
 ;
 virtual
 void
@@ -89,6 +95,7 @@ MediaDecoderEventVisibility
 :
 Observable
 )
+override
 ;
 virtual
 MediaDecoderOwner
@@ -107,6 +114,7 @@ SetElementVisibility
 bool
 aIsVisible
 )
+override
 ;
 virtual
 void
@@ -115,12 +123,14 @@ SetPlatformCanOffloadAudio
 bool
 aCanOffloadAudio
 )
+override
 ;
 virtual
 bool
 CheckDecoderCanOffloadAudio
 (
 )
+override
 ;
 virtual
 void
@@ -132,6 +142,7 @@ aStream
 bool
 aFinishWhenEnded
 )
+override
 ;
 virtual
 void
@@ -140,6 +151,7 @@ SetPlaybackRate
 double
 aPlaybackRate
 )
+override
 ;
 void
 AudioOffloadTearDown
@@ -152,6 +164,7 @@ MediaDecoderStateMachine
 CreateStateMachine
 (
 )
+override
 ;
 virtual
 MediaOmxCommonReader

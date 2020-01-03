@@ -56,7 +56,7 @@ override
 ;
 virtual
 void
-ApplyStateToStateMachine
+ChangeState
 (
 PlayState
 aState

@@ -1374,6 +1374,11 @@ PlayStateChanged
 )
 ;
 void
+LogicallySeekingChanged
+(
+)
+;
+void
 StopPlayback
 (
 )
@@ -2018,6 +2023,12 @@ MediaDecoder
 PlayState
 >
 mNextPlayState
+;
+Mirror
+<
+bool
+>
+mLogicallySeeking
 ;
 bool
 IsLogicallyPlaying

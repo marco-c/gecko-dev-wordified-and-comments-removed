@@ -93,7 +93,7 @@ void
 RtspMediaCodecDecoder
 :
 :
-ApplyStateToStateMachine
+ChangeState
 (
 PlayState
 aState
@@ -109,14 +109,14 @@ NS_IsMainThread
 MediaDecoder
 :
 :
-ApplyStateToStateMachine
+ChangeState
 (
 aState
 )
 ;
 if
 (
-aState
+mPlayState
 =
 =
 PLAY_STATE_ENDED
