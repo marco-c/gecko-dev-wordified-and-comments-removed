@@ -59,7 +59,7 @@ h
 #
 include
 "
-nsIMobileConnectionProvider
+nsIMobileConnectionService
 .
 h
 "
@@ -552,9 +552,9 @@ mClientId
 ;
 nsCOMPtr
 <
-nsIMobileConnectionProvider
+nsIMobileConnectionService
 >
-mProvider
+mService
 ;
 nsRefPtr
 <
