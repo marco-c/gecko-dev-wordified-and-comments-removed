@@ -2885,8 +2885,8 @@ if
 (
 !
 mAudioTrack
-|
-|
+&
+&
 !
 mVideoTrack
 )
