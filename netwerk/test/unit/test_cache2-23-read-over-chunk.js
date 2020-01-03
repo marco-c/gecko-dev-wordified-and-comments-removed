@@ -137,7 +137,7 @@ Ci
 .
 nsICacheStorage
 .
-OPEN_NORMALLY
+OPEN_TRUNCATE
 LoadContextInfo
 .
 default
