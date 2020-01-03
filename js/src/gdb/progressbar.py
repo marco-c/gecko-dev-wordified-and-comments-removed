@@ -1,6 +1,7 @@
 import
 sys
 datetime
+time
 class
 ProgressBar
 (
