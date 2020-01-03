@@ -878,7 +878,7 @@ window
 setInterval
 (
 update
-2000
+10000
 )
 ;
 }
