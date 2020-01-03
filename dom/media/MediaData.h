@@ -85,6 +85,9 @@ class
 MediaByteBuffer
 ;
 class
+SharedTrackInfo
+;
+class
 MediaData
 {
 public
@@ -1018,6 +1021,12 @@ nsRefPtr
 MediaByteBuffer
 >
 mExtraData
+;
+nsRefPtr
+<
+SharedTrackInfo
+>
+mTrackInfo
 ;
 virtual
 already_AddRefed
