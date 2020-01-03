@@ -30,8 +30,6 @@ import
     
 ElementNotVisibleException
     
-ElementNotAccessibleException
-    
 ErrorCodes
     
 FrameSendFailureError
