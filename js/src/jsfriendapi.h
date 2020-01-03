@@ -5892,6 +5892,14 @@ va_list
 ap
 )
 ;
+void
+ReportAddonExceptionToTelementry
+(
+JSContext
+*
+cx
+)
+;
 JSErrorReport
 *
 reportp
