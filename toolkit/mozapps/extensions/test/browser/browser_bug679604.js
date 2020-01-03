@@ -1,14 +1,3 @@
-const
-PREF_UI_LASTCATEGORY
-=
-"
-extensions
-.
-ui
-.
-lastCategory
-"
-;
 var
 gManagerWindow
 ;
