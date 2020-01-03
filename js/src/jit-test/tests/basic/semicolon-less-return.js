@@ -1,3 +1,14 @@
+load
+(
+libdir
++
+"
+class
+.
+js
+"
+)
+;
 if
 (
 options
@@ -687,6 +698,13 @@ yield
 4
 )
 ;
+if
+(
+classesEnabled
+(
+)
+)
+{
 testWarn
 (
 function
@@ -710,6 +728,7 @@ constructor
 4
 )
 ;
+}
 testWarn
 (
 function
