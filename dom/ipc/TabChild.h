@@ -1071,6 +1071,15 @@ IsRootContentDocument
 (
 )
 ;
+bool
+IsDestroyed
+(
+)
+{
+return
+mDestroyed
+;
+}
 const
 TabId
 GetTabId

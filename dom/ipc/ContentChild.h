@@ -1881,6 +1881,17 @@ override
 ;
 virtual
 bool
+RecvUpdateWindow
+(
+const
+uintptr_t
+&
+aChildId
+)
+override
+;
+virtual
+bool
 RecvStartProfiler
 (
 const
