@@ -1661,10 +1661,6 @@ nsCString
 name
 nsCString
 UAName
-nsCString
-ID
-nsCString
-vendor
 )
 ;
 /
