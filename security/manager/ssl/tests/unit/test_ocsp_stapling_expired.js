@@ -19,6 +19,7 @@ add_ocsp_test
 aHost
 aExpectedResult
 aOCSPResponseToServe
+aExpectedRequestCount
 )
 {
 add_connection_test
@@ -53,15 +54,31 @@ function
 equal
 (
 gOCSPRequestCount
-1
+aExpectedRequestCount
 "
 Should
 have
 made
-1
+"
++
+aExpectedRequestCount
++
+"
 fallback
 OCSP
 request
+"
++
+aExpectedRequestCount
+=
+=
+1
+?
+"
+"
+:
+"
+s
 "
 )
 ;
@@ -217,6 +234,16 @@ ocspResponses
 4
 ]
 ;
+let
+willNotRetry
+=
+1
+;
+let
+willRetry
+=
+4
+;
 function
 run_test
 (
@@ -352,6 +379,7 @@ com
 "
 PRErrorCodeSuccess
 ocspResponseGood
+willNotRetry
 )
 ;
 add_ocsp_test
@@ -373,6 +401,7 @@ com
 "
 PRErrorCodeSuccess
 ocspResponseGood
+willNotRetry
 )
 ;
 add_ocsp_test
@@ -390,6 +419,7 @@ com
 "
 SEC_ERROR_OCSP_OLD_RESPONSE
 expiredOCSPResponseGood
+willRetry
 )
 ;
 add_ocsp_test
@@ -411,6 +441,7 @@ com
 "
 SEC_ERROR_OCSP_OLD_RESPONSE
 expiredOCSPResponseGood
+willRetry
 )
 ;
 add_ocsp_test
@@ -428,6 +459,7 @@ com
 "
 SEC_ERROR_OCSP_OLD_RESPONSE
 oldValidityPeriodOCSPResponseGood
+willRetry
 )
 ;
 add_ocsp_test
@@ -449,6 +481,7 @@ com
 "
 SEC_ERROR_OCSP_OLD_RESPONSE
 oldValidityPeriodOCSPResponseGood
+willRetry
 )
 ;
 add_ocsp_test
@@ -466,6 +499,7 @@ com
 "
 SEC_ERROR_OCSP_OLD_RESPONSE
 null
+willNotRetry
 )
 ;
 add_ocsp_test
@@ -483,6 +517,7 @@ com
 "
 SEC_ERROR_OCSP_OLD_RESPONSE
 null
+willNotRetry
 )
 ;
 add_ocsp_test
@@ -500,6 +535,7 @@ com
 "
 SEC_ERROR_REVOKED_CERTIFICATE
 ocspResponseRevoked
+willNotRetry
 )
 ;
 add_ocsp_test
@@ -521,6 +557,7 @@ com
 "
 SEC_ERROR_REVOKED_CERTIFICATE
 ocspResponseRevoked
+willNotRetry
 )
 ;
 add_ocsp_test
@@ -538,6 +575,7 @@ com
 "
 SEC_ERROR_OCSP_UNKNOWN_CERT
 ocspResponseUnknown
+willRetry
 )
 ;
 add_ocsp_test
@@ -559,6 +597,7 @@ com
 "
 SEC_ERROR_OCSP_UNKNOWN_CERT
 ocspResponseUnknown
+willRetry
 )
 ;
 add_ocsp_test
@@ -578,6 +617,7 @@ com
 "
 SEC_ERROR_REVOKED_CERTIFICATE
 null
+willNotRetry
 )
 ;
 add_ocsp_test
@@ -597,6 +637,7 @@ com
 "
 SEC_ERROR_OCSP_UNKNOWN_CERT
 null
+willNotRetry
 )
 ;
 add_ocsp_test
@@ -616,6 +657,7 @@ com
 "
 PRErrorCodeSuccess
 ocspResponseGood
+willNotRetry
 )
 ;
 add_ocsp_test
@@ -635,6 +677,7 @@ com
 "
 PRErrorCodeSuccess
 ocspResponseGood
+willNotRetry
 )
 ;
 add_ocsp_test
@@ -654,6 +697,7 @@ com
 "
 SEC_ERROR_REVOKED_CERTIFICATE
 expiredOCSPResponseGood
+willRetry
 )
 ;
 add_ocsp_test
@@ -673,6 +717,7 @@ com
 "
 SEC_ERROR_OCSP_UNKNOWN_CERT
 expiredOCSPResponseGood
+willRetry
 )
 ;
 add_ocsp_test
@@ -692,6 +737,7 @@ com
 "
 PRErrorCodeSuccess
 ocspResponseGood
+willNotRetry
 )
 ;
 add_ocsp_test
@@ -711,6 +757,7 @@ com
 "
 SEC_ERROR_REVOKED_CERTIFICATE
 ocspResponseRevoked
+willNotRetry
 )
 ;
 add_ocsp_test
@@ -730,6 +777,7 @@ com
 "
 SEC_ERROR_OCSP_UNKNOWN_CERT
 ocspResponseUnknown
+willRetry
 )
 ;
 add_test
