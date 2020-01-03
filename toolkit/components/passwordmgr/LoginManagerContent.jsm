@@ -1335,7 +1335,6 @@ form
 autofillForm
 false
 false
-false
 loginsFound
 )
 ;
@@ -1485,7 +1484,6 @@ this
 _fillForm
 (
 form
-true
 true
 true
 true
@@ -2567,12 +2565,16 @@ function
 (
 form
 autofillForm
-ignoreAutocomplete
 clobberPassword
 userTriggered
 foundLogins
 )
 {
+let
+ignoreAutocomplete
+=
+true
+;
 var
 [
 usernameField
