@@ -319,6 +319,7 @@ Release
 (
 )
 ;
+virtual
 void
 AddDataFlavor
 (
