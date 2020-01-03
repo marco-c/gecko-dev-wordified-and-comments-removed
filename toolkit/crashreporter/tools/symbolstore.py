@@ -4831,6 +4831,10 @@ filename
 )
 )
                             
+sourcepath
+=
+filename
+                            
 if
 filename
 in
@@ -4847,10 +4851,6 @@ file_mapping
 [
 filename
 ]
-                            
-sourcepath
-=
-filename
                             
 if
 self
