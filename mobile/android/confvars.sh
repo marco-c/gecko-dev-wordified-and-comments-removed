@@ -487,9 +487,17 @@ MOZ_ANDROID_DOWNLOADS_INTEGRATION
 Enable
 Tab
 Queue
+if
+test
+"
+NIGHTLY_BUILD
+"
+;
+then
 MOZ_ANDROID_TAB_QUEUE
 =
 1
+fi
 #
 Use
 the
