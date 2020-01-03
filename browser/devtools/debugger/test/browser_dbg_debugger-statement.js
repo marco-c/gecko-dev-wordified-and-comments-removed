@@ -466,13 +466,6 @@ function
 (
 )
 {
-removeTab
-(
-gBrowser
-.
-selectedTab
-)
-;
 gClient
 =
 null
