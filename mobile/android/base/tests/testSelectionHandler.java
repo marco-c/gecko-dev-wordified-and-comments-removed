@@ -101,10 +101,10 @@ testSelectionHandler
 "
 )
 ;
-final
-String
-url
-=
+NavigationHelper
+.
+enterAndLoadUrl
+(
 "
 chrome
 :
@@ -118,12 +118,6 @@ testSelectionHandler
 .
 html
 "
-;
-NavigationHelper
-.
-enterAndLoadUrl
-(
-url
 )
 ;
 mToolbar
@@ -133,7 +127,6 @@ assertTitle
 StringHelper
 .
 ROBOCOP_SELECTION_HANDLER_TITLE
-url
 )
 ;
 while
