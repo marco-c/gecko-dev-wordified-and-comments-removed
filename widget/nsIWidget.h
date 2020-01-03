@@ -2545,6 +2545,17 @@ aOpaqueRegion
 }
 virtual
 void
+UpdateWindowDraggingRegion
+(
+const
+nsIntRegion
+&
+aRegion
+)
+{
+}
+virtual
+void
 AddChild
 (
 nsIWidget

@@ -5752,6 +5752,14 @@ GetSize
 )
 ;
 }
+aBuilder
+-
+>
+AdjustWindowDraggingRegion
+(
+this
+)
+;
 }
 nsDisplayListCollection
 tempLists
