@@ -2299,10 +2299,11 @@ amount
 =
 sEventListenerManagersHash
 ?
-PL_DHashTableSizeOfExcludingThis
-(
 sEventListenerManagersHash
-nullptr
+-
+>
+ShallowSizeOfIncludingThis
+(
 MallocSizeOf
 )
 :

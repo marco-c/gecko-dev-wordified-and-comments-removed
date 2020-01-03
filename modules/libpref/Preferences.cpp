@@ -1190,10 +1190,11 @@ gHashTable
 n
 +
 =
-PL_DHashTableSizeOfExcludingThis
-(
 gHashTable
-nullptr
+-
+>
+ShallowSizeOfIncludingThis
+(
 aMallocSizeOf
 )
 ;
