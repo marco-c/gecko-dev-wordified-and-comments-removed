@@ -812,6 +812,10 @@ RejectInternal
 (
 aCx
 value
+Promise
+:
+:
+SyncTask
 )
 ;
 return
@@ -1203,6 +1207,10 @@ ResolveInternal
 (
 aCx
 retValue
+Promise
+:
+:
+SyncTask
 )
 ;
 }
