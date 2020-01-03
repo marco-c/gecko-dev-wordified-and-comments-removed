@@ -485,9 +485,6 @@ css
 #
 endif
 #
-#
-ifdef
-NIGHTLY_BUILD
 *
 skin
 /
@@ -513,8 +510,6 @@ spinning_throbber
 .
 svg
 )
-#
-endif
 skin
 /
 images
