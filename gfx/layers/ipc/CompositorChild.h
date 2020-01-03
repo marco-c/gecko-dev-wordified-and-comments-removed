@@ -187,6 +187,14 @@ ProcessId
 aOtherProcess
 )
 ;
+bool
+OpenSameProcess
+(
+CompositorParent
+*
+aParent
+)
+;
 static
 CompositorChild
 *
@@ -625,6 +633,12 @@ nsRefPtr
 ClientLayerManager
 >
 mLayerManager
+;
+nsRefPtr
+<
+CompositorParent
+>
+mCompositorParent
 ;
 nsClassHashtable
 <
