@@ -82,6 +82,11 @@ Nfc
 .
 h
 '
+'
+NfcConnector
+.
+h
+'
 ]
 SOURCES
 +
@@ -89,6 +94,11 @@ SOURCES
 [
 '
 Nfc
+.
+cpp
+'
+'
+NfcConnector
 .
 cpp
 '
