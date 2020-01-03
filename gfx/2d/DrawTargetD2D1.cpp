@@ -395,7 +395,7 @@ transform
 ;
 transform
 .
-Translate
+PreTranslate
 (
 aDest
 .
@@ -407,7 +407,7 @@ y
 ;
 transform
 .
-Scale
+PreScale
 (
 xScale
 yScale

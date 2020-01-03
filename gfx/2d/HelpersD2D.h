@@ -2381,7 +2381,7 @@ bitmap
 ;
 aSourceTransform
 .
-Translate
+PreTranslate
 (
 uploadRect
 .
@@ -2673,7 +2673,7 @@ bitmap
 ;
 aSourceTransform
 .
-Scale
+PreScale
 (
 Float
 (
