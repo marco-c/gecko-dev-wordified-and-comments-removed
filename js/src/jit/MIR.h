@@ -12773,6 +12773,7 @@ getAliasSet
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 AliasSet
