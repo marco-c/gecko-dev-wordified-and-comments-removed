@@ -959,6 +959,42 @@ cache
 try
 :
         
+extra_env
+=
+{
+'
+MOZ_STARTUP_CACHE
+'
+:
+cache
+}
+        
+if
+buildconfig
+.
+substs
+.
+get
+(
+'
+MOZ_TSAN
+'
+)
+:
+            
+extra_env
+[
+'
+TSAN_OPTIONS
+'
+]
+=
+'
+report_bugs
+=
+0
+'
+        
 if
 launcher
 .
@@ -1035,13 +1071,7 @@ gre_path
                            
 extra_env
 =
-{
-'
-MOZ_STARTUP_CACHE
-'
-:
-cache
-}
+extra_env
 )
 :
             
