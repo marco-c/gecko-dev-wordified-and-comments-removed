@@ -718,10 +718,10 @@ aBuilder
 )
 ;
 nscoord
-mLeftEdge
+mVisIStartEdge
 ;
 nscoord
-mRightEdge
+mVisIEndEdge
 ;
 }
 ;
