@@ -7280,6 +7280,9 @@ required
 object
 requiredObject
 ;
+CustomEventInit
+customEventInit
+;
 }
 ;
 dictionary

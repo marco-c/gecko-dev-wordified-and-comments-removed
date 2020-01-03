@@ -141,6 +141,11 @@ aJSON
 )
 const
 ;
+struct
+FastDictionaryInitializer
+{
+}
+;
 private
 :
 static
