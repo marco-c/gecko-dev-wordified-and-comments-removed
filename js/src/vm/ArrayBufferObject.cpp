@@ -4855,6 +4855,14 @@ TypedArrayObject
 >
 (
 )
+|
+|
+is
+<
+TypedObject
+>
+(
+)
 ;
 }
 void
