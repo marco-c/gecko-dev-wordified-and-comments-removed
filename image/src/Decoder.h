@@ -489,9 +489,15 @@ GetCurrentFrameRef
 {
 return
 mCurrentFrame
+?
+mCurrentFrame
 -
 >
 RawAccessRef
+(
+)
+:
+RawAccessFrameRef
 (
 )
 ;
