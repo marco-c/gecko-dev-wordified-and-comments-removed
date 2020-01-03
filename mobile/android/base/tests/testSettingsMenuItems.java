@@ -1063,6 +1063,13 @@ TITLE_BAR_LABEL_ARR
 )
 ;
 }
+if
+(
+AppConstants
+.
+MOZ_STUMBLER_BUILD_TIME_ENABLED
+)
+{
 String
 [
 ]
@@ -1137,6 +1144,7 @@ add
 learnMoreUi
 )
 ;
+}
 }
 if
 (
