@@ -301,6 +301,13 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+ClearCodecs
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 AddDataChannel
 (
 const

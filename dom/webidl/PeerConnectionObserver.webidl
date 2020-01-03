@@ -215,6 +215,11 @@ DOMString
 candidate
 )
 ;
+void
+onNegotiationNeeded
+(
+)
+;
 /
 *
 Stats
@@ -311,6 +316,8 @@ stream
 void
 onRemoveStream
 (
+MediaStream
+stream
 )
 ;
 void
@@ -323,6 +330,8 @@ track
 void
 onRemoveTrack
 (
+MediaStreamTrack
+track
 )
 ;
 }
