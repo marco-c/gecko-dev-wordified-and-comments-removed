@@ -166,6 +166,9 @@ geckoview_library
 '
 extensions
 '
+'
+gradle
+'
 ]
 if
 not
