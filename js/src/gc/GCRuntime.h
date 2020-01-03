@@ -3637,6 +3637,12 @@ GrayBufferState
 Okay
 ;
 }
+void
+resetBufferedGrayRoots
+(
+)
+const
+;
 bool
 grayBitsValid
 ;

@@ -802,11 +802,6 @@ budget
 bool
 bufferingGrayRootsFailed
 ;
-void
-resetBufferedGrayRoots
-(
-)
-;
 static
 void
 GrayCallback
