@@ -15766,7 +15766,10 @@ nullptr
 bool
 needsBoundsCheck
 =
-true
+chk
+=
+=
+NEEDS_BOUNDS_CHECK
 ;
 MAsmJSCompareExchangeHeap
 *
@@ -15838,7 +15841,10 @@ nullptr
 bool
 needsBoundsCheck
 =
-true
+chk
+=
+=
+NEEDS_BOUNDS_CHECK
 ;
 MAsmJSAtomicBinopHeap
 *

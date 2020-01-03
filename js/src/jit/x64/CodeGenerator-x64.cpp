@@ -2697,7 +2697,7 @@ AsmJSHeapAccess
 :
 NoLengthCheck
 ;
-MOZ_ASSERT
+if
 (
 mir
 -
@@ -2706,7 +2706,6 @@ needsBoundsCheck
 (
 )
 )
-;
 {
 maybeCmpOffset
 =
@@ -2991,7 +2990,7 @@ AsmJSHeapAccess
 :
 NoLengthCheck
 ;
-MOZ_ASSERT
+if
 (
 mir
 -
@@ -3000,7 +2999,6 @@ needsBoundsCheck
 (
 )
 )
-;
 {
 maybeCmpOffset
 =
