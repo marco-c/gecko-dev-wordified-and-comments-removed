@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsDOMBlobBuilder
-.
-h
-"
-#
-include
-"
 nsGlobalWindow
 .
 h
