@@ -1624,10 +1624,6 @@ BreakCycles
 (
 )
 {
-mTaskQueue
-=
-nullptr
-;
 }
 nsRefPtr
 <
