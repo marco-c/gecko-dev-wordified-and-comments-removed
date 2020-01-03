@@ -4617,7 +4617,7 @@ tab
 =
 gBrowser
 .
-_getTabForBrowser
+getTabForBrowser
 (
 browser
 )

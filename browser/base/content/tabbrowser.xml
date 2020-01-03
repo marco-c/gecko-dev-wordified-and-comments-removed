@@ -2793,7 +2793,7 @@ chromeEventHandler
 return
 this
 .
-_getTabForBrowser
+getTabForBrowser
 (
 browser
 )
