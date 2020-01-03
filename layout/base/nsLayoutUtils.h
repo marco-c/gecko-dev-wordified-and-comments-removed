@@ -2444,13 +2444,13 @@ IGNORE_PADDING
 ;
 static
 nscoord
-IntrinsicForWM
+IntrinsicForAxis
 (
 mozilla
 :
 :
-WritingMode
-aWM
+PhysicalAxis
+aAxis
 nsRenderingContext
 *
 aRenderingContext
