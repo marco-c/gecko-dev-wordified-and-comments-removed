@@ -236,6 +236,13 @@ PYTHON_UNIT_TESTS
 '
 tests
 /
+test_mozbuild_reading
+.
+py
+'
+'
+tests
+/
 unit
 -
 expandlibs
