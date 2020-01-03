@@ -157,7 +157,6 @@ interface
 FontFaceSource
 {
 [
-Throws
 Pref
 =
 "
