@@ -41909,6 +41909,12 @@ toggleMuteAudio
 (
 )
 ;
+this
+.
+_overPlayingIcon
+=
+false
+;
 }
 ]
 ]
