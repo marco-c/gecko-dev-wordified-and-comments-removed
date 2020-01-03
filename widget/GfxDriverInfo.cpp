@@ -703,6 +703,11 @@ APPEND_DEVICE
 0x2e13
 )
 ;
+break
+;
+case
+IntelHDGraphicsToIvyBridge
+:
 APPEND_DEVICE
 (
 0x0042
