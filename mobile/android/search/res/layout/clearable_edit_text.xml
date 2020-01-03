@@ -84,7 +84,15 @@ android
 "
 >
 <
-EditText
+org
+.
+mozilla
+.
+search
+.
+ui
+.
+BackCaptureEditText
 android
 :
 id
