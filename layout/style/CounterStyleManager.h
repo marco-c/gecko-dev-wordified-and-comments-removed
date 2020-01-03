@@ -669,6 +669,17 @@ NotifyRuleChanged
 (
 )
 ;
+nsPresContext
+*
+PresContext
+(
+)
+const
+{
+return
+mPresContext
+;
+}
 NS_INLINE_DECL_REFCOUNTING
 (
 CounterStyleManager

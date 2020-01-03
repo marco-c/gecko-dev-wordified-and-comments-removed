@@ -95,6 +95,8 @@ nsStyleContext_id
 nsInheritedStyleData_id
 nsResetStyleData_id
 nsFrameList_id
+CustomCounterStyle_id
+DependentBuiltinCounterStyle_id
 First_nsStyleStruct_id
 DummyBeforeStyleStructs_id
 =
