@@ -97,6 +97,16 @@ Services
 )
 ;
 const
+promise
+=
+require
+(
+"
+promise
+"
+)
+;
+const
 {
 _documentWalker
 }
