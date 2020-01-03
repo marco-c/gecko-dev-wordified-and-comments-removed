@@ -912,6 +912,9 @@ synthMouseMove
 false
 )
 ;
+#
+ifndef
+MOZ_X11
 pref
 (
 "
@@ -924,6 +927,8 @@ tiles
 true
 )
 ;
+#
+endif
 pref
 (
 "
