@@ -30,6 +30,9 @@ mozilla
 :
 dom
 ;
+namespace
+mozilla
+{
 static
 const
 TrackID
@@ -37,9 +40,6 @@ TRACK_VIDEO
 =
 2
 ;
-namespace
-mozilla
-{
 void
 FakeMediaStreamGraph
 :
