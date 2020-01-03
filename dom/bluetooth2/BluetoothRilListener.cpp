@@ -502,7 +502,7 @@ nsIMobileConnection
 >
 connection
 ;
-mcService
+service
 -
 >
 GetItemByServiceId
