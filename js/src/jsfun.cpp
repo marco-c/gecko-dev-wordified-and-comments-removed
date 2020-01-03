@@ -9797,6 +9797,9 @@ fun
 options
 formals
 srcBuf
+js
+:
+:
 NullPtr
 (
 )
