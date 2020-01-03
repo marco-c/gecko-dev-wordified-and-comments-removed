@@ -229,6 +229,11 @@ SavedTypes
 h
 '
 '
+StreamControl
+.
+h
+'
+'
 StreamList
 .
 h
@@ -360,6 +365,11 @@ cpp
 '
 '
 ReadStream
+.
+cpp
+'
+'
+StreamControl
 .
 cpp
 '
