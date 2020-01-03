@@ -215,6 +215,11 @@ RecentlyClosedTabsAndWindowsMenuUtils
 jsm
 '
 '
+RunState
+.
+jsm
+'
+'
 SessionCookies
 .
 jsm
