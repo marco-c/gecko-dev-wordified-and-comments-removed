@@ -530,6 +530,14 @@ eRestyle_StyleAttribute
 <
 6
 )
+eRestyle_ChangeAnimationPhase
+=
+(
+1
+<
+<
+7
+)
 eRestyle_Force
 =
 (
