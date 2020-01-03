@@ -119,6 +119,9 @@ aURI
 nsIURI
 *
 aAnnotationURI
+nsILoadInfo
+*
+aLoadInfo
 nsIChannel
 *
 *
