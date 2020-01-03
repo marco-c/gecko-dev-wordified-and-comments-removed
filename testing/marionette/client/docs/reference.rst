@@ -26,14 +26,6 @@ Reference
 =
 =
 =
-.
-.
-py
-:
-currentmodule
-:
-:
-marionette
 Marionette
 -
 -
@@ -50,6 +42,10 @@ Marionette
 autoclass
 :
 :
+marionette_driver
+.
+marionette
+.
 Marionette
 :
 members
@@ -71,6 +67,10 @@ HTMLElement
 autoclass
 :
 :
+marionette_driver
+.
+marionette
+.
 HTMLElement
 :
 members
@@ -94,6 +94,8 @@ DateTimeValue
 autoclass
 :
 :
+marionette_driver
+.
 DateTimeValue
 :
 members
@@ -111,6 +113,10 @@ Actions
 autoclass
 :
 :
+marionette_driver
+.
+marionette
+.
 Actions
 :
 members
@@ -133,6 +139,10 @@ MultiActions
 autoclass
 :
 :
+marionette_driver
+.
+marionette
+.
 MultiActions
 :
 members
@@ -147,6 +157,8 @@ Wait
 autoclass
 :
 :
+marionette_driver
+.
 Wait
 :
 members
@@ -159,7 +171,7 @@ members
 .
 .
 autoattribute
-marionette
+marionette_driver
 .
 wait
 .
@@ -167,7 +179,7 @@ DEFAULT_TIMEOUT
 .
 .
 autoattribute
-marionette
+marionette_driver
 .
 wait
 .
@@ -200,7 +212,7 @@ Conditions
 automodule
 :
 :
-marionette
+marionette_driver
 .
 expected
 :
