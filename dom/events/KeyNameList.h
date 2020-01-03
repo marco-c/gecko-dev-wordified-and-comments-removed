@@ -449,7 +449,7 @@ MediaPlayPause
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
-SelectMedia
+MediaSelect
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
@@ -457,11 +457,11 @@ MediaStop
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
-MediaNextTrack
+MediaTrackNext
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
-MediaPreviousTrack
+MediaTrackPrevious
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (

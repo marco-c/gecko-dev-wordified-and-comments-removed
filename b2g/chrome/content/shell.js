@@ -2600,7 +2600,7 @@ mediaKeys
 =
 {
 '
-MediaNextTrack
+MediaTrackNext
 '
 :
 '
@@ -2613,7 +2613,7 @@ track
 button
 '
 '
-MediaPreviousTrack
+MediaTrackPrevious
 '
 :
 '
