@@ -573,6 +573,15 @@ aEvent
 )
 ;
 static
+bool
+WheelEventIsScrollAction
+(
+WidgetWheelEvent
+*
+aEvent
+)
+;
+static
 nsIntPoint
 sLastScreenPoint
 ;
