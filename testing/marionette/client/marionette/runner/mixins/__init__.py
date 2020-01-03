@@ -24,3 +24,15 @@ b2g
 import
 B2GTestCaseMixin
 B2GTestResultMixin
+from
+browsermob
+import
+(
+    
+BrowserMobProxyTestCaseMixin
+    
+BrowserMobProxyOptionsMixin
+    
+BrowserMobTestCase
+    
+)

@@ -34,4 +34,9 @@ HTMLReportingTestResultMixin
 HTMLReportingTestRunnerMixin
 MemoryEnduranceTestCaseMixin
         
+BrowserMobProxyTestCaseMixin
+BrowserMobProxyOptionsMixin
+        
+BrowserMobTestCase
+        
 )
