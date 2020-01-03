@@ -496,6 +496,13 @@ aWidget
 )
 const
 ;
+int32_t
+IndexOfTouch
+(
+int32_t
+aTouchIdentifier
+)
+;
 explicit
 MultiTouchInput
 (
