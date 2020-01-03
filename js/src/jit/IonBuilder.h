@@ -533,6 +533,9 @@ public
 :
 IonBuilder
 (
+JSContext
+*
+analysisContext
 CompileCompartment
 *
 comp
@@ -4327,6 +4330,10 @@ bool
 init
 (
 )
+;
+JSContext
+*
+analysisContext
 ;
 BaselineFrameInspector
 *
