@@ -1942,15 +1942,6 @@ arg
 target
 ;
 }
-(
-)
-=
->
-{
-return
-false
-;
-}
 )
 ;
 }
