@@ -158,6 +158,16 @@ gfx
 FilterPrimitiveDescription
 FilterPrimitiveDescription
 ;
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+FilterDescription
+FilterDescription
+;
 public
 :
 static
@@ -523,6 +533,9 @@ nsTArray
 FilterPrimitiveDescription
 >
 mPrimitiveDescriptions
+;
+FilterDescription
+mFilterDescription
 ;
 int32_t
 mAppUnitsPerCSSPx
