@@ -16381,6 +16381,9 @@ ServiceWorkerManager
 :
 SetSkipWaitingFlag
 (
+nsIPrincipal
+*
+aPrincipal
 const
 nsCString
 &
@@ -16397,6 +16400,7 @@ registration
 =
 GetRegistration
 (
+aPrincipal
 aScope
 )
 ;
