@@ -293,13 +293,7 @@ byteCount
 =
 b
 .
-getRowBytes
-(
-)
-*
-b
-.
-getHeight
+getAllocationByteCount
 (
 )
 ;
