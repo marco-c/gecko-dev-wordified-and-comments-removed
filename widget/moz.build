@@ -674,6 +674,11 @@ MouseEvents
 h
 '
 '
+TextEventDispatcher
+.
+h
+'
+'
 TextEvents
 .
 h
@@ -840,6 +845,11 @@ cpp
 '
 '
 SharedWidgetUtils
+.
+cpp
+'
+'
+TextEventDispatcher
 .
 cpp
 '
