@@ -267,6 +267,15 @@ SourceBufferDecoder
 >
 mDecoders
 ;
+nsTArray
+<
+nsRefPtr
+<
+SourceBufferDecoder
+>
+>
+mInitializedDecoders
+;
 nsRefPtr
 <
 SourceBufferDecoder
