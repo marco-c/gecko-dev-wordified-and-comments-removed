@@ -721,6 +721,9 @@ NS_IsMainThread
 return
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 nsCString
 reportString
 (
@@ -731,9 +734,6 @@ c_str
 )
 )
 ;
-#
-ifdef
-MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -753,7 +753,11 @@ ERROR
 %
 s
 "
-reportString
+aString
+.
+c_str
+(
+)
 )
 ;
 #
