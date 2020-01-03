@@ -238,6 +238,7 @@ NS_IMETHOD
 EnsureNative
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -281,6 +282,7 @@ Uninit
 bool
 aIsFinal
 )
+MOZ_OVERRIDE
 ;
 nsresult
 EnsureSortVariables
@@ -292,6 +294,7 @@ nsresult
 RebuildAll
 (
 )
+MOZ_OVERRIDE
 ;
 nsresult
 GetTemplateActionRowFor
@@ -464,6 +467,7 @@ bool
 *
 aGenerated
 )
+MOZ_OVERRIDE
 ;
 bool
 GetInsertionLocations
@@ -479,6 +483,7 @@ nsIContent
 *
 aLocations
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -497,6 +502,7 @@ void
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -506,6 +512,7 @@ nsIXULTemplateResult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 nsCOMPtr
 <

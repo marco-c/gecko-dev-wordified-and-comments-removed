@@ -254,6 +254,7 @@ aElement
 bool
 aForceCreation
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HasGeneratedContent
@@ -268,6 +269,7 @@ bool
 *
 aGenerated
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetResultForContent
@@ -280,6 +282,7 @@ nsIXULTemplateResult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 NS_DECL_NSIMUTATIONOBSERVER_NODEWILLBEDESTROYED
@@ -309,15 +312,16 @@ Traverse
 (
 nsCycleCollectionTraversalCallback
 &
-cb
+aCb
 )
 const
+MOZ_OVERRIDE
 {
 mSortState
 .
 Traverse
 (
-cb
+aCb
 )
 ;
 }
@@ -328,6 +332,7 @@ Uninit
 bool
 aIsFinal
 )
+MOZ_OVERRIDE
 ;
 nsresult
 OpenContainer
@@ -563,6 +568,7 @@ nsresult
 RebuildAll
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -579,6 +585,7 @@ nsIContent
 *
 aLocations
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -597,6 +604,7 @@ void
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -606,6 +614,7 @@ nsIXULTemplateResult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 nsresult
 CompareResultToNode

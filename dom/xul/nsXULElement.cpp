@@ -753,6 +753,7 @@ nsIDOMCSSStyleDeclaration
 *
 aStyle
 )
+MOZ_OVERRIDE
 {
 nsXULElement
 *
