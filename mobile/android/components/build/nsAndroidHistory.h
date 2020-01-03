@@ -107,6 +107,9 @@ nsAndroidHistory
 *
 sHistory
 ;
+bool
+mHistoryEnabled
+;
 nsDataHashtable
 <
 nsStringHashKey
@@ -130,6 +133,16 @@ nsTPriorityQueue
 nsString
 >
 mPendingURIs
+;
+void
+LoadPrefs
+(
+)
+;
+bool
+ShouldRecordHistory
+(
+)
 ;
 nsresult
 CanAddURI
