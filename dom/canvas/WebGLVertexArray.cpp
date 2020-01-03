@@ -79,7 +79,7 @@ return
 dom
 :
 :
-WebGLVertexArrayBinding
+WebGLVertexArrayObjectOESBinding
 :
 :
 Wrap

@@ -1155,5 +1155,6 @@ query_counter
 IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionDisjointTimerQuery
+EXT_disjoint_timer_query
 )
 }

@@ -54,5 +54,6 @@ WebGLExtensionTextureHalfFloatLinear
 IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionTextureHalfFloatLinear
+OES_texture_half_float_linear
 )
 }

@@ -177,5 +177,6 @@ sRGB_texture
 IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionSRGB
+EXT_sRGB
 )
 }

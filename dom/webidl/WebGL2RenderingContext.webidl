@@ -142,6 +142,12 @@ this
 be
 int64
 ?
+typedef
+unsigned
+long
+long
+GLuint64
+;
 [
 Pref
 =

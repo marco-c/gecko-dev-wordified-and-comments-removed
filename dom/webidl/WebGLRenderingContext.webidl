@@ -305,12 +305,6 @@ long
 GLuint
 ;
 typedef
-unsigned
-long
-long
-GLuint64
-;
-typedef
 unrestricted
 float
 GLfloat
@@ -319,6 +313,12 @@ typedef
 unrestricted
 float
 GLclampf
+;
+typedef
+unsigned
+long
+long
+GLuint64EXT
 ;
 dictionary
 WebGLContextAttributes
@@ -433,8 +433,11 @@ WebGLUniformLocation
 {
 }
 ;
+[
+NoInterfaceObject
+]
 interface
-WebGLVertexArray
+WebGLVertexArrayObjectOES
 {
 }
 ;
@@ -4626,7 +4629,7 @@ interfaces
 NoInterfaceObject
 ]
 interface
-WebGLExtensionCompressedTextureS3TC
+WEBGL_compressed_texture_s3tc
 {
 const
 GLenum
@@ -4658,7 +4661,7 @@ COMPRESSED_RGBA_S3TC_DXT5_EXT
 NoInterfaceObject
 ]
 interface
-WebGLExtensionCompressedTextureATC
+WEBGL_compressed_texture_atc
 {
 const
 GLenum
@@ -4684,7 +4687,7 @@ COMPRESSED_RGBA_ATC_INTERPOLATED_ALPHA_WEBGL
 NoInterfaceObject
 ]
 interface
-WebGLExtensionCompressedTextureETC1
+WEBGL_compressed_texture_etc1
 {
 const
 GLenum
@@ -4698,7 +4701,7 @@ COMPRESSED_RGB_ETC1_WEBGL
 NoInterfaceObject
 ]
 interface
-WebGLExtensionCompressedTexturePVRTC
+WEBGL_compressed_texture_pvrtc
 {
 const
 GLenum
@@ -4730,7 +4733,7 @@ COMPRESSED_RGBA_PVRTC_2BPPV1_IMG
 NoInterfaceObject
 ]
 interface
-WebGLExtensionDebugRendererInfo
+WEBGL_debug_renderer_info
 {
 const
 GLenum
@@ -4750,7 +4753,7 @@ UNMASKED_RENDERER_WEBGL
 NoInterfaceObject
 ]
 interface
-WebGLExtensionDebugShaders
+WEBGL_debug_shaders
 {
 DOMString
 getTranslatedShaderSource
@@ -4766,7 +4769,7 @@ shader
 NoInterfaceObject
 ]
 interface
-WebGLExtensionDepthTexture
+WEBGL_depth_texture
 {
 const
 GLenum
@@ -4780,7 +4783,7 @@ UNSIGNED_INT_24_8_WEBGL
 NoInterfaceObject
 ]
 interface
-WebGLExtensionElementIndexUint
+OES_element_index_uint
 {
 }
 ;
@@ -4788,7 +4791,7 @@ WebGLExtensionElementIndexUint
 NoInterfaceObject
 ]
 interface
-WebGLExtensionFragDepth
+EXT_frag_depth
 {
 }
 ;
@@ -4796,7 +4799,7 @@ WebGLExtensionFragDepth
 NoInterfaceObject
 ]
 interface
-WebGLExtensionLoseContext
+WEBGL_lose_context
 {
 void
 loseContext
@@ -4814,7 +4817,7 @@ restoreContext
 NoInterfaceObject
 ]
 interface
-WebGLExtensionTextureFilterAnisotropic
+EXT_texture_filter_anisotropic
 {
 const
 GLenum
@@ -4834,7 +4837,7 @@ MAX_TEXTURE_MAX_ANISOTROPY_EXT
 NoInterfaceObject
 ]
 interface
-WebGLExtensionSRGB
+EXT_sRGB
 {
 const
 GLenum
@@ -4866,7 +4869,7 @@ FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT
 NoInterfaceObject
 ]
 interface
-WebGLExtensionStandardDerivatives
+OES_standard_derivatives
 {
 const
 GLenum
@@ -4880,7 +4883,7 @@ FRAGMENT_SHADER_DERIVATIVE_HINT_OES
 NoInterfaceObject
 ]
 interface
-WebGLExtensionTextureFloat
+OES_texture_float
 {
 }
 ;
@@ -4888,7 +4891,7 @@ WebGLExtensionTextureFloat
 NoInterfaceObject
 ]
 interface
-WebGLExtensionDrawBuffers
+WEBGL_draw_buffers
 {
 const
 GLenum
@@ -5110,7 +5113,7 @@ buffers
 NoInterfaceObject
 ]
 interface
-WebGLExtensionTextureFloatLinear
+OES_texture_float_linear
 {
 }
 ;
@@ -5118,7 +5121,7 @@ WebGLExtensionTextureFloatLinear
 NoInterfaceObject
 ]
 interface
-WebGLExtensionShaderTextureLod
+EXT_shader_texture_lod
 {
 }
 ;
@@ -5126,7 +5129,7 @@ WebGLExtensionShaderTextureLod
 NoInterfaceObject
 ]
 interface
-WebGLExtensionTextureHalfFloat
+OES_texture_half_float
 {
 const
 GLenum
@@ -5140,7 +5143,7 @@ HALF_FLOAT_OES
 NoInterfaceObject
 ]
 interface
-WebGLExtensionTextureHalfFloatLinear
+OES_texture_half_float_linear
 {
 }
 ;
@@ -5148,7 +5151,7 @@ WebGLExtensionTextureHalfFloatLinear
 NoInterfaceObject
 ]
 interface
-WebGLExtensionColorBufferFloat
+WEBGL_color_buffer_float
 {
 const
 GLenum
@@ -5180,7 +5183,7 @@ UNSIGNED_NORMALIZED_EXT
 NoInterfaceObject
 ]
 interface
-WebGLExtensionColorBufferHalfFloat
+EXT_color_buffer_half_float
 {
 const
 GLenum
@@ -5212,7 +5215,7 @@ UNSIGNED_NORMALIZED_EXT
 NoInterfaceObject
 ]
 interface
-WebGLExtensionVertexArray
+OES_vertex_array_object
 {
 const
 GLenum
@@ -5220,7 +5223,7 @@ VERTEX_ARRAY_BINDING_OES
 =
 0x85B5
 ;
-WebGLVertexArray
+WebGLVertexArrayObjectOES
 ?
 createVertexArrayOES
 (
@@ -5229,7 +5232,7 @@ createVertexArrayOES
 void
 deleteVertexArrayOES
 (
-WebGLVertexArray
+WebGLVertexArrayObjectOES
 ?
 arrayObject
 )
@@ -5240,7 +5243,7 @@ WebGLHandlesContextLoss
 GLboolean
 isVertexArrayOES
 (
-WebGLVertexArray
+WebGLVertexArrayObjectOES
 ?
 arrayObject
 )
@@ -5248,7 +5251,7 @@ arrayObject
 void
 bindVertexArrayOES
 (
-WebGLVertexArray
+WebGLVertexArrayObjectOES
 ?
 arrayObject
 )
@@ -5259,7 +5262,7 @@ arrayObject
 NoInterfaceObject
 ]
 interface
-WebGLExtensionInstancedArrays
+ANGLE_instanced_arrays
 {
 const
 GLenum
@@ -5310,7 +5313,7 @@ divisor
 NoInterfaceObject
 ]
 interface
-WebGLExtensionBlendMinMax
+EXT_blend_minmax
 {
 const
 GLenum
@@ -5326,39 +5329,19 @@ MAX_EXT
 ;
 }
 ;
-/
-/
-FIXME
-:
-Spec
-interface
-name
-is
-WebGLTimerQueryEXT
-.
 [
 NoInterfaceObject
 ]
 interface
-WebGLTimerQuery
+WebGLTimerQueryEXT
 {
 }
 ;
-/
-/
-FIXME
-:
-Spec
-interface
-name
-is
-EXT_disjoint_timer_query
-.
 [
 NoInterfaceObject
 ]
 interface
-WebGLExtensionDisjointTimerQuery
+EXT_disjoint_timer_query
 {
 const
 GLenum
@@ -5402,7 +5385,7 @@ GPU_DISJOINT_EXT
 =
 0x8FBB
 ;
-WebGLTimerQuery
+WebGLTimerQueryEXT
 ?
 createQueryEXT
 (
@@ -5411,7 +5394,7 @@ createQueryEXT
 void
 deleteQueryEXT
 (
-WebGLTimerQuery
+WebGLTimerQueryEXT
 ?
 query
 )
@@ -5422,7 +5405,7 @@ WebGLHandlesContextLoss
 boolean
 isQueryEXT
 (
-WebGLTimerQuery
+WebGLTimerQueryEXT
 ?
 query
 )
@@ -5432,7 +5415,7 @@ beginQueryEXT
 (
 GLenum
 target
-WebGLTimerQuery
+WebGLTimerQueryEXT
 ?
 query
 )
@@ -5447,7 +5430,7 @@ target
 void
 queryCounterEXT
 (
-WebGLTimerQuery
+WebGLTimerQueryEXT
 ?
 query
 GLenum
@@ -5466,7 +5449,7 @@ pname
 any
 getQueryObjectEXT
 (
-WebGLTimerQuery
+WebGLTimerQueryEXT
 ?
 query
 GLenum

@@ -65,7 +65,7 @@ return
 dom
 :
 :
-WebGLTimerQueryBinding
+WebGLTimerQueryEXTBinding
 :
 :
 Wrap

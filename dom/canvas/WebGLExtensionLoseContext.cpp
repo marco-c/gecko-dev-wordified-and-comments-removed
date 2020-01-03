@@ -86,5 +86,6 @@ RestoreContext
 IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionLoseContext
+WEBGL_lose_context
 )
 }
