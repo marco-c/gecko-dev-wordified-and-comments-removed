@@ -1890,6 +1890,7 @@ nsIPluginHost
 let
 permissionMap
 =
+new
 Map
 (
 )
