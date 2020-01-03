@@ -14005,7 +14005,7 @@ Ci
 .
 nsICellBroadcastService
 .
-GSM_MESSAGE_CLASS_INVALID
+GSM_MESSAGE_CLASS_NORMAL
 ;
 }
 _convertCbEtwsWarningType
