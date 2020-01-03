@@ -6155,12 +6155,6 @@ Buf
 ;
 options
 .
-isCdma
-=
-true
-;
-options
-.
 request
 =
 REQUEST_CDMA_FLASH
@@ -6182,6 +6176,10 @@ writeString
 options
 .
 featureStr
+|
+|
+"
+"
 )
 ;
 Buf
