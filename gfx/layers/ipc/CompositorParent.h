@@ -892,6 +892,16 @@ override
 ;
 virtual
 bool
+RecvGetFrameUniformity
+(
+FrameUniformityData
+*
+aOutData
+)
+override
+;
+virtual
+bool
 RecvRequestOverfill
 (
 )
