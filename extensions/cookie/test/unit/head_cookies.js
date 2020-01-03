@@ -399,7 +399,6 @@ function
 do_close_profile
 (
 generator
-cleanse
 )
 {
 let
@@ -444,11 +443,10 @@ before
 -
 change
 "
-cleanse
-?
-cleanse
-:
 "
+shutdown
+-
+persist
 "
 )
 ;
