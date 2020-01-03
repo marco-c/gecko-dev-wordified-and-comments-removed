@@ -477,7 +477,7 @@ MobileConnectionType
 mType
 )
 ;
-AutoSafeJSContext
+AutoJSContext
 cx
 ;
 JS
