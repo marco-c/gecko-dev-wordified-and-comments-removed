@@ -231,7 +231,7 @@ src
 "
 drawable
 /
-new_tablet_tab_strip_add_tab
+tab_strip_add_tab
 "
 android
 :
