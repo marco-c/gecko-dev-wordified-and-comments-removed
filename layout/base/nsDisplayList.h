@@ -9953,8 +9953,6 @@ nsRect
 &
 aViewport
 bool
-aForceNullScrollId
-bool
 aIsRoot
 const
 ContainerLayerParameters
