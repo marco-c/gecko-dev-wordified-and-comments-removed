@@ -249,6 +249,12 @@ CFLAGS
 -
 Wshadow
 '
+'
+-
+Wformat
+-
+security
+'
 ]
 CXXFLAGS
 +
@@ -257,5 +263,11 @@ CXXFLAGS
 '
 -
 Wshadow
+'
+'
+-
+Wformat
+-
+security
 '
 ]
