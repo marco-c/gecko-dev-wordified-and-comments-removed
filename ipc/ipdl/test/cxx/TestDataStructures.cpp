@@ -6138,8 +6138,6 @@ nsIntRegion
 r
 ;
 r
-=
-r
 .
 Or
 (

@@ -18624,8 +18624,6 @@ snap
 else
 {
 oldShadow
-=
-oldShadow
 .
 Sub
 (
@@ -18639,8 +18637,6 @@ geometry
 mBorderRect
 )
 ;
-newShadow
-=
 newShadow
 .
 Sub
