@@ -16977,13 +16977,6 @@ ShouldContinueFromReplyTimeout
 (
 )
 {
-MOZ_ASSERT
-(
-BrowserTabsRemote
-(
-)
-)
-;
 return
 false
 ;

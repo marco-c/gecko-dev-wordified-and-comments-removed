@@ -8020,7 +8020,7 @@ Services
 .
 appinfo
 .
-browserTabsRemote
+browserTabsRemoteAutostart
 ;
 let
 useLocal
