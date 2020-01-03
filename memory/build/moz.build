@@ -238,11 +238,12 @@ replace_malloc
 c
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 memory
 '
+)
 if
 CONFIG
 [

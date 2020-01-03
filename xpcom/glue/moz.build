@@ -531,11 +531,12 @@ nsStringAPI
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 xpcomglue_s
 '
+)
 SDK_LIBRARY
 =
 True

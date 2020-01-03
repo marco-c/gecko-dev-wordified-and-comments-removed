@@ -120,9 +120,8 @@ UnicharSelfTest
 cpp
 '
 ]
-SIMPLE_PROGRAMS
-+
-=
+SimplePrograms
+(
 [
 "
 %
@@ -143,6 +142,7 @@ fyl
 in
 SOURCES
 ]
+)
 USE_STATIC_LIBS
 =
 True

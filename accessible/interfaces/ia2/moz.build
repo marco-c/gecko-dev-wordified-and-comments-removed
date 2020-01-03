@@ -93,11 +93,12 @@ MPL
 0
 /
 .
-LIBRARY_NAME
-=
+Library
+(
 '
 IA2Marshal
 '
+)
 FORCE_SHARED_LIB
 =
 True

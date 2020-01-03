@@ -174,11 +174,12 @@ OmxPlugin
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 omxplugin
 '
+)
 FORCE_SHARED_LIB
 =
 True

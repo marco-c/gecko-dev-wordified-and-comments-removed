@@ -125,14 +125,14 @@ chrome
 ini
 '
 ]
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 TestAppShellSteadyState
 '
 ]
+)
 FAIL_ON_WARNINGS
 =
 True

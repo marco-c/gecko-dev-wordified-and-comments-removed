@@ -106,11 +106,12 @@ OS_ARCH
 WINNT
 '
 :
-LIBRARY_NAME
-=
+Library
+(
 '
 sandbox_staticruntime_s
 '
+)
 FORCE_STATIC_LIB
 =
 True

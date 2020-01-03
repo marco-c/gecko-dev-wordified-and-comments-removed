@@ -103,11 +103,12 @@ crashinjectdll
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 crashinjectdll
 '
+)
 FORCE_SHARED_LIB
 =
 True

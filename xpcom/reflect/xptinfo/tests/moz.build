@@ -103,14 +103,14 @@ TestInterfaceInfo
 cpp
 '
 ]
-SIMPLE_PROGRAMS
-+
-=
+SimplePrograms
+(
 [
 '
 TestInterfaceInfo
 '
 ]
+)
 USE_LIBS
 +
 =

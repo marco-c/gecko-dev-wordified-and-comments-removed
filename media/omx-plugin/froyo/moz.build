@@ -103,11 +103,12 @@ OmxPluginFroyo
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 omxpluginfroyo
 '
+)
 FORCE_SHARED_LIB
 =
 True

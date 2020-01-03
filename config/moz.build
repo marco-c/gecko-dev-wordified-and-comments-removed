@@ -191,11 +191,12 @@ pathsub
 c
 '
 ]
-HOST_PROGRAM
-=
+HostProgram
+(
 '
 nsinstall_real
 '
+)
 if
 CONFIG
 [

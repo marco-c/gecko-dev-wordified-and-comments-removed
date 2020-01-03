@@ -123,11 +123,12 @@ SOURCES
 +
 =
 rdf_util_src_cppsrcs
-LIBRARY_NAME
-=
+Library
+(
 '
 rdfutil_external_s
 '
+)
 #
 we
 don

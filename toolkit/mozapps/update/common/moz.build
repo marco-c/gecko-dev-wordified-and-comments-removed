@@ -151,11 +151,12 @@ updatehelper
 h
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 updatecommon
 '
+)
 srcdir
 =
 '

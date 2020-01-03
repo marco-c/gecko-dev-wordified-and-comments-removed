@@ -103,11 +103,12 @@ vmwarerecordinghelper
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 vmwarerecordinghelper
 '
+)
 FORCE_SHARED_LIB
 =
 True

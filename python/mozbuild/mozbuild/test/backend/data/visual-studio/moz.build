@@ -68,8 +68,9 @@ dir1
 '
 ]
 )
-LIBRARY_NAME
-=
+Library
+(
 '
 test
 '
+)

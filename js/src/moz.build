@@ -3033,9 +3033,8 @@ jskwgen
 cpp
 '
 ]
-HOST_SIMPLE_PROGRAMS
-+
-=
+HostSimplePrograms
+(
 [
 '
 host_
@@ -3059,6 +3058,7 @@ f
 in
 HOST_SOURCES
 ]
+)
 #
 JavaScript
 must
@@ -3147,11 +3147,12 @@ the
 static
 library
 .
-LIBRARY_NAME
-=
+Library
+(
 '
 js
 '
+)
 if
 CONFIG
 [

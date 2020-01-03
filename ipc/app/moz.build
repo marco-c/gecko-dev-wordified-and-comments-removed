@@ -93,14 +93,15 @@ MPL
 0
 /
 .
-PROGRAM
-=
+Program
+(
 CONFIG
 [
 '
 MOZ_CHILD_PROCESS_NAME
 '
 ]
+)
 if
 CONFIG
 [

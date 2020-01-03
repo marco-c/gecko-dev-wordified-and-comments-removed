@@ -135,14 +135,14 @@ file
 into
 an
 executable
-SIMPLE_PROGRAMS
-+
-=
+SimplePrograms
+(
 [
 '
 nsTestSample
 '
 ]
+)
 #
 Whatever
 code

@@ -103,11 +103,12 @@ injector
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 breakpadinjector
 '
+)
 include
 (
 '

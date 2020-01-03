@@ -93,8 +93,8 @@ MPL
 0
 /
 .
-SIMPLE_PROGRAMS
-=
+SimplePrograms
+(
 [
 '
 BadPlugin
@@ -103,6 +103,7 @@ BadPlugin
 GoodPlugin
 '
 ]
+)
 SOURCES
 +
 =

@@ -103,11 +103,11 @@ stub_test
 cpp
 '
 ]
-SIMPLE_PROGRAMS
-+
-=
+SimplePrograms
+(
 [
 '
 stub_test
 '
 ]
+)

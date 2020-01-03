@@ -293,11 +293,12 @@ ANDROID_VERSION
 ]
 )
 )
-LIBRARY_NAME
-=
+Library
+(
 '
 display
 '
+)
 include
 (
 '

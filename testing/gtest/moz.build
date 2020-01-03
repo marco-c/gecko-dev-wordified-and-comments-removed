@@ -696,11 +696,12 @@ GTestRunner
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 gtest
 '
+)
 SOURCES
 +
 =

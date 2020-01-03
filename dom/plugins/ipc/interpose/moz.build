@@ -93,11 +93,12 @@ MPL
 0
 /
 .
-LIBRARY_NAME
-=
+Library
+(
 '
 plugin_child_interpose
 '
+)
 UNIFIED_SOURCES
 +
 =

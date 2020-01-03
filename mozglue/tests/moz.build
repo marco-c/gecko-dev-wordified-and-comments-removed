@@ -106,11 +106,11 @@ ShowSSEConfig
 cpp
 '
 ]
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 ShowSSEConfig
 '
 ]
+)

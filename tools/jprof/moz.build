@@ -101,11 +101,12 @@ DIRS
 stub
 '
 ]
-PROGRAM
-=
+Program
+(
 '
 jprof
 '
+)
 SOURCES
 +
 =

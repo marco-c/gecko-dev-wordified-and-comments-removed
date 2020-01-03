@@ -101,11 +101,12 @@ MOZ_CRASHREPORTER
 '
 ]
 :
-HOST_LIBRARY_NAME
-=
+HostLibrary
+(
 '
 host_breakpad_dwarf_s
 '
+)
 HOST_SOURCES
 +
 =

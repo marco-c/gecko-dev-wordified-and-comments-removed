@@ -119,11 +119,12 @@ libstagefright_color_conversion
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 stagefright_color_conversion
 '
+)
 FORCE_SHARED_LIB
 =
 True

@@ -93,8 +93,8 @@ MPL
 0
 /
 .
-PROGRAM
-=
+Program
+(
 '
 mozilla
 -
@@ -102,6 +102,7 @@ xremote
 -
 client
 '
+)
 FINAL_LIBRARY
 =
 '

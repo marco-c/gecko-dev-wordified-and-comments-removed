@@ -133,11 +133,12 @@ nsStringAPI
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 xpcomglue_s_nomozalloc
 '
+)
 SDK_LIBRARY
 =
 True

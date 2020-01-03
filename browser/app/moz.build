@@ -103,14 +103,15 @@ profile
 extensions
 '
 ]
-PROGRAM
-=
+Program
+(
 CONFIG
 [
 '
 MOZ_APP_NAME
 '
 ]
+)
 SOURCES
 +
 =

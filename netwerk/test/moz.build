@@ -182,8 +182,8 @@ xpcshell
 ini
 '
 ]
-SIMPLE_PROGRAMS
-=
+SimplePrograms
+(
 [
 '
 PropertiesTest
@@ -231,6 +231,7 @@ TestURLParser
 urltest
 '
 ]
+)
 #
 XXX
 Make
@@ -288,9 +289,8 @@ s
 in
 SIMPLE_PROGRAMS
 ]
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 TestCookie
@@ -302,6 +302,7 @@ TestSTSParser
 TestUDPSocket
 '
 ]
+)
 SOURCES
 +
 =

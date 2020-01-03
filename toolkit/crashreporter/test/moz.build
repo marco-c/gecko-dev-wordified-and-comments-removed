@@ -206,11 +206,12 @@ nsTestCrasher
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 testcrasher
 '
+)
 EXTRA_JS_MODULES
 +
 =

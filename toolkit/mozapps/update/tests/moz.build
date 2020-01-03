@@ -170,8 +170,8 @@ xpcshell
 ini
 '
 ]
-SIMPLE_PROGRAMS
-=
+SimplePrograms
+(
 [
 '
 TestAUSHelper
@@ -180,6 +180,7 @@ TestAUSHelper
 TestAUSReadStrings
 '
 ]
+)
 SOURCES
 +
 =

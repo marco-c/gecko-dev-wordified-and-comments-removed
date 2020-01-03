@@ -1826,11 +1826,12 @@ MOZ_D3D_CPU_SUFFIX
 ]
 )
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 libGLESv2
 '
+)
 FORCE_SHARED_LIB
 =
 True

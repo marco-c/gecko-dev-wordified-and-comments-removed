@@ -161,8 +161,9 @@ test
 lib
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 tlsserver
 '
+)

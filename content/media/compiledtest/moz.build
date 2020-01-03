@@ -93,9 +93,8 @@ MPL
 0
 /
 .
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 TestAudioBuffers
@@ -104,6 +103,7 @@ TestAudioBuffers
 TestAudioMixer
 '
 ]
+)
 SOURCES
 +
 =

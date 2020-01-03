@@ -119,11 +119,12 @@ libstagefright
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 stagefright
 '
+)
 FORCE_SHARED_LIB
 =
 True

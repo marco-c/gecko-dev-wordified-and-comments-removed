@@ -310,11 +310,12 @@ srtp
 c
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 nksrtp_s
 '
+)
 include
 (
 '

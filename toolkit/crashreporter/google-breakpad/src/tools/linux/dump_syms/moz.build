@@ -103,11 +103,12 @@ dump_syms
 cc
 '
 ]
-HOST_PROGRAM
-=
+HostProgram
+(
 '
 dump_syms
 '
+)
 #
 host_breakpad_linux_common_s
 needs

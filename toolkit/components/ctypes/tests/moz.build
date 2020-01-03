@@ -150,13 +150,14 @@ test
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 jsctypes
 -
 test
 '
+)
 FORCE_SHARED_LIB
 =
 True

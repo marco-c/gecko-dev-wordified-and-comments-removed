@@ -93,14 +93,14 @@ MPL
 0
 /
 .
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 test_tone
 '
 ]
+)
 if
 CONFIG
 [
@@ -114,9 +114,8 @@ OS_TARGET
 Android
 '
 :
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 test_audio
@@ -128,6 +127,7 @@ test_latency
 test_sanity
 '
 ]
+)
 SOURCES
 +
 =

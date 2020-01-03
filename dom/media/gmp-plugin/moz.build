@@ -108,11 +108,12 @@ fake
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 "
 fake
 "
+)
 USE_STATIC_LIBS
 =
 True

@@ -114,11 +114,12 @@ GTK2_SYMBOLS
 ]
 =
 True
-LIBRARY_NAME
-=
+Library
+(
 '
 mozgtk
 '
+)
 SONAME
 =
 '

@@ -93,13 +93,14 @@ MPL
 0
 /
 .
-LIBRARY_NAME
-=
+Library
+(
 '
 xul
 -
 gtest
 '
+)
 FINAL_TARGET
 =
 '

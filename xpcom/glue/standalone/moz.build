@@ -174,11 +174,12 @@ nsXPCOMGlue
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 xpcomglue
 '
+)
 EXPORTS
 +
 =

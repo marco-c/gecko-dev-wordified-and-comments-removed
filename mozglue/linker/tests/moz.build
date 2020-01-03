@@ -106,14 +106,14 @@ TestZip
 cpp
 '
 ]
-SIMPLE_PROGRAMS
-+
-=
+SimplePrograms
+(
 [
 '
 TestZip
 '
 ]
+)
 LOCAL_INCLUDES
 +
 =

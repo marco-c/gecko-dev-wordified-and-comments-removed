@@ -235,11 +235,12 @@ filter_neon
 S
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 mozpng
 '
+)
 MSVC_ENABLE_PGO
 =
 True

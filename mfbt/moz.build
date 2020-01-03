@@ -101,11 +101,12 @@ TEST_DIRS
 tests
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 mfbt
 '
+)
 EXPORTS
 .
 mozilla

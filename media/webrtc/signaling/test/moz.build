@@ -118,9 +118,8 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 :
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 mediaconduit_unittests
@@ -135,6 +134,7 @@ sdp_unittests
 signaling_unittests
 '
 ]
+)
 SOURCES
 +
 =

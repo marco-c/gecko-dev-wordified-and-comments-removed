@@ -93,14 +93,14 @@ MPL
 0
 /
 .
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 TestAudioChannelService
 '
 ]
+)
 SOURCES
 +
 =

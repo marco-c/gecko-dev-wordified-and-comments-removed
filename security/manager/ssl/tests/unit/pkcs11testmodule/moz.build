@@ -103,11 +103,12 @@ pkcs11testmodule
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 pkcs11testmodule
 '
+)
 FORCE_SHARED_LIB
 =
 True

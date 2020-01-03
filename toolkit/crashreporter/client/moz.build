@@ -106,11 +106,12 @@ OS_TARGET
 Android
 '
 :
-PROGRAM
-=
+Program
+(
 '
 crashreporter
 '
+)
 UNIFIED_SOURCES
 +
 =

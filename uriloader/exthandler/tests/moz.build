@@ -199,13 +199,14 @@ xpcshell
 ini
 '
 ]
-SIMPLE_PROGRAMS
-=
+SimplePrograms
+(
 [
 '
 WriteArgument
 '
 ]
+)
 SOURCES
 +
 =

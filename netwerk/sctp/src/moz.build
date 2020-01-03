@@ -293,11 +293,12 @@ ifaddrs_android
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 nksctp_s
 '
+)
 include
 (
 '

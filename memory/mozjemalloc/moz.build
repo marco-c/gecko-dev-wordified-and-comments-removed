@@ -122,11 +122,12 @@ jemalloc
 c
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 mozjemalloc
 '
+)
 STATIC_LIBRARY_NAME
 =
 '

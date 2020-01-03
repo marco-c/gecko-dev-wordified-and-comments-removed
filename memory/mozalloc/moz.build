@@ -336,11 +336,12 @@ VolatileBufferFallback
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 mozalloc
 '
+)
 if
 CONFIG
 [

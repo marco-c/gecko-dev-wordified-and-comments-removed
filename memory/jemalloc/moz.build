@@ -350,11 +350,12 @@ zone
 c
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 jemalloc
 '
+)
 FORCE_STATIC_LIB
 =
 True

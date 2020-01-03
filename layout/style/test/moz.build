@@ -103,9 +103,8 @@ ListCSSProperties
 cpp
 '
 ]
-HOST_SIMPLE_PROGRAMS
-+
-=
+HostSimplePrograms
+(
 [
 '
 host_
@@ -129,6 +128,7 @@ f
 in
 HOST_SOURCES
 ]
+)
 MOCHITEST_MANIFESTS
 +
 =

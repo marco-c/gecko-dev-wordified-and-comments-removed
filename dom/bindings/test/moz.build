@@ -134,11 +134,12 @@ libxul
 or
 anything
 .
-LIBRARY_NAME
-=
+Library
+(
 '
 dombindings_test_s
 '
+)
 EXTRA_COMPONENTS
 +
 =

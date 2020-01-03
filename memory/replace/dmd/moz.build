@@ -174,11 +174,12 @@ strcpy
 c
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 dmd
 '
+)
 FORCE_SHARED_LIB
 =
 True

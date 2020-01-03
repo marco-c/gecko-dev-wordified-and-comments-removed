@@ -93,11 +93,12 @@ MPL
 0
 /
 .
-PROGRAM
-=
+Program
+(
 '
 maintenanceservice
 '
+)
 SOURCES
 +
 =

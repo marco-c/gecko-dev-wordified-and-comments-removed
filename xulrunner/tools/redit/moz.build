@@ -106,11 +106,12 @@ OS_ARCH
 WINNT
 '
 :
-PROGRAM
-=
+Program
+(
 '
 redit
 '
+)
 SOURCES
 +
 =

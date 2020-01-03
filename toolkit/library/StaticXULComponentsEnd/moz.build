@@ -107,11 +107,12 @@ fno
 lto
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 StaticXULComponentsEnd
 '
+)
 DEFINES
 [
 '

@@ -93,9 +93,8 @@ MPL
 0
 /
 .
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 TestArrayUtils
@@ -173,6 +172,7 @@ TestUniquePtr
 TestWeakPtr
 '
 ]
+)
 if
 not
 CONFIG
@@ -182,14 +182,14 @@ MOZ_ASAN
 '
 ]
 :
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 TestPoisonArea
 '
 ]
+)
 SOURCES
 +
 =

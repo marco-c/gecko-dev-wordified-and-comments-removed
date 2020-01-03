@@ -147,14 +147,15 @@ xulrunner
 stub
 '
 .
-PROGRAM
-=
+Program
+(
 CONFIG
 [
 '
 XULRUNNER_STUB_NAME
 '
 ]
+)
 SOURCES
 +
 =

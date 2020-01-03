@@ -96,8 +96,8 @@ MPL
 FAIL_ON_WARNINGS
 =
 True
-SIMPLE_PROGRAMS
-=
+SimplePrograms
+(
 [
 '
 BadCertServer
@@ -112,6 +112,7 @@ GenerateOCSPResponse
 OCSPStaplingServer
 '
 ]
+)
 SOURCES
 +
 =

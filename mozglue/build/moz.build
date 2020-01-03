@@ -385,11 +385,12 @@ AsanOptions
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 mozglue
 '
+)
 USE_LIBS
 +
 =

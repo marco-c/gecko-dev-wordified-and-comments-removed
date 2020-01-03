@@ -103,11 +103,12 @@ dump_syms_tool
 mm
 '
 ]
-HOST_PROGRAM
-=
+HostProgram
+(
 '
 dump_syms
 '
+)
 HOST_USE_LIBS
 +
 =

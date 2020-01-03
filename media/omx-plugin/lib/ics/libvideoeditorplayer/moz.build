@@ -119,11 +119,12 @@ libvideoeditorplayer
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 videoeditorplayer
 '
+)
 FORCE_SHARED_LIB
 =
 True

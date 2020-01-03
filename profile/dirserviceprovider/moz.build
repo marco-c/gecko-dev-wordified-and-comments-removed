@@ -166,11 +166,12 @@ ProfileUnlockerWin
 h
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 profdirserviceprovidersa_s
 '
+)
 FORCE_STATIC_LIB
 =
 True

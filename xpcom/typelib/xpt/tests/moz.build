@@ -93,8 +93,8 @@ MPL
 0
 /
 .
-SIMPLE_PROGRAMS
-=
+SimplePrograms
+(
 [
 '
 PrimitiveTest
@@ -103,6 +103,7 @@ PrimitiveTest
 SimpleTypeLib
 '
 ]
+)
 SOURCES
 +
 =

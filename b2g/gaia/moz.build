@@ -93,14 +93,15 @@ MPL
 0
 /
 .
-PROGRAM
-=
+Program
+(
 CONFIG
 [
 '
 MOZ_APP_NAME
 '
 ]
+)
 if
 CONFIG
 [

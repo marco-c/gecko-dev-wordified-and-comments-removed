@@ -134,11 +134,12 @@ obj_int_extract
 c
 '
 ]
-HOST_PROGRAM
-=
+HostProgram
+(
 '
 host_obj_int_extract
 '
+)
 #
 Unify
 fewer

@@ -101,11 +101,12 @@ DIRS
 profile
 '
 ]
-PROGRAM
-=
+Program
+(
 '
 xulrunner
 '
+)
 SOURCES
 +
 =

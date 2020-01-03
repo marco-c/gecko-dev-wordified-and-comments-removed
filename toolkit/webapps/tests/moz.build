@@ -113,11 +113,11 @@ TestWebappRT
 cpp
 '
 ]
-SIMPLE_PROGRAMS
-+
-=
+SimplePrograms
+(
 [
 '
 TestWebappRT
 '
 ]
+)

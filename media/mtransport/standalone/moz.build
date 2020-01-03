@@ -123,11 +123,12 @@ SOURCES
 +
 =
 mtransport_cppsrcs
-LIBRARY_NAME
-=
+Library
+(
 '
 mtransport_s
 '
+)
 LOCAL_INCLUDES
 +
 =

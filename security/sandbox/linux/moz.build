@@ -96,11 +96,12 @@ MPL
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
+Library
+(
 '
 mozsandbox
 '
+)
 FORCE_SHARED_LIB
 =
 True

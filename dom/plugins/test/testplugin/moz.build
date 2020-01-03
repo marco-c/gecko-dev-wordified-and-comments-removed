@@ -104,11 +104,12 @@ secondplugin
 javaplugin
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 nptest
 '
+)
 FAIL_ON_WARNINGS
 =
 not

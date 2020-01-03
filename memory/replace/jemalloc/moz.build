@@ -181,11 +181,12 @@ pthread_atfork
 c
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 replace_jemalloc
 '
+)
 USE_LIBS
 +
 =

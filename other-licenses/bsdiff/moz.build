@@ -103,11 +103,12 @@ bsdiff
 c
 '
 ]
-HOST_PROGRAM
-=
+HostProgram
+(
 '
 mbsdiff
 '
+)
 if
 CONFIG
 [

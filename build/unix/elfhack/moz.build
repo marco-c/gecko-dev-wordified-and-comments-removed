@@ -152,11 +152,12 @@ elfhack
 cpp
 '
 ]
-HOST_PROGRAM
-=
+HostProgram
+(
 '
 elfhack
 '
+)
 DEFINES
 [
 '

@@ -103,11 +103,12 @@ OmxPlugin236
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 omxplugingb
 '
+)
 FORCE_SHARED_LIB
 =
 True

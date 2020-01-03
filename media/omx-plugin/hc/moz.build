@@ -103,11 +103,12 @@ OmxPluginHoneycomb
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 omxpluginhc
 '
+)
 FORCE_SHARED_LIB
 =
 True

@@ -147,9 +147,8 @@ xpcshell
 ini
 '
 ]
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 TestCSPParser
@@ -164,6 +163,7 @@ TestNativeXMLHttpRequest
 TestPlainTextSerializer
 '
 ]
+)
 SOURCES
 +
 =

@@ -101,14 +101,15 @@ JS_SHELL_NAME
 '
 ]
 :
-PROGRAM
-=
+Program
+(
 CONFIG
 [
 '
 JS_SHELL_NAME
 '
 ]
+)
 if
 CONFIG
 [

@@ -113,11 +113,12 @@ libmalloc
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 jprof
 '
+)
 FORCE_SHARED_LIB
 =
 True

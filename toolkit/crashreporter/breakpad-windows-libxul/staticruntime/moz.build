@@ -119,11 +119,12 @@ http_upload
 cc
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 google_breakpad_libxul_staticruntime_s
 '
+)
 for
 var
 in

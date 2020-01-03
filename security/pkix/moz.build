@@ -289,11 +289,12 @@ member_name
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
+Library
+(
 '
 mozillapkix
 '
+)
 FINAL_LIBRARY
 =
 '

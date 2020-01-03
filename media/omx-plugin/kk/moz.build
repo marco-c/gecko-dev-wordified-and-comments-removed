@@ -103,11 +103,12 @@ OmxPluginKitKat
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 omxpluginkk
 '
+)
 FORCE_SHARED_LIB
 =
 True

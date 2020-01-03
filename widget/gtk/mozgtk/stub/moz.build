@@ -127,11 +127,12 @@ var
 ]
 =
 True
-LIBRARY_NAME
-=
+Library
+(
 '
 mozgtk_stub
 '
+)
 SONAME
 =
 '

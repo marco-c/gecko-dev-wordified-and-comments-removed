@@ -106,6 +106,8 @@ os
 import
 sys
 import
+textwrap
+import
 time
 import
 tokenize
@@ -193,6 +195,8 @@ VARIABLES
 DEPRECATION_HINTS
     
 SPECIAL_VARIABLES
+    
+TemplateContext
 )
 if
 sys
@@ -2384,7 +2388,7 @@ kwargs
             
 context
 =
-Context
+TemplateContext
 (
 VARIABLES
 self
@@ -2470,6 +2474,22 @@ code
 path
 )
             
+klass
+=
+self
+.
+_context
+.
+__class__
+            
+self
+.
+_context
+.
+__class__
+=
+TemplateContext
+            
 for
 key
 value
@@ -2524,6 +2544,14 @@ key
 ]
 =
 value
+            
+self
+.
+_context
+.
+__class__
+=
+klass
             
 for
 p
@@ -4908,6 +4936,11 @@ s
 n
 '
 %
+                    
+textwrap
+.
+dedent
+(
 DEPRECATION_HINTS
 [
 inner
@@ -4917,6 +4950,11 @@ args
 2
 ]
 ]
+)
+.
+strip
+(
+)
 )
                 
 return

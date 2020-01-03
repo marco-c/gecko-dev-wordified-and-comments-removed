@@ -106,11 +106,12 @@ dummy_replace_malloc
 c
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 replace_malloc
 '
+)
 FORCE_SHARED_LIB
 =
 True

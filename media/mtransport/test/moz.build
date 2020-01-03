@@ -118,9 +118,8 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 :
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 buffered_stun_socket_unittest
@@ -153,6 +152,7 @@ transport_unittests
 turn_unittest
 '
 ]
+)
 if
 CONFIG
 [
@@ -161,14 +161,14 @@ MOZ_SCTP
 '
 ]
 :
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 sctp_unittest
 '
 ]
+)
 SOURCES
 +
 =

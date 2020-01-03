@@ -119,11 +119,12 @@ libutils
 cpp
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 utils
 '
+)
 FORCE_SHARED_LIB
 =
 True

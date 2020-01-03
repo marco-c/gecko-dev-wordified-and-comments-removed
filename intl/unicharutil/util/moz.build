@@ -158,11 +158,12 @@ UNIFIED_SOURCES
 +
 =
 intl_unicharutil_util_cppsrcs
-LIBRARY_NAME
-=
+Library
+(
 '
 unicharutil_external_s
 '
+)
 FORCE_STATIC_LIB
 =
 True

@@ -93,13 +93,14 @@ MPL
 0
 /
 .
-PROGRAM
-=
+Program
+(
 '
 webapprt
 -
 stub
 '
+)
 SOURCES
 +
 =

@@ -93,13 +93,14 @@ MPL
 0
 /
 .
-SIMPLE_PROGRAMS
-=
+SimplePrograms
+(
 [
 '
 TestXPTCInvoke
 '
 ]
+)
 SOURCES
 +
 =

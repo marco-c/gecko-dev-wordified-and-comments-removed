@@ -124,11 +124,12 @@ http_upload
 cc
 '
 ]
-LIBRARY_NAME
-=
+Library
+(
 '
 google_breakpad_libxul_s
 '
+)
 FINAL_LIBRARY
 =
 '

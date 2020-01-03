@@ -105,9 +105,8 @@ xpcshell
 ini
 '
 ]
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 test_AsXXX_helpers
@@ -146,6 +145,7 @@ test_true_async
 test_unlock_notify
 '
 ]
+)
 if
 CONFIG
 [
@@ -192,14 +192,14 @@ fails
 on
 OS
 X
-CPP_UNIT_TESTS
-+
-=
+CppUnitTests
+(
 [
 '
 test_deadlock_detector
 '
 ]
+)
 SOURCES
 +
 =
