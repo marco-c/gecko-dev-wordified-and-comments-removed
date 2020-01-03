@@ -16690,14 +16690,12 @@ get
 ;
 if
 (
-NS_FAILED
-(
-rv
-)
+!
+zipItem
 )
 {
 return
-rv
+NS_ERROR_FILE_TARGET_DOES_NOT_EXIST
 ;
 }
 if
