@@ -2101,7 +2101,7 @@ UninitializedImageData
 tex
 -
 >
-DoDeferredImageInitialization
+EnsureNoUninitializedImageData
 (
 texImageTarget
 level
@@ -2840,7 +2840,7 @@ else
 tex
 -
 >
-DoDeferredImageInitialization
+EnsureNoUninitializedImageData
 (
 texImageTarget
 level
@@ -4277,6 +4277,12 @@ defined
 }
 if
 (
+!
+IsWebGL2
+(
+)
+&
+&
 !
 tex
 -
@@ -16269,7 +16275,7 @@ else
 tex
 -
 >
-DoDeferredImageInitialization
+EnsureNoUninitializedImageData
 (
 texImageTarget
 level
@@ -18912,7 +18918,7 @@ else
 tex
 -
 >
-DoDeferredImageInitialization
+EnsureNoUninitializedImageData
 (
 texImageTarget
 level

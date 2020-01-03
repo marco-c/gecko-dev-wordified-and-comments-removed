@@ -3434,6 +3434,12 @@ false
 }
 if
 (
+!
+IsWebGL2
+(
+)
+&
+&
 level
 >
 0
@@ -3568,9 +3574,10 @@ false
 }
 if
 (
-depth
->
-0
+!
+IsWebGL2
+(
+)
 &
 &
 !

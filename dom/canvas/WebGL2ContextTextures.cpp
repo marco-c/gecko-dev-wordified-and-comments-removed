@@ -1569,7 +1569,7 @@ else
 tex
 -
 >
-DoDeferredImageInitialization
+EnsureNoUninitializedImageData
 (
 texImageTarget
 level
