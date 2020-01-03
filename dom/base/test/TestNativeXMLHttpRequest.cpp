@@ -261,6 +261,7 @@ systemPrincipal
 nullptr
 nullptr
 nullptr
+nullptr
 )
 ;
 TEST_ENSURE_SUCCESS
