@@ -865,6 +865,15 @@ autoconfig
 xpt
 BINPATH
 /
+components
+/
+browser
+-
+element
+.
+xpt
+BINPATH
+/
 browser
 /
 components
