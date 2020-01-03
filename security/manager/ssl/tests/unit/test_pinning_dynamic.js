@@ -116,6 +116,8 @@ certdb
 cert
 PRErrorCodeSuccess
 certificateUsageSSLServer
+{
+}
 hostname
 )
 ;
@@ -134,6 +136,8 @@ certdb
 cert
 MOZILLA_PKIX_ERROR_KEY_PINNING_FAILURE
 certificateUsageSSLServer
+{
+}
 hostname
 )
 ;
