@@ -366,7 +366,7 @@ bool
 ContentMightReflowOnOrientationChange
 (
 const
-nsIntRect
+IntRect
 &
 rect
 )

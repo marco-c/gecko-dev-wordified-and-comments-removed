@@ -770,7 +770,7 @@ LayerManagerComposite
 UpdateRenderBounds
 (
 const
-nsIntRect
+IntRect
 &
 aRect
 )
@@ -864,7 +864,7 @@ DrawTarget
 *
 aTarget
 const
-nsIntRect
+IntRect
 &
 aRect
 )
@@ -2955,7 +2955,7 @@ RefPtr
 CompositingRenderTarget
 >
 aPreviousTarget
-nsIntRect
+IntRect
 aClipRect
 bool
 aGrayscaleEffect
@@ -3834,7 +3834,7 @@ GetWidget
 DrawWindowUnderlay
 (
 this
-nsIntRect
+IntRect
 (
 actualBounds
 .
@@ -3929,7 +3929,7 @@ mRegionToClear
 )
 ;
 const
-nsIntRect
+IntRect
 *
 r
 ;
@@ -4011,7 +4011,7 @@ GetWidget
 DrawWindowOverlay
 (
 this
-nsIntRect
+IntRect
 (
 actualBounds
 .
@@ -4911,10 +4911,10 @@ LOCAL_GL_COLOR_BUFFER_BIT
 )
 ;
 const
-nsIntRect
+IntRect
 clipRect
 =
-nsIntRect
+IntRect
 (
 0
 0
@@ -5011,7 +5011,7 @@ aRegionToSubtract
 while
 (
 const
-nsIntRect
+IntRect
 *
 rect
 =
@@ -5041,7 +5041,7 @@ aRegion
 Sub
 (
 aRegion
-nsIntRect
+IntRect
 (
 incompleteRect
 .
@@ -5376,7 +5376,7 @@ Matrix4x4
 &
 aTransformToScreen
 const
-nsIntRect
+IntRect
 &
 aScreenRect
 )
@@ -5401,10 +5401,10 @@ RoundOut
 (
 )
 ;
-nsIntRect
+IntRect
 displayport
 =
-nsIntRect
+IntRect
 (
 transformedDisplayport
 .
@@ -5556,7 +5556,7 @@ rootMetrics
 mCompositionBounds
 )
 ;
-nsIntRect
+IntRect
 screenRect
 (
 bounds
@@ -5730,7 +5730,7 @@ screenRect
 .
 Intersect
 (
-nsIntRect
+IntRect
 (
 documentBounds
 .

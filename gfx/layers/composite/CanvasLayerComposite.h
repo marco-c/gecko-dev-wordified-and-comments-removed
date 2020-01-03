@@ -185,7 +185,10 @@ void
 RenderLayer
 (
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aClipRect
 )
@@ -230,7 +233,10 @@ this
 void
 SetBounds
 (
-nsIntRect
+gfx
+:
+:
+IntRect
 aBounds
 )
 {

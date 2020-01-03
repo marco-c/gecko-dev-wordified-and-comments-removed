@@ -282,7 +282,10 @@ void
 SetPictureRect
 (
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aPictureRect
 )
@@ -407,7 +410,10 @@ mFrontBuffer
 CompositableTextureSourceRef
 mTextureSource
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 mPictureRect
 ;
 bool
@@ -514,7 +520,10 @@ void
 SetPictureRect
 (
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aPictureRect
 )
@@ -547,7 +556,10 @@ aPrefix
 ;
 protected
 :
-nsIntRect
+gfx
+:
+:
+IntRect
 mPictureRect
 ;
 bool

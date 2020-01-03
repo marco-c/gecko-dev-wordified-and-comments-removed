@@ -405,7 +405,10 @@ TopLeft
 mBufferRotation
 ;
 }
-nsIntRect
+gfx
+:
+:
+IntRect
 mBufferRect
 ;
 nsIntPoint

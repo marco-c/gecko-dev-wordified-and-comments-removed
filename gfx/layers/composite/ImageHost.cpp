@@ -545,7 +545,7 @@ BeginBigImageIteration
 ;
 do
 {
-nsIntRect
+IntRect
 tileRect
 =
 it
