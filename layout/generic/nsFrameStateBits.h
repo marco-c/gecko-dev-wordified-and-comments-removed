@@ -709,6 +709,17 @@ NS_RUBY_TEXT_FRAME_AUTOHIDE
 )
 FRAME_STATE_GROUP
 (
+RubyTextContainer
+nsRubyTextContainerFrame
+)
+FRAME_STATE_BIT
+(
+RubyTextContainer
+20
+NS_RUBY_TEXT_CONTAINER_IS_SPAN
+)
+FRAME_STATE_GROUP
+(
 Placeholder
 nsPlaceholderFrame
 )

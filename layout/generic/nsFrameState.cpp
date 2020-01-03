@@ -85,6 +85,13 @@ h
 #
 include
 "
+nsRubyTextContainerFrame
+.
+h
+"
+#
+include
+"
 nsSVGContainerFrame
 .
 h
