@@ -787,7 +787,7 @@ NOTE
 (
 inspectorSearchHTML
 .
-label
+label2
 )
 :
 This
@@ -810,10 +810,12 @@ box
 ENTITY
 inspectorSearchHTML
 .
-label
+label2
 "
 Search
-HTML
+with
+CSS
+Selectors
 "
 >
 <
