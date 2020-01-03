@@ -939,6 +939,11 @@ aPath
 )
 ;
 void
+PopClip
+(
+)
+;
+void
 UpdateSurfaceClip
 (
 )
