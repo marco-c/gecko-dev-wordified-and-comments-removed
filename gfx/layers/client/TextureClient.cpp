@@ -1652,14 +1652,6 @@ SurfaceFormat
 B8G8R8X8
 &
 &
-aAllocator
--
->
-IsSameProcess
-(
-)
-&
-&
 aMoz2DBackend
 =
 =
