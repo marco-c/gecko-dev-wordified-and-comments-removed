@@ -1950,10 +1950,12 @@ hasPendingInterrupt
 )
 )
 {
-ncx
+rt
 -
 >
-gcIfNeeded
+gc
+.
+gcIfRequested
 (
 )
 ;

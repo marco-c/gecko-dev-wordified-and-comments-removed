@@ -14627,7 +14627,7 @@ true
 endif
 if
 (
-gcIfNeeded
+gcIfRequested
 (
 )
 )
@@ -29778,7 +29778,7 @@ bool
 GCRuntime
 :
 :
-gcIfNeeded
+gcIfRequested
 (
 JSContext
 *
