@@ -444,12 +444,10 @@ WidgetToScreenOffset
 MOZ_OVERRIDE
 {
 return
-GetWindowPosition
+nsIntPoint
 (
-)
-+
-GetChromeDimensions
-(
+0
+0
 )
 ;
 }
