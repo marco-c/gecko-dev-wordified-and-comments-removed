@@ -105,11 +105,7 @@ PL_DHashTableInit
 mValuesHash
 &
 sHashOps
-(
-void
-*
-)
-this
+nullptr
 sizeof
 (
 HashEntry
