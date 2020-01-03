@@ -4,6 +4,12 @@ dirAuto
 reftest
 .
 list
+include
+numeral
+/
+reftest
+.
+list
 =
 =
 bdi
