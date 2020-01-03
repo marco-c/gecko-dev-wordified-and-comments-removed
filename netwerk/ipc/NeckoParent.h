@@ -598,10 +598,6 @@ const
 uint32_t
 &
 aFlags
-const
-nsCString
-&
-aNetworkInterface
 )
 MOZ_OVERRIDE
 ;
@@ -620,10 +616,6 @@ const
 uint32_t
 &
 flags
-const
-nsCString
-&
-aNetworkInterface
 )
 MOZ_OVERRIDE
 ;

@@ -431,8 +431,6 @@ nsCString
 hostName
 uint32_t
 flags
-nsCString
-networkInterface
 )
 ;
 PRemoteOpenFile
