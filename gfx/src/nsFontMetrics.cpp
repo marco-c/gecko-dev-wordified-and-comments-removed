@@ -535,6 +535,11 @@ aFont
 nsIAtom
 *
 aLanguage
+gfxFont
+:
+:
+Orientation
+aOrientation
 nsDeviceContext
 *
 aContext
@@ -565,6 +570,10 @@ aFont
 mLanguage
 =
 aLanguage
+;
+mOrientation
+=
+aOrientation
 ;
 mDeviceContext
 =
@@ -745,10 +754,7 @@ GetFirstValidFont
 >
 GetMetrics
 (
-gfxFont
-:
-:
-eHorizontal
+mOrientation
 )
 ;
 }

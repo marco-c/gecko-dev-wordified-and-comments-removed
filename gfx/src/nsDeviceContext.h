@@ -30,6 +30,13 @@ h
 #
 include
 "
+gfxFont
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -282,6 +289,11 @@ aFont
 nsIAtom
 *
 aLanguage
+gfxFont
+:
+:
+Orientation
+aOrientation
 gfxUserFontSet
 *
 aUserFontSet

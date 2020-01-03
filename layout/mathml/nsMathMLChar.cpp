@@ -3568,6 +3568,10 @@ StyleFont
 -
 >
 mLanguage
+gfxFont
+:
+:
+eHorizontal
 aPresContext
 -
 >
@@ -6291,6 +6295,10 @@ StyleFont
 -
 >
 mLanguage
+gfxFont
+:
+:
+eHorizontal
 aPresContext
 -
 >
