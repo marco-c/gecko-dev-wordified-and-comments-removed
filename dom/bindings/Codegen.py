@@ -48422,29 +48422,6 @@ self
 )
 :
         
-jsImplemented
-=
-"
-"
-        
-if
-self
-.
-descriptor
-.
-interface
-.
-isJSImplemented
-(
-)
-:
-            
-jsImplemented
-=
-"
-true
-"
-        
 return
 CGGeneric
 (
@@ -48462,8 +48439,6 @@ s
 %
 s
 "
-%
-s
 )
 ;
 \
@@ -48489,8 +48464,6 @@ idlNode
 identifier
 .
 name
-                            
-jsImplemented
 )
 )
     

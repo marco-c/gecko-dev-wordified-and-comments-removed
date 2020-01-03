@@ -363,14 +363,6 @@ JSContext
 cx
 )
 ;
-void
-ReportJSExceptionFromJSImplementation
-(
-JSContext
-*
-aCx
-)
-;
 bool
 IsJSException
 (
