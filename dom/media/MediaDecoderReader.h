@@ -643,6 +643,13 @@ return
 false
 ;
 }
+virtual
+void
+DisableHardwareAcceleration
+(
+)
+{
+}
 protected
 :
 virtual
