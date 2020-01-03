@@ -870,7 +870,7 @@ rv
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1109,7 +1109,7 @@ NameAtom
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -3390,7 +3390,7 @@ aNewIndexInContainer
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG

@@ -302,7 +302,7 @@ PR_BEGIN_MACRO
 \
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetSHistoryLog
 (
@@ -376,7 +376,7 @@ PR_BEGIN_MACRO
 \
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetSHistoryLog
 (

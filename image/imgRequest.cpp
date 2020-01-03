@@ -255,7 +255,7 @@ GetImgLog
 )
 &
 &
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetImgLog
 (
@@ -1163,7 +1163,7 @@ mCacheEntry
 else
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetImgLog
 (

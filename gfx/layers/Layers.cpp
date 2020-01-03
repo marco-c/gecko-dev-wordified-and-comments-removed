@@ -12011,7 +12011,7 @@ allowed
 )
 ;
 return
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 sLog
 PR_LOG_DEBUG

@@ -11230,7 +11230,7 @@ originalKbdState
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 sKeyboardLayoutLogger
 PR_LOG_DEBUG

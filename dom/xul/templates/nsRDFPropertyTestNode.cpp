@@ -93,7 +93,7 @@ nullptr
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -280,7 +280,7 @@ nullptr
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -459,7 +459,7 @@ aTarget
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -753,7 +753,7 @@ targetValue
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1149,7 +1149,7 @@ nsIRDFNode
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1253,7 +1253,7 @@ nsIRDFResource
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1519,7 +1519,7 @@ true
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG
@@ -1662,7 +1662,7 @@ get
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gXULTemplateLog
 PR_LOG_DEBUG

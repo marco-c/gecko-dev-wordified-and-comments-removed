@@ -158,7 +158,7 @@ LogKeyStateImpl
 if
 (
 !
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gMouseScrollLog
 PR_LOG_DEBUG

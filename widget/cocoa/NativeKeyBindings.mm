@@ -1435,7 +1435,7 @@ selector
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gNativeKeyBindingsLog
 PR_LOG_ALWAYS

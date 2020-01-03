@@ -98,7 +98,7 @@ define
 LOG1_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gHttpLog
 1
@@ -108,7 +108,7 @@ define
 LOG2_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gHttpLog
 2
@@ -118,7 +118,7 @@ define
 LOG3_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gHttpLog
 3
@@ -128,7 +128,7 @@ define
 LOG4_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gHttpLog
 4
@@ -138,7 +138,7 @@ define
 LOG5_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gHttpLog
 5

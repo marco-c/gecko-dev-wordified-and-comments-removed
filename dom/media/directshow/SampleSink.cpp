@@ -238,7 +238,7 @@ Wait
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetDirectShowLog
 (
@@ -389,7 +389,7 @@ mSample
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetDirectShowLog
 (

@@ -1252,7 +1252,7 @@ if
 resource
 &
 &
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLog
 PR_LOG_NOTICE
@@ -1699,7 +1699,7 @@ mParseMode
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLog
 PR_LOG_WARNING

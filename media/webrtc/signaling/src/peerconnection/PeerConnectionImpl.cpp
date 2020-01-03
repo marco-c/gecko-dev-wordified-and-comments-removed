@@ -1771,7 +1771,7 @@ aGlobal
 :
 mTimeCard
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 signalingLogInfo
 (
