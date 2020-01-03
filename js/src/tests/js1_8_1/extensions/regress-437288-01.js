@@ -64,13 +64,10 @@ expect
 SyntaxError
 :
 invalid
-for
-/
-in
-left
--
-hand
-side
+assignment
+to
+const
+x
 '
 ;
 try

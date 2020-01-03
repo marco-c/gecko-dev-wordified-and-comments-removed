@@ -53,7 +53,7 @@ FUZZ_FACTOR
 )
 ;
 }
-const
+var
 stacks
 =
 [

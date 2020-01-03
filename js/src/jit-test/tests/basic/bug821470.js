@@ -42,7 +42,7 @@ x
 )
 ;
 }
-TypeError
+SyntaxError
 )
 ;
 assertThrowsInstanceOf
@@ -70,5 +70,5 @@ x
 )
 ;
 }
-TypeError
+SyntaxError
 )

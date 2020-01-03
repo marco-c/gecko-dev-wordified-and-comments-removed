@@ -53,13 +53,10 @@ expect
 SyntaxError
 :
 invalid
-for
-/
-in
-left
--
-hand
-side
+assignment
+to
+const
+b
 '
 ;
 jit

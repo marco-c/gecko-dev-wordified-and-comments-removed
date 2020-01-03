@@ -138,7 +138,7 @@ e
 .
 name
 '
-TypeError
+SyntaxError
 '
 )
 ;
@@ -198,7 +198,7 @@ e
 .
 name
 '
-TypeError
+SyntaxError
 '
 )
 ;
