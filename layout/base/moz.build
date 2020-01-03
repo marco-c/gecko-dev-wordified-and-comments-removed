@@ -526,7 +526,7 @@ nsILayoutHistoryState
 h
 '
 '
-nsIPercentHeightObserver
+nsIPercentBSizeObserver
 .
 h
 '

@@ -6781,7 +6781,7 @@ ClearRowCursor
 nsTableFrame
 :
 :
-CheckRequestSpecialHeightReflow
+CheckRequestSpecialBSizeReflow
 (
 aReflowState
 )

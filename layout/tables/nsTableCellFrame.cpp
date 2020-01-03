@@ -473,7 +473,7 @@ void
 nsTableCellFrame
 :
 :
-NotifyPercentHeight
+NotifyPercentBSize
 (
 const
 nsHTMLReflowState
@@ -508,7 +508,7 @@ this
 cellRS
 -
 >
-ComputedHeight
+ComputedBSize
 (
 )
 =
@@ -519,7 +519,7 @@ NS_UNCONSTRAINEDSIZE
 cellRS
 -
 >
-ComputedHeight
+ComputedBSize
 (
 )
 =
@@ -533,7 +533,7 @@ if
 nsTableFrame
 :
 :
-AncestorsHaveStyleHeight
+AncestorsHaveStyleBSize
 (
 *
 cellRS
@@ -614,7 +614,7 @@ NS_FRAME_CONTAINS_RELATIVE_BSIZE
 nsTableFrame
 :
 :
-RequestSpecialHeightReflow
+RequestSpecialBSizeReflow
 (
 *
 cellRS
@@ -4028,7 +4028,7 @@ NS_TABLE_CELL_HAD_SPECIAL_REFLOW
 nsTableFrame
 :
 :
-CheckRequestSpecialHeightReflow
+CheckRequestSpecialBSizeReflow
 (
 aReflowState
 )
@@ -4354,7 +4354,7 @@ mSpecialHeightReflow
 {
 kidReflowState
 .
-mPercentHeightObserver
+mPercentBSizeObserver
 =
 this
 ;
@@ -4878,7 +4878,7 @@ nsITableCellLayout
 )
 NS_QUERYFRAME_ENTRY
 (
-nsIPercentHeightObserver
+nsIPercentBSizeObserver
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (

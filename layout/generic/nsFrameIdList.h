@@ -188,7 +188,7 @@ nsIPageSequenceFrame
 )
 FRAME_ID
 (
-nsIPercentHeightObserver
+nsIPercentBSizeObserver
 )
 FRAME_ID
 (

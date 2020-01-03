@@ -5126,7 +5126,7 @@ true
 nsTableFrame
 :
 :
-CheckRequestSpecialHeightReflow
+CheckRequestSpecialBSizeReflow
 (
 aReflowState
 )

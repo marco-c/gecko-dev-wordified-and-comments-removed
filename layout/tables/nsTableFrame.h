@@ -557,7 +557,7 @@ aPresContext
 ;
 static
 bool
-AncestorsHaveStyleHeight
+AncestorsHaveStyleBSize
 (
 const
 nsHTMLReflowState
@@ -567,7 +567,7 @@ aParentReflowState
 ;
 static
 void
-CheckRequestSpecialHeightReflow
+CheckRequestSpecialBSizeReflow
 (
 const
 nsHTMLReflowState
@@ -577,7 +577,7 @@ aReflowState
 ;
 static
 void
-RequestSpecialHeightReflow
+RequestSpecialBSizeReflow
 (
 const
 nsHTMLReflowState

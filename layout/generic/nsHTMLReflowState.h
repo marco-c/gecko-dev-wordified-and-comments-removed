@@ -52,7 +52,7 @@ class
 nsLineLayout
 ;
 class
-nsIPercentHeightObserver
+nsIPercentBSizeObserver
 ;
 struct
 nsHypotheticalBox
@@ -1840,9 +1840,9 @@ GetDisplay
 )
 const
 ;
-nsIPercentHeightObserver
+nsIPercentBSizeObserver
 *
-mPercentHeightObserver
+mPercentBSizeObserver
 ;
 nsIFrame
 *
