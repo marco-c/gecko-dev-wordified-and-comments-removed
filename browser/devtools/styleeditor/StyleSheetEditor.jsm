@@ -661,6 +661,13 @@ this
 .
 _onMediaRulesChanged
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 }
 this
