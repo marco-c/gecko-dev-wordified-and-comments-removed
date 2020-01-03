@@ -2052,6 +2052,7 @@ EventListenerService
 NotifyAboutMainThreadListenerChange
 (
 mTarget
+aTypeAtom
 )
 ;
 }
@@ -2567,6 +2568,7 @@ EventListenerService
 NotifyAboutMainThreadListenerChange
 (
 mTarget
+aUserType
 )
 ;
 }
@@ -3217,6 +3219,7 @@ EventListenerService
 NotifyAboutMainThreadListenerChange
 (
 mTarget
+aName
 )
 ;
 }
@@ -3780,6 +3783,7 @@ EventListenerService
 NotifyAboutMainThreadListenerChange
 (
 mTarget
+aName
 )
 ;
 }
