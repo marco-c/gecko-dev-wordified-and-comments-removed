@@ -3881,7 +3881,11 @@ mPrincipal
 NS_RUNTIMEABORT
 (
 "
-OOM
+nsNullPrincipal
+:
+:
+Init
+failed
 "
 )
 ;
