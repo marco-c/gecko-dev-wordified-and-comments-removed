@@ -636,6 +636,18 @@ click
 "
 )
     
+"
+"
+"
+    
+/
+/
+Skipping
+due
+to
+Bug
+1191066
+    
 def
 test_context_menu
 (
@@ -734,6 +746,10 @@ mouseup
 click
 "
 )
+    
+"
+"
+"
     
 "
 "

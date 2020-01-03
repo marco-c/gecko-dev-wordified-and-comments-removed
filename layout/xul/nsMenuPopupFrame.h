@@ -242,10 +242,6 @@ v
 ^
 2
 )
-#
-define
-CONTEXT_MENU_OFFSET_PIXELS
-2
 nsIFrame
 *
 NS_NewMenuPopupFrame
