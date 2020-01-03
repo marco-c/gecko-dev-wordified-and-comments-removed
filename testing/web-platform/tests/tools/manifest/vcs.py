@@ -83,11 +83,31 @@ None
 def
 get_repo_root
 (
+initial_dir
+=
+None
 )
 :
     
 global
 _repo_root
+    
+if
+initial_dir
+is
+None
+:
+        
+initial_dir
+=
+os
+.
+path
+.
+dirname
+(
+__file__
+)
     
 if
 _repo_root
@@ -99,14 +119,7 @@ git
 =
 get_git_func
 (
-os
-.
-path
-.
-dirname
-(
-__file__
-)
+initial_dir
 )
         
 _repo_root
