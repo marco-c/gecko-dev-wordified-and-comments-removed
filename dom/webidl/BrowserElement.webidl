@@ -105,10 +105,6 @@ DOMString
 ?
 filename
 ;
-DOMString
-?
-referrer
-;
 }
 ;
 [
