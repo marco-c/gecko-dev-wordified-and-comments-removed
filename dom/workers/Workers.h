@@ -737,6 +737,12 @@ nsILoadContext
 >
 mLoadContext
 ;
+nsCOMPtr
+<
+nsIInterfaceRequestor
+>
+mOuterRequestor
+;
 nsTArray
 <
 nsWeakPtr
