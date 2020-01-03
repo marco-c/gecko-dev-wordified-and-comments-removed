@@ -5553,7 +5553,9 @@ RoundedToInt
 (
 rootMetrics
 .
-mCompositionBounds
+GetCompositionBounds
+(
+)
 )
 ;
 IntRect

@@ -7490,7 +7490,9 @@ Metrics
 (
 )
 .
-mCompositionBounds
+GetCompositionBounds
+(
+)
 )
 ;
 }
