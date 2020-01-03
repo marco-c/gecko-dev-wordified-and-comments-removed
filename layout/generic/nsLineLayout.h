@@ -911,6 +911,10 @@ PerFrameData
 *
 mPrev
 ;
+PerFrameData
+*
+mNextAnnotation
+;
 PerSpanData
 *
 mSpan
@@ -999,8 +1003,12 @@ PFD_ISEMPTY
 0x00000100
 #
 define
+PFD_ISLINKEDTOBASE
+0x00000200
+#
+define
 PFD_LASTFLAG
-PFD_ISEMPTY
+PFD_ISLINKEDTOBASE
 uint16_t
 mFlags
 ;
