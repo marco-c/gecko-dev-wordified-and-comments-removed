@@ -29,6 +29,11 @@ description
 XPCShell
 test
 run
+workerType
+:
+b2gtest
+-
+emulator
 payload
 :
 maxRunTime

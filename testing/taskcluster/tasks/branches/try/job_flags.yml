@@ -691,9 +691,6 @@ tests
 b2g_emulator_mochitest
 .
 yml
-chunks
-:
-9
 tasks
 /
 builds
@@ -849,7 +846,7 @@ tasks
 /
 tests
 /
-b2g_emulator_xpcshell
+b2g_emulator_xpcshell_chunked
 .
 yml
 tasks
@@ -866,7 +863,7 @@ tasks
 /
 tests
 /
-b2g_emulator_xpcshell
+b2g_emulator_xpcshell_chunked
 .
 yml
 tasks

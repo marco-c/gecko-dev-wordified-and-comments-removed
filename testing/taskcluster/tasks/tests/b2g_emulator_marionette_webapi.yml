@@ -32,6 +32,11 @@ Marionette
 WebAPI
 test
 run
+workerType
+:
+b2gtest
+-
+emulator
 payload
 :
 command

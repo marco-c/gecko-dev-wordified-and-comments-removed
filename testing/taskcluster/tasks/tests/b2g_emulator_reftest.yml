@@ -34,6 +34,11 @@ run
 chunk
 }
 }
+workerType
+:
+b2gtest
+-
+emulator
 payload
 :
 command
@@ -208,7 +213,7 @@ chunks
 :
 total
 :
-20
+40
 treeherder
 :
 groupName
