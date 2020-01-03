@@ -253,6 +253,7 @@ nsRect
 }
 #
 endif
+MOZ_WARN_UNUSED_RESULT
 nsRect
 SaturatingUnion
 (
@@ -307,6 +308,7 @@ aRect
 ;
 }
 }
+MOZ_WARN_UNUSED_RESULT
 nsRect
 SaturatingUnionEdges
 (
@@ -618,6 +620,7 @@ endif
 #
 ifndef
 NS_COORD_IS_FLOAT
+MOZ_WARN_UNUSED_RESULT
 nsRect
 UnionEdges
 (
@@ -659,6 +662,7 @@ aRect2
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 nsRect
 Union
 (
@@ -774,6 +778,7 @@ aToAPP
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 nsIntRect
 ScaleToNearestPixels
@@ -787,6 +792,7 @@ aAppUnitsPerPixel
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 nsIntRect
 ToNearestPixels
@@ -796,6 +802,7 @@ aAppUnitsPerPixel
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 nsIntRect
 ScaleToOutsidePixels
@@ -809,6 +816,7 @@ aAppUnitsPerPixel
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 nsIntRect
 ToOutsidePixels
@@ -818,6 +826,7 @@ aAppUnitsPerPixel
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 nsIntRect
 ScaleToInsidePixels
@@ -831,6 +840,7 @@ aAppUnitsPerPixel
 )
 const
 ;
+MOZ_WARN_UNUSED_RESULT
 inline
 nsIntRect
 ToInsidePixels
@@ -961,6 +971,7 @@ aHeight
 )
 {
 }
+MOZ_WARN_UNUSED_RESULT
 inline
 nsRect
 ToAppUnits
