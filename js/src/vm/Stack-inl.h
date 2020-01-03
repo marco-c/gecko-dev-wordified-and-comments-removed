@@ -1182,9 +1182,9 @@ rt
 rt
 -
 >
-freeLifoAlloc
+gc
 .
-transferUnusedFrom
+freeUnusedLifoBlocksAfterSweeping
 (
 &
 allocator_

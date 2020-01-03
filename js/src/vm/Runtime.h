@@ -2877,12 +2877,6 @@ js
 LifoAlloc
 tempLifoAlloc
 ;
-js
-:
-:
-LifoAlloc
-freeLifoAlloc
-;
 private
 :
 js
