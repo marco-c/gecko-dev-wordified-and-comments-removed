@@ -5917,6 +5917,11 @@ font
 mFont
 .
 sizeAdjust
+>
+=
+0
+.
+0f
 )
 {
 val
