@@ -41169,13 +41169,6 @@ UpdatePositionIfNeeded
 )
 ;
 }
-mPresContext
--
->
-NotifyMissingFonts
-(
-)
-;
 if
 (
 !
