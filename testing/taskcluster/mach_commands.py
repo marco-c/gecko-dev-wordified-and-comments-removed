@@ -2792,16 +2792,13 @@ build_parameters
 post_parameters
 [
 '
-artifact_taskid
+taskId
 '
 ]
 =
-build_parameters
-[
-'
-build_slugid
-'
-]
+slugid
+(
+)
                 
 post_task
 =
@@ -2823,17 +2820,6 @@ task
 '
 ]
 post_parameters
-)
-                
-post_task
-[
-'
-taskId
-'
-]
-=
-slugid
-(
 )
                 
 if
