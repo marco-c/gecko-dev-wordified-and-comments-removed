@@ -756,7 +756,7 @@ loop
 .
 config
 .
-brandWebsiteUrl
+downloadFirefoxUrl
 }
 >
 {

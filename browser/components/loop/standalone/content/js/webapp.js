@@ -688,7 +688,7 @@ loop
 .
 config
 .
-brandWebsiteUrl
+downloadFirefoxUrl
 }
 mozL10n
 .

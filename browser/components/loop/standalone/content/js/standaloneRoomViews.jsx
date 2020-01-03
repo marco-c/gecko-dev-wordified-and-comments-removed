@@ -353,7 +353,7 @@ loop
 .
 config
 .
-brandWebsiteUrl
+downloadFirefoxUrl
 }
 className
 =
