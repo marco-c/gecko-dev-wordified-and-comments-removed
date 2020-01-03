@@ -507,6 +507,12 @@ IsPannable
 )
 const
 ;
+bool
+IsMovingFast
+(
+)
+const
+;
 int32_t
 GetLastTouchIdentifier
 (

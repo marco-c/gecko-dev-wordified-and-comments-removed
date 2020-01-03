@@ -321,6 +321,12 @@ HasOverscrolledApzc
 )
 const
 ;
+bool
+HasFastMovingApzc
+(
+)
+const
+;
 private
 :
 std
