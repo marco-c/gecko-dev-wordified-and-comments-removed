@@ -2506,7 +2506,13 @@ nsIntRegion
 RegionParamTraits
 <
 nsIntRegion
-nsIntRect
+mozilla
+:
+:
+gfx
+:
+:
+IntRect
 nsIntRegionRectIterator
 >
 {
