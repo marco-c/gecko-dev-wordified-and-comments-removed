@@ -59,6 +59,10 @@ import
     
 AndroidAssetsDirs
     
+AndroidExtraPackages
+    
+AndroidExtraResDirs
+    
 AndroidResDirs
     
 BrandingFiles
@@ -4368,6 +4372,13 @@ AndroidResDirs
                 
 (
 '
+ANDROID_EXTRA_RES_DIRS
+'
+AndroidExtraResDirs
+)
+                
+(
+'
 ANDROID_ASSETS_DIRS
 '
 AndroidAssetsDirs
@@ -4457,6 +4468,28 @@ cls
 (
 context
 paths
+)
+        
+android_extra_packages
+=
+context
+.
+get
+(
+'
+ANDROID_EXTRA_PACKAGES
+'
+)
+        
+if
+android_extra_packages
+:
+            
+yield
+AndroidExtraPackages
+(
+context
+android_extra_packages
 )
         
 if
