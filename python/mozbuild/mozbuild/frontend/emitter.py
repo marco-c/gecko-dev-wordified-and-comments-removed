@@ -157,12 +157,7 @@ from
 .
 context
 import
-(
-    
 Context
-    
-SubContext
-)
 class
 TreeMetadataEmitter
 (
@@ -526,16 +521,6 @@ out
 in
 output
 :
-            
-if
-isinstance
-(
-out
-SubContext
-)
-:
-                
-continue
             
 if
 isinstance

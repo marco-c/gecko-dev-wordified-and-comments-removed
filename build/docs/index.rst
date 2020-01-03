@@ -71,9 +71,6 @@ files
 mozbuild
 -
 symbols
-files
--
-metadata
 Profile
 Guided
 Optimization
