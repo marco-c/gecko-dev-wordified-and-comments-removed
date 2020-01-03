@@ -2648,9 +2648,6 @@ newPri
 {
 PRIntn
 rv
-=
--
-1
 ;
 PR_ASSERT
 (
@@ -2924,6 +2921,13 @@ errno
 ;
 }
 }
+#
+else
+(
+void
+)
+rv
+;
 #
 endif
 thred

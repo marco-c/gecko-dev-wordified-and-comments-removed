@@ -142,6 +142,7 @@ file
 PRIntn
 ln
 )
+PR_PRETEND_NORETURN
 ;
 #
 if

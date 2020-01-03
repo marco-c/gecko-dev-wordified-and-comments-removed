@@ -763,10 +763,6 @@ fd
 *
 next
 ;
-PRStackElem
-*
-pop
-;
 for
 (
 fd

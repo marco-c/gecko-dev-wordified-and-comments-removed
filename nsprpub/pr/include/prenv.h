@@ -37,6 +37,17 @@ char
 string
 )
 ;
+NSPR_API
+(
+char
+*
+*
+)
+PR_DuplicateEnvironment
+(
+void
+)
+;
 PR_END_EXTERN_C
 #
 endif

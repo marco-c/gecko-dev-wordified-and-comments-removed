@@ -237,7 +237,7 @@ fmt
 const
 PRExplodedTime
 *
-tm
+time
 )
 ;
 NSPR_API
@@ -258,7 +258,7 @@ format
 const
 PRExplodedTime
 *
-tm
+time
 )
 ;
 PR_END_EXTERN_C

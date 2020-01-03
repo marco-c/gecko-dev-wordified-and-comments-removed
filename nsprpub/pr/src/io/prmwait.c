@@ -2193,6 +2193,11 @@ group
 state
 )
 {
+PR_DELETE
+(
+poll_list
+)
+;
 PR_SetError
 (
 PR_INVALID_STATE_ERROR

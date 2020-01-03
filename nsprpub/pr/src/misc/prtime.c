@@ -8757,7 +8757,7 @@ fmt
 const
 PRExplodedTime
 *
-tm
+time
 )
 {
 size_t
@@ -8774,7 +8774,7 @@ ap
 ;
 if
 (
-tm
+time
 )
 {
 ap
@@ -8786,7 +8786,7 @@ a
 .
 tm_sec
 =
-tm
+time
 -
 >
 tm_sec
@@ -8795,7 +8795,7 @@ a
 .
 tm_min
 =
-tm
+time
 -
 >
 tm_min
@@ -8804,7 +8804,7 @@ a
 .
 tm_hour
 =
-tm
+time
 -
 >
 tm_hour
@@ -8813,7 +8813,7 @@ a
 .
 tm_mday
 =
-tm
+time
 -
 >
 tm_mday
@@ -8822,7 +8822,7 @@ a
 .
 tm_mon
 =
-tm
+time
 -
 >
 tm_month
@@ -8831,7 +8831,7 @@ a
 .
 tm_wday
 =
-tm
+time
 -
 >
 tm_wday
@@ -8840,7 +8840,7 @@ a
 .
 tm_year
 =
-tm
+time
 -
 >
 tm_year
@@ -8851,7 +8851,7 @@ a
 .
 tm_yday
 =
-tm
+time
 -
 >
 tm_yday
@@ -8860,7 +8860,7 @@ a
 .
 tm_isdst
 =
-tm
+time
 -
 >
 tm_params
@@ -8933,14 +8933,14 @@ a
 .
 tm_gmtoff
 =
-tm
+time
 -
 >
 tm_params
 .
 tp_gmt_offset
 +
-tm
+time
 -
 >
 tm_params
