@@ -10009,6 +10009,10 @@ res
 res
 )
 ;
+mDidRangedDelete
+=
+true
+;
 return
 NS_OK
 ;
