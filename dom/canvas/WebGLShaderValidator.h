@@ -50,6 +50,10 @@ const
 int
 mCompileOptions
 ;
+const
+int
+mMaxVaryingVectors
+;
 bool
 mHasRun
 ;
@@ -82,6 +86,8 @@ ShHandle
 handle
 int
 compileOptions
+int
+maxVaryingVectors
 )
 :
 mHandle
@@ -91,6 +97,10 @@ handle
 mCompileOptions
 (
 compileOptions
+)
+mMaxVaryingVectors
+(
+maxVaryingVectors
 )
 mHasRun
 (
