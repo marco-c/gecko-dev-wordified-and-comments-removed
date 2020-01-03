@@ -1862,7 +1862,7 @@ mozilla_services
 test_mode
 "
 :
-true
+false
 "
 id
 "
