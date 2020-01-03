@@ -223,13 +223,6 @@ Constants
 import
 android
 .
-annotation
-.
-SuppressLint
-;
-import
-android
-.
 content
 .
 Context
@@ -765,12 +758,6 @@ UTF
 )
 ;
 }
-SuppressLint
-(
-"
-DefaultLocale
-"
-)
 public
 static
 byte
@@ -825,6 +812,9 @@ translated
 .
 toUpperCase
 (
+Locale
+.
+US
 )
 )
 ;
