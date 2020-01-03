@@ -134,15 +134,6 @@ aSessionId
 )
 ;
 void
-DropKeysForSession
-(
-const
-nsAString
-&
-aSessionId
-)
-;
-void
 GetUsableKeysForSession
 (
 const
