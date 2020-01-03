@@ -1784,6 +1784,9 @@ aTextRun
 gfxContext
 *
 aRefContext
+gfxMissingFontRecorder
+*
+aMFR
 )
 {
 gfxFontGroup
@@ -2883,6 +2886,7 @@ Length
 &
 innerParams
 flags
+aMFR
 )
 ;
 child
@@ -2958,6 +2962,7 @@ transformedChild
 FinishSettingProperties
 (
 aRefContext
+aMFR
 )
 ;
 }

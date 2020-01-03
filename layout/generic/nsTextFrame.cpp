@@ -2160,6 +2160,9 @@ Parameters
 aParams
 uint32_t
 aFlags
+gfxMissingFontRecorder
+*
+aMFR
 )
 {
 nsAutoPtr
@@ -2177,6 +2180,7 @@ aText
 aLength
 aParams
 aFlags
+aMFR
 )
 )
 ;
@@ -3745,6 +3749,15 @@ mLineContainer
 (
 aLineContainer
 )
+mMissingFonts
+(
+aPresContext
+-
+>
+MissingFontRecorder
+(
+)
+)
 mBidiEnabled
 (
 aPresContext
@@ -4351,6 +4364,9 @@ mContext
 void
 Finish
 (
+gfxMissingFontRecorder
+*
+aMFR
 )
 {
 NS_ASSERTION
@@ -4428,6 +4444,7 @@ transformedTextRun
 FinishSettingProperties
 (
 mContext
+aMFR
 )
 ;
 }
@@ -4513,6 +4530,10 @@ mLastFrame
 nsIFrame
 *
 mCommonAncestorWithLastFrame
+;
+gfxMissingFontRecorder
+*
+mMissingFonts
 ;
 uint32_t
 mMaxTextLength
@@ -7073,6 +7094,7 @@ i
 >
 Finish
 (
+mMissingFonts
 )
 ;
 }
@@ -10627,6 +10649,7 @@ styles
 Elements
 (
 )
+mMissingFonts
 )
 ;
 if
@@ -10654,6 +10677,7 @@ fontGroup
 &
 params
 textFlags
+mMissingFonts
 )
 ;
 }
@@ -10706,6 +10730,7 @@ styles
 Elements
 (
 )
+mMissingFonts
 )
 ;
 if
@@ -10733,6 +10758,7 @@ fontGroup
 &
 params
 textFlags
+mMissingFonts
 )
 ;
 }

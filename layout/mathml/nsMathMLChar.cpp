@@ -1553,6 +1553,7 @@ Length
 aThebesContext
 aAppUnitsPerDevPixel
 0
+nullptr
 )
 ;
 }
@@ -1840,6 +1841,7 @@ aChar
 aThebesContext
 aAppUnitsPerDevPixel
 0
+nullptr
 )
 ;
 const
@@ -6450,6 +6452,12 @@ AppUnitsPerDevPixel
 (
 )
 0
+aPresContext
+-
+>
+MissingFontRecorder
+(
+)
 )
 ;
 aDesiredStretchSize
