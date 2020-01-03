@@ -258,6 +258,13 @@ aFormatFlags
 )
 override
 ;
+virtual
+void
+FlushContentDrawing
+(
+)
+override
+;
 #
 if
 (
