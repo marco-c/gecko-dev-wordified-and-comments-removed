@@ -858,7 +858,11 @@ tempSourceName
 =
 ToNewUTF8String
 (
+StringHead
+(
 mSourceName
+512
+)
 )
 ;
 if
@@ -874,7 +878,11 @@ tempSourceLine
 =
 ToNewUTF8String
 (
+StringHead
+(
 mSourceLine
+512
+)
 )
 ;
 if
