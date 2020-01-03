@@ -5021,7 +5021,7 @@ Clear
 )
 ;
 }
-nsresult
+void
 nsCSSRuleProcessor
 :
 :
@@ -5039,9 +5039,6 @@ gSupportVisitedPseudo
 VISITED_PSEUDO_PREF
 true
 )
-;
-return
-NS_OK
 ;
 }
 static

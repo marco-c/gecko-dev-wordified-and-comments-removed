@@ -158,7 +158,7 @@ ClearRuleCascades
 )
 ;
 static
-nsresult
+void
 Startup
 (
 )
