@@ -1241,6 +1241,7 @@ mNextIndexId
 ;
 public
 :
+explicit
 FullDatabaseMetadata
 (
 const
@@ -1471,6 +1472,7 @@ aId
 )
 ;
 }
+explicit
 MetadataNameOrIdMatcher
 (
 const
@@ -12538,6 +12540,7 @@ Cleanup
 ;
 protected
 :
+explicit
 TransactionDatabaseOperationBase
 (
 TransactionBase
@@ -12672,6 +12675,7 @@ mTransactionThreadPool
 }
 private
 :
+explicit
 Factory
 (
 const
@@ -13380,6 +13384,7 @@ ClearInputStreamParams
 ;
 private
 :
+explicit
 DatabaseFile
 (
 FileInfo
@@ -14385,6 +14390,7 @@ mSavepointDelta
 ;
 public
 :
+explicit
 FileInfoEntry
 (
 FileInfo
@@ -14551,6 +14557,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_MOZISTORAGEFUNCTION
+explicit
 UpdateRefcountFunction
 (
 FileManager
@@ -15082,6 +15089,7 @@ mActorWasAlive
 ;
 private
 :
+explicit
 VersionChangeTransaction
 (
 OpenDatabaseOp
@@ -15680,6 +15688,7 @@ mDatabase
 bool
 mBlocked
 ;
+MOZ_IMPLICIT
 MaybeBlockedDatabaseInfo
 (
 Database
@@ -16037,6 +16046,7 @@ mPreviousVersion
 ;
 private
 :
+explicit
 VersionChangeOp
 (
 OpenDatabaseOp
@@ -16274,6 +16284,7 @@ mDeleteDatabaseOp
 ;
 private
 :
+explicit
 VersionChangeOp
 (
 DeleteDatabaseOp
@@ -16346,6 +16357,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 VersionChangeTransactionOp
 (
 VersionChangeTransaction
@@ -16874,6 +16886,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 NormalTransactionOp
 (
 TransactionBase
@@ -18086,6 +18099,7 @@ mResponseSent
 ;
 protected
 :
+explicit
 CursorOpBase
 (
 Cursor
@@ -18852,6 +18866,7 @@ mHasRequestedShutDown
 ;
 public
 :
+explicit
 ShutdownTransactionThreadPoolRunnable
 (
 QuotaClient
@@ -20478,6 +20493,7 @@ mNew
 ;
 public
 :
+explicit
 IndexClosure
 (
 FullObjectStoreMetadata
@@ -20598,6 +20614,7 @@ mNew
 ;
 public
 :
+explicit
 ObjectStoreClosure
 (
 FullDatabaseMetadata
@@ -47572,6 +47589,7 @@ helper
 }
 private
 :
+explicit
 Helper
 (
 DatabaseSpec
@@ -47867,6 +47885,7 @@ helper
 }
 private
 :
+explicit
 Helper
 (
 const

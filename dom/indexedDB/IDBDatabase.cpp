@@ -580,6 +580,7 @@ mDatabase
 ;
 public
 :
+explicit
 DatabaseFile
 (
 IDBDatabase

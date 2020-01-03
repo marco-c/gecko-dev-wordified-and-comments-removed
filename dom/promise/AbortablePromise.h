@@ -93,6 +93,7 @@ PromiseNativeAbortCallback
 aAbortCallback
 )
 ;
+explicit
 AbortablePromise
 (
 nsIGlobalObject

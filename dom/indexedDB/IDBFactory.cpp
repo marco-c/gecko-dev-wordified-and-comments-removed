@@ -354,6 +354,7 @@ mFactory
 ;
 public
 :
+explicit
 BackgroundCreateCallback
 (
 IDBFactory

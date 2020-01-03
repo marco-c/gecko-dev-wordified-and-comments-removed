@@ -158,6 +158,7 @@ aOther
 )
 ;
 inline
+MOZ_IMPLICIT
 StructuredCloneReadInfo
 (
 SerializedStructuredCloneReadInfo

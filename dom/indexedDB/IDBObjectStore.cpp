@@ -441,6 +441,7 @@ mDatabase
 uint64_t
 mOffsetToKeyProp
 ;
+explicit
 StructuredCloneWriteInfo
 (
 IDBDatabase

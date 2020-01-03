@@ -202,6 +202,7 @@ UserSpaceMetrics
 {
 public
 :
+explicit
 SVGElementMetrics
 (
 nsSVGElement
@@ -279,6 +280,7 @@ UserSpaceMetricsWithSize
 {
 public
 :
+explicit
 NonSVGFrameUserSpaceMetrics
 (
 nsIFrame

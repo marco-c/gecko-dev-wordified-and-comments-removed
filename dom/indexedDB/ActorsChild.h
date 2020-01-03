@@ -265,6 +265,7 @@ mFactory
 }
 private
 :
+explicit
 BackgroundFactoryChild
 (
 IDBFactory
@@ -413,6 +414,7 @@ mActorDestroyed
 }
 protected
 :
+explicit
 BackgroundRequestChildBase
 (
 IDBRequest
@@ -956,6 +958,7 @@ BackgroundTransactionBase
 (
 )
 ;
+explicit
 BackgroundTransactionBase
 (
 IDBTransaction
@@ -1030,6 +1033,7 @@ SendDeleteMeInternal
 ;
 private
 :
+explicit
 BackgroundTransactionChild
 (
 IDBTransaction
@@ -1152,6 +1156,7 @@ SendDeleteMeInternal
 ;
 private
 :
+explicit
 BackgroundVersionChangeTransactionChild
 (
 IDBOpenDBRequest
@@ -1286,6 +1291,7 @@ mFileInfos
 ;
 public
 :
+explicit
 BackgroundRequestChild
 (
 IDBRequest

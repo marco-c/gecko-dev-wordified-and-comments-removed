@@ -3351,6 +3351,7 @@ aActor
 )
 ;
 }
+explicit
 RemoteBlob
 (
 BlobChild
