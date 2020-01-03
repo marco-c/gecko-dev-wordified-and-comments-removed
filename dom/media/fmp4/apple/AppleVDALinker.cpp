@@ -428,7 +428,7 @@ LOG
 (
 "
 Unlinking
-VideoToolbox
+VideoDecodeAcceleration
 framework
 .
 "
