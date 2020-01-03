@@ -178,15 +178,6 @@ aTimelineTime
 )
 const
 ;
-void
-FastForward
-(
-const
-TimeStamp
-&
-aTimeStamp
-)
-;
 nsRefreshDriver
 *
 GetRefreshDriver
@@ -237,10 +228,6 @@ mDocument
 mutable
 TimeStamp
 mLastRefreshDriverTime
-;
-mutable
-TimeStamp
-mFastForwardTime
 ;
 }
 ;
