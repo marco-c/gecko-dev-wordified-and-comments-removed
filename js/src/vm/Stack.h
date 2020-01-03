@@ -4954,6 +4954,17 @@ resumePC_
 pc
 ;
 }
+void
+*
+resumePC
+(
+)
+const
+{
+return
+resumePC_
+;
+}
 }
 ;
 class
