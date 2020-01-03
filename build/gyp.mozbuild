@@ -366,6 +366,11 @@ moz_webrtc_omx
 '
 :
 0
+'
+moz_webrtc_mediacodec
+'
+:
+0
 #
 (
 for
@@ -574,6 +579,9 @@ gtest_target_type
 '
 executable
 '
+moz_webrtc_mediacodec
+=
+1
 android_toolchain
 =
 CONFIG
