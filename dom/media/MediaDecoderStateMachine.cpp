@@ -6499,6 +6499,18 @@ ScheduleStateMachine
 (
 )
 ;
+if
+(
+HasAudio
+(
+)
+)
+{
+ResyncAudioClock
+(
+)
+;
+}
 }
 mAudioCaptured
 =
@@ -13593,6 +13605,7 @@ mStartTime
 ;
 }
 else
+{
 if
 (
 mDecoder
@@ -13611,7 +13624,6 @@ GetCurrentTimeViaMediaStreamSync
 ;
 }
 else
-{
 if
 (
 HasAudio
