@@ -192,9 +192,4 @@ disabled
 "
 )
 ;
-yield
-restore
-(
-)
-;
 }
