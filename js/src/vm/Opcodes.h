@@ -3560,12 +3560,13 @@ JOF_BYTE
 )
 \
 \
+\
 macro
 (
-JSOP_UNUSED207
+JSOP_FORCEINTERPRETER
 207
 "
-unused207
+forceinterpreter
 "
 NULL
 1
@@ -3573,6 +3574,7 @@ NULL
 0
 JOF_BYTE
 )
+\
 \
 macro
 (
