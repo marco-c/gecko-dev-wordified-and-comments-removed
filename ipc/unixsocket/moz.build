@@ -117,6 +117,11 @@ ListenSocket
 h
 '
 '
+ListenSocketConsumer
+.
+h
+'
+'
 SocketBase
 .
 h
@@ -153,6 +158,11 @@ cpp
 '
 '
 ListenSocket
+.
+cpp
+'
+'
+ListenSocketConsumer
 .
 cpp
 '
