@@ -8,13 +8,6 @@ h
 #
 include
 <
-string
-.
-h
->
-#
-include
-<
 algorithm
 >
 #
@@ -27,7 +20,7 @@ h
 #
 include
 "
-nsISupportsImpl
+nsISupports
 .
 h
 "
@@ -133,13 +126,6 @@ endif
 namespace
 mozilla
 {
-namespace
-dom
-{
-class
-SourceBuffer
-;
-}
 nsresult
 SourceBufferResource
 :
