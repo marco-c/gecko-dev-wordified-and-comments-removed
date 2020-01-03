@@ -2306,3 +2306,13 @@ tour
 "
 )
 ;
+user_pref
+(
+"
+browser
+.
+displayedE10SPrompt
+"
+5
+)
+;
