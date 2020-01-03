@@ -1758,7 +1758,7 @@ rv
 ;
 }
 PLDHashOperator
-ProcessEntry
+ProcessBlocklistEntry
 (
 BlocklistItemKey
 *
@@ -2288,7 +2288,7 @@ mBlocklist
 .
 EnumerateEntries
 (
-ProcessEntry
+ProcessBlocklistEntry
 &
 saveInfo
 )
