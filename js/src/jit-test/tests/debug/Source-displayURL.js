@@ -696,6 +696,8 @@ capturedSourceMapURL
 =
 script
 .
+source
+.
 sourceMapURL
 ;
 dbg
@@ -778,6 +780,8 @@ capturedSourceMapURL
 fun
 .
 script
+.
+source
 .
 sourceMapURL
 )
