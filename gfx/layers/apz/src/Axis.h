@@ -398,6 +398,13 @@ aOverscroll
 )
 const
 ;
+float
+ToLocalVelocity
+(
+float
+aVelocityInchesPerMs
+)
+;
 }
 ;
 class
