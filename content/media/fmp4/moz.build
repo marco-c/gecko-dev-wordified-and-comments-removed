@@ -123,6 +123,11 @@ BlankDecoderModule
 cpp
 '
 '
+MP4Decoder
+.
+cpp
+'
+'
 PlatformDecoderModule
 .
 cpp
@@ -132,11 +137,6 @@ SOURCES
 +
 =
 [
-'
-MP4Decoder
-.
-cpp
-'
 '
 MP4Reader
 .
