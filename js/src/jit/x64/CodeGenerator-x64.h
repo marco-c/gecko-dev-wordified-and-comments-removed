@@ -291,6 +291,14 @@ ins
 )
 ;
 void
+visitAsmJSAtomicBinopHeapForEffect
+(
+LAsmJSAtomicBinopHeapForEffect
+*
+ins
+)
+;
+void
 visitAsmJSLoadGlobalVar
 (
 LAsmJSLoadGlobalVar

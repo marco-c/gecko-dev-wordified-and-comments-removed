@@ -1979,6 +1979,14 @@ lir
 )
 ;
 void
+visitAtomicTypedArrayElementBinopForEffect
+(
+LAtomicTypedArrayElementBinopForEffect
+*
+lir
+)
+;
+void
 visitClampIToUint8
 (
 LClampIToUint8
