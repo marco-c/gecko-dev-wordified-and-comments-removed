@@ -24490,16 +24490,6 @@ if
 (
 constructing
 )
-{
-MOZ_ASSERT
-(
-newTarget
-.
-isObject
-(
-)
-)
-;
 args
 .
 newTarget
@@ -24511,7 +24501,6 @@ set
 newTarget
 )
 ;
-}
 switch
 (
 op
