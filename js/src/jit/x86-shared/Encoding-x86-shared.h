@@ -208,6 +208,9 @@ OP_NOP_84
 OP_TEST_EvGv
 =
 0x85
+OP_XCHG_GbEb
+=
+0x86
 OP_XCHG_GvEv
 =
 0x87

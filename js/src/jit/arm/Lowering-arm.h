@@ -616,6 +616,14 @@ ins
 )
 ;
 void
+visitAtomicExchangeTypedArrayElement
+(
+MAtomicExchangeTypedArrayElement
+*
+ins
+)
+;
+void
 visitAtomicTypedArrayElementBinop
 (
 MAtomicTypedArrayElementBinop

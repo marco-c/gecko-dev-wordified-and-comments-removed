@@ -2054,6 +2054,14 @@ lir
 )
 ;
 void
+visitAtomicExchangeTypedArrayElement
+(
+LAtomicExchangeTypedArrayElement
+*
+lir
+)
+;
+void
 visitAtomicTypedArrayElementBinop
 (
 LAtomicTypedArrayElementBinop
