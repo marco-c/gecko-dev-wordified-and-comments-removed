@@ -35,12 +35,6 @@ nsQtNetworkLinkService
 (
 )
 ;
-virtual
-~
-nsQtNetworkLinkService
-(
-)
-;
 nsresult
 Init
 (
@@ -48,6 +42,14 @@ Init
 ;
 nsresult
 Shutdown
+(
+)
+;
+private
+:
+virtual
+~
+nsQtNetworkLinkService
 (
 )
 ;
