@@ -280,6 +280,10 @@ NewObjectKind
 newKind
 =
 GenericObject
+bool
+forceAnalyze
+=
+false
 )
 ;
 extern

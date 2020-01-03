@@ -2542,6 +2542,12 @@ full
 )
 const
 ;
+bool
+empty
+(
+)
+const
+;
 void
 sweep
 (
