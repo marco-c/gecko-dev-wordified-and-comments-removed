@@ -209,6 +209,12 @@ aOutput
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+ReleaseMediaResources
+(
+)
+;
 static
 void
 RecycleCallback
@@ -487,7 +493,7 @@ aMessage
 )
 ;
 void
-ReleaseAllPendingVideoBuffersLocked
+ReleaseAllPendingVideoBuffers
 (
 )
 ;
