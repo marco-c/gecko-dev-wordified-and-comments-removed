@@ -4762,7 +4762,13 @@ PRIxPTR
 aFrameNumber
 function
 aLibrary
+static_cast
+<
+uintptr_t
+>
+(
 aLOffset
+)
 )
 ;
 }
