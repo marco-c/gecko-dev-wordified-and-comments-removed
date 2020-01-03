@@ -22,8 +22,6 @@ import
 copy
 import
 sys
-import
-urllib2
 from
 mach
 .
@@ -399,6 +397,9 @@ get_task
 task_id
 )
 :
+    
+import
+urllib2
     
 return
 json

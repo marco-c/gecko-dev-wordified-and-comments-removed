@@ -12,8 +12,6 @@ stat
 import
 platform
 import
-urllib2
-import
 errno
 from
 mach
@@ -1792,10 +1790,10 @@ file
 :
         
 import
-sys
+urllib
         
 import
-urllib
+urllib2
         
 URL
 =
@@ -2633,6 +2631,9 @@ show
 False
 )
 :
+        
+import
+urllib2
         
 plat
 =

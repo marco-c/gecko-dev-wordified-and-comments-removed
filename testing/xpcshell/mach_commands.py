@@ -12,8 +12,6 @@ import
 shutil
 import
 sys
-import
-urllib2
 from
 mozlog
 import
@@ -2255,6 +2253,9 @@ b2g_home
 emulator
 )
 :
+        
+import
+urllib2
         
 target_device
 =
