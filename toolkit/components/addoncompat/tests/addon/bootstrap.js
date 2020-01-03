@@ -1564,6 +1564,7 @@ function
 TestChannel
 (
 uri
+aLoadInfo
 aboutName
 )
 {
@@ -1572,6 +1573,12 @@ this
 aboutName
 =
 aboutName
+;
+this
+.
+loadInfo
+=
+aLoadInfo
 ;
 this
 .
@@ -2005,6 +2012,7 @@ newChannel
 :
 (
 aURI
+aLoadInfo
 )
 =
 >
@@ -2014,6 +2022,7 @@ new
 TestChannel
 (
 aURI
+aLoadInfo
 aboutName
 )
 ;

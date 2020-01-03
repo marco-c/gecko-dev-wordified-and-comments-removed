@@ -486,7 +486,12 @@ NetUtil
 .
 asyncFetch
 (
+{
 uri
+loadUsingSystemPrincipal
+:
+true
+}
 (
 stream
 status
