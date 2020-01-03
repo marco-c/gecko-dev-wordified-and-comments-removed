@@ -19096,7 +19096,7 @@ ErrorCode
 )
 ;
 }
-nsIDOMCrypto
+Crypto
 *
 nsGlobalWindow
 :
