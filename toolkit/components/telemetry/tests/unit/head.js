@@ -503,7 +503,7 @@ XULAppInfoFactory
 ;
 }
 function
-fakeDailyTimers
+fakeSchedulerTimer
 (
 set
 clear
@@ -537,7 +537,7 @@ session
 .
 Policy
 .
-setDailyTimeout
+setSchedulerTickTimeout
 =
 set
 ;
@@ -545,7 +545,7 @@ session
 .
 Policy
 .
-clearDailyTimeout
+clearSchedulerTickTimeout
 =
 clear
 ;
@@ -594,7 +594,7 @@ initLogging
 (
 )
 ;
-fakeDailyTimers
+fakeSchedulerTimer
 (
 (
 )

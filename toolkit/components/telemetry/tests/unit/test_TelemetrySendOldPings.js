@@ -433,7 +433,7 @@ pingId
 yield
 TelemetryPing
 .
-testSavePingToFile
+savePing
 (
 "
 test
