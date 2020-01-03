@@ -37,10 +37,9 @@ WebGLElementArrayCache
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 WebGLBuffer
 :
 :
@@ -48,7 +47,7 @@ WebGLBuffer
 (
 WebGLContext
 *
-context
+webgl
 GLuint
 buf
 )
@@ -62,7 +61,7 @@ buf
 )
 WebGLContextBoundObject
 (
-context
+webgl
 )
 mByteLength
 (
@@ -176,7 +175,7 @@ void
 *
 ptr
 size_t
-buffer_size_in_bytes
+bufferSizeInBytes
 )
 {
 if
@@ -193,7 +192,7 @@ mCache
 BufferData
 (
 ptr
-buffer_size_in_bytes
+bufferSizeInBytes
 )
 ;
 return
@@ -213,7 +212,7 @@ void
 *
 ptr
 size_t
-update_size_in_bytes
+updateSizeInBytes
 )
 {
 if
@@ -230,7 +229,7 @@ BufferSubData
 (
 pos
 ptr
-update_size_in_bytes
+updateSizeInBytes
 )
 ;
 }
@@ -244,7 +243,7 @@ mozilla
 :
 :
 MallocSizeOf
-aMallocSizeOf
+mallocSizeOf
 )
 const
 {
@@ -258,13 +257,13 @@ mCache
 >
 SizeOfIncludingThis
 (
-aMallocSizeOf
+mallocSizeOf
 )
 :
 0
 ;
 return
-aMallocSizeOf
+mallocSizeOf
 (
 this
 )
@@ -281,13 +280,14 @@ Validate
 GLenum
 type
 uint32_t
-max_allowed
+maxAllowed
 size_t
 first
 size_t
 count
 uint32_t
 *
+const
 out_upperBound
 )
 {
@@ -298,7 +298,7 @@ mCache
 Validate
 (
 type
-max_allowed
+maxAllowed
 first
 count
 out_upperBound
@@ -363,3 +363,4 @@ NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
 WebGLBuffer
 Release
 )
+}

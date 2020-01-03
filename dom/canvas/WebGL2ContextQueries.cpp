@@ -251,7 +251,7 @@ GenerateWarning
 "
 createQuery
 :
-the
+The
 WebGL
 2
 prototype
@@ -370,7 +370,7 @@ GenerateWarning
 "
 deleteQuery
 :
-the
+The
 WebGL
 2
 prototype
@@ -525,11 +525,12 @@ ErrorInvalidOperation
 "
 beginQuery
 :
-query
+Query
 should
 not
 be
 null
+.
 "
 )
 ;
@@ -551,10 +552,11 @@ ErrorInvalidOperation
 "
 beginQuery
 :
-query
+Query
 has
 been
 deleted
+.
 "
 )
 ;
@@ -585,7 +587,7 @@ ErrorInvalidOperation
 "
 beginQuery
 :
-target
+Target
 doesn
 '
 t
@@ -593,7 +595,10 @@ match
 with
 the
 query
+"
+"
 type
+.
 "
 )
 ;
@@ -611,11 +616,12 @@ ErrorInvalidOperation
 "
 beginQuery
 :
-an
+An
 other
 query
 already
 active
+.
 "
 )
 ;
@@ -632,7 +638,6 @@ HasEverBeenActive
 (
 )
 )
-{
 query
 -
 >
@@ -640,7 +645,6 @@ mType
 =
 target
 ;
-}
 MakeContextCurrent
 (
 )
@@ -901,6 +905,7 @@ pname
 must
 be
 CURRENT_QUERY
+.
 "
 )
 ;
@@ -985,6 +990,7 @@ should
 not
 be
 null
+.
 "
 )
 ;
@@ -1010,6 +1016,7 @@ query
 has
 been
 deleted
+.
 "
 )
 ;
@@ -1034,6 +1041,7 @@ getQueryObject
 query
 is
 active
+.
 "
 )
 ;
@@ -1061,6 +1069,7 @@ has
 never
 been
 active
+.
 "
 )
 ;
@@ -1195,6 +1204,7 @@ QUERY_RESULT
 {
 _AVAILABLE
 }
+.
 "
 )
 ;

@@ -18,7 +18,6 @@ func
 rtype
 *
 *
-aResult
 )
 {
 return

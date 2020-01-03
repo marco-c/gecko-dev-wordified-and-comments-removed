@@ -1,9 +1,9 @@
 #
 ifndef
-WEBGLVERTEXARRAYFAKE_H_
+WEBGL_VERTEX_ARRAY_FAKE_H_
 #
 define
-WEBGLVERTEXARRAYFAKE_H_
+WEBGL_VERTEX_ARRAY_FAKE_H_
 #
 include
 "
@@ -55,12 +55,12 @@ WebGLVertexArrayFake
 (
 WebGLContext
 *
-aContext
+webgl
 )
 :
 WebGLVertexArray
 (
-aContext
+webgl
 )
 {
 }

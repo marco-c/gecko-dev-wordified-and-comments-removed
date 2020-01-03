@@ -1825,7 +1825,7 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTexImageTarget
+ActiveBoundTextureForTexImageTarget
 (
 texImageTarget
 )
@@ -2682,7 +2682,7 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTexImageTarget
+ActiveBoundTextureForTexImageTarget
 (
 texImageTarget
 )
@@ -4319,7 +4319,7 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTarget
+ActiveBoundTextureForTarget
 (
 target
 )
@@ -7230,7 +7230,7 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTarget
+ActiveBoundTextureForTarget
 (
 texTarget
 )
@@ -7769,7 +7769,7 @@ rawTarget
 if
 (
 !
-activeBoundTextureForTarget
+ActiveBoundTextureForTarget
 (
 target
 )
@@ -16399,7 +16399,7 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTexImageTarget
+ActiveBoundTextureForTexImageTarget
 (
 texImageTarget
 )
@@ -16591,7 +16591,7 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTexImageTarget
+ActiveBoundTextureForTexImageTarget
 (
 texImageTarget
 )
@@ -17639,7 +17639,7 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTexImageTarget
+ActiveBoundTextureForTexImageTarget
 (
 texImageTarget
 )
@@ -17647,9 +17647,6 @@ texImageTarget
 MOZ_ASSERT
 (
 tex
-!
-=
-nullptr
 "
 no
 texture
@@ -18208,7 +18205,7 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTexImageTarget
+ActiveBoundTextureForTexImageTarget
 (
 texImageTarget
 )
@@ -19014,17 +19011,15 @@ type
 =
 LOCAL_GL_HALF_FLOAT_OES
 )
-{
 type
 =
 LOCAL_GL_HALF_FLOAT
 ;
-}
 WebGLTexture
 *
 tex
 =
-activeBoundTextureForTexImageTarget
+ActiveBoundTextureForTexImageTarget
 (
 texImageTarget
 )
@@ -19034,7 +19029,6 @@ if
 !
 tex
 )
-{
 return
 ErrorInvalidOperation
 (
@@ -19051,7 +19045,6 @@ unit
 "
 )
 ;
-}
 if
 (
 !
@@ -19064,7 +19057,6 @@ texImageTarget
 level
 )
 )
-{
 return
 ErrorInvalidOperation
 (
@@ -19079,7 +19071,6 @@ image
 "
 )
 ;
-}
 const
 WebGLTexture
 :

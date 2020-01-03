@@ -1,13 +1,6 @@
 #
 include
 "
-WebGLContext
-.
-h
-"
-#
-include
-"
 WebGLSampler
 .
 h
@@ -30,10 +23,16 @@ WebGL2RenderingContextBinding
 .
 h
 "
-using
+#
+include
+"
+WebGLContext
+.
+h
+"
 namespace
 mozilla
-;
+{
 WebGLSampler
 :
 :
@@ -41,7 +40,7 @@ WebGLSampler
 (
 WebGLContext
 *
-context
+webgl
 GLuint
 sampler
 )
@@ -55,7 +54,7 @@ sampler
 )
 WebGLContextBoundObject
 (
-context
+webgl
 )
 {
 mContext
@@ -175,3 +174,4 @@ NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
 WebGLSampler
 Release
 )
+}

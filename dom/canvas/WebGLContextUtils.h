@@ -1,9 +1,9 @@
 #
 ifndef
-WEBGLCONTEXTUTILS_H_
+WEBGL_CONTEXT_UTILS_H_
 #
 define
-WEBGLCONTEXTUTILS_H_
+WEBGL_CONTEXT_UTILS_H_
 #
 include
 "
@@ -75,12 +75,15 @@ TexInternalFormat
 internalformat
 GLenum
 *
+const
 out_driverInternalFormat
 GLenum
 *
+const
 out_driverFormat
 GLenum
 *
+const
 out_driverType
 )
 ;
@@ -109,9 +112,11 @@ TexInternalFormat
 effectiveinternalformat
 TexInternalFormat
 *
+const
 out_internalformat
 TexType
 *
+const
 out_type
 )
 ;
@@ -217,7 +222,7 @@ explicit
 GLComponents
 (
 TexInternalFormat
-aFormat
+format
 )
 ;
 bool
@@ -264,7 +269,6 @@ if
 !
 object
 )
-{
 return
 JS
 :
@@ -273,7 +277,6 @@ NullValue
 (
 )
 ;
-}
 MOZ_ASSERT
 (
 this
@@ -413,11 +416,9 @@ isNull
 (
 )
 )
-{
 return
 nullptr
 ;
-}
 return
 &
 v

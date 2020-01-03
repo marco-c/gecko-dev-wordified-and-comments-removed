@@ -1,9 +1,9 @@
 #
 ifndef
-WEBGLVALIDATESTRINGS_H_
+WEBGL_VALIDATE_STRINGS_H_
 #
 define
-WEBGLVALIDATESTRINGS_H_
+WEBGL_VALIDATE_STRINGS_H_
 #
 include
 "
@@ -122,7 +122,7 @@ StripComments
 const
 nsAString
 &
-aStr
+str
 )
 :
 m_parseState
@@ -131,7 +131,7 @@ BeginningOfLine
 )
 m_end
 (
-aStr
+str
 .
 EndReading
 (
@@ -139,7 +139,7 @@ EndReading
 )
 m_current
 (
-aStr
+str
 .
 BeginReading
 (
@@ -154,7 +154,7 @@ m_result
 .
 SetLength
 (
-aStr
+str
 .
 Length
 (

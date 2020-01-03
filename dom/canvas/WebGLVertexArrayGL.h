@@ -1,9 +1,9 @@
 #
 ifndef
-WEBGLVERTEXARRAYGL_H_
+WEBGL_VERTEX_ARRAY_GL_H_
 #
 define
-WEBGLVERTEXARRAYGL_H_
+WEBGL_VERTEX_ARRAY_GL_H_
 #
 include
 "
@@ -51,12 +51,12 @@ WebGLVertexArrayGL
 (
 WebGLContext
 *
-aContext
+webgl
 )
 :
 WebGLVertexArray
 (
-aContext
+webgl
 )
 {
 }

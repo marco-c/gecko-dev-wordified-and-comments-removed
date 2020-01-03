@@ -1,9 +1,9 @@
 #
 ifndef
-WEBGLSTRONGTYPES_H_
+WEBGL_STRONG_TYPES_H_
 #
 define
-WEBGLSTRONGTYPES_H_
+WEBGL_STRONG_TYPES_H_
 #
 include
 "
@@ -191,12 +191,12 @@ MOZ_IMPLICIT
 StrongGLenum
 (
 GLenum
-aVal
+value
 )
 :
 mValue
 (
-aVal
+value
 )
 {
 AssertOnceThatEnumValuesAreSorted

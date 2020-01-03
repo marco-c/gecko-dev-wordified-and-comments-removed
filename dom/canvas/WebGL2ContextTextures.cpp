@@ -287,7 +287,7 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTarget
+ActiveBoundTextureForTarget
 (
 target
 )
@@ -645,7 +645,7 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTarget
+ActiveBoundTextureForTarget
 (
 target
 )
@@ -883,7 +883,7 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTarget
+ActiveBoundTextureForTarget
 (
 target
 )
@@ -1366,7 +1366,7 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTexImageTarget
+ActiveBoundTextureForTexImageTarget
 (
 texImageTarget
 )
@@ -1668,7 +1668,7 @@ WebGLTexture
 *
 tex
 =
-activeBoundTextureForTexImageTarget
+ActiveBoundTextureForTexImageTarget
 (
 texImageTarget
 )

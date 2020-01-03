@@ -90,7 +90,7 @@ WebGLContextLossHandler
 (
 WebGLContext
 *
-aWebgl
+webgl
 )
 ;
 void

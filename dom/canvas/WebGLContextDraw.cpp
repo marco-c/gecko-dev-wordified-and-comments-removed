@@ -1885,11 +1885,9 @@ if
 (
 mBufferFetchingIsVerified
 )
-{
 return
 true
 ;
-}
 bool
 hasPerVertex
 =

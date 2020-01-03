@@ -23,10 +23,9 @@ WebGLContext
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 WebGLExtensionCompressedTextureETC1
 :
 :
@@ -34,15 +33,15 @@ WebGLExtensionCompressedTextureETC1
 (
 WebGLContext
 *
-context
+webgl
 )
 :
 WebGLExtensionBase
 (
-context
+webgl
 )
 {
-context
+webgl
 -
 >
 mCompressedTextureFormats
@@ -66,3 +65,4 @@ IMPL_WEBGL_EXTENSION_GOOP
 (
 WebGLExtensionCompressedTextureETC1
 )
+}

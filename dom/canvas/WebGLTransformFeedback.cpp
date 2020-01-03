@@ -1,13 +1,6 @@
 #
 include
 "
-WebGL2Context
-.
-h
-"
-#
-include
-"
 WebGLTransformFeedback
 .
 h
@@ -30,10 +23,16 @@ WebGL2RenderingContextBinding
 .
 h
 "
-using
+#
+include
+"
+WebGL2Context
+.
+h
+"
 namespace
 mozilla
-;
+{
 WebGLTransformFeedback
 :
 :
@@ -41,7 +40,7 @@ WebGLTransformFeedback
 (
 WebGLContext
 *
-context
+webgl
 )
 :
 WebGLBindableName
@@ -53,7 +52,7 @@ GLenum
 )
 WebGLContextBoundObject
 (
-context
+webgl
 )
 {
 MOZ_CRASH
@@ -156,3 +155,4 @@ NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
 WebGLTransformFeedback
 Release
 )
+}

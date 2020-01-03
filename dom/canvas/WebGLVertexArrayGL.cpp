@@ -8,14 +8,14 @@ h
 #
 include
 "
-WebGLContext
+GLContext
 .
 h
 "
 #
 include
 "
-GLContext
+WebGLContext
 .
 h
 "
