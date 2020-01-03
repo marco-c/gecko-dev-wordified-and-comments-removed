@@ -3204,6 +3204,9 @@ isSecureURI
 sync
 GetLookAndFeelCache
 (
+)
+returns
+(
 LookAndFeelInt
 [
 ]

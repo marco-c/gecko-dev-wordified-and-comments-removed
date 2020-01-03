@@ -3271,7 +3271,7 @@ nsTArray
 LookAndFeelInt
 >
 &
-lookAndFeelIntCache
+aLookAndFeelIntCache
 )
 {
 for
@@ -3279,7 +3279,7 @@ for
 auto
 entry
 :
-lookAndFeelIntCache
+aLookAndFeelIntCache
 )
 {
 switch

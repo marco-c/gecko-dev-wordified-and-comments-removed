@@ -3205,8 +3205,7 @@ nsTArray
 <
 LookAndFeelInt
 >
-&
-&
+*
 aLookAndFeelIntCache
 )
 override

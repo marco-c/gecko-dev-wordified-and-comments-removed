@@ -2152,6 +2152,7 @@ cc
 >
 SendGetLookAndFeelCache
 (
+&
 lookAndFeelIntCache
 )
 ;

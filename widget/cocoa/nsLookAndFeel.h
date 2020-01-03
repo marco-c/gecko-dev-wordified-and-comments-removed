@@ -113,7 +113,7 @@ nsTArray
 LookAndFeelInt
 >
 &
-lookAndFeelIntCache
+aLookAndFeelIntCache
 )
 ;
 virtual
