@@ -24609,11 +24609,16 @@ for
 let
 tab
 of
+Array
+.
+from
+(
 tabs
 .
 tabbrowser
 .
 _removingTabs
+)
 )
 tabs
 .
