@@ -15349,7 +15349,7 @@ if
 (
 flags
 &
-0xff000000
+0xfe000000
 )
 {
 return
