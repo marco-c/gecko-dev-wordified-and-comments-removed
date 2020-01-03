@@ -9,10 +9,14 @@ skip_if_b2g
 skip_if_e10s
 )
 from
+marionette_driver
+.
 keys
 import
 Keys
 from
+marionette_driver
+.
 marionette
 import
 Actions
