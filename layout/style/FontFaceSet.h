@@ -428,14 +428,6 @@ aFontFace
 )
 ;
 void
-OnFontFaceInitialized
-(
-FontFace
-*
-aFontFace
-)
-;
-void
 OnFontFaceStatusChanged
 (
 FontFace
