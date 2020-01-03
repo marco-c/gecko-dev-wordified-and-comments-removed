@@ -1274,14 +1274,6 @@ getStoreState
 )
 .
 roomToken
-this
-.
-_handleRoomUpdate
-.
-bind
-(
-this
-)
 )
 ;
 }
