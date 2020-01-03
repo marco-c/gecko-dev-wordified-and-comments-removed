@@ -71362,14 +71362,11 @@ then
 case
 "
 {
-target_cpu
+CPU_ARCH
 }
 "
 in
-i
-*
-86
-*
+x86
 |
 x86_64
 |
