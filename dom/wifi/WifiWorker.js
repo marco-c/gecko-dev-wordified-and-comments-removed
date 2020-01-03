@@ -18408,6 +18408,9 @@ usageString
 "
 ServerCert
 "
+"
+UserCert
+"
 ]
 ;
 let
