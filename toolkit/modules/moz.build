@@ -164,6 +164,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+AddonWatcher
+.
+jsm
+'
+'
 Battery
 .
 jsm
