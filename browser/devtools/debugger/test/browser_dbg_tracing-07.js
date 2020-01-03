@@ -13,7 +13,6 @@ html
 ;
 let
 gTab
-gDebuggee
 gPanel
 ;
 function
@@ -37,7 +36,6 @@ pushPref
 ;
 [
 gTab
-gDebuggee
 gPanel
 ]
 =
@@ -337,18 +335,10 @@ clickButton
 (
 )
 {
-EventUtils
-.
-sendMouseEvent
+sendMouseClickToTab
 (
-{
-type
-:
-"
-click
-"
-}
-gDebuggee
+gTab
+content
 .
 document
 .
@@ -358,7 +348,6 @@ querySelector
 button
 "
 )
-gDebuggee
 )
 ;
 }
@@ -445,10 +434,6 @@ function
 )
 {
 gTab
-=
-null
-;
-gDebuggee
 =
 null
 ;
