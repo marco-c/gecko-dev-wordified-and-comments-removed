@@ -84,8 +84,7 @@ const
 int64_t
 Unlimited
 =
--
-1
+0
 ;
 SliceBudget
 (
@@ -143,6 +142,7 @@ if
 (
 counter
 >
+=
 0
 )
 return
