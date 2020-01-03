@@ -180,6 +180,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 {
 aRect
 =
@@ -202,6 +203,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 {
 return
 GetClientBounds
@@ -317,6 +319,7 @@ aInitData
 =
 nullptr
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -328,6 +331,7 @@ Show
 bool
 aState
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -339,6 +343,7 @@ IsVisible
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 true
@@ -356,6 +361,7 @@ int32_t
 *
 aY
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -369,6 +375,7 @@ aX
 double
 aY
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -384,6 +391,7 @@ aHeight
 bool
 aRepaint
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -403,6 +411,7 @@ aHeight
 bool
 aRepaint
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -414,6 +423,7 @@ Enable
 bool
 aState
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -425,6 +435,7 @@ IsEnabled
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 true
@@ -436,6 +447,7 @@ SetFocus
 bool
 aRaise
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -453,6 +465,7 @@ Configuration
 &
 aConfigurations
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -466,6 +479,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -479,6 +493,7 @@ nsAString
 &
 title
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -489,6 +504,7 @@ nsIntPoint
 WidgetToScreenOffset
 (
 )
+MOZ_OVERRIDE
 {
 return
 nsIntPoint
@@ -511,6 +527,7 @@ nsEventStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -525,6 +542,7 @@ aListener
 bool
 aDoCapture
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -545,6 +563,7 @@ InputContextAction
 &
 aAction
 )
+MOZ_OVERRIDE
 {
 }
 NS_IMETHOD_
@@ -554,6 +573,7 @@ InputContext
 GetInputContext
 (
 )
+MOZ_OVERRIDE
 {
 abort
 (
@@ -567,6 +587,7 @@ nsIWidget
 *
 aNewParent
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
