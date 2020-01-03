@@ -14660,6 +14660,9 @@ usedBytes
 >
 =
 igcThresholdBytes
+&
+&
+interFrameGC
 )
 {
 if
