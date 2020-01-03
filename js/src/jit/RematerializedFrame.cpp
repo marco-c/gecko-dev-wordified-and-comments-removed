@@ -157,6 +157,10 @@ isConstructing
 (
 )
 )
+hasCachedSavedFrame_
+(
+false
+)
 top_
 (
 top
