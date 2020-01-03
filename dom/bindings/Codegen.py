@@ -68343,20 +68343,16 @@ declared
 by
 the
 caller
-to
-indicate
-whether
+if
 the
 given
 indexed
 or
-    
 named
 property
+    
 already
 existed
-or
-not
 .
 If
 the
@@ -68365,12 +68361,12 @@ wants
 this
 it
 should
-    
 pass
 the
 name
 of
 the
+    
 bool
 variable
 as
@@ -68380,10 +68376,10 @@ keyword
 argument
 to
 the
-    
 constructor
 .
 The
+    
 caller
 is
 responsible
@@ -68391,6 +68387,12 @@ for
 declaring
 the
 variable
+and
+initializing
+it
+to
+    
+false
 .
     
 "
@@ -68680,6 +68682,8 @@ CGGeneric
 "
 bool
 found
+=
+false
 ;
 \
 n
@@ -71960,6 +71964,8 @@ fill
                     
 bool
 found
+=
+false
 ;
                     
 *
@@ -72355,6 +72361,8 @@ decls
 "
 bool
 found
+=
+false
 ;
 \
 n
@@ -72503,6 +72511,8 @@ foundDecl
 "
 bool
 found
+=
+false
 ;
 \
 n
@@ -72810,6 +72820,8 @@ fill
                 
 bool
 found
+=
+false
 ;
                 
 *
@@ -73561,6 +73573,8 @@ index
                   
 bool
 found
+=
+false
 ;
                   
 *
@@ -73718,6 +73732,8 @@ fill
                 
 bool
 found
+=
+false
 ;
                 
 *
