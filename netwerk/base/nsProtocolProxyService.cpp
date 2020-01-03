@@ -8456,9 +8456,6 @@ ALLOWS_PROXY
 )
 return
 ;
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsIProxyInfo
@@ -8488,6 +8485,11 @@ PruneProxyInfo
 info
 list
 )
+;
+nsresult
+rv
+=
+NS_OK
 ;
 if
 (
