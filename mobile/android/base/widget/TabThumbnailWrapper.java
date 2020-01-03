@@ -26,7 +26,7 @@ android
 .
 widget
 .
-FrameLayout
+RelativeLayout
 ;
 import
 org
@@ -41,7 +41,7 @@ public
 class
 TabThumbnailWrapper
 extends
-FrameLayout
+RelativeLayout
 {
 private
 boolean
