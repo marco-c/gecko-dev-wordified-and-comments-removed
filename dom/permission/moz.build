@@ -117,11 +117,6 @@ UNIFIED_SOURCES
 =
 [
 '
-PermissionObserver
-.
-cpp
-'
-'
 Permissions
 .
 cpp
