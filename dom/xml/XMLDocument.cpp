@@ -1630,6 +1630,10 @@ NodePrincipal
 if
 (
 callingDoc
+&
+&
+(
+callingDoc
 -
 >
 NodePrincipal
@@ -1638,6 +1642,7 @@ NodePrincipal
 !
 =
 principal
+)
 )
 {
 nsContentUtils
