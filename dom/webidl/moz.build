@@ -1920,6 +1920,11 @@ SourceBufferList
 webidl
 '
 '
+StereoPannerNode
+.
+webidl
+'
+'
 Storage
 .
 webidl

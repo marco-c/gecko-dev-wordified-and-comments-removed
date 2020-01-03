@@ -345,6 +345,11 @@ ScriptProcessorNode
 h
 '
 '
+StereoPannerNode
+.
+h
+'
+'
 WaveShaperNode
 .
 h
@@ -506,6 +511,11 @@ cpp
 '
 '
 ScriptProcessorNode
+.
+cpp
+'
+'
+StereoPannerNode
 .
 cpp
 '

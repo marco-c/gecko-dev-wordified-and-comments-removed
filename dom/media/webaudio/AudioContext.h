@@ -204,6 +204,9 @@ class
 ScriptProcessorNode
 ;
 class
+StereoPannerNode
+;
+class
 WaveShaperNode
 ;
 class
@@ -451,6 +454,14 @@ aNumberOfOutputChannels
 ErrorResult
 &
 aRv
+)
+;
+already_AddRefed
+<
+StereoPannerNode
+>
+CreateStereoPanner
+(
 )
 ;
 already_AddRefed

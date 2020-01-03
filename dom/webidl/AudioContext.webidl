@@ -283,6 +283,14 @@ numberOfOutputChannels
 [
 NewObject
 ]
+StereoPannerNode
+createStereoPanner
+(
+)
+;
+[
+NewObject
+]
 AnalyserNode
 createAnalyser
 (
