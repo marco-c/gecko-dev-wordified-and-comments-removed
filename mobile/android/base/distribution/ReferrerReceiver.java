@@ -14,6 +14,15 @@ mozilla
 .
 gecko
 .
+AdjustConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 AppConstants
 ;
 import
@@ -255,7 +264,7 @@ MOZ_INSTALL_TRACKING
 {
 try
 {
-AppConstants
+AdjustConstants
 .
 getAdjustHelper
 (
