@@ -757,10 +757,6 @@ hadOutOfMemory
 (
 false
 )
-handlingInitFailure
-(
-false
-)
 haveCreatedContext
 (
 false

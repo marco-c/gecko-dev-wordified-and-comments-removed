@@ -173,11 +173,6 @@ CurrentThreadIsGCSweeping
 (
 )
 ;
-bool
-CurrentThreadIsHandlingInitFailure
-(
-)
-;
 #
 endif
 namespace
@@ -1856,11 +1851,6 @@ HeapPtr
 MOZ_ASSERT
 (
 CurrentThreadIsGCSweeping
-(
-)
-|
-|
-CurrentThreadIsHandlingInitFailure
 (
 )
 )

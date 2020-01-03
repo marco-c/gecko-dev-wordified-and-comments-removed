@@ -285,7 +285,7 @@ finish
 =
 0
 ;
-HeapPtrObject
+RelocatablePtrObject
 memberOf
 ;
 JSCompartment
