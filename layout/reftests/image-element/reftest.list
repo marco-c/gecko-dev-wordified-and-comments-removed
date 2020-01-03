@@ -570,6 +570,13 @@ widget
 ref
 .
 html
+fails
+-
+if
+(
+!
+supportsRepeatResampling
+)
 =
 =
 element
