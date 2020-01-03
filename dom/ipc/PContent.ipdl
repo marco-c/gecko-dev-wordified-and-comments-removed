@@ -1143,6 +1143,12 @@ isFake
 bool
 isUnmounting
 ;
+bool
+isRemovable
+;
+bool
+isHotSwappable
+;
 }
 ;
 struct
@@ -1957,6 +1963,10 @@ bool
 isFake
 bool
 isUnmounting
+bool
+isRemovable
+bool
+isHotSwappable
 )
 ;
 /
