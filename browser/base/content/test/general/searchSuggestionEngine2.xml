@@ -77,7 +77,7 @@ search
 ShortName
 >
 browser_searchSuggestionEngine
-searchSuggestionEngine
+searchSuggestionEngine2
 .
 xml
 <
@@ -166,7 +166,7 @@ searchSuggestionEngine
 .
 com
 /
-searchSuggestionEngine
+searchSuggestionEngine2
 &
 amp
 ;
