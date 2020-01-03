@@ -284,14 +284,21 @@ self
 .
 marionette
 .
-execute_script
+execute_async_script
 (
             
 '
 SpecialPowers
 .
-setBoolPref
+pushPrefEnv
 (
+{
+"
+set
+"
+:
+[
+[
 "
 touchcaret
 .
@@ -299,6 +306,10 @@ enabled
 "
 %
 s
+]
+]
+}
+marionetteScriptFinished
 )
 ;
 '
