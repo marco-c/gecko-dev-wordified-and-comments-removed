@@ -467,6 +467,11 @@ CacheChild
 aActor
 )
 ;
+if
+(
+cacheChild
+)
+{
 cacheChild
 -
 >
@@ -477,6 +482,7 @@ GetFeature
 )
 )
 ;
+}
 listener
 -
 >
