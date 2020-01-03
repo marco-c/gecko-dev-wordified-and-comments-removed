@@ -358,7 +358,7 @@ void
 APZController
 :
 :
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 const
 uint64_t
@@ -379,7 +379,7 @@ return
 sAPZC
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 aInputBlockId
 aPreventDefault
@@ -948,7 +948,7 @@ FlushPendingContentResponse
 )
 ;
 }
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 aInputBlockId
 false

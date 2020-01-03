@@ -41,12 +41,6 @@ class
 CancelableBlockState
 ;
 class
-TouchBlockState
-;
-class
-WheelBlockState
-;
-class
 InputBlockState
 {
 public

@@ -320,7 +320,7 @@ aRect
 )
 ;
 void
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 const
 ScrollableLayerGuid

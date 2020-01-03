@@ -7230,7 +7230,7 @@ aGuid
 mPendingTouchPreventedGuid
 )
 ;
-SendContentReceivedTouch
+SendContentReceivedInputBlock
 (
 mPendingTouchPreventedGuid
 mPendingTouchPreventedBlockId
@@ -9799,7 +9799,7 @@ eventHandled
 )
 ;
 }
-SendContentReceivedTouch
+SendContentReceivedInputBlock
 (
 aGuid
 aInputBlockId
@@ -12001,7 +12001,7 @@ if
 mPendingTouchPreventedResponse
 )
 {
-SendContentReceivedTouch
+SendContentReceivedInputBlock
 (
 mPendingTouchPreventedGuid
 mPendingTouchPreventedBlockId
@@ -12018,7 +12018,7 @@ if
 isTouchPrevented
 )
 {
-SendContentReceivedTouch
+SendContentReceivedInputBlock
 (
 aGuid
 aInputBlockId

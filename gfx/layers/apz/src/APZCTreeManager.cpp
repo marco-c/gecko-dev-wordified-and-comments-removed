@@ -4436,7 +4436,7 @@ void
 APZCTreeManager
 :
 :
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 uint64_t
 aInputBlockId
@@ -4447,7 +4447,7 @@ aPreventDefault
 mInputQueue
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 aInputBlockId
 aPreventDefault

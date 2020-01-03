@@ -1234,7 +1234,7 @@ void
 InputQueue
 :
 :
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 uint64_t
 aInputBlockId

@@ -2322,7 +2322,7 @@ preventDefault
 .
 *
 /
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 ScrollableLayerGuid
 aGuid

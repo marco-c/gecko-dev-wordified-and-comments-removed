@@ -3370,7 +3370,7 @@ via
 APZCTreeManager
 :
 :
-ContentReceivedTouch
+ContentReceivedInputBlock
 and
 informs
 the

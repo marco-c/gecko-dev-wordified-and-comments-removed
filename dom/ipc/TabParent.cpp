@@ -9571,7 +9571,7 @@ bool
 TabParent
 :
 :
-RecvContentReceivedTouch
+RecvContentReceivedInputBlock
 (
 const
 ScrollableLayerGuid
@@ -9601,7 +9601,7 @@ GetRenderFrame
 rfp
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 aGuid
 aInputBlockId

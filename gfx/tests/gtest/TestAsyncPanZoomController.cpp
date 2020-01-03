@@ -734,7 +734,7 @@ aOutInputBlockId
 ;
 }
 void
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 uint64_t
 aInputBlockId
@@ -747,7 +747,7 @@ GetInputQueue
 )
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 aInputBlockId
 aPreventDefault
@@ -3660,7 +3660,7 @@ blockId
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 true
@@ -4897,7 +4897,7 @@ blockId
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 true
@@ -6271,7 +6271,7 @@ blockId
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 false
@@ -6394,7 +6394,7 @@ y
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 aPreventDefault
@@ -6781,7 +6781,7 @@ allowedTouchBehaviors
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 false
@@ -6948,7 +6948,7 @@ DestroyOldestTask
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 false
@@ -7134,7 +7134,7 @@ allowedTouchBehaviors
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 false
@@ -7253,7 +7253,7 @@ DestroyOldestTask
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 true
@@ -7946,7 +7946,7 @@ blockIds
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -7958,7 +7958,7 @@ false
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -8075,7 +8075,7 @@ blockIds
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -8087,7 +8087,7 @@ false
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -8204,7 +8204,7 @@ blockIds
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -8216,7 +8216,7 @@ true
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -8333,7 +8333,7 @@ blockIds
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -8345,7 +8345,7 @@ true
 apzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockIds
 [
@@ -13229,7 +13229,7 @@ blockId
 childApzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 false
@@ -13378,7 +13378,7 @@ secondBlockId
 childApzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 blockId
 false
@@ -13438,7 +13438,7 @@ y
 childApzc
 -
 >
-ContentReceivedTouch
+ContentReceivedInputBlock
 (
 secondBlockId
 false
