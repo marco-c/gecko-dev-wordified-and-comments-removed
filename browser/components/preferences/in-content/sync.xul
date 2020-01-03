@@ -2713,7 +2713,7 @@ flex
 /
 >
 <
-vbox
+hbox
 id
 =
 "
@@ -2784,7 +2784,7 @@ label
 >
 <
 /
-vbox
+hbox
 >
 <
 /
