@@ -1814,12 +1814,12 @@ return
 nullptr
 ;
 }
-PRFileInfo
+PRFileInfo64
 fileInfo
 ;
 if
 (
-PR_GetFileInfo
+PR_GetFileInfo64
 (
 path
 .
@@ -1845,7 +1845,7 @@ return
 nullptr
 ;
 }
-uint32_t
+uint64_t
 size
 =
 fileInfo
