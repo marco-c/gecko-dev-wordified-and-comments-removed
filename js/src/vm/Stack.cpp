@@ -8038,8 +8038,12 @@ if
 (
 !
 rematerializedFrames_
-|
-|
+)
+return
+nullptr
+;
+if
+(
 !
 rematerializedFrames_
 -
@@ -8052,6 +8056,11 @@ init
 rematerializedFrames_
 =
 nullptr
+;
+ReportOutOfMemory
+(
+cx
+)
 ;
 return
 nullptr
