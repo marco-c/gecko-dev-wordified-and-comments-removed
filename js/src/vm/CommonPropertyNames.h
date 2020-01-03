@@ -101,6 +101,15 @@ ArrayValues
 \
 macro
 (
+Async
+Async
+"
+Async
+"
+)
+\
+macro
+(
 buffer
 buffer
 "
