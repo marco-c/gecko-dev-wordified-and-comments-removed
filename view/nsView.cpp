@@ -4641,7 +4641,7 @@ pm
 PopupResized
 (
 mFrame
-nsIntSize
+LayoutDeviceIntSize
 (
 aWidth
 aHeight
