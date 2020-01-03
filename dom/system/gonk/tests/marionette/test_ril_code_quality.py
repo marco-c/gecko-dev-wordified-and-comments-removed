@@ -296,8 +296,6 @@ mode
 "
 "
 from
-marionette
-.
 marionette_test
 import
 MarionetteTestCase
@@ -898,17 +896,17 @@ CODE_OPEN_CHANNEL_BY_URI
 var
 Cc
 =
-SpecialPowers
+Components
 .
-Cc
+classes
 ;
     
 var
 Ci
 =
-SpecialPowers
+Components
 .
-Ci
+interfaces
 ;
     
 var
@@ -1055,17 +1053,17 @@ CODE_READ_CONTENT
 var
 Cc
 =
-SpecialPowers
+Components
 .
-Cc
+classes
 ;
     
 var
 Ci
 =
-SpecialPowers
+Components
 .
-Ci
+interfaces
 ;
     
 var
@@ -1293,9 +1291,16 @@ marionette
 execute_script
 (
 x
+                                                         
 new_sandbox
 =
 False
+                                                         
+sandbox
+=
+'
+system
+'
 )
     
 def
@@ -1660,9 +1665,16 @@ marionette
 execute_script
 (
 x
+                                                         
 new_sandbox
 =
 False
+                                                         
+sandbox
+=
+'
+system
+'
 )
         
 self
