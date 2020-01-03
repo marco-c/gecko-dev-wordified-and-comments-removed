@@ -187,6 +187,11 @@ TelemetryLog
 jsm
 '
 '
+TelemetrySend
+.
+jsm
+'
+'
 TelemetryStopwatch
 .
 jsm

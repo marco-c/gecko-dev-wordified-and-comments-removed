@@ -8657,12 +8657,6 @@ nsIThread
 DISPATCH_NORMAL
 )
 ;
-TelemetryController
-.
-sendPersistedPings
-(
-)
-;
 break
 ;
 #
