@@ -10434,6 +10434,11 @@ MainConn
 (
 )
 false
+mozIStorageConnection
+:
+:
+TRANSACTION_DEFERRED
+true
 )
 ;
 NOTIFY_OBSERVERS
@@ -10659,6 +10664,11 @@ MainConn
 (
 )
 false
+mozIStorageConnection
+:
+:
+TRANSACTION_DEFERRED
+true
 )
 ;
 nsresult
@@ -12295,6 +12305,11 @@ MainConn
 (
 )
 false
+mozIStorageConnection
+:
+:
+TRANSACTION_DEFERRED
+true
 )
 ;
 nsCOMPtr
