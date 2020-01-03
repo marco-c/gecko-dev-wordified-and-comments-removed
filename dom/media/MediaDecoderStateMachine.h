@@ -1444,11 +1444,6 @@ EnsureVideoDecodeTaskQueued
 )
 ;
 void
-SetReaderIdle
-(
-)
-;
-void
 DispatchDecodeTasksIfNeeded
 (
 )
