@@ -376,13 +376,6 @@ mBroken
 false
 ;
 }
-void
-SetBlockingOnload
-(
-bool
-aBlocking
-)
-;
 virtual
 mozilla
 :
