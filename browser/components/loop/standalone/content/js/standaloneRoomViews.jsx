@@ -3052,6 +3052,8 @@ div
 <
 sharedViews
 .
+chat
+.
 TextChatView
 dispatcher
 =

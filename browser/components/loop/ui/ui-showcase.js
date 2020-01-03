@@ -186,6 +186,8 @@ shared
 .
 views
 .
+chat
+.
 TextChatView
 ;
 var

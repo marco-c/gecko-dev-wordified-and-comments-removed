@@ -5502,6 +5502,8 @@ shouldRenderContextView
 <
 sharedViews
 .
+chat
+.
 TextChatView
 dispatcher
 =

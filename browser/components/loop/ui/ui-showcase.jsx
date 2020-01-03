@@ -299,6 +299,8 @@ shared
 .
 views
 .
+chat
+.
 TextChatView
 ;
 /
