@@ -866,6 +866,12 @@ deviceunpaired
 "
 #
 define
+PAIRING_ABORTED_ID
+"
+pairingaborted
+"
+#
+define
 REQUEST_MEDIA_PLAYSTATUS_ID
 "
 requestmediaplaystatus

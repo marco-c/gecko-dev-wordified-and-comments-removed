@@ -383,6 +383,18 @@ ondeviceunpaired
 /
 Fired
 when
+the
+pairing
+process
+aborted
+attribute
+EventHandler
+onpairingaborted
+;
+/
+/
+Fired
+when
 a2dp
 connection
 status
@@ -522,7 +534,7 @@ void
 setName
 (
 DOMString
-aName
+name
 )
 ;
 [
@@ -535,7 +547,7 @@ void
 setDiscoverable
 (
 boolean
-aDiscoverable
+discoverable
 )
 ;
 [
