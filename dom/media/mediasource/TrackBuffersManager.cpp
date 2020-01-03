@@ -2082,7 +2082,7 @@ ToSeconds
 ;
 if
 (
-HasAudio
+HasVideo
 (
 )
 )
@@ -2112,7 +2112,7 @@ get
 }
 if
 (
-HasVideo
+HasAudio
 (
 )
 )
@@ -2625,7 +2625,7 @@ mBufferedRanges
 }
 if
 (
-HasAudio
+HasVideo
 (
 )
 )
@@ -2655,7 +2655,7 @@ get
 }
 if
 (
-HasVideo
+HasAudio
 (
 )
 )
