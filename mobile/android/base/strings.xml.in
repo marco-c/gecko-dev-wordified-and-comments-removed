@@ -421,7 +421,7 @@ firstrun_welcome_message
 "
 >
 &
-onboard_start_message2
+onboard_start_message3
 ;
 <
 /
@@ -436,7 +436,7 @@ firstrun_welcome_subtext
 "
 >
 &
-onboard_start_subtext2
+onboard_start_subtext3
 ;
 <
 /
