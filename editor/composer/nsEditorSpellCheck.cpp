@@ -298,6 +298,7 @@ mSpellCheck
 ;
 public
 :
+explicit
 UpdateDictionnaryHolder
 (
 nsEditorSpellCheck
