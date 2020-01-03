@@ -1159,7 +1159,7 @@ return
 Success
 ;
 }
-PORT_Assert
+assert
 (
 endEntityOrCA
 =
