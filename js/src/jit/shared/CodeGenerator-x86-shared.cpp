@@ -12466,6 +12466,16 @@ output
 )
 ;
 }
+if
+(
+!
+gen
+-
+>
+compilingAsmJS
+(
+)
+)
 masm
 .
 canonicalizeFloat
