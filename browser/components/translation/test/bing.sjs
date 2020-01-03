@@ -1281,13 +1281,15 @@ contentType
 if
 (
 contentType
-=
-=
+.
+startsWith
+(
 "
 text
 /
 xml
 "
+)
 )
 {
 try
