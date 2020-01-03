@@ -320,6 +320,7 @@ MediaThreadType
 :
 PLAYBACK
 )
+true
 )
 )
 mIgnoreAudioOutputFormat
