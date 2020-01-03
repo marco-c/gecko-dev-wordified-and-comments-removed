@@ -549,7 +549,7 @@ color
 name
 =
 "
-new_tablet_highlight_lwt
+tablet_highlight_lwt
 "
 >
 #
@@ -574,7 +574,7 @@ color
 name
 =
 "
-new_tablet_highlight_dark_lwt
+tablet_highlight_dark_lwt
 "
 >
 #
@@ -605,7 +605,7 @@ color
 name
 =
 "
-new_tablet_highlight_focused
+tablet_highlight_focused
 "
 >
 #

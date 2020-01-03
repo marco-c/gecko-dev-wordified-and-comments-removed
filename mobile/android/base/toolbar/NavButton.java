@@ -384,7 +384,7 @@ R
 .
 color
 .
-new_tablet_highlight_focused
+tablet_highlight_focused
 )
 )
 ;
