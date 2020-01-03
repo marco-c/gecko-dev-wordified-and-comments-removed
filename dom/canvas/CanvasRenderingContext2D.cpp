@@ -20627,6 +20627,12 @@ if
 res
 .
 mIsStillLoading
+&
+&
+!
+res
+.
+mHasSize
 )
 {
 error

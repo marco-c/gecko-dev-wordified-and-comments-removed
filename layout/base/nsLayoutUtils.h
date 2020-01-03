@@ -4076,6 +4076,9 @@ bool
 mIsStillLoading
 ;
 bool
+mHasSize
+;
+bool
 mCORSUsed
 ;
 bool
