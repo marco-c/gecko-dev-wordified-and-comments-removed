@@ -4519,10 +4519,6 @@ fuzzy
 if
 (
 d2d
-&
-&
-!
-contentSameGfxBackendAsCanvas
 7
 1
 )
@@ -4711,10 +4707,6 @@ fuzzy
 if
 (
 d2d
-&
-&
-!
-contentSameGfxBackendAsCanvas
 7
 1
 )
@@ -4841,10 +4833,6 @@ fuzzy
 if
 (
 d2d
-&
-&
-!
-contentSameGfxBackendAsCanvas
 7
 1
 )
@@ -5013,10 +5001,6 @@ fuzzy
 if
 (
 d2d
-&
-&
-!
-contentSameGfxBackendAsCanvas
 7
 1
 )
