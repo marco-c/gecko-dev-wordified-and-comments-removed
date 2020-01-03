@@ -178,6 +178,11 @@ nsBlocklistService
 .
 js
 '
+'
+nsBlocklistServiceContent
+.
+js
+'
 ]
 EXTRA_JS_MODULES
 +
