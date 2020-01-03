@@ -949,7 +949,6 @@ productVersion
 MOZ_APP_VERSION
 ;
 uint32_t
-i
 k
 ;
 int
@@ -982,6 +981,7 @@ fileSizes
 MAX_SIGNATURES
 ]
 ;
+const
 uint8_t
 *
 certBuffers
@@ -1031,6 +1031,10 @@ endif
 endif
 memset
 (
+(
+void
+*
+)
 certNames
 0
 sizeof
@@ -1061,6 +1065,10 @@ NO_SIGN_VERIFY
 )
 memset
 (
+(
+void
+*
+)
 certBuffers
 0
 sizeof
@@ -2825,6 +2833,10 @@ MAR_NSS
 )
 free
 (
+(
+void
+*
+)
 certBuffers
 [
 k
