@@ -201,11 +201,14 @@ void
 MediaOmxCommonDecoder
 :
 :
-FirstFrameLoaded
+MetadataLoaded
 (
 MediaInfo
 *
 aInfo
+MetadataTags
+*
+aTags
 )
 {
 MOZ_ASSERT
@@ -218,9 +221,10 @@ NS_IsMainThread
 MediaDecoder
 :
 :
-FirstFrameLoaded
+MetadataLoaded
 (
 aInfo
+aTags
 )
 ;
 ReentrantMonitorAutoEnter

@@ -218,17 +218,6 @@ aTags
 ;
 virtual
 void
-ReadUpdatedMetadata
-(
-MediaInfo
-*
-aInfo
-)
-{
-}
-;
-virtual
-void
 Seek
 (
 int64_t

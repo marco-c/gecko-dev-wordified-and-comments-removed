@@ -1435,15 +1435,6 @@ MetadataTags
 aTags
 )
 ;
-virtual
-void
-FirstFrameLoaded
-(
-MediaInfo
-*
-aInfo
-)
-;
 void
 ConstructMediaTracks
 (
@@ -1455,6 +1446,11 @@ RemoveMediaTracks
 (
 )
 MOZ_OVERRIDE
+;
+void
+FirstFrameLoaded
+(
+)
 ;
 virtual
 bool
