@@ -599,6 +599,16 @@ InvalidateChildren
 MOZ_OVERRIDE
 ;
 virtual
+bool
+RemoveChild
+(
+Accessible
+*
+aChild
+)
+MOZ_OVERRIDE
+;
+virtual
 uint8_t
 ActionCount
 (
