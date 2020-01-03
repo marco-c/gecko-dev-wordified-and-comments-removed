@@ -1075,7 +1075,13 @@ rv
 =
 ShouldLoad
 (
+nsContentUtils
+:
+:
+InternalContentPolicyTypeToExternal
+(
 contentPolicyType
+)
 newUri
 requestingLocation
 loadInfo
