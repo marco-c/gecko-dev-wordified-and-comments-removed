@@ -852,7 +852,6 @@ status
 308
 ;
 }
-}
 bool
 WillRedirect
 (
@@ -885,6 +884,7 @@ nsHttp
 Location
 )
 ;
+}
 }
 nsresult
 StoreAuthorizationMetaData
