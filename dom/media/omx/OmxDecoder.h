@@ -572,11 +572,6 @@ extractor
 )
 ;
 bool
-IsDormantNeeded
-(
-)
-;
-bool
 EnsureMetadata
 (
 )
