@@ -2538,12 +2538,6 @@ o
 .
 mInvalidBack
 ;
-mExpirationState
-=
-o
-.
-mExpirationState
-;
 }
 TileClient
 &
@@ -2645,12 +2639,6 @@ mInvalidBack
 o
 .
 mInvalidBack
-;
-mExpirationState
-=
-o
-.
-mExpirationState
 ;
 return
 *
