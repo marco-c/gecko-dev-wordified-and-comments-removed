@@ -151,8 +151,10 @@ nsHTTPCompressConv
 (
 )
 ;
+nsCOMPtr
+<
 nsIStreamListener
-*
+>
 mListener
 ;
 CompressMode
