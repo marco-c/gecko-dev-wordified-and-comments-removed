@@ -523,6 +523,13 @@ h
 #
 include
 "
+nsISimpleEnumerator
+.
+h
+"
+#
+include
+"
 nsStyleSheetService
 .
 h
