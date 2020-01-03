@@ -256,6 +256,16 @@ shutdownTimeline
 ;
 this
 .
+panelWin
+.
+gFront
+.
+destroy
+(
+)
+;
+this
+.
 emit
 (
 "
