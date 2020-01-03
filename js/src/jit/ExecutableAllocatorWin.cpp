@@ -793,9 +793,6 @@ allocation
 =
 nullptr
 ;
-#
-ifndef
-JS_CPU_X64
 if
 (
 !
@@ -830,8 +827,6 @@ pageSize
 )
 ;
 }
-#
-endif
 if
 (
 !
