@@ -98,11 +98,6 @@ UNIFIED_SOURCES
 =
 [
 '
-CPOWTimer
-.
-cpp
-'
-'
 JavaScriptChild
 .
 cpp
