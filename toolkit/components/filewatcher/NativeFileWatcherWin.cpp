@@ -2106,7 +2106,7 @@ NS_OK
 }
 RemoveCallbacksFromHashtables
 (
-watchedResource
+wrappedParameters
 -
 >
 mPath
