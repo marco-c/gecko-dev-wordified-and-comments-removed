@@ -4922,13 +4922,10 @@ get
 ;
 if
 (
-NS_WARN_IF
-(
 aTabParent
 !
 =
 sActiveTabParent
-)
 )
 {
 MOZ_LOG
