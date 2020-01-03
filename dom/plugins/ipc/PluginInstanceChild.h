@@ -960,6 +960,14 @@ void
 aUserData
 )
 ;
+void
+PostChildAsyncCall
+(
+ChildAsyncCall
+*
+aTask
+)
+;
 int
 GetQuirks
 (
