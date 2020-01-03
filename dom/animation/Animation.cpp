@@ -3146,7 +3146,7 @@ collection
 collection
 -
 >
-NotifyPlayerUpdated
+NotifyAnimationUpdated
 (
 )
 ;

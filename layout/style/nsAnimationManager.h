@@ -706,7 +706,7 @@ aTimeline
 mozilla
 :
 :
-AnimationPlayerPtrArray
+AnimationPtrArray
 &
 aAnimations
 )
