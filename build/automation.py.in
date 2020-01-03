@@ -86,6 +86,8 @@ import
 tempfile
 import
 sqlite3
+import
+zipfile
 from
 datetime
 import
@@ -7101,11 +7103,14 @@ extensionSource
 :
 reader
 =
-automationutils
+zipfile
 .
-ZipFileReader
+ZipFile
 (
 extensionSource
+"
+r
+"
 )
 for
 filename
