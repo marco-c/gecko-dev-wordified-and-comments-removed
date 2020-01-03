@@ -1261,11 +1261,6 @@ UIResolutionChanged
 )
 ;
 void
-ThemeChanged
-(
-)
-;
-void
 RequestFlingSnap
 (
 const
