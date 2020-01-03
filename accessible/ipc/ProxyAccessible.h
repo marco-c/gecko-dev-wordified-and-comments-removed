@@ -1375,6 +1375,10 @@ roles
 :
 DOCUMENT
 )
+mOuterDoc
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
