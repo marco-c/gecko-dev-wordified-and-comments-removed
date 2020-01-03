@@ -812,6 +812,16 @@ else
 asm
 (
 "
+xor
+%
+%
+ecx
+%
+%
+ecx
+;
+"
+"
 movl
 0x1
 %
