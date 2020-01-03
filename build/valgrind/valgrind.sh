@@ -110,7 +110,7 @@ linux
 _arch
 }
 /
-releng
+valgrind
 .
 manifest
 TOOLTOOL_SERVER
