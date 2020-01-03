@@ -2091,7 +2091,6 @@ PL_DHashTableInit
 mTransferringRequests
 &
 gMapOps
-nullptr
 sizeof
 (
 RequestHashEntry

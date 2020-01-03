@@ -3113,7 +3113,6 @@ PL_NewDHashTable
 (
 &
 gOps
-nullptr
 sizeof
 (
 BroadcasterMapEntry

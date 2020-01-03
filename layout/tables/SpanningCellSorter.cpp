@@ -314,7 +314,6 @@ PL_DHashTableInit
 mHashTable
 &
 HashTableOps
-nullptr
 sizeof
 (
 HashTableEntry

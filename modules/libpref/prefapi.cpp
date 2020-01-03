@@ -662,7 +662,6 @@ PL_DHashTableInit
 gHashTable
 &
 pref_HashTableOps
-nullptr
 sizeof
 (
 PrefHashEntry

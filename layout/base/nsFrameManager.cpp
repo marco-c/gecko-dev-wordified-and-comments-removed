@@ -609,7 +609,6 @@ PL_DHashTableInit
 mPlaceholderMap
 &
 PlaceholderMapOps
-nullptr
 sizeof
 (
 PlaceholderMapEntry

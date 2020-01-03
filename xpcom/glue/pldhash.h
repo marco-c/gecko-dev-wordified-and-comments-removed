@@ -266,10 +266,6 @@ PLDHashTableOps
 *
 ops
 ;
-void
-*
-data
-;
 private
 :
 int16_t
@@ -418,9 +414,6 @@ const
 PLDHashTableOps
 *
 aOps
-void
-*
-aData
 uint32_t
 aEntrySize
 const
@@ -972,9 +965,6 @@ const
 PLDHashTableOps
 *
 aOps
-void
-*
-aData
 uint32_t
 aEntrySize
 uint32_t
@@ -1001,9 +991,6 @@ const
 PLDHashTableOps
 *
 aOps
-void
-*
-aData
 uint32_t
 aEntrySize
 uint32_t
@@ -1023,9 +1010,6 @@ const
 PLDHashTableOps
 *
 aOps
-void
-*
-aData
 uint32_t
 aEntrySize
 const

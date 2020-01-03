@@ -610,7 +610,6 @@ PL_DHashTableInit
 mNameTable
 &
 nametable_CaseInsensitiveHashTableOps
-nullptr
 sizeof
 (
 NameTableEntry

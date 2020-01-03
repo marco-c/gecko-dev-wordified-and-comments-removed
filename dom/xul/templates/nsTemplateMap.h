@@ -54,7 +54,6 @@ mTable
 PL_DHashGetStubOps
 (
 )
-nullptr
 sizeof
 (
 Entry

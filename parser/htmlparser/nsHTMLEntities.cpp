@@ -324,7 +324,6 @@ PL_DHashTableInit
 gEntityToUnicode
 &
 EntityToUnicodeOps
-nullptr
 sizeof
 (
 EntityNodeEntry
@@ -355,7 +354,6 @@ PL_DHashTableInit
 gUnicodeToEntity
 &
 UnicodeToEntityOps
-nullptr
 sizeof
 (
 EntityNodeEntry

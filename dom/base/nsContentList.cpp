@@ -839,7 +839,6 @@ PL_DHashTableInit
 gContentListHashTable
 &
 hash_table_ops
-nullptr
 sizeof
 (
 ContentListHashEntry
@@ -1256,7 +1255,6 @@ PL_DHashTableInit
 gFuncStringContentListHashTable
 &
 hash_table_ops
-nullptr
 sizeof
 (
 FuncStringContentListHashEntry

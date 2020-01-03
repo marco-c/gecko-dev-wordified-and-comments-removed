@@ -443,7 +443,6 @@ PL_DHashTableInit
 mRequestInfoHash
 &
 hash_table_ops
-nullptr
 sizeof
 (
 nsRequestInfo

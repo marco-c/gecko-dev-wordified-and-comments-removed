@@ -34,7 +34,6 @@ t
 PL_DHashGetStubOps
 (
 )
-nullptr
 sizeof
 (
 PLDHashEntryStub
@@ -81,7 +80,6 @@ t
 PL_DHashGetStubOps
 (
 )
-nullptr
 sizeof
 (
 PLDHashEntryStub
@@ -137,7 +135,6 @@ PL_DHashTableInit
 (
 &
 t
-nullptr
 nullptr
 sizeof
 (
@@ -217,7 +214,6 @@ PL_DHashTableInit
 t
 &
 ops
-nullptr
 sizeof
 (
 PLDHashEntryStub

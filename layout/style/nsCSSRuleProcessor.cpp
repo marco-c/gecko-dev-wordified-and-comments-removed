@@ -2682,7 +2682,6 @@ ops
 RuleHash_IdTable_CSOps
 .
 ops
-nullptr
 sizeof
 (
 RuleHashTableEntry
@@ -2745,7 +2744,6 @@ ops
 RuleHash_ClassTable_CSOps
 .
 ops
-nullptr
 sizeof
 (
 RuleHashTableEntry
@@ -2806,7 +2804,6 @@ PL_DHashTableInit
 mTagTable
 &
 RuleHash_TagTable_Ops
-nullptr
 sizeof
 (
 RuleHashTagTableEntry
@@ -2894,7 +2891,6 @@ PL_DHashTableInit
 mNameSpaceTable
 &
 RuleHash_NameSpaceTable_Ops
-nullptr
 sizeof
 (
 RuleHashTableEntry
@@ -4191,7 +4187,6 @@ PL_DHashTableInit
 mAttributeSelectors
 &
 AtomSelector_CSOps
-nullptr
 sizeof
 (
 AtomSelectorEntry
@@ -4204,7 +4199,6 @@ PL_DHashTableInit
 mAnonBoxRules
 &
 RuleHash_TagTable_Ops
-nullptr
 sizeof
 (
 RuleHashTagTableEntry
@@ -4224,7 +4218,6 @@ ops
 :
 &
 AtomSelector_CSOps
-nullptr
 sizeof
 (
 AtomSelectorEntry
@@ -4244,7 +4237,6 @@ ops
 :
 &
 AtomSelector_CSOps
-nullptr
 sizeof
 (
 AtomSelectorEntry
@@ -4270,7 +4262,6 @@ PL_DHashTableInit
 mXULTreeRules
 &
 RuleHash_TagTable_Ops
-nullptr
 sizeof
 (
 RuleHashTagTableEntry
@@ -14744,7 +14735,6 @@ PL_DHashTableInit
 mRulesByWeight
 &
 gRulesByWeightOps
-nullptr
 sizeof
 (
 RuleByWeightEntry

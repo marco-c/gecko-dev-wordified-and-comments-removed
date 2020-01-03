@@ -1422,7 +1422,6 @@ PL_DHashTableInit
 table
 &
 ops
-nullptr
 sizeof
 (
 nsCacheEntryHashTableEntry

@@ -2770,7 +2770,6 @@ PL_DHashTableInit
 mResources
 &
 gResourceTableOps
-nullptr
 sizeof
 (
 ResourceHashEntry
@@ -2783,7 +2782,6 @@ PL_DHashTableInit
 mLiterals
 &
 gLiteralTableOps
-nullptr
 sizeof
 (
 LiteralHashEntry
@@ -2796,7 +2794,6 @@ PL_DHashTableInit
 mInts
 &
 gIntTableOps
-nullptr
 sizeof
 (
 IntHashEntry
@@ -2809,7 +2806,6 @@ PL_DHashTableInit
 mDates
 &
 gDateTableOps
-nullptr
 sizeof
 (
 DateHashEntry
@@ -2822,7 +2818,6 @@ PL_DHashTableInit
 mBlobs
 &
 gBlobTableOps
-nullptr
 sizeof
 (
 BlobHashEntry

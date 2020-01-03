@@ -27,7 +27,6 @@ mMap
 PL_DHashGetStubOps
 (
 )
-nullptr
 sizeof
 (
 Entry
