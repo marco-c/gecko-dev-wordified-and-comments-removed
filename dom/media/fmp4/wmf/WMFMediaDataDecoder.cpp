@@ -535,6 +535,11 @@ ProcessDrain
 {
 if
 (
+mDecoder
+)
+{
+if
+(
 FAILED
 (
 mDecoder
@@ -566,6 +571,7 @@ ProcessOutput
 (
 )
 ;
+}
 mCallback
 -
 >
