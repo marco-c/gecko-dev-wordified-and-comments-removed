@@ -175,9 +175,11 @@ privatebrowsingpage
 .
 description
 .
-private3
+private4
 "
-Firefox
+&
+brandShortName
+;
 will
 prevent
 you
