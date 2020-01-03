@@ -208,9 +208,15 @@ IsDefaultPrevented
 const
 ;
 void
-DisallowSingleTap
+SetDuringFastMotion
 (
 )
+;
+bool
+IsDuringFastMotion
+(
+)
+const
 ;
 bool
 SetSingleTapOccurred
@@ -299,7 +305,7 @@ bool
 mContentResponseTimerExpired
 ;
 bool
-mSingleTapDisallowed
+mDuringFastMotion
 ;
 bool
 mSingleTapOccurred
