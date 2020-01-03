@@ -290,6 +290,17 @@ customConfirmationUI
 "
 ;
 const
+PREF_UI_LASTCATEGORY
+=
+"
+extensions
+.
+ui
+.
+lastCategory
+"
+;
+const
 MANAGER_URI
 =
 "
