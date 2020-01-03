@@ -1603,6 +1603,7 @@ historyEnabled
 ;
 if
 (
+!
 this
 .
 historyEnabled
