@@ -463,6 +463,15 @@ NR_ICE_CTX_FLAGS_LITE
 <
 3
 )
+#
+define
+NR_ICE_CTX_FLAGS_RELAY_ONLY
+(
+1
+<
+<
+4
+)
 int
 nr_ice_ctx_destroy
 (
