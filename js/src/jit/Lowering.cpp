@@ -17859,17 +17859,6 @@ type
 )
 |
 |
-IsSimdType
-(
-ins
--
->
-type
-(
-)
-)
-|
-|
 ins
 -
 >
