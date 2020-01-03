@@ -2123,6 +2123,14 @@ GetContentPolicy
 )
 ;
 static
+nsContentPolicyType
+InternalContentPolicyTypeToExternal
+(
+nsContentPolicyType
+aType
+)
+;
+static
 bool
 HasMutationListeners
 (

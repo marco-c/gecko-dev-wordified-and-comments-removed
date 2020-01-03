@@ -123,7 +123,7 @@ CPMethod
 policyMethod
 SCPMethod
 simplePolicyMethod
-uint32_t
+nsContentPolicyType
 contentType
 nsIURI
 *
