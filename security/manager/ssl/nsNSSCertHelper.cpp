@@ -8107,9 +8107,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 nsString
 text
 ;
@@ -8133,7 +8135,7 @@ dateFormatter
 FormatPRExplodedTime
 (
 nullptr
-kDateFormatShort
+kDateFormatLong
 kTimeFormatSecondsForce24Hour
 &
 explodedTime
@@ -8175,7 +8177,7 @@ dateFormatter
 FormatPRExplodedTime
 (
 nullptr
-kDateFormatShort
+kDateFormatLong
 kTimeFormatSecondsForce24Hour
 &
 explodedTimeGMT
