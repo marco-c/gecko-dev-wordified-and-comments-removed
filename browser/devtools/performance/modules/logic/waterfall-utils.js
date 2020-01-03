@@ -9,7 +9,7 @@ lazyRequireGetter
 (
 this
 "
-getBlueprintFor
+MarkerUtils
 "
 "
 devtools
@@ -20,7 +20,6 @@ marker
 -
 utils
 "
-true
 )
 ;
 function
@@ -29,6 +28,7 @@ collapseMarkersIntoNode
 {
 markerNode
 markersList
+filter
 }
 )
 {
@@ -74,6 +74,21 @@ markersList
 i
 ]
 ;
+if
+(
+!
+MarkerUtils
+.
+isMarkerValid
+(
+curr
+filter
+)
+)
+{
+continue
+;
+}
 let
 parentNode
 =
@@ -84,6 +99,8 @@ getCurrentParentNode
 let
 blueprint
 =
+MarkerUtils
+.
 getBlueprintFor
 (
 curr

@@ -561,6 +561,15 @@ markers
 "
 )
 ;
+this
+.
+_cache
+=
+new
+WeakMap
+(
+)
+;
 }
 _onViewSource
 :
@@ -637,6 +646,11 @@ rootMarkerNode
 markersList
 :
 markers
+filter
+:
+this
+.
+_hiddenMarkers
 }
 )
 ;
