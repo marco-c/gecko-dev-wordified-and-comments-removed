@@ -65,8 +65,8 @@ dom
 :
 Animation
 &
-aPlayer
-AnimationPlayerSet
+aAnimation
+AnimationSet
 &
 aSet
 )
@@ -76,7 +76,7 @@ aSet
 PutEntry
 (
 &
-aPlayer
+aAnimation
 )
 ;
 EnsurePaintIsScheduled
@@ -95,8 +95,8 @@ dom
 :
 Animation
 &
-aPlayer
-AnimationPlayerSet
+aAnimation
+AnimationSet
 &
 aSet
 )
@@ -106,7 +106,7 @@ aSet
 RemoveEntry
 (
 &
-aPlayer
+aAnimation
 )
 ;
 }
@@ -122,9 +122,9 @@ dom
 :
 Animation
 &
-aPlayer
+aAnimation
 const
-AnimationPlayerSet
+AnimationSet
 &
 aSet
 )
@@ -145,13 +145,13 @@ Animation
 >
 (
 &
-aPlayer
+aAnimation
 )
 )
 ;
 }
 PLDHashOperator
-TriggerPlayerAtTime
+TriggerAnimationAtTime
 (
 nsRefPtrHashKey
 <
@@ -172,7 +172,7 @@ dom
 :
 Animation
 *
-player
+animation
 =
 aKey
 -
@@ -188,7 +188,7 @@ DocumentTimeline
 *
 timeline
 =
-player
+animation
 -
 >
 Timeline
@@ -232,7 +232,7 @@ aReadyTime
 )
 )
 ;
-player
+animation
 -
 >
 TriggerOnNextTick
@@ -260,7 +260,7 @@ mPlayPendingSet
 .
 EnumerateEntries
 (
-TriggerPlayerAtTime
+TriggerAnimationAtTime
 const_cast
 <
 TimeStamp
@@ -276,7 +276,7 @@ mPausePendingSet
 .
 EnumerateEntries
 (
-TriggerPlayerAtTime
+TriggerAnimationAtTime
 const_cast
 <
 TimeStamp
@@ -290,7 +290,7 @@ aReadyTime
 ;
 }
 PLDHashOperator
-TriggerPlayerNow
+TriggerAnimationNow
 (
 nsRefPtrHashKey
 <
@@ -333,7 +333,7 @@ mPlayPendingSet
 .
 EnumerateEntries
 (
-TriggerPlayerNow
+TriggerAnimationNow
 nullptr
 )
 ;
@@ -347,7 +347,7 @@ mPausePendingSet
 .
 EnumerateEntries
 (
-TriggerPlayerNow
+TriggerAnimationNow
 nullptr
 )
 ;
