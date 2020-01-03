@@ -100,8 +100,6 @@ automationutils
 import
 (
     
-environment
-    
 processLeakLog
     
 dumpScreen
@@ -178,6 +176,12 @@ mozlog
 structured
 import
 commandline
+from
+mozrunner
+.
+utils
+import
+test_environment
 here
 =
 os
@@ -1944,13 +1948,18 @@ server
         
 env
 =
-environment
+test_environment
 (
 xrePath
 =
 self
 .
 _xrePath
+log
+=
+self
+.
+_log
 )
         
 env
@@ -7298,13 +7307,18 @@ exit
         
 env
 =
-environment
+test_environment
 (
 xrePath
 =
 self
 .
 xrePath
+log
+=
+self
+.
+log
 )
         
 env
@@ -8404,12 +8418,6 @@ logger_options
         
 self
 .
-environment
-=
-environment
-        
-self
-.
 SERVER_STARTUP_TIMEOUT
 =
 180
@@ -8470,6 +8478,35 @@ result
 =
 {
 }
+    
+def
+environment
+(
+self
+*
+*
+kwargs
+)
+:
+        
+kwargs
+[
+'
+log
+'
+]
+=
+self
+.
+log
+        
+return
+test_environment
+(
+*
+*
+kwargs
+)
     
 def
 extraPrefs
