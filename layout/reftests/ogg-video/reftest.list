@@ -772,12 +772,6 @@ B2G
 |
 Mulet
 )
-skip
--
-if
-(
-gtkWidget
-)
 fuzzy
 -
 if
