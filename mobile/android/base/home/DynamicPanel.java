@@ -961,6 +961,17 @@ request
 request
 )
 ;
+if
+(
+!
+getCanLoadHint
+(
+)
+)
+{
+return
+;
+}
 final
 Bundle
 bundle
