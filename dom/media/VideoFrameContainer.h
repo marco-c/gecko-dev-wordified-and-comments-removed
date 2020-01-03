@@ -195,12 +195,6 @@ mMutex
 gfxIntSize
 mIntrinsicSize
 ;
-TimeStamp
-mPaintTarget
-;
-TimeDuration
-mPaintDelay
-;
 bool
 mIntrinsicSizeChanged
 ;
