@@ -377,6 +377,11 @@ CATEGORIES
 }
 ;
 const
+CATEGORY_OTHER
+=
+8
+;
+const
 CATEGORY_JIT
 =
 32
@@ -398,6 +403,12 @@ exports
 CATEGORY_MAPPINGS
 =
 CATEGORY_MAPPINGS
+;
+exports
+.
+CATEGORY_OTHER
+=
+CATEGORY_OTHER
 ;
 exports
 .
