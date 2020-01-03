@@ -194,6 +194,14 @@ scalez
 ref
 .
 html
+fuzzy
+-
+if
+(
+cocoaWidget
+17
+3
+)
 =
 =
 preserve3d
