@@ -1422,14 +1422,9 @@ LOGIN_URL
 =
 getAbsoluteUrl
 (
-"
-/
-robocop
-/
-robocop_login
+StringHelper
 .
-html
-"
+ROBOCOP_LOGIN_01_URL
 )
 ;
 String
