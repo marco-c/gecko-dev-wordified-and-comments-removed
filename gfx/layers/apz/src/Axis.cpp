@@ -1085,8 +1085,12 @@ MOZ_ASSERT
 (
 (
 result
+.
+value
 *
 mOverscrollOffset
+.
+value
 )
 >
 =
