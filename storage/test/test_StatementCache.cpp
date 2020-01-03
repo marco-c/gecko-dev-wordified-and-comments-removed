@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 storage
 /
 StatementCache
@@ -34,6 +43,7 @@ mozIStorageStatement
 {
 public
 :
+explicit
 SyncCache
 (
 nsCOMPtr
@@ -66,6 +76,7 @@ mozIStorageAsyncStatement
 {
 public
 :
+explicit
 AsyncCache
 (
 nsCOMPtr
@@ -95,6 +106,7 @@ nsCString
 {
 public
 :
+MOZ_IMPLICIT
 StringWrapper
 (
 const

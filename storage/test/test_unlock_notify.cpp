@@ -45,6 +45,7 @@ nsRunnable
 {
 public
 :
+explicit
 DatabaseLocker
 (
 const
