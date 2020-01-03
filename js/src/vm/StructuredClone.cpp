@@ -9879,8 +9879,6 @@ optionalCallbacks
 void
 *
 closure
-bool
-freeData
 )
 {
 DiscardTransferables
@@ -9891,17 +9889,11 @@ optionalCallbacks
 closure
 )
 ;
-if
-(
-freeData
-)
-{
 js_free
 (
 data
 )
 ;
-}
 return
 true
 ;

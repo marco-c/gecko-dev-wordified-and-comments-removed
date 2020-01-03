@@ -508,7 +508,7 @@ static
 const
 char
 *
-kNodeInfoNSURIs
+kNSURIs
 [
 ]
 =
@@ -616,7 +616,7 @@ nsid
 <
 ArrayLength
 (
-kNodeInfoNSURIs
+kNSURIs
 )
 )
 {
@@ -634,7 +634,7 @@ s
 %
 s
 "
-kNodeInfoNSURIs
+kNSURIs
 [
 nsid
 ]

@@ -51,10 +51,10 @@ nsTArray
 <
 nsRefPtr
 <
-BlobImpl
+Blob
 >
 >
-mBlobImpls
+mBlobs
 ;
 }
 ;

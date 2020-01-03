@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIFormControl
-.
-h
-"
-#
-include
-"
 nsISelection
 .
 h

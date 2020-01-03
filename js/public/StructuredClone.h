@@ -349,10 +349,6 @@ optionalCallbacks
 void
 *
 closure
-bool
-freeData
-=
-true
 )
 ;
 JS_PUBLIC_API
