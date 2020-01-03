@@ -1625,6 +1625,13 @@ Element
 aElement
 )
 ;
+bool
+CanReparentStyleContext
+(
+nsRestyleHint
+aRestyleHint
+)
+;
 void
 AddLayerChangesForAnimation
 (
