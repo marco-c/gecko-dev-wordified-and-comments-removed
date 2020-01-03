@@ -2904,6 +2904,9 @@ mPlayingThroughTheAudioChannel
 bool
 mDisableVideo
 ;
+bool
+mPlayBlockedBecauseHidden
+;
 nsCOMPtr
 <
 nsIAudioChannelAgent
