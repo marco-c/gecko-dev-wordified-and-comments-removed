@@ -329,6 +329,14 @@ foo
 "
 bar
 "
+localVideoDimensions
+:
+{
+}
+remoteVideoDimensions
+:
+{
+}
 }
 )
 ;
