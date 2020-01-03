@@ -265,6 +265,20 @@ o
 static
 const
 char
+kDigiCert_ECC_Secure_Server_CAFingerprint
+[
+]
+=
+"
+PZXN3lRAy
++
+8tBKk2Ox6F7jIlnzr2Yzmwqc3JnyfXoCw
+=
+"
+;
+static
+const
+char
 kDigiCert_Global_Root_CAFingerprint
 [
 ]
@@ -1276,6 +1290,7 @@ kPinset_facebook_sha256_Data
 ]
 =
 {
+kDigiCert_ECC_Secure_Server_CAFingerprint
 kVerisign_Class_3_Public_Primary_Certification_Authority___G3Fingerprint
 kDigiCert_High_Assurance_EV_Root_CAFingerprint
 }
@@ -7254,6 +7269,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1418406258075000
+1418659817121000
 )
 ;
