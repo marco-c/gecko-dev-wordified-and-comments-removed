@@ -3035,6 +3035,17 @@ ACCOUNT_KEY_TOKEN_SERVER
 tokenServerEndpoint
 )
 ;
+ContentResolver
+.
+setIsSyncable
+(
+account
+BrowserContract
+.
+READING_LIST_AUTHORITY
+1
+)
+;
 }
 protected
 static
