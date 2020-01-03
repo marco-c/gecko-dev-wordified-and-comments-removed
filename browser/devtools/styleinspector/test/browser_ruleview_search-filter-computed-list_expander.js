@@ -445,7 +445,7 @@ classList
 contains
 (
 "
-user
+styleinspector
 -
 open
 "
@@ -455,7 +455,7 @@ margin
 computed
 list
 contains
-user
+styleinspector
 -
 open
 class
@@ -827,7 +827,7 @@ classList
 contains
 (
 "
-user
+styleinspector
 -
 open
 "
@@ -837,7 +837,7 @@ margin
 computed
 list
 contains
-user
+styleinspector
 -
 open
 class
