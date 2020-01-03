@@ -238,6 +238,9 @@ eForceQuit
 else
 {
 throw
+new
+Error
+(
 '
 goQuitApplication
 :
@@ -246,6 +249,7 @@ AppStartup
 /
 appShell
 '
+)
 ;
 }
 try
@@ -264,6 +268,8 @@ ex
 )
 {
 throw
+new
+Error
 (
 '
 goQuitApplication
