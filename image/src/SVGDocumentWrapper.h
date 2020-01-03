@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_imagelib_SVGDocumentWrapper_h_
+mozilla_image_src_SVGDocumentWrapper_h
 #
 define
-mozilla_imagelib_SVGDocumentWrapper_h_
+mozilla_image_src_SVGDocumentWrapper_h
 #
 include
 "
