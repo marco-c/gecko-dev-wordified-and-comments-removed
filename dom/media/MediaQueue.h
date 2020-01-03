@@ -747,7 +747,7 @@ AddPopListener
 nsIRunnable
 *
 aRunnable
-MediaTaskQueue
+nsIEventTarget
 *
 aTarget
 )
@@ -784,7 +784,7 @@ Listener
 nsIRunnable
 *
 aRunnable
-MediaTaskQueue
+nsIEventTarget
 *
 aTarget
 )
@@ -829,7 +829,7 @@ mRunnable
 ;
 RefPtr
 <
-MediaTaskQueue
+nsIEventTarget
 >
 mTarget
 ;
@@ -885,6 +885,7 @@ Dispatch
 l
 .
 mRunnable
+NS_DISPATCH_NORMAL
 )
 ;
 }
