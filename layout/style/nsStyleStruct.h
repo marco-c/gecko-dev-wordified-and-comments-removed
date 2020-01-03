@@ -5508,6 +5508,17 @@ aContextFrame
 )
 const
 ;
+inline
+bool
+IsFixedPosContainingBlock
+(
+const
+nsIFrame
+*
+aContextFrame
+)
+const
+;
 private
 :
 static
@@ -8834,7 +8845,7 @@ const
 ;
 inline
 bool
-IsPositioned
+IsAbsPosContainingBlock
 (
 const
 nsIFrame
