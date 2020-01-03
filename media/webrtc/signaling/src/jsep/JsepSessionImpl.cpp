@@ -8756,7 +8756,7 @@ pt
 if
 (
 !
-JsepCodecDescription
+SdpHelper
 :
 :
 GetPtAsInt
