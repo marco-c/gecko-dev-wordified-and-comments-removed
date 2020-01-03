@@ -243,7 +243,7 @@ const
 NS_GRE_BIN_DIR
 =
 "
-GreBinD
+GreD
 "
 ;
 const
