@@ -1,9 +1,9 @@
 #
 ifndef
-jit_shared_Assembler_x86_shared_h
+jit_x86_shared_Assembler_x86_shared_h
 #
 define
-jit_shared_Assembler_x86_shared_h
+jit_x86_shared_Assembler_x86_shared_h
 #
 include
 <
@@ -27,6 +27,8 @@ include
 "
 jit
 /
+x86
+-
 shared
 /
 BaseAssembler

@@ -3,6 +3,8 @@ include
 "
 jit
 /
+x86
+-
 shared
 /
 CodeGenerator

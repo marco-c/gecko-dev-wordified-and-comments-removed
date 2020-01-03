@@ -2641,6 +2641,8 @@ UNIFIED_SOURCES
 '
 jit
 /
+x86
+-
 shared
 /
 Assembler
@@ -2654,6 +2656,8 @@ cpp
 '
 jit
 /
+x86
+-
 shared
 /
 AssemblerBuffer
@@ -2667,6 +2671,8 @@ cpp
 '
 jit
 /
+x86
+-
 shared
 /
 BaselineCompiler
@@ -2680,6 +2686,8 @@ cpp
 '
 jit
 /
+x86
+-
 shared
 /
 BaselineIC
@@ -2693,6 +2701,8 @@ cpp
 '
 jit
 /
+x86
+-
 shared
 /
 CodeGenerator
@@ -2706,6 +2716,8 @@ cpp
 '
 jit
 /
+x86
+-
 shared
 /
 Disassembler
@@ -2719,6 +2731,8 @@ cpp
 '
 jit
 /
+x86
+-
 shared
 /
 Lowering
@@ -2732,6 +2746,8 @@ cpp
 '
 jit
 /
+x86
+-
 shared
 /
 MacroAssembler
@@ -2745,6 +2761,8 @@ cpp
 '
 jit
 /
+x86
+-
 shared
 /
 MoveEmitter

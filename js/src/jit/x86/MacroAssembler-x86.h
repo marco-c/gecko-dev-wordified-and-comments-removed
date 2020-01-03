@@ -34,6 +34,8 @@ include
 "
 jit
 /
+x86
+-
 shared
 /
 MacroAssembler

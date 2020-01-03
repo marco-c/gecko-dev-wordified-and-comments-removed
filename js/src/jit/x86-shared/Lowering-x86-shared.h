@@ -1,9 +1,9 @@
 #
 ifndef
-jit_shared_Lowering_x86_shared_h
+jit_x86_shared_Lowering_x86_shared_h
 #
 define
-jit_shared_Lowering_x86_shared_h
+jit_x86_shared_Lowering_x86_shared_h
 #
 include
 "

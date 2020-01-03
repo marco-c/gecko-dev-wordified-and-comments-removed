@@ -1,9 +1,9 @@
 #
 ifndef
-jit_shared_BaseAssembler_x86_shared_h
+jit_x86_shared_BaseAssembler_x86_shared_h
 #
 define
-jit_shared_BaseAssembler_x86_shared_h
+jit_x86_shared_BaseAssembler_x86_shared_h
 #
 include
 "
@@ -18,6 +18,8 @@ include
 "
 jit
 /
+x86
+-
 shared
 /
 AssemblerBuffer
@@ -33,6 +35,8 @@ include
 "
 jit
 /
+x86
+-
 shared
 /
 Encoding
@@ -48,6 +52,8 @@ include
 "
 jit
 /
+x86
+-
 shared
 /
 Patching
