@@ -228,7 +228,7 @@ int64_t
 aTicks
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gInitialized
 "
@@ -259,7 +259,7 @@ int64_t
 aTicks
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gInitialized
 "
@@ -311,7 +311,7 @@ double
 aMilliseconds
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gInitialized
 "
@@ -368,7 +368,7 @@ ResolutionInTicks
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gInitialized
 "

@@ -1438,7 +1438,7 @@ GetUnit
 eStyleUnit_Enumerated
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aEnumTable
 "
@@ -1495,7 +1495,7 @@ return
 0
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCoord
 .
@@ -2604,7 +2604,7 @@ aOther
 mBoxShadow
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 shadowDifference
 =
@@ -7927,7 +7927,7 @@ aOther
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSize
 =
@@ -7949,7 +7949,7 @@ size
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aOther
 .
@@ -8527,7 +8527,7 @@ SetNull
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mImageTracked
@@ -8603,7 +8603,7 @@ imgRequestProxy
 aImage
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mImageTracked
@@ -8669,7 +8669,7 @@ nsPresContext
 aContext
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mImageTracked
@@ -8681,7 +8681,7 @@ image
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mType
 =
@@ -8747,7 +8747,7 @@ nsPresContext
 aContext
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mImageTracked
 "
@@ -8758,7 +8758,7 @@ tracked
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mType
 =
@@ -9010,7 +9010,7 @@ return
 0
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 pixelValue
 >
@@ -9334,7 +9334,7 @@ eStyleImageType_Element
 return
 false
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mType
 =
@@ -9364,7 +9364,7 @@ imageContainer
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 imageContainer
 "
@@ -10528,7 +10528,7 @@ aImage
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aImage
 .
@@ -10625,7 +10625,7 @@ return
 false
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 mWidthType
@@ -10872,7 +10872,7 @@ aOther
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mWidthType
 <
@@ -10885,7 +10885,7 @@ this
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mHeightType
 <
@@ -10898,7 +10898,7 @@ this
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aOther
 .
@@ -10913,7 +10913,7 @@ aOther
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aOther
 .
@@ -11374,7 +11374,7 @@ timingFunctionValues
 }
 }
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -12047,7 +12047,7 @@ AppendElement
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mTransitions
 .
@@ -12099,7 +12099,7 @@ AppendElement
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mAnimations
 .
@@ -13597,7 +13597,7 @@ nsStyleContentData
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mImageTracked
@@ -14005,7 +14005,7 @@ nsPresContext
 aContext
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mImageTracked
@@ -14017,7 +14017,7 @@ image
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mType
 =
@@ -14037,7 +14037,7 @@ image
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mContent
 .
@@ -14104,7 +14104,7 @@ nsPresContext
 aContext
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mImageTracked
 "
@@ -14115,7 +14115,7 @@ tracked
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mType
 =
@@ -14135,7 +14135,7 @@ image
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mContent
 .

@@ -1243,8 +1243,7 @@ return
 0
 ;
 }
-NS_ABORT_IF_FALSE
-(
+MOZ_ASSERT
 (
 aXPLength
 =
@@ -1260,7 +1259,6 @@ text
 >
 GetLength
 (
-)
 )
 "
 aXPLength
@@ -1467,7 +1465,7 @@ i
 nativeOffset
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 i
 <

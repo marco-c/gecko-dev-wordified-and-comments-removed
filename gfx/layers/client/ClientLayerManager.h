@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsDebug
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -1339,7 +1332,7 @@ PLayerChild
 aShadow
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mShadow
@@ -1476,7 +1469,7 @@ ConstructShadowFor
 aLayer
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 shadow
 "

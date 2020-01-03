@@ -5312,7 +5312,7 @@ GetViewManager
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 vm
 "
@@ -5333,7 +5333,7 @@ GetRootView
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 v
 "
@@ -5343,7 +5343,7 @@ view
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mParentWidget
 "
@@ -13584,7 +13584,7 @@ SELECTION_NORMAL
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 eventType
 .

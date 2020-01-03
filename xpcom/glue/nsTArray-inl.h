@@ -226,7 +226,7 @@ expected
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aElemAlign
 <
@@ -370,7 +370,7 @@ GetAutoArrayBuffer
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 diff
 >
@@ -1649,7 +1649,7 @@ FailureResult
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 UsesAutoArrayBuffer
 (
@@ -1847,7 +1847,7 @@ smallerLength
 aElemSize
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 aOther

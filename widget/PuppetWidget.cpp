@@ -210,7 +210,7 @@ TabChild
 aTabChild
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aTabChild
@@ -414,7 +414,7 @@ nsWidgetInitData
 aInitData
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aNativeParent
@@ -1372,7 +1372,7 @@ PuppetWidget
 ;
 #
 endif
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mChild
@@ -3386,7 +3386,7 @@ Paint
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mDirtyRegion
@@ -3627,7 +3627,7 @@ PuppetWidget
 aChild
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 this
 !
@@ -3645,7 +3645,7 @@ itself
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aChild
@@ -3873,7 +3873,7 @@ case
 NS_NATIVE_SHAREABLE_WINDOW
 :
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mTabChild
 "

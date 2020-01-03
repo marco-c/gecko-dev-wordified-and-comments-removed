@@ -3298,7 +3298,7 @@ None
 nullptr
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 success
 "
@@ -3311,6 +3311,8 @@ context
 before
 we
 call
+"
+"
 glXDestroyContext
 !
 "
@@ -4447,6 +4449,8 @@ our
 requested
 format
 and
+"
+"
 violated
 its
 spec

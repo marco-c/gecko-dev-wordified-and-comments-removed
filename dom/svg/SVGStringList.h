@@ -321,7 +321,7 @@ nsAString
 aString
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aIndex
 <
@@ -356,7 +356,7 @@ uint32_t
 aIndex
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aIndex
 <

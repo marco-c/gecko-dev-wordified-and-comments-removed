@@ -208,7 +208,7 @@ StyleAnimationValue
 ColorConstructor
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aUnit
 !
@@ -299,7 +299,7 @@ StyleAnimationValue
 aValue2
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue1
 |
@@ -613,7 +613,7 @@ aValue
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 .
@@ -655,7 +655,7 @@ aValue
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 .
@@ -713,7 +713,7 @@ aSrc
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aDest
 .
@@ -730,7 +730,7 @@ types
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aDest
 .
@@ -841,7 +841,7 @@ aRight
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aLeft
 .
@@ -858,7 +858,7 @@ types
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aLeft
 .
@@ -981,7 +981,7 @@ aCount
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValueToAdd
 .
@@ -1000,7 +1000,7 @@ types
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValueToAdd
 .
@@ -1034,7 +1034,7 @@ ExtractValueWrapper
 aValueToAdd
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 destWrapper
 |
@@ -1219,7 +1219,7 @@ aDistance
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFrom
 .
@@ -1238,7 +1238,7 @@ types
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFrom
 .
@@ -1273,7 +1273,7 @@ ExtractValueWrapper
 aTo
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 toWrapper
 "
@@ -1369,7 +1369,7 @@ aResult
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aStartVal
 .
@@ -1388,7 +1388,7 @@ types
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aStartVal
 .
@@ -1404,7 +1404,7 @@ interpolation
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aResult
 .
@@ -1419,7 +1419,7 @@ type
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aUnitDistance
 >
@@ -1445,7 +1445,7 @@ bounds
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aResult
@@ -1482,7 +1482,7 @@ ExtractValueWrapper
 aEndVal
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 endWrapper
 "
@@ -1756,7 +1756,7 @@ aPropID
 eCSSProperty_font_size
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aStyleAnimValue
 .
@@ -1829,7 +1829,7 @@ bool
 aIsContextSensitive
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 .
@@ -1976,7 +1976,7 @@ nsAString
 aString
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 .

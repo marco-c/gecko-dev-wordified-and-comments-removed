@@ -1069,7 +1069,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -1331,7 +1331,7 @@ uint32_t
 aFlags
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -1413,7 +1413,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -1452,7 +1452,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -1503,7 +1503,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -1558,7 +1558,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 eCSSProperty_COUNT_no_shorthands
 <
@@ -1598,7 +1598,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gShorthandsContainingPool
 "
@@ -1606,7 +1606,7 @@ uninitialized
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -1680,7 +1680,7 @@ nsStyleStructID
 aSID
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -1713,7 +1713,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <
@@ -1781,7 +1781,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 <

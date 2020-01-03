@@ -1307,7 +1307,7 @@ WebSocketChannel
 ws
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 ws
 -
@@ -1416,7 +1416,7 @@ WebSocketChannel
 aChannel
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aChannel
 -
@@ -1688,7 +1688,7 @@ aChannel
 mConnecting
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_FAILED
 (
@@ -1992,7 +1992,7 @@ index
 >
 mChannel
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 chan
 -
@@ -2059,7 +2059,7 @@ IndexOf
 aChannel
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 index
 >
@@ -3829,7 +3829,7 @@ BeginWriting
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mMsgType
 !
@@ -3877,7 +3877,7 @@ BeginReading
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mMsgType
 !
@@ -3924,7 +3924,7 @@ ConvertStreamToString
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mMsgType
 =
@@ -4049,7 +4049,7 @@ PMCECompression
 aCompressor
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mMsgType
 !
@@ -4537,12 +4537,8 @@ mAppId
 (
 NECKO_NO_APP_ID
 )
-mIsInBrowser
-(
-false
-)
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -5426,13 +5422,16 @@ if
 localChannel
 )
 {
+bool
+isInBrowser
+;
 NS_GetAppInfo
 (
 localChannel
 &
 mAppId
 &
-mIsInBrowser
+isInBrowser
 )
 ;
 }
@@ -5702,7 +5701,7 @@ mFramePtr
 =
 mBuffer
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsPersistentFramePtr
 (
@@ -5716,7 +5715,7 @@ mFramePtr
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mFramePtr
 -
@@ -5977,7 +5976,7 @@ mBuffered
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -6588,7 +6587,7 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mFramePtr
 +
@@ -7393,7 +7392,7 @@ n
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mFramePtr
 +
@@ -8188,7 +8187,7 @@ OutboundMessage
 aMsg
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -8345,7 +8344,7 @@ this
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -8360,7 +8359,7 @@ thread
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mCurrentOut
@@ -8394,7 +8393,7 @@ if
 mCurrentOut
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrentOut
 -
@@ -8432,7 +8431,7 @@ if
 (
 mCurrentOut
 )
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrentOut
 -
@@ -8635,7 +8634,7 @@ IsEmpty
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mScriptCloseReason
 .
@@ -8902,7 +8901,7 @@ break
 case
 kMsgTypeFin
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -9119,7 +9118,7 @@ mOutHeader
 mHdrOutToSend
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 payload
 "
@@ -10104,7 +10103,7 @@ if
 mLingeringCloseTimer
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mStopped
 "
@@ -10243,7 +10242,7 @@ mStopped
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -10360,7 +10359,7 @@ rv
 nsAutoCString
 extensions
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -11591,7 +11590,7 @@ this
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mDataStarted
@@ -11980,7 +11979,7 @@ aStatus
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -13032,7 +13031,7 @@ timer
 mCloseTimer
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mClientClosed
 "
@@ -13044,7 +13043,7 @@ close
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -13107,7 +13106,7 @@ timer
 mOpenTimer
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mGotUpgradeOK
@@ -13120,7 +13119,7 @@ complete
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -13177,7 +13176,7 @@ timer
 mReconnectDelayTimer
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mConnecting
 =
@@ -13236,7 +13235,7 @@ timer
 mPingTimer
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -13385,7 +13384,7 @@ CleanupConnection
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 0
 "
@@ -13430,7 +13429,7 @@ this
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -13510,7 +13509,7 @@ this
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -14523,7 +14522,7 @@ this
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -14833,7 +14832,7 @@ nsIInputStream
 aStream
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsOnTargetThread
 (
@@ -14899,7 +14898,7 @@ return
 NS_ERROR_NOT_CONNECTED
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mMaxMessageSize
 >
@@ -15131,7 +15130,7 @@ return
 NS_OK
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -15143,7 +15142,7 @@ thread
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mRecvdHttpUpgradeTransport
@@ -15153,7 +15152,7 @@ duplicated
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aSocketIn
 "
@@ -15284,7 +15283,7 @@ mRecvdHttpUpgradeTransport
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -15296,7 +15295,7 @@ thread
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mGotUpgradeOK
@@ -16174,7 +16173,7 @@ aStatusCode
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -16240,7 +16239,7 @@ this
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -16470,7 +16469,7 @@ this
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -17010,7 +17009,6 @@ new
 SaveNetworkStatsEvent
 (
 mAppId
-mIsInBrowser
 mActiveNetwork
 mCountRecv
 mCountSent

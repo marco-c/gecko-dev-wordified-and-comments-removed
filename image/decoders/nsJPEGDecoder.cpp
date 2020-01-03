@@ -815,7 +815,7 @@ mSegmentLen
 =
 aCount
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 HasError
@@ -2340,9 +2340,9 @@ break
 case
 JPEG_ERROR
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
-0
+false
 "
 Should
 always
@@ -2351,12 +2351,12 @@ immediately
 after
 error
 and
-"
-"
 not
 re
 -
 enter
+"
+"
 decoder
 "
 )
@@ -3696,7 +3696,7 @@ jd
 client_data
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 decoder
 -

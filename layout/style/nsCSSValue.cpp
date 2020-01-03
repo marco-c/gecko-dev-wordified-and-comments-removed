@@ -140,7 +140,7 @@ mUnit
 aUnit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aUnit
 =
@@ -223,7 +223,7 @@ mUnit
 aUnit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 eCSSUnit_Percent
 <
@@ -298,7 +298,7 @@ mUnit
 aUnit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 UnitHasStringValue
 (
@@ -366,7 +366,7 @@ mUnit
 aUnit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 UnitHasArrayValue
 (
@@ -1180,7 +1180,7 @@ AddRef
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -1248,7 +1248,7 @@ aOther
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mUnit
 !
@@ -1821,7 +1821,7 @@ M_PI
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -1851,7 +1851,7 @@ aDocument
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mUnit
 =
@@ -1891,7 +1891,7 @@ aPresContext
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mUnit
 =
@@ -1946,7 +1946,7 @@ GetPixelLength
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsPixelLengthUnit
 (
@@ -2382,7 +2382,7 @@ nsCSSUnit
 aUnit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aUnit
 =
@@ -2495,7 +2495,7 @@ nsCSSUnit
 aUnit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 eCSSUnit_Number
 <
@@ -2569,7 +2569,7 @@ mUnit
 =
 aUnit
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 UnitHasStringValue
 (
@@ -2646,7 +2646,7 @@ mUnit
 =
 aUnit
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsIntegerColorUnit
 (
@@ -2690,7 +2690,7 @@ mUnit
 =
 aUnit
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsFloatColorUnit
 (
@@ -2748,7 +2748,7 @@ mUnit
 =
 aUnit
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 UnitHasArrayValue
 (
@@ -3018,7 +3018,7 @@ nsCSSValuePair
 aValue
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 &
@@ -3185,7 +3185,7 @@ nsCSSValue
 yValue
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 xValue
 .
@@ -3313,7 +3313,7 @@ nsCSSValueTriplet
 aValue
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 &
@@ -3540,7 +3540,7 @@ nsCSSValue
 zValue
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 xValue
 .
@@ -4086,7 +4086,7 @@ aDocument
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 eCSSUnit_URL
 =
@@ -4180,7 +4180,7 @@ GetColorValue
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IsNumericColorUnit
 (
@@ -4390,7 +4390,7 @@ mValue
 .
 mArray
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 func
 &
@@ -4681,7 +4681,7 @@ input_type
 aValue
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 .
@@ -4723,7 +4723,7 @@ input_type
 aValue
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 .
@@ -4795,7 +4795,7 @@ GetArrayValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 array
 -
@@ -4862,7 +4862,7 @@ Item
 index
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 fillRuleValue
 .
@@ -5049,7 +5049,7 @@ eCSSKeyword_circle
 :
 3
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 array
 -
@@ -5154,7 +5154,7 @@ GetUnit
 eCSSUnit_Array
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 array
 -
@@ -5289,7 +5289,7 @@ aValues
 3
 ]
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 value1
 .
@@ -5349,7 +5349,7 @@ char16_t
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 value2
 .
@@ -5403,7 +5403,7 @@ char16_t
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 value3
 .
@@ -5451,7 +5451,7 @@ char16_t
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 value4
 .
@@ -5681,7 +5681,7 @@ GetArrayValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 array
 -
@@ -5914,7 +5914,7 @@ GetArrayValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 radius
 -
@@ -6004,7 +6004,7 @@ aSerialization
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 array
 -
@@ -6044,7 +6044,7 @@ aSerialization
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 0
@@ -6379,7 +6379,7 @@ i
 1
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 array
 -
@@ -6492,7 +6492,7 @@ i
 0
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 array
 -
@@ -6681,7 +6681,7 @@ GetArrayValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 array
 -
@@ -6720,7 +6720,7 @@ Item
 0
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 functionName
 .
@@ -7017,7 +7017,7 @@ IsCalcUnit
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 GetUnit
 (
@@ -7513,7 +7513,7 @@ aResult
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -8186,7 +8186,7 @@ GetUnit
 eCSSUnit_None
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gradient
 -
@@ -8225,7 +8225,7 @@ GetIntValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 intValue
 !
@@ -8294,7 +8294,7 @@ Append
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gradient
 -
@@ -8357,7 +8357,7 @@ true
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gradient
 -
@@ -8506,7 +8506,7 @@ GetUnit
 eCSSUnit_None
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gradient
 -
@@ -8854,7 +8854,7 @@ GetUnit
 eCSSUnit_None
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gradient
 -
@@ -8975,7 +8975,7 @@ GetUnit
 eCSSUnit_None
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gradient
 -
@@ -9014,7 +9014,7 @@ GetIntValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 intValue
 !
@@ -9073,7 +9073,7 @@ GetUnit
 eCSSUnit_None
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gradient
 -
@@ -9866,7 +9866,7 @@ eCSSUnit_Dummy
 case
 eCSSUnit_DummyInherit
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10932,7 +10932,7 @@ break
 ;
 default
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -11936,7 +11936,7 @@ aSerialization
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mTop
 .
@@ -12786,7 +12786,7 @@ for
 ;
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 item
 -
@@ -13290,7 +13290,7 @@ mURIResolved
 true
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aOriginPrincipal
 "
@@ -13353,7 +13353,7 @@ mURIResolved
 false
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aOriginPrincipal
 "
@@ -13528,7 +13528,7 @@ aOther
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mURIResolved
 &

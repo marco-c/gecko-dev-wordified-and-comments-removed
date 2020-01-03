@@ -705,7 +705,7 @@ nsIContent
 aContextElem
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 HasAttr
@@ -730,7 +730,7 @@ it
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mPath
@@ -744,7 +744,7 @@ path
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mPathVertices
 .
@@ -1305,7 +1305,7 @@ nsIContent
 aTargetElement
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mIsPathStale
 "
@@ -1418,7 +1418,7 @@ nsSMILValueArray
 aResult
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aResult
 .
@@ -1545,7 +1545,7 @@ GetTargetNode
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mIsPathStale
@@ -1568,7 +1568,7 @@ if
 mPath
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mPathVertices
 .
@@ -1588,7 +1588,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mPathVertices

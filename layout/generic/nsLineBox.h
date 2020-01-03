@@ -2817,7 +2817,7 @@ operator
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -2848,7 +2848,7 @@ operator
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -2876,7 +2876,7 @@ get
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -2904,7 +2904,7 @@ pointer
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -2934,7 +2934,7 @@ operator
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -2966,7 +2966,7 @@ operator
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -2998,7 +2998,7 @@ const_pointer
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -3110,7 +3110,7 @@ aOther
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mListLink
 =
@@ -3147,7 +3147,7 @@ aOther
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mListLink
 =
@@ -3183,7 +3183,7 @@ iterator_self_type
 aOther
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mListLink
 =
@@ -3219,7 +3219,7 @@ iterator_self_type
 aOther
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mListLink
 =
@@ -3470,7 +3470,7 @@ operator
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -3501,7 +3501,7 @@ operator
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -3529,7 +3529,7 @@ get
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -3557,7 +3557,7 @@ pointer
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -3587,7 +3587,7 @@ operator
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -3619,7 +3619,7 @@ operator
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -3651,7 +3651,7 @@ const_pointer
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -4080,7 +4080,7 @@ operator
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -4112,7 +4112,7 @@ operator
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -4141,7 +4141,7 @@ get
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -4173,7 +4173,7 @@ const_pointer
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -4644,7 +4644,7 @@ operator
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -4676,7 +4676,7 @@ operator
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -4705,7 +4705,7 @@ get
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !
@@ -4737,7 +4737,7 @@ const_pointer
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrent
 !

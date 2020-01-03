@@ -2842,7 +2842,7 @@ mContainer
 =
 nullptr
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mGdkWindow
@@ -2877,7 +2877,7 @@ mContainer
 =
 nullptr
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mGdkWindow
@@ -3141,7 +3141,7 @@ if
 oldContainer
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gdk_window_is_destroyed
 (
@@ -3269,7 +3269,7 @@ if
 oldContainer
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gdk_window_is_destroyed
 (
@@ -3288,7 +3288,7 @@ return
 NS_OK
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 gdk_window_is_destroyed
@@ -3413,7 +3413,7 @@ if
 aNewContainer
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aNewParentWindow
@@ -3447,7 +3447,7 @@ aNewContainer
 aOldContainer
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 gdk_window_is_destroyed
@@ -26237,12 +26237,21 @@ return
 false
 ;
 }
-NS_ABORT_IF_FALSE
+#
+ifdef
+DEBUG
+if
 (
+!
 GDK_IS_WINDOW
 (
 gdk_window
 )
+)
+{
+MOZ_ASSERT
+(
+false
 "
 must
 really
@@ -26251,6 +26260,9 @@ window
 "
 )
 ;
+}
+#
+endif
 gdk_window
 =
 gdk_window_get_toplevel
@@ -26258,7 +26270,7 @@ gdk_window_get_toplevel
 gdk_window
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 gdk_window
 "
@@ -26344,7 +26356,7 @@ WidgetMouseEvent
 aEvent
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aEvent
 "
@@ -26354,7 +26366,7 @@ event
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aEvent
 -

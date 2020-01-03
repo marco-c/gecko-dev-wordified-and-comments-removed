@@ -7847,7 +7847,7 @@ data
 mSheetAlreadyComplete
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 data
@@ -9202,7 +9202,7 @@ aData
 mURI
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aData

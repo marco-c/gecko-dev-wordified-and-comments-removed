@@ -5472,7 +5472,7 @@ char16_t
 aEnd
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 uint32_t
 (
@@ -5639,7 +5639,7 @@ char
 aEnd
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 uint32_t
 (

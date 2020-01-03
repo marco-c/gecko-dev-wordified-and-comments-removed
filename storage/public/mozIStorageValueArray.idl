@@ -637,7 +637,7 @@ idx
 v
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -693,7 +693,7 @@ idx
 v
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -751,7 +751,7 @@ idx
 v
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -820,7 +820,7 @@ len
 str
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -889,7 +889,7 @@ len
 str
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -958,7 +958,7 @@ len
 blob
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -1014,7 +1014,7 @@ idx
 b
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (

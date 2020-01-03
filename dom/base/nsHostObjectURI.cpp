@@ -345,7 +345,7 @@ uriCheck
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -354,10 +354,6 @@ rv
 &
 &
 uriCheck
-"
-Unexpected
-!
-"
 )
 ;
 #

@@ -192,13 +192,6 @@ h
 #
 include
 "
-nsDebug
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h
@@ -386,7 +379,7 @@ Edit
 aEdit
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 Finished
@@ -475,7 +468,7 @@ Edit
 aPaint
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 Finished
@@ -505,7 +498,7 @@ CompositableOperation
 aPaint
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 Finished
@@ -537,7 +530,7 @@ ShadowableLayer
 aLayer
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 Finished
@@ -813,7 +806,7 @@ ShadowLayerForwarder
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mTxn
 -
@@ -872,7 +865,7 @@ ScreenOrientation
 aOrientation
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 HasShadowManager
 (
@@ -886,7 +879,7 @@ to
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mTxn
 -
@@ -2898,7 +2891,7 @@ Transaction
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 HasShadowManager
 (
@@ -2912,7 +2905,7 @@ to
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mTxn
@@ -3136,7 +3129,7 @@ AsLayer
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 !
@@ -3674,7 +3667,7 @@ size
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 nCsets
 >
@@ -4085,7 +4078,7 @@ Shmem
 aShmem
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 HasShadowManager
 (
@@ -4154,7 +4147,7 @@ Shmem
 aShmem
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 HasShadowManager
 (
@@ -4213,7 +4206,7 @@ Shmem
 aShmem
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 HasShadowManager
 (
@@ -4331,7 +4324,7 @@ ShadowableLayer
 aLayer
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 HasShadowManager
 (

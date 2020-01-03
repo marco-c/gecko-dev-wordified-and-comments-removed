@@ -45,7 +45,7 @@ nsSVGAttrTearoffTable
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mTable
@@ -173,7 +173,7 @@ aSimple
 tearoff
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 found
@@ -181,7 +181,7 @@ found
 |
 tearoff
 "
-NULL
+null
 pointer
 stored
 in
@@ -246,7 +246,7 @@ nullptr
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "

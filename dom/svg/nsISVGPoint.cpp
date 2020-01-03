@@ -140,7 +140,7 @@ bool
 aIsAnimValItem
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 HasOwner
@@ -173,7 +173,7 @@ mIsAnimValItem
 =
 aIsAnimValItem
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 IndexIsValid
 (
@@ -206,7 +206,7 @@ mList
 =
 nullptr
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mIsReadonly

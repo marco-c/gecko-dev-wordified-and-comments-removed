@@ -86,7 +86,7 @@ GetArrayValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 arr
 -
@@ -138,7 +138,7 @@ GetArrayValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 arr
 -
@@ -222,7 +222,7 @@ GetArrayValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 arr
 -
@@ -312,7 +312,7 @@ GetArrayValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 arr
 -
@@ -463,7 +463,7 @@ aValue2
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCalcFunction
 =
@@ -495,7 +495,7 @@ result_type
 aValue2
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCalcFunction
 =
@@ -526,7 +526,7 @@ float
 aValue2
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCalcFunction
 =
@@ -603,7 +603,7 @@ aValue1
 aValue2
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCalcFunction
 =
@@ -632,7 +632,7 @@ result_type
 aValue2
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCalcFunction
 =
@@ -675,7 +675,7 @@ aValue1
 aValue2
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCalcFunction
 =
@@ -710,7 +710,7 @@ nsCSSValue
 aValue
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aValue
 .
@@ -824,7 +824,7 @@ GetArrayValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 array
 -
@@ -978,7 +978,7 @@ GetArrayValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 array
 -
@@ -1027,7 +1027,7 @@ Append
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 eCSSUnit_Calc_Minus
 =
@@ -1136,7 +1136,7 @@ GetArrayValue
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 array
 -
@@ -1266,7 +1266,7 @@ Append
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 eCSSUnit_Calc_Divided
 =

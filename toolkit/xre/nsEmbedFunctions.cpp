@@ -2051,7 +2051,7 @@ aArgc
 1
 ]
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 parentPIDString
 "
@@ -2085,7 +2085,7 @@ end
 10
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 *
@@ -2134,7 +2134,7 @@ parentPID
 parentHandle
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 ok
 "
@@ -3142,7 +3142,7 @@ XRE_ShutdownChildProcess
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -3168,7 +3168,7 @@ XRE_GetIOMessageLoop
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 !

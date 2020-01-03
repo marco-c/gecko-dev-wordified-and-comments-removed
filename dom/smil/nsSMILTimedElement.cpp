@@ -207,7 +207,7 @@ aElem2
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aElem1
 &
@@ -224,7 +224,7 @@ pointers
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aElem1
 -
@@ -252,7 +252,7 @@ numbers
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aElem1
 =
@@ -320,7 +320,7 @@ aElem2
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aElem1
 &
@@ -337,7 +337,7 @@ pointers
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aElem1
 -
@@ -737,7 +737,7 @@ i
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 GetPreviousInterval
@@ -1078,7 +1078,7 @@ ClearIntervals
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mDeferIntervalUpdates
@@ -1092,14 +1092,14 @@ be
 blocked
 when
 an
+"
+"
 nsSMILTimedElement
-"
-"
 disappears
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mDoDeferredUpdate
@@ -1133,7 +1133,7 @@ SVGAnimationElement
 aElement
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aElement
 "
@@ -1143,7 +1143,7 @@ element
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mAnimationElement
@@ -1411,7 +1411,7 @@ bool
 aIsBegin
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aInstanceTime
 "
@@ -1444,7 +1444,7 @@ IsDynamic
 )
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aInstanceTime
@@ -1466,10 +1466,10 @@ interval
 we
 probably
 need
+"
+"
 to
 unlink
-"
-"
 it
 if
 we
@@ -1565,7 +1565,7 @@ bool
 aIsBegin
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aInstanceTime
 "
@@ -1653,7 +1653,7 @@ bool
 aIsBegin
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aInstanceTime
 "
@@ -1715,7 +1715,7 @@ InstanceTimeComparator
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 found
 "
@@ -1833,7 +1833,7 @@ bool
 aIsBegin
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aCreator
 "
@@ -1974,7 +1974,7 @@ bool
 aEndOnly
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mAnimationElement
 "
@@ -1990,7 +1990,7 @@ element
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 GetTimeContainer
 (
@@ -2126,7 +2126,7 @@ mElementState
 STATE_POSTACTIVE
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mCurrentInterval
@@ -2141,6 +2141,8 @@ in
 startup
 or
 postactive
+"
+"
 states
 "
 )
@@ -2148,7 +2150,7 @@ states
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrentInterval
 "
@@ -2493,7 +2495,7 @@ true
 }
 else
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 didApplyEarlyEnd
@@ -2742,7 +2744,7 @@ nsSMILInstanceTime
 aInstanceTime
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aInstanceTime
@@ -2801,7 +2803,7 @@ Rewind
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mAnimationElement
 "
@@ -2814,6 +2816,8 @@ attached
 to
 an
 animation
+"
+"
 element
 "
 )
@@ -2838,7 +2842,7 @@ SEEK_BACKWARD_FROM_ACTIVE
 SEEK_BACKWARD_FROM_INACTIVE
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSeekState
 =
@@ -2873,7 +2877,7 @@ RebuildTimingState
 RemoveNonDynamic
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mCurrentInterval
@@ -3618,7 +3622,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 duration
 .
@@ -3743,7 +3747,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 duration
 .
@@ -3887,7 +3891,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 duration
 .
@@ -4315,7 +4319,7 @@ nsSMILTimeValueSpec
 aDependent
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mTimeDependents
@@ -4694,7 +4698,7 @@ mBeginSpecs
 i
 ]
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 beginSpec
 "
@@ -4750,7 +4754,7 @@ mEndSpecs
 j
 ]
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 endSpec
 "
@@ -4823,7 +4827,7 @@ mBeginSpecs
 i
 ]
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 beginSpec
 "
@@ -4878,7 +4882,7 @@ mEndSpecs
 j
 ]
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 endSpec
 "
@@ -5286,7 +5290,7 @@ nsSMILTimeValue
 aSampleTime
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mElementState
 =
@@ -6401,7 +6405,7 @@ aResult
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 aFixedBeginTime
@@ -6423,7 +6427,7 @@ or
 indefinite
 begin
 time
-specified
+given
 for
 interval
 start
@@ -6670,7 +6674,7 @@ Begin
 )
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 tempBegin
 &
@@ -6900,7 +6904,7 @@ activeEnd
 ;
 }
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 tempEnd
 "
@@ -7194,7 +7198,7 @@ get
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 val
 "
@@ -7249,7 +7253,7 @@ const
 nsSMILTimeValue
 result
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSimpleDur
 .
@@ -7265,7 +7269,7 @@ CalcActiveEnd
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aBegin
 .
@@ -7595,7 +7599,7 @@ aRepeatIteration
 nsSMILTime
 result
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mSimpleDur
 .
@@ -7611,7 +7615,7 @@ ActiveTimeToSimpleTime
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aActiveTime
 >
@@ -7701,7 +7705,7 @@ aContainerTime
 )
 const
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrentInterval
 "
@@ -7858,7 +7862,7 @@ mDeleteCount
 1
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mElementState
 =
@@ -7876,6 +7880,8 @@ state
 after
 performing
 double
+"
+"
 delete
 "
 )
@@ -7901,7 +7907,7 @@ mUpdateIntervalRecursionDepth
 sMaxUpdateIntervalRecursionDepth
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -7961,7 +7967,7 @@ mElementState
 STATE_POSTACTIVE
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mCurrentInterval
@@ -8297,7 +8303,7 @@ GetPreviousInterval
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 prevInterval
 "
@@ -8311,11 +8317,13 @@ there
 is
 no
 previous
+"
+"
 interval
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 prevInterval
 -
@@ -8356,9 +8364,9 @@ the
 endpoint
 of
 the
+"
+"
 previous
-"
-"
 interval
 is
 not
@@ -8652,7 +8660,7 @@ container
 )
 return
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mAnimationElement
 "
@@ -8743,7 +8751,7 @@ true
 case
 STATE_WAITING
 :
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrentInterval
 "
@@ -8986,7 +8994,7 @@ NotifyNewInterval
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mCurrentInterval
 "
@@ -9000,9 +9008,9 @@ new
 interval
 but
 the
+"
+"
 interval
-"
-"
 is
 not
 set
@@ -9063,7 +9071,7 @@ bool
 aEndObjectChanged
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aInterval
 "
@@ -9467,7 +9475,7 @@ void
 aData
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aKey
 "
@@ -9482,7 +9490,7 @@ table
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aKey
 -
@@ -9514,7 +9522,7 @@ NotifyTimeDependentsParams
 aData
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 params
 "

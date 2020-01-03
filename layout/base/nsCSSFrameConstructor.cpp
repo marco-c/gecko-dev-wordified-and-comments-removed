@@ -37784,7 +37784,7 @@ nsIFrame
 aFrame
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aFrame
 "
@@ -40376,7 +40376,7 @@ hitEnd
 return
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 iter
@@ -40583,7 +40583,7 @@ newItem
 >
 mIsAllInline
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 newItem
@@ -42848,7 +42848,7 @@ frame
 ;
 #
 endif
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 (
@@ -42876,7 +42876,7 @@ frames
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 content
@@ -42908,7 +42908,7 @@ flags
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 content
@@ -42926,7 +42926,7 @@ frame
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 content
@@ -43368,7 +43368,7 @@ Length
 i
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 anonymousItems
 [
