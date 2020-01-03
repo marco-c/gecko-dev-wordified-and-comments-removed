@@ -192,7 +192,7 @@ aNotify
 {
 nsCOMPtr
 <
-nsINode
+nsIContent
 >
 child
 =

@@ -341,14 +341,14 @@ bool
 aNotify
 )
 {
-nsINode
+Element
 *
 parent
 =
 nsINode
 :
 :
-GetParentNode
+GetParentElement
 (
 )
 ;
@@ -431,7 +431,7 @@ EmptyString
 ;
 nsCOMPtr
 <
-nsINode
+nsIContent
 >
 sibling
 =
@@ -785,7 +785,7 @@ picture
 {
 nsCOMPtr
 <
-nsINode
+nsIContent
 >
 sibling
 =
