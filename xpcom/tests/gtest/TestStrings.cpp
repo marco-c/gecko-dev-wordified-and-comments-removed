@@ -197,6 +197,12 @@ FindChar
 '
 )
 ;
+EXPECT_EQ
+(
+n
+kNotFound
+)
+;
 n
 =
 buf
