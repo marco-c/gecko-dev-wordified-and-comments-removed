@@ -565,14 +565,6 @@ set
 media
 .
 useAudioChannelService
-"
-true
-]
-[
-"
-media
-.
-useAudioChannelService
 .
 testing
 "

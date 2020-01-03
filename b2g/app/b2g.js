@@ -6550,16 +6550,6 @@ pref
 "
 media
 .
-useAudioChannelService
-"
-true
-)
-;
-pref
-(
-"
-media
-.
 useAudioChannelAPI
 "
 true
