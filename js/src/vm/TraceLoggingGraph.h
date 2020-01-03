@@ -564,12 +564,6 @@ stack
 uint32_t
 treeOffset
 ;
-ContinuousSpace
-<
-EventEntry
->
-events
-;
 void
 entryToBigEndian
 (
