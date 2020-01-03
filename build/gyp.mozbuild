@@ -699,11 +699,9 @@ OS
 ]
 =
 flavors
-.
-get
-(
+[
 os
-)
+]
 arches
 =
 {

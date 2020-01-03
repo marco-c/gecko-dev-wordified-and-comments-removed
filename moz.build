@@ -412,13 +412,6 @@ CONFIG
 JS_STANDALONE
 '
 ]
-and
-CONFIG
-[
-'
-MOZ_BUILD_APP
-'
-]
 :
 #
 Bring

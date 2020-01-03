@@ -529,11 +529,12 @@ CONFIG
 OS_ARCH
 '
 ]
-=
-=
+in
+(
 '
 Darwin
 '
+)
 :
 UNIFIED_SOURCES
 +
