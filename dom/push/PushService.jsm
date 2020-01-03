@@ -6,7 +6,7 @@ strict
 let
 gDebuggingEnabled
 =
-true
+false
 ;
 function
 debug
