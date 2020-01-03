@@ -34,7 +34,7 @@ NS_ENABLE_TSF
 #
 include
 "
-nsTextStore
+TSFTextStore
 .
 h
 "
@@ -112,7 +112,7 @@ Initialize
 #
 ifdef
 NS_ENABLE_TSF
-nsTextStore
+TSFTextStore
 :
 :
 Initialize
@@ -121,7 +121,7 @@ Initialize
 ;
 sIsInTSFMode
 =
-nsTextStore
+TSFTextStore
 :
 :
 IsInTSFMode
@@ -224,7 +224,7 @@ if
 sIsInTSFMode
 )
 {
-nsTextStore
+TSFTextStore
 :
 :
 Terminate
@@ -264,7 +264,7 @@ void
 *
 result
 =
-nsTextStore
+TSFTextStore
 :
 :
 GetNativeData
@@ -337,7 +337,7 @@ IsTSFAvailable
 )
 {
 return
-nsTextStore
+TSFTextStore
 :
 :
 ProcessRawKeyMessage
@@ -384,7 +384,7 @@ IsTSFAvailable
 )
 )
 {
-nsTextStore
+TSFTextStore
 :
 :
 ProcessMessage
@@ -420,7 +420,7 @@ false
 if
 (
 !
-nsTextStore
+TSFTextStore
 :
 :
 IsIMM_IME
@@ -461,7 +461,7 @@ IsIMMActive
 )
 {
 return
-nsTextStore
+TSFTextStore
 :
 :
 IsIMM_IME
@@ -490,7 +490,7 @@ IsTSFAvailable
 )
 {
 return
-nsTextStore
+TSFTextStore
 :
 :
 IsComposing
@@ -539,7 +539,7 @@ IsTSFAvailable
 )
 {
 return
-nsTextStore
+TSFTextStore
 :
 :
 IsComposingOn
@@ -608,7 +608,7 @@ NOTIFY_IME_OF_SELECTION_CHANGE
 nsresult
 rv
 =
-nsTextStore
+TSFTextStore
 :
 :
 OnSelectionChange
@@ -672,7 +672,7 @@ aWindow
 }
 else
 {
-nsTextStore
+TSFTextStore
 :
 :
 OnUpdateComposition
@@ -687,7 +687,7 @@ case
 NOTIFY_IME_OF_TEXT_CHANGE
 :
 return
-nsTextStore
+TSFTextStore
 :
 :
 OnTextChange
@@ -708,7 +708,7 @@ aWindow
 )
 ;
 return
-nsTextStore
+TSFTextStore
 :
 :
 OnFocusChange
@@ -736,7 +736,7 @@ aWindow
 )
 ;
 return
-nsTextStore
+TSFTextStore
 :
 :
 OnFocusChange
@@ -773,7 +773,7 @@ aIMENotification
 ;
 }
 return
-nsTextStore
+TSFTextStore
 :
 :
 OnMouseButtonEvent
@@ -786,7 +786,7 @@ REQUEST_TO_COMMIT_COMPOSITION
 :
 if
 (
-nsTextStore
+TSFTextStore
 :
 :
 IsComposingOn
@@ -795,7 +795,7 @@ aWindow
 )
 )
 {
-nsTextStore
+TSFTextStore
 :
 :
 CommitComposition
@@ -829,7 +829,7 @@ REQUEST_TO_CANCEL_COMPOSITION
 :
 if
 (
-nsTextStore
+TSFTextStore
 :
 :
 IsComposingOn
@@ -838,7 +838,7 @@ aWindow
 )
 )
 {
-nsTextStore
+TSFTextStore
 :
 :
 CommitComposition
@@ -871,7 +871,7 @@ case
 NOTIFY_IME_OF_POSITION_CHANGE
 :
 return
-nsTextStore
+TSFTextStore
 :
 :
 OnLayoutChange
@@ -1000,7 +1000,7 @@ ifdef
 NS_ENABLE_TSF
 if
 (
-nsTextStore
+TSFTextStore
 :
 :
 ThinksHavingFocus
@@ -1009,7 +1009,7 @@ ThinksHavingFocus
 )
 {
 return
-nsTextStore
+TSFTextStore
 :
 :
 OnFocusChange
@@ -1056,7 +1056,7 @@ IsTSFAvailable
 )
 {
 return
-nsTextStore
+TSFTextStore
 :
 :
 GetIMEUpdatePreference
@@ -1103,7 +1103,7 @@ IsIMMActive
 )
 {
 return
-nsTextStore
+TSFTextStore
 :
 :
 GetIMEOpenState
@@ -1285,7 +1285,7 @@ if
 sIsInTSFMode
 )
 {
-nsTextStore
+TSFTextStore
 :
 :
 SetInputContext
@@ -1306,7 +1306,7 @@ aInputContext
 .
 mNativeIMEContext
 =
-nsTextStore
+TSFTextStore
 :
 :
 GetThreadManager
@@ -1353,7 +1353,7 @@ if
 adjustOpenState
 )
 {
-nsTextStore
+TSFTextStore
 :
 :
 SetIMEOpenState
@@ -1524,7 +1524,7 @@ if
 sIsInTSFMode
 )
 {
-nsTextStore
+TSFTextStore
 :
 :
 SetInputContext
@@ -1548,7 +1548,7 @@ aInputContext
 .
 mNativeIMEContext
 =
-nsTextStore
+TSFTextStore
 :
 :
 GetThreadManager
@@ -1659,7 +1659,7 @@ sIsInTSFMode
 )
 {
 return
-nsTextStore
+TSFTextStore
 :
 :
 CurrentKeyboardLayoutHasIME
