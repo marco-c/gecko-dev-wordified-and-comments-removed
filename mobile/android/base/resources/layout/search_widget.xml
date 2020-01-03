@@ -440,13 +440,6 @@ match_parent
 "
 android
 :
-layout_centerVertical
-=
-"
-true
-"
-android
-:
 contentDescription
 =
 "

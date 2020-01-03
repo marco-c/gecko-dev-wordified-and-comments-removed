@@ -200,13 +200,6 @@ match_parent
 "
 android
 :
-layout_weight
-=
-"
-1
-"
-android
-:
 layout_below
 =
 "

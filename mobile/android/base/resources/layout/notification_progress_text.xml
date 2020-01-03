@@ -337,13 +337,6 @@ layout_marginRight
 "
 10dip
 "
-android
-:
-layout_centerHorizontal
-=
-"
-true
-"
 /
 >
 <
