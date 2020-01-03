@@ -985,6 +985,9 @@ optionalSymbols
 [
 0
 ]
+nullptr
+nullptr
+false
 )
 ;
 #
