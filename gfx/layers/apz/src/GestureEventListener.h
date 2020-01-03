@@ -189,6 +189,9 @@ mPreviousSpan
 MultiTouchInput
 mLastTouchInput
 ;
+MultiTouchInput
+mLastTapInput
+;
 ScreenIntPoint
 mTouchStartPosition
 ;
