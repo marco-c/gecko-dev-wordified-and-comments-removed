@@ -4578,12 +4578,6 @@ nsPerformance
 *
 GetPerformance
 (
-mozilla
-:
-:
-ErrorResult
-&
-aError
 )
 ;
 #
@@ -6399,6 +6393,14 @@ DOMMinTimeoutValue
 (
 )
 const
+;
+void
+ClearDocumentDependentSlots
+(
+JSContext
+*
+aCx
+)
 ;
 already_AddRefed
 <

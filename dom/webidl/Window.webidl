@@ -2000,7 +2000,8 @@ Window
 {
 [
 Replaceable
-Throws
+Pure
+StoreInSlot
 ]
 readonly
 attribute
