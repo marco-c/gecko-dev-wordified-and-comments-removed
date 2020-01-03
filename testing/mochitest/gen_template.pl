@@ -60,7 +60,7 @@ type
 One
 of
 {
-html
+plain
 |
 xhtml
 |
@@ -76,7 +76,12 @@ chromexul
 #
 Defaults
 to
-html
+th
+(
+testharness
+.
+js
+)
 .
 #
 #
@@ -255,7 +260,7 @@ elsif
 template_type
 eq
 "
-th
+plain
 "
 )
 {
@@ -269,7 +274,7 @@ RealBin
 /
 static
 /
-th
+test
 .
 template
 .
@@ -289,7 +294,7 @@ RealBin
 /
 static
 /
-test
+th
 .
 template
 .
