@@ -229,6 +229,8 @@ aURI
 nsIURI
 *
 aCurrentURI
+bool
+aHadInsecureRedirect
 nsIRequest
 *
 aRequest
@@ -334,6 +336,16 @@ GetMultipart
 )
 const
 ;
+bool
+HadInsecureRedirect
+(
+)
+const
+{
+return
+mHadInsecureRedirect
+;
+}
 int32_t
 GetCORSMode
 (
@@ -811,6 +823,11 @@ mDecodeRequested
 ;
 bool
 mNewPartPending
+:
+1
+;
+bool
+mHadInsecureRedirect
 :
 1
 ;
