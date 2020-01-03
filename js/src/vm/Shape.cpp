@@ -6616,7 +6616,7 @@ unbarrieredGet
 ;
 if
 (
-IsBaseShapeAboutToBeFinalizedFromAnyThread
+IsBaseShapeAboutToBeFinalized
 (
 &
 base
@@ -8187,7 +8187,7 @@ raw
 ;
 if
 (
-IsShapeAboutToBeFinalizedFromAnyThread
+IsShapeAboutToBeFinalized
 (
 &
 shape
@@ -8204,7 +8204,7 @@ isObject
 )
 &
 &
-IsObjectAboutToBeFinalizedFromAnyThread
+IsObjectAboutToBeFinalized
 (
 &
 proto
