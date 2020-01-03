@@ -1434,6 +1434,13 @@ BINPATH
 /
 components
 /
+toolkit_filewatcher
+.
+xpt
+BINPATH
+/
+components
+/
 toolkit_finalizationwitness
 .
 xpt
