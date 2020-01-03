@@ -123,6 +123,11 @@ TestIntervalSet
 cpp
 '
 '
+TestMediaPromise
+.
+cpp
+'
+'
 TestMP3Demuxer
 .
 cpp
