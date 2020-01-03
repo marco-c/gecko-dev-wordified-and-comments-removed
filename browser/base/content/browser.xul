@@ -8685,7 +8685,9 @@ checkbox
 oncommand
 =
 "
-toggleSidebar
+SidebarUI
+.
+toggle
 (
 '
 viewBookmarksSidebar
@@ -10784,7 +10786,9 @@ tooltip
 oncommand
 =
 "
-toggleSidebar
+SidebarUI
+.
+hide
 (
 )
 ;
