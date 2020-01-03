@@ -70,6 +70,17 @@ i
 {
 if
 (
+(
+tests
+[
+i
+]
+instanceof
+Object
+)
+&
+&
+(
 '
 test
 '
@@ -78,6 +89,7 @@ tests
 [
 i
 ]
+)
 )
 {
 var
@@ -107,11 +119,6 @@ test_path
 tests
 [
 i
-]
-[
-'
-url
-'
 ]
 ;
 }
