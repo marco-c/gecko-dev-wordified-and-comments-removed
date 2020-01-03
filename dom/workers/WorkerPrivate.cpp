@@ -8755,12 +8755,12 @@ IsDedicatedWorker
 )
 &
 &
-aLoadInfo
+mLoadInfo
 .
 mWindow
 &
 &
-aLoadInfo
+mLoadInfo
 .
 mWindow
 -
@@ -8772,7 +8772,7 @@ GetPerformance
 {
 mNowBaseTimeStamp
 =
-aLoadInfo
+mLoadInfo
 .
 mWindow
 -
