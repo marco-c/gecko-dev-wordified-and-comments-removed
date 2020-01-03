@@ -4505,6 +4505,7 @@ regexp_exec_raw
 cx
 regexp
 input
+nullptr
 &
 result
 )

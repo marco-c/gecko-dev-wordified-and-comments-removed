@@ -13018,7 +13018,7 @@ alloc
 )
 LRegExpExec
 (
-useRegisterAtStart
+useFixedAtStart
 (
 ins
 -
@@ -13026,8 +13026,9 @@ ins
 regexp
 (
 )
+CallTempReg0
 )
-useRegisterAtStart
+useFixedAtStart
 (
 ins
 -
@@ -13035,6 +13036,7 @@ ins
 string
 (
 )
+CallTempReg1
 )
 )
 ;
@@ -13112,7 +13114,7 @@ alloc
 )
 LRegExpTest
 (
-useRegisterAtStart
+useFixedAtStart
 (
 ins
 -
@@ -13120,8 +13122,9 @@ ins
 regexp
 (
 )
+CallTempReg2
 )
-useRegisterAtStart
+useFixedAtStart
 (
 ins
 -
@@ -13129,6 +13132,7 @@ ins
 string
 (
 )
+CallTempReg3
 )
 )
 ;

@@ -938,7 +938,7 @@ size_t
 length
 )
 {
-while
+if
 (
 baseArg
 -
@@ -976,6 +976,17 @@ base
 )
 ;
 }
+MOZ_ASSERT
+(
+!
+baseArg
+-
+>
+isDependent
+(
+)
+)
+;
 MOZ_ASSERT
 (
 start
