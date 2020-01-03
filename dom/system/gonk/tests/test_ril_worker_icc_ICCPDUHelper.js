@@ -2393,7 +2393,7 @@ number
 "
 123456789
 "
-epectedNumber
+expectedNumber
 :
 "
 123456789
@@ -2403,7 +2403,7 @@ epectedNumber
 number
 :
 null
-epectedNumber
+expectedNumber
 :
 null
 }
@@ -2413,7 +2413,7 @@ number
 "
 12345678901234567890123
 "
-epectedNumber
+expectedNumber
 :
 "
 "
@@ -2532,7 +2532,7 @@ numbers
 i
 ]
 .
-epectedNumber
+expectedNumber
 )
 ;
 }
