@@ -41,12 +41,6 @@ public
 explicit
 xpcAccessibleTable
 (
-mozilla
-:
-:
-a11y
-:
-:
 TableAccessible
 *
 aTable
