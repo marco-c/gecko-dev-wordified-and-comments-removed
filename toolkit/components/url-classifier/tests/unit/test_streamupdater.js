@@ -171,6 +171,8 @@ add1Urls
 [
 "
 foo
+-
+simple
 .
 com
 /
@@ -178,6 +180,8 @@ a
 "
 "
 bar
+-
+simple
 .
 com
 /
@@ -191,6 +195,8 @@ add2Urls
 [
 "
 foo
+-
+simple
 .
 com
 /
@@ -204,6 +210,8 @@ add3Urls
 [
 "
 bar
+-
+simple
 .
 com
 /
@@ -419,6 +427,8 @@ add1Urls
 [
 "
 foo
+-
+nested
 .
 com
 /
@@ -426,6 +436,8 @@ a
 "
 "
 bar
+-
+nested
 .
 com
 /
@@ -439,6 +451,8 @@ add2Urls
 [
 "
 foo
+-
+nested
 .
 com
 /
@@ -633,6 +647,8 @@ add1Urls
 [
 "
 foo
+-
+invalid
 .
 com
 /
@@ -640,6 +656,8 @@ a
 "
 "
 bar
+-
+invalid
 .
 com
 /
@@ -694,15 +712,6 @@ tableData
 "
 :
 "
-test
--
-phish
--
-simple
-;
-a
-:
-1
 "
 "
 urlsExist
@@ -717,7 +726,7 @@ doTest
 update
 ]
 assertions
-false
+true
 )
 ;
 }
@@ -732,6 +741,8 @@ add1Urls
 [
 "
 foo
+-
+forward
 .
 com
 /
@@ -739,6 +750,8 @@ a
 "
 "
 bar
+-
+forward
 .
 com
 /
@@ -797,15 +810,6 @@ tableData
 "
 :
 "
-test
--
-phish
--
-simple
-;
-a
-:
-1
 "
 "
 urlsExist
@@ -820,7 +824,7 @@ doTest
 update
 ]
 assertions
-false
+true
 )
 ;
 }
@@ -835,6 +839,8 @@ add1Urls
 [
 "
 foo
+-
+multiple
 .
 com
 /
@@ -842,6 +848,8 @@ a
 "
 "
 bar
+-
+multiple
 .
 com
 /
@@ -855,6 +863,8 @@ add2Urls
 [
 "
 foo
+-
+multiple
 .
 com
 /
@@ -868,6 +878,8 @@ add3Urls
 [
 "
 bar
+-
+multiple
 .
 com
 /
@@ -1169,6 +1181,8 @@ addUrls1
 [
 "
 foo
+-
+reset
 .
 com
 /
@@ -1176,6 +1190,8 @@ a
 "
 "
 foo
+-
+reset
 .
 com
 /
@@ -1225,6 +1241,8 @@ addUrls3
 [
 "
 bar
+-
+reset
 .
 com
 /
@@ -1232,6 +1250,8 @@ a
 "
 "
 bar
+-
+reset
 .
 com
 /
