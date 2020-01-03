@@ -672,7 +672,7 @@ R
 .
 drawable
 .
-device_pc
+device_desktop
 ;
 }
 public
