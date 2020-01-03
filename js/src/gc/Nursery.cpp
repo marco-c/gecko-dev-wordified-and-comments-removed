@@ -2087,6 +2087,9 @@ disableStrictProxyChecking
 rt
 )
 ;
+mozilla
+:
+:
 DebugOnly
 <
 AutoEnterOOMUnsafeRegion
