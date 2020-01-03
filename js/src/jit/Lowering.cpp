@@ -13728,7 +13728,7 @@ alloc
 )
 LSubstr
 (
-useFixed
+useRegister
 (
 ins
 -
@@ -13736,7 +13736,6 @@ ins
 string
 (
 )
-CallTempReg1
 )
 useRegister
 (
@@ -13758,6 +13757,13 @@ length
 )
 temp
 (
+)
+temp
+(
+)
+tempFixed
+(
+CallTempReg1
 )
 )
 ;
