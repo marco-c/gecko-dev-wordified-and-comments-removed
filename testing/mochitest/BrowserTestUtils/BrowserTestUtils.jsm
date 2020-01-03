@@ -812,6 +812,7 @@ waitForEvent
 (
 subject
 eventName
+capture
 checkFn
 )
 {
@@ -860,6 +861,7 @@ removeEventListener
 (
 eventName
 listener
+capture
 )
 ;
 resolve
@@ -881,6 +883,7 @@ removeEventListener
 (
 eventName
 listener
+capture
 )
 ;
 }
@@ -897,6 +900,7 @@ ex
 ;
 }
 }
+capture
 )
 ;
 }
