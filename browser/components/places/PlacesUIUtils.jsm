@@ -3317,6 +3317,7 @@ PUIU_openNodeIn
 aNode
 aWhere
 aView
+aPrivate
 )
 {
 let
@@ -3333,6 +3334,7 @@ _openNodeIn
 aNode
 aWhere
 window
+aPrivate
 )
 ;
 }
@@ -3344,6 +3346,9 @@ PUIU_openNodeIn
 aNode
 aWhere
 aWindow
+aPrivate
+=
+false
 )
 {
 if
@@ -3499,6 +3504,9 @@ tabs
 loadBookmarksInBackground
 "
 )
+private
+:
+aPrivate
 }
 )
 ;
