@@ -2735,7 +2735,7 @@ call
 state
 is
 '
-init
+gather
 '
 "
 function
@@ -2751,7 +2751,7 @@ callState
 :
 CALL_STATES
 .
-INIT
+GATHER
 contact
 :
 contact
@@ -2917,7 +2917,7 @@ callState
 :
 CALL_STATES
 .
-INIT
+GATHER
 contact
 :
 contact

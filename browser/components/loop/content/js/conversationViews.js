@@ -2450,6 +2450,16 @@ _renderFeedbackView
 )
 ;
 }
+case
+CALL_STATES
+.
+INIT
+:
+{
+return
+null
+;
+}
 default
 :
 {
