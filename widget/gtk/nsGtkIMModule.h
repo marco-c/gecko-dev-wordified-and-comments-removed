@@ -218,6 +218,7 @@ bool
 IsEnabled
 (
 )
+const
 ;
 void
 OnFocusWindow
@@ -617,9 +618,10 @@ aContext
 ;
 GtkIMContext
 *
-GetContext
+GetCurrentContext
 (
 )
+const
 ;
 bool
 IsDestroyed
