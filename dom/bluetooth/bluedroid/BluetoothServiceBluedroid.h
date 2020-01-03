@@ -1160,11 +1160,6 @@ aNumPackets
 )
 override
 ;
-#
-ifndef
-MOZ_B2G_BT_API_V1
-#
-else
 virtual
 void
 EnergyInfoNotification
@@ -1176,8 +1171,6 @@ aInfo
 )
 override
 ;
-#
-endif
 virtual
 void
 BackendErrorNotification
@@ -1220,9 +1213,6 @@ nsAString
 aPlayStatus
 )
 ;
-#
-ifndef
-MOZ_B2G_BT_API_V1
 static
 void
 ConnectDisconnect
@@ -1250,6 +1240,9 @@ NextBluetoothProfileController
 (
 )
 ;
+#
+ifndef
+MOZ_B2G_BT_API_V1
 #
 else
 static
