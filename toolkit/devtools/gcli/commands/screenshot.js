@@ -294,9 +294,6 @@ name
 "
 imgur
 "
-hidden
-:
-true
 type
 :
 "
