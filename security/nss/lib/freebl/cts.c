@@ -762,11 +762,6 @@ outbuf
 =
 fullblocks
 ;
-maxout
--
-=
-fullblocks
-;
 PORT_Memset
 (
 lastBlock

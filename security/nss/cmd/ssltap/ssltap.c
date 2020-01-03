@@ -3435,6 +3435,17 @@ TLS_EMPTY_RENEGOTIATION_INFO_SCSV
 break
 ;
 case
+0x005600
+:
+cs_str
+=
+"
+TLS_FALLBACK_SCSV
+"
+;
+break
+;
+case
 0x00C001
 :
 cs_str

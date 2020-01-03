@@ -4477,11 +4477,6 @@ mod
 unsigned
 long
 controlMask
-=
-mod
--
->
-evControlMask
 ;
 SECStatus
 rv

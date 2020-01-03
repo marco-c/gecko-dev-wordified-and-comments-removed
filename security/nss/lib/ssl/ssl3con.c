@@ -25177,11 +25177,6 @@ return
 SECFailure
 ;
 }
-maxBytes
--
-=
-extLen
-;
 total_exten_len
 +
 =

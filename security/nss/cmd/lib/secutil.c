@@ -1316,6 +1316,16 @@ n
 "
 )
 ;
+#
+ifndef
+_WINDOWS
+fclose
+(
+input
+)
+;
+#
+endif
 return
 NULL
 ;
