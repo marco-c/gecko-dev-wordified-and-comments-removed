@@ -6253,6 +6253,12 @@ mNeedsReleaseAfterStackRefCntRelease
 CSPErrorQueue
 mCSPWebConsoleErrorQueue
 ;
+nsCOMPtr
+<
+nsIDocument
+>
+mMasterDocument
+;
 nsRefPtr
 <
 mozilla
