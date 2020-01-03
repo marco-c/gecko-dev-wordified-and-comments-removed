@@ -18860,7 +18860,7 @@ nullptr
 ;
 MOZ_ASSERT
 (
-clone
+fun
 -
 >
 global
@@ -18964,7 +18964,7 @@ thisv
 ;
 MOZ_ASSERT
 (
-clone
+fun
 -
 >
 global
