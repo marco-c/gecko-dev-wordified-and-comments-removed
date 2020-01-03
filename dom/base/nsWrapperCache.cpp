@@ -391,7 +391,7 @@ NoteJSObject
 &
 aPtr
 .
-to
+as
 <
 JSObject
 >

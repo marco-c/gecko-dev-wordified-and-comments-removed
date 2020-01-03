@@ -1758,7 +1758,7 @@ group
 =
 thing
 .
-to
+as
 <
 ObjectGroup
 >
