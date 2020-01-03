@@ -324,9 +324,6 @@ prefetch
 script
 "
 "
-serviceworker
-"
-"
 sharedworker
 "
 "
