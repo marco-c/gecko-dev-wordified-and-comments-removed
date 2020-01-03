@@ -957,14 +957,6 @@ frame
 isDebuggerHandlingException
 (
 )
-&
-&
-frame
--
->
-maybeOverridePc
-(
-)
 )
 {
 uint32_t
