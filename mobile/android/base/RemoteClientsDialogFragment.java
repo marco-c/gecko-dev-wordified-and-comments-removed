@@ -26,7 +26,7 @@ mozilla
 .
 gecko
 .
-TabsAccessor
+db
 .
 RemoteClient
 ;
