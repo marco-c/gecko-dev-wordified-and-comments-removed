@@ -132,3 +132,6 @@ common
 build
 '
 )
+FAIL_ON_WARNINGS
+=
+True
