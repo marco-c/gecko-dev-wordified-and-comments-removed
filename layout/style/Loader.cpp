@@ -596,9 +596,6 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -629,8 +626,6 @@ return
 sLog
 ;
 }
-#
-endif
 #
 define
 LOG_FORCE
@@ -754,9 +749,6 @@ LOG_DEBUG_ENABLED
 (
 )
 #
-ifdef
-PR_LOGGING
-#
 define
 LOG_URI
 (
@@ -814,20 +806,6 @@ get
 }
 \
 PR_END_MACRO
-#
-else
-#
-define
-LOG_URI
-(
-format
-uri
-)
-#
-endif
-#
-ifdef
-PR_LOGGING
 static
 const
 char
@@ -855,8 +833,6 @@ eSheetComplete
 "
 }
 ;
-#
-endif
 NS_IMPL_ISUPPORTS
 (
 SheetLoadData
@@ -2300,9 +2276,6 @@ Assign
 aCharset
 )
 ;
-#
-ifdef
-PR_LOGGING
 LOG
 (
 (
@@ -2326,8 +2299,6 @@ get
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -2384,9 +2355,6 @@ Assign
 aCharset
 )
 ;
-#
-ifdef
-PR_LOGGING
 LOG
 (
 (
@@ -2410,8 +2378,6 @@ get
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -2504,9 +2470,6 @@ Assign
 aCharset
 )
 ;
-#
-ifdef
-PR_LOGGING
 LOG
 (
 (
@@ -2531,8 +2494,6 @@ get
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -2573,9 +2534,6 @@ Assign
 aCharset
 )
 ;
-#
-ifdef
-PR_LOGGING
 LOG
 (
 (
@@ -2600,8 +2558,6 @@ get
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -2626,9 +2582,6 @@ Assign
 aCharset
 )
 ;
-#
-ifdef
-PR_LOGGING
 LOG
 (
 (
@@ -2657,8 +2610,6 @@ get
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -2692,9 +2643,6 @@ Assign
 aCharset
 )
 ;
-#
-ifdef
-PR_LOGGING
 LOG
 (
 (
@@ -2719,8 +2667,6 @@ get
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -2763,9 +2709,6 @@ Assign
 aCharset
 )
 ;
-#
-ifdef
-PR_LOGGING
 LOG
 (
 (
@@ -2789,8 +2732,6 @@ get
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -2810,9 +2751,6 @@ mCharset
 =
 aCharset
 ;
-#
-ifdef
-PR_LOGGING
 LOG
 (
 (
@@ -2836,8 +2774,6 @@ get
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;

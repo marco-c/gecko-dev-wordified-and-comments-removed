@@ -2151,9 +2151,6 @@ this
 channel
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_ENABLED
@@ -2244,8 +2241,6 @@ get
 )
 ;
 }
-#
-endif
 nsCOMPtr
 <
 nsIHttpChannel
@@ -3163,9 +3158,6 @@ mLocalRulesUsed
 =
 false
 ;
-#
-if
-PR_LOGGING
 if
 (
 LOG_ENABLED
@@ -3229,8 +3221,6 @@ Length
 )
 ;
 }
-#
-endif
 return
 modified
 ;
@@ -5610,9 +5600,6 @@ Append
 fontURI
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_ENABLED
@@ -5646,8 +5633,6 @@ get
 )
 ;
 }
-#
-endif
 nsCSSFontFaceRule
 *
 rule

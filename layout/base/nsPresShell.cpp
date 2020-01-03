@@ -2529,9 +2529,6 @@ sDisableNonTestMouseEvents
 =
 false
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 PresShell
@@ -2539,8 +2536,6 @@ PresShell
 :
 gLog
 ;
-#
-endif
 #
 ifdef
 DEBUG
@@ -3432,9 +3427,6 @@ this
 ;
 #
 endif
-#
-ifdef
-PR_LOGGING
 mLoadBegin
 =
 TimeStamp
@@ -3460,8 +3452,6 @@ PresShell
 )
 ;
 }
-#
-endif
 mSelectionFlags
 =
 nsISelectionDisplay
@@ -4343,9 +4333,6 @@ mDocument
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 enum
 TextPerfLogType
 {
@@ -4913,8 +4900,6 @@ textrunDestr
 ;
 }
 }
-#
-endif
 void
 PresShell
 :
@@ -4944,9 +4929,6 @@ blocked
 "
 )
 ;
-#
-ifdef
-PR_LOGGING
 gfxTextPerfMetrics
 *
 tp
@@ -5004,8 +4986,6 @@ nullptr
 ;
 }
 }
-#
-endif
 #
 ifdef
 MOZ_REFLOW_PERF
@@ -11692,9 +11672,6 @@ mDocumentLoading
 =
 true
 ;
-#
-ifdef
-PR_LOGGING
 gfxTextPerfMetrics
 *
 tp
@@ -11809,8 +11786,6 @@ get
 )
 ;
 }
-#
-endif
 }
 void
 PresShell
@@ -11852,9 +11827,6 @@ LoadComplete
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 gfxTextPerfMetrics
 *
 tp
@@ -12032,8 +12004,6 @@ get
 }
 }
 }
-#
-endif
 }
 #
 ifdef
@@ -41922,9 +41892,6 @@ MaybeScheduleReflow
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 tp
@@ -41980,8 +41947,6 @@ Accumulate
 )
 ;
 }
-#
-endif
 if
 (
 docShell

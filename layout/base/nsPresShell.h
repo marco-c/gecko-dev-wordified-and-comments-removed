@@ -1509,16 +1509,11 @@ override
 ;
 #
 endif
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 gLog
 ;
-#
-endif
 virtual
 void
 DisableNonTestMouseEvents

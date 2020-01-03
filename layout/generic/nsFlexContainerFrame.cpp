@@ -144,9 +144,6 @@ nsFlexContainerFrame
 StrutInfo
 StrutInfo
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -177,8 +174,6 @@ return
 sLog
 ;
 }
-#
-endif
 enum
 AxisOrientationType
 {

@@ -679,9 +679,6 @@ RemoveLoader
 this
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_ENABLED
@@ -782,8 +779,6 @@ aStatus
 ;
 }
 }
-#
-endif
 nsPresContext
 *
 ctx

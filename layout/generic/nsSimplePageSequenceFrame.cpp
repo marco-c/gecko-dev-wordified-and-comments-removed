@@ -205,9 +205,6 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 GetLayoutPrintingLog
@@ -253,16 +250,6 @@ GetLayoutPrintingLog
 PR_LOG_DEBUG
 _p1
 )
-#
-else
-#
-define
-PR_PL
-(
-_p1
-)
-#
-endif
 nsSimplePageSequenceFrame
 *
 NS_NewSimplePageSequenceFrame
