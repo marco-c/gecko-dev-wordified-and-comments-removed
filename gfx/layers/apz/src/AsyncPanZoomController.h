@@ -525,6 +525,12 @@ GetLastTouchIdentifier
 )
 const
 ;
+Matrix4x4
+GetTransformToThis
+(
+)
+const
+;
 ScreenPoint
 ToScreenCoordinates
 (
