@@ -135,7 +135,7 @@ public
 :
 typedef
 SharedTypedArrayObject
-AnyTypedArray
+SomeTypedArray
 ;
 typedef
 SharedArrayBufferObject

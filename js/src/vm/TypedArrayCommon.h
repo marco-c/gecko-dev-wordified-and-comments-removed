@@ -786,8 +786,8 @@ typename
 SpecificArray
 :
 :
-AnyTypedArray
-AnyTypedArray
+SomeTypedArray
+SomeTypedArray
 ;
 public
 :
@@ -800,13 +800,13 @@ JSContext
 cx
 Handle
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 target
 Handle
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 source
@@ -873,7 +873,7 @@ offset
 ;
 if
 (
-AnyTypedArray
+SomeTypedArray
 :
 :
 sameBuffer
@@ -1463,7 +1463,7 @@ JSContext
 cx
 Handle
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 target
@@ -1511,7 +1511,7 @@ source
 >
 is
 <
-AnyTypedArray
+SomeTypedArray
 >
 (
 )
@@ -1790,13 +1790,13 @@ JSContext
 cx
 Handle
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 target
 Handle
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 source
@@ -1830,7 +1830,7 @@ specialization
 ;
 MOZ_ASSERT
 (
-AnyTypedArray
+SomeTypedArray
 :
 :
 sameBuffer
@@ -2850,7 +2850,7 @@ d
 template
 <
 typename
-AnyTypedArray
+SomeTypedArray
 >
 class
 TypedArrayMethods
@@ -2862,7 +2862,7 @@ mozilla
 :
 IsSame
 <
-AnyTypedArray
+SomeTypedArray
 TypedArrayObject
 >
 :
@@ -2875,7 +2875,7 @@ mozilla
 :
 IsSame
 <
-AnyTypedArray
+SomeTypedArray
 SharedTypedArrayObject
 >
 :
@@ -2903,7 +2903,7 @@ specific
 ;
 typedef
 typename
-AnyTypedArray
+SomeTypedArray
 :
 :
 BufferType
@@ -2911,7 +2911,7 @@ BufferType
 ;
 typedef
 typename
-AnyTypedArray
+SomeTypedArray
 :
 :
 template
@@ -2926,7 +2926,7 @@ Int8ArrayType
 ;
 typedef
 typename
-AnyTypedArray
+SomeTypedArray
 :
 :
 template
@@ -2941,7 +2941,7 @@ Uint8ArrayType
 ;
 typedef
 typename
-AnyTypedArray
+SomeTypedArray
 :
 :
 template
@@ -2956,7 +2956,7 @@ Int16ArrayType
 ;
 typedef
 typename
-AnyTypedArray
+SomeTypedArray
 :
 :
 template
@@ -2971,7 +2971,7 @@ Uint16ArrayType
 ;
 typedef
 typename
-AnyTypedArray
+SomeTypedArray
 :
 :
 template
@@ -2986,7 +2986,7 @@ Int32ArrayType
 ;
 typedef
 typename
-AnyTypedArray
+SomeTypedArray
 :
 :
 template
@@ -3001,7 +3001,7 @@ Uint32ArrayType
 ;
 typedef
 typename
-AnyTypedArray
+SomeTypedArray
 :
 :
 template
@@ -3016,7 +3016,7 @@ Float32ArrayType
 ;
 typedef
 typename
-AnyTypedArray
+SomeTypedArray
 :
 :
 template
@@ -3031,7 +3031,7 @@ Float64ArrayType
 ;
 typedef
 typename
-AnyTypedArray
+SomeTypedArray
 :
 :
 template
@@ -3059,7 +3059,7 @@ args
 {
 MOZ_ASSERT
 (
-AnyTypedArray
+SomeTypedArray
 :
 :
 is
@@ -3074,7 +3074,7 @@ thisv
 ;
 Rooted
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 tarray
@@ -3093,7 +3093,7 @@ toObject
 .
 as
 <
-AnyTypedArray
+SomeTypedArray
 >
 (
 )
@@ -3229,7 +3229,7 @@ false
 if
 (
 !
-AnyTypedArray
+SomeTypedArray
 :
 :
 ensureHasBuffer
@@ -3576,7 +3576,7 @@ args
 {
 MOZ_ASSERT
 (
-AnyTypedArray
+SomeTypedArray
 :
 :
 is
@@ -3591,7 +3591,7 @@ thisv
 ;
 Rooted
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 obj
@@ -3610,7 +3610,7 @@ toObject
 .
 as
 <
-AnyTypedArray
+SomeTypedArray
 >
 (
 )
@@ -3996,7 +3996,7 @@ args
 {
 MOZ_ASSERT
 (
-AnyTypedArray
+SomeTypedArray
 :
 :
 is
@@ -4011,7 +4011,7 @@ thisv
 ;
 Rooted
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 target
@@ -4030,7 +4030,7 @@ toObject
 .
 as
 <
-AnyTypedArray
+SomeTypedArray
 >
 (
 )
@@ -4162,7 +4162,7 @@ arg0
 >
 is
 <
-AnyTypedArray
+SomeTypedArray
 >
 (
 )
@@ -4170,7 +4170,7 @@ AnyTypedArray
 {
 Rooted
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 source
@@ -4182,7 +4182,7 @@ arg0
 >
 as
 <
-AnyTypedArray
+SomeTypedArray
 >
 (
 )
@@ -4331,7 +4331,7 @@ JSContext
 cx
 Handle
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 target
@@ -4380,7 +4380,7 @@ source
 >
 is
 <
-AnyTypedArray
+SomeTypedArray
 >
 (
 )
@@ -4388,7 +4388,7 @@ AnyTypedArray
 {
 Rooted
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 src
@@ -4400,7 +4400,7 @@ source
 >
 as
 <
-AnyTypedArray
+SomeTypedArray
 >
 (
 )
@@ -4438,13 +4438,13 @@ JSContext
 cx
 Handle
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 target
 Handle
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 source
@@ -4692,7 +4692,7 @@ JSContext
 cx
 Handle
 <
-AnyTypedArray
+SomeTypedArray
 *
 >
 target
@@ -4712,7 +4712,7 @@ source
 >
 is
 <
-AnyTypedArray
+SomeTypedArray
 >
 (
 )

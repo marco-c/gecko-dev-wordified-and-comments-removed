@@ -213,7 +213,7 @@ public
 :
 typedef
 TypedArrayObject
-AnyTypedArray
+SomeTypedArray
 ;
 typedef
 ArrayBufferObject
