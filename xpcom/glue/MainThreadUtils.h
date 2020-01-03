@@ -11,17 +11,6 @@ nscore
 .
 h
 "
-#
-include
-"
-mozilla
-/
-threads
-/
-nsThreadIDs
-.
-h
-"
 class
 nsIThread
 ;
