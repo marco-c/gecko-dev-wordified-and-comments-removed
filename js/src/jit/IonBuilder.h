@@ -3868,6 +3868,17 @@ target
 )
 ;
 InliningStatus
+inlineConstructSimdObject
+(
+CallInfo
+&
+callInfo
+SimdTypeDescr
+*
+target
+)
+;
+InliningStatus
 inlineIsCallable
 (
 CallInfo

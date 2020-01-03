@@ -58,6 +58,11 @@ Float32
 \
 _
 (
+SimdBox
+)
+\
+_
+(
 SimdSplatX4
 )
 \

@@ -49940,6 +49940,11 @@ SimdTypeDescr
 :
 :
 call
+&
+&
+JitSupportsSimd
+(
+)
 )
 {
 Rooted

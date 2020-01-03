@@ -1888,6 +1888,14 @@ ins
 )
 ;
 void
+visitSimdBox
+(
+MSimdBox
+*
+ins
+)
+;
+void
 visitSimdExtractElement
 (
 MSimdExtractElement
