@@ -3459,6 +3459,7 @@ col
 col
 }
 ;
+return
 this
 .
 switchToSelectedSheet
