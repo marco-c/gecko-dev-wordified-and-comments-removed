@@ -515,6 +515,11 @@ CSSVariableValues
 h
 '
 '
+IncrementalClearCOMRuleArray
+.
+h
+'
+'
 StyleAnimationValue
 .
 h
@@ -694,6 +699,11 @@ cpp
 '
 '
 ImageLoader
+.
+cpp
+'
+'
+IncrementalClearCOMRuleArray
 .
 cpp
 '
