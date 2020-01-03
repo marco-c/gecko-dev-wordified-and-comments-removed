@@ -5416,7 +5416,9 @@ jsm
 }
 )
 .
-sendMessageToJava
+Messaging
+.
+sendRequest
 _sendMessage
 :
 function

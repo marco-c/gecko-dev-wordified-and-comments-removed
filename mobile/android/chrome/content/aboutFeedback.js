@@ -382,7 +382,9 @@ LastUrl
 false
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -486,7 +488,9 @@ openPlayStore
 (
 )
 {
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -517,7 +521,9 @@ close
 (
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type

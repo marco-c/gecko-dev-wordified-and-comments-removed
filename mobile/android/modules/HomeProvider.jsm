@@ -1288,7 +1288,9 @@ gRefreshTimers
 datasetId
 ]
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type

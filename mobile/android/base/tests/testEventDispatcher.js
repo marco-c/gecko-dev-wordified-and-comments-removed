@@ -150,7 +150,9 @@ null
 innerObject
 ]
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 outerObject
 )

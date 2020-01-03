@@ -220,7 +220,9 @@ animate
 =
 false
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 rect
 )
@@ -246,7 +248,9 @@ resetMaxLineBoxWidth
 (
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -898,7 +902,9 @@ resetMaxLineBoxWidth
 )
 ;
 }
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 rect
 )

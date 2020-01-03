@@ -216,7 +216,9 @@ function
 extras
 )
 {
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type

@@ -468,7 +468,9 @@ uri
 spec
 ;
 }
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type

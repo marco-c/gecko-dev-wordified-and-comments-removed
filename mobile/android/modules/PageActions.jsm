@@ -501,7 +501,9 @@ toString
 (
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -580,7 +582,9 @@ function
 id
 )
 {
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type

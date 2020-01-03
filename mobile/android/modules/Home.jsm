@@ -591,7 +591,9 @@ message
 totalWeight
 )
 {
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -1131,7 +1133,9 @@ e
 }
 }
 }
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -2391,7 +2395,9 @@ _assertPanelExists
 id
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -2423,7 +2429,9 @@ _assertPanelExists
 id
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -2452,7 +2460,9 @@ _assertPanelExists
 id
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type

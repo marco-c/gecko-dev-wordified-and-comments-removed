@@ -147,7 +147,7 @@ defineLazyModuleGetter
 (
 this
 "
-sendMessageToJava
+Messaging
 "
 "
 resource
@@ -928,7 +928,9 @@ true
 )
 ;
 }
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -2572,7 +2574,9 @@ normalData
 aAsync
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
@@ -5617,7 +5621,9 @@ title
 }
 )
 ;
-sendMessageToJava
+Messaging
+.
+sendRequest
 (
 {
 type
