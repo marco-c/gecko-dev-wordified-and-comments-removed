@@ -429,9 +429,7 @@ foo
 )
 =
 =
-"
-foo
-"
+undefined
 )
 ;
 gc
