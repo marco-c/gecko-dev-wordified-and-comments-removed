@@ -303,11 +303,6 @@ attribute
 ScalarValueString
 search
 ;
-/
-/
-Bug
-1082734
--
 attribute
 URLSearchParams
 searchParams
