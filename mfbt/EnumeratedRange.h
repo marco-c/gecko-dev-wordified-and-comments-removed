@@ -992,6 +992,9 @@ EnumType
 aEnd
 )
 {
+#
+ifdef
+DEBUG
 typedef
 typename
 MakeUnsigned
@@ -1003,6 +1006,8 @@ IntType
 Type
 UnsignedType
 ;
+#
+endif
 static_assert
 (
 sizeof
