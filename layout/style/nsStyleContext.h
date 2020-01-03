@@ -1141,6 +1141,16 @@ aChild
 )
 ;
 void
+*
+CreateEmptyStyleData
+(
+const
+nsStyleStructID
+&
+aSID
+)
+;
+void
 ApplyStyleFixups
 (
 bool
