@@ -50277,11 +50277,9 @@ contrast
 url
 (
 '
-feed
+badscheme
 :
-javascript
-:
-5
+badurl
 '
 )
 "
@@ -50293,11 +50291,9 @@ blur
 url
 (
 '
-feed
+badscheme
 :
-javascript
-:
-5
+badurl
 '
 )
 grayscale
