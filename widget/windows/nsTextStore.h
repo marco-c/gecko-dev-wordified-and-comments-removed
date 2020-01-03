@@ -1215,7 +1215,7 @@ const
 TS_SELECTION_ACP
 *
 bool
-aDispatchTextEvent
+aDispatchCompositionChangeEvent
 =
 false
 )

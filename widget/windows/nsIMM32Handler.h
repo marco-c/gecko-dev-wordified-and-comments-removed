@@ -1084,7 +1084,7 @@ nullptr
 )
 ;
 void
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 nsWindow
 *

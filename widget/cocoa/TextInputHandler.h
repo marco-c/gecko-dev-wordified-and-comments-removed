@@ -1725,7 +1725,7 @@ NSNotFound
 ;
 }
 bool
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 const
 nsString

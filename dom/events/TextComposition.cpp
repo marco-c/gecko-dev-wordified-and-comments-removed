@@ -680,7 +680,7 @@ HasEditor
 )
 )
 {
-EditorWillHandleTextEvent
+EditorWillHandleCompositionChangeEvent
 (
 aEvent
 -
@@ -690,7 +690,7 @@ AsCompositionEvent
 )
 )
 ;
-EditorDidHandleTextEvent
+EditorDidHandleCompositionChangeEvent
 (
 )
 ;
@@ -1313,7 +1313,7 @@ void
 TextComposition
 :
 :
-EditorWillHandleTextEvent
+EditorWillHandleCompositionChangeEvent
 (
 const
 WidgetCompositionEvent
@@ -1380,7 +1380,7 @@ void
 TextComposition
 :
 :
-EditorDidHandleTextEvent
+EditorDidHandleCompositionChangeEvent
 (
 )
 {

@@ -3992,8 +3992,8 @@ batch
 TextComposition
 :
 :
-TextEventHandlingMarker
-textEventHandlingMarker
+CompositionChangeEventHandlingMarker
+compositionChangeEventHandlingMarker
 (
 mComposition
 compositionChangeEvent

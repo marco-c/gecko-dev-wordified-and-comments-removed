@@ -13431,7 +13431,7 @@ TS_SELECTION_ACP
 *
 pSelection
 bool
-aDispatchTextEvent
+aDispatchCompositionChangeEvent
 )
 {
 PR_LOG
@@ -13478,7 +13478,7 @@ s
 }
 "
 "
-aDispatchTextEvent
+aDispatchCompositionChangeEvent
 =
 %
 s
@@ -13521,7 +13521,7 @@ fInterimChar
 )
 GetBoolName
 (
-aDispatchTextEvent
+aDispatchCompositionChangeEvent
 )
 GetBoolName
 (
@@ -13604,7 +13604,7 @@ IsComposing
 {
 if
 (
-aDispatchTextEvent
+aDispatchCompositionChangeEvent
 )
 {
 HRESULT
@@ -13731,7 +13731,7 @@ pSelection
 ;
 if
 (
-aDispatchTextEvent
+aDispatchCompositionChangeEvent
 )
 {
 HRESULT

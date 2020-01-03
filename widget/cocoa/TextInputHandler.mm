@@ -17159,7 +17159,7 @@ bool
 IMEInputHandler
 :
 :
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 const
 nsString
@@ -17186,7 +17186,7 @@ p
 IMEInputHandler
 :
 :
-DispatchTextEvent
+DispatchCompositionChangeEvent
 "
 "
 aText
@@ -17837,7 +17837,7 @@ Length
 )
 )
 ;
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 str
 aAttrString
@@ -18469,7 +18469,7 @@ IsEmpty
 (
 )
 ;
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 str
 aAttrString

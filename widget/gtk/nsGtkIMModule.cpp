@@ -3106,7 +3106,7 @@ Truncate
 return
 ;
 }
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 compositionString
 false
@@ -3775,7 +3775,7 @@ get
 if
 (
 !
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 aString
 true
@@ -4489,7 +4489,7 @@ bool
 nsGtkIMModule
 :
 :
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 const
 nsAString
@@ -4511,7 +4511,7 @@ GtkIMModule
 p
 )
 :
-DispatchTextEvent
+DispatchCompositionChangeEvent
 aIsCommit
 =
 %
@@ -4728,9 +4728,9 @@ mCompositionState
 =
 aIsCommit
 ?
-eCompositionState_CommitTextEventDispatched
+eCompositionState_CommitCompositionChangeEventDispatched
 :
-eCompositionState_TextEventDispatched
+eCompositionState_CompositionChangeEventDispatched
 ;
 mLastFocusedWindow
 -
@@ -6238,7 +6238,7 @@ editorHadCompositionString
 &
 &
 !
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 mSelectedString
 false
@@ -6833,7 +6833,7 @@ compositionString
 if
 (
 !
-DispatchTextEvent
+DispatchCompositionChangeEvent
 (
 compositionString
 true
