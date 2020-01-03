@@ -48605,6 +48605,9 @@ alloc
 (
 )
 value
+constraints
+(
+)
 )
 ;
 current
@@ -48621,16 +48624,6 @@ current
 push
 (
 ins
-)
-;
-ins
--
->
-cacheOperandMightEmulateUndefined
-(
-constraints
-(
-)
 )
 ;
 return
