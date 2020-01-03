@@ -3526,10 +3526,6 @@ list
 options
 =
 [
-'
--
-v
-'
 ]
         
 if
@@ -3581,16 +3577,6 @@ binary_path
 kw_options
 =
 {
-'
-output
-'
-:
-'
-talos
-.
-yml
-'
-                      
 '
 executablePath
 '
