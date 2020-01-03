@@ -1442,11 +1442,9 @@ GetContentRectRelativeToSelf
 aBlockFrame
 -
 >
-GetRect
+GetSize
 (
 )
-.
-width
 )
 mBuilder
 (
@@ -1466,16 +1464,14 @@ GetScrollableFrameFor
 aBlockFrame
 )
 )
-mBlockWidth
+mBlockSize
 (
 aBlockFrame
 -
 >
-GetRect
+GetSize
 (
 )
-.
-width
 )
 mBlockWM
 (
@@ -1609,6 +1605,10 @@ mAdjustForPixelSnapping
 mCanHaveInlineAxisScrollbar
 ;
 }
+const
+nsSize
+nullContainerSize
+;
 mContentArea
 .
 MoveBy
@@ -1623,7 +1623,7 @@ mScrollableFrame
 GetScrollPosition
 (
 )
-0
+nullContainerSize
 )
 )
 ;
@@ -2129,7 +2129,7 @@ GetSize
 (
 )
 )
-mBlockWidth
+mBlockSize
 )
 ;
 nscoord
@@ -2565,7 +2565,7 @@ mScrollableFrame
 GetScrollPosition
 (
 )
-mBlockWidth
+mBlockSize
 )
 ;
 LogicalRect
@@ -2578,7 +2578,7 @@ mScrollableFrame
 GetScrollRange
 (
 )
-mBlockWidth
+mBlockSize
 )
 ;
 if
@@ -2679,7 +2679,7 @@ aLine
 GetScrollableOverflowArea
 (
 )
-mBlockWidth
+mBlockSize
 )
 ;
 const
@@ -4310,7 +4310,7 @@ markerLogicalRect
 GetPhysicalRect
 (
 mBlockWM
-mBlockWidth
+mBlockSize
 )
 +
 offset
@@ -4322,7 +4322,7 @@ mContentArea
 GetPhysicalRect
 (
 mBlockWM
-mBlockWidth
+mBlockSize
 )
 +
 offset
@@ -4423,7 +4423,7 @@ markerLogicalRect
 GetPhysicalRect
 (
 mBlockWM
-mBlockWidth
+mBlockSize
 )
 +
 offset
@@ -4435,7 +4435,7 @@ mContentArea
 GetPhysicalRect
 (
 mBlockWM
-mBlockWidth
+mBlockSize
 )
 +
 offset

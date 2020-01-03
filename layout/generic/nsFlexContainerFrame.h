@@ -413,8 +413,10 @@ mozilla
 LogicalPoint
 &
 aFramePos
-nscoord
-aContainerWidth
+const
+nsSize
+&
+aContainerSize
 )
 ;
 void
@@ -441,8 +443,10 @@ mozilla
 LogicalPoint
 &
 aFramePos
-nscoord
-aContainerWidth
+const
+nsSize
+&
+aContainerSize
 )
 ;
 bool

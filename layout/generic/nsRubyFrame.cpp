@@ -1170,6 +1170,10 @@ ISize
 lineWM
 )
 ;
+const
+nsSize
+dummyContainerSize
+;
 LogicalRect
 baseRect
 =
@@ -1179,7 +1183,7 @@ aBaseContainer
 GetLogicalRect
 (
 lineWM
-0
+dummyContainerSize
 )
 ;
 baseRect
@@ -1574,7 +1578,7 @@ textMetrics
 textReflowState
 lineWM
 position
-0
+dummyContainerSize
 0
 )
 ;

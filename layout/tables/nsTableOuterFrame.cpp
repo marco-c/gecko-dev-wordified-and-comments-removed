@@ -207,7 +207,9 @@ BStart
 aWritingMode
 mRect
 .
-width
+Size
+(
+)
 )
 ;
 }
@@ -3893,10 +3895,8 @@ aStatus
 )
 {
 const
-nscoord
-zeroCWidth
-=
-0
+nsSize
+zeroCSize
 ;
 WritingMode
 wm
@@ -3916,7 +3916,7 @@ aChildFrame
 GetLogicalPosition
 (
 wm
-zeroCWidth
+zeroCSize
 )
 ;
 uint32_t
@@ -3948,7 +3948,7 @@ aMetrics
 aChildRS
 wm
 childPt
-zeroCWidth
+zeroCSize
 flags
 aStatus
 )
@@ -4743,12 +4743,12 @@ wm
 desiredSize
 )
 ;
-nscoord
-containerWidth
+nsSize
+containerSize
 =
 aDesiredSize
 .
-Width
+PhysicalSize
 (
 )
 ;
@@ -4796,7 +4796,7 @@ ptr
 )
 wm
 captionOrigin
-containerWidth
+containerSize
 0
 )
 ;
@@ -4839,7 +4839,7 @@ ptr
 )
 wm
 innerOrigin
-containerWidth
+containerSize
 0
 )
 ;

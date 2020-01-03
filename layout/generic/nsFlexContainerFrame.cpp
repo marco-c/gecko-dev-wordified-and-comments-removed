@@ -13608,8 +13608,12 @@ flexWM
 )
 )
 ;
-nscoord
-containerWidth
+nsSize
+containerSize
+;
+containerSize
+.
+width
 =
 aAxisTracker
 .
@@ -13621,7 +13625,9 @@ aContentBoxMainSize
 :
 contentBoxCrossSize
 ;
-containerWidth
+containerSize
+.
+width
 +
 =
 aReflowState
@@ -13816,7 +13822,7 @@ aReflowState
 *
 item
 framePos
-containerWidth
+containerSize
 )
 ;
 }
@@ -13835,7 +13841,7 @@ aReflowState
 *
 item
 framePos
-containerWidth
+containerSize
 )
 ;
 }
@@ -14130,8 +14136,10 @@ aItem
 LogicalPoint
 &
 aFramePos
-nscoord
-aContainerWidth
+const
+nsSize
+&
+aContainerSize
 )
 {
 WritingMode
@@ -14248,7 +14256,7 @@ outerWM
 logicalOffsets
 &
 aFramePos
-aContainerWidth
+aContainerSize
 )
 ;
 aItem
@@ -14262,7 +14270,7 @@ SetPosition
 (
 outerWM
 aFramePos
-aContainerWidth
+aContainerSize
 )
 ;
 PositionChildViews
@@ -14299,8 +14307,10 @@ aItem
 LogicalPoint
 &
 aFramePos
-nscoord
-aContainerWidth
+const
+nsSize
+&
+aContainerSize
 )
 {
 WritingMode
@@ -14560,7 +14570,7 @@ childDesiredSize
 childReflowState
 outerWM
 aFramePos
-aContainerWidth
+aContainerSize
 0
 childReflowStatus
 )
@@ -14618,7 +14628,7 @@ outerWM
 offsets
 &
 aFramePos
-aContainerWidth
+aContainerSize
 )
 ;
 FinishReflowChild
@@ -14634,7 +14644,7 @@ childDesiredSize
 childReflowState
 outerWM
 aFramePos
-aContainerWidth
+aContainerSize
 0
 )
 ;

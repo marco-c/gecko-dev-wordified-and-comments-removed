@@ -178,7 +178,9 @@ mSpace
 nscoord
 mICoord
 mBCoord
-mContainerWidth
+;
+nsSize
+mContainerSize
 ;
 mozilla
 :

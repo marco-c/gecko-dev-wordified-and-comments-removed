@@ -2218,8 +2218,10 @@ const
 LogicalMargin
 &
 aBorderPadding
-nscoord
-aContainerWidth
+const
+nsSize
+&
+aContainerSize
 )
 ;
 int32_t

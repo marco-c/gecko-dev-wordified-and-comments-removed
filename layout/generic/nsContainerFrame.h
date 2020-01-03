@@ -564,8 +564,10 @@ mozilla
 LogicalPoint
 &
 aPos
-nscoord
-aContainerWidth
+const
+nsSize
+&
+aContainerSize
 uint32_t
 aFlags
 nsReflowStatus
@@ -610,8 +612,10 @@ mozilla
 LogicalPoint
 &
 aPos
-nscoord
-aContainerWidth
+const
+nsSize
+&
+aContainerSize
 uint32_t
 aFlags
 )

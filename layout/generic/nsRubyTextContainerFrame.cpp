@@ -417,6 +417,10 @@ maxBCoord
 =
 nscoord_MIN
 ;
+const
+nsSize
+dummyContainerSize
+;
 for
 (
 nsFrameList
@@ -477,7 +481,7 @@ child
 GetLogicalRect
 (
 lineWM
-0
+dummyContainerSize
 )
 ;
 LogicalMargin
@@ -603,12 +607,12 @@ maxBCoord
 -
 minBCoord
 ;
-nscoord
-containerWidth
+nsSize
+containerSize
 =
 size
 .
-Width
+GetPhysicalSize
 (
 lineWM
 )
@@ -657,7 +661,7 @@ child
 GetLogicalPosition
 (
 lineWM
-0
+dummyContainerSize
 )
 ;
 pos
@@ -677,7 +681,7 @@ SetPosition
 (
 lineWM
 pos
-containerWidth
+containerSize
 )
 ;
 nsContainerFrame

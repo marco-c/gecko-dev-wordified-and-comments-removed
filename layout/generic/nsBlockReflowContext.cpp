@@ -1038,11 +1038,11 @@ GetWritingMode
 (
 )
 ;
-mContainerWidth
+mContainerSize
 =
 aState
 .
-ContainerWidth
+ContainerSize
 (
 )
 ;
@@ -1318,7 +1318,7 @@ space
 LineLeft
 (
 mWritingMode
-mContainerWidth
+mContainerSize
 )
 ;
 tB
@@ -1990,7 +1990,7 @@ BSize
 (
 mWritingMode
 )
-mContainerWidth
+mContainerSize
 )
 ;
 WritingMode
@@ -2017,11 +2017,11 @@ ConvertTo
 (
 frameWM
 mWritingMode
-mContainerWidth
+mContainerSize
 -
 mMetrics
 .
-Width
+PhysicalSize
 (
 )
 )
@@ -2046,7 +2046,7 @@ ApplyRelativePositioning
 (
 &
 logPos
-mContainerWidth
+mContainerSize
 )
 ;
 nsContainerFrame
@@ -2061,7 +2061,7 @@ mMetrics
 aReflowState
 frameWM
 logPos
-mContainerWidth
+mContainerSize
 0
 )
 ;
