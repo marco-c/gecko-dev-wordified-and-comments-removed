@@ -4091,24 +4091,13 @@ all_sources
 )
 )
         
-for
-unified_file
-source_filenames
-in
-unified_source_mapping
-:
-            
 self
 .
-_write_unified_file
+_write_unified_files
 (
-unified_file
-source_filenames
-                                     
+unified_source_mapping
 output_directory
-                                     
-poison_windows_h
-=
+                                  
 poison_windows_h
 )
         
