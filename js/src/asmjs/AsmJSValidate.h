@@ -132,7 +132,7 @@ AsmJSPageSize
 ;
 #
 ifdef
-JS_CODEGEN_X64
+JS_CPU_X64
 static
 const
 size_t

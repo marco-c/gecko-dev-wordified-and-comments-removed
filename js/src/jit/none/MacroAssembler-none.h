@@ -2845,6 +2845,8 @@ S
 &
 mem
 Register
+temp
+Register
 output
 )
 {
@@ -2871,6 +2873,8 @@ const
 S
 &
 mem
+Register
+temp
 Register
 output
 )
@@ -2899,6 +2903,8 @@ S
 &
 mem
 Register
+temp
+Register
 output
 )
 {
@@ -2925,6 +2931,8 @@ const
 S
 &
 mem
+Register
+temp
 Register
 output
 )
@@ -2953,6 +2961,8 @@ S
 &
 mem
 Register
+temp
+Register
 output
 )
 {
@@ -2979,6 +2989,8 @@ const
 S
 &
 mem
+Register
+temp
 Register
 output
 )
@@ -3007,6 +3019,8 @@ S
 &
 mem
 Register
+temp
+Register
 output
 )
 {
@@ -3033,6 +3047,8 @@ const
 S
 &
 mem
+Register
+temp
 Register
 output
 )
@@ -3061,6 +3077,8 @@ S
 &
 mem
 Register
+temp
+Register
 output
 )
 {
@@ -3087,6 +3105,8 @@ const
 S
 &
 mem
+Register
+temp
 Register
 output
 )
