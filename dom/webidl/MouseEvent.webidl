@@ -182,6 +182,16 @@ clientY
 ;
 readonly
 attribute
+long
+offsetX
+;
+readonly
+attribute
+long
+offsetY
+;
+readonly
+attribute
 boolean
 ctrlKey
 ;
