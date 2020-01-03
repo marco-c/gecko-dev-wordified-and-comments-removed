@@ -417,6 +417,12 @@ mozbrowserloadend
 onloadend2
 )
 ;
+iframe
+.
+focus
+(
+)
+;
 SimpleTest
 .
 executeSoon
