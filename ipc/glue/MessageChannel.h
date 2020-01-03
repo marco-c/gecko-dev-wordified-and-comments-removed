@@ -628,6 +628,11 @@ const
 char
 *
 aChannelName
+Message
+*
+aMsg
+=
+nullptr
 )
 const
 ;
