@@ -952,7 +952,7 @@ l10n
 get
 (
 "
-share_tabs_button_title
+share_tabs_button_title2
 "
 )
 )
