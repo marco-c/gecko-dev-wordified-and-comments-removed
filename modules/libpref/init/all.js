@@ -29904,7 +29904,7 @@ surfacecache
 .
 max_size_kb
 "
-1048576
+102400
 )
 ;
 pref
@@ -29918,7 +29918,7 @@ surfacecache
 .
 size_factor
 "
-4
+64
 )
 ;
 pref
