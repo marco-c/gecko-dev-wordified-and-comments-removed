@@ -315,6 +315,7 @@ true
 endif
 {
 }
+explicit
 LoadContext
 (
 nsIPrincipal
