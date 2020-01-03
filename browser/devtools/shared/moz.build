@@ -394,6 +394,13 @@ view
 js
 '
 '
+source
+-
+utils
+.
+js
+'
+'
 telemetry
 .
 js

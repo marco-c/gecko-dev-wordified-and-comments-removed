@@ -344,7 +344,7 @@ defer
 ;
 browserconsole
 .
-viewSource
+viewSourceInDebugger
 =
 (
 aURL
@@ -357,7 +357,7 @@ info
 "
 browserconsole
 .
-viewSource
+viewSourceInDebugger
 (
 )
 was
@@ -498,7 +498,7 @@ source
 ;
 browserconsole
 .
-viewSource
+viewSourceInDebugger
 =
 viewSource
 ;

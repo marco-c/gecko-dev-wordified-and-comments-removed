@@ -243,7 +243,7 @@ false
 ;
 hud
 .
-viewSource
+viewSourceInDebugger
 =
 (
 )
@@ -352,7 +352,7 @@ opened
 }
 hud
 .
-viewSource
+viewSourceInDebugger
 =
 viewSource
 ;
