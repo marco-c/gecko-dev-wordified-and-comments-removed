@@ -533,6 +533,11 @@ DoPause
 )
 ;
 void
+UpdateSourceContent
+(
+)
+;
+void
 FlushStyle
 (
 )
