@@ -630,7 +630,10 @@ HandleObject
 promise
 )
 ;
+JS_PUBLIC_API
+(
 void
+)
 onPromiseSettled
 (
 JSContext
