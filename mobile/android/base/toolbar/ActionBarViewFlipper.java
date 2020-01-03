@@ -88,6 +88,12 @@ onAttachedToWindow
 (
 )
 {
+super
+.
+onAttachedToWindow
+(
+)
+;
 if
 (
 NewTabletUI
