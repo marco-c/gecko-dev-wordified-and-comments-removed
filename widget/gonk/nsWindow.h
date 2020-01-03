@@ -93,12 +93,6 @@ nsWindow
 (
 )
 ;
-virtual
-~
-nsWindow
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 static
 void
@@ -570,6 +564,12 @@ gfx
 DrawTarget
 >
 mBackBuffer
+;
+virtual
+~
+nsWindow
+(
+)
 ;
 void
 BringToTop
