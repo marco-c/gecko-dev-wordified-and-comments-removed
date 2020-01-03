@@ -3404,6 +3404,13 @@ true
 ;
 enabledTextIds
 [
+TraceLogger_AlignmentMaskAnalysis
+]
+=
+true
+;
+enabledTextIds
+[
 TraceLogger_EliminateDeadCode
 ]
 =

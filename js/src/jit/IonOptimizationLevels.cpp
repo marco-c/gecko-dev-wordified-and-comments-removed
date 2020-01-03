@@ -150,6 +150,10 @@ initNormalOptimizationInfo
 (
 )
 ;
+ama_
+=
+true
+;
 level_
 =
 Optimization_AsmJS

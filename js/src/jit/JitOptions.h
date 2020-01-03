@@ -192,6 +192,9 @@ bool
 disableEaa
 ;
 bool
+disableAma
+;
+bool
 eagerCompilation
 ;
 mozilla

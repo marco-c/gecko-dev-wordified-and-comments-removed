@@ -223,6 +223,11 @@ EffectiveAddressAnalysis
 \
 _
 (
+AlignmentMaskAnalysis
+)
+\
+_
+(
 EliminateDeadCode
 )
 \

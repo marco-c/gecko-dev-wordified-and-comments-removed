@@ -432,6 +432,12 @@ false
 ;
 SET_DEFAULT
 (
+disableAma
+false
+)
+;
+SET_DEFAULT
+(
 eagerCompilation
 false
 )
