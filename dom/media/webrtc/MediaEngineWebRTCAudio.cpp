@@ -1580,7 +1580,7 @@ AudioSegment
 aStream
 -
 >
-AddTrack
+AddAudioTrack
 (
 aID
 SAMPLE_FREQUENCY

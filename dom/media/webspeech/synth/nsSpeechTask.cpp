@@ -564,7 +564,7 @@ AudioSegment
 mStream
 -
 >
-AddTrack
+AddAudioTrack
 (
 1
 aRate

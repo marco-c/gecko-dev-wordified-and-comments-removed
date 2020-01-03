@@ -1889,7 +1889,7 @@ AudioSegment
 mediaStream
 -
 >
-AddTrack
+AddAudioTrack
 (
 TRACK_AUDIO
 mInfo
@@ -1943,12 +1943,6 @@ mediaStream
 AddTrack
 (
 TRACK_VIDEO
-mediaStream
--
->
-GraphRate
-(
-)
 0
 video
 )

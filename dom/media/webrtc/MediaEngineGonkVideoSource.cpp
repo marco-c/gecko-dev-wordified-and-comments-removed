@@ -598,12 +598,6 @@ aStream
 AddTrack
 (
 aID
-aStream
--
->
-GraphRate
-(
-)
 0
 new
 VideoSegment
