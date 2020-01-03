@@ -34,6 +34,15 @@ GetThreadAssertionsEnabled
 ;
 static
 void
+SetControllerThread
+(
+MessageLoop
+*
+aLoop
+)
+;
+static
+void
 AssertOnControllerThread
 (
 )

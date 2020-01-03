@@ -515,6 +515,12 @@ GetComposer2D
 )
 override
 ;
+void
+ConfigureAPZControllerThread
+(
+)
+override
+;
 protected
 :
 nsWindow
