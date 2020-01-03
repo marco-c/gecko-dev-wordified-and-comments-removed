@@ -13514,6 +13514,14 @@ mEndTime
 ;
 }
 }
+mReader
+-
+>
+SetStartTime
+(
+mStartTime
+)
+;
 mAudioStartTime
 =
 mStartTime

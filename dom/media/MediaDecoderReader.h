@@ -378,6 +378,13 @@ IsMediaSeekable
 =
 0
 ;
+void
+SetStartTime
+(
+int64_t
+aStartTime
+)
+;
 protected
 :
 virtual
@@ -461,6 +468,9 @@ mInfo
 ;
 bool
 mIgnoreAudioOutputFormat
+;
+int64_t
+mStartTime
 ;
 private
 :
