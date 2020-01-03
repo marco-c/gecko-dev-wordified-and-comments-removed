@@ -39,6 +39,7 @@ PJavaScriptParent
 {
 public
 :
+explicit
 JavaScriptParent
 (
 JSRuntime

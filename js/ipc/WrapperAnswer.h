@@ -26,6 +26,7 @@ JavaScriptShared
 {
 public
 :
+explicit
 WrapperAnswer
 (
 JSRuntime

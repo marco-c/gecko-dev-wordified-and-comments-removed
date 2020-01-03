@@ -67,6 +67,7 @@ Answer
 ;
 public
 :
+explicit
 JavaScriptBase
 (
 JSRuntime

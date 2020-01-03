@@ -39,6 +39,7 @@ PJavaScriptChild
 {
 public
 :
+explicit
 JavaScriptChild
 (
 JSRuntime
