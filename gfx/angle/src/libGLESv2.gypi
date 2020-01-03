@@ -242,16 +242,6 @@ excludes
 d3d
 /
 *
-*
-/
-d3d9
-/
-*
-*
-/
-d3d11
-/
-*
 )
 '
 ]
@@ -315,6 +305,8 @@ d3d
 libGLESv2
 /
 renderer
+/
+d3d
 /
 d3d9
 \
@@ -409,6 +401,10 @@ d3d
 libGLESv2
 /
 renderer
+/
+d3d
+/
+d3d
 /
 d3d11
 \

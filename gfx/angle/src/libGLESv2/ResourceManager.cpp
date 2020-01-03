@@ -77,6 +77,17 @@ Fence
 .
 h
 "
+#
+include
+"
+libGLESv2
+/
+renderer
+/
+Renderer
+.
+h
+"
 namespace
 gl
 {
@@ -1505,6 +1516,11 @@ new
 Buffer
 (
 mRenderer
+-
+>
+createBuffer
+(
+)
 buffer
 )
 ;
@@ -1687,7 +1703,6 @@ renderbufferObject
 new
 Renderbuffer
 (
-mRenderer
 renderbuffer
 new
 Colorbuffer
