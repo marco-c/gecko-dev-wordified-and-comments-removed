@@ -1636,7 +1636,7 @@ MATHML_MATH
 "
 math
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_MATH
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_EQUATION
 ROLE_SYSTEM_EQUATION
@@ -1649,7 +1649,7 @@ MATHML_IDENTIFIER
 mathml
 identifier
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_STATIC
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1662,7 +1662,7 @@ MATHML_NUMBER
 mathml
 number
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_STATIC
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1675,7 +1675,7 @@ MATHML_OPERATOR
 mathml
 operator
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_STATIC
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1688,7 +1688,7 @@ MATHML_TEXT
 mathml
 text
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_STATIC
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1702,7 +1702,7 @@ mathml
 string
 literal
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_STATIC
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1715,7 +1715,7 @@ MATHML_GLYPH
 mathml
 glyph
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_IMAGE
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1728,7 +1728,7 @@ MATHML_ROW
 mathml
 row
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_PANEL
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1781,7 +1781,7 @@ MATHML_FENCED
 mathml
 fenced
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_PANEL
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1794,7 +1794,7 @@ MATHML_ENCLOSED
 mathml
 enclosed
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_PANEL
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1807,7 +1807,7 @@ MATHML_STYLE
 mathml
 style
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_PANEL
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1913,7 +1913,7 @@ MATHML_TABLE
 mathml
 table
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_TABLE
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1927,7 +1927,7 @@ mathml
 labeled
 row
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_TABLE_ROW
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1941,7 +1941,7 @@ mathml
 table
 row
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_TABLE_ROW
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1954,7 +1954,7 @@ MATHML_CELL
 mathml
 cell
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_TABLE_CELL
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1980,7 +1980,7 @@ MATHML_ERROR
 mathml
 error
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_PANEL
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
