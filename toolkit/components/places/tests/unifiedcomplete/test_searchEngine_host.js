@@ -436,6 +436,7 @@ addVisits
 visits
 )
 ;
+yield
 addBookmark
 (
 {

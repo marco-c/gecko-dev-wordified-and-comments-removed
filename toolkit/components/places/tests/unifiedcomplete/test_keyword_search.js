@@ -82,6 +82,7 @@ title
 ]
 )
 ;
+yield
 addBookmark
 (
 {
@@ -582,6 +583,7 @@ title
 ]
 )
 ;
+yield
 addBookmark
 (
 {

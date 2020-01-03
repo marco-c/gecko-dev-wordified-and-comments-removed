@@ -366,6 +366,7 @@ title1
 ]
 )
 ;
+yield
 addBookmark
 (
 {
@@ -387,6 +388,7 @@ matchme2
 }
 )
 ;
+yield
 addBookmark
 (
 {

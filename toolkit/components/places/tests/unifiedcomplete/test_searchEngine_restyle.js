@@ -164,6 +164,7 @@ Search
 }
 )
 ;
+yield
 addBookmark
 (
 {

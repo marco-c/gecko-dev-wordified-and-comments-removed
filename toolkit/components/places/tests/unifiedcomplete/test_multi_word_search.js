@@ -211,6 +211,7 @@ r
 ]
 )
 ;
+yield
 addBookmark
 (
 {
@@ -234,6 +235,7 @@ r
 }
 )
 ;
+yield
 addBookmark
 (
 {

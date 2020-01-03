@@ -56,6 +56,7 @@ title
 }
 )
 ;
+yield
 addBookmark
 (
 {

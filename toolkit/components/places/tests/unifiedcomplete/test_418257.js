@@ -119,6 +119,7 @@ tagged
 ]
 )
 ;
+yield
 addBookmark
 (
 {
@@ -140,6 +141,7 @@ tag1
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -164,6 +166,7 @@ tag2
 }
 )
 ;
+yield
 addBookmark
 (
 {
@@ -188,6 +191,7 @@ tag3
 }
 )
 ;
+yield
 addBookmark
 (
 {
