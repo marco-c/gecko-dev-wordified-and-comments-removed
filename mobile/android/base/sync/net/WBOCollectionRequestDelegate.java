@@ -53,14 +53,6 @@ SyncStorageCollectionRequestDelegate
 implements
 KeyBundleProvider
 {
-Override
-public
-abstract
-KeyBundle
-keyBundle
-(
-)
-;
 public
 abstract
 void

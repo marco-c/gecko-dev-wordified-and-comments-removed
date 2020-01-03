@@ -1339,14 +1339,6 @@ getLayout
 (
 )
 ;
-Override
-abstract
-public
-boolean
-hasTabsSideBar
-(
-)
-;
 abstract
 protected
 String
