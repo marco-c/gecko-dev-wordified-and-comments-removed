@@ -48,6 +48,9 @@ namespace
 plugins
 {
 class
+PluginAsyncSurrogate
+;
+class
 PluginInstanceParent
 ;
 class
