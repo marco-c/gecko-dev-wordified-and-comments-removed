@@ -16778,9 +16778,8 @@ processor
 mFontgrp
 -
 >
-GetFontAt
+GetFirstValidFont
 (
-0
 )
 -
 >

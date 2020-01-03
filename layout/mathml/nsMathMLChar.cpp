@@ -2170,9 +2170,8 @@ AddGlyphRun
 aFontGroup
 -
 >
-GetFontAt
+GetFirstValidFont
 (
-0
 )
 gfxTextRange
 :
@@ -2211,9 +2210,8 @@ aAppUnitsPerDevPixel
 aFontGroup
 -
 >
-GetFontAt
+GetFirstValidFont
 (
-0
 )
 -
 >
@@ -3601,9 +3599,8 @@ GetThebesFontGroup
 )
 -
 >
-GetFontAt
+GetFirstValidFont
 (
-0
 )
 ;
 FontFamilyList
@@ -5940,9 +5937,8 @@ Create
 fontGroup
 -
 >
-GetFontAt
+GetFirstValidFont
 (
-0
 )
 )
 ;

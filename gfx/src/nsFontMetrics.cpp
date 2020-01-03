@@ -752,9 +752,8 @@ return
 mFontGroup
 -
 >
-GetFontAt
+GetFirstValidFont
 (
-0
 )
 -
 >
