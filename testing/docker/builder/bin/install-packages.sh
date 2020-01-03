@@ -19,6 +19,8 @@ if
 -
 d
 "
+gecko_dir
+/
 gcc
 "
 ]
@@ -66,6 +68,8 @@ if
 -
 d
 "
+gecko_dir
+/
 sccache
 "
 ]
@@ -159,6 +163,8 @@ if
 -
 d
 "
+gecko_dir
+/
 moztt
 "
 ]
