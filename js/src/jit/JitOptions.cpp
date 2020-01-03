@@ -351,7 +351,7 @@ false
 SET_DEFAULT
 (
 disableSink
-false
+true
 )
 ;
 SET_DEFAULT
