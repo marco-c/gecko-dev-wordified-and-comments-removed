@@ -3008,6 +3008,9 @@ STK_PRESENTATION_TYPE_NOT_SPECIFIED
 options
 :
 {
+title
+:
+null
 items
 :
 [
@@ -3485,6 +3488,9 @@ true
 isHelpAvailable
 :
 true
+defaultText
+:
+null
 iconSelfExplanatory
 :
 false
@@ -3547,6 +3553,9 @@ true
 isHelpAvailable
 :
 false
+defaultText
+:
+null
 iconSelfExplanatory
 :
 true
@@ -3771,6 +3780,9 @@ commandQualifier
 options
 :
 {
+text
+:
+null
 isVibrate
 :
 true
@@ -3923,6 +3935,9 @@ commandQualifier
 options
 :
 {
+text
+:
+null
 }
 }
 {
@@ -4008,6 +4023,9 @@ commandQualifier
 options
 :
 {
+text
+:
+null
 iconSelfExplanatory
 :
 false
