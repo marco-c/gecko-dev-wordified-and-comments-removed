@@ -337,9 +337,6 @@ aOwner
 ;
 mIsMainThreadEvent
 =
-mOwner
-|
-|
 NS_IsMainThread
 (
 )
