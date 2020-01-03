@@ -1018,7 +1018,6 @@ GetOwner
 )
 this
 promise
-aServiceId
 )
 ;
 nsresult

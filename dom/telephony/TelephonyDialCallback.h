@@ -139,8 +139,6 @@ aTelephony
 Promise
 *
 aPromise
-uint32_t
-aServiceId
 )
 ;
 NS_FORWARD_NSITELEPHONYCALLBACK
@@ -180,9 +178,6 @@ nsRefPtr
 Telephony
 >
 mTelephony
-;
-uint32_t
-mServiceId
 ;
 nsString
 mServiceCode
