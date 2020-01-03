@@ -14881,7 +14881,7 @@ BytecodeEmitter
 bce
 ParseNode
 *
-pn
+pattern
 VarEmitOption
 emitOption
 )
@@ -15511,7 +15511,7 @@ BytecodeEmitter
 bce
 ParseNode
 *
-pn
+pattern
 VarEmitOption
 emitOption
 )
@@ -15559,7 +15559,7 @@ stackDepth
 ;
 JS_ASSERT
 (
-pn
+pattern
 -
 >
 isArity
@@ -15570,7 +15570,7 @@ PN_LIST
 ;
 JS_ASSERT
 (
-pn
+pattern
 -
 >
 isKind
@@ -15579,7 +15579,7 @@ PNK_ARRAY
 )
 |
 |
-pn
+pattern
 -
 >
 isKind
@@ -15592,7 +15592,7 @@ PNK_OBJECT
 endif
 if
 (
-pn
+pattern
 -
 >
 isKind
@@ -15645,7 +15645,7 @@ for
 (
 pn2
 =
-pn
+pattern
 -
 >
 pn_head
@@ -15662,7 +15662,7 @@ pn_next
 {
 if
 (
-pn
+pattern
 -
 >
 isKind
@@ -15913,7 +15913,7 @@ else
 {
 JS_ASSERT
 (
-pn
+pattern
 -
 >
 isKind
@@ -16059,7 +16059,7 @@ EmitIteratorNext
 (
 cx
 bce
-pn
+pattern
 )
 )
 return
@@ -16256,7 +16256,7 @@ PNK_ELISION
 {
 JS_ASSERT
 (
-pn
+pattern
 -
 >
 isKind
@@ -16321,7 +16321,7 @@ PushInitialValues
 &
 &
 (
-pn
+pattern
 -
 >
 isKind
@@ -16446,7 +16446,7 @@ emitOption
 PushInitialValues
 &
 &
-pn
+pattern
 -
 >
 isKind
@@ -16486,7 +16486,7 @@ BytecodeEmitter
 bce
 ParseNode
 *
-pn
+pattern
 bool
 isLet
 =
@@ -16507,7 +16507,7 @@ EmitDestructuringOpsHelper
 (
 cx
 bce
-pn
+pattern
 emitOption
 )
 ;
