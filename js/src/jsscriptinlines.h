@@ -714,6 +714,10 @@ baseline
 =
 baselineScript
 ;
+resetWarmUpResetCounter
+(
+)
+;
 updateBaselineOrIonRaw
 (
 maybecx

@@ -4394,6 +4394,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineTrue
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineBoundFunction
 (
 CallInfo

@@ -60,6 +60,13 @@ nestedShell
 )
 continue
 ;
+print
+(
+e
+.
+name
+)
+;
 try
 {
 e
