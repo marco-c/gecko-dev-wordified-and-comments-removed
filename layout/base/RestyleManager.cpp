@@ -6849,11 +6849,6 @@ mPostAnimationRestyles
 =
 true
 ;
-aRestyleHint
-|
-=
-eRestyle_ChangeAnimationPhaseDescendants
-;
 DoRebuildAllStyleData
 (
 mPendingRestyles
@@ -6924,6 +6919,11 @@ rv
 return
 ;
 }
+aRestyleHint
+|
+=
+eRestyle_ChangeAnimationPhaseDescendants
+;
 aRestyleHint
 =
 aRestyleHint
