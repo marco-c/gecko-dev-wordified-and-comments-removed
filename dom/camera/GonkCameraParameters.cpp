@@ -455,7 +455,7 @@ pos
 break
 ;
 }
-nsAutoCString
+nsDependentCSubstring
 key
 (
 data
