@@ -1389,6 +1389,10 @@ mFlashProcess2
 ;
 #
 endif
+UnregisterSettingsCallbacks
+(
+)
+;
 Preferences
 :
 :
@@ -1430,10 +1434,6 @@ UnregisterCallback
 TimeoutChanged
 kHangUIMinDisplayPref
 this
-)
-;
-UnregisterSettingsCallbacks
-(
 )
 ;
 if
