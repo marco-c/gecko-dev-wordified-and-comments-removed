@@ -303,7 +303,7 @@ gecko
 .
 tabs
 .
-TabsTray
+TabsListLayout
 android
 :
 id

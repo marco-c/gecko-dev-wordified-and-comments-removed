@@ -260,7 +260,7 @@ widget
 TextView
 ;
 class
-TabsTray
+TabsListLayout
 extends
 TwoWayView
 implements
@@ -278,7 +278,7 @@ LOGTAG
 Gecko
 "
 +
-TabsTray
+TabsListLayout
 .
 class
 .
@@ -343,7 +343,7 @@ int
 mOriginalSize
 ;
 public
-TabsTray
+TabsListLayout
 (
 Context
 context
@@ -913,7 +913,7 @@ RECORDING_CHANGE
 View
 view
 =
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -924,7 +924,7 @@ getPositionForTab
 tab
 )
 -
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -1068,7 +1068,7 @@ selected
 1
 )
 {
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -1105,7 +1105,7 @@ i
 +
 )
 {
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -1798,7 +1798,7 @@ autoHidePanel
 (
 )
 ;
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -2422,7 +2422,7 @@ ViewConfiguration
 .
 get
 (
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -2576,7 +2576,7 @@ mListHeight
 {
 mListWidth
 =
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -2586,7 +2586,7 @@ getWidth
 ;
 mListHeight
 =
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -3201,7 +3201,7 @@ mSwiping
 =
 true
 ;
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -3265,7 +3265,7 @@ ACTION_POINTER_INDEX_SHIFT
 )
 )
 ;
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -3387,7 +3387,7 @@ int
 2
 ]
 ;
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -3431,7 +3431,7 @@ i
 ;
 i
 <
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -3447,7 +3447,7 @@ i
 View
 child
 =
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -3501,7 +3501,7 @@ CheckForTap
 (
 )
 ;
-TabsTray
+TabsListLayout
 .
 this
 .
@@ -3531,7 +3531,7 @@ null
 )
 return
 ;
-TabsTray
+TabsListLayout
 .
 this
 .

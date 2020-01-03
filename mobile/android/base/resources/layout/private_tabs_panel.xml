@@ -378,7 +378,7 @@ reason
 scrolling
 in
 the
-TabsTray
+TabsListLayout
 does
 not
 work
@@ -404,7 +404,7 @@ gecko
 .
 tabs
 .
-TabsTray
+TabsListLayout
 android
 :
 id

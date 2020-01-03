@@ -2749,14 +2749,14 @@ java
 '
 tabs
 /
-TabsPanel
+TabsListLayout
 .
 java
 '
 '
 tabs
 /
-TabsTray
+TabsPanel
 .
 java
 '
