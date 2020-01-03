@@ -53832,7 +53832,7 @@ types
 )
 {
 size_t
-scaledOffsetConstant
+index
 =
 offset
 /
@@ -53843,7 +53843,7 @@ unboxedType
 ;
 MInstruction
 *
-scaledOffset
+indexConstant
 =
 MConstant
 :
@@ -53855,7 +53855,7 @@ alloc
 )
 Int32Value
 (
-scaledOffsetConstant
+index
 )
 )
 ;
@@ -53864,7 +53864,7 @@ current
 >
 add
 (
-scaledOffset
+indexConstant
 )
 ;
 return
@@ -53877,7 +53877,7 @@ UnboxedPlainObject
 offsetOfData
 (
 )
-scaledOffset
+indexConstant
 unboxedType
 barrier
 types
@@ -53898,7 +53898,7 @@ size_t
 elementsOffset
 MDefinition
 *
-scaledOffset
+index
 JSValueType
 unboxedType
 BarrierKind
@@ -53931,7 +53931,7 @@ alloc
 (
 )
 elements
-scaledOffset
+index
 Scalar
 :
 :
@@ -53964,7 +53964,7 @@ alloc
 (
 )
 elements
-scaledOffset
+index
 Scalar
 :
 :
@@ -53997,7 +53997,7 @@ alloc
 (
 )
 elements
-scaledOffset
+index
 Scalar
 :
 :
@@ -54031,7 +54031,7 @@ alloc
 (
 )
 elements
-scaledOffset
+index
 elementsOffset
 )
 ;
@@ -54097,7 +54097,7 @@ alloc
 (
 )
 elements
-scaledOffset
+index
 nullBehavior
 elementsOffset
 )
