@@ -3,10 +3,7 @@ use
 strict
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *
@@ -110,12 +107,6 @@ assertLayoutView
 (
 inspector
 view
-)
-;
-yield
-destroyToolbox
-(
-inspector
 )
 ;
 }
