@@ -184,6 +184,16 @@ aCloneDonor
 MOZ_OVERRIDE
 ;
 virtual
+nsRefPtr
+<
+ShutdownPromise
+>
+Shutdown
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 nsresult
 ResetDecode
 (
