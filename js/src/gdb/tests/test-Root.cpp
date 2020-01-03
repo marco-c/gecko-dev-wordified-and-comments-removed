@@ -17,7 +17,7 @@ h
 #
 include
 "
-jsobj
+jsfun
 .
 h
 "

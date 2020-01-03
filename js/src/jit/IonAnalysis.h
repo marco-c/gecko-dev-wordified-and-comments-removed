@@ -552,7 +552,7 @@ sum
 )
 ;
 bool
-AnalyzeNewScriptProperties
+AnalyzeNewScriptDefiniteProperties
 (
 JSContext
 *

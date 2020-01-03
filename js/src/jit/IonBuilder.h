@@ -4062,7 +4062,7 @@ bool
 testString
 )
 ;
-bool
+uint32_t
 getDefiniteSlot
 (
 types
@@ -4074,12 +4074,6 @@ types
 PropertyName
 *
 name
-types
-:
-:
-HeapTypeSetKey
-*
-property
 )
 ;
 bool

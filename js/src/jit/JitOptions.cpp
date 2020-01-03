@@ -10,7 +10,7 @@ h
 #
 include
 "
-jsscript
+jsfun
 .
 h
 "

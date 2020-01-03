@@ -1919,6 +1919,8 @@ HandleObject
 obj
 HandleShape
 oldShape
+HandleTypeObject
+oldType
 bool
 checkTypeset
 )
@@ -3872,6 +3874,8 @@ HandleObject
 obj
 HandleShape
 oldShape
+HandleTypeObject
+oldType
 bool
 checkTypeset
 )

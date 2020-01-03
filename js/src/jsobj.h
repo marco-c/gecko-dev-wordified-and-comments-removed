@@ -776,9 +776,8 @@ HandleShape
 shape
 )
 ;
-inline
 void
-setLastPropertyInfallible
+setLastPropertyShrinkFixedSlots
 (
 js
 :
