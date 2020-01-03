@@ -5,7 +5,7 @@ bin
 /
 bash
 -
-vex
+ex
 test
 MOZHARNESS_REPOSITORY
 #
@@ -173,6 +173,11 @@ mozharness
 ]
 ;
 then
+buildbot_step
+'
+Checkout
+mozharness
+'
 tc
 -
 vcs
@@ -182,4 +187,8 @@ MOZHARNESS_REPOSITORY
 MOZHARNESS_REPOSITORY
 MOZHARNESS_REV
 fi
-eval
+buildbot_step
+'
+Running
+tests
+'
