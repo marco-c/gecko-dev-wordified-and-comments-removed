@@ -20300,7 +20300,14 @@ An
 accessibility
 tool
 is
+or
+was
 active
+.
+See
+bug
+1115956
+.
 "
 )
 ;
