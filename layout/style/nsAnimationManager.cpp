@@ -150,8 +150,6 @@ CSSAnimationPlayer
 :
 Play
 (
-UpdateFlags
-aUpdateFlags
 )
 {
 mPauseShouldStick
@@ -163,7 +161,6 @@ AnimationPlayer
 :
 Play
 (
-aUpdateFlags
 )
 ;
 }
@@ -173,8 +170,6 @@ CSSAnimationPlayer
 :
 Pause
 (
-UpdateFlags
-aUpdateFlags
 )
 {
 mPauseShouldStick
@@ -186,7 +181,6 @@ AnimationPlayer
 :
 Pause
 (
-aUpdateFlags
 )
 ;
 }
@@ -256,12 +250,8 @@ if
 mPauseShouldStick
 )
 {
-AnimationPlayer
-:
-:
-Play
+DoPlay
 (
-eNoUpdate
 )
 ;
 }
@@ -286,12 +276,8 @@ mIsStylePaused
 =
 true
 ;
-AnimationPlayer
-:
-:
-Pause
+DoPause
 (
-eNoUpdate
 )
 ;
 }
