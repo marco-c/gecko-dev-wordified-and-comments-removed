@@ -23,13 +23,6 @@ h
 #
 include
 "
-WebGLBindableName
-.
-h
-"
-#
-include
-"
 WebGLObjectModel
 .
 h
@@ -43,11 +36,6 @@ final
 :
 public
 nsWrapperCache
-public
-WebGLBindableName
-<
-GLenum
->
 public
 WebGLRefCountedObject
 <
@@ -76,6 +64,10 @@ webgl
 GLuint
 sampler
 )
+;
+const
+GLuint
+mGLName
 ;
 void
 Delete
