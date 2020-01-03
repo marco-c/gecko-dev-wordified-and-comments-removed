@@ -141,7 +141,6 @@ mk
 GARBAGE_DIRS
 +
 =
-dist
 _javagen
 _profile
 staticlib
@@ -938,6 +937,8 @@ automation
 .
 mk
 #
+dist
+and
 _tests
 should
 be
@@ -951,15 +952,15 @@ don
 '
 t
 want
-it
-purged
+them
 #
+purged
 during
 PGO
 builds
 because
-it
-contains
+they
+contain
 some
 auto
 -
@@ -981,6 +982,7 @@ MAKECMDGOALS
 GARBAGE_DIRS
 +
 =
+dist
 _tests
 endif
 #
