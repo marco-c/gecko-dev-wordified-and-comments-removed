@@ -15,6 +15,11 @@ test
 malware
 -
 simple
+test
+-
+unwanted
+-
+simple
 "
 )
 ;
