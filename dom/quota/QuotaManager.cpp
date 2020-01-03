@@ -479,14 +479,6 @@ dom
 namespace
 quota
 {
-using
-DirectoryLock
-=
-QuotaManager
-:
-:
-DirectoryLock
-;
 namespace
 {
 static_assert
@@ -673,9 +665,6 @@ UNKNOWN_APP_ID
 ;
 }
 class
-QuotaManager
-:
-:
 DirectoryLockImpl
 final
 :
@@ -1648,10 +1637,9 @@ mDefaultStorageGroupInfo
 ;
 }
 ;
+namespace
+{
 class
-QuotaManager
-:
-:
 CollectOriginsHelper
 final
 :
@@ -1672,9 +1660,6 @@ nsTArray
 <
 nsRefPtr
 <
-QuotaManager
-:
-:
 DirectoryLockImpl
 >
 >
@@ -1729,8 +1714,6 @@ Run
 ;
 }
 ;
-namespace
-{
 class
 OriginOperationBase
 :
@@ -2383,11 +2366,7 @@ SendResults
 }
 }
 ;
-}
 class
-QuotaManager
-:
-:
 FinalizeOriginEvictionOp
 :
 public
@@ -2478,8 +2457,6 @@ override
 ;
 }
 ;
-namespace
-{
 template
 <
 typename
@@ -5658,9 +5635,6 @@ NS_OK
 ;
 }
 }
-QuotaManager
-:
-:
 DirectoryLockImpl
 :
 :
@@ -5885,9 +5859,6 @@ aOpenListener
 )
 ;
 }
-QuotaManager
-:
-:
 DirectoryLockImpl
 :
 :
@@ -5942,9 +5913,6 @@ this
 ;
 }
 bool
-QuotaManager
-:
-:
 DirectoryLockImpl
 :
 :
@@ -6074,9 +6042,6 @@ match
 ;
 }
 bool
-QuotaManager
-:
-:
 DirectoryLockImpl
 :
 :
@@ -6217,9 +6182,6 @@ true
 ;
 }
 void
-QuotaManager
-:
-:
 DirectoryLockImpl
 :
 :
@@ -6283,9 +6245,6 @@ this
 }
 NS_IMPL_ISUPPORTS0
 (
-QuotaManager
-:
-:
 DirectoryLockImpl
 )
 ;
@@ -6785,9 +6744,6 @@ nsAutoTArray
 <
 nsRefPtr
 <
-QuotaManager
-:
-:
 DirectoryLockImpl
 >
 10
@@ -6842,9 +6798,6 @@ for
 (
 nsRefPtr
 <
-QuotaManager
-:
-:
 DirectoryLockImpl
 >
 &
@@ -6935,9 +6888,6 @@ come
 ;
 for
 (
-QuotaManager
-:
-:
 DirectoryLockImpl
 *
 lock
@@ -17700,9 +17650,6 @@ value
 ;
 }
 }
-QuotaManager
-:
-:
 CollectOriginsHelper
 :
 :
@@ -17766,9 +17713,6 @@ AssertCurrentThreadOwns
 ;
 }
 int64_t
-QuotaManager
-:
-:
 CollectOriginsHelper
 :
 :
@@ -17828,9 +17772,6 @@ mSizeToBeFreed
 ;
 }
 NS_IMETHODIMP
-QuotaManager
-:
-:
 CollectOriginsHelper
 :
 :
@@ -20127,9 +20068,6 @@ NS_OK
 ;
 }
 void
-QuotaManager
-:
-:
 FinalizeOriginEvictionOp
 :
 :
@@ -20170,9 +20108,6 @@ this
 ;
 }
 void
-QuotaManager
-:
-:
 FinalizeOriginEvictionOp
 :
 :
@@ -20211,9 +20146,6 @@ Run
 ;
 }
 nsresult
-QuotaManager
-:
-:
 FinalizeOriginEvictionOp
 :
 :
@@ -20235,9 +20167,6 @@ here
 ;
 }
 nsresult
-QuotaManager
-:
-:
 FinalizeOriginEvictionOp
 :
 :
@@ -20326,9 +20255,6 @@ NS_OK
 ;
 }
 void
-QuotaManager
-:
-:
 FinalizeOriginEvictionOp
 :
 :

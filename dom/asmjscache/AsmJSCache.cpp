@@ -1943,9 +1943,6 @@ dom
 quota
 :
 :
-QuotaManager
-:
-:
 DirectoryLock
 DirectoryLock
 ;
