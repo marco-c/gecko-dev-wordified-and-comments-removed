@@ -614,4 +614,15 @@ aRequest
 )
 {
 }
+this
+.
+hasTransparency
+=
+function
+hasTransparency
+(
+aRequest
+)
+{
+}
 }

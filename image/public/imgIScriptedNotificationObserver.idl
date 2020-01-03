@@ -177,5 +177,13 @@ imgIRequest
 aRequest
 )
 ;
+void
+hasTransparency
+(
+in
+imgIRequest
+aRequest
+)
+;
 }
 ;
