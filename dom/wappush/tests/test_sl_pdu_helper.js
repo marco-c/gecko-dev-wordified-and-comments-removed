@@ -307,7 +307,6 @@ com
 >
 "
 ;
-let
 msg
 =
 SL
@@ -461,7 +460,6 @@ com
 >
 "
 ;
-let
 msg
 =
 SL
@@ -587,7 +585,6 @@ com
 >
 "
 ;
-let
 msg
 =
 SL

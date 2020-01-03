@@ -125,7 +125,6 @@ true
 )
 ;
 }
-let
 event
 =
 yield

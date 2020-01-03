@@ -1460,7 +1460,6 @@ type
 "
 )
 ;
-let
 db
 =
 event

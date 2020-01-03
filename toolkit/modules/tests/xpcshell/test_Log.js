@@ -1202,7 +1202,6 @@ errored
 )
 ;
 }
-let
 errored
 =
 false
@@ -1258,7 +1257,6 @@ errored
 )
 ;
 }
-let
 appender
 =
 new
@@ -1272,7 +1270,6 @@ StructuredFormatter
 )
 )
 ;
-let
 logger
 =
 Log
@@ -2672,7 +2669,6 @@ value
 '
 )
 ;
-let
 ob
 =
 function
@@ -3158,7 +3154,6 @@ NS_ERROR_FAILURE
 )
 )
 ;
-let
 str
 =
 formatMessage
@@ -3193,7 +3188,6 @@ exception
 )
 )
 ;
-let
 str
 =
 formatMessage
@@ -3234,7 +3228,6 @@ exception
 )
 )
 ;
-let
 str
 =
 formatMessage
@@ -3276,7 +3269,6 @@ _error
 )
 )
 ;
-let
 str
 =
 formatMessage
@@ -3305,7 +3297,6 @@ exception
 )
 )
 ;
-let
 str
 =
 formatMessage

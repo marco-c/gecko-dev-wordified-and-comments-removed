@@ -137,7 +137,6 @@ json
 "
 )
 ;
-let
 files
 =
 bookmarksBackupDir

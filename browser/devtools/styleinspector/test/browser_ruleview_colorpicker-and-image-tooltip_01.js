@@ -463,7 +463,6 @@ link
 "
 )
 ;
-let
 anchor
 =
 yield

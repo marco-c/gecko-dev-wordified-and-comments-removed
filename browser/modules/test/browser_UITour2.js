@@ -783,7 +783,6 @@ tab
 "
 )
 ;
-let
 tabInfo
 =
 UITour

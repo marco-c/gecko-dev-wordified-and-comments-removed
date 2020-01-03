@@ -96,7 +96,6 @@ dbOpener
 file
 )
 ;
-let
 stmt
 =
 db

@@ -3437,7 +3437,6 @@ p8
 "
 )
 ;
-let
 __proto__
 =
 someProp6

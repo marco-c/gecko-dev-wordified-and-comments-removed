@@ -680,7 +680,6 @@ cookie
 )
 ;
 }
-let
 cookie
 =
 new

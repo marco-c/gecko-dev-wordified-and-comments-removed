@@ -467,7 +467,6 @@ terms
 "
 )
 ;
-let
 result
 =
 PlacesSearchAutocompleteProvider

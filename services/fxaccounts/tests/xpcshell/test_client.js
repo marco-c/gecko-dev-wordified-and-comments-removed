@@ -1764,7 +1764,6 @@ result
 keyFetchToken
 )
 ;
-let
 result
 =
 yield
@@ -1812,7 +1811,6 @@ result
 keyFetchToken
 )
 ;
-let
 result
 =
 yield

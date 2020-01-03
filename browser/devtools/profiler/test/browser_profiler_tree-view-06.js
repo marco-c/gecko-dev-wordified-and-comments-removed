@@ -221,7 +221,6 @@ zoom
 )
 )
 ;
-let
 eventItem
 =
 yield

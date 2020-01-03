@@ -32,8 +32,6 @@ node
 ;
 let
 [
-_
-_
 created
 ]
 =

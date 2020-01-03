@@ -1979,7 +1979,6 @@ prepareTest
 (
 )
 ;
-let
 promisePreventPopup
 =
 promiseEvent

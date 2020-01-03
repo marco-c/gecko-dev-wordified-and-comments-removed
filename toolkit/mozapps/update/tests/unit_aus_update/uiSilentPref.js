@@ -260,7 +260,6 @@ do_check_true
 true
 )
 ;
-let
 registrar
 =
 Components

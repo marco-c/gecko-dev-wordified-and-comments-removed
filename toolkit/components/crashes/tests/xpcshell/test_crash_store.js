@@ -3980,7 +3980,6 @@ SUBMISSION_RESULT_OK
 )
 )
 ;
-let
 submission
 =
 s

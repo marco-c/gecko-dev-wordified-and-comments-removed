@@ -924,7 +924,6 @@ non
 -
 null
 aRootDir
-let
 profile
 =
 gProfileService

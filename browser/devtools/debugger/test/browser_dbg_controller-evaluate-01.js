@@ -479,7 +479,6 @@ properly
 "
 )
 ;
-let
 updatedView
 =
 waitForDebuggerEvents

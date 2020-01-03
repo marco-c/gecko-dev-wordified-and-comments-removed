@@ -79,7 +79,6 @@ CustomizableUI
 AREA_NAVBAR
 )
 ;
-let
 personalbar
 =
 document

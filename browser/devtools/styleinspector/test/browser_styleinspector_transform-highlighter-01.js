@@ -231,7 +231,6 @@ openComputedView
 (
 )
 ;
-let
 overlay
 =
 cView
@@ -259,7 +258,6 @@ view
 "
 )
 ;
-let
 h
 =
 yield
@@ -311,7 +309,6 @@ created
 "
 )
 ;
-let
 h2
 =
 yield

@@ -355,7 +355,6 @@ onsuccess
 =
 grabEventAndContinueHandler
 ;
-let
 event
 =
 yield

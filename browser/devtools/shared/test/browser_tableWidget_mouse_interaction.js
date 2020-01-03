@@ -961,7 +961,6 @@ it
 "
 )
 ;
-let
 event
 =
 table
@@ -1024,7 +1023,6 @@ click
 node2
 )
 ;
-let
 id
 =
 yield
@@ -1118,7 +1116,6 @@ node
 "
 )
 ;
-let
 event
 =
 table
@@ -1132,7 +1129,6 @@ EVENTS
 COLUMN_SORTED
 )
 ;
-let
 node
 =
 table
@@ -1244,7 +1240,6 @@ click
 node
 )
 ;
-let
 id
 =
 yield
@@ -1336,7 +1331,6 @@ column
 "
 )
 ;
-let
 event
 =
 Promise
@@ -1393,7 +1387,6 @@ header
 "
 )
 ;
-let
 node
 =
 table
@@ -1484,7 +1477,6 @@ column
 "
 )
 ;
-let
 event
 =
 table
@@ -1498,7 +1490,6 @@ EVENTS
 HEADER_CONTEXT_MENU
 )
 ;
-let
 node
 =
 table
@@ -1566,7 +1557,6 @@ click
 node
 )
 ;
-let
 id
 =
 yield
@@ -1619,7 +1609,6 @@ it
 "
 )
 ;
-let
 event
 =
 Promise
@@ -1676,7 +1665,6 @@ header
 "
 )
 ;
-let
 node
 =
 table
@@ -1726,7 +1714,6 @@ disabled
 "
 )
 ;
-let
 event
 =
 table
@@ -1740,7 +1727,6 @@ EVENTS
 HEADER_CONTEXT_MENU
 )
 ;
-let
 node
 =
 table
@@ -1808,7 +1794,6 @@ click
 node
 )
 ;
-let
 id
 =
 yield
@@ -1861,7 +1846,6 @@ it
 "
 )
 ;
-let
 event
 =
 Promise
@@ -1918,7 +1902,6 @@ header
 "
 )
 ;
-let
 node
 =
 table
@@ -2062,7 +2045,6 @@ column
 "
 )
 ;
-let
 event
 =
 table
@@ -2076,7 +2058,6 @@ EVENTS
 HEADER_CONTEXT_MENU
 )
 ;
-let
 node
 =
 table
@@ -2145,7 +2126,6 @@ click
 node
 )
 ;
-let
 id
 =
 yield
@@ -2197,7 +2177,6 @@ it
 "
 )
 ;
-let
 event
 =
 Promise
@@ -2254,7 +2233,6 @@ header
 "
 )
 ;
-let
 node
 =
 table
@@ -2278,7 +2256,6 @@ event
 .
 promise
 ;
-let
 event
 =
 table
@@ -2292,7 +2269,6 @@ EVENTS
 HEADER_CONTEXT_MENU
 )
 ;
-let
 node
 =
 table
@@ -2361,7 +2337,6 @@ click
 node
 )
 ;
-let
 id
 =
 yield

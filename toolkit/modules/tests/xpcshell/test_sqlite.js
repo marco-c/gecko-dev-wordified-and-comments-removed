@@ -4252,7 +4252,6 @@ bindings
 ]
 )
 ;
-let
 result
 =
 yield

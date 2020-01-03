@@ -611,7 +611,6 @@ writeByte
 0
 )
 ;
-let
 dataLength
 =
 pdu

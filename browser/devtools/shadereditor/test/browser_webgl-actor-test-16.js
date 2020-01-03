@@ -152,7 +152,6 @@ front
 2
 )
 ;
-let
 programs
 =
 yield
@@ -230,7 +229,6 @@ cache
 "
 )
 ;
-let
 allPrograms
 =
 yield
@@ -322,7 +320,6 @@ globalCreated
 ]
 )
 ;
-let
 allPrograms
 =
 yield
@@ -350,7 +347,6 @@ cache
 "
 )
 ;
-let
 programs
 =
 yield
@@ -415,7 +411,6 @@ forward
 "
 )
 ;
-let
 globalDestroyed
 =
 once
@@ -428,7 +423,6 @@ created
 "
 )
 ;
-let
 globalCreated
 =
 once
@@ -441,7 +435,6 @@ destroyed
 "
 )
 ;
-let
 programsLinked
 =
 getPrograms
@@ -467,7 +460,6 @@ globalCreated
 ]
 )
 ;
-let
 allPrograms
 =
 yield
@@ -495,7 +487,6 @@ cache
 "
 )
 ;
-let
 programs
 =
 yield

@@ -430,7 +430,7 @@ html
 inspector
 )
 ;
-let
+(
 {
 valueSpan
 }
@@ -444,6 +444,7 @@ html
 "
 transform
 "
+)
 )
 ;
 rView
@@ -493,7 +494,7 @@ body
 inspector
 )
 ;
-let
+(
 {
 valueSpan
 }
@@ -507,6 +508,7 @@ body
 "
 transform
 "
+)
 )
 ;
 rView
@@ -566,7 +568,7 @@ property
 "
 )
 ;
-let
+(
 {
 valueSpan
 }
@@ -580,6 +582,7 @@ body
 "
 color
 "
+)
 )
 ;
 rView

@@ -419,7 +419,6 @@ init
 (
 )
 ;
-let
 messages
 =
 listener

@@ -824,9 +824,6 @@ exception
 "
 )
 ;
-let
-ex
-;
 try
 {
 db

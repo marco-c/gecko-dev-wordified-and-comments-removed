@@ -188,7 +188,6 @@ node
 "
 )
 ;
-let
 onNodeHighlighted
 =
 toolbox
@@ -202,7 +201,6 @@ highlight
 "
 )
 ;
-let
 button
 =
 bcButtons

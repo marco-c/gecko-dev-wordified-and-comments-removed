@@ -211,7 +211,6 @@ relative2
 inspector
 )
 ;
-let
 relativeLink
 =
 ruleView

@@ -339,7 +339,7 @@ delicious
 "
 )
 ;
-let
+(
 {
 source
 }
@@ -349,6 +349,7 @@ gSources
 selectedItem
 .
 attachment
+)
 ;
 let
 [

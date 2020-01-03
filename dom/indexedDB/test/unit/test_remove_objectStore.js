@@ -223,7 +223,6 @@ close
 (
 )
 ;
-let
 request
 =
 indexedDB
@@ -246,13 +245,11 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
-let
 event
 =
 yield
 undefined
 ;
-let
 db
 =
 event
@@ -554,7 +551,6 @@ close
 (
 )
 ;
-let
 request
 =
 indexedDB
@@ -577,13 +573,11 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
-let
 event
 =
 yield
 undefined
 ;
-let
 db
 =
 event

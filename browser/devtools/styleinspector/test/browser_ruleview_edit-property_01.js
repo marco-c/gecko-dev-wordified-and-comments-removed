@@ -481,7 +481,6 @@ blur
 "
 )
 ;
-let
 onModifications
 =
 idRuleEditor

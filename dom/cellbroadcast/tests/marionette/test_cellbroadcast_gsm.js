@@ -748,6 +748,7 @@ testDcs
 [
 ]
 ;
+let
 dcs
 =
 0
@@ -804,7 +805,6 @@ catch
 e
 )
 {
-let
 dcs
 =
 (

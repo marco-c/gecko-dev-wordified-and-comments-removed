@@ -137,7 +137,6 @@ reload
 target
 )
 ;
-let
 [
 actors
 ]
@@ -166,7 +165,6 @@ panelWin
 ]
 )
 ;
-let
 nodeIds
 =
 actors

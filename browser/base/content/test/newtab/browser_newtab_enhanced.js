@@ -303,7 +303,7 @@ addNewTabPageTab
 (
 )
 ;
-let
+(
 {
 type
 enhanced
@@ -313,6 +313,7 @@ title
 getData
 (
 0
+)
 )
 ;
 is
@@ -385,7 +386,7 @@ addNewTabPageTab
 (
 )
 ;
-let
+(
 {
 type
 enhanced
@@ -395,6 +396,7 @@ title
 getData
 (
 0
+)
 )
 ;
 is
@@ -467,7 +469,7 @@ addNewTabPageTab
 (
 )
 ;
-let
+(
 {
 type
 enhanced
@@ -477,6 +479,7 @@ title
 getData
 (
 0
+)
 )
 ;
 isnot

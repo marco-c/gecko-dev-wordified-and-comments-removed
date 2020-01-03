@@ -2974,16 +2974,6 @@ database
 "
 )
 ;
-do_check_true
-(
-Components
-.
-isSuccessCode
-(
-result
-)
-)
-;
 let
 adb2
 =

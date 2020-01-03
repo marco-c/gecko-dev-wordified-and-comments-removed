@@ -404,7 +404,6 @@ deleteAll
 (
 )
 ;
-let
 result
 =
 yield

@@ -1209,7 +1209,6 @@ getValues
 (
 )
 ;
-let
 day
 =
 values
@@ -1293,7 +1292,6 @@ pageTranslatedCountsByLanguage
 )
 )
 ;
-let
 countsByLanguage
 =
 JSON

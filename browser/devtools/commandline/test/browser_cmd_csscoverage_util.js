@@ -102,7 +102,6 @@ column
 "
 )
 ;
-let
 rule
 =
 csscoverage

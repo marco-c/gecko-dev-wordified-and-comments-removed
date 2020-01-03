@@ -598,7 +598,6 @@ space
 "
 )
 ;
-let
 onExpanded
 =
 inspector

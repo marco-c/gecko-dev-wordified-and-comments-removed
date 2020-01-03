@@ -1293,9 +1293,6 @@ multiEntry
 )
 ;
 let
-i
-;
-let
 indexes
 ;
 for

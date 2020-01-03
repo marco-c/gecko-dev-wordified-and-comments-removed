@@ -834,7 +834,6 @@ setSignedInUser
 credentials
 )
 ;
-let
 result
 =
 yield
@@ -881,7 +880,6 @@ internal
 .
 signedInUser
 ;
-let
 result
 =
 yield
@@ -934,7 +932,6 @@ signOut
 localOnly
 )
 ;
-let
 result
 =
 yield

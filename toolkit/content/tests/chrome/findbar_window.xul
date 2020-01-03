@@ -2592,7 +2592,6 @@ gFindBar
 .
 _getInitialSelection
 ;
-let
 searchStr
 =
 "

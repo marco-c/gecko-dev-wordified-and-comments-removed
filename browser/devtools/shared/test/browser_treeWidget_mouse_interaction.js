@@ -970,7 +970,6 @@ click
 node2
 )
 ;
-let
 [
 name
 data

@@ -334,7 +334,6 @@ change
 "
 )
 ;
-let
 ruleViewRefreshed
 =
 inspector

@@ -1160,6 +1160,7 @@ do_test_pending
 (
 )
 ;
+let
 logger
 =
 Log
@@ -1526,7 +1527,6 @@ data
 content
 )
 ;
-let
 logger
 =
 res

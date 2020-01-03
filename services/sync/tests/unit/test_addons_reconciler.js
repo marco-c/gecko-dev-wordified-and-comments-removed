@@ -1249,7 +1249,6 @@ works
 "
 )
 ;
-let
 threshold
 =
 new

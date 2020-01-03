@@ -9042,7 +9042,6 @@ value
 )
 ;
 }
-let
 vals
 =
 [
@@ -15898,7 +15897,6 @@ contents
 Error
 )
 ;
-let
 f
 =
 f_t
@@ -16125,7 +16123,6 @@ isNull
 false
 )
 ;
-let
 g_t
 =
 ctypes
@@ -24697,7 +24694,6 @@ value
 11
 )
 ;
-let
 result
 =
 ctypes

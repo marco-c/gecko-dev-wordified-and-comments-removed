@@ -379,7 +379,7 @@ removeTab
 (
 tab2
 )
-let
+;
 [
 {
 state

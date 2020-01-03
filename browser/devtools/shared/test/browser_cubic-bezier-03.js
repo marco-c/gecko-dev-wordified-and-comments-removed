@@ -444,7 +444,6 @@ value
 "
 )
 ;
-let
 onUpdated
 =
 widget
@@ -478,7 +477,6 @@ bezier
 )
 "
 ;
-let
 bezier
 =
 yield

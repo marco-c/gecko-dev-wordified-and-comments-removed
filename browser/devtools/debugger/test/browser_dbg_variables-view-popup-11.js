@@ -376,7 +376,6 @@ hidden
 "
 )
 ;
-let
 expressionsEvaluated
 =
 waitForDebuggerEvents
@@ -428,7 +427,6 @@ opened
 "
 )
 ;
-let
 popupHiding
 =
 once
@@ -439,7 +437,6 @@ popuphiding
 "
 )
 ;
-let
 expressionsEvaluated
 =
 waitForDebuggerEvents
@@ -494,7 +491,6 @@ hidden
 "
 )
 ;
-let
 expressionsEvaluated
 =
 waitForDebuggerEvents
@@ -545,7 +541,6 @@ opened
 "
 )
 ;
-let
 popupHiding
 =
 once
@@ -556,7 +551,6 @@ popuphiding
 "
 )
 ;
-let
 expressionsEvaluated
 =
 waitForDebuggerEvents

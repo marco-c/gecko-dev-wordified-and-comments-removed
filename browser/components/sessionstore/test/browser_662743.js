@@ -547,7 +547,6 @@ id
 .
 select_id
 ;
-let
 value
 =
 restoredFormData

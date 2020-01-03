@@ -610,7 +610,7 @@ view
 "
 )
 ;
-let
+(
 {
 view
 }
@@ -618,6 +618,7 @@ view
 yield
 openComputedView
 (
+)
 )
 ;
 info

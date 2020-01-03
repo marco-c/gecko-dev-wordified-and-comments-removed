@@ -646,7 +646,7 @@ DIRECTORY_TYPE
 )
 ;
 let
-addon7
+addon8
 =
 do_get_addon
 (
@@ -655,7 +655,7 @@ test_migrate8
 "
 )
 ;
-addon7
+addon8
 .
 copyTo
 (

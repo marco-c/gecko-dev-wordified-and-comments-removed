@@ -275,7 +275,7 @@ property
 "
 )
 ;
-let
+(
 {
 valueSpan
 }
@@ -289,6 +289,7 @@ body
 "
 transform
 "
+)
 )
 ;
 hs
@@ -362,7 +363,6 @@ openComputedView
 (
 )
 ;
-let
 hs
 =
 cView
@@ -434,7 +434,7 @@ property
 "
 )
 ;
-let
+(
 {
 valueSpan
 }
@@ -445,6 +445,7 @@ cView
 "
 color
 "
+)
 )
 ;
 hs
@@ -521,7 +522,7 @@ property
 "
 )
 ;
-let
+(
 {
 valueSpan
 }
@@ -532,6 +533,7 @@ cView
 "
 transform
 "
+)
 )
 ;
 hs
@@ -562,7 +564,6 @@ initialized
 "
 )
 ;
-let
 h
 =
 yield

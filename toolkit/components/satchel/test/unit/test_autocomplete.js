@@ -1701,7 +1701,6 @@ i
 )
 ;
 }
-let
 results
 =
 autocompleteService

@@ -259,6 +259,8 @@ message
 ;
 }
 let
+text
+;
 [
 source
 text

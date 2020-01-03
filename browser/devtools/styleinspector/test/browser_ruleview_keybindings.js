@@ -184,7 +184,6 @@ value
 "
 )
 ;
-let
 onFocus
 =
 once
@@ -232,7 +231,6 @@ value
 "
 )
 ;
-let
 editor
 =
 getCurrentInplaceEditor
@@ -265,7 +263,6 @@ name
 "
 )
 ;
-let
 onFocus
 =
 once

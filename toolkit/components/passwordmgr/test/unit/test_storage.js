@@ -147,7 +147,6 @@ loginInfo
 ]
 )
 ;
-let
 loginInfo
 =
 TestData

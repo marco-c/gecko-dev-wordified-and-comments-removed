@@ -112,7 +112,6 @@ addProjectEditorTabForTempDirectory
 (
 )
 ;
-let
 contextMenuPopup
 =
 projecteditor2
@@ -130,7 +129,6 @@ popup
 "
 )
 ;
-let
 textEditorContextMenuPopup
 =
 projecteditor2

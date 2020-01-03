@@ -323,7 +323,6 @@ innerHTML
 "
 "
 ;
-let
 frag
 =
 parser

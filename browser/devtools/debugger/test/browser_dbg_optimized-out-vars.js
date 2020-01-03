@@ -28,8 +28,6 @@ html
 "
 ;
 let
-panel
-debuggee
 gDebugger
 sources
 ;

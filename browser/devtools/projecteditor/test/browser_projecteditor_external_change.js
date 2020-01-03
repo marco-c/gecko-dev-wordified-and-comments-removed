@@ -392,7 +392,6 @@ onceEditorActivated
 projecteditor
 )
 ;
-let
 editor
 =
 projecteditor
@@ -607,7 +606,6 @@ onceEditorActivated
 projecteditor
 )
 ;
-let
 editor
 =
 projecteditor

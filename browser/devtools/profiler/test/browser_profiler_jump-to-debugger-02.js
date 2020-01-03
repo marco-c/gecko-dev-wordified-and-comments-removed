@@ -186,7 +186,6 @@ SIMPLE_URL
 yield
 whenSourceShown
 ;
-let
 debuggerPanel
 =
 toolbox

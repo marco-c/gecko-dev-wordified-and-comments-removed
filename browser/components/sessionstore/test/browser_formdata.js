@@ -242,7 +242,6 @@ createAndRemoveTab
 (
 )
 ;
-let
 [
 {
 state
@@ -319,7 +318,6 @@ createAndRemoveTab
 (
 )
 ;
-let
 [
 {
 state
@@ -1116,7 +1114,6 @@ correctly
 "
 )
 ;
-let
 tab
 =
 ss
@@ -1127,7 +1124,6 @@ window
 0
 )
 ;
-let
 browser
 =
 tab
@@ -1151,7 +1147,7 @@ flush
 (
 )
 ;
-let
+(
 {
 formdata
 }
@@ -1165,6 +1161,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;
@@ -1406,7 +1403,6 @@ promiseTabRestored
 tab
 )
 ;
-let
 html
 =
 yield
@@ -1415,7 +1411,6 @@ getInnerHTML
 browser
 )
 ;
-let
 expected
 =
 "

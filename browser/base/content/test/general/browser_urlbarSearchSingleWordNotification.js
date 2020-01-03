@@ -680,7 +680,6 @@ removeTab
 tab
 )
 ;
-let
 tab
 =
 browser

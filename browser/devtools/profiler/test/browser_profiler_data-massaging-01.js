@@ -152,7 +152,6 @@ startRecording
 (
 )
 ;
-let
 profilingStartTime
 =
 front

@@ -324,7 +324,6 @@ anymore
 "
 )
 ;
-let
 navigating
 =
 once
@@ -337,7 +336,6 @@ navigate
 "
 )
 ;
-let
 started
 =
 once

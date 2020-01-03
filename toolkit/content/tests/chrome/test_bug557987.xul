@@ -473,7 +473,6 @@ menulist
 "
 )
 ;
-let
 centerX
 =
 menulist
@@ -486,7 +485,6 @@ width
 /
 2
 ;
-let
 centerY
 =
 menulist

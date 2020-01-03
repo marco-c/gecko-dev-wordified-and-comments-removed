@@ -38,7 +38,6 @@ promiseAsyncUpdates
 (
 )
 ;
-let
 url
 =
 url

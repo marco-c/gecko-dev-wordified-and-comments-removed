@@ -346,7 +346,6 @@ click
 (
 )
 ;
-let
 checkedButtons
 =
 characterEncodingView

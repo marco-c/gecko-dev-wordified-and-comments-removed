@@ -357,7 +357,6 @@ getItemAtIndex
 .
 target
 ;
-let
 snapshotSelected
 =
 waitForSnapshotSelection

@@ -120,7 +120,6 @@ browser
 =
 null
 ;
-let
 tab
 =
 gBrowser

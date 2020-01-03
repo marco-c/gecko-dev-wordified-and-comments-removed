@@ -1983,7 +1983,6 @@ bar
 k
 )
 ;
-let
 k
 =
 bs
@@ -2042,7 +2041,6 @@ u
 spec
 )
 ;
-let
 tmpFolder
 =
 bs
@@ -2679,7 +2677,6 @@ DEFAULT_INDEX
 "
 )
 ;
-let
 dateAdded
 =
 bs
@@ -2689,7 +2686,6 @@ getItemDateAdded
 newId10
 )
 ;
-let
 lastModified
 =
 bs
@@ -2745,7 +2741,6 @@ com
 )
 )
 ;
-let
 lastModified2
 =
 bs
@@ -3617,7 +3612,6 @@ DEFAULT_INDEX
 "
 )
 ;
-let
 dateAdded
 =
 bs
@@ -3627,7 +3621,6 @@ getItemDateAdded
 newId14
 )
 ;
-let
 lastModified
 =
 bs

@@ -1122,7 +1122,6 @@ active
 "
 )
 ;
-let
 result
 =
 yield
@@ -1398,7 +1397,6 @@ ignoreHashes
 =
 true
 ;
-let
 changes
 =
 yield

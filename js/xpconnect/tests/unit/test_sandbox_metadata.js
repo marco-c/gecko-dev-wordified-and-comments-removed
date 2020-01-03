@@ -69,7 +69,6 @@ sandbox
 "
 )
 ;
-let
 sandbox
 =
 Components

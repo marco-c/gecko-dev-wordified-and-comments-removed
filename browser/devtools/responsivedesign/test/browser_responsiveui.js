@@ -1611,7 +1611,6 @@ selected
 "
 )
 ;
-let
 label
 =
 instance
@@ -1629,7 +1628,6 @@ label
 "
 )
 ;
-let
 value
 =
 instance
@@ -1658,7 +1656,7 @@ the
 menulist
 "
 )
-let
+;
 [
 width
 height

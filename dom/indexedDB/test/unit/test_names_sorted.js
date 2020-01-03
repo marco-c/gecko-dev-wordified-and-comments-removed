@@ -518,7 +518,6 @@ close
 (
 )
 ;
-let
 request
 =
 indexedDB
@@ -547,13 +546,11 @@ onupgradeneeded
 =
 unexpectedSuccessHandler
 ;
-let
 event
 =
 yield
 undefined
 ;
-let
 db
 =
 event
@@ -562,7 +559,6 @@ target
 .
 result
 ;
-let
 objectStoreNames
 =
 [
@@ -702,7 +698,6 @@ location
 ;
 }
 }
-let
 trans
 =
 db

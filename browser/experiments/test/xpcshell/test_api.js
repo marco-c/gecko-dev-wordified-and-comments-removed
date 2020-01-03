@@ -10032,7 +10032,6 @@ experiments
 .
 _mainTask
 ;
-let
 addons
 =
 yield
@@ -10156,7 +10155,6 @@ updateManifest
 (
 )
 ;
-let
 addons
 =
 yield

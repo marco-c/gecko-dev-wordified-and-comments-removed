@@ -3120,7 +3120,6 @@ reset
 ;
 }
 ;
-let
 ensureUndo
 =
 (

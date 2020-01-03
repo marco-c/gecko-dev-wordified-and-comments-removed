@@ -334,7 +334,6 @@ event
 "
 )
 ;
-let
 onUpdated
 =
 widget
@@ -420,7 +419,6 @@ content
 window
 )
 ;
-let
 bezier
 =
 yield
@@ -648,7 +646,6 @@ event
 "
 )
 ;
-let
 onUpdated
 =
 widget
@@ -684,7 +681,6 @@ pageY
 }
 )
 ;
-let
 bezier
 =
 yield
@@ -893,7 +889,6 @@ fast
 "
 )
 ;
-let
 onUpdated
 =
 widget
@@ -919,7 +914,6 @@ true
 )
 )
 ;
-let
 bezier
 =
 yield
@@ -981,7 +975,6 @@ fast
 "
 )
 ;
-let
 onUpdated
 =
 widget
@@ -1007,7 +1000,6 @@ true
 )
 )
 ;
-let
 bezier
 =
 yield
@@ -1068,7 +1060,6 @@ bottom
 "
 )
 ;
-let
 onUpdated
 =
 widget
@@ -1093,7 +1084,6 @@ p1
 )
 )
 ;
-let
 bezier
 =
 yield
@@ -1155,7 +1145,6 @@ fast
 "
 )
 ;
-let
 onUpdated
 =
 widget
@@ -1181,7 +1170,6 @@ true
 )
 )
 ;
-let
 bezier
 =
 yield
@@ -1243,7 +1231,6 @@ fast
 "
 )
 ;
-let
 onUpdated
 =
 widget
@@ -1269,7 +1256,6 @@ true
 )
 )
 ;
-let
 bezier
 =
 yield
@@ -1344,7 +1330,6 @@ left
 "
 )
 ;
-let
 onUpdated
 =
 widget
@@ -1369,7 +1354,6 @@ p2
 )
 )
 ;
-let
 bezier
 =
 yield

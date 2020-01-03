@@ -269,7 +269,6 @@ done
 "
 )
 ;
-let
 node
 =
 content
@@ -286,7 +285,6 @@ me
 "
 )
 ;
-let
 container
 =
 yield

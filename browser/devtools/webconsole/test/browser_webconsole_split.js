@@ -811,7 +811,6 @@ toggleSplitConsole
 (
 )
 ;
-let
 currentUIState
 =
 getCurrentUIState
@@ -1282,7 +1281,6 @@ toggleSplitConsole
 (
 )
 ;
-let
 currentUIState
 =
 getCurrentUIState
@@ -1414,7 +1412,6 @@ toggleSplitConsole
 (
 )
 ;
-let
 currentUIState
 =
 getCurrentUIState

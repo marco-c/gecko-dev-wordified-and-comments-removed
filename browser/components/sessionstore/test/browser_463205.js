@@ -120,7 +120,6 @@ promiseTabRestored
 tab
 )
 ;
-let
 value
 =
 yield

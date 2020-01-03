@@ -391,7 +391,6 @@ focus
 "
 )
 ;
-let
 summary
 =
 aEditor

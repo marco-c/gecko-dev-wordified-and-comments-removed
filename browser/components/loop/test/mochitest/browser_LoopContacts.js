@@ -1201,7 +1201,6 @@ id
 "
 )
 ;
-let
 deferred
 =
 Promise
@@ -1274,7 +1273,6 @@ contacts
 "
 )
 ;
-let
 deferred
 =
 Promise

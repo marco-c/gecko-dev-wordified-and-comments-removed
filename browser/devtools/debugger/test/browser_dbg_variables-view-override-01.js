@@ -607,7 +607,6 @@ __proto__
 "
 )
 ;
-let
 fetched
 =
 waitForDebuggerEvents
@@ -666,7 +665,6 @@ properly
 "
 )
 ;
-let
 fetched
 =
 waitForDebuggerEvents
@@ -788,7 +786,6 @@ arguments
 "
 )
 ;
-let
 fetched
 =
 waitForDebuggerEvents
@@ -859,7 +856,6 @@ arguments
 "
 )
 ;
-let
 fetched
 =
 waitForDebuggerEvents
@@ -930,7 +926,6 @@ __proto__
 "
 )
 ;
-let
 fetched
 =
 waitForDebuggerEvents
@@ -1001,7 +996,6 @@ __proto__
 "
 )
 ;
-let
 fetched
 =
 waitForDebuggerEvents

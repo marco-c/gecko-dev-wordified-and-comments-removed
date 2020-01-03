@@ -1712,7 +1712,6 @@ sub_generator
 ;
 yield
 ;
-let
 db
 =
 Services

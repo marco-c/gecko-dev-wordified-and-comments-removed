@@ -18,15 +18,12 @@ CONNECT_PARAM_URL
 ;
 let
 [
-_
-_
 [
 destNode
 carrierNode
 modNode
 gainNode
 ]
-_
 connectParam
 ]
 =

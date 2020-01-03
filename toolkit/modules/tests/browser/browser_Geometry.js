@@ -266,7 +266,6 @@ empty
 "
 )
 ;
-let
 r
 =
 new
@@ -295,7 +294,6 @@ empty
 "
 )
 ;
-let
 r
 =
 new
@@ -388,7 +386,6 @@ empty
 "
 )
 ;
-let
 r1
 =
 new
@@ -400,7 +397,6 @@ Rect
 100
 )
 ;
-let
 r2
 =
 new
@@ -433,7 +429,6 @@ empty
 "
 )
 ;
-let
 r1
 =
 new
@@ -445,7 +440,6 @@ Rect
 100
 )
 ;
-let
 r2
 =
 new
@@ -482,7 +476,6 @@ empty
 "
 )
 ;
-let
 r1
 =
 new
@@ -494,7 +487,6 @@ Rect
 0
 )
 ;
-let
 r2
 =
 new
@@ -593,7 +585,6 @@ rectangles
 "
 )
 ;
-let
 r1
 =
 new
@@ -605,7 +596,6 @@ Rect
 100
 )
 ;
-let
 r2
 =
 new
@@ -650,7 +640,6 @@ rectangles
 "
 )
 ;
-let
 r1
 =
 new
@@ -662,7 +651,6 @@ Rect
 100
 )
 ;
-let
 r2
 =
 new
@@ -707,7 +695,6 @@ rect
 "
 )
 ;
-let
 r1
 =
 new
@@ -719,7 +706,6 @@ Rect
 0
 )
 ;
-let
 r2
 =
 new
@@ -857,7 +843,6 @@ region
 "
 )
 ;
-let
 r1
 =
 new
@@ -869,7 +854,6 @@ Rect
 100
 )
 ;
-let
 r2
 =
 new
@@ -916,7 +900,6 @@ rect
 "
 )
 ;
-let
 r1
 =
 new
@@ -928,7 +911,6 @@ Rect
 100
 )
 ;
-let
 r2
 =
 new
@@ -975,7 +957,6 @@ rect
 "
 )
 ;
-let
 r1
 =
 new
@@ -987,7 +968,6 @@ Rect
 100
 )
 ;
-let
 r2
 =
 new

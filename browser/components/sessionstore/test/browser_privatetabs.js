@@ -582,7 +582,6 @@ restore
 "
 )
 ;
-let
 tab
 =
 win
@@ -598,7 +597,6 @@ mozilla
 "
 )
 ;
-let
 browser
 =
 tab
@@ -622,7 +620,6 @@ flush
 (
 )
 ;
-let
 state
 =
 JSON

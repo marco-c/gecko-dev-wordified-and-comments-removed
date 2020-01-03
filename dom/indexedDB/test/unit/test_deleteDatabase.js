@@ -211,7 +211,6 @@ here
 "
 )
 ;
-let
 request
 =
 indexedDB
@@ -449,7 +448,6 @@ onversionchange
 =
 closeDBs
 ;
-let
 request
 =
 indexedDB
@@ -548,7 +546,6 @@ result
 "
 )
 ;
-let
 request
 =
 indexedDB
@@ -616,7 +613,6 @@ stores
 "
 )
 ;
-let
 request
 =
 indexedDB
@@ -660,7 +656,6 @@ succeeded
 "
 )
 ;
-let
 request
 =
 indexedDB

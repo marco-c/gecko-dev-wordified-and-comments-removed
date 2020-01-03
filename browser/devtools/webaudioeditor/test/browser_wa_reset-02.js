@@ -108,7 +108,6 @@ reload
 target
 )
 ;
-let
 [
 actors
 ]
@@ -137,7 +136,7 @@ panelWin
 ]
 )
 ;
-let
+(
 {
 nodes
 edges
@@ -146,6 +145,7 @@ edges
 countGraphObjects
 (
 panelWin
+)
 )
 ;
 ise

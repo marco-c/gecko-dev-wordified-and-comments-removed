@@ -307,7 +307,7 @@ property
 "
 )
 ;
-let
+(
 {
 valueSpan
 }
@@ -322,6 +322,7 @@ test
 "
 transform
 "
+)
 )
 ;
 hs
@@ -390,7 +391,7 @@ property
 "
 )
 ;
-let
+(
 {
 valueSpan
 }
@@ -404,6 +405,7 @@ div
 "
 transform
 "
+)
 )
 ;
 hs

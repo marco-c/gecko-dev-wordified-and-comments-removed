@@ -178,7 +178,7 @@ custom
 "
 )
 ;
-let
+(
 {
 attributes
 }
@@ -192,6 +192,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;
@@ -318,7 +319,7 @@ whenTabRestored
 tab
 )
 ;
-let
+(
 {
 attributes
 }
@@ -332,6 +333,7 @@ ss
 getTabState
 (
 tab
+)
 )
 )
 ;

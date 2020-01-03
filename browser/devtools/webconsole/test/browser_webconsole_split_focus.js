@@ -227,7 +227,6 @@ visible
 "
 )
 ;
-let
 activeElement
 =
 getActiveElement
@@ -307,7 +306,6 @@ console
 "
 )
 ;
-let
 activeElement
 =
 getActiveElement

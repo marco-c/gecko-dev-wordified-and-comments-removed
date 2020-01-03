@@ -391,7 +391,6 @@ doCommand
 (
 )
 ;
-let
 selectedCount
 =
 hud

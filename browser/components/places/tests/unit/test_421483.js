@@ -326,7 +326,6 @@ ensurePlacesDefaultQueriesInitialized
 (
 )
 ;
-let
 smartBookmarkItemIds
 =
 PlacesUtils

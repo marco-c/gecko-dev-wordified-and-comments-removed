@@ -322,7 +322,6 @@ focus
 true
 )
 ;
-let
 onModifications
 =
 elementRuleEditor
@@ -467,7 +466,6 @@ field
 "
 )
 ;
-let
 onModifications
 =
 elementRuleEditor
@@ -545,7 +543,6 @@ focus
 "
 )
 ;
-let
 onModifications
 =
 elementRuleEditor

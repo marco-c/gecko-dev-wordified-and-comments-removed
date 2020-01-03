@@ -160,7 +160,6 @@ div
 "
 )
 ;
-let
 onBoxModelUpdate
 =
 waitForBoxModelUpdate
