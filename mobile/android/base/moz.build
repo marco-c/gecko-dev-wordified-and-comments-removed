@@ -3638,13 +3638,6 @@ java
 '
 widget
 /
-GeckoSwipeRefreshLayout
-.
-java
-'
-'
-widget
-/
 GeckoViewFlipper
 .
 java
