@@ -77,8 +77,6 @@ Register
 reg1
 Register
 reg2
-bool
-useAtStart
 )
 {
 MOZ_ASSERT
@@ -122,7 +120,6 @@ mir
 virtualRegister
 (
 )
-useAtStart
 )
 )
 ;
@@ -141,7 +138,6 @@ VirtualRegisterOfPayload
 (
 mir
 )
-useAtStart
 )
 )
 ;

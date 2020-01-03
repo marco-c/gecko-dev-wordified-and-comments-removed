@@ -289,12 +289,6 @@ invalidate_
 CodeOffsetLabel
 invalidateEpilogueData_
 ;
-NonAssertingLabel
-returnLabel_
-;
-FallbackICStubSpace
-stubSpace_
-;
 js
 :
 :
@@ -385,6 +379,9 @@ patchableTLScripts_
 ;
 #
 endif
+NonAssertingLabel
+returnLabel_
+;
 public
 :
 struct
