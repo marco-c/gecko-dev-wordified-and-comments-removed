@@ -514,6 +514,11 @@ PMemoryReportRequest
 ipdl
 '
 '
+PPluginWidget
+.
+ipdl
+'
+'
 PScreenManager
 .
 ipdl
