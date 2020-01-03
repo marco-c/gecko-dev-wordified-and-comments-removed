@@ -431,6 +431,13 @@ DIRS
 '
 crashreporter
 /
+breakpad
+-
+logging
+'
+'
+crashreporter
+/
 google
 -
 breakpad
