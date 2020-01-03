@@ -50,6 +50,13 @@ stdint
 h
 >
 #
+include
+<
+stdarg
+.
+h
+>
+#
 define
 PROFILER_LABEL
 (
