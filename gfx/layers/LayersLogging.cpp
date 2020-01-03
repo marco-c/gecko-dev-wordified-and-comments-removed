@@ -1569,7 +1569,9 @@ nsPrintfCString
 l
 =
 %
-llu
+"
+PRIu64
+"
 p
 =
 %
@@ -1577,7 +1579,9 @@ u
 v
 =
 %
-llu
+"
+PRIu64
+"
 }
 "
 s

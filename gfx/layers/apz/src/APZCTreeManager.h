@@ -784,6 +784,8 @@ aState
 AsyncPanZoomController
 *
 aApzc
+uint64_t
+aLayersId
 )
 ;
 HitTestingTreeNode
