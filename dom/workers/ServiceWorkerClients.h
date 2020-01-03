@@ -18,17 +18,6 @@ nsWrapperCache
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-WorkerScope
-.
-h
-"
 namespace
 mozilla
 {
@@ -44,6 +33,9 @@ Promise
 namespace
 workers
 {
+class
+ServiceWorkerGlobalScope
+;
 class
 ServiceWorkerClients
 MOZ_FINAL
