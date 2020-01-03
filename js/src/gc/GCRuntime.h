@@ -2566,8 +2566,6 @@ shouldShrink
 void
 sweepBackgroundThings
 (
-bool
-onBackgroundThread
 )
 ;
 void
