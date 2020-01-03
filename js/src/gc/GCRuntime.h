@@ -3263,6 +3263,14 @@ endif
 void
 finishCollection
 (
+JS
+:
+:
+gcreason
+:
+:
+Reason
+reason
 )
 ;
 void
