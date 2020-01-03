@@ -2857,7 +2857,7 @@ width
 =
 Math
 .
-round
+ceil
 (
 clientRect
 .
@@ -2870,7 +2870,7 @@ height
 =
 Math
 .
-round
+ceil
 (
 clientRect
 .
