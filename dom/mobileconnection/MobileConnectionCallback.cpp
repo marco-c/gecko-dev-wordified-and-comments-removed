@@ -1036,6 +1036,9 @@ JS
 Value
 >
 aResult
+JSContext
+*
+aCx
 )
 {
 return
@@ -1062,6 +1065,9 @@ JS
 Value
 >
 aResults
+JSContext
+*
+aCx
 )
 {
 return
