@@ -2626,6 +2626,9 @@ fi
 MOZ_NFC
 =
 1
+MOZ_RTSP
+=
+1
 ;
 ;
 *
