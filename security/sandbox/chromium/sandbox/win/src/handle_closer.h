@@ -92,7 +92,6 @@ std
 :
 set
 <
-const
 base
 :
 :
