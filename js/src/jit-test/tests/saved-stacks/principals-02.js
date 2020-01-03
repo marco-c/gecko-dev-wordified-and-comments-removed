@@ -300,7 +300,7 @@ e
 check
 (
 "
-ecba
+edcba
 "
 saveStack
 (

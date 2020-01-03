@@ -348,7 +348,7 @@ e
 check
 (
 "
-ecba
+edcba
 "
 extract
 (
