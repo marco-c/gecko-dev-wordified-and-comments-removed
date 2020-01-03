@@ -760,6 +760,12 @@ DIRS
 /
 tools
 /
+power
+'
+'
+/
+tools
+/
 profiler
 '
 '
