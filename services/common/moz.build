@@ -160,11 +160,6 @@ logmanager
 js
 '
 '
-storageservice
-.
-js
-'
-'
 stringbundle
 .
 js
