@@ -4768,13 +4768,8 @@ this
 )
 )
 ;
-MOZ_ASSERT
+assertParentIs
 (
-getParent
-(
-)
-=
-=
 cx
 -
 >

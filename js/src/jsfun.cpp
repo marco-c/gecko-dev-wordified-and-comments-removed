@@ -10358,16 +10358,11 @@ JSFunction
 )
 )
 ;
-MOZ_ASSERT
-(
 funobj
 -
 >
-getParent
+assertParentIs
 (
-)
-=
-=
 parent
 )
 ;
