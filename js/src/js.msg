@@ -1242,9 +1242,13 @@ can
 be
 called
 only
-in
-debug
-mode
+if
+a
+Debugger
+is
+observing
+all
+execution
 "
 )
 MSG_DEF

@@ -3594,7 +3594,7 @@ compartment
 )
 -
 >
-debugMode
+isDebuggee
 (
 )
 &
@@ -7749,7 +7749,7 @@ compartment
 )
 -
 >
-debugMode
+isDebuggee
 (
 )
 )

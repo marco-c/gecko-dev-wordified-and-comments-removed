@@ -6757,6 +6757,13 @@ return
 hasDebugScript_
 ;
 }
+inline
+bool
+isDebuggee
+(
+)
+const
+;
 js
 :
 :

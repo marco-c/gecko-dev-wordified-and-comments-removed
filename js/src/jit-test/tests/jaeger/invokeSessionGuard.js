@@ -16,6 +16,16 @@ Debugger
 this
 )
 ;
+dbg
+.
+onDebuggerStatement
+=
+function
+(
+)
+{
+}
+;
 [
 1
 2

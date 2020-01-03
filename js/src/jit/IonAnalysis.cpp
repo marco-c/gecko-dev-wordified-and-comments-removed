@@ -17227,15 +17227,10 @@ true
 ;
 if
 (
-cx
+scriptArg
 -
 >
-compartment
-(
-)
--
->
-debugMode
+isDebuggee
 (
 )
 |

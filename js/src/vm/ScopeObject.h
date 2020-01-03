@@ -3211,7 +3211,7 @@ frame
 ;
 static
 void
-onCompartmentLeaveDebugMode
+onCompartmentUnsetIsDebuggee
 (
 JSCompartment
 *

@@ -1397,22 +1397,12 @@ yieldOffsets_
 ;
 if
 (
-script
--
->
-compartment
-(
-)
--
->
-debugMode
-(
-)
+compileDebugInstrumentation_
 )
 baselineScript
 -
 >
-setDebugMode
+setHasDebugInstrumentation
 (
 )
 ;
@@ -2855,7 +2845,7 @@ emitDebugPrologue
 {
 if
 (
-debugMode_
+compileDebugInstrumentation_
 )
 {
 masm
@@ -3735,7 +3725,7 @@ emitDebugTrap
 {
 MOZ_ASSERT
 (
-debugMode_
+compileDebugInstrumentation_
 )
 ;
 MOZ_ASSERT
@@ -4204,7 +4194,7 @@ stackDepth
 }
 if
 (
-debugMode_
+compileDebugInstrumentation_
 )
 frame
 .
@@ -4292,7 +4282,7 @@ Method_Error
 ;
 if
 (
-debugMode_
+compileDebugInstrumentation_
 &
 &
 !
@@ -13097,7 +13087,7 @@ emit_JSOP_DEBUGLEAVEBLOCK
 if
 (
 !
-debugMode_
+compileDebugInstrumentation_
 )
 return
 true
@@ -13431,7 +13421,7 @@ emit_JSOP_DEBUGGER
 if
 (
 !
-debugMode_
+compileDebugInstrumentation_
 )
 return
 true
@@ -13572,7 +13562,7 @@ emitReturn
 {
 if
 (
-debugMode_
+compileDebugInstrumentation_
 )
 {
 masm
