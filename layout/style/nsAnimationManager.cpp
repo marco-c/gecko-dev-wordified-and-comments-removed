@@ -1124,6 +1124,17 @@ Timeline
 AnimationPlayerPtrArray
 newPlayers
 ;
+if
+(
+!
+aStyleContext
+-
+>
+IsInDisplayNoneSubtree
+(
+)
+)
+{
 BuildAnimations
 (
 aStyleContext
@@ -1132,6 +1143,7 @@ timeline
 newPlayers
 )
 ;
+}
 if
 (
 newPlayers
