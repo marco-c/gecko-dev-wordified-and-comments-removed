@@ -113,6 +113,10 @@ run_test
 (
 )
 {
+setupFakeLoopServer
+(
+)
+;
 test_locale
 (
 )

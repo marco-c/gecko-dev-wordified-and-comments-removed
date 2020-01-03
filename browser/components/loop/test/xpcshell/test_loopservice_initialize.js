@@ -181,6 +181,10 @@ run_test
 (
 )
 {
+setupFakeLoopServer
+(
+)
+;
 MozLoopService
 .
 initializeTimerFunc
