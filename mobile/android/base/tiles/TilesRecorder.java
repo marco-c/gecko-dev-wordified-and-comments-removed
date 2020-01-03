@@ -105,7 +105,14 @@ Tiles
 Click
 "
 ;
+private
+TilesRecorder
+(
+)
+{
+}
 public
+static
 void
 recordAction
 (
@@ -408,6 +415,7 @@ e
 }
 }
 private
+static
 JSONObject
 jsonForTile
 (

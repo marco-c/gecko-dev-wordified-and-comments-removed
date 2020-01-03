@@ -586,10 +586,6 @@ int
 mMaxGridEntries
 ;
 private
-TilesRecorder
-mTilesRecorder
-;
-private
 static
 final
 long
@@ -724,13 +720,6 @@ R
 integer
 .
 number_of_top_sites
-)
-;
-mTilesRecorder
-=
-new
-TilesRecorder
-(
 )
 ;
 }
@@ -1320,7 +1309,7 @@ getLanguageTag
 locale
 )
 ;
-mTilesRecorder
+TilesRecorder
 .
 recordAction
 (
