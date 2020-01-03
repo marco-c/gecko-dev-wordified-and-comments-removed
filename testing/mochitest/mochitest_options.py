@@ -5358,6 +5358,19 @@ tab
         
 }
         
+options
+.
+ignoreMissingLeaks
+=
+[
+"
+tab
+"
+"
+geckomediaplugin
+"
+]
+        
 return
 options
 class
@@ -7057,6 +7070,35 @@ options
 httpPort
 =
 tempPort
+        
+options
+.
+ignoreMissingLeaks
+.
+append
+(
+"
+default
+"
+)
+        
+assert
+"
+tab
+"
+in
+options
+.
+ignoreMissingLeaks
+"
+Ignore
+failures
+for
+tab
+processes
+on
+B2G
+"
         
 return
 options
