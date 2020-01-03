@@ -65,17 +65,6 @@ aRetBdAddress
 void
 UuidToString
 (
-bt_uuid_t
-*
-aUuid
-nsAString
-&
-aString
-)
-;
-void
-UuidToString
-(
 const
 BluetoothUuid
 &
