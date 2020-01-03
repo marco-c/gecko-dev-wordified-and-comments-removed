@@ -7927,16 +7927,11 @@ frameSizeReg
 ;
 }
 void
-handleFailureWithHandler
+handleFailureWithHandlerTail
 (
 void
 *
 handler
-)
-;
-void
-handleFailureWithHandlerTail
-(
 )
 ;
 public

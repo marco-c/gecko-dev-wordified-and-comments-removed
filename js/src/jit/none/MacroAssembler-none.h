@@ -4634,7 +4634,7 @@ MOZ_CRASH
 ;
 }
 void
-handleFailureWithHandler
+handleFailureWithHandlerTail
 (
 void
 *

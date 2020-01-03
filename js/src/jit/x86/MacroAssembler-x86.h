@@ -7547,16 +7547,11 @@ GENERAL
 )
 ;
 void
-handleFailureWithHandler
+handleFailureWithHandlerTail
 (
 void
 *
 handler
-)
-;
-void
-handleFailureWithHandlerTail
-(
 )
 ;
 void
