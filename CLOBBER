@@ -195,10 +195,10 @@ any
 more
 .
 Bug
-1154235
+1155082
 :
 Merge
-BluetoothUtils
+BluetoothUUID
 .
 {
 cpp
