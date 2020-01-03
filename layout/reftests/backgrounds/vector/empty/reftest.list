@@ -70,20 +70,6 @@ wide
 empty
 .
 html
-#
-These
-tests
-fail
-because
-of
-integer
-overflow
-;
-see
-bug
-894555
-.
-fails
 =
 =
 tall
@@ -102,7 +88,6 @@ tall
 lime
 .
 html
-fails
 =
 =
 tall
@@ -121,7 +106,6 @@ tall
 lime
 .
 html
-fails
 =
 =
 wide
@@ -140,7 +124,6 @@ wide
 lime
 .
 html
-fails
 =
 =
 wide
