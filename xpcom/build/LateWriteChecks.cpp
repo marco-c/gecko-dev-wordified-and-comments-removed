@@ -102,6 +102,13 @@ plstr
 h
 "
 #
+include
+"
+prio
+.
+h
+"
+#
 ifdef
 XP_WIN
 #

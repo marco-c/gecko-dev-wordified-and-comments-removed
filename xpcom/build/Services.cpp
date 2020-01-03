@@ -147,6 +147,13 @@ nsIAsyncShutdown
 .
 h
 "
+#
+include
+"
+nsIUUIDGenerator
+.
+h
+"
 using
 namespace
 mozilla

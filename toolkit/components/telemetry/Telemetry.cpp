@@ -255,6 +255,13 @@ h
 #
 include
 "
+nsClassHashtable
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

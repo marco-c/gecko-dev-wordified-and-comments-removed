@@ -55,6 +55,13 @@ h
 "
 #
 include
+"
+nsNativeCharsetUtils
+.
+h
+"
+#
+include
 <
 prenv
 .
