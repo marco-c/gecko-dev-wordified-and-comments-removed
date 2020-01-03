@@ -154,7 +154,7 @@ Browsing
 <
 !
 ENTITY
-onboard_start_restricted
+onboard_start_restricted1
 "
 Stay
 safe
@@ -166,7 +166,9 @@ this
 simplified
 version
 of
-Firefox
+&
+brandShortName
+;
 .
 "
 >
