@@ -2769,7 +2769,7 @@ native
 js
 :
 :
-simd_int32x4_loadX
+simd_int32x4_load1
 )
 return
 inlineSimdLoad
@@ -2791,7 +2791,7 @@ native
 js
 :
 :
-simd_int32x4_loadXY
+simd_int32x4_load2
 )
 return
 inlineSimdLoad
@@ -2813,7 +2813,7 @@ native
 js
 :
 :
-simd_int32x4_loadXYZ
+simd_int32x4_load3
 )
 return
 inlineSimdLoad
@@ -2857,7 +2857,7 @@ native
 js
 :
 :
-simd_float32x4_loadX
+simd_float32x4_load1
 )
 return
 inlineSimdLoad
@@ -2879,7 +2879,7 @@ native
 js
 :
 :
-simd_float32x4_loadXY
+simd_float32x4_load2
 )
 return
 inlineSimdLoad
@@ -2901,7 +2901,7 @@ native
 js
 :
 :
-simd_float32x4_loadXYZ
+simd_float32x4_load3
 )
 return
 inlineSimdLoad
@@ -2945,7 +2945,7 @@ native
 js
 :
 :
-simd_int32x4_storeX
+simd_int32x4_store1
 )
 return
 inlineSimdStore
@@ -2967,7 +2967,7 @@ native
 js
 :
 :
-simd_int32x4_storeXY
+simd_int32x4_store2
 )
 return
 inlineSimdStore
@@ -2989,7 +2989,7 @@ native
 js
 :
 :
-simd_int32x4_storeXYZ
+simd_int32x4_store3
 )
 return
 inlineSimdStore
@@ -3033,7 +3033,7 @@ native
 js
 :
 :
-simd_float32x4_storeX
+simd_float32x4_store1
 )
 return
 inlineSimdStore
@@ -3055,7 +3055,7 @@ native
 js
 :
 :
-simd_float32x4_storeXY
+simd_float32x4_store2
 )
 return
 inlineSimdStore
@@ -3077,7 +3077,7 @@ native
 js
 :
 :
-simd_float32x4_storeXYZ
+simd_float32x4_store3
 )
 return
 inlineSimdStore

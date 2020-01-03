@@ -373,7 +373,7 @@ check
 ;
 }
 function
-testStoreX
+testStore1
 (
 )
 {
@@ -381,7 +381,7 @@ SIMD
 .
 float32x4
 .
-storeX
+store1
 (
 f64
 0
@@ -397,7 +397,7 @@ SIMD
 .
 float32x4
 .
-storeX
+store1
 (
 f32
 0
@@ -413,7 +413,7 @@ SIMD
 .
 float32x4
 .
-storeX
+store1
 (
 i32
 0
@@ -429,7 +429,7 @@ SIMD
 .
 float32x4
 .
-storeX
+store1
 (
 u32
 0
@@ -445,7 +445,7 @@ SIMD
 .
 float32x4
 .
-storeX
+store1
 (
 i16
 0
@@ -461,7 +461,7 @@ SIMD
 .
 float32x4
 .
-storeX
+store1
 (
 u16
 0
@@ -477,7 +477,7 @@ SIMD
 .
 float32x4
 .
-storeX
+store1
 (
 i8
 0
@@ -493,7 +493,7 @@ SIMD
 .
 float32x4
 .
-storeX
+store1
 (
 u8
 0
@@ -507,7 +507,7 @@ check
 ;
 }
 function
-testStoreXY
+testStore2
 (
 )
 {
@@ -515,7 +515,7 @@ SIMD
 .
 float32x4
 .
-storeXY
+store2
 (
 f64
 0
@@ -531,7 +531,7 @@ SIMD
 .
 float32x4
 .
-storeXY
+store2
 (
 f32
 0
@@ -547,7 +547,7 @@ SIMD
 .
 float32x4
 .
-storeXY
+store2
 (
 i32
 0
@@ -563,7 +563,7 @@ SIMD
 .
 float32x4
 .
-storeXY
+store2
 (
 u32
 0
@@ -579,7 +579,7 @@ SIMD
 .
 float32x4
 .
-storeXY
+store2
 (
 i16
 0
@@ -595,7 +595,7 @@ SIMD
 .
 float32x4
 .
-storeXY
+store2
 (
 u16
 0
@@ -611,7 +611,7 @@ SIMD
 .
 float32x4
 .
-storeXY
+store2
 (
 i8
 0
@@ -627,7 +627,7 @@ SIMD
 .
 float32x4
 .
-storeXY
+store2
 (
 u8
 0
@@ -641,7 +641,7 @@ check
 ;
 }
 function
-testStoreXYZ
+testStore3
 (
 )
 {
@@ -649,7 +649,7 @@ SIMD
 .
 float32x4
 .
-storeXYZ
+store3
 (
 f64
 0
@@ -665,7 +665,7 @@ SIMD
 .
 float32x4
 .
-storeXYZ
+store3
 (
 f32
 0
@@ -681,7 +681,7 @@ SIMD
 .
 float32x4
 .
-storeXYZ
+store3
 (
 i32
 0
@@ -697,7 +697,7 @@ SIMD
 .
 float32x4
 .
-storeXYZ
+store3
 (
 u32
 0
@@ -713,7 +713,7 @@ SIMD
 .
 float32x4
 .
-storeXYZ
+store3
 (
 i16
 0
@@ -729,7 +729,7 @@ SIMD
 .
 float32x4
 .
-storeXYZ
+store3
 (
 u16
 0
@@ -745,7 +745,7 @@ SIMD
 .
 float32x4
 .
-storeXYZ
+store3
 (
 i8
 0
@@ -761,7 +761,7 @@ SIMD
 .
 float32x4
 .
-storeXYZ
+store3
 (
 u8
 0
@@ -794,15 +794,15 @@ testStore
 (
 )
 ;
-testStoreX
+testStore1
 (
 )
 ;
-testStoreXY
+testStore2
 (
 )
 ;
-testStoreXYZ
+testStore3
 (
 )
 ;

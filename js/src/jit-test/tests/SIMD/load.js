@@ -485,7 +485,7 @@ u8
 ;
 }
 function
-testLoadX
+testLoad1
 (
 )
 {
@@ -495,7 +495,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 f64
 0
@@ -514,7 +514,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 f32
 1
@@ -533,7 +533,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 i32
 2
@@ -552,7 +552,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 i16
 3
@@ -574,7 +574,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 u16
 4
@@ -596,7 +596,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 i8
 5
@@ -618,7 +618,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 u8
 6
@@ -640,7 +640,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 f64
 (
@@ -671,7 +671,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 f32
 16
@@ -692,7 +692,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 i32
 16
@@ -713,7 +713,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 i16
 (
@@ -744,7 +744,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 u16
 (
@@ -775,7 +775,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 i8
 (
@@ -806,7 +806,7 @@ SIMD
 .
 float32x4
 .
-loadX
+load1
 (
 u8
 (
@@ -833,7 +833,7 @@ u8
 ;
 }
 function
-testLoadXY
+testLoad2
 (
 )
 {
@@ -843,7 +843,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 f64
 0
@@ -862,7 +862,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 f32
 1
@@ -881,7 +881,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 i32
 2
@@ -900,7 +900,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 i16
 3
@@ -922,7 +922,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 u16
 4
@@ -944,7 +944,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 i8
 5
@@ -966,7 +966,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 u8
 6
@@ -988,7 +988,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 f64
 (
@@ -1019,7 +1019,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 f32
 16
@@ -1040,7 +1040,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 i32
 16
@@ -1061,7 +1061,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 i16
 (
@@ -1092,7 +1092,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 u16
 (
@@ -1123,7 +1123,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 i8
 (
@@ -1154,7 +1154,7 @@ SIMD
 .
 float32x4
 .
-loadXY
+load2
 (
 u8
 (
@@ -1181,7 +1181,7 @@ u8
 ;
 }
 function
-testLoadXYZ
+testLoad3
 (
 )
 {
@@ -1191,7 +1191,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 f64
 0
@@ -1210,7 +1210,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 f32
 1
@@ -1229,7 +1229,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 i32
 2
@@ -1248,7 +1248,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 i16
 3
@@ -1270,7 +1270,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 u16
 4
@@ -1292,7 +1292,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 i8
 5
@@ -1314,7 +1314,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 u8
 6
@@ -1336,7 +1336,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 f64
 (
@@ -1367,7 +1367,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 f32
 16
@@ -1388,7 +1388,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 i32
 16
@@ -1409,7 +1409,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 i16
 (
@@ -1440,7 +1440,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 u16
 (
@@ -1471,7 +1471,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 i8
 (
@@ -1502,7 +1502,7 @@ SIMD
 .
 float32x4
 .
-loadXYZ
+load3
 (
 u8
 (
@@ -1548,15 +1548,15 @@ testLoad
 (
 )
 ;
-testLoadX
+testLoad1
 (
 )
 ;
-testLoadXY
+testLoad2
 (
 )
 ;
-testLoadXYZ
+testLoad3
 (
 )
 ;
