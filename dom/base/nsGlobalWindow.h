@@ -1683,6 +1683,10 @@ RefreshCompartmentPrincipal
 )
 override
 ;
+friend
+class
+FullscreenTransitionTask
+;
 virtual
 nsresult
 SetFullscreenInternal
