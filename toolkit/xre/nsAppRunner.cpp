@@ -15387,6 +15387,15 @@ MOZ_RUN_GTEST
 int
 result
 ;
+#
+ifdef
+XP_WIN
+UseParentConsole
+(
+)
+;
+#
+endif
 if
 (
 mozilla
