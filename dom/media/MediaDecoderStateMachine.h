@@ -288,7 +288,11 @@ IsRealTime
 (
 )
 const
+{
+return
+mRealTime
 ;
+}
 bool
 OnDecodeTaskQueue
 (
@@ -1718,6 +1722,7 @@ MediaDecoderStateMachine
 >
 mWatchManager
 ;
+const
 bool
 mRealTime
 ;
