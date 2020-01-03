@@ -461,13 +461,6 @@ aBuffer
 )
 override
 ;
-ConnectionOrientedSocketIO
-*
-GetIO
-(
-)
-override
-;
 private
 :
 KeyStore
