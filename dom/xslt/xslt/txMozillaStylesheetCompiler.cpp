@@ -1793,7 +1793,7 @@ nsIContentPolicy
 TYPE_STYLESHEET
 uri
 referrerPrincipal
-nullptr
+mLoaderDocument
 NS_LITERAL_CSTRING
 (
 "
@@ -1940,13 +1940,14 @@ channel
 nsresult
 rv
 =
-NS_NewChannel
+NS_NewChannelWithTriggeringPrincipal
 (
 getter_AddRefs
 (
 channel
 )
 aUri
+mLoaderDocument
 aReferrerPrincipal
 nsILoadInfo
 :
@@ -1955,7 +1956,7 @@ SEC_NORMAL
 nsIContentPolicy
 :
 :
-TYPE_STYLESHEET
+TYPE_XSLT
 loadGroup
 )
 ;
@@ -2241,12 +2242,7 @@ nsIContentPolicy
 TYPE_STYLESHEET
 aUri
 principal
-aProcessor
--
->
-GetSourceContentModel
-(
-)
+aLoaderDocument
 NS_LITERAL_CSTRING
 (
 "
