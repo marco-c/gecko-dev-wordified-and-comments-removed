@@ -1855,6 +1855,7 @@ feature
 .
 enabled
 "
+UnsafeInPrerendering
 ]
 readonly
 attribute
