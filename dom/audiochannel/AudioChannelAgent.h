@@ -143,6 +143,11 @@ bool
 aUseWeakRef
 )
 ;
+void
+Shutdown
+(
+)
+;
 nsCOMPtr
 <
 nsPIDOMWindow
