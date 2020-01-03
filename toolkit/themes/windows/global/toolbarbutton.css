@@ -908,8 +908,9 @@ bold
 ;
 padding
 :
-1px
+0
 2px
+1px
 ;
 color
 :
@@ -972,7 +973,7 @@ hsla
 margin
 :
 -
-4px
+6px
 0
 0
 !
@@ -986,7 +987,7 @@ margin
 end
 :
 -
-2px
+8px
 !
 important
 ;
@@ -994,7 +995,7 @@ min
 -
 width
 :
-10px
+14px
 ;
 line
 -
