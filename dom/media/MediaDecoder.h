@@ -662,6 +662,10 @@ AssertCurrentThreadIn
 ;
 return
 mDecodedStream
+.
+GetData
+(
+)
 ;
 }
 virtual
@@ -1948,10 +1952,7 @@ OutputStreamData
 >
 mOutputStreams
 ;
-nsAutoPtr
-<
-DecodedStreamData
->
+DecodedStream
 mDecodedStream
 ;
 Canonical
