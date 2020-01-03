@@ -996,7 +996,7 @@ aFrame
 aRenderingContext
 aContentArea
 .
-Width
+ISize
 (
 aWritingMode
 )
@@ -3278,7 +3278,7 @@ mReflowState
 rendContext
 mReflowState
 .
-ComputedWidth
+ComputedISize
 (
 )
 )

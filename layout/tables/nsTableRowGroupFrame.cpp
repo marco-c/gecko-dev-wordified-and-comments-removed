@@ -1425,10 +1425,7 @@ Init
 (
 &
 aPresContext
--
-1
--
-1
+nullptr
 pCollapseBorder
 &
 padding
@@ -1801,10 +1798,7 @@ aReflowState
 reflowState
 kidFrame
 kidAvailSize
--
-1
--
-1
+nullptr
 nsHTMLReflowState
 :
 :
@@ -4883,10 +4877,7 @@ GetWritingMode
 )
 rowAvailSize
 )
--
-1
--
-1
+nullptr
 nsHTMLReflowState
 :
 :
@@ -5572,10 +5563,7 @@ GetWritingMode
 )
 availSize
 )
--
-1
--
-1
+nullptr
 nsHTMLReflowState
 :
 :

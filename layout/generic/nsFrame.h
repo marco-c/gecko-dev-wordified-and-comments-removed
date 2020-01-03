@@ -2734,10 +2734,13 @@ aFrame
 nsCSSOffsetState
 *
 aState
-nscoord
-aHorizontalPercentBasis
-nscoord
-aVerticalPercentBasis
+const
+mozilla
+:
+:
+LogicalSize
+&
+aPercentBasis
 const
 nsMargin
 *
@@ -2960,8 +2963,7 @@ DISPLAY_INIT_OFFSETS
 (
 dr_frame
 dr_state
-dr_hpb
-dr_vpb
+dr_pb
 dr_bdr
 dr_pad
 )
@@ -2971,8 +2973,7 @@ dr_cookie
 (
 dr_frame
 dr_state
-dr_hpb
-dr_vpb
+dr_pb
 dr_bdr
 dr_pad
 )
@@ -3081,8 +3082,7 @@ DISPLAY_INIT_OFFSETS
 (
 dr_frame
 dr_state
-dr_hpb
-dr_vpb
+dr_pb
 dr_bdr
 dr_pad
 )

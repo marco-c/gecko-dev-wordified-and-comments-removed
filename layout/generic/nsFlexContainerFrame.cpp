@@ -4884,10 +4884,7 @@ Frame
 (
 )
 availSize
--
-1
--
-1
+nullptr
 nsHTMLReflowState
 :
 :

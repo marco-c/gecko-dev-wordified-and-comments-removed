@@ -41616,10 +41616,7 @@ reflowState
 Init
 (
 mPresContext
--
-1
--
-1
+nullptr
 &
 currentBorder
 &
