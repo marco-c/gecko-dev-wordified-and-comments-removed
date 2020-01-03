@@ -149,11 +149,6 @@ js
 cpp
 '
 '
-jsheaptools
-.
-cpp
-'
-'
 jsoptparse
 .
 cpp
