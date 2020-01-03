@@ -14691,6 +14691,18 @@ reframe
 "
 )
 ;
+mSwappedStructOwners
+.
+AppendElement
+(
+newContext
+-
+>
+GetParent
+(
+)
+)
+;
 }
 }
 oldContext
@@ -17646,7 +17658,6 @@ ContextToClear
 >
 contextsToClear
 ;
-{
 nsTArray
 <
 nsRefPtr
@@ -17676,7 +17687,6 @@ ProcessRestyledFrames
 changeList
 )
 ;
-}
 ClearCachedInheritedStyleDataOnDescendants
 (
 contextsToClear
@@ -17842,7 +17852,6 @@ ContextToClear
 >
 contextsToClear
 ;
-{
 nsTArray
 <
 nsRefPtr
@@ -17891,7 +17900,6 @@ ProcessRestyledFrames
 changeList
 )
 ;
-}
 ClearCachedInheritedStyleDataOnDescendants
 (
 contextsToClear
