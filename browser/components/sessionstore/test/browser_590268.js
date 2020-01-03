@@ -21,6 +21,11 @@ waitForExplicitFinish
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 let
 startedTest
 =
