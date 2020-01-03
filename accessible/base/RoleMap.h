@@ -1148,7 +1148,7 @@ TEXT_CONTAINER
 text
 container
 "
-ATK_ROLE_TEXT
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_TEXT_FRAME
@@ -2134,4 +2134,16 @@ NSAccessibilityRadioGroupRole
 ROLE_SYSTEM_GROUPING
 ROLE_SYSTEM_GROUPING
 eNoNameRule
+)
+ROLE
+(
+TEXT
+"
+text
+"
+ATK_ROLE_STATIC
+NSAccessibilityGroupRole
+USE_ROLE_STRING
+IA2_ROLE_TEXT_FRAME
+eNameFromSubtreeIfReqRule
 )

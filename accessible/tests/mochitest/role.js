@@ -769,6 +769,13 @@ nsIAccessibleRole
 ROLE_TERM
 ;
 const
+ROLE_TEXT
+=
+nsIAccessibleRole
+.
+ROLE_TEXT
+;
+const
 ROLE_TEXT_CONTAINER
 =
 nsIAccessibleRole

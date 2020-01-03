@@ -344,13 +344,13 @@ GetType
 nsGkAtoms
 :
 :
-blockFrame
+inlineFrame
 )
 return
 roles
 :
 :
-PARAGRAPH
+TEXT
 ;
 return
 roles
