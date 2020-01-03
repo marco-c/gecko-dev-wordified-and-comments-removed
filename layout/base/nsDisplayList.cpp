@@ -2217,7 +2217,7 @@ MOZ_ASSERT
 aPlayer
 -
 >
-GetSource
+GetEffect
 (
 )
 "
@@ -2234,7 +2234,7 @@ without
 "
 "
 an
-animation
+effect
 "
 )
 ;
@@ -2302,7 +2302,7 @@ timing
 aPlayer
 -
 >
-GetSource
+GetEffect
 (
 )
 -
@@ -2761,7 +2761,7 @@ effect
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 ;

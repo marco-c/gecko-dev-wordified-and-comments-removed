@@ -2889,7 +2889,7 @@ effect
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 ;
@@ -3025,7 +3025,7 @@ effect
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 ;
@@ -3186,7 +3186,7 @@ playerIdx
 ]
 -
 >
-GetSource
+GetEffect
 (
 )
 -
@@ -3354,7 +3354,7 @@ playerIdx
 ]
 -
 >
-GetSource
+GetEffect
 (
 )
 ;
@@ -4438,7 +4438,7 @@ effect
 =
 player
 .
-GetSource
+GetEffect
 (
 )
 ;

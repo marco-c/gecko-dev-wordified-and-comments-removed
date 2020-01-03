@@ -2556,7 +2556,7 @@ if
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 |
@@ -2564,7 +2564,7 @@ GetSource
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 -
@@ -2587,7 +2587,7 @@ effect
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 ;

@@ -1191,7 +1191,7 @@ effect
 aPlayer
 -
 >
-GetSource
+GetEffect
 (
 )
 ;

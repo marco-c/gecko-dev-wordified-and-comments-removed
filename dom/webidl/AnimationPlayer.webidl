@@ -187,7 +187,7 @@ Bug
 :
 Make
 '
-source
+effect
 '
 writeable
 /
@@ -217,7 +217,7 @@ readonly
 attribute
 KeyframeEffectReadonly
 ?
-source
+effect
 ;
 readonly
 attribute

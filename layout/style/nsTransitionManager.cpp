@@ -1394,7 +1394,7 @@ effect
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 ;
@@ -1534,7 +1534,7 @@ if
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 -
@@ -1946,7 +1946,7 @@ i
 ]
 -
 >
-GetSource
+GetEffect
 (
 )
 -
@@ -2491,7 +2491,7 @@ timeline
 player
 -
 >
-SetSource
+SetEffect
 (
 pt
 )
@@ -2592,7 +2592,7 @@ i
 ]
 -
 >
-GetSource
+GetEffect
 (
 )
 &
@@ -2603,7 +2603,7 @@ i
 ]
 -
 >
-GetSource
+GetEffect
 (
 )
 -
@@ -2968,7 +2968,7 @@ playerIdx
 ]
 -
 >
-GetSource
+GetEffect
 (
 )
 &
@@ -2979,7 +2979,7 @@ playerIdx
 ]
 -
 >
-GetSource
+GetEffect
 (
 )
 -
@@ -3016,7 +3016,7 @@ playerIdx
 ]
 -
 >
-GetSource
+GetEffect
 (
 )
 -
@@ -3585,7 +3585,7 @@ if
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 -
@@ -3600,15 +3600,15 @@ MOZ_ASSERT
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 "
 Transitions
 should
 have
-source
-content
+an
+effect
 "
 )
 ;
@@ -3618,7 +3618,7 @@ computedTiming
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 -
@@ -3646,7 +3646,7 @@ prop
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 -
@@ -3666,7 +3666,7 @@ duration
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 -
@@ -3701,7 +3701,7 @@ PseudoElement
 player
 -
 >
-GetSource
+GetEffect
 (
 )
 -
