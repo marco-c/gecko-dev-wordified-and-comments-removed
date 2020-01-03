@@ -251,17 +251,12 @@ MAX_CACHE_SIZE_KIBIBYTES
 /
 2
 MiB
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gStorageLog
 =
 nullptr
 ;
-#
-endif
 #
 ifdef
 DEBUG
@@ -581,9 +576,6 @@ RegisterFileSystemModule
 }
 }
 ;
-#
-ifdef
-PR_LOGGING
 void
 tracefunc
 (
@@ -618,8 +610,6 @@ aStmt
 )
 ;
 }
-#
-endif
 struct
 FFEArguments
 {
@@ -2834,9 +2824,6 @@ mDBConn
 )
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -2923,8 +2910,6 @@ this
 )
 ;
 }
-#
-endif
 int64_t
 pageSize
 =
@@ -3840,9 +3825,6 @@ setClosedState
 }
 #
 endif
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 leafName
 (
@@ -3889,8 +3871,6 @@ get
 )
 )
 ;
-#
-endif
 {
 MutexAutoLock
 lockedScope
