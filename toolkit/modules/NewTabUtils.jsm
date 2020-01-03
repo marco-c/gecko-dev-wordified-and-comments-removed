@@ -4863,11 +4863,11 @@ url
 )
 {
 let
-uri
+host
 ;
 try
 {
-uri
+host
 =
 Services
 .
@@ -4879,6 +4879,8 @@ url
 null
 null
 )
+.
+asciiHost
 ;
 }
 catch
@@ -4891,9 +4893,7 @@ null
 ;
 }
 return
-uri
-.
-asciiHost
+host
 .
 replace
 (
