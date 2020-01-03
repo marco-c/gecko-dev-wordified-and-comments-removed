@@ -10,7 +10,7 @@ fe65
 -
 a6a504b24a91
 }
-MobileConnectionGonkService
+MobileConnectionService
 .
 js
 contract
@@ -20,7 +20,7 @@ org
 /
 mobileconnection
 /
-mobileconnectiongonkservice
+gonkmobileconnectionservice
 ;
 1
 {
