@@ -125,7 +125,11 @@ true
 )
 ;
 let
-MemoryBridge
+Memory
+=
+exports
+.
+Memory
 =
 Class
 (
@@ -1215,10 +1219,4 @@ residentUnique
 }
 }
 )
-;
-exports
-.
-MemoryBridge
-=
-MemoryBridge
 ;

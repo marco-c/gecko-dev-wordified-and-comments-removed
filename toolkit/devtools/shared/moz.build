@@ -128,6 +128,11 @@ framerate
 js
 '
 '
+memory
+.
+js
+'
+'
 worker
 -
 helper
