@@ -33392,13 +33392,15 @@ isString
 )
 &
 &
-StringIsPermanentAtom
-(
 thing
 .
 toString
 (
 )
+-
+>
+isPermanentAtom
+(
 )
 )
 return
