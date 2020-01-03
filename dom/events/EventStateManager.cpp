@@ -11800,6 +11800,10 @@ IsAlt
 )
 )
 {
+aStatus
+=
+nsEventStatus_eConsumeNoDefault
+;
 if
 (
 dispatchedToContentProcess
@@ -11941,10 +11945,6 @@ result
 )
 ;
 }
-aStatus
-=
-nsEventStatus_eConsumeNoDefault
-;
 }
 return
 ;
