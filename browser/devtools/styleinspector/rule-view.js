@@ -2316,9 +2316,6 @@ return
 sourceStrings
 ;
 }
-console
-.
-error
 )
 ;
 }
