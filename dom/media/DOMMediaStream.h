@@ -280,15 +280,6 @@ CurrentTime
 )
 ;
 void
-GetId
-(
-nsAString
-&
-aID
-)
-const
-;
-void
 GetAudioTracks
 (
 nsTArray
@@ -902,9 +893,6 @@ OnTracksAvailableCallback
 >
 >
 mRunOnTracksAvailable
-;
-nsString
-mID
 ;
 nsTArray
 <
