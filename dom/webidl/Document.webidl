@@ -130,6 +130,9 @@ URI
 interface
 nsIDocShell
 ;
+interface
+nsILoadGroup
+;
 enum
 VisibilityState
 {
@@ -2696,6 +2699,15 @@ readonly
 attribute
 DOMString
 contentLanguage
+;
+[
+ChromeOnly
+]
+readonly
+attribute
+nsILoadGroup
+?
+documentLoadGroup
 ;
 }
 ;
