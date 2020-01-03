@@ -1053,10 +1053,7 @@ HashNumber
 HashTypeList
 (
 const
-TypeSet
-:
-:
-TypeList
+TempTypeList
 &
 types
 )
@@ -6014,6 +6011,9 @@ trackedSite
 OptimizationTypeInfo
 typeInfo
 (
+alloc
+(
+)
 kind
 mirType
 )
@@ -6098,6 +6098,9 @@ trackedSite
 OptimizationTypeInfo
 typeInfo
 (
+alloc
+(
+)
 kind
 MIRType_Object
 )
