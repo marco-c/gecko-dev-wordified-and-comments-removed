@@ -97,10 +97,7 @@ NS_DECL_FRAMEARENA_HELPERS
 NS_DECLARE_FRAME_PROPERTY
 (
 ContentScrollPos
-DeleteValue
-<
-nsPoint
->
+DestroyPoint
 )
 explicit
 nsTextControlFrame
