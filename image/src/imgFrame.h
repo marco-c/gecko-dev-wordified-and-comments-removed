@@ -428,11 +428,6 @@ val
 )
 ;
 void
-SetDiscardable
-(
-)
-;
-void
 SetOptimizable
 (
 )
@@ -702,9 +697,6 @@ mHasNoAlpha
 ;
 bool
 mNonPremult
-;
-bool
-mDiscardable
 ;
 bool
 mOptimizable

@@ -21,6 +21,13 @@ h
 #
 include
 "
+imgFrame
+.
+h
+"
+#
+include
+"
 nsBMPDecoder
 .
 h
@@ -256,6 +263,9 @@ nsRefPtr
 Decoder
 >
 mContainedDecoder
+;
+RawAccessFrameRef
+mRefForContainedDecoder
 ;
 char
 mDirEntryArray
