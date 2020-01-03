@@ -233,7 +233,7 @@ layers
 ;
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 unsigned
 GLContext
 :
@@ -1111,7 +1111,7 @@ false
 )
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 mIsInLocalErrorCheck
 (
 false
@@ -1200,7 +1200,7 @@ destructor
 ;
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 if
 (
 mSharedContext
@@ -3777,7 +3777,7 @@ version
 ;
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 printf_stderr
 (
 "
@@ -4582,7 +4582,7 @@ break
 }
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 if
 (
 PR_GetEnv
@@ -4634,7 +4634,7 @@ mInitialized
 {
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 static
 bool
 firstRun
@@ -10926,7 +10926,7 @@ return
 ;
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 static
 bool
 firstRun
@@ -11107,7 +11107,7 @@ EXT_texture_compression_s3tc
 endif
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 firstRun
 =
 false
@@ -11517,7 +11517,7 @@ QueryPixelFormat
 ;
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 const
 SurfaceCaps
 &
@@ -12433,7 +12433,7 @@ Incomplete
 ;
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 if
 (
 DebugMode
@@ -12485,7 +12485,7 @@ Incomplete
 ;
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 if
 (
 DebugMode
@@ -12919,7 +12919,7 @@ Zero
 }
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 void
 GLContext
 :

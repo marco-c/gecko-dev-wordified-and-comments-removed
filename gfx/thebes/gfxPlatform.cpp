@@ -1782,7 +1782,7 @@ available
 endif
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 mozilla
 :
 :

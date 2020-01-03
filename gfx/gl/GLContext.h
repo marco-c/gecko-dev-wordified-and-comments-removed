@@ -73,6 +73,15 @@ GetClassName
 #
 endif
 #
+ifdef
+DEBUG
+#
+define
+MOZ_GL_DEBUG
+1
+#
+endif
+#
 include
 "
 mozilla
@@ -1634,7 +1643,7 @@ private
 :
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 bool
 mIsInLocalErrorCheck
 ;
@@ -1674,7 +1683,7 @@ false
 {
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 MOZ_ASSERT
 (
 !
@@ -1708,7 +1717,7 @@ GetLocalError
 {
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 MOZ_ASSERT
 (
 mGL
@@ -1814,7 +1823,7 @@ undef
 AFTER_GL_CALL
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 #
 ifndef
 MOZ_FUNCTION_NAME
@@ -11938,7 +11947,7 @@ public
 :
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 static
 void
 StaticInit
@@ -11977,7 +11986,7 @@ false
 }
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 PR_SetThreadPrivate
 (
 sCurrentGLContextTLS
@@ -12503,7 +12512,7 @@ DebugMode
 {
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 return
 sDebugMode
 ;
@@ -12531,7 +12540,7 @@ mSymbols
 ;
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 static
 unsigned
 sCurrentGLContextTLS
@@ -13495,7 +13504,7 @@ undef
 ASSERT_SYMBOL_PRESENT
 #
 ifdef
-DEBUG
+MOZ_GL_DEBUG
 void
 CreatedProgram
 (
