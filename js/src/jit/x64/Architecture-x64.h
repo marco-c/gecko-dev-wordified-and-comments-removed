@@ -644,9 +644,9 @@ r11
 static
 const
 uint32_t
-TempMask
+AllocatableMask
 =
-VolatileMask
+AllMask
 &
 ~
 NonAllocatableMask
@@ -654,9 +654,9 @@ NonAllocatableMask
 static
 const
 uint32_t
-AllocatableMask
+TempMask
 =
-AllMask
+VolatileMask
 &
 ~
 NonAllocatableMask
@@ -1346,6 +1346,7 @@ uint32_t
 numAlignedAliased
 (
 )
+const
 {
 return
 1
