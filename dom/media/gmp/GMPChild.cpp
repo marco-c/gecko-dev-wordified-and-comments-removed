@@ -146,7 +146,7 @@ const
 int
 MAX_PLUGIN_VOUCHER_LENGTH
 =
-50000
+500000
 ;
 #
 ifdef
