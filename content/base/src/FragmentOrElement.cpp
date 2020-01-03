@@ -1074,7 +1074,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -1259,7 +1259,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -1277,6 +1277,12 @@ doc
 HasFlag
 (
 NODE_IS_EDITABLE
+)
+&
+&
+!
+IsInShadowTree
+(
 )
 )
 {
@@ -6741,7 +6747,7 @@ currentDoc
 aNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -7538,7 +7544,7 @@ currentDoc
 aNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -8152,7 +8158,7 @@ c
 aNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

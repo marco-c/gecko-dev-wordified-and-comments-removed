@@ -1341,7 +1341,7 @@ doc
 aNode
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

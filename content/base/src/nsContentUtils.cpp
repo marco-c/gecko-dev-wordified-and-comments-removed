@@ -11507,15 +11507,14 @@ nsCOMPtr
 nsIHTMLDocument
 >
 htmlDocument
-(
+=
 do_QueryInterface
 (
 aContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
-)
 )
 )
 ;
@@ -11538,7 +11537,7 @@ htmlDocument
 aContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 -
@@ -13008,7 +13007,7 @@ doc
 aContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -19937,7 +19936,7 @@ updateBatch
 aContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 UPDATE_CONTENT_MODEL
@@ -27683,7 +27682,7 @@ doc
 aContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

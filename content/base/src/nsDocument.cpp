@@ -26434,7 +26434,7 @@ if
 elem
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -50155,7 +50155,7 @@ this
 e
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 !
@@ -50642,7 +50642,7 @@ this
 e
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 !
@@ -50964,7 +50964,7 @@ el
 el
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 =

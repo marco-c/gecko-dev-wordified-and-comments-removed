@@ -4095,7 +4095,7 @@ return
 thisContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

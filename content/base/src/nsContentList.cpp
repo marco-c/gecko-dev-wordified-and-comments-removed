@@ -1583,7 +1583,7 @@ doc
 mRootNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -1700,7 +1700,7 @@ doc
 mRootNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -1844,7 +1844,7 @@ doc
 mRootNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -3929,7 +3929,7 @@ doc
 mRootNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

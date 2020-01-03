@@ -344,7 +344,7 @@ mNeedsRegistration
 element
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 )
@@ -412,7 +412,7 @@ true
 element
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 -
@@ -1944,7 +1944,7 @@ doc
 mElement
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

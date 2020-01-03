@@ -1083,7 +1083,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -6352,7 +6352,7 @@ currentDoc
 tmp
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -7206,7 +7206,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -8975,7 +8975,7 @@ batch
 newContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 UPDATE_CONTENT_MODEL
@@ -9271,7 +9271,7 @@ NS_ASSERTION
 child
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 =
@@ -9319,7 +9319,7 @@ batch
 newContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 UPDATE_CONTENT_MODEL
