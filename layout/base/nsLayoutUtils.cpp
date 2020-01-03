@@ -5356,7 +5356,7 @@ MOZ_ASSERT
 aContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 =
