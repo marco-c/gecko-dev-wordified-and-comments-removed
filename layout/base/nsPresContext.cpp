@@ -8060,7 +8060,6 @@ StyleSet
 >
 MediumFeaturesChanged
 (
-this
 )
 )
 {
@@ -8789,7 +8788,6 @@ StyleSet
 >
 AppendFontFaceRules
 (
-this
 rules
 )
 )

@@ -735,7 +735,6 @@ styleSet
 >
 NotifyStyleContextDestroyed
 (
-presContext
 this
 )
 ;

@@ -5532,7 +5532,6 @@ mStyleSet
 >
 BeginShutdown
 (
-mPresContext
 )
 ;
 nsRefreshDriver
@@ -5737,7 +5736,6 @@ mStyleSet
 >
 Shutdown
 (
-mPresContext
 )
 ;
 if
@@ -19219,7 +19217,6 @@ mStyleSet
 >
 HasDocumentStateDependentStyle
 (
-mPresContext
 mDocument
 -
 >
