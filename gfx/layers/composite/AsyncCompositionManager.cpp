@@ -3776,14 +3776,14 @@ xTranslation
 Matrix4x4
 transform
 =
-scrollbarTransform
-*
 aScrollbar
 -
 >
 GetTransform
 (
 )
+*
+scrollbarTransform
 ;
 if
 (
