@@ -6223,6 +6223,11 @@ windowPath
 locationData
 .
 pathname
+windowHash
+:
+locationData
+.
+hash
 }
 )
 )

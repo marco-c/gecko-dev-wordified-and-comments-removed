@@ -385,6 +385,8 @@ action
 with
 the
 path
+and
+hash
 "
 function
 (
@@ -410,6 +412,8 @@ returns
 hash
 :
 "
+#
+fakeKey
 "
 pathname
 :
@@ -471,6 +475,12 @@ windowPath
 c
 /
 faketoken
+"
+windowHash
+:
+"
+#
+fakeKey
 "
 }
 )

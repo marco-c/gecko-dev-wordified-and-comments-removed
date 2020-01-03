@@ -148,6 +148,9 @@ extractTokenInfo
 windowPath
 :
 String
+windowHash
+:
+String
 }
 )
 SetupWindowData
