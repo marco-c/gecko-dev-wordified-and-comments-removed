@@ -7514,14 +7514,6 @@ isSome
 )
 )
 ;
-mPendingSeekTime
-.
-ref
-(
-)
-=
-aTime
-;
 DoAudioSeek
 (
 )
