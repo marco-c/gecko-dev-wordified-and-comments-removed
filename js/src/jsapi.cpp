@@ -15526,8 +15526,6 @@ unsigned
 nargs
 unsigned
 flags
-HandleObject
-parent
 HandleId
 id
 )
@@ -15577,12 +15575,6 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
-(
-cx
-parent
-)
-;
 RootedAtom
 name
 (
@@ -15614,7 +15606,9 @@ NullPtr
 native
 nargs
 funFlags
-parent
+NullPtr
+(
+)
 name
 )
 ;
