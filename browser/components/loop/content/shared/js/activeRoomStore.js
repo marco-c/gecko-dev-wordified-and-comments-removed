@@ -1096,6 +1096,17 @@ actionData
 expires
 )
 ;
+actionData
+[
+"
+sendTwoWayMediaTelemetry
+"
+]
+=
+this
+.
+_isDesktop
+;
 this
 .
 _sdkDriver

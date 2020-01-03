@@ -1500,6 +1500,9 @@ sessionToken
 "
 341256
 "
+sendTwoWayMediaTelemetry
+:
+true
 }
 )
 ;
@@ -3576,6 +3579,11 @@ should
 connect
 the
 session
+with
+sendTwoWayMediaTelemetry
+set
+as
+falsy
 "
 function
 (
@@ -3643,6 +3651,9 @@ sessionToken
 "
 341256
 "
+sendTwoWayMediaTelemetry
+:
+undefined
 }
 )
 ;

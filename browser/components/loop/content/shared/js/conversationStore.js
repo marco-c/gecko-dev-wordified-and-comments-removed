@@ -934,6 +934,11 @@ sessionToken
 state
 .
 sessionToken
+sendTwoWayMediaTelemetry
+:
+state
+.
+outgoing
 }
 )
 ;
