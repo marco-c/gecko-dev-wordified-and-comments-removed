@@ -98,11 +98,6 @@ EXPORTS
 =
 [
 '
-nsAutoJSValHolder
-.
-h
-'
-'
 nsAXPCNativeCallContext
 .
 h
