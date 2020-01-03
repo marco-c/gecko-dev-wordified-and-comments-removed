@@ -204,10 +204,10 @@ wrap_content
 "
 android
 :
-password
+inputType
 =
 "
-true
+textPassword
 "
 android
 :
