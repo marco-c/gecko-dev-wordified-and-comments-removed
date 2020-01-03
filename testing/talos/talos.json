@@ -31,7 +31,7 @@ zips
 /
 talos
 .
-3dc0c42bd761
+ccab6c42b5da
 .
 zip
 "
@@ -71,7 +71,7 @@ talos_revision
 "
 :
 "
-c1da803b295e
+ccab6c42b5da
 "
 }
 "
@@ -1646,7 +1646,7 @@ tests
 :
 [
 "
-tsvgx
+tsvgm
 "
 ]
 "
@@ -1665,7 +1665,7 @@ noChrome
 tppagecycles
 "
 "
-10
+7
 "
 ]
 }
