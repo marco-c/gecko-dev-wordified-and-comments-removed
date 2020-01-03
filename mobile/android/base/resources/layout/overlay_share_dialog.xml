@@ -253,9 +253,7 @@ textAppearance
 "
 style
 /
-TextAppearance
-.
-ShareOverlay
+ShareOverlayTextAppearance
 .
 Title
 "
@@ -319,9 +317,7 @@ textAppearance
 "
 style
 /
-TextAppearance
-.
-ShareOverlay
+ShareOverlayTextAppearance
 .
 Subtitle
 "

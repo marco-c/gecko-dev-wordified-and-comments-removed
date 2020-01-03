@@ -8395,9 +8395,7 @@ style
 name
 =
 "
-TextAppearance
-.
-ShareOverlay
+ShareOverlayTextAppearance
 "
 >
 <
@@ -8445,9 +8443,7 @@ style
 name
 =
 "
-TextAppearance
-.
-ShareOverlay
+ShareOverlayTextAppearance
 .
 Title
 "
@@ -8506,9 +8502,7 @@ style
 name
 =
 "
-TextAppearance
-.
-ShareOverlay
+ShareOverlayTextAppearance
 .
 Subtitle
 "
