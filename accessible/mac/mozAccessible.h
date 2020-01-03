@@ -31,6 +31,12 @@ h
 class
 mozRootAccessible
 ;
+namespace
+mozilla
+{
+namespace
+a11y
+{
 inline
 id
 <
@@ -64,12 +70,6 @@ mozAccessible
 *
 GetNativeFromGeckoAccessible
 (
-mozilla
-:
-:
-a11y
-:
-:
 Accessible
 *
 aAccessible
@@ -104,12 +104,6 @@ mozAccessible
 *
 GetNativeFromProxy
 (
-mozilla
-:
-:
-a11y
-:
-:
 ProxyAccessible
 *
 aProxy
@@ -130,6 +124,8 @@ GetWrapper
 )
 )
 ;
+}
+}
 }
 static
 const
