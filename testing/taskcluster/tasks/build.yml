@@ -241,6 +241,8 @@ task
 aws
 -
 provisioner
+-
+v1
 /
 build
 -
@@ -259,6 +261,8 @@ task
 aws
 -
 provisioner
+-
+v1
 /
 build
 -

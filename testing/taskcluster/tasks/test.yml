@@ -123,6 +123,8 @@ task
 aws
 -
 provisioner
+-
+v1
 /
 test
 -
@@ -141,6 +143,8 @@ task
 aws
 -
 provisioner
+-
+v1
 /
 test
 -
