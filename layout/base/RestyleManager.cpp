@@ -10631,10 +10631,13 @@ FlushPendingLinkUpdates
 (
 )
 ;
+nsAutoPtr
+<
 RestyleTracker
 :
 :
 RestyleData
+>
 restyleData
 ;
 if
@@ -10649,7 +10652,6 @@ mContent
 AsElement
 (
 )
-&
 restyleData
 )
 )
@@ -10660,7 +10662,8 @@ NS_UpdateHint
 (
 mHintsHandled
 restyleData
-.
+-
+>
 mChangeHint
 )
 )
@@ -10673,7 +10676,8 @@ AppendChange
 mFrame
 mContent
 restyleData
-.
+-
+>
 mChangeHint
 )
 ;
@@ -10681,7 +10685,8 @@ mChangeHint
 hintToRestore
 =
 restyleData
-.
+-
+>
 mRestyleHint
 ;
 aRestyleHint
@@ -10691,7 +10696,8 @@ nsRestyleHint
 aRestyleHint
 |
 restyleData
-.
+-
+>
 mRestyleHint
 )
 ;
@@ -10700,7 +10706,8 @@ descendants
 SwapElements
 (
 restyleData
-.
+-
+>
 mDescendants
 )
 ;
@@ -13239,10 +13246,13 @@ thisChildHint
 =
 aChildRestyleHint
 ;
+nsAutoPtr
+<
 RestyleTracker
 :
 :
 RestyleData
+>
 undisplayedRestyleData
 ;
 Element
@@ -13266,7 +13276,6 @@ mRestyleTracker
 GetRestyleData
 (
 element
-&
 undisplayedRestyleData
 )
 )
@@ -13278,7 +13287,8 @@ nsRestyleHint
 thisChildHint
 |
 undisplayedRestyleData
-.
+-
+>
 mRestyleHint
 )
 ;
