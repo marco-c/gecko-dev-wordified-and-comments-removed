@@ -185,6 +185,17 @@ aEffect
 if
 (
 mEffect
+=
+=
+aEffect
+)
+{
+return
+;
+}
+if
+(
+mEffect
 )
 {
 mEffect
