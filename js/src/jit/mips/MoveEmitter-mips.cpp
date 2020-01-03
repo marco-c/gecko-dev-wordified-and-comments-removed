@@ -27,7 +27,7 @@ MoveEmitterMIPS
 :
 MoveEmitterMIPS
 (
-MacroAssemblerMIPSCompat
+MacroAssembler
 &
 masm
 )

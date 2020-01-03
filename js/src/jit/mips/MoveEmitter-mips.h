@@ -37,7 +37,7 @@ MoveEmitterMIPS
 uint32_t
 inCycle_
 ;
-MacroAssemblerMIPSCompat
+MacroAssembler
 &
 masm
 ;
@@ -191,7 +191,7 @@ public
 :
 MoveEmitterMIPS
 (
-MacroAssemblerMIPSCompat
+MacroAssembler
 &
 masm
 )

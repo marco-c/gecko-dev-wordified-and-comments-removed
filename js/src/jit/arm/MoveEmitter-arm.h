@@ -37,7 +37,7 @@ MoveEmitterARM
 uint32_t
 inCycle_
 ;
-MacroAssemblerARMCompat
+MacroAssembler
 &
 masm
 ;
@@ -191,7 +191,7 @@ public
 :
 MoveEmitterARM
 (
-MacroAssemblerARMCompat
+MacroAssembler
 &
 masm
 )

@@ -29,7 +29,7 @@ MoveEmitterX86
 :
 MoveEmitterX86
 (
-MacroAssemblerSpecific
+MacroAssembler
 &
 masm
 )
