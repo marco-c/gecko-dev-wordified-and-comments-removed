@@ -1301,7 +1301,7 @@ StopPlayback
 )
 ;
 void
-StartPlayback
+MaybeStartPlayback
 (
 )
 ;
