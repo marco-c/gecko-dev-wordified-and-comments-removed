@@ -72,6 +72,13 @@ addressOfJitActivation
 const
 void
 *
+addressOfProfilingActivation
+(
+)
+;
+const
+void
+*
 addressOfJitStackLimit
 (
 )
