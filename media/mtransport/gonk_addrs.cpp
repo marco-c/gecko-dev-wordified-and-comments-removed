@@ -47,7 +47,7 @@ string
 #
 include
 "
-nsINetworkManager
+nsINetworkInterface
 .
 h
 "
@@ -268,9 +268,9 @@ i
 {
 nsCOMPtr
 <
-nsINetworkInterface
+nsINetworkInfo
 >
-iface
+info
 ;
 if
 (
@@ -279,12 +279,12 @@ NS_FAILED
 networkList
 -
 >
-GetInterface
+GetInterfaceInfo
 (
 i
 getter_AddRefs
 (
-iface
+info
 )
 )
 )
@@ -348,7 +348,7 @@ if
 (
 NS_FAILED
 (
-iface
+info
 -
 >
 GetAddresses
@@ -459,7 +459,7 @@ if
 (
 NS_FAILED
 (
-iface
+info
 -
 >
 GetName
@@ -492,7 +492,7 @@ if
 (
 NS_FAILED
 (
-iface
+info
 -
 >
 GetType
@@ -512,7 +512,7 @@ type
 )
 {
 case
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_TYPE_WIFI
@@ -526,7 +526,7 @@ NR_INTERFACE_TYPE_WIFI
 break
 ;
 case
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_TYPE_MOBILE
