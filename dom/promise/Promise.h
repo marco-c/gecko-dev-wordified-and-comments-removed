@@ -278,7 +278,7 @@ NativePromiseCallback
 ;
 friend
 class
-PromiseCallbackTask
+PromiseReactionJob
 ;
 friend
 class
@@ -1033,7 +1033,7 @@ aValue
 ;
 }
 void
-EnqueueCallbackTasks
+TriggerPromiseReactions
 (
 )
 ;
