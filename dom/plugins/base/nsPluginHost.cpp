@@ -1151,6 +1151,16 @@ Append
 '
 )
 ;
+ToLowerCase
+(
+searchStr
+)
+;
+ToLowerCase
+(
+commaSeparated
+)
+;
 return
 FindInReadable
 (
