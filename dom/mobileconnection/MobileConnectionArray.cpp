@@ -1,6 +1,10 @@
 #
 include
 "
+mozilla
+/
+dom
+/
 MobileConnectionArray
 .
 h

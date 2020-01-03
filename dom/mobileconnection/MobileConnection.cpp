@@ -1,6 +1,10 @@
 #
 include
 "
+mozilla
+/
+dom
+/
 MobileConnection
 .
 h
@@ -295,6 +299,16 @@ mozilla
 :
 :
 dom
+;
+using
+namespace
+mozilla
+:
+:
+dom
+:
+:
+mobileconnection
 ;
 class
 MobileConnection

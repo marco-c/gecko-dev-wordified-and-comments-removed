@@ -14,6 +14,12 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+mobileconnection
+/
 MobileConnectionChild
 .
 h
