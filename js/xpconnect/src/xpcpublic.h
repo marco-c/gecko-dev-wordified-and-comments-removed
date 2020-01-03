@@ -1632,6 +1632,11 @@ bool
 aIsChrome
 )
 ;
+void
+LogToConsole
+(
+)
+;
 private
 :
 void

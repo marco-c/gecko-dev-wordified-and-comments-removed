@@ -726,7 +726,10 @@ Run
 (
 )
 {
-ReportError
+mReport
+-
+>
+LogToConsole
 (
 )
 ;
@@ -736,11 +739,6 @@ NS_OK
 }
 protected
 :
-void
-ReportError
-(
-)
-;
 nsRefPtr
 <
 xpc
