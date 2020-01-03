@@ -4251,6 +4251,7 @@ nsAutoCString
 &
 mPublicId
 ;
+explicit
 PublicIdComparator
 (
 const
