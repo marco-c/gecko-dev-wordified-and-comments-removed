@@ -400,7 +400,7 @@ mozPay
 .
 enabled
 "
-true
+false
 )
 ;
 pref
