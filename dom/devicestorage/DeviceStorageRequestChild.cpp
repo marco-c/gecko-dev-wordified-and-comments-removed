@@ -937,6 +937,16 @@ Length
 (
 )
 ;
+cursor
+-
+>
+mFiles
+.
+SetCapacity
+(
+count
+)
+;
 for
 (
 uint32_t
@@ -1006,6 +1016,10 @@ mFiles
 AppendElement
 (
 dsf
+.
+forget
+(
+)
 )
 ;
 }

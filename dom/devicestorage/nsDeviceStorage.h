@@ -869,6 +869,9 @@ mOkToCallContinue
 PRTime
 mSince
 ;
+size_t
+mIndex
+;
 void
 GetStorageType
 (
