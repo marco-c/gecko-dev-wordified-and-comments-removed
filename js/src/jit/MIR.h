@@ -39292,7 +39292,14 @@ MSetPropertyPolymorphic
 public
 MBinaryInstruction
 public
+MixPolicy
+<
 SingleObjectPolicy
+NoFloatPolicy
+<
+1
+>
+>
 :
 :
 Data
