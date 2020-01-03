@@ -755,8 +755,6 @@ switch_to_window
 start_tab
 )
     
-skip_if_e10s
-    
 def
 test_tab_and_window_handles
 (
