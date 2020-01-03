@@ -333,6 +333,9 @@ attribute
 FontFaceLoadStatus
 status
 ;
+[
+Throws
+]
 Promise
 <
 FontFace
@@ -341,6 +344,9 @@ load
 (
 )
 ;
+[
+Throws
+]
 readonly
 attribute
 Promise
