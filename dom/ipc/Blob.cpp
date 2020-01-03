@@ -10780,6 +10780,9 @@ MOZ_ASSERT
 mRemoteBlob
 )
 ;
+#
+ifdef
+MOZ_CHILD_PERMISSIONS
 if
 (
 NS_WARN_IF
@@ -10802,6 +10805,8 @@ return
 false
 ;
 }
+#
+endif
 nsRefPtr
 <
 DOMFileImpl
