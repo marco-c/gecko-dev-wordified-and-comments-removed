@@ -227,6 +227,7 @@ nsCSSRuleProcessor
 {
 public
 :
+explicit
 ExpirationTracker
 (
 RuleProcessorCache
