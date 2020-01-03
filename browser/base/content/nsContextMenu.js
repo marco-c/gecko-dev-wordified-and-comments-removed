@@ -10775,13 +10775,11 @@ CM_savePageAs
 (
 )
 {
-saveDocument
+saveBrowser
 (
 this
 .
 browser
-.
-contentDocumentAsCPOW
 )
 ;
 }

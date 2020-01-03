@@ -155,6 +155,10 @@ protocol
 PPluginWidget
 ;
 include
+protocol
+PWebBrowserPersistDocument
+;
+include
 DOMTypes
 ;
 include
@@ -907,6 +911,9 @@ PRenderFrame
 manages
 PPluginWidget
 ;
+manages
+PWebBrowserPersistDocument
+;
 both
 :
 AsyncMessage
@@ -955,6 +962,10 @@ browser
 *
 /
 PRenderFrame
+(
+)
+;
+PWebBrowserPersistDocument
 (
 )
 ;

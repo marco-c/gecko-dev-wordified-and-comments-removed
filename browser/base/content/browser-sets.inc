@@ -289,13 +289,11 @@ SavePage
 oncommand
 =
 "
-saveDocument
+saveBrowser
 (
 gBrowser
 .
 selectedBrowser
-.
-contentDocumentAsCPOW
 )
 ;
 "

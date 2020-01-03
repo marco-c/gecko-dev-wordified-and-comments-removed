@@ -2295,7 +2295,7 @@ win
 typeof
 win
 .
-saveDocument
+saveBrowser
 =
 =
 "
@@ -2305,15 +2305,13 @@ function
 {
 win
 .
-saveDocument
+saveBrowser
 (
 win
 .
 gBrowser
 .
 selectedBrowser
-.
-contentDocumentAsCPOW
 )
 ;
 }
