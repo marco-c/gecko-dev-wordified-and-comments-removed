@@ -24955,7 +24955,12 @@ setBoolean
 (
 frame
 .
-isGeneratorFrame
+script
+(
+)
+-
+>
+isGenerator
 (
 )
 )

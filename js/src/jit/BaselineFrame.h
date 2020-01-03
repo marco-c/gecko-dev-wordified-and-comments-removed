@@ -1525,16 +1525,6 @@ return
 false
 ;
 }
-bool
-isGeneratorFrame
-(
-)
-const
-{
-return
-false
-;
-}
 IonJSFrameLayout
 *
 framePrefix
