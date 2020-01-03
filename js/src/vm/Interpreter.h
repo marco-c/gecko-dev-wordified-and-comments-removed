@@ -1192,6 +1192,11 @@ GetScopeName
 JSContext
 *
 cx
+HandleScript
+script
+jsbytecode
+*
+pc
 HandleObject
 obj
 HandlePropertyName
