@@ -2095,6 +2095,13 @@ if
 (
 aStrokeOptions
 .
+mDashLength
+>
+0
+&
+&
+aStrokeOptions
+.
 mDashPattern
 )
 {
