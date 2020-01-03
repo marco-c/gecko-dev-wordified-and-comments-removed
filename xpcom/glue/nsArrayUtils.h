@@ -19,6 +19,7 @@ nsIArray
 h
 "
 class
+MOZ_STACK_CLASS
 nsQueryArrayElementAt
 :
 public

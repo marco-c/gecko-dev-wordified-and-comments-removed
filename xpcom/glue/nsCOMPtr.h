@@ -277,6 +277,7 @@ aAlreadyAddRefedPtr
 ;
 }
 class
+MOZ_STACK_CLASS
 nsCOMPtr_helper
 {
 public

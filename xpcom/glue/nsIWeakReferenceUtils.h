@@ -86,6 +86,7 @@ aDestination
 ;
 }
 class
+MOZ_STACK_CLASS
 nsQueryReferent
 :
 public

@@ -99,6 +99,7 @@ aError
 ;
 }
 class
+MOZ_STACK_CLASS
 nsGetServiceFromCategory
 :
 public
