@@ -810,7 +810,7 @@ mReader
 (
 aReader
 )
-mCurrentFrameTime
+mCurrentPosition
 (
 0
 )
@@ -6307,7 +6307,7 @@ mStartTime
 "
 )
 ;
-mCurrentFrameTime
+mCurrentPosition
 =
 aTime
 -
@@ -6315,7 +6315,7 @@ mStartTime
 ;
 NS_ASSERTION
 (
-mCurrentFrameTime
+mCurrentPosition
 >
 =
 0
@@ -6337,7 +6337,7 @@ mEndTime
 {
 NS_ASSERTION
 (
-mCurrentFrameTime
+mCurrentPosition
 >
 GetDuration
 (
@@ -6720,7 +6720,7 @@ static_cast
 double
 >
 (
-mCurrentFrameTime
+mCurrentPosition
 )
 /
 static_cast
@@ -6742,7 +6742,7 @@ GetCurrentTimeUs
 const
 {
 return
-mCurrentFrameTime
+mCurrentPosition
 ;
 }
 bool
@@ -6978,7 +6978,7 @@ mEndTime
 &
 mEndTime
 <
-mCurrentFrameTime
+mCurrentPosition
 )
 {
 if
@@ -7323,7 +7323,7 @@ mTarget
 =
 SeekTarget
 (
-mCurrentFrameTime
+mCurrentPosition
 SeekTarget
 :
 :
@@ -7362,7 +7362,7 @@ mTarget
 =
 SeekTarget
 (
-mCurrentFrameTime
+mCurrentPosition
 SeekTarget
 :
 :
@@ -7500,7 +7500,7 @@ ScheduleStateMachine
 (
 )
 ;
-mCurrentFrameTime
+mCurrentPosition
 =
 0
 ;
@@ -11907,12 +11907,12 @@ DECODER_LOG
 "
 Seek
 completed
-mCurrentFrameTime
+mCurrentPosition
 =
 %
 lld
 "
-mCurrentFrameTime
+mCurrentPosition
 )
 ;
 mQuickBuffering

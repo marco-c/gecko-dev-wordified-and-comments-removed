@@ -1534,7 +1534,7 @@ AssertCurrentThreadInMonitor
 return
 mStartTime
 +
-mCurrentFrameTime
+mCurrentPosition
 ;
 }
 int64_t
@@ -2368,7 +2368,7 @@ WakeDecoderRunnable
 mPendingWakeDecoder
 ;
 int64_t
-mCurrentFrameTime
+mCurrentPosition
 ;
 int64_t
 mAudioStartTime
