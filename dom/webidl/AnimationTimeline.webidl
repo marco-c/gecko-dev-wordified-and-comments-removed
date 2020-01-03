@@ -198,7 +198,7 @@ sequence
 <
 AnimationPlayer
 >
-getAnimationPlayers
+getAnimations
 (
 )
 ;

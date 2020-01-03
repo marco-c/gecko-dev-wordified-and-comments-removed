@@ -14447,7 +14447,7 @@ void
 Element
 :
 :
-GetAnimationPlayers
+GetAnimations
 (
 nsTArray
 <
@@ -14457,7 +14457,7 @@ AnimationPlayer
 >
 >
 &
-aPlayers
+aAnimations
 )
 {
 nsIDocument
@@ -14591,7 +14591,7 @@ IsRelevant
 )
 )
 {
-aPlayers
+aAnimations
 .
 AppendElement
 (
