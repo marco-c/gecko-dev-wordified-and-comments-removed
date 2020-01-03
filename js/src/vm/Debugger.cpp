@@ -19816,6 +19816,12 @@ cx
 TraceLogger_Scripts
 )
 ;
+TraceLogEnableTextId
+(
+cx
+TraceLogger_InlinedScripts
+)
+;
 TraceLogDisableTextId
 (
 cx

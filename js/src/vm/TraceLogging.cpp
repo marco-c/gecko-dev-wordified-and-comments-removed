@@ -1566,6 +1566,12 @@ type
 =
 =
 TraceLogger_AnnotateScripts
+|
+|
+type
+=
+=
+TraceLogger_InlinedScripts
 )
 ;
 if
