@@ -634,6 +634,16 @@ EXTRA_COMPONENTS
 =
 [
 '
+DataCallInterfaceService
+.
+js
+'
+'
+DataCallInterfaceService
+.
+manifest
+'
+'
 RadioInterfaceLayer
 .
 js
