@@ -1428,14 +1428,6 @@ DOMMediaStream
 aValue
 )
 ;
-void
-SetMozSrcObject
-(
-DOMMediaStream
-*
-aValue
-)
-;
 bool
 MozPreservesPitch
 (

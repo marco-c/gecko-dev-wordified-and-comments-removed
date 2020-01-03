@@ -254,6 +254,9 @@ class
 nsGlobalWindow
 ;
 class
+nsIDOMMediaStream
+;
+class
 nsDOMDataChannel
 ;
 namespace
@@ -1279,10 +1282,7 @@ CreateFakeMediaStream
 (
 uint32_t
 hint
-mozilla
-:
-:
-DOMMediaStream
+nsIDOMMediaStream
 *
 *
 retval

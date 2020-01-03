@@ -218,8 +218,6 @@ null
 ;
 interface
 MediaStream
-:
-EventTarget
 {
 /
 /
