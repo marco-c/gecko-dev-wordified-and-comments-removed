@@ -400,6 +400,14 @@ this
 _settingsManager
 .
 innerWindowID
+lockStack
+:
+(
+new
+Error
+)
+.
+stack
 }
 ;
 this
