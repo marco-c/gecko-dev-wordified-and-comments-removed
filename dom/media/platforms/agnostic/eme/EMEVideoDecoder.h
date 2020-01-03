@@ -25,7 +25,7 @@ class
 CDMProxy
 ;
 class
-MediaTaskQueue
+TaskQueue
 ;
 class
 EMEVideoCallbackAdapter
@@ -97,7 +97,7 @@ layers
 ImageContainer
 *
 aImageContainer
-MediaTaskQueue
+TaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallbackProxy

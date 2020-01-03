@@ -43,7 +43,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -797,7 +797,7 @@ AddPopListener
 nsIRunnable
 *
 aRunnable
-MediaTaskQueue
+TaskQueue
 *
 aTarget
 )
@@ -834,7 +834,7 @@ Listener
 nsIRunnable
 *
 aRunnable
-MediaTaskQueue
+TaskQueue
 *
 aTarget
 )
@@ -879,7 +879,7 @@ mRunnable
 ;
 RefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTarget
 ;

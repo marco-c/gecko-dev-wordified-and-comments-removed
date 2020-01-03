@@ -69,7 +69,7 @@ MediaData
 h
 "
 class
-MediaTaskQueue
+TaskQueue
 ;
 namespace
 mozilla
@@ -281,7 +281,7 @@ mMediaDataDecoder
 ;
 nsRefPtr
 <
-FlushableMediaTaskQueue
+FlushableTaskQueue
 >
 mTaskQueue
 ;

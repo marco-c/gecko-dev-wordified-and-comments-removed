@@ -48,7 +48,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -223,7 +223,7 @@ TrackBuffersManager
 aSourceBuffer
 )
 ;
-MediaTaskQueue
+TaskQueue
 *
 GetTaskQueue
 (
@@ -331,7 +331,7 @@ IsCurrentThreadIn
 }
 RefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;

@@ -254,7 +254,7 @@ TestBinding
 {
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 queue
 =

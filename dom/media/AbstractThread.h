@@ -56,7 +56,7 @@ namespace
 mozilla
 {
 class
-MediaTaskQueue
+TaskQueue
 ;
 class
 TaskDispatcher
@@ -180,7 +180,7 @@ aThread
 const
 ;
 virtual
-MediaTaskQueue
+TaskQueue
 *
 AsTaskQueue
 (

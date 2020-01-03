@@ -173,7 +173,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -655,7 +655,7 @@ aDecoder
 mTaskQueue
 (
 new
-MediaTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (

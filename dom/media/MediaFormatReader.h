@@ -43,7 +43,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -92,7 +92,7 @@ aDecoder
 MediaDataDemuxer
 *
 aDemuxer
-MediaTaskQueue
+TaskQueue
 *
 aBorrowedTaskQueue
 =
@@ -841,7 +841,7 @@ mDecoder
 ;
 nsRefPtr
 <
-FlushableMediaTaskQueue
+FlushableTaskQueue
 >
 mTaskQueue
 ;

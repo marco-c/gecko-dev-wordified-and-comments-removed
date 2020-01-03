@@ -17,7 +17,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -75,7 +75,7 @@ AutoTaskQueue
 mTaskQueue
 (
 new
-MediaTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (
@@ -101,7 +101,7 @@ AwaitShutdownAndIdle
 )
 ;
 }
-MediaTaskQueue
+TaskQueue
 *
 Queue
 (
@@ -115,7 +115,7 @@ private
 :
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
@@ -131,7 +131,7 @@ public
 :
 DelayedResolveOrReject
 (
-MediaTaskQueue
+TaskQueue
 *
 aTaskQueue
 TestPromise
@@ -261,7 +261,7 @@ private
 :
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
@@ -293,7 +293,7 @@ FunctionType
 void
 RunOnTaskQueue
 (
-MediaTaskQueue
+TaskQueue
 *
 aQueue
 FunctionType
@@ -352,7 +352,7 @@ atq
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 queue
 =
@@ -431,7 +431,7 @@ atq
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 queue
 =
@@ -514,7 +514,7 @@ atq
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 queue
 =
@@ -762,7 +762,7 @@ atq
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 queue
 =
@@ -1056,7 +1056,7 @@ atq
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 queue
 =
@@ -1222,7 +1222,7 @@ atq
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 queue
 =

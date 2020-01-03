@@ -721,11 +721,6 @@ MediaStreamGraph
 h
 '
 '
-MediaTaskQueue
-.
-h
-'
-'
 MediaTimer
 .
 h
@@ -802,6 +797,11 @@ h
 '
 '
 TaskDispatcher
+.
+h
+'
+'
+TaskQueue
 .
 h
 '
@@ -1177,11 +1177,6 @@ MediaStreamTrack
 cpp
 '
 '
-MediaTaskQueue
-.
-cpp
-'
-'
 MediaTimer
 .
 cpp
@@ -1223,6 +1218,11 @@ cpp
 '
 '
 StreamBuffer
+.
+cpp
+'
+'
+TaskQueue
 .
 cpp
 '

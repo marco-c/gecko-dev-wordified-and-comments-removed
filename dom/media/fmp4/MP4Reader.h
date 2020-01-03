@@ -50,7 +50,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -109,7 +109,7 @@ MP4Reader
 AbstractMediaDecoder
 *
 aDecoder
-MediaTaskQueue
+TaskQueue
 *
 aBorrowedTaskQueue
 =
@@ -777,7 +777,7 @@ mDecoder
 ;
 nsRefPtr
 <
-FlushableMediaTaskQueue
+FlushableTaskQueue
 >
 mTaskQueue
 ;

@@ -41,7 +41,7 @@ SamplesWaitingForKey
 MediaDataDecoder
 *
 aDecoder
-MediaTaskQueue
+TaskQueue
 *
 aTaskQueue
 CDMProxy

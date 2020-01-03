@@ -68,7 +68,7 @@ public
 :
 FFmpegDataDecoder
 (
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aTaskQueue
 AVCodecID
@@ -137,7 +137,7 @@ PrepareFrame
 (
 )
 ;
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 mTaskQueue
 ;

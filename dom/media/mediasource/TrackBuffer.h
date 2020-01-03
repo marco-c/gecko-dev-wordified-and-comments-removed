@@ -530,7 +530,7 @@ mInputBuffer
 ;
 RefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;

@@ -1,7 +1,7 @@
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -41,7 +41,7 @@ LIBAV_VER
 :
 FFmpegAudioDecoder
 (
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback

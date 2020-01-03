@@ -76,7 +76,7 @@ class
 MediaSystemResourceReservationListener
 ;
 class
-MediaTaskQueue
+TaskQueue
 ;
 class
 ReentrantMonitor

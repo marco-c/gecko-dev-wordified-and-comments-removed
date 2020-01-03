@@ -380,7 +380,7 @@ mReader
 void
 SetTaskQueue
 (
-MediaTaskQueue
+TaskQueue
 *
 aTaskQueue
 )
@@ -568,7 +568,7 @@ SourceBufferDecoder
 ;
 RefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;

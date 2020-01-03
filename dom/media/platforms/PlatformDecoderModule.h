@@ -76,7 +76,7 @@ class
 MediaDataDecoderCallback
 ;
 class
-FlushableMediaTaskQueue
+FlushableTaskQueue
 ;
 class
 CDMProxy
@@ -153,7 +153,7 @@ const
 TrackInfo
 &
 aConfig
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback
@@ -275,7 +275,7 @@ layers
 ImageContainer
 *
 aImageContainer
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aVideoTaskQueue
 MediaDataDecoderCallback
@@ -296,7 +296,7 @@ const
 AudioInfo
 &
 aConfig
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aAudioTaskQueue
 MediaDataDecoderCallback

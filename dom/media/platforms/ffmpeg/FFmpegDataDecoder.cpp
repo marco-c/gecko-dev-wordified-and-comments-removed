@@ -15,7 +15,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -78,7 +78,7 @@ LIBAV_VER
 :
 FFmpegDataDecoder
 (
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aTaskQueue
 AVCodecID

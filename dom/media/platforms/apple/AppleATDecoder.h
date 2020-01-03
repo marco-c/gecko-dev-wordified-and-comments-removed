@@ -49,7 +49,7 @@ namespace
 mozilla
 {
 class
-FlushableMediaTaskQueue
+FlushableTaskQueue
 ;
 class
 MediaDataDecoderCallback
@@ -68,7 +68,7 @@ const
 AudioInfo
 &
 aConfig
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aVideoTaskQueue
 MediaDataDecoderCallback
@@ -138,7 +138,7 @@ private
 :
 nsRefPtr
 <
-FlushableMediaTaskQueue
+FlushableTaskQueue
 >
 mTaskQueue
 ;

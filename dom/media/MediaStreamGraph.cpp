@@ -13565,7 +13565,7 @@ DispatchWhenNotEnoughBuffered
 (
 TrackID
 aID
-MediaTaskQueue
+TaskQueue
 *
 aSignalQueue
 nsIRunnable

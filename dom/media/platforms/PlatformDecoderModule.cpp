@@ -112,7 +112,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -798,7 +798,7 @@ const
 TrackInfo
 &
 aConfig
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback

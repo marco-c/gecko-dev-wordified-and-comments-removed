@@ -105,7 +105,7 @@ class
 AudioSegment
 ;
 class
-MediaTaskQueue
+TaskQueue
 ;
 class
 AudioSink
@@ -559,7 +559,7 @@ aThrottleUpdates
 )
 ;
 }
-MediaTaskQueue
+TaskQueue
 *
 OwnerThread
 (
@@ -1681,7 +1681,7 @@ mDecoder
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
@@ -2652,7 +2652,7 @@ State
 >
 mState
 ;
-MediaTaskQueue
+TaskQueue
 *
 DecodeTaskQueue
 (

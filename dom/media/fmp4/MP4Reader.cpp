@@ -611,7 +611,7 @@ MP4Reader
 AbstractMediaDecoder
 *
 aDecoder
-MediaTaskQueue
+TaskQueue
 *
 aBorrowedTaskQueue
 )
@@ -1136,7 +1136,7 @@ mAudio
 mTaskQueue
 =
 new
-FlushableMediaTaskQueue
+FlushableTaskQueue
 (
 GetMediaThreadPool
 (
@@ -1160,7 +1160,7 @@ mVideo
 mTaskQueue
 =
 new
-FlushableMediaTaskQueue
+FlushableTaskQueue
 (
 GetMediaThreadPool
 (

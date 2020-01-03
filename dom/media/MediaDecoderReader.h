@@ -242,7 +242,7 @@ MediaDecoderReader
 AbstractMediaDecoder
 *
 aDecoder
-MediaTaskQueue
+TaskQueue
 *
 aBorrowedTaskQueue
 =
@@ -880,7 +880,7 @@ forget
 )
 ;
 }
-MediaTaskQueue
+TaskQueue
 *
 OwnerThread
 (
@@ -973,7 +973,7 @@ mDecoder
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;

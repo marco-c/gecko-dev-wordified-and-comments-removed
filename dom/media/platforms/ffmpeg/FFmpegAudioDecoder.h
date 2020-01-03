@@ -43,7 +43,7 @@ public
 :
 FFmpegAudioDecoder
 (
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback

@@ -61,7 +61,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -93,7 +93,7 @@ BlankMediaDataDecoder
 BlankMediaDataCreator
 *
 aCreator
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback
@@ -338,7 +338,7 @@ mCreator
 ;
 RefPtr
 <
-FlushableMediaTaskQueue
+FlushableTaskQueue
 >
 mTaskQueue
 ;
@@ -1004,7 +1004,7 @@ layers
 ImageContainer
 *
 aImageContainer
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aVideoTaskQueue
 MediaDataDecoderCallback
@@ -1069,7 +1069,7 @@ const
 AudioInfo
 &
 aConfig
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aAudioTaskQueue
 MediaDataDecoderCallback

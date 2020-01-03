@@ -58,7 +58,7 @@ layers
 ImageContainer
 *
 aImageContainer
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aVideoTaskQueue
 MediaDataDecoderCallback
@@ -78,7 +78,7 @@ const
 AudioInfo
 &
 aConfig
-FlushableMediaTaskQueue
+FlushableTaskQueue
 *
 aAudioTaskQueue
 MediaDataDecoderCallback

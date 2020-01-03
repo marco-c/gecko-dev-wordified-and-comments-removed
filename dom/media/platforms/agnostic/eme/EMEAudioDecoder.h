@@ -71,7 +71,7 @@ const
 AudioInfo
 &
 aConfig
-MediaTaskQueue
+TaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallbackProxy

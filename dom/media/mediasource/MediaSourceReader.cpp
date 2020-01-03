@@ -3327,7 +3327,7 @@ aType
 AbstractMediaDecoder
 *
 aDecoder
-MediaTaskQueue
+TaskQueue
 *
 aBorrowedTaskQueue
 )

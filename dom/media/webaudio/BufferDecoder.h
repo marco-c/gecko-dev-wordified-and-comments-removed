@@ -14,7 +14,7 @@ h
 #
 include
 "
-MediaTaskQueue
+TaskQueue
 .
 h
 "
@@ -60,7 +60,7 @@ NS_DECL_THREADSAFE_ISUPPORTS
 void
 BeginDecoding
 (
-MediaTaskQueue
+TaskQueue
 *
 aTaskQueueIdentity
 )
@@ -298,7 +298,7 @@ mReentrantMonitor
 ;
 nsRefPtr
 <
-MediaTaskQueue
+TaskQueue
 >
 mTaskQueueIdentity
 ;
