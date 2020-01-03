@@ -4002,11 +4002,10 @@ aPageURL
 aManifestURL
 )
 ;
+return
+MSG_SENT_FAILURE_PERM_DENIED
+;
 }
-if
-(
-page
-)
 this
 .
 _queueMessage
@@ -4192,10 +4191,6 @@ pageKey
 )
 ;
 }
-if
-(
-page
-)
 this
 .
 _openAppPage
