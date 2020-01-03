@@ -311,10 +311,6 @@ security
 /
 sandbox
 /
-chromium
-/
-sandbox
-/
 win
 /
 src
@@ -389,6 +385,15 @@ security
 sandbox
 /
 chromium
+'
+]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+security
 '
 ]
 LOCAL_INCLUDES
