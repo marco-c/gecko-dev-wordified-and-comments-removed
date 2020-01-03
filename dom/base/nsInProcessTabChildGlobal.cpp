@@ -1057,6 +1057,12 @@ aVisitor
 {
 aVisitor
 .
+mForceContentDispatch
+=
+true
+;
+aVisitor
+.
 mCanHandle
 =
 true
