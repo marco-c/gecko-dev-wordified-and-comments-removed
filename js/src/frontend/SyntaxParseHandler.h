@@ -1293,6 +1293,17 @@ NodeGeneric
 pn
 ;
 }
+Node
+setLikelyIIFE
+(
+Node
+pn
+)
+{
+return
+pn
+;
+}
 void
 setPrologue
 (
