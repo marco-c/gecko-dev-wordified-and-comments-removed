@@ -374,6 +374,16 @@ GetDoc
 if
 (
 !
+doc
+)
+{
+return
+nullptr
+;
+}
+if
+(
+!
 nsContentUtils
 :
 :
