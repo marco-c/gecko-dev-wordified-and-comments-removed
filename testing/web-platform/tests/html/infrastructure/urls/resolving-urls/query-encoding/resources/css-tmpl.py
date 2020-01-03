@@ -35,7 +35,8 @@ tmpl
 u
 '
 \
-u00E5
+\
+0000E5
 '
     
 return

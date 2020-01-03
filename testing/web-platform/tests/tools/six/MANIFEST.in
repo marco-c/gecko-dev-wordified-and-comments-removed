@@ -1,0 +1,17 @@
+include
+CHANGES
+include
+LICENSE
+include
+test_six
+.
+py
+recursive
+-
+include
+documentation
+*
+prune
+documentation
+/
+_build

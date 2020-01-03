@@ -175,13 +175,6 @@ request
 GET
 :
         
-print
-"
-delete
--
-cookie
-"
-        
 response
 .
 delete_cookie

@@ -7,9 +7,13 @@ evt
 {
 throw
 (
+new
+Error
+(
 evt
 .
 data
+)
 )
 ;
 }
@@ -50,6 +54,6 @@ col
 )
 ;
 return
-true
+false
 ;
 }

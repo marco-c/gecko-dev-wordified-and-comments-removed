@@ -1780,6 +1780,11 @@ long
 long
 "
 :
+case
+"
+DOMTimeStamp
+"
+:
 assert_equals
 (
 typeof
@@ -1814,6 +1819,11 @@ float
 case
 "
 double
+"
+:
+case
+"
+DOMHighResTimeStamp
 "
 :
 case

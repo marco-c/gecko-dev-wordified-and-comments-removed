@@ -1,0 +1,4 @@
+loads_scripts_with_correct_content_type
+=
+true
+;

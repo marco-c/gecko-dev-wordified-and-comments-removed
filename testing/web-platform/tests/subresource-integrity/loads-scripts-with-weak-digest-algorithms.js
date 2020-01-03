@@ -1,0 +1,4 @@
+loads_scripts_with_weak_digest_algorithms
+=
+true
+;
