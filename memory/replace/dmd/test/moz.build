@@ -165,14 +165,6 @@ True
 DISABLE_STL_WRAPPING
 =
 True
-USE_LIBS
-+
-=
-[
-'
-dmd
-'
-]
 XPCSHELL_TESTS_MANIFESTS
 +
 =

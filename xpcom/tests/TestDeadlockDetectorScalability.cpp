@@ -1,4 +1,7 @@
 #
+undef
+MOZ_DMD
+#
 include
 "
 TestHarness
