@@ -4719,14 +4719,6 @@ testURI
 spec
 )
 ;
-Assert
-.
-equal
-(
-null
-post_data
-)
-;
 run_next_test
 (
 )

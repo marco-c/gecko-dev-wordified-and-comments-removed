@@ -372,11 +372,6 @@ PREF_IMPORT_BOOKMARKS_HTML
 )
 )
 ;
-yield
-waitForImportAndSmartBookmarks
-(
-)
-;
 }
 )
 ;

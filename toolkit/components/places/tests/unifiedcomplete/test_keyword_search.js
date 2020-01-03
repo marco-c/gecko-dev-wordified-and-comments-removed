@@ -412,7 +412,7 @@ style
 :
 [
 "
-bookmark
+keyword
 "
 ]
 }
