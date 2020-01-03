@@ -4085,12 +4085,6 @@ gradient
 ref
 .
 html
-fails
--
-if
-(
-browserIsRemote
-)
 fuzzy
 (
 1
@@ -4114,12 +4108,6 @@ gradient
 ref
 .
 html
-fails
--
-if
-(
-browserIsRemote
-)
 =
 =
 large
