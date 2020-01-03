@@ -6475,7 +6475,6 @@ Expression
 Statement
 Arrow
 Method
-Lazy
 }
 ;
 static
