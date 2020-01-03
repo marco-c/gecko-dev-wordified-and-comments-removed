@@ -7,9 +7,7 @@ traceback
 try
 :
     
-exec
-(
-open
+execfile
 (
 os
 .
@@ -23,11 +21,6 @@ prologue
 .
 py
 '
-)
-)
-.
-read
-(
 )
 )
 except

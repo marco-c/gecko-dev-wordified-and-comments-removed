@@ -162,7 +162,6 @@ AsmJSFaultHandler
 :
             
 print
-(
 "
 js
 /
@@ -182,7 +181,6 @@ to
 run
 .
 "
-)
             
 gdb
 .

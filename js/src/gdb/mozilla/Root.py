@@ -34,10 +34,6 @@ handle
 =
 False
     
-strip_typedefs
-=
-False
-    
 def
 __init__
 (
@@ -103,27 +99,6 @@ dereference
 if
 self
 .
-strip_typedefs
-:
-            
-ptr
-=
-ptr
-.
-cast
-(
-ptr
-.
-type
-.
-strip_typedefs
-(
-)
-)
-        
-if
-self
-.
 content_printer
 :
             
@@ -166,9 +141,7 @@ Common
 )
 :
     
-strip_typedefs
-=
-True
+pass
 template_pretty_printer
 (
 "
