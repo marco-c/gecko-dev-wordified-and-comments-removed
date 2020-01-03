@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsINetworkPredictorVerifier
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -107,9 +114,6 @@ class
 nsIIOService
 ;
 class
-nsINetworkPredictorVerifier
-;
-class
 nsITimer
 ;
 namespace
@@ -131,6 +135,8 @@ public
 nsIInterfaceRequestor
 public
 nsICacheEntryMetaDataVisitor
+public
+nsINetworkPredictorVerifier
 {
 public
 :
@@ -140,6 +146,7 @@ NS_DECL_NSIOBSERVER
 NS_DECL_NSISPECULATIVECONNECTIONOVERRIDER
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSICACHEENTRYMETADATAVISITOR
+NS_DECL_NSINETWORKPREDICTORVERIFIER
 Predictor
 (
 )
@@ -178,6 +185,12 @@ virtual
 Predictor
 (
 )
+;
+nsCOMPtr
+<
+nsINetworkPredictorVerifier
+>
+mChildVerifier
 ;
 union
 Reason
