@@ -2073,6 +2073,18 @@ hey
 2
 )
 ;
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 expr
 =
 Symbol
@@ -2160,6 +2172,7 @@ expr
 4
 )
 ;
+}
 log
 =
 "
