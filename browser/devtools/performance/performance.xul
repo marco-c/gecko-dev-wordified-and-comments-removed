@@ -325,6 +325,8 @@ src
 "
 performance
 /
+performance
+-
 controller
 .
 js
@@ -345,9 +347,9 @@ src
 "
 performance
 /
-views
-/
-main
+performance
+-
+view
 .
 js
 "
@@ -413,6 +415,8 @@ performance
 /
 views
 /
+details
+-
 call
 -
 tree
@@ -437,6 +441,8 @@ performance
 /
 views
 /
+details
+-
 waterfall
 .
 js
