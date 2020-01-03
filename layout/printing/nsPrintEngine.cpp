@@ -671,14 +671,6 @@ mozilla
 dom
 ;
 #
-ifdef
-MOZ_LOGGING
-#
-define
-FORCE_PR_LOG
-#
-endif
-#
 include
 "
 prlog

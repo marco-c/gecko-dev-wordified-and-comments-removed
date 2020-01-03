@@ -596,11 +596,6 @@ aThread
 }
 ;
 #
-ifdef
-MOZ_LOGGING
-#
-endif
-#
 include
 "
 prlog
