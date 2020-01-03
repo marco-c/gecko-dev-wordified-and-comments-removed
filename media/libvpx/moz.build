@@ -709,6 +709,13 @@ ANDROID_NDK
 ]
 ]
 if
+CONFIG
+[
+'
+CLANG_CL
+'
+]
+or
 not
 CONFIG
 [
