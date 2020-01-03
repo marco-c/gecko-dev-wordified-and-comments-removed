@@ -606,6 +606,7 @@ GMPStorage
 {
 public
 :
+explicit
 GMPDiskStorage
 (
 const

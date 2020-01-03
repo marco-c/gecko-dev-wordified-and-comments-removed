@@ -52,6 +52,7 @@ MediaEngineVideoSource
 {
 public
 :
+explicit
 MediaEngineCameraVideoSource
 (
 int

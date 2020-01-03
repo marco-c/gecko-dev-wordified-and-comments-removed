@@ -2128,6 +2128,7 @@ mIsEnabled
 ;
 public
 :
+explicit
 WorkerDebugger
 (
 WorkerPrivate

@@ -38,6 +38,7 @@ MediaResource
 {
 public
 :
+explicit
 MockMediaResource
 (
 const

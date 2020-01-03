@@ -570,6 +570,7 @@ Shutdown
 ;
 private
 :
+explicit
 txMozillaXSLTProcessor
 (
 nsISupports

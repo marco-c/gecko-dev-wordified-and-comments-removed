@@ -104,6 +104,7 @@ MediaResource
 {
 public
 :
+explicit
 MediaSourceResource
 (
 nsIPrincipal

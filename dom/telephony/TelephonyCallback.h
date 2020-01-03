@@ -47,6 +47,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSITELEPHONYCALLBACK
+explicit
 TelephonyCallback
 (
 Promise

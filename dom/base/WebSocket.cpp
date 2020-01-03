@@ -429,6 +429,7 @@ NS_DECL_NSIOBSERVER
 NS_DECL_NSIREQUEST
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIEVENTTARGET
+explicit
 WebSocketImpl
 (
 WebSocket
@@ -1720,6 +1721,7 @@ WorkerMainThreadRunnable
 {
 public
 :
+explicit
 DisconnectInternalRunnable
 (
 WebSocketImpl
@@ -3982,6 +3984,7 @@ ClearWebSocket
 {
 public
 :
+explicit
 ClearWebSocket
 (
 WebSocketImpl
@@ -6324,6 +6327,7 @@ WorkerMainThreadRunnable
 {
 public
 :
+explicit
 PrefEnabledRunnable
 (
 WorkerPrivate

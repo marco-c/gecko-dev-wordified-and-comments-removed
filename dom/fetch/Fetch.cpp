@@ -342,6 +342,7 @@ mInternalResponse
 NS_DECL_OWNINGTHREAD
 public
 :
+explicit
 MainThreadFetchResolver
 (
 Promise
@@ -902,6 +903,7 @@ mResolver
 ;
 public
 :
+explicit
 WorkerFetchResponseRunnable
 (
 WorkerFetchResolver

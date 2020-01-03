@@ -93,6 +93,7 @@ StackIdentifier
 {
 public
 :
+explicit
 StackIdentifier
 (
 const

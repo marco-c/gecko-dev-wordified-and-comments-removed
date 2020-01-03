@@ -2647,6 +2647,7 @@ FileImplBase
 {
 public
 :
+explicit
 EmptyBlobImpl
 (
 const
@@ -3018,6 +3019,7 @@ const
 bool
 mIsSameProcessActor
 ;
+explicit
 CreateBlobImplMetadata
 (
 bool
@@ -6225,6 +6227,7 @@ mDone
 ;
 public
 :
+explicit
 CreateStreamHelper
 (
 RemoteBlobImpl

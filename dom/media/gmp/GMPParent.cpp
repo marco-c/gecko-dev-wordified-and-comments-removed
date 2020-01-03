@@ -1793,6 +1793,7 @@ nsRunnable
 {
 public
 :
+explicit
 NotifyGMPShutdownTask
 (
 const

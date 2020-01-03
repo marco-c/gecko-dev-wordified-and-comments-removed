@@ -289,6 +289,7 @@ mTelephony
 ;
 public
 :
+explicit
 EnumerationAck
 (
 Telephony
