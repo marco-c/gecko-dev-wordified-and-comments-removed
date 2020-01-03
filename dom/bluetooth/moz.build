@@ -115,6 +115,11 @@ BluetoothInterface
 .
 cpp
 '
+'
+BluetoothInterfaceHelpers
+.
+cpp
+'
 ]
 if
 CONFIG
@@ -347,13 +352,6 @@ cpp
 bluetooth1
 /
 BluetoothHidManager
-.
-cpp
-'
-'
-bluetooth1
-/
-BluetoothInterfaceHelpers
 .
 cpp
 '
