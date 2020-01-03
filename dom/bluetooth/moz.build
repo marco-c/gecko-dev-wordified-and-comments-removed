@@ -639,6 +639,13 @@ cpp
 '
 bluedroid
 /
+BluetoothPbapManager
+.
+cpp
+'
+'
+bluedroid
+/
 BluetoothServiceBluedroid
 .
 cpp
