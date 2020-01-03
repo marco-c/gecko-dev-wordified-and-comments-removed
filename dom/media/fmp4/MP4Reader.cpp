@@ -5383,6 +5383,13 @@ GetBuffered
 (
 )
 {
+MOZ_ASSERT
+(
+OnTaskQueue
+(
+)
+)
+;
 MonitorAutoLock
 mon
 (

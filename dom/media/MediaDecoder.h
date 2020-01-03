@@ -1704,6 +1704,15 @@ mWatchManager
 ;
 Mirror
 <
+media
+:
+:
+TimeIntervals
+>
+mBuffered
+;
+Mirror
+<
 MediaDecoderOwner
 :
 :
