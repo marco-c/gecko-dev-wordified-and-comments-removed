@@ -520,7 +520,7 @@ DragMode
 mDragMode
 ;
 bool
-mAsyncPanZoomEnabled
+mUseAsyncPanZoom
 ;
 bool
 mInAsyncPanZoomGesture
