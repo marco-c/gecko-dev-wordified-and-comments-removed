@@ -215,8 +215,6 @@ nsACString
 aEnhanceID
 bool
 aUseDisk
-uint32_t
-aPinningAppId
 )
 ;
 void
@@ -1032,10 +1030,6 @@ mStorageID
 bool
 const
 mUseDisk
-;
-uint32_t
-const
-mPinningAppId
 ;
 bool
 mIsDoomed
