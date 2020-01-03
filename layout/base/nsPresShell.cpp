@@ -17717,7 +17717,6 @@ mHaveShutDown
 SynthesizeMouseMove
 (
 false
-false
 )
 ;
 ScheduleImageVisibilityUpdate
@@ -24540,8 +24539,6 @@ SynthesizeMouseMove
 (
 bool
 aFromScroll
-bool
-aIsSynthesizedForTests
 )
 {
 if
@@ -24597,7 +24594,6 @@ rootPresShell
 SynthesizeMouseMove
 (
 aFromScroll
-aIsSynthesizedForTests
 )
 ;
 }
@@ -24638,7 +24634,6 @@ nsSynthMouseMoveEvent
 (
 this
 aFromScroll
-aIsSynthesizedForTests
 )
 ;
 if
@@ -25007,8 +25002,6 @@ ProcessSynthMouseMoveEvent
 (
 bool
 aFromScroll
-bool
-aIsSynthesizedForTests
 )
 {
 nsCOMPtr
@@ -25396,14 +25389,6 @@ time
 PR_IntervalNow
 (
 )
-;
-event
-.
-mFlags
-.
-mIsSynthesizedForTests
-=
-aIsSynthesizedForTests
 ;
 nsCOMPtr
 <
@@ -30471,12 +30456,6 @@ NS_MOUSE_ENTER
 SynthesizeMouseMove
 (
 false
-aEvent
--
->
-mFlags
-.
-mIsSynthesizedForTests
 )
 ;
 }
@@ -40308,7 +40287,6 @@ sSynthMouseMove
 {
 SynthesizeMouseMove
 (
-false
 false
 )
 ;

@@ -2478,8 +2478,6 @@ PresShell
 aPresShell
 bool
 aFromScroll
-bool
-aIsSynthesizedForTests
 )
 :
 mPresShell
@@ -2489,10 +2487,6 @@ aPresShell
 mFromScroll
 (
 aFromScroll
-)
-mIsSynthesizedForTests
-(
-aIsSynthesizedForTests
 )
 {
 NS_ASSERTION
@@ -2590,7 +2584,6 @@ shell
 ProcessSynthMouseMoveEvent
 (
 mFromScroll
-mIsSynthesizedForTests
 )
 ;
 }
@@ -2604,9 +2597,6 @@ mPresShell
 bool
 mFromScroll
 ;
-bool
-mIsSynthesizedForTests
-;
 }
 ;
 void
@@ -2614,8 +2604,6 @@ ProcessSynthMouseMoveEvent
 (
 bool
 aFromScroll
-bool
-aIsSynthesizedForTests
 )
 ;
 void
@@ -2805,8 +2793,6 @@ SynthesizeMouseMove
 (
 bool
 aFromScroll
-bool
-aIsSynthesizedForTests
 )
 override
 ;

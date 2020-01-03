@@ -10208,7 +10208,6 @@ PresShell
 SynthesizeMouseMove
 (
 true
-false
 )
 ;
 }

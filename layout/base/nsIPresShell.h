@@ -3001,8 +3001,6 @@ SynthesizeMouseMove
 (
 bool
 aFromScroll
-bool
-aIsSynthesizedForTests
 )
 =
 0
