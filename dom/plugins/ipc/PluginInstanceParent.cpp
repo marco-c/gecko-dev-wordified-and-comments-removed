@@ -929,9 +929,8 @@ mImageContainer
 mImageContainer
 -
 >
-SetCurrentImage
+ClearAllImages
 (
-nullptr
 )
 ;
 }
@@ -2804,9 +2803,8 @@ mImageContainer
 mImageContainer
 -
 >
-SetCurrentImage
+ClearAllImages
 (
-nullptr
 )
 ;
 }
