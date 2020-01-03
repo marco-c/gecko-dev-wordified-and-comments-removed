@@ -436,6 +436,8 @@ TLV
 (
 uint8_t
 tag
+size_t
+length
 const
 ByteString
 &
@@ -472,11 +474,7 @@ static_cast
 uint8_t
 >
 (
-value
-.
 length
-(
-)
 )
 )
 ;
@@ -509,11 +507,7 @@ static_cast
 uint8_t
 >
 (
-value
-.
 length
-(
-)
 )
 )
 ;
@@ -546,11 +540,7 @@ static_cast
 uint8_t
 >
 (
-value
-.
 length
-(
-)
 /
 256
 )
@@ -565,11 +555,7 @@ static_cast
 uint8_t
 >
 (
-value
-.
 length
-(
-)
 %
 256
 )
