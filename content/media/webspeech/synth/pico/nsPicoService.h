@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 nsIThread
 .
 h
@@ -97,6 +104,8 @@ class
 nsPicoService
 :
 public
+nsIObserver
+public
 nsISpeechService
 {
 friend
@@ -111,6 +120,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSISPEECHSERVICE
+NS_DECL_NSIOBSERVER
 nsPicoService
 (
 )
