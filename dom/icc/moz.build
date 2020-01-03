@@ -179,6 +179,11 @@ IccCardLockError
 .
 cpp
 '
+'
+IccContact
+.
+cpp
+'
 "
 IccInfo
 .
