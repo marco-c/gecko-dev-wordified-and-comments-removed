@@ -98,7 +98,7 @@ RematerializedFrame
 :
 RematerializedFrame
 (
-ThreadSafeContext
+JSContext
 *
 cx
 uint8_t
@@ -203,7 +203,7 @@ RematerializedFrame
 :
 New
 (
-ThreadSafeContext
+JSContext
 *
 cx
 uint8_t
@@ -325,7 +325,7 @@ RematerializedFrame
 :
 RematerializeInlineFrames
 (
-ThreadSafeContext
+JSContext
 *
 cx
 uint8_t

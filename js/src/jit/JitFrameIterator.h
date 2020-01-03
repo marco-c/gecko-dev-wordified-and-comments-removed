@@ -2312,7 +2312,7 @@ Op
 void
 unaliasedForEachActual
 (
-ThreadSafeContext
+JSContext
 *
 cx
 Op
