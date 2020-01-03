@@ -70,6 +70,7 @@ uint32_t
 mReplaceLength
 ;
 struct
+MOZ_STACK_CLASS
 Details
 {
 enum
@@ -81,6 +82,7 @@ mType
 ;
 nsIContent
 *
+MOZ_NON_OWNING_REF
 mNextSibling
 ;
 }
