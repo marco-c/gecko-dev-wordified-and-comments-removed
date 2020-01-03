@@ -114,16 +114,6 @@ Shutdown
 (
 )
 ;
-bool
-IsPDMInUse
-(
-const
-PlatformDecoderModule
-*
-aPDM
-)
-const
-;
 friend
 class
 SharedDecoderProxy

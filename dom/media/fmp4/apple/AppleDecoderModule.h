@@ -40,13 +40,6 @@ Startup
 override
 ;
 virtual
-nsresult
-Shutdown
-(
-)
-override
-;
-virtual
 already_AddRefed
 <
 MediaDataDecoder

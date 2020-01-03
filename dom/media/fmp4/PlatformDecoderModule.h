@@ -158,14 +158,6 @@ aHasVideo
 #
 endif
 virtual
-nsresult
-Shutdown
-(
-)
-=
-0
-;
-virtual
 already_AddRefed
 <
 MediaDataDecoder
