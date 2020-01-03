@@ -108,11 +108,6 @@ MP4Reader
 h
 '
 '
-MP4Stream
-.
-h
-'
-'
 PlatformDecoderModule
 .
 h
@@ -134,11 +129,6 @@ cpp
 '
 '
 MP4Decoder
-.
-cpp
-'
-'
-MP4Stream
 .
 cpp
 '
