@@ -970,6 +970,14 @@ lime100x100
 ref
 .
 html
+fuzzy
+-
+if
+(
+d2d
+16
+10
+)
 =
 =
 img
@@ -996,6 +1004,11 @@ viewBox
 ref
 .
 html
+#
+d2d
+is
+bug
+1074161
 =
 =
 img
