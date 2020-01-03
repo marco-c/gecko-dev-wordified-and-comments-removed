@@ -4485,12 +4485,6 @@ capturestream
 enabled
 true
 )
-fails
--
-if
-(
-B2G
-)
 skip
 -
 if
