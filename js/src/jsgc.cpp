@@ -27676,6 +27676,7 @@ stats
 scanZonesBeforeGC
 (
 )
+gckind
 reason
 )
 ;
