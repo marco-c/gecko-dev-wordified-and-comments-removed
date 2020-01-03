@@ -420,6 +420,7 @@ enum
 State
 {
 eState_NotObserving
+eState_Initializing
 eState_StoppedObserving
 eState_Observing
 }
@@ -714,6 +715,9 @@ mPreAttrChangeLength
 ;
 int64_t
 mPreCharacterDataChangeLength
+;
+bool
+mIsObserving
 ;
 bool
 mIsSelectionChangeEventPending
