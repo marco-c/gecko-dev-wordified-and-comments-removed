@@ -2614,11 +2614,9 @@ WrapCallable
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 callable
-JSObject
-*
+HandleObject
 sandboxProtoProxy
 )
 {
@@ -3047,10 +3045,10 @@ isObject
 )
 )
 {
-JSObject
-*
+RootedObject
 val
-=
+(
+cx
 &
 desc
 .
@@ -3060,6 +3058,7 @@ value
 .
 toObject
 (
+)
 )
 ;
 if

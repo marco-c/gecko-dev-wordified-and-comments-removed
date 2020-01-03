@@ -5428,14 +5428,6 @@ class_
 JS_ASSERT
 (
 !
-isCallable
-(
-)
-)
-;
-JS_ASSERT
-(
-!
 getClass
 (
 )

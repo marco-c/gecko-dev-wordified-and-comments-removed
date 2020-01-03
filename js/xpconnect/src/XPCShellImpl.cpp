@@ -2305,10 +2305,10 @@ return
 false
 ;
 }
-JSString
-*
+RootedString
 str
-=
+(
+cx
 ToString
 (
 cx
@@ -2316,6 +2316,7 @@ args
 [
 0
 ]
+)
 )
 ;
 if

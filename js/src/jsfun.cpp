@@ -8238,13 +8238,15 @@ argc
 vp
 )
 ;
-Value
+RootedValue
 thisv
-=
+(
+cx
 args
 .
 thisv
 (
+)
 )
 ;
 if
