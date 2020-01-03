@@ -156,9 +156,9 @@ config
 file
 .
 /
-mozharness_tmp
+mozharness_configs
 /
-mulet_suite_options_config
+linux_mulet_config
 .
 py
 -
