@@ -1,0 +1,8 @@
+postMessage
+(
+"
+importScripts
+allowed
+"
+)
+;

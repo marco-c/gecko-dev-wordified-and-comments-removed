@@ -83,16 +83,11 @@ text
 to
 be
 replaced
+and
 #
 represents
 a
 digit
-and
-ext
-is
-a
-filename
-extension
 .
 #
 #
@@ -188,7 +183,7 @@ topic
 #
 #
 .
-ext
+html
 #
 #
 #
@@ -382,7 +377,7 @@ topic
 #
 #
 .
-ext
+html
 #
 #
 #
@@ -451,7 +446,7 @@ Filename
 description
 }
 .
-ext
+html
 or
 {
 test
@@ -465,7 +460,7 @@ topic
 -
 ref
 .
-ext
+html
 #
 #
 #
@@ -563,7 +558,7 @@ Filename
 description
 }
 .
-ext
+html
 or
 {
 test
@@ -577,7 +572,7 @@ topic
 -
 ref
 .
-ext
+html
 #
 #
 testharness
@@ -678,7 +673,7 @@ topic
 #
 #
 .
-ext
+html
 #
 #
 #
@@ -867,7 +862,7 @@ topic
 #
 #
 .
-ext
+html
 #
 #
 #
@@ -972,4 +967,4 @@ topic
 -
 manual
 .
-ext
+html
