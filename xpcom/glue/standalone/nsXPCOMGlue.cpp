@@ -208,6 +208,9 @@ nullptr
 LOAD_WITH_ALTERED_SEARCH_PATH
 )
 ;
+#
+ifdef
+DEBUG
 if
 (
 !
@@ -221,13 +224,10 @@ GetLastError
 (
 )
 ;
-#
-ifdef
-DEBUG
 LPVOID
 lpMsgBuf
 ;
-FormatMessage
+FormatMessageW
 (
 FORMAT_MESSAGE_ALLOCATE_BUFFER
 |
@@ -242,7 +242,7 @@ LANG_NEUTRAL
 SUBLANG_DEFAULT
 )
 (
-LPTSTR
+LPWSTR
 )
 &
 lpMsgBuf
@@ -273,9 +273,9 @@ LocalFree
 lpMsgBuf
 )
 ;
+}
 #
 endif
-}
 return
 libHandle
 ;
