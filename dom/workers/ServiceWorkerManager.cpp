@@ -10914,10 +10914,7 @@ MOZ_ASSERT
 aPrincipal
 )
 ;
-WorkerPrivate
-:
-:
-LoadInfo
+WorkerLoadInfo
 info
 ;
 nsresult
