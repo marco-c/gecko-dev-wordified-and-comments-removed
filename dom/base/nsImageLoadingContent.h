@@ -770,6 +770,11 @@ mSuppressed
 :
 1
 ;
+bool
+mFireEventsOnDecode
+:
+1
+;
 protected
 :
 bool
