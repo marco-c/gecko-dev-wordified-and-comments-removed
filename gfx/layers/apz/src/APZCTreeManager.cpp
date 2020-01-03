@@ -4188,15 +4188,6 @@ DOM_DELTA_LINE
 &
 &
 !
-gfxPrefs
-:
-:
-MouseWheelHasScrollDeltaOverride
-(
-)
-&
-&
-!
 EventStateManager
 :
 :
