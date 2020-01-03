@@ -459,9 +459,6 @@ bool
 mFilterKeyEvent
 ;
 bool
-mIgnoreNativeCompositionEvent
-;
-bool
 mKeyDownEventWasSent
 ;
 static
@@ -723,11 +720,6 @@ PrepareToDestroyContext
 GtkIMContext
 *
 aContext
-)
-;
-bool
-ShouldIgnoreNativeCompositionEvent
-(
 )
 ;
 bool
