@@ -29522,8 +29522,7 @@ skip
 -
 if
 (
-!
-asyncPanZoom
+Android
 )
 =
 =
@@ -29546,8 +29545,7 @@ skip
 -
 if
 (
-!
-asyncPanZoom
+Android
 )
 =
 =
