@@ -2961,9 +2961,9 @@ minimalUse
 LiveRange
 *
 range
-LNode
+UsePosition
 *
-ins
+use
 )
 ;
 bool
