@@ -7195,16 +7195,6 @@ jp
 "
 "
 .
-userstorage
-.
-mega
-.
-co
-.
-nz
-"
-"
-.
 wildcard
 .
 test
