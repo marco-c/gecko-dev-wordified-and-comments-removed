@@ -265,6 +265,9 @@ private
 VDADecoder
 mDecoder
 ;
+bool
+mIs106
+;
 nsresult
 SubmitFrame
 (
