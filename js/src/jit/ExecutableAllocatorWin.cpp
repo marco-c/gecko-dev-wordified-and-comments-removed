@@ -465,8 +465,12 @@ void
 *
 handler
 =
-&
+JS_FUNC_TO_DATA_PTR
+(
+void
+*
 ExceptionHandler
+)
 ;
 memcpy
 (
