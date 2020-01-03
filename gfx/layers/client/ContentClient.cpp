@@ -3553,6 +3553,16 @@ entire
 layer
 %
 p
+:
+no
+buffer
+or
+content
+type
+or
+component
+alpha
+changed
 \
 n
 "
