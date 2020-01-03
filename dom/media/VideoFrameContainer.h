@@ -131,11 +131,6 @@ aResetSize
 false
 )
 ;
-void
-Reset
-(
-)
-;
 double
 GetFrameDelay
 (
