@@ -2824,24 +2824,6 @@ xpcshell
 exe
 "
         
-if
-(
-options
-.
-utilityPath
-)
-:
-            
-paths
-.
-insert
-(
-0
-options
-.
-utilityPath
-)
-        
 options
 .
 utilityPath
