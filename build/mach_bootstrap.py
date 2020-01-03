@@ -1609,6 +1609,12 @@ environ
 return
         
 if
+sys
+.
+stdin
+.
+closed
+or
 not
 sys
 .
