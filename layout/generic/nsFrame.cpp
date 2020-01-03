@@ -38108,6 +38108,7 @@ IsElement
 )
 |
 |
+(
 !
 nsCSSAnonBoxes
 :
@@ -38115,6 +38116,18 @@ nsCSSAnonBoxes
 IsAnonBox
 (
 pseudo
+)
+&
+&
+mContent
+-
+>
+GetPrimaryFrame
+(
+)
+=
+=
+this
 )
 |
 |
