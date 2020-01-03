@@ -3,34 +3,28 @@ this
 EXPORTED_SYMBOLS
 =
 [
-'
+"
 TabEngine
-'
-'
+"
+"
 TabSetRecord
-'
+"
 ]
 ;
 const
-Cc
-=
-Components
-.
+{
 classes
-;
-const
-Ci
-=
-Components
-.
+:
+Cc
 interfaces
-;
-const
+:
+Ci
+utils
+:
 Cu
+}
 =
 Components
-.
-utils
 ;
 const
 TABS_TTL
@@ -311,7 +305,6 @@ syncPriority
 getChangedIDs
 :
 function
-getChangedIDs
 (
 )
 {
@@ -349,7 +342,6 @@ changedIDs
 getAllClients
 :
 function
-TabEngine_getAllClients
 (
 )
 {
@@ -364,7 +356,6 @@ _remoteClients
 getClientById
 :
 function
-TabEngine_getClientById
 (
 id
 )
@@ -383,7 +374,6 @@ id
 _resetClient
 :
 function
-TabEngine__resetClient
 (
 )
 {
@@ -418,7 +408,6 @@ true
 removeClientData
 :
 function
-removeClientData
 (
 )
 {
@@ -532,7 +521,6 @@ prototype
 itemExists
 :
 function
-TabStore_itemExists
 (
 id
 )
@@ -837,7 +825,6 @@ allTabs
 createRecord
 :
 function
-createRecord
 (
 id
 collection
@@ -1044,7 +1031,6 @@ record
 getAllIDs
 :
 function
-TabStore_getAllIds
 (
 )
 {
@@ -1150,7 +1136,6 @@ ids
 wipe
 :
 function
-TabStore_wipe
 (
 )
 {
@@ -1165,7 +1150,6 @@ _remoteClients
 create
 :
 function
-TabStore_create
 (
 record
 )
@@ -1236,6 +1220,7 @@ notifyState
 =
 null
 )
+{
 Svc
 .
 Prefs
@@ -1248,7 +1233,9 @@ notifyTabState
 roundModify
 )
 ;
-else
+return
+;
+}
 if
 (
 notifyState
@@ -1256,9 +1243,10 @@ notifyState
 =
 0
 )
+{
 return
 ;
-else
+}
 if
 (
 notifyState
@@ -1266,6 +1254,7 @@ notifyState
 =
 roundModify
 )
+{
 Svc
 .
 Prefs
@@ -1279,10 +1268,10 @@ notifyTabState
 )
 ;
 }
+}
 update
 :
 function
-update
 (
 record
 )
@@ -1413,7 +1402,6 @@ nsIObserver
 loadChangedIDs
 :
 function
-loadChangedIDs
 (
 )
 {
@@ -1421,7 +1409,6 @@ loadChangedIDs
 clearChangedIDs
 :
 function
-clearChangedIDs
 (
 )
 {
@@ -1451,7 +1438,6 @@ TabSelect
 _registerListenersForWindow
 :
 function
-registerListenersFW
 (
 window
 )
@@ -1511,7 +1497,6 @@ false
 _unregisterListeners
 :
 function
-unregisterListeners
 (
 event
 )
@@ -1529,7 +1514,6 @@ target
 _unregisterListenersForWindow
 :
 function
-unregisterListenersFW
 (
 window
 )
@@ -1777,7 +1761,6 @@ break
 onTab
 :
 function
-onTab
 (
 event
 )
@@ -1881,6 +1864,7 @@ random
 .
 1
 )
+{
 this
 .
 score
@@ -1890,3 +1874,5 @@ SCORE_INCREMENT_SMALL
 ;
 }
 }
+}
+;
