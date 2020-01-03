@@ -47,7 +47,6 @@ TEST_URI
 ;
 let
 {
-toolbox
 inspector
 view
 }

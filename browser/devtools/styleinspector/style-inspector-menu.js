@@ -1337,13 +1337,11 @@ menuitemAddRule
 disabled
 =
 !
-(
 this
 .
 isRuleView
-&
-&
-!
+|
+|
 this
 .
 inspector
@@ -1352,7 +1350,6 @@ selection
 .
 isAnonymousNode
 (
-)
 )
 ;
 }
@@ -1940,7 +1937,6 @@ _onCopy
 :
 function
 (
-event
 )
 {
 this

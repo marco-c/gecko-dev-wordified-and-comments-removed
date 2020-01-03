@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 Cc
@@ -217,7 +222,6 @@ RuleViewTool
 (
 inspector
 window
-iframe
 )
 {
 this
@@ -831,17 +835,6 @@ isSystem
 )
 {
 let
-contentDoc
-=
-this
-.
-inspector
-.
-selection
-.
-document
-;
-let
 href
 =
 rule
@@ -995,6 +988,7 @@ return
 ;
 }
 )
+;
 }
 onPropertyChanged
 :
@@ -1205,7 +1199,6 @@ ComputedViewTool
 (
 inspector
 window
-iframe
 )
 {
 this
@@ -1405,6 +1398,7 @@ view
 )
 {
 return
+false
 ;
 }
 return

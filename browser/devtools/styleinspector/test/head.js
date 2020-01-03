@@ -1518,8 +1518,6 @@ name
 )
 ;
 }
-else
-{
 return
 promise
 .
@@ -1527,7 +1525,6 @@ resolve
 (
 )
 ;
-}
 }
 function
 *
@@ -2180,12 +2177,12 @@ defer
 function
 wait
 (
-validatorFn
+validator
 )
 {
 if
 (
-validatorFn
+validator
 (
 )
 )
@@ -2223,7 +2220,7 @@ setTimeout
 >
 wait
 (
-validatorFn
+validator
 )
 200
 )
@@ -2281,9 +2278,9 @@ doc
 .
 createElement
 (
-'
+"
 style
-'
+"
 )
 ;
 node
@@ -3762,7 +3759,7 @@ getSourceEditor
 .
 then
 (
-editor
+sourceEditor
 =
 >
 {
@@ -3780,7 +3777,7 @@ def
 .
 resolve
 (
-editor
+sourceEditor
 )
 ;
 }

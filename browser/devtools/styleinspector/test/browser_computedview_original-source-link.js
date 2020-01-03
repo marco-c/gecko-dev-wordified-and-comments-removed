@@ -101,16 +101,6 @@ openComputedView
 (
 )
 ;
-info
-(
-"
-Select
-the
-test
-node
-"
-)
-;
 yield
 selectNode
 (
@@ -389,7 +379,6 @@ onEditor
 let
 {
 line
-col
 }
 =
 editor

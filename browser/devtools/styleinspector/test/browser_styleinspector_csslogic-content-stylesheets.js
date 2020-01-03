@@ -126,9 +126,7 @@ target
 ;
 let
 {
-toolbox
 inspector
-view
 }
 =
 yield
@@ -192,9 +190,7 @@ TEST_URI_XUL
 ;
 (
 {
-toolbox
 inspector
-view
 }
 =
 yield
@@ -273,9 +269,9 @@ nsIPermissionManager
 addFromPrincipal
 (
 XUL_PRINCIPAL
-'
+"
 allowXULXBL
-'
+"
 Ci
 .
 nsIPermissionManager
@@ -312,9 +308,9 @@ nsIPermissionManager
 addFromPrincipal
 (
 XUL_PRINCIPAL
-'
+"
 allowXULXBL
-'
+"
 Ci
 .
 nsIPermissionManager

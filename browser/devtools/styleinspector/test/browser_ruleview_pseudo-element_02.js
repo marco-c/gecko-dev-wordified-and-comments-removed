@@ -29,9 +29,7 @@ TEST_URI
 ;
 let
 {
-toolbox
 inspector
-view
 }
 =
 yield
@@ -43,7 +41,6 @@ yield
 testTopLeft
 (
 inspector
-view
 )
 ;
 }
@@ -54,7 +51,6 @@ function
 testTopLeft
 (
 inspector
-view
 )
 {
 let

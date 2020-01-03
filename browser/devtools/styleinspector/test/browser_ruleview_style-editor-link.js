@@ -568,16 +568,6 @@ openRuleView
 (
 )
 ;
-info
-(
-"
-Select
-the
-test
-node
-"
-)
-;
 yield
 selectNode
 (
@@ -591,7 +581,6 @@ yield
 testInlineStyle
 (
 view
-inspector
 )
 ;
 yield
@@ -623,7 +612,6 @@ function
 testInlineStyle
 (
 view
-inspector
 )
 {
 info

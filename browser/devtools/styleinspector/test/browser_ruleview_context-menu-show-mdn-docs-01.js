@@ -22,7 +22,7 @@ MdnDocsWidget
 )
 ;
 const
-TEST_DOC
+TEST_URI
 =
 <
 html
@@ -96,7 +96,7 @@ utf8
 +
 encodeURIComponent
 (
-TEST_DOC
+TEST_URI
 )
 )
 ;

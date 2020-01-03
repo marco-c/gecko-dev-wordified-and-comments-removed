@@ -29,7 +29,6 @@ TEST_URI
 ;
 let
 {
-toolbox
 inspector
 view
 }
@@ -82,8 +81,6 @@ pacman
 let
 {
 rules
-element
-elementStyle
 }
 =
 yield
@@ -168,8 +165,6 @@ boxy
 let
 {
 rules
-element
-elementStyle
 }
 =
 yield

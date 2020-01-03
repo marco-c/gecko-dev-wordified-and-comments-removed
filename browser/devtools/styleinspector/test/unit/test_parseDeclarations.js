@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 Cu
 =
@@ -671,6 +676,9 @@ wat
 \
 "
 )
+"
++
+"
 repeat
 top
 right
@@ -716,6 +724,9 @@ wat
 \
 "
 )
+"
++
+"
 repeat
 top
 right
@@ -1712,6 +1723,9 @@ with
 the
 given
 input
+"
++
+"
 string
 "
 )
@@ -1834,6 +1848,9 @@ has
 the
 expected
 name
+"
++
+"
 value
 and
 priority

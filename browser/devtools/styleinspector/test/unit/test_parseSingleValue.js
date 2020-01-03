@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 Cu
 =
@@ -600,6 +605,9 @@ with
 the
 given
 input
+"
++
+"
 value
 "
 )

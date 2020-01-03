@@ -45,7 +45,7 @@ OS
 }
 )
 ;
-let
+const
 TEST_URI
 =
 TEST_URL_ROOT
