@@ -2810,6 +2810,15 @@ String
 ALL_FIELDS
 =
 {
+CommonColumns
+.
+_ID
+URLColumns
+.
+URL
+URLColumns
+.
+TITLE
 EXCERPT
 CLIENT_LAST_MODIFIED
 GUID
