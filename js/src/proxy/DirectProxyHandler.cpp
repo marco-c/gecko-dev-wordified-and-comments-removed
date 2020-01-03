@@ -1062,10 +1062,7 @@ target
 )
 ;
 return
-JSObject
-:
-:
-className
+GetObjectClassName
 (
 cx
 target

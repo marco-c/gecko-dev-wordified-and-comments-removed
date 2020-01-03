@@ -32009,10 +32009,7 @@ JSObject
 *
 thisObj
 =
-JSObject
-:
-:
-thisObject
+GetThisObject
 (
 cx
 scope
@@ -33242,10 +33239,7 @@ refobj
 ;
 className
 =
-JSObject
-:
-:
-className
+GetObjectClassName
 (
 cx
 refobj

@@ -498,10 +498,7 @@ global
 )
 ;
 return
-JSObject
-:
-:
-thisObject
+GetThisObject
 (
 cx
 global
@@ -2978,10 +2975,7 @@ JSObject
 *
 thisp
 =
-JSObject
-:
-:
-thisObject
+GetThisObject
 (
 cx
 thisObj
@@ -3759,10 +3753,7 @@ JSObject
 *
 thisObj
 =
-JSObject
-:
-:
-thisObject
+GetThisObject
 (
 cx
 scopeChain
@@ -6383,10 +6374,7 @@ JSObject
 *
 nobj
 =
-JSObject
-:
-:
-thisObject
+GetThisObject
 (
 cx
 obj

@@ -6322,10 +6322,7 @@ else
 if
 (
 !
-JSObject
-:
-:
-getGenericAttributes
+GetPropertyAttributes
 (
 cx
 obj2

@@ -1805,10 +1805,7 @@ char
 *
 className
 =
-JSObject
-:
-:
-className
+GetObjectClassName
 (
 cx
 obj
@@ -2883,10 +2880,7 @@ false
 if
 (
 !
-JSObject
-:
-:
-watch
+WatchProperty
 (
 cx
 obj
@@ -3021,10 +3015,7 @@ JSID_VOID
 if
 (
 !
-JSObject
-:
-:
-unwatch
+UnwatchProperty
 (
 cx
 obj

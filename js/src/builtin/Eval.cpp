@@ -1415,10 +1415,7 @@ JSObject
 *
 thisobj
 =
-JSObject
-:
-:
-thisObject
+GetThisObject
 (
 cx
 scopeobj
@@ -2903,10 +2900,7 @@ JSObject
 *
 thisobj
 =
-JSObject
-:
-:
-thisObject
+GetThisObject
 (
 cx
 global
