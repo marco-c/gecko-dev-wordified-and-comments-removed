@@ -760,6 +760,10 @@ mBoundRenderbuffer
 this
 )
 ;
+InvalidateStatusOfAttachedFBs
+(
+)
+;
 gl
 :
 :
