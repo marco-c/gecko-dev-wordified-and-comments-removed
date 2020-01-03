@@ -5,6 +5,11 @@ do_run_test
 (
 )
 ;
+let
+CMAX
+=
+1000
+;
 function
 run_test
 (
@@ -112,7 +117,7 @@ i
 ;
 i
 <
-3000
+CMAX
 ;
 +
 +
@@ -170,7 +175,7 @@ do_check_eq
 do_count_cookies
 (
 )
-3000
+CMAX
 )
 ;
 while
@@ -182,7 +187,7 @@ db
 db
 )
 <
-3000
+CMAX
 )
 {
 do_execute_soon
@@ -255,7 +260,7 @@ cookiemgr
 countCookiesFromHost
 (
 "
-2000
+999
 .
 com
 "
@@ -306,7 +311,7 @@ cookiemgr
 countCookiesFromHost
 (
 "
-1400
+400
 .
 com
 "
@@ -336,7 +341,7 @@ do_check_eq
 do_count_cookies
 (
 )
-3000
+CMAX
 )
 ;
 for
@@ -348,7 +353,7 @@ i
 ;
 i
 <
-3000
+CMAX
 ;
 +
 +
@@ -445,11 +450,13 @@ for
 let
 i
 =
-2900
+CMAX
+-
+100
 ;
 i
 <
-3000
+CMAX
 ;
 +
 +
@@ -492,7 +499,9 @@ do_check_eq
 do_count_cookies
 (
 )
-2800
+CMAX
+-
+200
 )
 ;
 do_close_profile
@@ -511,7 +520,9 @@ do_check_eq
 do_count_cookies
 (
 )
-2800
+CMAX
+-
+200
 )
 ;
 do_close_profile
@@ -533,7 +544,9 @@ do_check_eq
 do_count_cookies
 (
 )
-2800
+CMAX
+-
+200
 )
 ;
 for
@@ -545,7 +558,9 @@ i
 ;
 i
 <
-2900
+CMAX
+-
+100
 ;
 +
 +
