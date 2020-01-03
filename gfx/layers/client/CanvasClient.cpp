@@ -1509,6 +1509,16 @@ src
 mSize
 )
 ;
+if
+(
+!
+dest
+)
+{
+return
+nullptr
+;
+}
 SharedSurface
 :
 :
