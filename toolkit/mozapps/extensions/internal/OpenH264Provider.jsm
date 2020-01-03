@@ -637,6 +637,15 @@ plugin
 ;
 }
 get
+isGMPlugin
+(
+)
+{
+return
+true
+;
+}
+get
 name
 (
 )
