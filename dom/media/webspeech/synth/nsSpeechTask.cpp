@@ -228,6 +228,7 @@ aGraph
 Blocking
 aBlocked
 )
+MOZ_OVERRIDE
 {
 if
 (
