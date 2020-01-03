@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_IMAGELIB_SHUTDOWNTRACKER_H_
+mozilla_image_src_ShutdownTracker_h
 #
 define
-MOZILLA_IMAGELIB_SHUTDOWNTRACKER_H_
+mozilla_image_src_ShutdownTracker_h
 namespace
 mozilla
 {
