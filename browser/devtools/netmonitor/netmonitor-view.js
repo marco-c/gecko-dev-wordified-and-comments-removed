@@ -9234,7 +9234,16 @@ cached
 {
 text
 =
-aValue
+L10N
+.
+getStr
+(
+"
+networkMenu
+.
+sizeCached
+"
+)
 ;
 node
 .
