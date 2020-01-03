@@ -608,7 +608,7 @@ install_system_packages
 )
 '
 %
-            
+                                  
 __name__
 )
     
@@ -655,7 +655,7 @@ for
 Desktop
 :
 '
-            
+                                  
 '
 %
 s
@@ -668,6 +668,7 @@ install_browser_packages
 )
 '
 %
+                                  
 __name__
 )
     
@@ -772,7 +773,7 @@ for
 Android
 :
 '
-            
+                                  
 '
 %
 s
@@ -784,6 +785,7 @@ install_mobile_android_packages
 (
 )
 '
+                                  
 %
 __name__
 )
@@ -859,7 +861,7 @@ suggest_mobile_android_mozconfig
 )
 '
 %
-            
+                                  
 __name__
 )
     
@@ -1872,7 +1874,7 @@ modern
 .
 '
 %
-                
+                  
 version
 )
             
@@ -2012,7 +2014,7 @@ python
 version
 '
 ]
-            
+                                 
 stderr
 =
 subprocess
@@ -2149,7 +2151,7 @@ upgrade
 .
 '
 %
-            
+              
 version
 )
         

@@ -356,7 +356,7 @@ mobile
 android
 is
 '
-                
+                                  
 '
 not
 yet
@@ -742,7 +742,7 @@ from
 the
 AUR
 '
-                
+              
 '
 This
 is
@@ -755,7 +755,7 @@ that
 you
 carefully
 '
-                
+              
 '
 read
 each
@@ -767,7 +767,7 @@ the
 sources
 .
 '
-                
+              
 '
 These
 packages
