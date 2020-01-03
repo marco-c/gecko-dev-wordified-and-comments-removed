@@ -253,6 +253,11 @@ ProcessOutgoingMessages
 (
 )
 ;
+void
+ClearAndShrinkInputOverflowBuf
+(
+)
+;
 virtual
 void
 OnFileCanReadWithoutBlocking
