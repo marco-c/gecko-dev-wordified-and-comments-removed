@@ -189,6 +189,11 @@ updateDebug
 if
 (
 DEBUG
+|
+|
+NFC
+.
+DEBUG_NFC
 )
 {
 debug
@@ -503,6 +508,14 @@ nfc
 =
 nfc
 ;
+if
+(
+!
+NFC
+.
+DEBUG_NFC
+)
+{
 let
 lock
 =
@@ -537,6 +550,7 @@ TOPIC_MOZSETTINGS_CHANGED
 false
 )
 ;
+}
 Services
 .
 obs
