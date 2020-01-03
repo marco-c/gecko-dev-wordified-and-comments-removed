@@ -163,7 +163,7 @@ char
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 mCount
 *
@@ -317,7 +317,7 @@ char
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 mCount
 *
@@ -1162,7 +1162,7 @@ char
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 mAudioLanguageCount
 *
@@ -1274,7 +1274,7 @@ char
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 mAudioLanguageCount
 *
@@ -1361,7 +1361,7 @@ char
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 mSubtitleLanguageCount
 *
@@ -1473,7 +1473,7 @@ char
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 mSubtitleLanguageCount
 *

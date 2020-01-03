@@ -181,7 +181,7 @@ nameBuffer
 unichar
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -210,7 +210,7 @@ reasonBuffer
 unichar
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -230,7 +230,7 @@ if
 reasonBuffer
 )
 {
-NS_Free
+free
 (
 nameBuffer
 )
@@ -326,12 +326,12 @@ reasonBuffer
 outString
 )
 ;
-NS_Free
+free
 (
 nameBuffer
 )
 ;
-NS_Free
+free
 (
 reasonBuffer
 )

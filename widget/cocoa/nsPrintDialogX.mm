@@ -389,7 +389,7 @@ i
 -
 )
 {
-NS_Free
+free
 (
 docTitles
 [
@@ -398,7 +398,7 @@ i
 )
 ;
 }
-NS_Free
+free
 (
 docTitles
 )

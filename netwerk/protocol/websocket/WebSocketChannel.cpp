@@ -9204,7 +9204,7 @@ uint32_t
 buffer
 )
 ;
-NS_Free
+free
 (
 buffer
 )
@@ -11116,7 +11116,7 @@ secKey
 nullptr
 )
 ;
-NS_Free
+free
 (
 secKey
 )

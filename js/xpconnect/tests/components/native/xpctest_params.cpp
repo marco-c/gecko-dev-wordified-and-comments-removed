@@ -216,7 +216,7 @@ type
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 elemSize
 *
@@ -275,7 +275,7 @@ bLength
 aLength
 ;
 \
-NS_Free
+free
 (
 *
 b
@@ -291,7 +291,7 @@ type
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 elemSize
 *
@@ -650,7 +650,7 @@ ToNewCString
 aprime
 )
 ;
-NS_Free
+free
 (
 const_cast
 <
@@ -738,7 +738,7 @@ ToNewUnicode
 aprime
 )
 ;
-NS_Free
+free
 (
 (
 void
@@ -1205,7 +1205,7 @@ nsIID
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -1313,7 +1313,7 @@ nsIID
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (

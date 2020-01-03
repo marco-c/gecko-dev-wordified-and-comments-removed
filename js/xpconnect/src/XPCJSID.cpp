@@ -135,7 +135,7 @@ mNumber
 =
 gNoString
 )
-NS_Free
+free
 (
 mNumber
 )
@@ -150,7 +150,7 @@ mName
 =
 gNoString
 )
-NS_Free
+free
 (
 mName
 )
@@ -180,7 +180,7 @@ mNumber
 =
 gNoString
 )
-NS_Free
+free
 (
 mNumber
 )
@@ -195,7 +195,7 @@ mName
 =
 gNoString
 )
-NS_Free
+free
 (
 mName
 )

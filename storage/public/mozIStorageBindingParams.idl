@@ -343,7 +343,7 @@ mozStorage
 will
 ensure
 that
-NS_Free
+free
 is
 called
 on
@@ -601,7 +601,7 @@ mozStorage
 will
 ensure
 that
-NS_Free
+free
 is
 called
 on

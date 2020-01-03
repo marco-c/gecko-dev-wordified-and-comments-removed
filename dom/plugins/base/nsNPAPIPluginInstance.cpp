@@ -1016,7 +1016,7 @@ i
 ]
 )
 {
-NS_Free
+free
 (
 mCachedParamNames
 [
@@ -1040,7 +1040,7 @@ i
 ]
 )
 {
-NS_Free
+free
 (
 mCachedParamValues
 [
@@ -1057,7 +1057,7 @@ nullptr
 ;
 }
 }
-NS_Free
+free
 (
 mCachedParamNames
 )
@@ -1066,7 +1066,7 @@ mCachedParamNames
 =
 nullptr
 ;
-NS_Free
+free
 (
 mCachedParamValues
 )
@@ -1973,7 +1973,7 @@ char
 *
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -1991,7 +1991,7 @@ char
 *
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (

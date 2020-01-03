@@ -3469,7 +3469,7 @@ rv
 )
 )
 {
-NS_Free
+free
 (
 (
 void
@@ -3502,7 +3502,7 @@ aLength
 newFontData
 )
 ;
-NS_Free
+free
 (
 (
 void

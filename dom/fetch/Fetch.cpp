@@ -3355,7 +3355,7 @@ char
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 body
 .

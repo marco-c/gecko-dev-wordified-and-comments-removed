@@ -131,10 +131,10 @@ The
 frozen
 exported
 symbols
-NS_Alloc
-NS_Realloc
+moz_xmalloc
+moz_xrealloc
 and
-NS_Free
+free
 *
 provide
 a

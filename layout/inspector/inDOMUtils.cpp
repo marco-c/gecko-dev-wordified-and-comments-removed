@@ -562,7 +562,7 @@ nsISupports
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 sheets
 .
@@ -3826,7 +3826,7 @@ char16_t
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 *
 aLength

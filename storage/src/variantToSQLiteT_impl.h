@@ -452,7 +452,7 @@ nsIDataType
 VTYPE_UINT8
 )
 {
-NS_Free
+free
 (
 data
 )

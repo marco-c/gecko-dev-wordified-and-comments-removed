@@ -10145,7 +10145,7 @@ char16_t
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 *
 aLength

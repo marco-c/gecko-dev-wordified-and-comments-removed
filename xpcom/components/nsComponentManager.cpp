@@ -4556,7 +4556,7 @@ if
 buf
 )
 {
-NS_Free
+free
 (
 buf
 )
@@ -5126,7 +5126,7 @@ if
 buf
 )
 {
-NS_Free
+free
 (
 buf
 )
@@ -7986,7 +7986,7 @@ aResult
 nsCID
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (

@@ -5193,7 +5193,7 @@ size_t
 size
 )
 {
-NS_Free
+free
 (
 (
 void

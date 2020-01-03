@@ -6296,7 +6296,7 @@ uint8_t
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -6417,7 +6417,7 @@ rv
 )
 )
 {
-NS_Free
+free
 (
 aBuffer
 )

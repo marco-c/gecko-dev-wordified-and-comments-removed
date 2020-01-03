@@ -4401,7 +4401,7 @@ NS_LINEBREAK_LEN
 writeAmount
 )
 ;
-NS_Free
+free
 (
 *
 walker

@@ -1756,7 +1756,7 @@ tagCStr
 0
 )
 ;
-NS_Free
+free
 (
 tagCStr
 )

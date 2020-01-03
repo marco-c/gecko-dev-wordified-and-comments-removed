@@ -3492,7 +3492,7 @@ FontDataDeleter
 (
 )
 {
-NS_Free
+free
 (
 (
 void

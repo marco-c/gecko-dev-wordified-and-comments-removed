@@ -6002,7 +6002,7 @@ randomData
 tempLeafName
 )
 ;
-NS_Free
+free
 (
 buffer
 )

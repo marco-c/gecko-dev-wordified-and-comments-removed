@@ -461,7 +461,7 @@ nsIDataType
 VTYPE_INTERFACE
 )
 {
-NS_Free
+free
 (
 rawArray
 )
@@ -532,7 +532,7 @@ i
 )
 ;
 }
-NS_Free
+free
 (
 rawArray
 )

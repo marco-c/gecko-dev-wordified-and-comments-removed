@@ -1229,7 +1229,7 @@ rv
 char
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 (
 6

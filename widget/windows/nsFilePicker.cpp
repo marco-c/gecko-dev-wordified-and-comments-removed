@@ -649,7 +649,7 @@ if
 mLastUsedUnicodeDirectory
 )
 {
-NS_Free
+free
 (
 mLastUsedUnicodeDirectory
 )
@@ -5121,7 +5121,7 @@ if
 mLastUsedUnicodeDirectory
 )
 {
-NS_Free
+free
 (
 mLastUsedUnicodeDirectory
 )

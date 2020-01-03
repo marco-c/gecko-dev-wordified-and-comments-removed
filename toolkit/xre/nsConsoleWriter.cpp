@@ -427,7 +427,7 @@ PR_Close
 file
 )
 ;
-NS_Free
+free
 (
 messages
 )

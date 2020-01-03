@@ -7691,7 +7691,7 @@ if
 pendingDirectory
 )
 {
-NS_Free
+free
 (
 pendingDirectory
 )
@@ -7706,7 +7706,7 @@ if
 crashReporterPath
 )
 {
-NS_Free
+free
 (
 crashReporterPath
 )
@@ -7721,7 +7721,7 @@ if
 eventsDirectory
 )
 {
-NS_Free
+free
 (
 eventsDirectory
 )
@@ -7736,7 +7736,7 @@ if
 memoryReportPath
 )
 {
-NS_Free
+free
 (
 memoryReportPath
 )
@@ -10263,7 +10263,7 @@ if
 eventsDirectory
 )
 {
-NS_Free
+free
 (
 eventsDirectory
 )
@@ -10384,7 +10384,7 @@ if
 oldEventsEnv
 )
 {
-NS_Free
+free
 (
 oldEventsEnv
 )

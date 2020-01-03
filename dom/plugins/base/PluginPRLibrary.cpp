@@ -954,7 +954,7 @@ AppendElement
 iterator
 )
 ;
-NS_Free
+free
 (
 *
 iterator
@@ -965,7 +965,7 @@ iterator
 iterator
 ;
 }
-NS_Free
+free
 (
 sites
 )

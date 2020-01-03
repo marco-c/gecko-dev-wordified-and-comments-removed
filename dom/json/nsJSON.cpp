@@ -1549,7 +1549,7 @@ destBuf
 char
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 aDestLength
 )
@@ -1597,7 +1597,7 @@ aDestLength
 bytesWritten
 )
 ;
-NS_Free
+free
 (
 destBuf
 )

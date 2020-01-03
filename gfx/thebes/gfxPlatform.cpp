@@ -5952,7 +5952,7 @@ if
 aFontData
 )
 {
-NS_Free
+free
 (
 (
 void

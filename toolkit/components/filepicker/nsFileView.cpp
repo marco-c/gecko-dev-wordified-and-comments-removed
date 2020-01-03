@@ -1364,7 +1364,7 @@ count
 +
 i
 )
-NS_Free
+free
 (
 mCurrentFilters
 [
@@ -1971,7 +1971,7 @@ filterCount
 +
 i
 )
-NS_Free
+free
 (
 mCurrentFilters
 [
@@ -2121,7 +2121,7 @@ filter
 )
 )
 {
-NS_Free
+free
 (
 filter
 )

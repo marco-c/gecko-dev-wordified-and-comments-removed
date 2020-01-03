@@ -8371,7 +8371,7 @@ profileNamePtr
 profileName
 )
 ;
-NS_Free
+free
 (
 profileNamePtr
 )

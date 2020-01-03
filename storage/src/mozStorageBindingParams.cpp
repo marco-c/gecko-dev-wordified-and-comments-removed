@@ -293,7 +293,7 @@ column
 1
 aBlob
 aSize
-NS_Free
+free
 )
 ;
 }

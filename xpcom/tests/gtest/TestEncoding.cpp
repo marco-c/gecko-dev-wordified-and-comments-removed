@@ -128,7 +128,7 @@ goodPair16
 )
 )
 ;
-NS_Free
+free
 (
 goodPair8
 )
@@ -243,7 +243,7 @@ backwardsPair16
 )
 )
 ;
-NS_Free
+free
 (
 backwardsPair8
 )
@@ -358,7 +358,7 @@ highSurrogate16
 )
 )
 ;
-NS_Free
+free
 (
 highSurrogate8
 )
@@ -473,7 +473,7 @@ lowSurrogate16
 )
 )
 ;
-NS_Free
+free
 (
 lowSurrogate8
 )

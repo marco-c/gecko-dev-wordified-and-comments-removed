@@ -1949,7 +1949,7 @@ b
 >
 mNext
 ;
-NS_Free
+free
 (
 b
 )
@@ -2075,7 +2075,7 @@ Block
 *
 >
 (
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (

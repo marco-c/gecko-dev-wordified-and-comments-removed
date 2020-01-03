@@ -8612,7 +8612,7 @@ mType
 =
 eStyleImageType_Element
 )
-NS_Free
+free
 (
 mElementId
 )
@@ -13854,7 +13854,7 @@ mContent
 mString
 )
 {
-NS_Free
+free
 (
 mContent
 .

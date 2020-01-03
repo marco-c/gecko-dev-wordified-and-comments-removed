@@ -234,7 +234,7 @@ buf
 uint8_t
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 buf_size
 )
@@ -555,7 +555,7 @@ rv
 )
 )
 {
-NS_Free
+free
 (
 buf
 )

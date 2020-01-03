@@ -4693,7 +4693,7 @@ leaf
 escLeafStr
 )
 ;
-NS_Free
+free
 (
 escLeafStr
 )

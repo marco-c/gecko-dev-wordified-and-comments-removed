@@ -2125,7 +2125,7 @@ LogStringMessage
 msg
 )
 ;
-NS_Free
+free
 (
 msg
 )

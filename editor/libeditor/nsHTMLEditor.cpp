@@ -3213,7 +3213,7 @@ aIsBlock
 assertstr
 )
 ;
-NS_Free
+free
 (
 assertstr
 )

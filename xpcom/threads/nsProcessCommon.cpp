@@ -1490,7 +1490,7 @@ char
 *
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -1582,7 +1582,7 @@ aHoldWeak
 false
 )
 ;
-NS_Free
+free
 (
 my_argv
 [
@@ -1590,7 +1590,7 @@ my_argv
 ]
 )
 ;
-NS_Free
+free
 (
 my_argv
 )
@@ -1694,7 +1694,7 @@ char
 *
 *
 )
-NS_Alloc
+moz_xmalloc
 (
 sizeof
 (
@@ -1802,7 +1802,7 @@ aCount
 i
 )
 {
-NS_Free
+free
 (
 my_argv
 [
@@ -1811,7 +1811,7 @@ i
 )
 ;
 }
-NS_Free
+free
 (
 my_argv
 )

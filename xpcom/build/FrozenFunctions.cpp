@@ -122,11 +122,11 @@ NS_StringCloneData
 &
 NS_CStringCloneData
 &
-NS_Alloc
+moz_xmalloc
 &
-NS_Realloc
+moz_xrealloc
 &
-NS_Free
+free
 &
 NS_StringContainerInit2
 &

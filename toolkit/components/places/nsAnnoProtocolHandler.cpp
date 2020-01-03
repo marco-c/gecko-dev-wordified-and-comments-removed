@@ -451,7 +451,7 @@ stream
 "
 )
 ;
-NS_Free
+free
 (
 favicon
 )

@@ -93,13 +93,6 @@ nsUnicharUtils
 .
 h
 "
-#
-include
-"
-nsXPCOM
-.
-h
-"
 using
 namespace
 mozilla
@@ -323,7 +316,7 @@ start
 end
 ;
 }
-NS_Free
+free
 (
 value
 )
