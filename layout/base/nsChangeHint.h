@@ -74,6 +74,9 @@ nsChangeHint_UpdateTextPath
 nsChangeHint_SchedulePaint
 =
 0x80000
+nsChangeHint_NeutralChange
+=
+0x100000
 }
 ;
 inline
