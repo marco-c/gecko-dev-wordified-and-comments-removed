@@ -10761,8 +10761,10 @@ UpdateFilter
 (
 )
 {
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 GetPresShell
@@ -10786,6 +10788,14 @@ IsDestroying
 return
 ;
 }
+presShell
+-
+>
+FlushPendingNotifications
+(
+Flush_Frames
+)
+;
 CurrentState
 (
 )
