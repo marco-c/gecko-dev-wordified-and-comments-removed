@@ -1045,9 +1045,6 @@ uint8_t
 *
 grallocData
 ;
-int32_t
-rv
-=
 graphicBuffer
 -
 >
