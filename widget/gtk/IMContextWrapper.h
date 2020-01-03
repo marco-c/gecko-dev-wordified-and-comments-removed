@@ -873,6 +873,15 @@ aTextRange
 )
 const
 ;
+static
+nscolor
+ToNscolor
+(
+PangoAttrColor
+*
+aPangoAttrColor
+)
+;
 void
 SetCursorPosition
 (
