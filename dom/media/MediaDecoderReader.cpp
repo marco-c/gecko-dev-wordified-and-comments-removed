@@ -1223,6 +1223,16 @@ Shutdown
 (
 )
 {
+MOZ_ASSERT
+(
+mDecoder
+-
+>
+OnDecodeThread
+(
+)
+)
+;
 ReleaseMediaResources
 (
 )
