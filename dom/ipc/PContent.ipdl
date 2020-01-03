@@ -3967,6 +3967,17 @@ nsString
 keyword
 )
 ;
+async
+CopyFavicon
+(
+URIParams
+oldURI
+URIParams
+newURI
+bool
+isPrivate
+)
+;
 /
 /
 Tell
