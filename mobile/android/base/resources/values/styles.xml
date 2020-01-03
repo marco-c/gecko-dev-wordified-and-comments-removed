@@ -2314,7 +2314,9 @@ android
 verticalSpacing
 "
 >
-21dp
+dimen
+/
+new_tablet_tab_panel_grid_vspacing
 <
 /
 item
