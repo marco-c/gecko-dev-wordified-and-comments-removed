@@ -478,6 +478,13 @@ ErrorResult
 aRv
 )
 ;
+void
+AppendError
+(
+bool
+aDecoderError
+)
+;
 bool
 PrepareAppend
 (

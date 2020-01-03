@@ -201,6 +201,11 @@ ResetDecode
 (
 )
 ;
+void
+ResetParserState
+(
+)
+;
 const
 nsTArray
 <

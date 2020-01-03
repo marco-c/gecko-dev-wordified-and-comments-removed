@@ -3675,6 +3675,15 @@ ResetDecode
 ;
 }
 }
+void
+TrackBuffer
+:
+:
+ResetParserState
+(
+)
+{
+}
 const
 nsTArray
 <
