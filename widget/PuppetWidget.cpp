@@ -318,11 +318,10 @@ kMaxDimension
 =
 4000
 ;
-NS_IMPL_ISUPPORTS_INHERITED
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 PuppetWidget
 nsBaseWidget
-nsISupportsWeakReference
 )
 PuppetWidget
 :

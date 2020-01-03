@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsIIdleServiceInternal
 .
 h
@@ -93,8 +86,6 @@ nsWindow
 :
 public
 nsBaseWidget
-public
-nsSupportsWeakReference
 {
 public
 :

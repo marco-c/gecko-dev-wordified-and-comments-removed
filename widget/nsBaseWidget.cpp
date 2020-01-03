@@ -558,11 +558,6 @@ sPointerIdCounter
 =
 0
 ;
-NS_IMPL_ISUPPORTS
-(
-nsBaseWidget
-nsIWidget
-)
 nsAutoRollup
 :
 :
@@ -608,6 +603,12 @@ mLastRollup
 ;
 }
 }
+NS_IMPL_ISUPPORTS
+(
+nsBaseWidget
+nsIWidget
+nsISupportsWeakReference
+)
 nsBaseWidget
 :
 :

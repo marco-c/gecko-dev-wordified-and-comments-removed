@@ -678,11 +678,10 @@ sScreenOffEvent
 ;
 }
 }
-NS_IMPL_ISUPPORTS_INHERITED
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsWindow
 nsBaseWidget
-nsISupportsWeakReference
 )
 nsWindow
 :
