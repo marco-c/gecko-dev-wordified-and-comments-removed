@@ -1896,6 +1896,11 @@ CancelPostedReflowCallbacks
 )
 ;
 void
+ScheduleBeforeFirstPaint
+(
+)
+;
+void
 UnsuppressAndInvalidate
 (
 )
