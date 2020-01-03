@@ -10143,7 +10143,10 @@ gc
 AllocKind
 kind
 =
-GuessObjectGCKind
+gc
+:
+:
+GetGCObjectKind
 (
 2
 )
@@ -30459,7 +30462,10 @@ gc
 AllocKind
 kind
 =
-GuessObjectGCKind
+gc
+:
+:
+GetGCObjectKind
 (
 pn
 -
