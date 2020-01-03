@@ -6954,6 +6954,12 @@ aCx
 aWorkerPrivate
 -
 >
+GetPrincipal
+(
+)
+aWorkerPrivate
+-
+>
 SharedWorkerName
 (
 )

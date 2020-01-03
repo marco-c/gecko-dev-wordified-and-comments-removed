@@ -900,6 +900,11 @@ softUpdate
 (
 info
 .
+principal
+.
+originAttributes
+info
+.
 scope
 )
 ;

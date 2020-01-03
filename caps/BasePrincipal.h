@@ -137,6 +137,7 @@ nsACString
 &
 aStr
 )
+const
 ;
 void
 Serialize
@@ -384,6 +385,15 @@ return
 false
 ;
 }
+static
+bool
+IsCodebasePrincipal
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 static
 BasePrincipal
 *

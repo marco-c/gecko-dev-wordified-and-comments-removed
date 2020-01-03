@@ -45,6 +45,11 @@ aMessage
 .
 data
 .
+originAttributes
+aMessage
+.
+data
+.
 scope
 aMessage
 .
@@ -73,6 +78,13 @@ sendPushSubscriptionChangeEvent
 aMessage
 .
 data
+.
+originAttributes
+aMessage
+.
+data
+.
+scope
 )
 ;
 }
