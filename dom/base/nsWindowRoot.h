@@ -340,6 +340,7 @@ TabParent
 *
 aBrowser
 )
+override
 ;
 virtual
 void
@@ -355,6 +356,7 @@ TabParent
 *
 aBrowser
 )
+override
 ;
 virtual
 void
@@ -366,6 +368,7 @@ void
 *
 aArg
 )
+override
 ;
 protected
 :

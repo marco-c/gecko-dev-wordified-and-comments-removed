@@ -2333,6 +2333,7 @@ ScreenIntSize
 GetInnerSize
 (
 )
+override
 ;
 protected
 :
