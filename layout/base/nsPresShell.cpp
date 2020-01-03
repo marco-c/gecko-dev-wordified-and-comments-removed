@@ -51080,10 +51080,6 @@ FontSizeInflationForceEnabled
 if
 (
 TabChild
-*
-tab
-=
-TabChild
 :
 :
 GetFrom
@@ -51095,9 +51091,9 @@ this
 if
 (
 !
-tab
--
->
+gfxPrefs
+:
+:
 AsyncPanZoomEnabled
 (
 )
