@@ -183,17 +183,6 @@ EVENTS
 OVERVIEW_RENDERED
 )
 ;
-let
-detailsRendered
-=
-once
-(
-WaterfallView
-EVENTS
-.
-WATERFALL_RENDERED
-)
-;
 yield
 consoleProfileEnd
 (
@@ -204,9 +193,6 @@ panelWin
 rust
 "
 )
-;
-yield
-detailsRendered
 ;
 recordings
 =
@@ -284,6 +270,7 @@ recording
 "
 )
 ;
+let
 detailsRendered
 =
 once

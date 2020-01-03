@@ -78,7 +78,14 @@ graph
 =
 OverviewView
 .
-markersOverview
+graphs
+.
+get
+(
+"
+timeline
+"
+)
 ;
 let
 MAX
