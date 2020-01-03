@@ -941,6 +941,17 @@ nsHTMLReflowMetrics
 aDesiredSize
 )
 {
+float
+fontSizeInflation
+=
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+this
+)
+;
 nsIAtom
 *
 tag
@@ -999,6 +1010,7 @@ aDesiredSize
 this
 0
 0
+fontSizeInflation
 )
 ;
 }
@@ -1029,6 +1041,7 @@ aDesiredSize
 this
 0
 0
+fontSizeInflation
 )
 ;
 }
@@ -1070,6 +1083,7 @@ aDesiredSize
 this
 0
 0
+fontSizeInflation
 )
 ;
 }
@@ -1424,6 +1438,7 @@ getter_AddRefs
 (
 fm
 )
+fontSizeInflation
 )
 ;
 nscoord

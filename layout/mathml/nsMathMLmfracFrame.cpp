@@ -278,6 +278,8 @@ nscoord
 onePixel
 nscoord
 aDefaultRuleThickness
+float
+aFontSizeInflation
 )
 {
 nscoord
@@ -426,6 +428,7 @@ nsMathMLElement
 PARSE_ALLOW_UNITLESS
 aPresContext
 aStyleContext
+aFontSizeInflation
 )
 ;
 }
@@ -735,6 +738,17 @@ CSSPixelsToAppUnits
 1
 )
 ;
+float
+fontSizeInflation
+=
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+this
+)
+;
 nsRefPtr
 <
 nsFontMetrics
@@ -751,6 +765,7 @@ getter_AddRefs
 (
 fm
 )
+fontSizeInflation
 )
 ;
 nscoord
@@ -880,6 +895,7 @@ mStyleContext
 value
 onePixel
 defaultRuleThickness
+fontSizeInflation
 )
 ;
 mContent

@@ -338,6 +338,8 @@ aPresContext
 nsStyleContext
 *
 aStyleContext
+float
+aFontSizeInflation
 )
 ;
 static
@@ -354,6 +356,8 @@ const
 nsCSSValue
 &
 aCSSValue
+float
+aFontSizeInflation
 )
 ;
 static
@@ -507,6 +511,8 @@ aChild
 nscoord
 &
 aSubDrop
+float
+aFontSizeInflation
 )
 {
 nsRefPtr
@@ -525,6 +531,7 @@ getter_AddRefs
 (
 fm
 )
+aFontSizeInflation
 )
 ;
 GetSubDrop
@@ -544,6 +551,8 @@ aChild
 nscoord
 &
 aSupDrop
+float
+aFontSizeInflation
 )
 {
 nsRefPtr
@@ -562,6 +571,7 @@ getter_AddRefs
 (
 fm
 )
+aFontSizeInflation
 )
 ;
 GetSupDrop

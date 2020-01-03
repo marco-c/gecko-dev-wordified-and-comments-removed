@@ -893,6 +893,8 @@ const
 nsCSSValue
 &
 aCSSValue
+float
+aFontSizeInflation
 )
 {
 NS_ASSERTION
@@ -1020,6 +1022,7 @@ getter_AddRefs
 (
 fm
 )
+aFontSizeInflation
 )
 ;
 nscoord
@@ -1081,6 +1084,8 @@ aPresContext
 nsStyleContext
 *
 aStyleContext
+float
+aFontSizeInflation
 )
 {
 nsCSSValue
@@ -1171,6 +1176,7 @@ CalcLength
 aPresContext
 aStyleContext
 cssValue
+aFontSizeInflation
 )
 ;
 }

@@ -91,6 +91,17 @@ aPresContext
 nsAutoString
 value
 ;
+float
+fontSizeInflation
+=
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+this
+)
+;
 mWidth
 =
 0
@@ -129,6 +140,7 @@ nsMathMLElement
 PARSE_ALLOW_NEGATIVE
 aPresContext
 mStyleContext
+fontSizeInflation
 )
 ;
 }
@@ -167,6 +179,7 @@ mHeight
 0
 aPresContext
 mStyleContext
+fontSizeInflation
 )
 ;
 }
@@ -205,6 +218,7 @@ mDepth
 0
 aPresContext
 mStyleContext
+fontSizeInflation
 )
 ;
 }

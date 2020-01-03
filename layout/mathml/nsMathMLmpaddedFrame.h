@@ -250,6 +250,8 @@ aDesiredSize
 nscoord
 &
 aValueToUpdate
+float
+aFontSizeInflation
 )
 const
 ;

@@ -128,6 +128,8 @@ nscoord
 onePixel
 nscoord
 aDefaultRuleThickness
+float
+aFontSizeInflation
 )
 ;
 uint8_t

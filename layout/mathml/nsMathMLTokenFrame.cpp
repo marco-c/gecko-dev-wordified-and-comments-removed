@@ -741,6 +741,13 @@ getter_AddRefs
 (
 fm
 )
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+this
+)
 )
 ;
 nscoord

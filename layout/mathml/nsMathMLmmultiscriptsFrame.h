@@ -85,6 +85,8 @@ nscoord
 aUserSubScriptShift
 nscoord
 aUserSupScriptShift
+float
+aFontSizeInflation
 )
 ;
 uint8_t
