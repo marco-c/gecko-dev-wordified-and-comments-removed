@@ -398,6 +398,15 @@ StartNow
 (
 )
 ;
+Nullable
+<
+TimeDuration
+>
+GetCurrentOrPendingStartTime
+(
+)
+const
+;
 void
 Cancel
 (
