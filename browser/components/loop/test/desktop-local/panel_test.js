@@ -300,6 +300,13 @@ sandbox
 stub
 (
 )
+notifyUITour
+:
+sandbox
+.
+stub
+(
+)
 }
 ;
 document
