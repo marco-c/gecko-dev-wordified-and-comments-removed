@@ -239,17 +239,6 @@ MutableHandleObject
 object
 )
 ;
-static
-bool
-XrayWrapperNotShadowing
-(
-JSObject
-*
-wrapper
-jsid
-id
-)
-;
 }
 ;
 extern
