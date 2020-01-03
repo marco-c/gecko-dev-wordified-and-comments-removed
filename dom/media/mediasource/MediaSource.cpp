@@ -226,6 +226,8 @@ static
 PRLogModuleInfo
 *
 sLogModule
+=
+nullptr
 ;
 if
 (
@@ -257,6 +259,8 @@ static
 PRLogModuleInfo
 *
 sLogModule
+=
+nullptr
 ;
 if
 (
