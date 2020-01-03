@@ -272,6 +272,9 @@ DebuggerServer
 allowChromeProcess
 ;
 }
+profilerDataFilterable
+:
+true
 }
 sayHello
 :
