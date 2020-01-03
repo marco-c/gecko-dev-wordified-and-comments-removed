@@ -177,7 +177,7 @@ aDirection
 const
 ;
 bool
-HasOverscrolledApzc
+HasApzcPannedIntoOverscroll
 (
 )
 const

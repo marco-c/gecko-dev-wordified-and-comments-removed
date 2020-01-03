@@ -3388,7 +3388,7 @@ mApzcForInputBlock
 )
 -
 >
-HasOverscrolledApzc
+HasApzcPannedIntoOverscroll
 (
 )
 )
