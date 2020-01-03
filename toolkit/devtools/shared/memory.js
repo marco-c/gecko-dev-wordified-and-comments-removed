@@ -1014,6 +1014,10 @@ allocationsTimestamps
 :
 [
 ]
+allocationSizes
+:
+[
+]
 }
 ;
 for
@@ -1024,6 +1028,7 @@ frame
 :
 stack
 timestamp
+size
 }
 of
 allocations
@@ -1083,6 +1088,15 @@ allocationsTimestamps
 push
 (
 timestamp
+)
+;
+packet
+.
+allocationSizes
+.
+push
+(
+size
 )
 ;
 }
