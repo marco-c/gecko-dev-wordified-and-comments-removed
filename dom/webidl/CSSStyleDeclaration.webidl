@@ -185,6 +185,11 @@ setProperty
 (
 DOMString
 property
+[
+TreatNullAs
+=
+EmptyString
+]
 DOMString
 value
 [
