@@ -8966,11 +8966,12 @@ UsesExChUnits
 {
 PostRebuildAllStyleDataEvent
 (
-NS_STYLE_HINT_REFLOW
+nsChangeHint
+(
+0
+)
 eRestyle_ForceDescendants
 )
-;
-return
 ;
 }
 nsFontFaceUtils
