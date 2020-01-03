@@ -1082,7 +1082,7 @@ GetEffectiveVisibleRegion
 gfxUtils
 :
 :
-ClipToRegionSnapped
+ClipToRegion
 (
 aTarget
 aLayer
