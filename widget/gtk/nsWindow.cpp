@@ -12827,6 +12827,15 @@ GTK_CHECK_VERSION
 )
 if
 (
+aEvent
+-
+>
+direction
+!
+=
+GDK_SCROLL_SMOOTH
+&
+&
 mLastScrollEventTime
 =
 =
