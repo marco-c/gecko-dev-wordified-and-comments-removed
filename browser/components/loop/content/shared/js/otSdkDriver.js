@@ -1768,11 +1768,7 @@ local
 "
 )
 {
-state
-=
-"
-cleanup
-"
+return
 ;
 }
 else
