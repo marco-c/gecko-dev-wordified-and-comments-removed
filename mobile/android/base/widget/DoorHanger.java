@@ -626,16 +626,6 @@ getButtons
 (
 )
 ;
-final
-OnButtonClickListener
-listener
-=
-config
-.
-getButtonClickListener
-(
-)
-;
 for
 (
 int
