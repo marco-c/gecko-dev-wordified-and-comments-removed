@@ -441,8 +441,9 @@ android
 background
 =
 "
-#
-FFFF9500
+color
+/
+fennec_ui_orange
 "
 android
 :

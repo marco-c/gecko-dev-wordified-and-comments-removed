@@ -1609,7 +1609,7 @@ textColor
 >
 color
 /
-text_color_highlight
+fennec_ui_orange
 <
 /
 item
@@ -3302,7 +3302,7 @@ textColorHighlight
 >
 color
 /
-text_color_highlight
+fennec_ui_orange
 <
 /
 item
@@ -5096,7 +5096,7 @@ textColorHighlight
 >
 color
 /
-url_bar_text_highlight
+fennec_ui_orange
 <
 /
 item

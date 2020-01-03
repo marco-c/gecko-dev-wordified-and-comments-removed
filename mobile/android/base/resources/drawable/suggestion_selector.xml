@@ -76,8 +76,9 @@ android
 endColor
 =
 "
-#
-FF9500
+color
+/
+fennec_ui_orange
 "
 android
 :
