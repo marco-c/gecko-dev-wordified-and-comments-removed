@@ -49,11 +49,9 @@ mozilla
 .
 gecko
 .
-background
-.
 fxa
 .
-FxAccountUtils
+FxAccountConstants
 ;
 import
 org
@@ -389,7 +387,7 @@ title
 title
 )
 ;
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (

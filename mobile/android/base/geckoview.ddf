@@ -360,14 +360,6 @@ mozilla
 .
 gecko
 .
-SysInfo
-\
-org
-.
-mozilla
-.
-gecko
-.
 TouchEventInterceptor
 \
 org
