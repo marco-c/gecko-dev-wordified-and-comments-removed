@@ -37,7 +37,7 @@ const
 uint32_t
 XDR_BYTECODE_VERSION_SUBTRAHEND
 =
-204
+206
 ;
 static_assert
 (
