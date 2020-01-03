@@ -112,6 +112,10 @@ NR_TURN_CLIENT_STATE_FAILED
 define
 NR_TURN_CLIENT_STATE_CANCELLED
 5
+#
+define
+NR_TURN_CLIENT_STATE_DEALLOCATING
+6
 char
 *
 label
@@ -261,6 +265,14 @@ turn_server_addr
 ;
 int
 nr_turn_client_cancel
+(
+nr_turn_client_ctx
+*
+ctx
+)
+;
+int
+nr_turn_client_deallocate
 (
 nr_turn_client_ctx
 *
