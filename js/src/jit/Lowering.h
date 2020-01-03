@@ -352,14 +352,6 @@ ins
 )
 ;
 bool
-visitNewTypedObject
-(
-MNewTypedObject
-*
-ins
-)
-;
-bool
 visitNewDeclEnvObject
 (
 MNewDeclEnvObject
