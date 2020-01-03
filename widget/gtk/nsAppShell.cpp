@@ -337,6 +337,10 @@ Init
 (
 )
 {
+g_type_init
+(
+)
+;
 if
 (
 !
