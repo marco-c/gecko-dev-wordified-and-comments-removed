@@ -560,7 +560,7 @@ function
 (
 )
 {
-utils
+XULUtils
 .
 addCommands
 (
@@ -1494,7 +1494,7 @@ function
 (
 )
 {
-utils
+XULUtils
 .
 addCommands
 (
@@ -4227,7 +4227,7 @@ function
 (
 )
 {
-utils
+XULUtils
 .
 addCommands
 (
