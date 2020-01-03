@@ -243,6 +243,13 @@ imgIContainer
 aContainer
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 nsresult
 rv
 ;
