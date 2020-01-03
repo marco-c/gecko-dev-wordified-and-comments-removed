@@ -1288,6 +1288,14 @@ nsIPersistentProperties
 aAttributes
 )
 ;
+void
+SetMathMLXMLRoles
+(
+nsIPersistentProperties
+*
+aAttributes
+)
+;
 private
 :
 mutable
