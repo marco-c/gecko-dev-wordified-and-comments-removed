@@ -1470,32 +1470,12 @@ symlink
 '
 )
         
-normpath
-=
-os
-.
-path
-.
-normpath
-        
-join
-=
-os
-.
-path
-.
-join
-        
-dirname
-=
-os
-.
-path
-.
-dirname
-        
 destination
 =
+os
+.
+path
+.
 normpath
 (
 destination
@@ -1556,8 +1536,16 @@ dest_files
 .
 add
 (
+os
+.
+path
+.
 normpath
 (
+os
+.
+path
+.
 join
 (
 destination
@@ -1571,8 +1559,16 @@ required_dirs
 =
 set
 (
+os
+.
+path
+.
 normpath
 (
+os
+.
+path
+.
 join
 (
 destination
@@ -1756,6 +1752,10 @@ dirs
                     
 full
 =
+os
+.
+path
+.
 join
 (
 root
@@ -1799,7 +1799,14 @@ removed_files
 .
 add
 (
+os
+.
+path
+.
+normpath
+(
 full
+)
 )
                         
 else
@@ -1809,7 +1816,14 @@ existing_files
 .
 add
 (
+os
+.
+path
+.
+normpath
+(
 full
+)
 )
                     
 else
@@ -1833,7 +1847,14 @@ existing_dirs
 .
 add
 (
+os
+.
+path
+.
+normpath
+(
 root
+)
 )
             
 for
@@ -1846,10 +1867,21 @@ existing_dirs
 .
 add
 (
+os
+.
+path
+.
+normpath
+(
+os
+.
+path
+.
 join
 (
 root
 d
+)
 )
 )
             
@@ -1863,10 +1895,21 @@ existing_files
 .
 add
 (
+os
+.
+path
+.
+normpath
+(
+os
+.
+path
+.
 join
 (
 root
 f
+)
 )
 )
         
@@ -1937,10 +1980,21 @@ self
             
 destfile
 =
+os
+.
+path
+.
+normpath
+(
+os
+.
+path
+.
 join
 (
 destination
 p
+)
 )
             
 if
@@ -2020,6 +2074,10 @@ True
                     
 parent
 =
+os
+.
+path
+.
 dirname
 (
 parent
