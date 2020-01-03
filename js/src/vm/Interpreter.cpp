@@ -20827,6 +20827,16 @@ callee
 (
 )
 ;
+if
+(
+callee
+.
+isArrow
+(
+)
+)
+continue
+;
 MOZ_ASSERT
 (
 callee
