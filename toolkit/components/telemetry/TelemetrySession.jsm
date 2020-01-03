@@ -248,6 +248,11 @@ this
 )
 ;
 const
+Utils
+=
+TelemetryUtils
+;
+const
 myScope
 =
 this
@@ -2328,7 +2333,7 @@ SCHEDULER_TICK_IDLE_INTERVAL_MS
 const
 nextMidnight
 =
-TelemetryUtils
+Utils
 .
 getNextMidnight
 (
@@ -2415,7 +2420,7 @@ nowDate
 const
 todayDate
 =
-TelemetryUtils
+Utils
 .
 truncateToDays
 (
@@ -2425,7 +2430,7 @@ nowDate
 const
 nearestMidnight
 =
-TelemetryUtils
+Utils
 .
 getNearestMidnight
 (
@@ -2505,7 +2510,7 @@ false
 const
 nearestMidnight
 =
-TelemetryUtils
+Utils
 .
 getNearestMidnight
 (
@@ -2999,7 +3004,7 @@ isAbortedPingDue
 shouldSendDaily
 &
 &
-TelemetryUtils
+Utils
 .
 areTimesClose
 (
@@ -3270,7 +3275,7 @@ competingPayload
 let
 nearestMidnight
 =
-TelemetryUtils
+Utils
 .
 getNearestMidnight
 (
@@ -5154,7 +5159,7 @@ sessionStartDate
 =
 toLocalTimeISOString
 (
-TelemetryUtils
+Utils
 .
 truncateToDays
 (
@@ -5169,7 +5174,7 @@ subsessionStartDate
 =
 toLocalTimeISOString
 (
-TelemetryUtils
+Utils
 .
 truncateToDays
 (

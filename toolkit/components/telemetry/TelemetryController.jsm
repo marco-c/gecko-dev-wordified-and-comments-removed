@@ -274,6 +274,11 @@ this
 )
 ;
 const
+Utils
+=
+TelemetryUtils
+;
+const
 LOGGER_NAME
 =
 "
@@ -429,15 +434,6 @@ const
 PING_SUBMIT_TIMEOUT_MS
 =
 2
-*
-60
-*
-1000
-;
-const
-MIDNIGHT_TOLERANCE_MS
-=
-15
 *
 60
 *
@@ -2036,7 +2032,7 @@ now
 const
 midnight
 =
-TelemetryUtils
+Utils
 .
 getNearestMidnight
 (
