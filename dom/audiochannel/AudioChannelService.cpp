@@ -3293,6 +3293,9 @@ Window
 ;
 if
 (
+window
+&
+&
 !
 window
 -
