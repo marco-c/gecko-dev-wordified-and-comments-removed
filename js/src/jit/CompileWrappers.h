@@ -105,14 +105,14 @@ endif
 const
 void
 *
-addressOfInterrupt
+addressOfInterruptUint32
 (
 )
 ;
 const
 void
 *
-addressOfInterruptPar
+addressOfInterruptParUint32
 (
 )
 ;
