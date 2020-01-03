@@ -63,9 +63,7 @@ MOZ_LOG
 GetAccessibleCaretLog
 (
 )
-PR_LOG_DEBUG
-+
-1
+PR_LOG_VERBOSE
 (
 __VA_ARGS__
 )

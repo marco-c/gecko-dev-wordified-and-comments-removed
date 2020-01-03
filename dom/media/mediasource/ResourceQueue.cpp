@@ -87,9 +87,7 @@ MOZ_LOG
 GetSourceBufferResourceLog
 (
 )
-PR_LOG_DEBUG
-+
-1
+PR_LOG_VERBOSE
 (
 "
 ResourceQueue
