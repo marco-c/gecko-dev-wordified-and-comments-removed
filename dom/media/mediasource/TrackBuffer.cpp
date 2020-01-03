@@ -4479,6 +4479,7 @@ nsRunnable
 {
 public
 :
+explicit
 ReleaseDecoderTask
 (
 SourceBufferDecoder
