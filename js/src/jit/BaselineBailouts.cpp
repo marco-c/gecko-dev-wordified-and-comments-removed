@@ -2188,6 +2188,14 @@ jitCompartment
 >
 baselineCallReturnAddr
 (
+JSOp
+(
+*
+pc
+)
+=
+=
+JSOP_NEW
 )
 ;
 }
