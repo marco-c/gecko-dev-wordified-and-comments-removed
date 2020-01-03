@@ -4440,7 +4440,7 @@ clear
 Localization
 note
 (
-reading_list_added2
+reading_list_added3
 )
 :
 Used
@@ -4460,11 +4460,12 @@ possible
 <
 !
 ENTITY
-reading_list_added2
+reading_list_added3
 "
 Added
 to
-list
+Reading
+List
 "
 >
 <
