@@ -11093,6 +11093,17 @@ MOZ_ASSERT
 pn
 -
 >
+isArity
+(
+PN_BINARY
+)
+)
+;
+MOZ_ASSERT
+(
+pn
+-
+>
 pn_left
 -
 >
