@@ -21,6 +21,9 @@ length
 bool
 ConvertWOFF2ToTTF
 (
+OpenTypeFile
+*
+file
 uint8_t
 *
 result

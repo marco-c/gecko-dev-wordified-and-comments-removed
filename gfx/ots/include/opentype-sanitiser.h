@@ -968,6 +968,7 @@ OTSContext
 )
 {
 }
+virtual
 ~
 OTSContext
 (
