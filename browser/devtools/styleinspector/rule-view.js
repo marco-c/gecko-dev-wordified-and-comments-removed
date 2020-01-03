@@ -12418,6 +12418,19 @@ popup
 isOpen
 ;
 }
+get
+rule
+(
+)
+{
+return
+this
+.
+prop
+.
+rule
+;
+}
 _create
 :
 function
@@ -13148,8 +13161,6 @@ domRule
 =
 this
 .
-prop
-.
 rule
 .
 domRule
@@ -13434,8 +13445,6 @@ store
 =
 this
 .
-prop
-.
 rule
 .
 elementStyle
@@ -13452,8 +13461,6 @@ userProperties
 getProperty
 (
 this
-.
-prop
 .
 rule
 .
@@ -13499,8 +13506,6 @@ userProperties
 contains
 (
 this
-.
-prop
 .
 rule
 .
