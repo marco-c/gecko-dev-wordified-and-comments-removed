@@ -1195,7 +1195,7 @@ mmSecuritySensitiveCalls
 =
 {
 "
-mediaplaybackchange
+audioplaybackchange
 "
 :
 this

@@ -49,7 +49,7 @@ addPermission
 )
 ;
 function
-playMediaScript
+playAudioScript
 (
 )
 {
@@ -200,7 +200,7 @@ data
 (
 '
 +
-playMediaScript
+playAudioScript
 .
 toString
 (
@@ -230,7 +230,7 @@ iframe
 addEventListener
 (
 '
-mozbrowsermediaplaybackchange
+mozbrowseraudioplaybackchange
 '
 (
 e
@@ -302,7 +302,7 @@ iframe2
 addEventListener
 (
 '
-mozbrowsermediaplaybackchange
+mozbrowseraudioplaybackchange
 '
 (
 e
@@ -314,7 +314,7 @@ ok
 (
 false
 '
-mozbrowsermediaplaybackchange
+mozbrowseraudioplaybackchange
 should
 dispatch
 to
