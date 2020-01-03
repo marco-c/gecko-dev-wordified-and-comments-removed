@@ -1131,7 +1131,7 @@ subject
 __
 (
 "
-share_email_subject2
+share_email_subject3
 "
 )
 +
@@ -1146,7 +1146,7 @@ body
 __
 (
 "
-share_email_body2
+share_email_body3
 "
 {
 callUrl

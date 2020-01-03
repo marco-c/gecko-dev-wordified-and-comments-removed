@@ -650,7 +650,7 @@ _handleDecline
 __
 (
 "
-incoming_call_decline_button
+incoming_call_cancel_button
 "
 )
 }
@@ -712,7 +712,7 @@ _handleDeclineBlock
 __
 (
 "
-incoming_call_decline_and_block_button
+incoming_call_cancel_and_block_button
 "
 )
 }
@@ -820,7 +820,7 @@ text
 __
 (
 "
-incoming_call_answer_button
+incoming_call_accept_button
 "
 )
 }
@@ -881,7 +881,7 @@ title
 __
 (
 "
-incoming_call_answer_audio_only_tooltip
+incoming_call_accept_audio_only_tooltip
 "
 )
 }
@@ -2306,7 +2306,7 @@ mozL10n
 get
 (
 "
-call_has_ended
+conversation_has_ended
 "
 )
 ;
