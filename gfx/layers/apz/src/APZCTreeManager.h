@@ -760,6 +760,11 @@ aConstraints
 )
 ;
 void
+FlushRepaintsToClearScreenToGeckoTransform
+(
+)
+;
+void
 FlushRepaintsRecursively
 (
 HitTestingTreeNode
