@@ -157,14 +157,6 @@ TailDispatcher
 =
 0
 ;
-virtual
-bool
-InTailDispatch
-(
-)
-=
-0
-;
 bool
 RequiresTailDispatch
 (
