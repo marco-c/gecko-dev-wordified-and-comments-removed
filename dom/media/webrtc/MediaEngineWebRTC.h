@@ -690,10 +690,6 @@ MediaEngineAudioSource
 (
 kReleased
 )
-mSamples
-(
-0
-)
 mVoiceEngine
 (
 aVoiceEnginePtr
@@ -999,9 +995,6 @@ Shutdown
 )
 ;
 }
-int
-mSamples
-;
 private
 :
 void
