@@ -5921,8 +5921,11 @@ set
 ;
 if
 (
-IsPrintingOrPP
+!
+IsNavigationAllowed
 (
+true
+false
 )
 )
 {
@@ -17254,6 +17257,8 @@ IsNavigationAllowed
 (
 bool
 aDisplayPrintErrorDialog
+bool
+aCheckIfUnloadFired
 )
 {
 bool
@@ -17266,8 +17271,14 @@ aDisplayPrintErrorDialog
 )
 &
 &
+(
+!
+aCheckIfUnloadFired
+|
+|
 !
 mFiredUnloadEvent
+)
 ;
 if
 (
