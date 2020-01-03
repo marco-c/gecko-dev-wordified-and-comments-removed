@@ -315,7 +315,13 @@ aOutStartTime
 ;
 AudioData
 *
-DecodeToFirstAudioData
+SyncDecodeToFirstAudioData
+(
+)
+;
+VideoData
+*
+SyncDecodeToFirstVideoData
 (
 )
 ;
