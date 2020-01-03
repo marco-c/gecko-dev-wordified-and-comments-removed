@@ -1288,7 +1288,7 @@ aTarget
 )
 ;
 void
-AdvanceFrame
+UpdateRenderedVideoFrames
 (
 )
 ;
