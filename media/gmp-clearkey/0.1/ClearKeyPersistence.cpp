@@ -29,9 +29,7 @@ h
 #
 include
 "
-mozilla
-/
-RefPtr
+RefCounted
 .
 h
 "
@@ -64,10 +62,13 @@ include
 <
 sstream
 >
-using
-namespace
-mozilla
-;
+#
+include
+<
+assert
+.
+h
+>
 using
 namespace
 std
@@ -115,7 +116,7 @@ GMPErr
 aStatus
 )
 {
-MOZ_ASSERT
+assert
 (
 sPersistentKeyState
 =
@@ -172,7 +173,7 @@ len
 )
 )
 {
-MOZ_ASSERT
+assert
 (
 name
 [

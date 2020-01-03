@@ -8,8 +8,6 @@ h
 #
 include
 "
-mozilla
-/
 Endian
 .
 h

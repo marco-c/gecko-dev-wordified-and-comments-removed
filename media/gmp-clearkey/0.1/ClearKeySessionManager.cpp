@@ -82,17 +82,11 @@ h
 endif
 #
 include
-"
-mozilla
-/
-Assertions
+<
+assert
 .
 h
-"
-using
-namespace
-mozilla
-;
+>
 using
 namespace
 std
@@ -184,7 +178,7 @@ p
 this
 )
 ;
-MOZ_ASSERT
+assert
 (
 !
 mRefCount
@@ -364,7 +358,7 @@ GetNewSessionId
 aSessionType
 )
 ;
-MOZ_ASSERT
+assert
 (
 mSessions
 .
@@ -798,7 +792,7 @@ base
 CLEARKEY_KEY_LEN
 )
 ;
-MOZ_ASSERT
+assert
 (
 keyId
 .
@@ -823,7 +817,7 @@ base
 CLEARKEY_KEY_LEN
 )
 ;
-MOZ_ASSERT
+assert
 (
 key
 .
@@ -1332,7 +1326,7 @@ keyId
 continue
 ;
 }
-MOZ_ASSERT
+assert
 (
 keyId
 .
@@ -1378,7 +1372,7 @@ GetDecryptionKey
 keyId
 )
 ;
-MOZ_ASSERT
+assert
 (
 key
 .
@@ -1510,7 +1504,7 @@ itr
 >
 second
 ;
-MOZ_ASSERT
+assert
 (
 session
 )
@@ -1662,7 +1656,7 @@ itr
 >
 second
 ;
-MOZ_ASSERT
+assert
 (
 session
 )
