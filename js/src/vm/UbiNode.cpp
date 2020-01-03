@@ -885,7 +885,10 @@ class
 SimpleEdgeVectorTracer
 :
 public
-JSTracer
+JS
+:
+:
+CallbackTracer
 {
 SimpleEdgeVector
 *
@@ -898,7 +901,10 @@ static
 void
 staticCallback
 (
-JSTracer
+JS
+:
+:
+CallbackTracer
 *
 trc
 void
@@ -1094,7 +1100,10 @@ bool
 wantNames
 )
 :
-JSTracer
+JS
+:
+:
+CallbackTracer
 (
 JS_GetRuntime
 (

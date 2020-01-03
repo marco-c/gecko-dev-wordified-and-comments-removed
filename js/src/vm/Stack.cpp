@@ -1985,9 +1985,11 @@ script
 }
 if
 (
-IsMarkingTracer
-(
 trc
+-
+>
+isMarkingTracer
+(
 )
 )
 script

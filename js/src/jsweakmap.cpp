@@ -202,9 +202,11 @@ isInList
 ;
 if
 (
-IsMarkingTracer
-(
 tracer
+-
+>
+isMarkingTracer
+(
 )
 )
 {

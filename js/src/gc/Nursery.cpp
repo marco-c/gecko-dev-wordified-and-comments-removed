@@ -1780,7 +1780,10 @@ class
 MinorCollectionTracer
 :
 public
-JSTracer
+JS
+:
+:
+CallbackTracer
 {
 public
 :
@@ -1850,7 +1853,10 @@ Nursery
 nursery
 )
 :
-JSTracer
+JS
+:
+:
+CallbackTracer
 (
 rt
 Nursery
@@ -4120,7 +4126,10 @@ Nursery
 :
 MinorGCCallback
 (
-JSTracer
+JS
+:
+:
+CallbackTracer
 *
 jstrc
 void

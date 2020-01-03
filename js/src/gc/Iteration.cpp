@@ -78,9 +78,11 @@ trc
 MOZ_ASSERT
 (
 !
-IsMarkingTracer
-(
 trc
+-
+>
+isMarkingTracer
+(
 )
 )
 ;

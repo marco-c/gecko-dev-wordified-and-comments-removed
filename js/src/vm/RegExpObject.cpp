@@ -1119,9 +1119,11 @@ isHeapBusy
 )
 &
 &
-IsMarkingTracer
-(
 trc
+-
+>
+isMarkingTracer
+(
 )
 &
 &
@@ -2787,9 +2789,11 @@ trc
 {
 if
 (
-IsMarkingTracer
-(
 trc
+-
+>
+isMarkingTracer
+(
 )
 )
 marked_

@@ -7180,9 +7180,11 @@ trc
 {
 if
 (
-JS_IsGCMarkingTracer
-(
 trc
+-
+>
+isMarkingTracer
+(
 )
 )
 {
@@ -8507,9 +8509,11 @@ trc
 {
 if
 (
-JS_IsGCMarkingTracer
-(
 trc
+-
+>
+isMarkingTracer
+(
 )
 )
 {
