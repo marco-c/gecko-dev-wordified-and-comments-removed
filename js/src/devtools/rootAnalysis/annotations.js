@@ -1802,6 +1802,15 @@ listGCTypes
 return
 [
 '
+js
+:
+:
+gc
+:
+:
+Cell
+'
+'
 JSObject
 '
 '
