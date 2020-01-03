@@ -211,11 +211,10 @@ Element
 *
 ownerElement
 =
-static_cast
-<
 TabParent
-*
->
+:
+:
+GetFrom
 (
 Manager
 (
