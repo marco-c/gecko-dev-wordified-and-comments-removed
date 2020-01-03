@@ -182,13 +182,6 @@ prclist
 .
 h
 "
-#
-include
-"
-gfxVR
-.
-h
-"
 class
 imgIRequest
 ;
@@ -377,6 +370,13 @@ ImageLoader
 ;
 }
 namespace
+gfx
+{
+class
+VRHMDInfo
+;
+}
+namespace
 dom
 {
 class
@@ -526,8 +526,7 @@ FullScreenOptions
 FullScreenOptions
 (
 )
-{
-}
+;
 nsRefPtr
 <
 gfx

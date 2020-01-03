@@ -121,13 +121,6 @@ h
 "
 #
 include
-"
-gfxVR
-.
-h
-"
-#
-include
 <
 stdint
 .
@@ -187,6 +180,13 @@ ImageLayer
 ;
 class
 ImageContainer
+;
+}
+namespace
+gfx
+{
+class
+VRHMDInfo
 ;
 }
 }
