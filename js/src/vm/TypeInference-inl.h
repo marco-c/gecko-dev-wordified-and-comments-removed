@@ -2096,7 +2096,7 @@ inline
 void
 MarkObjectGroupUnknownProperties
 (
-JSContext
+ExclusiveContext
 *
 cx
 ObjectGroup
