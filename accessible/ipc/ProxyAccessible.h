@@ -207,7 +207,7 @@ this
 )
 ;
 }
-int32_t
+ssize_t
 IndexOfEmbeddedChild
 (
 const
