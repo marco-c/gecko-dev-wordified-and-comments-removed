@@ -451,8 +451,6 @@ gBrowser
 selectedBrowser
 .
 currentURI
-.
-host
 "
 trackingprotection
 "

@@ -5124,14 +5124,6 @@ null
 )
 ;
 let
-host
-=
-getHost
-(
-uri
-)
-;
-let
 perms
 =
 Services
@@ -5164,7 +5156,7 @@ perms
 .
 remove
 (
-host
+uri
 "
 camera
 "
@@ -5196,7 +5188,7 @@ perms
 .
 remove
 (
-host
+uri
 "
 microphone
 "

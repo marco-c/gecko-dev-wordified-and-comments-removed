@@ -414,8 +414,6 @@ perms
 remove
 (
 VALID_WEB_CHANNEL_ORIGIN
-.
-spec
 TEST_PERMISSION_NAME
 )
 )

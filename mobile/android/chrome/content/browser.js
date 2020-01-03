@@ -11664,8 +11664,6 @@ remove
 browser
 .
 currentURI
-.
-host
 "
 trackingprotection
 "
