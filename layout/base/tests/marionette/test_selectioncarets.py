@@ -1288,5 +1288,5 @@ self
 _content
 self
 .
-assertNotEqual
+assertEqual
 )
