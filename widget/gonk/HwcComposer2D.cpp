@@ -983,6 +983,12 @@ device
 sHWCProcs
 )
 ;
+#
+if
+ANDROID_VERSION
+=
+=
+19
 mHasHWVsync
 =
 gfxPrefs
@@ -992,6 +998,14 @@ HardwareVsyncEnabled
 (
 )
 ;
+#
+else
+mHasHWVsync
+=
+false
+;
+#
+endif
 return
 mHasHWVsync
 ;
