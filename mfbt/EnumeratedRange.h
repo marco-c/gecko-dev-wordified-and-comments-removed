@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-IntegerRange
+IntegerTypeTraits
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-IntegerTypeTraits
+ReverseIterator
 .
 h
 "
@@ -41,7 +41,6 @@ EnumeratedIterator
 public
 :
 typedef
-const
 EnumTypeT
 ValueType
 ;
@@ -101,9 +100,7 @@ mCurrent
 )
 {
 }
-const
 EnumTypeT
-&
 operator
 *
 (

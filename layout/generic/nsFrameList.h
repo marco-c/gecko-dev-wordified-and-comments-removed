@@ -1147,7 +1147,6 @@ public
 typedef
 nsIFrame
 *
-const
 ValueType
 ;
 typedef
@@ -1197,8 +1196,8 @@ mCurrent
 )
 {
 }
-ValueType
-&
+nsIFrame
+*
 operator
 *
 (

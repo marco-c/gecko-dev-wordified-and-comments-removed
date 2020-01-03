@@ -48,7 +48,6 @@ IntegerIterator
 public
 :
 typedef
-const
 IntTypeT
 ValueType
 ;
@@ -105,9 +104,7 @@ mCurrent
 )
 {
 }
-const
 IntTypeT
-&
 operator
 *
 (
