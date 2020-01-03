@@ -58,7 +58,7 @@ struct
 ArchiveReaderOptions
 ;
 class
-DOMFile
+File
 ;
 class
 GlobalObject
@@ -96,7 +96,7 @@ const
 GlobalObject
 &
 aGlobal
-DOMFile
+File
 &
 aBlob
 const
@@ -110,7 +110,7 @@ aError
 ;
 ArchiveReader
 (
-DOMFile
+File
 &
 aBlob
 nsPIDOMWindow
@@ -249,7 +249,7 @@ protected
 :
 nsRefPtr
 <
-DOMFile
+File
 >
 mBlob
 ;

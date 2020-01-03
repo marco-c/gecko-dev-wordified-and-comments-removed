@@ -449,6 +449,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+File
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h
@@ -457,13 +468,6 @@ h
 include
 "
 nsNetUtil
-.
-h
-"
-#
-include
-"
-nsDOMFile
 .
 h
 "
@@ -1256,7 +1260,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -1276,7 +1280,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -1330,7 +1334,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 mFiles
@@ -1740,11 +1744,11 @@ NS_ERROR_FAILURE
 }
 nsRefPtr
 <
-DOMFile
+File
 >
 domFile
 =
-DOMFile
+File
 :
 :
 CreateFromFile
@@ -1837,13 +1841,13 @@ length
 0
 )
 {
-DOMFileImplFile
+FileImplFile
 *
 fileImpl
 =
 static_cast
 <
-DOMFileImplFile
+FileImplFile
 *
 >
 (
@@ -2424,7 +2428,7 @@ AppendElement
 (
 static_cast
 <
-DOMFile
+File
 *
 >
 (
@@ -2619,7 +2623,7 @@ i
 ]
 =
 new
-DOMFile
+File
 (
 global
 mFileList
@@ -2743,7 +2747,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 mFileList
@@ -2965,7 +2969,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 newFiles
@@ -3085,7 +3089,7 @@ AppendElement
 (
 static_cast
 <
-DOMFile
+File
 *
 >
 (
@@ -3155,7 +3159,7 @@ AppendElement
 (
 static_cast
 <
-DOMFile
+File
 *
 >
 (
@@ -4204,7 +4208,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -7452,7 +7456,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 files
@@ -10067,7 +10071,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 files
@@ -10177,11 +10181,11 @@ GetScopeObject
 ;
 nsRefPtr
 <
-DOMFile
+File
 >
 domFile
 =
-DOMFile
+File
 :
 :
 CreateFromFile
@@ -11134,7 +11138,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -11231,7 +11235,7 @@ i
 {
 nsRefPtr
 <
-DOMFile
+File
 >
 file
 =
@@ -11973,7 +11977,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -23987,7 +23991,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -25028,7 +25032,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -26637,7 +26641,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &

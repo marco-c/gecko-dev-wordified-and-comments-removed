@@ -38,7 +38,7 @@ namespace
 dom
 {
 class
-DOMFileImpl
+FileImpl
 ;
 class
 Promise
@@ -61,7 +61,7 @@ const
 nsAString
 &
 aDirPath
-DOMFileImpl
+FileImpl
 *
 aTargetFile
 const
@@ -174,7 +174,7 @@ mDirRealPath
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 mTargetFileImpl
 ;

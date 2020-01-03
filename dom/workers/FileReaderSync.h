@@ -27,7 +27,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 class
 GlobalObject
@@ -115,7 +115,7 @@ JSObject
 *
 >
 aScopeObj
-DOMFile
+File
 &
 aBlob
 JS
@@ -135,7 +135,7 @@ aRv
 void
 ReadAsBinaryString
 (
-DOMFile
+File
 &
 aBlob
 nsAString
@@ -149,7 +149,7 @@ aRv
 void
 ReadAsText
 (
-DOMFile
+File
 &
 aBlob
 const
@@ -170,7 +170,7 @@ aRv
 void
 ReadAsDataURL
 (
-DOMFile
+File
 &
 aBlob
 nsAString

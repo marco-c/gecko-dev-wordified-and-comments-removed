@@ -815,13 +815,6 @@ h
 #
 include
 "
-nsIDOMFile
-.
-h
-"
-#
-include
-"
 nsIDOMFileList
 .
 h
@@ -32836,7 +32829,7 @@ empty
 "
 )
 ;
-DOMFileImpl
+FileImpl
 *
 blobImpl
 ;
@@ -32877,12 +32870,12 @@ cx
 {
 nsRefPtr
 <
-DOMFile
+File
 >
 blob
 =
 new
-DOMFile
+File
 (
 scInfo
 -
@@ -33083,7 +33076,7 @@ scInfo
 )
 ;
 {
-DOMFile
+File
 *
 blob
 =
@@ -33108,7 +33101,7 @@ blob
 )
 )
 {
-DOMFileImpl
+FileImpl
 *
 blobImpl
 =

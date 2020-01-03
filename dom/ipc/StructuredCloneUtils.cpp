@@ -40,7 +40,11 @@ h
 #
 include
 "
-nsDOMFile
+mozilla
+/
+dom
+/
+File
 .
 h
 "
@@ -196,7 +200,7 @@ Length
 ;
 nsRefPtr
 <
-DOMFile
+File
 >
 blob
 =
@@ -264,12 +268,12 @@ global
 ;
 nsRefPtr
 <
-DOMFile
+File
 >
 newBlob
 =
 new
-DOMFile
+File
 (
 global
 blob
@@ -366,7 +370,7 @@ aClosure
 )
 ;
 {
-DOMFile
+File
 *
 blob
 =

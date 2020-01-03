@@ -51,7 +51,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 namespace
 indexedDB
@@ -76,7 +76,7 @@ StructuredCloneFile
 {
 nsRefPtr
 <
-DOMFile
+File
 >
 mFile
 ;

@@ -118,7 +118,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 class
 FileHelper
@@ -775,7 +775,7 @@ nsIInputStream
 GetInputStream
 (
 const
-DOMFile
+File
 &
 aValue
 uint64_t

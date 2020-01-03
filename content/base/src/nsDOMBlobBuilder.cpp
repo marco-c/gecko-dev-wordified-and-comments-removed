@@ -104,11 +104,11 @@ dom
 ;
 NS_IMPL_ISUPPORTS_INHERITED0
 (
-DOMMultipartFileImpl
-DOMFileImpl
+MultipartFileImpl
+FileImpl
 )
 nsresult
-DOMMultipartFileImpl
+MultipartFileImpl
 :
 :
 GetInternalStream
@@ -186,7 +186,7 @@ nsIInputStream
 >
 scratchStream
 ;
-DOMFileImpl
+FileImpl
 *
 blobImpl
 =
@@ -247,9 +247,9 @@ aStream
 }
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
-DOMMultipartFileImpl
+MultipartFileImpl
 :
 :
 CreateSlice
@@ -271,7 +271,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 >
 blobImpls
@@ -314,7 +314,7 @@ i
 +
 )
 {
-DOMFileImpl
+FileImpl
 *
 blobImpl
 =
@@ -380,7 +380,7 @@ length
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 firstBlobImpl
 =
@@ -471,7 +471,7 @@ i
 +
 )
 {
-DOMFileImpl
+FileImpl
 *
 blobImpl
 =
@@ -520,7 +520,7 @@ l
 {
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 lastBlobImpl
 =
@@ -587,12 +587,12 @@ length
 }
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 impl
 =
 new
-DOMMultipartFileImpl
+MultipartFileImpl
 (
 blobImpls
 aContentType
@@ -607,7 +607,7 @@ forget
 ;
 }
 void
-DOMMultipartFileImpl
+MultipartFileImpl
 :
 :
 InitializeBlob
@@ -620,7 +620,7 @@ SetLengthAndModifiedDate
 ;
 }
 void
-DOMMultipartFileImpl
+MultipartFileImpl
 :
 :
 InitializeBlob
@@ -697,7 +697,7 @@ IsBlob
 {
 nsRefPtr
 <
-DOMFile
+File
 >
 file
 =
@@ -907,7 +907,7 @@ SetLengthAndModifiedDate
 ;
 }
 void
-DOMMultipartFileImpl
+MultipartFileImpl
 :
 :
 SetLengthAndModifiedDate
@@ -960,7 +960,7 @@ index
 {
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 &
 blob
@@ -1055,7 +1055,7 @@ JS_Now
 }
 }
 void
-DOMMultipartFileImpl
+MultipartFileImpl
 :
 :
 GetMozFullPathInternal
@@ -1084,7 +1084,7 @@ Length
 0
 )
 {
-DOMFileImplBase
+FileImplBase
 :
 :
 GetMozFullPathInternal
@@ -1096,7 +1096,7 @@ aRv
 return
 ;
 }
-DOMFileImpl
+FileImpl
 *
 blobImpl
 =
@@ -1117,7 +1117,7 @@ if
 blobImpl
 )
 {
-DOMFileImplBase
+FileImplBase
 :
 :
 GetMozFullPathInternal
@@ -1140,12 +1140,12 @@ aRv
 ;
 }
 void
-DOMMultipartFileImpl
+MultipartFileImpl
 :
 :
 InitializeChromeFile
 (
-DOMFile
+File
 &
 aBlob
 const
@@ -1257,7 +1257,7 @@ SetLengthAndModifiedDate
 ;
 }
 void
-DOMMultipartFileImpl
+MultipartFileImpl
 :
 :
 InitializeChromeFile
@@ -1443,11 +1443,11 @@ mName
 }
 nsRefPtr
 <
-DOMFile
+File
 >
 blob
 =
-DOMFile
+File
 :
 :
 CreateFromFile
@@ -1538,7 +1538,7 @@ AppendBlobImpl
 (
 static_cast
 <
-DOMFile
+File
 *
 >
 (
@@ -1569,7 +1569,7 @@ SetLengthAndModifiedDate
 ;
 }
 void
-DOMMultipartFileImpl
+MultipartFileImpl
 :
 :
 InitializeChromeFile
@@ -1808,7 +1808,7 @@ BlobSet
 :
 AppendBlobImpl
 (
-DOMFileImpl
+FileImpl
 *
 aBlobImpl
 )
@@ -1844,7 +1844,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 >
 &

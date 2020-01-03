@@ -93,7 +93,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 class
 FileCallback
@@ -379,7 +379,7 @@ aRv
 }
 already_AddRefed
 <
-DOMFile
+File
 >
 MozGetAsFile
 (

@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsDOMFile
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h
@@ -39,6 +32,17 @@ include
 mozilla
 /
 Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+File
 .
 h
 "
@@ -1404,7 +1408,7 @@ mozilla
 dom
 :
 :
-DOMFileImpl
+FileImpl
 >
 ArchiveZipFileImpl
 :
@@ -1426,7 +1430,7 @@ aRv
 {
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 impl
 =
@@ -1452,5 +1456,5 @@ forget
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 ArchiveZipFileImpl
-DOMFileImpl
+FileImpl
 )

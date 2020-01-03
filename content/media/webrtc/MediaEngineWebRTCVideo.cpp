@@ -4325,14 +4325,14 @@ nsRefPtr
 dom
 :
 :
-DOMFile
+File
 >
 blob
 =
 dom
 :
 :
-DOMFile
+File
 :
 :
 CreateMemoryFile
@@ -4381,7 +4381,7 @@ nsRefPtr
 dom
 :
 :
-DOMFile
+File
 >
 tempBlob
 =

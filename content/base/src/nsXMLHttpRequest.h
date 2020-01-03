@@ -210,9 +210,6 @@ class
 BlobSet
 ;
 class
-nsDOMFile
-;
-class
 nsFormData
 ;
 class
@@ -234,7 +231,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 }
 class
@@ -1243,7 +1240,7 @@ mozilla
 dom
 :
 :
-DOMFile
+File
 &
 aBlob
 )
@@ -1388,7 +1385,7 @@ mozilla
 dom
 :
 :
-DOMFile
+File
 *
 mBlob
 ;
@@ -1640,7 +1637,7 @@ mozilla
 dom
 :
 :
-DOMFile
+File
 &
 aBlob
 ErrorResult
@@ -2507,7 +2504,7 @@ mozilla
 dom
 :
 :
-DOMFile
+File
 >
 mResponseBlob
 ;
@@ -2519,7 +2516,7 @@ mozilla
 dom
 :
 :
-DOMFile
+File
 >
 mDOMFile
 ;

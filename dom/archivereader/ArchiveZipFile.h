@@ -16,7 +16,11 @@ h
 #
 include
 "
-nsDOMFile
+mozilla
+/
+dom
+/
+File
 .
 h
 "
@@ -46,7 +50,7 @@ class
 ArchiveZipFileImpl
 :
 public
-DOMFileImplBase
+FileImplBase
 {
 public
 :
@@ -71,7 +75,7 @@ ArchiveReader
 aReader
 )
 :
-DOMFileImplBase
+FileImplBase
 (
 aName
 aContentType
@@ -129,7 +133,7 @@ ArchiveReader
 aReader
 )
 :
-DOMFileImplBase
+FileImplBase
 (
 aContentType
 aStart
@@ -221,7 +225,7 @@ ArchiveZipFileImpl
 virtual
 already_AddRefed
 <
-DOMFileImpl
+FileImpl
 >
 CreateSlice
 (

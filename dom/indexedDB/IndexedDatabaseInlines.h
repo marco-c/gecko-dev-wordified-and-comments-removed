@@ -40,7 +40,11 @@ h
 #
 include
 "
-nsDOMFile
+mozilla
+/
+dom
+/
+File
 .
 h
 "

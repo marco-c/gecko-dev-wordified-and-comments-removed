@@ -58,7 +58,11 @@ h
 #
 include
 "
-nsDOMFile
+mozilla
+/
+dom
+/
+File
 .
 h
 "
@@ -4749,7 +4753,7 @@ IsBlob
 )
 )
 {
-DOMFile
+File
 &
 blob
 =

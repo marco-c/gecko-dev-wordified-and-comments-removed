@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsDOMFile
+mozilla
+/
+dom
+/
+File
 .
 h
 "
@@ -555,7 +559,7 @@ i
 ;
 nsRefPtr
 <
-DOMFileImpl
+FileImpl
 >
 blobImpl
 =
@@ -579,7 +583,7 @@ nsIDOMBlob
 blob
 =
 new
-DOMFile
+File
 (
 mParent
 blobImpl

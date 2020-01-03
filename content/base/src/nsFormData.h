@@ -78,7 +78,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 class
 HTMLFormElement
@@ -228,7 +228,7 @@ mozilla
 dom
 :
 :
-DOMFile
+File
 &
 aBlob
 const

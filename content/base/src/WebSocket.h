@@ -159,7 +159,7 @@ namespace
 dom
 {
 class
-DOMFile
+File
 ;
 class
 WebSocket
@@ -482,7 +482,7 @@ aRv
 void
 Send
 (
-DOMFile
+File
 &
 aData
 ErrorResult

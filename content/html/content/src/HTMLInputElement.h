@@ -163,7 +163,7 @@ class
 DirPickerFileListBuilderTask
 ;
 class
-DOMFile
+File
 ;
 class
 FileList
@@ -956,7 +956,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -977,7 +977,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 &
@@ -3415,7 +3415,7 @@ nsTArray
 <
 nsRefPtr
 <
-DOMFile
+File
 >
 >
 mFiles
