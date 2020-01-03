@@ -837,11 +837,7 @@ packetizationMode
 {
 mMaxPayloadSize
 =
-4
-*
-1024
-*
-1024
+0
 ;
 }
 nsTArray
