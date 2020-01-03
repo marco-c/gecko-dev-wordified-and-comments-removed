@@ -757,7 +757,7 @@ R
 .
 color
 .
-home_text_color_disabled
+tabs_tray_icon_grey
 ;
 deviceExpandedResId
 =
