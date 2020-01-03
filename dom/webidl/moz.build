@@ -375,6 +375,11 @@ CameraUtil
 webidl
 '
 '
+CanvasCaptureMediaStream
+.
+webidl
+'
+'
 CanvasRenderingContext2D
 .
 webidl

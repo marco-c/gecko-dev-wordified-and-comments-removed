@@ -919,6 +919,11 @@ AudioTrackList
 h
 '
 '
+CanvasCaptureMediaStream
+.
+h
+'
+'
 GetUserMediaRequest
 .
 h
@@ -1040,6 +1045,11 @@ cpp
 '
 '
 AudioTrackList
+.
+cpp
+'
+'
+CanvasCaptureMediaStream
 .
 cpp
 '
