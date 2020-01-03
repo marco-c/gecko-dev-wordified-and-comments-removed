@@ -223,6 +223,11 @@ AnimationEvent
 h
 '
 '
+BeforeAfterKeyboardEvent
+.
+h
+'
+'
 BeforeUnloadEvent
 .
 h
@@ -411,6 +416,11 @@ cpp
 '
 '
 AsyncEventDispatcher
+.
+cpp
+'
+'
+BeforeAfterKeyboardEvent
 .
 cpp
 '
