@@ -534,7 +534,12 @@ searchString
 "
 ContentSearchTest
 "
-whence
+healthReportKey
+:
+"
+ContentSearchTest
+"
+searchPurpose
 :
 "
 ContentSearchTest
@@ -634,7 +639,12 @@ searchString
 "
 ContentSearchTest
 "
-whence
+healthReportKey
+:
+"
+ContentSearchTest
+"
+searchPurpose
 :
 "
 ContentSearchTest
