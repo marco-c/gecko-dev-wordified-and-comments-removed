@@ -211,9 +211,6 @@ define
 fetchRoomEmailLink
 "
 {
-roomOwner
-:
-String
 roomName
 :
 String
@@ -614,9 +611,6 @@ createRoom
 "
 {
 nameTemplate
-:
-String
-roomOwner
 :
 String
 }

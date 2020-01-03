@@ -5183,9 +5183,6 @@ nameTemplate
 Fake
 title
 "
-roomOwner
-:
-fakeEmail
 }
 )
 )
@@ -5374,9 +5371,6 @@ nameTemplate
 Fake
 title
 "
-roomOwner
-:
-fakeEmail
 urls
 :
 [

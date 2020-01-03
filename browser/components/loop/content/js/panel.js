@@ -4333,13 +4333,6 @@ get
 rooms_default_room_name_template
 "
 )
-roomOwner
-:
-this
-.
-props
-.
-userDisplayName
 }
 )
 ;

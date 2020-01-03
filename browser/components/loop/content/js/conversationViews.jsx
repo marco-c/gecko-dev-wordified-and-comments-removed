@@ -3093,15 +3093,6 @@ sharedActions
 FetchRoomEmailLink
 (
 {
-roomOwner
-:
-navigator
-.
-mozLoop
-.
-userProfile
-.
-email
 roomName
 :
 _getContactDisplayName
