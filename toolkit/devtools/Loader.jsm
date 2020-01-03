@@ -1417,7 +1417,6 @@ Path
 join
 (
 toolkitDir
-)
 "
 pretty
 -
@@ -1425,6 +1424,7 @@ fast
 .
 js
 "
+)
 )
 ;
 let
@@ -1466,7 +1466,6 @@ Path
 join
 (
 toolkitDir
-)
 "
 async
 -
@@ -1474,6 +1473,7 @@ utils
 .
 js
 "
+)
 )
 ;
 let
