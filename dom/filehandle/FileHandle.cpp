@@ -2264,7 +2264,7 @@ target
 service
 -
 >
-StreamTransportTarget
+ThreadPoolTarget
 (
 )
 ;
@@ -2942,7 +2942,7 @@ target
 service
 -
 >
-StreamTransportTarget
+ThreadPoolTarget
 (
 )
 ;
@@ -3304,7 +3304,7 @@ target
 service
 -
 >
-StreamTransportTarget
+ThreadPoolTarget
 (
 )
 ;

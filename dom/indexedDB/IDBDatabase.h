@@ -520,6 +520,16 @@ IDBMutableFile
 aMutableFile
 )
 ;
+void
+OnNewFileHandle
+(
+)
+;
+void
+OnFileHandleFinished
+(
+)
+;
 nsPIDOMWindow
 *
 GetParentObject
