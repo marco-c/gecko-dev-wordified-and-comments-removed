@@ -195,7 +195,6 @@ mIccManager
 GetOwner
 (
 )
-mClientId
 mHandler
 iccInfo
 )
@@ -476,7 +475,6 @@ mIccManager
 GetOwner
 (
 )
-mClientId
 mHandler
 iccInfo
 )

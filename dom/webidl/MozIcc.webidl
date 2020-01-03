@@ -1908,7 +1908,7 @@ updateContact
 (
 IccContactType
 contactType
-any
+mozContact
 contact
 optional
 DOMString
