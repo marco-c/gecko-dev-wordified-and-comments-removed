@@ -2259,11 +2259,10 @@ addEventListener
 "
 unload
 "
+function
 (
 event
 )
-=
->
 {
 navigator
 .

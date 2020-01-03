@@ -1161,11 +1161,7 @@ mockConversationModel
 video
 =
 {
-{
-enabled
-:
 true
-}
 }
 /
 >
@@ -1226,11 +1222,7 @@ mockConversationModel
 video
 =
 {
-{
-enabled
-:
 false
-}
 }
 /
 >
@@ -1305,11 +1297,7 @@ true
 video
 =
 {
-{
-enabled
-:
 true
-}
 }
 /
 >
