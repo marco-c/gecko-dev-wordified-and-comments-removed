@@ -82,6 +82,15 @@ static
 bool
 IsHeader
 (
+nsINode
+&
+aNode
+)
+;
+static
+bool
+IsHeader
+(
 nsIDOMNode
 *
 aNode
