@@ -587,13 +587,6 @@ enable
 -
 framerate
 "
-"
-devtools
-.
-performance_dev
-.
-enabled
-"
 ]
 .
 reduce
@@ -636,7 +629,7 @@ setBoolPref
 "
 devtools
 .
-performance_dev
+performance
 .
 enabled
 "
