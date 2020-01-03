@@ -1702,6 +1702,16 @@ startVerifyPostBarriers
 {
 if
 (
+!
+JS
+:
+:
+IsGenerationalGCEnabled
+(
+rt
+)
+|
+|
 verifyPostData
 |
 |
