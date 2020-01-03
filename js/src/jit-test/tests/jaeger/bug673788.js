@@ -12,13 +12,6 @@ function
 )
 {
 }
-set
-:
-function
-(
-)
-{
-}
 }
 )
 Object

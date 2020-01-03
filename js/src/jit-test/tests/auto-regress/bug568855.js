@@ -16,13 +16,6 @@ function
 return
 false
 }
-set
-:
-function
-(
-)
-{
-}
 }
 )
 ;
