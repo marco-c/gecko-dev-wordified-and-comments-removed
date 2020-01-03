@@ -20,6 +20,9 @@ Attributes
 .
 h
 "
+class
+nsIHttpActivityObserver
+;
 namespace
 mozilla
 {
@@ -166,6 +169,12 @@ nsRefPtr
 nsHttpConnectionInfo
 >
 mConnectionInfo
+;
+nsCOMPtr
+<
+nsIHttpActivityObserver
+>
+mActivityDistributor
 ;
 }
 ;
