@@ -90,5 +90,10 @@ _
 (
 UDivOrMod
 )
+\
+_
+(
+UDivOrModConstant
+)
 #
 endif

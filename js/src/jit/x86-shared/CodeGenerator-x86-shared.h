@@ -1420,6 +1420,15 @@ ins
 ;
 virtual
 void
+visitUDivOrModConstant
+(
+LUDivOrModConstant
+*
+ins
+)
+;
+virtual
+void
 visitAsmJSPassStackArg
 (
 LAsmJSPassStackArg

@@ -26784,6 +26784,12 @@ canBeNegativeDividend
 )
 const
 {
+MOZ_ASSERT
+(
+!
+unsigned_
+)
+;
 return
 canBeNegativeDividend_
 ;
@@ -27157,6 +27163,12 @@ specialization_
 =
 =
 MIRType_Int32
+)
+;
+MOZ_ASSERT
+(
+!
+unsigned_
 )
 ;
 return
