@@ -170,10 +170,9 @@ pinnedSites
 .
 forEach
 (
-function
-(
 aSite
-)
+=
+>
 aSite
 .
 pin
@@ -185,7 +184,6 @@ indexOf
 aSite
 )
 )
-this
 )
 ;
 }

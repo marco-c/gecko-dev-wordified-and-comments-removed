@@ -80,9 +80,13 @@ get
 node
 (
 )
+{
+return
 this
 .
 _node
+;
+}
 get
 index
 (
