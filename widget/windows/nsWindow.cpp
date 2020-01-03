@@ -26546,7 +26546,7 @@ D3D_FEATURE_LEVEL_10_0
 &
 &
 !
-DoesD3D11DeviceSupportResourceSharing
+DoesD3D11DeviceWork
 (
 device
 )
@@ -26566,13 +26566,6 @@ of
 a
 driver
 bug
-"
-"
-causing
-resource
-sharing
-to
-fail
 "
 )
 ;
