@@ -573,11 +573,11 @@ do_check_true
 (
 gServiceWorkerManager
 .
-softUpdate
+propagateSoftUpdate
 "
 SWM
 .
-softUpdate
+propagateSoftUpdate
 exists
 "
 )
@@ -587,7 +587,7 @@ do_check_true
 typeof
 gServiceWorkerManager
 .
-softUpdate
+propagateSoftUpdate
 =
 =
 "
@@ -596,7 +596,7 @@ function
 "
 SWM
 .
-softUpdate
+propagateSoftUpdate
 is
 a
 function
@@ -607,11 +607,11 @@ do_check_true
 (
 gServiceWorkerManager
 .
-unregister
+propagateUnregister
 "
 SWM
 .
-unregister
+propagateUnregister
 exists
 "
 )
@@ -621,7 +621,7 @@ do_check_true
 typeof
 gServiceWorkerManager
 .
-unregister
+propagateUnregister
 =
 =
 "
@@ -630,7 +630,7 @@ function
 "
 SWM
 .
-unregister
+propagateUnregister
 exists
 "
 )
