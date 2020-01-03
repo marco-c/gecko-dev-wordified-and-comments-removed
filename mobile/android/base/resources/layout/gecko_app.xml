@@ -734,9 +734,9 @@ mozilla
 .
 gecko
 .
-toolbar
+widget
 .
-ActionBarViewFlipper
+GeckoViewFlipper
 android
 :
 id
@@ -893,9 +893,9 @@ mozilla
 .
 gecko
 .
-toolbar
+widget
 .
-ActionBarViewFlipper
+GeckoViewFlipper
 >
 <
 /
