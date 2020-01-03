@@ -4485,11 +4485,6 @@ mContentDocumentIsDisplayed
 =
 true
 ;
-SetCSSViewport
-(
-kDefaultViewportSize
-)
-;
 if
 (
 HasValidInnerSize
