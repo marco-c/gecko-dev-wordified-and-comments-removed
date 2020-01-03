@@ -55,8 +55,6 @@ virtual
 ContainerParser
 (
 )
-=
-default
 ;
 virtual
 bool
