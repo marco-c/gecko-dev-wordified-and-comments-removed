@@ -575,12 +575,6 @@ Delete
 FontFace
 &
 aFontFace
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 bool

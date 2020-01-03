@@ -308,9 +308,6 @@ FontFace
 font
 )
 ;
-[
-Throws
-]
 boolean
 delete
 (
