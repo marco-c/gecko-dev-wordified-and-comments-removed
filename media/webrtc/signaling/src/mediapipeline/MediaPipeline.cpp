@@ -6755,6 +6755,10 @@ track_id_
 track_rate_
 current_ticks
 segment_
+.
+forget
+(
+)
 )
 ;
 mStream
@@ -6787,8 +6791,10 @@ track_id_
 TrackRate
 track_rate_
 ;
+nsAutoPtr
+<
 MediaSegment
-*
+>
 segment_
 ;
 nsRefPtr

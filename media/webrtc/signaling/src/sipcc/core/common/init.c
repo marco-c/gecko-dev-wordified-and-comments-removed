@@ -1318,6 +1318,15 @@ good
 fname
 )
 ;
+cpr_free
+(
+msg
+)
+;
+msg
+=
+NULL
+;
 }
 break
 ;

@@ -580,6 +580,9 @@ addStunServer
 server
 )
 ;
+delete
+server
+;
 return
 true
 ;
@@ -670,6 +673,9 @@ addTurnServer
 *
 server
 )
+;
+delete
+server
 ;
 return
 true

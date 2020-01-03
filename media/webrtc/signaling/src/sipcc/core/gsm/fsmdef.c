@@ -15596,7 +15596,7 @@ PC_NO_ERROR
 NULL
 )
 ;
-free
+cpr_free
 (
 remote_sdp
 )
@@ -16089,6 +16089,11 @@ msg
 timecard
 PC_NO_ERROR
 NULL
+)
+;
+cpr_free
+(
+local_sdp
 )
 ;
 return
@@ -34602,6 +34607,11 @@ FSMDEF_MAX_DCBS
 )
 {
 gsmsdp_clean_media_list
+(
+dcb
+)
+;
+gsmsdp_free
 (
 dcb
 )

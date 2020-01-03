@@ -579,6 +579,9 @@ MediaSegment
 aSegment
 )
 {
+delete
+aSegment
+;
 }
 void
 EndTrack
