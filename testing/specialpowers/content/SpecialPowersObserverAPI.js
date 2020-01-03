@@ -66,10 +66,6 @@ Components
 classes
 ;
 }
-this
-.
-SpecialPowersException
-=
 function
 SpecialPowersException
 (
@@ -94,12 +90,10 @@ SpecialPowersException
 SpecialPowersException
 .
 prototype
-=
-{
+.
 toString
-:
+=
 function
-SPE_toString
 (
 )
 {
@@ -121,7 +115,6 @@ message
 "
 '
 ;
-}
 }
 ;
 this
