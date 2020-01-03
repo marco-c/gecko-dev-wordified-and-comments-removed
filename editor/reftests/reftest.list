@@ -1366,6 +1366,13 @@ html
 needs
 -
 focus
+pref
+(
+touchcaret
+.
+enabled
+false
+)
 =
 =
 caret_on_focus
