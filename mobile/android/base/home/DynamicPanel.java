@@ -1297,8 +1297,11 @@ null
 private
 class
 PanelLoaderCallbacks
-extends
-TransitionAwareCursorLoaderCallbacks
+implements
+LoaderCallbacks
+<
+Cursor
+>
 {
 Override
 public
@@ -1358,7 +1361,7 @@ request
 Override
 public
 void
-onLoadFinishedAfterTransitions
+onLoadFinished
 (
 Loader
 <
@@ -1424,13 +1427,6 @@ Cursor
 loader
 )
 {
-super
-.
-onLoaderReset
-(
-loader
-)
-;
 final
 DatasetRequest
 request

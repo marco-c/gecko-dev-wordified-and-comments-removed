@@ -2190,8 +2190,11 @@ c
 private
 class
 CursorLoaderCallbacks
-extends
-TransitionAwareCursorLoaderCallbacks
+implements
+LoaderCallbacks
+<
+Cursor
+>
 {
 Override
 public
@@ -2221,7 +2224,7 @@ mClosedTabs
 Override
 public
 void
-onLoadFinishedAfterTransitions
+onLoadFinished
 (
 Loader
 <
@@ -2257,13 +2260,6 @@ Cursor
 loader
 )
 {
-super
-.
-onLoaderReset
-(
-loader
-)
-;
 mAdapter
 .
 swapCursor
