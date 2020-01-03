@@ -8176,10 +8176,6 @@ on
 the
 tab
 .
-promptBox
-.
-removePrompt
-(
 prompts
 [
 prompts
@@ -8188,6 +8184,9 @@ length
 -
 1
 ]
+.
+abortPrompt
+(
 )
 ;
 }
