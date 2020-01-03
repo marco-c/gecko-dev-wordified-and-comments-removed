@@ -25,7 +25,7 @@ with
 a
 strict
 mode
-error
+warning
 <
 /
 title
@@ -161,7 +161,7 @@ serviceWorker
 register
 (
 "
-strict_mode_error
+strict_mode_warning
 .
 js
 "
@@ -169,12 +169,12 @@ js
 scope
 :
 "
-strict_mode_error
+strict_mode_warning
 "
 }
 )
 .
-catch
+then
 (
 (
 )
@@ -186,9 +186,11 @@ ok
 true
 "
 Registration
-failed
-as
-expected
+should
+not
+fail
+for
+warnings
 "
 )
 ;

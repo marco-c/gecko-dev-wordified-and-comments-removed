@@ -12415,6 +12415,15 @@ MOZ_ASSERT
 aPrincipal
 )
 ;
+MOZ_ASSERT
+(
+!
+JSREPORT_IS_WARNING
+(
+aFlags
+)
+)
+;
 nsAutoCString
 scopeKey
 ;
