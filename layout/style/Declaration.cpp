@@ -1842,10 +1842,10 @@ case
 eCSSProperty_border_left
 :
 case
-eCSSProperty_border_start
+eCSSProperty_border_inline_start
 :
 case
-eCSSProperty_border_end
+eCSSProperty_border_inline_end
 :
 case
 eCSSProperty_border_block_start
