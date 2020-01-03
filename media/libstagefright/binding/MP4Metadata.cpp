@@ -340,6 +340,10 @@ aIndex
 size
 (
 )
+mozilla
+:
+:
+fallible
 )
 )
 {
@@ -440,6 +444,10 @@ aDest
 AppendElement
 (
 indice
+mozilla
+:
+:
+fallible
 )
 )
 ;

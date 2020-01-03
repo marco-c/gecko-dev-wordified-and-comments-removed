@@ -799,6 +799,7 @@ Value
 SetCapacity
 (
 length
+fallible
 )
 )
 {
@@ -859,6 +860,7 @@ Value
 .
 AppendElement
 (
+fallible
 )
 =
 tech
@@ -966,6 +968,7 @@ Value
 SetCapacity
 (
 length
+fallible
 )
 )
 {
@@ -1015,6 +1018,7 @@ Value
 .
 AppendElement
 (
+fallible
 )
 ;
 record

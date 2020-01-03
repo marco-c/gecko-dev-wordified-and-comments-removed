@@ -1245,6 +1245,7 @@ aIndex
 Length
 (
 )
+fallible
 )
 )
 {
@@ -1330,6 +1331,7 @@ mIndex
 AppendElement
 (
 sample
+fallible
 )
 )
 ;

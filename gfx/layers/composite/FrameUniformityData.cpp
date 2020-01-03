@@ -739,10 +739,14 @@ iter
 >
 second
 ;
+MOZ_ALWAYS_TRUE
+(
 layers
 .
 AppendElement
 (
+fallible
+)
 )
 ;
 dom

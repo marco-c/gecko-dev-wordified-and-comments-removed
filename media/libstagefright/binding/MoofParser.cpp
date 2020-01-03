@@ -2966,6 +2966,7 @@ mIndex
 SetCapacity
 (
 sampleCount
+fallible
 )
 )
 {
@@ -3219,6 +3220,7 @@ mIndex
 AppendElement
 (
 sample
+fallible
 )
 )
 ;

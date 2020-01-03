@@ -2331,6 +2331,7 @@ aBuffer
 SetLength
 (
 len
+fallible
 )
 )
 {
