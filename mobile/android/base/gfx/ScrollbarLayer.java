@@ -270,7 +270,7 @@ vertical
 super
 (
 new
-BufferedCairoImage
+BufferedImage
 (
 scrollbarImage
 )
