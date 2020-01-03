@@ -1749,6 +1749,11 @@ IsFocused
 (
 )
 ;
+bool
+IsOrWouldBeFocused
+(
+)
+;
 static
 CFArrayRef
 CreateAllIMEModeList
