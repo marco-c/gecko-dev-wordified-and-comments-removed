@@ -1064,16 +1064,6 @@ CompositorVsyncObserver
 {
 MOZ_ASSERT
 (
-CompositorParent
-:
-:
-IsInCompositorThread
-(
-)
-)
-;
-MOZ_ASSERT
-(
 !
 mIsObservingVsync
 )
