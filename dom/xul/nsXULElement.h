@@ -3038,6 +3038,14 @@ aState
 )
 ;
 void
+UpdateBrightTitlebarForeground
+(
+nsIDocument
+*
+aDocument
+)
+;
+void
 RemoveBroadcaster
 (
 const
