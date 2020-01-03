@@ -145,6 +145,8 @@ null
 *
 For
 ConsoleTime
+and
+Javascript
 markers
 .
 *
@@ -152,6 +154,14 @@ markers
 DOMString
 causeName
 ;
+/
+*
+For
+ConsoleTime
+markers
+.
+*
+/
 object
 ?
 endStack
