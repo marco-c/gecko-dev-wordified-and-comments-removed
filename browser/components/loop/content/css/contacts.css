@@ -647,7 +647,7 @@ color
 fff
 ;
 }
-body
+html
 [
 dir
 =
@@ -949,7 +949,7 @@ left
 auto
 ;
 }
-body
+html
 [
 dir
 =
@@ -1040,7 +1040,7 @@ top
 3px
 ;
 }
-body
+html
 [
 dir
 =
@@ -1443,11 +1443,13 @@ break
 word
 ;
 }
-body
+html
 [
 dir
 =
+"
 rtl
+"
 ]
 .
 contacts
@@ -1539,11 +1541,13 @@ right
 8px
 ;
 }
-body
+html
 [
 dir
 =
+"
 rtl
+"
 ]
 .
 contacts
