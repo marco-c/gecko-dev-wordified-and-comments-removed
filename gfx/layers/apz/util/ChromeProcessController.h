@@ -310,12 +310,6 @@ InitializeRoot
 (
 )
 ;
-float
-GetPresShellResolution
-(
-)
-const
-;
 nsIPresShell
 *
 GetPresShell

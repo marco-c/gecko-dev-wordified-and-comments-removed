@@ -4149,9 +4149,6 @@ aGuid
 GetDefaultScale
 (
 )
-1
-.
-0f
 )
 ;
 }

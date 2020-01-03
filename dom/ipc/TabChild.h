@@ -2604,12 +2604,6 @@ HasValidInnerSize
 (
 )
 ;
-float
-GetPresShellResolution
-(
-)
-const
-;
 void
 SetTabId
 (

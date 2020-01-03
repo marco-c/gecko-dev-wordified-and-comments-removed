@@ -184,8 +184,6 @@ const
 ScrollableLayerGuid
 &
 aGuid
-float
-aPresShellResolution
 )
 ;
 void
@@ -210,8 +208,6 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
-float
-aPresShellResolution
 )
 ;
 void

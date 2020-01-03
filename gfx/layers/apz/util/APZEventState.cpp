@@ -645,8 +645,6 @@ const
 ScrollableLayerGuid
 &
 aGuid
-float
-aPresShellResolution
 )
 {
 APZES_LOG
@@ -723,7 +721,6 @@ ApplyCallbackTransform
 (
 aPoint
 aGuid
-aPresShellResolution
 )
 *
 widget
@@ -859,8 +856,6 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
-float
-aPresShellResolution
 )
 {
 APZES_LOG
@@ -932,7 +927,6 @@ ApplyCallbackTransform
 (
 aPoint
 aGuid
-aPresShellResolution
 )
 2
 1
@@ -978,7 +972,6 @@ ApplyCallbackTransform
 (
 aPoint
 aGuid
-aPresShellResolution
 )
 *
 widget
