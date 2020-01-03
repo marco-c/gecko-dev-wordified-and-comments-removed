@@ -346,6 +346,10 @@ LOCAL_INCLUDES
 '
 /
 security
+/
+sandbox
+/
+chromium
 '
 '
 /
@@ -354,6 +358,8 @@ security
 sandbox
 /
 chromium
+-
+shim
 '
 ]
 USE_LIBS

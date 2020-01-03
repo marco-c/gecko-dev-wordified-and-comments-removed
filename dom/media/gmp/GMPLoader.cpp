@@ -59,15 +59,6 @@ include
 "
 mozilla
 /
-sandboxTarget
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Scoped
 .
 h
