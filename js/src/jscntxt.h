@@ -1547,6 +1547,11 @@ isThrowingOutOfMemory
 (
 )
 ;
+bool
+isClosingGenerator
+(
+)
+;
 void
 setPendingException
 (
