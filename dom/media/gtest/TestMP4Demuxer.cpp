@@ -66,7 +66,7 @@ resource
 Monitor
 mMonitor
 ;
-nsAutoPtr
+nsRefPtr
 <
 MP4Demuxer
 >
