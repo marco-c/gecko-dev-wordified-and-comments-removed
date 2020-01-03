@@ -703,9 +703,6 @@ prefName
 ;
 return
 (
-float
-)
-(
 value
 =
 =
@@ -3469,14 +3466,8 @@ float
 )
 mPixelArea
 *
-(
-float
-)
 millis
 /
-(
-float
-)
 pixels
 ;
 int

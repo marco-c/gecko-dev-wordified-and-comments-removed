@@ -367,9 +367,6 @@ putLong
 SyncConfiguration
 .
 PREF_NUM_CLIENTS
-(
-long
-)
 clientsCount
 )
 .

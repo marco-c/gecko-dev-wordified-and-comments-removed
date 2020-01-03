@@ -424,9 +424,6 @@ width
 fadeWidth
 )
 /
-(
-float
-)
 width
 )
 1

@@ -1098,9 +1098,6 @@ decimal
 {
 return
 (
-long
-)
-(
 decimal
 *
 1000

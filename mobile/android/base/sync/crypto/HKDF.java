@@ -236,9 +236,6 @@ len
 )
 /
 (
-(
-double
-)
 BLOCKSIZE
 )
 )

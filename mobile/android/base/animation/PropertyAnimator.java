@@ -249,9 +249,6 @@ mDurationReciprocal
 .
 0f
 /
-(
-float
-)
 mDuration
 ;
 mInterpolator

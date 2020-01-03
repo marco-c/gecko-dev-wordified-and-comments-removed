@@ -708,9 +708,6 @@ GamepadUtils
 .
 overrideDeadZoneThreshold
 (
-(
-float
-)
 value
 /
 1000f
@@ -2998,9 +2995,6 @@ time
 float
 timeDelta
 =
-(
-float
-)
 (
 time
 -

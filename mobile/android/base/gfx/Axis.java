@@ -235,9 +235,6 @@ prefName
 ;
 return
 (
-float
-)
-(
 value
 =
 =

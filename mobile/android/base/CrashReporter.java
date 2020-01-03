@@ -1763,9 +1763,6 @@ r0
 int
 )
 (
-(
-double
-)
 Integer
 .
 MAX_VALUE
@@ -1784,9 +1781,6 @@ r1
 int
 )
 (
-(
-double
-)
 Integer
 .
 MAX_VALUE

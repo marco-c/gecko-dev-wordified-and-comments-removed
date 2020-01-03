@@ -480,9 +480,6 @@ sLastLevelChange
 double
 current
 =
-(
-double
-)
 intent
 .
 getIntExtra
@@ -497,9 +494,6 @@ EXTRA_LEVEL
 double
 max
 =
-(
-double
-)
 intent
 .
 getIntExtra
