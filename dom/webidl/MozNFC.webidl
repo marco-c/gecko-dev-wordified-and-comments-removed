@@ -425,6 +425,7 @@ AvailableIn
 "
 PrivilegedApps
 "
+UnsafeInPrerendering
 ]
 interface
 MozNFC

@@ -554,6 +554,7 @@ Navigator
 :
 HasWifiManagerSupport
 "
+UnsafeInPrerendering
 ]
 interface
 MozWifiManager

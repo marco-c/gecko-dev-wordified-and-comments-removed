@@ -1418,6 +1418,7 @@ CheckPermissions
 "
 power
 "
+UnsafeInPrerendering
 ]
 readonly
 attribute
@@ -1776,6 +1777,7 @@ Navigator
 :
 HasWakeLockSupport
 "
+UnsafeInPrerendering
 ]
 MozWakeLock
 requestWakeLock
@@ -2367,6 +2369,7 @@ CheckPermissions
 "
 time
 "
+UnsafeInPrerendering
 ]
 readonly
 attribute
