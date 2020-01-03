@@ -5987,12 +5987,6 @@ abortSlices
 =
 true
 ;
-slices
-.
-clear
-(
-)
-;
 return
 ;
 }
