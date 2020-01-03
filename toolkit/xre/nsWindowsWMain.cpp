@@ -36,12 +36,6 @@ endif
 if
 defined
 (
-MOZ_METRO
-)
-|
-|
-defined
-(
 __GNUC__
 )
 #

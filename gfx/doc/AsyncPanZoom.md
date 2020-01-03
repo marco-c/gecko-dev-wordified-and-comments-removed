@@ -3932,8 +3932,6 @@ of
 things
 on
 B2G
-and
-Metro
 .
 Using
 the

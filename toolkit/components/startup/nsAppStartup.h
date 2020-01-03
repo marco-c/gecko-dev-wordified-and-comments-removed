@@ -178,9 +178,6 @@ bool
 mStartupCrashTrackingEnded
 ;
 bool
-mRestartTouchEnvironment
-;
-bool
 mRestartNotSameProfile
 ;
 #

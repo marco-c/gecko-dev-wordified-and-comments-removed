@@ -5007,16 +5007,6 @@ prefs
 .
 setBoolPref
 (
-PREF_APP_UPDATE_METRO_ENABLED
-true
-)
-;
-Services
-.
-prefs
-.
-setBoolPref
-(
 PREF_APP_UPDATE_SHOW_INSTALLED_UI
 false
 )

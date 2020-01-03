@@ -156,14 +156,6 @@ page
 -
 button
 #
-switch
--
-to
--
-metro
--
-button
-#
 add
 -
 ons

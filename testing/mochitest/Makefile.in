@@ -330,16 +330,6 @@ screenshot
 (
 BIN_SUFFIX
 )
-ifdef
-MOZ_METRO
-TEST_HARNESS_BINS
-+
-=
-metrotestharness
-(
-BIN_SUFFIX
-)
-endif
 endif
 ifdef
 MOZ_DMD

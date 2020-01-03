@@ -566,7 +566,6 @@ kSupportedFeatureLevels
 {
 D3D10_FEATURE_LEVEL_10_1
 D3D10_FEATURE_LEVEL_10_0
-D3D10_FEATURE_LEVEL_9_3
 }
 ;
 class
@@ -3069,19 +3068,6 @@ ArrayLength
 kSupportedFeatureLevels
 )
 ;
-if
-(
-!
-IsRunningInWindowsMetro
-(
-)
-)
-{
-supportedFeatureLevelsCount
--
--
-;
-}
 nsRefPtr
 <
 IDXGIAdapter1
