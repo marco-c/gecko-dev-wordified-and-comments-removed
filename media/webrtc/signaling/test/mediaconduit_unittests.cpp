@@ -2422,6 +2422,8 @@ gMainThread
 WrapRunnableNMRet
 (
 &
+mAudioSession
+&
 mozilla
 :
 :
@@ -2429,8 +2431,6 @@ AudioSessionConduit
 :
 :
 Create
-&
-mAudioSession
 )
 )
 ;
@@ -2461,6 +2461,8 @@ gMainThread
 WrapRunnableNMRet
 (
 &
+mAudioSession2
+&
 mozilla
 :
 :
@@ -2468,8 +2470,6 @@ AudioSessionConduit
 :
 :
 Create
-&
-mAudioSession2
 )
 )
 ;
@@ -3064,6 +3064,8 @@ gMainThread
 WrapRunnableNMRet
 (
 &
+mVideoSession
+&
 mozilla
 :
 :
@@ -3071,8 +3073,6 @@ VideoSessionConduit
 :
 :
 Create
-&
-mVideoSession
 )
 )
 ;
@@ -3103,6 +3103,8 @@ gMainThread
 WrapRunnableNMRet
 (
 &
+mVideoSession2
+&
 mozilla
 :
 :
@@ -3110,8 +3112,6 @@ VideoSessionConduit
 :
 :
 Create
-&
-mVideoSession2
 )
 )
 ;
@@ -3825,6 +3825,8 @@ gMainThread
 WrapRunnableNMRet
 (
 &
+videoSession
+&
 mozilla
 :
 :
@@ -3832,8 +3834,6 @@ VideoSessionConduit
 :
 :
 Create
-&
-videoSession
 )
 )
 ;
@@ -5386,6 +5386,8 @@ gMainThread
 WrapRunnableNMRet
 (
 &
+mVideoSession
+&
 mozilla
 :
 :
@@ -5393,8 +5395,6 @@ VideoSessionConduit
 :
 :
 Create
-&
-mVideoSession
 )
 )
 ;
@@ -6602,11 +6602,11 @@ mozilla
 :
 WrapRunnableNMRet
 (
+&
+result
 gtest_main
 argc
 argv
-&
-result
 )
 NS_DISPATCH_NORMAL
 )

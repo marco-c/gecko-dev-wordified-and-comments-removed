@@ -2168,14 +2168,14 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+res
 ice_ctx_
 &
 NrIceCtx
 :
 :
 StartGathering
-&
-res
 )
 NS_DISPATCH_SYNC
 )
@@ -2379,6 +2379,8 @@ sts_target
 )
 WrapRunnableRet
 (
+&
+v
 this
 &
 IceTestPeer
@@ -2386,8 +2388,6 @@ IceTestPeer
 :
 GetCandidates_s
 stream
-&
-v
 )
 )
 ;
@@ -2738,6 +2738,8 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+result
 this
 &
 IceTestPeer
@@ -2745,8 +2747,6 @@ IceTestPeer
 :
 is_ready_s
 stream
-&
-result
 )
 NS_DISPATCH_SYNC
 )
@@ -4080,14 +4080,14 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+res
 ice_ctx_
 &
 NrIceCtx
 :
 :
 StartChecks
-&
-res
 )
 NS_DISPATCH_SYNC
 )
@@ -4615,6 +4615,8 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+v
 this
 &
 IceTestPeer
@@ -4623,8 +4625,6 @@ IceTestPeer
 GetCandidatePairs_s
 stream_index
 pairs
-&
-v
 )
 NS_DISPATCH_SYNC
 )
@@ -6076,6 +6076,8 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+res
 ice_ctx_
 &
 NrIceCtx
@@ -6083,8 +6085,6 @@ NrIceCtx
 :
 SetControlling
 controlling
-&
-res
 )
 NS_DISPATCH_SYNC
 )

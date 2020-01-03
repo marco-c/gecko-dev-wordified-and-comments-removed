@@ -2917,6 +2917,8 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+res
 flow_
 &
 TransportFlow
@@ -2924,8 +2926,6 @@ TransportFlow
 :
 PushLayers
 layers
-&
-res
 )
 NS_DISPATCH_SYNC
 )
@@ -2981,14 +2981,14 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+res
 ice_ctx_
 &
 NrIceCtx
 :
 :
 StartGathering
-&
-res
 )
 NS_DISPATCH_SYNC
 )
@@ -3142,6 +3142,8 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+res
 peer_
 -
 >
@@ -3157,8 +3159,6 @@ ice_ctx_
 GetGlobalAttributes
 (
 )
-&
-res
 )
 NS_DISPATCH_SYNC
 )
@@ -3203,6 +3203,8 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+res
 peer_
 -
 >
@@ -3227,8 +3229,6 @@ name
 (
 )
 ]
-&
-res
 )
 NS_DISPATCH_SYNC
 )
@@ -3254,6 +3254,8 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+res
 peer_
 -
 >
@@ -3263,8 +3265,6 @@ NrIceCtx
 :
 :
 StartChecks
-&
-res
 )
 NS_DISPATCH_SYNC
 )
@@ -3305,6 +3305,8 @@ Dispatch
 (
 WrapRunnableRet
 (
+&
+ret
 flow_
 &
 TransportFlow
@@ -3313,8 +3315,6 @@ TransportFlow
 SendPacket
 data
 len
-&
-ret
 )
 NS_DISPATCH_SYNC
 )
@@ -3545,14 +3545,14 @@ sts_target
 )
 WrapRunnableRet
 (
+&
+tstate
 flow_
 &
 TransportFlow
 :
 :
 state
-&
-tstate
 )
 )
 ;
@@ -3625,6 +3625,8 @@ sts_target
 )
 WrapRunnableRet
 (
+&
+rv
 dtls_
 &
 TransportLayerDtls
@@ -3633,8 +3635,6 @@ TransportLayerDtls
 GetCipherSuite
 &
 cipher
-&
-rv
 )
 )
 ;
@@ -3676,6 +3676,8 @@ sts_target
 )
 WrapRunnableRet
 (
+&
+rv
 dtls_
 &
 TransportLayerDtls
@@ -3684,8 +3686,6 @@ TransportLayerDtls
 GetSrtpCipher
 &
 cipher
-&
-rv
 )
 )
 ;

@@ -609,11 +609,11 @@ mozilla
 WrapRunnableNMRet
 (
 &
+rv
+&
 GetInterfaces
 &
 interfaces
-&
-rv
 )
 false
 )

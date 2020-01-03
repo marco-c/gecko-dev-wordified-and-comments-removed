@@ -1284,6 +1284,8 @@ DispatchToThread
 mGMPThread
 WrapRunnableRet
 (
+&
+ret
 this
 &
 WebrtcGmpVideoEncoder
@@ -1294,8 +1296,6 @@ Encode_g
 aInputImage
 aCodecSpecificInfo
 aFrameTypes
-&
-ret
 )
 )
 ;
@@ -1946,6 +1946,8 @@ DispatchToThread
 mGMPThread
 WrapRunnableRet
 (
+&
+ret
 this
 &
 WebrtcGmpVideoEncoder
@@ -1954,8 +1956,6 @@ WebrtcGmpVideoEncoder
 SetRates_g
 aNewBitRate
 aFrameRate
-&
-ret
 )
 )
 ;
@@ -3174,6 +3174,8 @@ DispatchToThread
 mGMPThread
 WrapRunnableRet
 (
+&
+ret
 this
 &
 WebrtcGmpVideoDecoder
@@ -3185,8 +3187,6 @@ aMissingFrames
 aFragmentation
 aCodecSpecificInfo
 aRenderTimeMs
-&
-ret
 )
 )
 ;
