@@ -3110,6 +3110,10 @@ dbg
 (
 nullptr
 )
+firstAdded
+(
+nullptr
+)
 {
 struct
 AuxVector
