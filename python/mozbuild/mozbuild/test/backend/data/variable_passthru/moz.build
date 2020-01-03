@@ -66,6 +66,11 @@ bar
 js
 '
 '
+dummy
+.
+manifest
+'
+'
 foo
 .
 js
