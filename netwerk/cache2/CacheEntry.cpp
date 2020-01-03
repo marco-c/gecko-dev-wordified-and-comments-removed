@@ -1625,10 +1625,6 @@ if
 directLoad
 )
 {
-mFileStatus
-=
-NS_OK
-;
 mLoadStart
 =
 TimeStamp
@@ -1735,6 +1731,10 @@ if
 directLoad
 )
 {
+mFileStatus
+=
+NS_OK
+;
 mState
 =
 EMPTY
