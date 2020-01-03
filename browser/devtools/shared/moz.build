@@ -380,6 +380,15 @@ editor
 js
 '
 '
+node
+-
+attribute
+-
+parser
+.
+js
+'
+'
 observable
 -
 object

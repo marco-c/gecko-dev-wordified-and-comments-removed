@@ -779,6 +779,14 @@ getAttributeElement
 src
 "
 )
+.
+querySelector
+(
+"
+.
+link
+"
+)
 ;
 }
 return
