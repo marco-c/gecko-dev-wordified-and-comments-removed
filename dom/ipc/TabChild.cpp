@@ -10147,7 +10147,7 @@ aStatus
 nsEventStatus_eConsumeNoDefault
 |
 |
-nsIPresShell
+TouchManager
 :
 :
 gPreventMouseEvents
@@ -10363,7 +10363,7 @@ NS_TOUCH_END
 if
 (
 !
-nsIPresShell
+TouchManager
 :
 :
 gPreventMouseEvents

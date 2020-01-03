@@ -2256,6 +2256,17 @@ for
 nsDocShell
 .
 h
+'
+/
+layout
+/
+base
+'
+#
+for
+TouchManager
+.
+h
 ]
 FINAL_LIBRARY
 =
