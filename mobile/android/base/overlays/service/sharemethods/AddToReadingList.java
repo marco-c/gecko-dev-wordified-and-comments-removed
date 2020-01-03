@@ -167,6 +167,10 @@ url
 ;
 browserDB
 .
+getReadingListAccessor
+(
+)
+.
 addReadingListItem
 (
 resolver

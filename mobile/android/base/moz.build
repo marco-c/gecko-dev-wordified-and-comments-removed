@@ -1194,6 +1194,13 @@ java
 '
 db
 /
+LocalReadingListAccessor
+.
+java
+'
+'
+db
+/
 LocalSearches
 .
 java
@@ -1230,6 +1237,13 @@ java
 db
 /
 PerProfileDatabases
+.
+java
+'
+'
+db
+/
+ReadingListAccessor
 .
 java
 '

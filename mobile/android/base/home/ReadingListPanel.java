@@ -103,6 +103,17 @@ mozilla
 .
 gecko
 .
+db
+.
+ReadingListAccessor
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 home
 .
 HomeContextMenuInfo
@@ -893,8 +904,8 @@ SimpleCursorLoader
 {
 private
 final
-BrowserDB
-mDB
+ReadingListAccessor
+accessor
 ;
 public
 ReadingListLoader
@@ -908,7 +919,7 @@ super
 context
 )
 ;
-mDB
+accessor
 =
 GeckoProfile
 .
@@ -918,6 +929,10 @@ context
 )
 .
 getDB
+(
+)
+.
+getReadingListAccessor
 (
 )
 ;
@@ -930,7 +945,7 @@ loadCursor
 )
 {
 return
-mDB
+accessor
 .
 getReadingList
 (
