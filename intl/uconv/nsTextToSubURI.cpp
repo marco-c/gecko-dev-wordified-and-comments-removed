@@ -1221,8 +1221,6 @@ _retval
 )
 ;
 }
-else
-{
 if
 (
 mUnsafeChars
@@ -1369,7 +1367,6 @@ esc_OnlyNonASCII
 reescapedSpec
 )
 ;
-}
 }
 return
 NS_OK
