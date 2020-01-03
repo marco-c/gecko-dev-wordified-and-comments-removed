@@ -660,8 +660,7 @@ nsIntRegion
 aObscured
 AsyncPanZoomController
 *
-&
-aOutParent
+aParent
 AsyncPanZoomController
 *
 aNextSibling
