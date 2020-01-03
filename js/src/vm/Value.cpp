@@ -9,7 +9,10 @@ h
 "
 static
 const
-jsval
+JS
+:
+:
+Value
 JSVAL_NULL
 =
 IMPL_TO_JSVAL
@@ -23,7 +26,10 @@ JSVAL_TAG_NULL
 ;
 static
 const
-jsval
+JS
+:
+:
+Value
 JSVAL_FALSE
 =
 IMPL_TO_JSVAL
@@ -37,7 +43,10 @@ false
 ;
 static
 const
-jsval
+JS
+:
+:
+Value
 JSVAL_TRUE
 =
 IMPL_TO_JSVAL
@@ -51,7 +60,10 @@ true
 ;
 static
 const
-jsval
+JS
+:
+:
+Value
 JSVAL_VOID
 =
 IMPL_TO_JSVAL

@@ -1450,7 +1450,7 @@ PRMJ_Now
 }
 JS_PUBLIC_API
 (
-jsval
+Value
 )
 JS_GetNaNValue
 (
@@ -1473,7 +1473,7 @@ NaNValue
 }
 JS_PUBLIC_API
 (
-jsval
+Value
 )
 JS_GetNegativeInfinityValue
 (
@@ -1496,7 +1496,7 @@ negativeInfinityValue
 }
 JS_PUBLIC_API
 (
-jsval
+Value
 )
 JS_GetPositiveInfinityValue
 (
@@ -1519,7 +1519,7 @@ positiveInfinityValue
 }
 JS_PUBLIC_API
 (
-jsval
+Value
 )
 JS_GetEmptyStringValue
 (
@@ -6371,14 +6371,14 @@ global
 }
 JS_PUBLIC_API
 (
-jsval
+Value
 )
 JS_ComputeThis
 (
 JSContext
 *
 cx
-jsval
+Value
 *
 vp
 )
@@ -15312,7 +15312,7 @@ ida
 }
 JS_PUBLIC_API
 (
-jsval
+Value
 )
 JS_GetReservedSlot
 (
@@ -17157,7 +17157,7 @@ argc
 *
 sizeof
 (
-jsval
+Value
 )
 )
 ;
@@ -21350,7 +21350,7 @@ HandleObject
 scope
 HandleScript
 script
-jsval
+Value
 *
 rval
 )
@@ -21443,7 +21443,7 @@ AutoObjectVector
 scopeChain
 HandleScript
 scriptArg
-jsval
+Value
 *
 rval
 )
@@ -28852,7 +28852,7 @@ bool
 )
 JS_IsStopIteration
 (
-jsval
+Value
 v
 )
 {

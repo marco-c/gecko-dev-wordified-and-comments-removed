@@ -58,7 +58,10 @@ JSContext
 cx
 unsigned
 argc
-jsval
+JS
+:
+:
+Value
 *
 vp
 )
@@ -88,7 +91,10 @@ JSContext
 cx
 unsigned
 argc
-jsval
+JS
+:
+:
+Value
 *
 vp
 )
@@ -153,7 +159,10 @@ JSContext
 cx
 unsigned
 argc
-jsval
+JS
+:
+:
+Value
 *
 vp
 )

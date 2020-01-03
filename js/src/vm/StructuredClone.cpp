@@ -952,7 +952,7 @@ cb
 void
 *
 cbClosure
-jsval
+Value
 tVal
 )
 :
@@ -1393,7 +1393,7 @@ cb
 void
 *
 cbClosure
-jsval
+Value
 transferable
 )
 {

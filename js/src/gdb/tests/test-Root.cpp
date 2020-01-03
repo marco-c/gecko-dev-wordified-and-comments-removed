@@ -153,7 +153,10 @@ JS
 :
 Rooted
 <
-jsval
+JS
+:
+:
+Value
 >
 plinth
 (

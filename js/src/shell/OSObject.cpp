@@ -824,7 +824,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 bool
@@ -1152,7 +1152,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1176,7 +1176,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1300,7 +1300,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2078,7 +2078,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2222,7 +2222,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
