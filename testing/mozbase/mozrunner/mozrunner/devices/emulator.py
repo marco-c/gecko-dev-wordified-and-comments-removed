@@ -1498,24 +1498,6 @@ homescreen
 =
 -
 1
-|
-|
-aEvent
-.
-target
-.
-src
-.
-indexOf
-(
-'
-verticalhome
-'
-)
-!
-=
--
-1
 )
 {
     
@@ -1544,7 +1526,7 @@ marionetteScriptFinished
 "
 script_timeout
 =
-300000
+120000
 )
         
 print
