@@ -4495,8 +4495,10 @@ GetPropertyKeys
 JSContext
 *
 cx
-JSObject
-*
+JS
+:
+:
+HandleObject
 obj
 unsigned
 flags

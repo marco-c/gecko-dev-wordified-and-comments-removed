@@ -1489,8 +1489,7 @@ Snapshot
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 pobj_
 unsigned
 flags
@@ -2183,8 +2182,7 @@ GetPropertyKeys
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 unsigned
 flags
