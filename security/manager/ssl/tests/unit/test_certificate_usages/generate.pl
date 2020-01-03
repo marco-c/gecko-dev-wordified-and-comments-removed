@@ -155,6 +155,12 @@ dataEncipherment
 keyAgreement
 "
 "
+digitalSignature
+keyEncipherment
+dataEncipherment
+certSigning
+"
+"
 certSigning
 "
 )
