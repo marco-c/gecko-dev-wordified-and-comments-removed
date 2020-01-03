@@ -7745,7 +7745,17 @@ gckind
 =
 GC_SHRINK
 ?
+Max
+(
 lastBytes
+tunables
+.
+minEmptyChunkCount
+(
+)
+*
+ChunkSize
+)
 :
 Max
 (
