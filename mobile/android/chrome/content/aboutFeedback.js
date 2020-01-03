@@ -660,6 +660,16 @@ aTopic
 aData
 )
 {
+aData
+=
+aData
+.
+substring
+(
+0
+200
+)
+;
 document
 .
 getElementById
