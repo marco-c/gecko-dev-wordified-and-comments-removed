@@ -52,6 +52,10 @@ mUndisplayedMap
 (
 nullptr
 )
+mDisplayContentsMap
+(
+nullptr
+)
 mIsDestroyingFrames
 (
 false
@@ -143,6 +147,10 @@ mPlaceholderMap
 UndisplayedMap
 *
 mUndisplayedMap
+;
+UndisplayedMap
+*
+mDisplayContentsMap
 ;
 bool
 mIsDestroyingFrames
