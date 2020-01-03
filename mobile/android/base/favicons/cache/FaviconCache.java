@@ -114,7 +114,9 @@ FAILURE_RETRY_MILLISECONDS
 *
 60
 *
-20
+60
+*
+4
 ;
 private
 final
