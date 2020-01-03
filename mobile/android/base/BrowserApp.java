@@ -11441,6 +11441,12 @@ show
 panel
 )
 ;
+mFindInPageBar
+.
+hide
+(
+)
+;
 }
 }
 Override
