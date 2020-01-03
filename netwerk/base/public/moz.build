@@ -613,6 +613,11 @@ nsITimedChannel
 idl
 '
 '
+nsITLSServerSocket
+.
+idl
+'
+'
 nsITraceableChannel
 .
 idl
