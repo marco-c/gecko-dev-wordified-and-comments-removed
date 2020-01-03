@@ -6971,6 +6971,9 @@ roles
 :
 COMBOBOX_LIST
 ;
+}
+else
+{
 Relation
 rel
 =
