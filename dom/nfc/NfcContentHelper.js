@@ -827,6 +827,7 @@ function
 writeNDEF
 (
 records
+isP2P
 sessionToken
 callback
 )
@@ -868,6 +869,9 @@ sessionToken
 records
 :
 records
+isP2P
+:
+isP2P
 }
 )
 ;
