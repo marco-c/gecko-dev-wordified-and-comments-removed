@@ -718,6 +718,7 @@ object
         
 :
 param
+str
 adb
 :
 path
@@ -744,6 +745,14 @@ server
 .
         
 :
+type
+adb_host
+:
+str
+or
+None
+        
+:
 param
 adb_port
 :
@@ -755,7 +764,16 @@ server
 .
         
 :
+type
+adb_port
+:
+integer
+or
+None
+        
+:
 param
+str
 logger_name
 :
 logging
@@ -1009,11 +1027,10 @@ host
         
 :
 param
+list
 cmds
 :
-list
-containing
-the
+The
 command
 and
 its
@@ -1028,10 +1045,7 @@ executed
 param
 device_serial
 :
-optional
-string
-specifying
-the
+The
 device
 '
 s
@@ -1054,13 +1068,18 @@ device
 .
         
 :
+type
+device_serial
+:
+str
+or
+None
+        
+:
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -1112,6 +1131,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 returns
@@ -1523,11 +1550,10 @@ stdout
         
 :
 param
+list
 cmds
 :
-list
-containing
-the
+The
 command
 and
 its
@@ -1542,10 +1568,7 @@ executed
 param
 device_serial
 :
-optional
-string
-specifying
-the
+The
 device
 '
 s
@@ -1568,13 +1591,18 @@ device
 .
         
 :
+type
+device_serial
+:
+str
+or
+None
+        
+:
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -1627,6 +1655,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 returns
@@ -1926,6 +1962,7 @@ object
         
 :
 param
+str
 adb
 :
 path
@@ -1952,6 +1989,14 @@ server
 .
         
 :
+type
+adb_host
+:
+str
+or
+None
+        
+:
 param
 adb_port
 :
@@ -1963,7 +2008,16 @@ server
 .
         
 :
+type
+adb_port
+:
+integer
+or
+None
+        
+:
 param
+str
 logger_name
 :
 logging
@@ -2042,11 +2096,10 @@ host
         
 :
 param
+list
 cmds
 :
-list
-containing
-the
+The
 command
 and
 its
@@ -2061,10 +2114,7 @@ executed
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -2116,6 +2166,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 returns
@@ -2305,11 +2363,10 @@ stdout
         
 :
 param
+list
 cmds
 :
-list
-containing
-the
+The
 command
 and
 its
@@ -2324,10 +2381,7 @@ executed
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -2380,6 +2434,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 returns
@@ -2439,10 +2501,7 @@ server
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -2494,6 +2553,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -2647,10 +2714,7 @@ server
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -2702,6 +2766,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -2765,10 +2837,7 @@ devices
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -2820,6 +2889,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 returns
@@ -3333,17 +3410,6 @@ object
 param
 device
 :
-can
-be
-either
-a
-dictionary
-a
-string
-or
-None
-.
-            
 When
 a
 string
@@ -3528,6 +3594,15 @@ reached
 .
         
 :
+type
+device
+:
+dict
+str
+or
+None
+        
+:
 param
 adb_host
 :
@@ -3540,6 +3615,14 @@ to
 connect
 to
 .
+        
+:
+type
+adb_host
+:
+str
+or
+None
         
 :
 param
@@ -3556,7 +3639,16 @@ to
 .
         
 :
+type
+adb_port
+:
+integer
+or
+None
+        
+:
 param
+str
 logger_name
 :
 logging
@@ -3572,6 +3664,7 @@ adb
         
 :
 param
+integer
 device_ready_retry_wait
 :
 number
@@ -3597,6 +3690,7 @@ reboot
         
 :
 param
+integer
 device_ready_retry_attempts
 :
 number
@@ -5139,11 +5233,10 @@ device
         
 :
 param
+list
 cmds
 :
-list
-containing
-the
+The
 command
 and
 its
@@ -5158,10 +5251,7 @@ executed
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -5213,6 +5303,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 returns
@@ -5436,18 +5534,16 @@ stdout
         
 :
 param
+list
 cmds
 :
-list
-containing
-the
+The
 command
 and
 its
 arguments
 to
 be
-            
 executed
 .
         
@@ -5455,10 +5551,7 @@ executed
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -5511,6 +5604,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 returns
@@ -5582,6 +5683,7 @@ failure
         
 :
 param
+str
 port
 :
 The
@@ -5591,9 +5693,11 @@ to
 validate
         
 :
+param
+bool
 is_local
 :
-Boolean
+Flag
 indicating
 whether
 the
@@ -5779,6 +5883,7 @@ only
         
 :
 param
+str
 local
 :
 Local
@@ -5788,6 +5893,7 @@ forward
         
 :
 param
+str
 remote
 :
 Remote
@@ -5799,6 +5905,7 @@ forward
         
 :
 param
+bool
 allow_rebind
 :
 Don
@@ -5817,10 +5924,7 @@ forwarded
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -5855,6 +5959,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -5976,10 +6088,7 @@ remote
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -6014,6 +6123,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -6128,13 +6245,18 @@ forwards
 .
         
 :
+type
+local
+:
+str
+or
+None
+        
+:
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -6169,6 +6291,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -6286,11 +6416,10 @@ device
         
 :
 param
+str
 cmd
 :
-string
-containing
-the
+The
 command
 to
 be
@@ -6301,9 +6430,8 @@ executed
 param
 env
 :
-optional
-dictionary
-of
+Contains
+the
 environment
 variables
 and
@@ -6313,29 +6441,38 @@ values
 .
         
 :
+type
+env
+:
+dict
+or
+None
+        
+:
 param
 cwd
 :
-optional
-string
-containing
-the
+The
 directory
 from
 which
-            
 to
 execute
 .
         
 :
+type
+cwd
+:
+str
+or
+None
+        
+:
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -6389,11 +6526,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+bool
 root
 :
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -7237,11 +7382,10 @@ failure
         
 :
 param
+str
 cmd
 :
-string
-containing
-the
+The
 command
 to
 be
@@ -7252,9 +7396,8 @@ executed
 param
 env
 :
-optional
-dictionary
-of
+Contains
+the
 environment
 variables
 and
@@ -7264,29 +7407,38 @@ values
 .
         
 :
+type
+env
+:
+dict
+or
+None
+        
+:
 param
 cwd
 :
-optional
-string
-containing
-the
+The
 directory
 from
 which
-            
 to
 execute
 .
         
 :
+type
+cwd
+:
+str
+or
+None
+        
+:
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -7341,11 +7493,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+bool
 root
 :
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -7489,11 +7649,10 @@ stdout
         
 :
 param
+str
 cmd
 :
-string
-containing
-the
+The
 command
 to
 be
@@ -7504,41 +7663,48 @@ executed
 param
 env
 :
-optional
-dictionary
-of
+Contains
+the
 environment
 variables
 and
-            
 their
 values
 .
         
 :
+type
+env
+:
+dict
+or
+None
+        
+:
 param
 cwd
 :
-optional
-string
-containing
-the
+The
 directory
 from
 which
-            
 to
 execute
 .
         
 :
+type
+cwd
+:
+str
+or
+None
+        
+:
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -7591,13 +7757,21 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
+        
 :
 param
+bool
 root
 :
-            
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -7958,10 +8132,7 @@ c
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -8016,12 +8187,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+list
 buffers
 :
-list
-of
-log
+Log
 buffers
 to
 clear
@@ -8184,11 +8362,10 @@ strings
         
 :
 param
+list
 filter_specs
 :
-optional
-list
-containing
+Optional
 logcat
 messages
 to
@@ -8199,20 +8376,20 @@ included
         
 :
 param
+str
 format
 :
-optional
+Optional
 logcat
 format
 .
         
 :
 param
+list
 filterOutRexps
 :
-optional
-list
-of
+Optional
 logcat
 messages
 to
@@ -8225,10 +8402,7 @@ excluded
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -8283,12 +8457,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+list
 buffers
 :
-list
-of
-log
+Log
 buffers
 to
 retrieve
@@ -8446,11 +8627,10 @@ getprop
         
 :
 param
+str
 prop
 :
-string
-containing
-the
+The
 propery
 name
 .
@@ -8459,10 +8639,7 @@ name
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -8515,6 +8692,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 returns
@@ -8589,10 +8774,7 @@ state
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -8645,6 +8827,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 returns
@@ -8733,30 +8923,34 @@ one
 param
 interfaces
 :
-List
-of
-interfaces
+Interfaces
 to
 allow
 or
 None
 to
-alow
+allow
 any
-                           
+            
 non
 -
 loopback
 interface
+.
+        
+:
+type
+interfaces
+:
+list
+or
+None
         
 :
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -8809,6 +9003,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 returns
@@ -9017,10 +9219,7 @@ mode
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -9073,6 +9272,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -9166,11 +9373,10 @@ device
         
 :
 param
+str
 path
 :
-string
-containing
-the
+The
 directory
 name
 on
@@ -9180,9 +9386,10 @@ device
         
 :
 param
+bool
 recursive
 :
-boolean
+Flag
 specifying
 if
 the
@@ -9196,12 +9403,10 @@ recursively
         
 :
 param
+str
 mask
 :
-optional
-string
-containing
-the
+The
 octal
 permissions
 .
@@ -9210,10 +9415,7 @@ permissions
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -9268,11 +9470,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+bool
 root
 :
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -9659,11 +9869,10 @@ device
         
 :
 param
+str
 path
 :
-string
-containing
-the
+The
 directory
 name
 on
@@ -9675,10 +9884,7 @@ device
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -9733,11 +9939,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+bool
 root
 :
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -9837,11 +10051,10 @@ device
         
 :
 param
+str
 path
 :
-string
-containing
-the
+The
 path
 on
 the
@@ -9852,10 +10065,7 @@ device
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -9910,11 +10120,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+bool
 root
 :
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -10023,11 +10241,10 @@ device
         
 :
 param
+str
 path
 :
-string
-containing
-the
+The
 file
 name
 on
@@ -10039,10 +10256,7 @@ device
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -10097,11 +10311,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+bool
 root
 :
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -10223,11 +10445,10 @@ device
         
 :
 param
+str
 path
 :
-string
-containing
-the
+The
 directory
 name
 on
@@ -10239,10 +10460,7 @@ device
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -10297,11 +10515,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+bool
 root
 :
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -10531,11 +10757,10 @@ device
         
 :
 param
+str
 path
 :
-string
-containing
-the
+The
 directory
 name
 on
@@ -10549,9 +10774,10 @@ created
         
 :
 param
+bool
 parents
 :
-boolean
+Flag
 indicating
 if
 the
@@ -10575,10 +10801,7 @@ path
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -10633,11 +10856,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+bool
 root
 :
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -10885,11 +11116,10 @@ device
         
 :
 param
+str
 local
 :
-string
-containing
-the
+The
 name
 of
 the
@@ -10903,11 +11133,10 @@ name
         
 :
 param
+str
 remote
 :
-string
-containing
-the
+The
 name
 of
 the
@@ -10923,10 +11152,7 @@ name
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -10979,6 +11205,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -11044,11 +11278,10 @@ device
         
 :
 param
+str
 remote
 :
-string
-containing
-the
+The
 path
 of
 the
@@ -11061,11 +11294,10 @@ directory
         
 :
 param
+str
 local
 :
-string
-containing
-the
+The
 path
 of
 the
@@ -11081,10 +11313,7 @@ name
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -11137,6 +11366,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -11209,27 +11446,25 @@ device
         
 :
 param
+str
 path
 :
-string
-containing
-the
+The
 path
 of
 the
 remote
 file
 or
-            
 directory
 .
         
 :
 param
+bool
 recursive
 :
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -11251,10 +11486,10 @@ False
         
 :
 param
+bool
 force
 :
-optional
-boolean
+Flag
 which
 if
 True
@@ -11284,10 +11519,7 @@ False
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -11342,11 +11574,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+bool
 root
 :
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -11506,11 +11746,10 @@ device
         
 :
 param
+str
 path
 :
-string
-containing
-the
+The
 directory
 name
 on
@@ -11522,10 +11761,7 @@ device
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -11580,11 +11816,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+bool
 root
 :
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -11702,10 +11946,7 @@ device
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
             
@@ -11758,6 +11999,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 returns
@@ -12192,10 +12441,9 @@ ids
         
 :
 param
+list
 pids
 :
-list
-of
 process
 ids
 to
@@ -12207,7 +12455,6 @@ killed
 param
 sig
 :
-optional
 signal
 to
 be
@@ -12218,7 +12465,16 @@ process
 .
         
 :
+type
+sig
+:
+integer
+or
+None
+        
+:
 param
+integer
 attempts
 :
 number
@@ -12227,6 +12483,7 @@ attempts
 to
 try
 to
+            
 kill
 the
 processes
@@ -12234,6 +12491,7 @@ processes
         
 :
 param
+integer
 wait
 :
 number
@@ -12250,10 +12508,7 @@ attempt
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -12308,11 +12563,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+bool
 root
 :
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -12588,11 +12851,10 @@ name
         
 :
 param
+str
 appname
 :
-string
-containing
-the
+The
 app
 name
 of
@@ -12634,7 +12896,16 @@ process
 .
         
 :
+type
+sig
+:
+integer
+or
+None
+        
+:
 param
+integer
 attempts
 :
 number
@@ -12643,6 +12914,7 @@ attempts
 to
 try
 to
+            
 kill
 the
 processes
@@ -12650,6 +12922,7 @@ processes
         
 :
 param
+integer
 wait
 :
 number
@@ -12666,10 +12939,7 @@ attempt
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -12724,11 +12994,19 @@ used
 .
         
 :
+type
+timeout
+:
+integer
+or
+None
+        
+:
 param
+bool
 root
 :
-optional
-boolean
+Flag
 specifying
 if
 the
@@ -12874,11 +13152,10 @@ device
         
 :
 param
+str
 process_name
 :
-string
-containing
-the
+The
 name
 of
 the
@@ -12907,10 +13184,7 @@ significant
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -12963,6 +13237,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 returns

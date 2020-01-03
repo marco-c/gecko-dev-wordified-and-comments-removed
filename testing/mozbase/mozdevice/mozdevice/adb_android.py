@@ -64,10 +64,7 @@ percentage
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -120,6 +117,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 returns
@@ -349,10 +354,7 @@ readiness
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
             
@@ -405,6 +407,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -733,10 +743,7 @@ value
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -789,6 +796,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -905,10 +920,7 @@ reboot
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -961,6 +973,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -1082,17 +1102,15 @@ device
         
 :
 param
+str
 apk_path
 :
-string
-containing
-the
+The
 apk
 file
 name
 to
 be
-            
 installed
 .
         
@@ -1100,10 +1118,7 @@ installed
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -1156,6 +1171,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -1253,18 +1276,16 @@ device
         
 :
 param
+str
 app_name
 :
-string
-containing
-the
+The
 name
 of
 the
 app
 to
 be
-            
 checked
 .
         
@@ -1272,10 +1293,7 @@ checked
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -1328,6 +1346,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -1437,6 +1463,7 @@ application
         
 :
 param
+str
 app_name
 :
 Name
@@ -1456,6 +1483,7 @@ chrome
         
 :
 param
+str
 activity_name
 :
 Name
@@ -1474,6 +1502,7 @@ Main
         
 :
 param
+str
 intent
 :
 Intent
@@ -1491,19 +1520,34 @@ to
 open
         
 :
+type
+url
+:
+str
+or
+None
+        
+:
 param
 extras
 :
-Dictionary
-of
-extra
+Extra
 arguments
 for
 application
 .
         
 :
+type
+extras
+:
+dict
+or
+None
+        
+:
 param
+bool
 wait
 :
 If
@@ -1520,6 +1564,7 @@ returning
         
 :
 param
+bool
 fail_if_running
 :
 Raise
@@ -1539,10 +1584,7 @@ running
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -1595,6 +1637,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -1874,6 +1924,7 @@ arguments
         
 :
 param
+str
 app_name
 :
 Name
@@ -1895,6 +1946,7 @@ fennec
         
 :
 param
+str
 intent
 :
 Intent
@@ -1918,6 +1970,14 @@ application
 .
         
 :
+type
+moz_env
+:
+str
+or
+None
+        
+:
 param
 extra_args
 :
@@ -1931,6 +1991,14 @@ fennec
 .
         
 :
+type
+extra_args
+:
+str
+or
+None
+        
+:
 param
 url
 :
@@ -1939,7 +2007,16 @@ to
 open
         
 :
+type
+url
+:
+str
+or
+None
+        
+:
 param
+bool
 wait
 :
 If
@@ -1952,9 +2029,11 @@ start
 before
             
 returning
+.
         
 :
 param
+bool
 fail_if_running
 :
 Raise
@@ -1968,15 +2047,13 @@ application
 is
 already
 running
+.
         
 :
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -2029,6 +2106,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -2229,6 +2314,7 @@ root
         
 :
 param
+str
 app_name
 :
 Name
@@ -2250,10 +2336,7 @@ chrome
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -2305,6 +2388,32 @@ ADB
 constructor
 is
 used
+.
+        
+:
+type
+timeout
+:
+integer
+or
+None
+        
+:
+param
+bool
+root
+:
+Flag
+specifying
+if
+the
+command
+should
+be
+            
+executed
+as
+root
 .
         
 :
@@ -2492,11 +2601,10 @@ device
         
 :
 param
+str
 app_name
 :
-string
-containing
-the
+The
 name
 of
 the
@@ -2509,10 +2617,10 @@ uninstalled
         
 :
 param
+bool
 reboot
 :
-boolean
-flag
+Flag
 indicating
 that
 the
@@ -2543,10 +2651,7 @@ installed
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -2599,6 +2704,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
@@ -2735,11 +2848,10 @@ reboots
         
 :
 param
+str
 apk_path
 :
-string
-containing
-the
+The
 apk
 file
 name
@@ -2753,10 +2865,7 @@ updated
 param
 timeout
 :
-optional
-integer
-specifying
-the
+The
 maximum
 time
 in
@@ -2809,6 +2918,14 @@ constructor
 is
 used
 .
+        
+:
+type
+timeout
+:
+integer
+or
+None
         
 :
 raises
