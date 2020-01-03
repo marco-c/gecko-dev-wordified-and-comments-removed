@@ -2634,6 +2634,15 @@ buttonChoice
 )
 return
 ;
+fxaMigrator
+.
+recordTelemetry
+(
+fxaMigrator
+.
+TELEMETRY_UNLINKED
+)
+;
 Weave
 .
 Service
