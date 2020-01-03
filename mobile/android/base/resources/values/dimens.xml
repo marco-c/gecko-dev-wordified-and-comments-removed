@@ -349,7 +349,7 @@ dimen
 name
 =
 "
-new_tablet_nav_button_width
+tablet_nav_button_width
 "
 >
 42dp
@@ -362,7 +362,7 @@ dimen
 name
 =
 "
-new_tablet_nav_button_width_half
+tablet_nav_button_width_half
 "
 >
 21dp
@@ -375,7 +375,7 @@ dimen
 name
 =
 "
-new_tablet_nav_button_width_plus_half
+tablet_nav_button_width_plus_half
 "
 >
 63dp
@@ -425,7 +425,7 @@ dimen
 name
 =
 "
-new_tablet_tab_panel_divider_vertical_padding
+tablet_tab_panel_divider_vertical_padding
 "
 >
 12dp
@@ -438,7 +438,7 @@ dimen
 name
 =
 "
-new_tablet_tab_strip_height
+tablet_tab_strip_height
 "
 >
 48dp
@@ -451,7 +451,7 @@ dimen
 name
 =
 "
-new_tablet_tab_strip_item_width
+tablet_tab_strip_item_width
 "
 >
 208dp
@@ -464,7 +464,7 @@ dimen
 name
 =
 "
-new_tablet_tab_strip_item_margin
+tablet_tab_strip_item_margin
 "
 >
 -
@@ -478,7 +478,7 @@ dimen
 name
 =
 "
-new_tablet_tab_strip_fading_edge_size
+tablet_tab_strip_fading_edge_size
 "
 >
 15dp
@@ -491,7 +491,7 @@ dimen
 name
 =
 "
-new_tablet_browser_toolbar_menu_item_width
+tablet_browser_toolbar_menu_item_width
 "
 >
 56dp
@@ -526,7 +526,7 @@ dimen
 name
 =
 "
-new_tablet_browser_toolbar_menu_item_padding_horizontal
+tablet_browser_toolbar_menu_item_padding_horizontal
 "
 >
 19dp
@@ -539,7 +539,7 @@ dimen
 name
 =
 "
-new_tablet_browser_toolbar_menu_item_inset_vertical
+tablet_browser_toolbar_menu_item_inset_vertical
 "
 >
 5dp
@@ -552,7 +552,7 @@ dimen
 name
 =
 "
-new_tablet_browser_toolbar_menu_item_inset_horizontal
+tablet_browser_toolbar_menu_item_inset_horizontal
 "
 >
 3dp
@@ -565,7 +565,7 @@ dimen
 name
 =
 "
-new_tablet_browser_toolbar_menu_item_corner_radius
+tablet_browser_toolbar_menu_item_corner_radius
 "
 >
 5dp
@@ -578,7 +578,7 @@ dimen
 name
 =
 "
-new_tablet_tab_strip_button_inset
+tablet_tab_strip_button_inset
 "
 >
 5dp
@@ -1720,7 +1720,7 @@ dimen
 name
 =
 "
-new_tablet_tab_thumbnail_width
+tablet_tab_thumbnail_width
 "
 >
 168dp
@@ -1733,7 +1733,7 @@ dimen
 name
 =
 "
-new_tablet_tab_thumbnail_height
+tablet_tab_thumbnail_height
 "
 >
 140dp
@@ -1746,7 +1746,7 @@ dimen
 name
 =
 "
-new_tablet_tab_panel_column_width
+tablet_tab_panel_column_width
 "
 >
 178dp
@@ -1759,7 +1759,7 @@ dimen
 name
 =
 "
-new_tablet_tab_panel_grid_padding
+tablet_tab_panel_grid_padding
 "
 >
 19dp
@@ -1772,7 +1772,7 @@ dimen
 name
 =
 "
-new_tablet_tab_panel_grid_vspacing
+tablet_tab_panel_grid_vspacing
 "
 >
 21dp
@@ -1785,7 +1785,7 @@ dimen
 name
 =
 "
-new_tablet_tab_panel_grid_padding_top
+tablet_tab_panel_grid_padding_top
 "
 >
 24dp
@@ -1798,7 +1798,7 @@ dimen
 name
 =
 "
-new_tablet_tab_highlight_stroke_width
+tablet_tab_highlight_stroke_width
 "
 >
 5dp

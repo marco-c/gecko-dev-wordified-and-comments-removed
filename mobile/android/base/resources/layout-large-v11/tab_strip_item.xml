@@ -140,7 +140,7 @@ layout_width
 "
 dimen
 /
-new_tablet_tab_strip_item_width
+tablet_tab_strip_item_width
 "
 android
 :

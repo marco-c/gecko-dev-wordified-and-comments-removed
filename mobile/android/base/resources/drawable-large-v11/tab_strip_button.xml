@@ -149,7 +149,7 @@ insetTop
 "
 dimen
 /
-new_tablet_tab_strip_button_inset
+tablet_tab_strip_button_inset
 "
 android
 :
@@ -158,7 +158,7 @@ insetBottom
 "
 dimen
 /
-new_tablet_tab_strip_button_inset
+tablet_tab_strip_button_inset
 "
 android
 :
@@ -167,7 +167,7 @@ insetLeft
 "
 dimen
 /
-new_tablet_tab_strip_button_inset
+tablet_tab_strip_button_inset
 "
 android
 :
@@ -176,7 +176,7 @@ insetRight
 "
 dimen
 /
-new_tablet_tab_strip_button_inset
+tablet_tab_strip_button_inset
 "
 >
 <
@@ -211,7 +211,7 @@ radius
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_corner_radius
+tablet_browser_toolbar_menu_item_corner_radius
 "
 /
 >
@@ -253,7 +253,7 @@ insetTop
 "
 dimen
 /
-new_tablet_tab_strip_button_inset
+tablet_tab_strip_button_inset
 "
 android
 :
@@ -262,7 +262,7 @@ insetBottom
 "
 dimen
 /
-new_tablet_tab_strip_button_inset
+tablet_tab_strip_button_inset
 "
 android
 :
@@ -271,7 +271,7 @@ insetLeft
 "
 dimen
 /
-new_tablet_tab_strip_button_inset
+tablet_tab_strip_button_inset
 "
 android
 :
@@ -280,7 +280,7 @@ insetRight
 "
 dimen
 /
-new_tablet_tab_strip_button_inset
+tablet_tab_strip_button_inset
 "
 >
 <
@@ -315,7 +315,7 @@ radius
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_corner_radius
+tablet_browser_toolbar_menu_item_corner_radius
 "
 /
 >

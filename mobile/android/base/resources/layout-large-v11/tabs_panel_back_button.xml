@@ -199,7 +199,7 @@ dividerVerticalPadding
 "
 dimen
 /
-new_tablet_tab_panel_divider_vertical_padding
+tablet_tab_panel_divider_vertical_padding
 "
 gecko
 :

@@ -523,7 +523,7 @@ R
 .
 dimen
 .
-new_tablet_tab_panel_column_width
+tablet_tab_panel_column_width
 )
 ;
 final
@@ -538,7 +538,7 @@ R
 .
 dimen
 .
-new_tablet_tab_panel_grid_padding
+tablet_tab_panel_grid_padding
 )
 ;
 final
@@ -553,7 +553,7 @@ R
 .
 dimen
 .
-new_tablet_tab_panel_grid_padding_top
+tablet_tab_panel_grid_padding_top
 )
 ;
 final
@@ -872,7 +872,7 @@ R
 .
 dimen
 .
-new_tablet_tab_panel_grid_vspacing
+tablet_tab_panel_grid_vspacing
 )
 ;
 ValueAnimator

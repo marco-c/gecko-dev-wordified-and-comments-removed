@@ -156,7 +156,7 @@ insetTop
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_vertical
+tablet_browser_toolbar_menu_item_inset_vertical
 "
 android
 :
@@ -165,7 +165,7 @@ insetBottom
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_vertical
+tablet_browser_toolbar_menu_item_inset_vertical
 "
 android
 :
@@ -174,7 +174,7 @@ insetLeft
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_horizontal
+tablet_browser_toolbar_menu_item_inset_horizontal
 "
 android
 :
@@ -183,7 +183,7 @@ insetRight
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_horizontal
+tablet_browser_toolbar_menu_item_inset_horizontal
 "
 >
 <
@@ -218,7 +218,7 @@ radius
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_corner_radius
+tablet_browser_toolbar_menu_item_corner_radius
 "
 /
 >
@@ -267,7 +267,7 @@ insetTop
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_vertical
+tablet_browser_toolbar_menu_item_inset_vertical
 "
 android
 :
@@ -276,7 +276,7 @@ insetBottom
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_vertical
+tablet_browser_toolbar_menu_item_inset_vertical
 "
 android
 :
@@ -285,7 +285,7 @@ insetLeft
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_horizontal
+tablet_browser_toolbar_menu_item_inset_horizontal
 "
 android
 :
@@ -294,7 +294,7 @@ insetRight
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_horizontal
+tablet_browser_toolbar_menu_item_inset_horizontal
 "
 >
 <
@@ -329,7 +329,7 @@ radius
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_corner_radius
+tablet_browser_toolbar_menu_item_corner_radius
 "
 /
 >
@@ -371,7 +371,7 @@ insetTop
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_vertical
+tablet_browser_toolbar_menu_item_inset_vertical
 "
 android
 :
@@ -380,7 +380,7 @@ insetBottom
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_vertical
+tablet_browser_toolbar_menu_item_inset_vertical
 "
 android
 :
@@ -389,7 +389,7 @@ insetLeft
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_horizontal
+tablet_browser_toolbar_menu_item_inset_horizontal
 "
 android
 :
@@ -398,7 +398,7 @@ insetRight
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_horizontal
+tablet_browser_toolbar_menu_item_inset_horizontal
 "
 >
 <
@@ -433,7 +433,7 @@ radius
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_corner_radius
+tablet_browser_toolbar_menu_item_corner_radius
 "
 /
 >
@@ -475,7 +475,7 @@ insetTop
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_vertical
+tablet_browser_toolbar_menu_item_inset_vertical
 "
 android
 :
@@ -484,7 +484,7 @@ insetBottom
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_vertical
+tablet_browser_toolbar_menu_item_inset_vertical
 "
 android
 :
@@ -493,7 +493,7 @@ insetLeft
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_horizontal
+tablet_browser_toolbar_menu_item_inset_horizontal
 "
 android
 :
@@ -502,7 +502,7 @@ insetRight
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_inset_horizontal
+tablet_browser_toolbar_menu_item_inset_horizontal
 "
 >
 <
@@ -537,7 +537,7 @@ radius
 "
 dimen
 /
-new_tablet_browser_toolbar_menu_item_corner_radius
+tablet_browser_toolbar_menu_item_corner_radius
 "
 /
 >

@@ -362,7 +362,7 @@ R
 .
 dimen
 .
-new_tablet_tab_strip_item_margin
+tablet_tab_strip_item_margin
 )
 ;
 setItemMargin
@@ -394,7 +394,7 @@ R
 .
 dimen
 .
-new_tablet_tab_strip_fading_edge_size
+tablet_tab_strip_fading_edge_size
 )
 ;
 adapter

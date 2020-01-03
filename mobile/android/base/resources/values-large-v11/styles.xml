@@ -110,7 +110,7 @@ layout_width
 >
 dimen
 /
-new_tablet_browser_toolbar_menu_item_width
+tablet_browser_toolbar_menu_item_width
 <
 /
 item
@@ -570,7 +570,7 @@ paddingLeft
 >
 dimen
 /
-new_tablet_browser_toolbar_menu_item_padding_horizontal
+tablet_browser_toolbar_menu_item_padding_horizontal
 <
 /
 item
@@ -587,7 +587,7 @@ paddingRight
 >
 dimen
 /
-new_tablet_browser_toolbar_menu_item_padding_horizontal
+tablet_browser_toolbar_menu_item_padding_horizontal
 <
 /
 item
