@@ -1570,6 +1570,11 @@ PLArenaPool
 aArena
 )
 {
+MOZ_ASSERT
+(
+aArena
+)
+;
 SECOidTag
 curveOIDTag
 ;
