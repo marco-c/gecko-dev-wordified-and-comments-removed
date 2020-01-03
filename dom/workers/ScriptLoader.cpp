@@ -4883,6 +4883,14 @@ AssertIsOnMainThread
 (
 )
 ;
+nsRefPtr
+<
+CacheCreator
+>
+kungfuDeathGrip
+=
+this
+;
 for
 (
 uint32_t
