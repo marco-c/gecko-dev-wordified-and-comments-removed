@@ -1137,7 +1137,7 @@ mAppUnitsPerPhysicalInch
 -
 1
 )
-mPixelScale
+mFullZoom
 (
 1
 .
@@ -3174,7 +3174,7 @@ bool
 nsDeviceContext
 :
 :
-SetPixelScale
+SetFullZoom
 (
 float
 aScale
@@ -3192,8 +3192,8 @@ NS_NOTREACHED
 (
 "
 Invalid
-pixel
-scale
+full
+zoom
 value
 "
 )
@@ -3207,7 +3207,7 @@ oldAppUnitsPerDevPixel
 =
 mAppUnitsPerDevPixel
 ;
-mPixelScale
+mFullZoom
 =
 aScale
 ;
@@ -3245,11 +3245,11 @@ float
 mAppUnitsPerDevPixelAtUnitFullZoom
 )
 /
-mPixelScale
+mFullZoom
 )
 )
 ;
-mPixelScale
+mFullZoom
 =
 float
 (
