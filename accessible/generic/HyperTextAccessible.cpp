@@ -268,6 +268,10 @@ aNode
 aDoc
 )
 {
+mType
+=
+eHyperTextType
+;
 mGenericTypes
 |
 =
