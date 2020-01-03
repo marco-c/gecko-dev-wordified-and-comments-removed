@@ -2406,6 +2406,9 @@ const
 nsFrameConstructorState
 &
 aState
+nsIAtom
+*
+aContainerType
 )
 ;
 inline
@@ -2416,6 +2419,9 @@ const
 nsFrameConstructorState
 &
 aState
+nsIAtom
+*
+aContainerType
 )
 ;
 inline
@@ -2845,6 +2851,9 @@ const
 nsFrameConstructorState
 &
 aState
+nsIAtom
+*
+aContainerType
 )
 ;
 bool
