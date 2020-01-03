@@ -884,6 +884,10 @@ AB_CD
 )
 \
 (
+MOZ_PKG_EXTRAL10N
+)
+\
+(
 if
 (
 filter
