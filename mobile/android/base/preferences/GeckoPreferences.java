@@ -5238,6 +5238,7 @@ setPref
 (
 prefName
 newValue
+true
 )
 ;
 }
@@ -5830,6 +5831,16 @@ put
 name
 "
 PREFS_MP_ENABLED
+)
+;
+jsonPref
+.
+put
+(
+"
+flush
+"
+true
 )
 ;
 jsonPref
