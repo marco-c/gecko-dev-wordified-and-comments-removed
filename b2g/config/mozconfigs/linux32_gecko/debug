@@ -188,14 +188,6 @@ b2g
 ENABLE_MARIONETTE
 =
 1
-ac_add_options
--
--
-disable
--
-elf
--
-hack
 export
 CXXFLAGS
 =

@@ -179,14 +179,6 @@ enable
 application
 =
 b2g
-ac_add_options
--
--
-disable
--
-elf
--
-hack
 export
 CXXFLAGS
 =
