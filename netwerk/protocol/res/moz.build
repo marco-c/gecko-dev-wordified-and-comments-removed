@@ -113,7 +113,7 @@ XPIDL_MODULE
 '
 necko_res
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
