@@ -174,6 +174,7 @@ function
 return
 <
 iframe
+hidden
 id
 =
 "
@@ -188,7 +189,6 @@ props
 .
 marketplaceSrc
 }
-hidden
 /
 >
 ;

@@ -981,11 +981,6 @@ render
 (
 <
 AppControllerView
-roomStore
-=
-{
-roomStore
-}
 dispatcher
 =
 {
@@ -997,6 +992,11 @@ mozLoop
 navigator
 .
 mozLoop
+}
+roomStore
+=
+{
+roomStore
 }
 /
 >
