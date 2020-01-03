@@ -1067,6 +1067,12 @@ swap
 mAudioStream
 )
 ;
+if
+(
+!
+mStopAudioThread
+)
+{
 mStateMachine
 -
 >
@@ -1074,6 +1080,7 @@ DispatchOnAudioSinkComplete
 (
 )
 ;
+}
 ReentrantMonitorAutoExit
 exit
 (
