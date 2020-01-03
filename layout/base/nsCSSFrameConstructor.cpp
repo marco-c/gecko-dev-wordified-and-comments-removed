@@ -21399,6 +21399,16 @@ PassesConditionalProcessingTests
 )
 )
 {
+if
+(
+aIsWithinSVGText
+)
+{
+return
+&
+sSuppressData
+;
+}
 return
 &
 sContainerData
