@@ -1272,6 +1272,12 @@ _
 MOZ_ASAN
 )
 )
+XLDFLAGS
+:
+=
+(
+OS_LDFLAGS
+)
 DEFAULT_GMAKE_FLAGS
 +
 =
@@ -1279,7 +1285,7 @@ XLDFLAGS
 =
 '
 (
-OS_LDFLAGS
+XLDFLAGS
 )
 '
 endif
