@@ -10626,8 +10626,7 @@ true
 ;
 if
 (
-!
-IsValidTerminatingScope
+IsSyntacticScope
 (
 newParent
 )

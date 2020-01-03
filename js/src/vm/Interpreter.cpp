@@ -3495,7 +3495,8 @@ type
 =
 =
 EXECUTE_GLOBAL
-IsValidTerminatingScope
+!
+IsSyntacticScope
 (
 &
 scopeChainArg
@@ -3555,8 +3556,7 @@ scopeChainArg
 ;
 while
 (
-!
-IsValidTerminatingScope
+IsSyntacticScope
 (
 terminatingScope
 )

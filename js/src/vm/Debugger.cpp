@@ -3397,7 +3397,8 @@ true
 }
 MOZ_ASSERT
 (
-IsValidTerminatingScope
+!
+IsSyntacticScope
 (
 env
 )
@@ -39725,7 +39726,8 @@ env
 \
 MOZ_ASSERT
 (
-IsValidTerminatingScope
+!
+IsSyntacticScope
 (
 env
 )
