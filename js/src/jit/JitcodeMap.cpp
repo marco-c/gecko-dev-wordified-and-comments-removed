@@ -8282,6 +8282,12 @@ void
 addr
 )
 {
+js
+:
+:
+jit
+:
+:
 JitcodeGlobalTable
 *
 table
@@ -8298,6 +8304,12 @@ getJitcodeGlobalTable
 (
 )
 ;
+js
+:
+:
+jit
+:
+:
 JitcodeGlobalEntry
 entry
 ;

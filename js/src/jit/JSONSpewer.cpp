@@ -19,6 +19,15 @@ include
 "
 jit
 /
+BacktrackingAllocator
+.
+h
+"
+#
+include
+"
+jit
+/
 LIR
 .
 h
