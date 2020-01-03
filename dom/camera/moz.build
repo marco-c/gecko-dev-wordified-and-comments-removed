@@ -158,11 +158,6 @@ CameraPreviewMediaStream
 cpp
 '
 '
-CameraRecorderProfiles
-.
-cpp
-'
-'
 DOMCameraCapabilities
 .
 cpp
