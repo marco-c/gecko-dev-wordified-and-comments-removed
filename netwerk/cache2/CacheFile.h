@@ -563,10 +563,8 @@ const
 void
 ReleaseOutsideLock
 (
-nsRefPtr
-<
 nsISupports
->
+*
 aObject
 )
 ;
@@ -970,10 +968,8 @@ mOutput
 ;
 nsTArray
 <
-nsRefPtr
-<
 nsISupports
->
+*
 >
 mObjsToRelease
 ;
