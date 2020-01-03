@@ -3433,6 +3433,15 @@ DispatchAll
 }
 }
 ;
+typedef
+MediaPromise
+<
+bool
+nsresult
+false
+>
+GenericPromise
+;
 template
 <
 typename
