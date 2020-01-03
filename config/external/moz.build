@@ -300,9 +300,14 @@ if
 CONFIG
 [
 '
-ARM_ARCHITECTURE
+CPU_ARCH
 '
 ]
+=
+=
+'
+arm
+'
 :
 external_dirs
 +
