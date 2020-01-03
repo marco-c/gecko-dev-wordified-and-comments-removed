@@ -1279,9 +1279,6 @@ ComposeStyle
 (
 nsRefPtr
 <
-css
-:
-:
 AnimValuesStyleRule
 >
 &
@@ -1677,9 +1674,6 @@ aStyleRule
 aStyleRule
 =
 new
-css
-:
-:
 AnimValuesStyleRule
 (
 )

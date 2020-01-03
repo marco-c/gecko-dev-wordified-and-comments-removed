@@ -1630,9 +1630,6 @@ Initialize
 mozilla
 :
 :
-css
-:
-:
 CommonAnimationManager
 :
 :
