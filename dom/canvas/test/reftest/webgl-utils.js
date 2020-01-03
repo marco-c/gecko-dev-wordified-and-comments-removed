@@ -327,11 +327,6 @@ raf
 window
 .
 requestAnimationFrame
-|
-|
-window
-.
-mozRequestAnimationFrame
 ;
 raf
 (
