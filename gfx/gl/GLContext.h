@@ -803,6 +803,16 @@ IsCurrent
 =
 0
 ;
+virtual
+GLuint
+GetDefaultFramebuffer
+(
+)
+{
+return
+0
+;
+}
 protected
 :
 bool
