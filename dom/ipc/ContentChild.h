@@ -1847,13 +1847,6 @@ aProfile
 )
 MOZ_OVERRIDE
 ;
-virtual
-bool
-RecvShutdown
-(
-)
-MOZ_OVERRIDE
-;
 #
 ifdef
 ANDROID

@@ -3889,16 +3889,6 @@ MOZ_ASSERT
 mTabChild
 )
 ;
-if
-(
-mTabChild
--
->
-IPCOpen
-(
-)
-)
-{
 unused
 <
 <
@@ -3910,7 +3900,6 @@ Send__delete__
 mTabChild
 )
 ;
-}
 mTabChild
 =
 nullptr
@@ -4463,10 +4452,6 @@ mDPI
 mDefaultScale
 (
 0
-)
-mIPCOpen
-(
-true
 )
 {
 if
@@ -7544,10 +7529,6 @@ ActorDestroyReason
 why
 )
 {
-mIPCOpen
-=
-false
-;
 DestroyWindow
 (
 )
