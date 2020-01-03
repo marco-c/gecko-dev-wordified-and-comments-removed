@@ -3391,6 +3391,12 @@ HasScrollableFrameMetrics
 )
 const
 ;
+bool
+IsScrollInfoLayer
+(
+)
+const
+;
 const
 EventRegions
 &

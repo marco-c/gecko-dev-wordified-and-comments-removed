@@ -329,11 +329,6 @@ Filter
 LINEAR
 ;
 }
-CSSToScreenScale
-GetEffectiveResolution
-(
-)
-;
 private
 :
 RefPtr
