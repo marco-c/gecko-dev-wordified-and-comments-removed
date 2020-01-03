@@ -624,10 +624,6 @@ SVGViewFrame
 )
 FRAME_ID
 (
-nsTableCaptionFrame
-)
-FRAME_ID
-(
 nsTableCellFrame
 )
 FRAME_ID
