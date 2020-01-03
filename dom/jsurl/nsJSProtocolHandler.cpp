@@ -713,7 +713,7 @@ principal
 loadInfo
 -
 >
-LoadingPrincipal
+TriggeringPrincipal
 (
 )
 ;
