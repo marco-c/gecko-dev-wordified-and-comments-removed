@@ -3069,12 +3069,6 @@ array
 "
 )
 ;
-du
-.
-Cleanup
-(
-)
-;
 return
 false
 ;
@@ -3112,12 +3106,6 @@ array
 .
 mArrayCount
 pErr
-)
-;
-du
-.
-Cleanup
-(
 )
 ;
 return

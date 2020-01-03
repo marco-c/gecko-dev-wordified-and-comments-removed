@@ -60,6 +60,16 @@ VTYPE_EMPTY
 )
 {
 }
+~
+nsDiscriminatedUnion
+(
+)
+{
+Cleanup
+(
+)
+;
+}
 void
 Cleanup
 (
@@ -745,6 +755,8 @@ private
 nsVariant
 (
 )
+{
+}
 ;
 protected
 :
