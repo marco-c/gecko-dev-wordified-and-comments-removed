@@ -164,7 +164,7 @@ mMouseTransparent
 (
 false
 )
-mRequireOffMainThreadCompositing
+mMultiProcessWindow
 (
 false
 )
@@ -212,7 +212,7 @@ bool
 mMouseTransparent
 ;
 bool
-mRequireOffMainThreadCompositing
+mMultiProcessWindow
 ;
 }
 ;

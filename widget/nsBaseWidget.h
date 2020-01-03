@@ -2234,7 +2234,7 @@ bool
 mForceLayersAcceleration
 ;
 bool
-mRequireOffMainThreadCompositing
+mMultiProcessWindow
 ;
 bool
 mUseAttachedEvents
