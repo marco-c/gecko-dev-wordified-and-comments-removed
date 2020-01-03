@@ -1000,7 +1000,7 @@ case
 PBrowserOrId
 :
 :
-TTabId
+Tuint64_t
 :
 {
 aResult
@@ -1011,7 +1011,7 @@ LoadContext
 aSerialized
 aBrowser
 .
-get_TabId
+get_uint64_t
 (
 )
 appId
@@ -3491,7 +3491,7 @@ NestedFrameAuthPrompt
 PNeckoParent
 *
 aParent
-TabId
+uint64_t
 aNestedFrameId
 )
 :

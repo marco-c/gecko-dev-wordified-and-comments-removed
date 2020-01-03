@@ -124,11 +124,6 @@ BlobParent
 h
 '
 '
-IdType
-.
-h
-'
-'
 nsIRemoteBlob
 .
 h
@@ -164,11 +159,6 @@ h
 '
 '
 ContentProcess
-.
-h
-'
-'
-ContentProcessManager
 .
 h
 '
@@ -286,11 +276,6 @@ cpp
 '
 '
 ContentProcess
-.
-cpp
-'
-'
-ContentProcessManager
 .
 cpp
 '
@@ -457,11 +442,6 @@ ipdl
 PBrowser
 .
 ipdl
-'
-'
-PBrowserOrId
-.
-ipdlh
 '
 '
 PColorPicker
