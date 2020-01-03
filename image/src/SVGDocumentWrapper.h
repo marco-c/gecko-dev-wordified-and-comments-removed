@@ -123,16 +123,6 @@ eWidth
 eHeight
 }
 ;
-bool
-GetWidthOrHeight
-(
-Dimension
-aDimension
-int32_t
-&
-aResult
-)
-;
 nsIDocument
 *
 GetDocument

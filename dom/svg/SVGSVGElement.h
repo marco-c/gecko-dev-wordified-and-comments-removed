@@ -623,12 +623,12 @@ uint8_t
 mCtxType
 )
 ;
-float
+int32_t
 GetIntrinsicWidth
 (
 )
 ;
-float
+int32_t
 GetIntrinsicHeight
 (
 )
