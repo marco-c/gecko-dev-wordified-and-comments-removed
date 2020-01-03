@@ -53,7 +53,7 @@ h
 #
 include
 "
-nsNetUtil
+prtime
 .
 h
 "
