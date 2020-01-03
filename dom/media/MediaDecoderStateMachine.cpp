@@ -6899,10 +6899,7 @@ nsIRunnable
 >
 event
 =
-NS_NewRunnableMethodWithArg
-<
-TimeUnit
->
+NS_NewRunnableMethod
 (
 mDecoder
 &
@@ -6910,7 +6907,6 @@ MediaDecoder
 :
 :
 DurationChanged
-duration
 )
 ;
 AbstractThread

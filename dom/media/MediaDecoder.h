@@ -790,11 +790,6 @@ const
 void
 DurationChanged
 (
-media
-:
-:
-TimeUnit
-aNewDuration
 )
 ;
 bool
@@ -1932,6 +1927,10 @@ aValue
 )
 )
 ;
+DurationChanged
+(
+)
+;
 }
 public
 :
@@ -2096,6 +2095,9 @@ mMinimizePreroll
 ;
 bool
 mMediaTracksConstructed
+;
+bool
+mFiredMetadataLoaded
 ;
 nsAutoPtr
 <
