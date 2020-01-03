@@ -89,6 +89,9 @@ js
 class
 AutoLockGC
 ;
+class
+VerifyPreTracer
+;
 namespace
 gc
 {
@@ -3516,7 +3519,7 @@ ReleaseAcquire
 >
 numArenasFreeCommitted
 ;
-void
+VerifyPreTracer
 *
 verifyPreData
 ;
