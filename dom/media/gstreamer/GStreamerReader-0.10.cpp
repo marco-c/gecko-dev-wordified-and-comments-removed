@@ -937,7 +937,7 @@ endianness
 "
 G_TYPE_INT
 endianness
-NULL
+nullptr
 )
 ;
 return
