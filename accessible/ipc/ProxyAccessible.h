@@ -231,6 +231,14 @@ mDoc
 (
 nullptr
 )
+mWrapper
+(
+0
+)
+mID
+(
+0
+)
 {
 MOZ_COUNT_CTOR
 (
