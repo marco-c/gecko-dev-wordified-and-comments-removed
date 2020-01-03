@@ -3480,6 +3480,9 @@ GCParallelTask
 (
 )
 {
+#
+ifdef
+DEBUG
 AutoLockHelperThreadState
 helperLock
 ;
@@ -3491,6 +3494,8 @@ state
 NotStarted
 )
 ;
+#
+endif
 }
 bool
 js

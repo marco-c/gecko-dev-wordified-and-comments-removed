@@ -11199,6 +11199,7 @@ lock
 UpdateCellPointersTask
 (
 )
+override
 {
 join
 (
