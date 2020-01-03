@@ -191,6 +191,8 @@ nsCString
 hostName
 uint32_t
 flags
+nsCString
+networkInterface
 nsresult
 reason
 )

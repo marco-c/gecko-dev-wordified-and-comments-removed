@@ -115,6 +115,10 @@ nsACString
 aHost
 uint32_t
 aFlags
+const
+nsACString
+&
+aNetworkInterface
 nsIDNSListener
 *
 aListener
