@@ -283,7 +283,7 @@ MetadataTags
 >
 aTags
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 )
 =
 0
@@ -318,7 +318,7 @@ MediaInfo
 >
 aInfo
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 )
 =
 0
@@ -551,7 +551,7 @@ MetadataTags
 >
 aTags
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 )
 :
 mDecoder
@@ -566,9 +566,9 @@ mTags
 (
 aTags
 )
-mRestoredFromDromant
+mRestoredFromDormant
 (
-aRestoredFromDromant
+aRestoredFromDormant
 )
 {
 }
@@ -591,7 +591,7 @@ MetadataTags
 mTags
 ;
 bool
-mRestoredFromDromant
+mRestoredFromDormant
 ;
 }
 ;
@@ -621,7 +621,7 @@ MetadataTags
 >
 aTags
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 =
 false
 )
@@ -631,7 +631,7 @@ MetadataContainer
 aDecoder
 aInfo
 aTags
-aRestoredFromDromant
+aRestoredFromDormant
 )
 {
 }
@@ -648,7 +648,7 @@ MetadataLoaded
 (
 mInfo
 mTags
-mRestoredFromDromant
+mRestoredFromDormant
 )
 ;
 return
@@ -678,7 +678,7 @@ MediaInfo
 >
 aInfo
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 =
 false
 )
@@ -694,7 +694,7 @@ MetadataTags
 (
 nullptr
 )
-aRestoredFromDromant
+aRestoredFromDormant
 )
 {
 }
@@ -710,7 +710,7 @@ mDecoder
 FirstFrameLoaded
 (
 mInfo
-mRestoredFromDromant
+mRestoredFromDormant
 )
 ;
 return
@@ -745,7 +745,7 @@ MetadataTags
 >
 aTags
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 =
 false
 )
@@ -755,7 +755,7 @@ MetadataContainer
 aDecoder
 aInfo
 aTags
-aRestoredFromDromant
+aRestoredFromDormant
 )
 {
 }
@@ -790,7 +790,7 @@ MetadataLoaded
 (
 info
 mTags
-mRestoredFromDromant
+mRestoredFromDormant
 )
 ;
 mDecoder
@@ -799,7 +799,7 @@ mDecoder
 FirstFrameLoaded
 (
 mInfo
-mRestoredFromDromant
+mRestoredFromDormant
 )
 ;
 return

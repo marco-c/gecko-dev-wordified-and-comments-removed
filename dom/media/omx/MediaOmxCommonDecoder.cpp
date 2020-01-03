@@ -209,7 +209,7 @@ MediaInfo
 >
 aInfo
 bool
-aRestoredFromDromant
+aRestoredFromDormant
 )
 {
 MOZ_ASSERT
@@ -225,7 +225,7 @@ MediaDecoder
 FirstFrameLoaded
 (
 aInfo
-aRestoredFromDromant
+aRestoredFromDormant
 )
 ;
 ReentrantMonitorAutoEnter
