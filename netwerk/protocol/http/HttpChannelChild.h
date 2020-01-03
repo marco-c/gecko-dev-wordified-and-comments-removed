@@ -463,6 +463,10 @@ const
 int16_t
 &
 redirectCount
+const
+HttpChannelCacheKey
+&
+cacheKey
 )
 override
 ;
@@ -774,6 +778,12 @@ mCacheExpirationTime
 nsCString
 mCachedCharset
 ;
+nsCOMPtr
+<
+nsISupports
+>
+mCacheKey
+;
 bool
 mSendResumeAt
 ;
@@ -871,6 +881,10 @@ const
 NetAddr
 &
 peerAddr
+const
+HttpChannelCacheKey
+&
+cacheKey
 )
 ;
 void

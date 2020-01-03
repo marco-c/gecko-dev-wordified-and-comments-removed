@@ -404,6 +404,10 @@ const
 OptionalHttpResponseHead
 &
 aSynthesizedResponseHead
+const
+OptionalHttpChannelCacheKey
+&
+aCacheKey
 )
 ;
 virtual

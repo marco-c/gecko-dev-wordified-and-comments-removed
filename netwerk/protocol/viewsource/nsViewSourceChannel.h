@@ -113,7 +113,7 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSIHTTPCHANNEL
 NS_FORWARD_SAFE_NSICACHEINFOCHANNEL
 (
-mCachingChannel
+mCacheInfoChannel
 )
 NS_FORWARD_SAFE_NSICACHINGCHANNEL
 (
@@ -200,6 +200,12 @@ nsCOMPtr
 nsICachingChannel
 >
 mCachingChannel
+;
+nsCOMPtr
+<
+nsICacheInfoChannel
+>
+mCacheInfoChannel
 ;
 nsCOMPtr
 <

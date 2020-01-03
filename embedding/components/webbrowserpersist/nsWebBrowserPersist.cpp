@@ -92,7 +92,7 @@ h
 #
 include
 "
-nsICachingChannel
+nsICacheInfoChannel
 .
 h
 "
@@ -4824,7 +4824,7 @@ EmptyCString
 }
 nsCOMPtr
 <
-nsICachingChannel
+nsICacheInfoChannel
 >
 cacheChannel
 (
