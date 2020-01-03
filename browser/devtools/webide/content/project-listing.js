@@ -220,6 +220,7 @@ onAppManagerUpdate
 (
 event
 what
+details
 )
 {
 switch
@@ -240,9 +241,7 @@ case
 "
 runtime
 -
-apps
--
-found
+targets
 "
 :
 case
@@ -268,6 +267,7 @@ projectList
 .
 update
 (
+details
 )
 ;
 break
