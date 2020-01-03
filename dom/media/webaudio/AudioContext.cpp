@@ -3241,9 +3241,6 @@ aPromise
 return
 ;
 }
-#
-ifndef
-WIN32
 MOZ_ASSERT
 (
 (
@@ -3339,8 +3336,6 @@ transition
 "
 )
 ;
-#
-endif
 MOZ_ASSERT
 (
 mIsOffline
