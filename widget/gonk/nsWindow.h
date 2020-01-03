@@ -266,6 +266,16 @@ uint32_t
 aDataType
 )
 ;
+virtual
+void
+SetNativeData
+(
+uint32_t
+aDataType
+uintptr_t
+aVal
+)
+;
 NS_IMETHOD
 SetTitle
 (
