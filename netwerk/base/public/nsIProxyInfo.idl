@@ -229,6 +229,17 @@ HTTPS
 )
 *
 "
+https
+"
+HTTP
+proxying
+over
+TLS
+connection
+to
+proxy
+*
+"
 socks
 "
 SOCKS
