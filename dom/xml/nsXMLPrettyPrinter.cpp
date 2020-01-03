@@ -487,6 +487,13 @@ GetSystemPrincipal
 )
 nullptr
 true
+mozilla
+:
+:
+net
+:
+:
+RP_Default
 getter_AddRefs
 (
 xslDocument

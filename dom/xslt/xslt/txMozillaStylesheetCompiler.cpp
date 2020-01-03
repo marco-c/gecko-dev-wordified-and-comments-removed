@@ -273,6 +273,15 @@ dom
 :
 EncodingUtils
 ;
+using
+mozilla
+:
+:
+net
+:
+:
+ReferrerPolicy
+;
 static
 NS_DEFINE_CID
 (
@@ -1613,6 +1622,8 @@ aCompiler
 nsIPrincipal
 *
 aSourcePrincipal
+ReferrerPolicy
+aReferrerPolicy
 )
 ;
 private
@@ -1678,6 +1689,8 @@ const
 nsAString
 &
 aReferrerUri
+ReferrerPolicy
+aReferrerPolicy
 txStylesheetCompiler
 *
 aCompiler
@@ -1831,6 +1844,7 @@ startLoad
 uri
 aCompiler
 referrerPrincipal
+aReferrerPolicy
 )
 ;
 }
@@ -1906,6 +1920,8 @@ aCompiler
 nsIPrincipal
 *
 aReferrerPrincipal
+ReferrerPolicy
+aReferrerPolicy
 )
 {
 nsCOMPtr
@@ -2045,9 +2061,10 @@ referrerURI
 httpChannel
 -
 >
-SetReferrer
+SetReferrerWithPolicy
 (
 referrerURI
+aReferrerPolicy
 )
 ;
 }
@@ -2175,6 +2192,8 @@ aProcessor
 nsIDocument
 *
 aLoaderDocument
+ReferrerPolicy
+aReferrerPolicy
 )
 {
 nsIPrincipal
@@ -2306,6 +2325,7 @@ NS_ConvertUTF8toUTF16
 (
 spec
 )
+aReferrerPolicy
 observer
 )
 ;
@@ -2324,6 +2344,7 @@ startLoad
 aUri
 compiler
 principal
+aReferrerPolicy
 )
 ;
 }
@@ -2786,6 +2807,8 @@ const
 nsAString
 &
 aReferrerUri
+ReferrerPolicy
+aReferrerPolicy
 txStylesheetCompiler
 *
 aCompiler
@@ -2989,6 +3012,7 @@ uri
 referrerPrincipal
 nullptr
 false
+aReferrerPolicy
 getter_AddRefs
 (
 document
@@ -3297,6 +3321,12 @@ new
 txStylesheetCompiler
 (
 stylesheetURI
+doc
+-
+>
+GetReferrerPolicy
+(
+)
 obs
 )
 ;

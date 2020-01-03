@@ -132,6 +132,15 @@ using
 namespace
 mozilla
 ;
+using
+mozilla
+:
+:
+net
+:
+:
+ReferrerPolicy
+;
 txStylesheetCompiler
 :
 :
@@ -141,6 +150,8 @@ const
 nsAString
 &
 aStylesheetURI
+ReferrerPolicy
+aReferrerPolicy
 txACompileObserver
 *
 aObserver
@@ -156,6 +167,7 @@ mStatus
 init
 (
 aStylesheetURI
+aReferrerPolicy
 nullptr
 nullptr
 )
@@ -176,6 +188,8 @@ aStylesheet
 txListIterator
 *
 aInsertPosition
+ReferrerPolicy
+aReferrerPolicy
 txACompileObserver
 *
 aObserver
@@ -191,6 +205,7 @@ mStatus
 init
 (
 aStylesheetURI
+aReferrerPolicy
 aStylesheet
 aInsertPosition
 )
@@ -2015,6 +2030,8 @@ const
 nsAString
 &
 aReferrerUri
+ReferrerPolicy
+aReferrerPolicy
 txStylesheetCompiler
 *
 aCompiler
@@ -2085,6 +2102,7 @@ loadURI
 (
 aUri
 aReferrerUri
+aReferrerPolicy
 aCompiler
 )
 :
@@ -2425,6 +2443,8 @@ const
 nsAString
 &
 aStylesheetURI
+ReferrerPolicy
+aReferrerPolicy
 txStylesheet
 *
 aStylesheet
@@ -2453,6 +2473,10 @@ subsheet
 mStylesheetURI
 =
 aStylesheetURI
+;
+mReferrerPolicy
+=
+aReferrerPolicy
 ;
 int32_t
 fragment
@@ -3426,6 +3450,7 @@ aURI
 mStylesheet
 &
 mToplevelIterator
+mReferrerPolicy
 observer
 )
 ;
@@ -3467,6 +3492,7 @@ loadURI
 (
 aURI
 mStylesheetURI
+mReferrerPolicy
 compiler
 )
 ;
@@ -3600,6 +3626,7 @@ aURI
 mStylesheet
 &
 iter
+mReferrerPolicy
 observer
 )
 ;
@@ -3636,6 +3663,7 @@ loadURI
 (
 aURI
 mStylesheetURI
+mReferrerPolicy
 compiler
 )
 ;
@@ -4776,6 +4804,13 @@ txStylesheetCompiler
 EmptyString
 (
 )
+mozilla
+:
+:
+net
+:
+:
+RP_Default
 nullptr
 )
 ;
