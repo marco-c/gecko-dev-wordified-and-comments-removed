@@ -2228,6 +2228,9 @@ indexOf
 "
 lastIndexOf
 "
+"
+reverse
+"
 ]
 ;
 for
