@@ -2805,9 +2805,6 @@ ImageContainer
 NonOwningImage
 (
 image
-TimeStamp
-(
-)
 )
 )
 ;

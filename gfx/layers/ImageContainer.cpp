@@ -855,6 +855,10 @@ mDroppedImageCount
 (
 0
 )
+mCurrentImageFrameID
+(
+0
+)
 mCurrentImageComposited
 (
 false
@@ -1194,6 +1198,8 @@ const
 TimeStamp
 &
 aTimeStamp
+FrameID
+aFrameID
 )
 {
 ReentrantMonitorAutoEnter
@@ -1208,6 +1214,12 @@ mActiveImage
 !
 =
 aImage
+|
+|
+aFrameID
+!
+=
+mCurrentImageFrameID
 )
 {
 if
@@ -1242,7 +1254,7 @@ mFrameIDsNotYetComposited
 .
 AppendElement
 (
-mGenerationCounter
+mCurrentImageFrameID
 )
 ;
 }
@@ -1251,6 +1263,10 @@ mGenerationCounter
 +
 +
 sGenerationCounter
+;
+mCurrentImageFrameID
+=
+aFrameID
 ;
 mCurrentImageComposited
 =
@@ -1286,6 +1302,7 @@ nullptr
 TimeStamp
 (
 )
+0
 )
 ;
 }
@@ -1363,6 +1380,12 @@ aImages
 ]
 .
 mTimeStamp
+aImages
+[
+0
+]
+.
+mFrameID
 )
 ;
 }
@@ -1405,6 +1428,7 @@ nullptr
 TimeStamp
 (
 )
+0
 )
 ;
 }
@@ -1456,6 +1480,7 @@ aImage
 TimeStamp
 (
 )
+0
 )
 ;
 }
@@ -1600,7 +1625,7 @@ img
 >
 mFrameID
 =
-mGenerationCounter
+mCurrentImageFrameID
 ;
 img
 -
@@ -1754,7 +1779,7 @@ frameID
 )
 =
 =
-mGenerationCounter
+mCurrentImageFrameID
 )
 {
 mCurrentImageComposited

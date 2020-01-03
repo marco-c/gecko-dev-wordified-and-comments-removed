@@ -43,6 +43,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+ImageContainer
+.
+h
+"
 namespace
 mozilla
 {
@@ -194,6 +201,12 @@ mMutex
 ;
 gfxIntSize
 mIntrinsicSize
+;
+ImageContainer
+:
+:
+FrameID
+mFrameID
 ;
 bool
 mIntrinsicSizeChanged
