@@ -1415,6 +1415,9 @@ factory
 if
 (
 contractID
+&
+&
+contractID
 .
 startsWith
 (
