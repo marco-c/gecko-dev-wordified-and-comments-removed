@@ -164,6 +164,17 @@ stopRecording
 panel
 )
 ;
+ok
+(
+true
+"
+Recording
+has
+ended
+.
+"
+)
+;
 let
 markers
 =
