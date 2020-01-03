@@ -466,7 +466,7 @@ MarkExactStackRootList
 <
 BaseShape
 *
-MarkBaseShapeRoot
+TraceRoot
 >
 (
 trc
@@ -2217,14 +2217,9 @@ if
 (
 base
 )
-MarkBaseShapeRoot
+TraceRoot
 (
 trc
-(
-BaseShape
-*
-*
-)
 &
 base
 "

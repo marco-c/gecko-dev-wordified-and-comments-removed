@@ -5744,7 +5744,7 @@ JSTracer
 trc
 )
 {
-MarkBaseShape
+TraceEdge
 (
 trc
 &

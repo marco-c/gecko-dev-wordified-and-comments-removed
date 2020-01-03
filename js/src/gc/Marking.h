@@ -490,16 +490,6 @@ thingp
 ;
 DeclMarker
 (
-BaseShape
-BaseShape
-)
-DeclMarker
-(
-BaseShape
-UnownedBaseShape
-)
-DeclMarker
-(
 JitCode
 jit
 :
