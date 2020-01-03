@@ -114,6 +114,11 @@ MDefinition
 mir
 )
 ;
+LDefinition
+tempByteOpRegister
+(
+)
+;
 inline
 LDefinition
 tempToUnbox
@@ -643,6 +648,14 @@ bool
 visitAtomicTypedArrayElementBinop
 (
 MAtomicTypedArrayElementBinop
+*
+ins
+)
+;
+bool
+visitSubstr
+(
+MSubstr
 *
 ins
 )

@@ -141,6 +141,11 @@ mir
 )
 ;
 LDefinition
+tempByteOpRegister
+(
+)
+;
+LDefinition
 tempToUnbox
 (
 )
@@ -242,6 +247,14 @@ bool
 visitStoreTypedArrayElementStatic
 (
 MStoreTypedArrayElementStatic
+*
+ins
+)
+;
+bool
+visitSubstr
+(
+MSubstr
 *
 ins
 )
