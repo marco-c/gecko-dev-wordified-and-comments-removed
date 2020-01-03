@@ -25,6 +25,9 @@ LazyScript
 class
 ObjectGroup
 ;
+class
+Shape
+;
 namespace
 jit
 {

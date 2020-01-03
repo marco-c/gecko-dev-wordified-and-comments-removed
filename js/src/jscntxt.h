@@ -2387,17 +2387,6 @@ PropertyName
 >
 AutoPropertyNameVector
 ;
-typedef
-JS
-:
-:
-AutoVectorRooter
-<
-Shape
-*
->
-AutoShapeVector
-;
 using
 ShapeVector
 =
