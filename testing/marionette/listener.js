@@ -9591,13 +9591,8 @@ true
 sendError
 (
 new
-UnknownError
+UnableToSetCookieError
 (
-"
-Error
-setting
-cookie
-"
 )
 msg
 .
