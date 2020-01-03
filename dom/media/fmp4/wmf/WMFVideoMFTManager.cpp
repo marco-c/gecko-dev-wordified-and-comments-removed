@@ -1117,6 +1117,16 @@ aSample
 {
 if
 (
+!
+mDecoder
+)
+{
+return
+E_FAIL
+;
+}
+if
+(
 mStreamType
 !
 =
