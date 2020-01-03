@@ -5473,6 +5473,16 @@ ActivateOrDeactivate
 aActive
 )
 ;
+if
+(
+aWindow
+-
+>
+GetExtantDoc
+(
+)
+)
+{
 nsContentUtils
 :
 :
@@ -5505,6 +5515,7 @@ true
 nullptr
 )
 ;
+}
 nsContentUtils
 :
 :
