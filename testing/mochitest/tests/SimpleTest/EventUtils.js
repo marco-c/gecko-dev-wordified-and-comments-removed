@@ -4040,6 +4040,7 @@ function
 _getTIP
 (
 aWindow
+aCallback
 )
 {
 if
@@ -4100,6 +4101,7 @@ _EU_TIP
 initForTests
 (
 aWindow
+aCallback
 )
 )
 {
@@ -4121,6 +4123,7 @@ synthesizeComposition
 (
 aEvent
 aWindow
+aCallback
 )
 {
 var
@@ -4129,6 +4132,7 @@ TIP
 _getTIP
 (
 aWindow
+aCallback
 )
 ;
 if
@@ -4199,6 +4203,7 @@ synthesizeCompositionChange
 (
 aEvent
 aWindow
+aCallback
 )
 {
 var
@@ -4207,6 +4212,7 @@ TIP
 _getTIP
 (
 aWindow
+aCallback
 )
 ;
 if
