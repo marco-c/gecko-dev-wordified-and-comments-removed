@@ -939,12 +939,7 @@ isActive
 {
 if
 (
-!
-isActive
-&
-&
-!
-mVisible
+mForcespeaker
 )
 {
 SpeakerManagerService
@@ -968,7 +963,7 @@ service
 >
 ForceSpeaker
 (
-false
+isActive
 mVisible
 )
 ;
