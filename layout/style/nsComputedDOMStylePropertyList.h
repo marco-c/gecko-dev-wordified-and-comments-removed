@@ -260,6 +260,11 @@ Color
 )
 COMPUTED_STYLE_PROP
 (
+contain
+Contain
+)
+COMPUTED_STYLE_PROP
+(
 content
 Content
 )

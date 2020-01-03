@@ -1981,6 +1981,11 @@ larger
 )
 CSS_KEY
 (
+layout
+layout
+)
+CSS_KEY
+(
 left
 left
 )
@@ -2385,6 +2390,11 @@ CSS_KEY
 (
 overline
 overline
+)
+CSS_KEY
+(
+paint
+paint
 )
 CSS_KEY
 (
@@ -3025,6 +3035,11 @@ CSS_KEY
 (
 stretched
 stretched
+)
+CSS_KEY
+(
+strict
+strict
 )
 CSS_KEY
 (
