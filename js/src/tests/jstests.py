@@ -2711,6 +2711,23 @@ TZ
 PST8PDT
 '
     
+os
+.
+environ
+[
+'
+LC_TIME
+'
+]
+=
+'
+en_US
+.
+UTF
+-
+8
+'
+    
 results
 =
 None
