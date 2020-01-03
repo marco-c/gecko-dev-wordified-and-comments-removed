@@ -2374,7 +2374,8 @@ return
 false
 ;
 }
-void
+SelfType
+&
 Shift
 (
 const
@@ -2413,6 +2414,10 @@ mEnd
 aOffset
 ;
 }
+return
+*
+this
+;
 }
 void
 SetFuzz
