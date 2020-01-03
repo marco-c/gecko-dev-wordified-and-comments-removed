@@ -56,7 +56,7 @@ e
 .
 message
 .
-contains
+includes
 (
 "
 XY

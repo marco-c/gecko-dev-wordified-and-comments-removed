@@ -4,7 +4,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 a
@@ -19,7 +19,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 b
@@ -34,7 +34,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 abc
@@ -49,7 +49,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 bc
@@ -64,7 +64,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 d
@@ -79,7 +79,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 abcd
@@ -94,7 +94,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 ac
@@ -109,7 +109,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 abc
@@ -125,7 +125,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 bc
@@ -141,7 +141,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 de
@@ -157,7 +157,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 bc
@@ -173,7 +173,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 c
@@ -189,7 +189,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 a
@@ -205,7 +205,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 abc
@@ -221,7 +221,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 c
@@ -237,7 +237,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 d
@@ -253,7 +253,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 dcd
@@ -269,7 +269,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 a
@@ -285,7 +285,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 a
@@ -301,7 +301,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 ab
@@ -318,7 +318,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 cd
@@ -335,7 +335,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 ab
@@ -352,7 +352,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 cd
@@ -369,7 +369,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 ab
@@ -385,7 +385,7 @@ assertEq
 abc
 "
 .
-contains
+includes
 (
 "
 cd
@@ -408,20 +408,20 @@ toString
 "
 abc
 "
-contains
+includes
 :
 String
 .
 prototype
 .
-contains
+includes
 }
 ;
 assertEq
 (
 myobj
 .
-contains
+includes
 (
 "
 abc
@@ -434,7 +434,7 @@ assertEq
 (
 myobj
 .
-contains
+includes
 (
 "
 cd
@@ -478,13 +478,13 @@ xyz
 ;
 }
 )
-contains
+includes
 :
 String
 .
 prototype
 .
-contains
+includes
 }
 ;
 var
@@ -517,7 +517,7 @@ return
 ;
 myobj
 .
-contains
+includes
 (
 "
 elephant
@@ -537,7 +537,7 @@ assertEq
 xyzzy
 "
 .
-contains
+includes
 (
 "
 zy
@@ -568,7 +568,7 @@ assertEq
 (
 dots
 .
-contains
+includes
 (
 "
 \
@@ -583,7 +583,7 @@ assertEq
 (
 dots
 .
-contains
+includes
 (
 "
 \

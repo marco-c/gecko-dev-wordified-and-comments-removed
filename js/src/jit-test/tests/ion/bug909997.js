@@ -172,7 +172,7 @@ toString
 (
 )
 .
-contains
+includes
 (
 "
 on

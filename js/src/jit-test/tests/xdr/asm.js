@@ -83,7 +83,7 @@ x
 .
 message
 .
-contains
+includes
 (
 "
 AsmJS
@@ -98,7 +98,7 @@ x
 .
 message
 .
-contains
+includes
 (
 "
 XDR

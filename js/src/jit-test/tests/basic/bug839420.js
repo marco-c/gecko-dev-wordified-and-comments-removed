@@ -41,7 +41,7 @@ toString
 (
 )
 .
-contains
+includes
 (
 "
 x
@@ -88,7 +88,7 @@ toString
 (
 )
 .
-contains
+includes
 (
 "
 x
