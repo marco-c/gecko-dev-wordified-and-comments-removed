@@ -475,8 +475,9 @@ if
 GetSize
 (
 )
-<
-2
+=
+=
+0
 )
 {
 return
@@ -503,7 +504,9 @@ return
 last
 -
 >
-mTime
+GetEndTime
+(
+)
 -
 first
 -
