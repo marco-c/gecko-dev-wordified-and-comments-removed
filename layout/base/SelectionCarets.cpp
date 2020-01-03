@@ -5651,6 +5651,17 @@ bool
 aIsLeavingDocument
 )
 {
+SELECTIONCARETS_LOG
+(
+"
+Send
+out
+the
+blur
+event
+"
+)
+;
 SetVisibility
 (
 false
