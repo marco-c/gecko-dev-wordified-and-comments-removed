@@ -3260,8 +3260,8 @@ AllowConstantObjects
 DontAllowObjects
 =
 0
-DontAllowNestedObjects
 AllowObjects
+ForCopyOnWriteArray
 }
 ;
 bool

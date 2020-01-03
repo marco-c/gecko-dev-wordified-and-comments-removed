@@ -17381,10 +17381,11 @@ else
 {
 clone
 =
-CloneObjectLiteral
+DeepCloneObjectLiteral
 (
 cx
 obj
+TenuredObject
 )
 ;
 }

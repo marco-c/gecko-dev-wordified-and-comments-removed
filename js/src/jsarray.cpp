@@ -1239,7 +1239,6 @@ address
 (
 )
 1
-UpdateTypes
 )
 ;
 if
@@ -1907,7 +1906,6 @@ address
 (
 )
 1
-UpdateTypes
 )
 ;
 if
@@ -5747,6 +5745,11 @@ Value
 vector
 ShouldUpdateTypes
 updateTypes
+=
+ShouldUpdateTypes
+:
+:
+Update
 )
 {
 MOZ_ASSERT
@@ -9239,7 +9242,10 @@ vec
 begin
 (
 )
-DontUpdateTypes
+ShouldUpdateTypes
+:
+:
+DontUpdate
 )
 )
 return
@@ -9551,7 +9557,6 @@ args
 length
 (
 )
-UpdateTypes
 )
 ;
 if
@@ -9640,7 +9645,6 @@ args
 array
 (
 )
-UpdateTypes
 )
 )
 return
@@ -10879,7 +10883,6 @@ args
 array
 (
 )
-UpdateTypes
 )
 )
 return
@@ -16826,7 +16829,7 @@ js
 :
 NewDenseCopiedArray
 (
-JSContext
+ExclusiveContext
 *
 cx
 uint32_t
@@ -16928,7 +16931,7 @@ js
 :
 NewDenseCopiedArray
 (
-JSContext
+ExclusiveContext
 *
 cx
 uint32_t
@@ -16955,6 +16958,7 @@ UINT32_MAX
 cx
 length
 proto
+newKind
 )
 ;
 if
@@ -17236,7 +17240,7 @@ JSObject
 *
 NewArrayTryUseGroup
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleObjectGroup
@@ -17439,13 +17443,15 @@ js
 :
 NewFullyAllocatedArrayTryUseGroup
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleObjectGroup
 group
 size_t
 length
+NewObjectKind
+newKind
 )
 {
 return
@@ -17457,6 +17463,7 @@ UINT32_MAX
 cx
 group
 length
+newKind
 )
 ;
 }
@@ -17467,7 +17474,7 @@ js
 :
 NewPartlyAllocatedArrayTryUseGroup
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleObjectGroup
@@ -17805,7 +17812,7 @@ js
 :
 NewCopiedArrayTryUseGroup
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleObjectGroup
@@ -17816,6 +17823,10 @@ Value
 vp
 size_t
 length
+NewObjectKind
+newKind
+ShouldUpdateTypes
+updateTypes
 )
 {
 JSObject
@@ -17827,6 +17838,7 @@ NewFullyAllocatedArrayTryUseGroup
 cx
 group
 length
+newKind
 )
 ;
 if
@@ -17847,7 +17859,7 @@ obj
 0
 vp
 length
-UpdateTypes
+updateTypes
 )
 ;
 if
@@ -17898,6 +17910,11 @@ UnboxedArrayObject
 convertToNative
 (
 cx
+-
+>
+asJSContext
+(
+)
 obj
 )
 )
@@ -17916,7 +17933,7 @@ obj
 0
 vp
 length
-UpdateTypes
+updateTypes
 )
 ;
 MOZ_ASSERT
