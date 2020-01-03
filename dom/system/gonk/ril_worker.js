@@ -47631,6 +47631,16 @@ identifier
 1
 ;
 }
+if
+(
+cmdDetails
+.
+typeOfCommand
+=
+=
+STK_CMD_SELECT_ITEM
+)
+{
 menu
 .
 presentationType
@@ -47641,6 +47651,7 @@ commandQualifier
 &
 0x03
 ;
+}
 if
 (
 cmdDetails
