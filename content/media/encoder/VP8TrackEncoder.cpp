@@ -343,7 +343,7 @@ NS_ERROR_FAILURE
 vpx_img_wrap
 (
 mVPXImageWrapper
-IMG_FMT_I420
+VPX_IMG_FMT_I420
 mFrameWidth
 mFrameHeight
 1
@@ -1377,7 +1377,7 @@ mVPXImageWrapper
 >
 planes
 [
-PLANE_Y
+VPX_PLANE_Y
 ]
 =
 data
@@ -1390,7 +1390,7 @@ mVPXImageWrapper
 >
 planes
 [
-PLANE_U
+VPX_PLANE_U
 ]
 =
 data
@@ -1403,7 +1403,7 @@ mVPXImageWrapper
 >
 planes
 [
-PLANE_V
+VPX_PLANE_V
 ]
 =
 data
@@ -1792,7 +1792,7 @@ mVPXImageWrapper
 >
 planes
 [
-PLANE_Y
+VPX_PLANE_Y
 ]
 =
 y
@@ -1802,7 +1802,7 @@ mVPXImageWrapper
 >
 planes
 [
-PLANE_U
+VPX_PLANE_U
 ]
 =
 cb
@@ -1812,7 +1812,7 @@ mVPXImageWrapper
 >
 planes
 [
-PLANE_V
+VPX_PLANE_V
 ]
 =
 cr
