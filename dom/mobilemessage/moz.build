@@ -258,6 +258,13 @@ jsm
 '
 gonk
 /
+SmsSegmentHelper
+.
+jsm
+'
+'
+gonk
+/
 wap_consts
 .
 js
