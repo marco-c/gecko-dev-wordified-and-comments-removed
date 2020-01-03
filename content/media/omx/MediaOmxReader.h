@@ -157,6 +157,9 @@ mExtractor
 MP3FrameParser
 mMP3FrameParser
 ;
+bool
+mIsWaitingResources
+;
 virtual
 nsresult
 InitOmxDecoder
@@ -166,6 +169,11 @@ InitOmxDecoder
 virtual
 void
 EnsureActive
+(
+)
+;
+void
+UpdateIsWaitingMediaResources
 (
 )
 ;
@@ -248,6 +256,7 @@ bool
 IsWaitingMediaResources
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
