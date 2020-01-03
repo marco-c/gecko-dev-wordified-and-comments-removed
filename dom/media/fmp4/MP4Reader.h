@@ -646,10 +646,6 @@ mIsFlushing
 (
 false
 )
-mDrainComplete
-(
-false
-)
 mOutputRequested
 (
 false
@@ -718,9 +714,6 @@ mError
 ;
 bool
 mIsFlushing
-;
-bool
-mDrainComplete
 ;
 bool
 mOutputRequested
