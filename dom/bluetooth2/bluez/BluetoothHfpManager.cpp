@@ -149,7 +149,7 @@ h
 #
 include
 "
-nsIMobileConnectionProvider
+nsIMobileConnectionService
 .
 h
 "
@@ -2523,13 +2523,13 @@ aClientId
 {
 nsCOMPtr
 <
-nsIMobileConnectionProvider
+nsIMobileConnectionService
 >
 connection
 =
 do_GetService
 (
-NS_RILCONTENTHELPER_CONTRACTID
+NS_MOBILE_CONNECTION_SERVICE_CONTRACTID
 )
 ;
 NS_ENSURE_TRUE_VOID
