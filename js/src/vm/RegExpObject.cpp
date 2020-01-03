@@ -4137,7 +4137,7 @@ marked
 &
 &
 !
-IsStringAboutToBeFinalized
+IsStringAboutToBeFinalizedFromAnyThread
 (
 shared
 -
@@ -4193,7 +4193,7 @@ compilation
 jitCode
 &
 &
-IsJitCodeAboutToBeFinalized
+IsJitCodeAboutToBeFinalizedFromAnyThread
 (
 compilation
 .
@@ -4252,7 +4252,7 @@ if
 matchResultTemplateObject_
 &
 &
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 matchResultTemplateObject_
 .

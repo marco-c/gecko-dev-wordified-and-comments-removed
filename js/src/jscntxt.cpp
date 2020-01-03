@@ -580,7 +580,7 @@ key
 ;
 if
 (
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 key
@@ -589,7 +589,7 @@ original
 )
 |
 |
-IsScriptAboutToBeFinalized
+IsScriptAboutToBeFinalizedFromAnyThread
 (
 &
 key
@@ -598,7 +598,7 @@ script
 )
 |
 |
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 e
 .

@@ -2734,6 +2734,10 @@ enterCompartmentDepth
 &
 &
 global_
+.
+unbarrieredGet
+(
+)
 )
 MarkObjectRoot
 (
@@ -2765,7 +2769,7 @@ innerViews
 .
 sweep
 (
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 )
 )
@@ -2802,7 +2806,7 @@ savedStacks_
 .
 sweep
 (
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 )
 )
@@ -2822,9 +2826,13 @@ fop
 if
 (
 global_
+.
+unbarrieredGet
+(
+)
 &
 &
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 global_
 .
@@ -2869,9 +2877,13 @@ sweepSelfHostingScriptSource
 if
 (
 selfHostingScriptSource
+.
+unbarrieredGet
+(
+)
 &
 &
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 (
 JSObject
@@ -2932,7 +2944,7 @@ regExps
 .
 sweep
 (
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 )
 )
@@ -2950,7 +2962,7 @@ JSRuntime
 *
 rt
 =
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 )
 ;
@@ -3038,7 +3050,7 @@ if
 gc
 :
 :
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 iterObj
@@ -3106,7 +3118,7 @@ key
 bool
 keyDying
 =
-IsCellAboutToBeFinalized
+IsCellAboutToBeFinalizedFromAnyThread
 (
 &
 key
@@ -3117,7 +3129,7 @@ wrapped
 bool
 valDying
 =
-IsValueAboutToBeFinalized
+IsValueAboutToBeFinalizedFromAnyThread
 (
 e
 .
@@ -3142,7 +3154,7 @@ key
 debugger
 &
 &
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 key

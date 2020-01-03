@@ -24864,7 +24864,12 @@ zone
 )
 -
 >
-isCollecting
+runtimeFromAnyThread
+(
+)
+-
+>
+isHeapCollecting
 (
 )
 )
@@ -24914,7 +24919,7 @@ front
 ;
 if
 (
-IsTypeObjectAboutToBeFinalized
+IsTypeObjectAboutToBeFinalizedFromAnyThread
 (
 entry
 .
@@ -24932,7 +24937,7 @@ entry
 newFunction
 &
 &
-IsObjectAboutToBeFinalized
+IsObjectAboutToBeFinalizedFromAnyThread
 (
 &
 entry
@@ -24956,6 +24961,10 @@ MOZ_ASSERT
 entry
 .
 object
+.
+unbarrieredGet
+(
+)
 =
 =
 e
@@ -24965,6 +24974,10 @@ front
 )
 .
 object
+.
+unbarrieredGet
+(
+)
 )
 ;
 MOZ_ASSERT
