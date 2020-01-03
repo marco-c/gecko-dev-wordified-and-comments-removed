@@ -45,6 +45,15 @@ h
 #
 include
 "
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -318,7 +327,9 @@ type
 d
 with
 %
-lu
+"
+PRIuSIZE
+"
 touches
 in
 state
