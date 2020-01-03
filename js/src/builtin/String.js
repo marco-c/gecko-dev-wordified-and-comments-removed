@@ -688,7 +688,7 @@ nextCP
 )
 |
 |
-std_isNaN
+Number_isNaN
 (
 nextCP
 )
