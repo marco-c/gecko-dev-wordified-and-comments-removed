@@ -1687,7 +1687,10 @@ alloc
 MInstruction
 *
 ins
-int
+Scalar
+:
+:
+Type
 arrayType
 MDefinition
 *

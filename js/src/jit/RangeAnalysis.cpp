@@ -13249,6 +13249,12 @@ index
 isFloatArray
 (
 )
+&
+&
+!
+isSimdWrite
+(
+)
 ?
 Truncate
 :
