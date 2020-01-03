@@ -2237,6 +2237,7 @@ const
 ;
 protected
 :
+virtual
 void
 DestroyCompositor
 (
