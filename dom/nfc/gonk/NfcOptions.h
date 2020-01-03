@@ -512,7 +512,10 @@ COPY_FIELD
 undef
 COPY_OPT_FIELD
 }
-nsString
+dom
+:
+:
+NfcRequestType
 mType
 ;
 int32_t
