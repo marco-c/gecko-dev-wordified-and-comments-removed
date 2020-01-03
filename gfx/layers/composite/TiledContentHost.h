@@ -1089,10 +1089,6 @@ RenderTile
 TileHost
 &
 aTile
-const
-gfxRGBA
-*
-aBackgroundColor
 EffectChain
 &
 aEffectChain
