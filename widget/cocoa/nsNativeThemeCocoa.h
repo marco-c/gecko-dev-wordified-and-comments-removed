@@ -534,6 +534,8 @@ const
 NSString
 *
 aImageName
+bool
+aCenterHorizontally
 )
 ;
 void
