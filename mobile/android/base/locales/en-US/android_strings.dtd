@@ -472,6 +472,15 @@ Bookmark
 <
 !
 ENTITY
+bookmark_remove
+"
+Remove
+bookmark
+"
+>
+<
+!
+ENTITY
 bookmark_added
 "
 Bookmark
