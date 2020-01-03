@@ -11715,10 +11715,6 @@ mDescendants
 ;
 }
 }
-AddLayerChangesForAnimation
-(
-)
-;
 nsRestyleHint
 childRestyleHint
 =
@@ -11854,6 +11850,10 @@ haveMoreContinuations
 )
 ;
 }
+AddLayerChangesForAnimation
+(
+)
+;
 if
 (
 haveMoreContinuations

@@ -567,6 +567,13 @@ play
 (
 )
 ;
+return
+this
+.
+player
+.
+ready
+;
 }
 {
 request
