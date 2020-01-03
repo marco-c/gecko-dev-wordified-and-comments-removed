@@ -505,6 +505,8 @@ public
 void
 onError
 (
+NativeJSObject
+error
 )
 {
 errorReceived
