@@ -469,7 +469,7 @@ objId
 )
 returns
 (
-nsString
+nsCString
 name
 )
 ;

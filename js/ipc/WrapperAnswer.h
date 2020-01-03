@@ -300,7 +300,7 @@ const
 ObjectId
 &
 objId
-nsString
+nsCString
 *
 result
 )

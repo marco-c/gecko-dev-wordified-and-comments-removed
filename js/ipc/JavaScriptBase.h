@@ -625,7 +625,7 @@ const
 uint64_t
 &
 objId
-nsString
+nsCString
 *
 result
 )
@@ -1367,7 +1367,7 @@ const
 ObjectId
 &
 objId
-nsString
+nsCString
 *
 result
 )

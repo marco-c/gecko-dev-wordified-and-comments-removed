@@ -2937,7 +2937,7 @@ const
 ObjectId
 &
 objId
-nsString
+nsCString
 *
 name
 )
@@ -3018,8 +3018,6 @@ objId
 *
 name
 =
-NS_ConvertASCIItoUTF16
-(
 js
 :
 :
@@ -3027,7 +3025,6 @@ ObjectClassName
 (
 cx
 obj
-)
 )
 ;
 return
