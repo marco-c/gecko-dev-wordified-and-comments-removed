@@ -1394,6 +1394,16 @@ min
 \
 _
 (
+maxNum
+)
+\
+_
+(
+minNum
+)
+\
+_
+(
 lessThanOrEqual
 )
 \
