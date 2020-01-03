@@ -3024,6 +3024,17 @@ image
 <
 !
 ENTITY
+set_image_path_fail
+"
+Unable
+to
+save
+image
+"
+>
+<
+!
+ENTITY
 set_image_chooser_title
 "
 Set
