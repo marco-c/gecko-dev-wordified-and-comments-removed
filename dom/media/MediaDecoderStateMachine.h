@@ -1306,6 +1306,11 @@ DoNotifyWaitingForResourcesStatusChanged
 (
 )
 ;
+bool
+NeedToSkipToNextKeyframe
+(
+)
+;
 nsRefPtr
 <
 MediaDecoder
@@ -1418,6 +1423,9 @@ mDecodedAudioEndTime
 ;
 int64_t
 mVideoFrameEndTime
+;
+int64_t
+mDecodedVideoEndTime
 ;
 double
 mVolume
