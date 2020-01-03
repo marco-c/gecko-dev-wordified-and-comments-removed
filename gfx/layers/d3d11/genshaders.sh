@@ -210,8 +210,8 @@ rm
 f
 DEST
 makeShaderVS
-OculusVRDistortionVS
+Oculus050VRDistortionVS
 makeShaderPS
-OculusVRDistortionPS
+Oculus050VRDistortionPS
 rm
 tempfile

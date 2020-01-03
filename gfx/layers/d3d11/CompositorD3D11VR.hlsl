@@ -266,7 +266,7 @@ Clamp
 /
 *
 *
-Oculus
+Oculus050
 basic
 distortion
 with
@@ -276,7 +276,7 @@ correction
 *
 /
 VS_VR_OUTPUT
-OculusVRDistortionVS
+Oculus050VRDistortionVS
 (
 const
 VS_VR_INPUT
@@ -424,7 +424,7 @@ res
 ;
 }
 float4
-OculusVRDistortionPS
+Oculus050VRDistortionPS
 (
 const
 VS_VR_OUTPUT

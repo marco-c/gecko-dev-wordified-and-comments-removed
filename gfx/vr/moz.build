@@ -134,6 +134,16 @@ gfxVROculus
 cpp
 '
 ]
+SOURCES
++
+=
+[
+'
+gfxVROculus050
+.
+cpp
+'
+]
 #
 For
 building

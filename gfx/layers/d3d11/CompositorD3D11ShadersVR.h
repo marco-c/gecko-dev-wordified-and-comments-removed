@@ -274,7 +274,7 @@ ret
 endif
 const
 BYTE
-OculusVRDistortionVS
+Oculus050VRDistortionVS
 [
 ]
 =
@@ -1999,7 +1999,7 @@ ret
 endif
 const
 BYTE
-OculusVRDistortionPS
+Oculus050VRDistortionPS
 [
 ]
 =
