@@ -475,6 +475,8 @@ SpeculativeConnect
 (
 URIParams
 uri
+bool
+anonymous
 )
 ;
 HTMLDNSPrefetch
