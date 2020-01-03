@@ -663,6 +663,9 @@ mIsDeletingSurrounding
 bool
 mLayoutChanged
 ;
+bool
+mSetCursorPositionOnKeyEvent
+;
 static
 nsGtkIMModule
 *
