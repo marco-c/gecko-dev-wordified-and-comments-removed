@@ -27,7 +27,17 @@ ws
 var
 __SECURE__PORT
 =
-null
+{
+{
+ports
+[
+wss
+]
+[
+0
+]
+}
+}
 ;
 var
 __NEW__PORT
@@ -37,7 +47,7 @@ __PORT
 var
 __NEW__SECURE__PORT
 =
-__PORT
+__SECURE__PORT
 ;
 var
 __PATH

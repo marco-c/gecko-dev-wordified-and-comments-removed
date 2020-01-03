@@ -1,0 +1,14 @@
+(
+function
+(
+)
+{
+allowedScriptRan
+=
+true
+;
+}
+)
+(
+)
+;
