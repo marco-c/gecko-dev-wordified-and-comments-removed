@@ -582,8 +582,6 @@ com
 submit
 /
 sslreports
--
-stg
 "
 )
 ;
