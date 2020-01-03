@@ -124,6 +124,11 @@ BlobParent
 h
 '
 '
+IdType
+.
+h
+'
+'
 nsIRemoteBlob
 .
 h
