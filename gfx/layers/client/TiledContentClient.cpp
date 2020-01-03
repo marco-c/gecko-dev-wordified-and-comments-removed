@@ -2480,7 +2480,9 @@ mFrontLock
 ;
 mCompositableClient
 =
-nullptr
+o
+.
+mCompositableClient
 ;
 #
 ifdef
@@ -2580,7 +2582,9 @@ mFrontLock
 ;
 mCompositableClient
 =
-nullptr
+o
+.
+mCompositableClient
 ;
 #
 ifdef
