@@ -34,6 +34,11 @@ mProfile
 aProfile
 )
 {
+MOZ_COUNT_CTOR
+(
+ProfilerBacktrace
+)
+;
 MOZ_ASSERT
 (
 aProfile
@@ -48,6 +53,11 @@ ProfilerBacktrace
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+ProfilerBacktrace
+)
+;
 if
 (
 mProfile
