@@ -342,25 +342,6 @@ s
 "
 +
 MOZILLA_DIR
-        
-"
-bootstrap_cmd
-"
-:
-[
-"
-bash
-"
-"
--
-xe
-"
-"
-setup
-.
-sh
-"
-]
     
 }
     
