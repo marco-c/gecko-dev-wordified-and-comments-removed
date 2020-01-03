@@ -926,8 +926,8 @@ isFocus
 if
 (
 isFocus
-&
-&
+=
+=
 (
 id
 =
