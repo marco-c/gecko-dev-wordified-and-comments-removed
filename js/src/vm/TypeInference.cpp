@@ -13851,7 +13851,7 @@ cx
 ;
 }
 }
-bool
+void
 ObjectGroup
 :
 :
@@ -13872,7 +13872,6 @@ unknownProperties
 )
 )
 return
-true
 ;
 AutoEnterAnalysis
 enter
@@ -13956,14 +13955,9 @@ id
 ;
 if
 (
-!
 types
-)
-return
-false
-;
-if
-(
+&
+&
 types
 -
 >
@@ -14001,9 +13995,6 @@ previous
 )
 ;
 }
-return
-true
-;
 }
 bool
 ObjectGroup
@@ -19608,9 +19599,6 @@ slotSpan
 )
 )
 {
-if
-(
-!
 group
 -
 >
@@ -19626,9 +19614,6 @@ lastProperty
 (
 )
 )
-)
-return
-false
 ;
 destroyNewScript
 .
@@ -19714,9 +19699,6 @@ initialGroup
 return
 false
 ;
-if
-(
-!
 initialGroup
 -
 >
@@ -19732,13 +19714,7 @@ lastProperty
 (
 )
 )
-)
-return
-false
 ;
-if
-(
-!
 group
 -
 >
@@ -19747,9 +19723,6 @@ addDefiniteProperties
 cx
 prefixShape
 )
-)
-return
-false
 ;
 cx
 -
