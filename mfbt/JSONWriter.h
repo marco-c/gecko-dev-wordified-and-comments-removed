@@ -863,8 +863,10 @@ MOZ_RELEASE_ASSERT
 (
 mNeedComma
 .
-growByUninitialized
+resizeUninitialized
 (
+mDepth
++
 1
 )
 )
@@ -873,8 +875,10 @@ MOZ_RELEASE_ASSERT
 (
 mNeedNewlines
 .
-growByUninitialized
+resizeUninitialized
 (
+mDepth
++
 1
 )
 )
