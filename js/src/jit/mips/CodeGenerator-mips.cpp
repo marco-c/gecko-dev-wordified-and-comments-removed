@@ -293,10 +293,7 @@ SequentialExecution
 {
 emitTracelogStopEvent
 (
-TraceLogger
-:
-:
-IonMonkey
+TraceLogger_IonMonkey
 )
 ;
 emitTracelogScriptStop
