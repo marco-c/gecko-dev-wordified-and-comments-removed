@@ -24060,13 +24060,13 @@ temp
 )
 )
 ;
-assignSnapshot
+define
 (
 lir
-Bailout_Inevitable
+ins
 )
 ;
-define
+assignSafepoint
 (
 lir
 ins
