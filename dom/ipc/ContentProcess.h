@@ -67,13 +67,13 @@ public
 explicit
 ContentProcess
 (
-ProcessHandle
-mParentHandle
+ProcessId
+aParentPid
 )
 :
 ProcessChild
 (
-mParentHandle
+aParentPid
 )
 {
 }

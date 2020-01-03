@@ -81,11 +81,11 @@ ShareToProcess
 base
 :
 :
-ProcessHandle
-aChildProcess
+ProcessId
+aTargetPid
 Handle
 *
-aChildHandle
+aNewHandle
 )
 ;
 protected

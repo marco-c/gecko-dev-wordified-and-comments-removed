@@ -181,8 +181,8 @@ ShareToProcess
 base
 :
 :
-ProcessHandle
-aHandle
+ProcessId
+aTargetPid
 )
 {
 NS_RUNTIMEABORT

@@ -732,8 +732,6 @@ ShadowLayersManager
 aLayersManager
 uint64_t
 aId
-ProcessId
-aOtherProcess
 )
 :
 mLayerManager
@@ -751,10 +749,6 @@ aId
 mPendingTransaction
 (
 0
-)
-mChildProcessId
-(
-aOtherProcess
 )
 mDestroyed
 (
@@ -3682,7 +3676,9 @@ took
 f
 ms
 "
-mChildProcessId
+OtherPid
+(
+)
 latency
 .
 ToMilliseconds
@@ -5342,7 +5338,7 @@ IsSameProcess
 const
 {
 return
-OtherProcess
+OtherPid
 (
 )
 =
@@ -5350,7 +5346,7 @@ OtherProcess
 ipc
 :
 :
-kInvalidProcessHandle
+kCurrentProcessId
 ;
 }
 void

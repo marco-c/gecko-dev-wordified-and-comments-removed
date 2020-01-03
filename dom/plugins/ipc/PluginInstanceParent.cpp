@@ -8548,7 +8548,7 @@ mSharedSurfaceDib
 .
 ShareToProcess
 (
-OtherProcess
+OtherPid
 (
 )
 &
@@ -8556,9 +8556,11 @@ handle
 )
 )
 )
+{
 return
 false
 ;
+}
 aRemoteWindow
 .
 surfaceHandle

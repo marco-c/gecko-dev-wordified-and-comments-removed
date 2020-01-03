@@ -655,7 +655,7 @@ mPlugin
 InitForChrome
 (
 pluginFilename
-ParentHandle
+ParentPid
 (
 )
 IOThreadChild

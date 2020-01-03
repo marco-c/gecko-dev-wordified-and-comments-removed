@@ -264,7 +264,9 @@ GetChildProcessId
 override
 {
 return
-mChildProcessId
+OtherPid
+(
+)
 ;
 }
 virtual
@@ -616,12 +618,6 @@ mMessageLoop
 Transport
 *
 mTransport
-;
-base
-:
-:
-ProcessId
-mChildProcessId
 ;
 nsRefPtr
 <

@@ -283,8 +283,8 @@ transport
 base
 :
 :
-ProcessHandle
-parent
+ProcessId
+parentPid
 MessageLoop
 *
 worker

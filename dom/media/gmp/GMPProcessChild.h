@@ -61,8 +61,8 @@ public
 explicit
 GMPProcessChild
 (
-ProcessHandle
-parentHandle
+ProcessId
+aParentPid
 )
 ;
 ~

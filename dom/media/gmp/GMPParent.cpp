@@ -774,11 +774,17 @@ mProcess
 GetChannel
 (
 )
+base
+:
+:
+GetProcId
+(
 mProcess
 -
 >
 GetChildProcessHandle
 (
+)
 )
 )
 ;

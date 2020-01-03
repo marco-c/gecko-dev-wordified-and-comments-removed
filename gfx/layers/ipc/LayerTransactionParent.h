@@ -164,8 +164,6 @@ ShadowLayersManager
 aLayersManager
 uint64_t
 aId
-ProcessId
-aOtherProcess
 )
 ;
 protected
@@ -400,7 +398,9 @@ GetChildProcessId
 override
 {
 return
-mChildProcessId
+OtherPid
+(
+)
 ;
 }
 virtual
@@ -806,12 +806,6 @@ mId
 ;
 uint64_t
 mPendingTransaction
-;
-base
-:
-:
-ProcessId
-mChildProcessId
 ;
 bool
 mDestroyed

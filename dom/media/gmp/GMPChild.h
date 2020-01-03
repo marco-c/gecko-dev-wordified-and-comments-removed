@@ -118,8 +118,8 @@ aVoucherPath
 base
 :
 :
-ProcessHandle
-aParentProcessHandle
+ProcessId
+aParentPid
 MessageLoop
 *
 aIOLoop

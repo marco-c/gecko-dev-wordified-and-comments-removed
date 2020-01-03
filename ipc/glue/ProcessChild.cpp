@@ -45,8 +45,8 @@ ProcessChild
 :
 ProcessChild
 (
-ProcessHandle
-parentHandle
+ProcessId
+aParentPid
 )
 :
 ChildProcess
@@ -65,9 +65,9 @@ current
 (
 )
 )
-mParentHandle
+mParentPid
 (
-parentHandle
+aParentPid
 )
 {
 MOZ_ASSERT

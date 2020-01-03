@@ -703,8 +703,8 @@ CommonInit
 base
 :
 :
-ProcessHandle
-aParentProcessHandle
+ProcessId
+aParentPid
 MessageLoop
 *
 aIOLoop
@@ -729,8 +729,8 @@ aPluginFilename
 base
 :
 :
-ProcessHandle
-aParentProcessHandle
+ProcessId
+aParentPid
 MessageLoop
 *
 aIOLoop
@@ -748,8 +748,8 @@ InitForContent
 base
 :
 :
-ProcessHandle
-aParentProcessHandle
+ProcessId
+aParentPid
 MessageLoop
 *
 aIOLoop

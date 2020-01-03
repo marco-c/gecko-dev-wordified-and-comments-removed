@@ -74,13 +74,13 @@ GMPProcessChild
 :
 GMPProcessChild
 (
-ProcessHandle
-parentHandle
+ProcessId
+aParentPid
 )
 :
 ProcessChild
 (
-parentHandle
+aParentPid
 )
 {
 }
@@ -264,7 +264,7 @@ Init
 (
 pluginFilename
 voucherFilename
-ParentHandle
+ParentPid
 (
 )
 IOThreadChild

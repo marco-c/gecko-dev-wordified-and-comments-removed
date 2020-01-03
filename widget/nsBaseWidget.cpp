@@ -4618,6 +4618,14 @@ ipc
 ChildSide
 )
 ;
+mCompositorParent
+-
+>
+SetOtherProcessId
+(
+kCurrentProcessId
+)
+;
 if
 (
 gfxPrefs

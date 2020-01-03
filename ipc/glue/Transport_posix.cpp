@@ -62,8 +62,10 @@ ipc
 bool
 CreateTransport
 (
-ProcessHandle
-ProcessHandle
+base
+:
+:
+ProcessId
 TransportDescriptor
 *
 aOne

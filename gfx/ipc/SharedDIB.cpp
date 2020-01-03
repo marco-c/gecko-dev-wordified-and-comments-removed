@@ -186,11 +186,11 @@ ShareToProcess
 base
 :
 :
-ProcessHandle
-aChildProcess
+ProcessId
+aTargetPid
 Handle
 *
-aChildHandle
+aNewHandle
 )
 {
 if
@@ -209,8 +209,8 @@ mShMem
 >
 ShareToProcess
 (
-aChildProcess
-aChildHandle
+aTargetPid
+aNewHandle
 )
 )
 return

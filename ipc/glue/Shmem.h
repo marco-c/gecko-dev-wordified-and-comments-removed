@@ -551,8 +551,8 @@ IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
 base
 :
 :
-ProcessHandle
-aProcess
+ProcessId
+aTargetPid
 int32_t
 routingId
 )
@@ -568,8 +568,8 @@ IHadBetterBeIPDLCodeCallingThis_OtherwiseIAmADoodyhead
 base
 :
 :
-ProcessHandle
-aProcess
+ProcessId
+aTargetPid
 int32_t
 routingId
 )

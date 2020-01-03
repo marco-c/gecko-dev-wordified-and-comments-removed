@@ -290,8 +290,8 @@ aIOLoop
 base
 :
 :
-ProcessHandle
-aParentHandle
+ProcessId
+aParentPid
 IPC
 :
 :

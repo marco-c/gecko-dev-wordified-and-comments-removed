@@ -166,8 +166,8 @@ ShareToProcess
 base
 :
 :
-ProcessHandle
-aTarget
+ProcessId
+aTargetPid
 )
 ;
 private
