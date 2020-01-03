@@ -751,7 +751,7 @@ ClearConsoleData
 )
 ;
 bool
-ShouldIncludeStackrace
+ShouldIncludeStackTrace
 (
 MethodName
 aMethodName
