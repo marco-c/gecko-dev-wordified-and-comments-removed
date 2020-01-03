@@ -792,12 +792,6 @@ topic
 pref
 )
 {
-Prefs
-.
-refresh
-(
-)
-;
 if
 (
 pref

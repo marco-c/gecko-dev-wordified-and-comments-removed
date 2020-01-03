@@ -505,7 +505,7 @@ pref
 |
 PerformanceController
 .
-getPref
+getOption
 (
 pref
 )

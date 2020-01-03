@@ -221,7 +221,7 @@ invertStack
 :
 PerformanceController
 .
-getPref
+getOption
 (
 "
 invert
@@ -235,7 +235,7 @@ flattenRecursion
 :
 PerformanceController
 .
-getPref
+getOption
 (
 "
 flatten
@@ -249,7 +249,7 @@ showIdleBlocks
 :
 PerformanceController
 .
-getPref
+getOption
 (
 "
 show

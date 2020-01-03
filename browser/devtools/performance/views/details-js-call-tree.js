@@ -240,7 +240,7 @@ contentOnly
 !
 PerformanceController
 .
-getPref
+getOption
 (
 "
 show
@@ -256,7 +256,7 @@ invertTree
 =
 PerformanceController
 .
-getPref
+getOption
 (
 "
 invert
@@ -425,7 +425,7 @@ contentOnly
 !
 PerformanceController
 .
-getPref
+getOption
 (
 "
 show
