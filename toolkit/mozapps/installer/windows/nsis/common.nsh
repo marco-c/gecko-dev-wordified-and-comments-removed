@@ -37753,12 +37753,6 @@ R8
 {
 If
 }
-{
-AtLeastWin7
-}
-{
-AndIf
-}
 ITaskbarList3
 <
 >
@@ -37945,12 +37939,6 @@ Exch
 R9
 {
 If
-}
-{
-AtLeastWin7
-}
-{
-AndIf
 }
 ITaskbarList3
 <
