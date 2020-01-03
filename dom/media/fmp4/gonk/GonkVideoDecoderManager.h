@@ -90,11 +90,9 @@ namespace
 android
 {
 struct
-MOZ_EXPORT
 ALooper
 ;
 class
-MOZ_EXPORT
 MediaBuffer
 ;
 struct
