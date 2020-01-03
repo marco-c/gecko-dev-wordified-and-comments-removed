@@ -2936,6 +2936,15 @@ mD2D1Device
 nullptr
 ;
 }
+if
+(
+!
+aDevice
+)
+{
+return
+;
+}
 RefPtr
 <
 ID2D1Factory1
