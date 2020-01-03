@@ -125,6 +125,10 @@ appearance
 :
 none
 ;
+color
+:
+inherit
+;
 }
 toolbaritem
 >
