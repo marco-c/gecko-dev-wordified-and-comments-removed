@@ -14616,7 +14616,7 @@ JS
 gcreason
 :
 :
-MAYBEGC
+DEBUG_GC
 )
 ;
 return
@@ -14695,7 +14695,7 @@ JS
 gcreason
 :
 :
-MAYBEGC
+EAGER_ALLOC_TRIGGER
 )
 ;
 return
@@ -14768,7 +14768,7 @@ JS
 gcreason
 :
 :
-MAYBEGC
+PERIODIC_FULL_GC
 )
 ;
 }
@@ -28303,7 +28303,7 @@ JS
 gcreason
 :
 :
-MAYBEGC
+EAGER_ALLOC_TRIGGER
 )
 return
 false
