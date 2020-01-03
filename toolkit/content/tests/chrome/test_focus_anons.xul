@@ -86,10 +86,11 @@ children
 onload
 =
 "
-setTimeout
+SimpleTest
+.
+waitForFocus
 (
 runTests
-0
 )
 ;
 "
