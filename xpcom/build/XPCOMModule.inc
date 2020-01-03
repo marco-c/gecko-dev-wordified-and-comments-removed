@@ -302,7 +302,7 @@ nsXPTIInterfaceInfoManagerGetSingleton
 COMPONENT
 (
 HASH_PROPERTY_BAG
-nsHashPropertyBagConstructor
+nsHashPropertyBagCCConstructor
 )
 COMPONENT
 (
