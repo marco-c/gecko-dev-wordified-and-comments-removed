@@ -2255,6 +2255,11 @@ sanitize
 .
 xul
 "
+"
+resizable
+=
+no
+"
 )
 ;
 }

@@ -781,7 +781,11 @@ changemp
 .
 xul
 "
-null
+"
+resizable
+=
+no
+"
 null
 this
 .
