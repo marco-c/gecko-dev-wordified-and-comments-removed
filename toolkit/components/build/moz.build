@@ -135,12 +135,6 @@ xre
 .
 .
 /
-aboutperformance
-'
-'
-.
-.
-/
 alerts
 '
 '
@@ -168,6 +162,12 @@ find
 jsdownloads
 /
 src
+'
+'
+.
+.
+/
+perfmonitoring
 '
 '
 .
