@@ -187,6 +187,14 @@ ClearBackbufferIfNeeded
 )
 ;
 }
+{
+ScopedMaskWorkaround
+autoMask
+(
+*
+this
+)
+;
 gl
 -
 >
@@ -195,6 +203,7 @@ fClear
 mask
 )
 ;
+}
 Invalidate
 (
 )
