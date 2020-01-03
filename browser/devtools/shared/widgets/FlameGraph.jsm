@@ -2939,8 +2939,6 @@ canvasWidth
 this
 .
 _width
-*
-2
 ;
 let
 canvasHeight

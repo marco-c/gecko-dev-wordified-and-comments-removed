@@ -429,7 +429,7 @@ getDataWindowEnd
 )
 |
 0
-300
+200
 "
 The
 selection
@@ -462,7 +462,7 @@ getDataWindowStart
 )
 |
 0
-0
+50
 "
 The
 selection
@@ -486,7 +486,7 @@ getDataWindowEnd
 )
 |
 0
-200
+150
 "
 The
 selection
@@ -520,7 +520,7 @@ getDataWindowStart
 )
 |
 0
-0
+46
 "
 The
 selection
@@ -544,7 +544,7 @@ getDataWindowEnd
 )
 |
 0
-207
+153
 "
 The
 selection
@@ -579,7 +579,7 @@ getDataWindowStart
 )
 |
 0
-7
+50
 "
 The
 selection
@@ -603,7 +603,7 @@ getDataWindowEnd
 )
 |
 0
-199
+149
 "
 The
 selection
@@ -635,7 +635,7 @@ getDataWindowStart
 )
 |
 0
-7
+50
 "
 The
 selection
@@ -659,7 +659,7 @@ getDataWindowEnd
 )
 |
 0
-199
+149
 "
 The
 selection
@@ -693,7 +693,7 @@ getDataWindowStart
 )
 |
 0
-16
+55
 "
 The
 selection
@@ -717,7 +717,7 @@ getDataWindowEnd
 )
 |
 0
-209
+154
 "
 The
 selection
@@ -747,7 +747,7 @@ getDataWindowStart
 )
 |
 0
-93
+95
 "
 The
 selection
@@ -771,7 +771,7 @@ getDataWindowEnd
 )
 |
 0
-286
+194
 "
 The
 selection
