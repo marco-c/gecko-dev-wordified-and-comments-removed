@@ -98,6 +98,12 @@ BlockUntilDecodedAndFinishObserving
 (
 )
 {
+nsRefPtr
+<
+SourceSurface
+>
+surface
+=
 mImage
 -
 >
