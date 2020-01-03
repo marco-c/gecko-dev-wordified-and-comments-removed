@@ -325,10 +325,7 @@ SetIdle
 MOZ_OVERRIDE
 ;
 virtual
-nsRefPtr
-<
-ShutdownPromise
->
+void
 Shutdown
 (
 )

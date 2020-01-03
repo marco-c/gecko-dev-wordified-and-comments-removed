@@ -492,10 +492,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
-<
-ShutdownPromise
->
+void
 AndroidMediaReader
 :
 :
@@ -527,7 +524,6 @@ mPlugin
 nullptr
 ;
 }
-return
 MediaDecoderReader
 :
 :
