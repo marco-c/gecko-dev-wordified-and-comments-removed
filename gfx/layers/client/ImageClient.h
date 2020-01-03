@@ -446,13 +446,6 @@ false
 ;
 }
 virtual
-void
-Updated
-(
-)
-{
-}
-virtual
 TextureInfo
 GetTextureInfo
 (
