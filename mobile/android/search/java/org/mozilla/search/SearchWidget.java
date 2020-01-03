@@ -102,13 +102,6 @@ android
 .
 os
 .
-Build
-;
-import
-android
-.
-os
-.
 Bundle
 ;
 import
@@ -117,13 +110,6 @@ android
 widget
 .
 RemoteViews
-;
-import
-android
-.
-util
-.
-Log
 ;
 public
 class
