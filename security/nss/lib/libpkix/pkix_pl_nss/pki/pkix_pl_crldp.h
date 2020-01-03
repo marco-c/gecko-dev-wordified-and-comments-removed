@@ -83,4 +83,10 @@ plContext
 )
 ;
 #
+ifdef
+__cplusplus
+}
+#
+endif
+#
 endif

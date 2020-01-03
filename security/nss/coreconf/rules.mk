@@ -2211,6 +2211,9 @@ link
 LDFLAGS
 )
 (
+XLDFLAGS
+)
+(
 subst
 /
 \
@@ -2900,6 +2903,9 @@ link
 \
 (
 LDFLAGS
+)
+(
+XLDFLAGS
 )
 (
 EXTRA_LIBS

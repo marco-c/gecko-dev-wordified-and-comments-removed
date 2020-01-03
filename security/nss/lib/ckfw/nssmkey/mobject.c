@@ -7729,6 +7729,8 @@ objClass
 ckmkInternalObject
 *
 io
+=
+NULL
 ;
 CK_BBOOL
 isToken
