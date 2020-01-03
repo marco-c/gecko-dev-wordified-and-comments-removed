@@ -1464,16 +1464,6 @@ nsInputStreamTee
 (
 )
 ;
-if
-(
-!
-tee
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 rv
 =
 tee

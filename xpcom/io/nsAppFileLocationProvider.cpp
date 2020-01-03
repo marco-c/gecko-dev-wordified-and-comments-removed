@@ -2765,7 +2765,7 @@ keys
 ;
 #
 endif
-NS_IF_ADDREF
+NS_ADDREF
 (
 *
 aResult
@@ -2773,12 +2773,7 @@ aResult
 ;
 rv
 =
-*
-aResult
-?
 NS_OK
-:
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 if
@@ -2860,7 +2855,7 @@ this
 keys
 )
 ;
-NS_IF_ADDREF
+NS_ADDREF
 (
 *
 aResult
@@ -2868,12 +2863,7 @@ aResult
 ;
 rv
 =
-*
-aResult
-?
 NS_OK
-:
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 return

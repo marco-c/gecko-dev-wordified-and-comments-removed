@@ -3517,16 +3517,6 @@ nsLocalFile
 (
 )
 ;
-if
-(
-!
-newFile
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 nsCOMPtr
 <
 nsIFile
