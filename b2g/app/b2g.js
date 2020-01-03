@@ -5272,7 +5272,8 @@ COMPOSITOR
 .
 nice
 "
-0
+-
+4
 )
 ;
 pref
