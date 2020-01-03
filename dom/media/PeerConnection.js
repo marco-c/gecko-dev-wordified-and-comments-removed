@@ -3063,6 +3063,14 @@ function
 event
 )
 {
+if
+(
+!
+this
+.
+_closed
+)
+{
 this
 .
 __DOM_IMPL__
@@ -3072,6 +3080,7 @@ dispatchEvent
 event
 )
 ;
+}
 }
 logErrorAndCallOnError
 :
