@@ -603,6 +603,7 @@ none
 ;
 }
 function
+*
 closeStream
 (
 aAlreadyClosed
@@ -672,6 +673,8 @@ ended
 "
 )
 ;
+yield
+*
 assertWebRTCIndicatorStatus
 (
 null
