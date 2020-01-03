@@ -1503,6 +1503,14 @@ NewPerSpanData
 )
 ;
 void
+UnlinkFrame
+(
+PerFrameData
+*
+pfd
+)
+;
+void
 FreeSpan
 (
 PerSpanData
