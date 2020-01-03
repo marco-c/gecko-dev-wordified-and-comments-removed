@@ -1555,11 +1555,6 @@ json
 cpp
 '
 '
-jsonparser
-.
-cpp
-'
-'
 jsopcode
 .
 cpp
@@ -1769,6 +1764,13 @@ cpp
 vm
 /
 Interpreter
+.
+cpp
+'
+'
+vm
+/
+JSONParser
 .
 cpp
 '
