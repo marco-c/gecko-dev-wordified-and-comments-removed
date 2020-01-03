@@ -61,6 +61,9 @@ namespace
 dom
 {
 class
+Blob
+;
+class
 BlobImpl
 ;
 class
@@ -71,6 +74,11 @@ nsIContentChild
 ;
 class
 PBlobStreamChild
+;
+enum
+BlobDirState
+:
+uint32_t
 ;
 class
 BlobChild
@@ -288,6 +296,8 @@ uint64_t
 aLength
 int64_t
 aLastModifiedDate
+BlobDirState
+aDirState
 )
 ;
 bool
