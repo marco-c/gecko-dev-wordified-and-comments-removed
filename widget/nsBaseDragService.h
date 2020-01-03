@@ -175,6 +175,11 @@ return
 mInputSource
 ;
 }
+int32_t
+TakeChildProcessDragAction
+(
+)
+;
 protected
 :
 virtual
@@ -307,6 +312,9 @@ mDragEventDispatchedToChildProcess
 ;
 uint32_t
 mDragAction
+;
+uint32_t
+mDragActionFromChildProcess
 ;
 nsSize
 mTargetSize

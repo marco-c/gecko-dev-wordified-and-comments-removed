@@ -13964,10 +13964,12 @@ true
 )
 ;
 }
+else
 if
 (
 initialDataTransfer
 )
+{
 initialDataTransfer
 -
 >
@@ -13976,6 +13978,7 @@ SetDropEffectInt
 dropEffect
 )
 ;
+}
 }
 break
 ;
