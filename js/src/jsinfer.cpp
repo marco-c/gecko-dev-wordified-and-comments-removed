@@ -12895,11 +12895,6 @@ RootedScript
 script
 (
 cx
--
->
-runtime
-(
-)
 i
 .
 get
