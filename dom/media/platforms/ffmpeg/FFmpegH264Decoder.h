@@ -202,6 +202,15 @@ AVFrame
 aFrame
 )
 ;
+int64_t
+GetPts
+(
+const
+AVPacket
+&
+packet
+)
+;
 MediaDataDecoderCallback
 *
 mCallback
