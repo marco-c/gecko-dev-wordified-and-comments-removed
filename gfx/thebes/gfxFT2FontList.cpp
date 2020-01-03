@@ -6611,7 +6611,7 @@ void
 gfxFT2FontList
 :
 :
-GetFontList
+GetSystemFontList
 (
 InfallibleTArray
 <
