@@ -326,19 +326,6 @@ nsIContent
 aContent
 nsCSSProperty
 aProperty
-mozilla
-:
-:
-GetCompositorAnimationOptions
-aFlags
-=
-mozilla
-:
-:
-GetCompositorAnimationOptions
-(
-0
-)
 )
 {
 return
@@ -359,7 +346,6 @@ nsGkAtoms
 :
 transitionsProperty
 aProperty
-aFlags
 )
 ;
 }
