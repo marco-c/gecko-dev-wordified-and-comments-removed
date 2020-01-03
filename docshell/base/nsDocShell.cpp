@@ -53954,7 +53954,12 @@ NS_OK
 *
 aOut
 =
-false
+gfxPlatform
+:
+:
+AsyncPanZoomEnabled
+(
+)
 ;
 return
 NS_OK
