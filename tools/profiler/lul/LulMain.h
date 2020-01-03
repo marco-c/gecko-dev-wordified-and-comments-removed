@@ -559,6 +559,7 @@ template
 typename
 S
 >
+explicit
 LULStats
 (
 const
