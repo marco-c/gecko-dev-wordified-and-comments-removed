@@ -4229,7 +4229,7 @@ nsISupports
 >
 nativeRef
 ;
-xpc_qsUnwrapArg
+UnwrapArg
 <
 nsISupports
 >
@@ -4315,7 +4315,7 @@ if
 (
 NS_FAILED
 (
-xpc_qsUnwrapArg
+UnwrapArg
 <
 nsIJSID
 >
@@ -9582,7 +9582,7 @@ mGlobalJSObject
 nsresult
 rv
 =
-xpc_qsUnwrapArg
+UnwrapArg
 <
 nsISupports
 >
