@@ -7711,6 +7711,9 @@ gfxUtils
 :
 :
 sDumpPaintFile
+!
+=
+stderr
 )
 {
 fprintf_stderr
@@ -7759,6 +7762,9 @@ gfxUtils
 :
 :
 sDumpPaintFile
+!
+=
+stderr
 )
 {
 fprintf_stderr
