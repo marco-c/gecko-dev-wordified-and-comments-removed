@@ -751,6 +751,11 @@ usesApply
 :
 1
 ;
+bool
+usesThis
+:
+1
+;
 FunctionContextFlags
 funCxFlags
 ;

@@ -2755,14 +2755,14 @@ if
 lazy
 -
 >
-usesArgumentsAndApply
+usesArgumentsApplyAndThis
 (
 )
 )
 script
 -
 >
-setUsesArgumentsAndApply
+setUsesArgumentsApplyAndThis
 (
 )
 ;
