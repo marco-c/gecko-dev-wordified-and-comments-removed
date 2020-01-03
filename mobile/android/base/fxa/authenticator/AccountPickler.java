@@ -327,6 +327,7 @@ bundle
 "
 ;
 public
+synchronized
 static
 boolean
 deletePickle
@@ -572,6 +573,7 @@ o
 ;
 }
 public
+synchronized
 static
 void
 pickle
@@ -751,6 +753,7 @@ e
 }
 }
 public
+synchronized
 static
 AndroidFxAccount
 unpickle
