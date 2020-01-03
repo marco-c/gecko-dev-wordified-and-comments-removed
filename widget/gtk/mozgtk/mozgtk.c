@@ -2044,6 +2044,10 @@ gtk_combo_box_text_append
 )
 STUB
 (
+gtk_drag_set_icon_surface
+)
+STUB
+(
 gtk_get_major_version
 )
 STUB
