@@ -16,9 +16,9 @@ h
 #
 include
 "
-base
+mozilla
 /
-lock
+StaticMutex
 .
 h
 "
@@ -110,7 +110,7 @@ NotificationService
 mNotificationService
 ;
 static
-Lock
+StaticMutex
 sLock
 ;
 static

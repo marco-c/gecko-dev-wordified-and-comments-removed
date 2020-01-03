@@ -70,7 +70,7 @@ Gecko_Background_X11Thread
 endif
 }
 ;
-Lock
+StaticMutex
 BrowserProcessSubThread
 :
 :
@@ -127,7 +127,7 @@ mNotificationService
 nullptr
 )
 {
-AutoLock
+StaticMutexAutoLock
 lock
 (
 sLock
@@ -178,7 +178,7 @@ Stop
 )
 ;
 {
-AutoLock
+StaticMutexAutoLock
 lock
 (
 sLock
@@ -261,7 +261,7 @@ ID
 aId
 )
 {
-AutoLock
+StaticMutexAutoLock
 lock
 (
 sLock
