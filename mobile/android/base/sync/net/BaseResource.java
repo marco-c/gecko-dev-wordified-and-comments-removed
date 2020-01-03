@@ -510,7 +510,6 @@ true
 ;
 public
 static
-final
 boolean
 rewriteLocalhost
 =
