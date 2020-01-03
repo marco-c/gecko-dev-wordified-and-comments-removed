@@ -5570,7 +5570,7 @@ global
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 JS
 :
@@ -8833,7 +8833,7 @@ global
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 JS
 :
@@ -9429,7 +9429,7 @@ global
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 JS
 :

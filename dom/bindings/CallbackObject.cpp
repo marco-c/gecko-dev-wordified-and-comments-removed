@@ -430,7 +430,7 @@ globalObject
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 glob
 )

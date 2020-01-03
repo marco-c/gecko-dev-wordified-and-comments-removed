@@ -4676,7 +4676,7 @@ global
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 js
 :

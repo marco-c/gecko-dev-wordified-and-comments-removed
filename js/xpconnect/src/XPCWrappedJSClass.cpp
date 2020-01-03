@@ -2102,7 +2102,7 @@ nsIGlobalObject
 *
 nativeGlobal
 =
-GetNativeForGlobal
+NativeGlobal
 (
 js
 :
@@ -3909,7 +3909,7 @@ nsIGlobalObject
 *
 nativeGlobal
 =
-GetNativeForGlobal
+NativeGlobal
 (
 js
 :

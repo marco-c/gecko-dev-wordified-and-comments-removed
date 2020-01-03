@@ -9770,7 +9770,7 @@ global
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 xpc
 :

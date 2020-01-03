@@ -3364,7 +3364,7 @@ dom
 AutoEntryScript
 aes
 (
-GetNativeForGlobal
+NativeGlobal
 (
 holder
 -
@@ -4526,7 +4526,7 @@ dom
 AutoEntryScript
 aes
 (
-GetNativeForGlobal
+NativeGlobal
 (
 CurrentGlobalOrNull
 (

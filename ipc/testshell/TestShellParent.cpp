@@ -250,7 +250,7 @@ aes
 xpc
 :
 :
-GetNativeForGlobal
+NativeGlobal
 (
 js
 :
