@@ -6851,7 +6851,9 @@ CommandArgument
 '
 -
 -
-sample_below
+sample
+-
+below
 '
 default
 =
@@ -6887,7 +6889,9 @@ CommandArgument
 '
 -
 -
-max_frames
+max
+-
+frames
 '
 default
 =
@@ -6928,7 +6932,9 @@ CommandArgument
 '
 -
 -
-max_records
+max
+-
+records
 '
 default
 =
