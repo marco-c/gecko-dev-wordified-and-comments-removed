@@ -111,10 +111,6 @@ insecure
 )
 active
 content
-on
-a
-secure
-page
 \
 "
 http
@@ -127,6 +123,10 @@ com
 /
 \
 "
+on
+a
+secure
+page
 "
 category
 :
@@ -159,10 +159,6 @@ insecure
 )
 display
 content
-on
-a
-secure
-page
 \
 "
 http
@@ -186,6 +182,10 @@ blue
 png
 \
 "
+on
+a
+secure
+page
 "
 category
 :
