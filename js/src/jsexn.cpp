@@ -2373,9 +2373,7 @@ err
 type
 nullptr
 emptyStr
-NullPtr
-(
-)
+nullptr
 0
 0
 emptyStr

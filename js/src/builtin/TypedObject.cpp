@@ -545,9 +545,7 @@ cx
 type
 typedObj
 0
-NullPtr
-(
-)
+nullptr
 val
 )
 ;
@@ -3259,9 +3257,7 @@ PlainObject
 >
 (
 cx
-NullPtr
-(
-)
+nullptr
 TenuredObject
 )
 ;
@@ -3281,9 +3277,7 @@ PlainObject
 >
 (
 cx
-NullPtr
-(
-)
+nullptr
 TenuredObject
 )
 ;
@@ -4026,9 +4020,7 @@ fieldNames
 begin
 (
 )
-NullPtr
-(
-)
+nullptr
 TenuredObject
 )
 ;
@@ -4076,9 +4068,7 @@ fieldTypeObjs
 begin
 (
 )
-NullPtr
-(
-)
+nullptr
 TenuredObject
 )
 ;
@@ -4126,9 +4116,7 @@ fieldOffsets
 begin
 (
 )
-NullPtr
-(
-)
+nullptr
 TenuredObject
 )
 ;
@@ -9117,9 +9105,7 @@ cx
 elementType
 typedObj
 offset
-NullPtr
-(
-)
+nullptr
 v
 )
 )

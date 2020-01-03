@@ -1390,9 +1390,7 @@ ForOfPIC
 :
 :
 jsclass
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

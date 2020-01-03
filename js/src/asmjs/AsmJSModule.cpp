@@ -5941,9 +5941,7 @@ AsmJSModuleObject
 :
 :
 class_
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

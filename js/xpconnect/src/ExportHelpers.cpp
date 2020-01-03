@@ -671,12 +671,7 @@ ndefRecord
 WrapObject
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 :
 nullptr

@@ -650,12 +650,7 @@ HTMLTrackElementBinding
 ConstructorEnabled
 (
 nullptr
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 ;
 }

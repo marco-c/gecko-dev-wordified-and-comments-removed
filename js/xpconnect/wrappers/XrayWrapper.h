@@ -2225,12 +2225,7 @@ JS_NewObjectWithGivenProto
 (
 cx
 nullptr
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 ;
 }

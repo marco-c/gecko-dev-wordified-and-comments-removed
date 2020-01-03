@@ -10810,12 +10810,7 @@ offset
 )
 getter_
 (
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 pcOffset_
 (

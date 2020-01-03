@@ -2787,9 +2787,7 @@ GenericObject
 HandleObject
 enclosingDynamicScope
 =
-NullPtr
-(
-)
+nullptr
 )
 ;
 extern
@@ -3055,9 +3053,7 @@ GenericObject
 HandleObject
 proto
 =
-NullPtr
-(
-)
+nullptr
 )
 ;
 extern

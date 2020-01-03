@@ -6943,12 +6943,7 @@ JS
 HandleFunction
 fun
 =
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 :
 script_

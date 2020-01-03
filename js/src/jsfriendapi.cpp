@@ -566,9 +566,7 @@ Class
 *
 )
 clasp
-NullPtr
-(
-)
+nullptr
 SingletonObject
 )
 )

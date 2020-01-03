@@ -2037,12 +2037,7 @@ CreateError
 (
 cx
 JSEXN_ERR
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 fn
 aErrorDesc
 .

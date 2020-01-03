@@ -1256,12 +1256,7 @@ JS
 HandleObject
 existing
 =
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 ;
 bool
@@ -1294,12 +1289,7 @@ JS
 HandleObject
 existingArg
 =
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 ;
 bool

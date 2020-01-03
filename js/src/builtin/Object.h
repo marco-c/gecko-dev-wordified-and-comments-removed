@@ -94,12 +94,7 @@ GenericObject
 HandleObjectGroup
 group
 =
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 ;
 PlainObject

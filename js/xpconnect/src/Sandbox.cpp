@@ -1041,12 +1041,7 @@ crypto
 WrapObject
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 )
 ;
@@ -1133,12 +1128,7 @@ registrar
 WrapObject
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 )
 ;

@@ -1024,9 +1024,7 @@ JSFunction
 :
 :
 NATIVE_CTOR
-NullPtr
-(
-)
+nullptr
 ClassName
 (
 key
@@ -1136,9 +1134,7 @@ createTypedArrayFromBuffer
 NativeType
 >
 0
-NullPtr
-(
-)
+nullptr
 )
 ;
 if
@@ -5698,9 +5694,7 @@ construct
 cx
 bufobj
 args
-NullPtr
-(
-)
+nullptr
 )
 ;
 }
@@ -10699,9 +10693,7 @@ getter
 ValueGetter
 >
 0
-NullPtr
-(
-)
+nullptr
 )
 ;
 if
@@ -10944,9 +10936,7 @@ ArrayBufferObject
 :
 createDataViewForThis
 0
-NullPtr
-(
-)
+nullptr
 )
 )
 ;

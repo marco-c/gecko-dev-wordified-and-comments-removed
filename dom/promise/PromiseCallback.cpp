@@ -1161,12 +1161,7 @@ CreateError
 (
 aCx
 JSEXN_TYPEERR
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 fn
 lineNumber
 0

@@ -512,12 +512,7 @@ notification
 WrapObject
 (
 aCx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 )
 ;

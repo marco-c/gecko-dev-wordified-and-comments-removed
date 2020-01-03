@@ -5235,9 +5235,7 @@ fun
 options
 formals
 srcBuf
-NullPtr
-(
-)
+nullptr
 )
 )
 return

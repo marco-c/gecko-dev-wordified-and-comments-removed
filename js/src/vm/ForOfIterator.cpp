@@ -326,9 +326,7 @@ DecompileValueGenerator
 cx
 JSDVG_SEARCH_STACK
 iterable
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

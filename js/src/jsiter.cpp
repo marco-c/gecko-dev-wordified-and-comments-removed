@@ -2501,12 +2501,7 @@ JSMSG_BAD_TRAP_RETURN_VALUE
 -
 1
 val
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 bytes
 .
 ptr

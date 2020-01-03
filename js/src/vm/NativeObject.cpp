@@ -7421,9 +7421,7 @@ desc
 .
 initFields
 (
-NullPtr
-(
-)
+nullptr
 value
 attrs
 getter
@@ -8785,12 +8783,7 @@ flags
 JSMSG_UNDEFINED_PROP
 JSDVG_IGNORE_STACK
 val
-js
-:
-:
-NullPtr
-(
-)
+nullptr
 nullptr
 nullptr
 )

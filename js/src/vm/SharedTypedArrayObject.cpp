@@ -1850,9 +1850,7 @@ NewNativeFunction
 cx
 native
 0
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

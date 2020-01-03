@@ -483,12 +483,7 @@ blob
 WrapObject
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 )
 )
 ;

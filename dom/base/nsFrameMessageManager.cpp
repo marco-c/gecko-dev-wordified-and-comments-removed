@@ -3461,12 +3461,7 @@ JS_Stringify
 aCx
 &
 v
-JS
-:
-:
-NullPtr
-(
-)
+nullptr
 JS
 :
 :

@@ -1571,9 +1571,7 @@ PlainObject
 >
 (
 cx
-NullPtr
-(
-)
+nullptr
 )
 )
 ;
@@ -1644,9 +1642,7 @@ PlainObject
 >
 (
 cx
-NullPtr
-(
-)
+nullptr
 )
 )
 ;

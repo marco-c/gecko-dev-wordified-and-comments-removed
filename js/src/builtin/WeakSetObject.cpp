@@ -709,9 +709,7 @@ DecompileValueGenerator
 cx
 JSDVG_SEARCH_STACK
 keyVal
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

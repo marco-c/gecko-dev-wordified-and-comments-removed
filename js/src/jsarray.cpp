@@ -10920,9 +10920,7 @@ NewDenseFullyAllocatedArray
 (
 cx
 length
-NullPtr
-(
-)
+nullptr
 newKind
 )
 ;
@@ -10947,9 +10945,7 @@ NewDenseFullyAllocatedArray
 (
 cx
 length
-NullPtr
-(
-)
+nullptr
 newKind
 )
 ;
@@ -11155,9 +11151,7 @@ NewDensePartlyAllocatedArray
 (
 cx
 length
-NullPtr
-(
-)
+nullptr
 newKind
 )
 ;
@@ -11169,9 +11163,7 @@ NewDensePartlyAllocatedArray
 (
 cx
 length
-NullPtr
-(
-)
+nullptr
 newKind
 )
 ;
@@ -16969,9 +16961,7 @@ NewDenseUnallocatedArray
 (
 cx
 length
-NullPtr
-(
-)
+nullptr
 newKind
 )
 ;
@@ -16991,9 +16981,7 @@ NewDensePartlyAllocatedArray
 (
 cx
 length
-NullPtr
-(
-)
+nullptr
 newKind
 )
 ;
@@ -17014,9 +17002,7 @@ NewDenseFullyAllocatedArray
 (
 cx
 length
-NullPtr
-(
-)
+nullptr
 newKind
 )
 ;
@@ -17572,9 +17558,7 @@ DecompileValueGenerator
 cx
 JSDVG_SEARCH_STACK
 arg
-NullPtr
-(
-)
+nullptr
 )
 ;
 if

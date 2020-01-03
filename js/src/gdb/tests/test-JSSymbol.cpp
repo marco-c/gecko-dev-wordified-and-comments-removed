@@ -49,9 +49,7 @@ cx
 NewSymbol
 (
 cx
-NullPtr
-(
-)
+nullptr
 )
 )
 ;

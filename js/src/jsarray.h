@@ -132,9 +132,7 @@ cx
 HandleObject
 proto
 =
-NullPtr
-(
-)
+nullptr
 NewObjectKind
 newKind
 =
@@ -155,9 +153,7 @@ length
 HandleObject
 proto
 =
-NullPtr
-(
-)
+nullptr
 NewObjectKind
 newKind
 =
@@ -178,9 +174,7 @@ length
 HandleObject
 proto
 =
-NullPtr
-(
-)
+nullptr
 NewObjectKind
 newKind
 =
@@ -201,9 +195,7 @@ length
 HandleObject
 proto
 =
-NullPtr
-(
-)
+nullptr
 NewObjectKind
 newKind
 =
@@ -255,9 +247,7 @@ elementOffset
 HandleObject
 proto
 =
-NullPtr
-(
-)
+nullptr
 )
 ;
 extern
@@ -277,9 +267,7 @@ values
 HandleObject
 proto
 =
-NullPtr
-(
-)
+nullptr
 NewObjectKind
 newKind
 =

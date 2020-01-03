@@ -1927,9 +1927,7 @@ ccx
 JS_CALLER
 cx
 obj
-NullPtr
-(
-)
+nullptr
 id
 )
 ;
@@ -2918,9 +2916,7 @@ ccx
 JS_CALLER
 cx
 obj
-NullPtr
-(
-)
+nullptr
 id
 )
 ;
@@ -3531,9 +3527,7 @@ ccx
 JS_CALLER
 cx
 obj
-NullPtr
-(
-)
+nullptr
 JSID_VOIDHANDLE
 args
 .
@@ -3636,9 +3630,7 @@ ccx
 JS_CALLER
 cx
 obj
-NullPtr
-(
-)
+nullptr
 JSID_VOIDHANDLE
 args
 .
