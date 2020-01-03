@@ -338,8 +338,6 @@ var
 index
 =
 aButtonIndex
--
-1
 ;
 ok
 (
