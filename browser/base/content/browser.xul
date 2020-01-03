@@ -6839,6 +6839,9 @@ bookmarks
 menu
 -
 button
+pocket
+-
+button
 downloads
 -
 button
@@ -6863,6 +6866,9 @@ container
 bookmarks
 -
 menu
+-
+button
+pocket
 -
 button
 downloads
