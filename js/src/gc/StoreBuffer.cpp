@@ -298,10 +298,12 @@ trc
 object
 )
 ;
-MarkChildren
+object
+-
+>
+markChildren
 (
 trc
-object
 )
 ;
 return

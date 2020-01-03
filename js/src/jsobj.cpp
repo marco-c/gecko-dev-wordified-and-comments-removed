@@ -13975,7 +13975,10 @@ needsIncrementalBarrier
 )
 )
 {
-MarkChildren
+a
+-
+>
+markChildren
 (
 zone
 -
@@ -13983,10 +13986,12 @@ zone
 barrierTracer
 (
 )
-a
 )
 ;
-MarkChildren
+b
+-
+>
+markChildren
 (
 zone
 -
@@ -13994,7 +13999,6 @@ zone
 barrierTracer
 (
 )
-b
 )
 ;
 }

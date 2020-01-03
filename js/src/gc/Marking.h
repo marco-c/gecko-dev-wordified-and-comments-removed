@@ -975,17 +975,6 @@ name
 )
 ;
 void
-MarkChildren
-(
-JSTracer
-*
-trc
-JSObject
-*
-obj
-)
-;
-void
 MarkCycleCollectorChildren
 (
 JSTracer
