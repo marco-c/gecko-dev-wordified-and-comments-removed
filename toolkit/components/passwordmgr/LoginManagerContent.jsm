@@ -1320,7 +1320,7 @@ gAutofillForms
 !
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 doc
 .
@@ -2237,7 +2237,7 @@ if
 (
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 win
 )

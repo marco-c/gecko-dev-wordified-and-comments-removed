@@ -374,9 +374,11 @@ ok
 (
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isBrowserPrivate
 (
-privateContent
+privateBrowser
+.
+selectedBrowser
 )
 "
 tab

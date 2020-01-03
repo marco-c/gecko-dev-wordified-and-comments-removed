@@ -1610,11 +1610,9 @@ charset
 !
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isBrowserPrivate
 (
 aBrowser
-.
-contentWindow
 )
 )
 PlacesUtils

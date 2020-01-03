@@ -576,7 +576,7 @@ if
 (
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isContentWindowPrivate
 (
 domWin
 )

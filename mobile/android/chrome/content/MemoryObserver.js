@@ -227,11 +227,9 @@ isPrivate
 =
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isBrowserPrivate
 (
 browser
-.
-contentWindow
 )
 ;
 tab

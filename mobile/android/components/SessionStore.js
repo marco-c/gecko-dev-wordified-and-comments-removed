@@ -5548,15 +5548,13 @@ isPrivate
 =
 PrivateBrowsingUtils
 .
-isWindowPrivate
+isBrowserPrivate
 (
 aWindow
 .
 BrowserApp
 .
 selectedBrowser
-.
-contentWindow
 )
 ;
 let
