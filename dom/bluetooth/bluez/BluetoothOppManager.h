@@ -611,6 +611,9 @@ BluetoothSocket
 >
 mL2capSocket
 ;
+BluetoothSocketType
+mSocketType
+;
 mozilla
 :
 :
