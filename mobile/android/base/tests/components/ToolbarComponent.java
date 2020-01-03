@@ -242,7 +242,7 @@ final
 int
 READER_MODE_WAIT_MS
 =
-30000
+60000
 ;
 public
 ToolbarComponent
