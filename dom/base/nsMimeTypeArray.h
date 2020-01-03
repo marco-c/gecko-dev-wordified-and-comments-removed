@@ -202,15 +202,6 @@ nsMimeType
 >
 mMimeTypes
 ;
-nsTArray
-<
-nsRefPtr
-<
-nsMimeType
->
->
-mHiddenMimeTypes
-;
 }
 ;
 class
