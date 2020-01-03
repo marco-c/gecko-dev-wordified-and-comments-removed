@@ -192,7 +192,7 @@ mLastTouchInput
 MultiTouchInput
 mLastTapInput
 ;
-ParentLayerPoint
+ScreenIntPoint
 mTouchStartPosition
 ;
 CancelableTask

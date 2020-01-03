@@ -602,7 +602,7 @@ SetScrollOffset
 actualScrollOffset
 )
 ;
-float
+ParentLayerToLayerScale
 presShellResolution
 =
 aMetrics
@@ -614,8 +614,13 @@ aMetrics
 GetAsyncZoom
 (
 )
+*
+ScreenToLayerScale
+(
+1
 .
-scale
+0f
+)
 ;
 aUtils
 -
@@ -623,7 +628,11 @@ aUtils
 SetResolution
 (
 presShellResolution
+.
+scale
 presShellResolution
+.
+scale
 )
 ;
 nsCOMPtr
