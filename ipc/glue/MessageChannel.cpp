@@ -435,7 +435,7 @@ InterruptFrame
 aOther
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 &
 aOther
