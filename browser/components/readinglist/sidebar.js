@@ -1245,8 +1245,6 @@ url
 }
 )
 ;
-return
-;
 let
 mainWindow
 =
