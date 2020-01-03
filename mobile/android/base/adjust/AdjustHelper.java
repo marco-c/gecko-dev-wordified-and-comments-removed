@@ -83,6 +83,10 @@ final
 String
 appToken
 ;
+final
+LogLevel
+logLevel
+;
 if
 (
 maybeAppToken
@@ -101,6 +105,12 @@ appToken
 =
 maybeAppToken
 ;
+logLevel
+=
+LogLevel
+.
+WARN
+;
 }
 else
 {
@@ -115,6 +125,12 @@ appToken
 "
 ABCDEFGHIJKL
 "
+;
+logLevel
+=
+LogLevel
+.
+VERBOSE
 ;
 }
 AdjustConfig
@@ -132,9 +148,7 @@ config
 .
 setLogLevel
 (
-LogLevel
-.
-VERBOSE
+logLevel
 )
 ;
 Adjust
