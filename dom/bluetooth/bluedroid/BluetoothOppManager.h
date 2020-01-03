@@ -509,9 +509,6 @@ int
 mUpdateProgressCounter
 ;
 bool
-mNeedsUpdatingSdpRecords
-;
-bool
 mAbortFlag
 ;
 bool
