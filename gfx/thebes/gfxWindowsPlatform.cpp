@@ -9929,7 +9929,7 @@ mAcceleration
 return
 ;
 }
-DriverCrashGuard
+D3D11LayersCrashGuard
 detectCrashes
 ;
 if
