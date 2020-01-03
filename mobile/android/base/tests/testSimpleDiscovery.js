@@ -156,6 +156,13 @@ var
 testDevice
 =
 {
+id
+:
+"
+test
+:
+dummy
+"
 target
 :
 "

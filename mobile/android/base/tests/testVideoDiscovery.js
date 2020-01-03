@@ -146,6 +146,13 @@ var
 testTarget
 =
 {
+id
+:
+"
+test
+:
+dummy
+"
 target
 :
 "
