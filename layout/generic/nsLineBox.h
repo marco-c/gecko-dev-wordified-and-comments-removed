@@ -2140,7 +2140,7 @@ if
 (
 mBounds
 .
-IsEmpty
+IsAllZero
 (
 )
 )

@@ -8057,7 +8057,7 @@ spanFramePFD
 >
 mBorderPadding
 .
-IsEmpty
+IsAllZero
 (
 )
 &
@@ -8067,7 +8067,7 @@ spanFramePFD
 >
 mMargin
 .
-IsEmpty
+IsAllZero
 (
 )
 )
