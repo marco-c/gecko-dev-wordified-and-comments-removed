@@ -2050,6 +2050,11 @@ DestroyCompositor
 (
 )
 ;
+void
+DestroyLayerManager
+(
+)
+;
 nsIWidgetListener
 *
 mWidgetListener
