@@ -11324,6 +11324,10 @@ input
 if
 (
 text
+!
+=
+=
+undefined
 )
 {
 GsmPDUHelper
