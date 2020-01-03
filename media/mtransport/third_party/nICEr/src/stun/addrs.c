@@ -1185,6 +1185,14 @@ count
 maxaddrs
 )
 {
+if
+(
+if_addr
+-
+>
+ifa_addr
+)
+{
 switch
 (
 if_addr
@@ -1559,6 +1567,7 @@ break
 default
 :
 ;
+}
 }
 if_addr
 =
