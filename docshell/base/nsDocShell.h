@@ -2405,9 +2405,7 @@ delete
 mPayload
 ;
 }
-const
-char
-*
+nsCString
 mName
 ;
 ProfilerMarkerTracing
