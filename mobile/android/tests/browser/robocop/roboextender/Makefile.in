@@ -164,6 +164,8 @@ cp
 TESTPATH
 )
 /
+base
+/
 *
 (
 TEST_EXTENSIONS_DIR
