@@ -3581,10 +3581,14 @@ socialShareRoom
 origin
 roomUrl
 "
-share_email_subject5
+share_email_subject6
 "
 "
-share_email_body5
+share_email_body6
+"
++
+"
+share_email_footer
 "
 )
 ;
