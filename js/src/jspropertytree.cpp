@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
