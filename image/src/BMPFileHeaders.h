@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_IMAGELIB_BMPHEADERS_H_
+mozilla_image_src_BMPFileHeaders_h
 #
 define
-MOZILLA_IMAGELIB_BMPHEADERS_H_
+mozilla_image_src_BMPFileHeaders_h
 namespace
 mozilla
 {
@@ -70,11 +70,6 @@ as
 contained
 in
 the
-bihsize
-field
-of
-BMPFILEHEADER
-)
 #
 define
 WIN_V3_BIH_LENGTH
@@ -92,11 +87,6 @@ as
 contained
 in
 the
-bihsize
-field
-of
-BMPFILEHEADER
-)
 #
 define
 WIN_V5_BIH_LENGTH
@@ -114,11 +104,6 @@ as
 contained
 in
 the
-bihsize
-field
-of
-BMPFILEHEADER
-)
 #
 define
 OS2_HEADER_LENGTH

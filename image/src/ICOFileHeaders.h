@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_IMAGELIB_ICOHEADERS_H_
+mozilla_image_src_ICOFileHeaders_h
 #
 define
-MOZILLA_IMAGELIB_ICOHEADERS_H_
+mozilla_image_src_ICOFileHeaders_h
 namespace
 mozilla
 {
