@@ -731,7 +731,7 @@ if
 (
 mObject
 )
-GetJNIForThread
+GetEnvForThread
 (
 )
 -
@@ -6129,10 +6129,10 @@ jni
 {
 jni
 =
-AndroidBridge
+jni
 :
 :
-GetJNIEnv
+GetGeckoThreadEnv
 (
 )
 ;
@@ -6257,10 +6257,10 @@ jni
 {
 jni
 =
-AndroidBridge
+jni
 :
 :
-GetJNIEnv
+GetGeckoThreadEnv
 (
 )
 ;

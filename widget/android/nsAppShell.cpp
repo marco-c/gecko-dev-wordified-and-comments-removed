@@ -1301,10 +1301,10 @@ mayWait
 {
 if
 (
-AndroidBridge
+jni
 :
 :
-HasEnv
+IsAvailable
 (
 )
 &

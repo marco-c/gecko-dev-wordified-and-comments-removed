@@ -1131,9 +1131,13 @@ aCallback
 {
 JNIEnv
 *
+const
 env
 =
-GetJNIForThread
+jni
+:
+:
+GetEnvForThread
 (
 )
 ;
@@ -2235,7 +2239,10 @@ false
 AutoLocalJNIFrame
 frame
 (
-GetJNIForThread
+jni
+:
+:
+GetEnvForThread
 (
 )
 1

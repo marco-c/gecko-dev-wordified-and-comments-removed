@@ -204,7 +204,7 @@ aMessage
 return
 ThrowException
 (
-GetJNIForThread
+GetEnvForThread
 (
 )
 aClass
@@ -225,7 +225,7 @@ aMessage
 return
 ThrowException
 (
-GetJNIForThread
+GetEnvForThread
 (
 )
 aMessage

@@ -140,7 +140,10 @@ JNIEnv
 *
 env
 =
-GetJNIForThread
+jni
+:
+:
+GetEnvForThread
 (
 )
 ;

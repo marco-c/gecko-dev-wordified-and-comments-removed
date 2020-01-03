@@ -454,7 +454,7 @@ NS_IsMainThread
 )
 )
 {
-AndroidBridge
+jni
 :
 :
 ThrowException
@@ -501,7 +501,7 @@ if
 obsServ
 )
 {
-AndroidBridge
+jni
 :
 :
 ThrowException
@@ -3487,12 +3487,13 @@ Run
 {
 JNIEnv
 *
+const
 env
 =
-AndroidBridge
+jni
 :
 :
-GetJNIEnv
+GetGeckoThreadEnv
 (
 )
 ;

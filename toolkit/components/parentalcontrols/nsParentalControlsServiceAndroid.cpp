@@ -48,10 +48,10 @@ if
 mozilla
 :
 :
-AndroidBridge
+jni
 :
 :
-HasEnv
+IsAvailable
 (
 )
 )
@@ -262,10 +262,10 @@ if
 mozilla
 :
 :
-AndroidBridge
+jni
 :
 :
-HasEnv
+IsAvailable
 (
 )
 )

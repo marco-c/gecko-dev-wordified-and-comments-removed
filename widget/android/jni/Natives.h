@@ -1777,7 +1777,7 @@ JNIEnv
 const
 env
 =
-GetJNIForThread
+GetEnvForThread
 (
 )
 ;
