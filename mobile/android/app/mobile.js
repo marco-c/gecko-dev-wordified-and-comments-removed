@@ -4363,11 +4363,12 @@ mozilla
 .
 org
 /
-%
-LOCALE
-%
+api
+/
+v1
 /
 feedback
+/
 "
 )
 ;
