@@ -2230,6 +2230,9 @@ focusedWindow
 if
 (
 focusedContent
+&
+&
+focusedContent
 -
 >
 IsEditable
