@@ -357,6 +357,15 @@ _listener
 )
 {
 let
+labels
+=
+results
+.
+slice
+(
+)
+;
+let
 result
 =
 new
@@ -372,7 +381,7 @@ RESULT_SUCCESS
 "
 "
 results
-results
+labels
 comments
 formHistoryResult
 )
