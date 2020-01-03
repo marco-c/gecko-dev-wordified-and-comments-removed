@@ -2597,6 +2597,48 @@ build
             
 )
             
+img_url
+=
+ARTIFACT_URL
+.
+format
+(
+                
+build_parameters
+[
+'
+build_slugid
+'
+]
+                
+build_task
+[
+'
+task
+'
+]
+[
+'
+extra
+'
+]
+[
+'
+locations
+'
+]
+.
+get
+(
+'
+img
+'
+'
+'
+)
+            
+)
+            
 define_task
 =
 DEFINE_TASK
@@ -2863,6 +2905,15 @@ build_url
 ]
 =
 build_url
+                
+test_parameters
+[
+'
+img_url
+'
+]
+=
+img_url
                 
 test_parameters
 [
@@ -3733,6 +3784,16 @@ head_rev
         
 build_parameters
 =
+dict
+(
+gaia_info
+(
+)
+.
+items
+(
+)
++
 {
             
 '
@@ -3831,6 +3892,11 @@ mozharness_rev
 ]
         
 }
+.
+items
+(
+)
+)
         
 try
 :
@@ -4138,6 +4204,7 @@ default
 )
         
 build_url
+img_url
 tests_url
 =
 self
@@ -4149,6 +4216,16 @@ task_id
         
 test_parameters
 =
+dict
+(
+gaia_info
+(
+)
+.
+items
+(
+)
++
 {
             
 '
@@ -4167,6 +4244,18 @@ format
 (
 task_id
 build_url
+)
+            
+'
+img_url
+'
+:
+ARTIFACT_URL
+.
+format
+(
+task_id
+img_url
 )
             
 '
@@ -4214,13 +4303,27 @@ current_json_time
 )
         
 }
+.
+items
+(
+)
+)
         
 try
 :
             
+templates
+=
+Templates
+(
+ROOT
+)
+            
 test_task
 =
-import_yaml
+templates
+.
+load
 (
 test_task
 test_parameters
@@ -4324,6 +4427,16 @@ locations
 build
 '
 ]
+locations
+.
+get
+(
+'
+img
+'
+'
+'
+)
 locations
 [
 '
