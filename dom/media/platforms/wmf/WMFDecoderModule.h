@@ -153,6 +153,12 @@ Init
 (
 )
 ;
+static
+int
+GetNumDecoderThreads
+(
+)
+;
 private
 :
 bool
