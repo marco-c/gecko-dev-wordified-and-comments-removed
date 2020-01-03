@@ -771,9 +771,6 @@ gfxHarfBuzzShaper
 :
 GetGlyphHAdvance
 (
-gfxContext
-*
-aContext
 hb_codepoint_t
 glyph
 )
@@ -874,9 +871,6 @@ gfxHarfBuzzShaper
 :
 GetGlyphVAdvance
 (
-gfxContext
-*
-aContext
 hb_codepoint_t
 glyph
 )
@@ -1065,8 +1059,6 @@ glyph
 )
 ;
 }
-else
-{
 return
 fcd
 -
@@ -1076,14 +1068,9 @@ mShaper
 >
 GetGlyphHAdvance
 (
-fcd
--
->
-mContext
 glyph
 )
 ;
-}
 }
 hb_position_t
 gfxHarfBuzzShaper
@@ -1163,8 +1150,6 @@ glyph
 )
 ;
 }
-else
-{
 return
 fcd
 -
@@ -1174,14 +1159,9 @@ mShaper
 >
 GetGlyphVAdvance
 (
-fcd
--
->
-mContext
 glyph
 )
 ;
-}
 }
 hb_bool_t
 gfxHarfBuzzShaper
@@ -1294,10 +1274,6 @@ mShaper
 >
 GetGlyphVOrigin
 (
-fcd
--
->
-mContext
 glyph
 x
 y
@@ -1313,9 +1289,6 @@ gfxHarfBuzzShaper
 :
 GetGlyphVOrigin
 (
-gfxContext
-*
-aContext
 hb_codepoint_t
 aGlyph
 hb_position_t
@@ -1337,7 +1310,6 @@ aX
 *
 GetGlyphHAdvance
 (
-aContext
 aGlyph
 )
 ;
