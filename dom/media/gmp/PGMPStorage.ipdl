@@ -154,6 +154,16 @@ GMPErr
 aStatus
 )
 ;
+RecordNames
+(
+nsCString
+[
+]
+aRecordNames
+GMPErr
+aStatus
+)
+;
 Shutdown
 (
 )
@@ -186,6 +196,10 @@ Close
 (
 nsCString
 aRecordName
+)
+;
+GetRecordNames
+(
 )
 ;
 __delete__

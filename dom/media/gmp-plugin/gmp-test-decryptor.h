@@ -211,6 +211,16 @@ string
 aMessage
 )
 ;
+void
+ProcessRecordNames
+(
+GMPRecordIterator
+*
+aRecordIterator
+GMPErr
+aStatus
+)
+;
 private
 :
 virtual
