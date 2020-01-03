@@ -749,7 +749,7 @@ label
 =
 "
 &
-shareLinkCmd
+shareLink
 .
 label
 ;
@@ -758,7 +758,7 @@ accesskey
 =
 "
 &
-shareLinkCmd
+shareLink
 .
 accesskey
 ;
@@ -2046,7 +2046,7 @@ label
 =
 "
 &
-shareImageCmd
+shareImage
 .
 label
 ;
@@ -2055,7 +2055,7 @@ accesskey
 =
 "
 &
-shareImageCmd
+shareImage
 .
 accesskey
 ;
@@ -2291,7 +2291,7 @@ label
 =
 "
 &
-shareVideoCmd
+shareVideo
 .
 label
 ;
@@ -2300,7 +2300,7 @@ accesskey
 =
 "
 &
-shareVideoCmd
+shareVideo
 .
 accesskey
 ;
@@ -3068,7 +3068,7 @@ label
 =
 "
 &
-shareSelectCmd
+shareSelect
 .
 label
 ;
@@ -3077,7 +3077,7 @@ accesskey
 =
 "
 &
-shareSelectCmd
+shareSelect
 .
 accesskey
 ;
