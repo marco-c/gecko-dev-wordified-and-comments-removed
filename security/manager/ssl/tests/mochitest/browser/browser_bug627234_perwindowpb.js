@@ -328,10 +328,13 @@ executeSoon
 function
 (
 )
+{
 aCallback
 (
 aWin
 )
+;
+}
 )
 ;
 }
