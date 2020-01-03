@@ -1258,7 +1258,7 @@ inferredLocation
 ;
 }
 }
-onArrowExpression
+onArrowFunctionExpression
 :
 function
 (
@@ -5549,7 +5549,7 @@ aCallbacks
 )
 ;
 }
-ArrowExpression
+ArrowFunctionExpression
 :
 function
 (
@@ -5604,12 +5604,12 @@ if
 (
 aCallbacks
 .
-onArrowExpression
+onArrowFunctionExpression
 )
 {
 aCallbacks
 .
-onArrowExpression
+onArrowFunctionExpression
 (
 aNode
 )

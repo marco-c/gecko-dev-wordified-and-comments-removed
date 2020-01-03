@@ -3431,7 +3431,7 @@ type
 =
 =
 "
-ArrowExpression
+ArrowFunctionExpression
 "
 )
 &

@@ -303,10 +303,10 @@ ASTDEF
 (
 AST_ARROW_EXPR
 "
-ArrowExpression
+ArrowFunctionExpression
 "
 "
-arrowExpression
+arrowFunctionExpression
 "
 )
 ASTDEF
