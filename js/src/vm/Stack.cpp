@@ -8168,6 +8168,11 @@ AsmJSExit
 None
 )
 {
+(
+void
+)
+entrySP_
+;
 if
 (
 cx
@@ -8242,6 +8247,7 @@ mainThread
 .
 asmJSActivationStack_
 ;
+{
 JSRuntime
 :
 :
@@ -8267,10 +8273,10 @@ asmJSActivationStack_
 =
 this
 ;
+}
+registerProfiling
 (
-void
 )
-entrySP_
 ;
 }
 AsmJSActivation
@@ -8281,6 +8287,10 @@ AsmJSActivation
 (
 )
 {
+unregisterProfiling
+(
+)
+;
 if
 (
 profiler_
