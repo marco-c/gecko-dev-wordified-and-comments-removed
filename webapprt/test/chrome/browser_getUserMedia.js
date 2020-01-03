@@ -190,6 +190,17 @@ msg
 textContent
 "
 PermissionDeniedError
+:
+The
+user
+did
+not
+grant
+permission
+for
+the
+operation
+.
 "
 "
 getUserMedia
