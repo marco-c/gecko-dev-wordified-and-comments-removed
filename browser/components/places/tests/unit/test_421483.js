@@ -98,9 +98,8 @@ smartBookmarksVersion
 1
 )
 ;
-gluesvc
-.
-ensurePlacesDefaultQueriesInitialized
+yield
+rebuildSmartBookmarks
 (
 )
 ;
@@ -189,9 +188,8 @@ smartBookmarksVersion
 0
 )
 ;
-gluesvc
-.
-ensurePlacesDefaultQueriesInitialized
+yield
+rebuildSmartBookmarks
 (
 )
 ;
@@ -334,9 +332,8 @@ smartBookmarksVersion
 0
 )
 ;
-gluesvc
-.
-ensurePlacesDefaultQueriesInitialized
+yield
+rebuildSmartBookmarks
 (
 )
 ;
@@ -559,9 +556,8 @@ smartBookmarksVersion
 0
 )
 ;
-gluesvc
-.
-ensurePlacesDefaultQueriesInitialized
+yield
+rebuildSmartBookmarks
 (
 )
 ;
