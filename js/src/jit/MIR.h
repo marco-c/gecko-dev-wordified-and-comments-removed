@@ -804,11 +804,8 @@ releaseProducer
 )
 ;
 }
-#
-if
-DEBUG
 bool
-operandDiscarded
+hasOperand
 (
 size_t
 index
@@ -816,7 +813,6 @@ index
 const
 {
 return
-!
 getUseFor
 (
 index
@@ -828,8 +824,6 @@ hasProducer
 )
 ;
 }
-#
-endif
 inline
 MDefinition
 *

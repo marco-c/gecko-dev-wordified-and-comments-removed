@@ -94,9 +94,6 @@ bool
 disableLoopUnrolling
 ;
 bool
-disableUce
-;
-bool
 disableEaa
 ;
 bool

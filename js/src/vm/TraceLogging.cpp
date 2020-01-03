@@ -4539,16 +4539,6 @@ enabledTextIds
 TraceLogger
 :
 :
-UCE
-]
-=
-true
-;
-enabledTextIds
-[
-TraceLogger
-:
-:
 LICM
 ]
 =

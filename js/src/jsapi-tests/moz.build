@@ -489,6 +489,11 @@ testJitFoldsTo
 cpp
 '
 '
+testJitGVN
+.
+cpp
+'
+'
 testJitMoveEmitterCycles
 .
 cpp
