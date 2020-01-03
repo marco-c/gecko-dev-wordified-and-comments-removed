@@ -2001,7 +2001,7 @@ version
 "
 )
 ;
-upgrade0to1
+downgrade1to0
 (
 context
 accountManager
