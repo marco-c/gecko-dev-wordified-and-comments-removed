@@ -143,6 +143,19 @@ video_channel
 =
 0
 ;
+virtual
+void
+ReceiveStateChange
+(
+const
+int
+video_channel
+VideoReceiveState
+state
+)
+=
+0
+;
 protected
 :
 virtual
@@ -301,7 +314,7 @@ enable
 ;
 virtual
 int
-GetSendCodecStastistics
+GetSendCodecStatistics
 (
 const
 int
@@ -321,7 +334,7 @@ const
 ;
 virtual
 int
-GetReceiveCodecStastistics
+GetReceiveCodecStatistics
 (
 const
 int

@@ -177,7 +177,7 @@ enable
 ;
 virtual
 int
-GetSendCodecStastistics
+GetSendCodecStatistics
 (
 const
 int
@@ -195,7 +195,7 @@ const
 ;
 virtual
 int
-GetReceiveCodecStastistics
+GetReceiveCodecStatistics
 (
 const
 int

@@ -259,7 +259,7 @@ false
 )
 delay_correction_enabled_
 (
-false
+true
 )
 reported_delay_enabled_
 (
@@ -1616,6 +1616,9 @@ Config
 config
 )
 {
+#
+if
+0
 delay_correction_enabled_
 =
 config
@@ -1629,6 +1632,8 @@ DelayCorrection
 .
 enabled
 ;
+#
+endif
 reported_delay_enabled_
 =
 config

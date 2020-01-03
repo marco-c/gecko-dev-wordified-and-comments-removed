@@ -140,6 +140,15 @@ observer
 OVERRIDE
 ;
 virtual
+void
+SetLoadManager
+(
+CPULoadStateCallbackInvoker
+*
+aLoadManager
+)
+;
+virtual
 int
 CreateChannel
 (

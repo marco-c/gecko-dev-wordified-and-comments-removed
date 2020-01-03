@@ -2587,10 +2587,13 @@ if
 (
 feed_data_to_apm
 )
+{
 APMAnalyzeReverseStream
 (
+_audioFrame
 )
 ;
+}
 {
 CriticalSectionScoped
 cs
@@ -2666,6 +2669,9 @@ OutputMixer
 :
 APMAnalyzeReverseStream
 (
+AudioFrame
+&
+audioFrame
 )
 {
 AudioFrame
@@ -2690,7 +2696,7 @@ input_sample_rate_hz
 ;
 RemixAndResample
 (
-_audioFrame
+audioFrame
 &
 audioproc_resampler_
 &

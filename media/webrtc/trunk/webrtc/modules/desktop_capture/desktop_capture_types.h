@@ -64,6 +64,16 @@ kInvalidScreenId
 -
 2
 ;
+typedef
+intptr_t
+ProcessId
+;
+const
+ProcessId
+DesktopProcessId
+=
+0
+;
 }
 #
 endif

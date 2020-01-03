@@ -304,6 +304,8 @@ VCMFrameBuffer
 *
 FindFrame
 (
+uint16_t
+seq_num
 uint32_t
 timestamp
 )

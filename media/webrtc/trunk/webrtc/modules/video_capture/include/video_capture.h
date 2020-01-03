@@ -58,6 +58,14 @@ NumberOfDevices
 ;
 virtual
 int32_t
+Refresh
+(
+)
+=
+0
+;
+virtual
+int32_t
 GetDeviceName
 (
 uint32_t

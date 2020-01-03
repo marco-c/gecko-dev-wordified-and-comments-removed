@@ -165,15 +165,10 @@ diff_proc
 {
 #
 if
+!
 defined
 (
-ARCH_CPU_ARM_FAMILY
-)
-|
-|
-defined
-(
-ARCH_CPU_MIPS_FAMILY
+WEBRTC_ARCH_X86_FAMILY
 )
 diff_proc
 =
