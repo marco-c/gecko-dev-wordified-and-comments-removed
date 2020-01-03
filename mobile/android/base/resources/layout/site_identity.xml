@@ -153,7 +153,7 @@ padding
 "
 dimen
 /
-doorhanger_padding
+doorhanger_section_padding_small
 "
 >
 <
@@ -202,7 +202,7 @@ paddingRight
 "
 dimen
 /
-doorhanger_padding
+doorhanger_section_padding_small
 "
 /
 >
@@ -324,7 +324,7 @@ layout_marginBottom
 "
 dimen
 /
-doorhanger_section_padding_small
+doorhanger_subsection_padding
 "
 android
 :
@@ -732,7 +732,7 @@ layout_marginBottom
 "
 dimen
 /
-doorhanger_padding
+doorhanger_section_padding_small
 "
 android
 :

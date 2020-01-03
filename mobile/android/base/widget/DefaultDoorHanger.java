@@ -615,7 +615,7 @@ R
 .
 dimen
 .
-doorhanger_padding
+doorhanger_section_padding_small
 )
 ;
 View
@@ -1190,7 +1190,7 @@ R
 .
 dimen
 .
-doorhanger_padding
+doorhanger_subsection_padding
 )
 )
 ;

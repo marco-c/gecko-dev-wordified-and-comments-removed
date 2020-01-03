@@ -122,7 +122,7 @@ padding
 "
 dimen
 /
-doorhanger_padding
+doorhanger_section_padding_small
 "
 android
 :
@@ -262,7 +262,7 @@ layout_marginTop
 "
 dimen
 /
-doorhanger_padding
+doorhanger_subsection_padding
 "
 /
 >
