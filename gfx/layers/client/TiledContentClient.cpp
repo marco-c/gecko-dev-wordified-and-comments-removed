@@ -4827,6 +4827,7 @@ Update
 (
 aNewValidRegion
 aPaintRegion
+aDirtyRegion
 )
 ;
 #
@@ -5602,6 +5603,10 @@ const
 nsIntRegion
 &
 aPaintRegion
+const
+nsIntRegion
+&
+aDirtyRegion
 )
 {
 if
@@ -5752,7 +5757,7 @@ mCallback
 mPaintedLayer
 ctx
 aPaintRegion
-aPaintRegion
+aDirtyRegion
 DrawRegionClip
 :
 :
@@ -5975,6 +5980,10 @@ const
 nsIntRegion
 &
 aPaintRegion
+const
+nsIntRegion
+&
+aDirtyRegion
 )
 {
 const
@@ -6295,6 +6304,7 @@ failed
 PostValidate
 (
 aPaintRegion
+aDirtyRegion
 )
 ;
 for
