@@ -127,6 +127,12 @@ tiny
 actual
 content
 .
+skip
+-
+if
+(
+B2G
+)
 load
 delaytest
 .
@@ -137,6 +143,12 @@ html
 1
 .
 gif
+skip
+-
+if
+(
+B2G
+)
 load
 delaytest
 .
