@@ -97,7 +97,7 @@ nsIUnicharInputStream
 >
 mIn
 ;
-PLDHashTable
+PLDHashTable2
 mTable
 ;
 PLArenaPool

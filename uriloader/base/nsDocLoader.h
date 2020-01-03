@@ -822,7 +822,7 @@ mCurrentTotalProgress
 int64_t
 mMaxTotalProgress
 ;
-PLDHashTable
+PLDHashTable2
 mRequestInfoHash
 ;
 int64_t
@@ -851,6 +851,11 @@ mIsFlushingLayout
 ;
 private
 :
+static
+const
+PLDHashTableOps
+sRequestInfoHashOps
+;
 nsCOMArray
 <
 nsIDocumentLoader
