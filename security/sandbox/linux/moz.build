@@ -877,6 +877,11 @@ common
 '
 glue
 '
+]
+TEST_DIRS
++
+=
+[
 '
 gtest
 '
