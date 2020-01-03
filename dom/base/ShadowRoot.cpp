@@ -333,6 +333,10 @@ mInsertionPointChanged
 (
 false
 )
+mIsComposedDocParticipant
+(
+false
+)
 {
 SetHost
 (
