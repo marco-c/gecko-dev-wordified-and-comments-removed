@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsNSSShutDown
+.
+h
+"
+#
+include
+"
 nsThread
 .
 h
@@ -48,6 +55,8 @@ MOZ_FINAL
 :
 public
 nsIWifiCertService
+public
+nsNSSShutDownObject
 {
 public
 :
@@ -87,6 +96,14 @@ WifiCertService
 WifiCertService
 (
 )
+;
+virtual
+void
+virtualDestroyNSSReference
+(
+)
+{
+}
 ;
 nsCOMPtr
 <
