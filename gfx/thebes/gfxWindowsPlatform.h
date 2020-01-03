@@ -940,6 +940,16 @@ InitD3D11Devices
 (
 )
 ;
+void
+InitD2DSupport
+(
+)
+;
+void
+InitDWriteSupport
+(
+)
+;
 IDXGIAdapter1
 *
 GetDXGIAdapter
