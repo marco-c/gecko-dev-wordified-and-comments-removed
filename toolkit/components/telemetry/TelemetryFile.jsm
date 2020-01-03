@@ -200,7 +200,7 @@ OVERDUE_PING_FILE_AGE
 const
 MAX_LRU_PINGS
 =
-17
+50
 ;
 let
 pingsLoaded
