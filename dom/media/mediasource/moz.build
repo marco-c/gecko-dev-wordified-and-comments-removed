@@ -92,6 +92,11 @@ MediaSourceReader
 .
 h
 '
+'
+ResourceQueue
+.
+h
+'
 ]
 EXPORTS
 .

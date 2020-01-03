@@ -945,6 +945,16 @@ APPEND_DEVICE
 break
 ;
 case
+AMDRadeonHD5800
+:
+APPEND_DEVICE
+(
+0x6899
+)
+;
+break
+;
+case
 DeviceFamilyMax
 :
 NS_WARNING
