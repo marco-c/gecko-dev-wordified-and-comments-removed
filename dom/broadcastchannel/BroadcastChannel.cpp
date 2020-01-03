@@ -720,6 +720,7 @@ NS_IMETHODIMP
 Run
 (
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -911,6 +912,7 @@ NS_IMETHODIMP
 Cancel
 (
 )
+MOZ_OVERRIDE
 {
 mActor
 =
@@ -981,6 +983,7 @@ NS_IMETHODIMP
 Run
 (
 )
+MOZ_OVERRIDE
 {
 mBC
 -
@@ -997,6 +1000,7 @@ NS_IMETHODIMP
 Cancel
 (
 )
+MOZ_OVERRIDE
 {
 mBC
 =
@@ -1061,6 +1065,7 @@ NS_IMETHODIMP
 Run
 (
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -1094,6 +1099,7 @@ NS_IMETHODIMP
 Cancel
 (
 )
+MOZ_OVERRIDE
 {
 mActor
 =
