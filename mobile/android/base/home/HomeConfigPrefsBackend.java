@@ -942,7 +942,7 @@ toString
 ;
 prefsEditor
 .
-commit
+apply
 (
 )
 ;
@@ -1367,7 +1367,7 @@ toString
 ;
 editor
 .
-commit
+apply
 (
 )
 ;
@@ -1446,7 +1446,7 @@ currentLocale
 ;
 editor
 .
-commit
+apply
 (
 )
 ;

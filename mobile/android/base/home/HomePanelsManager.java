@@ -1766,7 +1766,7 @@ editor
 ;
 editor
 .
-commit
+apply
 (
 )
 ;
