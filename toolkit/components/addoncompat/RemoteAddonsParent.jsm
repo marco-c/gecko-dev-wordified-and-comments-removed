@@ -568,6 +568,7 @@ addContentPolicy
 :
 function
 (
+addon
 name
 cid
 )
@@ -592,6 +593,7 @@ content
 -
 policy
 "
+addon
 ]
 )
 ;
@@ -600,6 +602,7 @@ removeContentPolicy
 :
 function
 (
+addon
 name
 )
 {
@@ -622,6 +625,7 @@ content
 -
 policy
 "
+addon
 ]
 )
 ;
@@ -867,6 +871,7 @@ ContentPolicyParent
 .
 addContentPolicy
 (
+addon
 entry
 value
 )
@@ -916,6 +921,7 @@ ContentPolicyParent
 .
 removeContentPolicy
 (
+addon
 entry
 )
 ;
@@ -1004,6 +1010,7 @@ registerFactory
 :
 function
 (
+addon
 class_
 className
 contractID
@@ -1037,6 +1044,7 @@ about
 protocol
 "
 contractID
+addon
 ]
 )
 ;
@@ -1045,6 +1053,7 @@ unregisterFactory
 :
 function
 (
+addon
 class_
 factory
 )
@@ -1102,6 +1111,7 @@ i
 ]
 .
 contractID
+addon
 ]
 )
 ;
@@ -1430,6 +1440,7 @@ AboutProtocolParent
 .
 registerFactory
 (
+addon
 class_
 className
 contractID
@@ -1467,6 +1478,7 @@ AboutProtocolParent
 .
 unregisterFactory
 (
+addon
 class_
 factory
 )
@@ -1533,6 +1545,7 @@ addObserver
 :
 function
 (
+addon
 observer
 topic
 ownsWeak
@@ -1563,6 +1576,7 @@ add
 observer
 "
 topic
+addon
 ]
 )
 ;
@@ -1571,6 +1585,7 @@ removeObserver
 :
 function
 (
+addon
 observer
 topic
 )
@@ -1599,6 +1614,7 @@ remove
 observer
 "
 topic
+addon
 ]
 )
 ;
@@ -1802,6 +1818,7 @@ ObserverParent
 .
 addObserver
 (
+addon
 observer
 topic
 )
@@ -1849,6 +1866,7 @@ ObserverParent
 .
 removeObserver
 (
+addon
 observer
 topic
 )
@@ -2059,6 +2077,7 @@ addEventListener
 :
 function
 (
+addon
 target
 type
 listener
@@ -2109,6 +2128,7 @@ event
 "
 type
 useCapture
+addon
 ]
 )
 ;
@@ -2254,6 +2274,7 @@ removeEventListener
 :
 function
 (
+addon
 target
 type
 listener
@@ -2392,6 +2413,7 @@ event
 "
 type
 useCapture
+addon
 ]
 )
 ;
@@ -2861,6 +2883,7 @@ EventTargetParent
 .
 addEventListener
 (
+addon
 target
 type
 listener
@@ -2903,6 +2926,7 @@ EventTargetParent
 .
 removeEventListener
 (
+addon
 target
 type
 listener
