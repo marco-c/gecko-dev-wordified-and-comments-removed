@@ -9449,6 +9449,9 @@ LayoutUseContainersForRootFrames
 )
 )
 {
+#
+ifndef
+MOZ_WIDGET_ANDROID
 content
 =
 document
@@ -9458,6 +9461,8 @@ GetDocumentElement
 (
 )
 ;
+#
+endif
 }
 root
 -
