@@ -181,9 +181,6 @@ return
 Success
 ;
 case
-dsaKey
-:
-case
 rsaKey
 :
 if
@@ -209,6 +206,9 @@ ERROR_INADEQUATE_KEY_SIZE
 }
 break
 ;
+case
+dsaKey
+:
 case
 nullKey
 :
