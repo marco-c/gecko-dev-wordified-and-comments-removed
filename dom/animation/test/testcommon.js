@@ -52,8 +52,11 @@ function
 {
 div
 .
-remove
+parentNode
+.
+removeChild
 (
+div
 )
 ;
 }
