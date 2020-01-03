@@ -1143,15 +1143,8 @@ IsLTR
 )
 const
 ;
-enum
-eScrollbarSide
-{
-eScrollbarOnLeft
-eScrollbarOnRight
-}
-;
-eScrollbarSide
-GetScrollbarSide
+bool
+IsScrollbarOnRight
 (
 )
 const
