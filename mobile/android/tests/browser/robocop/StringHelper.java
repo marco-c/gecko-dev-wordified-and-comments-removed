@@ -33,8 +33,6 @@ private
 static
 StringHelper
 instance
-=
-null
 ;
 public
 static
