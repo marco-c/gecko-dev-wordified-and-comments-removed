@@ -359,7 +359,7 @@ aRetvals
 ;
 virtual
 bool
-AnswerRpcMessage
+RecvRpcMessage
 (
 const
 nsString

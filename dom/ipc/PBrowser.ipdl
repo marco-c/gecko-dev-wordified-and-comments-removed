@@ -649,6 +649,12 @@ void_t
 ;
 }
 ;
+prio
+(
+normal
+upto
+high
+)
 intr
 protocol
 PBrowser
@@ -783,7 +789,11 @@ nsString
 retval
 )
 ;
-rpc
+prio
+(
+high
+)
+sync
 RpcMessage
 (
 nsString

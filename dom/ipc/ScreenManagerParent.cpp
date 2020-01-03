@@ -110,7 +110,7 @@ ScreenManagerParent
 unused
 <
 <
-AnswerRefresh
+RecvRefresh
 (
 aNumberOfScreens
 aSystemDefaultScale
@@ -122,7 +122,7 @@ bool
 ScreenManagerParent
 :
 :
-AnswerRefresh
+RecvRefresh
 (
 uint32_t
 *
@@ -198,7 +198,7 @@ bool
 ScreenManagerParent
 :
 :
-AnswerScreenRefresh
+RecvScreenRefresh
 (
 const
 uint32_t
@@ -280,7 +280,7 @@ bool
 ScreenManagerParent
 :
 :
-AnswerGetPrimaryScreen
+RecvGetPrimaryScreen
 (
 ScreenDetails
 *
@@ -356,7 +356,7 @@ bool
 ScreenManagerParent
 :
 :
-AnswerScreenForRect
+RecvScreenForRect
 (
 const
 int32_t
@@ -452,7 +452,7 @@ bool
 ScreenManagerParent
 :
 :
-AnswerScreenForBrowser
+RecvScreenForBrowser
 (
 PBrowserParent
 *

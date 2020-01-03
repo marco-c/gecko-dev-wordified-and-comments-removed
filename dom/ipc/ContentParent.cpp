@@ -15475,7 +15475,7 @@ bool
 ContentParent
 :
 :
-AnswerRpcMessage
+RecvRpcMessage
 (
 const
 nsString
@@ -15511,7 +15511,7 @@ return
 nsIContentParent
 :
 :
-AnswerRpcMessage
+RecvRpcMessage
 (
 aMsg
 aData

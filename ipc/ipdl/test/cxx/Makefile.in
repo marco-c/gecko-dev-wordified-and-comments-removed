@@ -150,6 +150,9 @@ cpp
 Makefile
 .
 in
+moz
+.
+build
 (
 GENTESTER
 )
