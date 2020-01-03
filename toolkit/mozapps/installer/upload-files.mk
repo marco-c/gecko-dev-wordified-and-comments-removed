@@ -4702,10 +4702,6 @@ OCSPStaplingServer
 GenerateOCSPResponse
 *
 \
-winEmbed
-.
-exe
-\
 chrome
 /
 chrome
