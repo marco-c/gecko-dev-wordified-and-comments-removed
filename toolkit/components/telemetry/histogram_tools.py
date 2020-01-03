@@ -42,8 +42,6 @@ ImportError
 :
     
 pass
-import
-usecounters
 from
 collections
 import
@@ -2001,15 +1999,28 @@ json
 '
 :
 from_Histograms_json
+}
+try
+:
     
+import
+usecounters
+    
+FILENAME_PARSERS
+[
 '
 UseCounters
 .
 conf
 '
-:
+]
+=
 from_UseCounters_conf
-}
+except
+ImportError
+:
+    
+pass
 def
 from_files
 (
