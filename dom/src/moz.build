@@ -100,9 +100,6 @@ DIRS
 '
 storage
 '
-'
-offline
-'
 ]
 JAR_MANIFESTS
 +
