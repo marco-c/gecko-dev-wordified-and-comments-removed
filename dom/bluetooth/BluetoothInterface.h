@@ -2316,6 +2316,8 @@ nsAString
 aBdAddr
 bool
 aIsDirect
+BluetoothTransport
+aTransport
 BluetoothGattClientResultHandler
 *
 aRes
@@ -2705,6 +2707,18 @@ const
 ArrayBuffer
 &
 aManufacturerData
+uint8_t
+aServiceDataLen
+const
+ArrayBuffer
+&
+aServiceData
+uint8_t
+aServiceUUIDLen
+const
+ArrayBuffer
+&
+aServiceUUID
 BluetoothGattClientResultHandler
 *
 aRes

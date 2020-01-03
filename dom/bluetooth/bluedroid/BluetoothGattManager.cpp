@@ -2002,6 +2002,7 @@ client
 mClientIf
 aDeviceAddr
 true
+TRANSPORT_AUTO
 new
 ConnectResultHandler
 (
@@ -4561,6 +4562,7 @@ client
 >
 mDeviceAddr
 true
+TRANSPORT_AUTO
 new
 ConnectResultHandler
 (
