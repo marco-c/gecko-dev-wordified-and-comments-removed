@@ -1,3 +1,14 @@
+load
+(
+libdir
++
+"
+iteration
+.
+js
+"
+)
+;
 function
 f
 (
@@ -15,9 +26,9 @@ var
 o
 =
 {
-'
-iterator
-'
+[
+std_iterator
+]
 :
 function
 (
