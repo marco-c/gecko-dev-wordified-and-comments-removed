@@ -160,6 +160,9 @@ public
 :
 MediaKeySession
 (
+JSContext
+*
+aCx
 nsPIDOMWindow
 *
 aParent

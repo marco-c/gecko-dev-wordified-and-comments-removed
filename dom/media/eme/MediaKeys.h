@@ -241,6 +241,9 @@ MediaKeySession
 >
 CreateSession
 (
+JSContext
+*
+aCx
 SessionType
 aSessionType
 ErrorResult

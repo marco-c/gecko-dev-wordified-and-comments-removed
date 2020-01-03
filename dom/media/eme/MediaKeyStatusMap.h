@@ -100,9 +100,15 @@ public
 explicit
 MediaKeyStatusMap
 (
+JSContext
+*
+aCx
 nsPIDOMWindow
 *
 aParent
+ErrorResult
+&
+aRv
 )
 ;
 protected
