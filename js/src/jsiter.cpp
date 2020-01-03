@@ -1696,7 +1696,7 @@ if
 Proxy
 :
 :
-enumerate
+getEnumerablePropertyKeys
 (
 cx
 pobj

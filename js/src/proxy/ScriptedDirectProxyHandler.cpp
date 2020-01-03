@@ -3507,7 +3507,7 @@ bool
 ScriptedDirectProxyHandler
 :
 :
-enumerate
+getEnumerablePropertyKeys
 (
 JSContext
 *
@@ -3611,7 +3611,7 @@ return
 DirectProxyHandler
 :
 :
-enumerate
+getEnumerablePropertyKeys
 (
 cx
 proxy

@@ -594,7 +594,7 @@ Policy
 >
 :
 :
-enumerate
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -622,7 +622,7 @@ return
 Base
 :
 :
-enumerate
+getOwnEnumerablePropertyKeys
 (
 cx
 wrapper
@@ -656,7 +656,7 @@ Policy
 >
 :
 :
-getOwnEnumerablePropertyKeys
+getEnumerablePropertyKeys
 (
 JSContext
 *
@@ -684,7 +684,7 @@ return
 Base
 :
 :
-getOwnEnumerablePropertyKeys
+getEnumerablePropertyKeys
 (
 cx
 wrapper
@@ -1360,7 +1360,7 @@ return
 SecurityXrayDOM
 :
 :
-enumerate
+getPropertyKeys
 (
 cx
 wrapper
@@ -1484,7 +1484,7 @@ bool
 CrossOriginXrayWrapper
 :
 :
-enumerate
+getEnumerablePropertyKeys
 (
 JSContext
 *

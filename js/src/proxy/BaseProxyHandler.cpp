@@ -1248,7 +1248,7 @@ props
 )
 :
 !
-enumerate
+getEnumerablePropertyKeys
 (
 cx
 proxy
