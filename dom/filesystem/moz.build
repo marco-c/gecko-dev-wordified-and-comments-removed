@@ -131,6 +131,11 @@ FileSystemUtils
 .
 h
 '
+'
+OSFileSystem
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -188,6 +193,11 @@ cpp
 '
 '
 GetFileOrDirectoryTask
+.
+cpp
+'
+'
+OSFileSystem
 .
 cpp
 '
