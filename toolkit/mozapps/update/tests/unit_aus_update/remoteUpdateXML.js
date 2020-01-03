@@ -132,6 +132,11 @@ gResponseBody
 ;
 try
 {
+if
+(
+gResponseBody
+)
+{
 let
 parser
 =
@@ -173,6 +178,7 @@ xml
 "
 )
 ;
+}
 }
 catch
 (
@@ -1378,8 +1384,10 @@ run_test_pt04
 gResponseBody
 =
 "
-\
-n
+<
+parsererror
+/
+>
 "
 ;
 run_test_helper_pt1
