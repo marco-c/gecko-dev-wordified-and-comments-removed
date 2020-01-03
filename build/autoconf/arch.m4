@@ -336,9 +336,6 @@ MOZ_ARCH
 toolchain
 -
 default
-MOZ_THUMB
-=
-yes
 ;
 ;
 esac
