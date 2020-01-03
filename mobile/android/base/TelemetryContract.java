@@ -389,6 +389,12 @@ TOAST
 toast
 "
 )
+WIDGET
+(
+"
+widget
+"
+)
 _TEST1
 (
 "
