@@ -4502,8 +4502,6 @@ aLen
 =
 2
 ;
-aLen
-;
 mToken
 .
 Assign
