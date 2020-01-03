@@ -7838,6 +7838,13 @@ init
 -
 1
 false
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 this
