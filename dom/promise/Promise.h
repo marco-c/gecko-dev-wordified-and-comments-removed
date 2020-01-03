@@ -1210,6 +1210,16 @@ JSObject
 >
 mAllocationStack
 ;
+JS
+:
+:
+Heap
+<
+JSObject
+*
+>
+mRejectionStack
+;
 PromiseState
 mState
 ;
