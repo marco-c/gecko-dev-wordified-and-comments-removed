@@ -5,7 +5,7 @@ driver
 =
 0
 .
-8
+12
 browsermob
 -
 proxy
@@ -45,7 +45,7 @@ mozrunner
 =
 6
 .
-2
+9
 mozdevice
 >
 =
