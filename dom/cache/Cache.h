@@ -364,8 +364,13 @@ RecvAddAllResponse
 (
 RequestId
 aRequestId
-nsresult
-aRv
+const
+mozilla
+:
+:
+ErrorResult
+&
+aError
 )
 ;
 void
