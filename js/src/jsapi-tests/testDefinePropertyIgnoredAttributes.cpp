@@ -231,7 +231,7 @@ Getter
 ;
 CHECK
 (
-JS_GetPropertyDescriptor
+JS_GetOwnPropertyDescriptor
 (
 cx
 obj
@@ -274,7 +274,7 @@ Getter
 ;
 CHECK
 (
-JS_GetPropertyDescriptor
+JS_GetOwnPropertyDescriptor
 (
 cx
 obj
@@ -319,7 +319,7 @@ Getter
 ;
 CHECK
 (
-JS_GetPropertyDescriptor
+JS_GetOwnPropertyDescriptor
 (
 cx
 obj
@@ -371,7 +371,7 @@ JSPROP_IGNORE_PERMANENT
 ;
 CHECK
 (
-JS_GetPropertyDescriptor
+JS_GetOwnPropertyDescriptor
 (
 cx
 obj
@@ -413,7 +413,7 @@ JSPROP_IGNORE_READONLY
 ;
 CHECK
 (
-JS_GetPropertyDescriptor
+JS_GetOwnPropertyDescriptor
 (
 cx
 obj
@@ -463,7 +463,7 @@ JSPROP_IGNORE_VALUE
 ;
 CHECK
 (
-JS_GetPropertyDescriptor
+JS_GetOwnPropertyDescriptor
 (
 cx
 obj
