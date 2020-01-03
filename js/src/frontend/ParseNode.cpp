@@ -648,6 +648,9 @@ PNK_OBJECT_PROPERTY_NAME
 case
 PNK_FRESHENBLOCK
 :
+case
+PNK_SUPERPROP
+:
 MOZ_ASSERT
 (
 pn
@@ -753,6 +756,9 @@ PNK_MUTATEPROTO
 :
 case
 PNK_EXPORT
+:
+case
+PNK_SUPERELEM
 :
 return
 PushUnaryNodeChild
