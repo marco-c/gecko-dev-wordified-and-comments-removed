@@ -521,9 +521,17 @@ misc
 dirs
 =
 [
+[
+d
+.
+full_path
+for
+d
+in
 o
 .
 dirs
+]
 for
 o
 in
@@ -713,9 +721,17 @@ self
 .
 assertEqual
 (
+[
+d
+.
+full_path
+for
+d
+in
 o
 .
 dirs
+]
 [
                     
 mozpath
@@ -738,9 +754,17 @@ self
 .
 assertEqual
 (
+[
+d
+.
+full_path
+for
+d
+in
 o
 .
 test_dirs
+]
 [
                     
 mozpath

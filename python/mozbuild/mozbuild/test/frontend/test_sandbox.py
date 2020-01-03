@@ -53,6 +53,8 @@ Context
     
 FUNCTIONS
     
+SourcePath
+    
 SPECIAL_VARIABLES
     
 VARIABLES
@@ -843,6 +845,23 @@ config
 topsrcdir
 path
 )
+)
+    
+def
+source_path
+(
+self
+path
+)
+:
+        
+return
+SourcePath
+(
+self
+.
+_context
+path
 )
     
 def
@@ -1749,7 +1768,7 @@ DIRS
             
 sandbox
 .
-normalize_path
+source_path
 (
 '
 foo
@@ -1758,7 +1777,7 @@ foo
             
 sandbox
 .
-normalize_path
+source_path
 (
 '
 bar
@@ -2145,9 +2164,12 @@ DIRS
 [
 sandbox
 .
-normalize_path
+source_path
 (
 '
+.
+.
+/
 foo
 '
 )
@@ -2199,9 +2221,12 @@ DIRS
 [
 sandbox
 .
-normalize_path
+source_path
 (
 '
+.
+.
+/
 foo
 '
 )
@@ -2256,7 +2281,7 @@ DIRS
 [
 sandbox
 .
-normalize_path
+source_path
 (
 '
 foo
@@ -2772,7 +2797,7 @@ DIRS
 [
 sandbox2
 .
-normalize_path
+source_path
 (
 '
 foo
@@ -3046,7 +3071,7 @@ DIRS
 [
 sandbox2
 .
-normalize_path
+source_path
 (
 '
 foo
