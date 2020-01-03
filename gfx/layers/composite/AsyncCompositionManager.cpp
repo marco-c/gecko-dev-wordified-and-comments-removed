@@ -3779,7 +3779,7 @@ transform
 aScrollbar
 -
 >
-GetTransform
+GetLocalTransform
 (
 )
 *
