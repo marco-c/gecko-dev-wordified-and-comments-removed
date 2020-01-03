@@ -724,7 +724,7 @@ T
 }
 #
 define
-STRING_ITERATOR_SLOT_ITERATED_OBJECT
+STRING_ITERATOR_SLOT_ITERATED_STRING
 0
 #
 define
@@ -758,7 +758,7 @@ NewStringIterator
 UnsafeSetReservedSlot
 (
 iterator
-STRING_ITERATOR_SLOT_ITERATED_OBJECT
+STRING_ITERATOR_SLOT_ITERATED_STRING
 S
 )
 ;
@@ -817,16 +817,16 @@ StringIteratorNext
 var
 S
 =
-UnsafeGetReservedSlot
+UnsafeGetStringFromReservedSlot
 (
 this
-STRING_ITERATOR_SLOT_ITERATED_OBJECT
+STRING_ITERATOR_SLOT_ITERATED_STRING
 )
 ;
 var
 index
 =
-UnsafeGetReservedSlot
+UnsafeGetInt32FromReservedSlot
 (
 this
 STRING_ITERATOR_SLOT_NEXT_INDEX
