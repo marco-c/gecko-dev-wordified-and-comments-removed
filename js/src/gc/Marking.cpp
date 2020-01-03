@@ -3377,6 +3377,12 @@ thing
 )
 return
 ;
+CheckTracedThing
+(
+gcmarker
+thing
+)
+;
 gcmarker
 -
 >
@@ -4089,12 +4095,6 @@ T
 thing
 )
 {
-CheckTracedThing
-(
-this
-thing
-)
-;
 AssertZoneIsMarking
 (
 thing
