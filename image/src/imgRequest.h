@@ -396,6 +396,15 @@ aURI
 )
 ;
 nsresult
+GetCurrentURI
+(
+nsIURI
+*
+*
+aURI
+)
+;
+nsresult
 GetImageErrorCode
 (
 void
