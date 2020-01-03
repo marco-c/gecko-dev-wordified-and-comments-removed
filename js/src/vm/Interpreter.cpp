@@ -6142,6 +6142,12 @@ ScopeIter
 :
 Eval
 :
+case
+ScopeIter
+:
+:
+NonSyntactic
+:
 break
 ;
 }
@@ -21397,7 +21403,7 @@ if
 (
 si
 .
-hasScopeObject
+hasSyntacticScopeObject
 (
 )
 &
