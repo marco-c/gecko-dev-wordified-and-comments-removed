@@ -4135,7 +4135,7 @@ method
 name
 =
 "
-mediaPlaybackStarted
+audioPlaybackStarted
 "
 >
 <
@@ -4163,7 +4163,7 @@ event
 initEvent
 (
 "
-DOMMediaPlaybackStarted
+DOMAudioPlaybackStarted
 "
 true
 true
@@ -4192,7 +4192,7 @@ method
 name
 =
 "
-mediaPlaybackStopped
+audioPlaybackStopped
 "
 >
 <
@@ -4220,7 +4220,7 @@ event
 initEvent
 (
 "
-DOMMediaPlaybackStopped
+DOMAudioPlaybackStopped
 "
 true
 true
@@ -4309,7 +4309,7 @@ messageManager
 sendAsyncMessage
 (
 "
-MediaPlaybackMute
+AudioPlaybackMute
 "
 {
 type
@@ -4360,7 +4360,7 @@ messageManager
 sendAsyncMessage
 (
 "
-MediaPlaybackMute
+AudioPlaybackMute
 "
 {
 type
@@ -5465,7 +5465,7 @@ messageManager
 addMessageListener
 (
 "
-MediaPlayback
+AudioPlayback
 :
 Start
 "
@@ -5479,7 +5479,7 @@ messageManager
 addMessageListener
 (
 "
-MediaPlayback
+AudioPlayback
 :
 Stop
 "
@@ -6038,14 +6038,14 @@ break
 ;
 case
 "
-MediaPlayback
+AudioPlayback
 :
 Start
 "
 :
 this
 .
-mediaPlaybackStarted
+audioPlaybackStarted
 (
 )
 ;
@@ -6053,14 +6053,14 @@ break
 ;
 case
 "
-MediaPlayback
+AudioPlayback
 :
 Stop
 "
 :
 this
 .
-mediaPlaybackStopped
+audioPlaybackStopped
 (
 )
 ;

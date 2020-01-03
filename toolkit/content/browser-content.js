@@ -3607,7 +3607,7 @@ data
 )
 ;
 let
-MediaPlaybackListener
+AudioPlaybackListener
 =
 {
 QueryInterface
@@ -3634,7 +3634,7 @@ addObserver
 (
 this
 "
-media
+audio
 -
 playback
 "
@@ -3644,7 +3644,7 @@ false
 addMessageListener
 (
 "
-MediaPlaybackMute
+AudioPlaybackMute
 "
 this
 )
@@ -3659,7 +3659,7 @@ unload
 =
 >
 {
-MediaPlaybackListener
+AudioPlaybackListener
 .
 uninit
 (
@@ -3681,7 +3681,7 @@ removeObserver
 (
 this
 "
-media
+audio
 -
 playback
 "
@@ -3690,7 +3690,7 @@ playback
 removeMessageListener
 (
 "
-MediaPlaybackMute
+AudioPlaybackMute
 "
 this
 )
@@ -3710,7 +3710,7 @@ topic
 =
 =
 "
-media
+audio
 -
 playback
 "
@@ -3735,7 +3735,7 @@ let
 name
 =
 "
-MediaPlayback
+AudioPlayback
 :
 "
 ;
@@ -3781,7 +3781,7 @@ name
 =
 =
 "
-MediaPlaybackMute
+AudioPlaybackMute
 "
 )
 {
@@ -3826,7 +3826,7 @@ mute
 }
 }
 ;
-MediaPlaybackListener
+AudioPlaybackListener
 .
 init
 (

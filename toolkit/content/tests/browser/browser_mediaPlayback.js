@@ -118,7 +118,7 @@ wait_for_event
 (
 browser
 "
-DOMMediaPlaybackStarted
+DOMAudioPlaybackStarted
 "
 )
 ;
@@ -127,7 +127,7 @@ wait_for_event
 (
 browser
 "
-DOMMediaPlaybackStopped
+DOMAudioPlaybackStopped
 "
 )
 ;
