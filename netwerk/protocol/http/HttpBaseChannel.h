@@ -1491,10 +1491,8 @@ aURI
 ;
 nsIPrincipal
 *
-GetPrincipal
+GetURIPrincipal
 (
-bool
-requireAppId
 )
 ;
 bool
