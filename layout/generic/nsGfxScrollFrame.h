@@ -3776,7 +3776,7 @@ const
 ;
 virtual
 bool
-ShouldPropagateComputedHeightToScrolledContent
+ShouldPropagateComputedBSizeToScrolledContent
 (
 )
 const

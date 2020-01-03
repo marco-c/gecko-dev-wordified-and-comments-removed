@@ -96,7 +96,7 @@ aGrabMouseEvents
 ;
 virtual
 nscoord
-GetHeightOfARow
+GetBSizeOfARow
 (
 )
 =

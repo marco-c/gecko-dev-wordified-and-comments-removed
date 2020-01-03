@@ -365,7 +365,7 @@ override
 ;
 virtual
 bool
-ShouldPropagateComputedHeightToScrolledContent
+ShouldPropagateComputedBSizeToScrolledContent
 (
 )
 const
@@ -443,7 +443,7 @@ override
 ;
 virtual
 nscoord
-GetHeightOfARow
+GetBSizeOfARow
 (
 )
 override
@@ -646,7 +646,7 @@ InvalidateFocus
 )
 ;
 nscoord
-CalcHeightOfARow
+CalcBSizeOfARow
 (
 )
 ;
@@ -876,7 +876,7 @@ aMouseEvent
 )
 ;
 nscoord
-CalcFallbackRowHeight
+CalcFallbackRowBSize
 (
 float
 aFontSizeInflation
@@ -886,7 +886,7 @@ nscoord
 CalcIntrinsicBSize
 (
 nscoord
-aHeightOfARow
+aBSizeOfARow
 int32_t
 aNumberOfOptions
 )
@@ -1022,7 +1022,7 @@ GetScrolledFrame
 protected
 :
 nscoord
-HeightOfARow
+BSizeOfARow
 (
 )
 {
@@ -1032,7 +1032,7 @@ GetOptionsContainer
 )
 -
 >
-HeightOfARow
+BSizeOfARow
 (
 )
 ;
@@ -1121,7 +1121,7 @@ mForceSelection
 1
 ;
 nscoord
-mLastDropdownComputedHeight
+mLastDropdownComputedBSize
 ;
 nscolor
 mLastDropdownBackstopColor
