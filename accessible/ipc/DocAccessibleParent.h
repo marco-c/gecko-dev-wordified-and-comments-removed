@@ -116,7 +116,9 @@ Length
 MOZ_ASSERT
 (
 !
-mParentDoc
+ParentDoc
+(
+)
 )
 ;
 }
@@ -216,7 +218,9 @@ mParent
 =
 nullptr
 ;
-mParentDoc
+ParentDoc
+(
+)
 -
 >
 mChildDocs
@@ -257,7 +261,7 @@ Destroy
 }
 DocAccessibleParent
 *
-Parent
+ParentDoc
 (
 )
 const
