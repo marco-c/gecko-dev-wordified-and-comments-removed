@@ -52,9 +52,6 @@ h
 class
 nsIDocument
 ;
-class
-nsPIDOMWindow
-;
 namespace
 mozilla
 {
@@ -84,14 +81,12 @@ ServiceWorkerWindowClient
 ;
 public
 :
+explicit
 ServiceWorkerClientInfo
 (
 nsIDocument
 *
 aDoc
-nsPIDOMWindow
-*
-aWindow
 )
 ;
 private
