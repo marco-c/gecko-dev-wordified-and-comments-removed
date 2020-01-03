@@ -19,6 +19,9 @@ class
 BluetoothDaemonProtocol
 ;
 class
+BluetoothDaemonSocketInterface
+;
+class
 BluetoothDaemonInterface
 MOZ_FINAL
 :
@@ -447,6 +450,12 @@ BluetoothResultHandler
 >
 >
 mResultHandlerQ
+;
+nsAutoPtr
+<
+BluetoothDaemonSocketInterface
+>
+mSocketInterface
 ;
 }
 ;
