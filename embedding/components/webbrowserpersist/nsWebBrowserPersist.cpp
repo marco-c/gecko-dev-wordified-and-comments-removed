@@ -6443,6 +6443,16 @@ rv
 rv
 )
 ;
+if
+(
+!
+data
+)
+{
+return
+NS_OK
+;
+}
 data
 -
 >
