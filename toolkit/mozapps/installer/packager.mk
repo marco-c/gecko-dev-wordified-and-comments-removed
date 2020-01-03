@@ -2923,9 +2923,6 @@ so
 libomxpluginhc
 .
 so
-libomxpluginfroyo
-.
-so
 libomxpluginkk
 .
 so
