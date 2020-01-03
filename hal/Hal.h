@@ -787,11 +787,6 @@ hal
 :
 ProcessPriority
 aPriority
-hal
-:
-:
-ProcessCPUPriority
-aCPUPriority
 uint32_t
 aLRU
 =
