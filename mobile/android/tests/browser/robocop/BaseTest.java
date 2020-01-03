@@ -1090,7 +1090,7 @@ urlEditView
 ;
 mSolo
 .
-enterText
+typeText
 (
 urlEditView
 url
