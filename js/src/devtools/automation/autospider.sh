@@ -79,7 +79,7 @@ platform
 "
 TIMEOUT
 =
-7200
+3h
 while
 [
 #
