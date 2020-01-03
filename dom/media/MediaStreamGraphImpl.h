@@ -297,6 +297,7 @@ void
 AssertOnGraphThreadOrNotRunning
 (
 )
+const
 {
 #
 ifdef
@@ -363,6 +364,7 @@ bool
 Running
 (
 )
+const
 {
 mMonitor
 .
@@ -400,6 +402,7 @@ GraphTime
 IterationEnd
 (
 )
+const
 ;
 void
 EnsureStableStateEventPosted
@@ -788,6 +791,7 @@ bool
 IsEmpty
 (
 )
+const
 {
 return
 mStreams
@@ -814,6 +818,7 @@ int64_t
 GetProcessingGraphUpdateIndex
 (
 )
+const
 {
 return
 mProcessingGraphUpdateIndex
@@ -857,6 +862,7 @@ uint32_t
 AudioChannelCount
 (
 )
+const
 {
 return
 2
@@ -868,6 +874,7 @@ MediaTimeToSeconds
 GraphTime
 aTime
 )
+const
 {
 NS_ASSERTION
 (
@@ -907,6 +914,7 @@ SecondsToMediaTime
 double
 aS
 )
+const
 {
 NS_ASSERTION
 (
@@ -942,6 +950,7 @@ MillisecondsToMediaTime
 int32_t
 aMS
 )
+const
 {
 return
 RateConvertTicksRoundDown
@@ -969,6 +978,7 @@ GraphDriver
 CurrentDriver
 (
 )
+const
 {
 AssertOnGraphThreadOrNotRunning
 (
@@ -1156,6 +1166,7 @@ bool
 MessagesQueued
 (
 )
+const
 {
 mMonitor
 .
@@ -1260,6 +1271,22 @@ virtual
 ~
 MediaStreamGraphImpl
 (
+)
+;
+void
+StreamNotifyOutput
+(
+MediaStream
+*
+aStream
+)
+;
+void
+StreamReadyToFinish
+(
+MediaStream
+*
+aStream
 )
 ;
 MOZ_DEFINE_MALLOC_SIZE_OF
