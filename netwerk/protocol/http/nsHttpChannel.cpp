@@ -21327,11 +21327,7 @@ mCaps
 &
 =
 ~
-(
-NS_HTTP_ALLOW_KEEPALIVE
-|
 NS_HTTP_ALLOW_PIPELINING
-)
 ;
 }
 if
