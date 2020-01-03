@@ -13925,15 +13925,6 @@ nativeDrawing
 (
 thebesCtx
 nativeDirtyRect
-hidpi
-?
-2
-.
-0f
-:
-1
-.
-0f
 )
 ;
 CGContextRef
