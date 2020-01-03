@@ -9131,9 +9131,10 @@ unicodeRangeMap
 ;
 if
 (
+!
 font
-&
-&
+|
+|
 !
 font
 -
