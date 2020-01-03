@@ -12,18 +12,18 @@ dom
 {
 typedef
 uint32_t
-ScreenOrientation
+ScreenOrientationInternal
 ;
 static
 const
-ScreenOrientation
+ScreenOrientationInternal
 eScreenOrientation_None
 =
 0
 ;
 static
 const
-ScreenOrientation
+ScreenOrientationInternal
 eScreenOrientation_PortraitPrimary
 =
 1u
@@ -33,7 +33,7 @@ eScreenOrientation_PortraitPrimary
 ;
 static
 const
-ScreenOrientation
+ScreenOrientationInternal
 eScreenOrientation_PortraitSecondary
 =
 1u
@@ -43,7 +43,7 @@ eScreenOrientation_PortraitSecondary
 ;
 static
 const
-ScreenOrientation
+ScreenOrientationInternal
 eScreenOrientation_LandscapePrimary
 =
 1u
@@ -53,7 +53,7 @@ eScreenOrientation_LandscapePrimary
 ;
 static
 const
-ScreenOrientation
+ScreenOrientationInternal
 eScreenOrientation_LandscapeSecondary
 =
 1u
@@ -63,7 +63,7 @@ eScreenOrientation_LandscapeSecondary
 ;
 static
 const
-ScreenOrientation
+ScreenOrientationInternal
 eScreenOrientation_Default
 =
 1u

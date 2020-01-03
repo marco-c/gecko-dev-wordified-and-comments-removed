@@ -2501,7 +2501,7 @@ mRect
 ScreenIntSize
 mDimensions
 ;
-ScreenOrientation
+ScreenOrientationInternal
 mOrientation
 ;
 float

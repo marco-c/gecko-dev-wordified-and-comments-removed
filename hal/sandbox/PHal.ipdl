@@ -135,7 +135,7 @@ mozilla
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 from
 "
 mozilla
@@ -407,7 +407,7 @@ ScreenConfiguration
 nsIntRect
 rect
 ;
-ScreenOrientation
+ScreenOrientationInternal
 orientation
 ;
 uint32_t
@@ -802,7 +802,7 @@ aScreenConfiguration
 sync
 LockScreenOrientation
 (
-ScreenOrientation
+ScreenOrientationInternal
 aOrientation
 )
 returns

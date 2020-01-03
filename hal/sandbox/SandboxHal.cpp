@@ -517,7 +517,7 @@ const
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 &
 aOrientation
 )
@@ -2280,7 +2280,7 @@ const
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 &
 aOrientation
 bool

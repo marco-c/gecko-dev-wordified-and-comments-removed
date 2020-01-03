@@ -460,7 +460,7 @@ int32_t
 colorDepth
 pixelDepth
 ;
-ScreenOrientation
+ScreenOrientationInternal
 orientation
 ;
 nsCOMPtr
@@ -525,7 +525,7 @@ orientation
 =
 static_cast
 <
-ScreenOrientation
+ScreenOrientationInternal
 >
 (
 bridge
@@ -555,7 +555,7 @@ bool
 LockScreenOrientation
 (
 const
-ScreenOrientation
+ScreenOrientationInternal
 &
 aOrientation
 )

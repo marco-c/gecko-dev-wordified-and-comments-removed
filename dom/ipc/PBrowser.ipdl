@@ -618,7 +618,7 @@ mozilla
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 from
 "
 mozilla
@@ -3476,7 +3476,7 @@ CSSRect
 rect
 CSSSize
 size
-ScreenOrientation
+ScreenOrientationInternal
 orientation
 LayoutDeviceIntPoint
 chromeDisp

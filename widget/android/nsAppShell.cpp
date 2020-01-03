@@ -3332,7 +3332,7 @@ pixelDepth
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 orientation
 ;
 nsCOMPtr
@@ -3400,7 +3400,7 @@ static_cast
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 >
 (
 curEvent

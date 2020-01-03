@@ -82,7 +82,7 @@ mozilla
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 ;
 class
 OrientationObserver
@@ -129,7 +129,7 @@ DisableAutoOrientation
 bool
 LockScreenOrientation
 (
-ScreenOrientation
+ScreenOrientationInternal
 aOrientation
 )
 ;

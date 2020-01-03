@@ -1230,7 +1230,7 @@ mPhysicalScreenRotation
 ;
 }
 static
-ScreenOrientation
+ScreenOrientationInternal
 ComputeOrientation
 (
 uint32_t
@@ -1345,7 +1345,7 @@ GetConfiguration
 (
 )
 {
-ScreenOrientation
+ScreenOrientationInternal
 orientation
 =
 ComputeOrientation

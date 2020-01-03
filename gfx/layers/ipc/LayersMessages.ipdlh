@@ -328,7 +328,7 @@ mozilla
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 from
 "
 mozilla
@@ -563,7 +563,7 @@ naturalBounds
 ScreenRotation
 rotation
 ;
-ScreenOrientation
+ScreenOrientationInternal
 orientation
 ;
 nsIntRegion

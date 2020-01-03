@@ -8376,7 +8376,7 @@ static_cast
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 >
 (
 orientation

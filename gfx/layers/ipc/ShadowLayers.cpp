@@ -319,7 +319,7 @@ aRotation
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 aOrientation
 )
 {
@@ -665,7 +665,7 @@ mTargetRotation
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 mTargetOrientation
 ;
 bool
@@ -864,7 +864,7 @@ aRotation
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 aOrientation
 )
 {

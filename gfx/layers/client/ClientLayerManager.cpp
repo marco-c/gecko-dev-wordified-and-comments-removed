@@ -900,7 +900,7 @@ aTarget
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 orientation
 ;
 if

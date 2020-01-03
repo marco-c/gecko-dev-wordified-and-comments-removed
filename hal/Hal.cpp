@@ -2415,7 +2415,7 @@ const
 dom
 :
 :
-ScreenOrientation
+ScreenOrientationInternal
 &
 aOrientation
 )

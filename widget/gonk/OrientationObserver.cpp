@@ -94,7 +94,7 @@ OrientationMapping
 uint32_t
 mScreenRotation
 ;
-ScreenOrientation
+ScreenOrientationInternal
 mDomOrientation
 ;
 }
@@ -373,7 +373,7 @@ static
 nsresult
 ConvertToScreenRotation
 (
-ScreenOrientation
+ScreenOrientationInternal
 aOrientation
 uint32_t
 *
@@ -457,7 +457,7 @@ ConvertToDomOrientation
 (
 uint32_t
 aRotation
-ScreenOrientation
+ScreenOrientationInternal
 *
 aResult
 )
@@ -775,7 +775,7 @@ currRotation
 return
 ;
 }
-ScreenOrientation
+ScreenOrientationInternal
 orientation
 ;
 if
@@ -917,7 +917,7 @@ OrientationObserver
 :
 LockScreenOrientation
 (
-ScreenOrientation
+ScreenOrientationInternal
 aOrientation
 )
 {
@@ -1050,7 +1050,7 @@ rv
 false
 )
 ;
-ScreenOrientation
+ScreenOrientationInternal
 currOrientation
 =
 eScreenOrientation_None
@@ -1115,7 +1115,7 @@ rv
 false
 )
 ;
-ScreenOrientation
+ScreenOrientationInternal
 orientation
 ;
 rv
