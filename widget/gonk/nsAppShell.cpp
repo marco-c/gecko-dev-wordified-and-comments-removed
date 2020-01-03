@@ -1374,7 +1374,7 @@ return
 nsWindow
 :
 :
-DispatchInputEvent
+DispatchKeyInput
 (
 event
 )
