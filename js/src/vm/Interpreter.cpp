@@ -2010,7 +2010,7 @@ runtime
 >
 stopwatch
 .
-isActive
+isMonitoringJank
 (
 )
 )
@@ -2207,7 +2207,7 @@ runtime
 >
 stopwatch
 .
-isActive
+isMonitoringJank
 (
 )
 )

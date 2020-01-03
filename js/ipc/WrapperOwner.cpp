@@ -871,6 +871,9 @@ false
 \
 CPOWTimer
 timer
+(
+cx
+)
 ;
 \
 return
