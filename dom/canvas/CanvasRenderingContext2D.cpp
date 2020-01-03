@@ -12630,7 +12630,7 @@ Stroke
 (
 )
 ;
-FallibleTArray
+nsTArray
 <
 mozilla
 :
@@ -18783,7 +18783,7 @@ ErrorResult
 error
 )
 {
-FallibleTArray
+nsTArray
 <
 Float
 >
@@ -18939,7 +18939,7 @@ ErrorResult
 aRv
 )
 {
-FallibleTArray
+nsTArray
 <
 mozilla
 :
@@ -19098,7 +19098,7 @@ aSegments
 const
 {
 const
-FallibleTArray
+nsTArray
 <
 mozilla
 :
