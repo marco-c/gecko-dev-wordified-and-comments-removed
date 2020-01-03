@@ -1964,7 +1964,7 @@ return
 0
 ;
 }
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -3050,7 +3050,7 @@ return
 retStat
 ;
 }
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -3797,7 +3797,7 @@ NSSTACKWALK_SUPPORTS_MACOSX
 |
 NSSTACKWALK_SUPPORTS_LINUX
 )
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -4090,7 +4090,7 @@ return
 _URC_NO_REASON
 ;
 }
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -4205,7 +4205,7 @@ NS_OK
 }
 #
 endif
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -4445,7 +4445,7 @@ NS_OK
 }
 #
 else
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -4507,7 +4507,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 }
-EXPORT_XPCOM_API
+XPCOM_API
 (
 nsresult
 )
@@ -4587,7 +4587,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 #
 endif
-EXPORT_XPCOM_API
+XPCOM_API
 (
 void
 )
@@ -4638,7 +4638,7 @@ lineno
 )
 ;
 }
-EXPORT_XPCOM_API
+XPCOM_API
 (
 void
 )
