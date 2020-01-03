@@ -106,16 +106,6 @@ nsACString
 aURI
 )
 {
-MOZ_ASSERT
-(
-mHostObjectURIs
-.
-Contains
-(
-aURI
-)
-)
-;
 mHostObjectURIs
 .
 RemoveElement
