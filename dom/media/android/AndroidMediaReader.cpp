@@ -1884,11 +1884,6 @@ return
 image
 -
 >
-AsSharedImage
-(
-)
--
->
 GetBuffer
 (
 )

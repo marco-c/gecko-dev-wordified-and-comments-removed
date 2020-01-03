@@ -88,8 +88,6 @@ GrallocImage
 :
 public
 PlanarYCbCrImage
-public
-ISharedImage
 {
 typedef
 PlanarYCbCrData
@@ -229,18 +227,6 @@ return
 !
 !
 mTextureClient
-;
-}
-virtual
-ISharedImage
-*
-AsSharedImage
-(
-)
-MOZ_OVERRIDE
-{
-return
-this
 ;
 }
 virtual

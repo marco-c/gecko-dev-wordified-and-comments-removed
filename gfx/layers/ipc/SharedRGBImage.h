@@ -127,8 +127,6 @@ SharedRGBImage
 :
 public
 Image
-public
-ISharedImage
 {
 public
 :
@@ -149,18 +147,6 @@ SharedRGBImage
 ;
 public
 :
-virtual
-ISharedImage
-*
-AsSharedImage
-(
-)
-MOZ_OVERRIDE
-{
-return
-this
-;
-}
 virtual
 TextureClient
 *
