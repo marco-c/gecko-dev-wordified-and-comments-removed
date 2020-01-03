@@ -1442,17 +1442,6 @@ context
 >
 Init
 (
-aSource
--
->
-PresContext
-(
-)
--
->
-DeviceContext
-(
-)
 dt
 )
 ;

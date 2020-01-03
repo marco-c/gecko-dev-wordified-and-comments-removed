@@ -2719,17 +2719,6 @@ context
 >
 Init
 (
-mFrame
--
->
-PresContext
-(
-)
--
->
-DeviceContext
-(
-)
 aContext
 )
 ;

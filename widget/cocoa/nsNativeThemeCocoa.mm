@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsDeviceContext
+.
+h
+"
+#
+include
+"
 nsObjCExceptions
 .
 h

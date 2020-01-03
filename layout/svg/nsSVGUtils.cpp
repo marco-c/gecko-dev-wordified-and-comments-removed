@@ -8276,17 +8276,6 @@ context
 >
 Init
 (
-frame
--
->
-PresContext
-(
-)
--
->
-DeviceContext
-(
-)
 aContext
 )
 ;

@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsDeviceContext
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h

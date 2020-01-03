@@ -19749,12 +19749,6 @@ ctx
 >
 Init
 (
-aDest
--
->
-DeviceContext
-(
-)
 context
 )
 ;
@@ -21121,12 +21115,6 @@ rc
 >
 Init
 (
-presContext
--
->
-DeviceContext
-(
-)
 aContext
 )
 ;

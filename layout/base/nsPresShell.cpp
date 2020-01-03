@@ -13620,7 +13620,6 @@ rc
 >
 Init
 (
-devCtx
 gfxPlatform
 :
 :
@@ -20841,7 +20840,6 @@ rc
 >
 Init
 (
-devCtx
 aThebesContext
 )
 ;
@@ -22103,17 +22101,6 @@ height
 return
 nullptr
 ;
-nsDeviceContext
-*
-deviceContext
-=
-pc
--
->
-DeviceContext
-(
-)
-;
 nsIntRect
 pixelArea
 =
@@ -22161,7 +22148,12 @@ AppUnitsPerDevPixel
 nsRect
 maxSize
 ;
-deviceContext
+pc
+-
+>
+DeviceContext
+(
+)
 -
 >
 GetClientRect
@@ -22577,7 +22569,6 @@ rc
 >
 Init
 (
-deviceContext
 ctx
 )
 ;

@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsDeviceContext
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

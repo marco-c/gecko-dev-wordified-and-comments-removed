@@ -1632,12 +1632,6 @@ context
 >
 Init
 (
-aCtx
--
->
-DeviceContext
-(
-)
 ctx
 )
 ;
