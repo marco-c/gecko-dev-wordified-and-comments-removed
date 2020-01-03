@@ -410,7 +410,7 @@ getChild
 i
 )
 ;
-LOG
+do_print
 (
 "
 validating

@@ -376,7 +376,7 @@ containerOpen
 =
 true
 ;
-LOG
+do_print
 (
 "
 Number
@@ -411,7 +411,7 @@ childCount
 i
 )
 {
-LOG
+do_print
 (
 "
 result
@@ -449,7 +449,7 @@ testData
 root
 )
 ;
-LOG
+do_print
 (
 "
 Adding
@@ -550,7 +550,7 @@ moz
 "
 )
 ;
-LOG
+do_print
 (
 "
 Updating
@@ -606,7 +606,7 @@ root
 )
 )
 ;
-LOG
+do_print
 (
 "
 Updating
@@ -758,7 +758,7 @@ root
 )
 )
 ;
-LOG
+do_print
 (
 "
 Delete

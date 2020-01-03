@@ -191,7 +191,7 @@ containerOpen
 =
 true
 ;
-LOG
+do_print
 (
 "
 begin
@@ -206,7 +206,7 @@ testData
 root
 )
 ;
-LOG
+do_print
 (
 "
 end
@@ -317,7 +317,7 @@ liveUpdateTestData
 ]
 )
 ;
-LOG
+do_print
 (
 "
 begin
@@ -334,7 +334,7 @@ testData
 root
 )
 ;
-LOG
+do_print
 (
 "
 end
