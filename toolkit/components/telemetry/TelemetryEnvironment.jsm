@@ -4305,8 +4305,6 @@ Services
 .
 search
 .
-wrappedJSObject
-.
 getDefaultEngineInfo
 (
 )
