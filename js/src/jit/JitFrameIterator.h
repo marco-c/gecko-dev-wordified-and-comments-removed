@@ -885,6 +885,14 @@ size_t
 index
 )
 ;
+void
+trace
+(
+JSTracer
+*
+trc
+)
+;
 }
 ;
 class
