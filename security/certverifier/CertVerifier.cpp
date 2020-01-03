@@ -159,8 +159,8 @@ ocsp_strict_config
 osc
 ocsp_get_config
 ogc
-pinning_enforcement_config
-pel
+PinningMode
+pinningMode
 )
 :
 mOCSPDownloadEnabled
@@ -184,9 +184,9 @@ ogc
 =
 ocsp_get_enabled
 )
-mPinningEnforcementLevel
+mPinningMode
 (
-pel
+pinningMode
 )
 {
 }
@@ -375,8 +375,8 @@ const
 CertVerifier
 :
 :
-pinning_enforcement_config
-pinningEnforcementLevel
+PinningMode
+pinningMode
 ;
 const
 SECCertificateUsage
@@ -524,7 +524,7 @@ certificateUsageSSLServer
 callbackState
 -
 >
-pinningEnforcementLevel
+pinningMode
 =
 =
 CertVerifier
@@ -553,7 +553,7 @@ n
 callbackState
 -
 >
-pinningEnforcementLevel
+pinningMode
 )
 )
 ;
@@ -662,7 +662,7 @@ isBuiltInRoot
 callbackState
 -
 >
-pinningEnforcementLevel
+pinningMode
 =
 =
 CertVerifier
@@ -690,7 +690,7 @@ enforceTestMode
 callbackState
 -
 >
-pinningEnforcementLevel
+pinningMode
 =
 =
 CertVerifier
@@ -1024,7 +1024,7 @@ callbackState
 =
 {
 hostname
-mPinningEnforcementLevel
+mPinningMode
 usage
 time
 }

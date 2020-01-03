@@ -66,8 +66,8 @@ ocsp_strict_config
 osc
 ocsp_get_config
 ogc
-pinning_enforcement_config
-pinningEnforcementLevel
+PinningMode
+pinningMode
 )
 :
 mozilla
@@ -81,7 +81,7 @@ CertVerifier
 odc
 osc
 ogc
-pinningEnforcementLevel
+pinningMode
 )
 {
 }

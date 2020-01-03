@@ -3455,15 +3455,15 @@ ocspStaplingEnabled
 CertVerifier
 :
 :
-pinning_enforcement_config
-pinningEnforcementLevel
+PinningMode
+pinningMode
 =
 static_cast
 <
 CertVerifier
 :
 :
-pinning_enforcement_config
+PinningMode
 >
 (
 Preferences
@@ -3487,7 +3487,7 @@ pinningDisabled
 ;
 if
 (
-pinningEnforcementLevel
+pinningMode
 >
 CertVerifier
 :
@@ -3495,7 +3495,7 @@ CertVerifier
 pinningEnforceTestMode
 )
 {
-pinningEnforcementLevel
+pinningMode
 =
 CertVerifier
 :
@@ -3540,7 +3540,7 @@ SharedCertVerifier
 odc
 osc
 ogc
-pinningEnforcementLevel
+pinningMode
 )
 ;
 }
