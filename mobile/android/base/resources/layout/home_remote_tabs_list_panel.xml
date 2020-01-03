@@ -196,7 +196,15 @@ match_parent
 "
 >
 <
-ExpandableListView
+org
+.
+mozilla
+.
+gecko
+.
+home
+.
+HomeExpandableListView
 android
 :
 id
