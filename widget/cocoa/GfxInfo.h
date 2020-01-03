@@ -50,6 +50,7 @@ bool
 *
 aD2DEnabled
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDWriteEnabled
@@ -58,6 +59,7 @@ bool
 *
 aDWriteEnabled
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDWriteVersion
@@ -66,6 +68,7 @@ nsAString
 &
 aDwriteVersion
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCleartypeParameters
@@ -74,6 +77,7 @@ nsAString
 &
 aCleartypeParams
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterDescription
@@ -82,6 +86,7 @@ nsAString
 &
 aAdapterDescription
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterDriver
@@ -90,6 +95,7 @@ nsAString
 &
 aAdapterDriver
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterVendorID
@@ -98,6 +104,7 @@ nsAString
 &
 aAdapterVendorID
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterDeviceID
@@ -106,6 +113,7 @@ nsAString
 &
 aAdapterDeviceID
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterSubsysID
@@ -114,6 +122,7 @@ nsAString
 &
 aAdapterSubsysID
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterRAM
@@ -122,6 +131,7 @@ nsAString
 &
 aAdapterRAM
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterDriverVersion
@@ -130,6 +140,7 @@ nsAString
 &
 aAdapterDriverVersion
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterDriverDate
@@ -138,6 +149,7 @@ nsAString
 &
 aAdapterDriverDate
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterDescription2
@@ -146,6 +158,7 @@ nsAString
 &
 aAdapterDescription
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterDriver2
@@ -154,6 +167,7 @@ nsAString
 &
 aAdapterDriver
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterVendorID2
@@ -162,6 +176,7 @@ nsAString
 &
 aAdapterVendorID
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterDeviceID2
@@ -170,6 +185,7 @@ nsAString
 &
 aAdapterDeviceID
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterSubsysID2
@@ -178,6 +194,7 @@ nsAString
 &
 aAdapterSubsysID
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterRAM2
@@ -186,6 +203,7 @@ nsAString
 &
 aAdapterRAM
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterDriverVersion2
@@ -194,6 +212,7 @@ nsAString
 &
 aAdapterDriverVersion
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAdapterDriverDate2
@@ -202,6 +221,7 @@ nsAString
 &
 aAdapterDriverDate
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetIsGPU2Active
@@ -210,6 +230,7 @@ bool
 *
 aIsGPU2Active
 )
+MOZ_OVERRIDE
 ;
 using
 GfxInfoBase
@@ -234,6 +255,7 @@ nsresult
 Init
 (
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_ISUPPORTS_INHERITED
 #
@@ -288,6 +310,7 @@ aOS
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -299,6 +322,7 @@ GfxDriverInfo
 GetGfxDriverInfo
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :

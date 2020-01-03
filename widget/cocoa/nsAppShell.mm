@@ -393,6 +393,7 @@ nsAString
 &
 aState
 )
+MOZ_OVERRIDE
 {
 if
 (

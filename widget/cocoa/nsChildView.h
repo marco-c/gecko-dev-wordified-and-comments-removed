@@ -1084,11 +1084,13 @@ aInitData
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Destroy
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Show
@@ -1096,6 +1098,7 @@ Show
 bool
 aState
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1103,6 +1106,7 @@ IsVisible
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetParent
@@ -1111,6 +1115,7 @@ nsIWidget
 *
 aNewParent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIWidget
@@ -1119,12 +1124,14 @@ GetParent
 (
 void
 )
+MOZ_OVERRIDE
 ;
 virtual
 float
 GetDPI
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ConstrainPosition
@@ -1138,6 +1145,7 @@ int32_t
 *
 aY
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Move
@@ -1147,6 +1155,7 @@ aX
 double
 aY
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Resize
@@ -1158,6 +1167,7 @@ aHeight
 bool
 aRepaint
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Resize
@@ -1173,6 +1183,7 @@ aHeight
 bool
 aRepaint
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Enable
@@ -1180,6 +1191,7 @@ Enable
 bool
 aState
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1187,6 +1199,7 @@ IsEnabled
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetFocus
@@ -1194,6 +1207,7 @@ SetFocus
 bool
 aRaise
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetBounds
@@ -1202,6 +1216,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetClientBounds
@@ -1210,6 +1225,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetScreenBounds
@@ -1218,6 +1234,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 CGFloat
 BackingScaleFactor
@@ -1235,6 +1252,7 @@ double
 GetDefaultScaleInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -1251,6 +1269,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1260,6 +1279,7 @@ GetNativeData
 uint32_t
 aDataType
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1273,12 +1293,14 @@ Configuration
 &
 aConfigurations
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIntPoint
 WidgetToScreenOffset
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1288,6 +1310,7 @@ nsIntRect
 *
 aResizerRect
 )
+MOZ_OVERRIDE
 ;
 static
 bool
@@ -1317,6 +1340,7 @@ nsEventStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1325,6 +1349,7 @@ ComputeShouldAccelerate
 bool
 aDefault
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1339,6 +1364,7 @@ SetCursor
 nsCursor
 aCursor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetCursor
@@ -1351,6 +1377,7 @@ aHotspotX
 uint32_t
 aHotspotY
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CaptureRollupEvents
@@ -1361,6 +1388,7 @@ aListener
 bool
 aDoCapture
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetTitle
@@ -1370,6 +1398,7 @@ nsAString
 &
 title
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetAttention
@@ -1377,12 +1406,14 @@ GetAttention
 int32_t
 aCycleCount
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 HasPendingInputEvent
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ActivateNativeMenuItemAt
@@ -1392,6 +1423,7 @@ nsAString
 &
 indexString
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ForceUpdateNativeMenuAt
@@ -1401,6 +1433,7 @@ nsAString
 &
 indexString
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NotifyIME
@@ -1427,6 +1460,7 @@ InputContextAction
 &
 aAction
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -1435,6 +1469,7 @@ InputContext
 GetInputContext
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttachNativeKeyEvent
@@ -1446,6 +1481,7 @@ WidgetKeyboardEvent
 &
 aEvent
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -1509,12 +1545,14 @@ bool
 *
 aLEDState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsTransparencyMode
 GetTransparencyMode
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1523,6 +1561,7 @@ SetTransparencyMode
 nsTransparencyMode
 aMode
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1543,6 +1582,7 @@ nsAString
 &
 aUnmodifiedCharacters
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1555,6 +1595,7 @@ aNativeMessage
 uint32_t
 aModifierFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1563,6 +1604,7 @@ SynthesizeNativeMouseMove
 nsIntPoint
 aPoint
 )
+MOZ_OVERRIDE
 {
 return
 SynthesizeNativeMouseEvent
@@ -1621,6 +1663,7 @@ void
 CreateCompositor
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1680,6 +1723,7 @@ ThemeGeometry
 &
 aThemeGeometries
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1748,6 +1792,7 @@ nsIWidget
 *
 aNewParent
 )
+MOZ_OVERRIDE
 ;
 mozilla
 :
@@ -1977,6 +2022,7 @@ nsIWidget
 AllocateChildPopupWidget
 (
 )
+MOZ_OVERRIDE
 {
 static
 NS_DEFINE_IID

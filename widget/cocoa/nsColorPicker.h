@@ -62,6 +62,7 @@ nsAString
 &
 aInitialColor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Open
@@ -70,6 +71,7 @@ nsIColorPickerShownCallback
 *
 aCallback
 )
+MOZ_OVERRIDE
 ;
 void
 Update

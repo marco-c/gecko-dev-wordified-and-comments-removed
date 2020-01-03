@@ -145,6 +145,7 @@ void
 NativeData
 (
 )
+MOZ_OVERRIDE
 {
 return
 (
@@ -158,6 +159,7 @@ nsMenuObjectTypeX
 MenuObjectType
 (
 )
+MOZ_OVERRIDE
 {
 return
 eSubmenuObjectType

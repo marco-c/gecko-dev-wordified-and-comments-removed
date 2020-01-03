@@ -175,6 +175,7 @@ aInitData
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 void
 InitIMEState
@@ -205,11 +206,13 @@ aForceUseIWidgetParent
 =
 false
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Destroy
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Show
@@ -217,6 +220,7 @@ Show
 bool
 aState
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -224,6 +228,7 @@ IsVisible
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mVisible
@@ -240,6 +245,7 @@ int32_t
 *
 aY
 )
+MOZ_OVERRIDE
 {
 *
 aX
@@ -263,6 +269,7 @@ aX
 double
 aY
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -278,6 +285,7 @@ aHeight
 bool
 aRepaint
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Resize
@@ -293,6 +301,7 @@ aHeight
 bool
 aRepaint
 )
+MOZ_OVERRIDE
 {
 return
 Resize
@@ -309,6 +318,7 @@ Enable
 bool
 aState
 )
+MOZ_OVERRIDE
 {
 mEnabled
 =
@@ -324,6 +334,7 @@ IsEnabled
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mEnabled
@@ -337,6 +348,7 @@ aRaise
 =
 false
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -350,6 +362,7 @@ Configuration
 &
 aConfigurations
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Invalidate
@@ -359,6 +372,7 @@ nsIntRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -393,6 +407,7 @@ GetNativeData
 uint32_t
 aDataType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ReparentNativeWidget
@@ -401,6 +416,7 @@ nsIWidget
 *
 aNewParent
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_UNEXPECTED
@@ -414,6 +430,7 @@ nsAString
 &
 aTitle
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_UNEXPECTED
@@ -424,6 +441,7 @@ nsIntPoint
 WidgetToScreenOffset
 (
 )
+MOZ_OVERRIDE
 {
 return
 nsIntPoint
@@ -456,6 +474,7 @@ nsEventStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CaptureRollupEvents
@@ -466,6 +485,7 @@ aListener
 bool
 aDoCapture
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_UNEXPECTED
@@ -542,6 +562,7 @@ aAllowRetaining
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NotifyIME
@@ -568,6 +589,7 @@ InputContextAction
 &
 aAction
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -576,6 +598,7 @@ InputContext
 GetInputContext
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIMEUpdatePreference
@@ -590,6 +613,7 @@ SetCursor
 nsCursor
 aCursor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetCursor
@@ -602,6 +626,7 @@ aHotspotX
 uint32_t
 aHotspotY
 )
+MOZ_OVERRIDE
 {
 return
 nsBaseWidget
@@ -620,12 +645,14 @@ float
 GetDPI
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 double
 GetDefaultScaleInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
