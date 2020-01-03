@@ -289,7 +289,8 @@ RIL
 .
 _processCalls
 (
-null
+{
+}
 )
 ;
 }
