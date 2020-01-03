@@ -707,6 +707,13 @@ aRect
 ;
 virtual
 void
+Update
+(
+)
+override
+;
+virtual
+void
 *
 GetNativeData
 (
