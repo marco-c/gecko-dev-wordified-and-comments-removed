@@ -597,6 +597,9 @@ value
 )
 "
 Object
+[
+10000
+]
 "
 "
 Should
