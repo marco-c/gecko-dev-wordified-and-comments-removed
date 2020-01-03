@@ -15636,7 +15636,7 @@ let
 ret
 =
 new
-Array
+Uint8ClampedArray
 (
 imgWidth
 *
