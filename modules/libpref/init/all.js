@@ -2263,10 +2263,11 @@ default_iceservers
 {
 \
 "
-url
+urls
 \
 "
 :
+[
 \
 "
 stun
@@ -2280,6 +2281,7 @@ mozilla
 com
 \
 "
+]
 }
 ]
 "
