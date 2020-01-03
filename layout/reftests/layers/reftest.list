@@ -111,12 +111,6 @@ html
 about
 :
 blank
-skip
--
-if
-(
-asyncPan
-)
 !
 =
 pull
@@ -129,13 +123,6 @@ html
 about
 :
 blank
-#
-Fails
-with
-event
-regions
-bug
-1150941
 !
 =
 pull
