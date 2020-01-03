@@ -669,6 +669,7 @@ FcStrEntryBase
 {
 public
 :
+explicit
 DepFcStrEntry
 (
 KeyTypePointer
@@ -731,6 +732,7 @@ FcStrEntryBase
 {
 public
 :
+explicit
 CopiedFcStrEntry
 (
 KeyTypePointer
@@ -834,6 +836,7 @@ DepFcStrEntry
 {
 public
 :
+explicit
 FontsByFcStrEntry
 (
 KeyTypePointer
@@ -924,6 +927,7 @@ DepFcStrEntry
 {
 public
 :
+explicit
 FontsByFullnameEntry
 (
 KeyTypePointer
@@ -1030,6 +1034,7 @@ CopiedFcStrEntry
 {
 public
 :
+explicit
 LangSupportEntry
 (
 KeyTypePointer
