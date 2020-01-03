@@ -277,7 +277,7 @@ o
 displayDirectory
 )
 {
-const
+var
 directory
 =
 o
@@ -294,7 +294,7 @@ o
 .
 defaultString
 ;
-const
+var
 filterTitles
 =
 o
@@ -303,7 +303,7 @@ filters
 .
 titles
 ;
-const
+var
 filterTypes
 =
 o
@@ -312,7 +312,7 @@ filters
 .
 types
 ;
-const
+var
 numFilters
 =
 filterTitles
