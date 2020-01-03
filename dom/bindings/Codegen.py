@@ -56983,11 +56983,12 @@ opType
 infallible
 movable
                       
+eliminatable
 aliasSet
 alwaysInSlot
 lazilyInSlot
-slotIndex
                       
+slotIndex
 returnTypes
 args
 )
@@ -57083,6 +57084,27 @@ not
 alwaysInSlot
 or
 movable
+)
+        
+assert
+(
+not
+eliminatable
+or
+aliasSet
+!
+=
+"
+AliasEverything
+"
+)
+        
+assert
+(
+not
+alwaysInSlot
+or
+eliminatable
 )
         
 def
@@ -57195,6 +57217,21 @@ isMovable
 /
 *
 isMovable
+.
+Not
+relevant
+for
+setters
+.
+*
+/
+                  
+{
+isEliminatable
+}
+/
+*
+isEliminatable
 .
 Not
 relevant
@@ -57322,6 +57359,13 @@ isMovable
 toStringBool
 (
 movable
+)
+                
+isEliminatable
+=
+toStringBool
+(
+eliminatable
 )
                 
 isAlwaysInSlot
@@ -57683,6 +57727,16 @@ mayBeMovable
 and
 getterinfal
             
+eliminatable
+=
+self
+.
+mayBeEliminatable
+(
+)
+and
+getterinfal
+            
 aliasSet
 =
 self
@@ -57789,11 +57843,12 @@ Getter
                                         
 getterinfal
 movable
+eliminatable
+                                        
 aliasSet
-                                        
 isAlwaysInSlot
-isLazilyCachedInSlot
                                         
+isLazilyCachedInSlot
 slotIndex
                                         
 [
@@ -57906,6 +57961,7 @@ setter
 Setter
 "
                                              
+False
 False
 False
 "
@@ -58049,6 +58105,10 @@ None
 movable
 =
 False
+                
+eliminatable
+=
+False
             
 else
 :
@@ -58082,6 +58142,16 @@ movable
 self
 .
 mayBeMovable
+(
+)
+and
+hasInfallibleImpl
+                
+eliminatable
+=
+self
+.
+mayBeEliminatable
 (
 )
 and
@@ -58178,8 +58248,9 @@ Method
                                         
 methodInfal
 movable
-aliasSet
+eliminatable
                                         
+aliasSet
 False
 False
 "
@@ -58306,6 +58377,85 @@ DeviceState
 )
     
 def
+mayBeEliminatable
+(
+self
+)
+:
+        
+"
+"
+"
+        
+Returns
+whether
+this
+attribute
+or
+method
+may
+be
+eliminatable
+just
+        
+based
+on
+Affects
+/
+DependsOn
+annotations
+.
+        
+"
+"
+"
+        
+affects
+=
+self
+.
+member
+.
+affects
+        
+dependsOn
+=
+self
+.
+member
+.
+dependsOn
+        
+assert
+affects
+in
+IDLInterfaceMember
+.
+AffectsValues
+        
+assert
+dependsOn
+in
+IDLInterfaceMember
+.
+DependsOnValues
+        
+return
+affects
+=
+=
+"
+Nothing
+"
+and
+dependsOn
+!
+=
+"
+Everything
+"
+    
+def
 aliasSet
 (
 self
@@ -58315,6 +58465,7 @@ self
 "
 "
 "
+        
 Returns
 the
 alias

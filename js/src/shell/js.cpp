@@ -30435,6 +30435,7 @@ Getter
 JSVAL_TYPE_UNKNOWN
 true
 true
+true
 false
 false
 false
@@ -30469,6 +30470,7 @@ false
 false
 false
 false
+false
 0
 }
 ;
@@ -30495,6 +30497,7 @@ JSJitInfo
 :
 AliasEverything
 JSVAL_TYPE_UNKNOWN
+false
 false
 false
 false

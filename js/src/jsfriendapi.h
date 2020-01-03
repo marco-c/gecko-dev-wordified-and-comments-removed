@@ -9348,7 +9348,7 @@ JITINFO_RETURN_TYPE_BITS
 #
 define
 JITINFO_SLOT_INDEX_BITS
-11
+10
 uint32_t
 type_
 :
@@ -9442,6 +9442,11 @@ isInfallible
 ;
 uint32_t
 isMovable
+:
+1
+;
+uint32_t
+isEliminatable
 :
 1
 ;

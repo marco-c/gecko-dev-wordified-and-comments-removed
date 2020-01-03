@@ -16028,7 +16028,7 @@ getJitInfo
 )
 -
 >
-isMovable
+isEliminatable
 )
 setGuard
 (
