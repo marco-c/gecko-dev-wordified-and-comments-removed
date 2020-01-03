@@ -1458,7 +1458,7 @@ mNewChildLayersIndex
 #
 ifdef
 MOZ_DUMP_PAINTING
-nsAutoCString
+nsCString
 mLog
 ;
 #
