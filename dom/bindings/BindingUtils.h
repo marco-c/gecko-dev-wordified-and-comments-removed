@@ -2582,6 +2582,7 @@ JS
 TraceKind
 kind
 )
+override
 {
 }
 TracerKind
