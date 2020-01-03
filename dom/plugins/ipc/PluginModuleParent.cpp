@@ -148,6 +148,9 @@ Preferences
 h
 "
 #
+ifdef
+MOZ_ENABLE_PROFILER_SPS
+#
 include
 "
 mozilla
@@ -156,6 +159,8 @@ ProfileGatherer
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -356,12 +361,17 @@ mozilla
 :
 PluginLibrary
 ;
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 using
 mozilla
 :
 :
 ProfileGatherer
 ;
+#
+endif
 using
 mozilla
 :
@@ -13677,6 +13687,8 @@ Truncate
 ;
 }
 }
+#
+endif
 bool
 PluginModuleChromeParent
 :
@@ -13689,6 +13701,9 @@ nsCString
 aProfile
 )
 {
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 if
 (
 NS_WARN_IF
@@ -13717,9 +13732,9 @@ mGatherer
 =
 nullptr
 ;
+#
+endif
 return
 true
 ;
 }
-#
-endif

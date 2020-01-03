@@ -179,9 +179,14 @@ nsPluginTag
 namespace
 mozilla
 {
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 class
 ProfileGatherer
 ;
+#
+endif
 namespace
 dom
 {
@@ -1713,6 +1718,9 @@ OnExitedSyncSend
 )
 override
 ;
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 void
 GatherAsyncProfile
 (
@@ -1732,6 +1740,8 @@ nsIProfileSaveEvent
 aSaveEvent
 )
 ;
+#
+endif
 virtual
 bool
 RecvProfile
@@ -2345,6 +2355,9 @@ nsIObserver
 >
 mOfflineObserver
 ;
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 nsRefPtr
 <
 mozilla
@@ -2354,6 +2367,8 @@ ProfileGatherer
 >
 mGatherer
 ;
+#
+endif
 nsCString
 mProfile
 ;
