@@ -7017,11 +7017,8 @@ cb
 =
 nullptr
 ;
-NS_ENSURE_SUCCESS
-(
+return
 rv
-rv
-)
 ;
 }
 mNumPendingUpdateCurrentDictionary
