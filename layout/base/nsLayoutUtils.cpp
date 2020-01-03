@@ -620,7 +620,7 @@ mozilla
 /
 layers
 /
-AsyncPanZoomController
+APZCTreeManager
 .
 h
 "
@@ -14156,7 +14156,7 @@ scrollableFrame
 LayerMargin
 displayportMargins
 =
-AsyncPanZoomController
+APZCTreeManager
 :
 :
 CalculatePendingDisplayPort
