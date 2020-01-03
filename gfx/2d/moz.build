@@ -189,6 +189,11 @@ Helpers
 h
 '
 '
+HelpersCairo
+.
+h
+'
+'
 Logging
 .
 h
@@ -456,11 +461,6 @@ gfx
 +
 =
 [
-'
-HelpersCairo
-.
-h
-'
 '
 HelpersSkia
 .
