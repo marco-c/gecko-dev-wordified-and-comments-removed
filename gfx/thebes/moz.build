@@ -827,11 +827,6 @@ EXPORTS
 =
 [
 '
-gfxD2DSurface
-.
-h
-'
-'
 gfxDWriteFonts
 .
 h
@@ -929,11 +924,6 @@ SOURCES
 +
 =
 [
-'
-gfxD2DSurface
-.
-cpp
-'
 '
 gfxDWriteCommon
 .

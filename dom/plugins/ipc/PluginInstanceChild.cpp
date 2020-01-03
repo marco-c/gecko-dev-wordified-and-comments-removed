@@ -12428,15 +12428,6 @@ gfxSurfaceType
 :
 :
 Win32
-|
-|
-mSurfaceType
-=
-=
-gfxSurfaceType
-:
-:
-D2D
 )
 {
 bool

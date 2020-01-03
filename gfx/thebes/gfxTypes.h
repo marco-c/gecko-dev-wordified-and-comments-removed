@@ -88,7 +88,6 @@ Tee
 XML
 Skia
 Subsurface
-D2D
 Max
 }
 ;

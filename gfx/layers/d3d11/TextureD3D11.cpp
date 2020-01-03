@@ -47,13 +47,6 @@ h
 #
 include
 "
-gfxD2DSurface
-.
-h
-"
-#
-include
-"
 gfx2DGlue
 .
 h

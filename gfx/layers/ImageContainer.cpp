@@ -193,13 +193,6 @@ XP_WIN
 #
 include
 "
-gfxD2DSurface
-.
-h
-"
-#
-include
-"
 gfxWindowsPlatform
 .
 h
