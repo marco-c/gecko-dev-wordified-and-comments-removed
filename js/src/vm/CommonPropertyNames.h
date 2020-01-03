@@ -680,6 +680,15 @@ forceInterpreter
 \
 macro
 (
+forEach
+forEach
+"
+forEach
+"
+)
+\
+macro
+(
 format
 format
 "
