@@ -17618,7 +17618,6 @@ JSOp
 pc
 )
 obj
-true
 idval
 res
 )
@@ -17969,7 +17968,6 @@ JSOp
 pc
 )
 obj
-true
 idval
 res
 )
