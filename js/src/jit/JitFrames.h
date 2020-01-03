@@ -850,7 +850,7 @@ JSScript
 *
 GetTopJitJSScript
 (
-ThreadSafeContext
+JSContext
 *
 cx
 void

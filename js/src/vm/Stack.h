@@ -3375,7 +3375,7 @@ Activation
 {
 protected
 :
-ThreadSafeContext
+JSContext
 *
 cx_
 ;
@@ -3412,7 +3412,7 @@ kind_
 inline
 Activation
 (
-ThreadSafeContext
+JSContext
 *
 cx
 Kind
@@ -3427,7 +3427,7 @@ Activation
 ;
 public
 :
-ThreadSafeContext
+JSContext
 *
 cx
 (
@@ -4187,14 +4187,6 @@ bool
 active
 =
 true
-)
-;
-explicit
-JitActivation
-(
-ForkJoinContext
-*
-cx
 )
 ;
 ~
@@ -5000,7 +4992,7 @@ ASMJS
 struct
 Data
 {
-ThreadSafeContext
+JSContext
 *
 cx_
 ;
@@ -5041,7 +5033,7 @@ asmJSFrames_
 ;
 Data
 (
-ThreadSafeContext
+JSContext
 *
 cx
 SavedOption
@@ -5066,7 +5058,7 @@ other
 MOZ_IMPLICIT
 FrameIter
 (
-ThreadSafeContext
+JSContext
 *
 cx
 SavedOption
@@ -5076,7 +5068,7 @@ STOP_AT_SAVED
 ;
 FrameIter
 (
-ThreadSafeContext
+JSContext
 *
 cx
 ContextOption
@@ -5683,7 +5675,7 @@ public
 explicit
 ScriptFrameIter
 (
-ThreadSafeContext
+JSContext
 *
 cx
 SavedOption
@@ -5705,7 +5697,7 @@ settle
 }
 ScriptFrameIter
 (
-ThreadSafeContext
+JSContext
 *
 cx
 ContextOption
@@ -5877,7 +5869,7 @@ public
 explicit
 NonBuiltinFrameIter
 (
-ThreadSafeContext
+JSContext
 *
 cx
 FrameIter
@@ -5905,7 +5897,7 @@ settle
 }
 NonBuiltinFrameIter
 (
-ThreadSafeContext
+JSContext
 *
 cx
 FrameIter
@@ -6027,7 +6019,7 @@ public
 explicit
 NonBuiltinScriptFrameIter
 (
-ThreadSafeContext
+JSContext
 *
 cx
 ScriptFrameIter
@@ -6055,7 +6047,7 @@ settle
 }
 NonBuiltinScriptFrameIter
 (
-ThreadSafeContext
+JSContext
 *
 cx
 ScriptFrameIter
@@ -6172,7 +6164,7 @@ public
 explicit
 AllFramesIter
 (
-ThreadSafeContext
+JSContext
 *
 cx
 )

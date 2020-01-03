@@ -5761,12 +5761,6 @@ ForkJoinContext
 cx
 )
 {
-JitActivation
-activation
-(
-cx
-)
-;
 Value
 result
 =
