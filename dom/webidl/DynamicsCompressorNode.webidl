@@ -185,7 +185,7 @@ unit
 less
 readonly
 attribute
-AudioParam
+float
 reduction
 ;
 /
