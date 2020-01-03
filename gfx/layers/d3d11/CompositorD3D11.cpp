@@ -99,7 +99,7 @@ h
 #
 include
 <
-DXGI1_2
+dxgi1_2
 .
 h
 >
