@@ -2059,15 +2059,15 @@ Convert
 (
 uint8_t
 aIn
-BluetoothSspPairingVariant
+BluetoothSspVariant
 &
 aOut
 )
 {
 static
 const
-BluetoothSspPairingVariant
-sSspPairingVariant
+BluetoothSspVariant
+sSspVariant
 [
 ]
 =
@@ -2103,7 +2103,7 @@ aIn
 =
 MOZ_ARRAY_LENGTH
 (
-sSspPairingVariant
+sSspVariant
 )
 )
 )
@@ -2114,7 +2114,7 @@ NS_ERROR_ILLEGAL_VALUE
 }
 aOut
 =
-sSspPairingVariant
+sSspVariant
 [
 aIn
 ]
@@ -2811,7 +2811,7 @@ const
 nsAString
 &
 aIn
-BluetoothSspPairingVariant
+BluetoothSspVariant
 &
 aOut
 )
@@ -4409,7 +4409,7 @@ NS_OK
 nsresult
 Convert
 (
-BluetoothSspPairingVariant
+BluetoothSspVariant
 aIn
 uint8_t
 &
@@ -4482,7 +4482,7 @@ NS_OK
 nsresult
 Convert
 (
-BluetoothSspPairingVariant
+BluetoothSspVariant
 aIn
 nsAString
 &
@@ -6156,7 +6156,7 @@ aPDU
 nsresult
 PackPDU
 (
-BluetoothSspPairingVariant
+BluetoothSspVariant
 aIn
 BluetoothDaemonPDU
 &
@@ -6168,7 +6168,7 @@ PackPDU
 (
 PackConversion
 <
-BluetoothSspPairingVariant
+BluetoothSspVariant
 uint8_t
 >
 (
@@ -7457,7 +7457,7 @@ UnpackPDU
 BluetoothDaemonPDU
 &
 aPDU
-BluetoothSspPairingVariant
+BluetoothSspVariant
 &
 aOut
 )
@@ -7469,7 +7469,7 @@ aPDU
 UnpackConversion
 <
 uint8_t
-BluetoothSspPairingVariant
+BluetoothSspVariant
 >
 (
 aOut
