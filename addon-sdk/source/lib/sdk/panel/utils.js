@@ -674,12 +674,12 @@ y
 width
 height
 }
-)
 =
 calculateRegion
 (
 options
 viewportRect
+)
 )
 ;
 }
@@ -720,7 +720,6 @@ anchor
 {
 anchor
 }
-)
 =
 CustomizableUI
 .
@@ -734,6 +733,7 @@ id
 forWindow
 (
 window
+)
 )
 ;
 if

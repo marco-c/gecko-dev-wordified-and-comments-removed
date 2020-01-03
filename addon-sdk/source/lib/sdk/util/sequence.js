@@ -1195,7 +1195,6 @@ done
 done
 value
 }
-)
 =
 inputs
 [
@@ -1204,6 +1203,7 @@ index
 .
 next
 (
+)
 )
 ;
 if
@@ -1290,12 +1290,10 @@ count
 2
 )
 {
-(
 [
 f
 source
 ]
-)
 =
 params
 ;
@@ -1310,13 +1308,11 @@ count
 3
 )
 {
-(
 [
 f
 initial
 source
 ]
-)
 =
 params
 ;

@@ -1256,13 +1256,11 @@ offset
 )
 )
 {
-(
 [
 offset
 length
 encoding
 ]
-)
 =
 [
 0
@@ -1285,12 +1283,10 @@ length
 string
 '
 )
-(
 [
 length
 encoding
 ]
-)
 =
 [
 null
