@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Assertions
+.
+h
+"
+#
+include
+"
 txXPathOptimizer
 .
 h
@@ -83,7 +92,7 @@ txAExprResult
 aResult
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 shouldn
@@ -95,9 +104,6 @@ this
 context
 "
 )
-;
-return
-NS_ERROR_FAILURE
 ;
 }
 bool
@@ -109,7 +115,7 @@ txXPathNode
 aNode
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 shouldn
@@ -121,9 +127,6 @@ this
 context
 "
 )
-;
-return
-false
 ;
 }
 void
@@ -132,7 +135,7 @@ getPrivateContext
 (
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 shouldn
@@ -144,9 +147,6 @@ this
 context
 "
 )
-;
-return
-nullptr
 ;
 }
 txResultRecycler
@@ -178,7 +178,7 @@ getContextNode
 (
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 shouldn
@@ -189,17 +189,6 @@ on
 this
 context
 "
-)
-;
-return
-*
-static_cast
-<
-txXPathNode
-*
->
-(
-nullptr
 )
 ;
 }
@@ -208,7 +197,7 @@ size
 (
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 shouldn
@@ -220,9 +209,6 @@ this
 context
 "
 )
-;
-return
-1
 ;
 }
 uint32_t
@@ -230,7 +216,7 @@ position
 (
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 shouldn
@@ -242,9 +228,6 @@ this
 context
 "
 )
-;
-return
-1
 ;
 }
 private
