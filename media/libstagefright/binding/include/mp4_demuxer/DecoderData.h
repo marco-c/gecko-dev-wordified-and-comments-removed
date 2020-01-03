@@ -291,10 +291,6 @@ override
 ;
 }
 ;
-typedef
-int64_t
-Microseconds
-;
 }
 #
 endif
