@@ -5235,7 +5235,7 @@ forget
 (
 )
 .
-drop
+take
 (
 )
 &

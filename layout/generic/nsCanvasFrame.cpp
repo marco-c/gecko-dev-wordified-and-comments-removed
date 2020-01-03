@@ -1944,7 +1944,7 @@ forget
 (
 )
 .
-drop
+take
 (
 )
 )

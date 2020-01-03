@@ -2560,7 +2560,7 @@ forget
 (
 )
 .
-drop
+take
 (
 )
 map
