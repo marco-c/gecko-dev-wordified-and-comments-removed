@@ -26,7 +26,7 @@ panel
 let
 {
 gFront
-WebAudioInspectorView
+InspectorView
 }
 =
 panelWin
@@ -93,7 +93,7 @@ true
 ;
 ok
 (
-WebAudioInspectorView
+InspectorView
 .
 isVisible
 (
@@ -111,7 +111,7 @@ node
 ;
 is
 (
-WebAudioInspectorView
+InspectorView
 .
 getCurrentAudioNode
 (
@@ -182,7 +182,7 @@ actorID
 ok
 (
 !
-WebAudioInspectorView
+InspectorView
 .
 isVisible
 (
@@ -198,7 +198,7 @@ start
 ;
 ise
 (
-WebAudioInspectorView
+InspectorView
 .
 getCurrentAudioNode
 (
@@ -230,7 +230,7 @@ true
 ;
 ok
 (
-WebAudioInspectorView
+InspectorView
 .
 isVisible
 (
@@ -251,7 +251,7 @@ reset
 ;
 is
 (
-WebAudioInspectorView
+InspectorView
 .
 getCurrentAudioNode
 (

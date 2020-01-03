@@ -27,7 +27,7 @@ let
 {
 gFront
 EVENTS
-WebAudioInspectorView
+InspectorView
 }
 =
 panelWin
@@ -35,7 +35,7 @@ panelWin
 let
 gVars
 =
-WebAudioInspectorView
+InspectorView
 .
 _propsView
 ;
@@ -104,7 +104,7 @@ actorID
 ok
 (
 !
-WebAudioInspectorView
+InspectorView
 .
 isVisible
 (
@@ -260,7 +260,7 @@ UI_INSPECTOR_TOGGLED
 ;
 ok
 (
-WebAudioInspectorView
+InspectorView
 .
 isVisible
 (
