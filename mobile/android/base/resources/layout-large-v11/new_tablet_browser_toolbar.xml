@@ -264,14 +264,6 @@ forward
 "
 android
 :
-layout_marginLeft
-=
-"
--
-15dp
-"
-android
-:
 layout_alignLeft
 =
 "
