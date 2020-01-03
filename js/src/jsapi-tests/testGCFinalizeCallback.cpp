@@ -106,7 +106,7 @@ rt
 JS
 :
 :
-IncrementalGC
+StartIncrementalGC
 (
 rt
 JS
@@ -397,7 +397,7 @@ zone
 JS
 :
 :
-IncrementalGC
+StartIncrementalGC
 (
 rt
 JS
@@ -504,7 +504,7 @@ zone
 JS
 :
 :
-IncrementalGC
+StartIncrementalGC
 (
 rt
 JS
