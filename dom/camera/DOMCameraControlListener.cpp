@@ -499,17 +499,6 @@ state
 return
 ;
 }
-mStream
--
->
-OnPreviewStateChange
-(
-aState
-=
-=
-kPreviewStarted
-)
-;
 NS_DispatchToMainThread
 (
 new
