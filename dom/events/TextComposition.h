@@ -479,6 +479,15 @@ EditorDidHandleCompositionChangeEvent
 (
 )
 ;
+bool
+IsValidStateForComposition
+(
+nsIWidget
+*
+aWidget
+)
+const
+;
 void
 DispatchCompositionEvent
 (
