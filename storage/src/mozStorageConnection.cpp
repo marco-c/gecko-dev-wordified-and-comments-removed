@@ -5089,9 +5089,6 @@ synchronous
 "
 wal_autocheckpoint
 "
-"
-busy_timeout
-"
 }
 ;
 for
