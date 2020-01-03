@@ -109,6 +109,8 @@ style
 :
 [
 "
+bookmark
+-
 tag
 "
 ]
