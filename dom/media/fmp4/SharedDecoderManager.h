@@ -132,12 +132,14 @@ friend
 class
 SharedDecoderCallback
 ;
+void
+DisableHardwareAcceleration
+(
+)
+;
 bool
 Recreate
 (
-PlatformDecoderModule
-*
-aPDM
 const
 mp4_demuxer
 :

@@ -2878,7 +2878,7 @@ HasVideo
 mSharedDecoderManager
 )
 {
-mPlatform
+mSharedDecoderManager
 -
 >
 DisableHardwareAcceleration
@@ -2905,7 +2905,6 @@ mSharedDecoderManager
 >
 Recreate
 (
-mPlatform
 video
 mLayersBackendType
 mDecoder
