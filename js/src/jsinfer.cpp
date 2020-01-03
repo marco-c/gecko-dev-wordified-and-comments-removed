@@ -25354,6 +25354,9 @@ associated
 }
 }
 }
+#
+ifdef
+JSGC_COMPACTING
 void
 JSCompartment
 :
@@ -25817,6 +25820,8 @@ MOZ_CRASH
 }
 }
 }
+#
+endif
 #
 ifdef
 JSGC_HASH_TABLE_CHECKS

@@ -2377,6 +2377,9 @@ unmarkAll
 (
 )
 ;
+#
+ifdef
+JSGC_COMPACTING
 size_t
 countUsedCells
 (
@@ -2387,6 +2390,8 @@ countFreeCells
 (
 )
 ;
+#
+endif
 }
 ;
 static_assert

@@ -1288,6 +1288,9 @@ entry
 )
 ;
 }
+#
+ifdef
+JSGC_COMPACTING
 void
 ShapeTable
 :
@@ -1360,6 +1363,8 @@ shape
 ;
 }
 }
+#
+endif
 bool
 ShapeTable
 :
@@ -9208,6 +9213,9 @@ newKey
 }
 }
 }
+#
+ifdef
+JSGC_COMPACTING
 void
 JSCompartment
 :
@@ -9462,6 +9470,8 @@ entry
 }
 }
 }
+#
+endif
 void
 AutoRooterGetterSetter
 :
