@@ -795,6 +795,7 @@ HeaderVisitor
 }
 public
 :
+explicit
 HeaderVisitor
 (
 nsIInterceptedChannel
@@ -857,6 +858,7 @@ mChannel
 ;
 public
 :
+explicit
 FinishSynthesizedResponse
 (
 nsIInterceptedChannel
