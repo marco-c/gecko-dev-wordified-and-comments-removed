@@ -148,6 +148,11 @@ svg
 pass
 .
 svg
+fuzzy
+(
+1
+40000
+)
 =
 =
 feBlend
