@@ -1788,6 +1788,13 @@ setOnItemClickListener
 null
 )
 ;
+mGrid
+.
+setOnItemClickListener
+(
+null
+)
+;
 mList
 =
 null
