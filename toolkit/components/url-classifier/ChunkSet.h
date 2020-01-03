@@ -186,7 +186,7 @@ Length
 }
 private
 :
-FallibleTArray
+nsTArray
 <
 uint32_t
 >
