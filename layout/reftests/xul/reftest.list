@@ -1487,6 +1487,7 @@ svg
 ref
 .
 html
+fails
 skip
 -
 if
@@ -1501,7 +1502,6 @@ browserIsRemote
 |
 Mulet
 )
-fails
 =
 =
 object
@@ -1531,6 +1531,7 @@ html
 #
 bug
 1092436
+fails
 skip
 -
 if
@@ -1545,7 +1546,6 @@ browserIsRemote
 |
 Mulet
 )
-fails
 =
 =
 object
