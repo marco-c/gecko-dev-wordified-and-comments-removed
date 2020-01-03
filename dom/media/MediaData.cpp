@@ -2489,6 +2489,8 @@ aSize
 return
 ;
 }
+MOZ_ALWAYS_TRUE
+(
 mBuffer
 -
 >
@@ -2497,13 +2499,17 @@ AppendElements
 aData
 aSize
 )
+)
 ;
+MOZ_ALWAYS_TRUE
+(
 mBuffer
 -
 >
 AppendElements
 (
 RAW_DATA_ALIGNMENT
+)
 )
 ;
 mSize
@@ -2602,6 +2608,8 @@ return
 nullptr
 ;
 }
+MOZ_ALWAYS_TRUE
+(
 s
 -
 >
@@ -2613,7 +2621,10 @@ AppendElements
 mData
 mSize
 )
+)
 ;
+MOZ_ALWAYS_TRUE
+(
 s
 -
 >
@@ -2623,6 +2634,7 @@ mBuffer
 AppendElements
 (
 RAW_DATA_ALIGNMENT
+)
 )
 ;
 s
@@ -2796,6 +2808,8 @@ shift
 0
 )
 {
+MOZ_ALWAYS_TRUE
+(
 mBuffer
 -
 >
@@ -2803,6 +2817,7 @@ InsertElementsAt
 (
 oldpadding
 shift
+)
 )
 ;
 }
@@ -3059,6 +3074,8 @@ return
 false
 ;
 }
+MOZ_ALWAYS_TRUE
+(
 mBuffer
 -
 >
@@ -3072,6 +3089,7 @@ mTarget
 mPadding
 +
 RAW_DATA_ALIGNMENT
+)
 )
 ;
 mTarget
@@ -3119,6 +3137,8 @@ return
 false
 ;
 }
+MOZ_ALWAYS_TRUE
+(
 mBuffer
 -
 >
@@ -3130,6 +3150,7 @@ mTarget
 mPadding
 aData
 aSize
+)
 )
 ;
 mTarget
@@ -3178,6 +3199,8 @@ return
 false
 ;
 }
+MOZ_ALWAYS_TRUE
+(
 mBuffer
 -
 >
@@ -3193,6 +3216,7 @@ mTarget
 mSize
 aData
 aSize
+)
 )
 ;
 mTarget
