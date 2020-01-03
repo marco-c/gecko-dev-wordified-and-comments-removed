@@ -2406,6 +2406,12 @@ mNonClientOffset
 nsIntMargin
 mNonClientMargins
 ;
+nsIntMargin
+mFutureMarginsOnceChromeShows
+;
+bool
+mFutureMarginsToUse
+;
 bool
 mCustomNonClient
 ;
