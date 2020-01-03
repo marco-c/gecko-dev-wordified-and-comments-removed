@@ -138,6 +138,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIXULContextMenuBuilder
+.
+idl
+'
+'
 nsIXULOverlayProvider
 .
 idl
@@ -164,6 +169,11 @@ cpp
 '
 '
 nsXULContentSink
+.
+cpp
+'
+'
+nsXULContextMenuBuilder
 .
 cpp
 '
