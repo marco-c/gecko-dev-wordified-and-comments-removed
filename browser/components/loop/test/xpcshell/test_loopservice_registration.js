@@ -159,6 +159,8 @@ Assert
 equal
 (
 err
+.
+errno
 404
 "
 Expected
