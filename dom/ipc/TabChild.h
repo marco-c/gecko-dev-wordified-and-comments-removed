@@ -760,6 +760,7 @@ nsIWebNavigation
 WebNavigation
 (
 )
+const
 =
 0
 ;
@@ -888,6 +889,7 @@ nsIDocument
 GetDocument
 (
 )
+const
 ;
 void
 SetCSSViewport
@@ -1952,6 +1954,7 @@ nsIWebNavigation
 WebNavigation
 (
 )
+const
 MOZ_OVERRIDE
 {
 return
@@ -2621,6 +2624,12 @@ uint64_t
 &
 aInputBlockId
 )
+;
+float
+GetPresShellResolution
+(
+)
+const
 ;
 void
 SetTabId

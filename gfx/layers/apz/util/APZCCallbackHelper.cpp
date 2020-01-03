@@ -1433,8 +1433,17 @@ const
 ScrollableLayerGuid
 &
 aGuid
+float
+aPresShellResolution
 )
 {
+CSSPoint
+input
+=
+aInput
+/
+aPresShellResolution
+;
 if
 (
 aGuid
@@ -1505,7 +1514,7 @@ property
 )
 ;
 return
-aInput
+input
 +
 delta
 ;
@@ -1513,7 +1522,7 @@ delta
 }
 }
 return
-aInput
+input
 ;
 }
 nsIntPoint
@@ -1534,6 +1543,8 @@ const
 CSSToLayoutDeviceScale
 &
 aScale
+float
+aPresShellResolution
 )
 {
 LayoutDevicePoint
@@ -1557,6 +1568,7 @@ point
 /
 aScale
 aGuid
+aPresShellResolution
 )
 *
 aScale

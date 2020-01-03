@@ -187,6 +187,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+float
+aPresShellResolution
 )
 ;
 static
@@ -205,6 +207,8 @@ const
 CSSToLayoutDeviceScale
 &
 aScale
+float
+aPresShellResolution
 )
 ;
 }
