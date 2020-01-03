@@ -1419,6 +1419,10 @@ NS_RGBA
 0
 )
 )
+mExclusiveToOneItem
+(
+false
+)
 mSingleItemFixedToViewport
 (
 false
@@ -1833,6 +1837,9 @@ mIsSolidColorInVisibleRegion
 ;
 nscolor
 mFontSmoothingBackgroundColor
+;
+bool
+mExclusiveToOneItem
 ;
 bool
 mSingleItemFixedToViewport
@@ -2279,7 +2286,7 @@ nsIntRect
 &
 aVisibleRect
 bool
-aShouldFixToViewport
+aForceOwnLayer
 NewPaintedLayerCallbackType
 aNewPaintedLayerCallback
 )
@@ -9394,7 +9401,7 @@ mPaintedLayerDataStack
 0
 ]
 .
-mSingleItemFixedToViewport
+mExclusiveToOneItem
 )
 {
 MOZ_ASSERT
@@ -9461,7 +9468,7 @@ MOZ_ASSERT
 !
 data
 .
-mSingleItemFixedToViewport
+mExclusiveToOneItem
 )
 ;
 lowestUsableLayer
@@ -10213,7 +10220,7 @@ nsIntRect
 &
 aVisibleRect
 bool
-aShouldFixToViewport
+aForceOwnLayer
 NewPaintedLayerCallbackType
 aNewPaintedLayerCallback
 )
@@ -10223,7 +10230,7 @@ nsIntRect
 *
 bounds
 =
-aShouldFixToViewport
+aForceOwnLayer
 ?
 nullptr
 :
@@ -10247,7 +10254,7 @@ aAnimatedGeometryRoot
 ;
 if
 (
-aShouldFixToViewport
+aForceOwnLayer
 )
 {
 node
@@ -10258,7 +10265,10 @@ SetAllDrawingAbove
 )
 ;
 }
-return
+PaintedLayerData
+*
+data
+=
 node
 -
 >
@@ -10267,6 +10277,16 @@ FindPaintedLayerFor
 aVisibleRect
 aNewPaintedLayerCallback
 )
+;
+data
+-
+>
+mExclusiveToOneItem
+=
+aForceOwnLayer
+;
+return
+data
 ;
 }
 void
