@@ -260,6 +260,17 @@ fuzzy
 64
 4
 )
+fuzzy
+-
+if
+(
+asyncPanZoom
+&
+&
+layersGPUAccelerated
+84
+77
+)
 needs
 -
 focus
