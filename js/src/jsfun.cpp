@@ -1739,6 +1739,7 @@ MOZ_ASSERT
 !
 IsInternalFunctionObject
 (
+*
 fun
 )
 )
@@ -2117,6 +2118,7 @@ MOZ_ASSERT
 !
 IsInternalFunctionObject
 (
+*
 obj
 )
 )
