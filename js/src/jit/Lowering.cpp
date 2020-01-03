@@ -20201,9 +20201,9 @@ void
 LIRGenerator
 :
 :
-visitGuardShapePolymorphic
+visitGuardReceiverPolymorphic
 (
-MGuardShapePolymorphic
+MGuardReceiverPolymorphic
 *
 ins
 )
@@ -20239,7 +20239,7 @@ type
 MIRType_Object
 )
 ;
-LGuardShapePolymorphic
+LGuardReceiverPolymorphic
 *
 guard
 =
@@ -20249,7 +20249,7 @@ alloc
 (
 )
 )
-LGuardShapePolymorphic
+LGuardReceiverPolymorphic
 (
 useRegister
 (

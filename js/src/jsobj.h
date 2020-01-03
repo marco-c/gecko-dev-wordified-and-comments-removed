@@ -1310,12 +1310,6 @@ ClassInfo
 info
 )
 ;
-bool
-hasIdempotentProtoChain
-(
-)
-const
-;
 static
 inline
 bool

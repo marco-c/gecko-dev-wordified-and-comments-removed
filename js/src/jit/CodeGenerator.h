@@ -776,9 +776,9 @@ guard
 )
 ;
 void
-visitGuardShapePolymorphic
+visitGuardReceiverPolymorphic
 (
-LGuardShapePolymorphic
+LGuardReceiverPolymorphic
 *
 lir
 )

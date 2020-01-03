@@ -619,7 +619,10 @@ bool
 isOwnProperty
 ShapeVector
 &
-receiverShapes
+nativeShapes
+ObjectGroupVector
+&
+unboxedGroups
 )
 ;
 bool
@@ -645,7 +648,10 @@ bool
 isOwnProperty
 ShapeVector
 &
-receiverShapes
+nativeShapes
+ObjectGroupVector
+&
+unboxedGroups
 )
 ;
 bool

@@ -988,7 +988,7 @@ GuardShape
 \
 _
 (
-GuardShapePolymorphic
+GuardReceiverPolymorphic
 )
 \
 _
