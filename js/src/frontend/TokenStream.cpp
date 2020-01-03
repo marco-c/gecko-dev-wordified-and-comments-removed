@@ -1367,12 +1367,7 @@ userbuf
 (
 cx
 base
--
-options
-.
-column
 length
-+
 options
 .
 column
@@ -1414,14 +1409,6 @@ strictModeGetter
 smg
 )
 {
-userbuf
-.
-setAddressOfNextRawChar
-(
-base
-true
-)
-;
 memset
 (
 maybeEOL
