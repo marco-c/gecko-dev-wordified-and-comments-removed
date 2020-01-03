@@ -1048,6 +1048,12 @@ if
 (
 message
 .
+stacktrace
+&
+&
+(
+message
+.
 level
 =
 =
@@ -1074,6 +1080,7 @@ level
 '
 trace
 '
+)
 )
 {
 stackTrace
