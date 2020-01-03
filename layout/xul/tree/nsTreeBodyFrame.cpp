@@ -15050,6 +15050,17 @@ aRowIndex
 hasNextSibling
 )
 ;
+if
+(
+hasNextSibling
+|
+|
+i
+=
+=
+level
+)
+{
 Point
 p1
 (
@@ -15145,6 +15156,7 @@ colorPatt
 strokeOptions
 )
 ;
+}
 }
 int32_t
 parent
