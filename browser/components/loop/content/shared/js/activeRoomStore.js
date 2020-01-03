@@ -146,6 +146,13 @@ room
 -
 full
 "
+ENDED
+:
+"
+room
+-
+ended
+"
 }
 ;
 var
@@ -1375,7 +1382,7 @@ nextState
 :
 ROOM_STATES
 .
-READY
+ENDED
 }
 )
 ;

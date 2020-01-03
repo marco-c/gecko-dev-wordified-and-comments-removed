@@ -1187,6 +1187,13 @@ displayName
 '
 IncomingConversationView
 '
+mixins
+:
+[
+sharedMixins
+.
+AudioMixin
+]
 propTypes
 :
 {
@@ -1257,6 +1264,8 @@ store
 .
 FeedbackStore
 )
+.
+isRequired
 }
 getInitialState
 :
@@ -1709,6 +1718,15 @@ get
 (
 "
 conversation_has_ended
+"
+)
+;
+this
+.
+play
+(
+"
+terminated
 "
 )
 ;
@@ -2652,6 +2670,8 @@ store
 .
 FeedbackStore
 )
+.
+isRequired
 }
 getInitialState
 :

@@ -3401,7 +3401,7 @@ set
 the
 state
 to
-ready
+ENDED
 "
 function
 (
@@ -3426,7 +3426,7 @@ eql
 (
 ROOM_STATES
 .
-READY
+ENDED
 )
 ;
 }
@@ -3657,7 +3657,7 @@ set
 the
 state
 to
-ready
+ENDED
 "
 function
 (
@@ -3682,7 +3682,7 @@ eql
 (
 ROOM_STATES
 .
-READY
+ENDED
 )
 ;
 }

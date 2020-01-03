@@ -282,7 +282,6 @@ status_error
 )
 ;
 }
-;
 }
 _renderContent
 :
@@ -308,6 +307,11 @@ case
 ROOM_STATES
 .
 READY
+:
+case
+ROOM_STATES
+.
+ENDED
 :
 {
 return
@@ -1095,12 +1099,12 @@ this
 state
 .
 roomState
-=
+!
 =
 =
 ROOM_STATES
 .
-READY
+JOINED
 &
 &
 nextState

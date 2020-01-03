@@ -981,6 +981,15 @@ state
 ROOM_STATES
 .
 JOINED
+|
+|
+state
+=
+=
+=
+ROOM_STATES
+.
+ENDED
 ;
 }
 if
