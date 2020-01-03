@@ -209,9 +209,6 @@ F
 '
 }
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -242,8 +239,6 @@ return
 sLog
 ;
 }
-#
-endif
 static
 void
 Driver_HandleXMLDeclaration
@@ -4752,18 +4747,6 @@ length
 =
 0
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
-|
-|
-defined
-(
-DEBUG
-)
 if
 (
 blocked
@@ -4933,8 +4916,6 @@ get
 )
 ;
 }
-#
-endif
 }
 else
 {

@@ -361,16 +361,11 @@ XPC_DESERIALIZATION_BUFFER_SIZE
 *
 8192
 )
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 gJSCLLog
 ;
-#
-endif
 #
 define
 LOG
@@ -962,9 +957,6 @@ singleton
 "
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -981,8 +973,6 @@ JSComponentLoader
 )
 ;
 }
-#
-endif
 sSelf
 =
 this

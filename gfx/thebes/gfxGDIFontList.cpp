@@ -2482,9 +2482,6 @@ this
 0
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_FONTLIST_ENABLED
@@ -2533,8 +2530,6 @@ get
 )
 ;
 }
-#
-endif
 ReleaseDC
 (
 nullptr

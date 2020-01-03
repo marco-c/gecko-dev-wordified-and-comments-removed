@@ -1942,9 +1942,6 @@ rc
 SEC_E_OK
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 rc
@@ -1981,8 +1978,6 @@ n
 )
 )
 ;
-#
-endif
 if
 (
 sspi_cbt

@@ -173,9 +173,6 @@ gfx
 printing
 "
 #
-ifdef
-PR_LOGGING
-#
 define
 LOG_FONTLIST
 (
@@ -230,8 +227,6 @@ eGfxLog_cmapdata
 \
 PR_LOG_DEBUG
 )
-#
-endif
 static
 const
 FcChar8
@@ -1836,9 +1831,6 @@ gfxCharacterMap
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 LOG_FONTLIST
 (
 (
@@ -1946,8 +1938,6 @@ eGfxLog_cmapdata
 )
 ;
 }
-#
-endif
 return
 rv
 ;
@@ -3448,9 +3438,6 @@ fullname
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 LOG_FONTLIST_ENABLED
@@ -3571,8 +3558,6 @@ get
 )
 ;
 }
-#
-endif
 }
 mFaceNamesInitialized
 =

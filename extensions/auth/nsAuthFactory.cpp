@@ -962,12 +962,6 @@ nullptr
 }
 }
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 PRLogModuleInfo
 *
 gNegotiateLog
@@ -991,14 +985,6 @@ return
 NS_OK
 ;
 }
-#
-else
-#
-define
-InitNegotiateAuth
-nullptr
-#
-endif
 static
 void
 DestroyNegotiateAuth

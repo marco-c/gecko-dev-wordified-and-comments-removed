@@ -120,9 +120,6 @@ supported
 -
 protocols
 "
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -140,16 +137,6 @@ sGIOLog
 PR_LOG_DEBUG
 args
 )
-#
-else
-#
-define
-LOG
-(
-args
-)
-#
-endif
 static
 nsresult
 MapGIOResult
@@ -3342,9 +3329,6 @@ Init
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 sGIOLog
 =
 PR_NewLogModule
@@ -3354,8 +3338,6 @@ gio
 "
 )
 ;
-#
-endif
 nsCOMPtr
 <
 nsIPrefBranch

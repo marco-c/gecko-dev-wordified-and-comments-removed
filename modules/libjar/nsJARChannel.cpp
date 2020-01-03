@@ -188,12 +188,6 @@ undef
 LOG
 #
 endif
-#
-if
-defined
-(
-PR_LOGGING
-)
 static
 PRLogModuleInfo
 *
@@ -201,8 +195,6 @@ gJarProtocolLog
 =
 nullptr
 ;
-#
-endif
 #
 define
 LOG
@@ -681,12 +673,6 @@ mEnsureChildFd
 false
 )
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 !
@@ -701,8 +687,6 @@ nsJarProtocol
 "
 )
 ;
-#
-endif
 NS_ADDREF
 (
 gJarHandler
@@ -894,12 +878,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-#
-if
-defined
-(
-PR_LOGGING
-)
 mJarURI
 -
 >
@@ -908,8 +886,6 @@ GetSpec
 mSpec
 )
 ;
-#
-endif
 return
 rv
 ;
@@ -4405,12 +4381,6 @@ uint32_t
 count
 )
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 LOG
 (
 (
@@ -4439,8 +4409,6 @@ get
 )
 )
 ;
-#
-endif
 nsresult
 rv
 ;
