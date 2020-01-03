@@ -737,6 +737,7 @@ UpdateRelevance
 (
 )
 ;
+virtual
 bool
 HasLowerCompositeOrderThan
 (

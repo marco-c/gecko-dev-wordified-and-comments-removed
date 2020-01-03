@@ -469,6 +469,17 @@ mIsStylePaused
 ;
 }
 bool
+HasLowerCompositeOrderThan
+(
+const
+Animation
+&
+aOther
+)
+const
+override
+;
+bool
 IsUsingCustomCompositeOrder
 (
 )
