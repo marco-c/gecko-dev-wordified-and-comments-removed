@@ -204,7 +204,13 @@ mOldWorldTransform
 POINT
 mOrigViewportOrigin
 ;
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 mTempSurfaceSize
 ;
 }

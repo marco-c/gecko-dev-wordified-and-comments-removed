@@ -42,7 +42,13 @@ private
 gfxSharedImageSurface
 (
 const
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 &
 aSize
 long

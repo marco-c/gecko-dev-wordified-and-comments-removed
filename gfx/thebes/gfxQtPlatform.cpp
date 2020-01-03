@@ -475,15 +475,7 @@ newSurface
 new
 gfxImageSurface
 (
-gfxIntSize
-(
 size
-.
-width
-size
-.
-height
-)
 imageFormat
 )
 ;

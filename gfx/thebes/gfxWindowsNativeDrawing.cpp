@@ -503,7 +503,7 @@ gfxSize
 ;
 mTempSurfaceSize
 =
-gfxIntSize
+IntSize
 (
 (
 int32_t
@@ -601,7 +601,7 @@ eDy
 ;
 mTempSurfaceSize
 =
-gfxIntSize
+IntSize
 (
 (
 int32_t

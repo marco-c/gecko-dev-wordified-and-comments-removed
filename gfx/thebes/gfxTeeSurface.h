@@ -61,7 +61,13 @@ aSurfaceCount
 ;
 virtual
 const
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 GetSize
 (
 )

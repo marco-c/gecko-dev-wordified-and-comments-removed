@@ -126,11 +126,11 @@ gfxRect
 &
 aRect
 const
-gfxIntSize
+IntSize
 &
 aSpreadRadius
 const
-gfxIntSize
+IntSize
 &
 aBlurRadius
 const
@@ -796,7 +796,7 @@ dirtyRect
 )
 ;
 }
-gfxIntSize
+IntSize
 gfxAlphaBoxBlur
 :
 :
@@ -843,7 +843,7 @@ std
 )
 ;
 return
-gfxIntSize
+IntSize
 (
 size
 .
@@ -882,7 +882,7 @@ true
 gfxRect
 mRect
 ;
-gfxIntSize
+IntSize
 mBlurRadius
 ;
 gfxRect
@@ -898,7 +898,7 @@ gfxRect
 &
 aRect
 const
-gfxIntSize
+IntSize
 &
 aBlurRadius
 const
@@ -1294,7 +1294,7 @@ gfxRect
 &
 aRect
 const
-gfxIntSize
+IntSize
 &
 aBlurRadius
 const
@@ -1443,7 +1443,7 @@ gfxRect
 &
 aRect
 const
-gfxIntSize
+IntSize
 &
 aBlurRadius
 const
@@ -1530,7 +1530,7 @@ gfxRect
 &
 aRect
 const
-gfxIntSize
+IntSize
 &
 aBlurRadius
 const
@@ -1704,7 +1704,7 @@ GetDrawTarget
 (
 )
 ;
-gfxIntSize
+IntSize
 blurRadius
 =
 CalculateBlurRadius
@@ -1751,7 +1751,7 @@ blur
 Init
 (
 aRect
-gfxIntSize
+IntSize
 (
 )
 blurRadius

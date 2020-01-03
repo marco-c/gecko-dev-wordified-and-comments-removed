@@ -90,7 +90,7 @@ SourceSurface
 *
 aSurface
 const
-gfxIntSize
+IntSize
 aSize
 const
 gfxMatrix
@@ -485,7 +485,7 @@ gfxDrawingCallback
 *
 aCallback
 const
-gfxIntSize
+IntSize
 aSize
 )
 :
@@ -734,7 +734,7 @@ gfxPattern
 *
 aPattern
 const
-gfxIntSize
+IntSize
 aSize
 )
 :

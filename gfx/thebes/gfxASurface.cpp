@@ -599,7 +599,7 @@ cairo_surface_t
 *
 csurf
 const
-gfxIntSize
+IntSize
 &
 aSize
 )

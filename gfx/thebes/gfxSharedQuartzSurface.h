@@ -49,7 +49,13 @@ private
 gfxSharedQuartzSurface
 (
 const
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 &
 aSize
 long
