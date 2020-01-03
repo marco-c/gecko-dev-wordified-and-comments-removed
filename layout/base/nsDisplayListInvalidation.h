@@ -472,6 +472,11 @@ nsDisplayBackgroundGeometry
 :
 public
 nsDisplayItemGeometry
+public
+nsImageGeometryMixin
+<
+nsDisplayBackgroundGeometry
+>
 {
 public
 :

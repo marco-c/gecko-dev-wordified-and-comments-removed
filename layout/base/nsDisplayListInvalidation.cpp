@@ -257,6 +257,11 @@ nsDisplayItemGeometry
 aItem
 aBuilder
 )
+nsImageGeometryMixin
+(
+aItem
+aBuilder
+)
 mPositioningArea
 (
 aItem
