@@ -115,6 +115,11 @@ return
 mSize
 ;
 }
+void
+BindRenderTarget
+(
+)
+;
 virtual
 gfx
 :
@@ -328,6 +333,13 @@ BasicCompositingRenderTarget
 >
 (
 aSource
+)
+;
+mRenderTarget
+-
+>
+BindRenderTarget
+(
 )
 ;
 }
