@@ -1705,7 +1705,7 @@ gfx
 :
 :
 Rect
-mRenderBoundsOut
+mRenderBound
 ;
 CompositorOGLVRObjects
 mVR
