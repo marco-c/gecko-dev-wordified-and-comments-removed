@@ -1911,6 +1911,8 @@ nsAString
 &
 aUri
 float
+aVolume
+float
 aRate
 float
 aPitch

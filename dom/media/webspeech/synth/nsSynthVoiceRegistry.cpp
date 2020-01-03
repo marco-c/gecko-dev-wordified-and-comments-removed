@@ -2564,6 +2564,11 @@ lang
 uri
 aUtterance
 .
+Volume
+(
+)
+aUtterance
+.
 Rate
 (
 )
@@ -2602,6 +2607,10 @@ const
 nsAString
 &
 aUri
+const
+float
+&
+aVolume
 const
 float
 &
@@ -2852,6 +2861,7 @@ voice
 -
 >
 mUri
+aVolume
 aRate
 aPitch
 aTask

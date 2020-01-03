@@ -238,6 +238,7 @@ Speak
 aText
 aLang
 aUri
+aVolume
 aRate
 aPitch
 actor

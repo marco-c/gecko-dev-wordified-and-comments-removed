@@ -185,6 +185,7 @@ speak
 (
 aText
 aUri
+aVolume
 aRate
 aPitch
 aTask
@@ -328,6 +329,7 @@ speak
 (
 aText
 aUri
+aVolume
 aRate
 aPitch
 aTask
