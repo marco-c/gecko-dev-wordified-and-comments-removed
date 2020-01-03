@@ -422,13 +422,16 @@ IsOwningThreadCurrent
 return
 ;
 }
+if
+(
 mGLContext
 -
 >
 MakeCurrent
 (
 )
-;
+)
+{
 mGLContext
 -
 >
@@ -439,6 +442,7 @@ fDeleteTextures
 mTexture
 )
 ;
+}
 ReleaseTexImage
 (
 )
