@@ -164,13 +164,13 @@ conversationViews
 CallIdentifierView
 ;
 var
-EmptyRoomView
+DesktopRoomView
 =
 loop
 .
 roomViews
 .
-EmptyRoomView
+DesktopRoomView
 ;
 var
 IncomingCallView
@@ -3817,7 +3817,7 @@ room
 return
 (
 <
-EmptyRoomView
+DesktopRoomView
 mozLoop
 =
 {

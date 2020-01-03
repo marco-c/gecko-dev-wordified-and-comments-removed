@@ -1029,7 +1029,7 @@ it
 should
 display
 the
-EmptyRoomView
+RoomView
 for
 rooms
 "
@@ -1065,7 +1065,7 @@ loop
 .
 roomViews
 .
-EmptyRoomView
+DesktopRoomView
 )
 ;
 }
