@@ -260,6 +260,15 @@ fuzzy
 64
 4
 )
+skip
+-
+if
+(
+asyncPanZoom
+&
+&
+winWidget
+)
 needs
 -
 focus

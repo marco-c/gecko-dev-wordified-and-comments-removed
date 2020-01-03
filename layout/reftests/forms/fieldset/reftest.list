@@ -172,6 +172,15 @@ layersGPUAccelerated
 102
 205
 )
+skip
+-
+if
+(
+asyncPanZoom
+&
+&
+winWidget
+)
 =
 =
 positioned

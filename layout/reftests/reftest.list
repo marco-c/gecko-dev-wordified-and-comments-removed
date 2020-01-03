@@ -146,6 +146,15 @@ relative
 reftest
 .
 list
+skip
+-
+if
+(
+asyncPanZoom
+&
+&
+winWidget
+)
 include
 async
 -

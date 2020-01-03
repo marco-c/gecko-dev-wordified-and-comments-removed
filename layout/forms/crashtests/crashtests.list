@@ -299,6 +299,15 @@ if
 (
 B2G
 )
+skip
+-
+if
+(
+asyncPanZoom
+&
+&
+winWidget
+)
 load
 498698
 -

@@ -252,6 +252,15 @@ multiple
 ref
 .
 html
+skip
+-
+if
+(
+asyncPanZoom
+&
+&
+winWidget
+)
 needs
 -
 focus
