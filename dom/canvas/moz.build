@@ -386,6 +386,11 @@ WebGL2ContextVAOs
 cpp
 '
 '
+WebGL2ContextVertices
+.
+cpp
+'
+'
 WebGLActiveInfo
 .
 cpp
