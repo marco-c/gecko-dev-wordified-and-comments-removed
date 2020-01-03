@@ -661,7 +661,9 @@ mDatabaseHelper
 new
 DatabaseHelper
 (
-mActivity
+getActivity
+(
+)
 mAsserter
 )
 ;
@@ -3979,7 +3981,9 @@ RobocopUtils
 .
 runOnUiThreadSync
 (
-mActivity
+getActivity
+(
+)
 runnable
 )
 ;
