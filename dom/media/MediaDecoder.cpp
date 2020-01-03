@@ -573,13 +573,6 @@ InitStatics
 (
 )
 ;
-SharedThreadPool
-:
-:
-InitStatics
-(
-)
-;
 gMediaDecoderLog
 =
 PR_NewLogModule
