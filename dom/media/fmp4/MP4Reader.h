@@ -975,7 +975,7 @@ bool
 mIndexReady
 ;
 Monitor
-mIndexMonitor
+mDemuxerMonitor
 ;
 nsRefPtr
 <
