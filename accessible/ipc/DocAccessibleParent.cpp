@@ -164,7 +164,10 @@ return
 true
 ;
 }
+DebugOnly
+<
 uint32_t
+>
 consumed
 =
 AddSubtree
