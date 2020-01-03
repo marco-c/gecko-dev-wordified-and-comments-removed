@@ -2409,6 +2409,17 @@ start
 )
 :
         
+if
+not
+'
+#
+'
+in
+line
+:
+            
+continue
+        
 m
 =
 re
@@ -3075,18 +3086,6 @@ quote
 )
 )
     
-skip_order_checking
-=
-inclname
-.
-startswith
-(
-'
-assembler
-/
-'
-)
-    
 def
 pair_traverse
 (
@@ -3119,9 +3118,6 @@ prev
 isLeaf
 (
 )
-and
-not
-skip_order_checking
 :
                 
 check_includes_order
