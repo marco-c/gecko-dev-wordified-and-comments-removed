@@ -1388,8 +1388,8 @@ false
 )
 ;
 #
-ifdef
-MOZ_DEV_EDITION
+ifndef
+RELEASE_BUILD
 pref
 (
 "
