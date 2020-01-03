@@ -934,14 +934,37 @@ split
 message
 )
     
-if
+try_idx
+=
+None
+    
+for
+idx
+part
+in
+enumerate
+(
 parts
-[
-0
-]
-!
+)
+:
+        
+if
+part
+=
 =
 TRY_DELIMITER
+:
+            
+try_idx
+=
+idx
+            
+break
+    
+if
+try_idx
+is
+None
 :
         
 raise
@@ -951,9 +974,7 @@ InvalidCommitException
 Invalid
 commit
 format
-must
-start
-with
+contain
 '
 +
                 
@@ -1052,7 +1073,7 @@ parse_known_args
 (
 parts
 [
-1
+try_idx
 :
 ]
 )
