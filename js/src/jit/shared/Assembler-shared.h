@@ -108,6 +108,14 @@ js
 namespace
 jit
 {
+namespace
+Disassembler
+{
+class
+HeapAccess
+;
+}
+;
 static
 const
 uint32_t
