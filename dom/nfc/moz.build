@@ -126,6 +126,11 @@ NfcContentHelper
 js
 '
 '
+NfcContentHelper
+.
+manifest
+'
+'
 nsNfc
 .
 js
