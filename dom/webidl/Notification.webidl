@@ -457,6 +457,9 @@ partial
 interface
 ServiceWorkerRegistration
 {
+[
+Throws
+]
 Promise
 <
 void
@@ -470,6 +473,9 @@ NotificationOptions
 options
 )
 ;
+[
+Throws
+]
 Promise
 <
 sequence
