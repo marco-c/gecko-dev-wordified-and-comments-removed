@@ -266,6 +266,9 @@ nsFilterInstance
 nsIFrame
 *
 aTargetFrame
+nsIContent
+*
+aTargetContent
 const
 UserSpaceMetrics
 &
@@ -508,6 +511,10 @@ const
 nsIFrame
 *
 mTargetFrame
+;
+nsIContent
+*
+mTargetContent
 ;
 const
 UserSpaceMetrics
