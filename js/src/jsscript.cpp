@@ -21100,7 +21100,7 @@ compartment
 )
 -
 >
-scheduleDelazificationForDebugMode
+scheduleDelazificationForDebugger
 (
 )
 ;

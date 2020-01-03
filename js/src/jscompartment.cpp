@@ -3836,7 +3836,7 @@ bool
 JSCompartment
 :
 :
-ensureDelazifyScriptsForDebugMode
+ensureDelazifyScriptsForDebugger
 (
 JSContext
 *
@@ -3858,10 +3858,8 @@ this
 ;
 if
 (
+needsDelazificationForDebugger
 (
-debugModeBits
-&
-DebugNeedDelazification
 )
 &
 &
@@ -3878,7 +3876,7 @@ debugModeBits
 &
 =
 ~
-DebugNeedDelazification
+DebugNeedsDelazification
 ;
 return
 true
