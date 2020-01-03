@@ -438,15 +438,6 @@ double
 aEnd
 )
 ;
-void
-DoRangeRemoval
-(
-double
-aStart
-double
-aEnd
-)
-;
 bool
 IsActive
 (
@@ -491,10 +482,6 @@ SourceBuffer
 friend
 class
 BufferAppendRunnable
-;
-friend
-class
-RangeRemovalRunnable
 ;
 void
 DispatchSimpleEvent

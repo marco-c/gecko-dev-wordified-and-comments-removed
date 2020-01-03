@@ -163,7 +163,10 @@ aTime
 )
 override
 ;
-bool
+nsRefPtr
+<
+RangeRemovalPromise
+>
 RangeRemoval
 (
 TimeUnit

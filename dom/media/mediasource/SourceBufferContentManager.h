@@ -80,6 +80,10 @@ true
 >
 AppendPromise
 ;
+typedef
+AppendPromise
+RangeRemovalPromise
+;
 static
 already_AddRefed
 <
@@ -137,7 +141,10 @@ ResetParserState
 0
 ;
 virtual
-bool
+nsRefPtr
+<
+RangeRemovalPromise
+>
 RangeRemoval
 (
 TimeUnit
