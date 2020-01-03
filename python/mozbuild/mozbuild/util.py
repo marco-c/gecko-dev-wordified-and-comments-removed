@@ -35,9 +35,14 @@ defaultdict
 OrderedDict
 )
 from
-StringIO
+io
 import
+(
+    
 StringIO
+    
+BytesIO
+)
 if
 sys
 .
@@ -525,7 +530,7 @@ raise
 class
 FileAvoidWrite
 (
-StringIO
+BytesIO
 )
 :
     
@@ -663,7 +668,7 @@ rU
 )
 :
         
-StringIO
+BytesIO
 .
 __init__
 (
@@ -693,6 +698,43 @@ self
 mode
 =
 mode
+    
+def
+write
+(
+self
+buf
+)
+:
+        
+if
+isinstance
+(
+buf
+unicode
+)
+:
+            
+buf
+=
+buf
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
+        
+BytesIO
+.
+write
+(
+self
+buf
+)
     
 def
 close
@@ -775,7 +817,7 @@ getvalue
 (
 )
         
-StringIO
+BytesIO
 .
 close
 (
