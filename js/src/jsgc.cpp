@@ -16599,7 +16599,7 @@ rt
 ;
 backgroundSweepZones
 .
-append
+transferFrom
 (
 zones
 )
@@ -21570,6 +21570,7 @@ nextNodeInGroup
 (
 )
 )
+{
 MOZ_ASSERT
 (
 zone
@@ -21580,6 +21581,18 @@ isGCMarking
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+zone
+-
+>
+isQueuedForBackgroundSweep
+(
+)
+)
+;
+}
 if
 (
 !
