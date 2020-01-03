@@ -196,6 +196,11 @@ nsProfilerFactory
 cpp
 '
 '
+nsProfilerStartParams
+.
+cpp
+'
+'
 platform
 .
 cpp
