@@ -186,6 +186,11 @@ TrackBuffer
 .
 cpp
 '
+'
+TrackBuffersManager
+.
+cpp
+'
 ]
 FAIL_ON_WARNINGS
 =
