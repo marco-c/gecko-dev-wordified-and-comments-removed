@@ -9362,6 +9362,11 @@ BlendModeSet
 )
 )
 ;
+nsRect
+dirtyRectOutsideTransform
+=
+dirtyRect
+;
 if
 (
 isTransformed
@@ -9485,6 +9490,11 @@ UsingEffectsForFrame
 (
 this
 )
+;
+nsRect
+dirtyRectOutsideSVGEffects
+=
+dirtyRect
 ;
 if
 (
@@ -10030,6 +10040,13 @@ if
 usingSVGEffects
 )
 {
+buildingDisplayList
+.
+SetDirtyRect
+(
+dirtyRectOutsideSVGEffects
+)
+;
 resultList
 .
 AppendNewToTop
@@ -10126,7 +10143,7 @@ buildingDisplayList
 .
 SetDirtyRect
 (
-aDirtyRect
+dirtyRectOutsideTransform
 )
 ;
 const
