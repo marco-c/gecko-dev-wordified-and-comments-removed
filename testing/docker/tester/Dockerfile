@@ -13,7 +13,7 @@ test
 .
 0
 .
-1
+5
 MAINTAINER
 Jonas
 Finnemann
@@ -146,6 +146,17 @@ bin
 /
 buildbot_step
 RUN
+apt
+-
+get
+install
+-
+y
+python
+-
+pip
+&
+&
 pip
 install
 virtualenv
