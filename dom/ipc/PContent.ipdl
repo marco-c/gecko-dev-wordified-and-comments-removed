@@ -2823,6 +2823,8 @@ DomainPolicyClone
 domainPolicy
 OwningSerializedStructuredCloneBuffer
 initialData
+bool
+isSafeMode
 )
 ;
 sync
