@@ -743,7 +743,7 @@ input
 Label
 outOfRange
 ;
-cvttsd2si
+vcvttsd2si
 (
 input
 output
@@ -1175,7 +1175,7 @@ Label
 label
 )
 {
-movd
+vmovd
 (
 reg
 scratch

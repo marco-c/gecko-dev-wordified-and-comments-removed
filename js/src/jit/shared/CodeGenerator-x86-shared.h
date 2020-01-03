@@ -529,7 +529,7 @@ snapshot
 {
 masm
 .
-cvttsd2si
+vcvttsd2si
 (
 src
 dest
@@ -570,7 +570,7 @@ snapshot
 {
 masm
 .
-cvttss2si
+vcvttss2si
 (
 src
 dest
