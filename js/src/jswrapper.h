@@ -531,9 +531,9 @@ JSContext
 cx
 HandleObject
 wrapper
-bool
-*
-succeeded
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE
@@ -934,9 +934,9 @@ JSContext
 cx
 HandleObject
 wrapper
-bool
-*
-succeeded
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE

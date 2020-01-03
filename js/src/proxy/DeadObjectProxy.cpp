@@ -269,9 +269,9 @@ JSContext
 cx
 HandleObject
 proxy
-bool
-*
-succeeded
+ObjectOpResult
+&
+result
 )
 const
 {

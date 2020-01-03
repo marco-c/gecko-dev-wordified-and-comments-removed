@@ -153,9 +153,9 @@ JSContext
 cx
 HandleObject
 proxy
-bool
-*
-succeeded
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE

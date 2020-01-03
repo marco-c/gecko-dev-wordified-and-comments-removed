@@ -2537,9 +2537,12 @@ JSObject
 *
 >
 wrapper
-bool
-*
-succeeded
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE

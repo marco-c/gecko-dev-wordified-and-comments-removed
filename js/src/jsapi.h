@@ -9182,9 +9182,12 @@ JS
 :
 HandleObject
 obj
-bool
-*
-succeeded
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 ;
 extern
