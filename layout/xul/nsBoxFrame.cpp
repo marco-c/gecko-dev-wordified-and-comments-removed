@@ -5773,7 +5773,7 @@ NS_THEME_WIN_EXCLUDE_GLASS
 aBuilder
 -
 >
-AddWindowOpaqueRegion
+AddWindowExcludeGlassRegion
 (
 nsRect
 (
