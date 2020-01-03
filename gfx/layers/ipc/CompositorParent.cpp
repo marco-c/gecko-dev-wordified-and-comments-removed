@@ -5590,9 +5590,6 @@ if
 profiler_is_active
 (
 )
-&
-&
-sCompositorThreadHolder
 )
 {
 CompositorLoop
