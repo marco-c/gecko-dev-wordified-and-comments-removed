@@ -18884,6 +18884,9 @@ nsXREAppData
 aAppData
 )
 {
+ScopedLogging
+log
+;
 char
 aLocal
 ;
@@ -18986,9 +18989,6 @@ name
 gAppData
 =
 mAppData
-;
-ScopedLogging
-log
 ;
 mozilla
 :

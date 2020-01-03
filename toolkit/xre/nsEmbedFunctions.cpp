@@ -1551,6 +1551,10 @@ stdin
 }
 #
 endif
+NS_LogInit
+(
+)
+;
 char
 aLocal
 ;
@@ -2234,10 +2238,6 @@ exitManager
 ;
 NotificationService
 notificationService
-;
-NS_LogInit
-(
-)
 ;
 nsresult
 rv
