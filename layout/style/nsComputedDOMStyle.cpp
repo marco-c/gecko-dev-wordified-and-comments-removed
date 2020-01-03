@@ -14338,7 +14338,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-StyleText
+StyleVisibility
 (
 )
 -

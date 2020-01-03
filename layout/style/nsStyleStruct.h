@@ -6145,9 +6145,6 @@ uint8_t
 mTextSizeAdjust
 ;
 uint8_t
-mTextOrientation
-;
-uint8_t
 mTextCombineUpright
 ;
 uint8_t
@@ -6991,6 +6988,9 @@ mPointerEvents
 ;
 uint8_t
 mWritingMode
+;
+uint8_t
+mTextOrientation
 ;
 bool
 IsVisible

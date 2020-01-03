@@ -729,7 +729,7 @@ textOrientation
 aStyleContext
 -
 >
-StyleText
+StyleVisibility
 (
 )
 -
@@ -787,7 +787,7 @@ textOrientation
 aStyleContext
 -
 >
-StyleText
+StyleVisibility
 (
 )
 -
