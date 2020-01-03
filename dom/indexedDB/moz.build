@@ -400,6 +400,11 @@ ReportInternalError
 .
 cpp
 '
+'
+TransactionThreadPool
+.
+cpp
+'
 ]
 SOURCES
 +
