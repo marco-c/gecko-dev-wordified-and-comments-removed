@@ -199,9 +199,12 @@ kGMPLicenseRenewal
 kGMPLicenseRelease
 =
 2
-kGMPMessageInvalid
+kGMPIndividualizationRequest
 =
 3
+kGMPMessageInvalid
+=
+4
 }
 ;
 typedef
@@ -533,7 +536,7 @@ eme
 -
 decrypt
 -
-v3
+v4
 "
 class
 GMPDecryptor
