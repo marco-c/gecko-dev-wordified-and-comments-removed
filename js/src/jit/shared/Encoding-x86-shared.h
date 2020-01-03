@@ -478,6 +478,9 @@ OP2_PCMPGTD_VdqWdq
 OP2_MOVD_VdEd
 =
 0x6E
+OP2_MOVQ_VdEd
+=
+0x6E
 OP2_MOVDQ_VsdWsd
 =
 0x6F
@@ -506,6 +509,9 @@ OP2_PCMPEQD_VdqWdq
 =
 0x76
 OP2_MOVD_EdVd
+=
+0x7E
+OP2_MOVQ_EdVd
 =
 0x7E
 OP2_MOVDQ_WdqVdq

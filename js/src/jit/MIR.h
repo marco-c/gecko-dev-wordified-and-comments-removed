@@ -50744,6 +50744,17 @@ numSimdElems
 )
 const
 {
+MOZ_ASSERT
+(
+Scalar
+:
+:
+isSimdType
+(
+accessType_
+)
+)
+;
 return
 numSimdElems_
 ;
