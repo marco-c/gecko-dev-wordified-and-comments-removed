@@ -1082,12 +1082,11 @@ nsTableFrame
 *
 table
 =
-nsTableFrame
-:
-:
+aFrame
+-
+>
 GetTableFrame
 (
-aFrame
 )
 ;
 aFrame

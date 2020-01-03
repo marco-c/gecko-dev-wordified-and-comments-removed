@@ -628,12 +628,8 @@ nsTableFrame
 *
 tableFrame
 =
-nsTableFrame
-:
-:
 GetTableFrame
 (
-this
 )
 ;
 if
