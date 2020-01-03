@@ -2289,6 +2289,17 @@ return
 NS_ERROR_FAILURE
 ;
 }
+if
+(
+isTurns
+|
+|
+isStuns
+)
+{
+continue
+;
+}
 nsAutoCString
 spec
 ;
