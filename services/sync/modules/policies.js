@@ -3925,6 +3925,7 @@ this
 .
 shouldReportError
 (
+topic
 )
 )
 {
@@ -4029,6 +4030,7 @@ this
 .
 shouldReportError
 (
+topic
 )
 )
 {
@@ -4202,6 +4204,7 @@ this
 .
 shouldReportError
 (
+topic
 )
 )
 {
@@ -5201,6 +5204,10 @@ shouldReportError
 function
 shouldReportError
 (
+topic
+=
+"
+"
 )
 {
 if
@@ -5377,6 +5384,20 @@ true
 }
 if
 (
+topic
+!
+=
+"
+weave
+:
+service
+:
+login
+:
+error
+"
+&
+&
 !
 this
 .
