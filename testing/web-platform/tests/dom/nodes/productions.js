@@ -3,6 +3,13 @@ invalid_names
 =
 [
 "
+"
+"
+invalid
+^
+Name
+"
+"
 \
 \
 "

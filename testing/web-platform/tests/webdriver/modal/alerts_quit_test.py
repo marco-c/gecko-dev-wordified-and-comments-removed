@@ -36,6 +36,11 @@ __file__
 )
 import
 base_test
+from
+webdriver
+import
+exceptions
+wait
 class
 AlertsQuitTest
 (
@@ -108,9 +113,10 @@ self
 .
 driver
 .
-find_element_by_id
+find_element_by_css
 (
 '
+#
 alert
 '
 )

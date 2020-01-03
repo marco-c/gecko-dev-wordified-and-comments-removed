@@ -112,9 +112,7 @@ plain
     
 response
 .
-writer
-.
-flush
+write_status_headers
 (
 )
     

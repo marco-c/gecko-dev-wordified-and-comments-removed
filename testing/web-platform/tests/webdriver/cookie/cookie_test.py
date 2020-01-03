@@ -36,6 +36,10 @@ __file__
 )
 import
 base_test
+from
+webdriver
+import
+exceptions
 class
 CookieTest
 (
@@ -315,6 +319,8 @@ exceptions
 )
         
 except
+exceptions
+.
 UnableToSetCookieException
 :
             
