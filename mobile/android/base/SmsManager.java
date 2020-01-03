@@ -116,8 +116,14 @@ String
 aNumbers
 int
 aNumbersCount
-int
-aDeliveryState
+String
+aDelivery
+boolean
+aHasRead
+boolean
+aRead
+long
+aThreadId
 boolean
 aReverse
 int
