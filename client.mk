@@ -3024,6 +3024,8 @@ mozconfig
 (
 FOUND_MOZCONFIG
 )
+ifdef
+FOUND_MOZCONFIG
 -
 cp
 (
@@ -3035,6 +3037,7 @@ OBJDIR
 /
 .
 mozconfig
+endif
 configure
 :
 :
