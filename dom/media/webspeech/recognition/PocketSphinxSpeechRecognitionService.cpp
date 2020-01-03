@@ -592,9 +592,7 @@ NS_LITERAL_STRING
 "
 en
 -
-us
--
-semi
+US
 "
 )
 )
@@ -672,7 +670,9 @@ AppendRelativePath
 NS_LITERAL_STRING
 (
 "
-cmu07a
+en
+-
+US
 .
 dic
 "
