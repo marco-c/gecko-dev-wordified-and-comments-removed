@@ -583,10 +583,6 @@ const
 nsAString
 &
 aUrl
-const
-nsAString
-&
-aCrossOrigin
 )
 {
 NS_PRECONDITION
@@ -615,13 +611,6 @@ mUrl
 Assign
 (
 aUrl
-)
-;
-mCrossOrigin
-.
-Assign
-(
-aCrossOrigin
 )
 ;
 }

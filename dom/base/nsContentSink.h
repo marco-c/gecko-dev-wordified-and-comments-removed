@@ -476,10 +476,6 @@ const
 nsSubstring
 &
 aMedia
-const
-nsSubstring
-&
-aCrossOrigin
 )
 ;
 virtual
@@ -600,10 +596,6 @@ const
 nsAString
 &
 aHref
-const
-nsAString
-&
-aCrossOrigin
 )
 ;
 protected
