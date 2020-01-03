@@ -654,7 +654,11 @@ mUpdateScheduled
 (
 false
 )
-mEOS
+mDemuxEOS
+(
+false
+)
+mDrainComplete
 (
 false
 )
@@ -722,7 +726,10 @@ bool
 mUpdateScheduled
 ;
 bool
-mEOS
+mDemuxEOS
+;
+bool
+mDrainComplete
 ;
 bool
 mDiscontinuity
