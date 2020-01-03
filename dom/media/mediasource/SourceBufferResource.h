@@ -718,6 +718,9 @@ uint64_t
 aPlaybackOffset
 uint32_t
 aThreshold
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -725,6 +728,9 @@ EvictBefore
 (
 uint64_t
 aOffset
+ErrorResult
+&
+aRv
 )
 ;
 uint32_t
