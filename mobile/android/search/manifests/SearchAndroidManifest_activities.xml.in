@@ -16,6 +16,15 @@ singleTop
 "
 android
 :
+taskAffinity
+=
+"
+ANDROID_PACKAGE_NAME
+.
+SEARCH
+"
+android
+:
 icon
 =
 "
