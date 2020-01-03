@@ -1125,6 +1125,11 @@ int
 aHeight
 )
 ;
+void
+ComputeTileSize
+(
+)
+;
 virtual
 nsresult
 UpdateFontList
