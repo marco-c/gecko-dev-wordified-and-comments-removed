@@ -453,7 +453,7 @@ initialIntegrityLevel
 sandbox
 :
 :
-INTEGRITY_LEVEL_LAST
+INTEGRITY_LEVEL_MEDIUM
 ;
 delayedIntegrityLevel
 =
