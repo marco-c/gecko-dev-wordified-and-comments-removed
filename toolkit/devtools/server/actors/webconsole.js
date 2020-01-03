@@ -520,9 +520,6 @@ customNetworkRequest
 this
 .
 _parentIsContentActor
-transferredResponseSize
-:
-true
 evaluateJSAsync
 :
 true
@@ -6351,11 +6348,6 @@ aContent
 text
 .
 length
-transferredSize
-:
-aContent
-.
-transferredSize
 discardResponseBody
 :
 aDiscardedResponseBody
