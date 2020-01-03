@@ -118,7 +118,7 @@ nsIMemory
 ;
 DECL_CLASS
 (
-nsIDebug
+nsIDebug2
 )
 ;
 #
@@ -577,7 +577,7 @@ nsresult
 )
 NS_GetDebug
 (
-nsIDebug
+nsIDebug2
 *
 *
 aResult

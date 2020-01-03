@@ -1621,7 +1621,7 @@ kXPCOMContracts
 }
 ;
 static
-nsIDebug
+nsIDebug2
 *
 gDebug
 =
@@ -1633,7 +1633,7 @@ nsresult
 )
 NS_GetDebug
 (
-nsIDebug
+nsIDebug2
 *
 *
 aResult
@@ -1648,7 +1648,7 @@ Create
 nullptr
 NS_GET_IID
 (
-nsIDebug
+nsIDebug2
 )
 (
 void

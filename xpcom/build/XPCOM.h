@@ -266,7 +266,7 @@ h
 #
 include
 "
-nsIDebug
+nsIDebug2
 .
 h
 "
@@ -603,13 +603,6 @@ h
 include
 "
 nsIConverterOutputStream
-.
-h
-"
-#
-include
-"
-nsIDebug2
 .
 h
 "

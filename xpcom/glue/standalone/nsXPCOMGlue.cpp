@@ -2025,7 +2025,7 @@ nsresult
 )
 NS_GetDebug
 (
-nsIDebug
+nsIDebug2
 *
 *
 aResult

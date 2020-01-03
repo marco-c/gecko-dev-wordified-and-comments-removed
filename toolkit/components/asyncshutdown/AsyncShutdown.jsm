@@ -153,7 +153,7 @@ debug
 1
 "
 "
-nsIDebug
+nsIDebug2
 "
 )
 ;
