@@ -10838,15 +10838,11 @@ CM_printFrame
 {
 PrintUtils
 .
-print
+printWindow
 (
 this
 .
-target
-.
-ownerDocument
-.
-defaultView
+frameOuterWindowID
 this
 .
 browser
