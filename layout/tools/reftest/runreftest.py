@@ -14,6 +14,10 @@ from
 optparse
 import
 OptionParser
+from
+urlparse
+import
+urlparse
 import
 collections
 import
@@ -80,8 +84,6 @@ addCommonOptions
 dumpScreen
     
 environment
-    
-isURL
     
 processLeakLog
 )
@@ -6073,13 +6075,19 @@ options
 .
 symbolsPath
 and
-not
-isURL
+len
+(
+urlparse
 (
 options
 .
 symbolsPath
 )
+.
+scheme
+)
+<
+2
 :
     
 options

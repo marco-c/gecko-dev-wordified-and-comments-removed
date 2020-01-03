@@ -1,3 +1,7 @@
+from
+urlparse
+import
+urlparse
 import
 mozinfo
 import
@@ -12,7 +16,6 @@ from
 automationutils
 import
 addCommonOptions
-isURL
 from
 mozprofile
 import
@@ -4426,13 +4429,19 @@ options
 .
 symbolsPath
 and
-not
-isURL
+len
+(
+urlparse
 (
 options
 .
 symbolsPath
 )
+.
+scheme
+)
+<
+2
 :
             
 options
