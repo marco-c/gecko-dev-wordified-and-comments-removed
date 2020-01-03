@@ -343,10 +343,6 @@ mAsserter
 ;
 mBaseHostnameUrl
 =
-(
-(
-String
-)
 mConfig
 .
 get
@@ -354,7 +350,6 @@ get
 "
 host
 "
-)
 )
 .
 replaceAll
@@ -370,10 +365,6 @@ replaceAll
 ;
 mBaseIpUrl
 =
-(
-(
-String
-)
 mConfig
 .
 get
@@ -381,7 +372,6 @@ get
 "
 rawhost
 "
-)
 )
 .
 replaceAll
@@ -688,6 +678,7 @@ null
 ;
 }
 }
+Override
 protected
 Type
 getTestType
@@ -800,9 +791,6 @@ final
 String
 profile
 =
-(
-String
-)
 config
 .
 get
@@ -835,9 +823,6 @@ final
 String
 envString
 =
-(
-String
-)
 config
 .
 get

@@ -342,9 +342,6 @@ configFile
 ;
 mLogFile
 =
-(
-String
-)
 mConfig
 .
 get
@@ -395,8 +392,6 @@ mAsserter
 .
 setTestName
 (
-this
-.
 getClass
 (
 )
