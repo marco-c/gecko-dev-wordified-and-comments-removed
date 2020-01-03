@@ -167,6 +167,11 @@ Presentation
 h
 '
 '
+PresentationCallbacks
+.
+h
+'
+'
 PresentationDeviceManager
 .
 h
@@ -218,6 +223,11 @@ Presentation
 cpp
 '
 '
+PresentationCallbacks
+.
+cpp
+'
+'
 PresentationDeviceManager
 .
 cpp
@@ -229,6 +239,11 @@ cpp
 '
 '
 PresentationSession
+.
+cpp
+'
+'
+PresentationSessionInfo
 .
 cpp
 '

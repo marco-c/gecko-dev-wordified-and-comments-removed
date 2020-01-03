@@ -13,6 +13,13 @@ DOMEventTargetHelper
 .
 h
 "
+#
+include
+"
+nsIPresentationListener
+.
+h
+"
 namespace
 mozilla
 {
@@ -31,6 +38,8 @@ final
 :
 public
 DOMEventTargetHelper
+public
+nsIPresentationListener
 {
 public
 :
@@ -40,6 +49,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 Presentation
 DOMEventTargetHelper
 )
+NS_DECL_NSIPRESENTATIONLISTENER
 static
 already_AddRefed
 <

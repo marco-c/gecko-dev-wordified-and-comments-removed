@@ -138,6 +138,11 @@ nsIPresentationSessionRequest
 idl
 '
 '
+nsIPresentationSessionTransport
+.
+idl
+'
+'
 nsITCPPresentationServer
 .
 idl
