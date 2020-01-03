@@ -276,6 +276,12 @@ FORMAT_RB_SWAP
 <
 <
 2
+OPAQUE
+=
+1
+<
+<
+3
 MOZ_END_ENUM_CLASS
 (
 LayerRenderStateFlags
