@@ -5652,6 +5652,11 @@ runner
 .
 check_for_crashes
 (
+test_name
+=
+self
+.
+test_name
 )
 :
                 
@@ -5686,8 +5691,16 @@ self
 .
 instance
 .
+runner
+.
 check_for_crashes
 (
+                    
+test_name
+=
+self
+.
+test_name
 )
 :
                 

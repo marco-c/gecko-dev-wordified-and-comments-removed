@@ -916,8 +916,19 @@ def
 check_for_crashes
 (
 self
+test_name
+=
+None
 )
 :
+        
+test_name
+=
+test_name
+or
+self
+.
+last_test
         
 dump_dir
 =
@@ -935,16 +946,14 @@ BaseRunner
 .
 check_for_crashes
 (
+            
 self
 dump_directory
 =
 dump_dir
-                                               
 test_name
 =
-self
-.
-last_test
+test_name
 )
         
 mozfile
