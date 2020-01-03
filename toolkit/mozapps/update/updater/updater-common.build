@@ -294,7 +294,7 @@ OS_LIBS
 CONFIG
 [
 '
-nspr
+NSPR_LIBS
 '
 ]
 else
