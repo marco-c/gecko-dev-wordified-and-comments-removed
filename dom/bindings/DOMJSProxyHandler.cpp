@@ -1604,7 +1604,7 @@ bool
 BaseDOMProxyHandler
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *

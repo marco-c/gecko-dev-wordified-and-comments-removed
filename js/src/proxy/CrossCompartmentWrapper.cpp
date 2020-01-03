@@ -346,7 +346,7 @@ bool
 CrossCompartmentWrapper
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *
@@ -367,7 +367,7 @@ NOTHING
 Wrapper
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 cx
 wrapper

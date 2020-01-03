@@ -9003,7 +9003,7 @@ true
 ;
 }
 bool
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *

@@ -345,7 +345,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *
@@ -1216,7 +1216,7 @@ bool
 CPOWProxyHandler
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *
@@ -1231,7 +1231,7 @@ const
 {
 FORWARD
 (
-getOwnPropertyNames
+ownPropertyKeys
 (
 cx
 proxy
@@ -1244,7 +1244,7 @@ bool
 WrapperOwner
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *
@@ -1257,7 +1257,7 @@ props
 )
 {
 return
-getPropertyNames
+getPropertyKeys
 (
 cx
 proxy
@@ -1420,7 +1420,7 @@ props
 )
 {
 return
-getPropertyNames
+getPropertyKeys
 (
 cx
 proxy
@@ -2435,7 +2435,7 @@ props
 )
 {
 return
-getPropertyNames
+getPropertyKeys
 (
 cx
 proxy
@@ -3831,7 +3831,7 @@ bool
 WrapperOwner
 :
 :
-getPropertyNames
+getPropertyKeys
 (
 JSContext
 *

@@ -8103,7 +8103,7 @@ wrapper
 )
 ;
 return
-XrayEnumerateProperties
+XrayOwnPropertyKeys
 (
 cx
 wrapper
@@ -10376,7 +10376,7 @@ Traits
 >
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *

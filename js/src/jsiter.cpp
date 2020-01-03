@@ -1658,7 +1658,7 @@ if
 Proxy
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 cx
 pobj

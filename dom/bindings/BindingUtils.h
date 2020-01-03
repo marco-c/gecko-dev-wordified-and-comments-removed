@@ -10411,7 +10411,7 @@ defined
 )
 ;
 bool
-XrayEnumerateProperties
+XrayOwnPropertyKeys
 (
 JSContext
 *

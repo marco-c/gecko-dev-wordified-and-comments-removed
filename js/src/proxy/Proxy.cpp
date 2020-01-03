@@ -1022,7 +1022,7 @@ bool
 Proxy
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *
@@ -1106,7 +1106,7 @@ handler
 )
 -
 >
-getOwnPropertyNames
+ownPropertyKeys
 (
 cx
 proxy

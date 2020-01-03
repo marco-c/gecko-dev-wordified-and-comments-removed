@@ -2609,7 +2609,7 @@ bool
 ScriptedDirectProxyHandler
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *
@@ -2713,7 +2713,7 @@ return
 DirectProxyHandler
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 cx
 proxy

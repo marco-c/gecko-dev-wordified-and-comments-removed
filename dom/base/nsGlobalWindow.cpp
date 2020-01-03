@@ -3365,7 +3365,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *
@@ -4353,7 +4353,7 @@ bool
 nsOuterWindowProxy
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *
@@ -4409,7 +4409,7 @@ js
 Wrapper
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 cx
 proxy

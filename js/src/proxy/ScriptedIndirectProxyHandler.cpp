@@ -1066,7 +1066,7 @@ bool
 ScriptedIndirectProxyHandler
 :
 :
-getOwnPropertyNames
+ownPropertyKeys
 (
 JSContext
 *
