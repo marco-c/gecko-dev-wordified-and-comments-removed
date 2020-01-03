@@ -147097,7 +147097,7 @@ sCharProp2Values
 1
 -
 1
-3
+2
 }
 {
 5

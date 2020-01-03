@@ -308,7 +308,7 @@ UTR50
 currently
 revision
 -
-12
+13
 :
 #
 http
@@ -327,11 +327,11 @@ vertical
 /
 revision
 -
-12
+13
 /
 VerticalOrientation
 -
-12
+13
 .
 txt
 #
@@ -474,6 +474,7 @@ genUnicodePropertyData
 .
 pl
 \
+\
 #
 /
 path
@@ -483,6 +484,7 @@ to
 harfbuzz
 /
 src
+\
 \
 #
 /
@@ -549,6 +551,17 @@ Public
 /
 UNIDATA
 /
+with
+additional
+resources
+as
+#
+detailed
+in
+the
+source
+comments
+.
 #
 #
 This
@@ -4720,7 +4733,7 @@ FH
 read
 VerticalOrientation
 -
-12
+13
 .
 txt
 open
@@ -4736,7 +4749,7 @@ vertical
 /
 VerticalOrientation
 -
-12
+13
 .
 txt
 "
@@ -4752,7 +4765,7 @@ data
 file
 VerticalOrientation
 -
-12
+13
 .
 txt
 \
