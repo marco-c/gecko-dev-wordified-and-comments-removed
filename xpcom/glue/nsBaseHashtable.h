@@ -930,6 +930,9 @@ KeyClass
 (
 aKey
 )
+mData
+(
+)
 {
 }
 template
