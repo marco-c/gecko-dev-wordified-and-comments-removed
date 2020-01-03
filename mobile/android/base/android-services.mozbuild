@@ -12118,6 +12118,15 @@ FxAccountSignInTask
 java
 '
 '
+fxa
+/
+tasks
+/
+FxAccountUnlockCodeResender
+.
+java
+'
+'
 sync
 /
 AlreadySyncingException
