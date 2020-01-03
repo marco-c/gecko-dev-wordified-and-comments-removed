@@ -256,7 +256,7 @@ JSCompartment
 struct
 JSCrossCompartmentCall
 ;
-struct
+class
 JSErrorReport
 ;
 struct

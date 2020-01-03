@@ -752,15 +752,6 @@ argumentsType
 ArgumentsAreUnicode
 )
 {
-mozilla
-:
-:
-PodZero
-(
-&
-report
-)
-;
 }
 ~
 CompileError

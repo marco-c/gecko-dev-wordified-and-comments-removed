@@ -58,12 +58,6 @@ using
 namespace
 js
 ;
-using
-mozilla
-:
-:
-PodZero
-;
 Shape
 *
 js
@@ -756,12 +750,6 @@ r
 ;
 JSErrorReport
 report
-;
-PodZero
-(
-&
-report
-)
 ;
 JSExnType
 type_
