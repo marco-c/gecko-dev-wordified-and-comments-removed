@@ -2870,7 +2870,7 @@ when
 the
 reason
 is
-REST_ERRNOS
+FAILURE_DETAILS
 .
 USER_UNAVAILABLE
 "
@@ -2885,7 +2885,7 @@ setStoreState
 {
 callStateReason
 :
-REST_ERRNOS
+FAILURE_DETAILS
 .
 USER_UNAVAILABLE
 }

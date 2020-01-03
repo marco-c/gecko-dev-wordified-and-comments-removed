@@ -1932,9 +1932,9 @@ err
 var
 failureReason
 =
-"
-setup
-"
+FAILURE_DETAILS
+.
+UNKNOWN
 ;
 if
 (
@@ -1951,7 +1951,7 @@ USER_UNAVAILABLE
 {
 failureReason
 =
-REST_ERRNOS
+FAILURE_DETAILS
 .
 USER_UNAVAILABLE
 ;
