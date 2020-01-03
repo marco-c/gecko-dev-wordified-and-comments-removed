@@ -2606,6 +2606,7 @@ GlobalObject
 getDebuggers
 (
 )
+const
 {
 Value
 debuggers
