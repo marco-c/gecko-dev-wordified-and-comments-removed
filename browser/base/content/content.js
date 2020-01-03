@@ -811,6 +811,16 @@ e
 ;
 }
 }
+let
+selectionInfo
+=
+BrowserUtils
+.
+getSelectionDetails
+(
+content
+)
+;
 if
 (
 Services
@@ -941,6 +951,7 @@ referrerPolicy
 contentType
 contentDisposition
 frameOuterWindowID
+selectionInfo
 }
 {
 event
@@ -1016,6 +1027,9 @@ contentType
 contentDisposition
 :
 contentDisposition
+selectionInfo
+:
+selectionInfo
 }
 ;
 }
