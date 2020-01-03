@@ -7186,6 +7186,9 @@ GetContinuationOffset
 (
 )
 ;
+nsPoint
+anchorPoint
+;
 nsRect
 dest
 =
@@ -7200,6 +7203,8 @@ mIntrinsicRatio
 StylePosition
 (
 )
+&
+anchorPoint
 )
 ;
 nsLayoutUtils
@@ -7228,6 +7233,8 @@ dest
 aDirtyRect
 nullptr
 aFlags
+&
+anchorPoint
 )
 ;
 nsImageMap
