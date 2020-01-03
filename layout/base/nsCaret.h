@@ -433,6 +433,9 @@ mOverrideOffset
 bool
 mIsBlinkOn
 ;
+int32_t
+mBlinkCount
+;
 bool
 mVisible
 ;
