@@ -271,6 +271,14 @@ azureQuartz
 1
 6
 )
+fuzzy
+-
+if
+(
+OSX
+1
+2
+)
 =
 =
 clipPath
