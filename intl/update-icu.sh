@@ -613,8 +613,6 @@ icu_dir
 SVN
 -
 INFO
-exit
-0
 patch
 -
 d
@@ -645,6 +643,8 @@ patches
 bug
 -
 915735
+exit
+0
 patch
 -
 d
