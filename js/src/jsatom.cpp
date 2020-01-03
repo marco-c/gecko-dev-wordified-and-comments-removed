@@ -1567,7 +1567,7 @@ asPtr
 bool
 isDying
 =
-IsStringAboutToBeFinalizedFromAnyThread
+IsStringAboutToBeFinalized
 (
 &
 atom

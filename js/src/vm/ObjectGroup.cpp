@@ -7502,7 +7502,7 @@ groupNoBarrier
 ;
 if
 (
-IsObjectGroupAboutToBeFinalizedFromAnyThread
+IsObjectGroupAboutToBeFinalized
 (
 &
 group
@@ -7544,7 +7544,7 @@ TaggedProto
 LazyProto
 &
 &
-IsObjectAboutToBeFinalizedFromAnyThread
+IsObjectAboutToBeFinalized
 (
 &
 key
@@ -7560,7 +7560,7 @@ true
 }
 if
 (
-IsObjectGroupAboutToBeFinalizedFromAnyThread
+IsObjectGroupAboutToBeFinalized
 (
 e
 .
@@ -7683,7 +7683,7 @@ false
 ;
 if
 (
-IsObjectGroupAboutToBeFinalizedFromAnyThread
+IsObjectGroupAboutToBeFinalized
 (
 entry
 .
@@ -7700,7 +7700,7 @@ true
 ;
 if
 (
-IsShapeAboutToBeFinalizedFromAnyThread
+IsShapeAboutToBeFinalized
 (
 entry
 .
@@ -7766,7 +7766,7 @@ i
 ;
 if
 (
-IsStringAboutToBeFinalizedFromAnyThread
+IsStringAboutToBeFinalized
 (
 &
 str
@@ -7830,7 +7830,7 @@ i
 ;
 if
 (
-IsSymbolAboutToBeFinalizedFromAnyThread
+IsSymbolAboutToBeFinalized
 (
 &
 sym
@@ -7891,7 +7891,7 @@ groupNoBarrier
 ;
 if
 (
-IsObjectGroupAboutToBeFinalizedFromAnyThread
+IsObjectGroupAboutToBeFinalized
 (
 &
 group
@@ -8010,7 +8010,7 @@ key
 bool
 keyDying
 =
-IsScriptAboutToBeFinalizedFromAnyThread
+IsScriptAboutToBeFinalized
 (
 &
 key
@@ -8021,7 +8021,7 @@ script
 bool
 valDying
 =
-IsObjectGroupAboutToBeFinalizedFromAnyThread
+IsObjectGroupAboutToBeFinalized
 (
 e
 .
@@ -8152,7 +8152,7 @@ front
 ;
 if
 (
-IsObjectGroupAboutToBeFinalizedFromAnyThread
+IsObjectGroupAboutToBeFinalized
 (
 entry
 .
@@ -8170,7 +8170,7 @@ entry
 associated
 &
 &
-IsObjectAboutToBeFinalizedFromAnyThread
+IsObjectAboutToBeFinalized
 (
 &
 entry
