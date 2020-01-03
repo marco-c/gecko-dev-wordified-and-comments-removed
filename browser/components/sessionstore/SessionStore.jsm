@@ -2388,6 +2388,12 @@ initialized
 )
 ;
 }
+RunState
+.
+setClosing
+(
+)
+;
 if
 (
 this
