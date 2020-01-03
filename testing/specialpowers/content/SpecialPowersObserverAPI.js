@@ -2058,12 +2058,6 @@ type
 msg
 .
 permission
-msg
-.
-expireType
-msg
-.
-expireTime
 )
 ;
 break
