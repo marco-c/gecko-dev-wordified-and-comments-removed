@@ -344,6 +344,11 @@ WebGL2ContextQueries
 cpp
 '
 '
+WebGL2ContextRenderbuffers
+.
+cpp
+'
+'
 WebGL2ContextSamplers
 .
 cpp
