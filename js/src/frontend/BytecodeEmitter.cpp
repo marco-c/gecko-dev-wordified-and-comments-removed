@@ -10592,11 +10592,9 @@ nullptr
 JSPROP_ENUMERATE
 )
 )
-{
 return
 false
 ;
-}
 if
 (
 !
@@ -10611,11 +10609,9 @@ nullptr
 JSPROP_ENUMERATE
 )
 )
-{
 return
 false
 ;
-}
 ObjectBox
 *
 objbox

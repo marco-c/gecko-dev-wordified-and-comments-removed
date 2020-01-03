@@ -2363,8 +2363,8 @@ cx
 fun
 id
 v
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY

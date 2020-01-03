@@ -15391,8 +15391,8 @@ NativeObject
 )
 toGMTStringId
 toUTCStringFun
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 0
 )
 ;
