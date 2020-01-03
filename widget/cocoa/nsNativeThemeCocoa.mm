@@ -5727,7 +5727,6 @@ NSDictionary
 aOptions
 )
 {
-static
 id
 appearance
 =
