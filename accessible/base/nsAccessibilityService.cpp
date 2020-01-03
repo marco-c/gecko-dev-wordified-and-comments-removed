@@ -5526,7 +5526,7 @@ pathGeometryFrame
 newAcc
 =
 new
-RoleTAccessible
+EnumRoleAccessible
 <
 roles
 :
@@ -5557,7 +5557,7 @@ svg
 newAcc
 =
 new
-RoleTAccessible
+EnumRoleAccessible
 <
 roles
 :
@@ -5598,7 +5598,7 @@ math
 newAcc
 =
 new
-RoleTAccessible
+EnumRoleAccessible
 <
 roles
 :
@@ -6941,7 +6941,7 @@ pane
 accessible
 =
 new
-RoleTAccessible
+EnumRoleAccessible
 <
 roles
 :
@@ -7001,7 +7001,7 @@ else
 accessible
 =
 new
-RoleTAccessible
+EnumRoleAccessible
 <
 roles
 :
@@ -7232,7 +7232,7 @@ textbox
 accessible
 =
 new
-RoleTAccessible
+EnumRoleAccessible
 <
 roles
 :
@@ -8474,7 +8474,7 @@ eHTMLMediaType
 newAcc
 =
 new
-RoleTAccessible
+EnumRoleAccessible
 <
 roles
 :
