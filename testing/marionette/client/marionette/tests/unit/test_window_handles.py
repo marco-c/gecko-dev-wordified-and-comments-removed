@@ -25,9 +25,6 @@ self
 keys
 =
 [
-Keys
-.
-SHIFT
 ]
         
 if
@@ -74,57 +71,8 @@ keys
 append
 (
 '
-a
+t
 '
-)
-        
-self
-.
-marionette
-.
-navigate
-(
-"
-about
-:
-blank
-"
-)
-        
-self
-.
-marionette
-.
-navigate
-(
-"
-data
-:
-text
-/
-html
-<
-div
->
-Text
-<
-/
-div
->
-"
-)
-        
-self
-.
-marionette
-.
-navigate
-(
-"
-about
-:
-blank
-"
 )
         
 origin_win
@@ -207,7 +155,7 @@ remove
 origin_win
 )
         
-addons_page
+new_tab
 =
 handles
 .
@@ -221,7 +169,7 @@ marionette
 .
 switch_to_window
 (
-addons_page
+new_tab
 )
         
 self
@@ -238,7 +186,7 @@ get_url
 "
 about
 :
-addons
+newtab
 "
 )
         
