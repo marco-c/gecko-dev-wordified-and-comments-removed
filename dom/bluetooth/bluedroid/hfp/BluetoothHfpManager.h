@@ -341,6 +341,11 @@ ToggleCalls
 )
 ;
 void
+HandleBackendError
+(
+)
+;
+void
 ConnectionStateNotification
 (
 BluetoothHandsfreeConnectionState
