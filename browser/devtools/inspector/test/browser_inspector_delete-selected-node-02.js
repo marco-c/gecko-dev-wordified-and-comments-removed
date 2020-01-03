@@ -274,12 +274,12 @@ assertNodeSelectedAndPanelsUpdated
 (
 "
 #
-deleteChildren
+selectedAfterDelete
 "
 "
-ul
+li
 #
-deleteChildren
+selectedAfterDelete
 "
 )
 ;
