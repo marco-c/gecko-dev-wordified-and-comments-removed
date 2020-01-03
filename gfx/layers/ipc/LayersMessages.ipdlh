@@ -1344,6 +1344,9 @@ presShellResolution
 bool
 scaleToResolution
 ;
+bool
+forceDispatchToContentRegion
+;
 /
 /
 This
