@@ -139,6 +139,11 @@ Test
 \
 _
 (
+GotoWithFake
+)
+\
+_
+(
 TypeObjectDispatch
 )
 \
