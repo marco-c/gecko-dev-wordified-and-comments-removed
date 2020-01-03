@@ -106,12 +106,15 @@ if
 (
 gPermissions
 .
-contains
+indexOf
 (
 permission
 .
 type
 )
+>
+-
+1
 )
 initRow
 (

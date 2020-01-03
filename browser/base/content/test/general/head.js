@@ -3953,12 +3953,16 @@ closed
 "
 ]
 .
-contains
+indexOf
 (
 element
 .
 state
 )
+!
+=
+-
+1
 ;
 if
 (

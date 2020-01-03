@@ -1801,7 +1801,6 @@ if
 protocol
 &
 &
-!
 [
 "
 http
@@ -1817,13 +1816,17 @@ ftp
 "
 ]
 .
-contains
+indexOf
 (
 protocol
 [
 0
 ]
 )
+=
+=
+-
+1
 )
 return
 ;

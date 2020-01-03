@@ -867,7 +867,6 @@ login
 ;
 if
 (
-!
 [
 Weave
 .
@@ -880,7 +879,7 @@ Weave
 LOGIN_SUCCEEDED
 ]
 .
-contains
+indexOf
 (
 Weave
 .
@@ -888,6 +887,10 @@ Status
 .
 login
 )
+=
+=
+-
+1
 )
 {
 return
