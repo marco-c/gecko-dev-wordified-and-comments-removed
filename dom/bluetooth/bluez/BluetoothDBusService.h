@@ -102,8 +102,8 @@ IsReady
 )
 ;
 #
-ifdef
-MOZ_B2G_BT_API_V2
+ifndef
+MOZ_B2G_BT_API_V1
 virtual
 nsresult
 StartInternal
@@ -333,8 +333,8 @@ aRunnable
 override
 ;
 #
-ifdef
-MOZ_B2G_BT_API_V2
+ifndef
+MOZ_B2G_BT_API_V1
 virtual
 void
 PinReplyInternal
@@ -494,8 +494,8 @@ aRunnable
 override
 ;
 #
-ifdef
-MOZ_B2G_BT_API_V2
+ifndef
+MOZ_B2G_BT_API_V1
 virtual
 bool
 IsConnected
@@ -757,8 +757,8 @@ aMessage
 override
 ;
 #
-ifdef
-MOZ_B2G_BT_API_V2
+ifndef
+MOZ_B2G_BT_API_V1
 virtual
 void
 StartLeScanInternal
