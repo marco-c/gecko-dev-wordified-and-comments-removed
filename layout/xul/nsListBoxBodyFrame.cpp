@@ -1283,11 +1283,6 @@ nsScrollbarFrame
 aScrollbar
 int32_t
 aDirection
-nsIScrollbarMediator
-:
-:
-ScrollSnapMode
-aSnap
 )
 {
 MOZ_ASSERT
@@ -1352,11 +1347,6 @@ nsScrollbarFrame
 aScrollbar
 int32_t
 aDirection
-nsIScrollbarMediator
-:
-:
-ScrollSnapMode
-aSnap
 )
 {
 MOZ_ASSERT
@@ -1421,11 +1411,6 @@ nsScrollbarFrame
 aScrollbar
 int32_t
 aDirection
-nsIScrollbarMediator
-:
-:
-ScrollSnapMode
-aSnap
 )
 {
 MOZ_ASSERT
