@@ -223,6 +223,8 @@ CreateEncodedCertificate
 (
 v3
 sha256WithRSAEncryption
+(
+)
 serialNumber
 issuerDER
 oneDayBeforeNow
@@ -234,6 +236,8 @@ extensions
 *
 reusedKey
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -1288,6 +1292,8 @@ CreateEncodedCertificate
 (
 v3
 sha256WithRSAEncryption
+(
+)
 serialNumber
 issuerDER
 oneDayBeforeNow
@@ -1301,6 +1307,8 @@ nullptr
 *
 reusedKey
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;
@@ -1515,6 +1523,8 @@ CreateEncodedCertificate
 (
 v3
 sha256WithRSAEncryption
+(
+)
 serialNumber
 issuerDER
 oneDayBeforeNow
@@ -1526,6 +1536,8 @@ nullptr
 *
 issuerKey
 sha256WithRSAEncryption
+(
+)
 )
 )
 ;

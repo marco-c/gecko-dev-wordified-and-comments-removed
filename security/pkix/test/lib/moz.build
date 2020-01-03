@@ -235,6 +235,11 @@ SOURCES
 =
 [
 '
+pkixtestalg
+.
+cpp
+'
+'
 pkixtestnss
 .
 cpp
