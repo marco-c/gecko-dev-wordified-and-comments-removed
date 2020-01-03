@@ -3575,6 +3575,9 @@ data
 ;
 if
 (
+mResolver
+&
+&
 !
 strcmp
 (
