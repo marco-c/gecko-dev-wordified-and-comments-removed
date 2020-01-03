@@ -1364,6 +1364,16 @@ aOffset
 ;
 virtual
 bool
+IsExpectingMoreData
+(
+)
+{
+return
+false
+;
+}
+virtual
+bool
 IsSuspendedByCache
 (
 )
