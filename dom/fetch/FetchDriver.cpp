@@ -2066,7 +2066,7 @@ httpChan
 >
 SetReferrerWithPolicy
 (
-nullptr
+referrerURI
 mDocument
 ?
 mDocument
