@@ -86,6 +86,13 @@ toggle
 )
 ;
 let
+_tab
+=
+options
+.
+tab
+;
+let
 actions
 =
 [
@@ -201,6 +208,9 @@ state
 .
 isChecked
 (
+{
+_tab
+}
 )
 spec
 .
