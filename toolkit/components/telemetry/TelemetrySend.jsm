@@ -2341,9 +2341,6 @@ false
 _logger
 :
 null
-_pingSendTimer
-:
-null
 _pendingPingRequests
 :
 new
