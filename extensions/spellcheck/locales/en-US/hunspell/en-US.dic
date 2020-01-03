@@ -1,4 +1,4 @@
-54728
+54817
 0
 /
 nm
@@ -141,6 +141,7 @@ AP
 /
 M
 APB
+APC
 API
 /
 SM
@@ -167,6 +168,7 @@ ATPase
 M
 ATV
 AV
+AVI
 AWACS
 /
 M
@@ -2717,6 +2719,7 @@ M
 Arafat
 /
 M
+Aragon
 Araguaya
 /
 M
@@ -3409,6 +3412,7 @@ M
 Athabaskan
 /
 SM
+Athanasius
 Athena
 /
 M
@@ -4296,6 +4300,9 @@ Barcelona
 M
 Barclay
 /
+SM
+Barclays
+/
 M
 Bard
 /
@@ -4555,6 +4562,9 @@ M
 Baudouin
 /
 M
+Baudrillard
+/
+M
 Bauer
 /
 M
@@ -4667,6 +4677,9 @@ Beatrix
 /
 M
 Beatriz
+/
+M
+Beatty
 /
 M
 Beau
@@ -5833,6 +5846,7 @@ M
 Bodhisattva
 /
 M
+Bodleian
 Boeing
 /
 M
@@ -6709,7 +6723,7 @@ Brook
 MS
 Brooke
 /
-M
+MS
 Brooklyn
 /
 M
@@ -7181,6 +7195,7 @@ CFC
 /
 SM
 CFO
+CGI
 CIA
 /
 M
@@ -8130,6 +8145,9 @@ Cassey
 /
 M
 Cassi
+/
+M
+Cassidy
 /
 M
 Cassie
@@ -10614,6 +10632,9 @@ SM
 Coward
 /
 M
+Cowell
+/
+M
 Cowley
 /
 M
@@ -11729,6 +11750,7 @@ SM
 Dawes
 /
 M
+Dawkins
 Dawn
 /
 M
@@ -13457,6 +13479,7 @@ M
 ESPN
 /
 M
+ESR
 EST
 /
 M
@@ -16589,6 +16612,9 @@ M
 Frobisher
 /
 M
+Frodo
+/
+M
 Froissart
 /
 M
@@ -16694,6 +16720,9 @@ GATT
 /
 M
 GB
+/
+M
+GCC
 /
 M
 GDP
@@ -16978,6 +17007,9 @@ Gamow
 /
 M
 Gan
+/
+M
+Gandalf
 /
 M
 Gandhi
@@ -18967,6 +18999,7 @@ HOV
 HP
 /
 M
+HPV
 HQ
 /
 M
@@ -19593,6 +19626,9 @@ Haydn
 /
 M
 Haydon
+/
+M
+Hayek
 /
 M
 Hayes
@@ -20853,7 +20889,7 @@ Hummer
 M
 Humphrey
 /
-M
+SM
 Humvee
 /
 M
@@ -21069,6 +21105,7 @@ ISO
 /
 M
 ISP
+ISS
 IT
 IUD
 IV
@@ -21723,6 +21760,8 @@ M
 Islamist
 /
 M
+Islamophobia
+Islamophobic
 Ismael
 /
 M
@@ -25818,6 +25857,9 @@ Latashia
 /
 M
 Lateran
+/
+M
+Latham
 /
 M
 Latia
@@ -31510,6 +31552,9 @@ M
 Mott
 /
 M
+Moulton
+/
+M
 Mount
 /
 M
@@ -34662,6 +34707,7 @@ M
 Parliament
 /
 M
+Parmenides
 Parmesan
 /
 MS
@@ -36351,6 +36397,7 @@ Python
 /
 M
 Q
+QA
 QB
 QC
 QED
@@ -36542,6 +36589,7 @@ RFD
 RI
 RIF
 RIP
+RISC
 RN
 /
 M
@@ -36852,6 +36900,9 @@ M
 Raphaela
 /
 M
+Rappaport
+/
+M
 Rapunzel
 /
 M
@@ -36885,7 +36936,7 @@ Rastaban
 M
 Rastafarian
 /
-M
+MS
 Rastafarianism
 Rather
 /
@@ -48098,6 +48149,9 @@ M
 absurd
 /
 TPRY
+absurdist
+/
+MS
 absurdity
 /
 SM
@@ -48602,6 +48656,7 @@ across
 acrostic
 /
 SM
+acrylamide
 acrylic
 /
 MS
@@ -50546,6 +50601,7 @@ GMDS
 amour
 /
 MS
+amoxicillin
 amp
 /
 SMY
@@ -50574,6 +50630,7 @@ amphora
 /
 M
 amphorae
+ampicillin
 ample
 /
 TR
@@ -50905,6 +50962,7 @@ angular
 angularity
 /
 SM
+angulation
 anhydrous
 aniline
 /
@@ -51582,6 +51640,7 @@ apoplexy
 /
 SM
 apoptosis
+apoptotic
 apostasy
 /
 SM
@@ -56349,6 +56408,9 @@ MS
 biopsy
 /
 GDSM
+bioreactor
+/
+S
 biorhythm
 /
 MS
@@ -57908,6 +57970,7 @@ bottom
 /
 SMDG
 bottomless
+botulinum
 botulism
 /
 M
@@ -60802,6 +60865,7 @@ MS
 cardiology
 /
 M
+cardiomyopathy
 cardiopulmonary
 cardiovascular
 cardsharp
@@ -62896,6 +62960,7 @@ chitin
 /
 M
 chitinous
+chitosan
 chitterlings
 /
 M
@@ -62984,6 +63049,7 @@ SM
 choker
 /
 M
+cholecystitis
 choler
 /
 M
@@ -65255,6 +65321,7 @@ A
 commode
 /
 IEMS
+commodification
 commodious
 /
 Y
@@ -66895,6 +66962,10 @@ SM
 contrapuntal
 /
 Y
+contrarian
+/
+SM
+contrarianism
 contrariety
 /
 M
@@ -67713,6 +67784,7 @@ M
 cosmos
 /
 MS
+cosplay
 cosponsor
 /
 GSMD
@@ -71319,6 +71391,7 @@ M
 denim
 /
 MS
+denitrification
 denizen
 /
 MS
@@ -72441,6 +72514,9 @@ S
 diggings
 /
 M
+digicam
+/
+S
 digit
 /
 SM
@@ -73604,6 +73680,7 @@ dobbing
 doberman
 /
 MS
+dobro
 doc
 /
 SM
@@ -75198,6 +75275,7 @@ MS
 dysprosium
 /
 M
+dystonia
 dz
 e
 '
@@ -75432,6 +75510,7 @@ eccentricity
 /
 SM
 eccl
+ecclesial
 ecclesiastic
 /
 SM
@@ -76386,6 +76465,7 @@ DGS
 embolism
 /
 MS
+embolization
 emboss
 /
 DRSZG
@@ -77415,6 +77495,10 @@ eolian
 eon
 /
 SM
+eosinophil
+/
+S
+eosinophilic
 epaulet
 /
 SM
@@ -77791,6 +77875,7 @@ M
 erythrocyte
 /
 SM
+erythromycin
 escalate
 /
 CDSGN
@@ -78445,6 +78530,7 @@ U
 exceptional
 /
 UY
+exceptionalism
 excerpt
 /
 MDGS
@@ -82104,6 +82190,7 @@ MS
 foliage
 /
 M
+folic
 folio
 /
 SM
@@ -82813,6 +82900,7 @@ forwardness
 /
 M
 forwent
+fossa
 fossil
 /
 SM
@@ -85346,6 +85434,8 @@ M
 glen
 /
 MS
+glenohumeral
+glenoid
 glib
 /
 YP
@@ -85504,6 +85594,7 @@ Y
 glowworm
 /
 MS
+glucagon
 glucose
 /
 M
@@ -89038,6 +89129,9 @@ hepatic
 hepatitis
 /
 M
+hepatocyte
+/
+S
 hepper
 heppest
 heptagon
@@ -90320,6 +90414,7 @@ hosiery
 /
 M
 hosp
+hospholipase
 hospice
 /
 MS
@@ -91653,6 +91748,7 @@ U
 imaginably
 /
 U
+imaginal
 imaginary
 imagination
 /
@@ -91847,6 +91943,9 @@ immunodeficiency
 /
 M
 immunodeficient
+immunoglobulin
+/
+S
 immunologic
 immunological
 immunologist
@@ -93710,6 +93809,7 @@ Y
 instantiate
 /
 DSG
+instar
 instate
 /
 AGDS
@@ -99900,6 +100000,8 @@ M
 lyricist
 /
 SM
+lysosomal
+lysosomes
 m
 /
 KAS
@@ -100319,6 +100421,10 @@ MS
 majorette
 /
 MS
+majoritarian
+/
+SM
+majoritarianism
 majority
 /
 SM
@@ -101759,6 +101865,8 @@ MS
 medulla
 /
 SM
+medusa
+medusae
 meed
 /
 M
@@ -102424,6 +102532,7 @@ Y
 methodology
 /
 SM
+methotrexate
 methought
 methoxy
 meths
@@ -105110,6 +105219,7 @@ SM
 multivitamin
 /
 MS
+multiyear
 mum
 /
 SM
@@ -105890,6 +106000,7 @@ nearby
 nearness
 /
 M
+nearshore
 nearside
 nearsighted
 /
@@ -106354,6 +106465,7 @@ newel
 /
 SM
 newfangled
+newfound
 newline
 /
 S
@@ -108618,6 +108730,8 @@ oligarchy
 SM
 oligo
 oligonucleotide
+/
+S
 oligopoly
 /
 SM
@@ -110823,6 +110937,7 @@ pancreas
 /
 MS
 pancreatic
+pancreatitis
 panda
 /
 SM
@@ -111562,6 +111677,9 @@ DSG
 passkey
 /
 MS
+passphrase
+/
+S
 passport
 /
 MS
@@ -112608,6 +112726,7 @@ pergola
 SM
 perhaps
 pericardia
+pericardial
 pericardium
 /
 M
@@ -113420,6 +113539,7 @@ phooey
 phosphate
 /
 MS
+phosphodiesterase
 phosphor
 /
 MS
@@ -115140,6 +115260,7 @@ poltroon
 /
 SM
 poly
+polyacrylamide
 polyamory
 /
 S
@@ -117287,6 +117408,9 @@ M
 progesterone
 /
 M
+progestin
+/
+S
 prognathous
 prognoses
 prognosis
@@ -122161,6 +122285,7 @@ MGDS
 revenuer
 /
 SM
+reverb
 reverberate
 /
 DSGNX
@@ -125597,6 +125722,9 @@ M
 seamless
 /
 Y
+seamount
+/
+MS
 seamstress
 /
 MS
@@ -133561,6 +133689,7 @@ GDS
 subdivision
 /
 SM
+subdominant
 subdue
 /
 DSG
@@ -137649,6 +137778,7 @@ throe
 /
 SM
 thrombi
+thrombolytic
 thromboses
 thrombosis
 /
@@ -138982,6 +139112,9 @@ toyboy
 /
 S
 tr
+trabecula
+trabecular
+trabecule
 trace
 /
 JDRSMZG
@@ -139379,6 +139512,7 @@ DSGNX
 transliteration
 /
 M
+translocation
 translucence
 /
 M
@@ -141500,6 +141634,9 @@ underwent
 underwhelm
 /
 DGS
+underwire
+/
+DS
 underworld
 /
 MS
@@ -143048,6 +143185,9 @@ verso
 /
 SM
 versus
+vert
+/
+A
 vertebra
 /
 M
@@ -144422,6 +144562,7 @@ wary
 /
 UPRT
 was
+wasabi
 wash
 /
 BMDRSZG
