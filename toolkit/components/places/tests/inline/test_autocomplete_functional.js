@@ -15,6 +15,7 @@ vis
 vis
 "
 function
+*
 (
 )
 {
@@ -36,6 +37,7 @@ enabled
 false
 )
 ;
+yield
 PlacesTestUtils
 .
 addVisits
@@ -86,6 +88,7 @@ vis
 vis
 "
 function
+*
 (
 )
 {
@@ -105,6 +108,7 @@ autoFill
 false
 )
 ;
+yield
 PlacesTestUtils
 .
 addVisits
@@ -161,6 +165,7 @@ org
 /
 "
 function
+*
 (
 )
 {
@@ -213,6 +218,7 @@ TRANSITION_TYPED
 }
 ]
 ;
+yield
 PlacesTestUtils
 .
 addVisits
@@ -250,9 +256,11 @@ org
 /
 "
 function
+*
 (
 )
 {
+yield
 PlacesTestUtils
 .
 addVisits
@@ -312,9 +320,11 @@ org
 /
 "
 function
+*
 (
 )
 {
+yield
 PlacesTestUtils
 .
 addVisits
@@ -379,9 +389,11 @@ org
 /
 "
 function
+*
 (
 )
 {
+yield
 PlacesTestUtils
 .
 addVisits
@@ -439,9 +451,11 @@ org
 /
 "
 function
+*
 (
 )
 {
+yield
 addBookmark
 (
 {
@@ -462,6 +476,7 @@ org
 }
 )
 ;
+yield
 PlacesTestUtils
 .
 addVisits
@@ -519,6 +534,7 @@ org
 /
 "
 function
+*
 (
 )
 {
@@ -588,6 +604,7 @@ smokey
 }
 ]
 ;
+yield
 PlacesTestUtils
 .
 addVisits
@@ -636,6 +653,7 @@ foo
 /
 "
 function
+*
 (
 )
 {
@@ -705,6 +723,7 @@ smokey
 }
 ]
 ;
+yield
 PlacesTestUtils
 .
 addVisits
@@ -753,9 +772,11 @@ bacon
 delicious
 "
 function
+*
 (
 )
 {
+yield
 PlacesTestUtils
 .
 addVisits
@@ -832,9 +853,11 @@ delicious
 bar
 "
 function
+*
 (
 )
 {
+yield
 PlacesTestUtils
 .
 addVisits
