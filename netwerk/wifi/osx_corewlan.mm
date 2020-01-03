@@ -672,7 +672,6 @@ catch
 (
 NSException
 *
-_exn
 )
 {
 [
