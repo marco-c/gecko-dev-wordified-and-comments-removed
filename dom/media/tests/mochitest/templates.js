@@ -784,6 +784,13 @@ steeplechase
 {
 test
 .
+setTimeout
+(
+30000
+)
+;
+test
+.
 setupSignalingClient
 (
 )
