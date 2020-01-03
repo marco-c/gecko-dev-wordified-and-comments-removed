@@ -79,12 +79,6 @@ mobile
 -
 tests
 )
-ANDROID_APK_NAME
-:
-=
-robocop
--
-debug
 ANDROID_EXTRA_JARS
 +
 =

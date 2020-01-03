@@ -3371,6 +3371,14 @@ varlist
 [
             
 '
+ANDROID_APK_NAME
+'
+            
+'
+ANDROID_APK_PACKAGE
+'
+            
+'
 ANDROID_GENERATED_RESFILES
 '
             

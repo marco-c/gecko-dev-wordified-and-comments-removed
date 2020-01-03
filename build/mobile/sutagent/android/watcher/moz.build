@@ -93,3 +93,17 @@ MPL
 0
 /
 .
+ANDROID_APK_NAME
+=
+'
+Watcher
+'
+ANDROID_APK_PACKAGE
+=
+'
+com
+.
+mozilla
+.
+watcher
+'
