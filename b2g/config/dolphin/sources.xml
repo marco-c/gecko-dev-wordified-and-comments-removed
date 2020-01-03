@@ -3538,6 +3538,11 @@ path
 "
 kernel
 "
+rev
+=
+"
+6c6f012cea17fb8b3263605737816cf6663432f1
+"
 revision
 =
 "
@@ -3585,6 +3590,11 @@ path
 u
 -
 boot
+"
+rev
+=
+"
+cb37a7434073bb47c4c066f6922006442dcd8531
 "
 revision
 =
