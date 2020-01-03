@@ -556,6 +556,10 @@ const
 IntSize
 &
 aSize
+uint32_t
+aBytesPerPixel
+=
+4
 )
 ;
 static
