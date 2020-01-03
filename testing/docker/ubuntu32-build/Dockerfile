@@ -127,10 +127,7 @@ vcs
 .
 3
 .
-5
-|
-|
-true
+6
 #
 Ensure
 that
