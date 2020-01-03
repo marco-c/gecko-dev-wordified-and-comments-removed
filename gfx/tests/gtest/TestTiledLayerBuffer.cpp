@@ -132,10 +132,11 @@ TestTiledLayerTile
 )
 ;
 }
-TestTiledLayerTile
+void
 ValidateTile
 (
 TestTiledLayerTile
+&
 aTile
 const
 nsIntPoint
@@ -147,7 +148,8 @@ nsIntRegion
 aDirtyRect
 )
 {
-return
+aTile
+=
 TestTiledLayerTile
 (
 )
@@ -157,6 +159,7 @@ void
 ReleaseTile
 (
 TestTiledLayerTile
+&
 aTile
 )
 {
@@ -210,6 +213,7 @@ void
 UnlockTile
 (
 TestTiledLayerTile
+&
 aTile
 )
 {
