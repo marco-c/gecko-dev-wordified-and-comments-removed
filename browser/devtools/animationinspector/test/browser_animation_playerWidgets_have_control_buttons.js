@@ -250,7 +250,8 @@ yield
 selectNode
 (
 "
-body
+.
+still
 "
 inspector
 )
@@ -377,7 +378,8 @@ yield
 selectNode
 (
 "
-body
+.
+still
 "
 inspector
 )
@@ -407,15 +409,6 @@ hasSetPlaybackRate
 to
 false
 "
-)
-;
-yield
-selectNode
-(
-"
-body
-"
-inspector
 )
 ;
 controller
@@ -509,7 +502,8 @@ yield
 selectNode
 (
 "
-body
+.
+still
 "
 inspector
 )
