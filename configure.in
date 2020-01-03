@@ -62855,7 +62855,7 @@ MOZ_NATIVE_JEMALLOC
 AC_CHECK_FUNCS
 (
 mallctl
-nallocm
+nallocx
 [
 MOZ_NATIVE_JEMALLOC
 =
