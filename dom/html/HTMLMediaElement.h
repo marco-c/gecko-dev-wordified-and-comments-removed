@@ -659,6 +659,12 @@ IsHidden
 final
 override
 ;
+VideoFrameContainer
+*
+GetOverlayImageVideoFrameContainer
+(
+)
+;
 virtual
 VideoFrameContainer
 *
