@@ -95,7 +95,9 @@ window
 =
 systemAppFrame
 .
-contentWindow
+ownerDocument
+.
+defaultView
 ;
 let
 document
