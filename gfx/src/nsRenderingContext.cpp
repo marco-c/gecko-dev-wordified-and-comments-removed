@@ -299,14 +299,6 @@ GetMaxChunkLength
 (
 )
 {
-if
-(
-!
-mFontMetrics
-)
-return
-1
-;
 return
 std
 :
@@ -340,9 +332,6 @@ aC
 =
 '
 '
-&
-&
-mFontMetrics
 )
 {
 return
