@@ -396,13 +396,6 @@ not
 binary
 :
         
-mozfile
-.
-remove
-(
-path
-)
-        
 raise
 InvalidBinary
 (
