@@ -1,6 +1,0 @@
-exports
-.
-local
-=
-true
-;
