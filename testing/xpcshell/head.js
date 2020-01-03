@@ -2030,12 +2030,6 @@ js
 "
 )
 ;
-DebuggerServer
-.
-allowChromeProcess
-=
-true
-;
 let
 obsSvc
 =
