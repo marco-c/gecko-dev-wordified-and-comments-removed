@@ -1126,6 +1126,11 @@ mDropdownCanGrow
 :
 1
 ;
+bool
+mForceSelection
+:
+1
+;
 nscoord
 mLastDropdownComputedHeight
 ;
