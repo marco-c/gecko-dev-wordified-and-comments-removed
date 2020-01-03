@@ -224,6 +224,15 @@ Decoders
 (
 )
 ;
+bool
+RangeRemoval
+(
+int64_t
+aStart
+int64_t
+aEnd
+)
+;
 #
 ifdef
 MOZ_EME
@@ -284,6 +293,8 @@ uint8_t
 aData
 uint32_t
 aLength
+uint32_t
+aDuration
 )
 ;
 bool

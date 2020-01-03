@@ -2653,7 +2653,12 @@ mSourceBuffers
 RangeRemoval
 (
 aNewDuration
-aOldDuration
+PositiveInfinity
+<
+double
+>
+(
+)
 )
 ;
 }

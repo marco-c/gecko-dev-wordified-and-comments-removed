@@ -400,6 +400,15 @@ double
 aEnd
 )
 ;
+void
+DoRangeRemoval
+(
+double
+aStart
+double
+aEnd
+)
+;
 #
 if
 defined
