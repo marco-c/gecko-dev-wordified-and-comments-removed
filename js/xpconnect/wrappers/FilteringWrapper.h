@@ -71,12 +71,6 @@ flags
 )
 ;
 virtual
-~
-FilteringWrapper
-(
-)
-;
-virtual
 bool
 getPropertyDescriptor
 (
@@ -370,12 +364,6 @@ CrossOriginXrayWrapper
 (
 unsigned
 flags
-)
-;
-virtual
-~
-CrossOriginXrayWrapper
-(
 )
 ;
 virtual

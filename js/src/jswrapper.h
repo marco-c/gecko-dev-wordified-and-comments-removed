@@ -266,12 +266,6 @@ false
 )
 ;
 virtual
-~
-Wrapper
-(
-)
-;
-virtual
 bool
 finalizeInBackground
 (
@@ -350,12 +344,6 @@ bool
 hasSecurityPolicy
 =
 false
-)
-;
-virtual
-~
-CrossCompartmentWrapper
-(
 )
 ;
 virtual

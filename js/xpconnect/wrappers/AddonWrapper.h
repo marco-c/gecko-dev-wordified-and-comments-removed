@@ -80,12 +80,6 @@ flags
 )
 ;
 virtual
-~
-AddonWrapper
-(
-)
-;
-virtual
 bool
 getPropertyDescriptor
 (

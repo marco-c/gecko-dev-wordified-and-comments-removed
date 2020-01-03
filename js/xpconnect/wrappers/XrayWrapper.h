@@ -233,12 +233,6 @@ flags
 )
 ;
 virtual
-~
-XrayWrapper
-(
-)
-;
-virtual
 bool
 isExtensible
 (
