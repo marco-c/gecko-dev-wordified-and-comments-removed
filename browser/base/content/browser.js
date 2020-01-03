@@ -19595,6 +19595,16 @@ URI
 .
 spec
 ;
+let
+uriCopy
+=
+BrowserUtils
+.
+makeURI
+(
+uri
+)
+;
 item
 .
 setAttribute
@@ -19644,9 +19654,7 @@ favicons
 .
 getFaviconURLForPage
 (
-entry
-.
-URI
+uriCopy
 function
 (
 aURI

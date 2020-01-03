@@ -21000,6 +21000,13 @@ editFlags
 spellInfo
 :
 spellInfo
+principal
+:
+aMessage
+.
+data
+.
+principal
 customMenuItems
 :
 aMessage
