@@ -1351,6 +1351,9 @@ return
 NS_OK
 ;
 }
+nsAutoMicroTask
+mt
+;
 dom
 :
 :

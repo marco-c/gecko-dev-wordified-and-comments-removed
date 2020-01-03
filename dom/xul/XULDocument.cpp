@@ -14047,6 +14047,9 @@ scriptObject
 NS_ERROR_UNEXPECTED
 )
 ;
+nsAutoMicroTask
+mt
+;
 AutoEntryScript
 aes
 (
