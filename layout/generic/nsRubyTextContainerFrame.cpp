@@ -445,6 +445,8 @@ aDesiredSize
 SetSize
 (
 lineWM
+info
+.
 mLineSize
 )
 ;
