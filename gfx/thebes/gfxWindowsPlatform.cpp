@@ -2527,6 +2527,13 @@ ClearCache
 false
 )
 ;
+gfxAlphaBoxBlur
+:
+:
+ShutdownBlurCache
+(
+)
+;
 Factory
 :
 :
