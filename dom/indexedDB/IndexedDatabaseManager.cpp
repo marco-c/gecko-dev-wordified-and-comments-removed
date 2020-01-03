@@ -2831,12 +2831,6 @@ IndexedDatabaseManager
 :
 ExperimentalFeaturesEnabled
 (
-JSContext
-*
-aCx
-JSObject
-*
-aGlobal
 )
 {
 if
