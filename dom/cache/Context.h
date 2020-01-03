@@ -255,12 +255,6 @@ CancelAll
 (
 )
 ;
-bool
-IsCanceled
-(
-)
-const
-;
 void
 Invalidate
 (

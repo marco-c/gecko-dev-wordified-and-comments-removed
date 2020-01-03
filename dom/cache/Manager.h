@@ -276,12 +276,12 @@ aContext
 )
 ;
 void
-NoteClosing
+Invalidate
 (
 )
 ;
 bool
-IsClosing
+IsValid
 (
 )
 const
@@ -465,11 +465,6 @@ aIOThread
 ;
 ~
 Manager
-(
-)
-;
-void
-Init
 (
 )
 ;
@@ -683,7 +678,7 @@ bool
 mShuttingDown
 ;
 bool
-mClosing
+mValid
 ;
 struct
 CacheIdRefCounter
