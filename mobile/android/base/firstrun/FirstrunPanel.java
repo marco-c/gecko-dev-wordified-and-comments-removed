@@ -24,6 +24,15 @@ FirstrunPanel
 extends
 Fragment
 {
+public
+static
+final
+int
+TITLE_RES
+=
+-
+1
+;
 protected
 FirstrunPane
 .

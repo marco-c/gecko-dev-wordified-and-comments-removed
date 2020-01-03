@@ -397,7 +397,7 @@ get
 i
 )
 .
-getResource
+getClassname
 (
 )
 )
@@ -443,6 +443,10 @@ i
 )
 {
 return
+context
+.
+getString
+(
 panels
 .
 get
@@ -450,8 +454,9 @@ get
 i
 )
 .
-getTitle
+getTitleRes
 (
+)
 )
 .
 toUpperCase
