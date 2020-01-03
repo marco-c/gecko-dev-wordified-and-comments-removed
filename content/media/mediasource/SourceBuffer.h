@@ -477,6 +477,14 @@ ErrorResult
 aRv
 )
 ;
+bool
+PrepareAppend
+(
+ErrorResult
+&
+aRv
+)
+;
 nsRefPtr
 <
 MediaSource
