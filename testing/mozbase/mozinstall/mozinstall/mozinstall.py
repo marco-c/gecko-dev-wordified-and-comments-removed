@@ -1608,20 +1608,20 @@ RunAsInvoker
     
 cmd
 =
-[
-src
 '
+"
+%
+s
+"
 /
-S
-'
-'
-/
-D
+extractdir
 =
 %
 s
 '
 %
+(
+src
 os
 .
 path
@@ -1630,7 +1630,7 @@ realpath
 (
 dest
 )
-]
+)
     
 result
 =
