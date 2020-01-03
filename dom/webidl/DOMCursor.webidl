@@ -91,6 +91,14 @@ MPL
 .
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 DOMCursor
 :

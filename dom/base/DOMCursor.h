@@ -74,6 +74,16 @@ nsICursorContinueCallback
 aCallback
 )
 ;
+DOMCursor
+(
+nsIGlobalObject
+*
+aGlobal
+nsICursorContinueCallback
+*
+aCallback
+)
+;
 virtual
 JSObject
 *

@@ -103,6 +103,12 @@ done
 }
 ;
 [
+Exposed
+=
+(
+Window
+Worker
+)
 NoInterfaceObject
 ]
 interface
@@ -134,6 +140,14 @@ onerror
 ;
 }
 ;
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 DOMRequest
 :

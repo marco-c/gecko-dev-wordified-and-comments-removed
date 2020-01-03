@@ -344,6 +344,14 @@ nsPIDOMWindow
 aWindow
 )
 ;
+explicit
+DOMRequest
+(
+nsIGlobalObject
+*
+aGlobal
+)
+;
 protected
 :
 virtual
