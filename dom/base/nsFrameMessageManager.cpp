@@ -2262,7 +2262,7 @@ NS_ENSURE_TRUE
 mCallback
 -
 >
-DoLoadFrameScript
+DoLoadMessageManagerScript
 (
 aURL
 aRunInGlobalScope

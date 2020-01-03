@@ -323,7 +323,7 @@ aDest
 ;
 virtual
 bool
-DoLoadFrameScript
+DoLoadMessageManagerScript
 (
 const
 nsAString

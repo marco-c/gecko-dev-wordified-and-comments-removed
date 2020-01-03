@@ -10392,7 +10392,7 @@ bool
 nsFrameLoader
 :
 :
-DoLoadFrameScript
+DoLoadMessageManagerScript
 (
 const
 nsAString
