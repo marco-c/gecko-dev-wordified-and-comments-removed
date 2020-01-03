@@ -5737,12 +5737,10 @@ if
 (
 aRv
 .
-ErrorCode
+ErrorCodeIs
 (
-)
-=
-=
 NS_ERROR_NOT_AVAILABLE
+)
 )
 {
 _retval
@@ -5753,8 +5751,10 @@ true
 )
 ;
 aRv
-=
-NS_OK
+.
+SuppressException
+(
+)
 ;
 }
 }

@@ -11180,12 +11180,10 @@ MOZ_ASSERT
 (
 aRv
 .
-ErrorCode
+ErrorCodeIs
 (
-)
-=
-=
 NS_ERROR_DOM_SYNTAX_ERR
+)
 "
 Unexpected
 error
