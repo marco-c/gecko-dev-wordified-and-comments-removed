@@ -467,6 +467,9 @@ const
 bool
 writeCompact
 (
+JSContext
+*
+cx
 CompactBufferWriter
 &
 writer
