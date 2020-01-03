@@ -3252,6 +3252,7 @@ AsyncPanZoomController
 IsDestroyed
 (
 )
+const
 {
 return
 mTreeManager
@@ -7085,6 +7086,7 @@ AsyncPanZoomController
 PanDistance
 (
 )
+const
 {
 ReentrantMonitorAutoEnter
 lock
@@ -10828,6 +10830,7 @@ AsyncPanZoomController
 GetCurrentAsyncTransform
 (
 )
+const
 {
 ReentrantMonitorAutoEnter
 lock
@@ -11050,6 +11053,7 @@ AsyncPanZoomController
 GetNontransientAsyncTransform
 (
 )
+const
 {
 ReentrantMonitorAutoEnter
 lock
@@ -11087,6 +11091,7 @@ AsyncPanZoomController
 GetTransformToLastDispatchedPaint
 (
 )
+const
 {
 ReentrantMonitorAutoEnter
 lock

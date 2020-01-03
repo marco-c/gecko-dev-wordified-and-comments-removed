@@ -168,6 +168,7 @@ float
 PanDistance
 (
 )
+const
 ;
 float
 PanDistance
@@ -175,6 +176,7 @@ PanDistance
 ScreenCoord
 aPos
 )
+const
 ;
 bool
 FlingApplyFrictionOrCancel

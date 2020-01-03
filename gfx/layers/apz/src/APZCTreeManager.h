@@ -488,6 +488,7 @@ aOutInOverscrolledApzc
 void
 GetInputTransforms
 (
+const
 AsyncPanZoomController
 *
 aApzc
@@ -504,6 +505,7 @@ Matrix4x4
 &
 aTransformToGeckoOut
 )
+const
 ;
 private
 :
@@ -711,6 +713,7 @@ apzc
 ;
 private
 :
+mutable
 mozilla
 :
 :
