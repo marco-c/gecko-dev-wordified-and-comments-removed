@@ -505,7 +505,7 @@ NodeGeneric
 ;
 }
 Node
-newBinaryOrAppend
+appendOrCreateList
 (
 ParseNodeKind
 kind
@@ -1373,12 +1373,11 @@ return
 NodeUnparenthesizedAssignment
 ;
 return
-newBinaryOrAppend
+newBinary
 (
 kind
 lhs
 rhs
-pc
 op
 )
 ;
