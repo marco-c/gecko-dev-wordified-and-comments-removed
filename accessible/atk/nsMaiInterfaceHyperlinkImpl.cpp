@@ -59,8 +59,8 @@ if
 (
 !
 accWrap
-|
-|
+&
+&
 !
 GetProxy
 (
