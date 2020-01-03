@@ -58,8 +58,6 @@ data
 import
 (
     
-BrandingFiles
-    
 ConfigFileSubstitution
     
 ContextWrapped
@@ -4124,28 +4122,6 @@ context
 FINAL_TARGET
 '
 ]
-)
-        
-branding_files
-=
-context
-.
-get
-(
-'
-BRANDING_FILES
-'
-)
-        
-if
-branding_files
-:
-            
-yield
-BrandingFiles
-(
-context
-branding_files
 )
         
 self
