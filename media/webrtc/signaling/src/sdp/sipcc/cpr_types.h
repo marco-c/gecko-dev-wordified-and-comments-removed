@@ -11,11 +11,6 @@ SIP_OS_LINUX
 #
 include
 "
-.
-.
-/
-linux
-/
 cpr_linux_types
 .
 h
@@ -27,11 +22,6 @@ SIP_OS_WINDOWS
 #
 include
 "
-.
-.
-/
-win32
-/
 cpr_win_types
 .
 h
@@ -43,11 +33,6 @@ SIP_OS_OSX
 #
 include
 "
-.
-.
-/
-darwin
-/
 cpr_darwin_types
 .
 h
