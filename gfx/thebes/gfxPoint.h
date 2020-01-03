@@ -112,7 +112,13 @@ MOZ_IMPLICIT
 gfxSize
 (
 const
-nsIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 &
 aSize
 )

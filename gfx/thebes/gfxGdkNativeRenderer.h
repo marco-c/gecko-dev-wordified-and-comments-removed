@@ -124,7 +124,13 @@ Draw
 gfxContext
 *
 ctx
-nsIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 size
 uint32_t
 flags

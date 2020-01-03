@@ -1260,7 +1260,7 @@ CreateSimilarSurface
 gfxContentType
 aContent
 const
-nsIntSize
+IntSize
 &
 aSize
 )
@@ -1425,7 +1425,7 @@ nullptr
 ;
 }
 const
-nsIntSize
+IntSize
 size
 =
 GetSize
@@ -1557,7 +1557,7 @@ gfxASurface
 CheckSurfaceSize
 (
 const
-nsIntSize
+IntSize
 &
 sz
 int32_t
@@ -3012,7 +3012,7 @@ empty
 ;
 }
 const
-nsIntSize
+IntSize
 gfxASurface
 :
 :
@@ -3022,7 +3022,7 @@ GetSize
 const
 {
 return
-nsIntSize
+IntSize
 (
 -
 1

@@ -457,7 +457,7 @@ DrawDirect
 gfxContext
 *
 ctx
-nsIntSize
+IntSize
 size
 uint32_t
 flags
@@ -525,7 +525,7 @@ DrawCairo
 cairo_t
 *
 cr
-nsIntSize
+IntSize
 size
 uint32_t
 flags
@@ -1191,7 +1191,7 @@ cairoTarget
 DrawTarget
 *
 drawTarget
-nsIntSize
+IntSize
 size
 bool
 canDrawOverBackground
@@ -1920,7 +1920,7 @@ Draw
 gfxContext
 *
 ctx
-nsIntSize
+IntSize
 size
 uint32_t
 flags
