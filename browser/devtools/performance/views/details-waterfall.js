@@ -48,9 +48,9 @@ breakdown
 (
 "
 #
-details
+waterfall
 -
-pane
+view
 "
 )
 TIMELINE_BLUEPRINT
