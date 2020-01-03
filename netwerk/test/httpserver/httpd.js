@@ -10967,8 +10967,10 @@ throw
 e
 ;
 }
-function
+let
 writeMore
+=
+function
 (
 )
 {
