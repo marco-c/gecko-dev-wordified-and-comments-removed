@@ -2358,6 +2358,16 @@ srcdir
 /
 builtin
 /
+TypedArray
+.
+js
+\
+(
+srcdir
+)
+/
+builtin
+/
 TypedObject
 .
 js
