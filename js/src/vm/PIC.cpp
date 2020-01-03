@@ -17,6 +17,13 @@ h
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 jsobj
 .
 h

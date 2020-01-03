@@ -1739,6 +1739,13 @@ cpp
 '
 vm
 /
+ForOfIterator
+.
+cpp
+'
+'
+vm
+/
 GeneratorObject
 .
 cpp
