@@ -1332,6 +1332,15 @@ _
 recording
 )
 {
+if
+(
+!
+recording
+)
+{
+return
+;
+}
 this
 .
 markersOverview
