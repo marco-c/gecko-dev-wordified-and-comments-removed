@@ -3296,7 +3296,7 @@ return
 GetOwnPropertyDescriptor
 (
 cx
-obj
+actual
 id
 desc
 )
