@@ -1393,11 +1393,6 @@ TypedObjectProto
 \
 _
 (
-TypedObjectUnsizedLength
-)
-\
-_
-(
 TypedObjectElements
 )
 \

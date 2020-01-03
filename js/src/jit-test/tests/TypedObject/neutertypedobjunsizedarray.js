@@ -46,6 +46,7 @@ S
 .
 array
 (
+10
 )
 ;
 function
@@ -82,7 +83,6 @@ a
 new
 A
 (
-10
 )
 ;
 a

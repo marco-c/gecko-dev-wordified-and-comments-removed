@@ -46670,7 +46670,7 @@ hook
 TypedObject
 :
 :
-constructSized
+construct
 )
 {
 Rooted
