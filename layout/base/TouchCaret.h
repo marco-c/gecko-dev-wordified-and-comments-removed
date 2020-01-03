@@ -154,6 +154,17 @@ aVisible
 ;
 nsIFrame
 *
+GetCaretFocusFrame
+(
+nsRect
+*
+aOutRect
+=
+nullptr
+)
+;
+nsIFrame
+*
 GetCanvasFrame
 (
 )
