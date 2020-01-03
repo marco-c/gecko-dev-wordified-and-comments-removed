@@ -204,7 +204,7 @@ defineLazyModuleGetter
 (
 this
 "
-LoginTest
+LoginTestUtils
 "
 "
 resource
@@ -219,12 +219,9 @@ LoginTestUtils
 .
 jsm
 "
-"
-LoginTestUtils
-"
 )
 ;
-LoginTest
+LoginTestUtils
 .
 Assert
 =
@@ -233,7 +230,7 @@ Assert
 const
 TestData
 =
-LoginTest
+LoginTestUtils
 .
 testData
 ;
@@ -654,7 +651,7 @@ logins
 .
 initializationPromise
 ;
-LoginTest
+LoginTestUtils
 .
 clearData
 (
@@ -666,7 +663,7 @@ do_register_cleanup
 )
 =
 >
-LoginTest
+LoginTestUtils
 .
 clearData
 (

@@ -85,7 +85,7 @@ hostname3
 false
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertDisabledHostsEqual
 (
@@ -113,7 +113,7 @@ hostname2
 false
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertDisabledHostsEqual
 (
@@ -141,7 +141,7 @@ hostname2
 true
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertDisabledHostsEqual
 (
@@ -178,7 +178,7 @@ hostname3
 true
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertDisabledHostsEqual
 (
@@ -405,7 +405,7 @@ hostname
 /
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertDisabledHostsEqual
 (
@@ -562,7 +562,7 @@ hostname2
 )
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertDisabledHostsEqual
 (
@@ -622,7 +622,7 @@ hostname2
 )
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertDisabledHostsEqual
 (
@@ -686,7 +686,7 @@ hostname2
 true
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertDisabledHostsEqual
 (
@@ -746,13 +746,13 @@ false
 )
 ;
 yield
-LoginTest
+LoginTestUtils
 .
 reloadData
 (
 )
 ;
-LoginTest
+LoginTestUtils
 .
 assertDisabledHostsEqual
 (
@@ -768,7 +768,7 @@ hostname
 ]
 )
 ;
-LoginTest
+LoginTestUtils
 .
 clearData
 (

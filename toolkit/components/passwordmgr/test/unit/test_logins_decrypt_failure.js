@@ -240,7 +240,7 @@ loginInfo
 )
 ;
 }
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (

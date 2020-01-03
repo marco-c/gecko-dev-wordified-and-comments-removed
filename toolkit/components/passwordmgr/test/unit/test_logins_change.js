@@ -29,7 +29,7 @@ aLoginInfo
 aExpectedError
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -149,7 +149,7 @@ passwordField
 aExpectedError
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -197,7 +197,7 @@ loginInfo
 )
 ;
 }
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -265,7 +265,7 @@ loginInfo
 )
 ;
 }
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -775,7 +775,7 @@ removeAllLogins
 (
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -895,7 +895,7 @@ loginInfo
 updatedLoginInfo
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -938,7 +938,7 @@ updatedLoginInfo
 differentLoginInfo
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -956,7 +956,7 @@ addLogin
 loginInfo
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -989,7 +989,7 @@ exists
 /
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -999,7 +999,7 @@ differentLoginInfo
 ]
 )
 ;
-LoginTest
+LoginTestUtils
 .
 clearData
 (
@@ -1179,7 +1179,7 @@ new_form_field_password
 )
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -1262,7 +1262,7 @@ updatedLoginInfo
 differentLoginProperties
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -1280,7 +1280,7 @@ addLogin
 loginInfo
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -1313,7 +1313,7 @@ exists
 /
 )
 ;
-LoginTest
+LoginTestUtils
 .
 checkLogins
 (
@@ -1323,7 +1323,7 @@ differentLoginInfo
 ]
 )
 ;
-LoginTest
+LoginTestUtils
 .
 clearData
 (
