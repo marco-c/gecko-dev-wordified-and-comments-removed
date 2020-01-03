@@ -266,6 +266,11 @@ nsAgg
 h
 '
 '
+nsAlgorithm
+.
+h
+'
+'
 nsAutoPtr
 .
 h
