@@ -9403,13 +9403,6 @@ innerObject
 *
 /
 \
-nullptr
-/
-*
-iteratorObject
-*
-/
-\
 false
 /
 *

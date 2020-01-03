@@ -169,11 +169,6 @@ testContexts
 cpp
 '
 '
-testCustomIterator
-.
-cpp
-'
-'
 testDebugger
 .
 cpp

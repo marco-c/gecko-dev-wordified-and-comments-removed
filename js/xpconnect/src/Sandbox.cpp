@@ -2195,7 +2195,6 @@ JS_NULL_CLASS_SPEC
 {
 nullptr
 nullptr
-nullptr
 false
 nullptr
 sandbox_moved
@@ -2233,7 +2232,6 @@ nullptr
 JS_GlobalObjectTraceHook
 JS_NULL_CLASS_SPEC
 {
-nullptr
 nullptr
 nullptr
 false
