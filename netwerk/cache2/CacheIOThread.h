@@ -57,6 +57,15 @@ DebugOnly
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Atomics
+.
+h
+"
 class
 nsIRunnable
 ;
@@ -252,7 +261,11 @@ nsIThread
 >
 mXPCOMThread
 ;
+Atomic
+<
 uint32_t
+Relaxed
+>
 mLowestLevelWaiting
 ;
 uint32_t
