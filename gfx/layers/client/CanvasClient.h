@@ -467,7 +467,7 @@ mBuffer
 }
 ;
 class
-CanvasClientShSurf
+CanvasClientSharedSurface
 :
 public
 CanvasClient
@@ -500,7 +500,7 @@ mFrontTex
 ;
 public
 :
-CanvasClientShSurf
+CanvasClientSharedSurface
 (
 CompositableForwarder
 *
@@ -569,7 +569,7 @@ OnDetach
 )
 MOZ_OVERRIDE
 {
-CanvasClientShSurf
+CanvasClientSharedSurface
 :
 :
 Clear

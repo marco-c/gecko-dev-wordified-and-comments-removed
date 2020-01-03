@@ -243,7 +243,7 @@ class
 SurfaceStreamDescriptor
 ;
 class
-ShSurfDescriptor
+SharedSurfaceDescriptor
 ;
 class
 ISurfaceAllocator
@@ -1590,14 +1590,14 @@ mDataTextureSource
 }
 ;
 class
-ShSurfTexHost
+SharedSurfaceTextureHost
 :
 public
 TextureHost
 {
 public
 :
-ShSurfTexHost
+SharedSurfaceTextureHost
 (
 TextureFlags
 aFlags
@@ -1609,7 +1609,7 @@ aDesc
 ;
 virtual
 ~
-ShSurfTexHost
+SharedSurfaceTextureHost
 (
 )
 {
@@ -1776,7 +1776,7 @@ Name
 {
 return
 "
-ShSurfTexHost
+SharedSurfaceTextureHost
 "
 ;
 }

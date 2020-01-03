@@ -412,7 +412,7 @@ yflip
 }
 ;
 struct
-ShSurfDescriptor
+SharedSurfaceDescriptor
 {
 uintptr_t
 surf
@@ -507,7 +507,7 @@ SurfaceDescriptorMacIOSurface
 ;
 NewSurfaceDescriptorGralloc
 ;
-ShSurfDescriptor
+SharedSurfaceDescriptor
 ;
 null_t
 ;

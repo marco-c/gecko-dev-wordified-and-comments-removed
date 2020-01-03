@@ -13061,17 +13061,6 @@ get
 )
 ;
 }
-bool
-PublishFrame
-(
-)
-;
-SharedSurface
-*
-RequestFrame
-(
-)
-;
 void
 ClearSafely
 (

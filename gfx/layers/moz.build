@@ -182,6 +182,11 @@ ImageHost
 h
 '
 '
+CompositorTypes
+.
+h
+'
+'
 CopyableCanvasLayer
 .
 h
@@ -266,6 +271,11 @@ h
 '
 '
 LayerSorter
+.
+h
+'
+'
+LayersTypes
 .
 h
 '

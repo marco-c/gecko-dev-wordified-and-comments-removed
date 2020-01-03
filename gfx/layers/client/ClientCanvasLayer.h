@@ -403,7 +403,7 @@ CanvasClientSurfaceStream
 ;
 friend
 class
-CanvasClientShSurf
+CanvasClientSharedSurface
 ;
 }
 ;
