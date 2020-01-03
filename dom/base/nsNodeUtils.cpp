@@ -1697,6 +1697,9 @@ aResult
 =
 nullptr
 ;
+nsAutoScriptBlocker
+scriptBlocker
+;
 AutoJSContext
 cx
 ;
