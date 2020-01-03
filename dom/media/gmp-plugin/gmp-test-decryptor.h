@@ -48,6 +48,9 @@ public
 :
 FakeDecryptor
 (
+GMPDecryptorHost
+*
+aHost
 )
 ;
 virtual
@@ -230,6 +233,10 @@ TestStorage
 GMPDecryptorCallback
 *
 mCallback
+;
+GMPDecryptorHost
+*
+mHost
 ;
 }
 ;

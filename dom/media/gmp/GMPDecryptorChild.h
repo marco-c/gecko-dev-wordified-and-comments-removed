@@ -79,6 +79,13 @@ GMPDecryptorChild
 GMPChild
 *
 aPlugin
+const
+nsTArray
+<
+uint8_t
+>
+&
+aPluginVoucher
 )
 ;
 void
@@ -285,7 +292,7 @@ uint8_t
 *
 *
 aVoucher
-uint8_t
+uint32_t
 *
 aVoucherLength
 )
@@ -300,7 +307,7 @@ uint8_t
 *
 *
 aVoucher
-uint8_t
+uint32_t
 *
 aVoucherLength
 )
@@ -466,6 +473,14 @@ mSession
 GMPChild
 *
 mPlugin
+;
+const
+nsTArray
+<
+uint8_t
+>
+&
+mPluginVoucher
 ;
 }
 ;

@@ -89,6 +89,14 @@ srcdir
 fake
 .
 info
+\
+(
+srcdir
+)
+/
+fake
+.
+voucher
 include
 (
 topsrcdir
