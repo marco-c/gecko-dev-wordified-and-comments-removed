@@ -302,9 +302,8 @@ shared
 /
 widgets
 /
-Graphs
+LineGraphWidget
 "
-true
 )
 ;
 let
