@@ -6076,8 +6076,10 @@ mSSApplicableStateNotificationPending
 :
 1
 ;
-uint32_t
+uint8_t
 mCancelledPointerLockRequests
+:
+2
 ;
 uint8_t
 mXMLDeclarationBits
