@@ -79,7 +79,7 @@ MPL
 -
 >
 <
-LinearLayout
+FrameLayout
 xmlns
 :
 android
@@ -152,13 +152,6 @@ drawable
 /
 menu_popup_bg
 "
-android
-:
-orientation
-=
-"
-horizontal
-"
 >
 <
 !
@@ -175,5 +168,5 @@ dynamically
 >
 <
 /
-LinearLayout
+FrameLayout
 >
