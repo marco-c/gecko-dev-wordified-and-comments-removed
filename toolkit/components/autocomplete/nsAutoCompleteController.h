@@ -414,6 +414,9 @@ mFirstSearchResult
 uint32_t
 mImmediateSearchesCount
 ;
+int32_t
+mCompletedSelectionIndex
+;
 }
 ;
 #
