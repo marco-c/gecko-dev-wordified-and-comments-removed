@@ -382,8 +382,6 @@ mProgress
 |
 =
 FLAG_DECODE_STARTED
-|
-FLAG_ONLOAD_BLOCKED
 ;
 }
 InitInternal
@@ -1079,8 +1077,6 @@ mProgress
 |
 =
 FLAG_DECODE_COMPLETE
-|
-FLAG_ONLOAD_UNBLOCKED
 ;
 }
 mProgress
@@ -2636,8 +2632,6 @@ mProgress
 |
 =
 FLAG_FRAME_COMPLETE
-|
-FLAG_ONLOAD_UNBLOCKED
 ;
 if
 (
