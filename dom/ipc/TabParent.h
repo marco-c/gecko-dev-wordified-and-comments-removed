@@ -356,16 +356,6 @@ event
 ;
 virtual
 bool
-RecvDispatchAfterKeyboardEvent
-(
-const
-WidgetKeyboardEvent
-&
-event
-)
-;
-virtual
-bool
 RecvPRenderFrameConstructor
 (
 PRenderFrameParent

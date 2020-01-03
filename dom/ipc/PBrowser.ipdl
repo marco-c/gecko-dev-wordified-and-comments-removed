@@ -2612,12 +2612,6 @@ WidgetKeyboardEvent
 event
 )
 ;
-DispatchAfterKeyboardEvent
-(
-WidgetKeyboardEvent
-event
-)
-;
 sync
 RequestNativeKeyBindings
 (

@@ -295,11 +295,6 @@ BatteryManager
 webidl
 '
 '
-BeforeAfterKeyboardEvent
-.
-webidl
-'
-'
 BeforeUnloadEvent
 .
 webidl
@@ -2591,11 +2586,6 @@ webidl
 '
 '
 URLUtilsReadOnly
-.
-webidl
-'
-'
-USSDSession
 .
 webidl
 '
