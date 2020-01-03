@@ -1242,6 +1242,10 @@ GrallocTextureHostOGL
 (
 )
 {
+DestroyEGLImage
+(
+)
+;
 }
 void
 GrallocTextureHostOGL
