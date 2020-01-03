@@ -1113,11 +1113,6 @@ JS
 UnmarkGrayGCThingRecursively
 (
 aKey
-.
-asCell
-(
-)
-JSTRACE_OBJECT
 )
 )
 {
@@ -1194,15 +1189,6 @@ JS
 UnmarkGrayGCThingRecursively
 (
 aValue
-.
-asCell
-(
-)
-aValue
-.
-kind
-(
-)
 )
 )
 {

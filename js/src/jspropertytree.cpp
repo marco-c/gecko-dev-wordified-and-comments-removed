@@ -911,13 +911,9 @@ GRAY
 )
 )
 {
-JS
-:
-:
-UnmarkGrayGCThingRecursively
+UnmarkGrayShapeRecursively
 (
 existingShape
-JSTRACE_SHAPE
 )
 ;
 }
