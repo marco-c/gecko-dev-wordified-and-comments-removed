@@ -1333,6 +1333,23 @@ dependents
 ]
 :
                 
+test
+=
+test
+[
+'
+allowed_build_tasks
+'
+]
+[
+build
+[
+'
+task
+'
+]
+]
+                
 test_parameters
 =
 copy
