@@ -47,6 +47,7 @@ CSS_PSEUDO_CLASS
 (
 _name
 _value
+_flags
 _pref
 )
 \
@@ -74,6 +75,7 @@ CSS_PSEUDO_CLASS
 (
 name_
 value_
+flags_
 pref_
 )
 \
@@ -109,6 +111,7 @@ CSS_PSEUDO_CLASS
 (
 name_
 value_
+flags_
 pref_
 )
 \
@@ -149,6 +152,7 @@ CSS_PSEUDO_CLASS
 (
 name_
 value_
+flags_
 pref_
 )
 \
@@ -184,6 +188,7 @@ CSS_PSEUDO_CLASS
 (
 name_
 value_
+flags_
 pref_
 )
 \

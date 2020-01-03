@@ -4737,6 +4737,7 @@ CSS_PSEUDO_CLASS
 (
 _name
 _value
+_flags
 _pref
 )
 \
@@ -4749,6 +4750,7 @@ CSS_STATE_PSEUDO_CLASS
 (
 _name
 _value
+_flags
 _pref
 _states
 )
