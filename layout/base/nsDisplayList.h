@@ -4507,6 +4507,14 @@ nsIContent
 aCommonAncestor
 )
 ;
+void
+SortByCSSOrder
+(
+nsDisplayListBuilder
+*
+aBuilder
+)
+;
 typedef
 bool
 (
