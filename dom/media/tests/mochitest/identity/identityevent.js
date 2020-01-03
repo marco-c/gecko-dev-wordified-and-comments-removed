@@ -13,10 +13,9 @@ g
 .
 trapIdentityEvents
 =
-function
-(
 target
-)
+=
+>
 {
 var
 state
