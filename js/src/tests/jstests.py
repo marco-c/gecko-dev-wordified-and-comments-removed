@@ -2558,6 +2558,15 @@ jitflags
 yield
 tmp_test
         
+test_count
+=
+test_count
+*
+len
+(
+flags_list
+)
+        
 test_gen
 =
 flag_gen
