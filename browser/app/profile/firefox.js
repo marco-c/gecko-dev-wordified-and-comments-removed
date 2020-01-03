@@ -13071,11 +13071,8 @@ false
 )
 ;
 #
-if
-MOZ_UPDATE_CHANNEL
-=
-=
-aurora
+ifdef
+MOZ_DEV_EDITION
 pref
 (
 "
