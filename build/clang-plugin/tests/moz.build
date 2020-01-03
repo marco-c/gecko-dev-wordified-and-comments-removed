@@ -118,6 +118,11 @@ TestGlobalClass
 cpp
 '
 '
+TestInheritTypeAnnotationsFromTemplateArgs
+.
+cpp
+'
+'
 TestMultipleAnnotations
 .
 cpp
