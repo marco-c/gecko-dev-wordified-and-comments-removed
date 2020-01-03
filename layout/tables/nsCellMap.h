@@ -537,7 +537,7 @@ ExpandZeroColSpans
 )
 ;
 void
-ResetTopStart
+ResetBStartStart
 (
 mozilla
 :
@@ -552,7 +552,7 @@ aYPos
 uint32_t
 aXPos
 bool
-aIsLowerRight
+aIsBEndIEnd
 =
 false
 )
@@ -635,7 +635,7 @@ protected
 :
 BCData
 *
-GetRightMostBorder
+GetIEndMostBorder
 (
 int32_t
 aRowIndex
@@ -643,7 +643,7 @@ aRowIndex
 ;
 BCData
 *
-GetBottomMostBorder
+GetBEndMostBorder
 (
 int32_t
 aColIndex
@@ -677,7 +677,7 @@ aNewMap
 )
 ;
 void
-DeleteRightBottomBorders
+DeleteIEndBEndBorders
 (
 )
 ;

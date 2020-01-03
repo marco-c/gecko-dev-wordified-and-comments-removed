@@ -403,7 +403,7 @@ if
 mBCInfo
 )
 {
-DeleteRightBottomBorders
+DeleteIEndBEndBorders
 (
 )
 ;
@@ -417,7 +417,7 @@ BCData
 nsTableCellMap
 :
 :
-GetRightMostBorder
+GetIEndMostBorder
 (
 int32_t
 aRowIndex
@@ -495,7 +495,7 @@ BCData
 nsTableCellMap
 :
 :
-GetBottomMostBorder
+GetBEndMostBorder
 (
 int32_t
 aColIndex
@@ -572,7 +572,7 @@ void
 nsTableCellMap
 :
 :
-DeleteRightBottomBorders
+DeleteIEndBEndBorders
 (
 )
 {
@@ -2358,7 +2358,7 @@ rowX
 }
 else
 {
-GetRightMostBorder
+GetIEndMostBorder
 (
 aFirstRowIndex
 )
@@ -3601,7 +3601,9 @@ printf
 *
 *
 *
-bottom
+block
+-
+end
 borders
 *
 *
@@ -4558,7 +4560,7 @@ void
 nsTableCellMap
 :
 :
-ResetTopStart
+ResetBStartStart
 (
 LogicalSide
 aSide
@@ -4570,7 +4572,7 @@ aRowIndex
 uint32_t
 aColIndex
 bool
-aIsLowerRight
+aIsBEndIEnd
 )
 {
 if
@@ -4579,7 +4581,7 @@ if
 mBCInfo
 |
 |
-aIsLowerRight
+aIsBEndIEnd
 )
 ABORT0
 (
@@ -4700,7 +4702,7 @@ else
 {
 bcData
 =
-GetBottomMostBorder
+GetBEndMostBorder
 (
 aColIndex
 )
@@ -4764,7 +4766,7 @@ error
 ;
 bcData
 =
-GetRightMostBorder
+GetIEndMostBorder
 (
 aRowIndex
 )
@@ -5089,7 +5091,7 @@ else
 {
 bcData
 =
-GetBottomMostBorder
+GetBEndMostBorder
 (
 xIndex
 )
@@ -5137,7 +5139,7 @@ NS_ERROR
 "
 Cellmap
 :
-Top
+BStart
 edge
 not
 found
@@ -5243,7 +5245,7 @@ BCData
 *
 bcData
 =
-GetRightMostBorder
+GetIEndMostBorder
 (
 yIndex
 +
@@ -5272,7 +5274,7 @@ NS_ERROR
 "
 Cellmap
 :
-Left
+IStart
 edge
 not
 found
@@ -5461,7 +5463,7 @@ before
 ;
 bcData
 =
-GetRightMostBorder
+GetIEndMostBorder
 (
 yPos
 )
@@ -5623,7 +5625,7 @@ else
 {
 bcData
 =
-GetBottomMostBorder
+GetBEndMostBorder
 (
 xPos
 )

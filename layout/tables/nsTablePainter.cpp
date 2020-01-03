@@ -1111,7 +1111,7 @@ wm
 )
 ;
 nscoord
-lastLeftBorder
+lastIStartBorder
 =
 aTableFrame
 -
@@ -1163,7 +1163,7 @@ IStart
 wm
 )
 =
-lastLeftBorder
+lastIStartBorder
 ;
 cgFrame
 -
@@ -1287,9 +1287,9 @@ IStart
 wm
 )
 =
-lastLeftBorder
+lastIStartBorder
 ;
-lastLeftBorder
+lastIStartBorder
 =
 col
 -
