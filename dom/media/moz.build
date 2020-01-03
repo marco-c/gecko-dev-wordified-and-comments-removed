@@ -671,6 +671,11 @@ MediaDecoderStateMachine
 h
 '
 '
+MediaEventSource
+.
+h
+'
+'
 MediaFormatReader
 .
 h
