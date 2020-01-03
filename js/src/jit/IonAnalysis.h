@@ -234,6 +234,14 @@ MIRGraph
 graph
 )
 ;
+void
+AddKeepAliveInstructions
+(
+MIRGraph
+&
+graph
+)
+;
 class
 MDefinition
 ;

@@ -674,6 +674,11 @@ LambdaArrow
 \
 _
 (
+KeepAliveObject
+)
+\
+_
+(
 Slots
 )
 \

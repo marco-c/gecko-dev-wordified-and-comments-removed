@@ -329,6 +329,15 @@ mir
 ;
 inline
 LAllocation
+useKeepalive
+(
+MDefinition
+*
+mir
+)
+;
+inline
+LAllocation
 useKeepaliveOrConstant
 (
 MDefinition
