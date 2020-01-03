@@ -236,7 +236,7 @@ int
 id
 ;
 private
-final
+volatile
 long
 native_capturer
 ;
@@ -1961,6 +1961,18 @@ done
 ;
 return
 status
+;
+}
+WebRTCJNITarget
+private
+void
+unlinkCapturer
+(
+)
+{
+native_capturer
+=
+0
 ;
 }
 private
