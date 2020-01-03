@@ -583,6 +583,9 @@ mCurrentFrame
 ImageMetadata
 mImageMetadata
 ;
+nsIntRect
+mInvalidRect
+;
 Progress
 mProgress
 ;
@@ -616,9 +619,6 @@ private
 :
 uint32_t
 mFrameCount
-;
-nsIntRect
-mInvalidRect
 ;
 nsresult
 mFailCode
