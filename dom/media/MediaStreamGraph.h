@@ -2049,13 +2049,6 @@ aRawSegment
 nullptr
 )
 ;
-bool
-HaveEnoughBuffered
-(
-TrackID
-aID
-)
-;
 StreamTime
 GetEndOfAppendedData
 (
@@ -2273,9 +2266,6 @@ mData
 ;
 uint32_t
 mCommands
-;
-bool
-mHaveEnough
 ;
 }
 ;
