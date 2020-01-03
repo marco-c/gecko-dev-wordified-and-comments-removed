@@ -74,7 +74,7 @@ selectedTab
 setTimeout
 (
 step2
-100
+10
 )
 ;
 }
@@ -117,7 +117,7 @@ true
 setTimeout
 (
 step3
-100
+10
 )
 ;
 }
@@ -175,7 +175,7 @@ selected
 setTimeout
 (
 step4
-100
+10
 )
 ;
 }
