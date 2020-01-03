@@ -63926,7 +63926,7 @@ flag
 the
 method
 as
-MOZ_OVERRIDE
+override
         
 "
 "
@@ -64339,7 +64339,7 @@ else
 override
 =
 '
-MOZ_OVERRIDE
+override
 '
 if
 self
@@ -92877,7 +92877,7 @@ else
 decorators
 =
 "
-MOZ_FINAL
+final
 "
         
 CGClass
@@ -95539,7 +95539,7 @@ else
 decorators
 =
 "
-MOZ_FINAL
+final
 "
             
 destructor
