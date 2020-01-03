@@ -90,12 +90,10 @@ WebGLTexelFormat
 int
 )
 None
-BadFormat
+FormatNotSupportingAnyConversion
 Auto
 R8
 A8
-D16
-D32
 R16F
 A16F
 R32F
@@ -103,7 +101,6 @@ A32F
 RA8
 RA16F
 RA32F
-D24S8
 RGB8
 BGRX8
 RGB565

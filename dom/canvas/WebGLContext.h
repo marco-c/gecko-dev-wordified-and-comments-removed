@@ -5964,14 +5964,6 @@ InitWebGL2
 (
 )
 ;
-TexInternalFormat
-BaseTexFormat
-(
-TexInternalFormat
-internalFormat
-)
-const
-;
 bool
 CreateOffscreenGL
 (
@@ -6435,7 +6427,7 @@ GLfloat
 floatParamPtr
 )
 ;
-void
+bool
 ConvertImage
 (
 size_t

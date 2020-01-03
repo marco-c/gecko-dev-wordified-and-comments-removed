@@ -206,6 +206,10 @@ EXT_blend_minmax
 WebGLExtensionID
 :
 :
+EXT_sRGB
+WebGLExtensionID
+:
+:
 OES_element_index_uint
 WebGLExtensionID
 :
@@ -219,6 +223,14 @@ WebGLExtensionID
 :
 :
 OES_texture_float_linear
+WebGLExtensionID
+:
+:
+OES_texture_half_float
+WebGLExtensionID
+:
+:
+OES_texture_half_float_linear
 WebGLExtensionID
 :
 :
