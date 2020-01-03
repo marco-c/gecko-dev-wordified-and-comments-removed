@@ -2694,10 +2694,6 @@ mAudioCompleted
 =
 true
 ;
-UpdateNextFrameStatus
-(
-)
-;
 }
 }
 MediaDecoderStateMachine
@@ -4518,10 +4514,6 @@ CheckIfDecodeComplete
 (
 )
 ;
-UpdateNextFrameStatus
-(
-)
-;
 mDecoder
 -
 >
@@ -6218,6 +6210,10 @@ aState
 mState
 =
 aState
+;
+UpdateNextFrameStatus
+(
+)
 ;
 mSentPlaybackEndedEvent
 =
@@ -8552,10 +8548,6 @@ mCurrentSeek
 mTarget
 .
 mTime
-)
-;
-UpdateNextFrameStatus
-(
 )
 ;
 nsCOMPtr
@@ -12459,10 +12451,6 @@ NotifyAll
 (
 )
 ;
-UpdateNextFrameStatus
-(
-)
-;
 MaybeStartPlayback
 (
 )
@@ -14160,10 +14148,6 @@ currentFrame
 nullptr
 ;
 }
-UpdateNextFrameStatus
-(
-)
-;
 int64_t
 delay
 =
@@ -15241,10 +15225,6 @@ Now
 SetState
 (
 DECODER_STATE_BUFFERING
-)
-;
-UpdateNextFrameStatus
-(
 )
 ;
 DECODER_LOG
