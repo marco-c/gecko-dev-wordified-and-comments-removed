@@ -38718,7 +38718,9 @@ constraints
 JSObject
 *
 observedProto
-=
+;
+if
+(
 observedTypes
 -
 >
@@ -38727,10 +38729,11 @@ getCommonPrototype
 constraints
 (
 )
+&
+observedProto
 )
-;
-if
-(
+&
+&
 observedClass
 &
 &
