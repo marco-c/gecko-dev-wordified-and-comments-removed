@@ -317,9 +317,9 @@ listTabs
 ;
 win
 .
-Cmds
+projectList
 .
-showProjectPanel
+update
 (
 )
 ;
