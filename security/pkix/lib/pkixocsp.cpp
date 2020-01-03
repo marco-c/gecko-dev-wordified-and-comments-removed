@@ -308,9 +308,10 @@ ERROR_OCSP_RESPONDER_CERT_INVALID
 }
 rv
 =
-WrappedVerifySignedData
-(
 trustDomain
+.
+VerifySignedData
+(
 potentialSigner
 .
 GetSignedData
@@ -616,9 +617,10 @@ spki
 Result
 rv
 =
-WrappedVerifySignedData
-(
 trustDomain
+.
+VerifySignedData
+(
 signedResponseData
 spki
 )

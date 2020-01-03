@@ -867,12 +867,11 @@ rsa_pkcs1_with_sha1
 }
 else
 {
-algorithm
-=
-SignatureAlgorithm
+return
+Result
 :
 :
-unsupported_algorithm
+ERROR_CERT_SIGNATURE_ALGORITHM_DISABLED
 ;
 }
 return

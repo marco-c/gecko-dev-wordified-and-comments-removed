@@ -443,12 +443,6 @@ SEC_OID_SHA1
 ;
 break
 ;
-case
-SignatureAlgorithm
-:
-:
-unsupported_algorithm
-:
 default
 :
 PR_NOT_REACHED
