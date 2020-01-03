@@ -231,8 +231,6 @@ xpcom_glue_src_cppsrcs
 =
 [
 '
-%
-s
 /
 xpcom
 /
@@ -242,10 +240,7 @@ glue
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in
@@ -279,8 +274,6 @@ xpcom_gluens_src_cppsrcs
 =
 [
 '
-%
-s
 /
 xpcom
 /
@@ -290,10 +283,7 @@ glue
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in

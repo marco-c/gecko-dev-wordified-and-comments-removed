@@ -162,8 +162,6 @@ src_list
 =
 [
 '
-%
-s
 /
 xpcom
 /
@@ -173,10 +171,7 @@ base
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in
@@ -201,8 +196,6 @@ src_list
 =
 [
 '
-%
-s
 /
 xpcom
 /
@@ -212,10 +205,7 @@ build
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in
@@ -240,8 +230,6 @@ src_list
 =
 [
 '
-%
-s
 /
 xpcom
 /
@@ -251,10 +239,7 @@ components
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in
@@ -377,8 +362,6 @@ src_list
 =
 [
 '
-%
-s
 /
 xpcom
 /
@@ -388,10 +371,7 @@ ds
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in
@@ -506,8 +486,6 @@ src_list
 =
 [
 '
-%
-s
 /
 xpcom
 /
@@ -517,10 +495,7 @@ glue
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in
@@ -540,8 +515,6 @@ src_list
 =
 [
 '
-%
-s
 /
 xpcom
 /
@@ -551,10 +524,7 @@ io
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in
@@ -627,8 +597,6 @@ src_list
 =
 [
 '
-%
-s
 /
 xpcom
 /
@@ -638,10 +606,7 @@ string
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in
@@ -706,8 +671,6 @@ src_list
 =
 [
 '
-%
-s
 /
 xpcom
 /
@@ -717,10 +680,7 @@ threads
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in
@@ -744,8 +704,6 @@ INTEL_ARCHITECTURE
 sse_string_path
 =
 '
-%
-s
 /
 xpcom
 /
@@ -755,8 +713,6 @@ nsUTF8UtilsSSE2
 .
 cpp
 '
-%
-TOPSRCDIR
 SOURCES
 [
 sse_string_path

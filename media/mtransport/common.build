@@ -214,8 +214,6 @@ mtransport_cppsrcs
 =
 [
 '
-%
-s
 /
 media
 /
@@ -225,10 +223,7 @@ mtransport
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in

@@ -154,8 +154,6 @@ intl_unicharutil_util_cppsrcs
 =
 [
 '
-%
-s
 /
 intl
 /
@@ -167,11 +165,7 @@ util
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
-\
 for
 s
 in

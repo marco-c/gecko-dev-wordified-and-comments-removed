@@ -4399,6 +4399,9 @@ SOURCES
 '
 :
 (
+ContextDerivedTypedListWithItems
+(
+SourcePath
 StrictOrderingOnAppendListWithFlagsFactory
 (
 {
@@ -4413,6 +4416,7 @@ flags
 :
 List
 }
+)
 )
 list
         
@@ -4546,7 +4550,11 @@ UNIFIED_SOURCES
 '
 :
 (
+ContextDerivedTypedList
+(
+SourcePath
 StrictOrderingOnAppendList
+)
 list
         
 "
@@ -6408,7 +6416,11 @@ HOST_SOURCES
 '
 :
 (
+ContextDerivedTypedList
+(
+SourcePath
 StrictOrderingOnAppendList
+)
 list
         
 "

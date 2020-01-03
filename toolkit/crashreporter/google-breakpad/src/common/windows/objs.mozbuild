@@ -128,8 +128,6 @@ objs_common
 =
 [
 '
-%
-s
 /
 %
 s
@@ -139,7 +137,6 @@ s
 '
 %
 (
-TOPSRCDIR
 subdir
 s
 )

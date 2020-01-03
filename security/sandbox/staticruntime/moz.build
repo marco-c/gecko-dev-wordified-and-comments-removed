@@ -158,8 +158,6 @@ x86_64
 SOURCES
 [
 '
-%
-s
 /
 security
 /
@@ -177,8 +175,6 @@ sharedmem_ipc_client
 .
 cc
 '
-%
-TOPSRCDIR
 ]
 .
 no_pgo

@@ -162,8 +162,6 @@ src_list
 =
 [
 '
-%
-s
 /
 netwerk
 /
@@ -173,10 +171,7 @@ base
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in
@@ -236,8 +231,6 @@ src_list
 =
 [
 '
-%
-s
 /
 netwerk
 /
@@ -247,10 +240,7 @@ dns
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in

@@ -4506,6 +4506,11 @@ full_path
 =
 mozpath
 .
+normpath
+(
+                        
+mozpath
+.
 join
 (
 context
@@ -4513,30 +4518,16 @@ context
 objdir
 f
 )
+)
                 
 else
 :
                     
 full_path
 =
-mozpath
-.
-join
-(
-context
-.
-srcdir
 f
-)
-                
-full_path
-=
-mozpath
 .
-normpath
-(
 full_path
-)
                 
 srcs
 .

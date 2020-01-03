@@ -209,22 +209,7 @@ SOURCES
 =
 [
 '
-%
-s
 /
-%
-s
-'
-%
-(
-TOPSRCDIR
-p
-)
-for
-p
-in
-[
-'
 media
 /
 webrtc
@@ -244,6 +229,7 @@ BaseFilter
 cpp
 '
 '
+/
 media
 /
 webrtc
@@ -263,6 +249,7 @@ BaseInputPin
 cpp
 '
 '
+/
 media
 /
 webrtc
@@ -282,6 +269,7 @@ BasePin
 cpp
 '
 '
+/
 media
 /
 webrtc
@@ -300,7 +288,6 @@ MediaType
 .
 cpp
 '
-]
 ]
 FAIL_ON_WARNINGS
 =

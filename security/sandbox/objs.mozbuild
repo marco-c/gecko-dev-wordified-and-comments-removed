@@ -1480,8 +1480,6 @@ security_sandbox_cppsrcs
 =
 [
 '
-%
-s
 /
 security
 /
@@ -1491,10 +1489,7 @@ sandbox
 s
 '
 %
-(
-TOPSRCDIR
 s
-)
 for
 s
 in

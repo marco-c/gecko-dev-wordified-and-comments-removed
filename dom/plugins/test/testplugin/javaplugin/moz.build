@@ -102,8 +102,7 @@ nptestjava
 relative_path
 =
 '
-.
-.
+javaplugin
 '
 include
 (

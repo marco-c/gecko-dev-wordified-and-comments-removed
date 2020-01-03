@@ -165,8 +165,6 @@ fixed
 .
 SOURCES
 [
-TOPSRCDIR
-+
 '
 /
 mfbt

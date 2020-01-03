@@ -207,6 +207,8 @@ VARIABLES
     
 DEPRECATION_HINTS
     
+SourcePath
+    
 SPECIAL_VARIABLES
     
 SUBCONTEXTS
@@ -7659,17 +7661,10 @@ non_unified_sources
                 
 source
 =
-mozpath
-.
-normpath
+SourcePath
 (
-mozpath
-.
-join
-(
-curdir
+context
 s
-)
 )
                 
 if
@@ -7681,6 +7676,8 @@ path
 exists
 (
 source
+.
+full_path
 )
 :
                     

@@ -140,8 +140,6 @@ objs_crash_generation
 =
 [
 '
-%
-s
 /
 %
 s
@@ -151,7 +149,6 @@ s
 '
 %
 (
-TOPSRCDIR
 subdir
 s
 )

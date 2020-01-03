@@ -125,8 +125,6 @@ objs_sender
 =
 [
 '
-%
-s
 /
 %
 s
@@ -136,7 +134,6 @@ s
 '
 %
 (
-TOPSRCDIR
 subdir
 s
 )
