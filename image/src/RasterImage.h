@@ -722,10 +722,6 @@ mImage
 (
 aImage
 )
-mBytesToDecode
-(
-0
-)
 mRequestStatus
 (
 REQUEST_INACTIVE
@@ -743,9 +739,6 @@ DecodeRequest
 RasterImage
 *
 mImage
-;
-size_t
-mBytesToDecode
 ;
 enum
 DecodeRequestStatus
