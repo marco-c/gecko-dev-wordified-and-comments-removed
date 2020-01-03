@@ -7068,6 +7068,13 @@ aOffset
 )
 ;
 }
+mReadyStateWatchTarget
+-
+>
+Notify
+(
+)
+;
 }
 MediaDecoderStateMachine
 *
