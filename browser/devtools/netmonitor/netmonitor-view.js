@@ -3708,15 +3708,7 @@ clipboardHelper
 .
 copyString
 (
-params
-.
-join
-(
-"
-\
-n
-"
-)
+string
 document
 )
 ;
