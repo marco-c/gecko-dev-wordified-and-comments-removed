@@ -15058,6 +15058,9 @@ p1
 p2
 *
 drawTarget
+strokeOptions
+.
+mLineWidth
 )
 ;
 drawTarget
@@ -15214,6 +15217,9 @@ p1
 p2
 *
 drawTarget
+strokeOptions
+.
+mLineWidth
 )
 ;
 drawTarget

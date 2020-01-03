@@ -1503,6 +1503,8 @@ const
 DrawTarget
 &
 aDrawTarget
+Float
+aLineWidth
 )
 ;
 GFX2D_API
