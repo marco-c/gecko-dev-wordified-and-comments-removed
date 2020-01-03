@@ -31,6 +31,9 @@ ID
 .
 DS_Store
 *
+*
+.
+pdb
 #
 Vim
 swap
