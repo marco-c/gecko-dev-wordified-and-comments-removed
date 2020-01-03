@@ -3358,6 +3358,7 @@ bool
 aIsForCaret
 )
 const
+override
 {
 return
 mHelper
@@ -5240,6 +5241,7 @@ bool
 aIsForCaret
 )
 const
+override
 {
 return
 mHelper
