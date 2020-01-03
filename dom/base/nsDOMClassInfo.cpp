@@ -9253,6 +9253,14 @@ eWindow_Controllers
 )
 ;
 }
+MOZ_ASSERT
+(
+JS_IsGlobalObject
+(
+obj
+)
+)
+;
 JS
 :
 :
@@ -9269,7 +9277,6 @@ JS_NewObject
 cx
 &
 ControllersShimClass
-obj
 )
 )
 ;
