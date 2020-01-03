@@ -279,9 +279,9 @@ ComputedTiming
 (
 )
 :
-mTimeFraction
+mProgress
 (
-kNullTimeFraction
+kNullProgress
 )
 mCurrentIteration
 (
@@ -296,13 +296,13 @@ AnimationPhase_Null
 static
 const
 double
-kNullTimeFraction
+kNullProgress
 ;
 StickyTimeDuration
 mActiveDuration
 ;
 double
-mTimeFraction
+mProgress
 ;
 uint64_t
 mCurrentIteration
