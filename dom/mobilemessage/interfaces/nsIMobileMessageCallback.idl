@@ -107,9 +107,11 @@ list
 in
 :
 *
-embedding
+mobile
 /
 android
+/
+base
 /
 GeckoSmsManager
 .
