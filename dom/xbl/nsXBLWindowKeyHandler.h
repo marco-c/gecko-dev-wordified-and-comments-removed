@@ -119,6 +119,11 @@ nsXBLPrototypeHandler
 aHandler
 bool
 aExecute
+bool
+*
+aOutReservedForChrome
+=
+nullptr
 )
 ;
 bool
@@ -141,6 +146,11 @@ IgnoreModifierState
 aIgnoreModifierState
 bool
 aExecute
+bool
+*
+aOutReservedForChrome
+=
+nullptr
 )
 ;
 void
@@ -157,6 +167,11 @@ HasHandlerForEvent
 nsIDOMKeyEvent
 *
 aEvent
+bool
+*
+aOutReservedForChrome
+=
+nullptr
 )
 ;
 nsresult
