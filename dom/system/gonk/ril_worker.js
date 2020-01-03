@@ -20977,6 +20977,14 @@ true
 :
 false
 ;
+options
+.
+serviceClass
+=
+options
+.
+queryServiceClass
+;
 }
 else
 {
