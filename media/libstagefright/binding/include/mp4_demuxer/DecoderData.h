@@ -595,7 +595,7 @@ int64_t
 aMediaTime
 )
 ;
-void
+bool
 Pad
 (
 size_t
