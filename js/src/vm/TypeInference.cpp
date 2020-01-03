@@ -4058,7 +4058,7 @@ TemporaryTypeSet
 flags
 static_cast
 <
-TypeSetObjectKey
+ObjectKey
 *
 *
 >
@@ -4142,7 +4142,7 @@ res
 >
 addType
 (
-Type
+TypeSet
 :
 :
 ObjectType
