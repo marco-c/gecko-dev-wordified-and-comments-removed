@@ -884,7 +884,7 @@ size
 ScriptNamePair
 pairs
 [
-0
+1
 ]
 ;
 SizedScriptList
@@ -963,7 +963,11 @@ SizedScriptList
 )
 +
 (
+(
 nscripts
+-
+1
+)
 *
 sizeof
 (
@@ -5439,7 +5443,7 @@ numRegions_
 uint32_t
 regionOffsets_
 [
-0
+1
 ]
 ;
 const
