@@ -1555,7 +1555,7 @@ cx
 JitActivation
 *
 activation
-JitFrameIterator
+IonBailoutIterator
 &
 iter
 bool
