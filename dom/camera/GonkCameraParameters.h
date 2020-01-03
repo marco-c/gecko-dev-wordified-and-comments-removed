@@ -282,6 +282,12 @@ nsString
 >
 mSceneModes
 ;
+nsTArray
+<
+nsString
+>
+mMeteringModes
+;
 nsClassHashtable
 <
 nsStringHashKey
