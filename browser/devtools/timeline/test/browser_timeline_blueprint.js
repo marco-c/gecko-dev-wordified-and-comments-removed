@@ -1,5 +1,7 @@
+add_task
+(
 function
-test
+*
 (
 )
 {
@@ -161,8 +163,6 @@ key
 )
 ;
 }
-finish
-(
+}
 )
 ;
-}

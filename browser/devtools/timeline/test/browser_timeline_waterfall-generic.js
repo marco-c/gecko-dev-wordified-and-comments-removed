@@ -1,9 +1,4 @@
-let
-test
-=
-Task
-.
-async
+add_task
 (
 function
 *
@@ -527,16 +522,6 @@ the
 waterfall
 .
 "
-)
-;
-yield
-teardown
-(
-panel
-)
-;
-finish
-(
 )
 ;
 }

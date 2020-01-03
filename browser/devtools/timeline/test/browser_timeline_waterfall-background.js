@@ -1,9 +1,4 @@
-let
-test
-=
-Task
-.
-async
+add_task
 (
 function
 *
@@ -280,16 +275,6 @@ is
 correct
 .
 "
-)
-;
-yield
-teardown
-(
-panel
-)
-;
-finish
-(
 )
 ;
 }

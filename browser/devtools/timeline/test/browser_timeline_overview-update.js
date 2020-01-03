@@ -1,9 +1,4 @@
-let
-test
-=
-Task
-.
-async
+add_task
 (
 function
 *
@@ -630,16 +625,6 @@ after
 recording
 .
 "
-)
-;
-yield
-teardown
-(
-panel
-)
-;
-finish
-(
 )
 ;
 }

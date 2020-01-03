@@ -1,9 +1,4 @@
-let
-test
-=
-Task
-.
-async
+add_task
 (
 function
 *
@@ -109,16 +104,6 @@ panel
 window
 .
 "
-)
-;
-yield
-teardown
-(
-panel
-)
-;
-finish
-(
 )
 ;
 }
