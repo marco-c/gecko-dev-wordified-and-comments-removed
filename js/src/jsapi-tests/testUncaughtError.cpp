@@ -102,7 +102,12 @@ CreateError
 (
 cx
 JSEXN_TYPEERR
-empty
+JS
+:
+:
+NullPtr
+(
+)
 empty
 0
 0

@@ -161,7 +161,7 @@ do_check_eq
 opn
 .
 length
-5
+4
 )
 ;
 opn
@@ -211,17 +211,6 @@ opn
 ]
 "
 message
-"
-)
-;
-do_check_eq
-(
-opn
-[
-4
-]
-"
-stack
 "
 )
 ;

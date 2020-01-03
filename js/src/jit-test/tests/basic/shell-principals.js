@@ -300,7 +300,7 @@ e
 check
 (
 "
-edcba
+ecba
 "
 Error
 (
