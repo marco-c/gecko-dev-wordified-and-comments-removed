@@ -340,8 +340,6 @@ res
 /
 raw
 suggestedsites
--
-json
 :
 =
 (
@@ -361,8 +359,6 @@ GARBAGE
 \
 (
 suggestedsites
--
-json
 )
 \
 (
@@ -381,8 +377,6 @@ xml
 \
 (
 suggestedsites
--
-json
 )
 \
 (
@@ -903,8 +897,6 @@ specified
 .
 suggestedsites
 -
-json
--
 bypath
 =
 (
@@ -925,22 +917,16 @@ strip
 (
 suggestedsites
 -
-json
--
 bypath
 )
 )
 )
 suggestedsites
--
-json
 -
 bypath
 =
 (
 suggestedsites
--
-json
 )
 endif
 suggestedsites
@@ -958,8 +944,6 @@ patsubst
 dir
 (
 suggestedsites
--
-json
 -
 bypath
 )
