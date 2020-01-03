@@ -346,6 +346,9 @@ OVR_LIB_NAME
 nsAdoptingCString
 prefLibName
 =
+mozilla
+:
+:
 Preferences
 :
 :
