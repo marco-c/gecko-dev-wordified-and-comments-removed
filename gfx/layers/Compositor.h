@@ -921,6 +921,17 @@ mScreenRotation
 aRotation
 ;
 }
+RenderTargetRect
+ClipRectInLayersCoordinates
+(
+Layer
+*
+aLayer
+RenderTargetIntRect
+aClip
+)
+const
+;
 protected
 :
 void

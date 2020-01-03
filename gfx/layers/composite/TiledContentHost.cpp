@@ -2168,7 +2168,13 @@ quad
 .
 Intersects
 (
-RenderTargetRect
+mCompositor
+-
+>
+ClipRectInLayersCoordinates
+(
+mLayer
+RenderTargetIntRect
 (
 aClipRect
 .
@@ -2182,6 +2188,7 @@ width
 aClipRect
 .
 height
+)
 )
 )
 )
