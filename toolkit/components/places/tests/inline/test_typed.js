@@ -19,6 +19,7 @@ org
 /
 "
 function
+*
 (
 )
 {
@@ -40,6 +41,7 @@ typed
 false
 )
 ;
+yield
 PlacesTestUtils
 .
 addVisits
@@ -94,6 +96,7 @@ link
 /
 "
 function
+*
 (
 )
 {
@@ -115,6 +118,7 @@ typed
 false
 )
 ;
+yield
 PlacesTestUtils
 .
 addVisits
@@ -164,6 +168,7 @@ moz
 moz
 "
 function
+*
 (
 )
 {
@@ -185,6 +190,7 @@ typed
 true
 )
 ;
+yield
 PlacesTestUtils
 .
 addVisits
@@ -234,6 +240,7 @@ org
 /
 "
 function
+*
 (
 )
 {
@@ -255,6 +262,7 @@ typed
 true
 )
 ;
+yield
 PlacesTestUtils
 .
 addVisits
@@ -319,6 +327,7 @@ org
 li
 "
 function
+*
 (
 )
 {
@@ -340,6 +349,7 @@ typed
 true
 )
 ;
+yield
 PlacesTestUtils
 .
 addVisits
@@ -395,6 +405,7 @@ link
 /
 "
 function
+*
 (
 )
 {
@@ -416,6 +427,7 @@ typed
 true
 )
 ;
+yield
 PlacesTestUtils
 .
 addVisits
