@@ -3536,7 +3536,7 @@ result
 if
 (
 !
-StandardDefineProperty
+DefineProperty
 (
 cx
 nobj

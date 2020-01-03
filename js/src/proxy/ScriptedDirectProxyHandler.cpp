@@ -2540,7 +2540,7 @@ isUndefined
 )
 )
 return
-StandardDefineProperty
+DefineProperty
 (
 cx
 target
