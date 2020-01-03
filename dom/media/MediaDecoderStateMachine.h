@@ -222,6 +222,11 @@ GetDuration
 (
 )
 ;
+int64_t
+GetEndTime
+(
+)
+;
 void
 SetDuration
 (
@@ -1616,6 +1621,9 @@ mStartTime
 ;
 int64_t
 mEndTime
+;
+bool
+mDurationSet
 ;
 SeekTarget
 mSeekTarget
