@@ -4367,11 +4367,7 @@ obj
 ;
 MOZ_ASSERT
 (
-!
-js
-:
-:
-GetObjectParent
+JS_IsGlobalObject
 (
 obj
 )

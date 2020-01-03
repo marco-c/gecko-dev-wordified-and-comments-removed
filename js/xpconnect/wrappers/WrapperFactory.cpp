@@ -701,11 +701,7 @@ obj
 )
 |
 |
-!
-js
-:
-:
-GetObjectParent
+JS_IsGlobalObject
 (
 obj
 )
