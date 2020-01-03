@@ -146,11 +146,6 @@ sBtAvrcpInterface
 #
 endif
 }
-#
-if
-ANDROID_VERSION
->
-17
 static
 void
 ConvertAttributeString
@@ -286,8 +281,6 @@ break
 ;
 }
 }
-#
-endif
 NS_IMETHODIMP
 BluetoothA2dpManager
 :
