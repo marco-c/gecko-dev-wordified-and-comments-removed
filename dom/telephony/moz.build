@@ -177,6 +177,13 @@ h
 '
 ipc
 /
+TelephonyIPCSerializer
+.
+h
+'
+'
+ipc
+/
 TelephonyParent
 .
 h
