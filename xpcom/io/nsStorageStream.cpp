@@ -1345,11 +1345,6 @@ mStatus
 NS_OK
 )
 {
-NS_ADDREF
-(
-mStorageStream
-)
-;
 }
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTSTREAM
@@ -1363,11 +1358,6 @@ nsStorageInputStream
 (
 )
 {
-NS_IF_RELEASE
-(
-mStorageStream
-)
-;
 }
 protected
 :
@@ -1384,8 +1374,10 @@ nsStorageStream
 ;
 private
 :
+nsRefPtr
+<
 nsStorageStream
-*
+>
 mStorageStream
 ;
 uint32_t
