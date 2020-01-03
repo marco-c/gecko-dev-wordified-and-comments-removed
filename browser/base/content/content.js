@@ -2952,7 +2952,7 @@ return
 ;
 }
 let
-currentURL
+url
 =
 Services
 .
@@ -2969,7 +2969,7 @@ null
 null
 )
 .
-specIgnoringRef
+spec
 ;
 if
 (
@@ -2979,7 +2979,7 @@ url
 !
 =
 =
-currentURL
+url
 )
 {
 return

@@ -719,7 +719,7 @@ async
 function
 *
 (
-uri
+url
 )
 {
 let
@@ -729,9 +729,7 @@ this
 .
 _toHashedPath
 (
-uri
-.
-specIgnoringRef
+url
 )
 ;
 try
@@ -871,7 +869,7 @@ async
 function
 *
 (
-uri
+url
 )
 {
 let
@@ -881,9 +879,7 @@ this
 .
 _toHashedPath
 (
-uri
-.
-specIgnoringRef
+url
 )
 ;
 yield
@@ -1175,9 +1171,16 @@ article
 .
 url
 =
+article
+.
 uri
 .
-specIgnoringRef
+spec
+;
+delete
+article
+.
+uri
 ;
 let
 flags
