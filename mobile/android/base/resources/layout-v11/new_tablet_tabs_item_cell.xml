@@ -182,15 +182,6 @@ orientation
 "
 vertical
 "
-android
-:
-paddingBottom
-=
-"
-dimen
-/
-new_tablet_tab_panel_grid_padding
-"
 >
 <
 LinearLayout
