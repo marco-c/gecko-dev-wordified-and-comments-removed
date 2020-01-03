@@ -5796,9 +5796,6 @@ ignoreMissingLeaks
 =
 [
 "
-tab
-"
-"
 geckomediaplugin
 "
 ]
@@ -7514,23 +7511,16 @@ default
 "
 )
         
-assert
-"
-tab
-"
-in
 options
 .
 ignoreMissingLeaks
+.
+append
+(
 "
-Ignore
-failures
-for
 tab
-processes
-on
-B2G
 "
+)
         
 return
 options
