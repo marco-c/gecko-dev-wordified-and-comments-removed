@@ -2838,6 +2838,11 @@ AuthenticationResult
 .
 ALLOW
 :
+case
+AuthenticationResult
+.
+ALLOW_PERSIST
+:
 return
 promise
 .
