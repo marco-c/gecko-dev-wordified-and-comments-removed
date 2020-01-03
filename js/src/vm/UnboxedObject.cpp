@@ -1037,13 +1037,12 @@ PlainObject
 )
 )
 ;
-NativeObject
-:
-:
+nobj
+-
+>
 setLastPropertyMakeNative
 (
 cx
-nobj
 shape
 )
 ;
