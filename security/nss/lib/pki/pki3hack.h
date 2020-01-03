@@ -292,9 +292,6 @@ nssPKIX509_GetIssuerAndSerialFromDER
 NSSDER
 *
 der
-NSSArena
-*
-arena
 NSSDER
 *
 issuer
