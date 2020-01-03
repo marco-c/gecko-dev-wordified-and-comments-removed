@@ -353,6 +353,11 @@ if
 gfxPlatform
 :
 :
+GetPlatform
+(
+)
+-
+>
 CanUseHardwareVideoDecoding
 (
 )

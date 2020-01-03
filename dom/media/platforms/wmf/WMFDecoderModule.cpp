@@ -227,8 +227,7 @@ false
 ;
 sDXVAEnabled
 =
-!
-gfxWindowsPlatform
+gfxPlatform
 :
 :
 GetPlatform
@@ -236,14 +235,6 @@ GetPlatform
 )
 -
 >
-IsWARP
-(
-)
-&
-&
-gfxPlatform
-:
-:
 CanUseHardwareVideoDecoding
 (
 )

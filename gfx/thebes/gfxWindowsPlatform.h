@@ -595,6 +595,13 @@ aLength
 ;
 virtual
 bool
+CanUseHardwareVideoDecoding
+(
+)
+override
+;
+virtual
+bool
 IsFontFormatSupported
 (
 nsIURI
@@ -1083,6 +1090,9 @@ mIsWARP
 ;
 bool
 mHasDeviceReset
+;
+bool
+mDoesD3D11TextureSharingWork
 ;
 DeviceResetReason
 mDeviceResetReason

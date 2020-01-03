@@ -1538,7 +1538,7 @@ CanUseDirect3D11
 (
 )
 ;
-static
+virtual
 bool
 CanUseHardwareVideoDecoding
 (
