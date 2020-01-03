@@ -153,17 +153,6 @@ IsNuwaProcess
 )
 )
 {
-NS_ASSERTION
-(
-NuwaMarkCurrentThread
-"
-NuwaMarkCurrentThread
-is
-undefined
-!
-"
-)
-;
 NuwaMarkCurrentThread
 (
 nullptr
