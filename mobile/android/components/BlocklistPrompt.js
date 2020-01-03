@@ -345,7 +345,7 @@ Ci
 .
 nsIPluginTag
 )
-addonList
+aAddons
 [
 i
 ]

@@ -2150,6 +2150,8 @@ aPass
 )
 {
 return
+this
+.
 nsIAuthPrompt_loginPrompt
 (
 aTitle
@@ -2173,6 +2175,8 @@ aPass
 )
 {
 return
+this
+.
 nsIAuthPrompt_loginPrompt
 (
 aTitle
@@ -4557,6 +4561,7 @@ uri
 .
 host
 ;
+let
 port
 =
 uri

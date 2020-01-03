@@ -113,9 +113,12 @@ get
 firefox
 (
 )
+{
+return
 this
 .
 fennec
+}
 empty
 :
 {
