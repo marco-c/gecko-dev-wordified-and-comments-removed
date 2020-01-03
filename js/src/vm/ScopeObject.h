@@ -3018,7 +3018,7 @@ MissingScopeKey
 AbstractFramePtr
 frame_
 ;
-HeapPtrObject
+RelocatablePtrObject
 staticScope_
 ;
 void

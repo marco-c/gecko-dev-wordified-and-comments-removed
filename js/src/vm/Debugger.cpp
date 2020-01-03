@@ -12280,7 +12280,7 @@ popFront
 )
 )
 {
-HeapPtrNativeObject
+RelocatablePtrNativeObject
 &
 frameobj
 =

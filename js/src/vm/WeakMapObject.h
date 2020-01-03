@@ -28,7 +28,7 @@ public
 WeakMap
 <
 PreBarrieredObject
-HeapValue
+RelocatableValue
 >
 {
 public
@@ -46,7 +46,7 @@ obj
 WeakMap
 <
 PreBarrieredObject
-HeapValue
+RelocatableValue
 >
 (
 cx

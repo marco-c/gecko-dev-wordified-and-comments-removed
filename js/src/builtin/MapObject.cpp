@@ -5798,7 +5798,7 @@ k
 return
 false
 ;
-HeapValue
+RelocatableValue
 rval
 (
 v
@@ -6337,7 +6337,7 @@ key
 return
 false
 ;
-HeapValue
+RelocatableValue
 rval
 (
 val
@@ -7273,7 +7273,7 @@ args
 key
 )
 ;
-HeapValue
+RelocatableValue
 rval
 (
 args

@@ -3784,7 +3784,7 @@ outOfBoundsExit_
 StaticLinkData
 staticLinkData_
 ;
-HeapPtrArrayBufferObjectMaybeShared
+RelocatablePtrArrayBufferObjectMaybeShared
 maybeHeap_
 ;
 AsmJSModule

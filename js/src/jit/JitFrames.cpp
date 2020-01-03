@@ -9146,7 +9146,7 @@ return
 fp_
 ;
 }
-HeapValue
+RelocatableValue
 &
 RInstructionResults
 :
