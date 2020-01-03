@@ -13538,6 +13538,10 @@ cloneFunctions
 (
 false
 )
+deepFreeze
+(
+false
+)
 {
 }
 virtual
@@ -13565,6 +13569,16 @@ cloneFunctions
 &
 cloneFunctions
 )
+&
+&
+ParseBoolean
+(
+"
+deepFreeze
+"
+&
+deepFreeze
+)
 ;
 }
 bool
@@ -13572,6 +13586,9 @@ wrapReflectors
 ;
 bool
 cloneFunctions
+;
+bool
+deepFreeze
 ;
 }
 ;
