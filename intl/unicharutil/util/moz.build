@@ -100,9 +100,6 @@ DIRS
 '
 internal
 '
-'
-standalone
-'
 ]
 EXPORTS
 +
