@@ -774,11 +774,6 @@ ContinueProcessNormal
 nsresult
 )
 ;
-void
-ProcessAltService
-(
-)
-;
 nsresult
 ProcessNotModified
 (
@@ -1662,9 +1657,6 @@ PopRedirectAsyncFunc
 nsContinueRedirectionFunc
 func
 )
-;
-nsCString
-mUsername
 ;
 protected
 :

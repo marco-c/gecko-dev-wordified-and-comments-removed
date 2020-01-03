@@ -506,7 +506,6 @@ uint32_t
 )
 ;
 \
-virtual
 void
 Close
 (
