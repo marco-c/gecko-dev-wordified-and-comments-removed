@@ -85,6 +85,9 @@ then
 MOZ_MAINTENANCE_SERVICE
 =
 1
+MOZ_VERIFY_MAR_SIGNATURE
+=
+1
 if
 !
 test
@@ -93,9 +96,6 @@ HAVE_64BIT_BUILD
 "
 ;
 then
-MOZ_VERIFY_MAR_SIGNATURE
-=
-1
 if
 test
 "
