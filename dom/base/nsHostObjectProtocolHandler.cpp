@@ -1921,7 +1921,7 @@ if
 aPrincipal
 )
 {
-nsAutoString
+nsAutoCString
 origin
 ;
 rv
@@ -1929,7 +1929,7 @@ rv
 nsContentUtils
 :
 :
-GetUTFOrigin
+GetASCIIOrigin
 (
 aPrincipal
 origin
@@ -1950,10 +1950,11 @@ return
 rv
 ;
 }
-AppendUTF16toUTF8
+aUri
+.
+Append
 (
 origin
-aUri
 )
 ;
 aUri
