@@ -184,6 +184,11 @@ QuotaObject
 h
 '
 '
+StoragePrivilege
+.
+h
+'
+'
 UsageInfo
 .
 h
