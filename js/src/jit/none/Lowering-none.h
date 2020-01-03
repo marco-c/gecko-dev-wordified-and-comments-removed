@@ -759,7 +759,7 @@ MOZ_CRASH
 )
 ;
 }
-bool
+void
 visitSubstr
 (
 MSubstr
