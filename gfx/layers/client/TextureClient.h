@@ -809,8 +809,11 @@ aReleaseFenceHandle
 )
 {
 mReleaseFenceHandle
-=
+.
+Merge
+(
 aReleaseFenceHandle
+)
 ;
 }
 const

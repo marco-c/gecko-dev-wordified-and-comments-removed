@@ -962,15 +962,6 @@ GetIPDLActor
 (
 )
 ;
-static
-void
-SendFenceHandleIfPresent
-(
-PTextureParent
-*
-actor
-)
-;
 FenceHandle
 GetAndResetReleaseFenceHandle
 (
