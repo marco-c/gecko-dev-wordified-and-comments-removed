@@ -109,7 +109,7 @@ getOverview
 ;
 ok
 (
-snapshotActor
+animationOverview
 "
 An
 animation
