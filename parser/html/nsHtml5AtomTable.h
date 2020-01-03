@@ -50,6 +50,7 @@ nsStringHashKey
 {
 public
 :
+explicit
 nsHtml5AtomEntry
 (
 KeyTypePointer

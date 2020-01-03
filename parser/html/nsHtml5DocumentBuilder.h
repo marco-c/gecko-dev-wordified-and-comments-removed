@@ -300,6 +300,7 @@ FlushTags
 ;
 protected
 :
+explicit
 nsHtml5DocumentBuilder
 (
 bool

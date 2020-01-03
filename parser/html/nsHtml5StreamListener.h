@@ -42,6 +42,7 @@ nsIThreadRetargetableStreamListener
 {
 public
 :
+explicit
 nsHtml5StreamListener
 (
 nsHtml5StreamParser
