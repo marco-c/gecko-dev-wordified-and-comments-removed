@@ -168,10 +168,6 @@ mMouseTransparent
 (
 false
 )
-mMultiProcessWindow
-(
-false
-)
 {
 }
 nsWindowType
@@ -217,9 +213,6 @@ mSupportTranslucency
 ;
 bool
 mMouseTransparent
-;
-bool
-mMultiProcessWindow
 ;
 }
 ;

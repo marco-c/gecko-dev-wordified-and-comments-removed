@@ -692,13 +692,6 @@ aHeight
 )
 ;
 virtual
-bool
-IsMultiProcessWindow
-(
-)
-override
-;
-virtual
 void
 PrepareWindowEffects
 (
@@ -2236,9 +2229,6 @@ mBorderStyle
 ;
 bool
 mUseLayersAcceleration
-;
-bool
-mMultiProcessWindow
 ;
 bool
 mUseAttachedEvents

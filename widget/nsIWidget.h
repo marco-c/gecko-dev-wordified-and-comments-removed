@@ -3208,14 +3208,6 @@ aStatus
 0
 ;
 virtual
-bool
-IsMultiProcessWindow
-(
-)
-=
-0
-;
-virtual
 nsEventStatus
 DispatchAPZAwareEvent
 (
