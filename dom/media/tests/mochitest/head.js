@@ -647,6 +647,16 @@ set
 [
 [
 '
+canvas
+.
+capturestream
+.
+enabled
+'
+true
+]
+[
+'
 dom
 .
 messageChannel
