@@ -780,6 +780,16 @@ int16_t
 aLevel
 )
 ;
+nsresult
+GenerateRandomPathName
+(
+nsCString
+&
+aOutSalt
+uint32_t
+aLength
+)
+;
 }
 #
 endif
