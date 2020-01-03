@@ -1508,6 +1508,9 @@ if
 web
 "
 "
+trusted
+"
+"
 privileged
 "
 "

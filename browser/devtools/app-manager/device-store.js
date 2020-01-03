@@ -615,6 +615,14 @@ name
 ]
 .
 app
+trusted
+:
+permissionsTable
+[
+name
+]
+.
+trusted
 privileged
 :
 permissionsTable
