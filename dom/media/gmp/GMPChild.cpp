@@ -1665,6 +1665,16 @@ whitelist
 =
 {
 "
+bcrypt
+.
+dll
+"
+"
+crypt32
+.
+dll
+"
+"
 d3d9
 .
 dll
