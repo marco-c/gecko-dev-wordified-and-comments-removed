@@ -2141,6 +2141,8 @@ PLDHashTableOps
 gHostDB_ops
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 HostDB_HashKey
 HostDB_MatchEntry
 HostDB_MoveEntry

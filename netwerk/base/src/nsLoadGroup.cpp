@@ -4725,6 +4725,8 @@ PLDHashTableOps
 hash_table_ops
 =
 {
+PL_DHashAllocTable
+PL_DHashFreeTable
 PL_DHashVoidPtrKeyStub
 RequestHashMatchEntry
 PL_DHashMoveEntryStub
