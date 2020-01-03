@@ -2040,6 +2040,10 @@ make_flags
 ]
 =
 value
+.
+split
+(
+)
                 
 continue
             

@@ -2361,8 +2361,12 @@ write
 mk_add_options
 MOZ_MAKE_FLAGS
 =
+"
 -
 j8
+-
+s
+"
 \
 n
 '
@@ -2448,10 +2452,16 @@ result
 make_flags
 '
 ]
+[
 '
 -
 j8
 '
+'
+-
+s
+'
+]
 )
             
 self
