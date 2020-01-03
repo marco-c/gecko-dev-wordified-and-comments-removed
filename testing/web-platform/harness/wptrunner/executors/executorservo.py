@@ -102,6 +102,11 @@ binary
 "
 -
 -
+cpu
+"
+"
+-
+-
 hard
 -
 fail

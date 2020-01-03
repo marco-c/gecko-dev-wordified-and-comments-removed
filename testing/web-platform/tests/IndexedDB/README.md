@@ -33,14 +33,6 @@ test
 .
 org
 /
-web
--
-platform
--
-tests
-/
-master
-/
 IndexedDB
 /
 >

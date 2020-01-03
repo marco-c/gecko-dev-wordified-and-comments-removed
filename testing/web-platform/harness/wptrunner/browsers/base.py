@@ -507,6 +507,36 @@ pass
 abstractmethod
     
 def
+pid
+(
+self
+)
+:
+        
+"
+"
+"
+pid
+of
+the
+browser
+process
+or
+None
+if
+there
+is
+no
+pid
+"
+"
+"
+        
+pass
+    
+abstractmethod
+    
+def
 is_alive
 (
 self
@@ -601,7 +631,6 @@ def
 log_crash
 (
 self
-logger
 process
 test
 )
@@ -637,6 +666,8 @@ occurred
 "
 "
         
+self
+.
 logger
 .
 crash
@@ -710,6 +741,16 @@ self
 :
         
 pass
+    
+def
+pid
+(
+self
+)
+:
+        
+return
+None
     
 def
 is_alive

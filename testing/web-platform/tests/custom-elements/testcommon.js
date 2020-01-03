@@ -1428,13 +1428,6 @@ c
 )
 )
 ;
-testCharCode
-(
-c
-namingFunction
-checkFunction
-)
-;
 }
 }
 }
