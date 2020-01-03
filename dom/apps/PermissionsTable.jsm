@@ -1420,7 +1420,7 @@ trusted
 DENY_ACTION
 privileged
 :
-DENY_ACTION
+ALLOW_ACTION
 certified
 :
 ALLOW_ACTION
