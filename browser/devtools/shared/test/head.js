@@ -627,9 +627,15 @@ false
 )
 ;
 }
+let
+createHost
+=
+Task
+.
+async
+(
 function
 *
-createHost
 (
 type
 =
@@ -728,6 +734,8 @@ contentDocument
 ]
 ;
 }
+)
+;
 function
 loadTelemetryAndRecordLogs
 (
