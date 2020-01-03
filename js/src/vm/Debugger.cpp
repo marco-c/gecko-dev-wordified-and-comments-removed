@@ -29720,6 +29720,11 @@ ScriptFrameIter
 :
 :
 GO_THROUGH_SAVED
+\
+ScriptFrameIter
+:
+:
+IGNORE_DEBUGGER_EVAL_PREV_LINK
 )
 ;
 \

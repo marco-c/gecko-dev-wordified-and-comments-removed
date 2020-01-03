@@ -3078,6 +3078,10 @@ FrameIter
 :
 :
 GO_THROUGH_SAVED
+FrameIter
+:
+:
+FOLLOW_DEBUGGER_EVAL_PREV_LINK
 cx
 -
 >

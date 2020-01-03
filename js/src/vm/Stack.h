@@ -5249,6 +5249,13 @@ ALL_CONTEXTS
 }
 ;
 enum
+DebuggerEvalOption
+{
+FOLLOW_DEBUGGER_EVAL_PREV_LINK
+IGNORE_DEBUGGER_EVAL_PREV_LINK
+}
+;
+enum
 State
 {
 DONE
@@ -5269,6 +5276,9 @@ savedOption_
 ;
 ContextOption
 contextOption_
+;
+DebuggerEvalOption
+debuggerEvalOption_
 ;
 JSPrincipals
 *
@@ -5308,6 +5318,8 @@ SavedOption
 savedOption
 ContextOption
 contextOption
+DebuggerEvalOption
+debuggerEvalOption
 JSPrincipals
 *
 principals
@@ -5341,6 +5353,9 @@ JSContext
 cx
 ContextOption
 SavedOption
+DebuggerEvalOption
+=
+FOLLOW_DEBUGGER_EVAL_PREV_LINK
 )
 ;
 FrameIter
@@ -5350,6 +5365,7 @@ JSContext
 cx
 ContextOption
 SavedOption
+DebuggerEvalOption
 JSPrincipals
 *
 )
@@ -5972,6 +5988,10 @@ ContextOption
 cxOption
 SavedOption
 savedOption
+DebuggerEvalOption
+debuggerEvalOption
+=
+FOLLOW_DEBUGGER_EVAL_PREV_LINK
 )
 :
 FrameIter
@@ -5979,6 +5999,7 @@ FrameIter
 cx
 cxOption
 savedOption
+debuggerEvalOption
 )
 {
 settle
@@ -5995,6 +6016,8 @@ ContextOption
 cxOption
 SavedOption
 savedOption
+DebuggerEvalOption
+debuggerEvalOption
 JSPrincipals
 *
 prin
@@ -6005,6 +6028,7 @@ FrameIter
 cx
 cxOption
 savedOption
+debuggerEvalOption
 prin
 )
 {
@@ -6178,6 +6202,16 @@ FrameIter
 :
 SavedOption
 savedOption
+FrameIter
+:
+:
+DebuggerEvalOption
+debuggerEvalOption
+=
+FrameIter
+:
+:
+FOLLOW_DEBUGGER_EVAL_PREV_LINK
 )
 :
 FrameIter
@@ -6185,6 +6219,7 @@ FrameIter
 cx
 contextOption
 savedOption
+debuggerEvalOption
 )
 {
 settle
@@ -6207,6 +6242,11 @@ FrameIter
 :
 SavedOption
 savedOption
+FrameIter
+:
+:
+DebuggerEvalOption
+debuggerEvalOption
 JSPrincipals
 *
 principals
@@ -6217,6 +6257,7 @@ FrameIter
 cx
 contextOption
 savedOption
+debuggerEvalOption
 principals
 )
 {
@@ -6328,6 +6369,16 @@ ScriptFrameIter
 :
 SavedOption
 savedOption
+ScriptFrameIter
+:
+:
+DebuggerEvalOption
+debuggerEvalOption
+=
+ScriptFrameIter
+:
+:
+FOLLOW_DEBUGGER_EVAL_PREV_LINK
 )
 :
 ScriptFrameIter
@@ -6335,6 +6386,7 @@ ScriptFrameIter
 cx
 contextOption
 savedOption
+debuggerEvalOption
 )
 {
 settle
@@ -6357,6 +6409,11 @@ ScriptFrameIter
 :
 SavedOption
 savedOption
+ScriptFrameIter
+:
+:
+DebuggerEvalOption
+debuggerEvalOption
 JSPrincipals
 *
 principals
@@ -6367,6 +6424,7 @@ ScriptFrameIter
 cx
 contextOption
 savedOption
+debuggerEvalOption
 principals
 )
 {
@@ -6448,6 +6506,10 @@ ScriptFrameIter
 :
 :
 GO_THROUGH_SAVED
+ScriptFrameIter
+:
+:
+IGNORE_DEBUGGER_EVAL_PREV_LINK
 )
 {
 }
