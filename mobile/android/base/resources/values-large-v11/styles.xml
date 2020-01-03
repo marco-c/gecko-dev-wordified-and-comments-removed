@@ -1235,7 +1235,7 @@ android
 layout_height
 "
 >
-568dp
+wrap_content
 <
 /
 item
