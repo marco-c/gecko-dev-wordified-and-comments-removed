@@ -1366,6 +1366,9 @@ g
 ;
 }
 ;
+namespace
+base
+{
 inline
 Tuple0
 MakeTuple
@@ -1762,6 +1765,7 @@ f
 g
 )
 ;
+}
 }
 template
 <

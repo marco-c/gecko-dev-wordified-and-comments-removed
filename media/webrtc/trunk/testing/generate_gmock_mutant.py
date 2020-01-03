@@ -2129,6 +2129,9 @@ s
 (
 obj
 method
+base
+:
+:
 MakeTuple
 (
 %
@@ -2249,6 +2252,9 @@ s
           
 (
 function
+base
+:
+:
 MakeTuple
 (
 %

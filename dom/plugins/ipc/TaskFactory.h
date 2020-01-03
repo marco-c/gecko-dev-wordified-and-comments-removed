@@ -245,6 +245,9 @@ Init
 (
 object_
 method
+base
+:
+:
 MakeTuple
 (
 )
@@ -305,6 +308,9 @@ Init
 (
 object_
 method
+base
+:
+:
 MakeTuple
 (
 a
