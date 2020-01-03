@@ -590,6 +590,7 @@ GeckoJarReader
 .
 getText
 (
+context
 updateLocaleUrl
 )
 ;

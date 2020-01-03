@@ -2650,6 +2650,7 @@ GeckoJarReader
 .
 getStream
 (
+context
 url
 )
 ;
@@ -2702,6 +2703,7 @@ GeckoJarReader
 .
 getStream
 (
+context
 url
 )
 ;
@@ -2734,6 +2736,7 @@ GeckoJarReader
 .
 getStream
 (
+context
 url
 )
 ;
@@ -2764,6 +2767,7 @@ GeckoJarReader
 .
 getStream
 (
+context
 GeckoJarReader
 .
 getJarURL

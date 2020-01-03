@@ -474,6 +474,7 @@ GeckoJarReader
 getBitmapDrawable
 (
 context
+context
 .
 getResources
 (
@@ -501,6 +502,7 @@ GeckoJarReader
 .
 getBitmapDrawable
 (
+context
 context
 .
 getResources

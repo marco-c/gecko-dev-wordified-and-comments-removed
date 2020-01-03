@@ -2731,6 +2731,7 @@ GeckoJarReader
 .
 getStream
 (
+context
 bitmapPath
 )
 ;

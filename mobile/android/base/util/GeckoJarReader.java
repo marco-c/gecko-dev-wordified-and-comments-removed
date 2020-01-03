@@ -32,6 +32,17 @@ gecko
 .
 mozglue
 .
+GeckoLoader
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
 NativeZip
 ;
 import
@@ -159,6 +170,8 @@ static
 Bitmap
 getBitmap
 (
+Context
+context
 Resources
 resources
 String
@@ -170,6 +183,7 @@ drawable
 =
 getBitmapDrawable
 (
+context
 resources
 url
 )
@@ -196,6 +210,8 @@ static
 BitmapDrawable
 getBitmapDrawable
 (
+Context
+context
 Resources
 resources
 String
@@ -234,6 +250,7 @@ zip
 =
 getZipFile
 (
+context
 jarUrls
 .
 pop
@@ -354,6 +371,8 @@ static
 String
 getText
 (
+Context
+context
 String
 url
 )
@@ -390,6 +409,7 @@ zip
 =
 getZipFile
 (
+context
 jarUrls
 .
 pop
@@ -522,6 +542,8 @@ static
 NativeZip
 getZipFile
 (
+Context
+context
 String
 url
 )
@@ -536,6 +558,13 @@ new
 URI
 (
 url
+)
+;
+GeckoLoader
+.
+loadMozGlue
+(
+context
 )
 ;
 return
@@ -556,6 +585,8 @@ static
 InputStream
 getStream
 (
+Context
+context
 String
 url
 )
@@ -578,6 +609,7 @@ zip
 =
 getZipFile
 (
+context
 jarUrls
 .
 pop

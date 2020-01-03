@@ -1303,6 +1303,7 @@ GeckoJarReader
 .
 getText
 (
+context
 jarURL
 )
 ;
