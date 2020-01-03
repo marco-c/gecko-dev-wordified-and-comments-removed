@@ -521,6 +521,11 @@ nsViewportFrame
 cpp
 '
 '
+RubyUtils
+.
+cpp
+'
+'
 ScrollbarActivity
 .
 cpp
