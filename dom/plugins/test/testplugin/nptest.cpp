@@ -11011,6 +11011,14 @@ i
 ]
 )
 ;
+VOID_TO_NPVARIANT
+(
+sPluginPropertyValues
+[
+i
+]
+)
+;
 return
 true
 ;
