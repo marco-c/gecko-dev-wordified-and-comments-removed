@@ -185,12 +185,6 @@ return
 mRole
 ;
 }
-uint64_t
-State
-(
-)
-const
-;
 uintptr_t
 GetWrapper
 (
