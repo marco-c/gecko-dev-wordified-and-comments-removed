@@ -226,6 +226,16 @@ aScrollGeneration
 )
 ;
 static
+nsIPresShell
+*
+GetRootContentDocumentPresShellForContent
+(
+nsIContent
+*
+aContent
+)
+;
+static
 CSSPoint
 ApplyCallbackTransform
 (

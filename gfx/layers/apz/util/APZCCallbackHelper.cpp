@@ -1578,9 +1578,11 @@ Run
 ;
 }
 }
-static
 nsIPresShell
 *
+APZCCallbackHelper
+:
+:
 GetRootContentDocumentPresShellForContent
 (
 nsIContent
