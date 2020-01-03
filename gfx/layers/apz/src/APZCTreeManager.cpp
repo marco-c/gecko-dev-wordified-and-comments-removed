@@ -7169,6 +7169,12 @@ aApzc2
 )
 const
 {
+MonitorAutoLock
+lock
+(
+mTreeLock
+)
+;
 nsRefPtr
 <
 AsyncPanZoomController
@@ -7267,10 +7273,10 @@ aApzc2
 )
 const
 {
-MonitorAutoLock
-lock
-(
 mTreeLock
+.
+AssertCurrentThreadOwns
+(
 )
 ;
 nsRefPtr
