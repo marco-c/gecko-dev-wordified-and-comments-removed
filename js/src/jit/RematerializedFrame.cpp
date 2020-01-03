@@ -186,6 +186,8 @@ op
 &
 scopeChain_
 &
+hasCallObj_
+&
 returnValue_
 &
 argsObj_
@@ -753,6 +755,10 @@ pushOnScopeChain
 *
 callobj
 )
+;
+hasCallObj_
+=
+true
 ;
 return
 true
