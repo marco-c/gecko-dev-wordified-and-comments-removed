@@ -47,7 +47,9 @@ iter
 =
 map
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

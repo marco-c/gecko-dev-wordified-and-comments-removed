@@ -105,7 +105,9 @@ iter
 ]
 )
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

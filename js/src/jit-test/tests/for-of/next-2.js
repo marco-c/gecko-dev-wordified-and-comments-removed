@@ -28,7 +28,9 @@ it
 2
 ]
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

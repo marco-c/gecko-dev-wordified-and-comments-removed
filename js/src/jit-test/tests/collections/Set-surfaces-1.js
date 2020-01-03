@@ -398,7 +398,9 @@ Set
 .
 prototype
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 Set
 .

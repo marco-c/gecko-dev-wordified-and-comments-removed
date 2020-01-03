@@ -28,7 +28,9 @@ non_iterable1
 ;
 non_iterable1
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 {
@@ -56,7 +58,9 @@ non_iterable2
 ;
 non_iterable2
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 function

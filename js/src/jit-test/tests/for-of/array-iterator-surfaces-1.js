@@ -33,7 +33,9 @@ c
 .
 prototype
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 .
 length
@@ -79,7 +81,9 @@ Object
 getOwnPropertyDescriptor
 (
 loc
-std_iterator
+Symbol
+.
+iterator
 )
 ;
 assertEq

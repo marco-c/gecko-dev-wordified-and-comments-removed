@@ -102,7 +102,9 @@ x
 ;
 x
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 "
@@ -127,7 +129,9 @@ fit
 ;
 x
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 {

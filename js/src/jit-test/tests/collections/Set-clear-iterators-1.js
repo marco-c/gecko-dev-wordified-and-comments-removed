@@ -21,7 +21,9 @@ it
 =
 s
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -62,7 +64,9 @@ it
 =
 s
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

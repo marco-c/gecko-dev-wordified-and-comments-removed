@@ -37,7 +37,9 @@ constructor
 (
 )
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -75,7 +77,9 @@ proto
 .
 hasOwnProperty
 (
-std_iterator
+Symbol
+.
+iterator
 )
 true
 )
@@ -121,7 +125,9 @@ assertEq
 (
 proto
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

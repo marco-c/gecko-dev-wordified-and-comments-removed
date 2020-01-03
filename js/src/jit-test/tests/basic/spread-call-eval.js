@@ -191,7 +191,9 @@ b
 "
 ]
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -228,7 +230,9 @@ itr
 ;
 itr
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 function

@@ -181,7 +181,9 @@ name
 assertEq
 (
 name
-std_iterator
+Symbol
+.
+iterator
 )
 ;
 s

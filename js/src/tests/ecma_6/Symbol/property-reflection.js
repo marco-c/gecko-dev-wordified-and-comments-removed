@@ -447,7 +447,9 @@ assertEq
 .
 hasOwnProperty
 (
-std_iterator
+Symbol
+.
+iterator
 )
 false
 )
@@ -460,7 +462,9 @@ prototype
 .
 hasOwnProperty
 (
-std_iterator
+Symbol
+.
+iterator
 )
 true
 )

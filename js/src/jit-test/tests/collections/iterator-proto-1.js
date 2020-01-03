@@ -21,7 +21,9 @@ iter0
 =
 obj0
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -29,7 +31,9 @@ iter1
 =
 obj1
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

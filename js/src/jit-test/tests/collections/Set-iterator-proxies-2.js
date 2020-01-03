@@ -34,7 +34,9 @@ Set
 .
 prototype
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 ;
 assertThrowsInstanceOf
@@ -116,7 +118,9 @@ Set
 (
 )
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -155,7 +159,9 @@ Map
 (
 )
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -170,7 +176,9 @@ iterw
 =
 setw
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

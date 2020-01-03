@@ -400,7 +400,9 @@ Map
 .
 prototype
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 Map
 .

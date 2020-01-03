@@ -29,7 +29,9 @@ res
 =
 map
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

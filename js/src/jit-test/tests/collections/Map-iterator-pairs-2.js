@@ -35,7 +35,9 @@ iter
 =
 map
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -99,7 +101,9 @@ a1
 =
 map
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

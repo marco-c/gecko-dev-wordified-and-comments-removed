@@ -173,7 +173,9 @@ WeakSet
 (
 {
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 :
 2
@@ -189,7 +191,9 @@ typeof
 [
 ]
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 "
 function

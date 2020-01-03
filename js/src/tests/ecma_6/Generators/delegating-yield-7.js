@@ -42,7 +42,9 @@ next
 }
 ret
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 iterator

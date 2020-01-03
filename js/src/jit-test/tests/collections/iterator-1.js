@@ -21,7 +21,9 @@ iter
 =
 obj
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

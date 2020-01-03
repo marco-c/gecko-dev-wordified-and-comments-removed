@@ -40,7 +40,9 @@ ret
 ;
 ret
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 function
@@ -102,7 +104,9 @@ iter
 =
 iterable
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

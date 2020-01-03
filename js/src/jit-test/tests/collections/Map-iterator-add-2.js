@@ -21,7 +21,9 @@ iter0
 =
 map
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -29,7 +31,9 @@ iter1
 =
 map
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

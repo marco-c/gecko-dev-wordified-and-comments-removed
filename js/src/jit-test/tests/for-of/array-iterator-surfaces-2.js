@@ -19,7 +19,9 @@ getPrototypeOf
 [
 ]
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -135,7 +137,9 @@ assertEq
 (
 it
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -185,7 +189,9 @@ check
 [
 ]
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )
@@ -197,7 +203,9 @@ Array
 .
 prototype
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 .
 call

@@ -39,12 +39,9 @@ it
 2
 ]
 [
-{
-uneval
-(
-std_iterator
-)
-}
+Symbol
+.
+iterator
 ]
 (
 )
@@ -64,7 +61,9 @@ assertDeepEq
 [
 ]
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 (
 )

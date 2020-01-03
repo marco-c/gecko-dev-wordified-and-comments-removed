@@ -188,7 +188,9 @@ foo
 }
 foo
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 10
@@ -213,7 +215,9 @@ TypeError
 ;
 foo
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 function
@@ -241,7 +245,9 @@ TypeError
 ;
 foo
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 function
@@ -269,7 +275,9 @@ TypeError
 ;
 foo
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 function

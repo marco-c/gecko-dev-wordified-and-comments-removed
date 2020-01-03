@@ -212,7 +212,9 @@ log
 "
 get
 "
-std_iterator
+Symbol
+.
+iterator
 "
 get
 "
@@ -274,7 +276,9 @@ arr
 ;
 arr
 [
-std_iterator
+Symbol
+.
+iterator
 ]
 =
 undefined
@@ -305,7 +309,9 @@ log
 "
 get
 "
-std_iterator
+Symbol
+.
+iterator
 "
 get
 "
