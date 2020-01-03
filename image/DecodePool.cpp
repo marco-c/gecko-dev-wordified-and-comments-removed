@@ -1742,6 +1742,15 @@ aDecoder
 HasProgress
 (
 )
+&
+&
+!
+aDecoder
+-
+>
+IsMetadataDecode
+(
+)
 )
 {
 NotifyProgress
