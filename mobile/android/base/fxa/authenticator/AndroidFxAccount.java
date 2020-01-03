@@ -3753,7 +3753,7 @@ context
 .
 sendBroadcast
 (
-makeDeletedAccountIntent
+makeProfileJSONUpdatedIntent
 (
 )
 )
