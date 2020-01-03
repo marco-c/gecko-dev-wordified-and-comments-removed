@@ -547,6 +547,11 @@ CheckResetCount
 )
 ;
 void
+FailedToResetDevice
+(
+)
+;
+void
 ReportFailure
 (
 const
@@ -611,6 +616,9 @@ mSize
 ;
 uint32_t
 mDeviceResetCount
+;
+uint32_t
+mFailedResetAttemps
 ;
 }
 ;
