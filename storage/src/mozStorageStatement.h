@@ -190,13 +190,13 @@ BindingParamsArray
 >
 mParamsArray
 ;
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIXPConnectJSObjectHolder
 >
 mStatementParamsHolder
 ;
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIXPConnectJSObjectHolder
 >

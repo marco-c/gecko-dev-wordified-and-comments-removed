@@ -139,11 +139,6 @@ AsyncStatement
 (
 )
 ;
-void
-cleanupJSHelpers
-(
-)
-;
 mozIStorageBindingParams
 *
 getParams
@@ -159,7 +154,7 @@ BindingParamsArray
 >
 mParamsArray
 ;
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIXPConnectJSObjectHolder
 >

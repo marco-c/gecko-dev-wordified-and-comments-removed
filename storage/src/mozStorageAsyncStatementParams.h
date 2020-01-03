@@ -37,9 +37,6 @@ namespace
 storage
 {
 class
-AsyncStatement
-;
-class
 AsyncStatementParams
 MOZ_FINAL
 :
@@ -76,7 +73,7 @@ mStatement
 ;
 friend
 class
-AsyncStatement
+AsyncStatementParamsHolder
 ;
 }
 ;
