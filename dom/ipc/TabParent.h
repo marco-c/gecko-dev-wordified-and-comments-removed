@@ -2024,12 +2024,9 @@ UseAsyncPanZoom
 (
 )
 ;
-nsEventStatus
-MaybeForwardEventToRenderFrame
+void
+ApzAwareEventRoutingToChild
 (
-WidgetInputEvent
-&
-aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
