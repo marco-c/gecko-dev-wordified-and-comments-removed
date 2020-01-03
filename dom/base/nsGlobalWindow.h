@@ -6076,6 +6076,11 @@ FireOfflineStatusEventIfChanged
 (
 )
 ;
+bool
+GetIsPrerendered
+(
+)
+;
 nsresult
 ScheduleNextIdleObserverCallback
 (
