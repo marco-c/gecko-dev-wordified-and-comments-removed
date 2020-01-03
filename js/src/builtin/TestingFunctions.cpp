@@ -226,10 +226,6 @@ namespace
 js
 ;
 using
-namespace
-JS
-;
-using
 mozilla
 :
 :
@@ -1262,6 +1258,9 @@ runtime
 )
 ;
 else
+JS
+:
+:
 PrepareForFullGC
 (
 cx
@@ -1276,6 +1275,9 @@ if
 (
 shrinking
 )
+JS
+:
+:
 ShrinkingGC
 (
 cx
@@ -1284,6 +1286,9 @@ cx
 runtime
 (
 )
+JS
+:
+:
 gcreason
 :
 :
@@ -1291,6 +1296,9 @@ API
 )
 ;
 else
+JS
+:
+:
 GCForReason
 (
 cx
@@ -1299,6 +1307,9 @@ cx
 runtime
 (
 )
+JS
+:
+:
 gcreason
 :
 :
@@ -1461,6 +1472,9 @@ cx
 >
 minorGC
 (
+JS
+:
+:
 gcreason
 :
 :
@@ -1839,6 +1853,9 @@ param
 JSGC_MARK_STACK_LIMIT
 &
 &
+JS
+:
+:
 IsIncrementalGCInProgress
 (
 cx

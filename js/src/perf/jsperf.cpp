@@ -23,7 +23,13 @@ h
 "
 using
 namespace
+js
+;
+using
 JS
+:
+:
+PerfMeasurement
 ;
 static
 PerfMeasurement

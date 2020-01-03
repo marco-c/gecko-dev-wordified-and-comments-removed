@@ -68,10 +68,6 @@ using
 namespace
 js
 ;
-using
-namespace
-JS
-;
 const
 Class
 WeakSetObject
@@ -352,6 +348,9 @@ RootedObject
 map
 (
 cx
+JS
+:
+:
 NewWeakMapObject
 (
 cx
@@ -495,6 +494,9 @@ toObject
 )
 )
 ;
+JS
+:
+:
 ForOfIterator
 iter
 (

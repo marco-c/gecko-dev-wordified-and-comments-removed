@@ -32,7 +32,7 @@ h
 "
 using
 namespace
-JS
+js
 ;
 Latin1CharsZ
 JS
@@ -1680,6 +1680,9 @@ m
 ;
 v
 =
+JS
+:
+:
 Utf8ToOneUcs4Char
 (
 (
