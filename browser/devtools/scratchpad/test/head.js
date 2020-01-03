@@ -198,7 +198,7 @@ jsm
 let
 gScratchpadWindow
 ;
-gDevTools
+DevToolsUtils
 .
 testing
 =
@@ -213,7 +213,7 @@ registerCleanupFunction
 =
 >
 {
-gDevTools
+DevToolsUtils
 .
 testing
 =

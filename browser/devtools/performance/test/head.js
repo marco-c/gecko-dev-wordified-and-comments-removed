@@ -638,7 +638,7 @@ waitForExplicitFinish
 (
 )
 ;
-gDevTools
+DevToolsUtils
 .
 testing
 =
@@ -913,7 +913,7 @@ registerCleanupFunction
 =
 >
 {
-gDevTools
+DevToolsUtils
 .
 testing
 =

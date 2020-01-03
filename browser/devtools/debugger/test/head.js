@@ -431,7 +431,7 @@ script
 js
 "
 ;
-gDevTools
+DevToolsUtils
 .
 testing
 =
@@ -446,7 +446,7 @@ registerCleanupFunction
 =
 >
 {
-gDevTools
+DevToolsUtils
 .
 testing
 =

@@ -2166,7 +2166,7 @@ initPerformance
 ;
 if
 (
-gDevTools
+DevToolsUtils
 .
 testing
 )
@@ -9180,7 +9180,7 @@ let
 autohide
 =
 !
-gDevTools
+DevToolsUtils
 .
 testing
 ;
@@ -10077,7 +10077,7 @@ clear
 ;
 if
 (
-gDevTools
+DevToolsUtils
 .
 testing
 )

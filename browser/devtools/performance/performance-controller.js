@@ -2465,7 +2465,7 @@ function
 {
 if
 (
-gDevTools
+DevToolsUtils
 .
 testing
 )
