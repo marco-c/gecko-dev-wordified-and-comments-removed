@@ -221,6 +221,13 @@ fakeSession
 fakeMozLoop
 =
 {
+addConversationContext
+:
+sinon
+.
+spy
+(
+)
 }
 ;
 }
