@@ -375,6 +375,9 @@ IDBVersionChangeEvent
 ImageData
 "
 "
+MessageChannel
+"
+"
 MessageEvent
 "
 "
