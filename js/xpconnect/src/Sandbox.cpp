@@ -1676,11 +1676,10 @@ obj
 )
 )
 ;
-MOZ_ASSERT
+if
 (
 sop
 )
-;
 static_cast
 <
 SandboxPrivate
