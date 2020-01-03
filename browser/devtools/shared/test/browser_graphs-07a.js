@@ -2003,9 +2003,13 @@ _onMouseMove
 testX
 :
 x
++
+1
 testY
 :
 y
++
+1
 buttons
 :
 0

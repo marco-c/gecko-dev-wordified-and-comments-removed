@@ -4672,7 +4672,6 @@ this
 .
 _onMouseUp
 (
-e
 )
 ;
 }
@@ -5265,7 +5264,6 @@ _onMouseUp
 :
 function
 (
-e
 )
 {
 this
@@ -5273,18 +5271,6 @@ this
 _isMouseActive
 =
 false
-;
-let
-{
-mouseX
-}
-=
-this
-.
-_getRelativeEventCoordinates
-(
-e
-)
 ;
 switch
 (
@@ -5417,7 +5403,11 @@ _selection
 .
 end
 =
-mouseX
+this
+.
+_cursor
+.
+x
 ;
 this
 .
