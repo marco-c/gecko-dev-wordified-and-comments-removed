@@ -22101,6 +22101,13 @@ bool
 enabled
 )
 {
+BufferOffset
+offset
+=
+nextOffset
+(
+)
+;
 armbuffer_
 .
 flushPool
@@ -22108,13 +22115,6 @@ flushPool
 )
 ;
 syncStackPtr
-(
-)
-;
-BufferOffset
-offset
-=
-nextOffset
 (
 )
 ;
