@@ -5505,13 +5505,6 @@ return
 nullptr
 ;
 }
-}
-if
-(
-!
-aSize
-)
-{
 Telemetry
 :
 :
