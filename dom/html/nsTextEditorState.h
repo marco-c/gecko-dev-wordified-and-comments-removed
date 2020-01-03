@@ -55,6 +55,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WeakPtr
 .
 h
@@ -734,6 +743,7 @@ PrepareEditorEvent
 nsITextControlElement
 *
 const
+MOZ_NON_OWNING_REF
 mTextCtrlElement
 ;
 nsRefPtr
