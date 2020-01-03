@@ -477,9 +477,9 @@ CreateOffscreenSurface
 const
 IntSize
 &
-size
-gfxContentType
-contentType
+aSize
+gfxImageFormat
+aFormat
 )
 {
 nsRefPtr
@@ -492,14 +492,6 @@ bool
 needsClear
 =
 true
-;
-gfxImageFormat
-imageFormat
-=
-OptimalFormatForContent
-(
-contentType
-)
 ;
 #
 ifdef
@@ -552,7 +544,7 @@ DisplayOfScreen
 (
 screen
 )
-imageFormat
+aFormat
 )
 ;
 if
@@ -569,7 +561,7 @@ Create
 (
 screen
 xrenderFormat
-size
+aSize
 )
 ;
 }
@@ -581,8 +573,8 @@ newSurface
 new
 gfxImageSurface
 (
-size
-imageFormat
+aSize
+aFormat
 )
 ;
 needsClear
@@ -604,8 +596,8 @@ newSurface
 new
 gfxImageSurface
 (
-size
-imageFormat
+aSize
+aFormat
 )
 ;
 }

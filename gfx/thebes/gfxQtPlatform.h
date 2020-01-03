@@ -103,9 +103,9 @@ CreateOffscreenSurface
 const
 IntSize
 &
-size
-gfxContentType
-contentType
+aSize
+gfxImageFormat
+aFormat
 )
 override
 ;

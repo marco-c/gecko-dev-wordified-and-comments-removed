@@ -2450,10 +2450,10 @@ IntSize
 1
 1
 )
-gfxContentType
+gfxImageFormat
 :
 :
-COLOR_ALPHA
+ARGB32
 )
 ;
 if
@@ -5098,7 +5098,7 @@ surf
 CreateOffscreenSurface
 (
 aSize
-ContentForFormat
+SurfaceFormatToImageFormat
 (
 aFormat
 )

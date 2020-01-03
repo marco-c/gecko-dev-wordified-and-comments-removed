@@ -549,10 +549,10 @@ return
 false
 ;
 }
-gfxContentType
-contentType
+gfxImageFormat
+imageFormat
 =
-ContentForFormat
+SurfaceFormatToImageFormat
 (
 mFormat
 )
@@ -574,7 +574,7 @@ GetPlatform
 CreateOffscreenSurface
 (
 aSize
-contentType
+imageFormat
 )
 ;
 if
