@@ -2124,10 +2124,10 @@ accessDenied
 "
 function
 (
-event
+ev
 )
 {
-event
+ev
 .
 preventDefault
 (
@@ -2148,7 +2148,7 @@ streamCreated
 "
 function
 (
-event
+ev
 )
 {
 this
@@ -2161,7 +2161,7 @@ audio
 {
 enabled
 :
-event
+ev
 .
 stream
 .
@@ -2172,7 +2172,7 @@ video
 {
 enabled
 :
-event
+ev
 .
 stream
 .
