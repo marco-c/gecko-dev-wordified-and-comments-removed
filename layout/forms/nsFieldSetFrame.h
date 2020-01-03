@@ -366,7 +366,10 @@ const
 ;
 protected
 :
-nsRect
+mozilla
+:
+:
+LogicalRect
 mLegendRect
 ;
 nscoord
