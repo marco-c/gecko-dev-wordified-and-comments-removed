@@ -75,11 +75,3 @@ mozconfig
 .
 common
 "
-ac_add_options
--
--
-disable
--
-unified
--
-compilation

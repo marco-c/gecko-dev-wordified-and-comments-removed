@@ -2423,21 +2423,6 @@ files_per_unified_file
             
 do_unify
 =
-not
-self
-.
-environment
-.
-substs
-.
-get
-(
-                
-'
-MOZ_DISABLE_UNIFIED_COMPILATION
-'
-)
-and
 files_per_unification
 >
 1

@@ -39,14 +39,6 @@ oauth
 api
 .
 key
-ac_add_options
--
--
-disable
--
-unified
--
-compilation
 MOZ_AUTOMATION_L10N_CHECK
 =
 0
