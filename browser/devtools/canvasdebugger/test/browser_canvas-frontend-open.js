@@ -251,7 +251,7 @@ is
 (
 "
 #
-import
+waiting
 -
 notice
 "
@@ -268,7 +268,7 @@ true
 "
 "
 The
-import
+waiting
 notice
 should
 initially

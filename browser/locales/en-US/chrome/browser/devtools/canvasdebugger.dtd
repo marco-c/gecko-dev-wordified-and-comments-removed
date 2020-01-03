@@ -330,7 +330,7 @@ NOTE
 (
 canvasDebuggerUI
 .
-reloadNotice1
+waitingNotice
 )
 :
 This
@@ -345,7 +345,7 @@ call
 list
 view
 while
-loading
+recording
 a
 snapshot
 .
@@ -357,9 +357,12 @@ snapshot
 ENTITY
 canvasDebuggerUI
 .
-importNotice
+waitingNotice
 "
-Loading
+Recording
+an
+animation
+cycle
 "
 >
 <
