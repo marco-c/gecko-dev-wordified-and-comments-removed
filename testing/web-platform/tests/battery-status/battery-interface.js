@@ -3,6 +3,17 @@ function
 (
 )
 {
+setup
+(
+"
+"
+{
+explicit_done
+:
+true
+}
+)
+;
 test
 (
 function
@@ -13,20 +24,20 @@ assert_idl_attribute
 (
 navigator
 '
-battery
+getBattery
 '
 '
 navigator
 must
 have
-battery
+getBattery
 attribute
 '
 )
 ;
 }
 '
-battery
+getBattery
 is
 present
 on
@@ -34,34 +45,19 @@ navigator
 '
 )
 ;
-test
+navigator
+.
+getBattery
+(
+)
+.
+then
 (
 function
 (
+battery
 )
 {
-assert_readonly
-(
-navigator
-'
-battery
-'
-'
-battery
-must
-be
-readonly
-'
-)
-;
-}
-'
-battery
-is
-readonly
-'
-)
-;
 test
 (
 function
@@ -95,8 +91,6 @@ function
 {
 assert_true
 (
-navigator
-.
 battery
 instanceof
 EventTarget
@@ -119,8 +113,6 @@ function
 {
 assert_idl_attribute
 (
-navigator
-.
 battery
 '
 charging
@@ -150,8 +142,6 @@ function
 {
 assert_readonly
 (
-navigator
-.
 battery
 '
 charging
@@ -180,8 +170,6 @@ function
 {
 assert_idl_attribute
 (
-navigator
-.
 battery
 '
 chargingTime
@@ -211,8 +199,6 @@ function
 {
 assert_readonly
 (
-navigator
-.
 battery
 '
 chargingTime
@@ -241,8 +227,6 @@ function
 {
 assert_idl_attribute
 (
-navigator
-.
 battery
 '
 dischargingTime
@@ -272,8 +256,6 @@ function
 {
 assert_readonly
 (
-navigator
-.
 battery
 '
 dischargingTime
@@ -302,8 +284,6 @@ function
 {
 assert_idl_attribute
 (
-navigator
-.
 battery
 '
 level
@@ -333,8 +313,6 @@ function
 {
 assert_readonly
 (
-navigator
-.
 battery
 '
 level
@@ -363,8 +341,6 @@ function
 {
 assert_idl_attribute
 (
-navigator
-.
 battery
 '
 onchargingchange
@@ -394,8 +370,6 @@ function
 {
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingchange
@@ -454,8 +428,6 @@ object
 ;
 assert_idl_attribute
 (
-navigator
-.
 battery
 '
 onchargingchange
@@ -507,8 +479,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -519,8 +489,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -530,8 +498,6 @@ onchargingchange
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingchange
@@ -569,8 +535,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -581,8 +545,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -597,8 +559,6 @@ test
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingchange
@@ -645,8 +605,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -657,8 +615,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -669,8 +625,6 @@ string
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingchange
@@ -711,8 +665,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -723,8 +675,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -733,8 +683,6 @@ onchargingchange
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingchange
@@ -775,8 +723,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -787,8 +733,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -797,8 +741,6 @@ undefined
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingchange
@@ -839,8 +781,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -851,8 +791,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -862,8 +800,6 @@ onchargingchange
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingchange
@@ -903,8 +839,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -915,8 +849,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingchange
@@ -925,8 +857,6 @@ Node
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingchange
@@ -957,8 +887,6 @@ function
 {
 assert_idl_attribute
 (
-navigator
-.
 battery
 '
 onchargingtimechange
@@ -988,8 +916,6 @@ function
 {
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1048,8 +974,6 @@ object
 ;
 assert_idl_attribute
 (
-navigator
-.
 battery
 '
 onchargingtimechange
@@ -1101,8 +1025,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1113,8 +1035,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1124,8 +1044,6 @@ onchargingtimechange
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1163,8 +1081,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1175,8 +1091,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1191,8 +1105,6 @@ test
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1239,8 +1151,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1251,8 +1161,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1263,8 +1171,6 @@ string
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1305,8 +1211,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1317,8 +1221,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1327,8 +1229,6 @@ onchargingtimechange
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1369,8 +1269,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1381,8 +1279,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1391,8 +1287,6 @@ undefined
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1433,8 +1327,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1445,8 +1337,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1456,8 +1346,6 @@ onchargingtimechange
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1497,8 +1385,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1509,8 +1395,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1519,8 +1403,6 @@ Node
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onchargingtimechange
@@ -1551,8 +1433,6 @@ function
 {
 assert_idl_attribute
 (
-navigator
-.
 battery
 '
 ondischargingtimechange
@@ -1582,8 +1462,6 @@ function
 {
 assert_equals
 (
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1642,8 +1520,6 @@ object
 ;
 assert_idl_attribute
 (
-navigator
-.
 battery
 '
 ondischargingtimechange
@@ -1695,8 +1571,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1707,8 +1581,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1718,8 +1590,6 @@ ondischargingtimechange
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1757,8 +1627,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1769,8 +1637,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1785,8 +1651,6 @@ test
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1833,8 +1697,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1845,8 +1707,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1857,8 +1717,6 @@ string
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1899,8 +1757,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1911,8 +1767,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1921,8 +1775,6 @@ ondischargingtimechange
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1963,8 +1815,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1975,8 +1825,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -1985,8 +1833,6 @@ undefined
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -2027,8 +1873,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -2039,8 +1883,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -2050,8 +1892,6 @@ ondischargingtimechange
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -2091,8 +1931,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -2103,8 +1941,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -2113,8 +1949,6 @@ Node
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 ondischargingtimechange
@@ -2145,8 +1979,6 @@ function
 {
 assert_idl_attribute
 (
-navigator
-.
 battery
 '
 onlevelchange
@@ -2176,8 +2008,6 @@ function
 {
 assert_equals
 (
-navigator
-.
 battery
 .
 onlevelchange
@@ -2236,8 +2066,6 @@ object
 ;
 assert_idl_attribute
 (
-navigator
-.
 battery
 '
 onlevelchange
@@ -2289,8 +2117,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2301,8 +2127,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2312,8 +2136,6 @@ onlevelchange
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onlevelchange
@@ -2351,8 +2173,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2363,8 +2183,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2379,8 +2197,6 @@ test
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onlevelchange
@@ -2427,8 +2243,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2439,8 +2253,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2451,8 +2263,6 @@ string
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onlevelchange
@@ -2493,8 +2303,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2505,8 +2313,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2515,8 +2321,6 @@ onlevelchange
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onlevelchange
@@ -2557,8 +2361,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2569,8 +2371,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2579,8 +2379,6 @@ undefined
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onlevelchange
@@ -2621,8 +2419,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2633,8 +2429,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2644,8 +2438,6 @@ onlevelchange
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onlevelchange
@@ -2685,8 +2477,6 @@ as
 null
 '
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2697,8 +2487,6 @@ function
 {
 }
 ;
-navigator
-.
 battery
 .
 onlevelchange
@@ -2707,8 +2495,6 @@ Node
 ;
 assert_equals
 (
-navigator
-.
 battery
 .
 onlevelchange
@@ -2729,6 +2515,18 @@ object
 as
 null
 '
+)
+;
+done
+(
+)
+;
+}
+function
+(
+)
+{
+}
 )
 ;
 }
