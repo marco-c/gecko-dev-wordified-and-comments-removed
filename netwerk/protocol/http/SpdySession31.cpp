@@ -683,13 +683,13 @@ datalen
 if
 (
 !
-LOG4_ENABLED
+LOG5_ENABLED
 (
 )
 )
 return
 ;
-LOG4
+LOG5
 (
 (
 "
@@ -786,7 +786,7 @@ line
 =
 0
 ;
-LOG4
+LOG5
 (
 (
 "
@@ -863,7 +863,7 @@ line
 =
 0
 ;
-LOG4
+LOG5
 (
 (
 "
