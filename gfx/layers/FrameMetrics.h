@@ -270,6 +270,11 @@ START_SCROLL_ID
 =
 2
 ;
+static
+const
+FrameMetrics
+sNullMetrics
+;
 FrameMetrics
 (
 )

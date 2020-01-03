@@ -192,6 +192,9 @@ class
 OverscrollHandoffChain
 ;
 class
+LayerMetricsWrapper
+;
+class
 APZCTreeManager
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -626,8 +629,8 @@ AsyncPanZoomController
 PrepareAPZCForLayer
 (
 const
-Layer
-*
+LayerMetricsWrapper
+&
 aLayer
 const
 FrameMetrics
@@ -665,8 +668,9 @@ UpdatePanZoomControllerTree
 TreeBuildingState
 &
 aState
-Layer
-*
+const
+LayerMetricsWrapper
+&
 aLayer
 uint64_t
 aLayersId

@@ -1075,6 +1075,11 @@ SharedRGBImage
 h
 '
 '
+LayerMetricsWrapper
+.
+h
+'
+'
 LayersTypes
 .
 h
