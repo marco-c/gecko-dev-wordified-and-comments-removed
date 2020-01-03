@@ -6,7 +6,7 @@ Proxy
 create
 (
 {
-getPropertyDescriptor
+getOwnPropertyDescriptor
 :
 function
 (
