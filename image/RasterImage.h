@@ -70,6 +70,13 @@ h
 #
 include
 "
+DecoderFactory
+.
+h
+"
+#
+include
+"
 Orientation
 .
 h
@@ -821,7 +828,7 @@ mAnim
 uint32_t
 mLockCount
 ;
-eDecoderType
+DecoderType
 mDecoderType
 ;
 int32_t
