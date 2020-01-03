@@ -54,9 +54,9 @@ void
 CheckAndDeliver
 (
 const
-nsString
+BroadcastChannelMessageData
 &
-aMessage
+aData
 const
 nsString
 &
@@ -91,9 +91,9 @@ bool
 RecvPostMessage
 (
 const
-nsString
+BroadcastChannelMessageData
 &
-aMessage
+aData
 )
 MOZ_OVERRIDE
 ;

@@ -176,7 +176,7 @@ Throws
 void
 postMessage
 (
-DOMString
+any
 message
 )
 ;
