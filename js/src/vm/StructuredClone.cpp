@@ -4490,7 +4490,7 @@ if
 MapObject
 :
 :
-entries
+getKeysAndValuesInterleaved
 (
 context
 (

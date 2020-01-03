@@ -10637,8 +10637,10 @@ newlen
 )
 ;
 }
-static
 bool
+js
+:
+:
 array_unshift
 (
 JSContext
@@ -12830,8 +12832,10 @@ length
 )
 ;
 }
-static
 bool
+js
+:
+:
 array_slice
 (
 JSContext
@@ -14351,9 +14355,6 @@ JS_FN
 "
 join
 "
-js
-:
-:
 array_join
 1
 JSFUN_GENERIC_NATIVE

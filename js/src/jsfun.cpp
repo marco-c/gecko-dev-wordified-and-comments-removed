@@ -8215,8 +8215,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 fun_bind
 (
 JSContext
