@@ -541,9 +541,6 @@ mWithCredentials
 bool
 mWaitingForOnStopRequest
 ;
-bool
-mInterrupted
-;
 nsCOMPtr
 <
 nsIUnicodeDecoder
