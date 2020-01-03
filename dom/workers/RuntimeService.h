@@ -132,13 +132,6 @@ nsTArray
 WorkerPrivate
 *
 >
-mActiveServiceWorkers
-;
-nsTArray
-<
-WorkerPrivate
-*
->
 mQueuedWorkers
 ;
 nsClassHashtable
@@ -173,12 +166,6 @@ const
 {
 return
 mActiveWorkers
-.
-Length
-(
-)
-+
-mActiveServiceWorkers
 .
 Length
 (
