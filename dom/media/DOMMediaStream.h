@@ -514,7 +514,7 @@ NotifyMediaStreamGraphShutdown
 )
 ;
 void
-NotifyStreamStateChanged
+NotifyStreamFinished
 (
 )
 ;

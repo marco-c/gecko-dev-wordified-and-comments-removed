@@ -307,7 +307,7 @@ ended
 )
 virtual
 void
-NotifyMainThreadStateChanged
+NotifyMainThreadStreamFinished
 (
 )
 override
@@ -454,9 +454,6 @@ mLoop
 ;
 bool
 mStartCalled
-;
-bool
-mStopped
 ;
 }
 ;
