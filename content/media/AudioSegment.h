@@ -273,7 +273,7 @@ TrackTicks
 aEnd
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aStart
 >
