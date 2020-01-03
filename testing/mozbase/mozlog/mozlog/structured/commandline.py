@@ -1169,7 +1169,7 @@ if
 isinstance
 (
 value
-str
+basestring
 )
 :
                         
