@@ -137,6 +137,9 @@ class
 KeyBinding
 ;
 class
+MathMLAccessible
+;
+class
 ProxyAccessible
 ;
 class
