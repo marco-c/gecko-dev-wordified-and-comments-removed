@@ -67,6 +67,12 @@ using
 namespace
 std
 ;
+using
+base
+:
+:
+Thread
+;
 namespace
 mozilla
 {
