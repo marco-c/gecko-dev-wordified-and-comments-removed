@@ -44,7 +44,7 @@ arm
 arm64
 '
 '
-mips
+mips32
 '
 ]
 )
@@ -63,7 +63,7 @@ arm
 arm64
 '
 '
-mips
+mips32
 '
 ]
 )
