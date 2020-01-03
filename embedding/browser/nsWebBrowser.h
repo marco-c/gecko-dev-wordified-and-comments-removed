@@ -506,8 +506,10 @@ nsIWindowWatcher
 >
 mWWatch
 ;
+nsAutoPtr
+<
 nsWebBrowserInitInfo
-*
+>
 mInitInfo
 ;
 uint32_t
