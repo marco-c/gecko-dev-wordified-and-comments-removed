@@ -187,7 +187,15 @@ TabStrip
 -
 >
 <
-ImageButton
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
+ThemedImageButton
 android
 :
 id
@@ -223,7 +231,7 @@ src
 "
 drawable
 /
-tab_new_level
+new_tablet_tab_strip_add_tab
 "
 android
 :
