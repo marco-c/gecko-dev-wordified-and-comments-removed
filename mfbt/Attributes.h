@@ -784,7 +784,7 @@ __attribute__
 annotate
 (
 "
-moz_strong_ref
+moz_weak_ref
 "
 )
 )
