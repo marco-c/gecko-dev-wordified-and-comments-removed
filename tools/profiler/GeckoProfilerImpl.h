@@ -461,8 +461,15 @@ frameNumber
 }
 static
 inline
+mozilla
+:
+:
+UniquePtr
+<
 char
-*
+[
+]
+>
 profiler_get_profile
 (
 float
