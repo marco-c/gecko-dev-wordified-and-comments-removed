@@ -738,7 +738,7 @@ nsIntRect
 aRect
 )
 ;
-nsresult
+void
 UpdateBaseWindowPositionAndSize
 (
 nsSubDocumentFrame

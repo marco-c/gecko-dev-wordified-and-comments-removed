@@ -8826,14 +8826,16 @@ return
 NS_OK
 ;
 }
-return
 UpdateBaseWindowPositionAndSize
 (
 aIFrame
 )
 ;
+return
+NS_OK
+;
 }
-nsresult
+void
 nsFrameLoader
 :
 :
@@ -8913,7 +8915,6 @@ IsAlive
 )
 {
 return
-NS_OK
 ;
 }
 nsIntSize
@@ -8943,9 +8944,6 @@ false
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsFrameLoader
