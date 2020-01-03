@@ -126,12 +126,8 @@ self
 error_list
 )
         
-code
+cmd
 =
-self
-.
-run_command
-(
 [
             
 '
@@ -177,6 +173,40 @@ TRY_ENV
 '
         
 ]
+        
+if
+'
+firefox
+'
+in
+self
+.
+binary_path
+:
+            
+cmd
++
+=
+[
+'
+RUNTIME
+=
+%
+s
+'
+%
+self
+.
+binary_path
+]
+        
+code
+=
+self
+.
+run_command
+(
+cmd
 cwd
 =
 dirs
