@@ -31656,6 +31656,11 @@ IMEStateManager
 OnCompositionEventDiscarded
 (
 aEvent
+-
+>
+AsCompositionEvent
+(
+)
 )
 ;
 }
@@ -36082,6 +36087,11 @@ DispatchCompositionEvent
 eventTarget
 mPresContext
 aEvent
+-
+>
+AsCompositionEvent
+(
+)
 aStatus
 eventCBPtr
 )

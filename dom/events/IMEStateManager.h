@@ -223,9 +223,9 @@ aEventTargetNode
 nsPresContext
 *
 aPresContext
-WidgetEvent
+WidgetCompositionEvent
 *
-aEvent
+aCompositionEvent
 nsEventStatus
 *
 aStatus
@@ -242,9 +242,10 @@ static
 void
 OnCompositionEventDiscarded
 (
-WidgetEvent
+const
+WidgetCompositionEvent
 *
-aEvent
+aCompositionEvent
 )
 ;
 static
@@ -268,7 +269,7 @@ GetTextCompositionFor
 (
 WidgetGUIEvent
 *
-aEvent
+aGUIEvent
 )
 ;
 static
