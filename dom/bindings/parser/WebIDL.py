@@ -1197,10 +1197,8 @@ _getDependentObjects
 :
             
 deps
-=
-deps
 .
-union
+update
 (
 d
 .
@@ -8501,7 +8499,7 @@ members
         
 deps
 .
-union
+update
 (
 self
 .
@@ -15366,6 +15364,24 @@ _getDependentObjects
 self
 )
 :
+        
+if
+self
+.
+isDictionary
+(
+)
+:
+            
+return
+set
+(
+[
+self
+.
+inner
+]
+)
         
 return
 set
@@ -26383,7 +26399,7 @@ _overloads
             
 deps
 .
-union
+update
 (
 overload
 .
