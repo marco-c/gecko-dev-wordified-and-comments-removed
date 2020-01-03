@@ -2550,6 +2550,7 @@ LOG_INFO
 Error
 in
 sendto
+:
 %
 s
 "
@@ -2656,7 +2657,16 @@ LOG_INFO
 Error
 in
 recvfrom
+:
+%
+d
 "
+(
+int
+)
+PR_GetError
+(
+)
 )
 ;
 ABORT
@@ -5387,6 +5397,9 @@ nr_socket_local_close
 int
 nr_socket_local_create
 (
+void
+*
+obj
 nr_transport_addr
 *
 addr

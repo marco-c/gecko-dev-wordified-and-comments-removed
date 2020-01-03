@@ -398,6 +398,18 @@ long_term_violation_time
 (
 )
 ;
+const
+nr_transport_addr
+&
+my_addr
+(
+)
+const
+{
+return
+my_addr_
+;
+}
 protected
 :
 void
@@ -646,7 +658,7 @@ len
 )
 override
 ;
-private
+protected
 :
 virtual
 ~

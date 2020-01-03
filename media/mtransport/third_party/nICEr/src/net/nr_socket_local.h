@@ -7,6 +7,9 @@ _nr_socket_local_h
 int
 nr_socket_local_create
 (
+void
+*
+obj
 nr_transport_addr
 *
 addr
