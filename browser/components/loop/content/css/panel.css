@@ -686,10 +686,6 @@ padding
 5rem
 1rem
 ;
-height
-:
-auto
-;
 }
 #
 fte
@@ -2224,6 +2220,8 @@ radius
 :
 2px
 ;
+min
+-
 height
 :
 26px
