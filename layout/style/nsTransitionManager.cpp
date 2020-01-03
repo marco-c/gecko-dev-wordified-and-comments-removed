@@ -3940,7 +3940,9 @@ canThrottleTick
 player
 -
 >
-mIsRunningOnCompositor
+IsRunningOnCompositor
+(
+)
 )
 {
 collection

@@ -1438,9 +1438,9 @@ Properties
 oldPlayer
 -
 >
-mIsRunningOnCompositor
-=
-false
+ClearIsRunningOnCompositor
+(
+)
 ;
 if
 (
