@@ -8159,32 +8159,11 @@ funcspecs_indices
 {
 }
     
-prop_array_name
-=
-"
-all_properties
-"
-    
 func_array_name
 =
 "
 all_functions
 "
-    
-writeSpecs
-(
-f
-"
-xpc_qsPropertySpec
-"
-prop_array_name
-               
-"
-propspecs
-"
-propspecs_indices
-interfaces
-)
     
 writeSpecs
 (
@@ -8562,6 +8541,9 @@ iface
 .
 propspecs
 :
+                
+assert
+False
                 
 prop_index
 =
@@ -8961,7 +8943,6 @@ table_name
 structNames
 =
 [
-prop_array_name
 func_array_name
 ]
     
@@ -9126,7 +9107,9 @@ n
 (
             
 size
-prop_array_name
+"
+nullptr
+"
 func_array_name
 table_name
 )
