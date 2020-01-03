@@ -43,10 +43,10 @@ tempfile
 mkdtemp
 (
 )
-dsaBad_param_filename
+dsaNotOK_param_filename
 =
 '
-dsaBad_param
+dsaNotOK_param
 .
 pem
 '
@@ -630,8 +630,8 @@ def
 generate_certs
 (
 key_type
-bad_key_size
-ok_key_size
+inadequate_key_size
+adequate_key_size
 generate_ev
 )
 :
@@ -688,29 +688,39 @@ ecparam
 list_curves
 '
       
-bad_key_size
+inadequate_key_size
 -
 -
+a
+string
+defining
 the
+inadequate
 public
 key
 size
-bad
+                             
+for
+the
+generated
 certs
-should
-have
       
-ok_key_size
+adequate_key_size
 -
 -
+a
+string
+defining
 the
+adequate
 public
 key
 size
-OK
+for
+                           
+the
+generated
 certs
-should
-have
       
 generate_ev
 -
@@ -741,8 +751,8 @@ CertUtils
 init_dsa
 (
 db_dir
-dsaBad_param_filename
-bad_key_size
+dsaNotOK_param_filename
+inadequate_key_size
 )
         
 CertUtils
@@ -751,7 +761,7 @@ init_dsa
 (
 db_dir
 dsaOK_param_filename
-ok_key_size
+adequate_key_size
 )
     
 if
@@ -851,7 +861,7 @@ ca_ext_text
             
 dsaOK_param_filename
             
-ok_key_size
+adequate_key_size
             
 generate_ev
 )
@@ -881,7 +891,7 @@ caOK_cert
         
 dsaOK_param_filename
         
-ok_key_size
+adequate_key_size
         
 generate_ev
 )
@@ -908,14 +918,14 @@ intOK_cert
         
 dsaOK_param_filename
         
-ok_key_size
+adequate_key_size
         
 generate_ev
 )
     
 [
-caBad_key
-caBad_cert
+rootNotOK_key
+rootNotOK_cert
 ]
 =
 generate_and_maybe_import_cert
@@ -936,9 +946,9 @@ ca_ext_text
 '
 '
         
-dsaBad_param_filename
+dsaNotOK_param_filename
         
-bad_key_size
+inadequate_key_size
         
 generate_ev
 )
@@ -962,13 +972,13 @@ caBad
         
 ca_ext_text
         
-caBad_key
+rootNotOK_key
         
-caBad_cert
+rootNotOK_cert
         
 dsaOK_param_filename
         
-ok_key_size
+adequate_key_size
         
 generate_ev
 )
@@ -995,14 +1005,14 @@ int_cert
         
 dsaOK_param_filename
         
-ok_key_size
+adequate_key_size
         
 generate_ev
 )
     
 [
-intBad_key
-intBad_cert
+intNotOK_key
+intNotOK_cert
 ]
 =
 generate_and_maybe_import_cert
@@ -1023,9 +1033,9 @@ caOK_key
         
 caOK_cert
         
-dsaBad_param_filename
+dsaNotOK_param_filename
         
-bad_key_size
+inadequate_key_size
         
 generate_ev
 )
@@ -1046,13 +1056,13 @@ caOK
         
 ee_ext_text
         
-intBad_key
+intNotOK_key
         
-intBad_cert
+intNotOK_cert
         
 dsaOK_param_filename
         
-ok_key_size
+adequate_key_size
         
 generate_ev
 )
@@ -1077,9 +1087,9 @@ intOK_key
         
 intOK_cert
         
-dsaBad_param_filename
+dsaNotOK_param_filename
         
-bad_key_size
+inadequate_key_size
         
 generate_ev
 )
