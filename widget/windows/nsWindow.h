@@ -2380,10 +2380,6 @@ HasBogusPopupsDropShadowOnMultiMonitor
 (
 )
 ;
-static
-uint32_t
-sOOPPPluginFocusEvent
-;
 nsIntMargin
 mNonClientOffset
 ;
