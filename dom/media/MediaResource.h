@@ -1520,6 +1520,11 @@ CacheClientNotifyPrincipalChanged
 (
 )
 ;
+void
+CacheClientNotifySuspendedStatusChanged
+(
+)
+;
 nsresult
 CacheClientSeek
 (
