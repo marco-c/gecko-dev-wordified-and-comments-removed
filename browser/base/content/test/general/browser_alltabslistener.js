@@ -766,7 +766,6 @@ gBrowser
 .
 addTab
 (
-kBasePage
 )
 ;
 gForegroundTab
@@ -775,7 +774,6 @@ gBrowser
 .
 addTab
 (
-kBasePage
 )
 ;
 gBackgroundBrowser
@@ -815,6 +813,20 @@ waitForDocLoadComplete
 gForegroundBrowser
 )
 ]
+;
+gBackgroundBrowser
+.
+loadURI
+(
+kBasePage
+)
+;
+gForegroundBrowser
+.
+loadURI
+(
+kBasePage
+)
 ;
 Promise
 .
