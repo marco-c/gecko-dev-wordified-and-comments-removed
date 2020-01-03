@@ -94,9 +94,10 @@ Menu
 ;
 ok
 (
+!
 cutButton
 .
-getAttribute
+hasAttribute
 (
 "
 disabled
@@ -106,7 +107,7 @@ disabled
 Cut
 button
 is
-disabled
+enabled
 "
 )
 ;
@@ -159,8 +160,10 @@ disabled
 "
 Cut
 button
-gets
+is
 enabled
+when
+selecting
 "
 )
 ;

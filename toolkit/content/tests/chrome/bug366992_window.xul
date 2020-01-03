@@ -235,7 +235,7 @@ for
 bug
 366992
 the
-copy
+delete
 command
 would
 be
@@ -276,7 +276,7 @@ aCommand
 =
 =
 "
-cmd_copy
+cmd_delete
 "
 ;
 }
@@ -292,7 +292,7 @@ aCommand
 =
 =
 "
-cmd_copy
+cmd_delete
 "
 ;
 }
@@ -379,14 +379,14 @@ focus
 )
 ;
 var
-copyDisabled
+deleteDisabled
 =
 document
 .
 getElementById
 (
 "
-cmd_copy
+cmd_delete
 "
 )
 .
@@ -404,9 +404,9 @@ true
 ;
 ok
 (
-copyDisabled
+deleteDisabled
 "
-cmd_copy
+cmd_delete
 should
 be
 disabled
