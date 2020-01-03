@@ -2322,7 +2322,7 @@ aBdAddr
 PackConversion
 <
 nsAString
-BluetoothSspPairingVariant
+BluetoothSspVariant
 >
 (
 aVariant
@@ -4895,7 +4895,7 @@ UnpackPDU
 pdu
 UnpackConversion
 <
-BluetoothSspPairingVariant
+BluetoothSspVariant
 nsAString
 >
 (
