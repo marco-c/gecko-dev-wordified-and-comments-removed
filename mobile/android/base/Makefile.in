@@ -2833,6 +2833,11 @@ recipe
 command
 fails
 .
+CONSTRAINED_AAPT_CONFIGURATIONS
+:
+=
+mdpi
+hdpi
 define
 aapt_command
 (
@@ -3006,7 +3011,9 @@ MOZ_ANDROID_RESOURCE_CONSTRAINED
 )
 -
 c
-hdpi
+(
+CONSTRAINED_AAPT_CONFIGURATIONS
+)
 )
 \
 -
