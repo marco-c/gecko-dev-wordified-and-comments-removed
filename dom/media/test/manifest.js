@@ -851,7 +851,9 @@ ogg
 "
 duration
 :
-9000
+0
+.
+2
 }
 {
 name
