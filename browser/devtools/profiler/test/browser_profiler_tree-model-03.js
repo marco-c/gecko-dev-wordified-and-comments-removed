@@ -30,9 +30,14 @@ new
 ThreadNode
 (
 gSamples
-false
+{
+startTime
+:
 11
+endTime
+:
 18
+}
 )
 ;
 is

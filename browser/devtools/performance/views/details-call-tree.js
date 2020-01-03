@@ -413,8 +413,8 @@ _prepareCallTree
 function
 (
 profilerData
-beginAt
-endAt
+startTime
+endTime
 options
 )
 {
@@ -463,10 +463,12 @@ new
 ThreadNode
 (
 threadSamples
+{
+startTime
+endTime
 contentOnly
-beginAt
-endAt
 invertTree
+}
 )
 ;
 options

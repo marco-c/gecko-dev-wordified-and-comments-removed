@@ -1887,8 +1887,8 @@ function
 (
 panel
 profilerData
-beginAt
-endAt
+startTime
+endTime
 options
 =
 {
@@ -1938,10 +1938,12 @@ new
 ThreadNode
 (
 threadSamples
+{
+startTime
+endTime
 contentOnly
-beginAt
-endAt
 invertChecked
+}
 )
 ;
 options
