@@ -271,7 +271,7 @@ rangeCount
 aSel
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;

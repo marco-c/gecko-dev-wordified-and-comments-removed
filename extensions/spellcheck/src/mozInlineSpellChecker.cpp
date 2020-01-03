@@ -4746,7 +4746,7 @@ count
 aSpellCheckSelection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;
@@ -4973,7 +4973,7 @@ originalRangeCount
 aSpellCheckSelection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;
@@ -5768,7 +5768,7 @@ count
 spellCheckSelection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;
@@ -6046,7 +6046,7 @@ count
 aSelection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;

@@ -14431,7 +14431,7 @@ NS_ENSURE_TRUE
 aSelection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 NS_ERROR_FAILURE
@@ -14628,7 +14628,7 @@ NS_ENSURE_TRUE
 aSelection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 NS_ERROR_FAILURE
@@ -17009,7 +17009,7 @@ EditAggregateTxn
 ;
 for
 (
-int32_t
+uint32_t
 rangeIdx
 =
 0
@@ -17019,7 +17019,7 @@ rangeIdx
 selection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;

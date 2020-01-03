@@ -5729,7 +5729,7 @@ idx
 domSel
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 -
@@ -7277,7 +7277,7 @@ rangeCount
 domSel
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;
@@ -7419,11 +7419,17 @@ aSelectionNum
 aSelectionNum
 >
 =
+static_cast
+<
+int32_t
+>
+(
 domSel
 -
 >
-GetRangeCount
+RangeCount
 (
+)
 )
 )
 return
@@ -9617,7 +9623,7 @@ rangeCount
 domSel
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;

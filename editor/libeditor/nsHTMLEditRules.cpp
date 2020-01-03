@@ -1578,7 +1578,7 @@ NS_ENSURE_STATE
 selection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 )
@@ -2847,7 +2847,7 @@ NS_ENSURE_TRUE
 aSelection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 NS_OK
@@ -11768,7 +11768,7 @@ rangeCount
 aSelection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;
@@ -28682,7 +28682,7 @@ rangeCount
 selection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;
@@ -35523,7 +35523,7 @@ if
 selection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 )
@@ -38646,7 +38646,7 @@ rangeCount
 selection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;

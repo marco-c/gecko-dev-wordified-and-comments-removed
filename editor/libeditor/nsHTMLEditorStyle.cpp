@@ -757,7 +757,7 @@ rangeCount
 selection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;
@@ -6719,7 +6719,7 @@ rangeCount
 selection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;
@@ -7517,7 +7517,7 @@ rangeCount
 selection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;

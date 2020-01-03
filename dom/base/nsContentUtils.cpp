@@ -30382,7 +30382,7 @@ if
 aSelection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 )
@@ -30747,7 +30747,7 @@ rangeCount
 aSel
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;

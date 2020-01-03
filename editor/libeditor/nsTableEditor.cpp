@@ -12346,7 +12346,7 @@ rangeCount
 selection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;

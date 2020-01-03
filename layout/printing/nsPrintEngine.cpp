@@ -4673,7 +4673,7 @@ rangeCount
 selection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;
@@ -8819,7 +8819,7 @@ cnt
 selection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;
@@ -11264,7 +11264,7 @@ rangeCount
 origSelection
 -
 >
-GetRangeCount
+RangeCount
 (
 )
 ;
