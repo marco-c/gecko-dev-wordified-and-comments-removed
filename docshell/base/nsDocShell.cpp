@@ -17727,10 +17727,7 @@ presContext
 >
 MediaFeatureValuesChanged
 (
-presContext
--
->
-eAlwaysRebuildStyle
+eRestyle_Subtree
 )
 ;
 }

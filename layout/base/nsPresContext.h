@@ -499,13 +499,6 @@ eContext_Print
 eContext_PageLayout
 }
 ;
-enum
-StyleRebuildType
-{
-eRebuildStyleIfNeeded
-eAlwaysRebuildStyle
-}
-;
 nsPresContext
 (
 nsIDocument
@@ -807,8 +800,8 @@ aRestyleHint
 void
 MediaFeatureValuesChanged
 (
-StyleRebuildType
-aShouldRebuild
+nsRestyleHint
+aRestyleHint
 nsChangeHint
 aChangeHint
 =
@@ -839,7 +832,10 @@ mPendingMediaFeatureValuesChanged
 )
 MediaFeatureValuesChanged
 (
-eRebuildStyleIfNeeded
+nsRestyleHint
+(
+0
+)
 )
 ;
 }
@@ -1597,7 +1593,7 @@ HasCachedStyleData
 {
 MediaFeatureValuesChanged
 (
-eAlwaysRebuildStyle
+eRestyle_Subtree
 NS_STYLE_HINT_REFLOW
 )
 ;
@@ -1675,7 +1671,7 @@ HasCachedStyleData
 {
 MediaFeatureValuesChanged
 (
-eAlwaysRebuildStyle
+eRestyle_Subtree
 NS_STYLE_HINT_REFLOW
 )
 ;
