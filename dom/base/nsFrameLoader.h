@@ -830,11 +830,6 @@ ResetPermissionManagerStatus
 (
 )
 ;
-void
-InitializeBrowserAPI
-(
-)
-;
 nsCOMPtr
 <
 nsIDocShell
@@ -952,6 +947,11 @@ mClampScrollPosition
 1
 ;
 bool
+mRemoteBrowserInitialized
+:
+1
+;
+bool
 mObservingOwnerContent
 :
 1
@@ -986,6 +986,9 @@ mChildID
 ;
 uint32_t
 mEventMode
+;
+bool
+mPendingFrameSent
 ;
 }
 ;
