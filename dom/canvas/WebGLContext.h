@@ -6874,7 +6874,7 @@ srcPremultiplied
 void
 TexSubImage2D_base
 (
-TexImageTarget
+GLenum
 texImageTarget
 GLint
 level
