@@ -92,8 +92,10 @@ mFinished
 )
 ;
 mResult
-=
-JSVAL_VOID
+.
+setUndefined
+(
+)
 ;
 mDone
 =
@@ -210,9 +212,10 @@ Continue
 if
 (
 mResult
-=
-=
-JSVAL_VOID
+.
+isUndefined
+(
+)
 )
 {
 aRv

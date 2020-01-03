@@ -5263,7 +5263,12 @@ Value
 rval
 (
 cx
-JSVAL_VOID
+JS
+:
+:
+UndefinedValue
+(
+)
 )
 ;
 JS

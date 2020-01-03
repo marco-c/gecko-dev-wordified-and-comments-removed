@@ -279,7 +279,12 @@ Value
 v
 (
 cx
-JSVAL_VOID
+JS
+:
+:
+UndefinedValue
+(
+)
 )
 ;
 if

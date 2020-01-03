@@ -1016,11 +1016,8 @@ mMessage
 ;
 }
 mJSException
-=
-JS
-:
-:
-UndefinedValue
+.
+setUndefined
 (
 )
 ;
