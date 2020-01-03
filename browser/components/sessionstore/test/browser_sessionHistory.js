@@ -61,9 +61,8 @@ OnHistoryReplaceEntry
 "
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )

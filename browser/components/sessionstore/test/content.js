@@ -297,6 +297,11 @@ nsISupportsWeakReference
 )
 }
 ;
+let
+{
+sessionHistory
+}
+=
 docShell
 .
 QueryInterface
@@ -305,7 +310,12 @@ Ci
 .
 nsIWebNavigation
 )
-.
+;
+if
+(
+sessionHistory
+)
+{
 sessionHistory
 .
 addSHistoryListener
@@ -313,6 +323,7 @@ addSHistoryListener
 historyListener
 )
 ;
+}
 addEventListener
 (
 "

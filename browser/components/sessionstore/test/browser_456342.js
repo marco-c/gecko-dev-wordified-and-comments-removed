@@ -64,9 +64,8 @@ expectedValue
 }
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )

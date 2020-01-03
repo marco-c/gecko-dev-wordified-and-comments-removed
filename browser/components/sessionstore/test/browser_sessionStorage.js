@@ -979,9 +979,8 @@ tab
 linkedBrowser
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )
@@ -1103,9 +1102,8 @@ tab
 linkedBrowser
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )
@@ -1243,9 +1241,8 @@ promiseTabRestored
 tab2
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )
@@ -1303,9 +1300,8 @@ privacy_level
 "
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab2
 )

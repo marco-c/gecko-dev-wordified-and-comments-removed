@@ -153,9 +153,8 @@ PASS
 }
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )

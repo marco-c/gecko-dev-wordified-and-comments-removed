@@ -82,11 +82,8 @@ tab
 linkedBrowser
 )
 ;
-win
-.
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 win
 .
