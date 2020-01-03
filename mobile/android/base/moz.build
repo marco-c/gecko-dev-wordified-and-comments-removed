@@ -454,6 +454,13 @@ java
 '
 mozglue
 /
+JNIObject
+.
+java
+'
+'
+mozglue
+/
 JNITarget
 .
 java
