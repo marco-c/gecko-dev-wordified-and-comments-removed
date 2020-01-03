@@ -2604,7 +2604,7 @@ mem
 .
 max_decoded_image_kb
 "
-16384
+30000
 )
 ;
 pref
@@ -2616,7 +2616,7 @@ mem
 .
 hard_limit_decoded_image_kb
 "
-16384
+66560
 )
 ;
 pref
