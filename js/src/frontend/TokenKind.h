@@ -18,7 +18,7 @@ EOF
 "
 end
 of
-file
+script
 "
 )
 \
