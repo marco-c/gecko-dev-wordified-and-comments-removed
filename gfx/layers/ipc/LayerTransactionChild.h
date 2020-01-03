@@ -112,6 +112,10 @@ const
 {
 return
 mIPCOpen
+&
+&
+!
+mDestroyed
 ;
 }
 void

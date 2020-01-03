@@ -397,6 +397,13 @@ protected
 :
 virtual
 bool
+RecvShutdown
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvUpdate
 (
 const
