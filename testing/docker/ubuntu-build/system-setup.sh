@@ -59,6 +59,12 @@ python
 virtualenv
 \
 valgrind
+\
+uuid
+-
+dev
+\
+sqlite3
 #
 see
 https
