@@ -8883,6 +8883,14 @@ false
 }
 else
 {
+MOZ_ASSERT
+(
+!
+NS_IsMainThread
+(
+)
+)
+;
 nsCOMPtr
 <
 nsIEventTarget
