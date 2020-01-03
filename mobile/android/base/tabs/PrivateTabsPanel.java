@@ -55,6 +55,19 @@ TabsPanel
 CloseAllPanelView
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+tabs
+.
+TabsPanel
+.
+TabsLayout
+;
+import
 android
 .
 content
@@ -101,8 +114,8 @@ TabsPanel
 tabsPanel
 ;
 private
-TabsListLayout
-tabsTray
+TabsLayout
+tabsLayout
 ;
 public
 PrivateTabsPanel
@@ -136,10 +149,10 @@ private_tabs_panel
 this
 )
 ;
-tabsTray
+tabsLayout
 =
 (
-TabsListLayout
+TabsLayout
 )
 findViewById
 (
@@ -163,7 +176,7 @@ id
 private_tabs_empty
 )
 ;
-tabsTray
+tabsLayout
 .
 setEmptyView
 (
@@ -278,7 +291,7 @@ tabsPanel
 =
 panel
 ;
-tabsTray
+tabsLayout
 .
 setTabsPanel
 (
@@ -293,7 +306,7 @@ show
 (
 )
 {
-tabsTray
+tabsLayout
 .
 show
 (
@@ -321,7 +334,7 @@ View
 GONE
 )
 ;
-tabsTray
+tabsLayout
 .
 hide
 (
@@ -336,7 +349,7 @@ shouldExpand
 )
 {
 return
-tabsTray
+tabsLayout
 .
 shouldExpand
 (
@@ -350,7 +363,7 @@ closeAll
 (
 )
 {
-tabsTray
+tabsLayout
 .
 closeAll
 (
