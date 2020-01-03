@@ -187,7 +187,7 @@ jsm
 const
 PING_FORMAT_VERSION
 =
-2
+4
 ;
 const
 TEST_PING_TYPE

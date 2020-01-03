@@ -232,7 +232,7 @@ the
 ping
 format
 currently
-2
+4
 application
 :
 {

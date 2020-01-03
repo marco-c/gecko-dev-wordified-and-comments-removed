@@ -265,7 +265,7 @@ uploadEnabled
 const
 PING_FORMAT_VERSION
 =
-2
+4
 ;
 const
 TELEMETRY_DELAY
