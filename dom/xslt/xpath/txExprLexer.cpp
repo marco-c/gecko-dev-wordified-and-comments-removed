@@ -1280,7 +1280,7 @@ mPosition
 break
 ;
 case
-ASTERIX
+ASTERISK
 :
 if
 (

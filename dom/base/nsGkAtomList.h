@@ -165,7 +165,7 @@ default
 )
 GK_ATOM
 (
-_asterix
+_asterisk
 "
 *
 "
@@ -4833,13 +4833,6 @@ GK_ATOM
 onchange
 "
 onchange
-"
-)
-GK_ATOM
-(
-oncharacteristicchanged
-"
-oncharacteristicchanged
 "
 )
 GK_ATOM

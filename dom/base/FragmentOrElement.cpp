@@ -2180,11 +2180,11 @@ kNameSpaceID_Wildcard
 nsGkAtoms
 :
 :
-_asterix
+_asterisk
 nsGkAtoms
 :
 :
-_asterix
+_asterisk
 false
 )
 ;

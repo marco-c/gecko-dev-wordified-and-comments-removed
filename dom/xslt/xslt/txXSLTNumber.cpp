@@ -710,7 +710,7 @@ txNameTest
 nsGkAtoms
 :
 :
-_asterix
+_asterisk
 0
 nodeType
 )
