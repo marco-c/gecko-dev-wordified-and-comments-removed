@@ -4531,6 +4531,17 @@ aAccessible
 .
 role
 )
+.
+replace
+(
+/
+\
+s
+/
+g
+'
+'
+)
 +
 '
 -
