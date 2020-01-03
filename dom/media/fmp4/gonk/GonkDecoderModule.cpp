@@ -237,7 +237,7 @@ IsVideoConfig
 )
 {
 return
-kNeedAVCC
+kNeedAnnexB
 ;
 }
 else
