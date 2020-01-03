@@ -334,7 +334,7 @@ if
 !
 aInput
 .
-IsNull
+IsSilentOrSubnormal
 (
 )
 )
