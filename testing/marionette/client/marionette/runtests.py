@@ -2,6 +2,10 @@ import
 sys
 from
 marionette
+import
+__version__
+from
+marionette
 .
 marionette_test
 import
@@ -177,6 +181,15 @@ test_file_or_dir
 .
 .
 '
+                          
+version
+=
+'
+%
+prog
+'
++
+__version__
 )
     
 structured
