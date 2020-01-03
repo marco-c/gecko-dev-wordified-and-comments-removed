@@ -836,6 +836,15 @@ return
 true
 ;
 }
+if
+(
+mPendingRequest
+)
+{
+return
+false
+;
+}
 uint32_t
 status
 ;
