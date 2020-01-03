@@ -537,10 +537,4 @@ xpcom
 /
 build
 '
-'
-/
-xpcom
-/
-threads
-'
 ]
