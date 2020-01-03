@@ -627,7 +627,7 @@ net
 :
 :
 ReferrerPolicy
-ReferrerPolicy
+ReferrerPolicyEnum
 ;
 typedef
 mozilla
@@ -758,7 +758,7 @@ aURI
 =
 0
 ;
-ReferrerPolicy
+ReferrerPolicyEnum
 GetReferrerPolicy
 (
 )
@@ -766,6 +766,18 @@ const
 {
 return
 mReferrerPolicy
+;
+}
+uint32_t
+ReferrerPolicy
+(
+)
+const
+{
+return
+GetReferrerPolicy
+(
+)
 ;
 }
 virtual
@@ -4287,7 +4299,7 @@ const
 nsAString
 &
 aCrossOriginAttr
-ReferrerPolicy
+ReferrerPolicyEnum
 aReferrerPolicy
 )
 =
@@ -4319,7 +4331,7 @@ const
 nsAString
 &
 aCrossOriginAttr
-ReferrerPolicy
+ReferrerPolicyEnum
 aReferrerPolicy
 )
 =
@@ -6904,7 +6916,7 @@ mDocumentLoadGroup
 bool
 mReferrerPolicySet
 ;
-ReferrerPolicy
+ReferrerPolicyEnum
 mReferrerPolicy
 ;
 mozilla

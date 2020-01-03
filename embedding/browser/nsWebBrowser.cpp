@@ -2438,7 +2438,7 @@ NS_IMETHODIMP
 nsWebBrowser
 :
 :
-LoadURIWithBase
+LoadURIWithOptions
 (
 const
 char16_t
@@ -2449,6 +2449,8 @@ aLoadFlags
 nsIURI
 *
 aReferringURI
+uint32_t
+aReferrerPolicy
 nsIInputStream
 *
 aPostDataStream
@@ -2469,11 +2471,12 @@ return
 mDocShellAsNav
 -
 >
-LoadURIWithBase
+LoadURIWithOptions
 (
 aURI
 aLoadFlags
 aReferringURI
+aReferrerPolicy
 aPostDataStream
 aExtraHeaderStream
 aBaseURI

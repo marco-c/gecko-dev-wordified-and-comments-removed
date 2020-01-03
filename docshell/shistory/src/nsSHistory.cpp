@@ -5860,7 +5860,7 @@ NS_IMETHODIMP
 nsSHistory
 :
 :
-LoadURIWithBase
+LoadURIWithOptions
 (
 const
 char16_t
@@ -5871,6 +5871,8 @@ aLoadFlags
 nsIURI
 *
 aReferringURI
+uint32_t
+aReferrerPolicy
 nsIInputStream
 *
 aPostStream
