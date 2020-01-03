@@ -113,7 +113,11 @@ MPL
 /
 include
 protocol
-PContent
+PFileDescriptorSet
+;
+include
+protocol
+PBrowser
 ;
 include
 "
@@ -245,7 +249,7 @@ protocol
 PDocAccessible
 {
 manager
-PContent
+PBrowser
 ;
 parent
 :
