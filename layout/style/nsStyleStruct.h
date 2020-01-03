@@ -8363,6 +8363,12 @@ NS_STYLE_DISPLAY_RUBY_TEXT_CONTAINER
 =
 =
 aDisplay
+|
+|
+NS_STYLE_DISPLAY_CONTENTS
+=
+=
+aDisplay
 ;
 }
 bool
