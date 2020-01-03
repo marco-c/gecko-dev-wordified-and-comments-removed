@@ -201,15 +201,6 @@ js
 '
 modules
 /
-remote
--
-resources
-.
-js
-'
-'
-modules
-/
 runtimes
 .
 js
