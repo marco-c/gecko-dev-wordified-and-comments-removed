@@ -997,8 +997,6 @@ Message
 :
 "
 +
-details
-.
 message
 details
 .
