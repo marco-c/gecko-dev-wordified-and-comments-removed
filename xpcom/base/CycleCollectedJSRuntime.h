@@ -845,6 +845,8 @@ JSTracer
 aTracer
 )
 ;
+public
+:
 enum
 DeferredFinalizeType
 {
@@ -859,8 +861,6 @@ DeferredFinalizeType
 aType
 )
 ;
-public
-:
 enum
 class
 OOMState
