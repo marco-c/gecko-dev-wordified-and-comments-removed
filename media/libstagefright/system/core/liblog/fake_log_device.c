@@ -72,6 +72,11 @@ process
 h
 >
 #
+if
+_MSC_VER
+<
+1900
+#
 include
 <
 nspr
@@ -84,6 +89,8 @@ h
 define
 snprintf
 PR_snprintf
+#
+endif
 #
 define
 UNINDENTED_BLOCK_START
