@@ -31,9 +31,6 @@ typedef
 nsSVGPathGeometryElement
 nsSVGPolyElementBase
 ;
-class
-gfxContext
-;
 namespace
 mozilla
 {
@@ -155,16 +152,6 @@ nsSVGMark
 >
 *
 aMarks
-)
-MOZ_OVERRIDE
-;
-virtual
-void
-ConstructPath
-(
-gfxContext
-*
-aCtx
 )
 MOZ_OVERRIDE
 ;

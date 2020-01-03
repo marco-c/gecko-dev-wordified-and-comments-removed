@@ -647,11 +647,8 @@ mMatrix
 .
 Translate
 (
-gfxPoint
-(
 aCx
 aCy
-)
 )
 ;
 mMatrix
@@ -667,13 +664,10 @@ mMatrix
 .
 Translate
 (
-gfxPoint
-(
 -
 aCx
 -
 aCy
-)
 )
 ;
 mAngle

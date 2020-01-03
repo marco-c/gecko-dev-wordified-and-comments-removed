@@ -227,16 +227,6 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-void
-ConstructPath
-(
-gfxContext
-*
-aCtx
-)
-MOZ_OVERRIDE
-;
-virtual
 TemporaryRef
 <
 Path
