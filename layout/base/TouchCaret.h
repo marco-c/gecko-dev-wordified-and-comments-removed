@@ -192,6 +192,11 @@ GetTouchCaretPosition
 (
 )
 ;
+bool
+IsCaretShowingInScrollFrame
+(
+)
+;
 nsPoint
 ClampPositionToScrollFrame
 (
