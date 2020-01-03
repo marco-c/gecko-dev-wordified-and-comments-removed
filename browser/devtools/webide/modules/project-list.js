@@ -269,6 +269,12 @@ div
 "
 ;
 }
+AppManager
+.
+init
+(
+)
+;
 return
 this
 ;
