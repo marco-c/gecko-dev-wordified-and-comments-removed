@@ -12826,12 +12826,13 @@ isForEval
 ;
 MOZ_ASSERT
 (
+!
 script
 (
 )
 -
 >
-compileAndGo
+hasPollutedGlobalScope
 (
 )
 )
