@@ -59,10 +59,6 @@ BUFFER_SIZE
 define
 COMMAND_SIZE
 256
-#
-define
-PROPERTY_VALUE_MAX
-80
 static
 void
 *
@@ -161,6 +157,7 @@ propP2pSupported
 )
 ;
 }
+static
 int
 hex2num
 (
@@ -249,6 +246,7 @@ return
 1
 ;
 }
+static
 int
 hex2byte
 (
@@ -313,6 +311,7 @@ a
 b
 ;
 }
+static
 uint32_t
 convertToBytes
 (
@@ -759,6 +758,7 @@ REPLACE_UTF8
 =
 0xFFFD
 ;
+static
 void
 LossyConvertUTF8toUTF16
 (
