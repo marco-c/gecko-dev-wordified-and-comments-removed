@@ -447,3 +447,13 @@ CONFIG
 REALTIME_LIBS
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]
