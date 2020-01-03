@@ -6536,7 +6536,7 @@ fling_curve_function_x1
 "
 0
 .
-0
+41
 "
 )
 ;
@@ -6564,7 +6564,7 @@ fling_curve_function_x2
 "
 0
 .
-58
+76
 "
 )
 ;
@@ -6592,7 +6592,7 @@ fling_curve_threshold_inches_per_ms
 "
 0
 .
-03
+01
 "
 )
 ;
@@ -6606,7 +6606,7 @@ fling_friction
 "
 0
 .
-003
+0024
 "
 )
 ;
