@@ -3581,11 +3581,6 @@ CameraStateChangeEvent
 webidl
 '
 '
-CaretStateChangedEvent
-.
-webidl
-'
-'
 CFStateChangeEvent
 .
 webidl
