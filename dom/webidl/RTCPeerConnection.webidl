@@ -651,7 +651,6 @@ peerIdentity
 [
 ChromeOnly
 ]
-readonly
 attribute
 DOMString
 id

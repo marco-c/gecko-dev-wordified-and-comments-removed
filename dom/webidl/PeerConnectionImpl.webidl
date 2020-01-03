@@ -528,7 +528,6 @@ attribute
 PCImplSipccState
 sipccState
 ;
-readonly
 attribute
 DOMString
 id
