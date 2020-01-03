@@ -862,7 +862,7 @@ mInvalidFront
 .
 OrWith
 (
-paintRegion
+tileDirtyRegion
 )
 ;
 mTile
