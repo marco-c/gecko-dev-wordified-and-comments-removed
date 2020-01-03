@@ -27,6 +27,7 @@ ReadNDEFReq
 WriteNDEFReq
 MakeReadOnlyReq
 FormatReq
+TransceiveReq
 }
 ;
 enum
@@ -37,6 +38,7 @@ GeneralRsp
 1000
 ChangeRFStateRsp
 ReadNDEFRsp
+TransceiveRsp
 }
 ;
 enum
