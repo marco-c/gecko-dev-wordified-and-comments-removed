@@ -30,10 +30,6 @@ void
 *
 *
 ppArg
-nsISupports
-*
-*
-ppArgRef
 )
 ;
 #
