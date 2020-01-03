@@ -30,6 +30,17 @@ mozilla
 /
 dom
 /
+FileList
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MessagePort
 .
 h

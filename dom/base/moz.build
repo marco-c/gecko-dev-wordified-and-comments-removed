@@ -910,6 +910,11 @@ File
 h
 '
 '
+FileList
+.
+h
+'
+'
 FragmentOrElement
 .
 h
@@ -1186,6 +1191,11 @@ cpp
 '
 '
 FileIOObject
+.
+cpp
+'
+'
+FileList
 .
 cpp
 '

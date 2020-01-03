@@ -183,6 +183,17 @@ mozilla
 /
 dom
 /
+FileList
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 BindingUtils
 .
 h
