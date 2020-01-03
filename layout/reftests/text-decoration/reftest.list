@@ -1994,7 +1994,6 @@ quirks
 ref
 .
 html
-fails
 =
 =
 underline
@@ -2021,16 +2020,6 @@ quirks
 ref
 .
 html
-#
-same
-problem
-as
-previous
-line
-(
-bug
-403524
-)
 =
 =
 underline
