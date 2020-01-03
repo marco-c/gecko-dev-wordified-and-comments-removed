@@ -514,6 +514,12 @@ false
 ;
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 NavigatorLanguage

@@ -1063,6 +1063,7 @@ nsString
 aLanguages
 )
 ;
+static
 void
 GetAcceptLanguages
 (

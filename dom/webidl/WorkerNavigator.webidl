@@ -72,6 +72,10 @@ NavigatorID
 ;
 WorkerNavigator
 implements
+NavigatorLanguage
+;
+WorkerNavigator
+implements
 NavigatorOnLine
 ;
 WorkerNavigator

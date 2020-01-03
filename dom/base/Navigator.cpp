@@ -1582,6 +1582,13 @@ nsString
 aLanguages
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 const
 nsAdoptingString
 &
