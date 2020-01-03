@@ -2191,6 +2191,11 @@ CheckPermissions
 "
 voicemail
 "
+AvailableIn
+=
+"
+CertifiedApps
+"
 UnsafeInPrerendering
 ]
 readonly

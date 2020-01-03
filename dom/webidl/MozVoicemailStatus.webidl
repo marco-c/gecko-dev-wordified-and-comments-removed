@@ -121,6 +121,16 @@ voicemail
 .
 enabled
 "
+CheckPermissions
+=
+"
+voicemail
+"
+AvailableIn
+=
+"
+CertifiedApps
+"
 ]
 interface
 MozVoicemailStatus
