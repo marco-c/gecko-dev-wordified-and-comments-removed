@@ -843,10 +843,10 @@ ProcessLongTap
 const
 nsCOMPtr
 <
-nsIDOMWindowUtils
+nsIPresShell
 >
 &
-aUtils
+aPresShell
 const
 CSSPoint
 &
@@ -918,7 +918,7 @@ APZCCallbackHelper
 :
 DispatchMouseEvent
 (
-aUtils
+aPresShell
 NS_LITERAL_STRING
 (
 "
