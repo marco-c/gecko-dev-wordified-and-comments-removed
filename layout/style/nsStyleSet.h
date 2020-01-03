@@ -859,12 +859,6 @@ const
 nsAttrValue
 *
 aOtherValue
-mozilla
-:
-:
-RestyleHintData
-&
-aRestyleHintDataResult
 )
 ;
 bool
@@ -1142,11 +1136,6 @@ HasRuleProcessorUsedByMultipleStyleSets
 (
 sheetType
 aSheetType
-)
-;
-void
-ClearSelectors
-(
 )
 ;
 private

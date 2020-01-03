@@ -527,9 +527,6 @@ HasAttributeDependentStyle
 AttributeRuleProcessorData
 *
 aData
-RestyleHintData
-&
-aRestyleHintDataResult
 )
 {
 if

@@ -247,9 +247,6 @@ HasAttributeDependentStyle
 AttributeRuleProcessorData
 *
 aData
-RestyleHintData
-&
-aRestyleHintDataResult
 )
 override
 ;
