@@ -326,3 +326,14 @@ DIRS
 staticruntime
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+memory
+/
+build
+'
+]
