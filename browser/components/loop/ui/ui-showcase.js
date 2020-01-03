@@ -1144,6 +1144,9 @@ copy
 checkmark
 "
 "
+delete
+"
+"
 google
 "
 "

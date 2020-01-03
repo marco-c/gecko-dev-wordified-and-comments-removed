@@ -1328,6 +1328,9 @@ copy
 checkmark
 "
 "
+delete
+"
+"
 google
 "
 "
