@@ -769,9 +769,6 @@ return
 true
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 class
 WrapperMapRef
 :
@@ -1061,8 +1058,6 @@ front
 }
 #
 endif
-#
-endif
 bool
 JSCompartment
 :
@@ -1180,9 +1175,6 @@ wrapper
 )
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 !
@@ -1255,8 +1247,6 @@ ref
 )
 ;
 }
-#
-endif
 return
 success
 ;
