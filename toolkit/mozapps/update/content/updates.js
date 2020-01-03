@@ -2358,6 +2358,7 @@ nsIWritablePropertyBag
 ;
 }
 }
+;
 var
 gCheckingPage
 =
