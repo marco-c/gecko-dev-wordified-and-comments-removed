@@ -109,6 +109,16 @@ cellbroadcast
 .
 enabled
 "
+CheckPermissions
+=
+"
+cellbroadcast
+"
+AvailableIn
+=
+"
+CertifiedApps
+"
 ]
 interface
 MozCellBroadcastEvent

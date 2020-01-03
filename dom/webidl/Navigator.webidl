@@ -2162,6 +2162,11 @@ CheckPermissions
 "
 cellbroadcast
 "
+AvailableIn
+=
+"
+CertifiedApps
+"
 UnsafeInPrerendering
 ]
 readonly
