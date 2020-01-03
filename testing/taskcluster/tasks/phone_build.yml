@@ -302,7 +302,7 @@ mozharness_repository
 }
 }
 '
-MZHARNESS_REV
+MOZHARNESS_REV
 :
 '
 {
