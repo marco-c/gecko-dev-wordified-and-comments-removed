@@ -3335,6 +3335,11 @@ aIMENotification
 mSelectionChangeData
 .
 mCausedByComposition
+aIMENotification
+.
+mSelectionChangeData
+.
+mCausedBySelectionEvent
 )
 ;
 return

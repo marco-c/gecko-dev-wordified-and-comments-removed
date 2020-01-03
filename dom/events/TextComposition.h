@@ -124,6 +124,16 @@ dom
 TabParent
 TabParent
 ;
+static
+bool
+IsHandlingSelectionEvent
+(
+)
+{
+return
+sHandlingSelectionEvent
+;
+}
 TextComposition
 (
 nsPresContext
@@ -407,6 +417,10 @@ TextComposition
 )
 {
 }
+static
+bool
+sHandlingSelectionEvent
+;
 nsPresContext
 *
 mPresContext

@@ -725,6 +725,10 @@ const
 bool
 &
 aCausedByComposition
+const
+bool
+&
+aCausedBySelectionEvent
 )
 override
 ;
