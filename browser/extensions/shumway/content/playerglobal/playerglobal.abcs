@@ -8708,6 +8708,10 @@ events
 UncaughtErrorEvents
 EventDispatcher
 Object
+native
+cls
+UncaughtErrorEventsClass
+D
 0G
 0e
 ]
