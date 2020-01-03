@@ -1910,6 +1910,13 @@ CleanLayerManagerRecursive
 (
 )
 ;
+virtual
+int32_t
+RoundsWidgetCoordinatesTo
+(
+)
+override
+;
 nsRefPtr
 <
 nsGtkIMModule
