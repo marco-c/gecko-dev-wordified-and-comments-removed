@@ -72,9 +72,7 @@ test
 .
 run
 (
-test
-.
-js_cmd_prefix
+prefix
 timeout
 )
 )
@@ -82,6 +80,7 @@ def
 run_all_tests_gen
 (
 tests
+prefix
 results
 options
 )
@@ -147,6 +146,8 @@ args
 (
 qTasks
 qResults
+prefix
+                                               
 options
 .
 timeout
