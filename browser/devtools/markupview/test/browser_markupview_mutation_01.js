@@ -198,6 +198,7 @@ inspector
 ;
 ok
 (
+!
 [
 .
 .
@@ -240,19 +241,6 @@ newattr
 newattrval
 \
 "
-"
-&
-&
-attr
-.
-style
-.
-display
-=
-=
-=
-"
-none
 "
 ;
 }
