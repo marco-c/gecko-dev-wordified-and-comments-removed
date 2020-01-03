@@ -1459,7 +1459,7 @@ type
 )
 !
 =
-SurfaceDescriptor
+MaybeMagicGrallocBufferHandle
 :
 :
 Tnull_t
