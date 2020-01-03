@@ -637,6 +637,11 @@ Compositor
 aCompositor
 )
 {
+MOZ_ASSERT
+(
+aCompositor
+)
+;
 mCompositor
 =
 static_cast

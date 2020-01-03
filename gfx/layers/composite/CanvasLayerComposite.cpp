@@ -293,6 +293,9 @@ aManager
 if
 (
 mImageHost
+&
+&
+mCompositor
 )
 {
 mImageHost

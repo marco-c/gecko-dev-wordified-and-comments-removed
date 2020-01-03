@@ -1082,6 +1082,11 @@ Compositor
 aCompositor
 )
 {
+MOZ_ASSERT
+(
+aCompositor
+)
+;
 if
 (
 !
@@ -1843,6 +1848,11 @@ nsIntRegion
 aVisibleRegion
 )
 {
+MOZ_ASSERT
+(
+mCompositor
+)
+;
 if
 (
 mPendingUpload
