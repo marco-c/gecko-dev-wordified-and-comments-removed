@@ -165,6 +165,9 @@ size_t
 active
 ;
 size_t
+bookkeeping
+;
+size_t
 mapped
 ;
 struct

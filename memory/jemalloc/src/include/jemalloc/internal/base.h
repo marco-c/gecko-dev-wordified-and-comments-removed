@@ -11,6 +11,14 @@ endif
 #
 ifdef
 JEMALLOC_H_EXTERNS
+extern
+malloc_mutex_t
+base_mtx
+;
+extern
+size_t
+base_allocated
+;
 void
 *
 base_alloc
