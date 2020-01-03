@@ -11091,15 +11091,8 @@ std
 :
 min
 (
-std
-:
-:
-min
-(
 audioStart
 videoStart
-)
-seekTime
 )
 ;
 }
