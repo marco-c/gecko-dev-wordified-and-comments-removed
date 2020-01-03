@@ -256,6 +256,13 @@ this
 props
 .
 dispatcher
+mozLoop
+:
+this
+.
+props
+.
+mozLoop
 roomStore
 :
 this
