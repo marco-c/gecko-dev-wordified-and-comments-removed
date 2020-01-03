@@ -2370,7 +2370,7 @@ scaledSpeedOfSound
 listener
 -
 >
-DopplerFactor
+SpeedOfSound
 (
 )
 /
