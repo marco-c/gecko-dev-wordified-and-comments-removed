@@ -395,13 +395,6 @@ endif
 #
 include
 "
-Principal
-.
-h
-"
-#
-include
-"
 ServiceWorker
 .
 h
@@ -3834,14 +3827,6 @@ mWorkerPrivate
 aWorkerPrivate
 )
 {
-JS_InitDestroyPrincipalsCallback
-(
-Runtime
-(
-)
-DestroyWorkerPrincipals
-)
-;
 }
 ~
 WorkerJSRuntime
@@ -7244,6 +7229,7 @@ Length
 }
 NS_ASSERTION
 (
+!
 nextExpiration
 .
 IsNull
