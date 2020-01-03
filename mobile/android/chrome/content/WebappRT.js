@@ -234,6 +234,15 @@ pref
 "
 media
 .
+useAudioChannelAPI
+"
+true
+)
+pref
+(
+"
+media
+.
 useAudioChannelService
 "
 true

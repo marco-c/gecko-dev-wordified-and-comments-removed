@@ -6589,6 +6589,16 @@ true
 pref
 (
 "
+media
+.
+useAudioChannelAPI
+"
+true
+)
+;
+pref
+(
+"
 b2g
 .
 version

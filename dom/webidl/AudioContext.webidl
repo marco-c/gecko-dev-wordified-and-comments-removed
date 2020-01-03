@@ -531,7 +531,7 @@ Pref
 "
 media
 .
-useAudioChannelService
+useAudioChannelAPI
 "
 ]
 readonly
@@ -588,7 +588,7 @@ Pref
 "
 media
 .
-useAudioChannelService
+useAudioChannelAPI
 "
 ]
 attribute
@@ -601,7 +601,7 @@ Pref
 "
 media
 .
-useAudioChannelService
+useAudioChannelAPI
 "
 ]
 attribute
