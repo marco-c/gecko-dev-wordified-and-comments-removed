@@ -41015,8 +41015,6 @@ getRetvalDeclarationForType
 returnType
 descriptorProvider
                                 
-resultAlreadyAddRefed
-                                
 isMember
 =
 False
@@ -41700,8 +41698,6 @@ inner
                                                          
 descriptorProvider
                                                          
-resultAlreadyAddRefed
-                                                         
 isMember
 =
 "
@@ -41827,8 +41823,6 @@ returnType
 inner
                                                          
 descriptorProvider
-                                                         
-resultAlreadyAddRefed
                                                          
 isMember
 =
@@ -42197,20 +42191,6 @@ s
 returnType
 )
 def
-isResultAlreadyAddRefed
-(
-extendedAttributes
-)
-:
-    
-return
-'
-resultNotAddRefed
-'
-not
-in
-extendedAttributes
-def
 needCx
 (
 returnType
@@ -42523,13 +42503,6 @@ is
 not
 None
         
-resultAlreadyAddRefed
-=
-isResultAlreadyAddRefed
-(
-extendedAttributes
-)
-        
 result
 resultOutParam
 resultRooter
@@ -42540,10 +42513,8 @@ resultConversion
             
 getRetvalDeclarationForType
 (
-                
 returnType
 descriptorProvider
-resultAlreadyAddRefed
 )
         
 args
@@ -53592,8 +53563,6 @@ attr
 type
                                                                  
 descriptor
-                                                                 
-False
 )
         
 infallible
@@ -85849,6 +85818,10 @@ True
 variadicIsSequence
 =
 False
+                 
+resultNotAddRefed
+=
+False
 )
 :
         
@@ -85964,12 +85937,8 @@ self
 .
 resultAlreadyAddRefed
 =
-isResultAlreadyAddRefed
-(
-self
-.
-extendedAttrs
-)
+not
+resultNotAddRefed
         
 self
 .
@@ -100676,26 +100645,6 @@ getter
 True
 )
         
-if
-not
-attr
-.
-type
-.
-isSequence
-(
-)
-:
-            
-ea
-.
-append
-(
-'
-resultNotAddRefed
-'
-)
-        
 CGNativeMember
 .
 __init__
@@ -100722,6 +100671,17 @@ type
 )
                                 
 ea
+                                
+resultNotAddRefed
+=
+not
+attr
+.
+type
+.
+isSequence
+(
+)
 )
         
 self
