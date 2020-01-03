@@ -1055,6 +1055,11 @@ if
 mPresContext
 -
 >
+RestyleManager
+(
+)
+-
+>
 IsProcessingAnimationStyleChange
 (
 )

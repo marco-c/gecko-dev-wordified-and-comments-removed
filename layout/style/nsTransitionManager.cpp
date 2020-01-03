@@ -772,6 +772,11 @@ PresContext
 )
 -
 >
+RestyleManager
+(
+)
+-
+>
 IsProcessingAnimationStyleChange
 (
 )
