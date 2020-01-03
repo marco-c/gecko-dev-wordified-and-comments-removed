@@ -216,7 +216,7 @@ object
 -
 element
 [
-NeedNewResolve
+NeedResolve
 ]
 interface
 HTMLObjectElement

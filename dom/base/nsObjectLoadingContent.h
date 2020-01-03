@@ -359,7 +359,7 @@ TeardownProtoChain
 )
 ;
 bool
-DoNewResolve
+DoResolve
 (
 JSContext
 *

@@ -1052,7 +1052,7 @@ ServiceWorker
 )
 ;
 bool
-DoNewResolve
+DoResolve
 (
 JSContext
 *

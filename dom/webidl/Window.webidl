@@ -358,7 +358,7 @@ work
 /
 [
 PrimaryGlobal
-NeedNewResolve
+NeedResolve
 ]
 /
 *

@@ -15427,7 +15427,7 @@ bool
 nsObjectLoadingContent
 :
 :
-DoNewResolve
+DoResolve
 (
 JSContext
 *

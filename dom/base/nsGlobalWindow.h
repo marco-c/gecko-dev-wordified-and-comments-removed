@@ -1653,7 +1653,7 @@ nullptr
 )
 ;
 bool
-DoNewResolve
+DoResolve
 (
 JSContext
 *

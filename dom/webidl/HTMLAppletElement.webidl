@@ -191,7 +191,7 @@ applet
 -
 element
 [
-NeedNewResolve
+NeedResolve
 ]
 interface
 HTMLAppletElement

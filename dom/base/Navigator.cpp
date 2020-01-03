@@ -8420,7 +8420,7 @@ bool
 Navigator
 :
 :
-DoNewResolve
+DoResolve
 (
 JSContext
 *

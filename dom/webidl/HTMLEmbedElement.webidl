@@ -216,7 +216,7 @@ embed
 -
 element
 [
-NeedNewResolve
+NeedResolve
 ]
 interface
 HTMLEmbedElement

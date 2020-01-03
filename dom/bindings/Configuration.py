@@ -5023,7 +5023,7 @@ Generally
 any
 interface
 with
-NeedNewResolve
+NeedResolve
 needs
 Xray
         
@@ -5102,7 +5102,7 @@ interface
 getExtendedAttribute
 (
 "
-NeedNewResolve
+NeedResolve
 "
 )
 and

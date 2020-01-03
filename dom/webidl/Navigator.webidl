@@ -354,7 +354,7 @@ Navigator
 .
 h
 "
-NeedNewResolve
+NeedResolve
 ]
 interface
 Navigator
