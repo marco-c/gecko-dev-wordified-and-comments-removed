@@ -53,7 +53,7 @@ explicit
 nsBMPDecoder
 (
 RasterImage
-&
+*
 aImage
 )
 ;
