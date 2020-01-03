@@ -14,13 +14,6 @@ h
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 NamespaceImports
 .
 h
