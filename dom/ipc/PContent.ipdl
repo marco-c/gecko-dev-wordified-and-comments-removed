@@ -164,6 +164,10 @@ PDocAccessible
 ;
 include
 protocol
+PPSMContentDownloader
+;
+include
+protocol
 PExternalHelperApp
 ;
 include
@@ -1395,6 +1399,9 @@ PDeviceStorageRequest
 ;
 manages
 PFileSystemRequest
+;
+manages
+PPSMContentDownloader
 ;
 manages
 PExternalHelperApp
@@ -3348,6 +3355,12 @@ nsString
 name
 Principal
 principal
+)
+;
+PPSMContentDownloader
+(
+uint32_t
+aCertType
 )
 ;
 PExternalHelperApp
