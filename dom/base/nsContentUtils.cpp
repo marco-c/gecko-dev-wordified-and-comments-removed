@@ -33783,6 +33783,11 @@ DataSourceSurface
 MappedSurface
 map
 ;
+if
+(
+NS_WARN_IF
+(
+!
 aSurface
 -
 >
@@ -33804,7 +33809,13 @@ READ
 &
 map
 )
+)
+)
+{
+return
+nullptr
 ;
+}
 mozilla
 :
 :

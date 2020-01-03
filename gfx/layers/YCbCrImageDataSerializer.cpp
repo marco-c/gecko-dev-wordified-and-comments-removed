@@ -1446,6 +1446,11 @@ DataSourceSurface
 MappedSurface
 map
 ;
+if
+(
+NS_WARN_IF
+(
+!
 result
 -
 >
@@ -1461,7 +1466,13 @@ WRITE
 &
 map
 )
+)
+)
+{
+return
+nullptr
 ;
+}
 gfx
 :
 :

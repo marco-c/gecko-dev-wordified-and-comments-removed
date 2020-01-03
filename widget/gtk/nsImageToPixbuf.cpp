@@ -335,6 +335,9 @@ DataSourceSurface
 MappedSurface
 map
 ;
+if
+(
+!
 dataSurface
 -
 >
@@ -350,6 +353,9 @@ READ
 &
 map
 )
+)
+return
+nullptr
 ;
 uint8_t
 *
