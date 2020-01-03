@@ -7709,6 +7709,7 @@ Append
 (
 fromRawSegment
 count
+fallible
 )
 ;
 if
