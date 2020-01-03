@@ -3345,6 +3345,14 @@ promisePane
 .
 hidden
 ;
+this
+.
+DebuggerView
+.
+_initializePromiseDebugger
+(
+)
+;
 }
 }
 hidePrettyPrinting
