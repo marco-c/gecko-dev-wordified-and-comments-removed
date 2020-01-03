@@ -1106,6 +1106,11 @@ GREVersion
 }
 "
 StrCpy
+R9
+"
+true
+"
+StrCpy
 PreventRebootRequired
 "
 false
