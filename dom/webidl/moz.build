@@ -670,6 +670,11 @@ EventTarget
 webidl
 '
 '
+Fetch
+.
+webidl
+'
+'
 File
 .
 webidl
@@ -1676,6 +1681,11 @@ webidl
 '
 '
 Rect
+.
+webidl
+'
+'
+Request
 .
 webidl
 '
