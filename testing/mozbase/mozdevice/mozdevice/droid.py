@@ -1059,6 +1059,13 @@ None
         
 data
 =
+None
+        
+try
+:
+            
+data
+=
 self
 .
 shellCheckOutput
@@ -1075,6 +1082,13 @@ windows
 "
 ]
 )
+        
+except
+:
+            
+return
+"
+"
         
 m
 =
