@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsIJSRuntimeService
-.
-h
-"
-#
-include
-"
 nsIProfileSaveEvent
 .
 h

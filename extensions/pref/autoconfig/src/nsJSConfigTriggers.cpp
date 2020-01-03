@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIJSRuntimeService
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

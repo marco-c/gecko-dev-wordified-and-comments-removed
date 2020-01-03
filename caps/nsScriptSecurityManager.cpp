@@ -285,13 +285,6 @@ h
 #
 include
 "
-nsIJSRuntimeService
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
