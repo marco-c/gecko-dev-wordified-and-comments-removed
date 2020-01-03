@@ -557,6 +557,7 @@ nsIDOMNode
 *
 aNode
 )
+const
 {
 if
 (
@@ -608,6 +609,7 @@ nsIDOMNode
 *
 aNode
 )
+const
 {
 if
 (
@@ -660,6 +662,7 @@ nsIDOMNode
 *
 aNode
 )
+const
 {
 if
 (
@@ -768,6 +771,7 @@ nsIDOMNode
 *
 aNode
 )
+const
 {
 if
 (
@@ -27894,6 +27898,7 @@ nsIDOMNode
 *
 aNode
 )
+const
 {
 return
 mArray
