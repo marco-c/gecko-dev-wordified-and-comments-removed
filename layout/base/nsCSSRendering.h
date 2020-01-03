@@ -1407,7 +1407,7 @@ gfxPoint
 aPt
 const
 gfxFloat
-aICoordInFrame
+aXInFrame
 const
 gfxSize
 &
@@ -1424,8 +1424,6 @@ aDecoration
 const
 uint8_t
 aStyle
-bool
-aVertical
 const
 gfxFloat
 aDescentLimit
@@ -1459,7 +1457,7 @@ gfxPoint
 aPt
 const
 gfxFloat
-aICoordInFrame
+aXInFrame
 const
 gfxSize
 &
@@ -1476,8 +1474,6 @@ aDecoration
 const
 uint8_t
 aStyle
-bool
-aVertical
 const
 gfxFloat
 aDescentLimit
@@ -1511,8 +1507,6 @@ aDecoration
 const
 uint8_t
 aStyle
-bool
-aVertical
 const
 gfxFloat
 aDescentLimit
@@ -1730,11 +1724,9 @@ aDecoration
 const
 uint8_t
 aStyle
-bool
-aVertical
 const
 gfxFloat
-aDescentLimit
+aDscentLimit
 )
 ;
 static
@@ -1753,12 +1745,10 @@ gfxRect
 aClippedRect
 const
 gfxFloat
-aICoordInFrame
+aXInFrame
 const
 gfxFloat
 aCycleLength
-bool
-aVertical
 )
 ;
 }
