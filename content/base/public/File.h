@@ -3096,6 +3096,16 @@ mFile
 mIsTemporary
 )
 {
+NS_WARNING
+(
+"
+In
+temporary
+~
+FileImplFile
+"
+)
+;
 #
 ifdef
 DEBUG

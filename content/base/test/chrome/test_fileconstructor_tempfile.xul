@@ -679,7 +679,7 @@ created
 "
 )
 ;
-var
+let
 reader
 =
 new

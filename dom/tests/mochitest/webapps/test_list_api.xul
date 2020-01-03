@@ -431,6 +431,16 @@ setEventHandler
 "
 function
 "
+extractManifest
+:
+"
+function
+"
+import
+:
+"
+function
+"
 }
 ;
 isDeeply
