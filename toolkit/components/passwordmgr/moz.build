@@ -264,11 +264,6 @@ LoginManagerContent
 jsm
 '
 '
-LoginManagerParent
-.
-jsm
-'
-'
 LoginRecipes
 .
 jsm
