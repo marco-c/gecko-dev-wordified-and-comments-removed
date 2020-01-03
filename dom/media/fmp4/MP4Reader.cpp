@@ -411,6 +411,13 @@ return
 result
 ;
 }
+stream
+-
+>
+ClearFailedRead
+(
+)
+;
 if
 (
 NS_WARN_IF
