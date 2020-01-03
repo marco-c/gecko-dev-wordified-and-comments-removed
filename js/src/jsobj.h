@@ -314,14 +314,6 @@ obj
 ;
 public
 :
-static
-const
-js
-:
-:
-Class
-class_
-;
 js
 :
 :
@@ -4741,7 +4733,7 @@ DefaultHeap
 ;
 }
 extern
-NativeObject
+PlainObject
 *
 CreateThisForFunctionWithProto
 (
@@ -4763,7 +4755,7 @@ GenericObject
 )
 ;
 extern
-NativeObject
+PlainObject
 *
 CreateThisForFunction
 (

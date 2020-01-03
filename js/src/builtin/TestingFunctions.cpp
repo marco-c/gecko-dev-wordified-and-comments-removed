@@ -6749,13 +6749,11 @@ obj
 (
 cx
 NewBuiltinClassInstance
+<
+PlainObject
+>
 (
 cx
-&
-JSObject
-:
-:
-class_
 )
 )
 ;
@@ -11139,7 +11137,7 @@ obj
 cx
 NewBuiltinClassInstance
 <
-JSObject
+PlainObject
 >
 (
 cx

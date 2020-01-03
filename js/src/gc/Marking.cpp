@@ -3309,6 +3309,11 @@ NestedScopeObject
 DeclMarkerImpl
 (
 Object
+PlainObject
+)
+DeclMarkerImpl
+(
+Object
 SavedFrame
 )
 DeclMarkerImpl
