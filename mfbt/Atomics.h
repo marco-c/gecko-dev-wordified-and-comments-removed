@@ -76,6 +76,12 @@ MOZ_HAVE_CXX11_ATOMICS
 #
 elif
 MOZ_USING_LIBCXX
+&
+&
+defined
+(
+__clang__
+)
 #
 define
 MOZ_HAVE_CXX11_ATOMICS
