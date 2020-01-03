@@ -163,6 +163,14 @@ Worker
 interface
 Performance
 {
+[
+DependsOn
+=
+DeviceState
+Affects
+=
+Nothing
+]
 DOMHighResTimeStamp
 now
 (
