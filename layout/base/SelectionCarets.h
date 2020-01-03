@@ -473,6 +473,11 @@ LaunchScrollEndDetector
 (
 )
 ;
+void
+CancelScrollEndDetector
+(
+)
+;
 static
 void
 FireScrollEnd
