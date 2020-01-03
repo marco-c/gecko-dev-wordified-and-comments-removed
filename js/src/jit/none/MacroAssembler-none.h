@@ -3840,16 +3840,6 @@ MOZ_CRASH
 ;
 }
 void
-loadAsmJSHeapRegisterFromGlobalData
-(
-)
-{
-MOZ_CRASH
-(
-)
-;
-}
-void
 memIntToValue
 (
 Address
