@@ -532,7 +532,10 @@ friend
 class
 AsyncFrameInit
 ;
-nsIntSize
+mozilla
+:
+:
+CSSIntSize
 GetMarginAttributes
 (
 )

@@ -672,7 +672,7 @@ if
 frameloader
 )
 {
-nsIntSize
+CSSIntSize
 margin
 =
 GetMarginAttributes
@@ -3857,7 +3857,7 @@ nsGkAtoms
 marginheight
 )
 {
-nsIntSize
+CSSIntSize
 margins
 =
 GetMarginAttributes
@@ -4294,7 +4294,7 @@ aDestructRoot
 )
 ;
 }
-nsIntSize
+CSSIntSize
 nsSubDocumentFrame
 :
 :
@@ -4302,7 +4302,7 @@ GetMarginAttributes
 (
 )
 {
-nsIntSize
+CSSIntSize
 result
 (
 -
