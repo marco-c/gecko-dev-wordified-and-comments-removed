@@ -1430,6 +1430,10 @@ failureException
 =
 AssertionError
     
+pydebugger
+=
+None
+    
 def
 __init__
 (
@@ -1492,6 +1496,35 @@ logger
 =
 get_default_logger
 (
+)
+    
+def
+_enter_pm
+(
+self
+)
+:
+        
+if
+self
+.
+pydebugger
+:
+            
+self
+.
+pydebugger
+.
+post_mortem
+(
+sys
+.
+exc_info
+(
+)
+[
+2
+]
 )
     
 def
@@ -1873,6 +1906,12 @@ exc_info
 except
 :
                 
+self
+.
+_enter_pm
+(
+)
+                
 result
 .
 addError
@@ -1937,6 +1976,12 @@ self
 .
 failureException
 :
+                    
+self
+.
+_enter_pm
+(
+)
                     
 result
 .
@@ -2050,6 +2095,12 @@ e
 except
 :
                     
+self
+.
+_enter_pm
+(
+)
+                    
 result
 .
 addError
@@ -2136,6 +2187,12 @@ exc_info
                 
 except
 :
+                    
+self
+.
+_enter_pm
+(
+)
                     
 result
 .

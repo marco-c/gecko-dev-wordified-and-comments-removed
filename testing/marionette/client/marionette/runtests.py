@@ -58,6 +58,23 @@ tests
 )
 :
     
+if
+options
+.
+pydebugger
+:
+        
+MarionetteTestCase
+.
+pydebugger
+=
+__import__
+(
+options
+.
+pydebugger
+)
+    
 runner
 =
 runner_class
