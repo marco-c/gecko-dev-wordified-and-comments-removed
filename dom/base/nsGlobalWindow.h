@@ -7399,6 +7399,15 @@ ConfirmDialogIfNeeded
 (
 )
 ;
+private
+:
+void
+FireOnNewGlobalObject
+(
+)
+;
+protected
+:
 bool
 mIsFrozen
 :
