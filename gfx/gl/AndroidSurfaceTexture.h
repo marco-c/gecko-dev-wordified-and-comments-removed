@@ -150,6 +150,15 @@ Detach
 (
 )
 ;
+bool
+CanDetach
+(
+)
+{
+return
+mCanDetach
+;
+}
 GLContext
 *
 GetAttachedContext
@@ -274,6 +283,11 @@ GLuint
 aTexture
 )
 ;
+void
+UpdateCanDetach
+(
+)
+;
 GLuint
 mTexture
 ;
@@ -307,6 +321,9 @@ mMonitor
 GLContext
 *
 mAttachedContext
+;
+bool
+mCanDetach
 ;
 RefPtr
 <
