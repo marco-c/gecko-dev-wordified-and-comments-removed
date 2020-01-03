@@ -126,6 +126,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+Prefetcher
+.
+jsm
+'
+'
 RemoteAddonsChild
 .
 jsm
