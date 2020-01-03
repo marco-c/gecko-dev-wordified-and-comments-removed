@@ -1894,6 +1894,15 @@ Animation
 animation
 )
 {
+ShareDialog
+.
+this
+.
+setVisible
+(
+false
+)
+;
 finish
 (
 )
