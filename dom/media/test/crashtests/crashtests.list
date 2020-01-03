@@ -426,6 +426,14 @@ html
 bug
 1048863
 load
+analyser
+-
+channels
+-
+1
+.
+html
+load
 buffer
 -
 source
