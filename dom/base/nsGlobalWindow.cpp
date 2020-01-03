@@ -4245,9 +4245,16 @@ failCantDefineWindowElement
 )
 ;
 }
+#
+ifndef
+RELEASE_BUILD
 if
 (
-false
+desc
+.
+hasConfigurable
+(
+)
 &
 &
 !
@@ -4275,6 +4282,8 @@ MSG_DEFINE_NON_CONFIGURABLE_PROP_ON_WINDOW
 )
 ;
 }
+#
+endif
 return
 js
 :
