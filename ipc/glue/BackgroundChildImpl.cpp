@@ -288,7 +288,11 @@ BackgroundChildImpl
 ProcessingError
 (
 Result
-aWhat
+aCode
+const
+char
+*
+aReason
 )
 {
 nsAutoCString
@@ -296,7 +300,7 @@ abortMessage
 ;
 switch
 (
-aWhat
+aCode
 )
 {
 #

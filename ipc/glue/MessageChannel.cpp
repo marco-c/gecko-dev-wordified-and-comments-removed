@@ -6132,6 +6132,9 @@ mListener
 OnProcessingError
 (
 MsgRouteError
+"
+MsgRouteError
+"
 )
 ;
 }
@@ -6295,6 +6298,7 @@ mListener
 OnProcessingError
 (
 MsgDropped
+errorMsg
 )
 ;
 }
@@ -6474,17 +6478,17 @@ false
 ;
 }
 char
-printedMsg
+reason
 [
 512
 ]
 ;
 PR_snprintf
 (
-printedMsg
+reason
 sizeof
 (
-printedMsg
+reason
 )
 "
 (
@@ -6518,7 +6522,7 @@ PrintErrorMessage
 (
 mSide
 channelName
-printedMsg
+reason
 )
 ;
 mListener
@@ -6527,6 +6531,7 @@ mListener
 OnProcessingError
 (
 code
+reason
 )
 ;
 return

@@ -866,6 +866,10 @@ mSendDataStoreInfos
 void
 KillHard
 (
+const
+char
+*
+aWhy
 )
 ;
 bool
@@ -3134,7 +3138,11 @@ void
 ProcessingError
 (
 Result
-what
+aCode
+const
+char
+*
+aMsgName
 )
 MOZ_OVERRIDE
 ;

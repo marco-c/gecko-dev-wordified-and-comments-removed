@@ -655,6 +655,9 @@ aActor
 >
 KillHard
 (
+"
+AssertAppProcess
+"
 )
 ;
 return
@@ -773,6 +776,9 @@ aActor
 >
 KillHard
 (
+"
+AssertAppStatus
+"
 )
 ;
 return
@@ -848,6 +854,9 @@ aActor
 >
 KillHard
 (
+"
+AssertAppPrincipal
+"
 )
 ;
 return
@@ -977,6 +986,9 @@ aActor
 >
 KillHard
 (
+"
+AssertAppPrincipal
+"
 )
 ;
 return
