@@ -6694,17 +6694,6 @@ XDR_ENCODE
 {
 MOZ_ASSERT
 (
-!
-lazy
--
->
-maybeScriptUnbarriered
-(
-)
-)
-;
-MOZ_ASSERT
-(
 fun
 =
 =
