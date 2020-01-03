@@ -298,7 +298,7 @@ n2
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -313,7 +313,7 @@ determined
 ;
 SimpleTest
 .
-ise
+is
 (
 n2
 .
@@ -329,7 +329,7 @@ undetermined
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -345,7 +345,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 n2
 .
@@ -378,7 +378,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -403,7 +403,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -428,7 +428,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -452,7 +452,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -478,7 +478,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -503,7 +503,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -529,7 +529,7 @@ Cat
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -601,7 +601,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 n2
 .
@@ -626,7 +626,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 n2
 .
@@ -651,7 +651,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 n2
 .
@@ -675,7 +675,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 n2
 .
@@ -701,7 +701,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 n2
 .
@@ -726,7 +726,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 n2
 .
@@ -752,7 +752,7 @@ Cat
 ;
 SimpleTest
 .
-ise
+is
 (
 n2
 .

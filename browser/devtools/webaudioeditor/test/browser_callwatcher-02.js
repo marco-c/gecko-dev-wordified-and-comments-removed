@@ -186,7 +186,7 @@ correctly
 "
 )
 ;
-ise
+is
 (
 error
 .
@@ -362,7 +362,7 @@ correctly
 "
 )
 ;
-ise
+is
 (
 error
 .

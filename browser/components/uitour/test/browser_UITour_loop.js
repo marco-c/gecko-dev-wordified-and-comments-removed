@@ -214,7 +214,7 @@ com
 "
 )
 ;
-ise
+is
 (
 loopButton
 .
@@ -545,7 +545,7 @@ com
 "
 )
 ;
-ise
+is
 (
 loopButton
 .
@@ -835,7 +835,7 @@ seen
 true
 )
 ;
-ise
+is
 (
 loopButton
 .
@@ -2443,7 +2443,7 @@ test_arrow_panel_position
 (
 )
 {
-ise
+is
 (
 loopButton
 .
@@ -2857,7 +2857,7 @@ conversation
 "
 )
 ;
-ise
+is
 (
 params
 .

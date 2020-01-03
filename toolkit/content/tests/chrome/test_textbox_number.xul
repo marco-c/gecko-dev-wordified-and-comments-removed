@@ -856,7 +856,7 @@ decimalSymbol
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -878,7 +878,7 @@ to
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -894,7 +894,7 @@ false
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -910,7 +910,7 @@ to
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -926,7 +926,7 @@ to
 ;
 SimpleTest
 .
-ise
+is
 (
 n2
 .
@@ -943,7 +943,7 @@ true
 ;
 SimpleTest
 .
-ise
+is
 (
 n3
 .
@@ -960,7 +960,7 @@ to
 ;
 SimpleTest
 .
-ise
+is
 (
 n7
 .
@@ -1648,7 +1648,7 @@ increment
 ;
 SimpleTest
 .
-ise
+is
 (
 n7
 .
@@ -1738,7 +1738,7 @@ true
 ;
 SimpleTest
 .
-ise
+is
 (
 n7
 .
@@ -1926,7 +1926,7 @@ decimalSymbol
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -1978,7 +1978,7 @@ decimalSymbol
 ;
 SimpleTest
 .
-ise
+is
 (
 n1
 .
@@ -2968,7 +2968,7 @@ valueNumber
 ;
 SimpleTest
 .
-ise
+is
 (
 nb
 .
@@ -2994,7 +2994,7 @@ valueNumber
 ;
 SimpleTest
 .
-ise
+is
 (
 nb
 .
@@ -3040,7 +3040,7 @@ decimalSymbol
 ;
 SimpleTest
 .
-ise
+is
 (
 nb
 .
@@ -3086,7 +3086,7 @@ valueFieldNumber
 ;
 SimpleTest
 .
-ise
+is
 (
 nb
 .
@@ -3104,7 +3104,7 @@ min
 ;
 SimpleTest
 .
-ise
+is
 (
 nb
 .

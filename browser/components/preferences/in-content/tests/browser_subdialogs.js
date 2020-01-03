@@ -173,7 +173,7 @@ dialog
 yield
 dialogPromise
 ;
-ise
+is
 (
 dialog
 .
@@ -196,7 +196,7 @@ focused
 "
 )
 ;
-ise
+is
 (
 content
 .
@@ -253,7 +253,7 @@ title
 yield
 receivedEvent
 ;
-ise
+is
 (
 content
 .
@@ -306,7 +306,7 @@ closingEvent
 yield
 closingPromise
 ;
-ise
+is
 (
 closingEvent
 .
@@ -334,7 +334,7 @@ deferredClose
 .
 promise
 ;
-ise
+is
 (
 rv
 .
@@ -445,7 +445,7 @@ closingEvent
 yield
 closingPromise
 ;
-ise
+is
 (
 closingEvent
 .
@@ -473,7 +473,7 @@ deferredClose
 .
 promise
 ;
-ise
+is
 (
 rv
 .
@@ -590,7 +590,7 @@ closingEvent
 yield
 closingPromise
 ;
-ise
+is
 (
 closingEvent
 .
@@ -615,7 +615,7 @@ deferredClose
 .
 promise
 ;
-ise
+is
 (
 rv
 .
@@ -725,7 +725,7 @@ deferredClose
 .
 promise
 ;
-ise
+is
 (
 rv
 .
@@ -834,7 +834,7 @@ deferredClose
 .
 promise
 ;
-ise
+is
 (
 rv
 .
@@ -933,7 +933,7 @@ deferredClose
 .
 promise
 ;
-ise
+is
 (
 rv
 .
@@ -1017,7 +1017,7 @@ dialog
 yield
 dialogPromise
 ;
-ise
+is
 (
 content
 .
@@ -1045,7 +1045,7 @@ dialog
 "
 )
 ;
-ise
+is
 (
 content
 .
@@ -1363,7 +1363,7 @@ dialog
 yield
 dialogPromise
 ;
-ise
+is
 (
 content
 .
@@ -1435,7 +1435,7 @@ scrollHeight
 "
 )
 ;
-ise
+is
 (
 content
 .
@@ -1583,7 +1583,7 @@ dialog
 yield
 dialogPromise
 ;
-ise
+is
 (
 content
 .
@@ -2002,7 +2002,7 @@ visible
 "
 )
 ;
-ise
+is
 (
 content
 .
@@ -2028,7 +2028,7 @@ cleared
 "
 )
 ;
-ise
+is
 (
 content
 .

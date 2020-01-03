@@ -845,7 +845,7 @@ checkFxAOAuthTokenData
 aValue
 )
 {
-ise
+is
 (
 MozLoopServiceInternal
 .
@@ -891,7 +891,7 @@ jsm
 }
 )
 ;
-ise
+is
 (
 global
 .
@@ -905,7 +905,7 @@ cleared
 "
 )
 ;
-ise
+is
 (
 MozLoopService
 .
@@ -919,7 +919,7 @@ cleared
 "
 )
 ;
-ise
+is
 (
 global
 .
@@ -950,7 +950,7 @@ LOOP_SESSION_TYPE
 FXA
 )
 ;
-ise
+is
 (
 Services
 .

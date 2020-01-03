@@ -684,7 +684,7 @@ button
 "
 )
 ;
-ise
+is
 (
 bookmarksMenuButton
 .

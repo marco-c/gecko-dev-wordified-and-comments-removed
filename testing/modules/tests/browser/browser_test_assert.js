@@ -36,16 +36,6 @@ isnot
 "
 )
 ;
-ise
-(
-true
-true
-"
-pass
-ise
-"
-)
-;
 todo
 (
 false

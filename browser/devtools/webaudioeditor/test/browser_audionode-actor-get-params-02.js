@@ -269,7 +269,7 @@ param
 }
 else
 {
-ise
+is
 (
 value
 expected

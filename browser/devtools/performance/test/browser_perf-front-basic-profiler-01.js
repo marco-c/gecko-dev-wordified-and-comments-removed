@@ -83,7 +83,7 @@ model
 "
 )
 ;
-ise
+is
 (
 startModel
 .

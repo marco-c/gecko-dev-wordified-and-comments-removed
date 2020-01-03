@@ -509,7 +509,7 @@ params
 state
 )
 ;
-ise
+is
 (
 request
 .
@@ -523,7 +523,7 @@ status
 "
 )
 ;
-ise
+is
 (
 request
 .
@@ -539,7 +539,7 @@ access_token
 "
 )
 ;
-ise
+is
 (
 request
 .
@@ -555,7 +555,7 @@ scope
 "
 )
 ;
-ise
+is
 (
 request
 .
@@ -661,7 +661,7 @@ my_state
 "
 )
 ;
-ise
+is
 (
 request
 .
@@ -675,7 +675,7 @@ status
 "
 )
 ;
-ise
+is
 (
 request
 .

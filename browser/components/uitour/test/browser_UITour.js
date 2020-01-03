@@ -74,7 +74,7 @@ button
 "
 )
 ;
-ise
+is
 (
 bookmarksMenu
 .
@@ -99,7 +99,7 @@ bookmarks
 "
 )
 ;
-ise
+is
 (
 bookmarksMenu
 .
@@ -292,7 +292,7 @@ button
 "
 )
 ;
-ise
+is
 (
 bookmarksMenu
 .
@@ -317,7 +317,7 @@ bookmarks
 "
 )
 ;
-ise
+is
 (
 bookmarksMenu
 .
@@ -504,7 +504,7 @@ button
 "
 )
 ;
-ise
+is
 (
 bookmarksMenu
 .
@@ -529,7 +529,7 @@ bookmarks
 "
 )
 ;
-ise
+is
 (
 bookmarksMenu
 .

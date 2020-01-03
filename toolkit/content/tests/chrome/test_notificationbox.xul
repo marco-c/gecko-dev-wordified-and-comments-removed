@@ -363,7 +363,7 @@ null
 ;
 SimpleTest
 .
-ise
+is
 (
 nb
 .
@@ -377,7 +377,7 @@ notificationsHidden
 ;
 SimpleTest
 .
-ise
+is
 (
 nb
 .
@@ -405,7 +405,7 @@ null
 ;
 SimpleTest
 .
-ise
+is
 (
 nb
 .
@@ -554,7 +554,7 @@ testtag_notificationbox_buttons
 ;
 SimpleTest
 .
-ise
+is
 (
 ntf
 &
@@ -639,7 +639,7 @@ note
 ;
 SimpleTest
 .
-ise
+is
 (
 ntf
 ntf_found
@@ -663,7 +663,7 @@ notenone
 ;
 SimpleTest
 .
-ise
+is
 (
 none_found
 null
@@ -765,7 +765,7 @@ true
 }
 SimpleTest
 .
-ise
+is
 (
 exh
 true
@@ -836,7 +836,7 @@ notification_eventCallback
 ;
 SimpleTest
 .
-ise
+is
 (
 ntf
 &
@@ -1138,7 +1138,7 @@ button
 ;
 SimpleTest
 .
-ise
+is
 (
 button
 .
@@ -1172,7 +1172,7 @@ menupopup
 ;
 SimpleTest
 .
-ise
+is
 (
 menuPopup
 .
@@ -1200,7 +1200,7 @@ firstChild
 ;
 SimpleTest
 .
-ise
+is
 (
 menuItem
 .
@@ -1220,7 +1220,7 @@ item
 ;
 SimpleTest
 .
-ise
+is
 (
 menuItem
 .
@@ -1328,7 +1328,7 @@ testtag_notificationbox_buttons
 ;
 SimpleTest
 .
-ise
+is
 (
 ntf
 &
@@ -1452,7 +1452,7 @@ PRIORITY_INFO_LOW
 ;
 SimpleTest
 .
-ise
+is
 (
 ntf
 .
@@ -1512,7 +1512,7 @@ PRIORITY_INFO_LOW
 ;
 SimpleTest
 .
-ise
+is
 (
 ntf
 .
@@ -1597,7 +1597,7 @@ testtag_notificationbox_buttons
 ;
 SimpleTest
 .
-ise
+is
 (
 ntf
 &
@@ -1793,7 +1793,7 @@ ntf
 ;
 SimpleTest
 .
-ise
+is
 (
 ntf
 .
@@ -1814,7 +1814,7 @@ PRIORITY_INFO_HIGH
 ;
 SimpleTest
 .
-ise
+is
 (
 nb
 .
@@ -2041,7 +2041,7 @@ ntf
 {
 SimpleTest
 .
-ise
+is
 (
 nb
 .
@@ -2244,7 +2244,7 @@ expectedvalue
 ]
 SimpleTest
 .
-ise
+is
 (
 nb
 .
@@ -2271,7 +2271,7 @@ arr
 ;
 SimpleTest
 .
-ise
+is
 (
 nb
 .
@@ -2371,7 +2371,7 @@ true
 }
 SimpleTest
 .
-ise
+is
 (
 exh
 true
@@ -2419,7 +2419,7 @@ true
 }
 SimpleTest
 .
-ise
+is
 (
 exh
 true
@@ -2493,7 +2493,7 @@ testtag_notificationbox_buttons
 ;
 SimpleTest
 .
-ise
+is
 (
 ntf
 &
@@ -2532,7 +2532,7 @@ obj
 {
 SimpleTest
 .
-ise
+is
 (
 obj
 [
@@ -2663,7 +2663,7 @@ expectedcount
 {
 SimpleTest
 .
-ise
+is
 (
 nb
 .
@@ -2678,7 +2678,7 @@ currentNotification
 ;
 SimpleTest
 .
-ise
+is
 (
 nb
 .
@@ -2717,7 +2717,7 @@ priority
 {
 SimpleTest
 .
-ise
+is
 (
 ntf
 .
@@ -2734,7 +2734,7 @@ control
 ;
 SimpleTest
 .
-ise
+is
 (
 ntf
 .
@@ -2751,7 +2751,7 @@ label
 ;
 SimpleTest
 .
-ise
+is
 (
 ntf
 .
@@ -2768,7 +2768,7 @@ value
 ;
 SimpleTest
 .
-ise
+is
 (
 ntf
 .
@@ -2785,7 +2785,7 @@ image
 ;
 SimpleTest
 .
-ise
+is
 (
 ntf
 .
@@ -2885,7 +2885,7 @@ break
 }
 SimpleTest
 .
-ise
+is
 (
 ntf
 .
