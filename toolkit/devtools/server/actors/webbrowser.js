@@ -682,8 +682,15 @@ return
 aWindow
 .
 gBrowser
+?
+aWindow
+.
+gBrowser
 .
 browsers
+:
+[
+]
 ;
 }
 ;
