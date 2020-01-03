@@ -326,15 +326,6 @@ js
 '
 timeline
 /
-memory
--
-overview
-.
-js
-'
-'
-timeline
-/
 waterfall
 .
 js

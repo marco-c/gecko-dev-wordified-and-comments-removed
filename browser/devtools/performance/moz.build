@@ -93,6 +93,15 @@ js
 '
 modules
 /
+performance
+-
+graphs
+.
+js
+'
+'
+modules
+/
 recording
 -
 model
