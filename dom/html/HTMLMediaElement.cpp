@@ -2732,6 +2732,10 @@ already
 "
 )
 ;
+mPaused
+=
+true
+;
 ChangeNetworkState
 (
 nsIDOMHTMLMediaElement
@@ -2747,10 +2751,6 @@ nsIDOMHTMLMediaElement
 :
 HAVE_NOTHING
 )
-;
-mPaused
-=
-true
 ;
 if
 (
