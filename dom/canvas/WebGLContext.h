@@ -8000,6 +8000,10 @@ WebGLShader
 ;
 friend
 class
+WebGLSync
+;
+friend
+class
 WebGLTransformFeedback
 ;
 friend

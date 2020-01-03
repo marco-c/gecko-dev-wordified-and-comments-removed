@@ -55,12 +55,15 @@ WebGL2Context
 ;
 public
 :
-explicit
 WebGLSync
 (
 WebGLContext
 *
 webgl
+GLenum
+condition
+GLbitfield
+flags
 )
 ;
 void
@@ -109,6 +112,9 @@ private
 WebGLSync
 (
 )
+;
+GLsync
+mGLName
 ;
 }
 ;
