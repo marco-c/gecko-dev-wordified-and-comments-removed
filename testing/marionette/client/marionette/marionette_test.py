@@ -4630,6 +4630,8 @@ self
 )
 :
         
+if
+not
 self
 .
 marionette
@@ -4637,7 +4639,8 @@ marionette
 check_for_crash
 (
 )
-        
+:
+           
 self
 .
 marionette
@@ -4648,7 +4651,7 @@ set_context
 content
 "
 )
-        
+           
 self
 .
 marionette
@@ -4672,7 +4675,7 @@ s
 )
 "
 %
-                                       
+                                          
 (
 self
 .
