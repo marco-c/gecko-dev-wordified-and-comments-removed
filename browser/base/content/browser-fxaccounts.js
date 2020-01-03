@@ -1687,11 +1687,15 @@ userData
 )
 ;
 return
+userData
+?
 fxAccounts
 .
 getSignedInUserProfile
 (
 )
+:
+null
 ;
 }
 )
