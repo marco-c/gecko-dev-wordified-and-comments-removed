@@ -230,6 +230,11 @@ NetworkPrioritizer
 jsm
 '
 '
+NewTabURL
+.
+jsm
+'
+'
 offlineAppCache
 .
 jsm
