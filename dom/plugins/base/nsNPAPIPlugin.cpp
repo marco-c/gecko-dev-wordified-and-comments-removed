@@ -977,9 +977,12 @@ aPluginTag
 {
 if
 (
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 )
 {
 return
@@ -1718,9 +1721,12 @@ nullptr
 }
 if
 (
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 )
 {
 return

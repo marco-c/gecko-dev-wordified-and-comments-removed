@@ -978,10 +978,12 @@ if
 mainProcessScriptableOnly
 &
 &
-!
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+!
+=
+GeckoProcessType_Default
 )
 {
 nsCOMPtr

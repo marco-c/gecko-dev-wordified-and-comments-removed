@@ -393,6 +393,20 @@ asmjscache
 {
 namespace
 {
+bool
+IsMainProcess
+(
+)
+{
+return
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Default
+;
+}
 static
 const
 size_t
@@ -1998,7 +2012,7 @@ true
 {
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+IsMainProcess
 (
 )
 )
@@ -4245,7 +4259,7 @@ aReadParams
 {
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+IsMainProcess
 (
 )
 )
@@ -4469,7 +4483,7 @@ false
 {
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+IsMainProcess
 (
 )
 )
@@ -5023,7 +5037,7 @@ eInitial
 MOZ_ASSERT
 (
 !
-XRE_IsParentProcess
+IsMainProcess
 (
 )
 )
@@ -5616,7 +5630,7 @@ file
 ;
 if
 (
-XRE_IsParentProcess
+IsMainProcess
 (
 )
 )

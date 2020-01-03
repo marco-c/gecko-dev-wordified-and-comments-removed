@@ -4371,10 +4371,12 @@ rv
 {
 if
 (
-!
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+!
+=
+GeckoProcessType_Content
 )
 {
 NS_WARNING

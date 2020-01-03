@@ -110,9 +110,12 @@ false
 {
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Default
 "
 Can
 '
@@ -346,9 +349,12 @@ false
 {
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Default
 "
 Can
 '
