@@ -10648,6 +10648,8 @@ AllocKind
 allocKind
 NewObjectKind
 newKindArg
+HandleObject
+proto
 )
 {
 MOZ_ASSERT
@@ -10719,10 +10721,15 @@ RootedObject
 cloneProto
 (
 cx
+proto
 )
 ;
 if
 (
+!
+cloneProto
+&
+&
 fun
 -
 >
