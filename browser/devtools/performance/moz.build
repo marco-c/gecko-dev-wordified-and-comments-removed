@@ -201,6 +201,17 @@ modules
 /
 widgets
 /
+marker
+-
+view
+.
+js
+'
+'
+modules
+/
+widgets
+/
 markers
 -
 overview
@@ -224,6 +235,8 @@ modules
 widgets
 /
 waterfall
+-
+ticks
 .
 js
 '
