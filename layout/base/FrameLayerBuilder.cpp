@@ -14083,7 +14083,6 @@ AddPaintedDisplayItem
 paintedLayerData
 item
 itemClip
-itemVisibleRect
 *
 this
 layerState
@@ -15100,10 +15099,6 @@ const
 DisplayItemClip
 &
 aClip
-const
-nsIntRect
-&
-aItemVisibleRect
 ContainerState
 &
 aContainerState

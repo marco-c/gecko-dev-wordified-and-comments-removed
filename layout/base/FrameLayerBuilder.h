@@ -696,10 +696,6 @@ const
 DisplayItemClip
 &
 aClip
-const
-nsIntRect
-&
-aItemVisibleRect
 ContainerState
 &
 aContainerState
