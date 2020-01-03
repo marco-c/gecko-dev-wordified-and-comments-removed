@@ -164,9 +164,15 @@ if
 (
 gInterpositionMap
 )
+{
 delete
 gInterpositionMap
 ;
+gInterpositionMap
+=
+nullptr
+;
+}
 nsContentUtils
 :
 :
