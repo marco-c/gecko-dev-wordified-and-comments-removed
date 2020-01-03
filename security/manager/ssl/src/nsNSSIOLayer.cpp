@@ -4735,6 +4735,12 @@ err
 =
 =
 PR_END_OF_FILE_ERROR
+|
+|
+err
+=
+=
+PR_CONNECT_RESET_ERROR
 )
 &
 &
