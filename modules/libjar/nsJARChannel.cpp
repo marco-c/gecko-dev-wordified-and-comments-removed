@@ -3351,6 +3351,10 @@ OverrideWithSynthesizedResponse
 nsIInputStream
 *
 aSynthesizedInput
+const
+nsACString
+&
+aContentType
 )
 {
 uint64_t
@@ -3443,6 +3447,11 @@ Close
 return
 ;
 }
+SetContentType
+(
+aContentType
+)
+;
 FinishAsyncOpen
 (
 )

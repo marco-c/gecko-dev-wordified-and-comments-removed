@@ -104,6 +104,9 @@ nsIOutputStream
 >
 mResponseBody
 ;
+nsCString
+mContentType
+;
 bool
 mIsNavigation
 ;
