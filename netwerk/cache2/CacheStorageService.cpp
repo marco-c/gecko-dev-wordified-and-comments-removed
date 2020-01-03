@@ -9082,6 +9082,11 @@ rv
 return
 rv
 ;
+if
+(
+sGlobalEntryTables
+)
+{
 ReportStorageMemoryData
 data
 ;
@@ -9108,6 +9113,7 @@ ReportStorageMemory
 data
 )
 ;
+}
 return
 NS_OK
 ;
