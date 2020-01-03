@@ -287,11 +287,6 @@ BeginPaint
 )
 ;
 bool
-UseFastPath
-(
-)
-;
-bool
 IsScrollingOnCompositor
 (
 const
