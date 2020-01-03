@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-ExtendableEventBinding
+InstallPhaseEventBinding
 .
 h
 "
@@ -52,8 +52,19 @@ BEGIN_WORKERS_NAMESPACE
 class
 ServiceWorker
 ;
+bool
+ServiceWorkerEventsVisible
+(
+JSContext
+*
+aCx
+JSObject
+*
+aObj
+)
+;
 class
-ExtendableEvent
+InstallPhaseEvent
 :
 public
 Event
@@ -67,7 +78,7 @@ mPromise
 protected
 :
 explicit
-ExtendableEvent
+InstallPhaseEvent
 (
 mozilla
 :
@@ -81,7 +92,7 @@ aOwner
 )
 ;
 ~
-ExtendableEvent
+InstallPhaseEvent
 (
 )
 {
@@ -91,7 +102,7 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-ExtendableEvent
+InstallPhaseEvent
 Event
 )
 NS_FORWARD_TO_EVENT
@@ -113,7 +124,7 @@ mozilla
 dom
 :
 :
-ExtendableEventBinding
+InstallPhaseEventBinding
 :
 :
 Wrap
@@ -126,7 +137,7 @@ this
 static
 already_AddRefed
 <
-ExtendableEvent
+InstallPhaseEvent
 >
 Constructor
 (
@@ -151,12 +162,12 @@ aOptions
 {
 nsRefPtr
 <
-ExtendableEvent
+InstallPhaseEvent
 >
 e
 =
 new
-ExtendableEvent
+InstallPhaseEvent
 (
 aOwner
 )
@@ -205,7 +216,7 @@ forget
 static
 already_AddRefed
 <
-ExtendableEvent
+InstallPhaseEvent
 >
 Constructor
 (
@@ -290,7 +301,7 @@ InstallEvent
 MOZ_FINAL
 :
 public
-ExtendableEvent
+InstallPhaseEvent
 {
 nsRefPtr
 <
@@ -329,7 +340,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 InstallEvent
-ExtendableEvent
+InstallPhaseEvent
 )
 NS_FORWARD_TO_EVENT
 virtual

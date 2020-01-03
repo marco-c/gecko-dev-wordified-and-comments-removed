@@ -4641,11 +4641,11 @@ true
 ;
 nsRefPtr
 <
-ExtendableEvent
+InstallPhaseEvent
 >
 event
 =
-ExtendableEvent
+InstallPhaseEvent
 :
 :
 Constructor
