@@ -3007,10 +3007,12 @@ OtherPid
 )
 !
 =
-ipc
+base
 :
 :
-kCurrentProcessId
+GetCurrentProcId
+(
+)
 )
 {
 Test18

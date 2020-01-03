@@ -458,10 +458,12 @@ OtherPid
 )
 !
 =
-ipc
+base
 :
 :
-kCurrentProcessId
+GetCurrentProcId
+(
+)
 )
 _exit
 (

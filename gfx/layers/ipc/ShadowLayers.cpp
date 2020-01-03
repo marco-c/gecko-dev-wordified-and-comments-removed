@@ -4148,7 +4148,12 @@ OtherPid
 )
 =
 =
-kCurrentProcessId
+base
+:
+:
+GetCurrentProcId
+(
+)
 ;
 }
 PLayerChild

@@ -4576,7 +4576,12 @@ mCompositorParent
 >
 SetOtherProcessId
 (
-kCurrentProcessId
+base
+:
+:
+GetCurrentProcId
+(
+)
 )
 ;
 if
