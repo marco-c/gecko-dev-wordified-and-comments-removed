@@ -315,10 +315,16 @@ b2g
 true
 }
 "
+DOMCursor
+"
+"
 DOMError
 "
 "
 DOMException
+"
+"
+DOMRequest
 "
 "
 DOMStringList
