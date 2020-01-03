@@ -2098,7 +2098,7 @@ origin
 :
 principal
 .
-origin
+originNoSuffix
 isApp
 :
 isApp
