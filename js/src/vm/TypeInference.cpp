@@ -11434,9 +11434,10 @@ return
 false
 ;
 }
-static
-inline
 bool
+js
+:
+:
 ClassCanHaveExtraProperties
 (
 const

@@ -2647,6 +2647,15 @@ pc
 )
 ;
 bool
+ClassCanHaveExtraProperties
+(
+const
+Class
+*
+clasp
+)
+;
+bool
 ArrayPrototypeHasIndexedProperty
 (
 CompilerConstraintList
