@@ -112,7 +112,7 @@ aDirectedToThisWindow
 nsIController
 *
 *
-outController
+aResult
 )
 ;
 protected

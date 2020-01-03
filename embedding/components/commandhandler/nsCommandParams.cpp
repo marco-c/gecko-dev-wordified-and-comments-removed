@@ -615,7 +615,7 @@ char
 *
 aName
 bool
-value
+aValue
 )
 {
 HashEntry
@@ -645,7 +645,7 @@ mData
 .
 mBoolean
 =
-value
+aValue
 ;
 return
 NS_OK
@@ -662,7 +662,7 @@ char
 *
 aName
 int32_t
-value
+aValue
 )
 {
 HashEntry
@@ -692,7 +692,7 @@ mData
 .
 mLong
 =
-value
+aValue
 ;
 return
 NS_OK
@@ -709,7 +709,7 @@ char
 *
 aName
 double
-value
+aValue
 )
 {
 HashEntry
@@ -739,7 +739,7 @@ mData
 .
 mDouble
 =
-value
+aValue
 ;
 return
 NS_OK
@@ -758,7 +758,7 @@ aName
 const
 nsAString
 &
-value
+aValue
 )
 {
 HashEntry
@@ -791,7 +791,7 @@ mString
 new
 nsString
 (
-value
+aValue
 )
 ;
 return
@@ -811,7 +811,7 @@ aName
 const
 char
 *
-value
+aValue
 )
 {
 HashEntry
@@ -844,7 +844,7 @@ mCString
 new
 nsCString
 (
-value
+aValue
 )
 ;
 return
@@ -863,7 +863,7 @@ char
 aName
 nsISupports
 *
-value
+aValue
 )
 {
 HashEntry
@@ -891,7 +891,7 @@ foundEntry
 >
 mISupports
 =
-value
+aValue
 ;
 return
 NS_OK
@@ -909,9 +909,6 @@ char
 aName
 )
 {
-(
-void
-)
 PL_DHashTableRemove
 (
 &
@@ -975,7 +972,7 @@ char
 *
 aName
 uint8_t
-entryType
+aEntryType
 )
 {
 HashEntry
@@ -1007,7 +1004,7 @@ foundEntry
 >
 Reset
 (
-entryType
+aEntryType
 )
 ;
 return
@@ -1051,7 +1048,7 @@ foundEntry
 )
 HashEntry
 (
-entryType
+aEntryType
 aName
 )
 ;
