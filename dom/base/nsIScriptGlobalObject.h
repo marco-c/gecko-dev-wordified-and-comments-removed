@@ -182,6 +182,15 @@ return
 false
 ;
 }
+protected
+:
+virtual
+~
+nsIScriptGlobalObject
+(
+)
+{
+}
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

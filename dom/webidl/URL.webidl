@@ -274,6 +274,9 @@ objectURLOptions
 options
 )
 ;
+[
+Throws
+]
 static
 void
 revokeObjectURL
