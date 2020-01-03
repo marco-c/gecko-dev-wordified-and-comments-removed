@@ -152,6 +152,8 @@ aController
 )
 ;
 }
+protected
+:
 virtual
 ~
 CheckProfileStatusCallback

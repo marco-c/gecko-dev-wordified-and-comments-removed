@@ -71,12 +71,6 @@ Get
 (
 )
 ;
-virtual
-~
-BluetoothA2dpManager
-(
-)
-;
 void
 HandleSinkPropertyChanged
 (
@@ -166,6 +160,14 @@ GetTitle
 nsAString
 &
 aTitle
+)
+;
+protected
+:
+virtual
+~
+BluetoothA2dpManager
+(
 )
 ;
 private
