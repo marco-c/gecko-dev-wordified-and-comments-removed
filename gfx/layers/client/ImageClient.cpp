@@ -1422,7 +1422,7 @@ ImageClient
 :
 UpdatePictureRect
 (
-nsIntRect
+IntRect
 aRect
 )
 {

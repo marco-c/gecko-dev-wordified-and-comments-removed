@@ -645,7 +645,7 @@ CreateBuffer
 ContentType
 aType
 const
-nsIntRect
+IntRect
 &
 aRect
 uint32_t
@@ -795,7 +795,7 @@ Update
 *
 aReadbackUpdates
 const
-nsIntRect
+IntRect
 &
 aBufferRect
 const
@@ -1071,7 +1071,7 @@ Layer
 >
 mLayerRefs
 ;
-nsIntRect
+IntRect
 mBufferRect
 ;
 nsIntPoint
@@ -1334,7 +1334,7 @@ BuildTextureClients
 SurfaceFormat
 aFormat
 const
-nsIntRect
+IntRect
 &
 aRect
 uint32_t
@@ -1423,7 +1423,7 @@ ContentClientRemoteBuffer
 CreateBackBuffer
 (
 const
-nsIntRect
+IntRect
 &
 aBufferRect
 )
@@ -1523,7 +1523,7 @@ CreateBuffer
 ContentType
 aType
 const
-nsIntRect
+IntRect
 &
 aRect
 uint32_t
@@ -2160,7 +2160,7 @@ mFrontClientOnWhite
 =
 oldBack
 ;
-nsIntRect
+IntRect
 oldBufferRect
 =
 mBufferRect

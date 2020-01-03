@@ -923,7 +923,7 @@ orientation
 )
 ;
 }
-nsIntRect
+IntRect
 targetBounds
 =
 mWidget
@@ -2052,7 +2052,7 @@ GetRemoteRenderer
 )
 )
 {
-nsIntRect
+IntRect
 outerBounds
 ;
 mWidget
@@ -2063,7 +2063,7 @@ GetBounds
 outerBounds
 )
 ;
-nsIntRect
+IntRect
 bounds
 =
 ToOutsideIntRect

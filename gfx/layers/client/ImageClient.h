@@ -196,7 +196,10 @@ virtual
 void
 UpdatePictureRect
 (
-nsIntRect
+gfx
+:
+:
+IntRect
 aPictureRect
 )
 ;
@@ -280,7 +283,10 @@ mType
 int32_t
 mLastPaintedImageSerial
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 mPictureRect
 ;
 }

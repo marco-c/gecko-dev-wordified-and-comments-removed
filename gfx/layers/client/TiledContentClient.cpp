@@ -3114,10 +3114,10 @@ GetSize
 )
 ;
 const
-nsIntRect
+IntRect
 tileRect
 =
-nsIntRect
+IntRect
 (
 0
 0
@@ -3176,7 +3176,7 @@ return
 ;
 }
 const
-nsIntRect
+IntRect
 rectToCopy
 =
 regionToCopy
@@ -3870,7 +3870,7 @@ true
 ;
 mInvalidBack
 =
-nsIntRect
+IntRect
 (
 0
 0
@@ -4535,7 +4535,7 @@ gfxContext
 ctxt
 ;
 const
-nsIntRect
+IntRect
 bounds
 =
 aPaintRegion
@@ -4785,7 +4785,7 @@ start
 )
 {
 const
-nsIntRect
+IntRect
 bounds
 =
 aPaintRegion
@@ -4861,7 +4861,7 @@ aPaintRegion
 for
 (
 const
-nsIntRect
+IntRect
 *
 rect
 =
@@ -4974,7 +4974,7 @@ start
 )
 {
 const
-nsIntRect
+IntRect
 bounds
 =
 aPaintRegion
@@ -6697,7 +6697,7 @@ aDirtyRegion
 for
 (
 const
-nsIntRect
+IntRect
 *
 dirtyRect
 =
@@ -6769,7 +6769,7 @@ Or
 aTile
 .
 mInvalidFront
-nsIntRect
+IntRect
 (
 NS_lroundf
 (
@@ -6971,7 +6971,7 @@ aDirtyRegion
 for
 (
 const
-nsIntRect
+IntRect
 *
 dirtyRect
 =
@@ -7157,7 +7157,7 @@ Or
 aTile
 .
 mInvalidFront
-nsIntRect
+IntRect
 (
 copyTarget
 .
@@ -7183,10 +7183,10 @@ mResolution
 1
 )
 {
-nsIntRect
+IntRect
 unscaledTile
 =
-nsIntRect
+IntRect
 (
 aTileOrigin
 .
@@ -7313,7 +7313,7 @@ nullptr
 nsIntRegion
 tileRegion
 =
-nsIntRect
+IntRect
 (
 aTileOrigin
 .
@@ -7843,7 +7843,7 @@ c_str
 )
 )
 ;
-nsIntRect
+IntRect
 coherentUpdateRect
 (
 LayerIntRect
@@ -8060,7 +8060,7 @@ region
 "
 )
 ;
-nsIntRect
+IntRect
 paintBounds
 =
 aRegionToPaint
@@ -8211,7 +8211,7 @@ scaledTileSize
 height
 ;
 }
-nsIntRect
+IntRect
 tileBounds
 (
 startX
