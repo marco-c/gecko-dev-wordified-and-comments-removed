@@ -825,7 +825,7 @@ AssertPluginThread
 (
 )
 {
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 IsPluginThread
 (
