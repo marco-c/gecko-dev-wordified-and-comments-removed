@@ -181,7 +181,7 @@ GetGMPVideoDecoder
 (
 &
 tags
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 o
@@ -200,7 +200,7 @@ GetGMPVideoDecoder
 (
 &
 tags
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 "
@@ -218,7 +218,7 @@ GetGMPVideoEncoder
 (
 &
 tags
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 "
@@ -359,7 +359,7 @@ GetGMPVideoDecoder
 (
 &
 tags
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 origin1
@@ -378,7 +378,7 @@ GetGMPVideoDecoder
 (
 &
 tags
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 origin2
@@ -425,7 +425,7 @@ GetGMPVideoEncoder
 (
 &
 tags
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 origin1
@@ -444,7 +444,7 @@ GetGMPVideoEncoder
 (
 &
 tags
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 origin2
@@ -513,7 +513,7 @@ GetGMPVideoDecoder
 (
 &
 tags
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 origin1
@@ -560,7 +560,7 @@ GetGMPVideoEncoder
 (
 &
 tags
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 origin1
