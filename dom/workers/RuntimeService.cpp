@@ -9896,7 +9896,10 @@ CreateServiceWorkerFromLoadInfo
 JSContext
 *
 aCx
-WorkerLoadInfo
+WorkerPrivate
+:
+:
+LoadInfo
 *
 aLoadInfo
 const
@@ -10055,7 +10058,10 @@ Context
 (
 )
 ;
-WorkerLoadInfo
+WorkerPrivate
+:
+:
+LoadInfo
 loadInfo
 ;
 nsresult
@@ -10107,7 +10113,10 @@ CreateSharedWorkerFromLoadInfo
 JSContext
 *
 aCx
-WorkerLoadInfo
+WorkerPrivate
+:
+:
+LoadInfo
 *
 aLoadInfo
 const
