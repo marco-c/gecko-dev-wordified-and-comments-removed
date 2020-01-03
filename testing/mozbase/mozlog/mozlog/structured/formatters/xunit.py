@@ -374,6 +374,20 @@ test
 ]
 )
         
+extra
+=
+data
+.
+get
+(
+'
+extra
+'
+)
+or
+{
+}
+        
 test
 .
 attrib
@@ -383,6 +397,15 @@ classname
 "
 ]
 =
+extra
+.
+get
+(
+'
+class_name
+'
+)
+or
 name
         
 if
@@ -464,6 +487,15 @@ name
 "
 ]
 =
+extra
+.
+get
+(
+'
+method_name
+'
+)
+or
 test_name
             
 test
