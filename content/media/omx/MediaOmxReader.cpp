@@ -1466,6 +1466,11 @@ doSeek
 =
 false
 ;
+mVideoSeekTimeUs
+=
+-
+1
+;
 if
 (
 frame
@@ -1511,11 +1516,6 @@ continue
 mSkipCount
 =
 0
-;
-mVideoSeekTimeUs
-=
--
-1
 ;
 aKeyframeSkip
 =
