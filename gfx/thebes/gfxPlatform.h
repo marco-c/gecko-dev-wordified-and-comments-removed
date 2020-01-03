@@ -1436,6 +1436,15 @@ aLang
 )
 ;
 static
+nsIAtom
+*
+GetLangGroupForPrefLang
+(
+eFontPrefLang
+aLang
+)
+;
+static
 const
 char
 *
