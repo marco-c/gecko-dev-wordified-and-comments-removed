@@ -38018,7 +38018,7 @@ ANDROID
 "
 }
 "
-FENNEC_STARTUP_GECKOAPP_ACTION
+FENNEC_GECKOAPP_STARTUP_ACTION
 "
 :
 {
@@ -38040,7 +38040,7 @@ enumerated
 n_values
 "
 :
-4
+10
 "
 description
 "
@@ -38057,7 +38057,8 @@ launched
 Normal
 URL
 Prefetch
-Redirector
+WebApp
+Guest
 )
 "
 "
