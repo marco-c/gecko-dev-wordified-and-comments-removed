@@ -1289,6 +1289,17 @@ isSatisfied
 (
 )
 {
+mSolo
+.
+waitForView
+(
+R
+.
+id
+.
+url_edit_text
+)
+;
 EditText
 urlEditText
 =
