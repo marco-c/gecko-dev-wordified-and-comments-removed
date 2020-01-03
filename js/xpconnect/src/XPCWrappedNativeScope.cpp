@@ -311,6 +311,10 @@ mGlobalJSObject
 (
 aGlobal
 )
+mHasCallInterpositions
+(
+false
+)
 mIsContentXBLScope
 (
 false
