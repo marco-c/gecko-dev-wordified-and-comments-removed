@@ -258,7 +258,7 @@ defineLazyModuleGetter
 (
 this
 "
-TelemetryPing
+TelemetrySession
 "
 "
 resource
@@ -269,7 +269,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetrySession
 .
 jsm
 "
@@ -1652,7 +1652,7 @@ function
 )
 {
 return
-TelemetryPing
+TelemetrySession
 .
 getPayload
 (

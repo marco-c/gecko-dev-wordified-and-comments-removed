@@ -11223,6 +11223,9 @@ e
 )
 {
 }
+let
+TelemetrySession
+=
 Cu
 .
 import
@@ -11236,7 +11239,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetrySession
 .
 jsm
 "
@@ -11244,7 +11247,9 @@ jsm
 }
 )
 .
-TelemetryPing
+TelemetrySession
+;
+TelemetrySession
 .
 setAddOns
 (

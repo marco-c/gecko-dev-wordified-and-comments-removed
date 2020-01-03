@@ -38,7 +38,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetrySession
 .
 jsm
 "
@@ -92,7 +92,7 @@ telemetry
 false
 )
 ;
-TelemetryPing
+TelemetrySession
 .
 observe
 (

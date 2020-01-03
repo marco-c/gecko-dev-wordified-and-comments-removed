@@ -50,7 +50,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetrySession
 .
 jsm
 "
@@ -119,7 +119,7 @@ prefs
 .
 setBoolPref
 (
-TelemetryPing
+TelemetrySession
 .
 Constants
 .
@@ -160,7 +160,7 @@ test_firstRun
 )
 {
 yield
-TelemetryPing
+TelemetrySession
 .
 reset
 (
@@ -169,7 +169,7 @@ reset
 let
 metadata
 =
-TelemetryPing
+TelemetrySession
 .
 getMetadata
 (
@@ -202,7 +202,7 @@ prefs
 .
 getCharPref
 (
-TelemetryPing
+TelemetrySession
 .
 Constants
 .
@@ -227,7 +227,7 @@ test_secondRun
 )
 {
 yield
-TelemetryPing
+TelemetrySession
 .
 reset
 (
@@ -236,7 +236,7 @@ reset
 let
 metadata
 =
-TelemetryPing
+TelemetrySession
 .
 getMetadata
 (
@@ -290,7 +290,7 @@ appBuildID
 NEW_BUILD_ID
 ;
 yield
-TelemetryPing
+TelemetrySession
 .
 reset
 (
@@ -299,7 +299,7 @@ reset
 let
 metadata
 =
-TelemetryPing
+TelemetrySession
 .
 getMetadata
 (
@@ -322,7 +322,7 @@ prefs
 .
 getCharPref
 (
-TelemetryPing
+TelemetrySession
 .
 Constants
 .

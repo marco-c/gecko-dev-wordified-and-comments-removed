@@ -52,7 +52,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetrySession
 .
 jsm
 "
@@ -207,6 +207,13 @@ run_test
 (
 )
 {
+yield
+TelemetrySession
+.
+setup
+(
+)
+;
 TelemetryLog
 .
 log
@@ -252,7 +259,7 @@ TEST_PREFIX
 var
 log
 =
-TelemetryPing
+TelemetrySession
 .
 getPayload
 (
@@ -380,6 +387,13 @@ log
 [
 1
 ]
+)
+;
+yield
+TelemetrySession
+.
+shutdown
+(
 )
 ;
 }
