@@ -98,6 +98,7 @@ eThemeGeometryTypeHighlightedMenuItem
 eThemeGeometryTypeVibrancyLight
 eThemeGeometryTypeVibrancyDark
 eThemeGeometryTypeTooltip
+eThemeGeometryTypeSheet
 }
 ;
 nsNativeThemeCocoa
@@ -275,6 +276,9 @@ virtual
 bool
 NeedToClearBackgroundBehindWidget
 (
+nsIFrame
+*
+aFrame
 uint8_t
 aWidgetType
 )
@@ -403,6 +407,14 @@ aCurrent
 nsIFrame
 *
 aRight
+)
+;
+bool
+IsWindowSheet
+(
+nsIFrame
+*
+aFrame
 )
 ;
 void
