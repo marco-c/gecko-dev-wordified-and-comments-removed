@@ -2945,9 +2945,6 @@ TimeDurationAccumulator
 mPlayTime
 ;
 TimeDurationAccumulator
-mRebufferTime
-;
-TimeDurationAccumulator
 mJoinLatency
 ;
 }
