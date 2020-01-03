@@ -69,6 +69,7 @@ HardwareState
 {
 kHardwareClosed
 kHardwareOpen
+kHardwareOpenFailed
 }
 ;
 virtual
