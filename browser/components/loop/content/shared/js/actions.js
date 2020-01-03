@@ -736,9 +736,6 @@ define
 setupRoomInfo
 "
 {
-roomName
-:
-String
 roomOwner
 :
 String
@@ -760,9 +757,6 @@ define
 updateRoomInfo
 "
 {
-roomName
-:
-String
 roomOwner
 :
 String

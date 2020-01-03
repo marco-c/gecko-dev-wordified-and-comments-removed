@@ -293,9 +293,6 @@ validate
 (
 responseData
 {
-roomName
-:
-String
 roomOwner
 :
 String

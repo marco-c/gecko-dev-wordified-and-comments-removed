@@ -75,9 +75,6 @@ String
 roomUrl
 :
 String
-roomName
-:
-String
 maxSize
 :
 Number
