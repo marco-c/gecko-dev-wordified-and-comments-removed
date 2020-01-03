@@ -13663,14 +13663,10 @@ Failed
 )
 )
 {
-ThrowMethodFailedWithDetails
+ThrowMethodFailed
 (
 cx
 rv
-"
-"
-"
-"
 )
 ;
 JS_SetPendingException

@@ -249,14 +249,10 @@ bool
 >
 throwResult
 =
-ThrowMethodFailedWithDetails
+ThrowMethodFailed
 (
 aCx
 aArgument
-"
-"
-"
-"
 )
 ;
 MOZ_ASSERT

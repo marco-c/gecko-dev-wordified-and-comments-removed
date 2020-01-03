@@ -1483,16 +1483,10 @@ Failed
 )
 {
 return
-ThrowMethodFailedWithDetails
+ThrowMethodFailed
 (
 cx
 rv
-"
-Sandbox
-"
-"
-fetch
-"
 )
 ;
 }
