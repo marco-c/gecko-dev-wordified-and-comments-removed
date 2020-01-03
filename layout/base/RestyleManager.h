@@ -734,7 +734,7 @@ mReframingStyleContexts
 ;
 }
 static
-void
+bool
 TryStartingTransition
 (
 nsPresContext
