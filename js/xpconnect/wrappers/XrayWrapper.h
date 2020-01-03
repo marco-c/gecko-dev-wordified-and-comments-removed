@@ -36,6 +36,14 @@ Proxy
 .
 h
 "
+#
+define
+XRAY_DOM_FUNCTION_PARENT_WRAPPER_SLOT
+0
+#
+define
+XRAY_DOM_FUNCTION_NATIVE_SLOT_FOR_ASSERT
+1
 class
 nsIPrincipal
 ;
