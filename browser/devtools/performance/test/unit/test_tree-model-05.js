@@ -177,6 +177,18 @@ F
 )
 ;
 function
+run_test
+(
+)
+{
+run_next_test
+(
+)
+;
+}
+add_task
+(
+function
 test
 (
 )
@@ -215,7 +227,7 @@ true
 }
 )
 ;
-is
+equal
 (
 root
 .
@@ -266,7 +278,7 @@ root
 "
 )
 ;
-is
+equal
 (
 C
 .
@@ -337,7 +349,7 @@ C
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -373,7 +385,7 @@ C
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -409,7 +421,7 @@ C
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -473,7 +485,7 @@ root
 "
 )
 ;
-is
+equal
 (
 F
 .
@@ -499,7 +511,7 @@ F
 "
 )
 ;
-is
+equal
 (
 getFrameNodePath
 (
@@ -535,8 +547,6 @@ F
 "
 )
 ;
-finish
-(
+}
 )
 ;
-}
