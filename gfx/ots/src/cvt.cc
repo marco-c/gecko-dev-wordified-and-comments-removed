@@ -166,6 +166,9 @@ file
 -
 >
 cvt
+!
+=
+NULL
 ;
 }
 bool

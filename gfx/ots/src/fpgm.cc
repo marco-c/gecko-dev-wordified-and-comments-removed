@@ -139,6 +139,9 @@ file
 -
 >
 fpgm
+!
+=
+NULL
 ;
 }
 bool

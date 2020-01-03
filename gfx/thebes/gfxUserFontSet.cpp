@@ -3346,13 +3346,6 @@ this
 )
 ;
 }
-ots
-:
-:
-EnableWOFF2
-(
-)
-;
 }
 gfxUserFontSet
 :
