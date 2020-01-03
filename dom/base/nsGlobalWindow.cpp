@@ -15445,7 +15445,7 @@ aFrameElement
 )
 ;
 }
-void
+bool
 nsPIDOMWindow
 :
 :
@@ -15478,8 +15478,7 @@ GetDocShell
 (
 )
 ;
-if
-(
+return
 docShell
 &
 &
@@ -15499,16 +15498,7 @@ aAudioContext
 IsOffline
 (
 )
-)
-{
-aAudioContext
--
->
-Mute
-(
-)
 ;
-}
 }
 void
 nsPIDOMWindow

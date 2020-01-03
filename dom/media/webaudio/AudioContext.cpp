@@ -500,6 +500,9 @@ mCloseCalled
 false
 )
 {
+bool
+mute
+=
 aWindow
 -
 >
@@ -521,6 +524,16 @@ aLength
 aSampleRate
 )
 ;
+if
+(
+mute
+)
+{
+Mute
+(
+)
+;
+}
 }
 void
 AudioContext

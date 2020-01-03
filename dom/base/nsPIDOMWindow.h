@@ -1810,7 +1810,7 @@ aPopupWindowFeatures
 =
 0
 ;
-void
+bool
 AddAudioContext
 (
 mozilla
