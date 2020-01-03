@@ -171,6 +171,11 @@ nsGSettingsService
 .
 cpp
 '
+'
+nsPackageKitService
+.
+cpp
+'
 ]
 XPCOMBinaryComponent
 (

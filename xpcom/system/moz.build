@@ -138,6 +138,11 @@ nsIHapticFeedback
 idl
 '
 '
+nsIPackageKitService
+.
+idl
+'
+'
 nsIXULAppInfo
 .
 idl
