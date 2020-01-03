@@ -32,6 +32,15 @@ h
 #
 include
 "
+gc
+/
+Allocator
+.
+h
+"
+#
+include
+"
 vm
 /
 ArrayObject

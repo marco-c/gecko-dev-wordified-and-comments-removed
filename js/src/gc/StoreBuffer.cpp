@@ -37,6 +37,15 @@ h
 #
 include
 "
+vm
+/
+Runtime
+.
+h
+"
+#
+include
+"
 jsgcinlines
 .
 h

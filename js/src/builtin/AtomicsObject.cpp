@@ -49,6 +49,15 @@ h
 #
 include
 "
+js
+/
+Class
+.
+h
+"
+#
+include
+"
 vm
 /
 GlobalObject

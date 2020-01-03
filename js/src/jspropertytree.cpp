@@ -47,13 +47,6 @@ h
 #
 include
 "
-jsgcinlines
-.
-h
-"
-#
-include
-"
 vm
 /
 Shape

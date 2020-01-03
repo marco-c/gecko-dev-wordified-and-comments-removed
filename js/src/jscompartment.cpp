@@ -189,6 +189,12 @@ mozilla
 :
 DebugOnly
 ;
+using
+mozilla
+:
+:
+PodArrayZero
+;
 JSCompartment
 :
 :
