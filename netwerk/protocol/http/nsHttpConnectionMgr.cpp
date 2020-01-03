@@ -7275,6 +7275,18 @@ NS_OK
 ;
 }
 }
+if
+(
+trans
+-
+>
+Caps
+(
+)
+&
+NS_HTTP_ALLOW_KEEPALIVE
+)
+{
 uint32_t
 activeLength
 =
@@ -7393,6 +7405,7 @@ get
 return
 NS_OK
 ;
+}
 }
 }
 if
