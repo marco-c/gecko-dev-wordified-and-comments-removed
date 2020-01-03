@@ -137,7 +137,7 @@ Capacity
 (
 )
 ;
-PR_STATIC_ASSERT
+static_assert
 (
 (
 sizeof
@@ -150,6 +150,12 @@ nsStringBuffer
 =
 =
 0
+"
+bad
+size
+for
+nsStringBuffer
+"
 )
 ;
 const
