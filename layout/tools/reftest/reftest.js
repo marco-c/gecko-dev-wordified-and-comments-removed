@@ -3913,10 +3913,6 @@ haveTestPlugin
 !
 !
 testPlugin
-&
-&
-!
-gBrowserIsRemote
 ;
 sandbox
 .
