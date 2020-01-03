@@ -555,6 +555,12 @@ mParser
 ;
 nsRefPtr
 <
+MediaByteBuffer
+>
+mInitData
+;
+nsRefPtr
+<
 SourceBufferResource
 >
 mCurrentInputBuffer
