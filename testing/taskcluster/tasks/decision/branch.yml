@@ -34,15 +34,6 @@ for
 owner
 }
 }
-with
-comment
-:
-{
-{
-comment
-}
-}
-.
 owner
 :
 mozilla
