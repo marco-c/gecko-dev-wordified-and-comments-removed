@@ -78,6 +78,11 @@ page_loaded
 true
 )
 ;
+if
+(
+!
+gMultiProcessBrowser
+)
 expectUncaughtException
 (
 )
