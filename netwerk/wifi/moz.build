@@ -228,11 +228,15 @@ CONFIG
 OS_ARCH
 '
 ]
-=
-=
+in
+(
+'
+DragonFly
+'
 '
 FreeBSD
 '
+)
 :
 UNIFIED_SOURCES
 +
