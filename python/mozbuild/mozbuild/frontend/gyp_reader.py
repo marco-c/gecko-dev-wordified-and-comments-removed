@@ -424,12 +424,6 @@ time
 (
 )
     
-all_sources
-=
-set
-(
-)
-    
 path
 =
 encode
@@ -1000,11 +994,6 @@ sources
 -
 =
 unified_sources
-            
-all_sources
-|
-=
-sources
             
 context
 [
