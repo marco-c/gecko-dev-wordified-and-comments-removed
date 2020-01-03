@@ -84,6 +84,7 @@ nsIAtom
 name
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 SVGAnimatedPointList
@@ -91,6 +92,7 @@ SVGAnimatedPointList
 GetAnimatedPointList
 (
 )
+MOZ_OVERRIDE
 {
 return
 &
@@ -104,6 +106,7 @@ GetPointListAttrName
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsGkAtoms

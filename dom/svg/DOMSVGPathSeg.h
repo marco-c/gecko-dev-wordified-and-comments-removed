@@ -215,6 +215,7 @@ Type
 (
 )
 const
+MOZ_OVERRIDE
 \
 {
 \
@@ -231,6 +232,7 @@ DOMSVGPathSeg
 Clone
 (
 )
+MOZ_OVERRIDE
 \
 {
 \
@@ -290,6 +292,7 @@ float
 PtrToMemberArgs
 (
 )
+MOZ_OVERRIDE
 \
 {
 \

@@ -212,6 +212,7 @@ GetParentObject
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mParent

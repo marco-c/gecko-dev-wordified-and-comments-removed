@@ -125,6 +125,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -145,6 +146,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :

@@ -119,6 +119,7 @@ bool
 SubregionIsUnionOfRegions
 (
 )
+MOZ_OVERRIDE
 {
 return
 false

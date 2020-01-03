@@ -196,6 +196,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <

@@ -159,6 +159,7 @@ aIndex
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -169,6 +170,7 @@ aIndex
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -182,6 +184,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -202,6 +205,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :

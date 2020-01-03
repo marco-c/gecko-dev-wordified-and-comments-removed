@@ -155,6 +155,7 @@ nsSMILAnimationFunction
 AnimationFunction
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

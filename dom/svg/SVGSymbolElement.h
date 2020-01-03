@@ -154,6 +154,7 @@ nsIAtom
 name
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -174,6 +175,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <
@@ -199,6 +201,7 @@ nsSVGViewBox
 GetViewBox
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 SVGAnimatedPreserveAspectRatio
@@ -206,6 +209,7 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
+MOZ_OVERRIDE
 ;
 nsSVGViewBox
 mViewBox
