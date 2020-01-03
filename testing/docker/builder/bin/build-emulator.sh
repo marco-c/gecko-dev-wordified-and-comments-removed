@@ -40,8 +40,6 @@ pull
 down
 test
 TARGET
-test
-B2G_CONFIG
 #
 First
 check
@@ -250,7 +248,7 @@ config
 -
 dir
 =
-B2G_CONFIG
+TARGET
 \
 -
 -

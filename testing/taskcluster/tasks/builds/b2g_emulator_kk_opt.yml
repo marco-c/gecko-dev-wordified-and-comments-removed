@@ -61,7 +61,7 @@ object
 folder
 env
 :
-B2G_CONFIG
+TARGET
 :
 '
 emulator
