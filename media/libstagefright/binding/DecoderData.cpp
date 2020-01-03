@@ -568,7 +568,7 @@ kKeyTrackID
 ;
 crypto
 .
-valid
+mValid
 =
 aMetaData
 -
@@ -579,7 +579,7 @@ kKeyCryptoMode
 &
 crypto
 .
-mode
+mMode
 )
 &
 &
@@ -592,7 +592,7 @@ kKeyCryptoDefaultIVSize
 &
 crypto
 .
-iv_size
+mIVSize
 )
 &
 &
@@ -603,7 +603,7 @@ kKeyCryptoKey
 &
 crypto
 .
-key
+mKeyId
 )
 ;
 }

@@ -351,7 +351,7 @@ aSample
 >
 mCrypto
 .
-valid
+mValid
 )
 {
 if
@@ -361,7 +361,7 @@ aSample
 >
 mCrypto
 .
-plain_sizes
+mPlainSizes
 .
 Length
 (
@@ -376,7 +376,7 @@ aSample
 >
 mCrypto
 .
-plain_sizes
+mPlainSizes
 .
 AppendElement
 (
@@ -388,7 +388,7 @@ aSample
 >
 mCrypto
 .
-encrypted_sizes
+mEncryptedSizes
 .
 AppendElement
 (
@@ -408,7 +408,7 @@ aSample
 >
 mCrypto
 .
-plain_sizes
+mPlainSizes
 [
 0
 ]

@@ -416,13 +416,13 @@ aSample
 >
 mCrypto
 .
-key
+mKeyId
 aSample
 -
 >
 mCrypto
 .
-session_ids
+mSessionIds
 )
 ;
 mProxy
@@ -853,13 +853,13 @@ aSample
 >
 mCrypto
 .
-key
+mKeyId
 aSample
 -
 >
 mCrypto
 .
-session_ids
+mSessionIds
 )
 ;
 return
@@ -1103,7 +1103,7 @@ aConfig
 .
 crypto
 .
-valid
+mValid
 )
 {
 nsRefPtr
@@ -1185,7 +1185,7 @@ aConfig
 .
 crypto
 .
-valid
+mValid
 )
 {
 return
@@ -1249,7 +1249,7 @@ aConfig
 .
 crypto
 .
-valid
+mValid
 )
 {
 nsRefPtr
@@ -1327,7 +1327,7 @@ aConfig
 .
 crypto
 .
-valid
+mValid
 )
 {
 return
