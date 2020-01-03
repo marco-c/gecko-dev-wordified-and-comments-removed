@@ -702,7 +702,7 @@ ProjectPoint
 (
 aRect
 .
-BottomLeft
+BottomRight
 (
 )
 )
@@ -716,7 +716,7 @@ ProjectPoint
 (
 aRect
 .
-BottomRight
+BottomLeft
 (
 )
 )
