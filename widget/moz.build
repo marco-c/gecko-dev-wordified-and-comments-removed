@@ -117,6 +117,9 @@ android
 '
 gonk
 '
+'
+uikit
+'
 )
 :
 DIRS
@@ -1050,7 +1053,7 @@ cpp
 if
 toolkit
 in
-(
+{
 '
 qt
 '
@@ -1072,7 +1075,10 @@ android
 '
 gonk
 '
-)
+'
+uikit
+'
+}
 :
 UNIFIED_SOURCES
 +
