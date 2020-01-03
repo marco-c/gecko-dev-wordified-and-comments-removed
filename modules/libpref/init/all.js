@@ -15422,7 +15422,7 @@ plugins
 .
 contentTimeoutSecs
 "
-45
+10
 )
 ;
 pref
