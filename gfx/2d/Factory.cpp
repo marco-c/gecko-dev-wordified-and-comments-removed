@@ -192,12 +192,6 @@ h
 if
 defined
 (
-DEBUG
-)
-|
-|
-defined
-(
 PR_LOGGING
 )
 GFX2D_API
