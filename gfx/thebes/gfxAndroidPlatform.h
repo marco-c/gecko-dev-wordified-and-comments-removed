@@ -399,6 +399,7 @@ bool
 SupportsApzTouchInput
 (
 )
+const
 override
 {
 return
