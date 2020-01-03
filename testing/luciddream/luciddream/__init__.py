@@ -30,6 +30,9 @@ marionette_weakref
 browser
 =
 None
+logger
+=
+None
 *
 *
 kwargs
@@ -41,6 +44,12 @@ self
 browser
 =
 browser
+        
+self
+.
+logger
+=
+logger
         
 MarionetteTestCase
 .
