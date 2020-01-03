@@ -650,6 +650,7 @@ char
 *
 value
 )
+const
 ;
 bool
 findInt32
@@ -660,6 +661,7 @@ int32_t
 *
 value
 )
+const
 ;
 bool
 findInt64
@@ -670,6 +672,7 @@ int64_t
 *
 value
 )
+const
 ;
 bool
 findFloat
@@ -680,6 +683,7 @@ float
 *
 value
 )
+const
 ;
 bool
 findPointer
@@ -691,6 +695,7 @@ void
 *
 value
 )
+const
 ;
 bool
 findRect
@@ -710,6 +715,7 @@ int32_t
 *
 bottom
 )
+const
 ;
 bool
 setData
