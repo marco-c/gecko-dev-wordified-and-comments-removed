@@ -1050,7 +1050,7 @@ dom
 .
 ipc
 .
-processPriorityManager
+preallocatedProcessManager
 .
 testMode
 "
@@ -1290,7 +1290,7 @@ dom
 .
 ipc
 .
-processPriorityManager
+preallocatedProcessManager
 .
 testMode
 "
