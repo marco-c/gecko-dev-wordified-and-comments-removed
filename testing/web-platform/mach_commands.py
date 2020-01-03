@@ -428,6 +428,22 @@ kwargs
         
 update
 .
+setup_logging
+(
+kwargs
+{
+"
+mach
+"
+:
+sys
+.
+stdout
+}
+)
+        
+update
+.
 run_update
 (
 *
