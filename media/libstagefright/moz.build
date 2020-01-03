@@ -108,7 +108,7 @@ LOG_NDEBUG
 '
 ]
 =
-0
+1
 if
 CONFIG
 [
