@@ -2199,7 +2199,7 @@ aCallbackData
 {
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 return
 false
 ;

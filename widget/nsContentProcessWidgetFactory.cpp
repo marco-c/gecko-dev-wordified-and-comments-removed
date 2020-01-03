@@ -73,7 +73,7 @@ widget
 ;
 #
 ifndef
-MOZ_B2G
+MOZ_WIDGET_GONK
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsClipboardProxy
