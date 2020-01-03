@@ -664,8 +664,8 @@ get_debugger_info
 '
 args
 '
-'
-'
+[
+]
 )
     
 if
@@ -673,10 +673,11 @@ debuggerArgs
 :
         
 debugger_arguments
-=
-debuggerArgs
 +
-debugger_arguments
+=
+[
+debuggerArgs
+]
 ;
     
 debugger_interactive
