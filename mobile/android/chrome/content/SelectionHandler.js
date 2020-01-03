@@ -3683,6 +3683,12 @@ sh_attachCaret
 aElement
 )
 {
+this
+.
+_closeSelection
+(
+)
+;
 if
 (
 aElement
