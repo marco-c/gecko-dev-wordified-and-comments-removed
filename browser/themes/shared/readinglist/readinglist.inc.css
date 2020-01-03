@@ -70,10 +70,6 @@ addpage
 "
 )
 ;
-padding
-:
-3px
-;
 }
 #
 readinglist
@@ -103,11 +99,11 @@ icon
 {
 width
 :
-16px
+14px
 ;
 height
 :
-16px
+14px
 }
 #
 readinglist
