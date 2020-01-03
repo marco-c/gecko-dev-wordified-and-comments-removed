@@ -703,7 +703,7 @@ enabling
 {
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Range
@@ -773,7 +773,7 @@ false
 }
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Range
@@ -4244,7 +4244,7 @@ object
 ;
 for
 (
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Range

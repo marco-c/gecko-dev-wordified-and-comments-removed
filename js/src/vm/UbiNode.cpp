@@ -2028,7 +2028,7 @@ for
 js
 :
 :
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Range
@@ -2094,7 +2094,7 @@ for
 js
 :
 :
-GlobalObjectSet
+WeakGlobalObjectSet
 :
 :
 Range
