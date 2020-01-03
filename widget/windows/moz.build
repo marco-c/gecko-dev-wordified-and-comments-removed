@@ -370,6 +370,11 @@ nsWidgetFactory
 cpp
 '
 '
+WindowsUIUtils
+.
+cpp
+'
+'
 WinMouseScrollHandler
 .
 cpp
