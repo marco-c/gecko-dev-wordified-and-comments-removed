@@ -753,6 +753,13 @@ DebuggerServer
 globalActorFactories
 .
 deviceActor
+settingsActor
+:
+DebuggerServer
+.
+globalActorFactories
+.
+settingsActor
 }
 :
 DebuggerServer
