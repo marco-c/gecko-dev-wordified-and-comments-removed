@@ -6168,7 +6168,7 @@ widget
 >
 SynthesizeNativeMouseEvent
 (
-nsIntPoint
+LayoutDeviceIntPoint
 (
 aScreenX
 aScreenY
@@ -6242,7 +6242,7 @@ widget
 >
 SynthesizeNativeMouseScrollEvent
 (
-nsIntPoint
+LayoutDeviceIntPoint
 (
 aScreenX
 aScreenY

@@ -1774,7 +1774,7 @@ unlockFocus
 ]
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 pt
 (
 dragRect

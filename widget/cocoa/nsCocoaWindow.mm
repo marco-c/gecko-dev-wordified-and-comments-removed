@@ -12550,7 +12550,7 @@ nsCocoaWindow
 :
 SynthesizeNativeMouseEvent
 (
-nsIntPoint
+LayoutDeviceIntPoint
 aPoint
 uint32_t
 aNativeMessage

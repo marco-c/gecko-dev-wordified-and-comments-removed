@@ -17017,11 +17017,6 @@ widget
 >
 SynthesizeNativeMouseMove
 (
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 center
 +
 aMouseEvent
@@ -17032,7 +17027,6 @@ widget
 >
 WidgetToScreenOffset
 (
-)
 )
 )
 ;
@@ -17494,11 +17488,6 @@ aWidget
 >
 SynthesizeNativeMouseMove
 (
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 sLastRefPoint
 +
 aWidget
@@ -17506,7 +17495,6 @@ aWidget
 >
 WidgetToScreenOffset
 (
-)
 )
 )
 ;
@@ -17544,11 +17532,6 @@ aWidget
 >
 SynthesizeNativeMouseMove
 (
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 mPreLockPoint
 +
 aWidget
@@ -17556,7 +17539,6 @@ aWidget
 >
 WidgetToScreenOffset
 (
-)
 )
 )
 ;

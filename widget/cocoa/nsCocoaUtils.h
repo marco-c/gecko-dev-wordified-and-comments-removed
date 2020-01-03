@@ -44,6 +44,13 @@ h
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 nsObjCExceptions
 .
 h
@@ -557,7 +564,10 @@ NSPoint
 DevPixelsToCocoaPoints
 (
 const
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 &
 aPt
 CGFloat

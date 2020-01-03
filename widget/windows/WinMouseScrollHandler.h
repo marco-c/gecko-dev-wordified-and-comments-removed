@@ -47,6 +47,13 @@ h
 "
 #
 include
+"
+Units
+.
+h
+"
+#
+include
 <
 windows
 .
@@ -128,7 +135,7 @@ nsWindowBase
 *
 aWidget
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 uint32_t

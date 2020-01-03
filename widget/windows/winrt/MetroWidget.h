@@ -777,7 +777,10 @@ virtual
 nsresult
 SynthesizeNativeMouseEvent
 (
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 aPoint
 uint32_t
 aNativeMessage
@@ -789,7 +792,10 @@ virtual
 nsresult
 SynthesizeNativeMouseScrollEvent
 (
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 aPoint
 uint32_t
 aNativeMessage

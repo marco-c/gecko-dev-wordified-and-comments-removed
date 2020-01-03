@@ -22377,7 +22377,7 @@ nsWindow
 :
 SynthesizeNativeMouseEvent
 (
-nsIntPoint
+LayoutDeviceIntPoint
 aPoint
 uint32_t
 aNativeMessage
@@ -22448,7 +22448,7 @@ nsWindow
 :
 SynthesizeNativeMouseScrollEvent
 (
-nsIntPoint
+LayoutDeviceIntPoint
 aPoint
 uint32_t
 aNativeMessage
