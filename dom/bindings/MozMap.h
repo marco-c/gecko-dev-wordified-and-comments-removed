@@ -37,6 +37,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Move
 .
 h
@@ -399,6 +408,7 @@ args
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 DataType
 *
 AddEntry
@@ -408,7 +418,6 @@ nsAString
 &
 aKey
 )
-NS_WARN_UNUSED_RESULT
 {
 EntryType
 *

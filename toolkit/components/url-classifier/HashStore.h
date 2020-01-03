@@ -182,7 +182,7 @@ Length
 0
 ;
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 nsresult
 NewAddChunk
 (
@@ -200,7 +200,7 @@ aChunk
 ;
 }
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 nsresult
 NewSubChunk
 (
@@ -218,7 +218,7 @@ aChunk
 ;
 }
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 nsresult
 NewAddExpiration
 (
@@ -236,7 +236,7 @@ aChunk
 ;
 }
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 nsresult
 NewSubExpiration
 (
@@ -254,7 +254,7 @@ aChunk
 ;
 }
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 nsresult
 NewAddPrefix
 (
@@ -266,7 +266,7 @@ Prefix
 aPrefix
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 nsresult
 NewSubPrefix
 (
@@ -280,7 +280,7 @@ uint32_t
 aSubChunk
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 nsresult
 NewAddComplete
 (
@@ -292,7 +292,7 @@ Completion
 aCompletion
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 nsresult
 NewSubComplete
 (

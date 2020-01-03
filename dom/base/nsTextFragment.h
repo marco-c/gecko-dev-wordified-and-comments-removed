@@ -307,6 +307,7 @@ GetLength
 ;
 }
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendTo
 (
@@ -322,7 +323,6 @@ fallible_t
 aFallible
 )
 const
-NS_WARN_UNUSED_RESULT
 {
 if
 (
@@ -420,6 +420,7 @@ aLength
 ;
 }
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendTo
 (
@@ -439,7 +440,6 @@ fallible_t
 aFallible
 )
 const
-NS_WARN_UNUSED_RESULT
 {
 if
 (

@@ -1085,7 +1085,7 @@ char_type
 aChar
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 NS_FASTCALL
 Assign
@@ -1119,7 +1119,7 @@ size_type
 aLength
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 NS_FASTCALL
 Assign
@@ -1144,7 +1144,7 @@ self_type
 &
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 NS_FASTCALL
 Assign
@@ -1166,7 +1166,7 @@ substring_tuple_type
 &
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 NS_FASTCALL
 Assign
@@ -1212,7 +1212,7 @@ aData
 )
 ;
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 Assign
 (
@@ -1264,7 +1264,7 @@ aLength
 )
 ;
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 Assign
 (
@@ -1309,7 +1309,7 @@ size_type
 aLength
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 NS_FASTCALL
 AssignASCII
@@ -1355,7 +1355,7 @@ aData
 )
 ;
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 NS_FASTCALL
 AssignASCII
@@ -1597,7 +1597,7 @@ char_type
 aChar
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 NS_FASTCALL
 Replace
@@ -1635,7 +1635,7 @@ size_type
 )
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 NS_FASTCALL
 Replace
@@ -1685,7 +1685,7 @@ Length
 )
 ;
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 Replace
 (
@@ -1758,7 +1758,7 @@ size_type
 )
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 NS_FASTCALL
 ReplaceASCII
@@ -1827,7 +1827,7 @@ aChar
 )
 ;
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 Append
 (
@@ -1875,7 +1875,7 @@ aLength
 )
 ;
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 Append
 (
@@ -1963,7 +1963,7 @@ aStr
 )
 ;
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 Append
 (
@@ -2030,7 +2030,7 @@ aLength
 )
 ;
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendASCII
 (
@@ -2059,7 +2059,7 @@ aFallible
 )
 ;
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendASCII
 (
@@ -2445,7 +2445,7 @@ template
 int
 N
 >
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendLiteral
 (
@@ -2788,7 +2788,7 @@ size_type
 aNewCapacity
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 NS_FASTCALL
 SetCapacity
@@ -2808,7 +2808,7 @@ size_type
 aNewLength
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 NS_FASTCALL
 SetLength
@@ -3458,7 +3458,7 @@ uint32_t
 aOldFlags
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 ReplacePrep
 (
@@ -3538,7 +3538,7 @@ newTotalLen
 )
 ;
 }
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 NS_FASTCALL
 ReplacePrepInternal
@@ -3560,7 +3560,7 @@ Capacity
 )
 const
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 NS_FASTCALL
 EnsureMutable

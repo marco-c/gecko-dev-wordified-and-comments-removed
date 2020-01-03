@@ -2528,6 +2528,7 @@ bool
 aTryReuse
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 static
 bool
 GetNodeTextContent
@@ -2541,7 +2542,6 @@ nsAString
 &
 aResult
 )
-NS_WARN_UNUSED_RESULT
 ;
 static
 bool
@@ -3531,8 +3531,8 @@ nsString
 aString
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 static
-NS_WARN_UNUSED_RESULT
 bool
 PlatformToDOMLineBreaks
 (

@@ -260,7 +260,7 @@ nsXMLContentSerializer
 (
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendToString
 (
@@ -272,7 +272,7 @@ nsAString
 aOutputStr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendToString
 (
@@ -285,7 +285,7 @@ nsAString
 aOutputStr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendToStringConvertLF
 (
@@ -298,7 +298,7 @@ nsAString
 aOutputStr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendToStringWrapped
 (
@@ -311,7 +311,7 @@ nsAString
 aOutputStr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendToStringFormatedWrapped
 (
@@ -324,7 +324,7 @@ nsAString
 aOutputStr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendWrapped_WhitespaceSequence
 (
@@ -351,7 +351,7 @@ nsAString
 aOutputStr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendFormatedWrapped_WhitespaceSequence
 (
@@ -381,7 +381,7 @@ nsAString
 aOutputStr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendWrapped_NonWhitespaceSequence
 (
@@ -414,7 +414,7 @@ nsAString
 aOutputStr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendNewLineToString
 (
@@ -423,7 +423,7 @@ nsAString
 aOutputStr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 AppendAndTranslateEntities
@@ -519,7 +519,7 @@ nsAString
 aTagNamespaceURI
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 SerializeAttributes
@@ -549,7 +549,7 @@ bool
 aAddNSAttr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 SerializeAttr
 (
@@ -607,7 +607,7 @@ nsresult
 aResult
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 AppendEndOfElementStart
@@ -625,7 +625,7 @@ nsAString
 aStr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 virtual
 bool
 AfterElementStart
@@ -719,7 +719,7 @@ nsIAtom
 aName
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 AppendIndentation
 (
@@ -728,7 +728,7 @@ nsAString
 aStr
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 IncrIndentation
 (
@@ -745,7 +745,7 @@ nsIAtom
 aName
 )
 ;
-NS_WARN_UNUSED_RESULT
+MOZ_WARN_UNUSED_RESULT
 bool
 MaybeAddNewlineForRootNode
 (

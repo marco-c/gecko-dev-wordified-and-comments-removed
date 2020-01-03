@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ipc
@@ -171,6 +180,7 @@ IsForBrowser
 =
 0
 ;
+MOZ_WARN_UNUSED_RESULT
 virtual
 PBlobParent
 *
@@ -184,10 +194,10 @@ BlobConstructorParams
 &
 aParams
 )
-NS_WARN_UNUSED_RESULT
 =
 0
 ;
+MOZ_WARN_UNUSED_RESULT
 virtual
 PBrowserParent
 *
@@ -221,7 +231,6 @@ bool
 &
 aIsForBrowser
 )
-NS_WARN_UNUSED_RESULT
 =
 0
 ;

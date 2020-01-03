@@ -590,9 +590,6 @@ MOZ_ALLOCATOR
 #
 endif
 #
-ifdef
-__cplusplus
-#
 if
 defined
 (
@@ -620,6 +617,9 @@ define
 MOZ_WARN_UNUSED_RESULT
 #
 endif
+#
+ifdef
+__cplusplus
 #
 ifdef
 MOZ_CLANG_PLUGIN
