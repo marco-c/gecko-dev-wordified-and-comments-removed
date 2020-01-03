@@ -278,12 +278,17 @@ GeckoProfiler
 h
 "
 #
+ifdef
+MOZ_ENABLE_PROFILER_SPS
+#
 include
 "
 ProfilerMarkers
 .
 h
 "
+#
+endif
 #
 define
 CULLING_LOG
@@ -675,6 +680,9 @@ Layer
 aLayer
 )
 {
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 if
 (
 !
@@ -783,6 +791,8 @@ LayerTranslation
 payload
 )
 ;
+#
+endif
 }
 struct
 PreparedLayer
