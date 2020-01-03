@@ -153,6 +153,16 @@ define
 MOZ_LITTLE_ENDIAN
 1
 #
+elif
+defined
+(
+_M_ARM
+)
+#
+define
+MOZ_LITTLE_ENDIAN
+1
+#
 else
 #
 error
