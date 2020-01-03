@@ -2127,6 +2127,19 @@ autoconf213
 '
 HOMEBREW_AUTOCONF213
 )
+            
+(
+'
+gnu
+-
+tar
+'
+'
+gnu
+-
+tar
+'
+)
         
 ]
         
@@ -2609,6 +2622,10 @@ mercurial
                     
 '
 autoconf213
+'
+                    
+'
+gnutar
 '
 ]
         
