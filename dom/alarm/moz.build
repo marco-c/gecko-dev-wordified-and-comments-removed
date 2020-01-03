@@ -199,3 +199,15 @@ mochitest
 ini
 '
 ]
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+'
+test
+/
+xpcshell
+.
+ini
+'
+]
