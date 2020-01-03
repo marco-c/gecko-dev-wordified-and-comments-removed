@@ -469,6 +469,14 @@ refreshAuthentication
 ;
 exports
 .
+FX_OAUTH_CLIENT_ID
+=
+"
+5882386c6d801776
+"
+;
+exports
+.
 ERRNO_ACCOUNT_ALREADY_EXISTS
 =
 101
