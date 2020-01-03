@@ -7976,8 +7976,6 @@ aFrom
 GraphTime
 aTo
 GraphTime
-aStateFrom
-GraphTime
 aStateEnd
 )
 {
@@ -8072,6 +8070,11 @@ aTo
 )
 ;
 GraphTime
+stateFrom
+=
+mStateComputedTime
+;
+GraphTime
 stateEnd
 =
 std
@@ -8090,7 +8093,7 @@ stateEnd
 ;
 Process
 (
-aStateFrom
+stateFrom
 stateEnd
 )
 ;

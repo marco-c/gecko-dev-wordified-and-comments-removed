@@ -349,8 +349,6 @@ aFrom
 GraphTime
 aTo
 GraphTime
-aStateFrom
-GraphTime
 aStateEnd
 )
 ;
