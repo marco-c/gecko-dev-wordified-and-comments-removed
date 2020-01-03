@@ -1181,6 +1181,16 @@ _
 (
 UnknownValue
 )
+\
+_
+(
+LexicalCheck
+)
+\
+_
+(
+ThrowUninitializedLexical
+)
 #
 define
 FORWARD_DECLARE

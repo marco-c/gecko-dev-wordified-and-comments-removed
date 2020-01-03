@@ -1375,7 +1375,7 @@ val
 ;
 inline
 Type
-GetMaybeOptimizedOutValueType
+GetMaybeUntrackedValueType
 (
 const
 Value

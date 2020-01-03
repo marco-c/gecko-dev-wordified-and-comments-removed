@@ -1524,6 +1524,14 @@ UnknownValue
 )
 UNSAFE_OP
 (
+LexicalCheck
+)
+UNSAFE_OP
+(
+ThrowUninitializedLexical
+)
+UNSAFE_OP
+(
 ConvertElementsToDoubles
 )
 UNSAFE_OP

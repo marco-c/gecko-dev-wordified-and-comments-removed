@@ -6353,7 +6353,7 @@ barrier
 ;
 }
 bool
-ThrowUninitializedLet
+ThrowUninitializedLexical
 (
 JSContext
 *
@@ -6377,7 +6377,7 @@ script
 )
 )
 ;
-ReportUninitializedLet
+ReportUninitializedLexical
 (
 cx
 script

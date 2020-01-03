@@ -1013,6 +1013,7 @@ MIRType_MagicOptimizedArguments
 MIRType_MagicOptimizedOut
 MIRType_MagicHole
 MIRType_MagicIsConstructing
+MIRType_MagicUninitializedLexical
 MIRType_Value
 MIRType_None
 MIRType_Slots
@@ -1267,6 +1268,9 @@ MIRType_MagicHole
 case
 MIRType_MagicIsConstructing
 :
+case
+MIRType_MagicUninitializedLexical
+:
 return
 JSVAL_TYPE_MAGIC
 ;
@@ -1422,6 +1426,14 @@ MIRType_MagicIsConstructing
 return
 "
 MagicIsConstructing
+"
+;
+case
+MIRType_MagicUninitializedLexical
+:
+return
+"
+MagicUninitializedLexical
 "
 ;
 case
