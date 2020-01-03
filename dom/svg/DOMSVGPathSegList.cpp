@@ -1432,6 +1432,8 @@ ToSVGPathSegEncodedData
 segAsRaw
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 InternalList
 (
 )
@@ -1446,7 +1448,10 @@ segAsRaw
 +
 argCount
 )
+)
 ;
+MOZ_ALWAYS_TRUE
+(
 mItems
 .
 InsertElementAt
@@ -1460,6 +1465,7 @@ get
 (
 )
 internalIndex
+)
 )
 )
 ;

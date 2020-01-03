@@ -1747,6 +1747,8 @@ Length
 i
 )
 {
+MOZ_ALWAYS_TRUE
+(
 transforms
 .
 AppendElement
@@ -1757,6 +1759,7 @@ aList
 [
 i
 ]
+)
 )
 )
 ;

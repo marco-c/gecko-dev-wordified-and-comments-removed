@@ -2144,6 +2144,8 @@ mDistToPoint
 aUnitDistance
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 resultArr
 .
 AppendElement
@@ -2154,6 +2156,7 @@ path
 resultDist
 rotateType
 rotateAngle
+)
 )
 )
 ;
@@ -2407,6 +2410,8 @@ ExtractMotionSegmentArray
 smilVal
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 arr
 .
 AppendElement
@@ -2417,6 +2422,7 @@ aPath
 aDist
 aRotateType
 aRotateAngle
+)
 )
 )
 ;
