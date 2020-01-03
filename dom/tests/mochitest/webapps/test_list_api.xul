@@ -416,6 +416,11 @@ onuninstall
 "
 object
 "
+onenabledstatechange
+:
+"
+object
+"
 ownerGlobal
 :
 "
@@ -437,6 +442,11 @@ extractManifest
 function
 "
 import
+:
+"
+function
+"
+setEnabled
 :
 "
 function
