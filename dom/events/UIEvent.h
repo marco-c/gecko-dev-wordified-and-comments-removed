@@ -761,6 +761,15 @@ nsAString
 aKey
 )
 ;
+void
+InitModifiers
+(
+const
+EventModifierInit
+&
+aParam
+)
+;
 }
 ;
 }
