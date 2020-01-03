@@ -1480,11 +1480,6 @@ OnAudioSinkError
 (
 )
 ;
-void
-DoNotifyWaitingForResourcesStatusChanged
-(
-)
-;
 bool
 NeedToSkipToNextKeyframe
 (

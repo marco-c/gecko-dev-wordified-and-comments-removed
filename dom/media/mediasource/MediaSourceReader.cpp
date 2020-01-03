@@ -349,6 +349,14 @@ mHasEssentialTrackBuffers
 =
 true
 ;
+if
+(
+!
+IsWaitingMediaResources
+(
+)
+)
+{
 mDecoder
 -
 >
@@ -356,6 +364,7 @@ NotifyWaitingForResourcesStatusChanged
 (
 )
 ;
+}
 }
 bool
 MediaSourceReader
@@ -3637,6 +3646,14 @@ mVideoTrack
 aTrackBuffer
 ;
 }
+if
+(
+!
+IsWaitingMediaResources
+(
+)
+)
+{
 mDecoder
 -
 >
@@ -3644,6 +3661,7 @@ NotifyWaitingForResourcesStatusChanged
 (
 )
 ;
+}
 }
 bool
 MediaSourceReader
