@@ -805,7 +805,6 @@ null
 ;
 }
 }
-}
 if
 (
 topic
@@ -813,10 +812,8 @@ topic
 =
 =
 kTopicAlertFinished
-)
-{
-if
-(
+&
+&
 listener
 .
 dbId
@@ -835,6 +832,16 @@ dbId
 )
 ;
 }
+}
+if
+(
+topic
+=
+=
+=
+kTopicAlertFinished
+)
+{
 delete
 this
 .
