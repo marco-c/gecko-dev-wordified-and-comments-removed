@@ -31511,8 +31511,6 @@ PageThumbs
 captureToCanvas
 (
 browser
-.
-contentWindow
 canvas
 )
 ;
