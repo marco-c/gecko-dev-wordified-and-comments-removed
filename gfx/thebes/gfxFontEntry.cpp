@@ -5831,6 +5831,12 @@ mAvailableFonts
 [
 i
 ]
+&
+&
+mAvailableFonts
+[
+i
+]
 -
 >
 mIsUserFontContainer
