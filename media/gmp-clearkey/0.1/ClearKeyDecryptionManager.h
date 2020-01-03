@@ -65,6 +65,7 @@ GMPDecryptor
 {
 public
 :
+explicit
 ClearKeyDecryptionManager
 (
 GMPDecryptorHost
