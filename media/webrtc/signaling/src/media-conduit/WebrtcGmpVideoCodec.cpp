@@ -697,7 +697,7 @@ GetGMPVideoEncoder
 (
 &
 tags
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 "
@@ -1147,7 +1147,7 @@ GetGMPVideoEncoder
 (
 &
 tags
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 "
@@ -2549,7 +2549,7 @@ GetGMPVideoDecoder
 (
 &
 tags
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 "
