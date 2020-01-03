@@ -4718,6 +4718,16 @@ receiveDictContainingSequence
 (
 )
 ;
+void
+passVariadicDictionary
+(
+Dict
+.
+.
+.
+arg
+)
+;
 /
 /
 EnforceRange

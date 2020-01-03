@@ -22180,6 +22180,13 @@ not
 variadic
 or
 optional
+        
+assert
+not
+variadic
+or
+not
+defaultValue
     
 def
 addExtendedAttributes
@@ -22538,6 +22545,11 @@ not
 self
 .
 defaultValue
+and
+not
+self
+.
+variadic
 )
 :
             
