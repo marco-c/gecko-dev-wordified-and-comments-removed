@@ -7522,6 +7522,10 @@ false
 ;
 }
 else
+if
+(
+hasAlpha
+)
 {
 gfxUtils
 :
