@@ -209,9 +209,6 @@ JSContext
 cx
 JSObject
 *
-existing
-JSObject
-*
 obj
 const
 Wrapper
@@ -1131,8 +1128,6 @@ TransparentObjectWrapper
 JSContext
 *
 cx
-HandleObject
-existing
 HandleObject
 obj
 HandleObject
