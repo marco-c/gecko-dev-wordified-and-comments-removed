@@ -80,12 +80,6 @@ ac_add_options
 -
 enable
 -
-signmar
-ac_add_options
--
--
-enable
--
 verify
 -
 mar
