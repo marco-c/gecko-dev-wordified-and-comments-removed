@@ -57,9 +57,6 @@ class
 DecodedStreamGraphListener
 ;
 class
-OutputStreamData
-;
-class
 OutputStreamListener
 ;
 class
@@ -172,10 +169,6 @@ OutputStreamData
 {
 public
 :
-OutputStreamData
-(
-)
-;
 ~
 OutputStreamData
 (

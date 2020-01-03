@@ -162,11 +162,7 @@ mFallbackToStateMachine
 &
 &
 !
-OutputStreams
-(
-)
-.
-Length
+GetDecodedStream
 (
 )
 &
