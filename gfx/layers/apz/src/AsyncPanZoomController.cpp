@@ -8466,6 +8466,14 @@ if
 IsPannable
 (
 )
+&
+&
+gfxPrefs
+:
+:
+APZOverscrollEnabled
+(
+)
 )
 {
 StartOverscrollAnimation
