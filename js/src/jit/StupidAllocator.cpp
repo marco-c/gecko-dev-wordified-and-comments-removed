@@ -1050,11 +1050,6 @@ input
 getInputMoveGroup
 (
 ins
--
->
-id
-(
-)
 )
 ;
 LAllocation
@@ -1253,11 +1248,6 @@ input
 getInputMoveGroup
 (
 ins
--
->
-id
-(
-)
 )
 ;
 LAllocation
@@ -1737,11 +1727,6 @@ input
 getInputMoveGroup
 (
 ins
--
->
-id
-(
-)
 )
 ;
 if
