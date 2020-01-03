@@ -246,7 +246,9 @@ gecko
 tabContentStart
 =
 "
-72dp
+dimen
+/
+tab_strip_content_start
 "
 /
 >
