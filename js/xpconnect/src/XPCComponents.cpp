@@ -11090,6 +11090,9 @@ nsXPCComponents_Utils
 :
 ForceCC
 (
+nsICycleCollectorListener
+*
+listener
 )
 {
 nsJSContext
@@ -11097,6 +11100,7 @@ nsJSContext
 :
 CycleCollectNow
 (
+listener
 )
 ;
 return
