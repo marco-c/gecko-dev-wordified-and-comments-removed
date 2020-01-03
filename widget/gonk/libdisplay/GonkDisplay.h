@@ -211,6 +211,14 @@ nullptr
 =
 0
 ;
+virtual
+void
+NotifyBootAnimationStopped
+(
+)
+=
+0
+;
 float
 xdpi
 ;

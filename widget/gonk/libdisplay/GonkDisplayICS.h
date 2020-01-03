@@ -170,6 +170,13 @@ aProducer
 nullptr
 )
 ;
+virtual
+void
+NotifyBootAnimationStopped
+(
+)
+{
+}
 private
 :
 hw_module_t

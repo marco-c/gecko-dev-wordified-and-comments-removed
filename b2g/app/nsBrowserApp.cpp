@@ -160,7 +160,7 @@ MOZ_WIDGET_GONK
 #
 include
 "
-GonkDisplay
+BootAnimation
 .
 h
 "
@@ -747,13 +747,10 @@ argc
 #
 ifdef
 MOZ_WIDGET_GONK
-(
-void
-)
 mozilla
 :
 :
-GetGonkDisplay
+StartBootAnimation
 (
 )
 ;
