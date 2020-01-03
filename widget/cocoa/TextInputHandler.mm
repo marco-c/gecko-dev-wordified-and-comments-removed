@@ -17900,7 +17900,7 @@ compEnd
 ;
 compEnd
 .
-data
+mData
 =
 mLastDispatchedCompositionString
 ;
@@ -18529,7 +18529,7 @@ compEnd
 ;
 compEnd
 .
-data
+mData
 =
 mLastDispatchedCompositionString
 ;

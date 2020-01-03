@@ -9103,7 +9103,7 @@ mWidget
 ;
 compositionEnd
 .
-data
+mData
 =
 textEvent
 .

@@ -4386,7 +4386,7 @@ compEvent
 ;
 compEvent
 .
-data
+mData
 =
 mDispatchedCompositionString
 ;

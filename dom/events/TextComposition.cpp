@@ -314,7 +314,7 @@ timeStamp
 ;
 compositionUpdate
 .
-data
+mData
 =
 aEvent
 -
@@ -343,7 +343,7 @@ mLastData
 =
 compositionUpdate
 .
-data
+mData
 ;
 EventDispatcher
 :
@@ -531,7 +531,7 @@ AsCompositionEvent
 )
 -
 >
-data
+mData
 ;
 break
 ;
@@ -1219,7 +1219,7 @@ widget
 ;
 endEvent
 .
-data
+mData
 =
 commitData
 ;
@@ -1742,7 +1742,7 @@ text
 ;
 compStart
 .
-data
+mData
 =
 selectedText
 .
@@ -1795,7 +1795,7 @@ widget
 ;
 compEvent
 .
-data
+mData
 =
 mData
 ;

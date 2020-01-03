@@ -5573,7 +5573,7 @@ point
 ;
 event
 .
-data
+mData
 =
 mLastDispatchedCompositionString
 ;

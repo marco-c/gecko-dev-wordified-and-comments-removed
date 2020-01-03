@@ -125,7 +125,7 @@ AsCompositionEvent
 )
 -
 >
-data
+mData
 ;
 }
 NS_IMPL_ADDREF_INHERITED
