@@ -2890,9 +2890,6 @@ bool
 mDispatchedEventToDecode
 ;
 bool
-mStopAudioThread
-;
-bool
 mQuickBuffering
 ;
 bool
