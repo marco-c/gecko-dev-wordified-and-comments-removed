@@ -185,6 +185,15 @@ green
 png
 '
 '
+no
+-
+frame
+-
+delay
+.
+gif
+'
+'
 rle4
 .
 bmp
