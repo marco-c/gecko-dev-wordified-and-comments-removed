@@ -141,6 +141,8 @@ IntSize
 aSize
 SurfaceFormat
 aFormat
+bool
+aZero
 )
 {
 mFormat
@@ -228,6 +230,7 @@ mArray
 Realloc
 (
 bufLen
+aZero
 )
 ;
 mSize
@@ -273,6 +276,8 @@ SurfaceFormat
 aFormat
 int32_t
 aStride
+bool
+aZero
 )
 {
 mFormat
@@ -347,6 +352,7 @@ mArray
 Realloc
 (
 bufLen
+aZero
 )
 ;
 mSize

@@ -1235,6 +1235,7 @@ SurfaceFormat
 :
 :
 B8G8R8A8
+true
 )
 ;
 if

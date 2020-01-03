@@ -2899,6 +2899,10 @@ IntSize
 aSize
 SurfaceFormat
 aFormat
+bool
+aZero
+=
+false
 )
 ;
 static
@@ -2916,6 +2920,10 @@ SurfaceFormat
 aFormat
 int32_t
 aStride
+bool
+aZero
+=
+false
 )
 ;
 static

@@ -3110,6 +3110,8 @@ IntSize
 aSize
 SurfaceFormat
 aFormat
+bool
+aZero
 )
 {
 if
@@ -3158,6 +3160,7 @@ Init
 (
 aSize
 aFormat
+aZero
 )
 )
 {
@@ -3202,6 +3205,8 @@ SurfaceFormat
 aFormat
 int32_t
 aStride
+bool
+aZero
 )
 {
 if
@@ -3256,6 +3261,7 @@ InitWithStride
 aSize
 aFormat
 aStride
+aZero
 )
 )
 {

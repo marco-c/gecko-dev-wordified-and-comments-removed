@@ -1654,6 +1654,7 @@ B8G8R8A8
 aSize
 .
 width
+true
 )
 ;
 if
@@ -1669,11 +1670,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-ClearDataSourceSurface
-(
-emptyCanvas
-)
-;
 DataSourceSurface
 :
 :
