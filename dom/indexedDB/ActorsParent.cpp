@@ -3790,6 +3790,7 @@ Key
 keyBuffer
 )
 )
+fallible
 )
 )
 )
@@ -12647,6 +12648,7 @@ indexId
 unique
 value
 )
+fallible
 )
 )
 ;
@@ -70450,6 +70452,7 @@ indexId
 unique
 key
 )
+fallible
 )
 )
 ;
@@ -90439,6 +90442,7 @@ value
 (
 )
 )
+fallible
 )
 )
 ;
@@ -90599,6 +90603,7 @@ value
 (
 )
 )
+fallible
 )
 )
 ;

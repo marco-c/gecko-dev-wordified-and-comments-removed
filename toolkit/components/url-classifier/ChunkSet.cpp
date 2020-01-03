@@ -216,6 +216,7 @@ mChunks
 InsertElementSorted
 (
 aChunk
+fallible
 )
 )
 {
