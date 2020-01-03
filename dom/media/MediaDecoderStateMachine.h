@@ -2100,6 +2100,15 @@ double
 >
 mExplicitDuration
 ;
+Watchable
+<
+media
+:
+:
+TimeUnit
+>
+mObservedDuration
+;
 Mirror
 <
 MediaDecoder
