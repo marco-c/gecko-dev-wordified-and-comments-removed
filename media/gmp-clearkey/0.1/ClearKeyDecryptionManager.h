@@ -119,6 +119,7 @@ uint8_t
 aBuffer
 uint32_t
 aBufferSize
+const
 GMPEncryptedBufferMetadata
 *
 aMetadata

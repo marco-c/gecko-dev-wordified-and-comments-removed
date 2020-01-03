@@ -1,7 +1,4 @@
 #
-ifdef
-TEST_DECODING
-#
 if
 !
 defined
@@ -11,6 +8,16 @@ WMFH264Decoder_h_
 #
 define
 WMFH264Decoder_h_
+#
+include
+"
+WMFUtils
+.
+h
+"
+namespace
+wmf
+{
 class
 WMFH264Decoder
 {
@@ -182,7 +189,6 @@ mStride
 ;
 }
 ;
-#
-endif
+}
 #
 endif

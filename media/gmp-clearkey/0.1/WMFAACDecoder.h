@@ -1,7 +1,4 @@
 #
-ifdef
-TEST_DECODING
-#
 if
 !
 defined
@@ -11,6 +8,16 @@ WMFAACDecoder_h_
 #
 define
 WMFAACDecoder_h_
+#
+include
+"
+WMFUtils
+.
+h
+"
+namespace
+wmf
+{
 class
 WMFAACDecoder
 {
@@ -176,7 +183,6 @@ mRate
 ;
 }
 ;
-#
-endif
+}
 #
 endif
