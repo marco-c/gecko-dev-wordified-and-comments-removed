@@ -24760,7 +24760,11 @@ notification
 .
 options
 .
-origin
+displayURI
+instanceof
+Ci
+.
+nsIStandardURL
 )
 {
 let
@@ -24796,7 +24800,9 @@ notification
 .
 options
 .
-origin
+displayURI
+.
+prePath
 =
 =
 fxAOrigin
