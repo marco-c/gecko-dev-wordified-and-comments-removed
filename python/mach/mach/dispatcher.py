@@ -1182,6 +1182,14 @@ subparser
 handler
 .
 parser
+            
+subparser
+.
+context
+=
+self
+.
+_context
         
 else
 :
@@ -1985,6 +1993,14 @@ c_parser
 handler
 .
 parser
+            
+c_parser
+.
+context
+=
+self
+.
+_context
             
 c_parser
 .
