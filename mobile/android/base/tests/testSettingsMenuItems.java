@@ -377,7 +377,12 @@ OPTIONS_PRIVACY
 {
 StringHelper
 .
-TRACKING_LABEL
+TRACKING_PROTECTION_LABEL
+}
+{
+StringHelper
+.
+DNT_LABEL
 }
 {
 StringHelper
