@@ -214,20 +214,21 @@ vcs_tool
 )
                 
 if
-file_path
-is
-None
-:
-                    
-file_path
-=
+type
+(
 self
 .
 query_exe
 (
 vcs_tool
 )
+)
+is
+list
+:
                     
+continue
+                
 if
 not
 self
@@ -237,7 +238,7 @@ is_exe
 file_path
 )
 :
-                        
+                    
 self
 .
 critical
@@ -253,6 +254,12 @@ executable
 %
 file_path
 )
+                
+if
+file_path
+is
+None
+:
                     
 self
 .

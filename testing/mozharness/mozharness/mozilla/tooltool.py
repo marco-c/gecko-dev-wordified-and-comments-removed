@@ -217,7 +217,8 @@ self
 config
 :
             
-return
+fn
+=
 self
 .
 config
@@ -227,7 +228,7 @@ tooltool_authentication_file
 '
 ]
         
-if
+elif
 self
 .
 _is_windows
@@ -235,7 +236,8 @@ _is_windows
 )
 :
             
-return
+fn
+=
 r
 '
 c
@@ -251,7 +253,8 @@ tok
 else
 :
             
-return
+fn
+=
 '
 /
 builds
@@ -260,6 +263,20 @@ relengapi
 .
 tok
 '
+        
+if
+os
+.
+path
+.
+exists
+(
+fn
+)
+:
+            
+return
+fn
     
 def
 tooltool_fetch

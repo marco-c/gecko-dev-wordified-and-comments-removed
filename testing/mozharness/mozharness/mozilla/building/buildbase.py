@@ -7444,7 +7444,8 @@ self
 config
 :
             
-return
+fn
+=
 self
 .
 config
@@ -7454,7 +7455,7 @@ tooltool_authentication_file
 '
 ]
         
-if
+elif
 self
 .
 _is_windows
@@ -7462,7 +7463,8 @@ _is_windows
 )
 :
             
-return
+fn
+=
 r
 '
 c
@@ -7478,7 +7480,8 @@ tok
 else
 :
             
-return
+fn
+=
 '
 /
 builds
@@ -7487,6 +7490,20 @@ relengapi
 .
 tok
 '
+        
+if
+os
+.
+path
+.
+exists
+(
+fn
+)
+:
+            
+return
+fn
     
 def
 _run_tooltool
@@ -7646,6 +7663,18 @@ tooltool_script
 ]
 )
         
+auth_file
+=
+self
+.
+_get_tooltool_auth_file
+(
+)
+        
+if
+auth_file
+:
+            
 cmd
 .
 extend
@@ -7658,11 +7687,7 @@ authentication
 -
 file
 '
-self
-.
-_get_tooltool_auth_file
-(
-)
+auth_file
 ]
 )
         

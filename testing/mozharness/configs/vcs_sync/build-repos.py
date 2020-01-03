@@ -545,10 +545,15 @@ default_notify_from
 developer
 -
 services
++
+%
+s
 mozilla
 .
 org
 "
+%
+hostname
     
 "
 notify_config
