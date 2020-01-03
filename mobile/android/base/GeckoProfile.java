@@ -944,6 +944,7 @@ return
 success
 ;
 }
+RobocopTarget
 public
 static
 GeckoProfile
