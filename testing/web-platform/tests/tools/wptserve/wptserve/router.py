@@ -961,8 +961,13 @@ types
 StringTypes
 or
 methods
-is
+in
+(
 any_method
+"
+*
+"
+)
 :
             
 methods
@@ -1094,8 +1099,13 @@ method
 or
                 
 method
-is
+in
+(
 any_method
+"
+*
+"
+)
 or
                 
 (

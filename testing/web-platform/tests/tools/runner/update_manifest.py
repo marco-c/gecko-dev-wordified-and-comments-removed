@@ -88,6 +88,7 @@ manifest
 .
 load
 (
+root
 path
 )
     

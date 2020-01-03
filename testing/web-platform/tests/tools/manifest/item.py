@@ -184,6 +184,26 @@ source_file
 .
 rel_path
     
+property
+    
+def
+https
+(
+self
+)
+:
+        
+return
+"
+https
+"
+in
+self
+.
+source_file
+.
+meta_flags
+    
 def
 key
 (
