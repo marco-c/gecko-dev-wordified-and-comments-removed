@@ -97,9 +97,6 @@ class
 BluetoothDiscoveryHandle
 ;
 class
-BluetoothGattServer
-;
-class
 BluetoothNamedValue
 ;
 class
@@ -196,12 +193,6 @@ return
 mPairingReqs
 ;
 }
-BluetoothGattServer
-*
-GetGattServer
-(
-)
-;
 IMPL_EVENT_HANDLER
 (
 attributechanged
@@ -871,12 +862,6 @@ mDiscoverable
 ;
 bool
 mDiscovering
-;
-nsRefPtr
-<
-BluetoothGattServer
->
-mGattServer
 ;
 nsRefPtr
 <

@@ -327,13 +327,6 @@ cpp
 '
 bluetooth2
 /
-BluetoothGattServer
-.
-cpp
-'
-'
-bluetooth2
-/
 BluetoothGattService
 .
 cpp
@@ -1095,13 +1088,6 @@ h
 bluetooth2
 /
 BluetoothGattDescriptor
-.
-h
-'
-'
-bluetooth2
-/
-BluetoothGattServer
 .
 h
 '
