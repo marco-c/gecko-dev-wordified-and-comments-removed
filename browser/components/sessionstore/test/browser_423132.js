@@ -130,12 +130,6 @@ callee
 false
 )
 ;
-executeSoon
-(
-function
-(
-)
-{
 newWin
 .
 gBrowser
@@ -391,9 +385,6 @@ finish
 }
 true
 testURL
-)
-;
-}
 )
 ;
 }
