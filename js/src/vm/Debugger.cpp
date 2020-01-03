@@ -22151,9 +22151,6 @@ found
 if
 (
 !
-js
-:
-:
 HasOwnProperty
 (
 cx
