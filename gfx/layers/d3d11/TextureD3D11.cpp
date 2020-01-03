@@ -792,11 +792,11 @@ MakeUnique
 <
 TKeepAlive
 <
-ID3D10Texture2D
+ID3D11Texture2D
 >
 >
 (
-mTexture10
+mTexture
 )
 )
 ;
@@ -813,11 +813,11 @@ MakeUnique
 <
 TKeepAlive
 <
-ID3D11Texture2D
+ID3D10Texture2D
 >
 >
 (
-mTexture
+mTexture10
 )
 )
 ;
