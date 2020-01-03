@@ -176,6 +176,10 @@ getElementById
 (
 "
 loop
+-
+panel
+-
+iframe
 "
 )
 .
@@ -2126,6 +2130,10 @@ getElementById
 (
 "
 loop
+-
+panel
+-
+iframe
 "
 )
 .
