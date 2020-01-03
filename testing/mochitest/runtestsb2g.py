@@ -757,6 +757,18 @@ options
         
 self
 .
+logPreamble
+(
+self
+.
+getActiveTests
+(
+options
+)
+)
+        
+self
+.
 message_logger
 .
 buffering
