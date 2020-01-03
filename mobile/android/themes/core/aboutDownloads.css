@@ -118,7 +118,7 @@ inline
 ;
 }
 .
-displayState
+state
 {
 color
 :
@@ -172,7 +172,7 @@ list
 empty
 +
 #
-normal
+public
 -
 downloads
 -
