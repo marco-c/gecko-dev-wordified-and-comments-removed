@@ -374,7 +374,7 @@ aRv
 ;
 already_AddRefed
 <
-DOMRequest
+Promise
 >
 GetSmscAddress
 (

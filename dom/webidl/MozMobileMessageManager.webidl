@@ -1144,7 +1144,10 @@ message
 [
 Throws
 ]
-DOMRequest
+Promise
+<
+SmscAddress
+>
 getSmscAddress
 (
 optional
