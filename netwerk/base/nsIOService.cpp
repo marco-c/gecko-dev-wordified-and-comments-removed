@@ -5674,6 +5674,16 @@ NS_ERROR_NOT_AVAILABLE
 if
 (
 !
+mManageOfflineStatus
+)
+{
+return
+NS_OK
+;
+}
+if
+(
+!
 strcmp
 (
 data
