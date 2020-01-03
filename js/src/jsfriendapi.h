@@ -2942,9 +2942,6 @@ unsigned
 nargs
 unsigned
 flags
-JSObject
-*
-parent
 const
 char
 *

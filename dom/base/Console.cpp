@@ -5686,7 +5686,6 @@ cx
 LazyStackGetter
 0
 0
-eventObj
 "
 stacktrace
 "

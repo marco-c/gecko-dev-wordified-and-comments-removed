@@ -257,10 +257,6 @@ NativePromiseCallback
 ;
 friend
 class
-PromiseCallbackTask
-;
-friend
-class
 PromiseResolverTask
 ;
 friend
@@ -1223,9 +1219,6 @@ CreateFunction
 JSContext
 *
 aCx
-JSObject
-*
-aParent
 Promise
 *
 aPromise
