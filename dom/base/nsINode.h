@@ -2508,6 +2508,7 @@ mChildNodes
 ;
 nsNodeWeakReference
 *
+MOZ_NON_OWNING_REF
 mWeakReference
 ;
 }
