@@ -62,9 +62,10 @@ true
 "
 CallTreeView
 rendered
-on
+after
 recording
-completed
+is
+stopped
 .
 "
 )
