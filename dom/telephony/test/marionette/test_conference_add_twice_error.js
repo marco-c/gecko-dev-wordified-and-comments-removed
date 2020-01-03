@@ -210,7 +210,7 @@ outInfo
 active
 inInfo
 .
-incoming
+waiting
 ]
 )
 )

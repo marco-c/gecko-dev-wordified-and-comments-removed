@@ -256,7 +256,7 @@ inInfo
 active
 inInfo2
 .
-incoming
+waiting
 ]
 )
 )
