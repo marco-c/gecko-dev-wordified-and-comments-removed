@@ -375,14 +375,6 @@ UINT32_MAX
 NS_ERROR_FILE_TOO_BIG
 )
 ;
-tracker
--
->
-SyncNotifyProgress
-(
-FLAG_REQUEST_STARTED
-)
-;
 rv
 =
 image

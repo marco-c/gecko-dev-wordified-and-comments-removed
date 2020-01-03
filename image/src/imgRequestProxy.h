@@ -485,11 +485,6 @@ OnImageIsAnimated
 )
 ;
 void
-OnStartRequest
-(
-)
-;
-void
 OnStopRequest
 (
 bool
