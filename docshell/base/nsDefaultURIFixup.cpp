@@ -425,14 +425,10 @@ EmptyCString
 )
 ;
 }
-*
-aReturn
-=
 uri
-;
-NS_ADDREF
+.
+forget
 (
-*
 aReturn
 )
 ;

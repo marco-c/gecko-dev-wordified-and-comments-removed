@@ -1946,14 +1946,10 @@ cnt
 aIndex
 )
 {
-*
-aResult
-=
 ptr
-;
-NS_ADDREF
+.
+forget
 (
-*
 aResult
 )
 ;
