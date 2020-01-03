@@ -2649,7 +2649,6 @@ offset
 &
 offset
 <
-=
 region
 .
 endOffset
@@ -2729,6 +2728,7 @@ if
 (
 offset
 >
+=
 region
 .
 endOffset
@@ -3844,7 +3844,7 @@ Header
 u
 %
 u
-]
+)
 "
 start
 -
@@ -3909,7 +3909,7 @@ JitSpew_OptimizationTracking
 6u
 %
 6u
-]
+)
 vector
 %
 3u
@@ -4064,7 +4064,7 @@ JitSpew_OptimizationTracking
 6u
 %
 6u
-]
+)
 delta
 [
 +
@@ -4073,7 +4073,7 @@ delta
 +
 %
 5u
-]
+)
 vector
 %
 3u
