@@ -4697,7 +4697,10 @@ check_for_crash
 (
 )
 :
-           
+            
+try
+:
+                
 self
 .
 marionette
@@ -4721,7 +4724,7 @@ s
 )
 "
 %
-                                          
+                                               
 (
 self
 .
@@ -4745,7 +4748,7 @@ self
 methodName
 )
 )
-        
+                
 self
 .
 marionette
@@ -4753,6 +4756,12 @@ marionette
 test_name
 =
 None
+            
+except
+MarionetteException
+:
+                
+pass
         
 CommonTestCase
 .
