@@ -4401,7 +4401,7 @@ return
 rv
 ;
 }
-size_t
+uint16_t
 length
 ;
 rv
@@ -4429,7 +4429,16 @@ rv
 UnpackPDU
 (
 pdu
+UnpackArray
+<
+uint8_t
+>
+(
 aArg3
+.
+mAdvData
+length
+)
 )
 ;
 if
