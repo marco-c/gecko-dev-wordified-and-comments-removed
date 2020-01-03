@@ -768,7 +768,7 @@ aCx
 if
 (
 !
-JS_LookupProperty
+JS_GetProperty
 (
 aCx
 workerGlobal

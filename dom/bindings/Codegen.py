@@ -53389,20 +53389,8 @@ enumerate
             
 }
             
-JS
-:
-:
-Rooted
-<
-JS
-:
-:
-Value
->
+bool
 dummy
-(
-cx
-)
 ;
             
 for
@@ -53429,7 +53417,7 @@ i
 if
 (
 !
-JS_LookupUCProperty
+JS_HasUCProperty
 (
 cx
 obj

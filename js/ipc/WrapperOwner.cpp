@@ -1709,7 +1709,7 @@ cx
 if
 (
 !
-JS_LookupProperty
+JS_GetProperty
 (
 cx
 callee
