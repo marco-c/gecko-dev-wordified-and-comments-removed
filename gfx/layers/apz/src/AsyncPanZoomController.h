@@ -600,12 +600,12 @@ aEvent
 const
 ;
 bool
-CanScroll
+CanScrollWithWheel
 (
-double
-aDeltaX
-double
-aDeltaY
+const
+LayoutDevicePoint
+&
+aDelta
 )
 const
 ;
