@@ -24232,15 +24232,6 @@ RilObject
 .
 prototype
 [
-REQUEST_GET_CELL_INFO_LIST
-]
-=
-null
-;
-RilObject
-.
-prototype
-[
 REQUEST_SET_UNSOL_CELL_INFO_LIST_RATE
 ]
 =
