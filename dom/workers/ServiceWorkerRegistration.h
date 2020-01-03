@@ -20,6 +20,17 @@ mozilla
 /
 dom
 /
+ServiceWorkerBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ServiceWorkerCommon
 .
 h
