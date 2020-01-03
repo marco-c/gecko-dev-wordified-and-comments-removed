@@ -23,7 +23,9 @@ h
 #
 include
 "
-jsproxy
+proxy
+/
+Proxy
 .
 h
 "

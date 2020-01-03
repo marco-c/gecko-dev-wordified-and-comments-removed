@@ -1670,7 +1670,7 @@ cpp
 '
 proxy
 /
-jsproxy
+Proxy
 .
 cpp
 '
