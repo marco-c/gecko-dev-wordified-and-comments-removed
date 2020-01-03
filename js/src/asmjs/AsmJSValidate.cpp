@@ -26327,7 +26327,7 @@ type
 Type
 :
 :
-Signed
+Fixnum
 ;
 return
 true
