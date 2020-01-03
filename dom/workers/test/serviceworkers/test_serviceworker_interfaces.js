@@ -373,6 +373,9 @@ File
 FileReaderSync
 "
 "
+FormData
+"
+"
 Headers
 "
 "

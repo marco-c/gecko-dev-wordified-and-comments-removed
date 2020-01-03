@@ -127,6 +127,12 @@ optional
 HTMLFormElement
 form
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 FormData
