@@ -113,11 +113,6 @@ TestEncoding
 cpp
 '
 '
-TestExpirationTracker
-.
-cpp
-'
-'
 TestFileUtils
 .
 cpp

@@ -360,6 +360,10 @@ CPP_UNIT_TESTS
 [
 #
 '
+TestExpirationTracker
+'
+#
+'
 TestPipes
 '
 #
