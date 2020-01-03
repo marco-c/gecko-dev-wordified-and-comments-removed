@@ -309,7 +309,7 @@ result
 )
 ;
 bool
-RecvGetPrototypeOf
+RecvGetPrototype
 (
 const
 ObjectId

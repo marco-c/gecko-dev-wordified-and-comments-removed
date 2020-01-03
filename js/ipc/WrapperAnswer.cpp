@@ -3075,7 +3075,7 @@ bool
 WrapperAnswer
 :
 :
-RecvGetPrototypeOf
+RecvGetPrototype
 (
 const
 ObjectId
@@ -3197,7 +3197,7 @@ rs
 LOG
 (
 "
-getPrototypeOf
+getPrototype
 (
 %
 s

@@ -122,7 +122,7 @@ Base
 >
 :
 :
-setPrototypeOf
+setPrototype
 (
 JSContext
 *
@@ -131,9 +131,9 @@ HandleObject
 wrapper
 HandleObject
 proto
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 const
 {

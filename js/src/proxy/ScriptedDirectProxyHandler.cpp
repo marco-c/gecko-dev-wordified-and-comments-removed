@@ -1331,7 +1331,7 @@ bool
 ScriptedDirectProxyHandler
 :
 :
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -1384,7 +1384,7 @@ return
 DirectProxyHandler
 :
 :
-getPrototypeOf
+getPrototype
 (
 cx
 proxy
@@ -1396,7 +1396,7 @@ bool
 ScriptedDirectProxyHandler
 :
 :
-setPrototypeOf
+setPrototype
 (
 JSContext
 *
@@ -1405,9 +1405,9 @@ HandleObject
 proxy
 HandleObject
 proto
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -1452,12 +1452,12 @@ return
 DirectProxyHandler
 :
 :
-setPrototypeOf
+setPrototype
 (
 cx
 proxy
 proto
-bp
+result
 )
 ;
 }

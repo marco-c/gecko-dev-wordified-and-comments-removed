@@ -966,7 +966,7 @@ Policy
 >
 :
 :
-getPrototypeOf
+getPrototype
 (
 JSContext
 *

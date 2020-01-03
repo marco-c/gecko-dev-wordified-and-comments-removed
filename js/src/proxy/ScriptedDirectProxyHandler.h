@@ -130,7 +130,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -145,7 +145,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-setPrototypeOf
+setPrototype
 (
 JSContext
 *
@@ -154,9 +154,9 @@ HandleObject
 proxy
 HandleObject
 proto
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE

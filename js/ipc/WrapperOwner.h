@@ -463,7 +463,7 @@ proxy
 )
 ;
 bool
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -1046,7 +1046,7 @@ result
 ;
 virtual
 bool
-SendGetPrototypeOf
+SendGetPrototype
 (
 const
 ObjectId

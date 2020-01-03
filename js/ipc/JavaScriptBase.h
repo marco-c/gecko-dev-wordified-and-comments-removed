@@ -652,7 +652,7 @@ result
 ;
 }
 bool
-RecvGetPrototypeOf
+RecvGetPrototype
 (
 const
 uint64_t
@@ -670,7 +670,7 @@ return
 Answer
 :
 :
-RecvGetPrototypeOf
+RecvGetPrototype
 (
 ObjectId
 :
@@ -1396,7 +1396,7 @@ result
 ;
 }
 bool
-SendGetPrototypeOf
+SendGetPrototype
 (
 const
 ObjectId
@@ -1414,7 +1414,7 @@ return
 Base
 :
 :
-SendGetPrototypeOf
+SendGetPrototype
 (
 objId
 .

@@ -357,7 +357,7 @@ bool
 CrossCompartmentWrapper
 :
 :
-getPrototypeOf
+getPrototype
 (
 JSContext
 *
@@ -433,7 +433,7 @@ bool
 CrossCompartmentWrapper
 :
 :
-setPrototypeOf
+setPrototype
 (
 JSContext
 *
@@ -442,9 +442,9 @@ HandleObject
 wrapper
 HandleObject
 proto
-bool
-*
-bp
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -476,12 +476,12 @@ protoCopy
 Wrapper
 :
 :
-setPrototypeOf
+setPrototype
 (
 cx
 wrapper
 protoCopy
-bp
+result
 )
 NOTHING
 )
