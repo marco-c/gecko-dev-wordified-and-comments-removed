@@ -774,9 +774,6 @@ false
 )
 const
 ;
-#
-ifdef
-DEBUG
 bool
 IsRestrictedSelector
 (
@@ -795,8 +792,6 @@ nsCSSPseudoElements
 ePseudo_NotPseudoElement
 ;
 }
-#
-endif
 private
 :
 void
