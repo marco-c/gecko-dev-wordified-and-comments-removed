@@ -379,6 +379,9 @@ patchableTLScripts_
 ;
 #
 endif
+NonAssertingLabel
+returnLabel_
+;
 public
 :
 struct
@@ -1861,6 +1864,16 @@ maxLog
 ;
 protected
 :
+bool
+generatePrologue
+(
+)
+;
+bool
+generateEpilogue
+(
+)
+;
 void
 addOutOfLineCode
 (

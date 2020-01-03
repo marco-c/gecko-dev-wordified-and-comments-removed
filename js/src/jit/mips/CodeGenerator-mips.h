@@ -65,9 +65,6 @@ this
 protected
 :
 NonAssertingLabel
-returnLabel_
-;
-NonAssertingLabel
 deoptLabel_
 ;
 inline
@@ -419,16 +416,6 @@ snapshot
 ;
 protected
 :
-bool
-generatePrologue
-(
-)
-;
-bool
-generateEpilogue
-(
-)
-;
 bool
 generateOutOfLineCode
 (

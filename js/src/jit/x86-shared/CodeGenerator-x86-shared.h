@@ -389,9 +389,6 @@ ptr
 )
 ;
 NonAssertingLabel
-returnLabel_
-;
-NonAssertingLabel
 deoptLabel_
 ;
 MoveOperand
@@ -711,16 +708,6 @@ snapshot
 }
 protected
 :
-bool
-generatePrologue
-(
-)
-;
-bool
-generateEpilogue
-(
-)
-;
 bool
 generateOutOfLineCode
 (
