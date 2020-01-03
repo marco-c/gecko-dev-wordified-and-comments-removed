@@ -53,6 +53,12 @@ aBuffer
 =
 0
 ;
+protected
+:
+DataSocket
+(
+)
+;
 }
 ;
 class
