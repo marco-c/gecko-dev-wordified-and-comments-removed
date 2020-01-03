@@ -1171,7 +1171,10 @@ newCapacity
 =
 CAPACITYOF_IMPL
 (
-1u
+size_t
+(
+1
+)
 <
 <
 newSize
