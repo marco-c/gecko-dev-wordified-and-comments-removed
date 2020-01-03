@@ -71,7 +71,7 @@ talos_revision
 "
 :
 "
-deac3ce69268
+67dbdddb880f
 "
 }
 "
@@ -773,6 +773,9 @@ tests
 "
 damp
 "
+"
+tps
+"
 ]
 "
 pagesets_url
@@ -841,6 +844,9 @@ tests
 [
 "
 damp
+"
+"
+tps
 "
 ]
 "
@@ -923,6 +929,9 @@ tests
 [
 "
 damp
+"
+"
+tps
 "
 ]
 "
