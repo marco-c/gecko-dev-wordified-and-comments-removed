@@ -417,11 +417,6 @@ EnsureDecodersSetup
 (
 )
 ;
-bool
-CheckIfDecoderSetup
-(
-)
-;
 void
 Update
 (
