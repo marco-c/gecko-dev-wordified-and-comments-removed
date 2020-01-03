@@ -3521,6 +3521,14 @@ mainthreadio
 memory
 "
 #
+ifdef
+MOZ_TASK_TRACER
+"
+tasktracer
+"
+#
+endif
+#
 if
 defined
 (
