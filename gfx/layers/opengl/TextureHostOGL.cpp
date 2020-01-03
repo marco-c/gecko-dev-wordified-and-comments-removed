@@ -145,7 +145,7 @@ h
 #
 include
 "
-nsSurfaceTexture
+AndroidSurfaceTexture
 .
 h
 "
@@ -326,7 +326,7 @@ SurfaceTextureHost
 (
 aFlags
 (
-nsSurfaceTexture
+AndroidSurfaceTexture
 *
 )
 desc
@@ -2533,7 +2533,7 @@ SurfaceTextureSource
 CompositorOGL
 *
 aCompositor
-nsSurfaceTexture
+AndroidSurfaceTexture
 *
 aSurfTex
 gfx
@@ -2786,7 +2786,7 @@ SurfaceTextureHost
 (
 TextureFlags
 aFlags
-nsSurfaceTexture
+AndroidSurfaceTexture
 *
 aSurfTex
 gfx

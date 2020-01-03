@@ -74,7 +74,7 @@ h
 #
 include
 "
-nsSurfaceTexture
+AndroidSurfaceTexture
 .
 h
 "
@@ -289,7 +289,10 @@ SurfaceTextureClient
 (
 TextureFlags
 aFlags
-nsSurfaceTexture
+gl
+:
+:
+AndroidSurfaceTexture
 *
 aSurfTex
 gfx
@@ -450,9 +453,12 @@ false
 protected
 :
 const
-nsRefPtr
+RefPtr
 <
-nsSurfaceTexture
+gl
+:
+:
+AndroidSurfaceTexture
 >
 mSurfTex
 ;
