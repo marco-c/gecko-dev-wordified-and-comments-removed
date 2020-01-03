@@ -2098,6 +2098,9 @@ mixins
 sharedMixins
 .
 AudioMixin
+sharedMixins
+.
+DocumentTitleMixin
 ]
 propTypes
 :
@@ -2134,10 +2137,10 @@ function
 (
 )
 {
-document
+this
 .
-title
-=
+setTitle
+(
 mozL10n
 .
 get
@@ -2145,6 +2148,7 @@ get
 "
 generic_failure_title
 "
+)
 )
 ;
 return
