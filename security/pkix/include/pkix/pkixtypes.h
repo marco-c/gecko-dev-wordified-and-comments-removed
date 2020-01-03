@@ -85,6 +85,9 @@ dsa_with_sha256
 dsa_with_sha1
 =
 18
+unsupported_algorithm
+=
+19
 }
 ;
 struct
