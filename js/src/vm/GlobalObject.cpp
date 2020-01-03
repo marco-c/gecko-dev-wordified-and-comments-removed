@@ -648,9 +648,7 @@ clasp
 >
 spec
 .
-createPrototypeHook
-(
-)
+createPrototype
 )
 {
 proto
@@ -660,9 +658,7 @@ clasp
 >
 spec
 .
-createPrototypeHook
-(
-)
+createPrototype
 (
 cx
 key
@@ -699,9 +695,7 @@ clasp
 >
 spec
 .
-createConstructorHook
-(
-)
+createConstructor
 (
 cx
 key
@@ -811,8 +805,6 @@ clasp
 spec
 .
 prototypeFunctions
-(
-)
 )
 {
 if
@@ -843,8 +835,6 @@ clasp
 spec
 .
 prototypeProperties
-(
-)
 )
 {
 if
@@ -874,8 +864,6 @@ clasp
 spec
 .
 constructorFunctions
-(
-)
 )
 {
 if
@@ -906,8 +894,6 @@ clasp
 spec
 .
 constructorProperties
-(
-)
 )
 {
 if
@@ -948,9 +934,7 @@ clasp
 >
 spec
 .
-finishInitHook
-(
-)
+finishInit
 &
 &
 !
@@ -959,9 +943,7 @@ clasp
 >
 spec
 .
-finishInitHook
-(
-)
+finishInit
 (
 cx
 ctor
@@ -1804,9 +1786,7 @@ clasp
 >
 spec
 .
-createPrototypeHook
-(
-)
+createPrototype
 (
 cx
 protoKey
@@ -1829,9 +1809,7 @@ clasp
 >
 spec
 .
-createConstructorHook
-(
-)
+createConstructor
 (
 cx
 protoKey
