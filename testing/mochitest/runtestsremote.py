@@ -3512,6 +3512,25 @@ default_timeout
 =
 320
         
+if
+isinstance
+(
+options
+.
+manifestFile
+TestManifest
+)
+:
+            
+mp
+=
+options
+.
+manifestFile
+        
+else
+:
+            
 mp
 =
 TestManifest
@@ -3520,7 +3539,7 @@ strict
 =
 False
 )
-        
+            
 mp
 .
 read
@@ -3945,6 +3964,17 @@ test
 '
 name
 '
+]
+.
+split
+(
+'
+.
+java
+'
+)
+[
+0
 ]
 )
             
