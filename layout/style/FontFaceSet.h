@@ -303,9 +303,9 @@ FontFaceSet
 nsPIDOMWindow
 *
 aWindow
-nsPresContext
+nsIDocument
 *
-aPresContext
+aDocument
 )
 ;
 virtual
@@ -368,11 +368,7 @@ nsPresContext
 GetPresContext
 (
 )
-{
-return
-mPresContext
 ;
-}
 nsCSSFontFaceRule
 *
 FindRuleForEntry
@@ -459,6 +455,11 @@ GetFontFaceAt
 (
 uint32_t
 aIndex
+)
+;
+void
+FlushUserFontSet
+(
 )
 ;
 IMPL_EVENT_HANDLER
@@ -816,7 +817,7 @@ aStatus
 )
 ;
 void
-DoRebuildUserFontSet
+RebuildUserFontSet
 (
 )
 ;
@@ -878,10 +879,6 @@ nsRefPtr
 UserFontSet
 >
 mUserFontSet
-;
-nsPresContext
-*
-mPresContext
 ;
 nsCOMPtr
 <
