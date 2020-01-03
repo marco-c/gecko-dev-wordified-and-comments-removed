@@ -741,16 +741,6 @@ JSCLASS_BACKGROUND_FINALIZE
 )
 ;
 }
-inline
-JSGCTraceKind
-GetGCThingTraceKind
-(
-const
-void
-*
-thing
-)
-;
 #
 ifdef
 _MSC_VER
