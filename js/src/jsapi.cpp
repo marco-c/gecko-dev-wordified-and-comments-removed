@@ -10988,7 +10988,7 @@ setter
 Value
 value
 =
-UINT_TO_JSVAL
+NumberValue
 (
 valueArg
 )
@@ -11513,7 +11513,7 @@ setter
 Value
 value
 =
-UINT_TO_JSVAL
+NumberValue
 (
 valueArg
 )
@@ -12257,7 +12257,7 @@ setter
 Value
 value
 =
-UINT_TO_JSVAL
+NumberValue
 (
 valueArg
 )
@@ -12683,7 +12683,7 @@ setter
 Value
 value
 =
-UINT_TO_JSVAL
+NumberValue
 (
 valueArg
 )
