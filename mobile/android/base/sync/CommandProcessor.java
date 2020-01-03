@@ -1279,7 +1279,7 @@ R
 .
 drawable
 .
-icon
+flat_icon
 ;
 String
 notificationTitle
