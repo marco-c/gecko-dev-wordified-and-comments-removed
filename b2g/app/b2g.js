@@ -6599,7 +6599,7 @@ fling_curve_function_x2
 "
 0
 .
-76
+80
 "
 )
 ;
@@ -6641,7 +6641,7 @@ fling_friction
 "
 0
 .
-0024
+00238
 "
 )
 ;
