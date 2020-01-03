@@ -379,6 +379,8 @@ GenerateCode
 JSContext
 *
 cx
+bool
+match_only
 )
 {
 if
@@ -678,6 +680,11 @@ inputOutputAddress
 temp0
 )
 ;
+if
+(
+!
+match_only
+)
 {
 Register
 matchPairsRegister
@@ -1229,6 +1236,11 @@ bind
 success_label_
 )
 ;
+if
+(
+!
+match_only
+)
 {
 Register
 outputRegisters

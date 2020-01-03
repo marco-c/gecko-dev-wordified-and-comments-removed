@@ -478,14 +478,10 @@ i
 ;
 i
 <
-matches
--
->
-length
 (
+size_t
 )
-*
-2
+numRegisters
 ;
 i
 +
@@ -848,6 +844,10 @@ RegExpRunStatus_Success_NotFound
 BYTECODE
 (
 SUCCEED
+)
+if
+(
+matches
 )
 memcpy
 (

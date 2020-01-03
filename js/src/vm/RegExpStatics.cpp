@@ -373,11 +373,8 @@ execute
 (
 cx
 input
-&
-this
--
->
 lazyIndex
+&
 this
 -
 >

@@ -179,12 +179,10 @@ bool
 is_global
 bool
 ignore_case
-=
-false
 bool
 is_ascii
-=
-false
+bool
+match_only
 )
 ;
 template
