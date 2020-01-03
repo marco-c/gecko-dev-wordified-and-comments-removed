@@ -339,7 +339,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

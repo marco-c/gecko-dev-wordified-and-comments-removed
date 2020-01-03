@@ -2461,7 +2461,7 @@ error
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -2538,7 +2538,7 @@ error
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -2573,7 +2573,7 @@ error
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -2752,7 +2752,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

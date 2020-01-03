@@ -1557,7 +1557,7 @@ aAllowEval
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

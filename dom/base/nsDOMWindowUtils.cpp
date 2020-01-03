@@ -16194,7 +16194,7 @@ text
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

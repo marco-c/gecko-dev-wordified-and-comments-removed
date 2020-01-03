@@ -414,7 +414,7 @@ Failed
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -492,7 +492,7 @@ Failed
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -983,7 +983,7 @@ Failed
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

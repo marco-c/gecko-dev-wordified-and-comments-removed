@@ -1758,7 +1758,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -1860,7 +1860,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -1886,7 +1886,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -1936,7 +1936,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -2041,7 +2041,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -2223,7 +2223,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -2281,7 +2281,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -2341,7 +2341,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -2423,7 +2423,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -2491,12 +2491,11 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
 }
-\
 NS_IMETHOD
 InsertAdjacentHTML
 (
@@ -2744,7 +2743,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -2770,7 +2769,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -2859,7 +2858,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -5369,7 +5368,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -5489,7 +5488,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

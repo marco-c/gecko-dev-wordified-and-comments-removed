@@ -1235,7 +1235,7 @@ Failed
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -1267,7 +1267,7 @@ text
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

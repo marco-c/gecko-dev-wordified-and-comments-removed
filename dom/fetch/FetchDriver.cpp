@@ -1126,7 +1126,7 @@ FailWithNetworkError
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -1185,7 +1185,7 @@ FailWithNetworkError
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -1245,7 +1245,7 @@ FailWithNetworkError
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

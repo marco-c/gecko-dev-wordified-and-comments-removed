@@ -2998,7 +2998,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -4947,7 +4947,7 @@ take
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -6198,7 +6198,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -17100,7 +17100,7 @@ Failed
 return
 domRv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -18527,7 +18527,7 @@ take
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

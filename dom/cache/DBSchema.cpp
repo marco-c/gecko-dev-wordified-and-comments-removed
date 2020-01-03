@@ -5818,7 +5818,7 @@ Failed
 return
 errorResult
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

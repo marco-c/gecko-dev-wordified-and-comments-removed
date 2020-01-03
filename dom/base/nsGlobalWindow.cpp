@@ -15839,7 +15839,7 @@ aWindow
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -15921,7 +15921,7 @@ aNavigator
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -16022,7 +16022,7 @@ aScreen
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -16104,7 +16104,7 @@ aHistory
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -16814,7 +16814,7 @@ aParent
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -17512,7 +17512,7 @@ take
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -17633,7 +17633,7 @@ content
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -17810,7 +17810,7 @@ aMenubar
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -17892,7 +17892,7 @@ aToolbar
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -17974,7 +17974,7 @@ aLocationbar
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -18056,7 +18056,7 @@ aPersonalbar
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -18138,7 +18138,7 @@ aStatusbar
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -18220,7 +18220,7 @@ aScrollbars
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -18279,7 +18279,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -19101,7 +19101,7 @@ aApplicationCache
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -19190,7 +19190,7 @@ aCrypto
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -19379,7 +19379,7 @@ aResult
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -19707,7 +19707,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -19748,7 +19748,7 @@ aOpener
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -19992,7 +19992,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -20070,7 +20070,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -20180,7 +20180,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -20247,7 +20247,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -20321,7 +20321,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -20824,7 +20824,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -21071,7 +21071,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -21176,7 +21176,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -21431,7 +21431,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -21649,7 +21649,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -21747,7 +21747,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -21988,7 +21988,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -22098,7 +22098,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -22277,7 +22277,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -22472,7 +22472,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -22542,7 +22542,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -22655,7 +22655,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -22742,7 +22742,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -22812,7 +22812,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -23060,7 +23060,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -23162,7 +23162,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -23264,7 +23264,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -23359,7 +23359,7 @@ aResult
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -23542,7 +23542,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -23605,7 +23605,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -23826,7 +23826,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -24621,7 +24621,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -24684,7 +24684,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -24848,7 +24848,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -24913,7 +24913,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -26059,7 +26059,7 @@ Failed
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -26255,7 +26255,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -27496,7 +27496,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -27566,7 +27566,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -27965,7 +27965,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -28552,7 +28552,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -28719,7 +28719,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -28801,7 +28801,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -28883,7 +28883,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -29072,7 +29072,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -29148,7 +29148,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -29545,7 +29545,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -29686,7 +29686,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -29877,7 +29877,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -30053,7 +30053,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -30302,7 +30302,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -30510,7 +30510,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -31550,7 +31550,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -31605,7 +31605,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -33088,7 +33088,7 @@ aFrames
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -35732,7 +35732,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -36211,7 +36211,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -38056,7 +38056,7 @@ Failed
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -38276,7 +38276,7 @@ aFrameElement
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -39539,7 +39539,7 @@ aRetVal
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -39983,7 +39983,7 @@ aSelection
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -40389,7 +40389,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -40452,7 +40452,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -40515,7 +40515,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -41599,7 +41599,7 @@ aLocation
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -44113,7 +44113,7 @@ aReturn
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -44725,7 +44725,7 @@ aSessionStorage
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -45035,7 +45035,7 @@ aLocalStorage
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -45114,7 +45114,7 @@ _retval
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -49114,7 +49114,7 @@ Failed
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -57325,7 +57325,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -57387,7 +57387,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -57449,7 +57449,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -57511,7 +57511,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -57558,7 +57558,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -57675,7 +57675,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -57916,7 +57916,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -58199,7 +58199,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -58270,7 +58270,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -58361,7 +58361,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -58608,7 +58608,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -58751,7 +58751,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -59557,7 +59557,7 @@ Failed
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -59619,7 +59619,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

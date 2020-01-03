@@ -2401,7 +2401,7 @@ Failed
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -2832,7 +2832,7 @@ responseText
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -3720,7 +3720,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -3906,7 +3906,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -5488,7 +5488,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -13379,7 +13379,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -13867,7 +13867,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

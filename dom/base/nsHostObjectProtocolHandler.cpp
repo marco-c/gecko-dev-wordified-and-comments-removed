@@ -2625,7 +2625,7 @@ Failed
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

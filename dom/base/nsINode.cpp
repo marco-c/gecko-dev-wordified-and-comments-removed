@@ -2625,7 +2625,7 @@ aOldChild
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -10229,7 +10229,7 @@ AsDOMNode
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -12256,7 +12256,7 @@ Failed
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -12321,7 +12321,7 @@ take
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

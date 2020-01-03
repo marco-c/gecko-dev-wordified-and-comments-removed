@@ -440,7 +440,7 @@ Failed
 return
 result
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

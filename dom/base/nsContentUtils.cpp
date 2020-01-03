@@ -16961,7 +16961,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -18347,7 +18347,7 @@ take
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

@@ -1568,7 +1568,7 @@ Failed
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -1678,7 +1678,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -1733,7 +1733,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -1768,7 +1768,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -1847,7 +1847,7 @@ rv
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -2108,7 +2108,7 @@ Failed
 return
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -4149,7 +4149,7 @@ Failed
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
@@ -4273,7 +4273,7 @@ Failed
 return
 error
 .
-ErrorCode
+StealNSResult
 (
 )
 ;
