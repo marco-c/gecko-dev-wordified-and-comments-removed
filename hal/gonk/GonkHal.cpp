@@ -4677,13 +4677,13 @@ adj
 }
 static
 void
-RoundOomScoreAdjUpWithBackroundLRU
+RoundOomScoreAdjUpWithLRU
 (
 int
 &
 aOomScoreAdj
 uint32_t
-aBackgroundLRU
+aLRU
 )
 {
 aOomScoreAdj
@@ -4700,7 +4700,7 @@ OOM_SCORE_ADJ_MAX
 OOM_ADJUST_MAX
 )
 *
-aBackgroundLRU
+aLRU
 )
 ;
 }
@@ -7502,7 +7502,7 @@ aPid
 ProcessPriority
 aPriority
 uint32_t
-aBackgroundLRU
+aLRU
 )
 {
 HAL_LOG
@@ -7526,7 +7526,7 @@ u
 "
 aPid
 aPriority
-aBackgroundLRU
+aLRU
 )
 ;
 EnsureKernelLowMemKillerParamsSet
@@ -7552,10 +7552,10 @@ OomScoreAdj
 (
 )
 ;
-RoundOomScoreAdjUpWithBackroundLRU
+RoundOomScoreAdjUpWithLRU
 (
 oomScoreAdj
-aBackgroundLRU
+aLRU
 )
 ;
 if
