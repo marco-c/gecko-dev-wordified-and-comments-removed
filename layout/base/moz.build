@@ -337,11 +337,6 @@ PaintTracker
 .
 h
 '
-'
-RestyleLogging
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
