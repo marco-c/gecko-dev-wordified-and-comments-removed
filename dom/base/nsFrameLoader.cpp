@@ -8894,14 +8894,12 @@ aIFrame
 baseWindow
 -
 >
-GetPositionAndSize
+GetPosition
 (
 &
 x
 &
 y
-nullptr
-nullptr
 )
 ;
 if
