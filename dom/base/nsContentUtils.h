@@ -3708,12 +3708,6 @@ IsRequestFullScreenAllowed
 ;
 static
 bool
-IsFullscreenApiContentOnly
-(
-)
-;
-static
-bool
 IsPerformanceTimingEnabled
 (
 )
@@ -3787,7 +3781,7 @@ aContent
 static
 nsIDocument
 *
-GetFullscreenAncestor
+GetRootDocument
 (
 nsIDocument
 *
@@ -4979,10 +4973,6 @@ sIsFullScreenApiEnabled
 static
 bool
 sTrustedFullScreenOnly
-;
-static
-bool
-sFullscreenApiIsContentOnly
 ;
 static
 uint32_t
