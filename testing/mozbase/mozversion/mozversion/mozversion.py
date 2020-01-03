@@ -611,6 +611,22 @@ exists
 (
 binary
 )
+and
+not
+os
+.
+path
+.
+exists
+(
+binary
++
+                                                                 
+'
+.
+exe
+'
+)
 :
                 
 raise
