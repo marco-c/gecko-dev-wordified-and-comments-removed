@@ -1620,7 +1620,6 @@ IS_TOPLEVEL
 sVirtualBounds
 :
 aRect
-aContext
 aInitData
 )
 ;
