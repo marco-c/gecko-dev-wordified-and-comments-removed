@@ -2784,13 +2784,6 @@ MutableHandleScript
 scriptp
 )
 ;
-enum
-PollutedGlobalScopeOption
-{
-HasPollutedGlobalScope
-HasCleanGlobalScope
-}
-;
 JSScript
 *
 CloneScript

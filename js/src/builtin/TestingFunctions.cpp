@@ -12646,13 +12646,6 @@ setNoScriptRval
 true
 )
 ;
-options
-.
-setHasPollutedScope
-(
-true
-)
-;
 JS
 :
 :
@@ -12682,7 +12675,7 @@ if
 JS
 :
 :
-Compile
+CompileForNonSyntacticScope
 (
 cx
 options
