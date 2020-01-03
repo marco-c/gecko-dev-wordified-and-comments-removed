@@ -23211,16 +23211,6 @@ mutedErrors
 )
 )
 .
-setCompileAndGo
-(
-parent
--
->
-compileAndGo
-(
-)
-)
-.
 setHasPollutedScope
 (
 parent
