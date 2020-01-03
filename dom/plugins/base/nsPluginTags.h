@@ -297,6 +297,9 @@ mId
 size_t
 mContentProcessRunningCount
 ;
+bool
+mHadLocalInstance
+;
 nsCString
 mName
 ;

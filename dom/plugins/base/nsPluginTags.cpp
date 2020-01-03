@@ -711,6 +711,10 @@ mContentProcessRunningCount
 (
 0
 )
+mHadLocalInstance
+(
+false
+)
 mName
 (
 aPluginInfo

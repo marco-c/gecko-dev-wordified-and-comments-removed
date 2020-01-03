@@ -2838,6 +2838,10 @@ mShutdown
 (
 false
 )
+mHadLocalInstance
+(
+false
+)
 mClearSiteDataSupported
 (
 false
