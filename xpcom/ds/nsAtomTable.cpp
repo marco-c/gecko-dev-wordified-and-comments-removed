@@ -1251,7 +1251,9 @@ if
 (
 gAtomTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 #
@@ -1666,7 +1668,9 @@ NS_PRECONDITION
 (
 gAtomTable
 .
-ops
+IsInitialized
+(
+)
 "
 uninitialized
 atom
@@ -1702,7 +1706,9 @@ if
 (
 gAtomTable
 .
-ops
+IsInitialized
+(
+)
 &
 &
 gAtomTable
@@ -2131,7 +2137,9 @@ aMain
 =
 gAtomTable
 .
-ops
+IsInitialized
+(
+)
 ?
 PL_DHashTableSizeOfExcludingThis
 (
@@ -2176,7 +2184,9 @@ if
 !
 gAtomTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableInit

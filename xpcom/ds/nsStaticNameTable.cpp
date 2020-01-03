@@ -489,7 +489,9 @@ if
 (
 mNameTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish
@@ -537,7 +539,9 @@ NS_ASSERTION
 !
 mNameTable
 .
-ops
+IsInitialized
+(
+)
 "
 double
 Init
@@ -840,7 +844,9 @@ NS_ASSERTION
 (
 mNameTable
 .
-ops
+IsInitialized
+(
+)
 "
 not
 inited
@@ -930,7 +936,9 @@ NS_ASSERTION
 (
 mNameTable
 .
-ops
+IsInitialized
+(
+)
 "
 not
 inited
@@ -1020,7 +1028,9 @@ NS_ASSERTION
 (
 mNameTable
 .
-ops
+IsInitialized
+(
+)
 "
 not
 inited

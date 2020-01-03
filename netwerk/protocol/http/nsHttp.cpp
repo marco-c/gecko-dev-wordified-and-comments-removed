@@ -376,7 +376,9 @@ MOZ_ASSERT
 !
 sAtomTable
 .
-ops
+IsInitialized
+(
+)
 "
 atom
 table
@@ -552,7 +554,9 @@ if
 (
 sAtomTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish
@@ -641,7 +645,9 @@ str
 !
 sAtomTable
 .
-ops
+IsInitialized
+(
+)
 )
 return
 atom

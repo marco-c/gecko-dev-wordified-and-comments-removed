@@ -1680,7 +1680,9 @@ MOZ_ASSERT
 !
 sNPObjWrappers
 .
-ops
+IsInitialized
+(
+)
 )
 ;
 if
@@ -1792,7 +1794,9 @@ if
 (
 sNPObjWrappers
 .
-ops
+IsInitialized
+(
+)
 )
 {
 DestroyNPObjWrapperTable
@@ -8002,7 +8006,9 @@ if
 (
 sNPObjWrappers
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableRemove
@@ -8055,7 +8061,9 @@ if
 !
 sNPObjWrappers
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return
@@ -8352,7 +8360,9 @@ if
 !
 sNPObjWrappers
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return
@@ -8543,7 +8553,9 @@ if
 !
 sNPObjWrappers
 .
-ops
+IsInitialized
+(
+)
 )
 {
 if
@@ -9176,7 +9188,9 @@ if
 (
 sNPObjWrappers
 .
-ops
+IsInitialized
+(
+)
 )
 {
 NppAndCx

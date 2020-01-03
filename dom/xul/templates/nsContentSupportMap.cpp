@@ -46,7 +46,9 @@ if
 (
 mMap
 .
-ops
+IsInitialized
+(
+)
 )
 PL_DHashTableFinish
 (
@@ -71,7 +73,9 @@ if
 !
 mMap
 .
-ops
+IsInitialized
+(
+)
 )
 return
 NS_ERROR_NOT_INITIALIZED

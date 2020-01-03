@@ -2509,7 +2509,9 @@ if
 (
 mPtrToNodeMap
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish
@@ -2628,7 +2630,9 @@ mRootCount
 !
 mPtrToNodeMap
 .
-ops
+IsInitialized
+(
+)
 ;
 }
 #

@@ -503,7 +503,9 @@ if
 !
 mRequestInfoHash
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return
@@ -604,7 +606,9 @@ if
 (
 mRequestInfoHash
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish
@@ -4936,7 +4940,9 @@ if
 !
 mRequestInfoHash
 .
-ops
+IsInitialized
+(
+)
 |
 |
 !

@@ -58,7 +58,9 @@ if
 !
 mMap
 .
-ops
+IsInitialized
+(
+)
 )
 return
 NS_ERROR_NOT_INITIALIZED
@@ -147,7 +149,9 @@ if
 !
 mMap
 .
-ops
+IsInitialized
+(
+)
 )
 return
 false

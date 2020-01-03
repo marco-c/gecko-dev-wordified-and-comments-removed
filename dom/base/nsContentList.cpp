@@ -827,7 +827,9 @@ if
 !
 gContentListHashTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableInit
@@ -853,7 +855,9 @@ if
 (
 gContentListHashTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 entry
@@ -1240,7 +1244,9 @@ if
 !
 gFuncStringContentListHashTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableInit
@@ -1266,7 +1272,9 @@ if
 (
 gFuncStringContentListHashTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 nsFuncStringCacheKey
@@ -3852,7 +3860,9 @@ if
 !
 gContentListHashTable
 .
-ops
+IsInitialized
+(
+)
 )
 return
 ;
@@ -4000,7 +4010,9 @@ if
 !
 gFuncStringContentListHashTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 return

@@ -456,7 +456,9 @@ this
 >
 mTable
 .
-ops
+IsInitialized
+(
+)
 "
 nsBaseHashtable
 was
@@ -530,7 +532,9 @@ this
 >
 mTable
 .
-ops
+IsInitialized
+(
+)
 "
 nsBaseHashtable
 was

@@ -58,7 +58,9 @@ if
 (
 mHashTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish
@@ -290,7 +292,9 @@ if
 !
 mHashTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableInit
@@ -719,7 +723,9 @@ if
 (
 mHashTable
 .
-ops
+IsInitialized
+(
+)
 )
 {
 HashTableEntry
@@ -791,7 +797,9 @@ if
 (
 mHashTable
 .
-ops
+IsInitialized
+(
+)
 &
 &
 mEnumerationIndex

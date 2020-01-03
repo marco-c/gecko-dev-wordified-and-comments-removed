@@ -2774,7 +2774,9 @@ if
 (
 mForwardArcs
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableEnumerate
@@ -2796,7 +2798,9 @@ if
 (
 mReverseArcs
 .
-ops
+IsInitialized
+(
+)
 )
 PL_DHashTableFinish
 (

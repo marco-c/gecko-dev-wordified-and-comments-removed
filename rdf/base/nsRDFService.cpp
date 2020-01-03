@@ -2864,7 +2864,9 @@ if
 (
 mResources
 .
-ops
+IsInitialized
+(
+)
 )
 PL_DHashTableFinish
 (
@@ -2876,7 +2878,9 @@ if
 (
 mLiterals
 .
-ops
+IsInitialized
+(
+)
 )
 PL_DHashTableFinish
 (
@@ -2888,7 +2892,9 @@ if
 (
 mInts
 .
-ops
+IsInitialized
+(
+)
 )
 PL_DHashTableFinish
 (
@@ -2900,7 +2906,9 @@ if
 (
 mDates
 .
-ops
+IsInitialized
+(
+)
 )
 PL_DHashTableFinish
 (
@@ -2912,7 +2920,9 @@ if
 (
 mBlobs
 .
-ops
+IsInitialized
+(
+)
 )
 PL_DHashTableFinish
 (

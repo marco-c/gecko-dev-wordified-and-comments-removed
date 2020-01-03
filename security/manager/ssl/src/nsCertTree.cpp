@@ -704,7 +704,9 @@ if
 (
 mCompareCache
 .
-ops
+IsInitialized
+(
+)
 )
 {
 PL_DHashTableFinish
