@@ -34,9 +34,10 @@ nsThreadUtils
 h
 "
 struct
+MOZ_STACK_CLASS
 findIndexOfClosure
 {
-nsISupports
+void
 *
 targetElement
 ;
