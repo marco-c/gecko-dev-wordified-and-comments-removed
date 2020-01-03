@@ -743,7 +743,7 @@ ifndef
 INCLUDED_FUNCTIONS_MK
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -1097,7 +1097,7 @@ config
 AUTOCONF_TOOLS
 =
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 build
@@ -2079,7 +2079,7 @@ NULL
 endif
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -3299,7 +3299,7 @@ PYTHON
 (
 abspath
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -3931,7 +3931,7 @@ PYTHON
 (
 abspath
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -3961,7 +3961,7 @@ EXPAND_LIBS_EXEC
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -3975,7 +3975,7 @@ EXPAND_LIBS_GEN
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -4548,7 +4548,7 @@ PLY_INCLUDE
 -
 I
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 other

@@ -165,7 +165,7 @@ ifndef
 INCLUDED_VERSION_MK
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -179,7 +179,7 @@ USE_AUTOTARGETS_MK
 1
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -702,7 +702,7 @@ cppunittests
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 testing
@@ -781,7 +781,7 @@ PYTHON
 -
 u
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 testing
@@ -1348,7 +1348,7 @@ OS_LDFLAGS
 -
 M
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -3425,7 +3425,7 @@ INCLUDED_AUTOCONF_MK
 )
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -3529,7 +3529,7 @@ SIMPLE_PROGRAMS
 )
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -3742,7 +3742,7 @@ PROGRAM
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 build
@@ -3773,7 +3773,7 @@ SHARED_LIBRARY
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 build
@@ -5995,7 +5995,7 @@ _MDDEPFILE
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 build
@@ -6056,7 +6056,7 @@ _MDDEPFILE
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 build
@@ -8715,7 +8715,7 @@ JAVA_JAR_TARGETS
 )
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -12953,7 +12953,7 @@ ifndef
 TOPLEVEL_BUILD
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -13301,7 +13301,7 @@ show
 )
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -13607,7 +13607,7 @@ and
 dependencies
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
