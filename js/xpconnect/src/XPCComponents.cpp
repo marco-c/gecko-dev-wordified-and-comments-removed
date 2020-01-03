@@ -50,6 +50,13 @@ h
 #
 include
 "
+nsCycleCollector
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h
