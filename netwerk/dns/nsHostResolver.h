@@ -633,6 +633,12 @@ RES_OFFLINE
 <
 <
 6
+RES_ALLOW_NAME_COLLISION
+=
+1
+<
+<
+8
 }
 ;
 size_t

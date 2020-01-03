@@ -630,6 +630,8 @@ PRAddrInfo
 prAddrInfo
 bool
 disableIPv4
+bool
+filterNameCollision
 const
 char
 *
