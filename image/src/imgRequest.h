@@ -804,7 +804,7 @@ mBlockingOnload
 1
 ;
 bool
-mResniffMimeType
+mNewPartPending
 :
 1
 ;

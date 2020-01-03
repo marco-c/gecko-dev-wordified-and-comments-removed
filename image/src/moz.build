@@ -213,6 +213,11 @@ imgTools
 cpp
 '
 '
+MultipartImage
+.
+cpp
+'
+'
 OrientedImage
 .
 cpp
