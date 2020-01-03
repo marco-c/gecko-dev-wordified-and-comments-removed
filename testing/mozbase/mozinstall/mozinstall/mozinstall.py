@@ -546,6 +546,10 @@ file
 '
 )
     
+did_we_create
+=
+False
+    
 if
 not
 os
@@ -557,6 +561,10 @@ exists
 dest
 )
 :
+        
+did_we_create
+=
+True
         
 os
 .
@@ -657,8 +665,6 @@ return
 install_dir
     
 except
-Exception
-ex
 :
         
 cls
@@ -671,6 +677,44 @@ exc_info
 (
 )
         
+if
+did_we_create
+:
+            
+try
+:
+                
+uninstall
+(
+dest
+)
+            
+except
+:
+                
+try
+:
+                    
+mozfile
+.
+remove
+(
+dest
+)
+                
+except
+:
+                    
+pass
+        
+if
+issubclass
+(
+cls
+Exception
+)
+:
+            
 error
 =
 InstallError
@@ -693,14 +737,19 @@ s
 src
 str
 (
-ex
+exc
 )
 )
 )
-        
+            
 raise
 InstallError
 error
+trbk
+        
+raise
+cls
+exc
 trbk
     
 finally
