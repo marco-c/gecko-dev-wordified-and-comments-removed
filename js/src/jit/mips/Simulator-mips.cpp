@@ -12629,10 +12629,14 @@ ff_clz
 :
 alu_out
 =
+rs_u
+?
 __builtin_clz
 (
 rs_u
 )
+:
+32
 ;
 break
 ;
