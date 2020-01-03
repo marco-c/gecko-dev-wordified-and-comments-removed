@@ -15610,18 +15610,6 @@ PrefFontCallbackData
 aClosure
 )
 ;
-nsIAtom
-*
-lang
-=
-gfxPlatform
-:
-:
-GetLangGroupForPrefLang
-(
-aLang
-)
-;
 gfxFontFamily
 *
 family
@@ -15637,7 +15625,6 @@ PlatformFontList
 FindFamily
 (
 aName
-lang
 )
 ;
 if
