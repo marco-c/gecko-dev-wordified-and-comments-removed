@@ -61,7 +61,7 @@ cert_name
 +
 "
 .
-der
+pem
 "
 ;
 addCertFromFile
