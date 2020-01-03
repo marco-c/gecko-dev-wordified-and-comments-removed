@@ -10166,7 +10166,7 @@ GetDocumentController
 aDoc
 -
 >
-GetWindow
+GetInnerWindow
 (
 )
 getter_AddRefs
