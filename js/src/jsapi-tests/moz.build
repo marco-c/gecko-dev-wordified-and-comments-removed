@@ -619,7 +619,7 @@ if
 CONFIG
 [
 '
-CLANG_CXX
+GNU_CXX
 '
 ]
 :
