@@ -750,6 +750,7 @@ RESULT_FAILURE
 ;
 class
 nsCookieService
+MOZ_FINAL
 :
 public
 nsICookieService

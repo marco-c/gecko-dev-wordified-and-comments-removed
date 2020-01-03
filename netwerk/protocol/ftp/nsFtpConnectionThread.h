@@ -189,6 +189,7 @@ nsIStreamListener
 ;
 class
 nsFtpState
+MOZ_FINAL
 :
 public
 nsBaseContentStream

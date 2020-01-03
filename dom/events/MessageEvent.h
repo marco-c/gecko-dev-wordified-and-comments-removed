@@ -63,6 +63,7 @@ OwningWindowProxyOrMessagePort
 ;
 class
 MessageEvent
+MOZ_FINAL
 :
 public
 Event

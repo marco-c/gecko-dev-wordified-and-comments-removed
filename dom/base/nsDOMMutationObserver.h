@@ -147,6 +147,7 @@ MutationObservingInfo
 ;
 class
 nsDOMMutationRecord
+MOZ_FINAL
 :
 public
 nsISupports
@@ -1517,6 +1518,7 @@ NS_DOM_MUTATION_OBSERVER_IID
 }
 class
 nsDOMMutationObserver
+MOZ_FINAL
 :
 public
 nsISupports

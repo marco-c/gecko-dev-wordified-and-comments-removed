@@ -201,6 +201,7 @@ mStatus
 ;
 class
 nsCacheService
+MOZ_FINAL
 :
 public
 nsICacheServiceInternal

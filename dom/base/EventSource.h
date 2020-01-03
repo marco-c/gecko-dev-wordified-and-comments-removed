@@ -105,6 +105,7 @@ EventSourceInit
 ;
 class
 EventSource
+MOZ_FINAL
 :
 public
 DOMEventTargetHelper

@@ -68,6 +68,7 @@ mozilla
 {
 class
 TransportFlow
+MOZ_FINAL
 :
 public
 nsISupports

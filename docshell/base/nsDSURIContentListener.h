@@ -39,6 +39,7 @@ nsAString
 ;
 class
 nsDSURIContentListener
+MOZ_FINAL
 :
 public
 nsIURIContentListener

@@ -73,6 +73,7 @@ AudioNode
 ;
 class
 MediaRecorder
+MOZ_FINAL
 :
 public
 DOMEventTargetHelper

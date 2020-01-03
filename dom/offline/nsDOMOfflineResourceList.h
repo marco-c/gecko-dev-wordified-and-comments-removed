@@ -157,6 +157,7 @@ DOMStringList
 }
 class
 nsDOMOfflineResourceList
+MOZ_FINAL
 :
 public
 mozilla

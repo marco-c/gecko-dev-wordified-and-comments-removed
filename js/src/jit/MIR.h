@@ -16114,6 +16114,7 @@ isSigned
 }
 class
 MUnbox
+MOZ_FINAL
 :
 public
 MUnaryInstruction

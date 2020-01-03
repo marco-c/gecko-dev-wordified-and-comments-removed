@@ -138,6 +138,7 @@ MOZ_HUNSPELL_CID
 }
 class
 mozHunspell
+MOZ_FINAL
 :
 public
 mozISpellCheckingEngine

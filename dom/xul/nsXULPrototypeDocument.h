@@ -95,6 +95,7 @@ XULDocument
 }
 class
 nsXULPrototypeDocument
+MOZ_FINAL
 :
 public
 nsISerializable

@@ -75,6 +75,7 @@ TimeRanges
 }
 class
 SourceBufferDecoder
+MOZ_FINAL
 :
 public
 AbstractMediaDecoder

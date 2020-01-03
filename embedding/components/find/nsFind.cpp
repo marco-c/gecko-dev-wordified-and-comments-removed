@@ -269,6 +269,7 @@ CH_SHY
 ;
 class
 nsFindContentIterator
+MOZ_FINAL
 :
 public
 nsIContentIterator

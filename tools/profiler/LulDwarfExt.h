@@ -1753,6 +1753,7 @@ CallFrameInfo
 :
 :
 Reporter
+MOZ_FINAL
 {
 public
 :

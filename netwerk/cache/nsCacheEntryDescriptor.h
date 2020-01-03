@@ -64,6 +64,7 @@ h
 "
 class
 nsCacheEntryDescriptor
+MOZ_FINAL
 :
 public
 PRCList

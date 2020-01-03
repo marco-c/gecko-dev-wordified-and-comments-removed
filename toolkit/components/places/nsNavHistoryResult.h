@@ -403,6 +403,7 @@ NS_NAVHISTORYRESULT_IID
 }
 class
 nsNavHistoryResult
+MOZ_FINAL
 :
 public
 nsSupportsWeakReference
@@ -2537,6 +2538,7 @@ NS_NAVHISTORYCONTAINERRESULTNODE_IID
 )
 class
 nsNavHistoryQueryResultNode
+MOZ_FINAL
 :
 public
 nsNavHistoryContainerResultNode
@@ -2784,6 +2786,7 @@ nsNavHistoryQueryResultNode
 ;
 class
 nsNavHistoryFolderResultNode
+MOZ_FINAL
 :
 public
 nsNavHistoryContainerResultNode

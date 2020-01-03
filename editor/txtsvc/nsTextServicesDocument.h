@@ -101,6 +101,7 @@ nsString
 ;
 class
 nsTextServicesDocument
+MOZ_FINAL
 :
 public
 nsITextServicesDocument

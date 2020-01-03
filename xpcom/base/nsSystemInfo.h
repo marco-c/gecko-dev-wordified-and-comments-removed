@@ -28,6 +28,7 @@ h
 endif
 class
 nsSystemInfo
+MOZ_FINAL
 :
 public
 nsHashPropertyBag

@@ -82,6 +82,7 @@ nsXULPrototypeNode
 ;
 class
 XULContentSinkImpl
+MOZ_FINAL
 :
 public
 nsIXMLContentSink

@@ -67,6 +67,7 @@ nsDiskCacheMap
 ;
 class
 nsDiskCacheDevice
+MOZ_FINAL
 :
 public
 nsCacheDevice

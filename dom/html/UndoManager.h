@@ -91,6 +91,7 @@ DOMTransactionCallback
 ;
 class
 UndoManager
+MOZ_FINAL
 :
 public
 nsISupports

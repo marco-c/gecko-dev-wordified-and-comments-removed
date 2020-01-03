@@ -156,6 +156,7 @@ RECENTLY_VISITED_URI_SIZE
 8
 class
 History
+MOZ_FINAL
 :
 public
 IHistory
