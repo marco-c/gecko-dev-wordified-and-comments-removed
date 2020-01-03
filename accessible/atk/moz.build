@@ -238,12 +238,6 @@ html
 /
 accessible
 /
-ipc
-'
-'
-/
-accessible
-/
 xpcom
 '
 '
