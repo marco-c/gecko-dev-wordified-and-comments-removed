@@ -2723,6 +2723,13 @@ int32_t
 aOffset
 )
 ;
+void
+HideCaret
+(
+bool
+aHide
+)
+;
 protected
 :
 enum
@@ -2906,6 +2913,9 @@ mDispatchInputEvent
 ;
 bool
 mIsInEditAction
+;
+bool
+mHidingCaret
 ;
 friend
 bool
