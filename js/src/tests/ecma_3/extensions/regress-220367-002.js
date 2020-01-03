@@ -113,7 +113,8 @@ RegExp
 ;
 expect
 =
-undefined
+'
+'
 ;
 addThis
 (
@@ -143,7 +144,8 @@ RegExp
 ;
 expect
 =
-undefined
+'
+'
 ;
 addThis
 (
