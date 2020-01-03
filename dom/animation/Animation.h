@@ -495,6 +495,11 @@ IMPL_EVENT_HANDLER
 finish
 )
 ;
+IMPL_EVENT_HANDLER
+(
+cancel
+)
+;
 Nullable
 <
 double

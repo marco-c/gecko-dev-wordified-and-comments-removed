@@ -272,6 +272,10 @@ attribute
 EventHandler
 onfinish
 ;
+attribute
+EventHandler
+oncancel
+;
 void
 cancel
 (
