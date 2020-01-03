@@ -502,14 +502,6 @@ nsACString
 aCacheEntryKey
 )
 ;
-bool
-IsForcedValidEntryInternal
-(
-nsACString
-&
-aCacheEntryKey
-)
-;
 private
 :
 void
@@ -754,6 +746,12 @@ mozilla
 :
 Mutex
 mLock
+;
+mozilla
+:
+:
+Mutex
+mForcedValidEntriesLock
 ;
 bool
 mShutdown
