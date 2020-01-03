@@ -188,7 +188,7 @@ StreamListener
 aListener
 TrackID
 aID
-TrackTicks
+StreamTime
 aTrackOffset
 uint32_t
 aEvents
@@ -413,7 +413,7 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackTicks
+StreamTime
 aTrackOffset
 uint32_t
 aTrackEvents

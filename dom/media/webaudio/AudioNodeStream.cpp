@@ -348,7 +348,7 @@ double
 aStreamTime
 )
 {
-TrackTicks
+StreamTime
 ticks
 =
 TicksFromDestinationTime
@@ -2795,7 +2795,7 @@ tmpSegment
 ;
 }
 }
-TrackTicks
+StreamTime
 AudioNodeStream
 :
 :
@@ -3063,7 +3063,7 @@ return
 thisFractionalTicks
 ;
 }
-TrackTicks
+StreamTime
 AudioNodeStream
 :
 :
@@ -3101,7 +3101,7 @@ destination
 aSeconds
 )
 ;
-TrackTicks
+StreamTime
 ticks
 =
 thisSeconds
@@ -3123,7 +3123,7 @@ DestinationTimeFromTicks
 AudioNodeStream
 *
 aDestination
-TrackTicks
+StreamTime
 aPosition
 )
 {

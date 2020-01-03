@@ -190,7 +190,7 @@ TrackID
 aId
 StreamTime
 aDesiredTime
-TrackTicks
+StreamTime
 &
 aLastEndTime
 )

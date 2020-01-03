@@ -83,7 +83,7 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackTicks
+StreamTime
 aTrackOffset
 uint32_t
 aTrackEvents
@@ -256,7 +256,7 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackTicks
+StreamTime
 aTrackOffset
 uint32_t
 aTrackEvents
@@ -411,7 +411,7 @@ MediaStreamGraph
 aGraph
 TrackID
 aID
-TrackTicks
+StreamTime
 aTrackOffset
 uint32_t
 aTrackEvents
@@ -484,7 +484,7 @@ mDisplayHeight
 TrackRate
 mTrackRate
 ;
-TrackTicks
+StreamTime
 mTotalFrameDuration
 ;
 VideoFrame

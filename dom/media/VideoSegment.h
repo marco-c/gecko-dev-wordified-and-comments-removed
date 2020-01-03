@@ -260,9 +260,9 @@ VideoChunk
 void
 SliceTo
 (
-TrackTicks
+StreamTime
 aStart
-TrackTicks
+StreamTime
 aEnd
 )
 {
@@ -298,7 +298,7 @@ aEnd
 aStart
 ;
 }
-TrackTicks
+StreamTime
 GetDuration
 (
 )
@@ -345,7 +345,7 @@ GetImage
 void
 SetNull
 (
-TrackTicks
+StreamTime
 aDuration
 )
 {
@@ -393,7 +393,7 @@ return
 0
 ;
 }
-TrackTicks
+StreamTime
 mDuration
 ;
 VideoFrame
@@ -458,7 +458,7 @@ Image
 &
 &
 aImage
-TrackTicks
+StreamTime
 aDuration
 const
 IntSize
@@ -475,9 +475,9 @@ VideoFrame
 *
 GetFrameAt
 (
-TrackTicks
+StreamTime
 aOffset
-TrackTicks
+StreamTime
 *
 aStart
 =
@@ -517,7 +517,7 @@ VideoFrame
 *
 GetLastFrame
 (
-TrackTicks
+StreamTime
 *
 aStart
 =

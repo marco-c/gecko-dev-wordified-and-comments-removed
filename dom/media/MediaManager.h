@@ -1023,10 +1023,10 @@ SourceMediaStream
 >
 mStream
 ;
-TrackTicks
+StreamTime
 mLastEndTimeAudio
 ;
-TrackTicks
+StreamTime
 mLastEndTimeVideo
 ;
 bool

@@ -98,7 +98,7 @@ mFilterCallback
 struct
 TrackMapEntry
 {
-TrackTicks
+StreamTime
 mEndOfConsumedInputTicks
 ;
 StreamTime

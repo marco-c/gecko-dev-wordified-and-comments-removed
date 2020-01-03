@@ -267,9 +267,9 @@ SampleFormat
 void
 SliceTo
 (
-TrackTicks
+StreamTime
 aStart
-TrackTicks
+StreamTime
 aEnd
 )
 {
@@ -369,7 +369,7 @@ aEnd
 aStart
 ;
 }
-TrackTicks
+StreamTime
 GetDuration
 (
 )
@@ -528,7 +528,7 @@ nullptr
 void
 SetNull
 (
-TrackTicks
+StreamTime
 aDuration
 )
 {
@@ -663,7 +663,7 @@ return
 amount
 ;
 }
-TrackTicks
+StreamTime
 mDuration
 ;
 nsRefPtr

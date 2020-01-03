@@ -4687,7 +4687,7 @@ MediaStreamGraph
 graph
 TrackID
 tid
-TrackTicks
+StreamTime
 offset
 uint32_t
 events
@@ -4734,7 +4734,7 @@ MediaStreamGraph
 graph
 TrackID
 tid
-TrackTicks
+StreamTime
 offset
 uint32_t
 events
@@ -4868,7 +4868,7 @@ MediaStreamGraph
 graph
 TrackID
 tid
-TrackTicks
+StreamTime
 offset
 uint32_t
 events
@@ -7957,7 +7957,7 @@ GraphRate
 )
 )
 ;
-TrackTicks
+StreamTime
 delta
 =
 desired_time

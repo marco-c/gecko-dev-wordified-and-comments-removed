@@ -1597,7 +1597,7 @@ MediaStreamGraph
 graph
 TrackID
 tid
-TrackTicks
+StreamTime
 offset
 uint32_t
 events
@@ -1630,7 +1630,7 @@ MediaStreamGraph
 graph
 TrackID
 tid
-TrackTicks
+StreamTime
 offset
 uint32_t
 events
@@ -1651,7 +1651,7 @@ MediaStreamGraph
 graph
 TrackID
 tid
-TrackTicks
+StreamTime
 offset
 uint32_t
 events
@@ -2173,7 +2173,7 @@ MediaStreamGraph
 graph
 TrackID
 tid
-TrackTicks
+StreamTime
 offset
 uint32_t
 events
@@ -2517,7 +2517,7 @@ MediaStreamGraph
 graph
 TrackID
 tid
-TrackTicks
+StreamTime
 offset
 uint32_t
 events

@@ -1051,7 +1051,7 @@ id
 maxTrackID
 ;
 }
-TrackTicks
+StreamTime
 outputStart
 =
 GraphTimeToStreamTime
@@ -1367,7 +1367,7 @@ mListeners
 j
 ]
 ;
-TrackTicks
+StreamTime
 offset
 =
 outputTrack
@@ -1599,10 +1599,10 @@ interval
 mEnd
 )
 ;
-TrackTicks
+StreamTime
 inputTrackEndPoint
 =
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 ;
 if
 (
@@ -1655,7 +1655,7 @@ mEnd
 break
 ;
 }
-TrackTicks
+StreamTime
 ticks
 =
 interval

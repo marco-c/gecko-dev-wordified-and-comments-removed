@@ -236,7 +236,7 @@ mStart
 )
 mStop
 (
-TRACK_TICKS_MAX
+STREAM_TIME_MAX
 )
 mFrequency
 (
@@ -392,7 +392,7 @@ SetStreamTimeParameter
 (
 uint32_t
 aIndex
-TrackTicks
+StreamTime
 aParam
 )
 {
@@ -784,7 +784,7 @@ Triangle
 void
 UpdateParametersIfNeeded
 (
-TrackTicks
+StreamTime
 ticks
 size_t
 count
@@ -1011,7 +1011,7 @@ FillBounds
 float
 *
 output
-TrackTicks
+StreamTime
 ticks
 uint32_t
 &
@@ -1028,7 +1028,7 @@ output
 ;
 static_assert
 (
-TrackTicks
+StreamTime
 (
 WEBAUDIO_BLOCK_SIZE
 )
@@ -1300,7 +1300,7 @@ ComputeSine
 float
 *
 aOutput
-TrackTicks
+StreamTime
 ticks
 uint32_t
 aStart
@@ -1352,7 +1352,7 @@ ComputeSquare
 float
 *
 aOutput
-TrackTicks
+StreamTime
 ticks
 uint32_t
 aStart
@@ -1421,7 +1421,7 @@ ComputeSawtooth
 float
 *
 aOutput
-TrackTicks
+StreamTime
 ticks
 uint32_t
 aStart
@@ -1503,7 +1503,7 @@ ComputeTriangle
 float
 *
 aOutput
-TrackTicks
+StreamTime
 ticks
 uint32_t
 aStart
@@ -1602,7 +1602,7 @@ ComputeCustom
 float
 *
 aOutput
-TrackTicks
+StreamTime
 ticks
 uint32_t
 aStart
@@ -1891,7 +1891,7 @@ stream
 "
 )
 ;
-TrackTicks
+StreamTime
 ticks
 =
 aStream
@@ -2187,10 +2187,10 @@ AudioNodeStream
 *
 mDestination
 ;
-TrackTicks
+StreamTime
 mStart
 ;
-TrackTicks
+StreamTime
 mStop
 ;
 AudioParamTimeline

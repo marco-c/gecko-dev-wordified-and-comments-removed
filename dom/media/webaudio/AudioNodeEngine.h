@@ -756,7 +756,7 @@ SetStreamTimeParameter
 (
 uint32_t
 aIndex
-TrackTicks
+StreamTime
 aParam
 )
 {

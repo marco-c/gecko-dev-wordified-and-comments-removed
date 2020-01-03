@@ -624,7 +624,7 @@ TrackID
 aID
 StreamTime
 aDesiredTime
-TrackTicks
+StreamTime
 &
 aLastEndTime
 )
@@ -638,7 +638,7 @@ lock
 mMonitor
 )
 ;
-TrackTicks
+StreamTime
 delta
 =
 aDesiredTime

@@ -833,7 +833,7 @@ numberOfChannels
 aOutput
 )
 ;
-TrackTicks
+StreamTime
 pos
 =
 aStream

@@ -584,7 +584,7 @@ channelInterpretation
 }
 else
 {
-TrackTicks
+StreamTime
 tick
 =
 mSource

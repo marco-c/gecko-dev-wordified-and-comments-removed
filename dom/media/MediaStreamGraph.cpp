@@ -1121,7 +1121,7 @@ mListeners
 j
 ]
 ;
-TrackTicks
+StreamTime
 offset
 =
 (
@@ -5444,7 +5444,7 @@ i
 }
 }
 }
-TrackTicks
+StreamTime
 MediaStreamGraphImpl
 :
 :
@@ -5475,12 +5475,12 @@ mode
 "
 )
 ;
-TrackTicks
+StreamTime
 ticksWritten
 =
 0
 ;
-TrackTicks
+StreamTime
 ticksNeeded
 =
 aTo
@@ -5621,7 +5621,7 @@ AudioSegment
 AudioSegment
 output
 ;
-TrackTicks
+StreamTime
 offset
 =
 GraphTimeToStreamTime
@@ -5704,7 +5704,7 @@ end
 aTo
 )
 ;
-TrackTicks
+StreamTime
 toWrite
 =
 0
@@ -5806,14 +5806,14 @@ toWrite
 }
 else
 {
-TrackTicks
+StreamTime
 endTicksNeeded
 =
 offset
 +
 toWrite
 ;
-TrackTicks
+StreamTime
 endTicksAvailable
 =
 audio
@@ -6216,7 +6216,7 @@ aStream
 framePosition
 )
 ;
-TrackTicks
+StreamTime
 start
 ;
 const
@@ -6274,7 +6274,7 @@ VideoSegment
 (
 )
 ;
-TrackTicks
+StreamTime
 thisStart
 ;
 const
@@ -6847,7 +6847,7 @@ GraphTime
 aTime
 )
 {
-TrackTicks
+StreamTime
 ticks
 =
 aTime
@@ -6867,7 +6867,7 @@ block
 +
 1
 ;
-TrackTicks
+StreamTime
 nextTicks
 =
 nextBlock
@@ -7347,7 +7347,7 @@ doneAllProducing
 =
 false
 ;
-TrackTicks
+StreamTime
 ticksPlayed
 =
 0
@@ -7595,7 +7595,7 @@ AsAudioCallbackDriver
 )
 )
 {
-TrackTicks
+StreamTime
 ticksPlayedForThisStream
 =
 PlayAudio
@@ -11760,7 +11760,7 @@ TrackID
 aID
 TrackRate
 aRate
-TrackTicks
+StreamTime
 aStart
 MediaSegment
 *
@@ -12195,7 +12195,7 @@ mDirectListeners
 j
 ]
 ;
-TrackTicks
+StreamTime
 offset
 =
 0
@@ -12827,7 +12827,7 @@ FinishWithLockHeld
 )
 ;
 }
-TrackTicks
+StreamTime
 SourceMediaStream
 :
 :

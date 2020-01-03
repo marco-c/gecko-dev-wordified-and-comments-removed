@@ -1058,7 +1058,7 @@ TrackID
 aID
 StreamTime
 aDesiredTime
-TrackTicks
+StreamTime
 &
 aLastEndTime
 )
@@ -1094,7 +1094,7 @@ image
 =
 mImage
 ;
-TrackTicks
+StreamTime
 delta
 =
 aDesiredTime

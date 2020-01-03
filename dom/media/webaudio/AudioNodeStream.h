@@ -371,7 +371,7 @@ GraphTime
 aFrom
 )
 ;
-TrackTicks
+StreamTime
 GetCurrentPosition
 (
 )
@@ -472,7 +472,7 @@ double
 aSeconds
 )
 ;
-TrackTicks
+StreamTime
 TicksFromDestinationTime
 (
 MediaStream
@@ -488,7 +488,7 @@ DestinationTimeFromTicks
 AudioNodeStream
 *
 aDestination
-TrackTicks
+StreamTime
 aPosition
 )
 ;
