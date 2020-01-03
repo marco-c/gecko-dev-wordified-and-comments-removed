@@ -5488,9 +5488,6 @@ __init__
 (
 self
 config
-sandbox_post_eval_cb
-=
-None
 )
 :
         
@@ -5499,12 +5496,6 @@ self
 config
 =
 config
-        
-self
-.
-_sandbox_post_eval_cb
-=
-sandbox_post_eval_cb
         
 self
 .
@@ -6995,19 +6986,6 @@ time
 -
 time_start
         
-if
-self
-.
-_sandbox_post_eval_cb
-:
-            
-self
-.
-_sandbox_post_eval_cb
-(
-context
-)
-        
 dir_vars
 =
 [
@@ -7285,19 +7263,6 @@ gyp_context
 in
 gyp_contexts
 :
-            
-if
-self
-.
-_sandbox_post_eval_cb
-:
-                
-self
-.
-_sandbox_post_eval_cb
-(
-gyp_context
-)
             
 context
 [
