@@ -305,6 +305,14 @@ _ID
 private
 static
 final
+int
+SEARCH_HISTORY_LIMIT
+=
+10
+;
+private
+static
+final
 Uri
 SEARCH_HISTORY_URI
 =
@@ -325,9 +333,7 @@ String
 .
 valueOf
 (
-Constants
-.
-SUGGESTION_MAX
+SEARCH_HISTORY_LIMIT
 )
 )
 .
@@ -462,7 +468,7 @@ R
 .
 layout
 .
-search_card_history
+search_history_row
 null
 PROJECTION
 new

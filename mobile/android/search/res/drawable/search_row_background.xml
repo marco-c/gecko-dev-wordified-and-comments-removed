@@ -97,9 +97,9 @@ android
 drawable
 =
 "
-drawable
+color
 /
-search_card_pressed
+row_background_pressed
 "
 /
 >
@@ -110,9 +110,9 @@ android
 drawable
 =
 "
-drawable
+color
 /
-search_card_default
+row_background
 "
 /
 >
