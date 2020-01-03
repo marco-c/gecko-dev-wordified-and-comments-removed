@@ -5428,9 +5428,6 @@ void
 oldval
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 JS
 :
 :
@@ -5488,8 +5485,6 @@ this
 )
 ;
 }
-#
-endif
 }
 #
 ifdef

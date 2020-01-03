@@ -1432,9 +1432,6 @@ Value
 v
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 MOZ_ASSERT
 (
 !
@@ -1471,8 +1468,6 @@ v
 v
 )
 ;
-#
-endif
 }
 static
 void
@@ -1485,9 +1480,6 @@ Value
 v
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 MOZ_ASSERT
 (
 !
@@ -1605,8 +1597,6 @@ v
 )
 ;
 }
-#
-endif
 }
 static
 void
@@ -1920,9 +1910,6 @@ jsid
 id
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 if
 (
 JSID_IS_STRING
@@ -2081,8 +2068,6 @@ id
 ;
 }
 }
-#
-endif
 }
 static
 void

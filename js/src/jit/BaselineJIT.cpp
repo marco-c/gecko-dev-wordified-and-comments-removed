@@ -2352,9 +2352,6 @@ BaselineScript
 script
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 if
 (
 zone
@@ -2377,8 +2374,6 @@ barrierTracer
 )
 )
 ;
-#
-endif
 }
 void
 BaselineScript

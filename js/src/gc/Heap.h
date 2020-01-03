@@ -4893,9 +4893,6 @@ Zone
 zone
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 return
 JS
 :
@@ -4916,13 +4913,6 @@ needsIncrementalBarrier
 (
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 MOZ_ALWAYS_INLINE
 TenuredCell
@@ -5329,9 +5319,6 @@ TenuredCell
 thing
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 MOZ_ASSERT
 (
 !
@@ -5464,8 +5451,6 @@ getAllocKind
 )
 )
 ;
-#
-endif
 }
 MOZ_ALWAYS_INLINE
 void
@@ -5479,9 +5464,6 @@ TenuredCell
 thing
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 MOZ_ASSERT
 (
 !
@@ -5601,8 +5583,6 @@ thing
 )
 ;
 }
-#
-endif
 }
 static
 MOZ_ALWAYS_INLINE

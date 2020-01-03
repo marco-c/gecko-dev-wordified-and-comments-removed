@@ -820,9 +820,6 @@ JitCode
 code
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 JitCode
 :
 :
@@ -833,8 +830,6 @@ jitCode
 )
 )
 ;
-#
-endif
 stubCode_
 =
 code

@@ -4944,9 +4944,6 @@ IonScript
 ionScript
 )
 {
-#
-ifdef
-JSGC_INCREMENTAL
 if
 (
 zone
@@ -4969,8 +4966,6 @@ barrierTracer
 )
 )
 ;
-#
-endif
 }
 void
 IonScript

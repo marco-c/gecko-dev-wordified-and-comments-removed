@@ -12136,9 +12136,6 @@ false
 ;
 }
 }
-#
-ifdef
-JSGC_INCREMENTAL
 if
 (
 cx
@@ -12193,8 +12190,6 @@ marked
 true
 ;
 }
-#
-endif
 script
 -
 >
