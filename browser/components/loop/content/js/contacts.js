@@ -3282,7 +3282,7 @@ mozL10n
 get
 (
 "
-contacts_search_placesholder
+contacts_search_placesholder2
 "
 )
 valueLink
