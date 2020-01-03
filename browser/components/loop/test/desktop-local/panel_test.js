@@ -122,6 +122,13 @@ sandbox
 stub
 (
 )
+addEventListener
+:
+function
+(
+)
+{
+}
 document
 :
 {
