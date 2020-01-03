@@ -4300,6 +4300,8 @@ appId
 =
 permission
 .
+principal
+.
 appId
 &
 &
