@@ -933,6 +933,7 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 CompareManager
+override
 )
 explicit
 CompareManager
