@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 Cc
 =
@@ -1161,6 +1166,7 @@ uri
 .
 host
 ;
+let
 port
 =
 uri
