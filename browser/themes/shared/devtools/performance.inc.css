@@ -847,7 +847,7 @@ message
 {
 display
 :
-auto
+initial
 ;
 opacity
 :
@@ -876,7 +876,7 @@ message
 {
 display
 :
-auto
+initial
 ;
 opacity
 :
@@ -931,7 +931,7 @@ message
 {
 display
 :
-auto
+initial
 ;
 opacity
 :
@@ -964,7 +964,7 @@ message
 {
 display
 :
-auto
+initial
 ;
 color
 :
@@ -1016,7 +1016,7 @@ full
 {
 display
 :
-auto
+initial
 ;
 }
 .
