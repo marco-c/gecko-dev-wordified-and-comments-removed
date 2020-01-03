@@ -190,6 +190,9 @@ class
 nsIChannel
 ;
 class
+nsIRunnable
+;
+class
 nsIURI
 ;
 namespace
@@ -689,6 +692,12 @@ nsCOMPtr
 nsILoadGroup
 >
 mLoadGroup
+;
+nsCOMPtr
+<
+nsIRunnable
+>
+mLoadFailedAsyncRunnable
 ;
 class
 InterfaceRequestor

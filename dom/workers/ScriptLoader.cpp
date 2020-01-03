@@ -7493,6 +7493,13 @@ mLoadResult
 false
 )
 ;
+aWorkerPrivate
+-
+>
+MaybeDispatchLoadFailedRunnable
+(
+)
+;
 return
 true
 ;
