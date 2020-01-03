@@ -3275,8 +3275,12 @@ range_length
 0
 )
 {
-ReleaseVideoBuffer
+PostReleaseVideoBuffer
 (
+mVideoBuffer
+FenceHandle
+(
+)
 )
 ;
 findNextBuffer
