@@ -726,6 +726,25 @@ data
 )
     
 def
+visit_AtomNode
+(
+self
+node
+)
+:
+        
+return
+(
+lambda
+x
+:
+True
+node
+.
+data
+)
+    
+def
 visit_ConditionalNode
 (
 self

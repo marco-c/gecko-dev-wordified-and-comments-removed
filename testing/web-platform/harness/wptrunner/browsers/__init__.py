@@ -224,4 +224,8 @@ firefox
 "
 servo
 "
+                
+"
+servodriver
+"
 ]

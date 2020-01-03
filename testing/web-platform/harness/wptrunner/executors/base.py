@@ -677,8 +677,8 @@ http
 prefs
 "
 :
-[
-]
+{
+}
 }
         
 self

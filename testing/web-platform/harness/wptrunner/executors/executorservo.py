@@ -1188,6 +1188,18 @@ run
 (
 )
                 
+timeout
+=
+test
+.
+timeout
+*
+self
+.
+timeout_multiplier
++
+5
+                
 rv
 =
 self
@@ -1198,8 +1210,6 @@ wait
 (
 timeout
 =
-test
-.
 timeout
 )
             
