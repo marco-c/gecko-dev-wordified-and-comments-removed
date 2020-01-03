@@ -2249,6 +2249,7 @@ _win
 DOMError
 (
 "
+InvalidStateError
 "
 "
 Can
@@ -2529,6 +2530,7 @@ _win
 DOMError
 (
 "
+InvalidStateError
 "
 "
 RTCPeerConnection
@@ -3126,6 +3128,7 @@ _win
 DOMError
 (
 "
+InvalidStateError
 "
 "
 Peer
@@ -4034,6 +4037,7 @@ _win
 DOMError
 (
 "
+NotSupportedError
 "
 "
 pranswer
@@ -4054,6 +4058,7 @@ _win
 DOMError
 (
 "
+InvalidParameterError
 "
 "
 Invalid
@@ -4244,6 +4249,7 @@ _win
 DOMError
 (
 "
+NotSupportedError
 "
 "
 pranswer
@@ -4264,6 +4270,7 @@ _win
 DOMError
 (
 "
+InvalidParameterError
 "
 "
 Invalid
@@ -4793,6 +4800,7 @@ _win
 DOMError
 (
 "
+NotSupportedError
 "
 "
 updateIce
@@ -4876,6 +4884,7 @@ _win
 DOMError
 (
 "
+InvalidParameterError
 "
 "
 Invalid
@@ -5017,6 +5026,7 @@ _win
 DOMError
 (
 "
+NotSupportedError
 "
 "
 removeStream
@@ -5043,6 +5053,7 @@ _win
 DOMError
 (
 "
+NotSupportedError
 "
 "
 getStreamById
@@ -5081,6 +5092,7 @@ _win
 DOMError
 (
 "
+InvalidParameterError
 "
 "
 invalid
@@ -5117,6 +5129,7 @@ _win
 DOMError
 (
 "
+InvalidParameterError
 "
 "
 track
@@ -5204,6 +5217,7 @@ _win
 DOMError
 (
 "
+NotSupportedError
 "
 "
 removeTrack
@@ -6209,6 +6223,7 @@ _win
 DOMError
 (
 "
+InvalidParameterError
 "
 "
 Both
