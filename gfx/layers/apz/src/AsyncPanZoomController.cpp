@@ -14092,6 +14092,7 @@ SendSharedCompositorFrameMetrics
 (
 mem
 handle
+mLayersId
 mAPZCId
 )
 )

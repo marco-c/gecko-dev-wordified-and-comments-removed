@@ -1012,6 +1012,8 @@ Handle
 metrics
 CrossProcessMutexHandle
 mutex
+uint64_t
+aLayersId
 uint32_t
 aAPZCId
 )

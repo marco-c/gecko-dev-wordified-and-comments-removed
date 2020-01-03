@@ -477,6 +477,10 @@ CrossProcessMutexHandle
 &
 handle
 const
+uint64_t
+&
+aLayersId
+const
 uint32_t
 &
 aAPZCId
@@ -530,6 +534,10 @@ CrossProcessMutexHandle
 &
 handle
 const
+uint64_t
+&
+aLayersId
+const
 uint32_t
 &
 aAPZCId
@@ -556,6 +564,12 @@ GetViewID
 (
 )
 ;
+uint64_t
+GetLayersId
+(
+)
+const
+;
 uint32_t
 GetAPZCId
 (
@@ -578,6 +592,9 @@ mBuffer
 CrossProcessMutex
 *
 mMutex
+;
+uint64_t
+mLayersId
 ;
 uint32_t
 mAPZCId
