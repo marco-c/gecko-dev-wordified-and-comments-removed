@@ -210,6 +210,8 @@ destdir
 =
 "
 assets
+/
+ANDROID_CPU_ARCH
 "
 ]
 #

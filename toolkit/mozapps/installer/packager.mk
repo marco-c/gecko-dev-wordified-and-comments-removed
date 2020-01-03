@@ -2669,6 +2669,9 @@ in
 the
 assets
 /
+(
+ANDROID_CPU_ARCH
+)
 directory
 by
 packager
@@ -2681,6 +2684,10 @@ ASSET_SO_LIBRARIES
 (
 addprefix
 assets
+/
+(
+ANDROID_CPU_ARCH
+)
 /
 (
 filter
@@ -2735,8 +2742,12 @@ in
 place
 in
 the
+#
 assets
 /
+(
+ANDROID_CPU_ARCH
+)
 directory
 .
 SZIP_LIBRARIES
