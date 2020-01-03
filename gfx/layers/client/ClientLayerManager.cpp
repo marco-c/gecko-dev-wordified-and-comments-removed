@@ -955,6 +955,18 @@ mTargetRotation
 orientation
 )
 ;
+#
+if
+defined
+(
+MOZ_WIDGET_ANDROID
+)
+|
+|
+defined
+(
+MOZ_WIDGET_GONK
+)
 if
 (
 mWidget
@@ -988,6 +1000,8 @@ IsAsyncPanZoomEnabled
 ;
 }
 }
+#
+endif
 if
 (
 aTarget
