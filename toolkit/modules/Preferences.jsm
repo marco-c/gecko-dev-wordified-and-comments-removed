@@ -64,7 +64,7 @@ const
 MIN_INT
 =
 -
-MAX_INT
+0x80000000
 ;
 this
 .
