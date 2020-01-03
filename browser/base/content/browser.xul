@@ -1756,6 +1756,9 @@ hidden
 true
 "
 >
+#
+ifdef
+NIGHTLY_BUILD
 <
 hbox
 id
@@ -1828,6 +1831,8 @@ paneSearch
 /
 hbox
 >
+#
+endif
 <
 /
 panel
