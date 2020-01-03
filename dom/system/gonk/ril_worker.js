@@ -10052,11 +10052,6 @@ fullMMI
 ;
 if
 (
-options
-.
-startNewSession
-&
-&
 this
 .
 _ussdSession
