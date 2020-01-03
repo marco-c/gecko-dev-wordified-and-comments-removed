@@ -153,7 +153,7 @@ TextureImageCGL
 GLuint
 aTexture
 const
-nsIntSize
+IntSize
 &
 aSize
 GLenum
@@ -429,7 +429,7 @@ GLContext
 *
 gl
 const
-nsIntSize
+IntSize
 &
 aSize
 TextureImage

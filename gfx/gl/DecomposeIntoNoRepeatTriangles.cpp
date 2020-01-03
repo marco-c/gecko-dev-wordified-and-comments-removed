@@ -272,7 +272,10 @@ IntRect
 &
 aTexCoordRect
 const
-nsIntSize
+gfx
+:
+:
+IntSize
 &
 aTexSize
 RectTriangles

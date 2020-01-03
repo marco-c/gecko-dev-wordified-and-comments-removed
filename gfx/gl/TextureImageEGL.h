@@ -31,7 +31,10 @@ TextureImageEGL
 GLuint
 aTexture
 const
-nsIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 GLenum
@@ -315,7 +318,10 @@ GLContext
 *
 gl
 const
-nsIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 TextureImage
