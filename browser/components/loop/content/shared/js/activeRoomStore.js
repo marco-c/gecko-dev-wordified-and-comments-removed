@@ -447,7 +447,7 @@ windowUnload
 leaveRoom
 "
 "
-resetRoom
+feedbackComplete
 "
 ]
 )
@@ -1501,7 +1501,7 @@ ENDED
 )
 ;
 }
-resetRoom
+feedbackComplete
 :
 function
 (

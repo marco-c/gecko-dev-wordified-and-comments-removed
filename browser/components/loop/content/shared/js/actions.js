@@ -660,14 +660,14 @@ expires
 Number
 }
 )
-ResetRoom
+FeedbackComplete
 :
 Action
 .
 define
 (
 "
-resetRoom
+feedbackComplete
 "
 {
 }
