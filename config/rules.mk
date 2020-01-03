@@ -9421,7 +9421,7 @@ ifndef
 NO_DIST_INSTALL
 ifndef
 NO_INTERFACES_MANIFEST
-misc
+export
 :
 :
 (
