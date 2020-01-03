@@ -684,6 +684,7 @@ nlocals_
 nstack_
 ;
 }
+explicit
 CompileInfo
 (
 unsigned
