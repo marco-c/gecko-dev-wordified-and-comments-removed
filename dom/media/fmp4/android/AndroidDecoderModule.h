@@ -453,6 +453,14 @@ return
 NS_OK
 ;
 }
+virtual
+void
+Cleanup
+(
+)
+{
+}
+;
 nsresult
 ResetInputBuffers
 (
