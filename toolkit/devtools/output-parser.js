@@ -199,6 +199,7 @@ const
 REGEX_CSS_VAR
 =
 /
+^
 \
 bvar
 \
