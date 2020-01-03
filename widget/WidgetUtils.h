@@ -159,14 +159,6 @@ uint32_t
 aShiftedCharCode
 )
 ;
-static
-KeyNameIndex
-GetDeadKeyNameIndex
-(
-char16_t
-aChar
-)
-;
 }
 ;
 }
