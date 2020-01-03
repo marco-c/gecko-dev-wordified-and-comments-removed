@@ -5504,7 +5504,6 @@ aNumFramesOnLine
 WritingMode
 aLineWM
 nscoord
-&
 aLineWidth
 nscoord
 aStart
@@ -6189,7 +6188,6 @@ aContinuationStates
 WritingMode
 aContainerWM
 nscoord
-&
 aContainerWidth
 )
 {
@@ -6676,10 +6674,8 @@ aFirstChild
 WritingMode
 aLineWM
 nscoord
-&
 aLineWidth
 nscoord
-&
 aStart
 )
 {
