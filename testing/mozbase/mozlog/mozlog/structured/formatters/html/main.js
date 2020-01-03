@@ -49,14 +49,11 @@ document
 ;
 }
 return
-toArray
-(
 elem
 .
 querySelector
 (
 selector
-)
 )
 ;
 }
@@ -157,7 +154,6 @@ classList
 contains
 (
 '
-.
 results
 -
 table
