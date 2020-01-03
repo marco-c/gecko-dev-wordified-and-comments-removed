@@ -1,3 +1,4 @@
+new
 Int32Array
 (
 wrap

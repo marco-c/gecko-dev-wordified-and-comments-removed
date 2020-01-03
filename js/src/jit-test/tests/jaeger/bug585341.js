@@ -5,7 +5,14 @@ __defineGetter__
 "
 x
 "
+(
+)
+=
+>
+new
 Float64Array
+(
+)
 )
 Function
 (

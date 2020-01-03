@@ -155,6 +155,7 @@ resultArray
 ]
 +
 =
+new
 obj
 .
 foo

@@ -64,6 +64,7 @@ saveStack
 const
 buf
 =
+new
 ArrayBuffer
 (
 1024

@@ -13,7 +13,16 @@ evalcx
 .
 map
 (
+(
+n
+)
+=
+>
+new
 Int16Array
+(
+n
+)
 [
 ]
 )

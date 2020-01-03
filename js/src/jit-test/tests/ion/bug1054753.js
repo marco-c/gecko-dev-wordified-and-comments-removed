@@ -20,6 +20,7 @@ function
 var
 Int32ArrayView
 =
+new
 Int32Array
 (
 )

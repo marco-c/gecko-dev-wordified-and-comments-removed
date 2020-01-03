@@ -58,6 +58,7 @@ function
 {
 try
 {
+new
 Int8Array
 (
 y

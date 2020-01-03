@@ -16,6 +16,8 @@ a
 +
 )
 {
+new
+(
 (
 function
 (
@@ -26,6 +28,7 @@ Float64Array
 }
 )
 (
+)
 )
 (
 x

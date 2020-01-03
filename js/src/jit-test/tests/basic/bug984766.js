@@ -16,6 +16,7 @@ i
 {
 x
 =
+new
 ArrayBuffer
 (
 4
@@ -31,6 +32,7 @@ function
 {
 }
 )
+new
 Uint16Array
 (
 x

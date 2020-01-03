@@ -29,6 +29,7 @@ return
 \
 has
 :
+new
 ArrayBuffer
 \
 }
