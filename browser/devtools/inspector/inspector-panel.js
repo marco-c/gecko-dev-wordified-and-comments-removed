@@ -2324,15 +2324,6 @@ nodeFront
 ;
 if
 (
-reason
-!
-=
-=
-"
-navigateaway
-"
-&
-&
 this
 .
 canGetUniqueSelector
