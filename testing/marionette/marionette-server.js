@@ -7458,6 +7458,16 @@ xul
 :
 browser
 "
+|
+|
+wantedFrame
+.
+tagName
+=
+=
+"
+browser
+"
 )
 {
 curWindow
