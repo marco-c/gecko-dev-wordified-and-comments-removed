@@ -6447,6 +6447,10 @@ JSHistogram_class
 JSHistogram
 "
 JSCLASS_HAS_PRIVATE
+nullptr
+nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 }
 ;
 JS
@@ -7452,6 +7456,10 @@ JSHistogram_class
 JSKeyedHistogram
 "
 JSCLASS_HAS_PRIVATE
+nullptr
+nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 }
 ;
 JS

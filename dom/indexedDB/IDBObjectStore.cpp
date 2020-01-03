@@ -3925,6 +3925,10 @@ IDBObjectStore
 Dummy
 "
 0
+nullptr
+nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 }
 ;
 IDBObjectStore

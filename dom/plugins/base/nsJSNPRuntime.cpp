@@ -1001,8 +1001,8 @@ JSCLASS_HAS_PRIVATE
 JSCLASS_IMPLEMENTS_BARRIERS
 nullptr
 nullptr
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 nullptr
 nullptr
 NPObjectMember_Convert

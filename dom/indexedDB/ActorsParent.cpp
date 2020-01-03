@@ -57304,8 +57304,8 @@ IndexedDBTransactionThreadGlobal
 JSCLASS_GLOBAL_FLAGS
 nullptr
 nullptr
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 nullptr
 nullptr
 nullptr

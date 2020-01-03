@@ -316,8 +316,8 @@ WITNESS_INSTANCES_SLOTS
 )
 nullptr
 nullptr
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 nullptr
 nullptr
 nullptr

@@ -76,7 +76,7 @@ JSCLASS_HAS_PRIVATE
 nullptr
 nullptr
 test_prop_get
-nullptr
+JS_StrictPropertyStub
 }
 ;
 static

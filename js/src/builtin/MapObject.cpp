@@ -3815,8 +3815,8 @@ SlotCount
 )
 nullptr
 nullptr
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 nullptr
 nullptr
 nullptr
@@ -4660,8 +4660,8 @@ JSProto_Map
 )
 nullptr
 nullptr
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 nullptr
 nullptr
 nullptr
@@ -7635,8 +7635,8 @@ SlotCount
 )
 nullptr
 nullptr
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 nullptr
 nullptr
 nullptr
@@ -8447,8 +8447,8 @@ JSProto_Set
 )
 nullptr
 nullptr
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 nullptr
 nullptr
 nullptr
