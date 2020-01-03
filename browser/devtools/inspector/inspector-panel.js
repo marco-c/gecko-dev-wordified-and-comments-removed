@@ -6270,11 +6270,16 @@ screenshot
 -
 -
 selector
+'
 "
 +
 this
 .
 selectionCssSelector
++
+"
+'
+"
 )
 ;
 }
