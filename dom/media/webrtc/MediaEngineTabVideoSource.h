@@ -64,6 +64,15 @@ MediaEngineTabVideoSource
 ;
 virtual
 void
+Shutdown
+(
+)
+override
+{
+}
+;
+virtual
+void
 GetName
 (
 nsAString_internal
