@@ -1390,15 +1390,16 @@ mozilla
 '
 +
 filename
-[
-len
+.
+split
 (
 '
-mfbt
 /
 '
 )
-:
+[
+-
+1
 ]
             
 mfbt_inclnames
@@ -2832,9 +2833,6 @@ quote
 '
 is
 included
-'
-+
-'
 using
 the
 wrong
