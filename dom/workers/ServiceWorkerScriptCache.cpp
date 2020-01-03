@@ -288,6 +288,7 @@ cache
 CHROME_ONLY_NAMESPACE
 sandboxGlobalObject
 aPrincipal
+false
 aRv
 )
 ;

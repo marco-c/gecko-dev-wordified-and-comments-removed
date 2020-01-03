@@ -44283,6 +44283,9 @@ this
 GetPrincipal
 (
 )
+IsPrivateBrowsing
+(
+)
 aRv
 )
 ;
