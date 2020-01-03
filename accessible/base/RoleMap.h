@@ -1637,7 +1637,7 @@ MATHML_MATH
 math
 "
 ATK_ROLE_MATH
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 ROLE_SYSTEM_EQUATION
 ROLE_SYSTEM_EQUATION
 eNoNameRule
@@ -1650,7 +1650,7 @@ mathml
 identifier
 "
 ATK_ROLE_STATIC
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNameFromSubtreeRule
@@ -1663,7 +1663,7 @@ mathml
 number
 "
 ATK_ROLE_STATIC
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNameFromSubtreeRule
@@ -1676,7 +1676,7 @@ mathml
 operator
 "
 ATK_ROLE_STATIC
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNameFromSubtreeRule
@@ -1689,7 +1689,7 @@ mathml
 text
 "
 ATK_ROLE_STATIC
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNameFromSubtreeRule
@@ -1703,7 +1703,7 @@ string
 literal
 "
 ATK_ROLE_STATIC
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNameFromSubtreeRule
@@ -1716,7 +1716,7 @@ mathml
 glyph
 "
 ATK_ROLE_IMAGE
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNameFromSubtreeRule
@@ -1729,7 +1729,7 @@ mathml
 row
 "
 ATK_ROLE_PANEL
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1742,7 +1742,7 @@ mathml
 fraction
 "
 ATK_ROLE_MATH_FRACTION
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1756,7 +1756,7 @@ square
 root
 "
 ATK_ROLE_MATH_ROOT
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1769,7 +1769,7 @@ mathml
 root
 "
 ATK_ROLE_MATH_ROOT
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1782,7 +1782,7 @@ mathml
 fenced
 "
 ATK_ROLE_PANEL
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1795,7 +1795,7 @@ mathml
 enclosed
 "
 ATK_ROLE_PANEL
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1808,7 +1808,7 @@ mathml
 style
 "
 ATK_ROLE_PANEL
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1821,7 +1821,7 @@ mathml
 sub
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1834,7 +1834,7 @@ mathml
 sup
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1848,7 +1848,7 @@ sub
 sup
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1861,7 +1861,7 @@ mathml
 under
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1874,7 +1874,7 @@ mathml
 over
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1888,7 +1888,7 @@ under
 over
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1901,7 +1901,7 @@ mathml
 multiscripts
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1914,7 +1914,7 @@ mathml
 table
 "
 ATK_ROLE_TABLE
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1928,7 +1928,7 @@ labeled
 row
 "
 ATK_ROLE_TABLE_ROW
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1942,7 +1942,7 @@ table
 row
 "
 ATK_ROLE_TABLE_ROW
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1955,7 +1955,7 @@ mathml
 cell
 "
 ATK_ROLE_TABLE_CELL
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1968,7 +1968,7 @@ mathml
 action
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1981,7 +1981,7 @@ mathml
 error
 "
 ATK_ROLE_PANEL
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -1994,7 +1994,7 @@ mathml
 stack
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -2008,7 +2008,7 @@ long
 division
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -2022,7 +2022,7 @@ stack
 group
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -2036,7 +2036,7 @@ stack
 row
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -2050,7 +2050,7 @@ stack
 carries
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -2064,7 +2064,7 @@ stack
 carry
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
@@ -2078,7 +2078,7 @@ stack
 line
 "
 ATK_ROLE_UNKNOWN
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
 eNoNameRule
