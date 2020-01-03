@@ -10187,8 +10187,6 @@ JSFunction
 :
 Flags
 flags
-HandleObject
-parent
 HandleAtom
 atom
 gc
@@ -10198,6 +10196,8 @@ AllocKind
 allocKind
 NewObjectKind
 newKind
+HandleObject
+enclosingDynamicScope
 )
 {
 return
@@ -10207,7 +10207,16 @@ cx
 nullptr
 nargs
 flags
-parent
+enclosingDynamicScope
+?
+enclosingDynamicScope
+:
+cx
+-
+>
+global
+(
+)
 atom
 NullPtr
 (
@@ -10237,7 +10246,7 @@ JSFunction
 Flags
 flags
 HandleObject
-parent
+enclosingDynamicScope
 HandleAtom
 atom
 HandleObject
@@ -10321,7 +10330,7 @@ MOZ_ASSERT_IF
 (
 native
 !
-parent
+enclosingDynamicScope
 )
 ;
 RootedObject
@@ -10351,7 +10360,7 @@ realParent
 cx
 SkipScopeParent
 (
-parent
+enclosingDynamicScope
 )
 )
 ;
@@ -10472,7 +10481,7 @@ fun
 >
 initEnvironment
 (
-parent
+enclosingDynamicScope
 )
 ;
 }
@@ -11336,10 +11345,10 @@ JSFunction
 :
 :
 INTERPRETED_LAZY
-obj
 atom
 allocKind
 newKind
+obj
 )
 ;
 else

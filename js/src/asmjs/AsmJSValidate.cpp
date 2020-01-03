@@ -46552,16 +46552,6 @@ JSFunction
 :
 :
 INTERPRETED
-m
-.
-cx
-(
-)
--
->
-global
-(
-)
 name
 JSFunction
 :

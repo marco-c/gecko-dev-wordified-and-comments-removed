@@ -2607,8 +2607,6 @@ JSFunction
 :
 Flags
 flags
-HandleObject
-parent
 HandleAtom
 atom
 gc
@@ -2625,6 +2623,12 @@ NewObjectKind
 newKind
 =
 GenericObject
+HandleObject
+enclosingDynamicScope
+=
+NullPtr
+(
+)
 )
 ;
 extern
@@ -2645,7 +2649,7 @@ JSFunction
 Flags
 flags
 HandleObject
-parent
+enclosingDynamicScope
 HandleAtom
 atom
 HandleObject
