@@ -147,7 +147,7 @@ main
 '
 -
 -
-verbose
+silent
 '
                     
 '
