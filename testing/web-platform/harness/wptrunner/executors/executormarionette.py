@@ -95,7 +95,21 @@ do_delayed_imports
 global
 marionette
     
+try
+:
+        
 import
+marionette
+    
+except
+ImportError
+:
+        
+import
+marionette_driver
+.
+marionette
+as
 marionette
 class
 MarionetteTestExecutor
@@ -117,6 +131,10 @@ timeout_multiplier
 =
 1
                  
+debug_args
+=
+None
+                 
 close_after_done
 =
 True
@@ -135,6 +153,7 @@ self
 browser
 http_server_url
 timeout_multiplier
+debug_args
 )
         
 self
@@ -258,6 +277,10 @@ connection
 "
 )
         
+while
+True
+:
+            
 success
 =
 self
@@ -268,6 +291,18 @@ wait_for_port
 (
 60
 )
+            
+if
+success
+or
+self
+.
+debug_args
+is
+None
+:
+                
+break
         
 session_started
 =
@@ -794,6 +829,14 @@ test
 result
 )
         
+if
+self
+.
+debug_args
+is
+None
+:
+            
 self
 .
 timer
@@ -809,7 +852,7 @@ timeout
 extra_timeout
 timeout_func
 )
-        
+            
 self
 .
 timer
@@ -980,6 +1023,15 @@ None
 finally
 :
             
+if
+self
+.
+timer
+is
+not
+None
+:
+                
 self
 .
 timer
@@ -1247,6 +1299,17 @@ timeout
 timeout
 *
 1000
+                           
+"
+explicit_timeout
+"
+:
+self
+.
+debug_args
+is
+not
+None
 }
 new_sandbox
 =

@@ -63,6 +63,17 @@ timeout_multiplier
 "
 :
 timeout_multiplier
+                       
+"
+debug_args
+"
+:
+kwargs
+[
+"
+debug_args
+"
+]
 }
     
 return
@@ -321,6 +332,10 @@ http_server_url
 timeout_multiplier
 =
 1
+                 
+debug_args
+=
+None
 )
 :
         
@@ -445,6 +460,12 @@ self
 timeout_multiplier
 =
 timeout_multiplier
+        
+self
+.
+debug_args
+=
+debug_args
     
 property
     
