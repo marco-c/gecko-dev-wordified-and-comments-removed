@@ -181,6 +181,9 @@ TestTypeTraits
 TestUniquePtr
 '
 '
+TestVariant
+'
+'
 TestVector
 '
 '

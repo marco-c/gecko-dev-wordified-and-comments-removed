@@ -533,6 +533,11 @@ UniquePtr
 h
 '
 '
+Variant
+.
+h
+'
+'
 Vector
 .
 h
