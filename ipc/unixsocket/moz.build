@@ -127,6 +127,11 @@ StreamSocket
 h
 '
 '
+StreamSocketConsumer
+.
+h
+'
+'
 UnixSocketConnector
 .
 h
@@ -158,6 +163,11 @@ cpp
 '
 '
 StreamSocket
+.
+cpp
+'
+'
+StreamSocketConsumer
 .
 cpp
 '
