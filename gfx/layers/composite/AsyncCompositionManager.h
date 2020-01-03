@@ -447,7 +447,7 @@ aLayer
 void
 ApplyAsyncTransformToScrollbar
 (
-ContainerLayer
+Layer
 *
 aLayer
 )
