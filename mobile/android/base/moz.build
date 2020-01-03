@@ -2278,6 +2278,13 @@ java
 '
 home
 /
+RemoteTabsSplitPlaneFragment
+.
+java
+'
+'
+home
+/
 RemoteTabsStaticFragment
 .
 java
