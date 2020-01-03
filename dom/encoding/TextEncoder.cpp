@@ -171,9 +171,6 @@ const
 nsAString
 &
 aString
-const
-bool
-aStream
 JS
 :
 :
@@ -309,12 +306,6 @@ buf
 dstLen
 )
 ;
-if
-(
-!
-aStream
-)
-{
 int32_t
 finishLen
 =
@@ -349,7 +340,6 @@ dstLen
 =
 finishLen
 ;
-}
 }
 JSObject
 *
