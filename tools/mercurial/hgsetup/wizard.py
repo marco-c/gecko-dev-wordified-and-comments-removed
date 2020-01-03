@@ -1180,6 +1180,8 @@ which
 (
 '
 hg
+.
+exe
 '
 )
         
@@ -1187,15 +1189,35 @@ except
 which
 .
 WhichError
+:
+            
+try
+:
+                
+hg
+=
+which
+.
+which
+(
+'
+hg
+'
+)
+            
+except
+which
+.
+WhichError
 as
 e
 :
-            
+                
 print
 (
 e
 )
-            
+                
 print
 (
 '
@@ -1211,7 +1233,7 @@ your
 environment
 is
 '
-                
+                      
 '
 up
 to
@@ -1219,7 +1241,7 @@ date
 .
 '
 )
-            
+                
 return
 1
         
