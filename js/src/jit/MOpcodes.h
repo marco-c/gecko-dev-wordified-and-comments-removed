@@ -834,6 +834,16 @@ LoadElementHole
 \
 _
 (
+LoadUnboxedObjectOrNull
+)
+\
+_
+(
+LoadUnboxedString
+)
+\
+_
+(
 StoreElement
 )
 \

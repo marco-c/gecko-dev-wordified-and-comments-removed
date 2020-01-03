@@ -1177,6 +1177,14 @@ SAFE_OP
 (
 LoadElementHole
 )
+SAFE_OP
+(
+LoadUnboxedObjectOrNull
+)
+SAFE_OP
+(
+LoadUnboxedString
+)
 MAYBE_WRITE_GUARDED_OP
 (
 StoreElement

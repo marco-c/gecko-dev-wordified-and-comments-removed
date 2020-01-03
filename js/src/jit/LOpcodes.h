@@ -1068,6 +1068,16 @@ LoadElementHole
 \
 _
 (
+LoadUnboxedPointerV
+)
+\
+_
+(
+LoadUnboxedPointerT
+)
+\
+_
+(
 StoreElementV
 )
 \
