@@ -4323,15 +4323,17 @@ None
 try
 :
                     
+with
 marionette
 .
-set_context
+using_context
 (
 marionette
 .
 CONTEXT_CHROME
 )
-                    
+:
+                        
 rv
 [
 '
@@ -4345,15 +4347,17 @@ screenshot
 (
 )
                     
+with
 marionette
 .
-set_context
+using_context
 (
 marionette
 .
 CONTEXT_CONTENT
 )
-                    
+:
+                        
 rv
 [
 '
