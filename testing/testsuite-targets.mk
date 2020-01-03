@@ -3705,10 +3705,6 @@ jittest
 \
 stage
 -
-steeplechase
-\
-stage
--
 web
 -
 platform
@@ -3892,6 +3888,16 @@ tests
 stage
 -
 b2g
+endif
+ifdef
+MOZ_WEBRTC
+package
+-
+tests
+:
+stage
+-
+steeplechase
 endif
 make
 -
