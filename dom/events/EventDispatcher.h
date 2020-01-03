@@ -57,6 +57,9 @@ namespace
 dom
 {
 class
+Event
+;
+class
 EventTarget
 ;
 }
@@ -414,7 +417,13 @@ aEventStatus
 )
 ;
 static
-nsresult
+already_AddRefed
+<
+dom
+:
+:
+Event
+>
 CreateEvent
 (
 dom
@@ -433,10 +442,6 @@ const
 nsAString
 &
 aEventType
-nsIDOMEvent
-*
-*
-aDOMEvent
 )
 ;
 static

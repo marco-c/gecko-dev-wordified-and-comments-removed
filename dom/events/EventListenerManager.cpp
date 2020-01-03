@@ -5454,6 +5454,12 @@ aEvent
 originalTarget
 )
 ;
+nsRefPtr
+<
+Event
+>
+event
+=
 EventDispatcher
 :
 :
@@ -5465,6 +5471,12 @@ aEvent
 EmptyString
 (
 )
+)
+;
+event
+.
+forget
+(
 aDOMEvent
 )
 ;
