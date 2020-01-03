@@ -318,6 +318,12 @@ OS
 '
 Elementary
 '
+'
+"
+elementary
+OS
+"
+'
 )
 :
                 
