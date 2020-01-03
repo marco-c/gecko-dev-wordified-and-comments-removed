@@ -971,6 +971,11 @@ InitializeNetworkLinkService
 (
 )
 ;
+SetOffline
+(
+false
+)
+;
 return
 NS_OK
 ;
