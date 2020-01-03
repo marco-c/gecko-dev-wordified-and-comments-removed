@@ -941,6 +941,10 @@ formOrigin
 {
 let
 formHost
+;
+try
+{
+formHost
 =
 (
 new
@@ -969,6 +973,13 @@ getRecipesForHost
 formHost
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 }
 if
 (
