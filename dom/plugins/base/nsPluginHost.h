@@ -410,6 +410,10 @@ nsPluginTag
 >
 &
 aPluginArray
+bool
+aIncludeDisabled
+=
+false
 )
 ;
 void
