@@ -44,17 +44,6 @@ mozilla
 /
 dom
 /
-UnionTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 HTMLCollectionBinding
 .
 h
