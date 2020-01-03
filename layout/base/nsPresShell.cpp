@@ -17507,7 +17507,7 @@ mTouchCaret
 mTouchCaret
 -
 >
-UpdatePositionIfNeeded
+SyncVisibilityWithCaret
 (
 )
 ;
