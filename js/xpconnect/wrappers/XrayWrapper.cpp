@@ -10899,7 +10899,7 @@ Traits
 >
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -10919,7 +10919,7 @@ js
 BaseProxyHandler
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 wrapper

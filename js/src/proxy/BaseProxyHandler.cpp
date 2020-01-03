@@ -984,7 +984,7 @@ bool
 BaseProxyHandler
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -1216,7 +1216,7 @@ JSITER_OWNONLY
 )
 ?
 !
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 proxy

@@ -298,7 +298,7 @@ bp
 }
 virtual
 bool
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -316,7 +316,7 @@ return
 BaseProxyHandler
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 proxy

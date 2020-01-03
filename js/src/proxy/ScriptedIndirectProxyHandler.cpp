@@ -1799,7 +1799,7 @@ bool
 ScriptedIndirectProxyHandler
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -1862,7 +1862,7 @@ return
 BaseProxyHandler
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 proxy

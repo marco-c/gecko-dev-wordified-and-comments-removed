@@ -656,7 +656,7 @@ Policy
 >
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
@@ -684,7 +684,7 @@ return
 Base
 :
 :
-keys
+getOwnEnumerablePropertyKeys
 (
 cx
 wrapper

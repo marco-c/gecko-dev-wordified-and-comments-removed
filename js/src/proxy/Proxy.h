@@ -313,7 +313,7 @@ bp
 ;
 static
 bool
-keys
+getOwnEnumerablePropertyKeys
 (
 JSContext
 *
