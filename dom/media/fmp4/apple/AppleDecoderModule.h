@@ -32,10 +32,12 @@ AppleDecoderModule
 (
 )
 ;
+virtual
 nsresult
 Startup
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

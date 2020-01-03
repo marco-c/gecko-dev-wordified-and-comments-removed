@@ -98,6 +98,11 @@ EXPORTS
 =
 [
 '
+AVCCDecoderModule
+.
+h
+'
+'
 MP4Decoder
 .
 h
@@ -127,6 +132,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AVCCDecoderModule
+.
+cpp
+'
 '
 BlankDecoderModule
 .
