@@ -1511,7 +1511,7 @@ rv
 =
 CMBlockBufferCreateWithMemoryBlock
 (
-NULL
+kCFAllocatorDefault
 aSample
 -
 >
@@ -1562,7 +1562,7 @@ rv
 =
 CMSampleBufferCreate
 (
-NULL
+kCFAllocatorDefault
 block
 true
 0
@@ -1684,7 +1684,7 @@ extensions
 =
 CFDictionaryCreateMutable
 (
-NULL
+kCFAllocatorDefault
 0
 &
 kCFTypeDictionaryKeyCallBacks
@@ -1740,7 +1740,7 @@ atoms
 =
 CFDictionaryCreateMutable
 (
-NULL
+kCFAllocatorDefault
 0
 &
 kCFTypeDictionaryKeyCallBacks
@@ -1756,7 +1756,7 @@ avc_data
 =
 CFDataCreate
 (
-NULL
+kCFAllocatorDefault
 mConfig
 .
 extra_data
@@ -1907,7 +1907,7 @@ rv
 =
 CMVideoFormatDescriptionCreate
 (
-NULL
+kCFAllocatorDefault
 kCMVideoCodecType_H264
 mConfig
 .
@@ -2011,7 +2011,7 @@ IOSurfaceProperties
 =
 CFDictionaryCreate
 (
-NULL
+kCFAllocatorDefault
 IOSurfaceKeys
 IOSurfaceValues
 ArrayLength
@@ -2037,7 +2037,7 @@ PixelFormatTypeNumber
 =
 CFNumberCreate
 (
-NULL
+kCFAllocatorDefault
 kCFNumberSInt32Type
 &
 PixelFormatTypeValue
@@ -2077,7 +2077,7 @@ outputConfiguration
 =
 CFDictionaryCreate
 (
-NULL
+kCFAllocatorDefault
 outputKeys
 outputValues
 ArrayLength
@@ -2102,7 +2102,7 @@ rv
 =
 VTDecompressionSessionCreate
 (
-NULL
+kCFAllocatorDefault
 mFormat
 spec
 outputConfiguration
@@ -2194,7 +2194,7 @@ kCFBooleanTrue
 return
 CFDictionaryCreate
 (
-NULL
+kCFAllocatorDefault
 specKeys
 specValues
 ArrayLength
