@@ -781,6 +781,11 @@ nsReadLine
 h
 '
 '
+nsSimpleURI
+.
+h
+'
+'
 nsStreamListenerWrapper
 .
 h
