@@ -36,8 +36,16 @@ nsISupportsImpl
 h
 "
 using
-namespace
 base
+:
+:
+GetCurrentProcessHandle
+;
+using
+base
+:
+:
+ProcessHandle
 ;
 namespace
 mozilla

@@ -74,10 +74,6 @@ h
 "
 #
 endif
-using
-namespace
-base
-;
 namespace
 mozilla
 {
