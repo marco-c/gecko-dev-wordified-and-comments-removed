@@ -280,3 +280,15 @@ accesskey
 l
 "
 >
+<
+!
+ENTITY
+searchTextBox
+.
+clear
+.
+label
+"
+Clear
+"
+>

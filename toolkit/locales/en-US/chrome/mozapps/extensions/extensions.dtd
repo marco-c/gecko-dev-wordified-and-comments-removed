@@ -88,6 +88,16 @@ ons
 >
 <
 !
+ENTITY
+search
+.
+buttonlabel
+"
+Search
+"
+>
+<
+!
 -
 -
 LOCALIZATION

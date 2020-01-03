@@ -1908,6 +1908,15 @@ searchbutton
 "
 true
 "
+searchbuttonlabel
+=
+"
+&
+search
+.
+buttonlabel
+;
+"
 placeholder
 =
 "
