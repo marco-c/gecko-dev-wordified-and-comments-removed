@@ -2535,10 +2535,7 @@ nppPusher
 mNPP
 )
 ;
-DebugOnly
-<
 NPError
->
 error
 ;
 NS_TRY_SAFE_CALL_RETURN
@@ -2563,6 +2560,14 @@ window
 this
 NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
+;
+mozilla
+:
+:
+unused
+<
+<
+error
 ;
 mInPluginInitCall
 =
@@ -2666,9 +2671,6 @@ window
 clipRect
 .
 right
-(
-NPError
-)
 error
 )
 )
