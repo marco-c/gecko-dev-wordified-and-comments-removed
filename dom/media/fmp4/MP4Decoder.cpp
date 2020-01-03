@@ -832,6 +832,15 @@ AndroidBridge
 Bridge
 (
 )
+&
+&
+(
+AndroidBridge
+:
+:
+Bridge
+(
+)
 -
 >
 GetAPIVersion
@@ -840,6 +849,7 @@ GetAPIVersion
 >
 =
 16
+)
 ;
 #
 endif
