@@ -359,17 +359,6 @@ layout
 web_app
 ;
 }
-Override
-public
-boolean
-hasTabsSideBar
-(
-)
-{
-return
-false
-;
-}
 public
 WebappImpl
 (

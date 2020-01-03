@@ -456,17 +456,6 @@ result
 }
 Override
 public
-boolean
-hasTabsSideBar
-(
-)
-{
-return
-false
-;
-}
-Override
-public
 void
 invalidateOptionsMenu
 (

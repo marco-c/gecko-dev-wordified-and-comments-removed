@@ -11442,12 +11442,6 @@ result
 )
 ;
 public
-boolean
-hasTabsSideBar
-(
-)
-;
-public
 void
 invalidateOptionsMenu
 (
