@@ -6699,7 +6699,7 @@ selectioncaret
 .
 enabled
 "
-false
+true
 )
 ;
 pref
