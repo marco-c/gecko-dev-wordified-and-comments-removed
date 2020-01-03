@@ -392,7 +392,7 @@ void
 GeckoTouchDispatcher
 :
 :
-SetCompositorVsyncObserver
+SetCompositorVsyncScheduler
 (
 mozilla
 :
@@ -400,7 +400,7 @@ mozilla
 layers
 :
 :
-CompositorVsyncObserver
+CompositorVsyncScheduler
 *
 aObserver
 )
@@ -414,7 +414,7 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-mCompositorVsyncObserver
+mCompositorVsyncScheduler
 =
 =
 nullptr
@@ -425,7 +425,7 @@ if
 mResamplingEnabled
 )
 {
-mCompositorVsyncObserver
+mCompositorVsyncScheduler
 =
 aObserver
 ;
@@ -477,10 +477,10 @@ aEventTime
 {
 if
 (
-mCompositorVsyncObserver
+mCompositorVsyncScheduler
 )
 {
-mCompositorVsyncObserver
+mCompositorVsyncScheduler
 -
 >
 SetNeedsComposite

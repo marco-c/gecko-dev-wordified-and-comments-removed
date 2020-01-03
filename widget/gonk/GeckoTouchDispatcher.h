@@ -49,7 +49,7 @@ namespace
 layers
 {
 class
-CompositorVsyncObserver
+CompositorVsyncScheduler
 ;
 }
 class
@@ -108,12 +108,12 @@ aVsyncTimestamp
 )
 ;
 void
-SetCompositorVsyncObserver
+SetCompositorVsyncScheduler
 (
 layers
 :
 :
-CompositorVsyncObserver
+CompositorVsyncScheduler
 *
 aObserver
 )
@@ -207,9 +207,9 @@ nsRefPtr
 layers
 :
 :
-CompositorVsyncObserver
+CompositorVsyncScheduler
 >
-mCompositorVsyncObserver
+mCompositorVsyncScheduler
 ;
 }
 ;
