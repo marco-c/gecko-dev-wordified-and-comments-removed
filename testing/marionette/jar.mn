@@ -245,6 +245,16 @@ emulator
 .
 js
 )
+content
+/
+modal
+.
+js
+(
+modal
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
