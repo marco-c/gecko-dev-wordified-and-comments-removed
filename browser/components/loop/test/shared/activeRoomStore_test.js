@@ -4041,7 +4041,7 @@ set
 the
 state
 to
-ENDED
+CLOSING
 "
 function
 (
@@ -4066,7 +4066,7 @@ eql
 (
 ROOM_STATES
 .
-ENDED
+CLOSING
 )
 ;
 }

@@ -162,6 +162,13 @@ room
 -
 ended
 "
+CLOSING
+:
+"
+room
+-
+closing
+"
 }
 ;
 var
@@ -1242,6 +1249,9 @@ this
 .
 _leaveRoom
 (
+ROOM_STATES
+.
+CLOSING
 )
 ;
 this
