@@ -250,7 +250,7 @@ BlockWorklist
 remainingBlocks_
 ;
 size_t
-numBlocksDeleted_
+numBlocksDiscarded_
 ;
 bool
 rerun_
@@ -272,7 +272,7 @@ SetUseRemoved
 }
 ;
 bool
-deleteDefsRecursively
+discardDefsRecursively
 (
 MDefinition
 *
@@ -308,7 +308,7 @@ SetUseRemoved
 )
 ;
 bool
-deleteDef
+discardDef
 (
 MDefinition
 *

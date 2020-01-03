@@ -920,7 +920,7 @@ bool
 ValueNumberer
 :
 :
-deleteDefsRecursively
+discardDefsRecursively
 (
 MDefinition
 *
@@ -928,7 +928,7 @@ def
 )
 {
 return
-deleteDef
+discardDef
 (
 def
 )
@@ -1165,7 +1165,7 @@ bool
 ValueNumberer
 :
 :
-deleteDef
+discardDef
 (
 MDefinition
 *
@@ -1178,7 +1178,7 @@ JitSpew
 (
 JitSpew_GVN
 "
-Deleting
+Discarding
 %
 s
 %
@@ -1205,7 +1205,7 @@ IsDead
 def
 )
 "
-Deleting
+Discarding
 non
 -
 dead
@@ -1223,7 +1223,7 @@ has
 def
 )
 "
-Deleting
+Discarding
 an
 instruction
 still
@@ -1380,7 +1380,7 @@ def
 if
 (
 !
-deleteDef
+discardDef
 (
 def
 )
@@ -1753,7 +1753,7 @@ JitSpew
 (
 JitSpew_GVN
 "
-Deleting
+Discarding
 block
 %
 u
@@ -1849,7 +1849,7 @@ JitSpew
 (
 JitSpew_GVN
 "
-Deleting
+Discarding
 %
 s
 %
@@ -1885,7 +1885,7 @@ JitSpew
 (
 JitSpew_GVN
 "
-Deleting
+Discarding
 %
 s
 %
@@ -1919,7 +1919,7 @@ block
 )
 +
 +
-numBlocksDeleted_
+numBlocksDiscarded_
 ;
 graph_
 .
@@ -2394,7 +2394,7 @@ def
 if
 (
 !
-deleteDefsRecursively
+discardDefsRecursively
 (
 def
 )
@@ -2517,7 +2517,7 @@ bool
 >
 r
 =
-deleteDef
+discardDef
 (
 def
 DontSetUseRemoved
@@ -2527,7 +2527,7 @@ MOZ_ASSERT
 (
 r
 "
-deleteDef
+discardDef
 shouldn
 '
 t
@@ -2559,7 +2559,7 @@ empty
 (
 )
 "
-deleteDef
+discardDef
 shouldn
 '
 t
@@ -3022,7 +3022,7 @@ def
 if
 (
 !
-deleteDefsRecursively
+discardDefsRecursively
 (
 def
 )
@@ -3152,12 +3152,12 @@ point
 ;
 MOZ_ASSERT
 (
-numBlocksDeleted_
+numBlocksDiscarded_
 =
 =
 0
 "
-numBlocksDeleted_
+numBlocksDiscarded_
 wasn
 '
 t
@@ -3337,7 +3337,7 @@ numDominated
 (
 )
 -
-numBlocksDeleted_
+numBlocksDiscarded_
 "
 Visited
 blocks
@@ -3359,7 +3359,7 @@ numDominated
 (
 )
 -
-numBlocksDeleted_
+numBlocksDiscarded_
 )
 break
 ;
@@ -3376,7 +3376,7 @@ clear
 (
 )
 ;
-numBlocksDeleted_
+numBlocksDiscarded_
 =
 0
 ;
@@ -3556,7 +3556,7 @@ alloc
 (
 )
 )
-numBlocksDeleted_
+numBlocksDiscarded_
 (
 0
 )
