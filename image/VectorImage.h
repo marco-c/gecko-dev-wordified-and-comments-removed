@@ -273,6 +273,12 @@ mParseCompleteListener
 uint32_t
 mLockCount
 ;
+Maybe
+<
+Progress
+>
+mLoadProgress
+;
 bool
 mIsInitialized
 ;
