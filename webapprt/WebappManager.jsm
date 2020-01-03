@@ -327,6 +327,14 @@ uninstall
 (
 data
 )
+.
+then
+(
+null
+Cu
+.
+reportError
+)
 ;
 break
 ;
