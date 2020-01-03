@@ -239,6 +239,8 @@ QRFCOC_faviconChanged
 (
 )
 {
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

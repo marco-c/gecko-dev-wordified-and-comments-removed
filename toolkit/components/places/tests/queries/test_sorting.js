@@ -6045,6 +6045,8 @@ setup
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

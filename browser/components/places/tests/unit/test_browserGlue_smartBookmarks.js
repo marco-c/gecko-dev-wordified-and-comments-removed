@@ -1696,6 +1696,8 @@ function
 (
 )
 {
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

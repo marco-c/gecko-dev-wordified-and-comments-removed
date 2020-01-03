@@ -128,6 +128,8 @@ function
 (
 )
 {
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

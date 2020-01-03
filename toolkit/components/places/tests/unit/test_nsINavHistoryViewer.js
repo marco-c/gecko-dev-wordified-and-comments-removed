@@ -740,6 +740,8 @@ reset
 (
 )
 ;
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -1128,6 +1130,8 @@ reset
 (
 )
 ;
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -1309,6 +1313,8 @@ reset
 (
 )
 ;
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

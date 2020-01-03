@@ -450,6 +450,8 @@ bookmark
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

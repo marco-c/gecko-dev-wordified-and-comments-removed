@@ -34,6 +34,8 @@ url
 )
 {
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

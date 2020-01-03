@@ -1111,6 +1111,8 @@ length
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

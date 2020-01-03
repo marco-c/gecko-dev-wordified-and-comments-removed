@@ -449,6 +449,8 @@ test
 )
 {
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

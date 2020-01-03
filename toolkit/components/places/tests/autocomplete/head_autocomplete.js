@@ -1370,6 +1370,8 @@ gNextTestSetupTasks
 ]
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

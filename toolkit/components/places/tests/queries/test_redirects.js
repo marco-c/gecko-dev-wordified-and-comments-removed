@@ -1239,6 +1239,8 @@ test_redirects
 )
 {
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

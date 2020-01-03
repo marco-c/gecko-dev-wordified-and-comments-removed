@@ -700,6 +700,8 @@ true
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -752,6 +754,8 @@ bookmarksExportedFile
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -780,6 +784,8 @@ true
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -813,6 +819,8 @@ true
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -826,6 +834,8 @@ bookmarksExportedFile
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -840,6 +850,8 @@ true
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

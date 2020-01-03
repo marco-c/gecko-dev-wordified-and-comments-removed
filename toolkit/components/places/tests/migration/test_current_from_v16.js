@@ -106,6 +106,8 @@ moz_hosts
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

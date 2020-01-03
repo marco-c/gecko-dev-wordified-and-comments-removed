@@ -566,6 +566,8 @@ testvalue1
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )

@@ -453,6 +453,8 @@ TRANSITION_LINK
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
@@ -494,6 +496,8 @@ TOPIC_EXPIRATION_FINISHED
 )
 ;
 yield
+PlacesTestUtils
+.
 promiseAsyncUpdates
 (
 )
