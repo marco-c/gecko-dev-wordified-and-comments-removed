@@ -7736,6 +7736,12 @@ webgl
 )
 {
 return
+!
+webgl
+.
+mBoundDrawFramebuffer
+&
+&
 webgl
 .
 mNeedsFakeNoAlpha
