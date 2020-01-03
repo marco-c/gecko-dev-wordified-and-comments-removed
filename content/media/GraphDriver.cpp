@@ -2480,6 +2480,10 @@ GraphDriver
 (
 aGraphImpl
 )
+mIterationDurationMS
+(
+MEDIA_GRAPH_TARGET_PERIOD_MS
+)
 mStarted
 (
 false
