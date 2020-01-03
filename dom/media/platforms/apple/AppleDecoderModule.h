@@ -119,12 +119,6 @@ Init
 (
 )
 ;
-static
-nsresult
-CanDecode
-(
-)
-;
 private
 :
 friend

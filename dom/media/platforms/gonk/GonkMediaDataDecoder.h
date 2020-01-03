@@ -11,16 +11,7 @@ GonkMediaDataDecoder_h_
 #
 include
 "
-mozilla
-/
-RefPtr
-.
-h
-"
-#
-include
-"
-MP4Reader
+PlatformDecoderModule
 .
 h
 "
