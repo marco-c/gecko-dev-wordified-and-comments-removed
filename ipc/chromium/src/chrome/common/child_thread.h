@@ -35,6 +35,15 @@ message_router
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
 class
 ResourceDispatcher
 ;
@@ -258,7 +267,10 @@ std
 wstring
 channel_name_
 ;
-scoped_ptr
+mozilla
+:
+:
+UniquePtr
 <
 IPC
 :

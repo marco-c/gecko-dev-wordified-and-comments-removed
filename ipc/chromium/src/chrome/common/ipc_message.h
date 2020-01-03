@@ -56,9 +56,7 @@ OS_POSIX
 #
 include
 "
-base
-/
-ref_counted
+nsAutoPtr
 .
 h
 "
@@ -1400,7 +1398,7 @@ defined
 (
 OS_POSIX
 )
-scoped_refptr
+nsRefPtr
 <
 FileDescriptorSet
 >

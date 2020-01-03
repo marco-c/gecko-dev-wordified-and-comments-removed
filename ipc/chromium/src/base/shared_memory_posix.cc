@@ -82,6 +82,15 @@ string_util
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
 namespace
 base
 {
@@ -631,7 +640,10 @@ x
 }
 ;
 typedef
-scoped_ptr_malloc
+mozilla
+:
+:
+UniquePtr
 <
 FILE
 ScopedFILEClose
