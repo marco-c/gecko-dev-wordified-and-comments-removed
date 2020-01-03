@@ -3549,8 +3549,7 @@ markingValidator
 ;
 #
 endif
-volatile
-uintptr_t
+bool
 interFrameGC
 ;
 int64_t
