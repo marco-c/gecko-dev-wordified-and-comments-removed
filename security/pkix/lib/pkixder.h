@@ -2045,6 +2045,17 @@ algorithm
 )
 ;
 Result
+NamedCurveOID
+(
+Reader
+&
+input
+NamedCurve
+&
+namedCurve
+)
+;
+Result
 SignedData
 (
 Reader
