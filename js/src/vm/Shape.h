@@ -248,13 +248,6 @@ Nursery
 class
 StaticBlockObject
 ;
-namespace
-gc
-{
-class
-ForkJoinNursery
-;
-}
 typedef
 JSPropertyOp
 PropertyOp
@@ -1898,13 +1891,6 @@ Bindings
 friend
 class
 Nursery
-;
-friend
-class
-gc
-:
-:
-ForkJoinNursery
 ;
 friend
 class

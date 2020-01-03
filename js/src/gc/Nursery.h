@@ -133,9 +133,6 @@ Collector
 class
 MinorCollectionTracer
 ;
-class
-ForkJoinNursery
-;
 }
 namespace
 types
