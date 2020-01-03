@@ -2035,7 +2035,7 @@ b
 \
 !
 =
-PRId32
+FMTd32
 __VA_ARGS__
 )
 #
@@ -2058,7 +2058,7 @@ b
 \
 =
 =
-PRId32
+FMTd32
 __VA_ARGS__
 )
 #
@@ -2080,7 +2080,7 @@ b
 \
 >
 =
-PRId32
+FMTd32
 __VA_ARGS__
 )
 #
@@ -2102,7 +2102,7 @@ b
 =
 \
 >
-PRId32
+FMTd32
 __VA_ARGS__
 )
 #
@@ -2124,7 +2124,7 @@ b
 =
 \
 <
-PRId32
+FMTd32
 __VA_ARGS__
 )
 #
@@ -2146,7 +2146,7 @@ b
 \
 <
 =
-PRId32
+FMTd32
 __VA_ARGS__
 )
 #
@@ -2169,7 +2169,7 @@ b
 \
 !
 =
-PRIu32
+FMTu32
 __VA_ARGS__
 )
 #
@@ -2192,7 +2192,7 @@ b
 \
 =
 =
-PRIu32
+FMTu32
 __VA_ARGS__
 )
 #
@@ -2214,7 +2214,7 @@ b
 \
 >
 =
-PRIu32
+FMTu32
 __VA_ARGS__
 )
 #
@@ -2236,7 +2236,7 @@ b
 =
 \
 >
-PRIu32
+FMTu32
 __VA_ARGS__
 )
 #
@@ -2258,7 +2258,7 @@ b
 =
 \
 <
-PRIu32
+FMTu32
 __VA_ARGS__
 )
 #
@@ -2280,7 +2280,7 @@ b
 \
 <
 =
-PRIu32
+FMTu32
 __VA_ARGS__
 )
 #
@@ -2303,7 +2303,7 @@ b
 \
 !
 =
-PRId64
+FMTd64
 __VA_ARGS__
 )
 #
@@ -2326,7 +2326,7 @@ b
 \
 =
 =
-PRId64
+FMTd64
 __VA_ARGS__
 )
 #
@@ -2348,7 +2348,7 @@ b
 \
 >
 =
-PRId64
+FMTd64
 __VA_ARGS__
 )
 #
@@ -2370,7 +2370,7 @@ b
 =
 \
 >
-PRId64
+FMTd64
 __VA_ARGS__
 )
 #
@@ -2392,7 +2392,7 @@ b
 =
 \
 <
-PRId64
+FMTd64
 __VA_ARGS__
 )
 #
@@ -2414,7 +2414,7 @@ b
 \
 <
 =
-PRId64
+FMTd64
 __VA_ARGS__
 )
 #
@@ -2437,7 +2437,7 @@ b
 \
 !
 =
-PRIu64
+FMTu64
 __VA_ARGS__
 )
 #
@@ -2460,7 +2460,7 @@ b
 \
 =
 =
-PRIu64
+FMTu64
 __VA_ARGS__
 )
 #
@@ -2482,7 +2482,7 @@ b
 \
 >
 =
-PRIu64
+FMTu64
 __VA_ARGS__
 )
 #
@@ -2504,7 +2504,7 @@ b
 =
 \
 >
-PRIu64
+FMTu64
 __VA_ARGS__
 )
 #
@@ -2526,7 +2526,7 @@ b
 =
 \
 <
-PRIu64
+FMTu64
 __VA_ARGS__
 )
 #
@@ -2548,7 +2548,7 @@ b
 \
 <
 =
-PRIu64
+FMTu64
 __VA_ARGS__
 )
 #
@@ -3389,14 +3389,10 @@ format
 .
 .
 )
-JEMALLOC_ATTR
+JEMALLOC_FORMAT_PRINTF
 (
-format
-(
-printf
 1
 2
-)
 )
 ;
 void
@@ -3410,14 +3406,10 @@ format
 .
 .
 )
-JEMALLOC_ATTR
+JEMALLOC_FORMAT_PRINTF
 (
-format
-(
-printf
 1
 2
-)
 )
 ;
 test_status_t

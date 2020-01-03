@@ -355,7 +355,7 @@ Examples
 %
 tools
 /
-pprof
+jeprof
 "
 program
 "
@@ -373,7 +373,7 @@ mode
 %
 tools
 /
-pprof
+jeprof
 -
 -
 text
@@ -394,7 +394,7 @@ procedure
 %
 tools
 /
-pprof
+jeprof
 -
 -
 gv
@@ -421,7 +421,7 @@ gv
 %
 tools
 /
-pprof
+jeprof
 -
 -
 gv
@@ -455,7 +455,7 @@ Mutex
 %
 tools
 /
-pprof
+jeprof
 -
 -
 gv
@@ -502,7 +502,7 @@ string
 %
 tools
 /
-pprof
+jeprof
 -
 -
 list
@@ -560,7 +560,7 @@ line
 %
 tools
 /
-pprof
+jeprof
 -
 -
 disasm
@@ -637,6 +637,13 @@ Getopt
 Long
 ;
 my
+JEPROF_VERSION
+=
+"
+jemalloc_version
+"
+;
+my
 PPROF_VERSION
 =
 "
@@ -669,7 +676,7 @@ using
 tools
 from
 the
-PPROF_TOOLS
+JEPROF_TOOLS
 #
 environment
 variable
@@ -1351,7 +1358,7 @@ EOF
 ;
 Usage
 :
-pprof
+jeprof
 [
 options
 ]
@@ -1373,7 +1380,7 @@ of
 profile
 names
 .
-pprof
+jeprof
 [
 options
 ]
@@ -1415,7 +1422,7 @@ with
 raw
 )
 .
-pprof
+jeprof
 [
 options
 ]
@@ -1504,7 +1511,7 @@ filteredprofile
 For
 instance
 :
-pprof
+jeprof
 http
 :
 /
@@ -1532,7 +1539,7 @@ cpu
 profiling
 )
 .
-pprof
+jeprof
 -
 -
 symbols
@@ -1885,7 +1892,7 @@ stdout
 raw
 Generate
 symbolized
-pprof
+jeprof
 data
 (
 useful
@@ -2189,7 +2196,7 @@ information
 Environment
 Variables
 :
-PPROF_TMPDIR
+JEPROF_TMPDIR
 Profiles
 directory
 .
@@ -2198,8 +2205,8 @@ to
 \
 HOME
 /
-pprof
-PPROF_TOOLS
+jeprof
+JEPROF_TOOLS
 Prefix
 for
 object
@@ -2207,7 +2214,7 @@ tools
 pathnames
 Examples
 :
-pprof
+jeprof
 /
 bin
 /
@@ -2220,7 +2227,7 @@ Enters
 interactive
 "
 mode
-pprof
+jeprof
 -
 -
 text
@@ -2236,7 +2243,7 @@ one
 line
 per
 procedure
-pprof
+jeprof
 -
 -
 web
@@ -2255,7 +2262,7 @@ graph
 in
 web
 browser
-pprof
+jeprof
 -
 -
 gv
@@ -2275,7 +2282,7 @@ via
 '
 gv
 '
-pprof
+jeprof
 -
 -
 gv
@@ -2303,7 +2310,7 @@ Mutex
 .
 *
 entry
-pprof
+jeprof
 -
 -
 gv
@@ -2331,7 +2338,7 @@ Mutex
 but
 not
 string
-pprof
+jeprof
 -
 -
 list
@@ -2356,7 +2363,7 @@ for
 getdir
 (
 )
-pprof
+jeprof
 -
 -
 disasm
@@ -2380,7 +2387,7 @@ for
 getdir
 (
 )
-pprof
+jeprof
 http
 :
 /
@@ -2394,7 +2401,7 @@ Enters
 interactive
 "
 mode
-pprof
+jeprof
 -
 -
 text
@@ -2410,7 +2417,7 @@ for
 localhost
 :
 1234
-pprof
+jeprof
 -
 -
 raw
@@ -2423,7 +2430,7 @@ localhost
 local
 .
 raw
-pprof
+jeprof
 -
 -
 text
@@ -2456,6 +2463,15 @@ return
 <
 <
 EOF
+jeprof
+(
+part
+of
+jemalloc
+JEPROF_VERSION
+)
+based
+on
 pprof
 (
 part
@@ -2604,7 +2620,7 @@ tmpfile_sym
 /
 tmp
 /
-pprof
+jeprof
 .
 sym
 "
@@ -2618,7 +2634,7 @@ tmpfile_ps
 /
 tmp
 /
-pprof
+jeprof
 "
 ;
 main
@@ -6338,7 +6354,7 @@ STDERR
 "
 Welcome
 to
-pprof
+jeprof
 !
 For
 help
@@ -6401,7 +6417,7 @@ Term
 :
 ReadLine
 '
-pprof
+jeprof
 '
 ;
 while
@@ -6417,7 +6433,7 @@ readline
 (
 '
 (
-pprof
+jeprof
 )
 '
 )
@@ -6482,7 +6498,7 @@ print
 STDERR
 "
 (
-pprof
+jeprof
 )
 "
 ;
@@ -7737,7 +7753,7 @@ STDERR
 ENDOFHELP
 ;
 Interactive
-pprof
+jeprof
 mode
 Commands
 :
@@ -8077,7 +8093,7 @@ or
 D
 -
 End
-pprof
+jeprof
 For
 commands
 that
@@ -11371,7 +11387,7 @@ javascript
 "
 >
 function
-pprof_toggle_asm
+jeprof_toggle_asm
 (
 e
 )
@@ -13397,7 +13413,7 @@ onClick
 =
 \
 "
-pprof_toggle_asm
+jeprof_toggle_asm
 (
 )
 \
@@ -25154,7 +25170,7 @@ profile_dir
 ENV
 {
 "
-PPROF_TMPDIR
+JEPROF_TMPDIR
 "
 }
 |
@@ -25167,7 +25183,7 @@ HOME
 .
 "
 /
-pprof
+jeprof
 "
 )
 ;
@@ -27163,9 +27179,9 @@ that
 are
 instructions
 to
-pprof
+jeprof
 which
-pprof
+jeprof
 executes
 when
 reading
@@ -32173,7 +32189,7 @@ with
 this
 value
 in
-pprof
+jeprof
 #
 So
 we
@@ -32203,7 +32219,7 @@ with
 this
 value
 in
-pprof
+jeprof
 #
 So
 we
@@ -34678,7 +34694,7 @@ address_length
 .
 #
 Run
-pprof
+jeprof
 -
 -
 test
@@ -35049,7 +35065,7 @@ address_length
 .
 #
 Run
-pprof
+jeprof
 -
 -
 test
@@ -35420,7 +35436,7 @@ address_length
 .
 #
 Run
-pprof
+jeprof
 -
 -
 test
@@ -38107,7 +38123,7 @@ set
 #
 2
 )
-PPROF_TOOLS
+JEPROF_TOOLS
 environment
 variable
 if
@@ -38398,7 +38414,7 @@ the
 same
 directory
 as
-pprof
+jeprof
 .
 obj_tool_map
 {
@@ -38548,7 +38564,7 @@ If
 tools
 or
 #
-PPROF_TOOLS
+JEPROF_TOOLS
 are
 specified
 then
@@ -38599,7 +38615,7 @@ path
 tools
 (
 or
-PPROF_TOOLS
+JEPROF_TOOLS
 )
 is
 a
@@ -38697,7 +38713,7 @@ opt_tools
 ENV
 {
 "
-PPROF_TOOLS
+JEPROF_TOOLS
 "
 }
 |
@@ -38844,7 +38860,7 @@ tools
 (
 or
 \
-PPROF_TOOLS
+JEPROF_TOOLS
 )
 '
 tools
@@ -38874,7 +38890,7 @@ same
 directory
 as
 #
-pprof
+jeprof
 .
 If
 there
@@ -39095,7 +39111,7 @@ profiles
 in
 HOME
 /
-pprof
+jeprof
 in
 case
 the
@@ -39201,7 +39217,7 @@ n
 print
 STDERR
 "
-pprof
+jeprof
 \
 \
 \
@@ -40910,7 +40926,7 @@ representation
 #
 used
 by
-pprof
+jeprof
 to
 represent
 addresses

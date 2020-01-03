@@ -109,6 +109,10 @@ bitmap_t
 *
 bitmap
 =
+(
+bitmap_t
+*
+)
 malloc
 (
 sizeof
@@ -214,6 +218,10 @@ bitmap_t
 *
 bitmap
 =
+(
+bitmap_t
+*
+)
 malloc
 (
 sizeof
@@ -325,6 +333,10 @@ bitmap_t
 *
 bitmap
 =
+(
+bitmap_t
+*
+)
 malloc
 (
 sizeof
@@ -497,6 +509,10 @@ bitmap_t
 *
 bitmap
 =
+(
+bitmap_t
+*
+)
 malloc
 (
 sizeof

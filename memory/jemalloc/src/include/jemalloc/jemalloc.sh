@@ -119,7 +119,6 @@ EOF
 ifdef
 __cplusplus
 }
-;
 #
 endif
 #

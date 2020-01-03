@@ -10,6 +10,9 @@ libdir
 includedir
 =
 includedir
+install_suffix
+=
+install_suffix
 Name
 :
 jemalloc
@@ -64,3 +67,6 @@ libdir
 }
 -
 ljemalloc
+{
+install_suffix
+}

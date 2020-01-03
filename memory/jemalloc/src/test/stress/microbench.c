@@ -185,7 +185,7 @@ malloc_printf
 "
 %
 "
-PRIu64
+FMTu64
 "
 iterations
 %
@@ -193,7 +193,7 @@ s
 =
 %
 "
-PRIu64
+FMTu64
 "
 us
 "
@@ -203,7 +203,7 @@ s
 =
 %
 "
-PRIu64
+FMTu64
 "
 us
 ratio

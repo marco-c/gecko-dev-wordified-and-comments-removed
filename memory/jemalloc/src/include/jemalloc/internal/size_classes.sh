@@ -1388,11 +1388,13 @@ of
 SC
 (
 index
+lg_grp
 lg_delta
-size
+ndelta
 bin
 lg_delta_lookup
 )
+*
 tuples
 .
 *

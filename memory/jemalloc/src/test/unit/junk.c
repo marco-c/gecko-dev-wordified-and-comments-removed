@@ -1091,6 +1091,10 @@ void
 {
 assert
 (
+!
+config_fill
+|
+|
 opt_junk_alloc
 |
 |
