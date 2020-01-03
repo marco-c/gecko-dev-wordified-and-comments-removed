@@ -2037,7 +2037,7 @@ bottomMargin
 }
 ;
 static
-int
+size_t
 EnumSizeForCocoaSize
 (
 NSControlSize
@@ -2180,7 +2180,7 @@ osIndex
 =
 leopardOS
 ;
-int
+size_t
 controlSize
 =
 EnumSizeForCocoaSize
@@ -5320,7 +5320,7 @@ controlSize
 =
 NSRegularControlSize
 ;
-int
+size_t
 sizeIndex
 =
 0
@@ -5356,7 +5356,7 @@ controlSizeX
 controlSizeY
 ;
 const
-int
+size_t
 smallerControlSizeIndex
 =
 EnumSizeForCocoaSize
