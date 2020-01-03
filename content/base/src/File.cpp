@@ -1325,10 +1325,6 @@ MOZ_ASSERT
 mImpl
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 #
 ifdef
 DEBUG
