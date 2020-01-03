@@ -710,9 +710,6 @@ notifyStatusChanged
 :
 function
 (
-aReason
-=
-null
 )
 {
 Services
@@ -729,7 +726,7 @@ status
 -
 changed
 "
-aReason
+null
 )
 ;
 }
@@ -4015,9 +4012,6 @@ MozLoopServiceInternal
 .
 notifyStatusChanged
 (
-"
-login
-"
 )
 ;
 }
