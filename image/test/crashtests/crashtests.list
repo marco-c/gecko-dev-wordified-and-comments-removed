@@ -137,7 +137,6 @@ html
 1
 .
 gif
-skip
 load
 delaytest
 .
@@ -148,12 +147,6 @@ html
 2
 .
 gif
-#
-disabled
-due
-to
-bug
-1079627
 #
 this
 would

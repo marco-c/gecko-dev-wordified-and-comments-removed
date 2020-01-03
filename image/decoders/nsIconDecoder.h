@@ -39,7 +39,7 @@ explicit
 nsIconDecoder
 (
 RasterImage
-*
+&
 aImage
 )
 ;
