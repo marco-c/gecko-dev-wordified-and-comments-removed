@@ -112,9 +112,12 @@ define
 HAVE_ALT_TREE_LAYOUT
 0
 #
+undef
+HAVE_PTHREAD_H
+#
 define
 HAVE_PTHREAD_H
-1
+0
 #
 define
 HAVE_SYS_MMAN_H
