@@ -724,6 +724,10 @@ sEMEPromiseCount
 +
 +
 ;
+AddRef
+(
+)
+;
 mPromises
 .
 Put
@@ -774,6 +778,10 @@ getter_AddRefs
 (
 promise
 )
+)
+;
+Release
+(
 )
 ;
 return
