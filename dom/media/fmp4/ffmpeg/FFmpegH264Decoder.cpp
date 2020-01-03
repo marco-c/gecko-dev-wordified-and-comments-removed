@@ -133,7 +133,7 @@ FFmpegH264Decoder
 mExtraData
 =
 new
-DataBuffer
+MediaByteBuffer
 ;
 mExtraData
 -

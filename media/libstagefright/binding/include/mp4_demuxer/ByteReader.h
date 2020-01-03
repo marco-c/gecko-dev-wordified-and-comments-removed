@@ -208,7 +208,7 @@ explicit
 ByteReader
 (
 const
-DataBuffer
+MediaByteBuffer
 *
 aData
 )

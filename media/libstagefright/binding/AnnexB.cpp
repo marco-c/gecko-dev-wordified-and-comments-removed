@@ -277,7 +277,7 @@ mKeyframe
 {
 nsRefPtr
 <
-DataBuffer
+MediaByteBuffer
 >
 annexB
 =
@@ -326,7 +326,7 @@ already_AddRefed
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 >
 AnnexB
 :
@@ -337,7 +337,7 @@ const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aExtraData
 )
@@ -347,7 +347,7 @@ nsRefPtr
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 >
 annexB
 =
@@ -355,7 +355,7 @@ new
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 ;
 ByteReader
 reader
@@ -443,7 +443,7 @@ aCount
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aAnnexB
 )
@@ -1144,7 +1144,7 @@ already_AddRefed
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 >
 AnnexB
 :
@@ -1165,7 +1165,7 @@ nsRefPtr
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 >
 extradata
 =
@@ -1173,7 +1173,7 @@ new
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 ;
 if
 (
@@ -1646,7 +1646,7 @@ const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aExtraData
 )
@@ -2079,14 +2079,14 @@ const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aExtraData1
 const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aExtraData2
 )

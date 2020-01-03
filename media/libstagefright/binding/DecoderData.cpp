@@ -388,7 +388,7 @@ aKey
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aDest
 )

@@ -151,7 +151,7 @@ mFrame
 ;
 nsRefPtr
 <
-DataBuffer
+MediaByteBuffer
 >
 mExtraData
 ;

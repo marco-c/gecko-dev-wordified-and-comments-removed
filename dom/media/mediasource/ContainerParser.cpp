@@ -190,7 +190,7 @@ ContainerParser
 :
 IsInitSegmentPresent
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 )
@@ -304,7 +304,7 @@ ContainerParser
 :
 IsMediaSegmentPresent
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 )
@@ -418,7 +418,7 @@ ContainerParser
 :
 ParseStartAndEndTimestamps
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 int64_t
@@ -506,7 +506,7 @@ Length
 )
 ;
 }
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 ContainerParser
 :
@@ -567,7 +567,7 @@ USEC_PER_SEC
 bool
 IsInitSegmentPresent
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 )
@@ -652,7 +652,7 @@ false
 bool
 IsMediaSegmentPresent
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 )
@@ -737,7 +737,7 @@ false
 bool
 ParseStartAndEndTimestamps
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 int64_t
@@ -781,7 +781,7 @@ Clear
 mInitData
 =
 new
-LargeDataBuffer
+MediaLargeByteBuffer
 (
 )
 ;
@@ -1247,7 +1247,7 @@ Monitor
 bool
 IsInitSegmentPresent
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 )
@@ -1363,7 +1363,7 @@ p
 bool
 IsMediaSegmentPresent
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 )
@@ -1539,7 +1539,7 @@ p
 bool
 ParseStartAndEndTimestamps
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 int64_t
@@ -1610,7 +1610,7 @@ mMonitor
 mInitData
 =
 new
-LargeDataBuffer
+MediaLargeByteBuffer
 (
 )
 ;

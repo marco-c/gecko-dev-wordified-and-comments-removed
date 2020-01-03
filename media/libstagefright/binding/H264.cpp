@@ -89,7 +89,7 @@ const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aBuffer
 )
@@ -331,7 +331,7 @@ already_AddRefed
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 >
 H264
 :
@@ -342,7 +342,7 @@ const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aNAL
 )
@@ -373,7 +373,7 @@ nsRefPtr
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 >
 rbsp
 =
@@ -381,7 +381,7 @@ new
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 ;
 ByteReader
 reader
@@ -635,7 +635,7 @@ const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aSPS
 SPSData
@@ -2340,7 +2340,7 @@ const
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 *
 aExtraData
 SPSData
@@ -2471,7 +2471,7 @@ nsRefPtr
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 >
 rawNAL
 =
@@ -2479,7 +2479,7 @@ new
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 ;
 rawNAL
 -
@@ -2495,7 +2495,7 @@ nsRefPtr
 mozilla
 :
 :
-DataBuffer
+MediaByteBuffer
 >
 sps
 =

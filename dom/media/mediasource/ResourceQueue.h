@@ -152,7 +152,7 @@ ResourceItem
 explicit
 ResourceItem
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 )
@@ -196,7 +196,7 @@ size
 }
 nsRefPtr
 <
-LargeDataBuffer
+MediaLargeByteBuffer
 >
 mData
 ;
@@ -430,7 +430,7 @@ bytes
 void
 AppendItem
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 )
@@ -615,12 +615,12 @@ offset
 ;
 nsRefPtr
 <
-LargeDataBuffer
+MediaLargeByteBuffer
 >
 data
 =
 new
-LargeDataBuffer
+MediaLargeByteBuffer
 ;
 data
 -

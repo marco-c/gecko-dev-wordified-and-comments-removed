@@ -147,7 +147,7 @@ class
 ErrorResult
 ;
 class
-LargeDataBuffer
+MediaLargeByteBuffer
 ;
 class
 TrackBuffer
@@ -541,7 +541,7 @@ aRv
 void
 AppendData
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 double
@@ -559,7 +559,7 @@ aDecoderError
 ;
 already_AddRefed
 <
-LargeDataBuffer
+MediaLargeByteBuffer
 >
 PrepareAppend
 (

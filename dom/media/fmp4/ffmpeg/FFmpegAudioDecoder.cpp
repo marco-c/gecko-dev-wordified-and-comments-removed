@@ -69,7 +69,7 @@ FFmpegAudioDecoder
 mExtraData
 =
 new
-DataBuffer
+MediaByteBuffer
 ;
 mExtraData
 -

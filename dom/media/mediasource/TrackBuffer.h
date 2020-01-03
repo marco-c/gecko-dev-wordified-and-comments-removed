@@ -92,7 +92,7 @@ class
 MediaSourceDecoder
 ;
 class
-LargeDataBuffer
+MediaLargeByteBuffer
 ;
 namespace
 dom
@@ -137,7 +137,7 @@ TrackBufferAppendPromise
 >
 AppendData
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 int64_t
@@ -326,7 +326,7 @@ aTimestampOffset
 bool
 AppendDataToCurrentResource
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 uint32_t

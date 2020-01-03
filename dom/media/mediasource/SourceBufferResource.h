@@ -122,7 +122,7 @@ class
 MediaDecoder
 ;
 class
-LargeDataBuffer
+MediaLargeByteBuffer
 ;
 namespace
 dom
@@ -684,7 +684,7 @@ aMallocSizeOf
 void
 AppendData
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 )

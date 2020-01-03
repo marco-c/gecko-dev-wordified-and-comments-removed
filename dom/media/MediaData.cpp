@@ -2424,7 +2424,7 @@ mCryptoInternal
 mBuffer
 (
 new
-LargeDataBuffer
+MediaLargeByteBuffer
 (
 RAW_DATA_DEFAULT_SIZE
 )
@@ -2467,7 +2467,7 @@ mCryptoInternal
 mBuffer
 (
 new
-LargeDataBuffer
+MediaLargeByteBuffer
 (
 RAW_DATA_DEFAULT_SIZE
 )

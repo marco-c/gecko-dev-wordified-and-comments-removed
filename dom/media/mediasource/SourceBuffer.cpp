@@ -335,7 +335,7 @@ AppendDataRunnable
 SourceBuffer
 *
 aSourceBuffer
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 double
@@ -393,7 +393,7 @@ mSourceBuffer
 ;
 nsRefPtr
 <
-LargeDataBuffer
+MediaLargeByteBuffer
 >
 mData
 ;
@@ -2144,7 +2144,7 @@ aLength
 ;
 nsRefPtr
 <
-LargeDataBuffer
+MediaLargeByteBuffer
 >
 data
 =
@@ -2218,7 +2218,7 @@ SourceBuffer
 :
 AppendData
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 double
@@ -2513,7 +2513,7 @@ dummy
 }
 already_AddRefed
 <
-LargeDataBuffer
+MediaLargeByteBuffer
 >
 SourceBuffer
 :
@@ -2707,12 +2707,12 @@ nullptr
 }
 nsRefPtr
 <
-LargeDataBuffer
+MediaLargeByteBuffer
 >
 data
 =
 new
-LargeDataBuffer
+MediaLargeByteBuffer
 (
 )
 ;

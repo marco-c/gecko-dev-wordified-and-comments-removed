@@ -707,7 +707,7 @@ TrackBuffer
 :
 AppendData
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 int64_t
@@ -771,7 +771,7 @@ HasCompleteInitData
 ;
 nsRefPtr
 <
-LargeDataBuffer
+MediaLargeByteBuffer
 >
 oldInit
 =
@@ -1287,7 +1287,7 @@ TrackBuffer
 :
 AppendDataToCurrentResource
 (
-LargeDataBuffer
+MediaLargeByteBuffer
 *
 aData
 uint32_t
@@ -3633,12 +3633,12 @@ wasEnded
 {
 nsRefPtr
 <
-LargeDataBuffer
+MediaLargeByteBuffer
 >
 emptyBuffer
 =
 new
-LargeDataBuffer
+MediaLargeByteBuffer
 ;
 aDecoder
 -
