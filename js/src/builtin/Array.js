@@ -1968,13 +1968,6 @@ k
 +
 )
 {
-if
-(
-k
-in
-O
-)
-{
 var
 kValue
 =
@@ -1997,7 +1990,6 @@ O
 return
 kValue
 ;
-}
 }
 return
 undefined
@@ -2102,13 +2094,6 @@ k
 {
 if
 (
-k
-in
-O
-)
-{
-if
-(
 callFunction
 (
 predicate
@@ -2124,7 +2109,6 @@ O
 return
 k
 ;
-}
 }
 return
 -
