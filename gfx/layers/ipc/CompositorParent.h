@@ -1129,6 +1129,8 @@ uint32_t
 aPaintSequenceNumber
 bool
 aIsRepeatTransaction
+int32_t
+aPaintSyncId
 )
 override
 ;

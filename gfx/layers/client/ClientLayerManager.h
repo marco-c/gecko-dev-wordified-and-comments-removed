@@ -1108,6 +1108,13 @@ AsyncPanZoomEnabled
 const
 override
 ;
+void
+SetNextPaintSyncId
+(
+int32_t
+aSyncId
+)
+;
 protected
 :
 enum

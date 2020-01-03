@@ -7893,11 +7893,6 @@ aLayerViewTranslation
 {
 if
 (
-isHomePagerVisible
-(
-)
-|
-|
 mBrowserChrome
 =
 =

@@ -429,6 +429,8 @@ bool
 isRepeatTransaction
 TimeStamp
 transactionStart
+int32_t
+paintSyncId
 )
 returns
 (
@@ -485,6 +487,8 @@ bool
 isRepeatTransaction
 TimeStamp
 transactionStart
+int32_t
+paintSyncId
 )
 ;
 /

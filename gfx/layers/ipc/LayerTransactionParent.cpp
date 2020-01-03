@@ -932,6 +932,10 @@ mozilla
 TimeStamp
 &
 aTransactionStart
+const
+int32_t
+&
+aPaintSyncId
 )
 {
 return
@@ -952,6 +956,7 @@ scheduleComposite
 paintSequenceNumber
 isRepeatTransaction
 aTransactionStart
+aPaintSyncId
 nullptr
 )
 ;
@@ -1058,6 +1063,10 @@ mozilla
 TimeStamp
 &
 aTransactionStart
+const
+int32_t
+&
+aPaintSyncId
 InfallibleTArray
 <
 EditReply
@@ -3467,6 +3476,7 @@ isFirstPaint
 scheduleComposite
 paintSequenceNumber
 isRepeatTransaction
+aPaintSyncId
 )
 ;
 {

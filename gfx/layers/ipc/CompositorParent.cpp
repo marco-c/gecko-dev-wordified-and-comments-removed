@@ -5336,6 +5336,8 @@ uint32_t
 aPaintSequenceNumber
 bool
 aIsRepeatTransaction
+int32_t
+aPaintSyncId
 )
 {
 ScheduleRotationOnCompositorThread
@@ -5392,6 +5394,7 @@ Updated
 (
 aIsFirstPaint
 aTargetConfig
+aPaintSyncId
 )
 ;
 Layer
@@ -7724,6 +7727,7 @@ uint32_t
 aPaintSequenceNumber
 bool
 aIsRepeatTransaction
+int32_t
 )
 override
 ;
@@ -8918,6 +8922,7 @@ uint32_t
 aPaintSequenceNumber
 bool
 aIsRepeatTransaction
+int32_t
 )
 {
 uint64_t
