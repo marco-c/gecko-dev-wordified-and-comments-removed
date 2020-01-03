@@ -143,6 +143,11 @@ TestStrings
 cpp
 '
 '
+TestStringStream
+.
+cpp
+'
+'
 TestSynchronization
 .
 cpp
