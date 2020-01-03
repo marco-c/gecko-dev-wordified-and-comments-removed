@@ -401,6 +401,9 @@ DataStore
 [
 ChromeOnly
 Throws
+Exposed
+=
+Window
 ]
 void
 setDataStoreImpl
@@ -527,6 +530,9 @@ DataStoreCursor
 {
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 void
 setDataStoreCursorImpl

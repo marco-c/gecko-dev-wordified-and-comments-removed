@@ -132,14 +132,6 @@ aRv
 )
 ;
 void
-SetDataStoreCursorImpl
-(
-DataStoreCursorImpl
-&
-aCursor
-)
-;
-void
 SetBackingDataStoreCursor
 (
 const

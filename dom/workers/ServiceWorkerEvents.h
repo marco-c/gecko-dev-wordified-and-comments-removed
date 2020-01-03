@@ -124,7 +124,7 @@ mozilla
 dom
 :
 :
-InstallPhaseEventBinding_workers
+InstallPhaseEventBinding
 :
 :
 Wrap
@@ -358,7 +358,7 @@ mozilla
 dom
 :
 :
-InstallEventBinding_workers
+InstallEventBinding
 :
 :
 Wrap
