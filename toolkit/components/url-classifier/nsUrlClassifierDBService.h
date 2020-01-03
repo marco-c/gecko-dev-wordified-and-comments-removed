@@ -271,6 +271,16 @@ ReadTablesFromPrefs
 (
 )
 ;
+void
+BuildTables
+(
+bool
+trackingProtectionEnabled
+nsCString
+&
+tables
+)
+;
 nsRefPtr
 <
 nsUrlClassifierDBServiceWorker

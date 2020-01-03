@@ -5287,8 +5287,10 @@ return
 NS_OK
 ;
 }
-static
 void
+nsUrlClassifierDBService
+:
+:
 BuildTables
 (
 bool
@@ -5313,6 +5315,9 @@ malware
 ;
 if
 (
+mCheckMalware
+&
+&
 !
 malware
 .
@@ -5344,6 +5349,9 @@ phishing
 ;
 if
 (
+mCheckPhishing
+&
+&
 !
 phishing
 .
