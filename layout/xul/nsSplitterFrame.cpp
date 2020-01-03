@@ -4681,12 +4681,5 @@ spaceLeft
 )
 ;
 }
-else
-{
-spaceLeft
-=
-0
-;
-}
 }
 }
