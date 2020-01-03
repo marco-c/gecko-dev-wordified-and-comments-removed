@@ -389,8 +389,9 @@ ADDED
 :
 tabStripView
 .
-refreshTabs
+addTab
 (
+tab
 )
 ;
 break
