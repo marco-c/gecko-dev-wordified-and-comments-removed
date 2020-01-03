@@ -7503,11 +7503,7 @@ false
 document
 .
 documentURIObject
-this
-.
-target
-.
-ownerDocument
+document
 )
 ;
 }
