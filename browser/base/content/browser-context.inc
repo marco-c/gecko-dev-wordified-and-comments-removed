@@ -338,14 +338,10 @@ menuitem
 -
 iconic
 "
-tooltiptext
+observes
 =
 "
-&
-bookmarkPageCmd2
-.
-label
-;
+bookmarkThisPageBroadcaster
 "
 aria
 -
