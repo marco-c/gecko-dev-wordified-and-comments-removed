@@ -743,6 +743,13 @@ string
 /
 contextmenu_site_settings
 "
+android
+:
+visibility
+=
+"
+gone
+"
 /
 >
 <

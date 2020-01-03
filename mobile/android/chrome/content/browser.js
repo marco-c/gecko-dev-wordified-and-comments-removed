@@ -1311,6 +1311,11 @@ PermissionsHelper
 "
 Permissions
 :
+Check
+"
+"
+Permissions
+:
 Get
 "
 "
