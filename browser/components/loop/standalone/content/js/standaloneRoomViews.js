@@ -3432,10 +3432,10 @@ props
 dispatcher
 showAlways
 :
-true
+false
 showRoomName
 :
-true
+false
 }
 )
 React
