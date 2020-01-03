@@ -7979,6 +7979,21 @@ progressView
 progressTranslationY
 )
 ;
+if
+(
+mFormAssistPopup
+!
+=
+null
+)
+{
+mFormAssistPopup
+.
+onTranslationChanged
+(
+)
+;
+}
 }
 Override
 public
@@ -8012,6 +8027,7 @@ mFormAssistPopup
 =
 null
 )
+{
 mFormAssistPopup
 .
 onMetricsChanged
@@ -8019,6 +8035,7 @@ onMetricsChanged
 aMetrics
 )
 ;
+}
 }
 Override
 public
