@@ -201,6 +201,13 @@ h
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 base
 /
 histogram
@@ -7722,6 +7729,10 @@ gfxPrefs
 :
 :
 GetSingleton
+(
+)
+;
+BrowserTabsRemoteAutostart
 (
 )
 ;
