@@ -2838,6 +2838,18 @@ return
 frame_
 ;
 }
+void
+updateFrame
+(
+AbstractFramePtr
+frame
+)
+{
+frame_
+=
+frame
+;
+}
 }
 ;
 extern
@@ -3193,7 +3205,7 @@ scope
 ;
 static
 void
-rekeyMissingScopes
+forwardLiveFrame
 (
 JSContext
 *
