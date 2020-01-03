@@ -356,7 +356,7 @@ true
 }
 }
 function
-getResultTest
+getResultText
 (
 code
 )
