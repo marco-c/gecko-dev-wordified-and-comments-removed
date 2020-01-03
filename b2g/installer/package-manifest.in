@@ -3503,6 +3503,13 @@ BINPATH
 /
 components
 /
+SystemMessageCache
+.
+js
+BINPATH
+/
+components
+/
 SystemMessageManager
 .
 manifest

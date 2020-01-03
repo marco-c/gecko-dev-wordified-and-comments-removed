@@ -103,6 +103,11 @@ nsIDOMNavigatorSystemMessages
 idl
 '
 '
+nsISystemMessageCache
+.
+idl
+'
+'
 nsISystemMessageGlue
 .
 idl
