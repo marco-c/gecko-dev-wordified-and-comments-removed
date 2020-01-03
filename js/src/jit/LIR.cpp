@@ -1844,9 +1844,6 @@ this
 other
 ;
 }
-#
-ifdef
-DEBUG
 static
 const
 char
@@ -2509,8 +2506,6 @@ what
 ;
 }
 }
-#
-endif
 void
 LAllocation
 :
