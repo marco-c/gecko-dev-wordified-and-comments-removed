@@ -6807,9 +6807,7 @@ flex
 :
 1
 1
-main
--
-size
+auto
 ;
 overflow
 :
@@ -6837,9 +6835,7 @@ flex
 :
 1
 1
-main
--
-size
+auto
 ;
 }
 #

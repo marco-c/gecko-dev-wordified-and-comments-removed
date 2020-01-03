@@ -311,9 +311,7 @@ flex
 :
 1
 1
-main
--
-size
+auto
 ;
 }
 #
@@ -1068,9 +1066,7 @@ flex
 :
 1
 1
-main
--
-size
+auto
 ;
 border
 :
@@ -1264,9 +1260,7 @@ flex
 :
 1
 1
-main
--
-size
+auto
 ;
 }
 #
@@ -1296,9 +1290,7 @@ flex
 :
 0
 1
-main
--
-size
+auto
 ;
 float
 :
@@ -1344,9 +1336,7 @@ flex
 :
 1
 1
-main
--
-size
+auto
 ;
 }
 .

@@ -2067,13 +2067,6 @@ luminosity
 )
 CSS_KEY
 (
-main
--
-size
-main_size
-)
-CSS_KEY
-(
 manipulation
 manipulation
 )
