@@ -288,7 +288,7 @@ GetComposedDoc
 mTarget
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -303,7 +303,7 @@ false
 mTarget
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -318,7 +318,7 @@ false
 mTarget
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -333,7 +333,7 @@ false
 mTarget
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -348,7 +348,7 @@ true
 mTarget
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -363,7 +363,7 @@ false
 mTarget
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -1683,7 +1683,7 @@ false
 mTarget
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -1698,7 +1698,7 @@ false
 mTarget
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -1713,7 +1713,7 @@ false
 mTarget
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -1728,7 +1728,7 @@ false
 mTarget
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -1743,7 +1743,7 @@ true
 mTarget
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -1758,7 +1758,7 @@ false
 mTarget
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
