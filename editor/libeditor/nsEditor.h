@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsEditProperty
+nsGkAtoms
 .
 h
 "
@@ -312,10 +312,10 @@ IMEState
 #
 define
 kMOZEditorBogusNodeAttrAtom
-nsEditProperty
+nsGkAtoms
 :
 :
-mozEditorBogusNode
+mozeditorbogusnode
 #
 define
 kMOZEditorBogusNodeValue

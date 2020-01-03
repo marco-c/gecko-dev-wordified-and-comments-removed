@@ -1164,13 +1164,6 @@ AddRefTable
 (
 )
 ;
-nsEditProperty
-:
-:
-RegisterAtoms
-(
-)
-;
 nsTextServicesDocument
 :
 :

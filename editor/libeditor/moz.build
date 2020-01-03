@@ -191,11 +191,6 @@ nsEditorUtils
 cpp
 '
 '
-nsEditProperty
-.
-cpp
-'
-'
 nsHTMLAbsPosition
 .
 cpp
