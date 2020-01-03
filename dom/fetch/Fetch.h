@@ -71,6 +71,17 @@ mozilla
 /
 dom
 /
+Promise
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 RequestBinding
 .
 h
@@ -110,9 +121,6 @@ InternalRequest
 ;
 class
 OwningArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
-;
-class
-Promise
 ;
 class
 RequestOrUSVString
