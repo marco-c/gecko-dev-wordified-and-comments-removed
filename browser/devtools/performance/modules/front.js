@@ -1377,6 +1377,7 @@ memory
 "
 startRecordingAllocations
 "
+options
 )
 ;
 yield
