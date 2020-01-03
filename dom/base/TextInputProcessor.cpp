@@ -600,6 +600,14 @@ dispatcher
 IsComposing
 (
 )
+|
+|
+dispatcher
+-
+>
+IsDispatchingEvent
+(
+)
 )
 {
 return
