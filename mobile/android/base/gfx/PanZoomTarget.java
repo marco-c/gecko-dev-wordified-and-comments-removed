@@ -53,12 +53,6 @@ getFullScreenState
 )
 ;
 public
-RectF
-getMaxMargins
-(
-)
-;
-public
 void
 setAnimationTarget
 (
