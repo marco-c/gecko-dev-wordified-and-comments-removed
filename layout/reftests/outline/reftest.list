@@ -72,6 +72,14 @@ transform
 ref
 .
 html
+fuzzy
+-
+if
+(
+d2d
+16
+96
+)
 =
 =
 outline
