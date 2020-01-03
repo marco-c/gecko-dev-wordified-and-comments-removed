@@ -98,6 +98,11 @@ SOURCES
 =
 [
 '
+DataStorageTest
+.
+cpp
+'
+'
 OCSPCacheTest
 .
 cpp
