@@ -128,7 +128,10 @@ aContext
 NS_DECLARE_FRAME_PROPERTY
 (
 ImplicitNamedAreasProperty
-DestroyImplicitNamedAreas
+DeleteValue
+<
+ImplicitNamedAreas
+>
 )
 void
 InitImplicitNamedAreas
@@ -188,15 +191,6 @@ ImplicitNamedAreasProperty
 )
 ;
 }
-static
-void
-DestroyImplicitNamedAreas
-(
-void
-*
-aPropertyValue
-)
-;
 #
 ifdef
 DEBUG

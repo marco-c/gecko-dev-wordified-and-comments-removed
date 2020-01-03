@@ -226,7 +226,10 @@ const
 ;
 friend
 void
-DestroyStickyScrollContainer
+DeleteValue
+<
+StickyScrollContainer
+>
 (
 void
 *
