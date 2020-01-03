@@ -968,6 +968,16 @@ length
 )
 const
 ;
+size_t
+sourceLength
+(
+)
+;
+size_t
+functionDisplayNameLength
+(
+)
+;
 static
 void
 trace
