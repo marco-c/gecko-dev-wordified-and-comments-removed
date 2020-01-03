@@ -10047,6 +10047,15 @@ HasVideo
 )
 )
 {
+mVideoDecodeStartTime
+=
+TimeStamp
+:
+:
+Now
+(
+)
+;
 ReentrantMonitorAutoExit
 unlock
 (
