@@ -1,3 +1,10 @@
+#
+include
+<
+stdint
+.
+h
+>
 namespace
 mozilla
 {
@@ -78,6 +85,16 @@ ProxyDestroyed
 (
 ProxyAccessible
 *
+)
+;
+void
+ProxyEvent
+(
+ProxyAccessible
+*
+aTarget
+uint32_t
+aEventType
 )
 ;
 }
