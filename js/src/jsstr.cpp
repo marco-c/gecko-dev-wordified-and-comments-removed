@@ -18994,6 +18994,7 @@ AddTypePropertyId
 (
 cx
 group
+nullptr
 JSID_VOID
 UndefinedValue
 (
@@ -19606,6 +19607,7 @@ AddTypePropertyId
 (
 cx
 group
+nullptr
 JSID_VOID
 TypeSet
 :
