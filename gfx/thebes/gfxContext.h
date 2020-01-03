@@ -460,15 +460,6 @@ other
 )
 ;
 void
-MultiplyAndNudgeToIntegers
-(
-const
-gfxMatrix
-&
-other
-)
-;
-void
 SetMatrix
 (
 const
@@ -482,11 +473,6 @@ CurrentMatrix
 (
 )
 const
-;
-void
-NudgeCurrentMatrixToIntegers
-(
-)
 ;
 gfxPoint
 DeviceToUser
