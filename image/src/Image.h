@@ -177,16 +177,6 @@ aProgressTracker
 {
 }
 virtual
-nsIntRect
-FrameRect
-(
-uint32_t
-aWhichFrame
-)
-=
-0
-;
-virtual
 size_t
 SizeOfSourceWithComputedFallback
 (

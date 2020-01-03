@@ -60,15 +60,6 @@ SourceSurface
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-virtual
-nsIntRect
-FrameRect
-(
-uint32_t
-aWhichFrame
-)
-MOZ_OVERRIDE
-;
 NS_IMETHOD
 GetWidth
 (

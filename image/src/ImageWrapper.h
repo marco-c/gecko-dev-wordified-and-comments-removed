@@ -60,15 +60,6 @@ GetProgressTracker
 MOZ_OVERRIDE
 ;
 virtual
-nsIntRect
-FrameRect
-(
-uint32_t
-aWhichFrame
-)
-MOZ_OVERRIDE
-;
-virtual
 size_t
 SizeOfSourceWithComputedFallback
 (
