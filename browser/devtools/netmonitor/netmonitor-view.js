@@ -15028,7 +15028,7 @@ return
 ;
 }
 function
-setLabel
+setValue
 (
 selector
 value
@@ -15049,8 +15049,11 @@ value
 {
 label
 .
+setAttribute
+(
+"
 value
-=
+"
 L10N
 .
 getStr
@@ -15063,6 +15066,7 @@ security
 notAvailable
 "
 )
+)
 ;
 label
 .
@@ -15073,7 +15077,12 @@ tooltiptext
 "
 label
 .
+getAttribute
+(
+"
 value
+"
+)
 )
 ;
 }
@@ -15081,9 +15090,13 @@ else
 {
 label
 .
+setAttribute
+(
+"
 value
-=
+"
 value
+)
 ;
 label
 .
@@ -15286,7 +15299,7 @@ disabled
 "
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15303,7 +15316,7 @@ securityInfo
 protocolVersion
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15347,7 +15360,7 @@ hostHeader
 domain
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15362,7 +15375,7 @@ header
 hostHeader
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15387,7 +15400,7 @@ enabledLabel
 disabledLabel
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15417,7 +15430,7 @@ securityInfo
 .
 cert
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15436,7 +15449,7 @@ subject
 commonName
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15455,7 +15468,7 @@ subject
 organization
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15474,7 +15487,7 @@ subject
 organizationalUnit
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15493,7 +15506,7 @@ issuer
 commonName
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15512,7 +15525,7 @@ issuer
 organization
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15531,7 +15544,7 @@ issuer
 organizationalUnit
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15550,7 +15563,7 @@ validity
 start
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15569,7 +15582,7 @@ validity
 end
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15588,7 +15601,7 @@ fingerprint
 sha1
 )
 ;
-setLabel
+setValue
 (
 "
 #
@@ -15639,6 +15652,7 @@ html
 "
 )
 ;
+setValue
 (
 "
 #
@@ -15648,15 +15662,12 @@ error
 -
 message
 "
-)
-.
-textContent
-=
 plain
 .
 body
 .
 textContent
+)
 ;
 }
 }
