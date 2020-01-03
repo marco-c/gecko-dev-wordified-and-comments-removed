@@ -5719,7 +5719,7 @@ self
 .
 members
 if
-                            
+                           
 (
 m
 .
@@ -5734,7 +5734,7 @@ isMethod
 )
 )
 and
-                            
+                           
 not
 m
 .
@@ -5742,7 +5742,7 @@ isStatic
 (
 )
 and
-                            
+                           
 m
 .
 identifier
@@ -5781,7 +5781,7 @@ s
 location
 for
 s
-                                                            
+                                                           
 in
 shadows
 ]
@@ -29596,7 +29596,7 @@ maxArgCount
 +
 1
 )
-                                  
+                                 
 if
 len
 (
@@ -42265,7 +42265,7 @@ self
 .
 _productions
 if
-                                 
+                                
 isinstance
 (
 p
@@ -42284,7 +42284,7 @@ self
 .
 _productions
 if
-                            
+                           
 not
 isinstance
 (
