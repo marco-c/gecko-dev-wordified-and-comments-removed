@@ -15,6 +15,14 @@ win32
 "
     
 "
+stage_product
+"
+:
+"
+firefox
+"
+    
+"
 update_platform
 "
 :

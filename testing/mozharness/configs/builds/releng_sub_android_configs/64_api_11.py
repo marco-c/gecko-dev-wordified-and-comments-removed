@@ -32,6 +32,18 @@ api
 '
     
 '
+build_type
+'
+:
+'
+api
+-
+11
+-
+opt
+'
+    
+'
 src_mozconfig
 '
 :

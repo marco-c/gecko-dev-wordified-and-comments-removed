@@ -80,6 +80,18 @@ debug
 '
     
 '
+build_type
+'
+:
+'
+st
+-
+an
+-
+debug
+'
+    
+'
 purge_minsize
 '
 :
@@ -348,7 +360,6 @@ mozconfigs
 /
 macosx64
 /
-\
 debug
 -
 static

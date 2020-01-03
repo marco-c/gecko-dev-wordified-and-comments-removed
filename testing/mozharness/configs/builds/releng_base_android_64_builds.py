@@ -494,6 +494,12 @@ mobile
 '
     
 '
+publish_nightly_en_US_routes
+'
+:
+True
+    
+'
 post_upload_include_platform
 '
 :

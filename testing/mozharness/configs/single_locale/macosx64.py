@@ -13,6 +13,14 @@ macosx64
 "
     
 "
+stage_product
+"
+:
+"
+firefox
+"
+    
+"
 update_platform
 "
 :

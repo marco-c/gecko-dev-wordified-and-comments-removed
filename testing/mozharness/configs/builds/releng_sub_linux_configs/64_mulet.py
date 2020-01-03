@@ -59,6 +59,16 @@ mulet
 '
     
 '
+build_type
+'
+:
+'
+mulet
+-
+opt
+'
+    
+'
 stage_product
 '
 :

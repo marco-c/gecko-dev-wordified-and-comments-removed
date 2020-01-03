@@ -26,6 +26,24 @@ config
 {
     
 "
+platform
+"
+:
+"
+linux64
+"
+    
+"
+build_type
+"
+:
+"
+br
+-
+haz
+"
+    
+"
 log_name
 "
 :

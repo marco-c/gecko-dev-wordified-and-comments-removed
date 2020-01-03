@@ -310,6 +310,12 @@ macosx64
 '
     
 '
+publish_nightly_en_US_routes
+'
+:
+True
+    
+'
 use_platform_in_symbols_extra_buildid
 '
 :
