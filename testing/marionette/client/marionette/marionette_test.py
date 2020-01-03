@@ -4702,17 +4702,6 @@ self
 .
 marionette
 .
-set_context
-(
-"
-content
-"
-)
-           
-self
-.
-marionette
-.
 execute_script
 (
 "
