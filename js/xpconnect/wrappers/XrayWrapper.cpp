@@ -4865,7 +4865,7 @@ RootedObject
 expandoObject
 (
 cx
-JS_DeprecatedNewObjectWithGivenProtoAndParent
+JS_NewObjectWithGivenProto
 (
 cx
 &
@@ -4876,7 +4876,6 @@ JS
 NullPtr
 (
 )
-target
 )
 )
 ;
