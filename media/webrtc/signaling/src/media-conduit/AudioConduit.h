@@ -253,6 +253,7 @@ data
 int
 len
 )
+MOZ_OVERRIDE
 ;
 virtual
 MediaConduitErrorCode
@@ -265,6 +266,7 @@ data
 int
 len
 )
+MOZ_OVERRIDE
 ;
 virtual
 MediaConduitErrorCode
@@ -275,6 +277,7 @@ AudioCodecConfig
 *
 codecConfig
 )
+MOZ_OVERRIDE
 ;
 virtual
 MediaConduitErrorCode
@@ -292,6 +295,7 @@ AudioCodecConfig
 &
 codecConfigList
 )
+MOZ_OVERRIDE
 ;
 virtual
 MediaConduitErrorCode
@@ -302,6 +306,7 @@ enabled
 uint8_t
 id
 )
+MOZ_OVERRIDE
 ;
 virtual
 MediaConduitErrorCode
@@ -316,6 +321,7 @@ TransportInterface
 >
 aTransport
 )
+MOZ_OVERRIDE
 ;
 virtual
 MediaConduitErrorCode
@@ -333,6 +339,7 @@ samplingFreqHz
 int32_t
 capture_time
 )
+MOZ_OVERRIDE
 ;
 virtual
 MediaConduitErrorCode
@@ -350,6 +357,7 @@ int
 &
 lengthSamples
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -364,6 +372,7 @@ data
 int
 len
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -378,12 +387,14 @@ data
 int
 len
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint64_t
 CodecPluginID
 (
 )
+MOZ_OVERRIDE
 {
 return
 0
@@ -502,6 +513,7 @@ int
 *
 ssrc
 )
+MOZ_OVERRIDE
 ;
 bool
 GetRemoteSSRC
@@ -511,6 +523,7 @@ int
 *
 ssrc
 )
+MOZ_OVERRIDE
 ;
 bool
 SetLocalCNAME
@@ -541,6 +554,7 @@ uint32_t
 *
 droppedFrames
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -565,6 +579,7 @@ uint32_t
 *
 discardedPackets
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -583,6 +598,7 @@ int32_t
 *
 avSyncOffsetMs
 )
+MOZ_OVERRIDE
 ;
 bool
 GetRTPStats
@@ -596,6 +612,7 @@ int
 *
 cumulativeLost
 )
+MOZ_OVERRIDE
 ;
 bool
 GetRTCPReceiverReport
@@ -619,6 +636,7 @@ int32_t
 *
 rttMs
 )
+MOZ_OVERRIDE
 ;
 bool
 GetRTCPSenderReport
@@ -634,6 +652,7 @@ uint64_t
 *
 bytesSent
 )
+MOZ_OVERRIDE
 ;
 private
 :

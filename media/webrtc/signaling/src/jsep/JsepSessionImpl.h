@@ -620,6 +620,7 @@ IsIceControlling
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mIceControlling
@@ -723,6 +724,7 @@ JsepTrackPair
 pair
 )
 const
+MOZ_OVERRIDE
 {
 if
 (

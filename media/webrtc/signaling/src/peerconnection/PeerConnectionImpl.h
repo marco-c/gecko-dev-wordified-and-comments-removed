@@ -1240,6 +1240,12 @@ DataChannel
 >
 aChannel
 )
+#
+ifdef
+MOZILLA_INTERNAL_API
+MOZ_OVERRIDE
+#
+endif
 ;
 const
 nsRefPtr

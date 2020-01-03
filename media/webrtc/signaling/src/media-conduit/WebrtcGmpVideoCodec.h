@@ -418,6 +418,7 @@ void
 Terminated
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -433,6 +434,7 @@ aCodecSettings
 int32_t
 aNumberOfCores
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -489,6 +491,7 @@ int32_t
 Release
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
