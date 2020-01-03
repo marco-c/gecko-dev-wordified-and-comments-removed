@@ -1850,6 +1850,12 @@ rv
 )
 )
 {
+GatherAndStoreOverflow
+(
+&
+aDesiredSize
+)
+;
 DidReflowChildren
 (
 GetFirstPrincipalChild
