@@ -1,9 +1,0 @@
-new
-Notification
-(
-"
-Hi
-there
-"
-)
-;

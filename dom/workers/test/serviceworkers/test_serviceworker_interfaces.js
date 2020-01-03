@@ -385,9 +385,6 @@ MessageEvent
 MessagePort
 "
 "
-NotificationEvent
-"
-"
 Performance
 "
 "

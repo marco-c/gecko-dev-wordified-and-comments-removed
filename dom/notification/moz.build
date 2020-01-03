@@ -146,11 +146,6 @@ Notification
 .
 h
 '
-'
-NotificationEvent
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -163,11 +158,6 @@ cpp
 '
 '
 Notification
-.
-cpp
-'
-'
-NotificationEvent
 .
 cpp
 '
@@ -210,12 +200,6 @@ base
 dom
 /
 ipc
-'
-'
-/
-dom
-/
-workers
 '
 ]
 XPCSHELL_TESTS_MANIFESTS

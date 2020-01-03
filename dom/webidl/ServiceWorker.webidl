@@ -196,8 +196,8 @@ work
 Exposed
 =
 (
-Window
 Worker
+Window
 )
 ]
 interface
