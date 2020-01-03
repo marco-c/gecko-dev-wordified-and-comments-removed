@@ -132,8 +132,8 @@ Observer
 >
 mObserver
 ;
-bool
-mOtherThreadDispatchingViaEventTarget
+uint32_t
+mOtherThreadsDispatchingViaEventTarget
 ;
 DebugOnly
 <
