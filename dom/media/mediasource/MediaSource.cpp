@@ -200,6 +200,13 @@ prlog
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 struct
 JSContext
 ;
