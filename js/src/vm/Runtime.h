@@ -2821,6 +2821,13 @@ defaultLocale
 JSVersion
 defaultVersion_
 ;
+JS
+:
+:
+PerRuntimeFutexAPI
+*
+futexAPI_
+;
 private
 :
 void
