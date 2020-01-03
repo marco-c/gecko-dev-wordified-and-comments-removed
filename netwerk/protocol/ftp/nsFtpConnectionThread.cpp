@@ -442,6 +442,10 @@ mDeferredCallbackPending
 (
 false
 )
+mDoomCache
+(
+false
+)
 {
 LOG_ALWAYS
 (
