@@ -45,7 +45,6 @@ NS_IMPL_ISUPPORTS
 PrintProgressDialogParent
 nsIObserver
 )
-MOZ_IMPLICIT
 PrintProgressDialogParent
 :
 :
@@ -64,7 +63,6 @@ PrintProgressDialogParent
 )
 ;
 }
-MOZ_IMPLICIT
 PrintProgressDialogParent
 :
 :

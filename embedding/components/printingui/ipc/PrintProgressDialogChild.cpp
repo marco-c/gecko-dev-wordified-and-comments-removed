@@ -45,7 +45,6 @@ PrintProgressDialogChild
 nsIWebProgressListener
 nsIPrintProgressParams
 )
-MOZ_IMPLICIT
 PrintProgressDialogChild
 :
 :
@@ -67,7 +66,6 @@ PrintProgressDialogChild
 )
 ;
 }
-MOZ_IMPLICIT
 PrintProgressDialogChild
 :
 :
