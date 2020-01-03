@@ -2934,7 +2934,7 @@ panningModel
 "
 :
 "
-HRTF
+equalpower
 "
 "
 distanceModel
