@@ -3135,9 +3135,6 @@ mCurrentPosition
 protected
 :
 int64_t
-mStreamStartTime
-;
-int64_t
 mAudioEndTime
 ;
 int64_t
