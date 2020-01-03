@@ -5424,6 +5424,10 @@ OOM_maxAllocations
 =
 UINT32_MAX
 )
+oomAfter_
+(
+0
+)
 {
 if
 (
