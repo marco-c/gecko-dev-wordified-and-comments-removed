@@ -7534,7 +7534,10 @@ start
 class
 StringSegmentRange
 {
-AutoStringVector
+Rooted
+<
+StringVector
+>
 stack
 ;
 RootedLinearString
@@ -7622,6 +7625,10 @@ cx
 stack
 (
 cx
+StringVector
+(
+cx
+)
 )
 cur
 (
