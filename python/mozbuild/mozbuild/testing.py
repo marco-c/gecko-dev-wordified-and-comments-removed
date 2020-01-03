@@ -169,6 +169,32 @@ subdir
 )
 :
         
+manifest_relpath
+=
+mozpath
+.
+relpath
+(
+test
+[
+'
+path
+'
+]
+            
+mozpath
+.
+dirname
+(
+test
+[
+'
+manifest
+'
+]
+)
+)
+        
 test
 [
 '
@@ -198,12 +224,7 @@ to
 subdir
 '
 ]
-test
-[
-'
-relpath
-'
-]
+manifest_relpath
 )
     
 else

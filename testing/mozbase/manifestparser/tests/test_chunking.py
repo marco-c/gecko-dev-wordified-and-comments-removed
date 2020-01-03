@@ -543,7 +543,7 @@ name
 name
                         
 '
-path
+relpath
 '
 :
 os
@@ -570,11 +570,14 @@ dirs
         
 tests
 =
+list
+(
 self
 .
 generate_tests
 (
 dirs
+)
 )
         
 deepest
@@ -586,7 +589,7 @@ len
 t
 [
 '
-path
+relpath
 '
 ]
 .
@@ -637,7 +640,7 @@ in
 t
 [
 '
-path
+relpath
 '
 ]
 for
@@ -740,11 +743,14 @@ res
 .
 append
 (
+list
+(
 f
 (
 tests
 {
 }
+)
 )
 )
                 

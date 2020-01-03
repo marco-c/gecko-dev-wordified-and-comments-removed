@@ -1375,7 +1375,7 @@ path
 test
 [
 '
-path
+relpath
 '
 ]
             
