@@ -602,6 +602,15 @@ components
 /
 browser
 -
+element
+.
+xpt
+BINPATH
+/
+components
+/
+browser
+-
 feeds
 .
 xpt

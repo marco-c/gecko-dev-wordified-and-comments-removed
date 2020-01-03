@@ -610,6 +610,11 @@ MediaError
 h
 '
 '
+nsBrowserElement
+.
+h
+'
+'
 RadioNodeList
 .
 h
@@ -986,6 +991,11 @@ cpp
 '
 '
 MediaError
+.
+cpp
+'
+'
+nsBrowserElement
 .
 cpp
 '
