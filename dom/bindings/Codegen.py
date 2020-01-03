@@ -96109,6 +96109,8 @@ that
 need
 cycle
 collection
+                
+#
 then
 remove
 all
@@ -96118,6 +96120,8 @@ collection
 bits
 from
 this
+                
+#
 implementation
 and
 the
@@ -96128,12 +96132,16 @@ If
 you
 do
 you
+                
+#
 want
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 {
 nativeType
 }
+                
+#
 {
 parentType
 }
