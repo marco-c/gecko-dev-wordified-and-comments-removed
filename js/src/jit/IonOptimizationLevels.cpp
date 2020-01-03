@@ -540,7 +540,7 @@ if
 script
 -
 >
-getWarmUpCounter
+getWarmUpCount
 (
 )
 <

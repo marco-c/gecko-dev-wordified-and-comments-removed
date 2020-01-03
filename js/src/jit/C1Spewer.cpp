@@ -532,7 +532,7 @@ unsigned
 def
 -
 >
-warmUpCounter
+useCount
 (
 )
 )

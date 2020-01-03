@@ -33287,7 +33287,7 @@ str
 ;
 }
 int32_t
-warmUpCounter
+warmUpThreshold
 =
 op
 .
@@ -33304,7 +33304,7 @@ threshold
 ;
 if
 (
-warmUpCounter
+warmUpThreshold
 >
 =
 0
@@ -33316,10 +33316,10 @@ js_JitOptions
 .
 setCompilerWarmUpThreshold
 (
-warmUpCounter
+warmUpThreshold
 )
 ;
-warmUpCounter
+warmUpThreshold
 =
 op
 .
@@ -33336,7 +33336,7 @@ threshold
 ;
 if
 (
-warmUpCounter
+warmUpThreshold
 >
 =
 0
@@ -33348,7 +33348,7 @@ js_JitOptions
 .
 baselineWarmUpThreshold
 =
-warmUpCounter
+warmUpThreshold
 ;
 if
 (

@@ -2319,13 +2319,13 @@ use
 ifdef
 DEBUG
 size_t
-warmUpCounter
+useCount
 (
 )
 const
 ;
 size_t
-defWarmUpCounter
+defUseCount
 (
 )
 const
@@ -45214,7 +45214,7 @@ JSScript
 *
 script_
 uint32_t
-warmUpCounter
+recompileThreshold
 )
 {
 return
@@ -45225,7 +45225,7 @@ alloc
 MRecompileCheck
 (
 script_
-warmUpCounter
+recompileThreshold
 )
 ;
 }
