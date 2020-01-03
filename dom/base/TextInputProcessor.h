@@ -20,6 +20,13 @@ nsITextInputProcessor
 .
 h
 "
+#
+include
+"
+nsITextInputProcessorCallback
+.
+h
+"
 namespace
 mozilla
 {
@@ -108,6 +115,9 @@ InitInternal
 nsIDOMWindow
 *
 aWindow
+nsITextInputProcessorCallback
+*
+aCallback
 bool
 aForTests
 bool
@@ -149,6 +159,12 @@ UnlinkFromTextEventDispatcher
 TextEventDispatcher
 *
 mDispatcher
+;
+nsCOMPtr
+<
+nsITextInputProcessorCallback
+>
+mCallback
 ;
 bool
 mForTests

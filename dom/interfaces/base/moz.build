@@ -252,6 +252,11 @@ nsITextInputProcessor
 .
 idl
 '
+'
+nsITextInputProcessorCallback
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
