@@ -2790,6 +2790,13 @@ AddMediaDecoder
 this
 )
 ;
+AbstractThread
+:
+:
+EnsureMainThreadSingleton
+(
+)
+;
 #
 ifdef
 PR_LOGGING
