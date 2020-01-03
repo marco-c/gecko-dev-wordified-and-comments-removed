@@ -31,6 +31,7 @@ nsRunnable
 {
 public
 :
+explicit
 SyncRunnable
 (
 nsIRunnable
