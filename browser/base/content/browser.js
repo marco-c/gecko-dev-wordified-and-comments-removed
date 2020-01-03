@@ -5350,7 +5350,7 @@ updateBrowserRemoteness
 (
 gBrowser
 .
-mCurrentBrowser
+selectedBrowser
 true
 )
 ;

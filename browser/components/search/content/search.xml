@@ -2942,7 +2942,7 @@ addengines
 =
 gBrowser
 .
-mCurrentBrowser
+selectedBrowser
 .
 engines
 ;
