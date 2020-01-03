@@ -1086,7 +1086,7 @@ children
 :
 [
 ]
-mmPrincipals
+observerPrincipalCache
 :
 new
 Map
@@ -5274,7 +5274,7 @@ principal
 =
 this
 .
-mmPrincipals
+observerPrincipalCache
 .
 get
 (
@@ -5428,7 +5428,7 @@ aMsgMgr
 ;
 this
 .
-mmPrincipals
+observerPrincipalCache
 .
 set
 (
@@ -5455,7 +5455,7 @@ principal
 =
 this
 .
-mmPrincipals
+observerPrincipalCache
 .
 get
 (
@@ -5515,7 +5515,7 @@ index
 ;
 this
 .
-mmPrincipals
+observerPrincipalCache
 .
 delete
 (
@@ -5535,12 +5535,15 @@ Principal
 MessageManager
 pairs
 left
+in
+observer
+cache
 :
 "
 +
 this
 .
-mmPrincipals
+observerPrincipalCache
 .
 size
 )
