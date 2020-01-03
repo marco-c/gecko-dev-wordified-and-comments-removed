@@ -224,7 +224,7 @@ aContent
 ;
 protected
 :
-nsIntRect
+LayoutDeviceIntRect
 mMouseDownRect
 ;
 LayoutDeviceIntPoint
