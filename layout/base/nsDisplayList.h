@@ -221,6 +221,7 @@ char
 Name
 (
 )
+MOZ_OVERRIDE
 {
 return
 n
@@ -232,6 +233,7 @@ Type
 GetType
 (
 )
+MOZ_OVERRIDE
 {
 return
 e
@@ -8207,6 +8209,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+MOZ_OVERRIDE
 {
 return
 true

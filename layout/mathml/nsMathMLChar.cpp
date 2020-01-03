@@ -7746,6 +7746,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -7937,6 +7938,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -8133,6 +8135,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 {
 *
 aSnap
@@ -8235,6 +8238,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 {
 mChar
 -
@@ -8271,6 +8275,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+MOZ_OVERRIDE
 {
 bool
 snap
@@ -8289,6 +8294,7 @@ uint32_t
 GetPerFrameKey
 (
 )
+MOZ_OVERRIDE
 {
 return
 (
@@ -8392,6 +8398,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (

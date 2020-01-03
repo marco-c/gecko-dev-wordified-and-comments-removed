@@ -241,6 +241,7 @@ nsISelection
 *
 aSelection
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -516,6 +517,7 @@ gfxContext
 CreateReferenceRenderingContext
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -729,6 +731,7 @@ void
 NotifyCounterStylesAreDirty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1746,6 +1749,7 @@ ShadowRoot
 *
 aShadowRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2492,6 +2496,7 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 nsSynthMouseMoveEvent
+MOZ_OVERRIDE
 )
 void
 Revoke

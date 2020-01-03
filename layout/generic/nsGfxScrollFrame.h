@@ -3195,6 +3195,7 @@ VisibilityChanged
 bool
 aVisible
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -4898,6 +4899,7 @@ VisibilityChanged
 bool
 aVisible
 )
+MOZ_OVERRIDE
 {
 }
 virtual

@@ -69,6 +69,7 @@ QueryFrame
 FrameIID
 id
 )
+MOZ_OVERRIDE
 ;
 #
 define

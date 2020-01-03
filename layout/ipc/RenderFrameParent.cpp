@@ -1024,6 +1024,7 @@ ZoomConstraints
 *
 aOutConstraints
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -1051,6 +1052,7 @@ CSSRect
 *
 aOutRegion
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -1095,6 +1097,7 @@ aChange
 int
 aArg
 )
+MOZ_OVERRIDE
 {
 if
 (

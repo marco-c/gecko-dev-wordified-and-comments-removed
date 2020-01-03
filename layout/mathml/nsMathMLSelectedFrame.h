@@ -123,6 +123,7 @@ FrameIID
 GetFrameId
 (
 )
+MOZ_OVERRIDE
 =
 0
 ;

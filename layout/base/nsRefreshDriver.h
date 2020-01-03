@@ -712,6 +712,7 @@ AddRef
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 TransactionIdAllocator
@@ -730,6 +731,7 @@ Release
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 TransactionIdAllocator
@@ -750,6 +752,7 @@ mozilla
 TimeStamp
 aTime
 )
+MOZ_OVERRIDE
 ;
 private
 :
