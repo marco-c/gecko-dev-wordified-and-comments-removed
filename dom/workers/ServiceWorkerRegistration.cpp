@@ -2272,6 +2272,7 @@ public
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 WorkerListener
+override
 )
 WorkerListener
 (
