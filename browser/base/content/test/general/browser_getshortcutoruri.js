@@ -950,9 +950,17 @@ let
 returnedData
 =
 yield
+new
+Promise
+(
+resolve
+=
+>
 getShortcutOrURIAndPostData
 (
 query
+resolve
+)
 )
 ;
 let
