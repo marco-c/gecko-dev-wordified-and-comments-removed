@@ -299,17 +299,6 @@ function
 (
 )
 {
-(
-"
-#
-fixtures
-"
-)
-.
-empty
-(
-)
-;
 sandbox
 .
 restore
