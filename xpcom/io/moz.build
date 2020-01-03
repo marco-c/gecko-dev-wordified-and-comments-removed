@@ -118,6 +118,11 @@ nsIBinaryOutputStream
 idl
 '
 '
+nsICloneableInputStream
+.
+idl
+'
+'
 nsIConverterInputStream
 .
 idl
