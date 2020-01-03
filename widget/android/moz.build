@@ -154,6 +154,11 @@ AndroidBridge
 cpp
 '
 '
+AndroidContentController
+.
+cpp
+'
+'
 AndroidDirectTexture
 .
 cpp
@@ -175,11 +180,6 @@ cpp
 '
 '
 AndroidJNIWrapper
-.
-cpp
-'
-'
-APZCCallbackHandler
 .
 cpp
 '
