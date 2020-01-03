@@ -2727,6 +2727,17 @@ DispatchError
 return
 ;
 }
+aTask
+-
+>
+SetChosenVoiceURI
+(
+voice
+-
+>
+mUri
+)
+;
 LOG
 (
 PR_LOG_DEBUG
