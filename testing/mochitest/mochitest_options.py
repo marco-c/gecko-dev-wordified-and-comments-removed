@@ -1842,7 +1842,7 @@ dest
 "
 :
 "
-leakThreshold
+defaultLeakThreshold
 "
           
 "
@@ -1865,30 +1865,33 @@ number
 of
 bytes
 leaked
-through
+in
+default
 "
                  
 "
+processes
+through
 refcounted
 objects
 (
 or
 bytes
-in
-classes
-with
 "
                  
 "
+in
+classes
+with
 MOZ_COUNT_CTOR
 and
 MOZ_COUNT_DTOR
 )
-is
-greater
 "
                  
 "
+is
+greater
 than
 the
 given
@@ -5302,6 +5305,28 @@ devices
 '
 )
         
+options
+.
+leakThresholds
+=
+{
+            
+"
+default
+"
+:
+options
+.
+defaultLeakThreshold
+            
+"
+tab
+"
+:
+10000
+        
+}
+        
 return
 options
 class
@@ -6598,7 +6623,7 @@ specialpowers
 defaults
 [
 "
-leakThreshold
+defaultLeakThreshold
 "
 ]
 =
