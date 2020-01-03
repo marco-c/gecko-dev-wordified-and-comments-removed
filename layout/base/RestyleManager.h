@@ -855,14 +855,6 @@ aRestyleHint
 )
 ;
 void
-DoRebuildAllStyleData
-(
-RestyleTracker
-&
-aRestyleTracker
-)
-;
-void
 PostRestyleEvent
 (
 Element
