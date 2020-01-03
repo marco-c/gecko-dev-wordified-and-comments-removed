@@ -1743,7 +1743,7 @@ label
 &
 options
 .
-enableServiceWorkersTesting
+enableServiceWorkersHTTP
 .
 label
 ;
@@ -1754,7 +1754,7 @@ tooltiptext
 &
 options
 .
-enableServiceWorkersTesting
+enableServiceWorkersHTTP
 .
 tooltip
 ;
