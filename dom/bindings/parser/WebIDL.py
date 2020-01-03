@@ -6860,7 +6860,7 @@ member
 getExtendedAttribute
 (
 "
-CheckPermissions
+CheckAnyPermissions
 "
 )
 or
@@ -7178,7 +7178,7 @@ attribute
 in
 [
 "
-CheckPermissions
+CheckAnyPermissions
 "
 "
 CheckAllPermissions
@@ -8745,7 +8745,7 @@ identifier
 =
 =
 "
-CheckPermissions
+CheckAnyPermissions
 "
 or
                   
@@ -9540,7 +9540,7 @@ self
 getExtendedAttribute
 (
 "
-CheckPermissions
+CheckAnyPermissions
 "
 )
 or
@@ -21396,7 +21396,7 @@ attribute
 in
 [
 "
-CheckPermissions
+CheckAnyPermissions
 "
 "
 CheckAllPermissions
@@ -23708,7 +23708,7 @@ identifier
 =
 =
 "
-CheckPermissions
+CheckAnyPermissions
 "
 or
               
@@ -26359,7 +26359,7 @@ identifier
 =
 =
 "
-CheckPermissions
+CheckAnyPermissions
 "
 or
               
@@ -31189,7 +31189,7 @@ identifier
 =
 =
 "
-CheckPermissions
+CheckAnyPermissions
 "
 or
               

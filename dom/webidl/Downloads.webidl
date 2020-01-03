@@ -209,7 +209,7 @@ the
 pref
 and
 use
-CheckPermissions
+CheckAnyPermissions
 like
 /
 /
@@ -617,7 +617,7 @@ mozDownloads
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 downloads

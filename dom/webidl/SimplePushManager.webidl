@@ -110,7 +110,7 @@ PushManager
 ;
 1
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 push

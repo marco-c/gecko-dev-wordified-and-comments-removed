@@ -123,7 +123,7 @@ alarmsManager
 ;
 1
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 alarms

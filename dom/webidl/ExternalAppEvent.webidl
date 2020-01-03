@@ -100,7 +100,7 @@ optional
 ExternalAppEventInit
 eventInitDict
 )
-CheckPermissions
+CheckAnyPermissions
 =
 "
 external

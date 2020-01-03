@@ -195,7 +195,7 @@ udpsocket
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 udp

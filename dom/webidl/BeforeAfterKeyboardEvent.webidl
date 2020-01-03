@@ -100,7 +100,7 @@ optional
 BeforeAfterKeyboardEventInit
 eventInitDict
 )
-CheckPermissions
+CheckAnyPermissions
 =
 "
 embed

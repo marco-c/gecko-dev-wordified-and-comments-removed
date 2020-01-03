@@ -12255,7 +12255,7 @@ aObj
 ;
 }
 bool
-CheckPermissions
+CheckAnyPermissions
 (
 JSContext
 *

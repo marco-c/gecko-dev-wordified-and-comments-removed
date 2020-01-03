@@ -715,7 +715,7 @@ interface
 NavigatorFeatures
 {
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 feature
@@ -735,7 +735,7 @@ name
 )
 ;
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 feature
@@ -1237,7 +1237,7 @@ we
 would
 use
 [
-CheckPermissions
+CheckAnyPermissions
 ]
 here
 but
@@ -1254,7 +1254,7 @@ to
 PROMPT_ACTION
 and
 [
-CheckPermissions
+CheckAnyPermissions
 ]
 only
 checks
@@ -1416,7 +1416,7 @@ buildID
 ;
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 power
@@ -1468,7 +1468,7 @@ window
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 idle
@@ -1501,7 +1501,7 @@ window
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 idle
@@ -1922,7 +1922,7 @@ interface
 Navigator
 {
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 sms
@@ -2177,7 +2177,7 @@ mobileconnection
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -2207,7 +2207,7 @@ cellbroadcast
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 cellbroadcast
@@ -2241,7 +2241,7 @@ voicemail
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 voicemail
@@ -2275,7 +2275,7 @@ icc
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -2310,7 +2310,7 @@ telephony
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 telephony
@@ -2434,7 +2434,7 @@ Navigator
 {
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 bluetooth
@@ -2462,7 +2462,7 @@ Navigator
 {
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 fmradio
@@ -2493,7 +2493,7 @@ Navigator
 {
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 time
@@ -2768,7 +2768,7 @@ tv
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 tv
@@ -2805,7 +2805,7 @@ inputport
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 inputport

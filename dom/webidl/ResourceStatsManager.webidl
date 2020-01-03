@@ -498,7 +498,7 @@ data
 }
 ;
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 resourcestats
@@ -696,7 +696,7 @@ data
 }
 ;
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 resourcestats

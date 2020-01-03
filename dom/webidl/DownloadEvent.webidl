@@ -109,7 +109,7 @@ mozDownloads
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 downloads

@@ -101,7 +101,7 @@ telephony
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 telephony

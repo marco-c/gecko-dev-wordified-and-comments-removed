@@ -83,7 +83,7 @@ icc
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -266,7 +266,7 @@ icc
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -322,7 +322,7 @@ icc
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection

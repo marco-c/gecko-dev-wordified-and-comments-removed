@@ -578,7 +578,7 @@ permission
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobilenetwork
@@ -590,7 +590,7 @@ DOMString
 lastKnownNetwork
 ;
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobilenetwork
@@ -614,7 +614,7 @@ connection
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -638,7 +638,7 @@ connection
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -670,7 +670,7 @@ to
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -699,7 +699,7 @@ networks
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -723,7 +723,7 @@ state
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -755,7 +755,7 @@ radio
 [
 Cached
 Pure
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -848,7 +848,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -964,7 +964,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -1076,7 +1076,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -1175,7 +1175,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -1356,7 +1356,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -1449,7 +1449,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -1564,7 +1564,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -1679,7 +1679,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -1779,7 +1779,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -1884,7 +1884,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -2019,7 +2019,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -2127,7 +2127,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -2282,7 +2282,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -2441,7 +2441,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -2536,7 +2536,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -2634,7 +2634,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -2750,7 +2750,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -2863,7 +2863,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -2941,7 +2941,7 @@ GenericFailure
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection
@@ -3066,7 +3066,7 @@ error
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection

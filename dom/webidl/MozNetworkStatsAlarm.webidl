@@ -69,7 +69,7 @@ networkstatsalarm
 1
 "
 ChromeOnly
-CheckPermissions
+CheckAnyPermissions
 =
 "
 networkstats

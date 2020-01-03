@@ -181,7 +181,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -206,7 +206,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -229,7 +229,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -254,7 +254,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -277,7 +277,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -302,7 +302,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -335,7 +335,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -380,7 +380,7 @@ TouchEvent
 :
 PrefEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -446,7 +446,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -466,7 +466,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -486,7 +486,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -511,7 +511,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -531,7 +531,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -556,7 +556,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -576,7 +576,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -614,7 +614,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -636,7 +636,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -656,7 +656,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -676,7 +676,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -744,7 +744,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -768,7 +768,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -790,7 +790,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser
@@ -824,7 +824,7 @@ dom
 .
 mozBrowserFramesEnabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 browser

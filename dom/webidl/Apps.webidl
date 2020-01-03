@@ -165,7 +165,7 @@ interface
 DOMApplicationsRegistry
 {
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 webapps
@@ -650,7 +650,7 @@ manager
 1
 "
 ChromeOnly
-CheckPermissions
+CheckAnyPermissions
 =
 "
 webapps
@@ -674,7 +674,7 @@ getAll
 )
 ;
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 webapps
@@ -688,7 +688,7 @@ getNotInstalled
 )
 ;
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 webapps
@@ -711,7 +711,7 @@ app
 )
 ;
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 webapps
@@ -730,7 +730,7 @@ blob
 )
 ;
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 webapps
@@ -749,7 +749,7 @@ blob
 )
 ;
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 webapps

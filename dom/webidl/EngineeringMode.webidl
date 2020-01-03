@@ -82,7 +82,7 @@ engineeringMode
 AvailableIn
 =
 CertifiedApps
-CheckPermissions
+CheckAnyPermissions
 =
 "
 engineering

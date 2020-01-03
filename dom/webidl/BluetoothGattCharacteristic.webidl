@@ -149,7 +149,7 @@ extendedProps
 }
 ;
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 bluetooth

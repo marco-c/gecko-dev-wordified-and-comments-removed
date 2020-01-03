@@ -127,7 +127,7 @@ tv
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 tv

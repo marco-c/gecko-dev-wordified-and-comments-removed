@@ -100,7 +100,7 @@ optional
 BluetoothDiscoveryStateChangedEventInit
 eventInitDict
 )
-CheckPermissions
+CheckAnyPermissions
 =
 "
 bluetooth

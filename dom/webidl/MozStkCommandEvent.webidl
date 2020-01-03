@@ -352,7 +352,7 @@ icc
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 mobileconnection

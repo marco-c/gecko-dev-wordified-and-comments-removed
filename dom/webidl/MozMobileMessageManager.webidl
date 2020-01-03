@@ -785,7 +785,7 @@ sms
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 sms

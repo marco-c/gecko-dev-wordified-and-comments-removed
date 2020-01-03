@@ -101,7 +101,7 @@ inputport
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 inputport

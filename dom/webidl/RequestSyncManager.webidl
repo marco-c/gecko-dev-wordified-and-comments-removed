@@ -104,7 +104,7 @@ requestSync
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 requestsync
@@ -191,7 +191,7 @@ requestSync
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 requestsync
@@ -354,7 +354,7 @@ requestSync
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 requestsync

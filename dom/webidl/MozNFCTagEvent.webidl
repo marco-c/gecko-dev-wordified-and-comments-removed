@@ -108,7 +108,7 @@ Navigator
 :
 HasNFCSupport
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 nfc

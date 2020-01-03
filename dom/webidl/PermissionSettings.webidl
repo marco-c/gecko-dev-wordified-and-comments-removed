@@ -67,7 +67,7 @@ permissionSettings
 ;
 1
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 permissions

@@ -76,7 +76,7 @@ secureelement
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 secureelement

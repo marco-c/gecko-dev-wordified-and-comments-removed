@@ -13383,7 +13383,7 @@ aValue
 #
 endif
 bool
-CheckPermissions
+CheckAnyPermissions
 (
 JSContext
 *

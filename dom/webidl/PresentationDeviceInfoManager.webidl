@@ -135,7 +135,7 @@ presentation
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 presentation

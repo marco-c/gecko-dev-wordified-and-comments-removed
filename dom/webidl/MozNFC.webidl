@@ -177,7 +177,7 @@ error
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 nfc
@@ -217,7 +217,7 @@ UI
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 nfc
@@ -248,7 +248,7 @@ operation
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 nfc
@@ -289,7 +289,7 @@ devices
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 nfc
@@ -332,7 +332,7 @@ mode
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 nfc
@@ -364,7 +364,7 @@ hardware
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 nfc
@@ -412,7 +412,7 @@ Navigator
 :
 HasNFCSupport
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 nfc
@@ -492,7 +492,7 @@ NFCPeerEvent
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 nfc

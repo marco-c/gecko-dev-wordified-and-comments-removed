@@ -100,7 +100,7 @@ optional
 MozSettingsTransactionEventInit
 eventInitDict
 )
-CheckPermissions
+CheckAnyPermissions
 =
 "
 settings

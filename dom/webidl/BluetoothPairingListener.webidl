@@ -95,7 +95,7 @@ MPL
 AvailableIn
 =
 CertifiedApps
-CheckPermissions
+CheckAnyPermissions
 =
 "
 bluetooth

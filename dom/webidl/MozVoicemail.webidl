@@ -121,7 +121,7 @@ voicemail
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 voicemail

@@ -108,7 +108,7 @@ NavigatorProperty
 "
 mozPhoneNumberService
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 phonenumberservice

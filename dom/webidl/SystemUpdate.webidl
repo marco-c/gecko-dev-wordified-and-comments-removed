@@ -124,7 +124,7 @@ provider
 ;
 1
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 system
@@ -231,7 +231,7 @@ manager
 ;
 1
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 system

@@ -281,7 +281,7 @@ playStatus
 }
 ;
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 bluetooth

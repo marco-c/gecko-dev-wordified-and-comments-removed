@@ -310,7 +310,7 @@ secureelement
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 secureelement
@@ -461,7 +461,7 @@ secureelement
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 secureelement
@@ -690,7 +690,7 @@ secureelement
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 secureelement
@@ -924,7 +924,7 @@ secureelement
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 secureelement

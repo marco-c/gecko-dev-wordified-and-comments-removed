@@ -92,7 +92,7 @@ MPL
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 resourcestats
@@ -156,7 +156,7 @@ record
 }
 ;
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 resourcestats
@@ -218,7 +218,7 @@ record
 }
 ;
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 resourcestats

@@ -109,7 +109,7 @@ cellbroadcast
 .
 enabled
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 cellbroadcast

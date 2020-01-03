@@ -103,7 +103,7 @@ networkstatsinterface
 ;
 1
 "
-CheckPermissions
+CheckAnyPermissions
 =
 "
 networkstats

@@ -112,7 +112,7 @@ MPL
 *
 /
 [
-CheckPermissions
+CheckAnyPermissions
 =
 "
 bluetooth

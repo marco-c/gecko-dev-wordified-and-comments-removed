@@ -185,7 +185,7 @@ device
 /
 [
 Throws
-CheckPermissions
+CheckAnyPermissions
 =
 "
 nfc
