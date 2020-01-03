@@ -3154,6 +3154,12 @@ x
 i
 )
 ;
+assertRecoveredOnBailout
+(
+x
+true
+)
+;
 return
 i
 ;
