@@ -52,6 +52,9 @@ ponies
 "
 )
 ;
+return
+true
+;
 }
 }
 )
