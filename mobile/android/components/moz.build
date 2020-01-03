@@ -143,11 +143,6 @@ ContentPermissionPrompt
 js
 '
 '
-DownloadManagerUI
-.
-js
-'
-'
 FilePicker
 .
 js
