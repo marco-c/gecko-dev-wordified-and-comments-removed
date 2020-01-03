@@ -46,7 +46,11 @@ MozNDEFRecord
 {
 tnf
 :
-0x01
+"
+well
+-
+known
+"
 type
 :
 new
