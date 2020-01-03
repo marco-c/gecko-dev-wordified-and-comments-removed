@@ -7683,17 +7683,6 @@ obj
 )
 {
 return
-obj
--
->
-is
-<
-GlobalObject
->
-(
-)
-|
-|
 !
 !
 GetObjectClass
