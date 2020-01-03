@@ -127,7 +127,13 @@ nsIntRect
 rect
 ;
 nsIntRect
+rectDisplayPix
+;
+nsIntRect
 availRect
+;
+nsIntRect
+availRectDisplayPix
 ;
 int32_t
 pixelDepth
