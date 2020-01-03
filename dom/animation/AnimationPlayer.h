@@ -99,6 +99,9 @@ nsPresContext
 namespace
 mozilla
 {
+struct
+AnimationPlayerCollection
+;
 namespace
 css
 {
@@ -519,6 +522,13 @@ GetAnimationManager
 const
 =
 0
+;
+AnimationPlayerCollection
+*
+GetCollection
+(
+)
+const
 ;
 nsRefPtr
 <
