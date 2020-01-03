@@ -526,7 +526,7 @@ nsDisplayRemote
 nsDisplayListBuilder
 *
 aBuilder
-nsIFrame
+nsSubDocumentFrame
 *
 aFrame
 RenderFrameParent
