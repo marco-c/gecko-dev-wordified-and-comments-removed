@@ -1879,6 +1879,14 @@ override
 NS_DECL_ISUPPORTS
 private
 :
+void
+SetProxyOnPcm
+(
+nsIProxyInfo
+&
+proxyinfo
+)
+;
 RefPtr
 <
 PeerConnectionMedia
