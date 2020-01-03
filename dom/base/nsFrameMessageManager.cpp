@@ -7490,10 +7490,10 @@ JSObject
 global
 (
 cx
-mGlobal
--
->
-GetJSObject
+xpc
+:
+:
+CompilationScope
 (
 )
 )
@@ -7517,6 +7517,7 @@ CompileOptions
 options
 (
 cx
+JSVERSION_LATEST
 )
 ;
 options
