@@ -2693,10 +2693,14 @@ isJSContext
 Latin1Char
 *
 latin1Buf
+=
+nullptr
 ;
 char16_t
 *
 twoByteBuf
+=
+nullptr
 ;
 JSInlineString
 *

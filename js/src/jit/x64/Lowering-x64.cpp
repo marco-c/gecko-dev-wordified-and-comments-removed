@@ -884,6 +884,8 @@ ptr
 LAsmJSStoreHeap
 *
 lir
+=
+nullptr
 ;
 switch
 (

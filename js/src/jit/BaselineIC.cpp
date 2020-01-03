@@ -41243,6 +41243,14 @@ expandoVal
 =
 expandoSlot
 ;
+expandoAndGeneration
+=
+nullptr
+;
+generation
+=
+0
+;
 }
 else
 {

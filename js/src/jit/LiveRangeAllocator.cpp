@@ -162,6 +162,9 @@ buf
 ;
 int
 n
+=
+-
+1
 ;
 switch
 (

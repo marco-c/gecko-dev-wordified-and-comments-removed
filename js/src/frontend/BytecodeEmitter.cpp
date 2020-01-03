@@ -15126,6 +15126,13 @@ setHops
 0
 )
 ;
+sc
+.
+setSlot
+(
+0
+)
+;
 JS_ALWAYS_TRUE
 (
 LookupAliasedNameSlot

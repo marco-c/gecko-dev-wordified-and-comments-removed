@@ -15352,6 +15352,12 @@ InliningStatus_NotInlined
 ;
 MIRType
 simdType
+=
+MIRType
+(
+-
+1
+)
 ;
 switch
 (

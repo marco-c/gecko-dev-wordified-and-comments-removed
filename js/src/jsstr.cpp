@@ -1106,6 +1106,8 @@ newChars
 ;
 uint32_t
 newLength
+=
+0
 ;
 if
 (

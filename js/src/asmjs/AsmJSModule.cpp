@@ -11463,6 +11463,10 @@ parser
 {
 TokenPos
 pos
+(
+0
+0
+)
 ;
 MOZ_ALWAYS_TRUE
 (

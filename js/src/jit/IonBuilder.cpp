@@ -37941,6 +37941,8 @@ pc
 MInstruction
 *
 load
+=
+nullptr
 ;
 BarrierKind
 barrier
@@ -58767,6 +58769,8 @@ adjustment
 MInstruction
 *
 store
+=
+nullptr
 ;
 switch
 (
