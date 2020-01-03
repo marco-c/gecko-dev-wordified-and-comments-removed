@@ -7115,3 +7115,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+reader
+.
+color_scheme
+"
+"
+auto
+"
+)
+;
