@@ -20503,9 +20503,6 @@ messageManager
 gContextMenuContentData
 =
 {
-isRemote
-:
-true
 event
 :
 aMessage
@@ -20513,13 +20510,6 @@ aMessage
 objects
 .
 event
-popupNode
-:
-aMessage
-.
-objects
-.
-popupNode
 browser
 :
 browser
@@ -20533,13 +20523,6 @@ editFlags
 spellInfo
 :
 spellInfo
-addonInfo
-:
-aMessage
-.
-data
-.
-addonInfo
 }
 ;
 let
