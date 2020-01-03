@@ -180,6 +180,14 @@ DisconnectFromOwner
 )
 override
 ;
+void
+ControllerChanged
+(
+ErrorResult
+&
+aRv
+)
+;
 private
 :
 ~

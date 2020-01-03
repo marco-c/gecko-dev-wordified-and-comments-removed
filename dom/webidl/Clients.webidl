@@ -168,6 +168,9 @@ USVString
 url
 )
 ;
+[
+Throws
+]
 Promise
 <
 void

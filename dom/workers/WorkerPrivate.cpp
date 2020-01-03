@@ -9195,6 +9195,10 @@ mWindowID
 (
 UINT64_MAX
 )
+mServiceWorkerID
+(
+0
+)
 mFromWindow
 (
 false
@@ -9427,6 +9431,12 @@ mWindowID
 aOther
 .
 mWindowID
+;
+mServiceWorkerID
+=
+aOther
+.
+mServiceWorkerID
 ;
 mFromWindow
 =
