@@ -365,13 +365,6 @@ nsString
 h
 "
 #
-include
-"
-nsQueryObject
-.
-h
-"
-#
 ifdef
 HANDLE_NATIVE_TEXT_DIRECTION_SWITCH
 #

@@ -218,13 +218,6 @@ h
 #
 include
 "
-nsQueryObject
-.
-h
-"
-#
-include
-"
 nsIFormSubmitObserver
 .
 h

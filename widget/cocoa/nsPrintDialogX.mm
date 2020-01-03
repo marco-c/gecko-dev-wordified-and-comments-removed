@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsQueryObject
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

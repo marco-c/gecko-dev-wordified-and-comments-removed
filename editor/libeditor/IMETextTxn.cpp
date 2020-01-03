@@ -69,13 +69,6 @@ nsRange
 .
 h
 "
-#
-include
-"
-nsQueryObject
-.
-h
-"
 using
 namespace
 mozilla

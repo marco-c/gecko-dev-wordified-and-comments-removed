@@ -311,13 +311,6 @@ h
 #
 include
 "
-nsQueryObject
-.
-h
-"
-#
-include
-"
 nsFrameLoader
 .
 h

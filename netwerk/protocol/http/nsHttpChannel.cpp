@@ -461,13 +461,6 @@ ScopedNSSTypes
 .
 h
 "
-#
-include
-"
-nsQueryObject
-.
-h
-"
 namespace
 mozilla
 {

@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsQueryObject
-.
-h
-"
-#
-include
-"
 nsXBLPrototypeHandler
 .
 h

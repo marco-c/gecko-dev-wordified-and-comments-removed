@@ -391,13 +391,6 @@ h
 #
 include
 "
-nsQueryObject
-.
-h
-"
-#
-include
-"
 ActorsChild
 .
 h

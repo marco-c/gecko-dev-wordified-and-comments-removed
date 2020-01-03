@@ -20,13 +20,6 @@ nsCOMPtr
 h
 "
 #
-include
-"
-nsQueryObject
-.
-h
-"
-#
 if
 defined
 (

@@ -341,11 +341,6 @@ nsObjCExceptions
 h
 '
 '
-nsQueryObject
-.
-h
-'
-'
 nsRefPtr
 .
 h

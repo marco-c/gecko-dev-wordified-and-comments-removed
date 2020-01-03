@@ -34,13 +34,6 @@ nsISupports
 h
 "
 #
-include
-"
-nsQueryObject
-.
-h
-"
-#
 define
 NS_FOO_IID
 \

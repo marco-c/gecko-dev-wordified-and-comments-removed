@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsQueryObject
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
