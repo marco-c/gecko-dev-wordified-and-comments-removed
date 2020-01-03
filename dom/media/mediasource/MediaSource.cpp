@@ -1377,6 +1377,13 @@ Updating
 )
 )
 {
+sourceBuffer
+-
+>
+Abort
+(
+)
+;
 }
 if
 (
