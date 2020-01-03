@@ -2744,7 +2744,6 @@ AutoLockGC
 lock
 )
 ;
-inline
 void
 arenaAllocatedDuringGC
 (
