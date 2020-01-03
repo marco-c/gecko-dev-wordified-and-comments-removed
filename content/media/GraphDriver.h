@@ -105,6 +105,7 @@ GraphDriver
 {
 public
 :
+explicit
 GraphDriver
 (
 MediaStreamGraphImpl
@@ -434,6 +435,7 @@ GraphDriver
 {
 public
 :
+explicit
 ThreadedDriver
 (
 MediaStreamGraphImpl
@@ -511,6 +513,7 @@ ThreadedDriver
 {
 public
 :
+explicit
 SystemClockDriver
 (
 MediaStreamGraphImpl
@@ -649,6 +652,7 @@ MixerCallbackReceiver
 {
 public
 :
+explicit
 AudioCallbackDriver
 (
 MediaStreamGraphImpl
@@ -922,6 +926,7 @@ mStarted
 struct
 AutoInCallback
 {
+explicit
 AutoInCallback
 (
 AudioCallbackDriver

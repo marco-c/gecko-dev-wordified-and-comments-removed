@@ -1968,6 +1968,7 @@ RestrictedAccessMonitor
 {
 public
 :
+explicit
 RestrictedAccessMonitor
 (
 const

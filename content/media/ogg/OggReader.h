@@ -159,6 +159,7 @@ MediaDecoderReader
 {
 public
 :
+explicit
 OggReader
 (
 AbstractMediaDecoder

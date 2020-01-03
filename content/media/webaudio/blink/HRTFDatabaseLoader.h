@@ -292,6 +292,7 @@ nsFloatHashKey
 {
 public
 :
+explicit
 LoaderByRateEntry
 (
 KeyTypePointer

@@ -59,6 +59,7 @@ mDuration
 )
 {
 }
+explicit
 Tkhd
 (
 Box
@@ -107,6 +108,7 @@ mDuration
 )
 {
 }
+explicit
 Mdhd
 (
 Box
@@ -148,6 +150,7 @@ Trex
 {
 public
 :
+explicit
 Trex
 (
 uint32_t
@@ -180,6 +183,7 @@ mDefaultSampleFlags
 )
 {
 }
+explicit
 Trex
 (
 Box
@@ -215,6 +219,7 @@ Trex
 {
 public
 :
+explicit
 Tfhd
 (
 Trex
@@ -262,6 +267,7 @@ mBaseMediaDecodeTime
 )
 {
 }
+explicit
 Tfdt
 (
 Box

@@ -191,6 +191,7 @@ MediaResource
 {
 public
 :
+explicit
 SourceBufferResource
 (
 const

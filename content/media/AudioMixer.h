@@ -527,6 +527,7 @@ MixerCallback
 {
 public
 :
+explicit
 MixerCallback
 (
 MixerCallbackReceiver

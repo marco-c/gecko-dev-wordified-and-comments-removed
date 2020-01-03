@@ -63,6 +63,7 @@ PGMPDecryptorChild
 {
 public
 :
+explicit
 GMPDecryptorChild
 (
 GMPChild

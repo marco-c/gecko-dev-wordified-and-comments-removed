@@ -78,6 +78,7 @@ GMPVideoHost
 {
 public
 :
+explicit
 GMPVideoHostImpl
 (
 GMPSharedMemManager

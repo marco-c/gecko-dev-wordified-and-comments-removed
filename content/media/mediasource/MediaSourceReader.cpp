@@ -1430,6 +1430,7 @@ nsRunnable
 {
 public
 :
+explicit
 ReleaseDecodersTask
 (
 nsTArray
@@ -2199,6 +2200,7 @@ nsRunnable
 {
 public
 :
+explicit
 ChangeToHaveMetadata
 (
 AbstractMediaDecoder

@@ -655,6 +655,7 @@ ResourceStreamIterator
 {
 public
 :
+explicit
 ResourceStreamIterator
 (
 int64_t

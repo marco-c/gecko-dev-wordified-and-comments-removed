@@ -68,6 +68,7 @@ GMPSharedMemManager
 {
 public
 :
+explicit
 GMPVideoEncoderChild
 (
 GMPChild

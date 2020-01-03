@@ -698,6 +698,7 @@ MainThreadOnlyRawPtr
 {
 public
 :
+explicit
 MainThreadOnlyRawPtr
 (
 Type

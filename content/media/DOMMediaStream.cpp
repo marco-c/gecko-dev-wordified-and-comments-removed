@@ -235,6 +235,7 @@ MediaStreamListener
 {
 public
 :
+explicit
 StreamListener
 (
 DOMMediaStream

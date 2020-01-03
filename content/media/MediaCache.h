@@ -72,6 +72,7 @@ MODE_METADATA
 MODE_PLAYBACK
 }
 ;
+explicit
 MediaCacheStream
 (
 ChannelMediaResource
@@ -522,6 +523,7 @@ Entry
 public
 nsUint32HashKey
 {
+explicit
 Entry
 (
 KeyTypePointer

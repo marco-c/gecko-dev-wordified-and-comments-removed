@@ -45,6 +45,7 @@ MOZ_FINAL
 {
 public
 :
+explicit
 PeerIdentity
 (
 const

@@ -84,6 +84,7 @@ nsIStreamListener
 )
 public
 :
+explicit
 WebVTTListener
 (
 HTMLTrackElement

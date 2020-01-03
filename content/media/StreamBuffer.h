@@ -1241,6 +1241,7 @@ TrackIter
 {
 public
 :
+explicit
 TrackIter
 (
 const

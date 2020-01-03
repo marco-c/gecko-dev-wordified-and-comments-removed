@@ -67,6 +67,7 @@ ThreadSharedObject
 {
 public
 :
+explicit
 ThreadSharedFloatArrayBufferList
 (
 uint32_t

@@ -77,6 +77,7 @@ GMPVideoi420FrameImpl
 ;
 public
 :
+explicit
 GMPVideoi420FrameImpl
 (
 GMPVideoHostImpl

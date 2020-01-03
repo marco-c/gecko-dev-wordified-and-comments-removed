@@ -79,6 +79,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 SpeechGrammar
 (
 nsISupports

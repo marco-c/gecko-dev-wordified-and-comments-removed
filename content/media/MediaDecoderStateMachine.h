@@ -669,6 +669,7 @@ nsRunnable
 {
 public
 :
+explicit
 WakeDecoderRunnable
 (
 MediaDecoderStateMachine

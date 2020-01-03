@@ -71,6 +71,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 GMPDecryptorParent
 )
+explicit
 GMPDecryptorParent
 (
 GMPParent

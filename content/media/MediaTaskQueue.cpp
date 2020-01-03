@@ -245,6 +245,7 @@ nsRunnable
 {
 public
 :
+explicit
 MediaTaskQueueSyncRunnable
 (
 TemporaryRef

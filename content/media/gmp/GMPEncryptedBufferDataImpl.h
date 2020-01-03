@@ -63,6 +63,7 @@ CryptoSample
 ;
 public
 :
+explicit
 GMPEncryptedBufferDataImpl
 (
 const
@@ -71,6 +72,7 @@ CryptoSample
 aCrypto
 )
 ;
+explicit
 GMPEncryptedBufferDataImpl
 (
 const

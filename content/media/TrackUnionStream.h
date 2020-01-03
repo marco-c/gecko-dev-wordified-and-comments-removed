@@ -54,6 +54,7 @@ ProcessedMediaStream
 {
 public
 :
+explicit
 TrackUnionStream
 (
 DOMMediaStream

@@ -272,6 +272,7 @@ nsRunnable
 {
 public
 :
+explicit
 ShutdownThreadEvent
 (
 nsIThread
@@ -335,6 +336,7 @@ nsRunnable
 {
 public
 :
+explicit
 DeleteObjectTask
 (
 nsAutoPtr

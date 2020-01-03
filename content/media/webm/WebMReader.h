@@ -367,6 +367,7 @@ MediaDecoderReader
 {
 public
 :
+explicit
 WebMReader
 (
 AbstractMediaDecoder

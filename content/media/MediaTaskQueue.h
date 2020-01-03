@@ -58,6 +58,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MediaTaskQueue
 )
+explicit
 MediaTaskQueue
 (
 TemporaryRef
@@ -187,6 +188,7 @@ AutoSetFlushing
 {
 public
 :
+explicit
 AutoSetFlushing
 (
 MediaTaskQueue
@@ -257,6 +259,7 @@ nsRunnable
 {
 public
 :
+explicit
 Runner
 (
 MediaTaskQueue

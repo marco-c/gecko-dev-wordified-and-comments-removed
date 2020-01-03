@@ -149,6 +149,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 BlockChange
 )
+explicit
 BlockChange
 (
 const
@@ -183,6 +184,7 @@ BLOCK_SIZE
 )
 ;
 }
+explicit
 BlockChange
 (
 int32_t

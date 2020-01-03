@@ -974,6 +974,7 @@ Internal
 ;
 public
 :
+explicit
 PeerConnectionImpl
 (
 const
@@ -2981,6 +2982,7 @@ PeerConnectionWrapper
 {
 public
 :
+explicit
 PeerConnectionWrapper
 (
 const

@@ -50,6 +50,7 @@ FFTConvolver
 {
 public
 :
+explicit
 FFTConvolver
 (
 size_t

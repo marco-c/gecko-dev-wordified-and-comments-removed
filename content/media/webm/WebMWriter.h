@@ -97,6 +97,7 @@ ContainerWriter
 {
 public
 :
+explicit
 WebMWriter
 (
 uint32_t

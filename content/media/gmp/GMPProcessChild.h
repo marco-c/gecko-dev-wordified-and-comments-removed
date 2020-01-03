@@ -55,6 +55,7 @@ ProcessChild
 ;
 public
 :
+explicit
 GMPProcessChild
 (
 ProcessHandle

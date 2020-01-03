@@ -52,6 +52,7 @@ GMPAudioDecoderCallback
 {
 public
 :
+explicit
 GMPAudioDecoderChild
 (
 GMPChild

@@ -193,6 +193,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 GMPStorageChild
 )
+explicit
 GMPStorageChild
 (
 GMPChild

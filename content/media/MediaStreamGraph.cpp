@@ -8134,6 +8134,7 @@ nsRunnable
 {
 public
 :
+explicit
 MediaStreamGraphShutDownRunnable
 (
 MediaStreamGraphImpl
@@ -8436,6 +8437,7 @@ ControlMessage
 {
 public
 :
+explicit
 CreateMessage
 (
 MediaStream
@@ -10119,6 +10121,7 @@ ControlMessage
 {
 public
 :
+explicit
 Message
 (
 MediaStream
@@ -13069,6 +13072,7 @@ ControlMessage
 {
 public
 :
+explicit
 Message
 (
 MediaInputPort
@@ -13244,6 +13248,7 @@ ControlMessage
 {
 public
 :
+explicit
 Message
 (
 MediaInputPort
@@ -13384,6 +13389,7 @@ ControlMessage
 {
 public
 :
+explicit
 Message
 (
 ProcessedMediaStream
@@ -14129,6 +14135,7 @@ nsIMemoryReporter
 struct
 ArrayClearer
 {
+explicit
 ArrayClearer
 (
 nsTArray

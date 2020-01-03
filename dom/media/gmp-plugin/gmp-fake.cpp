@@ -388,6 +388,7 @@ GMPVideoEncoder
 {
 public
 :
+explicit
 FakeVideoEncoder
 (
 GMPVideoHost
@@ -1188,6 +1189,7 @@ GMPVideoDecoder
 {
 public
 :
+explicit
 FakeVideoDecoder
 (
 GMPVideoHost

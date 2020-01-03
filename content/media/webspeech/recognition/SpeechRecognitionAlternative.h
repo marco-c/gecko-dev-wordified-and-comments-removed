@@ -70,6 +70,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 SpeechRecognitionAlternative
 (
 SpeechRecognition

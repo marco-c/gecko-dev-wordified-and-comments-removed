@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 MediaStreamTrackBinding
@@ -400,6 +409,7 @@ dom
 SupportedAudioConstraints
 >
 {
+MOZ_IMPLICIT
 AudioTrackConstraintsN
 (
 const
@@ -444,6 +454,7 @@ dom
 SupportedVideoConstraints
 >
 {
+MOZ_IMPLICIT
 VideoTrackConstraintsN
 (
 const

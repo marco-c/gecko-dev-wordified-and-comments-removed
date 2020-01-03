@@ -156,6 +156,7 @@ return
 mParent
 ;
 }
+explicit
 TextTrackRegion
 (
 nsISupports

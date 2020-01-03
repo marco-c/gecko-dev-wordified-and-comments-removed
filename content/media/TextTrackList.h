@@ -67,6 +67,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 TextTrackList
 DOMEventTargetHelper
 )
+explicit
 TextTrackList
 (
 nsPIDOMWindow

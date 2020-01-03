@@ -62,6 +62,7 @@ GMPPlaneImpl
 ;
 public
 :
+explicit
 GMPPlaneImpl
 (
 GMPVideoHostImpl
