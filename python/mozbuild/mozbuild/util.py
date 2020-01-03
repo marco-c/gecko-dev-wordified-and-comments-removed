@@ -656,6 +656,11 @@ filename
 capture_diff
 =
 False
+mode
+=
+'
+rU
+'
 )
 :
         
@@ -683,6 +688,12 @@ self
 diff
 =
 None
+        
+self
+.
+mode
+=
+mode
     
 def
 close
@@ -790,9 +801,9 @@ open
 self
 .
 name
-'
-rU
-'
+self
+.
+mode
 )
             
 existed
