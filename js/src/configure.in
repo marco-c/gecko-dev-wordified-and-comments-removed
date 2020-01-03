@@ -5825,10 +5825,6 @@ mozbuild
 milestone
 .
 py
--
--
-topsrcdir
-srcdir
 MOZILLA_UAVERSION
 =
 PYTHON
@@ -5843,10 +5839,6 @@ mozbuild
 milestone
 .
 py
--
--
-topsrcdir
-srcdir
 -
 -
 uaversion
@@ -5864,10 +5856,6 @@ mozbuild
 milestone
 .
 py
--
--
-topsrcdir
-srcdir
 -
 -
 symbolversion
