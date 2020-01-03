@@ -813,14 +813,6 @@ ins
 )
 ;
 void
-visitRandom
-(
-MRandom
-*
-ins
-)
-;
-void
 visitMathFunction
 (
 MMathFunction

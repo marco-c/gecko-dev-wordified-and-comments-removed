@@ -414,6 +414,14 @@ OutOfLineTruncateFloat32
 ool
 )
 ;
+void
+visitRandom
+(
+LRandom
+*
+ins
+)
+;
 private
 :
 void
