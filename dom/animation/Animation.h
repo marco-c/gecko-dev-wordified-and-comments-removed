@@ -128,12 +128,16 @@ mozilla
 struct
 AnimationCollection
 ;
+namespace
+css
+{
 class
 AnimValuesStyleRule
 ;
 class
 CommonAnimationManager
 ;
+}
 namespace
 dom
 {
@@ -819,6 +823,9 @@ ComposeStyle
 (
 nsRefPtr
 <
+css
+:
+:
 AnimValuesStyleRule
 >
 &
@@ -1028,6 +1035,9 @@ GetPresContext
 const
 ;
 virtual
+css
+:
+:
 CommonAnimationManager
 *
 GetAnimationManager
