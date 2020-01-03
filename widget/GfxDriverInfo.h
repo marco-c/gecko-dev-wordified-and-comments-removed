@@ -298,6 +298,7 @@ Nvidia8800GTS
 AMDRadeonHD5800
 Bug1137716
 Bug1116812
+Bug1155608
 DeviceFamilyMax
 }
 ;

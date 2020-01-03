@@ -1156,6 +1156,16 @@ APPEND_DEVICE
 break
 ;
 case
+Bug1155608
+:
+APPEND_DEVICE
+(
+0x2e22
+)
+;
+break
+;
+case
 AMDRadeonHD5800
 :
 APPEND_DEVICE
