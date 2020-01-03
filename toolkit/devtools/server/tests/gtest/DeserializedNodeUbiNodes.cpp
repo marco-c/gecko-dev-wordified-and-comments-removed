@@ -159,10 +159,7 @@ TestTypeName
 NodeId
 id
 =
-uint64_t
-(
-1
-)
+1L
 <
 <
 33
@@ -170,10 +167,7 @@ uint64_t
 uint64_t
 size
 =
-uint64_t
-(
-1
-)
+1L
 <
 <
 60
