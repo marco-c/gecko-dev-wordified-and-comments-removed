@@ -876,6 +876,16 @@ mode
 =
 -
 1
+|
+|
+!
+ci
+-
+>
+mode_param
+[
+mode
+]
 )
 return
 (
