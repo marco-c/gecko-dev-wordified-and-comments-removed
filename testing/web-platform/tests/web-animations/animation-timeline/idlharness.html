@@ -18,7 +18,7 @@ Web
 Animations
 API
 :
-AnimationTimeline
+DocumentTimeline
 tests
 <
 /
@@ -116,7 +116,7 @@ plain
 id
 =
 "
-AnimationTimeline
+DocumentTimeline
 -
 IDL
 "
@@ -130,6 +130,13 @@ double
 ?
 currentTime
 ;
+}
+;
+interface
+DocumentTimeline
+:
+AnimationTimeline
+{
 }
 ;
 <
@@ -169,7 +176,7 @@ document
 getElementById
 (
 '
-AnimationTimeline
+DocumentTimeline
 -
 IDL
 '
@@ -183,7 +190,7 @@ idlArray
 add_objects
 (
 {
-AnimationTimeline
+DocumentTimeline
 :
 [
 '

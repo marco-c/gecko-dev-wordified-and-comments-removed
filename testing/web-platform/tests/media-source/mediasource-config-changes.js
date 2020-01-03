@@ -538,11 +538,6 @@ done
 ;
 }
 description
-{
-timeout
-:
-10000
-}
 )
 ;
 }

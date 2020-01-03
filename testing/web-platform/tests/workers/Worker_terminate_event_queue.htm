@@ -69,7 +69,6 @@ async_test
 (
 function
 (
-t
 )
 {
 var
@@ -96,6 +95,10 @@ worker
 .
 onmessage
 =
+this
+.
+step_func
+(
 function
 (
 e
@@ -125,7 +128,7 @@ worker
 .
 onmessage
 =
-t
+this
 .
 unreached_func
 (
@@ -138,7 +141,7 @@ event
 ;
 setTimeout
 (
-t
+this
 .
 step_func_done
 (
@@ -159,6 +162,7 @@ testResult
 ;
 }
 }
+)
 ;
 worker
 .
