@@ -109,6 +109,14 @@ PrintingParent
 h
 '
 ]
+if
+CONFIG
+[
+'
+NS_PRINTING
+'
+]
+:
 UNIFIED_SOURCES
 +
 =

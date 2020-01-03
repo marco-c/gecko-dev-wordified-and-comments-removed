@@ -110,6 +110,14 @@ ipc
 '
 ]
 if
+CONFIG
+[
+'
+NS_PRINTING
+'
+]
+:
+if
 toolkit
 =
 =

@@ -146,13 +146,6 @@ CONFIG
 MOZ_XUL
 '
 ]
-and
-CONFIG
-[
-'
-NS_PRINTING
-'
-]
 :
 DIRS
 +
