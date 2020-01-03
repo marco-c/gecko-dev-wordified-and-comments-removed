@@ -5165,6 +5165,13 @@ targetPlatforms
 ]
 ;
 }
+let
+storage
+=
+Services
+.
+storage
+;
 Object
 .
 defineProperty
@@ -5181,13 +5188,6 @@ get
 =
 >
 {
-let
-storage
-=
-Services
-.
-storage
-;
 let
 rng
 =
