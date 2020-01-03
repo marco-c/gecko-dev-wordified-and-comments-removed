@@ -726,13 +726,6 @@ youngestFrameSamples
 +
 +
 ;
-}
-frameNode
-.
-samples
-+
-+
-;
 frameNode
 .
 _addOptimizations
@@ -742,6 +735,13 @@ inflatedFrame
 optimizations
 stringTable
 )
+;
+}
+frameNode
+.
+samples
++
++
 ;
 prevFrameKey
 =
