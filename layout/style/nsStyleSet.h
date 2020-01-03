@@ -845,6 +845,7 @@ sheetType
 eAgentSheet
 eUserSheet
 ePresHintSheet
+eSVGAttrAnimationSheet
 eDocSheet
 eScopedDocSheet
 eStyleAttrSheet
@@ -1416,7 +1417,7 @@ mInitFontFeatureValuesLookup
 unsigned
 mDirty
 :
-9
+10
 ;
 uint32_t
 mUnusedRuleNodeCount
