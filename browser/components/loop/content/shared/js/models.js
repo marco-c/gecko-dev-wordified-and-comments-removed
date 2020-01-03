@@ -67,6 +67,9 @@ undefined
 sessionToken
 :
 undefined
+sessionType
+:
+undefined
 apiKey
 :
 undefined
@@ -334,6 +337,11 @@ sessionToken
 sessionData
 .
 sessionToken
+sessionType
+:
+sessionData
+.
+sessionType
 apiKey
 :
 sessionData
