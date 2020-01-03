@@ -89,6 +89,7 @@ WeakReference
 public
 :
 class
+BASE_EXPORT
 Flag
 :
 public

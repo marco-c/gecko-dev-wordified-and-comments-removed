@@ -482,6 +482,9 @@ sLogFunction
 LogBlocked
 (
 aFunctionName
+base
+:
+:
 WideToUTF8
 (
 aContext
@@ -518,6 +521,9 @@ sLogFunction
 LogBlocked
 (
 aFunctionName
+base
+:
+:
 WideToUTF8
 (
 std
@@ -591,6 +597,9 @@ sLogFunction
 LogAllowed
 (
 aFunctionName
+base
+:
+:
 WideToUTF8
 (
 aContext
@@ -626,6 +635,9 @@ sLogFunction
 LogAllowed
 (
 aFunctionName
+base
+:
+:
 WideToUTF8
 (
 std

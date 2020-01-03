@@ -328,10 +328,6 @@ GetSize
 ;
 default
 :
-NOTREACHED
-(
-)
-;
 return
 0
 ;
@@ -1112,10 +1108,10 @@ GetParameterStr
 (
 uint32
 index
-std
+base
 :
 :
-wstring
+string16
 *
 string
 )

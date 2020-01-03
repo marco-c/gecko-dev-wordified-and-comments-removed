@@ -194,6 +194,9 @@ num_handle_types
 i
 )
 {
+base
+:
+:
 char16
 *
 input
@@ -219,6 +222,9 @@ input
 =
 reinterpret_cast
 <
+base
+:
+:
 char16
 *
 >
@@ -329,6 +335,9 @@ DCHECK
 (
 reinterpret_cast
 <
+base
+:
+:
 char16
 *
 >
@@ -344,6 +353,9 @@ DCHECK
 (
 reinterpret_cast
 <
+base
+:
+:
 char16
 *
 >
@@ -360,6 +372,9 @@ size_t
 /
 sizeof
 (
+base
+:
+:
 char16
 )
 )
@@ -402,10 +417,7 @@ const
 size_t
 kHandleOffset
 =
-sizeof
-(
-HANDLE
-)
+4
 ;
 if
 (
@@ -467,6 +479,9 @@ type_info_buffer
 )
 )
 ;
+base
+:
+:
 string16
 handle_name
 ;

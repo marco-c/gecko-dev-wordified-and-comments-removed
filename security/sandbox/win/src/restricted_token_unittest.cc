@@ -1801,10 +1801,10 @@ std
 :
 vector
 <
-std
+base
 :
 :
-wstring
+string16
 >
 exceptions
 ;
@@ -2110,7 +2110,7 @@ count
 DWORD
 length
 =
-1000
+8192
 ;
 BYTE
 *
@@ -2119,7 +2119,7 @@ memory
 new
 BYTE
 [
-1000
+length
 ]
 ;
 TOKEN_GROUPS
@@ -2750,7 +2750,7 @@ session
 DWORD
 length
 =
-1000
+8192
 ;
 BYTE
 *
@@ -2759,7 +2759,7 @@ memory
 new
 BYTE
 [
-1000
+length
 ]
 ;
 TOKEN_GROUPS
@@ -2997,9 +2997,6 @@ user
 )
 ;
 }
-#
-ifndef
-_DEBUG
 TEST
 (
 RestrictedTokenTest
@@ -3032,6 +3029,4 @@ NULL
 )
 ;
 }
-#
-endif
 }

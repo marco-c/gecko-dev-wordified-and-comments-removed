@@ -221,6 +221,7 @@ opcode_count
 =
 7
 ;
+const
 wchar_t
 *
 filename

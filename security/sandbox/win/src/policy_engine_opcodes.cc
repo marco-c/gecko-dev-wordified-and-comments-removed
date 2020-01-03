@@ -667,7 +667,7 @@ upper_bound
 )
 {
 return
-false
+NULL
 ;
 }
 PolicyOpcode

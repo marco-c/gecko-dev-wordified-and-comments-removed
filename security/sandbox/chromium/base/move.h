@@ -90,6 +90,11 @@ this
 ;
 }
 \
+typedef
+void
+MoveOnlyTypeForCPP03
+;
+\
 private
 :
 #

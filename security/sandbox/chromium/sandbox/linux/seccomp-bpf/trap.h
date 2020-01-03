@@ -42,8 +42,6 @@ include
 "
 sandbox
 /
-linux
-/
 sandbox_export
 .
 h
@@ -107,11 +105,6 @@ id
 ;
 private
 :
-~
-Trap
-(
-)
-;
 struct
 TrapKey
 {
@@ -174,6 +167,15 @@ TrapKey
 uint16_t
 >
 TrapIds
+;
+Trap
+(
+)
+;
+~
+Trap
+(
+)
 ;
 static
 Trap
@@ -255,7 +257,7 @@ trap_array_capacity_
 bool
 has_unsafe_traps_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+DISALLOW_COPY_AND_ASSIGN
 (
 Trap
 )
