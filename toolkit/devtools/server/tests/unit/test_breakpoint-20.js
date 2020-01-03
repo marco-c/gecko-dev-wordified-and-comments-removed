@@ -48,9 +48,7 @@ addTestGlobal
 "
 test
 -
-tracer
--
-actor
+breakpoints
 "
 )
 ;
@@ -80,9 +78,7 @@ gClient
 "
 test
 -
-tracer
--
-actor
+breakpoints
 "
 testBreakpoint
 )
