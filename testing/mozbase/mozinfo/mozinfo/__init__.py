@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 "
 "
 "
@@ -194,9 +198,12 @@ version
 "
 "
 "
+from
+.
 import
 mozinfo
 from
+.
 mozinfo
 import
 *
