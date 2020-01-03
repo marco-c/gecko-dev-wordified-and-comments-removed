@@ -260,7 +260,6 @@ DEFAULT_VISIT_TYPE
 ;
 public
 static
-final
 int
 INSERT_RECORD_THRESHOLD
 =
@@ -789,7 +788,6 @@ delegate
 ;
 }
 protected
-final
 Object
 recordsBufferMonitor
 =
@@ -1064,7 +1062,19 @@ succeeded
 catch
 (
 NoGuidForIdException
-|
+e
+)
+{
+throw
+new
+NullCursorException
+(
+e
+)
+;
+}
+catch
+(
 ParentNotFoundException
 e
 )
