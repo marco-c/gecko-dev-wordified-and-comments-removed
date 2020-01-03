@@ -558,9 +558,6 @@ mMarkedForDeath
 bool
 mUsingContentXBLScope
 ;
-bool
-mIsShadowRootBinding
-;
 nsXBLPrototypeBinding
 *
 mPrototypeBinding
