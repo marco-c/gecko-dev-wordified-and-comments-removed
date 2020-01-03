@@ -2805,21 +2805,6 @@ print
 )
                 
 return
-            
-print
-(
-'
-Activated
-%
-s
-extension
-.
-\
-n
-'
-%
-name
-)
         
 if
 not
@@ -2842,7 +2827,7 @@ hgext
 '
 name
 )
-            
+        
 self
 .
 update_vcs_tools
@@ -2855,6 +2840,21 @@ activate_extension
 (
 name
 path
+)
+        
+print
+(
+'
+Activated
+%
+s
+extension
+.
+\
+n
+'
+%
+name
 )
     
 def
