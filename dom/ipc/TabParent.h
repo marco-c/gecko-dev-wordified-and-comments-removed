@@ -1413,6 +1413,11 @@ aEvent
 )
 ;
 void
+NotifyFlushComplete
+(
+)
+;
+void
 Activate
 (
 )
