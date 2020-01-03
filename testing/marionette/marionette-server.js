@@ -5631,6 +5631,15 @@ cancel
 ;
 }
 }
+if
+(
+aRequest
+.
+parameters
+.
+debug_script
+)
+{
 curWindow
 .
 onerror
@@ -5667,6 +5676,7 @@ true
 ;
 }
 ;
+}
 function
 chromeAsyncFinish
 (
