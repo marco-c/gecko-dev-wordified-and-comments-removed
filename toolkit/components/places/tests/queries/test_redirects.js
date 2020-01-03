@@ -1203,11 +1203,13 @@ bookmark
 com
 /
 "
-parentFolder
+parentGuid
 :
 PlacesUtils
 .
-bookmarksMenuFolderId
+bookmarks
+.
+menuGuid
 index
 :
 PlacesUtils
