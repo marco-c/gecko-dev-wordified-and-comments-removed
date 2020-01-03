@@ -2436,6 +2436,11 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
+nsIURI
+*
+aBaseURI
+=
+nullptr
 )
 {
 nsresult
@@ -2581,6 +2586,7 @@ aRequestingPrincipal
 aRequestingNode
 aSecurityFlags
 aContentPolicyType
+aBaseURI
 )
 ;
 if
@@ -2718,6 +2724,11 @@ bool
 aIsSrcdocChannel
 =
 false
+nsIURI
+*
+aBaseURI
+=
+nullptr
 )
 {
 nsresult
@@ -2828,6 +2839,7 @@ aRequestingNode
 aRequestingPrincipal
 aSecurityFlags
 aContentPolicyType
+aBaseURI
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2908,6 +2920,11 @@ bool
 aIsSrcdocChannel
 =
 false
+nsIURI
+*
+aBaseURI
+=
+nullptr
 )
 {
 return
@@ -2922,6 +2939,7 @@ aRequestingPrincipal
 aSecurityFlags
 aContentPolicyType
 aIsSrcdocChannel
+aBaseURI
 )
 ;
 }

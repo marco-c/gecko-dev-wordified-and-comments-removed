@@ -420,9 +420,6 @@ const
 nsAString
 &
 srcdoc
-nsIURI
-*
-baseURI
 nsIChannel
 *
 *
@@ -466,7 +463,6 @@ InitSrcdoc
 (
 uri
 srcdoc
-baseURI
 )
 ;
 if

@@ -167,9 +167,6 @@ const
 nsAString
 &
 aSrcdoc
-nsIURI
-*
-aBaseURI
 )
 ;
 protected
@@ -227,12 +224,6 @@ nsCOMPtr
 nsIURI
 >
 mOriginalURI
-;
-nsCOMPtr
-<
-nsIURI
->
-mBaseURI
 ;
 nsCString
 mContentType
