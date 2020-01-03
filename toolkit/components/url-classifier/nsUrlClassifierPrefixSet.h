@@ -286,9 +286,6 @@ MallocSizeOf
 mallocSizeOf
 )
 ;
-bool
-mHasPrefixes
-;
 nsTArray
 <
 uint32_t
