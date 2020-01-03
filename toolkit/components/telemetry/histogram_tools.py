@@ -1,6 +1,4 @@
 import
-buildconfig
-import
 json
 import
 math
@@ -10,6 +8,12 @@ import
 re
 import
 sys
+try
+:
+    
+import
+buildconfig
+    
 sys
 .
 path
@@ -33,6 +37,11 @@ base
 '
 )
 )
+except
+ImportError
+:
+    
+pass
 import
 usecounters
 from
