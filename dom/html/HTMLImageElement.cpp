@@ -666,6 +666,15 @@ nsGkAtoms
 :
 usemap
 )
+|
+|
+nsGenericHTMLElement
+:
+:
+IsInteractiveHTMLContent
+(
+aIgnoreTabindex
+)
 ;
 }
 bool

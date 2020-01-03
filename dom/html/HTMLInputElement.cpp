@@ -13644,6 +13644,15 @@ mType
 !
 =
 NS_FORM_INPUT_HIDDEN
+|
+|
+nsGenericHTMLFormElementWithState
+:
+:
+IsInteractiveHTMLContent
+(
+aIgnoreTabindex
+)
 ;
 }
 NS_IMETHODIMP
