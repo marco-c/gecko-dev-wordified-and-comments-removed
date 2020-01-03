@@ -249,7 +249,7 @@ sidebar
 off
 (
 "
-layoutview
+fontinspector
 -
 selected
 "
