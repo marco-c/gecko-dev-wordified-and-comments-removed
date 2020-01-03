@@ -100,13 +100,6 @@ SOURCES
 '
 lib
 /
-pkixbind
-.
-cpp
-'
-'
-lib
-/
 pkixbuild
 .
 cpp

@@ -371,9 +371,7 @@ RememberExtension
 Reader
 &
 extnID
-const
 Input
-&
 extnValue
 bool
 critical
