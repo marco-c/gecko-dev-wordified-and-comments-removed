@@ -138,6 +138,7 @@ nsRefPtr
 AudioData
 >
 NotDecodedReason
+true
 >
 AudioDataPromise
 ;
@@ -149,6 +150,7 @@ nsRefPtr
 VideoData
 >
 NotDecodedReason
+true
 >
 VideoDataPromise
 ;
@@ -157,6 +159,7 @@ MediaPromise
 <
 int64_t
 nsresult
+true
 >
 SeekPromise
 ;
@@ -168,6 +171,7 @@ MediaData
 :
 Type
 WaitForDataRejectValue
+true
 >
 WaitForDataPromise
 ;
