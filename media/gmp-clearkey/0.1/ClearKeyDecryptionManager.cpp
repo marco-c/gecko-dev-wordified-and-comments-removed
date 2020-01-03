@@ -2754,6 +2754,10 @@ mCallback
 (
 aCallback
 )
+mThread
+(
+nullptr
+)
 mKey
 (
 aKey
@@ -2873,7 +2877,13 @@ if
 mThread
 )
 {
+GMPThread
+*
+thread
+=
 mThread
+;
+thread
 -
 >
 Post
@@ -2885,7 +2895,7 @@ this
 )
 )
 ;
-mThread
+thread
 -
 >
 Join
