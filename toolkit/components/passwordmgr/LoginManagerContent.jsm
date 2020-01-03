@@ -4771,9 +4771,9 @@ return
 ;
 if
 (
-userB
->
 userA
+>
+userB
 )
 return
 1
