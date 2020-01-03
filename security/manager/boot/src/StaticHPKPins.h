@@ -2214,7 +2214,7 @@ com
 "
 true
 false
-false
+true
 4
 &
 kPinset_mozilla_services
@@ -2307,7 +2307,7 @@ com
 "
 true
 false
-false
+true
 5
 &
 kPinset_mozilla_services
@@ -6618,9 +6618,8 @@ com
 "
 true
 true
-false
--
-1
+true
+6
 &
 kPinset_mozilla_services
 }
@@ -7269,6 +7268,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1420884673118000
+1421489353719000
 )
 ;
