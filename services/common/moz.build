@@ -133,6 +133,11 @@ hawkrequest
 js
 '
 '
+logmanager
+.
+js
+'
+'
 storageservice
 .
 js
