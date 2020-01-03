@@ -8114,9 +8114,7 @@ GetSize
 tex
 -
 >
-GLName
-(
-)
+mGLName
 texImageTarget
 .
 get
