@@ -124,7 +124,7 @@ GetDirtyRect
 (
 )
 ;
-int32_t
+size_t
 GetSurfaceAllocationSize
 (
 )
@@ -221,7 +221,7 @@ mBlurRadius
 int32_t
 mStride
 ;
-int32_t
+size_t
 mSurfaceAllocationSize
 ;
 bool

@@ -1646,8 +1646,7 @@ aBlurRadius
 )
 mSurfaceAllocationSize
 (
--
-1
+0
 )
 {
 Rect
@@ -1992,8 +1991,7 @@ aStride
 )
 mSurfaceAllocationSize
 (
--
-1
+0
 )
 {
 IntRect
@@ -2117,7 +2115,7 @@ return
 nullptr
 ;
 }
-int32_t
+size_t
 AlphaBoxBlur
 :
 :
