@@ -67,11 +67,12 @@ WebGLContext
 ;
 public
 :
+explicit
 WebGLTransformFeedback
 (
 WebGLContext
 *
-context
+aContext
 )
 ;
 void

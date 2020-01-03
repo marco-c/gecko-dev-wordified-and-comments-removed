@@ -67,11 +67,12 @@ WebGLContext2
 ;
 public
 :
+explicit
 WebGLSampler
 (
 WebGLContext
 *
-context
+aContext
 )
 ;
 void
