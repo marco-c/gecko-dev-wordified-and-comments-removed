@@ -919,7 +919,7 @@ gcli
 lookupFormat
 (
 "
-cmdStatus2
+cmdStatus3
 "
 [
 dirName
