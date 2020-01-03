@@ -115,10 +115,11 @@ created
 "
 )
 ;
-do_check_neq
+do_check_true
 (
+!
+!
 handle
-null
 )
 ;
 debugDump
