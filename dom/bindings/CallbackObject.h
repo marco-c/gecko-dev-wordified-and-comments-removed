@@ -899,6 +899,7 @@ XPCOMCallbackFlag
 )
 ;
 }
+explicit
 operator
 bool
 (
