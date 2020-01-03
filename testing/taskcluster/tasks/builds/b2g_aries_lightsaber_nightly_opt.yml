@@ -21,9 +21,7 @@ aries
 build_type
 :
 '
-nightly
--
-user
+opt
 '
 task
 :

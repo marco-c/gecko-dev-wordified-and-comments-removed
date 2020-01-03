@@ -21,8 +21,6 @@ aries
 build_type
 :
 '
-nightly
--
 debug
 '
 task
