@@ -226,6 +226,14 @@ nsISupports
 aSecurityInfo
 )
 ;
+void
+OverrideURI
+(
+nsIURI
+*
+aRedirectedURI
+)
+;
 private
 :
 virtual
