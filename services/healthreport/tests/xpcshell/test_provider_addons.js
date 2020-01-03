@@ -597,7 +597,7 @@ version
 .
 2
 "
-gmPlugin
+isGMPlugin
 :
 true
 }
