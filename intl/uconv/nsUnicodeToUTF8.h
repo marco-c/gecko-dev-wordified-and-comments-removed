@@ -117,6 +117,7 @@ aDestLength
 )
 override
 ;
+MOZ_WARN_UNUSED_RESULT
 NS_IMETHOD
 GetMaxLength
 (
