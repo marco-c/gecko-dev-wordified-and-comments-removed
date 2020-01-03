@@ -31,6 +31,8 @@ CRT
 includes
 :
 win8
+.
+1
 sdk
 includes
 winrt
@@ -38,7 +40,6 @@ headers
 for
 metro
 msvc
-10
 std
 library
 directx
@@ -69,7 +70,7 @@ Kits
 /
 8
 .
-0
+1
 /
 include
 /
@@ -94,7 +95,7 @@ Kits
 /
 8
 .
-0
+1
 /
 include
 /
@@ -119,7 +120,7 @@ Kits
 /
 8
 .
-0
+1
 /
 include
 /
@@ -144,7 +145,7 @@ Kits
 /
 8
 .
-0
+1
 /
 include
 /
@@ -171,7 +172,7 @@ Kits
 /
 8
 .
-0
+1
 /
 include
 /
@@ -214,6 +215,8 @@ include
 libs
 :
 win8
+.
+1
 sdk
 x64
 (
@@ -223,7 +226,6 @@ bit
 )
 libs
 msvc
-10
 (
 64
 -
@@ -232,7 +234,6 @@ bit
 std
 library
 msvc
-10
 atl
 libs
 directx
@@ -268,11 +269,13 @@ Kits
 /
 8
 .
-0
+1
 /
 Lib
 /
-win8
+winv6
+.
+3
 /
 um
 /
@@ -334,11 +337,13 @@ Kits
 /
 8
 .
-0
+1
 /
 Lib
 /
-win8
+winv6
+.
+3
 /
 um
 /
@@ -383,6 +388,8 @@ x64
 paths
 :
 win8
+.
+1
 sdk
 x64
 (
@@ -392,7 +399,6 @@ bit
 )
 tools
 msvc
-10
 (
 64
 -
@@ -422,7 +428,7 @@ Kits
 /
 8
 .
-0
+1
 /
 bin
 /
@@ -507,7 +513,7 @@ Kits
 /
 8
 .
-0
+1
 /
 "
 .
