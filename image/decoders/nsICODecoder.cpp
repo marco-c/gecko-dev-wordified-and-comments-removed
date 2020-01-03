@@ -429,7 +429,10 @@ fileSize
 ;
 dataOffset
 =
-BFH_LENGTH
+BMPFILEHEADER
+:
+:
+LENGTH
 +
 BITMAPINFOSIZE
 ;
