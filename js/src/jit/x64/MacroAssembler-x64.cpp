@@ -2942,6 +2942,17 @@ gcNursery
 (
 )
 ;
+if
+(
+!
+nursery
+.
+exists
+(
+)
+)
+return
+;
 Value
 start
 =

@@ -570,6 +570,15 @@ Class
 clasp
 )
 ;
+ObjectGroup
+*
+getTemplateObjectGroup
+(
+jsbytecode
+*
+pc
+)
+;
 JSFunction
 *
 getSingleCallee
