@@ -409,6 +409,13 @@ false
 ;
 virtual
 void
+AllocateMediaResources
+(
+)
+{
+}
+virtual
+void
 ReleaseMediaResources
 (
 )

@@ -12623,6 +12623,14 @@ task
 )
 ;
 }
+mAudioRequestPending
+=
+false
+;
+mVideoRequestPending
+=
+false
+;
 ResetPlayback
 (
 )

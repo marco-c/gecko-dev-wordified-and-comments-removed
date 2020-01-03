@@ -216,6 +216,12 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+AllocateMediaResources
+(
+)
+;
+virtual
+void
 ReleaseMediaResources
 (
 )

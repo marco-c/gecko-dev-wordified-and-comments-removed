@@ -100,6 +100,11 @@ cancelResource
 (
 )
 ;
+bool
+IsWaitingResource
+(
+)
+;
 protected
 :
 virtual
@@ -146,12 +151,6 @@ mListener
 Mutex
 mLock
 ;
-MediaResourceManagerClient
-:
-:
-State
-mState
-;
 sp
 <
 IMediaResourceManagerClient
@@ -169,6 +168,9 @@ IMediaResourceManagerService
 :
 ResourceType
 mType
+;
+bool
+mWaitingResource
 ;
 }
 ;

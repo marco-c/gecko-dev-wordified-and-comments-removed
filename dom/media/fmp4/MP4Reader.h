@@ -165,6 +165,13 @@ HasVideo
 MOZ_OVERRIDE
 ;
 virtual
+void
+PreReadMetadata
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 nsresult
 ReadMetadata
 (
@@ -431,6 +438,11 @@ aMimeType
 ;
 void
 NotifyResourcesStatusChanged
+(
+)
+;
+void
+RequestCodecResource
 (
 )
 ;
