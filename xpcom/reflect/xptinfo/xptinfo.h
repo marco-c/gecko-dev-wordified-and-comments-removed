@@ -19,9 +19,6 @@ xpt_struct
 h
 "
 class
-nsIInterfaceInfoManager
-;
-class
 nsXPTType
 :
 public

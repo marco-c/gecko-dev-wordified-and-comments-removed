@@ -74,9 +74,6 @@ CreateSystemColorSpace
 )
 ;
 struct
-_CGLPBufferObject
-;
-struct
 _CGLContextObject
 ;
 enum

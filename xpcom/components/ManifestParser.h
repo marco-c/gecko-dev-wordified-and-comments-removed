@@ -36,9 +36,6 @@ FileLocation
 .
 h
 "
-class
-nsIFile
-;
 void
 ParseManifest
 (

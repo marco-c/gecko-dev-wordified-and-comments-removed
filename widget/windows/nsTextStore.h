@@ -152,17 +152,6 @@ ITfCategoryMgr
 class
 nsWindow
 ;
-#
-ifdef
-MOZ_METRO
-class
-MetroWidget
-;
-#
-endif
-class
-TSFStaticSink
-;
 namespace
 mozilla
 {

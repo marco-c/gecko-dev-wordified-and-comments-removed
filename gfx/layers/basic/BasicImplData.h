@@ -53,9 +53,6 @@ class
 ReadbackProcessor
 ;
 class
-SurfaceDescriptor
-;
-class
 BasicImplData
 {
 public

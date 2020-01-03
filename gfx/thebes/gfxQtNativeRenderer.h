@@ -37,9 +37,6 @@ Rect
 h
 "
 class
-QRect
-;
-class
 gfxQtNativeRenderer
 {
 public

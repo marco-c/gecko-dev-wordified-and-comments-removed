@@ -394,9 +394,6 @@ nsIWebBrowserFind
 class
 nsIWidget
 ;
-class
-ProfilerMarkerTracing
-;
 enum
 ViewMode
 {

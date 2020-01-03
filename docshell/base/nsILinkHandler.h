@@ -32,9 +32,6 @@ nsIInputStream
 class
 nsIRequest
 ;
-class
-nsString
-;
 #
 define
 NS_ILINKHANDLER_IID

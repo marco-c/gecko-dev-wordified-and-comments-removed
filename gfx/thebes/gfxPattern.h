@@ -77,12 +77,6 @@ nsTArray
 .
 h
 "
-class
-gfxContext
-;
-class
-gfxASurface
-;
 struct
 gfxRGBA
 ;

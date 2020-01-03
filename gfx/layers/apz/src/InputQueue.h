@@ -55,9 +55,6 @@ class
 AsyncPanZoomController
 ;
 class
-OverscrollHandoffChain
-;
-class
 CancelableBlockState
 ;
 class

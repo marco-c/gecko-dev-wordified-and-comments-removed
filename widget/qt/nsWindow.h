@@ -235,9 +235,6 @@ endif
 #
 endif
 class
-nsIdleService
-;
-class
 QCloseEvent
 ;
 class

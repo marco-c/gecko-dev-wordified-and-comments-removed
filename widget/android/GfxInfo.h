@@ -38,13 +38,6 @@ namespace
 mozilla
 {
 namespace
-gl
-{
-class
-GLContext
-;
-}
-namespace
 widget
 {
 class

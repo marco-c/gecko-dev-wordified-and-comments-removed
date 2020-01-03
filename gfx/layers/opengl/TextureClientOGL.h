@@ -92,9 +92,6 @@ namespace
 layers
 {
 class
-CompositableForwarder
-;
-class
 EGLImageTextureClient
 :
 public

@@ -192,9 +192,6 @@ struct
 IDXGIAdapter1
 ;
 class
-nsIMemoryReporter
-;
-class
 MOZ_STACK_CLASS
 DCFromDrawTarget
 final

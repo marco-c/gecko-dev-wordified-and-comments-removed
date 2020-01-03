@@ -22,9 +22,6 @@ class
 nsITransferable
 ;
 class
-nsDataObj
-;
-class
 nsIClipboardOwner
 ;
 class

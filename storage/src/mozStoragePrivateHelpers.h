@@ -52,12 +52,6 @@ class
 mozIStorageCompletionCallback
 ;
 class
-mozIStorageBaseStatement
-;
-class
-mozIStorageBindingParams
-;
-class
 nsIRunnable
 ;
 namespace

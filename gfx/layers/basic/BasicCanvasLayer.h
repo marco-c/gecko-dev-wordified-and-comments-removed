@@ -46,9 +46,6 @@ nsRegion
 .
 h
 "
-class
-gfxContext
-;
 namespace
 mozilla
 {

@@ -30,9 +30,6 @@ namespace
 gfx
 {
 class
-DrawTargetCairo
-;
-class
 PathCairo
 ;
 class

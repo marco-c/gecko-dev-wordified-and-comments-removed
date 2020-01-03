@@ -52,9 +52,6 @@ nsILoadContext
 .
 h
 "
-class
-mozIApplication
-;
 namespace
 mozilla
 {

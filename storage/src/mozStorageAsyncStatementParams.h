@@ -27,9 +27,6 @@ Attributes
 .
 h
 "
-class
-mozIStorageAsyncStatement
-;
 namespace
 mozilla
 {

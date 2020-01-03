@@ -72,9 +72,6 @@ nsIDragService
 class
 nsIWidget
 ;
-struct
-IDataObject
-;
 class
 nsNativeDragTarget
 final

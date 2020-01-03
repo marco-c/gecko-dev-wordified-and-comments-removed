@@ -69,9 +69,6 @@ AndroidNativeWindow
 .
 h
 "
-class
-gfxASurface
-;
 namespace
 mozilla
 {

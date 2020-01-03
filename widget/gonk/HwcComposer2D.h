@@ -89,9 +89,6 @@ class
 CompositorParent
 ;
 class
-ContainerLayer
-;
-class
 Layer
 ;
 }

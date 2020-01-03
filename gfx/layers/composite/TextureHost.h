@@ -211,9 +211,6 @@ Rect
 .
 h
 "
-class
-gfxReusableSurfaceWrapper
-;
 namespace
 mozilla
 {
@@ -236,9 +233,6 @@ layers
 {
 class
 Compositor
-;
-class
-CompositableHost
 ;
 class
 CompositableParentManager

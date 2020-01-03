@@ -54,9 +54,6 @@ class
 APZEventState
 ;
 class
-CompositorParent
-;
-class
 ChromeProcessController
 :
 public

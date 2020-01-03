@@ -19,9 +19,6 @@ nsTArray
 h
 "
 class
-nsCUPSShim
-;
-class
 nsPSPrinterList
 {
 public

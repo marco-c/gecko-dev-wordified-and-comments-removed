@@ -266,9 +266,6 @@ namespace
 layers
 {
 class
-BasicTileDescriptor
-;
-class
 ClientTiledPaintedLayer
 ;
 class

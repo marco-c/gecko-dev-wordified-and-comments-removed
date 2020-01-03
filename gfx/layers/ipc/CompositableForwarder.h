@@ -114,9 +114,6 @@ class
 ThebesBufferData
 ;
 class
-ClientTiledLayerBuffer
-;
-class
 PTextureChild
 ;
 class

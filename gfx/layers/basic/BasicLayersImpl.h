@@ -95,9 +95,6 @@ class
 AutoMoz2DMaskData
 ;
 class
-BasicContainerLayer
-;
-class
 Layer
 ;
 class

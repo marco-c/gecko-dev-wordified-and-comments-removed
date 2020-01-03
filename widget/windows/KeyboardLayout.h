@@ -157,9 +157,6 @@ VK_OEM_CLEAR
 class
 nsIIdleServiceInternal
 ;
-struct
-nsModifierKeyState
-;
 namespace
 mozilla
 {

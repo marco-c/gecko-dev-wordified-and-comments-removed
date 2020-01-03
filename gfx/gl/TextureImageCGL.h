@@ -32,9 +32,6 @@ nsSize
 .
 h
 "
-class
-gfxASurface
-;
 namespace
 mozilla
 {

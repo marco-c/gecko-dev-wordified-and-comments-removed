@@ -208,9 +208,6 @@ class
 nsIRollupListener
 ;
 class
-nsIFile
-;
-class
 nsIntRegion
 ;
 class
@@ -224,9 +221,6 @@ widget
 {
 class
 NativeKey
-;
-class
-ModifierKeyState
 ;
 struct
 MSGResult

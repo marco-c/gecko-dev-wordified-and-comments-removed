@@ -19,9 +19,6 @@ nsISupportsImpl
 h
 "
 class
-inIDOMUtils
-;
-class
 CancelableTask
 ;
 namespace

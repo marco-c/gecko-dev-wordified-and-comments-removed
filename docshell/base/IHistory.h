@@ -14,9 +14,6 @@ h
 class
 nsIURI
 ;
-class
-nsString
-;
 namespace
 mozilla
 {

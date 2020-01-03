@@ -241,16 +241,6 @@ DrawTarget
 ;
 }
 namespace
-gl
-{
-class
-GLContext
-;
-class
-TextureImage
-;
-}
-namespace
 layers
 {
 class
@@ -282,9 +272,6 @@ LayerComposite
 ;
 class
 RefLayerComposite
-;
-class
-SurfaceDescriptor
 ;
 class
 PaintedLayerComposite

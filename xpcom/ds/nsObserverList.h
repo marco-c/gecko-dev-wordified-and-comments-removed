@@ -69,13 +69,6 @@ Attributes
 .
 h
 "
-namespace
-mozilla
-{
-class
-ObserverServiceReporter
-;
-}
 struct
 ObserverRef
 {

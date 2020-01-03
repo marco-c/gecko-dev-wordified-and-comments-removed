@@ -48,9 +48,6 @@ Attributes
 .
 h
 "
-class
-CEnumFormatEtc
-;
 #
 define
 MULTI_MIME

@@ -19,9 +19,6 @@ stdio
 h
 >
 class
-nsACString
-;
-class
 nsMemoryInfoDumper
 :
 public

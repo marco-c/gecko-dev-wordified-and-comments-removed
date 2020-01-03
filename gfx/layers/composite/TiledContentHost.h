@@ -205,9 +205,6 @@ h
 >
 #
 endif
-class
-gfxReusableSurfaceWrapper
-;
 namespace
 mozilla
 {

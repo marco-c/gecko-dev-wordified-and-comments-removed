@@ -38,9 +38,6 @@ nsAString
 class
 nsString
 ;
-class
-nsCString
-;
 typedef
 uint32_t
 nscolor

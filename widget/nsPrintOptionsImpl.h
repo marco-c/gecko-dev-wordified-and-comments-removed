@@ -54,9 +54,6 @@ class
 nsIPrintSettings
 ;
 class
-nsIWebBrowserPrint
-;
-class
 nsPrintOptions
 :
 public

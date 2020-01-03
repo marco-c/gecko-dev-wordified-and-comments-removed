@@ -83,13 +83,6 @@ namespace
 mozilla
 {
 namespace
-ipc
-{
-class
-Shmem
-;
-}
-namespace
 layers
 {
 class
@@ -99,13 +92,7 @@ class
 ImageClient
 ;
 class
-ISurfaceAllocator
-;
-class
 TextureClient
-;
-class
-SurfaceDescriptor
 ;
 already_AddRefed
 <

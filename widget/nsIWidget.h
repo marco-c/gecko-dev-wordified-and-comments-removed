@@ -152,15 +152,6 @@ Units
 h
 "
 class
-nsFontMetrics
-;
-class
-nsDeviceContext
-;
-struct
-nsFont
-;
-class
 nsIRollupListener
 ;
 class

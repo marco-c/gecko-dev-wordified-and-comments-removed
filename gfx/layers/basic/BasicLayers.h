@@ -104,9 +104,6 @@ nscore
 h
 "
 class
-gfxPattern
-;
-class
 nsIWidget
 ;
 namespace
@@ -115,9 +112,6 @@ mozilla
 namespace
 layers
 {
-class
-BasicShadowableLayer
-;
 class
 ImageFactory
 ;
@@ -129,9 +123,6 @@ PaintLayerContext
 ;
 class
 ReadbackLayer
-;
-class
-ReadbackProcessor
 ;
 class
 BasicLayerManager

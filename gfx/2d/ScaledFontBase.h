@@ -63,9 +63,6 @@ h
 "
 #
 endif
-class
-gfxFont
-;
 namespace
 mozilla
 {

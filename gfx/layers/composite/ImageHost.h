@@ -162,9 +162,6 @@ layers
 class
 Compositor
 ;
-class
-ISurfaceAllocator
-;
 struct
 EffectChain
 ;

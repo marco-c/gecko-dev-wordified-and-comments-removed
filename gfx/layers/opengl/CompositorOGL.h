@@ -251,9 +251,6 @@ nsIWidget
 namespace
 mozilla
 {
-class
-TimeStamp
-;
 namespace
 gfx
 {

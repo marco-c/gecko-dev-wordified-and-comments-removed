@@ -49,9 +49,6 @@ h
 class
 nsString
 ;
-class
-nsDataObj
-;
 struct
 DataStruct
 {

@@ -219,13 +219,7 @@ class
 Layer
 ;
 class
-SurfaceDescriptor
-;
-class
 Compositor
-;
-class
-ISurfaceAllocator
 ;
 class
 ThebesBufferData

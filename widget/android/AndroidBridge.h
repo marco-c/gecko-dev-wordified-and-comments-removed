@@ -161,12 +161,6 @@ Utils
 h
 "
 class
-nsWindow
-;
-class
-nsIDOMMozSmsMessage
-;
-class
 nsIObserver
 ;
 class
@@ -214,13 +208,6 @@ struct
 SmsFilterData
 ;
 }
-}
-namespace
-layers
-{
-class
-CompositorParent
-;
 }
 typedef
 struct

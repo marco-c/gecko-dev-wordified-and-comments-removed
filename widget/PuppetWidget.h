@@ -70,9 +70,6 @@ EventForwards
 .
 h
 "
-class
-gfxASurface
-;
 namespace
 mozilla
 {

@@ -24,9 +24,6 @@ namespace
 android
 {
 class
-GonkBufferSlot
-;
-class
 GonkBufferQueueProducer
 :
 public

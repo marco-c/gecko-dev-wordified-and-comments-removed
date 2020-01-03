@@ -62,9 +62,6 @@ class
 nsMenuBarX
 ;
 class
-nsMenuItemX
-;
-class
 nsIWidget
 ;
 class

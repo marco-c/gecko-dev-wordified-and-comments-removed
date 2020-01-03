@@ -242,9 +242,6 @@ endif
 #
 endif
 class
-gfxReusableSurfaceWrapper
-;
-class
 nsIntRegion
 ;
 namespace
@@ -275,9 +272,6 @@ CompositorOGL
 ;
 class
 TextureImageTextureSourceOGL
-;
-class
-TextureSharedDataGonkOGL
 ;
 class
 GLTextureSource
