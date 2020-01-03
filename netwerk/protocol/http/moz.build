@@ -247,6 +247,11 @@ SOURCES
 =
 [
 '
+AlternateServices
+.
+cpp
+'
+'
 ASpdySession
 .
 cpp
