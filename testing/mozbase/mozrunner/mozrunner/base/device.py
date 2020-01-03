@@ -182,18 +182,18 @@ pidlog
         
 self
 .
-_env
+_device_env
 =
 dict
 (
-self
+DeviceRunner
 .
 env
 )
         
 self
 .
-_env
+_device_env
 [
 '
 MOZ_PROCESS_LOG
@@ -204,12 +204,8 @@ process_log
 .
 name
         
-self
-.
-_env
-.
-update
-(
+env
+=
 kwargs
 .
 pop
@@ -217,12 +213,20 @@ pop
 '
 env
 '
-{
-}
+None
 )
-or
-{
-}
+        
+if
+env
+:
+            
+self
+.
+_device_env
+.
+update
+(
+env
 )
         
 process_args
@@ -286,16 +290,6 @@ process_args
 ]
 =
 process_args
-        
-kwargs
-[
-'
-env
-'
-]
-=
-{
-}
         
 BaseRunner
 .
@@ -388,7 +382,7 @@ v
 in
 self
 .
-_env
+_device_env
 .
 iteritems
 (
@@ -517,20 +511,6 @@ device
 "
 )
         
-self
-.
-_env
-=
-self
-.
-env
-        
-self
-.
-env
-=
-None
-        
 BaseRunner
 .
 start
@@ -542,14 +522,6 @@ args
 *
 kwargs
 )
-        
-self
-.
-env
-=
-self
-.
-_env
         
 timeout
 =
