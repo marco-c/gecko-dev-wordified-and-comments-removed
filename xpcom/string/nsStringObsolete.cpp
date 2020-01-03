@@ -3209,7 +3209,7 @@ EnsureMutable
 (
 )
 )
-NS_ABORT_OOM
+AllocFailed
 (
 mLength
 )

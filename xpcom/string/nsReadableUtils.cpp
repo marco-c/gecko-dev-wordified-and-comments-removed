@@ -368,7 +368,9 @@ fallible_t
 )
 )
 {
-NS_ABORT_OOM
+aDest
+.
+AllocFailed
 (
 aDest
 .
@@ -581,7 +583,9 @@ fallible_t
 )
 )
 {
-NS_ABORT_OOM
+aDest
+.
+AllocFailed
 (
 aDest
 .
@@ -773,7 +777,9 @@ fallible_t
 )
 )
 {
-NS_ABORT_OOM
+aDest
+.
+AllocFailed
 (
 aDest
 .
