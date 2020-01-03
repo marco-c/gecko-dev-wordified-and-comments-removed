@@ -306,7 +306,7 @@ window
 nsGlobalWindow
 :
 :
-GetOuterWindowWithId
+GetInnerWindowWithId
 (
 mWindowId
 )
