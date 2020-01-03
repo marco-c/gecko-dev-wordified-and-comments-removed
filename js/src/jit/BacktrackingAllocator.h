@@ -2028,6 +2028,9 @@ friend
 class
 JSONSpewer
 ;
+bool
+testbed
+;
 BitSet
 *
 liveIn
@@ -2215,6 +2218,8 @@ lir
 LIRGraph
 &
 graph
+bool
+testbed
 )
 :
 RegisterAllocator
@@ -2222,6 +2227,10 @@ RegisterAllocator
 mir
 lir
 graph
+)
+testbed
+(
+testbed
 )
 liveIn
 (
