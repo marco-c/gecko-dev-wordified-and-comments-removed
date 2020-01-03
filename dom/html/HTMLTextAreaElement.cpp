@@ -1730,6 +1730,7 @@ MappedAttributeEntry
 attributes
 [
 ]
+=
 {
 {
 &
