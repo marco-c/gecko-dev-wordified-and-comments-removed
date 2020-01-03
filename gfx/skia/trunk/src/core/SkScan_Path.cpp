@@ -2296,10 +2296,6 @@ clipRgn
 {
 SkASSERT
 (
-&
-path
-&
-&
 blitter
 )
 ;

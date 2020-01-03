@@ -7234,10 +7234,6 @@ gFTMutex
 ;
 SkASSERT
 (
-&
-glyph
-&
-&
 path
 )
 ;

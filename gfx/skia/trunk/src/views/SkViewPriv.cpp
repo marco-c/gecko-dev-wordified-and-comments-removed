@@ -64,10 +64,6 @@ node
 {
 SkASSERT
 (
-&
-dom
-&
-&
 node
 )
 ;
@@ -313,10 +309,6 @@ node
 {
 SkASSERT
 (
-&
-dom
-&
-&
 node
 )
 ;

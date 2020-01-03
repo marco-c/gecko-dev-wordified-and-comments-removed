@@ -6732,10 +6732,6 @@ const
 SkASSERT
 (
 dst
-&
-&
-&
-src
 )
 ;
 if

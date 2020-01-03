@@ -708,10 +708,6 @@ SkASSERT
 canvas
 &
 &
-&
-paint
-&
-&
 (
 text
 |
