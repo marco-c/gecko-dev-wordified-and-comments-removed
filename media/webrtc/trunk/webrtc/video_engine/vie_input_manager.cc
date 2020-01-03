@@ -1858,6 +1858,13 @@ defined
 (
 ANDROID
 )
+&
+&
+!
+defined
+(
+WEBRTC_IOS
+)
 capture_device_info_
 =
 DesktopCaptureImpl
