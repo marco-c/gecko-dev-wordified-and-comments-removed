@@ -12414,7 +12414,7 @@ message
 ;
 message
 .
-dispose
+disposeNative
 (
 )
 ;
