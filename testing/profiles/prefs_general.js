@@ -1623,7 +1623,7 @@ webm
 .
 enabled
 "
-false
+true
 )
 ;
 user_pref
