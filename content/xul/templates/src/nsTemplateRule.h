@@ -569,6 +569,7 @@ nsIAtom
 >
 mTag
 ;
+explicit
 nsTemplateQuerySet
 (
 int32_t

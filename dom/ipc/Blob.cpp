@@ -1683,6 +1683,7 @@ mRemoteStream
 ;
 public
 :
+explicit
 InputStreamChild
 (
 RemoteInputStream
@@ -1754,6 +1755,7 @@ mRemoteStream
 ;
 public
 :
+explicit
 InputStreamParent
 (
 RemoteInputStream
@@ -3206,6 +3208,7 @@ mDone
 ;
 public
 :
+explicit
 SliceHelper
 (
 BlobChild
@@ -5985,6 +5988,7 @@ mDone
 ;
 public
 :
+explicit
 SliceHelper
 (
 BlobParent

@@ -47,6 +47,7 @@ nsIDOMHTMLLabelElement
 {
 public
 :
+explicit
 HTMLLabelElement
 (
 already_AddRefed

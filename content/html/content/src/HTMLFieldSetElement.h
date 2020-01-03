@@ -102,6 +102,7 @@ nsIConstraintValidation
 :
 GetValidationMessage
 ;
+explicit
 HTMLFieldSetElement
 (
 already_AddRefed

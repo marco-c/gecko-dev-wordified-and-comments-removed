@@ -2803,6 +2803,7 @@ nsRunnable
 {
 public
 :
+explicit
 NotifyRunnable
 (
 AudioChannelService
@@ -3929,6 +3930,7 @@ channel
 struct
 RefreshAgentsVolumeData
 {
+explicit
 RefreshAgentsVolumeData
 (
 nsPIDOMWindow
@@ -4128,6 +4130,7 @@ WindowVolumeChanged
 struct
 CountWindowData
 {
+explicit
 CountWindowData
 (
 nsIDOMWindow

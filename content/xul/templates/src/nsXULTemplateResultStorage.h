@@ -52,6 +52,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIXULTEMPLATERESULT
+explicit
 nsXULTemplateResultStorage
 (
 nsXULTemplateResultSetStorage

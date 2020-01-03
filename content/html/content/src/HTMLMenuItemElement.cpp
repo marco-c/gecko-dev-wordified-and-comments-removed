@@ -196,6 +196,7 @@ Visitor
 {
 public
 :
+explicit
 GetCheckedVisitor
 (
 HTMLMenuItemElement
@@ -259,6 +260,7 @@ Visitor
 {
 public
 :
+explicit
 ClearCheckedVisitor
 (
 HTMLMenuItemElement

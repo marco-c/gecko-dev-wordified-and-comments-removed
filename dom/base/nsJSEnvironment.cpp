@@ -1241,6 +1241,7 @@ AutoFree
 {
 public
 :
+explicit
 AutoFree
 (
 void
@@ -10754,6 +10755,7 @@ mMessage
 ;
 public
 :
+explicit
 NotifyGCEndRunnable
 (
 const

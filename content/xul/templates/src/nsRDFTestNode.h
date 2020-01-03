@@ -25,6 +25,7 @@ TestNode
 {
 public
 :
+explicit
 nsRDFTestNode
 (
 TestNode

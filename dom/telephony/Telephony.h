@@ -466,6 +466,7 @@ MOZ_OVERRIDE
 ;
 private
 :
+explicit
 Telephony
 (
 nsPIDOMWindow

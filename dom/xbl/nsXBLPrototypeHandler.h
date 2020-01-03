@@ -244,6 +244,7 @@ uint32_t
 aLineNumber
 )
 ;
+explicit
 nsXBLPrototypeHandler
 (
 nsIContent
@@ -251,6 +252,7 @@ nsIContent
 aKeyElement
 )
 ;
+explicit
 nsXBLPrototypeHandler
 (
 nsXBLPrototypeBinding

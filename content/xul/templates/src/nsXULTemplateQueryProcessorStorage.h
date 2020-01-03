@@ -103,6 +103,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSISIMPLEENUMERATOR
+explicit
 nsXULTemplateResultSetStorage
 (
 mozIStorageStatement

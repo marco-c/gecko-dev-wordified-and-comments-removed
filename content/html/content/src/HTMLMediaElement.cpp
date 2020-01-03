@@ -731,6 +731,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsMediaEvent
 (
 HTMLMediaElement
@@ -983,6 +984,7 @@ NS_DECL_NSIOBSERVER
 NS_DECL_NSIINTERFACEREQUESTOR
 public
 :
+explicit
 MediaLoadListener
 (
 HTMLMediaElement
@@ -8133,6 +8135,7 @@ nsURIHashKey
 {
 public
 :
+explicit
 MediaElementSetForURI
 (
 const
@@ -11924,6 +11927,7 @@ MediaStreamListener
 {
 public
 :
+explicit
 StreamListener
 (
 HTMLMediaElement

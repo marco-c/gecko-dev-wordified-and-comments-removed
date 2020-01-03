@@ -7113,6 +7113,7 @@ DelayedDeleteContentParentTask
 public
 nsRunnable
 {
+explicit
 DelayedDeleteContentParentTask
 (
 ContentParent

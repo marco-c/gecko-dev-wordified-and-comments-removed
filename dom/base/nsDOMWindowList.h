@@ -46,6 +46,7 @@ nsIDOMWindowCollection
 {
 public
 :
+explicit
 nsDOMWindowList
 (
 nsIDocShell

@@ -70,6 +70,7 @@ nsGenericHTMLElement
 {
 public
 :
+explicit
 HTMLSpanElement
 (
 already_AddRefed

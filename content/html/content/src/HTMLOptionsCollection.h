@@ -122,6 +122,7 @@ HTMLOptionOrOptGroupElement
 ;
 public
 :
+explicit
 HTMLOptionsCollection
 (
 HTMLSelectElement

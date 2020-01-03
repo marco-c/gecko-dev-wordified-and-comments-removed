@@ -117,6 +117,7 @@ NSCursorInfo
 (
 )
 ;
+explicit
 NSCursorInfo
 (
 NSCursor
@@ -124,6 +125,7 @@ NSCursor
 aCursor
 )
 ;
+explicit
 NSCursorInfo
 (
 const

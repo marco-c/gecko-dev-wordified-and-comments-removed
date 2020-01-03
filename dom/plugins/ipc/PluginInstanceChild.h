@@ -783,6 +783,7 @@ DeleteWindow
 endif
 public
 :
+explicit
 PluginInstanceChild
 (
 const

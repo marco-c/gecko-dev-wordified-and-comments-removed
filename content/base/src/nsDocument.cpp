@@ -3585,6 +3585,7 @@ mSubDocument
 struct
 FindContentData
 {
+explicit
 FindContentData
 (
 nsIDocument
@@ -6504,6 +6505,7 @@ DOMStringList
 {
 public
 :
+explicit
 nsDOMStyleSheetSetList
 (
 nsIDocument
@@ -24390,6 +24392,7 @@ ProcessStackRunner
 }
 public
 :
+explicit
 ProcessStackRunner
 (
 bool
@@ -38208,11 +38211,12 @@ nsRunnable
 {
 public
 :
+explicit
 nsUnblockOnloadEvent
 (
 nsDocument
 *
-doc
+aDoc
 )
 :
 mDoc
@@ -41255,6 +41259,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsDelayedEventDispatcher
 (
 nsTArray
@@ -41316,6 +41321,7 @@ namespace
 struct
 UnsuppressArgs
 {
+explicit
 UnsuppressArgs
 (
 nsIDocument
@@ -45909,6 +45915,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsCallExitFullscreen
 (
 nsIDocument
@@ -47400,6 +47407,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsCallRequestFullScreen
 (
 Element

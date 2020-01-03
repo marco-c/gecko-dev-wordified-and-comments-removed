@@ -165,6 +165,7 @@ HTMLFormControlsCollection
 ;
 public
 :
+explicit
 HTMLFormElement
 (
 already_AddRefed
@@ -1277,6 +1278,7 @@ nsRunnable
 {
 public
 :
+explicit
 RemoveElementRunnable
 (
 HTMLFormElement

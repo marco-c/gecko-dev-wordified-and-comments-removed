@@ -116,6 +116,7 @@ aPoints
 ]
 )
 ;
+explicit
 DOMQuad
 (
 nsISupports

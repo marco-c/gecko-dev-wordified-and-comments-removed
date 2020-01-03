@@ -90,6 +90,7 @@ NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
 DOMEventTargetHelper
 )
+explicit
 MobileMessageManager
 (
 nsPIDOMWindow

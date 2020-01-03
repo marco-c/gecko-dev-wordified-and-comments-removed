@@ -85,6 +85,7 @@ MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
 WebGLFramebuffer
 )
+explicit
 WebGLFramebuffer
 (
 WebGLContext
@@ -120,6 +121,7 @@ mutable
 bool
 mNeedsFinalize
 ;
+explicit
 Attachment
 (
 GLenum

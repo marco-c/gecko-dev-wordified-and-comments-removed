@@ -61,6 +61,7 @@ nsIDOMHTMLSourceElement
 {
 public
 :
+explicit
 HTMLSourceElement
 (
 already_AddRefed

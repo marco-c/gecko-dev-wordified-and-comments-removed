@@ -619,6 +619,7 @@ WorkerControlRunnable
 {
 protected
 :
+explicit
 MainThreadWorkerControlRunnable
 (
 WorkerPrivate
@@ -686,6 +687,7 @@ WorkerRunnable
 {
 protected
 :
+explicit
 WorkerSameThreadRunnable
 (
 WorkerPrivate
@@ -770,6 +772,7 @@ nsIEventTarget
 >
 mSyncLoopTarget
 ;
+explicit
 WorkerMainThreadRunnable
 (
 WorkerPrivate

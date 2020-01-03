@@ -883,6 +883,7 @@ bool
 aIsVersionChangeTransactionChild
 )
 ;
+explicit
 IDBTransaction
 (
 IDBDatabase
@@ -1204,6 +1205,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_MOZISTORAGEFUNCTION
+explicit
 UpdateRefcountFunction
 (
 FileManager
@@ -1334,6 +1336,7 @@ FileInfoEntry
 {
 public
 :
+explicit
 FileInfoEntry
 (
 FileInfo

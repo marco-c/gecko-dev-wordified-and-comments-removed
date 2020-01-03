@@ -972,6 +972,7 @@ SetupProtoChainRunner
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 SetupProtoChainRunner
 (
 nsObjectLoadingContent

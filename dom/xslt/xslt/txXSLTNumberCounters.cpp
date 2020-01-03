@@ -85,6 +85,7 @@ txFormattedCounter
 {
 public
 :
+explicit
 txAlphaCounter
 (
 char16_t
@@ -123,6 +124,7 @@ txFormattedCounter
 {
 public
 :
+explicit
 txRomanCounter
 (
 bool

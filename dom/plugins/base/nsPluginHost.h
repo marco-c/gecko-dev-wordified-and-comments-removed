@@ -208,6 +208,7 @@ nsInvalidPluginTag
 ;
 public
 :
+explicit
 nsInvalidPluginTag
 (
 const
@@ -1144,6 +1145,7 @@ PRCList
 {
 public
 :
+explicit
 PluginDestructionGuard
 (
 nsNPAPIPluginInstance

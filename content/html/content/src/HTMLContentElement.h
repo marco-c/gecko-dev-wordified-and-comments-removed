@@ -39,6 +39,7 @@ nsGenericHTMLElement
 {
 public
 :
+explicit
 HTMLContentElement
 (
 already_AddRefed
@@ -329,6 +330,7 @@ nsINodeList
 {
 public
 :
+explicit
 DistributedContentList
 (
 HTMLContentElement

@@ -115,6 +115,7 @@ nsFormData
 }
 public
 :
+explicit
 nsFormData
 (
 nsISupports

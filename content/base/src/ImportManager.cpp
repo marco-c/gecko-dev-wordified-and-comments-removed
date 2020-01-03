@@ -124,6 +124,7 @@ AutoError
 {
 public
 :
+explicit
 AutoError
 (
 mozilla

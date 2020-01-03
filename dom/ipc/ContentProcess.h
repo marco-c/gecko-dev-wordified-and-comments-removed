@@ -84,6 +84,7 @@ ProcessChild
 ;
 public
 :
+explicit
 ContentProcess
 (
 ProcessHandle
