@@ -161,12 +161,6 @@ Ci
 .
 nsIProtocolHandler
 .
-URI_IS_LOCAL_FILE
-|
-Ci
-.
-nsIProtocolHandler
-.
 URI_NORELATIVE
 |
 Ci
