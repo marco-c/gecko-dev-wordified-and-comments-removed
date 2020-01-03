@@ -1130,9 +1130,9 @@ this
 .
 list
 .
-forEachSyncedDeletedItem
+forEachSyncedDeletedGUID
 (
-localItem
+guid
 =
 >
 {
@@ -1149,8 +1149,6 @@ articles
 /
 "
 +
-localItem
-.
 guid
 }
 )
