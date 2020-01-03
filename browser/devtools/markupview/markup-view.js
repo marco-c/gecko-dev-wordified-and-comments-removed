@@ -5809,6 +5809,12 @@ this
 .
 _destroyer
 =
+promise
+.
+resolve
+(
+)
+;
 this
 .
 _hideBoxModel
