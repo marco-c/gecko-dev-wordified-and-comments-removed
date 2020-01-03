@@ -537,12 +537,17 @@ mVideoIsSeeking
 bool
 mHasEssentialTrackBuffers
 ;
+#
+ifdef
+MOZ_FMP4
 nsRefPtr
 <
 SharedDecoderManager
 >
 mSharedDecoderManager
 ;
+#
+endif
 }
 ;
 }

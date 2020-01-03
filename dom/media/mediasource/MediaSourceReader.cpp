@@ -73,15 +73,15 @@ TrackBuffer
 h
 "
 #
+ifdef
+MOZ_FMP4
+#
 include
 "
 SharedDecoderManager
 .
 h
 "
-#
-ifdef
-MOZ_FMP4
 #
 include
 "
@@ -300,6 +300,9 @@ mHasEssentialTrackBuffers
 (
 false
 )
+#
+ifdef
+MOZ_FMP4
 mSharedDecoderManager
 (
 new
@@ -307,6 +310,8 @@ SharedDecoderManager
 (
 )
 )
+#
+endif
 {
 }
 void
@@ -1949,6 +1954,9 @@ GetTaskQueue
 )
 )
 ;
+#
+ifdef
+MOZ_FMP4
 reader
 -
 >
@@ -1957,6 +1965,8 @@ SetSharedDecoderManager
 mSharedDecoderManager
 )
 ;
+#
+endif
 reader
 -
 >
