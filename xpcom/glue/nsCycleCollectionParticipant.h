@@ -2902,6 +2902,7 @@ void
 *
 closure
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -2916,6 +2917,7 @@ p
 bool
 aRemovingAllowed
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -2928,6 +2930,7 @@ void
 *
 p
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -2940,6 +2943,7 @@ void
 *
 p
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMPL_GET_XPCOM_CYCLE_COLLECTION_PARTICIPANT
