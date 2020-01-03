@@ -574,3 +574,15 @@ zoom
 "
 )
 ;
+pref
+(
+"
+devtools
+.
+webide
+.
+busyTimeout
+"
+10000
+)
+;
