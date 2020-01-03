@@ -89,6 +89,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h

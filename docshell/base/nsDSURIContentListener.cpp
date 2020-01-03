@@ -71,6 +71,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsIHttpChannel
 .
 h

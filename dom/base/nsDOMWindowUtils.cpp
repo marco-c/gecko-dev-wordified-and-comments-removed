@@ -150,6 +150,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsIScrollableFrame
 .
 h

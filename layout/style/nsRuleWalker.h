@@ -25,6 +25,13 @@ StyleRule
 .
 h
 "
+#
+include
+"
+nsQueryObject
+.
+h
+"
 class
 nsRuleWalker
 {

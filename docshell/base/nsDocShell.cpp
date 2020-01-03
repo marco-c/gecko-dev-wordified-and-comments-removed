@@ -395,6 +395,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsIWritablePropertyBag2
 .
 h

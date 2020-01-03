@@ -1541,6 +1541,13 @@ BoxObject
 h
 "
 #
+include
+"
+nsQueryObject
+.
+h
+"
+#
 ifdef
 MOZ_MEDIA_NAVIGATOR
 #

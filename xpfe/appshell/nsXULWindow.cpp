@@ -281,6 +281,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 prenv
 .
 h
