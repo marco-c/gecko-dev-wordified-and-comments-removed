@@ -35,7 +35,7 @@ __NEW__PORT
 __PORT
 ;
 var
-__NEW_SECURE_PORT
+__NEW__SECURE__PORT
 =
 __PORT
 ;
