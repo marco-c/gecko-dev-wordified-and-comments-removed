@@ -569,13 +569,6 @@ cpp
 '
 bluedroid
 /
-BluetoothDaemonConnector
-.
-cpp
-'
-'
-bluedroid
-/
 BluetoothDaemonHandsfreeInterface
 .
 cpp
