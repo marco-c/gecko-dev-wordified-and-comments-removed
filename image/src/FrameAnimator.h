@@ -247,15 +247,6 @@ aAnimationMode
 )
 ;
 void
-SetFirstFrameRefreshArea
-(
-const
-nsIntRect
-&
-aRect
-)
-;
-void
 UnionFirstFrameRefreshArea
 (
 const

@@ -195,6 +195,9 @@ ProcessInfoHeader
 )
 ;
 bool
+mProcessedHeader
+;
+bool
 mUseAlphaData
 ;
 bool
