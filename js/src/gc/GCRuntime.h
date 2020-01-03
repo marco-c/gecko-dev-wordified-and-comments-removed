@@ -1739,9 +1739,9 @@ func
 )
 ;
 bool
-addMovingGCCallback
+addWeakPointerCallback
 (
-JSMovingGCCallback
+JSWeakPointerCallback
 callback
 void
 *
@@ -1749,9 +1749,9 @@ data
 )
 ;
 void
-removeMovingGCCallback
+removeWeakPointerCallback
 (
-JSMovingGCCallback
+JSWeakPointerCallback
 func
 )
 ;
@@ -2584,7 +2584,7 @@ status
 const
 ;
 void
-callMovingGCCallbacks
+callWeakPointerCallbacks
 (
 )
 const
@@ -2987,9 +2987,9 @@ finalizeCallbacks
 ;
 CallbackVector
 <
-JSMovingGCCallback
+JSWeakPointerCallback
 >
-movingCallbacks
+updateWeakPointerCallbacks
 ;
 mozilla
 :

@@ -59,7 +59,7 @@ init
 )
 ;
 void
-finalize
+updateWeakPointers
 (
 )
 ;
