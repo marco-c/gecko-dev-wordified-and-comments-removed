@@ -9669,10 +9669,9 @@ enqueueTask
 >
 TelemetryController
 .
-addPendingPingFromFile
+addAbortedSessionPing
 (
 FILE_PATH
-true
 )
 )
 ;
