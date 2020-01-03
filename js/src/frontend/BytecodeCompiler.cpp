@@ -1170,6 +1170,7 @@ js
 TraceLogCreateTextId
 (
 logger
+TraceLogger_AnnotateScripts
 options
 )
 ;
@@ -2513,6 +2514,7 @@ js
 TraceLogCreateTextId
 (
 logger
+TraceLogger_AnnotateScripts
 options
 )
 ;
@@ -2895,6 +2897,7 @@ js
 TraceLogCreateTextId
 (
 logger
+TraceLogger_AnnotateScripts
 options
 )
 ;

@@ -19743,6 +19743,12 @@ cx
 TraceLogger_Scripts
 )
 ;
+TraceLogDisableTextId
+(
+cx
+TraceLogger_AnnotateScripts
+)
+;
 args
 .
 rval

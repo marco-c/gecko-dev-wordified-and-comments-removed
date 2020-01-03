@@ -46964,6 +46964,7 @@ scriptId
 TraceLogCreateTextId
 (
 logger
+TraceLogger_Scripts
 script
 )
 ;
