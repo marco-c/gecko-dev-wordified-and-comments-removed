@@ -117,6 +117,9 @@ class
 AutoResetInShow
 ;
 class
+AutoResetInFrameSwap
+;
+class
 nsITabParent
 ;
 class
@@ -193,6 +196,10 @@ MessageManagerCallback
 friend
 class
 AutoResetInShow
+;
+friend
+class
+AutoResetInFrameSwap
 ;
 typedef
 mozilla
