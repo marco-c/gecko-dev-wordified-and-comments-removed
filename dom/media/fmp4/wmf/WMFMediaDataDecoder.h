@@ -261,6 +261,9 @@ mIsDecodeTaskDispatched
 bool
 mIsFlushing
 ;
+bool
+mIsShutDown
+;
 }
 ;
 }
