@@ -2253,6 +2253,17 @@ BackendType
 DIRECT2D1_1
 )
 ;
+canvasMask
+|
+=
+BackendTypeBit
+(
+BackendType
+:
+:
+DIRECT2D1_1
+)
+;
 defaultBackend
 =
 BackendType
