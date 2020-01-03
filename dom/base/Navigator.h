@@ -867,17 +867,6 @@ ErrorResult
 aRv
 )
 ;
-void
-MozSetMessageHandlerPromise
-(
-Promise
-&
-aPromise
-ErrorResult
-&
-aRv
-)
-;
 #
 ifdef
 MOZ_B2G
