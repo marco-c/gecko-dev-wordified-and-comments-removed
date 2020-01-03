@@ -54179,9 +54179,12 @@ false
 "
 )
         
-jsonInterfaces
+jsonDescriptors
 =
 [
+self
+.
+descriptor
 ]
         
 interface
@@ -54191,6 +54194,8 @@ self
 descriptor
 .
 interface
+.
+parent
         
 while
 interface
@@ -54222,11 +54227,11 @@ Jsonifier
 ]
 :
                 
-jsonInterfaces
+jsonDescriptors
 .
 append
 (
-interface
+descriptor
 )
             
 interface
@@ -54236,9 +54241,9 @@ interface
 parent
         
 for
-interface
+descriptor
 in
-jsonInterfaces
+jsonDescriptors
 [
 :
 :
@@ -54289,9 +54294,7 @@ parentclass
 =
 toBindingNamespace
 (
-interface
-.
-identifier
+descriptor
 .
 name
 )
