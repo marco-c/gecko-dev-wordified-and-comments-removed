@@ -68,6 +68,13 @@ js
 '
 '
 responsivedesign
+-
+child
+.
+js
+'
+'
+responsivedesign
 .
 jsm
 '
