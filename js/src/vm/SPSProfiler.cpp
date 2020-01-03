@@ -367,7 +367,7 @@ enabled
 jit
 :
 :
-ToggleBaselineSPS
+ToggleBaselineProfiling
 (
 rt
 enabled
