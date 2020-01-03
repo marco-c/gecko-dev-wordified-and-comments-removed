@@ -1075,6 +1075,7 @@ AudioInfo
 &
 aInfo
 )
+override
 ;
 bool
 Decode
