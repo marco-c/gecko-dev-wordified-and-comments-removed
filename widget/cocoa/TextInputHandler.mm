@@ -2246,7 +2246,7 @@ GetUCKeyboardLayout
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -2396,7 +2396,7 @@ chars
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -2496,7 +2496,7 @@ char16_t
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -4149,7 +4149,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -5457,7 +5457,7 @@ false
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -5615,7 +5615,7 @@ level
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -6208,7 +6208,7 @@ if
 MOZ_LOG_TEST
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 )
 )
 {
@@ -6255,7 +6255,7 @@ expectedChar
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -6383,7 +6383,7 @@ keyCode
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -6527,7 +6527,7 @@ kEventKeyModifierNumLockMask
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -6881,7 +6881,7 @@ altCharCodes
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -7457,7 +7457,7 @@ altCharCodes
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -7566,7 +7566,7 @@ altCharCodes
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -7616,7 +7616,7 @@ aCmdIsPressed
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -9004,7 +9004,7 @@ if
 MOZ_LOG_TEST
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 )
 )
 {
@@ -9018,7 +9018,7 @@ CreateAllKeyboardLayoutList
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 Keyboard
@@ -9110,7 +9110,7 @@ isid
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -9441,7 +9441,7 @@ Destroyed
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -9469,7 +9469,7 @@ false
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -9721,7 +9721,7 @@ Destroyed
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -9810,7 +9810,7 @@ firstResponder
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -9854,7 +9854,7 @@ IsDefaultPrevented
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -9988,7 +9988,7 @@ IsASCIICapableOnly
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -10023,7 +10023,7 @@ true
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -10050,7 +10050,7 @@ Destroyed
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -10079,7 +10079,7 @@ IsDefaultPrevented
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -10328,7 +10328,7 @@ true
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -10371,7 +10371,7 @@ on
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -10452,7 +10452,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -10563,7 +10563,7 @@ Destroyed
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -10660,7 +10660,7 @@ Destroyed
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -10696,7 +10696,7 @@ mWidget
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -12647,7 +12647,7 @@ return
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -12910,7 +12910,7 @@ GetCurrentKeyEvent
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -13886,7 +13886,7 @@ GetCurrentKeyEvent
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -14037,7 +14037,7 @@ true
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -14486,7 +14486,7 @@ if
 MOZ_LOG_TEST
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 )
 )
 {
@@ -14662,7 +14662,7 @@ bundleID0
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 IMEInputHandler
@@ -15105,7 +15105,7 @@ if
 MOZ_LOG_TEST
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 )
 )
 {
@@ -15119,7 +15119,7 @@ CreateAllIMEModeList
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 IME
@@ -15211,7 +15211,7 @@ isid
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -15643,7 +15643,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -15903,7 +15903,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -16040,7 +16040,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -16619,7 +16619,7 @@ aSelectedRange
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -16864,7 +16864,7 @@ count
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -17110,7 +17110,7 @@ range
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -17221,7 +17221,7 @@ range
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -17296,7 +17296,7 @@ aSelectedRange
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -17449,7 +17449,7 @@ aCommitString
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -17612,7 +17612,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -17827,7 +17827,7 @@ Destroyed
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -18005,7 +18005,7 @@ Destroyed
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -18049,7 +18049,7 @@ Destroyed
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -18109,7 +18109,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -18353,7 +18353,7 @@ Destroyed
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -18519,7 +18519,7 @@ Destroyed
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -18593,7 +18593,7 @@ Destroyed
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -18652,7 +18652,7 @@ Destroyed
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -18693,7 +18693,7 @@ ConversationIdentifier
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -18791,7 +18791,7 @@ mSucceeded
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -18882,7 +18882,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -19021,7 +19021,7 @@ textContent
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -19340,7 +19340,7 @@ HasMarkedText
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -19406,7 +19406,7 @@ MarkedRange
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -19473,7 +19473,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -19574,7 +19574,7 @@ selection
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -19918,7 +19918,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -20374,7 +20374,7 @@ actualRange
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -20497,7 +20497,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -20705,7 +20705,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -21076,7 +21076,7 @@ aFocus
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -21245,7 +21245,7 @@ aDestroyingWidget
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -21404,7 +21404,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -21486,7 +21486,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -21589,7 +21589,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -21686,7 +21686,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -21800,7 +21800,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -21919,7 +21919,7 @@ return
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -22008,7 +22008,7 @@ return
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -22101,7 +22101,7 @@ return
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -22604,7 +22604,7 @@ OpenSystemPreferredLanguageIME
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -22636,7 +22636,7 @@ langList
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -22775,7 +22775,7 @@ if
 MOZ_LOG_TEST
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 )
 )
 {
@@ -22792,7 +22792,7 @@ foundTIS
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -23112,7 +23112,7 @@ aDestroyingWidget
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -23203,7 +23203,7 @@ IsMeta
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -23699,7 +23699,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -23832,7 +23832,7 @@ level
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -23937,7 +23937,7 @@ NS_OK
 MOZ_LOG
 (
 gLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %

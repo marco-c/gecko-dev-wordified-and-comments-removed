@@ -32525,7 +32525,7 @@ NSDragOperationNone
 MOZ_LOG
 (
 sCocoaLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ChildView
@@ -33090,7 +33090,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 MOZ_LOG
 (
 sCocoaLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ChildView
@@ -33228,7 +33228,7 @@ sender
 MOZ_LOG
 (
 sCocoaLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ChildView
@@ -33270,7 +33270,7 @@ sender
 MOZ_LOG
 (
 sCocoaLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ChildView
@@ -33926,7 +33926,7 @@ rv
 MOZ_LOG
 (
 sCocoaLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 ChildView

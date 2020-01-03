@@ -354,7 +354,7 @@ NativeKeyBindings
 MOZ_LOG
 (
 gNativeKeyBindingsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -1246,7 +1246,7 @@ aCallbackData
 MOZ_LOG
 (
 gNativeKeyBindingsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -1313,7 +1313,7 @@ NSKeyDown
 MOZ_LOG
 (
 gNativeKeyBindingsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -1339,7 +1339,7 @@ false
 MOZ_LOG
 (
 gNativeKeyBindingsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -1373,7 +1373,7 @@ bindingCommands
 MOZ_LOG
 (
 gNativeKeyBindingsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -1438,7 +1438,7 @@ if
 MOZ_LOG_TEST
 (
 gNativeKeyBindingsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 )
 )
 {
@@ -1466,7 +1466,7 @@ nsSelectorString
 MOZ_LOG
 (
 gNativeKeyBindingsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -1694,7 +1694,7 @@ IsEmpty
 MOZ_LOG
 (
 gNativeKeyBindingsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -1746,7 +1746,7 @@ i
 MOZ_LOG
 (
 gNativeKeyBindingsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %
@@ -1787,7 +1787,7 @@ aCallbackData
 MOZ_LOG
 (
 gNativeKeyBindingsLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 %

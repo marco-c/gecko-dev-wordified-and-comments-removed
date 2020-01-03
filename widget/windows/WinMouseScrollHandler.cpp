@@ -564,7 +564,7 @@ nullptr
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -598,7 +598,7 @@ MouseScrollHandler
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -931,7 +931,7 @@ WM_KEYUP
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -1631,7 +1631,7 @@ aLParam
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -1740,7 +1740,7 @@ aLParam
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -1846,7 +1846,7 @@ underCursorWnd
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -1915,7 +1915,7 @@ underCursorWnd
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -1975,7 +1975,7 @@ destWindow
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -2056,7 +2056,7 @@ wnd
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -2128,7 +2128,7 @@ destWindow
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -2162,7 +2162,7 @@ return
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -2244,7 +2244,7 @@ pluginWnd
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -2311,7 +2311,7 @@ destWindow
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -2345,7 +2345,7 @@ return
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -2419,7 +2419,7 @@ return
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -2523,7 +2523,7 @@ aLParam
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -2813,7 +2813,7 @@ MOZ_WM_MOUSEHWHEEL
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -2893,7 +2893,7 @@ CanDispatchWheelEvent
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -2983,7 +2983,7 @@ modKeyState
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -3022,7 +3022,7 @@ Destroyed
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -3058,7 +3058,7 @@ else
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -3279,7 +3279,7 @@ wheelEvent
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -3753,7 +3753,7 @@ return
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -4041,7 +4041,7 @@ nativeDeltaPerUnit
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -4241,7 +4241,7 @@ mScrollLines
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -4290,7 +4290,7 @@ mScrollLines
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -4331,7 +4331,7 @@ WHEEL_DELTA
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -4390,7 +4390,7 @@ mScrollChars
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -4439,7 +4439,7 @@ mScrollChars
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -4508,7 +4508,7 @@ WHEEL_DELTA
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -4551,7 +4551,7 @@ WHEEL_PAGESCROLL
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -4596,7 +4596,7 @@ MarkDirty
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScrollHandler
@@ -4845,7 +4845,7 @@ DEFAULT_TIMEOUT_DURATION
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -4909,7 +4909,7 @@ MarkDirty
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScrollHandler
@@ -4998,7 +4998,7 @@ aPrefName
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -5047,7 +5047,7 @@ lHackValue
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -5097,7 +5097,7 @@ aValueIfAutomatic
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -5206,7 +5206,7 @@ IsObsoleteDriverInstalled
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -5304,7 +5304,7 @@ version
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -5729,7 +5729,7 @@ WM_KEYDOWN
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -5816,7 +5816,7 @@ else
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -5882,7 +5882,7 @@ GetTickCount
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -5979,7 +5979,7 @@ sZoomUntil
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -6079,7 +6079,7 @@ TrackPoint
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -6139,7 +6139,7 @@ TrackPoint
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -6211,7 +6211,7 @@ UltraNav
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -6276,7 +6276,7 @@ UltraNavUSB
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -6341,7 +6341,7 @@ UltraNavPS2
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -6436,7 +6436,7 @@ foundKey
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -6516,7 +6516,7 @@ nullptr
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -6654,7 +6654,7 @@ true
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -6706,7 +6706,7 @@ false
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScroll
@@ -6824,7 +6824,7 @@ aKeyStates
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScrollHandler
@@ -7078,7 +7078,7 @@ return
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScrollHandler
@@ -7187,7 +7187,7 @@ return
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScrollHandler
@@ -7266,7 +7266,7 @@ return
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScrollHandler
@@ -7314,7 +7314,7 @@ return
 MOZ_LOG
 (
 gMouseScrollLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 MouseScrollHandler

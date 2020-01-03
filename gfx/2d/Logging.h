@@ -189,7 +189,7 @@ case
 LOG_EVERYTHING
 :
 return
-PR_LOG_ALWAYS
+PR_LOG_ERROR
 ;
 }
 return
