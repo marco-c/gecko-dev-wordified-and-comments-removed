@@ -140,6 +140,11 @@ nsSecurityHeaderParser
 cpp
 '
 '
+nsSecurityWarningDialogs
+.
+cpp
+'
+'
 nsSiteSecurityService
 .
 cpp
