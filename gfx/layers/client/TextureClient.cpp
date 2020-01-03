@@ -2408,8 +2408,10 @@ return
 false
 ;
 }
+RefPtr
+<
 DrawTarget
-*
+>
 destinationTarget
 =
 aTarget
@@ -2419,8 +2421,10 @@ BorrowDrawTarget
 (
 )
 ;
+RefPtr
+<
 DrawTarget
-*
+>
 sourceTarget
 =
 BorrowDrawTarget
@@ -2485,10 +2489,6 @@ IntPoint
 0
 )
 )
-;
-source
-=
-nullptr
 ;
 return
 true
