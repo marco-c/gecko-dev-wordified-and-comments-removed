@@ -305,11 +305,11 @@ oncommand
 "
 MailIntegration
 .
-sendLinkForWindow
+sendLinkForBrowser
 (
-window
+gBrowser
 .
-content
+selectedBrowser
 )
 ;
 "

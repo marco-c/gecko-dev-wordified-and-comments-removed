@@ -6083,13 +6083,14 @@ win
 .
 MailIntegration
 .
-sendLinkForWindow
+sendLinkForBrowser
 (
 win
 .
-content
+gBrowser
+.
+selectedBrowser
 )
-;
 }
 }
 {
