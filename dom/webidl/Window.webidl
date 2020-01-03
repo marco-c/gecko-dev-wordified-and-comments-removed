@@ -3507,7 +3507,3 @@ Window
 implements
 ChromeWindow
 ;
-Window
-implements
-GlobalFetch
-;

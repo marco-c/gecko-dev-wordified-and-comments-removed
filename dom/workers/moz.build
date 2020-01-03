@@ -465,15 +465,6 @@ MOCHITEST_MANIFESTS
 '
 test
 /
-fetch
-/
-mochitest
-.
-ini
-'
-'
-test
-/
 mochitest
 .
 ini
