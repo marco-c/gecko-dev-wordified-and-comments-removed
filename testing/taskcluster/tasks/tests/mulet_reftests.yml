@@ -259,6 +259,11 @@ from_now
 '
 extra
 :
+chunks
+:
+total
+:
+6
 treeherder
 :
 groupName

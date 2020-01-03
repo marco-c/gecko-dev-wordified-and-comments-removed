@@ -203,6 +203,11 @@ from_now
 '
 extra
 :
+chunks
+:
+total
+:
+5
 treeherder
 :
 groupSymbol

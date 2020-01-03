@@ -246,9 +246,6 @@ tests
 b2g_emulator_crashtest
 .
 yml
-chunks
-:
-3
 gaia
 -
 build
@@ -322,9 +319,6 @@ tests
 b2g_gaia_js_integration_tests
 .
 yml
-chunks
-:
-4
 gaia
 -
 linter
@@ -419,9 +413,6 @@ tests
 b2g_gaia_ui_test_functional
 .
 yml
-chunks
-:
-3
 tasks
 /
 builds
@@ -439,9 +430,6 @@ tests
 b2g_gaia_ui_test_functional
 .
 yml
-chunks
-:
-3
 gaia
 -
 ui
@@ -594,9 +582,6 @@ tests
 b2g_emulator_mochitest
 .
 yml
-chunks
-:
-20
 tasks
 /
 builds
@@ -640,9 +625,6 @@ tests
 b2g_mochitest_oop
 .
 yml
-chunks
-:
-1
 reftest
 :
 allowed_build_tasks
@@ -664,9 +646,6 @@ tests
 b2g_emulator_reftest
 .
 yml
-chunks
-:
-20
 reftest
 -
 sanity
@@ -692,9 +671,6 @@ tests
 b2g_reftests_sanity_oop
 .
 yml
-chunks
-:
-1
 xpcshell
 :
 allowed_build_tasks
@@ -733,6 +709,3 @@ tests
 b2g_emulator_xpcshell_chunked
 .
 yml
-chunks
-:
-2
