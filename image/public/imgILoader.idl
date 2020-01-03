@@ -122,6 +122,9 @@ nsIURI
 interface
 nsISimpleEnumerator
 ;
+interface
+nsIChannelPolicy
+;
 #
 include
 "
@@ -408,6 +411,9 @@ aLoadFlags
 in
 nsISupports
 cacheKey
+in
+nsIChannelPolicy
+channelPolicy
 )
 ;
 /

@@ -3015,6 +3015,9 @@ nsCString
 aAcceptHeader
 nsLoadFlags
 aLoadFlags
+nsIChannelPolicy
+*
+aPolicy
 nsIPrincipal
 *
 aLoadingPrincipal
@@ -3158,6 +3161,7 @@ nsIContentPolicy
 :
 :
 TYPE_IMAGE
+aPolicy
 nullptr
 callbacks
 aLoadFlags
@@ -6856,6 +6860,9 @@ imgRequestProxy
 *
 *
 aProxyRequest
+nsIChannelPolicy
+*
+aPolicy
 nsIPrincipal
 *
 aLoadingPrincipal
@@ -6971,6 +6978,7 @@ aReferrerURI
 aLoadGroup
 mAcceptHeader
 aLoadFlags
+aPolicy
 aLoadingPrincipal
 aCX
 )
@@ -7288,6 +7296,9 @@ imgRequestProxy
 *
 *
 aProxyRequest
+nsIChannelPolicy
+*
+aPolicy
 nsIPrincipal
 *
 aLoadingPrincipal
@@ -7803,6 +7814,7 @@ aObserver
 aCX
 aLoadFlags
 aProxyRequest
+aPolicy
 aLoadingPrincipal
 aCORSMode
 )
@@ -8676,6 +8688,9 @@ aLoadFlags
 nsISupports
 *
 aCacheKey
+nsIChannelPolicy
+*
+aPolicy
 imgIRequest
 *
 *
@@ -8700,6 +8715,7 @@ aObserver
 aCX
 aLoadFlags
 aCacheKey
+aPolicy
 EmptyString
 (
 )
@@ -8748,6 +8764,9 @@ aLoadFlags
 nsISupports
 *
 aCacheKey
+nsIChannelPolicy
+*
+aPolicy
 const
 nsAString
 &
@@ -9081,6 +9100,7 @@ aCX
 requestFlags
 true
 _retval
+aPolicy
 aLoadingPrincipal
 corsmode
 )
@@ -9274,6 +9294,7 @@ aReferrerURI
 aLoadGroup
 mAcceptHeader
 requestFlags
+aPolicy
 aLoadingPrincipal
 aCX
 )
@@ -10116,6 +10137,7 @@ aObserver
 aCX
 requestFlags
 false
+nullptr
 nullptr
 nullptr
 imgIRequest
