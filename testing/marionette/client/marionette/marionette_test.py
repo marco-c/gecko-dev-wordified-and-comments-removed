@@ -372,6 +372,21 @@ kwargs
 :
         
 if
+self
+.
+marionette
+.
+session_capabilities
+.
+has_key
+(
+'
+b2g
+'
+)
+and
+\
+            
 not
 self
 .
@@ -380,14 +395,12 @@ marionette
 session_capabilities
 [
 '
-device
+b2g
 '
 ]
 =
 =
-'
-qemu
-'
+True
 :
             
 return

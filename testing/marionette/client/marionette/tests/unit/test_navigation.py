@@ -145,6 +145,8 @@ marionette
 title
 )
     
+skip_if_b2g
+    
 def
 test_navigate_chrome_error
 (
