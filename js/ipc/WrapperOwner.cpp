@@ -396,7 +396,7 @@ HandleObject
 proxy
 HandleId
 id
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >
@@ -1148,7 +1148,7 @@ HandleObject
 proxy
 HandleId
 id
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >
@@ -1185,7 +1185,7 @@ HandleObject
 proxy
 HandleId
 id
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >

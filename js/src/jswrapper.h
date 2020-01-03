@@ -412,7 +412,7 @@ HandleObject
 wrapper
 HandleId
 id
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >
@@ -897,7 +897,7 @@ HandleObject
 wrapper
 HandleId
 id
-MutableHandle
+Handle
 <
 JSPropertyDescriptor
 >

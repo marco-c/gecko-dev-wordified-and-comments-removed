@@ -410,7 +410,7 @@ HandleObject
 wrapper
 HandleId
 id
-MutableHandle
+Handle
 <
 PropertyDescriptor
 >
