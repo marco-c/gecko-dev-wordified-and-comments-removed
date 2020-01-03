@@ -185,7 +185,7 @@ indexOf
 0
 )
 {
-safeInfo
+info
 (
 "
 Network
@@ -206,7 +206,7 @@ true
 }
 }
 }
-safeInfo
+info
 (
 "
 Network
@@ -225,7 +225,7 @@ return
 false
 ;
 }
-safeInfo
+info
 (
 "
 Network
@@ -543,8 +543,6 @@ then
 )
 =
 >
-SimpleTest
-.
 finish
 (
 )
