@@ -20877,6 +20877,7 @@ JSContext
 HandleObject
 HandleScript
 HandleValue
+HandleValue
 HandleString
 jsbytecode
 *
@@ -20954,6 +20955,18 @@ pc
 pushArg
 (
 string
+)
+;
+pushArg
+(
+ToValue
+(
+lir
+LCallDirectEval
+:
+:
+NewTarget
+)
 )
 ;
 pushArg
