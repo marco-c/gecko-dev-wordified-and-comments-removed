@@ -30,7 +30,7 @@ mozrunner
 =
 6
 .
-2
+4
 mozdevice
 >
 =

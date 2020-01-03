@@ -1944,6 +1944,14 @@ app_ctx
 .
 remote_profile
 )
+        
+self
+.
+app_ctx
+.
+start_application
+(
+)
     
 def
 _rotate_log
