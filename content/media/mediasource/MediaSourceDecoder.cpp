@@ -781,7 +781,7 @@ dummy
 mMediaSource
 -
 >
-DurationChange
+SetDuration
 (
 aDuration
 dummy
