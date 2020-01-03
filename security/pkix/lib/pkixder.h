@@ -1991,6 +1991,7 @@ algorithm
 )
 ;
 enum
+class
 PublicKeyAlgorithm
 {
 RSA_PKCS1
