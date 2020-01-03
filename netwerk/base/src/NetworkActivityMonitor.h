@@ -115,12 +115,6 @@ NetworkActivityMonitor
 *
 gInstance
 ;
-PRDescIdentity
-mLayerIdentity
-;
-PRIOMethods
-mLayerMethods
-;
 PRIntervalTime
 mBlipInterval
 ;
