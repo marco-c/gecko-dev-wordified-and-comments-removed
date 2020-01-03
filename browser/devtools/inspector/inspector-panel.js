@@ -1551,6 +1551,11 @@ this
 "
 inspector
 "
+{
+showAllTabsMenu
+:
+true
+}
 )
 ;
 let
