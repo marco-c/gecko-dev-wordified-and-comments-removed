@@ -3791,8 +3791,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 intrinsic_IsArrayIterator
 (
 JSContext
@@ -3974,8 +3976,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 intrinsic_IsStringIterator
 (
 JSContext
