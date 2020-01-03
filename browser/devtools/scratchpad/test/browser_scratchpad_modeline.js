@@ -99,6 +99,16 @@ waitForExplicitFinish
 (
 )
 ;
+Services
+.
+prefs
+.
+setBoolPref
+(
+DEVTOOLS_CHROME_ENABLED
+false
+)
+;
 gBrowser
 .
 selectedTab
