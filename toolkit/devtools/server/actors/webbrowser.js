@@ -492,6 +492,9 @@ getPrototypeOf
 (
 global
 )
++
+"
+"
 ;
 return
 global
