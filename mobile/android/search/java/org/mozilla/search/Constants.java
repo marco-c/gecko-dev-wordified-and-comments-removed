@@ -77,14 +77,4 @@ about
 blank
 "
 ;
-public
-static
-final
-String
-DEFAULT_SEARCH_ENGINE
-=
-"
-yahoo
-"
-;
 }
