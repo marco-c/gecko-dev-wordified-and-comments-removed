@@ -581,15 +581,6 @@ aParentDecoder
 false
 )
 )
-mMediaSourceDemuxer
-(
-mParentDecoder
--
->
-GetDemuxer
-(
-)
-)
 mMediaSourceDuration
 (
 mTaskQueue

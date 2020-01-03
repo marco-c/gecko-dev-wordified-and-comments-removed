@@ -1272,12 +1272,6 @@ MediaSourceDecoder
 >
 mParentDecoder
 ;
-nsRefPtr
-<
-MediaSourceDemuxer
->
-mMediaSourceDemuxer
-;
 Mirror
 <
 Maybe
