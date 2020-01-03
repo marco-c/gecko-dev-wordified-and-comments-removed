@@ -2428,12 +2428,12 @@ promise
 tabId
 document
 }
-)
 =
 yield
 open
 (
 addon
+)
 )
 ;
 (
@@ -2441,10 +2441,10 @@ addon
 promise
 resolve
 }
-)
 =
 defer
 (
+)
 )
 ;
 results
