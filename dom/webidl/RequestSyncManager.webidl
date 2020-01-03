@@ -326,6 +326,14 @@ long
 ovewrittenMinInterval
 )
 ;
+Promise
+<
+void
+>
+runNow
+(
+)
+;
 }
 ;
 [
