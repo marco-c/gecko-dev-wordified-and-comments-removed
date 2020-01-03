@@ -52,6 +52,10 @@ insert
 SCRIPT_DIR
 )
 from
+argparse
+import
+Namespace
+from
 urlparse
 import
 urlparse
@@ -71,8 +75,6 @@ import
 mozprocess
 import
 mozrunner
-import
-optparse
 import
 re
 import
@@ -1701,9 +1703,7 @@ if
 isinstance
 (
 options
-optparse
-.
-Values
+Namespace
 )
 :
             
@@ -16544,7 +16544,6 @@ parser
 )
     
 options
-args
 =
 parser
 .
