@@ -628,6 +628,8 @@ JS
 AutoIdVector
 &
 properties
+bool
+enumerableOnly
 )
 ;
 typedef

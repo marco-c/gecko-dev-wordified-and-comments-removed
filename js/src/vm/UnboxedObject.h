@@ -865,6 +865,8 @@ obj
 AutoIdVector
 &
 properties
+bool
+enumerableOnly
 )
 ;
 static
@@ -1472,6 +1474,8 @@ obj
 AutoIdVector
 &
 properties
+bool
+enumerableOnly
 )
 ;
 static

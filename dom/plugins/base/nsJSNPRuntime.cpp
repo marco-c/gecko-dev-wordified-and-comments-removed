@@ -835,6 +835,8 @@ JS
 AutoIdVector
 &
 properties
+bool
+enumerableOnly
 )
 ;
 static
@@ -7405,6 +7407,8 @@ JS
 AutoIdVector
 &
 properties
+bool
+enumerableOnly
 )
 {
 NPObject
