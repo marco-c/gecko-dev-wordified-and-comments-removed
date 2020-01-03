@@ -281,8 +281,10 @@ nsSingletonEnumerator
 ;
 protected
 :
+nsCOMPtr
+<
 nsISupports
-*
+>
 mValue
 ;
 bool
@@ -305,11 +307,6 @@ mValue
 aValue
 )
 {
-NS_IF_ADDREF
-(
-mValue
-)
-;
 mConsumed
 =
 (
@@ -329,11 +326,6 @@ nsSingletonEnumerator
 (
 )
 {
-NS_IF_RELEASE
-(
-mValue
-)
-;
 }
 NS_IMPL_ISUPPORTS
 (
