@@ -427,9 +427,6 @@ mIntrinsicSize
 nsSize
 mImageSize
 ;
-bool
-mRequestRegistered
-;
 nsRefPtr
 <
 imgRequestProxy
@@ -444,6 +441,9 @@ mListener
 ;
 int32_t
 mLoadFlags
+;
+bool
+mRequestRegistered
 ;
 bool
 mUseSrcAttr
