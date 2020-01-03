@@ -42,15 +42,6 @@ BitmapDrawable
 import
 android
 .
-graphics
-.
-drawable
-.
-Drawable
-;
-import
-android
-.
 view
 .
 LayoutInflater
@@ -201,6 +192,7 @@ DEFAULT
 LOGIN
 TRACKING
 MIXED_CONTENT
+GEOLOCATION
 }
 public
 interface
