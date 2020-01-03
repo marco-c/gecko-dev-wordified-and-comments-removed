@@ -840,7 +840,7 @@ mozilla
 .
 search
 .
-MainActivity
+SearchActivity
 "
 ;
 public

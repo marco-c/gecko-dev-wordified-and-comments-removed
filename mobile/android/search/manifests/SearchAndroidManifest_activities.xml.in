@@ -11,7 +11,7 @@ mozilla
 .
 search
 .
-MainActivity
+SearchActivity
 "
 android
 :
@@ -373,7 +373,7 @@ mozilla
 .
 search
 .
-MainActivity
+SearchActivity
 "
 android
 :
@@ -411,7 +411,7 @@ mozilla
 .
 search
 .
-MainActivity
+SearchActivity
 "
 /
 >

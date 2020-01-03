@@ -198,7 +198,7 @@ SearchEngineCallback
 ;
 public
 class
-MainActivity
+SearchActivity
 extends
 LocaleAware
 .
@@ -638,7 +638,7 @@ startActivity
 new
 Intent
 (
-MainActivity
+SearchActivity
 .
 this
 SearchPreferenceActivity
