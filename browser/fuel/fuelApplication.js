@@ -536,7 +536,9 @@ this
 .
 _window
 .
-gBrowser
+getBrowser
+(
+)
 ;
 }
 _watch
