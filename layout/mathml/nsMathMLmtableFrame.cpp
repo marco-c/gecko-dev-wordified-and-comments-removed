@@ -1363,6 +1363,11 @@ aSnap
 )
 MOZ_OVERRIDE
 {
+*
+aSnap
+=
+true
+;
 nsStyleBorder
 styleBorder
 =
