@@ -16607,12 +16607,9 @@ UnboxedPlainObject
 (
 )
 .
-layout
+containsUnboxedOrExpandoProperty
 (
-)
-.
-lookup
-(
+cx
 id
 )
 )

@@ -53311,7 +53311,7 @@ Bailout_ShapeGuard
 )
 ;
 return
-addShapeGuardPolymorphic
+addGuardReceiverPolymorphic
 (
 obj
 receiverShapes
@@ -54686,7 +54686,7 @@ empty
 {
 obj
 =
-addShapeGuardPolymorphic
+addGuardReceiverPolymorphic
 (
 obj
 nativeShapes
@@ -58037,7 +58037,7 @@ empty
 {
 obj
 =
-addShapeGuardPolymorphic
+addGuardReceiverPolymorphic
 (
 obj
 nativeShapes
@@ -63058,6 +63058,8 @@ ObjectGroup
 group
 BailoutKind
 bailoutKind
+bool
+checkUnboxedExpando
 )
 {
 MGuardObjectGroup
@@ -63076,6 +63078,7 @@ obj
 group
 false
 bailoutKind
+checkUnboxedExpando
 )
 ;
 current
@@ -63142,7 +63145,7 @@ MInstruction
 IonBuilder
 :
 :
-addShapeGuardPolymorphic
+addGuardReceiverPolymorphic
 (
 MDefinition
 *
@@ -63210,6 +63213,7 @@ length
 =
 1
 )
+{
 return
 addGroupGuard
 (
@@ -63219,8 +63223,10 @@ unboxedGroups
 0
 ]
 Bailout_ShapeGuard
+true
 )
 ;
+}
 MOZ_ASSERT
 (
 shapes
