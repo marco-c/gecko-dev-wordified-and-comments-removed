@@ -502,6 +502,7 @@ status
 [
 Throws
 CrossOriginCallable
+UnsafeInPrerendering
 ]
 void
 close
@@ -528,6 +529,7 @@ stop
 [
 Throws
 CrossOriginCallable
+UnsafeInPrerendering
 ]
 void
 focus
@@ -673,6 +675,7 @@ false
 ;
 [
 Throws
+UnsafeInPrerendering
 ]
 WindowProxy
 ?
@@ -784,6 +787,7 @@ user
 prompts
 [
 Throws
+UnsafeInPrerendering
 ]
 void
 alert
@@ -792,6 +796,7 @@ alert
 ;
 [
 Throws
+UnsafeInPrerendering
 ]
 void
 alert
@@ -802,6 +807,7 @@ message
 ;
 [
 Throws
+UnsafeInPrerendering
 ]
 boolean
 confirm
@@ -816,6 +822,7 @@ message
 ;
 [
 Throws
+UnsafeInPrerendering
 ]
 DOMString
 ?
@@ -837,6 +844,7 @@ default
 ;
 [
 Throws
+UnsafeInPrerendering
 ]
 void
 print
@@ -868,6 +876,7 @@ nsGlobalWindow
 :
 IsShowModalDialogEnabled
 "
+UnsafeInPrerendering
 ]
 any
 showModalDialog
@@ -1557,6 +1566,7 @@ y
 ;
 [
 Throws
+UnsafeInPrerendering
 ]
 void
 moveTo
@@ -1569,6 +1579,7 @@ y
 ;
 [
 Throws
+UnsafeInPrerendering
 ]
 void
 moveBy
@@ -1581,6 +1592,7 @@ y
 ;
 [
 Throws
+UnsafeInPrerendering
 ]
 void
 resizeTo
@@ -1593,6 +1605,7 @@ y
 ;
 [
 Throws
+UnsafeInPrerendering
 ]
 void
 resizeBy
@@ -2432,6 +2445,7 @@ window
 /
 [
 Throws
+UnsafeInPrerendering
 ]
 void
 sizeToContent
@@ -2544,6 +2558,7 @@ scrollMaxY
 ;
 [
 Throws
+UnsafeInPrerendering
 ]
 attribute
 boolean
@@ -2552,6 +2567,7 @@ fullScreen
 [
 Throws
 ChromeOnly
+UnsafeInPrerendering
 ]
 void
 back
@@ -2561,6 +2577,7 @@ back
 [
 Throws
 ChromeOnly
+UnsafeInPrerendering
 ]
 void
 forward
@@ -2570,6 +2587,7 @@ forward
 [
 Throws
 ChromeOnly
+UnsafeInPrerendering
 ]
 void
 home
@@ -2676,6 +2694,7 @@ dialog
 /
 [
 Throws
+UnsafeInPrerendering
 ]
 boolean
 find
@@ -2960,6 +2979,7 @@ arguments
 [
 Throws
 ChromeOnly
+UnsafeInPrerendering
 ]
 WindowProxy
 ?
@@ -3283,6 +3303,7 @@ nsGlobalWindow
 :
 IsChromeWindow
 "
+UnsafeInPrerendering
 ]
 void
 maximize
@@ -3299,6 +3320,7 @@ nsGlobalWindow
 :
 IsChromeWindow
 "
+UnsafeInPrerendering
 ]
 void
 minimize
@@ -3315,6 +3337,7 @@ nsGlobalWindow
 :
 IsChromeWindow
 "
+UnsafeInPrerendering
 ]
 void
 restore
