@@ -27,6 +27,15 @@ ScopedNSSTypes
 h
 "
 #
+include
+"
+mozilla
+/
+ArrayUtils
+.
+h
+"
+#
 define
 UNKNOWN_ROOT
 0
