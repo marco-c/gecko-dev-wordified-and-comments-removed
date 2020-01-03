@@ -1834,7 +1834,12 @@ identity_
 privkey
 (
 )
-kt_rsa
+identity_
+-
+>
+auth_type
+(
+)
 )
 ;
 if
