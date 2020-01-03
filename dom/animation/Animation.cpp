@@ -3162,6 +3162,14 @@ aSeekFlag
 {
 if
 (
+!
+IsUsingCustomCompositeOrder
+(
+)
+)
+{
+if
+(
 PlayState
 (
 )
@@ -3193,6 +3201,7 @@ sNextSequenceNum
 +
 +
 ;
+}
 }
 UpdateFinishedState
 (
