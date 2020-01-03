@@ -7216,6 +7216,7 @@ mHTMLEditor
 InsertTextIntoTextNodeImpl
 (
 nbspStr
+*
 aPoint
 .
 mTextNode
@@ -8601,6 +8602,7 @@ mHTMLEditor
 InsertTextIntoTextNodeImpl
 (
 spaceStr
+*
 thePoint
 .
 mTextNode
@@ -8740,6 +8742,7 @@ mHTMLEditor
 InsertTextIntoTextNodeImpl
 (
 nbspStr
+*
 startNode
 startOffset
 true
@@ -8908,6 +8911,7 @@ mHTMLEditor
 InsertTextIntoTextNodeImpl
 (
 spaceStr
+*
 thePoint
 .
 mTextNode
@@ -9116,6 +9120,7 @@ mHTMLEditor
 InsertTextIntoTextNodeImpl
 (
 spaceStr
+*
 thePoint
 .
 mTextNode
