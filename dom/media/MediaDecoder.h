@@ -787,11 +787,6 @@ GetMediaOwner
 )
 const
 ;
-void
-DurationChanged
-(
-)
-;
 bool
 OnStateMachineTaskQueue
 (
@@ -1695,6 +1690,11 @@ IsEnded
 (
 )
 const
+;
+void
+DurationChanged
+(
+)
 ;
 WatchManager
 <
