@@ -987,12 +987,6 @@ false
 ;
 mFlags
 .
-mHasClearance
-=
-false
-;
-mFlags
-.
 mIsColumnBalancing
 =
 false
