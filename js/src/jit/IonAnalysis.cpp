@@ -10251,7 +10251,7 @@ graph
 for
 (
 ReversePostorderIterator
-block
+iter
 (
 graph
 .
@@ -10260,7 +10260,7 @@ rpoBegin
 )
 )
 ;
-block
+iter
 !
 =
 graph
@@ -10269,11 +10269,18 @@ rpoEnd
 (
 )
 ;
-block
 +
 +
+iter
 )
 {
+MBasicBlock
+*
+block
+=
+*
+iter
+;
 JS_ASSERT
 (
 !
