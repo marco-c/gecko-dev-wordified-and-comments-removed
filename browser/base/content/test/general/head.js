@@ -663,6 +663,9 @@ eventName
 capturing
 =
 false
+chrome
+=
+false
 )
 {
 return
@@ -697,6 +700,7 @@ removeEventListener
 eventName
 listener
 capturing
+chrome
 )
 ;
 resolve
@@ -722,6 +726,7 @@ addEventListener
 eventName
 listener
 capturing
+chrome
 )
 ;
 }
