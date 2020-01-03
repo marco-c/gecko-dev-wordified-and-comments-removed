@@ -185,10 +185,6 @@ GMPContentChild
 bool
 PreLoadPluginVoucher
 (
-const
-nsAString
-&
-aPluginPath
 )
 ;
 void
