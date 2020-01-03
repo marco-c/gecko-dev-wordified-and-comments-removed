@@ -13,10 +13,10 @@ layers
 enum
 HitTestResult
 {
-HitNothing
-HitLayer
-HitDispatchToContentRegion
-HitOverscrolledApzc
+NoApzcHit
+ApzcHitRegion
+ApzcContentRegion
+OverscrolledApzc
 }
 ;
 }
