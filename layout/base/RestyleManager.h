@@ -345,6 +345,10 @@ RestyleTracker
 aRestyleTracker
 nsRestyleHint
 aRestyleHint
+const
+RestyleHintData
+&
+aRestyleHintData
 )
 ;
 void
@@ -363,6 +367,10 @@ RestyleTracker
 aRestyleTracker
 nsRestyleHint
 aRestyleHint
+const
+RestyleHintData
+&
+aRestyleHintData
 )
 ;
 public
@@ -891,6 +899,12 @@ nsRestyleHint
 aRestyleHint
 nsChangeHint
 aMinChangeHint
+const
+RestyleHintData
+*
+aRestyleHintData
+=
+nullptr
 )
 ;
 void
@@ -1103,6 +1117,10 @@ RestyleTracker
 aRestyleTracker
 nsRestyleHint
 aRestyleHint
+const
+RestyleHintData
+&
+aRestyleHintData
 )
 ;
 void
@@ -1467,6 +1485,10 @@ RestyleTracker
 aRestyleTracker
 nsRestyleHint
 aRestyleHint
+const
+RestyleHintData
+&
+aRestyleHintData
 )
 ;
 static
@@ -1486,6 +1508,10 @@ RestyleTracker
 aRestyleTracker
 nsRestyleHint
 aRestyleHint
+const
+RestyleHintData
+&
+aRestyleHintData
 nsTArray
 <
 ContextToClear
