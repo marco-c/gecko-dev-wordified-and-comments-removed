@@ -307,6 +307,9 @@ CssTransformHighlighter
 "
 SelectorHighlighter
 "
+"
+RectHighlighter
+"
 ]
 urlToImageDataResolver
 :
