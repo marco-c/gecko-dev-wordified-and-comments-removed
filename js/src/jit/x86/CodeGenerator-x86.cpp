@@ -2566,7 +2566,7 @@ case
 :
 masm
 .
-vmovsdWithPatch
+vmovqWithPatch
 (
 srcAddr
 out
@@ -4044,7 +4044,7 @@ case
 :
 masm
 .
-vmovsdWithPatch
+vmovqWithPatch
 (
 in
 destAddr

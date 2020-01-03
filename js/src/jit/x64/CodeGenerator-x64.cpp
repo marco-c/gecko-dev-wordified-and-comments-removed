@@ -1585,7 +1585,7 @@ case
 :
 masm
 .
-movq
+vmovq
 (
 srcAddr
 out
@@ -2742,7 +2742,7 @@ case
 :
 masm
 .
-movq
+vmovq
 (
 in
 dstAddr
