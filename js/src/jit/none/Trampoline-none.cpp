@@ -475,7 +475,6 @@ MacroAssembler
 PushRegsInMask
 (
 LiveRegisterSet
-LiveFloatRegisterSet
 )
 {
 MOZ_CRASH
@@ -491,7 +490,6 @@ PopRegsInMaskIgnore
 (
 LiveRegisterSet
 LiveRegisterSet
-LiveFloatRegisterSet
 )
 {
 MOZ_CRASH
