@@ -878,6 +878,14 @@ IntRect
 aClipBounds
 )
 ;
+TemporaryRef
+<
+ID2D1Geometry
+>
+GetInverseClippedGeometry
+(
+)
+;
 bool
 GetDeviceSpaceClipRect
 (
@@ -891,6 +899,11 @@ aIsPixelAligned
 ;
 void
 PopAllClips
+(
+)
+;
+void
+PushAllClips
 (
 )
 ;
