@@ -1002,6 +1002,8 @@ length
 0
 )
 {
+return
+;
 }
 let
 permission
