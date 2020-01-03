@@ -1515,6 +1515,17 @@ hidden
 return
 ;
 }
+if
+(
+!
+aVisible
+)
+{
+mSelectionVisibleInScrollFrames
+=
+false
+;
+}
 mVisible
 =
 aVisible
