@@ -1363,12 +1363,6 @@ app
 src
 /
 browser
-/
-org
-/
-mozilla
-/
-gecko
 '
 '
 mobile
