@@ -2489,6 +2489,7 @@ SurfaceFormat
 GetFormat
 (
 )
+const
 {
 return
 mFormat
