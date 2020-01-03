@@ -100,7 +100,7 @@ HTMLDocument
 Document
 {
 [
-Throws
+SetterThrows
 ]
 attribute
 DOMString
