@@ -2937,16 +2937,6 @@ proto
 (
 )
 ;
-TaggedProto
-protoMaybeInNursery
-(
-)
-;
-bool
-hasTenuredProto
-(
-)
-;
 TypeNewScript
 *
 newScript
