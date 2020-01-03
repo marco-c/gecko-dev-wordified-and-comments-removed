@@ -2709,6 +2709,11 @@ io
 talky
 .
 io
+*
+.
+clearslide
+.
+com
 example
 .
 com
@@ -2774,6 +2779,11 @@ io
 talky
 .
 io
+*
+.
+clearslide
+.
+com
 example
 .
 com
