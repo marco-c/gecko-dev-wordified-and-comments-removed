@@ -387,6 +387,15 @@ gfxUserFontEntry
 aUserFontEntry
 )
 ;
+gfxUserFontEntry
+*
+FindUserFontEntryForFontFace
+(
+FontFace
+*
+aFontFace
+)
+;
 IMPL_EVENT_HANDLER
 (
 loading
