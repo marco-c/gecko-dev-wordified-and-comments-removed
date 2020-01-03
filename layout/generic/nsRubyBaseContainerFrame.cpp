@@ -146,11 +146,11 @@ aResult
 endif
 class
 MOZ_STACK_CLASS
-PairEnumerator
+RubyColumnEnumerator
 {
 public
 :
-PairEnumerator
+RubyColumnEnumerator
 (
 nsRubyBaseContainerFrame
 *
@@ -269,10 +269,10 @@ mFrames
 ;
 }
 ;
-PairEnumerator
+RubyColumnEnumerator
 :
 :
-PairEnumerator
+RubyColumnEnumerator
 (
 nsRubyBaseContainerFrame
 *
@@ -358,7 +358,7 @@ rtFrame
 }
 }
 void
-PairEnumerator
+RubyColumnEnumerator
 :
 :
 Next
@@ -415,7 +415,7 @@ GetNextSibling
 }
 }
 bool
-PairEnumerator
+RubyColumnEnumerator
 :
 :
 AtEnd
@@ -464,7 +464,7 @@ true
 ;
 }
 void
-PairEnumerator
+RubyColumnEnumerator
 :
 :
 GetFrames
@@ -615,13 +615,13 @@ max
 }
 static
 nscoord
-CalculatePairPrefISize
+CalculateColumnPrefISize
 (
 nsRenderingContext
 *
 aRenderingContext
 const
-PairEnumerator
+RubyColumnEnumerator
 &
 aEnumerator
 )
@@ -741,7 +741,7 @@ max
 =
 0
 ;
-PairEnumerator
+RubyColumnEnumerator
 enumerator
 (
 this
@@ -773,7 +773,7 @@ std
 max
 (
 max
-CalculatePairPrefISize
+CalculateColumnPrefISize
 (
 aRenderingContext
 enumerator
@@ -812,7 +812,7 @@ sum
 =
 0
 ;
-PairEnumerator
+RubyColumnEnumerator
 enumerator
 (
 this
@@ -839,7 +839,7 @@ Next
 sum
 +
 =
-CalculatePairPrefISize
+CalculateColumnPrefISize
 (
 aRenderingContext
 enumerator
@@ -1756,7 +1756,7 @@ IsEmpty
 ;
 isize
 =
-ReflowPairs
+ReflowColumns
 (
 aPresContext
 allowInternalLineBreak
@@ -2163,7 +2163,7 @@ nscoord
 nsRubyBaseContainerFrame
 :
 :
-ReflowPairs
+ReflowColumns
 (
 nsPresContext
 *
@@ -2228,7 +2228,7 @@ aStatus
 =
 NS_FRAME_COMPLETE
 ;
-mPairCount
+mColumnCount
 =
 0
 ;
@@ -2253,7 +2253,7 @@ SetCapacity
 rtcCount
 )
 ;
-PairEnumerator
+RubyColumnEnumerator
 e
 (
 this
@@ -2288,7 +2288,7 @@ textFrames
 icoord
 +
 =
-ReflowOnePair
+ReflowOneColumn
 (
 aPresContext
 aAllowLineBreak
@@ -2347,7 +2347,7 @@ reflowStatus
 NS_FRAME_COMPLETE
 )
 ;
-PullOnePair
+PullOneColumn
 (
 lineLayout
 pullFrameState
@@ -2367,7 +2367,7 @@ break
 icoord
 +
 =
-ReflowOnePair
+ReflowOneColumn
 (
 aPresContext
 aAllowLineBreak
@@ -2454,7 +2454,7 @@ reflowStatus
 if
 (
 !
-mPairCount
+mColumnCount
 |
 |
 !
@@ -2600,7 +2600,7 @@ nscoord
 nsRubyBaseContainerFrame
 :
 :
-ReflowOnePair
+ReflowOneColumn
 (
 nsPresContext
 *
@@ -2693,7 +2693,7 @@ GetCurrentICoord
 )
 ;
 nscoord
-pairISize
+columnISize
 =
 0
 ;
@@ -2906,14 +2906,14 @@ suppressed
 "
 )
 ;
-pairISize
+columnISize
 =
 std
 :
 :
 max
 (
-pairISize
+columnISize
 metrics
 .
 ISize
@@ -2932,7 +2932,7 @@ aAllowLineBreak
 ShouldBreakBefore
 (
 aReflowState
-pairISize
+columnISize
 )
 )
 {
@@ -3026,14 +3026,14 @@ suppressed
 "
 )
 ;
-pairISize
+columnISize
 =
 std
 :
 :
 max
 (
-pairISize
+columnISize
 metrics
 .
 ISize
@@ -3048,7 +3048,7 @@ icoord
 =
 istart
 +
-pairISize
+columnISize
 ;
 nscoord
 deltaISize
@@ -3194,7 +3194,7 @@ AttachLastFrameToBaseLineLayout
 ;
 }
 }
-mPairCount
+mColumnCount
 +
 +
 ;
@@ -3211,7 +3211,7 @@ mLineLayout
 NotifyOptionalBreakPosition
 (
 this
-mPairCount
+mColumnCount
 icoord
 <
 =
@@ -3236,7 +3236,7 @@ aStatus
 ;
 }
 return
-pairISize
+columnISize
 ;
 }
 nsRubyBaseContainerFrame
@@ -3305,7 +3305,7 @@ void
 nsRubyBaseContainerFrame
 :
 :
-PullOnePair
+PullOneColumn
 (
 nsLineLayout
 *
