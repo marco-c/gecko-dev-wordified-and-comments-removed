@@ -441,9 +441,9 @@ remove
 -
 button
 {
-display
+visibility
 :
-none
+hidden
 ;
 }
 .
