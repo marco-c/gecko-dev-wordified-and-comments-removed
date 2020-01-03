@@ -54,6 +54,7 @@ ImageContainer
 aImageContainer
 )
 ;
+virtual
 ~
 AppleVTDecoder
 (

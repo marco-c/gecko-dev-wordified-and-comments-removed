@@ -234,6 +234,7 @@ ImageContainer
 aImageContainer
 )
 ;
+virtual
 ~
 AppleVDADecoder
 (
