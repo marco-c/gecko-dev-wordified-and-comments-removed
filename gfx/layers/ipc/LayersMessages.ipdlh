@@ -1704,6 +1704,9 @@ texture
 MaybeTexture
 textureOnWhite
 ;
+IntRect
+updateRect
+;
 TileLock
 sharedLock
 ;
@@ -1736,6 +1739,12 @@ TileDescriptor
 [
 ]
 tiles
+;
+int
+firstTileX
+;
+int
+firstTileY
 ;
 int
 retainedWidth
