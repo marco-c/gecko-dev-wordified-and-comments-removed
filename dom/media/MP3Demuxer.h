@@ -749,6 +749,15 @@ DemuxSample
 (
 )
 ;
+media
+:
+:
+TimeUnit
+SeekPosition
+(
+)
+const
+;
 #
 endif
 const
