@@ -69,6 +69,14 @@ gl
 :
 :
 Error
+initialize
+(
+)
+;
+gl
+:
+:
+Error
 copy2D
 (
 gl
@@ -172,6 +180,9 @@ Renderer9
 *
 mRenderer
 ;
+bool
+mGeometryLoaded
+;
 IDirect3DVertexBuffer9
 *
 mQuadVertexBuffer
@@ -179,11 +190,6 @@ mQuadVertexBuffer
 IDirect3DVertexDeclaration9
 *
 mQuadVertexDeclaration
-;
-void
-initGeometry
-(
-)
 ;
 gl
 :

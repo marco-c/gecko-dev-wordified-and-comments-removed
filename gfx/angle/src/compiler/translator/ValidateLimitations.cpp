@@ -395,6 +395,14 @@ return
 "
 ;
 case
+EOpPositive
+:
+return
+"
++
+"
+;
+case
 EOpVectorLogicalNot
 :
 return

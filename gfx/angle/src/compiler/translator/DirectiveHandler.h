@@ -139,6 +139,8 @@ std
 string
 &
 value
+bool
+stdgl
 )
 ;
 virtual

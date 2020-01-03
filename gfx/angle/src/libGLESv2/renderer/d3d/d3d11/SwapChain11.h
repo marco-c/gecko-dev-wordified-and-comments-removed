@@ -244,7 +244,7 @@ mSwapInterval
 bool
 mPassThroughResourcesInit
 ;
-IDXGISwapChain
+DXGISwapChain
 *
 mSwapChain
 ;

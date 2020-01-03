@@ -70,6 +70,10 @@ getInfoSink
 .
 obj
 ;
+writePragma
+(
+)
+;
 writeExtensionBehavior
 (
 )

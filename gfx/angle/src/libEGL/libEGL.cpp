@@ -492,6 +492,13 @@ EGLNativeDisplayType
 native_display
 )
 ;
+#
+if
+!
+defined
+(
+ANGLE_ENABLE_WINDOWS_STORE
+)
 if
 (
 WindowFromDC
@@ -513,6 +520,8 @@ EGL_NO_DISPLAY
 )
 ;
 }
+#
+endif
 EGLint
 requestedDisplayType
 =

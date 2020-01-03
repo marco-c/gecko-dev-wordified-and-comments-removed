@@ -22,6 +22,11 @@ Buffer
 .
 h
 "
+#
+include
+<
+cstdint
+>
 namespace
 rx
 {
@@ -52,15 +57,6 @@ size_t
 size
 GLenum
 usage
-)
-=
-0
-;
-virtual
-void
-*
-getData
-(
 )
 =
 0

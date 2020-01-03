@@ -253,7 +253,7 @@ renderer
 )
 ;
 __eglMustCastToProperFunctionPointerType
-__stdcall
+EGLAPIENTRY
 glGetProcAddress
 (
 const
@@ -263,7 +263,7 @@ procname
 )
 ;
 bool
-__stdcall
+EGLAPIENTRY
 glBindTexImage
 (
 egl

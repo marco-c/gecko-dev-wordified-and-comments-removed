@@ -253,7 +253,10 @@ input
 =
 0
 ;
-void
+gl
+:
+:
+Error
 copy
 (
 GLint
@@ -278,7 +281,10 @@ source
 )
 ;
 virtual
-void
+gl
+:
+:
+Error
 copy
 (
 GLint
@@ -302,7 +308,10 @@ source
 0
 ;
 virtual
-void
+gl
+:
+:
+Error
 copy
 (
 GLint
