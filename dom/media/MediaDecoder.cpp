@@ -6527,7 +6527,7 @@ now
 TimeStamp
 :
 :
-Now
+NowLoRes
 (
 )
 ;
