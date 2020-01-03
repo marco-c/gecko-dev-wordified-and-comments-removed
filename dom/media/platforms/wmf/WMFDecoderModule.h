@@ -162,16 +162,6 @@ GetNumDecoderThreads
 private
 :
 bool
-ShouldUseDXVA
-(
-const
-VideoInfo
-&
-aConfig
-)
-const
-;
-bool
 mWMFInitialized
 ;
 }
