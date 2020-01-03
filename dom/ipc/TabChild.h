@@ -1785,6 +1785,13 @@ aOffline
 override
 ;
 virtual
+bool
+RecvSwappedWithOtherRemoteLoader
+(
+)
+override
+;
+virtual
 PDocumentRendererChild
 *
 AllocPDocumentRendererChild
