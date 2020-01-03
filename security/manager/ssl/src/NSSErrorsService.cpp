@@ -601,6 +601,15 @@ mozilla
 pkix
 :
 :
+MOZILLA_PKIX_ERROR_INADEQUATE_KEY_SIZE
+:
+case
+mozilla
+:
+:
+pkix
+:
+:
 MOZILLA_PKIX_ERROR_V1_CERT_USED_AS_CA
 :
 *
