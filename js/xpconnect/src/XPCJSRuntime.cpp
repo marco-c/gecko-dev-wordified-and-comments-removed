@@ -5642,6 +5642,12 @@ execution
 "
 )
 ;
+aes
+.
+TakeOwnershipOfErrorReporting
+(
+)
+;
 return
 closure
 (
