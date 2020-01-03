@@ -235,6 +235,13 @@ NotifyInputsChanged
 {
 }
 virtual
+void
+NotifyHasPhantomInput
+(
+)
+{
+}
+virtual
 uint16_t
 NumberOfInputs
 (

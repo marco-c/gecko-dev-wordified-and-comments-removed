@@ -813,6 +813,13 @@ RemoveElementAt
 inputIndex
 )
 ;
+output
+-
+>
+NotifyHasPhantomInput
+(
+)
+;
 }
 while
 (
