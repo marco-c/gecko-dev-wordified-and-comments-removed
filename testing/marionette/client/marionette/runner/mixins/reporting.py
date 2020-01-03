@@ -14,6 +14,14 @@ import
 sys
 import
 time
+from
+mozlog
+.
+structured
+.
+structuredlog
+import
+get_default_logger
 import
 mozversion
 from
@@ -2348,7 +2356,7 @@ self
 .
 marionette
 .
-switch_context
+set_context
 (
 self
 .
@@ -2376,7 +2384,7 @@ self
 .
 marionette
 .
-switch_context
+set_context
 (
 self
 .
@@ -2518,7 +2526,29 @@ separators
 except
 :
             
-pass
+logger
+=
+get_default_logger
+(
+)
+            
+logger
+.
+warning
+(
+'
+Failed
+to
+gather
+test
+failure
+debug
+.
+'
+exc_info
+=
+True
+)
         
 return
 debug
