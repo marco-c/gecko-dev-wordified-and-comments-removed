@@ -889,6 +889,11 @@ JSOP_FINALYIELDRVAL
 \
 _
 (
+JSOP_RESUME
+)
+\
+_
+(
 JSOP_CALLEE
 )
 \
