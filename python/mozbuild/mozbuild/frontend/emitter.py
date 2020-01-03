@@ -3372,10 +3372,6 @@ DISABLE_STL_WRAPPING
 '
             
 '
-EXTRA_ASSEMBLER_FLAGS
-'
-            
-'
 EXTRA_COMPONENTS
 '
             

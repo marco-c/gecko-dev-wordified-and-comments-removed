@@ -338,17 +338,6 @@ return
 dict
 (
 VARIABLES
-        
-EXTRA_ASSEMBLER_FLAGS
-=
-(
-List
-list
-'
-'
-None
-)
-    
 )
 def
 encode
@@ -1239,7 +1228,7 @@ include
 context
 [
 '
-EXTRA_ASSEMBLER_FLAGS
+ASFLAGS
 '
 ]
 =
