@@ -7663,6 +7663,14 @@ LockCurrentImage
 (
 )
 ;
+if
+(
+!
+srcImage
+)
+return
+false
+;
 WebGLTexture
 *
 tex
