@@ -1304,6 +1304,14 @@ ins
 )
 ;
 bool
+visitTypedObjectUnsizedLength
+(
+MTypedObjectUnsizedLength
+*
+ins
+)
+;
+bool
 visitInitializedLength
 (
 MInitializedLength

@@ -36,7 +36,6 @@ ArrayType
 T
 .
 uint32
-100
 )
 ;
 function
@@ -49,6 +48,7 @@ AT
 .
 build
 (
+100
 x
 =
 >

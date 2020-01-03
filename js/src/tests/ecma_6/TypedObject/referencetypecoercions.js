@@ -220,6 +220,10 @@ new
 ArrayType
 (
 type
+)
+.
+dimension
+(
 1
 )
 ;
