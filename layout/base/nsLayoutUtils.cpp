@@ -16613,7 +16613,7 @@ AppUnitsPerDevPixel
 )
 ;
 const
-nsRegion
+nsIntRegion
 &
 draggingRegion
 =
@@ -16629,16 +16629,6 @@ widget
 UpdateWindowDraggingRegion
 (
 draggingRegion
-.
-ToNearestPixels
-(
-presContext
--
->
-AppUnitsPerDevPixel
-(
-)
-)
 )
 ;
 }
