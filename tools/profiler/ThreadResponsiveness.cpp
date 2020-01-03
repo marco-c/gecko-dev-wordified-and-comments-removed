@@ -324,8 +324,6 @@ Update
 (
 )
 {
-return
-;
 if
 (
 !
