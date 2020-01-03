@@ -315,16 +315,11 @@ unused
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 gCspPRLog
 ;
-#
-endif
 using
 namespace
 mozilla
@@ -478,9 +473,6 @@ mBlockingDOMContentLoaded
 false
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -495,8 +487,6 @@ CSP
 "
 )
 ;
-#
-endif
 }
 nsScriptLoader
 :

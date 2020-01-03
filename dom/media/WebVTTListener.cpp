@@ -116,9 +116,6 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 WebVTTListener
 )
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gTextTrackLog
@@ -139,16 +136,6 @@ PR_LOG_DEBUG
 __VA_ARGS__
 )
 )
-#
-else
-#
-define
-VTT_LOG
-(
-msg
-)
-#
-endif
 WebVTTListener
 :
 :
@@ -178,9 +165,6 @@ callback
 "
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -197,8 +181,6 @@ TextTrack
 )
 ;
 }
-#
-endif
 VTT_LOG
 (
 "

@@ -265,9 +265,6 @@ nsVideoFrame
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -286,17 +283,6 @@ gTrackElementLog
 type
 msg
 )
-#
-else
-#
-define
-LOG
-(
-type
-msg
-)
-#
-endif
 nsGenericHTMLElement
 *
 NS_NewHTMLTrackElement
@@ -502,9 +488,6 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -521,8 +504,6 @@ nsTrackElement
 )
 ;
 }
-#
-endif
 }
 HTMLTrackElement
 :

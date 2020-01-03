@@ -72,9 +72,6 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 GetAppleMediaLog
@@ -108,8 +105,6 @@ return
 log
 ;
 }
-#
-endif
 namespace
 mozilla
 {

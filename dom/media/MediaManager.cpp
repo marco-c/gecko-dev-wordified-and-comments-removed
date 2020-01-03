@@ -562,9 +562,6 @@ undef
 LOG
 #
 endif
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 GetMediaManagerLog
@@ -608,16 +605,6 @@ GetMediaManagerLog
 PR_LOG_DEBUG
 msg
 )
-#
-else
-#
-define
-LOG
-(
-msg
-)
-#
-endif
 using
 dom
 :

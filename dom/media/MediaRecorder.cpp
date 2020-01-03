@@ -186,9 +186,6 @@ undef
 LOG
 #
 endif
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gMediaRecorderLog
@@ -206,17 +203,6 @@ gMediaRecorderLog
 type
 msg
 )
-#
-else
-#
-define
-LOG
-(
-type
-msg
-)
-#
-endif
 namespace
 mozilla
 {
@@ -3255,9 +3241,6 @@ mDOMStream
 &
 aSourceMediaStream
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -3274,8 +3257,6 @@ MediaRecorder
 )
 ;
 }
-#
-endif
 RegisterActivityObserver
 (
 )
@@ -3405,9 +3386,6 @@ mAudioNode
 &
 aSrcAudioNode
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -3424,8 +3402,6 @@ MediaRecorder
 )
 ;
 }
-#
-endif
 RegisterActivityObserver
 (
 )

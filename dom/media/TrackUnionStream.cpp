@@ -216,9 +216,6 @@ undef
 STREAM_LOG
 #
 endif
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gTrackUnionStreamLog
@@ -236,17 +233,6 @@ gTrackUnionStreamLog
 type
 msg
 )
-#
-else
-#
-define
-STREAM_LOG
-(
-type
-msg
-)
-#
-endif
 TrackUnionStream
 :
 :
@@ -262,9 +248,6 @@ ProcessedMediaStream
 aWrapper
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -281,8 +264,6 @@ TrackUnionStream
 )
 ;
 }
-#
-endif
 }
 void
 TrackUnionStream

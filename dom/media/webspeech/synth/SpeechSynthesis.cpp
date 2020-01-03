@@ -69,9 +69,6 @@ h
 #
 undef
 LOG
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 GetSpeechSynthLog
@@ -120,17 +117,6 @@ GetSpeechSynthLog
 type
 msg
 )
-#
-else
-#
-define
-LOG
-(
-type
-msg
-)
-#
-endif
 namespace
 mozilla
 {

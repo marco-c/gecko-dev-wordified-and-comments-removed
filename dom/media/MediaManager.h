@@ -237,9 +237,6 @@ struct
 MediaTrackConstraintSet
 ;
 }
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -261,16 +258,6 @@ GetMediaManagerLog
 PR_LOG_DEBUG
 msg
 )
-#
-else
-#
-define
-MM_LOG
-(
-msg
-)
-#
-endif
 class
 GetUserMediaCallbackMediaStreamListener
 :

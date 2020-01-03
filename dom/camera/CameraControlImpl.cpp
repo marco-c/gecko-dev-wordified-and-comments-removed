@@ -396,9 +396,6 @@ mHardwareState
 return
 ;
 }
-#
-ifdef
-PR_LOGGING
 const
 char
 *
@@ -503,8 +500,6 @@ aNewState
 )
 ;
 }
-#
-endif
 mHardwareState
 =
 aNewState
@@ -1033,9 +1028,6 @@ mPreviewState
 return
 ;
 }
-#
-ifdef
-PR_LOGGING
 const
 char
 *
@@ -1129,8 +1121,6 @@ aNewState
 )
 ;
 }
-#
-endif
 mPreviewState
 =
 aNewState
@@ -1366,9 +1356,6 @@ lock
 mListenerLock
 )
 ;
-#
-ifdef
-PR_LOGGING
 const
 char
 *
@@ -1510,8 +1497,6 @@ aError
 )
 ;
 }
-#
-endif
 for
 (
 uint32_t
@@ -1573,9 +1558,6 @@ lock
 mListenerLock
 )
 ;
-#
-ifdef
-PR_LOGGING
 const
 char
 *
@@ -1676,8 +1658,6 @@ aError
 )
 ;
 }
-#
-endif
 for
 (
 uint32_t

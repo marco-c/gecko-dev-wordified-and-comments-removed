@@ -230,9 +230,6 @@ gfx
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gMediaStreamGraphLog
@@ -250,17 +247,6 @@ gMediaStreamGraphLog
 type
 msg
 )
-#
-else
-#
-define
-STREAM_LOG
-(
-type
-msg
-)
-#
-endif
 #
 ifdef
 ENABLE_LIFECYCLE_LOG
@@ -14868,9 +14854,6 @@ aChannel
 )
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -14887,8 +14870,6 @@ MediaStreamGraph
 )
 ;
 }
-#
-endif
 if
 (
 mRealtime

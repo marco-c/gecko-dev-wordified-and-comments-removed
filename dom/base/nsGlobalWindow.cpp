@@ -1575,16 +1575,11 @@ h
 >
 #
 endif
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 gDOMLeakPRLog
 ;
-#
-endif
 #
 ifdef
 XP_WIN
@@ -6354,9 +6349,6 @@ aOuterWindow
 }
 #
 endif
-#
-ifdef
-PR_LOGGING
 if
 (
 gDOMLeakPRLog
@@ -6381,8 +6373,6 @@ aOuterWindow
 )
 )
 ;
-#
-endif
 NS_ASSERTION
 (
 sWindowsById
@@ -6492,9 +6482,6 @@ initialized
 "
 )
 ;
-#
-ifdef
-PR_LOGGING
 gDOMLeakPRLog
 =
 PR_NewLogModule
@@ -6517,8 +6504,6 @@ initialized
 "
 )
 ;
-#
-endif
 sWindowsById
 =
 new
@@ -6782,9 +6767,6 @@ get
 }
 #
 endif
-#
-ifdef
-PR_LOGGING
 if
 (
 gDOMLeakPRLog
@@ -6804,8 +6786,6 @@ this
 )
 )
 ;
-#
-endif
 if
 (
 IsOuterWindow
@@ -12858,9 +12838,6 @@ MOZ_ASSERT
 aDocument
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 gDOMLeakPRLog
@@ -12918,8 +12895,6 @@ get
 )
 ;
 }
-#
-endif
 mDoc
 =
 aDocument
@@ -44540,9 +44515,6 @@ if
 mSessionStorage
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -44572,8 +44544,6 @@ get
 )
 ;
 }
-#
-endif
 bool
 canAccess
 =
@@ -44789,9 +44759,6 @@ MOZ_ASSERT
 mSessionStorage
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -44825,8 +44792,6 @@ get
 )
 ;
 }
-#
-endif
 if
 (
 !
@@ -44845,9 +44810,6 @@ nullptr
 ;
 }
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -44877,8 +44839,6 @@ get
 )
 ;
 }
-#
-endif
 return
 mSessionStorage
 ;
@@ -49147,9 +49107,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -49189,8 +49146,6 @@ get
 )
 ;
 }
-#
-endif
 fireMozStorageChanged
 =
 mSessionStorage

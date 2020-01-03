@@ -21,9 +21,6 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -31,8 +28,6 @@ GetDataChannelLog
 (
 )
 ;
-#
-endif
 #
 undef
 LOG

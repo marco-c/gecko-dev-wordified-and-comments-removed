@@ -111,9 +111,6 @@ h
 #
 undef
 LOG
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -136,17 +133,6 @@ GetSpeechSynthLog
 type
 msg
 )
-#
-else
-#
-define
-LOG
-(
-type
-msg
-)
-#
-endif
 namespace
 {
 void

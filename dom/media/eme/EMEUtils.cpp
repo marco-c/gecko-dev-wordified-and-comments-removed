@@ -10,9 +10,6 @@ h
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 GetEMELog
@@ -79,8 +76,6 @@ return
 log
 ;
 }
-#
-endif
 static
 bool
 ContainsOnlyDigits

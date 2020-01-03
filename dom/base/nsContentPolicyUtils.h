@@ -164,9 +164,6 @@ name
 return
 #
 name
-#
-ifdef
-PR_LOGGING
 inline
 const
 char
@@ -351,8 +348,6 @@ Type
 ;
 }
 }
-#
-endif
 #
 undef
 CASE_RETURN

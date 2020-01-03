@@ -161,9 +161,6 @@ Unlock
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 static
 void
 TestCap
@@ -287,8 +284,6 @@ return
 capsStr
 ;
 }
-#
-endif
 void
 CDMCaps
 :

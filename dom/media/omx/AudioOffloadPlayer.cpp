@@ -174,9 +174,6 @@ android
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gAudioOffloadPlayerLog
@@ -195,17 +192,6 @@ gAudioOffloadPlayerLog
 type
 msg
 )
-#
-else
-#
-define
-AUDIO_OFFLOAD_LOG
-(
-type
-msg
-)
-#
-endif
 static
 const
 uint64_t
@@ -268,9 +254,6 @@ NS_IsMainThread
 )
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -287,8 +270,6 @@ AudioOffloadPlayer
 )
 ;
 }
-#
-endif
 CHECK
 (
 aObserver

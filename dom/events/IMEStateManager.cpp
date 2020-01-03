@@ -222,9 +222,6 @@ using
 namespace
 widget
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 sISMLog
@@ -706,8 +703,6 @@ message
 ;
 }
 }
-#
-endif
 nsIContent
 *
 IMEStateManager
@@ -776,9 +771,6 @@ Init
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -795,8 +787,6 @@ IMEStateManager
 )
 ;
 }
-#
-endif
 }
 void
 IMEStateManager
@@ -974,13 +964,6 @@ RemoveElementAt
 i
 )
 ;
-#
-if
-defined
-DEBUG
-|
-|
-PR_LOGGING
 if
 (
 sTextCompositions
@@ -1041,8 +1024,6 @@ array
 )
 ;
 }
-#
-endif
 }
 }
 if
@@ -2421,9 +2402,6 @@ aPresContext
 internalEvent
 )
 ;
-#
-ifdef
-PR_LOGGING
 nsAutoString
 eventType
 ;
@@ -2492,8 +2470,6 @@ consumed
 )
 )
 ;
-#
-endif
 return
 consumed
 ;

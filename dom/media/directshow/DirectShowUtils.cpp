@@ -80,12 +80,6 @@ get
 namespace
 mozilla
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 struct
 GuidToName
 {
@@ -239,8 +233,6 @@ Unknown
 "
 ;
 }
-#
-endif
 void
 RemoveGraphFromRunningObjectTable
 (

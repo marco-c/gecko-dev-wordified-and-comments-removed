@@ -137,9 +137,6 @@ undef
 LOG
 #
 endif
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gMediaEncoderLog
@@ -157,17 +154,6 @@ gMediaEncoderLog
 type
 msg
 )
-#
-else
-#
-define
-LOG
-(
-type
-msg
-)
-#
-endif
 namespace
 mozilla
 {
@@ -335,9 +321,6 @@ uint8_t
 aTrackTypes
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -354,8 +337,6 @@ MediaEncoder
 )
 ;
 }
-#
-endif
 PROFILER_LABEL
 (
 "

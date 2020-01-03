@@ -22,16 +22,11 @@ h
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gMediaDecoderLog
 ;
-#
-endif
 NS_IMPL_ISUPPORTS0
 (
 BufferDecoder
@@ -69,9 +64,6 @@ MOZ_COUNT_CTOR
 BufferDecoder
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -88,8 +80,6 @@ MediaDecoder
 )
 ;
 }
-#
-endif
 }
 BufferDecoder
 :

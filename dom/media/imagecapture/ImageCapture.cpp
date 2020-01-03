@@ -106,9 +106,6 @@ h
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 GetICLog
@@ -142,8 +139,6 @@ return
 log
 ;
 }
-#
-endif
 namespace
 dom
 {

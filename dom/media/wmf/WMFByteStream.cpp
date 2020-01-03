@@ -113,9 +113,6 @@ cassert
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gWMFByteStreamLog
@@ -138,18 +135,6 @@ PR_LOG_DEBUG
 __VA_ARGS__
 )
 )
-#
-else
-#
-define
-WMF_BS_LOG
-(
-.
-.
-.
-)
-#
-endif
 WMFByteStream
 :
 :
@@ -217,9 +202,6 @@ callback
 "
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -236,8 +218,6 @@ WMFByteStream
 )
 ;
 }
-#
-endif
 WMF_BS_LOG
 (
 "

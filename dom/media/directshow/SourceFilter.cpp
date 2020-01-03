@@ -61,12 +61,6 @@ mozilla
 if
 defined
 (
-PR_LOGGING
-)
-&
-&
-defined
-(
 DEBUG_SOURCE_TRACE
 )
 PRLogModuleInfo

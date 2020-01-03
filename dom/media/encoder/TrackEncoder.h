@@ -209,17 +209,12 @@ mEndOfStream
 bool
 mCanceled
 ;
-#
-ifdef
-PR_LOGGING
 uint32_t
 mAudioInitCounter
 ;
 uint32_t
 mVideoInitCounter
 ;
-#
-endif
 }
 ;
 class

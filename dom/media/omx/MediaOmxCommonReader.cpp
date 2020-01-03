@@ -74,9 +74,6 @@ android
 namespace
 mozilla
 {
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -95,17 +92,6 @@ gMediaDecoderLog
 type
 msg
 )
-#
-else
-#
-define
-DECODER_LOG
-(
-type
-msg
-)
-#
-endif
 MediaOmxCommonReader
 :
 :
@@ -121,9 +107,6 @@ MediaDecoderReader
 aDecoder
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -140,8 +123,6 @@ MediaDecoder
 )
 ;
 }
-#
-endif
 mAudioChannel
 =
 dom

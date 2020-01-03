@@ -563,9 +563,6 @@ Update
 keyStatuses
 )
 ;
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 message
 (
@@ -716,8 +713,6 @@ get
 )
 )
 ;
-#
-endif
 }
 MediaKeyStatusMap
 *
@@ -911,9 +906,6 @@ forget
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 base64InitData
 ;
@@ -966,8 +958,6 @@ logging
 )
 ;
 }
-#
-endif
 PromiseId
 pid
 =
@@ -1433,9 +1423,6 @@ forget
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 base64Response
 ;
@@ -1488,8 +1475,6 @@ logging
 )
 ;
 }
-#
-endif
 PromiseId
 pid
 =
@@ -2094,9 +2079,6 @@ uint8_t
 aMessage
 )
 {
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 base64MsgData
 ;
@@ -2206,8 +2188,6 @@ get
 )
 )
 ;
-#
-endif
 nsRefPtr
 <
 MediaKeyMessageEvent

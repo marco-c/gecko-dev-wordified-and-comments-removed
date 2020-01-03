@@ -175,16 +175,11 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 gNodeInfoManagerLeakPRLog
 ;
-#
-endif
 PLHashNumber
 nsNodeInfoManager
 :
@@ -624,9 +619,6 @@ AddRef
 (
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -660,8 +652,6 @@ this
 )
 )
 ;
-#
-endif
 mNodeInfoHash
 =
 PL_NewHashTable
@@ -701,9 +691,6 @@ mBindingManager
 =
 nullptr
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 gNodeInfoManagerLeakPRLog
@@ -723,8 +710,6 @@ this
 )
 )
 ;
-#
-endif
 nsLayoutStatics
 :
 :
@@ -932,9 +917,6 @@ mDocument
 =
 aDocument
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 gNodeInfoManagerLeakPRLog
@@ -959,8 +941,6 @@ aDocument
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;
