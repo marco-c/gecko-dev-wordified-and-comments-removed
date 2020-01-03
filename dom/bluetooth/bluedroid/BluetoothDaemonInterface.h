@@ -48,6 +48,9 @@ CleanupResultHandler
 class
 InitResultHandler
 ;
+class
+StartDaemonTask
+;
 friend
 class
 BluetoothDaemonListenSocket
@@ -63,6 +66,10 @@ CleanupResultHandler
 friend
 class
 InitResultHandler
+;
+friend
+class
+StartDaemonTask
 ;
 static
 BluetoothDaemonInterface
