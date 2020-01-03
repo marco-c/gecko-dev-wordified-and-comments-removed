@@ -1839,7 +1839,7 @@ false
 ;
 }
 inline
-void
+bool
 MaybeSnapToDevicePixels
 (
 Rect
@@ -1889,7 +1889,13 @@ TransformBounds
 aRect
 )
 ;
+return
+true
+;
 }
+return
+false
+;
 }
 }
 }
