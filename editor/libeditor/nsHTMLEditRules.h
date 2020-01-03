@@ -2352,9 +2352,12 @@ aNode
 bool
 ListIsEmptyLine
 (
-nsCOMArray
+nsTArray
 <
-nsIDOMNode
+nsCOMPtr
+<
+nsINode
+>
 >
 &
 arrayOfNodes
