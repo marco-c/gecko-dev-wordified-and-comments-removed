@@ -4690,7 +4690,7 @@ if
 (
 addon
 .
-gmPlugin
+isGMPlugin
 )
 {
 data
