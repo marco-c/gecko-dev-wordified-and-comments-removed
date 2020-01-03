@@ -3906,7 +3906,7 @@ js
 GCMarker
 :
 :
-traverse
+traverseEdge
 (
 S
 source
@@ -3969,7 +3969,7 @@ void
 GCMarker
 :
 :
-traverse
+traverseEdge
 (
 JSObject
 *
@@ -4012,7 +4012,7 @@ typename
 S
 >
 struct
-TraverseFunctor
+TraverseEdgeFunctor
 :
 public
 VoidDefaultAdaptor
@@ -4043,7 +4043,7 @@ return
 gcmarker
 -
 >
-traverse
+traverseEdge
 (
 s
 t
@@ -4064,7 +4064,7 @@ js
 GCMarker
 :
 :
-traverse
+traverseEdge
 (
 S
 source
@@ -4074,7 +4074,7 @@ id
 {
 DispatchIdTyped
 (
-TraverseFunctor
+TraverseEdgeFunctor
 <
 jsid
 S
@@ -4099,7 +4099,7 @@ js
 GCMarker
 :
 :
-traverse
+traverseEdge
 (
 S
 source
@@ -4109,7 +4109,7 @@ v
 {
 DispatchValueTyped
 (
-TraverseFunctor
+TraverseEdgeFunctor
 <
 Value
 S
@@ -4382,7 +4382,7 @@ thing
 >
 function_
 )
-traverse
+traverseEdge
 (
 thing
 static_cast
@@ -4405,7 +4405,7 @@ thing
 >
 sourceObject_
 )
-traverse
+traverseEdge
 (
 thing
 static_cast
@@ -4428,7 +4428,7 @@ thing
 >
 enclosingScope_
 )
-traverse
+traverseEdge
 (
 thing
 static_cast
@@ -4473,7 +4473,7 @@ numFreeVariables
 )
 )
 )
-traverse
+traverseEdge
 (
 thing
 static_cast
@@ -4519,7 +4519,7 @@ numInnerFunctions
 )
 )
 )
-traverse
+traverseEdge
 (
 thing
 static_cast
@@ -4657,7 +4657,7 @@ markColor
 ;
 do
 {
-traverse
+traverseEdge
 (
 shape
 shape
@@ -4668,7 +4668,7 @@ base
 )
 )
 ;
-traverse
+traverseEdge
 (
 shape
 shape
@@ -4705,7 +4705,7 @@ isTenured
 (
 )
 )
-traverse
+traverseEdge
 (
 shape
 shape
@@ -4738,7 +4738,7 @@ isTenured
 (
 )
 )
-traverse
+traverseEdge
 (
 shape
 shape
@@ -5645,7 +5645,7 @@ getProperty
 i
 )
 )
-traverse
+traverseEdge
 (
 group
 prop
@@ -5672,7 +5672,7 @@ isObject
 (
 )
 )
-traverse
+traverseEdge
 (
 group
 group
@@ -5717,7 +5717,7 @@ unsafeUnbarrieredMaybeGlobal
 (
 )
 )
-traverse
+traverseEdge
 (
 group
 static_cast
@@ -5808,7 +5808,7 @@ maybeOriginalUnboxedGroup
 (
 )
 )
-traverse
+traverseEdge
 (
 group
 unboxedGroup
@@ -5827,7 +5827,7 @@ maybeTypeDescr
 (
 )
 )
-traverse
+traverseEdge
 (
 group
 static_cast
@@ -5853,7 +5853,7 @@ maybeInterpretedFunction
 (
 )
 )
-traverse
+traverseEdge
 (
 group
 static_cast
@@ -6398,7 +6398,7 @@ isString
 )
 )
 {
-traverse
+traverseEdge
 (
 obj
 v
@@ -6482,7 +6482,7 @@ isSymbol
 )
 )
 {
-traverse
+traverseEdge
 (
 obj
 v
@@ -6527,7 +6527,7 @@ unboxedMemory
 unboxedTraceList
 )
 ;
-traverse
+traverseEdge
 (
 obj
 str
@@ -6574,7 +6574,7 @@ if
 (
 obj2
 )
-traverse
+traverseEdge
 (
 obj
 obj2
@@ -6617,7 +6617,7 @@ unboxedMemory
 unboxedTraceList
 )
 ;
-traverse
+traverseEdge
 (
 obj
 v
@@ -6673,7 +6673,7 @@ groupFromGC
 (
 )
 ;
-traverse
+traverseEdge
 (
 obj
 group
@@ -6780,7 +6780,7 @@ shapeFromGC
 (
 )
 ;
-traverse
+traverseEdge
 (
 obj
 shape
@@ -6880,7 +6880,7 @@ if
 (
 expando
 )
-traverse
+traverseEdge
 (
 obj
 expando
@@ -6988,7 +6988,7 @@ lastProperty
 (
 )
 ;
-traverse
+traverseEdge
 (
 obj
 shape
@@ -7051,7 +7051,7 @@ owner
 nobj
 )
 {
-traverse
+traverseEdge
 (
 obj
 owner
