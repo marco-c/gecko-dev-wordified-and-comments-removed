@@ -670,6 +670,17 @@ debugAddon
 label
 ;
 "
+accesskey
+=
+"
+&
+cmd
+.
+debugAddon
+.
+accesskey
+;
+"
 /
 >
 <
