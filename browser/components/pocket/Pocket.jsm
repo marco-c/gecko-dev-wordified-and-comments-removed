@@ -149,6 +149,14 @@ https
 Pocket
 .
 site
++
+"
+/
+?
+src
+=
+ff_ext
+"
 ;
 }
 onPanelViewShowing
