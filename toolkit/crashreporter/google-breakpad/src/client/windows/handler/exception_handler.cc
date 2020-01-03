@@ -1,7 +1,7 @@
 #
 include
 <
-ObjBase
+objbase
 .
 h
 >

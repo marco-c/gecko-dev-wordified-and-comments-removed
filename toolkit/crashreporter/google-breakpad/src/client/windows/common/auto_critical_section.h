@@ -7,7 +7,7 @@ CLIENT_WINDOWS_COMMON_AUTO_CRITICAL_SECTION_H__
 #
 include
 <
-Windows
+windows
 .
 h
 >

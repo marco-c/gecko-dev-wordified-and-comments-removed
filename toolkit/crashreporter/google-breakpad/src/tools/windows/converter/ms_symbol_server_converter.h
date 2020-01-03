@@ -7,7 +7,7 @@ MS_SYMBOL_SERVER_CONVERTER_H__
 #
 include
 <
-Windows
+windows
 .
 h
 >

@@ -7,7 +7,7 @@ COMMON_WINDOWS_GUID_STRING_H__
 #
 include
 <
-Guiddef
+guiddef
 .
 h
 >

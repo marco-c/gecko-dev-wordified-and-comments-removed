@@ -10609,9 +10609,16 @@ path
 ;
 memoryReportPath
 =
+reinterpret_cast
+<
+wchar_t
+*
+>
+(
 ToNewUnicode
 (
 path
+)
 )
 ;
 #

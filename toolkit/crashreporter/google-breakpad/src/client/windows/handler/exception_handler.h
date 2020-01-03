@@ -14,14 +14,14 @@ h
 #
 include
 <
-Windows
+windows
 .
 h
 >
 #
 include
 <
-DbgHelp
+dbghelp
 .
 h
 >
