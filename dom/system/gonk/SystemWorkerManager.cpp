@@ -502,7 +502,7 @@ ShutdownAutoMounter
 #
 ifdef
 MOZ_B2G_RIL
-RilWorker
+RilConsumer
 :
 :
 Shutdown
@@ -849,7 +849,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-RilWorker
+RilConsumer
 :
 :
 Register
