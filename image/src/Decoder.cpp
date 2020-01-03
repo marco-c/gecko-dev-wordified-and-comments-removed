@@ -126,7 +126,7 @@ mChunkCount
 (
 0
 )
-mDecodeFlags
+mFlags
 (
 0
 )
@@ -1436,7 +1436,9 @@ targetSize
 mNewFrameData
 .
 mFrameRect
-mDecodeFlags
+GetDecodeFlags
+(
+)
 mNewFrameData
 .
 mFormat
