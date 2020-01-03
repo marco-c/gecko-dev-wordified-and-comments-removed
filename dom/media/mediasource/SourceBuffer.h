@@ -463,6 +463,10 @@ friend
 class
 AppendDataRunnable
 ;
+friend
+class
+RangeRemovalRunnable
+;
 void
 DispatchSimpleEvent
 (
