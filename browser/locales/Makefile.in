@@ -674,7 +674,7 @@ or
 wildcard
 (
 call
-MERGE_FILE
+EN_US_OR_L10N_FILE
 searchplugins
 /
 (
