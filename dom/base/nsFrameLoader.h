@@ -729,6 +729,11 @@ EnsureMessageManager
 (
 )
 ;
+nsresult
+ReallyLoadFrameScripts
+(
+)
+;
 void
 UpdateBaseWindowPositionAndSize
 (
