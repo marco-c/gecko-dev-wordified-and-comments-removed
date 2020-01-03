@@ -639,13 +639,6 @@ BINPATH
 /
 components
 /
-compartments
-.
-xpt
-BINPATH
-/
-components
-/
 composer
 .
 xpt
@@ -1500,6 +1493,13 @@ BINPATH
 components
 /
 toolkit_osfile
+.
+xpt
+BINPATH
+/
+components
+/
+toolkit_perfmonitoring
 .
 xpt
 BINPATH

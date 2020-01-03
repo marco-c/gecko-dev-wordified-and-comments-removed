@@ -264,6 +264,11 @@ PageMetadata
 jsm
 '
 '
+PerformanceStats
+.
+jsm
+'
+'
 PermissionsUtils
 .
 jsm

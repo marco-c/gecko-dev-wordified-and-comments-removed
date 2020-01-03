@@ -130,10 +130,10 @@ DIRS
 aboutcache
 '
 '
-aboutcompartments
-'
-'
 aboutmemory
+'
+'
+aboutperformance
 '
 '
 addoncompat

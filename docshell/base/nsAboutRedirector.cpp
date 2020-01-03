@@ -342,7 +342,7 @@ ALLOW_SCRIPT
 }
 {
 "
-compartments
+performance
 "
 "
 chrome
@@ -353,7 +353,7 @@ global
 /
 content
 /
-aboutCompartments
+aboutPerformance
 .
 xhtml
 "

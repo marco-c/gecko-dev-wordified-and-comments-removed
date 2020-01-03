@@ -921,13 +921,6 @@ RESPATH
 /
 components
 /
-compartments
-.
-xpt
-RESPATH
-/
-components
-/
 composer
 .
 xpt
@@ -1864,6 +1857,13 @@ RESPATH
 components
 /
 toolkit_osfile
+.
+xpt
+RESPATH
+/
+components
+/
+toolkit_perfmonitoring
 .
 xpt
 RESPATH
