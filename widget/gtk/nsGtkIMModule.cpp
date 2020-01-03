@@ -3186,7 +3186,9 @@ mOffset
 =
 %
 u
-mLength
+Length
+(
+)
 =
 %
 u
@@ -3229,7 +3231,9 @@ selectionChangeData
 mOffset
 selectionChangeData
 .
-mLength
+Length
+(
+)
 GetBoolName
 (
 selectionChangeData
@@ -8297,7 +8301,9 @@ aIMENotification
 .
 mSelectionChangeData
 .
-mLength
+Length
+(
+)
 ;
 mWritingMode
 =
