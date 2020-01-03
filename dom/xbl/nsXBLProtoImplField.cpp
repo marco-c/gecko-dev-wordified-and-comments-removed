@@ -1823,9 +1823,6 @@ return
 NS_OK
 ;
 }
-nsAutoMicroTask
-mt
-;
 nsAutoCString
 uriSpec
 ;
