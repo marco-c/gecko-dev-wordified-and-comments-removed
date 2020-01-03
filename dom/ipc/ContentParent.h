@@ -1625,6 +1625,11 @@ ShutDownMessageManager
 (
 )
 ;
+void
+StartForceKillTimer
+(
+)
+;
 static
 void
 ForceKillTimerCallback
