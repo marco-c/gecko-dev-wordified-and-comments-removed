@@ -151,7 +151,7 @@ TabOpen
 ;
 inspector
 .
-followAttributeLink
+onFollowLink
 (
 )
 ;
@@ -337,7 +337,7 @@ front
 ;
 inspector
 .
-followAttributeLink
+onFollowLink
 (
 )
 ;
@@ -502,7 +502,7 @@ failed
 ;
 inspector
 .
-followAttributeLink
+onFollowLink
 (
 )
 ;

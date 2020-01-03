@@ -1189,7 +1189,7 @@ oncommand
 "
 inspector
 .
-followAttributeLink
+onFollowLink
 (
 )
 "
@@ -1213,7 +1213,7 @@ oncommand
 "
 inspector
 .
-copyAttributeLink
+onCopyLink
 (
 )
 "
