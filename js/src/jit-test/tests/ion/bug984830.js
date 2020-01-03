@@ -119,9 +119,6 @@ __proto__
 ;
 "
 {
-compileAndGo
-:
-true
 isRunOnce
 :
 true

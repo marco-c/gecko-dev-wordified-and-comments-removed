@@ -5067,11 +5067,6 @@ filename
 )
 )
 .
-setCompileAndGo
-(
-false
-)
-.
 setNoScriptRval
 (
 false

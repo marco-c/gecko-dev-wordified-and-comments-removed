@@ -92,11 +92,6 @@ x
 "
 ;
 }
-{
-compileAndGo
-:
-false
-}
 )
 ;
 var

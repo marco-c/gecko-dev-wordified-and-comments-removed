@@ -74,12 +74,6 @@ code
 ;
 ctx
 .
-compileAndGo
-=
-true
-;
-ctx
-.
 isRunOnce
 =
 true

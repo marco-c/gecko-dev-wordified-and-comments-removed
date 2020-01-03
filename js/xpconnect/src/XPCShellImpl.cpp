@@ -1756,11 +1756,6 @@ ptr
 1
 )
 .
-setCompileAndGo
-(
-true
-)
-.
 setIsRunOnce
 (
 true
@@ -4456,11 +4451,6 @@ filename
 1
 )
 .
-setCompileAndGo
-(
-true
-)
-.
 setIsRunOnce
 (
 true
@@ -4616,11 +4606,6 @@ setFileAndLine
 typein
 "
 startline
-)
-.
-setCompileAndGo
-(
-true
 )
 .
 setIsRunOnce

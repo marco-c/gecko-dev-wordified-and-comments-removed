@@ -13028,13 +13028,6 @@ true
 ;
 options
 .
-setCompileAndGo
-(
-false
-)
-;
-options
-.
 setHasPollutedScope
 (
 true
@@ -13418,13 +13411,6 @@ options
 setNoScriptRval
 (
 true
-)
-;
-options
-.
-setCompileAndGo
-(
-false
 )
 ;
 JS
