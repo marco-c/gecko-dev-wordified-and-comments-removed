@@ -360,6 +360,14 @@ nsString
 aKeysOut
 )
 ;
+nsresult
+IncrementalVacuum
+(
+mozIStorageConnection
+*
+aConn
+)
+;
 extern
 const
 int32_t
