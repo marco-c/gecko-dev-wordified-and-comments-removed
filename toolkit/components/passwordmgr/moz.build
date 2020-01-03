@@ -222,6 +222,16 @@ passwordmgr
 manifest
 '
 ]
+EXTRA_PP_JS_MODULES
++
+=
+[
+'
+LoginManagerParent
+.
+jsm
+'
+]
 EXTRA_JS_MODULES
 +
 =
