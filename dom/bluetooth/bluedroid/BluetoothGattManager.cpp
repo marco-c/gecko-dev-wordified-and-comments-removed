@@ -5318,7 +5318,13 @@ properties
 "
 Type
 "
+static_cast
+<
+uint32_t
+>
+(
 TYPE_OF_DEVICE_BLE
+)
 )
 ;
 BluetoothService
