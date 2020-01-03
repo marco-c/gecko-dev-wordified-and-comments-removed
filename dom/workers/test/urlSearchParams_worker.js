@@ -243,8 +243,7 @@ get
 foo
 '
 )
-'
-'
+null
 '
 URLSearchParams
 .
