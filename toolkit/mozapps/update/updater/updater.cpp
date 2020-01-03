@@ -9848,7 +9848,7 @@ if
 (
 argc
 <
-3
+4
 )
 {
 fprintf
@@ -9858,7 +9858,10 @@ stderr
 Usage
 :
 updater
-update
+patch
+-
+dir
+install
 -
 dir
 apply
