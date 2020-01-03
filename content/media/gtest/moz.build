@@ -103,6 +103,11 @@ TestAudioCompactor
 cpp
 '
 '
+TestGMPCrossOrigin
+.
+cpp
+'
+'
 TestTrackEncoder
 .
 cpp
@@ -184,6 +189,14 @@ content
 media
 /
 encoder
+'
+'
+/
+content
+/
+media
+/
+gmp
 '
 ]
 FINAL_LIBRARY
