@@ -4320,7 +4320,7 @@ ImmPtr
 (
 nullptr
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 EmitEnterStubFrame

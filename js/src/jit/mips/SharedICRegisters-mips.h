@@ -63,14 +63,14 @@ t6
 static
 MOZ_CONSTEXPR_VAR
 Register
-BaselineTailCallReg
+ICTailCallReg
 =
 ra
 ;
 static
 MOZ_CONSTEXPR_VAR
 Register
-BaselineStubReg
+ICStubReg
 =
 t5
 ;

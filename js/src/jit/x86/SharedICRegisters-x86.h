@@ -63,14 +63,14 @@ edi
 static
 MOZ_CONSTEXPR_VAR
 Register
-BaselineTailCallReg
+ICTailCallReg
 =
 esi
 ;
 static
 MOZ_CONSTEXPR_VAR
 Register
-BaselineStubReg
+ICStubReg
 =
 edi
 ;

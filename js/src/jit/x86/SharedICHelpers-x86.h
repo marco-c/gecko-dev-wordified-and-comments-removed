@@ -70,7 +70,7 @@ masm
 .
 pop
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 }
@@ -87,7 +87,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 }
@@ -115,7 +115,7 @@ ImmWord
 -
 1
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 *
@@ -129,7 +129,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 (
 int32_t
 )
@@ -140,7 +140,7 @@ offsetOfFirstStub
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -149,7 +149,7 @@ call
 (
 Operand
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -184,13 +184,13 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 (
 int32_t
 )
 monitorStubOffset
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -199,7 +199,7 @@ jmp
 (
 Operand
 (
-BaselineStubReg
+ICStubReg
 (
 int32_t
 )
@@ -352,7 +352,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -489,7 +489,7 @@ MOZ_ASSERT
 scratch
 !
 =
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 EmitRestoreTailCallReg
@@ -563,14 +563,14 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -610,7 +610,7 @@ calledIntoIon
 Register
 scratch
 =
-BaselineTailCallReg
+ICTailCallReg
 ;
 masm
 .
@@ -661,21 +661,21 @@ masm
 .
 pop
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
 .
 pop
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
 .
 storePtr
 (
-BaselineTailCallReg
+ICTailCallReg
 Address
 (
 BaselineStackReg
@@ -721,7 +721,7 @@ masm
 .
 pop
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -735,7 +735,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 break
@@ -747,7 +747,7 @@ masm
 .
 pop
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -768,7 +768,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 break
@@ -816,7 +816,7 @@ masm
 .
 pop
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 if
@@ -849,7 +849,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 break
@@ -861,7 +861,7 @@ masm
 .
 pop
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 if
@@ -907,7 +907,7 @@ masm
 .
 push
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 break
@@ -932,7 +932,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -941,7 +941,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 (
 int32_t
 )
@@ -952,7 +952,7 @@ offsetOfFirstUpdateStub
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -961,7 +961,7 @@ call
 (
 Operand
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -975,7 +975,7 @@ masm
 .
 pop
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 Label
@@ -1050,7 +1050,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -1149,7 +1149,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 (
 int32_t
 )
@@ -1160,7 +1160,7 @@ offsetOfNext
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -1169,7 +1169,7 @@ jmp
 (
 Operand
 (
-BaselineStubReg
+ICStubReg
 (
 int32_t
 )

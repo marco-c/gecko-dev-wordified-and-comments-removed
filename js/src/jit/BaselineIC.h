@@ -3795,7 +3795,7 @@ regs
 .
 has
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 )
 ;
@@ -3819,7 +3819,7 @@ regs
 .
 has
 (
-BaselineTailCallReg
+ICTailCallReg
 )
 )
 ;
@@ -3847,7 +3847,7 @@ regs
 .
 take
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 #

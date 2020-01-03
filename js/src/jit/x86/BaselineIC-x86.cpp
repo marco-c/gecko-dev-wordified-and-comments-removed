@@ -240,7 +240,7 @@ failure
 Register
 scratchReg
 =
-BaselineTailCallReg
+ICTailCallReg
 ;
 Label
 revertRegister

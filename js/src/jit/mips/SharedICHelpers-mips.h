@@ -97,7 +97,7 @@ ImmWord
 -
 1
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 *
@@ -111,7 +111,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICEntry
 :
 :
@@ -119,7 +119,7 @@ offsetOfFirstStub
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -128,7 +128,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -179,13 +179,13 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 (
 uint32_t
 )
 monitorStubOffset
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -194,7 +194,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -345,7 +345,7 @@ reverseOffsetOfFrameSize
 ;
 MOZ_ASSERT
 (
-BaselineTailCallReg
+ICTailCallReg
 =
 =
 ra
@@ -554,7 +554,7 @@ MOZ_ASSERT
 scratch
 !
 =
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -643,7 +643,7 @@ masm
 .
 storePtr
 (
-BaselineTailCallReg
+ICTailCallReg
 Address
 (
 StackPointer
@@ -659,7 +659,7 @@ masm
 .
 storePtr
 (
-BaselineStubReg
+ICStubReg
 Address
 (
 StackPointer
@@ -787,7 +787,7 @@ BaselineStubFrame
 savedStub
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -803,7 +803,7 @@ BaselineStubFrame
 returnAddress
 )
 )
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -1042,7 +1042,7 @@ masm
 .
 storePtr
 (
-BaselineStubReg
+ICStubReg
 Address
 (
 StackPointer
@@ -1057,7 +1057,7 @@ masm
 .
 storePtr
 (
-BaselineTailCallReg
+ICTailCallReg
 Address
 (
 StackPointer
@@ -1071,7 +1071,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICUpdatedStub
 :
 :
@@ -1079,7 +1079,7 @@ offsetOfFirstUpdateStub
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -1088,7 +1088,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -1123,7 +1123,7 @@ Address
 StackPointer
 0
 )
-BaselineTailCallReg
+ICTailCallReg
 )
 ;
 masm
@@ -1138,7 +1138,7 @@ sizeof
 intptr_t
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -1224,7 +1224,7 @@ masm
 .
 push
 (
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -1337,7 +1337,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -1345,7 +1345,7 @@ offsetOfNext
 (
 )
 )
-BaselineStubReg
+ICStubReg
 )
 ;
 masm
@@ -1354,7 +1354,7 @@ loadPtr
 (
 Address
 (
-BaselineStubReg
+ICStubReg
 ICStub
 :
 :
@@ -1371,7 +1371,7 @@ scratchReg
 ;
 MOZ_ASSERT
 (
-BaselineTailCallReg
+ICTailCallReg
 =
 =
 ra
