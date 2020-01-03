@@ -967,6 +967,8 @@ PRenderFrame
 ;
 PWebBrowserPersistDocument
 (
+uint64_t
+aOuterWindowID
 )
 ;
 parent

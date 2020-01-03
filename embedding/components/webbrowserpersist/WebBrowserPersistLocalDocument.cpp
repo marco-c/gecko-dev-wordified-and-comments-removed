@@ -1536,6 +1536,7 @@ loader
 >
 StartPersistence
 (
+0
 this
 )
 ;

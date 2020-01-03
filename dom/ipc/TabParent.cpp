@@ -15668,6 +15668,10 @@ TabParent
 :
 AllocPWebBrowserPersistDocumentParent
 (
+const
+uint64_t
+&
+aOuterWindowID
 )
 {
 return
@@ -15701,6 +15705,8 @@ TabParent
 :
 StartPersistence
 (
+uint64_t
+aOuterWindowID
 nsIWebBrowserPersistDocumentReceiver
 *
 aRecv
@@ -15727,6 +15733,7 @@ return
 SendPWebBrowserPersistDocumentConstructor
 (
 actor
+aOuterWindowID
 )
 ?
 NS_OK

@@ -126,6 +126,7 @@ grandManager
 SendPWebBrowserPersistDocumentConstructor
 (
 subActor
+0
 )
 )
 {

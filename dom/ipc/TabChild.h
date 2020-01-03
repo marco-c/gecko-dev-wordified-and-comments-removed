@@ -2303,6 +2303,10 @@ PWebBrowserPersistDocumentChild
 *
 AllocPWebBrowserPersistDocumentChild
 (
+const
+uint64_t
+&
+aOuterWindowID
 )
 override
 ;
@@ -2313,6 +2317,10 @@ RecvPWebBrowserPersistDocumentConstructor
 PWebBrowserPersistDocumentChild
 *
 aActor
+const
+uint64_t
+&
+aOuterWindowID
 )
 override
 ;
