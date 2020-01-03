@@ -3229,6 +3229,14 @@ if
 imageLoader
 &
 &
+imageLoader
+-
+>
+CurrentRequestHasSize
+(
+)
+&
+&
 mImage
 &
 &
