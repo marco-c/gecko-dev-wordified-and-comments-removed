@@ -4177,6 +4177,17 @@ it
 '
 '
         
+name
+=
+mozpack
+.
+path
+.
+normsep
+(
+name
+)
+        
 if
 name
 in
