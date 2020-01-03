@@ -3,7 +3,7 @@ quay
 .
 io
 /
-mrrrgn
+djmitche
 /
 ubuntu32
 -
@@ -13,7 +13,7 @@ build
 .
 0
 .
-2
+4
 MAINTAINER
 Morgan
 Reece
