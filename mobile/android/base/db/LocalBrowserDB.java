@@ -450,13 +450,6 @@ Uri
 import
 android
 .
-provider
-.
-Browser
-;
-import
-android
-.
 text
 .
 TextUtils
@@ -4893,9 +4886,7 @@ values
 .
 put
 (
-Browser
-.
-BookmarkColumns
+Bookmarks
 .
 TITLE
 title
@@ -5494,9 +5485,7 @@ values
 .
 put
 (
-Browser
-.
-BookmarkColumns
+Bookmarks
 .
 TITLE
 title
