@@ -20,6 +20,13 @@ h
 #
 include
 "
+nsTableColFrame
+.
+h
+"
+#
+include
+"
 nsTableCellFrame
 .
 h

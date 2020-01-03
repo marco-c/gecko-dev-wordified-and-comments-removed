@@ -55,9 +55,13 @@ nsTArray
 .
 h
 "
-class
+#
+include
+"
 nsTableFrame
-;
+.
+h
+"
 class
 nsTableRowFrame
 ;
