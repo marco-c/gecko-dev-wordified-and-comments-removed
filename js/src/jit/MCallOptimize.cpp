@@ -1731,6 +1731,9 @@ thisTypes
 >
 getTypedArrayType
 (
+constraints
+(
+)
 )
 ;
 if
@@ -1785,6 +1788,9 @@ thisTypes
 >
 getSharedTypedArrayType
 (
+constraints
+(
+)
 )
 ;
 if
@@ -3017,6 +3023,9 @@ thisTypes
 >
 getKnownClass
 (
+constraints
+(
+)
 )
 !
 =
@@ -3705,6 +3714,9 @@ thisTypes
 >
 getKnownClass
 (
+constraints
+(
+)
 )
 !
 =
@@ -4089,6 +4101,9 @@ thisTypes
 >
 getKnownClass
 (
+constraints
+(
+)
 )
 !
 =
@@ -4134,6 +4149,9 @@ argTypes
 >
 getKnownClass
 (
+constraints
+(
+)
 )
 !
 =
@@ -8902,6 +8920,9 @@ thisTypes
 >
 getKnownClass
 (
+constraints
+(
+)
 )
 :
 nullptr
@@ -9155,6 +9176,9 @@ thisTypes
 >
 getKnownClass
 (
+constraints
+(
+)
 )
 :
 nullptr
@@ -9385,6 +9409,9 @@ arg0Type
 >
 getKnownClass
 (
+constraints
+(
+)
 )
 :
 nullptr
@@ -9859,6 +9886,9 @@ isDenseNative
 =
 ElementAccessIsDenseNative
 (
+constraints
+(
+)
 obj
 id
 )
@@ -9913,6 +9943,9 @@ writeNeedsBarrier
 !
 ElementAccessIsAnyTypedArray
 (
+constraints
+(
+)
 obj
 id
 &
@@ -10031,6 +10064,9 @@ if
 (
 ElementAccessIsDenseNative
 (
+constraints
+(
+)
 obj
 id
 )
@@ -10061,6 +10097,9 @@ if
 (
 ElementAccessIsAnyTypedArray
 (
+constraints
+(
+)
 obj
 id
 &
@@ -10626,6 +10665,9 @@ types
 >
 getKnownClass
 (
+constraints
+(
+)
 )
 :
 nullptr
@@ -10849,6 +10891,9 @@ resultInverted
 >
 cacheOperandMightEmulateUndefined
 (
+constraints
+(
+)
 )
 ;
 current
@@ -10879,6 +10924,9 @@ result
 >
 cacheOperandMightEmulateUndefined
 (
+constraints
+(
+)
 )
 ;
 current
@@ -11016,6 +11064,9 @@ types
 >
 forAllClasses
 (
+constraints
+(
+)
 IsTypedArrayClass
 )
 )
@@ -11308,6 +11359,9 @@ types
 >
 forAllClasses
 (
+constraints
+(
+)
 IsTypeDescrClass
 )
 )
@@ -11503,6 +11557,9 @@ types
 >
 forAllClasses
 (
+constraints
+(
+)
 IsTypedObjectClass
 )
 )
@@ -12190,6 +12247,9 @@ types
 >
 getKnownClass
 (
+constraints
+(
+)
 )
 :
 nullptr
@@ -14501,6 +14561,9 @@ arg0Types
 >
 getSharedTypedArrayType
 (
+constraints
+(
+)
 )
 ;
 switch
