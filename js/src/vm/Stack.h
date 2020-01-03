@@ -5254,6 +5254,17 @@ inlineDepth
 0
 )
 ;
+void
+removeRematerializedFramesFromDebugger
+(
+JSContext
+*
+cx
+uint8_t
+*
+top
+)
+;
 bool
 hasRematerializedFrame
 (
