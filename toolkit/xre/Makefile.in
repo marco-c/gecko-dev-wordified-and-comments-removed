@@ -223,7 +223,7 @@ sourcestamp
 MOZ_SOURCE_STAMP
 )
 ifdef
-MOZILLA_OFFICIAL
+MOZ_INCLUDE_SOURCE_INFO
 source_repo
 :
 =
