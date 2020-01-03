@@ -4005,9 +4005,9 @@ browser
 .
 ui
 .
-show
+scroll
 -
-margins
+toolbar
 -
 threshold
 "
