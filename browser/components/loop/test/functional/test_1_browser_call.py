@@ -948,7 +948,7 @@ video
 )
     
 def
-remote_leave_room_and_verify_feedback
+remote_leave_room
 (
 self
 )
@@ -982,37 +982,6 @@ button
 .
 click
 (
-)
-        
-feedback_form
-=
-self
-.
-wait_for_element_displayed
-(
-By
-.
-CLASS_NAME
-"
-faces
-"
-)
-        
-self
-.
-assertEqual
-(
-feedback_form
-.
-tag_name
-"
-div
-"
-"
-expect
-feedback
-form
-"
 )
         
 self
@@ -1489,7 +1458,7 @@ local_check_media_start_time_initialized
         
 self
 .
-remote_leave_room_and_verify_feedback
+remote_leave_room
 (
 )
         
