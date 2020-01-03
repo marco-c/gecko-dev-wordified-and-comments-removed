@@ -2486,7 +2486,6 @@ function
 (
 aId
 aIsPreinstalled
-aIsSystemUpdate
 )
 {
 if
@@ -2609,9 +2608,6 @@ origin
 isPreinstalled
 :
 aIsPreinstalled
-isSystemUpdate
-:
-aIsSystemUpdate
 kind
 :
 this
@@ -4081,7 +4077,6 @@ updatePermissionsForApp
 (
 id
 isPreinstalled
-true
 )
 ;
 }

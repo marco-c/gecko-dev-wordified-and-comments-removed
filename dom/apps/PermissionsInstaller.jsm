@@ -205,7 +205,6 @@ installPermissions
 aApp
 aIsReinstall
 aOnError
-aIsSystemUpdate
 )
 {
 try
@@ -731,10 +730,6 @@ permission
 ;
 if
 (
-!
-aIsSystemUpdate
-&
-&
 isPromptPermission
 )
 {
