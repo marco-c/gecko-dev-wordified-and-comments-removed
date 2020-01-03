@@ -8616,6 +8616,9 @@ Bailout_InitialState
 case
 Bailout_Debugger
 :
+case
+Bailout_UninitializedLexical
+:
 break
 ;
 case

@@ -125,6 +125,7 @@ Bailout_NonSimdInt32x4Input
 Bailout_NonSimdFloat32x4Input
 Bailout_InitialState
 Bailout_Debugger
+Bailout_UninitializedLexical
 Bailout_OverflowInvalidate
 Bailout_NonStringInputInvalidate
 Bailout_DoubleOutput
@@ -348,6 +349,14 @@ Bailout_Debugger
 return
 "
 Bailout_Debugger
+"
+;
+case
+Bailout_UninitializedLexical
+:
+return
+"
+Bailout_UninitializedLexical
 "
 ;
 case
