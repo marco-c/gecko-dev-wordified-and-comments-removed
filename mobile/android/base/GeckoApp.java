@@ -10176,6 +10176,13 @@ null
 }
 )
 ;
+RestrictedProfiles
+.
+update
+(
+this
+)
+;
 }
 Override
 public

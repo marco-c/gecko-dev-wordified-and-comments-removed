@@ -30,4 +30,9 @@ isRestricted
 (
 )
 ;
+void
+update
+(
+)
+;
 }
