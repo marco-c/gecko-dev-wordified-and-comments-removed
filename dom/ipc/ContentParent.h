@@ -318,6 +318,13 @@ dom
 ClonedMessageData
 ClonedMessageData
 ;
+typedef
+mozilla
+:
+:
+OwningSerializedStructuredCloneBuffer
+OwningSerializedStructuredCloneBuffer
+;
 public
 :
 #
@@ -2937,9 +2944,9 @@ IPC
 Principal
 &
 aPrincipal
-InfallibleTArray
+nsTArray
 <
-nsString
+OwningSerializedStructuredCloneBuffer
 >
 *
 aRetvals
@@ -2972,9 +2979,9 @@ IPC
 Principal
 &
 aPrincipal
-InfallibleTArray
+nsTArray
 <
-nsString
+OwningSerializedStructuredCloneBuffer
 >
 *
 aRetvals

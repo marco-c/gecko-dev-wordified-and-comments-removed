@@ -190,12 +190,12 @@ aCpows
 nsIPrincipal
 *
 aPrincipal
-InfallibleTArray
+nsTArray
 <
-nsString
+OwningSerializedStructuredCloneBuffer
 >
 *
-aJSONRetVal
+aRetVal
 bool
 aIsSync
 )
@@ -268,7 +268,7 @@ aData
 &
 cpows
 aPrincipal
-aJSONRetVal
+aRetVal
 )
 ;
 }
