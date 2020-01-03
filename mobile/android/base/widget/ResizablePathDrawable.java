@@ -235,6 +235,16 @@ setColor
 currentColor
 )
 ;
+if
+(
+currentColor
+!
+=
+Color
+.
+TRANSPARENT
+)
+{
 paint
 .
 setAlpha
@@ -242,6 +252,7 @@ setAlpha
 alpha
 )
 ;
+}
 super
 .
 onDraw
