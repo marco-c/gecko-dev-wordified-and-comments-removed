@@ -3117,6 +3117,9 @@ mPlayTime
 TimeDurationAccumulator
 mJoinLatency
 ;
+bool
+mHasUserInteraction
+;
 }
 ;
 }
