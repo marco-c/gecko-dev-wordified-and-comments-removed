@@ -484,6 +484,11 @@ uint64_t
 aFlags
 uint64_t
 aMaxAge
+nsCOMPtr
+<
+nsIClearSiteDataCallback
+>
+callback
 )
 override
 ;
@@ -491,12 +496,11 @@ virtual
 nsresult
 NPP_GetSitesWithData
 (
-InfallibleTArray
+nsCOMPtr
 <
-nsCString
+nsIGetSitesWithDataCallback
 >
-&
-aResult
+callback
 )
 override
 ;
