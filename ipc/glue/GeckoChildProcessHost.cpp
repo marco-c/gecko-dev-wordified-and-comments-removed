@@ -527,6 +527,12 @@ defined
 (
 NS_BUILD_REFCNT_LOGGING
 )
+|
+|
+defined
+(
+MOZ_ASAN
+)
 false
 #
 endif
