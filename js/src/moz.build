@@ -1004,6 +1004,16 @@ h
 /
 public
 /
+TraceableHashTable
+.
+h
+'
+'
+.
+.
+/
+public
+/
 TraceKind
 .
 h
