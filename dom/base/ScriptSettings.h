@@ -284,6 +284,14 @@ aGlobalObject
 bool
 Init
 (
+JSObject
+*
+aObject
+)
+;
+bool
+Init
+(
 nsIGlobalObject
 *
 aGlobalObject

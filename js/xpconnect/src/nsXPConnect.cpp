@@ -6983,14 +6983,8 @@ Init
 xpc
 :
 :
-NativeGlobal
-(
-xpc
-:
-:
 PrivilegedJunkScope
 (
-)
 )
 )
 ;
