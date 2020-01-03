@@ -92,9 +92,14 @@ toolbox
 }
 =
 yield
-openInspectorForURL
+addTab
 (
 URL_1
+)
+.
+then
+(
+openInspector
 )
 ;
 assertMarkupViewIsLoaded
