@@ -15045,6 +15045,11 @@ NullValue
 )
 )
 ;
+Debugger
+*
+debugger
+;
+{
 auto
 dbg
 =
@@ -15082,8 +15087,6 @@ cx
 return
 false
 ;
-Debugger
-*
 debugger
 =
 dbg
@@ -15100,6 +15103,7 @@ setPrivate
 debugger
 )
 ;
+}
 for
 (
 unsigned

@@ -457,12 +457,15 @@ i
 in
 range
 (
+int
+(
 config
 [
 '
 jobs
 '
 ]
+)
 )
 :
         
@@ -713,12 +716,15 @@ i
 in
 range
 (
+int
+(
 config
 [
 '
 jobs
 '
 ]
+)
 )
 ]
         
