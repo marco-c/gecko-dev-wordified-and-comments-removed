@@ -197,7 +197,7 @@ endif
 define
 __CLASS__
 "
-GMPParent
+GMPStorageParent
 "
 namespace
 gmp
