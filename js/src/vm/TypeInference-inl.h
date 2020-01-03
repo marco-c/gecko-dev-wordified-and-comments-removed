@@ -2977,7 +2977,7 @@ if
 group
 -
 >
-getPropertyCount
+basePropertyCount
 (
 )
 <

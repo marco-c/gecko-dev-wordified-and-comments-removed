@@ -2092,14 +2092,14 @@ Addendum_OriginalUnboxedGroup
 OBJECT_FLAG_ADDENDUM_SHIFT
 ;
 }
-private
-:
 inline
 uint32_t
 basePropertyCount
 (
 )
 ;
+private
+:
 inline
 void
 setBasePropertyCount
