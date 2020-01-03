@@ -1678,8 +1678,8 @@ IsEmpty
 )
 ;
 #
-if
-MOZ_B2G_BT_API_V2
+ifndef
+MOZ_B2G_BT_API_V1
 BluetoothReply
 *
 reply
@@ -1763,8 +1763,8 @@ STATUS_SUCCESS
 )
 ;
 #
-if
-MOZ_B2G_BT_API_V2
+ifndef
+MOZ_B2G_BT_API_V1
 BluetoothReply
 *
 reply
@@ -1890,8 +1890,8 @@ bs
 )
 ;
 #
-ifdef
-MOZ_B2G_BT_API_V2
+ifndef
+MOZ_B2G_BT_API_V1
 bs
 -
 >
