@@ -32,7 +32,7 @@ aSamplesPerSecond
 ;
 static
 bool
-ConvertEsdsToAdts
+ConvertSample
 (
 uint16_t
 aChannelCount

@@ -128,7 +128,7 @@ bool
 Adts
 :
 :
-ConvertEsdsToAdts
+ConvertSample
 (
 uint16_t
 aChannelCount
