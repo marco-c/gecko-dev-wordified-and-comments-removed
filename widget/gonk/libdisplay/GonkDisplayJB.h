@@ -245,9 +245,6 @@ GraphicBuffer
 >
 mBootAnimBuffer
 ;
-int
-mFence
-;
 hwc_display_contents_1_t
 *
 mList
