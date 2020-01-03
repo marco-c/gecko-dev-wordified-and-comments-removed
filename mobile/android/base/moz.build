@@ -1459,6 +1459,16 @@ GeckoEditable
 java
 '
 '
+GeckoEditableClient
+.
+java
+'
+'
+GeckoEditableListener
+.
+java
+'
+'
 GeckoEvent
 .
 java
