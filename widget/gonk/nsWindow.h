@@ -460,6 +460,17 @@ DestroyCompositor
 (
 )
 ;
+virtual
+CompositorParent
+*
+NewCompositorParent
+(
+int
+aSurfaceWidth
+int
+aSurfaceHeight
+)
+;
 NS_IMETHOD_
 (
 void
