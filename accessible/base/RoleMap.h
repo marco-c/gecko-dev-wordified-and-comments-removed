@@ -101,7 +101,7 @@ ALERT
 alert
 "
 ATK_ROLE_ALERT
-NSAccessibilityWindowRole
+NSAccessibilityGroupRole
 ROLE_SYSTEM_ALERT
 ROLE_SYSTEM_ALERT
 eNoNameRule
