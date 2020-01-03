@@ -526,16 +526,7 @@ token
 {
 endpoint
 :
-Svc
-.
-Prefs
-.
-get
-(
-"
-tokenServerURI
-"
-)
+null
 duration
 :
 300
