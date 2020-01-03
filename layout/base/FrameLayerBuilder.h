@@ -953,6 +953,9 @@ LayerManagerData
 aParent
 uint32_t
 aKey
+Layer
+*
+aLayer
 nsIFrame
 *
 aFrame
