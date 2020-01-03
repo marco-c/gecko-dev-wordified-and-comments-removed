@@ -368,6 +368,14 @@ return
 mNodeId
 ;
 }
+const
+nsCString
+&
+GetVersion
+(
+)
+const
+;
 bool
 CanBeSharedCrossNodeIds
 (

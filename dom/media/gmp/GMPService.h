@@ -381,6 +381,11 @@ GMPParent
 aOriginal
 )
 ;
+nsresult
+EnsurePluginsOnDiskScanned
+(
+)
+;
 class
 PathRunnable
 :
