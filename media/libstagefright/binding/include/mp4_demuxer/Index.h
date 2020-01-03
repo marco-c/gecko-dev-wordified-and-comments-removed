@@ -71,7 +71,7 @@ aTime
 ;
 private
 :
-Sample
+MP4Sample
 *
 Get
 (

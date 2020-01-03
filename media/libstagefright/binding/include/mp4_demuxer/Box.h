@@ -39,15 +39,6 @@ include
 "
 mp4_demuxer
 /
-AtomType
-.
-h
-"
-#
-include
-"
-mp4_demuxer
-/
 ByteReader
 .
 h
@@ -222,7 +213,10 @@ return
 mType
 =
 =
-AtomType
+BigEndian
+:
+:
+readUint32
 (
 aType
 )
@@ -274,7 +268,7 @@ mRange
 uint64_t
 mChildOffset
 ;
-AtomType
+uint32_t
 mType
 ;
 const
