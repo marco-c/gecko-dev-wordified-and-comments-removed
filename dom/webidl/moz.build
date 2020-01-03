@@ -3664,16 +3664,6 @@ RTCPeerConnectionIceEvent
 webidl
 '
 '
-RTCPeerConnectionIdentityErrorEvent
-.
-webidl
-'
-'
-RTCPeerConnectionIdentityEvent
-.
-webidl
-'
-'
 ScrollViewChangeEvent
 .
 webidl
