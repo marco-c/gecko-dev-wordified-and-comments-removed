@@ -2764,6 +2764,13 @@ kRadialGradientSizeKTable
 static
 const
 KTableValue
+kRadialGradientLegacySizeKTable
+[
+]
+;
+static
+const
+KTableValue
 kResizeKTable
 [
 ]

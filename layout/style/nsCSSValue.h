@@ -5589,6 +5589,9 @@ bool
 mIsRepeating
 ;
 bool
+mIsLegacySyntax
+;
+bool
 mIsExplicitSize
 ;
 nsCSSValuePair
@@ -5797,6 +5800,14 @@ mIsRepeating
 aOther
 .
 mIsRepeating
+|
+|
+mIsLegacySyntax
+!
+=
+aOther
+.
+mIsLegacySyntax
 |
 |
 mIsExplicitSize
