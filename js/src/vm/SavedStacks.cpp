@@ -5136,16 +5136,9 @@ lookupInstance
 frame
 )
 )
-{
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 nullptr
 ;
-}
 return
 frame
 ;
