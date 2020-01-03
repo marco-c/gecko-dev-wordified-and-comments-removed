@@ -174,6 +174,17 @@ isSome
 )
 ;
 }
+nsIntSize
+GetSize
+(
+)
+const
+{
+return
+*
+mSize
+;
+}
 int32_t
 GetWidth
 (

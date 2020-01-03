@@ -2843,6 +2843,10 @@ nsICODecoder
 :
 AllocateFrame
 (
+const
+nsIntSize
+&
+aTargetSize
 )
 {
 nsresult
@@ -2860,6 +2864,7 @@ mContainedDecoder
 >
 AllocateFrame
 (
+aTargetSize
 )
 ;
 mCurrentFrame
@@ -2904,6 +2909,7 @@ Decoder
 :
 AllocateFrame
 (
+aTargetSize
 )
 ;
 mRefForContainedDecoder
