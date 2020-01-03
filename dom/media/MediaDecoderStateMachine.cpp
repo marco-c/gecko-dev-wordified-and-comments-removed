@@ -10813,6 +10813,13 @@ HasAudio
 )
 )
 {
+mAudioRequestStatus
+=
+RequestStatus
+:
+:
+Pending
+;
 ReentrantMonitorAutoExit
 unlock
 (
@@ -10867,6 +10874,13 @@ TimeStamp
 Now
 (
 )
+;
+mVideoRequestStatus
+=
+RequestStatus
+:
+:
+Pending
 ;
 ReentrantMonitorAutoExit
 unlock
