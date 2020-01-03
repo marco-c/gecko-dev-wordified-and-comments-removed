@@ -256,6 +256,9 @@ url
 nsCString
 urlWithoutQuery
 ;
+nsCString
+urlQuery
+;
 HeadersEntry
 [
 ]

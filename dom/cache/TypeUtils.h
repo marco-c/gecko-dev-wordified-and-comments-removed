@@ -337,6 +337,9 @@ aSchemeValidOut
 nsACString
 *
 aUrlWithoutQueryOut
+nsACString
+*
+aUrlQueryOut
 ErrorResult
 &
 aRv
