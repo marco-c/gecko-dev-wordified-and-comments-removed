@@ -2094,6 +2094,9 @@ rfe
 bool
 *
 overrecursed
+bool
+*
+poppedLastSPSFrameOut
 )
 {
 RootedScript
@@ -2234,6 +2237,7 @@ frame
 rfe
 propagateInfo
 overrecursed
+poppedLastSPSFrameOut
 )
 ;
 if
@@ -2485,6 +2489,7 @@ frame
 rfe
 excInfo
 overrecursed
+poppedLastSPSFrameOut
 )
 ;
 if
@@ -3774,6 +3779,11 @@ for
 ;
 )
 {
+bool
+poppedLastSPSFrame
+=
+false
+;
 HandleExceptionIon
 (
 cx
@@ -3781,6 +3791,8 @@ frames
 rfe
 &
 overrecursed
+&
+poppedLastSPSFrame
 )
 ;
 if
@@ -3873,6 +3885,14 @@ frames
 more
 (
 )
+)
+popSPSFrame
+=
+false
+;
+if
+(
+poppedLastSPSFrame
 )
 popSPSFrame
 =

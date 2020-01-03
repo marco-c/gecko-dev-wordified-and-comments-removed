@@ -1027,6 +1027,9 @@ excInfo
 bool
 *
 overrecursed
+bool
+*
+poppedLastSPSFrameOut
 )
 {
 MOZ_ASSERT_IF
@@ -1099,11 +1102,6 @@ bailoutInfo
 =
 nullptr
 ;
-bool
-poppedLastSPSFrame
-=
-false
-;
 uint32_t
 retval
 =
@@ -1121,8 +1119,7 @@ true
 bailoutInfo
 &
 excInfo
-&
-poppedLastSPSFrame
+poppedLastSPSFrameOut
 )
 ;
 if
