@@ -13382,6 +13382,14 @@ player
 HasCurrentSource
 (
 )
+|
+|
+player
+-
+>
+HasInEffectSource
+(
+)
 )
 {
 aPlayers
