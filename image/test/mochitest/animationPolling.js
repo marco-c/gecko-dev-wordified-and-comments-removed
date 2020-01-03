@@ -213,7 +213,7 @@ xulTest
 closeFunc
 )
 {
-clearImageCache
+clearAllImageCaches
 (
 )
 ;
