@@ -9140,11 +9140,9 @@ XP_WIN
 )
 |
 |
+defined
 (
 MOZ_WIDGET_GTK
-=
-=
-2
 )
 |
 |
