@@ -2167,15 +2167,10 @@ use
 virtualRegister
 (
 )
-Registers
+AnyRegister
 :
 :
-GetName
-(
-Registers
-:
-:
-Code
+FromCode
 (
 use
 -
@@ -2184,6 +2179,9 @@ registerCode
 (
 )
 )
+.
+name
+(
 )
 )
 ;
