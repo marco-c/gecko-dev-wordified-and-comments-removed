@@ -1858,6 +1858,12 @@ defined
 (
 JS_CODEGEN_ARM
 )
+|
+|
+defined
+(
+JS_CODEGEN_ARM64
+)
 LAllocation
 LIRGeneratorShared
 :
