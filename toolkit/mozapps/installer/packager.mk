@@ -2213,9 +2213,6 @@ vf
 (
 SOURCE_TAR
 )
-(
-SIGN_SOURCE_TAR_CMD
-)
 hg
 -
 bundle
@@ -2234,9 +2231,6 @@ PKG_SRCPACK_PATH
 )
 (
 CREATE_HG_BUNDLE_CMD
-)
-(
-SIGN_HG_BUNDLE_CMD
 )
 source
 -
