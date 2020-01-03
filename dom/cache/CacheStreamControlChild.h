@@ -202,9 +202,6 @@ override
 bool
 mDestroyStarted
 ;
-bool
-mDestroyDelayed
-;
 NS_DECL_OWNINGTHREAD
 }
 ;

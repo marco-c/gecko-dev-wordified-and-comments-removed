@@ -180,12 +180,6 @@ CloseAllReadStreamsWithoutReporting
 (
 )
 ;
-bool
-HasEverBeenRead
-(
-)
-const
-;
 virtual
 void
 NoteClosedAfterForget
