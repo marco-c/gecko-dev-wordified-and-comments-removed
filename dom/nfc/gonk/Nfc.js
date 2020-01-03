@@ -1563,6 +1563,7 @@ function
 notifyUserAcceptedP2P
 (
 appId
+tabId
 )
 {
 let
@@ -1639,9 +1640,7 @@ target
 {
 tabId
 :
-this
-.
-focusApp
+tabId
 event
 :
 NFC
@@ -2264,6 +2263,11 @@ message
 data
 .
 appId
+message
+.
+data
+.
+tabId
 )
 ;
 return
