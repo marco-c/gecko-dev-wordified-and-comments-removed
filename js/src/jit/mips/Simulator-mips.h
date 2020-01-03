@@ -646,6 +646,11 @@ Unpredictable
 0xbadbeaf
 }
 ;
+bool
+init
+(
+)
+;
 void
 format
 (
