@@ -1006,6 +1006,11 @@ aBoundsRect
 )
 ;
 void
+NativeMove
+(
+)
+;
+void
 NativeResize
 (
 int32_t
