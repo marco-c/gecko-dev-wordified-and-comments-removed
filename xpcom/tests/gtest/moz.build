@@ -142,6 +142,11 @@ TestSynchronization
 .
 cpp
 '
+'
+TestThreadPool
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
