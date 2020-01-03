@@ -75,6 +75,9 @@ PFileDescriptorSet
 include
 DOMTypes
 ;
+include
+PBackgroundIDBSharedTypes
+;
 namespace
 mozilla
 {
@@ -121,6 +124,8 @@ testArg
 ;
 PBackgroundIDBFactory
 (
+LoggingInfo
+loggingInfo
 )
 ;
 both
