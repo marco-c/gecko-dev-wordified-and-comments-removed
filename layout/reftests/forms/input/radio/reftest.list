@@ -82,6 +82,9 @@ if
 (
 !
 gtk2Widget
+|
+|
+Mulet
 )
 =
 =
@@ -105,3 +108,15 @@ height
 ref
 .
 html
+#
+bug
+1141511
+:
+Disable
+some
+gtk2Widget
+-
+dependant
+reftests
+on
+Mulet
