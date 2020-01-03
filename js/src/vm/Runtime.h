@@ -2389,6 +2389,17 @@ public
 js
 :
 :
+SavedFrame
+*
+asyncStackForNewActivations
+;
+JSString
+*
+asyncCauseForNewActivations
+;
+js
+:
+:
 Activation
 *
 const

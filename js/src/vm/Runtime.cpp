@@ -534,6 +534,14 @@ asmJSActivationStack_
 (
 nullptr
 )
+asyncStackForNewActivations
+(
+nullptr
+)
+asyncCauseForNewActivations
+(
+nullptr
+)
 parentRuntime
 (
 parentRuntime
