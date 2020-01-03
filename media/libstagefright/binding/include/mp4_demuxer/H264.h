@@ -238,6 +238,15 @@ SPSData
 aDest
 )
 ;
+static
+bool
+EnsureSPSIsSane
+(
+SPSData
+&
+aSPS
+)
+;
 private
 :
 static

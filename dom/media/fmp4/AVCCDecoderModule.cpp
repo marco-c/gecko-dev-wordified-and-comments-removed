@@ -927,6 +927,17 @@ pic_height
 0
 )
 {
+mp4_demuxer
+:
+:
+H264
+:
+:
+EnsureSPSIsSane
+(
+spsdata
+)
+;
 mCurrentConfig
 .
 image_width
