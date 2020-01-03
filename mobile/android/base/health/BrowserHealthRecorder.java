@@ -3289,7 +3289,7 @@ final
 int
 MEASUREMENT_VERSION_SEARCH_COUNTS
 =
-5
+6
 ;
 public
 static
@@ -3327,6 +3327,9 @@ barsuggest
 "
 "
 bartext
+"
+"
+activity
 "
 }
 )
