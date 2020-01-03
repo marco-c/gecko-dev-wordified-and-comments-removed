@@ -183,8 +183,6 @@ var
 ]
 test_ssl_path
 =
-TOPSRCDIR
-+
 '
 /
 security

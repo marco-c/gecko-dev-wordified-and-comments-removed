@@ -168,8 +168,6 @@ locale
 ]
 props2arrays
 =
-TOPSRCDIR
-+
 '
 /
 intl

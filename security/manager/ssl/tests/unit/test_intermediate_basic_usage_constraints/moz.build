@@ -429,9 +429,8 @@ inputs
 =
 [
 input_file
-TOPOBJDIR
-+
 '
+!
 /
 config
 '

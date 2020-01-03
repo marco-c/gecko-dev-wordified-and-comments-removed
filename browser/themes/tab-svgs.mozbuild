@@ -95,8 +95,6 @@ MPL
 .
 script
 =
-TOPSRCDIR
-+
 '
 /
 browser
@@ -114,8 +112,6 @@ py
 input
 =
 [
-TOPSRCDIR
-+
 '
 /
 browser
