@@ -1054,7 +1054,6 @@ nsIContentPolicy
 :
 TYPE_OTHER
 nullptr
-nullptr
 this
 mLoadFlags
 )

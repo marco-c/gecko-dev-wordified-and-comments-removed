@@ -646,7 +646,6 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
-nullptr
 loadGroup
 this
 nsIRequest

@@ -611,11 +611,6 @@ nsCCUncollectableMarker
 cpp
 '
 '
-nsChannelPolicy
-.
-cpp
-'
-'
 nsContentAreaDragDrop
 .
 cpp
