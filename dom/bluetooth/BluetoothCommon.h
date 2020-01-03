@@ -817,6 +817,14 @@ HFP_NETWORK_STATE_AVAILABLE
 }
 ;
 enum
+BluetoothHandsfreeWbsConfig
+{
+HFP_WBS_NONE
+HFP_WBS_NO
+HFP_WBS_YES
+}
+;
+enum
 BluetoothHandsfreeNRECState
 {
 HFP_NREC_STOPPED
