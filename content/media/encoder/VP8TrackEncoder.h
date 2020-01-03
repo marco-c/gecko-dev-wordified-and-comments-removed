@@ -146,11 +146,6 @@ VideoChunk
 aChunk
 )
 ;
-void
-PrepareMutedFrame
-(
-)
-;
 uint32_t
 mEncodedFrameRate
 ;
@@ -163,9 +158,12 @@ mEncodedTimestamp
 TrackTicks
 mRemainingTicks
 ;
-nsTArray
+nsRefPtr
 <
-uint8_t
+layers
+:
+:
+Image
 >
 mMuteFrame
 ;

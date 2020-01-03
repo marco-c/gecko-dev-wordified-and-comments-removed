@@ -451,17 +451,6 @@ NotifyEndOfStream
 )
 MOZ_OVERRIDE
 ;
-void
-CreateMutedFrame
-(
-nsTArray
-<
-uint8_t
->
-*
-aOutputBuffer
-)
-;
 int
 mFrameWidth
 ;
