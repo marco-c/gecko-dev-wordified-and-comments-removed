@@ -3061,7 +3061,7 @@ textureClient
 recycler
 -
 >
-CreateOrRecycleForDrawing
+CreateOrRecycle
 (
 surface
 -
