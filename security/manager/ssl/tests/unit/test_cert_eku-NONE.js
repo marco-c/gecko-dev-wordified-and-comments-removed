@@ -135,7 +135,7 @@ NONE
 '
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLCA
 )
 ;
@@ -160,7 +160,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -310,7 +310,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -385,7 +385,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -410,7 +410,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -585,7 +585,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -610,7 +610,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -885,7 +885,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -910,7 +910,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -935,7 +935,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -1060,7 +1060,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -1285,7 +1285,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1310,7 +1310,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1435,7 +1435,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1460,7 +1460,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1635,7 +1635,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -1685,7 +1685,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -1735,7 +1735,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1760,7 +1760,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1885,7 +1885,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -1910,7 +1910,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -1960,7 +1960,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -1985,7 +1985,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -2035,7 +2035,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
@@ -2060,7 +2060,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageEmailRecipient
 )
 ;
@@ -2385,7 +2385,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -2435,7 +2435,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -2835,7 +2835,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -2985,7 +2985,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -3135,7 +3135,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -3185,7 +3185,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -3335,7 +3335,7 @@ NONE
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;

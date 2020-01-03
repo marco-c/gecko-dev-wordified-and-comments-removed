@@ -113,7 +113,7 @@ checkCertErrorGeneric
 (
 certdb
 cert
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;

@@ -228,7 +228,7 @@ check_cert_err
 "
 a
 "
-0
+PRErrorCodeSuccess
 )
 ;
 ocspResponder
@@ -293,7 +293,7 @@ check_cert_err
 "
 a
 "
-0
+PRErrorCodeSuccess
 )
 ;
 ocspResponder

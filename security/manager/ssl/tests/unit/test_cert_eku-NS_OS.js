@@ -135,7 +135,7 @@ NS_OS
 '
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLCA
 )
 ;
@@ -585,7 +585,7 @@ NS_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -885,7 +885,7 @@ NS_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -935,7 +935,7 @@ NS_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -1635,7 +1635,7 @@ NS_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -1685,7 +1685,7 @@ NS_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -1985,7 +1985,7 @@ NS_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -2385,7 +2385,7 @@ NS_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -2435,7 +2435,7 @@ NS_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -2835,7 +2835,7 @@ NS_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -2985,7 +2985,7 @@ NS_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -3135,7 +3135,7 @@ NS_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -3185,7 +3185,7 @@ NS_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -3335,7 +3335,7 @@ NS_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;

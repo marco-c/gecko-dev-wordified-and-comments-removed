@@ -1063,9 +1063,7 @@ der
 verify_cert
 (
 file
-Cr
-.
-NS_OK
+PRErrorCodeSuccess
 )
 ;
 file
@@ -1083,9 +1081,7 @@ der
 verify_cert
 (
 file
-Cr
-.
-NS_OK
+PRErrorCodeSuccess
 )
 ;
 add_test
@@ -1578,9 +1574,7 @@ der
 verify_cert
 (
 file
-Cr
-.
-NS_OK
+PRErrorCodeSuccess
 )
 ;
 file

@@ -242,8 +242,8 @@ isEVExpected
 ;
 equal
 (
-0
 error
+PRErrorCodeSuccess
 )
 ;
 }

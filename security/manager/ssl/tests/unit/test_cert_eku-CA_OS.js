@@ -160,7 +160,7 @@ CA_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -310,7 +310,7 @@ CA_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -585,7 +585,7 @@ CA_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -610,7 +610,7 @@ CA_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -885,7 +885,7 @@ CA_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -910,7 +910,7 @@ CA_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -1060,7 +1060,7 @@ CA_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -1635,7 +1635,7 @@ CA_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -1960,7 +1960,7 @@ CA_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -2385,7 +2385,7 @@ CA_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -2835,7 +2835,7 @@ CA_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -2985,7 +2985,7 @@ CA_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;
@@ -3135,7 +3135,7 @@ CA_OS
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageStatusResponder
 )
 ;

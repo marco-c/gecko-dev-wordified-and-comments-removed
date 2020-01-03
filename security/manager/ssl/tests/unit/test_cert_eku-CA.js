@@ -160,7 +160,7 @@ CA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -310,7 +310,7 @@ CA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -610,7 +610,7 @@ CA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -910,7 +910,7 @@ CA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -1060,7 +1060,7 @@ CA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
@@ -1960,7 +1960,7 @@ CA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;

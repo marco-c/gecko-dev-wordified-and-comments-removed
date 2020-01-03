@@ -332,8 +332,8 @@ expected_ev
 ;
 do_check_eq
 (
-0
 error
+PRErrorCodeSuccess
 )
 ;
 }
@@ -1037,7 +1037,7 @@ do_check_eq
 error
 gEVExpected
 ?
-0
+PRErrorCodeSuccess
 :
 SEC_ERROR_POLICY_VALIDATION_FAILED
 )

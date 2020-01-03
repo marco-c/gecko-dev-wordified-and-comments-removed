@@ -135,7 +135,7 @@ SA
 '
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLCA
 )
 ;
@@ -935,7 +935,7 @@ SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -1685,7 +1685,7 @@ SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -1985,7 +1985,7 @@ SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -2435,7 +2435,7 @@ SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -3185,7 +3185,7 @@ SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
@@ -3335,7 +3335,7 @@ SA
 der
 '
 )
-0
+PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;

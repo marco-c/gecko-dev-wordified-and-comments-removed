@@ -209,9 +209,7 @@ verifiedChain
 ;
 equal
 (
-Cr
-.
-NS_OK
+PRErrorCodeSuccess
 certDB
 .
 verifyCertNow
