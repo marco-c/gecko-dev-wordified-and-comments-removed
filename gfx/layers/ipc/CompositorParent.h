@@ -971,6 +971,11 @@ LayerTreeState
 (
 )
 ;
+~
+LayerTreeState
+(
+)
+;
 nsRefPtr
 <
 Layer

@@ -81,6 +81,13 @@ aWidget
 ;
 virtual
 void
+Destroy
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 RequestContentRepaint
 (
 const
