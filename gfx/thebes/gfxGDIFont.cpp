@@ -403,7 +403,7 @@ Metrics
 gfxGDIFont
 :
 :
-GetMetrics
+GetHorizontalMetrics
 (
 )
 {
