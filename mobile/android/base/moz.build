@@ -3593,6 +3593,13 @@ java
 '
 widget
 /
+SquaredRelativeLayout
+.
+java
+'
+'
+widget
+/
 SwipeDismissListViewTouchListener
 .
 java
