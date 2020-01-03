@@ -458,6 +458,11 @@ Scoped
 h
 '
 '
+ScopeExit
+.
+h
+'
+'
 SegmentedVector
 .
 h
