@@ -6201,6 +6201,7 @@ mNodeInfo
 ;
 nsINode
 *
+MOZ_OWNING_REF
 mParent
 ;
 private
