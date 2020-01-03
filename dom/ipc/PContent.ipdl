@@ -346,6 +346,10 @@ protocol
 PRemoteSpellcheckEngine
 ;
 include
+protocol
+PWebrtcGlobal
+;
+include
 DOMTypes
 ;
 include
@@ -1548,6 +1552,9 @@ PJavaScript
 ;
 manages
 PRemoteSpellcheckEngine
+;
+manages
+PWebrtcGlobal
 ;
 both
 :
@@ -3323,6 +3330,10 @@ WriteParams
 write
 Principal
 principal
+)
+;
+PWebrtcGlobal
+(
 )
 ;
 /
