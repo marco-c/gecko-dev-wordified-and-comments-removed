@@ -474,6 +474,14 @@ jsbytecode
 pc
 )
 ;
+MIRType
+expectedPropertyAccessInputType
+(
+jsbytecode
+*
+pc
+)
+;
 bool
 hasSeenNonNativeGetElement
 (
