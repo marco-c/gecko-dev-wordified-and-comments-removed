@@ -606,10 +606,12 @@ type
 return
 ;
 }
+const
 sp
 <
 IBinder
 >
+&
 req
 =
 mResources
@@ -1297,10 +1299,12 @@ size
 )
 ;
 }
+const
 sp
 <
 IBinder
 >
+&
 MediaResourceManagerService
 :
 :
@@ -1503,7 +1507,7 @@ client
 {
 for
 (
-size_t
+int
 i
 =
 0
@@ -1653,7 +1657,7 @@ mSlots
 ;
 for
 (
-size_t
+int
 i
 =
 0
