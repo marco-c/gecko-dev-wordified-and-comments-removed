@@ -277,6 +277,13 @@ h
 #
 include
 "
+nsCompartmentInfo
+.
+h
+"
+#
+include
+"
 xptinfo
 .
 h
@@ -1080,6 +1087,10 @@ NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
 nsStatusReporterManager
 Init
+)
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
+nsCompartmentInfo
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (

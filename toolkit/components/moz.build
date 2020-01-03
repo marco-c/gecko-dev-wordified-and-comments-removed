@@ -130,6 +130,9 @@ DIRS
 aboutcache
 '
 '
+aboutcompartments
+'
+'
 aboutmemory
 '
 '

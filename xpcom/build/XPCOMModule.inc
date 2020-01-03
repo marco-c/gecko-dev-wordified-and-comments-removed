@@ -370,3 +370,8 @@ COMPONENT
 STATUS_REPORTER_MANAGER
 nsStatusReporterManagerConstructor
 )
+COMPONENT
+(
+COMPARTMENT_INFO
+nsCompartmentInfoConstructor
+)
