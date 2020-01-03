@@ -166,6 +166,9 @@ TestSHA1
 TestSplayTree
 '
 '
+TestTemplateLib
+'
+'
 TestTypedEnum
 '
 '
