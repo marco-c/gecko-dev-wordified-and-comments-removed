@@ -236,3 +236,15 @@ mozilla_metro_search
 ;
 #
 endif
+pref
+(
+"
+devtools
+.
+selfxss
+.
+count
+"
+0
+)
+;

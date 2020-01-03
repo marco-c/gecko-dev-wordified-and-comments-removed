@@ -228,3 +228,15 @@ metro
 ;
 #
 endif
+pref
+(
+"
+devtools
+.
+selfxss
+.
+count
+"
+5
+)
+;
