@@ -566,13 +566,6 @@ NS_IsMainThread
 )
 )
 ;
-AbstractThread
-:
-:
-InitStatics
-(
-)
-;
 gMediaDecoderLog
 =
 PR_NewLogModule
