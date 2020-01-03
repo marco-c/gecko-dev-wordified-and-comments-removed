@@ -144,11 +144,6 @@ JSStreamWriter
 h
 '
 '
-ProfilerBacktrace
-.
-h
-'
-'
 ProfilerMarkers
 .
 h
