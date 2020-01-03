@@ -974,6 +974,7 @@ URL
 PREFETCH
 WEBAPP
 GUEST
+RESTRICTED
 }
 public
 static
