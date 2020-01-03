@@ -29949,6 +29949,7 @@ aPos
 >
 mScrollViewStop
 false
+false
 )
 ;
 if
@@ -30487,6 +30488,7 @@ aPos
 -
 >
 mScrollViewStop
+false
 false
 )
 ;
@@ -34221,6 +34223,7 @@ BidiEnabled
 )
 aScrollViewStop
 true
+false
 )
 ;
 if

@@ -113,6 +113,8 @@ bool
 aLockScroll
 bool
 aFollowOOFs
+bool
+aSkipPopupChecks
 )
 ;
 protected
@@ -326,6 +328,10 @@ bool
 mFollowOOFs
 ;
 const
+bool
+mSkipPopupChecks
+;
+const
 nsIteratorType
 mType
 ;
@@ -371,6 +377,8 @@ bool
 aLockScroll
 bool
 aFollowOOFs
+bool
+aSkipPopupChecks
 )
 :
 nsFrameIterator
@@ -380,6 +388,7 @@ aStart
 aType
 aLockScroll
 aFollowOOFs
+aSkipPopupChecks
 )
 {
 }
@@ -494,6 +503,8 @@ bool
 aLockInScrollView
 bool
 aFollowOOFs
+bool
+aSkipPopupChecks
 )
 {
 if
@@ -545,6 +556,7 @@ aStart
 aType
 aLockInScrollView
 aFollowOOFs
+aSkipPopupChecks
 )
 ;
 }
@@ -560,6 +572,7 @@ aStart
 aType
 aLockInScrollView
 aFollowOOFs
+aSkipPopupChecks
 )
 ;
 }
@@ -620,6 +633,8 @@ bool
 aLockInScrollView
 bool
 aFollowOOFs
+bool
+aSkipPopupChecks
 )
 {
 return
@@ -638,6 +653,7 @@ aType
 aVisual
 aLockInScrollView
 aFollowOOFs
+aSkipPopupChecks
 )
 ;
 }
@@ -663,6 +679,8 @@ bool
 aLockInScrollView
 bool
 aFollowOOFs
+bool
+aSkipPopupChecks
 )
 :
 mPresContext
@@ -676,6 +694,10 @@ aLockInScrollView
 mFollowOOFs
 (
 aFollowOOFs
+)
+mSkipPopupChecks
+(
+aSkipPopupChecks
 )
 mType
 (
@@ -840,6 +862,9 @@ getCurrent
 ;
 if
 (
+mSkipPopupChecks
+|
+|
 parent
 -
 >
@@ -1983,6 +2008,15 @@ nsIFrame
 aFrame
 )
 {
+if
+(
+mSkipPopupChecks
+)
+{
+return
+false
+;
+}
 return
 (
 aFrame
