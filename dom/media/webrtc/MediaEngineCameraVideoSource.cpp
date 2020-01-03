@@ -414,9 +414,6 @@ Value
 )
 ;
 }
-template
-<
->
 uint32_t
 MediaEngineCameraVideoSource
 :
@@ -429,6 +426,8 @@ const
 OwningLongOrConstrainLongRange
 &
 aConstraint
+bool
+aAdvanced
 )
 {
 if
@@ -443,9 +442,17 @@ IsLong
 ConstrainLongRange
 range
 ;
+(
+aAdvanced
+?
+range
+.
+mExact
+:
 range
 .
 mIdeal
+)
 .
 Construct
 (
@@ -479,9 +486,6 @@ GetAsConstrainLongRange
 ;
 }
 }
-template
-<
->
 uint32_t
 MediaEngineCameraVideoSource
 :
@@ -494,6 +498,8 @@ const
 OwningDoubleOrConstrainDoubleRange
 &
 aConstraint
+bool
+aAdvanced
 )
 {
 if
@@ -508,9 +514,17 @@ IsDouble
 ConstrainDoubleRange
 range
 ;
+(
+aAdvanced
+?
+range
+.
+mExact
+:
 range
 .
 mIdeal
+)
 .
 Construct
 (
@@ -561,6 +575,8 @@ const
 MediaTrackConstraintSet
 &
 aConstraints
+bool
+aAdvanced
 )
 {
 uint64_t
@@ -583,6 +599,7 @@ width
 aConstraints
 .
 mWidth
+aAdvanced
 )
 :
 0
@@ -605,6 +622,7 @@ height
 aConstraints
 .
 mHeight
+aAdvanced
 )
 :
 0
@@ -627,6 +645,7 @@ maxFPS
 aConstraints
 .
 mFrameRate
+aAdvanced
 )
 :
 0
@@ -860,6 +879,8 @@ GetFitnessDistance
 cap
 *
 cs
+!
+first
 )
 ;
 if
@@ -1417,6 +1438,7 @@ GetFitnessDistance
 (
 cap
 aConstraints
+false
 )
 ;
 if
@@ -1521,6 +1543,7 @@ GetFitnessDistance
 (
 cap
 cs
+true
 )
 =
 =
@@ -1682,6 +1705,7 @@ GetFitnessDistance
 (
 cap
 prefs
+false
 )
 ;
 }
