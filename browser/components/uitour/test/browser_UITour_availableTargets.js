@@ -166,9 +166,6 @@ loop
 devtools
 "
 "
-pinnedTab
-"
-"
 privateWindow
 "
 "
@@ -320,9 +317,6 @@ devtools
 "
 "
 home
-"
-"
-pinnedTab
 "
 "
 privateWindow
@@ -482,9 +476,6 @@ loop
 "
 "
 devtools
-"
-"
-pinnedTab
 "
 "
 privateWindow
