@@ -3501,6 +3501,11 @@ aDisplaySize
 )
 MOZ_OVERRIDE
 ;
+void
+OnAppThemeChanged
+(
+)
+;
 private
 :
 void
