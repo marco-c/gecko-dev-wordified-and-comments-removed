@@ -3874,6 +3874,12 @@ sSendPerformanceTimingNotifications
 }
 static
 bool
+IsFrameTimingEnabled
+(
+)
+;
+static
+bool
 EncodeDecodeURLHash
 (
 )
@@ -4070,12 +4076,6 @@ XPCOMShutdown
 static
 bool
 IsPDFJSEnabled
-(
-)
-;
-static
-bool
-IsSWFPlayerEnabled
 (
 )
 ;
@@ -5206,6 +5206,10 @@ sIsResourceTimingEnabled
 static
 bool
 sIsUserTimingLoggingEnabled
+;
+static
+bool
+sIsFrameTimingPrefEnabled
 ;
 static
 bool
