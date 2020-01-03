@@ -388,7 +388,7 @@ el
 addEventListener
 (
 "
-mouseout
+mouseleave
 "
 this
 .
@@ -464,7 +464,7 @@ el
 removeEventListener
 (
 "
-mouseout
+mouseleave
 "
 this
 .
