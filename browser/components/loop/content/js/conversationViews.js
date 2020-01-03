@@ -4509,7 +4509,7 @@ className
 "
 video_inner
 remote
-remote
+focus
 -
 stream
 "

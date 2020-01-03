@@ -1367,7 +1367,7 @@ function
 remoteVideoDimensions
 =
 {
-camera
+screen
 :
 {
 width
@@ -1379,7 +1379,7 @@ height
 }
 }
 ;
-remoteElement
+screenShareElement
 =
 {
 offsetWidth
@@ -1405,6 +1405,9 @@ view
 .
 getRemoteVideoDimensions
 (
+"
+screen
+"
 )
 ;
 expect
@@ -1416,7 +1419,7 @@ width
 .
 eql
 (
-remoteElement
+screenShareElement
 .
 offsetWidth
 )
@@ -1430,7 +1433,7 @@ height
 .
 eql
 (
-remoteElement
+screenShareElement
 .
 offsetHeight
 )
@@ -1444,7 +1447,7 @@ streamWidth
 .
 eql
 (
-remoteElement
+screenShareElement
 .
 offsetWidth
 )
@@ -1550,6 +1553,9 @@ view
 .
 getRemoteVideoDimensions
 (
+"
+camera
+"
 )
 ;
 expect
@@ -1656,7 +1662,7 @@ function
 remoteVideoDimensions
 =
 {
-camera
+screen
 :
 {
 width
@@ -1668,7 +1674,7 @@ height
 }
 }
 ;
-remoteElement
+screenShareElement
 =
 {
 offsetWidth
@@ -1694,6 +1700,9 @@ view
 .
 getRemoteVideoDimensions
 (
+"
+screen
+"
 )
 ;
 expect
@@ -1705,7 +1714,7 @@ width
 .
 eql
 (
-remoteElement
+screenShareElement
 .
 offsetWidth
 )
@@ -1719,7 +1728,7 @@ height
 .
 eql
 (
-remoteElement
+screenShareElement
 .
 offsetHeight
 )
@@ -1745,7 +1754,7 @@ streamHeight
 .
 eql
 (
-remoteElement
+screenShareElement
 .
 offsetHeight
 )
@@ -1839,6 +1848,9 @@ view
 .
 getRemoteVideoDimensions
 (
+"
+camera
+"
 )
 ;
 expect
