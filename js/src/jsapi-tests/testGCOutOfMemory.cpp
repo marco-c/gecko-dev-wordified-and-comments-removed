@@ -180,9 +180,6 @@ JS_GC
 rt
 )
 ;
-return
-true
-;
 EVAL
 (
 "
@@ -274,6 +271,9 @@ rt
 JS_NewRuntime
 (
 768
+*
+1024
+128
 *
 1024
 )
