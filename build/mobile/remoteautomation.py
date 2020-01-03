@@ -22,6 +22,7 @@ from
 devicemanager
 import
 DMError
+DeviceManager
 from
 mozlog
 .
@@ -687,6 +688,12 @@ traces
 root
 =
 True
+                                                 
+timeout
+=
+DeviceManager
+.
+short_timeout
 )
             
 self
@@ -707,6 +714,12 @@ traces
 root
 =
 True
+                                                 
+timeout
+=
+DeviceManager
+.
+short_timeout
 )
         
 except
@@ -869,6 +882,12 @@ remoteDir
 root
 =
 True
+                                                 
+timeout
+=
+DeviceManager
+.
+short_timeout
 )
         
 except
@@ -962,6 +981,12 @@ remoteDir
 root
 =
 True
+                                                 
+timeout
+=
+DeviceManager
+.
+short_timeout
 )
                     
 self
@@ -992,6 +1017,12 @@ remoteDir
 root
 =
 True
+                                                 
+timeout
+=
+DeviceManager
+.
+short_timeout
 )
                     
 self
@@ -1144,49 +1175,6 @@ checkForTombstones
 (
 )
         
-try
-:
-            
-logcat
-=
-self
-.
-_devicemanager
-.
-getLogcat
-(
-filterOutRegexps
-=
-fennecLogcatFilters
-)
-        
-except
-DMError
-:
-            
-print
-"
-getLogcat
-threw
-DMError
-;
-re
--
-trying
-just
-once
-.
-.
-.
-"
-            
-time
-.
-sleep
-(
-1
-)
-            
 logcat
 =
 self

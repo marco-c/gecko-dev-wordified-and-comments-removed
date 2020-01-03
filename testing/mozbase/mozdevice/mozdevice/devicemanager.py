@@ -234,6 +234,14 @@ _logcatNeedsRoot
 =
 True
     
+default_timeout
+=
+300
+    
+short_timeout
+=
+30
+    
 def
 __init__
 (
@@ -894,6 +902,12 @@ ifconfig
 '
 interface
 ]
+                             
+timeout
+=
+self
+.
+short_timeout
 )
 )
             
@@ -960,6 +974,12 @@ root
 self
 .
 _logcatNeedsRoot
+                              
+timeout
+=
+self
+.
+short_timeout
 )
     
 def
@@ -1080,6 +1100,12 @@ root
 self
 .
 _logcatNeedsRoot
+                                      
+timeout
+=
+self
+.
+short_timeout
 )
         
 lines
