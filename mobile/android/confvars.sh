@@ -382,3 +382,13 @@ else
 MOZ_ANDROID_MLS_STUMBLER
 =
 fi
+#
+Enable
+generational
+GC
+on
+mobile
+.
+JSGC_GENERATIONAL
+=
+1
