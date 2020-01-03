@@ -224,6 +224,15 @@ aCx
 JS
 :
 :
+Handle
+<
+JSObject
+*
+>
+aGivenProto
+JS
+:
+:
 MutableHandle
 <
 JSObject
@@ -240,6 +249,7 @@ Wrap
 (
 aCx
 this
+aGivenProto
 aReflector
 )
 ;

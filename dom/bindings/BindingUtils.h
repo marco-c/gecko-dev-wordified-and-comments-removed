@@ -4463,6 +4463,12 @@ value
 WrapObject
 (
 cx
+JS
+:
+:
+NullPtr
+(
+)
 &
 obj
 )
@@ -4671,6 +4677,12 @@ value
 WrapObject
 (
 cx
+JS
+:
+:
+NullPtr
+(
+)
 &
 obj
 )

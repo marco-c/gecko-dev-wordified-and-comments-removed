@@ -153,6 +153,12 @@ imageData
 WrapObject
 (
 aCx
+JS
+:
+:
+NullPtr
+(
+)
 &
 result
 )

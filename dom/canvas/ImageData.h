@@ -270,6 +270,15 @@ aCx
 JS
 :
 :
+Handle
+<
+JSObject
+*
+>
+aGivenProto
+JS
+:
+:
 MutableHandle
 <
 JSObject
