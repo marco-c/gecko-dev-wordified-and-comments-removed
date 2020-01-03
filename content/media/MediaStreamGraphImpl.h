@@ -1125,16 +1125,6 @@ mFarendObserverRef
 ;
 #
 endif
-uint32_t
-AudioChannel
-(
-)
-const
-{
-return
-mAudioChannel
-;
-}
 private
 :
 virtual
@@ -1173,9 +1163,6 @@ mCanRunMessagesSynchronously
 ;
 #
 endif
-uint32_t
-mAudioChannel
-;
 }
 ;
 }
