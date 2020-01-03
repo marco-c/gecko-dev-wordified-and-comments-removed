@@ -211,6 +211,12 @@ FinishShutdown
 (
 )
 ;
+bool
+IsRealTime
+(
+)
+const
+;
 int64_t
 GetDuration
 (
