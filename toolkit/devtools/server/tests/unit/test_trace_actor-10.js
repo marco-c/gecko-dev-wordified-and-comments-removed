@@ -225,7 +225,9 @@ evalSetup
 )
 ;
 const
-sourcesResponse
+{
+sources
+}
 =
 yield
 getSources
@@ -240,8 +242,6 @@ gThreadClient
 .
 source
 (
-sourcesResponse
-.
 sources
 .
 filter
