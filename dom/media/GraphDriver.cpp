@@ -416,6 +416,7 @@ MOZ_ASSERT
 (
 aStateComputedTime
 >
+=
 mIterationEnd
 )
 ;
