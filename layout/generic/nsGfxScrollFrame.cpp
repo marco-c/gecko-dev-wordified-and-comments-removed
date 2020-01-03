@@ -13808,10 +13808,10 @@ clip
 if
 (
 !
-nsLayoutUtils
+gfxPrefs
 :
 :
-UsesAsyncScrolling
+AsyncPanZoomEnabled
 (
 )
 )
