@@ -146,6 +146,7 @@ const
 ;
 protected
 :
+virtual
 ~
 IccInfo
 (
