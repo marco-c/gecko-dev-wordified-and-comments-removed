@@ -492,9 +492,6 @@ mSize
 bool
 mRepeating
 ;
-bool
-mLegacySyntax
-;
 nsStyleCoord
 mBgPosX
 ;
