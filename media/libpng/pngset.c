@@ -3254,10 +3254,6 @@ png_ptr
 new_iccp_name
 )
 ;
-new_iccp_name
-=
-NULL
-;
 png_benign_error
 (
 png_ptr
@@ -3410,9 +3406,7 @@ png_ptr
 =
 NULL
 ?
-"
-unexpected
-"
+0xabadca11
 :
 (
 unsigned
@@ -5266,8 +5260,6 @@ set
 acTL
 with
 num_plays
-"
-"
 >
 2
 ^

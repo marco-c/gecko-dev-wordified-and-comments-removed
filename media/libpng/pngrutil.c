@@ -1165,10 +1165,7 @@ zstream
 ;
 #
 if
-PNG_LIBPNG_BUILD_BASE_TYPE
->
-=
-PNG_LIBPNG_BUILD_RC
+PNG_RELEASE_BUILD
 png_chunk_warning
 (
 png_ptr
@@ -1796,7 +1793,7 @@ PNG_SIZE_MAX
 ;
 #
 ifdef
-PNG_SET_CHUNK_MALLOC_LIMIT_SUPPORTED
+PNG_SET_USER_LIMITS_SUPPORTED
 if
 (
 png_ptr
@@ -2120,10 +2117,6 @@ png_free
 png_ptr
 text
 )
-;
-text
-=
-NULL
 ;
 if
 (
@@ -4083,6 +4076,7 @@ truelen
 +
 i
 )
+{
 if
 (
 buf
@@ -4112,6 +4106,7 @@ invalid
 ;
 return
 ;
+}
 }
 if
 (
@@ -7025,6 +7020,10 @@ num_palette
 |
 length
 >
+(
+unsigned
+int
+)
 PNG_MAX_PALETTE_LENGTH
 |
 |
@@ -7784,6 +7783,10 @@ num_palette
 |
 num
 >
+(
+unsigned
+int
+)
 PNG_MAX_PALETTE_LENGTH
 )
 {
@@ -11863,7 +11866,7 @@ NULL
 }
 #
 ifdef
-PNG_SET_CHUNK_MALLOC_LIMIT_SUPPORTED
+PNG_SET_USER_LIMITS_SUPPORTED
 if
 (
 png_ptr

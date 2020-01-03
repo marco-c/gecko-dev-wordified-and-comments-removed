@@ -476,7 +476,7 @@ PNGARG
 args
 )
 \
-extern
+PNG_LINKAGE_API
 attributes
 )
 #
