@@ -1773,6 +1773,9 @@ ssh_key
 ssh_key
 )
             
+print
+output
+            
 if
 properties_file
 :
