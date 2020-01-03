@@ -715,6 +715,14 @@ HasInPlayEffect
 )
 &
 &
+mPlaybackRate
+!
+=
+0
+.
+0
+&
+&
 (
 PlayState
 (
