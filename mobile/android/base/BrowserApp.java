@@ -1457,7 +1457,7 @@ mActionMode
 ;
 private
 boolean
-mShowActionModeEndAnimation
+mHideDynamicToolbarOnActionModeEnd
 ;
 private
 TabHistoryController
@@ -1890,6 +1890,10 @@ tab
 )
 ;
 }
+mHideDynamicToolbarOnActionModeEnd
+=
+false
+;
 break
 ;
 case
@@ -17371,7 +17375,7 @@ VisibilityTransition
 ANIMATE
 )
 ;
-mShowActionModeEndAnimation
+mHideDynamicToolbarOnActionModeEnd
 =
 true
 ;
@@ -17383,6 +17387,10 @@ mActionBar
 animateIn
 (
 )
+;
+mHideDynamicToolbarOnActionModeEnd
+=
+false
 ;
 }
 mDynamicToolbar
@@ -17486,7 +17494,7 @@ showPrevious
 ;
 if
 (
-mShowActionModeEndAnimation
+mHideDynamicToolbarOnActionModeEnd
 )
 {
 mDynamicToolbar
@@ -17498,10 +17506,6 @@ VisibilityTransition
 .
 IMMEDIATE
 )
-;
-mShowActionModeEndAnimation
-=
-false
 ;
 }
 }
