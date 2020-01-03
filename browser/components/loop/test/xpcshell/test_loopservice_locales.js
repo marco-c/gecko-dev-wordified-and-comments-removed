@@ -83,7 +83,7 @@ MozLoopService
 getStrings
 (
 "
-share_link_header_text
+display_name_guest
 "
 )
 '
@@ -93,15 +93,7 @@ textContent
 "
 :
 "
-Share
-this
-link
-to
-invite
-someone
-to
-talk
-:
+Guest
 "
 }
 '
