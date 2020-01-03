@@ -193,14 +193,6 @@ _UNICODE
 ]
 =
 True
-DEFINES
-[
-'
-NOMINMAX
-'
-]
-=
-True
 USE_STATIC_LIBS
 =
 True

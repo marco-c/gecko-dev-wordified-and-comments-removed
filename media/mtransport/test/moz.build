@@ -498,14 +498,6 @@ True
 DEFINES
 [
 '
-NOMINMAX
-'
-]
-=
-True
-DEFINES
-[
-'
 __Userspace_os_Windows
 '
 ]

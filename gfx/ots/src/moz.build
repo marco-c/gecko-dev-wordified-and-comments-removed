@@ -354,14 +354,6 @@ org
 /
 "
 '
-DEFINES
-[
-'
-NOMINMAX
-'
-]
-=
-True
 if
 CONFIG
 [

@@ -253,14 +253,6 @@ DLL_SUFFIX
 '
 ]
 )
-DEFINES
-[
-'
-NOMINMAX
-'
-]
-=
-True
 LOCAL_INCLUDES
 +
 =

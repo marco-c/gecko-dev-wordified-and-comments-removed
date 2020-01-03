@@ -664,14 +664,6 @@ WIN32
 ]
 =
 True
-DEFINES
-[
-'
-NOMINMAX
-'
-]
-=
-True
 LOCAL_INCLUDES
 +
 =
