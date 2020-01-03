@@ -1123,7 +1123,7 @@ prio
 (
 normal
 upto
-urgent
+high
 )
 intr
 protocol
