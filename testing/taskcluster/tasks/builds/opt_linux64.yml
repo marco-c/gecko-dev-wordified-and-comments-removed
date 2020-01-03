@@ -232,6 +232,9 @@ TODO
 encrypt
 this
 secret
+NEED_XVFB
+:
+true
 maxRunTime
 :
 36000
