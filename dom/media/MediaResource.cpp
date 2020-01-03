@@ -1519,12 +1519,11 @@ mIgnoreResume
 false
 ;
 }
-mDecoder
+owner
 -
 >
-Progress
+DownloadProgressed
 (
-false
 )
 ;
 return

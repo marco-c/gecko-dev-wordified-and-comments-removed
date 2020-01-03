@@ -38,14 +38,6 @@ DownloadProgressed
 0
 ;
 virtual
-void
-DownloadStalled
-(
-)
-=
-0
-;
-virtual
 nsresult
 DispatchEvent
 (
