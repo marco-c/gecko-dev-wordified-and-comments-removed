@@ -74,6 +74,13 @@ DRAG_DROP_MAX_AUTOSCROLL_SPEED
 15
 ;
 const
+AUTOCOMPLETE_POPUP_PANEL_ID
+=
+"
+markupview_autoCompletePopup
+"
+;
+const
 {
 UndoStack
 }
@@ -586,6 +593,9 @@ theme
 "
 auto
 "
+panelId
+:
+AUTOCOMPLETE_POPUP_PANEL_ID
 }
 ;
 this
