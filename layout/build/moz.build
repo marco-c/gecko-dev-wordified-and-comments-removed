@@ -683,6 +683,14 @@ dom
 /
 bluetooth
 '
+'
+/
+dom
+/
+bluetooth
+/
+bluetooth1
+'
 ]
 if
 CONFIG
