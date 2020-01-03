@@ -555,17 +555,6 @@ blocked
 "
 :
 {
-if
-(
-!
-options
-.
-displayOrigin
-)
-{
-return
-;
-}
 messageString
 =
 gNavigatorBundle
