@@ -7350,7 +7350,7 @@ if
 (
 ssi
 .
-hasDynamicScopeObject
+hasSyntacticDynamicScopeObject
 (
 )
 )
@@ -7399,7 +7399,7 @@ if
 (
 ssi
 .
-hasDynamicScopeObject
+hasSyntacticDynamicScopeObject
 (
 )
 )
