@@ -794,13 +794,7 @@ is
 performed
 above
 .
-WORKSPACE
-/
-build
-/
-src
-/
-testing
+.
 /
 {
 MOZHARNESS_SCRIPT
