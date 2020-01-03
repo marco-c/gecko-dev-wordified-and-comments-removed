@@ -15,7 +15,7 @@ PACKAGE_VERSION
 '
 6
 .
-3
+4
 '
 desc
 =
@@ -49,7 +49,7 @@ mozcrash
 =
 0
 .
-11
+14
 '
         
 '
@@ -105,7 +105,7 @@ mozprofile
 .
 18
 '
-       
+        
 ]
 assert
 sys
