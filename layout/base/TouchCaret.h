@@ -173,6 +173,12 @@ GetCanvasFrame
 (
 )
 ;
+nsIFrame
+*
+GetRootFrame
+(
+)
+;
 nsRect
 GetTouchFrameRect
 (
