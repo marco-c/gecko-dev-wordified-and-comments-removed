@@ -3071,6 +3071,17 @@ JS_FRIEND_API
 (
 bool
 )
+FunctionHasNativeReserved
+(
+JSObject
+*
+fun
+)
+;
+JS_FRIEND_API
+(
+bool
+)
 GetObjectProto
 (
 JSContext
