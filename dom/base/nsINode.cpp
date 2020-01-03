@@ -1868,7 +1868,7 @@ Slots
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 !
 slots
@@ -1876,7 +1876,7 @@ slots
 >
 mChildNodes
 )
-;
+{
 slots
 -
 >
@@ -1888,6 +1888,7 @@ nsChildContentList
 this
 )
 ;
+}
 return
 slots
 -
