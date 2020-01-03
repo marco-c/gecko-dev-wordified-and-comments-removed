@@ -4722,6 +4722,10 @@ mMayHaveReadbackChild
 (
 false
 )
+mChildrenChanged
+(
+false
+)
 {
 mContentFlags
 =
