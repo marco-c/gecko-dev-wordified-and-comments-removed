@@ -96,6 +96,8 @@ const
 nsCString
 &
 aSessionId
+GMPSessionMessageType
+aMessageType
 const
 nsTArray
 <
@@ -103,10 +105,6 @@ uint8_t
 >
 &
 aMessage
-const
-nsCString
-&
-aDestinationURL
 )
 MOZ_OVERRIDE
 ;
