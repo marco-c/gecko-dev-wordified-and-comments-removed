@@ -829,7 +829,7 @@ LDefinition
 INT32X4
 LFloatReg
 (
-ReturnSimdReg
+ReturnInt32x4Reg
 )
 )
 )
@@ -854,7 +854,7 @@ LDefinition
 FLOAT32X4
 LFloatReg
 (
-ReturnSimdReg
+ReturnFloat32x4Reg
 )
 )
 )
