@@ -1474,6 +1474,9 @@ arg
 {
 if
 (
+arg
+&
+&
 typeof
 (
 arg
