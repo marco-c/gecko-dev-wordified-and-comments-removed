@@ -4488,14 +4488,11 @@ fp
 )
 ;
 void
-maybeTakeIonFrameRecovery
+removeIonFrameRecovery
 (
 IonJSFrameLayout
 *
 fp
-RInstructionResults
-*
-results
 )
 ;
 void
