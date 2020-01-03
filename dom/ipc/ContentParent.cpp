@@ -19496,7 +19496,7 @@ NS_CONSOLESERVICE_CID
 ;
 nsCOMPtr
 <
-nsConsoleService
+nsIConsoleService
 >
 consoleService
 (
@@ -19508,7 +19508,18 @@ consoleServiceCID
 ;
 mConsoleService
 =
+static_cast
+<
+nsConsoleService
+*
+>
+(
 consoleService
+.
+get
+(
+)
+)
 ;
 return
 mConsoleService

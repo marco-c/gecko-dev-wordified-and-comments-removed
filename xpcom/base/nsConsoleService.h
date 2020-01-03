@@ -49,6 +49,8 @@ final
 :
 public
 nsIConsoleService
+public
+nsIObserver
 {
 public
 :
@@ -63,6 +65,7 @@ Init
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSICONSOLESERVICE
+NS_DECL_NSIOBSERVER
 void
 SetIsDelivering
 (
@@ -150,6 +153,14 @@ private
 ~
 nsConsoleService
 (
+)
+;
+void
+ClearMessagesForWindowID
+(
+const
+uint64_t
+innerID
 )
 ;
 nsIConsoleMessage
