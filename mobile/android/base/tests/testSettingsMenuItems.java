@@ -984,7 +984,13 @@ Location
 Service
 "
 "
-Shares
+Help
+Mozilla
+map
+the
+world
+!
+Share
 approximate
 Wi
 -
@@ -995,8 +1001,6 @@ location
 of
 your
 device
-with
-Mozilla
 to
 improve
 our
