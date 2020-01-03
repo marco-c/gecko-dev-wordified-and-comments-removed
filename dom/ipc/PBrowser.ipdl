@@ -3379,7 +3379,7 @@ orientation
 LayoutDeviceIntPoint
 chromeDisp
 )
-compress
+compressall
 ;
 UpdateFrame
 (

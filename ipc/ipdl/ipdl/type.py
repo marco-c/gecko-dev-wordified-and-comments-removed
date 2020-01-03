@@ -7032,16 +7032,9 @@ cdtype
                               
 compress
 =
-(
 md
 .
 compress
-=
-=
-'
-compress
-'
-)
 )
         
 def
