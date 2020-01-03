@@ -533,6 +533,9 @@ mAudioDiscontinuity
 bool
 mVideoDiscontinuity
 ;
+bool
+mShutdown
+;
 }
 ;
 class

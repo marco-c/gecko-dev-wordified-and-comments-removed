@@ -1096,6 +1096,13 @@ mVideoDecoder
 nullptr
 ;
 }
+MediaDecoderReader
+:
+:
+Shutdown
+(
+)
+;
 }
 nsresult
 WebMReader

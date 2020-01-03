@@ -1569,6 +1569,13 @@ ReleaseResources
 (
 )
 ;
+MediaDecoderReader
+:
+:
+Shutdown
+(
+)
+;
 }
 void
 MediaCodecReader

@@ -524,6 +524,13 @@ mPlugin
 nullptr
 ;
 }
+MediaDecoderReader
+:
+:
+Shutdown
+(
+)
+;
 }
 nsresult
 AndroidMediaReader

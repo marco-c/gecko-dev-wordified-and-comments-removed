@@ -281,6 +281,10 @@ mVideoDiscontinuity
 (
 false
 )
+mShutdown
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -296,6 +300,11 @@ MediaDecoderReader
 (
 )
 {
+MOZ_ASSERT
+(
+mShutdown
+)
+;
 ResetDecode
 (
 )
@@ -1232,6 +1241,10 @@ OnDecodeThread
 (
 )
 )
+;
+mShutdown
+=
+true
 ;
 ReleaseMediaResources
 (
