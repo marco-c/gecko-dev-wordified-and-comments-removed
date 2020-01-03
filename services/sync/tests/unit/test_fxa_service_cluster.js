@@ -141,7 +141,9 @@ initializeWithCurrentIdentity
 )
 ;
 yield
-Assert_rejects
+Assert
+.
+rejects
 (
 Service
 .
@@ -233,7 +235,9 @@ initializeWithCurrentIdentity
 )
 ;
 yield
-Assert_rejects
+Assert
+.
+rejects
 (
 Service
 .
