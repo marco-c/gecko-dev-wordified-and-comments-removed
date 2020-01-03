@@ -12466,6 +12466,7 @@ nsRunnable
 {
 public
 :
+explicit
 NotifyRunnable
 (
 MediaStream
