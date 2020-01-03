@@ -445,13 +445,15 @@ NS_IMPL_QUERY_INTERFACE_INHERITED0
 MultipartImage
 ImageWrapper
 )
-NS_IMPL_ADDREF
+NS_IMPL_ADDREF_INHERITED
 (
 MultipartImage
+ImageWrapper
 )
-NS_IMPL_RELEASE
+NS_IMPL_RELEASE_INHERITED
 (
 MultipartImage
+ImageWrapper
 )
 void
 MultipartImage
