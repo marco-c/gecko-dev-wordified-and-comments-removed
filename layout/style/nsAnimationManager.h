@@ -254,9 +254,9 @@ mPauseShouldStick
 (
 false
 )
-mLastNotification
+mPreviousPhaseOrIteration
 (
-LAST_NOTIFICATION_NONE
+PREVIOUS_PHASE_BEFORE
 )
 {
 }
@@ -386,14 +386,14 @@ mPauseShouldStick
 ;
 enum
 {
-LAST_NOTIFICATION_NONE
+PREVIOUS_PHASE_BEFORE
 =
 uint64_t
 (
 -
 1
 )
-LAST_NOTIFICATION_END
+PREVIOUS_PHASE_AFTER
 =
 uint64_t
 (
@@ -403,7 +403,7 @@ uint64_t
 }
 ;
 uint64_t
-mLastNotification
+mPreviousPhaseOrIteration
 ;
 }
 ;
