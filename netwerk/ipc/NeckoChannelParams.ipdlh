@@ -436,8 +436,8 @@ allowPipelining
 bool
 allowSTS
 ;
-bool
-forceAllowThirdPartyCookie
+uint32_t
+thirdPartyFlags
 ;
 bool
 resumeAt

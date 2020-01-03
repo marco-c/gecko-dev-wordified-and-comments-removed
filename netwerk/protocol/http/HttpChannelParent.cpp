@@ -524,7 +524,7 @@ allowSTS
 )
 a
 .
-forceAllowThirdPartyCookie
+thirdPartyFlags
 (
 )
 a
@@ -831,9 +831,9 @@ bool
 &
 allowSTS
 const
-bool
+uint32_t
 &
-forceAllowThirdPartyCookie
+thirdPartyFlags
 const
 bool
 &
@@ -1516,9 +1516,9 @@ allowSTS
 mChannel
 -
 >
-SetForceAllowThirdPartyCookie
+SetThirdPartyFlags
 (
-forceAllowThirdPartyCookie
+thirdPartyFlags
 )
 ;
 mChannel
