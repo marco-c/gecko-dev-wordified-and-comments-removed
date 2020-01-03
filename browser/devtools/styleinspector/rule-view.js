@@ -8052,6 +8052,12 @@ this
 newRule
 )
 ;
+newRule
+.
+editor
+=
+editor
+;
 if
 (
 rules
