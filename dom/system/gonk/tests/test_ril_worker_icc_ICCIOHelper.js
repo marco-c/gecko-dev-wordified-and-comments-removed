@@ -571,9 +571,9 @@ options
 fileId
 :
 ICC_EF_ICCID
-type
+structure
 :
-EF_TYPE_TRANSPARENT
+EF_STRUCTURE_TRANSPARENT
 }
 ;
 iccioHelper
@@ -789,9 +789,9 @@ options
 fileId
 :
 ICC_EF_MSISDN
-type
+structure
 :
-EF_TYPE_LINEAR_FIXED
+EF_STRUCTURE_LINEAR_FIXED
 }
 ;
 iccioHelper
