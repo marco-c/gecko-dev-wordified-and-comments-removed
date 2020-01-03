@@ -971,6 +971,15 @@ format
 tbpl
 "
 }
+console
+:
+{
+logLevel
+:
+"
+info
+"
+}
 }
 setPrefs
 (
