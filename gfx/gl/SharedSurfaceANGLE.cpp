@@ -1162,7 +1162,7 @@ cur
 =
 configs
 [
-i
+0
 ]
 ;
 if
