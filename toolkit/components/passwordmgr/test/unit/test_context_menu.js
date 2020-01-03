@@ -453,6 +453,7 @@ browser
 URI
 )
 }
+;
 }
 function
 checkLoginItems
