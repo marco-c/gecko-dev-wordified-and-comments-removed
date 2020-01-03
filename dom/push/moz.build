@@ -81,7 +81,7 @@ PushNotificationService
 js
 '
 ]
-EXTRA_JS_MODULES
+EXTRA_PP_JS_MODULES
 +
 =
 [
