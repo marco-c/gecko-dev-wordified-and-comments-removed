@@ -315,7 +315,7 @@ try
 {
 options
 .
-originHost
+displayOrigin
 =
 installInfo
 .
@@ -476,7 +476,7 @@ if
 !
 options
 .
-originHost
+displayOrigin
 )
 {
 return
@@ -917,7 +917,7 @@ host
 =
 options
 .
-originHost
+displayOrigin
 ;
 if
 (

@@ -1366,7 +1366,7 @@ notification
 getAttribute
 (
 "
-originhost
+origin
 "
 )
 "

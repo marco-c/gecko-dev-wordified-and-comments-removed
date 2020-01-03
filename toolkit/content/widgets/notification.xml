@@ -3634,7 +3634,7 @@ popup
 -
 notification
 -
-originHost
+origin
 header
 "
 xbl
@@ -3644,7 +3644,7 @@ inherits
 "
 value
 =
-originhost
+origin
 "
 crop
 =
