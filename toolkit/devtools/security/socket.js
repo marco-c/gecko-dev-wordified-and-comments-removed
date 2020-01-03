@@ -9,6 +9,7 @@ Ci
 Cc
 CC
 Cr
+Cu
 }
 =
 require
@@ -430,6 +431,7 @@ host
 port
 encryption
 authenticator
+cert
 }
 =
 settings
@@ -470,6 +472,7 @@ authenticate
 host
 port
 encryption
+cert
 transport
 }
 )
