@@ -451,7 +451,7 @@ AsSourceStream
 ;
 }
 void
-StopSharing
+StopScreenWindowSharing
 (
 )
 ;
@@ -2538,12 +2538,7 @@ dom
 :
 :
 MediaSourceEnum
-aVideoType
-dom
-:
-:
-MediaSourceEnum
-aAudioType
+aSrcType
 bool
 aFake
 bool
@@ -2562,12 +2557,7 @@ dom
 :
 :
 MediaSourceEnum
-aVideoSrcType
-dom
-:
-:
-MediaSourceEnum
-aAudioSrcType
+aSrcType
 bool
 aFake
 =

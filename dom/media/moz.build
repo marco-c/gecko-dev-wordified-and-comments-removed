@@ -1017,11 +1017,6 @@ AbstractThread
 cpp
 '
 '
-AudioCaptureStream
-.
-cpp
-'
-'
 AudioChannelFormat
 .
 cpp

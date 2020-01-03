@@ -358,12 +358,6 @@ IsFinished
 const
 ;
 bool
-HasConsumers
-(
-)
-const
-;
-bool
 SendData
 (
 double
