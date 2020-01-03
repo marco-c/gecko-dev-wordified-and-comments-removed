@@ -562,6 +562,8 @@ Create
 VideoSessionConduit
 *
 aOther
+bool
+receiving
 )
 ;
 enum
