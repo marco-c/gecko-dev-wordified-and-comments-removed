@@ -8437,12 +8437,6 @@ MOZ_ASSERT
 event
 .
 mSucceeded
-&
-&
-!
-event
-.
-mWasAsync
 )
 ;
 if
@@ -8900,12 +8894,6 @@ MOZ_ASSERT
 queryEvent
 .
 mSucceeded
-&
-&
-!
-queryEvent
-.
-mWasAsync
 )
 ;
 event

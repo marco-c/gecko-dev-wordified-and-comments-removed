@@ -3856,13 +3856,6 @@ paramType
 aResult
 )
 {
-aResult
--
->
-mWasAsync
-=
-true
-;
 return
 ReadParam
 (

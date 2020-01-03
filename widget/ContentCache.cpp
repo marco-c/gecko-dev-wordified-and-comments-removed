@@ -2964,12 +2964,6 @@ false
 ;
 aEvent
 .
-mWasAsync
-=
-false
-;
-aEvent
-.
 mReply
 .
 mFocusedWidget
