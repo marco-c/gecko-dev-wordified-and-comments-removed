@@ -107,6 +107,9 @@ sidebar
 interface
 External
 {
+[
+UnsafeInPrerendering
+]
 void
 AddSearchProvider
 (
@@ -132,6 +135,9 @@ partial
 interface
 External
 {
+[
+UnsafeInPrerendering
+]
 void
 addSearchEngine
 (
