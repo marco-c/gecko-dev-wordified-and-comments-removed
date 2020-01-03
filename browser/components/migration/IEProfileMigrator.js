@@ -457,10 +457,7 @@ _libs
 }
 ;
 }
-fileTimeToDate
-:
-function
-CH_fileTimeToDate
+fileTimeToSecondsSinceEpoch
 (
 aTimeHi
 aTimeLo
@@ -538,8 +535,13 @@ winLastError
 )
 ;
 return
-new
+Math
+.
+floor
+(
 Date
+.
+UTC
 (
 systemTime
 .
@@ -564,6 +566,9 @@ wSecond
 systemTime
 .
 wMilliseconds
+)
+/
+1000
 )
 ;
 }
@@ -2183,7 +2188,7 @@ expireTime
 =
 CtypesHelpers
 .
-fileTimeToDate
+fileTimeToSecondsSinceEpoch
 (
 Number
 (
