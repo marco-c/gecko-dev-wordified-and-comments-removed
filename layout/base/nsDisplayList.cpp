@@ -4633,13 +4633,14 @@ innerWin
 {
 metrics
 .
-mMayHaveTouchListeners
-=
+SetMayHaveTouchListeners
+(
 innerWin
 -
 >
 HasTouchEventListeners
 (
+)
 )
 ;
 }
