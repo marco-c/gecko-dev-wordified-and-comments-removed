@@ -209,6 +209,16 @@ ReturnFromCtor
 \
 _
 (
+BinarySharedStub
+)
+\
+_
+(
+UnarySharedStub
+)
+\
+_
+(
 CheckOverRecursed
 )
 \

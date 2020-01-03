@@ -1163,6 +1163,10 @@ Register
 reg
 uint32_t
 virtualRegister
+bool
+usedAtStart
+=
+false
 )
 {
 set
@@ -1173,7 +1177,7 @@ reg
 code
 (
 )
-false
+usedAtStart
 )
 ;
 setVirtualRegister
@@ -1188,6 +1192,10 @@ FloatRegister
 reg
 uint32_t
 virtualRegister
+bool
+usedAtStart
+=
+false
 )
 {
 set
@@ -1198,7 +1206,7 @@ reg
 code
 (
 )
-false
+usedAtStart
 )
 ;
 setVirtualRegister

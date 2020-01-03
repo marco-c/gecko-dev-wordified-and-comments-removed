@@ -76,6 +76,8 @@ mir
 Register
 reg1
 Register
+bool
+useAtStart
 )
 {
 MOZ_ASSERT
@@ -111,6 +113,7 @@ mir
 virtualRegister
 (
 )
+useAtStart
 )
 )
 ;
