@@ -2303,7 +2303,7 @@ aFormData
 ;
 }
 bool
-URLSearchParamsIterator
+URLParamsIterator
 (
 const
 nsString
