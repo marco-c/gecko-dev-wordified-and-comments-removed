@@ -263,12 +263,6 @@ int64_t
 aStartTime
 )
 ;
-virtual
-int64_t
-ComputeStartTime
-(
-)
-;
 size_t
 SizeOfVideoQueueInBytes
 (
