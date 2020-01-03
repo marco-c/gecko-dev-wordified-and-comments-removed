@@ -562,12 +562,12 @@ for
 rule
 view
 to
-refresh
+update
 "
 )
 ;
 let
-onRuleViewRefresh
+onRuleViewChanged
 =
 once
 (
@@ -575,7 +575,7 @@ view
 "
 ruleview
 -
-refreshed
+changed
 "
 )
 ;
@@ -601,7 +601,7 @@ VK_RETURN
 )
 ;
 yield
-onRuleViewRefresh
+onRuleViewChanged
 ;
 is
 (
@@ -612,11 +612,11 @@ _elementStyle
 rules
 .
 length
-2
+3
 "
 Should
 have
-2
+3
 rules
 .
 "
