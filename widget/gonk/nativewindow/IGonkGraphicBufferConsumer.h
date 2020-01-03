@@ -414,7 +414,7 @@ hint
 ;
 virtual
 void
-dump
+dumpToString
 (
 String8
 &

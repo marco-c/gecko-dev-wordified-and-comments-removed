@@ -3564,7 +3564,7 @@ void
 GonkBufferQueue
 :
 :
-dump
+dumpToString
 (
 String8
 &
@@ -3581,7 +3581,7 @@ buffer
 GonkBufferQueue
 :
 :
-dump
+dumpToString
 (
 result
 "
@@ -3595,7 +3595,7 @@ void
 GonkBufferQueue
 :
 :
-dump
+dumpToString
 (
 String8
 &

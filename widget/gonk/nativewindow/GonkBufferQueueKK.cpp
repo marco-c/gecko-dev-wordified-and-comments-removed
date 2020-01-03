@@ -4013,7 +4013,7 @@ void
 GonkBufferQueue
 :
 :
-dump
+dumpToString
 (
 String8
 &
