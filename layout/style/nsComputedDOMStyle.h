@@ -428,7 +428,7 @@ Declaration
 *
 GetCSSDeclaration
 (
-bool
+Operation
 )
 override
 ;

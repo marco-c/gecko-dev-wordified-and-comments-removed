@@ -8509,8 +8509,8 @@ nsCSSKeyframeStyleDeclaration
 :
 GetCSSDeclaration
 (
-bool
-aAllocate
+Operation
+aOperation
 )
 {
 if
@@ -10576,8 +10576,8 @@ nsCSSPageStyleDeclaration
 :
 GetCSSDeclaration
 (
-bool
-aAllocate
+Operation
+aOperation
 )
 {
 if

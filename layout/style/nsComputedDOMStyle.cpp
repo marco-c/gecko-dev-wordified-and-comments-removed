@@ -1951,7 +1951,7 @@ nsComputedDOMStyle
 :
 GetCSSDeclaration
 (
-bool
+Operation
 )
 {
 NS_RUNTIMEABORT

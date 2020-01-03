@@ -457,6 +457,14 @@ override
 ;
 protected
 :
+enum
+Operation
+{
+eOperation_Read
+eOperation_Modify
+eOperation_RemoveProperty
+}
+;
 virtual
 mozilla
 :
@@ -468,8 +476,8 @@ Declaration
 *
 GetCSSDeclaration
 (
-bool
-aAllocate
+Operation
+aOperation
 )
 =
 0

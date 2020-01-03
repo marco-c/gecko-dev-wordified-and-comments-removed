@@ -199,7 +199,7 @@ decl
 =
 GetCSSDeclaration
 (
-false
+eOperation_Read
 )
 ;
 aValue
@@ -269,7 +269,7 @@ decl
 =
 GetCSSDeclaration
 (
-false
+eOperation_Read
 )
 ;
 if
@@ -361,7 +361,7 @@ decl
 =
 GetCSSDeclaration
 (
-false
+eOperation_Read
 )
 ;
 aCssText
@@ -409,7 +409,7 @@ olddecl
 =
 GetCSSDeclaration
 (
-true
+eOperation_Modify
 )
 ;
 if
@@ -556,7 +556,7 @@ decl
 =
 GetCSSDeclaration
 (
-false
+eOperation_Read
 )
 ;
 if
@@ -637,7 +637,7 @@ decl
 =
 GetCSSDeclaration
 (
-false
+eOperation_Read
 )
 ;
 aFound
@@ -806,7 +806,7 @@ decl
 =
 GetCSSDeclaration
 (
-false
+eOperation_Read
 )
 ;
 if
@@ -856,7 +856,7 @@ decl
 =
 GetCSSDeclaration
 (
-false
+eOperation_Read
 )
 ;
 aReturn
@@ -1271,7 +1271,7 @@ olddecl
 =
 GetCSSDeclaration
 (
-true
+eOperation_Modify
 )
 ;
 if
@@ -1426,7 +1426,7 @@ olddecl
 =
 GetCSSDeclaration
 (
-true
+eOperation_Modify
 )
 ;
 if
@@ -1567,7 +1567,7 @@ decl
 =
 GetCSSDeclaration
 (
-false
+eOperation_RemoveProperty
 )
 ;
 if
@@ -1652,7 +1652,7 @@ decl
 =
 GetCSSDeclaration
 (
-false
+eOperation_RemoveProperty
 )
 ;
 if
