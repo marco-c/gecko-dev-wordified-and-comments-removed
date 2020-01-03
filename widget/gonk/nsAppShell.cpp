@@ -231,6 +231,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Touch
@@ -2527,7 +2536,10 @@ nsIScreen
 :
 ROTATION_0_DEG
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 screen
