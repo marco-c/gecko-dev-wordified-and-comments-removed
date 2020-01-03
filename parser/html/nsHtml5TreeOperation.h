@@ -51,12 +51,7 @@ nsHtml5DocumentBuilder
 enum
 eHtml5TreeOperation
 {
-#
-ifdef
-DEBUG
 eTreeOpUninitialized
-#
-endif
 eTreeOpAppend
 eTreeOpDetach
 eTreeOpAppendChildrenToNewParent
