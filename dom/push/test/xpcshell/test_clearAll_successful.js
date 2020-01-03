@@ -145,15 +145,6 @@ Infinity
 }
 )
 ;
-let
-unregisterDefer
-=
-Promise
-.
-defer
-(
-)
-;
 PushService
 .
 init
