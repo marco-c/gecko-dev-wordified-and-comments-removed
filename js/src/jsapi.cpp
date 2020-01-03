@@ -13014,8 +13014,6 @@ const
 JSClass
 *
 jsclasp
-HandleObject
-proto
 unsigned
 attrs
 )
@@ -13034,7 +13032,6 @@ assertSameCompartment
 (
 cx
 obj
-proto
 )
 ;
 const
@@ -13068,7 +13065,7 @@ NewObjectWithClassProto
 (
 cx
 clasp
-proto
+nullptr
 obj
 )
 )

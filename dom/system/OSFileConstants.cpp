@@ -2684,12 +2684,6 @@ cx
 aObject
 aProperty
 nullptr
-JS
-:
-:
-NullPtr
-(
-)
 JSPROP_ENUMERATE
 )
 ;
