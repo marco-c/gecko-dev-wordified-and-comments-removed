@@ -1110,7 +1110,13 @@ CanNotifyObservers
 )
 {
 #
-if
+ifdef
+MOZ_WIDGET_GONK
+return
+false
+;
+#
+elif
 defined
 (
 SPS_OS_android
