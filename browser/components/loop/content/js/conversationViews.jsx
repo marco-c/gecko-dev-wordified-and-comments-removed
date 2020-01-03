@@ -1219,6 +1219,9 @@ Events
 sharedMixins
 .
 AudioMixin
+sharedMixins
+.
+WindowCloseMixin
 ]
 propTypes
 :
@@ -1417,9 +1420,9 @@ emailLink
 contactEmail
 )
 ;
-window
+this
 .
-close
+closeWindow
 (
 )
 ;
