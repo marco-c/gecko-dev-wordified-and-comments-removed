@@ -11359,16 +11359,13 @@ SortByZOrder
 nsDisplayListBuilder
 *
 aBuilder
-nsIContent
-*
-aCommonAncestor
 )
 {
 Sort
 (
 aBuilder
 IsZOrderLEQ
-aCommonAncestor
+nullptr
 )
 ;
 }

@@ -4491,9 +4491,6 @@ SortByZOrder
 nsDisplayListBuilder
 *
 aBuilder
-nsIContent
-*
-aCommonAncestor
 )
 ;
 void

@@ -10084,9 +10084,6 @@ PositionedDescendants
 SortByZOrder
 (
 aBuilder
-GetContent
-(
-)
 )
 ;
 nsDisplayList
