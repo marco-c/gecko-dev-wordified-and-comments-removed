@@ -33346,6 +33346,8 @@ healthreport
 |
 home
 |
+license
+|
 newaddon
 |
 permissions
@@ -33353,6 +33355,8 @@ permissions
 preferences
 |
 privatebrowsing
+|
+rights
 |
 sessionrestore
 |
