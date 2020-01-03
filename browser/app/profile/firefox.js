@@ -16832,8 +16832,8 @@ firefox
 )
 ;
 #
-ifdef
-NIGHTLY_BUILD
+ifndef
+RELEASE_BUILD
 pref
 (
 "
