@@ -1876,7 +1876,7 @@ options
 yield
 this
 .
-getFxAccountOptions
+getFxAccountCreationOptions
 (
 )
 ;
@@ -1891,7 +1891,7 @@ options
 ;
 }
 )
-getFxAccountOptions
+getFxAccountCreationOptions
 :
 Task
 .
@@ -1922,7 +1922,7 @@ log
 warn
 (
 "
-createFxAccount
+getFxAccountCreationOptions
 called
 in
 an
@@ -2103,7 +2103,7 @@ log
 warn
 (
 "
-createFxAccount
+resendVerificationMail
 called
 in
 an
@@ -2369,7 +2369,7 @@ log
 warn
 (
 "
-createFxAccount
+forgetFxAccount
 called
 in
 an

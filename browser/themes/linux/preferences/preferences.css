@@ -786,6 +786,17 @@ fadein
 3000ms
 ;
 }
+#
+sync
+-
+migration
+description
+{
+margin
+:
+8px
+;
+}
 keyframes
 fadein
 {
