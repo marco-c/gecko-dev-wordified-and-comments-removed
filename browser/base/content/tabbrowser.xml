@@ -9082,6 +9082,9 @@ aSkipAnimation
 var
 aForceNotRemote
 ;
+var
+aNoReferrer
+;
 if
 (
 arguments
@@ -9185,6 +9188,12 @@ params
 .
 forceNotRemote
 ;
+aNoReferrer
+=
+params
+.
+noReferrer
+;
 }
 var
 bgLoad
@@ -9263,6 +9272,9 @@ aAllowMixedContent
 forceNotRemote
 :
 aForceNotRemote
+noReferrer
+:
+aNoReferrer
 }
 )
 ;
@@ -11230,6 +11242,9 @@ aAllowMixedContent
 var
 aForceNotRemote
 ;
+var
+aNoReferrer
+;
 if
 (
 arguments
@@ -11332,6 +11347,12 @@ aForceNotRemote
 params
 .
 forceNotRemote
+;
+aNoReferrer
+=
+params
+.
+noReferrer
 ;
 }
 /
@@ -12411,6 +12432,10 @@ loadURIWithFlags
 (
 aURI
 flags
+aNoReferrer
+?
+null
+:
 aReferrerURI
 aCharset
 aPostData
