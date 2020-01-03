@@ -12289,7 +12289,7 @@ set
 ExprVar
 (
 '
-__Send
+Send__
 '
 )
         
@@ -12302,7 +12302,7 @@ set
 ExprVar
 (
 '
-__Recv
+Recv__
 '
 )
         
@@ -13493,7 +13493,7 @@ pfxvar
 ExprVar
 (
 '
-__pfx
+pfx__
 '
 )
     
@@ -13502,7 +13502,7 @@ otherpid
 ExprVar
 (
 '
-__otherPid
+otherPid__
 '
 )
     
@@ -13511,7 +13511,7 @@ receiving
 ExprVar
 (
 '
-__receiving
+receiving__
 '
 )
     
@@ -13594,7 +13594,7 @@ msgvar
 ExprVar
 (
 '
-__logmsg
+logmsg__
 '
 )
     
@@ -21783,7 +21783,7 @@ msgvar
 ExprVar
 (
 '
-__msg
+msg__
 '
 )
         
@@ -21798,7 +21798,7 @@ replyvar
 ExprVar
 (
 '
-__reply
+reply__
 '
 )
         
@@ -21813,7 +21813,7 @@ itervar
 ExprVar
 (
 '
-__iter
+iter__
 '
 )
         
@@ -21828,7 +21828,7 @@ var
 ExprVar
 (
 '
-__v
+v__
 '
 )
         
@@ -21843,7 +21843,7 @@ handlevar
 ExprVar
 (
 '
-__handle
+handle__
 '
 )
         
@@ -22211,7 +22211,7 @@ routevar
 ExprVar
 (
 '
-__route
+route__
 '
 )
                 
@@ -22273,7 +22273,7 @@ routedvar
 ExprVar
 (
 '
-__routed
+routed__
 '
 )
                 
@@ -30948,7 +30948,7 @@ nullablevar
 ExprVar
 (
 '
-__nullable
+nullable__
 '
 )
         
@@ -33138,7 +33138,7 @@ _ast
 typename
 =
 '
-__type
+type__
 '
         
 uniontdef
@@ -37504,7 +37504,7 @@ sendok
 ExprVar
 (
 '
-__sendok
+sendok__
 '
 )
         
@@ -37635,7 +37635,7 @@ sendok
 ExprVar
 (
 '
-__sendok
+sendok__
 '
 )
         
@@ -38398,7 +38398,7 @@ idvar
 ExprVar
 (
 '
-__id
+id__
 '
 )
         
