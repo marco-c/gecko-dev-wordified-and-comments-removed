@@ -3278,10 +3278,6 @@ if
 mOwner
 )
 {
-Invalidate
-(
-)
-;
 mOwner
 -
 >
