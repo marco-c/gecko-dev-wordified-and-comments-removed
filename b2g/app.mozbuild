@@ -94,6 +94,7 @@ DIRS
 =
 [
 '
+/
 testing
 /
 mochitest
@@ -112,6 +113,7 @@ DIRS
 =
 [
 '
+/
 extensions
 '
 ]
@@ -119,6 +121,12 @@ DIRS
 +
 =
 [
+'
+/
+%
+s
+'
+%
 CONFIG
 [
 '
@@ -126,6 +134,7 @@ MOZ_BRANDING_DIRECTORY
 '
 ]
 '
+/
 b2g
 '
 ]

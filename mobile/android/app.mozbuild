@@ -94,6 +94,7 @@ DIRS
 =
 [
 '
+/
 testing
 /
 mochitest
@@ -112,6 +113,7 @@ DIRS
 =
 [
 '
+/
 testing
 /
 instrumentation
@@ -130,6 +132,7 @@ DIRS
 =
 [
 '
+/
 extensions
 '
 ]
@@ -137,6 +140,12 @@ DIRS
 +
 =
 [
+'
+/
+%
+s
+'
+%
 CONFIG
 [
 '
@@ -144,6 +153,7 @@ MOZ_BRANDING_DIRECTORY
 '
 ]
 '
+/
 mobile
 /
 android

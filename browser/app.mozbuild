@@ -94,6 +94,7 @@ DIRS
 =
 [
 '
+/
 extensions
 '
 ]
@@ -101,6 +102,12 @@ DIRS
 +
 =
 [
+'
+/
+%
+s
+'
+%
 CONFIG
 [
 '
@@ -121,6 +128,7 @@ DIRS
 =
 [
 '
+/
 webapprt
 '
 ]
@@ -148,6 +156,7 @@ DIRS
 =
 [
 '
+/
 browser
 '
 ]

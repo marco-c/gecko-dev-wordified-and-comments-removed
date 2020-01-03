@@ -94,6 +94,7 @@ DIRS
 =
 [
 '
+/
 extensions
 '
 ]
@@ -101,6 +102,12 @@ DIRS
 +
 =
 [
+'
+/
+%
+s
+'
+%
 CONFIG
 [
 '
@@ -121,6 +128,7 @@ DIRS
 =
 [
 '
+/
 webapprt
 '
 ]
@@ -129,16 +137,19 @@ DIRS
 =
 [
 '
+/
 b2g
 /
 chrome
 '
 '
+/
 b2g
 /
 components
 '
 '
+/
 b2g
 /
 dev
@@ -165,6 +176,7 @@ on
 Mac
 .
 '
+/
 browser
 '
 ]

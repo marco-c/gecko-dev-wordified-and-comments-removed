@@ -85,6 +85,7 @@ DIRS
 =
 [
 '
+/
 extensions
 '
 ]
@@ -122,6 +123,7 @@ DIRS
 =
 [
 '
+/
 embedding
 /
 tests
@@ -134,6 +136,7 @@ DIRS
 =
 [
 '
+/
 xulrunner
 '
 ]
