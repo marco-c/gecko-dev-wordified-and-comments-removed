@@ -543,14 +543,6 @@ year
 assert
 (
 year
->
-=
-1
-)
-;
-assert
-(
-year
 <
 =
 9999
