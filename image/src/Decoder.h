@@ -194,6 +194,7 @@ IsEmpty
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 Decoder
+MOZ_OVERRIDE
 )
 virtual
 void
