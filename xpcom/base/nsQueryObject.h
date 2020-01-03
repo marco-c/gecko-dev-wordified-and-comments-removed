@@ -7,6 +7,15 @@ nsQueryObject_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -24,6 +33,7 @@ class
 T
 >
 class
+MOZ_STACK_CLASS
 nsQueryObject
 :
 public
@@ -87,6 +97,7 @@ private
 :
 T
 *
+MOZ_NON_OWNING_REF
 mRawPtr
 ;
 }
@@ -97,6 +108,7 @@ class
 T
 >
 class
+MOZ_STACK_CLASS
 nsQueryObjectWithError
 :
 public
@@ -177,6 +189,7 @@ private
 :
 T
 *
+MOZ_NON_OWNING_REF
 mRawPtr
 ;
 nsresult
