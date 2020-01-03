@@ -152,15 +152,6 @@ Stream
 }
 }
 ;
-enum
-TrackType
-{
-kVideo
-=
-1
-kAudio
-}
-;
 class
 MP4Demuxer
 {
