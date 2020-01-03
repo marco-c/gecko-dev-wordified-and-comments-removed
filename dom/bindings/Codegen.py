@@ -39846,16 +39846,6 @@ descriptor
 wrapperCache
 :
                 
-assert
-descriptor
-.
-nativeOwnership
-!
-=
-'
-owned
-'
-                
 wrapMethod
 =
 "
@@ -39882,26 +39872,6 @@ identifier
 name
 )
                 
-if
-descriptor
-.
-nativeOwnership
-=
-=
-'
-owned
-'
-:
-                    
-wrapMethod
-=
-"
-WrapNewBindingNonWrapperCachedOwnedObject
-"
-                
-else
-:
-                    
 wrapMethod
 =
 "
