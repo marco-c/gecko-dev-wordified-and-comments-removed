@@ -297,6 +297,14 @@ GetBuffered
 )
 override
 ;
+virtual
+bool
+ForceZeroStartTime
+(
+)
+const
+override
+;
 void
 SetIdle
 (
