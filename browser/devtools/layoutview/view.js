@@ -3009,6 +3009,13 @@ function
 (
 )
 {
+if
+(
+this
+.
+layoutview
+)
+{
 this
 .
 layoutview
@@ -3017,6 +3024,7 @@ destroy
 (
 )
 ;
+}
 if
 (
 elts

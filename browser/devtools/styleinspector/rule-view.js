@@ -6017,6 +6017,13 @@ isEnabled
 )
 ;
 }
+if
+(
+this
+.
+_elementStyle
+)
+{
 for
 (
 let
@@ -6044,6 +6051,7 @@ updateSourceLink
 (
 )
 ;
+}
 }
 }
 }
