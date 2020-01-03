@@ -65,11 +65,6 @@ ABitReader
 .
 h
 >
-#
-include
-<
-cmath
->
 using
 namespace
 mozilla
@@ -598,10 +593,7 @@ INT32_MAX
 return
 int32_t
 (
-round
-(
 aValue
-)
 )
 ;
 return
