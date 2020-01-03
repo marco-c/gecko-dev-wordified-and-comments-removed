@@ -3467,7 +3467,7 @@ MDefinition
 def
 )
 {
-MDefinition
+MInstruction
 *
 dep
 =

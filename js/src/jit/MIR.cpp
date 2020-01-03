@@ -1204,7 +1204,7 @@ id
 ;
 if
 (
-MDefinition
+MInstruction
 *
 dep
 =
