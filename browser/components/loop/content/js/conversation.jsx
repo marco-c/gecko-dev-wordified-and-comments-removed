@@ -146,15 +146,6 @@ shared
 actions
 ;
 var
-IncomingConversationView
-=
-loop
-.
-conversationViews
-.
-IncomingConversationView
-;
-var
 CallControllerView
 =
 loop

@@ -228,9 +228,6 @@ windowType
 windowData
 .
 type
-windowData
-:
-windowData
 }
 )
 ;
