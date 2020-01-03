@@ -5280,7 +5280,6 @@ path
 .
 size
 ;
-;
 }
 catch
 (
