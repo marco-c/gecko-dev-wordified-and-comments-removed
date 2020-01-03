@@ -147,6 +147,8 @@ OcspStrictConfig
 osc
 OcspGetConfig
 ogc
+uint32_t
+certShortLifetimeInDays
 PinningMode
 pinningMode
 )
@@ -171,6 +173,10 @@ ogc
 =
 =
 ocspGetEnabled
+)
+mCertShortLifetimeInDays
+(
+certShortLifetimeInDays
 )
 mPinningMode
 (
@@ -891,6 +897,7 @@ ocspFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
 nullptr
@@ -981,6 +988,7 @@ FetchOCSPForEV
 mOCSPCache
 pinArg
 ocspGETConfig
+mCertShortLifetimeInDays
 mPinningMode
 MIN_RSA_BITS
 hostname
@@ -1065,6 +1073,7 @@ ocspFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mCertShortLifetimeInDays
 mPinningMode
 MIN_RSA_BITS
 hostname
@@ -1135,6 +1144,7 @@ ocspFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mCertShortLifetimeInDays
 mPinningMode
 MIN_RSA_BITS_WEAK
 hostname
@@ -1221,6 +1231,7 @@ ocspFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
 nullptr
@@ -1268,6 +1279,7 @@ ocspFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
 nullptr
@@ -1353,6 +1365,7 @@ ocspFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
 nullptr
@@ -1438,6 +1451,7 @@ ocspFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
 nullptr
@@ -1563,6 +1577,7 @@ ocspFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
 nullptr
@@ -1605,6 +1620,7 @@ ocspFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
 nullptr
@@ -1647,6 +1663,7 @@ ocspFetching
 mOCSPCache
 pinArg
 ocspGETConfig
+mCertShortLifetimeInDays
 pinningDisabled
 MIN_RSA_BITS_WEAK
 nullptr

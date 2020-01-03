@@ -575,6 +575,7 @@ const
 CertID
 &
 Time
+Duration
 const
 Input
 *
@@ -1750,6 +1751,7 @@ const
 CertID
 &
 Time
+Duration
 const
 Input
 *

@@ -179,6 +179,14 @@ pkix
 :
 Time
 time
+mozilla
+:
+:
+pkix
+:
+:
+Duration
+validityDuration
 const
 mozilla
 :

@@ -433,6 +433,8 @@ CertID
 certID
 Time
 time
+Duration
+validityDuration
 const
 Input
 *

@@ -66,6 +66,8 @@ OcspStrictConfig
 osc
 OcspGetConfig
 ogc
+uint32_t
+certShortLifetimeInDays
 PinningMode
 pinningMode
 )
@@ -81,6 +83,7 @@ CertVerifier
 odc
 osc
 ogc
+certShortLifetimeInDays
 pinningMode
 )
 {

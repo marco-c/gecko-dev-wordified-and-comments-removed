@@ -164,6 +164,8 @@ CertVerifier
 :
 OcspGetConfig
 ocspGETConfig
+uint32_t
+certShortLifetimeInDays
 CertVerifier
 :
 :
@@ -417,6 +419,14 @@ pkix
 :
 Time
 time
+mozilla
+:
+:
+pkix
+:
+:
+Duration
+validityDuration
 const
 mozilla
 :
@@ -564,6 +574,10 @@ CertVerifier
 :
 OcspGetConfig
 mOCSPGetConfig
+;
+const
+uint32_t
+mCertShortLifetimeInDays
 ;
 CertVerifier
 :
