@@ -490,6 +490,11 @@ MaybePostRestyle
 )
 const
 ;
+void
+PostUpdate
+(
+)
+;
 StickyTimeDuration
 SourceContentEnd
 (
