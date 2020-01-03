@@ -120,15 +120,6 @@ ini
 '
 test
 /
-imports
-/
-mochitest
-.
-ini
-'
-'
-test
-/
 mochitest
 .
 ini
