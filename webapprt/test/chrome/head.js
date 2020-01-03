@@ -199,6 +199,10 @@ uninstall
 url
 .
 spec
+)
+.
+then
+(
 (
 )
 =
