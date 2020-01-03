@@ -3429,7 +3429,7 @@ paddingBottom
 return
 Math
 .
-round
+ceil
 (
 height
 )
