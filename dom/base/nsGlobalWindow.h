@@ -1703,7 +1703,7 @@ aNames
 ;
 static
 bool
-IsChromeWindow
+IsPrivilegedChromeWindow
 (
 JSContext
 *

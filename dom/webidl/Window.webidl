@@ -3114,7 +3114,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 ]
 const
@@ -3131,7 +3131,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 ]
 const
@@ -3148,7 +3148,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 ]
 const
@@ -3165,7 +3165,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 ]
 const
@@ -3182,7 +3182,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 ]
 readonly
@@ -3233,7 +3233,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 ]
 attribute
@@ -3249,7 +3249,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 ]
 void
@@ -3265,7 +3265,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 ]
 void
@@ -3283,7 +3283,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 ]
 void
@@ -3301,7 +3301,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 UnsafeInPrerendering
 ]
@@ -3318,7 +3318,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 UnsafeInPrerendering
 ]
@@ -3335,7 +3335,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 UnsafeInPrerendering
 ]
@@ -3378,7 +3378,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 ]
 void
@@ -3396,7 +3396,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 ]
 readonly
@@ -3439,7 +3439,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 ]
 nsIMessageBroadcaster
@@ -3539,7 +3539,7 @@ Func
 nsGlobalWindow
 :
 :
-IsChromeWindow
+IsPrivilegedChromeWindow
 "
 ]
 void
