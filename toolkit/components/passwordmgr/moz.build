@@ -254,6 +254,11 @@ InsecurePasswordUtils
 jsm
 '
 '
+LoginDoorhangers
+.
+jsm
+'
+'
 LoginHelper
 .
 jsm
