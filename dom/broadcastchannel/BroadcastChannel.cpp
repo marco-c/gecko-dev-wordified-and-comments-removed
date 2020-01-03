@@ -2588,16 +2588,6 @@ destroyed
 )
 )
 ;
-if
-(
-!
-mIsKeptAlive
-)
-{
-return
-NS_OK
-;
-}
 nsCOMPtr
 <
 nsISupportsPRUint64
