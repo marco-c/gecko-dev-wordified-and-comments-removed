@@ -695,6 +695,11 @@ BluetoothAdapter
 )
 ;
 void
+Cleanup
+(
+)
+;
+void
 SetPropertyByValue
 (
 const
