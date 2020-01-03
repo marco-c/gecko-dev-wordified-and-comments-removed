@@ -4464,6 +4464,14 @@ map
 l_next
 ;
 else
+if
+(
+map
+-
+>
+l_prev
+)
+{
 map
 -
 >
@@ -4477,6 +4485,7 @@ map
 >
 l_next
 ;
+}
 if
 (
 map
@@ -4520,6 +4529,14 @@ l_prev
 ;
 }
 else
+if
+(
+map
+-
+>
+l_next
+)
+{
 map
 -
 >
@@ -4533,6 +4550,7 @@ map
 >
 l_prev
 ;
+}
 dbg
 -
 >
