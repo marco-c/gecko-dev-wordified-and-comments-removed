@@ -142,6 +142,11 @@ TestGfxPrefs
 cpp
 '
 '
+TestGfxWidgets
+.
+cpp
+'
+'
 TestLayers
 .
 cpp

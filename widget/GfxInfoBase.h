@@ -350,6 +350,14 @@ return
 0
 ;
 }
+static
+const
+nsCString
+&
+GetApplicationVersion
+(
+)
+;
 protected
 :
 virtual
