@@ -6786,11 +6786,11 @@ aResult
 nsDataHashtable
 <
 nsStringHashKey
-nsFrameScriptObjectExecutorHolder
+nsMessageManagerScriptHolder
 *
 >
 *
-nsFrameScriptExecutor
+nsMessageManagerScriptExecutor
 :
 :
 sCachedScripts
@@ -6799,7 +6799,7 @@ nullptr
 ;
 nsScriptCacheCleaner
 *
-nsFrameScriptExecutor
+nsMessageManagerScriptExecutor
 :
 :
 sScriptCacheCleaner
@@ -6807,7 +6807,7 @@ sScriptCacheCleaner
 nullptr
 ;
 void
-nsFrameScriptExecutor
+nsMessageManagerScriptExecutor
 :
 :
 DidCreateGlobal
@@ -6837,7 +6837,7 @@ new
 nsDataHashtable
 <
 nsStringHashKey
-nsFrameScriptObjectExecutorHolder
+nsMessageManagerScriptHolder
 *
 >
 ;
@@ -6870,7 +6870,7 @@ const
 nsAString
 &
 aKey
-nsFrameScriptObjectExecutorHolder
+nsMessageManagerScriptHolder
 *
 &
 aData
@@ -6887,7 +6887,7 @@ PL_DHASH_REMOVE
 ;
 }
 void
-nsFrameScriptExecutor
+nsMessageManagerScriptExecutor
 :
 :
 Shutdown
@@ -6947,10 +6947,10 @@ sScriptCacheCleaner
 }
 }
 void
-nsFrameScriptExecutor
+nsMessageManagerScriptExecutor
 :
 :
-LoadFrameScriptInternal
+LoadScriptInternal
 (
 const
 nsAString
@@ -7002,7 +7002,7 @@ script
 rt
 )
 ;
-nsFrameScriptObjectExecutorHolder
+nsMessageManagerScriptHolder
 *
 holder
 =
@@ -7177,7 +7177,7 @@ scope
 }
 }
 void
-nsFrameScriptExecutor
+nsMessageManagerScriptExecutor
 :
 :
 TryCacheLoadAndCompileScript
@@ -7647,7 +7647,7 @@ data
 )
 )
 {
-nsFrameScriptObjectExecutorHolder
+nsMessageManagerScriptHolder
 *
 holder
 ;
@@ -7659,7 +7659,7 @@ script
 holder
 =
 new
-nsFrameScriptObjectExecutorHolder
+nsMessageManagerScriptHolder
 (
 cx
 script
@@ -7680,7 +7680,7 @@ holder
 }
 }
 void
-nsFrameScriptExecutor
+nsMessageManagerScriptExecutor
 :
 :
 TryCacheLoadAndCompileScript
@@ -7720,10 +7720,10 @@ script
 ;
 }
 bool
-nsFrameScriptExecutor
+nsMessageManagerScriptExecutor
 :
 :
-InitTabChildGlobalInternal
+InitChildGlobalInternal
 (
 nsISupports
 *

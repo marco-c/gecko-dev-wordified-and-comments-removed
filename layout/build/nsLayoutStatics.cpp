@@ -1592,7 +1592,7 @@ Shutdown
 (
 )
 {
-nsFrameScriptExecutor
+nsMessageManagerScriptExecutor
 :
 :
 Shutdown

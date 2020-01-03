@@ -129,7 +129,7 @@ mozilla
 :
 DOMEventTargetHelper
 public
-nsFrameScriptExecutor
+nsMessageManagerScriptExecutor
 public
 nsIInProcessContentFrameMessageManager
 public

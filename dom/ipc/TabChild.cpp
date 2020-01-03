@@ -11820,7 +11820,7 @@ InitTabChildGlobal
 return
 true
 ;
-LoadFrameScriptInternal
+LoadScriptInternal
 (
 aURL
 aRunInGlobalScope
@@ -12486,7 +12486,7 @@ outOfProcessTabChildGlobal
 ;
 NS_ENSURE_TRUE
 (
-InitTabChildGlobalInternal
+InitChildGlobalInternal
 (
 scopeSupports
 globalId
