@@ -1856,6 +1856,10 @@ mAudio
 mRate
 0
 audio
+SourceMediaStream
+:
+:
+ADDTRACK_QUEUED
 )
 ;
 stream
@@ -1925,6 +1929,10 @@ AddTrack
 videoTrackId
 0
 video
+SourceMediaStream
+:
+:
+ADDTRACK_QUEUED
 )
 ;
 stream
@@ -1957,6 +1965,13 @@ stream
 mInitialTime
 ;
 }
+mediaStream
+-
+>
+FinishAddTracks
+(
+)
+;
 stream
 -
 >
