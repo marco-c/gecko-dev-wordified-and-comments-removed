@@ -2723,13 +2723,6 @@ java
 '
 tabs
 /
-RemoteTabsPanel
-.
-java
-'
-'
-tabs
-/
 TabCurve
 .
 java
