@@ -4643,6 +4643,9 @@ HYPERLINK
 interfaces
 |
 =
+1
+<
+<
 MAI_INTERFACE_HYPERLINK_IMPL
 ;
 if
@@ -4657,6 +4660,9 @@ VALUE
 interfaces
 |
 =
+1
+<
+<
 MAI_INTERFACE_VALUE
 ;
 if
@@ -4671,6 +4677,9 @@ TABLE
 interfaces
 |
 =
+1
+<
+<
 MAI_INTERFACE_TABLE
 ;
 if
@@ -4685,6 +4694,9 @@ IMAGE
 interfaces
 |
 =
+1
+<
+<
 MAI_INTERFACE_IMAGE
 ;
 if
@@ -4699,6 +4711,9 @@ DOCUMENT
 interfaces
 |
 =
+1
+<
+<
 MAI_INTERFACE_DOCUMENT
 ;
 return
