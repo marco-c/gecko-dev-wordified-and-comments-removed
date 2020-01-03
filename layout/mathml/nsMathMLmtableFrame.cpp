@@ -1072,23 +1072,16 @@ rowIndex
 int32_t
 columnIndex
 ;
-nsMathMLmtableFrame
+nsTableFrame
 *
-mathMLmtableFrame
+table
 =
-static_cast
-<
-nsMathMLmtableFrame
-*
->
-(
 nsTableFrame
 :
 :
 GetTableFrame
 (
 aFrame
-)
 )
 ;
 aFrame
@@ -1110,7 +1103,7 @@ overflow
 .
 left
 =
-mathMLmtableFrame
+table
 -
 >
 GetCellSpacingX
@@ -1123,7 +1116,7 @@ overflow
 .
 right
 =
-mathMLmtableFrame
+table
 -
 >
 GetCellSpacingX
@@ -1140,7 +1133,7 @@ if
 columnIndex
 =
 =
-mathMLmtableFrame
+table
 -
 >
 GetColCount
@@ -1154,7 +1147,7 @@ overflow
 .
 left
 =
-mathMLmtableFrame
+table
 -
 >
 GetCellSpacingX
@@ -1170,7 +1163,7 @@ overflow
 .
 right
 =
-mathMLmtableFrame
+table
 -
 >
 GetCellSpacingX
@@ -1187,7 +1180,7 @@ overflow
 .
 left
 =
-mathMLmtableFrame
+table
 -
 >
 GetCellSpacingX
@@ -1203,7 +1196,7 @@ overflow
 .
 right
 =
-mathMLmtableFrame
+table
 -
 >
 GetCellSpacingX
@@ -1224,7 +1217,7 @@ overflow
 .
 top
 =
-mathMLmtableFrame
+table
 -
 >
 GetCellSpacingY
@@ -1237,7 +1230,7 @@ overflow
 .
 bottom
 =
-mathMLmtableFrame
+table
 -
 >
 GetCellSpacingY
@@ -1254,7 +1247,7 @@ if
 rowIndex
 =
 =
-mathMLmtableFrame
+table
 -
 >
 GetRowCount
@@ -1268,7 +1261,7 @@ overflow
 .
 top
 =
-mathMLmtableFrame
+table
 -
 >
 GetCellSpacingY
@@ -1284,7 +1277,7 @@ overflow
 .
 bottom
 =
-mathMLmtableFrame
+table
 -
 >
 GetCellSpacingY
@@ -1301,7 +1294,7 @@ overflow
 .
 top
 =
-mathMLmtableFrame
+table
 -
 >
 GetCellSpacingY
@@ -1317,7 +1310,7 @@ overflow
 .
 bottom
 =
-mathMLmtableFrame
+table
 -
 >
 GetCellSpacingY
