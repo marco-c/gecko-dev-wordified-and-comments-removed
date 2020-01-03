@@ -2135,7 +2135,7 @@ const
 uint32_t
 kDefaultHelperStackSize
 =
-512
+2048
 *
 1024
 ;
@@ -2144,7 +2144,7 @@ const
 uint32_t
 kDefaultHelperStackQuota
 =
-450
+1800
 *
 1024
 ;
