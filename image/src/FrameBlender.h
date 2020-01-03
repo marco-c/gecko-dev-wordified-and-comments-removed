@@ -48,6 +48,7 @@ FrameBlender
 {
 public
 :
+explicit
 FrameBlender
 (
 FrameSequence

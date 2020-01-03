@@ -56,6 +56,7 @@ Decoder
 {
 public
 :
+explicit
 nsICODecoder
 (
 RasterImage

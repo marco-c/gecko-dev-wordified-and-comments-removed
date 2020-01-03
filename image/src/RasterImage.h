@@ -786,6 +786,7 @@ aStatus
 struct
 DecodeRequest
 {
+explicit
 DecodeRequest
 (
 RasterImage
@@ -1154,6 +1155,7 @@ Run
 ;
 private
 :
+explicit
 FrameNeededWorker
 (
 RasterImage
@@ -1788,6 +1790,7 @@ Run
 ;
 private
 :
+explicit
 HandleErrorWorker
 (
 RasterImage
@@ -1831,6 +1834,7 @@ const
 ;
 protected
 :
+explicit
 RasterImage
 (
 imgStatusTracker
@@ -1883,6 +1887,7 @@ nsRunnable
 {
 public
 :
+explicit
 imgDecodeRequestor
 (
 RasterImage

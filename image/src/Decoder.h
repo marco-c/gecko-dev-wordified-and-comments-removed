@@ -96,6 +96,7 @@ Decoder
 {
 public
 :
+explicit
 Decoder
 (
 RasterImage

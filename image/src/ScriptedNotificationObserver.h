@@ -42,6 +42,7 @@ imgINotificationObserver
 {
 public
 :
+explicit
 ScriptedNotificationObserver
 (
 imgIScriptedNotificationObserver

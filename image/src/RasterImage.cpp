@@ -1210,6 +1210,7 @@ nsRunnable
 {
 public
 :
+explicit
 DrawRunner
 (
 ScaleRequest

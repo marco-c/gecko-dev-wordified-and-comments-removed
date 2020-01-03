@@ -42,6 +42,7 @@ Decoder
 {
 public
 :
+explicit
 nsGIFDecoder2
 (
 RasterImage

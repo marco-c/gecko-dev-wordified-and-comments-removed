@@ -93,6 +93,7 @@ imgDecoderObserver
 {
 public
 :
+explicit
 imgStatusTrackerObserver
 (
 imgStatusTracker

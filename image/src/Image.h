@@ -522,6 +522,7 @@ get
 }
 protected
 :
+explicit
 ImageResource
 (
 ImageURL

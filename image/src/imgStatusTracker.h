@@ -476,6 +476,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 imgStatusTracker
 )
+explicit
 imgStatusTracker
 (
 mozilla
