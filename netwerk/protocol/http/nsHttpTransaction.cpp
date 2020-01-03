@@ -225,12 +225,6 @@ mozilla
 namespace
 net
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 static
 void
 LogHeaders
@@ -373,8 +367,6 @@ endOfLine
 ;
 }
 }
-#
-endif
 nsHttpTransaction
 :
 :
@@ -1421,12 +1413,6 @@ mReqHeaderBuf
 pruneProxyHeaders
 )
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 LOG3_ENABLED
@@ -1468,8 +1454,6 @@ n
 )
 ;
 }
-#
-endif
 if
 (
 !
@@ -6057,12 +6041,6 @@ if
 mResponseHead
 )
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 if
 (
 LOG3_ENABLED
@@ -6116,8 +6094,6 @@ n
 )
 ;
 }
-#
-endif
 mHttpVersion
 =
 mResponseHead
@@ -6459,12 +6435,6 @@ mContentLength
 1
 ;
 }
-#
-if
-defined
-(
-PR_LOGGING
-)
 else
 if
 (
@@ -6496,8 +6466,6 @@ n
 )
 )
 ;
-#
-endif
 }
 if
 (

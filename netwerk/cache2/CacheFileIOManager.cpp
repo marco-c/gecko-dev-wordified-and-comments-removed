@@ -14398,9 +14398,6 @@ nsIFile
 aFile
 )
 {
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 path
 ;
@@ -14412,8 +14409,6 @@ GetNativePath
 path
 )
 ;
-#
-endif
 LOG
 (
 (
@@ -15511,9 +15506,6 @@ while
 "
 )
 ;
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 path
 ;
@@ -15525,8 +15517,6 @@ GetNativePath
 path
 )
 ;
-#
-endif
 LOG
 (
 (
@@ -18498,9 +18488,6 @@ rv
 ;
 }
 }
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 path
 ;
@@ -18512,8 +18499,6 @@ GetNativePath
 path
 )
 ;
-#
-endif
 LOG
 (
 (

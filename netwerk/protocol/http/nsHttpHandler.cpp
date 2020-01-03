@@ -1011,12 +1011,6 @@ mEnforceH1Framing
 FRAMECHECK_BARELY
 )
 {
-#
-if
-defined
-(
-PR_LOGGING
-)
 gHttpLog
 =
 PR_NewLogModule
@@ -1026,8 +1020,6 @@ nsHttp
 "
 )
 ;
-#
-endif
 LOG
 (
 (

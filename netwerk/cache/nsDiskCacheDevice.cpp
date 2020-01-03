@@ -267,9 +267,6 @@ NSDISKCACHEDEVICEDEACTIVATEENTRYEVENT_RUN
 )
 )
 ;
-#
-ifdef
-PR_LOGGING
 CACHE_LOG_DEBUG
 (
 (
@@ -286,8 +283,6 @@ this
 )
 )
 ;
-#
-endif
 if
 (
 !
