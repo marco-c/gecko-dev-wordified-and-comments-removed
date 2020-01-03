@@ -194,6 +194,17 @@ addBrowserActors
 (
 )
 ;
+debuggerServer
+.
+allowChromeProcess
+=
+!
+l10n
+.
+hiddenByChromePref
+(
+)
+;
 return
 debuggerServer
 ;
