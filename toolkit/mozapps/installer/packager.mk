@@ -2213,9 +2213,9 @@ DIR_TO_BE_PACKAGED
 )
 )
 |
-bzip2
+xz
 -
-vf
+9e
 >
 (
 SOURCE_TAR

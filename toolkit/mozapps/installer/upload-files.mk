@@ -5815,7 +5815,7 @@ PKG_SRCPACK_BASENAME
 .
 tar
 .
-bz2
+xz
 HG_BUNDLE_FILE
 =
 (
