@@ -954,10 +954,8 @@ Impl
 (
 )
 ;
-goto
-parameters_check_done
-;
 }
+else
 if
 (
 aPath
@@ -986,10 +984,8 @@ error
 NS_ERROR_DOM_FILESYSTEM_INVALID_PATH_ERR
 ;
 }
-goto
-parameters_check_done
-;
 }
+else
 if
 (
 !
@@ -1011,10 +1007,9 @@ error
 =
 NS_ERROR_DOM_SECURITY_ERR
 ;
-goto
-parameters_check_done
-;
 }
+else
+{
 realPath
 =
 aPath
@@ -1043,8 +1038,7 @@ error
 NS_ERROR_DOM_FILESYSTEM_NO_MODIFICATION_ALLOWED_ERR
 ;
 }
-parameters_check_done
-:
+}
 nsRefPtr
 <
 RemoveTask
