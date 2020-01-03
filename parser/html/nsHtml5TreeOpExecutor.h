@@ -675,6 +675,13 @@ aURL
 void
 SetSpeculationReferrerPolicy
 (
+ReferrerPolicy
+aReferrerPolicy
+)
+;
+void
+SetSpeculationReferrerPolicy
+(
 const
 nsAString
 &
