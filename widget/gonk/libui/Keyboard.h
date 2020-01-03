@@ -278,6 +278,16 @@ axisId
 ;
 extern
 int32_t
+getLedByLabel
+(
+const
+char
+*
+label
+)
+;
+extern
+int32_t
 updateMetaState
 (
 int32_t
