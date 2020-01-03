@@ -949,8 +949,6 @@ matches_always
 perm_n_n
 [
 uri0_n_n
-uri3_n_n
-uri5_n_n
 ]
 )
 ;
@@ -959,7 +957,6 @@ matches_weak
 perm_n_n
 [
 uri1_n_n
-uri4_n_n
 ]
 )
 ;
@@ -968,6 +965,9 @@ matches_never
 perm_n_n
 [
 uri2_n_n
+uri3_n_n
+uri4_n_n
+uri5_n_n
 uri0_1000_n
 uri1_1000_n
 uri2_1000_n
@@ -1000,8 +1000,6 @@ matches_always
 perm_1000_n
 [
 uri0_1000_n
-uri3_1000_n
-uri5_1000_n
 ]
 )
 ;
@@ -1010,7 +1008,6 @@ matches_weak
 perm_1000_n
 [
 uri1_1000_n
-uri4_1000_n
 ]
 )
 ;
@@ -1019,6 +1016,9 @@ matches_never
 perm_1000_n
 [
 uri2_1000_n
+uri3_1000_n
+uri4_1000_n
+uri5_1000_n
 uri0_n_n
 uri1_n_n
 uri2_n_n
@@ -1051,8 +1051,6 @@ matches_always
 perm_1000_y
 [
 uri0_1000_y
-uri3_1000_y
-uri5_1000_y
 ]
 )
 ;
@@ -1061,7 +1059,6 @@ matches_weak
 perm_1000_y
 [
 uri1_1000_y
-uri4_1000_y
 ]
 )
 ;
@@ -1070,6 +1067,9 @@ matches_never
 perm_1000_y
 [
 uri2_1000_y
+uri3_1000_y
+uri4_1000_y
+uri5_1000_y
 uri0_n_n
 uri1_n_n
 uri2_n_n
@@ -1102,8 +1102,6 @@ matches_always
 perm_2000_n
 [
 uri0_2000_n
-uri3_2000_n
-uri5_2000_n
 ]
 )
 ;
@@ -1112,7 +1110,6 @@ matches_weak
 perm_2000_n
 [
 uri1_2000_n
-uri4_2000_n
 ]
 )
 ;
@@ -1121,6 +1118,9 @@ matches_never
 perm_2000_n
 [
 uri2_2000_n
+uri3_2000_n
+uri4_2000_n
+uri5_2000_n
 uri0_n_n
 uri1_n_n
 uri2_n_n
@@ -1153,8 +1153,6 @@ matches_always
 perm_2000_y
 [
 uri0_2000_y
-uri3_2000_y
-uri5_2000_y
 ]
 )
 ;
@@ -1163,7 +1161,6 @@ matches_weak
 perm_2000_y
 [
 uri1_2000_y
-uri4_2000_y
 ]
 )
 ;
@@ -1172,6 +1169,9 @@ matches_never
 perm_2000_y
 [
 uri2_2000_y
+uri3_2000_y
+uri4_2000_y
+uri5_2000_y
 uri0_n_n
 uri1_n_n
 uri2_n_n
