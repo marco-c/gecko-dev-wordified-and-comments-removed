@@ -5970,8 +5970,9 @@ destroy
 }
 )
 .
-catch
+then
 (
+null
 console
 .
 error
@@ -5990,8 +5991,9 @@ _closeToolboxUI
 )
 )
 .
-catch
+then
 (
+null
 console
 .
 error

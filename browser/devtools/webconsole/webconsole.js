@@ -1481,6 +1481,13 @@ persistLog
 )
 {
 return
+this
+.
+owner
+.
+_browserConsole
+|
+|
 Services
 .
 prefs
@@ -14358,6 +14365,11 @@ getInspectorSelection
 if
 (
 inspectorSelection
+&
+&
+inspectorSelection
+.
+nodeFront
 )
 {
 selectedNodeActor
