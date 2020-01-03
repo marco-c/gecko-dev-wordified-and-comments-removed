@@ -752,6 +752,9 @@ NPPVpluginCoreAnimationLayer
 1003
 #
 endif
+NPPVpluginIsPlayingAudio
+=
+4000
 }
 NPPVariable
 ;
@@ -888,6 +891,9 @@ NPNVsupportsCocoaBool
 NPNVsupportsUpdatedCocoaTextInputBool
 =
 3002
+NPNVmuteAudioBool
+=
+4000
 NPNVsupportsCompositingCoreAnimationPluginsBool
 =
 74656
