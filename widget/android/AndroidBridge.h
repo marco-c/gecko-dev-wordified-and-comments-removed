@@ -835,13 +835,13 @@ aDrawingCritical
 mozilla
 :
 :
-ScreenPoint
+ParentLayerPoint
 &
 aScrollOffset
 mozilla
 :
 :
-CSSToScreenScale
+CSSToParentLayerScale
 &
 aZoom
 )
@@ -1401,10 +1401,10 @@ CSSToLayerScale
 aDisplayResolution
 bool
 aLayersUpdated
-ScreenPoint
+ParentLayerPoint
 &
 aScrollOffset
-CSSToScreenScale
+CSSToParentLayerScale
 &
 aScale
 LayerMargin
@@ -1419,7 +1419,7 @@ void
 SyncFrameMetrics
 (
 const
-ScreenPoint
+ParentLayerPoint
 &
 aScrollOffset
 float

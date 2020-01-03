@@ -766,9 +766,9 @@ FrameMetrics
 aCompositorMetrics
 )
 {
-ParentLayerToScreenScale
+LayerToParentLayerScale
 scale
-=
+(
 aCompositorMetrics
 .
 mPresShellResolution
@@ -778,8 +778,11 @@ aCompositorMetrics
 GetAsyncZoom
 (
 )
+.
+scale
+)
 ;
-ScreenPoint
+ParentLayerPoint
 translation
 =
 (
@@ -7307,8 +7310,6 @@ Metrics
 )
 .
 mPresShellResolution
-.
-scale
 aScrollAncestor
 .
 Metrics
@@ -7316,8 +7317,6 @@ Metrics
 )
 .
 mPresShellResolution
-.
-scale
 1
 .
 f
