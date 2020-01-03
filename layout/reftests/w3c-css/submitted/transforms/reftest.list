@@ -46,7 +46,6 @@ dynamic
 ref
 .
 html
-fails
 =
 =
 perspective
@@ -71,10 +70,6 @@ dynamic
 ref
 .
 html
-#
-bug
-1187851
-fails
 =
 =
 perspective
@@ -99,6 +94,3 @@ dynamic
 ref
 .
 html
-#
-bug
-1187851
