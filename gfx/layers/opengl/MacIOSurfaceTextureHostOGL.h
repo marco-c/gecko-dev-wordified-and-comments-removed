@@ -327,7 +327,7 @@ mCompositor
 ;
 RefPtr
 <
-MacIOSurfaceTextureSourceOGL
+GLTextureSource
 >
 mTextureSource
 ;
