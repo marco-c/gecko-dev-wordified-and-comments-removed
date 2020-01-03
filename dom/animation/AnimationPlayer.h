@@ -374,7 +374,7 @@ Tick
 )
 ;
 void
-ResolveStartTime
+StartNow
 (
 )
 ;
