@@ -628,6 +628,16 @@ void
 ClientResultRunnable
 ;
 typedef
+BluetoothResultRunnable1
+<
+BluetoothGattClientResultHandler
+void
+BluetoothTypeOfDevice
+BluetoothTypeOfDevice
+>
+ClientGetDeviceTypeResultRunnable
+;
+typedef
 BluetoothResultRunnable0
 <
 BluetoothGattResultHandler
@@ -1319,6 +1329,9 @@ ClientConnectDisconnectInitOp
 ;
 class
 ClientReadRemoteRssiInitOp
+;
+class
+ClientGetDeviceTypeInitOp
 ;
 void
 ClientRegisterNtf
