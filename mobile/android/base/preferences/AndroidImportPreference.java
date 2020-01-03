@@ -160,6 +160,7 @@ RestrictedProfiles
 .
 isAllowed
 (
+context
 Restriction
 .
 DISALLOW_IMPORT_SETTINGS

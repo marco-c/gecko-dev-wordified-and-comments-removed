@@ -1682,6 +1682,18 @@ Bundle
 savedInstanceState
 )
 {
+RestrictedProfiles
+.
+initWithProfile
+(
+GeckoProfile
+.
+get
+(
+this
+)
+)
+;
 if
 (
 GeckoProfile
@@ -3473,6 +3485,7 @@ RestrictedProfiles
 .
 isAllowed
 (
+this
 RestrictedProfiles
 .
 Restriction
@@ -3623,6 +3636,7 @@ RestrictedProfiles
 .
 isAllowed
 (
+this
 RestrictedProfiles
 .
 Restriction
