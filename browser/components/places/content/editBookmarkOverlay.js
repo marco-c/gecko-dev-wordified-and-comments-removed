@@ -299,6 +299,13 @@ isParentReadOnly
 =
 false
 ;
+let
+postData
+=
+aInitInfo
+.
+postData
+;
 if
 (
 node
@@ -361,6 +368,7 @@ isParentReadOnly
 bulkTagging
 uris
 visibleRows
+postData
 }
 ;
 }
@@ -3188,6 +3196,11 @@ PlacesEditBookmarkKeywordTransaction
 (
 itemId
 newKeyword
+this
+.
+_paneInfo
+.
+postData
 )
 ;
 PlacesUtils
