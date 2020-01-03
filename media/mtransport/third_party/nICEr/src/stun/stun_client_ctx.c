@@ -2181,6 +2181,8 @@ string
 char
 *
 username
+=
+0
 ;
 Data
 *
