@@ -2071,6 +2071,9 @@ GLenum
 pname
 )
 ;
+[
+Throws
+]
 void
 invalidateFramebuffer
 (
@@ -2083,6 +2086,9 @@ GLenum
 attachments
 )
 ;
+[
+Throws
+]
 void
 invalidateSubFramebuffer
 (
