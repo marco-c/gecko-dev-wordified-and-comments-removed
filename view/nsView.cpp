@@ -1375,7 +1375,7 @@ scale
 dx
 -
 >
-UnscaledAppUnitsPerDevPixel
+AppUnitsPerDevPixelAtUnitFullZoom
 (
 )
 )
@@ -1398,7 +1398,7 @@ invScale
 dx
 -
 >
-UnscaledAppUnitsPerDevPixel
+AppUnitsPerDevPixelAtUnitFullZoom
 (
 )
 /
