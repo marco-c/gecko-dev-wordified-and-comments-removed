@@ -129,6 +129,16 @@ function
 (
 )
 {
+history
+=
+tab
+.
+linkedBrowser
+.
+webNavigation
+.
+sessionHistory
+;
 ok
 (
 history
