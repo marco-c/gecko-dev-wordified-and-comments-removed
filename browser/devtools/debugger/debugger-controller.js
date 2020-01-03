@@ -1022,7 +1022,7 @@ form
 {
 chromeDebugger
 traceActor
-addonActor
+actor
 }
 }
 =
@@ -1074,7 +1074,9 @@ client
 ;
 if
 (
-addonActor
+target
+.
+isAddon
 )
 {
 yield
@@ -1082,7 +1084,7 @@ this
 .
 _startAddonDebugging
 (
-addonActor
+actor
 )
 ;
 }
