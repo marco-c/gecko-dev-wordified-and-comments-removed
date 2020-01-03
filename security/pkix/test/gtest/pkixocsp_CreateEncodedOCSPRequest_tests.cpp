@@ -1,7 +1,9 @@
 #
 include
 "
-nssgtest
+gtest
+/
+gtest
 .
 h
 "
@@ -214,7 +216,12 @@ class
 pkixocsp_CreateEncodedOCSPRequest
 :
 public
-NSSTest
+:
+:
+testing
+:
+:
+Test
 {
 protected
 :

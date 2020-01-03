@@ -98,11 +98,6 @@ SOURCES
 =
 [
 '
-nssgtest
-.
-cpp
-'
-'
 pkixbuild_tests
 .
 cpp
@@ -147,6 +142,11 @@ cpp
 '
 '
 pkixder_universal_types_tests
+.
+cpp
+'
+'
+pkixgtest
 .
 cpp
 '
