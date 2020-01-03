@@ -11491,6 +11491,11 @@ wrapper
 draggedItemId
 )
 ;
+if
+(
+draggedWrapper
+)
+{
 draggedWrapper
 .
 hidden
@@ -11506,6 +11511,7 @@ mousedown
 "
 )
 ;
+}
 if
 (
 this
