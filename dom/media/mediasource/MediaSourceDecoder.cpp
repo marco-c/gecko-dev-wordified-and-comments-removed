@@ -405,9 +405,7 @@ SetStateMachineParameters
 )
 ;
 return
-ScheduleStateMachine
-(
-)
+NS_OK
 ;
 }
 media

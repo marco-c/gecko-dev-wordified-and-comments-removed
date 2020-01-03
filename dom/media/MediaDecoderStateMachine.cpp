@@ -4787,6 +4787,10 @@ rv
 rv
 )
 ;
+ScheduleStateMachineCrossThread
+(
+)
+;
 return
 NS_OK
 ;

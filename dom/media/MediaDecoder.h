@@ -1397,11 +1397,6 @@ IsAppleMP3Enabled
 ;
 #
 endif
-nsresult
-ScheduleStateMachine
-(
-)
-;
 struct
 Statistics
 {
