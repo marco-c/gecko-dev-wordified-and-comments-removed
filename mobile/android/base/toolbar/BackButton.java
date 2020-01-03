@@ -251,8 +251,6 @@ height
 width
 /
 2
--
-mBorderWidth
 Path
 .
 Direction
@@ -282,7 +280,11 @@ width
 2
 )
 -
+(
 mBorderWidth
+/
+2
+)
 Path
 .
 Direction
