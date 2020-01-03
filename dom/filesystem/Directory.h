@@ -180,7 +180,7 @@ override
 void
 GetName
 (
-nsString
+nsAString
 &
 aRetval
 )

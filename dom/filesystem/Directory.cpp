@@ -312,7 +312,7 @@ Directory
 :
 GetName
 (
-nsString
+nsAString
 &
 aRetval
 )
