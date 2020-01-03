@@ -12,6 +12,13 @@ function
 )
 {
 }
+set
+:
+function
+(
+)
+{
+}
 }
 )
 Object

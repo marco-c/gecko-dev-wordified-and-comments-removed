@@ -57,6 +57,17 @@ id
 )
 {
 }
+set
+:
+function
+(
+obj
+id
+v
+rec
+)
+{
+}
 }
 )
 ;
