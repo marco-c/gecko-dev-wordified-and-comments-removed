@@ -202,6 +202,14 @@ TrackBuffersManager
 cpp
 '
 ]
+TEST_DIRS
++
+=
+[
+'
+gtest
+'
+]
 FAIL_ON_WARNINGS
 =
 True
