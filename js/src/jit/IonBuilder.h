@@ -1394,6 +1394,16 @@ int32_t
 i
 )
 ;
+MConstant
+*
+constantMaybeAtomize
+(
+const
+Value
+&
+v
+)
+;
 bool
 improveTypesAtTest
 (
