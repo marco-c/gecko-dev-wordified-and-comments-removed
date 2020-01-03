@@ -4494,7 +4494,7 @@ UniformMatrix2fv_base
 WebGLUniformLocation
 *
 loc
-WebGLboolean
+bool
 transpose
 size_t
 arrayLength
@@ -4587,7 +4587,7 @@ UniformMatrix3fv_base
 WebGLUniformLocation
 *
 loc
-WebGLboolean
+bool
 transpose
 size_t
 arrayLength
@@ -4643,7 +4643,7 @@ UniformMatrix4fv
 WebGLUniformLocation
 *
 loc
-WebGLboolean
+bool
 transpose
 const
 dom
@@ -4680,7 +4680,7 @@ UniformMatrix4fv_base
 WebGLUniformLocation
 *
 loc
-WebGLboolean
+bool
 transpose
 size_t
 arrayLength
@@ -4773,7 +4773,9 @@ WebGLUniformLocation
 *
 loc
 uint8_t
-setterDims
+setterCols
+uint8_t
+setterRows
 GLenum
 setterType
 size_t
@@ -7258,6 +7260,20 @@ target
 WebGLBuffer
 *
 buffer
+const
+char
+*
+info
+)
+=
+0
+;
+virtual
+bool
+ValidateUniformMatrixTranspose
+(
+bool
+transpose
 const
 char
 *

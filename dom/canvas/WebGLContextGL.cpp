@@ -12568,6 +12568,7 @@ ValidateUniformMatrixArraySetter
 (
 loc
 2
+2
 LOCAL_GL_FLOAT
 arrayLength
 transpose
@@ -12632,6 +12633,7 @@ ValidateUniformMatrixArraySetter
 (
 loc
 3
+3
 LOCAL_GL_FLOAT
 arrayLength
 transpose
@@ -12695,6 +12697,7 @@ if
 ValidateUniformMatrixArraySetter
 (
 loc
+4
 4
 LOCAL_GL_FLOAT
 arrayLength
