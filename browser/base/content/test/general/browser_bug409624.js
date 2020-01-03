@@ -114,7 +114,7 @@ Components
 .
 interfaces
 .
-nsIPrefBranch2
+nsIPrefService
 )
 ;
 let
