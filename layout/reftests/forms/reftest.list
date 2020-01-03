@@ -3,6 +3,9 @@ skip
 if
 (
 B2G
+|
+|
+Mulet
 )
 HTTP
 (
@@ -31,6 +34,17 @@ baseline
 ref
 .
 html
+#
+Initial
+mulet
+triage
+:
+parity
+with
+B2G
+/
+B2G
+Desktop
 #
 button
 element

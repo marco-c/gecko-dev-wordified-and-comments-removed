@@ -3,6 +3,9 @@ skip
 if
 (
 B2G
+|
+|
+Mulet
 )
 =
 =
@@ -14,6 +17,17 @@ legend
 ref
 .
 html
+#
+Initial
+mulet
+triage
+:
+parity
+with
+B2G
+/
+B2G
+Desktop
 pref
 (
 dom

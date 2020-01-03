@@ -311,6 +311,9 @@ skip
 if
 (
 B2G
+|
+|
+Mulet
 )
 =
 =
@@ -324,6 +327,17 @@ green
 rect
 .
 html
+#
+Initial
+mulet
+triage
+:
+parity
+with
+B2G
+/
+B2G
+Desktop
 fuzzy
 -
 if

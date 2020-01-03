@@ -1799,6 +1799,9 @@ skip
 if
 (
 B2G
+|
+|
+Mulet
 )
 =
 =
@@ -1818,6 +1821,17 @@ resizeviewport
 ref
 .
 xhtml
+#
+Initial
+mulet
+triage
+:
+parity
+with
+B2G
+/
+B2G
+Desktop
 #
 Tests
 for

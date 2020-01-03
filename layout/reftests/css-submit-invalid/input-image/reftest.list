@@ -39,6 +39,9 @@ skip
 if
 (
 B2G
+|
+|
+Mulet
 )
 =
 =
@@ -52,6 +55,17 @@ invalid
 ref
 .
 html
+#
+Initial
+mulet
+triage
+:
+parity
+with
+B2G
+/
+B2G
+Desktop
 =
 =
 dynamic

@@ -17,6 +17,9 @@ skip
 if
 (
 B2G
+|
+|
+Mulet
 )
 fails
 -
@@ -43,6 +46,17 @@ test
 for
 bug
 464589
+#
+Initial
+mulet
+triage
+:
+parity
+with
+B2G
+/
+B2G
+Desktop
 !
 =
 checked

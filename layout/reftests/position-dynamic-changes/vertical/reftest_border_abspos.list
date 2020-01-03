@@ -327,6 +327,9 @@ skip
 if
 (
 B2G
+|
+|
+Mulet
 )
 =
 =
@@ -352,6 +355,17 @@ ref
 html
 ?
 border_abspos
+#
+Initial
+mulet
+triage
+:
+parity
+with
+B2G
+/
+B2G
+Desktop
 =
 =
 fromauto

@@ -255,6 +255,9 @@ fails
 if
 (
 B2G
+|
+|
+Mulet
 )
 =
 =
@@ -273,6 +276,17 @@ html
 #
 B2G
 kerning
+#
+Initial
+mulet
+triage
+:
+parity
+with
+B2G
+/
+B2G
+Desktop
 =
 =
 descriptor

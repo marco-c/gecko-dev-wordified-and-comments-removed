@@ -3,6 +3,9 @@ skip
 if
 (
 B2G
+|
+|
+Mulet
 )
 =
 =
@@ -25,6 +28,17 @@ html
 #
 bug
 773482
+#
+Initial
+mulet
+triage
+:
+parity
+with
+B2G
+/
+B2G
+Desktop
 =
 =
 dynamic
