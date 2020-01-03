@@ -15788,6 +15788,11 @@ lenWithNull
 nsAutoCString
 info
 ;
+if
+(
+len
+)
+{
 info
 .
 SetLength
@@ -15805,6 +15810,7 @@ BeginWriting
 )
 )
 ;
+}
 shader
 -
 >
