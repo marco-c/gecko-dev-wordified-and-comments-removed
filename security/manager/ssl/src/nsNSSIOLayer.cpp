@@ -4441,12 +4441,6 @@ return
 9
 ;
 case
-SSL_ERROR_UNSUPPORTED_VERSION
-:
-return
-10
-;
-case
 SSL_ERROR_PROTOCOL_VERSION_ALERT
 :
 return
