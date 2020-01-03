@@ -821,6 +821,16 @@ numRemoteWindows
 ;
 }
 }
+data
+.
+remoteAutoStart
+=
+Services
+.
+appinfo
+.
+browserTabsRemoteAutostart
+;
 done
 (
 data
