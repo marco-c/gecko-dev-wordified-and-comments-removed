@@ -560,7 +560,7 @@ setBreakpoint
 {
 line
 :
-3
+1
 }
 aResponse
 =
@@ -1109,13 +1109,8 @@ value
 '
 stop
 '
-hasn
-'
-t
-been
-assigned
-to
-yet
+is
+5
 .
 "
 )
