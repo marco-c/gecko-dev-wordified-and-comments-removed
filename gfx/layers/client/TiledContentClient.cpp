@@ -7436,6 +7436,7 @@ GetAncestorLayers
 &
 scrollAncestor
 nullptr
+nullptr
 )
 ;
 ViewTransform
