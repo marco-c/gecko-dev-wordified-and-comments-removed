@@ -374,6 +374,10 @@ PBrowserParent
 *
 aActor
 const
+TabId
+&
+aTabId
+const
 IPCTabContext
 &
 aContext
@@ -402,6 +406,7 @@ PContentBridgeParent
 SendPBrowserConstructor
 (
 aActor
+aTabId
 aContext
 aChromeFlags
 aCpID
@@ -507,6 +512,10 @@ ContentBridgeParent
 AllocPBrowserParent
 (
 const
+TabId
+&
+aTabId
+const
 IPCTabContext
 &
 aContext
@@ -534,6 +543,7 @@ nsIContentParent
 :
 AllocPBrowserParent
 (
+aTabId
 aContext
 aChromeFlags
 aCpID

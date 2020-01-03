@@ -168,6 +168,11 @@ ContentProcess
 h
 '
 '
+ContentProcessManager
+.
+h
+'
+'
 CPOWManagerGetter
 .
 h
@@ -281,6 +286,11 @@ cpp
 '
 '
 ContentProcess
+.
+cpp
+'
+'
+ContentProcessManager
 .
 cpp
 '
@@ -447,6 +457,11 @@ ipdl
 PBrowser
 .
 ipdl
+'
+'
+PBrowserOrId
+.
+ipdlh
 '
 '
 PColorPicker

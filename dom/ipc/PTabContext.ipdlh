@@ -118,6 +118,9 @@ include
 protocol
 PBrowser
 ;
+include
+PBrowserOrId
+;
 using
 mozilla
 :
@@ -282,7 +285,7 @@ it
 struct
 PopupIPCTabContext
 {
-PBrowser
+PBrowserOrId
 opener
 ;
 bool

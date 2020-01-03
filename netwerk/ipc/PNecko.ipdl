@@ -198,6 +198,9 @@ InputStreamParams
 include
 NeckoChannelParams
 ;
+include
+PBrowserOrId
+;
 using
 class
 IPC
@@ -217,16 +220,6 @@ mozilla
 namespace
 net
 {
-union
-PBrowserOrId
-{
-nullable
-PBrowser
-;
-uint64_t
-;
-}
-;
 /
 /
 -

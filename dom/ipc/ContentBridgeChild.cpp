@@ -366,6 +366,10 @@ PBrowserChild
 *
 aActor
 const
+TabId
+&
+aTabId
+const
 IPCTabContext
 &
 aContext
@@ -394,6 +398,7 @@ PContentBridgeChild
 SendPBrowserConstructor
 (
 aActor
+aTabId
 aContext
 aChromeFlags
 aCpID
@@ -513,6 +518,10 @@ ContentBridgeChild
 AllocPBrowserChild
 (
 const
+TabId
+&
+aTabId
+const
 IPCTabContext
 &
 aContext
@@ -540,6 +549,7 @@ nsIContentChild
 :
 AllocPBrowserChild
 (
+aTabId
 aContext
 aChromeFlags
 aCpID
@@ -578,6 +588,10 @@ RecvPBrowserConstructor
 PBrowserChild
 *
 aActor
+const
+TabId
+&
+aTabId
 const
 IPCTabContext
 &
@@ -612,6 +626,7 @@ GetSingleton
 RecvPBrowserConstructor
 (
 aActor
+aTabId
 aContext
 aChromeFlags
 aCpID
