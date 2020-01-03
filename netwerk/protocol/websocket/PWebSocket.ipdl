@@ -255,6 +255,10 @@ nsCString
 aProtocol
 nsCString
 aExtensions
+nsString
+aEffectiveURL
+bool
+aEncrypted
 )
 ;
 OnStop
