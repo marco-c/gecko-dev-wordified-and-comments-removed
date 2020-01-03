@@ -135,10 +135,10 @@ define
 NS_WARN_UNUSED_RESULT
 #
 undef
-NS_ATTR_MALLOC
+MOZ_ALLOCATOR
 #
 define
-NS_ATTR_MALLOC
+MOZ_ALLOCATOR
 #
 endif
 #
@@ -186,8 +186,7 @@ moz_xmalloc
 size_t
 size
 )
-NS_ATTR_MALLOC
-NS_WARN_UNUSED_RESULT
+MOZ_ALLOCATOR
 ;
 MFBT_API
 void
@@ -199,8 +198,7 @@ nmemb
 size_t
 size
 )
-NS_ATTR_MALLOC
-NS_WARN_UNUSED_RESULT
+MOZ_ALLOCATOR
 ;
 MFBT_API
 void
@@ -213,8 +211,7 @@ ptr
 size_t
 size
 )
-NS_ATTR_MALLOC
-NS_WARN_UNUSED_RESULT
+MOZ_ALLOCATOR
 ;
 MFBT_API
 char
@@ -226,8 +223,7 @@ char
 *
 str
 )
-NS_ATTR_MALLOC
-NS_WARN_UNUSED_RESULT
+MOZ_ALLOCATOR
 ;
 MFBT_API
 size_t
@@ -266,8 +262,7 @@ str
 size_t
 strsize
 )
-NS_ATTR_MALLOC
-NS_WARN_UNUSED_RESULT
+MOZ_ALLOCATOR
 ;
 #
 endif
@@ -325,8 +320,7 @@ boundary
 size_t
 size
 )
-NS_ATTR_MALLOC
-NS_WARN_UNUSED_RESULT
+MOZ_ALLOCATOR
 ;
 #
 endif
@@ -344,8 +338,7 @@ moz_xvalloc
 size_t
 size
 )
-NS_ATTR_MALLOC
-NS_WARN_UNUSED_RESULT
+MOZ_ALLOCATOR
 ;
 #
 endif
