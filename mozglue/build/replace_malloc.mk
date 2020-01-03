@@ -78,6 +78,12 @@ _replace_init
 Wl
 -
 U
+_replace_get_bridge
+\
+-
+Wl
+-
+U
 _replace_malloc
 \
 -
