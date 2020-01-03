@@ -2311,6 +2311,9 @@ bool
 mDeviceSizeIsPageSize
 ;
 bool
+mWindowDraggingAllowed
+;
+bool
 mCanExecuteScripts
 ;
 void

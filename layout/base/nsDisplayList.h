@@ -2660,6 +2660,9 @@ mAncestorHasScrollEventHandler
 bool
 mHaveScrollableDisplayPort
 ;
+bool
+mWindowDraggingAllowed
+;
 }
 ;
 class
