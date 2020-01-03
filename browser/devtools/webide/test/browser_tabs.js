@@ -282,7 +282,7 @@ panel
 -
 item
 -
-custom
+other
 "
 )
 [

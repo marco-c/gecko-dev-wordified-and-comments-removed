@@ -2112,7 +2112,7 @@ header
 "
 >
 &
-runtimePanel_USBDevices
+runtimePanel_usb
 ;
 <
 /
@@ -2191,7 +2191,7 @@ runtime
 -
 panel
 -
-usbruntime
+usb
 "
 >
 <
@@ -2215,12 +2215,10 @@ runtime
 header
 -
 wifi
--
-devices
 "
 >
 &
-runtimePanel_WiFiDevices
+runtimePanel_wifi
 ;
 <
 /
@@ -2236,8 +2234,6 @@ runtime
 panel
 -
 wifi
--
-devices
 "
 >
 <
@@ -2255,7 +2251,7 @@ header
 "
 >
 &
-runtimePanel_simulators
+runtimePanel_simulator
 ;
 <
 /
@@ -2270,7 +2266,7 @@ runtime
 -
 panel
 -
-simulators
+simulator
 "
 >
 <
@@ -2320,7 +2316,7 @@ header
 "
 >
 &
-runtimePanel_custom
+runtimePanel_other
 ;
 <
 /
@@ -2335,7 +2331,7 @@ runtime
 -
 panel
 -
-custom
+other
 "
 >
 <
