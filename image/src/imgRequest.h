@@ -341,11 +341,7 @@ HadInsecureRedirect
 (
 )
 const
-{
-return
-mHadInsecureRedirect
 ;
-}
 int32_t
 GetCORSMode
 (
