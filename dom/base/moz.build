@@ -1440,11 +1440,6 @@ nsMimeTypeArray
 cpp
 '
 '
-nsMixedContentBlocker
-.
-cpp
-'
-'
 nsNameSpaceManager
 .
 cpp

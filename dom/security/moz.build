@@ -116,6 +116,11 @@ nsCSPUtils
 .
 h
 '
+'
+nsMixedContentBlocker
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -141,6 +146,11 @@ nsCSPUtils
 .
 cpp
 '
+'
+nsMixedContentBlocker
+.
+cpp
+'
 ]
 FAIL_ON_WARNINGS
 =
@@ -157,5 +167,13 @@ LOCAL_INCLUDES
 '
 /
 caps
+'
+'
+/
+netwerk
+/
+base
+/
+src
 '
 ]
