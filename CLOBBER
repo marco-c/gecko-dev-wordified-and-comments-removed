@@ -194,12 +194,11 @@ changes
 any
 more
 .
-Skia
-update
-needs
+dom
+/
+flattening
+might
+need
 a
 CLOBBER
-on
-all
-platforms
 .

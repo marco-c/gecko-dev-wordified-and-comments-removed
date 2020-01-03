@@ -93,6 +93,16 @@ MPL
 0
 /
 .
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]
 interfaces
 =
 [
@@ -300,9 +310,6 @@ storage
 '
 '
 mobilemessage
-'
-'
-src
 '
 '
 time
