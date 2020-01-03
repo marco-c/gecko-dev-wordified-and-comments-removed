@@ -1194,12 +1194,6 @@ mDrawTarget
 nsIMEUpdatePreference
 mIMEPreferenceOfParent
 ;
-uint32_t
-mIMELastReceivedSeqno
-;
-uint32_t
-mIMELastBlurSeqno
-;
 bool
 mNeedIMEStateInit
 ;
