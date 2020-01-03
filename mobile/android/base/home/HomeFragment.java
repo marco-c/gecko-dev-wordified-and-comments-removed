@@ -342,6 +342,7 @@ widget
 .
 Toast
 ;
+public
 abstract
 class
 HomeFragment

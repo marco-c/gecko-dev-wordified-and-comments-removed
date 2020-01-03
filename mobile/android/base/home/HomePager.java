@@ -378,6 +378,16 @@ browser_search
 "
 ;
 public
+static
+final
+String
+LIST_TAG_REMOTE_TABS
+=
+"
+remote_tabs
+"
+;
+public
 interface
 OnUrlOpenListener
 {
@@ -497,6 +507,7 @@ UNLOADED
 LOADING
 LOADED
 }
+public
 static
 final
 String
@@ -506,6 +517,7 @@ CAN_LOAD_ARG
 canLoad
 "
 ;
+public
 static
 final
 String
