@@ -2674,3 +2674,17 @@ autostart
 false
 )
 ;
+user_pref
+(
+"
+dom
+.
+ipc
+.
+tabs
+.
+shutdownTimeoutSecs
+"
+0
+)
+;
