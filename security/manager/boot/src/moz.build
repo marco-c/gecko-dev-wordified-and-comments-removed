@@ -110,11 +110,6 @@ UNIFIED_SOURCES
 =
 [
 '
-CertBlocklist
-.
-cpp
-'
-'
 DataStorage
 .
 cpp
