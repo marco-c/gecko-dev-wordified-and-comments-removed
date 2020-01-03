@@ -21548,6 +21548,7 @@ alloc
 )
 current
 pc
+callerResumePoint_
 MResumePoint
 :
 :
@@ -24721,6 +24722,7 @@ alloc
 )
 dispatchBlock
 pc
+callerResumePoint_
 MResumePoint
 :
 :
@@ -34255,6 +34257,7 @@ block
 (
 )
 pc
+callerResumePoint_
 mode
 )
 ;
@@ -48061,6 +48064,7 @@ alloc
 )
 current
 pc
+callerResumePoint_
 MResumePoint
 :
 :
