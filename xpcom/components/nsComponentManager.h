@@ -345,6 +345,14 @@ mozilla
 Module
 kXPCOMRTModule
 ;
+extern
+const
+mozilla
+:
+:
+Module
+kNeckoStandaloneModule
+;
 #
 else
 extern
