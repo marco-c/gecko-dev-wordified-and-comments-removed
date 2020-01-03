@@ -121,7 +121,7 @@ icon
 "
 drawable
 /
-ic_menu_reload
+new_tablet_ic_menu_reload
 "
 android
 :
@@ -238,7 +238,7 @@ icon
 "
 drawable
 /
-ic_menu_bookmark_add
+new_tablet_ic_menu_bookmark_add
 "
 android
 :
