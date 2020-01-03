@@ -10035,6 +10035,12 @@ xhtml
 ref
 .
 xhtml
+skip
+-
+if
+(
+B2G
+)
 =
 =
 370629
@@ -10049,6 +10055,9 @@ html
 ref
 .
 html
+#
+bug
+1060869
 skip
 -
 if
