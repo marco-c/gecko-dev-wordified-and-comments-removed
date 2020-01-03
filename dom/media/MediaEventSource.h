@@ -63,6 +63,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 namespace
 mozilla
 {
