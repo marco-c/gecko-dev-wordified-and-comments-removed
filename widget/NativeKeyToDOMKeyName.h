@@ -3312,14 +3312,9 @@ KEY_MAP_ANDROID
 Live
 AKEYCODE_TV
 )
-KEY_MAP_ANDROID
-(
-Apps
-AKEYCODE_APP_SWITCH
-)
 KEY_MAP_QT
 (
-FastFwd
+MediaFastForward
 Qt
 :
 :
@@ -3327,7 +3322,7 @@ Key_AudioForward
 )
 KEY_MAP_ANDROID
 (
-FastFwd
+MediaFastForward
 AKEYCODE_MEDIA_FAST_FORWARD
 )
 KEY_MAP_QT

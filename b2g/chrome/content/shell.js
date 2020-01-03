@@ -2683,7 +2683,7 @@ rewind
 button
 '
 '
-FastFwd
+MediaFastForward
 '
 :
 '
