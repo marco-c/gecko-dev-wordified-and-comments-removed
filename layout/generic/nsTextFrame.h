@@ -1169,10 +1169,9 @@ MOZ_OVERRIDE
 nsOverflowAreas
 RecomputeOverflow
 (
-const
-nsHTMLReflowState
-&
-aBlockReflowState
+nsIFrame
+*
+aBlockFrame
 )
 ;
 enum
