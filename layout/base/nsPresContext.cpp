@@ -8440,10 +8440,13 @@ MediaQueryLists
 )
 )
 {
+nsTArray
+<
 MediaQueryList
 :
 :
-NotifyList
+HandleChangeData
+>
 notifyList
 ;
 for
