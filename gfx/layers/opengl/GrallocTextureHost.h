@@ -215,6 +215,13 @@ UnbindTextureSource
 )
 override
 ;
+virtual
+FenceHandle
+GetAndResetReleaseFenceHandle
+(
+)
+override
+;
 #
 if
 defined
