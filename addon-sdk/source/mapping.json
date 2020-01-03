@@ -170,6 +170,17 @@ loader
 loader
 "
 "
+memory
+"
+:
+"
+sdk
+/
+deprecated
+/
+memory
+"
+"
 namespace
 "
 :
