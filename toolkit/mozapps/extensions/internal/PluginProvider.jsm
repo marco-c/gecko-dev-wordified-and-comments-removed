@@ -378,6 +378,13 @@ var
 PluginProvider
 =
 {
+get
+name
+(
+)
+"
+PluginProvider
+"
 plugins
 :
 null

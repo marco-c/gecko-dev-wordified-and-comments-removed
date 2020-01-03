@@ -8415,6 +8415,13 @@ this
 XPIProvider
 =
 {
+get
+name
+(
+)
+"
+XPIProvider
+"
 installLocations
 :
 null

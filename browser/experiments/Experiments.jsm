@@ -11237,6 +11237,13 @@ Object
 freeze
 (
 {
+get
+name
+(
+)
+"
+PreviousExperimentProvider
+"
 startup
 :
 function

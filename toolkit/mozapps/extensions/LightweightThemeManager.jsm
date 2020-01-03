@@ -421,6 +421,13 @@ LightweightThemeManager
 =
 {
 get
+name
+(
+)
+"
+LightweightThemeManager
+"
+get
 usedThemes
 (
 )
