@@ -23995,7 +23995,7 @@ depth
 ;
 for
 (
-ScriptFrameIter
+AllFramesIter
 i
 (
 cx
