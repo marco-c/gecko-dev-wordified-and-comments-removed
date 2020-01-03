@@ -13065,7 +13065,7 @@ GetGeneration
 -
 1
 ;
-UpdateFontList
+UpdateUserFonts
 (
 )
 ;
@@ -13099,7 +13099,7 @@ void
 gfxFontGroup
 :
 :
-UpdateFontList
+UpdateUserFonts
 (
 )
 {

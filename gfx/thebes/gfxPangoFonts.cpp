@@ -4628,7 +4628,7 @@ have
 "
 "
 called
-UpdateFontList
+UpdateUserFonts
 on
 it
 "
@@ -4658,7 +4658,7 @@ void
 gfxPangoFontGroup
 :
 :
-UpdateFontList
+UpdateUserFonts
 (
 )
 {

@@ -1975,7 +1975,7 @@ have
 "
 "
 called
-UpdateFontList
+UpdateUserFonts
 on
 it
 "
@@ -2431,7 +2431,7 @@ aUserFontSet
 ;
 virtual
 void
-UpdateFontList
+UpdateUserFonts
 (
 )
 ;

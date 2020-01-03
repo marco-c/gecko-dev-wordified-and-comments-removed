@@ -14979,7 +14979,7 @@ direction
 mFontgrp
 -
 >
-UpdateFontList
+UpdateUserFonts
 (
 )
 ;
@@ -16740,7 +16740,7 @@ processor
 mFontgrp
 -
 >
-UpdateFontList
+UpdateUserFonts
 (
 )
 ;

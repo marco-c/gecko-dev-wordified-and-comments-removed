@@ -703,7 +703,7 @@ GetThebesFontGroup
 )
 -
 >
-UpdateFontList
+UpdateUserFonts
 (
 )
 ;
