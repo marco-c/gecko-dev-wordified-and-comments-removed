@@ -20618,7 +20618,7 @@ suppSlots
 addedIndex
 -
 >
-setInt32
+setInt32Specialization
 (
 )
 ;
