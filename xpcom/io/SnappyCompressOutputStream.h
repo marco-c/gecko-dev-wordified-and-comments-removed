@@ -72,6 +72,7 @@ const
 size_t
 kMaxBlockSize
 ;
+explicit
 SnappyCompressOutputStream
 (
 nsIOutputStream

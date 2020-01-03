@@ -18623,6 +18623,7 @@ mLoggingInfo
 ;
 public
 :
+explicit
 DatabaseLoggingInfo
 (
 const

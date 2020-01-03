@@ -250,6 +250,7 @@ mID
 }
 protected
 :
+explicit
 ProxyAccessible
 (
 DocAccessibleParent

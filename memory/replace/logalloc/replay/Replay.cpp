@@ -761,6 +761,7 @@ FdReader
 {
 public
 :
+explicit
 FdReader
 (
 int

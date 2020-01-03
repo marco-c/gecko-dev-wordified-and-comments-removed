@@ -67,6 +67,7 @@ SnappyFrameUtils
 {
 public
 :
+explicit
 SnappyUncompressInputStream
 (
 nsIInputStream
