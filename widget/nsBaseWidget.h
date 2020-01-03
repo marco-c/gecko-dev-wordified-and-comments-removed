@@ -696,6 +696,7 @@ bool
 IsMultiProcessWindow
 (
 )
+override
 ;
 virtual
 void
