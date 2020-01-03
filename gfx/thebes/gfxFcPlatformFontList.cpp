@@ -5779,6 +5779,16 @@ result
 )
 )
 ;
+if
+(
+!
+faces
+)
+{
+return
+nullptr
+;
+}
 for
 (
 int
