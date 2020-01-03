@@ -1,9 +1,9 @@
 #
 ifndef
-nsXPComPrivate_h__
+nsXPCOMPrivate_h__
 #
 define
-nsXPComPrivate_h__
+nsXPCOMPrivate_h__
 #
 include
 "

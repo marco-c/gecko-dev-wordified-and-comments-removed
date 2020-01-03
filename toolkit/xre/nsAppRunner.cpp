@@ -12661,7 +12661,7 @@ XREMain
 (
 )
 :
-mScopedXPCom
+mScopedXPCOM
 (
 nullptr
 )
@@ -12717,7 +12717,7 @@ mAppData
 }
 if
 (
-mScopedXPCom
+mScopedXPCOM
 )
 {
 NS_WARNING
@@ -12734,7 +12734,7 @@ deleted
 )
 ;
 delete
-mScopedXPCom
+mScopedXPCOM
 ;
 }
 }
@@ -12818,7 +12818,7 @@ mRemoteService
 endif
 ScopedXPCOMStartup
 *
-mScopedXPCom
+mScopedXPCOM
 ;
 ScopedAppData
 *
@@ -17043,7 +17043,7 @@ NS_OK
 ;
 NS_ASSERTION
 (
-mScopedXPCom
+mScopedXPCOM
 "
 Scoped
 xpcom
@@ -17199,7 +17199,7 @@ service
 endif
 rv
 =
-mScopedXPCom
+mScopedXPCOM
 -
 >
 SetWindowCreator
@@ -18577,7 +18577,7 @@ appInitiatedRestart
 =
 false
 ;
-mScopedXPCom
+mScopedXPCOM
 =
 new
 ScopedXPCOMStartup
@@ -18587,14 +18587,14 @@ ScopedXPCOMStartup
 if
 (
 !
-mScopedXPCom
+mScopedXPCOM
 )
 return
 1
 ;
 rv
 =
-mScopedXPCom
+mScopedXPCOM
 -
 >
 Initialize
@@ -18674,9 +18674,9 @@ Shutdown
 endif
 }
 delete
-mScopedXPCom
+mScopedXPCOM
 ;
-mScopedXPCom
+mScopedXPCOM
 =
 nullptr
 ;
@@ -18930,7 +18930,7 @@ NS_ERROR_FAILURE
 xreMainPtr
 -
 >
-mScopedXPCom
+mScopedXPCOM
 =
 new
 ScopedXPCOMStartup
@@ -18943,7 +18943,7 @@ if
 xreMainPtr
 -
 >
-mScopedXPCom
+mScopedXPCOM
 )
 return
 NS_ERROR_FAILURE
@@ -18953,7 +18953,7 @@ rv
 xreMainPtr
 -
 >
-mScopedXPCom
+mScopedXPCOM
 -
 >
 Initialize
@@ -19000,12 +19000,12 @@ delete
 xreMainPtr
 -
 >
-mScopedXPCom
+mScopedXPCOM
 ;
 xreMainPtr
 -
 >
-mScopedXPCom
+mScopedXPCOM
 =
 nullptr
 ;
@@ -19275,7 +19275,7 @@ NS_ASSERTION
 xreMainPtr
 -
 >
-mScopedXPCom
+mScopedXPCOM
 "
 XPCOM
 Shutdown
