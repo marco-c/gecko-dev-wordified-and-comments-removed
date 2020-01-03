@@ -32,6 +32,15 @@ h
 #
 include
 "
+mozilla
+/
+SSE
+.
+h
+"
+#
+include
+"
 convolver
 .
 h
@@ -771,7 +780,9 @@ mLinesInBuffer
 +
 ]
 mHasAlpha
-true
+supports_sse2
+(
+)
 )
 ;
 }
@@ -1045,7 +1056,9 @@ num_values
 )
 outputLine
 mHasAlpha
-true
+supports_sse2
+(
+)
 )
 ;
 mCurrentOutLine
