@@ -287,7 +287,6 @@ DisableTimer
 {
 if
 (
-!
 mIsDisabled
 )
 return
