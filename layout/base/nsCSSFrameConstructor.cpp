@@ -21236,6 +21236,15 @@ nsGkAtoms
 :
 :
 title
+|
+|
+aTag
+=
+=
+nsGkAtoms
+:
+:
+metadata
 )
 )
 {
