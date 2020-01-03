@@ -188,9 +188,6 @@ isCallable
 bool
 isConstructor
 ;
-bool
-isDOMObject
-;
 nsCString
 objectTag
 ;
