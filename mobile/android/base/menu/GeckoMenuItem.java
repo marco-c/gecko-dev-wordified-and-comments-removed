@@ -1466,6 +1466,11 @@ visible
 {
 if
 (
+isActionItem
+(
+)
+|
+|
 mVisible
 !
 =
