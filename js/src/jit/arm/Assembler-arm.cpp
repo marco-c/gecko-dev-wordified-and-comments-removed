@@ -10971,15 +10971,12 @@ idx
 1
 )
 ;
-if
+MOZ_ASSERT_IF
 (
 vt2
 =
 =
 InvalidReg
-)
-MOZ_ASSERT
-(
 f2c
 =
 =
