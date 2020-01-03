@@ -11700,6 +11700,13 @@ PreferenceManagerCompat
 java
 '
 '
+background
+/
+ReadingListConstants
+.
+java
+'
+'
 browserid
 /
 ASNUtils
@@ -14739,13 +14746,6 @@ java
 reading
 /
 ReadingListClientRecordFactory
-.
-java
-'
-'
-reading
-/
-ReadingListConstants
 .
 java
 '

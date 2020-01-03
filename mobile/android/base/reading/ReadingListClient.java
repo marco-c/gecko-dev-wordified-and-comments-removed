@@ -60,6 +60,17 @@ gecko
 .
 background
 .
+ReadingListConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+background
+.
 common
 .
 log
