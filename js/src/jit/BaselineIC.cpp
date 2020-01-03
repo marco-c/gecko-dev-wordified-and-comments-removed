@@ -10175,11 +10175,12 @@ JSObject
 *
 obj
 =
-NewInitArray
+NewDenseArray
 (
 cx
 length
 type
+NewArray_FullyAllocating
 )
 ;
 if

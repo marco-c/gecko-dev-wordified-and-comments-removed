@@ -230,7 +230,6 @@ NewArray_FullyAllocating
 extern
 ArrayObject
 *
-JS_FASTCALL
 NewDenseArray
 (
 ExclusiveContext

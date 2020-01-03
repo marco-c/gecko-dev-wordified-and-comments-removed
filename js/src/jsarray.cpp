@@ -16085,7 +16085,6 @@ newKind
 }
 ArrayObject
 *
-JS_FASTCALL
 js
 :
 :
