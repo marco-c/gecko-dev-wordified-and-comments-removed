@@ -949,9 +949,9 @@ BluetoothInterface
 void
 Init
 (
-btav_callbacks_t
+BluetoothA2dpNotificationHandler
 *
-aCallbacks
+aNotificationHandler
 BluetoothA2dpResultHandler
 *
 aRes
@@ -1312,9 +1312,9 @@ BluetoothInterface
 void
 Init
 (
-btrc_callbacks_t
+BluetoothAvrcpNotificationHandler
 *
-aCallbacks
+aNotificationHandler
 BluetoothAvrcpResultHandler
 *
 aRes
