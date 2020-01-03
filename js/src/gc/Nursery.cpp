@@ -2742,11 +2742,10 @@ RelocationOverlay
 *
 overlay
 =
-reinterpret_cast
-<
 RelocationOverlay
-*
->
+:
+:
+fromCell
 (
 src
 )
