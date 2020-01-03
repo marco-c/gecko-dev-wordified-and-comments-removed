@@ -16,6 +16,11 @@ endif
 #
 include
 <
+algorithm
+>
+#
+include
+<
 windows
 .
 h
