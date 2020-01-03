@@ -631,6 +631,17 @@ mDecoder
 nullptr
 ;
 }
+virtual
+bool
+IsAsync
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 virtual
