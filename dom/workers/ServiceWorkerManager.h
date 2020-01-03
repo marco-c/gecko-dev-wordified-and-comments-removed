@@ -1615,7 +1615,7 @@ aRegistration
 void
 RemoveAllRegistrations
 (
-OriginAttributes
+mozIApplicationClearPrivateDataParams
 *
 aParams
 )
