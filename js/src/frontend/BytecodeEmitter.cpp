@@ -15524,10 +15524,6 @@ emitOption
 DefineVars
 )
 ;
-ParseNode
-*
-pn3
-;
 bool
 doElemOp
 ;
@@ -15660,6 +15656,10 @@ member
 pn_next
 )
 {
+ParseNode
+*
+subpattern
+;
 if
 (
 pattern
@@ -15901,7 +15901,7 @@ stackDepth
 )
 ;
 }
-pn3
+subpattern
 =
 member
 -
@@ -16238,14 +16238,14 @@ return
 false
 ;
 }
-pn3
+subpattern
 =
 member
 ;
 }
 if
 (
-pn3
+subpattern
 -
 >
 isKind
@@ -16270,7 +16270,7 @@ JS_ASSERT
 member
 =
 =
-pn3
+subpattern
 )
 ;
 if
@@ -16305,7 +16305,7 @@ EmitDestructuringLHS
 (
 cx
 bce
-pn3
+subpattern
 emitOption
 )
 )
@@ -16391,7 +16391,7 @@ bce
 >
 reportError
 (
-pn3
+subpattern
 JSMSG_TOO_MANY_LOCALS
 )
 ;
