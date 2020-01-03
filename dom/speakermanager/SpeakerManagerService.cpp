@@ -900,7 +900,7 @@ audioChannelService
 AudioChannelService
 :
 :
-GetAudioChannelService
+GetOrCreateAudioChannelService
 (
 )
 ;
@@ -939,7 +939,7 @@ audioChannelService
 AudioChannelService
 :
 :
-GetAudioChannelService
+GetOrCreateAudioChannelService
 (
 )
 ;

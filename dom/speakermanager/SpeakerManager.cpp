@@ -888,7 +888,7 @@ audioChannelService
 AudioChannelService
 :
 :
-GetAudioChannelService
+GetOrCreateAudioChannelService
 (
 )
 ;

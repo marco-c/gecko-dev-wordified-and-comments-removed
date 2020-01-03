@@ -112,6 +112,13 @@ GetAudioChannelService
 )
 ;
 static
+AudioChannelService
+*
+GetOrCreateAudioChannelService
+(
+)
+;
+static
 void
 Shutdown
 (

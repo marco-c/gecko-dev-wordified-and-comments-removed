@@ -16867,15 +16867,10 @@ service
 AudioChannelService
 :
 :
-GetAudioChannelService
+GetOrCreateAudioChannelService
 (
 )
 ;
-if
-(
-service
-)
-{
 service
 -
 >
@@ -16884,7 +16879,6 @@ RefreshAgentsVolume
 this
 )
 ;
-}
 }
 void
 nsPIDOMWindow
