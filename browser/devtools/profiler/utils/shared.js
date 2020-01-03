@@ -1715,6 +1715,13 @@ features
 js
 "
 ]
+threadFilters
+:
+[
+"
+GeckoMain
+"
+]
 }
 }
 ;

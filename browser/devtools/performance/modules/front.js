@@ -1572,6 +1572,13 @@ features
 js
 "
 ]
+threadFilters
+:
+[
+"
+GeckoMain
+"
+]
 }
 getMocksInUse
 :
