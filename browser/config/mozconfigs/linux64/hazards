@@ -240,14 +240,6 @@ Wno
 -
 attributes
 "
-TOOLTOOL_DIR
-=
-"
-(
-dirname
-topsrcdir
-)
-"
 export
 PKG_CONFIG_LIBDIR
 =
