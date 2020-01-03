@@ -154,11 +154,6 @@ nsThreadManager
 ifdef
 MOZ_NUWA_PROCESS
 void
-SetIgnoreThreadStatus
-(
-)
-;
-void
 SetThreadIdle
 (
 nsIRunnable
