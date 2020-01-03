@@ -2334,6 +2334,16 @@ aFrame
 )
 ;
 static
+nsIFrame
+*
+LastContinuationOrIBSplitSibling
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 bool
 IsFirstContinuationOrIBSplitSibling
 (
