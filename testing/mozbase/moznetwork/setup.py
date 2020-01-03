@@ -138,4 +138,23 @@ install_requires
 =
 deps
       
+entry_points
+=
+{
+'
+console_scripts
+'
+:
+[
+          
+'
+moznetwork
+=
+moznetwork
+:
+cli
+'
+]
+}
+      
 )
