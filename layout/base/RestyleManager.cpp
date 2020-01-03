@@ -3584,7 +3584,7 @@ if
 (
 hint
 &
-nsChangeHint_UpdateContainingBlock
+nsChangeHint_AddOrRemoveTransform
 )
 &
 &

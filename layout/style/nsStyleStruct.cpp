@@ -6240,7 +6240,7 @@ HasFilters
 NS_UpdateHint
 (
 hint
-nsChangeHint_UpdateContainingBlock
+nsChangeHint_AddOrRemoveTransform
 )
 ;
 }
@@ -13130,7 +13130,7 @@ NS_UpdateHint
 hint
 NS_CombineHint
 (
-nsChangeHint_UpdateContainingBlock
+nsChangeHint_AddOrRemoveTransform
 NS_CombineHint
 (
 nsChangeHint_UpdateOverflow
@@ -13321,7 +13321,7 @@ HasPerspectiveStyle
 NS_UpdateHint
 (
 hint
-nsChangeHint_UpdateContainingBlock
+nsChangeHint_AddOrRemoveTransform
 )
 ;
 }
