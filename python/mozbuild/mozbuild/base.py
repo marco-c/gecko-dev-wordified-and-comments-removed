@@ -76,6 +76,10 @@ from
 virtualenv
 import
 VirtualenvManager
+_config_guess_output
+=
+[
+]
 def
 ancestors
 (
@@ -2274,6 +2278,16 @@ config_guess
 return
 config_guess
         
+if
+_config_guess_output
+:
+            
+return
+_config_guess_output
+[
+0
+]
+        
 p
 =
 os
@@ -2318,7 +2332,11 @@ p
 True
 )
         
-return
+_config_guess_output
+.
+append
+(
+                
 subprocess
 .
 check_output
@@ -2332,6 +2350,13 @@ topsrcdir
 strip
 (
 )
+)
+        
+return
+_config_guess_output
+[
+0
+]
     
 def
 notify
