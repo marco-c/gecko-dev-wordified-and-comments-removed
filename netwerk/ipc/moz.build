@@ -201,6 +201,11 @@ PChannelDiverter
 ipdl
 '
 '
+PDataChannel
+.
+ipdl
+'
+'
 PNecko
 .
 ipdl
