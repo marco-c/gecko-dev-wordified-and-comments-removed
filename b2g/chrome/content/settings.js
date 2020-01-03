@@ -2005,6 +2005,15 @@ value
 if
 (
 !
+value
+)
+{
+return
+;
+}
+if
+(
+!
 (
 '
 AccessFu
