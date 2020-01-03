@@ -140,6 +140,9 @@ dom
 Element
 *
 aScopeElement
+nsCSSRuleProcessor
+*
+aPreviousCSSRuleProcessor
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
