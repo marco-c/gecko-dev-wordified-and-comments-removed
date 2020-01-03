@@ -849,6 +849,11 @@ bool
 aNeedsRefreshes
 )
 ;
+void
+NotifyEffectTimingUpdated
+(
+)
+;
 protected
 :
 void
