@@ -1279,10 +1279,10 @@ nsIInputStream
 >
 body
 ;
-response
+ir
 -
 >
-GetBody
+GetInternalBody
 (
 getter_AddRefs
 (
