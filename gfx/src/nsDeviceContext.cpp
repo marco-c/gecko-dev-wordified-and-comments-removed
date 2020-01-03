@@ -341,6 +341,8 @@ aFont
 nsIAtom
 *
 aLanguage
+bool
+aExplicitLanguage
 gfxFont
 :
 :
@@ -598,6 +600,8 @@ aFont
 nsIAtom
 *
 aLanguage
+bool
+aExplicitLanguage
 gfxFont
 :
 :
@@ -780,6 +784,7 @@ Init
 (
 aFont
 aLanguage
+aExplicitLanguage
 aOrientation
 mContext
 aUserFontSet
@@ -851,6 +856,7 @@ Init
 (
 aFont
 aLanguage
+aExplicitLanguage
 aOrientation
 mContext
 aUserFontSet
@@ -1209,6 +1215,8 @@ aFont
 nsIAtom
 *
 aLanguage
+bool
+aExplicitLanguage
 gfxFont
 :
 :
@@ -1261,6 +1269,7 @@ GetMetricsFor
 (
 aFont
 aLanguage
+aExplicitLanguage
 aOrientation
 aUserFontSet
 aTextPerf

@@ -1077,6 +1077,10 @@ aStyleFont
 -
 >
 mLanguage
+aStyleFont
+-
+>
+mExplicitLanguage
 orientation
 fs
 tp

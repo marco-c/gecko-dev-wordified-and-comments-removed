@@ -252,6 +252,8 @@ aSize
 nsIAtom
 *
 aLanguage
+bool
+aExplicitLanguage
 float
 aSizeAdjust
 bool
@@ -350,6 +352,11 @@ allowSyntheticStyle
 ;
 bool
 noFallbackVariantFeatures
+:
+1
+;
+bool
+explicitLanguage
 :
 1
 ;
@@ -603,6 +610,16 @@ useGrayscaleAntialiasing
 other
 .
 useGrayscaleAntialiasing
+)
+&
+&
+(
+explicitLanguage
+=
+=
+other
+.
+explicitLanguage
 )
 &
 &

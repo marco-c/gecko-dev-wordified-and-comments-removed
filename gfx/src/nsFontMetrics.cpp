@@ -535,6 +535,8 @@ aFont
 nsIAtom
 *
 aLanguage
+bool
+aExplicitLanguage
 gfxFont
 :
 :
@@ -609,6 +611,7 @@ size
 /
 mP2A
 aLanguage
+aExplicitLanguage
 aFont
 .
 sizeAdjust
