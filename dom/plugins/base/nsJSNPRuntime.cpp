@@ -876,7 +876,6 @@ JS_NULL_CLASS_SPEC
 {
 nullptr
 nullptr
-nullptr
 false
 nullptr
 NPObjWrapper_ObjectMoved
