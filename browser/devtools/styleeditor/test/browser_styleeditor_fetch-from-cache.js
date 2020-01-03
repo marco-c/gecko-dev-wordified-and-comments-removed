@@ -17,6 +17,7 @@ html
 add_task
 (
 function
+*
 (
 )
 {

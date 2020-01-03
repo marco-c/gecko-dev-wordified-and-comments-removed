@@ -265,6 +265,7 @@ boxy
 ;
 }
 function
+*
 testMoxy
 (
 inspector

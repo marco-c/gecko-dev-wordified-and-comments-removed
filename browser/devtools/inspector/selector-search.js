@@ -344,11 +344,15 @@ get
 walker
 (
 )
+{
+return
 this
 .
 inspector
 .
 walker
+;
+}
 States
 :
 {
