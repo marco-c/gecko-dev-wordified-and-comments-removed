@@ -7579,7 +7579,7 @@ true
 }
 static
 bool
-TestingFunc_assertValidJitStack
+TestingFunc_assertJitStackInvariants
 (
 JSContext
 *
@@ -7603,7 +7603,7 @@ vp
 jit
 :
 :
-AssertValidJitStack
+AssertJitStackInvariants
 (
 cx
 )
@@ -14585,13 +14585,13 @@ ionmonkey
 JS_FN_HELP
 (
 "
-assertValidJitStack
+assertJitStackInvariants
 "
-TestingFunc_assertValidJitStack
+TestingFunc_assertJitStackInvariants
 0
 0
 "
-assertValidJitStack
+assertJitStackInvariants
 (
 )
 "

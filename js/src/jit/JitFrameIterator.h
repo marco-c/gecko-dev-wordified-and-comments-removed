@@ -106,7 +106,7 @@ class
 JitActivation
 ;
 void
-AssertValidJitStack
+AssertJitStackInvariants
 (
 JSContext
 *
