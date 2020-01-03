@@ -407,6 +407,8 @@ function
 (
 )
 {
+try
+{
 yield
 this
 .
@@ -414,11 +416,15 @@ _start
 (
 )
 ;
+}
+finally
+{
 delete
 this
 .
 promise
 ;
+}
 }
 .
 bind
