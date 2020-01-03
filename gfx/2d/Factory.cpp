@@ -3572,6 +3572,8 @@ string
 aString
 int
 aLevel
+bool
+aNoNewline
 )
 {
 if
@@ -3605,6 +3607,7 @@ OutputMessage
 (
 aString
 aLevel
+aNoNewline
 )
 ;
 }
