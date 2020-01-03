@@ -350,6 +350,12 @@ false
 ;
 SET_DEFAULT
 (
+disableSink
+false
+)
+;
+SET_DEFAULT
+(
 disableLoopUnrolling
 true
 )

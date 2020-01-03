@@ -95,6 +95,10 @@ autoTruncate_
 =
 true
 ;
+sink_
+=
+true
+;
 registerAllocator_
 =
 RegisterAllocator_LSRA
@@ -159,6 +163,10 @@ eliminateRedundantChecks_
 false
 ;
 autoTruncate_
+=
+false
+;
+sink_
 =
 false
 ;
