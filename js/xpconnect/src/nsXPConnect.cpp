@@ -3508,7 +3508,7 @@ sandbox
 source
 filenameStr
 1
-JSVERSION_DEFAULT
+JSVERSION_LATEST
 rval
 )
 ;
