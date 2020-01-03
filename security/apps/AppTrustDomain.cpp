@@ -934,7 +934,7 @@ mozilla
 pkix
 :
 :
-VerifySignedData
+VerifySignedDataNSS
 (
 signedData
 subjectPublicKeyInfo
@@ -967,7 +967,7 @@ mozilla
 pkix
 :
 :
-DigestBuf
+DigestBufNSS
 (
 item
 digestBuf
@@ -1061,7 +1061,7 @@ mozilla
 pkix
 :
 :
-CheckPublicKey
+CheckPublicKeyNSS
 (
 subjectPublicKeyInfo
 mMinimumNonECCBits

@@ -32,7 +32,7 @@ namespace
 pkix
 {
 Result
-VerifySignedData
+VerifySignedDataNSS
 (
 const
 SignedDataWithSignature
@@ -49,7 +49,7 @@ pkcs11PinArg
 )
 ;
 Result
-DigestBuf
+DigestBufNSS
 (
 Input
 item
@@ -61,7 +61,7 @@ digestBufLen
 )
 ;
 Result
-CheckPublicKey
+CheckPublicKeyNSS
 (
 Input
 subjectPublicKeyInfo

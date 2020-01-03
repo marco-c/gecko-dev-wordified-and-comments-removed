@@ -86,6 +86,7 @@ SECKEY_DestroyPublicKey
 >
 ScopedSECKeyPublicKey
 ;
+static
 Result
 CheckPublicKeySize
 (
@@ -241,7 +242,7 @@ Success
 ;
 }
 Result
-CheckPublicKey
+CheckPublicKeyNSS
 (
 Input
 subjectPublicKeyInfo
@@ -263,7 +264,7 @@ unused
 ;
 }
 Result
-VerifySignedData
+VerifySignedDataNSS
 (
 const
 SignedDataWithSignature
@@ -580,7 +581,7 @@ Success
 ;
 }
 Result
-DigestBuf
+DigestBufNSS
 (
 Input
 item
