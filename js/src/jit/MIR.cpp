@@ -14762,10 +14762,10 @@ rhsUint
 break
 ;
 case
-JSOP_EQ
+JSOP_STRICTEQ
 :
 case
-JSOP_STRICTEQ
+JSOP_EQ
 :
 *
 result
@@ -14780,10 +14780,10 @@ rhsUint
 break
 ;
 case
-JSOP_NE
+JSOP_STRICTNE
 :
 case
-JSOP_STRICTNE
+JSOP_NE
 :
 *
 result
@@ -14929,6 +14929,9 @@ toNumber
 break
 ;
 case
+JSOP_STRICTEQ
+:
+case
 JSOP_EQ
 :
 *
@@ -14951,6 +14954,9 @@ toNumber
 ;
 break
 ;
+case
+JSOP_STRICTNE
+:
 case
 JSOP_NE
 :
