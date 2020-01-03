@@ -118,4 +118,9 @@ components
 .
 js
 '
+'
+utils
+.
+js
+'
 ]

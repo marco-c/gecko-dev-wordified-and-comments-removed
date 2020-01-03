@@ -24,7 +24,6 @@ html
 ;
 let
 {
-inspector
 panel
 }
 =
