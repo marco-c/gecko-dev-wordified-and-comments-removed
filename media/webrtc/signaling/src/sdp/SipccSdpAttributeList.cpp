@@ -1741,6 +1741,15 @@ SdpRtpmapAttributeList
 kVP8
 ;
 case
+RTP_VP9
+:
+return
+SdpRtpmapAttributeList
+:
+:
+kVP9
+;
+case
 RTP_NONE
 :
 case
@@ -3205,6 +3214,9 @@ h264Parameters
 }
 break
 ;
+case
+RTP_VP9
+:
 case
 RTP_VP8
 :

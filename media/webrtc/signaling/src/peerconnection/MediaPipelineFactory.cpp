@@ -4221,6 +4221,17 @@ mName
 "
 VP8
 "
+|
+|
+aConfig
+-
+>
+mName
+=
+=
+"
+VP9
+"
 )
 {
 return
