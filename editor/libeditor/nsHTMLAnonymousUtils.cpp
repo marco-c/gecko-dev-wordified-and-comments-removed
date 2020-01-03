@@ -1822,7 +1822,9 @@ mHTMLCSSUtils
 >
 GetComputedProperty
 (
-aElement
+*
+element
+*
 nsGkAtoms
 :
 :
