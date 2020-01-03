@@ -70,6 +70,12 @@ SupportCoreAnimationPlugins
 (
 )
 ;
+static
+bool
+AccelerateByDefault
+(
+)
+;
 private
 :
 static
