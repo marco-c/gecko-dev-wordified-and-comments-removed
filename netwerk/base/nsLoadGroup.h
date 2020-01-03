@@ -131,6 +131,17 @@ nsLoadFlags
 flags
 )
 ;
+nsresult
+MergeDefaultLoadFlags
+(
+nsIRequest
+*
+aRequest
+nsLoadFlags
+&
+flags
+)
+;
 private
 :
 void
