@@ -61,8 +61,16 @@ INVALID_REQUEST_ID
 0
 ;
 typedef
-int32_t
+int64_t
 CacheId
+;
+static
+const
+CacheId
+INVALID_CACHE_ID
+=
+-
+1
 ;
 struct
 QuotaInfo

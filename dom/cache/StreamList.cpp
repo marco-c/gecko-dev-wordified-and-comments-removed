@@ -89,7 +89,7 @@ aContext
 )
 mCacheId
 (
-0
+INVALID_CACHE_ID
 )
 mStreamControl
 (
@@ -221,8 +221,10 @@ mActivated
 ;
 MOZ_ASSERT
 (
-!
 mCacheId
+=
+=
+INVALID_CACHE_ID
 )
 ;
 mActivated

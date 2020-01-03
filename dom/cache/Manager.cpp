@@ -4771,7 +4771,7 @@ aKey
 )
 mCacheId
 (
-0
+INVALID_CACHE_ID
 )
 {
 }
@@ -5019,7 +5019,7 @@ false
 )
 mCacheId
 (
-0
+INVALID_CACHE_ID
 )
 {
 }
