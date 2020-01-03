@@ -85,6 +85,7 @@ WillTokenize
 bool
 aIsFinalChunk
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -97,6 +98,7 @@ bool
 &
 aFlushTokens
 )
+MOZ_OVERRIDE
 ;
 \
 #

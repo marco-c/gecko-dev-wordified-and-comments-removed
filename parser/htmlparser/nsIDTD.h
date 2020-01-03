@@ -214,6 +214,7 @@ nsIContentSink
 *
 aSink
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -222,6 +223,7 @@ DidBuildModel
 nsresult
 anErrorCode
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -234,6 +236,7 @@ nsIContentSink
 *
 aSink
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -248,6 +251,7 @@ int32_t
 aChild
 )
 const
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -260,6 +264,7 @@ int32_t
 aTag
 )
 const
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -269,6 +274,7 @@ void
 Terminate
 (
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -278,6 +284,7 @@ int32_t
 GetType
 (
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -288,6 +295,7 @@ GetMode
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif

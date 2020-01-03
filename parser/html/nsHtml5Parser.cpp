@@ -798,7 +798,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHtml5Parser
 :
 :
@@ -2116,18 +2116,6 @@ this
 !
 "
 )
-;
-}
-bool
-nsHtml5Parser
-:
-:
-CanInterrupt
-(
-)
-{
-return
-true
 ;
 }
 bool

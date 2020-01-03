@@ -154,6 +154,7 @@ nsIContentSink
 *
 aSink
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -164,6 +165,7 @@ GetContentSink
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -175,6 +177,7 @@ nsCString
 &
 aCommand
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -187,6 +190,7 @@ char
 *
 aCommand
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -197,6 +201,7 @@ SetCommand
 eParserCommands
 aParserCommand
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -211,6 +216,7 @@ aCharset
 int32_t
 aSource
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -225,6 +231,7 @@ int32_t
 &
 aSource
 )
+MOZ_OVERRIDE
 {
 aCharset
 =
@@ -256,6 +263,7 @@ aMode
 =
 eDTDMode_autodetect
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ParseFragment
@@ -271,17 +279,20 @@ nsString
 &
 aTagStack
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildModel
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ContinueInterruptedParsing
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -290,6 +301,7 @@ void
 BlockParser
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -298,6 +310,7 @@ void
 UnblockParser
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -306,12 +319,14 @@ void
 ContinueInterruptedParsingAsync
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Terminate
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -320,6 +335,7 @@ bool
 IsParserEnabled
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -328,6 +344,7 @@ bool
 IsComplete
 (
 )
+MOZ_OVERRIDE
 ;
 void
 SetUnusedInput
@@ -389,6 +406,7 @@ nsIChannel
 *
 aChannel
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDTD
@@ -398,6 +416,7 @@ nsIDTD
 *
 aDTD
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIStreamListener
@@ -405,6 +424,7 @@ nsIStreamListener
 GetStreamListener
 (
 )
+MOZ_OVERRIDE
 ;
 void
 SetSinkCharset
@@ -418,24 +438,28 @@ NS_IMETHODIMP
 CancelParsingEvents
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsInsertionPointDefined
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 BeginEvaluatingParserInsertedScript
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 EndEvaluatingParserInsertedScript
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -446,12 +470,14 @@ char
 *
 aCommand
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsScriptCreated
 (
 )
+MOZ_OVERRIDE
 ;
 void
 SetCanInterrupt
@@ -478,6 +504,7 @@ void
 Reset
 (
 )
+MOZ_OVERRIDE
 {
 Cleanup
 (
