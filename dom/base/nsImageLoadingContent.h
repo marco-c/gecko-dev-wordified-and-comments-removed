@@ -644,7 +644,7 @@ ClearCurrentRequest
 nsresult
 aReason
 uint32_t
-aFlags
+aNonvisibleAction
 )
 ;
 void
@@ -653,7 +653,7 @@ ClearPendingRequest
 nsresult
 aReason
 uint32_t
-aFlags
+aNonvisibleAction
 )
 ;
 bool
@@ -687,13 +687,6 @@ imgIRequest
 aImage
 )
 ;
-enum
-{
-REQUEST_DISCARD
-=
-0x1
-}
-;
 void
 UntrackImage
 (
@@ -701,9 +694,9 @@ imgIRequest
 *
 aImage
 uint32_t
-aFlags
+aNonvisibleAction
 =
-0
+ON_NONVISIBLE_NO_ACTION
 )
 ;
 nsRefPtr
