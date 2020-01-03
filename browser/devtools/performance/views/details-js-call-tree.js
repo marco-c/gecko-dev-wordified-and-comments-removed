@@ -412,13 +412,6 @@ attachTo
 container
 )
 ;
-root
-.
-toggleAllocations
-(
-false
-)
-;
 let
 contentOnly
 =
