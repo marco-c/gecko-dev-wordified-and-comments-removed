@@ -486,7 +486,7 @@ chrome
 )
 {
 const
-value
+output
 =
 yield
 context
@@ -504,7 +504,9 @@ on
 ;
 isContentPaintFlashing
 =
-value
+output
+.
+data
 ;
 onPaintFlashingChanged
 (
@@ -513,7 +515,9 @@ context
 environment
 .
 target
-value
+output
+.
+data
 )
 ;
 }
@@ -639,7 +643,7 @@ chrome
 )
 {
 const
-value
+output
 =
 yield
 context
@@ -657,7 +661,9 @@ off
 ;
 isContentPaintFlashing
 =
-value
+output
+.
+data
 ;
 onPaintFlashingChanged
 (
@@ -666,7 +672,9 @@ context
 environment
 .
 target
-value
+output
+.
+data
 )
 ;
 }
@@ -813,7 +821,7 @@ context
 )
 {
 const
-value
+output
 =
 yield
 context
@@ -831,7 +839,9 @@ toggle
 ;
 isContentPaintFlashing
 =
-value
+output
+.
+data
 ;
 onPaintFlashingChanged
 (
@@ -840,7 +850,9 @@ context
 environment
 .
 target
-value
+output
+.
+data
 )
 ;
 }
