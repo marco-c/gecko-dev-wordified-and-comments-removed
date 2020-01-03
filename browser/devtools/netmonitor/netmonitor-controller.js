@@ -2515,6 +2515,7 @@ startedDateTime
 method
 url
 isXHR
+fromCache
 }
 =
 aPacket
@@ -2532,6 +2533,7 @@ startedDateTime
 method
 url
 isXHR
+fromCache
 )
 ;
 window
