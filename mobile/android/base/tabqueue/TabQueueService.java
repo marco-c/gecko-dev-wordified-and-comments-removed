@@ -631,6 +631,11 @@ removeView
 (
 )
 ;
+stopSelfResult
+(
+startId
+)
+;
 }
 }
 )
