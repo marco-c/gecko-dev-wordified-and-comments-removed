@@ -818,11 +818,6 @@ mozilla
 =
 [
 '
-AbstractThread
-.
-h
-'
-'
 MediaManager
 .
 h
@@ -839,11 +834,6 @@ h
 '
 '
 StateWatching
-.
-h
-'
-'
-TaskDispatcher
 .
 h
 '
@@ -1006,11 +996,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-AbstractThread
-.
-cpp
-'
 '
 AudioCaptureStream
 .
