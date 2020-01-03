@@ -3761,13 +3761,11 @@ accesskey
 oncommand
 =
 "
-BrowserViewSourceOfDocument
+BrowserViewSource
 (
 gContextMenu
 .
 browser
-.
-contentDocumentAsCPOW
 )
 ;
 "
