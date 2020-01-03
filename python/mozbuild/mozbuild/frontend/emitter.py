@@ -166,6 +166,8 @@ import
 Context
     
 SubContext
+    
+TemplateContext
 )
 class
 TreeMetadataEmitter
@@ -3398,10 +3400,6 @@ USE_STATIC_LIBS
 '
             
 '
-IS_GYP_DIR
-'
-            
-'
 NO_DIST_INSTALL
 '
             
@@ -3622,6 +3620,34 @@ VISIBILITY_FLAGS
 =
 '
 '
+        
+if
+isinstance
+(
+context
+TemplateContext
+)
+and
+context
+.
+template
+=
+=
+'
+Gyp
+'
+:
+            
+passthru
+.
+variables
+[
+'
+IS_GYP_DIR
+'
+]
+=
+True
         
 for
 obj

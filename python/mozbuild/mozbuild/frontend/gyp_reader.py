@@ -335,16 +335,6 @@ dict
 (
 VARIABLES
         
-IS_GYP_DIR
-=
-(
-bool
-bool
-'
-'
-None
-)
-        
 EXTRA_ASSEMBLER_FLAGS
 =
 (
@@ -823,15 +813,6 @@ f
 )
 )
 )
-        
-context
-[
-'
-IS_GYP_DIR
-'
-]
-=
-True
         
 spec
 =
