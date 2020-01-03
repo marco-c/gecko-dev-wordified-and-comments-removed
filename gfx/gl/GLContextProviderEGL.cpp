@@ -3902,10 +3902,8 @@ GLContextProviderEGL
 :
 CreateHeadless
 (
-bool
-requireCompatProfile
-bool
-forceEnabled
+CreateContextFlags
+flags
 )
 {
 if
@@ -3915,7 +3913,12 @@ sEGLLibrary
 .
 EnsureInitialized
 (
-forceEnabled
+flags
+&
+CreateContextFlags
+:
+:
+FORCE_ENABLE_HARDWARE
 )
 )
 {
@@ -3999,8 +4002,8 @@ const
 SurfaceCaps
 &
 caps
-bool
-requireCompatProfile
+CreateContextFlags
+flags
 )
 {
 nsRefPtr
@@ -4011,7 +4014,7 @@ glContext
 =
 CreateHeadless
 (
-requireCompatProfile
+flags
 )
 ;
 if

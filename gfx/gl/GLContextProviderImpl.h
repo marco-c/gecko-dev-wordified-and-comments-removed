@@ -77,8 +77,8 @@ const
 SurfaceCaps
 &
 caps
-bool
-requireCompatProfile
+CreateContextFlags
+flags
 )
 ;
 static
@@ -88,12 +88,8 @@ GLContext
 >
 CreateHeadless
 (
-bool
-requireCompatProfile
-bool
-forceEnabled
-=
-false
+CreateContextFlags
+flags
 )
 ;
 static
