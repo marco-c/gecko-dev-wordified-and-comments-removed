@@ -499,6 +499,12 @@ waitForExplicitFinish
 (
 )
 ;
+SimpleTest
+.
+requestCompleteLog
+(
+)
+;
 const
 Ci
 =
