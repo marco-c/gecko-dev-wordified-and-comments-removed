@@ -2398,7 +2398,11 @@ return
 if
 (
 !
-abortedPause
+mHoldTime
+.
+IsNull
+(
+)
 )
 {
 mStartTime
