@@ -841,12 +841,6 @@ src
 '
 '
 /
-docshell
-/
-base
-'
-'
-/
 dom
 /
 geolocation
@@ -880,6 +874,10 @@ style
 layout
 /
 xul
+'
+'
+/
+widget
 '
 '
 /

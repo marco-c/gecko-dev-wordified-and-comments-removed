@@ -1154,14 +1154,12 @@ LOCAL_INCLUDES
 '
 /
 widget
-/
-gonk
 '
 '
 /
 widget
 /
-xpwidgets
+gonk
 '
 ]
 if

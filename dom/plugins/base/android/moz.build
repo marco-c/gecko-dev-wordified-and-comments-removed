@@ -212,14 +212,12 @@ gl
 '
 /
 widget
-/
-android
 '
 '
 /
 widget
 /
-xpwidgets
+android
 '
 ]
 DEFINES

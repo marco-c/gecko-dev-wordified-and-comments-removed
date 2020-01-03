@@ -220,14 +220,12 @@ xul
 '
 /
 widget
-/
-cocoa
 '
 '
 /
 widget
 /
-xpwidgets
+cocoa
 '
 ]
 FINAL_LIBRARY

@@ -131,11 +131,6 @@ nsShmImage
 cpp
 '
 '
-SharedWidgetUtils
-.
-cpp
-'
-'
 VsyncDispatcher
 .
 cpp

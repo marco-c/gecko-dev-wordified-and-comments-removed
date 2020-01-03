@@ -557,14 +557,12 @@ xul
 '
 /
 widget
-/
-android
 '
 '
 /
 widget
 /
-xpwidgets
+android
 '
 '
 /

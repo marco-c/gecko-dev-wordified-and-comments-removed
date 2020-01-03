@@ -236,15 +236,6 @@ LOCAL_INCLUDES
 shared
 '
 '
-.
-.
-/
-.
-.
-/
-xpwidgets
-'
-'
 /
 layout
 /
@@ -261,6 +252,10 @@ xul
 toolkit
 /
 xre
+'
+'
+/
+widget
 '
 '
 /

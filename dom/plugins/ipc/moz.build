@@ -360,8 +360,6 @@ LOCAL_INCLUDES
 '
 /
 widget
-/
-shared
 '
 '
 hangui

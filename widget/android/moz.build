@@ -317,6 +317,10 @@ cache
 '
 /
 widget
+'
+'
+/
+widget
 /
 android
 /
@@ -327,12 +331,6 @@ android
 widget
 /
 shared
-'
-'
-/
-widget
-/
-xpwidgets
 '
 ]
 #

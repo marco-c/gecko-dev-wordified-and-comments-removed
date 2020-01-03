@@ -416,12 +416,6 @@ LOCAL_INCLUDES
 shared
 '
 '
-.
-.
-/
-xpwidgets
-'
-'
 /
 layout
 /
@@ -438,6 +432,10 @@ generic
 layout
 /
 xul
+'
+'
+/
+widget
 '
 ]
 RESOURCE_FILES
