@@ -263,6 +263,10 @@ WorkerGlobalScope
 implements
 GlobalFetch
 ;
+WorkerGlobalScope
+implements
+IDBEnvironment
+;
 /
 /
 Not

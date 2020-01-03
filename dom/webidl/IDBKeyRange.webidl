@@ -116,6 +116,14 @@ apply
 .
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 IDBKeyRange
 {

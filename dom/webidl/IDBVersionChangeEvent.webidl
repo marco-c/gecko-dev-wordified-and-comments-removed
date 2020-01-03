@@ -185,6 +185,12 @@ optional
 IDBVersionChangeEventInit
 eventInitDict
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 IDBVersionChangeEvent

@@ -194,6 +194,13 @@ PersistenceType
 PersistenceType
 ;
 class
+LogWarningRunnable
+;
+friend
+class
+LogWarningRunnable
+;
+class
 Observer
 ;
 friend

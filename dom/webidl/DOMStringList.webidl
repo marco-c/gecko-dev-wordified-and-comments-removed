@@ -145,6 +145,14 @@ apply
 .
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 DOMStringList
 {

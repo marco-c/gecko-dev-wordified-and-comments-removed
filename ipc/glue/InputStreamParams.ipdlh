@@ -261,6 +261,10 @@ OptionalFileDescriptorSet
 {
 PFileDescriptorSet
 ;
+FileDescriptor
+[
+]
+;
 void_t
 ;
 }

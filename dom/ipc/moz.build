@@ -640,6 +640,12 @@ storage
 '
 '
 /
+dom
+/
+workers
+'
+'
+/
 editor
 /
 libeditor

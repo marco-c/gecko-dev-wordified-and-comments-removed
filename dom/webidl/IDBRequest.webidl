@@ -171,6 +171,14 @@ done
 "
 }
 ;
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 IDBRequest
 :

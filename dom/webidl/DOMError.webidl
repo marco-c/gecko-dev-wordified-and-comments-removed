@@ -155,6 +155,7 @@ Exposed
 =
 (
 Window
+Worker
 System
 )
 ]

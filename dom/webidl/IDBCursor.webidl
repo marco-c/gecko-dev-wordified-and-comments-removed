@@ -147,6 +147,14 @@ prevunique
 "
 }
 ;
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 IDBCursor
 {

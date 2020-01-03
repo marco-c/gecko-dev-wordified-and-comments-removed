@@ -174,6 +174,14 @@ versionchange
 "
 }
 ;
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 IDBTransaction
 :

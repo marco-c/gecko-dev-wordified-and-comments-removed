@@ -225,6 +225,14 @@ information
 .
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 IDBFactory
 {

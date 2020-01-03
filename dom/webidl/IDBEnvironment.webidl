@@ -126,6 +126,12 @@ html
 *
 /
 [
+Exposed
+=
+(
+Window
+Worker
+)
 NoInterfaceObject
 ]
 interface
@@ -163,6 +169,9 @@ interface
 IDBEnvironment
 {
 [
+Exposed
+=
+Window
 Throws
 ]
 readonly

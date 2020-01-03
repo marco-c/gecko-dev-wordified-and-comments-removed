@@ -130,6 +130,14 @@ def
 IDBOpenDBRequest
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 IDBOpenDBRequest
 :

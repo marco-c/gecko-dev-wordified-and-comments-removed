@@ -1393,6 +1393,8 @@ endif
 void
 SendDeleteMeInternal
 (
+bool
+aFailedConstructor
 )
 ;
 private
