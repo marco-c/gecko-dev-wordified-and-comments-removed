@@ -4855,6 +4855,14 @@ aNotify
 )
 ;
 }
+void
+ForgetFieldSet
+(
+nsIContent
+*
+aFieldset
+)
+;
 bool
 CanBeDisabled
 (
@@ -4883,13 +4891,6 @@ IsLabelable
 )
 const
 override
-;
-private
-:
-void
-ClearFieldSet
-(
-)
 ;
 protected
 :
@@ -5013,8 +5014,6 @@ HTMLFormElement
 >
 mForm
 ;
-nsRefPtr
-<
 mozilla
 :
 :
@@ -5022,7 +5021,7 @@ dom
 :
 :
 HTMLFieldSetElement
->
+*
 mFieldSet
 ;
 }
