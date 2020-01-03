@@ -459,6 +459,11 @@ overlay
 xul
 '
 '
+leaks
+.
+py
+'
+'
 mach_test_package_commands
 .
 py

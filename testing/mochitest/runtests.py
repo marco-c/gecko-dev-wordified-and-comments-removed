@@ -106,11 +106,7 @@ processLeakLog
     
 dumpScreen
     
-ShutdownLeaks
-    
 printstatus
-    
-LSANLeaks
     
 setAutomationLog
 )
@@ -141,6 +137,11 @@ subsuite
     
 tags
 )
+from
+leaks
+import
+ShutdownLeaks
+LSANLeaks
 from
 mochitest_options
 import
