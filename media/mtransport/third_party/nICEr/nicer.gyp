@@ -1145,6 +1145,13 @@ OS
 "
 mac
 "
+or
+OS
+=
+=
+"
+ios
+"
 '
 {
 '
@@ -1154,9 +1161,6 @@ defines
 [
 '
 DARWIN
-'
-'
-HAVE_XLOCALE
 '
 ]
 }
@@ -1187,6 +1191,13 @@ OS
 =
 "
 mac
+"
+or
+OS
+=
+=
+"
+ios
 "
 or
 os_bsd

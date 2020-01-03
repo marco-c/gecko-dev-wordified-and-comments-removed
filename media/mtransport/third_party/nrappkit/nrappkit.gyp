@@ -1350,6 +1350,13 @@ OS
 mac
 "
 or
+OS
+=
+=
+"
+ios
+"
+or
 os_bsd
 =
 =

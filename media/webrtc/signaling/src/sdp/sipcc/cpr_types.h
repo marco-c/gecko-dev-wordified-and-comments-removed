@@ -38,6 +38,8 @@ cpr_darwin_types
 h
 "
 #
+else
+#
 endif
 #
 ifdef
