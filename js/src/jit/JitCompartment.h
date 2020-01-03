@@ -409,7 +409,6 @@ class
 JitCompartment
 ;
 ExecutableAllocator
-*
 execAlloc_
 ;
 JitCode
@@ -742,11 +741,10 @@ trc
 )
 ;
 ExecutableAllocator
-*
+&
 execAlloc
 (
 )
-const
 {
 return
 execAlloc_

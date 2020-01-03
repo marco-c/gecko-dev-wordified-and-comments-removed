@@ -791,7 +791,7 @@ void
 *
 allocation
 =
-NULL
+nullptr
 ;
 #
 ifndef
