@@ -44,6 +44,11 @@ SimdConvert
 \
 _
 (
+SimdReinterpretCast
+)
+\
+_
+(
 SimdExtractElement
 )
 \

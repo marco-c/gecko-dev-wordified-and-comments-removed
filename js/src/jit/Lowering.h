@@ -1976,6 +1976,14 @@ ins
 )
 ;
 bool
+visitSimdReinterpretCast
+(
+MSimdReinterpretCast
+*
+ins
+)
+;
+bool
 visitPhi
 (
 MPhi
