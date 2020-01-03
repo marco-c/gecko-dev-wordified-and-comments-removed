@@ -169,6 +169,9 @@ Unmute
 void
 StartRendering
 (
+Promise
+*
+aPromise
 )
 ;
 void
@@ -271,6 +274,14 @@ bool
 aInputMuted
 )
 ;
+void
+ResolvePromise
+(
+AudioBuffer
+*
+aRenderedBuffer
+)
+;
 protected
 :
 virtual
@@ -325,6 +336,12 @@ nsRefPtr
 EventProxyHandler
 >
 mEventProxyHelper
+;
+nsRefPtr
+<
+Promise
+>
+mOfflineRenderingPromise
 ;
 AudioChannel
 mAudioChannel

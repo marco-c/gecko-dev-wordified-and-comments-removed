@@ -635,7 +635,10 @@ DecodeErrorCallback
 aFailureCallback
 )
 ;
-void
+already_AddRefed
+<
+Promise
+>
 StartRendering
 (
 ErrorResult
