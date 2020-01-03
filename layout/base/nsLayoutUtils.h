@@ -5174,6 +5174,15 @@ ViewID
 aScrollId
 )
 ;
+static
+bool
+ShouldUseNoScriptSheet
+(
+nsIDocument
+*
+aDocument
+)
+;
 private
 :
 static

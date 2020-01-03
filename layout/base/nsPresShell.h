@@ -2209,11 +2209,6 @@ void
 )
 ;
 nsresult
-SetPrefNoScriptRule
-(
-)
-;
-nsresult
 SetPrefNoFramesRule
 (
 void
