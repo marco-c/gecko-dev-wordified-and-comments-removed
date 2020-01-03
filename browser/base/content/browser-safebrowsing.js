@@ -69,9 +69,7 @@ function
 var
 uri
 =
-getBrowser
-(
-)
+gBrowser
 .
 currentURI
 ;
