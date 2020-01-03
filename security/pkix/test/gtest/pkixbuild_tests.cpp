@@ -586,6 +586,7 @@ signedData
 Input
 subjectPublicKeyInfo
 )
+MOZ_OVERRIDE
 {
 return
 TestVerifySignedData
