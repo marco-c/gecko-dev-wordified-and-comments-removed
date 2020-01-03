@@ -923,7 +923,7 @@ mClassSize
 aClassSize
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 strlen
 (
