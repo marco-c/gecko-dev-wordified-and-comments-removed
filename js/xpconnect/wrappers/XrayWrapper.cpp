@@ -2310,7 +2310,7 @@ true
 if
 (
 !
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -2721,7 +2721,7 @@ funObj
 )
 &
 &
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -3005,7 +3005,7 @@ setter
 )
 &
 &
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -6293,7 +6293,7 @@ desc
 )
 &
 &
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -6857,7 +6857,7 @@ expando
 if
 (
 !
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 expando
@@ -7125,7 +7125,7 @@ false
 if
 (
 !
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -7364,7 +7364,7 @@ cx
 )
 ;
 return
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -8137,7 +8137,7 @@ desc
 if
 (
 !
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -8256,7 +8256,7 @@ desc
 )
 &
 &
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -9657,7 +9657,7 @@ object
 &
 &
 !
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
@@ -9876,7 +9876,7 @@ desc
 |
 |
 !
-JS_GetPropertyDescriptorById
+JS_GetOwnPropertyDescriptorById
 (
 cx
 holder
