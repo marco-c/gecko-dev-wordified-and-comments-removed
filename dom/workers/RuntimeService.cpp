@@ -10491,7 +10491,6 @@ WorkerPrivate
 :
 :
 OverrideLoadGroup
-aType
 &
 loadInfo
 )
