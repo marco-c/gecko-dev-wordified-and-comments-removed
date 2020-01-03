@@ -622,6 +622,14 @@ DOMString
 localName
 ;
 [
+Pure
+]
+boolean
+hasAttributes
+(
+)
+;
+[
 Throws
 Func
 =

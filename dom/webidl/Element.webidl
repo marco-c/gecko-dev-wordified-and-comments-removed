@@ -386,14 +386,6 @@ localName
 )
 ;
 [
-Pure
-]
-boolean
-hasAttributes
-(
-)
-;
-[
 Throws
 Pure
 ]
