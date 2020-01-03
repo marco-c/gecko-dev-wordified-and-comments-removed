@@ -190,6 +190,7 @@ Notify
 TimeStamp
 aVsyncTimestamp
 )
+compress
 ;
 parent
 :
