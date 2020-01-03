@@ -928,6 +928,11 @@ JSOP_TOID
 \
 _
 (
+JSOP_TOSTRING
+)
+\
+_
+(
 JSOP_TABLESWITCH
 )
 \
