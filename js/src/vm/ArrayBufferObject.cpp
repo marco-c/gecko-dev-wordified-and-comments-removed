@@ -2423,7 +2423,7 @@ if
 buffer
 -
 >
-hasSizedObjectViews
+hasTypedObjectViews
 (
 )
 )
@@ -2469,7 +2469,7 @@ global
 types
 :
 :
-OBJECT_FLAG_SIZED_OBJECT_NEUTERED
+OBJECT_FLAG_TYPED_OBJECT_NEUTERED
 )
 ;
 }

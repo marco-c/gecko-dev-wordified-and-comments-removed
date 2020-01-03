@@ -230,7 +230,7 @@ OWNS_DATA
 FOR_INLINE_TYPED_OBJECT
 =
 0x10
-SIZED_OBJECT_VIEWS
+TYPED_OBJECT_VIEWS
 =
 0x20
 }
@@ -1129,7 +1129,7 @@ FOR_INLINE_TYPED_OBJECT
 ;
 }
 void
-setHasSizedObjectViews
+setHasTypedObjectViews
 (
 )
 {
@@ -1139,7 +1139,7 @@ flags
 (
 )
 |
-SIZED_OBJECT_VIEWS
+TYPED_OBJECT_VIEWS
 )
 ;
 }
@@ -1233,7 +1233,7 @@ FOR_INLINE_TYPED_OBJECT
 ;
 }
 bool
-hasSizedObjectViews
+hasTypedObjectViews
 (
 )
 const
@@ -1243,7 +1243,7 @@ flags
 (
 )
 &
-SIZED_OBJECT_VIEWS
+TYPED_OBJECT_VIEWS
 ;
 }
 void
