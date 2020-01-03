@@ -516,6 +516,13 @@ aBrowser
 {
 if
 (
+gMultiProcessBrowser
+)
+return
+false
+;
+if
+(
 aBrowser
 !
 =
