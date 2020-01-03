@@ -838,6 +838,17 @@ accesskey
 menupopup
 >
 <
+tooltip
+id
+=
+"
+addonitem
+-
+tooltip
+"
+/
+>
+<
 /
 popupset
 >
