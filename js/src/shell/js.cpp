@@ -7947,12 +7947,6 @@ if
 JS_CompileUCScript
 (
 cx
-cx
--
->
-global
-(
-)
 ucbuf
 buflen
 options
@@ -17700,7 +17694,6 @@ ok
 JS_CompileUCScript
 (
 cx
-global
 chars
 scriptContents
 -

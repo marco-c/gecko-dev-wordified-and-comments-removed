@@ -13504,11 +13504,6 @@ JS_CompileUCScript
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-obj
 const
 char16_t
 *

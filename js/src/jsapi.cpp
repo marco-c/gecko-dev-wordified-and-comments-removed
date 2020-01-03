@@ -19160,11 +19160,6 @@ JS_CompileUCScript
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-obj
 const
 char16_t
 *
@@ -19186,7 +19181,12 @@ return
 Compile
 (
 cx
-obj
+cx
+-
+>
+global
+(
+)
 options
 chars
 length
