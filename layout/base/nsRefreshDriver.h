@@ -861,6 +861,11 @@ DispatchPendingEvents
 )
 ;
 void
+DispatchAnimationEvents
+(
+)
+;
+void
 RunFrameRequestCallbacks
 (
 mozilla
