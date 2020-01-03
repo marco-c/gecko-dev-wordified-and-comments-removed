@@ -2087,13 +2087,6 @@ obj
 data
 )
 {
-JSAutoCompartment
-ac
-(
-aCx
-obj
-)
-;
 nsDocument
 *
 document
@@ -2148,6 +2141,13 @@ if
 prototype
 )
 {
+JSAutoCompartment
+ac
+(
+aCx
+prototype
+)
+;
 if
 (
 !
@@ -2155,7 +2155,7 @@ JS_WrapObject
 (
 aCx
 &
-prototype
+obj
 )
 |
 |
