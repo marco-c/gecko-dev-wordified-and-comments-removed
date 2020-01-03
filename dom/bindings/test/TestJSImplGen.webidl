@@ -4718,6 +4718,13 @@ Dict
 x
 )
 ;
+void
+passDictionary2
+(
+Dict
+x
+)
+;
 [
 Cached
 Pure
