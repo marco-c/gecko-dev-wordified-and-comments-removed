@@ -3610,7 +3610,6 @@ GLContextProviderEGL
 :
 CreateHeadless
 (
-bool
 )
 {
 if
@@ -3685,8 +3684,6 @@ const
 SurfaceCaps
 &
 caps
-bool
-requireCompatProfile
 )
 {
 nsRefPtr
@@ -3697,7 +3694,6 @@ glContext
 =
 CreateHeadless
 (
-requireCompatProfile
 )
 ;
 if
