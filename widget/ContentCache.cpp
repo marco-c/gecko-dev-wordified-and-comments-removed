@@ -97,6 +97,10 @@ uint32_t
 aAnchorOffset
 uint32_t
 aFocusOffset
+const
+WritingMode
+&
+aWritingMode
 )
 {
 mSelection
@@ -110,6 +114,12 @@ mSelection
 mFocus
 =
 aFocusOffset
+;
+mSelection
+.
+mWritingMode
+=
+aWritingMode
 ;
 }
 bool
@@ -484,6 +494,9 @@ mData
 Length
 (
 )
+mSelection
+.
+mWritingMode
 )
 ;
 mIsComposing
