@@ -294,7 +294,7 @@ nsChangeHint_NeutralChange
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -1093,7 +1093,7 @@ NS_STYLE_HINT_VISUAL
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -1265,7 +1265,7 @@ nsChangeHint_NeutralChange
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -2164,7 +2164,7 @@ nsChangeHint_ClearAncestorIntrinsics
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -2324,7 +2324,7 @@ nsChangeHint_ClearDescendantIntrinsics
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -3274,7 +3274,7 @@ nsChangeHint_NeutralChange
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -4263,7 +4263,7 @@ nsChangeHint_NeutralChange
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -4561,7 +4561,7 @@ nsChangeHint_NeutralChange
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -5160,7 +5160,7 @@ nsChangeHint_UpdateParentOverflow
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -6217,7 +6217,7 @@ nsChangeHint_UpdateSubtreeOverflow
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -6361,7 +6361,7 @@ NS_STYLE_HINT_FRAMECHANGE
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -7242,7 +7242,7 @@ NS_STYLE_HINT_FRAMECHANGE
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -8355,7 +8355,7 @@ nsChangeHint_NeutralChange
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -9254,7 +9254,7 @@ NS_STYLE_HINT_FRAMECHANGE
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -9383,7 +9383,7 @@ NS_STYLE_HINT_FRAMECHANGE
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -9788,7 +9788,7 @@ NS_STYLE_HINT_FRAMECHANGE
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -10132,7 +10132,7 @@ NS_STYLE_HINT_FRAMECHANGE
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -10644,7 +10644,7 @@ NS_STYLE_HINT_FRAMECHANGE
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -10882,7 +10882,7 @@ nsChangeHint_NeutralChange
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -11035,7 +11035,7 @@ NS_STYLE_HINT_FRAMECHANGE
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -11186,7 +11186,7 @@ nsChangeHint_NeutralChange
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -11509,7 +11509,7 @@ nsChangeHint_RepaintFrame
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -12622,7 +12622,7 @@ NS_STYLE_HINT_REFLOW
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
@@ -12815,7 +12815,7 @@ nsChangeHint
 }
 static
 nsChangeHint
-MaxDifferenceNeverInherited
+DifferenceAlwaysHandledForDescendants
 (
 )
 {
