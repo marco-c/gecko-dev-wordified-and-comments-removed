@@ -275,6 +275,9 @@ isSecure
 "
 ]
 ;
+let
+StorageUI
+=
 this
 .
 StorageUI
@@ -451,6 +454,7 @@ this
 .
 displayObjectSidebar
 )
+;
 this
 .
 sidebar
@@ -635,6 +639,7 @@ storage
 )
 ;
 }
+;
 exports
 .
 StorageUI
@@ -785,6 +790,7 @@ table
 selectNextRow
 (
 )
+;
 }
 else
 {
@@ -2222,6 +2228,7 @@ let
 json
 =
 null
+;
 try
 {
 json
@@ -2363,6 +2370,13 @@ create
 null
 )
 ;
+let
+view
+=
+this
+.
+view
+;
 jsonObject
 [
 name
@@ -2373,8 +2387,6 @@ json
 let
 valueScope
 =
-this
-.
 view
 .
 getScopeAtIndex
@@ -2383,8 +2395,6 @@ getScopeAtIndex
 )
 |
 |
-this
-.
 view
 .
 addScope
@@ -3250,3 +3260,4 @@ preventDefault
 }
 }
 }
+;

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 testCases
 =
@@ -240,6 +245,7 @@ false
 ]
 ]
 [
+null
 [
 {
 name
@@ -406,6 +412,7 @@ cares
 ]
 ]
 [
+null
 [
 {
 name
@@ -596,6 +603,7 @@ php
 ]
 ]
 [
+null
 [
 {
 name
@@ -671,6 +679,7 @@ array
 ]
 ]
 [
+null
 [
 {
 name
@@ -941,6 +950,7 @@ com
 ]
 ]
 [
+null
 [
 {
 name
@@ -1055,6 +1065,7 @@ baz
 ]
 ]
 [
+null
 [
 {
 name

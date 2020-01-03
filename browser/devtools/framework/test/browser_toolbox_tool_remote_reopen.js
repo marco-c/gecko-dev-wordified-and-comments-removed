@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 thisTestLeaksUncaughtRejectionsAndShouldBeFixed
 (
 "
@@ -6,6 +11,9 @@ Error
 Shader
 Editor
 is
+"
++
+"
 still
 waiting
 for
@@ -331,9 +339,6 @@ defer
 (
 )
 ;
-let
-tabList
-=
 client
 .
 listTabs

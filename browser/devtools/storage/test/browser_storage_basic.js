@@ -2,6 +2,11 @@ const
 storeItems
 =
 [
+"
+use
+strict
+"
+;
 [
 [
 "

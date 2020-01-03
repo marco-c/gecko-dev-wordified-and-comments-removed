@@ -10,6 +10,11 @@ function
 (
 )
 {
+"
+use
+strict
+"
+;
 let
 =
 id

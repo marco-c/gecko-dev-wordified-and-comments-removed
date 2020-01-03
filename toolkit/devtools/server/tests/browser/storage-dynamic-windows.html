@@ -97,7 +97,12 @@ version
 7
 "
 >
-var
+"
+use
+strict
+"
+;
+const
 partialHostname
 =
 location
@@ -125,12 +130,12 @@ match
 1
 ]
 ;
-var
+const
 cookieExpiresTime1
 =
 2000000000000
 ;
-var
+const
 cookieExpiresTime2
 =
 2000000001000
@@ -345,7 +350,6 @@ onerror
 =
 function
 (
-e
 )
 {
 throw
@@ -690,6 +694,7 @@ callback
 )
 ;
 }
+;
 function
 successClear
 (
@@ -838,6 +843,7 @@ callback
 )
 ;
 }
+;
 <
 /
 script
