@@ -483,6 +483,9 @@ disabled
 /
 [
 NewObject
+AvailableIn
+=
+CertifiedApps
 ]
 Promise
 <
@@ -494,6 +497,9 @@ enable
 ;
 [
 NewObject
+AvailableIn
+=
+CertifiedApps
 ]
 Promise
 <
@@ -505,6 +511,9 @@ disable
 ;
 [
 NewObject
+AvailableIn
+=
+CertifiedApps
 ]
 Promise
 <
