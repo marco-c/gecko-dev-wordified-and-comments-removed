@@ -7647,12 +7647,13 @@ Sync
 <
 !
 ENTITY
-syncSetup
+syncSignIn
 .
 label
 "
-Set
-Up
+Sign
+In
+To
 &
 syncBrand
 .
@@ -7665,7 +7666,7 @@ label
 <
 !
 ENTITY
-syncSetup
+syncSignIn
 .
 accesskey
 "

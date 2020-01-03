@@ -3645,10 +3645,13 @@ of
 sync
 -
 setup
+sync
+-
+syncnowitem
 or
 sync
 -
-menu
+reauthitem
 will
 be
 showing
@@ -3670,7 +3673,7 @@ label
 =
 "
 &
-syncSetup
+syncSignIn
 .
 label
 ;
@@ -3679,7 +3682,7 @@ accesskey
 =
 "
 &
-syncSetup
+syncSignIn
 .
 accesskey
 ;
