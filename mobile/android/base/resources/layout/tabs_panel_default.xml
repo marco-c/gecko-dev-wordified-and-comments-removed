@@ -218,13 +218,6 @@ browser_toolbar_height
 "
 android
 :
-layout_height
-=
-"
-match_parent
-"
-android
-:
 background
 =
 "
