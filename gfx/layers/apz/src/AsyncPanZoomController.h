@@ -1685,6 +1685,12 @@ AssertOnControllerThread
 (
 )
 ;
+static
+void
+AssertOnCompositorThread
+(
+)
+;
 void
 SetTestAsyncScrollOffset
 (
