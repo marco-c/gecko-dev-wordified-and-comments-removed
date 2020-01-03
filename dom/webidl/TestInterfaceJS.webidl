@@ -142,6 +142,8 @@ dictionaryArg
 ]
 interface
 TestInterfaceJS
+:
+EventTarget
 {
 readonly
 attribute
@@ -534,6 +536,15 @@ void
 testPromiseWithDOMExceptionThrowingThenable
 (
 )
+;
+/
+/
+Event
+handler
+tests
+attribute
+EventHandler
+onsomething
 ;
 }
 ;

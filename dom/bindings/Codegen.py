@@ -100804,6 +100804,10 @@ isCallbackReturnValue
 =
 isCallbackReturnValue
                                         
+allowTreatNonCallableAsNull
+=
+True
+                                        
 sourceDescription
 =
 sourceDescription
