@@ -9687,15 +9687,6 @@ return
 false
 ;
 }
-mContentParent
-=
-mRemoteBrowser
--
->
-Manager
-(
-)
-;
 mChildID
 =
 mRemoteBrowser
