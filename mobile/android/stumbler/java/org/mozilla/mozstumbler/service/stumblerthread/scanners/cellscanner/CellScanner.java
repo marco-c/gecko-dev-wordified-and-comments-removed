@@ -171,14 +171,15 @@ LOG_TAG
 =
 AppGlobals
 .
-LOG_PREFIX
-+
+makeLogTag
+(
 CellScanner
 .
 class
 .
 getSimpleName
 (
+)
 )
 ;
 private

@@ -61,14 +61,15 @@ LOG_TAG
 =
 AppGlobals
 .
-LOG_PREFIX
-+
+makeLogTag
+(
 NetworkUtils
 .
 class
 .
 getSimpleName
 (
+)
 )
 ;
 ConnectivityManager

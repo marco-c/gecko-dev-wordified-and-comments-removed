@@ -166,14 +166,15 @@ LOG_TAG
 =
 AppGlobals
 .
-LOG_PREFIX
-+
+makeLogTag
+(
 ScanManager
 .
 class
 .
 getSimpleName
 (
+)
 )
 ;
 private

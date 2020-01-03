@@ -60,14 +60,15 @@ LOG_TAG
 =
 AppGlobals
 .
-LOG_PREFIX
-+
+makeLogTag
+(
 LocationBlockList
 .
 class
 .
 getSimpleName
 (
+)
 )
 ;
 private
