@@ -255,11 +255,13 @@ archlinux
 .
 org
 /
-packages
+cgit
 /
-uu
+aur
+.
+git
 /
-uuid
+snapshot
 /
 uuid
 .
