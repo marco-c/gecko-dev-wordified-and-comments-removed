@@ -14584,6 +14584,12 @@ null
 let
 listenerWindow
 =
+null
+;
+try
+{
+listenerWindow
+=
 Services
 .
 wm
@@ -14597,6 +14603,13 @@ json
 value
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 if
 (
 this
