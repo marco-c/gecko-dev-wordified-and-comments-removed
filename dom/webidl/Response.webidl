@@ -220,6 +220,7 @@ Headers
 headers
 ;
 [
+Throws
 NewObject
 ]
 Response

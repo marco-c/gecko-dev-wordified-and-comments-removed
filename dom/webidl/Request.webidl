@@ -202,6 +202,7 @@ RequestCache
 cache
 ;
 [
+Throws
 NewObject
 ]
 Request

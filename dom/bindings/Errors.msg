@@ -993,12 +993,11 @@ method
 )
 MSG_DEF
 (
-MSG_REQUEST_BODY_CONSUMED_ERROR
+MSG_FETCH_BODY_CONSUMED_ERROR
 0
 JSEXN_TYPEERR
 "
-Request
-body
+Body
 has
 already
 been

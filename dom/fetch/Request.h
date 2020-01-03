@@ -356,6 +356,9 @@ Request
 >
 Clone
 (
+ErrorResult
+&
+aRv
 )
 const
 ;

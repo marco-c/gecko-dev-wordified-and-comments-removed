@@ -62,6 +62,14 @@ nsACString
 aStatusText
 )
 ;
+already_AddRefed
+<
+InternalResponse
+>
+Clone
+(
+)
+;
 static
 already_AddRefed
 <
