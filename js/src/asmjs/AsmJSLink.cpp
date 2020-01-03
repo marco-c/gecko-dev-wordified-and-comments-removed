@@ -4481,7 +4481,7 @@ func
 if
 (
 !
-CALL_GENERATED_ASMJS
+CALL_GENERATED_2
 (
 enter
 coercedArgs
