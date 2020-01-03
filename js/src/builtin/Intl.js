@@ -1126,6 +1126,9 @@ duplicateVariantRE
 regexp_construct_no_statics
 (
 duplicateVariant
+"
+i
+"
 )
 )
 ;
@@ -1275,6 +1278,9 @@ duplicateSingletonRE
 regexp_construct_no_statics
 (
 duplicateSingleton
+"
+i
+"
 )
 )
 ;
