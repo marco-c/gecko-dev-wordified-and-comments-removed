@@ -2954,6 +2954,9 @@ bool
 mPendingDestroy
 ;
 bool
+mPendingClearLockedContent
+;
+bool
 mNativeCaretIsCreated
 ;
 bool
