@@ -196,13 +196,6 @@ jsm
 '
 widgets
 /
-FlameGraph
-.
-jsm
-'
-'
-widgets
-/
 Graphs
 .
 jsm
