@@ -372,6 +372,11 @@ getAnimationPlayersForNode
 node
 )
 ;
+yield
+player
+.
+ready
+;
 ok
 (
 player
