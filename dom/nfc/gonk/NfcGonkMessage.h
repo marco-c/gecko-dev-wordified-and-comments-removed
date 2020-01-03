@@ -14,7 +14,7 @@ NFCD_MAJOR_VERSION
 #
 define
 NFCD_MINOR_VERSION
-7
+8
 enum
 NfcRequest
 {
@@ -48,6 +48,7 @@ Initialized
 2000
 TechDiscovered
 TechLost
+HCIEventTransaction
 }
 ;
 enum
@@ -191,6 +192,20 @@ FailDisableLowPowerMode
 =
 -
 31
+}
+;
+enum
+SecureElementOrigin
+{
+SIM
+=
+0
+ESE
+=
+1
+ASSD
+=
+2
 }
 ;
 }
