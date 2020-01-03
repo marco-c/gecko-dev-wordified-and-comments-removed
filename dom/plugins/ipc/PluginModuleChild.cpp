@@ -5599,10 +5599,6 @@ aPtr
 {
 PLUGIN_LOG_DEBUG_FUNCTION
 ;
-AssertPluginThread
-(
-)
-;
 free
 (
 aPtr
@@ -5616,12 +5612,6 @@ uint32_t
 aSize
 )
 {
-PLUGIN_LOG_DEBUG_FUNCTION
-;
-AssertPluginThread
-(
-)
-;
 return
 0
 ;
@@ -5768,10 +5758,6 @@ aSize
 )
 {
 PLUGIN_LOG_DEBUG_FUNCTION
-;
-AssertPluginThread
-(
-)
 ;
 return
 moz_xmalloc
