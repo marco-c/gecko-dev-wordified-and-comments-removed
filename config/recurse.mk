@@ -920,16 +920,11 @@ subtier
 )
 ifndef
 TOPLEVEL_BUILD
-ifdef
-COMPILE_ENVIRONMENT
 libs
 :
 :
 target
 host
-endif
-#
-COMPILE_ENVIRONMENT
 endif
 endif
 #
