@@ -100,3 +100,17 @@ reftest
 -
 print
 tests
+=
+=
+animate
+-
+opacity
+.
+html
+animate
+-
+opacity
+-
+ref
+.
+html
