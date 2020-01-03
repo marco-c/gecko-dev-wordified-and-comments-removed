@@ -543,7 +543,7 @@ NotificationRef
 >
 mTempRef
 ;
-void
+bool
 AddRefObject
 (
 )
@@ -895,7 +895,7 @@ NS_IsMainThread
 mWorkerPrivate
 ;
 }
-void
+bool
 RegisterFeature
 (
 )
