@@ -30776,7 +30776,7 @@ return
 shadow
 -
 >
-GetYoungerShadow
+GetYoungerShadowRoot
 (
 )
 ;
