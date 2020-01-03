@@ -1358,15 +1358,6 @@ void
 gfxContext
 :
 :
-NewSubPath
-(
-)
-{
-}
-void
-gfxContext
-:
-:
 LineTo
 (
 const
