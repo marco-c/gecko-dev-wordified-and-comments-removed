@@ -2116,9 +2116,6 @@ ComposeStyle
 (
 nsRefPtr
 <
-css
-:
-:
 AnimValuesStyleRule
 >
 &
@@ -4123,9 +4120,6 @@ GetCollection
 )
 const
 {
-css
-:
-:
 CommonAnimationManager
 *
 manager

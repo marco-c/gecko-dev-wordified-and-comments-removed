@@ -131,13 +131,9 @@ nsCSSPropertySet
 namespace
 mozilla
 {
-namespace
-css
-{
 class
 AnimValuesStyleRule
 ;
-}
 struct
 AnimationTiming
 {
@@ -1095,9 +1091,6 @@ ComposeStyle
 (
 nsRefPtr
 <
-css
-:
-:
 AnimValuesStyleRule
 >
 &
