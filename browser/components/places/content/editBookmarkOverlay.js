@@ -986,7 +986,6 @@ _locationField
 .
 readOnly
 =
-!
 this
 .
 readOnly
