@@ -970,6 +970,14 @@ if
 (
 !
 snapshotItem
+|
+|
+!
+snapshotItem
+.
+attachment
+.
+actor
 )
 {
 return
