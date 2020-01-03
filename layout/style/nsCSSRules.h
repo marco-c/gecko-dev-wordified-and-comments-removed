@@ -1436,6 +1436,7 @@ nsCSSKeyframeStyleDeclaration
 ;
 nsCSSKeyframeRule
 *
+MOZ_NON_OWNING_REF
 mRule
 ;
 }
@@ -1986,6 +1987,7 @@ nsCSSPageStyleDeclaration
 ;
 nsCSSPageRule
 *
+MOZ_NON_OWNING_REF
 mRule
 ;
 }
