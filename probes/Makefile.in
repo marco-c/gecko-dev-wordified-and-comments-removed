@@ -94,6 +94,9 @@ d
 Makefile
 dtrace
 -
+x
+nolibs
+-
 h
 -
 s

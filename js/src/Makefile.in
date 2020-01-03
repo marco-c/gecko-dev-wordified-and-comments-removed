@@ -2071,6 +2071,9 @@ trace
 d
 dtrace
 -
+x
+nolibs
+-
 h
 -
 s

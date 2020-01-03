@@ -5576,6 +5576,9 @@ NON_DTRACE_OBJS
 )
 dtrace
 -
+x
+nolibs
+-
 G
 -
 C
@@ -5693,6 +5696,9 @@ DTRACE_LIB_DEPENDENT
 ifndef
 XP_MACOSX
 dtrace
+-
+x
+nolibs
 -
 G
 -
