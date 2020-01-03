@@ -2462,7 +2462,6 @@ count
 ;
 if
 (
-!
 ins
 -
 >
@@ -2471,9 +2470,12 @@ toNewArray
 )
 -
 >
-isAllocating
+allocatingBehaviour
 (
 )
+=
+=
+NewArray_Unallocating
 )
 {
 JitSpewDef

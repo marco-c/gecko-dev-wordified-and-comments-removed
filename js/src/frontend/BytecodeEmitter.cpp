@@ -18852,7 +18852,7 @@ RootedObject
 obj
 (
 cx
-NewDenseAllocatedArray
+NewDenseFullyAllocatedArray
 (
 cx
 count

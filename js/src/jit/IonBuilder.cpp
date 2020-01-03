@@ -27954,10 +27954,7 @@ constraints
 (
 )
 )
-MNewArray
-:
-:
-NewArray_Allocating
+NewArray_FullyAllocating
 )
 ;
 current
@@ -41580,10 +41577,7 @@ constraints
 (
 )
 )
-MNewArray
-:
-:
-NewArray_Allocating
+NewArray_FullyAllocating
 )
 ;
 current

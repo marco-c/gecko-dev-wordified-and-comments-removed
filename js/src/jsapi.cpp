@@ -18701,7 +18701,7 @@ cx
 )
 ;
 return
-NewDenseAllocatedArray
+NewDenseFullyAllocatedArray
 (
 cx
 length
