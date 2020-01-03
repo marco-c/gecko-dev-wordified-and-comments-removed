@@ -8,6 +8,13 @@ h
 #
 include
 "
+gfxUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -6429,10 +6436,7 @@ NS_STYLE_BORDER_STYLE_DOTTED
 ColorPattern
 color
 (
-nsLayoutUtils
-:
-:
-NSColorToColor
+ToDeviceColor
 (
 StyleColor
 (

@@ -15,6 +15,13 @@ h
 #
 include
 "
+gfxUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -231,10 +238,7 @@ AppUnitsPerDevPixel
 ColorPattern
 color
 (
-nsLayoutUtils
-:
-:
-NSColorToColor
+ToDeviceColor
 (
 aFrame
 -
