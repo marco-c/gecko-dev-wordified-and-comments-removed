@@ -2968,6 +2968,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 {
 if
@@ -2983,6 +2985,7 @@ SendHandleLongTap
 (
 aPoint
 aGuid
+aInputBlockId
 )
 ;
 }
@@ -3901,6 +3904,7 @@ MaybeForwardEventToRenderFrame
 (
 event
 nullptr
+nullptr
 )
 ;
 if
@@ -4100,6 +4104,10 @@ const
 ScrollableLayerGuid
 &
 aGuid
+const
+uint64_t
+&
+aInputBlockId
 )
 {
 if
@@ -4122,6 +4130,7 @@ AdjustTapToChildWidget
 aPoint
 )
 aGuid
+aInputBlockId
 )
 ;
 }
@@ -4229,6 +4238,7 @@ status
 MaybeForwardEventToRenderFrame
 (
 event
+nullptr
 nullptr
 )
 ;
@@ -4506,6 +4516,7 @@ false
 MaybeForwardEventToRenderFrame
 (
 event
+nullptr
 nullptr
 )
 ;
@@ -4848,6 +4859,9 @@ i
 ScrollableLayerGuid
 guid
 ;
+uint64_t
+blockId
+;
 nsEventStatus
 status
 =
@@ -4856,6 +4870,8 @@ MaybeForwardEventToRenderFrame
 event
 &
 guid
+&
+blockId
 )
 ;
 if
@@ -4897,6 +4913,7 @@ SendRealTouchMoveEvent
 (
 event
 guid
+blockId
 )
 :
 PBrowserParent
@@ -4906,6 +4923,7 @@ SendRealTouchEvent
 (
 event
 guid
+blockId
 )
 ;
 }
@@ -9115,6 +9133,9 @@ aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutInputBlockId
 )
 {
 if
@@ -9136,6 +9157,7 @@ NotifyInputEvent
 (
 aEvent
 aOutTargetGuid
+aOutInputBlockId
 )
 ;
 }
@@ -9346,6 +9368,10 @@ ScrollableLayerGuid
 &
 aGuid
 const
+uint64_t
+&
+aInputBlockId
+const
 bool
 &
 aPreventDefault
@@ -9368,6 +9394,7 @@ rfp
 ContentReceivedTouch
 (
 aGuid
+aInputBlockId
 aPreventDefault
 )
 ;

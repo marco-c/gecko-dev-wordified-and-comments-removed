@@ -39,6 +39,13 @@ InputBlockState
 {
 public
 :
+static
+const
+uint64_t
+NO_BLOCK_ID
+=
+0
+;
 explicit
 InputBlockState
 (
@@ -74,6 +81,12 @@ GetOverscrollHandoffChain
 )
 const
 ;
+uint64_t
+GetBlockId
+(
+)
+const
+;
 private
 :
 nsRefPtr
@@ -88,6 +101,10 @@ const
 OverscrollHandoffChain
 >
 mOverscrollHandoffChain
+;
+const
+uint64_t
+mBlockId
 ;
 }
 ;

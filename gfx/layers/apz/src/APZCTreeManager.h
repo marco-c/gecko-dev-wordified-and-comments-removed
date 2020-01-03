@@ -253,6 +253,9 @@ aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutInputBlockId
 )
 ;
 nsEventStatus
@@ -264,6 +267,9 @@ aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutInputBlockId
 )
 ;
 void
@@ -298,6 +304,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 bool
 aPreventDefault
 )
@@ -399,6 +407,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 const
 nsTArray
 <
@@ -617,6 +627,9 @@ aInput
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutInputBlockId
 )
 ;
 nsEventStatus
@@ -628,6 +641,9 @@ inputEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutInputBlockId
 )
 ;
 void

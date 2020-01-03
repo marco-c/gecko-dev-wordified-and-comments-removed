@@ -721,6 +721,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 MOZ_OVERRIDE
 {
@@ -754,6 +756,7 @@ HandleLongTap
 aPoint
 aModifiers
 aGuid
+aInputBlockId
 )
 )
 ;
@@ -791,6 +794,7 @@ HandleLongTap
 aPoint
 aModifiers
 aGuid
+aInputBlockId
 )
 ;
 }
@@ -1950,6 +1954,9 @@ aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutInputBlockId
 )
 {
 if
@@ -1969,6 +1976,7 @@ ReceiveInputEvent
 (
 aEvent
 aOutTargetGuid
+aOutInputBlockId
 )
 ;
 }
@@ -2323,6 +2331,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 bool
 aPreventDefault
 )
@@ -2372,6 +2382,7 @@ GetApzcTreeManager
 ContentReceivedTouch
 (
 aGuid
+aInputBlockId
 aPreventDefault
 )
 ;

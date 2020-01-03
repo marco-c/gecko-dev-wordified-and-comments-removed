@@ -146,6 +146,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 MOZ_OVERRIDE
 {

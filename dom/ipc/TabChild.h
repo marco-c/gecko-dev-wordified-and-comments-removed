@@ -1402,6 +1402,10 @@ layers
 ScrollableLayerGuid
 &
 aGuid
+const
+uint64_t
+&
+aInputBlockId
 )
 MOZ_OVERRIDE
 ;
@@ -1552,6 +1556,10 @@ const
 ScrollableLayerGuid
 &
 aGuid
+const
+uint64_t
+&
+aInputBlockId
 )
 MOZ_OVERRIDE
 ;
@@ -1567,6 +1575,10 @@ const
 ScrollableLayerGuid
 &
 aGuid
+const
+uint64_t
+&
+aInputBlockId
 )
 MOZ_OVERRIDE
 ;
@@ -2543,6 +2555,9 @@ mPendingTouchPreventedResponse
 ;
 ScrollableLayerGuid
 mPendingTouchPreventedGuid
+;
+uint64_t
+mPendingTouchPreventedBlockId
 ;
 void
 FireSingleTapEvent

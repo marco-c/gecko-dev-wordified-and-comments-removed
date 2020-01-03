@@ -3944,6 +3944,9 @@ false
 ScrollableLayerGuid
 guid
 ;
+uint64_t
+blockId
+;
 nsEventStatus
 status
 =
@@ -3955,6 +3958,8 @@ ReceiveInputEvent
 input
 &
 guid
+&
+blockId
 )
 ;
 if
@@ -3980,6 +3985,7 @@ MakeApzInputEvent
 (
 input
 guid
+blockId
 )
 )
 ;

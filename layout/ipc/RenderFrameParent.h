@@ -301,6 +301,9 @@ aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutInputBlockId
 )
 ;
 void
@@ -323,6 +326,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 bool
 aPreventDefault
 )

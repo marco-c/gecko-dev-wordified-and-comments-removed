@@ -1014,6 +1014,9 @@ layers
 ScrollableLayerGuid
 mTargetAPZCGuid
 ;
+uint64_t
+mInputBlockId
+;
 static
 nsEventStatus
 sThrowawayStatus

@@ -914,6 +914,10 @@ ScrollableLayerGuid
 &
 aGuid
 const
+uint64_t
+&
+aInputBlockId
+const
 bool
 &
 aPreventDefault
@@ -1049,6 +1053,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 ;
 void
@@ -1233,6 +1239,10 @@ const
 ScrollableLayerGuid
 &
 aGuid
+const
+uint64_t
+&
+aInputBlockId
 )
 ;
 bool
@@ -1850,6 +1860,9 @@ aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutInputBlockId
 )
 ;
 LayoutDeviceIntPoint

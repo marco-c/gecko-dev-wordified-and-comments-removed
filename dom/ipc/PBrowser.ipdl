@@ -2474,6 +2474,8 @@ ContentReceivedTouch
 (
 ScrollableLayerGuid
 aGuid
+uint64_t
+aInputBlockId
 bool
 aPreventDefault
 )
@@ -2872,6 +2874,8 @@ CSSPoint
 point
 ScrollableLayerGuid
 aGuid
+uint64_t
+aInputBlockId
 )
 ;
 HandleLongTapUp
@@ -2970,6 +2974,8 @@ WidgetTouchEvent
 aEvent
 ScrollableLayerGuid
 aGuid
+uint64_t
+aInputBlockId
 )
 ;
 /
@@ -2997,6 +3003,8 @@ WidgetTouchEvent
 aEvent
 ScrollableLayerGuid
 aGuid
+uint64_t
+aInputBlockId
 )
 compress
 ;

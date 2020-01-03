@@ -1282,6 +1282,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 nsTArray
 <
 TouchBehaviorFlags
@@ -1326,6 +1328,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 ;
 void
@@ -1335,6 +1339,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 ;
 nsEventStatus
@@ -1349,6 +1355,9 @@ aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutInputBlockId
 )
 ;
 void

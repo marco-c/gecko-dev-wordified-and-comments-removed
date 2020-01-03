@@ -1984,6 +1984,8 @@ layers
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 {
 AndroidGeckoEvent
@@ -2016,6 +2018,13 @@ event
 mApzGuid
 =
 aGuid
+;
+event
+-
+>
+mApzInputBlockId
+=
+aInputBlockId
 ;
 return
 event
@@ -2684,6 +2693,11 @@ ApzGuid
 (
 )
 ;
+uint64_t
+ApzInputBlockId
+(
+)
+;
 protected
 :
 int
@@ -2858,6 +2872,9 @@ layers
 :
 ScrollableLayerGuid
 mApzGuid
+;
+uint64_t
+mApzInputBlockId
 ;
 AutoGlobalWrappedJavaObject
 mObject

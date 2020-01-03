@@ -4130,6 +4130,10 @@ mPendingTouchPreventedResponse
 (
 false
 )
+mPendingTouchPreventedBlockId
+(
+0
+)
 mTouchEndCancelled
 (
 false
@@ -6955,6 +6959,7 @@ mPendingTouchPreventedGuid
 SendContentReceivedTouch
 (
 mPendingTouchPreventedGuid
+mPendingTouchPreventedBlockId
 aPreventDefault
 )
 ;
@@ -8798,6 +8803,10 @@ const
 ScrollableLayerGuid
 &
 aGuid
+const
+uint64_t
+&
+aInputBlockId
 )
 {
 TABC_LOG
@@ -8970,6 +8979,7 @@ eventHandled
 SendContentReceivedTouch
 (
 aGuid
+aInputBlockId
 eventHandled
 )
 ;
@@ -10167,6 +10177,10 @@ const
 ScrollableLayerGuid
 &
 aGuid
+const
+uint64_t
+&
+aInputBlockId
 )
 {
 TABC_LOG
@@ -10359,6 +10373,7 @@ mPendingTouchPreventedResponse
 SendContentReceivedTouch
 (
 mPendingTouchPreventedGuid
+mPendingTouchPreventedBlockId
 false
 )
 ;
@@ -10375,6 +10390,7 @@ isTouchPrevented
 SendContentReceivedTouch
 (
 aGuid
+aInputBlockId
 isTouchPrevented
 )
 ;
@@ -10388,6 +10404,10 @@ true
 mPendingTouchPreventedGuid
 =
 aGuid
+;
+mPendingTouchPreventedBlockId
+=
+aInputBlockId
 ;
 }
 break
@@ -10465,6 +10485,10 @@ const
 ScrollableLayerGuid
 &
 aGuid
+const
+uint64_t
+&
+aInputBlockId
 )
 {
 return
@@ -10472,6 +10496,7 @@ RecvRealTouchEvent
 (
 aEvent
 aGuid
+aInputBlockId
 )
 ;
 }

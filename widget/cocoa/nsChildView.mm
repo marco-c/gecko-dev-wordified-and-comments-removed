@@ -2630,6 +2630,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 MOZ_OVERRIDE
 {
@@ -31649,6 +31651,7 @@ ReceiveInputEvent
 panInput
 &
 guid
+nullptr
 )
 ;
 return
@@ -31688,6 +31691,7 @@ ReceiveInputEvent
 panInput
 &
 guid
+nullptr
 )
 ;
 return
@@ -31838,6 +31842,7 @@ ReceiveInputEvent
 panInput
 &
 guid
+nullptr
 )
 ;
 }
@@ -31881,6 +31886,7 @@ ReceiveInputEvent
 panInput
 &
 guid
+nullptr
 )
 ;
 }
@@ -31921,6 +31927,7 @@ ReceiveInputEvent
 panInput
 &
 guid
+nullptr
 )
 ;
 }
@@ -31973,6 +31980,7 @@ ReceiveInputEvent
 panInput
 &
 guid
+nullptr
 )
 ;
 }
@@ -32016,6 +32024,7 @@ ReceiveInputEvent
 panInput
 &
 guid
+nullptr
 )
 ;
 }
@@ -32053,6 +32062,7 @@ ReceiveInputEvent
 panInput
 &
 guid
+nullptr
 )
 ;
 }

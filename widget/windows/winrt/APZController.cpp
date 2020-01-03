@@ -364,6 +364,9 @@ const
 ScrollableLayerGuid
 &
 aGuid
+const
+uint64_t
+aInputBlockId
 bool
 aPreventDefault
 )
@@ -383,6 +386,7 @@ sAPZC
 ContentReceivedTouch
 (
 aGuid
+aInputBlockId
 aPreventDefault
 )
 ;
@@ -468,6 +472,9 @@ aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
+uint64_t
+*
+aOutInputBlockId
 )
 {
 MOZ_ASSERT
@@ -499,6 +506,7 @@ AsInputEvent
 (
 )
 aOutTargetGuid
+aOutInputBlockId
 )
 ;
 }
@@ -922,6 +930,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 {
 if
@@ -940,6 +950,7 @@ FlushPendingContentResponse
 ContentReceivedTouch
 (
 aGuid
+aInputBlockId
 false
 )
 ;
