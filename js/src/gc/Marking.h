@@ -1155,7 +1155,7 @@ isEmpty
 bool
 restoreValueArray
 (
-NativeObject
+JSObject
 *
 obj
 void

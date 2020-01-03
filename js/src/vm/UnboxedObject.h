@@ -918,6 +918,10 @@ UnboxedLayout
 Property
 &
 property
+bool
+maybeUninitialized
+=
+false
 )
 ;
 static
