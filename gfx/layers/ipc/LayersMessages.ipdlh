@@ -1314,9 +1314,6 @@ fixedPositionScrollContainerId
 LayerPoint
 fixedPositionAnchor
 ;
-LayerMargin
-fixedPositionMargin
-;
 bool
 isStickyPosition
 ;
