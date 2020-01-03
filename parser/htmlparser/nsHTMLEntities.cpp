@@ -216,8 +216,6 @@ PLDHashTableOps
 EntityToUnicodeOps
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 PL_DHashStringKey
 matchNodeString
 PL_DHashMoveEntryStub
@@ -231,8 +229,6 @@ PLDHashTableOps
 UnicodeToEntityOps
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 hashUnicodeValue
 matchNodeUnicode
 PL_DHashMoveEntryStub

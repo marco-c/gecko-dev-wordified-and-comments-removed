@@ -1687,8 +1687,6 @@ PLDHashTableOps
 RuleHash_TagTable_Ops
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 PL_DHashVoidPtrKeyStub
 RuleHash_TagTable_MatchEntry
 RuleHash_TagTable_MoveEntry
@@ -1703,8 +1701,6 @@ RuleHash_ClassTable_CSOps
 =
 {
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 PL_DHashVoidPtrKeyStub
 RuleHash_CSMatchEntry
 RuleHash_MoveEntry
@@ -1721,8 +1717,6 @@ RuleHash_ClassTable_CIOps
 =
 {
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 RuleHash_CIHashKey
 RuleHash_CIMatchEntry
 RuleHash_MoveEntry
@@ -1739,8 +1733,6 @@ RuleHash_IdTable_CSOps
 =
 {
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 PL_DHashVoidPtrKeyStub
 RuleHash_CSMatchEntry
 RuleHash_MoveEntry
@@ -1757,8 +1749,6 @@ RuleHash_IdTable_CIOps
 =
 {
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 RuleHash_CIHashKey
 RuleHash_CIMatchEntry
 RuleHash_MoveEntry
@@ -1774,8 +1764,6 @@ PLDHashTableOps
 RuleHash_NameSpaceTable_Ops
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 RuleHash_NameSpaceTable_HashKey
 RuleHash_NameSpaceTable_MatchEntry
 RuleHash_MoveEntry
@@ -4104,8 +4092,6 @@ PLDHashTableOps
 AtomSelector_CSOps
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 PL_DHashVoidPtrKeyStub
 PL_DHashMatchEntryStub
 AtomSelector_MoveEntry
@@ -4120,8 +4106,6 @@ AtomSelector_CIOps
 =
 {
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 RuleHash_CIHashKey
 RuleHash_CIMatchEntry
 AtomSelector_MoveEntry
@@ -14626,8 +14610,6 @@ PLDHashTableOps
 gRulesByWeightOps
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 HashIntKey
 MatchWeightEntry
 PL_DHashMoveEntryStub

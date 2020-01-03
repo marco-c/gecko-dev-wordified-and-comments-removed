@@ -258,8 +258,6 @@ PLDHashTableOps
 PlaceholderMapOps
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 PL_DHashVoidPtrKeyStub
 PlaceholderMapMatchEntry
 PL_DHashMoveEntryStub

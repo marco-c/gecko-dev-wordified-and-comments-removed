@@ -192,8 +192,6 @@ PLDHashTableOps
 ops
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 hash
 PL_DHashMatchEntryStub
 PL_DHashMoveEntryStub

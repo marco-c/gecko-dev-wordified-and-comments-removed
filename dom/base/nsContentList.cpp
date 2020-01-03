@@ -816,8 +816,6 @@ PLDHashTableOps
 hash_table_ops
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 ContentListHashtableHashKey
 ContentListHashtableMatchEntry
 PL_DHashMoveEntryStub
@@ -1231,8 +1229,6 @@ PLDHashTableOps
 hash_table_ops
 =
 {
-PL_DHashAllocTable
-PL_DHashFreeTable
 FuncStringContentListHashtableHashKey
 FuncStringContentListHashtableMatchEntry
 PL_DHashMoveEntryStub
