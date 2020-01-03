@@ -364,7 +364,7 @@ min
 (
 rlim_t
 (
-16384
+OPEN_MAX
 )
 limits
 .
