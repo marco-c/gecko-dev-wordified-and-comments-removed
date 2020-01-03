@@ -339,9 +339,6 @@ a
 void
 *
 .
-uintptr_t
-fence
-;
 IntSize
 size
 ;
