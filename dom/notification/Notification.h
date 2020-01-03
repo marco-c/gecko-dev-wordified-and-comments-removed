@@ -726,6 +726,9 @@ protected
 :
 Notification
 (
+nsIGlobalObject
+*
+aGlobal
 const
 nsAString
 &
@@ -765,6 +768,9 @@ Notification
 >
 CreateInternal
 (
+nsIGlobalObject
+*
+aGlobal
 const
 nsAString
 &
