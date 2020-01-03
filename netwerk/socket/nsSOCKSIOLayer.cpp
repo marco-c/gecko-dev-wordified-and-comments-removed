@@ -1797,6 +1797,15 @@ return
 PR_FAILURE
 ;
 }
+if
+(
+PR_LOG_TEST
+(
+gSOCKSLog
+PR_LOG_DEBUG
+)
+)
+{
 char
 buf
 [
@@ -1841,6 +1850,7 @@ port
 )
 )
 ;
+}
 NetAddr
 proxy
 =
