@@ -111,6 +111,11 @@ UnixSocket
 .
 h
 '
+'
+UnixSocketConnector
+.
+h
+'
 ]
 SOURCES
 +
@@ -123,6 +128,11 @@ cpp
 '
 '
 UnixSocket
+.
+cpp
+'
+'
+UnixSocketConnector
 .
 cpp
 '
