@@ -265,12 +265,6 @@ nsAString
 )
 override
 ;
-nsCOMPtr
-<
-nsPIDOMWindow
->
-mParent
-;
 nsCOMArray
 <
 nsIDOMFile
