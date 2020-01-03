@@ -1782,6 +1782,15 @@ JSTracer
 trc
 )
 ;
+static
+void
+traceIncomingCrossCompartmentEdgesForZoneGC
+(
+JSTracer
+*
+trc
+)
+;
 bool
 preserveJitCode
 (
