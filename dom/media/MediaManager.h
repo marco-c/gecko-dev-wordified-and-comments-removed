@@ -1,4 +1,10 @@
 #
+ifndef
+MOZILLA_MEDIAMANAGER_H
+#
+define
+MOZILLA_MEDIAMANAGER_H
+#
 include
 "
 MediaEngine
@@ -2272,8 +2278,6 @@ aListener
 nsresult
 GetUserMedia
 (
-bool
-aPrivileged
 nsPIDOMWindow
 *
 aWindow
@@ -2283,7 +2287,7 @@ dom
 :
 MediaStreamConstraints
 &
-aRawConstraints
+aConstraints
 nsIDOMGetUserMediaSuccessCallback
 *
 onSuccess
@@ -2499,3 +2503,5 @@ endif
 }
 ;
 }
+#
+endif
