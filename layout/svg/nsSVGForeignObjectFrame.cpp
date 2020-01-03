@@ -2410,12 +2410,9 @@ kid
 )
 return
 ;
-nsRefPtr
-<
 nsRenderingContext
->
 renderingContext
-=
+(
 presContext
 -
 >
@@ -2426,6 +2423,7 @@ PresShell
 >
 CreateReferenceRenderingContext
 (
+)
 )
 ;
 mInReflow
@@ -2447,6 +2445,7 @@ reflowState
 (
 presContext
 kid
+&
 renderingContext
 LogicalSize
 (

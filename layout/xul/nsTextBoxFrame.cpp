@@ -2167,12 +2167,9 @@ vertical
 ;
 }
 }
-nsRefPtr
-<
 nsRenderingContext
->
 refContext
-=
+(
 PresContext
 (
 )
@@ -2186,10 +2183,10 @@ PresShell
 CreateReferenceRenderingContext
 (
 )
+)
 ;
 CalculateUnderline
 (
-*
 refContext
 *
 fontMet
@@ -2309,7 +2306,6 @@ Length
 level
 presContext
 aRenderingContext
-*
 refContext
 *
 fontMet
@@ -2363,7 +2359,6 @@ Length
 level
 presContext
 aRenderingContext
-*
 refContext
 *
 fontMet
@@ -2435,7 +2430,6 @@ mAccessKeyInfo
 mAccesskeyIndex
 *
 fontMet
-*
 refContext
 )
 ;
@@ -2469,11 +2463,8 @@ x
 baseline
 &
 aRenderingContext
+&
 refContext
-.
-get
-(
-)
 )
 ;
 }

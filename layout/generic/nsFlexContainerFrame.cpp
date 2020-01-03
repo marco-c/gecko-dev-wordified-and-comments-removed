@@ -4486,12 +4486,9 @@ GetMainAxis
 )
 )
 {
-nsRefPtr
-<
 nsRenderingContext
->
 rctx
-=
+(
 aPresContext
 -
 >
@@ -4502,6 +4499,7 @@ PresShell
 >
 CreateReferenceRenderingContext
 (
+)
 )
 ;
 if
@@ -4526,6 +4524,7 @@ Frame
 >
 GetMinISize
 (
+&
 rctx
 )
 )

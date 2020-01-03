@@ -1389,7 +1389,7 @@ aFrame
 virtual
 already_AddRefed
 <
-nsRenderingContext
+gfxContext
 >
 CreateReferenceRenderingContext
 (

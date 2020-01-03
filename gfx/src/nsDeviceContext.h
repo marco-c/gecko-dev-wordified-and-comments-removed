@@ -105,6 +105,9 @@ class
 gfxASurface
 ;
 class
+gfxContext
+;
+class
 gfxTextPerfMetrics
 ;
 class
@@ -138,9 +141,6 @@ struct
 nsRect
 ;
 class
-nsRenderingContext
-;
-class
 nsDeviceContext
 MOZ_FINAL
 {
@@ -172,7 +172,7 @@ aDevSpec
 ;
 already_AddRefed
 <
-nsRenderingContext
+gfxContext
 >
 CreateRenderingContext
 (

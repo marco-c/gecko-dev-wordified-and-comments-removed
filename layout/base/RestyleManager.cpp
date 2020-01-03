@@ -1812,12 +1812,9 @@ return
 true
 ;
 }
-nsRefPtr
-<
 nsRenderingContext
->
 rc
-=
+(
 aFrame
 -
 >
@@ -1833,6 +1830,7 @@ PresShell
 >
 CreateReferenceRenderingContext
 (
+)
 )
 ;
 nsIFrame
@@ -1896,6 +1894,7 @@ PresContext
 (
 )
 parentFrame
+&
 rc
 parentSize
 )

@@ -18919,12 +18919,9 @@ kid
 )
 return
 ;
-nsRefPtr
-<
 nsRenderingContext
->
 renderingContext
-=
+(
 presContext
 -
 >
@@ -18935,6 +18932,7 @@ PresShell
 >
 CreateReferenceRenderingContext
 (
+)
 )
 ;
 if
@@ -18965,6 +18963,7 @@ kid
 >
 GetPrefISize
 (
+&
 renderingContext
 )
 ;
@@ -18983,6 +18982,7 @@ reflowState
 (
 presContext
 kid
+&
 renderingContext
 LogicalSize
 (

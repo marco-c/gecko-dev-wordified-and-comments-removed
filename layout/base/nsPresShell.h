@@ -502,7 +502,7 @@ MOZ_OVERRIDE
 virtual
 already_AddRefed
 <
-nsRenderingContext
+gfxContext
 >
 CreateReferenceRenderingContext
 (

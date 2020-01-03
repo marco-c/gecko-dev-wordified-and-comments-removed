@@ -1171,12 +1171,9 @@ mVertical
 NS_STYLE_OVERFLOW_SCROLL
 )
 {
-nsRefPtr
-<
 nsRenderingContext
->
 context
-=
+(
 aPresContext
 -
 >
@@ -1188,6 +1185,7 @@ PresShell
 CreateReferenceRenderingContext
 (
 )
+)
 ;
 nsMargin
 sizes
@@ -1198,6 +1196,7 @@ scrollFrame
 GetDesiredScrollbarSizes
 (
 aPresContext
+&
 context
 )
 )
