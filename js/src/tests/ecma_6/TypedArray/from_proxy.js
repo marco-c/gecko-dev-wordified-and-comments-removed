@@ -144,9 +144,6 @@ id
 =
 v
 ;
-return
-true
-;
 }
 }
 ;

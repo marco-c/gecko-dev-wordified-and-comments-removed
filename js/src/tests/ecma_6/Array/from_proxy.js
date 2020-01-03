@@ -111,9 +111,6 @@ id
 =
 v
 ;
-return
-true
-;
 }
 }
 ;
