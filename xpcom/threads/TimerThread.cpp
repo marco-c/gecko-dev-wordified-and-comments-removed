@@ -960,13 +960,6 @@ timer
 =
 nullptr
 ;
-{
-MonitorAutoUnlock
-unlock
-(
-mMonitor
-)
-;
 #
 ifdef
 DEBUG_TIMERS
@@ -1025,6 +1018,13 @@ ToMilliseconds
 }
 #
 endif
+{
+MonitorAutoUnlock
+unlock
+(
+mMonitor
+)
+;
 timerRef
 =
 nsTimerImpl
@@ -1039,6 +1039,7 @@ forget
 )
 )
 ;
+}
 if
 (
 timerRef
@@ -1084,7 +1085,6 @@ thread
 "
 )
 ;
-}
 }
 if
 (
