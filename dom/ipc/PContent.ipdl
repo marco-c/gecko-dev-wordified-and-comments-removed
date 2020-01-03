@@ -1088,6 +1088,17 @@ isUnmounting
 ;
 }
 ;
+struct
+ClipboardCapabilities
+{
+bool
+supportsSelectionClipboard
+;
+bool
+supportsFindClipboard
+;
+}
+;
 union
 MaybeFileDesc
 {
@@ -2190,6 +2201,8 @@ nsString
 [
 ]
 dictionaries
+ClipboardCapabilities
+clipboardCaps
 )
 ;
 sync
