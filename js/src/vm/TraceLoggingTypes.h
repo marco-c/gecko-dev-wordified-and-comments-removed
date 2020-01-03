@@ -252,16 +252,6 @@ Bailout
 \
 _
 (
-Disable
-)
-\
-_
-(
-Enable
-)
-\
-_
-(
 Stop
 )
 enum
