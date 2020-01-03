@@ -180,10 +180,7 @@ AudioContext
 [
 Throws
 ]
-Promise
-<
-AudioBuffer
->
+void
 startRendering
 (
 )
