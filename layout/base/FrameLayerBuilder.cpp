@@ -17591,6 +17591,7 @@ ActiveLayerTracker
 :
 IsStyleAnimated
 (
+aDisplayListBuilder
 aContainerFrame
 eCSSProperty_transform
 )
@@ -17876,6 +17877,7 @@ ActiveLayerTracker
 :
 IsStyleAnimated
 (
+aDisplayListBuilder
 aContainerFrame
 eCSSProperty_transform
 )
