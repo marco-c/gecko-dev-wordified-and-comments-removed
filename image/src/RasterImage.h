@@ -459,6 +459,15 @@ aLastPart
 )
 MOZ_OVERRIDE
 ;
+static
+already_AddRefed
+<
+nsIEventTarget
+>
+GetEventTarget
+(
+)
+;
 nsresult
 SetSourceSizeHint
 (

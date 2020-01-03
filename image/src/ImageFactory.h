@@ -51,6 +51,17 @@ Initialize
 )
 ;
 static
+bool
+CanRetargetOnDataAvailable
+(
+ImageURL
+*
+aURI
+bool
+aIsMultiPart
+)
+;
+static
 already_AddRefed
 <
 Image
