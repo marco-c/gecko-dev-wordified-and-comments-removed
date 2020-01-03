@@ -6062,11 +6062,6 @@ mAllowRelocking
 1
 ;
 bool
-mAsyncFullscreenPending
-:
-1
-;
-bool
 mObservingAppThemeChanged
 :
 1
@@ -6080,6 +6075,9 @@ uint8_t
 mCancelledPointerLockRequests
 :
 2
+;
+uint8_t
+mPendingFullscreenRequests
 ;
 uint8_t
 mXMLDeclarationBits
