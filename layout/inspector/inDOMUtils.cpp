@@ -835,7 +835,7 @@ bparent
 content
 -
 >
-GetXBLInsertionParent
+GetFlattenedTreeParent
 (
 )
 ;
