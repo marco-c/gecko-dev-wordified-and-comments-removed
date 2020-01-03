@@ -406,6 +406,13 @@ ButtonToast
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 app
 .
 Activity
@@ -12064,6 +12071,12 @@ screen
 "
 ;
 Override
+SuppressLint
+(
+"
+Wakelock
+"
+)
 public
 void
 notifyWakeLockChanged
