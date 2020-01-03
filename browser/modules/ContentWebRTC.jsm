@@ -950,6 +950,8 @@ GetElementAt
 (
 i
 )
+.
+top
 ;
 let
 camera
