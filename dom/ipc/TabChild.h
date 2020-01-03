@@ -2269,6 +2269,15 @@ mChromeDisp
 ;
 }
 ;
+bool
+IPCOpen
+(
+)
+{
+return
+mIPCOpen
+;
+}
 protected
 :
 virtual
@@ -2774,6 +2783,9 @@ mDPI
 ;
 double
 mDefaultScale
+;
+bool
+mIPCOpen
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
