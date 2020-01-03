@@ -773,10 +773,7 @@ Tell
 IntRect
 picture
 =
-ToIntRect
-(
 mPicture
-)
 ;
 nsRefPtr
 <

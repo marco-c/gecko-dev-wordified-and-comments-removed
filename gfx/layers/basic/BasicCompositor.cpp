@@ -2531,13 +2531,7 @@ invalidRegionSafe
 And
 (
 aInvalidRegion
-gfx
-:
-:
-ThebesIntRect
-(
 intRect
-)
 )
 ;
 nsIntRect

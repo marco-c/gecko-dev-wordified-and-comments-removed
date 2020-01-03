@@ -1613,10 +1613,7 @@ false
 IntRect
 picture
 =
-ToIntRect
-(
 mPicture
-)
 ;
 if
 (

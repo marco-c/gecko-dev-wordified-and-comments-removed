@@ -1019,10 +1019,7 @@ gfx
 IntRect
 picture
 =
-ToIntRect
-(
 mPicture
-)
 ;
 if
 (

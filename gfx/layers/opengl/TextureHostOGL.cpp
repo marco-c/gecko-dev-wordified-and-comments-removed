@@ -1663,14 +1663,11 @@ GetTileRect
 )
 {
 return
-ThebesIntRect
-(
 mTexImage
 -
 >
 GetTileRect
 (
-)
 )
 ;
 }

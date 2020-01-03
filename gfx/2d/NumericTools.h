@@ -4,7 +4,10 @@ MOZILLA_GFX_NUMERICTOOLS_H_
 #
 define
 MOZILLA_GFX_NUMERICTOOLS_H_
-static
+namespace
+mozilla
+{
+inline
 int32_t
 RoundDownToMultiple
 (
@@ -46,7 +49,7 @@ mod
 x
 ;
 }
-static
+inline
 int32_t
 RoundUpToMultiple
 (
@@ -87,6 +90,7 @@ x
 -
 mod
 ;
+}
 }
 #
 endif

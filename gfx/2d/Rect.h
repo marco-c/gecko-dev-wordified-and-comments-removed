@@ -710,6 +710,9 @@ this
 >
 x
 =
+mozilla
+:
+:
 RoundDownToMultiple
 (
 this
@@ -726,6 +729,9 @@ this
 >
 y
 =
+mozilla
+:
+:
 RoundDownToMultiple
 (
 this
@@ -739,6 +745,9 @@ height
 ;
 xMost
 =
+mozilla
+:
+:
 RoundUpToMultiple
 (
 xMost
@@ -749,6 +758,9 @@ width
 ;
 yMost
 =
+mozilla
+:
+:
 RoundUpToMultiple
 (
 yMost

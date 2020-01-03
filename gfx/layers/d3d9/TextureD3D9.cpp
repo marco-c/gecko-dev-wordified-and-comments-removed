@@ -2528,12 +2528,9 @@ GetTileRect
 )
 {
 return
-ThebesIntRect
-(
 GetTileRect
 (
 mCurrentTile
-)
 )
 ;
 }

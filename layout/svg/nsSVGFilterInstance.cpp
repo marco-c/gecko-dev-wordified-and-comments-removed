@@ -1043,10 +1043,7 @@ inputSubregion
 =
 isStandardInput
 ?
-ToIntRect
-(
 mFilterSpaceBounds
-)
 :
 aPrimitiveDescrs
 [
@@ -1072,10 +1069,7 @@ else
 {
 defaultFilterSubregion
 =
-ToIntRect
-(
 mFilterSpaceBounds
-)
 ;
 }
 gfxRect
@@ -1822,10 +1816,7 @@ PrimitiveSubregion
 .
 Intersect
 (
-ToIntRect
-(
 mFilterSpaceBounds
-)
 )
 )
 ;
@@ -2038,10 +2029,7 @@ descr
 .
 SetFilterSpaceBounds
 (
-ToIntRect
-(
 mFilterSpaceBounds
-)
 )
 ;
 descr

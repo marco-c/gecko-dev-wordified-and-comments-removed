@@ -1169,10 +1169,7 @@ b
 1
 -
 1
-ToIntRect
-(
 mPicture
-)
 )
 ;
 if

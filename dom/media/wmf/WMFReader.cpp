@@ -3534,10 +3534,7 @@ b
 false
 -
 1
-ToIntRect
-(
 mPictureRegion
-)
 )
 ;
 if
@@ -3700,10 +3697,7 @@ forget
 false
 -
 1
-ToIntRect
-(
 mPictureRegion
-)
 )
 ;
 NS_ENSURE_TRUE
