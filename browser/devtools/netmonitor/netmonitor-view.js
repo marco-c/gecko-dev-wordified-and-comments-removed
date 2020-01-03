@@ -13384,11 +13384,6 @@ preview
 -
 tab
 "
-"
-preview
--
-tabpanel
-"
 )
 ;
 let
@@ -13420,11 +13415,6 @@ hasSecurityInfo
 security
 -
 tab
-"
-"
-security
--
-tabpanel
 "
 )
 ;
