@@ -953,6 +953,12 @@ bool
 mDropVideoBeforeThreshold
 ;
 bool
+mAudioDiscontinuity
+;
+bool
+mVideoDiscontinuity
+;
+bool
 mEnded
 ;
 double
