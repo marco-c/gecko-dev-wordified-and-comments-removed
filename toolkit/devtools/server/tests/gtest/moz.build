@@ -145,6 +145,11 @@ SerializesTypeNames
 .
 cpp
 '
+'
+UniqueStringHashPolicy
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
