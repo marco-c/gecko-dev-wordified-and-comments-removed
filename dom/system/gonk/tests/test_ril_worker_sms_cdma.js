@@ -837,7 +837,7 @@ workerHelper
 .
 postedMessage
 ;
-do_check_true
+ok
 (
 (
 errorClass
@@ -871,7 +871,7 @@ errorClass
 1
 )
 {
-do_check_eq
+equal
 (
 "
 sms
@@ -906,7 +906,7 @@ errorClass
 0
 )
 {
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -917,7 +917,7 @@ GECKO_SMS_DELIVERY_STATUS_SUCCESS
 }
 else
 {
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -1188,7 +1188,7 @@ fullDataHexString
 fullDataHexString
 )
 ;
-do_check_eq
+equal
 (
 "
 sms
@@ -1200,7 +1200,7 @@ postedMessage
 rilMessageType
 )
 ;
-do_check_eq
+equal
 (
 PDU_CDMA_MSG_TELESERIVCIE_ID_WAP
 postedMessage
@@ -1208,7 +1208,7 @@ postedMessage
 teleservice
 )
 ;
-do_check_eq
+equal
 (
 orig_address
 postedMessage
@@ -1216,7 +1216,7 @@ postedMessage
 sender
 )
 ;
-do_check_eq
+equal
 (
 0x23F0
 postedMessage
@@ -1226,7 +1226,7 @@ header
 originatorPort
 )
 ;
-do_check_eq
+equal
 (
 0x0B84
 postedMessage
@@ -1236,7 +1236,7 @@ header
 destinationPort
 )
 ;
-do_check_eq
+equal
 (
 fullDataHexString
 bytesToHexString

@@ -110,7 +110,7 @@ workerHelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -207,7 +207,7 @@ workerHelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -319,7 +319,7 @@ workerHelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -327,7 +327,7 @@ errorMsg
 undefined
 )
 ;
-do_check_true
+ok
 (
 postedMessage
 .
@@ -436,7 +436,7 @@ workerHelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -444,8 +444,9 @@ errorMsg
 undefined
 )
 ;
-do_check_false
+ok
 (
+!
 postedMessage
 .
 enabled

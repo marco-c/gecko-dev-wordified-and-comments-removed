@@ -183,7 +183,7 @@ true
 }
 )
 ;
-do_check_neq
+notEqual
 (
 parcelTypes
 .
@@ -195,7 +195,7 @@ expectedRequest
 1
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -432,7 +432,7 @@ found
 =
 true
 ;
-do_check_eq
+equal
 (
 u32Parcel
 .
@@ -466,7 +466,7 @@ setSmsBroadcastConfig
 configs
 )
 ;
-do_check_true
+ok
 (
 found
 )
@@ -630,7 +630,7 @@ _mergeAllCellBroadcastConfigs
 (
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -787,7 +787,7 @@ setCellBroadcastSearchList
 options
 )
 ;
-do_check_eq
+equal
 (
 "
 "
@@ -802,7 +802,7 @@ MMI
 aExpected
 )
 ;
-do_check_eq
+equal
 (
 options
 .

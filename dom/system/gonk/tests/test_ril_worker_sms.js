@@ -701,7 +701,7 @@ message
 fullBody
 )
 ;
-do_check_eq
+equal
 (
 expected
 message
@@ -1230,7 +1230,7 @@ function
 (
 )
 {
-do_check_eq
+equal
 (
 this
 .

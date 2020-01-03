@@ -1514,7 +1514,7 @@ function
 icons
 )
 {
-do_check_eq
+equal
 (
 icons
 .
@@ -1522,7 +1522,7 @@ length
 1
 )
 ;
-do_check_eq
+equal
 (
 icons
 [
@@ -1575,7 +1575,7 @@ expected
 i
 ]
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -1585,7 +1585,7 @@ exp
 width
 )
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -1595,7 +1595,7 @@ exp
 height
 )
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -1629,7 +1629,7 @@ j
 +
 )
 {
-do_check_eq
+equal
 (
 icon
 .
@@ -3175,7 +3175,7 @@ function
 icons
 )
 {
-do_check_eq
+equal
 (
 icons
 .
@@ -3250,7 +3250,7 @@ i
 j
 ]
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -3260,7 +3260,7 @@ expected
 width
 )
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -3270,7 +3270,7 @@ expected
 height
 )
 ;
-do_check_eq
+equal
 (
 icon
 .
@@ -3304,7 +3304,7 @@ k
 +
 )
 {
-do_check_eq
+equal
 (
 icon
 .

@@ -203,7 +203,7 @@ strict7BitEncoding
 strToWrite
 )
 {
-do_check_eq
+equal
 (
 expectedCalcLen
 gSmsSegmentHelper
@@ -246,7 +246,7 @@ lst
 sst
 )
 ;
-do_check_eq
+equal
 (
 Math
 .

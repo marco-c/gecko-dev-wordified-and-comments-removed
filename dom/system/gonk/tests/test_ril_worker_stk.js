@@ -256,7 +256,7 @@ _processICCStatus
 iccStatus
 )
 ;
-do_check_eq
+equal
 (
 profileSend
 false
@@ -350,7 +350,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 parseInt
 (
@@ -431,7 +431,7 @@ function
 (
 )
 {
-do_check_eq
+equal
 (
 this
 .
@@ -447,7 +447,7 @@ readInt32
 (
 )
 ;
-do_check_eq
+equal
 (
 this
 .
@@ -457,7 +457,7 @@ readInt32
 44
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -469,7 +469,7 @@ COMPREHENSIONTLV_TAG_COMMAND_DETAILS
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -479,7 +479,7 @@ readHexOctet
 3
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -489,7 +489,7 @@ readHexOctet
 0x01
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -499,7 +499,7 @@ readHexOctet
 STK_CMD_PROVIDE_LOCAL_INFO
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -509,7 +509,7 @@ readHexOctet
 STK_LOCAL_INFO_NNA
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -519,7 +519,7 @@ readHexOctet
 COMPREHENSIONTLV_TAG_DEVICE_ID
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -529,7 +529,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -539,7 +539,7 @@ readHexOctet
 STK_DEVICE_ID_ME
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -549,7 +549,7 @@ readHexOctet
 STK_DEVICE_ID_SIM
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -561,7 +561,7 @@ COMPREHENSIONTLV_TAG_RESULT
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -571,7 +571,7 @@ readHexOctet
 1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -581,7 +581,7 @@ readHexOctet
 STK_RESULT_OK
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -593,7 +593,7 @@ COMPREHENSIONTLV_TAG_TEXT_STRING
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -603,7 +603,7 @@ readHexOctet
 8
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -613,7 +613,7 @@ readHexOctet
 STK_TEXT_CODING_GSM_7BIT_PACKED
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -729,7 +729,7 @@ function
 (
 )
 {
-do_check_eq
+equal
 (
 this
 .
@@ -745,7 +745,7 @@ readInt32
 (
 )
 ;
-do_check_eq
+equal
 (
 this
 .
@@ -755,7 +755,7 @@ readInt32
 30
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -767,7 +767,7 @@ COMPREHENSIONTLV_TAG_COMMAND_DETAILS
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -777,7 +777,7 @@ readHexOctet
 3
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -787,7 +787,7 @@ readHexOctet
 0x01
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -797,7 +797,7 @@ readHexOctet
 STK_CMD_GET_INPUT
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -807,7 +807,7 @@ readHexOctet
 0x00
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -817,7 +817,7 @@ readHexOctet
 COMPREHENSIONTLV_TAG_DEVICE_ID
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -827,7 +827,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -837,7 +837,7 @@ readHexOctet
 STK_DEVICE_ID_ME
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -847,7 +847,7 @@ readHexOctet
 STK_DEVICE_ID_SIM
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -859,7 +859,7 @@ COMPREHENSIONTLV_TAG_RESULT
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -869,7 +869,7 @@ readHexOctet
 1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -879,7 +879,7 @@ readHexOctet
 STK_RESULT_OK
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -891,7 +891,7 @@ COMPREHENSIONTLV_TAG_TEXT_STRING
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -901,7 +901,7 @@ readHexOctet
 1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1130,7 +1130,7 @@ function
 (
 )
 {
-do_check_eq
+equal
 (
 this
 .
@@ -1146,7 +1146,7 @@ readInt32
 (
 )
 ;
-do_check_eq
+equal
 (
 this
 .
@@ -1156,7 +1156,7 @@ readInt32
 352
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1168,7 +1168,7 @@ COMPREHENSIONTLV_TAG_COMMAND_DETAILS
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1178,7 +1178,7 @@ readHexOctet
 3
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1188,7 +1188,7 @@ readHexOctet
 0x01
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1198,7 +1198,7 @@ readHexOctet
 STK_CMD_GET_INPUT
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1208,7 +1208,7 @@ readHexOctet
 0x00
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1218,7 +1218,7 @@ readHexOctet
 COMPREHENSIONTLV_TAG_DEVICE_ID
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1228,7 +1228,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1238,7 +1238,7 @@ readHexOctet
 STK_DEVICE_ID_ME
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1248,7 +1248,7 @@ readHexOctet
 STK_DEVICE_ID_SIM
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1260,7 +1260,7 @@ COMPREHENSIONTLV_TAG_RESULT
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1270,7 +1270,7 @@ readHexOctet
 1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1280,7 +1280,7 @@ readHexOctet
 STK_RESULT_OK
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1292,7 +1292,7 @@ COMPREHENSIONTLV_TAG_TEXT_STRING
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1302,7 +1302,7 @@ readHexOctet
 0x81
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1312,7 +1312,7 @@ readHexOctet
 0xA1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1322,7 +1322,7 @@ readHexOctet
 STK_TEXT_CODING_GSM_8BIT
 )
 ;
-do_check_eq
+equal
 (
 iccPduHelper
 .
@@ -1437,7 +1437,7 @@ function
 (
 )
 {
-do_check_eq
+equal
 (
 this
 .
@@ -1453,7 +1453,7 @@ readInt32
 (
 )
 ;
-do_check_eq
+equal
 (
 this
 .
@@ -1463,7 +1463,7 @@ readInt32
 32
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1475,7 +1475,7 @@ COMPREHENSIONTLV_TAG_COMMAND_DETAILS
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1485,7 +1485,7 @@ readHexOctet
 3
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1495,7 +1495,7 @@ readHexOctet
 0x01
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1505,7 +1505,7 @@ readHexOctet
 STK_CMD_GET_INKEY
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1515,7 +1515,7 @@ readHexOctet
 0x00
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1525,7 +1525,7 @@ readHexOctet
 COMPREHENSIONTLV_TAG_DEVICE_ID
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1535,7 +1535,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1545,7 +1545,7 @@ readHexOctet
 STK_DEVICE_ID_ME
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1555,7 +1555,7 @@ readHexOctet
 STK_DEVICE_ID_SIM
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1567,7 +1567,7 @@ COMPREHENSIONTLV_TAG_RESULT
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1577,7 +1577,7 @@ readHexOctet
 1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1587,7 +1587,7 @@ readHexOctet
 STK_RESULT_NO_RESPONSE_FROM_USER
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1597,7 +1597,7 @@ readHexOctet
 COMPREHENSIONTLV_TAG_DURATION
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1607,7 +1607,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1617,7 +1617,7 @@ readHexOctet
 STK_TIME_UNIT_SECOND
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1743,7 +1743,7 @@ function
 (
 )
 {
-do_check_eq
+equal
 (
 this
 .
@@ -1759,7 +1759,7 @@ readInt32
 (
 )
 ;
-do_check_eq
+equal
 (
 this
 .
@@ -1769,7 +1769,7 @@ readInt32
 32
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1781,7 +1781,7 @@ COMPREHENSIONTLV_TAG_COMMAND_DETAILS
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1791,7 +1791,7 @@ readHexOctet
 3
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1801,7 +1801,7 @@ readHexOctet
 0x01
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1811,7 +1811,7 @@ readHexOctet
 STK_CMD_GET_INKEY
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1821,7 +1821,7 @@ readHexOctet
 0x04
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1831,7 +1831,7 @@ readHexOctet
 COMPREHENSIONTLV_TAG_DEVICE_ID
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1841,7 +1841,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1851,7 +1851,7 @@ readHexOctet
 STK_DEVICE_ID_ME
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1861,7 +1861,7 @@ readHexOctet
 STK_DEVICE_ID_SIM
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1873,7 +1873,7 @@ COMPREHENSIONTLV_TAG_RESULT
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1883,7 +1883,7 @@ readHexOctet
 1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1893,7 +1893,7 @@ readHexOctet
 STK_RESULT_OK
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1905,7 +1905,7 @@ COMPREHENSIONTLV_TAG_TEXT_STRING
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1915,7 +1915,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -1925,7 +1925,7 @@ readHexOctet
 STK_TEXT_CODING_GSM_8BIT
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2055,7 +2055,7 @@ function
 (
 )
 {
-do_check_eq
+equal
 (
 this
 .
@@ -2071,7 +2071,7 @@ readInt32
 (
 )
 ;
-do_check_eq
+equal
 (
 this
 .
@@ -2081,7 +2081,7 @@ readInt32
 26
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2093,7 +2093,7 @@ COMPREHENSIONTLV_TAG_COMMAND_DETAILS
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2103,7 +2103,7 @@ readHexOctet
 3
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2113,7 +2113,7 @@ readHexOctet
 0x01
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2123,7 +2123,7 @@ readHexOctet
 STK_CMD_DISPLAY_TEXT
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2133,7 +2133,7 @@ readHexOctet
 0x01
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2143,7 +2143,7 @@ readHexOctet
 COMPREHENSIONTLV_TAG_DEVICE_ID
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2153,7 +2153,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2163,7 +2163,7 @@ readHexOctet
 STK_DEVICE_ID_ME
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2173,7 +2173,7 @@ readHexOctet
 STK_DEVICE_ID_SIM
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2185,7 +2185,7 @@ COMPREHENSIONTLV_TAG_RESULT
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2195,7 +2195,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2205,7 +2205,7 @@ readHexOctet
 STK_RESULT_TERMINAL_CRNTLY_UNABLE_TO_PROCESS
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -2350,7 +2350,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 tag
 COMPREHENSIONTLV_TAG_LOCATION_INFO
@@ -2367,7 +2367,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 length
 9
@@ -2383,7 +2383,7 @@ readSwappedNibbleBcdString
 3
 )
 ;
-do_check_eq
+equal
 (
 mcc_mnc
 "
@@ -2411,7 +2411,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 lac
 10291
@@ -2461,7 +2461,7 @@ readHexOctet
 )
 )
 ;
-do_check_eq
+equal
 (
 cellId
 19072823
@@ -2503,7 +2503,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 tag
 COMPREHENSIONTLV_TAG_LOCATION_INFO
@@ -2519,7 +2519,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 length
 7
@@ -2534,7 +2534,7 @@ readSwappedNibbleBcdString
 3
 )
 ;
-do_check_eq
+equal
 (
 mcc_mnc
 "
@@ -2561,7 +2561,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 lac
 10291
@@ -2588,7 +2588,7 @@ readHexOctet
 )
 )
 ;
-do_check_eq
+equal
 (
 cellId
 65534
@@ -2630,7 +2630,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 tag
 COMPREHENSIONTLV_TAG_LOCATION_INFO
@@ -2646,7 +2646,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 length
 7
@@ -2661,7 +2661,7 @@ readSwappedNibbleBcdString
 3
 )
 ;
-do_check_eq
+equal
 (
 mcc_mnc
 "
@@ -2688,7 +2688,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 lac
 10291
@@ -2715,7 +2715,7 @@ readHexOctet
 )
 )
 ;
-do_check_eq
+equal
 (
 cellId
 65534
@@ -2787,7 +2787,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 tag
 COMPREHENSIONTLV_TAG_CAUSE
@@ -2804,7 +2804,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 len
 2
@@ -2819,7 +2819,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 standard
 0x60
@@ -2834,7 +2834,7 @@ readHexOctet
 (
 )
 ;
-do_check_eq
+equal
 (
 cause
 0x80
@@ -2887,7 +2887,7 @@ length
 =
 0x70
 ;
-do_check_eq
+equal
 (
 tlvHelper
 .
@@ -2902,7 +2902,7 @@ length
 =
 0x80
 ;
-do_check_eq
+equal
 (
 tlvHelper
 .
@@ -2917,7 +2917,7 @@ length
 =
 0x180
 ;
-do_check_eq
+equal
 (
 tlvHelper
 .
@@ -2932,7 +2932,7 @@ length
 =
 0x18000
 ;
-do_check_eq
+equal
 (
 tlvHelper
 .
@@ -3002,7 +3002,7 @@ writeLength
 length
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -3023,7 +3023,7 @@ writeLength
 length
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -3033,7 +3033,7 @@ readHexOctet
 0x81
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -3054,7 +3054,7 @@ writeLength
 length
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -3064,7 +3064,7 @@ readHexOctet
 0x82
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -3081,7 +3081,7 @@ length
 0xff
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -3104,7 +3104,7 @@ writeLength
 length
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -3114,7 +3114,7 @@ readHexOctet
 0x83
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -3131,7 +3131,7 @@ length
 0xff
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -3148,7 +3148,7 @@ length
 0xff
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -3378,7 +3378,7 @@ ctlv
 .
 value
 ;
-do_check_eq
+equal
 (
 cmdDetails
 .
@@ -3596,7 +3596,7 @@ retrieve
 COMPREHENSIONTLV_TAG_ALPHA_ID
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -3619,7 +3619,7 @@ retrieve
 COMPREHENSIONTLV_TAG_ALPHA_ID
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -3642,7 +3642,7 @@ retrieve
 COMPREHENSIONTLV_TAG_ALPHA_ID
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -3665,7 +3665,7 @@ retrieve
 COMPREHENSIONTLV_TAG_ALPHA_ID
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -3688,7 +3688,7 @@ retrieve
 COMPREHENSIONTLV_TAG_ALPHA_ID
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -3775,7 +3775,7 @@ COMPREHENSIONTLV_TAG_FILE_LIST
 ctlvs
 )
 ;
-do_check_eq
+equal
 (
 ctlv
 .
@@ -3870,7 +3870,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 playTone
 .
@@ -3881,7 +3881,7 @@ Tone
 "
 )
 ;
-do_check_eq
+equal
 (
 playTone
 .
@@ -3889,7 +3889,7 @@ tone
 STK_TONE_TYPE_DIAL_TONE
 )
 ;
-do_check_eq
+equal
 (
 playTone
 .
@@ -3899,7 +3899,7 @@ timeUnit
 STK_TIME_UNIT_SECOND
 )
 ;
-do_check_eq
+equal
 (
 playTone
 .
@@ -3909,7 +3909,7 @@ timeInterval
 5
 )
 ;
-do_check_eq
+equal
 (
 playTone
 .
@@ -3917,7 +3917,7 @@ iconSelfExplanatory
 true
 )
 ;
-do_check_eq
+equal
 (
 playTone
 .
@@ -3988,7 +3988,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 interval
 .
@@ -3996,7 +3996,7 @@ timeUnit
 STK_TIME_UNIT_SECOND
 )
 ;
-do_check_eq
+equal
 (
 interval
 .
@@ -4100,7 +4100,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 textMsg
 .
@@ -4122,7 +4122,7 @@ Validez
 "
 )
 ;
-do_check_eq
+equal
 (
 textMsg
 .
@@ -4130,7 +4130,7 @@ iconSelfExplanatory
 true
 )
 ;
-do_check_eq
+equal
 (
 textMsg
 .
@@ -4203,7 +4203,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 Array
 .
@@ -4236,7 +4236,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 event
 .
@@ -4334,7 +4334,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4344,7 +4344,7 @@ Text
 "
 )
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4352,7 +4352,7 @@ isAlphabet
 true
 )
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4360,7 +4360,7 @@ isUCS2
 true
 )
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4368,7 +4368,7 @@ hideInput
 true
 )
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4376,7 +4376,7 @@ isPacked
 true
 )
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4384,7 +4384,7 @@ isHelpAvailable
 true
 )
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4392,7 +4392,7 @@ minLength
 0x01
 )
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4400,7 +4400,7 @@ maxLength
 0x10
 )
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4410,7 +4410,7 @@ Default
 "
 )
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4418,7 +4418,7 @@ iconSelfExplanatory
 true
 )
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4479,7 +4479,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4487,7 +4487,7 @@ text
 null
 )
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4495,7 +4495,7 @@ minLength
 0x01
 )
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4503,7 +4503,7 @@ maxLength
 0x10
 )
 ;
-do_check_eq
+equal
 (
 input
 .
@@ -4645,7 +4645,7 @@ COMPREHENSIONTLV_TAG_COMMAND_DETAILS
 ctlvs
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -4655,7 +4655,7 @@ commandNumber
 0x01
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -4665,7 +4665,7 @@ typeOfCommand
 STK_CMD_MORE_TIME
 )
 ;
-do_check_eq
+equal
 (
 tlv
 .
@@ -4787,7 +4787,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4797,7 +4797,7 @@ Title
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4805,7 +4805,7 @@ iconSelfExplanatory
 true
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4813,7 +4813,7 @@ icons
 1
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4826,7 +4826,7 @@ identifier
 1
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4842,7 +4842,7 @@ item
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4855,7 +4855,7 @@ iconSelfExplanatory
 true
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4868,7 +4868,7 @@ icons
 1
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4881,7 +4881,7 @@ identifier
 2
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4897,7 +4897,7 @@ item
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4910,7 +4910,7 @@ iconSelfExplanatory
 true
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4923,7 +4923,7 @@ icons
 2
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4936,7 +4936,7 @@ identifier
 3
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4952,7 +4952,7 @@ item
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4965,7 +4965,7 @@ iconSelfExplanatory
 true
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4978,7 +4978,7 @@ icons
 3
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -4989,7 +4989,7 @@ nextActionList
 STK_CMD_SET_UP_CALL
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5000,7 +5000,7 @@ nextActionList
 STK_CMD_LAUNCH_BROWSER
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5011,7 +5011,7 @@ nextActionList
 STK_CMD_PLAY_TONE
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5106,7 +5106,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5116,7 +5116,7 @@ Title
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5129,7 +5129,7 @@ identifier
 1
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5145,7 +5145,7 @@ item
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5158,7 +5158,7 @@ identifier
 2
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5174,7 +5174,7 @@ item
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5187,7 +5187,7 @@ identifier
 3
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5203,7 +5203,7 @@ item
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5214,7 +5214,7 @@ nextActionList
 STK_NEXT_ACTION_NULL
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5225,7 +5225,7 @@ nextActionList
 STK_CMD_LAUNCH_BROWSER
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5236,7 +5236,7 @@ nextActionList
 STK_NEXT_ACTION_END_PROACTIVE_SESSION
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5357,7 +5357,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5367,7 +5367,7 @@ Title
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5375,7 +5375,7 @@ iconSelfExplanatory
 true
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5383,7 +5383,7 @@ icons
 1
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5396,7 +5396,7 @@ identifier
 1
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5412,7 +5412,7 @@ item
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5425,7 +5425,7 @@ iconSelfExplanatory
 true
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5438,7 +5438,7 @@ icons
 1
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5451,7 +5451,7 @@ identifier
 2
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5467,7 +5467,7 @@ item
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5480,7 +5480,7 @@ iconSelfExplanatory
 true
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5493,7 +5493,7 @@ icons
 2
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5506,7 +5506,7 @@ identifier
 3
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5522,7 +5522,7 @@ item
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5535,7 +5535,7 @@ iconSelfExplanatory
 true
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5548,7 +5548,7 @@ icons
 3
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5559,7 +5559,7 @@ nextActionList
 STK_CMD_SET_UP_CALL
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5570,7 +5570,7 @@ nextActionList
 STK_CMD_LAUNCH_BROWSER
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5665,7 +5665,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5675,7 +5675,7 @@ Title
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5688,7 +5688,7 @@ identifier
 1
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5704,7 +5704,7 @@ item
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5717,7 +5717,7 @@ identifier
 2
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5733,7 +5733,7 @@ item
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5746,7 +5746,7 @@ identifier
 3
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5762,7 +5762,7 @@ item
 "
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5773,7 +5773,7 @@ nextActionList
 STK_NEXT_ACTION_END_PROACTIVE_SESSION
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5784,7 +5784,7 @@ nextActionList
 STK_NEXT_ACTION_NULL
 )
 ;
-do_check_eq
+equal
 (
 menu
 .
@@ -5897,7 +5897,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 setupCall
 .
@@ -5909,7 +5909,7 @@ address
 "
 )
 ;
-do_check_eq
+equal
 (
 setupCall
 .
@@ -5921,7 +5921,7 @@ Disconnect
 "
 )
 ;
-do_check_eq
+equal
 (
 setupCall
 .
@@ -5931,7 +5931,7 @@ iconSelfExplanatory
 true
 )
 ;
-do_check_eq
+equal
 (
 setupCall
 .
@@ -5941,7 +5941,7 @@ icons
 1
 )
 ;
-do_check_eq
+equal
 (
 setupCall
 .
@@ -5953,7 +5953,7 @@ Message
 "
 )
 ;
-do_check_eq
+equal
 (
 setupCall
 .
@@ -5963,7 +5963,7 @@ iconSelfExplanatory
 false
 )
 ;
-do_check_eq
+equal
 (
 setupCall
 .
@@ -6033,7 +6033,7 @@ ctlvs
 =
 >
 {
-do_check_eq
+equal
 (
 cmdDetails
 .
@@ -6048,7 +6048,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 timer
 .
@@ -6056,7 +6056,7 @@ timerId
 0x01
 )
 ;
-do_check_eq
+equal
 (
 timer
 .
@@ -6119,7 +6119,7 @@ ctlvs
 =
 >
 {
-do_check_eq
+equal
 (
 cmdDetails
 .
@@ -6134,7 +6134,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 timer
 .
@@ -6142,7 +6142,7 @@ timerId
 0x01
 )
 ;
-do_check_true
+ok
 (
 timer
 .
@@ -6252,7 +6252,7 @@ ctlvs
 =
 >
 {
-do_check_eq
+equal
 (
 cmdDetails
 .
@@ -6267,7 +6267,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 provideLocalInfo
 .
@@ -6313,7 +6313,7 @@ ctlvs
 =
 >
 {
-do_check_eq
+equal
 (
 cmdDetails
 .
@@ -6328,7 +6328,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 provideLocalInfo
 .
@@ -6448,7 +6448,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 bipMsg
 .
@@ -6510,7 +6510,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 bipMsg
 .
@@ -6574,7 +6574,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 bipMsg
 .
@@ -6635,7 +6635,7 @@ cmdDetails
 .
 options
 ;
-do_check_eq
+equal
 (
 bipMsg
 .
@@ -6704,7 +6704,7 @@ function
 (
 )
 {
-do_check_eq
+equal
 (
 this
 .
@@ -6720,7 +6720,7 @@ readInt32
 (
 )
 ;
-do_check_eq
+equal
 (
 this
 .
@@ -6730,7 +6730,7 @@ readInt32
 42
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6740,7 +6740,7 @@ readHexOctet
 BER_EVENT_DOWNLOAD_TAG
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6750,7 +6750,7 @@ readHexOctet
 19
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6762,7 +6762,7 @@ COMPREHENSIONTLV_TAG_EVENT_LIST
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6772,7 +6772,7 @@ readHexOctet
 1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6782,7 +6782,7 @@ readHexOctet
 STK_EVENT_TYPE_LOCATION_STATUS
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6794,7 +6794,7 @@ COMPREHENSIONTLV_TAG_DEVICE_ID
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6804,7 +6804,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6814,7 +6814,7 @@ readHexOctet
 STK_DEVICE_ID_ME
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6824,7 +6824,7 @@ readHexOctet
 STK_DEVICE_ID_SIM
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6836,7 +6836,7 @@ COMPREHENSIONTLV_TAG_LOCATION_STATUS
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6846,7 +6846,7 @@ readHexOctet
 1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6856,7 +6856,7 @@ readHexOctet
 STK_SERVICE_STATE_NORMAL
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6868,7 +6868,7 @@ COMPREHENSIONTLV_TAG_LOCATION_INFO
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6878,7 +6878,7 @@ readHexOctet
 7
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6888,7 +6888,7 @@ readHexOctet
 0x21
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6898,7 +6898,7 @@ readHexOctet
 0x63
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6908,7 +6908,7 @@ readHexOctet
 0x54
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6918,7 +6918,7 @@ readHexOctet
 0
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6928,7 +6928,7 @@ readHexOctet
 0
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -6938,7 +6938,7 @@ readHexOctet
 0
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7057,7 +7057,7 @@ function
 (
 )
 {
-do_check_eq
+equal
 (
 this
 .
@@ -7073,7 +7073,7 @@ readInt32
 (
 )
 ;
-do_check_eq
+equal
 (
 this
 .
@@ -7083,7 +7083,7 @@ readInt32
 26
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7093,7 +7093,7 @@ readHexOctet
 BER_EVENT_DOWNLOAD_TAG
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7103,7 +7103,7 @@ readHexOctet
 11
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7115,7 +7115,7 @@ COMPREHENSIONTLV_TAG_EVENT_LIST
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7125,7 +7125,7 @@ readHexOctet
 1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7135,7 +7135,7 @@ readHexOctet
 STK_EVENT_TYPE_LANGUAGE_SELECTION
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7147,7 +7147,7 @@ COMPREHENSIONTLV_TAG_DEVICE_ID
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7157,7 +7157,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7167,7 +7167,7 @@ readHexOctet
 STK_DEVICE_ID_ME
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7177,7 +7177,7 @@ readHexOctet
 STK_DEVICE_ID_SIM
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7187,7 +7187,7 @@ readHexOctet
 COMPREHENSIONTLV_TAG_LANGUAGE
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7197,7 +7197,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 iccHelper
 .
@@ -7294,7 +7294,7 @@ function
 (
 )
 {
-do_check_eq
+equal
 (
 this
 .
@@ -7310,7 +7310,7 @@ readInt32
 (
 )
 ;
-do_check_eq
+equal
 (
 this
 .
@@ -7320,7 +7320,7 @@ readInt32
 18
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7330,7 +7330,7 @@ readHexOctet
 BER_EVENT_DOWNLOAD_TAG
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7340,7 +7340,7 @@ readHexOctet
 7
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7352,7 +7352,7 @@ COMPREHENSIONTLV_TAG_EVENT_LIST
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7362,7 +7362,7 @@ readHexOctet
 1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7372,7 +7372,7 @@ readHexOctet
 STK_EVENT_TYPE_USER_ACTIVITY
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7384,7 +7384,7 @@ COMPREHENSIONTLV_TAG_DEVICE_ID
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7394,7 +7394,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7404,7 +7404,7 @@ readHexOctet
 STK_DEVICE_ID_ME
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7493,7 +7493,7 @@ function
 (
 )
 {
-do_check_eq
+equal
 (
 this
 .
@@ -7509,7 +7509,7 @@ readInt32
 (
 )
 ;
-do_check_eq
+equal
 (
 this
 .
@@ -7519,7 +7519,7 @@ readInt32
 18
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7529,7 +7529,7 @@ readHexOctet
 BER_EVENT_DOWNLOAD_TAG
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7539,7 +7539,7 @@ readHexOctet
 7
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7551,7 +7551,7 @@ COMPREHENSIONTLV_TAG_EVENT_LIST
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7561,7 +7561,7 @@ readHexOctet
 1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7571,7 +7571,7 @@ readHexOctet
 STK_EVENT_TYPE_IDLE_SCREEN_AVAILABLE
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7583,7 +7583,7 @@ COMPREHENSIONTLV_TAG_DEVICE_ID
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7593,7 +7593,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7603,7 +7603,7 @@ readHexOctet
 STK_DEVICE_ID_DISPLAY
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7692,7 +7692,7 @@ function
 (
 )
 {
-do_check_eq
+equal
 (
 this
 .
@@ -7708,7 +7708,7 @@ readInt32
 (
 )
 ;
-do_check_eq
+equal
 (
 this
 .
@@ -7718,7 +7718,7 @@ readInt32
 24
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7728,7 +7728,7 @@ readHexOctet
 BER_EVENT_DOWNLOAD_TAG
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7738,7 +7738,7 @@ readHexOctet
 10
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7750,7 +7750,7 @@ COMPREHENSIONTLV_TAG_EVENT_LIST
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7760,7 +7760,7 @@ readHexOctet
 1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7770,7 +7770,7 @@ readHexOctet
 STK_EVENT_TYPE_BROWSER_TERMINATION
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7782,7 +7782,7 @@ COMPREHENSIONTLV_TAG_DEVICE_ID
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7792,7 +7792,7 @@ readHexOctet
 2
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7802,7 +7802,7 @@ readHexOctet
 STK_DEVICE_ID_ME
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7812,7 +7812,7 @@ readHexOctet
 STK_DEVICE_ID_SIM
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7824,7 +7824,7 @@ COMPREHENSIONTLV_TAG_BROWSER_TERMINATION_CAUSE
 COMPREHENSIONTLV_FLAG_CR
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .
@@ -7834,7 +7834,7 @@ readHexOctet
 1
 )
 ;
-do_check_eq
+equal
 (
 pduHelper
 .

@@ -113,7 +113,7 @@ readDataCodingScheme
 msg
 )
 ;
-do_check_eq
+equal
 (
 msg
 .
@@ -121,7 +121,7 @@ dcs
 dcs
 )
 ;
-do_check_eq
+equal
 (
 msg
 .
@@ -129,7 +129,7 @@ encoding
 encoding
 )
 ;
-do_check_eq
+equal
 (
 msg
 .
@@ -137,7 +137,7 @@ messageClass
 messageClass
 )
 ;
-do_check_eq
+equal
 (
 msg
 .
@@ -159,7 +159,7 @@ mwi
 null
 )
 {
-do_check_eq
+equal
 (
 msg
 .
@@ -171,7 +171,7 @@ mwi
 active
 )
 ;
-do_check_eq
+equal
 (
 msg
 .
@@ -183,7 +183,7 @@ mwi
 discard
 )
 ;
-do_check_eq
+equal
 (
 msg
 .
@@ -826,7 +826,7 @@ PDU_NL_IDENTIFIER_DEFAULT
 PDU_NL_IDENTIFIER_DEFAULT
 )
 ;
-do_check_eq
+equal
 (
 Math
 .
@@ -1020,7 +1020,7 @@ readAddress
 length
 )
 ;
-do_check_eq
+equal
 (
 parsedAddr
 addrString

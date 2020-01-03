@@ -226,7 +226,7 @@ decodeInformationRecord
 (
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -314,7 +314,7 @@ decodeInformationRecord
 (
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -409,7 +409,7 @@ decodeInformationRecord
 (
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -424,7 +424,7 @@ Info
 "
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -519,7 +519,7 @@ decodeInformationRecord
 (
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -534,7 +534,7 @@ Info
 "
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -606,7 +606,7 @@ decodeInformationRecord
 (
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -619,7 +619,7 @@ type
 0x00
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -632,7 +632,7 @@ alertPitch
 0x01
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -702,7 +702,7 @@ decodeInformationRecord
 (
 )
 ;
-do_check_eq
+equal
 (
 records
 .
@@ -767,7 +767,7 @@ decodeInformationRecord
 (
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -780,7 +780,7 @@ polarityIncluded
 1
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -793,7 +793,7 @@ toggle
 0
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -806,7 +806,7 @@ reverse
 1
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -873,7 +873,7 @@ decodeInformationRecord
 (
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -939,7 +939,7 @@ decodeInformationRecord
 (
 )
 ;
-do_check_eq
+equal
 (
 records
 [
@@ -952,7 +952,7 @@ upLink
 1
 )
 ;
-do_check_eq
+equal
 (
 records
 [

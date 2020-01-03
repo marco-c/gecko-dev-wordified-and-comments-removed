@@ -122,7 +122,7 @@ PDU_NL_LOCKING_SHIFT_TABLES
 lst
 ]
 ;
-do_check_eq
+equal
 (
 table
 .
@@ -130,7 +130,7 @@ length
 128
 )
 ;
-do_check_eq
+equal
 (
 table
 [
@@ -139,7 +139,7 @@ PDU_NL_EXTENDED_ESCAPE
 ESCAPE
 )
 ;
-do_check_eq
+equal
 (
 table
 [
@@ -148,7 +148,7 @@ PDU_NL_LINE_FEED
 LF
 )
 ;
-do_check_eq
+equal
 (
 table
 [
@@ -157,7 +157,7 @@ PDU_NL_CARRIAGE_RETURN
 CR
 )
 ;
-do_check_eq
+equal
 (
 table
 [
@@ -222,7 +222,7 @@ PDU_NL_SINGLE_SHIFT_TABLES
 sst
 ]
 ;
-do_check_eq
+equal
 (
 table
 .
@@ -230,7 +230,7 @@ length
 128
 )
 ;
-do_check_eq
+equal
 (
 table
 [
@@ -239,7 +239,7 @@ PDU_NL_EXTENDED_ESCAPE
 ESCAPE
 )
 ;
-do_check_eq
+equal
 (
 table
 [
@@ -248,7 +248,7 @@ PDU_NL_PAGE_BREAK
 FF
 )
 ;
-do_check_eq
+equal
 (
 table
 [
@@ -360,7 +360,7 @@ toString
 "
 )
 ;
-do_check_eq
+equal
 (
 defaultTable
 .
@@ -372,7 +372,7 @@ from
 1
 )
 ;
-do_check_eq
+equal
 (
 defaultShiftTable
 .
@@ -410,7 +410,7 @@ to
 )
 )
 {
-do_check_eq
+equal
 (
 false
 true

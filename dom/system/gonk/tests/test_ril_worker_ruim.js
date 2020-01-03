@@ -88,7 +88,7 @@ cst
 =
 cst
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -215,7 +215,7 @@ appType
 =
 CARD_APPTYPE_RUIM
 ;
-do_check_eq
+equal
 (
 ICCFileHelper
 .
@@ -416,7 +416,7 @@ called
 "
 )
 ;
-do_check_true
+ok
 (
 false
 )
@@ -501,7 +501,7 @@ encoded
 length
 )
 ;
-do_check_eq
+equal
 (
 expect
 decoded
@@ -792,7 +792,7 @@ iccInfoPrivate
 .
 imsi
 ;
-do_check_eq
+equal
 (
 expectedImsi
 imsi
@@ -1037,7 +1037,7 @@ i
 +
 )
 {
-do_check_eq
+equal
 (
 cdmaHome
 .
@@ -1051,7 +1051,7 @@ i
 ]
 )
 ;
-do_check_eq
+equal
 (
 cdmaHome
 .
@@ -1066,7 +1066,7 @@ i
 )
 ;
 }
-do_check_eq
+equal
 (
 cdmaHome
 .
@@ -1078,7 +1078,7 @@ expectedSystemIds
 length
 )
 ;
-do_check_eq
+equal
 (
 cdmaHome
 .
@@ -1249,7 +1249,7 @@ readSPN
 (
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -1261,7 +1261,7 @@ spn
 expectedSpn
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -1459,7 +1459,7 @@ _isCdma
 =
 true
 ;
-do_check_eq
+equal
 (
 ICCUtilsHelper
 .
@@ -1469,7 +1469,7 @@ updateDisplayCondition
 true
 )
 ;
-do_check_eq
+equal
 (
 RIL
 .
@@ -1479,7 +1479,7 @@ isDisplayNetworkNameRequired
 true
 )
 ;
-do_check_eq
+equal
 (
 RIL
 .
@@ -1537,7 +1537,7 @@ cdmaNetworkId
 currentNetworkId
 }
 ;
-do_check_eq
+equal
 (
 ICCUtilsHelper
 .
@@ -1547,7 +1547,7 @@ updateDisplayCondition
 expectUpdateDisplayCondition
 )
 ;
-do_check_eq
+equal
 (
 RIL
 .
@@ -1557,7 +1557,7 @@ isDisplayNetworkNameRequired
 false
 )
 ;
-do_check_eq
+equal
 (
 RIL
 .

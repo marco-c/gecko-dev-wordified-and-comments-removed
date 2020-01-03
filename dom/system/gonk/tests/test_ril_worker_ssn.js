@@ -257,7 +257,7 @@ workerHelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -267,7 +267,7 @@ suppSvcNotification
 '
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -275,7 +275,7 @@ notification
 resultNotification
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .

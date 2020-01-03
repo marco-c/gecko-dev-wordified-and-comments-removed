@@ -137,7 +137,7 @@ _processICCStatus
 iccStatus
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -542,7 +542,7 @@ _processICCStatus
 iccStatus
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -706,7 +706,7 @@ _processICCStatus
 iccStatus
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -840,7 +840,7 @@ _processICCStatus
 iccStatus
 )
 ;
-do_check_eq
+equal
 (
 ril
 .
@@ -850,7 +850,7 @@ iccid
 ICCID
 )
 ;
-do_check_eq
+equal
 (
 ril
 .

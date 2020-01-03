@@ -63,7 +63,7 @@ timeoutDelayMs
 =
 timeoutMs
 ;
-do_check_eq
+equal
 (
 timeoutMs
 TIMEOUT_VALUE
@@ -79,7 +79,7 @@ clearTimeout
 timeoutId
 )
 {
-do_check_eq
+equal
 (
 timeoutId
 TIMER_ID
@@ -95,7 +95,7 @@ fireTimeout
 (
 )
 {
-do_check_neq
+notEqual
 (
 timeoutCallback
 null
@@ -181,7 +181,7 @@ workerHelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -191,7 +191,7 @@ _isInEmergencyCbMode
 true
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -201,7 +201,7 @@ emergencyCbModeChange
 "
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -209,7 +209,7 @@ active
 true
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -217,7 +217,7 @@ timeoutMs
 TIMEOUT_VALUE
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -293,7 +293,7 @@ workerHelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -303,7 +303,7 @@ _isInEmergencyCbMode
 false
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -313,7 +313,7 @@ emergencyCbModeChange
 "
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
@@ -321,7 +321,7 @@ active
 false
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -380,7 +380,7 @@ UNSOLICITED_ENTER_EMERGENCY_CALLBACK_MODE
 (
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -390,7 +390,7 @@ _isInEmergencyCbMode
 true
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -431,7 +431,7 @@ fireTimeout
 (
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -441,7 +441,7 @@ _exitEmergencyCbModeTimeoutID
 null
 )
 ;
-do_check_neq
+notEqual
 (
 parcelTypes
 .
@@ -502,7 +502,7 @@ UNSOLICITED_ENTER_EMERGENCY_CALLBACK_MODE
 (
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -512,7 +512,7 @@ _isInEmergencyCbMode
 true
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -570,7 +570,7 @@ false
 }
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -580,7 +580,7 @@ _exitEmergencyCbModeTimeoutID
 null
 )
 ;
-do_check_neq
+notEqual
 (
 parcelTypes
 .
@@ -641,7 +641,7 @@ UNSOLICITED_ENTER_EMERGENCY_CALLBACK_MODE
 (
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -651,7 +651,7 @@ _isInEmergencyCbMode
 true
 )
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -730,7 +730,7 @@ workerHelper
 .
 postedMessage
 ;
-do_check_eq
+equal
 (
 context
 .
@@ -740,7 +740,7 @@ _exitEmergencyCbModeTimeoutID
 null
 )
 ;
-do_check_neq
+notEqual
 (
 parcelTypes
 .
@@ -752,7 +752,7 @@ REQUEST_EXIT_EMERGENCY_CALLBACK_MODE
 1
 )
 ;
-do_check_eq
+equal
 (
 postedMessage
 .
