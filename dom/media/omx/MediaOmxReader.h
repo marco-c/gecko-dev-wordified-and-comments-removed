@@ -99,7 +99,7 @@ public
 MediaOmxCommonReader
 {
 Mutex
-mMutex
+mShutdownMutex
 ;
 nsCString
 mType
@@ -346,7 +346,7 @@ IsShutdown
 MutexAutoLock
 lock
 (
-mMutex
+mShutdownMutex
 )
 ;
 return
@@ -367,11 +367,6 @@ bool
 aWaitForCompletion
 )
 ;
-void
-CancelProcessCachedData
-(
-)
-;
 android
 :
 :
@@ -383,6 +378,16 @@ android
 MediaSource
 >
 GetAudioOffloadTrack
+(
+)
+;
+private
+:
+already_AddRefed
+<
+AbstractMediaDecoder
+>
+SafeGetDecoder
 (
 )
 ;
