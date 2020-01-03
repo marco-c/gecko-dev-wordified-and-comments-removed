@@ -4921,7 +4921,7 @@ MOZ_ASSERT
 (
 mFrameMetrics
 .
-IsRootScrollable
+IsRootContent
 (
 )
 )
@@ -13610,7 +13610,7 @@ MOZ_ASSERT
 (
 mFrameMetrics
 .
-IsRootScrollable
+IsRootContent
 (
 )
 )

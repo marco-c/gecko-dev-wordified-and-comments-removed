@@ -3757,7 +3757,7 @@ if
 (
 metrics
 .
-IsRootScrollable
+IsRootContent
 (
 )
 )
@@ -3930,7 +3930,7 @@ if
 (
 metrics
 .
-IsRootScrollable
+IsRootContent
 (
 )
 )
@@ -3987,7 +3987,7 @@ if
 (
 metrics
 .
-IsRootScrollable
+IsRootContent
 (
 )
 )
