@@ -131,9 +131,6 @@ ice_unittest
 nrappkit_unittest
 '
 '
-proxy_tunnel_socket_unittest
-'
-'
 rlogringbuffer_unittest
 '
 '
