@@ -152,6 +152,13 @@ drawable
 /
 menu_popup_bg
 "
+android
+:
+orientation
+=
+"
+horizontal
+"
 >
 <
 !
