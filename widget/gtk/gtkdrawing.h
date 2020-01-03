@@ -568,6 +568,12 @@ moz_gtk_images_in_buttons
 void
 )
 ;
+gboolean
+moz_gtk_has_scrollbar_buttons
+(
+void
+)
+;
 #
 ifdef
 __cplusplus
