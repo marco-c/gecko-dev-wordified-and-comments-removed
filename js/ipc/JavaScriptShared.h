@@ -517,6 +517,7 @@ Table
 ;
 public
 :
+explicit
 ObjectToIdMap
 (
 JSRuntime
