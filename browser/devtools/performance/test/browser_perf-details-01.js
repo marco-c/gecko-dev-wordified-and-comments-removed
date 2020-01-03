@@ -283,7 +283,9 @@ DetailsView
 .
 el
 .
-selectedIndex
+selectedPanel
+.
+id
 DetailsView
 .
 components
@@ -291,7 +293,7 @@ components
 currentView
 ]
 .
-index
+id
 DetailsView
 correctly
 has
