@@ -783,6 +783,8 @@ _WINDOWS
 (
 PreprocessorDefinitions
 )
+;
+GFX_LOG_WARNING
 <
 /
 PreprocessorDefinitions
