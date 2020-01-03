@@ -3062,6 +3062,12 @@ mCurPos
 =
 byte
 ;
+mUseAlphaData
+=
+mHaveAlphaData
+=
+true
+;
 if
 (
 mCurPos
@@ -3099,6 +3105,12 @@ aCount
 mState
 =
 eRLEStateInitial
+;
+mUseAlphaData
+=
+mHaveAlphaData
+=
+true
 ;
 mCurLine
 -
