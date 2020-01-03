@@ -1823,9 +1823,6 @@ if
 web
 "
 "
-trusted
-"
-"
 privileged
 "
 "

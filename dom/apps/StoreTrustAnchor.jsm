@@ -47,12 +47,6 @@ AppMarketplaceDevReviewersRoot
 AppMarketplaceStageRoot
 "
 "
-TrustedHostedAppPublicRoot
-"
-"
-TrustedHostedAppTestRoot
-"
-"
 AppXPCShellRoot
 "
 ]
