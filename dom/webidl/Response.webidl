@@ -161,6 +161,7 @@ error
 )
 ;
 [
+Throws
 NewObject
 ]
 static
