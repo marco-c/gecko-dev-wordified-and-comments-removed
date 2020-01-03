@@ -333,7 +333,7 @@ aEffect
 ;
 AnimationTimeline
 *
-Timeline
+GetTimeline
 (
 )
 const

@@ -2317,7 +2317,7 @@ IsNull
 aAnimation
 -
 >
-Timeline
+GetTimeline
 (
 )
 &
@@ -2325,7 +2325,7 @@ Timeline
 aAnimation
 -
 >
-Timeline
+GetTimeline
 (
 )
 -
@@ -2456,7 +2456,7 @@ TimeStamp
 aAnimation
 -
 >
-Timeline
+GetTimeline
 (
 )
 -
@@ -2965,7 +2965,7 @@ Pending
 anim
 -
 >
-Timeline
+GetTimeline
 (
 )
 |
@@ -2974,7 +2974,7 @@ Timeline
 anim
 -
 >
-Timeline
+GetTimeline
 (
 )
 -
