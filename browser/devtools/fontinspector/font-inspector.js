@@ -517,7 +517,7 @@ createRange
 ;
 rng
 .
-selectNode
+selectNodeContents
 (
 node
 )
