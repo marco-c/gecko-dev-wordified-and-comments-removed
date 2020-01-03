@@ -1930,6 +1930,15 @@ getter_AddRefs
 channel
 )
 aUri
+aReferrerPrincipal
+nsILoadInfo
+:
+:
+SEC_NORMAL
+nsIContentPolicy
+:
+:
+TYPE_STYLESHEET
 )
 ;
 NS_ENSURE_SUCCESS
