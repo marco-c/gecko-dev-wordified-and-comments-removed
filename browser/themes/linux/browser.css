@@ -14210,6 +14210,11 @@ svg
 )
 ;
 }
+#
+TabsToolbar
+[
+brighttext
+]
 .
 tab
 -
@@ -14229,13 +14234,6 @@ not
 :
 hover
 )
-:
--
-moz
--
-lwtheme
--
-brighttext
 {
 background
 -
