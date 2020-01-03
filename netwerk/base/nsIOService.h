@@ -294,6 +294,15 @@ mOffline
 ;
 }
 bool
+IsShutdown
+(
+)
+{
+return
+mShutdown
+;
+}
+bool
 IsLinkUp
 (
 )
