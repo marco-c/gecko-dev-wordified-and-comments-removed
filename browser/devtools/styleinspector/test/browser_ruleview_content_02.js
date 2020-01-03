@@ -524,7 +524,7 @@ querySelector
 .
 ruleview
 -
-selector
+selectorcontainer
 "
 )
 ;

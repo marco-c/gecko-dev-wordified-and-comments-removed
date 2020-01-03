@@ -2573,7 +2573,10 @@ querySelector
 .
 ruleview
 -
-selector
+selectorcontainer
+"
++
+"
 .
 ruleview
 -
