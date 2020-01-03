@@ -65,6 +65,13 @@ secerr
 .
 h
 "
+#
+include
+"
+sslerr
+.
+h
+"
 namespace
 mozilla
 {

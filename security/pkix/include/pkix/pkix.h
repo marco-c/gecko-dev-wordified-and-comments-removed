@@ -43,6 +43,15 @@ Input
 stapledOCSPResponse
 )
 ;
+Result
+CheckCertHostname
+(
+Input
+cert
+Input
+hostname
+)
+;
 static
 const
 size_t
