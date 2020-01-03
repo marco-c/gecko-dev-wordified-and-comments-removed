@@ -143,6 +143,13 @@ Context
 import
 android
 .
+os
+.
+AsyncTask
+;
+import
+android
+.
 widget
 .
 Toast
@@ -219,6 +226,7 @@ super
 context
 null
 client
+null
 delegate
 )
 ;
