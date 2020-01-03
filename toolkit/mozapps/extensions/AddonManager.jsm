@@ -10819,7 +10819,7 @@ backgroundUpdateTimerHandler
 let
 checkHotfix
 =
-this
+AddonManagerInternal
 .
 hotfixID
 &
@@ -10846,7 +10846,7 @@ PREF_APP_UPDATE_AUTO
 if
 (
 !
-this
+AddonManagerInternal
 .
 updateEnabled
 &

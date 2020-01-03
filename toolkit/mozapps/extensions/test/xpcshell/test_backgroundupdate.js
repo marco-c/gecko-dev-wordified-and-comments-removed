@@ -238,10 +238,11 @@ complete
 false
 )
 ;
-AddonManagerPrivate
+gInternalManager
 .
-backgroundUpdateCheck
+notify
 (
+null
 )
 ;
 }
@@ -679,10 +680,11 @@ end_test
 }
 )
 ;
-AddonManagerPrivate
+gInternalManager
 .
-backgroundUpdateCheck
+notify
 (
+null
 )
 ;
 }
