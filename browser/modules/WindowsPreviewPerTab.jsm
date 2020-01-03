@@ -350,7 +350,9 @@ uri
 )
 _imageFromURI
 (
+doc
 defaultURI
+privateMode
 callback
 )
 ;
