@@ -1147,6 +1147,7 @@ stop
 go
 .
 png
+*
 skin
 /
 classic
@@ -11449,6 +11450,7 @@ stop
 go
 .
 png
+*
 skin
 /
 classic
