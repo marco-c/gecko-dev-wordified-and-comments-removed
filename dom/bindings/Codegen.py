@@ -31069,7 +31069,7 @@ s
 \
 n
 '
-                           
+                         
 "
 %
 s
@@ -109758,6 +109758,7 @@ CGIndenter
 (
 things
 )
+                           
 pre
 =
 "
@@ -109774,7 +109775,7 @@ FeatureList
 \
 n
 "
-                                               
+                           
 post
 =
 "
@@ -109787,15 +109788,7 @@ n
 "
 )
         
-helper
-=
-CGWrapper
-(
-CGIndenter
-(
-things
-)
-pre
+helper_pre
 =
 "
 bool
@@ -109810,7 +109803,20 @@ aFeature
 \
 n
 "
-                                               
+        
+helper
+=
+CGWrapper
+(
+CGIndenter
+(
+things
+)
+                           
+pre
+=
+helper_pre
+                           
 post
 =
 dedent

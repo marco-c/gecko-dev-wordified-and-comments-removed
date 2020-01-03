@@ -398,11 +398,11 @@ or
 '
 error
 '
-                                 
+                               
 self
 .
 message
-                                 
+                               
 "
 "
 if
@@ -418,7 +418,7 @@ locations
 else
 "
 "
-                                 
+                               
 "
 \
 n
@@ -1769,14 +1769,15 @@ at
 s
 "
 %
-\
-          
 (
 originalObject
+                                                     
 originalObject
 .
 location
+                                                     
 newObject
+                                                     
 newObject
 .
 location
@@ -6084,19 +6085,19 @@ s
 (
 self
 )
-                                   
+                                  
 [
 self
 .
 location
-                                    
+                                   
 specialMembersSeen
 [
 memberType
 ]
 .
 location
-                                    
+                                   
 member
 .
 location
@@ -18722,7 +18723,7 @@ type
 "
 Byte
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -18751,7 +18752,7 @@ type
 "
 Octet
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -18780,7 +18781,7 @@ type
 "
 Short
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -18809,7 +18810,7 @@ type
 "
 UnsignedShort
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -18838,7 +18839,7 @@ type
 "
 Long
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -18867,7 +18868,7 @@ type
 "
 UnsignedLong
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -18896,7 +18897,7 @@ type
 "
 LongLong
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -18925,7 +18926,7 @@ type
 "
 UnsignedLongLong
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -18954,7 +18955,7 @@ type
 "
 Boolean
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -18983,7 +18984,7 @@ type
 "
 Float
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19012,7 +19013,7 @@ type
 "
 UnrestrictedFloat
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19041,7 +19042,7 @@ type
 "
 Double
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19070,7 +19071,7 @@ type
 "
 UnrestrictedDouble
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19099,7 +19100,7 @@ type
 "
 Any
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19128,7 +19129,7 @@ type
 "
 String
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19157,7 +19158,7 @@ type
 "
 ByteString
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19186,7 +19187,7 @@ type
 "
 USVString
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19215,7 +19216,7 @@ type
 "
 Object
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19244,7 +19245,7 @@ type
 "
 Date
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19273,7 +19274,7 @@ type
 "
 Void
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19302,7 +19303,7 @@ type
 "
 ArrayBuffer
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19331,7 +19332,7 @@ type
 "
 ArrayBufferView
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19360,7 +19361,7 @@ type
 "
 SharedArrayBuffer
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19389,7 +19390,7 @@ type
 "
 SharedArrayBufferView
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19418,7 +19419,7 @@ type
 "
 Int8Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19447,7 +19448,7 @@ type
 "
 Uint8Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19476,7 +19477,7 @@ type
 "
 Uint8ClampedArray
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19505,7 +19506,7 @@ type
 "
 Int16Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19534,7 +19535,7 @@ type
 "
 Uint16Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19563,7 +19564,7 @@ type
 "
 Int32Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19592,7 +19593,7 @@ type
 "
 Uint32Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19621,7 +19622,7 @@ type
 "
 Float32Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19650,7 +19651,7 @@ type
 "
 Float64Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19679,7 +19680,7 @@ type
 "
 SharedInt8Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19708,7 +19709,7 @@ type
 "
 SharedUint8Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19737,7 +19738,7 @@ type
 "
 SharedUint8ClampedArray
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19766,7 +19767,7 @@ type
 "
 SharedInt16Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19795,7 +19796,7 @@ type
 "
 SharedUint16Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19824,7 +19825,7 @@ type
 "
 SharedInt32Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19853,7 +19854,7 @@ type
 "
 SharedUint32Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19882,7 +19883,7 @@ type
 "
 SharedFloat32Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -19911,7 +19912,7 @@ type
 "
 SharedFloat64Array
 "
-                        
+                       
 IDLBuiltinType
 .
 Types
@@ -20001,7 +20002,6 @@ long_long
 (
 -
 9223372036854775808
-                                         
 9223372036854775807
 )
     
@@ -22808,7 +22808,7 @@ IDLArgument
 self
 .
 location
-                                         
+                                        
 IDLUnresolvedIdentifier
 (
 BuiltinLocation
@@ -22823,12 +22823,12 @@ identifier
 >
 "
 )
-                                                                 
+                                                                
 "
 callback
 "
 )
-                                         
+                                        
 BuiltinTypes
 [
 IDLBuiltinType
@@ -22838,13 +22838,13 @@ Types
 object
 ]
 )
-                             
+                            
 IDLArgument
 (
 self
 .
 location
-                                         
+                                        
 IDLUnresolvedIdentifier
 (
 BuiltinLocation
@@ -22859,12 +22859,12 @@ identifier
 >
 "
 )
-                                                                 
+                                                                
 "
 thisArg
 "
 )
-                                         
+                                        
 BuiltinTypes
 [
 IDLBuiltinType
@@ -22873,7 +22873,7 @@ Types
 .
 any
 ]
-                                         
+                                        
 optional
 =
 True
@@ -36807,7 +36807,7 @@ else
 variadic
 "
 )
-                                   
+                                  
 [
 arguments
 [
