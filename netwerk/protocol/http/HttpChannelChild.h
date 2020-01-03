@@ -270,6 +270,15 @@ aContext
 override
 ;
 NS_IMETHOD
+AsyncOpen2
+(
+nsIStreamListener
+*
+aListener
+)
+override
+;
+NS_IMETHOD
 SetRequestHeader
 (
 const

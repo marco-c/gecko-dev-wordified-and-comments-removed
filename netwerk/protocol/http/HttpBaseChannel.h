@@ -594,6 +594,16 @@ aResult
 override
 ;
 NS_IMETHOD
+Open2
+(
+nsIInputStream
+*
+*
+aResult
+)
+override
+;
+NS_IMETHOD
 GetApplyConversion
 (
 bool

@@ -105,6 +105,16 @@ override
 final
 ;
 NS_IMETHOD
+AsyncOpen2
+(
+nsIStreamListener
+*
+listener
+)
+override
+final
+;
+NS_IMETHOD
 OnStartRequest
 (
 nsIRequest

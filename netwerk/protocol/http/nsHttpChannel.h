@@ -457,6 +457,15 @@ aContext
 override
 ;
 NS_IMETHOD
+AsyncOpen2
+(
+nsIStreamListener
+*
+aListener
+)
+override
+;
+NS_IMETHOD
 SetupFallbackChannel
 (
 const
