@@ -587,10 +587,10 @@ nonincrementalReason
 struct
 Collection
 {
-int64_t
+double
 startTimestamp
 ;
-int64_t
+double
 endTimestamp
 ;
 }
