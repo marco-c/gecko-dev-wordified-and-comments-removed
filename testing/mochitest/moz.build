@@ -515,11 +515,6 @@ mochitest_options
 py
 '
 '
-nested_setup
-.
-js
-'
-'
 pywebsocket_wrapper
 .
 py

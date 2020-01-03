@@ -224,16 +224,6 @@ js
 )
 content
 /
-nested_setup
-.
-js
-(
-nested_setup
-.
-js
-)
-content
-/
 dynamic
 /
 getMyDirectory
