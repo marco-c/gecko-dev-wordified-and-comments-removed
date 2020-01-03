@@ -813,6 +813,10 @@ mSizeOfQueue
 (
 0
 )
+mIsHardwareAccelerated
+(
+false
+)
 mLastStreamSourceID
 (
 UINT32_MAX
@@ -1114,6 +1118,12 @@ Atomic
 size_t
 >
 mSizeOfQueue
+;
+Atomic
+<
+bool
+>
+mIsHardwareAccelerated
 ;
 uint32_t
 mLastStreamSourceID
