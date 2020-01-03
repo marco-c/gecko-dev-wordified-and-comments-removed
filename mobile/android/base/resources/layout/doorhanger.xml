@@ -189,7 +189,7 @@ id
 +
 id
 /
-doorhanger_title
+doorhanger_message
 "
 android
 :
@@ -275,6 +275,15 @@ right
 "
 android
 :
+paddingLeft
+=
+"
+dimen
+/
+doorhanger_padding
+"
+android
+:
 visibility
 =
 "
@@ -343,7 +352,7 @@ id
 +
 id
 /
-divider_choices
+divider_buttons
 "
 android
 :
@@ -358,6 +367,15 @@ layout_height
 =
 "
 1dp
+"
+android
+:
+background
+=
+"
+color
+/
+divider_light
 "
 android
 :
@@ -378,7 +396,7 @@ id
 +
 id
 /
-doorhanger_choices
+doorhanger_buttons
 "
 android
 :
@@ -443,7 +461,7 @@ background
 "
 color
 /
-fennec_ui_orange
+divider_light
 "
 android
 :

@@ -3356,6 +3356,13 @@ java
 '
 widget
 /
+DefaultDoorHanger
+.
+java
+'
+'
+widget
+/
 Divider
 .
 java
