@@ -64,7 +64,7 @@ define
 THREAD_EVENT_STARVATION_LIMIT
 PR_MillisecondsToInterval
 (
-20
+10
 )
 NS_IMPL_ISUPPORTS
 (
