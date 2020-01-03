@@ -686,11 +686,11 @@ aStart
 const
 uint32_t
 &
-aEnd
+aRemovedEnd
 const
 uint32_t
 &
-aNewEnd
+aAddedEnd
 const
 bool
 &

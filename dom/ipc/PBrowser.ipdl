@@ -1378,7 +1378,7 @@ of
 the
 change
 *
-end
+removedEnd
 Ending
 offset
 of
@@ -1386,7 +1386,7 @@ the
 range
 deleted
 *
-newEnd
+addedEnd
 New
 ending
 offset
@@ -1431,9 +1431,9 @@ contentCache
 uint32_t
 offset
 uint32_t
-end
+removedEnd
 uint32_t
-newEnd
+addedEnd
 bool
 causedByComposition
 )

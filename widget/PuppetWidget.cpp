@@ -3223,12 +3223,12 @@ aIMENotification
 .
 mTextChangeData
 .
-mOldEndOffset
+mRemovedEndOffset
 aIMENotification
 .
 mTextChangeData
 .
-mNewEndOffset
+mAddedEndOffset
 aIMENotification
 .
 mTextChangeData
