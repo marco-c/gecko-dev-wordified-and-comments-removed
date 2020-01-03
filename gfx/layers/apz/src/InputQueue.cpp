@@ -767,7 +767,7 @@ AsScrollWheelInput
 ;
 }
 return
-nsEventStatus_eConsumeDoDefault
+nsEventStatus_eIgnore
 ;
 }
 void
