@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsIDOMIccInfo
+nsIIccInfo
 .
 h
 "
@@ -107,7 +107,7 @@ return
 }
 nsCOMPtr
 <
-nsIDOMMozIccInfo
+nsIIccInfo
 >
 iccInfo
 ;
@@ -161,7 +161,7 @@ GetOwner
 (
 )
 mClientId
-iccId
+iccInfo
 )
 ;
 }
@@ -374,7 +374,7 @@ NotifyIccInfoChanged
 {
 nsCOMPtr
 <
-nsIDOMMozIccInfo
+nsIIccInfo
 >
 iccInfo
 ;
@@ -434,7 +434,7 @@ GetOwner
 (
 )
 mClientId
-iccId
+iccInfo
 )
 ;
 mIccManager
@@ -463,6 +463,14 @@ iccinfochange
 }
 else
 {
+mIcc
+-
+>
+UpdateIccInfo
+(
+iccInfo
+)
+;
 mIcc
 -
 >

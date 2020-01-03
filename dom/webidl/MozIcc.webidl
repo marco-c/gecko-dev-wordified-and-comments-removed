@@ -56,9 +56,6 @@ MPL
 .
 *
 /
-interface
-MozIccInfo
-;
 [
 Pref
 =
@@ -135,7 +132,13 @@ then
 /
 readonly
 attribute
+(
 MozIccInfo
+or
+MozGsmIccInfo
+or
+MozCdmaIccInfo
+)
 ?
 iccInfo
 ;

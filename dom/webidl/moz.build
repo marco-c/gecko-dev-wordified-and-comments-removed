@@ -1210,11 +1210,6 @@ IDBVersionChangeEvent
 webidl
 '
 '
-Identity
-.
-webidl
-'
-'
 ImageCapture
 .
 webidl
@@ -3087,6 +3082,11 @@ webidl
 '
 '
 MozIcc
+.
+webidl
+'
+'
+MozIccInfo
 .
 webidl
 '

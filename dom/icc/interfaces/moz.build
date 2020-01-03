@@ -98,7 +98,7 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMIccInfo
+nsIIccInfo
 .
 idl
 '

@@ -53,7 +53,7 @@ h
 #
 include
 "
-nsIDOMIccInfo
+nsIIccInfo
 .
 h
 "

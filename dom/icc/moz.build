@@ -115,6 +115,11 @@ Icc
 h
 '
 '
+IccInfo
+.
+h
+'
+'
 IccManager
 .
 h
@@ -129,6 +134,11 @@ Icc
 .
 cpp
 '
+"
+IccInfo
+.
+cpp
+"
 '
 IccListener
 .
