@@ -2493,6 +2493,9 @@ _syncSearchEngines
 ;
 break
 ;
+#
+ifdef
+NIGHTLY_BUILD
 case
 "
 nsPref
@@ -2571,6 +2574,8 @@ enabled
 )
 ;
 }
+#
+endif
 }
 }
 _syncSearchEngines
