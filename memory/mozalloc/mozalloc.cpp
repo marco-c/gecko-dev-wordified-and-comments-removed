@@ -42,7 +42,7 @@ MOZ_MEMORY_IMPL
 #
 include
 "
-mozmemory_wrap
+mozmemory
 .
 h
 "
