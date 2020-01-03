@@ -2180,8 +2180,14 @@ dest
 -
 >
 mHoldTime
-=
-now
+.
+SetValue
+(
+TimeDuration
+(
+0
+)
+)
 ;
 }
 AutoInfallibleTArray
