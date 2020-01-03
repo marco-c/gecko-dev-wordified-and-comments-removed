@@ -438,7 +438,7 @@ mTimeout
 #
 ifdef
 MOZ_TASK_TRACER
-nsAutoPtr
+nsRefPtr
 <
 mozilla
 :
