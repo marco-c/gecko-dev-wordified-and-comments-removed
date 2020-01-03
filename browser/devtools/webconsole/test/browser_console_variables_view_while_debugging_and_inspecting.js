@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -110,7 +115,7 @@ debuggerOpened
 function
 debuggerOpened
 (
-aResult
+result
 )
 {
 info
@@ -123,7 +128,7 @@ opened
 ;
 gDebuggerWin
 =
-aResult
+result
 .
 panelWin
 ;
@@ -158,7 +163,6 @@ inspectorOpened
 function
 inspectorOpened
 (
-aPanel
 )
 {
 info

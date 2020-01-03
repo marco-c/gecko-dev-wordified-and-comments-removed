@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 INIT_URI
 =
@@ -41,6 +46,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -58,7 +66,7 @@ function
 performTest
 (
 lastFinishedRequest
-aConsole
+console
 )
 {
 let
@@ -99,7 +107,7 @@ executeSoon
 =
 >
 {
-aConsole
+console
 .
 webConsoleClient
 .
@@ -109,7 +117,7 @@ lastFinishedRequest
 .
 actor
 (
-aResponse
+response
 )
 =
 >
@@ -117,7 +125,7 @@ aResponse
 ok
 (
 !
-aResponse
+response
 .
 contentDiscarded
 "
@@ -132,7 +140,7 @@ discarded
 let
 body
 =
-aResponse
+response
 .
 content
 .

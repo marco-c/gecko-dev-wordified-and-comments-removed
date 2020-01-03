@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -18,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -88,6 +96,7 @@ SEVERITY_LOG
 ]
 }
 )
+;
 yield
 performTest
 (

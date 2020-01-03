@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -18,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 browser
@@ -53,14 +61,14 @@ openConsole
 (
 )
 ;
-var
+let
 jsterm
 =
 hud
 .
 jsterm
 ;
-var
+let
 input
 =
 jsterm

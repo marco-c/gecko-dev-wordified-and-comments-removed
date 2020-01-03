@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -18,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -50,6 +58,9 @@ Web
 Console
 test
 for
+"
++
+"
 bug
 603750
 :
@@ -68,11 +79,6 @@ function
 (
 )
 {
-let
-{
-browser
-}
-=
 yield
 loadTab
 (

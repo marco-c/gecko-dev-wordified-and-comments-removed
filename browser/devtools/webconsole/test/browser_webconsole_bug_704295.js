@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -18,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -65,14 +73,14 @@ testCompletion
 hud
 )
 {
-var
+let
 jsterm
 =
 hud
 .
 jsterm
 ;
-var
+let
 input
 =
 jsterm

@@ -22,6 +22,9 @@ Web
 Console
 test
 for
+"
++
+"
 bug
 613642
 :
@@ -53,7 +56,6 @@ loadTab
 TEST_URI
 )
 ;
-let
 hud
 =
 yield

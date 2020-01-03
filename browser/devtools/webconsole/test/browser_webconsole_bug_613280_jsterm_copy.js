@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -100,6 +105,7 @@ HUD
 ;
 }
 )
+;
 }
 )
 ;
@@ -154,7 +160,7 @@ getSelection
 )
 ;
 let
-clipboard_setup
+clipboardSetup
 =
 function
 (
@@ -170,7 +176,7 @@ cmd_copy
 }
 ;
 let
-clipboard_copy_done
+clipboardCopyDone
 =
 function
 (
@@ -442,9 +448,9 @@ trim
 )
 ;
 }
-clipboard_setup
-clipboard_copy_done
-clipboard_copy_done
+clipboardSetup
+clipboardCopyDone
+clipboardCopyDone
 )
 ;
 }

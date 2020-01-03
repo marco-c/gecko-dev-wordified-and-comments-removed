@@ -21,6 +21,9 @@ browser
 /
 devtools
 /
+"
++
+"
 webconsole
 /
 test

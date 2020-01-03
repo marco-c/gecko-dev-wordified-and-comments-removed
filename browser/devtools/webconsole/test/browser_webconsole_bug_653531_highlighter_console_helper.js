@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 let
 inspector
 h1
@@ -551,18 +556,6 @@ hud
 )
 {
 let
-target
-=
-TargetFactory
-.
-forTab
-(
-gBrowser
-.
-selectedTab
-)
-;
-let
 jsterm
 =
 hud
@@ -788,6 +781,9 @@ utf
 test
 for
 highlighter
+"
++
+"
 helper
 in
 web

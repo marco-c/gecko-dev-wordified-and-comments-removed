@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_NETWORK_REQUEST_URI
 =
@@ -14,6 +19,9 @@ browser
 /
 browser
 /
+"
++
+"
 devtools
 /
 webconsole
@@ -49,6 +57,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -108,6 +119,9 @@ Web
 Console
 network
 logging
+"
++
+"
 tests
 "
 ;
@@ -166,6 +180,7 @@ filter
 .
 netxhr
 "
+;
 const
 MIXED_AC_PREF
 =
@@ -176,6 +191,7 @@ mixed_content
 .
 block_active_content
 "
+;
 let
 original
 =
@@ -327,14 +343,14 @@ openConsole
 then
 (
 (
-aHud
+hudConsole
 )
 =
 >
 {
 hud
 =
-aHud
+hudConsole
 ;
 HUDService
 .
@@ -344,12 +360,12 @@ callback
 =
 function
 (
-aRequest
+request
 )
 {
 lastRequest
 =
-aRequest
+request
 ;
 if
 (
@@ -370,6 +386,7 @@ testPageLoad
 ;
 }
 )
+;
 }
 )
 ;
@@ -1328,10 +1345,12 @@ display
 none
 "
 )
+{
 displayedMessageNodes
 +
 +
 ;
+}
 }
 return
 displayedMessageNodes
@@ -1340,7 +1359,7 @@ displayedMessageNodes
 function
 setStringFilter
 (
-aValue
+value
 )
 {
 hud
@@ -1351,7 +1370,7 @@ filterBox
 .
 value
 =
-aValue
+value
 ;
 hud
 .

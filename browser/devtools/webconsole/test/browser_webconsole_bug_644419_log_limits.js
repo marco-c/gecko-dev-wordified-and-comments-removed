@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 INIT_URI
 =
@@ -17,6 +22,9 @@ Web
 Console
 test
 for
+"
++
+"
 bug
 644419
 :
@@ -243,6 +251,7 @@ SEVERITY_ERROR
 ]
 }
 )
+;
 }
 function
 testWebDevLimits2
@@ -486,7 +495,7 @@ i
 +
 )
 {
-var
+let
 script
 =
 content
@@ -630,7 +639,7 @@ exception
 )
 ;
 }
-var
+let
 gCounter
 gImage
 ;
@@ -821,6 +830,7 @@ gCounter
 +
 ;
 return
+true
 ;
 }
 is
@@ -1111,7 +1121,7 @@ i
 +
 )
 {
-var
+let
 div
 =
 content

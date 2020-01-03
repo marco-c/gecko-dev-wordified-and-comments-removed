@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -17,6 +22,9 @@ Web
 Console
 test
 for
+"
++
+"
 bug
 915141
 :
@@ -127,6 +135,9 @@ menuitem
 of
 right
 click
+"
++
+"
 context
 menu
 .
@@ -266,6 +277,9 @@ after
 menuitem
 was
 selected
+"
++
+"
 with
 keyboard
 .
@@ -292,6 +306,9 @@ menuitem
 was
 selected
 with
+"
++
+"
 keyboard
 .
 "
@@ -330,6 +347,9 @@ of
 Net
 '
 menu
+"
++
+"
 in
 the
 console
@@ -455,6 +475,9 @@ checked
 after
 menuitem
 was
+"
++
+"
 selected
 with
 keyboard
@@ -501,13 +524,13 @@ finishTest
 function
 openPopup
 (
-aMenuItem
+menuItem
 )
 {
 let
 menu
 =
-aMenuItem
+menuItem
 .
 parentNode
 ;
@@ -605,7 +628,7 @@ promise
 function
 waitForUpdate
 (
-aMenuItem
+menuItem
 )
 {
 info
@@ -669,7 +692,7 @@ deferred
 resolve
 )
 ;
-aMenuItem
+menuItem
 .
 parentNode
 .

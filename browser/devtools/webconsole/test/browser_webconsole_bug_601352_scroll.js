@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 test
 (
@@ -44,6 +49,9 @@ utf
 Web
 Console
 test
+"
++
+"
 for
 bug
 601352

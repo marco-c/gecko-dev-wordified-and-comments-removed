@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -18,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -53,6 +61,9 @@ browser
 /
 devtools
 /
+"
++
+"
 webconsole
 /
 test
@@ -67,6 +78,9 @@ iframe
 -
 wrong
 -
+"
++
+"
 hud
 -
 iframe
@@ -92,6 +106,9 @@ browser
 /
 devtools
 /
+"
++
+"
 webconsole
 /
 test

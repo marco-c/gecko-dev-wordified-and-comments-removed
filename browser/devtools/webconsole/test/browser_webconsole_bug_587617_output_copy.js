@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -18,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -30,11 +38,6 @@ html
 let
 HUD
 outputNode
-;
-"
-use
-strict
-"
 ;
 let
 test
@@ -358,6 +361,7 @@ goDoCommand
 cmd_copy
 "
 )
+;
 }
 deferred
 .
@@ -546,6 +550,7 @@ goDoCommand
 cmd_copy
 "
 )
+;
 }
 deferred
 .

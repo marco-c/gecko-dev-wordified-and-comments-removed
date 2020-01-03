@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -20,13 +25,11 @@ bug
 585991
 -
 autocomplete
+"
++
+"
 popup
 test
-"
-;
-"
-use
-strict
 "
 ;
 let
@@ -207,6 +210,7 @@ addEventListener
 popupshown
 "
 function
+onPopupPanel
 (
 )
 {
@@ -219,9 +223,7 @@ removeEventListener
 "
 popupshown
 "
-arguments
-.
-callee
+onPopupPanel
 false
 )
 ;

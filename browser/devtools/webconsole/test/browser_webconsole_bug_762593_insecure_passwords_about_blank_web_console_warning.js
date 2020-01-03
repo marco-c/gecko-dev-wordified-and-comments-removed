@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -18,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -53,6 +61,9 @@ present
 on
 an
 insecure
+"
++
+"
 (
 http
 :
@@ -70,6 +81,9 @@ that
 allows
 user
 login
+"
++
+"
 credentials
 to
 be

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -18,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -25,11 +33,6 @@ test
 console
 .
 html
-"
-;
-"
-use
-strict
 "
 ;
 let

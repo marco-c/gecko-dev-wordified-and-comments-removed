@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -17,6 +22,9 @@ Web
 Console
 file
 location
+"
++
+"
 display
 test
 "

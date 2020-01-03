@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI_WARNING
 =
@@ -16,6 +21,9 @@ browser
 /
 devtools
 /
+"
++
+"
 webconsole
 /
 test
@@ -227,6 +235,9 @@ iframe
 which
 has
 both
+"
++
+"
 allow
 -
 scripts
@@ -242,6 +253,9 @@ sandbox
 attribute
 can
 remove
+"
++
+"
 its
 sandboxing
 .
@@ -294,6 +308,7 @@ log
 (
 SENTINEL_MSG
 )
+;
 waitForMessages
 (
 {
@@ -431,6 +446,7 @@ log
 (
 SENTINEL_MSG
 )
+;
 waitForMessages
 (
 {
@@ -532,6 +548,7 @@ finishTest
 ;
 }
 )
+;
 }
 )
 ;
