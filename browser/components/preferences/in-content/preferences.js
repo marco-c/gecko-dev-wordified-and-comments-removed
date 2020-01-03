@@ -125,6 +125,12 @@ init
 (
 )
 ;
+gSearchPane
+.
+init
+(
+)
+;
 gPrivacyPane
 .
 init

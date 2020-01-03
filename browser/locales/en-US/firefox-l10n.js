@@ -70,3 +70,15 @@ AB_CD
 "
 )
 ;
+pref
+(
+"
+browser
+.
+search
+.
+showOneOffButtons
+"
+true
+)
+;

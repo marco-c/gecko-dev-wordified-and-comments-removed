@@ -223,7 +223,7 @@ prototype
 {
 maxLocalResults
 :
-7
+5
 maxRemoteResults
 :
 10
@@ -1623,6 +1623,12 @@ slice
 this
 .
 maxRemoteResults
+-
+results
+.
+local
+.
+length
 )
 ;
 if

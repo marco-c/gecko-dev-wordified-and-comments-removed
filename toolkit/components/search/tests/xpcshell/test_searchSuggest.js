@@ -1926,6 +1926,12 @@ do_check_eq
 (
 result
 .
+local
+.
+length
++
+result
+.
 remote
 .
 length
@@ -1941,9 +1947,11 @@ i
 ;
 i
 <
-controller
+result
 .
-maxRemoteResults
+remote
+.
+length
 ;
 i
 +
@@ -2137,7 +2145,7 @@ controller
 .
 maxRemoteResults
 =
-2
+4
 ;
 let
 result
@@ -2311,7 +2319,7 @@ controller
 .
 maxRemoteResults
 =
-1
+2
 ;
 let
 result
@@ -2747,7 +2755,7 @@ controller
 .
 maxRemoteResults
 =
-1
+2
 ;
 Services
 .
