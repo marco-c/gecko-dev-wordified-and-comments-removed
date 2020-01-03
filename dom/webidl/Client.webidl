@@ -131,6 +131,11 @@ Client
 {
 readonly
 attribute
+DOMString
+id
+;
+readonly
+attribute
 USVString
 url
 ;
