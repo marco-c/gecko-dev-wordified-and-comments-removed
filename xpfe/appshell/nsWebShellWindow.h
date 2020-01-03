@@ -70,6 +70,7 @@ WebShellWindowTimerCallback
 }
 class
 nsWebShellWindow
+MOZ_FINAL
 :
 public
 nsXULWindow

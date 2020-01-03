@@ -78,6 +78,7 @@ nsIObserver
 ;
 class
 nsNSSSocketInfo
+MOZ_FINAL
 :
 public
 mozilla

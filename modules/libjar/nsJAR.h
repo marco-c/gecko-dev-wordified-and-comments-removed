@@ -199,6 +199,7 @@ JARManifestStatusType
 ;
 class
 nsJAR
+MOZ_FINAL
 :
 public
 nsIZipReader

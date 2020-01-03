@@ -20,6 +20,7 @@ h
 "
 class
 nsGZFileWriter
+MOZ_FINAL
 :
 public
 nsIGZFileWriter

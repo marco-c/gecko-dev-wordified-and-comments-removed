@@ -168,6 +168,7 @@ InImageBridgeChildThread
 ;
 class
 ImageBridgeChild
+MOZ_FINAL
 :
 public
 PImageBridgeChild

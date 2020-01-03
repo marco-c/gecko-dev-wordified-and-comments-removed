@@ -129,6 +129,7 @@ a46d
 }
 class
 nsJARURI
+MOZ_FINAL
 :
 public
 nsIJARURI

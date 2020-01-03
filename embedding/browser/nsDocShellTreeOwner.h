@@ -197,6 +197,7 @@ NS_ICDOCSHELLTREEOWNER_IID
 )
 class
 nsDocShellTreeOwner
+MOZ_FINAL
 :
 public
 nsIDocShellTreeOwner
@@ -397,6 +398,7 @@ mAuthPrompter
 ;
 class
 ChromeTooltipListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener

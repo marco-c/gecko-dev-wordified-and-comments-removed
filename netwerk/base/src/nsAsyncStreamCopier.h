@@ -46,6 +46,7 @@ nsIRequestObserver
 ;
 class
 nsAsyncStreamCopier
+MOZ_FINAL
 :
 public
 nsIAsyncStreamCopier

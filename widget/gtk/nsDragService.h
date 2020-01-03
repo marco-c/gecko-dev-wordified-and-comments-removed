@@ -163,6 +163,7 @@ GdkDragContext
 endif
 class
 nsDragService
+MOZ_FINAL
 :
 public
 nsBaseDragService
