@@ -3180,7 +3180,7 @@ reader
 .
 mp4
 "
-false
+true
 )
 ;
 pref
@@ -3194,7 +3194,7 @@ reader
 .
 mp4
 "
-false
+true
 )
 ;
 #

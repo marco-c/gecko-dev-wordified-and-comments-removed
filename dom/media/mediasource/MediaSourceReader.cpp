@@ -3275,7 +3275,7 @@ reader
 .
 mp4
 "
-false
+true
 )
 ;
 MediaDecoderReader
