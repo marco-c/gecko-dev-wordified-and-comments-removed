@@ -2660,6 +2660,12 @@ region
 aRegion
 )
 ;
+gfxContextMatrixAutoSaveRestore
+autoSR
+(
+aContext
+)
+;
 SurfaceWithFormat
 surfaceResult
 =
