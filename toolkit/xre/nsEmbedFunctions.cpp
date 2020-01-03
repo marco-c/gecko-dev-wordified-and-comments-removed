@@ -2102,7 +2102,19 @@ base
 :
 ProcessHandle
 parentHandle
+=
+0
 ;
+if
+(
+XRE_GetProcessType
+(
+)
+!
+=
+GeckoProcessType_GMPlugin
+)
+{
 mozilla
 :
 :
@@ -2136,6 +2148,7 @@ parent
 "
 )
 ;
+}
 #
 if
 defined
