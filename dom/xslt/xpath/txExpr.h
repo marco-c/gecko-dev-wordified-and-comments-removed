@@ -321,6 +321,7 @@ nsAString
 &
 aDest
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -334,6 +335,7 @@ nsIAtom
 *
 aAtom
 )
+MOZ_OVERRIDE
 ;
 #
 else
@@ -360,12 +362,14 @@ txAExprResult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 \
 ResultType
 getReturnType
 (
 )
+MOZ_OVERRIDE
 ;
 \
 bool
@@ -374,6 +378,7 @@ isSensitiveTo
 ContextSensitivity
 aContexts
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -390,6 +395,7 @@ getSubExprAt
 uint32_t
 aPos
 )
+MOZ_OVERRIDE
 ;
 \
 void
@@ -401,6 +407,7 @@ Expr
 *
 aExpr
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -412,6 +419,7 @@ ExprType
 getType
 (
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -1142,12 +1150,14 @@ txIMatchContext
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 \
 double
 getDefaultPriority
 (
 )
+MOZ_OVERRIDE
 ;
 \
 bool
@@ -1159,6 +1169,7 @@ Expr
 ContextSensitivity
 aContext
 )
+MOZ_OVERRIDE
 ;
 class
 txNameTest

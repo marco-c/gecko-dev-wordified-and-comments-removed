@@ -389,6 +389,7 @@ WillParse
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -400,12 +401,14 @@ DidBuildModel
 bool
 aTerminated
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillInterrupt
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -416,6 +419,7 @@ WillResume
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -428,6 +432,7 @@ nsParserBase
 *
 aParser
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -440,6 +445,7 @@ FlushPendingNotifications
 mozFlushType
 aType
 )
+MOZ_OVERRIDE
 {
 }
 NS_IMETHOD
@@ -449,6 +455,7 @@ nsACString
 &
 aCharset
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -460,6 +467,7 @@ nsISupports
 GetTarget
 (
 )
+MOZ_OVERRIDE
 {
 return
 nullptr

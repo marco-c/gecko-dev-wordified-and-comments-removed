@@ -79,6 +79,7 @@ txAExprResult
 GetResult
 (
 )
+MOZ_OVERRIDE
 {
 return
 mValue
