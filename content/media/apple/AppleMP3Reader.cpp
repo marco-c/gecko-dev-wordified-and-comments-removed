@@ -541,6 +541,16 @@ void
 aUserData
 )
 {
+if
+(
+!
+aPacketDesc
+)
+{
+return
+kAudioFileStreamError_UnspecifiedError
+;
+}
 PassthroughUserData
 *
 userData
