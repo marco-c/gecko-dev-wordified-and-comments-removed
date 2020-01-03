@@ -3678,7 +3678,7 @@ Destination
 )
 -
 >
-DestroyAudioChannelAgent
+Suspend
 (
 )
 ;
@@ -3883,7 +3883,7 @@ Destination
 )
 -
 >
-CreateAudioChannelAgent
+Resume
 (
 )
 ;

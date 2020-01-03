@@ -167,6 +167,16 @@ Unmute
 )
 ;
 void
+Suspend
+(
+)
+;
+void
+Resume
+(
+)
+;
+void
 StartRendering
 (
 Promise
