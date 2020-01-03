@@ -1195,6 +1195,17 @@ wifi
             
 self
 .
+test_script_args
+.
+append
+(
+options
+.
+chrome
+)
+            
+self
+.
 runner
 .
 start
