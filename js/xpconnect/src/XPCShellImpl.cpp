@@ -7785,7 +7785,7 @@ glob
 if
 (
 !
-JS_InitReflect
+JS_InitReflectParse
 (
 cx
 glob

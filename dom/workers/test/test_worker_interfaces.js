@@ -88,6 +88,9 @@ RangeError
 ReferenceError
 "
 "
+Reflect
+"
+"
 RegExp
 "
 "

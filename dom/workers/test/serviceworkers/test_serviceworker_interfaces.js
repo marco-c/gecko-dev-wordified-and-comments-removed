@@ -94,6 +94,9 @@ RangeError
 ReferenceError
 "
 "
+Reflect
+"
+"
 RegExp
 "
 "

@@ -5993,10 +5993,9 @@ cx
 extern
 JS_PUBLIC_API
 (
-JSObject
-*
+bool
 )
-JS_InitReflect
+JS_InitReflectParse
 (
 JSContext
 *

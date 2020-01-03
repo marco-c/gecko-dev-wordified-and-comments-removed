@@ -191,9 +191,7 @@ NS_ERROR_NOT_AVAILABLE
 *
 _retval
 =
-!
-!
-JS_InitReflect
+JS_InitReflectParse
 (
 cx
 global
