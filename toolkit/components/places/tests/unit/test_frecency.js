@@ -1629,7 +1629,12 @@ tests
 )
 )
 {
-remove_all_bookmarks
+yield
+PlacesUtils
+.
+bookmarks
+.
+eraseEverything
 (
 )
 ;

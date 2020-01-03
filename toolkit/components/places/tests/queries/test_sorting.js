@@ -6087,7 +6087,12 @@ check_reverse
 (
 )
 ;
-remove_all_bookmarks
+yield
+PlacesUtils
+.
+bookmarks
+.
+eraseEverything
 (
 )
 ;
