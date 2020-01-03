@@ -453,6 +453,17 @@ Server
 )
 HTTP_ATOM
 (
+Service_Worker_Allowed
+"
+Service
+-
+Worker
+-
+Allowed
+"
+)
+HTTP_ATOM
+(
 Set_Cookie
 "
 Set
