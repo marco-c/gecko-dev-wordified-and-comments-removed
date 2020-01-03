@@ -118,7 +118,7 @@ public
 nsJPEGDecoder
 (
 RasterImage
-&
+*
 aImage
 Decoder
 :
