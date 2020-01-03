@@ -27232,6 +27232,8 @@ a
 power
 of
 two
+minus
+1
 "
 )
 ;
@@ -36816,18 +36818,6 @@ thenBlock
 elseOrJoinBlock
 )
 ;
-JS_ASSERT
-(
-!
-cond
--
->
-isKind
-(
-PNK_CONDITIONAL
-)
-)
-;
 if
 (
 !
@@ -40208,7 +40198,7 @@ true
 }
 static
 bool
-CheckFunctionsParallelImpl
+CheckFunctionsParallel
 (
 ModuleCompiler
 &
@@ -40750,7 +40740,7 @@ LIFO_ALLOC_PARALLEL_CHUNK_SIZE
 ;
 static
 bool
-CheckFunctionsParallel
+CheckFunctions
 (
 ModuleCompiler
 &
@@ -40878,7 +40868,7 @@ tasks
 if
 (
 !
-CheckFunctionsParallelImpl
+CheckFunctionsParallel
 (
 m
 group
@@ -48054,7 +48044,7 @@ startFunctionBodies
 if
 (
 !
-CheckFunctionsParallel
+CheckFunctions
 (
 m
 )
