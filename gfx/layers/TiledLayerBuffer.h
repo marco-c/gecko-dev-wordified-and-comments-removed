@@ -2507,7 +2507,6 @@ range
 )
 ;
 Tile
-&
 newTile
 =
 newRetainedTiles
@@ -2650,6 +2649,13 @@ index
 ;
 #
 endif
+newRetainedTiles
+[
+index
+]
+=
+newTile
+;
 y
 +
 =
