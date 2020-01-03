@@ -35704,6 +35704,12 @@ false
 ;
 uint32_t
 superBegin
+=
+pos
+(
+)
+.
+begin
 ;
 if
 (
@@ -35858,14 +35864,6 @@ null
 isSuper
 =
 true
-;
-superBegin
-=
-pos
-(
-)
-.
-begin
 ;
 }
 else
