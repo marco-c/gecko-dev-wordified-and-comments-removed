@@ -1932,7 +1932,7 @@ return
 }
 if
 (
-FxAccountUtils
+FxAccountConstants
 .
 LOG_PERSONAL_INFORMATION
 )
@@ -2309,12 +2309,12 @@ getIntent
 ;
 if
 (
-FxAccountUtils
+FxAccountConstants
 .
 LOG_PERSONAL_INFORMATION
 )
 {
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -2329,7 +2329,7 @@ server
 authServerEndpoint
 )
 ;
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (

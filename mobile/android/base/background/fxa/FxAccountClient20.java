@@ -92,6 +92,17 @@ mozilla
 .
 gecko
 .
+fxa
+.
+FxAccountConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 sync
 .
 ExtendedJSONObject
@@ -1074,7 +1085,7 @@ quickStretchedPW
 ;
 try
 {
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (
@@ -1247,7 +1258,7 @@ email
 "
 )
 ;
-FxAccountUtils
+FxAccountConstants
 .
 pii
 (

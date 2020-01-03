@@ -168,6 +168,17 @@ gecko
 .
 fxa
 .
+FxAccountConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+fxa
+.
 authenticator
 .
 AndroidFxAccount
@@ -983,7 +994,7 @@ FORCE
 ;
 if
 (
-FxAccountUtils
+FxAccountConstants
 .
 LOG_PERSONAL_INFORMATION
 )
