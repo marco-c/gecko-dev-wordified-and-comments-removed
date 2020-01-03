@@ -183,7 +183,7 @@ return
 true
 ;
 }
-nsresult
+void
 Remove
 (
 nsIContent

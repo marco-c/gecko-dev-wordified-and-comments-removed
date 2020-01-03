@@ -9130,17 +9130,6 @@ tmp
 -
 >
 mSubDocuments
-&
-&
-tmp
--
->
-mSubDocuments
--
->
-IsInitialized
-(
-)
 )
 {
 PL_DHashTableEnumerate

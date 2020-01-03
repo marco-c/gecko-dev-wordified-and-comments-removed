@@ -12,7 +12,7 @@ nsXULElement
 .
 h
 "
-nsresult
+void
 nsContentSupportMap
 :
 :
@@ -23,18 +23,6 @@ nsIContent
 aElement
 )
 {
-if
-(
-!
-mMap
-.
-IsInitialized
-(
-)
-)
-return
-NS_ERROR_NOT_INITIALIZED
-;
 nsIContent
 *
 child
@@ -65,8 +53,5 @@ while
 (
 child
 )
-;
-return
-NS_OK
 ;
 }
