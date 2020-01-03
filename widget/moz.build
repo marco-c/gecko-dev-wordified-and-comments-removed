@@ -245,6 +245,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIGfxInfo2
+.
+idl
+'
+'
 nsIMacDockSupport
 .
 idl
