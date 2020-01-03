@@ -980,6 +980,13 @@ then
 =
 >
 {
+if
+(
+this
+.
+editor
+)
+{
 this
 .
 editor
@@ -988,6 +995,7 @@ focus
 (
 )
 ;
+}
 }
 )
 ;
