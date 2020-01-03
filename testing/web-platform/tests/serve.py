@@ -30,6 +30,8 @@ threading
 import
 time
 import
+traceback
+import
 urllib2
 import
 uuid
@@ -494,10 +496,11 @@ start
 (
 self
 init_func
-config
-paths
+host
 port
+paths
 bind_hostname
+external_config
 )
 :
         
@@ -512,14 +515,16 @@ target
 self
 .
 create_daemon
+                            
 args
 =
 (
 init_func
-config
-paths
+host
 port
+paths
 bind_hostname
+external_config
 )
 )
         
@@ -544,10 +549,11 @@ create_daemon
 (
 self
 init_func
-config
-paths
+host
 port
+paths
 bind_hostname
+external_config
 )
 :
         
@@ -560,10 +566,11 @@ daemon
 =
 init_func
 (
-config
-paths
+host
 port
+paths
 bind_hostname
+external_config
 )
         
 except
@@ -588,6 +595,23 @@ s
 "
 %
 port
+            
+raise
+        
+except
+:
+            
+print
+>
+>
+sys
+.
+stderr
+traceback
+.
+format_exc
+(
+)
             
 raise
         
@@ -697,9 +721,8 @@ is_alive
 def
 check_subdomains
 (
-config
+host
 paths
-subdomains
 bind_hostname
 )
 :
@@ -708,6 +731,13 @@ port
 =
 get_port
 (
+)
+    
+subdomains
+=
+get_subdomains
+(
+host
 )
     
 wrapper
@@ -721,10 +751,11 @@ wrapper
 start
 (
 start_http_server
-config
-paths
+host
 port
+paths
 bind_hostname
+None
 )
     
 connected
@@ -761,12 +792,7 @@ d
 "
 %
 (
-config
-[
-"
 host
-"
-]
 port
 )
 )
@@ -830,12 +856,7 @@ similar
 "
 %
 (
-config
-[
-"
 host
-"
-]
 port
 )
 )
@@ -951,18 +972,9 @@ wait
 def
 get_subdomains
 (
-config
+host
 )
 :
-    
-host
-=
-config
-[
-"
-host
-"
-]
     
 return
 {
@@ -988,10 +1000,11 @@ subdomains
 def
 start_servers
 (
-config
-paths
+host
 ports
+paths
 bind_hostname
+external_config
 )
 :
     
@@ -1001,15 +1014,6 @@ defaultdict
 (
 list
 )
-    
-host
-=
-config
-[
-"
-host
-"
-]
     
 for
 scheme
@@ -1091,10 +1095,11 @@ server_proc
 start
 (
 init_func
-config
-paths
+host
 port
+paths
 bind_hostname
+external_config
 )
             
 servers
@@ -1115,10 +1120,11 @@ servers
 def
 start_http_server
 (
-config
-paths
+host
 port
+paths
 bind_hostname
+external_config
 )
 :
     
@@ -1129,12 +1135,7 @@ WebTestHttpd
 (
 host
 =
-config
-[
-"
 host
-"
-]
                                  
 port
 =
@@ -1163,7 +1164,7 @@ bind_hostname
                                  
 config
 =
-config
+external_config
                                  
 use_ssl
 =
@@ -1176,9 +1177,9 @@ None
 def
 start_https_server
 (
-config
-paths
+host
 port
+paths
 bind_hostname
 )
 :
@@ -1511,22 +1512,18 @@ None
 def
 start_ws_server
 (
-config
-paths
+host
 port
+paths
 bind_hostname
+external_config
 )
 :
     
 return
 WebSocketDaemon
 (
-config
-[
-"
 host
-"
-]
                            
 str
 (
@@ -1551,10 +1548,11 @@ bind_hostname
 def
 start_wss_server
 (
-config
-paths
+host
 port
+path
 bind_hostname
+external_config
 )
 :
     
@@ -1637,10 +1635,72 @@ def
 normalise_config
 (
 config
-domains
 ports
 )
 :
+    
+host
+=
+config
+[
+"
+external_host
+"
+]
+if
+config
+[
+"
+external_host
+"
+]
+else
+config
+[
+"
+host
+"
+]
+    
+domains
+=
+get_subdomains
+(
+host
+)
+    
+for
+key
+value
+in
+domains
+.
+iteritems
+(
+)
+:
+        
+domains
+[
+key
+]
+=
+"
+.
+"
+.
+join
+(
+value
+)
+    
+domains
+[
+"
+"
+]
+=
+host
     
 ports_
 =
@@ -1665,70 +1725,19 @@ scheme
 =
 ports_used
     
-domains_
-=
-domains
-.
-copy
-(
-)
-    
-for
-key
-value
-in
-domains_
-.
-iteritems
-(
-)
-:
-        
-domains_
-[
-key
-]
-=
-"
-.
-"
-.
-join
-(
-value
-)
-    
-domains_
-[
-"
-"
-]
-=
-config
-[
-"
-host
-"
-]
-    
 return
 {
 "
 host
 "
 :
-config
-[
-"
 host
-"
-]
             
 "
 domains
 "
 :
-domains_
+domains
             
 "
 ports
@@ -1743,16 +1752,25 @@ config
 )
 :
     
-ports
+host
 =
-get_ports
-(
 config
-)
+[
+"
+host
+"
+]
     
 domains
 =
 get_subdomains
+(
+host
+)
+    
+ports
+=
+get_ports
 (
 config
 )
@@ -1803,18 +1821,16 @@ check_subdomains
         
 check_subdomains
 (
-config
+host
 paths
-domains
 bind_hostname
 )
     
-config_
+external_config
 =
 normalise_config
 (
 config
-domains
 ports
 )
     
@@ -1822,14 +1838,15 @@ servers
 =
 start_servers
 (
-config_
-paths
+host
 ports
+paths
 bind_hostname
+external_config
 )
     
 return
-config_
+external_config
 servers
 def
 iter_procs

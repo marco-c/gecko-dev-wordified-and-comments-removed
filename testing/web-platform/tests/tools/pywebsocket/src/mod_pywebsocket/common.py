@@ -265,13 +265,6 @@ deflate
 -
 frame
 '
-PERFRAME_COMPRESSION_EXTENSION
-=
-'
-perframe
--
-compress
-'
 PERMESSAGE_COMPRESSION_EXTENSION
 =
 '
@@ -607,7 +600,6 @@ _parse_extension_param
 (
 state
 definition
-allow_quoted_string
 )
 :
     
@@ -675,27 +667,11 @@ consume_lwses
 state
 )
     
-if
-allow_quoted_string
-:
-        
 param_value
 =
 http_header_util
 .
 consume_token_or_quoted_string
-(
-state
-)
-    
-else
-:
-        
-param_value
-=
-http_header_util
-.
-consume_token
 (
 state
 )
@@ -745,7 +721,6 @@ def
 _parse_extension
 (
 state
-allow_quoted_string
 )
 :
     
@@ -814,7 +789,6 @@ _parse_extension_param
 (
 state
 extension
-allow_quoted_string
 )
         
 except
@@ -853,9 +827,6 @@ def
 parse_extensions
 (
 data
-allow_quoted_string
-=
-False
 )
 :
     
@@ -913,7 +884,6 @@ extension
 _parse_extension
 (
 state
-allow_quoted_string
 )
         
 if

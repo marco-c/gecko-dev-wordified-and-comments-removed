@@ -1470,9 +1470,6 @@ common
 parse_extensions
 (
 data
-allow_quoted_string
-=
-True
 )
 def
 _create_accepted_method_desc
@@ -1948,135 +1945,6 @@ self
 .
 _compression_processor
 class
-PerFrameCompressExtensionProcessor
-(
-CompressionExtensionProcessorBase
-)
-:
-    
-"
-"
-"
-perframe
--
-compress
-processor
-.
-    
-Specification
-:
-    
-http
-:
-/
-/
-tools
-.
-ietf
-.
-org
-/
-html
-/
-draft
--
-ietf
--
-hybi
--
-websocket
--
-perframe
--
-compression
-    
-"
-"
-"
-    
-_DEFLATE_METHOD
-=
-'
-deflate
-'
-    
-def
-__init__
-(
-self
-request
-)
-:
-        
-CompressionExtensionProcessorBase
-.
-__init__
-(
-self
-request
-)
-    
-def
-name
-(
-self
-)
-:
-        
-return
-common
-.
-PERFRAME_COMPRESSION_EXTENSION
-    
-def
-_lookup_compression_processor
-(
-self
-method_desc
-)
-:
-        
-if
-method_desc
-.
-name
-(
-)
-=
-=
-self
-.
-_DEFLATE_METHOD
-:
-            
-return
-DeflateFrameExtensionProcessor
-(
-method_desc
-)
-        
-return
-None
-_available_processors
-[
-common
-.
-PERFRAME_COMPRESSION_EXTENSION
-]
-=
-(
-    
-PerFrameCompressExtensionProcessor
-)
-_compression_extension_names
-.
-append
-(
-common
-.
-PERFRAME_COMPRESSION_EXTENSION
-)
-class
 PerMessageDeflateExtensionProcessor
 (
 ExtensionProcessorInterface
@@ -2142,28 +2010,28 @@ compression
 "
 "
     
-_S2C_MAX_WINDOW_BITS_PARAM
+_SERVER_MAX_WINDOW_BITS_PARAM
 =
 '
-s2c_max_window_bits
+server_max_window_bits
 '
     
-_S2C_NO_CONTEXT_TAKEOVER_PARAM
+_SERVER_NO_CONTEXT_TAKEOVER_PARAM
 =
 '
-s2c_no_context_takeover
+server_no_context_takeover
 '
     
-_C2S_MAX_WINDOW_BITS_PARAM
+_CLIENT_MAX_WINDOW_BITS_PARAM
 =
 '
-c2s_max_window_bits
+client_max_window_bits
 '
     
-_C2S_NO_CONTEXT_TAKEOVER_PARAM
+_CLIENT_NO_CONTEXT_TAKEOVER_PARAM
 =
 '
-c2s_no_context_takeover
+client_no_context_takeover
 '
     
 def
@@ -2252,13 +2120,13 @@ self
         
 self
 .
-_preferred_c2s_max_window_bits
+_preferred_client_max_window_bits
 =
 None
         
 self
 .
-_c2s_no_context_takeover
+_client_no_context_takeover
 =
 False
         
@@ -2312,15 +2180,15 @@ in
 [
 self
 .
-_S2C_MAX_WINDOW_BITS_PARAM
+_SERVER_MAX_WINDOW_BITS_PARAM
                                 
 self
 .
-_S2C_NO_CONTEXT_TAKEOVER_PARAM
+_SERVER_NO_CONTEXT_TAKEOVER_PARAM
                                 
 self
 .
-_C2S_MAX_WINDOW_BITS_PARAM
+_CLIENT_MAX_WINDOW_BITS_PARAM
 ]
 :
                     
@@ -2348,7 +2216,7 @@ else
             
 pass
         
-s2c_max_window_bits
+server_max_window_bits
 =
 None
         
@@ -2361,11 +2229,11 @@ has_parameter
 (
 self
 .
-_S2C_MAX_WINDOW_BITS_PARAM
+_SERVER_MAX_WINDOW_BITS_PARAM
 )
 :
             
-s2c_max_window_bits
+server_max_window_bits
 =
 self
 .
@@ -2376,17 +2244,18 @@ get_parameter_value
                     
 self
 .
-_S2C_MAX_WINDOW_BITS_PARAM
+_SERVER_MAX_WINDOW_BITS_PARAM
 )
             
 try
 :
                 
-s2c_max_window_bits
+server_max_window_bits
 =
 _parse_window_bits
 (
-s2c_max_window_bits
+                    
+server_max_window_bits
 )
             
 except
@@ -2412,7 +2281,7 @@ r
                                    
 self
 .
-_S2C_MAX_WINDOW_BITS_PARAM
+_SERVER_MAX_WINDOW_BITS_PARAM
                                    
 e
 )
@@ -2420,7 +2289,7 @@ e
 return
 None
         
-s2c_no_context_takeover
+server_no_context_takeover
 =
 self
 .
@@ -2431,12 +2300,12 @@ has_parameter
             
 self
 .
-_S2C_NO_CONTEXT_TAKEOVER_PARAM
+_SERVER_NO_CONTEXT_TAKEOVER_PARAM
 )
         
 if
 (
-s2c_no_context_takeover
+server_no_context_takeover
 and
             
 self
@@ -2448,7 +2317,7 @@ get_parameter_value
                 
 self
 .
-_S2C_NO_CONTEXT_TAKEOVER_PARAM
+_SERVER_NO_CONTEXT_TAKEOVER_PARAM
 )
 is
 not
@@ -2478,15 +2347,15 @@ r
                                
 self
 .
-_S2C_NO_CONTEXT_TAKEOVER_PARAM
+_SERVER_NO_CONTEXT_TAKEOVER_PARAM
                                
-s2c_no_context_takeover
+server_no_context_takeover
 )
             
 return
 None
         
-client_c2s_max_window_bits
+client_client_max_window_bits
 =
 self
 .
@@ -2497,7 +2366,7 @@ has_parameter
             
 self
 .
-_C2S_MAX_WINDOW_BITS_PARAM
+_CLIENT_MAX_WINDOW_BITS_PARAM
 )
         
 if
@@ -2507,7 +2376,7 @@ self
 _draft08
 and
             
-client_c2s_max_window_bits
+client_client_max_window_bits
 and
             
 self
@@ -2519,7 +2388,7 @@ get_parameter_value
                 
 self
 .
-_C2S_MAX_WINDOW_BITS_PARAM
+_CLIENT_MAX_WINDOW_BITS_PARAM
 )
 is
 not
@@ -2560,9 +2429,9 @@ r
                                
 self
 .
-_C2S_MAX_WINDOW_BITS_PARAM
+_CLIENT_MAX_WINDOW_BITS_PARAM
                                
-client_c2s_max_window_bits
+client_client_max_window_bits
 )
             
 return
@@ -2577,8 +2446,8 @@ util
 _RFC1979Deflater
 (
             
-s2c_max_window_bits
-s2c_no_context_takeover
+server_max_window_bits
+server_no_context_takeover
 )
         
 self
@@ -2598,8 +2467,8 @@ _framer
 _PerMessageDeflateFramer
 (
             
-s2c_max_window_bits
-s2c_no_context_takeover
+server_max_window_bits
+server_no_context_takeover
 )
         
 self
@@ -2636,7 +2505,7 @@ name
 )
         
 if
-s2c_max_window_bits
+server_max_window_bits
 is
 not
 None
@@ -2649,15 +2518,16 @@ add_parameter
                 
 self
 .
-_S2C_MAX_WINDOW_BITS_PARAM
+_SERVER_MAX_WINDOW_BITS_PARAM
+                
 str
 (
-s2c_max_window_bits
+server_max_window_bits
 )
 )
         
 if
-s2c_no_context_takeover
+server_no_context_takeover
 :
             
 response
@@ -2667,14 +2537,14 @@ add_parameter
                 
 self
 .
-_S2C_NO_CONTEXT_TAKEOVER_PARAM
+_SERVER_NO_CONTEXT_TAKEOVER_PARAM
 None
 )
         
 if
 self
 .
-_preferred_c2s_max_window_bits
+_preferred_client_max_window_bits
 is
 not
 None
@@ -2686,7 +2556,7 @@ self
 _draft08
 and
 not
-client_c2s_max_window_bits
+client_client_max_window_bits
 :
                 
 self
@@ -2716,7 +2586,7 @@ it
                                    
 self
 .
-_C2S_MAX_WINDOW_BITS_PARAM
+_CLIENT_MAX_WINDOW_BITS_PARAM
 )
                 
 return
@@ -2729,20 +2599,20 @@ add_parameter
                 
 self
 .
-_C2S_MAX_WINDOW_BITS_PARAM
+_CLIENT_MAX_WINDOW_BITS_PARAM
                 
 str
 (
 self
 .
-_preferred_c2s_max_window_bits
+_preferred_client_max_window_bits
 )
 )
         
 if
 self
 .
-_c2s_no_context_takeover
+_client_no_context_takeover
 :
             
 response
@@ -2752,7 +2622,7 @@ add_parameter
                 
 self
 .
-_C2S_NO_CONTEXT_TAKEOVER_PARAM
+_CLIENT_NO_CONTEXT_TAKEOVER_PARAM
 None
 )
         
@@ -2774,12 +2644,15 @@ extension
 '
 request
 :
-s2c_max_window_bits
+server_max_window_bits
 =
 %
 s
 ;
-s2c_no_context_takeover
+'
+            
+'
+server_no_context_takeover
 =
 %
 r
@@ -2788,12 +2661,15 @@ r
 '
 response
 :
-c2s_max_window_bits
+client_max_window_bits
 =
 %
 s
 ;
-c2s_no_context_takeover
+'
+            
+'
+client_no_context_takeover
 =
 %
 r
@@ -2810,17 +2686,17 @@ name
 (
 )
              
-s2c_max_window_bits
+server_max_window_bits
              
-s2c_no_context_takeover
-             
-self
-.
-_preferred_c2s_max_window_bits
+server_no_context_takeover
              
 self
 .
-_c2s_no_context_takeover
+_preferred_client_max_window_bits
+             
+self
+.
+_client_no_context_takeover
 )
 )
         
@@ -2845,7 +2721,7 @@ stream_options
 )
     
 def
-set_c2s_max_window_bits
+set_client_max_window_bits
 (
 self
 value
@@ -2864,21 +2740,21 @@ this
 class
 adds
 the
-c2s_max_window_bits
         
+client_max_window_bits
 extension
 parameter
 to
 the
 handshake
 response
+        
 but
 doesn
 '
 t
 reduce
 the
-        
 LZ77
 sliding
 window
@@ -2887,6 +2763,7 @@ of
 its
 inflater
 .
+        
 I
 .
 e
@@ -2896,18 +2773,17 @@ can
 use
 this
 for
-        
 testing
 client
 implementation
 but
 cannot
+        
 reduce
 memory
 usage
 of
 this
-        
 class
 .
         
@@ -2925,7 +2801,7 @@ offer
 without
 the
         
-c2s_max_window_bits
+client_max_window_bits
 extension
 parameter
 is
@@ -2973,12 +2849,12 @@ request
         
 self
 .
-_preferred_c2s_max_window_bits
+_preferred_client_max_window_bits
 =
 value
     
 def
-set_c2s_no_context_takeover
+set_client_no_context_takeover
 (
 self
 value
@@ -2998,14 +2874,14 @@ class
 adds
 the
         
-c2s_no_context_takeover
+client_no_context_takeover
 extension
 parameter
 to
 the
 handshake
-response
         
+response
 but
 doesn
 '
@@ -3022,10 +2898,10 @@ e
 .
 you
 can
+        
 use
 this
 for
-        
 testing
 client
 implementation
@@ -3033,10 +2909,10 @@ but
 cannot
 reduce
 memory
+        
 usage
 of
 this
-        
 class
 .
         
@@ -3046,7 +2922,7 @@ class
         
 self
 .
-_c2s_no_context_takeover
+_client_no_context_takeover
 =
 value
     
@@ -3378,7 +3254,7 @@ filter
 (
             
 message
-flush
+end
 =
 end
 bfinal
@@ -4143,14 +4019,6 @@ name
 =
 common
 .
-PERFRAME_COMPRESSION_EXTENSION
-or
-                    
-name
-=
-=
-common
-.
 DEFLATE_FRAME_EXTENSION
 or
                     
@@ -4177,14 +4045,6 @@ else
                 
 if
 (
-name
-=
-=
-common
-.
-PERFRAME_COMPRESSION_EXTENSION
-or
-                    
 name
 =
 =

@@ -11,6 +11,11 @@ platform
 test
 "
 "
+external_host
+"
+:
+null
+"
 ports
 "
 :

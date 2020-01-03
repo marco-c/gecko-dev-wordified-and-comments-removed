@@ -638,19 +638,14 @@ Empty
             
 self
 .
-logger
-.
-info
+send_message
 (
 "
-No
-more
-tests
+restart_runner
 "
 )
             
 return
-Stop
         
 else
 :
@@ -905,7 +900,8 @@ __init__
 (
 self
 suite_name
-tests_queue
+test_queue
+test_source_cls
 browser_cls
 browser_kwargs
                  
@@ -1051,9 +1047,15 @@ suite_name
         
 self
 .
-tests_queue
+test_queue
 =
-tests_queue
+test_queue
+        
+self
+.
+test_source_cls
+=
+test_source_cls
         
 self
 .
@@ -1078,6 +1080,12 @@ self
 executor_kwargs
 =
 executor_kwargs
+        
+self
+.
+test_source
+=
+None
         
 self
 .
@@ -1317,6 +1325,16 @@ browser_kwargs
 )
 as
 browser
+self
+.
+test_source_cls
+(
+self
+.
+test_queue
+)
+as
+test_source
 :
             
 self
@@ -1325,14 +1343,26 @@ browser
 =
 browser
             
+self
+.
+test_source
+=
+test_source
+            
 try
 :
                 
+if
 self
 .
 init
 (
 )
+is
+Stop
+:
+                    
+return
                 
 while
 True
@@ -1865,6 +1895,38 @@ init_timeout
 init_failed
 )
             
+test_queue
+=
+self
+.
+test_source
+.
+get_queue
+(
+)
+            
+if
+test_queue
+is
+None
+:
+                
+self
+.
+logger
+.
+info
+(
+"
+No
+more
+tests
+"
+)
+                
+return
+Stop
+            
 try
 :
                 
@@ -1900,6 +1962,7 @@ self
 .
 start_test_runner
 (
+test_queue
 )
             
 except
@@ -2141,6 +2204,7 @@ def
 start_test_runner
 (
 self
+test_queue
 )
 :
         
@@ -2160,6 +2224,18 @@ is
 not
 None
         
+self
+.
+logger
+.
+info
+(
+"
+Starting
+runner
+"
+)
+        
 executor_browser_cls
 executor_browser_kwargs
 =
@@ -2174,9 +2250,7 @@ executor_browser
 args
 =
 (
-self
-.
-tests_queue
+test_queue
                 
 self
 .
@@ -2664,9 +2738,9 @@ self
         
 self
 .
-test_queue
+test_source
 .
-put
+requeue
 (
 self
 .
@@ -2951,9 +3025,6 @@ browser
 .
 log_crash
 (
-self
-.
-logger
 process
 =
 self
@@ -3022,7 +3093,7 @@ pausing
 until
 the
 browser
-exists
+exits
 "
 )
             
@@ -3114,22 +3185,11 @@ Stop
         
 self
 .
-logger
-.
-info
-(
-"
-Restarting
-runner
-"
-)
-        
-self
-.
 stop_runner
 (
 )
         
+return
 self
 .
 init
@@ -3181,6 +3241,120 @@ restart_runner
 (
 )
 class
+TestQueue
+(
+object
+)
+:
+    
+def
+__init__
+(
+self
+test_source_cls
+test_type
+tests
+*
+*
+kwargs
+)
+:
+        
+self
+.
+queue
+=
+None
+        
+self
+.
+test_source_cls
+=
+test_source_cls
+        
+self
+.
+test_type
+=
+test_type
+        
+self
+.
+tests
+=
+tests
+        
+self
+.
+kwargs
+=
+kwargs
+    
+def
+__enter__
+(
+self
+)
+:
+        
+self
+.
+queue
+=
+Queue
+(
+)
+        
+self
+.
+test_source_cls
+.
+queue_tests
+(
+self
+.
+queue
+                                         
+self
+.
+test_type
+                                         
+self
+.
+tests
+                                         
+*
+*
+self
+.
+kwargs
+)
+        
+return
+self
+.
+queue
+    
+def
+__exit__
+(
+self
+*
+args
+*
+*
+kwargs
+)
+:
+        
+self
+.
+queue
+.
+close
+(
+)
+class
 ManagerGroup
 (
 object
@@ -3193,6 +3367,9 @@ __init__
 self
 suite_name
 size
+test_source_cls
+test_source_kwargs
+                 
 browser_cls
 browser_kwargs
                  
@@ -3232,6 +3409,18 @@ self
 size
 =
 size
+        
+self
+.
+test_source_cls
+=
+test_source_cls
+        
+self
+.
+test_source_kwargs
+=
+test_source_kwargs
         
 self
 .
@@ -3291,6 +3480,12 @@ StructuredLogger
 (
 suite_name
 )
+        
+self
+.
+test_queue
+=
+None
     
 def
 __enter__
@@ -3319,10 +3514,11 @@ stop
 )
     
 def
-start
+run
 (
 self
-tests_queue
+test_type
+tests
 )
 :
         
@@ -3359,10 +3555,33 @@ size
         
 self
 .
-tests_queue
+test_queue
 =
-tests_queue
+TestQueue
+(
+self
+.
+test_source_cls
+                                    
+test_type
+                                    
+tests
+                                    
+*
+*
+self
+.
+test_source_kwargs
+)
         
+with
+self
+.
+test_queue
+as
+test_queue
+:
+            
 for
 _
 in
@@ -3373,7 +3592,7 @@ self
 size
 )
 :
-            
+                
 manager
 =
 TestRunnerManager
@@ -3381,40 +3600,44 @@ TestRunnerManager
 self
 .
 suite_name
-                                        
-tests_queue
-                                        
+                                            
+test_queue
+                                            
+self
+.
+test_source_cls
+                                            
 self
 .
 browser_cls
-                                        
+                                            
 self
 .
 browser_kwargs
-                                        
+                                            
 self
 .
 executor_cls
-                                        
+                                            
 self
 .
 executor_kwargs
-                                        
+                                            
 self
 .
 stop_flag
-                                        
+                                            
 self
 .
 pause_on_unexpected
 )
-            
+                
 manager
 .
 start
 (
 )
-            
+                
 self
 .
 pool
@@ -3422,6 +3645,12 @@ pool
 add
 (
 manager
+)
+            
+self
+.
+wait
+(
 )
     
 def
