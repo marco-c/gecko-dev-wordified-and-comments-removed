@@ -2429,10 +2429,7 @@ true
 if
 (
 !
-JSObject
-:
-:
-getProto
+GetPrototype
 (
 cx
 obj

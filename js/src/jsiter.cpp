@@ -1984,10 +1984,7 @@ break
 if
 (
 !
-JSObject
-:
-:
-getProto
+GetPrototype
 (
 cx
 pobj
@@ -6229,10 +6226,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getProto
+GetPrototype
 (
 cx
 obj

@@ -505,10 +505,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getProto
+GetPrototype
 (
 cx
 proxy
@@ -2454,10 +2451,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-getProto
+GetPrototype
 (
 cx
 proxy
