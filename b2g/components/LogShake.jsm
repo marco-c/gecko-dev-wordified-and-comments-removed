@@ -1010,8 +1010,6 @@ join
 logs
 '
 timestamp
-'
-'
 )
 ;
 }
@@ -1272,11 +1270,17 @@ logLocation
 let
 filename
 =
+OS
+.
+Path
+.
+join
+(
 dirName
-+
 getLogFilename
 (
 logLocation
+)
 )
 ;
 logFilenames
