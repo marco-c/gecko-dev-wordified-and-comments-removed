@@ -5203,6 +5203,12 @@ SyncWithCacheIOThread
 (
 )
 ;
+mActiveEntries
+.
+Shutdown
+(
+)
+;
 parentDir
 =
 mObserver
