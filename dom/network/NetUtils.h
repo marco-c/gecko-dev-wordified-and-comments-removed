@@ -220,11 +220,12 @@ SdkVersion
 ;
 private
 :
+static
 mozilla
 :
 :
 Mutex
-mIfcMutex
+sIfcMutex
 ;
 }
 ;
