@@ -331,6 +331,13 @@ function
 (
 )
 {
+if
+(
+this
+.
+socket
+)
+{
 this
 .
 socket
@@ -339,6 +346,7 @@ close
 (
 )
 ;
+}
 }
 _clearConnectionFlags
 :
