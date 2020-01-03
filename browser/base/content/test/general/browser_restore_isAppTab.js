@@ -486,6 +486,12 @@ isAppTab
 )
 ;
 }
+executeSoon
+(
+function
+(
+)
+{
 browser
 .
 messageManager
@@ -511,6 +517,9 @@ Test
 :
 GetIsAppTab
 "
+)
+;
+}
 )
 ;
 }
