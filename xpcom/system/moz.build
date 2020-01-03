@@ -123,11 +123,6 @@ nsIGIOService
 idl
 '
 '
-nsIGnomeVFSService
-.
-idl
-'
-'
 nsIGSettingsService
 .
 idl
