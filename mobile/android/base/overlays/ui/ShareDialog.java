@@ -392,12 +392,11 @@ final
 String
 INTENT_EXTRA_DEVICES_ONLY
 =
+AppConstants
+.
+ANDROID_PACKAGE_NAME
++
 "
-org
-.
-mozilla
-.
-gecko
 .
 intent
 .
