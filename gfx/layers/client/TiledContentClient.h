@@ -864,6 +864,17 @@ GetTileDescriptor
 )
 ;
 void
+Dump
+(
+std
+:
+:
+stringstream
+&
+aStream
+)
+;
+void
 Flip
 (
 )
