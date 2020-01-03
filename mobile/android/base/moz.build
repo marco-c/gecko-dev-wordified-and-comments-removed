@@ -1807,6 +1807,11 @@ GlobalHistory
 java
 '
 '
+GuestSession
+.
+java
+'
+'
 health
 /
 BrowserHealthRecorder

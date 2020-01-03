@@ -1514,7 +1514,11 @@ createNewFile
 ;
 if
 (
-result
+lockFile
+.
+exists
+(
+)
 )
 {
 mLocked
