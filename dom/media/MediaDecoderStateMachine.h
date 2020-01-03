@@ -196,6 +196,11 @@ InitializationTask
 )
 ;
 void
+UpdateStreamBlockingForPlayState
+(
+)
+;
+void
 UpdateStreamBlockingForStateMachinePlaying
 (
 )

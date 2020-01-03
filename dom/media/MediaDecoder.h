@@ -591,11 +591,6 @@ SetMinimizePrerollUntilPlaybackStarts
 )
 ;
 void
-UpdateStreamBlockingForPlayState
-(
-)
-;
-void
 RecreateDecodedStream
 (
 int64_t
