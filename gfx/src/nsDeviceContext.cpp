@@ -1127,7 +1127,7 @@ mAppUnitsPerDevPixel
 -
 1
 )
-mAppUnitsPerDevNotScaledPixel
+mAppUnitsPerDevPixelAtUnitFullZoom
 (
 -
 1
@@ -1475,7 +1475,7 @@ type
 break
 ;
 }
-mAppUnitsPerDevNotScaledPixel
+mAppUnitsPerDevPixelAtUnitFullZoom
 =
 NS_lround
 (
@@ -1596,7 +1596,7 @@ scale
 .
 scale
 ;
-mAppUnitsPerDevNotScaledPixel
+mAppUnitsPerDevPixelAtUnitFullZoom
 =
 std
 :
@@ -1637,7 +1637,7 @@ NS_lround
 (
 dpi
 *
-mAppUnitsPerDevNotScaledPixel
+mAppUnitsPerDevPixelAtUnitFullZoom
 )
 ;
 UpdateScaledAppUnits
@@ -3146,7 +3146,7 @@ CheckDPIChange
 int32_t
 oldDevPixels
 =
-mAppUnitsPerDevNotScaledPixel
+mAppUnitsPerDevPixelAtUnitFullZoom
 ;
 int32_t
 oldInches
@@ -3161,7 +3161,7 @@ return
 oldDevPixels
 !
 =
-mAppUnitsPerDevNotScaledPixel
+mAppUnitsPerDevPixelAtUnitFullZoom
 |
 |
 oldInches
@@ -3242,7 +3242,7 @@ NSToIntRound
 (
 float
 (
-mAppUnitsPerDevNotScaledPixel
+mAppUnitsPerDevPixelAtUnitFullZoom
 )
 /
 mPixelScale
@@ -3253,7 +3253,7 @@ mPixelScale
 =
 float
 (
-mAppUnitsPerDevNotScaledPixel
+mAppUnitsPerDevPixelAtUnitFullZoom
 )
 /
 mAppUnitsPerDevPixel

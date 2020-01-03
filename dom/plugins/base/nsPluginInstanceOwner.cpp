@@ -13553,7 +13553,7 @@ DeviceContext
 )
 -
 >
-UnscaledAppUnitsPerDevPixel
+AppUnitsPerDevPixelAtUnitFullZoom
 (
 )
 ;

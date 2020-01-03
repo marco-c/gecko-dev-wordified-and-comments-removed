@@ -270,13 +270,13 @@ AppUnitsPerCSSInch
 ;
 }
 int32_t
-UnscaledAppUnitsPerDevPixel
+AppUnitsPerDevPixelAtUnitFullZoom
 (
 )
 const
 {
 return
-mAppUnitsPerDevNotScaledPixel
+mAppUnitsPerDevPixelAtUnitFullZoom
 ;
 }
 nsresult
@@ -478,7 +478,7 @@ int32_t
 mAppUnitsPerDevPixel
 ;
 int32_t
-mAppUnitsPerDevNotScaledPixel
+mAppUnitsPerDevPixelAtUnitFullZoom
 ;
 int32_t
 mAppUnitsPerPhysicalInch
