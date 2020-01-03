@@ -1187,6 +1187,11 @@ flex
 >
 <
 vbox
+flex
+=
+"
+1
+"
 >
 <
 description
@@ -1342,6 +1347,11 @@ flex
 >
 <
 vbox
+flex
+=
+"
+1
+"
 >
 <
 description
