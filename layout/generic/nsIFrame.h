@@ -5729,6 +5729,7 @@ bool
 IsGeneratedContentFrame
 (
 )
+const
 {
 return
 (
