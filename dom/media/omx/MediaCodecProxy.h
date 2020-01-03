@@ -435,6 +435,14 @@ ReleaseMediaResources
 (
 )
 ;
+void
+ReleaseMediaBuffer
+(
+MediaBuffer
+*
+abuffer
+)
+;
 protected
 :
 virtual
