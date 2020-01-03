@@ -15400,6 +15400,17 @@ Length
 0
 )
 {
+aOptions
+-
+>
+SetQueryType
+(
+nsNavHistoryQueryOptions
+:
+:
+QUERY_TYPE_BOOKMARKS
+)
+;
 nsTArray
 <
 int64_t
