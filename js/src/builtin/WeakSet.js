@@ -24,7 +24,7 @@ IsWeakSet
 S
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -51,7 +51,7 @@ if
 !
 entries
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -72,7 +72,7 @@ IsObject
 value
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_NONNULL_OBJECT
 DecompileArg
@@ -119,7 +119,7 @@ IsWeakSet
 S
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -146,7 +146,7 @@ if
 !
 entries
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -195,7 +195,7 @@ IsWeakSet
 S
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -222,7 +222,7 @@ if
 !
 entries
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -281,7 +281,7 @@ IsWeakSet
 S
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -308,7 +308,7 @@ if
 !
 entries
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "

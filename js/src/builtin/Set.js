@@ -20,7 +20,7 @@ IsObject
 S
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -47,7 +47,7 @@ catch
 e
 )
 {
-ThrowError
+ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
 "
@@ -69,7 +69,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
