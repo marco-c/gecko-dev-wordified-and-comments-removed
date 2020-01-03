@@ -916,7 +916,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 !

@@ -1129,7 +1129,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 8
 )
@@ -1151,7 +1151,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 8
 )
@@ -1189,7 +1189,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 19
 )

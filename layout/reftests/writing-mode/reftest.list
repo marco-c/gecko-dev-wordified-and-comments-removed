@@ -159,7 +159,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 255
 2
 )
@@ -407,7 +407,7 @@ random
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 =
 =
@@ -430,7 +430,7 @@ random
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 =
 =

@@ -126,7 +126,7 @@ skip
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 HTTP
 (
@@ -178,7 +178,7 @@ skip
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 HTTP
 (
@@ -776,7 +776,7 @@ skip
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 fuzzy
 -

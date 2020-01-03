@@ -231,7 +231,7 @@ if
 Android
 |
 |
-gtk2Widget
+gtkWidget
 )
 =
 =
@@ -275,7 +275,7 @@ if
 Android
 |
 |
-gtk2Widget
+gtkWidget
 )
 =
 =
@@ -1427,7 +1427,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 2
 4
 )

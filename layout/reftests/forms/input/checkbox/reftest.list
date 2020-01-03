@@ -204,7 +204,7 @@ skip
 if
 (
 !
-gtk2Widget
+gtkWidget
 |
 |
 Mulet
@@ -237,7 +237,7 @@ bug
 :
 Disable
 some
-gtk2Widget
+gtkWidget
 -
 dependant
 reftests

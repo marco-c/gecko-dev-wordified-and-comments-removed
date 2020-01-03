@@ -844,7 +844,7 @@ skip
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 !
 =
@@ -864,7 +864,7 @@ skip
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 random
 -
@@ -957,7 +957,7 @@ skip
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 !
 =
@@ -977,7 +977,7 @@ skip
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 random
 -

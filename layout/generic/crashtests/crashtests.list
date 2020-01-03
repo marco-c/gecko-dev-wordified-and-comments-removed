@@ -162,7 +162,7 @@ asserts
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 )
 load
@@ -660,7 +660,7 @@ asserts
 -
 if
 (
-gtk2Widget
+gtkWidget
 0
 -
 2
@@ -678,7 +678,7 @@ asserts
 -
 if
 (
-gtk2Widget
+gtkWidget
 0
 -
 1

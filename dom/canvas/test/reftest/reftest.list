@@ -285,7 +285,7 @@ R
 -
 e10s
 :
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -732,7 +732,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -791,7 +791,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -850,7 +850,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -909,7 +909,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -1344,7 +1344,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -1403,7 +1403,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -1462,7 +1462,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -1521,7 +1521,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -2063,7 +2063,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -2135,7 +2135,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -2207,7 +2207,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -2279,7 +2279,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -2883,7 +2883,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -2955,7 +2955,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -3027,7 +3027,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote
@@ -3099,7 +3099,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 browserIsRemote

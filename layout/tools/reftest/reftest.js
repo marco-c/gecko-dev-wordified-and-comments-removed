@@ -3594,7 +3594,7 @@ cocoa
 ;
 sandbox
 .
-gtk2Widget
+gtkWidget
 =
 xr
 .
@@ -3603,6 +3603,16 @@ widgetToolkit
 =
 "
 gtk2
+"
+|
+|
+xr
+.
+widgetToolkit
+=
+=
+"
+gtk3
 "
 ;
 sandbox

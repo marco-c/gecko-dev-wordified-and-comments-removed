@@ -1025,7 +1025,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 6
 26200
 )
@@ -1084,7 +1084,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 6
 26200
 )
@@ -12521,7 +12521,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 191
 )
@@ -14947,7 +14947,7 @@ random
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 =
 =
@@ -14972,7 +14972,7 @@ random
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 =
 =
@@ -14997,7 +14997,7 @@ random
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 =
 =
@@ -15339,7 +15339,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 2
 40
 )
@@ -18507,7 +18507,7 @@ random
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 skip
 -
@@ -24072,7 +24072,7 @@ fails
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 =
 =

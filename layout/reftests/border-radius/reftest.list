@@ -274,7 +274,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 7
 437
 )

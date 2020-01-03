@@ -3139,7 +3139,7 @@ winWidget
 &
 &
 !
-gtk2Widget
+gtkWidget
 )
 skip
 -
@@ -3906,7 +3906,7 @@ oscpu
 )
 |
 |
-gtk2Widget
+gtkWidget
 |
 |
 Android
@@ -3967,7 +3967,7 @@ oscpu
 )
 |
 |
-gtk2Widget
+gtkWidget
 |
 |
 Android

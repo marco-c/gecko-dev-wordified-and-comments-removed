@@ -44,7 +44,7 @@ asserts
 -
 if
 (
-gtk2Widget
+gtkWidget
 0
 -
 12
@@ -65,7 +65,7 @@ asserts
 -
 if
 (
-gtk2Widget
+gtkWidget
 0
 -
 6

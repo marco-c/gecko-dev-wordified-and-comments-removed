@@ -439,7 +439,7 @@ skip
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 =
 =

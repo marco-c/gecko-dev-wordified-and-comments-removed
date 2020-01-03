@@ -365,7 +365,7 @@ azureSkia
 d2d
 |
 |
-gtk2Widget
+gtkWidget
 1
 10000
 )
@@ -802,7 +802,7 @@ if
 azureSkia
 |
 |
-gtk2Widget
+gtkWidget
 2
 9600
 )
@@ -1017,7 +1017,7 @@ if
 azureSkia
 |
 |
-gtk2Widget
+gtkWidget
 2
 9600
 )
@@ -1110,7 +1110,7 @@ if
 azureSkia
 |
 |
-gtk2Widget
+gtkWidget
 2
 9600
 )
@@ -1220,7 +1220,7 @@ if
 azureSkia
 |
 |
-gtk2Widget
+gtkWidget
 1
 1600
 )
@@ -1272,7 +1272,7 @@ if
 azureSkia
 |
 |
-gtk2Widget
+gtkWidget
 2
 12800
 )
@@ -1330,7 +1330,7 @@ d2d
 azureSkia
 |
 |
-gtk2Widget
+gtkWidget
 1
 1600
 )
@@ -1385,7 +1385,7 @@ d2d
 azureSkia
 |
 |
-gtk2Widget
+gtkWidget
 10
 4800
 )
@@ -1444,7 +1444,7 @@ azureSkia
 d2d
 |
 |
-gtk2Widget
+gtkWidget
 1
 40000
 )

@@ -320,7 +320,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 /
@@ -394,7 +394,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 /
@@ -450,7 +450,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 1438
 )
@@ -532,7 +532,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 &
 &
 /
@@ -598,7 +598,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 2268
 )

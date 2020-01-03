@@ -2894,7 +2894,7 @@ asserts
 -
 if
 (
-gtk2Widget
+gtkWidget
 0
 -
 4
@@ -2954,7 +2954,7 @@ asserts
 -
 if
 (
-gtk2Widget
+gtkWidget
 0
 -
 4
@@ -4307,7 +4307,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 10
 )
@@ -4387,7 +4387,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 10
 )
@@ -4469,7 +4469,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 10
 )
@@ -4551,7 +4551,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 10
 )
@@ -4635,7 +4635,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 10
 )
@@ -4710,7 +4710,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 10
 )
@@ -4785,7 +4785,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 10
 )
@@ -4862,7 +4862,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 10
 )
@@ -5211,7 +5211,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 8
 )
@@ -5286,7 +5286,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 8
 )
@@ -5361,7 +5361,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 8
 )
@@ -5438,7 +5438,7 @@ fuzzy
 -
 if
 (
-gtk2Widget
+gtkWidget
 1
 8
 )

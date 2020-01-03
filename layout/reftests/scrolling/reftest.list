@@ -163,7 +163,7 @@ random
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 fuzzy
 -

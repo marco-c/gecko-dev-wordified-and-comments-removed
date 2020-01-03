@@ -3698,7 +3698,7 @@ random
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 =
 =
@@ -3726,7 +3726,7 @@ random
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 =
 =
@@ -5227,7 +5227,7 @@ random
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 =
 =
@@ -5469,7 +5469,7 @@ random
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 !
 =

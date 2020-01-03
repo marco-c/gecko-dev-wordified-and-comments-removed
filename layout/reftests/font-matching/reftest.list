@@ -1169,7 +1169,7 @@ skip
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 !
 =
@@ -1216,7 +1216,7 @@ skip
 -
 if
 (
-gtk2Widget
+gtkWidget
 )
 !
 =

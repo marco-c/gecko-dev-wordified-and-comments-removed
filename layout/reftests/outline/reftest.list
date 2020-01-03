@@ -207,7 +207,7 @@ if
 (
 (
 !
-gtk2Widget
+gtkWidget
 &
 &
 !
@@ -253,7 +253,7 @@ bug
 :
 Disable
 some
-gtk2Widget
+gtkWidget
 -
 dependant
 reftests

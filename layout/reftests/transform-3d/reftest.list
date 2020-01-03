@@ -905,7 +905,7 @@ fuzzy
 if
 (
 (
-gtk2Widget
+gtkWidget
 &
 &
 layersOMTC
