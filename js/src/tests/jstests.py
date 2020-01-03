@@ -2665,6 +2665,19 @@ chdir
 test_dir
 )
     
+os
+.
+environ
+[
+'
+TZ
+'
+]
+=
+'
+PST8PDT
+'
+    
 results
 =
 None
