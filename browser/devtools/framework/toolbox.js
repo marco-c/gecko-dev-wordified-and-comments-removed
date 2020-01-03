@@ -8048,6 +8048,14 @@ outstanding
 .
 then
 (
+null
+console
+.
+error
+)
+.
+then
+(
 (
 )
 =
@@ -8106,6 +8114,9 @@ destroy
 )
 ;
 }
+console
+.
+error
 )
 .
 then
