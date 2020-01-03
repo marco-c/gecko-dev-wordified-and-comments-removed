@@ -970,7 +970,7 @@ browser
 GetStringFromName
 (
 "
-readerMode
+readerView
 .
 exit
 "
@@ -1062,7 +1062,7 @@ browser
 GetStringFromName
 (
 "
-readerMode
+readerView
 .
 enter
 "

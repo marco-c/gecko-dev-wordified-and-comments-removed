@@ -514,7 +514,7 @@ gStringBundle
 GetStringFromName
 (
 "
-readerMode
+readerView
 .
 exit
 "
@@ -545,7 +545,7 @@ gStringBundle
 GetStringFromName
 (
 "
-readerMode
+readerView
 .
 enter
 "
