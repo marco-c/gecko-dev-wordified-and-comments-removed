@@ -16787,6 +16787,14 @@ loopDone
 ;
 masm
 .
+patchableCallPreBarrier
+(
+exprStackSlot
+MIRType_Value
+)
+;
+masm
+.
 storeValue
 (
 NullValue
