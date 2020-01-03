@@ -63,7 +63,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 ELayerQuadVS
 -
@@ -85,7 +85,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 ESolidColorShader
 -
@@ -107,7 +107,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 ERGBShader
 -
@@ -129,7 +129,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 ERGBAShader
 -
@@ -151,7 +151,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 EComponentAlphaShader
 -
@@ -173,7 +173,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 EYCbCrShader
 -
@@ -195,7 +195,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 ELayerQuadMaskVS
 -
@@ -217,7 +217,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 ELayerQuadMask3DVS
 -
@@ -239,7 +239,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 ESolidColorShaderMask
 -
@@ -261,7 +261,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 ERGBShaderMask
 -
@@ -283,7 +283,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 ERGBAShaderMask
 -
@@ -305,7 +305,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 ERGBAShaderMask3D
 -
@@ -327,7 +327,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 EYCbCrShaderMask
 -
@@ -349,7 +349,7 @@ h
 fxc
 CompositorD3D11
 .
-fx
+hlsl
 -
 EComponentAlphaShaderMask
 -
