@@ -2014,8 +2014,8 @@ HandleObject
 obj
 HandleId
 id
-HandleValue
-v
+MutableHandleValue
+vp
 )
 {
 CompartmentPrivate
@@ -2161,7 +2161,7 @@ JS_SetPropertyById
 cx
 proto
 id
-v
+vp
 )
 )
 return
@@ -2225,7 +2225,7 @@ JS_DefinePropertyById
 cx
 obj
 id
-v
+vp
 attrs
 |
 JSPROP_PROPOP_ACCESSORS
