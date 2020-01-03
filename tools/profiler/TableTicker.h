@@ -954,10 +954,6 @@ std
 ostream
 &
 stream
-float
-aSinceTime
-=
-0
 )
 ;
 virtual
@@ -968,10 +964,6 @@ ToJSObject
 JSContext
 *
 aCx
-float
-aSinceTime
-=
-0
 )
 ;
 void
@@ -1161,8 +1153,6 @@ StreamJSObject
 JSStreamWriter
 &
 b
-float
-aSinceTime
 )
 ;
 ThreadProfile
