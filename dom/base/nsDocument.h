@@ -4070,6 +4070,8 @@ const
 nsAString
 &
 aCrossOriginAttr
+ReferrerPolicy
+aReferrerPolicy
 )
 MOZ_OVERRIDE
 ;

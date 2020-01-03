@@ -3126,6 +3126,12 @@ aTitle
 aMedia
 aAlternate
 CORS_NONE
+mDocument
+-
+>
+GetReferrerPolicy
+(
+)
 mRunsToCompletion
 ?
 nullptr

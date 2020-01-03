@@ -41980,6 +41980,9 @@ const
 nsAString
 &
 aCrossOriginAttr
+const
+ReferrerPolicy
+aReferrerPolicy
 )
 {
 nsCOMPtr
@@ -42016,6 +42019,7 @@ StringToCORSMode
 (
 aCrossOriginAttr
 )
+aReferrerPolicy
 )
 ;
 }

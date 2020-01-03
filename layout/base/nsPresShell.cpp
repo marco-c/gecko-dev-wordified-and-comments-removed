@@ -6246,6 +6246,13 @@ new
 CSSStyleSheet
 (
 CORS_NONE
+mozilla
+:
+:
+net
+:
+:
+RP_Default
 )
 ;
 nsCOMPtr

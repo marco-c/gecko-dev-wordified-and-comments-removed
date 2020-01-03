@@ -5189,6 +5189,12 @@ new
 CSSStyleSheet
 (
 CORS_NONE
+aDocument
+-
+>
+GetReferrerPolicy
+(
+)
 )
 ;
 sheet
