@@ -1398,6 +1398,11 @@ CreateNativeCaret
 (
 )
 ;
+void
+MaybeDestroyNativeCaret
+(
+)
+;
 nsRefPtr
 <
 nsWindowBase
