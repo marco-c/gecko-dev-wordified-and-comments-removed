@@ -14,7 +14,7 @@ version
 .
 8
 .
-6
+7
 '
 with
 open
