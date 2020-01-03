@@ -4520,6 +4520,14 @@ aRenderingContext
 =
 0
 ;
+IntrinsicISizeOffsetData
+IntrinsicBSizeOffsets
+(
+nsRenderingContext
+*
+aRenderingContext
+)
+;
 virtual
 mozilla
 :
