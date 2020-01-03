@@ -733,6 +733,16 @@ aOldStyleContext
 PeekStyleSVG
 (
 )
+&
+&
+!
+SVGContentUtils
+:
+:
+ShapeTypeHasNoCorners
+(
+mContent
+)
 )
 {
 if

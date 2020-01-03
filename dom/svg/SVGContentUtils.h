@@ -1008,6 +1008,16 @@ nsAString
 aPathString
 )
 ;
+static
+bool
+ShapeTypeHasNoCorners
+(
+const
+nsIContent
+*
+aContent
+)
+;
 }
 ;
 #
