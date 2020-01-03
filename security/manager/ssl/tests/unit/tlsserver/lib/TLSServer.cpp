@@ -118,6 +118,7 @@ mSocket
 char
 mByte
 ;
+explicit
 Connection
 (
 PRFileDesc

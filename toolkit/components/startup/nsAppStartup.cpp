@@ -461,6 +461,7 @@ mService
 ;
 public
 :
+explicit
 nsAppExitEvent
 (
 nsAppStartup

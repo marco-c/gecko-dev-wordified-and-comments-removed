@@ -325,6 +325,7 @@ mCanonical
 canonical
 ;
 }
+explicit
 PrefCallback
 (
 const

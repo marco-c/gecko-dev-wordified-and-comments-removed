@@ -205,6 +205,7 @@ mStdout
 nsCString
 mStderr
 ;
+explicit
 Subprocess
 (
 const

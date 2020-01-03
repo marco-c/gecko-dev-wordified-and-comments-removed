@@ -268,6 +268,7 @@ nsIEmbeddingSiteWindow
 {
 public
 :
+explicit
 nsSiteWindow
 (
 nsContentTreeOwner

@@ -112,6 +112,7 @@ Shutdown
 ;
 protected
 :
+explicit
 nsProfileDirServiceProvider
 (
 bool

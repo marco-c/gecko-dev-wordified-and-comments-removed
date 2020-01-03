@@ -81,6 +81,7 @@ nsIWidgetListener
 {
 public
 :
+explicit
 nsWebShellWindow
 (
 uint32_t

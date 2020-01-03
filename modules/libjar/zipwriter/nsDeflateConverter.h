@@ -92,6 +92,7 @@ mLevel
 6
 ;
 }
+explicit
 nsDeflateConverter
 (
 int32_t

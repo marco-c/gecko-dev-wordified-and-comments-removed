@@ -455,6 +455,7 @@ EntryType
 {
 public
 :
+explicit
 AutoHashtable
 (
 uint32_t
@@ -1639,6 +1640,7 @@ mSubstName
 ;
 public
 :
+explicit
 TelemetryIOInterposeObserver
 (
 nsIFile

@@ -57,6 +57,7 @@ nsIUrlClassifierDBServiceWorker
 {
 public
 :
+explicit
 UrlClassifierDBServiceWorkerProxy
 (
 nsIUrlClassifierDBServiceWorker
@@ -464,6 +465,7 @@ nsIUrlClassifierLookupCallback
 {
 public
 :
+explicit
 UrlClassifierLookupCallbackProxy
 (
 nsIUrlClassifierLookupCallback
@@ -570,6 +572,7 @@ nsIUrlClassifierCallback
 {
 public
 :
+explicit
 UrlClassifierCallbackProxy
 (
 nsIUrlClassifierCallback
@@ -664,6 +667,7 @@ nsIUrlClassifierUpdateObserver
 {
 public
 :
+explicit
 UrlClassifierUpdateObserverProxy
 (
 nsIUrlClassifierUpdateObserver
