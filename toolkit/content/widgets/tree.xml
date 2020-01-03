@@ -7891,6 +7891,14 @@ if
 cell
 .
 col
+&
+&
+event
+.
+button
+=
+=
+0
 )
 {
 if
