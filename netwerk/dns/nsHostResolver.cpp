@@ -2116,12 +2116,9 @@ rec
 ;
 }
 static
-bool
+void
 HostDB_InitEntry
 (
-PLDHashTable
-*
-table
 PLDHashEntryHdr
 *
 entry
@@ -2164,9 +2161,6 @@ he
 >
 rec
 )
-;
-return
-true
 ;
 }
 static

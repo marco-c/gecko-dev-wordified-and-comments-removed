@@ -835,12 +835,9 @@ aEntry
 )
 ;
 static
-bool
+void
 s_InitEntry
 (
-PLDHashTable
-*
-aTable
 PLDHashEntryHdr
 *
 aEntry
@@ -1353,7 +1350,7 @@ template
 class
 EntryType
 >
-bool
+void
 nsTHashtable
 <
 EntryType
@@ -1362,9 +1359,6 @@ EntryType
 :
 s_InitEntry
 (
-PLDHashTable
-*
-aTable
 PLDHashEntryHdr
 *
 aEntry
@@ -1388,9 +1382,6 @@ KeyTypePointer
 aKey
 )
 )
-;
-return
-true
 ;
 }
 template

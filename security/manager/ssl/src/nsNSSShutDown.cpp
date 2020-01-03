@@ -88,12 +88,9 @@ key
 ;
 }
 static
-bool
+void
 ObjectSetInitEntry
 (
-PLDHashTable
-*
-table
 PLDHashEntryHdr
 *
 hdr
@@ -137,9 +134,6 @@ nsNSSShutDownObject
 key
 )
 )
-;
-return
-true
 ;
 }
 static

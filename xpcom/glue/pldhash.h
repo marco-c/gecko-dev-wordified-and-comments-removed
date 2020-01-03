@@ -815,15 +815,12 @@ aEntry
 )
 ;
 typedef
-bool
+void
 (
 *
 PLDHashInitEntry
 )
 (
-PLDHashTable
-*
-aTable
 PLDHashEntryHdr
 *
 aEntry

@@ -273,12 +273,9 @@ key
 ;
 }
 static
-bool
+void
 RequestMapInitEntry
 (
-PLDHashTable
-*
-table
 PLDHashEntryHdr
 *
 hdr
@@ -311,9 +308,6 @@ void
 *
 )
 key
-;
-return
-true
 ;
 }
 static

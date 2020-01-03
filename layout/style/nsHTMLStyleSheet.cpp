@@ -1004,12 +1004,9 @@ lang
 ;
 }
 static
-bool
+void
 LangRuleTable_InitEntry
 (
-PLDHashTable
-*
-table
 PLDHashEntryHdr
 *
 hdr
@@ -1060,9 +1057,6 @@ LangRule
 *
 lang
 )
-;
-return
-true
 ;
 }
 static

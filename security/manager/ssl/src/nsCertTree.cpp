@@ -286,12 +286,9 @@ key
 ;
 }
 static
-bool
+void
 CompareCacheInitEntry
 (
-PLDHashTable
-*
-table
 PLDHashEntryHdr
 *
 hdr
@@ -335,9 +332,6 @@ void
 *
 )
 key
-;
-return
-true
 ;
 }
 static

@@ -224,15 +224,12 @@ AssignLiteral
 }
 #
 endif
-bool
+void
 nsDocLoader
 :
 :
 RequestInfoHashInitEntry
 (
-PLDHashTable
-*
-table
 PLDHashEntryHdr
 *
 entry
@@ -250,9 +247,6 @@ nsRequestInfo
 (
 key
 )
-;
-return
-true
 ;
 }
 void
