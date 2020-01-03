@@ -23901,9 +23901,11 @@ nsLineBox
 RFindLineContaining
 (
 aPrevSibling
-lineList
+overflowLines
 -
 >
+mLines
+.
 begin
 (
 )
@@ -23948,7 +23950,7 @@ mFrames
 }
 else
 {
-NS_NOTREACHED
+MOZ_ASSERT_UNREACHABLE
 (
 "
 prev
