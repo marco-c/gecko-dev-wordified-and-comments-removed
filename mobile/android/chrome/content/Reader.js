@@ -1061,14 +1061,14 @@ title
 :
 Strings
 .
-browser
+reader
 .
 GetStringFromName
 (
 "
 readerView
 .
-exit
+close
 "
 )
 icon
@@ -1153,7 +1153,7 @@ title
 :
 Strings
 .
-browser
+reader
 .
 GetStringFromName
 (
