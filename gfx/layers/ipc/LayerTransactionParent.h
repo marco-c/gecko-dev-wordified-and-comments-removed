@@ -521,6 +521,13 @@ PLayerParent
 *
 aLayer
 const
+FrameMetrics
+:
+:
+ViewID
+&
+aId
+const
 int32_t
 &
 aX
