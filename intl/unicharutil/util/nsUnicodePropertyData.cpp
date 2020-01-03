@@ -55494,7 +55494,7 @@ sCharProp2Values
 3
 5
 0
-8
+3
 -
 1
 1
@@ -57960,7 +57960,7 @@ sCharProp2Values
 3
 9
 0
-4
+1
 -
 1
 1
@@ -57970,7 +57970,7 @@ sCharProp2Values
 3
 5
 0
-4
+1
 -
 1
 1
@@ -58020,7 +58020,7 @@ sCharProp2Values
 3
 9
 0
-4
+1
 -
 1
 1
@@ -58030,7 +58030,7 @@ sCharProp2Values
 3
 5
 0
-4
+1
 -
 1
 1
@@ -65910,16 +65910,6 @@ sCharProp2Values
 3
 7
 13
-4
--
-1
-1
-}
-{
-2
-3
-7
-13
 1
 -
 1
@@ -66030,7 +66020,7 @@ sCharProp2Values
 3
 7
 13
-3
+1
 -
 1
 1
@@ -66080,7 +66070,17 @@ sCharProp2Values
 3
 7
 13
-4
+3
+-
+1
+1
+}
+{
+2
+3
+7
+13
+1
 -
 1
 1
@@ -114321,7 +114321,7 @@ sCharProp2Values
 0
 3
 1
-0
+19
 2
 -
 1
@@ -114331,7 +114331,7 @@ sCharProp2Values
 0
 3
 1
-0
+20
 2
 -
 1
@@ -114341,7 +114341,7 @@ sCharProp2Values
 0
 3
 1
-0
+21
 2
 -
 1
@@ -114351,7 +114351,7 @@ sCharProp2Values
 0
 3
 1
-0
+22
 2
 -
 1
@@ -166052,7 +166052,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -166062,7 +166062,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -166072,7 +166072,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -166082,7 +166082,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -166092,7 +166092,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -166102,7 +166102,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -166112,7 +166112,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -166122,7 +166122,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -166132,7 +166132,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -166142,7 +166142,7 @@ sCharProp2Values
 3
 13
 0
-4
+1
 0
 1
 }
@@ -166151,7 +166151,7 @@ sCharProp2Values
 3
 13
 0
-4
+1
 1
 1
 }
@@ -166160,7 +166160,7 @@ sCharProp2Values
 3
 13
 0
-4
+1
 2
 1
 }
@@ -166169,7 +166169,7 @@ sCharProp2Values
 3
 13
 0
-4
+1
 3
 1
 }
@@ -166178,7 +166178,7 @@ sCharProp2Values
 3
 13
 0
-4
+1
 4
 1
 }
@@ -166187,7 +166187,7 @@ sCharProp2Values
 3
 13
 0
-4
+1
 5
 1
 }
@@ -166196,7 +166196,7 @@ sCharProp2Values
 3
 13
 0
-4
+1
 6
 1
 }
@@ -166205,7 +166205,7 @@ sCharProp2Values
 3
 13
 0
-4
+1
 7
 1
 }
@@ -166214,7 +166214,7 @@ sCharProp2Values
 3
 13
 0
-4
+1
 8
 1
 }
@@ -166223,7 +166223,7 @@ sCharProp2Values
 3
 13
 0
-4
+1
 9
 1
 }
@@ -166232,7 +166232,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -166242,7 +166242,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -166252,7 +166252,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -166262,7 +166262,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -166272,7 +166272,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -167530,7 +167530,7 @@ sCharProp2Values
 3
 12
 17
-4
+1
 -
 1
 1
@@ -167540,7 +167540,7 @@ sCharProp2Values
 3
 10
 0
-4
+1
 -
 1
 1
@@ -167550,7 +167550,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
@@ -167560,7 +167560,7 @@ sCharProp2Values
 3
 7
 0
-4
+1
 -
 1
 1
