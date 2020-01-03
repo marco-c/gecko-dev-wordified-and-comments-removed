@@ -5,8 +5,6 @@ unicode_literals
 import
 collections
 import
-copy
-import
 difflib
 import
 errno

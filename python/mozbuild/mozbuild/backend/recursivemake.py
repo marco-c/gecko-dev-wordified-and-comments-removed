@@ -3,10 +3,6 @@ __future__
 import
 unicode_literals
 import
-errno
-import
-json
-import
 logging
 import
 os

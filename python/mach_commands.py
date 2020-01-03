@@ -17,8 +17,6 @@ as
 mozpath
 import
 os
-import
-sys
 from
 mozbuild
 .
