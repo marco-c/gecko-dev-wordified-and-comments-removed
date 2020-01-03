@@ -1538,7 +1538,7 @@ mInt32
 *
 static_cast
 <
-int32_t
+int8_t
 *
 >
 (
