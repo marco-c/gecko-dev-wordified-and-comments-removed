@@ -37030,6 +37030,15 @@ long
 long
 DOMTimeStamp
 ;
+        
+typedef
+(
+ArrayBufferView
+or
+ArrayBuffer
+)
+BufferSource
+;
     
 "
 "
