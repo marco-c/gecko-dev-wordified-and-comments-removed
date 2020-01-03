@@ -608,7 +608,6 @@ targetContent
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -658,7 +657,6 @@ metrics
 )
 ;
 return
-NS_OK
 ;
 }
 #
