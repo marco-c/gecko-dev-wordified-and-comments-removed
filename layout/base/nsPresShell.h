@@ -3048,12 +3048,6 @@ nsCOMPtr
 <
 nsITimer
 >
-mReflowContinueTimer
-;
-nsCOMPtr
-<
-nsITimer
->
 mDelayedPaintTimer
 ;
 DOMHighResTimeStamp

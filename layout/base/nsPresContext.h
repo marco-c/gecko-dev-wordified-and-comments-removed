@@ -2859,6 +2859,16 @@ mProcessingAnimationStyleChange
 aProcessing
 ;
 }
+bool
+HasPendingRestyleOrReflow
+(
+)
+;
+void
+NotifyFontFaceSetOnRefresh
+(
+)
+;
 void
 ReflowStarted
 (

@@ -6299,6 +6299,16 @@ ErrorResult
 aRv
 )
 ;
+bool
+DidFireDOMContentLoaded
+(
+)
+const
+{
+return
+mDidFireDOMContentLoaded
+;
+}
 private
 :
 uint64_t
