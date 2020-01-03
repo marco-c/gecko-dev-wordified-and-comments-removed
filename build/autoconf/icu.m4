@@ -2055,6 +2055,11 @@ tests
 disable
 -
 samples
+-
+-
+disable
+-
+strict
 "
 AC_OUTPUT_SUBDIRS
 (
