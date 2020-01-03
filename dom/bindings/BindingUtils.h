@@ -10878,6 +10878,12 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+JS
+:
+:
+ObjectOpResult
+&
+result
 bool
 *
 defined

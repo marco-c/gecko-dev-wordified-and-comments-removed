@@ -184,6 +184,9 @@ MutableHandle
 PropertyDescriptor
 >
 desc
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -214,9 +217,6 @@ target
 )
 )
 ;
-ObjectOpResult
-ignored
-;
 return
 StandardDefineProperty
 (
@@ -224,7 +224,7 @@ cx
 target
 id
 desc
-ignored
+result
 )
 ;
 }

@@ -65,6 +65,9 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+ObjectOpResult
+&
+result
 )
 ;
 static

@@ -445,6 +445,12 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE
@@ -459,6 +465,7 @@ cx
 proxy
 id
 desc
+result
 &
 unused
 )
@@ -496,6 +503,12 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+JS
+:
+:
+ObjectOpResult
+&
+result
 bool
 *
 defined

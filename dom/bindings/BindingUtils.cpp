@@ -7324,6 +7324,12 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+JS
+:
+:
+ObjectOpResult
+&
+result
 bool
 *
 defined
@@ -7363,6 +7369,7 @@ cx
 wrapper
 id
 desc
+result
 defined
 )
 ;

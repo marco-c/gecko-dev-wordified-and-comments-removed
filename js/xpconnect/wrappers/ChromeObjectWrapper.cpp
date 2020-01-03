@@ -79,6 +79,12 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -112,6 +118,7 @@ cx
 wrapper
 id
 desc
+result
 )
 ;
 }

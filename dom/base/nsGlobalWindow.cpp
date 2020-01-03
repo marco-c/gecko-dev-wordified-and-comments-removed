@@ -3307,6 +3307,12 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE
@@ -4277,6 +4283,12 @@ MutableHandle
 JSPropertyDescriptor
 >
 desc
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -4298,7 +4310,11 @@ index
 )
 {
 return
-true
+result
+.
+succeed
+(
+)
 ;
 }
 if
@@ -4343,6 +4359,7 @@ cx
 proxy
 id
 desc
+result
 )
 ;
 }

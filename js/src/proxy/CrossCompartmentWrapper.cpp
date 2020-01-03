@@ -230,6 +230,9 @@ MutableHandle
 PropertyDescriptor
 >
 desc
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -271,6 +274,7 @@ wrapper
 id
 &
 desc2
+result
 )
 NOTHING
 )

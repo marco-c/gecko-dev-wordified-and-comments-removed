@@ -326,6 +326,14 @@ exn
 ;
 }
 ;
+struct
+ReturnObjectOpResult
+{
+uint32_t
+code
+;
+}
+;
 union
 ReturnStatus
 {
@@ -334,6 +342,8 @@ ReturnSuccess
 ReturnStopIteration
 ;
 ReturnException
+;
+ReturnObjectOpResult
 ;
 }
 ;

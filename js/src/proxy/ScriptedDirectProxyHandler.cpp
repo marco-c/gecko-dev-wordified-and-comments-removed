@@ -2559,6 +2559,9 @@ MutableHandle
 PropertyDescriptor
 >
 desc
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -2656,6 +2659,7 @@ cx
 proxy
 id
 desc
+result
 )
 ;
 RootedValue
@@ -2743,14 +2747,6 @@ trapResult
 return
 false
 ;
-if
-(
-ToBoolean
-(
-trapResult
-)
-)
-{
 Rooted
 <
 PropertyDescriptor
@@ -2916,9 +2912,12 @@ false
 ;
 }
 }
-}
 return
-true
+result
+.
+succeed
+(
+)
 ;
 }
 bool
