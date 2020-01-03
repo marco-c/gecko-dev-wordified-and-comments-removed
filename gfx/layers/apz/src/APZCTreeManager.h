@@ -754,6 +754,14 @@ aOutInputBlockId
 )
 ;
 void
+UpdateWheelTransaction
+(
+WidgetInputEvent
+&
+aEvent
+)
+;
+void
 UpdateZoomConstraintsRecursively
 (
 HitTestingTreeNode

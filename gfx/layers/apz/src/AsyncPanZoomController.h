@@ -1538,6 +1538,16 @@ mAncestorTransform
 ;
 }
 bool
+Contains
+(
+const
+ScreenIntPoint
+&
+aPoint
+)
+const
+;
+bool
 IsOverscrolled
 (
 )
