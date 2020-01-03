@@ -2545,7 +2545,7 @@ toString
 )
 ;
 }
-Error
+RangeError
 )
 ;
 do_check_throws
@@ -2562,7 +2562,7 @@ toString
 )
 ;
 }
-Error
+RangeError
 )
 ;
 do_check_throws
@@ -2579,7 +2579,7 @@ toString
 )
 ;
 }
-Error
+RangeError
 )
 ;
 do_check_throws
@@ -3904,7 +3904,7 @@ UInt64
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -3924,7 +3924,7 @@ compare
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_eq
@@ -4023,7 +4023,7 @@ UInt64
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -4047,7 +4047,7 @@ UInt64
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -4066,7 +4066,7 @@ lo
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -4085,7 +4085,7 @@ hi
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_eq
@@ -4586,7 +4586,7 @@ toString
 )
 ;
 }
-Error
+RangeError
 )
 ;
 do_check_throws
@@ -4603,7 +4603,7 @@ toString
 )
 ;
 }
-Error
+RangeError
 )
 ;
 do_check_throws
@@ -4620,7 +4620,7 @@ toString
 )
 ;
 }
-Error
+RangeError
 )
 ;
 do_check_throws
@@ -5605,7 +5605,7 @@ Int64
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -5625,7 +5625,7 @@ compare
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_eq
@@ -5721,7 +5721,7 @@ Int64
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -5745,7 +5745,7 @@ Int64
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -5764,7 +5764,7 @@ lo
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -5783,7 +5783,7 @@ hi
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_eq
@@ -12531,7 +12531,7 @@ null
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -12551,7 +12551,7 @@ null
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -15425,7 +15425,7 @@ null
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -15446,7 +15446,7 @@ int32_t
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -15465,7 +15465,7 @@ void
 )
 ;
 }
-Error
+TypeError
 )
 ;
 let
@@ -17122,7 +17122,7 @@ void_t
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -17145,7 +17145,7 @@ null
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -18333,7 +18333,7 @@ null
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -18375,7 +18375,7 @@ int32_t
 )
 ;
 }
-Error
+TypeError
 )
 ;
 let
@@ -19124,7 +19124,7 @@ UInt64
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
