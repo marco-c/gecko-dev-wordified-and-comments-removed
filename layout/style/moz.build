@@ -191,6 +191,11 @@ nsCSSPropList
 h
 '
 '
+nsCSSPropLogicalGroupList
+.
+h
+'
+'
 nsCSSProps
 .
 h

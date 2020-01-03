@@ -799,7 +799,7 @@ flags_
 pref_
 parsevariant_
 kwtable_
-boxshorthand_
+group_
 struct_
 stylestructoffset_
 animtype_
@@ -852,7 +852,7 @@ flags_
 pref_
 parsevariant_
 kwtable_
-boxshorthand_
+group_
 struct_
 stylestructoffset_
 animtype_
@@ -1457,7 +1457,7 @@ flags_
 pref_
 parsevariant_
 kwtable_
-boxshorthand_
+group_
 struct_
 stylestructoffset_
 animtype_
@@ -2209,7 +2209,7 @@ enabled
 "
 VARIANT_HCK
 kBorderColorKTable
-border_color
+BorderColor
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2247,7 +2247,7 @@ enabled
 "
 VARIANT_HK
 kBorderStyleKTable
-border_style
+BorderStyle
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2291,7 +2291,7 @@ VARIANT_HKL
 |
 VARIANT_CALC
 kBorderWidthKTable
-border_width
+BorderWidth
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2327,7 +2327,7 @@ enabled
 "
 VARIANT_HCK
 kBorderColorKTable
-border_color
+BorderColor
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2363,7 +2363,7 @@ enabled
 "
 VARIANT_HK
 kBorderStyleKTable
-border_style
+BorderStyle
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2405,7 +2405,7 @@ VARIANT_HKL
 |
 VARIANT_CALC
 kBorderWidthKTable
-border_width
+BorderWidth
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2698,7 +2698,7 @@ CSS_PROPERTY_LOGICAL_END_EDGE
 "
 VARIANT_HCK
 kBorderColorKTable
-border_color
+BorderColor
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2729,7 +2729,7 @@ CSS_PROPERTY_LOGICAL_END_EDGE
 "
 VARIANT_HK
 kBorderStyleKTable
-border_style
+BorderStyle
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2766,7 +2766,7 @@ VARIANT_HKL
 |
 VARIANT_CALC
 kBorderWidthKTable
-border_width
+BorderWidth
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2812,7 +2812,7 @@ CSS_PROPERTY_LOGICAL
 "
 VARIANT_HCK
 kBorderColorKTable
-border_color
+BorderColor
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2841,7 +2841,7 @@ CSS_PROPERTY_LOGICAL
 "
 VARIANT_HK
 kBorderStyleKTable
-border_style
+BorderStyle
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -2876,7 +2876,7 @@ VARIANT_HKL
 |
 VARIANT_CALC
 kBorderWidthKTable
-border_width
+BorderWidth
 Border
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5277,7 +5277,7 @@ VARIANT_AHLP
 |
 VARIANT_CALC
 nullptr
-margin
+Margin
 Margin
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5319,7 +5319,7 @@ VARIANT_AHLP
 |
 VARIANT_CALC
 nullptr
-margin
+Margin
 Margin
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5385,7 +5385,7 @@ VARIANT_AHLP
 |
 VARIANT_CALC
 nullptr
-margin
+Margin
 Margin
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -5418,7 +5418,7 @@ VARIANT_AHLP
 |
 VARIANT_CALC
 nullptr
-margin
+Margin
 Margin
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6047,7 +6047,7 @@ VARIANT_HLP
 |
 VARIANT_CALC
 nullptr
-padding
+Padding
 Padding
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6091,7 +6091,7 @@ VARIANT_HLP
 |
 VARIANT_CALC
 nullptr
-padding
+Padding
 Padding
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6163,7 +6163,7 @@ VARIANT_HLP
 |
 VARIANT_CALC
 nullptr
-padding
+Padding
 Padding
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
@@ -6200,7 +6200,7 @@ VARIANT_HLP
 |
 VARIANT_CALC
 nullptr
-padding
+Padding
 Padding
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
