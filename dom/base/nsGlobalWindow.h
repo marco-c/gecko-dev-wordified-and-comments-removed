@@ -7193,6 +7193,9 @@ mSpeechSynthesis
 ;
 #
 endif
+uint32_t
+mCanSkipCCGeneration
+;
 friend
 class
 nsDOMScriptableHelper
