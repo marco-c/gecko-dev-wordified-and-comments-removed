@@ -189,6 +189,7 @@ aStops
 void
 CacheColorStops
 (
+const
 mozilla
 :
 :

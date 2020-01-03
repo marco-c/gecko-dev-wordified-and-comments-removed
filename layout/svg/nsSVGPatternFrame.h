@@ -133,6 +133,10 @@ nsIFrame
 *
 aSource
 const
+DrawTarget
+*
+aDrawTarget
+const
 gfxMatrix
 &
 aContextMatrix
@@ -385,6 +389,10 @@ SourceSurface
 >
 PaintPattern
 (
+const
+DrawTarget
+*
+aDrawTarget
 Matrix
 *
 patternMatrix

@@ -8638,6 +8638,10 @@ SVGTextContextPaint
 :
 GetFillPattern
 (
+const
+DrawTarget
+*
+aDrawTarget
 float
 aOpacity
 const
@@ -8651,6 +8655,7 @@ mFillPaint
 .
 GetPattern
 (
+aDrawTarget
 aOpacity
 &
 nsStyleSVG
@@ -8670,6 +8675,10 @@ SVGTextContextPaint
 :
 GetStrokePattern
 (
+const
+DrawTarget
+*
+aDrawTarget
 float
 aOpacity
 const
@@ -8683,6 +8692,7 @@ mStrokePaint
 .
 GetPattern
 (
+aDrawTarget
 aOpacity
 &
 nsStyleSVG
@@ -8705,6 +8715,10 @@ Paint
 :
 GetPattern
 (
+const
+DrawTarget
+*
+aDrawTarget
 float
 aOpacity
 nsStyleSVGPaint
@@ -8871,6 +8885,7 @@ mPaintServerFrame
 GetPaintServerPattern
 (
 mFrame
+aDrawTarget
 mContextMatrix
 aFillOrStroke
 aOpacity
@@ -8937,6 +8952,7 @@ mContextPaint
 >
 GetFillPattern
 (
+aDrawTarget
 aOpacity
 aCTM
 )
@@ -8960,6 +8976,7 @@ mContextPaint
 >
 GetStrokePattern
 (
+aDrawTarget
 aOpacity
 aCTM
 )
@@ -11290,6 +11307,12 @@ drawMode
 =
 SetupContextPaint
 (
+gfx
+-
+>
+GetDrawTarget
+(
+)
 gfx
 -
 >
@@ -20456,6 +20479,10 @@ void
 SetupInheritablePaint
 (
 const
+DrawTarget
+*
+aDrawTarget
+const
 gfxMatrix
 &
 aContextMatrix
@@ -20536,6 +20563,7 @@ ps
 GetPaintServerPattern
 (
 aFrame
+aDrawTarget
 aContextMatrix
 aFillOrStroke
 aOpacity
@@ -20593,6 +20621,7 @@ aOuterContextPaint
 >
 GetFillPattern
 (
+aDrawTarget
 aOpacity
 aContextMatrix
 )
@@ -20609,6 +20638,7 @@ aOuterContextPaint
 >
 GetStrokePattern
 (
+aDrawTarget
 aOpacity
 aContextMatrix
 )
@@ -20675,6 +20705,10 @@ SVGTextFrame
 :
 SetupContextPaint
 (
+const
+DrawTarget
+*
+aDrawTarget
 const
 gfxMatrix
 &
@@ -20757,6 +20791,7 @@ aOuterContextPaint
 ;
 SetupInheritablePaint
 (
+aDrawTarget
 aContextMatrix
 aFrame
 opacity
@@ -20852,6 +20887,7 @@ aOuterContextPaint
 ;
 SetupInheritablePaint
 (
+aDrawTarget
 aContextMatrix
 aFrame
 opacity

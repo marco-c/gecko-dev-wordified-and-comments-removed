@@ -881,6 +881,10 @@ nsIFrame
 *
 aSource
 const
+DrawTarget
+*
+aDrawTarget
+const
 gfxMatrix
 &
 aContextMatrix

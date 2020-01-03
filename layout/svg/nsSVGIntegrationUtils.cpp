@@ -2983,6 +2983,10 @@ gfxIntSize
 &
 aRenderSize
 const
+DrawTarget
+*
+aDrawTarget
+const
 gfxMatrix
 &
 aContextMatrix
@@ -3059,6 +3063,7 @@ server
 GetPaintServerPattern
 (
 aTarget
+aDrawTarget
 aContextMatrix
 &
 nsStyleSVG

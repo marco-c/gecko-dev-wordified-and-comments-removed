@@ -391,6 +391,7 @@ gfxPattern
 :
 CacheColorStops
 (
+const
 DrawTarget
 *
 aDT

@@ -22342,6 +22342,11 @@ mSize
 imageSize
 aRenderingContext
 .
+GetDrawTarget
+(
+)
+aRenderingContext
+.
 ThebesContext
 (
 )
