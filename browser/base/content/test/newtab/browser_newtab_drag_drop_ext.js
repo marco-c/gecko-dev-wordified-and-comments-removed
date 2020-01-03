@@ -156,7 +156,7 @@ PREF_NEWTAB_COLUMNS
 yield
 simulateExternalDrop
 (
-7
+5
 )
 ;
 checkGrid
@@ -167,9 +167,9 @@ checkGrid
 2
 3
 4
+99p
 5
 7p
-99p
 8p
 "
 )
@@ -220,7 +220,7 @@ checkGrid
 yield
 simulateExternalDrop
 (
-7
+5
 )
 ;
 checkGrid
@@ -231,9 +231,9 @@ checkGrid
 2
 3
 4
+99p
 5
 6
-99p
 8p
 "
 )

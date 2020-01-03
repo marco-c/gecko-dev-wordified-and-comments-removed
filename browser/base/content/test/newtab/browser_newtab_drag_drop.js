@@ -321,7 +321,7 @@ yield
 simulateDrop
 (
 2
-8
+5
 )
 ;
 checkGrid
@@ -332,10 +332,10 @@ checkGrid
 3
 4
 5
+2p
 6
 7p
 8p
-2p
 "
 )
 ;
