@@ -165,11 +165,6 @@ join
 "
 0
 lastIndex
-source
-global
-ignoreCase
-multiline
-sticky
 "
 )
 ;

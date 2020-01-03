@@ -2,6 +2,9 @@ function
 testRegExp
 (
 b
+c
+=
+b
 )
 {
 var
@@ -84,7 +87,7 @@ assertEq
 a
 .
 source
-b
+c
 .
 source
 )
@@ -94,7 +97,7 @@ assertEq
 a
 .
 global
-b
+c
 .
 global
 )
@@ -104,7 +107,7 @@ assertEq
 a
 .
 ignoreCase
-b
+c
 .
 ignoreCase
 )
@@ -114,7 +117,7 @@ assertEq
 a
 .
 multiline
-b
+c
 .
 multiline
 )
@@ -124,7 +127,7 @@ assertEq
 a
 .
 sticky
-b
+c
 .
 sticky
 )
@@ -210,6 +213,13 @@ __proto__
 testRegExp
 (
 re
+/
+\
+bx
+\
+b
+/
+gi
 )
 ;
 reportCompare

@@ -28,12 +28,6 @@ x
 "
 )
 ;
-assertThrowsInstanceOf
-(
-function
-(
-)
-{
 Object
 .
 defineProperty
@@ -47,12 +41,6 @@ value
 :
 undefined
 }
-)
-;
-}
-g
-.
-TypeError
 )
 ;
 a
