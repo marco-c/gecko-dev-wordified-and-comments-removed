@@ -92,6 +92,11 @@ WEBRTC
 ViEREnderer
 "
 ;
+private
+static
+SurfaceHolder
+g_localRenderer
+;
 public
 static
 SurfaceView
