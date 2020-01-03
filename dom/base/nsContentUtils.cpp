@@ -29148,6 +29148,12 @@ cx
 (
 )
 ;
+jsapi
+.
+TakeOwnershipOfErrorReporting
+(
+)
+;
 JSAutoCompartment
 ac
 (
@@ -29226,11 +29232,6 @@ if
 re
 )
 {
-JS_ClearPendingException
-(
-cx
-)
-;
 return
 true
 ;
@@ -29293,11 +29294,6 @@ rval
 )
 )
 {
-JS_ClearPendingException
-(
-cx
-)
-;
 return
 true
 ;
