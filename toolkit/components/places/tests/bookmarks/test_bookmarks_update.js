@@ -856,7 +856,7 @@ PlacesUtils
 .
 bookmarks
 .
-insert
+update
 (
 {
 title
@@ -888,12 +888,13 @@ PlacesUtils
 .
 bookmarks
 .
-insert
+update
 (
 {
 title
 :
-undefined
+{
+}
 }
 )
 /
