@@ -2106,12 +2106,9 @@ protection
 <
 !
 ENTITY
-pref_tracking_protection_summary2
+pref_tracking_protection_summary3
 "
-Actively
-block
-tracking
-elements
+Enabled
 in
 Private
 Browsing
