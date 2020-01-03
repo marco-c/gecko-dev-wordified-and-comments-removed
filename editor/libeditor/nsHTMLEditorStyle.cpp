@@ -2207,7 +2207,9 @@ res
 =
 JoinNodes
 (
+*
 previousSibling
+*
 nextSibling
 )
 ;

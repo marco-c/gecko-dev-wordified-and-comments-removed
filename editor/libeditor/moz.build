@@ -186,7 +186,7 @@ InsertTextTxn
 cpp
 '
 '
-JoinElementTxn
+JoinNodeTxn
 .
 cpp
 '
