@@ -221,6 +221,13 @@ h
 #
 include
 "
+NSSCertDBTrustDomain
+.
+h
+"
+#
+include
+"
 NSSErrorsService
 .
 h
