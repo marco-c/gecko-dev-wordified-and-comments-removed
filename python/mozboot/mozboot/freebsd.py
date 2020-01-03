@@ -17,6 +17,9 @@ __init__
 self
 version
 flavor
+*
+*
+kwargs
 )
 :
         
@@ -25,6 +28,9 @@ BaseBootstrapper
 __init__
 (
 self
+*
+*
+kwargs
 )
         
 self

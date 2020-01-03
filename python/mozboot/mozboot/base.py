@@ -540,6 +540,9 @@ def
 __init__
 (
 self
+no_interactive
+=
+False
 )
 :
         
@@ -548,6 +551,12 @@ self
 package_manager_updated
 =
 False
+        
+self
+.
+no_interactive
+=
+no_interactive
     
 def
 install_system_packages
@@ -1076,6 +1085,22 @@ install
 '
 ]
         
+if
+self
+.
+no_interactive
+:
+            
+command
+.
+append
+(
+'
+-
+y
+'
+)
+        
 command
 .
 extend
@@ -1144,6 +1169,22 @@ update
 '
 ]
         
+if
+self
+.
+no_interactive
+:
+            
+command
+.
+append
+(
+'
+-
+y
+'
+)
+        
 command
 .
 extend
@@ -1180,6 +1221,22 @@ install
 '
 ]
         
+if
+self
+.
+no_interactive
+:
+            
+command
+.
+append
+(
+'
+-
+y
+'
+)
+        
 command
 .
 extend
@@ -1213,6 +1270,22 @@ get
 update
 '
 ]
+        
+if
+self
+.
+no_interactive
+:
+            
+command
+.
+append
+(
+'
+-
+y
+'
+)
         
 self
 .

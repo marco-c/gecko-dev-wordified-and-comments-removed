@@ -253,6 +253,9 @@ __init__
 self
 version
 dist_id
+*
+*
+kwargs
 )
 :
         
@@ -261,6 +264,9 @@ BaseBootstrapper
 __init__
 (
 self
+*
+*
+kwargs
 )
         
 self
@@ -378,18 +384,8 @@ i386
         
 self
 .
-run_as_root
+apt_update
 (
-[
-'
-apt
--
-get
-'
-'
-update
-'
-]
 )
         
 self
@@ -724,16 +720,6 @@ self
         
 self
 .
-run_as_root
+apt_update
 (
-[
-'
-apt
--
-get
-'
-'
-update
-'
-]
 )
