@@ -7,6 +7,7 @@ key
 var
 wm
 =
+new
 WeakMap
 (
 )

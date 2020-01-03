@@ -323,6 +323,7 @@ key
 var
 map
 =
+new
 WeakMap
 (
 )
