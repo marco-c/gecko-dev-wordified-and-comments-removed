@@ -98,6 +98,7 @@ ConnectionData
 ;
 class
 Dashboard
+final
 :
 public
 nsIDashboard

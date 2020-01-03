@@ -847,6 +847,7 @@ forget
 }
 class
 DialogValueHolder
+final
 :
 public
 nsISupports

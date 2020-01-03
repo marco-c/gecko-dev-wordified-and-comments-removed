@@ -85,6 +85,7 @@ dom
 {
 class
 TableRowsCollection
+final
 :
 public
 nsIHTMLCollection

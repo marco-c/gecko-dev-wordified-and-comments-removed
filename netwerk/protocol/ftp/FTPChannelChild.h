@@ -97,6 +97,7 @@ net
 {
 class
 FTPChannelChild
+final
 :
 public
 PFTPChannelChild

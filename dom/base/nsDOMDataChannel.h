@@ -86,6 +86,7 @@ DataChannel
 ;
 class
 nsDOMDataChannel
+final
 :
 public
 mozilla

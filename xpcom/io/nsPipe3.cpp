@@ -415,6 +415,7 @@ mNeedDrain
 ;
 class
 nsPipeInputStream
+final
 :
 public
 nsIAsyncInputStream

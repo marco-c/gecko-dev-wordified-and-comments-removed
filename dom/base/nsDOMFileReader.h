@@ -124,6 +124,7 @@ File
 }
 class
 nsDOMFileReader
+final
 :
 public
 mozilla

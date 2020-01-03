@@ -56,6 +56,7 @@ net
 {
 class
 TLSServerSocket
+final
 :
 public
 nsServerSocket

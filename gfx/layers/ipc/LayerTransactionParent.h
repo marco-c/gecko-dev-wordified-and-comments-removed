@@ -107,6 +107,7 @@ ShadowLayersManager
 ;
 class
 LayerTransactionParent
+final
 :
 public
 PLayerTransactionParent

@@ -62,6 +62,7 @@ h
 "
 class
 nsAboutCache
+final
 :
 public
 nsIAboutModule

@@ -121,6 +121,7 @@ HttpRetParams
 ;
 class
 nsHttpConnectionMgr
+final
 :
 public
 nsIObserver

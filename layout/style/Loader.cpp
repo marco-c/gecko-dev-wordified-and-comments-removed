@@ -335,6 +335,7 @@ css
 {
 class
 SheetLoadData
+final
 :
 public
 nsIRunnable

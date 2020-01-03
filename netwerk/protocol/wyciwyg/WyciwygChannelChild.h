@@ -70,6 +70,7 @@ WCC_ONCLOSED
 ;
 class
 WyciwygChannelChild
+final
 :
 public
 PWyciwygChannelChild

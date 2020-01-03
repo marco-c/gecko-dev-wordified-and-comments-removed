@@ -133,6 +133,7 @@ HttpChannelParentListener
 ;
 class
 HttpChannelParent
+final
 :
 public
 PHttpChannelParent

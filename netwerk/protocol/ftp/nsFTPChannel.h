@@ -72,6 +72,7 @@ nsIURI
 ;
 class
 nsFtpChannel
+final
 :
 public
 nsBaseChannel

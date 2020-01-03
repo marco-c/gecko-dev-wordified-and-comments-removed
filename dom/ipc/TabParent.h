@@ -206,6 +206,7 @@ StructuredCloneData
 ;
 class
 TabParent
+final
 :
 public
 PBrowserParent

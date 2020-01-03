@@ -62,6 +62,7 @@ kACEPrefixLen
 4
 class
 nsIDNService
+final
 :
 public
 nsIIDNService

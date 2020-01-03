@@ -159,6 +159,7 @@ TabChild
 ;
 class
 ContentChild
+final
 :
 public
 PContentChild

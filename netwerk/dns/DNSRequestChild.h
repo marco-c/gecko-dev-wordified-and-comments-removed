@@ -51,6 +51,7 @@ net
 {
 class
 DNSRequestChild
+final
 :
 public
 PDNSRequestChild

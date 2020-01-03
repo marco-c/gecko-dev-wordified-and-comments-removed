@@ -288,6 +288,7 @@ mKey
 ;
 class
 nsDOMAttributeMap
+final
 :
 public
 nsIDOMMozNamedAttrMap

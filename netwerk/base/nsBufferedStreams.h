@@ -228,6 +228,7 @@ NS_OK
 ;
 class
 nsBufferedOutputStream
+final
 :
 public
 nsBufferedStream

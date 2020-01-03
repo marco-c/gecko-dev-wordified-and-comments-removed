@@ -92,6 +92,7 @@ ShadowRootStyleSheetList
 ;
 class
 ShadowRoot
+final
 :
 public
 DocumentFragment

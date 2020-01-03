@@ -614,6 +614,7 @@ mWeakRef
 ;
 class
 nsPrefBranch
+final
 :
 public
 nsIPrefBranchInternal
@@ -834,6 +835,7 @@ mObservers
 ;
 class
 nsPrefLocalizedString
+final
 :
 public
 nsIPrefLocalizedString

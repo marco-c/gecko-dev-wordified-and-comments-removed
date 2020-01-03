@@ -39,6 +39,7 @@ HttpChannelParent
 ;
 class
 HttpChannelParentListener
+final
 :
 public
 nsIInterfaceRequestor
