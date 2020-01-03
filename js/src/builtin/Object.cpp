@@ -4318,7 +4318,7 @@ false
 ;
 Rooted
 <
-PropDesc
+PropertyDescriptor
 >
 desc
 (
@@ -4328,9 +4328,7 @@ cx
 if
 (
 !
-desc
-.
-initialize
+ToPropertyDescriptor
 (
 cx
 args
@@ -4339,6 +4337,9 @@ get
 (
 2
 )
+true
+&
+desc
 )
 )
 return
