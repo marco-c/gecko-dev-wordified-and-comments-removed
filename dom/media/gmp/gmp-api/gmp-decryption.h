@@ -502,6 +502,9 @@ kGMPTemporySession
 kGMPPersistentSession
 =
 1
+kGMPSessionInvalid
+=
+2
 }
 ;
 class

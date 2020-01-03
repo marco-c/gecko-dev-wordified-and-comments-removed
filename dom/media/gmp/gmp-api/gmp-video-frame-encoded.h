@@ -60,6 +60,9 @@ kGMPAltRefFrame
 kGMPSkipFrame
 =
 4
+kGMPVideoFrameInvalid
+=
+5
 }
 ;
 class

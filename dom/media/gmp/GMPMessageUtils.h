@@ -145,7 +145,7 @@ ContiguousEnumSerializer
 <
 GMPVideoFrameType
 kGMPKeyFrame
-kGMPSkipFrame
+kGMPVideoFrameInvalid
 >
 {
 }
@@ -182,7 +182,7 @@ ContiguousEnumSerializer
 <
 GMPSessionType
 kGMPTemporySession
-kGMPPersistentSession
+kGMPSessionInvalid
 >
 {
 }
