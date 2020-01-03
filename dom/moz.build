@@ -528,6 +528,9 @@ downloads
 '
 mobileid
 '
+'
+engineeringmode
+'
 ]
 if
 CONFIG
