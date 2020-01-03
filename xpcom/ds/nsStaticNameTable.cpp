@@ -427,12 +427,6 @@ MOZ_COUNT_CTOR
 nsStaticCaseInsensitiveNameTable
 )
 ;
-mNameTable
-.
-ops
-=
-nullptr
-;
 }
 nsStaticCaseInsensitiveNameTable
 :
@@ -618,12 +612,6 @@ aLength
 )
 )
 {
-mNameTable
-.
-ops
-=
-nullptr
-;
 return
 false
 ;

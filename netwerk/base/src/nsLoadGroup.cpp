@@ -537,12 +537,6 @@ this
 )
 )
 ;
-mRequests
-.
-ops
-=
-nullptr
-;
 }
 nsLoadGroup
 :

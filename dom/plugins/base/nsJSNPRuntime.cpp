@@ -1736,12 +1736,6 @@ PL_DHashTableFinish
 sNPObjWrappers
 )
 ;
-sNPObjWrappers
-.
-ops
-=
-nullptr
-;
 }
 static
 void

@@ -845,10 +845,6 @@ return
 false
 ;
 }
-ops
-=
-aOps
-;
 uint32_t
 capacity
 =
@@ -972,6 +968,10 @@ mStats
 )
 )
 )
+;
+ops
+=
+aOps
 ;
 #
 ifdef
@@ -1379,6 +1379,10 @@ entryAddr
 mEntrySize
 ;
 }
+ops
+=
+nullptr
+;
 DECREMENT_RECURSION_LEVEL
 (
 this

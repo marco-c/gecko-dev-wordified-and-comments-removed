@@ -426,12 +426,6 @@ NUM_HTTP_ATOMS
 )
 )
 {
-sAtomTable
-.
-ops
-=
-nullptr
-;
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
@@ -566,12 +560,6 @@ PL_DHashTableFinish
 &
 sAtomTable
 )
-;
-sAtomTable
-.
-ops
-=
-nullptr
 ;
 }
 while

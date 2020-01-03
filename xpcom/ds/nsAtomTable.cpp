@@ -1346,12 +1346,6 @@ PL_DHashTableFinish
 gAtomTable
 )
 ;
-gAtomTable
-.
-ops
-=
-nullptr
-;
 }
 }
 AtomImpl

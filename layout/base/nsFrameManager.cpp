@@ -815,12 +815,6 @@ PL_DHashTableFinish
 mPlaceholderMap
 )
 ;
-mPlaceholderMap
-.
-ops
-=
-nullptr
-;
 }
 }
 nsStyleContext
