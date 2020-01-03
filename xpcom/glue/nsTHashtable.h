@@ -225,7 +225,7 @@ EntryType
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 const_cast
 <
@@ -243,7 +243,6 @@ KeyToPointer
 (
 aKey
 )
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -355,7 +354,7 @@ EntryType
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 mTable
@@ -366,7 +365,6 @@ KeyToPointer
 (
 aKey
 )
-PL_DHASH_ADD
 )
 )
 ;
@@ -393,7 +391,7 @@ properly
 "
 )
 ;
-PL_DHashTableOperate
+PL_DHashTableRemove
 (
 &
 mTable
@@ -404,7 +402,6 @@ KeyToPointer
 (
 aKey
 )
-PL_DHASH_REMOVE
 )
 ;
 }

@@ -1906,7 +1906,7 @@ PropertyTableEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableAdd
 (
 &
 mTable
@@ -1915,7 +1915,6 @@ flatKey
 get
 (
 )
-PL_DHASH_ADD
 )
 )
 ;
@@ -2080,7 +2079,7 @@ PropertyTableEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 mTable
@@ -2089,7 +2088,6 @@ flatKey
 get
 (
 )
-PL_DHASH_LOOKUP
 )
 )
 ;
@@ -2352,12 +2350,11 @@ PropertyTableEntry
 *
 >
 (
-PL_DHashTableOperate
+PL_DHashTableLookup
 (
 &
 mTable
 aProp
-PL_DHASH_LOOKUP
 )
 )
 ;
