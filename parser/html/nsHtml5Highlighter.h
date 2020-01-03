@@ -345,6 +345,9 @@ nsHtml5UTF16Buffer
 *
 mBuffer
 ;
+bool
+mSyntaxHighlight
+;
 nsTArray
 <
 nsHtml5TreeOperation
