@@ -280,9 +280,15 @@ endif
 ifeq
 (
 (
+filter
+-
+out
+ppc64
+ppc64le
+(
 OS_TEST
 )
-ppc64
+)
 )
 CPU_ARCH
 =
