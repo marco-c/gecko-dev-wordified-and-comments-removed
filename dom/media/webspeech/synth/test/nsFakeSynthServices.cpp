@@ -421,6 +421,7 @@ NS_IMETHOD
 OnPause
 (
 )
+override
 {
 if
 (
@@ -447,6 +448,7 @@ NS_IMETHOD
 OnResume
 (
 )
+override
 {
 if
 (
@@ -473,6 +475,7 @@ NS_IMETHOD
 OnCancel
 (
 )
+override
 {
 if
 (
