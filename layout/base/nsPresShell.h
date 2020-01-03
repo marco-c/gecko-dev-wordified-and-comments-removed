@@ -2949,8 +2949,6 @@ mUpdateImageVisibilityEvent
 void
 ClearVisibleImagesList
 (
-uint32_t
-aNonvisibleAction
 )
 ;
 static
