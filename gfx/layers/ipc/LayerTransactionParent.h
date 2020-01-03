@@ -760,9 +760,8 @@ mIPCOpen
 =
 true
 ;
-ADDREF_MANUALLY
+AddRef
 (
-this
 )
 ;
 }
@@ -783,9 +782,8 @@ mIPCOpen
 =
 false
 ;
-RELEASE_MANUALLY
+Release
 (
-this
 )
 ;
 }

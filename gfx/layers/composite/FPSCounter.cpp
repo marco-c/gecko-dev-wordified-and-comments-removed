@@ -156,6 +156,13 @@ mozilla
 :
 gfx
 ;
+using
+namespace
+mozilla
+:
+:
+gl
+;
 FPSCounter
 :
 :
