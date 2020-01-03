@@ -4709,6 +4709,14 @@ self
 .
 marionette
 .
+clear_imported_scripts
+(
+)
+           
+self
+.
+marionette
+.
 execute_script
 (
 "

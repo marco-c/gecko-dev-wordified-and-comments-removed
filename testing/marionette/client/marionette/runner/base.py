@@ -3952,6 +3952,10 @@ textrunnerclass
 =
 MarionetteTextTestRunner
     
+driverclass
+=
+Marionette
+    
 def
 __init__
 (
@@ -5335,7 +5339,9 @@ self
 .
 marionette
 =
-Marionette
+self
+.
+driverclass
 (
 *
 *
