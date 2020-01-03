@@ -321,6 +321,13 @@ function
 )
 {
 }
+copyString
+:
+function
+(
+)
+{
+}
 contacts
 :
 {
