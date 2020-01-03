@@ -7409,10 +7409,7 @@ VMFunction
 :
 RootPropertyName
 :
-gc
-:
-:
-MarkStringRoot
+TraceRoot
 (
 trc
 reinterpret_cast
@@ -7671,10 +7668,7 @@ VMFunction
 :
 RootPropertyName
 :
-gc
-:
-:
-MarkStringRoot
+TraceRoot
 (
 trc
 footer

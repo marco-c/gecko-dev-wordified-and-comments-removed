@@ -2804,7 +2804,7 @@ if
 (
 source
 )
-MarkString
+TraceEdge
 (
 trc
 &
@@ -4530,7 +4530,7 @@ marked
 )
 &
 &
-IsStringMarked
+IsMarked
 (
 &
 shared

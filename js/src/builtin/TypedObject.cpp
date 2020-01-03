@@ -15277,10 +15277,7 @@ if
 *
 stringPtr
 )
-gc
-:
-:
-MarkString
+TraceEdge
 (
 trace_
 stringPtr

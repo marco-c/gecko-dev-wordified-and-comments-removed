@@ -101,7 +101,7 @@ i
 +
 +
 )
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -1949,7 +1949,7 @@ data
 list
 )
 ;
-MarkString
+TraceEdge
 (
 trc
 heap

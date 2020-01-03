@@ -713,7 +713,7 @@ i
 +
 +
 )
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -819,7 +819,7 @@ if
 (
 globalArgumentName_
 )
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -838,7 +838,7 @@ if
 (
 importArgumentName_
 )
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -857,7 +857,7 @@ if
 (
 bufferArgumentName_
 )
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

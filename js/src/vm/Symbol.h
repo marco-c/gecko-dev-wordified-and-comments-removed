@@ -266,10 +266,7 @@ description_
 js
 :
 :
-gc
-:
-:
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

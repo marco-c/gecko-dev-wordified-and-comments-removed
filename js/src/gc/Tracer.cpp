@@ -232,7 +232,7 @@ char
 name
 )
 {
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 strp
@@ -407,7 +407,7 @@ char
 name
 )
 {
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 strp

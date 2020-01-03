@@ -486,7 +486,7 @@ if
 (
 matchesInput
 )
-MarkString
+TraceEdge
 (
 trc
 &
@@ -503,7 +503,7 @@ if
 (
 lazySource
 )
-MarkString
+TraceEdge
 (
 trc
 &
@@ -520,7 +520,7 @@ if
 (
 pendingInput
 )
-MarkString
+TraceEdge
 (
 trc
 &
@@ -806,7 +806,7 @@ statics
 matchesInput
 )
 {
-MarkStringRoot
+TraceRoot
 (
 trc
 reinterpret_cast
@@ -835,7 +835,7 @@ statics
 lazySource
 )
 {
-MarkStringRoot
+TraceRoot
 (
 trc
 reinterpret_cast
@@ -864,7 +864,7 @@ statics
 pendingInput
 )
 {
-MarkStringRoot
+TraceRoot
 (
 trc
 reinterpret_cast

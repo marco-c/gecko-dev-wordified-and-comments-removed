@@ -3451,7 +3451,7 @@ if
 (
 atom_
 )
-MarkString
+TraceEdge
 (
 trc
 &

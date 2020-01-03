@@ -1709,7 +1709,7 @@ name
 (
 )
 ;
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -19623,7 +19623,7 @@ atoms
 i
 ]
 )
-MarkString
+TraceEdge
 (
 trc
 &
@@ -19982,7 +19982,7 @@ atom
 (
 )
 ;
-MarkStringUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
