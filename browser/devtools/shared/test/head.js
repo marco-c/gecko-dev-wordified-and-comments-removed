@@ -1291,10 +1291,10 @@ require
 "
 devtools
 /
-toolkit
-/
 performance
 /
+recording
+-
 utils
 "
 )

@@ -163,8 +163,9 @@ finish
 function
 handler
 (
+_
 name
-data
+_markers
 )
 {
 if
@@ -181,9 +182,7 @@ markers
 return
 ;
 }
-data
-.
-markers
+_markers
 .
 forEach
 (

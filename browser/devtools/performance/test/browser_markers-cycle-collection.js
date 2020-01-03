@@ -45,8 +45,9 @@ const
 handler
 =
 (
+_
 name
-data
+markers
 )
 =
 >
@@ -65,13 +66,6 @@ markers
 return
 ;
 }
-let
-markers
-=
-data
-.
-markers
-;
 info
 (
 "
@@ -181,9 +175,6 @@ initBackend
 TEST_URL
 )
 ;
-let
-rec
-=
 yield
 front
 .
@@ -245,7 +236,6 @@ front
 .
 stopRecording
 (
-rec
 )
 ;
 yield

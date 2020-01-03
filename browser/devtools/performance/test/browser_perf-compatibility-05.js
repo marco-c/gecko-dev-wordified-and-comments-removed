@@ -18,13 +18,6 @@ yield
 initPerformance
 (
 SIMPLE_URL
-void
-0
-{
-TEST_PERFORMANCE_LEGACY_FRONT
-:
-true
-}
 )
 ;
 let
