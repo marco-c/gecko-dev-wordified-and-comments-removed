@@ -103,6 +103,9 @@ SystemAllocPolicy
 >
 ZoneVector
 ;
+struct
+FinalizePhase
+;
 class
 MarkingValidator
 ;
@@ -2840,7 +2843,7 @@ Zone
 *
 currentZoneGroup
 ;
-int
+unsigned
 finalizePhase
 ;
 JS
@@ -2850,7 +2853,7 @@ Zone
 *
 sweepZone
 ;
-int
+unsigned
 sweepKindIndex
 ;
 bool
