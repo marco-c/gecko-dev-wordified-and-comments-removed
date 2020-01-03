@@ -281,13 +281,6 @@ h
 #
 include
 "
-nsDOMBlobBuilder
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

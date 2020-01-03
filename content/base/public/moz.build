@@ -382,6 +382,11 @@ dom
 =
 [
 '
+BlobSet
+.
+h
+'
+'
 DirectionalityUtils
 .
 h

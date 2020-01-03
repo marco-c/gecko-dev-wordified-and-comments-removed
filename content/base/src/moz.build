@@ -586,6 +586,11 @@ Link
 cpp
 '
 '
+MultipartFileImpl
+.
+cpp
+'
+'
 NodeIterator
 .
 cpp
@@ -687,11 +692,6 @@ cpp
 '
 '
 nsDOMAttributeMap
-.
-cpp
-'
-'
-nsDOMBlobBuilder
 .
 cpp
 '

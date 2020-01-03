@@ -207,9 +207,6 @@ class
 AsyncVerifyRedirectCallbackForwarder
 ;
 class
-BlobSet
-;
-class
 nsFormData
 ;
 class
@@ -230,6 +227,9 @@ mozilla
 namespace
 dom
 {
+class
+BlobSet
+;
 class
 File
 ;
@@ -2522,6 +2522,12 @@ mDOMFile
 ;
 nsAutoPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 BlobSet
 >
 mBlobSet
