@@ -7207,12 +7207,6 @@ writeBarrierPre
 lazy
 )
 ;
-AutoSuppressGC
-suppressGC
-(
-cx
-)
-;
 RootedScript
 script
 (
