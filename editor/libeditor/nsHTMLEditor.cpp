@@ -14205,7 +14205,7 @@ aLength
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditor
 :
 :
@@ -14217,14 +14217,14 @@ nsAString
 aStringToInsert
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 *
 aInOutNode
 int32_t
 *
 aInOutOffset
-nsIDOMDocument
+nsIDocument
 *
 aDoc
 )

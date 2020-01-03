@@ -546,7 +546,8 @@ nsINode
 aNode
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 InsertTextImpl
 (
 const
@@ -555,14 +556,14 @@ nsAString
 aStringToInsert
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 *
 aInOutNode
 int32_t
 *
 aInOutOffset
-nsIDOMDocument
+nsIDocument
 *
 aDoc
 )
