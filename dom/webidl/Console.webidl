@@ -182,6 +182,16 @@ data
 )
 ;
 void
+table
+(
+any
+.
+.
+.
+data
+)
+;
+void
 trace
 (
 )
