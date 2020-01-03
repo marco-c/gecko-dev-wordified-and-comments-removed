@@ -46659,6 +46659,7 @@ minimum
 required
 javac
 version
+>
 =
 1
 .
@@ -46800,7 +46801,7 @@ o
 _javac_minor_version
 "
 -
-ne
+lt
 "
 7
 "
@@ -46815,6 +46816,8 @@ javac
 1
 .
 7
+or
+higher
 is
 required
 .
