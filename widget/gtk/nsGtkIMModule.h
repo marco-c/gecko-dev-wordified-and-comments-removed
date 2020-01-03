@@ -622,11 +622,6 @@ GetContext
 )
 ;
 bool
-IsEditable
-(
-)
-;
-bool
 IsDestroyed
 (
 )
