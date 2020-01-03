@@ -1127,8 +1127,14 @@ loadGroupNotificationCallbacks
 this
 .
 loadGroup
+?
+this
+.
+loadGroup
 .
 notificationCallbacks
+:
+null
 }
 )
 ;
