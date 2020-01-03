@@ -2903,6 +2903,13 @@ bool
 aIsPrinterFont
 )
 {
+FcConfigSubstitute
+(
+nullptr
+aPattern
+FcMatchPattern
+)
+;
 if
 (
 aIsPrinterFont
