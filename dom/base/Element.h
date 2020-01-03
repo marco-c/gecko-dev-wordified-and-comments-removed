@@ -59,6 +59,13 @@ h
 #
 include
 "
+nsINodeList
+.
+h
+"
+#
+include
+"
 nsNodeUtils
 .
 h
