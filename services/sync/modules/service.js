@@ -7556,6 +7556,10 @@ if
 (
 !
 cryptoWrapper
+|
+|
+!
+cryptoWrapper
 .
 payload
 )
