@@ -39,6 +39,9 @@ browser
 /
 devtools
 /
+"
++
+"
 webconsole
 /
 test
@@ -200,6 +203,7 @@ true
 ;
 }
 }
+;
 EventUtils
 .
 synthesizeMouseAtCenter

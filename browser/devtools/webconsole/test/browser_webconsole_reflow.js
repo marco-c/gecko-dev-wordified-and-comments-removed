@@ -22,6 +22,9 @@ Web
 Console
 test
 for
+"
++
+"
 reflow
 activity
 "
@@ -58,8 +61,6 @@ openConsole
 function
 onReflowListenersReady
 (
-aType
-aPacket
 )
 {
 browser
@@ -156,6 +157,7 @@ SEVERITY_LOG
 ]
 }
 )
+;
 }
 )
 ;

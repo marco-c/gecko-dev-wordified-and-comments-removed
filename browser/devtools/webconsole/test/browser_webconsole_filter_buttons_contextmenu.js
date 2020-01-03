@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -40,6 +45,7 @@ testFilterButtons
 ;
 }
 )
+;
 }
 function
 testFilterButtons
@@ -323,7 +329,6 @@ changed
 )
 ;
 }
-;
 function
 verifyNewCheckedState
 (
@@ -368,7 +373,6 @@ changed
 )
 ;
 }
-;
 function
 leftClickToClose
 (

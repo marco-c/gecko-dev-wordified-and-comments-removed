@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -15,6 +20,9 @@ Web
 Console
 subresource
 STS
+"
++
+"
 warning
 test
 "
@@ -39,6 +47,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test_bug1092055_shouldwarn
@@ -49,7 +60,7 @@ html
 const
 SAMPLE_MSG
 =
-'
+"
 invalid
 Strict
 -
@@ -57,7 +68,8 @@ Transport
 -
 Security
 header
-'
+"
+;
 let
 test
 =

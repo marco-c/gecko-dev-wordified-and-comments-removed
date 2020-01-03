@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -16,6 +21,9 @@ utf
 Web
 Console
 network
+"
++
+"
 logging
 tests
 "
@@ -36,6 +44,9 @@ browser
 /
 browser
 /
+"
++
+"
 devtools
 /
 webconsole
@@ -71,6 +82,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -188,12 +202,12 @@ testPageLoad
 function
 requestCallbackWrapper
 (
-aRequest
+request
 )
 {
 lastRequest
 =
-aRequest
+request
 ;
 hud
 .
@@ -242,7 +256,7 @@ lastRequest
 actor
 function
 (
-aResponse
+response
 )
 {
 lastRequest
@@ -251,7 +265,7 @@ request
 .
 postData
 =
-aResponse
+response
 .
 postData
 ;
@@ -259,7 +273,7 @@ lastRequest
 .
 discardRequestBody
 =
-aResponse
+response
 .
 postDataDiscarded
 ;

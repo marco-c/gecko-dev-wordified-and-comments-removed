@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -20,6 +25,9 @@ Web
 Console
 test
 for
+"
++
+"
 notifications
 "
 ;
@@ -58,9 +66,6 @@ consoleOpened
 promise
 )
 ;
-let
-hud
-=
 yield
 openConsole
 (
@@ -72,11 +77,14 @@ then
 )
 =
 >
+{
 consoleOpened
 .
 resolve
 (
 )
+;
+}
 )
 ;
 yield
@@ -103,7 +111,7 @@ defer
 function
 webConsoleCreated
 (
-aID
+id
 )
 {
 Services
@@ -128,7 +136,7 @@ HUDService
 .
 getHudReferenceById
 (
-aID
+id
 )
 "
 We
@@ -159,7 +167,7 @@ message
 function
 webConsoleDestroyed
 (
-aID
+id
 )
 {
 Services
@@ -185,7 +193,7 @@ HUDService
 .
 getHudReferenceById
 (
-aID
+id
 )
 "
 We
@@ -209,8 +217,8 @@ resolve
 function
 webConsoleMessage
 (
-aID
-aNodeID
+id
+nodeID
 )
 {
 Services
@@ -233,7 +241,7 @@ created
 ;
 ok
 (
-aID
+id
 "
 we
 have
@@ -246,7 +254,7 @@ ID
 is
 (
 typeof
-aNodeID
+nodeID
 "
 string
 "
@@ -289,14 +297,14 @@ observe
 function
 observe
 (
-aSubject
-aTopic
-aData
+subject
+topic
+data
 )
 {
-aSubject
+subject
 =
-aSubject
+subject
 .
 QueryInterface
 (
@@ -307,7 +315,7 @@ nsISupportsString
 ;
 switch
 (
-aTopic
+topic
 )
 {
 case
@@ -321,7 +329,7 @@ created
 :
 webConsoleCreated
 (
-aSubject
+subject
 .
 data
 )
@@ -339,7 +347,7 @@ destroyed
 :
 webConsoleDestroyed
 (
-aSubject
+subject
 .
 data
 )
@@ -359,8 +367,8 @@ created
 :
 webConsoleMessage
 (
-aSubject
-aData
+subject
+data
 )
 ;
 break
@@ -433,6 +441,7 @@ false
 ;
 }
 }
+;
 observer
 .
 init

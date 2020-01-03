@@ -23,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -108,7 +111,7 @@ location
 ;
 for
 (
-var
+let
 item
 of
 executeList
@@ -130,8 +133,8 @@ execute
 }
 for
 (
-var
-i
+let
+x
 =
 executeList
 .
@@ -139,13 +142,13 @@ length
 -
 1
 ;
-i
+x
 !
 =
 -
 1
 ;
-i
+x
 -
 -
 )
@@ -164,7 +167,7 @@ input
 value
 executeList
 [
-i
+x
 ]
 "
 check
@@ -174,7 +177,7 @@ idx
 :
 "
 +
-i
+x
 )
 ;
 }
@@ -235,7 +238,7 @@ index
 ;
 for
 (
-var
+let
 i
 =
 1

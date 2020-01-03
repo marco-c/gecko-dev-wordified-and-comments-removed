@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -17,12 +22,12 @@ Web
 Console
 test
 for
-bug
-722267
--
 "
 +
 "
+bug
+722267
+-
 preference
 for
 toggling

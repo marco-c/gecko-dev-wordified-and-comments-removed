@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -18,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -89,9 +97,6 @@ inspector
 "
 )
 ;
-let
-inspector
-=
 toolbox
 .
 getPanel

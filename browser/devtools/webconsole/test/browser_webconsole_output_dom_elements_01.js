@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 thisTestLeaksUncaughtRejectionsAndShouldBeFixed
 (
 null
@@ -36,6 +41,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -157,11 +165,11 @@ testDocument
 "
 output
 :
-'
+"
 HTMLDocument
 \
 u2192
-'
+"
 +
 TEST_URI
 printOutput
@@ -234,7 +242,7 @@ testNodeList
 "
 output
 :
-'
+"
 NodeList
 [
 <
@@ -249,6 +257,9 @@ meta
 <
 title
 >
+"
++
+"
 <
 body
 #
@@ -266,6 +277,9 @@ p
 <
 iframe
 >
+"
++
+"
 <
 div
 .
@@ -287,7 +301,7 @@ here
 script
 >
 ]
-'
+"
 printOutput
 :
 "
@@ -316,11 +330,11 @@ testNodeInIframe
 "
 output
 :
-'
+"
 <
 p
 >
-'
+"
 printOutput
 :
 "
@@ -349,7 +363,7 @@ testDocumentFragment
 "
 output
 :
-'
+"
 DocumentFragment
 [
 <
@@ -363,7 +377,7 @@ div
 fragdiv
 >
 ]
-'
+"
 printOutput
 :
 "

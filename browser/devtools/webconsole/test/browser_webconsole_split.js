@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -169,6 +174,9 @@ loaded
 while
 another
 tool
+"
++
+"
 is
 active
 "
@@ -689,7 +697,6 @@ then
 =
 >
 {
-let
 currentUIState
 =
 getCurrentUIState
@@ -902,7 +909,6 @@ then
 =
 >
 {
-let
 currentUIState
 =
 getCurrentUIState
@@ -1030,7 +1036,6 @@ function
 openPanel
 (
 toolId
-callback
 )
 {
 let

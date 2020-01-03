@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 thisTestLeaksUncaughtRejectionsAndShouldBeFixed
 (
 "
@@ -25,6 +30,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -123,7 +131,7 @@ testDocumentFragment
 "
 output
 :
-'
+"
 DocumentFragment
 [
 <
@@ -139,7 +147,7 @@ div
 foo3
 >
 ]
-'
+"
 printOutput
 :
 "
@@ -248,6 +256,9 @@ or
 illegal
 string
 was
+'
++
+'
 specified
 "
 '

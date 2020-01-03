@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 thisTestLeaksUncaughtRejectionsAndShouldBeFixed
 (
 "
@@ -25,6 +30,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test

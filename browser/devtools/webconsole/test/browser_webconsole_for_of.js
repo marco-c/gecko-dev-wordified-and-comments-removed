@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -18,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -77,7 +85,7 @@ defer
 (
 )
 ;
-var
+let
 jsterm
 =
 hud
@@ -104,6 +112,9 @@ body
 .
 childNodes
 )
+"
++
+"
 if
 (
 x

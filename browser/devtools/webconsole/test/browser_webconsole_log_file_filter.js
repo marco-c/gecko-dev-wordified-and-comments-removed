@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -18,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -29,11 +37,6 @@ html
 ;
 let
 hud
-;
-"
-use
-strict
-"
 ;
 let
 test
@@ -123,6 +126,7 @@ SEVERITY_LOG
 ]
 }
 )
+;
 }
 function
 testLiveFilteringOnSearchStrings
@@ -427,7 +431,7 @@ displayedMessageNodes
 function
 setStringFilter
 (
-aValue
+value
 )
 {
 hud
@@ -438,7 +442,7 @@ filterBox
 .
 value
 =
-aValue
+value
 ;
 hud
 .

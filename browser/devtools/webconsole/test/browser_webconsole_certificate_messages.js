@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -15,6 +20,9 @@ Web
 Console
 weak
 crypto
+"
++
+"
 warnings
 test
 "
@@ -34,6 +42,9 @@ webconsole
 /
 test
 /
+"
++
+"
 test
 -
 certificate
@@ -464,7 +475,6 @@ url
 function
 onLoad
 (
-aEvent
 )
 {
 gContentBrowser
@@ -477,13 +487,6 @@ load
 onLoad
 true
 )
-;
-let
-aOutputNode
-=
-gHud
-.
-outputNode
 ;
 waitForSuccess
 (
