@@ -625,6 +625,7 @@ restoreHistory
 {
 epoch
 tabData
+loadArguments
 }
 )
 {
@@ -634,6 +635,7 @@ restoreHistory
 (
 epoch
 tabData
+loadArguments
 {
 onReload
 (

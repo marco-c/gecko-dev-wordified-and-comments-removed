@@ -353,6 +353,7 @@ restoreHistory
 (
 epoch
 tabData
+loadArguments
 callbacks
 )
 {
@@ -429,6 +430,10 @@ null
 if
 (
 uri
+&
+&
+!
+loadArguments
 )
 {
 webNavigation
@@ -642,6 +647,12 @@ restoreTabContentStarted
 finishCallback
 )
 ;
+if
+(
+!
+loadArguments
+)
+{
 webNavigation
 .
 setCurrentURI
@@ -658,6 +669,7 @@ blank
 )
 )
 ;
+}
 try
 {
 if
