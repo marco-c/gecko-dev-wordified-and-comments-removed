@@ -939,6 +939,11 @@ mozLoop
 .
 openGettingStartedTour
 (
+"
+getting
+-
+started
+"
 )
 ;
 navigator
@@ -1650,7 +1655,9 @@ mozLoop
 openGettingStartedTour
 (
 "
-settingsMenu
+settings
+-
+menu
 "
 )
 ;
