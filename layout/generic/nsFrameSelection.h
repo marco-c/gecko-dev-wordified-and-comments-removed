@@ -945,17 +945,6 @@ ClearNormalSelection
 (
 )
 ;
-static
-CaretAssociateHint
-GetHintForPosition
-(
-nsIContent
-*
-aContent
-int32_t
-aOffset
-)
-;
 private
 :
 ~
