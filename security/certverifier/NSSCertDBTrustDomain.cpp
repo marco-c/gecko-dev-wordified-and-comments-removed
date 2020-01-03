@@ -237,7 +237,7 @@ PinningMode
 pinningMode
 unsigned
 int
-minimumNonECCKeyBits
+minRSABits
 const
 char
 *
@@ -271,9 +271,9 @@ mPinningMode
 (
 pinningMode
 )
-mMinimumNonECCBits
+mMinRSABits
 (
-minimumNonECCKeyBits
+minRSABits
 )
 mHostname
 (
@@ -3393,7 +3393,7 @@ if
 (
 modulusSizeInBits
 <
-mMinimumNonECCBits
+mMinRSABits
 )
 {
 return

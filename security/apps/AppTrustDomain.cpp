@@ -163,7 +163,7 @@ static
 const
 unsigned
 int
-DEFAULT_MINIMUM_NON_ECC_BITS
+DEFAULT_MIN_RSA_BITS
 =
 2048
 ;
@@ -194,9 +194,9 @@ mPinArg
 (
 pinArg
 )
-mMinimumNonECCBits
+mMinRSABits
 (
-DEFAULT_MINIMUM_NON_ECC_BITS
+DEFAULT_MIN_RSA_BITS
 )
 {
 }
@@ -381,7 +381,7 @@ ArrayLength
 marketplaceStageRoot
 )
 ;
-mMinimumNonECCBits
+mMinRSABits
 =
 1024u
 ;
@@ -1034,7 +1034,7 @@ if
 (
 modulusSizeInBits
 <
-mMinimumNonECCBits
+mMinRSABits
 )
 {
 return

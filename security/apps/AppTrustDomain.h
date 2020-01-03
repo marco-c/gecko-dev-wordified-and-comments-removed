@@ -376,7 +376,7 @@ mTrustedRoot
 ;
 unsigned
 int
-mMinimumNonECCBits
+mMinRSABits
 ;
 }
 ;
