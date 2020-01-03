@@ -231,6 +231,9 @@ _onDetailsViewSelected
 rangeChangeDebounceTime
 :
 0
+requiresUpdateOnRangeChange
+:
+true
 shouldUpdateWhenShown
 :
 false
@@ -313,6 +316,17 @@ _
 interval
 )
 {
+if
+(
+!
+this
+.
+requiresUpdateOnRangeChange
+)
+{
+return
+;
+}
 if
 (
 DetailsView
