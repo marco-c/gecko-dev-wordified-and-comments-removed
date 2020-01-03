@@ -183,11 +183,6 @@ QuotaManager
 .
 cpp
 '
-'
-QuotaObject
-.
-cpp
-'
 ]
 FAIL_ON_WARNINGS
 =
