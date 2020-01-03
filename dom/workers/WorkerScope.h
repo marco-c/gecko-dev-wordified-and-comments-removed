@@ -972,6 +972,16 @@ aGlobal
 )
 ;
 void
+EnterEventLoop
+(
+)
+;
+void
+LeaveEventLoop
+(
+)
+;
+void
 PostMessage
 (
 const

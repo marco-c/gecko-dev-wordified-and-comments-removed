@@ -112,6 +112,16 @@ object
 global
 ;
 void
+enterEventLoop
+(
+)
+;
+void
+leaveEventLoop
+(
+)
+;
+void
 postMessage
 (
 DOMString
