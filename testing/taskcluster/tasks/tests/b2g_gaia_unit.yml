@@ -136,12 +136,10 @@ build_url
 -
 test
 -
-packages
--
 url
 {
 {
-test_packages_url
+tests_url
 }
 }
 -

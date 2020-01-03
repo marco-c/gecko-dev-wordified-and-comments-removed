@@ -138,12 +138,10 @@ pull
 -
 test
 -
-packages
--
 url
 {
 {
-test_packages_url
+tests_url
 }
 }
 -

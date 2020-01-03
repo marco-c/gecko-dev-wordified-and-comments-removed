@@ -524,16 +524,6 @@ some_tests
 .
 zip
 '
-or
-test_packages
-:
-'
-public
-/
-test_packages
-.
-json
-'
 #
 #
 #
