@@ -67,9 +67,6 @@ mozL10n
 get
 ;
 var
-router
-;
-var
 TabView
 =
 React
