@@ -302,17 +302,6 @@ result
 )
 ;
 bool
-SetStreamType
-(
-uint16_t
-aType
-bool
-aNeedsResume
-=
-true
-)
-;
-bool
 IsStarted
 (
 )

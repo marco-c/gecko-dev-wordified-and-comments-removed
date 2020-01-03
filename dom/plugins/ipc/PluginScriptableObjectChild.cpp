@@ -6327,11 +6327,6 @@ AssertPluginThread
 (
 )
 ;
-if
-(
-sObjectMap
-)
-{
 sObjectMap
 -
 >
@@ -6341,5 +6336,4 @@ CollectForInstance
 aInstance
 )
 ;
-}
 }
