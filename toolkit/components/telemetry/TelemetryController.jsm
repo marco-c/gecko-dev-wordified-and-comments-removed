@@ -1120,6 +1120,12 @@ _clientID
 =
 null
 ;
+TelemetryStorage
+.
+reset
+(
+)
+;
 return
 this
 .
@@ -4926,6 +4932,12 @@ PREF_CACHED_CLIENTID
 this
 .
 _clientID
+)
+;
+TelemetryStorage
+.
+runCleanPingArchiveTask
+(
 )
 ;
 Telemetry
