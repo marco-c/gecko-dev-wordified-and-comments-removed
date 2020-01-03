@@ -471,12 +471,6 @@ DrawTarget
 >
 mDrawTarget
 ;
-gfx
-:
-:
-IntSize
-mSize
-;
 android
 :
 :
