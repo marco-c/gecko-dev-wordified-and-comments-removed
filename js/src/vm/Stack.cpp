@@ -1739,6 +1739,17 @@ cx
 ;
 if
 (
+!
+fun
+(
+)
+-
+>
+isGenerator
+(
+)
+&
+&
 isConstructing
 (
 )
