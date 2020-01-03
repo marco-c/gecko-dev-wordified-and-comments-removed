@@ -116,7 +116,7 @@ MPL
 /
 include
 protocol
-PBrowser
+PContent
 ;
 namespace
 mozilla
@@ -197,7 +197,7 @@ protocol
 POfflineCacheUpdate
 {
 manager
-PBrowser
+PContent
 ;
 parent
 :
