@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -445,8 +452,10 @@ MOZ_OVERRIDE
 ;
 protected
 :
+nsRefPtr
+<
 nsDocShellTreeOwner
-*
+>
 mDocShellTreeOwner
 ;
 nsCOMPtr
