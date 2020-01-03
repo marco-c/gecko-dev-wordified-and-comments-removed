@@ -1429,7 +1429,6 @@ GlobalNameHashHashKey
 GlobalNameHashMatchEntry
 PL_DHashMoveEntryStub
 GlobalNameHashClearEntry
-PL_DHashFinalizeStub
 GlobalNameHashInitEntry
 }
 ;

@@ -17580,7 +17580,6 @@ PL_DHashVoidPtrKeyStub
 PL_DHashMatchEntryStub
 PL_DHashMoveEntryStub
 SubDocClearEntry
-PL_DHashFinalizeStub
 SubDocInitEntry
 }
 ;

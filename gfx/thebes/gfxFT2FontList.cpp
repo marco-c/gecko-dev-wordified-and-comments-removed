@@ -2663,7 +2663,6 @@ StringHash
 HashMatchEntry
 MoveEntry
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 nullptr
 }
 ;

@@ -1089,9 +1089,6 @@ PL_DHashMoveEntryStub
 :
 s_CopyEntry
 s_ClearEntry
-:
-:
-PL_DHashFinalizeStub
 s_InitEntry
 }
 ;

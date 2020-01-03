@@ -844,7 +844,6 @@ MappedAttrTable_HashKey
 MappedAttrTable_MatchEntry
 PL_DHashMoveEntryStub
 MappedAttrTable_ClearEntry
-PL_DHashFinalizeStub
 nullptr
 }
 ;
@@ -1080,7 +1079,6 @@ LangRuleTable_HashKey
 LangRuleTable_MatchEntry
 PL_DHashMoveEntryStub
 LangRuleTable_ClearEntry
-PL_DHashFinalizeStub
 LangRuleTable_InitEntry
 }
 ;

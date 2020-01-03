@@ -3097,7 +3097,6 @@ PL_DHashVoidPtrKeyStub
 PL_DHashMatchEntryStub
 PL_DHashMoveEntryStub
 ClearBroadcasterMapEntry
-PL_DHashFinalizeStub
 nullptr
 }
 ;

@@ -2585,7 +2585,6 @@ PL_DHashVoidPtrKeyStub
 PL_DHashMatchEntryStub
 PL_DHashMoveEntryStub
 EventListenerManagerHashClearEntry
-PL_DHashFinalizeStub
 EventListenerManagerHashInitEntry
 }
 ;

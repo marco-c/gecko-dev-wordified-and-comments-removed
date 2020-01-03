@@ -4731,7 +4731,6 @@ PL_DHashVoidPtrKeyStub
 RequestHashMatchEntry
 PL_DHashMoveEntryStub
 RequestHashClearEntry
-PL_DHashFinalizeStub
 RequestHashInitEntry
 }
 ;

@@ -1009,7 +1009,6 @@ HashIIDPtrKey
 MatchIIDPtrKey
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 }
 ;
 IID2WrappedJSClassMap
@@ -1115,7 +1114,6 @@ HashIIDPtrKey
 MatchIIDPtrKey
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 }
 ;
 IID2NativeInterfaceMap
@@ -2024,7 +2022,6 @@ HashNativeKey
 Match
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 }
 ;
 NativeSetMap
@@ -2312,7 +2309,6 @@ HashIIDPtrKey
 Match
 PL_DHashMoveEntryStub
 Clear
-PL_DHashFinalizeStub
 }
 ;
 IID2ThisTranslatorMap
@@ -2641,7 +2637,6 @@ Hash
 Match
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
-PL_DHashFinalizeStub
 }
 ;
 XPCNativeScriptableSharedMap
