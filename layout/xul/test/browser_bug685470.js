@@ -129,7 +129,6 @@ onPopupShown
 true
 )
 ;
-yield
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -150,7 +149,6 @@ gBrowser
 selectedBrowser
 )
 ;
-yield
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
