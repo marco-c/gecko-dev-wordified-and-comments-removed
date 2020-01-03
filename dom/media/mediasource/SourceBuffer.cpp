@@ -2882,6 +2882,10 @@ mEvictionThreshold
 |
 (
 (
+!
+mIsUsingFormatReader
+&
+&
 mContentManager
 -
 >
