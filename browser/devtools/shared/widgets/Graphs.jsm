@@ -2709,10 +2709,6 @@ refresh
 :
 function
 (
-options
-=
-{
-}
 )
 {
 let
@@ -2752,12 +2748,6 @@ height
 ;
 if
 (
-!
-options
-.
-force
-&
-&
 this
 .
 _width
