@@ -18489,6 +18489,9 @@ runXREMain
 nsresult
 rv
 ;
+ScopedLogging
+log
+;
 bool
 exit
 =
@@ -18815,9 +18818,6 @@ xreMainPtr
 -
 >
 mAppData
-;
-ScopedLogging
-log
 ;
 bool
 exit

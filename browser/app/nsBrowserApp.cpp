@@ -2634,10 +2634,15 @@ return
 rv
 ;
 }
+#
+ifndef
+MOZ_METRO
 NS_LogInit
 (
 )
 ;
+#
+endif
 *
 lastSlash
 =
