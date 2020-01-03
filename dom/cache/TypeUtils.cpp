@@ -1387,9 +1387,10 @@ nsIInputStream
 >
 stream
 ;
-aIn
-.
-GetBody
+ir
+-
+>
+GetInternalBody
 (
 getter_AddRefs
 (
