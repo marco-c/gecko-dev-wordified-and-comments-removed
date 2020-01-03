@@ -375,6 +375,11 @@ MediaRawData
 aSamples
 )
 ;
+void
+EnsureUpToDateIndex
+(
+)
+;
 nsRefPtr
 <
 MP4Demuxer
@@ -428,6 +433,9 @@ nsRefPtr
 MediaRawData
 >
 mQueuedSample
+;
+bool
+mNeedReIndex
 ;
 Monitor
 mMonitor
