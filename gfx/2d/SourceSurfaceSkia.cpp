@@ -379,6 +379,9 @@ GrContext
 "
 )
 ;
+#
+ifdef
+USE_SKIA_GPU
 GrBackendTextureDesc
 skiaTexGlue
 ;
@@ -510,6 +513,8 @@ setPixelRef
 texRef
 )
 ;
+#
+endif
 mDrawTarget
 =
 aOwner

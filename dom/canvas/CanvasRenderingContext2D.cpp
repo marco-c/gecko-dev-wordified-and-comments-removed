@@ -6300,6 +6300,9 @@ DemoteOldestContextIfNecessary
 (
 )
 ;
+#
+if
+USE_SKIA_GPU
 SkiaGLGlue
 *
 glue
@@ -6316,9 +6319,6 @@ GetSkiaGLGlue
 (
 )
 ;
-#
-if
-USE_SKIA_GPU
 if
 (
 glue
