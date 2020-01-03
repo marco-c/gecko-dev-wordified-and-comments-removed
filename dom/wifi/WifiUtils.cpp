@@ -1820,7 +1820,7 @@ p2p0
 )
 )
 {
-snprintf
+PR_snprintf
 (
 command
 COMMAND_SIZE
@@ -1834,7 +1834,7 @@ cmd
 }
 else
 {
-snprintf
+PR_snprintf
 (
 command
 COMMAND_SIZE
