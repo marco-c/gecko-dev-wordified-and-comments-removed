@@ -1318,6 +1318,9 @@ TABLE
 TABLECELL
 =
 32
+DOCUMENT
+=
+64
 }
 ;
 }
