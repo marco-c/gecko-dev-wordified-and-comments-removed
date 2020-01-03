@@ -1589,8 +1589,7 @@ aSeqFrame
 PrincipalChildList
 (
 )
--
->
+.
 GetLength
 (
 )
