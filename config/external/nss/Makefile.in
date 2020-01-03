@@ -1111,10 +1111,15 @@ CFLAGS
 )
 -
 DCHECK_FORK_GETPID
+(
+addprefix
 -
-DRTLD_NOLOAD
+DANDROID_VERSION
 =
-0
+(
+ANDROID_VERSION
+)
+)
 -
 include
 (
