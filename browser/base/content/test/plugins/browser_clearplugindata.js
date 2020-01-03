@@ -657,6 +657,7 @@ now_uSec
 now_uSec
 ]
 ;
+yield
 sanitizer
 .
 sanitize
@@ -740,6 +741,7 @@ range
 =
 null
 ;
+yield
 sanitizer
 .
 sanitize
@@ -870,6 +872,7 @@ now_uSec
 now_uSec
 ]
 ;
+yield
 sanitizer
 .
 sanitize
