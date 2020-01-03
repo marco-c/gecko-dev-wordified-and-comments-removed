@@ -6402,13 +6402,9 @@ IntPoint
 aTileOrigin
 .
 x
-*
-mResolution
 aTileOrigin
 .
 y
-*
-mResolution
 )
 ;
 if
