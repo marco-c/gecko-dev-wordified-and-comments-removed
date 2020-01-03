@@ -93,10 +93,6 @@ WeakSetObject
 :
 RESERVED_SLOTS
 )
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 const

@@ -6251,14 +6251,14 @@ desc
 .
 setGetter
 (
-JS_PropertyStub
+nullptr
 )
 ;
 desc
 .
 setSetter
 (
-JS_StrictPropertyStub
+nullptr
 )
 ;
 desc

@@ -1692,10 +1692,6 @@ Constructor
 prototype
 "
 0
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 static
@@ -9420,10 +9416,6 @@ ControllersShimClass
 XULControllers
 "
 0
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 #

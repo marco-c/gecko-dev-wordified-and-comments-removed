@@ -2185,8 +2185,8 @@ COLLATOR_SLOTS_COUNT
 )
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr
@@ -4875,8 +4875,8 @@ NUMBER_FORMAT_SLOTS_COUNT
 )
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr
@@ -7363,8 +7363,8 @@ DATE_TIME_FORMAT_SLOTS_COUNT
 )
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr
@@ -10079,10 +10079,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Intl
 )
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 #
