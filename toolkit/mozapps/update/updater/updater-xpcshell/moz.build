@@ -108,6 +108,9 @@ updater_rel_path
 .
 /
 '
+NO_DIST_INSTALL
+=
+True
 DEFINES
 [
 '

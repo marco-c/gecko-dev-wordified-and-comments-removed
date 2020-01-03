@@ -113,6 +113,14 @@ common
 build
 '
 )
+if
+CONFIG
+[
+'
+ENABLE_TESTS
+'
+]
+:
 DIRS
 +
 =
