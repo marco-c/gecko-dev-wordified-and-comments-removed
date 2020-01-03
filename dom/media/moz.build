@@ -633,6 +633,11 @@ RtspMediaResource
 h
 '
 '
+SelfRef
+.
+h
+'
+'
 SharedBuffer
 .
 h
