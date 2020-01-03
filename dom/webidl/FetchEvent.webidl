@@ -209,16 +209,6 @@ Response
 r
 )
 ;
-[
-Throws
-]
-void
-respondWith
-(
-Response
-r
-)
-;
 }
 ;
 dictionary
