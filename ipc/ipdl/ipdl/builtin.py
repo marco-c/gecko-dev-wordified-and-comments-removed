@@ -143,7 +143,7 @@ h
 '
     
 '
-nsAutoPtr
+nsRefPtr
 .
 h
 '
