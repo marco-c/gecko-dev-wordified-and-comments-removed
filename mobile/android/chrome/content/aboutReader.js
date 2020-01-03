@@ -2997,8 +2997,6 @@ _showProgressDelayed
 (
 )
 ;
-try
-{
 let
 article
 =
@@ -3013,6 +3011,11 @@ url
 tabId
 )
 ;
+if
+(
+article
+)
+{
 this
 .
 _showContent
@@ -3021,10 +3024,7 @@ article
 )
 ;
 }
-catch
-(
-e
-)
+else
 {
 this
 .
