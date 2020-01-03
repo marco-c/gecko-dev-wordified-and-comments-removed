@@ -116,10 +116,8 @@ true
 void
 queueJSEPOperation
 (
-nsRefPtr
-<
 nsIRunnable
->
+*
 aJSEPOperation
 )
 ;

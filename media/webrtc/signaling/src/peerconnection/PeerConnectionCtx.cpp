@@ -1949,10 +1949,8 @@ PeerConnectionCtx
 :
 queueJSEPOperation
 (
-nsRefPtr
-<
 nsIRunnable
->
+*
 aOperation
 )
 {
