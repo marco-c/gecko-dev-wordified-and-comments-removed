@@ -211,7 +211,10 @@ cx
 )
 ;
 {
-JSRuntimeOptions
+JS
+:
+:
+RuntimeOptions
 oldOptions
 =
 JS
