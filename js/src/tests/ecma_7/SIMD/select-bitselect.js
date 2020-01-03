@@ -880,6 +880,7 @@ float64x2
 inputs
 )
 ;
+}
 if
 (
 typeof
@@ -895,10 +896,5 @@ reportCompare
 (
 true
 true
-)
-;
-}
-test
-(
 )
 ;
