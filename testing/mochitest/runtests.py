@@ -11155,7 +11155,7 @@ MOZ_PROCESS_LOG
 processLog
             
 if
-interactive
+debuggerInfo
 :
                 
 timeout
