@@ -106,16 +106,6 @@ nsEnvironment
 (
 )
 ;
-if
-(
-!
-obj
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 rv
 =
 obj
