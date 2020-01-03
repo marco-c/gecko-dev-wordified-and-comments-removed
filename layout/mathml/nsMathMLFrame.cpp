@@ -613,15 +613,13 @@ if
 content
 -
 >
-Tag
+IsMathMLElement
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 math
+)
 )
 {
 break

@@ -102,15 +102,13 @@ if
 mContent
 -
 >
-Tag
+IsMathMLElement
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 mtable_
+)
 )
 {
 nsIFrame
