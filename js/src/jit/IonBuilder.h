@@ -3838,6 +3838,8 @@ inlineUnsafeGetReservedSlot
 CallInfo
 &
 callInfo
+MIRType
+knownValueType
 )
 ;
 InliningStatus
