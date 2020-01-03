@@ -19188,6 +19188,7 @@ JS
 :
 HandleObject
 obj
+const
 char
 *
 bytes
@@ -19213,6 +19214,7 @@ JS
 :
 HandleObject
 obj
+const
 char16_t
 *
 chars
