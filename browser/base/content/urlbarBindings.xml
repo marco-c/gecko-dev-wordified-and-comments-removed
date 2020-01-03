@@ -23884,14 +23884,11 @@ id
 if
 (
 type
-.
-startsWith
-(
+=
+=
 "
 password
--
 "
-)
 )
 return
 "
