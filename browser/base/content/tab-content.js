@@ -3215,7 +3215,7 @@ addEventListener
 "
 MozDOMFullscreen
 :
-Exited
+Exit
 "
 this
 )
@@ -3291,7 +3291,7 @@ sendAsyncMessage
 "
 DOMFullscreen
 :
-Exited
+Exit
 "
 )
 ;
@@ -3440,7 +3440,7 @@ case
 "
 MozDOMFullscreen
 :
-Exited
+Exit
 "
 :
 {
@@ -3449,7 +3449,7 @@ sendAsyncMessage
 "
 DOMFullscreen
 :
-Exited
+Exit
 "
 )
 ;
