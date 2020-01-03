@@ -1037,6 +1037,12 @@ NS_URLCLASSIFIERDBSERVICE_CONTRACTID
 rv
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 nsAutoCString
 tables
 ;
