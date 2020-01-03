@@ -1023,8 +1023,6 @@ FuzzyEqualsMultiplicative
 aPoint
 .
 x
-.
-value
 0
 .
 0f
@@ -1036,8 +1034,6 @@ FuzzyEqualsMultiplicative
 aPoint
 .
 y
-.
-value
 0
 .
 0f
@@ -1815,8 +1811,6 @@ FuzzyEqualsAdditive
 overscroll
 .
 x
-.
-value
 0
 .
 0f
@@ -1839,8 +1833,6 @@ FuzzyEqualsAdditive
 overscroll
 .
 y
-.
-value
 0
 .
 0f

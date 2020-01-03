@@ -348,10 +348,10 @@ AdjustDisplacement
 (
 CSSCoord
 aDisplacement
-CSSCoord
+float
 &
 aDisplacementOut
-CSSCoord
+float
 &
 aOverscrollAmountOut
 )

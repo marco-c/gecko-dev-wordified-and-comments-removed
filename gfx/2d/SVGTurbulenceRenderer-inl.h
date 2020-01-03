@@ -1427,8 +1427,6 @@ i
 b0
 .
 y
-.
-value
 )
 &
 sBM
@@ -1447,8 +1445,6 @@ i
 b1
 .
 y
-.
-value
 )
 &
 sBM
@@ -1467,8 +1463,6 @@ j
 b0
 .
 y
-.
-value
 )
 &
 sBM
@@ -1487,8 +1481,6 @@ j
 b1
 .
 y
-.
-value
 )
 &
 sBM

@@ -7068,16 +7068,12 @@ aGuiEvent
 refPoint
 .
 x
-.
-value
 aGuiEvent
 -
 >
 refPoint
 .
 y
-.
-value
 )
 ;
 }

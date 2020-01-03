@@ -6768,8 +6768,6 @@ Abs
 distance
 .
 x
-.
-value
 )
 >
 AssertedCast
@@ -6786,8 +6784,6 @@ Abs
 distance
 .
 y
-.
-value
 )
 >
 AssertedCast
