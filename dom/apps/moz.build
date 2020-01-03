@@ -225,6 +225,11 @@ Langpacks
 jsm
 '
 '
+MessageBroadcaster
+.
+jsm
+'
+'
 OfflineCacheInstaller
 .
 jsm
