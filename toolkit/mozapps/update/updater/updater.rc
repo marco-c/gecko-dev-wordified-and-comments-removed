@@ -71,7 +71,7 @@ script
 /
 #
 ifdef
-TEST_UPDATER
+UPDATER_XPCSHELL_CERT
 #
 include
 "
