@@ -5844,16 +5844,13 @@ if
 (
 utf8Str
 .
-FindChar
+Contains
 (
 '
 \
 r
 '
 )
-!
-=
-kNotFound
 )
 {
 utf8Str

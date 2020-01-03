@@ -1539,9 +1539,10 @@ aUri
 {
 NS_ASSERTION
 (
+!
 aUri
 .
-FindChar
+Contains
 (
 char16_t
 (
@@ -1550,9 +1551,6 @@ char16_t
 '
 )
 )
-=
-=
-kNotFound
 "
 Remove
 the

@@ -3060,12 +3060,9 @@ XP_WIN
 )
 if
 (
-kNotFound
-!
-=
 aIn
 .
-FindChar
+Contains
 (
 '
 \
