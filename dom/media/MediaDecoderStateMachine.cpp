@@ -6600,7 +6600,7 @@ MainThread
 )
 -
 >
-MaybeTailDispatch
+Dispatch
 (
 task
 .
@@ -6683,7 +6683,7 @@ MainThread
 )
 -
 >
-MaybeTailDispatch
+Dispatch
 (
 event
 .
@@ -15057,7 +15057,7 @@ MainThread
 )
 -
 >
-MaybeTailDispatch
+Dispatch
 (
 event
 .
@@ -15456,7 +15456,7 @@ TaskQueue
 )
 -
 >
-MaybeTailDispatch
+Dispatch
 (
 task
 .
