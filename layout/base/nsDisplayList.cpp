@@ -4417,7 +4417,7 @@ GetRootScrollFrame
 {
 metrics
 .
-mResolution
+mPresShellResolution
 =
 ParentLayerToLayerScale
 (
@@ -4440,7 +4440,7 @@ else
 {
 metrics
 .
-mResolution
+mPresShellResolution
 =
 ParentLayerToLayerScale
 (
