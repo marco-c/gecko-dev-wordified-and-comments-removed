@@ -324,7 +324,8 @@ private
 MozNDEFRecord
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 nsRefPtr
 <

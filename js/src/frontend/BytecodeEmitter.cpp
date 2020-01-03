@@ -2751,7 +2751,8 @@ const
 NonLocalExitScope
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

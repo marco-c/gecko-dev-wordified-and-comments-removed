@@ -247,7 +247,8 @@ originalGcNumber
 DependentAddPtr
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 DependentAddPtr
 (
@@ -255,7 +256,8 @@ const
 DependentAddPtr
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 DependentAddPtr
 &
@@ -266,7 +268,8 @@ const
 DependentAddPtr
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

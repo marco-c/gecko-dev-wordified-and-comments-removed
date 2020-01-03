@@ -770,7 +770,8 @@ SipccSdpAttributeList
 &
 orig
 )
-MOZ_DELETE
+=
+delete
 ;
 SipccSdpAttributeList
 &
@@ -782,7 +783,8 @@ SipccSdpAttributeList
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

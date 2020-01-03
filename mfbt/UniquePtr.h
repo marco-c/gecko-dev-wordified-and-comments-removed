@@ -1002,7 +1002,8 @@ UniquePtr
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -1013,7 +1014,8 @@ UniquePtr
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1213,7 +1215,8 @@ aDummy
 =
 0
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :
@@ -1347,7 +1350,8 @@ aDummy
 =
 0
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :
@@ -1784,7 +1788,8 @@ aDummy
 =
 0
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :
@@ -1815,7 +1820,8 @@ UniquePtr
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -1826,7 +1832,8 @@ UniquePtr
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1991,7 +1998,8 @@ U
 aPtr
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -3197,7 +3205,8 @@ KnownBound
 MakeUnique
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 template
 <
@@ -3224,7 +3233,8 @@ A1
 &
 aA1
 )
-MOZ_DELETE
+=
+delete
 ;
 template
 <
@@ -3257,7 +3267,8 @@ A2
 &
 aA2
 )
-MOZ_DELETE
+=
+delete
 ;
 template
 <
@@ -3296,7 +3307,8 @@ A3
 &
 aA3
 )
-MOZ_DELETE
+=
+delete
 ;
 template
 <
@@ -3341,7 +3353,8 @@ A4
 &
 aA4
 )
-MOZ_DELETE
+=
+delete
 ;
 template
 <
@@ -3392,7 +3405,8 @@ A5
 &
 aA5
 )
-MOZ_DELETE
+=
+delete
 ;
 template
 <
@@ -3449,7 +3463,8 @@ A6
 &
 a6
 )
-MOZ_DELETE
+=
+delete
 ;
 template
 <
@@ -3512,7 +3527,8 @@ A7
 &
 a7
 )
-MOZ_DELETE
+=
+delete
 ;
 template
 <
@@ -3581,7 +3597,8 @@ A8
 &
 a8
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 #

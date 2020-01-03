@@ -361,7 +361,8 @@ private
 OMXCodecWrapper
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 OMXCodecWrapper
 (
@@ -369,7 +370,8 @@ const
 OMXCodecWrapper
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 OMXCodecWrapper
 &
@@ -380,7 +382,8 @@ const
 OMXCodecWrapper
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 OMXCodecWrapper
 (
@@ -510,7 +513,8 @@ private
 OMXAudioEncoder
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 OMXAudioEncoder
 (
@@ -518,7 +522,8 @@ const
 OMXAudioEncoder
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 OMXAudioEncoder
 &
@@ -529,7 +534,8 @@ const
 OMXAudioEncoder
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 OMXAudioEncoder
 (
@@ -732,7 +738,8 @@ private
 OMXVideoEncoder
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 OMXVideoEncoder
 (
@@ -740,7 +747,8 @@ const
 OMXVideoEncoder
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 OMXVideoEncoder
 &
@@ -751,7 +759,8 @@ const
 OMXVideoEncoder
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 OMXVideoEncoder
 (

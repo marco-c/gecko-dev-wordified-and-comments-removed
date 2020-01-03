@@ -156,7 +156,8 @@ const
 xpcAccessibleTableCell
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 xpcAccessibleTableCell
 &
@@ -167,7 +168,8 @@ const
 xpcAccessibleTableCell
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

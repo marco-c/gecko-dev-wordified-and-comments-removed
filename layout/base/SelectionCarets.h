@@ -238,7 +238,8 @@ SelectionCarets
 SelectionCarets
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 SetVisibility

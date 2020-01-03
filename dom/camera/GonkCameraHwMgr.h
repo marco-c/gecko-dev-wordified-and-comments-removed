@@ -436,7 +436,8 @@ const
 GonkCameraHardware
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 GonkCameraHardware
 &
@@ -447,7 +448,8 @@ const
 GonkCameraHardware
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

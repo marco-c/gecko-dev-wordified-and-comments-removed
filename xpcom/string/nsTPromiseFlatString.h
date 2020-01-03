@@ -28,12 +28,14 @@ const
 self_type
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 nsTPromiseFlatString_CharT
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 nsTPromiseFlatString_CharT
 (
@@ -42,7 +44,8 @@ string_type
 &
 aStr
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

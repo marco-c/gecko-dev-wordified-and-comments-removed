@@ -631,7 +631,8 @@ const
 CameraControlImpl
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 CameraControlImpl
 &
@@ -642,7 +643,8 @@ const
 CameraControlImpl
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

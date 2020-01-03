@@ -4211,7 +4211,8 @@ self_type
 &
 aString
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4294,7 +4295,8 @@ self_type
 &
 aString
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4460,7 +4462,8 @@ self_type
 &
 aString
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4532,7 +4535,8 @@ self_type
 &
 aString
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4604,7 +4608,8 @@ self_type
 &
 aString
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4676,7 +4681,8 @@ self_type
 &
 aString
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -5272,7 +5278,8 @@ self_type
 &
 aString
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -5400,7 +5407,8 @@ self_type
 &
 aString
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

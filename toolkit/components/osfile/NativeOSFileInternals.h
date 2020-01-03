@@ -51,7 +51,8 @@ NativeOSFileInternalsService
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

@@ -258,7 +258,8 @@ nsHTMLCSSStyleSheet
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 nsHTMLCSSStyleSheet
 &
@@ -270,7 +271,8 @@ nsHTMLCSSStyleSheet
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 protected
 :

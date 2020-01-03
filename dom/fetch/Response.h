@@ -106,7 +106,8 @@ Response
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 JSObject
 *

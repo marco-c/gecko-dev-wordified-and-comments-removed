@@ -246,7 +246,8 @@ private
 EncodingUtils
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

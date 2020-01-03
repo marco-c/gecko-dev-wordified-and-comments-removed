@@ -444,7 +444,8 @@ nsStyleGradientStop
 &
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 bool
 operator
@@ -456,7 +457,8 @@ nsStyleGradientStop
 &
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -574,7 +576,8 @@ nsStyleGradient
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 nsStyleGradient
 &
@@ -586,7 +589,8 @@ nsStyleGradient
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4099,7 +4103,8 @@ nsStyleBorder
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4714,7 +4719,8 @@ nsStyleList
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :
@@ -11907,7 +11913,8 @@ new
 (
 size_t
 )
-MOZ_DELETE
+=
+delete
 ;
 int32_t
 mType

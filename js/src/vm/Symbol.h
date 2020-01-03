@@ -113,7 +113,8 @@ const
 Symbol
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -123,7 +124,8 @@ const
 Symbol
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 static
 Symbol

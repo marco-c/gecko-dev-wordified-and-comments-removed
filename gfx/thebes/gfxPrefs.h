@@ -3313,7 +3313,8 @@ const
 gfxPrefs
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 gfxPrefs
 &
@@ -3324,7 +3325,8 @@ const
 gfxPrefs
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

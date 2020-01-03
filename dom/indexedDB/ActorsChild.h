@@ -446,7 +446,8 @@ ThreadLocal
 ThreadLocal
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 ThreadLocal
 (
@@ -455,7 +456,8 @@ ThreadLocal
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -607,7 +609,8 @@ bool
 SendDeleteMe
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1127,7 +1130,8 @@ bool
 SendDeleteMe
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1354,7 +1358,8 @@ bool
 SendDeleteMe
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1496,7 +1501,8 @@ bool
 SendDeleteMe
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1925,13 +1931,15 @@ CursorRequestParams
 &
 aParams
 )
-MOZ_DELETE
+=
+delete
 ;
 bool
 SendDeleteMe
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

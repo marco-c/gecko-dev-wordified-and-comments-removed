@@ -279,7 +279,8 @@ nsTemplateMatch
 &
 aMatch
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -290,7 +291,8 @@ nsTemplateMatch
 &
 aMatch
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

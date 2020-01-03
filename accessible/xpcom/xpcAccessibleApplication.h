@@ -124,7 +124,8 @@ const
 xpcAccessibleApplication
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 xpcAccessibleApplication
 &
@@ -135,7 +136,8 @@ const
 xpcAccessibleApplication
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

@@ -449,7 +449,8 @@ URLValue
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 URLValue
 &
@@ -461,7 +462,8 @@ URLValue
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -652,7 +654,8 @@ GridTemplateAreasValue
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 GridTemplateAreasValue
 &
@@ -664,7 +667,8 @@ GridTemplateAreasValue
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -3532,7 +3536,8 @@ Array
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 Array
 &
@@ -3544,7 +3549,8 @@ Array
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -3673,7 +3679,8 @@ const
 aOther
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 bool
 operator
@@ -3686,7 +3693,8 @@ nsCSSValueList
 aOther
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -5277,7 +5285,8 @@ nsCSSValuePairList
 aOther
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 bool
 operator
@@ -5290,7 +5299,8 @@ nsCSSValuePairList
 aOther
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -5939,7 +5949,8 @@ nsCSSValueGradient
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 nsCSSValueGradient
 &
@@ -5951,7 +5962,8 @@ nsCSSValueGradient
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -6233,7 +6245,8 @@ nsCSSValueTokenStream
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 nsCSSValueTokenStream
 &
@@ -6245,7 +6258,8 @@ nsCSSValueTokenStream
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -6377,7 +6391,8 @@ nsCSSValueFloatColor
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 nsCSSValueFloatColor
 &
@@ -6389,7 +6404,8 @@ nsCSSValueFloatColor
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

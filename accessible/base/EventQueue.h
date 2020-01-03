@@ -60,7 +60,8 @@ const
 EventQueue
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 EventQueue
 &
@@ -71,7 +72,8 @@ const
 EventQueue
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 CoalesceEvents

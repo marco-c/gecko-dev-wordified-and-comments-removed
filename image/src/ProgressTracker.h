@@ -468,7 +468,8 @@ ProgressTracker
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 SetImage

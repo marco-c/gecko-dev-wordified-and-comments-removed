@@ -158,7 +158,8 @@ nsAtomList
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 nsAtomList
 &
@@ -170,7 +171,8 @@ nsAtomList
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -307,7 +309,8 @@ nsPseudoClassList
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 nsPseudoClassList
 &
@@ -319,7 +322,8 @@ nsPseudoClassList
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -543,7 +547,8 @@ nsAttrSelector
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 nsAttrSelector
 &
@@ -555,7 +560,8 @@ nsAttrSelector
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -984,7 +990,8 @@ nsCSSSelector
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 nsCSSSelector
 &
@@ -996,7 +1003,8 @@ nsCSSSelector
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1104,7 +1112,8 @@ nsCSSSelectorList
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 nsCSSSelectorList
 &
@@ -1116,7 +1125,8 @@ nsCSSSelectorList
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1478,7 +1488,8 @@ StyleRule
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

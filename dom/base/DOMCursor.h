@@ -127,7 +127,8 @@ private
 DOMCursor
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 already_AddRefed
 <
@@ -154,7 +155,8 @@ ErrorResult
 &
 aRv
 )
-MOZ_DELETE
+=
+delete
 ;
 nsCOMPtr
 <

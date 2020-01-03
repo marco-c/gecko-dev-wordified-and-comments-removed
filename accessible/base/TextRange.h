@@ -710,7 +710,8 @@ TextRange
 &
 aRange
 )
-MOZ_DELETE
+=
+delete
 ;
 TextRange
 &
@@ -722,7 +723,8 @@ TextRange
 &
 aRange
 )
-MOZ_DELETE
+=
+delete
 ;
 friend
 class

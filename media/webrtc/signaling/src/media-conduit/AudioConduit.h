@@ -663,7 +663,8 @@ WebrtcAudioConduit
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -674,7 +675,8 @@ WebrtcAudioConduit
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 typedef
 std

@@ -7726,7 +7726,8 @@ XPCWrappedNativeTearOff
 &
 r
 )
-MOZ_DELETE
+=
+delete
 ;
 XPCWrappedNativeTearOff
 &
@@ -7738,7 +7739,8 @@ XPCWrappedNativeTearOff
 &
 r
 )
-MOZ_DELETE
+=
+delete
 ;
 private
 :
@@ -11465,7 +11467,8 @@ const
 AutoScriptEvaluate
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 AutoScriptEvaluate
 &
@@ -11476,7 +11479,8 @@ const
 AutoScriptEvaluate
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

@@ -929,7 +929,8 @@ const
 nsFloatManager
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -939,7 +940,8 @@ const
 nsFloatManager
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

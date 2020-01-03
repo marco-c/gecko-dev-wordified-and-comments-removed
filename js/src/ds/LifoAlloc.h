@@ -752,7 +752,8 @@ const
 LifoAlloc
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 LifoAlloc
 (
@@ -760,7 +761,8 @@ const
 LifoAlloc
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 BumpChunk
 *

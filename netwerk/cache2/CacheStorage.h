@@ -134,7 +134,8 @@ mType
 CacheEntryTable
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

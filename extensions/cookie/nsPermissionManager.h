@@ -357,7 +357,8 @@ private
 PermissionKey
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 ~
 PermissionKey
@@ -913,7 +914,8 @@ permissions
 GetPermissionsForAppStruct
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 GetPermissionsForAppStruct
 (

@@ -1001,7 +1001,8 @@ const
 nsGonkCameraControl
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 nsGonkCameraControl
 &
@@ -1012,7 +1013,8 @@ const
 nsGonkCameraControl
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

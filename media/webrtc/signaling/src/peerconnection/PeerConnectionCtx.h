@@ -208,7 +208,8 @@ PeerConnectionCtx
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -219,7 +220,8 @@ PeerConnectionCtx
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 virtual
 ~

@@ -1223,7 +1223,8 @@ month
 bool
 isLeapYear
 )
-MOZ_DELETE
+=
+delete
 ;
 static
 double

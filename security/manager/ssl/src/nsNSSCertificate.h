@@ -426,7 +426,8 @@ const
 nsNSSCertList
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -436,7 +437,8 @@ const
 nsNSSCertList
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -495,7 +497,8 @@ const
 nsNSSCertListEnumerator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -505,7 +508,8 @@ const
 nsNSSCertListEnumerator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

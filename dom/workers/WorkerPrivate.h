@@ -3835,7 +3835,8 @@ private
 ChromeWorkerPrivate
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 ChromeWorkerPrivate
 (
@@ -3844,7 +3845,8 @@ ChromeWorkerPrivate
 &
 aRHS
 )
-MOZ_DELETE
+=
+delete
 ;
 ChromeWorkerPrivate
 &
@@ -3856,7 +3858,8 @@ ChromeWorkerPrivate
 &
 aRHS
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

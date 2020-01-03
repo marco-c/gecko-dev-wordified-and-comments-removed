@@ -112,7 +112,8 @@ mFetchRecursionCount
 FetchDriver
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 FetchDriver
 (
@@ -120,7 +121,8 @@ const
 FetchDriver
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 FetchDriver
 &
@@ -131,7 +133,8 @@ const
 FetchDriver
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 ~
 FetchDriver

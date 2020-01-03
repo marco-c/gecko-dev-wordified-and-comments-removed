@@ -120,7 +120,8 @@ private
 MediaResourceHandler
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 MediaResourceHandler
 (
@@ -128,7 +129,8 @@ const
 MediaResourceHandler
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 MediaResourceHandler
@@ -140,7 +142,8 @@ const
 MediaResourceHandler
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 wp
 <

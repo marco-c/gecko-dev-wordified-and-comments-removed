@@ -159,7 +159,8 @@ const
 I420ColorConverterHelper
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 I420ColorConverterHelper
@@ -171,7 +172,8 @@ const
 I420ColorConverterHelper
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

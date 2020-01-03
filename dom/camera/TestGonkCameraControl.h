@@ -256,7 +256,8 @@ const
 TestGonkCameraControl
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 TestGonkCameraControl
 &
@@ -267,7 +268,8 @@ const
 TestGonkCameraControl
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

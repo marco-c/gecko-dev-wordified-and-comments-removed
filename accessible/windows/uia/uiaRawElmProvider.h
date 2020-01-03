@@ -180,7 +180,8 @@ private
 uiaRawElmProvider
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 uiaRawElmProvider
 &
@@ -191,7 +192,8 @@ const
 uiaRawElmProvider
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 uiaRawElmProvider
 (
@@ -199,7 +201,8 @@ const
 uiaRawElmProvider
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 protected
 :

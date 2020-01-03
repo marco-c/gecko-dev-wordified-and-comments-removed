@@ -131,7 +131,8 @@ private
 TouchCaret
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 ~
 TouchCaret

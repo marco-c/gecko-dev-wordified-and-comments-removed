@@ -1882,7 +1882,8 @@ endif
 LogicalPoint
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 nscoord
 I
@@ -2677,7 +2678,8 @@ LogicalRect
 LogicalSize
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 #
 ifdef
@@ -4091,7 +4093,8 @@ LogicalRect
 LogicalMargin
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 #
 ifdef
@@ -5923,7 +5926,8 @@ private
 LogicalRect
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 #
 ifdef

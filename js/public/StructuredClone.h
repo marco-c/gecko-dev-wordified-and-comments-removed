@@ -678,7 +678,8 @@ JSAutoStructuredCloneBuffer
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 JSAutoStructuredCloneBuffer
 &
@@ -690,7 +691,8 @@ JSAutoStructuredCloneBuffer
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

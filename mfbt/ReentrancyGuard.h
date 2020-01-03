@@ -123,7 +123,8 @@ const
 ReentrancyGuard
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -133,7 +134,8 @@ const
 ReentrancyGuard
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

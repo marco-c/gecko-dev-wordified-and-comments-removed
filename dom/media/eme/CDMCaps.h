@@ -374,7 +374,8 @@ const
 CDMCaps
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 CDMCaps
 &
@@ -385,7 +386,8 @@ const
 CDMCaps
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

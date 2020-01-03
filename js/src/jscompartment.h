@@ -473,7 +473,8 @@ private
 CrossCompartmentKey
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -2214,7 +2215,8 @@ const
 AutoCompartment
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 AutoCompartment
 &
@@ -2225,7 +2227,8 @@ const
 AutoCompartment
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

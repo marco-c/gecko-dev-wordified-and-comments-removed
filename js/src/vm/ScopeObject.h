@@ -2267,7 +2267,8 @@ ScopeIter
 &
 si
 )
-MOZ_DELETE
+=
+delete
 ;
 ScopeIter
 (
@@ -2275,7 +2276,8 @@ JSContext
 *
 cx
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

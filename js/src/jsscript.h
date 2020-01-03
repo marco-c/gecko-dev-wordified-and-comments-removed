@@ -8670,7 +8670,8 @@ private
 SharedScriptData
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 SharedScriptData
 (
@@ -8678,7 +8679,8 @@ const
 SharedScriptData
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

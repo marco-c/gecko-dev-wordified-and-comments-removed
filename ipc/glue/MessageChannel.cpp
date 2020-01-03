@@ -621,7 +621,8 @@ InterruptFrame
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 InterruptFrame
 &
@@ -632,7 +633,8 @@ const
 InterruptFrame
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -834,7 +836,8 @@ mThat
 CxxStackFrame
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 CxxStackFrame
 (
@@ -842,7 +845,8 @@ const
 CxxStackFrame
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 CxxStackFrame
 &
@@ -853,7 +857,8 @@ const
 CxxStackFrame
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

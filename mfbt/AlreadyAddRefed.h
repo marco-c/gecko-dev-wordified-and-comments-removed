@@ -116,7 +116,8 @@ T
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 already_AddRefed
 (

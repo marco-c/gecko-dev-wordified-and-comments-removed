@@ -614,7 +614,8 @@ const
 ErrorResult
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

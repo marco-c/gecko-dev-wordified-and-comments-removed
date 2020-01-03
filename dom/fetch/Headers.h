@@ -129,7 +129,8 @@ Headers
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 static
 bool

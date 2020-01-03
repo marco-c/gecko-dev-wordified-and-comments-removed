@@ -43996,7 +43996,8 @@ const
 DR_FrameTypeInfo
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

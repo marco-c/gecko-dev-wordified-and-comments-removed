@@ -215,7 +215,8 @@ nsPrintObject
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

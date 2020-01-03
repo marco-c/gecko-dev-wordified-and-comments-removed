@@ -674,7 +674,8 @@ const
 AutoResolveRefLayers
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 AutoResolveRefLayers
 &
@@ -685,7 +686,8 @@ const
 AutoResolveRefLayers
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

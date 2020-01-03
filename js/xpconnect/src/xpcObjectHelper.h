@@ -400,7 +400,8 @@ xpcObjectHelper
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 nsISupports
 *

@@ -107,7 +107,8 @@ nsAccessiblePivot
 nsAccessiblePivot
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 nsAccessiblePivot
 (
@@ -115,7 +116,8 @@ const
 nsAccessiblePivot
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -125,7 +127,8 @@ const
 nsAccessiblePivot
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 bool
 NotifyOfPivotChange

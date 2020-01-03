@@ -1068,7 +1068,8 @@ DeadlockDetector
 &
 aDD
 )
-MOZ_DELETE
+=
+delete
 ;
 DeadlockDetector
 &
@@ -1080,7 +1081,8 @@ DeadlockDetector
 &
 aDD
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

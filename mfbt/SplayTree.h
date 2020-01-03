@@ -1220,7 +1220,8 @@ const
 SplayTree
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -1230,7 +1231,8 @@ const
 SplayTree
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

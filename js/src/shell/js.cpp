@@ -4936,7 +4936,8 @@ const
 AutoNewContext
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

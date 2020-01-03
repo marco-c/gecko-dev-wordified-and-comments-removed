@@ -470,7 +470,8 @@ ScopedArrayBufferContents
 &
 source
 )
-MOZ_DELETE
+=
+delete
 ;
 ScopedArrayBufferContents
 &
@@ -481,7 +482,8 @@ ScopedArrayBufferContents
 &
 source
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

@@ -786,7 +786,8 @@ bool
 *
 result
 )
-MOZ_DELETE
+=
+delete
 ;
 extern
 bool

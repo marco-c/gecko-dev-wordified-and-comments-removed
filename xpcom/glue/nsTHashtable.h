@@ -846,7 +846,8 @@ EntryType
 &
 aToCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 Init
@@ -886,7 +887,8 @@ EntryType
 &
 aToEqual
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

@@ -4611,7 +4611,8 @@ FastInvokeGuard
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 FastInvokeGuard
@@ -4624,7 +4625,8 @@ FastInvokeGuard
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

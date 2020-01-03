@@ -478,7 +478,8 @@ private
 MediaCodecProxy
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 MediaCodecProxy
 (
@@ -486,7 +487,8 @@ const
 MediaCodecProxy
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 MediaCodecProxy
@@ -498,7 +500,8 @@ const
 MediaCodecProxy
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 MediaCodecProxy
 (

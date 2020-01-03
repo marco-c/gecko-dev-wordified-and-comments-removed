@@ -857,7 +857,8 @@ BaseShape
 &
 base
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :
@@ -2831,7 +2832,8 @@ Shape
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 static
 inline

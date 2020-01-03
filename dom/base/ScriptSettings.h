@@ -580,7 +580,8 @@ const
 AutoJSAPI
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 AutoJSAPI
 &
@@ -591,7 +592,8 @@ const
 AutoJSAPI
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

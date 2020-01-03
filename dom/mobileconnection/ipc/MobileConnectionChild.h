@@ -116,7 +116,8 @@ private
 MobileConnectionChild
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 ~
 MobileConnectionChild

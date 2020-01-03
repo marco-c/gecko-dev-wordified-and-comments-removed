@@ -503,7 +503,8 @@ XrayTraits
 XrayTraits
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 XrayTraits
@@ -514,7 +515,8 @@ operator
 XrayTraits
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

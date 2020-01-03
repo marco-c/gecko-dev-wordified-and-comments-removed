@@ -679,7 +679,8 @@ UncopyableValue
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 UncopyableValue
 &
@@ -691,7 +692,8 @@ UncopyableValue
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 Status
 mStatus
@@ -781,7 +783,8 @@ UnmovableValue
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 UnmovableValue
 &
@@ -793,7 +796,8 @@ UnmovableValue
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 Status
 mStatus
@@ -861,7 +865,8 @@ UncopyableUnmovableValue
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 UncopyableUnmovableValue
 &
@@ -873,7 +878,8 @@ UncopyableUnmovableValue
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 UncopyableUnmovableValue
 (
@@ -882,7 +888,8 @@ UncopyableUnmovableValue
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 UncopyableUnmovableValue
 &
@@ -894,7 +901,8 @@ UncopyableUnmovableValue
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 Status
 mStatus

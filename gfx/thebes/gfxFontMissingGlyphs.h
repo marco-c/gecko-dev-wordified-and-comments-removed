@@ -85,7 +85,8 @@ Rect
 gfxFontMissingGlyphs
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

@@ -198,7 +198,8 @@ const
 TypedArrayObjectStorage
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -494,7 +495,8 @@ const
 TypedArray_base
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -787,7 +789,8 @@ const
 TypedArray
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

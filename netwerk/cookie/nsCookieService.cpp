@@ -17095,7 +17095,8 @@ cookies
 GetCookiesForAppStruct
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 GetCookiesForAppStruct
 (

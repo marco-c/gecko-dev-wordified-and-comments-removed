@@ -42,7 +42,8 @@ private
 CSS
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

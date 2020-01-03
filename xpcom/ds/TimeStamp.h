@@ -668,7 +668,8 @@ double
 aMultiplier
 )
 const
-MOZ_DELETE
+=
+delete
 ;
 public
 :

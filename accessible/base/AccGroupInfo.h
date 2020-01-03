@@ -353,7 +353,8 @@ private
 AccGroupInfo
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 AccGroupInfo
 (
@@ -361,7 +362,8 @@ const
 AccGroupInfo
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 AccGroupInfo
 &
@@ -372,7 +374,8 @@ const
 AccGroupInfo
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 static
 mozilla

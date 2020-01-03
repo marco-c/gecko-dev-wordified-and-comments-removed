@@ -5915,7 +5915,8 @@ AutoStableStringChars
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -5926,7 +5927,8 @@ AutoStableStringChars
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

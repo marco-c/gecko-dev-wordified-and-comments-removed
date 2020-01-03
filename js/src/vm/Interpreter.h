@@ -426,7 +426,8 @@ RunState
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 RunState
 (
@@ -435,7 +436,8 @@ ExecuteState
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 RunState
 (
@@ -444,7 +446,8 @@ InvokeState
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -455,7 +458,8 @@ RunState
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

@@ -33,7 +33,8 @@ SVGFragmentIdentifier
 SVGFragmentIdentifier
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

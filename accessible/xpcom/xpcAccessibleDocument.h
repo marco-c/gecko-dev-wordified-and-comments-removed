@@ -270,7 +270,8 @@ const
 xpcAccessibleDocument
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 xpcAccessibleDocument
 &
@@ -281,7 +282,8 @@ const
 xpcAccessibleDocument
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 nsRefPtrHashtable
 <

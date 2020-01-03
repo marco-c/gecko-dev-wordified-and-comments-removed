@@ -130,7 +130,8 @@ private
 HeapCopyOfStackArray
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 HeapCopyOfStackArray
 (
@@ -138,7 +139,8 @@ const
 HeapCopyOfStackArray
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 size_t

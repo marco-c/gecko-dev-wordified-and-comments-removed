@@ -5248,7 +5248,8 @@ const
 AutoLockGC
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 AutoLockGC
 &
@@ -5259,7 +5260,8 @@ const
 AutoLockGC
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -5317,7 +5319,8 @@ const
 AutoUnlockGC
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 AutoUnlockGC
 &
@@ -5328,7 +5331,8 @@ const
 AutoUnlockGC
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

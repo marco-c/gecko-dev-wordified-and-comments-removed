@@ -1475,7 +1475,8 @@ AnnotationInfo
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -1486,7 +1487,8 @@ AnnotationInfo
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

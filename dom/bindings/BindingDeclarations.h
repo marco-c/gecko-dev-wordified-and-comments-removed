@@ -516,7 +516,8 @@ Optional_base
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 Optional_base
@@ -529,7 +530,8 @@ Optional_base
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 protected
 :
@@ -905,7 +907,8 @@ private
 Optional
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 explicit
 Optional
@@ -916,7 +919,8 @@ JS
 Value
 aValue
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -1184,7 +1188,8 @@ Optional
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 Optional
@@ -1197,7 +1202,8 @@ Optional
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 bool
 mPassed

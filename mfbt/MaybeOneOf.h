@@ -580,7 +580,8 @@ MaybeOneOf
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 MaybeOneOf
@@ -593,7 +594,8 @@ MaybeOneOf
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

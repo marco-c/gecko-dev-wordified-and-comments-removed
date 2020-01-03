@@ -2759,7 +2759,8 @@ private
 Accessible
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 Accessible
 (
@@ -2767,7 +2768,8 @@ const
 Accessible
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 Accessible
 &
@@ -2778,7 +2780,8 @@ const
 Accessible
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

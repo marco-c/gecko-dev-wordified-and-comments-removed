@@ -213,7 +213,8 @@ const
 DOMCameraControlListener
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 DOMCameraControlListener
 &
@@ -224,7 +225,8 @@ const
 DOMCameraControlListener
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

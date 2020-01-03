@@ -3482,7 +3482,8 @@ AnyOrder
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -3686,7 +3687,8 @@ AnyOrder
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -3953,7 +3955,8 @@ Order
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4101,7 +4104,8 @@ Order
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4222,7 +4226,8 @@ Order
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -4376,7 +4381,8 @@ Order
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

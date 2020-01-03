@@ -184,7 +184,8 @@ T
 >
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 AutoClose
 (
@@ -195,7 +196,8 @@ T
 >
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 nsCOMPtr
 <

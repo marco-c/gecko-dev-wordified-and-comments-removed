@@ -99,7 +99,8 @@ aRv
 CellBroadcast
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 CellBroadcast
 (

@@ -113,7 +113,8 @@ CounterStyle
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -124,7 +125,8 @@ CounterStyle
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

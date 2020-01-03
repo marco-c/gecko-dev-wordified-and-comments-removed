@@ -161,7 +161,8 @@ HRTFElevation
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -172,7 +173,8 @@ HRTFElevation
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 HRTFElevation
 (

@@ -178,7 +178,8 @@ private
 StyleInfo
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 StyleInfo
 (
@@ -186,7 +187,8 @@ const
 StyleInfo
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 StyleInfo
 &
@@ -197,7 +199,8 @@ const
 StyleInfo
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 Margin

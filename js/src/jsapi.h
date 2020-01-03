@@ -1607,7 +1607,8 @@ AutoHashMapRooter
 &
 hmr
 )
-MOZ_DELETE
+=
+delete
 ;
 AutoHashMapRooter
 &
@@ -1619,7 +1620,8 @@ AutoHashMapRooter
 &
 hmr
 )
-MOZ_DELETE
+=
+delete
 ;
 HashMapImpl
 map
@@ -2077,7 +2079,8 @@ AutoHashSetRooter
 &
 hmr
 )
-MOZ_DELETE
+=
+delete
 ;
 AutoHashSetRooter
 &
@@ -2089,7 +2092,8 @@ AutoHashSetRooter
 &
 hmr
 )
-MOZ_DELETE
+=
+delete
 ;
 HashSetImpl
 set
@@ -3511,7 +3515,8 @@ SourceBufferHolder
 SourceBufferHolder
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 SourceBufferHolder
 &
@@ -3521,7 +3526,8 @@ operator
 SourceBufferHolder
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 const
 char16_t
@@ -8288,7 +8294,8 @@ AutoIdArray
 &
 ida
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -8298,7 +8305,8 @@ AutoIdArray
 &
 ida
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -15052,7 +15060,8 @@ const
 ReadOnlyCompileOptions
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -15525,7 +15534,8 @@ CompileOptions
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -16088,7 +16098,8 @@ CompileOptions
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -20239,7 +20250,8 @@ const
 AutoFilename
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -20249,7 +20261,8 @@ const
 AutoFilename
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :
@@ -20690,7 +20703,8 @@ const
 ForOfIterator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 ForOfIterator
 &
@@ -20701,7 +20715,8 @@ const
 ForOfIterator
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

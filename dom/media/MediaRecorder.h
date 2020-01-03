@@ -310,7 +310,8 @@ MediaRecorder
 &
 x
 )
-MOZ_DELETE
+=
+delete
 ;
 nsresult
 CreateAndDispatchBlobEvent
@@ -361,7 +362,8 @@ MediaRecorder
 &
 x
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 RemoveSession

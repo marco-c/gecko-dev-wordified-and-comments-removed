@@ -93,7 +93,8 @@ StringBuffer
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -104,7 +105,8 @@ StringBuffer
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 MOZ_ALWAYS_INLINE
 bool

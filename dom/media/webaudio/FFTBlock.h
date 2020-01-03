@@ -610,7 +610,8 @@ FFTBlock
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -621,7 +622,8 @@ FFTBlock
 &
 other
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 EnsureFFT

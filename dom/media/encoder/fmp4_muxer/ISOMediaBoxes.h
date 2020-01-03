@@ -201,7 +201,8 @@ protected
 Box
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 Box
 (
@@ -278,7 +279,8 @@ aControl
 FullBox
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -340,7 +342,8 @@ aControl
 DefaultContainerImpl
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 nsTArray
 <
@@ -1353,7 +1356,8 @@ protected
 SampleEntryBox
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

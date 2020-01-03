@@ -48,7 +48,8 @@ const
 PriorityQueue
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 PriorityQueue
 &
@@ -59,7 +60,8 @@ const
 PriorityQueue
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

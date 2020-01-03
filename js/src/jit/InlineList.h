@@ -76,7 +76,8 @@ T
 >
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 protected
 :
@@ -1082,7 +1083,8 @@ T
 >
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -1095,7 +1097,8 @@ T
 >
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 protected
 :
@@ -2896,7 +2899,8 @@ T
 >
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 protected
 :

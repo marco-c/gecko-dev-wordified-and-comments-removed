@@ -177,7 +177,8 @@ nsIPresShell
 *
 )
 MOZ_MUST_OVERRIDE
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

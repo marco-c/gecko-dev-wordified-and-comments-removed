@@ -1521,7 +1521,8 @@ const
 PseudoStack
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -1531,7 +1532,8 @@ const
 PseudoStack
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 PendingMarkers
 mPendingMarkers

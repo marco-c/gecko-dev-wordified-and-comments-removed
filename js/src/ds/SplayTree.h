@@ -93,7 +93,8 @@ const
 SplayTree
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 SplayTree
 &
@@ -104,7 +105,8 @@ const
 SplayTree
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

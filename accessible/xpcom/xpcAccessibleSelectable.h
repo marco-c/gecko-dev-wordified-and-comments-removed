@@ -129,7 +129,8 @@ const
 xpcAccessibleSelectable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 xpcAccessibleSelectable
 &
@@ -140,7 +141,8 @@ const
 xpcAccessibleSelectable
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 Accessible
 *

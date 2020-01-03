@@ -445,7 +445,8 @@ private
 PixelRoundedRect
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

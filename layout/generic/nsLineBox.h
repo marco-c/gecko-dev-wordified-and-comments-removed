@@ -529,7 +529,8 @@ aPtr
 size_t
 sz
 )
-MOZ_DELETE
+=
+delete
 ;
 public
 :

@@ -1293,7 +1293,8 @@ CSSStyleSheet
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 CSSStyleSheet
 &
@@ -1305,7 +1306,8 @@ CSSStyleSheet
 &
 aCopy
 )
-MOZ_DELETE
+=
+delete
 ;
 protected
 :

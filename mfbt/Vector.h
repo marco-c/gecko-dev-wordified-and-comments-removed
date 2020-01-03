@@ -2164,7 +2164,8 @@ const
 VectorBase
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -2174,7 +2175,8 @@ const
 VectorBase
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 VectorBase
 (
@@ -2182,7 +2184,8 @@ VectorBase
 &
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 void
 operator
@@ -2192,7 +2195,8 @@ VectorBase
 &
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

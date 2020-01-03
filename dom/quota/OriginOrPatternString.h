@@ -163,7 +163,8 @@ OriginOrPatternString
 &
 aOther
 )
-MOZ_DELETE
+=
+delete
 ;
 bool
 mIsOrigin

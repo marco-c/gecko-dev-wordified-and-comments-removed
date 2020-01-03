@@ -1197,7 +1197,8 @@ private
 RangedPtr
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 T
 *
@@ -1205,7 +1206,8 @@ operator
 &
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

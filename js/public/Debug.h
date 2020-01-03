@@ -324,7 +324,8 @@ private
 BuiltThing
 (
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

@@ -181,7 +181,8 @@ const
 nsStyleChangeList
 &
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;

@@ -506,7 +506,8 @@ nsZipArchive
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 nsZipArchive
 (
@@ -515,7 +516,8 @@ nsZipArchive
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
@@ -586,7 +588,8 @@ nsZipFind
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 nsZipFind
 (
@@ -595,7 +598,8 @@ nsZipFind
 &
 rhs
 )
-MOZ_DELETE
+=
+delete
 ;
 }
 ;
