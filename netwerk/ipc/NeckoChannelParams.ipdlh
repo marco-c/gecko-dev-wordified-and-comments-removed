@@ -520,6 +520,9 @@ HttpChannelConnectArgs
 uint32_t
 channelId
 ;
+bool
+shouldIntercept
+;
 }
 ;
 union

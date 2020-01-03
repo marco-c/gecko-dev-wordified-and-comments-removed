@@ -809,6 +809,12 @@ bool
 mSuspendSent
 ;
 bool
+mSynthesizedResponse
+;
+bool
+mShouldParentIntercept
+;
+bool
 RemoteChannelExists
 (
 )
