@@ -164,15 +164,6 @@ mozharness
 .
 .
 #
-if
-[
-!
--
-d
-mozharness
-]
-;
-then
 tc
 -
 vcs
@@ -182,7 +173,6 @@ MOZHARNESS_REPOSITORY
 MOZHARNESS_REPOSITORY
 MOZHARNESS_REV
 MOZHARNESS_REF
-fi
 #
 Figure
 out
