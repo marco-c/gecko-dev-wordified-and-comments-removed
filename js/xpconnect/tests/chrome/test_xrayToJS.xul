@@ -2206,6 +2206,15 @@ reduce
 "
 reduceRight
 "
+"
+entries
+"
+"
+keys
+"
+"
+values
+"
 ]
 ;
 if
