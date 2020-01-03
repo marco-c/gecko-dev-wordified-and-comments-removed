@@ -1942,6 +1942,12 @@ sendOOB
 ;
 connection
 .
+timeoutDelay
+=
+0
+;
+connection
+.
 connect
 (
 )
