@@ -1247,10 +1247,6 @@ UpdateSourceContent
 (
 )
 ;
-PostUpdate
-(
-)
-;
 if
 (
 mReady
