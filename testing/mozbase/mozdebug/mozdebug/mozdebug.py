@@ -464,30 +464,29 @@ it
 '
 s
 the
-list
-of
 arguments
 to
 pass
 to
 the
-     
 debugger
+    
+as
+a
+string
 .
-A
+Any
 debugger
+-
 specific
 separator
 arguments
-is
+are
 appended
-at
-the
-end
-of
-     
-that
-list
+after
+these
+    
+arguments
 .
     
 :
@@ -659,14 +658,8 @@ requiresEscapedArgs
     
 debugger_arguments
 =
-get_debugger_info
-(
-'
-args
-'
 [
 ]
-)
     
 if
 debuggerArgs
@@ -679,6 +672,18 @@ debuggerArgs
 .
 split
 (
+)
+    
+debugger_arguments
++
+=
+get_debugger_info
+(
+'
+args
+'
+[
+]
 )
     
 debugger_interactive
