@@ -14282,6 +14282,9 @@ isHardwareAccelerated
 =
 true
 ;
+#
+ifdef
+XP_MACOSX
 try
 {
 let
@@ -14330,6 +14333,8 @@ e
 )
 {
 }
+#
+endif
 if
 (
 !
