@@ -11649,7 +11649,10 @@ aHandle
 ;
 }
 static
-bool
+JS
+:
+:
+AsmJSCacheResult
 AsmJSCacheOpenEntryForWrite
 (
 JS

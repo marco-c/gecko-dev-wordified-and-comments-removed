@@ -3341,7 +3341,10 @@ aHandle
 ;
 }
 static
-bool
+JS
+:
+:
+AsmJSCacheResult
 AsmJSCacheOpenEntryForWrite
 (
 JS
@@ -3389,7 +3392,10 @@ principal
 )
 {
 return
-false
+JS
+:
+:
+AsmJSCache_InternalError
 ;
 }
 return

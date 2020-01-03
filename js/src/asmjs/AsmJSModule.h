@@ -7696,7 +7696,10 @@ const
 }
 ;
 extern
-bool
+JS
+:
+:
+AsmJSCacheResult
 StoreAsmJSModuleInCache
 (
 AsmJSParser
