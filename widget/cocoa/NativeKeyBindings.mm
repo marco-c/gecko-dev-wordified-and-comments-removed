@@ -1770,7 +1770,13 @@ command
 s
 "
 this
+WidgetKeyboardEvent
+:
+:
+GetCommandStr
+(
 geckoCommand
+)
 )
 )
 ;
