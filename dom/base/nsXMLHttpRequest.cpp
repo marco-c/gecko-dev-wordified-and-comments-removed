@@ -7142,7 +7142,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_XMLHTTPREQUEST
+TYPE_XMLHTTPREQUEST
 uri
 mPrincipal
 doc
@@ -7342,7 +7342,7 @@ secFlags
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_XMLHTTPREQUEST
+TYPE_XMLHTTPREQUEST
 loadGroup
 nullptr
 nsIRequest
@@ -7368,7 +7368,7 @@ secFlags
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_XMLHTTPREQUEST
+TYPE_XMLHTTPREQUEST
 loadGroup
 nullptr
 nsIRequest

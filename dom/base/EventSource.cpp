@@ -3271,7 +3271,7 @@ securityFlags
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_EVENTSOURCE
+TYPE_DATAREQUEST
 mLoadGroup
 nullptr
 loadFlags
@@ -3294,7 +3294,7 @@ securityFlags
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_EVENTSOURCE
+TYPE_DATAREQUEST
 mLoadGroup
 nullptr
 loadFlags

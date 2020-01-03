@@ -1815,7 +1815,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_XMLHTTPREQUEST
+TYPE_XMLHTTPREQUEST
 uri
 principal
 callingDoc
@@ -2196,7 +2196,7 @@ SEC_NORMAL
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_XMLHTTPREQUEST
+TYPE_XMLHTTPREQUEST
 loadGroup
 req
 nsIRequest
