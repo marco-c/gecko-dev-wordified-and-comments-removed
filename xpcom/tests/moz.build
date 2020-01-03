@@ -371,10 +371,6 @@ TestXPIDLString
 TestUTF
 '
 #
-'
-TestAtoms
-'
-#
 ]
 #
 FIXME
