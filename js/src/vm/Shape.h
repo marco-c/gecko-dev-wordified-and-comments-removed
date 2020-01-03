@@ -1953,11 +1953,10 @@ base_
 PreBarrieredId
 propid_
 ;
-JS_ENUM_HEADER
-(
+enum
 SlotInfo
+:
 uint32_t
-)
 {
 FIXED_SLOTS_MAX
 =
@@ -1995,10 +1994,6 @@ JS_BIT
 -
 1
 }
-JS_ENUM_FOOTER
-(
-SlotInfo
-)
 ;
 uint32_t
 slotInfo
