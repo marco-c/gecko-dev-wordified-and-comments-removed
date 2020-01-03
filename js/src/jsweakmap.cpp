@@ -114,6 +114,12 @@ js
 :
 gc
 ;
+using
+mozilla
+:
+:
+UniquePtr
+;
 WeakMapBase
 :
 :

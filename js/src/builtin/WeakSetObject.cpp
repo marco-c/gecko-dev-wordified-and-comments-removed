@@ -88,6 +88,12 @@ using
 namespace
 js
 ;
+using
+mozilla
+:
+:
+UniquePtr
+;
 const
 Class
 WeakSetObject

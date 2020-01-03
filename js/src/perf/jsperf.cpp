@@ -31,6 +31,12 @@ JS
 :
 PerfMeasurement
 ;
+using
+mozilla
+:
+:
+UniquePtr
+;
 static
 PerfMeasurement
 *
