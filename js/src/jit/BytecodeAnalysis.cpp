@@ -164,6 +164,15 @@ length
 return
 false
 ;
+usesScopeChain_
+=
+script_
+-
+>
+hasAnyAliasedBindings
+(
+)
+;
 jsbytecode
 *
 end
