@@ -1495,11 +1495,6 @@ level
 INFO
             
 if
-passed
-=
-=
-0
-or
 failed
 >
 0
