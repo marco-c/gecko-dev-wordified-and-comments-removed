@@ -837,6 +837,11 @@ int
 aDeltaLog2
 )
 ;
+void
+ShrinkIfAppropriate
+(
+)
+;
 PLDHashTable
 (
 const
