@@ -283,7 +283,10 @@ AppleVDADecoder
 )
 ;
 virtual
-nsresult
+nsRefPtr
+<
+InitPromise
+>
 Init
 (
 )
@@ -344,6 +347,11 @@ AppleFrameRef
 aFrameRef
 )
 ;
+nsresult
+InitializeSession
+(
+)
+;
 protected
 :
 AppleFrameRef
@@ -368,6 +376,11 @@ ClearReorderedFrames
 ;
 CFDictionaryRef
 CreateOutputConfiguration
+(
+)
+;
+nsresult
+InitDecoder
 (
 )
 ;
@@ -431,11 +444,6 @@ SubmitFrame
 MediaRawData
 *
 aSample
-)
-;
-nsresult
-InitializeSession
-(
 )
 ;
 CFDictionaryRef

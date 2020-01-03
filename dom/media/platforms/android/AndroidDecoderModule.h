@@ -200,7 +200,13 @@ MediaCodecDataDecoder
 )
 ;
 virtual
-nsresult
+nsRefPtr
+<
+MediaDataDecoder
+:
+:
+InitPromise
+>
 Init
 (
 )

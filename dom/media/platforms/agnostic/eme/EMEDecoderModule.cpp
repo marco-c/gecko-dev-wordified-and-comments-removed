@@ -171,7 +171,10 @@ false
 {
 }
 virtual
-nsresult
+nsRefPtr
+<
+InitPromise
+>
 Init
 (
 )

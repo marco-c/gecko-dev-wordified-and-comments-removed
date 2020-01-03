@@ -59,7 +59,10 @@ OpusDataDecoder
 (
 )
 ;
-nsresult
+nsRefPtr
+<
+InitPromise
+>
 Init
 (
 )

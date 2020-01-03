@@ -62,7 +62,10 @@ FFmpegAudioDecoder
 )
 ;
 virtual
-nsresult
+nsRefPtr
+<
+InitPromise
+>
 Init
 (
 )
