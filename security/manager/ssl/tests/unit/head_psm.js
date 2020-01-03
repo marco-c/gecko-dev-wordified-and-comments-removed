@@ -888,6 +888,7 @@ certdb
 cert
 expectedError
 usage
+hostname
 )
 {
 let
@@ -912,6 +913,7 @@ verifyCertNow
 cert
 usage
 NO_FLAGS
+hostname
 verifiedChain
 hasEVPolicy
 )
