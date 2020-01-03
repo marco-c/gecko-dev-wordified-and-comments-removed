@@ -89,10 +89,7 @@ getNoAppCodebasePrincipal
 XUL_URI
 )
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

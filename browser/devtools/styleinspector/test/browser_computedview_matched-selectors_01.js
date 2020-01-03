@@ -34,10 +34,7 @@ doc_matched_selectors
 html
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

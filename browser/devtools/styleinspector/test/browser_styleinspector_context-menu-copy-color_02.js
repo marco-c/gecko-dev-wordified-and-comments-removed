@@ -11,10 +11,7 @@ TEST_COLOR
 123ABC
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

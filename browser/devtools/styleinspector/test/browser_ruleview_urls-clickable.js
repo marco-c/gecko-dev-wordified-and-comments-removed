@@ -46,10 +46,7 @@ w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg
 =
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

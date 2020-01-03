@@ -14,10 +14,7 @@ doc_media_queries
 html
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

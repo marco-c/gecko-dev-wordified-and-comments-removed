@@ -14,10 +14,7 @@ doc_keyframeanimation
 html
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

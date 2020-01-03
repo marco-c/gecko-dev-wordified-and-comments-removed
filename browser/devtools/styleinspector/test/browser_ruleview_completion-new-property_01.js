@@ -243,10 +243,7 @@ h1
 >
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *
