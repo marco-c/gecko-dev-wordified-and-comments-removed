@@ -335,6 +335,7 @@ browser_command
 self
 .
 binary
+            
 [
 "
 -
@@ -350,6 +351,15 @@ fail
 "
 "
 -
+u
+"
+"
+Servo
+/
+wptrunner
+"
+"
+-
 z
 "
 self
@@ -359,7 +369,7 @@ test_url
 test
 )
 ]
-                                              
+            
 self
 .
 debug_info
@@ -554,7 +564,9 @@ result_flag
 is_set
 (
 )
-and
+:
+                
+if
 self
 .
 result_data
@@ -562,7 +574,7 @@ is
 not
 None
 :
-                
+                    
 self
 .
 result_data
@@ -575,7 +587,7 @@ test
 test
 .
 url
-                
+                    
 result
 =
 self
@@ -587,22 +599,17 @@ self
 .
 result_data
 )
-            
+                
 else
 :
-                
-if
+                    
 self
 .
 proc
 .
-poll
+wait
 (
 )
-is
-not
-None
-:
                     
 result
 =
@@ -623,10 +630,10 @@ None
 proc_is_running
 =
 False
-                
+            
 else
 :
-                    
+                
 result
 =
 (
@@ -1110,6 +1117,15 @@ exit
                             
 "
 -
+u
+"
+"
+Servo
+/
+wptrunner
+"
+"
+-
 Z
 "
 "
@@ -1119,6 +1135,7 @@ text
 -
 aa
 "
+                            
 "
 -
 -
@@ -1129,7 +1146,6 @@ s
 "
 %
 output_path
-                            
 full_url
 ]
             
