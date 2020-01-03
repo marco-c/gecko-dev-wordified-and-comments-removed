@@ -744,7 +744,6 @@ MockWebSocketChannel
 )
 {
 }
-;
 MockWebSocketChannel
 .
 prototype

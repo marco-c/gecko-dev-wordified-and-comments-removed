@@ -160,7 +160,6 @@ Events
 )
 ;
 }
-;
 CallConnectionWebSocket
 .
 prototype

@@ -1162,6 +1162,7 @@ openChat
 ;
 }
 )
+;
 }
 else
 {

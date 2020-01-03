@@ -579,6 +579,7 @@ contact
 [
 prop
 ]
+;
 }
 }
 return
@@ -1197,6 +1198,7 @@ resolve
 ;
 }
 )
+;
 }
 )
 ;

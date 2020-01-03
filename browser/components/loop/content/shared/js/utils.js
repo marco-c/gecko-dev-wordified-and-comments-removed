@@ -106,6 +106,7 @@ mozL10n
 navigator
 .
 mozL10n
+;
 }
 var
 CALL_TYPES

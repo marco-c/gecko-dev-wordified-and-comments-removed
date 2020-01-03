@@ -1148,6 +1148,7 @@ this
 _pingSend
 (
 )
+;
 }
 this
 .
@@ -3115,6 +3116,7 @@ aReason
 )
 ;
 }
+;
 let
 pushServerURLFetchError
 =
@@ -3170,6 +3172,7 @@ _openSocket
 return
 ;
 }
+;
 try
 {
 this
@@ -3619,3 +3622,4 @@ channelID
 }
 }
 }
+;

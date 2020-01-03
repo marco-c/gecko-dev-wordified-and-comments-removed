@@ -1772,7 +1772,6 @@ nickname
 value
 ;
 }
-;
 if
 (
 name
@@ -2732,6 +2731,7 @@ error
 )
 ;
 }
+;
 req
 .
 send

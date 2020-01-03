@@ -171,7 +171,6 @@ resolve
 )
 ;
 }
-;
 return
 hawkRequestStub
 ;

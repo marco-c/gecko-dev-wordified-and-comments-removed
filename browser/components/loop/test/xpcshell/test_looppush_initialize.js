@@ -842,6 +842,7 @@ pingReceived
 true
 ;
 }
+;
 mockWebSocket
 .
 close
@@ -856,6 +857,7 @@ socketClosed
 true
 ;
 }
+;
 MozLoopPushHandler
 .
 shutdown
@@ -1447,4 +1449,3 @@ run_next_test
 )
 ;
 }
-;

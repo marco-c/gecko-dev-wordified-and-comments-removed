@@ -1677,6 +1677,7 @@ error
 )
 ;
 }
+;
 request
 .
 send
@@ -2659,6 +2660,7 @@ textContent
 "
 "
 )
+;
 contact
 .
 jobTitle

@@ -324,6 +324,7 @@ js
 utils
 "
 )
+;
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -966,6 +967,7 @@ pushHandler
 |
 |
 MozLoopPushHandler
+;
 }
 get
 loopServerUri
@@ -985,6 +987,7 @@ loop
 server
 "
 )
+;
 }
 get
 initialRegistrationDelayMilliseconds
@@ -1746,6 +1749,7 @@ pushURL
 ;
 }
 }
+;
 this
 .
 pushHandler
@@ -2605,6 +2609,7 @@ error
 )
 ;
 }
+;
 return
 Promise
 .
@@ -2785,7 +2790,6 @@ property
 ;
 }
 }
-;
 payloadObj
 =
 newPayloadObj
@@ -3753,6 +3757,7 @@ fail
 )
 ;
 }
+;
 worker
 .
 postMessage

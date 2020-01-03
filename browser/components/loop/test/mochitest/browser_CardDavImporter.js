@@ -56,6 +56,7 @@ password
 p455w0rd
 "
 }
+;
 let
 vcards
 =
@@ -1700,6 +1701,7 @@ return
 importer
 ;
 }
+;
 add_task
 (
 function
@@ -3936,3 +3938,4 @@ error
 ;
 }
 )
+;

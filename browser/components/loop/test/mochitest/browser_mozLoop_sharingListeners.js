@@ -147,7 +147,6 @@ listener
 )
 ;
 }
-;
 let
 createdTabs
 =
@@ -245,7 +244,6 @@ promiseHandlers
 )
 ;
 }
-;
 function
 promiseRemoveTab
 (
@@ -1009,6 +1007,7 @@ button
 )
 ;
 }
+;
 testBarProps
 (
 )
