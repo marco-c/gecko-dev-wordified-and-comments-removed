@@ -21,6 +21,9 @@ nsMathMLContainerFrame
 h
 "
 class
+nsFontMetrics
+;
+class
 nsMathMLmfencedFrame
 MOZ_FINAL
 :
@@ -181,6 +184,9 @@ aPresContext
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 nsMathMLChar
 *
 aMathMLChar

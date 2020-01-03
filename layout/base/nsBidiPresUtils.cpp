@@ -8908,6 +8908,7 @@ NS_OK
 class
 MOZ_STACK_CLASS
 nsIRenderingContextBidiProcessor
+MOZ_FINAL
 :
 public
 nsBidiPresUtils
@@ -8925,6 +8926,9 @@ aCtx
 nsRenderingContext
 *
 aTextRunConstructionContext
+nsFontMetrics
+*
+aFontMetrics
 const
 nsPoint
 &
@@ -8939,6 +8943,10 @@ mTextRunConstructionContext
 (
 aTextRunConstructionContext
 )
+mFontMetrics
+(
+aFontMetrics
+)
 mPt
 (
 aPt
@@ -8950,7 +8958,7 @@ nsIRenderingContextBidiProcessor
 (
 )
 {
-mCtx
+mFontMetrics
 -
 >
 SetTextRunRTL
@@ -8974,7 +8982,7 @@ aDirection
 )
 MOZ_OVERRIDE
 {
-mTextRunConstructionContext
+mFontMetrics
 -
 >
 SetTextRunRTL
@@ -9010,6 +9018,8 @@ AppUnitWidthOfString
 mText
 mLength
 *
+mFontMetrics
+*
 mTextRunConstructionContext
 )
 ;
@@ -9024,12 +9034,7 @@ nscoord
 )
 MOZ_OVERRIDE
 {
-mCtx
--
->
-FontMetrics
-(
-)
+mFontMetrics
 -
 >
 DrawString
@@ -9058,6 +9063,10 @@ mCtx
 nsRenderingContext
 *
 mTextRunConstructionContext
+;
+nsFontMetrics
+*
+mFontMetrics
 ;
 nsPoint
 mPt
@@ -9095,6 +9104,9 @@ aRenderingContext
 nsRenderingContext
 &
 aTextRunConstructionContext
+nsFontMetrics
+&
+aFontMetrics
 Mode
 aMode
 nscoord
@@ -9118,6 +9130,8 @@ processor
 aRenderingContext
 &
 aTextRunConstructionContext
+&
+aFontMetrics
 nsPoint
 (
 aX

@@ -2949,6 +2949,8 @@ GetStringWidth
 (
 this
 rendContext
+*
+fm
 value
 .
 get

@@ -128,6 +128,9 @@ LookAndFeel
 h
 "
 class
+nsFontMetrics
+;
+class
 nsOverflowChecker
 ;
 class
@@ -1279,6 +1282,9 @@ aColumn
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 nsRect
 &
 aTextRect

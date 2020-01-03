@@ -737,6 +737,8 @@ AppUnitBoundsOfString
 &
 overBar
 1
+*
+aFontMetrics
 aRenderingContext
 )
 ;
@@ -886,6 +888,8 @@ AppUnitBoundsOfString
 &
 minus
 1
+*
+aFontMetrics
 aRenderingContext
 )
 ;

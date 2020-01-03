@@ -26,6 +26,9 @@ nsAccessKeyInfo
 class
 nsAsyncAccesskeyUpdate
 ;
+class
+nsFontMetrics
+;
 typedef
 nsLeafBoxFrame
 nsTextBoxFrameSuper
@@ -314,6 +317,9 @@ CalculateUnderline
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 )
 ;
 void

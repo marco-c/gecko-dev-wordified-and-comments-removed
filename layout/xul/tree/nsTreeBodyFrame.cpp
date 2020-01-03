@@ -5805,6 +5805,8 @@ aRow
 currCol
 *
 rc
+*
+fm
 textRect
 )
 ;
@@ -5981,6 +5983,9 @@ aColumn
 nsRenderingContext
 &
 aRenderingContext
+nsFontMetrics
+&
+aFontMetrics
 nsRect
 &
 aTextRect
@@ -6015,6 +6020,7 @@ GetStringWidth
 this
 &
 aRenderingContext
+aFontMetrics
 aText
 .
 get
@@ -6225,7 +6231,7 @@ GetLocalizedEllipsis
 (
 )
 ;
-aRenderingContext
+aFontMetrics
 .
 SetTextRunRTL
 (
@@ -6241,6 +6247,7 @@ nsLayoutUtils
 AppUnitWidthOfString
 (
 kEllipsis
+aFontMetrics
 aRenderingContext
 )
 ;
@@ -6350,6 +6357,7 @@ nsLayoutUtils
 AppUnitWidthOfString
 (
 ch
+aFontMetrics
 aRenderingContext
 )
 ;
@@ -6444,6 +6452,7 @@ nsLayoutUtils
 AppUnitWidthOfString
 (
 ch
+aFontMetrics
 aRenderingContext
 )
 ;
@@ -6555,6 +6564,7 @@ nsLayoutUtils
 AppUnitWidthOfString
 (
 ch
+aFontMetrics
 aRenderingContext
 )
 ;
@@ -6593,6 +6603,7 @@ nsLayoutUtils
 AppUnitWidthOfString
 (
 ch
+aFontMetrics
 aRenderingContext
 )
 ;
@@ -6653,6 +6664,7 @@ GetStringWidth
 this
 &
 aRenderingContext
+aFontMetrics
 aText
 .
 get
@@ -7415,6 +7427,8 @@ aRowIndex
 aColumn
 *
 rc
+*
+fm
 textRect
 )
 ;
@@ -8025,6 +8039,8 @@ GetStringWidth
 (
 this
 aRenderingContext
+*
+fm
 cellText
 .
 get
@@ -16700,6 +16716,8 @@ text
 aRowIndex
 aColumn
 aRenderingContext
+*
+fontMet
 textRect
 )
 ;
@@ -17013,6 +17031,8 @@ nsLayoutUtils
 DrawString
 (
 this
+*
+fontMet
 &
 aRenderingContext
 text

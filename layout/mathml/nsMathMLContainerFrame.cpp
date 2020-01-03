@@ -243,6 +243,8 @@ errorMsg
 Length
 (
 )
+*
+fm
 aRenderingContext
 )
 ;
@@ -528,12 +530,7 @@ NS_RGB
 nscoord
 ascent
 =
-aCtx
--
->
-FontMetrics
-(
-)
+fm
 -
 >
 MaxAscent
@@ -579,6 +576,8 @@ y
 +
 ascent
 )
+*
+fm
 *
 aCtx
 )
