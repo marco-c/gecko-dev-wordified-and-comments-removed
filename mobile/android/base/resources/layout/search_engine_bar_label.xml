@@ -205,7 +205,7 @@ android
 scaleType
 =
 "
-fitCenter
+fitXY
 "
 /
 >

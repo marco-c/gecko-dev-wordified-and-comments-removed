@@ -924,7 +924,7 @@ getAdapter
 (
 )
 .
-getCount
+getItemCount
 (
 )
 -

@@ -224,6 +224,13 @@ match_parent
 "
 android
 :
+clickable
+=
+"
+true
+"
+android
+:
 background
 =
 "
