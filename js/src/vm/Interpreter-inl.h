@@ -1677,9 +1677,6 @@ baseops
 :
 :
 SetPropertyHelper
-<
-SequentialExecution
->
 (
 cx
 scope

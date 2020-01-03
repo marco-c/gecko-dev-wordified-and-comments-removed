@@ -12571,7 +12571,7 @@ SetPropertyIC
 NativeSetPropCacheability
 CanAttachNativeSetProp
 (
-ThreadSafeContext
+JSContext
 *
 cx
 HandleObject

@@ -1944,9 +1944,6 @@ NativeObject
 :
 :
 putProperty
-<
-SequentialExecution
->
 (
 cx
 obj
@@ -1960,11 +1957,9 @@ attrs
 0
 )
 )
-{
 return
 nullptr
 ;
-}
 MOZ_ASSERT
 (
 !
@@ -3997,9 +3992,6 @@ NativeObject
 :
 :
 addPropertyInternal
-<
-SequentialExecution
->
 (
 cx
 block

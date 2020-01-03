@@ -2137,10 +2137,7 @@ static
 bool
 reportReadOnly
 (
-js
-:
-:
-ThreadSafeContext
+JSContext
 *
 cx
 jsid
@@ -2154,10 +2151,7 @@ JSREPORT_ERROR
 bool
 reportNotConfigurable
 (
-js
-:
-:
-ThreadSafeContext
+JSContext
 *
 cx
 jsid
@@ -2171,10 +2165,7 @@ JSREPORT_ERROR
 bool
 reportNotExtensible
 (
-js
-:
-:
-ThreadSafeContext
+JSContext
 *
 cx
 unsigned
@@ -4924,7 +4915,7 @@ js
 bool
 LookupPropertyPure
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 JSObject
@@ -4945,7 +4936,7 @@ propp
 bool
 GetPropertyPure
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 JSObject
@@ -4962,7 +4953,7 @@ inline
 bool
 GetPropertyPure
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 JSObject
@@ -5073,7 +5064,7 @@ result
 bool
 GetObjectElementOperationPure
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 JSObject
