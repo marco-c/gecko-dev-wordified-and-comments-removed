@@ -1495,6 +1495,9 @@ components
 toolkit_osfile
 .
 xpt
+#
+ifdef
+NIGHTLY_BUILD
 BINPATH
 /
 components
@@ -1502,6 +1505,8 @@ components
 toolkit_perfmonitoring
 .
 xpt
+#
+endif
 BINPATH
 /
 components
