@@ -540,10 +540,12 @@ int32_t
 aStreamType
 )
 ;
-static
-const
-int32_t
+enum
+{
 STREAM_TYPE_UNKNOWN
+=
+UINT16_MAX
+}
 ;
 private
 :
