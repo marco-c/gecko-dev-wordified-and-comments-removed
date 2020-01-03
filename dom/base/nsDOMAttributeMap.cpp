@@ -50,6 +50,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+NodeInfoInlines
+.
+h
+"
+#
+include
+"
 nsAttrName
 .
 h
