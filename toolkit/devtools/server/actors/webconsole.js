@@ -5006,12 +5006,6 @@ listeners
 }
 )
 ;
-this
-.
-_lastChromeWindow
-=
-null
-;
 }
 }
 ;

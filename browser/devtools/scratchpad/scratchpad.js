@@ -9684,12 +9684,6 @@ addBrowserActors
 )
 ;
 }
-DebuggerServer
-.
-allowChromeProcess
-=
-true
-;
 let
 client
 =
@@ -9714,11 +9708,7 @@ connect
 {
 client
 .
-attachProcess
-(
-)
-.
-then
+listTabs
 (
 aResponse
 =
@@ -9757,8 +9747,6 @@ resolve
 form
 :
 aResponse
-.
-form
 client
 :
 client
