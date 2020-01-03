@@ -95,16 +95,6 @@ BUILDING_RELEASE
 =
 1
 .
-topsrcdir
-/
-build
-/
-win64
-/
-mozconfig
-.
-vs2013
-.
 "
 topsrcdir
 /
