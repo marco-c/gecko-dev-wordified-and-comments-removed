@@ -2111,10 +2111,6 @@ float
 aRightMargin
 float
 aBottomMargin
-uint32_t
-aAlignmentX
-uint32_t
-aAlignmentY
 nsIDOMElement
 *
 aElement
@@ -2225,8 +2221,6 @@ SetDisplayPortMargins
 content
 presShell
 displayportMargins
-aAlignmentX
-aAlignmentY
 aPriority
 )
 ;
