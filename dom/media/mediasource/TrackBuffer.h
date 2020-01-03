@@ -486,10 +486,8 @@ RemoveEmptyDecoders
 const
 nsTArray
 <
-nsRefPtr
-<
 SourceBufferDecoder
->
+*
 >
 &
 aDecoders
