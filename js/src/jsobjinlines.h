@@ -3252,6 +3252,7 @@ TaggedProto
 proto
 )
 parent
+allocKind
 newKind
 )
 ;
