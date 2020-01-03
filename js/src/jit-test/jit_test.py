@@ -1749,6 +1749,15 @@ read_all
 =
 True
     
+options
+.
+can_test_also_noasmjs
+=
+not
+options
+.
+debug
+    
 if
 test_args
 :

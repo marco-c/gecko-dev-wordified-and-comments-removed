@@ -1341,7 +1341,9 @@ test
 .
 test_also_noasmjs
 =
-True
+options
+.
+can_test_also_noasmjs
                     
 elif
 name
