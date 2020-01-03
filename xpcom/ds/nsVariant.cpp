@@ -8311,7 +8311,9 @@ aDataType
 =
 mData
 .
-mType
+GetType
+(
+)
 ;
 return
 NS_OK

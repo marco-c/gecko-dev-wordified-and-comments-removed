@@ -1304,7 +1304,9 @@ MOZ_ASSERT
 (
 mData
 .
-mType
+GetType
+(
+)
 =
 =
 nsIDataType
@@ -3223,7 +3225,9 @@ aDataType
 =
 mData
 .
-mType
+GetType
+(
+)
 ;
 return
 NS_OK
