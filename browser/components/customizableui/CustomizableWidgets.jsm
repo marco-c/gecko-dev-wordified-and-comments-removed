@@ -7363,6 +7363,10 @@ content
 browser
 -
 pocket
+-
+en
+-
+US
 .
 properties
 "

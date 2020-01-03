@@ -7281,6 +7281,18 @@ browser
 "
 )
 ;
+if
+(
+locale
+!
+=
+"
+en
+-
+US
+"
+)
+{
 let
 url
 =
@@ -7359,6 +7371,7 @@ catch
 err
 )
 {
+}
 }
 }
 document
