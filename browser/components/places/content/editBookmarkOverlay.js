@@ -3828,7 +3828,9 @@ PlacesMoveItemTransaction
 (
 this
 .
-_itemId
+_paneInfo
+.
+itemId
 containerId
 PlacesUtils
 .
