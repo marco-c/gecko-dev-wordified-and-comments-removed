@@ -51,12 +51,6 @@ String
 :
 [
 {
-quote
-:
-[
-]
-}
-{
 substring
 :
 [
