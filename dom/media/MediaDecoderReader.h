@@ -640,6 +640,17 @@ return
 false
 ;
 }
+virtual
+bool
+VideoIsHardwareAccelerated
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 virtual
