@@ -15,6 +15,8 @@ i
 :
 k
 :
+s
+:
 "
 arg
 ;
@@ -43,6 +45,13 @@ SECRET_KEY
 OPTARG
 ;
 ;
+s
+)
+SOCORRO_TOKEN
+=
+OPTARG
+;
+;
 esac
 done
 pushd
@@ -56,6 +65,8 @@ test
 KEY_ID
 test
 SECRET_KEY
+test
+SOCORRO_TOKEN
 (
 echo
 '
@@ -78,6 +89,12 @@ SECRET_KEY
 )
 >
 config
+echo
+SOCORRO_TOKEN
+>
+socorro
+.
+token
 docker
 build
 -
@@ -88,4 +105,10 @@ rm
 -
 f
 config
+rm
+-
+f
+socorro
+.
+token
 popd

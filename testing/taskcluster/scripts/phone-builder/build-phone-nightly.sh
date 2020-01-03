@@ -361,7 +361,6 @@ artifacts
 sources
 .
 xml
-#
 mv
 WORKSPACE
 /
