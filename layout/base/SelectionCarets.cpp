@@ -3916,7 +3916,9 @@ selection
 >
 GetRangeAt
 (
-0
+rangeCount
+-
+1
 )
 :
 selection
@@ -3924,9 +3926,7 @@ selection
 >
 GetRangeAt
 (
-rangeCount
--
-1
+0
 )
 ;
 if
