@@ -1330,11 +1330,6 @@ InspectorUtils
 webidl
 '
 '
-InstallEvent
-.
-webidl
-'
-'
 InterAppConnection
 .
 webidl

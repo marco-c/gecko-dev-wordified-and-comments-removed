@@ -418,9 +418,6 @@ IDBVersionChangeEvent
 ImageData
 "
 "
-InstallEvent
-"
-"
 MessageEvent
 "
 "
