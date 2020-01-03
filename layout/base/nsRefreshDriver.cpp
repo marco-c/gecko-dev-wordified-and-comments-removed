@@ -1885,6 +1885,9 @@ ToMilliseconds
 delay
 )
 ;
+#
+ifndef
+ANDROID
 Telemetry
 :
 :
@@ -1905,6 +1908,8 @@ ToMilliseconds
 )
 )
 ;
+#
+endif
 LOG
 (
 "
@@ -2425,6 +2430,9 @@ ToMilliseconds
 delay
 )
 ;
+#
+ifndef
+ANDROID
 Telemetry
 :
 :
@@ -2445,6 +2453,8 @@ ToMilliseconds
 )
 )
 ;
+#
+endif
 LOG
 (
 "
@@ -6974,6 +6984,9 @@ NotifyDidPaint
 ;
 }
 }
+#
+ifndef
+ANDROID
 mozilla
 :
 :
@@ -6992,6 +7005,8 @@ REFRESH_DRIVER_TICK
 mTickStart
 )
 ;
+#
+endif
 for
 (
 uint32_t
