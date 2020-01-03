@@ -1595,7 +1595,7 @@ DEBUG
 Label
 good
 ;
-testq
+testPtr
 (
 rsp
 Imm32

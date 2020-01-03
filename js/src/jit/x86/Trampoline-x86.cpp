@@ -421,7 +421,7 @@ header
 ;
 masm
 .
-cmpl
+cmp32
 (
 eax
 ebx

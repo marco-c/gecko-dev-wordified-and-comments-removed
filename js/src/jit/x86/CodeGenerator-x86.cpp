@@ -640,7 +640,7 @@ fallible
 {
 masm
 .
-cmpl
+cmp32
 (
 ToOperand
 (
@@ -2103,10 +2103,10 @@ mir
 }
 masm
 .
-cmpl
+cmpPtr
 (
 ptr
-Imm32
+ImmWord
 (
 mir
 -
@@ -2648,7 +2648,7 @@ cmp
 =
 masm
 .
-cmplWithPatch
+cmp32WithPatch
 (
 ptrReg
 Imm32
@@ -3142,10 +3142,10 @@ offset
 ;
 masm
 .
-cmpl
+cmpPtr
 (
 ptr
-Imm32
+ImmWord
 (
 mir
 -
@@ -3387,7 +3387,7 @@ cmp
 =
 masm
 .
-cmplWithPatch
+cmp32WithPatch
 (
 ptrReg
 Imm32
@@ -3593,7 +3593,7 @@ maybeCmpOffset
 =
 masm
 .
-cmplWithPatch
+cmp32WithPatch
 (
 ptrReg
 Imm32
@@ -3910,7 +3910,7 @@ maybeCmpOffset
 =
 masm
 .
-cmplWithPatch
+cmp32WithPatch
 (
 ptrReg
 Imm32
@@ -5689,8 +5689,8 @@ masm
 .
 ucomisd
 (
-input
 ScratchDoubleReg
+input
 )
 ;
 masm
@@ -5798,8 +5798,8 @@ masm
 .
 ucomisd
 (
-temp
 ScratchDoubleReg
+temp
 )
 ;
 masm
@@ -6122,9 +6122,9 @@ esp
 ;
 masm
 .
-movl
+load32
 (
-Operand
+Address
 (
 esp
 0
@@ -6215,8 +6215,8 @@ masm
 .
 ucomiss
 (
-input
 ScratchFloat32Reg
+input
 )
 ;
 masm
@@ -6324,8 +6324,8 @@ masm
 .
 ucomiss
 (
-temp
 ScratchFloat32Reg
+temp
 )
 ;
 masm

@@ -1144,11 +1144,11 @@ scratch
 ;
 cmpq
 (
-scratch
 Imm32
 (
 1
 )
+scratch
 )
 ;
 j
@@ -1181,7 +1181,7 @@ reg
 scratch
 )
 ;
-cmpl
+cmp32
 (
 scratch
 Imm32

@@ -1721,7 +1721,7 @@ DEBUG
 Label
 good
 ;
-testl
+test32
 (
 esp
 Imm32
@@ -2571,7 +2571,7 @@ isMarkable
 (
 )
 )
-cmpl
+cmpPtr
 (
 value
 .
@@ -2599,14 +2599,14 @@ toGCThing
 )
 ;
 else
-cmpl
+cmpPtr
 (
 value
 .
 payloadReg
 (
 )
-Imm32
+ImmWord
 (
 jv
 .
@@ -2637,7 +2637,7 @@ done
 )
 ;
 {
-cmpl
+cmp32
 (
 value
 .
@@ -2684,7 +2684,7 @@ NotEqual
 label
 )
 ;
-cmpl
+cmp32
 (
 value
 .

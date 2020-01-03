@@ -813,7 +813,7 @@ ScratchReg
 ;
 masm
 .
-cmpq
+cmpPtr
 (
 lhs
 .
@@ -955,7 +955,7 @@ ScratchReg
 ;
 masm
 .
-cmpq
+cmpPtr
 (
 lhs
 .
@@ -1074,7 +1074,7 @@ jsop
 ;
 masm
 .
-cmpq
+cmpPtr
 (
 lhs
 .
@@ -1207,7 +1207,7 @@ JSOP_STRICTNE
 ;
 masm
 .
-cmpq
+cmpPtr
 (
 lhs
 .
@@ -1655,7 +1655,7 @@ cmp
 =
 masm
 .
-cmplWithPatch
+cmp32WithPatch
 (
 ToRegister
 (
@@ -2114,7 +2114,7 @@ cmp
 =
 masm
 .
-cmplWithPatch
+cmp32WithPatch
 (
 ToRegister
 (
@@ -2711,7 +2711,7 @@ maybeCmpOffset
 =
 masm
 .
-cmplWithPatch
+cmp32WithPatch
 (
 ToRegister
 (
@@ -3004,7 +3004,7 @@ maybeCmpOffset
 =
 masm
 .
-cmplWithPatch
+cmp32WithPatch
 (
 ToRegister
 (
