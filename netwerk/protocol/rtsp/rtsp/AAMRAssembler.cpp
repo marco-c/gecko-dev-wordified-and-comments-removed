@@ -768,9 +768,11 @@ data
 ;
 if
 (
+(
 payloadHeader
 &
 0x0f
+)
 !
 =
 0u
