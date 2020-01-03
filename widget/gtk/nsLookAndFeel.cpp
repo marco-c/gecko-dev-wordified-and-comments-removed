@@ -5092,6 +5092,11 @@ gtk_widget_destroy
 window
 )
 ;
+gtk_widget_path_free
+(
+path
+)
+;
 }
 char16_t
 nsLookAndFeel
