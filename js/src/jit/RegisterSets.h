@@ -2531,10 +2531,10 @@ size
 const
 {
 return
-mozilla
+T
 :
 :
-CountPopulation32
+SetSize
 (
 bits_
 )
