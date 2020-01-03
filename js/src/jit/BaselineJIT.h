@@ -1113,14 +1113,6 @@ returnOffset
 ;
 ICEntry
 &
-anyKindICEntryFromPCOffset
-(
-uint32_t
-pcOffset
-)
-;
-ICEntry
-&
 icEntryFromPCOffset
 (
 uint32_t
