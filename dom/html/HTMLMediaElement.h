@@ -869,7 +869,7 @@ const
 {
 NS_ASSERTION
 (
-mSrcStream
+mPlaybackStream
 "
 Don
 '
@@ -885,7 +885,7 @@ stream
 )
 ;
 return
-mSrcStream
+mPlaybackStream
 -
 >
 GetStream
@@ -2373,6 +2373,18 @@ nsRefPtr
 DOMMediaStream
 >
 mSrcStream
+;
+nsRefPtr
+<
+MediaInputPort
+>
+mPlaybackStreamInputPort
+;
+nsRefPtr
+<
+DOMMediaStream
+>
+mPlaybackStream
 ;
 struct
 OutputMediaStream
