@@ -500,6 +500,13 @@ do_GetService
 NS_MOBILE_CONNECTION_SERVICE_CONTRACTID
 )
 ;
+mIccId
+.
+SetIsVoid
+(
+true
+)
+;
 if
 (
 !
