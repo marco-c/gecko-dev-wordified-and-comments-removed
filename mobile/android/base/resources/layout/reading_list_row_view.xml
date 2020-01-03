@@ -280,6 +280,13 @@ gravity
 "
 center
 "
+android
+:
+visibility
+=
+"
+gone
+"
 style
 =
 "
