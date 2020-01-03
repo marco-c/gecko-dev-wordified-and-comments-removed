@@ -493,6 +493,11 @@ Orientation
 )
 ;
 void
+PostHasTransparency
+(
+)
+;
+void
 PostFrameStart
 (
 )

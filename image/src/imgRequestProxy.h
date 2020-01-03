@@ -475,6 +475,11 @@ OnUnlockedDraw
 )
 ;
 void
+OnImageHasTransparency
+(
+)
+;
+void
 OnImageIsAnimated
 (
 )
