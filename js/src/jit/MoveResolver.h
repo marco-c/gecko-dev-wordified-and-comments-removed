@@ -919,6 +919,15 @@ PendingMove
 first
 )
 ;
+bool
+addOrderedMove
+(
+const
+MoveOp
+&
+move
+)
+;
 void
 resetState
 (
