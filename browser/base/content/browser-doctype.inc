@@ -116,5 +116,17 @@ chrome
 %
 aboutHomeDTD
 ;
+<
+!
+ENTITY
+%
+searchBarDTD
+SYSTEM
+"
+chrome
+:
+%
+searchBarDTD
+;
 ]
 >
