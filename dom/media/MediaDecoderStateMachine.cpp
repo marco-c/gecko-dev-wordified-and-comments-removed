@@ -1018,7 +1018,6 @@ mNextFrameStatusUpdater
 Watch
 (
 mState
-true
 )
 ;
 mNextFrameStatusUpdater
@@ -1027,7 +1026,6 @@ mNextFrameStatusUpdater
 Watch
 (
 mAudioCompleted
-true
 )
 ;
 mNextFrameStatusUpdater
