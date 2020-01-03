@@ -94,8 +94,12 @@ NR_ICE_SOCKET_TYPE_DGRAM
 1
 #
 define
-NR_ICE_SOCKET_TYPE_STREAM
+NR_ICE_SOCKET_TYPE_STREAM_TURN
 2
+#
+define
+NR_ICE_SOCKET_TYPE_STREAM_TCP
+3
 nr_socket
 *
 sock
@@ -157,6 +161,8 @@ comp
 nr_socket
 *
 nsock
+int
+type
 nr_ice_socket
 *
 *

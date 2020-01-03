@@ -383,6 +383,7 @@ nr_socket_buffered_stun_create
 (
 real_socket_
 100000
+TURN_TCP_FRAMING
 &
 buffered_socket_
 )

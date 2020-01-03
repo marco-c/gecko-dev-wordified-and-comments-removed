@@ -128,6 +128,9 @@ buffered_stun_socket_unittest
 ice_unittest
 '
 '
+multi_tcp_socket_unittest
+'
+'
 nrappkit_unittest
 '
 '

@@ -110,6 +110,15 @@ ICE_PEER_REFLEXIVE
 ICE_RELAYED
 }
 ;
+enum
+TcpType
+{
+ICE_NONE
+ICE_ACTIVE
+ICE_PASSIVE
+ICE_SO
+}
+;
 NrIceAddr
 cand_addr
 ;
@@ -118,6 +127,9 @@ local_addr
 ;
 Type
 type
+;
+TcpType
+tcp_type
 ;
 std
 :

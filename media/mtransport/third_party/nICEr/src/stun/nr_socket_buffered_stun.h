@@ -11,6 +11,16 @@ nr_socket
 .
 h
 "
+typedef
+enum
+{
+TURN_TCP_FRAMING
+=
+0
+ICE_TCP_FRAMING
+}
+nr_framing_type
+;
 int
 nr_socket_buffered_stun_create
 (
@@ -19,6 +29,8 @@ nr_socket
 inner
 int
 max_pending
+nr_framing_type
+framing_type
 nr_socket
 *
 *

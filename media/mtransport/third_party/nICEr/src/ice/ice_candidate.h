@@ -95,6 +95,9 @@ component
 nr_ice_candidate_type
 type
 ;
+nr_socket_tcp_type
+tcp_type
+;
 UCHAR
 component_id
 ;
@@ -208,6 +211,13 @@ nr_ice_candidate_type_names
 [
 ]
 ;
+extern
+char
+*
+nr_ice_candidate_tcp_type_names
+[
+]
+;
 int
 nr_ice_candidate_create
 (
@@ -226,6 +236,8 @@ nr_socket
 osock
 nr_ice_candidate_type
 ctype
+nr_socket_tcp_type
+tcp_type
 nr_ice_stun_server
 *
 stun_server

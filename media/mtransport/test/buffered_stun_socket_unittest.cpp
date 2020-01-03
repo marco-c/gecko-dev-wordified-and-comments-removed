@@ -244,6 +244,7 @@ get_nr_socket
 (
 )
 kStunMessageLen
+TURN_TCP_FRAMING
 &
 test_socket_
 )

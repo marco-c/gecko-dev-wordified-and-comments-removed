@@ -1695,7 +1695,7 @@ ctx
 >
 stun_server_ct
 >
-255
+31
 )
 {
 r_log
@@ -1717,7 +1717,7 @@ specified
 :
 max
 =
-255
+31
 "
 ctx
 -
@@ -1730,7 +1730,7 @@ ctx
 >
 stun_server_ct
 =
-255
+31
 ;
 }
 if
@@ -1902,7 +1902,7 @@ ctx
 turn_server_ct
 )
 >
-255
+31
 )
 {
 r_log
@@ -1926,7 +1926,7 @@ specified
 :
 max
 =
-255
+31
 "
 ctx
 -
@@ -1939,7 +1939,7 @@ ctx
 >
 turn_server_ct
 =
-255
+31
 -
 ctx
 -

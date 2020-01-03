@@ -646,6 +646,10 @@ string
 addr
 uint16_t
 port
+const
+char
+*
+transport
 )
 {
 NrIceStunServer
@@ -659,6 +663,7 @@ Create
 (
 addr
 port
+transport
 )
 )
 ;
