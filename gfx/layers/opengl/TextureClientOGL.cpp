@@ -257,7 +257,7 @@ SurfaceTextureClient
 (
 TextureFlags
 aFlags
-nsSurfaceTexture
+AndroidSurfaceTexture
 *
 aSurfTex
 gfx

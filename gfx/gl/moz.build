@@ -237,6 +237,11 @@ EXPORTS
 =
 [
 '
+AndroidSurfaceTexture
+.
+h
+'
+'
 DecomposeIntoNoRepeatTriangles
 .
 h
@@ -750,6 +755,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AndroidSurfaceTexture
+.
+cpp
+'
 '
 DecomposeIntoNoRepeatTriangles
 .
