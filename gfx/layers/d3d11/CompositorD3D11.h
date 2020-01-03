@@ -583,7 +583,7 @@ CreateShaders
 (
 )
 ;
-void
+bool
 UpdateConstantBuffers
 (
 )
