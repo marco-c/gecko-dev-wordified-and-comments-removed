@@ -2769,6 +2769,7 @@ true
 )
 MOZ_OVERRIDE
 ;
+MOZ_ALWAYS_INLINE
 nsresult
 SetAttr
 (
