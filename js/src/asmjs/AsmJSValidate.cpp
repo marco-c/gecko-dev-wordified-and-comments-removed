@@ -50532,6 +50532,13 @@ lhsType
 isSigned
 (
 )
+&
+&
+rhsType
+.
+isSigned
+(
+)
 )
 {
 switch
@@ -50633,6 +50640,13 @@ else
 if
 (
 lhsType
+.
+isUnsigned
+(
+)
+&
+&
+rhsType
 .
 isUnsigned
 (
