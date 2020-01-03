@@ -109,6 +109,9 @@ TEST_DIRS
 test_cert_eku
 '
 '
+test_cert_embedded_null
+'
+'
 test_cert_keyUsage
 '
 '

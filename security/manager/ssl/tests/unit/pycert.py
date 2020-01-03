@@ -1021,6 +1021,15 @@ setComponentByName
 utf8String
 '
 string
+.
+decode
+(
+encoding
+=
+'
+string_escape
+'
+)
 )
     
 ava
@@ -2496,6 +2505,15 @@ setComponentByName
 dNSName
 '
 dNSName
+.
+decode
+(
+encoding
+=
+'
+string_escape
+'
+)
 )
             
 subjectAlternativeName
