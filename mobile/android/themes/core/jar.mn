@@ -2103,3 +2103,17 @@ icon_heart_xxhdpi
 .
 png
 )
+skin
+/
+images
+/
+icon_key_emptypage
+.
+svg
+(
+images
+/
+icon_key_emptypage
+.
+svg
+)
