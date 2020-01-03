@@ -6936,6 +6936,17 @@ gmpInstallManager
 simpleCheckAndInstall
 (
 )
+.
+then
+(
+null
+(
+)
+=
+>
+{
+}
+)
 ;
 }
 1000
