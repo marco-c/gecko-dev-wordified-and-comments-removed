@@ -327,7 +327,7 @@ WriteNDEF
 "
 NFC
 :
-MakeReadOnlyNDEF
+MakeReadOnly
 "
 "
 NFC
@@ -2964,7 +2964,7 @@ ReadNDEFResponse
 :
 case
 "
-MakeReadOnlyNDEFResponse
+MakeReadOnlyResponse
 "
 :
 case
@@ -3352,7 +3352,7 @@ case
 "
 NFC
 :
-MakeReadOnlyNDEF
+MakeReadOnly
 "
 :
 this
@@ -3360,7 +3360,7 @@ this
 sendToNfcService
 (
 "
-makeReadOnlyNDEF
+makeReadOnly
 "
 message
 .

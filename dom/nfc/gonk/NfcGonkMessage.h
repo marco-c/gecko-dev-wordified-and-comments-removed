@@ -25,7 +25,7 @@ ConnectReq
 CloseReq
 ReadNDEFReq
 WriteNDEFReq
-MakeReadOnlyNDEFReq
+MakeReadOnlyReq
 }
 ;
 enum

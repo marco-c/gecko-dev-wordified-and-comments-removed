@@ -273,7 +273,7 @@ WriteNDEFResponse
 "
 NFC
 :
-MakeReadOnlyNDEFResponse
+MakeReadOnlyResponse
 "
 "
 NFC
@@ -908,7 +908,7 @@ sendAsyncMessage
 "
 NFC
 :
-MakeReadOnlyNDEF
+MakeReadOnly
 "
 {
 requestId
@@ -1885,7 +1885,7 @@ case
 "
 NFC
 :
-MakeReadOnlyNDEFResponse
+MakeReadOnlyResponse
 "
 :
 case

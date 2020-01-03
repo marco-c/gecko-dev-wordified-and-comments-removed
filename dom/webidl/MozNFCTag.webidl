@@ -399,7 +399,7 @@ records
 Throws
 ]
 DOMRequest
-makeReadOnlyNDEF
+makeReadOnly
 (
 )
 ;
