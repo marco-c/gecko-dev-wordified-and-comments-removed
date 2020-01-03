@@ -8085,11 +8085,6 @@ toolbar
 -
 additional
 "
-persist
-=
-"
-class
-"
 removable
 =
 "
@@ -9137,11 +9132,6 @@ chromeclass
 toolbar
 -
 additional
-"
-persist
-=
-"
-class
 "
 removable
 =

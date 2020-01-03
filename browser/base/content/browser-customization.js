@@ -290,12 +290,6 @@ function
 (
 )
 {
-gHomeButton
-.
-updatePersonalToolbarStyle
-(
-)
-;
 PlacesToolbarHelper
 .
 customizeChange
