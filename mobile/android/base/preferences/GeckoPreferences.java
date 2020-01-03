@@ -3360,9 +3360,10 @@ continue
 else
 if
 (
+!
 AppConstants
 .
-RELEASE_BUILD
+MOZ_STUMBLER_BUILD_TIME_ENABLED
 &
 &
 (
