@@ -10440,6 +10440,11 @@ _observers
 =
 nullptr
 ;
+mDaysOfHistory
+=
+-
+1
+;
 if
 (
 !
