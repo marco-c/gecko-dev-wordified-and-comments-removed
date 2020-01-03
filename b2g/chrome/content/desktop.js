@@ -813,6 +813,12 @@ return
 }
 responsive
 .
+transitionsEnabled
+=
+false
+;
+responsive
+.
 buildPhoneUI
 (
 )
