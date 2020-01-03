@@ -1111,7 +1111,6 @@ stream
 audio
 "
 :
-!
 this
 .
 state

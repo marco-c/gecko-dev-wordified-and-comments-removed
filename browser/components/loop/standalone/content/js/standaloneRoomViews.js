@@ -1710,7 +1710,11 @@ stream
 audio
 "
 :
-false
+this
+.
+state
+.
+videoMuted
 }
 )
 ;

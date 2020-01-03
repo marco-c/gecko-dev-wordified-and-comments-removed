@@ -1556,7 +1556,6 @@ stream
 audio
 "
 :
-!
 this
 .
 state
