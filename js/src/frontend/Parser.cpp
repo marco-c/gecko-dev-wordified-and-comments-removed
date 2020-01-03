@@ -38678,7 +38678,6 @@ type
 propList
 propname
 Normal
-Method
 isGenerator
 ?
 StarGenerator
@@ -38733,7 +38732,6 @@ JSOP_INITPROP_GETTER
 Getter
 :
 Setter
-Expression
 NotGenerator
 isStatic
 op
@@ -38875,8 +38873,6 @@ Node
 propname
 FunctionType
 type
-FunctionSyntaxKind
-kind
 GeneratorKind
 generatorKind
 bool
@@ -38893,10 +38889,10 @@ context
 ;
 if
 (
-kind
+type
 =
 =
-Method
+Normal
 &
 &
 tokenStream
@@ -38926,7 +38922,7 @@ functionDef
 (
 funName
 type
-kind
+Method
 generatorKind
 )
 ;
