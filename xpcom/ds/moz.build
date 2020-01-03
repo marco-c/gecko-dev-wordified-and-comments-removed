@@ -357,6 +357,11 @@ StickyTimeDuration
 .
 h
 '
+'
+Tokenizer
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -429,6 +434,11 @@ cpp
 '
 '
 nsVariant
+.
+cpp
+'
+'
+Tokenizer
 .
 cpp
 '
