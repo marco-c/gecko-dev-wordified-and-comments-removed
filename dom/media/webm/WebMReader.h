@@ -730,7 +730,7 @@ GetInitialFrame
 (
 )
 ;
-uint64_t
+int64_t
 GetLastVideoFrameTime
 (
 )
@@ -738,7 +738,7 @@ GetLastVideoFrameTime
 void
 SetLastVideoFrameTime
 (
-uint64_t
+int64_t
 aFrameTime
 )
 ;
@@ -923,7 +923,7 @@ mAudioFrames
 uint64_t
 mCodecDelay
 ;
-uint64_t
+int64_t
 mLastVideoFrameTime
 ;
 nsRefPtr
