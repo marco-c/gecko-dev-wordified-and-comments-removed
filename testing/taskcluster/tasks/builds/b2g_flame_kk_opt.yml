@@ -137,6 +137,12 @@ HOME
 workspace
 extra
 :
+treeherderEnv
+:
+-
+production
+-
+staging
 treeherder
 :
 symbol

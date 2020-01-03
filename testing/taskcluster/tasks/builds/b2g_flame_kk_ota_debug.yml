@@ -7,7 +7,7 @@ tasks
 /
 builds
 /
-b2g_flame_kk_nightly_base
+b2g_flame_kk_ota_base
 .
 yml
 '
@@ -38,14 +38,11 @@ TC
 B2G
 Flame
 KK
-Nightly
+OTA
 (
 userdebug
 )
 '
-workerType
-:
-balrog
 scopes
 :
 -
@@ -62,7 +59,7 @@ flame
 -
 kk
 -
-nightly
+ota
 -
 debug
 '
@@ -76,7 +73,7 @@ flame
 -
 kk
 -
-nightly
+ota
 -
 debug
 :
