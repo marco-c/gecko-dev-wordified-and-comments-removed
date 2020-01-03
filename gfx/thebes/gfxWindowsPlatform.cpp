@@ -2019,6 +2019,9 @@ BackendType
 DIRECT2D
 )
 ;
+#
+ifdef
+USE_D2D1_1
 if
 (
 gfxPrefs
@@ -2058,6 +2061,8 @@ DIRECT2D1_1
 }
 else
 {
+#
+endif
 defaultBackend
 =
 BackendType
@@ -2065,7 +2070,12 @@ BackendType
 :
 DIRECT2D
 ;
+#
+ifdef
+USE_D2D1_1
 }
+#
+endif
 }
 else
 {
