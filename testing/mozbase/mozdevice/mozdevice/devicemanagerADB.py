@@ -4927,7 +4927,7 @@ self
 .
 _logger
 .
-info
+debug
 (
 "
 chmod
@@ -4965,7 +4965,7 @@ self
 .
 _logger
 .
-info
+debug
 (
 "
 chmod
