@@ -235,6 +235,9 @@ this
 messagechannel
 .
 port2
+configurable
+:
+true
 }
 )
 ;

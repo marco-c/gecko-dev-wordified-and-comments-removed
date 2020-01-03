@@ -493,6 +493,9 @@ true
 enumerable
 :
 true
+configurable
+:
+true
 }
 )
 ;
@@ -552,6 +555,9 @@ set
 :
 checkWrapper
 enumerable
+:
+true
+configurable
 :
 true
 }
