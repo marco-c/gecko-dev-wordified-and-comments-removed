@@ -14300,6 +14300,10 @@ int
 aDelayMs
 )
 {
+AssertOnControllerThread
+(
+)
+;
 nsRefPtr
 <
 GeckoContentController
