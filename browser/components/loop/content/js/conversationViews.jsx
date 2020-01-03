@@ -4288,7 +4288,6 @@ useDesktopPaths
 {
 true
 }
-/
 >
 <
 loop
@@ -4352,6 +4351,12 @@ props
 video
 }
 /
+>
+<
+/
+sharedViews
+.
+MediaLayoutView
 >
 <
 /
@@ -4944,6 +4949,9 @@ this
 state
 .
 audioMuted
+visible
+:
+true
 }
 }
 conversationStore
@@ -5003,6 +5011,9 @@ this
 state
 .
 videoMuted
+visible
+:
+true
 }
 }
 /
