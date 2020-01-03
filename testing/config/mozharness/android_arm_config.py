@@ -37,6 +37,7 @@ options
 "
 :
 [
+                
 "
 -
 -
@@ -44,6 +45,7 @@ dm_trans
 =
 sut
 "
+                
 "
 -
 -
@@ -55,6 +57,7 @@ app
 )
 s
 "
+                
 "
 -
 -
@@ -82,6 +85,7 @@ xre_path
 )
 s
 "
+                
 "
 -
 -
@@ -107,6 +111,7 @@ device_ip
 )
 s
 "
+                
 "
 -
 -
@@ -132,6 +137,7 @@ http_port
 )
 s
 "
+                
 "
 -
 -
@@ -159,6 +165,7 @@ certs_path
 )
 s
 "
+                
 "
 -
 -
@@ -178,6 +185,7 @@ s
 -
 quiet
 "
+                
 "
 -
 -
@@ -191,6 +199,21 @@ raw_log_file
 )
 s
 "
+                
+"
+-
+-
+log
+-
+errorsummary
+=
+%
+(
+error_summary_file
+)
+s
+"
+                
 "
 -
 -
@@ -236,6 +259,7 @@ options
 "
 :
 [
+                
 "
 -
 -
@@ -243,6 +267,7 @@ dm_trans
 =
 sut
 "
+                
 "
 -
 -
@@ -254,6 +279,7 @@ app
 )
 s
 "
+                
 "
 -
 -
@@ -281,6 +307,7 @@ xre_path
 )
 s
 "
+                
 "
 -
 -
@@ -306,6 +333,7 @@ device_ip
 )
 s
 "
+                
 "
 -
 -
@@ -331,6 +359,7 @@ http_port
 )
 s
 "
+                
 "
 -
 -
@@ -358,6 +387,7 @@ certs_path
 )
 s
 "
+                
 "
 -
 -
@@ -377,6 +407,7 @@ s
 -
 quiet
 "
+                
 "
 -
 -
@@ -390,6 +421,21 @@ raw_log_file
 )
 s
 "
+                
+"
+-
+-
+log
+-
+errorsummary
+=
+%
+(
+error_summary_file
+)
+s
+"
+                
 "
 -
 -
@@ -451,6 +497,7 @@ options
 "
 :
 [
+                
 "
 -
 -
@@ -458,6 +505,7 @@ dm_trans
 =
 sut
 "
+                
 "
 -
 -
@@ -469,6 +517,7 @@ app
 )
 s
 "
+                
 "
 -
 -
@@ -496,6 +545,7 @@ xre_path
 )
 s
 "
+                
 "
 -
 -
@@ -521,6 +571,7 @@ device_ip
 )
 s
 "
+                
 "
 -
 -
@@ -546,6 +597,7 @@ http_port
 )
 s
 "
+                
 "
 -
 -
@@ -573,6 +625,7 @@ certs_path
 )
 s
 "
+                
 "
 -
 -
@@ -592,6 +645,7 @@ s
 -
 quiet
 "
+                
 "
 -
 -
@@ -602,6 +656,20 @@ raw
 %
 (
 raw_log_file
+)
+s
+"
+                
+"
+-
+-
+log
+-
+errorsummary
+=
+%
+(
+error_summary_file
 )
 s
 "
@@ -679,6 +747,7 @@ options
 "
 :
 [
+                
 "
 -
 -
@@ -690,6 +759,7 @@ app
 )
 s
 "
+                
 "
 -
 -
@@ -719,6 +789,7 @@ remote_webserver
 )
 s
 "
+                
 "
 -
 -
@@ -746,6 +817,7 @@ utility_path
 )
 s
 "
+                
 "
 -
 -
@@ -769,6 +841,7 @@ device_port
 )
 s
 "
+                
 "
 -
 -
@@ -796,6 +869,7 @@ ssl_port
 )
 s
 "
+                
 "
 -
 -
@@ -803,6 +877,7 @@ httpd
 -
 path
 "
+                
 "
 %
 (
@@ -880,6 +955,7 @@ options
 "
 :
 [
+                
 "
 -
 -
@@ -891,6 +967,7 @@ app
 )
 s
 "
+                
 "
 -
 -
@@ -920,6 +997,7 @@ remote_webserver
 )
 s
 "
+                
 "
 -
 -
@@ -947,6 +1025,7 @@ utility_path
 )
 s
 "
+                
 "
 -
 -
@@ -970,6 +1049,7 @@ device_port
 )
 s
 "
+                
 "
 -
 -
@@ -997,6 +1077,7 @@ ssl_port
 )
 s
 "
+                
 "
 -
 -
@@ -1004,6 +1085,7 @@ httpd
 -
 path
 "
+                
 "
 %
 (
@@ -1081,6 +1163,7 @@ options
 "
 :
 [
+                
 "
 -
 -
@@ -1092,6 +1175,7 @@ app
 )
 s
 "
+                
 "
 -
 -
@@ -1121,6 +1205,7 @@ remote_webserver
 )
 s
 "
+                
 "
 -
 -
@@ -1148,6 +1233,7 @@ utility_path
 )
 s
 "
+                
 "
 -
 -
@@ -1171,6 +1257,7 @@ device_port
 )
 s
 "
+                
 "
 -
 -
@@ -1198,6 +1285,7 @@ ssl_port
 )
 s
 "
+                
 "
 -
 -
@@ -1205,6 +1293,7 @@ httpd
 -
 path
 "
+                
 "
 %
 (
@@ -1301,6 +1390,7 @@ options
 "
 :
 [
+                
 "
 -
 -
@@ -1312,6 +1402,7 @@ device_ip
 )
 s
 "
+                
 "
 -
 -
@@ -1337,6 +1428,7 @@ xre_path
 )
 s
 "
+                
 "
 -
 -
@@ -1364,6 +1456,7 @@ installer_path
 )
 s
 "
+                
 "
 -
 -
@@ -1408,6 +1501,20 @@ raw
 %
 (
 raw_log_file
+)
+s
+"
+                
+"
+-
+-
+log
+-
+errorsummary
+=
+%
+(
+error_summary_file
 )
 s
 "
