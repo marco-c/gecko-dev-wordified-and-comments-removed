@@ -240,6 +240,11 @@ EnumeratedArray
 h
 '
 '
+EnumeratedRange
+.
+h
+'
+'
 EnumSet
 .
 h
