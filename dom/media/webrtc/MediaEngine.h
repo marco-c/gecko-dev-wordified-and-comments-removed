@@ -91,16 +91,6 @@ kReleased
 }
 ;
 enum
-{
-kVideoTrack
-=
-1
-kAudioTrack
-=
-2
-}
-;
-enum
 MediaSourceType
 {
 Camera

@@ -211,6 +211,13 @@ h
 "
 #
 include
+"
+DOMMediaStream
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -1693,20 +1700,6 @@ aIntrinsicSize
 )
 ;
 }
-static
-const
-TrackID
-TRACK_AUDIO
-=
-1
-;
-static
-const
-TrackID
-TRACK_VIDEO
-=
-2
-;
 void
 MediaDecoderStateMachine
 :
@@ -1896,7 +1889,7 @@ mediaStream
 >
 AddAudioTrack
 (
-TRACK_AUDIO
+kAudioTrack
 mInfo
 .
 mAudio
@@ -1914,7 +1907,7 @@ mStream
 >
 DispatchWhenNotEnoughBuffered
 (
-TRACK_AUDIO
+kAudioTrack
 GetStateMachineThread
 (
 )
@@ -1947,7 +1940,7 @@ mediaStream
 >
 AddTrack
 (
-TRACK_VIDEO
+kVideoTrack
 0
 video
 )
@@ -1960,7 +1953,7 @@ mStream
 >
 DispatchWhenNotEnoughBuffered
 (
-TRACK_VIDEO
+kVideoTrack
 GetStateMachineThread
 (
 )
@@ -2062,7 +2055,7 @@ mediaStream
 >
 AppendToTrack
 (
-TRACK_AUDIO
+kAudioTrack
 &
 output
 )
@@ -2091,7 +2084,7 @@ mediaStream
 >
 EndTrack
 (
-TRACK_AUDIO
+kAudioTrack
 )
 ;
 stream
@@ -2436,7 +2429,7 @@ mediaStream
 >
 AppendToTrack
 (
-TRACK_VIDEO
+kVideoTrack
 &
 output
 )
@@ -2465,7 +2458,7 @@ mediaStream
 >
 EndTrack
 (
-TRACK_VIDEO
+kVideoTrack
 )
 ;
 stream
@@ -2775,7 +2768,7 @@ mStream
 >
 HaveEnoughBuffered
 (
-TRACK_AUDIO
+kAudioTrack
 )
 )
 {
@@ -2791,7 +2784,7 @@ mStream
 >
 DispatchWhenNotEnoughBuffered
 (
-TRACK_AUDIO
+kAudioTrack
 GetStateMachineThread
 (
 )
@@ -2882,7 +2875,7 @@ mStream
 >
 HaveEnoughBuffered
 (
-TRACK_VIDEO
+kVideoTrack
 )
 )
 {
@@ -2898,7 +2891,7 @@ mStream
 >
 DispatchWhenNotEnoughBuffered
 (
-TRACK_VIDEO
+kVideoTrack
 GetStateMachineThread
 (
 )
