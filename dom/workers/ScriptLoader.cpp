@@ -4425,8 +4425,11 @@ finalURI
 )
 ;
 }
+DebugOnly
+<
 nsIPrincipal
 *
+>
 principal
 =
 mWorkerPrivate
