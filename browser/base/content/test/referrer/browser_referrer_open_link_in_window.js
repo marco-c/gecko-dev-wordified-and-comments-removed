@@ -90,7 +90,7 @@ test
 {
 requestLongerTimeout
 (
-5
+10
 )
 ;
 startReferrerTest
