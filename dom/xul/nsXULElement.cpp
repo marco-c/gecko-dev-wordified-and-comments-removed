@@ -4240,6 +4240,7 @@ newCurrentIndex
 -
 2
 )
+{
 controlElement
 -
 >
@@ -4248,6 +4249,7 @@ SetCurrentItem
 nullptr
 )
 ;
+}
 else
 if
 (
