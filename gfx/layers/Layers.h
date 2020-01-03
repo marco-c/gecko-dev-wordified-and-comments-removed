@@ -4818,7 +4818,7 @@ mEffectiveTransform
 =
 aNewEffectiveTransform
 ;
-ComputeEffectiveTransformForMaskLayer
+ComputeEffectiveTransformForMaskLayers
 (
 mEffectiveTransform
 )
@@ -6060,7 +6060,7 @@ ComputeEffectiveTransformsForChildren
 mEffectiveTransform
 )
 ;
-ComputeEffectiveTransformForMaskLayer
+ComputeEffectiveTransformForMaskLayers
 (
 mEffectiveTransform
 )
@@ -6651,6 +6651,18 @@ callback
 mPreTransCallbackData
 =
 closureData
+;
+}
+const
+nsIntRect
+&
+GetBounds
+(
+)
+const
+{
+return
+mBounds
 ;
 }
 protected
