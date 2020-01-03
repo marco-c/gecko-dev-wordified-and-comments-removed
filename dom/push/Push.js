@@ -1323,7 +1323,7 @@ function
 reject
 (
 "
-denied
+PermissionDeniedError
 "
 )
 ;
@@ -1442,7 +1442,7 @@ function
 reject
 (
 "
-denied
+PermissionDeniedError
 "
 )
 ;
