@@ -703,16 +703,6 @@ channel
 ;
 [
 Throws
-]
-void
-sendAsBinary
-(
-DOMString
-body
-)
-;
-[
-Throws
 ChromeOnly
 Exposed
 =
