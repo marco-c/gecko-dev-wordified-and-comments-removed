@@ -13683,6 +13683,8 @@ nsAString
 aAnchorName
 bool
 aScroll
+uint32_t
+aAdditionalScrollFlags
 )
 {
 if
@@ -14223,6 +14225,8 @@ ScrollAxis
 (
 )
 ANCHOR_SCROLL_FLAGS
+|
+aAdditionalScrollFlags
 )
 ;
 NS_ENSURE_SUCCESS

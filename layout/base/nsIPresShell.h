@@ -1381,6 +1381,10 @@ nsAString
 aAnchorName
 bool
 aScroll
+uint32_t
+aAdditionalScrollFlags
+=
+0
 )
 =
 0
