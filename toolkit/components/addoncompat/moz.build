@@ -126,6 +126,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+CompatWarning
+.
+jsm
+'
+'
 Prefetcher
 .
 jsm
