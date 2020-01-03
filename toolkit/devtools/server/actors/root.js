@@ -350,6 +350,9 @@ false
 noPrettyPrinting
 :
 false
+getUsedFontFaces
+:
+true
 }
 sayHello
 :
