@@ -391,6 +391,10 @@ private
 openConsole
 (
 privateTab
+)
+.
+then
+(
 consoleOpened
 )
 ;
@@ -548,6 +552,10 @@ testCachedMessages
 closeConsole
 (
 privateTab
+)
+.
+then
+(
 (
 )
 =
@@ -565,6 +573,10 @@ closed
 openConsole
 (
 privateTab
+)
+.
+then
+(
 consoleReopened
 )
 ;
@@ -627,6 +639,10 @@ testBrowserConsole
 closeConsole
 (
 privateTab
+)
+.
+then
+(
 (
 )
 =

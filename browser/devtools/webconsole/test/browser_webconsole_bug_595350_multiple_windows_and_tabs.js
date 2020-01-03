@@ -237,6 +237,10 @@ i
 openConsole
 (
 tab
+)
+.
+then
+(
 function
 (
 index
