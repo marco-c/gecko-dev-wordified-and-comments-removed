@@ -10184,15 +10184,6 @@ purge
 (
 )
 ;
-rt
--
->
-regExpTestCache
-.
-purge
-(
-)
-;
 }
 static
 void
