@@ -1221,9 +1221,11 @@ mobile
 /
 android
 /
-base
-/
 tests
+/
+browser
+/
+robocop
 /
 assets
 '
@@ -1315,9 +1317,11 @@ mobile
 /
 android
 /
-base
-/
 tests
+/
+browser
+/
+robocop
 '
 )
         

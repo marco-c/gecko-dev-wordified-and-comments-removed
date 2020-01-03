@@ -64,9 +64,11 @@ mobile
 /
 android
 /
-base
-/
 tests
+/
+browser
+/
+robocop
 /
 roboextender
 include
