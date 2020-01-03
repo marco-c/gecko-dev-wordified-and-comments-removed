@@ -12681,7 +12681,9 @@ clasp
 NullPtr
 (
 )
-obj
+NullPtr
+(
+)
 )
 )
 ;
