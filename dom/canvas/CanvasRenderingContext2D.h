@@ -1474,6 +1474,11 @@ id
 )
 ;
 void
+ClearHitRegions
+(
+)
+;
+void
 DrawImage
 (
 const
