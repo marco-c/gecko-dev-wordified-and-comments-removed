@@ -628,12 +628,6 @@ ViERender
 *
 mViERender
 ;
-webrtc
-:
-:
-CaptureCapability
-mCapability
-;
 int
 mMinFps
 ;
