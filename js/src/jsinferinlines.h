@@ -5644,6 +5644,12 @@ JSID_IS_STRING
 (
 id
 )
+|
+|
+JSID_IS_SYMBOL
+(
+id
+)
 )
 ;
 JS_ASSERT_IF
@@ -5840,6 +5846,12 @@ id
 |
 |
 JSID_IS_STRING
+(
+id
+)
+|
+|
+JSID_IS_SYMBOL
 (
 id
 )
