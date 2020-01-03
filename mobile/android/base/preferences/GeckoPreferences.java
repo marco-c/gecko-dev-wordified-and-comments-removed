@@ -4282,7 +4282,7 @@ getBooleanPref
 (
 context
 PREFS_GEO_REPORTING
-true
+false
 )
 ;
 broadcastStumblerPref
