@@ -243,7 +243,6 @@ yield
 testHost
 (
 tab
-debuggee
 panel
 firstHost
 firstLayout
@@ -253,7 +252,6 @@ yield
 switchAndTestHost
 (
 tab
-debuggee
 panel
 secondHost
 secondLayout
@@ -263,7 +261,6 @@ yield
 switchAndTestHost
 (
 tab
-debuggee
 panel
 thirdHost
 thirdLayout
@@ -283,7 +280,6 @@ function
 switchAndTestHost
 (
 aTab
-aDebuggee
 aPanel
 aHostType
 aLayoutType
@@ -375,7 +371,6 @@ yield
 testHost
 (
 aTab
-aDebuggee
 aPanel
 aHostType
 aLayoutType
@@ -421,7 +416,6 @@ function
 testHost
 (
 aTab
-aDebuggee
 aPanel
 aHostType
 aLayoutType
