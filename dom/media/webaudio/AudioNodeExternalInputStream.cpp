@@ -517,10 +517,15 @@ uint32_t
 aFlags
 )
 {
+MOZ_ASSERT
+(
 mLastChunks
 .
-SetLength
+Length
 (
+)
+=
+=
 1
 )
 ;
