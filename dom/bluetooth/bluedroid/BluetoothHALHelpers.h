@@ -832,8 +832,12 @@ sPropertyType
 )
 )
 {
+aOut
+=
+PROPERTY_UNKNOWN
+;
 return
-NS_ERROR_ILLEGAL_VALUE
+NS_OK
 ;
 }
 aOut

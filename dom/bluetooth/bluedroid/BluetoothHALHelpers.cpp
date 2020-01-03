@@ -1258,6 +1258,11 @@ mType
 )
 {
 case
+PROPERTY_UNKNOWN
+:
+break
+;
+case
 PROPERTY_BDNAME
 :
 case
