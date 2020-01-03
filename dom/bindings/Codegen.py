@@ -68723,7 +68723,7 @@ checkFound
 =
 True
                  
-argumentHandleValue
+argumentMutableValue
 =
 None
 resultVar
@@ -68885,12 +68885,12 @@ name
 )
             
 if
-argumentHandleValue
+argumentMutableValue
 is
 None
 :
                 
-argumentHandleValue
+argumentMutableValue
 =
 "
 desc
@@ -68932,7 +68932,7 @@ _holder
 val
 "
 :
-argumentHandleValue
+argumentMutableValue
                 
 "
 obj
@@ -69300,7 +69300,7 @@ checkFound
 =
 True
                  
-argumentHandleValue
+argumentMutableValue
 =
 None
 resultVar
@@ -69327,9 +69327,9 @@ descriptor
 name
 checkFound
                                          
-argumentHandleValue
+argumentMutableValue
 =
-argumentHandleValue
+argumentMutableValue
                                          
 resultVar
 =
@@ -69715,7 +69715,7 @@ __init__
 (
 self
 descriptor
-argumentHandleValue
+argumentMutableValue
 =
 None
 )
@@ -69731,9 +69731,9 @@ descriptor
 IndexedSetter
 '
                                          
-argumentHandleValue
+argumentMutableValue
 =
-argumentHandleValue
+argumentMutableValue
 )
 class
 CGProxyIndexedDeleter
@@ -69890,7 +69890,7 @@ name
 value
 =
 None
-argumentHandleValue
+argumentMutableValue
 =
 None
                  
@@ -69911,9 +69911,9 @@ self
 descriptor
 name
                                          
-argumentHandleValue
+argumentMutableValue
 =
-argumentHandleValue
+argumentMutableValue
                                          
 resultVar
 =
@@ -70477,7 +70477,7 @@ __init__
 (
 self
 descriptor
-argumentHandleValue
+argumentMutableValue
 =
 None
 )
@@ -70493,9 +70493,9 @@ descriptor
 NamedSetter
 '
                                        
-argumentHandleValue
+argumentMutableValue
 =
-argumentHandleValue
+argumentMutableValue
 )
 class
 CGProxyNamedDeleter
@@ -71733,7 +71733,7 @@ Argument
 JS
 :
 :
-Handle
+MutableHandle
 <
 JSPropertyDescriptor
 >
@@ -74774,7 +74774,7 @@ Argument
 JS
 :
 :
-Handle
+MutableHandle
 <
 JS
 :
@@ -74783,7 +74783,7 @@ Value
 >
 '
 '
-v
+vp
 '
 )
                 
@@ -75055,10 +75055,10 @@ CGProxyNamedSetter
 self
 .
 descriptor
-argumentHandleValue
+argumentMutableValue
 =
 "
-v
+vp
 "
 )
             
@@ -75227,10 +75227,10 @@ self
 .
 descriptor
                                                 
-argumentHandleValue
+argumentMutableValue
 =
 "
-v
+vp
 "
 )
 .

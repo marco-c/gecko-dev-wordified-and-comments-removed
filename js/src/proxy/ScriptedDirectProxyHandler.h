@@ -67,7 +67,7 @@ HandleObject
 proxy
 HandleId
 id
-Handle
+MutableHandle
 <
 JSPropertyDescriptor
 >
@@ -255,12 +255,12 @@ JSContext
 cx
 HandleObject
 proxy
+HandleObject
+receiver
 HandleId
 id
-HandleValue
-v
-HandleValue
-receiver
+MutableHandleValue
+vp
 ObjectOpResult
 &
 result

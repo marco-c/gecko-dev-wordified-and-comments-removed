@@ -105,7 +105,7 @@ aId
 JS
 :
 :
-Handle
+MutableHandle
 <
 JSPropertyDescriptor
 >

@@ -179,7 +179,7 @@ HandleObject
 proxy
 HandleId
 id
-Handle
+MutableHandle
 <
 PropertyDescriptor
 >
@@ -1354,12 +1354,12 @@ JSContext
 cx
 HandleObject
 proxy
+HandleObject
+receiver
 HandleId
 id
-HandleValue
-v
-HandleValue
-receiver
+MutableHandleValue
+vp
 ObjectOpResult
 &
 result
@@ -1398,9 +1398,9 @@ SetProperty
 (
 cx
 target
-id
-v
 receiver
+id
+vp
 result
 )
 ;

@@ -74,7 +74,7 @@ HandleObject
 wrapper
 HandleId
 id
-Handle
+MutableHandle
 <
 JSPropertyDescriptor
 >
@@ -133,12 +133,12 @@ JSContext
 cx
 HandleObject
 wrapper
+HandleObject
+receiver
 HandleId
 id
-HandleValue
-v
-HandleValue
-receiver
+MutableHandleValue
+vp
 ObjectOpResult
 &
 result
@@ -155,7 +155,7 @@ checkPassToPrivilegedCode
 (
 cx
 wrapper
-v
+vp
 )
 )
 return
@@ -169,9 +169,9 @@ set
 (
 cx
 wrapper
-id
-v
 receiver
+id
+vp
 result
 )
 ;

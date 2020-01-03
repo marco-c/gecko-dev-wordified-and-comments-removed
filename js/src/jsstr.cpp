@@ -11724,6 +11724,7 @@ SetProperty
 (
 cx
 obj_
+obj_
 cx
 -
 >
@@ -11732,6 +11733,7 @@ names
 )
 .
 lastIndex
+&
 zero
 )
 ;
