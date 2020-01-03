@@ -33,11 +33,11 @@ string
 name
 =
 "
-search_for_something
+search_bar_hint
 "
 >
 &
-search_for_something
+search_bar_hint
 ;
 <
 /

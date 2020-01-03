@@ -117,7 +117,7 @@ search
 .
 autocomplete
 .
-ClearableEditText
+SearchBar
 android
 :
 id
@@ -126,7 +126,7 @@ id
 +
 id
 /
-search_edit_text
+search_bar
 "
 android
 :

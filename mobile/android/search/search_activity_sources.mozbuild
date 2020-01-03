@@ -135,7 +135,7 @@ search
 /
 autocomplete
 /
-ClearableEditText
+SearchBar
 .
 java
 '

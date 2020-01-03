@@ -155,7 +155,7 @@ search
 .
 autocomplete
 .
-ClearableEditText
+SearchBar
 ;
 import
 org
@@ -295,8 +295,8 @@ AsyncQueryHandler
 queryHandler
 ;
 private
-ClearableEditText
-editText
+SearchBar
+searchBar
 ;
 private
 View
@@ -448,10 +448,10 @@ getContentResolver
 {
 }
 ;
-editText
+searchBar
 =
 (
-ClearableEditText
+SearchBar
 )
 findViewById
 (
@@ -459,10 +459,10 @@ R
 .
 id
 .
-search_edit_text
+search_bar
 )
 ;
-editText
+searchBar
 .
 setOnClickListener
 (
@@ -493,12 +493,12 @@ EDITING
 }
 )
 ;
-editText
+searchBar
 .
 setTextListener
 (
 new
-ClearableEditText
+SearchBar
 .
 TextListener
 (
@@ -796,7 +796,7 @@ getString
 KEY_QUERY
 )
 ;
-editText
+searchBar
 .
 setText
 (
@@ -870,7 +870,7 @@ queryHandler
 =
 null
 ;
-editText
+searchBar
 =
 null
 ;
@@ -972,7 +972,7 @@ EditState
 EDITING
 )
 ;
-editText
+searchBar
 .
 setText
 (
@@ -1026,7 +1026,7 @@ outState
 putString
 (
 KEY_QUERY
-editText
+searchBar
 .
 getText
 (
@@ -1043,7 +1043,7 @@ String
 query
 )
 {
-editText
+searchBar
 .
 setText
 (
@@ -1196,6 +1196,13 @@ engine
 engine
 ;
 suggestionsFragment
+.
+setEngine
+(
+engine
+)
+;
+searchBar
 .
 setEngine
 (
@@ -1451,7 +1458,7 @@ SearchState
 POSTSEARCH
 )
 ;
-editText
+searchBar
 .
 setText
 (
@@ -1564,7 +1571,7 @@ updateSettingsButtonVisibility
 (
 )
 ;
-editText
+searchBar
 .
 setActive
 (
