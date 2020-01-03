@@ -85,6 +85,9 @@ mStackTraceTable
 size_t
 mLiveBlockTable
 ;
+size_t
+mDeadBlockList
+;
 Sizes
 (
 )

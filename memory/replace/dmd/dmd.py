@@ -1629,6 +1629,9 @@ dark
 -
 matter
 '
+'
+cumulative
+'
 ]
 :
         
@@ -1928,14 +1931,18 @@ desc
     
 if
 mode
-=
-=
+in
+[
 '
 live
 '
+'
+cumulative
+'
+]
 :
         
-liveRecords
+liveOrCumulativeRecords
 =
 collections
 .
@@ -2034,11 +2041,15 @@ alloc
         
 if
 mode
-=
-=
+in
+[
 '
 live
 '
+'
+cumulative
+'
+]
 :
             
 recordKey
@@ -2050,7 +2061,7 @@ allocatedAtTraceKey
             
 records
 =
-liveRecords
+liveOrCumulativeRecords
         
 elif
 mode
@@ -2286,11 +2297,15 @@ allocatedAtTraceKey
         
 if
 mode
-=
-=
+in
+[
 '
 live
 '
+'
+cumulative
+'
+]
 :
             
 pass
@@ -2418,21 +2433,25 @@ heapIsSampled
     
 if
 mode
-=
-=
+in
+[
 '
 live
 '
+'
+cumulative
+'
+]
 :
         
 digest
 [
 '
-liveRecords
+liveOrCumulativeRecords
 '
 ]
 =
-liveRecords
+liveOrCumulativeRecords
     
 elif
 mode
@@ -2755,34 +2774,40 @@ d1
 mode
 '
 ]
-=
-=
+in
+[
 '
 live
 '
+'
+cumulative
+'
+]
 :
         
 d3
 [
 '
-liveRecords
+liveOrCumulativeRecords
 '
 ]
 =
+\
+            
 diffRecords
 (
 args
 d1
 [
 '
-liveRecords
+liveOrCumulativeRecords
 '
 ]
-                                              
+                              
 d2
 [
 '
-liveRecords
+liveOrCumulativeRecords
 '
 ]
 )
@@ -2944,19 +2969,23 @@ heapBlocks
     
 if
 mode
-=
-=
+in
+[
 '
 live
 '
+'
+cumulative
+'
+]
 :
         
-liveRecords
+liveOrCumulativeRecords
 =
 digest
 [
 '
-liveRecords
+liveOrCumulativeRecords
 '
 ]
     
@@ -3702,11 +3731,15 @@ heapUsableSize
             
 if
 mode
-=
-=
+in
+[
 '
 live
 '
+'
+cumulative
+'
+]
 :
                 
 pass
@@ -3794,11 +3827,15 @@ out
             
 if
 mode
-=
-=
+in
+[
 '
 live
 '
+'
+cumulative
+'
+]
 :
                 
 pass
@@ -4044,24 +4081,26 @@ sampleBelowSize
     
 if
 mode
-=
-=
+in
+[
 '
 live
 '
+'
+cumulative
+'
+]
 :
         
-liveUsableSize
-liveBlocks
+liveOrCumulativeUsableSize
+liveOrCumulativeBlocks
 =
 \
             
 printRecords
 (
-'
-live
-'
-liveRecords
+mode
+liveOrCumulativeRecords
 heapUsableSize
 )
     
@@ -4137,11 +4176,15 @@ Summary
     
 if
 mode
-=
-=
+in
+[
 '
 live
 '
+'
+cumulative
+'
+]
 :
         
 out
@@ -4165,13 +4208,13 @@ format
 (
 number
 (
-liveUsableSize
+liveOrCumulativeUsableSize
 heapIsSampled
 )
                    
 number
 (
-liveBlocks
+liveOrCumulativeBlocks
 heapIsSampled
 )
 )
