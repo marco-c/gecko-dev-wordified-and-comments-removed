@@ -2435,7 +2435,7 @@ public
 nsIXULAppInfo
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 public
 nsIObserver
 #
@@ -2472,7 +2472,7 @@ NS_DECL_NSIXULAPPINFO
 NS_DECL_NSIXULRUNTIME
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 NS_DECL_NSIOBSERVER
 #
 endif
@@ -2506,7 +2506,7 @@ nsIXULRuntime
 )
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 NS_INTERFACE_MAP_ENTRY
 (
 nsIObserver
@@ -3288,7 +3288,7 @@ false
 ;
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 NS_IMETHODIMP
 nsXULAppInfo
 :
@@ -19059,7 +19059,7 @@ GeckoProcessType_Default
 }
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 static
 void
 LogE10sBlockedReason
@@ -19326,7 +19326,7 @@ if
 !
 defined
 (
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 )
 bool
 testPref
@@ -19674,7 +19674,7 @@ kE10sDisabledForMacGfx
 ;
 #
 ifdef
-NIGHTLY_BUILD
+E10S_TESTING_ONLY
 LogE10sBlockedReason
 (
 "
