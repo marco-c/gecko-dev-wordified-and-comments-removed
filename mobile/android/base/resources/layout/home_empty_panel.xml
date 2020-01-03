@@ -264,7 +264,7 @@ android
 layout_height
 =
 "
-0dip
+wrap_content
 "
 android
 :
@@ -286,13 +286,6 @@ TextAppearance
 .
 EmptyMessage
 "
-android
-:
-layout_weight
-=
-"
-1
-"
 /
 >
 <
@@ -312,7 +305,7 @@ android
 layout_width
 =
 "
-match_parent
+wrap_content
 "
 android
 :
