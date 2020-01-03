@@ -53731,11 +53731,11 @@ IntPolicy
 <
 1
 >
-IntPolicy
+TruncateToInt32Policy
 <
 2
 >
-IntPolicy
+TruncateToInt32Policy
 <
 3
 >
@@ -54005,7 +54005,7 @@ IntPolicy
 <
 1
 >
-IntPolicy
+TruncateToInt32Policy
 <
 2
 >
@@ -54250,7 +54250,7 @@ IntPolicy
 <
 1
 >
-IntPolicy
+TruncateToInt32Policy
 <
 2
 >
