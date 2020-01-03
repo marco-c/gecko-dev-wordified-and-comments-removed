@@ -6398,6 +6398,9 @@ newSession
 '
 value
 '
+capabilities
+=
+desired_capabilities
 )
         
 self
