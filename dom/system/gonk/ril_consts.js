@@ -15658,6 +15658,7 @@ MMI_KS_SC_CHANGE_PASSWORD
 "
 scChangePassword
 "
+;
 this
 .
 MMI_KS_SC_IMEI
