@@ -259,9 +259,7 @@ then
 >
 doTestNonDefaultDataConnection
 (
-"
-mms
-"
+NETWORK_TYPE_MOBILE_MMS
 )
 )
 .
@@ -273,9 +271,7 @@ then
 >
 doTestNonDefaultDataConnection
 (
-"
-supl
-"
+NETWORK_TYPE_MOBILE_SUPL
 )
 )
 .
@@ -287,9 +283,7 @@ then
 >
 doTestNonDefaultDataConnection
 (
-"
-ims
-"
+NETWORK_TYPE_MOBILE_IMS
 )
 )
 .
@@ -301,9 +295,7 @@ then
 >
 doTestNonDefaultDataConnection
 (
-"
-dun
-"
+NETWORK_TYPE_MOBILE_DUN
 )
 )
 .
