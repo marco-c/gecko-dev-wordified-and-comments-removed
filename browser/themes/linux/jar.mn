@@ -1544,6 +1544,7 @@ icon
 .
 svg
 )
+*
 skin
 /
 classic
@@ -1556,11 +1557,6 @@ sidebar
 .
 css
 (
-.
-.
-/
-shared
-/
 readinglist
 /
 sidebar
