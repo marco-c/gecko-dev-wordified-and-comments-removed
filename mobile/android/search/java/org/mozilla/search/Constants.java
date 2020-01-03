@@ -84,7 +84,7 @@ String
 DEFAULT_SEARCH_ENGINE
 =
 "
-YAHOO
+yahoo
 "
 ;
 }
