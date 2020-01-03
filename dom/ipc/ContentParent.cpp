@@ -8475,6 +8475,9 @@ ActorDestroyReason
 why
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -8494,6 +8497,8 @@ ActorDestroy
 )
 )
 ;
+#
+endif
 if
 (
 mForceKillTimer
@@ -12862,6 +12867,9 @@ shutdown
 )
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -12881,6 +12889,8 @@ Begin
 )
 )
 ;
+#
+endif
 ShutDownProcess
 (
 SEND_SHUTDOWN_MESSAGE
@@ -15258,6 +15268,9 @@ char
 aReason
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 CrashReporter
 :
 :
@@ -15277,6 +15290,8 @@ KillHard
 )
 )
 ;
+#
+endif
 if
 (
 mCalledKillHard
