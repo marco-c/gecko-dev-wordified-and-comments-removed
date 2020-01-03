@@ -1720,8 +1720,7 @@ operator
 .
 *
 /
-unsigned
-short
+DOMString
 mcc
 ;
 /
@@ -1742,8 +1741,7 @@ operator
 .
 *
 /
-unsigned
-short
+DOMString
 mnc
 ;
 /
