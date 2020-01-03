@@ -16055,6 +16055,14 @@ tab
 !
 =
 null
+&
+&
+!
+tab
+.
+isEditing
+(
+)
 )
 {
 return
