@@ -451,13 +451,9 @@ iter
 iter
 )
 ;
-urlEnd
-=
-iter
-;
 while
 (
-urlEnd
+iter
 !
 =
 url
@@ -469,7 +465,7 @@ if
 (
 -
 -
-urlEnd
+iter
 )
 !
 =
@@ -480,7 +476,7 @@ char16_t
 )
 )
 {
-urlEnd
+iter
 +
 +
 ;
@@ -496,7 +492,7 @@ urlStr
 Substring
 (
 url
-urlEnd
+iter
 )
 ;
 MOZ_ASSERT
@@ -504,7 +500,7 @@ MOZ_ASSERT
 url
 !
 =
-urlEnd
+iter
 "
 Shouldn
 '
