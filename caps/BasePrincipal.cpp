@@ -269,7 +269,7 @@ aStr
 AppendLiteral
 (
 "
-^
+!
 "
 )
 ;
@@ -523,7 +523,7 @@ aStr
 !
 =
 '
-^
+!
 '
 )
 {
@@ -607,7 +607,7 @@ origin
 RFindChar
 (
 '
-^
+!
 '
 )
 ;

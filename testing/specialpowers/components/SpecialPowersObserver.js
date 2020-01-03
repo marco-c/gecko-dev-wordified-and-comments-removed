@@ -1543,17 +1543,11 @@ msg
 permission
 =
 {
-principal
-:
-{
 appId
 :
 permission
 .
-principal
-.
 appId
-}
 type
 :
 permission

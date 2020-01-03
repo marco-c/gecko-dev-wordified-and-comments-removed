@@ -425,7 +425,7 @@ aOriginString
 split
 (
 '
-^
+!
 '
 )
 ;

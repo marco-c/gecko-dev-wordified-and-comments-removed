@@ -594,7 +594,7 @@ getSiteItem
 (
 TEST_URI_1
 .
-prePath
+host
 )
 "
 site
@@ -612,7 +612,7 @@ getSiteItem
 (
 TEST_URI_2
 .
-prePath
+host
 )
 "
 site
@@ -671,7 +671,7 @@ getSiteItem
 (
 TEST_URI_1
 .
-prePath
+host
 )
 ;
 ok
@@ -697,7 +697,7 @@ getSiteItem
 (
 TEST_URI_2
 .
-prePath
+host
 )
 ;
 ok
@@ -1131,7 +1131,7 @@ getSiteItem
 (
 TEST_URI_2
 .
-prePath
+host
 )
 ;
 gSitesList
@@ -1180,7 +1180,7 @@ gSiteLabel
 value
 TEST_URI_2
 .
-prePath
+host
 "
 header
 updated
@@ -1709,7 +1709,7 @@ getSiteItem
 (
 TEST_URI_2
 .
-prePath
+host
 )
 ;
 ok

@@ -1342,11 +1342,6 @@ locations
 add_host
 (
 server
-scheme
-=
-'
-http
-'
 port
 =
 0
@@ -1356,11 +1351,10 @@ locations
 .
 add_host
 (
-server
-scheme
-=
 '
-https
+<
+file
+>
 '
 port
 =

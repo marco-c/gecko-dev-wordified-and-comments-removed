@@ -258,7 +258,7 @@ self
 assertEqual
 (
 schema_version
-5
+2
 )
 if
 __name__
