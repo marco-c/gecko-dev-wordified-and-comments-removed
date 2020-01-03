@@ -5797,7 +5797,7 @@ iter
 )
 const
 {
-RootedPlainObject
+RootedObject
 templateObject
 (
 cx
@@ -5809,13 +5809,6 @@ read
 )
 .
 toObject
-(
-)
-.
-as
-<
-PlainObject
->
 (
 )
 )
@@ -5871,6 +5864,13 @@ ObjectCreateWithTemplate
 (
 cx
 templateObject
+.
+as
+<
+PlainObject
+>
+(
+)
 )
 ;
 }

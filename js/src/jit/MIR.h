@@ -13483,7 +13483,12 @@ const
 MOZ_OVERRIDE
 {
 return
-true
+templateObject
+(
+)
+!
+=
+nullptr
 ;
 }
 }
