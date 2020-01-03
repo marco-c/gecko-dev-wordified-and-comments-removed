@@ -4788,6 +4788,14 @@ config
 ChooseColumnStrategy
 (
 aReflowState
+aReflowState
+.
+ComputedISize
+(
+)
+=
+=
+NS_UNCONSTRAINEDSIZE
 )
 ;
 nsIFrame
