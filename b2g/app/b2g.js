@@ -7903,3 +7903,15 @@ resample
 true
 )
 ;
+pref
+(
+"
+dom
+.
+serviceWorkers
+.
+enabled
+"
+false
+)
+;
