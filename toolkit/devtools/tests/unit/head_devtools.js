@@ -31,6 +31,11 @@ Components
 .
 results
 ;
+let
+{
+require
+}
+=
 Cu
 .
 import
@@ -55,8 +60,6 @@ jsm
 const
 DevToolsUtils
 =
-devtools
-.
 require
 (
 "

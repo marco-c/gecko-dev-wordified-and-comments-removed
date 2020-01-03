@@ -33,7 +33,7 @@ results
 ;
 const
 {
-devtools
+require
 }
 =
 Cu
@@ -58,13 +58,6 @@ jsm
 {
 }
 )
-;
-const
-{
-require
-}
-=
-devtools
 ;
 var
 beautify

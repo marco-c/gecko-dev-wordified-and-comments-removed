@@ -8,8 +8,6 @@ const
 RootActor
 }
 =
-devtools
-.
 require
 (
 "

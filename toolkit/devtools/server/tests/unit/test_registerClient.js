@@ -1,8 +1,6 @@
 let
 EventEmitter
 =
-devtools
-.
 require
 (
 "

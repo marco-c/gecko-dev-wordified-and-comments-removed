@@ -1,8 +1,6 @@
 let
 MountainGraphWidget
 =
-devtools
-.
 require
 (
 "
@@ -21,8 +19,6 @@ let
 Promise
 }
 =
-devtools
-.
 require
 (
 "

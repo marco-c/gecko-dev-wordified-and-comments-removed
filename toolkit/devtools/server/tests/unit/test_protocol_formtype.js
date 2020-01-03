@@ -1,8 +1,6 @@
 let
 protocol
 =
-devtools
-.
 require
 (
 "

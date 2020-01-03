@@ -8,8 +8,6 @@ const
 PropertyView
 }
 =
-devtools
-.
 require
 (
 "

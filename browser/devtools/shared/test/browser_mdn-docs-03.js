@@ -8,8 +8,6 @@ const
 appendSyntaxHighlightedCSS
 }
 =
-devtools
-.
 require
 (
 "

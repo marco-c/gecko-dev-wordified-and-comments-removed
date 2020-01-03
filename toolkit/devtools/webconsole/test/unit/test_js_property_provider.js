@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-devtools
+require
 }
 =
 Components
@@ -33,11 +33,11 @@ jsm
 }
 )
 ;
-let
+const
+{
 JSPropertyProvider
+}
 =
-devtools
-.
 require
 (
 "
@@ -50,8 +50,6 @@ webconsole
 utils
 "
 )
-.
-JSPropertyProvider
 ;
 Components
 .

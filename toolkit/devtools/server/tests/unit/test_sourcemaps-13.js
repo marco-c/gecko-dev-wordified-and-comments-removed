@@ -15,8 +15,6 @@ const
 SourceNode
 }
 =
-devtools
-.
 require
 (
 "

@@ -3,8 +3,6 @@ let
 FlameGraphUtils
 }
 =
-devtools
-.
 require
 (
 "
@@ -23,8 +21,6 @@ let
 PALLETTE_SIZE
 }
 =
-devtools
-.
 require
 (
 "

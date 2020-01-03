@@ -26,6 +26,7 @@ const
 devtools
 :
 loader
+require
 }
 =
 Cu
@@ -50,13 +51,6 @@ jsm
 {
 }
 )
-;
-const
-require
-=
-loader
-.
-require
 ;
 const
 {

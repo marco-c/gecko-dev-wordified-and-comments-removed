@@ -3,8 +3,6 @@ let
 CATEGORY_MASK
 }
 =
-devtools
-.
 require
 (
 "
@@ -33,8 +31,6 @@ let
 ThreadNode
 }
 =
-devtools
-.
 require
 (
 "
@@ -53,8 +49,6 @@ let
 CallView
 }
 =
-devtools
-.
 require
 (
 "

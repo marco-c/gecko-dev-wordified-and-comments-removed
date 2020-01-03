@@ -15,7 +15,7 @@ jsBeautify
 ;
 const
 {
-devtools
+require
 }
 =
 Components
@@ -48,8 +48,6 @@ const
 beautify
 }
 =
-devtools
-.
 require
 (
 "

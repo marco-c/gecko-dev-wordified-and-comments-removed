@@ -122,8 +122,6 @@ const
 TreeWidget
 }
 =
-devtools
-.
 require
 (
 "
@@ -142,8 +140,6 @@ const
 Promise
 }
 =
-devtools
-.
 require
 (
 "

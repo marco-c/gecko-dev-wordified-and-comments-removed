@@ -3,8 +3,6 @@ const
 types
 }
 =
-devtools
-.
 require
 (
 "

@@ -421,8 +421,6 @@ computeIsContentAndCategory
 parseLocation
 }
 =
-devtools
-.
 require
 (
 "

@@ -3,8 +3,6 @@ const
 OptionsView
 }
 =
-devtools
-.
 require
 (
 "
@@ -23,8 +21,6 @@ const
 Services
 }
 =
-devtools
-.
 require
 (
 "

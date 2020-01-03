@@ -24,7 +24,7 @@ utils
 ;
 let
 {
-devtools
+require
 }
 =
 Cu
@@ -53,8 +53,6 @@ jsm
 const
 DevToolsUtils
 =
-devtools
-.
 require
 (
 "
@@ -304,8 +302,6 @@ try
 {
 m
 =
-devtools
-.
 require
 (
 module
@@ -552,8 +548,6 @@ msg
 let
 inspector
 =
-devtools
-.
 require
 (
 "

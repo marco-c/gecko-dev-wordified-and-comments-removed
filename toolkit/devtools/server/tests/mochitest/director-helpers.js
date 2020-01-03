@@ -51,6 +51,11 @@ jsm
 "
 )
 ;
+const
+{
+require
+}
+=
 Cu
 .
 import
@@ -70,13 +75,13 @@ Loader
 .
 jsm
 "
+{
+}
 )
 ;
 const
 Services
 =
-devtools
-.
 require
 (
 "
@@ -158,8 +163,6 @@ const
 promiseInvoke
 }
 =
-devtools
-.
 require
 (
 "
@@ -177,8 +180,6 @@ DirectorRegistry
 DirectorRegistryFront
 }
 =
-devtools
-.
 require
 (
 "
@@ -199,8 +200,6 @@ const
 DirectorManagerFront
 }
 =
-devtools
-.
 require
 (
 "
@@ -221,8 +220,6 @@ const
 Task
 }
 =
-devtools
-.
 require
 (
 "

@@ -1,6 +1,6 @@
 let
 {
-devtools
+require
 }
 =
 Cu
@@ -29,10 +29,18 @@ jsm
 let
 {
 TargetFactory
-require
 }
 =
+require
+(
+"
 devtools
+/
+framework
+/
+target
+"
+)
 ;
 let
 {
@@ -1278,8 +1286,6 @@ samples
 const
 RecordingUtils
 =
-devtools
-.
 require
 (
 "

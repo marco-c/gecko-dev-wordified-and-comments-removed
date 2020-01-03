@@ -49,8 +49,6 @@ let
 FlameGraph
 }
 =
-devtools
-.
 require
 (
 "
@@ -69,8 +67,6 @@ let
 FLAME_GRAPH_BLOCK_TEXT_FONT_SIZE
 }
 =
-devtools
-.
 require
 (
 "
@@ -89,8 +85,6 @@ let
 FLAME_GRAPH_BLOCK_TEXT_FONT_FAMILY
 }
 =
-devtools
-.
 require
 (
 "
@@ -109,8 +103,6 @@ let
 Promise
 }
 =
-devtools
-.
 require
 (
 "

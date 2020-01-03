@@ -164,8 +164,10 @@ jsm
 "
 )
 ;
-var
+let
+{
 require
+}
 =
 Cu
 .
@@ -189,10 +191,6 @@ jsm
 {
 }
 )
-.
-devtools
-.
-require
 ;
 let
 Telemetry

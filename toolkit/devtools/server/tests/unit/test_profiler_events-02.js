@@ -38,8 +38,6 @@ const
 ProfilerFront
 }
 =
-devtools
-.
 require
 (
 "

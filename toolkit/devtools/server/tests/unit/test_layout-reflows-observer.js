@@ -5,8 +5,6 @@ releaseLayoutChangesObserver
 LayoutChangesObserver
 }
 =
-devtools
-.
 require
 (
 "

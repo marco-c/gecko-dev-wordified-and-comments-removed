@@ -13,8 +13,6 @@ let
 EventLoopLagFront
 }
 =
-devtools
-.
 require
 (
 "

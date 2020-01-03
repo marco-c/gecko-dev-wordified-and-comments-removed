@@ -502,8 +502,6 @@ let
 LazyFront
 }
 =
-devtools
-.
 require
 (
 "

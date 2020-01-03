@@ -40,6 +40,14 @@ jsm
 "
 )
 ;
+let
+{
+devtools
+:
+loader
+require
+}
+=
 Cu
 .
 import
@@ -102,7 +110,7 @@ jsm
 "
 )
 ;
-devtools
+loader
 .
 lazyRequireGetter
 (
@@ -112,7 +120,7 @@ promise
 "
 )
 ;
-devtools
+loader
 .
 lazyRequireGetter
 (
@@ -131,7 +139,7 @@ emitter
 "
 )
 ;
-devtools
+loader
 .
 lazyRequireGetter
 (
@@ -150,13 +158,6 @@ animation
 "
 true
 )
-;
-const
-require
-=
-devtools
-.
-require
 ;
 const
 STRINGS_URI

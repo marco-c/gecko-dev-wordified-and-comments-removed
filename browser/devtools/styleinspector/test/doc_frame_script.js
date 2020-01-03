@@ -48,8 +48,6 @@ jsm
 {
 }
 )
-.
-devtools
 ;
 let
 {

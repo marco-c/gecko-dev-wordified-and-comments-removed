@@ -4,8 +4,6 @@ on
 off
 }
 =
-devtools
-.
 require
 (
 "

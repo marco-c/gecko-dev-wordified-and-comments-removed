@@ -18,8 +18,6 @@ test
 let
 FrameUtils
 =
-devtools
-.
 require
 (
 "
@@ -38,8 +36,6 @@ let
 FrameNode
 }
 =
-devtools
-.
 require
 (
 "
@@ -58,8 +54,6 @@ let
 CATEGORY_OTHER
 }
 =
-devtools
-.
 require
 (
 "

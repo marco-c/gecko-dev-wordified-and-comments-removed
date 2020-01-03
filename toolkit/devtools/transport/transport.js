@@ -66,7 +66,7 @@ utils
 ;
 const
 {
-devtools
+require
 }
 =
 Cu
@@ -97,8 +97,6 @@ factory
 call
 (
 this
-devtools
-.
 require
 this
 )

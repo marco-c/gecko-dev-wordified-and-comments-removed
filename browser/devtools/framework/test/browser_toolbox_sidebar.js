@@ -15,8 +15,6 @@ let
 ToolSidebar
 }
 =
-devtools
-.
 require
 (
 "

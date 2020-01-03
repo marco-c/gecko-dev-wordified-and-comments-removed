@@ -1,8 +1,6 @@
 const
 RecordingUtils
 =
-devtools
-.
 require
 (
 "

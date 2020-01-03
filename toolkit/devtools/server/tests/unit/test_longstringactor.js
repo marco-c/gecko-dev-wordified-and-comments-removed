@@ -3,8 +3,6 @@ const
 LongStringActor
 }
 =
-devtools
-.
 require
 (
 "

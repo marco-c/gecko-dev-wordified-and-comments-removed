@@ -26,7 +26,7 @@ utils
 ;
 const
 {
-devtools
+require
 }
 =
 Cu
@@ -68,8 +68,6 @@ ActorPool
 let
 server
 =
-devtools
-.
 require
 (
 "

@@ -497,7 +497,7 @@ jsm
 ;
 const
 {
-devtools
+require
 }
 =
 Components
@@ -528,8 +528,6 @@ jsm
 const
 StylesheetUtils
 =
-devtools
-.
 require
 (
 "

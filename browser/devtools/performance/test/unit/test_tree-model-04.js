@@ -20,8 +20,6 @@ let
 ThreadNode
 }
 =
-devtools
-.
 require
 (
 "

@@ -494,7 +494,9 @@ jsm
 )
 ;
 const
+{
 require
+}
 =
 Cu
 .
@@ -518,10 +520,6 @@ jsm
 {
 }
 )
-.
-devtools
-.
-require
 ;
 const
 promise

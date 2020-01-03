@@ -292,8 +292,6 @@ gToolbox
 hostType
 =
 =
-devtools
-.
 Toolbox
 .
 HostType
@@ -366,8 +364,6 @@ gToolbox
 hostType
 =
 =
-devtools
-.
 Toolbox
 .
 HostType
@@ -802,8 +798,6 @@ gToolbox
 hostType
 =
 =
-devtools
-.
 Toolbox
 .
 HostType
@@ -828,8 +822,6 @@ gToolbox
 .
 switchHost
 (
-devtools
-.
 Toolbox
 .
 HostType
@@ -861,8 +853,6 @@ gToolbox
 .
 switchHost
 (
-devtools
-.
 Toolbox
 .
 HostType
@@ -903,8 +893,6 @@ toolbox
 .
 host
 "
-devtools
-.
 Toolbox
 .
 HostType

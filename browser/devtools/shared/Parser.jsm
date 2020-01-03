@@ -38,7 +38,7 @@ jsm
 ;
 const
 {
-devtools
+require
 }
 =
 Cu
@@ -67,8 +67,6 @@ jsm
 const
 DevToolsUtils
 =
-devtools
-.
 require
 (
 "

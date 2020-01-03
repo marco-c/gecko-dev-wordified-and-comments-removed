@@ -38,7 +38,9 @@ Components
 utils
 ;
 const
+{
 require
+}
 =
 Cu
 .
@@ -62,10 +64,6 @@ jsm
 {
 }
 )
-.
-devtools
-.
-require
 ;
 const
 Editor

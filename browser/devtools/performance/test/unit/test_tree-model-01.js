@@ -20,8 +20,6 @@ const
 ThreadNode
 }
 =
-devtools
-.
 require
 (
 "

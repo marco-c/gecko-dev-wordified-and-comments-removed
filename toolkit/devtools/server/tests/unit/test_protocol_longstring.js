@@ -1,8 +1,6 @@
 let
 protocol
 =
-devtools
-.
 require
 (
 "
@@ -27,8 +25,6 @@ protocol
 let
 events
 =
-devtools
-.
 require
 (
 "
@@ -45,8 +41,6 @@ let
 LongStringActor
 }
 =
-devtools
-.
 require
 (
 "

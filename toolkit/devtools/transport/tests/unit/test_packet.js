@@ -4,8 +4,6 @@ JSONPacket
 BulkPacket
 }
 =
-devtools
-.
 require
 (
 "

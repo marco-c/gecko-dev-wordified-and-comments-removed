@@ -77,7 +77,7 @@ jsm
 ;
 const
 {
-devtools
+require
 }
 =
 Cu
@@ -129,13 +129,6 @@ jsm
 {
 }
 )
-;
-const
-{
-require
-}
-=
-devtools
 ;
 const
 promise

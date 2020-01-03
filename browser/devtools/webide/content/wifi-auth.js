@@ -61,8 +61,6 @@ jsm
 {
 }
 )
-.
-devtools
 ;
 const
 QR

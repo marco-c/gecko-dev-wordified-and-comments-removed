@@ -17,8 +17,6 @@ function
 let
 global
 =
-devtools
-.
 require
 (
 "

@@ -1,8 +1,6 @@
 let
 RecordingUtils
 =
-devtools
-.
 require
 (
 "

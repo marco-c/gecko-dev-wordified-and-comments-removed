@@ -138,8 +138,6 @@ jsm
 {
 }
 )
-.
-devtools
 ;
 const
 DevToolsUtils

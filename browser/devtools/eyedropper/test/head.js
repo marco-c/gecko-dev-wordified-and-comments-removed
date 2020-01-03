@@ -67,8 +67,6 @@ Eyedropper
 EyedropperManager
 }
 =
-devtools
-.
 require
 (
 "

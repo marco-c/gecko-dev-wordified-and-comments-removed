@@ -1,8 +1,6 @@
 const
 ScriptStore
 =
-devtools
-.
 require
 (
 "

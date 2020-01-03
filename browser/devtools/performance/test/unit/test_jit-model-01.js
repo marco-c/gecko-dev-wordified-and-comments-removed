@@ -20,8 +20,6 @@ let
 JITOptimizations
 }
 =
-devtools
-.
 require
 (
 "

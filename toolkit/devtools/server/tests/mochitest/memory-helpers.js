@@ -145,6 +145,11 @@ jsm
 "
 )
 ;
+let
+{
+require
+}
+=
 Cu
 .
 import
@@ -164,14 +169,9 @@ Loader
 .
 jsm
 "
-)
-;
-let
 {
-require
 }
-=
-devtools
+)
 ;
 let
 {

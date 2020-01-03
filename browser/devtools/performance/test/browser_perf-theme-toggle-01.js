@@ -3,8 +3,6 @@ const
 setTheme
 }
 =
-devtools
-.
 require
 (
 "

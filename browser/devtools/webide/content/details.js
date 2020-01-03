@@ -76,8 +76,6 @@ jsm
 {
 }
 )
-.
-devtools
 ;
 const
 {

@@ -10,6 +10,11 @@ Components
 .
 utils
 ;
+const
+{
+require
+}
+=
 Cu
 .
 import
@@ -29,6 +34,8 @@ Loader
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -39,8 +46,6 @@ SELECTOR_ELEMENT
 SELECTOR_PSEUDO_CLASS
 }
 =
-devtools
-.
 require
 (
 "

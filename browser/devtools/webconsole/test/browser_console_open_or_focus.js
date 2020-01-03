@@ -4,6 +4,18 @@ strict
 "
 ;
 let
+{
+Tools
+}
+=
+require
+(
+"
+definitions
+"
+)
+;
+let
 test
 =
 asyncTest
@@ -92,8 +104,6 @@ currWindow
 document
 .
 documentURI
-devtools
-.
 Tools
 .
 webConsole
@@ -142,8 +152,6 @@ currWindow
 document
 .
 documentURI
-devtools
-.
 Tools
 .
 webConsole

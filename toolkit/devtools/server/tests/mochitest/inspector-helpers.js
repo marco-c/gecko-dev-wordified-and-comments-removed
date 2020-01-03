@@ -5,6 +5,11 @@ Components
 .
 utils
 ;
+const
+{
+require
+}
+=
 Cu
 .
 import
@@ -24,6 +29,8 @@ Loader
 .
 jsm
 "
+{
+}
 )
 ;
 Cu
@@ -94,8 +101,6 @@ jsm
 const
 Services
 =
-devtools
-.
 require
 (
 "
@@ -108,8 +113,6 @@ const
 _documentWalker
 }
 =
-devtools
-.
 require
 (
 "

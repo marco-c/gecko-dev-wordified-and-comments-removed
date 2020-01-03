@@ -188,8 +188,6 @@ const
 TableWidget
 }
 =
-devtools
-.
 require
 (
 "

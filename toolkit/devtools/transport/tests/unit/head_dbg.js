@@ -40,7 +40,7 @@ Constructor
 ;
 const
 {
-devtools
+require
 }
 =
 Cu
@@ -123,8 +123,6 @@ jsm
 const
 Services
 =
-devtools
-.
 require
 (
 "
@@ -135,8 +133,6 @@ Services
 const
 DevToolsUtils
 =
-devtools
-.
 require
 (
 "

@@ -8,8 +8,6 @@ const
 PromisesFront
 }
 =
-devtools
-.
 require
 (
 "

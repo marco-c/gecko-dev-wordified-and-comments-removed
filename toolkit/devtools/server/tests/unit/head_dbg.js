@@ -40,7 +40,7 @@ Constructor
 ;
 const
 {
-devtools
+require
 }
 =
 Cu
@@ -154,8 +154,6 @@ const
 promiseInvoke
 }
 =
-devtools
-.
 require
 (
 "
@@ -170,8 +168,6 @@ utils
 const
 Services
 =
-devtools
-.
 require
 (
 "
@@ -216,8 +212,6 @@ true
 const
 DevToolsUtils
 =
-devtools
-.
 require
 (
 "
@@ -236,8 +230,6 @@ const
 DebuggerServer
 }
 =
-devtools
-.
 require
 (
 "

@@ -68,11 +68,7 @@ jsm
 ;
 const
 {
-devtools
-:
-{
 require
-}
 }
 =
 Cu
