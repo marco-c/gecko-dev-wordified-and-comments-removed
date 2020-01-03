@@ -216,7 +216,7 @@ name_map
 =
 {
 '
-CodeName
+codename
 '
 :
 '
@@ -224,7 +224,15 @@ display_name
 '
                     
 '
-SourceRepository
+milestone
+'
+:
+'
+version
+'
+                    
+'
+sourcerepository
 '
 :
 '
@@ -232,7 +240,7 @@ repository
 '
                     
 '
-SourceStamp
+sourcestamp
 '
 :
 '
@@ -242,27 +250,13 @@ changeset
         
 for
 key
+value
 in
+config
+.
+items
 (
-'
-BuildID
-'
-'
-Name
-'
-'
-CodeName
-'
-'
-Version
-'
-                    
-'
-SourceRepository
-'
-'
-SourceStamp
-'
+section
 )
 :
             
