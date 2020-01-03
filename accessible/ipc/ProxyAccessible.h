@@ -223,6 +223,12 @@ this
 )
 ;
 }
+uint32_t
+EmbeddedChildCount
+(
+)
+const
+;
 int32_t
 IndexOfEmbeddedChild
 (
