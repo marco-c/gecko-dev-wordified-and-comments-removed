@@ -131,7 +131,7 @@ log
 :
 util
 .
-log
+serverLog
 }
 ;
 http2
@@ -148,7 +148,7 @@ log
 :
 util
 .
-log
+clientLog
 }
 )
 ;
@@ -538,7 +538,7 @@ log
 :
 util
 .
-log
+clientLog
 }
 )
 ;
@@ -658,7 +658,7 @@ log
 :
 util
 .
-log
+clientLog
 }
 )
 ;
@@ -1975,6 +1975,8 @@ server
 =
 http2
 .
+raw
+.
 createServer
 (
 {
@@ -1985,7 +1987,7 @@ log
 :
 util
 .
-log
+serverLog
 }
 function
 (
@@ -2030,6 +2032,8 @@ var
 request
 =
 http2
+.
+raw
 .
 request
 (

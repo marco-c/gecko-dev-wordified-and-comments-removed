@@ -56,13 +56,9 @@ node
 -
 http2
 /
-node_modules
-/
-http2
--
-protocol
-/
 lib
+/
+protocol
 /
 compressor
 '

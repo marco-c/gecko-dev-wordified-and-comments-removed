@@ -1,6 +1,6 @@
 exports
 .
-ImplementedVersion
+VERSION
 =
 '
 h2

@@ -33,6 +33,8 @@ require
 /
 lib
 /
+protocol
+/
 connection
 '
 )

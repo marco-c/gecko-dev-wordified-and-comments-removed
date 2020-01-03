@@ -33,6 +33,8 @@ require
 /
 lib
 /
+protocol
+/
 stream
 '
 )
@@ -58,6 +60,7 @@ Stream
 util
 .
 log
+null
 )
 ;
 stream
@@ -851,6 +854,7 @@ Stream
 util
 .
 log
+null
 )
 }
 ]
@@ -1501,6 +1505,7 @@ Stream
 util
 .
 log
+null
 )
 }
 ]
@@ -1597,6 +1602,7 @@ var
 connectionErrorHappened
 =
 false
+;
 stream
 .
 state
@@ -1628,6 +1634,7 @@ _transition
 false
 invalid_frame
 )
+;
 expect
 (
 connectionErrorHappened
@@ -1739,7 +1746,6 @@ event
 }
 )
 ;
-var
 stream
 =
 createStream
