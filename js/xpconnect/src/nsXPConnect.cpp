@@ -84,13 +84,6 @@ h
 #
 include
 "
-XPCQuickStubs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

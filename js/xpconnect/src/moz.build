@@ -213,11 +213,6 @@ XPCModule
 cpp
 '
 '
-XPCQuickStubs
-.
-cpp
-'
-'
 XPCRuntimeService
 .
 cpp
