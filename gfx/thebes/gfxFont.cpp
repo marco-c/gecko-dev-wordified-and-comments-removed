@@ -16114,7 +16114,9 @@ false
 }
 mFUnitsConvFactor
 =
-mAdjustedSize
+GetAdjustedSize
+(
+)
 /
 unitsPerEm
 ;
