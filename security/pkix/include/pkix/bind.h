@@ -165,7 +165,7 @@ public
 typedef
 R
 (
-*
+&
 F
 )
 (
@@ -215,7 +215,6 @@ b1
 }
 private
 :
-const
 F
 f
 ;
@@ -253,7 +252,7 @@ public
 typedef
 R
 (
-*
+&
 F
 )
 (
@@ -313,7 +312,6 @@ b2
 }
 private
 :
-const
 F
 f
 ;
@@ -357,7 +355,7 @@ public
 typedef
 R
 (
-*
+&
 F
 )
 (
@@ -425,7 +423,6 @@ b3
 }
 private
 :
-const
 F
 f
 ;
@@ -475,7 +472,7 @@ public
 typedef
 R
 (
-*
+&
 F
 )
 (
@@ -553,7 +550,6 @@ b4
 }
 private
 :
-const
 F
 f
 ;
@@ -628,7 +624,7 @@ BindToMemberFunction4
 F
 f
 C1
-*
+&
 that
 )
 :
@@ -664,8 +660,7 @@ const
 return
 (
 that
--
->
+.
 *
 f
 )
@@ -684,8 +679,7 @@ F
 f
 ;
 C1
-*
-const
+&
 that
 ;
 void
@@ -724,7 +718,7 @@ public
 typedef
 R
 (
-*
+&
 F
 )
 (
@@ -804,7 +798,6 @@ b5
 }
 private
 :
-const
 F
 f
 ;
@@ -858,7 +851,7 @@ bind
 (
 R
 (
-*
+&
 f
 )
 (
@@ -916,7 +909,7 @@ bind
 (
 R
 (
-*
+&
 f
 )
 (
@@ -986,7 +979,7 @@ bind
 (
 R
 (
-*
+&
 f
 )
 (
@@ -1068,7 +1061,7 @@ bind
 (
 R
 (
-*
+&
 f
 )
 (
@@ -1171,7 +1164,7 @@ P4
 &
 )
 C1
-*
+&
 that
 Placeholder1
 &
@@ -1237,7 +1230,7 @@ bind
 (
 R
 (
-*
+&
 f
 )
 (
