@@ -337,6 +337,7 @@ Worker
 interface
 URLUtilsSearchParams
 {
+readonly
 attribute
 URLSearchParams
 searchParams
