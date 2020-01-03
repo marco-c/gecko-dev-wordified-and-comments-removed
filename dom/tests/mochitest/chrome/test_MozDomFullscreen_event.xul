@@ -442,7 +442,7 @@ window
 open
 (
 "
-MozEnteredDomFullscreen_chrome
+MozDomFullscreen_chrome
 .
 xul
 "
