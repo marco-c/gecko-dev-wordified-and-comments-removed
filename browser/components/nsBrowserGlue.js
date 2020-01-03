@@ -4757,6 +4757,10 @@ addon
 name
 ]
 )
+accessKey
+:
+"
+"
 callback
 :
 function
