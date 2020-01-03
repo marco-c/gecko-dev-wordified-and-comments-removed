@@ -31,9 +31,9 @@ quit
 (
 )
 ;
-setLazyParsingEnabled
+setDiscardSource
 (
-false
+true
 )
 assertEq
 (
