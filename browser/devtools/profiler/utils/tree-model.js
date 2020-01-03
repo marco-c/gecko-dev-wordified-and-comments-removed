@@ -138,7 +138,9 @@ FrameNode
 ;
 exports
 .
-_isContent
+FrameNode
+.
+isContent
 =
 isContent
 ;
