@@ -447,6 +447,11 @@ SharedContext
 const
 sc
 ;
+ExclusiveContext
+*
+const
+cx
+;
 BytecodeEmitter
 *
 const
