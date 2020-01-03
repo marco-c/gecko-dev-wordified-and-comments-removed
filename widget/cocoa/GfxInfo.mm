@@ -459,7 +459,7 @@ AppendPrintf
 "
 0x
 %
-4x
+04x
 "
 IntValueOfCFData
 (
@@ -504,7 +504,7 @@ AppendPrintf
 "
 0x
 %
-4x
+04x
 "
 IntValueOfCFData
 (
