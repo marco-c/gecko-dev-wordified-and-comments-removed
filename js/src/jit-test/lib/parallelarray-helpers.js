@@ -1,8 +1,3 @@
-quit
-(
-0
-)
-;
 var
 minItemsTestingThreshold
 =
