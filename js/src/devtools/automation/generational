@@ -22,13 +22,6 @@ enable
 ctypes
 -
 -
-enable
--
-trace
--
-malloc
--
--
 disable
 -
 shared

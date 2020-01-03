@@ -17,13 +17,6 @@ stdcxx
 compat
 -
 -
-enable
--
-trace
--
-malloc
--
--
 disable
 -
 shared
