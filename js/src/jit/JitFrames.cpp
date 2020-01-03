@@ -17410,6 +17410,12 @@ nargs
 )
 +
 1
++
+frames
+.
+isConstructing
+(
+)
 )
 +
 sizeof
