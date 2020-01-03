@@ -235,6 +235,15 @@ android
 .
 widget
 .
+RelativeLayout
+.
+LayoutParams
+;
+import
+android
+.
+widget
+.
 TextView
 ;
 import
@@ -347,15 +356,11 @@ sValidationTextMarginTop
 ;
 private
 static
-RelativeLayout
-.
 LayoutParams
 sValidationTextLayoutNormal
 ;
 private
 static
-RelativeLayout
-.
 LayoutParams
 sValidationTextLayoutInverted
 ;
@@ -1138,8 +1143,6 @@ validation_message_margin_top
 sValidationTextLayoutNormal
 =
 new
-RelativeLayout
-.
 LayoutParams
 (
 mValidationMessageText
@@ -1162,8 +1165,6 @@ sValidationTextMarginTop
 sValidationTextLayoutInverted
 =
 new
-RelativeLayout
-.
 LayoutParams
 (
 (
@@ -1402,8 +1403,10 @@ isFullscreenMode
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 mAutoCompleteList
@@ -1411,6 +1414,7 @@ mAutoCompleteList
 =
 null
 )
+{
 mAutoCompleteList
 .
 setVisibility
@@ -1429,6 +1433,7 @@ VISIBLE
 GONE
 )
 ;
+}
 if
 (
 mValidationMessage
@@ -1436,6 +1441,7 @@ mValidationMessage
 =
 null
 )
+{
 mValidationMessage
 .
 setVisibility
@@ -1454,6 +1460,7 @@ GONE
 VISIBLE
 )
 ;
+}
 if
 (
 sAutoCompleteMinWidth
@@ -1609,8 +1616,6 @@ zoom
 int
 popupWidth
 =
-RelativeLayout
-.
 LayoutParams
 .
 MATCH_PARENT
@@ -1693,6 +1698,7 @@ viewport
 .
 width
 )
+{
 popupLeft
 =
 (
@@ -1706,6 +1712,7 @@ width
 popupWidth
 )
 ;
+}
 }
 }
 int
@@ -1902,14 +1909,10 @@ VISIBLE
 }
 }
 }
-RelativeLayout
-.
 LayoutParams
 layoutParams
 =
 new
-RelativeLayout
-.
 LayoutParams
 (
 popupWidth
