@@ -278,6 +278,11 @@ PointerController
 cpp
 '
 '
+sha1
+.
+c
+'
+'
 SpriteController
 .
 cpp

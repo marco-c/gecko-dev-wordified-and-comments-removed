@@ -199,11 +199,11 @@ h
 >
 #
 include
-<
+"
 sha1
 .
 h
->
+"
 #
 define
 test_bit
