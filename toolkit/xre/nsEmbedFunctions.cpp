@@ -1961,6 +1961,15 @@ gArgc
 aArgc
 ;
 #
+ifdef
+MOZ_X11
+XInitThreads
+(
+)
+;
+#
+endif
+#
 if
 defined
 (
