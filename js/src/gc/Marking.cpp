@@ -5176,7 +5176,7 @@ trc
 >
 setTracingDetails
 (
-js_GetObjectSlotName
+GetObjectSlotName
 obj
 i
 )

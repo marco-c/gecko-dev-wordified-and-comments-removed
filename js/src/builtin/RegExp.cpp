@@ -823,7 +823,7 @@ hasDefined
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NEWREGEXP_FLAGGED
 )
@@ -3050,7 +3050,10 @@ JS_PS_END
 ;
 JSObject
 *
-js_InitRegExpClass
+js
+:
+:
+InitRegExpClass
 (
 JSContext
 *

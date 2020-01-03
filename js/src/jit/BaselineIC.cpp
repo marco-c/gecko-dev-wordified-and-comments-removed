@@ -7077,7 +7077,7 @@ if
 stub
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -7250,7 +7250,7 @@ if
 stub
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -7389,7 +7389,7 @@ if
 stub
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -30902,7 +30902,7 @@ isObject
 )
 )
 {
-js_ReportValueError
+ReportValueError
 (
 cx
 JSMSG_IN_NOT_OBJECT
@@ -49807,7 +49807,7 @@ if
 native
 =
 =
-js_Array
+ArrayConstructor
 )
 {
 size_t
@@ -50220,7 +50220,7 @@ if
 native
 =
 =
-js_String
+StringConstructor
 )
 {
 RootedString
@@ -51842,7 +51842,7 @@ native
 )
 =
 =
-js_fun_apply
+fun_apply
 )
 return
 TryAttachFunApplyStub
@@ -51879,7 +51879,7 @@ native
 )
 =
 =
-js_fun_call
+fun_call
 )
 {
 if
@@ -54330,7 +54330,7 @@ NotEqual
 callee
 ImmPtr
 (
-js_fun_apply
+fun_apply
 )
 failure
 )
@@ -59195,7 +59195,7 @@ NotEqual
 callee
 ImmPtr
 (
-js_fun_call
+fun_call
 )
 &
 failure
@@ -61333,7 +61333,7 @@ isObject
 )
 )
 {
-js_ReportValueError
+ReportValueError
 (
 cx
 JSMSG_BAD_INSTANCEOF_RHS

@@ -2282,7 +2282,7 @@ if
 !
 p
 )
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

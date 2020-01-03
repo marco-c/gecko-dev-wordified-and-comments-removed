@@ -394,7 +394,10 @@ args
 calleev
 (
 )
-js_fun_apply
+js
+:
+:
+fun_apply
 )
 )
 {
@@ -789,7 +792,7 @@ isUndefined
 )
 )
 ;
-js_ReportIsNullOrUndefined
+ReportIsNullOrUndefined
 (
 cx
 spindex
@@ -1034,7 +1037,7 @@ name
 printable
 )
 )
-js_ReportIsNotDefined
+ReportIsNotDefined
 (
 cx
 printable
@@ -1846,7 +1849,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_ERROR
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_REDECLARED_VAR
 desc
@@ -3278,7 +3281,7 @@ INT32_MAX
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SPREAD_TOO_LARGE
 )

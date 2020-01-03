@@ -12128,7 +12128,10 @@ utctime
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+js
+:
+:
+GetErrorMessage
 nullptr
 JSMSG_INVALID_DATE
 )
@@ -12397,7 +12400,10 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_ERROR
-js_GetErrorMessage
+js
+:
+:
+GetErrorMessage
 nullptr
 JSMSG_BAD_TOISOSTRING_PROP
 )
@@ -15122,7 +15128,10 @@ JS_FS_END
 }
 ;
 bool
-js_Date
+js
+:
+:
+DateConstructor
 (
 JSContext
 *
@@ -15394,7 +15403,7 @@ JSObject
 *
 obj
 =
-js_NewDateObjectMsec
+NewDateObjectMsec
 (
 cx
 d
@@ -15564,7 +15573,7 @@ nullptr
 {
 GenericCreateConstructor
 <
-js_Date
+DateConstructor
 MAXARGS
 JSFunction
 :
@@ -15584,7 +15593,10 @@ JS_FRIEND_API
 JSObject
 *
 )
-js_NewDateObjectMsec
+js
+:
+:
+NewDateObjectMsec
 (
 JSContext
 *
@@ -15639,7 +15651,10 @@ JS_FRIEND_API
 JSObject
 *
 )
-js_NewDateObject
+js
+:
+:
+NewDateObject
 (
 JSContext
 *
@@ -15680,7 +15695,7 @@ sec
 )
 ;
 return
-js_NewDateObjectMsec
+NewDateObjectMsec
 (
 cx
 UTC

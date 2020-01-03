@@ -240,7 +240,7 @@ toType
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_CONVERT_TO
 InformalValueTypeName
@@ -731,7 +731,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INVALID_PROTOTYPE
 )
@@ -1012,7 +1012,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 args
@@ -1485,7 +1485,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 descr
@@ -2599,7 +2599,7 @@ isConstructing
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_FUNCTION
 "
@@ -2637,7 +2637,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
@@ -2812,7 +2812,7 @@ isValid
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPEDOBJECT_TOO_BIG
 )
@@ -3310,7 +3310,7 @@ StructType
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -3487,7 +3487,7 @@ fieldName
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -3511,7 +3511,7 @@ fieldType
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -3561,7 +3561,7 @@ append
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -3584,7 +3584,7 @@ id
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -3606,7 +3606,7 @@ append
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -3632,7 +3632,7 @@ stringRepr
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -3668,7 +3668,7 @@ isValid
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPEDOBJECT_TOO_BIG
 )
@@ -3707,7 +3707,7 @@ value
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -3775,7 +3775,7 @@ isValid
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPEDOBJECT_TOO_BIG
 )
@@ -3828,7 +3828,7 @@ append
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -3878,7 +3878,7 @@ isValid
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPEDOBJECT_TOO_BIG
 )
@@ -4377,7 +4377,7 @@ isConstructing
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_FUNCTION
 "
@@ -4477,7 +4477,7 @@ true
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPEDOBJECT_STRUCTTYPE_BAD_ARGS
 )
@@ -5849,7 +5849,10 @@ module
 }
 JSObject
 *
-js_InitTypedObjectModuleObject
+js
+:
+:
+InitTypedObjectModuleObject
 (
 JSContext
 *
@@ -5898,35 +5901,6 @@ global
 getOrCreateTypedObjectModule
 (
 cx
-)
-;
-}
-JSObject
-*
-js_InitTypedObjectDummy
-(
-JSContext
-*
-cx
-HandleObject
-obj
-)
-{
-MOZ_CRASH
-(
-"
-shouldn
-'
-t
-be
-initializing
-TypedObject
-via
-the
-JSProtoKey
-initializer
-mechanism
-"
 )
 ;
 }
@@ -7534,7 +7508,7 @@ false
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 errorNumber
 typeReprStr
@@ -7889,7 +7863,7 @@ index
 ;
 if
 (
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -8165,7 +8139,7 @@ false
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 errorNumber
 propName
@@ -8342,7 +8316,7 @@ index
 ;
 if
 (
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -8498,7 +8472,7 @@ index
 ;
 if
 (
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -8587,7 +8561,7 @@ isAttached
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPEDOBJECT_HANDLE_UNATTACHED
 )
@@ -9115,7 +9089,7 @@ receiver
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REDEFINE_ARRAY_LENGTH
 )
@@ -9138,7 +9112,7 @@ index
 ;
 if
 (
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -9184,7 +9158,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPEDOBJECT_BINARYARRAY_BAD_INDEX
 )
@@ -9443,7 +9417,7 @@ isAttached
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPEDOBJECT_HANDLE_UNATTACHED
 )
@@ -9511,7 +9485,7 @@ index
 ;
 if
 (
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -9836,7 +9810,7 @@ type
 Array
 :
 return
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -11020,7 +10994,7 @@ buffer
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -11770,7 +11744,7 @@ isNeutered
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -11821,7 +11795,7 @@ isInt32
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -11875,7 +11849,7 @@ isUndefined
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -11914,7 +11888,7 @@ byteLength
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )
@@ -12064,7 +12038,7 @@ true
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TYPEDOBJECT_BAD_ARGS
 )

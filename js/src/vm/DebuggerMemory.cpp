@@ -360,7 +360,7 @@ vp
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NO_CONSTRUCTOR
 "
@@ -438,7 +438,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_NONNULL_OBJECT
 InformalValueTypeName
@@ -477,7 +477,7 @@ DebuggerMemory
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 class_
@@ -522,7 +522,7 @@ isUndefined
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 class_
@@ -760,7 +760,7 @@ hasObjectMetadataCallback
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_OBJECT_METADATA_CALLBACK_ALREADY_SET
 )
@@ -983,7 +983,7 @@ trackingAllocationSites
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_TRACKING_ALLOCATIONS
 "
@@ -1352,7 +1352,7 @@ max
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 "
@@ -1585,7 +1585,7 @@ probability
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 "

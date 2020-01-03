@@ -103,9 +103,10 @@ b
 friend
 JSObject
 *
+js
 :
 :
-js_InitBooleanClass
+InitBooleanClass
 (
 JSContext
 *

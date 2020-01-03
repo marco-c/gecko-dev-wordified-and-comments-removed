@@ -2453,7 +2453,7 @@ obj
 )
 )
 ;
-js_ReportValueError2
+ReportValueError2
 (
 cx
 JSMSG_BAD_TRAP_RETURN_VALUE
@@ -4831,7 +4831,7 @@ length
 0
 )
 {
-js_ReportMissingArg
+ReportMissingArg
 (
 cx
 args
@@ -7561,7 +7561,10 @@ true
 }
 JSObject
 *
-js_InitIteratorClasses
+js
+:
+:
+InitIteratorClasses
 (
 JSContext
 *

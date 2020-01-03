@@ -601,7 +601,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ATOMICS_BAD_ARRAY
 )
@@ -5892,7 +5892,7 @@ WaitingInterrupted
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ATOMICS_WAIT_NOT_ALLOWED
 )
@@ -5927,7 +5927,7 @@ timeout_ms
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ATOMICS_TOO_LONG
 )
@@ -6594,7 +6594,10 @@ Atomics
 }
 JSObject
 *
-js_InitAtomicsClass
+js
+:
+:
+InitAtomicsClass
 (
 JSContext
 *

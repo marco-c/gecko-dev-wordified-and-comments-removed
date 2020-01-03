@@ -557,7 +557,10 @@ obj
 ;
 objDesc
 =
-js_ObjectClassName
+js
+:
+:
+ObjectClassName
 (
 cx
 obj

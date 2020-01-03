@@ -3550,10 +3550,9 @@ mallocSizeOf
 ;
 }
 ;
-}
 JSObject
 *
-js_InitTypedObjectModuleObject
+InitTypedObjectModuleObject
 (
 JSContext
 *
@@ -3565,6 +3564,7 @@ HandleObject
 obj
 )
 ;
+}
 template
 <
 >

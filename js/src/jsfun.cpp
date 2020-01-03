@@ -595,7 +595,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_ERROR
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_THROW_TYPE_ERROR
 )
@@ -670,7 +670,7 @@ hasRest
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_FUNCTION_ARGUMENTS_AND_REST
 )
@@ -688,7 +688,7 @@ cx
 JSREPORT_WARNING
 |
 JSREPORT_STRICT
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEPRECATED_USAGE
 js_arguments_str
@@ -1058,7 +1058,7 @@ cx
 JSREPORT_WARNING
 |
 JSREPORT_STRICT
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEPRECATED_USAGE
 js_caller_str
@@ -1309,7 +1309,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_ERROR
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CALLER_IS_STRICT
 )
@@ -1588,7 +1588,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_ERROR
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CALLER_IS_STRICT
 )
@@ -2433,7 +2433,7 @@ funNameBytes
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_SCRIPTED_FUNCTION
 name
@@ -3351,7 +3351,7 @@ obj
 )
 )
 ;
-js_ReportValueError
+ReportValueError
 (
 cx
 JSMSG_BAD_PROTOTYPE
@@ -4296,7 +4296,7 @@ succeeded
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_CHANGE_EXTENSIBILITY
 )
@@ -6028,7 +6028,7 @@ indent
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 js_Function_str
@@ -6318,7 +6318,10 @@ true
 #
 endif
 bool
-js_fun_call
+js
+:
+:
+fun_call
 (
 JSContext
 *
@@ -6462,7 +6465,10 @@ args
 ;
 }
 bool
-js_fun_apply
+js
+:
+:
+fun_apply
 (
 JSContext
 *
@@ -6537,7 +6543,7 @@ isNullOrUndefined
 )
 )
 return
-js_fun_call
+fun_call
 (
 cx
 (
@@ -6661,7 +6667,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_APPLY_ARGS
 js_apply_str
@@ -6713,7 +6719,7 @@ ARGS_LENGTH_MAX
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TOO_MANY_FUN_APPLY_ARGS
 )
@@ -7979,7 +7985,7 @@ argslen
 ARGS_LENGTH_MAX
 )
 {
-js_ReportAllocationOverflow
+ReportAllocationOverflow
 (
 cx
 )
@@ -8378,7 +8384,7 @@ JSObject
 *
 boundFunction
 =
-js_fun_bind
+fun_bind
 (
 cx
 target
@@ -8413,7 +8419,10 @@ true
 }
 JSObject
 *
-js_fun_bind
+js
+:
+:
+fun_bind
 (
 JSContext
 *
@@ -8906,7 +8915,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_FORMAL
 )
@@ -8947,14 +8956,14 @@ fun_toString
 JS_FN
 (
 js_apply_str
-js_fun_apply
+fun_apply
 2
 0
 )
 JS_FN
 (
 js_call_str
-js_fun_call
+fun_call
 1
 0
 )
@@ -9046,7 +9055,7 @@ global
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CSP_BLOCKED_FUNCTION
 )
@@ -9326,7 +9335,7 @@ args_length
 old_args_length
 )
 {
-js_ReportAllocationOverflow
+ReportAllocationOverflow
 (
 cx
 )
@@ -9371,7 +9380,7 @@ char16_t
 )
 )
 {
-js_ReportAllocationOverflow
+ReportAllocationOverflow
 (
 cx
 )
@@ -9419,7 +9428,7 @@ if
 cp
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -11719,7 +11728,7 @@ funNameBytes
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 clasp
@@ -11788,7 +11797,7 @@ funNameBytes
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_METHOD
 funName

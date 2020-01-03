@@ -1700,7 +1700,7 @@ foundCycle
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_JSON_CYCLIC_VALUE
 js_object_str
@@ -2139,7 +2139,7 @@ foundCycle
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_JSON_CYCLIC_VALUE
 js_object_str
@@ -2623,7 +2623,10 @@ ok
 ;
 }
 bool
-js_Stringify
+js
+:
+:
+Stringify
 (
 JSContext
 *
@@ -4277,7 +4280,7 @@ cx
 if
 (
 !
-js_Stringify
+Stringify
 (
 cx
 &
@@ -4390,7 +4393,10 @@ JS_FS_END
 ;
 JSObject
 *
-js_InitJSONClass
+js
+:
+:
+InitJSONClass
 (
 JSContext
 *

@@ -1248,7 +1248,7 @@ id
 {
 idstr
 =
-js_QuoteString
+QuoteString
 (
 cx
 idstr
@@ -2284,7 +2284,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
@@ -2318,7 +2318,7 @@ isNullOrUndefined
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_CONVERT_TO
 args
@@ -2362,7 +2362,7 @@ isObjectOrNull
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_EXPECTED_TYPE
 "
@@ -2510,7 +2510,7 @@ false
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SETPROTOTYPEOF_FAIL
 bytes
@@ -2752,7 +2752,7 @@ length
 1
 )
 {
-js_ReportMissingArg
+ReportMissingArg
 (
 cx
 args
@@ -3525,7 +3525,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
@@ -3593,7 +3593,7 @@ false
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 bytes
@@ -4509,7 +4509,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
@@ -4755,7 +4755,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_CHANGE_EXTENSIBILITY
 )
@@ -5468,7 +5468,7 @@ if
 success
 )
 {
-js_ReportValueError
+ReportValueError
 (
 cx
 JSMSG_SETPROTOTYPEOF_FAIL

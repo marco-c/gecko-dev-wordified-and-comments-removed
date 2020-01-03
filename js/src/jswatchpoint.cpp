@@ -355,7 +355,7 @@ w
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

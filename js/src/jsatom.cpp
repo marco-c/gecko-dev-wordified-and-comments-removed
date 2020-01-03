@@ -164,7 +164,7 @@ JSString
 *
 str
 =
-js_QuoteString
+QuoteString
 (
 cx
 atom
@@ -1085,7 +1085,7 @@ if
 symbol
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -2030,7 +2030,7 @@ if
 flat
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -2069,7 +2069,7 @@ ib
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

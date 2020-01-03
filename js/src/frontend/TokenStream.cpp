@@ -2561,7 +2561,7 @@ cx
 if
 (
 !
-js_ErrorToException
+ErrorToException
 (
 cx
 message
@@ -2974,10 +2974,10 @@ ArgumentsAreASCII
 if
 (
 !
-js_ExpandErrorArguments
+ExpandErrorArguments
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 errorNumber
 &

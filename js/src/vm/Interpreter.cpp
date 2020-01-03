@@ -1238,7 +1238,7 @@ NumberObject
 :
 class_
 id
-js_num_toString
+num_toString
 )
 )
 obj
@@ -1851,7 +1851,7 @@ numToSkip
 :
 JSDVG_SEARCH_STACK
 ;
-js_ReportValueError3
+ReportValueError3
 (
 cx
 error
@@ -3850,7 +3850,7 @@ obj
 )
 )
 ;
-js_ReportValueError
+ReportValueError
 (
 cx
 JSMSG_BAD_INSTANCEOF_RHS
@@ -9822,7 +9822,7 @@ isObject
 )
 )
 {
-js_ReportValueError
+ReportValueError
 (
 cx
 JSMSG_IN_NOT_OBJECT
@@ -17765,7 +17765,7 @@ isPrimitive
 )
 )
 {
-js_ReportValueError
+ReportValueError
 (
 cx
 JSMSG_BAD_INSTANCEOF_RHS
@@ -18691,7 +18691,7 @@ pc
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_BYTECODE
 numBuf
@@ -19193,7 +19193,7 @@ name
 printable
 )
 )
-js_ReportIsNotDefined
+ReportIsNotDefined
 (
 cx
 printable
@@ -19809,7 +19809,7 @@ bytes
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REDEFINE_PROP
 bytes
@@ -19857,7 +19857,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_LEFTSIDE_OF_ASS
 )
@@ -21174,7 +21174,7 @@ ARGS_LENGTH_MAX
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 op
 =
@@ -21464,7 +21464,7 @@ printable
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNINITIALIZED_LEXICAL
 printable

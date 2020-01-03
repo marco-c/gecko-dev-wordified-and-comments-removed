@@ -8734,11 +8734,10 @@ jsbytecode
 pc
 )
 ;
-}
 extern
 jssrcnote
 *
-js_GetSrcNote
+GetSrcNote
 (
 JSContext
 *
@@ -8754,7 +8753,7 @@ pc
 extern
 jsbytecode
 *
-js_LineNumberToPC
+LineNumberToPC
 (
 JSScript
 *
@@ -8768,13 +8767,14 @@ JS_FRIEND_API
 (
 unsigned
 )
-js_GetScriptLineExtent
+GetScriptLineExtent
 (
 JSScript
 *
 script
 )
 ;
+}
 namespace
 js
 {

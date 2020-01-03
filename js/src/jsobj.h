@@ -4307,10 +4307,13 @@ objp
 )
 ;
 }
+namespace
+js
+{
 extern
 JSObject
 *
-js_FindVariableScope
+FindVariableScope
 (
 JSContext
 *
@@ -4321,9 +4324,6 @@ JSFunction
 funp
 )
 ;
-namespace
-js
-{
 bool
 LookupPropertyPure
 (
@@ -4532,10 +4532,9 @@ HandleObject
 srcObj
 )
 ;
-}
 extern
 void
-js_GetObjectSlotName
+GetObjectSlotName
 (
 JSTracer
 *
@@ -4549,7 +4548,7 @@ bufsize
 ;
 extern
 bool
-js_ReportGetterOnlyAssignment
+ReportGetterOnlyAssignment
 (
 JSContext
 *
@@ -4558,9 +4557,6 @@ bool
 strict
 )
 ;
-namespace
-js
-{
 extern
 JSObject
 *

@@ -154,7 +154,7 @@ JS_ReportErrorNumber
 cx
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_TOO_BIG_TO_ENCODE
 )
@@ -179,7 +179,7 @@ if
 data
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 (
@@ -474,7 +474,7 @@ xdr
 cx
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_SCRIPT_MAGIC
 )

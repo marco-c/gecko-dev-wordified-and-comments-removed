@@ -7921,7 +7921,10 @@ true
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+js
+:
+:
+GetErrorMessage
 nullptr
 JSMSG_CANT_CONVERT_TO
 JS_GetClass

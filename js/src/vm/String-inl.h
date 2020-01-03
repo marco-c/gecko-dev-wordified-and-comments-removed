@@ -451,7 +451,10 @@ MAX_LENGTH
 )
 )
 {
-js_ReportAllocationOverflow
+js
+:
+:
+ReportAllocationOverflow
 (
 maybecx
 )

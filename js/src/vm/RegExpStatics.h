@@ -206,7 +206,7 @@ length
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -2303,7 +2303,7 @@ newPairs
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

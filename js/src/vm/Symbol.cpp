@@ -152,7 +152,7 @@ if
 p
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -367,7 +367,7 @@ sym
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

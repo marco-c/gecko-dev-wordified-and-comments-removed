@@ -1898,7 +1898,7 @@ obj
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_WEAKMAP_KEY
 )
@@ -2262,7 +2262,7 @@ false
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_NONNULL_OBJECT
 bytes
@@ -3227,7 +3227,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INVALID_MAP_ITERABLE
 "
@@ -3327,7 +3327,7 @@ false
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_NONNULL_OBJECT
 bytes
@@ -3689,7 +3689,10 @@ weakMapProto
 }
 JSObject
 *
-js_InitWeakMapClass
+js
+:
+:
+InitWeakMapClass
 (
 JSContext
 *

@@ -275,7 +275,7 @@ if
 !
 p
 )
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -2756,7 +2756,7 @@ cx
 (
 )
 ;
-js_ReportOverRecursed
+ReportOverRecursed
 (
 cx
 )
@@ -2787,7 +2787,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_OUT_OF_MEMORY
 )
@@ -2818,7 +2818,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_INDEX
 )

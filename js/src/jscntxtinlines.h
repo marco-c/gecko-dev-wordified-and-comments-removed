@@ -1741,7 +1741,7 @@ attrs
 JSPROP_GETTER
 )
 return
-js_ReportGetterOnlyAssignment
+ReportGetterOnlyAssignment
 (
 cx
 strict

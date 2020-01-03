@@ -1852,7 +1852,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_ERROR
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REDEFINE_ARRAY_LENGTH
 )
@@ -2656,7 +2656,7 @@ true
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_ARRAY_LENGTH
 )
@@ -2857,7 +2857,7 @@ JS_ReportErrorFlagsAndNumber
 (
 cx
 JSREPORT_ERROR
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_REDEFINE_ARRAY_LENGTH
 )
@@ -3123,7 +3123,7 @@ index
 if
 (
 !
-js_IdIsIndex
+IdIsIndex
 (
 props
 [
@@ -3658,7 +3658,7 @@ JS_ReportErrorFlagsAndNumber
 (
 ncx
 flags
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_DEFINE_PAST_ARRAY_LENGTH
 )
@@ -3705,7 +3705,7 @@ index
 if
 (
 !
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -5014,7 +5014,7 @@ isValid
 )
 )
 {
-js_ReportAllocationOverflow
+ReportAllocationOverflow
 (
 cx
 )
@@ -8880,7 +8880,7 @@ isPrimitive
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_SORT_ARG
 )
@@ -8998,7 +8998,7 @@ Value
 )
 )
 {
-js_ReportAllocationOverflow
+ReportAllocationOverflow
 (
 cx
 )
@@ -14388,7 +14388,7 @@ length
 0
 )
 {
-js_ReportMissingArg
+ReportMissingArg
 (
 cx
 args
@@ -14861,7 +14861,7 @@ native
 )
 =
 =
-js_Array
+ArrayConstructor
 ;
 }
 static
@@ -15651,7 +15651,10 @@ JS_FS_END
 }
 ;
 bool
-js_Array
+js
+:
+:
+ArrayConstructor
 (
 JSContext
 *
@@ -15761,7 +15764,7 @@ i
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_ARRAY_LENGTH
 )
@@ -15813,7 +15816,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_ARRAY_LENGTH
 )
@@ -15903,7 +15906,7 @@ lengthInt
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_ARRAY_LENGTH
 )
@@ -16190,7 +16193,7 @@ nullptr
 {
 GenericCreateConstructor
 <
-js_Array
+ArrayConstructor
 1
 JSFunction
 :
@@ -17637,7 +17640,10 @@ arr
 ifdef
 DEBUG
 bool
-js_ArrayInfo
+js
+:
+:
+ArrayInfo
 (
 JSContext
 *

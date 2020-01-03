@@ -166,7 +166,7 @@ id
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_OBJECT_ACCESS_DENIED
 )
@@ -246,7 +246,7 @@ twoByteChars
 JS_ReportErrorNumberUC
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_PROPERTY_ACCESS_DENIED
 prop
@@ -4795,7 +4795,10 @@ JS_FRIEND_API
 JSObject
 *
 )
-js_InitProxyClass
+js
+:
+:
+InitProxyClass
 (
 JSContext
 *

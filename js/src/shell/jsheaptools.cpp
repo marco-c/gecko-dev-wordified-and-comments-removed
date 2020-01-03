@@ -2232,7 +2232,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
@@ -2273,7 +2273,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 "

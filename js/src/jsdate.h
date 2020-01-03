@@ -29,13 +29,16 @@ TypeDecls
 .
 h
 "
+namespace
+js
+{
 extern
 JS_FRIEND_API
 (
 JSObject
 *
 )
-js_NewDateObjectMsec
+NewDateObjectMsec
 (
 JSContext
 *
@@ -50,7 +53,7 @@ JS_FRIEND_API
 JSObject
 *
 )
-js_NewDateObject
+NewDateObject
 (
 JSContext
 *
@@ -70,7 +73,7 @@ sec
 )
 ;
 bool
-js_Date
+DateConstructor
 (
 JSContext
 *
@@ -85,9 +88,6 @@ Value
 vp
 )
 ;
-namespace
-js
-{
 bool
 date_now
 (

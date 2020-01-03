@@ -907,7 +907,10 @@ ignored
 if
 (
 !
-js_DefineOwnProperty
+js
+:
+:
+DefineOwnProperty
 (
 cx
 obj
@@ -2898,7 +2901,10 @@ objId
 *
 result
 =
-js_ObjectClassIs
+js
+:
+:
+ObjectClassIs
 (
 cx
 obj
@@ -3008,7 +3014,10 @@ name
 =
 NS_ConvertASCIItoUTF16
 (
-js_ObjectClassName
+js
+:
+:
+ObjectClassName
 (
 cx
 obj

@@ -3622,7 +3622,7 @@ size
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ARG_INDEX_OUT_OF_RANGE
 "
@@ -3739,7 +3739,7 @@ offset
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_ARG_INDEX_OUT_OF_RANGE
 "
@@ -6328,7 +6328,7 @@ JSCLASS_IS_GLOBAL
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 "
@@ -10851,7 +10851,7 @@ jsbytecode
 *
 pc
 =
-js_LineNumberToPC
+LineNumberToPC
 (
 script
 lineno
@@ -12287,7 +12287,7 @@ n
 if
 (
 !
-js_Disassemble
+Disassemble
 (
 cx
 script
@@ -12712,7 +12712,7 @@ script
 if
 (
 !
-js_Disassemble
+Disassemble
 (
 cx
 script
@@ -13779,7 +13779,7 @@ linebuf
 }
 len
 =
-js_Disassemble1
+Disassemble1
 (
 cx
 script
@@ -14286,7 +14286,7 @@ compileAndGo
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 "
@@ -14480,7 +14480,7 @@ rval
 .
 setInt32
 (
-js_GetScriptLineExtent
+GetScriptLineExtent
 (
 script
 )
@@ -17643,7 +17643,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
@@ -17908,7 +17908,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
@@ -18209,7 +18209,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
@@ -18876,7 +18876,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
@@ -27195,7 +27195,7 @@ JS_FN_HELP
 "
 arrayInfo
 "
-js_ArrayInfo
+ArrayInfo
 1
 0
 "
@@ -31481,7 +31481,7 @@ isObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_PROTOTYPE
 "

@@ -661,7 +661,7 @@ reportTruncated
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
@@ -1254,7 +1254,10 @@ JS_FRIEND_API
 (
 uint64_t
 )
-js_GetSCOffset
+js
+:
+:
+GetSCOffset
 (
 JSStructuredCloneWriter
 *
@@ -1347,7 +1350,7 @@ else
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_NOT_TRANSFERABLE
 )
@@ -2864,7 +2867,7 @@ T
 nelems
 )
 {
-js_ReportAllocationOverflow
+ReportAllocationOverflow
 (
 context
 (
@@ -3403,7 +3406,7 @@ JS_ReportErrorNumber
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_DUP_TRANSFERABLE
 )
@@ -3991,7 +3994,7 @@ JS_ReportErrorNumber
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_SHMEM_MUST_TRANSFER
 )
@@ -4215,7 +4218,7 @@ JS_ReportErrorNumber
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NEED_DIET
 "
@@ -5401,7 +5404,7 @@ JS_ReportErrorNumber
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_UNSUPPORTED_TYPE
 )
@@ -6488,7 +6491,7 @@ JS_ReportErrorNumber
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
@@ -6659,7 +6662,7 @@ JS_ReportErrorNumber
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
@@ -6856,7 +6859,7 @@ JS_ReportErrorNumber
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
@@ -7257,7 +7260,7 @@ JS_ReportErrorNumber
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
@@ -8240,7 +8243,7 @@ JS_ReportErrorNumber
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
@@ -8256,7 +8259,7 @@ JSObject
 *
 obj
 =
-js_NewDateObjectMsec
+NewDateObjectMsec
 (
 context
 (
@@ -8328,7 +8331,7 @@ JS_ReportErrorNumber
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
@@ -8520,7 +8523,7 @@ JS_ReportErrorNumber
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
@@ -8561,7 +8564,7 @@ JS_ReportErrorNumber
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 NULL
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
@@ -8836,7 +8839,7 @@ JS_ReportErrorNumber
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "
@@ -9757,7 +9760,7 @@ JS_STRUCTURED_CLONE_VERSION
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_BAD_CLONE_VERSION
 )
@@ -10763,7 +10766,7 @@ r
 context
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SC_BAD_SERIALIZED_DATA
 "

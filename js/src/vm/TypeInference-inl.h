@@ -2941,7 +2941,7 @@ i
 ;
 if
 (
-js_IdIsIndex
+IdIsIndex
 (
 id
 &

@@ -829,7 +829,7 @@ JSObject
 *
 copyobj
 =
-js_CopyErrorObject
+CopyErrorObject
 (
 cx
 errObj

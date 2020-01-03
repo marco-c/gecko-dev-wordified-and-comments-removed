@@ -783,7 +783,7 @@ required
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 fnname
@@ -7357,7 +7357,7 @@ parent_proto
 )
 ;
 return
-js_InitClass
+InitClass
 (
 cx
 obj
@@ -7793,7 +7793,7 @@ obj
 )
 )
 ;
-js_ReportValueError
+ReportValueError
 (
 cx
 JSMSG_SETPROTOTYPEOF_FAIL
@@ -8046,7 +8046,7 @@ cval
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NO_CONSTRUCTOR
 proto
@@ -15624,7 +15624,7 @@ dynamicScope
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_CLONE_FUNOBJ_SCOPE
 )
@@ -15646,7 +15646,7 @@ isBoundFunction
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_CLONE_OBJECT
 )
@@ -15679,7 +15679,7 @@ native
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_CLONE_OBJECT
 )
@@ -16066,7 +16066,7 @@ newThis
 )
 ;
 return
-js_fun_bind
+fun_bind
 (
 cx
 target
@@ -16152,7 +16152,7 @@ argc
 1
 )
 {
-js_ReportMissingArg
+ReportMissingArg
 (
 cx
 args
@@ -17036,7 +17036,7 @@ autoJSAPIOwnsErrorReporting
 )
 )
 {
-js_ReportUncaughtException
+ReportUncaughtException
 (
 cx
 )
@@ -17349,7 +17349,7 @@ fp_
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_OPEN
 filename
@@ -21581,7 +21581,7 @@ bytes
 ;
 if
 (
-js_ValueToPrintable
+ValueToPrintable
 (
 cx
 args
@@ -21597,7 +21597,7 @@ bytes
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_NEW_RESULT
 bytes
@@ -23506,7 +23506,7 @@ cx
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BUFFER_TOO_SMALL
 )
@@ -24474,7 +24474,7 @@ false
 if
 (
 !
-js_Stringify
+Stringify
 (
 cx
 vp
@@ -24774,7 +24774,7 @@ ap
 format
 )
 ;
-js_ReportErrorVA
+ReportErrorVA
 (
 cx
 JSREPORT_ERROR
@@ -24860,7 +24860,7 @@ AssertHeapIsIdle
 cx
 )
 ;
-js_ReportErrorNumberVA
+ReportErrorNumberVA
 (
 cx
 JSREPORT_ERROR
@@ -24908,7 +24908,7 @@ ap
 errorNumber
 )
 ;
-js_ReportErrorNumberVA
+ReportErrorNumberVA
 (
 cx
 JSREPORT_ERROR
@@ -24954,7 +24954,7 @@ AssertHeapIsIdle
 cx
 )
 ;
-js_ReportErrorNumberUCArray
+ReportErrorNumberUCArray
 (
 cx
 JSREPORT_ERROR
@@ -25002,7 +25002,7 @@ format
 ;
 ok
 =
-js_ReportErrorVA
+ReportErrorVA
 (
 cx
 JSREPORT_WARNING
@@ -25062,7 +25062,7 @@ errorNumber
 ;
 ok
 =
-js_ReportErrorNumberVA
+ReportErrorNumberVA
 (
 cx
 flags
@@ -25125,7 +25125,7 @@ errorNumber
 ;
 ok
 =
-js_ReportErrorNumberVA
+ReportErrorNumberVA
 (
 cx
 flags
@@ -25156,7 +25156,7 @@ JSContext
 cx
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -25173,7 +25173,7 @@ JSContext
 cx
 )
 {
-js_ReportAllocationOverflow
+ReportAllocationOverflow
 (
 cx
 )
@@ -25266,7 +25266,7 @@ cx
 )
 ;
 return
-js_NewDateObject
+NewDateObject
 (
 cx
 year
@@ -25303,7 +25303,7 @@ cx
 )
 ;
 return
-js_NewDateObjectMsec
+NewDateObjectMsec
 (
 cx
 msec
@@ -26431,7 +26431,7 @@ cx
 bool
 ok
 =
-js_ReportUncaughtException
+ReportUncaughtException
 (
 cx
 )
@@ -26860,7 +26860,7 @@ obj
 )
 ;
 return
-js_ErrorFromException
+ErrorFromException
 (
 cx
 obj

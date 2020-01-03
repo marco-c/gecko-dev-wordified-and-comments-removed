@@ -387,7 +387,7 @@ if
 !
 result
 )
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

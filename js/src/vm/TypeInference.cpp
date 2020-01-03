@@ -6188,7 +6188,7 @@ co
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -15645,7 +15645,7 @@ native
 )
 !
 =
-js_fun_call
+fun_call
 &
 &
 fun
@@ -15656,7 +15656,7 @@ native
 )
 !
 =
-js_fun_apply
+fun_apply
 )
 continue
 ;
@@ -21264,7 +21264,7 @@ init
 )
 return
 ;
-js_Disassemble1
+Disassemble1
 (
 cx
 script

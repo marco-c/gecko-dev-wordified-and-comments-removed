@@ -411,7 +411,10 @@ reportAllocationOverflow
 (
 )
 {
-js_ReportAllocationOverflow
+js
+:
+:
+ReportAllocationOverflow
 (
 nullptr
 )

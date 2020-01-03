@@ -1051,7 +1051,10 @@ JSREPORT_WARNING
 JSREPORT_STRICT
 |
 JSREPORT_STRICT_MODE_ERROR
-js_GetErrorMessage
+js
+:
+:
+GetErrorMessage
 nullptr
 JSMSG_GETTER_ONLY
 )
@@ -1099,7 +1102,10 @@ bool
 dummy
 ;
 return
-js_DefineOwnProperty
+js
+:
+:
+DefineOwnProperty
 (
 cx
 expando

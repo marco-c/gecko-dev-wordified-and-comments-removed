@@ -434,7 +434,7 @@ expr
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_PARSE_NODE
 )
@@ -465,7 +465,7 @@ false
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_BAD_PARSE_NODE
 )
@@ -849,7 +849,7 @@ JSFunction
 )
 )
 {
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR
@@ -3954,7 +3954,7 @@ len
 UINT32_MAX
 )
 {
-js_ReportAllocationOverflow
+ReportAllocationOverflow
 (
 cx
 )
@@ -19430,7 +19430,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
@@ -19529,7 +19529,7 @@ isObject
 )
 )
 {
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR
@@ -19836,7 +19836,7 @@ isObject
 )
 )
 {
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR

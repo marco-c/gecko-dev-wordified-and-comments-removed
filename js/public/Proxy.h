@@ -2507,14 +2507,13 @@ act
 }
 #
 endif
-}
 extern
 JS_FRIEND_API
 (
 JSObject
 *
 )
-js_InitProxyClass
+InitProxyClass
 (
 JSContext
 *
@@ -2526,5 +2525,6 @@ HandleObject
 obj
 )
 ;
+}
 #
 endif

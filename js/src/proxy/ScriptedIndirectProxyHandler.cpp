@@ -679,7 +679,7 @@ proxy
 )
 )
 ;
-js_ReportValueError2
+ReportValueError2
 (
 cx
 JSMSG_BAD_TRAP_RETURN_VALUE
@@ -2102,7 +2102,7 @@ isCallable
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
 js_Function_str
@@ -2480,7 +2480,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
@@ -2660,7 +2660,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 "

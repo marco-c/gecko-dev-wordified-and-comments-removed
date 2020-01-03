@@ -3841,7 +3841,7 @@ uint32_t
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -10913,7 +10913,7 @@ reason
 AbortReason_Alloc
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

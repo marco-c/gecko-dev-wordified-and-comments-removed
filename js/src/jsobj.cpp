@@ -464,7 +464,7 @@ obj
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INACTIVE
 )
@@ -565,7 +565,7 @@ nullptr
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_NONNULL_OBJECT
 bytes
@@ -1455,7 +1455,7 @@ length
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_MORE_ARGS_NEEDED
 method
@@ -1514,7 +1514,7 @@ false
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_UNEXPECTED_TYPE
 bytes
@@ -1675,7 +1675,7 @@ false
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_NOT_NONNULL_OBJECT
 bytes
@@ -2097,7 +2097,7 @@ hasWritable
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_INVALID_DESCRIPTOR
 )
@@ -2334,7 +2334,7 @@ false
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 errorNumber
 bytes
@@ -2388,7 +2388,7 @@ obj
 )
 )
 ;
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR
@@ -2421,7 +2421,7 @@ argCount
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 errorNumber
 )
@@ -4404,7 +4404,7 @@ index
 ;
 if
 (
-js_IdIsIndex
+IdIsIndex
 (
 id
 &
@@ -5323,7 +5323,7 @@ status
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_CHANGE_EXTENSIBILITY
 )
@@ -9980,7 +9980,7 @@ ProxyObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_CLONE_OBJECT
 )
@@ -10064,7 +10064,7 @@ compartment
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_CLONE_OBJECT
 )
@@ -14725,7 +14725,10 @@ nullptr
 }
 NativeObject
 *
-js_InitClass
+js
+:
+:
+InitClass
 (
 JSContext
 *
@@ -17207,7 +17210,7 @@ id
 )
 ;
 return
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 report
@@ -17251,7 +17254,7 @@ id
 )
 ;
 return
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 report
@@ -17294,7 +17297,7 @@ this
 )
 ;
 return
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 report
@@ -17401,7 +17404,7 @@ ArrayBufferObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SETPROTOTYPEOF_FAIL
 "
@@ -17430,7 +17433,7 @@ TypedObject
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SETPROTOTYPEOF_FAIL
 "
@@ -17466,7 +17469,7 @@ Location
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SETPROTOTYPEOF_FAIL
 "
@@ -18635,7 +18638,7 @@ init
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -18797,7 +18800,7 @@ obj
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_WATCH
 obj
@@ -19294,7 +19297,7 @@ StringObject
 :
 class_
 id
-js_str_toString
+str_toString
 )
 )
 {
@@ -19435,7 +19438,7 @@ StringObject
 :
 class_
 id
-js_str_toString
+str_toString
 )
 )
 {
@@ -19509,7 +19512,7 @@ NumberObject
 :
 class_
 id
-js_num_valueOf
+num_valueOf
 )
 )
 {
@@ -19661,7 +19664,7 @@ obj
 )
 )
 ;
-js_ReportValueError2
+ReportValueError2
 (
 cx
 JSMSG_CANT_CONVERT_TO
@@ -20082,7 +20085,7 @@ if
 reportScanStack
 )
 {
-js_ReportIsNullOrUndefined
+ReportIsNullOrUndefined
 (
 cx
 JSDVG_SEARCH_STACK
@@ -20098,7 +20101,7 @@ else
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_CONVERT_TO
 val
@@ -20133,7 +20136,10 @@ val
 ;
 }
 void
-js_GetObjectSlotName
+js
+:
+:
+GetObjectSlotName
 (
 JSTracer
 *
@@ -20155,7 +20161,7 @@ debugPrinter
 )
 =
 =
-js_GetObjectSlotName
+GetObjectSlotName
 )
 ;
 JSObject
@@ -20648,7 +20654,10 @@ KEY
 }
 }
 bool
-js_ReportGetterOnlyAssignment
+js
+:
+:
+ReportGetterOnlyAssignment
 (
 JSContext
 *
@@ -20668,7 +20677,7 @@ JSREPORT_ERROR
 JSREPORT_WARNING
 |
 JSREPORT_STRICT
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_GETTER_ONLY
 )

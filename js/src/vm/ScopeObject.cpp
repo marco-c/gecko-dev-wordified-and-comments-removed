@@ -7762,7 +7762,7 @@ argsObj
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_NOT_LIVE
 "
@@ -8027,7 +8027,7 @@ ACCESS_LOST
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_OPTIMIZED_OUT
 )
@@ -8090,7 +8090,7 @@ argsObj
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_NOT_LIVE
 "
@@ -8266,7 +8266,7 @@ ACCESS_LOST
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_DEBUG_OPTIMIZED_OUT
 )
@@ -9223,7 +9223,7 @@ id
 )
 ;
 return
-js_ReportValueErrorFlags
+ReportValueErrorFlags
 (
 cx
 JSREPORT_ERROR
@@ -9724,7 +9724,10 @@ false
 ;
 }
 bool
-js_IsDebugScopeSlow
+js
+:
+:
+IsDebugScopeSlow
 (
 ProxyObject
 *
@@ -10575,7 +10578,7 @@ debugScopes
 =
 nullptr
 ;
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -10781,7 +10784,7 @@ debugScope
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -11078,7 +11081,7 @@ debugScope
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )
@@ -11138,7 +11141,7 @@ si
 )
 )
 {
-js_ReportOutOfMemory
+ReportOutOfMemory
 (
 cx
 )

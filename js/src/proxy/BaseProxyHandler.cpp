@@ -721,7 +721,7 @@ if
 setter
 )
 return
-js_ReportGetterOnlyAssignment
+ReportGetterOnlyAssignment
 (
 cx
 strict
@@ -1652,7 +1652,7 @@ get
 )
 )
 ;
-js_ReportValueError
+ReportValueError
 (
 cx
 JSMSG_BAD_INSTANCEOF_RHS
@@ -1805,7 +1805,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SETPROTOTYPEOF_FAIL
 "
@@ -1865,7 +1865,7 @@ const
 JS_ReportErrorNumber
 (
 cx
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_CANT_WATCH
 proxy

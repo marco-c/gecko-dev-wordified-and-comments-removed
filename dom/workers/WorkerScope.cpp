@@ -2020,7 +2020,10 @@ aVp
 JS_ReportErrorNumber
 (
 aCx
-js_GetErrorMessage
+js
+:
+:
+GetErrorMessage
 nullptr
 JSMSG_GETTER_ONLY
 )

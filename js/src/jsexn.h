@@ -45,10 +45,9 @@ JSContext
 cx
 )
 ;
-}
 extern
 bool
-js_ErrorToException
+ErrorToException
 (
 JSContext
 *
@@ -69,7 +68,7 @@ userRef
 ;
 extern
 bool
-js_ReportUncaughtException
+ReportUncaughtException
 (
 JSContext
 *
@@ -79,14 +78,11 @@ cx
 extern
 JSErrorReport
 *
-js_ErrorFromException
+ErrorFromException
 (
 JSContext
 *
 cx
-js
-:
-:
 HandleObject
 obj
 )
@@ -94,7 +90,7 @@ obj
 extern
 JSObject
 *
-js_CopyErrorObject
+CopyErrorObject
 (
 JSContext
 *
@@ -104,9 +100,6 @@ JS
 :
 Handle
 <
-js
-:
-:
 ErrorObject
 *
 >
@@ -285,6 +278,7 @@ JSEXN_LIMIT
 return
 type
 ;
+}
 }
 #
 endif

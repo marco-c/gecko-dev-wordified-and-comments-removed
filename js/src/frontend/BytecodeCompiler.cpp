@@ -166,7 +166,7 @@ cx
 asJSContext
 (
 )
-js_GetErrorMessage
+GetErrorMessage
 nullptr
 JSMSG_SOURCE_TOO_LONG
 )
