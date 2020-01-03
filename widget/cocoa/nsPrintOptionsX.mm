@@ -217,7 +217,7 @@ ReadPageFormatFromPrefs
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 nsresult

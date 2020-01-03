@@ -621,6 +621,16 @@ libeditor
 '
 '
 /
+embedding
+/
+components
+/
+printingui
+/
+ipc
+'
+'
+/
 extensions
 /
 cookie

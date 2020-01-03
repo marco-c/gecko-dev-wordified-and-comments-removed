@@ -200,6 +200,10 @@ PNecko
 ;
 include
 protocol
+PPrinting
+;
+include
+protocol
 PScreenManager
 ;
 include
@@ -1184,6 +1188,9 @@ PMobileConnection
 ;
 manages
 PNecko
+;
+manages
+PPrinting
 ;
 manages
 PScreenManager
@@ -2309,6 +2316,10 @@ clientId
 )
 ;
 PNecko
+(
+)
+;
+PPrinting
 (
 )
 ;

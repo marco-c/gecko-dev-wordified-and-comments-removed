@@ -101,6 +101,14 @@ CONFIG
 MOZ_WIDGET_TOOLKIT
 '
 ]
+DIRS
++
+=
+[
+'
+ipc
+'
+]
 if
 toolkit
 =

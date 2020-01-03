@@ -3420,7 +3420,6 @@ return
 0L
 ;
 }
-static
 HGLOBAL
 CreateGlobalDevModeAndInit
 (
