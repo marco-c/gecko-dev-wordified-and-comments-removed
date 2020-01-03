@@ -6,15 +6,6 @@ test1
 test1
 /
 #
-Duplicates
-should
-be
-ignored
-resource
-test1
-foo
-/
-#
 Mapping
 into
 jar

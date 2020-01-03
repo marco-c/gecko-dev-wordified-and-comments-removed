@@ -1444,7 +1444,7 @@ factory
 {
 AboutProtocolParent
 .
-tryUnregisterFactory
+unregisterFactory
 (
 class_
 factory
