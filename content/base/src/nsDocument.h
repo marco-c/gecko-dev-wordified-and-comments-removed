@@ -1375,6 +1375,10 @@ mOwnerData
 struct
 CustomElementData
 {
+NS_INLINE_DECL_REFCOUNTING
+(
+CustomElementData
+)
 explicit
 CustomElementData
 (
@@ -1415,6 +1419,15 @@ RunCallbackQueue
 (
 )
 ;
+private
+:
+virtual
+~
+CustomElementData
+(
+)
+{
+}
 }
 ;
 struct
@@ -5608,6 +5621,8 @@ Maybe
 <
 nsTArray
 <
+nsRefPtr
+<
 mozilla
 :
 :
@@ -5615,7 +5630,7 @@ dom
 :
 :
 CustomElementData
-*
+>
 >
 >
 sProcessingStack

@@ -1184,7 +1184,7 @@ nsIContent
 >
 mXBLInsertionParent
 ;
-nsAutoPtr
+nsRefPtr
 <
 CustomElementData
 >
