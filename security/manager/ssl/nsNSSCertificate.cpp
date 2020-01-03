@@ -833,6 +833,12 @@ cxt
 else
 if
 (
+mCert
+-
+>
+slot
+&
+&
 !
 PK11_IsReadOnly
 (
@@ -972,6 +978,12 @@ PipUIContext
 ;
 if
 (
+mCert
+-
+>
+slot
+&
+&
 PK11_NeedLogin
 (
 mCert
