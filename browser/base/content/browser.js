@@ -5947,12 +5947,6 @@ init
 (
 )
 ;
-ReadingListUI
-.
-init
-(
-)
-;
 #
 ifdef
 XP_WIN
@@ -7124,6 +7118,12 @@ init
 ;
 #
 endif
+ReadingListUI
+.
+init
+(
+)
+;
 FullZoom
 .
 init
