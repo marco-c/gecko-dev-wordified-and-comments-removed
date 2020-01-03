@@ -5614,11 +5614,6 @@ mNetworkLinkServiceInitialized
 =
 true
 ;
-SetOffline
-(
-false
-)
-;
 nsCOMPtr
 <
 nsIPrefBranch
