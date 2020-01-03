@@ -4214,10 +4214,10 @@ aFrame
 if
 (
 !
-gfxPrefs
+gfxPlatform
 :
 :
-AsyncPanZoomEnabledDoNotUseDirectly
+AsyncPanZoomEnabled
 (
 )
 )
