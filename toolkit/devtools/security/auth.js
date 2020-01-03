@@ -1060,7 +1060,11 @@ Server
 defaultAllowConnection
 receiveOOB
 :
-null
+prompt
+.
+Server
+.
+defaultReceiveOOB
 }
 ;
 exports
