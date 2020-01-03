@@ -143,6 +143,7 @@ gfxDrawable
 aDrawable
 )
 ;
+static
 already_AddRefed
 <
 gfx
