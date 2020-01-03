@@ -218,14 +218,6 @@ _iccInfo
 {
 this
 .
-__DOM_IMPL_
-.
-_clearCachedIccInfoValue
-(
-)
-;
-this
-.
 _iccInfo
 =
 [
