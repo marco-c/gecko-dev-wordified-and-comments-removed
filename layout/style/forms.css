@@ -198,7 +198,7 @@ border
 :
 2px
 groove
-ThreeDFace
+ThreeDLightShadow
 ;
 }
 label
@@ -225,7 +225,7 @@ border
 :
 2px
 inset
-ThreeDFace
+ThreeDLightShadow
 ;
 background
 -
@@ -486,7 +486,7 @@ border
 :
 2px
 inset
-ThreeDFace
+ThreeDLightShadow
 ;
 -
 moz
@@ -946,7 +946,7 @@ border
 -
 color
 :
-ThreeDFace
+ThreeDLightShadow
 ;
 background
 -
@@ -1863,7 +1863,7 @@ background
 -
 color
 :
-ThreeDFace
+ThreeDLightShadow
 ;
 cursor
 :
@@ -2540,7 +2540,7 @@ border
 :
 2px
 inset
-ThreeDFace
+ThreeDLightShadow
 !
 important
 ;
@@ -2862,7 +2862,7 @@ border
 :
 2px
 outset
-ButtonFace
+ThreeDLightShadow
 ;
 background
 -
@@ -3794,7 +3794,7 @@ border
 :
 2px
 outset
-ButtonFace
+ThreeDLightShadow
 ;
 cursor
 :
