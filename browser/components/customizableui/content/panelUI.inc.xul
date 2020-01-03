@@ -411,7 +411,7 @@ label
 =
 "
 &
-quitApplicationCmdWin
+quitApplicationCmdWin2
 .
 label
 ;
@@ -420,7 +420,7 @@ tooltiptext
 =
 "
 &
-quitApplicationCmdWin
+quitApplicationCmdWin2
 .
 tooltip
 ;
@@ -434,7 +434,7 @@ label
 =
 "
 &
-quitApplicationCmdMac
+quitApplicationCmdMac2
 .
 label
 ;

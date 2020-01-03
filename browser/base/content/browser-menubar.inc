@@ -854,7 +854,7 @@ label
 =
 "
 &
-quitApplicationCmdWin
+quitApplicationCmdWin2
 .
 label
 ;
@@ -863,7 +863,7 @@ accesskey
 =
 "
 &
-quitApplicationCmdWin
+quitApplicationCmdWin2
 .
 accesskey
 ;
@@ -877,7 +877,7 @@ label
 =
 "
 &
-quitApplicationCmdMac
+quitApplicationCmdMac2
 .
 label
 ;

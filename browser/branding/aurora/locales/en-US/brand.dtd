@@ -62,6 +62,14 @@ MPL
 <
 !
 ENTITY
+brandShorterName
+"
+Firefox
+"
+>
+<
+!
+ENTITY
 brandShortName
 "
 Firefox

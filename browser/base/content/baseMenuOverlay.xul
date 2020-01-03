@@ -331,7 +331,7 @@ label
 =
 "
 &
-hideThisAppCmdMac
+hideThisAppCmdMac2
 .
 label
 ;
@@ -526,7 +526,7 @@ label
 =
 "
 &
-productHelp
+productHelp2
 .
 label
 ;
@@ -535,7 +535,7 @@ accesskey
 =
 "
 &
-productHelp
+productHelp2
 .
 accesskey
 ;
@@ -575,7 +575,7 @@ label
 =
 "
 &
-helpShowTour
+helpShowTour2
 .
 label
 ;
@@ -584,7 +584,7 @@ accesskey
 =
 "
 &
-helpShowTour
+helpShowTour2
 .
 accesskey
 ;
@@ -654,7 +654,7 @@ label
 =
 "
 &
-healthReport
+healthReport2
 .
 label
 ;
@@ -663,7 +663,7 @@ accesskey
 =
 "
 &
-healthReport
+healthReport2
 .
 accesskey
 ;
@@ -832,7 +832,7 @@ accesskey
 =
 "
 &
-aboutProduct
+aboutProduct2
 .
 accesskey
 ;
@@ -841,7 +841,7 @@ label
 =
 "
 &
-aboutProduct
+aboutProduct2
 .
 label
 ;
@@ -963,7 +963,7 @@ key
 =
 "
 &
-hideThisAppCmdMac
+hideThisAppCmdMac2
 .
 commandkey
 ;
