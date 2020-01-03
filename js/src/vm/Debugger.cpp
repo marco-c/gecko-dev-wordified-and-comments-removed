@@ -30743,6 +30743,7 @@ isScriptFrameIterData
 ScriptFrameIter
 iter
 (
+cx
 *
 (
 ScriptFrameIter
@@ -30836,6 +30837,7 @@ maybeIter
 .
 emplace
 (
+cx
 *
 (
 ScriptFrameIter

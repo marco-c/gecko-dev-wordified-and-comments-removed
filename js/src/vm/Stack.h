@@ -6084,9 +6084,11 @@ FrameIter
 iter
 )
 ;
-MOZ_IMPLICIT
 FrameIter
 (
+JSContext
+*
+cx
 const
 Data
 &
@@ -6798,9 +6800,11 @@ settle
 )
 ;
 }
-explicit
 ScriptFrameIter
 (
+JSContext
+*
+cx
 const
 FrameIter
 :
@@ -6812,6 +6816,7 @@ data
 :
 FrameIter
 (
+cx
 data
 )
 {
@@ -7045,6 +7050,9 @@ settle
 explicit
 NonBuiltinFrameIter
 (
+JSContext
+*
+cx
 const
 FrameIter
 :
@@ -7056,6 +7064,7 @@ data
 :
 FrameIter
 (
+cx
 data
 )
 {
@@ -7212,6 +7221,9 @@ settle
 explicit
 NonBuiltinScriptFrameIter
 (
+JSContext
+*
+cx
 const
 ScriptFrameIter
 :
@@ -7223,6 +7235,7 @@ data
 :
 ScriptFrameIter
 (
+cx
 data
 )
 {
