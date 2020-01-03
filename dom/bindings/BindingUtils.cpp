@@ -10847,7 +10847,7 @@ T
 >
 static
 void
-NormalizeScalarValueStringInternal
+NormalizeUSVStringInternal
 (
 JSContext
 *
@@ -10947,7 +10947,7 @@ enumerated
 }
 }
 void
-NormalizeScalarValueString
+NormalizeUSVString
 (
 JSContext
 *
@@ -10957,7 +10957,7 @@ nsAString
 aString
 )
 {
-NormalizeScalarValueStringInternal
+NormalizeUSVStringInternal
 (
 aCx
 aString
@@ -10965,7 +10965,7 @@ aString
 ;
 }
 void
-NormalizeScalarValueString
+NormalizeUSVString
 (
 JSContext
 *
@@ -10978,7 +10978,7 @@ FakeString
 aString
 )
 {
-NormalizeScalarValueStringInternal
+NormalizeUSVStringInternal
 (
 aCx
 aString

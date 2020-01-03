@@ -146,7 +146,7 @@ Blob
 or
 FormData
 or
-ScalarValueString
+USVString
 or
 URLSearchParams
 )
@@ -160,7 +160,7 @@ ArrayBufferView
 or
 Blob
 or
-ScalarValueString
+USVString
 or
 URLSearchParams
 )
@@ -247,7 +247,7 @@ Throws
 ]
 Promise
 <
-ScalarValueString
+USVString
 >
 text
 (

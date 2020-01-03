@@ -57,7 +57,7 @@ namespace
 dom
 {
 class
-ArrayBufferOrArrayBufferViewOrScalarValueStringOrURLSearchParams
+ArrayBufferOrArrayBufferViewOrUSVStringOrURLSearchParams
 ;
 class
 Headers
@@ -296,7 +296,7 @@ aGlobal
 const
 Optional
 <
-ArrayBufferOrArrayBufferViewOrBlobOrScalarValueStringOrURLSearchParams
+ArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
 >
 &
 aBody

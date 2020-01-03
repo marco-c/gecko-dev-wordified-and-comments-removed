@@ -161,7 +161,7 @@ static
 Response
 redirect
 (
-ScalarValueString
+USVString
 url
 optional
 unsigned
@@ -178,7 +178,7 @@ type
 ;
 readonly
 attribute
-ScalarValueString
+USVString
 url
 ;
 readonly

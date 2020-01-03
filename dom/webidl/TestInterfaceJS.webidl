@@ -268,7 +268,7 @@ getCallerPrincipal
 DOMString
 convertSVS
 (
-ScalarValueString
+USVString
 svs
 )
 ;

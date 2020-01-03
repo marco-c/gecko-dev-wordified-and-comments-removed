@@ -348,7 +348,7 @@ ByteString
 "
              
 "
-ScalarValueString
+USVString
 "
              
 "

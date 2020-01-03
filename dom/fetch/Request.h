@@ -70,7 +70,7 @@ class
 Promise
 ;
 class
-RequestOrScalarValueString
+RequestOrUSVString
 ;
 class
 Request
@@ -290,7 +290,7 @@ GlobalObject
 &
 aGlobal
 const
-RequestOrScalarValueString
+RequestOrUSVString
 &
 aInput
 const

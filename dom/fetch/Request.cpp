@@ -203,7 +203,7 @@ GlobalObject
 &
 aGlobal
 const
-RequestOrScalarValueString
+RequestOrUSVString
 &
 aInput
 const
@@ -353,7 +353,7 @@ if
 (
 aInput
 .
-IsScalarValueString
+IsUSVString
 (
 )
 )
@@ -367,7 +367,7 @@ Assign
 (
 aInput
 .
-GetAsScalarValueString
+GetAsUSVString
 (
 )
 )
@@ -1055,7 +1055,7 @@ WasPassed
 )
 {
 const
-OwningArrayBufferOrArrayBufferViewOrBlobOrScalarValueStringOrURLSearchParams
+OwningArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
 &
 bodyInit
 =

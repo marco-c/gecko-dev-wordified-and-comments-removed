@@ -9751,7 +9751,7 @@ bytestring
 '
         
 '
-scalarvaluestring
+usvstring
 '
         
 '
@@ -9969,7 +9969,7 @@ return
 False
     
 def
-isScalarValueString
+isUSVString
 (
 self
 )
@@ -11012,7 +11012,7 @@ isDOMString
 )
     
 def
-isScalarValueString
+isUSVString
 (
 self
 )
@@ -11023,7 +11023,7 @@ self
 .
 inner
 .
-isScalarValueString
+isUSVString
 (
 )
     
@@ -11755,7 +11755,7 @@ return
 False
     
 def
-isScalarValueString
+isUSVString
 (
 self
 )
@@ -13496,7 +13496,7 @@ return
 False
     
 def
-isScalarValueString
+isUSVString
 (
 self
 )
@@ -14026,7 +14026,7 @@ isDOMString
 )
     
 def
-isScalarValueString
+isUSVString
 (
 self
 )
@@ -14037,7 +14037,7 @@ self
 .
 inner
 .
-isScalarValueString
+isUSVString
 (
 )
     
@@ -14544,7 +14544,7 @@ return
 False
     
 def
-isScalarValueString
+isUSVString
 (
 self
 )
@@ -15448,7 +15448,7 @@ bytestring
 '
         
 '
-scalarvaluestring
+usvstring
 '
         
 '
@@ -15675,13 +15675,13 @@ bytestring
             
 Types
 .
-scalarvaluestring
+usvstring
 :
 IDLType
 .
 Tags
 .
-scalarvaluestring
+usvstring
             
 Types
 .
@@ -15958,7 +15958,7 @@ IDLBuiltinType
 .
 Types
 .
-scalarvaluestring
+usvstring
     
 def
 isByteString
@@ -15999,7 +15999,7 @@ Types
 domstring
     
 def
-isScalarValueString
+isUSVString
 (
 self
 )
@@ -16015,7 +16015,7 @@ IDLBuiltinType
 .
 Types
 .
-scalarvaluestring
+usvstring
     
 def
 isInteger
@@ -17324,7 +17324,7 @@ IDLBuiltinType
 .
 Types
 .
-scalarvaluestring
+usvstring
 :
           
 IDLBuiltinType
@@ -17339,14 +17339,14 @@ type
 "
 )
 "
-ScalarValueString
+USVString
 "
                          
 IDLBuiltinType
 .
 Types
 .
-scalarvaluestring
+usvstring
 )
       
 IDLBuiltinType
@@ -18423,7 +18423,7 @@ isString
 and
 type
 .
-isScalarValueString
+isUSVString
 (
 )
 :
@@ -27693,11 +27693,11 @@ BYTESTRING
 "
         
 "
-ScalarValueString
+USVString
 "
 :
 "
-SCALARVALUESTRING
+USVSTRING
 "
         
 "
@@ -33793,7 +33793,7 @@ DOMSTRING
 BYTESTRING
                   
 |
-SCALARVALUESTRING
+USVSTRING
                   
 |
 ANY
@@ -35370,7 +35370,7 @@ Types
 bytestring
     
 def
-p_PrimitiveOrStringTypeScalarValueString
+p_PrimitiveOrStringTypeUSVString
 (
 self
 p
@@ -35383,7 +35383,7 @@ p
             
 PrimitiveOrStringType
 :
-SCALARVALUESTRING
+USVSTRING
         
 "
 "
@@ -35398,7 +35398,7 @@ IDLBuiltinType
 .
 Types
 .
-scalarvaluestring
+usvstring
     
 def
 p_UnsignedIntegerTypeUnsigned

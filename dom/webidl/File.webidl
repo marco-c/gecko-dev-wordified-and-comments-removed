@@ -110,7 +110,7 @@ DOMString
 )
 >
 fileBits
-ScalarValueString
+USVString
 fileName
 optional
 FilePropertyBag
@@ -144,7 +144,7 @@ options
 )
 Constructor
 (
-ScalarValueString
+USVString
 fileBits
 optional
 ChromeFilePropertyBag

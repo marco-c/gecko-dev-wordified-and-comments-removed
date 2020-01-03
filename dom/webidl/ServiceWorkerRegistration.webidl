@@ -169,7 +169,7 @@ active
 ;
 readonly
 attribute
-ScalarValueString
+USVString
 scope
 ;
 [

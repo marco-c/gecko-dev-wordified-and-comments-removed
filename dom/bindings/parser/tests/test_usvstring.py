@@ -29,11 +29,11 @@ parse
 "
         
 interface
-TestScalarValueString
+TestUSVString
 {
           
 attribute
-ScalarValueString
+USVString
 svs
 ;
         
@@ -115,7 +115,7 @@ QName
 "
 :
 :
-TestScalarValueString
+TestUSVString
 "
                   
 "
@@ -137,7 +137,7 @@ identifier
 .
 name
 "
-TestScalarValueString
+TestUSVString
 "
                   
 "
@@ -228,7 +228,7 @@ QName
 "
 :
 :
-TestScalarValueString
+TestUSVString
 :
 :
 svs
@@ -273,7 +273,7 @@ attr
 type
 )
 "
-ScalarValueString
+USVString
 "
                   
 "
@@ -294,13 +294,13 @@ attr
 .
 type
 .
-isScalarValueString
+isUSVString
 (
 )
 "
 Should
 be
-ScalarValueString
+USVString
 type
 "
 )

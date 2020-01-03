@@ -121,7 +121,7 @@ typedef
 (
 Request
 or
-ScalarValueString
+USVString
 )
 RequestInfo
 ;
@@ -165,7 +165,7 @@ method
 ;
 readonly
 attribute
-ScalarValueString
+USVString
 url
 ;
 readonly

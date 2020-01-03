@@ -209,7 +209,7 @@ ServiceWorkerRegistration
 >
 register
 (
-ScalarValueString
+USVString
 scriptURL
 optional
 RegistrationOptionList
@@ -226,7 +226,7 @@ ServiceWorkerRegistration
 getRegistration
 (
 optional
-ScalarValueString
+USVString
 documentURL
 =
 "
@@ -339,7 +339,7 @@ path
 dictionary
 RegistrationOptionList
 {
-ScalarValueString
+USVString
 scope
 =
 "

@@ -33514,7 +33514,7 @@ isDOMString
 or
 type
 .
-isScalarValueString
+isUSVString
 (
 )
 :
@@ -33607,7 +33607,7 @@ normalizeCode
 if
 type
 .
-isScalarValueString
+isUSVString
 (
 )
 :
@@ -33615,7 +33615,7 @@ isScalarValueString
 normalizeCode
 =
 "
-NormalizeScalarValueString
+NormalizeUSVString
 (
 cx
 %
@@ -40206,7 +40206,7 @@ isDOMString
 or
 type
 .
-isScalarValueString
+isUSVString
 (
 )
 :
@@ -42431,7 +42431,7 @@ isDOMString
 or
 returnType
 .
-isScalarValueString
+isUSVString
 (
 )
 :
@@ -59371,7 +59371,7 @@ isDOMString
 or
 type
 .
-isScalarValueString
+isUSVString
 (
 )
 :
@@ -88548,7 +88548,7 @@ isDOMString
 or
 type
 .
-isScalarValueString
+isUSVString
 (
 )
 :
@@ -89419,7 +89419,7 @@ isDOMString
 or
 returnType
 .
-isScalarValueString
+isUSVString
 (
 )
 :
@@ -90471,7 +90471,7 @@ isDOMString
 or
 type
 .
-isScalarValueString
+isUSVString
 (
 )
 :
@@ -103246,7 +103246,7 @@ isByteString
 or
 type
 .
-isScalarValueString
+isUSVString
 (
 )
 :
@@ -106436,7 +106436,7 @@ isDOMString
 or
 type
 .
-isScalarValueString
+isUSVString
 (
 )
 :
