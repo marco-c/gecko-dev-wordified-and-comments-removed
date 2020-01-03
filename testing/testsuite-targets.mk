@@ -1521,7 +1521,7 @@ MOZ_MACBUNDLE_NAME
 /
 Contents
 /
-MacOS
+Resources
 /
 webapprt
 -
