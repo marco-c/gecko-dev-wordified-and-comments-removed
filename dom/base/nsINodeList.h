@@ -19,13 +19,6 @@ nsWrapperCache
 h
 "
 #
-include
-"
-nsIContent
-.
-h
-"
-#
 define
 NS_INODELIST_IID
 \
@@ -45,6 +38,12 @@ NS_INODELIST_IID
 0x7a
 }
 }
+class
+nsIContent
+;
+class
+nsINode
+;
 class
 nsINodeList
 :
