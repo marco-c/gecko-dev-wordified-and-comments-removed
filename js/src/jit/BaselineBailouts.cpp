@@ -6928,9 +6928,16 @@ init
 (
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 BAILOUT_RETURN_FATAL_ERROR
 ;
+}
 JitSpew
 (
 JitSpew_BaselineBailouts
