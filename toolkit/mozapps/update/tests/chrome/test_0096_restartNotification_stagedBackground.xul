@@ -235,6 +235,10 @@ extra1
 }
 ]
 ;
+gUseTestUpdater
+=
+true
+;
 function
 runTest
 (
