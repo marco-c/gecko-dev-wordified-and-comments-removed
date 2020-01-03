@@ -233,6 +233,11 @@ nsIQueryContentEventResult
 idl
 '
 '
+nsIRemoteBrowser
+.
+idl
+'
+'
 nsIServiceWorkerManager
 .
 idl
