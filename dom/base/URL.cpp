@@ -554,7 +554,7 @@ const
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 ErrorResult
@@ -603,7 +603,7 @@ dom
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 ErrorResult
@@ -643,7 +643,7 @@ const
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 ErrorResult
@@ -687,7 +687,7 @@ const
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 ErrorResult
@@ -713,7 +713,7 @@ Get
 )
 )
 ;
-nsCString
+nsAutoCString
 url
 ;
 nsresult
@@ -994,7 +994,7 @@ URL
 :
 GetHref
 (
-nsString
+nsAString
 &
 aHref
 ErrorResult
@@ -1054,10 +1054,8 @@ ErrorResult
 aRv
 )
 {
-nsCString
-href
-=
 NS_ConvertUTF16toUTF8
+href
 (
 aHref
 )
@@ -1160,7 +1158,7 @@ URL
 :
 GetOrigin
 (
-nsString
+nsAString
 &
 aOrigin
 ErrorResult
@@ -1185,7 +1183,7 @@ URL
 :
 GetProtocol
 (
-nsString
+nsAString
 &
 aProtocol
 ErrorResult
@@ -1194,7 +1192,7 @@ aRv
 )
 const
 {
-nsCString
+nsAutoCString
 protocol
 ;
 if
@@ -1477,7 +1475,7 @@ URL
 :
 GetUsername
 (
-nsString
+nsAString
 &
 aUsername
 ErrorResult
@@ -1526,7 +1524,7 @@ URL
 :
 GetPassword
 (
-nsString
+nsAString
 &
 aPassword
 ErrorResult
@@ -1575,7 +1573,7 @@ URL
 :
 GetHost
 (
-nsString
+nsAString
 &
 aHost
 ErrorResult
@@ -1748,7 +1746,7 @@ URL
 :
 GetHostname
 (
-nsString
+nsAString
 &
 aHostname
 ErrorResult
@@ -1806,7 +1804,7 @@ URL
 :
 GetPort
 (
-nsString
+nsAString
 &
 aPort
 ErrorResult
@@ -1948,7 +1946,7 @@ URL
 :
 GetPathname
 (
-nsString
+nsAString
 &
 aPathname
 ErrorResult
@@ -2068,7 +2066,7 @@ URL
 :
 GetSearch
 (
-nsString
+nsAString
 &
 aSearch
 ErrorResult
@@ -2297,7 +2295,7 @@ URL
 :
 GetHash
 (
-nsString
+nsAString
 &
 aHash
 ErrorResult

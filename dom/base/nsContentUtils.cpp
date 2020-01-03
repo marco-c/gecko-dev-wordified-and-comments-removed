@@ -25837,7 +25837,7 @@ GetASCIIOrigin
 nsIPrincipal
 *
 aPrincipal
-nsCString
+nsACString
 &
 aOrigin
 )
@@ -25918,7 +25918,7 @@ GetASCIIOrigin
 nsIURI
 *
 aURI
-nsCString
+nsACString
 &
 aOrigin
 )
@@ -26189,7 +26189,7 @@ GetUTFOrigin
 nsIPrincipal
 *
 aPrincipal
-nsString
+nsAString
 &
 aOrigin
 )
@@ -26270,7 +26270,7 @@ GetUTFOrigin
 nsIURI
 *
 aURI
-nsString
+nsAString
 &
 aOrigin
 )
