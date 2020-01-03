@@ -1056,6 +1056,8 @@ end_of_payload
 const
 {
 return
+header_
+?
 payload
 (
 )
@@ -1063,6 +1065,8 @@ payload
 payload_size
 (
 )
+:
+nullptr
 ;
 }
 uint32_t
