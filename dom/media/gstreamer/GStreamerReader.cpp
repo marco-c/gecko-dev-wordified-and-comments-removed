@@ -6328,17 +6328,6 @@ MOZ_ASSERT
 mDecoder
 )
 ;
-ReentrantMonitorAutoEnter
-mon
-(
-mDecoder
--
->
-GetReentrantMonitor
-(
-)
-)
-;
 mLastParserDuration
 =
 duration
@@ -6346,7 +6335,7 @@ duration
 mDecoder
 -
 >
-UpdateEstimatedMediaDuration
+DispatchUpdateEstimatedMediaDuration
 (
 mLastParserDuration
 )

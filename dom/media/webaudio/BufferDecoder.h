@@ -139,16 +139,6 @@ override
 ;
 virtual
 void
-UpdateEstimatedMediaDuration
-(
-int64_t
-aDuration
-)
-final
-override
-;
-virtual
-void
 SetMediaSeekable
 (
 bool

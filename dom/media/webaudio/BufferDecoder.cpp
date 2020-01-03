@@ -235,17 +235,6 @@ void
 BufferDecoder
 :
 :
-UpdateEstimatedMediaDuration
-(
-int64_t
-aDuration
-)
-{
-}
-void
-BufferDecoder
-:
-:
 SetMediaSeekable
 (
 bool

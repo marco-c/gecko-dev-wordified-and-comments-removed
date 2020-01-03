@@ -698,6 +698,8 @@ IsEndedOrShutdown
 )
 const
 ;
+protected
+:
 void
 UpdateEstimatedMediaDuration
 (
@@ -706,6 +708,8 @@ aDuration
 )
 override
 ;
+public
+:
 virtual
 void
 SetMediaSeekable
