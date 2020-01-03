@@ -8062,6 +8062,10 @@ stateFrom
 stateEnd
 )
 ;
+mProcessedTime
+=
+stateEnd
+;
 {
 MonitorAutoLock
 lock

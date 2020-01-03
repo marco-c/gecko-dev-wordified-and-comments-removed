@@ -1120,6 +1120,11 @@ mStateComputedTime
 =
 0
 ;
+GraphTime
+mProcessedTime
+=
+0
+;
 TimeStamp
 mLastMainThreadUpdate
 ;
