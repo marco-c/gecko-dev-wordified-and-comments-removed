@@ -12150,6 +12150,10 @@ nsAString
 aKeyword
 )
 {
+PLACES_WARN_DEPRECATED
+(
+)
+;
 NS_ENSURE_ARG
 (
 aURI
