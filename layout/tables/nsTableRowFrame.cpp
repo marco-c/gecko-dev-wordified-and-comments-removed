@@ -3991,6 +3991,13 @@ wm
 =
 =
 0
+|
+|
+wm
+.
+IsVerticalRL
+(
+)
 )
 ;
 nsRect

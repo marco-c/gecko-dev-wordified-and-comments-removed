@@ -499,6 +499,11 @@ nscoord
 aBTotalOffset
 nscoord
 aISize
+mozilla
+:
+:
+WritingMode
+aWM
 )
 ;
 public

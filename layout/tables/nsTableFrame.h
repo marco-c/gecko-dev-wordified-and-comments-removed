@@ -869,8 +869,13 @@ aChildType
 )
 ;
 bool
-IsAutoHeight
+IsAutoBSize
 (
+mozilla
+:
+:
+WritingMode
+aWM
 )
 ;
 bool
@@ -1164,7 +1169,7 @@ aShrinkWrap
 override
 ;
 nscoord
-TableShrinkWidthToFit
+TableShrinkISizeToFit
 (
 nsRenderingContext
 *
@@ -1204,7 +1209,7 @@ nsHTMLReflowState
 &
 aReflowState
 nscoord
-aAvailHeight
+aAvailBSize
 nsIFrame
 *
 &
@@ -1762,7 +1767,7 @@ aRenderingContext
 )
 ;
 nscoord
-GetCollapsedWidth
+GetCollapsedISize
 (
 const
 WritingMode
@@ -1856,7 +1861,7 @@ aNewHeight
 public
 :
 nscoord
-CalcBorderBoxHeight
+CalcBorderBoxBSize
 (
 const
 nsHTMLReflowState
@@ -1867,7 +1872,7 @@ aReflowState
 protected
 :
 void
-CalcDesiredHeight
+CalcDesiredBSize
 (
 const
 nsHTMLReflowState
@@ -1879,7 +1884,7 @@ aDesiredSize
 )
 ;
 void
-DistributeHeightToRows
+DistributeBSizeToRows
 (
 const
 nsHTMLReflowState
