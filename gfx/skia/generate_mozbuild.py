@@ -340,6 +340,18 @@ CONFIG
 GNU_CC
 '
 ]
+and
+CONFIG
+[
+'
+OS_ARCH
+'
+]
+!
+=
+'
+WINNT
+'
 :
     
 if
