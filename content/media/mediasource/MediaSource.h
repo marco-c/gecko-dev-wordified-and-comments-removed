@@ -372,6 +372,13 @@ aPath
 endif
 private
 :
+friend
+class
+mozilla
+:
+:
+MediaSourceDecoder
+;
 ~
 MediaSource
 (
