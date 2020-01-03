@@ -598,6 +598,7 @@ delete
 }
 ;
 class
+MOZ_STACK_CLASS
 AutoEntryScript
 :
 public
@@ -648,6 +649,7 @@ private
 :
 nsIPrincipal
 *
+MOZ_NON_OWNING_REF
 mWebIDLCallerPrincipal
 ;
 friend
@@ -657,8 +659,10 @@ GetWebIDLCallerPrincipal
 (
 )
 ;
+nsCOMPtr
+<
 nsIDocShell
-*
+>
 mDocShellForJSRunToCompletion
 ;
 bool
