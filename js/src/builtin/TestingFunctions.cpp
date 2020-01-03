@@ -6992,7 +6992,6 @@ enabled
 (
 )
 )
-{
 args
 .
 rval
@@ -7004,10 +7003,6 @@ setBoolean
 false
 )
 ;
-return
-true
-;
-}
 RootedObject
 stack
 (
