@@ -87,10 +87,9 @@ ITERATOR
 JS_HAS_SYMBOLS
 ?
 "
-(
-intermediate
-value
-)
+Symbol
+.
+iterator
 "
 :
 "
