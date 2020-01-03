@@ -336,6 +336,14 @@ int64_t
 aTimeThreshold
 )
 ;
+friend
+class
+ReRequestVideoWithSkipTask
+;
+friend
+class
+ReRequestAudioTask
+;
 virtual
 bool
 IsWaitForDataSupported
