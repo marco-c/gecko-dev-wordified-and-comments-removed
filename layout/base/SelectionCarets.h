@@ -423,6 +423,15 @@ SelectionState
 aStates
 )
 ;
+void
+DispatchCustomEvent
+(
+const
+nsAString
+&
+aEvent
+)
+;
 nsRect
 GetSelectionBoundingRect
 (
