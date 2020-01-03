@@ -195,9 +195,8 @@ any
 more
 .
 Bug
-1188462
-rearranged
-the
-skia
-directory
-.
+1186748
+needed
+a
+CLOBBER
+again
