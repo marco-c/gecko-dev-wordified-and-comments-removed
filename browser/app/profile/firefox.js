@@ -17166,9 +17166,6 @@ tab
 true
 )
 ;
-#
-ifndef
-RELEASE_BUILD
 pref
 (
 "
@@ -17186,14 +17183,10 @@ pref
 "
 dom
 .
-serviceWorkers
-.
-interception
+push
 .
 enabled
 "
 true
 )
 ;
-#
-endif

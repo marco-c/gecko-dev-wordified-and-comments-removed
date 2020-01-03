@@ -428,9 +428,6 @@ false
 android
 :
 false
-release
-:
-false
 }
 {
 name
@@ -442,9 +439,6 @@ b2g
 :
 false
 android
-:
-false
-release
 :
 false
 }
@@ -460,9 +454,6 @@ name
 "
 ServiceWorkerRegistration
 "
-release
-:
-false
 b2g
 :
 false
