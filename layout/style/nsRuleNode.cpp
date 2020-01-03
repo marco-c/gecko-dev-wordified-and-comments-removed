@@ -51,7 +51,7 @@ h
 #
 include
 "
-nsDeviceContext
+nsAlgorithm
 .
 h
 "
@@ -37874,6 +37874,8 @@ aResult
 .
 mInteger
 =
+clamped
+(
 item
 -
 >
@@ -37881,6 +37883,15 @@ mValue
 .
 GetIntValue
 (
+)
+nsStyleGridLine
+:
+:
+kMinLine
+nsStyleGridLine
+:
+:
+kMaxLine
 )
 ;
 }

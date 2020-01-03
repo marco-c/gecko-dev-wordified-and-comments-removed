@@ -4834,6 +4834,16 @@ mInteger
 nsString
 mLineName
 ;
+static
+const
+int32_t
+kMinLine
+;
+static
+const
+int32_t
+kMaxLine
+;
 nsStyleGridLine
 (
 )
