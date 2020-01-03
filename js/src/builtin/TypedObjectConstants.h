@@ -216,12 +216,8 @@ JS_BUFVIEW_SLOT_OWNER
 2
 #
 define
-JS_BUFVIEW_SLOT_NEXT_VIEW
-3
-#
-define
 JS_DATAVIEW_SLOT_DATA
-7
+3
 /
 /
 see
@@ -233,7 +229,7 @@ below
 #
 define
 JS_DATAVIEW_SLOTS
-4
+3
 /
 /
 Number
@@ -245,7 +241,7 @@ views
 #
 define
 JS_TYPEDARR_SLOT_TYPE
-4
+3
 /
 /
 A
@@ -269,7 +265,7 @@ below
 #
 define
 JS_TYPEDARR_SLOTS
-5
+4
 /
 /
 Number
@@ -281,11 +277,11 @@ arrays
 #
 define
 JS_TYPEDOBJ_SLOT_DATA
-7
+3
 #
 define
 JS_TYPEDOBJ_SLOTS
-4
+3
 /
 /
 Number

@@ -2129,6 +2129,9 @@ vp
 void
 attach
 (
+JSContext
+*
+cx
 ArrayBufferObject
 &
 buffer
@@ -2139,6 +2142,9 @@ offset
 void
 attach
 (
+JSContext
+*
+cx
 TypedObject
 &
 typedObj

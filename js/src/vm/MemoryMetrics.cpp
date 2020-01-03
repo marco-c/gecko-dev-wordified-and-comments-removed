@@ -1762,6 +1762,10 @@ compartmentTables
 &
 cStats
 .
+innerViewsTable
+&
+cStats
+.
 crossCompartmentWrappersTable
 &
 cStats

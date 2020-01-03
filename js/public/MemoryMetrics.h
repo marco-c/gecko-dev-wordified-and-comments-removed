@@ -1977,6 +1977,13 @@ macro
 (
 Other
 NotLiveGCThing
+innerViewsTable
+)
+\
+macro
+(
+Other
+NotLiveGCThing
 crossCompartmentWrappersTable
 )
 \
