@@ -3493,7 +3493,7 @@ ANDROID
 |
 defined
 (
-MOZ_B2G
+FXOS_SIMULATOR
 )
 nsCOMPtr
 <
