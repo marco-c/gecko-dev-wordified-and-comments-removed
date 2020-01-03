@@ -1794,7 +1794,7 @@ mediasource
 .
 eviction_threshold
 "
-75
+100
 *
 (
 1
