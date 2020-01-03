@@ -17913,6 +17913,7 @@ bit
 20
 )
 )
+{
 set_register
 (
 rd
@@ -17929,7 +17930,9 @@ rm_val
 )
 )
 ;
+}
 else
+{
 set_register
 (
 rd
@@ -17946,6 +17949,7 @@ rm_val
 )
 )
 ;
+}
 }
 else
 {
