@@ -368,12 +368,7 @@ aDataLength
 )
 ;
 void
-RecoverFileName
-(
-)
-;
-void
-DeleteDummyFile
+RestoreReceivedFileAndNotify
 (
 )
 ;
