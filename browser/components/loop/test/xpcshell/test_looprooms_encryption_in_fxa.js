@@ -732,11 +732,14 @@ res
 roomName
 )
 {
+var
 roomDetail
-.
-roomName
 =
+{
 roomName
+:
+roomName
+}
 ;
 res
 .

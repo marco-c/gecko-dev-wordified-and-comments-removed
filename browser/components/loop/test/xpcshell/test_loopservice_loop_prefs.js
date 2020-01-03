@@ -370,6 +370,8 @@ fakeCharPrefName
 true
 )
 ;
+Assert
+.
 ok
 (
 true
