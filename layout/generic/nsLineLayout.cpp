@@ -14444,7 +14444,7 @@ if
 (
 IsRubyAlignSpaceAround
 (
-aFrame
+annotation
 -
 >
 mFrame
