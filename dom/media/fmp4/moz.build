@@ -103,6 +103,11 @@ MP4Decoder
 h
 '
 '
+MP4Demuxer
+.
+h
+'
+'
 MP4Reader
 .
 h
@@ -171,6 +176,11 @@ SOURCES
 +
 =
 [
+'
+MP4Demuxer
+.
+cpp
+'
 '
 MP4Reader
 .
