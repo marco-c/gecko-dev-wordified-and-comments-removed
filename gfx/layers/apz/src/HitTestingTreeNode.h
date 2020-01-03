@@ -184,6 +184,12 @@ IsPrimaryHolder
 )
 const
 ;
+uint64_t
+GetLayersId
+(
+)
+const
+;
 void
 SetHitTestData
 (

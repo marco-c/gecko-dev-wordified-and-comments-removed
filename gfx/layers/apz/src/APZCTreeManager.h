@@ -640,6 +640,15 @@ HitTestResult
 aOutHitResult
 )
 ;
+AsyncPanZoomController
+*
+FindRootApzcForLayersId
+(
+uint64_t
+aLayersId
+)
+const
+;
 already_AddRefed
 <
 AsyncPanZoomController
