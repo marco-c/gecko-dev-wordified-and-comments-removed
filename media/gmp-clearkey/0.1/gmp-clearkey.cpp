@@ -142,14 +142,6 @@ aPluginAPI
 new
 ClearKeyDecryptionManager
 (
-static_cast
-<
-GMPDecryptorHost
-*
->
-(
-aHostAPI
-)
 )
 ;
 return

@@ -65,12 +65,8 @@ GMPDecryptor
 {
 public
 :
-explicit
 ClearKeyDecryptionManager
 (
-GMPDecryptorHost
-*
-aHost
 )
 ;
 ~
@@ -217,10 +213,6 @@ private
 GMPDecryptorCallback
 *
 mCallback
-;
-GMPDecryptorHost
-*
-mHost
 ;
 std
 :

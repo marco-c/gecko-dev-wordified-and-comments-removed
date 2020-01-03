@@ -273,14 +273,6 @@ ClearKeyDecryptionManager
 :
 ClearKeyDecryptionManager
 (
-GMPDecryptorHost
-*
-aHost
-)
-:
-mHost
-(
-aHost
 )
 {
 CK_LOGD
@@ -475,7 +467,6 @@ new
 ClearKeySession
 (
 sessionId
-mHost
 mCallback
 )
 ;
