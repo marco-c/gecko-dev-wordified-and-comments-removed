@@ -1121,6 +1121,14 @@ pipe
 )
 )
 ;
+Allow
+(
+SYSCALL
+(
+set_tid_address
+)
+)
+;
 #
 if
 SYSCALL_EXISTS
