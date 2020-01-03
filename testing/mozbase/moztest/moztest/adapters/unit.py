@@ -292,8 +292,6 @@ getvalue
             
 return
 "
-\
-n
 "
 .
 join
@@ -306,6 +304,10 @@ output_msg
         
 return
 exc_msg
+.
+rstrip
+(
+)
     
 def
 _extract_stacktrace
