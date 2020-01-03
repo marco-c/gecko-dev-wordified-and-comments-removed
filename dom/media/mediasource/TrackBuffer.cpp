@@ -469,7 +469,14 @@ AssertNotCurrentThreadIn
 mTaskQueue
 -
 >
-Shutdown
+BeginShutdown
+(
+)
+;
+mTaskQueue
+-
+>
+AwaitShutdownAndIdle
 (
 )
 ;

@@ -1072,7 +1072,14 @@ mTaskQueue
 mTaskQueue
 -
 >
-Shutdown
+BeginShutdown
+(
+)
+;
+mTaskQueue
+-
+>
+AwaitShutdownAndIdle
 (
 )
 ;
