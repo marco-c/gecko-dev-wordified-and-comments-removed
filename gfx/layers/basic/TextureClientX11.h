@@ -178,6 +178,7 @@ GetFormat
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mFormat
