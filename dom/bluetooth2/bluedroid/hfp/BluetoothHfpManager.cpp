@@ -164,6 +164,17 @@ mozilla
 /
 dom
 /
+BindingUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SettingChangeNotificationBinding
 .
 h
