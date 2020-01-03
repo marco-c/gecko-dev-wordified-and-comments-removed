@@ -395,6 +395,13 @@ Cancel
 )
 override
 ;
+virtual
+void
+ForceEnd
+(
+)
+override
+;
 private
 :
 SpeechSynthesisRequestChild

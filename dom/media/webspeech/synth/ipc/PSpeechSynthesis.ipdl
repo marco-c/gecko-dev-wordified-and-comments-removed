@@ -223,10 +223,6 @@ bool
 aIsSpeaking
 )
 ;
-DropGlobalQueue
-(
-)
-;
 }
 ;
 }
