@@ -331,7 +331,7 @@ false
 icons
 :
 [
-colorIcon
+colorTransparencyIcon
 ]
 }
 }

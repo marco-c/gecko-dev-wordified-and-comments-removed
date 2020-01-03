@@ -284,7 +284,7 @@ true
 icons
 :
 [
-colorIcon
+colorTransparencyIcon
 ]
 }
 }
@@ -350,7 +350,7 @@ false
 icons
 :
 [
-colorIcon
+colorTransparencyIcon
 ]
 }
 }
