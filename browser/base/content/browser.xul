@@ -718,6 +718,11 @@ sizemode
 "
 normal
 "
+retargetdocumentfocus
+=
+"
+urlbar
+"
 persist
 =
 "

@@ -7093,6 +7093,13 @@ prefix
 )
 GK_ATOM
 (
+retargetdocumentfocus
+"
+retargetdocumentfocus
+"
+)
+GK_ATOM
+(
 rev
 "
 rev
