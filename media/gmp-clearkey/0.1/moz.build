@@ -119,6 +119,11 @@ UNIFIED_SOURCES
 =
 [
 '
+ClearKeyAsyncShutdown
+.
+cpp
+'
+'
 ClearKeyBase64
 .
 cpp
