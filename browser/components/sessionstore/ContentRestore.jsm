@@ -1621,9 +1621,13 @@ status
 {
 if
 (
-webProgress
+stateFlags
+&
+Ci
 .
-isTopLevel
+nsIWebProgressListener
+.
+STATE_STOP
 &
 &
 stateFlags
@@ -1632,7 +1636,7 @@ Ci
 .
 nsIWebProgressListener
 .
-STATE_STOP
+STATE_IS_NETWORK
 &
 &
 stateFlags
