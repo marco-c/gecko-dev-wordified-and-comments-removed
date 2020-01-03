@@ -1335,10 +1335,6 @@ JSScript
 *
 script
 ;
-ScriptSourceObject
-*
-sourceObject
-;
 Vector
 <
 frontend

@@ -79,12 +79,6 @@ SourceCompressionTask
 extraSct
 =
 nullptr
-ScriptSourceObject
-*
-*
-sourceObjectOut
-=
-nullptr
 )
 ;
 bool
