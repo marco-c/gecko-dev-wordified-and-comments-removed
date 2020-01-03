@@ -243,11 +243,16 @@ OBSERVER_TOPIC_IDLE_DAILY
 sPeriodicUpdatesEnabled
 |
 |
+(
+aData
+&
+&
 CallerSpecialPowers
 .
 Equals
 (
 aData
+)
 )
 )
 )
