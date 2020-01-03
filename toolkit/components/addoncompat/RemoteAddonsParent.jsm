@@ -2058,6 +2058,15 @@ window
 -
 destroyed
 "
+"
+csp
+-
+on
+-
+violate
+-
+policy
+"
 ]
 ;
 let
