@@ -1941,9 +1941,6 @@ DeprecatedLanguageExtension
 DeprecatedForEach
 =
 0
-DeprecatedDestructuringForIn
-=
-1
 DeprecatedLegacyGenerator
 =
 2
