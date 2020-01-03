@@ -12764,6 +12764,14 @@ PlaybackEnded
 (
 )
 ;
+mElement
+=
+nullptr
+;
+NotifyWatchers
+(
+)
+;
 }
 }
 MediaDecoderOwner
