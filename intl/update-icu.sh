@@ -643,8 +643,6 @@ patches
 bug
 -
 915735
-exit
-0
 patch
 -
 d
@@ -677,6 +675,8 @@ suppress
 warnings
 .
 diff
+exit
+0
 patch
 -
 d
