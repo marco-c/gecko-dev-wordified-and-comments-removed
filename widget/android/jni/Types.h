@@ -167,6 +167,20 @@ Forget
 }
 }
 ;
+#
+ifdef
+__clang__
+#
+define
+MOZ_JNICALL_ABI
+JNICALL
+#
+else
+#
+define
+MOZ_JNICALL_ABI
+#
+endif
 template
 <
 class
@@ -196,6 +210,7 @@ jmethodID
 jvalue
 *
 )
+MOZ_JNICALL_ABI
 ;
 template
 <
@@ -226,6 +241,7 @@ jmethodID
 jvalue
 *
 )
+MOZ_JNICALL_ABI
 ;
 template
 <
