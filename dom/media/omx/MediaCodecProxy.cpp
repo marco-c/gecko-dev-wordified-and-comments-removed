@@ -727,9 +727,6 @@ mCodec
 nullptr
 )
 {
-status_t
-err
-=
 mCodec
 -
 >
@@ -1788,9 +1785,6 @@ Prepare
 (
 )
 {
-status_t
-err
-;
 if
 (
 start

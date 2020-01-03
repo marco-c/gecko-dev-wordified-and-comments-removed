@@ -591,11 +591,6 @@ OmxDecoder
 }
 #
 endif
-const
-char
-*
-extractorMime
-;
 sp
 <
 MetaData
@@ -924,11 +919,6 @@ durationUs
 =
 -
 1
-;
-const
-char
-*
-audioMime
 ;
 sp
 <

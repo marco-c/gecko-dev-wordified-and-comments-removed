@@ -620,11 +620,6 @@ return
 ERROR_MALFORMED
 ;
 }
-status_t
-result
-=
-OK
-;
 if
 (
 aFormat
