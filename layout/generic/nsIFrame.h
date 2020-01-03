@@ -5489,6 +5489,9 @@ aOutOffset
 bool
 *
 aOutJumpedLine
+bool
+*
+aOutMovedOverNonSelectableText
 )
 ;
 virtual
