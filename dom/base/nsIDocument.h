@@ -4353,6 +4353,17 @@ return
 false
 ;
 }
+virtual
+void
+MaybePreconnect
+(
+nsIURI
+*
+uri
+)
+=
+0
+;
 enum
 DocumentTheme
 {
