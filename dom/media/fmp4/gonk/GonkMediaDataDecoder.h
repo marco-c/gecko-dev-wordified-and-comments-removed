@@ -251,6 +251,9 @@ mLastStreamOffset
 bool
 mSignaledEOS
 ;
+bool
+mDrainComplete
+;
 }
 ;
 }
