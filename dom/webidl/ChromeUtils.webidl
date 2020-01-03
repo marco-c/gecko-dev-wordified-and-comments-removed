@@ -286,11 +286,5 @@ inBrowser
 =
 false
 ;
-DOMString
-addonId
-=
-"
-"
-;
 }
 ;

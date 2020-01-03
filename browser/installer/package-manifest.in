@@ -2625,14 +2625,7 @@ RESPATH
 /
 components
 /
-utils
-.
-manifest
-RESPATH
-/
-components
-/
-simpleServices
+remoteTagService
 .
 js
 RESPATH
