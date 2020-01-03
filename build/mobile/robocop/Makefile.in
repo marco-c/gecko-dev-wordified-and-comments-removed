@@ -160,6 +160,10 @@ FennecNativeElement
 .
 java
 \
+LaunchFennecWithConfigurationActivity
+.
+java
+\
 RoboCopException
 .
 java
