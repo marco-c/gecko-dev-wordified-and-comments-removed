@@ -223,12 +223,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-UInt8
-tempBuffer
-[
-MAXPATHLEN
-]
-;
 nsresult
 rv
 ;
@@ -238,7 +232,11 @@ CFURLGetFileSystemRepresentation
 (
 executableURL
 false
-tempBuffer
+(
+UInt8
+*
+)
+aResult
 MAXPATHLEN
 )
 )
@@ -267,7 +265,7 @@ writePos
 ;
 while
 (
-tempBuffer
+aResult
 [
 readPos
 ]
@@ -281,7 +279,7 @@ readPos
 {
 if
 (
-tempBuffer
+aResult
 [
 readPos
 ]
@@ -292,7 +290,7 @@ readPos
 '
 &
 &
-tempBuffer
+aResult
 [
 readPos
 +
@@ -316,7 +314,7 @@ aResult
 writePos
 ]
 =
-tempBuffer
+aResult
 [
 readPos
 ]
