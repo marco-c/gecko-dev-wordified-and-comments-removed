@@ -1219,6 +1219,17 @@ false
 }
 }
 ;
+public
+static
+CrashHandler
+ensureCrashHandling
+(
+)
+{
+return
+CRASH_HANDLER
+;
+}
 private
 static
 final

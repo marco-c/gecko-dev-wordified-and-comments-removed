@@ -6260,6 +6260,12 @@ Bundle
 savedInstanceState
 )
 {
+GeckoAppShell
+.
+ensureCrashHandling
+(
+)
+;
 if
 (
 "
