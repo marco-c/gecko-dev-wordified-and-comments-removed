@@ -3346,6 +3346,17 @@ Destroy
 (
 )
 {
+if
+(
+mOnDestroyCalled
+)
+return
+NS_OK
+;
+mOnDestroyCalled
+=
+true
+;
 /
 /
 If
