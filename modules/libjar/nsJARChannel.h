@@ -455,9 +455,6 @@ mIsUnsafe
 bool
 mOpeningRemote
 ;
-bool
-mEnsureChildFd
-;
 mozilla
 :
 :

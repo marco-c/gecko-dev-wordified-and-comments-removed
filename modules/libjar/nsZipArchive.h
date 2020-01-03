@@ -321,10 +321,6 @@ OpenArchive
 nsIFile
 *
 aFile
-bool
-aMustCacheFd
-=
-false
 )
 ;
 nsresult
@@ -922,8 +918,6 @@ Init
 nsIFile
 *
 file
-bool
-aMustCacheFd
 nsZipHandle
 *
 *
