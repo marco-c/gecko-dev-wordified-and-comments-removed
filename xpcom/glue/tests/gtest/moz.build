@@ -107,11 +107,6 @@ TestGCPostBarriers
 .
 cpp
 '
-'
-TestStrings
-.
-cpp
-'
 ]
 LOCAL_INCLUDES
 =
