@@ -157,15 +157,13 @@ LOCAL_INCLUDES
 [
 '
 /
-content
+docshell
 /
 base
-/
-src
 '
 '
 /
-docshell
+dom
 /
 base
 '

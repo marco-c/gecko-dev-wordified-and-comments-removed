@@ -506,14 +506,6 @@ LOCAL_INCLUDES
 [
 '
 /
-content
-/
-base
-/
-src
-'
-'
-/
 db
 /
 sqlite3

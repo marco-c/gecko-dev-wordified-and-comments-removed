@@ -431,7 +431,7 @@ mochitest
 plain
 TEST_PATH
 =
-content
+dom
 /
 base
 /

@@ -218,11 +218,9 @@ xul
 '
 '
 /
-content
+dom
 /
 base
-/
-src
 '
 '
 /

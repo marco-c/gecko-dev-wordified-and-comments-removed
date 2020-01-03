@@ -321,11 +321,9 @@ xul
 '
 '
 /
-content
+dom
 /
 base
-/
-src
 '
 ]
 include

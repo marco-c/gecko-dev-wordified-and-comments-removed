@@ -333,11 +333,9 @@ src
 '
 '
 /
-content
+dom
 /
 base
-/
-src
 '
 '
 controller

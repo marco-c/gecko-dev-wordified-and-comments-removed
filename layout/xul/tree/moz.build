@@ -266,10 +266,8 @@ style
 '
 '
 /
-content
+dom
 /
 base
-/
-src
 '
 ]

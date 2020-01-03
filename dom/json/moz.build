@@ -122,11 +122,9 @@ LOCAL_INCLUDES
 [
 '
 /
-content
+dom
 /
 base
-/
-src
 '
 ]
 FINAL_LIBRARY

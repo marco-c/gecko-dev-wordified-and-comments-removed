@@ -557,14 +557,6 @@ chrome
 '
 '
 /
-content
-/
-base
-/
-src
-'
-'
-/
 docshell
 /
 base

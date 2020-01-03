@@ -93,14 +93,6 @@ MPL
 0
 /
 .
-DIRS
-+
-=
-[
-'
-base
-'
-]
 XPCSHELL_TESTS_MANIFESTS
 +
 =

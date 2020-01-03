@@ -173,10 +173,8 @@ wrappers
 '
 '
 /
-content
+dom
 /
 base
-/
-src
 '
 ]

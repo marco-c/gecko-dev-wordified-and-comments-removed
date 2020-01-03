@@ -245,14 +245,6 @@ LOCAL_INCLUDES
 [
 '
 /
-content
-/
-base
-/
-src
-'
-'
-/
 docshell
 /
 base

@@ -135,11 +135,9 @@ xslt
 '
 '
 /
-content
+dom
 /
 base
-/
-src
 '
 ]
 FINAL_LIBRARY

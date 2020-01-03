@@ -660,14 +660,6 @@ LOCAL_INCLUDES
 [
 '
 /
-content
-/
-base
-/
-src
-'
-'
-/
 dom
 /
 base

@@ -76,7 +76,7 @@ com
 /
 tests
 /
-content
+dom
 /
 base
 /

@@ -154,11 +154,9 @@ LOCAL_INCLUDES
 [
 '
 /
-content
+dom
 /
 base
-/
-src
 '
 '
 /

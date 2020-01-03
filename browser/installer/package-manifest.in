@@ -922,13 +922,6 @@ BINPATH
 /
 components
 /
-content_base
-.
-xpt
-BINPATH
-/
-components
-/
 content_events
 .
 xpt
