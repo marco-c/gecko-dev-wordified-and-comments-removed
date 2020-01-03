@@ -413,15 +413,9 @@ Arrays
 .
 asList
 (
-new
-String
-[
-]
-{
 BrowserContract
 .
 AUTHORITY
-}
 )
 )
 ;

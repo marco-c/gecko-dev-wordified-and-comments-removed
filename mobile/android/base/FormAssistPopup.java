@@ -387,11 +387,6 @@ Arrays
 .
 asList
 (
-new
-String
-[
-]
-{
 InputMethods
 .
 METHOD_GOOGLE_JAPANESE_INPUT
@@ -407,7 +402,6 @@ METHOD_SWYPE
 InputMethods
 .
 METHOD_SWYPE_BETA
-}
 )
 ;
 public
