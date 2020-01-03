@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 NullPtr
 .
 h
@@ -319,6 +328,7 @@ length
 )
 {
 }
+MOZ_IMPLICIT
 autoJArray
 (
 const

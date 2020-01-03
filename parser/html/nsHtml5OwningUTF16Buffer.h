@@ -19,6 +19,7 @@ nsHtml5UTF16Buffer
 {
 private
 :
+explicit
 nsHtml5OwningUTF16Buffer
 (
 char16_t
@@ -28,6 +29,7 @@ aBuffer
 ;
 public
 :
+explicit
 nsHtml5OwningUTF16Buffer
 (
 void
