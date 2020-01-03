@@ -22523,12 +22523,6 @@ forStmt
 .
 type
 =
-STMT_FOR_OF_LOOP
-;
-forStmt
-.
-type
-=
 (
 headKind
 =
