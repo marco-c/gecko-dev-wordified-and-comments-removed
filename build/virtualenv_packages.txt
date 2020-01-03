@@ -282,3 +282,10 @@ pth
 python
 /
 futures
+ecc
+.
+pth
+:
+python
+/
+PyECC

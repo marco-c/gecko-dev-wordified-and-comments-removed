@@ -1,0 +1,8 @@
+class
+SecurityViolationException
+(
+Exception
+)
+:
+    
+pass
