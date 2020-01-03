@@ -391,6 +391,16 @@ letExpression
 )
 ASTDEF
 (
+AST_CLASS_EXPR
+"
+ClassExpression
+"
+"
+classExpression
+"
+)
+ASTDEF
+(
 AST_EMPTY_STMT
 "
 EmptyStatement
