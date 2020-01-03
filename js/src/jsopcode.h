@@ -2983,6 +2983,12 @@ op
 =
 =
 JSOP_STRICTSETGNAME
+|
+|
+op
+=
+=
+JSOP_STRICTSETELEM
 ;
 }
 inline
@@ -3094,6 +3100,12 @@ op
 =
 =
 JSOP_SETELEM
+|
+|
+op
+=
+=
+JSOP_STRICTSETELEM
 ;
 }
 inline
