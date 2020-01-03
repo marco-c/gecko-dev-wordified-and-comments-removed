@@ -3485,7 +3485,7 @@ false
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -3784,7 +3784,7 @@ false
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -4123,7 +4123,7 @@ res
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 nodeToExamine
 ;
@@ -4139,10 +4139,7 @@ Collapsed
 {
 nodeToExamine
 =
-GetAsDOMNode
-(
 parent
-)
 ;
 }
 else
@@ -4170,10 +4167,7 @@ parent
 {
 nodeToExamine
 =
-GetAsDOMNode
-(
 parent
-)
 ;
 }
 else
@@ -4204,8 +4198,6 @@ mHTMLEditor
 ;
 nodeToExamine
 =
-GetAsDOMNode
-(
 mHTMLEditor
 -
 >
@@ -4214,7 +4206,6 @@ GetNextNode
 parent
 offset
 true
-)
 )
 ;
 }
@@ -4242,7 +4233,7 @@ align
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -4273,14 +4264,11 @@ res
 ;
 nodeToExamine
 =
-GetAsDOMNode
-(
 arrayOfNodes
 .
 SafeElementAt
 (
 0
-)
 )
 ;
 }
@@ -4306,7 +4294,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIDOMNode
+Element
 >
 blockParent
 ;
@@ -4328,6 +4316,11 @@ nodeToExamine
 blockParent
 =
 nodeToExamine
+-
+>
+AsElement
+(
+)
 ;
 else
 {
@@ -4368,17 +4361,6 @@ IsCSSEnabled
 )
 )
 {
-nsCOMPtr
-<
-nsIContent
->
-blockParentContent
-=
-do_QueryInterface
-(
-blockParent
-)
-;
 NS_ENSURE_STATE
 (
 mHTMLEditor
@@ -4386,9 +4368,6 @@ mHTMLEditor
 ;
 if
 (
-blockParentContent
-&
-&
 mHTMLEditor
 -
 >
@@ -4397,7 +4376,7 @@ mHTMLCSSUtils
 >
 IsCSSEditableProperty
 (
-blockParentContent
+blockParent
 dummyProperty
 &
 typeAttrName
@@ -4420,7 +4399,7 @@ mHTMLCSSUtils
 >
 GetCSSEquivalentToHTMLInlineStyleSet
 (
-blockParentContent
+blockParent
 dummyProperty
 &
 typeAttrName
@@ -4564,14 +4543,6 @@ NS_OK
 ;
 }
 }
-nsCOMPtr
-<
-nsIDOMNode
->
-temp
-=
-nodeToExamine
-;
 bool
 isFirstNodeToExamine
 =
@@ -4608,7 +4579,10 @@ nsHTMLEditUtils
 :
 SupportsAlignAttr
 (
+GetAsDOMNode
+(
 nodeToExamine
+)
 )
 )
 {
@@ -4745,33 +4719,14 @@ isFirstNodeToExamine
 =
 false
 ;
-res
+nodeToExamine
 =
 nodeToExamine
 -
 >
 GetParentNode
 (
-getter_AddRefs
-(
-temp
 )
-)
-;
-if
-(
-NS_FAILED
-(
-res
-)
-)
-temp
-=
-nullptr
-;
-nodeToExamine
-=
-temp
 ;
 }
 return
@@ -4916,7 +4871,7 @@ GetSelection
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -5362,7 +5317,7 @@ x
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -5538,6 +5493,7 @@ arrayOfNodes
 .
 AppendElement
 (
+*
 selNode
 )
 ;
@@ -5759,7 +5715,7 @@ AppendInnerFormatNodes
 (
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -5856,6 +5812,7 @@ aArray
 .
 AppendElement
 (
+*
 child
 )
 ;
@@ -5875,6 +5832,7 @@ aArray
 .
 AppendElement
 (
+*
 child
 )
 ;
@@ -11657,7 +11615,7 @@ rangeIdx
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -13647,7 +13605,7 @@ aRightOffset
 {
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -14527,7 +14485,7 @@ mHTMLEditor
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -15945,7 +15903,7 @@ makeList
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -15999,11 +15957,10 @@ i
 -
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
-&
 testNode
 =
 arrayOfNodes
@@ -16306,7 +16263,7 @@ aBlockType
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -16851,7 +16808,7 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -17216,7 +17173,7 @@ mHTMLEditor
 ;
 nsTArray
 <
-nsRefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -17225,7 +17182,7 @@ arrayOfRanges
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -17357,6 +17314,7 @@ arrayOfNodes
 .
 AppendElement
 (
+*
 liNode
 )
 ;
@@ -17520,7 +17478,7 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -18359,7 +18317,7 @@ indent
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -18509,7 +18467,7 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -19482,7 +19440,7 @@ mHTMLEditor
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -22186,7 +22144,7 @@ true
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -22243,7 +22201,7 @@ listCount
 1
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -23190,7 +23148,7 @@ NS_ERROR_NULL_POINTER
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -24213,7 +24171,7 @@ nsINode
 aNode
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -24334,6 +24292,7 @@ InsertElementAt
 (
 *
 aIndex
+*
 node
 )
 ;
@@ -27298,7 +27257,7 @@ nsUniqueFunctor
 (
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -27342,7 +27301,7 @@ private
 :
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -27369,7 +27328,7 @@ nsRange
 aArrayOfRanges
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -27421,7 +27380,7 @@ yes
 {
 nsTArray
 <
-nsRefPtr
+OwningNonNull
 <
 nsRangeStore
 >
@@ -27610,7 +27569,7 @@ else
 {
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -27671,7 +27630,7 @@ i
 -
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -27770,7 +27729,7 @@ i
 -
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -27859,7 +27818,7 @@ i
 -
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -27995,7 +27954,7 @@ i
 -
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -28047,7 +28006,7 @@ node
 {
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -28102,7 +28061,7 @@ nsINode
 aNode
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -28141,6 +28100,7 @@ outArrayOfNodes
 .
 AppendElement
 (
+*
 child
 )
 ;
@@ -28154,7 +28114,7 @@ GetListActionNodes
 (
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -28293,6 +28253,7 @@ aOutArrayOfNodes
 .
 AppendElement
 (
+*
 parent
 )
 ;
@@ -28367,7 +28328,7 @@ i
 -
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -28455,7 +28416,7 @@ LookInsideDivBQandList
 (
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -28498,7 +28459,7 @@ listCount
 return
 ;
 }
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -28679,6 +28640,7 @@ aNodeArray
 .
 AppendElement
 (
+*
 curNode
 )
 ;
@@ -28816,7 +28778,7 @@ GetParagraphFormatNodes
 (
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -28903,7 +28865,7 @@ i
 -
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -28977,7 +28939,6 @@ i
 ;
 GetInnerContent
 (
-*
 testNode
 outArrayOfNodes
 &
@@ -29233,7 +29194,7 @@ nsINode
 aNode
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -29258,7 +29219,7 @@ mHTMLEditor
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -29284,9 +29245,10 @@ arrayOfBreaks
 ;
 if
 (
+!
 arrayOfBreaks
 .
-IsEmpty
+Length
 (
 )
 )
@@ -29295,7 +29257,6 @@ aOutArrayOfNodes
 .
 AppendElement
 (
-&
 aNode
 )
 ;
@@ -29354,12 +29315,13 @@ i
 +
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 Element
 >
 breakNode
 =
+*
 arrayOfBreaks
 [
 i
@@ -29466,6 +29428,7 @@ aOutArrayOfNodes
 .
 AppendElement
 (
+*
 leftNode
 )
 ;
@@ -29492,6 +29455,7 @@ aOutArrayOfNodes
 .
 AppendElement
 (
+*
 breakNode
 )
 ;
@@ -29525,6 +29489,7 @@ aOutArrayOfNodes
 .
 AppendElement
 (
+*
 rightNode
 )
 ;
@@ -29617,7 +29582,7 @@ EditAction
 aOperation
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -29729,7 +29694,7 @@ EditAction
 aOperation
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -29785,7 +29750,7 @@ MakeTransitionList
 (
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -32422,7 +32387,7 @@ MakeBlockquote
 (
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -32491,7 +32456,7 @@ nullptr
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -32695,7 +32660,7 @@ RemoveBlockStyle
 (
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -32890,7 +32855,7 @@ nullptr
 }
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -33111,7 +33076,7 @@ ApplyBlockStyle
 (
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -33368,7 +33333,7 @@ nullptr
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -34887,7 +34852,7 @@ mHTMLEditor
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -36951,7 +36916,7 @@ res
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -36971,23 +36936,18 @@ IsDone
 )
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
 node
 =
+*
 iter
 -
 >
 GetCurrentNode
 (
-)
-;
-NS_ENSURE_TRUE
-(
-node
-NS_ERROR_FAILURE
 )
 ;
 nsCOMPtr
@@ -37244,6 +37204,7 @@ arrayOfEmptyCites
 .
 AppendElement
 (
+*
 node
 )
 ;
@@ -37254,6 +37215,7 @@ arrayOfEmptyNodes
 .
 AppendElement
 (
+*
 node
 )
 ;
@@ -37270,6 +37232,7 @@ skipList
 .
 AppendElement
 (
+*
 parent
 )
 ;
@@ -37732,7 +37695,7 @@ ListIsEmptyLine
 (
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -37782,10 +37745,6 @@ aArrayOfNodes
 {
 if
 (
-!
-node
-|
-|
 !
 mHTMLEditor
 -
@@ -41345,7 +41304,7 @@ setAbsolutePosition
 ;
 nsTArray
 <
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
@@ -41495,7 +41454,7 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
+OwningNonNull
 <
 nsINode
 >
