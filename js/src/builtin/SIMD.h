@@ -1552,7 +1552,7 @@ shiftRightArithmeticByScalar
 (
 Int32x4BinaryScalar
 <
-ShiftRight
+ShiftRightArithmetic
 >
 )
 2
