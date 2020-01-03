@@ -8744,6 +8744,11 @@ name
 "
 ShareOverlayActivity
 "
+parent
+=
+"
+Gecko
+"
 >
 <
 item
