@@ -901,6 +901,19 @@ nextConnId
 +
 ;
 let
+stopSignal
+=
+(
+)
+=
+>
+this
+.
+stop
+(
+)
+;
+let
 dispatcher
 =
 new
@@ -911,6 +924,7 @@ transport
 this
 .
 driverFactory
+stopSignal
 )
 ;
 dispatcher
