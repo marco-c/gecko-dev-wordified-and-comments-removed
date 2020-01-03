@@ -343,8 +343,6 @@ MediaStreamTrack
 thisTrack
 MediaStreamTrack
 withTrack
-MediaStream
-stream
 )
 ;
 [

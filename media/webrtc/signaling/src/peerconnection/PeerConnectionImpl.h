@@ -1896,9 +1896,6 @@ dom
 MediaStreamTrack
 &
 aWithTrack
-DOMMediaStream
-&
-aStream
 )
 {
 rv
@@ -1907,7 +1904,6 @@ ReplaceTrack
 (
 aThisTrack
 aWithTrack
-aStream
 )
 ;
 }
