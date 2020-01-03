@@ -1308,6 +1308,9 @@ clipRect
 bool
 isFixedPosition
 ;
+uint64_t
+fixedPositionScrollContainerId
+;
 LayerPoint
 fixedPositionAnchor
 ;
