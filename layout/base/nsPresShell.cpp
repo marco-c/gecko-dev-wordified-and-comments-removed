@@ -4471,6 +4471,14 @@ gfxPrefs
 MetaViewportEnabled
 (
 )
+|
+|
+gfxPrefs
+:
+:
+APZAllowZooming
+(
+)
 )
 {
 mMobileViewportManager
