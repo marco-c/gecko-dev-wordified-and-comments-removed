@@ -198,14 +198,6 @@ kFrameOpaque
 ;
 private
 :
-int32_t
-GetFrameDisposalMethod
-(
-uint32_t
-aIndex
-)
-const
-;
 struct
 Anim
 {
