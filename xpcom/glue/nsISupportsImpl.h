@@ -179,7 +179,7 @@ MOZ_GCC_VERSION_AT_LEAST
 (
 4
 8
-2
+0
 )
 #
 define
