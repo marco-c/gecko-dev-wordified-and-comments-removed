@@ -4928,7 +4928,7 @@ if
 mCompositor
 -
 >
-GetCompositeAgainTime
+GetCompositeUntilTime
 (
 )
 .

@@ -1237,7 +1237,7 @@ GetCompositor
 )
 -
 >
-CompositeAgainAt
+CompositeUntil
 (
 mImages
 [
