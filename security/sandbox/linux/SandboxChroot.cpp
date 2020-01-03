@@ -224,6 +224,14 @@ mCommand
 NO_THREAD
 )
 {
+MOZ_RELEASE_ASSERT
+(
+aComm
+=
+=
+JUST_EXIT
+)
+;
 MOZ_ALWAYS_ZERO
 (
 pthread_mutex_unlock
