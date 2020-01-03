@@ -1438,6 +1438,9 @@ mHint
 nsBidiLevel
 mCaretBidiLevel
 ;
+nsBidiLevel
+mKbdBidiLevel
+;
 nsPoint
 mDesiredPos
 ;
