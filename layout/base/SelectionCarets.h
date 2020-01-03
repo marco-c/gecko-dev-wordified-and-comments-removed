@@ -7,6 +7,13 @@ SelectionCarets_h__
 #
 include
 "
+nsDirection
+.
+h
+"
+#
+include
+"
 nsIReflowObserver
 .
 h
@@ -282,8 +289,8 @@ aState
 void
 SetSelectionDirection
 (
-bool
-aForward
+nsDirection
+aDir
 )
 ;
 void

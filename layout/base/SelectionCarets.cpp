@@ -1097,7 +1097,7 @@ y
 ;
 SetSelectionDirection
 (
-false
+eDirPrevious
 )
 ;
 SetSelectionDragState
@@ -1134,7 +1134,7 @@ y
 ;
 SetSelectionDirection
 (
-true
+eDirNext
 )
 ;
 SetSelectionDragState
@@ -4361,8 +4361,8 @@ SelectionCarets
 :
 SetSelectionDirection
 (
-bool
-aForward
+nsDirection
+aDir
 )
 {
 nsRefPtr
@@ -4386,13 +4386,9 @@ selection
 selection
 -
 >
-SetDirection
+AdjustAnchorFocusForMultiRange
 (
-aForward
-?
-eDirNext
-:
-eDirPrevious
+aDir
 )
 ;
 }

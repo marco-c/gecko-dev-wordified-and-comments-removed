@@ -439,6 +439,13 @@ nsRange
 aRange
 )
 ;
+void
+AdjustAnchorFocusForMultiRange
+(
+nsDirection
+aDirection
+)
+;
 NS_IMETHOD
 GetPrimaryFrameForAnchorNode
 (
