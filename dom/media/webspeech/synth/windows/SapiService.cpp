@@ -527,6 +527,10 @@ mCurrentIndex
 ;
 break
 ;
+default
+:
+break
+;
 }
 }
 void
@@ -742,7 +746,7 @@ test
 )
 {
 return
-nullptr
+false
 ;
 }
 if

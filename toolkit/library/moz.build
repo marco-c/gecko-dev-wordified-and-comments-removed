@@ -1889,6 +1889,9 @@ wtsapi32
 '
 locationapi
 '
+'
+sapi
+'
 ]
 if
 CONFIG
