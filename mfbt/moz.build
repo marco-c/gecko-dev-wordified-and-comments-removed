@@ -123,6 +123,11 @@ AllocPolicy
 h
 '
 '
+AlreadyAddRefed
+.
+h
+'
+'
 Array
 .
 h
