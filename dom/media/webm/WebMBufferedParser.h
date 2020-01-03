@@ -146,6 +146,11 @@ mCurrentOffset
 (
 aOffset
 )
+mInitEndOffset
+(
+-
+1
+)
 mState
 (
 READ_ELEMENT_ID
@@ -270,6 +275,9 @@ mStartOffset
 int64_t
 mCurrentOffset
 ;
+int64_t
+mInitEndOffset
+;
 private
 :
 enum
@@ -284,6 +292,7 @@ READ_VINT_REST
 READ_TIMECODESCALE
 READ_CLUSTER_TIMECODE
 READ_BLOCK_TIMECODE
+CHECK_INIT_FOUND
 SKIP_DATA
 }
 ;

@@ -18,6 +18,9 @@ class
 LargeDataBuffer
 ;
 class
+SourceBufferResource
+;
+class
 ContainerParser
 {
 public
@@ -119,6 +122,12 @@ nsRefPtr
 LargeDataBuffer
 >
 mInitData
+;
+nsRefPtr
+<
+SourceBufferResource
+>
+mResource
 ;
 bool
 mHasInitData
