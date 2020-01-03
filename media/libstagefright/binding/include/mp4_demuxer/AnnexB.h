@@ -45,7 +45,7 @@ aSample
 )
 ;
 static
-void
+bool
 ConvertSampleToAVCC
 (
 MP4Sample
@@ -54,7 +54,7 @@ aSample
 )
 ;
 static
-void
+bool
 ConvertSampleTo4BytesAVCC
 (
 MP4Sample

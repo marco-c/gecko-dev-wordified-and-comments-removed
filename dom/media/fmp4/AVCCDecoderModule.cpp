@@ -348,6 +348,9 @@ MP4Sample
 aSample
 )
 {
+if
+(
+!
 mp4_demuxer
 :
 :
@@ -358,7 +361,12 @@ ConvertSampleToAVCC
 (
 aSample
 )
+)
+{
+return
+NS_ERROR_FAILURE
 ;
+}
 if
 (
 !
