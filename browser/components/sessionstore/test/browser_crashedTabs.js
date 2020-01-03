@@ -165,6 +165,10 @@ function
 (
 )
 {
+privateNoteIntentionalCrash
+(
+)
+;
 let
 zero
 =
