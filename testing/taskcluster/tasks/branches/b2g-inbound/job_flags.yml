@@ -87,6 +87,8 @@ builds
 b2g_flame_kk_eng
 .
 yml
+tests
+:
 gaia
 -
 ui
@@ -94,6 +96,16 @@ ui
 test
 -
 sanity
+:
+allowed_build_tasks
+:
+tasks
+/
+builds
+/
+b2g_flame_kk_eng
+.
+yml
 :
 task
 :
