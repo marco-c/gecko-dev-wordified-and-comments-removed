@@ -1099,6 +1099,10 @@ rt
 GetGCThingRuntime
 (
 thing
+.
+asCell
+(
+)
 )
 ;
 #
@@ -1109,6 +1113,10 @@ if
 IsInsideNursery
 (
 thing
+.
+asCell
+(
+)
 )
 )
 return
@@ -1140,6 +1148,10 @@ JS
 GCThingIsMarkedGray
 (
 thing
+.
+asCell
+(
+)
 )
 )
 JS
@@ -1148,6 +1160,10 @@ JS
 UnmarkGrayGCThingRecursively
 (
 thing
+.
+asCell
+(
+)
 thing
 .
 kind
@@ -1203,6 +1219,10 @@ if
 IsInsideNursery
 (
 thing
+.
+asCell
+(
+)
 )
 )
 return
