@@ -3708,6 +3708,7 @@ GetEffect
 >
 SetIsFinishedTransition
 (
+true
 )
 ;
 collection
