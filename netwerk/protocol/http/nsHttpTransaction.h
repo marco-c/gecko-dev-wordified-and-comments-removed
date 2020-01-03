@@ -871,6 +871,9 @@ bool
 mDontRouteViaWildCard
 ;
 bool
+mForceRestart
+;
+bool
 mReportedStart
 ;
 bool
