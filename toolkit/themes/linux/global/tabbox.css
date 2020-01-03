@@ -232,7 +232,7 @@ DialogText
 }
 tab
 [
-selected
+visuallyselected
 =
 "
 true
@@ -406,7 +406,7 @@ tab
 -
 bottom
 [
-selected
+visuallyselected
 =
 "
 true

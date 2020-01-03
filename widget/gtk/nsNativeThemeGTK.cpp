@@ -5817,6 +5817,15 @@ aAttribute
 nsGkAtoms
 :
 :
+visuallyselected
+|
+|
+aAttribute
+=
+=
+nsGkAtoms
+:
+:
 focused
 |
 |

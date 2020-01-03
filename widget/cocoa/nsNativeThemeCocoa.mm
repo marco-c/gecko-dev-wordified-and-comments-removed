@@ -21164,6 +21164,15 @@ aAttribute
 nsGkAtoms
 :
 :
+visuallyselected
+|
+|
+aAttribute
+=
+=
+nsGkAtoms
+:
+:
 menuactive
 |
 |

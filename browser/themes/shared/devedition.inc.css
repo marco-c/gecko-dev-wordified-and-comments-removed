@@ -1615,7 +1615,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1629,7 +1629,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1655,7 +1655,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1669,7 +1669,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1689,7 +1689,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -1703,7 +1703,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -2417,7 +2417,7 @@ tab
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :
@@ -2483,7 +2483,7 @@ tab
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :
@@ -2567,7 +2567,7 @@ tab
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :
@@ -2722,7 +2722,7 @@ titlechanged
 not
 (
 [
-selected
+visuallyselected
 =
 "
 true
@@ -2835,7 +2835,7 @@ tabbrowser
 -
 tab
 [
-selected
+visuallyselected
 ]
 {
 color

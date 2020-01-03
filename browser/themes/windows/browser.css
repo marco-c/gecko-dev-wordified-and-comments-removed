@@ -13477,25 +13477,10 @@ include
 shared
 /
 readinglist
-/
-readinglist
 .
 inc
 .
 css
-#
-readinglist
--
-addremove
--
-button
-{
-padding
-:
-0
-2px
-;
-}
 #
 reader
 -
@@ -14922,7 +14907,7 @@ background
 not
 (
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -15012,7 +14997,7 @@ background
 -
 middle
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -15053,7 +15038,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -15077,7 +15062,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -15129,7 +15114,7 @@ background
 -
 end
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -15153,7 +15138,7 @@ background
 -
 start
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -15253,7 +15238,7 @@ tab
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :
@@ -15319,7 +15304,7 @@ tab
 not
 (
 [
-selected
+visuallyselected
 ]
 )
 :
@@ -15393,7 +15378,7 @@ hover
 not
 (
 [
-selected
+visuallyselected
 =
 "
 true
@@ -15486,7 +15471,7 @@ middle
 not
 (
 [
-selected
+visuallyselected
 =
 true
 ]

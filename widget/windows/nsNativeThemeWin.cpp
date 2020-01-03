@@ -11164,6 +11164,15 @@ aAttribute
 nsGkAtoms
 :
 :
+visuallyselected
+|
+|
+aAttribute
+=
+=
+nsGkAtoms
+:
+:
 readonly
 |
 |

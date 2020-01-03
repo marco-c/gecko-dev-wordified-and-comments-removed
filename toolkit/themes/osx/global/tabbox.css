@@ -159,7 +159,7 @@ theme
 {
 tab
 [
-selected
+visuallyselected
 =
 "
 true
@@ -455,7 +455,7 @@ tab
 not
 (
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -473,7 +473,7 @@ tab
 not
 (
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -525,7 +525,7 @@ tabs
 >
 tab
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -537,7 +537,7 @@ bottom
 >
 tab
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -732,7 +732,7 @@ type
 not
 (
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -754,7 +754,7 @@ type
 not
 (
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -788,7 +788,7 @@ of
 -
 type
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -806,7 +806,7 @@ of
 -
 type
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -843,7 +843,7 @@ tabs
 >
 tab
 [
-selected
+visuallyselected
 =
 true
 ]
@@ -860,7 +860,7 @@ bottom
 >
 tab
 [
-selected
+visuallyselected
 =
 true
 ]
