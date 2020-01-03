@@ -11580,7 +11580,7 @@ elementType_
 group
 -
 >
-unboxedLayout
+unboxedLayoutDontCheckGeneration
 (
 )
 .
@@ -12426,7 +12426,7 @@ JSVAL_TYPE_MAGIC
 group
 -
 >
-unboxedLayout
+unboxedLayoutDontCheckGeneration
 (
 )
 .
