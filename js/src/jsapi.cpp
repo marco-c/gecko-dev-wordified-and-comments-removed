@@ -3270,15 +3270,6 @@ else
 rt
 -
 >
-gc
-.
-notifyRequestEnd
-(
-)
-;
-rt
--
->
 requestDepth
 =
 0
