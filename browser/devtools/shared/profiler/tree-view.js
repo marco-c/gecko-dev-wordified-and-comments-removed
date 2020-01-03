@@ -1377,6 +1377,11 @@ appendChild
 arrowNode
 )
 ;
+if
+(
+frameName
+)
+{
 let
 nameNode
 =
@@ -1445,6 +1450,7 @@ appendChild
 nameNode
 )
 ;
+}
 if
 (
 !
