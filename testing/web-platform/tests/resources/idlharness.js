@@ -72,7 +72,7 @@ cnt
 value
 ;
 }
-window
+self
 .
 IdlArray
 =
@@ -1999,14 +1999,14 @@ NoInterfaceObject
 &
 type
 in
-window
+self
 )
 {
 assert_true
 (
 value
 instanceof
-window
+self
 [
 type
 ]
@@ -2370,12 +2370,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -2398,7 +2398,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-window
+self
 this
 .
 name
@@ -2412,7 +2412,7 @@ get
 in
 desc
 "
-window
+self
 '
 s
 property
@@ -2439,7 +2439,7 @@ set
 in
 desc
 "
-window
+self
 '
 s
 property
@@ -2464,7 +2464,7 @@ desc
 .
 writable
 "
-window
+self
 '
 s
 property
@@ -2490,7 +2490,7 @@ desc
 .
 enumerable
 "
-window
+self
 '
 s
 property
@@ -2515,7 +2515,7 @@ desc
 .
 configurable
 "
-window
+self
 '
 s
 property
@@ -2541,7 +2541,7 @@ Object
 .
 getPrototypeOf
 (
-window
+self
 [
 this
 .
@@ -2554,7 +2554,7 @@ prototype
 "
 prototype
 of
-window
+self
 '
 s
 property
@@ -2578,7 +2578,7 @@ prototype
 ;
 assert_class_string
 (
-window
+self
 [
 this
 .
@@ -2629,12 +2629,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -2652,7 +2652,7 @@ name
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -2690,7 +2690,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-window
+self
 [
 this
 .
@@ -2807,7 +2807,7 @@ Error
 ;
 assert_own_property
 (
-window
+self
 inherit_exception
 '
 should
@@ -2819,7 +2819,7 @@ inherit_exception
 +
 '
 but
-window
+self
 has
 no
 such
@@ -2829,7 +2829,7 @@ property
 ;
 assert_own_property
 (
-window
+self
 [
 inherit_exception
 ]
@@ -2863,7 +2863,7 @@ Object
 .
 getPrototypeOf
 (
-window
+self
 [
 this
 .
@@ -2872,7 +2872,7 @@ name
 .
 prototype
 )
-window
+self
 [
 inherit_exception
 ]
@@ -2904,7 +2904,7 @@ prototype
 ;
 assert_class_string
 (
-window
+self
 [
 this
 .
@@ -2967,12 +2967,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -2990,7 +2990,7 @@ name
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -3023,7 +3023,7 @@ prototype
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -3055,7 +3055,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-window
+self
 [
 this
 .
@@ -3232,12 +3232,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -3255,7 +3255,7 @@ name
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -3288,7 +3288,7 @@ prototype
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -3324,7 +3324,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-window
+self
 [
 this
 .
@@ -3440,7 +3440,7 @@ configurable
 ;
 assert_equals
 (
-window
+self
 [
 this
 .
@@ -3450,7 +3450,7 @@ name
 prototype
 .
 constructor
-window
+self
 [
 this
 .
@@ -3592,12 +3592,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -3615,7 +3615,7 @@ name
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -3628,7 +3628,7 @@ name
 ;
 assert_equals
 (
-window
+self
 [
 this
 .
@@ -3660,7 +3660,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-window
+self
 [
 this
 .
@@ -3772,12 +3772,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -3795,7 +3795,7 @@ name
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -3828,7 +3828,7 @@ prototype
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -3843,7 +3843,7 @@ name
 ;
 assert_equals
 (
-window
+self
 [
 this
 .
@@ -3877,7 +3877,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-window
+self
 [
 this
 .
@@ -4006,12 +4006,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -4029,7 +4029,7 @@ name
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -4062,7 +4062,7 @@ prototype
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -4082,7 +4082,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-window
+self
 [
 this
 .
@@ -4205,7 +4205,7 @@ function
 (
 )
 {
-window
+self
 [
 this
 .
@@ -4410,12 +4410,12 @@ Object
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -4433,7 +4433,7 @@ name
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -4472,7 +4472,7 @@ getPrototypeOf
 (
 obj
 )
-window
+self
 [
 this
 .
@@ -4832,12 +4832,12 @@ return
 }
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -4860,7 +4860,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-window
+self
 this
 .
 name
@@ -4874,7 +4874,7 @@ get
 in
 desc
 "
-window
+self
 '
 s
 property
@@ -4901,7 +4901,7 @@ set
 in
 desc
 "
-window
+self
 '
 s
 property
@@ -4926,7 +4926,7 @@ desc
 .
 writable
 "
-window
+self
 '
 s
 property
@@ -4952,7 +4952,7 @@ desc
 .
 enumerable
 "
-window
+self
 '
 s
 property
@@ -4977,7 +4977,7 @@ desc
 .
 configurable
 "
-window
+self
 '
 s
 property
@@ -5012,7 +5012,7 @@ Object
 .
 getPrototypeOf
 (
-window
+self
 [
 this
 .
@@ -5025,7 +5025,7 @@ prototype
 "
 prototype
 of
-window
+self
 '
 s
 property
@@ -5056,7 +5056,7 @@ Object
 .
 getPrototypeOf
 (
-window
+self
 [
 this
 .
@@ -5069,7 +5069,7 @@ prototype
 "
 prototype
 of
-window
+self
 '
 s
 property
@@ -5093,7 +5093,7 @@ prototype
 ;
 assert_class_string
 (
-window
+self
 [
 this
 .
@@ -5136,7 +5136,7 @@ function
 (
 )
 {
-window
+self
 [
 this
 .
@@ -5178,7 +5178,7 @@ function
 )
 {
 new
-window
+self
 [
 this
 .
@@ -5250,12 +5250,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -5273,7 +5273,7 @@ name
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -5291,7 +5291,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-window
+self
 [
 this
 .
@@ -5503,7 +5503,7 @@ n
 }
 assert_equals
 (
-window
+self
 [
 this
 .
@@ -5554,12 +5554,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -5593,7 +5593,7 @@ assert_false
 prototype
 "
 in
-window
+self
 [
 this
 .
@@ -5620,7 +5620,7 @@ return
 }
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -5658,7 +5658,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-window
+self
 [
 this
 .
@@ -5839,7 +5839,7 @@ inherit_interface_has_interface_object
 {
 assert_own_property
 (
-window
+self
 inherit_interface
 '
 should
@@ -5851,7 +5851,7 @@ inherit_interface
 +
 '
 but
-window
+self
 has
 no
 such
@@ -5861,7 +5861,7 @@ property
 ;
 assert_own_property
 (
-window
+self
 [
 inherit_interface
 ]
@@ -5895,7 +5895,7 @@ Object
 .
 getPrototypeOf
 (
-window
+self
 [
 this
 .
@@ -5904,7 +5904,7 @@ name
 .
 prototype
 )
-window
+self
 [
 inherit_interface
 ]
@@ -5943,7 +5943,7 @@ Object
 .
 getPrototypeOf
 (
-window
+self
 [
 this
 .
@@ -5988,7 +5988,7 @@ Prototype
 }
 assert_class_string
 (
-window
+self
 [
 this
 .
@@ -6033,7 +6033,7 @@ assert_equals
 (
 String
 (
-window
+self
 [
 this
 .
@@ -6103,12 +6103,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -6142,7 +6142,7 @@ assert_false
 prototype
 "
 in
-window
+self
 [
 this
 .
@@ -6169,7 +6169,7 @@ return
 }
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -6202,7 +6202,7 @@ prototype
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -6238,7 +6238,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-window
+self
 [
 this
 .
@@ -6354,7 +6354,7 @@ configurable
 ;
 assert_equals
 (
-window
+self
 [
 this
 .
@@ -6364,7 +6364,7 @@ name
 prototype
 .
 constructor
-window
+self
 [
 this
 .
@@ -6443,12 +6443,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -6466,7 +6466,7 @@ name
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -6479,7 +6479,7 @@ name
 ;
 assert_equals
 (
-window
+self
 [
 this
 .
@@ -6511,7 +6511,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-window
+self
 [
 this
 .
@@ -6622,12 +6622,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -6661,7 +6661,7 @@ assert_false
 prototype
 "
 in
-window
+self
 [
 this
 .
@@ -6688,7 +6688,7 @@ return
 }
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -6721,7 +6721,7 @@ prototype
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -6736,7 +6736,7 @@ name
 ;
 assert_equals
 (
-window
+self
 [
 this
 .
@@ -6770,7 +6770,7 @@ Object
 .
 getOwnPropertyDescriptor
 (
-window
+self
 [
 this
 .
@@ -6895,12 +6895,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -6918,7 +6918,7 @@ name
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -6961,7 +6961,7 @@ static
 {
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -6997,7 +6997,7 @@ member
 .
 name
 in
-window
+self
 [
 this
 .
@@ -7046,7 +7046,7 @@ function
 (
 )
 {
-window
+self
 [
 this
 .
@@ -7083,7 +7083,7 @@ else
 {
 assert_equals
 (
-window
+self
 [
 this
 .
@@ -7112,7 +7112,7 @@ undefined
 }
 do_interface_attribute_asserts
 (
-window
+self
 [
 this
 .
@@ -7166,12 +7166,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -7205,7 +7205,7 @@ assert_false
 prototype
 "
 in
-window
+self
 [
 this
 .
@@ -7232,7 +7232,7 @@ return
 }
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -7278,7 +7278,7 @@ static
 {
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -7299,7 +7299,7 @@ operation
 ;
 prototypeOrInterfaceObject
 =
-window
+self
 [
 this
 .
@@ -7311,7 +7311,7 @@ else
 {
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -7336,7 +7336,7 @@ operation
 ;
 prototypeOrInterfaceObject
 =
-window
+self
 [
 this
 .
@@ -7533,7 +7533,7 @@ function
 (
 )
 {
-window
+self
 [
 this
 .
@@ -7580,7 +7580,7 @@ function
 (
 )
 {
-window
+self
 [
 this
 .
@@ -7689,12 +7689,12 @@ function
 {
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -7728,7 +7728,7 @@ assert_false
 prototype
 "
 in
-window
+self
 [
 this
 .
@@ -7755,7 +7755,7 @@ return
 }
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -7789,7 +7789,7 @@ prototype
 var
 interfacePrototypeObject
 =
-window
+self
 [
 this
 .
@@ -7800,7 +7800,7 @@ prototype
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -7948,7 +7948,7 @@ function
 (
 )
 {
-window
+self
 [
 this
 .
@@ -7992,7 +7992,7 @@ function
 (
 )
 {
-window
+self
 [
 this
 .
@@ -8493,12 +8493,12 @@ object
 ;
 assert_own_property
 (
-window
+self
 this
 .
 name
 "
-window
+self
 does
 not
 have
@@ -8516,7 +8516,7 @@ name
 ;
 assert_own_property
 (
-window
+self
 [
 this
 .
@@ -8555,7 +8555,7 @@ getPrototypeOf
 (
 obj
 )
-window
+self
 [
 this
 .
