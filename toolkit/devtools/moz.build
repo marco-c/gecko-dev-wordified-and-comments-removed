@@ -236,6 +236,11 @@ parser
 js
 '
 '
+path
+.
+js
+'
+'
 touch
 -
 events
