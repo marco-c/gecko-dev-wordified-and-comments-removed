@@ -401,9 +401,7 @@ return
 contextIndex_
 ;
 }
-const
-char
-*
+void
 getTracingEdgeName
 (
 char
