@@ -150,9 +150,9 @@ uint32_t
 &
 aChromeFlags
 const
-uint64_t
+ContentParentId
 &
-aID
+aCpID
 const
 bool
 &
@@ -186,9 +186,9 @@ uint32_t
 &
 aChromeFlags
 const
-uint64_t
+ContentParentId
 &
-aID
+aCpID
 const
 bool
 &
@@ -225,9 +225,9 @@ uint32_t
 &
 aChromeFlags
 const
-uint64_t
+ContentParentId
 &
-aID
+aCpID
 const
 bool
 &
