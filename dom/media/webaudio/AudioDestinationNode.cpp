@@ -2018,17 +2018,6 @@ Graph
 >
 StartNonRealtimeProcessing
 (
-TrackRate
-(
-Context
-(
-)
--
->
-SampleRate
-(
-)
-)
 mFramesToProduce
 )
 ;

@@ -2776,8 +2776,6 @@ const
 void
 StartNonRealtimeProcessing
 (
-TrackRate
-aRate
 uint32_t
 aTicksToProcess
 )
