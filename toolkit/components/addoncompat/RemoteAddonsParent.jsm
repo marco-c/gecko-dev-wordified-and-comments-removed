@@ -2022,6 +2022,9 @@ defaultView
 ;
 if
 (
+window
+&
+&
 target
 .
 contains
