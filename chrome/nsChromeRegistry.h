@@ -133,11 +133,13 @@ NS_IMETHOD
 ReloadChrome
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RefreshSkins
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AllowScriptsForPackage
@@ -149,6 +151,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AllowContentToAccess
@@ -160,6 +163,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -171,6 +175,7 @@ nsIURI
 *
 aURI
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ConvertChromeURL
@@ -183,6 +188,7 @@ nsIURI
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 nsChromeRegistry
 (
