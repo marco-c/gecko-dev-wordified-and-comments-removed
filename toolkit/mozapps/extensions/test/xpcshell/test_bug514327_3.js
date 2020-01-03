@@ -245,7 +245,7 @@ parent
 url
 name
 features
-arguments
+args
 )
 {
 do_check_eq
@@ -256,7 +256,7 @@ URI_EXTENSION_BLOCKLIST_DIALOG
 ;
 do_check_eq
 (
-arguments
+args
 .
 wrappedJSObject
 .
@@ -269,7 +269,7 @@ length
 var
 item
 =
-arguments
+args
 .
 wrappedJSObject
 .

@@ -1473,7 +1473,7 @@ parent
 url
 name
 features
-arguments
+args
 )
 {
 do_check_eq
@@ -1491,7 +1491,7 @@ null
 var
 args
 =
-arguments
+args
 .
 wrappedJSObject
 ;

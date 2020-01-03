@@ -143,13 +143,13 @@ parent
 url
 name
 features
-arguments
+args
 )
 {
 let
 ids
 =
-arguments
+args
 .
 QueryInterface
 (

@@ -144,7 +144,7 @@ WindowWatcher
 expected
 :
 false
-arguments
+args
 :
 null
 openWindow
@@ -188,7 +188,7 @@ false
 ;
 this
 .
-arguments
+args
 =
 args
 .
@@ -2460,7 +2460,7 @@ do_check_eq
 (
 WindowWatcher
 .
-arguments
+args
 .
 length
 2
@@ -2470,7 +2470,7 @@ do_check_true
 (
 WindowWatcher
 .
-arguments
+args
 .
 indexOf
 (
@@ -2494,7 +2494,7 @@ do_check_true
 (
 WindowWatcher
 .
-arguments
+args
 .
 indexOf
 (
@@ -2844,7 +2844,7 @@ do_check_eq
 (
 WindowWatcher
 .
-arguments
+args
 .
 length
 1
@@ -2854,7 +2854,7 @@ do_check_true
 (
 WindowWatcher
 .
-arguments
+args
 .
 indexOf
 (
