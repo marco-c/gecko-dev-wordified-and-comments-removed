@@ -3251,6 +3251,16 @@ peer
 peer
 ;
 }
+delete
+aMessage
+.
+isP2P
+;
+delete
+aMessage
+.
+sessionToken
+;
 return
 aMessage
 ;
