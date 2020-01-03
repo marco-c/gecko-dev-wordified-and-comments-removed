@@ -641,7 +641,7 @@ free_
 nobj
 -
 >
-slots
+slots_
 )
 ;
 if
@@ -2221,7 +2221,7 @@ this
 )
 -
 >
-slots
+slots_
 =
 slots
 ;
@@ -2254,7 +2254,7 @@ this
 )
 -
 >
-elements
+elements_
 =
 elements
 ;

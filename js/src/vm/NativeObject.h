@@ -968,14 +968,14 @@ js
 :
 HeapSlot
 *
-slots
+slots_
 ;
 js
 :
 :
 HeapSlot
 *
-elements
+elements_
 ;
 friend
 bool
@@ -1148,7 +1148,7 @@ static_assert
 offsetof
 (
 NativeObject
-slots
+slots_
 )
 =
 =
@@ -1175,7 +1175,7 @@ static_assert
 offsetof
 (
 NativeObject
-elements
+elements_
 )
 =
 =
@@ -1229,7 +1229,7 @@ getDenseElements
 return
 HeapSlotArray
 (
-elements
+elements_
 !
 getElementsHeader
 (
@@ -1250,7 +1250,7 @@ getDenseElementsAllowCopyOnWrite
 return
 HeapSlotArray
 (
-elements
+elements_
 true
 )
 ;
@@ -1274,7 +1274,7 @@ getDenseInitializedLength
 )
 ;
 return
-elements
+elements_
 [
 idx
 ]
@@ -1296,7 +1296,7 @@ getDenseInitializedLength
 &
 &
 !
-elements
+elements_
 [
 idx
 ]
@@ -1574,7 +1574,7 @@ localCopy
 slotsStart
 =
 &
-slots
+slots_
 [
 0
 ]
@@ -1583,7 +1583,7 @@ slots
 slotsEnd
 =
 &
-slots
+slots_
 [
 length
 -
@@ -1606,7 +1606,7 @@ nullptr
 slotsStart
 =
 &
-slots
+slots_
 [
 start
 -
@@ -1617,7 +1617,7 @@ fixed
 slotsEnd
 =
 &
-slots
+slots_
 [
 start
 -
@@ -2057,7 +2057,7 @@ const
 return
 !
 !
-slots
+slots_
 ;
 }
 uint32_t
@@ -2743,7 +2743,7 @@ slot
 ]
 ;
 return
-slots
+slots_
 [
 slot
 -
@@ -2782,7 +2782,7 @@ fixedSlots
 slot
 ;
 return
-slots
+slots_
 +
 (
 slot
@@ -2820,7 +2820,7 @@ fixedSlots
 slot
 ;
 return
-slots
+slots_
 +
 (
 slot
@@ -3162,7 +3162,7 @@ i
 +
 +
 )
-elements
+elements_
 [
 i
 ]
@@ -3541,7 +3541,7 @@ ObjectElements
 :
 fromElements
 (
-elements
+elements_
 )
 ;
 }
@@ -3628,7 +3628,7 @@ hasDynamicElements
 )
 )
 ;
-elements
+elements_
 =
 header
 -
@@ -3799,7 +3799,7 @@ denseElementsAreCopyOnWrite
 )
 )
 ;
-elements
+elements_
 [
 index
 ]
@@ -3844,7 +3844,7 @@ denseElementsAreCopyOnWrite
 )
 )
 ;
-elements
+elements_
 [
 index
 ]
@@ -4059,7 +4059,7 @@ count
 +
 i
 )
-elements
+elements_
 [
 dstStart
 +
@@ -4089,7 +4089,7 @@ else
 memcpy
 (
 &
-elements
+elements_
 [
 dstStart
 ]
@@ -4148,7 +4148,7 @@ denseElementsAreCopyOnWrite
 memcpy
 (
 &
-elements
+elements_
 [
 dstStart
 ]
@@ -4284,7 +4284,7 @@ HeapSlot
 *
 dst
 =
-elements
+elements_
 +
 dstStart
 ;
@@ -4292,7 +4292,7 @@ HeapSlot
 *
 src
 =
-elements
+elements_
 +
 srcStart
 ;
@@ -4330,7 +4330,7 @@ HeapSlot
 Element
 dst
 -
-elements
+elements_
 *
 src
 )
@@ -4342,7 +4342,7 @@ HeapSlot
 *
 dst
 =
-elements
+elements_
 +
 dstStart
 +
@@ -4354,7 +4354,7 @@ HeapSlot
 *
 src
 =
-elements
+elements_
 +
 srcStart
 +
@@ -4396,7 +4396,7 @@ HeapSlot
 Element
 dst
 -
-elements
+elements_
 *
 src
 )
@@ -4407,10 +4407,10 @@ else
 {
 memmove
 (
-elements
+elements_
 +
 dstStart
-elements
+elements_
 +
 srcStart
 count
@@ -4491,10 +4491,10 @@ denseElementsAreCopyOnWrite
 ;
 memmove
 (
-elements
+elements_
 +
 dstStart
-elements
+elements_
 +
 srcStart
 count
@@ -4773,10 +4773,7 @@ canHaveNonEmptyElements
 )
 )
 ;
-this
--
->
-elements
+elements_
 =
 fixedElements
 (
@@ -4797,7 +4794,7 @@ hasEmptyElements
 )
 &
 &
-elements
+elements_
 !
 =
 fixedElements
@@ -4813,7 +4810,7 @@ hasFixedElements
 const
 {
 return
-elements
+elements_
 =
 =
 fixedElements
@@ -4829,7 +4826,7 @@ hasEmptyElements
 const
 {
 return
-elements
+elements_
 =
 =
 emptyObjectElements
@@ -5191,7 +5188,7 @@ return
 offsetof
 (
 NativeObject
-elements
+elements_
 )
 ;
 }
@@ -5260,7 +5257,7 @@ return
 offsetof
 (
 NativeObject
-slots
+slots_
 )
 ;
 }
