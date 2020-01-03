@@ -108,6 +108,9 @@ const
 QuotaInfo
 &
 aQuotaInfo
+Data
+*
+aOptionalData
 )
 override
 ;
