@@ -1412,6 +1412,17 @@ border
 ;
 }
 .
+button
+[
+hidden
+]
+{
+display
+:
+none
+;
+}
+.
 dropdown
 {
 left
