@@ -128,14 +128,6 @@ messaging
 /
 [
 Constructor
-Func
-=
-"
-MessageChannel
-:
-:
-Enabled
-"
 Exposed
 =
 (
