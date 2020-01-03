@@ -351,6 +351,14 @@ opentype_svg
 enabled
 true
 )
+fuzzy
+-
+if
+(
+azureQuartz
+1
+7007
+)
 =
 =
 svg

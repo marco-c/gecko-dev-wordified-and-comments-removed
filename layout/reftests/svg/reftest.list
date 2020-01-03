@@ -4365,6 +4365,14 @@ svg
 pass
 .
 svg
+fuzzy
+-
+if
+(
+azureQuartz
+3
+14981
+)
 =
 =
 radialGradient

@@ -983,6 +983,14 @@ B2G
 &
 browserIsRemote
 )
+fuzzy
+-
+if
+(
+azureQuartz
+1
+1
+)
 =
 =
 block
