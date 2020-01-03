@@ -183,8 +183,6 @@ LOCAL_INCLUDES
 .
 /
 base
-/
-src
 '
 '
 .

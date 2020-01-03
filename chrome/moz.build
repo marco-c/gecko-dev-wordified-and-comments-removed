@@ -201,8 +201,6 @@ LOCAL_INCLUDES
 netwerk
 /
 base
-/
-src
 '
 '
 /
