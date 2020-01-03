@@ -770,10 +770,6 @@ mNativeIMEContext
 (
 nullptr
 )
-mMayBeIMEUnaware
-(
-false
-)
 mOrigin
 (
 XRE_IsParentProcess
@@ -818,9 +814,6 @@ mActionHint
 void
 *
 mNativeIMEContext
-;
-bool
-mMayBeIMEUnaware
 ;
 enum
 Origin
