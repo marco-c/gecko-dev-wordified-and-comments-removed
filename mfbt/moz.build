@@ -430,6 +430,11 @@ SizePrintfMacros
 h
 '
 '
+Snprintf
+.
+h
+'
+'
 SplayTree
 .
 h

@@ -101,6 +101,15 @@ h
 #
 include
 "
+mozilla
+/
+Snprintf
+.
+h
+"
+#
+include
+"
 nsCORSListenerProxy
 .
 h
@@ -5400,7 +5409,7 @@ get
 }
 else
 {
-sprintf
+snprintf_literal
 (
 weightKeywordBuf
 "

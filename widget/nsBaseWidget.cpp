@@ -403,6 +403,15 @@ h
 #
 include
 "
+mozilla
+/
+Snprintf
+.
+h
+"
+#
+include
+"
 nsRefPtrHashtable
 .
 h
@@ -7922,7 +7931,7 @@ buf
 32
 ]
 ;
-sprintf
+snprintf_literal
 (
 buf
 "
