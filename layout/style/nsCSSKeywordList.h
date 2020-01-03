@@ -1873,6 +1873,11 @@ inside
 )
 CSS_KEY
 (
+instant
+instant
+)
+CSS_KEY
+(
 interpolatematrix
 interpolatematrix
 )
@@ -2900,6 +2905,11 @@ CSS_KEY
 (
 smaller
 smaller
+)
+CSS_KEY
+(
+smooth
+smooth
 )
 CSS_KEY
 (

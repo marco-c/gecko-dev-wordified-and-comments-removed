@@ -8124,6 +8124,9 @@ uint8_t
 mTouchAction
 ;
 uint8_t
+mScrollBehavior
+;
+uint8_t
 mBackfaceVisibility
 ;
 uint8_t

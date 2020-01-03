@@ -2683,6 +2683,13 @@ kResizeKTable
 static
 const
 KTableValue
+kScrollBehaviorKTable
+[
+]
+;
+static
+const
+KTableValue
 kSpeakKTable
 [
 ]

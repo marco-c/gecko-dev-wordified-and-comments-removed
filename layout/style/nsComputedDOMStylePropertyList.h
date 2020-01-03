@@ -695,6 +695,11 @@ Right
 )
 COMPUTED_STYLE_PROP
 (
+scroll_behavior
+ScrollBehavior
+)
+COMPUTED_STYLE_PROP
+(
 table_layout
 TableLayout
 )
