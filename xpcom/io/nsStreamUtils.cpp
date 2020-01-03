@@ -47,6 +47,13 @@ h
 #
 include
 "
+nsICloneableInputStream
+.
+h
+"
+#
+include
+"
 nsIEventTarget
 .
 h
