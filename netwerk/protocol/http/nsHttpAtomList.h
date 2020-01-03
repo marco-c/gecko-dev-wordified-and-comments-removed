@@ -61,8 +61,6 @@ Alternate_Service_Used
 "
 Alt
 -
-Svc
--
 Used
 "
 )
