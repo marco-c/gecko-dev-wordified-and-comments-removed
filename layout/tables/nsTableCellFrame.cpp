@@ -257,7 +257,7 @@ aContext
 )
 mDesiredSize
 (
-GetWritingMode
+WritingMode
 (
 )
 )
