@@ -28,6 +28,13 @@ new
 #
 include
 "
+cert
+.
+h
+"
+#
+include
+"
 cryptohi
 .
 h
