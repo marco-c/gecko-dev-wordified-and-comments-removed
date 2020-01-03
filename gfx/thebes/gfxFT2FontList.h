@@ -392,7 +392,7 @@ aLength
 )
 ;
 void
-GetFontList
+GetSystemFontList
 (
 InfallibleTArray
 <
