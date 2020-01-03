@@ -1019,6 +1019,16 @@ true
 ;
 }
 bool
+IsInPlay
+(
+const
+AnimationPlayer
+&
+aPlayer
+)
+const
+;
+bool
 IsCurrent
 (
 const
