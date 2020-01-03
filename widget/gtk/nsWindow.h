@@ -253,6 +253,9 @@ gfxPattern
 class
 nsDragService
 ;
+class
+nsPluginNativeWindowGtk
+;
 #
 if
 defined
@@ -599,6 +602,16 @@ GetNativeData
 (
 uint32_t
 aDataType
+)
+MOZ_OVERRIDE
+;
+void
+SetNativeData
+(
+uint32_t
+aDataType
+uintptr_t
+aVal
 )
 MOZ_OVERRIDE
 ;
@@ -1704,6 +1717,10 @@ DispatchRestoreEventAccessible
 ;
 #
 endif
+nsPluginNativeWindowGtk
+*
+mPluginNativeWindow
+;
 static
 GdkCursor
 *

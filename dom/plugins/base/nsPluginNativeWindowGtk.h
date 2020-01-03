@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsNPAPIPlugin
-.
-h
-"
-#
-include
-"
 npapi
 .
 h
