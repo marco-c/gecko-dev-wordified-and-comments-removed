@@ -61,7 +61,11 @@ Unlink
 ;
 static
 CFStringRef
-skPropHWAccel
+skPropEnableHWAccel
+;
+static
+CFStringRef
+skPropUsingHWAccel
 ;
 private
 :

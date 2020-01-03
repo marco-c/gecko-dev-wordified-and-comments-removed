@@ -259,7 +259,7 @@ sIsVTHWAvailable
 AppleVTLinker
 :
 :
-skPropHWAccel
+skPropEnableHWAccel
 !
 =
 nullptr
