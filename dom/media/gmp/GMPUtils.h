@@ -51,7 +51,7 @@ typename
 T
 >
 using
-GMPUnique
+GMPUniquePtr
 =
 mozilla
 :

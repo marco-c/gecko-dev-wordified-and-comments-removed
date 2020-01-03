@@ -145,7 +145,7 @@ Encode
 mozilla
 :
 :
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoi420Frame
 >

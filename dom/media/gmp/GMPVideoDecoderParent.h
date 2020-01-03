@@ -149,7 +149,7 @@ virtual
 nsresult
 Decode
 (
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >

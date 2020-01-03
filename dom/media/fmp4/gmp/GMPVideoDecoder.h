@@ -388,7 +388,7 @@ GetNodeId
 )
 ;
 virtual
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >

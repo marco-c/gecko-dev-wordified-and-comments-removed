@@ -1349,7 +1349,7 @@ err
 GMPNoErr
 )
 ;
-GMPUnique
+GMPUniquePtr
 <
 GMPVideoEncodedFrame
 >
