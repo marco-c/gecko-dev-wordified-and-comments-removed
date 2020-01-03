@@ -419,9 +419,6 @@ Connection
 nsresult
 initializeInternal
 (
-nsIFile
-*
-aDatabaseFile
 )
 ;
 nsresult
@@ -500,6 +497,9 @@ nsCOMPtr
 nsIFile
 >
 mDatabaseFile
+;
+nsCString
+mTelemetryFilename
 ;
 nsCOMPtr
 <
