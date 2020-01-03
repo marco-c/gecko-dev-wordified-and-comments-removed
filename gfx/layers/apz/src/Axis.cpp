@@ -99,6 +99,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
