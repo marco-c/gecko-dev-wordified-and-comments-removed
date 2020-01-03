@@ -271,7 +271,6 @@ lParam
 endif
 protected
 :
-virtual
 bool
 AnswerNPP_SetWindow
 (
@@ -279,6 +278,9 @@ const
 NPRemoteWindow
 &
 window
+NPRemoteWindow
+*
+aChildWindowToBeAdopted
 )
 override
 ;
@@ -1073,13 +1075,6 @@ CreatePluginWindow
 void
 DestroyPluginWindow
 (
-)
-;
-void
-ReparentPluginWindow
-(
-HWND
-hWndParent
 )
 ;
 void

@@ -139,6 +139,7 @@ nsIWidget
 *
 aWidget
 )
+const
 {
 NS_IF_ADDREF
 (
