@@ -261,6 +261,9 @@ true
 noNeedToFakeResumptionOnNavigation
 :
 true
+webConsoleCommands
+:
+true
 get
 allowChromeProcess
 (
