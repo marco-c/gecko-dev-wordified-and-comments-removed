@@ -6126,6 +6126,10 @@ b
 =
 b2
 ;
+if
+(
+0
+)
 return
 true
 ;
