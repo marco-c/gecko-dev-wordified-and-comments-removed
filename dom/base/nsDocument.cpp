@@ -17535,7 +17535,7 @@ SubDocMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 mSubDocuments
 aElement
@@ -17544,10 +17544,7 @@ aElement
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 PL_DHashTableRawRemove
@@ -17722,7 +17719,7 @@ SubDocMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 mSubDocuments
 aContent
@@ -17736,10 +17733,7 @@ AsElement
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 return

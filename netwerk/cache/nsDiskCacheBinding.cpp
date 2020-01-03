@@ -651,7 +651,7 @@ hashEntry
 HashTableEntry
 *
 )
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 table
@@ -667,10 +667,8 @@ hashNumber
 ;
 if
 (
-PL_DHASH_ENTRY_IS_FREE
-(
+!
 hashEntry
-)
 )
 return
 nullptr
@@ -1109,7 +1107,7 @@ hashEntry
 HashTableEntry
 *
 )
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 table
@@ -1126,10 +1124,7 @@ key
 if
 (
 !
-PL_DHASH_ENTRY_IS_BUSY
-(
 hashEntry
-)
 )
 {
 NS_WARNING

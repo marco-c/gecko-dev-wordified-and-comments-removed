@@ -17823,7 +17823,7 @@ EventListenerManagerMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 sEventListenerManagersHash
@@ -17833,10 +17833,7 @@ aNode
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 CycleCollectionNoteChild
@@ -18004,7 +18001,7 @@ EventListenerManagerMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 sEventListenerManagersHash
@@ -18014,10 +18011,7 @@ aNode
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 return
@@ -18061,7 +18055,7 @@ EventListenerManagerMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 sEventListenerManagersHash
@@ -18071,10 +18065,7 @@ aNode
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 nsRefPtr

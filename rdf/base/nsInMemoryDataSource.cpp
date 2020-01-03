@@ -1010,7 +1010,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 mForwardArcs
@@ -1018,10 +1018,7 @@ u
 )
 ;
 return
-PL_DHASH_ENTRY_IS_BUSY
-(
 hdr
-)
 ?
 static_cast
 <
@@ -1051,7 +1048,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 &
 mReverseArcs
@@ -1059,10 +1056,7 @@ v
 )
 ;
 return
-PL_DHASH_ENTRY_IS_BUSY
-(
 hdr
-)
 ?
 static_cast
 <
@@ -1438,7 +1432,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 mNextAssertion
 -
@@ -1453,10 +1447,7 @@ aProperty
 ;
 mNextAssertion
 =
-PL_DHASH_ENTRY_IS_BUSY
-(
 hdr
-)
 ?
 static_cast
 <
@@ -3584,7 +3575,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 as
 -
@@ -3601,10 +3592,7 @@ Assertion
 *
 val
 =
-PL_DHASH_ENTRY_IS_BUSY
-(
 hdr
-)
 ?
 static_cast
 <
@@ -3824,7 +3812,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 as
 -
@@ -3841,10 +3829,7 @@ Assertion
 *
 val
 =
-PL_DHASH_ENTRY_IS_BUSY
-(
 hdr
-)
 ?
 static_cast
 <
@@ -4313,7 +4298,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 next
 -
@@ -4330,10 +4315,7 @@ Assertion
 *
 val
 =
-PL_DHASH_ENTRY_IS_BUSY
-(
 hdr
-)
 ?
 static_cast
 <
@@ -4494,7 +4476,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 next
 -
@@ -4511,10 +4493,7 @@ Assertion
 *
 asRef
 =
-PL_DHASH_ENTRY_IS_BUSY
-(
 hdr
-)
 ?
 static_cast
 <
@@ -4937,7 +4916,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 next
 -
@@ -4954,10 +4933,7 @@ prev
 =
 next
 =
-PL_DHASH_ENTRY_IS_BUSY
-(
 hdr
-)
 ?
 static_cast
 <
@@ -6290,7 +6266,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 ass
 -
@@ -6307,10 +6283,7 @@ Assertion
 *
 val
 =
-PL_DHASH_ENTRY_IS_BUSY
-(
 hdr
-)
 ?
 static_cast
 <
@@ -6967,7 +6940,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 table
 prop
@@ -6977,10 +6950,7 @@ Assertion
 *
 val
 =
-PL_DHASH_ENTRY_IS_BUSY
-(
 hdr
-)
 ?
 static_cast
 <
@@ -7227,7 +7197,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 as
 -
@@ -7244,10 +7214,7 @@ Assertion
 *
 val
 =
-PL_DHASH_ENTRY_IS_BUSY
-(
 hdr
-)
 ?
 static_cast
 <
@@ -7857,7 +7824,7 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 info
 -
@@ -7875,10 +7842,7 @@ mTarget
 ;
 NS_ASSERTION
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 hdr
-)
 "
 no
 assertion

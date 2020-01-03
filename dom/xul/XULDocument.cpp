@@ -3143,7 +3143,7 @@ BroadcasterMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 mBroadcasterMap
 &
@@ -3153,10 +3153,8 @@ aBroadcaster
 ;
 if
 (
-PL_DHASH_ENTRY_IS_FREE
-(
+!
 entry
-)
 )
 {
 entry
@@ -3443,7 +3441,7 @@ BroadcasterMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 mBroadcasterMap
 &
@@ -3453,10 +3451,7 @@ aBroadcaster
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 nsCOMPtr
@@ -3952,7 +3947,7 @@ BroadcasterMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 mBroadcasterMap
 aElement
@@ -3961,10 +3956,7 @@ aElement
 ;
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 {
 nsAutoString
@@ -16507,7 +16499,7 @@ BroadcasterMapEntry
 *
 >
 (
-PL_DHashTableLookup
+PL_DHashTableSearch
 (
 mBroadcasterMap
 aNode
@@ -16522,10 +16514,7 @@ AsElement
 if
 (
 !
-PL_DHASH_ENTRY_IS_BUSY
-(
 entry
-)
 )
 return
 rv
