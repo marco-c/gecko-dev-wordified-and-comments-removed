@@ -8467,11 +8467,9 @@ break
 ;
 }
 }
+}
 return
 false
-;
-}
-break
 ;
 case
 nsCSSPseudoClasses
