@@ -67,6 +67,15 @@ Inc
 *
 /
 [
+Pref
+=
+"
+dom
+.
+secureelement
+.
+enabled
+"
 CheckPermissions
 =
 "
