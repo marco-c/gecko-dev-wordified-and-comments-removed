@@ -1924,6 +1924,8 @@ aLeftSideOffset
 gfxRect
 &
 aBoundingBox
+uint32_t
+aBlurFlags
 )
 ;
 void
