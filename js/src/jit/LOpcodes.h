@@ -1393,6 +1393,11 @@ TypedArrayElements
 \
 _
 (
+SetDisjointTypedElements
+)
+\
+_
+(
 TypedObjectDescr
 )
 \
