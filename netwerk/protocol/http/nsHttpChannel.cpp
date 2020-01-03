@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsICaptivePortalService
+.
+h
+"
+#
+include
+"
 nsICryptoHash
 .
 h
