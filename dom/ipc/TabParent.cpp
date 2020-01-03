@@ -4853,13 +4853,7 @@ touch
 mRefPoint
 +
 =
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 aOffset
-)
 ;
 }
 }
@@ -7889,7 +7883,7 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 widget
-nsIntPoint
+LayoutDeviceIntPoint
 (
 0
 0
@@ -11261,13 +11255,7 @@ aIdentifiers
 [
 i
 ]
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 pt
-)
 nsIntPoint
 (
 aRxs

@@ -24209,7 +24209,13 @@ i
 ]
 .
 dwID
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 touchPoint
+)
 pInputs
 [
 i

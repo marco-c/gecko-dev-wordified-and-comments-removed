@@ -2548,7 +2548,7 @@ nsIFrame
 *
 aRootFrame
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aRefPoint
 nsTArray

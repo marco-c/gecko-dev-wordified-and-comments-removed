@@ -785,7 +785,7 @@ Touch
 (
 -
 1
-nsIntPoint
+LayoutDeviceIntPoint
 (
 aX
 aY

@@ -1924,16 +1924,7 @@ dom
 Touch
 (
 identifier
-mozilla
-:
-:
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 refPoint
-)
 radius
 rotationAngle
 force

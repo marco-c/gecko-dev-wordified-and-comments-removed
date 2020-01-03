@@ -5160,11 +5160,6 @@ hittest
 .
 refPoint
 =
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 event
 .
 touches
@@ -5174,7 +5169,6 @@ touches
 -
 >
 mRefPoint
-)
 ;
 hittest
 .
@@ -5373,7 +5367,7 @@ AndroidGeckoEvent
 ae
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 pt
 (
 ae
@@ -5526,7 +5520,7 @@ direction
 double
 delta
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 refPoint
 uint64_t
@@ -5569,13 +5563,7 @@ event
 .
 refPoint
 =
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 refPoint
-)
 ;
 DispatchEvent
 (

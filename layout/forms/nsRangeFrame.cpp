@@ -2402,11 +2402,6 @@ touches
 ;
 absPoint
 =
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 aEvent
 -
 >
@@ -2422,7 +2417,6 @@ touches
 -
 >
 mRefPoint
-)
 ;
 }
 else
@@ -2444,13 +2438,7 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aEvent
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 absPoint
-)
 this
 )
 ;

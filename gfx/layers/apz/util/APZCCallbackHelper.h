@@ -204,11 +204,14 @@ aPresShellResolution
 )
 ;
 static
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 ApplyCallbackTransform
 (
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 const

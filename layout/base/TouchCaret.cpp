@@ -2910,7 +2910,7 @@ GetCanvasFrame
 (
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 touchIntPoint
 =
 aEvent
@@ -2964,14 +2964,9 @@ GetCanvasFrame
 (
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 mouseIntPoint
 =
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 aEvent
 -
 >
@@ -2981,7 +2976,6 @@ AsGUIEvent
 -
 >
 refPoint
-)
 ;
 return
 nsLayoutUtils

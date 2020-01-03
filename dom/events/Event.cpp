@@ -4035,13 +4035,7 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aEvent
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 aPoint
-)
 rootFrame
 )
 ;
