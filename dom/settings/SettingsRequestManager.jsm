@@ -4277,9 +4277,17 @@ defer
 .
 resolve
 (
+"
+results
+"
+in
+ret
+?
 ret
 .
 results
+:
+null
 )
 ;
 }
