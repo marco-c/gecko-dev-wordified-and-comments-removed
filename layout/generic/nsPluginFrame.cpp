@@ -4794,6 +4794,12 @@ XP_MACOSX
 if
 (
 mInstanceOwner
+&
+&
+!
+IsHidden
+(
+)
 )
 {
 mInstanceOwner
