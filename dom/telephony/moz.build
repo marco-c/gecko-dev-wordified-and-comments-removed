@@ -171,11 +171,6 @@ TelephonyCommon
 .
 h
 '
-'
-TelephonyFactory
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -224,11 +219,6 @@ cpp
 '
 '
 TelephonyCallId
-.
-cpp
-'
-'
-TelephonyFactory
 .
 cpp
 '
