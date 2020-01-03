@@ -1335,6 +1335,8 @@ HandleAtom
 atom
 FunctionSyntaxKind
 kind
+GeneratorKind
+generatorKind
 HandleObject
 proto
 )
