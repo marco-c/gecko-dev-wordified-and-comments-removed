@@ -1196,7 +1196,11 @@ iccId
 null
 networkSelectionMode
 :
-null
+Ci
+.
+nsIMobileConnection
+.
+NETWORK_SELECTION_MODE_UNKNOWN
 radioState
 :
 null
