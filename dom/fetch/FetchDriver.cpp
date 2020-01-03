@@ -1944,17 +1944,6 @@ false
 )
 ;
 }
-if
-(
-useCredentials
-)
-{
-return
-FailWithNetworkError
-(
-)
-;
-}
 }
 nsCOMPtr
 <
