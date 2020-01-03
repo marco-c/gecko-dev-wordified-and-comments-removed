@@ -33,11 +33,6 @@ conn
 url
 )
 {
-yield
-promiseAsyncUpdates
-(
-)
-;
 let
 url
 =
