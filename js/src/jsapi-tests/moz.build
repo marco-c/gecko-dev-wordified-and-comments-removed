@@ -309,6 +309,11 @@ testIntern
 cpp
 '
 '
+testIntlAvailableLocales
+.
+cpp
+'
+'
 testIntString
 .
 cpp
