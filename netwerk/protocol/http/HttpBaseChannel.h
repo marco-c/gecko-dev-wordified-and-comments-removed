@@ -1238,12 +1238,6 @@ aTopWindowURI
 override
 ;
 NS_IMETHOD
-ContinueBeginConnect
-(
-)
-override
-;
-NS_IMETHOD
 GetProxyURI
 (
 nsIURI

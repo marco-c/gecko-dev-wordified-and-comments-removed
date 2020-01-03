@@ -54,8 +54,6 @@ Start
 nsIChannel
 *
 aChannel
-bool
-aContinueBeginConnect
 )
 ;
 nsresult
@@ -82,12 +80,6 @@ nsCOMPtr
 nsIChannel
 >
 mChannel
-;
-nsCOMPtr
-<
-nsIHttpChannelInternal
->
-mChannelInternal
 ;
 ~
 nsChannelClassifier
