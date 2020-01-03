@@ -639,6 +639,13 @@ AssertCurrentThreadIn
 ;
 }
 void
+SetState
+(
+State
+aState
+)
+;
+void
 Push
 (
 AudioData
