@@ -268,6 +268,10 @@ Animation
 >
 finished
 ;
+attribute
+EventHandler
+onfinish
+;
 void
 cancel
 (

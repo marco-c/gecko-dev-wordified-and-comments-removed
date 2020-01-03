@@ -5376,6 +5376,13 @@ onfetch
 )
 GK_ATOM
 (
+onfinish
+"
+onfinish
+"
+)
+GK_ATOM
+(
 onfocus
 "
 onfocus
