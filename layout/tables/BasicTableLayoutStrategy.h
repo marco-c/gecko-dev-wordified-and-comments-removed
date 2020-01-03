@@ -76,7 +76,7 @@ override
 ;
 virtual
 void
-ComputeColumnWidths
+ComputeColumnISizes
 (
 const
 nsHTMLReflowState

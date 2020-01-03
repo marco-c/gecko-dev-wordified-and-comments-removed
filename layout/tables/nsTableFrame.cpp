@@ -9250,7 +9250,7 @@ GetPrevInFlow
 mTableLayoutStrategy
 -
 >
-ComputeColumnWidths
+ComputeColumnISizes
 (
 aReflowState
 )

@@ -2307,7 +2307,7 @@ void
 BasicTableLayoutStrategy
 :
 :
-ComputeColumnWidths
+ComputeColumnISizes
 (
 const
 nsHTMLReflowState
@@ -2444,7 +2444,7 @@ DEBUG_TABLE_STRATEGY
 printf
 (
 "
-ComputeColumnWidths
+ComputeColumnISizes
 final
 \
 n
@@ -3640,7 +3640,7 @@ DEBUG_dbaron_off
 printf
 (
 "
-ComputeColumnWidths
+ComputeColumnISizes
 :
 %
 d

@@ -70,7 +70,7 @@ MarkIntrinsicISizesDirty
 ;
 virtual
 void
-ComputeColumnWidths
+ComputeColumnISizes
 (
 const
 nsHTMLReflowState
