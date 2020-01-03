@@ -1301,7 +1301,7 @@ mobileconnectionservice
 1
 "
 "
-nsIGonkMobileConnectionService
+nsIMobileConnectionGonkService
 "
 )
 ;
