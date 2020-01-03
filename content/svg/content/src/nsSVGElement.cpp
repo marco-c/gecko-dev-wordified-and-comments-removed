@@ -4416,7 +4416,9 @@ shell
 RestyleForAnimation
 (
 this
-eRestyle_Self
+eRestyle_SVGAttrAnimations
+|
+eRestyle_ChangeAnimationPhase
 )
 ;
 }
