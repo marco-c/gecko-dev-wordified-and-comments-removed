@@ -763,12 +763,6 @@ aOriginSaltLen
 )
 ;
 }
-#
-if
-defined
-(
-MOZ_GMP_SANDBOX
-)
 if
 (
 mSandboxStarter
@@ -783,8 +777,6 @@ aLibPath
 )
 ;
 }
-#
-endif
 PRLibSpec
 libSpec
 ;
