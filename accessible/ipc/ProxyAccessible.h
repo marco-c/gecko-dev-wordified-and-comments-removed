@@ -1346,6 +1346,17 @@ return
 mID
 ;
 }
+DocAccessibleParent
+*
+Document
+(
+)
+const
+{
+return
+mDoc
+;
+}
 bool
 IsDoc
 (
