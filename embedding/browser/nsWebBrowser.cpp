@@ -339,10 +339,6 @@ nsIWebBrowserPersist
 :
 PERSIST_FLAGS_NONE
 )
-mStream
-(
-nullptr
-)
 mParentWidget
 (
 nullptr
@@ -7319,13 +7315,6 @@ nsEmbedStream
 (
 )
 ;
-mStreamGuard
-=
-do_QueryInterface
-(
-mStream
-)
-;
 mStream
 -
 >
@@ -7427,10 +7416,6 @@ CloseStream
 )
 ;
 mStream
-=
-nullptr
-;
-mStreamGuard
 =
 nullptr
 ;
