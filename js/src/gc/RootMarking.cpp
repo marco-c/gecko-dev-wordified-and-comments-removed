@@ -2901,7 +2901,7 @@ trc
 Debugger
 :
 :
-markAllCrossCompartmentEdges
+markIncomingCrossCompartmentEdges
 (
 trc
 )

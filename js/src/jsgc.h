@@ -5120,6 +5120,11 @@ removeFront
 (
 )
 ;
+void
+clear
+(
+)
+;
 private
 :
 explicit
