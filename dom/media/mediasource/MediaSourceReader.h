@@ -191,6 +191,17 @@ HasAudio
 )
 ;
 }
+virtual
+int64_t
+ComputeStartTime
+(
+)
+MOZ_OVERRIDE
+{
+return
+0
+;
+}
 bool
 IsMediaSeekable
 (
