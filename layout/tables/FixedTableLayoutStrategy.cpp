@@ -747,7 +747,7 @@ AppendElement
 colFrame
 -
 >
-GetFinalWidth
+GetFinalISize
 (
 )
 )
@@ -1229,7 +1229,7 @@ unassignedMarker
 colFrame
 -
 >
-SetFinalWidth
+SetFinalISize
 (
 colWidth
 )
@@ -1363,7 +1363,7 @@ colWidth
 colFrame
 -
 >
-GetFinalWidth
+GetFinalISize
 (
 )
 ;
@@ -1395,7 +1395,7 @@ colWidth
 colFrame
 -
 >
-SetFinalWidth
+SetFinalISize
 (
 colWidth
 )
@@ -1477,7 +1477,7 @@ if
 colFrame
 -
 >
-GetFinalWidth
+GetFinalISize
 (
 )
 =
@@ -1487,7 +1487,7 @@ unassignedMarker
 colFrame
 -
 >
-SetFinalWidth
+SetFinalISize
 (
 toAssign
 )
@@ -1585,7 +1585,7 @@ NS_ASSERTION
 colFrame
 -
 >
-GetFinalWidth
+GetFinalISize
 (
 )
 <
@@ -1612,7 +1612,7 @@ float
 colFrame
 -
 >
-GetFinalWidth
+GetFinalISize
 (
 )
 )
@@ -1629,19 +1629,19 @@ specUndist
 colFrame
 -
 >
-GetFinalWidth
+GetFinalISize
 (
 )
 ;
 colFrame
 -
 >
-SetFinalWidth
+SetFinalISize
 (
 colFrame
 -
 >
-GetFinalWidth
+GetFinalISize
 (
 )
 +
@@ -1823,12 +1823,12 @@ pctUndist
 colFrame
 -
 >
-SetFinalWidth
+SetFinalISize
 (
 colFrame
 -
 >
-GetFinalWidth
+GetFinalISize
 (
 )
 +
@@ -1941,7 +1941,7 @@ NS_ASSERTION
 colFrame
 -
 >
-GetFinalWidth
+GetFinalISize
 (
 )
 =
@@ -1971,7 +1971,7 @@ colsLeft
 colFrame
 -
 >
-SetFinalWidth
+SetFinalISize
 (
 toAdd
 )
@@ -2065,7 +2065,7 @@ col
 colFrame
 -
 >
-GetFinalWidth
+GetFinalISize
 (
 )
 )

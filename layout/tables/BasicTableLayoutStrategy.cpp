@@ -4767,14 +4767,14 @@ old_final
 colFrame
 -
 >
-GetFinalWidth
+GetFinalISize
 (
 )
 ;
 colFrame
 -
 >
-SetFinalWidth
+SetFinalISize
 (
 col_width
 )

@@ -127,7 +127,7 @@ ResetSpanIntrinsics
 (
 )
 ;
-ResetFinalWidth
+ResetFinalISize
 (
 )
 ;
@@ -743,7 +743,7 @@ mSpanPrefCoord
 mSpanPrefPercent
 int32_t
 (
-GetFinalWidth
+GetFinalISize
 (
 )
 )
