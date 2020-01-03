@@ -266,5 +266,13 @@ DOMString
 type
 )
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+DOMString
+mozDebugReaderData
+;
 }
 ;

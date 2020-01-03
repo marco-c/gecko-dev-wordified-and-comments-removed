@@ -581,6 +581,15 @@ partial
 interface
 HTMLMediaElement
 {
+[
+ChromeOnly
+]
+readonly
+attribute
+MediaSource
+?
+mozMediaSourceObject
+;
 attribute
 MediaStream
 ?

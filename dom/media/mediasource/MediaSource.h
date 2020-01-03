@@ -397,6 +397,14 @@ aPath
 ;
 #
 endif
+void
+GetMozDebugReaderData
+(
+nsAString
+&
+aString
+)
+;
 private
 :
 friend
