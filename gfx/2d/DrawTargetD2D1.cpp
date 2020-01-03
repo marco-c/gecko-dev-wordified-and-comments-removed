@@ -587,6 +587,14 @@ D2D1
 ImageBrushProperties
 (
 samplingBounds
+D2D1_EXTEND_MODE_CLAMP
+D2D1_EXTEND_MODE_CLAMP
+D2DInterpolationMode
+(
+aSurfOptions
+.
+mFilter
+)
 )
 D2D1
 :
