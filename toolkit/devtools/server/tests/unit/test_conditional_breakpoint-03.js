@@ -164,7 +164,7 @@ why
 .
 type
 "
-breakpoint
+breakpointConditionThrown
 "
 )
 ;
