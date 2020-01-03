@@ -75,6 +75,15 @@ nsITVTunerData
 aData
 )
 ;
+nsresult
+NotifyImageSizeChanged
+(
+uint32_t
+aWidth
+uint32_t
+aHeight
+)
+;
 virtual
 JSObject
 *

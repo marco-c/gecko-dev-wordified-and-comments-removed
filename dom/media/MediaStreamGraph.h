@@ -2021,6 +2021,17 @@ FinishAddTracks
 (
 )
 ;
+StreamBuffer
+:
+:
+Track
+*
+FindTrack
+(
+TrackID
+aID
+)
+;
 bool
 AppendToTrack
 (
