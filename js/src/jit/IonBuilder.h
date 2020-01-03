@@ -4394,6 +4394,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineAssertRecoveredOnBailout
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineTrue
 (
 CallInfo

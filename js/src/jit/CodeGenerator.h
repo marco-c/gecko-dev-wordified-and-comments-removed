@@ -924,6 +924,14 @@ unreachable
 )
 ;
 void
+visitEncodeSnapshot
+(
+LEncodeSnapshot
+*
+lir
+)
+;
+void
 visitGetDynamicName
 (
 LGetDynamicName

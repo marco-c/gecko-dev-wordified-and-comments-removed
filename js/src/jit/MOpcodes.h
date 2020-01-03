@@ -294,7 +294,17 @@ Unreachable
 \
 _
 (
+EncodeSnapshot
+)
+\
+_
+(
 AssertFloat32
+)
+\
+_
+(
+AssertRecoveredOnBailout
 )
 \
 _
