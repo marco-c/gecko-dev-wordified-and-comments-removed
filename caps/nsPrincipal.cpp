@@ -2313,6 +2313,14 @@ cn
 NS_LITERAL_CSTRING
 (
 "
+alicdn
+.
+com
+"
+)
+NS_LITERAL_CSTRING
+(
+"
 dpfile
 .
 com
