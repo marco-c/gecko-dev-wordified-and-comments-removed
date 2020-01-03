@@ -9298,11 +9298,10 @@ numFrameSlots
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 index
->
-=
+<
 size_t
 (
 parser
@@ -9313,6 +9312,8 @@ current
 )
 )
 )
+return
+true
 ;
 int
 stackHits
