@@ -385,9 +385,6 @@ uint8_t
 >
 audio_specific_config
 ;
-CryptoTrack
-crypto
-;
 void
 Update
 (
