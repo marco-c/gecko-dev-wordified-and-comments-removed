@@ -137,6 +137,11 @@ TestStrings
 .
 cpp
 '
+'
+TestSynchronization
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
