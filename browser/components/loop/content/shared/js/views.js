@@ -29,7 +29,7 @@ views
 function
 (
 _
-l10n
+mozL10n
 )
 {
 "
@@ -352,7 +352,7 @@ _
 )
 ;
 return
-l10n
+mozL10n
 .
 get
 (
@@ -714,7 +714,7 @@ inactive
 "
 ;
 return
-l10n
+mozL10n
 .
 get
 (
@@ -985,7 +985,7 @@ this
 .
 _handleShareTabs
 }
-l10n
+mozL10n
 .
 get
 (
@@ -1011,7 +1011,7 @@ this
 .
 _handleShareWindows
 }
-l10n
+mozL10n
 .
 get
 (
@@ -1302,7 +1302,7 @@ props
 hangupButtonLabel
 |
 |
-l10n
+mozL10n
 .
 get
 (
@@ -1392,7 +1392,7 @@ this
 handleClickHangup
 title
 :
-l10n
+mozL10n
 .
 get
 (
@@ -1638,7 +1638,7 @@ local
 "
 title
 :
-l10n
+mozL10n
 .
 get
 (
@@ -4198,7 +4198,7 @@ createElement
 p
 "
 null
-l10n
+mozL10n
 .
 get
 (
