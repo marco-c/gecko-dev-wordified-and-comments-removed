@@ -2679,7 +2679,7 @@ Height
 )
 kidDesiredSize
 .
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 .
 get
 (
@@ -2704,7 +2704,7 @@ aBottomMarginCarriedOut
 =
 kidDesiredSize
 .
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 ;
 FinishReflowChild
 (
@@ -4633,7 +4633,7 @@ false
 ;
 aDesiredSize
 .
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 =
 carriedOutBottomMargin
 ;

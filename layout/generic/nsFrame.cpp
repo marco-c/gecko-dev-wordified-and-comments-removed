@@ -25341,7 +25341,7 @@ SetBlockStartAscent
 ;
 aMetrics
 .
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 .
 Zero
 (

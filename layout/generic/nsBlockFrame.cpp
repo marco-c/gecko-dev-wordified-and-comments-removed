@@ -6115,7 +6115,7 @@ position
 )
 ;
 nscoord
-lineTop
+lineBStart
 =
 havePosition
 ?
@@ -6148,7 +6148,7 @@ ReflowBullet
 bullet
 state
 metrics
-lineTop
+lineBStart
 )
 ;
 NS_ASSERTION
@@ -6766,7 +6766,7 @@ parentWM
 )
 aMetrics
 .
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 .
 get
 (
@@ -7301,7 +7301,7 @@ Zero
 }
 aMetrics
 .
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 =
 aState
 .
@@ -7312,7 +7312,7 @@ else
 {
 aMetrics
 .
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 .
 Zero
 (
@@ -7567,7 +7567,7 @@ effectiveComputedBSize
 }
 aMetrics
 .
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 .
 Zero
 (
@@ -7617,7 +7617,7 @@ contentBSize
 {
 aMetrics
 .
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 .
 Zero
 (

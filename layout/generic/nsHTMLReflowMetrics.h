@@ -1044,7 +1044,7 @@ nsBoundingMetrics
 mBoundingMetrics
 ;
 nsCollapsingMargin
-mCarriedOutBottomMargin
+mCarriedOutBEndMargin
 ;
 nsOverflowAreas
 mOverflowAreas
