@@ -167,6 +167,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 toolbar
 .
 BrowserToolbar
@@ -773,6 +784,7 @@ CLOSED
 )
 ;
 }
+RobocopTarget
 public
 int
 getId
