@@ -4664,3 +4664,15 @@ return
 searchString
 ;
 }
+this
+.
+Finder
+=
+Finder
+;
+this
+.
+GetClipboardSearchString
+=
+GetClipboardSearchString
+;
