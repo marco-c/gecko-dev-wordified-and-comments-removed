@@ -1885,7 +1885,7 @@ ConvertToByteOffset
 (
 time
 .
-ToMicroseconds
+ToSeconds
 (
 )
 )
