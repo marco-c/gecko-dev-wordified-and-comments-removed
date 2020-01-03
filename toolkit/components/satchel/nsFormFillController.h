@@ -239,6 +239,14 @@ StopControllingInput
 (
 )
 ;
+void
+MaybeStartControllingInput
+(
+nsIDOMHTMLInputElement
+*
+aElement
+)
+;
 nsresult
 PerformInputListAutoComplete
 (
