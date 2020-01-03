@@ -377,11 +377,6 @@ dataPointer
 byteOffset
 )
 ;
-PostBarrierTypedArrayObject
-(
-obj
-)
-;
 }
 template
 <

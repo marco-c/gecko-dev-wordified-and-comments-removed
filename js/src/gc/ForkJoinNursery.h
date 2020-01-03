@@ -753,10 +753,10 @@ dstKind
 size_t
 copyElementsToTospace
 (
-JSObject
+NativeObject
 *
 dst
-JSObject
+NativeObject
 *
 src
 gc
@@ -769,10 +769,10 @@ dstKind
 size_t
 copySlotsToTospace
 (
-JSObject
+NativeObject
 *
 dst
-JSObject
+NativeObject
 *
 src
 gc

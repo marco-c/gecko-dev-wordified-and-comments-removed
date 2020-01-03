@@ -1471,7 +1471,7 @@ count_
 ;
 SlotsEdge
 (
-JSObject
+NativeObject
 *
 object
 int
@@ -1539,7 +1539,7 @@ count
 )
 ;
 }
-JSObject
+NativeObject
 *
 object
 (
@@ -1549,7 +1549,7 @@ const
 return
 reinterpret_cast
 <
-JSObject
+NativeObject
 *
 >
 (
@@ -1655,8 +1655,15 @@ JS
 :
 AsCell
 (
+reinterpret_cast
+<
+JSObject
+*
+>
+(
 object
 (
+)
 )
 )
 )
@@ -2338,7 +2345,7 @@ cellp
 void
 putSlotFromAnyThread
 (
-JSObject
+NativeObject
 *
 obj
 int

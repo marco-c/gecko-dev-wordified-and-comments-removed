@@ -2649,7 +2649,7 @@ ProxyObject
 (
 )
 ;
-MarkSlot
+MarkValue
 (
 trc
 wrapper

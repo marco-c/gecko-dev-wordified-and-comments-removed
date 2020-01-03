@@ -8626,7 +8626,7 @@ MOZ_ASSERT
 js
 :
 :
-GetReservedSlot
+GetReservedOrProxyPrivateSlot
 (
 aOld
 DOM_OBJECT_SLOT
@@ -8636,7 +8636,7 @@ DOM_OBJECT_SLOT
 js
 :
 :
-GetReservedSlot
+GetReservedOrProxyPrivateSlot
 (
 aNew
 DOM_OBJECT_SLOT
@@ -8654,7 +8654,7 @@ if
 js
 :
 :
-GetReservedSlot
+GetReservedOrProxyPrivateSlot
 (
 mOldReflector
 DOM_OBJECT_SLOT
@@ -8668,7 +8668,7 @@ toPrivate
 js
 :
 :
-SetReservedSlot
+SetReservedOrProxyPrivateSlot
 (
 mNewReflector
 DOM_OBJECT_SLOT
@@ -9011,14 +9011,14 @@ NS_ERROR_FAILURE
 js
 :
 :
-SetReservedSlot
+SetReservedOrProxyPrivateSlot
 (
 newobj
 DOM_OBJECT_SLOT
 js
 :
 :
-GetReservedSlot
+GetReservedOrProxyPrivateSlot
 (
 aObj
 DOM_OBJECT_SLOT
@@ -9142,7 +9142,7 @@ NS_ERROR_FAILURE
 js
 :
 :
-SetReservedSlot
+SetReservedOrProxyPrivateSlot
 (
 aObj
 DOM_OBJECT_SLOT

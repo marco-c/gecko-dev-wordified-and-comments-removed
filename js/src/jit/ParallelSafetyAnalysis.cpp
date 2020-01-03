@@ -1118,6 +1118,10 @@ TypedObjectProto
 )
 SAFE_OP
 (
+TypedObjectUnsizedLength
+)
+SAFE_OP
+(
 TypedObjectElements
 )
 SAFE_OP

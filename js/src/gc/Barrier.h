@@ -4455,7 +4455,7 @@ MOZ_DELETE
 explicit
 HeapSlot
 (
-JSObject
+NativeObject
 *
 obj
 Kind
@@ -4497,7 +4497,7 @@ v
 explicit
 HeapSlot
 (
-JSObject
+NativeObject
 *
 obj
 Kind
@@ -4553,7 +4553,7 @@ pre
 void
 init
 (
-JSObject
+NativeObject
 *
 owner
 Kind
@@ -4585,7 +4585,7 @@ DEBUG
 bool
 preconditionForSet
 (
-JSObject
+NativeObject
 *
 owner
 Kind
@@ -4600,7 +4600,7 @@ preconditionForSet
 Zone
 *
 zone
-JSObject
+NativeObject
 *
 owner
 Kind
@@ -4612,7 +4612,7 @@ slot
 bool
 preconditionForWriteBarrierPost
 (
-JSObject
+NativeObject
 *
 obj
 Kind
@@ -4629,7 +4629,7 @@ endif
 void
 set
 (
-JSObject
+NativeObject
 *
 owner
 Kind
@@ -4684,7 +4684,7 @@ set
 Zone
 *
 zone
-JSObject
+NativeObject
 *
 owner
 Kind
@@ -4739,7 +4739,7 @@ static
 void
 writeBarrierPost
 (
-JSObject
+NativeObject
 *
 owner
 Kind
@@ -4784,7 +4784,7 @@ private
 void
 post
 (
-JSObject
+NativeObject
 *
 owner
 Kind
