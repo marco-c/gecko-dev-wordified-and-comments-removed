@@ -430,6 +430,17 @@ files
 ARM_ASM
 '
 ]
+CFLAGS
++
+=
+[
+'
+-
+mfpu
+=
+neon
+'
+]
 if
 CONFIG
 [
