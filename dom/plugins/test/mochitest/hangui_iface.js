@@ -148,12 +148,12 @@ ctypes
 uintptr_t
 ctypes
 .
-jschar
+char16_t
 .
 ptr
 ctypes
 .
-jschar
+char16_t
 .
 ptr
 ctypes

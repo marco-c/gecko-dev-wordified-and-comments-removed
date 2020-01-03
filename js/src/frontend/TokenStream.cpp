@@ -1312,7 +1312,7 @@ ReadOnlyCompileOptions
 &
 options
 const
-jschar
+char16_t
 *
 base
 size_t
@@ -2129,7 +2129,7 @@ peekChars
 (
 int
 n
-jschar
+char16_t
 *
 cp
 )
@@ -2195,7 +2195,7 @@ cp
 i
 ]
 =
-jschar
+char16_t
 (
 c
 )
@@ -2234,7 +2234,7 @@ n
 ;
 }
 const
-jschar
+char16_t
 *
 TokenStream
 :
@@ -2245,7 +2245,7 @@ TokenBuf
 findEOLMax
 (
 const
-jschar
+char16_t
 *
 p
 size_t
@@ -2329,7 +2329,7 @@ position
 )
 {
 const
-jschar
+char16_t
 *
 end
 =
@@ -3170,7 +3170,7 @@ callerFilename
 )
 {
 const
-jschar
+char16_t
 *
 tokenStart
 =
@@ -3190,7 +3190,7 @@ windowRadius
 60
 ;
 const
-jschar
+char16_t
 *
 windowBase
 =
@@ -3216,7 +3216,7 @@ tokenStart
 windowBase
 ;
 const
-jschar
+char16_t
 *
 windowLimit
 =
@@ -3269,7 +3269,7 @@ windowBuf
 append
 (
 (
-jschar
+char16_t
 )
 0
 )
@@ -3307,7 +3307,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 tbchars
 (
@@ -3637,7 +3637,7 @@ int
 result
 )
 {
-jschar
+char16_t
 cp
 [
 5
@@ -3844,7 +3844,7 @@ bool
 CharsMatch
 (
 const
-jschar
+char16_t
 *
 p
 const
@@ -3942,7 +3942,7 @@ char
 errorMsgPragma
 UniquePtr
 <
-jschar
+char16_t
 [
 ]
 JS
@@ -3962,7 +3962,7 @@ directiveLength
 18
 )
 ;
-jschar
+char16_t
 peeked
 [
 18
@@ -4110,7 +4110,7 @@ cx
 >
 make_pod_array
 <
-jschar
+char16_t
 >
 (
 length
@@ -4405,7 +4405,7 @@ TokenStream
 putIdentInTokenbuf
 (
 const
-jschar
+char16_t
 *
 identStart
 )
@@ -4415,7 +4415,7 @@ c
 qc
 ;
 const
-jschar
+char16_t
 *
 tmp
 =
@@ -4637,7 +4637,7 @@ TokenStream
 checkForKeyword
 (
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -4966,7 +4966,7 @@ FirstCharKind
 c1kind
 ;
 const
-jschar
+char16_t
 *
 numStart
 ;
@@ -4977,7 +4977,7 @@ DecimalPoint
 decimalPoint
 ;
 const
-jschar
+char16_t
 *
 identStart
 ;
@@ -5311,7 +5311,7 @@ c
 )
 ;
 const
-jschar
+char16_t
 *
 chars
 ;
@@ -5702,7 +5702,7 @@ error
 else
 {
 const
-jschar
+char16_t
 *
 dummy
 ;
@@ -6247,7 +6247,7 @@ double
 dval
 ;
 const
-jschar
+char16_t
 *
 dummy
 ;
@@ -8094,7 +8094,7 @@ save
 }
 c
 =
-jschar
+char16_t
 (
 val
 )
@@ -8111,7 +8111,7 @@ u
 '
 )
 {
-jschar
+char16_t
 cp
 [
 4
@@ -8247,7 +8247,7 @@ x
 '
 )
 {
-jschar
+char16_t
 cp
 [
 2

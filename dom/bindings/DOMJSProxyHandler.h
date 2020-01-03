@@ -916,7 +916,7 @@ JSID_TO_ATOM
 id
 )
 ;
-jschar
+char16_t
 s
 ;
 {

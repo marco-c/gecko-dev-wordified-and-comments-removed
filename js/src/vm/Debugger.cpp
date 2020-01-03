@@ -14694,7 +14694,7 @@ hasDisplayURL
 return
 ;
 const
-jschar
+char16_t
 *
 s
 =
@@ -25621,7 +25621,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 chars
 const
@@ -26547,7 +26547,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 chars
 =

@@ -138,7 +138,7 @@ const
 JSStringFinalizer
 *
 fin
-jschar
+char16_t
 *
 chars
 )
@@ -168,7 +168,7 @@ const
 JSStringFinalizer
 *
 fin
-jschar
+char16_t
 *
 chars
 )
@@ -261,7 +261,7 @@ cx
 static_cast
 <
 const
-jschar
+char16_t
 *
 >
 (

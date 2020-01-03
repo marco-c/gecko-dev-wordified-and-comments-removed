@@ -532,7 +532,7 @@ mozilla
 :
 Range
 <
-jschar
+char16_t
 >
 {
 typedef
@@ -541,7 +541,7 @@ mozilla
 :
 Range
 <
-jschar
+char16_t
 >
 Base
 ;
@@ -558,7 +558,7 @@ Base
 }
 TwoByteChars
 (
-jschar
+char16_t
 *
 aChars
 size_t
@@ -575,7 +575,7 @@ aLength
 TwoByteChars
 (
 const
-jschar
+char16_t
 *
 aChars
 size_t
@@ -586,7 +586,7 @@ Base
 (
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -607,7 +607,7 @@ mozilla
 :
 RangedPtr
 <
-jschar
+char16_t
 >
 {
 typedef
@@ -616,7 +616,7 @@ mozilla
 :
 RangedPtr
 <
-jschar
+char16_t
 >
 Base
 ;
@@ -635,7 +635,7 @@ nullptr
 }
 TwoByteCharsZ
 (
-jschar
+char16_t
 *
 chars
 size_t
@@ -679,7 +679,7 @@ mozilla
 RangedPtr
 <
 const
-jschar
+char16_t
 >
 ConstCharPtr
 ;
@@ -693,7 +693,7 @@ mozilla
 RangedPtr
 <
 const
-jschar
+char16_t
 >
 {
 public
@@ -722,7 +722,7 @@ mozilla
 RangedPtr
 <
 const
-jschar
+char16_t
 >
 &
 s
@@ -737,7 +737,7 @@ s
 ConstTwoByteChars
 (
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -754,11 +754,11 @@ len
 ConstTwoByteChars
 (
 const
-jschar
+char16_t
 *
 pos
 const
-jschar
+char16_t
 *
 start
 size_t
@@ -799,7 +799,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 tbchars
 )

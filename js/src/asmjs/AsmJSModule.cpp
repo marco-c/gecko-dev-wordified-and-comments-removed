@@ -5397,7 +5397,7 @@ Latin1Char
 :
 sizeof
 (
-jschar
+char16_t
 )
 )
 ;
@@ -5567,7 +5567,7 @@ length
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 ;
@@ -5846,7 +5846,7 @@ name
 :
 DeserializeChars
 <
-jschar
+char16_t
 >
 (
 cx
@@ -11353,7 +11353,7 @@ parser
 *
 sizeof
 (
-jschar
+char16_t
 )
 ;
 size_t
@@ -11390,7 +11390,7 @@ return
 false
 ;
 const
-jschar
+char16_t
 *
 chars
 =
@@ -11654,7 +11654,7 @@ ModuleChars
 {
 Vector
 <
-jschar
+char16_t
 0
 SystemAllocPolicy
 >
@@ -11717,7 +11717,7 @@ uncompressedSize
 /
 sizeof
 (
-jschar
+char16_t
 )
 )
 )
@@ -11817,7 +11817,7 @@ parser
 const
 {
 const
-jschar
+char16_t
 *
 parseBegin
 =
@@ -11835,7 +11835,7 @@ parser
 )
 ;
 const
-jschar
+char16_t
 *
 parseLimit
 =
@@ -12197,7 +12197,7 @@ return
 false
 ;
 const
-jschar
+char16_t
 *
 begin
 =
@@ -12218,7 +12218,7 @@ parser
 )
 ;
 const
-jschar
+char16_t
 *
 end
 =
@@ -12482,7 +12482,7 @@ return
 true
 ;
 const
-jschar
+char16_t
 *
 begin
 =
@@ -12503,7 +12503,7 @@ parser
 )
 ;
 const
-jschar
+char16_t
 *
 limit
 =

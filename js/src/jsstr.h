@@ -264,7 +264,7 @@ int32_t
 CompareChars
 (
 const
-jschar
+char16_t
 *
 s1
 size_t
@@ -515,7 +515,7 @@ size_t
 js_strlen
 (
 const
-jschar
+char16_t
 *
 s
 )
@@ -525,11 +525,11 @@ int32_t
 js_strcmp
 (
 const
-jschar
+char16_t
 *
 lhs
 const
-jschar
+char16_t
 *
 rhs
 )
@@ -549,7 +549,7 @@ const
 CharT
 *
 s
-jschar
+char16_t
 c
 const
 CharT
@@ -562,11 +562,11 @@ MOZ_ALWAYS_INLINE
 void
 js_strncpy
 (
-jschar
+char16_t
 *
 dst
 const
-jschar
+char16_t
 *
 src
 size_t
@@ -619,7 +619,7 @@ mozilla
 :
 UniquePtr
 <
-jschar
+char16_t
 [
 ]
 JS
@@ -633,7 +633,7 @@ ThreadSafeContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 )
@@ -863,7 +863,7 @@ JSLinearString
 *
 text
 const
-jschar
+char16_t
 *
 pat
 uint32_t
@@ -1021,7 +1021,7 @@ true
 ;
 }
 extern
-jschar
+char16_t
 *
 InflateString
 (
@@ -1041,7 +1041,7 @@ inline
 void
 CopyAndInflateChars
 (
-jschar
+char16_t
 *
 dst
 const
@@ -1086,7 +1086,7 @@ inline
 void
 CopyAndInflateChars
 (
-jschar
+char16_t
 *
 dst
 const

@@ -3300,7 +3300,7 @@ GiveOwnership
 SourceBufferHolder
 (
 const
-jschar
+char16_t
 *
 data
 size_t
@@ -3327,7 +3327,7 @@ GiveOwnership
 {
 static
 const
-jschar
+char16_t
 NullChar_
 =
 0
@@ -3368,7 +3368,7 @@ js_free
 (
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -3378,7 +3378,7 @@ data_
 ;
 }
 const
-jschar
+char16_t
 *
 get
 (
@@ -3409,7 +3409,7 @@ return
 ownsChars_
 ;
 }
-jschar
+char16_t
 *
 take
 (
@@ -3427,7 +3427,7 @@ false
 return
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -3455,7 +3455,7 @@ SourceBufferHolder
 MOZ_DELETE
 ;
 const
-jschar
+char16_t
 *
 data_
 ;
@@ -6811,7 +6811,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 source
 size_t
@@ -7775,7 +7775,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -12525,7 +12525,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -12563,7 +12563,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -12601,7 +12601,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -12639,7 +12639,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -12674,7 +12674,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -12709,7 +12709,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -12744,7 +12744,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -12770,7 +12770,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -12796,7 +12796,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -12824,7 +12824,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -12852,7 +12852,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -12880,7 +12880,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -14005,7 +14005,7 @@ JSObject
 >
 obj
 const
-jschar
+char16_t
 *
 name
 size_t
@@ -14163,7 +14163,7 @@ JS
 HandleObject
 obj
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -14270,7 +14270,7 @@ const
 *
 argnames
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -14319,7 +14319,7 @@ char
 introducerFilename_
 ;
 const
-jschar
+char16_t
 *
 sourceMapURL_
 ;
@@ -14482,7 +14482,7 @@ introducerFilename_
 ;
 }
 const
-jschar
+char16_t
 *
 sourceMapURL
 (
@@ -14729,7 +14729,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 )
@@ -15338,7 +15338,7 @@ CompileOptions
 setSourceMapURL
 (
 const
-jschar
+char16_t
 *
 s
 )
@@ -15763,7 +15763,7 @@ ReadOnlyCompileOptions
 &
 options
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -15867,7 +15867,7 @@ ReadOnlyCompileOptions
 &
 options
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -16015,7 +16015,7 @@ const
 *
 argnames
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -16332,7 +16332,7 @@ JSObject
 >
 obj
 const
-jschar
+char16_t
 *
 chars
 unsigned
@@ -16408,7 +16408,7 @@ ReadOnlyCompileOptions
 &
 options
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -16526,7 +16526,7 @@ ReadOnlyCompileOptions
 &
 options
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -17141,7 +17141,7 @@ JS_NewUCString
 JSContext
 *
 cx
-jschar
+char16_t
 *
 chars
 size_t
@@ -17160,7 +17160,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -17179,7 +17179,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 )
@@ -17196,7 +17196,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -17215,7 +17215,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 )
@@ -17372,7 +17372,7 @@ extern
 JS_PUBLIC_API
 (
 const
-jschar
+char16_t
 *
 )
 JS_GetTwoByteStringCharsAndLength
@@ -17410,7 +17410,7 @@ JSString
 str
 size_t
 index
-jschar
+char16_t
 *
 res
 )
@@ -17418,7 +17418,7 @@ res
 extern
 JS_PUBLIC_API
 (
-jschar
+char16_t
 )
 JS_GetFlatStringCharAt
 (
@@ -17433,7 +17433,7 @@ extern
 JS_PUBLIC_API
 (
 const
-jschar
+char16_t
 *
 )
 JS_GetTwoByteExternalStringChars
@@ -17458,7 +17458,7 @@ mozilla
 :
 Range
 <
-jschar
+char16_t
 >
 dest
 JSString
@@ -17494,7 +17494,7 @@ extern
 JS_PUBLIC_API
 (
 const
-jschar
+char16_t
 *
 )
 JS_GetTwoByteInternedStringChars
@@ -17555,7 +17555,7 @@ extern
 JS_PUBLIC_API
 (
 const
-jschar
+char16_t
 *
 )
 JS_GetTwoByteFlatStringChars
@@ -17744,7 +17744,7 @@ char
 src
 size_t
 srclen
-jschar
+char16_t
 *
 dst
 size_t
@@ -18217,7 +18217,7 @@ JSONWriteCallback
 )
 (
 const
-jschar
+char16_t
 *
 buf
 uint32_t
@@ -18268,7 +18268,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 chars
 uint32_t
@@ -18311,7 +18311,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 *
 chars
 uint32_t
@@ -18538,7 +18538,7 @@ const
 unsigned
 errorNumber
 const
-jschar
+char16_t
 *
 *
 args
@@ -18663,12 +18663,12 @@ char
 tokenptr
 ;
 const
-jschar
+char16_t
 *
 uclinebuf
 ;
 const
-jschar
+char16_t
 *
 uctokenptr
 ;
@@ -18679,12 +18679,12 @@ unsigned
 errorNumber
 ;
 const
-jschar
+char16_t
 *
 ucmessage
 ;
 const
-jschar
+char16_t
 *
 *
 messageArgs
@@ -19129,7 +19129,7 @@ JS
 :
 HandleObject
 obj
-jschar
+char16_t
 *
 chars
 size_t
@@ -19199,7 +19199,7 @@ JS
 :
 HandleObject
 reobj
-jschar
+char16_t
 *
 chars
 size_t
@@ -19247,7 +19247,7 @@ JS_NewUCRegExpObjectNoStatics
 JSContext
 *
 cx
-jschar
+char16_t
 *
 chars
 size_t
@@ -19271,7 +19271,7 @@ JS
 :
 HandleObject
 reobj
-jschar
+char16_t
 *
 chars
 size_t
@@ -20140,11 +20140,11 @@ OpenAsmJSCacheEntryForReadOp
 HandleObject
 global
 const
-jschar
+char16_t
 *
 begin
 const
-jschar
+char16_t
 *
 limit
 size_t
@@ -20189,11 +20189,11 @@ global
 bool
 installed
 const
-jschar
+char16_t
 *
 begin
 const
-jschar
+char16_t
 *
 end
 size_t

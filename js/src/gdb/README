@@ -1125,7 +1125,7 @@ import
 ptr_pretty_printer
 #
 Simple
-jschar
+char16_t
 *
 printer
 .
@@ -1142,11 +1142,11 @@ pointers
 ptr_pretty_printer
 (
 '
-jschar
+char16_t
 '
 )
 class
-jscharPtr
+char16Ptr
 (
 object
 )
@@ -1229,7 +1229,7 @@ whatis
 sample
 type
 =
-jschar
+char16_t
 [
 4
 ]

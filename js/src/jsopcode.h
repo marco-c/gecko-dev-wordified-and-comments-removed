@@ -1724,7 +1724,7 @@ cx
 JSString
 *
 str
-jschar
+char16_t
 quote
 )
 ;

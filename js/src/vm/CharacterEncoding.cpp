@@ -53,7 +53,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 tbchars
 )
@@ -193,7 +193,7 @@ chars
 +
 )
 {
-jschar
+char16_t
 c
 =
 *
@@ -250,7 +250,7 @@ nbytes
 continue
 ;
 }
-jschar
+char16_t
 c2
 =
 chars
@@ -492,7 +492,7 @@ srclen
 uint32_t
 v
 ;
-jschar
+char16_t
 c
 =
 *
@@ -561,7 +561,7 @@ dst
 continue
 ;
 }
-jschar
+char16_t
 c2
 =
 *
@@ -947,7 +947,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 chars
 )
@@ -1296,7 +1296,7 @@ cx
 const
 UTF8Chars
 src
-jschar
+char16_t
 *
 dst
 size_t
@@ -1378,7 +1378,7 @@ dst
 j
 ]
 =
-jschar
+char16_t
 (
 v
 )
@@ -1460,7 +1460,7 @@ dst
 j
 ]
 =
-jschar
+char16_t
 (
 REPLACE_UTF8
 )
@@ -1713,7 +1713,7 @@ dst
 j
 ]
 =
-jschar
+char16_t
 (
 v
 )
@@ -1746,7 +1746,7 @@ dst
 j
 ]
 =
-jschar
+char16_t
 (
 (
 v
@@ -1774,7 +1774,7 @@ dst
 j
 ]
 =
-jschar
+char16_t
 (
 (
 v
@@ -1828,7 +1828,7 @@ JSContext
 *
 const
 UTF8Chars
-jschar
+char16_t
 *
 size_t
 *
@@ -1880,7 +1880,7 @@ TwoByteCharsZ
 (
 )
 ;
-jschar
+char16_t
 *
 dst
 =
@@ -1889,7 +1889,7 @@ cx
 >
 pod_malloc
 <
-jschar
+char16_t
 >
 (
 *
@@ -1951,7 +1951,7 @@ dst
 i
 ]
 =
-jschar
+char16_t
 (
 src
 [

@@ -681,7 +681,7 @@ ArrayType
 (
 ctypes
 .
-jschar
+char16_t
 Const
 .
 MAX_PATH
@@ -696,7 +696,7 @@ ArrayType
 (
 ctypes
 .
-jschar
+char16_t
 14
 )
 }
@@ -1038,7 +1038,7 @@ Type
 zero_or_nothing
 Type
 .
-jschar
+char16_t
 .
 in_ptr
 Type

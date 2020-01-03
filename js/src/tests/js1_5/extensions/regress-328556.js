@@ -29,7 +29,7 @@ nchars
 *
 sizeof
 (
-jschar
+char16_t
 )
 =
 =

@@ -329,7 +329,7 @@ aHintCharset
 nsIDocument
 *
 aDocument
-jschar
+char16_t
 *
 &
 aBufOut

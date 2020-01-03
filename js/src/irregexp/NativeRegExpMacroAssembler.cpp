@@ -1350,7 +1350,7 @@ if
 mode_
 =
 =
-JSCHAR
+CHAR16
 )
 masm
 .
@@ -2919,7 +2919,7 @@ NativeRegExpMacroAssembler
 :
 CheckCharacterGT
 (
-jschar
+char16_t
 c
 Label
 *
@@ -2968,7 +2968,7 @@ NativeRegExpMacroAssembler
 :
 CheckCharacterLT
 (
-jschar
+char16_t
 c
 Label
 *
@@ -3318,7 +3318,7 @@ JS_ASSERT
 mode_
 =
 =
-JSCHAR
+CHAR16
 )
 ;
 masm
@@ -3959,7 +3959,7 @@ JS_ASSERT
 mode_
 =
 =
-JSCHAR
+CHAR16
 )
 ;
 GeneralRegisterSet
@@ -4045,10 +4045,10 @@ fun
 )
 (
 const
-jschar
+char16_t
 *
 const
-jschar
+char16_t
 *
 size_t
 )
@@ -4121,11 +4121,11 @@ NativeRegExpMacroAssembler
 :
 CheckNotCharacterAfterMinusAnd
 (
-jschar
+char16_t
 c
-jschar
+char16_t
 minus
-jschar
+char16_t
 and_with
 Label
 *
@@ -4241,9 +4241,9 @@ NativeRegExpMacroAssembler
 :
 CheckCharacterInRange
 (
-jschar
+char16_t
 from
-jschar
+char16_t
 to
 Label
 *
@@ -4313,9 +4313,9 @@ NativeRegExpMacroAssembler
 :
 CheckCharacterNotInRange
 (
-jschar
+char16_t
 from
-jschar
+char16_t
 to
 Label
 *
@@ -4862,7 +4862,7 @@ JS_ASSERT
 mode_
 =
 =
-JSCHAR
+CHAR16
 )
 ;
 JS_ASSERT
@@ -4883,7 +4883,7 @@ cp_offset
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 ;
@@ -6048,7 +6048,7 @@ NativeRegExpMacroAssembler
 :
 CheckSpecialCharacterClass
 (
-jschar
+char16_t
 type
 Label
 *
@@ -6353,7 +6353,7 @@ if
 mode_
 =
 =
-JSCHAR
+CHAR16
 )
 {
 masm
@@ -6678,7 +6678,7 @@ done
 ;
 JS_ASSERT
 (
-JSCHAR
+CHAR16
 =
 =
 mode_

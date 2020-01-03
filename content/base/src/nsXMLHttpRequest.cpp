@@ -3077,7 +3077,7 @@ aCx
 static_cast
 <
 const
-jschar
+char16_t
 *
 >
 (

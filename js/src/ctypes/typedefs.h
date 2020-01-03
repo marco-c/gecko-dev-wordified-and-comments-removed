@@ -20,7 +20,7 @@ z
 )
 #
 define
-DEFINE_JSCHAR_TYPE
+DEFINE_CHAR16_TYPE
 (
 x
 y
@@ -118,10 +118,10 @@ z
 endif
 #
 ifndef
-DEFINE_JSCHAR_TYPE
+DEFINE_CHAR16_TYPE
 #
 define
-DEFINE_JSCHAR_TYPE
+DEFINE_CHAR16_TYPE
 (
 x
 y
@@ -495,10 +495,10 @@ unsigned
 char
 ffi_type_uint8
 )
-DEFINE_JSCHAR_TYPE
+DEFINE_CHAR16_TYPE
 (
-jschar
-jschar
+char16_t
+char16_t
 ffi_type_uint16
 )
 #
@@ -533,7 +533,7 @@ undef
 DEFINE_CHAR_TYPE
 #
 undef
-DEFINE_JSCHAR_TYPE
+DEFINE_CHAR16_TYPE
 #
 undef
 DEFINE_BOOL_TYPE

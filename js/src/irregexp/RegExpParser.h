@@ -474,7 +474,7 @@ alloc
 void
 AddCharacter
 (
-jschar
+char16_t
 character
 )
 ;
@@ -697,7 +697,7 @@ index_out
 bool
 ParseClassAtom
 (
-jschar
+char16_t
 *
 char_class
 CharacterRange

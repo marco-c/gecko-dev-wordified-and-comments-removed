@@ -255,7 +255,7 @@ LPCWSTR
 =
 ctypes
 .
-jschar
+char16_t
 .
 ptr
 ;

@@ -7862,7 +7862,7 @@ asLinear
 (
 )
 ;
-jschar
+char16_t
 ch
 =
 linstr

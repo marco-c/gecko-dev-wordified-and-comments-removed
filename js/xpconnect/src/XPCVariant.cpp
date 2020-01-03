@@ -1420,7 +1420,7 @@ mozilla
 :
 Range
 <
-jschar
+char16_t
 >
 destChars
 (

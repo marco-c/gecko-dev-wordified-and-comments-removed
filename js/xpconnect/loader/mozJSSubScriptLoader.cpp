@@ -743,7 +743,7 @@ IsVoid
 )
 )
 {
-jschar
+char16_t
 *
 scriptBuf
 =
@@ -1821,7 +1821,7 @@ nsIChannel
 >
 mChannel
 ;
-jschar
+char16_t
 *
 mScriptBuf
 ;

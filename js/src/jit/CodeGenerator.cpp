@@ -30818,11 +30818,11 @@ temp1
 temp2
 sizeof
 (
-jschar
+char16_t
 )
 sizeof
 (
-jschar
+char16_t
 )
 )
 ;
@@ -30865,7 +30865,7 @@ char
 )
 sizeof
 (
-jschar
+char16_t
 )
 )
 ;

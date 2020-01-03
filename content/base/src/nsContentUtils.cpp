@@ -29100,7 +29100,7 @@ JS_NewUCRegExpObjectNoStatics
 cx
 static_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -29169,7 +29169,7 @@ cx
 re
 static_cast
 <
-jschar
+char16_t
 *
 >
 (

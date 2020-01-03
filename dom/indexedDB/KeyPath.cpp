@@ -492,7 +492,7 @@ keypath
 )
 ;
 const
-jschar
+char16_t
 *
 keyPathChars
 =

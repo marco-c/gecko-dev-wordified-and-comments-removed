@@ -796,7 +796,7 @@ cp
 +
 )
 {
-jschar
+char16_t
 c
 =
 *
@@ -1712,7 +1712,7 @@ return
 false
 ;
 const
-jschar
+char16_t
 *
 chars
 =
@@ -2137,7 +2137,7 @@ return
 false
 ;
 const
-jschar
+char16_t
 *
 chars
 =

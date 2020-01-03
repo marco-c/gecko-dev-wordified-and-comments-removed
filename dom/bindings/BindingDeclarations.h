@@ -147,7 +147,7 @@ bool
 AppendJSONToString
 (
 const
-jschar
+char16_t
 *
 aJSONData
 uint32_t

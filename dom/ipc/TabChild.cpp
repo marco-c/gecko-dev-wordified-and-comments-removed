@@ -2413,7 +2413,7 @@ cx
 static_cast
 <
 const
-jschar
+char16_t
 *
 >
 (
@@ -3752,7 +3752,12 @@ tab
 new
 TabChild
 (
-nullptr
+ContentChild
+:
+:
+GetSingleton
+(
+)
 TabContext
 (
 )
@@ -3962,13 +3967,6 @@ child
 >
 mTriedBrowserInit
 )
-;
-child
--
->
-mManager
-=
-aManager
 ;
 child
 -

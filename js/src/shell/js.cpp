@@ -6502,7 +6502,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 chars
 =
@@ -6611,7 +6611,7 @@ return
 false
 ;
 const
-jschar
+char16_t
 *
 durl
 =
@@ -6710,7 +6710,7 @@ return
 false
 ;
 const
-jschar
+char16_t
 *
 smurl
 =
@@ -7171,7 +7171,7 @@ read
 }
 else
 {
-jschar
+char16_t
 *
 ucbuf
 =
@@ -7661,7 +7661,7 @@ return
 false
 ;
 const
-jschar
+char16_t
 *
 ucbuf
 =
@@ -13024,7 +13024,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 chars
 =
@@ -13922,7 +13922,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 chars
 =
@@ -13942,7 +13942,7 @@ length
 )
 ;
 const
-jschar
+char16_t
 *
 src
 =
@@ -14636,7 +14636,7 @@ JSRuntime
 *
 runtime
 ;
-jschar
+char16_t
 *
 chars
 ;
@@ -14648,7 +14648,7 @@ WorkerInput
 JSRuntime
 *
 runtime
-jschar
+char16_t
 *
 chars
 size_t
@@ -15040,12 +15040,12 @@ asLinear
 (
 )
 ;
-jschar
+char16_t
 *
 chars
 =
 (
-jschar
+char16_t
 *
 )
 js_malloc
@@ -15059,7 +15059,7 @@ length
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 ;
@@ -17920,7 +17920,7 @@ cx
 )
 ;
 const
-jschar
+char16_t
 *
 chars
 =
@@ -18136,7 +18136,7 @@ length
 )
 ;
 const
-jschar
+char16_t
 *
 chars
 =
@@ -18447,7 +18447,7 @@ return
 false
 ;
 const
-jschar
+char16_t
 *
 chars
 =
@@ -18622,7 +18622,7 @@ JSContext
 cx
 ScopedJSFreePtr
 <
-jschar
+char16_t
 >
 &
 newSource
@@ -18862,7 +18862,7 @@ void
 *
 token
 ;
-jschar
+char16_t
 *
 source
 ;
@@ -19183,7 +19183,7 @@ length
 )
 ;
 const
-jschar
+char16_t
 *
 chars
 =
@@ -19203,7 +19203,7 @@ get
 ;
 ScopedJSFreePtr
 <
-jschar
+char16_t
 >
 ownedChars
 ;
@@ -19220,7 +19220,7 @@ ownedChars
 =
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -19230,7 +19230,7 @@ chars
 }
 else
 {
-jschar
+char16_t
 *
 copy
 =
@@ -19239,7 +19239,7 @@ cx
 >
 pod_malloc
 <
-jschar
+char16_t
 >
 (
 length
@@ -22545,7 +22545,7 @@ const
 char
 *
 filename
-jschar
+char16_t
 *
 *
 src
@@ -22643,7 +22643,7 @@ cx
 >
 pod_malloc
 <
-jschar
+char16_t
 >
 (
 *
@@ -23166,7 +23166,7 @@ JS_ARM_SIMULATOR
 typedef
 Vector
 <
-jschar
+char16_t
 0
 SystemAllocPolicy
 >
@@ -28225,7 +28225,7 @@ else
 for
 (
 const
-jschar
+char16_t
 *
 p
 =
@@ -30715,11 +30715,11 @@ ShellOpenAsmJSCacheEntryForRead
 HandleObject
 global
 const
-jschar
+char16_t
 *
 begin
 const
-jschar
+char16_t
 *
 limit
 size_t
@@ -31054,11 +31054,11 @@ global
 bool
 installed
 const
-jschar
+char16_t
 *
 begin
 const
-jschar
+char16_t
 *
 end
 size_t

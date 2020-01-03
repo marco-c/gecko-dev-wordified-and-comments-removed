@@ -55,7 +55,7 @@ Latin1CharBuffer
 typedef
 Vector
 <
-jschar
+char16_t
 32
 >
 TwoByteCharBuffer
@@ -386,7 +386,7 @@ length
 ;
 }
 inline
-jschar
+char16_t
 getChar
 (
 size_t
@@ -448,7 +448,7 @@ bool
 append
 (
 const
-jschar
+char16_t
 c
 )
 {
@@ -559,11 +559,11 @@ bool
 append
 (
 const
-jschar
+char16_t
 *
 begin
 const
-jschar
+char16_t
 *
 end
 )
@@ -573,7 +573,7 @@ bool
 append
 (
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -951,7 +951,7 @@ void
 infallibleAppend
 (
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -977,7 +977,7 @@ len
 void
 infallibleAppend
 (
-jschar
+char16_t
 c
 )
 {
@@ -1008,7 +1008,7 @@ isLatin1
 )
 ;
 }
-jschar
+char16_t
 *
 rawTwoByteBegin
 (
@@ -1024,7 +1024,7 @@ begin
 )
 ;
 }
-jschar
+char16_t
 *
 rawTwoByteEnd
 (
@@ -1041,7 +1041,7 @@ end
 ;
 }
 const
-jschar
+char16_t
 *
 rawTwoByteBegin
 (
@@ -1059,7 +1059,7 @@ begin
 ;
 }
 const
-jschar
+char16_t
 *
 rawTwoByteEnd
 (
@@ -1156,7 +1156,7 @@ finishAtom
 (
 )
 ;
-jschar
+char16_t
 *
 stealChars
 (
@@ -1172,11 +1172,11 @@ StringBuffer
 append
 (
 const
-jschar
+char16_t
 *
 begin
 const
-jschar
+char16_t
 *
 end
 )

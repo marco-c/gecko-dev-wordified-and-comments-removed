@@ -281,14 +281,14 @@ uint32_t
 bytes
 ;
 const
-jschar
+char16_t
 *
 sval
 =
 reinterpret_cast
 <
 const
-jschar
+char16_t
 *
 >
 (

@@ -104,7 +104,7 @@ char
 *
 aTopic
 const
-jschar
+char16_t
 *
 aValue
 )

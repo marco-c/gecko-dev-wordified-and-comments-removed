@@ -335,7 +335,7 @@ Latin1Char
 latin1Chars
 ;
 const
-jschar
+char16_t
 *
 twoByteChars
 ;
@@ -364,7 +364,7 @@ hash
 Lookup
 (
 const
-jschar
+char16_t
 *
 chars
 size_t

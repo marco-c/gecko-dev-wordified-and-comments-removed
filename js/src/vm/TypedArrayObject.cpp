@@ -15312,7 +15312,7 @@ js
 StringIsTypedArrayIndex
 (
 const
-jschar
+char16_t
 *
 s
 size_t

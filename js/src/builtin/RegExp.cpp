@@ -710,7 +710,7 @@ mozilla
 IsSame
 <
 CharT
-jschar
+char16_t
 >
 :
 :

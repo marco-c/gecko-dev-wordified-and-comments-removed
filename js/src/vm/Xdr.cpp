@@ -304,7 +304,7 @@ mode
 :
 codeChars
 (
-jschar
+char16_t
 *
 chars
 size_t
@@ -318,7 +318,7 @@ nchars
 *
 sizeof
 (
-jschar
+char16_t
 )
 ;
 if

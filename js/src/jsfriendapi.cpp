@@ -3389,7 +3389,7 @@ void
 js_DumpChars
 (
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -3400,7 +3400,7 @@ fprintf
 (
 stderr
 "
-jschar
+char16_t
 *
 (
 %
@@ -4372,7 +4372,7 @@ isIncrementalGc
 )
 ;
 }
-jschar
+char16_t
 *
 GCDescription
 :
@@ -4398,7 +4398,7 @@ formatMessage
 )
 ;
 }
-jschar
+char16_t
 *
 GCDescription
 :

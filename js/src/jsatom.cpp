@@ -2048,7 +2048,7 @@ ExclusiveContext
 *
 cx
 const
-jschar
+char16_t
 *
 tbchars
 size_t
@@ -2568,7 +2568,7 @@ ExclusiveContext
 *
 cx
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -2599,7 +2599,7 @@ index
 JSID_INT_MAX
 )
 ;
-jschar
+char16_t
 buf
 [
 UINT32_CHAR_BUFFER_LENGTH
@@ -2607,7 +2607,7 @@ UINT32_CHAR_BUFFER_LENGTH
 ;
 RangedPtr
 <
-jschar
+char16_t
 >
 end
 (
@@ -2624,7 +2624,7 @@ buf
 ;
 RangedPtr
 <
-jschar
+char16_t
 >
 start
 =
@@ -3141,7 +3141,7 @@ codeChars
 (
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -3249,14 +3249,14 @@ else
 if
 IS_LITTLE_ENDIAN
 const
-jschar
+char16_t
 *
 chars
 =
 reinterpret_cast
 <
 const
-jschar
+char16_t
 *
 >
 (
@@ -3271,7 +3271,7 @@ length
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 )
@@ -3287,11 +3287,11 @@ length
 ;
 #
 else
-jschar
+char16_t
 *
 chars
 ;
-jschar
+char16_t
 stackChars
 [
 256
@@ -3327,7 +3327,7 @@ runtime
 >
 pod_malloc
 <
-jschar
+char16_t
 >
 (
 length

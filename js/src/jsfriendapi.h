@@ -795,7 +795,7 @@ void
 js_DumpChars
 (
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -2062,7 +2062,7 @@ const
 char
 *
 filename
-jschar
+char16_t
 *
 *
 src
@@ -2803,7 +2803,7 @@ Latin1Char
 nonInlineCharsLatin1
 ;
 const
-jschar
+char16_t
 *
 nonInlineCharsTwoByte
 ;
@@ -2816,7 +2816,7 @@ inlineStorageLatin1
 1
 ]
 ;
-jschar
+char16_t
 inlineStorageTwoByte
 [
 1
@@ -3986,7 +3986,7 @@ nonInlineCharsLatin1
 }
 MOZ_ALWAYS_INLINE
 const
-jschar
+char16_t
 *
 GetTwoByteLinearStringChars
 (
@@ -4131,7 +4131,7 @@ atom
 }
 MOZ_ALWAYS_INLINE
 const
-jschar
+char16_t
 *
 GetTwoByteAtomChars
 (
@@ -4250,7 +4250,7 @@ MOZ_ALWAYS_INLINE
 void
 CopyLinearStringChars
 (
-jschar
+char16_t
 *
 dest
 JSLinearString
@@ -4317,7 +4317,7 @@ i
 else
 {
 const
-jschar
+char16_t
 *
 src
 =
@@ -4346,7 +4346,7 @@ CopyStringChars
 JSContext
 *
 cx
-jschar
+char16_t
 *
 dest
 JSString
@@ -4389,7 +4389,7 @@ inline
 void
 CopyFlatStringChars
 (
-jschar
+char16_t
 *
 dest
 JSFlatString
@@ -5657,7 +5657,7 @@ s_
 union
 {
 const
-jschar
+char16_t
 *
 twoByteChars_
 ;
@@ -5763,7 +5763,7 @@ TwoByte
 ;
 }
 const
-jschar
+char16_t
 *
 twoByteChars
 (
@@ -5833,7 +5833,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 twoByteRange
 (
@@ -5855,7 +5855,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 (
 twoByteChars_

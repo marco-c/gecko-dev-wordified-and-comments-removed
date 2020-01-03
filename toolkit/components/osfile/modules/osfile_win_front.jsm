@@ -3866,7 +3866,7 @@ ArrayType
 (
 ctypes
 .
-jschar
+char16_t
 buffer_size
 )
 )

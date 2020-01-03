@@ -33,7 +33,7 @@ JSContext
 const
 cx
 ;
-jschar
+char16_t
 *
 chars_
 ;
@@ -123,7 +123,7 @@ abort
 ;
 }
 const
-jschar
+char16_t
 *
 chars
 (
@@ -372,7 +372,7 @@ cx
 )
 ;
 const
-jschar
+char16_t
 emptystr
 [
 ]
@@ -427,7 +427,7 @@ expected
 )
 ;
 const
-jschar
+char16_t
 nullstr
 [
 ]
@@ -478,7 +478,7 @@ expected
 )
 ;
 const
-jschar
+char16_t
 backstr
 [
 ]
@@ -547,7 +547,7 @@ expected
 )
 ;
 const
-jschar
+char16_t
 newlinestr
 [
 ]
@@ -912,7 +912,7 @@ JSContext
 *
 cx
 const
-jschar
+char16_t
 (
 &
 chars
@@ -3264,13 +3264,13 @@ unexpectedErrorCount
 unsigned
 expectedErrorCount
 ;
-jschar
+char16_t
 column
 [
 MaxSize
 ]
 ;
-jschar
+char16_t
 line
 [
 MaxSize

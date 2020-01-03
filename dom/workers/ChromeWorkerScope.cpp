@@ -61,7 +61,7 @@ JSContext
 *
 aCx
 const
-jschar
+char16_t
 *
 aSource
 size_t

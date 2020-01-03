@@ -517,12 +517,12 @@ strlen
 asciiChars
 )
 ;
-jschar
+char16_t
 *
 chars
 =
 new
-jschar
+char16_t
 [
 len
 +

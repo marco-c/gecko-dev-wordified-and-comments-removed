@@ -531,7 +531,7 @@ isCompartment
 )
 {
 }
-jschar
+char16_t
 *
 formatMessage
 (
@@ -541,7 +541,7 @@ rt
 )
 const
 ;
-jschar
+char16_t
 *
 formatJSON
 (

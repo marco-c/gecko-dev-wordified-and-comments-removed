@@ -88,13 +88,13 @@ nchars
 return
 nullptr
 ;
-jschar
+char16_t
 *
 chars
 =
 static_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -105,7 +105,7 @@ nchars
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 )
@@ -1653,7 +1653,7 @@ strlen
 sm
 )
 ;
-jschar
+char16_t
 *
 expected
 =
@@ -1730,7 +1730,7 @@ hasSourceMapURL
 )
 ;
 const
-jschar
+char16_t
 *
 actual
 =

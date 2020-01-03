@@ -23193,7 +23193,7 @@ prop
 Argument
 (
 "
-jschar
+char16_t
 "
 "
 propFirstChar

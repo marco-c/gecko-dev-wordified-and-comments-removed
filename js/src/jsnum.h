@@ -349,11 +349,11 @@ ExclusiveContext
 *
 cx
 const
-jschar
+char16_t
 *
 start
 const
-jschar
+char16_t
 *
 end
 double

@@ -310,7 +310,7 @@ const
 JSStringFinalizer
 *
 fin
-jschar
+char16_t
 *
 chars
 )

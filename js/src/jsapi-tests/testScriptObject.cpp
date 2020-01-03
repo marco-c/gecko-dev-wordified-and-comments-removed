@@ -28,7 +28,7 @@ code
 ]
 ;
 static
-jschar
+char16_t
 uc_code
 [
 ]
@@ -169,7 +169,7 @@ code
 -
 1
 ;
-jschar
+char16_t
 ScriptObjectFixture
 :
 :

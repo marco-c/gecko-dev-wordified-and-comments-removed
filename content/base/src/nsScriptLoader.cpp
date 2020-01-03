@@ -483,7 +483,7 @@ mHasSourceMapURL
 nsString
 mSourceMapURL
 ;
-jschar
+char16_t
 *
 mScriptTextBuf
 ;
@@ -4094,7 +4094,7 @@ nsAutoString
 textData
 ;
 const
-jschar
+char16_t
 *
 scriptBuf
 =
@@ -5936,7 +5936,7 @@ aHintCharset
 nsIDocument
 *
 aDocument
-jschar
+char16_t
 *
 &
 aBufOut
@@ -6149,7 +6149,7 @@ aBufOut
 =
 static_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -6159,7 +6159,7 @@ unicodeLength
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 )

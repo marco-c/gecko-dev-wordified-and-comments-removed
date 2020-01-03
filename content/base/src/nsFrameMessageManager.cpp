@@ -2614,7 +2614,7 @@ bool
 JSONCreator
 (
 const
-jschar
+char16_t
 *
 aBuf
 uint32_t
@@ -2789,7 +2789,7 @@ aCx
 static_cast
 <
 const
-jschar
+char16_t
 *
 >
 (
@@ -3312,7 +3312,7 @@ aCx
 static_cast
 <
 const
-jschar
+char16_t
 *
 >
 (
@@ -4796,7 +4796,7 @@ cx
 static_cast
 <
 const
-jschar
+char16_t
 *
 >
 (
@@ -7232,7 +7232,7 @@ input
 nsString
 dataString
 ;
-jschar
+char16_t
 *
 dataStringBuf
 =

@@ -2914,13 +2914,13 @@ typedef
 HashMap
 <
 const
-jschar
+char16_t
 *
 EachType
 DefaultHasher
 <
 const
-jschar
+char16_t
 *
 >
 SystemAllocPolicy
@@ -3057,7 +3057,7 @@ total_
 +
 ;
 const
-jschar
+char16_t
 *
 key
 =
@@ -3438,7 +3438,7 @@ return
 false
 ;
 const
-jschar
+char16_t
 *
 name
 =

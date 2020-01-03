@@ -525,7 +525,7 @@ ctypes
 int32_t
 ctypes
 .
-jschar
+char16_t
 .
 ptr
 )

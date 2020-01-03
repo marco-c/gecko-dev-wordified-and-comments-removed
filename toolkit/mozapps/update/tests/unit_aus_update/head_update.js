@@ -5723,7 +5723,7 @@ ctypes
 int32_t
 ctypes
 .
-jschar
+char16_t
 .
 ptr
 ctypes
@@ -5739,7 +5739,7 @@ aryPathLocalAppData
 =
 ctypes
 .
-jschar
+char16_t
 .
 array
 (
@@ -5882,7 +5882,7 @@ ctypes
 int32_t
 ctypes
 .
-jschar
+char16_t
 .
 ptr
 ctypes
@@ -5898,7 +5898,7 @@ aryPathProgFiles
 =
 ctypes
 .
-jschar
+char16_t
 .
 array
 (

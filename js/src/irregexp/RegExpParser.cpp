@@ -226,7 +226,7 @@ RegExpBuilder
 :
 AddCharacter
 (
-jschar
+char16_t
 c
 )
 {
@@ -1814,7 +1814,7 @@ return
 }
 static
 const
-jschar
+char16_t
 kNoCharClass
 =
 0
@@ -1830,7 +1830,7 @@ alloc
 CharacterRangeVector
 *
 ranges
-jschar
+char16_t
 char_class
 CharacterRange
 range
@@ -1955,7 +1955,7 @@ current
 '
 )
 {
-jschar
+char16_t
 char_class
 =
 kNoCharClass
@@ -2046,7 +2046,7 @@ Singleton
 break
 ;
 }
-jschar
+char16_t
 char_class_2
 =
 kNoCharClass
@@ -2250,7 +2250,7 @@ CharT
 :
 ParseClassAtom
 (
-jschar
+char16_t
 *
 char_class
 CharacterRange
@@ -4850,7 +4850,7 @@ irregexp
 :
 RegExpParser
 <
-jschar
+char16_t
 >
 ;
 template

@@ -322,7 +322,7 @@ i
 +
 )
 {
-jschar
+char16_t
 c
 =
 s
@@ -470,7 +470,7 @@ JSString
 dumpChars
 (
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -650,7 +650,7 @@ stderr
 else
 {
 const
-jschar
+char16_t
 *
 chars
 =
@@ -673,7 +673,7 @@ JSString
 p
 )
 =
-jschar
+char16_t
 *
 (
 %
@@ -933,7 +933,7 @@ ThreadSafeContext
 cx
 ScopedJSFreePtr
 <
-jschar
+char16_t
 >
 &
 out
@@ -943,7 +943,7 @@ const
 return
 copyCharsInternal
 <
-jschar
+char16_t
 >
 (
 cx
@@ -993,7 +993,7 @@ ThreadSafeContext
 cx
 ScopedJSFreePtr
 <
-jschar
+char16_t
 >
 &
 out
@@ -1003,7 +1003,7 @@ const
 return
 copyCharsInternal
 <
-jschar
+char16_t
 >
 (
 cx
@@ -1241,7 +1241,7 @@ template
 void
 CopyChars
 (
-jschar
+char16_t
 *
 dest
 const
@@ -1351,7 +1351,7 @@ length
 )
 ;
 const
-jschar
+char16_t
 *
 chars
 =
@@ -1570,7 +1570,7 @@ hasTwoByteChars
 IsSame
 <
 CharT
-jschar
+char16_t
 >
 :
 :
@@ -2151,7 +2151,7 @@ if
 IsSame
 <
 CharT
-jschar
+char16_t
 >
 :
 :
@@ -2262,7 +2262,7 @@ if
 IsSame
 <
 CharT
-jschar
+char16_t
 >
 :
 :
@@ -2431,7 +2431,7 @@ return
 flattenInternal
 <
 b
-jschar
+char16_t
 >
 (
 maybecx
@@ -2794,7 +2794,7 @@ wholeLength
 }
 else
 {
-jschar
+char16_t
 *
 buf
 =
@@ -3112,7 +3112,7 @@ cx
 :
 undependInternal
 <
-jschar
+char16_t
 >
 (
 cx
@@ -3339,7 +3339,7 @@ JSFlatString
 isIndexSlow
 (
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -3573,7 +3573,7 @@ else
 {
 ScopedJSFreePtr
 <
-jschar
+char16_t
 >
 chars
 ;
@@ -4757,7 +4757,7 @@ js_free
 (
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -4932,7 +4932,7 @@ return
 true
 ;
 }
-jschar
+char16_t
 *
 chars
 =
@@ -4941,7 +4941,7 @@ cx
 >
 pod_malloc
 <
-jschar
+char16_t
 >
 (
 linearString
@@ -5143,7 +5143,7 @@ AutoCheckCannotGC
 nogc
 ;
 const
-jschar
+char16_t
 *
 chars
 =
@@ -5241,7 +5241,7 @@ bool
 CanStoreCharsAsLatin1
 (
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -5251,7 +5251,7 @@ length
 for
 (
 const
-jschar
+char16_t
 *
 end
 =
@@ -5333,7 +5333,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 chars
 )
@@ -5446,7 +5446,7 @@ ThreadSafeContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -5476,7 +5476,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 (
 s
@@ -5677,7 +5677,7 @@ length
 1
 )
 {
-jschar
+char16_t
 c
 =
 chars
@@ -5800,7 +5800,7 @@ CanGC
 ThreadSafeContext
 *
 cx
-jschar
+char16_t
 *
 chars
 size_t
@@ -5821,7 +5821,7 @@ NoGC
 ThreadSafeContext
 *
 cx
-jschar
+char16_t
 *
 chars
 size_t
@@ -5899,7 +5899,7 @@ if
 IsSame
 <
 CharT
-jschar
+char16_t
 >
 :
 :
@@ -5921,7 +5921,7 @@ length
 1
 )
 {
-jschar
+char16_t
 c
 =
 chars
@@ -6017,7 +6017,7 @@ CanGC
 ThreadSafeContext
 *
 cx
-jschar
+char16_t
 *
 chars
 size_t
@@ -6038,7 +6038,7 @@ NoGC
 ThreadSafeContext
 *
 cx
-jschar
+char16_t
 *
 chars
 size_t
@@ -6243,7 +6243,7 @@ ThreadSafeContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -6262,7 +6262,7 @@ ThreadSafeContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -6334,7 +6334,7 @@ if
 IsSame
 <
 CharT
-jschar
+char16_t
 >
 :
 :
@@ -6382,7 +6382,7 @@ ThreadSafeContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 size_t
@@ -6401,7 +6401,7 @@ ThreadSafeContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 size_t

@@ -347,7 +347,7 @@ char
 %
 sizeof
 (
-jschar
+char16_t
 )
 =
 =
@@ -387,13 +387,13 @@ cursor
 define
 JS_CHARS_SIZE
 (
-jschars
+chars
 )
 (
 (
 js_strlen
 (
-jschars
+chars
 )
 +
 1
@@ -401,7 +401,7 @@ jschars
 *
 sizeof
 (
-jschar
+char16_t
 )
 )
 filenameSize
@@ -548,7 +548,7 @@ i
 sizeof
 (
 const
-jschar
+char16_t
 *
 )
 ;
@@ -635,7 +635,7 @@ messageArgs
 =
 (
 const
-jschar
+char16_t
 *
 *
 )
@@ -675,7 +675,7 @@ i
 =
 (
 const
-jschar
+char16_t
 *
 )
 cursor
@@ -758,7 +758,7 @@ ucmessage
 =
 (
 const
-jschar
+char16_t
 *
 )
 cursor
@@ -794,7 +794,7 @@ uclinebuf
 =
 (
 const
-jschar
+char16_t
 *
 )
 cursor
@@ -3409,7 +3409,7 @@ js_free
 (
 const_cast
 <
-jschar
+char16_t
 *
 >
 (
@@ -3436,7 +3436,7 @@ js_free
 (
 const_cast
 <
-jschar
+char16_t
 *
 >
 (

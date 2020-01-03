@@ -2246,7 +2246,7 @@ char
 *
 message
 ;
-jschar
+char16_t
 *
 ucmessage
 ;
@@ -3235,7 +3235,7 @@ cx
 pod_malloc
 <
 const
-jschar
+char16_t
 *
 >
 (
@@ -3359,7 +3359,7 @@ i
 va_arg
 (
 ap
-jschar
+char16_t
 *
 )
 ;
@@ -3405,7 +3405,7 @@ efs
 format
 )
 {
-jschar
+char16_t
 *
 buffer
 *
@@ -3479,7 +3479,7 @@ cx
 >
 pod_malloc
 <
-jschar
+char16_t
 >
 (
 expandedLength
@@ -3622,7 +3622,7 @@ PointerRangeSize
 static_cast
 <
 const
-jschar
+char16_t
 *
 >
 (
@@ -3634,7 +3634,7 @@ ucmessage
 static_cast
 <
 const
-jschar
+char16_t
 *
 >
 (
@@ -3648,7 +3648,7 @@ mozilla
 Range
 <
 const
-jschar
+char16_t
 >
 ucmsg
 (
@@ -4172,7 +4172,7 @@ const
 unsigned
 errorNumber
 const
-jschar
+char16_t
 *
 *
 args
@@ -5026,7 +5026,7 @@ cx
 nullptr
 ;
 const
-jschar
+char16_t
 *
 chars
 ;

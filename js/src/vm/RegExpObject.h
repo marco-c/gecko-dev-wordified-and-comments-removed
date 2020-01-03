@@ -1166,7 +1166,7 @@ RegExpStatics
 *
 res
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -1193,7 +1193,7 @@ ExclusiveContext
 *
 cx
 const
-jschar
+char16_t
 *
 chars
 size_t

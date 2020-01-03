@@ -735,7 +735,7 @@ i
 +
 )
 {
-jschar
+char16_t
 ch
 =
 chars
@@ -847,7 +847,7 @@ i
 +
 )
 {
-jschar
+char16_t
 ch
 =
 chars
@@ -1231,12 +1231,12 @@ const
 CharT
 >
 chars
-jschar
+char16_t
 *
 result
 )
 {
-jschar
+char16_t
 a
 =
 chars
@@ -1356,12 +1356,12 @@ const
 CharT
 >
 chars
-jschar
+char16_t
 *
 result
 )
 {
-jschar
+char16_t
 a
 =
 chars
@@ -1493,7 +1493,7 @@ k
 length
 )
 {
-jschar
+char16_t
 c
 =
 chars
@@ -3725,7 +3725,7 @@ i
 +
 )
 {
-jschar
+char16_t
 c
 =
 chars
@@ -3805,7 +3805,7 @@ i
 +
 )
 {
-jschar
+char16_t
 c
 =
 unicode
@@ -3968,7 +3968,7 @@ str
 =
 ToLowerCase
 <
-jschar
+char16_t
 >
 (
 cx
@@ -4219,7 +4219,7 @@ i
 +
 )
 {
-jschar
+char16_t
 c
 =
 unicode
@@ -4307,7 +4307,7 @@ Latin1CharPtr
 typedef
 UniquePtr
 <
-jschar
+char16_t
 [
 ]
 JS
@@ -4374,7 +4374,7 @@ i
 +
 )
 {
-jschar
+char16_t
 c
 =
 chars
@@ -4579,7 +4579,7 @@ cx
 >
 make_pod_array
 <
-jschar
+char16_t
 >
 (
 length
@@ -4806,7 +4806,7 @@ str
 =
 ToUpperCase
 <
-jschar
+char16_t
 >
 (
 cx
@@ -5393,7 +5393,7 @@ UChar
 *
 srcChars
 =
-JSCharToUChar
+Char16ToUChar
 (
 stableChars
 .
@@ -5428,7 +5428,7 @@ length
 ;
 Vector
 <
-jschar
+char16_t
 INLINE_CAPACITY
 >
 chars
@@ -5463,7 +5463,7 @@ srcChars
 srcLen
 form
 0
-JSCharToUChar
+Char16ToUChar
 (
 chars
 .
@@ -5515,7 +5515,7 @@ srcChars
 srcLen
 form
 0
-JSCharToUChar
+Char16ToUChar
 (
 chars
 .
@@ -5959,7 +5959,7 @@ d
 )
 ;
 }
-jschar
+char16_t
 c
 ;
 if
@@ -6237,7 +6237,7 @@ i
 +
 )
 {
-jschar
+char16_t
 c
 =
 pat
@@ -6332,7 +6332,7 @@ i
 )
 ;
 }
-jschar
+char16_t
 c
 =
 text
@@ -6924,18 +6924,18 @@ endif
 }
 static
 const
-jschar
+char16_t
 *
 FirstCharMatcher16bit
 (
 const
-jschar
+char16_t
 *
 text
 uint32_t
 n
 const
-jschar
+char16_t
 pat
 )
 {
@@ -6954,8 +6954,8 @@ XP_WIN
 return
 FirstCharMatcherUnrolled
 <
-jschar
-jschar
+char16_t
+char16_t
 >
 (
 text
@@ -7213,7 +7213,7 @@ TextChar
 FirstCharMatcher16bit
 (
 (
-jschar
+char16_t
 *
 )
 text
@@ -7708,7 +7708,7 @@ patLen
 else
 {
 const
-jschar
+char16_t
 *
 textChars
 =
@@ -7799,7 +7799,7 @@ JSLinearString
 *
 text
 const
-jschar
+char16_t
 *
 pat
 uint32_t
@@ -8732,7 +8732,7 @@ match
 =
 RopeMatchImpl
 <
-jschar
+char16_t
 >
 (
 nogc
@@ -8753,7 +8753,7 @@ match
 =
 RopeMatchImpl
 <
-jschar
+char16_t
 >
 (
 nogc
@@ -9751,7 +9751,7 @@ start
 else
 {
 const
-jschar
+char16_t
 *
 textChars
 =
@@ -9934,7 +9934,7 @@ patLen
 ;
 }
 const
-jschar
+char16_t
 *
 textChars
 =
@@ -11025,7 +11025,7 @@ inline
 bool
 IsRegExpMetaChar
 (
-jschar
+char16_t
 c
 )
 {
@@ -13911,7 +13911,7 @@ ep
 return
 false
 ;
-jschar
+char16_t
 dc
 =
 dp
@@ -14894,7 +14894,7 @@ sizep
 :
 FindReplaceLengthString
 <
-jschar
+char16_t
 >
 (
 cx
@@ -15378,7 +15378,7 @@ rdata
 else
 DoReplace
 <
-jschar
+char16_t
 >
 (
 res
@@ -22065,7 +22065,7 @@ rval
 )
 )
 ;
-jschar
+char16_t
 *
 chars
 =
@@ -22074,7 +22074,7 @@ cx
 >
 pod_malloc
 <
-jschar
+char16_t
 >
 (
 args
@@ -22146,7 +22146,7 @@ chars
 i
 ]
 =
-jschar
+char16_t
 (
 code
 )
@@ -22275,10 +22275,10 @@ return
 true
 ;
 }
-jschar
+char16_t
 c
 =
-jschar
+char16_t
 (
 ucode
 )
@@ -23363,7 +23363,7 @@ toDouble
 {
 static
 const
-jschar
+char16_t
 js_negzero_ucNstr
 [
 ]
@@ -23954,7 +23954,7 @@ len2
 ;
 }
 const
-jschar
+char16_t
 *
 chars1
 =
@@ -24010,7 +24010,7 @@ js
 CompareChars
 (
 const
-jschar
+char16_t
 *
 s1
 size_t
@@ -24322,13 +24322,13 @@ size_t
 js_strlen
 (
 const
-jschar
+char16_t
 *
 s
 )
 {
 const
-jschar
+char16_t
 *
 t
 ;
@@ -24365,11 +24365,11 @@ int32_t
 js_strcmp
 (
 const
-jschar
+char16_t
 *
 lhs
 const
-jschar
+char16_t
 *
 rhs
 )
@@ -24497,7 +24497,7 @@ ret
 }
 UniquePtr
 <
-jschar
+char16_t
 [
 ]
 JS
@@ -24517,7 +24517,7 @@ ThreadSafeContext
 *
 cx
 const
-jschar
+char16_t
 *
 s
 )
@@ -24540,7 +24540,7 @@ cx
 >
 make_pod_array
 <
-jschar
+char16_t
 >
 (
 n
@@ -24583,7 +24583,7 @@ const
 CharT
 *
 s
-jschar
+char16_t
 c
 const
 CharT
@@ -24628,7 +24628,7 @@ const
 Latin1Char
 *
 s
-jschar
+char16_t
 c
 const
 Latin1Char
@@ -24638,23 +24638,23 @@ limit
 ;
 template
 const
-jschar
+char16_t
 *
 js_strchr_limit
 (
 const
-jschar
+char16_t
 *
 s
-jschar
+char16_t
 c
 const
-jschar
+char16_t
 *
 limit
 )
 ;
-jschar
+char16_t
 *
 js
 :
@@ -24676,7 +24676,7 @@ lengthp
 size_t
 nchars
 ;
-jschar
+char16_t
 *
 chars
 ;
@@ -24697,7 +24697,7 @@ cx
 >
 pod_malloc
 <
-jschar
+char16_t
 >
 (
 nchars
@@ -24933,7 +24933,7 @@ JSContext
 *
 maybecx
 const
-jschar
+char16_t
 *
 src
 size_t
@@ -25732,7 +25732,7 @@ HexDigits
 0123456789ABCDEF
 "
 ;
-jschar
+char16_t
 hexBuf
 [
 4
@@ -25770,7 +25770,7 @@ k
 +
 )
 {
-jschar
+char16_t
 c
 =
 chars
@@ -25872,7 +25872,7 @@ length
 return
 Encode_BadUri
 ;
-jschar
+char16_t
 c2
 =
 chars
@@ -26238,7 +26238,7 @@ k
 +
 )
 {
-jschar
+char16_t
 c
 =
 chars
@@ -26345,7 +26345,7 @@ B
 {
 c
 =
-jschar
+char16_t
 (
 B
 )
@@ -26575,7 +26575,7 @@ Decode_BadUri
 ;
 c
 =
-jschar
+char16_t
 (
 (
 v
@@ -26586,10 +26586,10 @@ v
 0xDC00
 )
 ;
-jschar
+char16_t
 H
 =
-jschar
+char16_t
 (
 (
 v
@@ -26619,7 +26619,7 @@ else
 {
 c
 =
-jschar
+char16_t
 (
 v
 )
@@ -27907,7 +27907,7 @@ FILE
 *
 fp
 const
-jschar
+char16_t
 *
 chars
 size_t
@@ -27951,7 +27951,7 @@ buffer
 size_t
 bufferSize
 const
-jschar
+char16_t
 *
 chars
 size_t

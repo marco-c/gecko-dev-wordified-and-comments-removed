@@ -5543,11 +5543,11 @@ nsIPrincipal
 *
 aPrincipal
 const
-jschar
+char16_t
 *
 aBegin
 const
-jschar
+char16_t
 *
 aLimit
 size_t
@@ -5784,11 +5784,11 @@ aPrincipal
 bool
 aInstalled
 const
-jschar
+char16_t
 *
 aBegin
 const
-jschar
+char16_t
 *
 aEnd
 size_t

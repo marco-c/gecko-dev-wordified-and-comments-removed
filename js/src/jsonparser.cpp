@@ -890,7 +890,7 @@ end
 )
 break
 ;
-jschar
+char16_t
 c
 =
 *
@@ -2068,7 +2068,7 @@ inline
 bool
 IsJSONWhitespace
 (
-jschar
+char16_t
 c
 )
 {
@@ -4666,6 +4666,6 @@ js
 :
 JSONParser
 <
-jschar
+char16_t
 >
 ;

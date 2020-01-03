@@ -1453,7 +1453,7 @@ mCurrentScriptProto
 bool
 mOffThreadCompiling
 ;
-jschar
+char16_t
 *
 mOffThreadCompileStringBuf
 ;

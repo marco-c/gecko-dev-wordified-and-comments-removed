@@ -603,7 +603,7 @@ public
 explicit
 CharacterSet
 (
-jschar
+char16_t
 standard_set_type
 )
 :
@@ -644,7 +644,7 @@ LifoAlloc
 alloc
 )
 ;
-jschar
+char16_t
 standard_set_type
 (
 )
@@ -656,7 +656,7 @@ standard_set_type_
 void
 set_standard_set_type
 (
-jschar
+char16_t
 special_set_type
 )
 {
@@ -688,7 +688,7 @@ CharacterRangeVector
 *
 ranges_
 ;
-jschar
+char16_t
 standard_set_type_
 ;
 }
@@ -723,7 +723,7 @@ is_negated
 explicit
 RegExpCharacterClass
 (
-jschar
+char16_t
 type
 )
 :
@@ -832,7 +832,7 @@ LifoAlloc
 alloc
 )
 ;
-jschar
+char16_t
 standard_type
 (
 )
@@ -885,7 +885,7 @@ is_negated_
 typedef
 Vector
 <
-jschar
+char16_t
 10
 LifoAllocPolicy
 <
