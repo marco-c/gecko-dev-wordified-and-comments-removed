@@ -84,7 +84,8 @@ tab
 linkedBrowser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (

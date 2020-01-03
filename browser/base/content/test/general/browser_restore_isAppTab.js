@@ -549,7 +549,8 @@ isRemoteBrowser
 return
 browser
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
