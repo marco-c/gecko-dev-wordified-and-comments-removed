@@ -1367,6 +1367,7 @@ p
 new
 FTPChannelParent
 (
+aBrowser
 loadContext
 overrideStatus
 )
