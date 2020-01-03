@@ -139,6 +139,15 @@ GetActiveTabParent
 (
 )
 {
+if
+(
+sInstalledMenuKeyboardListener
+)
+{
+return
+nullptr
+;
+}
 return
 sActiveTabParent
 .
