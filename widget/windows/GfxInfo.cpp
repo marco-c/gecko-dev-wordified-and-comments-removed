@@ -1073,6 +1073,9 @@ kWindows8
 kWindows8_1
 =
 0x60003
+kWindows10
+=
+0x60004
 }
 ;
 static
