@@ -142,6 +142,11 @@ js
 -
 ext
 .
+jsm
+-
+-
+ext
+.
 jsx
 .
 )

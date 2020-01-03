@@ -919,6 +919,8 @@ get
 pushHandler
 (
 )
+{
+return
 this
 .
 mocks
@@ -927,10 +929,13 @@ pushHandler
 |
 |
 MozLoopPushHandler
+}
 get
 loopServerUri
 (
 )
+{
+return
 Services
 .
 prefs
@@ -943,6 +948,7 @@ loop
 server
 "
 )
+}
 get
 initialRegistrationDelayMilliseconds
 (
@@ -5449,9 +5455,7 @@ error
 if
 (
 typeof
-(
 error
-)
 =
 =
 "
@@ -6808,6 +6812,7 @@ Task
 async
 (
 function
+*
 (
 )
 {
