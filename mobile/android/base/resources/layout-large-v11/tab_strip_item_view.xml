@@ -431,7 +431,7 @@ src
 "
 drawable
 /
-new_tablet_tab_close
+tablet_tab_close
 "
 android
 :
