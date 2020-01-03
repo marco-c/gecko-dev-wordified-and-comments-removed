@@ -3937,6 +3937,11 @@ if
 NeedToDrawShadow
 (
 )
+|
+|
+NeedToApplyFilter
+(
+)
 )
 {
 return
@@ -4825,6 +4830,10 @@ AdjustedTarget
 friend
 class
 AdjustedTargetForShadow
+;
+friend
+class
+AdjustedTargetForFilter
 ;
 void
 GetAppUnitsValues
