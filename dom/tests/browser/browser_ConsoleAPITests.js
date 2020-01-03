@@ -1226,6 +1226,9 @@ gArgs
 =
 [
 {
+columnNumber
+:
+8
 filename
 :
 TEST_URI
@@ -1244,6 +1247,9 @@ lineNumber
 6
 }
 {
+columnNumber
+:
+15
 filename
 :
 TEST_URI
@@ -1260,6 +1266,9 @@ lineNumber
 11
 }
 {
+columnNumber
+:
+15
 filename
 :
 TEST_URI
@@ -1276,6 +1285,9 @@ lineNumber
 15
 }
 {
+columnNumber
+:
+0
 filename
 :
 TEST_URI
