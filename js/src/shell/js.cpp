@@ -6576,8 +6576,10 @@ loadLength
 saveLength
 )
 ;
+return
+false
+;
 }
-else
 if
 (
 !
@@ -6600,6 +6602,9 @@ my_GetErrorMessage
 nullptr
 JSSMSG_CACHE_EQ_CONTENT_FAILED
 )
+;
+return
+false
 ;
 }
 }
