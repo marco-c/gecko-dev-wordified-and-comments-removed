@@ -196,6 +196,7 @@ activeUpdate
 null
 )
 ;
+let
 file
 =
 getUpdatesXMLFile

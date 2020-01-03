@@ -6199,6 +6199,9 @@ close
 if
 (
 text
+&
+&
+text
 [
 text
 .
@@ -6213,6 +6216,7 @@ length
 n
 "
 )
+{
 text
 =
 text
@@ -6224,6 +6228,7 @@ slice
 1
 )
 ;
+}
 return
 text
 ;

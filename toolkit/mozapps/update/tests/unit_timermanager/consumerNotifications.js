@@ -1,3 +1,8 @@
+'
+use
+strict
+'
+;
 const
 Cc
 =
@@ -729,10 +734,10 @@ lastUpdateTime
 }
 ]
 ;
-var
+let
 gUTM
 ;
-var
+let
 gNextFunc
 ;
 XPCOMUtils
@@ -841,7 +846,7 @@ PREF_APP_UPDATE_LOG_ALL
 true
 )
 ;
-var
+let
 entries
 =
 gCatMan
@@ -1132,7 +1137,7 @@ false
 true
 )
 ;
-var
+let
 lastUpdateTime
 =
 Math
@@ -1505,7 +1510,7 @@ false
 true
 )
 ;
-var
+let
 nextUpdateTime
 =
 Math
@@ -1647,6 +1652,7 @@ TESTS
 .
 notified
 )
+{
 do_timeout
 (
 0
@@ -1654,12 +1660,13 @@ gNextFunc
 )
 ;
 }
+}
 function
 check_test1thru7
 (
 )
 {
-dump
+do_print
 (
 "
 Testing
@@ -1675,14 +1682,12 @@ fire
 due
 to
 an
-invalid
 "
 +
 "
+invalid
 default
 interval
-\
-n
 "
 )
 ;
@@ -1696,7 +1701,7 @@ TESTS
 notified
 )
 ;
-dump
+do_print
 (
 "
 Testing
@@ -1717,8 +1722,6 @@ not
 "
 implementing
 nsITimerCallback
-\
-n
 "
 )
 ;
@@ -1732,7 +1735,7 @@ TESTS
 notified
 )
 ;
-dump
+do_print
 (
 "
 Testing
@@ -1758,8 +1761,6 @@ being
 in
 the
 future
-\
-n
 "
 )
 ;
@@ -1773,7 +1774,7 @@ TESTS
 notified
 )
 ;
-dump
+do_print
 (
 "
 Testing
@@ -1796,8 +1797,6 @@ having
 a
 notify
 method
-\
-n
 "
 )
 ;
@@ -1811,7 +1810,7 @@ TESTS
 notified
 )
 ;
-dump
+do_print
 (
 "
 Testing
@@ -1822,8 +1821,6 @@ registered
 timer
 has
 fired
-\
-n
 "
 )
 ;
@@ -1837,7 +1834,7 @@ TESTS
 notified
 )
 ;
-dump
+do_print
 (
 "
 Testing
@@ -1866,8 +1863,6 @@ t
 have
 fired
 yet
-\
-n
 "
 )
 ;
@@ -1881,7 +1876,7 @@ TESTS
 notified
 )
 ;
-dump
+do_print
 (
 "
 Testing
@@ -1910,8 +1905,6 @@ future
 last
 update
 time
-\
-n
 "
 )
 ;
@@ -1925,7 +1918,7 @@ TESTS
 notified
 )
 ;
-dump
+do_print
 (
 "
 Testing
@@ -1943,8 +1936,6 @@ has
 "
 user
 values
-\
-n
 "
 )
 ;
@@ -2038,12 +2029,12 @@ desc
 true
 )
 ;
-var
+let
 count
 =
 0
 ;
-var
+let
 entries
 =
 gCatMan
@@ -2094,7 +2085,7 @@ count
 +
 ;
 }
-dump
+do_print
 (
 "
 Testing
@@ -2112,8 +2103,6 @@ still
 +
 "
 registered
-\
-n
 "
 )
 ;
@@ -2135,13 +2124,9 @@ run_test8
 (
 )
 {
-gNextFunc
-=
-check_test8
-;
 for
 (
-var
+let
 i
 =
 0
@@ -2261,21 +2246,15 @@ defaultInterval
 function
 check_test8
 (
+aTestTimerCallback
 )
 {
-var
-self
-=
-arguments
-.
-callee
-;
-self
+aTestTimerCallback
 .
 timesCalled
 =
 (
-self
+aTestTimerCallback
 .
 timesCalled
 |
@@ -2287,15 +2266,17 @@ timesCalled
 ;
 if
 (
-self
+aTestTimerCallback
 .
 timesCalled
 <
 2
 )
+{
 return
 ;
-dump
+}
+do_print
 (
 "
 Testing
@@ -2306,14 +2287,12 @@ registered
 timers
 have
 fired
-\
-n
 "
 )
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -2326,6 +2305,7 @@ i
 +
 +
 )
+{
 do_check_true
 (
 TESTS
@@ -2338,6 +2318,7 @@ i
 notified
 )
 ;
+}
 do_check_true
 (
 Math
@@ -2367,7 +2348,7 @@ MAIN_TIMER_INTERVAL
 5
 )
 ;
-dump
+do_print
 (
 "
 Testing
@@ -2385,14 +2366,12 @@ have
 "
 been
 updated
-\
-n
 "
 )
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -2405,6 +2384,7 @@ i
 +
 +
 )
+{
 do_check_neq
 (
 gPref
@@ -2425,12 +2405,13 @@ timerID
 1
 )
 ;
+}
 end_test
 (
 )
 ;
 }
-var
+const
 gTest1TimerCallback
 =
 {
@@ -2471,7 +2452,7 @@ nsITimerCallback
 )
 }
 ;
-var
+const
 gTest1Factory
 =
 {
@@ -2490,6 +2471,7 @@ outer
 =
 null
 )
+{
 return
 gTest1TimerCallback
 .
@@ -2498,6 +2480,7 @@ QueryInterface
 iid
 )
 ;
+}
 throw
 Cr
 .
@@ -2506,7 +2489,7 @@ NS_ERROR_NO_AGGREGATION
 }
 }
 ;
-var
+const
 gTest2TimerCallback
 =
 {
@@ -2547,7 +2530,7 @@ nsITimer
 )
 }
 ;
-var
+const
 gTest2Factory
 =
 {
@@ -2566,6 +2549,7 @@ outer
 =
 null
 )
+{
 return
 gTest2TimerCallback
 .
@@ -2574,6 +2558,7 @@ QueryInterface
 iid
 )
 ;
+}
 throw
 Cr
 .
@@ -2582,7 +2567,7 @@ NS_ERROR_NO_AGGREGATION
 }
 }
 ;
-var
+const
 gTest3TimerCallback
 =
 {
@@ -2623,7 +2608,7 @@ nsITimerCallback
 )
 }
 ;
-var
+const
 gTest3Factory
 =
 {
@@ -2642,6 +2627,7 @@ outer
 =
 null
 )
+{
 return
 gTest3TimerCallback
 .
@@ -2650,6 +2636,7 @@ QueryInterface
 iid
 )
 ;
+}
 throw
 Cr
 .
@@ -2658,7 +2645,7 @@ NS_ERROR_NO_AGGREGATION
 }
 }
 ;
-var
+const
 gTest4TimerCallback
 =
 {
@@ -2676,7 +2663,7 @@ nsITimerCallback
 )
 }
 ;
-var
+const
 gTest4Factory
 =
 {
@@ -2695,6 +2682,7 @@ outer
 =
 null
 )
+{
 return
 gTest4TimerCallback
 .
@@ -2703,6 +2691,7 @@ QueryInterface
 iid
 )
 ;
+}
 throw
 Cr
 .
@@ -2711,7 +2700,7 @@ NS_ERROR_NO_AGGREGATION
 }
 }
 ;
-var
+const
 gTest5TimerCallback
 =
 {
@@ -2765,7 +2754,7 @@ nsITimerCallback
 )
 }
 ;
-var
+const
 gTest5Factory
 =
 {
@@ -2784,6 +2773,7 @@ outer
 =
 null
 )
+{
 return
 gTest5TimerCallback
 .
@@ -2792,6 +2782,7 @@ QueryInterface
 iid
 )
 ;
+}
 throw
 Cr
 .
@@ -2800,7 +2791,7 @@ NS_ERROR_NO_AGGREGATION
 }
 }
 ;
-var
+const
 gTest6TimerCallback
 =
 {
@@ -2854,7 +2845,7 @@ nsITimerCallback
 )
 }
 ;
-var
+const
 gTest6Factory
 =
 {
@@ -2873,6 +2864,7 @@ outer
 =
 null
 )
+{
 return
 gTest6TimerCallback
 .
@@ -2881,6 +2873,7 @@ QueryInterface
 iid
 )
 ;
+}
 throw
 Cr
 .
@@ -2889,7 +2882,7 @@ NS_ERROR_NO_AGGREGATION
 }
 }
 ;
-var
+const
 gTest7TimerCallback
 =
 {
@@ -2943,7 +2936,7 @@ nsITimerCallback
 )
 }
 ;
-var
+const
 gTest7Factory
 =
 {
@@ -2962,6 +2955,7 @@ outer
 =
 null
 )
+{
 return
 gTest7TimerCallback
 .
@@ -2970,6 +2964,7 @@ QueryInterface
 iid
 )
 ;
+}
 throw
 Cr
 .
@@ -2978,7 +2973,7 @@ NS_ERROR_NO_AGGREGATION
 }
 }
 ;
-var
+const
 gTest8TimerCallback
 =
 {
@@ -3015,7 +3010,16 @@ now
 do_timeout
 (
 0
+function
+(
+)
+{
 check_test8
+(
+gTest8TimerCallback
+)
+;
+}
 )
 ;
 }
@@ -3033,7 +3037,7 @@ nsITimerCallback
 )
 }
 ;
-var
+const
 gTest8Factory
 =
 {
@@ -3052,6 +3056,7 @@ outer
 =
 null
 )
+{
 return
 gTest8TimerCallback
 .
@@ -3060,6 +3065,7 @@ QueryInterface
 iid
 )
 ;
+}
 throw
 Cr
 .
@@ -3068,7 +3074,7 @@ NS_ERROR_NO_AGGREGATION
 }
 }
 ;
-var
+const
 gTest9TimerCallback
 =
 {
@@ -3105,7 +3111,16 @@ now
 do_timeout
 (
 0
+function
+(
+)
+{
 check_test8
+(
+gTest9TimerCallback
+)
+;
+}
 )
 ;
 }
@@ -3123,7 +3138,7 @@ nsITimerCallback
 )
 }
 ;
-var
+const
 gTest9Factory
 =
 {
@@ -3142,6 +3157,7 @@ outer
 =
 null
 )
+{
 return
 gTest9TimerCallback
 .
@@ -3150,6 +3166,7 @@ QueryInterface
 iid
 )
 ;
+}
 throw
 Cr
 .

@@ -6,8 +6,15 @@ UpdArchD
 "
 let
 gActiveUpdate
-=
-null
+;
+let
+gDirService
+;
+let
+gDirProvider
+;
+let
+gOldProviders
 ;
 function
 FakeDirProvider
