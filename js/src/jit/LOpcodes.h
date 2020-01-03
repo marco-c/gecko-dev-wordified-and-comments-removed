@@ -78,6 +78,11 @@ SimdExtractElementF
 \
 _
 (
+SimdSignMaskX4
+)
+\
+_
+(
 SimdBinaryCompIx4
 )
 \

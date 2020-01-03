@@ -39,6 +39,11 @@ SimdExtractElement
 \
 _
 (
+SimdSignMask
+)
+\
+_
+(
 SimdBinaryComp
 )
 \

@@ -1912,6 +1912,14 @@ ins
 )
 ;
 bool
+visitSimdSignMask
+(
+MSimdSignMask
+*
+ins
+)
+;
+bool
 visitSimdBinaryComp
 (
 MSimdBinaryComp
