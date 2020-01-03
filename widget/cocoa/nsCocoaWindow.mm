@@ -1702,8 +1702,6 @@ height
 /
 Some
 applications
-like
-Camino
 use
 native
 popup

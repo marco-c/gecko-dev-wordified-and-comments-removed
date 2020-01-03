@@ -801,16 +801,6 @@ true
 user_pref
 (
 "
-camino
-.
-warn_when_closing
-"
-false
-)
-;
-user_pref
-(
-"
 urlclassifier
 .
 updateinterval

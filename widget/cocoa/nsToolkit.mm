@@ -1229,10 +1229,6 @@ this
 for
 apps
 that
-(
-like
-Camino
-)
 use
 native
 context
