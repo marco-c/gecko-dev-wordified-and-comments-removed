@@ -1381,13 +1381,14 @@ nsIContent
 aContent
 )
 ;
-uint32_t
-ResolvePositions
+bool
+ResolvePositionsForNode
 (
 nsIContent
 *
 aContent
 uint32_t
+&
 aIndex
 bool
 aInTextPath
