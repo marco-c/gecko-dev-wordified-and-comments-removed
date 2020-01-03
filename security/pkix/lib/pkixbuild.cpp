@@ -115,6 +115,8 @@ stapledOCSPResponse
 unsigned
 int
 subCACount
+Result
+deferredSubjectError
 )
 :
 trustDomain
@@ -144,6 +146,10 @@ stapledOCSPResponse
 subCACount
 (
 subCACount
+)
+deferredSubjectError
+(
+deferredSubjectError
 )
 result
 (
@@ -212,6 +218,10 @@ const
 unsigned
 int
 subCACount
+;
+const
+Result
+deferredSubjectError
 ;
 Result
 RecordResult
@@ -670,6 +680,17 @@ keepGoing
 )
 ;
 }
+if
+(
+deferredSubjectError
+!
+=
+Result
+:
+:
+ERROR_EXPIRED_CERTIFICATE
+)
+{
 CertID
 certID
 (
@@ -724,6 +745,7 @@ rv
 keepGoing
 )
 ;
+}
 }
 return
 RecordResult
@@ -999,6 +1021,7 @@ requiredEKUIfPresent
 requiredPolicy
 stapledOCSPResponse
 subCACount
+deferredEndEntityError
 )
 ;
 rv
