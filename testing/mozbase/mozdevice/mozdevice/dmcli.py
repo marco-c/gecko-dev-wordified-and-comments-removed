@@ -2693,41 +2693,13 @@ process
 pass
             
 elif
-not
 args
 .
 directive
-and
-not
-infoitem
+is
+None
 :
                 
-print
-"
-%
-s
-:
-"
-%
-infokey
-.
-upper
-(
-)
-            
-elif
-not
-args
-.
-directive
-:
-                
-for
-line
-in
-infoitem
-:
-                    
 print
 "
 %
@@ -2743,27 +2715,14 @@ infokey
 upper
 (
 )
-line
+infoitem
 )
             
 else
 :
                 
 print
-"
-%
-s
-"
-%
-"
-\
-n
-"
-.
-join
-(
 infoitem
-)
     
 def
 logcat

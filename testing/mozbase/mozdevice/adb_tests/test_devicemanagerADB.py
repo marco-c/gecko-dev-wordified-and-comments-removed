@@ -1509,6 +1509,8 @@ self
 .
 assertEquals
 (
+type
+(
 self
 .
 dm
@@ -1516,8 +1518,8 @@ dm
 getInfo
 (
 )
-{
-}
+)
+dict
 )
     
 def
