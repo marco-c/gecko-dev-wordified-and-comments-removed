@@ -1461,6 +1461,7 @@ mPrefs
 .
 shouldShowUrl
 (
+mActivity
 )
 |
 |
