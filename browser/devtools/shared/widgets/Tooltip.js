@@ -1787,13 +1787,7 @@ target
 )
 ;
 }
-)
-.
-catch
-(
-(
 reason
-)
 =
 >
 {
