@@ -1557,13 +1557,31 @@ function
 ]
     
 if
-not
 CONFIG
 [
 '
 CLANG_CXX
 '
 ]
+:
+        
+CXXFLAGS
++
+=
+[
+'
+-
+Wno
+-
+inconsistent
+-
+missing
+-
+override
+'
+]
+    
+else
 :
         
 CXXFLAGS
