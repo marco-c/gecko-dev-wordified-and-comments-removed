@@ -1411,6 +1411,12 @@ OP_GROUP2_EvIb
 OP_RET_Iz
 =
 0xC2
+PRE_VEX_C4
+=
+0xC4
+PRE_VEX_C5
+=
+0xC5
 OP_RET
 =
 0xC3
@@ -31689,7 +31695,7 @@ m_buffer
 .
 putByteUnchecked
 (
-0xC5
+PRE_VEX_C5
 )
 ;
 m_buffer
@@ -31731,7 +31737,7 @@ m_buffer
 .
 putByteUnchecked
 (
-0xC4
+PRE_VEX_C4
 )
 ;
 m_buffer
