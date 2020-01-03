@@ -210,6 +210,13 @@ nsPrintfCString
 .
 h
 "
+#
+include
+"
+ComplexTextInputPanel
+.
+h
+"
 using
 namespace
 mozilla
