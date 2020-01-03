@@ -12042,6 +12042,11 @@ needContentRepaint
 =
 false
 ;
+bool
+viewportUpdated
+=
+false
+;
 if
 (
 FuzzyEqualsAdditive
@@ -12113,6 +12118,10 @@ height
 )
 {
 needContentRepaint
+=
+true
+;
+viewportUpdated
 =
 true
 ;
@@ -12292,6 +12301,10 @@ aLayerMetrics
 GetDevPixelsPerCSSPixel
 (
 )
+&
+&
+!
+viewportUpdated
 )
 {
 float
