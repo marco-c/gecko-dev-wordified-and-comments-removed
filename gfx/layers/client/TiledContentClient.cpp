@@ -2876,7 +2876,7 @@ Lock
 OpenMode
 :
 :
-OPEN_WRITE
+OPEN_READ_WRITE
 )
 )
 {
