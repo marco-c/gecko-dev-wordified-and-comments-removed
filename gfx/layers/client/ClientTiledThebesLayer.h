@@ -220,12 +220,10 @@ MOZ_OVERRIDE
 void
 GetAncestorLayers
 (
-Layer
-*
+LayerMetricsWrapper
 *
 aOutScrollAncestor
-Layer
-*
+LayerMetricsWrapper
 *
 aOutDisplayPortAncestor
 )

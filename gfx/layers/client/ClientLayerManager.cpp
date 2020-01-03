@@ -254,6 +254,13 @@ AndroidBridge
 h
 "
 #
+include
+"
+LayerMetricsWrapper
+.
+h
+"
+#
 endif
 namespace
 mozilla
@@ -3016,8 +3023,9 @@ aDrawingCritical
 #
 ifdef
 MOZ_WIDGET_ANDROID
-Layer
-*
+const
+LayerMetricsWrapper
+&
 primaryScrollable
 =
 GetPrimaryScrollableLayer
@@ -3035,9 +3043,8 @@ FrameMetrics
 metrics
 =
 primaryScrollable
--
->
-GetFrameMetrics
+.
+Metrics
 (
 )
 ;

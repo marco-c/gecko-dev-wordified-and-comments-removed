@@ -1104,8 +1104,9 @@ SharedFrameMetricsHelper
 bool
 UpdateFromCompositorFrameMetrics
 (
-Layer
-*
+const
+LayerMetricsWrapper
+&
 aLayer
 bool
 aHasPendingNewThebesContent
