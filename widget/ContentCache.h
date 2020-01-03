@@ -275,6 +275,9 @@ mAnchorCharRect
 LayoutDeviceIntRect
 mFocusCharRect
 ;
+LayoutDeviceIntRect
+mRect
+;
 Selection
 (
 )
@@ -313,6 +316,12 @@ SetEmpty
 )
 ;
 mFocusCharRect
+.
+SetEmpty
+(
+)
+;
+mRect
 .
 SetEmpty
 (
