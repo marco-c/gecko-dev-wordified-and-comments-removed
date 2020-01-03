@@ -591,7 +591,7 @@ SetMinimizePrerollUntilPlaybackStarts
 )
 ;
 void
-UpdateDecodedStream
+UpdateStreamBlockingForPlayState
 (
 )
 ;
