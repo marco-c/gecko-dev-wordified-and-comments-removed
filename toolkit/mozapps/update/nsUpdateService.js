@@ -2710,11 +2710,6 @@ if
 shouldUseService
 (
 )
-&
-&
-isServiceInstalled
-(
-)
 )
 {
 LOG
@@ -3313,11 +3308,6 @@ platform
 "
 win
 "
-&
-&
-isServiceInstalled
-(
-)
 &
 &
 shouldUseService
@@ -4533,6 +4523,11 @@ if
 AppConstants
 .
 MOZ_MAINTENANCE_SERVICE
+&
+&
+isServiceInstalled
+(
+)
 )
 {
 return
@@ -19584,7 +19579,7 @@ is
 not
 equal
 to
-expectd
+expected
 patch
 size
 :
