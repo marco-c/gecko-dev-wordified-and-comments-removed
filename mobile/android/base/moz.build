@@ -1460,6 +1460,11 @@ URLMetadataTable
 java
 '
 '
+DevToolsAuthHelper
+.
+java
+'
+'
 distribution
 /
 Distribution
