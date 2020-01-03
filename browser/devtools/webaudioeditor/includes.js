@@ -311,6 +311,9 @@ jsm
 "
 )
 ;
+let
+AUDIO_NODE_DEFINITION
+;
 const
 {
 defer
