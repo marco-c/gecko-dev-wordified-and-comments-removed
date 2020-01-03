@@ -24854,6 +24854,12 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+nsRefPtr
+<
+ITfDocumentMgr
+>
+prevFocusedDocumentMgr
+;
 if
 (
 ThinksHavingFocus
@@ -24861,12 +24867,6 @@ ThinksHavingFocus
 )
 )
 {
-nsRefPtr
-<
-ITfDocumentMgr
->
-prevFocusedDocumentMgr
-;
 DebugOnly
 <
 HRESULT
