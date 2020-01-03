@@ -206,13 +206,6 @@ aIsRTL
 nscoord
 GetWidth
 (
-char
-aC
-)
-;
-nscoord
-GetWidth
-(
 char16_t
 aC
 )
