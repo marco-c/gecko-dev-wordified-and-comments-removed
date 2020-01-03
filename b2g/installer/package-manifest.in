@@ -1069,13 +1069,6 @@ RESPATH
 /
 components
 /
-dom_push
-.
-xpt
-RESPATH
-/
-components
-/
 dom_quota
 .
 xpt
@@ -3703,7 +3696,7 @@ RESPATH
 /
 components
 /
-PushNotificationService
+PushServiceLauncher
 .
 js
 RESPATH
