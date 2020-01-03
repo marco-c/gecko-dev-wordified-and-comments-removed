@@ -1774,6 +1774,16 @@ l
 )
 :
         
+if
+isinstance
+(
+l
+StrictOrderingOnAppendList
+)
+:
+            
+return
+        
 srtd
 =
 sorted
