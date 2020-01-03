@@ -603,7 +603,7 @@ R
 .
 color
 .
-doorhanger_divider_light
+divider_light
 )
 ;
 }
@@ -628,7 +628,7 @@ R
 .
 color
 .
-doorhanger_divider_dark
+divider_dark
 )
 ;
 setBackgroundColor
