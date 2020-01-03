@@ -6766,6 +6766,11 @@ succeed
 )
 ;
 }
+MOZ_ASSERT
+(
+shape
+)
+;
 if
 (
 desc
@@ -6773,11 +6778,6 @@ desc
 isAccessorDescriptor
 (
 )
-)
-{
-if
-(
-shape
 )
 {
 if
@@ -7022,7 +7022,6 @@ succeed
 )
 ;
 }
-}
 desc
 .
 attributesRef
@@ -7043,11 +7042,6 @@ desc
 hasValue
 (
 )
-)
-{
-if
-(
-shape
 )
 {
 if
@@ -7124,13 +7118,7 @@ false
 }
 }
 }
-}
 else
-{
-if
-(
-shape
-)
 {
 if
 (
@@ -7347,7 +7335,6 @@ slot
 )
 )
 ;
-}
 }
 }
 desc
