@@ -2194,6 +2194,13 @@ cpp
 '
 vm
 /
+ReceiverGuard
+.
+cpp
+'
+'
+vm
+/
 RegExpObject
 .
 cpp

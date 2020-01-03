@@ -41749,9 +41749,6 @@ struct
 Entry
 {
 ReceiverGuard
-:
-:
-StackGuard
 receiver
 ;
 Shape
@@ -41904,9 +41901,7 @@ addReceiver
 (
 const
 ReceiverGuard
-:
-:
-StackGuard
+&
 receiver
 Shape
 *
@@ -41953,9 +41948,6 @@ length
 }
 const
 ReceiverGuard
-:
-:
-StackGuard
 receiver
 (
 size_t
@@ -42131,9 +42123,6 @@ struct
 Entry
 {
 ReceiverGuard
-:
-:
-StackGuard
 receiver
 ;
 Shape
@@ -42235,9 +42224,6 @@ addReceiver
 (
 const
 ReceiverGuard
-:
-:
-StackGuard
 &
 receiver
 Shape
@@ -42285,9 +42271,6 @@ length
 }
 const
 ReceiverGuard
-:
-:
-StackGuard
 &
 receiver
 (
@@ -43738,9 +43721,6 @@ Data
 Vector
 <
 ReceiverGuard
-:
-:
-StackGuard
 4
 JitAllocPolicy
 >
@@ -43829,9 +43809,6 @@ addReceiver
 (
 const
 ReceiverGuard
-:
-:
-StackGuard
 &
 receiver
 )
@@ -43861,9 +43838,6 @@ length
 }
 const
 ReceiverGuard
-:
-:
-StackGuard
 &
 receiver
 (

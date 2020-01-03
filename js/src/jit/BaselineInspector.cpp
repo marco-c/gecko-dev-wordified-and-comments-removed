@@ -403,9 +403,6 @@ AddReceiver
 (
 const
 ReceiverGuard
-:
-:
-StackGuard
 &
 receiver
 BaselineInspector
@@ -556,9 +553,6 @@ next
 )
 {
 ReceiverGuard
-:
-:
-StackGuard
 receiver
 ;
 if
@@ -600,9 +594,6 @@ isSetProp_Native
 receiver
 =
 ReceiverGuard
-:
-:
-StackGuard
 (
 stub
 -
@@ -643,9 +634,6 @@ isGetProp_Unboxed
 receiver
 =
 ReceiverGuard
-:
-:
-StackGuard
 (
 stub
 -
@@ -676,9 +664,6 @@ isSetProp_Unboxed
 receiver
 =
 ReceiverGuard
-:
-:
-StackGuard
 (
 stub
 -
@@ -3019,7 +3004,7 @@ return
 nullptr
 ;
 const
-ReceiverGuard
+HeapReceiverGuard
 &
 guard
 =
