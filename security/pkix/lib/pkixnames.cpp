@@ -41,6 +41,11 @@ der
 :
 CONTEXT_SPECIFIC
 |
+der
+:
+:
+CONSTRUCTED
+|
 0
 rfc822Name
 =
@@ -65,6 +70,11 @@ der
 :
 CONTEXT_SPECIFIC
 |
+der
+:
+:
+CONSTRUCTED
+|
 3
 directoryName
 =
@@ -85,6 +95,11 @@ der
 :
 :
 CONTEXT_SPECIFIC
+|
+der
+:
+:
+CONSTRUCTED
 |
 5
 uniformResourceIdentifier
