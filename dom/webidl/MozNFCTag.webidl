@@ -403,6 +403,14 @@ makeReadOnly
 (
 )
 ;
+[
+Throws
+]
+DOMRequest
+format
+(
+)
+;
 }
 ;
 /
