@@ -4073,6 +4073,12 @@ IsPDFJSEnabled
 (
 )
 ;
+static
+bool
+IsSWFPlayerEnabled
+(
+)
+;
 enum
 ContentViewerType
 {
