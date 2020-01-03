@@ -310,6 +310,7 @@ remove
 (
 double
 start
+unrestricted
 double
 end
 )
