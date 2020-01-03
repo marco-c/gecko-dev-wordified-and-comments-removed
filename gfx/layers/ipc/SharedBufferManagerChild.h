@@ -287,13 +287,6 @@ key
 ;
 #
 endif
-bool
-IsValidKey
-(
-int64_t
-key
-)
-;
 base
 :
 :
