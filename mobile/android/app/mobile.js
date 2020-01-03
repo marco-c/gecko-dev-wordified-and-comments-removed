@@ -2676,7 +2676,7 @@ search
 .
 geoSpecificDefaults
 "
-false
+true
 )
 ;
 pref
