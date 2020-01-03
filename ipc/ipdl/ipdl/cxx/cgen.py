@@ -1270,7 +1270,7 @@ inline
 if
 md
 .
-inline
+never_inline
 :
             
 self
