@@ -806,6 +806,13 @@ nsBorderStyle
 aStyle
 )
 ;
+GdkRectangle
+DevicePixelsToGdkRectRoundOut
+(
+nsIntRect
+rect
+)
+;
 #
 if
 (
@@ -1964,13 +1971,6 @@ DevicePixelsToGdkPointRoundDown
 (
 nsIntPoint
 point
-)
-;
-GdkRectangle
-DevicePixelsToGdkRectRoundOut
-(
-nsIntRect
-rect
 )
 ;
 GdkRectangle
