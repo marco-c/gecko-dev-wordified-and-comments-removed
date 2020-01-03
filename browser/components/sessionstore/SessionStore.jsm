@@ -2649,6 +2649,8 @@ aMessage
 objects
 .
 browser
+.
+permanentKey
 )
 ;
 return
@@ -3396,6 +3398,8 @@ add
 aEvent
 .
 originalTarget
+.
+permanentKey
 )
 ;
 break
@@ -9072,6 +9076,8 @@ _crashedBrowsers
 has
 (
 browser
+.
+permanentKey
 )
 )
 {
