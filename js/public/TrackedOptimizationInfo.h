@@ -1579,14 +1579,6 @@ addr
 ForEachTrackedOptimizationAttemptOp
 &
 op
-JSScript
-*
-*
-scriptOut
-jsbytecode
-*
-*
-pcOut
 )
 ;
 struct
