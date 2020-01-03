@@ -533,13 +533,6 @@ aBuffered
 )
 ;
 }
-void
-SetPreservesPitch
-(
-bool
-aPreservesPitch
-)
-;
 size_t
 SizeOfVideoQueue
 (
@@ -1005,6 +998,11 @@ VolumeChanged
 ;
 void
 LogicalPlaybackRateChanged
+(
+)
+;
+void
+PreservesPitchChanged
 (
 )
 ;
@@ -2256,7 +2254,10 @@ double
 >
 mLogicalPlaybackRate
 ;
+Mirror
+<
 bool
+>
 mPreservesPitch
 ;
 TimeStamp
