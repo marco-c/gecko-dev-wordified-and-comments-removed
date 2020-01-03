@@ -422,8 +422,9 @@ dispatcher
 dispatcher
 mozLoop
 :
-{
-}
+navigator
+.
+mozLoop
 }
 )
 ;
