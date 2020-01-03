@@ -2071,11 +2071,6 @@ metrics
 GetPresShellResolution
 (
 )
-metrics
-.
-GetPresShellResolution
-(
-)
 )
 ;
 CSSSize
@@ -4711,11 +4706,6 @@ utils
 >
 SetResolutionAndScaleTo
 (
-mLastRootMetrics
-.
-GetPresShellResolution
-(
-)
 mLastRootMetrics
 .
 GetPresShellResolution
@@ -10668,7 +10658,7 @@ return
 shell
 -
 >
-GetXResolution
+GetResolution
 (
 )
 ;

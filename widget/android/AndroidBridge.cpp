@@ -8845,8 +8845,6 @@ presShell
 GetCumulativeResolution
 (
 )
-.
-width
 )
 ;
 return

@@ -1108,7 +1108,7 @@ GetPluginRect
 (
 )
 ;
-gfxSize
+float
 resolution
 =
 mPluginFrame
@@ -1134,14 +1134,9 @@ screenSize
 (
 r
 *
-LayoutDeviceToScreenScale2D
+LayoutDeviceToScreenScale
 (
 resolution
-.
-width
-resolution
-.
-height
 )
 )
 .
