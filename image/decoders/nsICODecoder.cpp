@@ -1044,19 +1044,9 @@ colorDepth
 =
 0
 ;
-nsIntSize
-prefSize
-=
-mImage
--
->
-GetRequestedResolution
-(
-)
-;
 if
 (
-prefSize
+mResolution
 .
 width
 =
@@ -1064,7 +1054,7 @@ width
 0
 &
 &
-prefSize
+mResolution
 .
 height
 =
@@ -1072,7 +1062,7 @@ height
 0
 )
 {
-prefSize
+mResolution
 .
 SizeTo
 (
@@ -1253,7 +1243,7 @@ e
 mWidth
 )
 -
-prefSize
+mResolution
 .
 width
 +
@@ -1272,7 +1262,7 @@ e
 mHeight
 )
 -
-prefSize
+mResolution
 .
 height
 ;
