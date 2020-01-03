@@ -7745,6 +7745,7 @@ nsCycleCollectionParticipant
 *
 aCp
 nsCString
+&
 aEdgeName
 )
 {
