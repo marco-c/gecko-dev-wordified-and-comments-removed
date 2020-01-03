@@ -10356,6 +10356,10 @@ aLoadGroup
 principal
 )
 ;
+mAnimationTimeline
+=
+nullptr
+;
 nsCOMPtr
 <
 nsIPropertyBag2
