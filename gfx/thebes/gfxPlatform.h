@@ -1477,12 +1477,6 @@ CanUseDirect3D11
 ;
 static
 bool
-CanUseDXVA
-(
-)
-;
-static
-bool
 BufferRotationEnabled
 (
 )

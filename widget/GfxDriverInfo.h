@@ -215,7 +215,6 @@ NvidiaBlockD3D9Layers
 RadeonX1000
 Geforce7300GT
 Nvidia310M
-AMDRadeonHD5800
 DeviceFamilyMax
 }
 ;
