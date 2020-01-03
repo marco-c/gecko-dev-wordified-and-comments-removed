@@ -1406,8 +1406,8 @@ addExprAndGetNextTemplStrToken
 Node
 nodeList
 TokenKind
-&
-tt
+*
+ttp
 )
 ;
 inline
