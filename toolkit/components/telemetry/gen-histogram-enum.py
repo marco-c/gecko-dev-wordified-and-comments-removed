@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 histogram_tools
 import
@@ -34,18 +38,22 @@ py
 def
 main
 (
-argv
+output
+*
+filenames
 )
 :
     
-filenames
-=
-argv
-    
 print
+(
 banner
+file
+=
+output
+)
     
 print
+(
 "
 enum
 ID
@@ -53,6 +61,10 @@ ID
 uint32_t
 {
 "
+file
+=
+output
+)
     
 groups
 =
@@ -110,11 +122,17 @@ use_counter_group
 :
             
 print
+(
 "
 HistogramFirstUseCounter
 "
+file
+=
+output
+)
             
 print
+(
 "
 HistogramDUMMY1
 =
@@ -122,6 +140,10 @@ HistogramFirstUseCounter
 -
 1
 "
+file
+=
+output
+)
         
 for
 histogram
@@ -142,6 +164,7 @@ cpp_guard
 :
                 
 print
+(
 "
 #
 if
@@ -153,8 +176,13 @@ s
 "
 %
 cpp_guard
+file
+=
+output
+)
             
 print
+(
 "
 %
 s
@@ -165,27 +193,42 @@ histogram
 name
 (
 )
+file
+=
+output
+)
             
 if
 cpp_guard
 :
                 
 print
+(
 "
 #
 endif
 "
+file
+=
+output
+)
         
 if
 use_counter_group
 :
             
 print
+(
 "
 HistogramDUMMY2
 "
+file
+=
+output
+)
             
 print
+(
 "
 HistogramLastUseCounter
 =
@@ -193,17 +236,27 @@ HistogramDUMMY2
 -
 1
 "
+file
+=
+output
+)
     
 print
+(
 "
 HistogramCount
 "
+file
+=
+output
+)
     
 if
 seen_use_counters
 :
         
 print
+(
 "
 HistogramUseCounterCount
 =
@@ -213,24 +266,51 @@ HistogramFirstUseCounter
 +
 1
 "
+file
+=
+output
+)
     
 else
 :
         
 print
+(
 "
 HistogramUseCounterCount
 =
 0
 "
+file
+=
+output
+)
     
 print
+(
 "
 }
 ;
 "
+file
+=
+output
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
 main
 (
+sys
+.
+stdout
+*
 sys
 .
 argv

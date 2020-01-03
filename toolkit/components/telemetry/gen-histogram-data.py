@@ -1,7 +1,7 @@
 from
 __future__
 import
-with_statement
+print_function
 import
 sys
 import
@@ -380,6 +380,7 @@ entries
 def
 print_array_entry
 (
+output
 histogram
 name_index
 exp_index
@@ -399,6 +400,7 @@ cpp_guard
 :
         
 print
+(
 "
 #
 if
@@ -410,8 +412,13 @@ s
 "
 %
 cpp_guard
+file
+=
+output
+)
     
 print
+(
 "
 {
 %
@@ -496,19 +503,29 @@ else
 false
 "
 )
+file
+=
+output
+)
     
 if
 cpp_guard
 :
         
 print
+(
 "
 #
 endif
 "
+file
+=
+output
+)
 def
 write_histogram_table
 (
+output
 histograms
 )
 :
@@ -520,6 +537,7 @@ StringTable
 )
     
 print
+(
 "
 const
 TelemetryHistogram
@@ -529,6 +547,10 @@ gHistograms
 =
 {
 "
+file
+=
+output
+)
     
 for
 histogram
@@ -564,16 +586,22 @@ expiration
         
 print_array_entry
 (
+output
 histogram
 name_index
 exp_index
 )
     
 print
+(
 "
 }
 ;
 "
+file
+=
+output
+)
     
 strtab_name
 =
@@ -585,14 +613,13 @@ table
 .
 writeDefinition
 (
-sys
-.
-stdout
+output
 strtab_name
 )
     
 static_assert
 (
+output
 "
 sizeof
 (
@@ -614,12 +641,14 @@ overflow
 def
 static_assert
 (
+output
 expression
 message
 )
 :
     
 print
+(
 "
 static_assert
 (
@@ -639,9 +668,14 @@ s
 expression
 message
 )
+file
+=
+output
+)
 def
 static_asserts_for_boolean
 (
+output
 histogram
 )
 :
@@ -650,6 +684,7 @@ pass
 def
 static_asserts_for_flag
 (
+output
 histogram
 )
 :
@@ -658,6 +693,7 @@ pass
 def
 static_asserts_for_count
 (
+output
 histogram
 )
 :
@@ -666,6 +702,7 @@ pass
 def
 static_asserts_for_enumerated
 (
+output
 histogram
 )
 :
@@ -680,6 +717,7 @@ high
     
 static_assert
 (
+output
 "
 %
 s
@@ -707,6 +745,7 @@ name
 def
 shared_static_asserts
 (
+output
 histogram
 )
 :
@@ -745,6 +784,7 @@ n_buckets
     
 static_assert
 (
+output
 "
 %
 s
@@ -772,6 +812,7 @@ name
     
 static_assert
 (
+output
 "
 %
 s
@@ -794,6 +835,7 @@ name
     
 static_assert
 (
+output
 "
 %
 s
@@ -817,6 +859,7 @@ name
     
 static_assert
 (
+output
 "
 %
 s
@@ -855,33 +898,39 @@ name
 def
 static_asserts_for_linear
 (
+output
 histogram
 )
 :
     
 shared_static_asserts
 (
+output
 histogram
 )
 def
 static_asserts_for_exponential
 (
+output
 histogram
 )
 :
     
 shared_static_asserts
 (
+output
 histogram
 )
 def
 write_histogram_static_asserts
 (
+output
 histograms
 )
 :
     
 print
+(
 "
 "
 "
@@ -919,6 +968,10 @@ errors
 "
 "
 "
+file
+=
+output
+)
     
 table
 =
@@ -984,12 +1037,14 @@ f
 :
 f
 (
+output
 histogram
 )
 )
 def
 write_debug_histogram_ranges
 (
+output
 histograms
 )
 :
@@ -1000,13 +1055,19 @@ ranges_lengths
 ]
     
 print
+(
 "
 #
 ifdef
 DEBUG
 "
+file
+=
+output
+)
     
 print
+(
 "
 const
 int
@@ -1016,6 +1077,10 @@ gBucketLowerBounds
 =
 {
 "
+file
+=
+output
+)
     
 for
 histogram
@@ -1067,6 +1132,7 @@ ranges
 :
             
 print
+(
 '
 '
 .
@@ -1080,11 +1146,16 @@ ranges
 )
 '
 '
+file
+=
+output
+)
         
 else
 :
             
 print
+(
 '
 /
 *
@@ -1100,14 +1171,24 @@ histogram
 name
 (
 )
+file
+=
+output
+)
     
 print
+(
 "
 }
 ;
 "
+file
+=
+output
+)
     
 print
+(
 "
 struct
 bounds
@@ -1121,8 +1202,13 @@ length
 }
 ;
 "
+file
+=
+output
+)
     
 print
+(
 "
 const
 struct
@@ -1133,6 +1219,10 @@ gBucketLowerBoundIndex
 =
 {
 "
+file
+=
+output
+)
     
 offset
 =
@@ -1166,6 +1256,7 @@ cpp_guard
 :
             
 print
+(
 "
 #
 if
@@ -1177,8 +1268,13 @@ s
 "
 %
 cpp_guard
+file
+=
+output
+)
         
 print
+(
 "
 {
 %
@@ -1192,16 +1288,25 @@ d
 offset
 range_length
 )
+file
+=
+output
+)
         
 if
 cpp_guard
 :
             
 print
+(
 "
 #
 endif
 "
+file
+=
+output
+)
         
 offset
 +
@@ -1209,26 +1314,34 @@ offset
 range_length
     
 print
+(
 "
 }
 ;
 "
+file
+=
+output
+)
     
 print
+(
 "
 #
 endif
 "
+file
+=
+output
+)
 def
 main
 (
-argv
+output
+*
+filenames
 )
 :
-    
-filenames
-=
-argv
     
 histograms
 =
@@ -1243,24 +1356,45 @@ filenames
 )
     
 print
+(
 banner
+file
+=
+output
+)
     
 write_histogram_table
 (
+output
 histograms
 )
     
 write_histogram_static_asserts
 (
+output
 histograms
 )
     
 write_debug_histogram_ranges
 (
+output
 histograms
 )
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
 main
 (
+sys
+.
+stdout
+*
 sys
 .
 argv
