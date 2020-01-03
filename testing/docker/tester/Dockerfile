@@ -248,6 +248,18 @@ npm
 install
 -
 g
+npm
+^
+2
+.
+0
+.
+0
+RUN
+npm
+install
+-
+g
 taskcluster
 -
 vcs
@@ -270,7 +282,7 @@ cache
 .
 1
 .
-12
+14
 RUN
 rm
 -
