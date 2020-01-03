@@ -272,7 +272,17 @@ checkInstalled
 "
 function
 "
+getAdditionalLanguages
+:
+"
+function
+"
 getInstalled
+:
+"
+function
+"
+getLocalizationResource
 :
 "
 function
