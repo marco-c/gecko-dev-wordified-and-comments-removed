@@ -337,13 +337,9 @@ v3
 2
 }
 ;
-SECItem
-*
+ByteString
 CreateEncodedCertificate
 (
-PLArenaPool
-*
-arena
 long
 version
 Input
@@ -524,10 +520,8 @@ signerPrivateKey
 bool
 badSignature
 ;
-SECItem
 const
-*
-const
+ByteString
 *
 certs
 ;
