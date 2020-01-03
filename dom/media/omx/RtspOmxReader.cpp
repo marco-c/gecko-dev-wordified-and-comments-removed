@@ -188,6 +188,10 @@ EnablePlayoutDelay
 )
 ;
 }
+mEnsureActiveFromSeek
+=
+true
+;
 return
 MediaOmxReader
 :
@@ -280,6 +284,10 @@ GetMediaStreamController
 if
 (
 controller
+&
+&
+!
+mEnsureActiveFromSeek
 )
 {
 controller
@@ -290,6 +298,10 @@ Play
 )
 ;
 }
+mEnsureActiveFromSeek
+=
+false
+;
 mRtspResource
 -
 >
