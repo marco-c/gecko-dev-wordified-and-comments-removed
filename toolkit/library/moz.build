@@ -1836,6 +1836,9 @@ wintrust
 '
 wtsapi32
 '
+'
+locationapi
+'
 ]
 if
 CONFIG
