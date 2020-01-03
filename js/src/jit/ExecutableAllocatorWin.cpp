@@ -157,9 +157,11 @@ void
 (
 base
 |
+(
 rand
 &
 mask
+)
 )
 ;
 }
