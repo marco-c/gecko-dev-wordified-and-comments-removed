@@ -1257,7 +1257,7 @@ R
 .
 string
 .
-page_removed
+reading_list_removed
 Toast
 .
 LENGTH_SHORT
