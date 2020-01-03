@@ -909,6 +909,12 @@ GetClipExtents
 )
 ;
 bool
+HasComplexClip
+(
+)
+const
+;
+bool
 ClipContainsRect
 (
 const

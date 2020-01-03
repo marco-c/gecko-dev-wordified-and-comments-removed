@@ -2689,8 +2689,10 @@ mTarget
 mWidget
 -
 >
-EndRemoteDrawing
+EndRemoteDrawingInRegion
 (
+mDrawTarget
+mInvalidRegion
 )
 ;
 }
@@ -3036,8 +3038,10 @@ mTarget
 mWidget
 -
 >
-EndRemoteDrawing
+EndRemoteDrawingInRegion
 (
+mDrawTarget
+mInvalidRegion
 )
 ;
 }

@@ -457,6 +457,11 @@ gfx
 =
 [
 '
+HelpersCairo
+.
+h
+'
+'
 HelpersSkia
 .
 h
