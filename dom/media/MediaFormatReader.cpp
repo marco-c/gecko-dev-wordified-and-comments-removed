@@ -224,9 +224,7 @@ MOZ_LOG
 GetFormatDecoderLog
 (
 )
-PR_LOG_DEBUG
-+
-1
+PR_LOG_VERBOSE
 (
 "
 MediaFormatReader

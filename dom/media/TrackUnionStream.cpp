@@ -1692,9 +1692,7 @@ ticks
 ;
 STREAM_LOG
 (
-PR_LOG_DEBUG
-+
-1
+PR_LOG_VERBOSE
 (
 "
 TrackUnionStream
