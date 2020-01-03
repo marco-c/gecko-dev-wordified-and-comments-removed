@@ -625,7 +625,6 @@ data
 )
 {
 }
-MOZ_IMPLICIT
 RefCountedData
 (
 const
@@ -694,7 +693,6 @@ NULL
 )
 {
 }
-MOZ_IMPLICIT
 scoped_refptr
 (
 T

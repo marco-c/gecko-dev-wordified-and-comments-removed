@@ -312,7 +312,6 @@ ResultExprImpl
 {
 public
 :
-MOZ_IMPLICIT
 TraceResultExprImpl
 (
 uint16_t
@@ -686,7 +685,6 @@ BoolExprImpl
 {
 public
 :
-MOZ_IMPLICIT
 ConstBoolExprImpl
 (
 bool
