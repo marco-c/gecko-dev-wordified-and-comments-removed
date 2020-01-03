@@ -104,6 +104,7 @@ mozilla
 struct
 ResourceItem
 {
+explicit
 ResourceItem
 (
 LargeDataBuffer
