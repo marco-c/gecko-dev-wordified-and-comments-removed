@@ -10,6 +10,13 @@ browser
 junit3
 ;
 import
+android
+.
+test
+.
+InstrumentationTestCase
+;
+import
 org
 .
 mozilla
@@ -24,7 +31,7 @@ public
 class
 TestGeckoBackgroundThread
 extends
-BrowserTestCase
+InstrumentationTestCase
 {
 private
 boolean

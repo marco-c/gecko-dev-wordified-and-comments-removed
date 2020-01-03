@@ -12,6 +12,13 @@ junit3
 harness
 ;
 import
+android
+.
+util
+.
+Log
+;
+import
 junit
 .
 framework
@@ -31,13 +38,6 @@ junit
 framework
 .
 TestListener
-;
-import
-android
-.
-util
-.
-Log
 ;
 public
 class
