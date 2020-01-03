@@ -12184,6 +12184,15 @@ fxa
 /
 sync
 /
+FxAccountProfileService
+.
+java
+'
+'
+fxa
+/
+sync
+/
 FxAccountSchedulePolicy
 .
 java

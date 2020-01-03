@@ -316,6 +316,16 @@ private
 static
 final
 String
+TEST_PROFILE_SERVER_URI
+=
+"
+testProfileServerURI
+"
+;
+private
+static
+final
+String
 TEST_AUTH_SERVER_URI
 =
 "
@@ -759,6 +769,7 @@ TEST_USERNAME
 TEST_PROFILE
 TEST_AUTH_SERVER_URI
 TEST_TOKEN_SERVER_URI
+TEST_PROFILE_SERVER_URI
 state
 AndroidSyncTestCaseWithAccounts
 .
