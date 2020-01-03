@@ -738,11 +738,9 @@ js
 :
 HandleObject
 iterobj
-js
-:
-:
-MutableHandleValue
-rval
+bool
+*
+res
 )
 ;
 extern

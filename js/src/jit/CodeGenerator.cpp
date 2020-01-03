@@ -38375,10 +38375,7 @@ FunctionInfo
 IteratorMoreFn
 >
 (
-jit
-:
-:
-IteratorMore
+js_IteratorMore
 )
 ;
 bool
