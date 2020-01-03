@@ -87,9 +87,9 @@ eeeeee
 ;
 }
 .
-sans
+clear
 -
-serif
+sans
 {
 font
 -
@@ -101,7 +101,9 @@ serif
 ;
 }
 .
-serif
+charis
+-
+sil
 {
 font
 -
@@ -411,6 +413,8 @@ font
 -
 size1
 >
+body
+>
 .
 header
 >
@@ -427,6 +431,8 @@ size
 font
 -
 size2
+>
+body
 >
 .
 header
@@ -445,6 +451,8 @@ font
 -
 size3
 >
+body
+>
 .
 header
 >
@@ -461,6 +469,8 @@ size
 font
 -
 size4
+>
+body
 >
 .
 header
@@ -479,6 +489,8 @@ font
 -
 size5
 >
+body
+>
 .
 header
 >
@@ -496,6 +508,8 @@ font
 -
 size1
 >
+body
+>
 .
 content
 .
@@ -509,6 +523,8 @@ font
 -
 size1
 >
+body
+>
 .
 content
 figcaption
@@ -516,6 +532,8 @@ figcaption
 font
 -
 size1
+>
+body
 >
 .
 header
@@ -526,6 +544,8 @@ domain
 font
 -
 size1
+>
+body
 >
 .
 header
@@ -545,6 +565,8 @@ font
 -
 size2
 >
+body
+>
 .
 content
 .
@@ -558,6 +580,8 @@ font
 -
 size2
 >
+body
+>
 .
 content
 figcaption
@@ -565,6 +589,8 @@ figcaption
 font
 -
 size2
+>
+body
 >
 .
 header
@@ -575,6 +601,8 @@ domain
 font
 -
 size2
+>
+body
 >
 .
 header
@@ -594,6 +622,8 @@ font
 -
 size3
 >
+body
+>
 .
 content
 .
@@ -607,6 +637,8 @@ font
 -
 size3
 >
+body
+>
 .
 content
 figcaption
@@ -614,6 +646,8 @@ figcaption
 font
 -
 size3
+>
+body
 >
 .
 header
@@ -624,6 +658,8 @@ domain
 font
 -
 size3
+>
+body
 >
 .
 header
@@ -643,6 +679,8 @@ font
 -
 size4
 >
+body
+>
 .
 content
 .
@@ -656,6 +694,8 @@ font
 -
 size4
 >
+body
+>
 .
 content
 figcaption
@@ -663,6 +703,8 @@ figcaption
 font
 -
 size4
+>
+body
 >
 .
 header
@@ -673,6 +715,8 @@ domain
 font
 -
 size4
+>
+body
 >
 .
 header
@@ -692,6 +736,8 @@ font
 -
 size5
 >
+body
+>
 .
 content
 .
@@ -705,6 +751,8 @@ font
 -
 size5
 >
+body
+>
 .
 content
 figcaption
@@ -712,6 +760,8 @@ figcaption
 font
 -
 size5
+>
+body
 >
 .
 header
@@ -722,6 +772,8 @@ domain
 font
 -
 size5
+>
+body
 >
 .
 header
@@ -1347,6 +1399,8 @@ font
 -
 size1
 >
+body
+>
 .
 content
 {
@@ -1369,6 +1423,8 @@ sample
 font
 -
 size2
+>
+body
 >
 .
 content
@@ -1393,6 +1449,8 @@ font
 -
 size3
 >
+body
+>
 .
 content
 {
@@ -1416,6 +1474,8 @@ font
 -
 size4
 >
+body
+>
 .
 content
 {
@@ -1438,6 +1498,8 @@ sample
 font
 -
 size5
+>
+body
 >
 .
 content
@@ -2241,6 +2303,20 @@ font
 size
 :
 12px
+;
+}
+.
+close
+-
+button
+.
+list
+-
+button
+{
+display
+:
+none
 ;
 }
 .
