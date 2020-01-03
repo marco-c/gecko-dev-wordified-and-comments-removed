@@ -1281,7 +1281,10 @@ mParams
 Set
 (
 CAMERA_PARAM_METERINGMODE
-kCenterWeighted
+modes
+[
+i
+]
 )
 ;
 PushParametersImpl
