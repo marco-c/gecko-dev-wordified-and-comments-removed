@@ -68,6 +68,8 @@ check_output
 [
 hg
 '
+-
+-
 version
 '
 ]
