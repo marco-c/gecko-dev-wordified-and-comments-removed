@@ -152,6 +152,14 @@ mList
 (
 nullptr
 )
+mWidth
+(
+0
+)
+mHeight
+(
+0
+)
 mEnabledCallback
 (
 nullptr
@@ -486,8 +494,9 @@ mList
 hwc_display_contents_1_t
 *
 )
-malloc
+calloc
 (
+1
 sizeof
 (
 *
