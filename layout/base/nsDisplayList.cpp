@@ -4369,8 +4369,8 @@ GetScrollTargetFrame
 ;
 metrics
 .
-mScrollableRect
-=
+SetScrollableRect
+(
 CSSRect
 :
 :
@@ -4383,6 +4383,7 @@ CalculateScrollableRectForFrame
 (
 scrollableFrame
 aForFrame
+)
 )
 )
 ;

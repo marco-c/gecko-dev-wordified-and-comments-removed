@@ -1404,7 +1404,9 @@ Intersect
 (
 aContentMetrics
 .
-mScrollableRect
+GetScrollableRect
+(
+)
 )
 ;
 showing
@@ -1415,7 +1417,9 @@ Intersect
 (
 aContentMetrics
 .
-mScrollableRect
+GetScrollableRect
+(
+)
 )
 ;
 if

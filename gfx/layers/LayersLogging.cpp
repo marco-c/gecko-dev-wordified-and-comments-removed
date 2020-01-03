@@ -1058,7 +1058,9 @@ AppendToString
 aStream
 m
 .
-mScrollableRect
+GetScrollableRect
+(
+)
 "
 ]
 [
