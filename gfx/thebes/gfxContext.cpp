@@ -156,12 +156,12 @@ gfxContext
 sDontUseAsSourceKey
 ;
 class
-GeneralPattern
+PatternFromState
 {
 public
 :
 explicit
-GeneralPattern
+PatternFromState
 (
 gfxContext
 *
@@ -179,7 +179,7 @@ nullptr
 {
 }
 ~
-GeneralPattern
+PatternFromState
 (
 )
 {
@@ -1330,7 +1330,7 @@ mDT
 StrokeRect
 (
 mRect
-GeneralPattern
+PatternFromState
 (
 this
 )
@@ -1364,7 +1364,7 @@ mDT
 Stroke
 (
 mPath
-GeneralPattern
+PatternFromState
 (
 this
 )
@@ -4553,7 +4553,7 @@ mDT
 >
 MaskSurface
 (
-GeneralPattern
+PatternFromState
 (
 this
 )
@@ -4702,7 +4702,7 @@ mDT
 >
 MaskSurface
 (
-GeneralPattern
+PatternFromState
 (
 this
 )
@@ -4964,7 +4964,7 @@ mDT
 FillRect
 (
 paintRect
-GeneralPattern
+PatternFromState
 (
 this
 )
@@ -6597,7 +6597,7 @@ mDT
 FillRect
 (
 mRect
-GeneralPattern
+PatternFromState
 (
 this
 )
@@ -6616,7 +6616,7 @@ mDT
 FillRect
 (
 mRect
-GeneralPattern
+PatternFromState
 (
 this
 )
@@ -6663,7 +6663,7 @@ mDT
 Fill
 (
 mPath
-GeneralPattern
+PatternFromState
 (
 this
 )

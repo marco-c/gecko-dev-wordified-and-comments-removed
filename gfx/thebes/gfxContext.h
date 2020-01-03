@@ -1213,7 +1213,7 @@ gfxContext
 ;
 friend
 class
-GeneralPattern
+PatternFromState
 ;
 friend
 class
