@@ -183,9 +183,6 @@ TEST_DIRS
 tests
 '
 '
-sample
-'
-'
 typelib
 /
 xpt
