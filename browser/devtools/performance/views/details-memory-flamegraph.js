@@ -448,11 +448,11 @@ getAllocations
 )
 ;
 let
-samples
+thread
 =
 RecordingUtils
 .
-getSamplesFromAllocations
+getProfileThreadFromAllocations
 (
 allocations
 )
@@ -461,7 +461,7 @@ FlameGraphUtils
 .
 removeFromCache
 (
-samples
+thread
 )
 ;
 }

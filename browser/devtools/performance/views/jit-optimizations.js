@@ -588,9 +588,7 @@ getOptimizations
 (
 )
 .
-getOptimizationSites
-(
-)
+optimizationSites
 ;
 for
 (
@@ -903,7 +901,7 @@ of
 (
 ionType
 .
-types
+typeset
 |
 |
 [
