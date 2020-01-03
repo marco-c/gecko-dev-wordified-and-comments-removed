@@ -169,8 +169,6 @@ ResetDirectionSetByTextNode
 nsTextNode
 *
 aTextNode
-bool
-aNullParent
 )
 ;
 void
