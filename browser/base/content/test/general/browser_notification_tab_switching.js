@@ -67,7 +67,10 @@ pm
 .
 remove
 (
+makeURI
+(
 notificationURL
+)
 "
 desktop
 -

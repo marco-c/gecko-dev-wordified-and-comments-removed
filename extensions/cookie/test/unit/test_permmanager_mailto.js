@@ -80,7 +80,7 @@ perms
 .
 remove
 (
-kTestAddr
+uri
 kType
 )
 ;
@@ -139,7 +139,7 @@ perms
 .
 remove
 (
-kTestAddr
+uri
 kType
 )
 ;
