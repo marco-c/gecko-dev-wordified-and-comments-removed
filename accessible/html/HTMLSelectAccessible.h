@@ -67,12 +67,14 @@ bool
 SelectAll
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 UnselectAll
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -80,6 +82,7 @@ IsWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -87,6 +90,7 @@ IsActiveWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -94,6 +98,7 @@ AreItemsOperable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -101,6 +106,7 @@ Accessible
 CurrentItem
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -110,6 +116,7 @@ Accessible
 *
 aItem
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -118,6 +125,7 @@ void
 CacheChildren
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -183,6 +191,7 @@ int32_t
 GetLevelInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRect
@@ -240,6 +249,7 @@ ContainerWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -542,6 +552,7 @@ void
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -551,6 +562,7 @@ nsString
 &
 aDescription
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -560,6 +572,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -583,6 +596,7 @@ void
 InvalidateChildren
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint8_t
@@ -618,6 +632,7 @@ IsWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -625,6 +640,7 @@ IsActiveWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -632,6 +648,7 @@ AreItemsOperable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -639,6 +656,7 @@ Accessible
 CurrentItem
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -648,6 +666,7 @@ Accessible
 *
 aItem
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -656,6 +675,7 @@ void
 CacheChildren
 (
 )
+MOZ_OVERRIDE
 ;
 Accessible
 *
@@ -709,6 +729,7 @@ GetFrame
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -745,6 +766,7 @@ IsActiveWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -752,6 +774,7 @@ AreItemsOperable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 }
 ;

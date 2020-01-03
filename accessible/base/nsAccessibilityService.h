@@ -177,6 +177,7 @@ aPresShell
 bool
 aCanCreate
 )
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <
@@ -204,6 +205,7 @@ void
 *
 aAtkAccessible
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -213,6 +215,7 @@ Accessible
 *
 aRootAccessible
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -381,6 +384,7 @@ Accessible
 *
 aTarget
 )
+MOZ_OVERRIDE
 ;
 static
 bool

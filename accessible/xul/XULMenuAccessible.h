@@ -64,6 +64,7 @@ nsString
 &
 aDescription
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -95,12 +96,14 @@ int32_t
 GetLevelInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 CanHaveAnonChildren
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint8_t
@@ -136,6 +139,7 @@ AccessKey
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 KeyBinding
@@ -143,6 +147,7 @@ KeyboardShortcut
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -150,6 +155,7 @@ IsActiveWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -157,6 +163,7 @@ AreItemsOperable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -165,6 +172,7 @@ ContainerWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -298,6 +306,7 @@ IsWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -305,6 +314,7 @@ IsActiveWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -312,6 +322,7 @@ AreItemsOperable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -320,6 +331,7 @@ ContainerWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -369,6 +381,7 @@ IsActiveWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -376,6 +389,7 @@ AreItemsOperable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -383,6 +397,7 @@ Accessible
 CurrentItem
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -392,6 +407,7 @@ Accessible
 *
 aItem
 )
+MOZ_OVERRIDE
 ;
 protected
 :

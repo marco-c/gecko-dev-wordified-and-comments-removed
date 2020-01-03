@@ -66,6 +66,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -134,6 +135,7 @@ IsWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -175,6 +177,7 @@ role
 NativeRole
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint8_t
@@ -217,6 +220,7 @@ IsWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 }
 ;

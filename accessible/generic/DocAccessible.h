@@ -176,6 +176,7 @@ aX
 nscoord
 aY
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -187,6 +188,7 @@ aX
 nscoord
 aY
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_NSIDOCUMENTOBSERVER
 virtual
@@ -200,6 +202,7 @@ void
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -208,6 +211,7 @@ GetFrame
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsINode
@@ -216,6 +220,7 @@ GetNode
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mDocumentNode
@@ -246,6 +251,7 @@ nsString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -255,6 +261,7 @@ nsString
 &
 aDescription
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -262,6 +269,7 @@ Accessible
 FocusedChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -297,6 +305,7 @@ NativelyUnavailable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -307,6 +316,7 @@ uint64_t
 aState
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -316,6 +326,7 @@ nsIPersistentProperties
 Attributes
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -335,6 +346,7 @@ AccEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -359,6 +371,7 @@ GetEditor
 (
 )
 const
+MOZ_OVERRIDE
 ;
 void
 URL
@@ -951,6 +964,7 @@ void
 CacheChildren
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

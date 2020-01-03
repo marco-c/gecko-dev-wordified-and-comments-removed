@@ -64,6 +64,7 @@ TableCellAccessible
 AsTableCell
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -340,6 +341,7 @@ Caption
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -349,18 +351,21 @@ nsString
 &
 aSummary
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 ColCount
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 RowCount
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -372,6 +377,7 @@ aRowIndex
 uint32_t
 aColumnIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -382,6 +388,7 @@ aRowIdx
 uint32_t
 aColIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -390,6 +397,7 @@ ColIndexAt
 uint32_t
 aCellIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -398,6 +406,7 @@ RowIndexAt
 uint32_t
 aCellIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -412,6 +421,7 @@ int32_t
 *
 aColIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
@@ -422,6 +432,7 @@ aRowIdx
 uint32_t
 aColIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
@@ -432,6 +443,7 @@ aRowIdx
 uint32_t
 aColIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -440,6 +452,7 @@ IsColSelected
 uint32_t
 aColIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -448,6 +461,7 @@ IsRowSelected
 uint32_t
 aRowIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -458,24 +472,28 @@ aRowIdx
 uint32_t
 aColIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 SelectedCellCount
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 SelectedColCount
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 SelectedRowCount
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -489,6 +507,7 @@ Accessible
 *
 aCells
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -501,6 +520,7 @@ uint32_t
 *
 aCells
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -513,6 +533,7 @@ uint32_t
 *
 aCols
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -525,6 +546,7 @@ uint32_t
 *
 aRows
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -533,6 +555,7 @@ SelectCol
 uint32_t
 aColIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -541,6 +564,7 @@ SelectRow
 uint32_t
 aRowIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -549,6 +573,7 @@ UnselectCol
 uint32_t
 aColIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -557,12 +582,14 @@ UnselectRow
 uint32_t
 aRowIdx
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsProbablyLayoutTable
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -570,6 +597,7 @@ Accessible
 AsAccessible
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -581,6 +609,7 @@ TableAccessible
 AsTable
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -594,6 +623,7 @@ nsString
 &
 aDescription
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -655,6 +685,7 @@ void
 CacheChildren
 (
 )
+MOZ_OVERRIDE
 ;
 nsresult
 AddRowOrColumnToSelection

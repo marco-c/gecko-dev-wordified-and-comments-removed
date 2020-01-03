@@ -50,6 +50,7 @@ void
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -262,6 +263,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -314,18 +316,21 @@ bool
 IsLink
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 StartOffset
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 EndOffset
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -337,6 +342,7 @@ AnchorURIAt
 uint32_t
 aAnchorIndex
 )
+MOZ_OVERRIDE
 ;
 protected
 :

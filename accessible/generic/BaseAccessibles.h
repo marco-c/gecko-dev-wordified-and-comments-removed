@@ -58,6 +58,7 @@ aY
 EWhichChildAtPoint
 aWhichChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -97,6 +98,7 @@ void
 CacheChildren
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -192,6 +194,7 @@ AccessKey
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -203,6 +206,7 @@ AnchorURIAt
 uint32_t
 aAnchorIndex
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -223,12 +227,14 @@ aParent
 uint32_t
 aIndexInParent
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 UnbindFromParent
 (
 )
+MOZ_OVERRIDE
 ;
 Accessible
 *

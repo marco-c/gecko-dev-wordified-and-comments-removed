@@ -110,6 +110,7 @@ void
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIntRect
@@ -168,6 +169,7 @@ void
 CacheChildren
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -211,6 +213,7 @@ GetFrame
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 ENameValueFlag
@@ -220,6 +223,7 @@ nsString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -254,6 +258,7 @@ aLength
 =
 UINT32_MAX
 )
+MOZ_OVERRIDE
 ;
 bool
 IsInside

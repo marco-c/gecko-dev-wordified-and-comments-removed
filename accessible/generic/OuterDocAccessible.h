@@ -42,6 +42,7 @@ void
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -68,12 +69,14 @@ aY
 EWhichChildAtPoint
 aWhichChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 InvalidateChildren
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -95,6 +98,7 @@ Accessible
 *
 aAccessible
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -103,12 +107,14 @@ virtual
 OuterDocAccessible
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 CacheChildren
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

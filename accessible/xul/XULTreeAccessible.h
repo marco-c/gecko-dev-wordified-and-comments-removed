@@ -88,6 +88,7 @@ void
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -97,6 +98,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -127,6 +129,7 @@ aY
 EWhichChildAtPoint
 aWhichChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -175,6 +178,7 @@ uint32_t
 SelectedItemCount
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -184,6 +188,7 @@ GetSelectedItem
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -192,6 +197,7 @@ IsItemSelected
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -200,6 +206,7 @@ AddItemToSelection
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -208,18 +215,21 @@ RemoveItemFromSelection
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 SelectAll
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 UnselectAll
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -227,6 +237,7 @@ IsWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -234,6 +245,7 @@ IsActiveWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -241,6 +253,7 @@ AreItemsOperable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -248,6 +261,7 @@ Accessible
 CurrentItem
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -257,6 +271,7 @@ Accessible
 *
 aItem
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -265,6 +280,7 @@ ContainerWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 Accessible
 *
@@ -526,6 +542,7 @@ ContainerWidget
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
@@ -596,6 +613,7 @@ aContent
 uint32_t
 aActionIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible
@@ -611,6 +629,7 @@ aError
 nullptr
 )
 const
+MOZ_OVERRIDE
 ;
 bool
 IsExpandable
@@ -688,6 +707,7 @@ void
 Shutdown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 ENameValueFlag
@@ -697,6 +717,7 @@ nsString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
@@ -717,6 +738,7 @@ aStartColIdx
 int32_t
 aEndColIdx
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -731,6 +753,7 @@ void
 CacheChildren
 (
 )
+MOZ_OVERRIDE
 ;
 nsCOMPtr
 <

@@ -139,6 +139,7 @@ nsString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 a11y
