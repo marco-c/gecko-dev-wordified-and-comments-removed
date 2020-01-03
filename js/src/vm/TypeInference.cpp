@@ -18764,12 +18764,6 @@ PlainObject
 (
 cx
 groupRoot
-cx
--
->
-global
-(
-)
 kind
 MaybeSingletonObject
 )

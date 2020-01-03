@@ -3874,8 +3874,6 @@ ExclusiveContext
 cx
 HandleObjectGroup
 group
-HandleObject
-parent
 gc
 :
 :
@@ -3900,8 +3898,6 @@ ExclusiveContext
 cx
 HandleObjectGroup
 group
-HandleObject
-parent
 gc
 :
 :
@@ -3921,7 +3917,6 @@ NewObjectWithGroupCommon
 (
 cx
 group
-parent
 allocKind
 newKind
 )
@@ -3958,8 +3953,6 @@ ExclusiveContext
 cx
 HandleObjectGroup
 group
-HandleObject
-parent
 NewObjectKind
 newKind
 =
@@ -3993,7 +3986,6 @@ T
 (
 cx
 group
-parent
 allocKind
 newKind
 )

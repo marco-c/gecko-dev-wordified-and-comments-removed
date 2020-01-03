@@ -17125,12 +17125,6 @@ clone
 CloneObjectLiteral
 (
 cx
-cx
--
->
-global
-(
-)
 obj
 )
 ;

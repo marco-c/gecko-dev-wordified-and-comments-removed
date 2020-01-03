@@ -3345,12 +3345,6 @@ PlainObject
 (
 cx
 ngroup
-cx
--
->
-global
-(
-)
 allocKind
 newKind
 )
