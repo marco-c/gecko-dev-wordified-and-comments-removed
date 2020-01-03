@@ -554,6 +554,7 @@ char16_t
 *
 aData
 )
+MOZ_OVERRIDE
 {
 mTopicReceived
 =
@@ -1640,6 +1641,7 @@ char16_t
 *
 aData
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <

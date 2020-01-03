@@ -255,6 +255,7 @@ char16_t
 *
 aData
 )
+MOZ_OVERRIDE
 {
 mVisits
 +
@@ -1056,6 +1057,7 @@ char16_t
 *
 aData
 )
+MOZ_OVERRIDE
 {
 do_check_false
 (

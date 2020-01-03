@@ -1804,6 +1804,7 @@ nsISupports
 *
 aStatement
 )
+MOZ_OVERRIDE
 {
 NS_ENSURE_SUCCESS
 (
@@ -1873,6 +1874,7 @@ mozIStorageResultSet
 *
 aResults
 )
+MOZ_OVERRIDE
 {
 mIsVisited
 =
@@ -1889,6 +1891,7 @@ mozIStorageError
 *
 aError
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -1900,6 +1903,7 @@ HandleCompletion
 uint16_t
 aReason
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -5753,6 +5757,7 @@ mozIPlaceInfo
 *
 aPlaceInfo
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -5765,6 +5770,7 @@ mozIPlaceInfo
 *
 aPlaceInfo
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <
@@ -5996,6 +6002,7 @@ NS_IMETHOD
 HandleCompletion
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -8289,6 +8296,7 @@ nsISupports
 *
 aConnection
 )
+MOZ_OVERRIDE
 {
 if
 (

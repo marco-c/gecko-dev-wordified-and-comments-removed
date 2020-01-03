@@ -92,6 +92,7 @@ HandleResult
 mozIStorageResultSet
 *
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -99,6 +100,7 @@ HandleCompletion
 (
 uint16_t
 )
+MOZ_OVERRIDE
 ;
 class
 URIBinder
