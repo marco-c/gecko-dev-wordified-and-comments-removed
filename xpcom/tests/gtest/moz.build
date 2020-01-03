@@ -143,11 +143,6 @@ TestSynchronization
 cpp
 '
 '
-TestThreadPool
-.
-cpp
-'
-'
 TestTimeStamp
 .
 cpp
