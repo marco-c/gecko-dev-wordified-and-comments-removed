@@ -1996,10 +1996,6 @@ mChunk
 forget
 (
 )
-.
-take
-(
-)
 )
 ;
 }

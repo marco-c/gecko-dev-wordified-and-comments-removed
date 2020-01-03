@@ -1592,10 +1592,6 @@ mChunk
 forget
 (
 )
-.
-take
-(
-)
 )
 ;
 }
