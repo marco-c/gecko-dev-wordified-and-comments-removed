@@ -866,6 +866,16 @@ Handler
 (
 )
 ;
+ThreadUtils
+.
+sGeckoQueue
+=
+Looper
+.
+myQueue
+(
+)
+;
 if
 (
 mDebugging
