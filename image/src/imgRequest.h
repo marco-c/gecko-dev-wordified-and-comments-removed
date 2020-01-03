@@ -434,6 +434,11 @@ ResetCacheEntry
 (
 )
 ;
+void
+UpdateCacheEntrySize
+(
+)
+;
 nsresult
 GetURI
 (
@@ -575,11 +580,6 @@ HasCacheEntry
 (
 )
 const
-;
-void
-UpdateCacheEntrySize
-(
-)
 ;
 int32_t
 Priority

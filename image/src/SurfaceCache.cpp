@@ -619,7 +619,7 @@ aCachedSurface
 mSurface
 -
 >
-SizeOfExcludingThis
+SizeOfExcludingThisWithComputedFallbackIfHeap
 (
 mLocation
 mMallocSizeOf
