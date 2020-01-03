@@ -123,6 +123,11 @@ storage
 js
 '
 '
+framerate
+.
+js
+'
+'
 worker
 -
 helper
