@@ -486,14 +486,6 @@ aRunnable
 #
 ifndef
 MOZ_B2G_BT_API_V1
-virtual
-bool
-IsConnected
-(
-uint16_t
-aProfileId
-)
-;
 #
 else
 virtual

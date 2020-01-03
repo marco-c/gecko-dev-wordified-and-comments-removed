@@ -496,15 +496,6 @@ override
 #
 ifndef
 MOZ_B2G_BT_API_V1
-virtual
-bool
-IsConnected
-(
-uint16_t
-aServiceUuid
-)
-override
-;
 #
 else
 virtual

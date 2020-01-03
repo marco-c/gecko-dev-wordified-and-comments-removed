@@ -396,15 +396,6 @@ aRunnable
 override
 ;
 virtual
-bool
-IsConnected
-(
-uint16_t
-aServiceUuid
-)
-override
-;
-virtual
 void
 SendFile
 (
