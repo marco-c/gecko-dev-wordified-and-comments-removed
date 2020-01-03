@@ -170,8 +170,6 @@ CertVerifier
 :
 PinningMode
 pinningMode
-bool
-forEV
 const
 char
 *
@@ -470,11 +468,6 @@ CertVerifier
 :
 PinningMode
 mPinningMode
-;
-const
-unsigned
-int
-mMinimumNonECCBits
 ;
 const
 char

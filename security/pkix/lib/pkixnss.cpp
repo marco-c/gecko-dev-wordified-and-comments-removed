@@ -84,9 +84,6 @@ CheckPublicKeySize
 (
 Input
 subjectPublicKeyInfo
-unsigned
-int
-minimumNonECCBits
 ScopedSECKeyPublicKey
 &
 publicKey
@@ -155,6 +152,14 @@ PR_GetError
 )
 ;
 }
+static
+const
+unsigned
+int
+MINIMUM_NON_ECC_BITS
+=
+1024
+;
 switch
 (
 publicKey
@@ -190,7 +195,7 @@ get
 )
 )
 <
-minimumNonECCBits
+MINIMUM_NON_ECC_BITS
 )
 {
 return
@@ -238,9 +243,6 @@ CheckPublicKey
 (
 Input
 subjectPublicKeyInfo
-unsigned
-int
-minimumNonECCBits
 )
 {
 ScopedSECKeyPublicKey
@@ -250,7 +252,6 @@ return
 CheckPublicKeySize
 (
 subjectPublicKeyInfo
-minimumNonECCBits
 unused
 )
 ;
@@ -264,9 +265,6 @@ SignedDataWithSignature
 sd
 Input
 subjectPublicKeyInfo
-unsigned
-int
-minimumNonECCBits
 void
 *
 pkcs11PinArg
@@ -480,7 +478,6 @@ rv
 CheckPublicKeySize
 (
 subjectPublicKeyInfo
-minimumNonECCBits
 pubKey
 )
 ;

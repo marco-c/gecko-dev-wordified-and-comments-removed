@@ -952,7 +952,6 @@ return
 CheckPublicKey
 (
 subjectPublicKeyInfo
-MINIMUM_TEST_KEY_BITS
 )
 ;
 }
@@ -976,7 +975,6 @@ VerifySignedData
 (
 signedData
 subjectPublicKeyInfo
-MINIMUM_TEST_KEY_BITS
 nullptr
 )
 ;
