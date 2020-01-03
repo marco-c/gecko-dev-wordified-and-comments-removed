@@ -5357,13 +5357,6 @@ components
 dom_datastore
 .
 xpt
-RESPATH
-/
-components
-/
-dom_audiochannel
-.
-xpt
 ;
 Shutdown
 Terminator
