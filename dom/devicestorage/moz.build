@@ -147,11 +147,6 @@ DeviceStorageRequestParent
 .
 h
 '
-'
-DeviceStorageStatics
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -169,11 +164,6 @@ cpp
 '
 '
 DeviceStorageRequestParent
-.
-cpp
-'
-'
-DeviceStorageStatics
 .
 cpp
 '
