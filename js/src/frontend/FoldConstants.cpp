@@ -408,6 +408,9 @@ case
 PNK_EXPORT_FROM
 :
 case
+PNK_EXPORT_DEFAULT
+:
+case
 PNK_EXPORT_SPEC_LIST
 :
 case
