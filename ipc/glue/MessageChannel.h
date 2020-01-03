@@ -267,7 +267,7 @@ abort
 {
 mAbortOnError
 =
-true
+abort
 ;
 }
 enum
