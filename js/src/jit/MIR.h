@@ -36695,6 +36695,15 @@ getOperand
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+;
 AliasSet
 getAliasSet
 (
