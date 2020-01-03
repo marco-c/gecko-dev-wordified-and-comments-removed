@@ -537,17 +537,6 @@ chrome
 /
 common
 /
-ipc_logging
-.
-cc
-'
-'
-src
-/
-chrome
-/
-common
-/
 ipc_message
 .
 cc
