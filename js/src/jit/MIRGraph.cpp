@@ -2515,7 +2515,7 @@ stackPosition_
 entryResumePoint_
 -
 >
-numOperands
+stackDepth
 (
 )
 ;
@@ -6935,7 +6935,7 @@ stackDepth
 headerRp
 -
 >
-numOperands
+stackDepth
 (
 )
 ;
@@ -7105,7 +7105,7 @@ entryResumePoint
 )
 -
 >
-numOperands
+stackDepth
 (
 )
 ;
