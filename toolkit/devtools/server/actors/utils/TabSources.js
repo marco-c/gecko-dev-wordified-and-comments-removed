@@ -1176,6 +1176,17 @@ javascript
 =
 =
 0
+|
+|
+url
+=
+=
+=
+'
+debugger
+eval
+code
+'
 )
 {
 spec
