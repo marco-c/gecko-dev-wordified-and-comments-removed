@@ -210,9 +210,6 @@ return
 true
 ;
 }
-#
-if
-0
 inline
 bool
 ToJSValue
@@ -257,8 +254,6 @@ return
 true
 ;
 }
-#
-endif
 inline
 bool
 ToJSValue
