@@ -147,6 +147,10 @@ mIsRegToService
 {
 NotifyStoppedPlaying
 (
+nsIAudioChannelAgent
+:
+:
+AUDIO_AGENT_NOTIFY
 )
 ;
 }
@@ -511,6 +515,8 @@ AudioChannelAgent
 :
 NotifyStartedPlaying
 (
+uint32_t
+aNotifyPlayback
 float
 *
 aVolume
@@ -569,6 +575,7 @@ service
 RegisterAudioChannelAgent
 (
 this
+aNotifyPlayback
 static_cast
 <
 AudioChannel
@@ -603,7 +610,8 @@ AudioChannelAgent
 :
 NotifyStoppedPlaying
 (
-void
+uint32_t
+aNotifyPlayback
 )
 {
 if
@@ -641,6 +649,7 @@ service
 UnregisterAudioChannelAgent
 (
 this
+aNotifyPlayback
 )
 ;
 mIsRegToService

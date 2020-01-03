@@ -131,6 +131,8 @@ RegisterAudioChannelAgent
 AudioChannelAgent
 *
 aAgent
+uint32_t
+aNotifyPlayback
 AudioChannel
 aChannel
 )
@@ -141,6 +143,8 @@ UnregisterAudioChannelAgent
 AudioChannelAgent
 *
 aAgent
+uint32_t
+aNotifyPlayback
 )
 ;
 void
