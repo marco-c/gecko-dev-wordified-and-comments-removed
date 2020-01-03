@@ -365,6 +365,11 @@ mozilla
 =
 [
 '
+StickyTimeDuration
+.
+h
+'
+'
 TimeStamp
 .
 h
