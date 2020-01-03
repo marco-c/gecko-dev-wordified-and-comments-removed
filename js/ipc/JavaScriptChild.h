@@ -61,9 +61,6 @@ init
 void
 finalize
 (
-JSFreeOp
-*
-fop
 )
 ;
 void
