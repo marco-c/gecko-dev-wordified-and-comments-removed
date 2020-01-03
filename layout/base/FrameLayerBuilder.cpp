@@ -20501,7 +20501,7 @@ NS_ASSERTION
 (
 mContainerBounds
 .
-IsEqualInterior
+Contains
 (
 mAccumulatedChildBounds
 )
