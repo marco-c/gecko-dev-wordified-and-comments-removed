@@ -1672,15 +1672,12 @@ Tbool
 :
 to
 .
-set
-(
-BOOLEAN_TO_JSVAL
+setBoolean
 (
 from
 .
 get_bool
 (
-)
 )
 )
 ;

@@ -1529,7 +1529,7 @@ cx
 )
 {
 return
-STRING_TO_JSVAL
+StringValue
 (
 cx
 -

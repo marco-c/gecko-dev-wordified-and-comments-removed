@@ -18294,8 +18294,8 @@ mStrJSVals
 [
 i
 ]
-=
-STRING_TO_JSVAL
+.
+setString
 (
 str
 )

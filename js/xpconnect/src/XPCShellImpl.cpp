@@ -3913,12 +3913,9 @@ false
 }
 vp
 .
-set
-(
-STRING_TO_JSVAL
+setString
 (
 valstr
-)
 )
 ;
 #

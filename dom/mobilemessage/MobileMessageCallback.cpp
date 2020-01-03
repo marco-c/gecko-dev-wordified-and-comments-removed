@@ -1373,7 +1373,10 @@ Value
 val
 (
 cx
-STRING_TO_JSVAL
+JS
+:
+:
+StringValue
 (
 smsc
 )

@@ -2006,7 +2006,10 @@ case
 NPVariantType_Bool
 :
 return
-BOOLEAN_TO_JSVAL
+JS
+:
+:
+BooleanValue
 (
 NPVARIANT_TO_BOOLEAN
 (
@@ -2105,7 +2108,10 @@ str
 )
 {
 return
-STRING_TO_JSVAL
+JS
+:
+:
+StringValue
 (
 str
 )
