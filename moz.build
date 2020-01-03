@@ -368,7 +368,7 @@ if
 CONFIG
 [
 '
-ENABLE_INTL_API
+USE_ICU
 '
 ]
 :

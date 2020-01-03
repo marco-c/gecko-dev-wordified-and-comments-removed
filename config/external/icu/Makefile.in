@@ -64,7 +64,7 @@ rules
 .
 mk
 ifdef
-ENABLE_INTL_API
+USE_ICU
 ifndef
 MOZ_NATIVE_ICU
 #
@@ -325,7 +325,7 @@ endif
 MOZ_NATIVE_ICU
 endif
 #
-ENABLE_INTL_API
+USE_ICU
 include
 (
 topsrcdir
@@ -337,7 +337,7 @@ rules
 .
 mk
 ifdef
-ENABLE_INTL_API
+USE_ICU
 ifndef
 MOZ_NATIVE_ICU
 target
