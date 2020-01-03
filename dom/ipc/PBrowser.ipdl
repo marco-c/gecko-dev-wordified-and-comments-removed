@@ -3340,15 +3340,6 @@ int32_t
 dragAreaY
 )
 ;
-async
-AudioChannelActivityNotification
-(
-uint32_t
-aAudioChannel
-bool
-aActive
-)
-;
 child
 :
 /

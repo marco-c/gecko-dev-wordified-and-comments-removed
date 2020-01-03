@@ -871,6 +871,13 @@ override
 ;
 virtual
 bool
+RecvAudioChannelNotify
+(
+)
+override
+;
+virtual
+bool
 RecvDataStoreNotify
 (
 const
