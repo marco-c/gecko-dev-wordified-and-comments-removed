@@ -6015,15 +6015,6 @@ rdbuf
 ;
 typedef
 _STLP_PRIV
-_Constant_unary_fun
-<
-bool
-int_type
->
-_Const_bool
-;
-typedef
-_STLP_PRIV
 _Constant_binary_fun
 <
 streamsize
