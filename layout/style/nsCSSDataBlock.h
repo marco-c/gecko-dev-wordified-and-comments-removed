@@ -47,6 +47,9 @@ nsRuleData
 class
 nsCSSExpandedDataBlock
 ;
+class
+nsIDocument
+;
 namespace
 mozilla
 {
@@ -697,6 +700,9 @@ css
 Declaration
 *
 aDeclaration
+nsIDocument
+*
+aSheetDocument
 )
 ;
 void
@@ -771,6 +777,9 @@ css
 Declaration
 *
 aDeclaration
+nsIDocument
+*
+aSheetDocument
 )
 ;
 #
