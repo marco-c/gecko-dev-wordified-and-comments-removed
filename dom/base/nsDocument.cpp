@@ -48699,7 +48699,9 @@ LastElement
 NS_LITERAL_STRING
 (
 "
-MozExitedDomFullscreen
+MozDOMFullscreen
+:
+Exited
 "
 )
 true
@@ -49341,7 +49343,9 @@ doc
 NS_LITERAL_STRING
 (
 "
-MozEnteredDomFullscreen
+MozDOMFullscreen
+:
+Entered
 "
 )
 true
@@ -49487,7 +49491,9 @@ this
 NS_LITERAL_STRING
 (
 "
-MozExitedDomFullscreen
+MozDOMFullscreen
+:
+Exited
 "
 )
 true
@@ -51446,7 +51452,9 @@ this
 NS_LITERAL_STRING
 (
 "
-MozEnteredDomFullscreen
+MozDOMFullscreen
+:
+Entered
 "
 )
 true
