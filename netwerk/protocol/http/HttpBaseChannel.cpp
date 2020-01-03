@@ -365,6 +365,10 @@ mForceNoIntercept
 (
 false
 )
+mResponseCouldBeSynthesized
+(
+false
+)
 mSuspendCount
 (
 0
@@ -5577,9 +5581,7 @@ object
 ;
 MOZ_ASSERT
 (
-ShouldIntercept
-(
-)
+mResponseCouldBeSynthesized
 "
 This
 can
@@ -5634,9 +5636,7 @@ NS_ERROR_UNEXPECTED
 if
 (
 !
-ShouldIntercept
-(
-)
+mResponseCouldBeSynthesized
 )
 {
 LOG
@@ -5772,9 +5772,7 @@ NS_ERROR_UNEXPECTED
 if
 (
 !
-ShouldIntercept
-(
-)
+mResponseCouldBeSynthesized
 )
 {
 LOG
@@ -7663,6 +7661,10 @@ ForceNoIntercept
 mForceNoIntercept
 =
 true
+;
+mResponseCouldBeSynthesized
+=
+false
 ;
 return
 NS_OK

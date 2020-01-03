@@ -1869,6 +1869,11 @@ mForceNoIntercept
 1
 ;
 uint32_t
+mResponseCouldBeSynthesized
+:
+1
+;
+uint32_t
 mSuspendCount
 ;
 nsCOMPtr

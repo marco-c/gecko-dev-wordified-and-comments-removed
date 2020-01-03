@@ -21554,6 +21554,10 @@ mInterceptCache
 =
 MAYBE_INTERCEPT
 ;
+mResponseCouldBeSynthesized
+=
+true
+;
 }
 const
 char
