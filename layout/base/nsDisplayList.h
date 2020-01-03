@@ -1135,6 +1135,15 @@ Length
 ;
 }
 bool
+IsInRootChromeDocument
+(
+)
+{
+return
+mIsInRootChromeDocument
+;
+}
+bool
 ShouldSyncDecodeImages
 (
 )
@@ -2638,6 +2647,9 @@ mWillComputePluginGeometry
 ;
 bool
 mInTransform
+;
+bool
+mIsInRootChromeDocument
 ;
 bool
 mSyncDecodeImages
