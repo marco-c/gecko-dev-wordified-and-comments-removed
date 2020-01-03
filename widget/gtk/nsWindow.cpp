@@ -118,6 +118,13 @@ h
 "
 #
 include
+"
+nsScreenGtk
+.
+h
+"
+#
+include
 <
 gtk
 /
@@ -26405,6 +26412,9 @@ gdk_window_get_scale_factor
 if
 (
 sGdkWindowGetScaleFactorPtr
+&
+&
+mGdkWindow
 )
 return
 (
@@ -26418,7 +26428,12 @@ mGdkWindow
 #
 endif
 return
-1
+nsScreenGtk
+:
+:
+GetGtkMonitorScaleFactor
+(
+)
 ;
 }
 gint
