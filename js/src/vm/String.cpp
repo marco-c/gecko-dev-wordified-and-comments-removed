@@ -3565,16 +3565,6 @@ ExclusiveContext
 cx
 )
 {
-JSString
-:
-:
-writeBarrierPre
-(
-base
-(
-)
-)
-;
 size_t
 n
 =
