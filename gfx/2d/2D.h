@@ -2539,6 +2539,17 @@ return
 false
 ;
 }
+virtual
+bool
+SupportsRegionClipping
+(
+)
+const
+{
+return
+true
+;
+}
 void
 AddUserData
 (

@@ -666,6 +666,17 @@ aType
 )
 ;
 virtual
+bool
+SupportsRegionClipping
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 void
 *
 GetNativeSurface
