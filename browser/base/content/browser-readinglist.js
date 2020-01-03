@@ -941,9 +941,9 @@ about
 )
 uri
 =
-ReaderParent
+ReaderMode
 .
-parseReaderUrl
+getOriginalUrl
 (
 uri
 .
@@ -1229,9 +1229,9 @@ reader
 )
 uri
 =
-ReaderParent
+ReaderMode
 .
-parseReaderUrl
+getOriginalUrl
 (
 uri
 .
@@ -1313,9 +1313,9 @@ reader
 )
 currentURL
 =
-ReaderParent
+ReaderMode
 .
-parseReaderUrl
+getOriginalUrl
 (
 currentURL
 )

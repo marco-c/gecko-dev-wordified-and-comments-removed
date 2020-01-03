@@ -1581,9 +1581,9 @@ else
 let
 originalUrl
 =
-ReaderParent
+ReaderMode
 .
-parseReaderUrl
+getOriginalUrl
 (
 aValue
 )
