@@ -419,6 +419,15 @@ Capabilites
 (
 )
 ;
+void
+OnKeysChange
+(
+const
+nsAString
+&
+aSessionId
+)
+;
 #
 ifdef
 DEBUG

@@ -445,6 +445,13 @@ CheckPrincipals
 (
 )
 ;
+nsIDocument
+*
+GetOwnerDoc
+(
+)
+const
+;
 private
 :
 static
