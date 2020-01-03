@@ -351,6 +351,10 @@ builds
 /
 mozilla
 -
+fennec
+-
+geoloc
+-
 api
 .
 key
