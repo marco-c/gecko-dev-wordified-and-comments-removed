@@ -6373,6 +6373,11 @@ n
 "
 )
 ;
+*
+aOutHitResult
+=
+HitNothing
+;
 continue
 ;
 }
