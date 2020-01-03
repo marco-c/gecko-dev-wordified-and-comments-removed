@@ -2802,7 +2802,6 @@ Args
 )
 ;
 static
-inline
 DataType
 returnType
 (
@@ -2819,7 +2818,6 @@ result
 ;
 }
 static
-inline
 DataType
 outParam
 (
@@ -2846,7 +2844,6 @@ result
 ;
 }
 static
-inline
 RootType
 outParamRootType
 (
@@ -2873,7 +2870,6 @@ result
 ;
 }
 static
-inline
 size_t
 NbArgs
 (
@@ -2893,7 +2889,6 @@ nbArgs
 ;
 }
 static
-inline
 size_t
 explicitArgs
 (
@@ -2919,7 +2914,6 @@ Type_Void
 ;
 }
 static
-inline
 uint32_t
 argumentProperties
 (
@@ -2942,7 +2936,6 @@ result
 ;
 }
 static
-inline
 uint32_t
 argumentPassedInFloatRegs
 (
@@ -2965,7 +2958,6 @@ result
 ;
 }
 static
-inline
 uint64_t
 argumentRootTypes
 (
