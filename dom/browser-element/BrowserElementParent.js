@@ -1206,6 +1206,13 @@ mmSecuritySensitiveCalls
 =
 {
 "
+mediaplaybackchange
+"
+:
+this
+.
+_fireEventFromMsg
+"
 showmodalprompt
 "
 :
