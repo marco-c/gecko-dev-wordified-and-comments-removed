@@ -8553,7 +8553,7 @@ altsvc
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -8567,7 +8567,7 @@ altsvc
 .
 oe
 "
-false
+true
 )
 ;
 pref
