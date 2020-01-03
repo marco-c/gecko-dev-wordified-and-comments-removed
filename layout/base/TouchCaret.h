@@ -328,12 +328,12 @@ mCaretCenterToDownPointOffsetY
 ;
 static
 int32_t
-TouchCaretMaxDistance
+TouchCaretInflateSize
 (
 )
 {
 return
-sTouchCaretMaxDistance
+sTouchCaretInflateSize
 ;
 }
 static
@@ -360,7 +360,7 @@ mTouchCaretExpirationTimer
 ;
 static
 int32_t
-sTouchCaretMaxDistance
+sTouchCaretInflateSize
 ;
 static
 int32_t
