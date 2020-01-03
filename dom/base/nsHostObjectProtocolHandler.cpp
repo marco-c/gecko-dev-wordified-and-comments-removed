@@ -2406,7 +2406,7 @@ mPrincipal
 nsILoadInfo
 :
 :
-SEC_FORCE_INHERIT_PRINCIPAL
+SEC_NORMAL
 nsIContentPolicy
 :
 :
