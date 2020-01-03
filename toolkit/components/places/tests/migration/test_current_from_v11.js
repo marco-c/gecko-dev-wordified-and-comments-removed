@@ -10,7 +10,7 @@ yield
 setupPlacesDatabase
 (
 "
-places_v16
+places_v11
 .
 sqlite
 "

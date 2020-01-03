@@ -192,13 +192,6 @@ status
 ICON_STATUS_UNKNOWN
 )
 {
-guid
-.
-SetIsVoid
-(
-true
-)
-;
 }
 int64_t
 id
@@ -221,9 +214,6 @@ fetchMode
 ;
 uint16_t
 status
-;
-nsCString
-guid
 ;
 }
 ;
