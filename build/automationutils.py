@@ -54,10 +54,6 @@ isURL
 processLeakLog
 "
   
-"
-replaceBackSlashes
-"
-  
 '
 KeyValueParseError
 '
@@ -2788,26 +2784,6 @@ leakThreshold
 processType
 in
 ignoreMissingLeaks
-)
-def
-replaceBackSlashes
-(
-input
-)
-:
-  
-return
-input
-.
-replace
-(
-'
-\
-\
-'
-'
-/
-'
 )
 class
 KeyValueParseError

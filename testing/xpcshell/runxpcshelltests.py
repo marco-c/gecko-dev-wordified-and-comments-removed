@@ -91,7 +91,6 @@ Automation
 from
 automationutils
 import
-replaceBackSlashes
 addCommonOptions
 HARNESS_TIMEOUT
 =
@@ -2061,9 +2060,17 @@ s
 '
 %
                   
-replaceBackSlashes
-(
 name
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
 )
 ]
     
@@ -2428,9 +2435,17 @@ join
 "
 '
 +
-replaceBackSlashes
-(
 f
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
 )
 +
 '
@@ -2456,9 +2471,17 @@ join
 "
 '
 +
-replaceBackSlashes
-(
 f
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
 )
 +
 '
@@ -5603,11 +5626,19 @@ self
 .
 httpdJSPath
 =
-replaceBackSlashes
-(
 self
 .
 httpdJSPath
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
 )
         
 self
@@ -5644,11 +5675,19 @@ self
 .
 httpdManifest
 =
-replaceBackSlashes
-(
 self
 .
 httpdManifest
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
 )
         
 if
@@ -7211,14 +7250,22 @@ manifest
         
 path
 =
-replaceBackSlashes
-(
 test_object
 [
 '
 path
 '
 ]
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
 )
 ;
         
