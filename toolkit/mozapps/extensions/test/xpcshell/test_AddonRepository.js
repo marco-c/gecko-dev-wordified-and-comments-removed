@@ -679,6 +679,11 @@ mozilla
 .
 org
 "
+type
+:
+"
+theme
+"
 version
 :
 "
