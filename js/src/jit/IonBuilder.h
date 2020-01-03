@@ -3697,6 +3697,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineObjectCreate
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineAtomicsCompareExchange
 (
 CallInfo

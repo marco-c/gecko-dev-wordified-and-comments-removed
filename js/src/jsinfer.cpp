@@ -11583,6 +11583,14 @@ cx
 ;
 if
 (
+key
+.
+kind
+!
+=
+JSProto_Null
+&
+&
 !
 GetBuiltinPrototype
 (

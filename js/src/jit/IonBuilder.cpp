@@ -30730,7 +30730,10 @@ constraints
 (
 )
 )
-false
+MNewObject
+:
+:
+ObjectLiteral
 )
 ;
 current
