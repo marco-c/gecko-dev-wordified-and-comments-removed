@@ -2784,6 +2784,16 @@ feedURI
 FEED_URI
 }
 )
+.
+catch
+(
+(
+)
+=
+>
+{
+}
+)
 ;
 yield
 PlacesUtils
