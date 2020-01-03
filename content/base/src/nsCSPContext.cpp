@@ -722,6 +722,12 @@ permits
 aContentType
 aContentLocation
 nonce
+(
+aExtra
+!
+=
+nullptr
+)
 violatedDirective
 )
 )
@@ -4159,6 +4165,7 @@ a
 EmptyString
 (
 )
+false
 violatedDirective
 )
 )
