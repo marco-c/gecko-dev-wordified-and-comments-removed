@@ -4825,6 +4825,8 @@ Event
 GetEventPopupControlState
 (
 aEvent
+*
+aDOMEvent
 )
 )
 ;
