@@ -6,14 +6,6 @@ transport
 0
 .
 4
-marionette
--
-driver
-=
-=
-0
-.
-1
 manifestparser
 mozhttpd
 >
