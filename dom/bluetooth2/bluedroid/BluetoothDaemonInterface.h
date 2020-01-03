@@ -13,6 +13,9 @@ h
 "
 BEGIN_BLUETOOTH_NAMESPACE
 class
+BluetoothDaemonListenSocket
+;
+class
 BluetoothDaemonChannel
 ;
 class
@@ -44,6 +47,10 @@ CleanupResultHandler
 ;
 class
 InitResultHandler
+;
+friend
+class
+BluetoothDaemonListenSocket
 ;
 friend
 class
