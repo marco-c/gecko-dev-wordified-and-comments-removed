@@ -1224,6 +1224,17 @@ MediaEnginePrefs
 aPrefs
 )
 {
+if
+(
+PR_LOG_TEST
+(
+GetMediaManagerLog
+(
+)
+PR_LOG_DEBUG
+)
+)
+{
 LOG
 (
 (
@@ -1325,6 +1336,7 @@ advanced
 true
 )
 ;
+}
 }
 }
 size_t

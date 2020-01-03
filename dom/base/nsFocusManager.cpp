@@ -426,7 +426,7 @@ args
 PR_LOG
 (
 gFocusLog
-4
+PR_LOG_DEBUG
 args
 )
 #
@@ -438,7 +438,7 @@ args
 PR_LOG
 (
 gFocusNavigationLog
-4
+PR_LOG_DEBUG
 args
 )
 #
@@ -450,6 +450,14 @@ format
 content
 )
 \
+if
+(
+PR_LOG_TEST
+(
+log
+PR_LOG_DEBUG
+)
+)
 {
 \
 nsAutoCString
@@ -496,7 +504,7 @@ tag
 PR_LOG
 (
 log
-4
+PR_LOG_DEBUG
 (
 format
 tag

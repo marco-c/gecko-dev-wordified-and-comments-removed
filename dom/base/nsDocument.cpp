@@ -12904,6 +12904,15 @@ IsEmpty
 )
 )
 {
+if
+(
+PR_LOG_TEST
+(
+gCspPRLog
+PR_LOG_DEBUG
+)
+)
+{
 nsCOMPtr
 <
 nsIURI
@@ -12967,6 +12976,7 @@ app
 )
 )
 ;
+}
 return
 NS_OK
 ;

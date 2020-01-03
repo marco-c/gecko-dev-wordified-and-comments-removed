@@ -771,6 +771,10 @@ if
 the
 call
 failed
+or
+logging
+is
+disabled
 *
 /
 \
@@ -779,6 +783,13 @@ if
 NS_SUCCEEDED
 (
 rv
+)
+&
+&
+PR_LOG_TEST
+(
+gConPolLog
+PR_LOG_DEBUG
 )
 )
 {

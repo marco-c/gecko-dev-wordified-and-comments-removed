@@ -1074,6 +1074,16 @@ mCaptureIndex
 ;
 }
 else
+if
+(
+PR_LOG_TEST
+(
+GetMediaManagerLog
+(
+)
+PR_LOG_DEBUG
+)
+)
 {
 MonitorAutoLock
 lock

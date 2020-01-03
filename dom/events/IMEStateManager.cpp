@@ -2402,6 +2402,15 @@ aPresContext
 internalEvent
 )
 ;
+if
+(
+PR_LOG_TEST
+(
+sISMLog
+PR_LOG_ALWAYS
+)
+)
+{
 nsAutoString
 eventType
 ;
@@ -2470,6 +2479,7 @@ consumed
 )
 )
 ;
+}
 return
 consumed
 ;
