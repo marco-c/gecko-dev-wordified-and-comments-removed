@@ -407,7 +407,7 @@ container
 addEventListener
 (
 "
-mouseleave
+mouseout
 "
 this
 true
@@ -1644,7 +1644,7 @@ type
 =
 =
 "
-mouseleave
+mouseout
 "
 )
 {
@@ -2291,7 +2291,7 @@ container
 removeEventListener
 (
 "
-mouseleave
+mouseout
 "
 this
 true
