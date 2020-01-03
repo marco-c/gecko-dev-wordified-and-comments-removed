@@ -81,7 +81,6 @@ toMoveOperand
 (
 const
 LAllocation
-*
 )
 const
 {
