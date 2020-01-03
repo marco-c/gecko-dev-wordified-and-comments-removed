@@ -3807,7 +3807,7 @@ HasCachedStyleData
 {
 MediaFeatureValuesChanged
 (
-eRestyle_Subtree
+eRestyle_ForceDescendants
 NS_STYLE_HINT_REFLOW
 )
 ;
