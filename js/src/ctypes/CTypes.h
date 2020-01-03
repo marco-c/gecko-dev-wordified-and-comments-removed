@@ -1506,10 +1506,6 @@ mIsVariadic
 struct
 ClosureInfo
 {
-JSContext
-*
-cx
-;
 JSRuntime
 *
 rt
