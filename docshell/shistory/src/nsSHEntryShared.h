@@ -106,7 +106,7 @@ public
 :
 static
 void
-Startup
+EnsureHistoryTracker
 (
 )
 ;

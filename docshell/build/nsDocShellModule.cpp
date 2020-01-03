@@ -220,13 +220,6 @@ rv
 rv
 )
 ;
-nsSHEntryShared
-:
-:
-Startup
-(
-)
-;
 return
 NS_OK
 ;
