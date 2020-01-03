@@ -1383,7 +1383,7 @@ vp
 )
 ;
 extern
-int
+uint32_t
 OneUcs4ToUtf8Char
 (
 uint8_t
