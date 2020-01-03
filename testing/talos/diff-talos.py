@@ -247,14 +247,7 @@ tp5n_modlistbytes_paint
 '
                                
 '
-trace_malloc_maxheap
-'
-'
 tp4m_nochrome
-'
-                               
-'
-trace_malloc_leaks
 '
 '
 tp4m_main_rss_nochrome
@@ -274,10 +267,6 @@ ts_shutdown
 tp5n_
 %
 cpu_paint
-'
-                               
-'
-trace_malloc_allocs
 '
 '
 ts
