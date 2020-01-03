@@ -56423,7 +56423,7 @@ other_values
 :
 [
 "
-isolated
+isolate
 "
 ]
 invalid_values
