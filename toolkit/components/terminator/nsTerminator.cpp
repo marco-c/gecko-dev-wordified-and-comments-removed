@@ -455,8 +455,11 @@ crashAfterMS
 =
 crashAfterMS
 ;
+DebugOnly
+<
 PRThread
 *
+>
 thread
 =
 PR_CreateThread
