@@ -2022,6 +2022,10 @@ data
 aBrowser
 .
 __SS_data
+|
+|
+{
+}
 ;
 data
 .
@@ -2030,6 +2034,10 @@ extData
 aBrowser
 .
 __SS_extdata
+|
+|
+{
+}
 ;
 this
 .
