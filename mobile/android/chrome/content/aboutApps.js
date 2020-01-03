@@ -152,6 +152,7 @@ gChromeWin
 function
 (
 )
+{
 window
 .
 QueryInterface
@@ -197,6 +198,7 @@ Ci
 .
 nsIDOMChromeWindow
 )
+}
 )
 ;
 document
