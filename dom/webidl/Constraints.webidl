@@ -219,6 +219,9 @@ browser
 microphone
 "
 "
+audioCapture
+"
+"
 other
 "
 }
