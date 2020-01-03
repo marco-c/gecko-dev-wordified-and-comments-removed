@@ -1064,7 +1064,6 @@ reader
 GetBuffered
 (
 ranges
-0
 )
 ;
 if
