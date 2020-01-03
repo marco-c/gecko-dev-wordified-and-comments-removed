@@ -2954,6 +2954,11 @@ Reason
 reason
 )
 ;
+void
+scheduleZonesWithIncomingCCWs
+(
+)
+;
 gcstats
 :
 :
