@@ -397,7 +397,7 @@ textColor
 "
 color
 /
-widget_text_color
+toolbar_icon_grey
 "
 /
 >
@@ -563,7 +563,7 @@ textColor
 "
 color
 /
-widget_text_color
+toolbar_icon_grey
 "
 /
 >
