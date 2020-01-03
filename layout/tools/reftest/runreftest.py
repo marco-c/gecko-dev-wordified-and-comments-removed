@@ -4024,6 +4024,16 @@ None
     
 debuggerInfo
 =
+None
+    
+if
+options
+.
+debugger
+:
+      
+debuggerInfo
+=
 mozdebug
 .
 get_debugger_info
