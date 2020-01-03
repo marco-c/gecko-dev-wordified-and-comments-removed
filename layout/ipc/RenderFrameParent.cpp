@@ -1264,8 +1264,6 @@ RenderFrameParent
 nsFrameLoader
 *
 aFrameLoader
-ScrollingBehavior
-aScrollingBehavior
 TextureFactoryIdentifier
 *
 aTextureFactoryIdentifier
@@ -1454,10 +1452,12 @@ mLayersId
 }
 if
 (
-aScrollingBehavior
-=
-=
-ASYNC_PAN_ZOOM
+gfxPrefs
+:
+:
+AsyncPanZoomEnabled
+(
+)
 )
 {
 mContentController

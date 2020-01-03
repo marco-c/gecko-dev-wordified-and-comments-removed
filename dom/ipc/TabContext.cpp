@@ -114,10 +114,6 @@ mContainingAppId
 (
 NO_APP_ID
 )
-mScrollingBehavior
-(
-DEFAULT_SCROLLING
-)
 mIsBrowser
 (
 false
@@ -534,8 +530,6 @@ aOwnApp
 mozIApplication
 *
 aAppFrameOwnerApp
-ScrollingBehavior
-aRequestedBehavior
 )
 {
 NS_ENSURE_FALSE
@@ -635,10 +629,6 @@ ownAppId
 mContainingAppId
 =
 containingAppId
-;
-mScrollingBehavior
-=
-aRequestedBehavior
 ;
 mOwnApp
 =
@@ -661,8 +651,6 @@ SetTabContextForBrowserFrame
 mozIApplication
 *
 aBrowserFrameOwnerApp
-ScrollingBehavior
-aRequestedBehavior
 )
 {
 NS_ENSURE_FALSE
@@ -725,10 +713,6 @@ mContainingAppId
 =
 containingAppId
 ;
-mScrollingBehavior
-=
-aRequestedBehavior
-;
 mContainingApp
 =
 aBrowserFrameOwnerApp
@@ -743,8 +727,6 @@ TabContext
 :
 SetTabContextForNormalFrame
 (
-ScrollingBehavior
-aRequestedBehavior
 )
 {
 NS_ENSURE_FALSE
@@ -756,10 +738,6 @@ false
 mInitialized
 =
 true
-;
-mScrollingBehavior
-=
-aRequestedBehavior
 ;
 return
 true
@@ -786,7 +764,6 @@ BrowserFrameIPCTabContext
 (
 mContainingAppId
 )
-mScrollingBehavior
 )
 ;
 }
@@ -798,7 +775,6 @@ AppFrameIPCTabContext
 mOwnAppId
 mContainingAppId
 )
-mScrollingBehavior
 )
 ;
 }
@@ -1383,11 +1359,6 @@ mTabContext
 SetTabContextForBrowserFrame
 (
 containingApp
-aParams
-.
-scrollingBehavior
-(
-)
 )
 ;
 }
@@ -1401,11 +1372,6 @@ SetTabContextForAppFrame
 (
 ownApp
 containingApp
-aParams
-.
-scrollingBehavior
-(
-)
 )
 ;
 }

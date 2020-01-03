@@ -112,11 +112,6 @@ RenderFrameParent
 h
 '
 '
-RenderFrameUtils
-.
-h
-'
-'
 VsyncChild
 .
 h
