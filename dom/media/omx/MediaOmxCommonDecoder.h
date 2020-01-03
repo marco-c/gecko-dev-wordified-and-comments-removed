@@ -236,6 +236,9 @@ mCanOffloadAudio
 bool
 mFallbackToStateMachine
 ;
+bool
+mIsCaptured
+;
 }
 ;
 }
