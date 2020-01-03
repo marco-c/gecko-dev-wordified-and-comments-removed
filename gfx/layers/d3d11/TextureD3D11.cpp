@@ -1296,9 +1296,6 @@ hr
 )
 )
 {
-gfx
-:
-:
 gfxCriticalError
 (
 )
@@ -1700,9 +1697,6 @@ hr
 )
 )
 {
-gfx
-:
-:
 gfxCriticalError
 (
 )
