@@ -1547,11 +1547,10 @@ TabParent
 >
 tab
 =
-static_cast
-<
 TabParent
-*
->
+:
+:
+GetFrom
 (
 browsers
 [

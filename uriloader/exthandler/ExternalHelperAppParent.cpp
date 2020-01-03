@@ -343,11 +343,10 @@ TabParent
 *
 tabParent
 =
-static_cast
-<
 TabParent
-*
->
+:
+:
+GetFrom
 (
 aBrowser
 )
