@@ -1096,7 +1096,7 @@ mOwnErrorReporting
 (
 false
 )
-mOldDontReportUncaught
+mOldAutoJSAPIOwnsErrorReporting
 (
 false
 )
@@ -1141,9 +1141,9 @@ cx
 )
 )
 .
-setDontReportUncaught
+setAutoJSAPIOwnsErrorReporting
 (
-mOldDontReportUncaught
+mOldAutoJSAPIOwnsErrorReporting
 )
 ;
 if
@@ -1514,7 +1514,7 @@ mOwnErrorReporting
 (
 false
 )
-mOldDontReportUncaught
+mOldAutoJSAPIOwnsErrorReporting
 (
 false
 )
@@ -2068,7 +2068,7 @@ cx
 )
 )
 ;
-mOldDontReportUncaught
+mOldAutoJSAPIOwnsErrorReporting
 =
 JS
 :
@@ -2080,7 +2080,7 @@ cx
 )
 )
 .
-dontReportUncaught
+autoJSAPIOwnsErrorReporting
 (
 )
 ;
@@ -2094,7 +2094,7 @@ cx
 )
 )
 .
-setDontReportUncaught
+setAutoJSAPIOwnsErrorReporting
 (
 true
 )

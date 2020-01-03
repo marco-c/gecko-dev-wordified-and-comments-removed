@@ -553,7 +553,7 @@ bool
 mOwnErrorReporting
 ;
 bool
-mOldDontReportUncaught
+mOldAutoJSAPIOwnsErrorReporting
 ;
 Maybe
 <
