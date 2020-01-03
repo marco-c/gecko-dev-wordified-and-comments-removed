@@ -1102,6 +1102,13 @@ Status
 DISCONNECTING
 )
 ;
+if
+(
+this
+.
+_client
+)
+{
 this
 .
 _client
@@ -1110,6 +1117,7 @@ close
 (
 )
 ;
+}
 }
 }
 connect
