@@ -205,6 +205,14 @@ DOMString
 >
 referrer
 ;
+sequence
+<
+DOMString
+>
+manifest
+-
+src
+;
 }
 ;
 dictionary

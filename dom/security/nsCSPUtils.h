@@ -338,6 +338,11 @@ action
 "
 referrer
 "
+"
+manifest
+-
+src
+"
 }
 ;
 inline

@@ -521,6 +521,15 @@ nsIContentPolicy
 :
 :
 TYPE_FETCH
+|
+|
+aContentType
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_WEB_MANIFEST
 )
 {
 *
