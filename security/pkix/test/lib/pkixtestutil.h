@@ -176,6 +176,13 @@ ByteString
 bs
 )
 ;
+ByteString
+InputToByteString
+(
+Input
+input
+)
+;
 static
 const
 uint8_t
