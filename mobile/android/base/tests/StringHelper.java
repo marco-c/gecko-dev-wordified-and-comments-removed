@@ -11,6 +11,12 @@ public
 class
 StringHelper
 {
+private
+StringHelper
+(
+)
+{
+}
 public
 static
 final
