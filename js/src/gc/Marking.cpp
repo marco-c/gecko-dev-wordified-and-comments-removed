@@ -10269,7 +10269,7 @@ initialized
 )
 )
 ;
-sinkStores
+sinkStore
 (
 owner
 )
