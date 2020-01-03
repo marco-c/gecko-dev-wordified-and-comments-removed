@@ -5446,6 +5446,9 @@ x
 ;
 if
 (
+mHmtxTable
+&
+&
 hb_blob_get_length
 (
 mHmtxTable
@@ -5639,6 +5642,9 @@ x
 ;
 if
 (
+mVmtxTable
+&
+&
 hb_blob_get_length
 (
 mVmtxTable
