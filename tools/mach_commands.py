@@ -2575,9 +2575,6 @@ category
 '
 devenv
 '
-allow_all_args
-=
-True
         
 description
 =
