@@ -5007,6 +5007,10 @@ lazyScript
 &
 &
 !
+types_
+&
+&
+!
 isGenerator
 (
 )
