@@ -231,11 +231,6 @@ Get
 (
 )
 ;
-~
-BluetoothHfpManager
-(
-)
-;
 virtual
 void
 ReceiveSocketData
@@ -381,6 +376,13 @@ ToggleCalls
 ;
 #
 endif
+protected
+:
+~
+BluetoothHfpManager
+(
+)
+;
 private
 :
 void

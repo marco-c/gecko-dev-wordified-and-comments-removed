@@ -481,6 +481,14 @@ return
 NS_OK
 ;
 }
+protected
+:
+~
+GetVolumeTask
+(
+)
+{
+}
 }
 ;
 class
