@@ -473,13 +473,6 @@ __declspec
 (
 naked
 )
-__declspec
-(
-align
-(
-16
-)
-)
 static
 void
 TransposeWx8_SSSE3
@@ -897,13 +890,6 @@ HAS_TRANSPOSE_UVWX8_SSE2
 __declspec
 (
 naked
-)
-__declspec
-(
-align
-(
-16
-)
 )
 static
 void
