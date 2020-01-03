@@ -196,11 +196,6 @@ uint32_t
 aImageFlags
 )
 ;
-nsresult
-Optimize
-(
-)
-;
 DrawableFrameRef
 DrawableRef
 (
@@ -423,6 +418,11 @@ SetDiscardable
 (
 )
 ;
+void
+SetOptimizable
+(
+)
+;
 TemporaryRef
 <
 SourceSurface
@@ -519,6 +519,11 @@ private
 :
 ~
 imgFrame
+(
+)
+;
+nsresult
+Optimize
 (
 )
 ;
@@ -673,6 +678,9 @@ mNonPremult
 ;
 bool
 mDiscardable
+;
+bool
+mOptimizable
 ;
 bool
 mInformedDiscardTracker
