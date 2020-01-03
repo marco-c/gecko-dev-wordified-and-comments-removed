@@ -29,7 +29,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -911,7 +911,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -1087,7 +1087,7 @@ Trace
 "
 )
 ;
-TelemetryPing
+TelemetryController
 .
 initLogging
 (

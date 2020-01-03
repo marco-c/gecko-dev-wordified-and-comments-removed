@@ -827,7 +827,7 @@ defineLazyModuleGetter
 (
 this
 "
-TelemetryPing
+TelemetryController
 "
 "
 resource
@@ -838,7 +838,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -4438,7 +4438,7 @@ activeTicks
 let
 sr
 =
-TelemetryPing
+TelemetryController
 .
 getSessionRecorder
 (
@@ -6708,7 +6708,7 @@ true
 }
 ;
 return
-TelemetryPing
+TelemetryController
 .
 send
 (
@@ -7057,7 +7057,7 @@ resolve
 )
 ;
 }
-TelemetryPing
+TelemetryController
 .
 shutdown
 .
@@ -7904,7 +7904,7 @@ false
 )
 ;
 return
-TelemetryPing
+TelemetryController
 .
 addPendingPing
 (
@@ -7995,7 +7995,7 @@ true
 }
 ;
 return
-TelemetryPing
+TelemetryController
 .
 savePendingPings
 (
@@ -8064,7 +8064,7 @@ true
 }
 ;
 return
-TelemetryPing
+TelemetryController
 .
 savePing
 (
@@ -8737,7 +8737,7 @@ nsIThread
 DISPATCH_NORMAL
 )
 ;
-TelemetryPing
+TelemetryController
 .
 sendPersistedPings
 (
@@ -8791,7 +8791,7 @@ overwrite
 true
 }
 ;
-TelemetryPing
+TelemetryController
 .
 addPendingPing
 (
@@ -9085,7 +9085,7 @@ true
 let
 promise
 =
-TelemetryPing
+TelemetryController
 .
 send
 (
@@ -9462,7 +9462,7 @@ overrideEnvironment
 oldEnvironment
 }
 ;
-TelemetryPing
+TelemetryController
 .
 send
 (
@@ -9750,7 +9750,7 @@ enqueueTask
 )
 =
 >
-TelemetryPing
+TelemetryController
 .
 addPendingPingFromFile
 (
@@ -9873,7 +9873,7 @@ enqueueTask
 )
 =
 >
-TelemetryPing
+TelemetryController
 .
 savePing
 (

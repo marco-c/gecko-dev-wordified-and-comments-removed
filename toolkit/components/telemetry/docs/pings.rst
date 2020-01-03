@@ -162,7 +162,7 @@ a
 common
 API
 on
-TelemetryPing
+TelemetryController
 .
 It
 allows
@@ -519,7 +519,7 @@ preference
 pings
 submitted
 to
-TelemetryPing
+TelemetryController
 are
 also
 stored

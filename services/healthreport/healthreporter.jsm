@@ -278,7 +278,7 @@ defineLazyModuleGetter
 (
 this
 "
-TelemetryPing
+TelemetryController
 "
 "
 resource
@@ -289,7 +289,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -5517,7 +5517,7 @@ call
 this
 branch
 policy
-TelemetryPing
+TelemetryController
 .
 getSessionRecorder
 (

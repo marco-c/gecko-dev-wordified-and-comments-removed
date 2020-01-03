@@ -18,6 +18,7 @@ Cu
 =
 Components
 ;
++
 Cu
 .
 import
@@ -31,7 +32,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -185,7 +186,7 @@ startup
 "
 )
 {
-TelemetryPing
+TelemetryController
 .
 observe
 (

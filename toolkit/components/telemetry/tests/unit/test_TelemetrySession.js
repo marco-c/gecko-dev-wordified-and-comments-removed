@@ -128,7 +128,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -748,7 +748,7 @@ if
 gServerStarted
 )
 {
-TelemetryPing
+TelemetryController
 .
 setServer
 (
@@ -778,7 +778,7 @@ testPing
 }
 else
 {
-TelemetryPing
+TelemetryController
 .
 setServer
 (
@@ -3290,7 +3290,7 @@ setup
 )
 ;
 yield
-TelemetryPing
+TelemetryController
 .
 setup
 (
@@ -5447,7 +5447,7 @@ return
 let
 sessionRecorder
 =
-TelemetryPing
+TelemetryController
 .
 getSessionRecorder
 (
@@ -5826,7 +5826,7 @@ setup
 (
 )
 ;
-TelemetryPing
+TelemetryController
 .
 setServer
 (
@@ -7017,7 +7017,7 @@ setup
 (
 )
 ;
-TelemetryPing
+TelemetryController
 .
 setServer
 (
@@ -8628,7 +8628,7 @@ OVERDUE_PING_FILE_AGE
 )
 ;
 yield
-TelemetryPing
+TelemetryController
 .
 reset
 (

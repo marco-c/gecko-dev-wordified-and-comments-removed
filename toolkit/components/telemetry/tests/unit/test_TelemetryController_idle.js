@@ -111,7 +111,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -273,13 +273,13 @@ true
 )
 ;
 yield
-TelemetryPing
+TelemetryController
 .
 setup
 (
 )
 ;
-TelemetryPing
+TelemetryController
 .
 setServer
 (

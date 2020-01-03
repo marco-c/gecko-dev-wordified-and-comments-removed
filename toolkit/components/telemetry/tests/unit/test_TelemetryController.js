@@ -89,7 +89,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -355,7 +355,7 @@ if
 gServerStarted
 )
 {
-TelemetryPing
+TelemetryController
 .
 setServer
 (
@@ -378,7 +378,7 @@ primaryPort
 }
 else
 {
-TelemetryPing
+TelemetryController
 .
 setServer
 (
@@ -408,7 +408,7 @@ TEST_PING_RETENTION
 }
 ;
 return
-TelemetryPing
+TelemetryController
 .
 send
 (
@@ -874,7 +874,7 @@ asyncSetup
 )
 {
 yield
-TelemetryPing
+TelemetryController
 .
 setup
 (
@@ -892,7 +892,7 @@ getClientID
 let
 promisePingSetup
 =
-TelemetryPing
+TelemetryController
 .
 reset
 (
@@ -900,7 +900,7 @@ reset
 ;
 do_check_eq
 (
-TelemetryPing
+TelemetryController
 .
 clientID
 gClientID
@@ -1428,7 +1428,7 @@ ping
 id
 pingId
 "
-TelemetryPing
+TelemetryController
 must
 archive
 pings
@@ -1497,7 +1497,7 @@ promise
 )
 )
 "
-TelemetryPing
+TelemetryController
 must
 not
 archive
@@ -1591,7 +1591,7 @@ ping
 id
 pingId
 "
-TelemetryPing
+TelemetryController
 must
 archive
 pings

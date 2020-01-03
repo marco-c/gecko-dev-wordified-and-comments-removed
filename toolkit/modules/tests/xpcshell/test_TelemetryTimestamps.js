@@ -51,7 +51,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -286,7 +286,7 @@ startupManager
 ;
 }
 function
-getSimpleMeasurementsFromTelemetryPing
+getSimpleMeasurementsFromTelemetryController
 (
 )
 {
@@ -352,7 +352,7 @@ null
 ;
 }
 return
-TelemetryPing
+TelemetryController
 .
 setup
 (
@@ -593,7 +593,7 @@ baz
 let
 simpleMeasurements
 =
-getSimpleMeasurementsFromTelemetryPing
+getSimpleMeasurementsFromTelemetryController
 (
 )
 ;

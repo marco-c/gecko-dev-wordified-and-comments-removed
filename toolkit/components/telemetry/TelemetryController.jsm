@@ -247,7 +247,7 @@ const
 LOGGER_PREFIX
 =
 "
-TelemetryPing
+TelemetryController
 :
 :
 "
@@ -853,13 +853,13 @@ EXPORTED_SYMBOLS
 =
 [
 "
-TelemetryPing
+TelemetryController
 "
 ]
 ;
 this
 .
-TelemetryPing
+TelemetryController
 =
 Object
 .
@@ -1362,7 +1362,7 @@ AsyncShutdown
 Barrier
 (
 "
-TelemetryPing
+TelemetryController
 :
 Waiting
 for
@@ -1378,7 +1378,7 @@ AsyncShutdown
 Barrier
 (
 "
-TelemetryPing
+TelemetryController
 :
 Waiting
 for
@@ -4166,7 +4166,7 @@ sendTelemetry
 addBlocker
 (
 "
-TelemetryPing
+TelemetryController
 :
 shutting
 down

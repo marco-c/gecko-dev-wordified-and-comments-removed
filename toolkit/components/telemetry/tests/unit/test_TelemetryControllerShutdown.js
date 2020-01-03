@@ -36,7 +36,7 @@ gre
 /
 modules
 /
-TelemetryPing
+TelemetryController
 .
 jsm
 "
@@ -395,13 +395,13 @@ start
 )
 ;
 yield
-TelemetryPing
+TelemetryController
 .
 setup
 (
 )
 ;
-TelemetryPing
+TelemetryController
 .
 setServer
 (
@@ -421,7 +421,7 @@ identity
 primaryPort
 )
 ;
-TelemetryPing
+TelemetryController
 .
 send
 (
