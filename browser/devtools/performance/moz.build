@@ -72,6 +72,13 @@ performance
 '
 modules
 /
+actors
+.
+js
+'
+'
+modules
+/
 compatibility
 .
 js
