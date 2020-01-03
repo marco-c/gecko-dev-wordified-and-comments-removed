@@ -315,9 +315,8 @@ mIsAnimated
 mIsBaseSet
 ;
 }
-nsresult
-ToDOMAnimatedPreserveAspectRatio
-(
+already_AddRefed
+<
 mozilla
 :
 :
@@ -325,9 +324,9 @@ dom
 :
 :
 DOMSVGAnimatedPreserveAspectRatio
-*
-*
-aResult
+>
+ToDOMAnimatedPreserveAspectRatio
+(
 nsSVGElement
 *
 aSVGElement
