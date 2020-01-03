@@ -880,6 +880,15 @@ undefined
 )
 )
     
+'
+'
+'
+Disabled
+due
+to
+Bug
+977899
+    
 def
 test_navigate_frame
 (
@@ -981,6 +990,10 @@ get_url
 (
 )
 )
+    
+'
+'
+'
     
 def
 test_shouldnt_error_if_nonexistent_url_used
@@ -1265,7 +1278,7 @@ MarionetteException
 )
         
 except
-MarionetteException
+TimeoutException
 as
 e
 :
@@ -1313,7 +1326,7 @@ Should
 have
 thrown
 a
-MarionetteException
+TimeoutException
 instead
 of
 %

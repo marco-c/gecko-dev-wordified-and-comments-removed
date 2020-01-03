@@ -36,14 +36,6 @@ IFrame
 Test
 "
         
-verify_url
-=
-"
-test
-.
-html
-"
-        
 test_html
 =
 self
@@ -107,7 +99,7 @@ self
 .
 assertTrue
 (
-verify_url
+start_url
 in
 self
 .
@@ -161,7 +153,7 @@ self
 .
 assertTrue
 (
-verify_url
+start_url
 in
 self
 .
@@ -195,14 +187,6 @@ IFrame
 Test
 "
         
-verify_url
-=
-"
-test_inner_iframe
-.
-html
-"
-        
 test_html
 =
 self
@@ -266,7 +250,7 @@ self
 .
 assertTrue
 (
-verify_url
+start_url
 in
 self
 .
@@ -320,7 +304,7 @@ self
 .
 assertTrue
 (
-verify_url
+start_url
 in
 self
 .
@@ -360,11 +344,7 @@ self
 .
 assertTrue
 (
-"
-test
-.
-html
-"
+start_url
 in
 self
 .
@@ -387,11 +367,7 @@ self
 .
 assertTrue
 (
-"
-test_nested_iframe
-.
-html
-"
+start_url
 in
 self
 .
@@ -453,14 +429,6 @@ IFrame
 Test
 "
         
-verify_url
-=
-"
-test
-.
-html
-"
-        
 test_html
 =
 self
@@ -524,7 +492,7 @@ self
 .
 assertTrue
 (
-verify_url
+start_url
 in
 self
 .
@@ -578,7 +546,7 @@ self
 .
 assertTrue
 (
-verify_url
+start_url
 in
 self
 .
@@ -587,24 +555,6 @@ marionette
 get_url
 (
 )
-)
-        
-self
-.
-assertRaises
-(
-JavascriptException
-self
-.
-marionette
-.
-execute_async_script
-"
-foo
-(
-)
-;
-"
 )
         
 try

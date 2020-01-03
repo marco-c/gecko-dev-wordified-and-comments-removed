@@ -438,8 +438,18 @@ self
 .
 marionette
 .
-get_url
+execute_script
 (
+"
+return
+document
+.
+wrappedJSObject
+.
+location
+.
+href
+"
 )
 )
         
@@ -631,8 +641,18 @@ self
 .
 marionette
 .
-get_url
+execute_script
 (
+"
+return
+document
+.
+wrappedJSObject
+.
+location
+.
+href
+"
 )
 )
         
@@ -667,8 +687,18 @@ self
 .
 marionette
 .
-get_url
+execute_script
 (
+"
+return
+document
+.
+wrappedJSObject
+.
+location
+.
+href
+"
 )
 )
     
