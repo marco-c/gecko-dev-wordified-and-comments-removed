@@ -1,3 +1,5 @@
+try
+{
 (
 function
 (
@@ -42,3 +44,16 @@ ArrayBuffer
 )
 (
 )
+}
+catch
+(
+e
+)
+{
+}
+assertEq
+(
+true
+true
+)
+;
