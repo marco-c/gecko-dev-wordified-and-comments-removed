@@ -6176,6 +6176,9 @@ SPDI
 ruim
 :
 {
+FDN
+:
+3
 ENHANCED_PHONEBOOK
 :
 6
