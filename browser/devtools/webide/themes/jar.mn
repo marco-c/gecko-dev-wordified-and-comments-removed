@@ -209,13 +209,13 @@ css
 )
 skin
 /
-project
+panel
 -
 listing
 .
 css
 (
-project
+panel
 -
 listing
 .
