@@ -67,6 +67,9 @@ PBrowser
 include
 URIParams
 ;
+include
+PBackgroundSharedTypes
+;
 using
 class
 IPC
@@ -171,6 +174,12 @@ Init
 (
 URIParams
 uri
+PrincipalInfo
+requestingPrincipalInfo
+uint32_t
+securityFlags
+uint32_t
+contentPolicyType
 )
 ;
 AsyncOpen
