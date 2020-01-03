@@ -103,6 +103,11 @@ TestArray
 cpp
 '
 '
+TestCRT
+.
+cpp
+'
+'
 TestFileUtils
 .
 cpp
