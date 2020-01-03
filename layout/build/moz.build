@@ -349,6 +349,12 @@ json
 /
 dom
 /
+jsurl
+'
+'
+/
+dom
+/
 media
 '
 '
@@ -356,14 +362,6 @@ media
 dom
 /
 speakermanager
-'
-'
-/
-dom
-/
-src
-/
-jsurl
 '
 '
 /
