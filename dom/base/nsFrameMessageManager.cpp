@@ -8355,6 +8355,7 @@ nsIPrincipal
 *
 aPrincipal
 )
+MOZ_OVERRIDE
 {
 nsRefPtr
 <
@@ -8389,6 +8390,7 @@ nsAString
 &
 aPermission
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -8402,6 +8404,7 @@ nsAString
 &
 aManifestURL
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -8415,6 +8418,7 @@ nsAString
 &
 aPermission
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -8428,6 +8432,7 @@ unsigned
 short
 aStatus
 )
+MOZ_OVERRIDE
 {
 return
 true

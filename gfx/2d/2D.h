@@ -967,6 +967,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DataSourceSurface
+MOZ_OVERRIDE
 )
 DataSourceSurface
 (
