@@ -1075,10 +1075,21 @@ LD_LIBRARY_PATH
 s
 '
 %
+os
+.
+path
+.
+join
 (
 OPTIONS
 .
-libdir
+objdir
+'
+js
+'
+'
+src
+'
 )
                 
 '
@@ -1729,7 +1740,7 @@ prog
 [
 options
 ]
-LIBDIR
+OBJDIR
 [
 TESTS
 .
@@ -2335,14 +2346,14 @@ error
 (
 '
 missing
-LIBDIR
+OBJDIR
 argument
 '
 )
     
 OPTIONS
 .
-libdir
+objdir
 =
 os
 .
@@ -2398,7 +2409,13 @@ join
 (
 OPTIONS
 .
-libdir
+objdir
+'
+js
+'
+'
+src
+'
 '
 gdb
 '
