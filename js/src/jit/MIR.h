@@ -2508,6 +2508,9 @@ to
 {
 JS_ASSERT
 (
+this
+-
+>
 is
 <
 MIRType
@@ -2542,6 +2545,9 @@ const
 {
 JS_ASSERT
 (
+this
+-
+>
 is
 <
 MIRType
@@ -2580,6 +2586,9 @@ const
 {
 \
 return
+this
+-
+>
 is
 <
 M
@@ -2607,6 +2616,9 @@ opcode
 {
 \
 return
+this
+-
+>
 to
 <
 M
@@ -2636,6 +2648,9 @@ const
 {
 \
 return
+this
+-
+>
 to
 <
 M
