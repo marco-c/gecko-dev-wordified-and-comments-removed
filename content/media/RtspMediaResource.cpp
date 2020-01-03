@@ -2792,7 +2792,7 @@ NS_ERROR_FAILURE
 ;
 }
 uint64_t
-duration
+durationUs
 =
 0
 ;
@@ -2856,7 +2856,7 @@ trackMeta
 GetDuration
 (
 &
-duration
+durationUs
 )
 ;
 uint32_t
@@ -2940,7 +2940,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-duration
+durationUs
 )
 {
 mRealTime
@@ -2960,7 +2960,14 @@ mDecoder
 >
 SetDuration
 (
-duration
+(
+double
+)
+(
+durationUs
+)
+/
+USECS_PER_S
 )
 ;
 }
