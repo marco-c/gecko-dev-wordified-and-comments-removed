@@ -2121,6 +2121,8 @@ eChildToUserSpace
 {
 return
 toUserSpace
+*
+aMatrix
 ;
 }
 NS_ABORT_IF_FALSE
