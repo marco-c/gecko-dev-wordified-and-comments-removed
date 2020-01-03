@@ -188,9 +188,6 @@ RelocationOverlay
 *
 tail
 ;
-bool
-savedRuntimeNeedBarrier
-;
 TenuringTracer
 (
 JSRuntime
@@ -199,11 +196,6 @@ rt
 Nursery
 *
 nursery
-)
-;
-~
-TenuringTracer
-(
 )
 ;
 public
