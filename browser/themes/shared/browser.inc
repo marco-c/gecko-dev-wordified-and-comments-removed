@@ -206,6 +206,10 @@ nestedButtons
 e10s
 -
 button
+#
+panic
+-
+button
 %
 ifdef
 XP_MACOSX
