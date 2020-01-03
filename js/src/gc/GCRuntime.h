@@ -3896,7 +3896,6 @@ objectsMarkedInDeadZones
 bool
 poked
 ;
-volatile
 js
 :
 :
