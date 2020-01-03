@@ -1432,7 +1432,6 @@ if
 mDemuxerInitialized
 )
 {
-{
 MonitorAutoLock
 mon
 (
@@ -1459,7 +1458,6 @@ mIndexReady
 =
 true
 ;
-}
 mInfo
 .
 mVideo
@@ -1503,6 +1501,12 @@ HasValidAudio
 )
 ;
 {
+MonitorAutoUnlock
+unlock
+(
+mDemuxerMonitor
+)
+;
 ReentrantMonitorAutoEnter
 mon
 (
@@ -2026,6 +2030,15 @@ rv
 }
 Microseconds
 duration
+;
+{
+MonitorAutoLock
+lock
+(
+mDemuxerMonitor
+)
+;
+duration
 =
 mDemuxer
 -
@@ -2034,6 +2047,7 @@ Duration
 (
 )
 ;
+}
 if
 (
 duration
@@ -2112,6 +2126,12 @@ IsMediaSeekable
 (
 )
 {
+MonitorAutoLock
+mon
+(
+mDemuxerMonitor
+)
+;
 return
 mDecoder
 -
