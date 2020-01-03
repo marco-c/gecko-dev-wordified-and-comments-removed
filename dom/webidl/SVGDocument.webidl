@@ -125,6 +125,7 @@ DOMString
 domain
 ;
 [
+Pure
 Throws
 ]
 readonly
