@@ -77,10 +77,6 @@ clearkey
 CLEARKEY_CDM_FILES
 =
 \
-(
-SHARED_LIBRARY
-)
-\
 clearkey
 .
 info
