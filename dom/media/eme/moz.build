@@ -127,6 +127,11 @@ MediaKeySession
 h
 '
 '
+MediaKeyStatusMap
+.
+h
+'
+'
 MediaKeySystemAccess
 .
 h
@@ -205,6 +210,11 @@ cpp
 '
 '
 MediaKeySession
+.
+cpp
+'
+'
+MediaKeyStatusMap
 .
 cpp
 '

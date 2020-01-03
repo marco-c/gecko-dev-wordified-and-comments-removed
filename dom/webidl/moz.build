@@ -3975,6 +3975,11 @@ MediaKeySession
 webidl
 '
 '
+MediaKeyStatusMap
+.
+webidl
+'
+'
 MediaKeySystemAccess
 .
 webidl
