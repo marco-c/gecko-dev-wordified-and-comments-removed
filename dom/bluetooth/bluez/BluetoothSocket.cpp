@@ -83,7 +83,7 @@ final
 :
 public
 UnixSocketWatcher
-protected
+public
 DataSocketIO
 {
 public

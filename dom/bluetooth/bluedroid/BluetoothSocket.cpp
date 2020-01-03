@@ -185,7 +185,7 @@ ipc
 :
 :
 UnixFdWatcher
-protected
+public
 DataSocketIO
 {
 public
