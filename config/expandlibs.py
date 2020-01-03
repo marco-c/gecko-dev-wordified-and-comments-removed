@@ -1081,23 +1081,9 @@ arg
 ]
         
 if
-len
-(
 conf
 .
-IMPORT_LIB_SUFFIX
-)
-:
-            
-dll
-=
-root
-+
-conf
-.
-IMPORT_LIB_SUFFIX
-        
-else
+LIB_PREFIX
 :
             
 dll
@@ -1119,24 +1105,16 @@ conf
 .
 DLL_SUFFIX
         
-if
-os
-.
-path
-.
-exists
-(
-dll
-)
+else
 :
             
-return
-[
-relativize
-(
 dll
-)
-]
+=
+root
++
+conf
+.
+DLL_SUFFIX
         
 if
 os
@@ -1145,15 +1123,36 @@ path
 .
 exists
 (
-arg
+dll
 )
 :
             
+if
+conf
+.
+IMPORT_LIB_SUFFIX
+:
+                
 return
 [
 relativize
 (
-arg
+root
++
+conf
+.
+IMPORT_LIB_SUFFIX
+)
+]
+            
+else
+:
+                
+return
+[
+relativize
+(
+dll
 )
 ]
         
@@ -1303,7 +1302,10 @@ objs
         
 return
 [
+relativize
+(
 arg
+)
 ]
 if
 __name__
