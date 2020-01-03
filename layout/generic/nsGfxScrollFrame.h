@@ -1049,7 +1049,12 @@ IsScrollingActive
 const
 {
 return
-mScrollingActive
+mHasBeenScrolledRecently
+|
+|
+IsAlwaysActive
+(
+)
 |
 |
 mShouldBuildScrollableLayer
@@ -1188,12 +1193,12 @@ IsAlwaysActive
 const
 ;
 void
-MarkActive
+MarkRecentlyScrolled
 (
 )
 ;
 void
-MarkInactive
+MarkNotRecentlyScrolled
 (
 )
 ;
@@ -1620,7 +1625,7 @@ mUpdateScrollbarAttributes
 1
 ;
 bool
-mScrollingActive
+mHasBeenScrolledRecently
 :
 1
 ;
