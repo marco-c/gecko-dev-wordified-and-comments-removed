@@ -386,15 +386,6 @@ GetBufferedEnd
 (
 )
 ;
-void
-RangeRemoval
-(
-double
-aStart
-double
-aEnd
-)
-;
 #
 if
 defined
