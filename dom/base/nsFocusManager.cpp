@@ -7586,6 +7586,7 @@ false
 ;
 }
 }
+}
 if
 (
 TabParent
@@ -7619,7 +7620,6 @@ deactivated
 )
 )
 ;
-}
 }
 }
 bool
