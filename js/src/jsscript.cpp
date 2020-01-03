@@ -21273,6 +21273,12 @@ false
 ;
 p
 .
+hasDirectEval
+=
+false
+;
+p
+.
 directlyInsideEval
 =
 false
