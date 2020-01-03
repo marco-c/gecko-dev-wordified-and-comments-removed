@@ -641,6 +641,15 @@ const
 =
 0
 ;
+virtual
+bool
+IsIgnoringViewportClipping
+(
+)
+const
+=
+0
+;
 }
 ;
 #

@@ -201,6 +201,13 @@ GetType
 const
 MOZ_OVERRIDE
 ;
+virtual
+bool
+UpdateOverflow
+(
+)
+MOZ_OVERRIDE
+;
 nsRect
 AdjustReflowStateAsContainingBlock
 (
