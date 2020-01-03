@@ -15300,6 +15300,9 @@ mPlayingThroughTheAudioChannel
 mAudioChannelAgent
 )
 {
+AutoNoJSAPI
+nojsapi
+;
 mAudioChannelAgent
 -
 >
