@@ -2148,8 +2148,6 @@ t
 zone
 -
 >
-allocator
-.
 arenas
 .
 allocateFromFreeList
@@ -2174,8 +2172,6 @@ t
 zone
 -
 >
-allocator
-.
 arenas
 .
 checkEmptyFreeList
@@ -2187,8 +2183,6 @@ return
 zone
 -
 >
-allocator
-.
 arenas
 .
 allocateFromArena

@@ -1033,8 +1033,6 @@ UpdateJit
 zone
 -
 >
-allocator
-.
 arenas
 .
 purge

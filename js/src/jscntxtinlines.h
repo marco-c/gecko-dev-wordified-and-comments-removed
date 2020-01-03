@@ -2211,7 +2211,7 @@ zone
 :
 nullptr
 ;
-allocator_
+arenas_
 =
 zone_
 ?
@@ -2219,7 +2219,7 @@ zone_
 zone_
 -
 >
-allocator
+arenas
 :
 nullptr
 ;
