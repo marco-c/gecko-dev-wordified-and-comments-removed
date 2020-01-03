@@ -813,7 +813,7 @@ GetD3D11ContentDevice
 ;
 ID3D11Device
 *
-GetD3D11ImageBridgeDevice
+GetD3D11MediaDevice
 (
 )
 ;
@@ -1058,7 +1058,7 @@ RefPtr
 <
 ID3D11Device
 >
-mD3D11ImageBridgeDevice
+mD3D11MediaDevice
 ;
 bool
 mD3D11DeviceInitialized
@@ -1080,6 +1080,9 @@ mD3D11ReadbackManager
 ;
 bool
 mIsWARP
+;
+bool
+mCanInitMediaDevice
 ;
 bool
 mHasDeviceReset
