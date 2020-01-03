@@ -1494,7 +1494,9 @@ cancel
 )
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -1697,7 +1699,9 @@ start
 )
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;

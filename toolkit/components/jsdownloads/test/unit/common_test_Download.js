@@ -9376,7 +9376,9 @@ mustInterruptResponses
 )
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -9445,7 +9447,9 @@ TRANSITION_DOWNLOAD
 )
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -9493,7 +9497,9 @@ test_history_tryToKeepPartialData
 )
 {
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
