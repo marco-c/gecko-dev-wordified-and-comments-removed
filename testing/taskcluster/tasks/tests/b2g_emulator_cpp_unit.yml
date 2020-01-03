@@ -153,9 +153,11 @@ test
 -
 caching
 /
-packages
-/
-xre_linux_x86
+xulrunner
+-
+sdk
+-
+40
 .
 zip
 artifacts

@@ -235,13 +235,11 @@ test
 -
 caching
 /
-packages
-/
-xre
-.
-linux
+xulrunner
 -
-x86_64
+sdk
+-
+40
 .
 zip
 artifacts
