@@ -3355,7 +3355,7 @@ R
 .
 color
 .
-background_private
+private_toolbar_grey
 :
 R
 .
