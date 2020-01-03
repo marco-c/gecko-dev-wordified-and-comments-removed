@@ -9050,6 +9050,31 @@ XPCOM_DEBUG_BREAK
 stack
 "
     
+if
+self
+.
+getTestFlavor
+(
+options
+)
+=
+=
+"
+mochitest
+"
+:
+      
+browserEnv
+[
+"
+MOZ_WIN_INHERIT_STD_HANDLES_PRE_VISTA
+"
+]
+=
+"
+1
+"
+    
 try
 :
       
