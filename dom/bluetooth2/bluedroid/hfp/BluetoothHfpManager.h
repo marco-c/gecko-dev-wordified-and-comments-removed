@@ -465,10 +465,10 @@ class
 CloseScoTask
 ;
 class
-RespondToBLDNTask
+CloseScoRunnable
 ;
 class
-MainThreadTask
+RespondToBLDNTask
 ;
 friend
 class
