@@ -119,9 +119,6 @@ unused
 define
 NOTIFY_TOKEN
 0xFA
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gWidgetLog
@@ -146,8 +143,6 @@ gWidgetDrawLog
 =
 nullptr
 ;
-#
-endif
 static
 GPollFunc
 sPollFunc
@@ -342,9 +337,6 @@ Init
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -401,8 +393,6 @@ WidgetDraw
 "
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_ENABLE_DBUS

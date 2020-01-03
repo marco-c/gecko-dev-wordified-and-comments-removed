@@ -1100,16 +1100,11 @@ screenmanager
 1
 "
 ;
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gWindowsLog
 ;
-#
-endif
 static
 bool
 gWindowsVisible

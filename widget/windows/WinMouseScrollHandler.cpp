@@ -119,9 +119,6 @@ mozilla
 namespace
 widget
 {
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gMouseScrollLog
@@ -340,15 +337,6 @@ LOG_KEYSTATE
 LogKeyStateImpl
 (
 )
-#
-else
-#
-define
-LOG_KEYSTATE
-(
-)
-#
-endif
 MouseScrollHandler
 *
 MouseScrollHandler
@@ -488,9 +476,6 @@ Initialize
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -507,8 +492,6 @@ MouseScrollHandlerWidgets
 )
 ;
 }
-#
-endif
 Device
 :
 :
@@ -3068,9 +3051,6 @@ return
 ;
 }
 }
-#
-ifdef
-PR_LOGGING
 else
 {
 PR_LOG
@@ -3096,8 +3076,6 @@ dispatched
 )
 ;
 }
-#
-endif
 }
 void
 MouseScrollHandler
@@ -5831,9 +5809,6 @@ commandEvent
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 else
 {
 PR_LOG
@@ -5861,8 +5836,6 @@ Consumed
 )
 ;
 }
-#
-endif
 return
 true
 ;

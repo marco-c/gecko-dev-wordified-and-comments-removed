@@ -80,16 +80,11 @@ mozilla
 :
 widget
 ;
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gWindowsLog
 ;
-#
-endif
 const
 wchar_t
 nsWinGesture

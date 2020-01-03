@@ -102,17 +102,12 @@ nsServiceManagerUtils
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gKeymapWrapperLog
 =
 nullptr
 ;
-#
-endif
 #
 include
 "
@@ -240,9 +235,6 @@ sBidiKeyboard
 =
 nullptr
 ;
-#
-ifdef
-PR_LOGGING
 static
 const
 char
@@ -387,8 +379,6 @@ InvalidValue
 ;
 }
 }
-#
-endif
 KeymapWrapper
 :
 :
@@ -738,9 +728,6 @@ mXKBBaseEventCode
 0
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -780,8 +767,6 @@ mGdkKeymap
 )
 )
 ;
-#
-endif
 g_signal_connect
 (
 mGdkKeymap

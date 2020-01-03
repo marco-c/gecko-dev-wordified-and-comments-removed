@@ -268,16 +268,11 @@ pasteboard
 type
 "
 nil
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 sCocoaLog
 ;
-#
-endif
 extern
 void
 EnsureLogInitialized

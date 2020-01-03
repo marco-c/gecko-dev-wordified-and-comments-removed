@@ -117,17 +117,12 @@ nsThreadUtils
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gWin32SoundLog
 =
 nullptr
 ;
-#
-endif
 class
 nsSoundPlayer
 :
@@ -390,9 +385,6 @@ nsSound
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -409,8 +401,6 @@ nsSound
 )
 ;
 }
-#
-endif
 mLastSound
 =
 nullptr

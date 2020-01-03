@@ -71,9 +71,6 @@ h
 "
 #
 endif
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gWidgetLog
@@ -98,8 +95,6 @@ gWidgetDrawLog
 =
 nullptr
 ;
-#
-endif
 static
 int
 sPokeEvent
@@ -128,9 +123,6 @@ Init
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -187,8 +179,6 @@ WidgetDraw
 "
 )
 ;
-#
-endif
 sPokeEvent
 =
 QEvent

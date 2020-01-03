@@ -134,9 +134,6 @@ using
 namespace
 mozilla
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -167,8 +164,6 @@ return
 sLog
 ;
 }
-#
-endif
 #
 define
 DO_PR_DEBUG_LOG

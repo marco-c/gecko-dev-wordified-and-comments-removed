@@ -131,9 +131,6 @@ gfxPDFSurface
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -146,8 +143,6 @@ DeviceContextSpecQt
 "
 )
 ;
-#
-endif
 #
 define
 DO_PR_DEBUG_LOG

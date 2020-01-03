@@ -136,17 +136,12 @@ mozilla
 namespace
 widget
 {
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gNativeKeyBindingsLog
 =
 nullptr
 ;
-#
-endif
 NativeKeyBindings
 *
 NativeKeyBindings
@@ -338,9 +333,6 @@ NativeKeyBindingsType
 aType
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -357,8 +349,6 @@ NativeKeyBindings
 )
 ;
 }
-#
-endif
 PR_LOG
 (
 gNativeKeyBindingsLog
@@ -1441,9 +1431,6 @@ i
 .
 selector
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -1500,8 +1487,6 @@ nsSelectorString
 )
 ;
 }
-#
-endif
 /
 /
 Try

@@ -231,9 +231,6 @@ mozilla
 namespace
 widget
 {
-#
-ifdef
-PR_LOGGING
 static
 const
 char
@@ -1046,8 +1043,6 @@ keys
 "
 )
 ;
-#
-endif
 static
 uint32_t
 sUniqueKeyEventId
@@ -9922,17 +9917,12 @@ sIdleService
 =
 nullptr
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 sKeyboardLayoutLogger
 =
 nullptr
 ;
-#
-endif
 KeyboardLayout
 *
 KeyboardLayout
@@ -9948,9 +9938,6 @@ if
 sInstance
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -9967,8 +9954,6 @@ KeyboardLayoutWidgets
 )
 ;
 }
-#
-endif
 sInstance
 =
 new
@@ -11241,9 +11226,6 @@ SetKeyboardState
 originalKbdState
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -11395,8 +11377,6 @@ break
 }
 }
 }
-#
-endif
 }
 inline
 int32_t

@@ -131,9 +131,6 @@ tsf
 force_enable
 "
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 sTextStoreLog
@@ -2877,8 +2874,6 @@ return
 names
 ;
 }
-#
-endif
 class
 InputScopeImpl
 final
@@ -10686,9 +10681,6 @@ E_FAIL
 HRESULT
 hr
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -10773,8 +10765,6 @@ hr
 )
 ;
 }
-#
-endif
 VARIANT
 propValue
 ;
@@ -22817,9 +22807,6 @@ return
 hr
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -22977,8 +22964,6 @@ ActiveSelEnd
 )
 ;
 }
-#
-endif
 return
 S_OK
 ;
@@ -27340,9 +27325,6 @@ Initialize
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -27359,8 +27341,6 @@ nsTextStoreWidgets
 )
 ;
 }
-#
-endif
 PR_LOG
 (
 sTextStoreLog

@@ -887,9 +887,6 @@ INTERNAL_MESSAGE_POSTED
 Status
 mStatus
 ;
-#
-ifdef
-PR_LOGGING
 const
 char
 *
@@ -943,8 +940,6 @@ Unknown
 ;
 }
 }
-#
-endif
 void
 Finish
 (

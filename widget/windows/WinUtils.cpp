@@ -253,17 +253,12 @@ h
 "
 #
 endif
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gWindowsLog
 =
 nullptr
 ;
-#
-endif
 using
 namespace
 mozilla
@@ -1871,9 +1866,6 @@ Initialize
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -1890,8 +1882,6 @@ Widget
 )
 ;
 }
-#
-endif
 if
 (
 !
@@ -2230,9 +2220,6 @@ n
 utf8
 )
 ;
-#
-ifdef
-PR_LOGGING
 NS_ASSERTION
 (
 gWindowsLog
@@ -2265,8 +2252,6 @@ utf8
 )
 )
 ;
-#
-endif
 }
 delete
 [
@@ -2390,9 +2375,6 @@ n
 buffer
 )
 ;
-#
-ifdef
-PR_LOGGING
 NS_ASSERTION
 (
 gWindowsLog
@@ -2425,8 +2407,6 @@ buffer
 )
 )
 ;
-#
-endif
 delete
 [
 ]
