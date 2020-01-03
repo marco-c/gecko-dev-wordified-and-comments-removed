@@ -1868,6 +1868,13 @@ java
 '
 gfx
 /
+DynamicToolbarAnimator
+.
+java
+'
+'
+gfx
+/
 FloatSize
 .
 java
