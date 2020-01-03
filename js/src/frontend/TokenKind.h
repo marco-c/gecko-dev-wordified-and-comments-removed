@@ -642,6 +642,17 @@ class
 \
 macro
 (
+EXTENDS
+"
+keyword
+'
+extends
+'
+"
+)
+\
+macro
+(
 RESERVED
 "
 reserved
