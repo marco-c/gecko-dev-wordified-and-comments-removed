@@ -691,6 +691,14 @@ ContainerParser
 >
 mParser
 ;
+void
+AppendDataToCurrentInputBuffer
+(
+MediaByteBuffer
+*
+aData
+)
+;
 nsRefPtr
 <
 MediaByteBuffer
