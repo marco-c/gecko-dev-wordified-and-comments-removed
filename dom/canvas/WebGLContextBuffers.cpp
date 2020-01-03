@@ -299,6 +299,8 @@ MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS
 "
 )
 ;
+break
+;
 case
 LOCAL_GL_UNIFORM_BUFFER
 :
@@ -325,6 +327,8 @@ than
 MAX_UNIFORM_BUFFER_BINDINGS
 "
 )
+;
+break
 ;
 default
 :
@@ -458,6 +462,8 @@ MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS
 "
 )
 ;
+break
+;
 case
 LOCAL_GL_UNIFORM_BUFFER
 :
@@ -484,6 +490,8 @@ than
 MAX_UNIFORM_BUFFER_BINDINGS
 "
 )
+;
+break
 ;
 default
 :
