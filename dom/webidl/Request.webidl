@@ -11,7 +11,7 @@ tab
 -
 width
 :
-2
+1
 ;
 indent
 -
@@ -234,6 +234,15 @@ cors
 "
 "
 cors
+"
+"
+cors
+-
+with
+-
+forced
+-
+preflight
 "
 }
 ;
