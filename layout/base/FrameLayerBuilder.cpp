@@ -13482,6 +13482,7 @@ mParameters
 else
 if
 (
+(
 itemType
 =
 =
@@ -13507,6 +13508,15 @@ nsDisplayItem
 :
 :
 TYPE_RESOLUTION
+)
+&
+&
+gfxPrefs
+:
+:
+LayoutUseContainersForRootFrames
+(
+)
 )
 {
 newLayerEntry
