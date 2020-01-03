@@ -1368,9 +1368,9 @@ JS
 :
 HandleValue
 value
-JSPropertyOp
+JSGetterOp
 getter
-JSStrictPropertyOp
+JSSetterOp
 setter
 unsigned
 attrs

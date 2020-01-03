@@ -360,7 +360,7 @@ setUndefined
 )
 ;
 return
-CallJSPropertyOp
+CallJSGetterOp
 (
 cx
 desc
@@ -557,7 +557,7 @@ return
 true
 ;
 }
-StrictPropertyOp
+SetterOp
 setter
 =
 ownDesc

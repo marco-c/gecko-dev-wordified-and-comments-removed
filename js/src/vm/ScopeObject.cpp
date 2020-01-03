@@ -2028,7 +2028,7 @@ JSPROP_PERMANENT
 |
 JSPROP_READONLY
 ;
-JSPropertyOp
+JSGetterOp
 getter
 =
 clasp
@@ -2036,7 +2036,7 @@ clasp
 >
 getProperty
 ;
-JSStrictPropertyOp
+JSSetterOp
 setter
 =
 clasp
@@ -2749,9 +2749,9 @@ HandleId
 id
 HandleValue
 value
-JSPropertyOp
+JSGetterOp
 getter
-JSStrictPropertyOp
+JSSetterOp
 setter
 unsigned
 attrs

@@ -4651,7 +4651,7 @@ takeGeneral
 (
 )
 ;
-PropertyOp
+GetterOp
 target
 =
 shape
@@ -11499,7 +11499,7 @@ pushStubCodePointer
 masm
 )
 ;
-StrictPropertyOp
+SetterOp
 target
 =
 shape

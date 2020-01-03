@@ -9611,7 +9611,7 @@ unsigned
 flags
 )
 {
-JSPropertyOp
+JSGetterOp
 getter
 =
 JS_CAST_NATIVE_TO
@@ -9619,10 +9619,10 @@ JS_CAST_NATIVE_TO
 get
 .
 op
-JSPropertyOp
+JSGetterOp
 )
 ;
-JSStrictPropertyOp
+JSSetterOp
 setter
 =
 JS_CAST_NATIVE_TO
@@ -9630,7 +9630,7 @@ JS_CAST_NATIVE_TO
 set
 .
 op
-JSStrictPropertyOp
+JSSetterOp
 )
 ;
 if
@@ -9815,7 +9815,7 @@ getter
 =
 JS_DATA_TO_FUNC_PTR
 (
-PropertyOp
+GetterOp
 getobj
 )
 ;
@@ -9913,7 +9913,7 @@ setter
 =
 JS_DATA_TO_FUNC_PTR
 (
-StrictPropertyOp
+SetterOp
 setobj
 )
 ;

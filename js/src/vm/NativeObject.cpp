@@ -5265,7 +5265,7 @@ nominal
 {
 if
 (
-JSPropertyOp
+JSAddPropertyOp
 addProperty
 =
 obj
@@ -5325,7 +5325,7 @@ propid
 if
 (
 !
-CallJSPropertyOp
+CallJSGetterOp
 (
 cx
 -
@@ -5474,7 +5474,7 @@ true
 }
 if
 (
-JSPropertyOp
+JSAddPropertyOp
 addProperty
 =
 obj
@@ -5546,7 +5546,7 @@ index
 if
 (
 !
-CallJSPropertyOp
+CallJSGetterOp
 (
 cx
 -
@@ -5784,9 +5784,9 @@ HandleNativeObject
 obj
 HandleId
 id
-PropertyOp
+GetterOp
 getter
-StrictPropertyOp
+SetterOp
 setter
 unsigned
 attrs
@@ -6656,9 +6656,9 @@ HandleObject
 obj
 HandleShape
 shape
-PropertyOp
+GetterOp
 getter
-StrictPropertyOp
+SetterOp
 setter
 HandleId
 id
@@ -6792,9 +6792,9 @@ HandleId
 id
 HandleValue
 value
-PropertyOp
+GetterOp
 getter
-StrictPropertyOp
+SetterOp
 setter
 unsigned
 attrs
@@ -7713,9 +7713,9 @@ uint32_t
 index
 HandleValue
 value
-PropertyOp
+GetterOp
 getter
-StrictPropertyOp
+SetterOp
 setter
 unsigned
 attrs
@@ -8004,7 +8004,7 @@ propid
 )
 ;
 return
-CallJSPropertyOp
+CallJSGetterOp
 (
 cx
 shape
@@ -8625,7 +8625,7 @@ setUndefined
 ;
 if
 (
-JSPropertyOp
+JSGetterOp
 getProperty
 =
 obj
@@ -8642,7 +8642,7 @@ getProperty
 if
 (
 !
-CallJSPropertyOp
+CallJSGetterOp
 (
 cx
 getProperty
@@ -9667,7 +9667,7 @@ JSPROP_IGNORE_PERMANENT
 :
 JSPROP_ENUMERATE
 ;
-JSPropertyOp
+JSGetterOp
 getter
 =
 clasp
@@ -9675,7 +9675,7 @@ clasp
 >
 getProperty
 ;
-JSStrictPropertyOp
+JSSetterOp
 setter
 =
 clasp

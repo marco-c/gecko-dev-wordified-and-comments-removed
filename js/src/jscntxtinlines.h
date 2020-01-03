@@ -1525,12 +1525,12 @@ true
 }
 MOZ_ALWAYS_INLINE
 bool
-CallJSPropertyOp
+CallJSGetterOp
 (
 JSContext
 *
 cx
-PropertyOp
+GetterOp
 op
 HandleObject
 receiver
@@ -1582,12 +1582,12 @@ ok
 }
 MOZ_ALWAYS_INLINE
 bool
-CallJSPropertyOpSetter
+CallJSSetterOp
 (
 JSContext
 *
 cx
-StrictPropertyOp
+SetterOp
 op
 HandleObject
 obj
@@ -1691,7 +1691,7 @@ HandleObject
 obj
 HandleId
 id
-StrictPropertyOp
+SetterOp
 op
 unsigned
 attrs
@@ -1756,7 +1756,7 @@ return
 true
 ;
 return
-CallJSPropertyOpSetter
+CallJSSetterOp
 (
 cx
 op

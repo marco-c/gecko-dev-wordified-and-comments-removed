@@ -2779,9 +2779,9 @@ PropertyName
 name
 HandleValue
 value
-PropertyOp
+GetterOp
 getter
-StrictPropertyOp
+SetterOp
 setter
 unsigned
 attrs

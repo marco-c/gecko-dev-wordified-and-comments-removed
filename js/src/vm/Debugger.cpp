@@ -30756,7 +30756,7 @@ id
 UndefinedHandleValue
 JS_DATA_TO_FUNC_PTR
 (
-PropertyOp
+GetterOp
 getobj
 .
 get

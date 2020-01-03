@@ -11297,10 +11297,10 @@ NewObjectKind
 newKind
 )
 {
-PropertyOp
+GetterOp
 gop
 ;
-StrictPropertyOp
+SetterOp
 sop
 ;
 if

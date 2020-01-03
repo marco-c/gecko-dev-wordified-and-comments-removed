@@ -3473,9 +3473,9 @@ getters
 /
 setters
 are
-JSPropertyOp
+JSGetterOp
 /
-JSStrictPropertyOp
+JSSetterOp
 *
 /
 #
@@ -7461,17 +7461,17 @@ N
 ;
 inline
 int
-CheckIsPropertyOp
+CheckIsGetterOp
 (
-JSPropertyOp
+JSGetterOp
 op
 )
 ;
 inline
 int
-CheckIsStrictPropertyOp
+CheckIsSetterOp
 (
-JSStrictPropertyOp
+JSSetterOp
 op
 )
 ;
@@ -7614,7 +7614,7 @@ JS
 detail
 :
 :
-CheckIsPropertyOp
+CheckIsGetterOp
 (
 v
 )
@@ -7650,7 +7650,7 @@ JS
 detail
 :
 :
-CheckIsStrictPropertyOp
+CheckIsSetterOp
 (
 v
 )
@@ -9831,10 +9831,10 @@ obj
 unsigned
 attrs
 ;
-JSPropertyOp
+JSGetterOp
 getter
 ;
-JSStrictPropertyOp
+JSSetterOp
 setter
 ;
 JS
@@ -10203,7 +10203,7 @@ desc
 attrs
 ;
 }
-JSPropertyOp
+JSGetterOp
 getter
 (
 )
@@ -10218,7 +10218,7 @@ desc
 getter
 ;
 }
-JSStrictPropertyOp
+JSSetterOp
 setter
 (
 )
@@ -10521,7 +10521,7 @@ desc
 attrs
 ;
 }
-JSPropertyOp
+JSGetterOp
 &
 getter
 (
@@ -10536,7 +10536,7 @@ desc
 getter
 ;
 }
-JSStrictPropertyOp
+JSSetterOp
 &
 setter
 (
@@ -10614,7 +10614,7 @@ attrs
 void
 setGetter
 (
-JSPropertyOp
+JSGetterOp
 op
 )
 {
@@ -10639,7 +10639,7 @@ op
 void
 setSetter
 (
-JSStrictPropertyOp
+JSSetterOp
 op
 )
 {
@@ -10678,7 +10678,7 @@ getter
 =
 reinterpret_cast
 <
-JSPropertyOp
+JSGetterOp
 >
 (
 obj
@@ -10702,7 +10702,7 @@ setter
 =
 reinterpret_cast
 <
-JSStrictPropertyOp
+JSSetterOp
 >
 (
 obj

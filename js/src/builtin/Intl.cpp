@@ -2923,7 +2923,7 @@ compare
 UndefinedHandleValue
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSGetterOp
 &
 getter
 .
@@ -5599,7 +5599,7 @@ format
 UndefinedHandleValue
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSGetterOp
 &
 getter
 .
@@ -8059,7 +8059,7 @@ format
 UndefinedHandleValue
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSGetterOp
 &
 getter
 .

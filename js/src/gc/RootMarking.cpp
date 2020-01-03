@@ -2335,7 +2335,7 @@ getter
 =
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSGetterOp
 tmp
 )
 ;
@@ -2380,7 +2380,7 @@ setter
 =
 JS_DATA_TO_FUNC_PTR
 (
-JSStrictPropertyOp
+JSSetterOp
 tmp
 )
 ;

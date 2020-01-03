@@ -1439,7 +1439,7 @@ Forwarded
 unowned
 )
 ;
-PropertyOp
+GetterOp
 getter
 =
 key
@@ -1460,7 +1460,7 @@ hasGetterObject
 )
 getter
 =
-PropertyOp
+GetterOp
 (
 MaybeForwarded
 (
@@ -1473,7 +1473,7 @@ getterObject
 )
 )
 ;
-StrictPropertyOp
+SetterOp
 setter
 =
 key
@@ -1494,7 +1494,7 @@ hasSetterObject
 )
 setter
 =
-StrictPropertyOp
+SetterOp
 (
 MaybeForwarded
 (

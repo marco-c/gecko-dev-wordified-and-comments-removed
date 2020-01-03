@@ -20759,10 +20759,10 @@ isCallable
 )
 )
 ;
-PropertyOp
+GetterOp
 getter
 ;
-StrictPropertyOp
+SetterOp
 setter
 ;
 unsigned
@@ -20797,7 +20797,7 @@ JSOP_INITELEM_GETTER
 {
 getter
 =
-CastAsPropertyOp
+CastAsGetterOp
 (
 val
 )
@@ -20834,7 +20834,7 @@ nullptr
 ;
 setter
 =
-CastAsStrictPropertyOp
+CastAsSetterOp
 (
 val
 )

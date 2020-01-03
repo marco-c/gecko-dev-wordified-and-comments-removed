@@ -125,7 +125,7 @@ JSObject
 *
 CastAsObject
 (
-PropertyOp
+GetterOp
 op
 )
 {
@@ -143,7 +143,7 @@ JSObject
 *
 CastAsObject
 (
-StrictPropertyOp
+SetterOp
 op
 )
 {
@@ -160,7 +160,7 @@ inline
 Value
 CastAsObjectJsval
 (
-PropertyOp
+GetterOp
 op
 )
 {
@@ -178,7 +178,7 @@ inline
 Value
 CastAsObjectJsval
 (
-StrictPropertyOp
+SetterOp
 op
 )
 {
@@ -2976,11 +2976,11 @@ HandleId
 id
 HandleValue
 value
-JSPropertyOp
+JSGetterOp
 getter
 =
 nullptr
-JSStrictPropertyOp
+JSSetterOp
 setter
 =
 nullptr
@@ -3004,11 +3004,11 @@ PropertyName
 name
 HandleValue
 value
-JSPropertyOp
+JSGetterOp
 getter
 =
 nullptr
-JSStrictPropertyOp
+JSSetterOp
 setter
 =
 nullptr
@@ -3031,11 +3031,11 @@ uint32_t
 index
 HandleValue
 value
-JSPropertyOp
+JSGetterOp
 getter
 =
 nullptr
-JSStrictPropertyOp
+JSSetterOp
 setter
 =
 nullptr

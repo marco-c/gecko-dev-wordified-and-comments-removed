@@ -8182,9 +8182,9 @@ HandleId
 id
 HandleValue
 v
-PropertyOp
+GetterOp
 getter
-StrictPropertyOp
+SetterOp
 setter
 unsigned
 attrs
