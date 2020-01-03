@@ -290,6 +290,16 @@ else
 false
 #
 endif
+DLL_PREFIX
+:
+"
+DLL_PREFIX
+"
+DLL_SUFFIX
+:
+"
+DLL_SUFFIX
+"
 MOZ_APP_NAME
 :
 "
