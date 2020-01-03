@@ -156,6 +156,13 @@ defined
 (
 MOZ_GLUE_IN_PROGRAM
 )
+&
+&
+!
+defined
+(
+MOZILLA_XPCOMRT_API
+)
 #
 define
 MFBT_API

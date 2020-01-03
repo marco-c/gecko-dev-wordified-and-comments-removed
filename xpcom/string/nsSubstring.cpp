@@ -618,10 +618,7 @@ STRING_STAT_INCREMENT
 AdoptFree
 )
 ;
-#
-ifdef
-NS_BUILD_REFCNT_LOGGING
-NS_LogDtor
+MOZ_LOG_DTOR
 (
 aData
 "
@@ -630,8 +627,6 @@ StringAdopt
 1
 )
 ;
-#
-endif
 }
 }
 class

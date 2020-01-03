@@ -1868,6 +1868,13 @@ return
 }
 #
 endif
+#
+if
+!
+defined
+(
+MOZILLA_XPCOMRT_API
+)
 PROFILER_LABEL
 (
 "
@@ -1888,6 +1895,8 @@ Category
 OTHER
 )
 ;
+#
+endif
 #
 ifdef
 MOZ_TASK_TRACER
