@@ -22475,9 +22475,8 @@ fill
 assertInheritance
 }
             
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-aGivenProto
 !
 aCache
 -
@@ -22485,6 +22484,26 @@ aCache
 GetWrapper
 (
 )
+                       
+"
+You
+should
+probably
+not
+be
+using
+Wrap
+(
+)
+directly
+;
+use
+"
+                       
+"
+GetOrCreateDOMReflector
+instead
+"
 )
 ;
             
