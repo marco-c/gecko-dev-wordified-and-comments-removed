@@ -36563,9 +36563,15 @@ if
 (
 position
 &
+(
 Node
 .
 DOCUMENT_POSITION_CONTAINS
+|
+Node
+.
+DOCUMENT_POSITION_CONTAINED_BY
+)
 )
 )
 {
