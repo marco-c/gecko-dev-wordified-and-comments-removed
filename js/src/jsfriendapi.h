@@ -95,7 +95,6 @@ sp
 MOZ_LIKELY
 (
 (
-(
 uintptr_t
 )
 (
