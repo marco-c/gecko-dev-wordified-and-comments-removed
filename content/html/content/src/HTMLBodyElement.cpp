@@ -505,14 +505,6 @@ eCSSUnit_Pixel
 )
 ;
 }
-if
-(
-eCompatibility_NavQuirks
-=
-=
-mode
-)
-{
 value
 =
 mPart
@@ -860,7 +852,6 @@ bodyRightMargin
 eCSSUnit_Pixel
 )
 ;
-}
 }
 }
 if
