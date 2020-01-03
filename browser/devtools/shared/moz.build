@@ -411,6 +411,13 @@ js
 '
 widgets
 /
+MountainGraphWidget
+.
+js
+'
+'
+widgets
+/
 Spectrum
 .
 js
