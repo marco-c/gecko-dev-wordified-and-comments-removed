@@ -3706,6 +3706,11 @@ mallocSizeOf
 )
 const
 ;
+void
+ReportHashStats
+(
+)
+;
 static
 CacheIndex
 *
