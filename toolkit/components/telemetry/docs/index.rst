@@ -166,4 +166,7 @@ ping
 crash
 -
 ping
+uitour
+-
+ping
 preferences
