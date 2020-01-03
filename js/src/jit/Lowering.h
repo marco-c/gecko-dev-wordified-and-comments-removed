@@ -1968,6 +1968,14 @@ ins
 )
 ;
 bool
+visitSimdConvert
+(
+MSimdConvert
+*
+ins
+)
+;
+bool
 visitPhi
 (
 MPhi
