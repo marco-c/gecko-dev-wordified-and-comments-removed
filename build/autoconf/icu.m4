@@ -179,7 +179,7 @@ ANDROID_VERSION
 "
 -
 ge
-17
+18
 ;
 then
 dnl
