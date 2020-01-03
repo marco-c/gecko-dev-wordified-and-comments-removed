@@ -417,9 +417,9 @@ gfxRect
 aOverrideBounds
 )
 ;
-nsIFrame
+nsSVGPatternFrame
 *
-GetPatternFirstChild
+GetPatternWithChildren
 (
 )
 ;
