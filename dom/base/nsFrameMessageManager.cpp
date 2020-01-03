@@ -7498,11 +7498,6 @@ CompilationScope
 )
 )
 ;
-if
-(
-global
-)
-{
 JSAutoCompartment
 ac
 (
@@ -7681,7 +7676,6 @@ aURL
 holder
 )
 ;
-}
 }
 }
 }
