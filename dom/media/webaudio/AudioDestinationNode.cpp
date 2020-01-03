@@ -1390,6 +1390,10 @@ mExtraCurrentTimeUpdatedSinceLastStableState
 (
 false
 )
+mHaveDispatchedInterruptBeginEvent
+(
+false
+)
 {
 bool
 startWithAudioDriver
@@ -2127,6 +2131,14 @@ if
 UseAudioChannelAPI
 (
 )
+&
+&
+(
+mHaveDispatchedInterruptBeginEvent
+|
+|
+aMuted
+)
 )
 {
 Context
@@ -2153,6 +2165,10 @@ mozinterruptbegin
 "
 )
 )
+;
+mHaveDispatchedInterruptBeginEvent
+=
+aMuted
 ;
 }
 }

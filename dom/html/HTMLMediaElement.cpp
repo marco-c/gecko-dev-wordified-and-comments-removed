@@ -8947,6 +8947,10 @@ mElementInTreeState
 (
 ELEMENT_NOT_INTREE
 )
+mHaveDispatchedInterruptBeginEvent
+(
+false
+)
 {
 if
 (
@@ -19691,6 +19695,10 @@ mozinterruptbegin
 )
 )
 ;
+mHaveDispatchedInterruptBeginEvent
+=
+true
+;
 }
 }
 else
@@ -19718,8 +19726,15 @@ if
 UseAudioChannelAPI
 (
 )
+&
+&
+mHaveDispatchedInterruptBeginEvent
 )
 {
+mHaveDispatchedInterruptBeginEvent
+=
+false
+;
 DispatchAsyncEvent
 (
 NS_LITERAL_STRING

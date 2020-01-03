@@ -358,6 +358,9 @@ mExtraCurrentTimeSinceLastStartedBlocking
 bool
 mExtraCurrentTimeUpdatedSinceLastStableState
 ;
+bool
+mHaveDispatchedInterruptBeginEvent
+;
 }
 ;
 }
