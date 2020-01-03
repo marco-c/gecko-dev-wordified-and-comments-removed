@@ -1103,6 +1103,14 @@ parseInt
 10
 )
 ;
+assertEq
+(
+Number
+.
+parseInt
+parseInt
+)
+;
 if
 (
 typeof

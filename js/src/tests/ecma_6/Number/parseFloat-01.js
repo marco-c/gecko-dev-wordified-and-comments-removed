@@ -146,6 +146,14 @@ NaN
 NaN
 )
 ;
+assertEq
+(
+Number
+.
+parseFloat
+parseFloat
+)
+;
 if
 (
 typeof
