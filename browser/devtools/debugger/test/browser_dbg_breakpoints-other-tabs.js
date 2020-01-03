@@ -28,7 +28,6 @@ function
 const
 [
 tab1
-debuggee1
 panel1
 ]
 =
@@ -41,7 +40,6 @@ TAB_URL
 const
 [
 tab2
-debuggee2
 panel2
 ]
 =
@@ -106,17 +104,12 @@ paused
 "
 )
 ;
-executeSoon
+callInTab
 (
-(
-)
-=
->
-debuggee2
-.
+tab2
+"
 testCase
-(
-)
+"
 )
 ;
 const

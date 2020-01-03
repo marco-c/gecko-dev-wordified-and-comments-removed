@@ -31,7 +31,6 @@ requestLongerTimeout
 const
 [
 tab
-debuggee
 panel
 ]
 =

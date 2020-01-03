@@ -20,7 +20,6 @@ test
 {
 let
 gTab
-gDebuggee
 gPanel
 gDebugger
 ;
@@ -41,7 +40,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -51,10 +49,6 @@ aPanel
 gTab
 =
 aTab
-;
-gDebuggee
-=
-aDebuggee
 ;
 gPanel
 =
@@ -119,10 +113,12 @@ then
 performTest
 )
 ;
-gDebuggee
-.
-firstCall
+callInTab
 (
+gTab
+"
+firstCall
+"
 )
 ;
 }
