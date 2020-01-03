@@ -374,6 +374,10 @@ skPropHWAccel
 =
 nullptr
 ;
+sLinkStatus
+=
+LinkStatus_INIT
+;
 }
 }
 CFStringRef
