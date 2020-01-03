@@ -6746,7 +6746,7 @@ xre_path
 device_name
 '
 '
-get_build_var
+target_out
 '
 )
 :
@@ -6824,7 +6824,7 @@ kwargs
 if
 self
 .
-get_build_var
+target_out
 :
             
 host_webapps_dir
@@ -6838,12 +6838,11 @@ join
                 
 self
 .
-get_build_var
-(
+target_out
+                
 '
-TARGET_OUT_DATA
+data
 '
-)
                 
 '
 local
