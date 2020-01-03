@@ -82,6 +82,7 @@ libharfbuzz
 .
 suffix
 if
+!
 test
 -
 f
@@ -90,6 +91,9 @@ so
 "
 ;
 then
+continue
+;
+fi
 echo
 "
 Checking
@@ -135,7 +139,6 @@ fi
 tested
 =
 true
-fi
 done
 if
 !

@@ -427,6 +427,9 @@ forced_rakar
 syllable_tail
 =
 (
+z
+?
+.
 SM
 .
 SM

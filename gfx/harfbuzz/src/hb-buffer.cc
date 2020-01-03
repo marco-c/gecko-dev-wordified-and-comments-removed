@@ -646,6 +646,10 @@ hb_unicode_funcs_get_default
 (
 )
 ;
+flags
+=
+HB_BUFFER_FLAG_DEFAULT
+;
 replacement
 =
 HB_BUFFER_REPLACEMENT_CODEPOINT_DEFAULT
@@ -684,10 +688,6 @@ HB_SEGMENT_PROPERTIES_DEFAULT
 props
 =
 default_props
-;
-flags
-=
-HB_BUFFER_FLAG_DEFAULT
 ;
 content_type
 =
@@ -3090,10 +3090,10 @@ hb_unicode_funcs_t
 &
 _hb_unicode_funcs_nil
 )
-HB_SEGMENT_PROPERTIES_DEFAULT
 HB_BUFFER_FLAG_DEFAULT
 HB_BUFFER_REPLACEMENT_CODEPOINT_DEFAULT
 HB_BUFFER_CONTENT_TYPE_INVALID
+HB_SEGMENT_PROPERTIES_DEFAULT
 true
 true
 true

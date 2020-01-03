@@ -123,10 +123,6 @@ if
 unlikely
 (
 !
-this
-|
-|
-!
 reference_table_func
 )
 )

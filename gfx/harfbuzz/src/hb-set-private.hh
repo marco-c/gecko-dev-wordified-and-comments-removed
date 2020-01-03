@@ -490,10 +490,9 @@ init
 void
 )
 {
-header
-.
-init
+hb_object_init
 (
+this
 )
 ;
 clear
