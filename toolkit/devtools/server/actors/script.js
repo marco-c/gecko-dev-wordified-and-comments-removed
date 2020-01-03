@@ -11927,7 +11927,12 @@ actualColumn
 actualColumn
 ;
 }
+return
+originalLocation
+;
 }
+else
+{
 let
 lineToEntryPointsMap
 =
@@ -12099,6 +12104,7 @@ originalSourceActor
 actualLine
 )
 ;
+}
 }
 else
 {
