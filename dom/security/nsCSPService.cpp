@@ -1238,7 +1238,7 @@ if
 aDecision
 =
 =
-true
+1
 )
 {
 PR_LOG
