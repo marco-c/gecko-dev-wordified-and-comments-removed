@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 nsIIdleServiceInternal
 .
 h
@@ -86,6 +93,8 @@ nsWindow
 :
 public
 nsBaseWidget
+public
+nsSupportsWeakReference
 {
 public
 :
@@ -99,6 +108,7 @@ nsWindow
 (
 )
 ;
+NS_DECL_ISUPPORTS_INHERITED
 static
 void
 DoDraw
