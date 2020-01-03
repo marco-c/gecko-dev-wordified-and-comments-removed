@@ -10,6 +10,11 @@ import
 re
 import
 sys
+from
+.
+string_version
+import
+StringVersion
 _os
 =
 os
@@ -507,7 +512,10 @@ os_version
 '
 ]
 =
+StringVersion
+(
 os_version
+)
 if
 processor
 in
@@ -1308,6 +1316,10 @@ update
     
 '
 find_and_update_from_json
+'
+    
+'
+StringVersion
 '
     
 ]
