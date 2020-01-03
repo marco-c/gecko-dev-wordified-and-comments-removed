@@ -5828,6 +5828,15 @@ reporters
 }
 #
 ifdef
+MOZ_WIDGET_GONK
+#
+define
+DEBUG_CHILD_PROCESS_MEMORY_REPORTING
+1
+#
+endif
+#
+ifdef
 DEBUG_CHILD_PROCESS_MEMORY_REPORTING
 #
 define
@@ -5839,9 +5848,8 @@ format
 .
 )
 \
-fprintf
+printf_stderr
 (
-stderr
 "
 +
 +
