@@ -2725,10 +2725,7 @@ object
 )
 ;
 return
-JSObject
-:
-:
-lookupGeneric
+LookupProperty
 (
 cx
 actual

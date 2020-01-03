@@ -885,10 +885,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-lookupGeneric
+LookupProperty
 (
 cx
 obj

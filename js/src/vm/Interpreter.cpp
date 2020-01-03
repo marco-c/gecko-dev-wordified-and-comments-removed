@@ -9653,10 +9653,7 @@ rootShape0
 if
 (
 !
-JSObject
-:
-:
-lookupGeneric
+LookupProperty
 (
 cx
 obj
@@ -19272,10 +19269,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-lookupProperty
+LookupProperty
 (
 cx
 parent

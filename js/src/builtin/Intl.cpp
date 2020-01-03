@@ -6445,10 +6445,7 @@ hasP
 if
 (
 !
-JSObject
-:
-:
-hasProperty
+HasProperty
 (
 cx
 internals
@@ -9276,10 +9273,7 @@ hasP
 if
 (
 !
-JSObject
-:
-:
-hasProperty
+HasProperty
 (
 cx
 internals

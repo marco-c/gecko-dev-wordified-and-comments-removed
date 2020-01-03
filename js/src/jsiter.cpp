@@ -6285,10 +6285,7 @@ false
 if
 (
 !
-JSObject
-:
-:
-lookupGeneric
+LookupProperty
 (
 cx
 proto
@@ -6983,10 +6980,7 @@ false
 if
 (
 !
-JSObject
-:
-:
-hasProperty
+HasProperty
 (
 cx
 result
@@ -7016,10 +7010,7 @@ true
 if
 (
 !
-JSObject
-:
-:
-hasProperty
+HasProperty
 (
 cx
 result

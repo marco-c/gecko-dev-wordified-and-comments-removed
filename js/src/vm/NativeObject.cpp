@@ -10395,10 +10395,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-lookupGeneric
+LookupProperty
 (
 cx
 proto

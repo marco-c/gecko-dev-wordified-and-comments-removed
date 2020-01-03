@@ -7955,10 +7955,7 @@ true
 ;
 }
 return
-JSObject
-:
-:
-lookupGeneric
+LookupProperty
 (
 cx
 proto

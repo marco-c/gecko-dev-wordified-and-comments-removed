@@ -1546,10 +1546,7 @@ foundp
 if
 (
 !
-JSObject
-:
-:
-hasProperty
+HasProperty
 (
 cx
 obj
@@ -15682,10 +15679,10 @@ nullptr
 ;
 }
 bool
-JSObject
+js
 :
 :
-lookupGeneric
+LookupProperty
 (
 JSContext
 *
@@ -15703,6 +15700,8 @@ MutableHandleShape
 propp
 )
 {
+if
+(
 LookupGenericOp
 op
 =
@@ -15715,10 +15714,6 @@ getOps
 -
 >
 lookupGeneric
-;
-if
-(
-op
 )
 return
 op
@@ -15806,10 +15801,7 @@ enclosingScope
 if
 (
 !
-JSObject
-:
-:
-lookupGeneric
+LookupProperty
 (
 cx
 scope
@@ -16073,10 +16065,7 @@ enclosingScope
 if
 (
 !
-JSObject
-:
-:
-lookupGeneric
+LookupProperty
 (
 cx
 scope
@@ -16178,10 +16167,7 @@ enclosingScope
 if
 (
 !
-JSObject
-:
-:
-lookupGeneric
+LookupProperty
 (
 cx
 scope
@@ -16646,7 +16632,7 @@ HandleId
 id
 bool
 *
-resultp
+result
 )
 {
 if
@@ -16670,7 +16656,7 @@ hasOwn
 cx
 obj
 id
-resultp
+result
 )
 ;
 RootedObject
@@ -16720,7 +16706,7 @@ return
 false
 ;
 *
-resultp
+result
 =
 (
 shape

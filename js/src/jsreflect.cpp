@@ -501,10 +501,7 @@ found
 if
 (
 !
-JSObject
-:
-:
-hasProperty
+HasProperty
 (
 cx
 obj

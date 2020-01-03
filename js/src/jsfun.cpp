@@ -384,10 +384,7 @@ prototype
 if
 (
 !
-JSObject
-:
-:
-hasProperty
+HasProperty
 (
 cx
 obj
@@ -417,10 +414,7 @@ length
 if
 (
 !
-JSObject
-:
-:
-hasProperty
+HasProperty
 (
 cx
 obj
@@ -449,10 +443,7 @@ name
 if
 (
 !
-JSObject
-:
-:
-hasProperty
+HasProperty
 (
 cx
 obj

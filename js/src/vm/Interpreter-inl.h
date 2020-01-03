@@ -1747,10 +1747,7 @@ cx
 if
 (
 !
-JSObject
-:
-:
-lookupProperty
+LookupProperty
 (
 cx
 varobj
