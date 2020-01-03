@@ -4201,12 +4201,13 @@ final
 String
 args
 =
-getIntent
-(
-)
+StringUtils
 .
 getStringExtra
 (
+getIntent
+(
+)
 "
 args
 "
