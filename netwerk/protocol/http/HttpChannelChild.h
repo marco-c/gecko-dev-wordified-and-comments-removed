@@ -463,6 +463,10 @@ const
 nsresult
 &
 statusCode
+const
+ResourceTimingStruct
+&
+timing
 )
 ;
 bool
@@ -845,6 +849,10 @@ const
 nsresult
 &
 channelStatus
+const
+ResourceTimingStruct
+&
+timing
 )
 ;
 void
