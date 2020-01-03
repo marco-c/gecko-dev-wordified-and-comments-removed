@@ -543,8 +543,6 @@ then
 )
 =
 >
-SimpleTest
-.
 finish
 (
 )
