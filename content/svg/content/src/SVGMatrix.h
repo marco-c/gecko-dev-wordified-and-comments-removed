@@ -75,6 +75,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 SVGMatrix
 )
+explicit
 SVGMatrix
 (
 SVGTransform
@@ -102,6 +103,7 @@ SetIsDOMBinding
 )
 ;
 }
+explicit
 SVGMatrix
 (
 const

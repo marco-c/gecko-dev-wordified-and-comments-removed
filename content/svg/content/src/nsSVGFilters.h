@@ -192,6 +192,7 @@ gfx
 FilterPrimitiveDescription
 FilterPrimitiveDescription
 ;
+explicit
 nsSVGFE
 (
 already_AddRefed
@@ -653,6 +654,7 @@ SVGFEUnstyledElementBase
 {
 protected
 :
+explicit
 SVGFEUnstyledElement
 (
 already_AddRefed
@@ -728,6 +730,7 @@ nsSVGFELightingElementBase
 {
 protected
 :
+explicit
 nsSVGFELightingElement
 (
 already_AddRefed
@@ -955,6 +958,7 @@ SVGFELightElementBase
 {
 protected
 :
+explicit
 SVGFELightElement
 (
 already_AddRefed

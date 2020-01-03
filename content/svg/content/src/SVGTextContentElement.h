@@ -206,6 +206,7 @@ point
 ;
 protected
 :
+explicit
 SVGTextContentElement
 (
 already_AddRefed

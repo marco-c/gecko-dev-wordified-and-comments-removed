@@ -197,6 +197,7 @@ aElement
 )
 {
 }
+explicit
 DOMSVGTranslatePoint
 (
 DOMSVGTranslatePoint

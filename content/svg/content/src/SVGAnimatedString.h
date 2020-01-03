@@ -27,6 +27,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 SVGAnimatedString
 (
 nsSVGElement

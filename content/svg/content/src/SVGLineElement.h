@@ -59,6 +59,7 @@ SVGLineElementBase
 {
 protected
 :
+explicit
 SVGLineElement
 (
 already_AddRefed

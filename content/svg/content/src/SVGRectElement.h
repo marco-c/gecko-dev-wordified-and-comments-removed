@@ -59,6 +59,7 @@ SVGRectElementBase
 {
 protected
 :
+explicit
 SVGRectElement
 (
 already_AddRefed

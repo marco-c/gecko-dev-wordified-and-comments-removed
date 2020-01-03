@@ -78,6 +78,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFESpecularLightingElement
 (
 already_AddRefed

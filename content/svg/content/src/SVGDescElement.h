@@ -88,6 +88,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGDescElement
 (
 already_AddRefed

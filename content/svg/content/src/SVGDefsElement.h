@@ -75,6 +75,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGDefsElement
 (
 already_AddRefed

@@ -230,6 +230,7 @@ AutoChangeTransformNotifier
 {
 public
 :
+explicit
 AutoChangeTransformNotifier
 (
 SVGTransform

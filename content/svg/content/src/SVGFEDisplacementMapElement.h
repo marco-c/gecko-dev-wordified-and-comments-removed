@@ -85,6 +85,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGFEDisplacementMapElement
 (
 already_AddRefed

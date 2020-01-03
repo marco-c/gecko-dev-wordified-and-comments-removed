@@ -25,6 +25,7 @@ nsSVGDataParser
 {
 public
 :
+explicit
 nsSVGDataParser
 (
 const

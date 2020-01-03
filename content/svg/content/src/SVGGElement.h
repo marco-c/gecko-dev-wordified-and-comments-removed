@@ -52,6 +52,7 @@ SVGGraphicsElement
 {
 protected
 :
+explicit
 SVGGElement
 (
 already_AddRefed

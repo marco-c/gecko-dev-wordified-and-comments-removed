@@ -78,6 +78,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEDiffuseLightingElement
 (
 already_AddRefed

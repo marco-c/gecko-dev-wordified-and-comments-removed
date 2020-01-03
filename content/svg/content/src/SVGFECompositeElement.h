@@ -92,6 +92,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFECompositeElement
 (
 already_AddRefed

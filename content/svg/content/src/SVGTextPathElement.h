@@ -164,6 +164,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGTextPathElement
 (
 already_AddRefed

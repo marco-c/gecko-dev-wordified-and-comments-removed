@@ -151,6 +151,7 @@ cx
 )
 MOZ_OVERRIDE
 ;
+explicit
 SVGPathElement
 (
 already_AddRefed

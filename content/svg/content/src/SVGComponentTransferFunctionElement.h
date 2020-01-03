@@ -73,6 +73,7 @@ SVGComponentTransferFunctionElementBase
 {
 protected
 :
+explicit
 SVGComponentTransferFunctionElement
 (
 already_AddRefed
@@ -370,6 +371,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEFuncRElement
 (
 already_AddRefed
@@ -504,6 +506,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEFuncGElement
 (
 already_AddRefed
@@ -638,6 +641,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEFuncBElement
 (
 already_AddRefed
@@ -772,6 +776,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEFuncAElement
 (
 already_AddRefed

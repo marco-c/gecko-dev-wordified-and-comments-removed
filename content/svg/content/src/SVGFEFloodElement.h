@@ -78,6 +78,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEFloodElement
 (
 already_AddRefed

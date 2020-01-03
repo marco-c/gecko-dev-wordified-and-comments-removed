@@ -56,6 +56,7 @@ SVGTextElementBase
 {
 protected
 :
+explicit
 SVGTextElement
 (
 already_AddRefed

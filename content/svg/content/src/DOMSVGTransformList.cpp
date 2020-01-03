@@ -267,6 +267,7 @@ AutoChangeTransformListNotifier
 {
 public
 :
+explicit
 AutoChangeTransformListNotifier
 (
 DOMSVGTransformList

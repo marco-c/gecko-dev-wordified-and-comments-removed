@@ -647,6 +647,7 @@ SVGPathData
 {
 public
 :
+explicit
 SVGPathDataAndInfo
 (
 nsSVGElement

@@ -142,6 +142,7 @@ AutoChangePathSegListNotifier
 {
 public
 :
+explicit
 AutoChangePathSegListNotifier
 (
 DOMSVGPathSegList

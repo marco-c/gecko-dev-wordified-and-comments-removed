@@ -74,6 +74,7 @@ nsSVGElement
 {
 public
 :
+explicit
 SVGTransformableElement
 (
 already_AddRefed

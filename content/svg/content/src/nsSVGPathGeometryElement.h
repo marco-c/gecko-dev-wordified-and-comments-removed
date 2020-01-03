@@ -140,6 +140,7 @@ PathBuilder
 ;
 public
 :
+explicit
 nsSVGPathGeometryElement
 (
 already_AddRefed

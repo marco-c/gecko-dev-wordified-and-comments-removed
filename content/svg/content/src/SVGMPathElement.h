@@ -105,6 +105,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGMPathElement
 (
 already_AddRefed
@@ -253,6 +254,7 @@ nsReferencedElement
 {
 public
 :
+explicit
 PathReference
 (
 SVGMPathElement

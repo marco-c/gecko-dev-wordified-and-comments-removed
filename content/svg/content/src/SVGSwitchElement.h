@@ -90,6 +90,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGSwitchElement
 (
 already_AddRefed

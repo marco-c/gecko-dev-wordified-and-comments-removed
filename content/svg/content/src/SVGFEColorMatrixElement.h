@@ -92,6 +92,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEColorMatrixElement
 (
 already_AddRefed

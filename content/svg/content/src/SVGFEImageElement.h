@@ -96,6 +96,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGFEImageElement
 (
 already_AddRefed

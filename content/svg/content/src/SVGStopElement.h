@@ -86,6 +86,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGStopElement
 (
 already_AddRefed

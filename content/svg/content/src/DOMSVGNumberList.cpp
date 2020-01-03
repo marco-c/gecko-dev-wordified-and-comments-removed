@@ -255,6 +255,7 @@ AutoChangeNumberListNotifier
 {
 public
 :
+explicit
 AutoChangeNumberListNotifier
 (
 DOMSVGNumberList

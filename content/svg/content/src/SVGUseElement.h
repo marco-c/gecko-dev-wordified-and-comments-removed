@@ -173,6 +173,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGUseElement
 (
 already_AddRefed
@@ -351,6 +352,7 @@ nsReferencedElement
 {
 public
 :
+explicit
 SourceReference
 (
 SVGUseElement

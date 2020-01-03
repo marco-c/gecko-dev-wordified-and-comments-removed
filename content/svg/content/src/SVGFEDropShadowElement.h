@@ -99,6 +99,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFEDropShadowElement
 (
 already_AddRefed

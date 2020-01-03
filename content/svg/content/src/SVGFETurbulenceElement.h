@@ -106,6 +106,7 @@ aNodeInfo
 ;
 protected
 :
+explicit
 SVGFETurbulenceElement
 (
 already_AddRefed

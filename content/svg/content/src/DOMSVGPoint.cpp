@@ -71,6 +71,7 @@ AutoChangePointNotifier
 {
 public
 :
+explicit
 AutoChangePointNotifier
 (
 DOMSVGPoint

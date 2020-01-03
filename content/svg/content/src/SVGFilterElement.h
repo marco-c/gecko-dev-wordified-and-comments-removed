@@ -127,6 +127,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGFilterElement
 (
 already_AddRefed

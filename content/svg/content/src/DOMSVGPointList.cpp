@@ -214,6 +214,7 @@ AutoChangePointListNotifier
 {
 public
 :
+explicit
 AutoChangePointListNotifier
 (
 DOMSVGPointList

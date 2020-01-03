@@ -88,6 +88,7 @@ aNodeInfo
 )
 )
 ;
+explicit
 SVGMetadataElement
 (
 already_AddRefed

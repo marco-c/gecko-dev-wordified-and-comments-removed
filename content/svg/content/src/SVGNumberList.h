@@ -420,6 +420,7 @@ nullptr
 )
 {
 }
+explicit
 SVGNumberListAndInfo
 (
 nsSVGElement

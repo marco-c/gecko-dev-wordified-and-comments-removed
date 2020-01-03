@@ -52,6 +52,7 @@ SVGPolylineElementBase
 {
 protected
 :
+explicit
 SVGPolylineElement
 (
 already_AddRefed

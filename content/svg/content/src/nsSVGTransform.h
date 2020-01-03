@@ -113,6 +113,7 @@ SVG_TRANSFORM_MATRIX
 )
 {
 }
+explicit
 nsSVGTransform
 (
 const
@@ -579,6 +580,7 @@ f
 ;
 }
 }
+explicit
 SVGTransformSMILData
 (
 const
