@@ -2588,6 +2588,9 @@ bool
 mHasAudio
 ;
 bool
+mHasVideo
+;
+bool
 mDownloadSuspendedByCache
 ;
 AudioChannel
