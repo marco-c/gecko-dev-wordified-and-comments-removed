@@ -16,7 +16,7 @@ variables
 build_name
 :
 '
-emualtor
+emulator
 -
 kk
 '
