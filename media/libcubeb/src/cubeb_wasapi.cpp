@@ -2275,11 +2275,16 @@ base_clock
 latency_set
 (
 stm
+std
+:
+:
 max
 (
 last_written_frame
 -
 playing_frame
+0
+.
 0
 )
 )
