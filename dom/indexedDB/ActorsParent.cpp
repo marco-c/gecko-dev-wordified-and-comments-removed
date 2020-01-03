@@ -48914,7 +48914,7 @@ thisDB
 -
 >
 mNextObjectStoreId
->
+<
 =
 otherDB
 -
@@ -48928,7 +48928,7 @@ thisDB
 -
 >
 mNextIndexId
->
+<
 =
 otherDB
 -
