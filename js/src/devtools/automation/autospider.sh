@@ -72,8 +72,7 @@ variant
 }
 clean
 =
-"
-"
+1
 platform
 =
 "
@@ -97,12 +96,13 @@ case
 in
 -
 -
-clobber
+dep
 )
 shift
 clean
 =
-1
+"
+"
 ;
 ;
 -
