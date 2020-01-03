@@ -153,7 +153,7 @@ aSize
 ;
 }
 size_t
-SizeOfDecodedWithComputedFallbackIfHeap
+SizeOfDecoded
 (
 gfxMemoryLocation
 aLocation
