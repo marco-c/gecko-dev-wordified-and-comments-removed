@@ -139,11 +139,14 @@ virtual
 bool
 RecvNotifyCallStateChanged
 (
+nsTArray
+<
 nsITelephonyCallInfo
 *
-const
+>
 &
-aInfo
+&
+aAllInfo
 )
 override
 ;

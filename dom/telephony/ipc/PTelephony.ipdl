@@ -363,7 +363,9 @@ aError
 NotifyCallStateChanged
 (
 nsTelephonyCallInfo
-aInfo
+[
+]
+aAllInfo
 )
 ;
 NotifyCdmaCallWaiting
