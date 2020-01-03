@@ -1830,6 +1830,11 @@ panic
 -
 mainDesc
 "
+closemenu
+=
+"
+none
+"
 >
 <
 radio
