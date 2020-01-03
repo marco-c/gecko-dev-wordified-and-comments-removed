@@ -3131,6 +3131,12 @@ e
 )
 ;
 }
+if
+(
+!
+mIsWebAppProfile
+)
+{
 final
 SharedPreferences
 prefs
@@ -3160,6 +3166,7 @@ apply
 (
 )
 ;
+}
 return
 profileDir
 ;
