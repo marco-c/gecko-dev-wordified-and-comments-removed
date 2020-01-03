@@ -78,6 +78,17 @@ aProperty
 ;
 static
 bool
+IsStyleMaybeAnimated
+(
+nsIFrame
+*
+aFrame
+nsCSSProperty
+aProperty
+)
+;
+static
+bool
 IsStyleAnimated
 (
 nsDisplayListBuilder
