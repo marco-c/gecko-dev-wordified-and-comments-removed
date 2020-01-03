@@ -389,14 +389,6 @@ DrainComplete
 ;
 virtual
 void
-NotifyResourcesStatusChanged
-(
-)
-{
-}
-;
-virtual
-void
 ReleaseMediaResources
 (
 )
