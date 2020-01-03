@@ -209,7 +209,7 @@ in
 SCHEMES
 )
 {
-do_log_info
+do_print
 (
 "
 Testing
@@ -245,7 +245,7 @@ TRANSITIONS
 i
 ]
 ;
-do_log_info
+do_print
 (
 "
 With
@@ -322,7 +322,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Added

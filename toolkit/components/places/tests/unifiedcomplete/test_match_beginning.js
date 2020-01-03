@@ -93,7 +93,7 @@ a
 ]
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -148,7 +148,7 @@ b
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -187,7 +187,7 @@ a
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -226,7 +226,7 @@ b
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -265,7 +265,7 @@ a
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Sanity

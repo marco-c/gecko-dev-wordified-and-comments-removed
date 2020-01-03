@@ -313,7 +313,7 @@ test_import
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Import
@@ -419,7 +419,7 @@ run_next_test
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Simulate
@@ -450,7 +450,7 @@ test_import_noSmartBookmarks
 (
 )
 {
-do_log_info
+do_print
 (
 "
 import
@@ -574,7 +574,7 @@ run_next_test
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Simulate
@@ -605,7 +605,7 @@ test_import_autoExport_updatedSmartBookmarks
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Import
@@ -754,7 +754,7 @@ run_next_test
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Simulate
@@ -785,7 +785,7 @@ test_import_autoExport_oldSmartBookmarks
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Import
@@ -933,7 +933,7 @@ run_next_test
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Simulate
@@ -964,7 +964,7 @@ test_restore
 (
 )
 {
-do_log_info
+do_print
 (
 "
 restore
@@ -1064,7 +1064,7 @@ run_next_test
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Simulate
@@ -1095,7 +1095,7 @@ test_restore_import
 (
 )
 {
-do_log_info
+do_print
 (
 "
 setting
@@ -1215,7 +1215,7 @@ run_next_test
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Simulate

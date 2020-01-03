@@ -213,7 +213,7 @@ tag3
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Make
@@ -273,7 +273,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Check
@@ -331,7 +331,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Make
@@ -392,7 +392,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Multiple
@@ -453,7 +453,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Extra

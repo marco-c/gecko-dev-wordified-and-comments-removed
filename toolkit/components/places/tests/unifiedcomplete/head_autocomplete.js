@@ -583,7 +583,7 @@ onSearchBegin
 =
 >
 {
-do_log_info
+do_print
 (
 "
 onSearchBegin
@@ -615,7 +615,7 @@ onSearchComplete
 =
 >
 {
-do_log_info
+do_print
 (
 "
 onSearchComplete
@@ -656,7 +656,7 @@ expectedSearches
 +
 ;
 }
-do_log_info
+do_print
 (
 "
 Searching
@@ -757,7 +757,7 @@ getCommentAt
 i
 )
 ;
-do_log_info
+do_print
 (
 "
 Looking
@@ -887,7 +887,7 @@ favicon
 "
 ]
 ;
-do_log_info
+do_print
 (
 "
 Checking
@@ -937,7 +937,7 @@ title
 comment
 )
 {
-do_log_info
+do_print
 (
 "
 Got
@@ -1490,7 +1490,7 @@ restrict
 .
 "
 ;
-do_log_info
+do_print
 (
 "
 changing

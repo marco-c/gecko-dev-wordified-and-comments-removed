@@ -192,7 +192,7 @@ uri4
 1
 )
 ;
-do_log_info
+do_print
 (
 "
 two
@@ -324,7 +324,7 @@ switchtab
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 three
@@ -466,7 +466,7 @@ favicon
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 three
@@ -639,7 +639,7 @@ switchtab
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 three
@@ -816,7 +816,7 @@ switchtab
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 three
@@ -948,7 +948,7 @@ favicon
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 two
@@ -1024,7 +1024,7 @@ favicon
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 three
@@ -1156,7 +1156,7 @@ favicon
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 tab
@@ -1285,7 +1285,7 @@ switchtab
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 tab
@@ -1399,7 +1399,7 @@ switchtab
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 tab
@@ -1522,7 +1522,7 @@ switchtab
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 tab

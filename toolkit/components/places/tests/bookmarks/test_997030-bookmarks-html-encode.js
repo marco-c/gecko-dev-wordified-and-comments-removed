@@ -173,7 +173,7 @@ file
 true
 )
 ;
-do_log_info
+do_print
 (
 "
 Checking

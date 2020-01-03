@@ -255,7 +255,7 @@ z
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -303,7 +303,7 @@ r
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -374,7 +374,7 @@ z
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -455,7 +455,7 @@ bookmark
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -523,7 +523,7 @@ bookmark
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -576,7 +576,7 @@ z
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match

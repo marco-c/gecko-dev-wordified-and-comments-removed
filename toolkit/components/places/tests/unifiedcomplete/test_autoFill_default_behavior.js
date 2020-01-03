@@ -239,7 +239,7 @@ bookmark
 false
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -288,7 +288,7 @@ vi
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -345,7 +345,7 @@ typed
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -383,7 +383,7 @@ bo
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -458,7 +458,7 @@ typed
 false
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -526,7 +526,7 @@ bookmarked
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -608,7 +608,7 @@ onlyTyped
 true
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -652,7 +652,7 @@ vi
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -714,7 +714,7 @@ typed
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -757,7 +757,7 @@ bo
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -873,7 +873,7 @@ typed
 true
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -912,7 +912,7 @@ vi
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -951,7 +951,7 @@ ty
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -1006,7 +1006,7 @@ bo
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -1081,7 +1081,7 @@ typed
 false
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -1142,7 +1142,7 @@ bookmarked
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -1188,7 +1188,7 @@ ta
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Restrict
@@ -1513,7 +1513,7 @@ searchEngines
 false
 )
 ;
-do_log_info
+do_print
 (
 "
 URL
@@ -1570,7 +1570,7 @@ v
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 URL
@@ -1642,7 +1642,7 @@ ty
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 URL
@@ -1688,7 +1688,7 @@ b
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 URL
@@ -1796,7 +1796,7 @@ bookmark
 true
 )
 ;
-do_log_info
+do_print
 (
 "
 URL
@@ -1843,7 +1843,7 @@ v
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 URL
@@ -1890,7 +1890,7 @@ t
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 URL
@@ -1953,7 +1953,7 @@ b
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 URL
@@ -2043,7 +2043,7 @@ typed
 false
 )
 ;
-do_log_info
+do_print
 (
 "
 URL

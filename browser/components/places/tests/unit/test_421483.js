@@ -132,7 +132,7 @@ length
 0
 )
 ;
-do_log_info
+do_print
 (
 "
 check
@@ -218,7 +218,7 @@ length
 0
 )
 ;
-do_log_info
+do_print
 (
 "
 check
@@ -280,7 +280,7 @@ smartBookmarkItemIds
 .
 length
 ;
-do_log_info
+do_print
 (
 "
 remove
@@ -345,7 +345,7 @@ length
 smartBookmarksCount
 )
 ;
-do_log_info
+do_print
 (
 "
 check
@@ -407,7 +407,7 @@ smartBookmarkItemIds
 .
 length
 ;
-do_log_info
+do_print
 (
 "
 smart
@@ -577,7 +577,7 @@ smartBookmarkItemIds
 oldTitle
 )
 ;
-do_log_info
+do_print
 (
 "
 check

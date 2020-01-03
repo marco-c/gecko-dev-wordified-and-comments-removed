@@ -6,7 +6,7 @@ test_javascript_match
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Bad

@@ -220,7 +220,7 @@ parseInt
 )
 )
 ;
-do_log_info
+do_print
 (
 "
 Creating

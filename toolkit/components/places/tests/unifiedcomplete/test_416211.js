@@ -6,7 +6,7 @@ test_tag_match_has_bookmark_title
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Make

@@ -100,7 +100,7 @@ key
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Plain
@@ -181,7 +181,7 @@ keyword
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Multi
@@ -268,7 +268,7 @@ keyword
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Keyword
@@ -354,7 +354,7 @@ keyword
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Unescaped
@@ -433,7 +433,7 @@ keyword
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Keyword
@@ -518,7 +518,7 @@ keyword
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Keyword
@@ -600,7 +600,7 @@ keyword
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Keyword
@@ -743,7 +743,7 @@ key
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Two

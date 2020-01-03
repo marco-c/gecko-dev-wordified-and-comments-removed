@@ -6,7 +6,7 @@ test_non_keyword
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -119,7 +119,7 @@ test_keyword
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -230,7 +230,7 @@ test_more_than_keyword
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -348,7 +348,7 @@ test_less_than_keyword
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -466,7 +466,7 @@ test_keyword_casing
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching

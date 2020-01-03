@@ -6,7 +6,7 @@ test_tag_match_url
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Make

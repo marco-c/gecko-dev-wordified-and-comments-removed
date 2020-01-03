@@ -422,7 +422,7 @@ matchBehavior
 2
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -514,7 +514,7 @@ title1
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -592,7 +592,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -700,7 +700,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -834,7 +834,7 @@ title1
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -892,7 +892,7 @@ word
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -1080,7 +1080,7 @@ title1
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -1146,7 +1146,7 @@ word
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Katakana
@@ -1192,7 +1192,7 @@ join
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Ideographs
@@ -1241,7 +1241,7 @@ join
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Ideographs
@@ -1290,7 +1290,7 @@ join
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Ideographs
@@ -1340,7 +1340,7 @@ join
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Extra
@@ -1374,7 +1374,7 @@ matches
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Don

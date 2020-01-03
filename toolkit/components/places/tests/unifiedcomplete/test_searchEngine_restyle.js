@@ -179,7 +179,7 @@ Search
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Past
@@ -270,7 +270,7 @@ bookmark
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Past

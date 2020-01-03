@@ -293,7 +293,7 @@ removePage
 uri6
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -450,7 +450,7 @@ switchtab
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -498,7 +498,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Drop
@@ -548,7 +548,7 @@ title
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Drop
@@ -681,7 +681,7 @@ bookmark
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Drop

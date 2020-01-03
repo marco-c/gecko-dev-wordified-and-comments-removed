@@ -19,7 +19,7 @@ test_disabling_autocomplete
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Check
@@ -106,7 +106,7 @@ test_urls_order
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Add
@@ -221,7 +221,7 @@ test_ignore_prefix
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Add
@@ -325,7 +325,7 @@ test_after_host
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Autocompleting
@@ -434,7 +434,7 @@ test_respect_www
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -550,7 +550,7 @@ test_bookmark_first
 (
 )
 {
-do_log_info
+do_print
 (
 "
 With
@@ -682,7 +682,7 @@ test_full_path
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Check
@@ -838,7 +838,7 @@ test_complete_to_slash
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Check
@@ -1008,7 +1008,7 @@ test_complete_to_slash_with_www
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Check
@@ -1184,7 +1184,7 @@ test_complete_querystring
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Check
@@ -1312,7 +1312,7 @@ test_complete_fragment
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Check

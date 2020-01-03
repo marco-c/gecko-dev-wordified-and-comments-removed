@@ -6,7 +6,7 @@ test_no_slash
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -119,7 +119,7 @@ test_w_slash
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -236,7 +236,7 @@ test_middle
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -362,7 +362,7 @@ test_nonhost
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching

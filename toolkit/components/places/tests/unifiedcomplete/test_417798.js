@@ -93,7 +93,7 @@ javascript
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -136,7 +136,7 @@ javascript
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -180,7 +180,7 @@ javascript
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -239,7 +239,7 @@ bookmark
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match
@@ -271,7 +271,7 @@ matches
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Match

@@ -540,7 +540,7 @@ bar
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 History
@@ -646,7 +646,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Star
@@ -858,7 +858,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Tag
@@ -990,7 +990,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Special
@@ -1090,7 +1090,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Special
@@ -1190,7 +1190,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 Special
@@ -1290,7 +1290,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -1390,7 +1390,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -1504,7 +1504,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -1711,7 +1711,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -1925,7 +1925,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -2131,7 +2131,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -2344,7 +2344,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -2490,7 +2490,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -2645,7 +2645,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -2789,7 +2789,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -2940,7 +2940,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3014,7 +3014,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3095,7 +3095,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3181,7 +3181,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3275,7 +3275,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3353,7 +3353,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3411,7 +3411,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3481,7 +3481,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3668,7 +3668,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3793,7 +3793,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -3941,7 +3941,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4002,7 +4002,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4118,7 +4118,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4259,7 +4259,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4330,7 +4330,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4415,7 +4415,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4484,7 +4484,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4559,7 +4559,7 @@ autoFill
 false
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4680,7 +4680,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -4954,7 +4954,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -5085,7 +5085,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo
@@ -5323,7 +5323,7 @@ tag
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 foo

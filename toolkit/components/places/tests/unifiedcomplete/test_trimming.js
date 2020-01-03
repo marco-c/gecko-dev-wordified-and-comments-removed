@@ -6,7 +6,7 @@ test_untrimmed_secure_www
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -102,7 +102,7 @@ test_untrimmed_secure_www_path
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -208,7 +208,7 @@ test_untrimmed_secure
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -299,7 +299,7 @@ test_untrimmed_secure_path
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -400,7 +400,7 @@ test_untrimmed_www
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -492,7 +492,7 @@ test_untrimmed_www_path
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -598,7 +598,7 @@ test_untrimmed_ftp
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -689,7 +689,7 @@ test_untrimmed_ftp_path
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -790,7 +790,7 @@ test_priority_1
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Ensuring
@@ -975,7 +975,7 @@ test_periority_2
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Ensuring
@@ -1134,7 +1134,7 @@ test_periority_3
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Ensuring
@@ -1269,7 +1269,7 @@ test_periority_4
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Ensuring
@@ -1380,7 +1380,7 @@ test_priority_5
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Ensuring
@@ -1495,7 +1495,7 @@ test_priority_6
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Ensuring
@@ -1610,7 +1610,7 @@ test_longer_domain
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Ensuring
@@ -1740,7 +1740,7 @@ test_escaped_chars
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -1857,7 +1857,7 @@ test_unsecure_secure
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Don
@@ -1975,7 +1975,7 @@ test_unsecure_secure_domain
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Don
@@ -2085,7 +2085,7 @@ test_untyped_www
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Untyped
@@ -2187,7 +2187,7 @@ test_untyped_ftp
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Untyped
@@ -2287,7 +2287,7 @@ test_untyped_secure
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Untyped
@@ -2387,7 +2387,7 @@ test_untyped_secure_www
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Untyped

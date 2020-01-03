@@ -5,7 +5,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 "
 visit
@@ -93,7 +93,7 @@ visiturl
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 visit
@@ -189,7 +189,7 @@ visiturl
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 visit
@@ -272,7 +272,7 @@ visiturl
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 visit
@@ -409,7 +409,7 @@ visiturl
 }
 )
 ;
-do_log_info
+do_print
 (
 "
 visit

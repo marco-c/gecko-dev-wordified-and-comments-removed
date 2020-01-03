@@ -503,7 +503,7 @@ run_next_test
 ;
 }
 ;
-do_log_info
+do_print
 (
 "
 Searching
@@ -615,7 +615,7 @@ function
 (
 )
 {
-do_log_info
+do_print
 (
 description
 )

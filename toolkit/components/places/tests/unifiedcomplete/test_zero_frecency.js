@@ -6,7 +6,7 @@ test_zzero_frec_domain
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
@@ -106,7 +106,7 @@ test_zzero_frec_url
 (
 )
 {
-do_log_info
+do_print
 (
 "
 Searching
