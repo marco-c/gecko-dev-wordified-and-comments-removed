@@ -103,9 +103,10 @@ log
 ;
 assertThrowsInstanceOf
 (
-function
 (
 )
+=
+>
 dbg
 .
 addDebuggee

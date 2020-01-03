@@ -39,10 +39,9 @@ a
 .
 map
 (
-function
-(
 x
-)
+=
+>
 x
 .
 length

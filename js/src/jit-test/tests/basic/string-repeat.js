@@ -107,13 +107,12 @@ myobj
 toString
 :
 (
-function
-(
 )
+=
+>
 "
 abc
 "
-)
 repeat
 :
 String

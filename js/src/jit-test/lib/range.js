@@ -28,7 +28,11 @@ __iterator__
 function
 (
 )
+{
+return
 this
+;
+}
 next
 :
 function

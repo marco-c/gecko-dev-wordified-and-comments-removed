@@ -402,13 +402,12 @@ myobj
 toString
 :
 (
-function
-(
 )
+=
+>
 "
 abc
 "
-)
 contains
 :
 String

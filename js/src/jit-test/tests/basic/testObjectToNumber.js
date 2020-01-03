@@ -9,9 +9,10 @@ o
 {
 valueOf
 :
-function
 (
 )
+=
+>
 -
 3
 }

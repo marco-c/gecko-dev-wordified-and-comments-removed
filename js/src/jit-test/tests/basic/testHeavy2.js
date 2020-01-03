@@ -29,9 +29,13 @@ function
 (
 i
 )
+{
+return
 i
 +
 x
+;
+}
 )
 ;
 }
@@ -62,7 +66,11 @@ return
 function
 (
 )
+{
+return
 i
+;
+}
 ;
 }
 function

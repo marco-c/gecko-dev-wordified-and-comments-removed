@@ -9,9 +9,10 @@ o
 {
 toString
 :
-function
 (
 )
+=
+>
 "
 foo
 "

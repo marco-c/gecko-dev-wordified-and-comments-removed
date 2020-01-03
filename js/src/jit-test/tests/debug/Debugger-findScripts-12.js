@@ -39,9 +39,10 @@ g1
 .
 toSource
 =
-function
 (
 )
+=
+>
 "
 [
 global
@@ -74,9 +75,10 @@ g2
 .
 toSource
 =
-function
 (
 )
+=
+>
 "
 [
 global

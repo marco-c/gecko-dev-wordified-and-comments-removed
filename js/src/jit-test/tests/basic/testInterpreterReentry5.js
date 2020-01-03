@@ -24,7 +24,11 @@ __defineGetter__
 function
 (
 )
+{
+return
 1000
+;
+}
 )
 ;
 for

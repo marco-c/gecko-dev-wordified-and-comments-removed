@@ -106,9 +106,10 @@ s
 '
 ;
 return
-function
 (
 )
+=
+>
 '
 it
 '

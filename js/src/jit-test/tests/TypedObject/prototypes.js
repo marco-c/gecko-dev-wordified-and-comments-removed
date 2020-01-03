@@ -98,9 +98,10 @@ p
 ;
 assertThrowsInstanceOf
 (
-function
 (
 )
+=
+>
 uints
 .
 __proto__
@@ -112,9 +113,10 @@ TypeError
 ;
 assertThrowsInstanceOf
 (
-function
 (
 )
+=
+>
 Object
 .
 setPrototypeOf
