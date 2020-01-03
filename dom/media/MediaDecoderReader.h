@@ -440,11 +440,12 @@ HasVideo
 =
 0
 ;
+virtual
 nsRefPtr
 <
 MetadataPromise
 >
-CallReadMetadata
+AsyncReadMetadata
 (
 )
 ;
