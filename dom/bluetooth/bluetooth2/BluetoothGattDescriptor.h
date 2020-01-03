@@ -98,6 +98,8 @@ public
 nsISupports
 public
 nsWrapperCache
+public
+BluetoothSignalObserver
 {
 public
 :
@@ -237,6 +239,15 @@ private
 ~
 BluetoothGattDescriptor
 (
+)
+;
+void
+HandleDescriptorValueUpdated
+(
+const
+BluetoothValue
+&
+aValue
 )
 ;
 nsCOMPtr
