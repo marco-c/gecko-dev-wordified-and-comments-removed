@@ -585,6 +585,8 @@ removedListener
 )
 {
 assert
+.
+ok
 (
 false
 "
