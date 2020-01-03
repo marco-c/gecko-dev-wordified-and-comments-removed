@@ -285,11 +285,6 @@ DLL_SUFFIX
 BINPATH
 /
 DLL_PREFIX
-omxpluginfroyo
-DLL_SUFFIX
-BINPATH
-/
-DLL_PREFIX
 xul
 DLL_SUFFIX
 BINPATH
@@ -3407,7 +3402,13 @@ sandboxing
 if
 defined
 (
-MOZ_SANDBOX
+MOZ_CONTENT_SANDBOX
+)
+|
+|
+defined
+(
+MOZ_GMP_SANDBOX
 )
 BINPATH
 /
