@@ -193,12 +193,11 @@ CONFIG
 OS_ARCH
 '
 ]
-in
-(
+=
+=
 '
 GNU
 '
-)
 :
 if
 CONFIG
