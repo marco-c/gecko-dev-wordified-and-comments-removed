@@ -364,6 +364,11 @@ nsLookAndFeel
 cpp
 '
 '
+nsScreenManagerGonk
+.
+cpp
+'
+'
 nsWidgetFactory
 .
 cpp
