@@ -501,10 +501,6 @@ BytesPerPixel
 mFormat
 )
 ;
-mDrawTarget
-=
-nullptr
-;
 MarkIndependent
 (
 )
