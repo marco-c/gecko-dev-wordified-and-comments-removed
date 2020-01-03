@@ -1507,6 +1507,7 @@ old
 =
 object
 :
+                
 return
             
 if
@@ -1840,6 +1841,7 @@ exists
 file
 )
 :
+                
 continue
             
 self
@@ -2596,6 +2598,7 @@ i
 is
 self
 :
+                    
 break
             
 for
@@ -5746,6 +5749,7 @@ attributes
 .
 scriptable
 :
+            
 return
 False
         
@@ -6316,6 +6320,7 @@ attributes
 .
 scriptable
 :
+            
 return
 False
         
@@ -7164,6 +7169,7 @@ self
 .
 shared
 :
+            
 kwargs
 [
 '
@@ -7178,6 +7184,7 @@ self
 .
 const
 :
+            
 kwargs
 [
 '
