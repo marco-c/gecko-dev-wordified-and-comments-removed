@@ -1774,6 +1774,10 @@ mD3D11ContentDevice
 =
 nullptr
 ;
+mAdapter
+=
+nullptr
+;
 imgLoader
 :
 :
