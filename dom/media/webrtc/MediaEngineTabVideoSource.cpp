@@ -1073,14 +1073,6 @@ VideoSegment
 )
 )
 ;
-aStream
--
->
-AdvanceKnownTracksTime
-(
-STREAM_TIME_MAX
-)
-;
 return
 NS_OK
 ;

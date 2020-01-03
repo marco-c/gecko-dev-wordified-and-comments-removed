@@ -714,14 +714,6 @@ VideoSegment
 )
 )
 ;
-aStream
--
->
-AdvanceKnownTracksTime
-(
-STREAM_TIME_MAX
-)
-;
 ReentrantMonitorAutoEnter
 sync
 (
