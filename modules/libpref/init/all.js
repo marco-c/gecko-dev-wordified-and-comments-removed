@@ -559,7 +559,7 @@ dom
 .
 enable_resource_timing
 "
-true
+false
 )
 ;
 pref
