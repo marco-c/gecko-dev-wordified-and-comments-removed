@@ -825,10 +825,6 @@ texImageTarget
 mTarget
 )
 ;
-InvalidateStatusOfAttachedFBs
-(
-)
-;
 EnsureMaxLevelWithCustomImagesAtLeast
 (
 level
@@ -856,6 +852,10 @@ level
 0
 )
 SetCustomMipmap
+(
+)
+;
+NotifyFBsStatusChanged
 (
 )
 ;
