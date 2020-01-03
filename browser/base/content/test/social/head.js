@@ -3980,7 +3980,9 @@ getChatBar
 (
 )
 {
-return
+let
+cb
+=
 document
 .
 getElementById
@@ -3989,6 +3991,15 @@ getElementById
 pinnedchats
 "
 )
+;
+cb
+.
+hidden
+=
+false
+;
+return
+cb
 ;
 }
 function
