@@ -1493,6 +1493,11 @@ site
 "
 +
 id
+type
+:
+"
+history
+"
 }
 ;
 }
