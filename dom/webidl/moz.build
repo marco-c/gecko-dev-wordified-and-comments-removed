@@ -1325,6 +1325,11 @@ Location
 webidl
 '
 '
+MediaDevices
+.
+webidl
+'
+'
 MediaElementAudioSourceNode
 .
 webidl
