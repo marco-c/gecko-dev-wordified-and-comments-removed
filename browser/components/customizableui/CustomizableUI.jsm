@@ -13908,12 +13908,12 @@ unregistered
 windows
 :
 {
-"
-iterator
-"
-:
-function
 *
+[
+Symbol
+.
+iterator
+]
 (
 )
 {

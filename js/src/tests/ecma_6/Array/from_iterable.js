@@ -57,9 +57,9 @@ u
 ;
 a
 [
-"
+Symbol
+.
 iterator
-"
 ]
 =
 function

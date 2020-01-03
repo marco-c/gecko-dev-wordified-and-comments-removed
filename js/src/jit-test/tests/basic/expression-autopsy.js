@@ -1163,9 +1163,10 @@ intermediate
 value
 )
 [
-'
-iterator
-'
+(
+intermediate
+value
+)
 ]
 (
 .
@@ -1214,9 +1215,10 @@ intermediate
 value
 )
 [
-'
-iterator
-'
+(
+intermediate
+value
+)
 ]
 (
 .

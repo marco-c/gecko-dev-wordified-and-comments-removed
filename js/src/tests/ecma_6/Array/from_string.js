@@ -94,9 +94,9 @@ String
 .
 prototype
 [
-"
+Symbol
+.
 iterator
-"
 ]
 =
 function
@@ -133,9 +133,9 @@ String
 .
 prototype
 [
-"
+Symbol
+.
 iterator
-"
 ]
 ;
 assertDeepEq
