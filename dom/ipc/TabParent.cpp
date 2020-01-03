@@ -8755,6 +8755,14 @@ GetChildProcessOffset
 ;
 aEvent
 .
+mReply
+.
+mWritingMode
+=
+mWritingMode
+;
+aEvent
+.
 mSucceeded
 =
 true
