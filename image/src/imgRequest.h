@@ -1,9 +1,9 @@
 #
 ifndef
-imgRequest_h__
+mozilla_image_src_imgRequest_h
 #
 define
-imgRequest_h__
+mozilla_image_src_imgRequest_h
 #
 include
 "
