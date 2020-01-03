@@ -15047,6 +15047,9 @@ result
 bool
 evaluateConstantOperands
 (
+TempAllocator
+&
+alloc
 bool
 *
 result
@@ -20652,6 +20655,15 @@ None
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+;
 void
 computeRange
 (
