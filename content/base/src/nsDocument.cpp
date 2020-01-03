@@ -3020,6 +3020,7 @@ Element
 const
 mElement
 ;
+explicit
 PositionComparator
 (
 Element
