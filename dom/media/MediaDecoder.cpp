@@ -4751,7 +4751,7 @@ NS_IsMainThread
 )
 |
 |
-OnStateMachineThread
+OnStateMachineTaskQueue
 (
 )
 |
@@ -4834,7 +4834,7 @@ NS_IsMainThread
 )
 |
 |
-OnStateMachineThread
+OnStateMachineTaskQueue
 (
 )
 )
@@ -6468,7 +6468,7 @@ StopProgressUpdates
 {
 MOZ_ASSERT
 (
-OnStateMachineThread
+OnStateMachineTaskQueue
 (
 )
 |
@@ -6518,7 +6518,7 @@ StartProgressUpdates
 {
 MOZ_ASSERT
 (
-OnStateMachineThread
+OnStateMachineTaskQueue
 (
 )
 |
@@ -6617,7 +6617,7 @@ bool
 MediaDecoder
 :
 :
-OnStateMachineThread
+OnStateMachineTaskQueue
 (
 )
 const
@@ -6626,7 +6626,7 @@ return
 mDecoderStateMachine
 -
 >
-OnStateMachineThread
+OnTaskQueue
 (
 )
 ;

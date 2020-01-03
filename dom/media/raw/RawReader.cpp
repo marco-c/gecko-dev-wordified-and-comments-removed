@@ -592,7 +592,7 @@ NS_ASSERTION
 mDecoder
 -
 >
-OnStateMachineThread
+OnStateMachineTaskQueue
 (
 )
 |
@@ -609,10 +609,10 @@ be
 on
 state
 machine
-thread
 or
 decode
-thread
+task
+queue
 .
 "
 )

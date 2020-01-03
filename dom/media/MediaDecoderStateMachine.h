@@ -264,7 +264,7 @@ OnDecodeThread
 const
 ;
 bool
-OnStateMachineThread
+OnTaskQueue
 (
 )
 const
@@ -593,7 +593,7 @@ OnDelayedSchedule
 {
 MOZ_ASSERT
 (
-OnStateMachineThread
+OnTaskQueue
 (
 )
 )
@@ -1562,7 +1562,7 @@ MOZ_ASSERT
 mSelf
 -
 >
-OnStateMachineThread
+OnTaskQueue
 (
 )
 "

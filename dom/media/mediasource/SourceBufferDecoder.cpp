@@ -503,7 +503,7 @@ bool
 SourceBufferDecoder
 :
 :
-OnStateMachineThread
+OnStateMachineTaskQueue
 (
 )
 const
@@ -512,7 +512,7 @@ return
 mParentDecoder
 -
 >
-OnStateMachineThread
+OnStateMachineTaskQueue
 (
 )
 ;
