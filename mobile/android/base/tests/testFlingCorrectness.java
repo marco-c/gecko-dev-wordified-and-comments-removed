@@ -77,6 +77,12 @@ loadAndVerifyBoxes
 url
 )
 ;
+meh
+.
+disableGeckoLongpress
+(
+)
+;
 Actions
 .
 RepeatedEventExpecter
