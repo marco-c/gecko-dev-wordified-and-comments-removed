@@ -3445,6 +3445,9 @@ isIncremental
 bool
 isFull
 ;
+bool
+isCompacting
+;
 JSGCInvocationKind
 invocationKind
 ;
