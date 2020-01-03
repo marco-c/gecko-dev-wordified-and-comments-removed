@@ -123,6 +123,7 @@ ImageHandle
 {
 public
 :
+explicit
 ImageHandle
 (
 layers

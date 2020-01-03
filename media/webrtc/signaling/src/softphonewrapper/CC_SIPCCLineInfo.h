@@ -46,6 +46,7 @@ private
 cc_lineinfo_ref_t
 lineinfo
 ;
+explicit
 CC_SIPCCLineInfo
 (
 cc_lineinfo_ref_t

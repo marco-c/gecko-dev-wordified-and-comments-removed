@@ -60,6 +60,7 @@ string
 phoneConfigFileNameStr
 )
 ;
+explicit
 CC_SIPCCDevice
 (
 cc_device_handle_t

@@ -131,6 +131,7 @@ SipccOfferOptions
 (
 )
 ;
+explicit
 SipccOfferOptions
 (
 const

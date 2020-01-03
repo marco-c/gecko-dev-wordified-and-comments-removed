@@ -94,6 +94,7 @@ AutoLockNSPR
 {
 public
 :
+explicit
 AutoLockNSPR
 (
 LockNSPR

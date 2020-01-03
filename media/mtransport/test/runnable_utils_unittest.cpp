@@ -182,6 +182,7 @@ true
 }
 public
 :
+explicit
 Destructor
 (
 bool
@@ -212,6 +213,7 @@ TargetClass
 {
 public
 :
+explicit
 TargetClass
 (
 int

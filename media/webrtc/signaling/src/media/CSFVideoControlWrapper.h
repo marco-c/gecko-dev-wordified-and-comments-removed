@@ -52,6 +52,7 @@ VideoControl
 {
 public
 :
+explicit
 VideoControlWrapper
 (
 VideoControl

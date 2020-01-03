@@ -36,6 +36,7 @@ CC_DeviceInfo
 {
 private
 :
+explicit
 CC_SIPCCDeviceInfo
 (
 cc_deviceinfo_ref_t

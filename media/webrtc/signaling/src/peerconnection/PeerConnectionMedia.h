@@ -189,6 +189,7 @@ mozilla
 DOMMediaStream
 DOMMediaStream
 ;
+explicit
 Fake_AudioGenerator
 (
 DOMMediaStream
@@ -497,6 +498,7 @@ gfx
 IntSize
 IntSize
 ;
+explicit
 Fake_VideoGenerator
 (
 DOMMediaStream
@@ -1537,6 +1539,7 @@ PeerConnectionMedia
 }
 public
 :
+explicit
 PeerConnectionMedia
 (
 PeerConnectionImpl

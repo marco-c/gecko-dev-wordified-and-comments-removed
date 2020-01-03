@@ -39,6 +39,7 @@ private
 cc_featureinfo_ref_t
 featureinfo_ref
 ;
+explicit
 CC_SIPCCFeatureInfo
 (
 cc_featureinfo_ref_t

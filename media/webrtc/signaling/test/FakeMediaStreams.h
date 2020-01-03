@@ -459,6 +459,7 @@ nsITimerCallback
 {
 public
 :
+explicit
 Fake_MediaPeriodic
 (
 Fake_MediaStream
@@ -949,6 +950,7 @@ Fake_MediaStreamTrack
 {
 public
 :
+explicit
 Fake_MediaStreamTrack
 (
 bool
@@ -1051,6 +1053,7 @@ Stop
 }
 public
 :
+explicit
 Fake_DOMMediaStream
 (
 Fake_MediaStream

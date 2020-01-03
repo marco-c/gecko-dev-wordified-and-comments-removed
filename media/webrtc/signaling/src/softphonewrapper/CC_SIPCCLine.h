@@ -59,6 +59,7 @@ cc_lineid_t
 cc_lineid_t
 lineId
 ;
+explicit
 CC_SIPCCLine
 (
 cc_lineid_t

@@ -40,6 +40,7 @@ AudioControl
 {
 public
 :
+explicit
 AudioControlWrapper
 (
 AudioControl

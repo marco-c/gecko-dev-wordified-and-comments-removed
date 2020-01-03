@@ -63,6 +63,7 @@ private
 cc_callinfo_ref_t
 callinfo_ref
 ;
+explicit
 CC_SIPCCCallInfo
 (
 cc_callinfo_ref_t
