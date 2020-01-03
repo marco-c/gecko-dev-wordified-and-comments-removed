@@ -441,9 +441,9 @@ adjustedTop
 pos
 .
 height
-pos
+offset
 .
-width
+height
 )
 ;
 if
