@@ -378,6 +378,11 @@ gtk3drawing
 .
 c
 '
+'
+nsApplicationChooser
+.
+cpp
+'
 ]
 include
 (
