@@ -708,11 +708,6 @@ F
 SUPERELEM
 )
 \
-F
-(
-NEWTARGET
-)
-\
 \
 /
 *

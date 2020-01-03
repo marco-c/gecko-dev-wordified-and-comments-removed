@@ -3505,11 +3505,6 @@ jsop_debugger
 (
 )
 ;
-bool
-jsop_newtarget
-(
-)
-;
 enum
 InliningStatus
 {

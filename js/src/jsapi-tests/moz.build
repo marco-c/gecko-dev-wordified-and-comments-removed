@@ -349,11 +349,6 @@ testNewObject
 cpp
 '
 '
-testNewTargetInvokeConstructor
-.
-cpp
-'
-'
 testNullRoot
 .
 cpp

@@ -391,16 +391,6 @@ classExpression
 )
 ASTDEF
 (
-AST_NEWTARGET_EXPR
-"
-NewTargetExpression
-"
-"
-newTargetExpression
-"
-)
-ASTDEF
-(
 AST_EMPTY_STMT
 "
 EmptyStatement
