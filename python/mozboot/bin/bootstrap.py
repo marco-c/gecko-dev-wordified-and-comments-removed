@@ -71,6 +71,14 @@ py
 '
 mozboot
 /
+archlinux
+.
+py
+'
+    
+'
+mozboot
+/
 base
 .
 py
