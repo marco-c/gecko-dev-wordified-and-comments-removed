@@ -1604,12 +1604,12 @@ availSize
 lineWM
 aReflowState
 .
-AvailableWidth
+AvailableISize
 (
 )
 aReflowState
 .
-AvailableHeight
+AvailableBSize
 (
 )
 )
