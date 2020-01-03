@@ -780,6 +780,7 @@ define
 MOZILLA_PKIX_MAP
 (
 mozilla_pkix_result
+value
 nss_result
 )
 \
@@ -787,6 +788,9 @@ case
 nss_result
 :
 return
+Result
+:
+:
 mozilla_pkix_result
 ;
 MOZILLA_PKIX_MAP_LIST
@@ -820,10 +824,14 @@ define
 MOZILLA_PKIX_MAP
 (
 mozilla_pkix_result
+value
 nss_result
 )
 \
 case
+Result
+:
+:
 mozilla_pkix_result
 :
 return
