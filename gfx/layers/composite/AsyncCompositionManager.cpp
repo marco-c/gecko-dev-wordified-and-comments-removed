@@ -3290,7 +3290,12 @@ false
 ;
 }
 return
-true
+!
+aTarget
+.
+IsScrollInfoLayer
+(
+)
 ;
 }
 static
