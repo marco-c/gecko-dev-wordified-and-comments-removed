@@ -2306,9 +2306,11 @@ TemporaryTypeSet
 )
 {
 }
-explicit
 TemporaryTypeSet
 (
+LifoAlloc
+*
+alloc
 Type
 type
 )
