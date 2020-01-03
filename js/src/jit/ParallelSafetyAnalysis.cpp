@@ -1520,10 +1520,6 @@ RecompileCheck
 )
 UNSAFE_OP
 (
-UnknownValue
-)
-UNSAFE_OP
-(
 ConvertElementsToDoubles
 )
 UNSAFE_OP
