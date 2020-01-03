@@ -744,7 +744,7 @@ CONNECTED
 &
 AppManager
 .
-deviceFront
+preferenceFront
 )
 {
 if
