@@ -227,9 +227,6 @@ mVorbisState
 >
 mActive
 )
-#
-ifdef
-MOZ_OPUS
 |
 |
 (
@@ -244,8 +241,6 @@ mOpusState
 >
 mActive
 )
-#
-endif
 ;
 }
 virtual
@@ -740,9 +735,6 @@ VorbisState
 *
 mVorbisState
 ;
-#
-ifdef
-MOZ_OPUS
 OpusState
 *
 mOpusState
@@ -750,8 +742,6 @@ mOpusState
 bool
 mOpusEnabled
 ;
-#
-endif
 SkeletonState
 *
 mSkeletonState

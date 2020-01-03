@@ -811,9 +811,6 @@ mPacketCount
 (
 0
 )
-#
-ifdef
-MOZ_OPUS
 mOpusDecoder
 (
 nullptr
@@ -826,8 +823,6 @@ mSeekPreroll
 (
 0
 )
-#
-endif
 mVideoTrack
 (
 0
@@ -877,15 +872,10 @@ mHasAudio
 (
 false
 )
-#
-ifdef
-MOZ_OPUS
 mPaddingDiscarded
 (
 false
 )
-#
-endif
 {
 MOZ_COUNT_CTOR
 (
@@ -1411,9 +1401,6 @@ vorbis_synthesis_restart
 mVorbisDsp
 )
 ;
-#
-ifdef
-MOZ_OPUS
 }
 else
 if
@@ -1447,8 +1434,6 @@ mPaddingDiscarded
 false
 ;
 }
-#
-endif
 }
 mVideoPackets
 .
@@ -2463,9 +2448,6 @@ vi
 >
 channels
 ;
-#
-ifdef
-MOZ_OPUS
 }
 else
 if
@@ -2643,8 +2625,6 @@ params
 .
 seek_preroll
 ;
-#
-endif
 }
 else
 {
@@ -2690,9 +2670,6 @@ mContext
 )
 ;
 }
-#
-ifdef
-MOZ_OPUS
 bool
 WebMReader
 :
@@ -2762,8 +2739,6 @@ r
 OPUS_OK
 ;
 }
-#
-endif
 bool
 WebMReader
 :
@@ -3152,9 +3127,6 @@ mAudioCodec
 NESTEGG_CODEC_OPUS
 )
 {
-#
-ifdef
-MOZ_OPUS
 if
 (
 !
@@ -3172,8 +3144,6 @@ return
 false
 ;
 }
-#
-endif
 }
 }
 return
@@ -3603,9 +3573,6 @@ return
 true
 ;
 }
-#
-ifdef
-MOZ_OPUS
 bool
 WebMReader
 :
@@ -4383,8 +4350,6 @@ return
 true
 ;
 }
-#
-endif
 nsReturnRef
 <
 NesteggPacketHolder

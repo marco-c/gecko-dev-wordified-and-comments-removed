@@ -57,9 +57,6 @@ include
 algorithm
 >
 #
-ifdef
-MOZ_OPUS
-#
 include
 "
 opus
@@ -83,8 +80,6 @@ opus_multistream
 h
 "
 }
-#
-endif
 #
 include
 "
@@ -225,9 +220,6 @@ SEEK_FUZZ_USECS
 =
 500000
 ;
-#
-ifdef
-MOZ_OPUS
 static
 const
 int64_t
@@ -237,8 +229,6 @@ SEEK_OPUS_PREROLL
 *
 USECS_PER_MS
 ;
-#
-endif
 enum
 PageSyncResult
 {
@@ -747,9 +737,6 @@ mVorbisState
 (
 nullptr
 )
-#
-ifdef
-MOZ_OPUS
 mOpusState
 (
 nullptr
@@ -763,8 +750,6 @@ IsOpusEnabled
 (
 )
 )
-#
-endif
 mSkeletonState
 (
 nullptr
@@ -957,9 +942,6 @@ res
 NS_ERROR_FAILURE
 ;
 }
-#
-ifdef
-MOZ_OPUS
 if
 (
 mOpusState
@@ -982,8 +964,6 @@ res
 NS_ERROR_FAILURE
 ;
 }
-#
-endif
 if
 (
 mTheoraState
@@ -1131,9 +1111,6 @@ mVorbisState
 mSerial
 )
 ;
-#
-ifdef
-MOZ_OPUS
 }
 else
 if
@@ -1151,8 +1128,6 @@ mOpusState
 mSerial
 )
 ;
-#
-endif
 }
 }
 }
@@ -1937,9 +1912,6 @@ mInfo
 .
 channels
 ;
-#
-ifdef
-MOZ_OPUS
 }
 else
 if
@@ -2045,8 +2017,6 @@ opusState
 >
 mChannels
 ;
-#
-endif
 }
 }
 }
@@ -2417,9 +2387,6 @@ Deactivate
 )
 ;
 }
-#
-ifdef
-MOZ_OPUS
 }
 else
 if
@@ -2520,8 +2487,6 @@ config
 )
 ;
 }
-#
-endif
 }
 else
 if
@@ -3102,9 +3067,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_OPUS
 nsresult
 OggReader
 :
@@ -3789,8 +3751,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 bool
 OggReader
 :
@@ -3827,17 +3787,12 @@ mVorbisState
 !
 =
 nullptr
-#
-ifdef
-MOZ_OPUS
 |
 |
 mOpusState
 !
 =
 nullptr
-#
-endif
 ;
 NS_ASSERTION
 (
@@ -3878,9 +3833,6 @@ OggCodecState
 mVorbisState
 )
 ;
-#
-ifdef
-MOZ_OPUS
 else
 codecState
 =
@@ -3893,8 +3845,6 @@ OggCodecState
 mOpusState
 )
 ;
-#
-endif
 do
 {
 if
@@ -3985,9 +3935,6 @@ DecodeVorbis
 packet
 )
 ;
-#
-ifdef
-MOZ_OPUS
 }
 else
 if
@@ -4000,8 +3947,6 @@ DecodeOpus
 packet
 )
 ;
-#
-endif
 }
 if
 (
@@ -4086,17 +4031,12 @@ chained
 =
 false
 ;
-#
-ifdef
-MOZ_OPUS
 OpusState
 *
 newOpusState
 =
 nullptr
 ;
-#
-endif
 VorbisState
 *
 newVorbisState
@@ -4243,9 +4183,6 @@ get
 )
 ;
 }
-#
-ifdef
-MOZ_OPUS
 else
 if
 (
@@ -4284,8 +4221,6 @@ get
 )
 ;
 }
-#
-endif
 else
 {
 return
@@ -4512,9 +4447,6 @@ GetTags
 )
 ;
 }
-#
-ifdef
-MOZ_OPUS
 if
 (
 (
@@ -4615,8 +4547,6 @@ GetTags
 )
 ;
 }
-#
-endif
 if
 (
 chained
@@ -7749,9 +7679,6 @@ MaxKeyframeOffset
 )
 ;
 }
-#
-ifdef
-MOZ_OPUS
 if
 (
 HasAudio
@@ -7774,8 +7701,6 @@ SEEK_OPUS_PREROLL
 )
 ;
 }
-#
-endif
 int64_t
 seekTarget
 =
@@ -7937,9 +7862,6 @@ adjustedTarget
 =
 aTarget
 ;
-#
-ifdef
-MOZ_OPUS
 if
 (
 HasAudio
@@ -7964,8 +7886,6 @@ SEEK_OPUS_PREROLL
 )
 ;
 }
-#
-endif
 if
 (
 adjustedTarget
@@ -9414,9 +9334,6 @@ Time
 granulepos
 )
 ;
-#
-ifdef
-MOZ_OPUS
 }
 else
 if
@@ -9443,8 +9360,6 @@ Time
 granulepos
 )
 ;
-#
-endif
 }
 }
 if
@@ -10239,9 +10154,6 @@ time
 )
 ;
 }
-#
-ifdef
-MOZ_OPUS
 else
 if
 (
@@ -10280,8 +10192,6 @@ time
 )
 ;
 }
-#
-endif
 else
 if
 (

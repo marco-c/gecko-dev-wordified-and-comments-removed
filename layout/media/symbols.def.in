@@ -228,9 +228,6 @@ th_info_init
 th_packet_isheader
 th_packet_iskeyframe
 th_setup_free
-#
-ifdef
-MOZ_OPUS
 opus_decoder_create
 opus_decoder_destroy
 opus_decoder_ctl
@@ -249,8 +246,6 @@ opus_encoder_destroy
 opus_encoder_ctl
 opus_encode
 opus_encode_float
-#
-endif
 #
 ifndef
 MOZ_NATIVE_PNG

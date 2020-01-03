@@ -1781,17 +1781,12 @@ AUDIO_OGG
 oga
 "
 }
-#
-ifdef
-MOZ_OPUS
 {
 AUDIO_OGG
 "
 opus
 "
 }
-#
-endif
 #
 ifdef
 MOZ_WEBM
