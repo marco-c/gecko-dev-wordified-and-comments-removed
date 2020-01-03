@@ -777,7 +777,7 @@ UpdateFromSurface
 gfx
 :
 :
-DataSourceSurface
+SourceSurface
 *
 aSurface
 )
