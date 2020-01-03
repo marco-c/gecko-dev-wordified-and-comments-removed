@@ -311,12 +311,6 @@ nsString
 >
 mRequestIdQueue
 ;
-nsTArray
-<
-int32_t
->
-mRfStateQueue
-;
 }
 ;
 }
