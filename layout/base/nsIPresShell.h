@@ -2305,6 +2305,13 @@ aRenderedContext
 =
 0
 ;
+enum
+{
+RENDER_AUTO_SCALE
+=
+0x80
+}
+;
 virtual
 already_AddRefed
 <
@@ -2324,6 +2331,8 @@ aPoint
 nsIntRect
 *
 aScreenRect
+uint32_t
+aFlags
 )
 =
 0
@@ -2344,6 +2353,8 @@ aPoint
 nsIntRect
 *
 aScreenRect
+uint32_t
+aFlags
 )
 =
 0

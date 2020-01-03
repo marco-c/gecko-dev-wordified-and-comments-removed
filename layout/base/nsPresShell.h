@@ -820,6 +820,8 @@ aPoint
 nsIntRect
 *
 aScreenRect
+uint32_t
+aFlags
 )
 override
 ;
@@ -839,6 +841,8 @@ aPoint
 nsIntRect
 *
 aScreenRect
+uint32_t
+aFlags
 )
 override
 ;
@@ -2249,6 +2253,8 @@ aPoint
 nsIntRect
 *
 aScreenRect
+uint32_t
+aFlags
 )
 ;
 void
