@@ -565,10 +565,7 @@ width
 ;
 display
 :
--
-moz
--
-box
+flex
 ;
 }
 .
