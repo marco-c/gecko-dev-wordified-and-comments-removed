@@ -69,7 +69,6 @@ beforeEach
 (
 function
 (
-done
 )
 {
 sandbox
@@ -195,12 +194,6 @@ initialize
 navigator
 .
 mozLoop
-)
-;
-setTimeout
-(
-done
-0
 )
 ;
 }
