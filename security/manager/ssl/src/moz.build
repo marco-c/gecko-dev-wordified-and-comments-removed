@@ -235,11 +235,6 @@ nsNSSCertValidity
 cpp
 '
 '
-nsNSSCleaner
-.
-cpp
-'
-'
 nsNSSErrors
 .
 cpp
