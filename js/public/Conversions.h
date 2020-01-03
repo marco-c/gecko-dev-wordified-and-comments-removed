@@ -1335,6 +1335,13 @@ defined
 (
 __GNUC__
 )
+&
+&
+!
+defined
+(
+__APPLE__
+)
 int32_t
 i
 ;
