@@ -647,7 +647,16 @@ customPresetIndex
 getPresetIndex
 (
 "
-456x123
+456
+"
++
+"
+\
+u00D7
+"
++
+"
+123
 (
 Testing
 preset
