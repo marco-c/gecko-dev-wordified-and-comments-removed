@@ -461,15 +461,6 @@ aHeight
 )
 ;
 void
-InvertRect
-(
-const
-nsRect
-&
-aRect
-)
-;
-void
 SetFont
 (
 nsFontMetrics
