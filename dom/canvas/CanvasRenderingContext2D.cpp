@@ -9514,7 +9514,7 @@ EnsureTarget
 ;
 if
 (
-NeedToDrawShadow
+NeedToCalculateBounds
 (
 )
 )
@@ -9672,7 +9672,7 @@ return
 }
 if
 (
-NeedToDrawShadow
+NeedToCalculateBounds
 (
 )
 )
@@ -10121,7 +10121,7 @@ bounds
 ;
 if
 (
-NeedToDrawShadow
+NeedToCalculateBounds
 (
 )
 )
@@ -10246,7 +10246,7 @@ bounds
 ;
 if
 (
-NeedToDrawShadow
+NeedToCalculateBounds
 (
 )
 )
@@ -10389,7 +10389,7 @@ bounds
 ;
 if
 (
-NeedToDrawShadow
+NeedToCalculateBounds
 (
 )
 )
@@ -10556,7 +10556,7 @@ bounds
 ;
 if
 (
-NeedToDrawShadow
+NeedToCalculateBounds
 (
 )
 )
@@ -15343,9 +15343,9 @@ CurrentState
 )
 ;
 bool
-doDrawShadow
+doCalculateBounds
 =
-NeedToDrawShadow
+NeedToCalculateBounds
 (
 )
 ;
@@ -15465,7 +15465,7 @@ processor
 .
 mDoMeasureBoundingBox
 =
-doDrawShadow
+doCalculateBounds
 |
 |
 !
@@ -16042,7 +16042,7 @@ FILL
 &
 &
 !
-doDrawShadow
+doCalculateBounds
 )
 {
 RedrawUser
@@ -18017,7 +18017,7 @@ bounds
 ;
 if
 (
-NeedToDrawShadow
+NeedToCalculateBounds
 (
 )
 )
