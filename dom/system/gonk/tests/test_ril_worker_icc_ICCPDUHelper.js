@@ -337,7 +337,7 @@ return
 ;
 helper
 .
-readSwappedNibbleBcdString
+readSwappedNibbleExtendedBcdString
 =
 function
 (
