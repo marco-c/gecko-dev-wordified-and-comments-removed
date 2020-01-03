@@ -3568,11 +3568,7 @@ aValue
 bool
 aNotify
 )
-{
-return
-NS_OK
 ;
-}
 virtual
 nsresult
 AfterSetAttr

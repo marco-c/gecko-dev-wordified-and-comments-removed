@@ -1374,7 +1374,16 @@ override
 final
 {
 return
-NS_OK
+nsSVGElementBase
+:
+:
+BeforeSetAttr
+(
+aNamespaceID
+aName
+aValue
+aNotify
+)
 ;
 }
 #

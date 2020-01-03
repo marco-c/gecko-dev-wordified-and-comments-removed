@@ -163,6 +163,17 @@ nullptr
 ;
 }
 const
+nsAttrValue
+*
+GetAttrValue
+(
+)
+{
+return
+mAttrValue
+;
+}
+const
 nsAString
 &
 String
