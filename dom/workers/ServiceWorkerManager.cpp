@@ -9327,6 +9327,8 @@ ServiceWorkerClientInfo
 >
 &
 aClientInfo
+bool
+aIsReload
 )
 :
 WorkerRunnable
@@ -9345,6 +9347,10 @@ aServiceWorker
 mClientInfo
 (
 aClientInfo
+)
+mIsReload
+(
+aIsReload
 )
 {
 MOZ_ASSERT
@@ -9510,10 +9516,6 @@ NS_ENSURE_SUCCESS
 rv
 rv
 )
-;
-mIsReload
-=
-false
 ;
 rv
 =
@@ -10100,6 +10102,8 @@ aDoc
 nsIInterceptedChannel
 *
 aChannel
+bool
+aIsReload
 )
 {
 MOZ_ASSERT
@@ -10372,6 +10376,7 @@ GetWorkerPrivate
 handle
 serviceWorkerHandle
 clientInfo
+aIsReload
 )
 ;
 rv
