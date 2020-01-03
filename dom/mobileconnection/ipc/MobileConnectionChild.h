@@ -482,6 +482,7 @@ PMobileConnectionRequestChild
 {
 public
 :
+explicit
 MobileConnectionRequestChild
 (
 nsIMobileConnectionCallback

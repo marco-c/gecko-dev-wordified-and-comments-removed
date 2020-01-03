@@ -414,6 +414,7 @@ EncodeCompleteCallback
 {
 public
 :
+explicit
 EncodeComplete
 (
 CaptureTask
@@ -753,6 +754,7 @@ nsRunnable
 {
 public
 :
+explicit
 TrackEndRunnable
 (
 CaptureTask

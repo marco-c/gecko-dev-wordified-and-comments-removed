@@ -317,6 +317,7 @@ NS_FORWARD_SAFE_NSIMOBILECONNECTIONLISTENER
 (
 mMobileConnection
 )
+explicit
 Listener
 (
 MobileConnection

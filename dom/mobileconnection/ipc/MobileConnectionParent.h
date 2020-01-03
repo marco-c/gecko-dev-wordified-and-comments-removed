@@ -68,6 +68,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIMOBILECONNECTIONLISTENER
+explicit
 MobileConnectionParent
 (
 uint32_t
@@ -194,6 +195,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIMOBILECONNECTIONCALLBACK
+explicit
 MobileConnectionRequestParent
 (
 uint32_t
