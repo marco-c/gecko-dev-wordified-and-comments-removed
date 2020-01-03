@@ -4880,7 +4880,7 @@ result
 elements
 before
 calling
-openResultPopuup
+openPopup
 as
 we
 need
