@@ -258,13 +258,7 @@ Database
 GetDatabase
 (
 )
-{
-return
-GetSingleton
-(
-)
 ;
-}
 uint16_t
 GetDatabaseStatus
 (

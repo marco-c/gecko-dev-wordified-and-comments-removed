@@ -293,12 +293,6 @@ AsyncFaviconHelperBase
 (
 )
 ;
-nsRefPtr
-<
-Database
->
-mDB
-;
 nsCOMPtr
 <
 nsIFaviconDataCallback
