@@ -1989,7 +1989,7 @@ findRenderedComponentWithType
 view
 loop
 .
-conversation
+conversationViews
 .
 GenericFailureView
 )
@@ -2040,7 +2040,7 @@ findRenderedComponentWithType
 view
 loop
 .
-conversation
+conversationViews
 .
 GenericFailureView
 )
