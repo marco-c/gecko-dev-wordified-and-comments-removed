@@ -540,14 +540,6 @@ private
 int
 mMaxGridEntries
 ;
-private
-static
-final
-long
-PRIORITY_RESET_TIMEOUT
-=
-10000
-;
 public
 static
 TopSitesPanel
@@ -1813,7 +1805,6 @@ ThreadUtils
 .
 reduceGeckoPriority
 (
-PRIORITY_RESET_TIMEOUT
 )
 ;
 }
