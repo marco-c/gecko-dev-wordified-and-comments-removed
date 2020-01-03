@@ -218,6 +218,10 @@ GetParent
 )
 )
 ;
+MaybeRemoveDefaultContent
+(
+)
+;
 }
 void
 InsertInsertedChildAt
@@ -247,6 +251,10 @@ GetParent
 )
 )
 ;
+MaybeRemoveDefaultContent
+(
+)
+;
 }
 void
 RemoveInsertedChild
@@ -261,6 +269,10 @@ mInsertedChildren
 RemoveElement
 (
 aChild
+)
+;
+MaybeSetupDefaultContent
+(
 )
 ;
 }
@@ -304,6 +316,10 @@ nullptr
 mInsertedChildren
 .
 Clear
+(
+)
+;
+MaybeSetupDefaultContent
 (
 )
 ;
