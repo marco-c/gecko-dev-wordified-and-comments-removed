@@ -6475,6 +6475,7 @@ mHandles
 GetHandle
 (
 aHash
+false
 getter_AddRefs
 (
 handle
@@ -13964,6 +13965,7 @@ GetHandle
 (
 &
 hash
+false
 getter_AddRefs
 (
 handle
@@ -15144,6 +15146,7 @@ GetHandle
 (
 &
 hash
+false
 getter_AddRefs
 (
 handle

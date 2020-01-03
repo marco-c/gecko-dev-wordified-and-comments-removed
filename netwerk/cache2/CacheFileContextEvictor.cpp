@@ -3020,6 +3020,7 @@ GetHandle
 (
 &
 hash
+false
 getter_AddRefs
 (
 handle
