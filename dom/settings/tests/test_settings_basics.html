@@ -208,37 +208,30 @@ use
 strict
 "
 ;
-if
-(
-SpecialPowers
+var
+url
+=
+SimpleTest
 .
-isMainProcess
-(
-)
-)
-{
-SpecialPowers
-.
-Cu
-.
-import
+getTestFileURL
 (
 "
-resource
-:
-/
-/
-gre
-/
-modules
-/
-SettingsRequestManager
+file_loadserver
 .
-jsm
+js
 "
 )
 ;
-}
+var
+script
+=
+SpecialPowers
+.
+loadChromeScript
+(
+url
+)
+;
 SpecialPowers
 .
 addPermission
@@ -972,13 +965,6 @@ index
 0
 ;
 var
-mozSettings
-=
-navigator
-.
-mozSettings
-;
-var
 steps
 =
 [
@@ -998,6 +984,8 @@ database
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -1053,6 +1041,8 @@ wifi
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -1095,6 +1085,8 @@ onFailure
 var
 lock2
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -1190,6 +1182,8 @@ wifi1
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -1331,6 +1325,8 @@ Combination
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -1434,6 +1430,8 @@ function
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -1520,6 +1518,8 @@ key
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -1603,6 +1603,8 @@ onsettingschangeWithNext
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -1669,6 +1671,8 @@ onsettingchange
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -1730,6 +1734,8 @@ onsettingschange
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -1801,6 +1807,8 @@ callbacks
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -1921,6 +1929,8 @@ observerWithNext
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -1988,6 +1998,8 @@ observers
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -2045,6 +2057,8 @@ Listener
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -2130,6 +2144,8 @@ Listener
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -2187,6 +2203,8 @@ Listener
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -2290,6 +2308,8 @@ Listener
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -2354,6 +2374,8 @@ test
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -2532,6 +2554,8 @@ onFailure
 var
 lock2
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -2608,6 +2632,8 @@ database
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -2654,6 +2680,8 @@ function
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -2706,6 +2734,8 @@ settings
 var
 lock2
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -2879,6 +2909,8 @@ wifi1
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3020,6 +3052,8 @@ locking
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3029,6 +3063,8 @@ createLock
 var
 lock2
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3126,6 +3162,8 @@ result
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3223,6 +3261,8 @@ locks
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3288,6 +3328,8 @@ onFailure
 var
 lock2
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3368,6 +3410,8 @@ onFailure
 var
 lock2
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3430,6 +3474,8 @@ onFailure
 var
 lock3
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3554,6 +3600,8 @@ next2
 var
 lock4
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3633,6 +3681,8 @@ onFailure
 var
 lock5
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3742,6 +3792,8 @@ onFailure
 var
 lock6
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3804,6 +3856,8 @@ locking
 var
 lock2
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3813,6 +3867,8 @@ createLock
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3910,6 +3966,8 @@ result
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -3966,6 +4024,8 @@ onFailure
 var
 lock2
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4009,6 +4069,8 @@ onFailure
 var
 lock3
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4070,6 +4132,8 @@ settings
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4164,6 +4228,8 @@ apn
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4259,6 +4325,8 @@ wifi2
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4322,6 +4390,8 @@ apn
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4419,6 +4489,8 @@ enabled
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4481,6 +4553,8 @@ Enabled
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4575,6 +4649,8 @@ all
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4702,6 +4778,8 @@ wifiNetworks
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4798,6 +4876,8 @@ Networks
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4900,6 +4980,8 @@ locks
 var
 lock4
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4909,6 +4991,8 @@ createLock
 var
 lock3
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4918,6 +5002,8 @@ createLock
 var
 lock2
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4927,6 +5013,8 @@ createLock
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4936,6 +5024,8 @@ createLock
 var
 lock6
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -4945,6 +5035,8 @@ createLock
 var
 lock7
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -5006,6 +5098,8 @@ wifiNetworks
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -5070,6 +5164,8 @@ closed
 var
 lockx
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -5168,6 +5264,8 @@ DB
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -5231,6 +5329,8 @@ arguments
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -5295,6 +5395,8 @@ set
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -5376,6 +5478,8 @@ lock
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -5468,6 +5572,8 @@ lock
 var
 lockx
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -5566,6 +5672,8 @@ DB
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -5628,6 +5736,8 @@ value
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -5797,6 +5907,8 @@ DB
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -5862,6 +5974,8 @@ commits
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
@@ -6041,6 +6155,8 @@ DB
 var
 lock
 =
+navigator
+.
 mozSettings
 .
 createLock
