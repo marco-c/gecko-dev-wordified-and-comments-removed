@@ -1547,12 +1547,6 @@ private
 :
 nsCOMPtr
 <
-nsISupports
->
-mSecurityInfo
-;
-nsCOMPtr
-<
 nsICancelable
 >
 mProxyRequest
