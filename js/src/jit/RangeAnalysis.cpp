@@ -11596,7 +11596,7 @@ TypedArrayElemSize
 ins
 -
 >
-viewType
+accessType
 (
 )
 )
@@ -11704,7 +11704,7 @@ TypedArrayElemSize
 ins
 -
 >
-viewType
+accessType
 (
 )
 )

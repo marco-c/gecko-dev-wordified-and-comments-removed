@@ -36422,7 +36422,7 @@ true
 int
 type
 =
-viewType
+accessType
 (
 )
 ;
@@ -36528,7 +36528,7 @@ Scalar
 :
 :
 Type
-viewType
+accessType
 (
 )
 const
@@ -36687,7 +36687,7 @@ const
 MOZ_OVERRIDE
 {
 return
-viewType
+accessType
 (
 )
 =
@@ -37592,7 +37592,7 @@ Scalar
 :
 :
 Type
-viewType
+accessType
 (
 )
 const
@@ -37611,7 +37611,7 @@ isFloatArray
 const
 {
 return
-viewType
+accessType
 (
 )
 =
@@ -37622,7 +37622,7 @@ Scalar
 Float32
 |
 |
-viewType
+accessType
 (
 )
 =
@@ -37767,7 +37767,7 @@ getUseFor
 )
 &
 &
-viewType
+accessType
 (
 )
 =
@@ -50631,7 +50631,7 @@ Scalar
 :
 :
 Type
-viewType_
+accessType_
 ;
 bool
 needsBoundsCheck_
@@ -50648,7 +50648,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 bool
 needsBoundsCheck
 Label
@@ -50658,9 +50658,9 @@ outOfBoundsLabel
 nullptr
 )
 :
-viewType_
+accessType_
 (
-vt
+accessType
 )
 needsBoundsCheck_
 (
@@ -50676,13 +50676,13 @@ Scalar
 :
 :
 Type
-viewType
+accessType
 (
 )
 const
 {
 return
-viewType_
+accessType_
 ;
 }
 bool
@@ -50743,7 +50743,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -50764,7 +50764,7 @@ ptr
 )
 MAsmJSHeapAccess
 (
-vt
+accessType
 needsBoundsCheck
 outOfBoundsLabel
 )
@@ -50794,7 +50794,7 @@ setMovable
 ;
 switch
 (
-vt
+accessType
 )
 {
 case
@@ -50938,7 +50938,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -50966,7 +50966,7 @@ alloc
 )
 MAsmJSLoadHeap
 (
-vt
+accessType
 ptr
 needsBoundsCheck
 outOfBoundsLabel
@@ -51078,7 +51078,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -51103,7 +51103,7 @@ v
 )
 MAsmJSHeapAccess
 (
-vt
+accessType
 needsBoundsCheck
 outOfBoundsLabel
 )
@@ -51145,7 +51145,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -51176,7 +51176,7 @@ alloc
 )
 MAsmJSStoreHeap
 (
-vt
+accessType
 ptr
 v
 needsBoundsCheck
@@ -51275,7 +51275,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -51297,7 +51297,7 @@ newv
 )
 MAsmJSHeapAccess
 (
-vt
+accessType
 needsBoundsCheck
 )
 {
@@ -51329,7 +51329,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -51350,7 +51350,7 @@ alloc
 )
 MAsmJSCompareExchangeHeap
 (
-vt
+accessType
 ptr
 oldv
 newv
@@ -51446,7 +51446,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -51464,7 +51464,7 @@ v
 )
 MAsmJSHeapAccess
 (
-vt
+accessType
 needsBoundsCheck
 )
 op_
@@ -51502,7 +51502,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -51521,7 +51521,7 @@ alloc
 MAsmJSAtomicBinopHeap
 (
 op
-vt
+accessType
 ptr
 v
 needsBoundsCheck

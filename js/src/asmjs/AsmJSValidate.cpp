@@ -15430,7 +15430,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -15474,7 +15474,7 @@ Scalar
 :
 isSimdType
 (
-vt
+accessType
 )
 ?
 &
@@ -15500,7 +15500,7 @@ New
 alloc
 (
 )
-vt
+accessType
 ptr
 needsBoundsCheck
 outOfBoundsLabel
@@ -15525,7 +15525,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -15571,7 +15571,7 @@ Scalar
 :
 isSimdType
 (
-vt
+accessType
 )
 ?
 &
@@ -15597,7 +15597,7 @@ New
 alloc
 (
 )
-vt
+accessType
 ptr
 v
 needsBoundsCheck
@@ -15660,7 +15660,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -15707,7 +15707,7 @@ New
 alloc
 (
 )
-vt
+accessType
 ptr
 needsBoundsCheck
 nullptr
@@ -15734,7 +15734,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -15783,7 +15783,7 @@ New
 alloc
 (
 )
-vt
+accessType
 ptr
 v
 needsBoundsCheck
@@ -15809,7 +15809,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -15852,7 +15852,7 @@ New
 alloc
 (
 )
-vt
+accessType
 ptr
 oldv
 newv
@@ -15887,7 +15887,7 @@ Scalar
 :
 :
 Type
-vt
+accessType
 MDefinition
 *
 ptr
@@ -15928,7 +15928,7 @@ alloc
 (
 )
 op
-vt
+accessType
 ptr
 v
 needsBoundsCheck
