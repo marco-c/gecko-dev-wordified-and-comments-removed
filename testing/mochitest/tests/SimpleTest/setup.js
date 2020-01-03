@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 TestRunner
 .
 logEnabled
@@ -10,9 +15,8 @@ logger
 =
 LogController
 ;
-parseQueryString
-=
 function
+parseQueryString
 (
 encodedString
 useArrays
@@ -22,6 +26,13 @@ var
 qstr
 =
 (
+encodedString
+.
+length
+>
+0
+&
+&
 encodedString
 [
 0
