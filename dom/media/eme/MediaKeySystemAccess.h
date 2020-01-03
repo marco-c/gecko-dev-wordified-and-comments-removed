@@ -169,6 +169,8 @@ const
 nsAString
 &
 aKeySystem
+int32_t
+aMinCdmVersion
 )
 ;
 static
