@@ -2134,7 +2134,9 @@ xul
 oncommand
 =
 "
-toggleSidebar
+SidebarUI
+.
+toggle
 (
 '
 viewBookmarksSidebar
@@ -2222,7 +2224,9 @@ xul
 oncommand
 =
 "
-toggleSidebar
+SidebarUI
+.
+toggle
 (
 '
 viewHistorySidebar
@@ -2274,7 +2278,9 @@ xul
 oncommand
 =
 "
-toggleSidebar
+SidebarUI
+.
+toggle
 (
 '
 viewWebPanelsSidebar
