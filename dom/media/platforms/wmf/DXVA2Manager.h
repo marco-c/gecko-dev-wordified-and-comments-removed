@@ -151,11 +151,9 @@ IMFMediaType
 *
 aType
 )
-{
-return
-true
+=
+0
 ;
-}
 protected
 :
 Mutex
