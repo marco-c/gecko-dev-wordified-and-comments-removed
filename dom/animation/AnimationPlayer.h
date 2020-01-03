@@ -311,7 +311,7 @@ IsPaused
 timelineTime
 >
 =
-mPauseStart
+mHoldTime
 "
 if
 paused
@@ -328,7 +328,7 @@ at
 least
 "
 "
-mPauseStart
+mHoldTime
 "
 )
 ;
@@ -365,7 +365,7 @@ IsPaused
 (
 )
 ?
-mPauseStart
+mHoldTime
 :
 timelineTime
 )
@@ -382,7 +382,7 @@ TimeStamp
 mStartTime
 ;
 TimeStamp
-mPauseStart
+mHoldTime
 ;
 uint8_t
 mPlayState
