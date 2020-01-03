@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 Components
 .
 utils
@@ -7713,14 +7718,12 @@ nsIHandlerInfo
 useHelperApp
 :
 let
-(
 preferredApp
 =
 aHandlerInfo
 .
 preferredApplicationHandler
-)
-{
+;
 if
 (
 this
@@ -7738,7 +7741,6 @@ _getIconURLForHandlerApp
 preferredApp
 )
 ;
-}
 break
 ;
 default
