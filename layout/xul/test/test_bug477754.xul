@@ -423,12 +423,7 @@ getBoundingClientRect
 )
 .
 right
-)
 -
-Math
-.
-round
-(
 testPopup
 .
 getBoundingClientRect
