@@ -1051,7 +1051,15 @@ aCreating
 ProxyCreated
 (
 aChildDoc
-0
+Interfaces
+:
+:
+DOCUMENT
+|
+Interfaces
+:
+:
+HYPERTEXT
 )
 ;
 }
