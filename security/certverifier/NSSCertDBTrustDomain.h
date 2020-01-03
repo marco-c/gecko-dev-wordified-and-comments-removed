@@ -177,8 +177,9 @@ CertVerifier
 :
 PinningMode
 pinningMode
-bool
-forEV
+unsigned
+int
+minimumNonECCKeyBits
 const
 char
 *
