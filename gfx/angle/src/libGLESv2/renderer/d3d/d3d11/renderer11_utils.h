@@ -761,7 +761,7 @@ class
 T
 >
 inline
-void
+HRESULT
 SetBufferData
 (
 ID3D11DeviceContext
@@ -779,6 +779,9 @@ value
 D3D11_MAPPED_SUBRESOURCE
 mappedResource
 ;
+HRESULT
+result
+=
 context
 -
 >
@@ -792,6 +795,14 @@ D3D11_MAP_WRITE_DISCARD
 mappedResource
 )
 ;
+if
+(
+SUCCEEDED
+(
+result
+)
+)
+{
 memcpy
 (
 mappedResource
@@ -813,6 +824,10 @@ Unmap
 constantBuffer
 0
 )
+;
+}
+return
+result
 ;
 }
 gl
