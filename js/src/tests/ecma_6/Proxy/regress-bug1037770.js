@@ -14,6 +14,9 @@ foo
 writable
 :
 false
+configurable
+:
+true
 }
 )
 ;

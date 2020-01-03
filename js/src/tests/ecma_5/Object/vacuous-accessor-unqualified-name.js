@@ -69,6 +69,9 @@ x
 set
 :
 undefined
+configurable
+:
+true
 }
 )
 ;
