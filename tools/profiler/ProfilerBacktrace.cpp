@@ -87,13 +87,11 @@ UniqueStacks
 aUniqueStacks
 )
 {
-mozilla
 :
 :
 MutexAutoLock
 lock
 (
-*
 mProfile
 -
 >

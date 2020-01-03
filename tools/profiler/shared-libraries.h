@@ -53,12 +53,17 @@ stdint
 h
 >
 #
+ifndef
+SPS_STANDALONE
+#
 include
 <
 nsID
 .
 h
 >
+#
+endif
 class
 SharedLibrary
 {

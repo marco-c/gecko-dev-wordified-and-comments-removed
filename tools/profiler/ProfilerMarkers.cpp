@@ -22,14 +22,17 @@ h
 #
 include
 "
-gfxASurface
+SyncProfile
 .
 h
 "
 #
+ifndef
+SPS_STANDALONE
+#
 include
 "
-SyncProfile
+gfxASurface
 .
 h
 "
@@ -47,6 +50,8 @@ prprf
 .
 h
 "
+#
+endif
 ProfilerMarkerPayload
 :
 :
@@ -407,6 +412,9 @@ end
 }
 }
 }
+#
+ifndef
+SPS_STANDALONE
 GPUMarkerPayload
 :
 :
@@ -998,3 +1006,5 @@ VsyncTimestamp
 )
 ;
 }
+#
+endif

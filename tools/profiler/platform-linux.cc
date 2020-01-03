@@ -1466,7 +1466,6 @@ IsPaused
 )
 )
 {
-mozilla
 :
 :
 MutexAutoLock
@@ -2308,7 +2307,6 @@ sRegisteredThreadsMutex
 return
 false
 ;
-mozilla
 :
 :
 MutexAutoLock
@@ -2502,7 +2500,6 @@ set
 nullptr
 )
 ;
-mozilla
 :
 :
 MutexAutoLock

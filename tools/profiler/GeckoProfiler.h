@@ -5,6 +5,9 @@ SAMPLER_H
 define
 SAMPLER_H
 #
+ifndef
+SPS_STANDALONE
+#
 include
 "
 js
@@ -13,6 +16,8 @@ TypeDecls
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -434,6 +439,9 @@ return
 nullptr
 ;
 }
+#
+ifndef
+SPS_STANDALONE
 static
 inline
 void
@@ -456,6 +464,8 @@ Promise
 )
 {
 }
+#
+endif
 static
 inline
 void
