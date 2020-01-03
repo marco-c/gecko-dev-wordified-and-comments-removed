@@ -5,6 +5,7 @@ usr
 /
 bin
 /
+env
 perl
 #
 #

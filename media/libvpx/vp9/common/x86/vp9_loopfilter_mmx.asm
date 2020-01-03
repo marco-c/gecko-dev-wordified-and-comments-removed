@@ -94,7 +94,7 @@ asm
 "
 ;
 void
-vp9_loop_filter_horizontal_edge_mmx
+vp9_lpf_horizontal_4_mmx
 ;
 (
 ;
@@ -128,12 +128,12 @@ count
 global
 sym
 (
-vp9_loop_filter_horizontal_edge_mmx
+vp9_lpf_horizontal_4_mmx
 )
 PRIVATE
 sym
 (
-vp9_loop_filter_horizontal_edge_mmx
+vp9_lpf_horizontal_4_mmx
 )
 :
 push
@@ -1477,7 +1477,7 @@ rbp
 ret
 ;
 void
-vp9_loop_filter_vertical_edge_mmx
+vp9_lpf_vertical_4_mmx
 ;
 (
 ;
@@ -1511,12 +1511,12 @@ count
 global
 sym
 (
-vp9_loop_filter_vertical_edge_mmx
+vp9_lpf_vertical_4_mmx
 )
 PRIVATE
 sym
 (
-vp9_loop_filter_vertical_edge_mmx
+vp9_lpf_vertical_4_mmx
 )
 :
 push
@@ -3487,7 +3487,7 @@ mm7
 =
 q1
 ;
-tranpose
+transpose
 and
 write
 back

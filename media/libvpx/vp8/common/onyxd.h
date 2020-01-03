@@ -1,9 +1,9 @@
 #
 ifndef
-__INC_VP8D_H
+VP8_COMMON_ONYXD_H_
 #
 define
-__INC_VP8D_H
+VP8_COMMON_ONYXD_H_
 #
 ifdef
 __cplusplus

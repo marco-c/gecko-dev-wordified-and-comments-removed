@@ -1,9 +1,9 @@
 #
 ifndef
-__INC_VP8_H
+VP8_COMMON_ONYX_H_
 #
 define
-__INC_VP8_H
+VP8_COMMON_ONYX_H_
 #
 ifdef
 __cplusplus
@@ -90,10 +90,10 @@ VPX_SCALING
 typedef
 enum
 {
-USAGE_STREAM_FROM_SERVER
+USAGE_LOCAL_FILE_PLAYBACK
 =
 0x0
-USAGE_LOCAL_FILE_PLAYBACK
+USAGE_STREAM_FROM_SERVER
 =
 0x1
 USAGE_CONSTRAINED_QUALITY
@@ -399,8 +399,7 @@ arnr_strength
 int
 arnr_type
 ;
-struct
-vpx_fixed_buf
+vpx_fixed_buf_t
 two_pass_stats_in
 ;
 struct

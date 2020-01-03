@@ -6219,7 +6219,7 @@ filters
 B_FILTER
 2
 ;
-tranpose
+transpose
 and
 write
 back
@@ -6445,7 +6445,7 @@ filters
 B_FILTER
 2
 ;
-tranpose
+transpose
 and
 write
 back

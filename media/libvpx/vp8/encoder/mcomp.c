@@ -61,6 +61,17 @@ findnearmv
 h
 "
 #
+include
+"
+vp8
+/
+common
+/
+common
+.
+h
+"
+#
 ifdef
 VP8_ENTROPY_STATS
 static

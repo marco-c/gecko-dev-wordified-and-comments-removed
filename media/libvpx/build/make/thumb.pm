@@ -5,6 +5,7 @@ usr
 /
 bin
 /
+env
 perl
 #
 #
@@ -259,7 +260,7 @@ doing
 the
 shift
 for
-consitency
+consistency
 .
 #
 This
@@ -820,7 +821,8 @@ r0
 "
 #
 "
-add
+addne
+r0
 r0
 r2
 "

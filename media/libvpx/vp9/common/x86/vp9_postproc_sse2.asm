@@ -3098,11 +3098,6 @@ height
 int
 pitch
 )
-extern
-sym
-(
-rand
-)
 global
 sym
 (
@@ -3136,7 +3131,7 @@ addnoise_loop
 call
 sym
 (
-rand
+LIBVPX_RAND
 )
 WRT_PLT
 mov

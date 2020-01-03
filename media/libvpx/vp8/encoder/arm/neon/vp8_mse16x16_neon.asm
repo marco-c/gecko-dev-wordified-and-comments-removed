@@ -190,6 +190,10 @@ vp8_variance
 vp8_mse16x16_neon
 |
 PROC
+vpush
+{
+q7
+}
 vmov
 .
 i8
@@ -367,6 +371,8 @@ ldr
 r12
 [
 sp
+#
+16
 ]
 ;
 load
@@ -411,6 +417,10 @@ d0
 [
 0
 ]
+vpop
+{
+q7
+}
 bx
 lr
 ENDP
@@ -468,6 +478,10 @@ recon_stride
 vp8_get4x4sse_cs_neon
 |
 PROC
+vpush
+{
+q7
+}
 vld1
 .
 8
@@ -639,6 +653,10 @@ d0
 [
 0
 ]
+vpop
+{
+q7
+}
 bx
 lr
 ENDP

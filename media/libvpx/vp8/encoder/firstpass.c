@@ -6036,6 +6036,9 @@ count
 mode_cost
 =
 (
+int64_t
+)
+(
 (
 (
 (
@@ -12125,6 +12128,9 @@ twopass
 alt_extra_bits
 =
 (
+int
+)
+(
 cpi
 -
 >
@@ -12482,6 +12488,9 @@ gf_group_bits
 )
 target_frame_size
 =
+(
+int
+)
 cpi
 -
 >

@@ -1,9 +1,9 @@
 #
 ifndef
-VP8_H
+VPX_VP8_H_
 #
 define
-VP8_H
+VPX_VP8_H_
 #
 include
 "

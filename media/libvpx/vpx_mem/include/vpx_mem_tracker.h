@@ -1,9 +1,9 @@
 #
 ifndef
-__VPX_MEM_TRACKER_H__
+VPX_MEM_INCLUDE_VPX_MEM_TRACKER_H_
 #
 define
-__VPX_MEM_TRACKER_H__
+VPX_MEM_INCLUDE_VPX_MEM_TRACKER_H_
 #
 define
 vpx_mem_tracker_version

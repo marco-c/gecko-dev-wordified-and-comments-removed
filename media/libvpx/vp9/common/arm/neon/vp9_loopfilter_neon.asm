@@ -85,19 +85,19 @@ tree
 ;
 EXPORT
 |
-vp9_loop_filter_horizontal_edge_neon
+vp9_lpf_horizontal_4_neon
 |
 EXPORT
 |
-vp9_loop_filter_vertical_edge_neon
+vp9_lpf_vertical_4_neon
 |
 EXPORT
 |
-vp9_mbloop_filter_horizontal_edge_neon
+vp9_lpf_horizontal_8_neon
 |
 EXPORT
 |
-vp9_mbloop_filter_vertical_edge_neon
+vp9_lpf_vertical_8_neon
 |
 ARM
 AREA
@@ -165,7 +165,7 @@ of
 ;
 ;
 void
-vp9_loop_filter_horizontal_edge_neon
+vp9_lpf_horizontal_4_neon
 (
 uint8_t
 *
@@ -237,7 +237,7 @@ sp
 int
 count
 |
-vp9_loop_filter_horizontal_edge_neon
+vp9_lpf_horizontal_4_neon
 |
 PROC
 push
@@ -545,7 +545,7 @@ pc
 ENDP
 ;
 |
-vp9_loop_filter_horizontal_edge_neon
+vp9_lpf_horizontal_4_neon
 |
 ;
 Currently
@@ -600,7 +600,7 @@ of
 ;
 ;
 void
-vp9_loop_filter_vertical_edge_neon
+vp9_lpf_vertical_4_neon
 (
 uint8_t
 *
@@ -672,7 +672,7 @@ sp
 int
 count
 |
-vp9_loop_filter_vertical_edge_neon
+vp9_lpf_vertical_4_neon
 |
 PROC
 push
@@ -1166,7 +1166,7 @@ pc
 ENDP
 ;
 |
-vp9_loop_filter_vertical_edge_neon
+vp9_lpf_vertical_4_neon
 |
 ;
 void
@@ -1936,7 +1936,7 @@ vp9_loop_filter_neon
 |
 ;
 void
-vp9_mbloop_filter_horizontal_edge_neon
+vp9_lpf_horizontal_8_neon
 (
 uint8_t
 *
@@ -2001,7 +2001,7 @@ sp
 int
 count
 |
-vp9_mbloop_filter_horizontal_edge_neon
+vp9_lpf_horizontal_8_neon
 |
 PROC
 push
@@ -2344,11 +2344,11 @@ pc
 ENDP
 ;
 |
-vp9_mbloop_filter_horizontal_edge_neon
+vp9_lpf_horizontal_8_neon
 |
 ;
 void
-vp9_mbloop_filter_vertical_edge_neon
+vp9_lpf_vertical_8_neon
 (
 uint8_t
 *
@@ -2410,7 +2410,7 @@ sp
 int
 count
 |
-vp9_mbloop_filter_vertical_edge_neon
+vp9_lpf_vertical_8_neon
 |
 PROC
 push
@@ -3054,7 +3054,7 @@ pc
 ENDP
 ;
 |
-vp9_mbloop_filter_vertical_edge_neon
+vp9_lpf_vertical_8_neon
 |
 ;
 void
