@@ -23,6 +23,7 @@ marionette
 import
 Marionette
 from
+.
 marionette_test
 import
 MarionetteTestCase
@@ -35,6 +36,7 @@ b2ginstance
 import
 B2GInstance
 from
+.
 runtests
 import
 MarionetteTestRunner
