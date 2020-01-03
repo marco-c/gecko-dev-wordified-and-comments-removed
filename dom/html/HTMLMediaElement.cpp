@@ -18730,7 +18730,7 @@ TextTrackList
 HTMLMediaElement
 :
 :
-TextTracks
+GetTextTracks
 (
 )
 {
@@ -18740,7 +18740,7 @@ GetOrCreateTextTrackManager
 )
 -
 >
-TextTracks
+GetTextTracks
 (
 )
 ;

@@ -1625,7 +1625,7 @@ VideoTracks
 ;
 TextTrackList
 *
-TextTracks
+GetTextTracks
 (
 )
 ;
