@@ -4398,6 +4398,7 @@ FallibleTArray
 uint8_t
 >
 &
+&
 aData
 )
 :
@@ -4411,7 +4412,10 @@ aAddr
 )
 mData
 (
+Move
+(
 aData
+)
 )
 {
 }
@@ -4890,7 +4894,10 @@ SendRequestRunnable
 this
 *
 aAddr
+Move
+(
 fallibleArray
+)
 )
 NS_DISPATCH_NORMAL
 )
