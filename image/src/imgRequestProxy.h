@@ -678,9 +678,6 @@ mDecodeRequested
 bool
 mDeferNotifications
 ;
-bool
-mSentStartContainer
-;
 }
 ;
 class
