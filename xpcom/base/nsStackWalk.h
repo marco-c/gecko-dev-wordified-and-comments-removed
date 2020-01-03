@@ -35,6 +35,8 @@ void
 NS_WalkStackCallback
 )
 (
+uint32_t
+aFrameNumber
 void
 *
 aPC
@@ -122,6 +124,8 @@ nsresult
 )
 NS_FormatCodeAddressDetails
 (
+uint32_t
+aFrameNumber
 void
 *
 aPC
