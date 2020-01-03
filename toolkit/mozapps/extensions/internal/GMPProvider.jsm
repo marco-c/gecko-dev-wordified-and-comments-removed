@@ -496,8 +496,12 @@ eme
 -
 adobe_description
 "
+get
 learnMoreURL
-:
+(
+)
+{
+return
 Services
 .
 urlFormatter
@@ -518,6 +522,8 @@ drm
 -
 content
 "
+;
+}
 licenseURL
 :
 "
