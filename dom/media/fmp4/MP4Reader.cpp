@@ -2515,10 +2515,6 @@ kVideo
 ;
 if
 (
-!
-mIsEncrypted
-&
-&
 mSharedDecoderManager
 )
 {
@@ -2851,10 +2847,6 @@ if
 HasVideo
 (
 )
-&
-&
-!
-mIsEncrypted
 &
 &
 mSharedDecoderManager
@@ -5555,10 +5547,6 @@ SetIdle
 {
 if
 (
-!
-mIsEncrypted
-&
-&
 mSharedDecoderManager
 &
 &
