@@ -175,10 +175,10 @@ sBluetoothdSocketName
 bluez_hal_socket
 "
 ;
-BluetoothDaemonPDU
+DaemonSocketPDU
 :
 :
-BluetoothDaemonPDU
+DaemonSocketPDU
 (
 uint8_t
 aService
@@ -258,10 +258,10 @@ aPayloadSize
 )
 ;
 }
-BluetoothDaemonPDU
+DaemonSocketPDU
 :
 :
-BluetoothDaemonPDU
+DaemonSocketPDU
 (
 size_t
 aPayloadSize
@@ -296,11 +296,11 @@ availableSpace
 )
 ;
 }
-BluetoothDaemonPDU
+DaemonSocketPDU
 :
 :
 ~
-BluetoothDaemonPDU
+DaemonSocketPDU
 (
 )
 {
@@ -325,7 +325,7 @@ nullptr
 ;
 }
 void
-BluetoothDaemonPDU
+DaemonSocketPDU
 :
 :
 GetHeader
@@ -385,7 +385,7 @@ aPayloadSize
 ;
 }
 ssize_t
-BluetoothDaemonPDU
+DaemonSocketPDU
 :
 :
 Send
@@ -569,7 +569,7 @@ SCM_RIGHTS
 )
 )
 ssize_t
-BluetoothDaemonPDU
+DaemonSocketPDU
 :
 :
 Receive
@@ -797,7 +797,7 @@ res
 ;
 }
 int
-BluetoothDaemonPDU
+DaemonSocketPDU
 :
 :
 AcquireFd
@@ -813,7 +813,7 @@ forget
 ;
 }
 nsresult
-BluetoothDaemonPDU
+DaemonSocketPDU
 :
 :
 UpdateHeader
@@ -869,7 +869,7 @@ NS_OK
 ;
 }
 size_t
-BluetoothDaemonPDU
+DaemonSocketPDU
 :
 :
 GetPayloadSize
@@ -896,7 +896,7 @@ HEADER_SIZE
 ;
 }
 void
-BluetoothDaemonPDU
+DaemonSocketPDU
 :
 :
 OnError
@@ -1049,7 +1049,7 @@ mConsumer
 ;
 nsAutoPtr
 <
-BluetoothDaemonPDU
+DaemonSocketPDU
 >
 mPDU
 ;
@@ -1142,9 +1142,9 @@ mPDU
 mPDU
 =
 new
-BluetoothDaemonPDU
+DaemonSocketPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 :
 :
 MAX_PAYLOAD_LENGTH

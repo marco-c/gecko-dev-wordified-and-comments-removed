@@ -4884,7 +4884,7 @@ PackPDU
 (
 bool
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -4911,7 +4911,7 @@ const
 BluetoothAddress
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -4945,7 +4945,7 @@ const
 BluetoothAvrcpAttributeTextPairs
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5127,7 +5127,7 @@ const
 BluetoothAvrcpAttributeValuePairs
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5215,7 +5215,7 @@ const
 BluetoothAvrcpElementAttribute
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5348,7 +5348,7 @@ PackPDU
 (
 BluetoothAvrcpEvent
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5375,7 +5375,7 @@ const
 BluetoothAvrcpEventParamPair
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5539,7 +5539,7 @@ PackPDU
 (
 BluetoothAvrcpNotification
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5564,7 +5564,7 @@ PackPDU
 (
 BluetoothAvrcpPlayerAttribute
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5589,7 +5589,7 @@ PackPDU
 (
 BluetoothAvrcpStatus
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5616,7 +5616,7 @@ const
 BluetoothConfigurationParameter
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5654,10 +5654,10 @@ nsresult
 PackPDU
 (
 const
-BluetoothDaemonPDUHeader
+DaemonSocketPDUHeader
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5685,7 +5685,7 @@ const
 BluetoothHandsfreeAtResponse
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5712,7 +5712,7 @@ const
 BluetoothHandsfreeCallAddressType
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5739,7 +5739,7 @@ const
 BluetoothHandsfreeCallDirection
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5766,7 +5766,7 @@ const
 BluetoothHandsfreeCallMode
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5793,7 +5793,7 @@ const
 BluetoothHandsfreeCallMptyType
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5820,7 +5820,7 @@ const
 BluetoothHandsfreeCallState
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5847,7 +5847,7 @@ const
 BluetoothHandsfreeNetworkState
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5874,7 +5874,7 @@ const
 BluetoothHandsfreeServiceType
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5901,7 +5901,7 @@ const
 BluetoothHandsfreeVolumeType
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5928,7 +5928,7 @@ const
 BluetoothHandsfreeWbsConfig
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -5955,7 +5955,7 @@ const
 BluetoothNamedValue
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6206,7 +6206,7 @@ const
 BluetoothPinCode
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6241,7 +6241,7 @@ PackPDU
 (
 BluetoothPropertyType
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6266,7 +6266,7 @@ PackPDU
 (
 BluetoothSspVariant
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6291,7 +6291,7 @@ PackPDU
 (
 BluetoothScanMode
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6318,7 +6318,7 @@ const
 BluetoothServiceName
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6350,7 +6350,7 @@ PackPDU
 (
 BluetoothSocketType
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6375,7 +6375,7 @@ PackPDU
 (
 ControlPlayStatus
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6400,7 +6400,7 @@ PackPDU
 (
 BluetoothTransport
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6427,7 +6427,7 @@ const
 BluetoothUuid
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6461,7 +6461,7 @@ const
 BluetoothGattId
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6512,7 +6512,7 @@ const
 BluetoothGattServiceId
 &
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6555,7 +6555,7 @@ PackPDU
 (
 BluetoothGattAuthReq
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6580,7 +6580,7 @@ PackPDU
 (
 BluetoothGattWriteType
 aIn
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 )
@@ -6603,7 +6603,7 @@ aPDU
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 bool
@@ -6629,7 +6629,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 char
@@ -6655,7 +6655,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothA2dpAudioState
@@ -6681,7 +6681,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothA2dpConnectionState
@@ -6707,7 +6707,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothAclState
@@ -6733,7 +6733,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothAvrcpEvent
@@ -6759,7 +6759,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothAvrcpMediaAttribute
@@ -6785,7 +6785,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothAvrcpPlayerAttribute
@@ -6811,7 +6811,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothAvrcpPlayerSettings
@@ -6919,7 +6919,7 @@ NS_OK
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothAvrcpRemoteFeature
@@ -6945,7 +6945,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothBondState
@@ -6971,7 +6971,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothTypeOfDevice
@@ -6997,7 +6997,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothHandsfreeAudioState
@@ -7023,7 +7023,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothHandsfreeCallHoldType
@@ -7049,7 +7049,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothHandsfreeConnectionState
@@ -7075,7 +7075,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothHandsfreeNRECState
@@ -7101,7 +7101,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothHandsfreeVoiceRecognitionState
@@ -7127,7 +7127,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothHandsfreeVolumeType
@@ -7153,7 +7153,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothProperty
@@ -7530,7 +7530,7 @@ rv
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothPropertyType
@@ -7556,7 +7556,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothRemoteInfo
@@ -7643,7 +7643,7 @@ mManufacturer
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothScanMode
@@ -7669,7 +7669,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothServiceRecord
@@ -7742,7 +7742,7 @@ mName
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothSspVariant
@@ -7768,7 +7768,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothStatus
@@ -7794,7 +7794,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothGattStatus
@@ -7820,7 +7820,7 @@ aOut
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothGattId
@@ -7870,7 +7870,7 @@ mInstanceId
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothGattServiceId
@@ -7914,7 +7914,7 @@ mIsPrimary
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothGattReadParam
@@ -8072,7 +8072,7 @@ mValueLength
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothGattWriteParam
@@ -8160,7 +8160,7 @@ mStatus
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 BluetoothGattNotifyParam
@@ -8319,7 +8319,7 @@ mLength
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 nsDependentCString
@@ -8448,7 +8448,7 @@ NS_OK
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 const
@@ -8507,7 +8507,7 @@ NS_OK
 nsresult
 UnpackPDU
 (
-BluetoothDaemonPDU
+DaemonSocketPDU
 &
 aPDU
 const
