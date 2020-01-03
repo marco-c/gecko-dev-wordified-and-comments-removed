@@ -323,7 +323,7 @@ typedef
 OrderedHashMap
 <
 HashableValue
-RelocatableValue
+HeapValue
 HashableValue
 :
 :

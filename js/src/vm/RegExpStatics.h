@@ -55,10 +55,10 @@ RegExpStatics
 VectorMatchPairs
 matches
 ;
-RelocatablePtrLinearString
+HeapPtrLinearString
 matchesInput
 ;
-RelocatablePtrAtom
+HeapPtrAtom
 lazySource
 ;
 RegExpFlag
@@ -67,7 +67,7 @@ lazyFlags
 size_t
 lazyIndex
 ;
-RelocatablePtrString
+HeapPtrString
 pendingInput
 ;
 RegExpFlag

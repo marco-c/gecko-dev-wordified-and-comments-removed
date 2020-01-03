@@ -182,7 +182,7 @@ PreBarriered
 <
 UnbarrieredKey
 >
-RelocatablePtrObject
+HeapPtrObject
 >
 {
 private
@@ -195,7 +195,7 @@ UnbarrieredKey
 Key
 ;
 typedef
-RelocatablePtrObject
+HeapPtrObject
 Value
 ;
 typedef
@@ -1368,7 +1368,7 @@ HandleObject
 obj
 )
 ;
-RelocatablePtrObject
+HeapPtrObject
 frame
 ;
 double
@@ -1379,7 +1379,7 @@ char
 *
 className
 ;
-RelocatablePtrAtom
+HeapPtrAtom
 ctorName
 ;
 }
@@ -1502,7 +1502,7 @@ typedef
 HashMap
 <
 AbstractFramePtr
-RelocatablePtrNativeObject
+HeapPtrNativeObject
 DefaultHasher
 <
 AbstractFramePtr
