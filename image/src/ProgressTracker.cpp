@@ -710,9 +710,6 @@ NS_IsMainThread
 )
 )
 ;
-#
-ifdef
-PR_LOGGING
 nsRefPtr
 <
 Image
@@ -809,8 +806,6 @@ unknown
 )
 ;
 }
-#
-endif
 aObserver
 -
 >
@@ -1026,9 +1021,6 @@ NS_IsMainThread
 )
 )
 ;
-#
-ifdef
-PR_LOGGING
 nsRefPtr
 <
 Image
@@ -1090,8 +1082,6 @@ get
 )
 )
 ;
-#
-endif
 aObserver
 -
 >
@@ -1592,9 +1582,6 @@ GetImage
 (
 )
 ;
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 spec
 ;
@@ -1646,8 +1633,6 @@ get
 )
 )
 ;
-#
-endif
 nsIntRect
 rect
 ;

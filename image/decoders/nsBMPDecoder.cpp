@@ -62,9 +62,6 @@ mozilla
 namespace
 image
 {
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -97,8 +94,6 @@ return
 sBMPLog
 ;
 }
-#
-endif
 #
 define
 LINE

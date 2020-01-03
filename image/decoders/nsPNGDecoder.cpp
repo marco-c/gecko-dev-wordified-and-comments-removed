@@ -95,9 +95,6 @@ mozilla
 namespace
 image
 {
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -162,8 +159,6 @@ return
 sPNGDecoderAccountingLog
 ;
 }
-#
-endif
 #
 ifndef
 MOZ_PNG_MAX_DIMENSION

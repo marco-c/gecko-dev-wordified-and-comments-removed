@@ -2906,9 +2906,6 @@ bool
 aLastPart
 )
 {
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 name
 ;
@@ -2938,8 +2935,6 @@ get
 )
 )
 ;
-#
-endif
 nsCOMPtr
 <
 imgIRequest
@@ -3069,9 +3064,6 @@ BlockOnload
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 name
 ;
@@ -3101,8 +3093,6 @@ get
 )
 )
 ;
-#
-endif
 nsCOMPtr
 <
 imgIOnloadBlocker
@@ -3137,9 +3127,6 @@ UnblockOnload
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 nsAutoCString
 name
 ;
@@ -3169,8 +3156,6 @@ get
 )
 )
 ;
-#
-endif
 nsCOMPtr
 <
 imgIOnloadBlocker
