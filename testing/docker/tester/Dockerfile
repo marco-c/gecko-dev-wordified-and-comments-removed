@@ -72,6 +72,15 @@ worker
 .
 pulse
 COPY
+hgrc
+/
+home
+/
+worker
+/
+.
+hgrc
+COPY
 bin
 /
 home
