@@ -6101,7 +6101,7 @@ mixed_content_blocked_all
 "
 >
 &
-mixed_content_blocked_all
+mixed_content_blocked_all1
 ;
 <
 /
@@ -6116,7 +6116,7 @@ mixed_content_blocked_some
 "
 >
 &
-mixed_content_blocked_some
+mixed_content_blocked_some1
 ;
 <
 /
@@ -6131,7 +6131,7 @@ mixed_content_display_loaded
 "
 >
 &
-mixed_content_display_loaded
+mixed_content_display_loaded1
 ;
 <
 /
@@ -6146,7 +6146,7 @@ mixed_content_protection_disabled
 "
 >
 &
-mixed_content_protection_disabled
+mixed_content_protection_disabled1
 ;
 <
 /
