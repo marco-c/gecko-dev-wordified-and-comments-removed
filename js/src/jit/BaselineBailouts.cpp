@@ -1860,6 +1860,11 @@ iter
 )
 results_
 (
+iter
+.
+jsFrame
+(
+)
 )
 {
 }

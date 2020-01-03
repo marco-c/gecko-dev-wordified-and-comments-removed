@@ -829,10 +829,16 @@ IonJSFrameLayout
 *
 fp_
 ;
+bool
+initialized_
+;
 public
 :
 RInstructionResults
 (
+IonJSFrameLayout
+*
+fp
 )
 ;
 RInstructionResults
@@ -867,9 +873,6 @@ JSContext
 cx
 uint32_t
 numResults
-IonJSFrameLayout
-*
-fp
 )
 ;
 bool

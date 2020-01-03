@@ -4642,9 +4642,6 @@ trc
 bool
 registerIonFrameRecovery
 (
-IonJSFrameLayout
-*
-fp
 RInstructionResults
 &
 &
