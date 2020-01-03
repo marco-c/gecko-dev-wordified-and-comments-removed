@@ -911,7 +911,7 @@ if
 CONFIG
 [
 '
-MOZ_B2G_BT_API_V1
+MOZ_B2G_BT_API_V2
 '
 ]
 :
@@ -925,7 +925,7 @@ dom
 /
 bluetooth
 /
-bluetooth1
+bluetooth2
 '
 '
 /
@@ -933,7 +933,7 @@ dom
 /
 bluetooth
 /
-bluetooth1
+bluetooth2
 /
 ipc
 '
@@ -950,7 +950,7 @@ dom
 /
 bluetooth
 /
-bluetooth2
+bluetooth1
 '
 '
 /
@@ -958,7 +958,7 @@ dom
 /
 bluetooth
 /
-bluetooth2
+bluetooth1
 /
 ipc
 '
