@@ -379,6 +379,17 @@ public
 }
 ;
 dictionary
+DhKeyDeriveParams
+:
+Algorithm
+{
+required
+CryptoKey
+public
+;
+}
+;
+dictionary
 EcdsaParams
 :
 Algorithm
