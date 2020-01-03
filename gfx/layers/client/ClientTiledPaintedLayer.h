@@ -298,6 +298,11 @@ aParentMetrics
 )
 ;
 bool
+UseProgressiveDraw
+(
+)
+;
+bool
 RenderHighPrecision
 (
 nsIntRegion
