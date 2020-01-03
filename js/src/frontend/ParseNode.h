@@ -719,7 +719,12 @@ operators
 \
 F
 (
-TYPEOF
+TYPEOFNAME
+)
+\
+F
+(
+TYPEOFEXPR
 )
 \
 F
