@@ -1225,20 +1225,6 @@ os
 path
 .
 sep
-.
-replace
-(
-"
-\
-\
-"
-"
-\
-\
-\
-\
-"
-)
 }
     
 return
