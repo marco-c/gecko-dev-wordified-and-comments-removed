@@ -1,12 +1,6 @@
 #
 include
 "
-mozilla
-/
-dom
-/
-mobileconnection
-/
 MobileConnectionParent
 .
 h
@@ -37,8 +31,6 @@ include
 mozilla
 /
 dom
-/
-mobileconnection
 /
 MobileConnectionIPCSerializer
 .

@@ -124,9 +124,6 @@ mozilla
 namespace
 dom
 {
-namespace
-mobileconnection
-{
 protocol
 PMobileConnectionRequest
 {
@@ -305,11 +302,6 @@ MobileConnectionReplyErrorMmi
 ;
 }
 ;
-}
-/
-/
-namespace
-mobileconnection
 }
 /
 /

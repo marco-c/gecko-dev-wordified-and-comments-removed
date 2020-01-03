@@ -119,8 +119,6 @@ mozilla
 /
 dom
 /
-mobileconnection
-/
 MobileConnectionIPCSerializer
 .
 h
@@ -133,8 +131,6 @@ from
 mozilla
 /
 dom
-/
-mobileconnection
 /
 MobileConnectionIPCSerializer
 .
@@ -168,8 +164,6 @@ mozilla
 /
 dom
 /
-mobileconnection
-/
 MobileConnectionIPCSerializer
 .
 h
@@ -187,8 +181,6 @@ mozilla
 /
 dom
 /
-mobileconnection
-/
 MobileConnectionIPCSerializer
 .
 h
@@ -199,9 +191,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-mobileconnection
 {
 union
 AdditionalInformation
@@ -220,11 +209,6 @@ MozCallForwardingOptions
 ;
 }
 ;
-}
-/
-/
-namespace
-mobileconnection
 }
 /
 /

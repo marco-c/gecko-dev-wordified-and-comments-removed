@@ -11,8 +11,6 @@ mozilla
 /
 dom
 /
-mobileconnection
-/
 PMobileConnectionParent
 .
 h
@@ -23,8 +21,6 @@ include
 mozilla
 /
 dom
-/
-mobileconnection
 /
 PMobileConnectionRequestParent
 .

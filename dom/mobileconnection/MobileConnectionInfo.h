@@ -7,10 +7,6 @@ mozilla_dom_MobileConnectionInfo_h
 #
 include
 "
-mozilla
-/
-dom
-/
 MobileCellInfo
 .
 h
@@ -18,10 +14,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
 MobileNetworkInfo
 .
 h

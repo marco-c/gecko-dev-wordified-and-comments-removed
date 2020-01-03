@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_mobileconnection_MobileConnectionCallback_h
+mozilla_dom_MobileConnectionCallback_h
 #
 define
-mozilla_dom_mobileconnection_MobileConnectionCallback_h
+mozilla_dom_MobileConnectionCallback_h
 #
 include
 "
@@ -21,8 +21,6 @@ include
 mozilla
 /
 dom
-/
-mobileconnection
 /
 MobileConnectionIPCSerializer
 .
@@ -47,9 +45,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-mobileconnection
 {
 class
 MobileConnectionCallback
@@ -229,7 +224,6 @@ mRequest
 ;
 }
 ;
-}
 }
 }
 #
