@@ -456,7 +456,10 @@ in
 global
 scope
 using
-JS_EvaluateScript
+JS
+:
+:
+Evaluate
 .
 Return
 false
