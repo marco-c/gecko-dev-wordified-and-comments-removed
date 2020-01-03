@@ -1678,6 +1678,10 @@ INTERCEPTED
 }
 mInterceptCache
 ;
+const
+uint64_t
+mInterceptionID
+;
 bool
 PossiblyIntercepted
 (
