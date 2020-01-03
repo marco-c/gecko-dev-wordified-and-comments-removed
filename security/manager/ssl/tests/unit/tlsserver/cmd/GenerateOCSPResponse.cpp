@@ -118,6 +118,14 @@ ORTGood
 }
 {
 "
+good
+-
+delegated
+"
+ORTDelegatedIncluded
+}
+{
+"
 revoked
 "
 ORTRevoked
