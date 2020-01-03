@@ -3283,7 +3283,7 @@ NS_OK
 }
 }
 }
-nsCAutoString
+nsAutoCString
 sourceSpec
 ;
 if
