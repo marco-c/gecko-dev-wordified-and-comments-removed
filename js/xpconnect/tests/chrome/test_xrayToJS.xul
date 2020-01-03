@@ -2222,6 +2222,12 @@ find
 "
 findIndex
 "
+"
+indexOf
+"
+"
+lastIndexOf
+"
 ]
 ;
 for
