@@ -771,6 +771,11 @@ nsFileStreams
 h
 '
 '
+nsInputStreamPump
+.
+h
+'
+'
 nsMIMEInputStream
 .
 h
