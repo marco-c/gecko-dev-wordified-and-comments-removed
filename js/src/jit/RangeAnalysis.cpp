@@ -11264,6 +11264,14 @@ insertIter
 isConstant
 (
 )
+|
+|
+insertIter
+-
+>
+isRecoveredOnBailout
+(
+)
 )
 {
 insertIter
