@@ -2044,6 +2044,13 @@ cpp
 '
 opengl
 /
+CompositorOGLVR
+.
+cpp
+'
+'
+opengl
+/
 GLBlitTextureImageHelper
 .
 cpp
