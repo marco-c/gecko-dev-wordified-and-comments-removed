@@ -148,3 +148,15 @@ mochitest
 ini
 '
 ]
+MOCHITEST_CHROME_MANIFESTS
++
+=
+[
+'
+test
+/
+chrome
+.
+ini
+'
+]

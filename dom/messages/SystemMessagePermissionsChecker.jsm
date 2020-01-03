@@ -383,6 +383,16 @@ message
 {
 }
 "
+dummy
+-
+system
+-
+message2
+"
+:
+{
+}
+"
 headset
 -
 button
