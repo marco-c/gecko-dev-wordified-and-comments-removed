@@ -972,6 +972,17 @@ aHeight
 )
 override
 ;
+virtual
+bool
+IsD3D11
+(
+)
+override
+{
+return
+true
+;
+}
 private
 :
 HRESULT
