@@ -66,6 +66,10 @@ const
 nsAString
 &
 aDeviceAddress
+const
+BluetoothUuid
+&
+aServiceUuid
 int
 aChannel
 )
@@ -73,6 +77,14 @@ aChannel
 bool
 ListenSocket
 (
+const
+nsAString
+&
+aServiceName
+const
+BluetoothUuid
+&
+aServiceUuid
 int
 aChannel
 )
