@@ -124,6 +124,16 @@ scheduler
 "
 )
 ;
+prefs
+.
+set
+(
+"
+enabled
+"
+true
+)
+;
 function
 promiseObserver
 (

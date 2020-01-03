@@ -16391,7 +16391,7 @@ readinglist
 .
 enabled
 "
-true
+false
 )
 ;
 pref
@@ -16415,7 +16415,7 @@ scheduler
 .
 enabled
 "
-true
+false
 )
 ;
 pref
