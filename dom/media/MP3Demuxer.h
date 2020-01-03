@@ -953,10 +953,7 @@ AverageFrameLength
 )
 const
 ;
-nsRefPtr
-<
-MediaResource
->
+MediaResourceIndex
 mSource
 ;
 FrameParser

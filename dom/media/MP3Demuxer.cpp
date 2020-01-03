@@ -1715,8 +1715,7 @@ const
 {
 return
 mSource
--
->
+.
 GetLength
 (
 )
@@ -2864,8 +2863,7 @@ nsresult
 rv
 =
 mSource
--
->
+.
 ReadAt
 (
 aOffset
