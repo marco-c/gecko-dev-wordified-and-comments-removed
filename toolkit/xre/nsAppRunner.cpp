@@ -20086,6 +20086,13 @@ autostart
 false
 )
 ;
+#
+if
+!
+defined
+(
+NIGHTLY_BUILD
+)
 bool
 testPref
 =
@@ -20106,13 +20113,6 @@ enabled
 false
 )
 ;
-#
-if
-!
-defined
-(
-NIGHTLY_BUILD
-)
 if
 (
 testPref
