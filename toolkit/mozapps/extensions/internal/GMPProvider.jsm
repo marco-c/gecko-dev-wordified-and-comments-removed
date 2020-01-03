@@ -2471,7 +2471,7 @@ _gmpPath
 ;
 gmpService
 .
-removePluginDirectory
+removeAndDeletePluginDirectory
 (
 this
 .
