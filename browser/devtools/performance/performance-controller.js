@@ -769,15 +769,6 @@ UI
 :
 OverviewRangeSelected
 "
-OVERVIEW_RANGE_CLEARED
-:
-"
-Performance
-:
-UI
-:
-OverviewRangeCleared
-"
 DETAILS_VIEW_SELECTED
 :
 "

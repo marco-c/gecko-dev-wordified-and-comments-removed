@@ -82,6 +82,7 @@ let
 {
 EVENTS
 DetailsView
+OverviewView
 JsCallTreeView
 MemoryCallTreeView
 }
@@ -159,6 +160,11 @@ threads
 [
 0
 ]
+OverviewView
+.
+getTimeInterval
+(
+)
 )
 ;
 JsCallTreeView

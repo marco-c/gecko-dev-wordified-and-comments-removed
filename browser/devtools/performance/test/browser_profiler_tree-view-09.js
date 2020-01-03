@@ -79,6 +79,12 @@ gSamples
 invertTree
 :
 true
+startTime
+:
+0
+endTime
+:
+10
 }
 )
 ;

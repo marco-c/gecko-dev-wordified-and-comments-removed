@@ -68,6 +68,14 @@ new
 ThreadNode
 (
 gThread
+{
+startTime
+:
+0
+endTime
+:
+20
+}
 )
 ;
 threadNode
@@ -357,7 +365,7 @@ value
 "
 )
 "
-15
+20
 ms
 "
 "
@@ -421,7 +429,7 @@ value
 "
 )
 "
-4
+0
 "
 "
 The
@@ -715,7 +723,7 @@ value
 "
 )
 "
-15
+20
 ms
 "
 "
@@ -783,7 +791,7 @@ value
 "
 )
 "
-4
+0
 "
 "
 The
@@ -1252,7 +1260,7 @@ value
 "
 )
 "
-8
+15
 ms
 "
 "
@@ -1324,7 +1332,7 @@ value
 "
 )
 "
-3
+0
 "
 "
 The
@@ -1703,7 +1711,7 @@ value
 "
 )
 "
-7
+5
 ms
 "
 "
@@ -1775,7 +1783,7 @@ value
 "
 )
 "
-1
+0
 "
 "
 The

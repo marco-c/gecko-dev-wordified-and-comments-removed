@@ -54,6 +54,12 @@ gThread
 invertTree
 :
 true
+startTime
+:
+0
+endTime
+:
+50
 }
 )
 ;

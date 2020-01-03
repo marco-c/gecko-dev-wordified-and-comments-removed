@@ -46,10 +46,8 @@ endTime
 18
 ;
 let
-root
+thread
 =
-getFrameNodePath
-(
 new
 ThreadNode
 (
@@ -59,6 +57,13 @@ startTime
 endTime
 }
 )
+;
+let
+root
+=
+getFrameNodePath
+(
+thread
 "
 (
 root
@@ -68,7 +73,7 @@ root
 ;
 equal
 (
-root
+thread
 .
 duration
 endTime
@@ -82,8 +87,7 @@ was
 calculated
 for
 the
-root
-node
+ThreadNode
 .
 "
 )

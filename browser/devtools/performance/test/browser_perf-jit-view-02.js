@@ -406,6 +406,11 @@ JsCallTreeView
 .
 render
 (
+OverviewView
+.
+getTimeInterval
+(
+)
 )
 ;
 yield

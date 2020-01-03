@@ -69,6 +69,12 @@ ThreadNode
 (
 gThread
 {
+startTime
+:
+0
+endTime
+:
+30
 contentOnly
 :
 true
