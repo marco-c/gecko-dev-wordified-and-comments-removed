@@ -6706,13 +6706,7 @@ pass
 retVal
 =
 1
-    
-message_logger
-.
-finish
-(
-)
-    
+        
 mochitest
 .
 printDeviceInfo
@@ -6720,6 +6714,12 @@ printDeviceInfo
 printLogcat
 =
 True
+)
+    
+message_logger
+.
+finish
+(
 )
     
 sys
