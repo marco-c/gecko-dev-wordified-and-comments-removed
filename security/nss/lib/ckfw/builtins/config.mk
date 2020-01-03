@@ -186,8 +186,11 @@ OS_TARGET
 )
 Darwin
 )
+ifndef
+USE_64
 DSO_LDOPTS
 =
 -
 bundle
+endif
 endif

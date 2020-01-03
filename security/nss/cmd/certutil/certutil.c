@@ -800,7 +800,6 @@ hashAlgTag
 CERTName
 *
 subject
-const
 char
 *
 phone
@@ -1218,12 +1217,15 @@ phone
 )
 phone
 =
+strdup
+(
 "
 (
 not
 specified
 )
 "
+)
 ;
 email
 =
@@ -1548,11 +1550,6 @@ header
 )
 ;
 }
-PORT_Free
-(
-obuf
-)
-;
 }
 else
 {
