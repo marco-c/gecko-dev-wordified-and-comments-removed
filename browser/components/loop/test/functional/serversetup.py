@@ -363,6 +363,33 @@ run
 (
 )
         
+import
+time
+        
+output
+=
+p
+.
+output
+        
+while
+not
+output
+:
+            
+time
+.
+sleep
+(
+1
+)
+            
+output
+=
+p
+.
+output
+        
 return
 p
     
