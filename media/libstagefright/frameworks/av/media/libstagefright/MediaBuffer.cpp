@@ -898,6 +898,10 @@ mBufferBackend
 SetLength
 (
 length
+mozilla
+:
+:
+fallible
 )
 )
 {

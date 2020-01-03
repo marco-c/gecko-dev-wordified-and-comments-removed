@@ -251,6 +251,7 @@ mStrings
 SetLength
 (
 aStringOfItems
+fallible
 )
 ;
 }

@@ -4087,6 +4087,7 @@ convertedArgs
 SetLength
 (
 argCount
+fallible
 )
 )
 {
@@ -4514,6 +4515,7 @@ convertedArgs
 SetLength
 (
 argCount
+fallible
 )
 )
 {
@@ -6132,6 +6134,7 @@ convertedArgs
 SetLength
 (
 argCount
+fallible
 )
 )
 {

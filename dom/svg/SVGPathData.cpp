@@ -398,6 +398,7 @@ mData
 SetLength
 (
 newLength
+fallible
 )
 )
 {

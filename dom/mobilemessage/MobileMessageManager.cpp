@@ -1865,6 +1865,7 @@ idArray
 SetLength
 (
 size
+fallible
 )
 )
 {

@@ -261,6 +261,7 @@ mInputChannels
 SetLength
 (
 mNumberOfChannels
+fallible
 )
 )
 {

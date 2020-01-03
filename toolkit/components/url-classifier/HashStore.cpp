@@ -2382,6 +2382,7 @@ outBuff
 SetLength
 (
 outsize
+fallible
 )
 )
 {
@@ -2628,6 +2629,7 @@ inBuff
 SetLength
 (
 inLen
+fallible
 )
 )
 {
@@ -2675,6 +2677,7 @@ aOut
 SetLength
 (
 aExpectedSize
+fallible
 )
 )
 {

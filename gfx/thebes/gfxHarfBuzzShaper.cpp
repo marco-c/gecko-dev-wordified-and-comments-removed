@@ -6807,6 +6807,7 @@ charToGlyphArray
 SetLength
 (
 wordLength
+fallible
 )
 )
 {

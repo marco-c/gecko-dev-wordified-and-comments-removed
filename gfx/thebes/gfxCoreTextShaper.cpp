@@ -1305,6 +1305,7 @@ SetLength
 stringRange
 .
 length
+fallible
 )
 )
 {

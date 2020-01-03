@@ -207,6 +207,10 @@ aString
 Length
 (
 )
+mozilla
+:
+:
+fallible
 )
 )
 {

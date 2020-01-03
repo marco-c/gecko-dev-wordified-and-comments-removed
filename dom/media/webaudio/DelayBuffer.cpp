@@ -966,6 +966,7 @@ mChunks
 SetLength
 (
 chunkCount
+fallible
 )
 )
 {

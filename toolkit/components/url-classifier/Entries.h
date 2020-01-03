@@ -1450,6 +1450,7 @@ aArray
 SetLength
 (
 aNumElements
+fallible
 )
 )
 return
