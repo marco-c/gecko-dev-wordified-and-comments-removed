@@ -1716,6 +1716,10 @@ VsyncDispatcher
 (
 this
 platformVsyncSource
+.
+get
+(
+)
 )
 ;
 }
