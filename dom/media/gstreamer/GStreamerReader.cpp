@@ -343,6 +343,11 @@ mUseParserDuration
 (
 false
 )
+mLastParserDuration
+(
+-
+1
+)
 #
 if
 GST_VERSION_MAJOR
