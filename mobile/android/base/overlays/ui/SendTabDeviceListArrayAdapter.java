@@ -687,9 +687,8 @@ default
 :
 Assert
 .
-isTrue
+fail
 (
-false
 "
 Unexpected
 state
