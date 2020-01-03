@@ -655,17 +655,6 @@ browser_chrome
 "
 android
 :
-background
-=
-"
-android
-:
-color
-/
-white
-"
-android
-:
 visibility
 =
 "
