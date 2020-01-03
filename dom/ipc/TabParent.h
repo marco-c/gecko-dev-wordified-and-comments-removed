@@ -2717,6 +2717,12 @@ mPresShellWithRefreshListener
 bool
 mHasContentOpener
 ;
+DebugOnly
+<
+int32_t
+>
+mActiveSupressDisplayportCount
+;
 private
 :
 typedef
