@@ -88,7 +88,7 @@ url
 ;
 }
 ;
-MozLoopService
+LoopCalls
 .
 startDirectCall
 (
@@ -140,7 +140,7 @@ outgoing
 1
 ]
 ;
-MozLoopService
+LoopCalls
 .
 releaseCallData
 (
@@ -178,7 +178,7 @@ url
 ;
 }
 ;
-MozLoopService
+LoopCalls
 .
 startDirectCall
 (
@@ -219,7 +219,7 @@ outgoing
 let
 callData
 =
-MozLoopService
+LoopCalls
 .
 getCallData
 (
@@ -261,7 +261,7 @@ details
 "
 )
 ;
-MozLoopService
+LoopCalls
 .
 releaseCallData
 (
