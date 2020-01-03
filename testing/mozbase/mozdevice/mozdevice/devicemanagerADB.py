@@ -697,13 +697,16 @@ cmdline
 )
         
 def
-_raise
+_timeout
 (
 )
 :
             
-raise
-DMError
+self
+.
+_logger
+.
+error
 (
 "
 Timeout
@@ -711,7 +714,19 @@ exceeded
 for
 shell
 call
+'
+%
+s
+'
 "
+%
+'
+'
+.
+join
+(
+args
+)
 )
         
 self
@@ -750,7 +765,7 @@ self
 _log
 onTimeout
 =
-_raise
+_timeout
 )
         
 if
@@ -4759,6 +4774,39 @@ self
 .
 default_timeout
         
+def
+_timeout
+(
+)
+:
+            
+self
+.
+_logger
+.
+error
+(
+"
+Timeout
+exceeded
+for
+_checkCmd
+call
+'
+%
+s
+'
+"
+%
+'
+'
+.
+join
+(
+finalArgs
+)
+)
+        
 timeout
 =
 int
@@ -4786,6 +4834,9 @@ processOutputLine
 self
 .
 _log
+onTimeout
+=
+_timeout
 )
             
 proc
