@@ -408,10 +408,6 @@ nullptr
 }
 #
 endif
-NS_SetIgnoreStatusOfCurrentThread
-(
-)
-;
 int
 lowMemFd
 =

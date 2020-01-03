@@ -236,15 +236,6 @@ NS_IsMainThread
 )
 )
 ;
-#
-ifdef
-MOZ_NUWA_PROCESS
-NS_SetIgnoreStatusOfCurrentThread
-(
-)
-;
-#
-endif
 nsAutoString
 event
 ;
