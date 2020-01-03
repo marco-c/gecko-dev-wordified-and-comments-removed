@@ -854,7 +854,7 @@ size_t
 length
 )
 ;
-int
+void
 nestegg_set_halloc_func
 (
 void

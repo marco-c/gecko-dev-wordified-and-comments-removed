@@ -91,8 +91,6 @@ cp
 /
 README
 .
-md
-.
 cp
 1
 /
