@@ -177,7 +177,13 @@ MOZ_LOG
 GetDeviceContextSpecGTKLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 x
 )
 class

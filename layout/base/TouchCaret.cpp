@@ -231,7 +231,10 @@ message
 MOZ_LOG
 (
 gTouchCaretLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 \
 (
 "
@@ -276,7 +279,10 @@ message
 MOZ_LOG
 (
 gTouchCaretLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 \
 (
 "

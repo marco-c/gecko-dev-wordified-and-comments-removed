@@ -217,7 +217,13 @@ _p1
 MOZ_LOG
 (
 kWidgetPrintingLogMod
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 _p1
 )
 using

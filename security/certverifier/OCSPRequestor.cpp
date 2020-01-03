@@ -184,7 +184,10 @@ rv
 MOZ_LOG
 (
 gCertVerifierLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 Setting
@@ -735,7 +738,10 @@ Assign
 MOZ_LOG
 (
 gCertVerifierLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 Setting

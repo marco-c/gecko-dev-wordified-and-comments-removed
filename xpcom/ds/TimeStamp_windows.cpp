@@ -119,7 +119,13 @@ MOZ_LOG
 GetTimeStampLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 x
 )
 static

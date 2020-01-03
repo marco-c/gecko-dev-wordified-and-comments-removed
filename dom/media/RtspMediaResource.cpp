@@ -110,7 +110,13 @@ msg
 MOZ_LOG
 (
 gRtspMediaResourceLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 \
 (
 msg

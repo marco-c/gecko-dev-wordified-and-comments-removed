@@ -88,7 +88,13 @@ MOZ_LOG
 GetProbeLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 x
 )
 #

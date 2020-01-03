@@ -7373,7 +7373,10 @@ if
 MOZ_LOG_TEST
 (
 gCacheLog
-PR_LOG_INFO
+LogLevel
+:
+:
+Info
 )
 )
 {

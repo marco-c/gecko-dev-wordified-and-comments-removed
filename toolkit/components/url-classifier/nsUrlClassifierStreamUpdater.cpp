@@ -139,7 +139,13 @@ args
 MOZ_LOG
 (
 gUrlClassifierStreamUpdaterLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 nsUrlClassifierStreamUpdater

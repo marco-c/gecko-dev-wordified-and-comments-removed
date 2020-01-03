@@ -72,7 +72,13 @@ args
 MOZ_LOG
 (
 gStreamCopierLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 class

@@ -100,7 +100,13 @@ MOZ_LOG
 GetRedirectLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 NS_IMPL_ISUPPORTS

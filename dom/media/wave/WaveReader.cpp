@@ -1176,7 +1176,10 @@ OnTaskQueue
 ;
 LOG
 (
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 %

@@ -202,7 +202,13 @@ msg
 MOZ_LOG
 (
 gMediaResourceLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 \
 (
 msg
