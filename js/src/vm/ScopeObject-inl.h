@@ -1135,14 +1135,6 @@ isInterpreted
 )
 )
 ;
-assertParentIs
-(
-&
-global
-(
-)
-)
-;
 return
 &
 global

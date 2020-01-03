@@ -4768,16 +4768,6 @@ this
 )
 )
 ;
-assertParentIs
-(
-cx
--
->
-global
-(
-)
-)
-;
 MOZ_ASSERT
 (
 getClass
