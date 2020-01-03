@@ -177,11 +177,6 @@ Element
 ?
 target
 ;
-readonly
-attribute
-DOMString
-name
-;
 /
 /
 Not
