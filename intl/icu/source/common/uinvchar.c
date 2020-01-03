@@ -2163,6 +2163,7 @@ uprv_copyEbcdic
 string
 [
 %
+d
 ]
 contains
 a
