@@ -277,7 +277,7 @@ lName
 =
 Utils
 .
-getTypeSignatureStringForMethod
+getSignature
 (
 aLhs
 )
@@ -286,7 +286,7 @@ rName
 =
 Utils
 .
-getTypeSignatureStringForMethod
+getSignature
 (
 aRhs
 )
@@ -322,7 +322,7 @@ lName
 =
 Utils
 .
-getTypeSignatureString
+getSignature
 (
 aLhs
 )
@@ -332,7 +332,7 @@ rName
 =
 Utils
 .
-getTypeSignatureString
+getSignature
 (
 aRhs
 )

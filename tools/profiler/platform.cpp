@@ -165,16 +165,6 @@ AndroidBridge
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-widget
-:
-:
-android
-;
 #
 endif
 mozilla
@@ -3926,9 +3916,6 @@ mozilla
 :
 :
 widget
-:
-:
-android
 :
 :
 GeckoJavaSampler

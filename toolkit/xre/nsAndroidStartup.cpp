@@ -343,9 +343,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 GeckoAppShell
 :
 :

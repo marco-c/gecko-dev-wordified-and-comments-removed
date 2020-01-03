@@ -78,16 +78,6 @@ mozilla
 :
 hal
 ;
-using
-namespace
-mozilla
-:
-:
-widget
-:
-:
-android
-;
 namespace
 mozilla
 {
@@ -214,9 +204,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 GeckoAppShell
 :
 :
@@ -236,9 +223,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 GeckoAppShell
 :
 :
@@ -256,9 +240,6 @@ mozilla
 :
 :
 widget
-:
-:
-android
 :
 :
 GeckoAppShell
@@ -305,9 +286,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 GeckoAppShell
 :
 :
@@ -325,9 +303,6 @@ mozilla
 :
 :
 widget
-:
-:
-android
 :
 :
 GeckoAppShell
@@ -374,9 +349,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 GeckoAppShell
 :
 :
@@ -394,9 +366,6 @@ mozilla
 :
 :
 widget
-:
-:
-android
 :
 :
 GeckoAppShell
@@ -627,9 +596,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 GeckoAppShell
 :
 :
@@ -657,9 +623,6 @@ mozilla
 :
 :
 widget
-:
-:
-android
 :
 :
 GeckoAppShell

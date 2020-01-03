@@ -28,16 +28,6 @@ AndroidBridge
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-widget
-:
-:
-android
-;
 NS_IMPL_ISUPPORTS
 (
 nsAndroidNetworkLinkService
@@ -117,9 +107,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 GeckoAppShell
 :
 :
@@ -163,9 +150,6 @@ mozilla
 :
 :
 widget
-:
-:
-android
 :
 :
 GeckoAppShell
@@ -242,9 +226,6 @@ mozilla
 :
 :
 widget
-:
-:
-android
 :
 :
 GeckoAppShell

@@ -6829,9 +6829,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 GeckoAppShell
 :
 :
@@ -7434,9 +7431,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 GeckoAppShell
 :
 :
@@ -7580,9 +7574,6 @@ mozilla
 :
 :
 widget
-:
-:
-android
 :
 :
 GeckoAppShell

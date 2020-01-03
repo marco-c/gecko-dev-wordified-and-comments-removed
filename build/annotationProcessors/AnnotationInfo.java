@@ -73,7 +73,6 @@ aCatchException
 ;
 if
 (
-!
 noThrow
 &
 &

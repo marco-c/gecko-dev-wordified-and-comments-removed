@@ -400,9 +400,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 DownloadsIntegration
 :
 :

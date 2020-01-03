@@ -1475,9 +1475,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 GeckoJavaSampler
 :
 :
@@ -1847,9 +1844,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 GeckoJavaSampler
 :
 :
@@ -1866,9 +1860,6 @@ mozilla
 :
 :
 widget
-:
-:
-android
 :
 :
 GeckoJavaSampler

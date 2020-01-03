@@ -403,6 +403,7 @@ Java_org_mozilla_gecko_GeckoAppShell_nativeInit_t
 JNIEnv
 *
 jclass
+jobject
 )
 ;
 static
@@ -423,6 +424,8 @@ JNIEnv
 arg0
 jclass
 arg1
+jobject
+arg2
 )
 {
 if
@@ -467,6 +470,7 @@ f_Java_org_mozilla_gecko_GeckoAppShell_nativeInit
 (
 arg0
 arg1
+arg2
 )
 ;
 }

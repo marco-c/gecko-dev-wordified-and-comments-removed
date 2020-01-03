@@ -32,13 +32,7 @@ SensorType
 aSensor
 )
 {
-mozilla
-:
-:
 widget
-:
-:
-android
 :
 :
 GeckoAppShell
@@ -57,13 +51,7 @@ SensorType
 aSensor
 )
 {
-mozilla
-:
-:
 widget
-:
-:
-android
 :
 :
 GeckoAppShell

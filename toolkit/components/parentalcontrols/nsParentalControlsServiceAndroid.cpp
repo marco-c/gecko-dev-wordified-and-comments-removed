@@ -64,9 +64,6 @@ mozilla
 widget
 :
 :
-android
-:
-:
 RestrictedProfiles
 :
 :
@@ -300,9 +297,6 @@ mozilla
 :
 :
 widget
-:
-:
-android
 :
 :
 RestrictedProfiles
