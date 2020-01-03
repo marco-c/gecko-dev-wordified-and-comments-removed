@@ -518,7 +518,11 @@ mActionProvider
 onCreateActionView
 (
 SECONDARY_ACTION_BAR_HISTORY_SIZE
-false
+GeckoActionProvider
+.
+ActionViewType
+.
+DEFAULT
 )
 ;
 }
@@ -530,7 +534,11 @@ mActionProvider
 onCreateActionView
 (
 QUICK_SHARE_ACTION_BAR_HISTORY_SIZE
-true
+GeckoActionProvider
+.
+ActionViewType
+.
+QUICK_SHARE_ICON
 )
 ;
 }
