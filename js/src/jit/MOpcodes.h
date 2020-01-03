@@ -39,6 +39,11 @@ SimdExtractElement
 \
 _
 (
+SimdBinaryComp
+)
+\
+_
+(
 SimdBinaryArith
 )
 \

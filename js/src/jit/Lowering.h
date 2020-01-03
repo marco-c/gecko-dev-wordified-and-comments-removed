@@ -1912,6 +1912,14 @@ ins
 )
 ;
 bool
+visitSimdBinaryComp
+(
+MSimdBinaryComp
+*
+ins
+)
+;
+bool
 visitSimdBinaryArith
 (
 MSimdBinaryArith
