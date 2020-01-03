@@ -7953,7 +7953,7 @@ enabled
 .
 http2
 "
-false
+true
 )
 ;
 pref
