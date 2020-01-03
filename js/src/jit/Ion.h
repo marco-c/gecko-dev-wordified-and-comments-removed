@@ -842,6 +842,11 @@ JitSupportsFloatingPoint
 (
 )
 ;
+bool
+JitSupportsSimd
+(
+)
+;
 }
 }
 #
