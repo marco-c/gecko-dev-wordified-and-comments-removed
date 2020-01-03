@@ -1613,8 +1613,9 @@ HandleObject
 obj
 HandleId
 id
-MutableHandleObject
-objp
+bool
+*
+resolvedp
 )
 ;
 bool

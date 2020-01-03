@@ -2146,8 +2146,9 @@ HandleObject
 obj
 HandleId
 id
-MutableHandleObject
-objp
+bool
+*
+resolvedp
 )
 {
 if
@@ -2267,12 +2268,10 @@ return
 false
 ;
 }
-objp
-.
-set
-(
-obj
-)
+*
+resolvedp
+=
+true
 ;
 }
 return
@@ -2296,8 +2295,6 @@ StringObject
 RESERVED_SLOTS
 )
 |
-JSCLASS_NEW_RESOLVE
-|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_String
@@ -2307,9 +2304,6 @@ JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 str_enumerate
-(
-JSResolveOp
-)
 str_resolve
 JS_ConvertStub
 }

@@ -33226,9 +33226,6 @@ clasp
 resolve
 =
 =
-(
-JSResolveOp
-)
 str_resolve
 )
 {
@@ -33244,9 +33241,6 @@ clasp
 resolve
 =
 =
-(
-JSResolveOp
-)
 fun_resolve
 )
 return

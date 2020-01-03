@@ -8423,6 +8423,9 @@ JS
 :
 HandleId
 id
+bool
+*
+resolvedp
 )
 ;
 extern
