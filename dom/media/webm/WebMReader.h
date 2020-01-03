@@ -741,12 +741,12 @@ mLayersBackendType
 }
 MediaTaskQueue
 *
-GetTaskQueue
+GetVideoTaskQueue
 (
 )
 {
 return
-mTaskQueue
+mVideoTaskQueue
 ;
 }
 protected
@@ -919,7 +919,7 @@ nsRefPtr
 <
 MediaTaskQueue
 >
-mTaskQueue
+mVideoTaskQueue
 ;
 bool
 mHasVideo
