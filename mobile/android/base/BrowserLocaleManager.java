@@ -990,7 +990,7 @@ remove
 PREF_LOCALE
 )
 .
-commit
+apply
 (
 )
 ;
@@ -1161,7 +1161,7 @@ PREF_LOCALE
 localeCode
 )
 .
-commit
+apply
 (
 )
 ;
