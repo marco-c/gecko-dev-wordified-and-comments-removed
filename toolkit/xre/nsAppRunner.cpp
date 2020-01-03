@@ -16736,7 +16736,7 @@ if
 EnvHasValue
 (
 "
-MOZ_PROCESS_UPDATES
+MOZ_TEST_PROCESS_UPDATES
 "
 )
 )
@@ -16836,6 +16836,8 @@ if
 CheckArg
 (
 "
+test
+-
 process
 -
 updates
@@ -16846,7 +16848,7 @@ updates
 SaveToEnv
 (
 "
-MOZ_PROCESS_UPDATES
+MOZ_TEST_PROCESS_UPDATES
 =
 1
 "
@@ -16922,7 +16924,7 @@ if
 EnvHasValue
 (
 "
-MOZ_PROCESS_UPDATES
+MOZ_TEST_PROCESS_UPDATES
 "
 )
 )
@@ -16930,7 +16932,7 @@ MOZ_PROCESS_UPDATES
 SaveToEnv
 (
 "
-MOZ_PROCESS_UPDATES
+MOZ_TEST_PROCESS_UPDATES
 =
 "
 )

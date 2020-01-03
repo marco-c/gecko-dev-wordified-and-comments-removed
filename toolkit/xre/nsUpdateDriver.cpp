@@ -4626,7 +4626,7 @@ processingUpdates
 PR_GetEnv
 (
 "
-MOZ_PROCESS_UPDATES
+MOZ_TEST_PROCESS_UPDATES
 "
 )
 ;
