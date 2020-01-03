@@ -1517,6 +1517,7 @@ readwrite
 let
 blob
 =
+new
 Blob
 (
 [
