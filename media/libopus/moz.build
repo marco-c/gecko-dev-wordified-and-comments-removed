@@ -555,6 +555,13 @@ SOURCES
 +
 =
 silk_sources_fixed
+#
+for
+webrtc
+SOURCES
++
+=
+opus_sources_float
 if
 CONFIG
 [
