@@ -324,10 +324,6 @@ nsMathMLmpaddedFrame
 )
 FRAME_ID
 (
-nsMathMLmphantomFrame
-)
-FRAME_ID
-(
 nsMathMLmrootFrame
 )
 FRAME_ID

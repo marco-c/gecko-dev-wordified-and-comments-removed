@@ -168,11 +168,6 @@ nsMathMLmpaddedFrame
 cpp
 '
 '
-nsMathMLmphantomFrame
-.
-cpp
-'
-'
 nsMathMLmrootFrame
 .
 cpp
