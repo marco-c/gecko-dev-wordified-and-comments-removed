@@ -383,6 +383,15 @@ Destroy
 (
 )
 ;
+bool
+IsDestroyed
+(
+)
+{
+return
+mDestroyed
+;
+}
 PCompositableChild
 *
 GetIPDLActor
@@ -566,6 +575,9 @@ mForwarder
 ;
 TextureFlags
 mTextureFlags
+;
+bool
+mDestroyed
 ;
 RefPtr
 <
