@@ -1176,7 +1176,7 @@ aSurfaceKey
 const
 Maybe
 <
-uint32_t
+SurfaceFlags
 >
 &
 aAlternateFlags
@@ -1403,7 +1403,7 @@ aIdealKey
 const
 Maybe
 <
-uint32_t
+SurfaceFlags
 >
 &
 aAlternateFlags
@@ -1427,7 +1427,7 @@ mIdealKey
 const
 Maybe
 <
-uint32_t
+SurfaceFlags
 >
 mAlternateFlags
 ;
@@ -2886,7 +2886,7 @@ aSurfaceKey
 const
 Maybe
 <
-uint32_t
+SurfaceFlags
 >
 &
 aAlternateFlags
@@ -4446,7 +4446,7 @@ aSurfaceKey
 const
 Maybe
 <
-uint32_t
+SurfaceFlags
 >
 &
 aAlternateFlags
@@ -4538,7 +4538,7 @@ aSurfaceKey
 const
 Maybe
 <
-uint32_t
+SurfaceFlags
 >
 &
 aAlternateFlags

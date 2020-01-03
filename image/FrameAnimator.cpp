@@ -944,7 +944,9 @@ mImage
 RasterSurfaceKey
 (
 mSize
-0
+DefaultSurfaceFlags
+(
+)
 aFrameNum
 )
 )
@@ -1113,10 +1115,9 @@ aSurface
 GetImageSize
 (
 )
-imgIContainer
-:
-:
-DECODE_FLAGS_DEFAULT
+DefaultSurfaceFlags
+(
+)
 0
 )
 ;
@@ -1254,7 +1255,9 @@ mImage
 RasterSurfaceKey
 (
 mSize
-0
+DefaultSurfaceFlags
+(
+)
 aFrameNum
 )
 )

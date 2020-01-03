@@ -319,6 +319,11 @@ SurfaceCache
 .
 h
 '
+'
+SurfaceFlags
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
