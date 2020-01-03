@@ -68,11 +68,6 @@ MPL
 0
 /
 .
-DIST_FILES
-=
-application
-.
-ini
 ifneq
 (
 (

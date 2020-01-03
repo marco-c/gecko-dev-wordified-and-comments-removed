@@ -60,16 +60,6 @@ NO_JS_MANIFEST
 MOZ_CHROME_FILE_FORMAT
 =
 flat
-DIST_FILES
-=
-\
-install
-.
-rdf
-\
-(
-NULL
-)
 #
 Used
 in

@@ -148,6 +148,16 @@ jar
 mn
 '
 ]
+DIST_FILES
++
+=
+[
+'
+install
+.
+rdf
+'
+]
 MOCHITEST_MANIFESTS
 +
 =

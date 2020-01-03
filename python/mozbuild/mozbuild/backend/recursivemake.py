@@ -76,6 +76,8 @@ ContextWrapped
     
 Defines
     
+DistFiles
+    
 DirectoryTraversal
     
 Exports
@@ -3366,6 +3368,39 @@ files
 obj
 .
 target
+)
+        
+elif
+isinstance
+(
+obj
+DistFiles
+)
+:
+            
+for
+f
+in
+obj
+.
+files
+:
+                
+backend_file
+.
+write
+(
+'
+DIST_FILES
++
+=
+%
+s
+\
+n
+'
+%
+f
 )
         
 else

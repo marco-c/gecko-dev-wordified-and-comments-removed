@@ -60,11 +60,6 @@ NO_JS_MANIFEST
 MOZ_CHROME_FILE_FORMAT
 =
 jar
-DIST_FILES
-=
-install
-.
-rdf
 #
 Used
 in

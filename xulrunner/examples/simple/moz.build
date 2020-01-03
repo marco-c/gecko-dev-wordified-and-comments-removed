@@ -128,3 +128,13 @@ prefs
 js
 '
 ]
+DIST_FILES
++
+=
+[
+'
+application
+.
+ini
+'
+]

@@ -7131,3 +7131,17 @@ dstdir
 search
 '
 )
+DIST_FILES
++
+=
+[
+'
+package
+-
+name
+.
+txt
+.
+in
+'
+]
