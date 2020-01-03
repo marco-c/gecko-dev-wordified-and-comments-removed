@@ -9616,6 +9616,7 @@ StyleImageLoader
 >
 ClearFrames
 (
+mPresContext
 )
 ;
 }
