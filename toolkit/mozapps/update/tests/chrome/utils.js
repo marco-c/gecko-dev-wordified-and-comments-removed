@@ -498,7 +498,7 @@ false
 var
 DEBUG_AUS_TEST
 =
-true
+false
 ;
 const
 DATA_URI_SPEC
