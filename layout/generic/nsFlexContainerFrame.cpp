@@ -11449,7 +11449,7 @@ if
 (
 aAxisTracker
 .
-IsMainAxisHorizontal
+IsRowOriented
 (
 )
 )
@@ -11566,7 +11566,7 @@ if
 (
 aAxisTracker
 .
-IsMainAxisHorizontal
+IsRowOriented
 (
 )
 )
@@ -11650,12 +11650,12 @@ NS_CSS_MINMAX
 largestLineOuterSize
 aReflowState
 .
-ComputedMinHeight
+ComputedMinBSize
 (
 )
 aReflowState
 .
-ComputedMaxHeight
+ComputedMaxBSize
 (
 )
 )
@@ -11705,7 +11705,7 @@ if
 (
 aAxisTracker
 .
-IsCrossAxisHorizontal
+IsColumnOriented
 (
 )
 )
@@ -11800,12 +11800,12 @@ NS_CSS_MINMAX
 aSumLineCrossSizes
 aReflowState
 .
-ComputedMinHeight
+ComputedMinBSize
 (
 )
 aReflowState
 .
-ComputedMaxHeight
+ComputedMaxBSize
 (
 )
 )
