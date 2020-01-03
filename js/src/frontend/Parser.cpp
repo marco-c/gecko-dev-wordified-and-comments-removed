@@ -10331,6 +10331,8 @@ FunctionSyntaxKind
 kind
 GeneratorKind
 generatorKind
+InvokedPrediction
+invoked
 )
 {
 MOZ_ASSERT_IF
@@ -10359,6 +10361,19 @@ pn
 return
 null
 (
+)
+;
+if
+(
+invoked
+)
+pn
+=
+handler
+.
+setLikelyIIFE
+(
+pn
 )
 ;
 bool
@@ -11220,6 +11235,17 @@ false
 ;
 do
 {
+if
+(
+pn
+-
+>
+isLikelyIIFE
+(
+)
+)
+break
+;
 Parser
 <
 SyntaxParseHandler
@@ -12784,6 +12810,8 @@ ParseHandler
 :
 functionExpr
 (
+InvokedPrediction
+invoked
 )
 {
 MOZ_ASSERT
@@ -12918,6 +12946,7 @@ name
 Normal
 Expression
 generatorKind
+invoked
 )
 ;
 }
@@ -20860,6 +20889,8 @@ ParseHandler
 :
 expressionStatement
 (
+InvokedPrediction
+invoked
 )
 {
 tokenStream
@@ -20873,6 +20904,7 @@ pnexpr
 =
 expr
 (
+invoked
 )
 ;
 if
@@ -27446,6 +27478,15 @@ expressionStatement
 )
 ;
 }
+case
+TOK_NEW
+:
+return
+expressionStatement
+(
+PredictInvoked
+)
+;
 default
 :
 return
@@ -27473,6 +27514,8 @@ ParseHandler
 :
 expr
 (
+InvokedPrediction
+invoked
 )
 {
 Node
@@ -27480,6 +27523,7 @@ pn
 =
 assignExpr
 (
+invoked
 )
 ;
 if
@@ -27848,6 +27892,8 @@ ParseHandler
 :
 orExpr1
 (
+InvokedPrediction
+invoked
 )
 {
 Node
@@ -27895,6 +27941,7 @@ pn
 =
 unaryExpr
 (
+invoked
 )
 ;
 if
@@ -28098,6 +28145,8 @@ ParseHandler
 :
 condExpr1
 (
+InvokedPrediction
+invoked
 )
 {
 Node
@@ -28105,6 +28154,7 @@ condition
 =
 orExpr1
 (
+invoked
 )
 ;
 if
@@ -28522,6 +28572,8 @@ ParseHandler
 :
 assignExpr
 (
+InvokedPrediction
+invoked
 )
 {
 JS_CHECK_RECURSION
@@ -28711,6 +28763,7 @@ lhs
 =
 condExpr1
 (
+invoked
 )
 ;
 if
@@ -29367,6 +29420,8 @@ ParseHandler
 :
 unaryExpr
 (
+InvokedPrediction
+invoked
 )
 {
 Node
@@ -29651,6 +29706,7 @@ memberExpr
 (
 tt
 true
+invoked
 )
 ;
 if
@@ -34898,6 +34954,8 @@ TokenKind
 tt
 bool
 allowCallSyntax
+InvokedPrediction
+invoked
 )
 {
 MOZ_ASSERT
@@ -34980,6 +35038,7 @@ memberExpr
 (
 tt
 false
+PredictInvoked
 )
 ;
 if
@@ -35066,6 +35125,7 @@ lhs
 primaryExpr
 (
 tt
+invoked
 )
 ;
 if
@@ -38019,6 +38079,8 @@ primaryExpr
 (
 TokenKind
 tt
+InvokedPrediction
+invoked
 )
 {
 MOZ_ASSERT
@@ -38051,6 +38113,7 @@ TOK_FUNCTION
 return
 functionExpr
 (
+invoked
 )
 ;
 case
@@ -38632,6 +38695,7 @@ pn
 =
 expr
 (
+PredictInvoked
 )
 ;
 pc
@@ -38913,6 +38977,7 @@ pn
 =
 expr
 (
+PredictInvoked
 )
 ;
 pc
