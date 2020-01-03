@@ -6916,7 +6916,7 @@ height
 Rect
 rect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 aHorizontal
 ?

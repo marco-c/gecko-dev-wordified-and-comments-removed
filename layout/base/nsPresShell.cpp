@@ -46847,7 +46847,7 @@ height
 Rect
 devPxRect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 rect
 appUnitsPerDevPixel

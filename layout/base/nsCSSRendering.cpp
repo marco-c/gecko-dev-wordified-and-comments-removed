@@ -3200,7 +3200,7 @@ ThebesContext
 >
 Clip
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 aBorderArea
 aForFrame
@@ -6120,7 +6120,7 @@ ThebesContext
 >
 Clip
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 fragmentClip
 aForFrame
@@ -15386,7 +15386,7 @@ ThebesContext
 >
 Clip
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 clip
 aForFrame
@@ -17086,7 +17086,7 @@ drawTarget
 >
 FillRect
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 aRect
 aAppUnitsPerDevPixel
@@ -17137,7 +17137,7 @@ drawTarget
 >
 FillRect
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 aRect
 aAppUnitsPerDevPixel
@@ -17160,7 +17160,7 @@ poly
 ;
 SetPoly
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 aRect
 aAppUnitsPerDevPixel

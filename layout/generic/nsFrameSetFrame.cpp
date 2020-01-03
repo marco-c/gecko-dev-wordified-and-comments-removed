@@ -8613,7 +8613,7 @@ AppUnitsPerDevPixel
 Rect
 rect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 mVisibleRect
 appUnitsPerDevPixel

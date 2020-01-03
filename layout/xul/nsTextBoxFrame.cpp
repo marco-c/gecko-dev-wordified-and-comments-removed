@@ -2502,7 +2502,7 @@ mAccessUnderlineSize
 Rect
 devPxRect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 r
 appUnitsPerDevPixel

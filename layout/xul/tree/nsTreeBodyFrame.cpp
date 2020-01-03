@@ -12864,7 +12864,7 @@ gfx
 >
 Clip
 (
-NSRectToRect
+NSRectToSnappedRect
 (
 mInnerBox
 +
@@ -16808,7 +16808,7 @@ size
 Rect
 devPxRect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 r
 appUnitsPerDevPixel
@@ -16855,7 +16855,7 @@ size
 Rect
 devPxRect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 r
 appUnitsPerDevPixel
@@ -16912,7 +16912,7 @@ size
 Rect
 devPxRect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 r
 appUnitsPerDevPixel
@@ -17724,7 +17724,7 @@ AppUnitsPerDevPixel
 Rect
 rect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 meterRect
 appUnitsPerDevPixel

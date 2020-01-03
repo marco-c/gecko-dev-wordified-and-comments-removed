@@ -4839,7 +4839,7 @@ gfx
 :
 :
 Rect
-NSRectToRect
+NSRectToSnappedRect
 (
 const
 nsRect

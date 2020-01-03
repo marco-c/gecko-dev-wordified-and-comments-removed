@@ -1552,7 +1552,7 @@ bottom
 Rect
 devPxRect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 rect
 appUnitsPerDevPixel
@@ -1729,7 +1729,7 @@ height
 Rect
 devPxRect
 =
-NSRectToRect
+NSRectToSnappedRect
 (
 snapRect
 appUnitsPerDevPixel
