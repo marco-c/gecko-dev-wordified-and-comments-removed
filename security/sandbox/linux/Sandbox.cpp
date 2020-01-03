@@ -2057,6 +2057,14 @@ bool
 aIsNuwa
 )
 {
+if
+(
+aIsNuwa
+)
+{
+return
+;
+}
 MOZ_RELEASE_ASSERT
 (
 IsSingleThreaded
