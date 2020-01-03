@@ -149,6 +149,11 @@ security
 =
 [
 '
+auth
+.
+js
+'
+'
 cert
 .
 js
