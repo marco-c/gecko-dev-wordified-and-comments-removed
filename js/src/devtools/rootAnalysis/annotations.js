@@ -417,6 +417,13 @@ zfree
 "
 :
 true
+"
+GrGLInterface
+.
+fCallback
+"
+:
+true
 }
 ;
 function

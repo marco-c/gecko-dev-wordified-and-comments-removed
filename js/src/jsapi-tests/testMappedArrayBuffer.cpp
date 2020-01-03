@@ -327,6 +327,12 @@ bool
 mapped
 )
 {
+JS
+:
+:
+AutoCheckCannotGC
+nogc
+;
 CHECK
 (
 obj
@@ -386,6 +392,7 @@ char
 JS_GetArrayBufferData
 (
 obj
+nogc
 )
 )
 ;

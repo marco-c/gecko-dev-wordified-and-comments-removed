@@ -283,7 +283,6 @@ aRv
 {
 ReadFileContent
 (
-aCx
 aBlob
 EmptyString
 (
@@ -310,7 +309,6 @@ aRv
 {
 ReadFileContent
 (
-nullptr
 aBlob
 aLabel
 FILE_AS_TEXT
@@ -331,7 +329,6 @@ aRv
 {
 ReadFileContent
 (
-nullptr
 aBlob
 EmptyString
 (
@@ -436,7 +433,6 @@ aRv
 {
 ReadFileContent
 (
-nullptr
 aBlob
 EmptyString
 (
@@ -481,9 +477,6 @@ FILE_AS_DATAURL
 void
 ReadFileContent
 (
-JSContext
-*
-aCx
 File
 &
 aBlob
