@@ -406,6 +406,9 @@ DEFINITION
 KEY
 =
 129
+LAST_ROLE
+=
+KEY
 }
 ;
 }
