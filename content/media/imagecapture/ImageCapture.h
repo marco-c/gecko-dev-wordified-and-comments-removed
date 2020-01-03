@@ -225,6 +225,11 @@ ImageCapture
 (
 )
 ;
+nsresult
+TakePhotoByMediaEngine
+(
+)
+;
 nsRefPtr
 <
 VideoStreamTrack
