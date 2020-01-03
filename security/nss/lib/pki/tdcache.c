@@ -1722,6 +1722,11 @@ a
 PRUint32
 i
 ;
+nssPKIObject_AddRef
+(
+object
+)
+;
 nssPKIObject_Lock
 (
 object
@@ -1881,6 +1886,11 @@ break
 }
 }
 nssPKIObject_Unlock
+(
+object
+)
+;
+nssPKIObject_Destroy
 (
 object
 )
