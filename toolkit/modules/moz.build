@@ -254,6 +254,11 @@ NewTabUtils
 jsm
 '
 '
+ObjectUtils
+.
+jsm
+'
+'
 PageMenu
 .
 jsm
