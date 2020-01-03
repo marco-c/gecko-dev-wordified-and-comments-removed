@@ -287,18 +287,22 @@ directory
 =
 directory
 [
+                    
 0
 :
 min
 (
+                        
 options
 .
 chunkByDir
+                        
 len
 (
 directory
 )
 -
+                        
 1
 )
 ]
@@ -315,8 +319,8 @@ directory
 )
                 
 if
-not
 directory
+not
 in
 tests_by_dir
 :
@@ -1703,6 +1707,7 @@ summary
 .
 append
 (
+                
 "
 \
 tFound
@@ -1714,6 +1719,7 @@ test
 s
 "
 %
+                
 options
 .
 bisectChunk
@@ -1783,6 +1789,7 @@ summary
 .
 append
 (
+                
 "
 \
 t
@@ -1811,6 +1818,7 @@ s
 (
 len
 (
+                    
 self
 .
 contents
@@ -1820,6 +1828,7 @@ testsToRun
 '
 ]
 )
+                    
 self
 .
 contents
@@ -1831,6 +1840,7 @@ testsToRun
 [
 0
 ]
+                    
 self
 .
 contents
@@ -1840,9 +1850,11 @@ testsToRun
 '
 ]
 [
+                    
 -
 2
 ]
+                    
 self
 .
 contents
@@ -1852,6 +1864,7 @@ testsToRun
 '
 ]
 [
+                    
 -
 1
 ]
@@ -1867,6 +1880,7 @@ summary
 .
 append
 (
+                
 "
 \
 t
@@ -1880,6 +1894,7 @@ s
 ]
 "
 %
+                
 self
 .
 contents
@@ -2017,6 +2032,7 @@ failed
 .
 "
 %
+                                    
 self
 .
 contents
@@ -2044,6 +2060,7 @@ self
 .
 expectedError
 [
+                    
 options
 .
 bisectChunk
@@ -2080,6 +2097,7 @@ summary
 .
 append
 (
+                    
 "
 \
 t
@@ -2151,6 +2169,7 @@ summary
 .
 append
 (
+                        
 "
 TEST
 -
@@ -2177,6 +2196,7 @@ above
 failures
 "
 %
+                        
 self
 .
 contents
@@ -2204,6 +2224,7 @@ summary
 .
 append
 (
+                    
 "
 \
 t
@@ -2286,6 +2307,7 @@ summary
 .
 append
 (
+                
 "
 \
 t
@@ -2298,6 +2320,7 @@ passed
 .
 "
 %
+                
 self
 .
 contents
@@ -2391,6 +2414,7 @@ summary
 .
 append
 (
+                
 "
 \
 t
@@ -2403,6 +2427,7 @@ failed
 .
 "
 %
+                
 self
 .
 contents
@@ -2476,6 +2501,7 @@ summary
 .
 append
 (
+                    
 "
 TEST
 -
@@ -2502,6 +2528,7 @@ above
 failures
 "
 %
+                    
 self
 .
 contents
