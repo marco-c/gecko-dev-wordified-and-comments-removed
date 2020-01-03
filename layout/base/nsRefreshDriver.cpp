@@ -3263,8 +3263,6 @@ Enabling
 vsync
 refresh
 driver
-\
-n
 "
 )
 ;

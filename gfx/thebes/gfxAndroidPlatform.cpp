@@ -1937,8 +1937,6 @@ back
 to
 software
 vsync
-\
-n
 "
 )
 ;

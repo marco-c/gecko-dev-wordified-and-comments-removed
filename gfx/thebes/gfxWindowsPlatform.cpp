@@ -9675,8 +9675,6 @@ back
 to
 software
 timers
-\
-n
 "
 )
 ;
@@ -10147,8 +10145,6 @@ back
 to
 software
 vsync
-\
-n
 "
 )
 ;
@@ -10192,8 +10188,6 @@ back
 to
 software
 vsync
-\
-n
 "
 )
 ;
