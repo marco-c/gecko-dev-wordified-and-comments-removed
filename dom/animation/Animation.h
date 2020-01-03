@@ -268,7 +268,7 @@ AutoRewind
 Continue
 }
 ;
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 *
 GetEffect
 (
@@ -282,7 +282,7 @@ mEffect
 void
 SetEffect
 (
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 *
 aEffect
 )
@@ -977,7 +977,7 @@ mTimeline
 ;
 nsRefPtr
 <
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 >
 mEffect
 ;

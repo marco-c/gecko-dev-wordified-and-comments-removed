@@ -152,7 +152,7 @@ IsWebAnimationsEnabled
 "
 ]
 interface
-AnimationEffectReadonly
+AnimationEffectReadOnly
 {
 /
 /
@@ -164,7 +164,7 @@ implemented
 /
 readonly
 attribute
-AnimationEffectTimingReadonly
+AnimationEffectTimingReadOnly
 timing
 ;
 /
