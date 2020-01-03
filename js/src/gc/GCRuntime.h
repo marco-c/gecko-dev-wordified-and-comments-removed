@@ -3040,6 +3040,9 @@ sweepBackgroundThings
 ZoneList
 &
 zones
+LifoAlloc
+&
+freeBlocks
 ThreadType
 threadType
 )
