@@ -25,13 +25,6 @@ undefined
 )
 ;
 const
-Cu
-=
-Components
-.
-utils
-;
-const
 toolId1
 =
 "
