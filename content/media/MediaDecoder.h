@@ -374,12 +374,6 @@ aStreamListener
 ;
 virtual
 void
-ResourceLoaded
-(
-)
-;
-virtual
-void
 NetworkError
 (
 )
@@ -2050,9 +2044,6 @@ mNextState
 ;
 SeekTarget
 mRequestedSeekTarget
-;
-bool
-mCalledResourceLoaded
 ;
 bool
 mIgnoreProgressData
