@@ -709,6 +709,14 @@ gfxContext
 aRefContext
 )
 ;
+enum
+SuppressBreak
+{
+eNoSuppressBreak
+eSuppressInitialBreak
+eSuppressAllBreaks
+}
+;
 uint32_t
 BreakAndMeasureText
 (
@@ -723,8 +731,8 @@ aWidth
 PropertyProvider
 *
 aProvider
-bool
-aSuppressInitialBreak
+SuppressBreak
+aSuppressBreak
 gfxFloat
 *
 aTrimWhitespace

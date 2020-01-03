@@ -440,6 +440,17 @@ mLineLayout
 if
 (
 ll
+&
+&
+!
+StyleContext
+(
+)
+-
+>
+IsDirectlyInsideRuby
+(
+)
 )
 {
 if
