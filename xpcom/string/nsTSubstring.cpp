@@ -66,10 +66,7 @@ STRING_STAT_INCREMENT
 Adopt
 )
 ;
-#
-ifdef
-NS_BUILD_REFCNT_LOGGING
-NS_LogCtor
+MOZ_LOG_CTOR
 (
 mData
 "
@@ -78,8 +75,6 @@ StringAdopt
 1
 )
 ;
-#
-endif
 }
 }
 #
@@ -1766,10 +1761,7 @@ STRING_STAT_INCREMENT
 Adopt
 )
 ;
-#
-ifdef
-NS_BUILD_REFCNT_LOGGING
-NS_LogCtor
+MOZ_LOG_CTOR
 (
 mData
 "
@@ -1778,8 +1770,6 @@ StringAdopt
 1
 )
 ;
-#
-endif
 }
 else
 {
