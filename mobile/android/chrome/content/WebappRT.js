@@ -422,7 +422,9 @@ true
 )
 ;
 }
-sendMessageToJava
+Messaging
+.
+sendRequestForResult
 (
 {
 type
@@ -433,6 +435,10 @@ NativeApp
 IsDebuggable
 "
 }
+)
+.
+then
+(
 (
 response
 )

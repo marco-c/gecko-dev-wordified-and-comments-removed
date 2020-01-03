@@ -444,7 +444,9 @@ result
 =
 null
 ;
-sendMessageToJava
+Messaging
+.
+sendRequestForResult
 (
 {
 type
@@ -473,6 +475,10 @@ this
 .
 _branch
 }
+)
+.
+then
+(
 (
 data
 )

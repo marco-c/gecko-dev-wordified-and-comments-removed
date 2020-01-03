@@ -1024,7 +1024,9 @@ function
 (
 )
 {
-sendMessageToJava
+Messaging
+.
+sendRequestForResult
 (
 {
 type
@@ -1035,6 +1037,10 @@ MediaPlayer
 Get
 "
 }
+)
+.
+then
+(
 (
 result
 )
@@ -1114,6 +1120,7 @@ service
 }
 }
 )
+;
 }
 _searchFixedTargets
 :
