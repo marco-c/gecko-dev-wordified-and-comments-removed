@@ -1345,6 +1345,11 @@ IDBVersionChangeEvent
 webidl
 '
 '
+ImageBitmap
+.
+webidl
+'
+'
 ImageCapture
 .
 webidl
@@ -3389,11 +3394,6 @@ webidl
 '
 '
 BluetoothGattDescriptor
-.
-webidl
-'
-'
-BluetoothGattServer
 .
 webidl
 '

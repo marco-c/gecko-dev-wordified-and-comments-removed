@@ -3776,3 +3776,7 @@ Window
 implements
 GlobalFetch
 ;
+Window
+implements
+ImageBitmapFactories
+;

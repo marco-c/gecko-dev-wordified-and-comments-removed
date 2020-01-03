@@ -332,6 +332,10 @@ WorkerGlobalScope
 implements
 IDBEnvironment
 ;
+WorkerGlobalScope
+implements
+ImageBitmapFactories
+;
 /
 /
 Not
