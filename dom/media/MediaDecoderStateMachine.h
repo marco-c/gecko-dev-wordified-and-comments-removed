@@ -3492,7 +3492,7 @@ bool
 mAudioCompleted
 ;
 bool
-mGotDurationFromMetaData
+mNotifyMetadataBeforeFirstFrame
 ;
 bool
 mDispatchedEventToDecode
