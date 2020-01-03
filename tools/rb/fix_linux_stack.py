@@ -378,9 +378,8 @@ file
 as
 a
 str
-represented
+representing
     
-as
 a
 sequence
 of
