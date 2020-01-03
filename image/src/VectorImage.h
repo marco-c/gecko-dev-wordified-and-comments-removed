@@ -159,13 +159,6 @@ aLastPart
 )
 MOZ_OVERRIDE
 ;
-virtual
-nsresult
-OnNewSourceData
-(
-)
-MOZ_OVERRIDE
-;
 void
 InvalidateObserversOnNextRefreshDriverTick
 (

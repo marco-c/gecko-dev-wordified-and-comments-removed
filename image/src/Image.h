@@ -279,14 +279,6 @@ aLastPart
 0
 ;
 virtual
-nsresult
-OnNewSourceData
-(
-)
-=
-0
-;
-virtual
 void
 OnSurfaceDiscarded
 (
