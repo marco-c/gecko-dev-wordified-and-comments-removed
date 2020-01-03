@@ -1613,12 +1613,13 @@ now
 ;
 do_check_true
 (
+is_time_ordered
+(
+now
 livemark
 .
 lastModified
->
-=
-now
+)
 )
 ;
 }
