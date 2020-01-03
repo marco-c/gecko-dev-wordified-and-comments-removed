@@ -188,7 +188,7 @@ styles
 LOCALIZATION
 NOTE
 (
-userStylesSearch
+filterStylesPlaceholder
 )
 :
 This
@@ -216,7 +216,7 @@ entered
 <
 !
 ENTITY
-userStylesSearch
+filterStylesPlaceholder
 "
 Filter
 Styles
