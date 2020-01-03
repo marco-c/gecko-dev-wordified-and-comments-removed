@@ -671,9 +671,6 @@ FILE
 *
 fp
 ;
-bool
-fullFormat
-;
 int
 gcDepth
 ;
