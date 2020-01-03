@@ -82,6 +82,13 @@ gfx
 .
 h
 "
+#
+include
+"
+gfx2DGlue
+.
+h
+"
 namespace
 mozilla
 {
@@ -1271,7 +1278,10 @@ aImage
 HTMLCanvasElement
 *
 aCanvas
-gfxIntSize
+gfx
+:
+:
+IntSize
 *
 aSize
 )
@@ -1377,6 +1387,11 @@ mData
 *
 aSize
 =
+gfx
+:
+:
+ToIntSize
+(
 entry
 -
 >
@@ -1384,6 +1399,7 @@ mData
 -
 >
 mSize
+)
 ;
 return
 entry
