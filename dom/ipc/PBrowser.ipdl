@@ -2906,6 +2906,10 @@ MouseWheelEvent
 (
 WidgetWheelEvent
 event
+ScrollableLayerGuid
+aGuid
+uint64_t
+aInputBlockId
 )
 ;
 RealTouchEvent
