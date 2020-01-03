@@ -65,6 +65,7 @@ Base
 public
 :
 MOZ_CONSTEXPR
+explicit
 FilteringWrapper
 (
 unsigned
@@ -367,6 +368,7 @@ SecurityXrayDOM
 {
 public
 :
+explicit
 CrossOriginXrayWrapper
 (
 unsigned

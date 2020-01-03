@@ -1186,6 +1186,7 @@ JSCLContextHelper
 {
 public
 :
+explicit
 JSCLContextHelper
 (
 JSContext
@@ -1509,6 +1510,7 @@ ComponentLoaderInfo
 {
 public
 :
+explicit
 ComponentLoaderInfo
 (
 const

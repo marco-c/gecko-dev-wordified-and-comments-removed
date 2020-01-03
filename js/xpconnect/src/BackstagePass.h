@@ -114,6 +114,7 @@ mGlobal
 global
 ;
 }
+explicit
 BackstagePass
 (
 nsIPrincipal

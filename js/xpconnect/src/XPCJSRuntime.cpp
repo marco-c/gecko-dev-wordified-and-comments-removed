@@ -3970,6 +3970,7 @@ mWatchdog
 ;
 public
 :
+explicit
 AutoLockWatchdog
 (
 Watchdog
@@ -3989,6 +3990,7 @@ Watchdog
 {
 public
 :
+explicit
 Watchdog
 (
 WatchdogManager
@@ -4410,6 +4412,7 @@ nsIObserver
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 WatchdogManager
 (
 XPCJSRuntime
@@ -12611,6 +12614,7 @@ ObjectPrivateVisitor
 {
 public
 :
+explicit
 OrphanReporter
 (
 GetISupportsFun

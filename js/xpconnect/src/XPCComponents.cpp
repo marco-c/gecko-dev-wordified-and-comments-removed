@@ -15378,6 +15378,7 @@ nsIXPCScriptable
 {
 public
 :
+explicit
 ComponentsSH
 (
 unsigned

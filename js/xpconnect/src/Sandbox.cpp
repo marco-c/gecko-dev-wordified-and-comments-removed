@@ -1798,6 +1798,7 @@ vp
 struct
 AutoSkipPropertyMirroring
 {
+explicit
 AutoSkipPropertyMirroring
 (
 CompartmentPrivate

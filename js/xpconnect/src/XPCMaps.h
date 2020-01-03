@@ -751,6 +751,7 @@ Native2WrappedNativeMap
 (
 )
 ;
+explicit
 Native2WrappedNativeMap
 (
 int
@@ -1024,6 +1025,7 @@ IID2WrappedJSClassMap
 (
 )
 ;
+explicit
 IID2WrappedJSClassMap
 (
 int
@@ -1289,6 +1291,7 @@ IID2NativeInterfaceMap
 (
 )
 ;
+explicit
 IID2NativeInterfaceMap
 (
 int
@@ -1549,6 +1552,7 @@ ClassInfo2NativeSetMap
 (
 )
 ;
+explicit
 ClassInfo2NativeSetMap
 (
 int
@@ -1793,6 +1797,7 @@ ClassInfo2WrappedNativeProtoMap
 (
 )
 ;
+explicit
 ClassInfo2WrappedNativeProtoMap
 (
 int
@@ -2111,6 +2116,7 @@ NativeSetMap
 (
 )
 ;
+explicit
 NativeSetMap
 (
 int
@@ -2366,6 +2372,7 @@ IID2ThisTranslatorMap
 (
 )
 ;
+explicit
 IID2ThisTranslatorMap
 (
 int
@@ -2503,6 +2510,7 @@ XPCNativeScriptableSharedMap
 (
 )
 ;
+explicit
 XPCNativeScriptableSharedMap
 (
 int
@@ -2673,6 +2681,7 @@ XPCWrappedNativeProtoMap
 (
 )
 ;
+explicit
 XPCWrappedNativeProtoMap
 (
 int

@@ -199,6 +199,7 @@ OptionsBase
 {
 public
 :
+explicit
 LoadSubScriptOptions
 (
 JSContext
@@ -1869,6 +1870,7 @@ nsRunnable
 public
 :
 NS_DECL_NSIRUNNABLE
+explicit
 NotifyPrecompilationCompleteRunnable
 (
 ScriptPrecompiler
@@ -1927,6 +1929,7 @@ AutoSendObserverNotification
 {
 public
 :
+explicit
 AutoSendObserverNotification
 (
 ScriptPrecompiler
