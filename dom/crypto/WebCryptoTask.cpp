@@ -8686,6 +8686,9 @@ Construct
 (
 )
 ;
+if
+(
+!
 mJwk
 .
 mKey_ops
@@ -8698,7 +8701,12 @@ AppendElements
 (
 mKeyUsages
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 }
 return
 NS_OK
