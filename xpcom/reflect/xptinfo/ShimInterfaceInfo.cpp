@@ -853,13 +853,6 @@ h
 #
 include
 "
-nsIDOMTouchEvent
-.
-h
-"
-#
-include
-"
 nsIDOMTransitionEvent
 .
 h

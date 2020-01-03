@@ -8070,10 +8070,6 @@ nsIDOMWindowPerformance
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsITouchEventReceiver
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIInlineEventHandlers
 )
 NS_INTERFACE_MAP_END
@@ -59878,10 +59874,6 @@ define
 WINDOW_ONLY_EVENT
 EVENT
 #
-define
-TOUCH_EVENT
-EVENT
-#
 include
 "
 mozilla
@@ -59890,9 +59882,6 @@ EventNameList
 .
 h
 "
-#
-undef
-TOUCH_EVENT
 #
 undef
 WINDOW_ONLY_EVENT

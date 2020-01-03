@@ -385,13 +385,6 @@ h
 #
 include
 "
-nsIDOMTouchEvent
-.
-h
-"
-#
-include
-"
 nsDataHashtable
 .
 h

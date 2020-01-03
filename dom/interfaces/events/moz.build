@@ -213,11 +213,6 @@ nsIDOMSimpleGestureEvent
 idl
 '
 '
-nsIDOMTouchEvent
-.
-idl
-'
-'
 nsIDOMTransitionEvent
 .
 idl

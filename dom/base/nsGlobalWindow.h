@@ -259,13 +259,6 @@ h
 #
 include
 "
-nsIDOMTouchEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -1061,8 +1054,6 @@ PRCListStr
 public
 nsIDOMWindowPerformance
 public
-nsITouchEventReceiver
-public
 nsIInlineEventHandlers
 #
 ifdef
@@ -1347,7 +1338,6 @@ this
 )
 ;
 }
-NS_DECL_NSITOUCHEVENTRECEIVER
 NS_DECL_NSIINLINEEVENTHANDLERS
 virtual
 nsPIDOMWindow
