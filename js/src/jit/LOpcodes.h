@@ -1013,6 +1013,16 @@ GuardClass
 \
 _
 (
+GuardUnboxedExpando
+)
+\
+_
+(
+LoadUnboxedExpando
+)
+\
+_
+(
 TypeBarrierV
 )
 \

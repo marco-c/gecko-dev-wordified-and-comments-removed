@@ -794,6 +794,16 @@ GuardClass
 \
 _
 (
+GuardUnboxedExpando
+)
+\
+_
+(
+LoadUnboxedExpando
+)
+\
+_
+(
 ArrayLength
 )
 \
