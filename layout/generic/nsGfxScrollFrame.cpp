@@ -2025,8 +2025,6 @@ top
 if
 (
 !
-mHelper
-.
 IsScrollbarOnRight
 (
 )
@@ -19403,8 +19401,6 @@ aState
 bool
 scrollbarRight
 =
-mHelper
-.
 IsScrollbarOnRight
 (
 )
