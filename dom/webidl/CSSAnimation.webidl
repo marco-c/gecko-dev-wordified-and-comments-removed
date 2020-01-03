@@ -171,5 +171,13 @@ CSSAnimation
 :
 Animation
 {
+[
+Constant
+]
+readonly
+attribute
+DOMString
+animationName
+;
 }
 ;
