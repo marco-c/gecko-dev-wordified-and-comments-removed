@@ -2967,7 +2967,9 @@ if
 long_build
 :
             
-print
+output
+.
+on_line
 (
 '
 We
@@ -2989,7 +2991,9 @@ successfully
 else
 :
             
-print
+output
+.
+on_line
 (
 '
 Your
