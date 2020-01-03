@@ -231,10 +231,8 @@ if
 (
 !
 mRunningSample
-)
-{
-if
-(
+&
+&
 !
 mResampleNeeded
 )
@@ -243,7 +241,6 @@ FlagDocumentNeedsFlush
 (
 )
 ;
-}
 mResampleNeeded
 =
 true
@@ -310,6 +307,7 @@ bool
 HasRegisteredAnimations
 (
 )
+const
 {
 return
 mAnimationElementTable
@@ -333,6 +331,16 @@ RestyleTracker
 aTracker
 )
 ;
+bool
+MightHavePendingStyleUpdates
+(
+)
+const
+{
+return
+mMightHavePendingStyleUpdates
+;
+}
 protected
 :
 ~
@@ -543,6 +551,9 @@ mRunningSample
 ;
 bool
 mRegisteredWithRefreshDriver
+;
+bool
+mMightHavePendingStyleUpdates
 ;
 nsIDocument
 *
