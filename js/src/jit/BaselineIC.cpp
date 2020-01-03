@@ -4811,6 +4811,16 @@ code
 return
 false
 ;
+MOZ_ASSERT
+(
+fun
+.
+expectTailCall
+=
+=
+TailCall
+)
+;
 uint32_t
 argSize
 =
@@ -4881,6 +4891,16 @@ code
 )
 return
 false
+;
+MOZ_ASSERT
+(
+fun
+.
+expectTailCall
+=
+=
+NonTailCall
+)
 ;
 EmitCallVM
 (
@@ -7122,6 +7142,7 @@ DoProfilerFallbackFn
 >
 (
 DoProfilerFallback
+TailCall
 )
 ;
 bool
@@ -8209,6 +8230,7 @@ DoTypeMonitorFallbackFn
 >
 (
 DoTypeMonitorFallback
+TailCall
 )
 ;
 bool
@@ -9508,6 +9530,7 @@ DoTypeUpdateFallbackFn
 >
 (
 DoTypeUpdateFallback
+NonTailCall
 )
 ;
 bool
@@ -10239,6 +10262,7 @@ DoThisFallbackFn
 >
 (
 DoThisFallback
+TailCall
 )
 ;
 bool
@@ -10376,6 +10400,7 @@ DoNewArrayFn
 >
 (
 DoNewArray
+TailCall
 )
 ;
 bool
@@ -10524,6 +10549,7 @@ DoNewObjectFn
 >
 (
 DoNewObject
+TailCall
 )
 ;
 bool
@@ -11885,6 +11911,7 @@ DoCompareFallbackFn
 >
 (
 DoCompareFallback
+TailCall
 PopValues
 (
 2
@@ -13494,6 +13521,7 @@ pf
 >
 (
 DoToBoolFallback
+TailCall
 )
 ;
 bool
@@ -14207,6 +14235,7 @@ DoToNumberFallbackFn
 >
 (
 DoToNumberFallback
+TailCall
 PopValues
 (
 1
@@ -15692,6 +15721,7 @@ DoBinaryArithFallbackFn
 >
 (
 DoBinaryArithFallback
+TailCall
 PopValues
 (
 2
@@ -15937,6 +15967,7 @@ DoConcatStringsFn
 >
 (
 DoConcatStrings
+TailCall
 )
 ;
 bool
@@ -16291,6 +16322,7 @@ DoConcatStringObjectFn
 >
 (
 DoConcatStringObject
+TailCall
 PopValues
 (
 2
@@ -17795,6 +17827,7 @@ DoUnaryArithFallbackFn
 >
 (
 DoUnaryArithFallback
+TailCall
 PopValues
 (
 1
@@ -22800,6 +22833,7 @@ DoGetElemFallbackFn
 >
 (
 DoGetElemFallback
+TailCall
 PopValues
 (
 2
@@ -28174,6 +28208,7 @@ DoSetElemFallbackFn
 >
 (
 DoSetElemFallback
+TailCall
 PopValues
 (
 2
@@ -30915,6 +30950,7 @@ DoInFallbackFn
 >
 (
 DoInFallback
+TailCall
 PopValues
 (
 2
@@ -32890,6 +32926,7 @@ DoGetNameFallbackFn
 >
 (
 DoGetNameFallback
+TailCall
 )
 ;
 bool
@@ -33494,6 +33531,7 @@ DoBindNameFallbackFn
 >
 (
 DoBindNameFallback
+TailCall
 )
 ;
 bool
@@ -33784,6 +33822,7 @@ DoGetIntrinsicFallbackFn
 >
 (
 DoGetIntrinsicFallback
+TailCall
 )
 ;
 bool
@@ -37282,6 +37321,7 @@ DoGetPropFallbackFn
 >
 (
 DoGetPropFallback
+TailCall
 PopValues
 (
 1
@@ -43368,6 +43408,7 @@ DoSetPropFallbackFn
 >
 (
 DoSetPropFallback
+TailCall
 PopValues
 (
 2
@@ -56714,6 +56755,7 @@ DoIteratorNewFallbackFn
 >
 (
 DoIteratorNewFallback
+TailCall
 PopValues
 (
 1
@@ -56973,6 +57015,7 @@ DoIteratorMoreFallbackFn
 >
 (
 DoIteratorMoreFallback
+TailCall
 )
 ;
 bool
@@ -57352,6 +57395,7 @@ DoIteratorCloseFallbackFn
 >
 (
 DoIteratorCloseFallback
+TailCall
 )
 ;
 bool
@@ -57556,6 +57600,7 @@ DoInstanceOfFallbackFn
 >
 (
 DoInstanceOfFallback
+TailCall
 PopValues
 (
 2
@@ -57810,6 +57855,7 @@ DoTypeOfFallbackFn
 >
 (
 DoTypeOfFallback
+TailCall
 )
 ;
 bool
@@ -58300,6 +58346,7 @@ js
 :
 :
 Throw
+TailCall
 )
 ;
 bool
@@ -62210,6 +62257,7 @@ DoRestFallbackFn
 >
 (
 DoRestFallback
+TailCall
 )
 ;
 bool
