@@ -88,6 +88,16 @@ shadow
 :
 none
 ;
+-
+-
+backbutton
+-
+urlbar
+-
+overlap
+:
+0px
+;
 }
 :
 root
