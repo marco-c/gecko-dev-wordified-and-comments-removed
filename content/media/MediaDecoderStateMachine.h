@@ -1138,6 +1138,11 @@ OnAudioSinkComplete
 (
 )
 ;
+void
+OnAudioSinkError
+(
+)
+;
 nsRefPtr
 <
 MediaDecoder
