@@ -630,6 +630,16 @@ HandleObject
 promise
 )
 ;
+void
+onPromiseSettled
+(
+JSContext
+*
+cx
+HandleObject
+promise
+)
+;
 }
 }
 #
