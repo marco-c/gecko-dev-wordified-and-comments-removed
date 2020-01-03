@@ -101,11 +101,17 @@ nsIDOMWebGLRenderingContext
 out_result
 )
 {
+mozilla
+:
+:
 Telemetry
 :
 :
 Accumulate
 (
+mozilla
+:
+:
 Telemetry
 :
 :
@@ -117,6 +123,9 @@ nsIDOMWebGLRenderingContext
 *
 ctx
 =
+mozilla
+:
+:
 WebGL1Context
 :
 :
