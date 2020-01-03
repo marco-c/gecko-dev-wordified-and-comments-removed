@@ -1930,6 +1930,10 @@ this
 ;
 iframe
 .
+clientTop
+;
+iframe
+.
 docShell
 .
 QueryInterface
