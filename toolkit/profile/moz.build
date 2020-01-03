@@ -135,11 +135,6 @@ UNIFIED_SOURCES
 =
 [
 '
-/
-profile
-/
-dirserviceprovider
-/
 nsProfileLock
 .
 cpp
@@ -163,11 +158,6 @@ UNIFIED_SOURCES
 =
 [
 '
-/
-profile
-/
-dirserviceprovider
-/
 ProfileUnlockerWin
 .
 cpp
@@ -192,12 +182,6 @@ LOCAL_INCLUDES
 .
 /
 xre
-'
-'
-/
-profile
-/
-dirserviceprovider
 '
 ]
 FAIL_ON_WARNINGS
