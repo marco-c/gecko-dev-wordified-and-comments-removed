@@ -234,12 +234,6 @@ CSSAnimation
 nsIGlobalObject
 *
 aGlobal
-dom
-:
-:
-AnimationTimeline
-*
-aTimeline
 const
 nsSubstring
 &
@@ -252,7 +246,6 @@ dom
 Animation
 (
 aGlobal
-aTimeline
 )
 mAnimationName
 (

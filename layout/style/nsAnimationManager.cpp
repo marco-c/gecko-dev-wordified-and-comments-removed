@@ -2626,7 +2626,6 @@ Document
 GetScopeObject
 (
 )
-aTimeline
 src
 .
 GetName
@@ -2650,6 +2649,14 @@ GetPseudoType
 (
 )
 )
+)
+;
+dest
+-
+>
+SetTimeline
+(
+aTimeline
 )
 ;
 dest
