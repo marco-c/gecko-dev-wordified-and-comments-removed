@@ -401,13 +401,6 @@ UNIFIED_SOURCES
 '
 ucvlatin
 /
-nsARMSCII8ToUnicode
-.
-cpp
-'
-'
-ucvlatin
-/
 nsAsciiToUnicode
 .
 cpp
@@ -724,13 +717,6 @@ cpp
 ucvlatin
 /
 nsTIS620ToUnicode
-.
-cpp
-'
-'
-ucvlatin
-/
-nsUnicodeToARMSCII8
 .
 cpp
 '
