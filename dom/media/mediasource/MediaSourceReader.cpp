@@ -615,7 +615,7 @@ RequestAudioData
 {
 MOZ_ASSERT
 (
-OnDecodeThread
+OnTaskQueue
 (
 )
 )
@@ -1420,7 +1420,7 @@ aTimeThreshold
 {
 MOZ_ASSERT
 (
-OnDecodeThread
+OnTaskQueue
 (
 )
 )
@@ -3955,7 +3955,7 @@ ResetDecode
 {
 MOZ_ASSERT
 (
-OnDecodeThread
+OnTaskQueue
 (
 )
 )
@@ -4858,7 +4858,7 @@ aType
 {
 MOZ_ASSERT
 (
-OnDecodeThread
+OnTaskQueue
 (
 )
 )

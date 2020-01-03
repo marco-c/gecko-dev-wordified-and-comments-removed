@@ -312,7 +312,7 @@ EnsureTaskQueue
 ;
 virtual
 bool
-OnDecodeThread
+OnTaskQueue
 (
 )
 {
