@@ -3047,7 +3047,9 @@ failed
 ;
 MW_ASSERT
 (
-!
+PR_FALSE
+&
+&
 "
 Accept
 failed

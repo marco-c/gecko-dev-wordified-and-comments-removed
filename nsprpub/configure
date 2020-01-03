@@ -20534,7 +20534,7 @@ MOD_MINOR_VERSION
 10
 MOD_PATCH_VERSION
 =
-7
+8
 NSPR_MODNAME
 =
 nspr20
@@ -51665,6 +51665,13 @@ DSO_LDOPTS
 shared
 -
 fPIC
+-
+Wl
+-
+soname
+(
+notdir
+)
 '
 MKSHLIB
 =

@@ -3103,9 +3103,8 @@ WSAGetLastError
 )
 )
 ;
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 What
 shall

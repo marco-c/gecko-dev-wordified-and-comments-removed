@@ -1012,9 +1012,8 @@ failed
 0
 )
 ;
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 You
 can

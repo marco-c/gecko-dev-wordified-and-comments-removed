@@ -1032,9 +1032,8 @@ PRUint32
 mask
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Not
 implemented
@@ -1059,9 +1058,8 @@ PRUint32
 mask
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Not
 implemented

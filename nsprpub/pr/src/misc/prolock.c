@@ -34,9 +34,8 @@ char
 name
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Not
 implemented
@@ -64,9 +63,8 @@ PROrderedLock
 lock
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Not
 implemented
@@ -91,9 +89,8 @@ PROrderedLock
 lock
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Not
 implemented
@@ -118,9 +115,8 @@ PROrderedLock
 lock
 )
 {
-PR_ASSERT
+PR_NOT_REACHED
 (
-!
 "
 Not
 implemented
