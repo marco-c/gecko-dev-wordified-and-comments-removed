@@ -3771,8 +3771,6 @@ foo
 xoProp
 :
 top
-.
-location
 hasOwnProperty
 :
 10
@@ -4079,8 +4077,6 @@ trickyArray
 xoProp
 =
 top
-.
-location
 ;
 trickyArray
 .
@@ -4596,8 +4592,6 @@ wrappedJSObject
 xoProp
 )
 top
-.
-location
 "
 Underlying
 object
