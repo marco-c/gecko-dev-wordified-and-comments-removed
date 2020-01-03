@@ -298,12 +298,6 @@ case
 CompositableType
 :
 :
-CONTENT_INC
-:
-case
-CompositableType
-:
-:
 CONTENT_TILED
 :
 case
