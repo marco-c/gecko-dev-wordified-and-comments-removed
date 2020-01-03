@@ -379,7 +379,7 @@ l10n
 get
 (
 "
-feedback_category_confusing
+feedback_category_confusing2
 "
 )
 other
@@ -718,7 +718,7 @@ l10n
 get
 (
 "
-feedback_what_makes_you_sad
+feedback_category_list_heading
 "
 )
 reset
