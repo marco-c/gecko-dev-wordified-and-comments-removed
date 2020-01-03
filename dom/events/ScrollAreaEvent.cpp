@@ -77,11 +77,16 @@ aEvent
 )
 mClientArea
 (
+new
+DOMRect
+(
 nullptr
+)
 )
 {
 mClientArea
-.
+-
+>
 SetLayoutRect
 (
 aEvent
@@ -223,7 +228,8 @@ rv
 )
 ;
 mClientArea
-.
+-
+>
 SetRect
 (
 aX
@@ -431,7 +437,8 @@ false
 )
 ;
 mClientArea
-.
+-
+>
 SetRect
 (
 x
