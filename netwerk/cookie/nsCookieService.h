@@ -1353,6 +1353,17 @@ nsICookie2
 aCookie
 )
 ;
+void
+UpdateCookieOldestTime
+(
+DBState
+*
+aDBState
+nsCookie
+*
+aCookie
+)
+;
 static
 PLDHashOperator
 GetCookiesForApp

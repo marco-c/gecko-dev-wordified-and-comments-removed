@@ -428,6 +428,12 @@ mCreationTime
 aTime
 ;
 }
+bool
+IsStale
+(
+)
+const
+;
 protected
 :
 virtual
