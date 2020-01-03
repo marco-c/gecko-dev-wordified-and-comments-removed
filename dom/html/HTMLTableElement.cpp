@@ -3545,7 +3545,7 @@ borderLeftColor
 aData
 -
 >
-ValueForBorderLeftColorValue
+ValueForBorderLeftColor
 (
 )
 ;
@@ -3576,7 +3576,7 @@ borderRightColor
 aData
 -
 >
-ValueForBorderRightColorValue
+ValueForBorderRightColor
 (
 )
 ;
@@ -3720,7 +3720,7 @@ borderLeftWidth
 aData
 -
 >
-ValueForBorderLeftWidthValue
+ValueForBorderLeftWidth
 (
 )
 ;
@@ -3755,7 +3755,7 @@ borderRightWidth
 aData
 -
 >
-ValueForBorderRightWidthValue
+ValueForBorderRightWidth
 (
 )
 ;
