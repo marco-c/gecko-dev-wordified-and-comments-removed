@@ -246,7 +246,6 @@ list
 service
 integration
 .
-#
 MOZ_ANDROID_READING_LIST_SERVICE
 =
 1
