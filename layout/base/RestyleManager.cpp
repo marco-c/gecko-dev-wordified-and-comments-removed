@@ -12967,9 +12967,6 @@ result
 if
 (
 aRestyleHint
-|
-|
-true
 )
 {
 result
@@ -14215,13 +14212,6 @@ result
 eRestyleResult_Stop
 )
 {
-if
-(
-true
-)
-{
-}
-else
 if
 (
 copyFromContinuation
