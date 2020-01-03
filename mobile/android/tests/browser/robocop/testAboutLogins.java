@@ -18,7 +18,7 @@ AppConstants
 ;
 public
 class
-testAboutPasswords
+testAboutLogins
 extends
 JavascriptTest
 {
@@ -28,7 +28,7 @@ final
 String
 LOGTAG
 =
-testAboutPasswords
+testAboutLogins
 .
 class
 .
@@ -37,14 +37,14 @@ getSimpleName
 )
 ;
 public
-testAboutPasswords
+testAboutLogins
 (
 )
 {
 super
 (
 "
-testAboutPasswords
+testAboutLogins
 .
 js
 "

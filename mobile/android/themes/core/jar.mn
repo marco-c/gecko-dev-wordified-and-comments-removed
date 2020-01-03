@@ -501,11 +501,11 @@ NIGHTLY_BUILD
 *
 skin
 /
-aboutPasswords
+aboutLogins
 .
 css
 (
-aboutPasswords
+aboutLogins
 .
 css
 )

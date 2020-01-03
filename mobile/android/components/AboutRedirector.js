@@ -448,7 +448,7 @@ NIGHTLY_BUILD
 modules
 [
 '
-passwords
+logins
 '
 ]
 =
@@ -464,7 +464,7 @@ browser
 /
 content
 /
-aboutPasswords
+aboutLogins
 .
 xhtml
 "

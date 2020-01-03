@@ -17995,7 +17995,7 @@ loadUrlInTab
 (
 AboutPages
 .
-PASSWORDS
+LOGINS
 )
 ;
 return

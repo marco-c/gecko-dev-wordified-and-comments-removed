@@ -172,7 +172,7 @@ bind
 (
 null
 "
-AboutPasswords
+AboutLogins
 "
 )
 ;
@@ -194,7 +194,7 @@ browser
 /
 locale
 /
-aboutPasswords
+aboutLogins
 .
 properties
 "
@@ -269,7 +269,7 @@ copying
 from
 about
 :
-passwords
+logins
 "
 )
 ;
@@ -286,7 +286,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsDetails
+loginsDetails
 .
 copyFailed
 "
@@ -304,7 +304,7 @@ FILTER_DELAY
 500
 ;
 let
-Passwords
+Logins
 =
 {
 _logins
@@ -1040,7 +1040,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsMenu
+loginsMenu
 .
 showPassword
 "
@@ -1054,7 +1054,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsMenu
+loginsMenu
 .
 copyPassword
 "
@@ -1068,7 +1068,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsMenu
+loginsMenu
 .
 copyUsername
 "
@@ -1082,7 +1082,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsMenu
+loginsMenu
 .
 details
 "
@@ -1096,7 +1096,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsMenu
+loginsMenu
 .
 delete
 "
@@ -1154,7 +1154,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsDialog
+loginsDialog
 .
 copy
 "
@@ -1164,7 +1164,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsDialog
+loginsDialog
 .
 cancel
 "
@@ -1201,7 +1201,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsDetails
+loginsDetails
 .
 passwordCopied
 "
@@ -1227,7 +1227,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsDetails
+loginsDetails
 .
 passwordCopied
 "
@@ -1249,7 +1249,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsDetails
+loginsDetails
 .
 usernameCopied
 "
@@ -1306,7 +1306,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsDialog
+loginsDialog
 .
 confirmDelete
 "
@@ -1319,7 +1319,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsDialog
+loginsDialog
 .
 confirm
 "
@@ -1329,7 +1329,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsDialog
+loginsDialog
 .
 cancel
 "
@@ -2183,7 +2183,7 @@ gStringBundle
 formatStringFromName
 (
 "
-passwordsDetails
+loginsDetails
 .
 age
 "
@@ -2316,7 +2316,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsDetails
+loginsDetails
 .
 usernameCopied
 "
@@ -2367,7 +2367,7 @@ gStringBundle
 GetStringFromName
 (
 "
-passwordsDetails
+loginsDetails
 .
 passwordCopied
 "
@@ -2563,13 +2563,13 @@ addEventListener
 "
 load
 "
-Passwords
+Logins
 .
 init
 .
 bind
 (
-Passwords
+Logins
 )
 false
 )
@@ -2581,13 +2581,13 @@ addEventListener
 "
 unload
 "
-Passwords
+Logins
 .
 uninit
 .
 bind
 (
-Passwords
+Logins
 )
 false
 )

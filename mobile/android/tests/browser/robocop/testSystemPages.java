@@ -76,7 +76,7 @@ mStringHelper
 ABOUT_DOWNLOADS_URL
 StringHelper
 .
-ABOUT_PASSWORDS_URL
+ABOUT_LOGINS_URL
 mStringHelper
 .
 ABOUT_BUILDCONFIG_URL
@@ -134,7 +134,7 @@ LOGINS_LABEL
 {
 StringHelper
 .
-ABOUT_PASSWORDS_URL
+ABOUT_LOGINS_URL
 }
 }
 {
@@ -510,7 +510,7 @@ if
 (
 StringHelper
 .
-ABOUT_PASSWORDS_URL
+ABOUT_LOGINS_URL
 .
 equals
 (

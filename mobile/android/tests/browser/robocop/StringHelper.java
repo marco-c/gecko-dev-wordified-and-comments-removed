@@ -168,12 +168,12 @@ public
 static
 final
 String
-ABOUT_PASSWORDS_URL
+ABOUT_LOGINS_URL
 =
 "
 about
 :
-passwords
+logins
 "
 ;
 public
