@@ -187,16 +187,6 @@ unused
 rv
 ;
 }
-void
-SyncDispatch
-(
-already_AddRefed
-<
-nsIRunnable
->
-aRunnable
-)
-;
 nsRefPtr
 <
 ShutdownPromise
