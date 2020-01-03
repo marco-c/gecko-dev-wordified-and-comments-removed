@@ -1672,6 +1672,9 @@ kind
 uintptr_t
 nativeStackLimit
 [
+js
+:
+:
 StackKindCount
 ]
 ;

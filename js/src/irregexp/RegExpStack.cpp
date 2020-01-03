@@ -43,8 +43,6 @@ regexp_stack
 rt
 -
 >
-mainThread
-.
 regexpStack
 )
 {
@@ -80,8 +78,6 @@ return
 rt
 -
 >
-mainThread
-.
 regexpStack
 .
 grow

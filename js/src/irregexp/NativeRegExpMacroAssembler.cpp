@@ -544,8 +544,6 @@ stack_limit
 runtime
 -
 >
-mainThread
-.
 addressOfJitStackLimit
 (
 )
@@ -1167,8 +1165,6 @@ AbsoluteAddress
 runtime
 -
 >
-mainThread
-.
 regexpStack
 .
 addressOfBase
@@ -1921,8 +1917,6 @@ AbsoluteAddress
 runtime
 -
 >
-mainThread
-.
 regexpStack
 .
 addressOfBase
@@ -5341,8 +5335,6 @@ limitAddr
 runtime
 -
 >
-mainThread
-.
 regexpStack
 .
 addressOfLimit

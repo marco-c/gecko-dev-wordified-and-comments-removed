@@ -2553,8 +2553,6 @@ runtime
 )
 -
 >
-mainThread
-.
 addressOfJitStackLimit
 (
 )
@@ -16747,10 +16745,11 @@ AbsoluteAddress
 cx
 -
 >
-mainThread
+runtime
 (
 )
-.
+-
+>
 addressOfProfilingActivation
 (
 )

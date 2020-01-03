@@ -5040,10 +5040,11 @@ Activation
 *
 act
 =
-mainThread
+runtime
 (
 )
-.
+-
+>
 activation
 (
 )
@@ -5112,10 +5113,11 @@ Activation
 *
 act
 =
-mainThread
+runtime
 (
 )
-.
+-
+>
 activation
 (
 )
@@ -5685,8 +5687,6 @@ return
 runtime_
 -
 >
-mainThread
-.
 addressOfSimulatorStackLimit
 (
 )

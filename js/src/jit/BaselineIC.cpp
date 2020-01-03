@@ -6592,10 +6592,11 @@ void
 cx
 -
 >
-mainThread
+runtime
 (
 )
-.
+-
+>
 jitActivation
 )
 scratchReg
