@@ -114,6 +114,11 @@ _
 SetProp_InlineAccess
 )
 \
+_
+(
+SetProp_InlineCache
+)
+\
 \
 _
 (
