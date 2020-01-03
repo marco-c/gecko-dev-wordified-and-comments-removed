@@ -1255,6 +1255,8 @@ nsIDOMWindow
 aWindow
 uint32_t
 aHintContents
+=
+0
 )
 {
 Fake_SourceMediaStream

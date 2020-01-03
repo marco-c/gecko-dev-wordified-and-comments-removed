@@ -226,11 +226,10 @@ bool
 aRealtime
 TrackRate
 aSampleRate
-DOMMediaStream
-:
-:
-TrackTypeHints
-aHint
+bool
+aStartWithAudioDriver
+=
+false
 dom
 :
 :

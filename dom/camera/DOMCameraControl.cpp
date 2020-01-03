@@ -1172,11 +1172,6 @@ forget
 (
 )
 ;
-SetHintContents
-(
-HINT_CONTENTS_VIDEO
-)
-;
 InitStreamCommon
 (
 mInput

@@ -1242,8 +1242,6 @@ DOMMediaStream
 >
 MakeMediaStream
 (
-uint32_t
-aHint
 )
 ;
 nsresult
