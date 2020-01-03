@@ -38541,6 +38541,11 @@ Set
 "
 about
 :
+addons
+"
+"
+about
+:
 customizing
 "
 ]
