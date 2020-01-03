@@ -1100,7 +1100,7 @@ setHeader
 Location
 "
 "
-browser_fxa_oauth
+browser_fxa_oauth_with_keys
 .
 html
 "
