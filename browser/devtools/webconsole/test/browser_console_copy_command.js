@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 let
 gWebConsole
 gJSTerm
@@ -252,7 +257,7 @@ add_task
 (
 function
 *
-test_copy
+testCopy
 (
 )
 {

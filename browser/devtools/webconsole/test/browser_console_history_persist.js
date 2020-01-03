@@ -22,6 +22,9 @@ Web
 Console
 test
 for
+"
++
+"
 persisting
 history
 -
@@ -606,6 +609,9 @@ first
 result
 )
 after
+"
++
+"
 running
 a
 command
@@ -809,13 +815,6 @@ jsterm
 =
 hud
 .
-jsterm
-;
-let
-{
-inputNode
-}
-=
 jsterm
 ;
 for

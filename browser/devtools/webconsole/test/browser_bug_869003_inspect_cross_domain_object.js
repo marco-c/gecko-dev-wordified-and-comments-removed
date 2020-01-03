@@ -23,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -243,6 +246,7 @@ hud
 .
 iframeWindow
 )
+;
 }
 )
 ;

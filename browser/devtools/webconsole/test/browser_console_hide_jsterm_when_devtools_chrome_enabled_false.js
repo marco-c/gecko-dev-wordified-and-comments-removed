@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 testObjectInspectorPropertiesAreNotSet
 (
@@ -97,12 +102,12 @@ jsterm
 .
 execute
 (
-'
+"
 new
 Object
 (
 )
-'
+"
 )
 ;
 let
@@ -133,6 +138,7 @@ CATEGORY_OUTPUT
 ]
 }
 )
+;
 hud
 .
 jsterm
@@ -442,10 +448,12 @@ testJSTermIsVisible
 (
 webConsole
 )
+;
 testObjectInspectorPropertiesAreSet
 (
 variablesView
 )
+;
 yield
 closeConsole
 (
@@ -522,10 +530,12 @@ testJSTermIsVisible
 (
 webConsole
 )
+;
 testObjectInspectorPropertiesAreSet
 (
 variablesView
 )
+;
 yield
 closeConsole
 (

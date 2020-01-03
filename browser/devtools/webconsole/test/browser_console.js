@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -18,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -306,6 +314,7 @@ onload
 )
 =
 >
+{
 console
 .
 log
@@ -323,6 +332,8 @@ xhrErr
 .
 status
 )
+;
+}
 ;
 xhrErr
 .

@@ -23,6 +23,9 @@ devtools
 /
 webconsole
 /
+"
++
+"
 test
 /
 test
@@ -188,6 +191,7 @@ focus
 )
 ;
 }
+;
 inputNode
 .
 addEventListener
@@ -266,6 +270,7 @@ second
 time
 "
 )
+;
 EventUtils
 .
 sendMouseEvent
