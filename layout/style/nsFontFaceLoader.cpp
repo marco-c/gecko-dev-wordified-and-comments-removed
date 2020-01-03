@@ -405,7 +405,7 @@ else
 mUserFontEntry
 -
 >
-mLoadingState
+mFontDataLoadingState
 =
 gfxUserFontEntry
 :
@@ -480,7 +480,7 @@ if
 ufe
 -
 >
-mLoadingState
+mFontDataLoadingState
 =
 =
 gfxUserFontEntry
@@ -557,7 +557,7 @@ contentLength
 ufe
 -
 >
-mLoadingState
+mFontDataLoadingState
 =
 gfxUserFontEntry
 :
@@ -642,7 +642,7 @@ updateUserFontSet
 ufe
 -
 >
-mLoadingState
+mFontDataLoadingState
 =
 gfxUserFontEntry
 :
@@ -998,7 +998,7 @@ fontUpdate
 mUserFontEntry
 -
 >
-OnLoadComplete
+FontDataDownloadComplete
 (
 aString
 aStringLen
@@ -1071,7 +1071,7 @@ Cancel
 mUserFontEntry
 -
 >
-mLoadingState
+mFontDataLoadingState
 =
 gfxUserFontEntry
 :
