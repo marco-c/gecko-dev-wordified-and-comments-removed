@@ -219,6 +219,10 @@ options
 (
 options
 )
+gs_
+(
+alloc
+)
 {
 }
 bool
