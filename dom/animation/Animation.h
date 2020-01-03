@@ -903,7 +903,7 @@ IsFinished
 const
 ;
 bool
-IsPossiblyOrphanedPendingPlayer
+IsPossiblyOrphanedPendingAnimation
 (
 )
 const

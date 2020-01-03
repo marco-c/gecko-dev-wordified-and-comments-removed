@@ -1332,7 +1332,7 @@ SetNull
 }
 if
 (
-IsPossiblyOrphanedPendingPlayer
+IsPossiblyOrphanedPendingAnimation
 (
 )
 )
@@ -1356,7 +1356,7 @@ IsNull
 "
 Orphaned
 pending
-players
+animtaions
 should
 have
 an
@@ -1446,7 +1446,7 @@ to
 start
 a
 pending
-player
+animation
 "
 )
 ;
@@ -2487,7 +2487,7 @@ a
 play
 -
 pending
-player
+animation
 "
 )
 ;
@@ -2506,8 +2506,8 @@ IsNull
 (
 )
 "
-A
-player
+An
+animation
 in
 the
 play
@@ -2647,7 +2647,7 @@ a
 pause
 -
 pending
-player
+animation
 "
 )
 ;
@@ -3332,7 +3332,7 @@ bool
 Animation
 :
 :
-IsPossiblyOrphanedPendingPlayer
+IsPossiblyOrphanedPendingAnimation
 (
 )
 const
@@ -3639,8 +3639,8 @@ MOZ_ASSERT
 (
 mEffect
 "
-A
-player
+An
+animation
 with
 an
 animation
@@ -3675,8 +3675,8 @@ MOZ_ASSERT
 (
 targetElement
 "
-A
-player
+An
+animation
 with
 an
 animation

@@ -1039,7 +1039,7 @@ IsInPlay
 const
 Animation
 &
-aPlayer
+aAnimation
 )
 const
 ;
@@ -1049,7 +1049,7 @@ IsCurrent
 const
 Animation
 &
-aPlayer
+aAnimation
 )
 const
 ;
