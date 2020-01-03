@@ -7450,15 +7450,6 @@ GetSpec
 baseURIString
 )
 ;
-features
-.
-AppendLiteral
-(
-"
-remote
-"
-)
-;
 nsresult
 rv
 ;

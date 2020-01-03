@@ -293,6 +293,8 @@ aChromeURL
 bool
 aHasChromeParent
 bool
+aCalledFromJS
+bool
 aOpenedFromRemoteTab
 )
 ;
