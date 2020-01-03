@@ -16,6 +16,9 @@ h
 namespace
 mozilla
 {
+class
+DOMMediaStream
+;
 namespace
 dom
 {
@@ -45,6 +48,13 @@ MediaTrackListListener
 {
 public
 :
+friend
+class
+mozilla
+:
+:
+DOMMediaStream
+;
 explicit
 MediaTrackListListener
 (
