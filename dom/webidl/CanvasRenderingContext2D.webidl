@@ -726,6 +726,7 @@ focusring
 .
 enabled
 "
+Throws
 ]
 void
 drawFocusIfNeeded
@@ -1929,6 +1930,7 @@ dashed
 lines
 [
 LenientFloat
+Throws
 ]
 void
 setLineDash
