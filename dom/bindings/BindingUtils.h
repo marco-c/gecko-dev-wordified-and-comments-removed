@@ -3536,7 +3536,7 @@ if
 JS
 :
 :
-GetTenuredGCThingZone
+GetStringZone
 (
 str
 )

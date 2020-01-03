@@ -7748,10 +7748,6 @@ JS
 GetTenuredGCThingZone
 (
 aGcthing
-.
-asCell
-(
-)
 )
 ;
 if
