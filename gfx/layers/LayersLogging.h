@@ -1260,6 +1260,11 @@ sfx
 "
 )
 {
+aStream
+<
+<
+pfx
+;
 std
 :
 :
@@ -1325,6 +1330,11 @@ precision
 (
 oldPrecision
 )
+;
+aStream
+<
+<
+sfx
 ;
 }
 void
