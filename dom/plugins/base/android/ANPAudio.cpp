@@ -1185,10 +1185,8 @@ s
 at_class
 )
 ;
-free
-(
+delete
 s
-)
 ;
 return
 nullptr
@@ -1234,10 +1232,8 @@ s
 at_class
 )
 ;
-free
-(
+delete
 s
-)
 ;
 return
 nullptr
@@ -1390,10 +1386,8 @@ s
 at_class
 )
 ;
-free
-(
+delete
 s
-)
 ;
 return
 ;
