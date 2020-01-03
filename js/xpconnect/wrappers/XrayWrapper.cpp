@@ -414,6 +414,9 @@ JSProto_Function
 case
 JSProto_TypedArray
 :
+case
+JSProto_SavedFrame
+:
 return
 true
 ;

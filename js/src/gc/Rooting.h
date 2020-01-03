@@ -32,6 +32,9 @@ class
 ArrayObject
 ;
 class
+GlobalObject
+;
+class
 PlainObject
 ;
 class
@@ -251,6 +254,17 @@ ArrayObject
 *
 >
 RootedArrayObject
+;
+typedef
+JS
+:
+:
+Rooted
+<
+GlobalObject
+*
+>
+RootedGlobalObject
 ;
 typedef
 JS

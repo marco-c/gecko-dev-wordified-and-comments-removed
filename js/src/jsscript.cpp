@@ -341,14 +341,6 @@ mozilla
 :
 RotateLeft
 ;
-typedef
-Rooted
-<
-GlobalObject
-*
->
-RootedGlobalObject
-;
 BindingIter
 Bindings
 :
