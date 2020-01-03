@@ -254,6 +254,17 @@ OtherPid
 }
 virtual
 bool
+RecvImageBridgeThreadId
+(
+const
+PlatformThreadId
+&
+aThreadId
+)
+override
+;
+virtual
+bool
 RecvUpdate
 (
 EditArray
@@ -607,6 +618,9 @@ nsRefPtr
 ImageBridgeParent
 >
 mSelfRef
+;
+bool
+mSetChildThreadPriority
 ;
 static
 std

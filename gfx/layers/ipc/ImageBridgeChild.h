@@ -249,6 +249,17 @@ ImageBridgeParent
 aParent
 )
 ;
+using
+PImageBridgeChild
+:
+:
+SendImageBridgeThreadId
+;
+void
+SendImageBridgeThreadId
+(
+)
+;
 static
 void
 IdentifyCompositorTextureHost
