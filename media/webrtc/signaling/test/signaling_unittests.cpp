@@ -5353,6 +5353,14 @@ EXPECT_TRUE
 pcImpl
 )
 ;
+pcImpl
+-
+>
+SetAllowIceLoopback
+(
+true
+)
+;
 pc
 =
 new
