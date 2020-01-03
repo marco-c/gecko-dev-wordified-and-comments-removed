@@ -6159,7 +6159,7 @@ reg
 =
 regs
 .
-takeAny
+takeUnaliasedAny
 (
 needFloat
 )
@@ -7299,7 +7299,7 @@ reg
 =
 regs
 .
-takeAny
+takeUnaliasedAny
 (
 needFloat
 )

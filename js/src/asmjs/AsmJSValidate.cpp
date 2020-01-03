@@ -50090,6 +50090,16 @@ FloatRegisters
 :
 d15
 )
+|
+(
+1ULL
+<
+<
+FloatRegisters
+:
+:
+s31
+)
 )
 )
 ;
