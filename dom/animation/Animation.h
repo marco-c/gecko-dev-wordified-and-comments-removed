@@ -395,6 +395,11 @@ ErrorResult
 aRv
 )
 ;
+void
+Cancel
+(
+)
+;
 virtual
 void
 Finish
@@ -549,11 +554,6 @@ GetCurrentOrPendingStartTime
 (
 )
 const
-;
-void
-Cancel
-(
-)
 ;
 const
 nsString

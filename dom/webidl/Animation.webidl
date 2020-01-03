@@ -265,15 +265,11 @@ Animation
 >
 finished
 ;
-/
-*
 void
 cancel
 (
 )
 ;
-*
-/
 [
 Throws
 ]
