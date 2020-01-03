@@ -1623,9 +1623,6 @@ PendingOperation
 >
 mPendingOperations
 ;
-bool
-mShuttingDown
-;
 }
 ;
 }
