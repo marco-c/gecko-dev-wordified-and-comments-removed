@@ -5501,6 +5501,16 @@ height
 break
 ;
 }
+case
+ScrollWheelInput
+:
+:
+SCROLLDELTA_PIXEL
+:
+{
+break
+;
+}
 default
 :
 MOZ_ASSERT_UNREACHABLE
