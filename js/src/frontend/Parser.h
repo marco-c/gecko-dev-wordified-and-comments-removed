@@ -899,7 +899,7 @@ CompExprTransplanter
 enum
 LetContext
 {
-LetExpresion
+LetExpression
 LetStatement
 }
 ;
