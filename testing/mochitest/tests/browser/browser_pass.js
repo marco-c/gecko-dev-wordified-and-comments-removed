@@ -3,6 +3,12 @@ test
 (
 )
 {
+SimpleTest
+.
+requestCompleteLog
+(
+)
+;
 ok
 (
 true
