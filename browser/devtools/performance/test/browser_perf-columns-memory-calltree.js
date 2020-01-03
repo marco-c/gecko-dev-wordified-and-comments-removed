@@ -45,7 +45,7 @@ panel
 yield
 busyWait
 (
-1000
+100
 )
 ;
 let
@@ -113,7 +113,7 @@ percentage
 :
 false
 "
-allocations
+count
 "
 :
 true
@@ -134,7 +134,7 @@ false
 "
 self
 -
-allocations
+count
 "
 :
 true

@@ -357,10 +357,10 @@ undefined
 visibleCells
 :
 {
-allocations
+selfCount
 :
 true
-selfAllocations
+count
 :
 true
 function
