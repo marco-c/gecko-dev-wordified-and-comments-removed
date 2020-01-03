@@ -3587,10 +3587,16 @@ addressOfSimulatorStackLimit
 ;
 #
 endif
+JS
+:
+:
+PersistentRooted
+<
 js
 :
 :
 ScriptAndCountsVector
+>
 *
 scriptAndCountsVector
 ;
