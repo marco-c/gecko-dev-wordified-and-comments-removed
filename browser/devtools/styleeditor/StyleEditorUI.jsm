@@ -798,9 +798,8 @@ if
 (
 hUtils
 .
-hasCustomHighlighter
+supportsCustomHighlighters
 (
-SELECTOR_HIGHLIGHTER_TYPE
 )
 )
 {
