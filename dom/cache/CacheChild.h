@@ -99,6 +99,9 @@ aGlobal
 Promise
 *
 aPromise
+nsISupports
+*
+aParent
 const
 CacheOpArgs
 &
@@ -114,6 +117,13 @@ nsIAsyncInputStream
 aStream
 )
 ;
+void
+StartDestroyFromListener
+(
+)
+;
+private
+:
 virtual
 void
 StartDestroy
@@ -121,8 +131,6 @@ StartDestroy
 )
 override
 ;
-private
-:
 virtual
 void
 ActorDestroy
@@ -184,6 +192,9 @@ mListener
 ;
 uint32_t
 mNumChildActors
+;
+bool
+mDelayedDestroy
 ;
 NS_DECL_OWNINGTHREAD
 }

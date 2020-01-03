@@ -359,11 +359,6 @@ StartDestroy
 (
 )
 {
-OnEnd
-(
-NS_ERROR_ABORT
-)
-;
 }
 void
 CachePushStreamChild

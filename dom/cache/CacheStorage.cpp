@@ -1950,7 +1950,7 @@ mActor
 mActor
 -
 >
-StartDestroy
+StartDestroyFromListener
 (
 )
 ;
@@ -2083,6 +2083,7 @@ entry
 -
 >
 mPromise
+this
 args
 .
 SendAsOpArgs

@@ -94,6 +94,9 @@ aFeature
 nsIGlobalObject
 *
 aGlobal
+nsISupports
+*
+aParent
 Promise
 *
 aPromise
@@ -206,6 +209,12 @@ nsCOMPtr
 nsIGlobalObject
 >
 mGlobal
+;
+nsCOMPtr
+<
+nsISupports
+>
+mParent
 ;
 nsRefPtr
 <
