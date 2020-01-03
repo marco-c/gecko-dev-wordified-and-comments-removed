@@ -350,16 +350,6 @@ PTelephonyRequest
 ;
 child
 :
-NotifyCallError
-(
-uint32_t
-aClientId
-int32_t
-aCallIndex
-nsString
-aError
-)
-;
 NotifyCallStateChanged
 (
 nsTelephonyCallInfo
