@@ -1198,9 +1198,9 @@ center
 ;
 }
 .
-incoming
--
 call
+-
+window
 {
 display
 :
@@ -1234,8 +1234,6 @@ height
 ;
 }
 .
-incoming
--
 call
 -
 action
@@ -1270,8 +1268,6 @@ around
 ;
 }
 .
-incoming
--
 call
 -
 action
@@ -1288,10 +1284,12 @@ left
 .
 5em
 ;
+height
+:
+26px
+;
 }
 .
-incoming
--
 call
 -
 action
@@ -1304,8 +1302,6 @@ group
 -
 chevron
 .
-incoming
--
 call
 -
 action
@@ -1323,9 +1319,9 @@ width
 ;
 }
 .
-incoming
--
 call
+-
+window
 h2
 {
 font
@@ -1354,8 +1350,6 @@ margin
 fx
 -
 embedded
--
-incoming
 -
 call
 -
