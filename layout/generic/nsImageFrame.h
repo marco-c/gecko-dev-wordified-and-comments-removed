@@ -854,6 +854,11 @@ uint32_t
 aFlags
 )
 ;
+void
+MaybeDecodeForPredictedSize
+(
+)
+;
 protected
 :
 friend
@@ -919,6 +924,15 @@ mForceSyncDecoding
 aForce
 ;
 }
+nsRect
+PredictedDestRect
+(
+const
+nsRect
+&
+aFrameContentBox
+)
+;
 private
 :
 inline
