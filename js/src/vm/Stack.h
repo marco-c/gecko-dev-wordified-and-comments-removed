@@ -5678,8 +5678,10 @@ const
 Value
 thisv
 (
+JSContext
+*
+cx
 )
-const
 ;
 Value
 returnValue
