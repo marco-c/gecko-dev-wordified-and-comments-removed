@@ -1359,6 +1359,10 @@ nsIRequest
 :
 LOAD_NORMAL
 nullptr
+nsIContentPolicy
+:
+:
+TYPE_IMAGE
 EmptyString
 (
 )

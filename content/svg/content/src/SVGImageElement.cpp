@@ -511,6 +511,7 @@ LoadImage
 href
 aForce
 aNotify
+eImageLoadType_Normal
 )
 ;
 }

@@ -9281,6 +9281,14 @@ nsIRequest
 :
 LOAD_NORMAL
 ;
+nsContentPolicyType
+contentPolicyType
+=
+nsIContentPolicy
+:
+:
+TYPE_IMAGE
+;
 return
 il
 -
@@ -9296,6 +9304,7 @@ gIconLoad
 nullptr
 loadFlags
 nullptr
+contentPolicyType
 EmptyString
 (
 )

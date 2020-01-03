@@ -666,6 +666,9 @@ Throws
 void
 forceReload
 (
+optional
+boolean
+aNotify
 )
 ;
 [

@@ -175,6 +175,13 @@ h
 #
 include
 "
+nsIContentPolicy
+.
+h
+"
+#
+include
+"
 imgRequestProxy
 .
 h
@@ -1391,6 +1398,10 @@ nsIRequest
 :
 LOAD_NORMAL
 nullptr
+nsIContentPolicy
+:
+:
+TYPE_IMAGE
 EmptyString
 (
 )

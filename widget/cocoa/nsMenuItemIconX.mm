@@ -344,6 +344,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsIContentPolicy
+.
+h
+"
 using
 mozilla
 :
@@ -1970,6 +1977,10 @@ nsIRequest
 :
 LOAD_NORMAL
 nullptr
+nsIContentPolicy
+:
+:
+TYPE_IMAGE
 EmptyString
 (
 )

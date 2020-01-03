@@ -13761,6 +13761,7 @@ aObserver
 aLoadingDocument
 aLoadFlags
 nullptr
+aContentPolicyType
 initiatorType
 aRequest
 )
