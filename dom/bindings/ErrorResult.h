@@ -134,10 +134,6 @@ NS_OK
 #
 ifdef
 DEBUG
-mMessage
-=
-nullptr
-;
 mMightHaveUnreportedJSException
 =
 false
