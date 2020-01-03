@@ -82,6 +82,7 @@ PromiseWorkerProxyRunnable
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 PromiseWorkerProxy
+MOZ_OVERRIDE
 )
 public
 :
