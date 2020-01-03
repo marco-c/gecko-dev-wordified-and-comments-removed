@@ -3240,6 +3240,18 @@ char16_t
 )
 ;
 }
+if
+(
+!
+nsCSSPseudoElements
+:
+:
+IsCSS2PseudoElement
+(
+mLowercaseTag
+)
+)
+{
 aString
 .
 Append
@@ -3252,6 +3264,7 @@ char16_t
 )
 )
 ;
+}
 aString
 .
 Append
