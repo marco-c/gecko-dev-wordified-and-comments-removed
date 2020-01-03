@@ -132,13 +132,7 @@ h
 if
 defined
 (
-MOZ_FMP4
-)
-&
-&
-defined
-(
-MOZ_WMF
+MOZ_PDM_VPX
 )
 #
 include
@@ -147,10 +141,6 @@ IntelWebMVideoDecoder
 .
 h
 "
-#
-define
-MOZ_PDM_VPX
-1
 #
 endif
 #
