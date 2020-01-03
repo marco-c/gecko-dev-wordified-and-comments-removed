@@ -80,6 +80,9 @@ powerLevel
 long
 techType
 ;
+boolean
+isP2P
+;
 sequence
 <
 MozNDEFRecordOptions

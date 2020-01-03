@@ -1122,6 +1122,15 @@ aOptions
 mSessionId
 )
 ;
+aParcel
+.
+writeInt32
+(
+aOptions
+.
+mIsP2P
+)
+;
 WriteNDEFMessage
 (
 aParcel
