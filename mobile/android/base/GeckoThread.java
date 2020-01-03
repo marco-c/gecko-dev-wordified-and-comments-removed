@@ -236,12 +236,6 @@ sAction
 sUri
 )
 ;
-ThreadUtils
-.
-sGeckoThread
-=
-sGeckoThread
-;
 return
 true
 ;
@@ -828,6 +822,12 @@ Looper
 prepare
 (
 )
+;
+ThreadUtils
+.
+sGeckoThread
+=
+this
 ;
 ThreadUtils
 .
