@@ -4724,6 +4724,10 @@ RestyleTracker
 aRestyleTracker
 nsRestyleHint
 aRestyleHint
+const
+RestyleHintData
+&
+aRestyleHintData
 )
 {
 MOZ_ASSERT
@@ -4943,6 +4947,7 @@ aPrimaryFrame
 aMinHint
 aRestyleTracker
 aRestyleHint
+aRestyleHintData
 )
 ;
 }
@@ -4995,6 +5000,7 @@ aElement
 aMinHint
 aRestyleTracker
 aRestyleHint
+aRestyleHintData
 )
 ;
 }
@@ -7400,6 +7406,9 @@ rootFrame
 changeHint
 aRestyleTracker
 restyleHint
+RestyleHintData
+(
+)
 )
 ;
 }
@@ -7943,6 +7952,10 @@ nsRestyleHint
 aRestyleHint
 nsChangeHint
 aMinChangeHint
+const
+RestyleHintData
+*
+aRestyleHintData
 )
 {
 if
@@ -7995,6 +8008,7 @@ AddPendingRestyle
 aElement
 aRestyleHint
 aMinChangeHint
+aRestyleHintData
 )
 ;
 if
@@ -12122,6 +12136,9 @@ nsRestyleHint
 0
 )
 ;
+RestyleHintData
+hintDataToRestore
+;
 if
 (
 mContent
@@ -12215,6 +12232,16 @@ restyleData
 -
 >
 mRestyleHint
+;
+hintDataToRestore
+=
+Move
+(
+restyleData
+-
+>
+mRestyleHintData
+)
 ;
 aRestyleHint
 =
@@ -15522,6 +15549,10 @@ RestyleTracker
 aRestyleTracker
 nsRestyleHint
 aRestyleHint
+const
+RestyleHintData
+&
+aRestyleHintData
 )
 {
 MOZ_ASSERT
@@ -15731,6 +15762,7 @@ mChangeList
 aMinHint
 aRestyleTracker
 aRestyleHint
+aRestyleHintData
 mContextsToClear
 mSwappedStructOwners
 )
@@ -15775,6 +15807,10 @@ RestyleTracker
 aRestyleTracker
 nsRestyleHint
 aRestyleHint
+const
+RestyleHintData
+&
+aRestyleHintData
 nsTArray
 <
 ContextToClear
@@ -17869,6 +17905,10 @@ RestyleTracker
 aRestyleTracker
 nsRestyleHint
 aRestyleHint
+const
+RestyleHintData
+&
+aRestyleHintData
 )
 {
 MOZ_ASSERT
@@ -17913,6 +17953,7 @@ changeList
 aMinChange
 aRestyleTracker
 aRestyleHint
+aRestyleHintData
 contextsToClear
 swappedStructOwners
 )
@@ -17947,6 +17988,10 @@ RestyleTracker
 aRestyleTracker
 nsRestyleHint
 aRestyleHint
+const
+RestyleHintData
+&
+aRestyleHintData
 )
 {
 MOZ_ASSERT
@@ -18128,6 +18173,7 @@ aNewContext
 aMinChange
 aRestyleTracker
 aRestyleHint
+aRestyleHintData
 )
 ;
 ProcessRestyledFrames
@@ -18577,6 +18623,9 @@ names
 {
 "
 Self
+"
+"
+SomeDescendants
 "
 "
 Subtree
