@@ -3969,7 +3969,7 @@ MediaData
 :
 Type
 aType
-MediaDecoderReader
+RequestSampleCallback
 :
 :
 NotDecodedReason
@@ -4052,7 +4052,7 @@ if
 aReason
 =
 =
-MediaDecoderReader
+RequestSampleCallback
 :
 :
 DECODE_ERROR
@@ -4070,7 +4070,7 @@ if
 aReason
 =
 =
-MediaDecoderReader
+RequestSampleCallback
 :
 :
 WAITING_FOR_DATA
@@ -4117,7 +4117,7 @@ if
 aReason
 =
 =
-MediaDecoderReader
+RequestSampleCallback
 :
 :
 CANCELED
@@ -4135,7 +4135,7 @@ MOZ_ASSERT
 aReason
 =
 =
-MediaDecoderReader
+RequestSampleCallback
 :
 :
 END_OF_STREAM

@@ -967,6 +967,9 @@ MediaData
 :
 :
 VIDEO_DATA
+RequestSampleCallback
+:
+:
 END_OF_STREAM
 )
 ;
@@ -1153,6 +1156,9 @@ MediaData
 :
 :
 AUDIO_DATA
+RequestSampleCallback
+:
+:
 END_OF_STREAM
 )
 ;
@@ -1381,9 +1387,6 @@ MediaData
 :
 Type
 aType
-MediaDecoderReader
-:
-:
 NotDecodedReason
 aReason
 )
@@ -1414,9 +1417,6 @@ mStatus
 aReason
 =
 =
-MediaDecoderReader
-:
-:
 DECODE_ERROR
 ?
 NS_ERROR_FAILURE
