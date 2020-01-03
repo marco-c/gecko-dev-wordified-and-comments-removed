@@ -630,12 +630,6 @@ isIncrementalGCInProgress
 )
 return
 ;
-if
-(
-verifyPostData
-)
-return
-;
 evictNursery
 (
 )

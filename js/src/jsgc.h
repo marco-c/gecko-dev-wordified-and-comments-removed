@@ -5316,7 +5316,6 @@ enum
 VerifierType
 {
 PreBarrierVerifier
-PostBarrierVerifier
 }
 ;
 #

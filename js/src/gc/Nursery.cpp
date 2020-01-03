@@ -1864,15 +1864,6 @@ needsIncrementalBarrier
 (
 )
 )
-#
-ifdef
-JS_GC_ZEAL
-verifyingPostBarriers
-(
-nullptr
-)
-#
-endif
 {
 rt
 -

@@ -237,14 +237,6 @@ RelocationOverlay
 entry
 )
 ;
-#
-ifdef
-JS_GC_ZEAL
-bool
-verifyingPostBarriers
-;
-#
-endif
 }
 ;
 class
