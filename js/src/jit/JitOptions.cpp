@@ -314,12 +314,6 @@ false
 ;
 SET_DEFAULT
 (
-compileTryCatch
-true
-)
-;
-SET_DEFAULT
-(
 disableScalarReplacement
 true
 )
