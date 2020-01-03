@@ -4413,9 +4413,6 @@ nsIDOMWheelEvent
 :
 :
 DOM_DELTA_LINE
-#
-ifdef
-XP_MACOSX
 |
 |
 aEvent
@@ -4428,8 +4425,6 @@ nsIDOMWheelEvent
 :
 :
 DOM_DELTA_PIXEL
-#
-endif
 )
 &
 &
