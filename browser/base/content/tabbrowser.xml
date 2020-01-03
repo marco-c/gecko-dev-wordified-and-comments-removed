@@ -12000,16 +12000,6 @@ usingPreloadedContent
 =
 false
 ;
-let
-isPrivateWindow
-=
-PrivateBrowsingUtils
-.
-isWindowPrivate
-(
-window
-)
-;
 /
 /
 If
@@ -12039,10 +12029,6 @@ aURI
 =
 =
 BROWSER_NEW_TAB_URL
-&
-&
-!
-isPrivateWindow
 )
 {
 b
