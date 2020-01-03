@@ -216,6 +216,14 @@ aAddrLen
 ;
 if
 (
+mConnectionStatus
+=
+=
+SOCKET_IS_DISCONNECTED
+)
+{
+if
+(
 bind
 (
 GetFd
@@ -264,6 +272,7 @@ errno
 return
 NS_ERROR_FAILURE
 ;
+}
 }
 mConnectionStatus
 =
