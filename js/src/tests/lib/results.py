@@ -1235,6 +1235,15 @@ tinderbox
 :
                 
 if
+result
+.
+result
+!
+=
+TestResult
+.
+PASS
+and
 len
 (
 result
