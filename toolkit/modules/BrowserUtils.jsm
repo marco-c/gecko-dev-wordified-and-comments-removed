@@ -814,7 +814,7 @@ if
 linkNode
 )
 return
-false
+true
 ;
 let
 rel
