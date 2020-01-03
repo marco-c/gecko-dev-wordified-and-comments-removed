@@ -1590,6 +1590,16 @@ panel
 "
 )
 ;
+tempPanel
+.
+setAttribute
+(
+"
+viewId
+"
+aViewId
+)
+;
 if
 (
 this
