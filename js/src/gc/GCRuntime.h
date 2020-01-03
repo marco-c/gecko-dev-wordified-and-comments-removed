@@ -1158,6 +1158,11 @@ shrinkBuffers
 (
 )
 ;
+void
+onOutOfMallocMemory
+(
+)
+;
 #
 ifdef
 JS_GC_ZEAL
