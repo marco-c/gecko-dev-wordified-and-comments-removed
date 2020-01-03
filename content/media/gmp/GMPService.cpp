@@ -1097,6 +1097,14 @@ mMutex
 ;
 MOZ_ASSERT
 (
+XRE_GetProcessType
+(
+)
+!
+=
+GeckoProcessType_Default
+|
+|
 mShuttingDown
 )
 ;
