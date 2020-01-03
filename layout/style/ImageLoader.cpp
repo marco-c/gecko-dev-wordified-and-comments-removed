@@ -1862,7 +1862,7 @@ aType
 imgINotificationObserver
 :
 :
-LOAD_COMPLETE
+FRAME_COMPLETE
 )
 {
 return
