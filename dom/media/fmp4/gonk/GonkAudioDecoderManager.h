@@ -115,6 +115,13 @@ aOutput
 )
 MOZ_OVERRIDE
 ;
+virtual
+nsresult
+Flush
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 virtual
