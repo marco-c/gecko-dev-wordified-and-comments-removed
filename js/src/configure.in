@@ -25281,6 +25281,10 @@ mozglue
 MOZ_GLUE_IN_PROGRAM
 =
 1
+AC_DEFINE
+(
+MOZ_GLUE_IN_PROGRAM
+)
 ;
 ;
 esac

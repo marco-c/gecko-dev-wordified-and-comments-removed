@@ -1466,14 +1466,6 @@ WINNT
 &
 !
 GNU_CC
-ifdef
-MOZ_GLUE_IN_PROGRAM
-DEFINES
-+
-=
--
-DMOZ_GLUE_IN_PROGRAM
-endif
 #
 #
 Build
