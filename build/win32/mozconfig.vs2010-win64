@@ -578,7 +578,7 @@ build
 /
 mozconfig
 .
-vs2010
+vs
 -
 common
 mk_export_correct_style
