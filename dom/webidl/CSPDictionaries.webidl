@@ -213,6 +213,16 @@ manifest
 -
 src
 ;
+sequence
+<
+DOMString
+>
+upgrade
+-
+insecure
+-
+requests
+;
 }
 ;
 dictionary
