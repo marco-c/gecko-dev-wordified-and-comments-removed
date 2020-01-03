@@ -190,9 +190,11 @@ aProfile
 >
 4
 )
+{
 return
 false
 ;
+}
 Array
 <
 uint8_t
