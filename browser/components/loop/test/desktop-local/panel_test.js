@@ -767,6 +767,9 @@ notifications
 client
 :
 fakeClient
+showTabButtons
+:
+true
 }
 )
 )
