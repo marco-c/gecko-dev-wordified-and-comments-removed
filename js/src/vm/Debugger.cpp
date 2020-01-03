@@ -36096,9 +36096,6 @@ ec
 ac
 )
 ;
-bool
-dummy
-;
 if
 (
 !
@@ -36108,9 +36105,6 @@ cx
 obj
 id
 desc
-true
-&
-dummy
 )
 )
 return
@@ -36391,9 +36385,6 @@ i
 +
 )
 {
-bool
-dummy
-;
 if
 (
 !
@@ -36409,9 +36400,6 @@ descs
 [
 i
 ]
-true
-&
-dummy
 )
 )
 return

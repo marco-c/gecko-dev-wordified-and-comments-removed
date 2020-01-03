@@ -2330,9 +2330,6 @@ enumerable
 configurable
 )
 ;
-bool
-result
-;
 return
 StandardDefineProperty
 (
@@ -2340,9 +2337,6 @@ cx
 obj
 id
 desc
-true
-&
-result
 )
 ;
 }

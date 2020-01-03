@@ -1086,11 +1086,9 @@ non
 -
 configurable
 property
-'
 {
 0
 }
-'
 "
 )
 MSG_DEF

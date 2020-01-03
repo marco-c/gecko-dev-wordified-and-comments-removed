@@ -114,6 +114,9 @@ SourceBufferHolder
 class
 HandleValueArray
 ;
+class
+ObjectOpResult
+;
 }
 namespace
 js
@@ -597,6 +600,12 @@ JS
 :
 :
 HandleValueArray
+;
+using
+JS
+:
+:
+ObjectOpResult
 ;
 using
 JS

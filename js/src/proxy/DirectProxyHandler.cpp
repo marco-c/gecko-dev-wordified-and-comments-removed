@@ -214,7 +214,7 @@ target
 )
 )
 ;
-bool
+ObjectOpResult
 ignored
 ;
 return
@@ -224,7 +224,6 @@ cx
 target
 id
 desc
-&
 ignored
 )
 ;
