@@ -792,8 +792,11 @@ gfx
 :
 IntSize
 aSize
-BackendSelector
-aSelector
+gfx
+:
+:
+BackendType
+aMoz2DBackend
 TextureFlags
 aTextureFlags
 TextureAllocationFlags
@@ -811,7 +814,7 @@ GetForwarder
 )
 aFormat
 aSize
-aSelector
+aMoz2DBackend
 aTextureFlags
 |
 mTextureFlags
