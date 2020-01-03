@@ -2775,13 +2775,6 @@ mOfficialGroupEndTimestamp
 =
 mGroupEndTimestamp
 ;
-mMediaSourceDemuxer
--
->
-NotifyTimeRangesChanged
-(
-)
-;
 }
 nsRefPtr
 <

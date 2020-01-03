@@ -236,11 +236,6 @@ mTaskQueue
 ;
 }
 void
-NotifyTimeRangesChanged
-(
-)
-;
-void
 GetMozDebugReaderData
 (
 nsAString
@@ -505,11 +500,6 @@ return
 false
 ;
 }
-void
-NotifyTimeRangesChanged
-(
-)
-;
 private
 :
 nsRefPtr
@@ -584,12 +574,6 @@ TrackInfo
 :
 TrackType
 mType
-;
-media
-:
-:
-TimeIntervals
-mBufferedRanges
 ;
 Monitor
 mMonitor
