@@ -212,7 +212,9 @@ android
 layout_height
 =
 "
-32dip
+dimen
+/
+tabs_strip_height
 "
 android
 :
