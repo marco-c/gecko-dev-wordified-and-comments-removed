@@ -13,11 +13,12 @@ TypedEnum
 .
 h
 "
-MOZ_BEGIN_ENUM_CLASS
-(
+enum
+class
 DrawMode
+:
 int
-)
+{
 GLYPH_FILL
 =
 1
@@ -30,9 +31,7 @@ GLYPH_PATH
 GLYPH_STROKE_UNDERNEATH
 =
 8
-MOZ_END_ENUM_CLASS
-(
-DrawMode
-)
+}
+;
 #
 endif

@@ -54,10 +54,10 @@ mozilla
 namespace
 gl
 {
-MOZ_BEGIN_ENUM_CLASS
-(
+enum
+class
 AndroidWindowFormat
-)
+{
 Unknown
 =
 -
@@ -77,10 +77,8 @@ RGB_565
 <
 <
 2
-MOZ_END_ENUM_CLASS
-(
-AndroidWindowFormat
-)
+}
+;
 class
 AndroidNativeWindow
 {
