@@ -27756,6 +27756,7 @@ new
 %
 s
 (
+cx
 tempRoot
 mozilla
 :
@@ -98093,6 +98094,7 @@ new
 %
 s
 (
+nullptr
 aJSImplObject
 /
 *
@@ -99101,6 +99103,17 @@ ClassConstructor
 Argument
 (
 "
+JSContext
+*
+"
+"
+aCx
+"
+)
+             
+Argument
+(
+"
 JS
 :
 :
@@ -99149,6 +99162,7 @@ baseConstructors
 %
 s
 (
+aCx
 aCallback
 aIncumbentGlobal
 )
