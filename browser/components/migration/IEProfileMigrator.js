@@ -2617,7 +2617,7 @@ browser
 .
 display
 .
-use_document_colors
+document_color_use
 "
 function
 (
@@ -2628,6 +2628,10 @@ Boolean
 (
 v
 )
+?
+0
+:
+2
 )
 ;
 this
