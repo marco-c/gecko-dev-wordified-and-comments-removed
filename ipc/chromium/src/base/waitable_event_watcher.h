@@ -49,13 +49,6 @@ waitable_event
 h
 "
 #
-include
-"
-nsAutoPtr
-.
-h
-"
-#
 endif
 namespace
 base
@@ -219,7 +212,7 @@ MessageLoop
 *
 message_loop_
 ;
-nsRefPtr
+scoped_refptr
 <
 Flag
 >
@@ -233,7 +226,7 @@ AsyncCallbackTask
 *
 callback_task_
 ;
-nsRefPtr
+scoped_refptr
 <
 WaitableEvent
 :

@@ -377,6 +377,15 @@ src
 /
 base
 /
+ref_counted
+.
+cc
+'
+'
+src
+/
+base
+/
 revocable_store
 .
 cc

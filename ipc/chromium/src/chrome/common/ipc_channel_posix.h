@@ -64,13 +64,6 @@ file_descriptor_set_posix
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 namespace
 IPC
 {
@@ -419,7 +412,7 @@ PendingDescriptors
 uint32_t
 id
 ;
-nsRefPtr
+scoped_refptr
 <
 FileDescriptorSet
 >

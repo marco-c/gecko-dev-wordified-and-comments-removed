@@ -144,6 +144,12 @@ MessagePumpLibevent
 (
 )
 ;
+virtual
+~
+MessagePumpLibevent
+(
+)
+;
 enum
 Mode
 {
@@ -299,14 +305,6 @@ const
 TimeTicks
 &
 delayed_work_time
-)
-;
-protected
-:
-virtual
-~
-MessagePumpLibevent
-(
 )
 ;
 private
