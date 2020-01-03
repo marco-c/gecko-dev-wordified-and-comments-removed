@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_imagelib_FrameAnimator_h_
+mozilla_image_src_FrameAnimator_h
 #
 define
-mozilla_imagelib_FrameAnimator_h_
+mozilla_image_src_FrameAnimator_h
 #
 include
 "
