@@ -1996,6 +1996,7 @@ value
 :
 function
 (
+aSrc
 )
 {
 return
@@ -2003,6 +2004,7 @@ MozLoopService
 .
 openGettingStartedTour
 (
+aSrc
 )
 ;
 }
