@@ -723,6 +723,7 @@ aBuilder
 nsImageGeometryMixin
 (
 aItem
+aBuilder
 )
 {
 nsBulletFrame
@@ -1045,15 +1046,9 @@ image
 geometry
 -
 >
-LastDrawResult
+ShouldInvalidateToSyncDecodeImages
 (
 )
-!
-=
-DrawResult
-:
-:
-SUCCESS
 )
 {
 bool

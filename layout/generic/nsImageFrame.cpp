@@ -6631,15 +6631,9 @@ ShouldSyncDecodeImages
 geometry
 -
 >
-LastDrawResult
+ShouldInvalidateToSyncDecodeImages
 (
 )
-!
-=
-DrawResult
-:
-:
-SUCCESS
 )
 {
 bool
