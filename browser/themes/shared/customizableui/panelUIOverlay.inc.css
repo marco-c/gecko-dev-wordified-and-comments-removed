@@ -2529,7 +2529,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
@@ -2588,7 +2588,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
@@ -3759,7 +3759,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 .
 customization
 -
@@ -3807,7 +3807,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 .
 panelUI
 -
@@ -3899,7 +3899,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
@@ -3919,7 +3919,7 @@ toolbarbutton
 -
 badge
 -
-container
+stack
 >
 .
 toolbarbutton
