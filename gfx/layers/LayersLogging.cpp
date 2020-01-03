@@ -1359,7 +1359,9 @@ m
 mPresShellResolution
 m
 .
-mCumulativeResolution
+GetCumulativeResolution
+(
+)
 .
 scale
 m

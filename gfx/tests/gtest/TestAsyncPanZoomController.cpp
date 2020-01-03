@@ -4239,11 +4239,12 @@ CSSRect
 ;
 metrics
 .
-mCumulativeResolution
-=
+SetCumulativeResolution
+(
 LayoutDeviceToLayerScale
 (
 2
+)
 )
 ;
 metrics

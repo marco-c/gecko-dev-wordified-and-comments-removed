@@ -1248,8 +1248,8 @@ GetDefaultScale
 ;
 mLastRootMetrics
 .
-mCumulativeResolution
-=
+SetCumulativeResolution
+(
 mLastRootMetrics
 .
 GetZoom
@@ -1266,6 +1266,7 @@ ParentLayerToLayerScale
 (
 1
 )
+)
 ;
 mLastRootMetrics
 .
@@ -1273,7 +1274,9 @@ mPresShellResolution
 =
 mLastRootMetrics
 .
-mCumulativeResolution
+GetCumulativeResolution
+(
+)
 .
 scale
 ;
@@ -2154,8 +2157,8 @@ AppUnitsPerDevPixel
 }
 metrics
 .
-mCumulativeResolution
-=
+SetCumulativeResolution
+(
 metrics
 .
 GetZoom
@@ -2172,6 +2175,7 @@ ParentLayerToLayerScale
 (
 1
 )
+)
 ;
 metrics
 .
@@ -2179,7 +2183,9 @@ mPresShellResolution
 =
 metrics
 .
-mCumulativeResolution
+GetCumulativeResolution
+(
+)
 .
 scale
 ;

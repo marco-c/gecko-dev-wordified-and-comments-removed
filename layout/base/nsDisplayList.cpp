@@ -4492,8 +4492,8 @@ mPresShellResolution
 }
 metrics
 .
-mCumulativeResolution
-=
+SetCumulativeResolution
+(
 LayoutDeviceToLayerScale
 (
 aContainerParameters
@@ -4502,6 +4502,7 @@ mXScale
 aContainerParameters
 .
 mYScale
+)
 )
 ;
 LayoutDeviceToScreenScale
@@ -4537,7 +4538,9 @@ SetExtraResolution
 (
 metrics
 .
-mCumulativeResolution
+GetCumulativeResolution
+(
+)
 /
 resolutionToScreen
 )
@@ -4577,7 +4580,9 @@ SetZoom
 (
 metrics
 .
-mCumulativeResolution
+GetCumulativeResolution
+(
+)
 *
 metrics
 .
@@ -4701,7 +4706,9 @@ auPerDevPixel
 *
 metrics
 .
-mCumulativeResolution
+GetCumulativeResolution
+(
+)
 *
 layerToParentLayerScale
 ;

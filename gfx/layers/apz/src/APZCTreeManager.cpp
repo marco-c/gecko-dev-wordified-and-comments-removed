@@ -973,7 +973,9 @@ parentCumulativeResolution
 =
 aMetrics
 .
-mCumulativeResolution
+GetCumulativeResolution
+(
+)
 /
 ParentLayerToLayerScale
 (
@@ -2549,7 +2551,9 @@ Metrics
 (
 )
 .
-mCumulativeResolution
+GetCumulativeResolution
+(
+)
 /
 ParentLayerToLayerScale
 (
