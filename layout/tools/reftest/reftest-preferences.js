@@ -402,3 +402,15 @@ enabled
 false
 )
 ;
+branch
+.
+setBoolPref
+(
+"
+dom
+.
+allow_XUL_XBL_for_file
+"
+true
+)
+;
