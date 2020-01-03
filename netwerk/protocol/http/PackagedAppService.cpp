@@ -1592,7 +1592,7 @@ aStatusCode
 bool
 lastPart
 =
-false
+true
 ;
 if
 (
