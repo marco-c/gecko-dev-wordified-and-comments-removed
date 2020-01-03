@@ -232,6 +232,11 @@ OnUpdateComposition
 (
 )
 ;
+void
+OnLayoutChange
+(
+)
+;
 protected
 :
 ~
@@ -639,6 +644,9 @@ mKeyDownEventWasSent
 ;
 bool
 mIsDeletingSurrounding
+;
+bool
+mLayoutChanged
 ;
 static
 nsGtkIMModule
