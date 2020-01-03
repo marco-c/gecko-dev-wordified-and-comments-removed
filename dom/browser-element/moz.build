@@ -160,13 +160,9 @@ bluetooth
 '
 '
 /
-content
+dom
 /
 html
-/
-content
-/
-src
 '
 ]
 include

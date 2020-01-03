@@ -18,11 +18,9 @@ robocop
 TIMED_OUT
 "
 "
-content
+dom
 /
 html
-/
-content
 /
 test
 /

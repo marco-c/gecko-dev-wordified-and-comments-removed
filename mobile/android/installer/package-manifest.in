@@ -654,13 +654,6 @@ BINPATH
 /
 components
 /
-content_htmldoc
-.
-xpt
-BINPATH
-/
-components
-/
 content_html
 .
 xpt

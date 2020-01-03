@@ -100,11 +100,9 @@ file
 is
 :
 *
-content
+dom
 /
 html
-/
-document
 /
 public
 /

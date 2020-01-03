@@ -253,9 +253,12 @@ POST
 .
 .
 /
-html
+.
+.
 /
-content
+dom
+/
+html
 /
 test
 /

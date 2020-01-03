@@ -162,13 +162,9 @@ src
 '
 '
 /
-content
+dom
 /
 html
-/
-content
-/
-src
 '
 ]
 FINAL_LIBRARY
