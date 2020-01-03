@@ -96,13 +96,7 @@ apps
 /
 tests
 /
-file_app
-.
-sjs
-?
-apptype
-=
-widget
+no_valid_widget_pages
 "
 ]
 }
