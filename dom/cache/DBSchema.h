@@ -100,7 +100,7 @@ aConn
 )
 ;
 nsresult
-CreateCacheId
+CreateCache
 (
 mozIStorageConnection
 *
@@ -111,7 +111,7 @@ aCacheIdOut
 )
 ;
 nsresult
-DeleteCacheId
+DeleteCache
 (
 mozIStorageConnection
 *
