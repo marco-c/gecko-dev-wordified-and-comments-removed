@@ -10136,11 +10136,8 @@ devtools
 /
 canvasdebugger
 .
-inc
-.
 css
 )
-*
 skin
 /
 classic
@@ -10161,8 +10158,6 @@ shared
 devtools
 /
 debugger
-.
-inc
 .
 css
 )
@@ -10185,7 +10180,6 @@ netmonitor
 .
 css
 )
-*
 skin
 /
 classic
@@ -10206,8 +10200,6 @@ shared
 devtools
 /
 performance
-.
-inc
 .
 css
 )
@@ -10285,11 +10277,8 @@ devtools
 /
 scratchpad
 .
-inc
-.
 css
 )
-*
 skin
 /
 classic
@@ -10310,8 +10299,6 @@ shared
 devtools
 /
 shadereditor
-.
-inc
 .
 css
 )
@@ -10385,7 +10372,6 @@ styleeditor
 .
 css
 )
-*
 skin
 /
 classic
@@ -10406,8 +10392,6 @@ shared
 devtools
 /
 webaudioeditor
-.
-inc
 .
 css
 )
