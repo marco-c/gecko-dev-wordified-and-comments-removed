@@ -716,6 +716,12 @@ B2G
 |
 Mulet
 )
+random
+-
+if
+(
+transparentScrollbars
+)
 fails
 -
 if

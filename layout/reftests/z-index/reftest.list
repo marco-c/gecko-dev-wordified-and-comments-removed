@@ -106,6 +106,12 @@ ref
 hidden
 .
 html
+random
+-
+if
+(
+transparentScrollbars
+)
 =
 =
 overlayscrollbar
@@ -178,6 +184,12 @@ ref
 hidden
 .
 html
+random
+-
+if
+(
+transparentScrollbars
+)
 =
 =
 overlayscrollbar
