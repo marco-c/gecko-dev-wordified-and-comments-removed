@@ -1171,7 +1171,7 @@ media
 :
 :
 NullableTimeUnit
-mUnadjustedMetadataEndTime
+mMetadataEndTime
 ;
 EncryptionInfo
 mCrypto
