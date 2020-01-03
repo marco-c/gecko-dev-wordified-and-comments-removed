@@ -895,6 +895,11 @@ SchedulePauseOnCompositorThread
 bool
 ScheduleResumeOnCompositorThread
 (
+)
+;
+bool
+ScheduleResumeOnCompositorThread
+(
 int
 width
 int
