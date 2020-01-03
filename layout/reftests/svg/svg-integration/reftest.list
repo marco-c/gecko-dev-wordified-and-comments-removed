@@ -473,6 +473,12 @@ html
 ref
 .
 svg
+random
+-
+if
+(
+B2G
+)
 =
 =
 filter
@@ -493,6 +499,9 @@ html
 ref
 .
 svg
+#
+Bug
+1063987
 =
 =
 filter
