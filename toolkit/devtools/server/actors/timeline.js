@@ -215,8 +215,6 @@ Arg
 (
 0
 "
-array
-:
 json
 "
 )

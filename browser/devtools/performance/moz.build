@@ -93,6 +93,15 @@ model
 js
 '
 '
+modules
+/
+recording
+-
+utils
+.
+js
+'
+'
 panel
 .
 js
