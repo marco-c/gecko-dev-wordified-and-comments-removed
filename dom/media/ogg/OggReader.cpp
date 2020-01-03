@@ -1234,7 +1234,7 @@ container
 container
 -
 >
-SetCurrentFrame
+ClearCurrentFrame
 (
 gfxIntSize
 (
@@ -1244,13 +1244,6 @@ width
 displaySize
 .
 height
-)
-nullptr
-TimeStamp
-:
-:
-Now
-(
 )
 )
 ;

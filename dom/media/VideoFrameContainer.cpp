@@ -139,7 +139,9 @@ aIntrinsicSize
 Image
 *
 aImage
+const
 TimeStamp
+&
 aTargetTime
 )
 {
@@ -197,10 +199,6 @@ GetCurrentImages
 kungFuDeathGrip
 )
 ;
-+
-+
-mFrameID
-;
 if
 (
 aImage
@@ -227,6 +225,8 @@ NonOwningImage
 (
 aImage
 aTargetTime
++
++
 mFrameID
 )
 )
