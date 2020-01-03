@@ -545,6 +545,9 @@ Length
 )
 ;
 }
+LayoutDeviceIntRect
+mFirstCharRect
+;
 struct
 Caret
 final
