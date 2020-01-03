@@ -1329,17 +1329,6 @@ url
 }
 public
 static
-boolean
-areContentProvidersDisabled
-(
-)
-{
-return
-sAreContentProvidersEnabled
-;
-}
-public
-static
 void
 setEnableContentProviders
 (
