@@ -180,7 +180,7 @@ drawable
 "
 drawable
 /
-shield
+shield_enabled
 "
 /
 >
@@ -200,7 +200,7 @@ drawable
 "
 drawable
 /
-warning
+shield_disabled
 "
 /
 >
