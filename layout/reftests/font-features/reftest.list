@@ -1893,6 +1893,12 @@ variant
 -
 position
 fallback
+random
+-
+if
+(
+cocoaWidget
+)
 HTTP
 (
 .
@@ -1912,6 +1918,9 @@ fallback
 ref
 .
 html
+#
+bug
+1139269
 HTTP
 (
 .
@@ -2011,6 +2020,12 @@ nofallback
 ref1
 .
 html
+random
+-
+if
+(
+cocoaWidget
+)
 HTTP
 (
 .
@@ -2030,6 +2045,9 @@ nofallback
 ref2
 .
 html
+#
+bug
+1139269
 HTTP
 (
 .
