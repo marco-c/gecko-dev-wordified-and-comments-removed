@@ -6172,16 +6172,6 @@ roots
 .
 heapRoots_
 [
-THING_ROOT_STATIC_TRACEABLE
-]
-)
-;
-FinishPersistentRootedChain
-(
-roots
-.
-heapRoots_
-[
 THING_ROOT_DYNAMIC_TRACEABLE
 ]
 )
