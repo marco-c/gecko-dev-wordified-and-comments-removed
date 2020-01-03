@@ -123,6 +123,11 @@ gfxVR
 .
 cpp
 '
+'
+gfxVROculus
+.
+cpp
+'
 ]
 CXXFLAGS
 +

@@ -1946,10 +1946,10 @@ GetTotalSystemMemory
 (
 )
 ;
-VRHMDManagerOculus
+VRHMDManager
 :
 :
-PlatformInit
+ManagerInit
 (
 )
 ;
@@ -3307,10 +3307,10 @@ mScreenReferenceDrawTarget
 =
 nullptr
 ;
-VRHMDManagerOculus
+VRHMDManager
 :
 :
-Destroy
+ManagerDestroy
 (
 )
 ;
