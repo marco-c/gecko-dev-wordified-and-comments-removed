@@ -2108,6 +2108,15 @@ LifoAlloc
 alloc
 )
 ;
+TemporaryTypeSet
+*
+cloneWithoutObjects
+(
+LifoAlloc
+*
+alloc
+)
+;
 static
 void
 readBarrier
