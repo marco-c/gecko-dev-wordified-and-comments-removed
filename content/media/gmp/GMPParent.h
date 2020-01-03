@@ -632,6 +632,11 @@ RecvAsyncShutdownRequired
 )
 MOZ_OVERRIDE
 ;
+nsresult
+EnsureAsyncShutdownTimeoutSet
+(
+)
+;
 GMPState
 mState
 ;
@@ -731,6 +736,12 @@ nsCOMPtr
 nsIThread
 >
 mGMPThread
+;
+nsCOMPtr
+<
+nsITimer
+>
+mAsyncShutdownTimeout
 ;
 nsAutoCString
 mNodeId
