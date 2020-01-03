@@ -616,7 +616,7 @@ bool
 aIsAudio
 )
 ;
-void
+bool
 ParseTrun
 (
 Box
@@ -625,15 +625,15 @@ aBox
 Tfhd
 &
 aTfhd
-Tfdt
-&
-aTfdt
 Mdhd
 &
 aMdhd
 Edts
 &
 aEdts
+uint64_t
+*
+aDecodeTime
 bool
 aIsAudio
 )
