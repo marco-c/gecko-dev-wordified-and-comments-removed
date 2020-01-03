@@ -112,6 +112,11 @@ TestVideoSegment
 .
 cpp
 '
+'
+TestWebMBuffered
+.
+cpp
+'
 ]
 if
 CONFIG
