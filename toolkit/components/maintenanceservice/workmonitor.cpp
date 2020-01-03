@@ -155,13 +155,13 @@ TIME_TO_WAIT_ON_UPDATER
 *
 1000
 ;
-char16_t
+wchar_t
 *
 MakeCommandLine
 (
 int
 argc
-char16_t
+wchar_t
 *
 *
 argv
