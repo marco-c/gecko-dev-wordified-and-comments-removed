@@ -196,6 +196,9 @@ TimeDuration
 mMaxPredict
 ;
 TimeDuration
+mMinDelta
+;
+TimeDuration
 mMinResampleTime
 ;
 TimeDuration
