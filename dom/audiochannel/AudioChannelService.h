@@ -120,12 +120,6 @@ GetOrCreate
 )
 ;
 static
-void
-Shutdown
-(
-)
-;
-static
 bool
 IsAudioChannelMutedByDefault
 (
@@ -381,6 +375,12 @@ AudioChannelService
 (
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 void
 MaybeSendStatusUpdate
 (
@@ -574,9 +574,6 @@ mSpeakerManager
 ;
 #
 endif
-bool
-mDisabled
-;
 nsCOMPtr
 <
 nsIRunnable
