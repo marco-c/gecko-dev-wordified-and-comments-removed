@@ -11907,10 +11907,6 @@ col
 nsGkAtoms
 :
 :
-command
-nsGkAtoms
-:
-:
 embed
 nsGkAtoms
 :
