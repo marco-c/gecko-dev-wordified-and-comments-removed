@@ -624,7 +624,7 @@ mActive
 uint32_t
 mUpdateID
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 TrackBufferAppendPromise
 >

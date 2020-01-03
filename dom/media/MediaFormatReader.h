@@ -932,7 +932,7 @@ MediaRawData
 >
 mQueuedSamples
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaTrackDemuxer
 :
@@ -1268,7 +1268,7 @@ DemuxerFailureReason
 aFailure
 )
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDataDemuxer
 :
@@ -1366,7 +1366,7 @@ TimeUnit
 aTimeThreshold
 )
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaTrackDemuxer
 :
@@ -1526,7 +1526,7 @@ TimeUnit
 >
 mPendingSeekTime
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaTrackDemuxer
 :
@@ -1535,7 +1535,7 @@ SeekPromise
 >
 mVideoSeekRequest
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaTrackDemuxer
 :

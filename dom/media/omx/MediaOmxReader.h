@@ -140,7 +140,7 @@ MetadataPromise
 >
 mMetadataPromise
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaResourcePromise
 >

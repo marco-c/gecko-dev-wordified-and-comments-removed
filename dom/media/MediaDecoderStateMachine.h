@@ -2008,7 +2008,7 @@ MediaTimer
 >
 mMediaTimer
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 mozilla
 :
@@ -2675,7 +2675,7 @@ mIsAudioPrerolling
 bool
 mIsVideoPrerolling
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -2684,7 +2684,7 @@ AudioDataPromise
 >
 mAudioDataRequest
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -2754,7 +2754,7 @@ idle
 "
 ;
 }
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -2763,7 +2763,7 @@ WaitForDataPromise
 >
 mVideoWaitRequest
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -2833,7 +2833,7 @@ idle
 "
 ;
 }
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -2910,7 +2910,7 @@ mDropVideoUntilNextDiscontinuity
 bool
 mDecodeToSeekTarget
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
@@ -2922,7 +2922,7 @@ mSeekRequest
 int64_t
 mCurrentTimeBeforeSeek
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :

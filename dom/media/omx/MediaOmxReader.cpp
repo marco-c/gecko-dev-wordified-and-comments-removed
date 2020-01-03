@@ -1025,7 +1025,7 @@ AllocateMediaResources
 )
 -
 >
-RefableThen
+Then
 (
 GetTaskQueue
 (

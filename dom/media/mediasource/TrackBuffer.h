@@ -522,7 +522,7 @@ TrackBufferAppendPromise
 >
 mInitializationPromise
 ;
-MediaPromiseConsumerHolder
+MediaPromiseRequestHolder
 <
 MediaDecoderReader
 :
