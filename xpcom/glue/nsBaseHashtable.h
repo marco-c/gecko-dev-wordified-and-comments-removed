@@ -732,7 +732,7 @@ Iterator
 {
 }
 KeyType
-GetKey
+Key
 (
 )
 const
@@ -756,7 +756,7 @@ GetKey
 ;
 }
 UserDataType
-GetUserData
+UserData
 (
 )
 const
@@ -779,7 +779,7 @@ mData
 }
 DataType
 &
-GetData
+Data
 (
 )
 const

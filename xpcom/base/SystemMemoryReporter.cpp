@@ -1006,7 +1006,7 @@ key
 =
 iter
 .
-GetKey
+Key
 (
 )
 ;
@@ -1015,7 +1015,7 @@ amount
 =
 iter
 .
-GetUserData
+UserData
 (
 )
 ;

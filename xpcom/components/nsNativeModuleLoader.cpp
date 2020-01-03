@@ -932,7 +932,7 @@ loadData
 =
 iter
 .
-GetData
+Data
 (
 )
 ;
@@ -988,7 +988,7 @@ hashedFile
 =
 iter
 .
-GetKey
+Key
 (
 )
 ;
@@ -1067,7 +1067,7 @@ loadData
 =
 iter
 .
-GetData
+Data
 (
 )
 ;

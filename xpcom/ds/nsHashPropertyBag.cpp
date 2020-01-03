@@ -411,7 +411,7 @@ key
 =
 iter
 .
-GetKey
+Key
 (
 )
 ;
@@ -421,7 +421,7 @@ data
 =
 iter
 .
-GetUserData
+UserData
 (
 )
 ;
