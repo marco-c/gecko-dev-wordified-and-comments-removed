@@ -50,6 +50,8 @@ print
 "
 enum
 ID
+:
+uint32_t
 {
 "
     
