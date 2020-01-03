@@ -411,11 +411,6 @@ nsDOMString
 h
 '
 '
-nsElementFrameLoaderOwner
-.
-h
-'
-'
 nsFocusManager
 .
 h
@@ -1321,11 +1316,6 @@ cpp
 '
 '
 nsDOMWindowList
-.
-cpp
-'
-'
-nsElementFrameLoaderOwner
 .
 cpp
 '
