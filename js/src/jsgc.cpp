@@ -29718,12 +29718,6 @@ AutoLockGC
 lock
 )
 {
-freeEmptyChunks
-(
-rt
-lock
-)
-;
 #
 if
 defined
@@ -29753,6 +29747,12 @@ nullptr
 ;
 #
 endif
+freeEmptyChunks
+(
+rt
+lock
+)
+;
 decommitAllWithoutUnlocking
 (
 lock
