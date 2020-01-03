@@ -1,3 +1,9 @@
+let
+TS
+=
+{
+}
+;
 subscriptLoader
 .
 loadSubScript
@@ -9,13 +15,13 @@ resource
 /
 gre
 /
-modules
+components
 /
-ril_consts
+TelephonyService
 .
 js
 "
-this
+TS
 )
 ;
 let
@@ -224,6 +230,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_ACTIVATION
 )
 ;
@@ -358,6 +366,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_ACTIVATION
 )
 ;
@@ -462,6 +472,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_ACTIVATION
 )
 ;
@@ -569,6 +581,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_ACTIVATION
 )
 ;
@@ -677,6 +691,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_ACTIVATION
 )
 ;
@@ -787,6 +803,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_ACTIVATION
 )
 ;
@@ -898,6 +916,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_ACTIVATION
 )
 ;
@@ -1009,6 +1029,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_ACTIVATION
 )
 ;
@@ -1111,6 +1133,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_ACTIVATION
 )
 ;
@@ -1221,6 +1245,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_ACTIVATION
 )
 ;
@@ -1335,6 +1361,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_DEACTIVATION
 )
 ;
@@ -1451,6 +1479,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_INTERROGATION
 )
 ;
@@ -1567,6 +1597,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_REGISTRATION
 )
 ;
@@ -1683,6 +1715,8 @@ equal
 mmi
 .
 procedure
+TS
+.
 MMI_PROCEDURE_ERASURE
 )
 ;
