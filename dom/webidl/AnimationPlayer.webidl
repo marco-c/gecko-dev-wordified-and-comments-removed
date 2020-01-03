@@ -218,13 +218,13 @@ double
 startTime
 ;
 [
+SetterThrows
 BinaryName
 =
 "
 currentTimeAsDouble
 "
 ]
-readonly
 attribute
 double
 ?
