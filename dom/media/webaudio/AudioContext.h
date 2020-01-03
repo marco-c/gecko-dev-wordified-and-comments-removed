@@ -877,6 +877,9 @@ AudioListener
 >
 mListener
 ;
+MediaBufferDecoder
+mDecoder
+;
 nsTArray
 <
 nsRefPtr

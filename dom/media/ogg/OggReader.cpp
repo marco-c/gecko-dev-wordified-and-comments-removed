@@ -5442,7 +5442,7 @@ OggCodecState
 aCodecState
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 mDecoder
 -
