@@ -56,6 +56,13 @@ media
 -
 wait
 "
+JOINING
+:
+"
+room
+-
+joining
+"
 JOINED
 :
 "

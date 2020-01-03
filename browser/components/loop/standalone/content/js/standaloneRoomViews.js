@@ -542,6 +542,11 @@ msg
 case
 ROOM_STATES
 .
+JOINING
+:
+case
+ROOM_STATES
+.
 JOINED
 :
 case
