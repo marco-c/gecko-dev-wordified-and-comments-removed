@@ -1022,6 +1022,9 @@ refresh
 "
 getScrollInfo
 "
+"
+getViewport
+"
 ]
 ;
 const
