@@ -2553,15 +2553,21 @@ files_per_unification
                 
 self
 .
+_write_unified_files
+(
+unified_source_mapping
+backend_file
+.
+objdir
+)
+                
+self
+.
 _add_unified_build_rules
 (
 backend_file
                     
 unified_source_mapping
-                    
-backend_file
-.
-objdir
                     
 unified_files_makefile_variable
 =
@@ -3968,8 +3974,6 @@ self
 makefile
 unified_source_mapping
                                  
-output_directory
-                                 
 unified_files_makefile_variable
 =
 '
@@ -3979,10 +3983,6 @@ unified_files
 include_curdir_build_rules
 =
 True
-                                 
-poison_windows_h
-=
-False
 )
 :
         
@@ -4089,16 +4089,6 @@ unified_files_makefile_variable
                                              
 all_sources
 )
-)
-        
-self
-.
-_write_unified_files
-(
-unified_source_mapping
-output_directory
-                                  
-poison_windows_h
 )
         
 if
@@ -9381,6 +9371,17 @@ files_per_unified_file
         
 self
 .
+_write_unified_files
+(
+unified_source_mapping
+ipdl_dir
+poison_windows_h
+=
+False
+)
+        
+self
+.
 _add_unified_build_rules
 (
 mk
@@ -9947,23 +9948,29 @@ files_per_unified_file
         
 self
 .
+_write_unified_files
+(
+unified_source_mapping
+bindings_dir
+                                  
+poison_windows_h
+=
+True
+)
+        
+self
+.
 _add_unified_build_rules
 (
 mk
             
 unified_source_mapping
             
-bindings_dir
-            
 unified_files_makefile_variable
 =
 '
 unified_binding_cpp_files
 '
-            
-poison_windows_h
-=
-True
 )
         
 webidls_mk
