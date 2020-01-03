@@ -882,6 +882,13 @@ PLAYSTATUS_ERROR
 }
 ;
 enum
+{
+AVRCP_UID_SIZE
+=
+8
+}
+;
+enum
 BluetoothAvrcpMediaAttribute
 {
 AVRCP_MEDIA_ATTRIBUTE_TITLE
