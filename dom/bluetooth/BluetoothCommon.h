@@ -924,6 +924,12 @@ connectionstatechanged
 "
 #
 define
+ATTRIBUTE_CHANGED_ID
+"
+attributechanged
+"
+#
+define
 BLUETOOTH_ADDRESS_LENGTH
 17
 #

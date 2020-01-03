@@ -310,7 +310,7 @@ void
 DispatchAttributeEvent
 (
 const
-nsTArray
+Sequence
 <
 nsString
 >
