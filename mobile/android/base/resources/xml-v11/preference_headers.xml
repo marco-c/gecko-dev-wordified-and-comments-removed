@@ -227,6 +227,16 @@ string
 /
 pref_header_display
 "
+android
+:
+id
+=
+"
++
+id
+/
+pref_header_display
+"
 >
 <
 extra
