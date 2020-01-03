@@ -613,7 +613,7 @@ scale
 aUtils
 -
 >
-SetResolution
+SetResolutionAndScaleTo
 (
 presShellResolution
 presShellResolution

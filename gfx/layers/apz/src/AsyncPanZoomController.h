@@ -392,12 +392,6 @@ GetCurrentAsyncTransform
 const
 ;
 Matrix4x4
-GetNontransientAsyncTransform
-(
-)
-const
-;
-Matrix4x4
 GetTransformToLastDispatchedPaint
 (
 )
