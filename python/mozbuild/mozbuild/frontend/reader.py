@@ -2012,6 +2012,7 @@ name
 TemplateFunction
 (
 func
+self
 )
     
 memoize
@@ -2575,6 +2576,7 @@ __init__
 (
 self
 func
+sandbox
 )
 :
         
@@ -2582,12 +2584,11 @@ self
 .
 path
 =
-inspect
-.
-getfile
-(
 func
-)
+.
+func_code
+.
+co_filename
         
 self
 .
@@ -2597,14 +2598,38 @@ func
 .
 func_name
         
-lines
 firstlineno
+=
+func
+.
+func_code
+.
+co_firstlineno
+        
+lines
+=
+sandbox
+.
+_current_source
+.
+splitlines
+(
+True
+)
+        
+lines
 =
 inspect
 .
-getsourcelines
+getblock
 (
-func
+lines
+[
+firstlineno
+-
+1
+:
+]
 )
         
 first_op

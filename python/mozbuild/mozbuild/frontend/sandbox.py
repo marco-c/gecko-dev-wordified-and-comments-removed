@@ -772,6 +772,12 @@ self
 _last_name_error
 =
 None
+        
+self
+.
+_current_source
+=
+None
     
 property
     
@@ -1015,6 +1021,18 @@ ref
 self
 )
         
+old_source
+=
+self
+.
+_current_source
+        
+self
+.
+_current_source
+=
+source
+        
 try
 :
             
@@ -1163,6 +1181,12 @@ exc
         
 finally
 :
+            
+self
+.
+_current_source
+=
+old_source
             
 self
 .
