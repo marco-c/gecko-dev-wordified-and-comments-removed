@@ -560,7 +560,7 @@ aCallState
 )
 ;
 uint32_t
-ProvidedOrDefaultServiceId
+GetServiceId
 (
 const
 Optional
@@ -569,6 +569,10 @@ uint32_t
 >
 &
 aServiceId
+bool
+aGetIfActiveCall
+=
+false
 )
 ;
 bool
