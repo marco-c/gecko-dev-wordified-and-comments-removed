@@ -923,6 +923,15 @@ startActivity
 forwardIntent
 )
 ;
+TabQueueHelper
+.
+removeNotification
+(
+getApplicationContext
+(
+)
+)
+;
 GeckoSharedPrefs
 .
 forApp
