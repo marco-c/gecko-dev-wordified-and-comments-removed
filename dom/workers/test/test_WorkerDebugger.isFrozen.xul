@@ -494,7 +494,9 @@ frozen
 ;
 promise
 =
-waitForMultiple
+Promise
+.
+all
 (
 [
 waitForDebuggerFreeze
