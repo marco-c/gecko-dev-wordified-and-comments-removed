@@ -426,7 +426,7 @@ char
 label
 ;
 bool
-hasTrackedOptimizations
+mightHaveTrackedOptimizations
 ;
 }
 ;
