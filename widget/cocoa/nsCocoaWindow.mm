@@ -3620,10 +3620,6 @@ nsCocoaUtils
 HideOSChromeOnScreen
 (
 false
-[
-mWindow
-screen
-]
 )
 ;
 }
@@ -9349,10 +9345,6 @@ nsCocoaUtils
 HideOSChromeOnScreen
 (
 aFullScreen
-[
-mWindow
-screen
-]
 )
 ;
 nsresult
