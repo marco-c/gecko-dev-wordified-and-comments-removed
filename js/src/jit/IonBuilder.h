@@ -2066,6 +2066,8 @@ name
 MDefinition
 *
 value
+bool
+barrier
 types
 :
 :
@@ -2089,6 +2091,8 @@ name
 MDefinition
 *
 value
+bool
+barrier
 types
 :
 :
