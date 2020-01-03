@@ -8771,7 +8771,13 @@ npp
 ;
 switch
 (
+static_cast
+<
+int
+>
+(
 variable
+)
 )
 {
 #
@@ -10924,7 +10930,13 @@ inst
 ;
 switch
 (
+static_cast
+<
+int
+>
+(
 variable
+)
 )
 {
 case
