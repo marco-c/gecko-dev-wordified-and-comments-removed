@@ -373,8 +373,8 @@ i
 FT_UInt
 dflt
 =
--
-1
+~
+0U
 ;
 FT_MEM_SET
 (
@@ -473,6 +473,9 @@ AF_COVERAGE_DEFAULT
 {
 if
 (
+(
+FT_UInt
+)
 style_class
 -
 >
@@ -1201,6 +1204,7 @@ globals
 NULL
 ;
 }
+else
 globals
 -
 >

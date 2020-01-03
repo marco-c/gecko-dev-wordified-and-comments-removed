@@ -3312,6 +3312,8 @@ cvt
 =
 NULL
 ;
+error
+=
 tt_face_load_cvt
 (
 face
@@ -3328,6 +3330,8 @@ break
 case
 mcvt_modify
 :
+error
+=
 tt_face_vary_cvt
 (
 face

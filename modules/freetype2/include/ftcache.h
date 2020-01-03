@@ -31,7 +31,7 @@ face_id
 FT_Library
 library
 FT_Pointer
-request_data
+req_data
 FT_Face
 *
 aface

@@ -755,7 +755,8 @@ COMPATIBILITY_MODE_RULES_SIZE
 {
 {
 "
--
+Verdana
+Clones
 "
 0
 "
@@ -4502,7 +4503,8 @@ size
 >
 cvt_ready
 =
-FALSE
+-
+1
 ;
 tt_size_ready_bytecode
 (
@@ -4574,7 +4576,8 @@ size
 >
 cvt_ready
 =
-FALSE
+-
+1
 ;
 tt_size_ready_bytecode
 (

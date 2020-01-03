@@ -239,7 +239,7 @@ org_width
 endif
 FT_LOCAL
 (
-FT_Error
+void
 )
 psh_globals_set_scale
 (

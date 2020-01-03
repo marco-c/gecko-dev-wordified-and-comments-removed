@@ -1571,6 +1571,11 @@ num_records
 record_size
 >
 0x10001L
+|
+|
+record_size
+<
+4
 )
 {
 error

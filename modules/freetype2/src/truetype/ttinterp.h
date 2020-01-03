@@ -133,6 +133,16 @@ dy
 )
 ;
 typedef
+FT_Long
+(
+*
+TT_Cur_Ppem_Func
+)
+(
+EXEC_OP
+)
+;
+typedef
 FT_F26Dot6
 (
 *
@@ -419,14 +429,6 @@ phase
 FT_F26Dot6
 threshold
 ;
-#
-if
-0
-FT_Int
-cur_ppem
-;
-#
-endif
 FT_Bool
 instruction_trap
 ;
@@ -455,6 +457,9 @@ func_move
 ;
 TT_Move_Func
 func_move_orig
+;
+TT_Cur_Ppem_Func
+func_cur_ppem
 ;
 TT_Get_CVT_Func
 func_read_cvt
@@ -519,7 +524,7 @@ ifdef
 TT_USE_BYTECODE_INTERPRETER
 FT_LOCAL
 (
-FT_Error
+void
 )
 TT_Goto_CodeRange
 (
@@ -533,7 +538,7 @@ IP
 ;
 FT_LOCAL
 (
-FT_Error
+void
 )
 TT_Set_CodeRange
 (
@@ -550,7 +555,7 @@ length
 ;
 FT_LOCAL
 (
-FT_Error
+void
 )
 TT_Clear_CodeRange
 (
@@ -597,7 +602,7 @@ ifdef
 TT_USE_BYTECODE_INTERPRETER
 FT_LOCAL
 (
-FT_Error
+void
 )
 TT_Done_Context
 (
@@ -621,7 +626,7 @@ size
 ;
 FT_LOCAL
 (
-FT_Error
+void
 )
 TT_Save_Context
 (

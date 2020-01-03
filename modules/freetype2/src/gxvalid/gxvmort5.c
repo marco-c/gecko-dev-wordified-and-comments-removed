@@ -70,7 +70,7 @@ FT_UShort
 *
 entryTable_length_p
 GXV_Validator
-valid
+gxvalid
 )
 {
 GXV_mort_subtable_type5_StateOptRecData
@@ -79,7 +79,7 @@ optdata
 (
 GXV_mort_subtable_type5_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 statetable
@@ -95,7 +95,7 @@ entryTable
 classTable_length_p
 stateArray_length_p
 entryTable_length_p
-valid
+gxvalid
 )
 ;
 optdata
@@ -154,7 +154,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -170,7 +170,7 @@ optdata
 (
 GXV_mort_subtable_type5_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 statetable
@@ -371,7 +371,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 #
@@ -577,7 +577,7 @@ currentInsertList
 currentInsertCount
 table
 limit
-valid
+gxvalid
 )
 ;
 }
@@ -601,7 +601,7 @@ markedInsertList
 markedInsertCount
 table
 limit
-valid
+gxvalid
 )
 ;
 }
@@ -617,7 +617,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -653,7 +653,7 @@ GXV_LIMIT_CHECK
 GXV_MORT_SUBTABLE_TYPE5_HEADER_SIZE
 )
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -662,7 +662,7 @@ optdata
 =
 et
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -671,7 +671,7 @@ optdata_load_func
 =
 NULL
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -680,7 +680,7 @@ subtable_setup_func
 =
 gxv_mort_subtable_type5_subtable_setup
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -689,7 +689,7 @@ entry_glyphoffset_fmt
 =
 GXV_GLYPHOFFSET_ULONG
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -702,7 +702,7 @@ gxv_StateTable_validate
 (
 p
 limit
-valid
+gxvalid
 )
 ;
 GXV_EXIT

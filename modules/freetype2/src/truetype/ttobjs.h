@@ -85,10 +85,10 @@ single_width_cutin
 FT_F26Dot6
 single_width_value
 ;
-FT_Short
+FT_UShort
 delta_base
 ;
-FT_Short
+FT_UShort
 delta_shift
 ;
 FT_Byte
@@ -339,10 +339,10 @@ debug
 TT_ExecContext
 context
 ;
-FT_Bool
+FT_Error
 bytecode_ready
 ;
-FT_Bool
+FT_Error
 cvt_ready
 ;
 #

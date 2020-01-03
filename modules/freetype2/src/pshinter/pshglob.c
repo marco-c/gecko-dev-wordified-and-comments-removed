@@ -2678,7 +2678,7 @@ error
 }
 FT_LOCAL_DEF
 (
-FT_Error
+void
 )
 psh_globals_set_scale
 (
@@ -2812,9 +2812,6 @@ y_delta
 )
 ;
 }
-return
-0
-;
 }
 FT_LOCAL_DEF
 (

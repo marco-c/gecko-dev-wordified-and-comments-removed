@@ -23,7 +23,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 GXV_NAME_ENTER
@@ -49,7 +49,7 @@ gxv_mort_subtable_type4_validate
 (
 table
 limit
-valid
+gxvalid
 )
 ;
 GXV_EXIT

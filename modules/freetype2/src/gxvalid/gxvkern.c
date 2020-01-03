@@ -91,7 +91,7 @@ field
 define
 KERN_IS_CLASSIC
 (
-valid
+gxvalid
 )
 \
 (
@@ -107,7 +107,7 @@ version
 define
 KERN_IS_NEW
 (
-valid
+gxvalid
 )
 \
 (
@@ -123,7 +123,7 @@ version
 define
 KERN_DIALECT
 (
-valid
+gxvalid
 )
 \
 GXV_KERN_DATA
@@ -134,13 +134,13 @@ dialect_request
 define
 KERN_ALLOWS_MS
 (
-valid
+gxvalid
 )
 \
 (
 KERN_DIALECT
 (
-valid
+gxvalid
 )
 &
 KERN_DIALECT_MS
@@ -149,13 +149,13 @@ KERN_DIALECT_MS
 define
 KERN_ALLOWS_APPLE
 (
-valid
+gxvalid
 )
 \
 (
 KERN_DIALECT
 (
-valid
+gxvalid
 )
 &
 KERN_DIALECT_APPLE
@@ -166,7 +166,7 @@ GXV_KERN_HEADER_SIZE
 (
 KERN_IS_NEW
 (
-valid
+gxvalid
 )
 ?
 8
@@ -179,7 +179,7 @@ GXV_KERN_SUBTABLE_HEADER_SIZE
 (
 KERN_IS_NEW
 (
-valid
+gxvalid
 )
 ?
 8
@@ -197,7 +197,7 @@ limit
 FT_UShort
 nPairs
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -272,7 +272,7 @@ p
 gxv_glyphid_validate
 (
 gid_left
-valid
+gxvalid
 )
 ;
 gid_right
@@ -285,7 +285,7 @@ p
 gxv_glyphid_validate
 (
 gid_right
-valid
+gxvalid
 )
 ;
 GXV_TRACE
@@ -384,7 +384,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -441,7 +441,7 @@ limit
 unitSize
 &
 nPairs
-valid
+gxvalid
 )
 ;
 p
@@ -460,7 +460,7 @@ gxv_kern_subtable_fmt0_pairs_validate
 p
 limit
 nPairs
-valid
+gxvalid
 )
 ;
 GXV_EXIT
@@ -490,7 +490,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -504,7 +504,7 @@ optdata
 (
 GXV_kern_fmt1_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 statetable
@@ -549,7 +549,7 @@ FT_UShort
 *
 entryTable_length_p
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_UShort
@@ -577,7 +577,7 @@ optdata
 (
 GXV_kern_fmt1_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 statetable
@@ -656,7 +656,7 @@ l
 buff
 4
 table_size
-valid
+gxvalid
 )
 ;
 }
@@ -675,7 +675,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 #
@@ -768,7 +768,7 @@ vt_rec
 (
 GXV_kern_fmt1_StateOptRecData
 )
-valid
+gxvalid
 -
 >
 statetable
@@ -846,7 +846,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -867,7 +867,7 @@ format
 "
 )
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -877,7 +877,7 @@ optdata
 &
 vt_rec
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -886,7 +886,7 @@ optdata_load_func
 =
 gxv_kern_subtable_fmt1_valueTable_load
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -895,7 +895,7 @@ subtable_setup_func
 =
 gxv_kern_subtable_fmt1_subtable_setup
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -904,7 +904,7 @@ entry_glyphoffset_fmt
 =
 GXV_GLYPHOFFSET_NONE
 ;
-valid
+gxvalid
 -
 >
 statetable
@@ -917,7 +917,7 @@ gxv_StateTable_validate
 (
 p
 limit
-valid
+gxvalid
 )
 ;
 GXV_EXIT
@@ -1008,7 +1008,7 @@ limit
 GXV_kern_ClassSpec
 spec
 GXV_Validator
-valid
+gxvalid
 )
 {
 const
@@ -1100,7 +1100,7 @@ nGlyphs
 gxv_glyphid_validate
 (
 firstGlyph
-valid
+gxvalid
 )
 ;
 gxv_glyphid_validate
@@ -1115,7 +1115,7 @@ nGlyphs
 -
 1
 )
-valid
+gxvalid
 )
 ;
 gxv_array_getlimits_ushort
@@ -1148,7 +1148,7 @@ spec
 ]
 )
 )
-valid
+gxvalid
 )
 ;
 gxv_odtect_add_range
@@ -1173,7 +1173,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 GXV_ODTECT
@@ -1337,7 +1337,7 @@ table
 leftOffsetTable
 limit
 GXV_KERN_CLS_L
-valid
+gxvalid
 )
 ;
 gxv_kern_subtable_fmt2_clstbl_validate
@@ -1347,7 +1347,7 @@ table
 rightOffsetTable
 limit
 GXV_KERN_CLS_R
-valid
+gxvalid
 )
 ;
 if
@@ -1412,7 +1412,7 @@ odtect
 gxv_odtect_validate
 (
 odtect
-valid
+gxvalid
 )
 ;
 GXV_EXIT
@@ -1427,7 +1427,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -1512,7 +1512,7 @@ p
 ;
 if
 (
-valid
+gxvalid
 -
 >
 face
@@ -1540,7 +1540,7 @@ d
 \
 n
 "
-valid
+gxvalid
 -
 >
 face
@@ -1624,13 +1624,13 @@ glyphCount
 min
 &
 max
-valid
+gxvalid
 )
 ;
 p
 +
 =
-valid
+gxvalid
 -
 >
 subtable_length
@@ -1664,13 +1664,13 @@ glyphCount
 min
 &
 max
-valid
+gxvalid
 )
 ;
 p
 +
 =
-valid
+gxvalid
 -
 >
 subtable_length
@@ -1738,7 +1738,7 @@ FT_INVALID_OFFSET
 }
 }
 }
-valid
+gxvalid
 -
 >
 subtable_length
@@ -1760,7 +1760,7 @@ FT_UShort
 *
 format
 GXV_Validator
-valid
+gxvalid
 )
 {
 #
@@ -1779,7 +1779,7 @@ kernVariation
 endif
 FT_UNUSED
 (
-valid
+gxvalid
 )
 ;
 if
@@ -1923,7 +1923,7 @@ FT_UShort
 *
 format
 GXV_Validator
-valid
+gxvalid
 )
 {
 #
@@ -1949,7 +1949,7 @@ coverage
 &
 KERN_ALLOWS_MS
 (
-valid
+gxvalid
 )
 )
 return
@@ -2087,7 +2087,7 @@ FT_UShort
 *
 format
 GXV_Validator
-valid
+gxvalid
 )
 {
 #
@@ -2109,7 +2109,7 @@ override
 endif
 FT_UNUSED
 (
-valid
+gxvalid
 )
 ;
 if
@@ -2282,7 +2282,7 @@ FT_UShort
 *
 format
 GXV_Validator
-valid
+gxvalid
 )
 {
 GXV_kern_Dialect
@@ -2321,7 +2321,7 @@ if
 (
 KERN_IS_NEW
 (
-valid
+gxvalid
 )
 )
 {
@@ -2331,7 +2331,7 @@ gxv_kern_coverage_new_apple_validate
 (
 coverage
 format
-valid
+gxvalid
 )
 )
 {
@@ -2348,13 +2348,13 @@ if
 (
 KERN_IS_CLASSIC
 (
-valid
+gxvalid
 )
 &
 &
 KERN_ALLOWS_APPLE
 (
-valid
+gxvalid
 )
 )
 {
@@ -2364,7 +2364,7 @@ gxv_kern_coverage_classic_apple_validate
 (
 coverage
 format
-valid
+gxvalid
 )
 )
 {
@@ -2381,13 +2381,13 @@ if
 (
 KERN_IS_CLASSIC
 (
-valid
+gxvalid
 )
 &
 &
 KERN_ALLOWS_MS
 (
-valid
+gxvalid
 )
 )
 {
@@ -2397,7 +2397,7 @@ gxv_kern_coverage_classic_microsoft_validate
 (
 coverage
 format
-valid
+gxvalid
 )
 )
 {
@@ -2443,7 +2443,7 @@ table
 FT_Bytes
 limit
 GXV_Validator
-valid
+gxvalid
 )
 {
 FT_Bytes
@@ -2539,7 +2539,7 @@ gxv_kern_coverage_validate
 coverage
 &
 format
-valid
+gxvalid
 )
 )
 {
@@ -2666,7 +2666,7 @@ if
 (
 KERN_IS_NEW
 (
-valid
+gxvalid
 )
 )
 {
@@ -2761,7 +2761,7 @@ table
 table
 +
 length
-valid
+gxvalid
 )
 ;
 else
@@ -2778,7 +2778,7 @@ table
 table
 +
 length
-valid
+gxvalid
 )
 ;
 else
@@ -2795,7 +2795,7 @@ table
 table
 +
 length
-valid
+gxvalid
 )
 ;
 else
@@ -2812,7 +2812,7 @@ table
 table
 +
 length
-valid
+gxvalid
 )
 ;
 else
@@ -2820,7 +2820,7 @@ FT_INVALID_DATA
 ;
 Exit
 :
-valid
+gxvalid
 -
 >
 subtable_length
@@ -2847,13 +2847,13 @@ ftvalid
 )
 {
 GXV_ValidatorRec
-validrec
+gxvalidrec
 ;
 GXV_Validator
-valid
+gxvalid
 =
 &
-validrec
+gxvalidrec
 ;
 GXV_kern_DataRec
 kernrec
@@ -2882,21 +2882,21 @@ nTables
 FT_UInt
 i
 ;
-valid
+gxvalid
 -
 >
 root
 =
 ftvalid
 ;
-valid
+gxvalid
 -
 >
 table_data
 =
 kern
 ;
-valid
+gxvalid
 -
 >
 face
@@ -2921,7 +2921,7 @@ GXV_INIT
 ;
 KERN_DIALECT
 (
-valid
+gxvalid
 )
 =
 dialect_request
@@ -2982,7 +2982,7 @@ if
 (
 KERN_IS_CLASSIC
 (
-valid
+gxvalid
 )
 )
 {
@@ -3004,7 +3004,7 @@ if
 (
 KERN_IS_NEW
 (
-valid
+gxvalid
 )
 )
 {
@@ -3077,13 +3077,13 @@ gxv_kern_subtable_validate
 (
 p
 0
-valid
+gxvalid
 )
 ;
 p
 +
 =
-valid
+gxvalid
 -
 >
 subtable_length

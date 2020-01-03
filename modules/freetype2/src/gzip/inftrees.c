@@ -343,15 +343,12 @@ g
 int
 h
 ;
-register
 uInt
 i
 ;
-register
 uInt
 j
 ;
-register
 int
 k
 ;
@@ -361,7 +358,6 @@ l
 uInt
 mask
 ;
-register
 uIntf
 *
 p
@@ -381,7 +377,6 @@ u
 BMAX
 ]
 ;
-register
 int
 w
 ;

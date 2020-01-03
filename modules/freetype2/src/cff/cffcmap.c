@@ -37,6 +37,8 @@ cff_cmap_encoding_init
 (
 CFF_CMapStd
 cmap
+FT_Pointer
+pointer
 )
 {
 TT_Face
@@ -71,6 +73,11 @@ cff
 -
 >
 encoding
+;
+FT_UNUSED
+(
+pointer
+)
 ;
 cmap
 -
@@ -332,6 +339,8 @@ cff_cmap_unicode_init
 (
 PS_Unicodes
 unicodes
+FT_Pointer
+pointer
 )
 {
 TT_Face
@@ -385,6 +394,11 @@ cff
 -
 >
 psnames
+;
+FT_UNUSED
+(
+pointer
+)
 ;
 if
 (

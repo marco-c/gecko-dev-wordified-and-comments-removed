@@ -223,7 +223,7 @@ PS_Hints
 ;
 FT_LOCAL
 (
-FT_Error
+void
 )
 ps_hints_init
 (

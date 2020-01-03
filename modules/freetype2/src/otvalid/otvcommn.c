@@ -21,7 +21,7 @@ otv_Coverage_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 FT_Int
 expected_count
 )
@@ -150,7 +150,7 @@ if
 gid
 >
 =
-valid
+otvalid
 -
 >
 glyph_count
@@ -267,7 +267,7 @@ if
 End
 >
 =
-valid
+otvalid
 -
 >
 glyph_count
@@ -572,7 +572,7 @@ otv_ClassDef_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -685,7 +685,7 @@ GlyphCount
 1
 >
 =
-valid
+otvalid
 -
 >
 glyph_count
@@ -801,7 +801,7 @@ if
 End
 >
 =
-valid
+otvalid
 -
 >
 glyph_count
@@ -833,7 +833,7 @@ otv_Device_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -935,7 +935,7 @@ otv_Lookup_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -1007,7 +1007,7 @@ LookupType
 |
 LookupType
 >
-valid
+otvalid
 -
 >
 type_count
@@ -1016,7 +1016,7 @@ FT_INVALID_DATA
 ;
 validate
 =
-valid
+otvalid
 -
 >
 type_funcs
@@ -1069,7 +1069,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 )
 ;
 OTV_EXIT
@@ -1084,7 +1084,7 @@ otv_LookupList_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -1138,7 +1138,7 @@ LookupCount
 2
 )
 ;
-valid
+otvalid
 -
 >
 lookup_count
@@ -1164,7 +1164,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 )
 ;
 OTV_EXIT
@@ -1194,7 +1194,7 @@ otv_Feature_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -1272,7 +1272,7 @@ p
 )
 >
 =
-valid
+otvalid
 -
 >
 lookup_count
@@ -1308,7 +1308,7 @@ table
 FT_Bytes
 lookups
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -1362,7 +1362,7 @@ FeatureCount
 2
 )
 ;
-valid
+otvalid
 -
 >
 lookup_count
@@ -1397,7 +1397,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 )
 ;
 }
@@ -1413,7 +1413,7 @@ otv_LangSys_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -1503,7 +1503,7 @@ ReqFeatureIndex
 ReqFeatureIndex
 >
 =
-valid
+otvalid
 -
 >
 extra1
@@ -1536,7 +1536,7 @@ p
 )
 >
 =
-valid
+otvalid
 -
 >
 extra1
@@ -1555,7 +1555,7 @@ otv_Script_validate
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_UInt
@@ -1622,7 +1622,7 @@ otv_LangSys_validate
 table
 +
 DefaultLangSys
-valid
+otvalid
 )
 ;
 OTV_LIMIT_CHECK
@@ -1657,7 +1657,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 )
 ;
 }
@@ -1675,7 +1675,7 @@ table
 FT_Bytes
 features
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_UInt
@@ -1729,7 +1729,7 @@ ScriptCount
 6
 )
 ;
-valid
+otvalid
 -
 >
 extra1
@@ -1764,7 +1764,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 )
 ;
 }
@@ -1780,7 +1780,7 @@ otv_x_Ox
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -1832,7 +1832,7 @@ Count
 2
 )
 ;
-valid
+otvalid
 -
 >
 nesting_level
@@ -1841,12 +1841,12 @@ nesting_level
 ;
 func
 =
-valid
+otvalid
 -
 >
 func
 [
-valid
+otvalid
 -
 >
 nesting_level
@@ -1871,10 +1871,10 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 )
 ;
-valid
+otvalid
 -
 >
 nesting_level
@@ -1893,7 +1893,7 @@ otv_u_C_x_Ox
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -1956,7 +1956,7 @@ otv_Coverage_validate
 table
 +
 Coverage
-valid
+otvalid
 Count
 )
 ;
@@ -1967,7 +1967,7 @@ Count
 2
 )
 ;
-valid
+otvalid
 -
 >
 nesting_level
@@ -1976,12 +1976,12 @@ nesting_level
 ;
 func
 =
-valid
+otvalid
 -
 >
 func
 [
-valid
+otvalid
 -
 >
 nesting_level
@@ -2006,10 +2006,10 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 )
 ;
-valid
+otvalid
 -
 >
 nesting_level
@@ -2028,7 +2028,7 @@ otv_x_ux
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -2079,7 +2079,7 @@ Count
 ;
 if
 (
-valid
+otvalid
 -
 >
 extra1
@@ -2104,7 +2104,7 @@ p
 )
 >
 =
-valid
+otvalid
 -
 >
 extra1
@@ -2124,7 +2124,7 @@ otv_x_y_ux_sy
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -2258,7 +2258,7 @@ p
 )
 >
 =
-valid
+otvalid
 -
 >
 extra1
@@ -2278,7 +2278,7 @@ otv_x_ux_y_uy_z_uz_p_sp
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -2495,7 +2495,7 @@ p
 )
 >
 =
-valid
+otvalid
 -
 >
 extra1
@@ -2515,7 +2515,7 @@ otv_u_O_O_x_Onx
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -2586,7 +2586,7 @@ otv_Coverage_validate
 table
 +
 Coverage
-valid
+otvalid
 -
 1
 )
@@ -2596,7 +2596,7 @@ otv_ClassDef_validate
 table
 +
 ClassDef
-valid
+otvalid
 )
 ;
 OTV_LIMIT_CHECK
@@ -2606,7 +2606,7 @@ ClassSetCount
 2
 )
 ;
-valid
+otvalid
 -
 >
 nesting_level
@@ -2615,23 +2615,23 @@ nesting_level
 ;
 func
 =
-valid
+otvalid
 -
 >
 func
 [
-valid
+otvalid
 -
 >
 nesting_level
 ]
 ;
-valid
+otvalid
 -
 >
 extra1
 =
-valid
+otvalid
 -
 >
 lookup_count
@@ -2665,11 +2665,11 @@ func
 table
 +
 offset
-valid
+otvalid
 )
 ;
 }
-valid
+otvalid
 -
 >
 nesting_level
@@ -2688,7 +2688,7 @@ otv_u_x_y_Ox_sy
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -2794,7 +2794,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 -
 1
 )
@@ -2831,7 +2831,7 @@ p
 )
 >
 =
-valid
+otvalid
 -
 >
 lookup_count
@@ -2851,7 +2851,7 @@ otv_u_O_O_O_O_x_Onx
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -2942,7 +2942,7 @@ otv_Coverage_validate
 table
 +
 Coverage
-valid
+otvalid
 -
 1
 )
@@ -2952,7 +2952,7 @@ otv_ClassDef_validate
 table
 +
 BacktrackClassDef
-valid
+otvalid
 )
 ;
 otv_ClassDef_validate
@@ -2960,7 +2960,7 @@ otv_ClassDef_validate
 table
 +
 InputClassDef
-valid
+otvalid
 )
 ;
 otv_ClassDef_validate
@@ -2968,7 +2968,7 @@ otv_ClassDef_validate
 table
 +
 LookaheadClassDef
-valid
+otvalid
 )
 ;
 OTV_LIMIT_CHECK
@@ -2978,7 +2978,7 @@ ChainClassSetCount
 2
 )
 ;
-valid
+otvalid
 -
 >
 nesting_level
@@ -2987,23 +2987,23 @@ nesting_level
 ;
 func
 =
-valid
+otvalid
 -
 >
 func
 [
-valid
+otvalid
 -
 >
 nesting_level
 ]
 ;
-valid
+otvalid
 -
 >
 extra1
 =
-valid
+otvalid
 -
 >
 lookup_count
@@ -3037,11 +3037,11 @@ func
 table
 +
 offset
-valid
+otvalid
 )
 ;
 }
-valid
+otvalid
 -
 >
 nesting_level
@@ -3060,7 +3060,7 @@ otv_u_x_Ox_y_Oy_z_Oz_p_sp
 FT_Bytes
 table
 OTV_Validator
-valid
+otvalid
 )
 {
 FT_Bytes
@@ -3141,7 +3141,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 -
 1
 )
@@ -3201,7 +3201,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 -
 1
 )
@@ -3258,7 +3258,7 @@ FT_NEXT_USHORT
 (
 p
 )
-valid
+otvalid
 -
 1
 )
@@ -3326,7 +3326,7 @@ p
 )
 >
 =
-valid
+otvalid
 -
 >
 lookup_count

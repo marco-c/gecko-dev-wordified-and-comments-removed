@@ -2959,10 +2959,6 @@ italic_angle
 ;
 break
 ;
-default
-:
-break
-;
 }
 return
 retval

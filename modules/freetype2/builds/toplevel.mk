@@ -1421,7 +1421,11 @@ freetype
 version
 )
 tar
-cfh
+-
+H
+ustar
+-
+chf
 -
 freetype
 -
@@ -1446,7 +1450,11 @@ tar
 .
 gz
 tar
-cfh
+-
+H
+ustar
+-
+chf
 -
 freetype
 -

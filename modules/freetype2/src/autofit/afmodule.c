@@ -99,7 +99,7 @@ face
 return
 FT_THROW
 (
-Invalid_Argument
+Invalid_Face_Handle
 )
 ;
 globals
@@ -258,6 +258,9 @@ ss
 ;
 if
 (
+(
+FT_UInt
+)
 style_class
 -
 >

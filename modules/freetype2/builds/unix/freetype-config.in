@@ -792,9 +792,8 @@ then
 libs
 =
 "
-%
-LIBS_CONFIG
-%
+-
+lfreetype
 "
 staticlibs
 =

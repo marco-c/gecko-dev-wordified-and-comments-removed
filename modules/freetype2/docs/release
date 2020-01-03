@@ -297,7 +297,12 @@ trace_XXXX
 macros
 .
 .
-Tag
+After
+pushing
+the
+new
+release
+tag
 the
 git
 repositories
@@ -1350,7 +1355,7 @@ Copyright
 2009
 2011
 -
-2013
+2014
 by
 David
 Turner

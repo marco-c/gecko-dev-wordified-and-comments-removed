@@ -26,6 +26,7 @@ Copyright
 2003
 2007
 2009
+2014
 by
 #
 David
@@ -141,7 +142,7 @@ program
 #
 #
 serial
-3
+4
 #
 AC_CHECK_FT2
 (
@@ -478,7 +479,7 @@ FT2_CONFIG
 x
 ;
 then
-AC_PATH_PROG
+AC_PATH_TOOL
 (
 [
 FT2_CONFIG

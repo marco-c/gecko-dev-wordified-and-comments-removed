@@ -2551,7 +2551,7 @@ memory
 }
 FT_LOCAL
 (
-FT_Error
+void
 )
 ps_hints_init
 (
@@ -2577,9 +2577,6 @@ hints
 memory
 =
 memory
-;
-return
-FT_Err_Ok
 ;
 }
 static

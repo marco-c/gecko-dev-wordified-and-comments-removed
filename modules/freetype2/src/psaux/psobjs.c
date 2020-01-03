@@ -4537,6 +4537,8 @@ token
 >
 limit
 ;
+error
+=
 ps_parser_load_field
 (
 parser
@@ -4546,6 +4548,12 @@ objects
 max_objects
 0
 )
+;
+if
+(
+error
+)
+break
 ;
 fieldrec
 .

@@ -916,6 +916,17 @@ if
 (
 !
 target
+|
+|
+!
+source
+|
+|
+!
+source
+-
+>
+clazz
 )
 {
 error
@@ -932,7 +943,7 @@ Exit
 *
 target
 =
-0
+NULL
 ;
 if
 (
@@ -1071,7 +1082,7 @@ FT_Glyph_Class
 *
 clazz
 =
-0
+NULL
 ;
 if
 (

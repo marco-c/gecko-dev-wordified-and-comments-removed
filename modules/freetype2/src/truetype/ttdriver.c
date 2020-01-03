@@ -874,7 +874,7 @@ face
 return
 FT_THROW
 (
-Invalid_Argument
+Invalid_Face_Handle
 )
 ;
 #

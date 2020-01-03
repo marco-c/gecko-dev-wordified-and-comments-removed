@@ -436,12 +436,15 @@ loader
 >
 trans_matrix
 ;
+if
+(
+!
 FT_Matrix_Invert
 (
 &
 inverse
 )
-;
+)
 FT_Vector_Transform
 (
 &
@@ -2396,7 +2399,7 @@ size
 return
 FT_THROW
 (
-Invalid_Argument
+Invalid_Size_Handle
 )
 ;
 FT_ZERO

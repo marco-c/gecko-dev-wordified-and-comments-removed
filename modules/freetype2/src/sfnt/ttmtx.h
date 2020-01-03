@@ -48,7 +48,7 @@ vertical
 ;
 FT_LOCAL
 (
-FT_Error
+void
 )
 tt_face_get_metrics
 (

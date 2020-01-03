@@ -219,7 +219,7 @@ vertical
 )
 ;
 typedef
-FT_Error
+void
 (
 *
 TT_Get_Metrics_Func

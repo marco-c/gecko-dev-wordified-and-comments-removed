@@ -41,7 +41,7 @@ LZW_FIRST
 #
 define
 LZW_BIT_MASK
-0x1f
+0x1F
 #
 define
 LZW_BLOCK_MASK

@@ -3560,6 +3560,8 @@ n_points
 goto
 Syntax_Error
 ;
+error
+=
 hinter
 -
 >
@@ -3585,6 +3587,13 @@ decoder
 >
 hint_mode
 )
+;
+if
+(
+error
+)
+goto
+Fail
 ;
 }
 FT_GlyphLoader_Add

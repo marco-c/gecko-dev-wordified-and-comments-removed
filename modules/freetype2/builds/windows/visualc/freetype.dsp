@@ -575,7 +575,7 @@ out
 \
 objs
 \
-freetype253
+freetype255
 .
 lib
 "
@@ -866,7 +866,7 @@ out
 \
 objs
 \
-freetype253_D
+freetype255_D
 .
 lib
 "
@@ -1167,7 +1167,7 @@ out
 "
 lib
 \
-freetype253_D
+freetype255_D
 .
 lib
 "
@@ -1191,7 +1191,7 @@ out
 \
 objs
 \
-freetype253MT_D
+freetype255MT_D
 .
 lib
 "
@@ -1469,7 +1469,7 @@ out
 "
 lib
 \
-freetype253
+freetype255
 .
 lib
 "
@@ -1493,7 +1493,7 @@ out
 \
 objs
 \
-freetype253MT
+freetype255MT
 .
 lib
 "
@@ -1785,7 +1785,7 @@ out
 \
 objs
 \
-freetype253
+freetype255
 .
 lib
 "
@@ -1807,7 +1807,7 @@ out
 \
 objs
 \
-freetype253ST
+freetype255ST
 .
 lib
 "
@@ -2131,7 +2131,7 @@ out
 \
 objs
 \
-freetype253_D
+freetype255_D
 .
 lib
 "
@@ -2155,7 +2155,7 @@ out
 \
 objs
 \
-freetype253ST_D
+freetype255ST_D
 .
 lib
 "

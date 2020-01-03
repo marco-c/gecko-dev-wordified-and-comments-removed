@@ -98,7 +98,7 @@ notdef
 null
 "
 "
-CR
+nonmarkingreturn
 "
 "
 space
@@ -608,7 +608,7 @@ guillemotright
 ellipsis
 "
 "
-nbspace
+nonbreakingspace
 "
 "
 Agrave
@@ -842,7 +842,7 @@ Gbreve
 gbreve
 "
 "
-Idot
+Idotaccent
 "
 "
 Scedilla
@@ -863,7 +863,7 @@ Ccaron
 ccaron
 "
 "
-dmacron
+dcroat
 "
 }
 ;

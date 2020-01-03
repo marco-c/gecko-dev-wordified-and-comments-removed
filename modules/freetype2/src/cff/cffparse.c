@@ -581,7 +581,7 @@ if
 nib
 =
 =
-0xa
+0xA
 )
 for
 (

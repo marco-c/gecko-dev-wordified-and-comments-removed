@@ -662,7 +662,7 @@ ft_char_table
 *
 p
 &
-0x7f
+0x7F
 ]
 ;
 if
@@ -1121,7 +1121,7 @@ ft_char_table
 *
 p
 &
-0x7f
+0x7F
 ]
 ;
 if
@@ -1140,6 +1140,11 @@ break
 ;
 if
 (
+divider
+<
+0xCCCCCCCL
+&
+&
 decimal
 <
 0xCCCCCCCL
@@ -2099,7 +2104,7 @@ ft_char_table
 *
 p
 &
-0x7f
+0x7F
 ]
 ;
 if

@@ -46886,7 +46886,7 @@ ftbdf
 .
 h
 (
-FT_PropertyType
+BDF_PropertyType
 )
 :
 New

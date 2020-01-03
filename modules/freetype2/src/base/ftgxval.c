@@ -58,10 +58,8 @@ Exit
 }
 if
 (
+!
 tables
-=
-=
-NULL
 )
 {
 error
@@ -188,10 +186,8 @@ Exit
 }
 if
 (
+!
 ckern_table
-=
-=
-NULL
 )
 {
 error

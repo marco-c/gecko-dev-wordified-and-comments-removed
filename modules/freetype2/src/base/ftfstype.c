@@ -102,7 +102,7 @@ TT_OS2
 FT_Get_Sfnt_Table
 (
 face
-ft_sfnt_os2
+FT_SFNT_OS2
 )
 )
 !

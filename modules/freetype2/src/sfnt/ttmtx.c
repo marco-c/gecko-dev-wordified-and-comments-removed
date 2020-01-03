@@ -437,7 +437,7 @@ error
 }
 FT_LOCAL_DEF
 (
-FT_Error
+void
 )
 tt_face_get_metrics
 (
@@ -720,7 +720,4 @@ aadvance
 0
 ;
 }
-return
-FT_Err_Ok
-;
 }

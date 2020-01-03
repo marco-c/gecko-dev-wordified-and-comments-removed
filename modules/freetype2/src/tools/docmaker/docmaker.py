@@ -218,9 +218,10 @@ argv
 "
 "
 "
-main
+Main
 program
 loop
+.
 "
 "
 "
@@ -245,7 +246,6 @@ argv
 1
 :
 ]
-\
                                     
 "
 ht
@@ -255,7 +255,6 @@ o
 p
 :
 "
-\
                                     
 [
 "
@@ -496,7 +495,9 @@ formatter
 HtmlFormatter
 (
 content_processor
+                               
 project_title
+                               
 project_prefix
 )
     
