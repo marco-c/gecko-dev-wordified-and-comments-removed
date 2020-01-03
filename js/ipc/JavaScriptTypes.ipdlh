@@ -229,6 +229,15 @@ NullVariant
 }
 ;
 union
+ObjectOrNullVariant
+{
+ObjectVariant
+;
+NullVariant
+;
+}
+;
+union
 JSVariant
 {
 UndefinedVariant
@@ -360,7 +369,7 @@ ObjectVariant
 struct
 PPropertyDescriptor
 {
-ObjectVariant
+ObjectOrNullVariant
 obj
 ;
 uint32_t
