@@ -197,11 +197,6 @@ nsTArray
 cpp
 '
 '
-nsTHashtable
-.
-cpp
-'
-'
 nsThreadUtils
 .
 cpp

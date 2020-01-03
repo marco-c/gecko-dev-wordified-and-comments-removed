@@ -456,11 +456,6 @@ nsTArray
 cpp
 '
 '
-nsTHashtable
-.
-cpp
-'
-'
 nsTObserverArray
 .
 cpp
