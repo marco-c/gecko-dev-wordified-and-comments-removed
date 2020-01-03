@@ -5,7 +5,7 @@ io
 /
 mozilla
 /
-base
+b2g
 -
 build
 :
@@ -15,12 +15,13 @@ build
 .
 1
 MAINTAINER
-Jonas
-Finnemann
-Jensen
+Dustin
+J
+.
+Mitchell
 <
-jopsen
-gmail
+dustin
+mozilla
 .
 com
 >
