@@ -384,6 +384,10 @@ const
 uint32_t
 &
 aInnerWindowID
+const
+nsCString
+&
+aSchedulingContextID
 )
 ;
 virtual

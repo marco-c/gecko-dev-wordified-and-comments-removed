@@ -892,7 +892,7 @@ SetupTransaction
 )
 ;
 void
-SetupTransactionLoadGroupInfo
+SetupTransactionSchedulingContext
 (
 )
 ;
