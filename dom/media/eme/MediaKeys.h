@@ -393,13 +393,6 @@ CheckPrincipals
 (
 )
 ;
-nsIDocument
-*
-GetOwnerDoc
-(
-)
-const
-;
 private
 :
 bool
