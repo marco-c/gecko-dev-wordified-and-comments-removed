@@ -231,3 +231,10 @@ pth
 python
 /
 redo
+requests
+.
+pth
+:
+python
+/
+requests
