@@ -78,6 +78,15 @@ phone
 .
 py
 fi
+rm
+-
+rf
+WORKSPACE
+/
+B2G
+/
+upload
+/
 .
 /
 mozharness
