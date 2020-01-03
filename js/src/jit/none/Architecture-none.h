@@ -59,6 +59,10 @@ RegisterID
 Code
 ;
 typedef
+RegisterID
+Encoding
+;
+typedef
 uint8_t
 SetType
 ;
@@ -249,6 +253,10 @@ FPRegisterID
 Code
 ;
 typedef
+FPRegisterID
+Encoding
+;
+typedef
 uint32_t
 SetType
 ;
@@ -373,6 +381,13 @@ Codes
 :
 Code
 Code
+;
+typedef
+Codes
+:
+:
+Encoding
+Encoding
 ;
 typedef
 Codes

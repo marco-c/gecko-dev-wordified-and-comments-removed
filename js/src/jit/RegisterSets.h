@@ -4262,13 +4262,13 @@ kind_
 ;
 union
 {
-Registers
+Register
 :
 :
 Code
 gpr_
 ;
-FloatRegisters
+FloatRegister
 :
 :
 Code

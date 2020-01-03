@@ -253,6 +253,10 @@ typedef
 RegisterID
 Code
 ;
+typedef
+RegisterID
+Encoding
+;
 static
 const
 char
@@ -1058,6 +1062,10 @@ typedef
 FPRegisterID
 Code
 ;
+typedef
+FPRegisterID
+Encoding
+;
 static
 const
 char
@@ -1653,6 +1661,13 @@ Codes
 :
 Code
 Code
+;
+typedef
+Codes
+:
+:
+Encoding
+Encoding
 ;
 uint32_t
 code_

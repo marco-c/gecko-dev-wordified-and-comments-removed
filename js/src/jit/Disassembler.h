@@ -40,7 +40,7 @@ disp_
 Register
 :
 :
-Code
+Encoding
 base_
 :
 8
@@ -48,7 +48,7 @@ base_
 Register
 :
 :
-Code
+Encoding
 index_
 :
 8
@@ -110,7 +110,7 @@ disp
 Register
 :
 :
-Code
+Encoding
 base
 )
 :
@@ -175,12 +175,12 @@ disp
 Register
 :
 :
-Code
+Encoding
 base
 Register
 :
 :
-Code
+Encoding
 index
 int
 scale
@@ -490,7 +490,7 @@ disp_
 Register
 :
 :
-Code
+Encoding
 base
 (
 )
@@ -503,7 +503,7 @@ base_
 Register
 :
 :
-Code
+Encoding
 index
 (
 )
@@ -580,13 +580,13 @@ imm
 Register
 :
 :
-Code
+Encoding
 gpr
 ;
 FloatRegister
 :
 :
-Code
+Encoding
 fpr
 ;
 }
@@ -655,7 +655,7 @@ OtherOperand
 Register
 :
 :
-Code
+Encoding
 gpr
 )
 :
@@ -687,7 +687,7 @@ OtherOperand
 FloatRegister
 :
 :
-Code
+Encoding
 fpr
 )
 :
@@ -746,7 +746,7 @@ imm
 Register
 :
 :
-Code
+Encoding
 gpr
 (
 )
@@ -769,7 +769,7 @@ gpr
 FloatRegister
 :
 :
-Code
+Encoding
 fpr
 (
 )
