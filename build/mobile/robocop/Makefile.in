@@ -459,6 +459,15 @@ swf
 )
 \
 (
+wildcard
+(
+TESTPATH
+)
+/
+reader_mode_pages
+)
+\
+(
 NULL
 )
 ROBOCOP_DEST
