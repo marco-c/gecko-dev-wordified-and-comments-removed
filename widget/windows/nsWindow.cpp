@@ -1281,6 +1281,10 @@ mTouchWindow
 =
 false
 ;
+mFutureMarginsToUse
+=
+false
+;
 mCustomNonClient
 =
 false
