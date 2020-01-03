@@ -419,10 +419,12 @@ c
 ;
 nsITimerCallback
 *
+MOZ_OWNING_REF
 i
 ;
 nsIObserver
 *
+MOZ_OWNING_REF
 o
 ;
 }
