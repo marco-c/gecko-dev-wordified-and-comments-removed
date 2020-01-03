@@ -555,6 +555,9 @@ AnimationProperty
 nsCSSProperty
 mProperty
 ;
+bool
+mWinsInCascade
+;
 InfallibleTArray
 <
 AnimationPropertySegment
@@ -580,6 +583,14 @@ mProperty
 aOther
 .
 mProperty
+&
+&
+mWinsInCascade
+=
+=
+aOther
+.
+mWinsInCascade
 &
 &
 mSegments
