@@ -11467,6 +11467,10 @@ Count
 &
 &
 mHasSearchTerms
+&
+&
+!
+mRemovingURI
 )
 {
 NS_ENSURE_TRUE
@@ -11767,6 +11771,10 @@ nsACString
 aParentGUID
 )
 {
+mRemovingURI
+=
+aURI
+;
 if
 (
 aItemType
