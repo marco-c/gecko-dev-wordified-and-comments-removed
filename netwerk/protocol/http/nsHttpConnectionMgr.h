@@ -1064,6 +1064,9 @@ nsAHttpTransaction
 >
 mTransaction
 ;
+bool
+mDispatchedMTransaction
+;
 nsCOMPtr
 <
 nsISocketTransport
