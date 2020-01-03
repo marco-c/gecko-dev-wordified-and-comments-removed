@@ -25438,6 +25438,13 @@ disable_single_stepping
 (
 )
 {
+if
+(
+!
+single_stepping_
+)
+return
+;
 single_step_callback_
 (
 single_step_callback_arg_
