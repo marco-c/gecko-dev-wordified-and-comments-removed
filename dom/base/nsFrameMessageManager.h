@@ -1664,6 +1664,11 @@ forget
 )
 ;
 }
+void
+MarkScopesForCC
+(
+)
+;
 protected
 :
 friend

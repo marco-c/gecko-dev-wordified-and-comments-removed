@@ -134,6 +134,10 @@ MarkForCC
 (
 )
 {
+MarkScopesForCC
+(
+)
+;
 return
 mMessageManager
 ?
