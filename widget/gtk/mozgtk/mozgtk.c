@@ -1063,6 +1063,10 @@ gtk_main_iteration
 )
 STUB
 (
+gtk_menu_attach_to_widget
+)
+STUB
+(
 gtk_menu_bar_new
 )
 STUB
