@@ -27425,6 +27425,8 @@ Length
 ;
 nsresult
 res
+=
+NS_OK
 ;
 if
 (
@@ -27597,7 +27599,6 @@ aArrayOfRanges
 nsDOMSubtreeIterator
 iter
 ;
-nsresult
 res
 =
 iter
