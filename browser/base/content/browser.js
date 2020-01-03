@@ -35818,6 +35818,13 @@ catch
 e
 )
 {
+}
+if
+(
+!
+host
+)
+{
 host
 =
 this
