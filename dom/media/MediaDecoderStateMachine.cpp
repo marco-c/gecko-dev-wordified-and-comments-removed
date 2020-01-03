@@ -13595,6 +13595,13 @@ GetVideoStreamPosition
 )
 const
 {
+MOZ_ASSERT
+(
+OnTaskQueue
+(
+)
+)
+;
 AssertCurrentThreadInMonitor
 (
 )
@@ -15493,6 +15500,13 @@ TimeStamp
 aTimeStamp
 )
 {
+MOZ_ASSERT
+(
+OnTaskQueue
+(
+)
+)
+;
 AssertCurrentThreadInMonitor
 (
 )
