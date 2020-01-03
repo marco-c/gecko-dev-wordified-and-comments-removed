@@ -3185,16 +3185,6 @@ num_consecutive_old_packets_
 =
 0
 ;
-if
-(
-packet
-.
-completeNALU
-!
-=
-kNaluComplete
-)
-{
 *
 frame
 =
@@ -3255,7 +3245,6 @@ kStateComplete
 return
 kNoError
 ;
-}
 *
 frame
 =
