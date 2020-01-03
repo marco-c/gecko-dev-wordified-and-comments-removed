@@ -60,14 +60,6 @@ file
 .
 lastModifiedDate
 ;
-rtnObj
-.
-mozFullPath
-=
-file
-.
-mozFullPath
-;
 postMessage
 (
 rtnObj

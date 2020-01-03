@@ -224,6 +224,7 @@ lastModifiedDate
 ;
 [
 GetterThrows
+ChromeOnly
 ]
 readonly
 attribute

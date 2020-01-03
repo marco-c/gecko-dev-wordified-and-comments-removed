@@ -320,14 +320,6 @@ name
 "
 )
 ;
-writeProperty
-(
-file
-"
-mozFullPath
-"
-)
-;
 fileReaderJunkArgument
 (
 undefined
