@@ -9079,6 +9079,16 @@ KillFullGCTimer
 (
 )
 ;
+if
+(
+aDesc
+.
+invocationKind_
+=
+=
+GC_NORMAL
+)
+{
 nsJSContext
 :
 :
@@ -9086,6 +9096,7 @@ PokeShrinkGCBuffers
 (
 )
 ;
+}
 }
 if
 (

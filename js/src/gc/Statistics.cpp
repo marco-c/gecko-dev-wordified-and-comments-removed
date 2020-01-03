@@ -6110,6 +6110,7 @@ GCDescription
 (
 !
 wasFullGC
+gckind
 )
 )
 ;
@@ -6265,6 +6266,7 @@ GCDescription
 (
 !
 wasFullGC
+gckind
 )
 )
 ;
