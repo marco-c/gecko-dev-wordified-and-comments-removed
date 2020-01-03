@@ -1981,7 +1981,11 @@ log
 info
 (
 "
-WARNING
+TEST
+-
+UNEXPECTED
+-
+FAIL
 |
 leakcheck
 |
