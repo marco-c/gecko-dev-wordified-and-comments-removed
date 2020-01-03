@@ -407,6 +407,9 @@ get
 )
 aFilter
 isAlphaPremultiplied
+GetRenderState
+(
+)
 )
 ;
 if
@@ -1437,6 +1440,9 @@ GetFormat
 mTextureSource
 aFilter
 isAlphaPremultiplied
+GetRenderState
+(
+)
 )
 ;
 }
