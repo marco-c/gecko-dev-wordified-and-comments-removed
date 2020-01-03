@@ -9759,6 +9759,9 @@ Zone
 Compact
 )
 ;
+jit
+:
+:
 StopAllOffThreadCompilations
 (
 zone
