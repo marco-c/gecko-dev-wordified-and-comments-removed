@@ -27,9 +27,6 @@ class
 nsIDOMMouseEvent
 ;
 class
-nsIEditor
-;
-class
 nsINode
 ;
 class
@@ -172,9 +169,6 @@ aNewIMEState
 nsIContent
 *
 aContent
-nsIEditor
-*
-aEditor
 )
 ;
 static
@@ -217,9 +211,6 @@ aPresContext
 nsIContent
 *
 aContent
-nsIEditor
-*
-aEditor
 )
 ;
 static
@@ -382,9 +373,6 @@ static
 void
 CreateIMEContentObserver
 (
-nsIEditor
-*
-aEditor
 )
 ;
 static

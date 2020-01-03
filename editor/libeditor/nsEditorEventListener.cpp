@@ -4614,7 +4614,6 @@ GetPresContext
 (
 )
 focusedContent
-mEditor
 )
 ;
 return
