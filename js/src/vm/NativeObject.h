@@ -1,9 +1,9 @@
 #
 ifndef
-vm_ObjectImpl_h
+vm_NativeObject_h
 #
 define
-vm_ObjectImpl_h
+vm_NativeObject_h
 #
 include
 "
