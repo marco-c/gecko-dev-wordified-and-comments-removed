@@ -166,12 +166,6 @@ html
 bc_borderoffset1_ref
 .
 html
-fails
--
-if
-(
-cocoaWidget
-)
 =
 =
 bc_borderoffset2
@@ -180,9 +174,6 @@ html
 bc_borderoffset2_ref
 .
 html
-#
-bug
-477504
 =
 =
 frame_above_rules_all
