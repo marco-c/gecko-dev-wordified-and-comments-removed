@@ -587,13 +587,6 @@ half
 d0
 .
 f32
-HALF
-:
-.
-float
-0
-.
-5
 /
 /
 Allocate
@@ -1582,9 +1575,8 @@ N
 -
 1
 )
-LDR
+ADR
 t0
-=
 HALF
 VLD1
 half
@@ -2080,5 +2072,12 @@ Write
 function
 tail
 M_END
+HALF
+:
+.
+float
+0
+.
+5
 .
 end
