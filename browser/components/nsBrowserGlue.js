@@ -6772,11 +6772,11 @@ true
 #
 ifdef
 NIGHTLY_BUILD
-aWindow
+Services
 .
-messageManager
+ppmm
 .
-loadFrameScript
+loadProcessScript
 (
 "
 chrome
