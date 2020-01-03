@@ -1069,6 +1069,13 @@ RESPATH
 /
 components
 /
+dom_push
+.
+xpt
+RESPATH
+/
+components
+/
 dom_quota
 .
 xpt
@@ -1818,9 +1825,6 @@ components
 toolkit_osfile
 .
 xpt
-#
-ifdef
-NIGHTLY_BUILD
 RESPATH
 /
 components
@@ -1828,8 +1832,6 @@ components
 toolkit_perfmonitoring
 .
 xpt
-#
-endif
 RESPATH
 /
 components
