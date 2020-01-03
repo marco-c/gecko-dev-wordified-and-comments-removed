@@ -410,6 +410,9 @@ rect
 ScreenOrientationInternal
 orientation
 ;
+uint16_t
+angle
+;
 uint32_t
 colorDepth
 ;

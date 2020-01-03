@@ -1239,6 +1239,11 @@ GetScreenOrientation
 (
 )
 ;
+uint16_t
+GetScreenAngle
+(
+)
+;
 int
 GetAPIVersion
 (

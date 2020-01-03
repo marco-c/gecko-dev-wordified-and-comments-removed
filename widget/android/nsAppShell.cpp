@@ -3329,6 +3329,9 @@ int32_t
 colorDepth
 pixelDepth
 ;
+int16_t
+angle
+;
 dom
 :
 :
@@ -3411,6 +3414,15 @@ ScreenOrientation
 )
 )
 ;
+angle
+=
+curEvent
+-
+>
+ScreenAngle
+(
+)
+;
 hal
 :
 :
@@ -3423,6 +3435,7 @@ ScreenConfiguration
 (
 rect
 orientation
+angle
 colorDepth
 pixelDepth
 )
