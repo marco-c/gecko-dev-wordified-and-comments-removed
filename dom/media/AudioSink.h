@@ -240,6 +240,7 @@ AudioStream
 >
 mAudioStream
 ;
+const
 int64_t
 mStartTime
 ;

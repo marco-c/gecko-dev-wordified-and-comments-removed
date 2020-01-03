@@ -3138,9 +3138,6 @@ int64_t
 mStreamStartTime
 ;
 int64_t
-mAudioStartTime
-;
-int64_t
 mAudioEndTime
 ;
 int64_t
