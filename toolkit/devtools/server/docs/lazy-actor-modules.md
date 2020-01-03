@@ -501,7 +501,7 @@ setupParentProcess
 (
 {
 mm
-prefix
+childID
 }
 )
 {
@@ -576,7 +576,7 @@ child
 :
 "
 +
-prefix
+childID
 handleMessageManagerDisconnected
 )
 ;
@@ -745,7 +745,7 @@ message
 manager
 and
 the
-prefix
+childID
 in
 the
 json
@@ -754,7 +754,7 @@ parameter
 *
 {
 mm
-prefix
+childID
 }
 *
 *
@@ -795,7 +795,7 @@ from
 -
 child
 :
-PREFIX
+CHILDID
 "
 *
 *
