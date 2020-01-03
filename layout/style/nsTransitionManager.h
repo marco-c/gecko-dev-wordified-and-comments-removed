@@ -132,6 +132,7 @@ ElementPropertyTransition
 AsTransition
 (
 )
+override
 {
 return
 this
@@ -145,6 +146,7 @@ AsTransition
 (
 )
 const
+override
 {
 return
 this
