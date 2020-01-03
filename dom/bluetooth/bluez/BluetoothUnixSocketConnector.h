@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_bluetooth_BluetoothUnixSocketConnector_h
+mozilla_dom_bluetooth_bluez_BluetoothUnixSocketConnector_h
 #
 define
-mozilla_dom_bluetooth_BluetoothUnixSocketConnector_h
+mozilla_dom_bluetooth_bluez_BluetoothUnixSocketConnector_h
 #
 include
 <

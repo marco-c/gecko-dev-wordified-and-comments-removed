@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_bluetooth_bluedroid_bluetoothdaemoninterface_h__
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonInterface_h
 #
 define
-mozilla_dom_bluetooth_bluedroid_bluetoothdaemoninterface_h__
+mozilla_dom_bluetooth_bluedroid_BluetoothDaemonInterface_h
 #
 include
 "

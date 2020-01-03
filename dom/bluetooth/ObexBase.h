@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_bluetooth_obexbase_h__
+mozilla_dom_bluetooth_ObexBase_h
 #
 define
-mozilla_dom_bluetooth_obexbase_h__
+mozilla_dom_bluetooth_ObexBase_h
 #
 include
 "

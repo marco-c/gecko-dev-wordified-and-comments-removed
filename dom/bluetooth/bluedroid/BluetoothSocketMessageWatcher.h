@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_dom_bluetooth_bluedroid_BluetoothSocketMessageWatcher_h
+#
+define
+mozilla_dom_bluetooth_bluedroid_BluetoothSocketMessageWatcher_h
+#
 include
 "
 base
@@ -328,3 +334,5 @@ mRes
 }
 ;
 END_BLUETOOTH_NAMESPACE
+#
+endif

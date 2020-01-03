@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothhidmanager_h__
+mozilla_dom_bluetooth_BluetoothHidManager_h
 #
 define
-mozilla_dom_bluetooth_bluetoothhidmanager_h__
+mozilla_dom_bluetooth_BluetoothHidManager_h
 #
 include
 "

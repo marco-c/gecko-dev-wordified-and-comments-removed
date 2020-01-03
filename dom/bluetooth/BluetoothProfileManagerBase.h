@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothprofilemanagerbase_h__
+mozilla_dom_bluetooth_BluetoothProfileManagerBase_h
 #
 define
-mozilla_dom_bluetooth_bluetoothprofilemanagerbase_h__
+mozilla_dom_bluetooth_BluetoothProfileManagerBase_h
 #
 define
 ERR_ALREADY_CONNECTED

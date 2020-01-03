@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothreplyrunnable_h__
+mozilla_dom_bluetooth_BluetoothReplyRunnable_h
 #
 define
-mozilla_dom_bluetooth_bluetoothreplyrunnable_h__
+mozilla_dom_bluetooth_BluetoothReplyRunnable_h
 #
 include
 "

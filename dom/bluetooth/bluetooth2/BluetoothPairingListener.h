@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothpairinglistener_h
+mozilla_dom_bluetooth_BluetoothPairingListener_h
 #
 define
-mozilla_dom_bluetooth_bluetoothpairinglistener_h
+mozilla_dom_bluetooth_BluetoothPairingListener_h
 #
 include
 "

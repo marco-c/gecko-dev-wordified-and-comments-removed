@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_bluetooth_bluetootheventservice_h__
+mozilla_dom_bluetooth_BluetoothService_h
 #
 define
-mozilla_dom_bluetooth_bluetootheventservice_h__
+mozilla_dom_bluetooth_BluetoothService_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothrillistener_h__
+mozilla_dom_bluetooth_BluetoothRilListener_h
 #
 define
-mozilla_dom_bluetooth_bluetoothrillistener_h__
+mozilla_dom_bluetooth_BluetoothRilListener_h
 #
 include
 "

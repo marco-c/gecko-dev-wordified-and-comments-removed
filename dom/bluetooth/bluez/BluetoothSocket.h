@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_bluetooth_BluetoothSocket_h
+mozilla_dom_bluetooth_bluez_BluetoothSocket_h
 #
 define
-mozilla_dom_bluetooth_BluetoothSocket_h
+mozilla_dom_bluetooth_bluez_BluetoothSocket_h
 #
 include
 "

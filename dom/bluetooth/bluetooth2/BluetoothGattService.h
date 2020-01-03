@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothgattservice_h__
+mozilla_dom_bluetooth_BluetoothGattService_h
 #
 define
-mozilla_dom_bluetooth_bluetoothgattservice_h__
+mozilla_dom_bluetooth_BluetoothGattService_h
 #
 include
 "

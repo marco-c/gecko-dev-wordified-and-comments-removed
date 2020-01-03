@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_bluetooth_bluetoothgattcharacteristic_h__
+mozilla_dom_bluetooth_BluetoothGattCharacteristic_h
 #
 define
-mozilla_dom_bluetooth_bluetoothgattcharacteristic_h__
+mozilla_dom_bluetooth_BluetoothGattCharacteristic_h
 #
 include
 "
