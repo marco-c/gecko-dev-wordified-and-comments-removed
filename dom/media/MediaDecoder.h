@@ -2141,9 +2141,6 @@ MediaDecoderOwner
 :
 NextFrameStatus
 >
-:
-:
-Holder
 mNextFrameStatus
 ;
 int64_t

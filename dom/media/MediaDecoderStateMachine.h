@@ -1952,9 +1952,6 @@ MediaDecoder
 :
 PlayState
 >
-:
-:
-Holder
 mPlayState
 ;
 Mirror
@@ -1964,9 +1961,6 @@ MediaDecoder
 :
 PlayState
 >
-:
-:
-Holder
 mNextPlayState
 ;
 bool
