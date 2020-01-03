@@ -2518,6 +2518,13 @@ setEnabled
 true
 )
 ;
+mPopupMenu
+.
+setAnchor
+(
+mMenuButton
+)
+;
 }
 else
 {
