@@ -208,11 +208,6 @@ nsIProtectedAuthThread
 idl
 '
 '
-nsISSLErrorListener
-.
-idl
-'
-'
 nsISSLStatus
 .
 idl
