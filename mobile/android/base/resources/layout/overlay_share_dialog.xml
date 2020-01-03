@@ -671,6 +671,8 @@ style
 ShareOverlayButton
 .
 Text
+.
+Container
 "
 android
 :
@@ -758,6 +760,8 @@ style
 ShareOverlayButton
 .
 Text
+.
+Container
 "
 android
 :
