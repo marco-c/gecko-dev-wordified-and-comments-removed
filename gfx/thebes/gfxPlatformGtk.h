@@ -410,6 +410,7 @@ bool
 SupportsApzWheelInput
 (
 )
+const
 override
 {
 return

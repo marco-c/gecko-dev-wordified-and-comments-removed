@@ -862,6 +862,7 @@ bool
 SupportsApzWheelInput
 (
 )
+const
 override
 {
 return
@@ -872,6 +873,7 @@ bool
 SupportsApzTouchInput
 (
 )
+const
 override
 ;
 virtual

@@ -1817,6 +1817,7 @@ bool
 SupportsApzWheelInput
 (
 )
+const
 {
 return
 false
@@ -1827,6 +1828,7 @@ bool
 SupportsApzTouchInput
 (
 )
+const
 {
 return
 false
