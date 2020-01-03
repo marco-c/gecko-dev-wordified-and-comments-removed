@@ -5845,7 +5845,7 @@ ObjectLiteral
 {
 resultObject
 =
-NewInitObject
+NewObjectOperationWithTemplate
 (
 cx
 templateObject

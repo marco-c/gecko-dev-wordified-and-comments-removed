@@ -564,6 +564,14 @@ objDefault
 ;
 if
 (
+!
+obj
+)
+return
+true
+;
+if
+(
 obj
 -
 >
