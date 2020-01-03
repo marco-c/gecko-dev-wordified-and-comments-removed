@@ -28,6 +28,7 @@ nsBaseScreen
 {
 public
 :
+explicit
 nsScreenCocoa
 (
 NSScreen

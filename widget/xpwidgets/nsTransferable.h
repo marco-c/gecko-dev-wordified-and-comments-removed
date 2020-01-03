@@ -48,6 +48,7 @@ nsDataObj
 struct
 DataStruct
 {
+explicit
 DataStruct
 (
 const

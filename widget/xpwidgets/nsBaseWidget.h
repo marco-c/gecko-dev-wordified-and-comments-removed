@@ -171,6 +171,7 @@ WidgetShutdownObserver
 }
 public
 :
+explicit
 WidgetShutdownObserver
 (
 nsBaseWidget
@@ -1316,6 +1317,7 @@ AutoUseBasicLayerManager
 {
 public
 :
+explicit
 AutoUseBasicLayerManager
 (
 nsBaseWidget

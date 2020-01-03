@@ -1832,6 +1832,7 @@ RectTextureImage
 {
 public
 :
+explicit
 RectTextureImage
 (
 GLContext
@@ -2183,6 +2184,7 @@ context
 nullptr
 ;
 }
+explicit
 GLPresenter
 (
 GLContext
@@ -2401,6 +2403,7 @@ nsRunnable
 {
 public
 :
+explicit
 RequestContentRepaintEvent
 (
 const

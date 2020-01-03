@@ -179,6 +179,7 @@ mAppShell
 ;
 public
 :
+explicit
 ExitAppShellRunnable
 (
 nsIAppShell
@@ -257,6 +258,7 @@ mShouldHaveRun
 ;
 public
 :
+explicit
 CheckStableStateRunnable
 (
 bool
@@ -341,6 +343,7 @@ mAppShell
 ;
 public
 :
+explicit
 ScheduleStableStateRunnable
 (
 nsIAppShell
@@ -434,6 +437,7 @@ mAppShell
 ;
 public
 :
+explicit
 NextTestRunnable
 (
 nsIAppShell
@@ -462,6 +466,7 @@ ScheduleStableStateRunnable
 {
 public
 :
+explicit
 ScheduleNestedStableStateRunnable
 (
 nsIAppShell
@@ -647,6 +652,7 @@ EventListener
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 EventListener
 (
 nsIAppShell

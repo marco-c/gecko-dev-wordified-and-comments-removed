@@ -302,6 +302,7 @@ nsISimpleEnumerator
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 nsBaseFilePickerEnumerator
 (
 nsISimpleEnumerator

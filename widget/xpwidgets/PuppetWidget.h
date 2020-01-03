@@ -136,6 +136,7 @@ kMaxDimension
 ;
 public
 :
+explicit
 PuppetWidget
 (
 TabChild
@@ -728,6 +729,7 @@ nsRunnable
 public
 :
 NS_DECL_NSIRUNNABLE
+explicit
 PaintTask
 (
 PuppetWidget
@@ -849,6 +851,7 @@ mRichTextCommands
 struct
 AutoCacheNativeKeyCommands
 {
+explicit
 AutoCacheNativeKeyCommands
 (
 PuppetWidget
@@ -1074,6 +1077,7 @@ nsBaseScreen
 {
 public
 :
+explicit
 PuppetScreen
 (
 void

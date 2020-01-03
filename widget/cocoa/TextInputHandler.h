@@ -145,6 +145,7 @@ Clear
 )
 ;
 }
+explicit
 TISInputSourceWrapper
 (
 const
@@ -163,6 +164,7 @@ aID
 )
 ;
 }
+explicit
 TISInputSourceWrapper
 (
 SInt32
@@ -179,6 +181,7 @@ aLayoutID
 )
 ;
 }
+explicit
 TISInputSourceWrapper
 (
 TISInputSourceRef
@@ -1005,6 +1008,7 @@ Clear
 )
 ;
 }
+explicit
 KeyEventState
 (
 NSEvent
@@ -1205,6 +1209,7 @@ AutoKeyEventStateCleaner
 {
 public
 :
+explicit
 AutoKeyEventStateCleaner
 (
 TextInputHandlerBase

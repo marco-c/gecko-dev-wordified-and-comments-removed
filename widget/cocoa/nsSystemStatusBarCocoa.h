@@ -58,6 +58,7 @@ nsSystemStatusBarCocoa
 struct
 StatusItem
 {
+explicit
 StatusItem
 (
 nsStandaloneNativeMenu
