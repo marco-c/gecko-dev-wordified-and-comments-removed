@@ -1637,13 +1637,6 @@ cpp
 '
 jit
 /
-LinearScan
-.
-cpp
-'
-'
-jit
-/
 LIR
 .
 cpp

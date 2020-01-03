@@ -1464,15 +1464,6 @@ if
 next
 -
 >
-isNop
-(
-)
-&
-&
-!
-next
--
->
 isOsiPoint
 (
 )

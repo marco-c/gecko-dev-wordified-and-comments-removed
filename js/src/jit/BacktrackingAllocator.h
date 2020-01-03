@@ -338,9 +338,16 @@ private
 LiveRangeAllocator
 <
 BacktrackingVirtualRegister
-false
 >
 {
+friend
+class
+C1Spewer
+;
+friend
+class
+JSONSpewer
+;
 struct
 QueueItem
 {
@@ -663,7 +670,6 @@ graph
 LiveRangeAllocator
 <
 BacktrackingVirtualRegister
-false
 >
 (
 mir

@@ -31,7 +31,7 @@ include
 "
 jit
 /
-LinearScan
+BacktrackingAllocator
 .
 h
 "
@@ -377,7 +377,7 @@ const
 char
 *
 pass
-LinearScanAllocator
+BacktrackingAllocator
 *
 regalloc
 )
@@ -643,7 +643,7 @@ spewIntervals
 FILE
 *
 fp
-LinearScanAllocator
+BacktrackingAllocator
 *
 regalloc
 LNode
@@ -945,7 +945,7 @@ fp
 MBasicBlock
 *
 block
-LinearScanAllocator
+BacktrackingAllocator
 *
 regalloc
 size_t

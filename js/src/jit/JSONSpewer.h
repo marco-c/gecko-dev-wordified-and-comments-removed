@@ -27,6 +27,9 @@ namespace
 jit
 {
 class
+BacktrackingAllocator
+;
+class
 MDefinition
 ;
 class
@@ -40,9 +43,6 @@ MIRGraph
 ;
 class
 MResumePoint
-;
-class
-LinearScanAllocator
 ;
 class
 LNode
@@ -256,7 +256,7 @@ mir
 void
 spewIntervals
 (
-LinearScanAllocator
+BacktrackingAllocator
 *
 regalloc
 )

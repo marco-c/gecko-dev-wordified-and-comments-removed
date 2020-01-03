@@ -19,15 +19,6 @@ include
 "
 jit
 /
-LinearScan
-.
-h
-"
-#
-include
-"
-jit
-/
 LIR
 .
 h
@@ -2117,7 +2108,7 @@ JSONSpewer
 :
 spewIntervals
 (
-LinearScanAllocator
+BacktrackingAllocator
 *
 regalloc
 )

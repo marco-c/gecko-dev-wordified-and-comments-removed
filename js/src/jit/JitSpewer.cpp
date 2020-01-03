@@ -443,7 +443,7 @@ const
 char
 *
 pass
-LinearScanAllocator
+BacktrackingAllocator
 *
 ra
 )
@@ -737,7 +737,7 @@ const
 char
 *
 pass
-LinearScanAllocator
+BacktrackingAllocator
 *
 ra
 )
