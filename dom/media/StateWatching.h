@@ -360,6 +360,8 @@ AbstractWatcher
 >
 mWatchers
 ;
+protected
+:
 const
 char
 *
