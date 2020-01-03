@@ -167,5 +167,7 @@ attribute
 DOMString
 groupId
 ;
+jsonifier
+;
 }
 ;
