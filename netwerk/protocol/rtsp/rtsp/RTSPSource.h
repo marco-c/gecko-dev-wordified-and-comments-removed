@@ -455,6 +455,17 @@ size_t
 trackIndex
 )
 ;
+bool
+isLiveStream
+(
+)
+;
+bool
+mDisconnectedToPauseLiveStream
+;
+bool
+mPlayOnConnected
+;
 nsMainThreadPtrHandle
 <
 nsIStreamingProtocolListener

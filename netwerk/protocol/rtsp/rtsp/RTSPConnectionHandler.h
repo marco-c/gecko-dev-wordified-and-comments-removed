@@ -1079,6 +1079,15 @@ pause
 (
 )
 {
+if
+(
+!
+mSeekable
+)
+{
+return
+;
+}
 AString
 request
 =

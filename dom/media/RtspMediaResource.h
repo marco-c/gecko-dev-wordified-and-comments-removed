@@ -106,7 +106,8 @@ IsRealTime
 MOZ_OVERRIDE
 {
 return
-mRealTime
+!
+mHasTimestamp
 ;
 }
 void
@@ -320,7 +321,7 @@ MOZ_OVERRIDE
 {
 if
 (
-mRealTime
+mIsLiveStream
 )
 {
 return
@@ -650,7 +651,10 @@ bool
 mIsConnected
 ;
 bool
-mRealTime
+mIsLiveStream
+;
+bool
+mHasTimestamp
 ;
 bool
 mIsSuspend
