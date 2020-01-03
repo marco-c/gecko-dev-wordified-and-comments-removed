@@ -346,6 +346,15 @@ BIN_SUFFIX
 )
 endif
 endif
+ifdef
+MOZ_DMD
+TEST_HARNESS_BINS
++
+=
+dmd
+.
+py
+endif
 #
 Components
 /
