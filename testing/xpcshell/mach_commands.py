@@ -1325,11 +1325,8 @@ remote_test_root
 )
 :
         
-from
-mozdevice
 import
-devicemanagerADB
-devicemanagerSUT
+mozdevice
         
 dm
 =
@@ -1350,9 +1347,9 @@ ip
                 
 dm
 =
-devicemanagerADB
+mozdevice
 .
-DeviceManagerADB
+DroidADB
 (
 ip
 port
@@ -1369,9 +1366,9 @@ else
                 
 dm
 =
-devicemanagerADB
+mozdevice
 .
-DeviceManagerADB
+DroidADB
 (
 packageName
 =
@@ -1390,9 +1387,9 @@ ip
                 
 dm
 =
-devicemanagerSUT
+mozdevice
 .
-DeviceManagerSUT
+DroidSUT
 (
 ip
 port
