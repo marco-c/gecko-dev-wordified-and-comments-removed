@@ -1737,7 +1737,7 @@ media
 .
 mediasource
 .
-youtubeonly
+whitelist
 "
 false
 )

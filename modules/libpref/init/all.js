@@ -3107,7 +3107,7 @@ media
 .
 mediasource
 .
-youtubeonly
+whitelist
 "
 true
 )
@@ -3121,7 +3121,7 @@ media
 .
 mediasource
 .
-youtubeonly
+whitelist
 "
 false
 )
