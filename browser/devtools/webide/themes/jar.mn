@@ -181,11 +181,15 @@ css
 )
 skin
 /
-devicepreferences
+config
+-
+view
 .
 css
 (
-devicepreferences
+config
+-
+view
 .
 css
 )
