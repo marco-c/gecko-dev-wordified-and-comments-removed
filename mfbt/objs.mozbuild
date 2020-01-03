@@ -97,6 +97,11 @@ mfbt_src_lcppsrcs
 =
 [
 '
+ChaosMode
+.
+cpp
+'
+'
 double
 -
 conversion
