@@ -3042,10 +3042,11 @@ isConstant
 )
 &
 &
+!
 ins
 -
 >
-skipBoundsCheck
+needsBoundsCheck
 (
 )
 )
@@ -3168,10 +3169,11 @@ isConstant
 )
 &
 &
+!
 ins
 -
 >
-skipBoundsCheck
+needsBoundsCheck
 (
 )
 )

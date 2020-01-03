@@ -10924,9 +10924,8 @@ minHeapLength
 ins
 -
 >
-setSkipBoundsCheck
+removeBoundsCheck
 (
-true
 )
 ;
 }
@@ -11017,9 +11016,8 @@ minHeapLength
 ins
 -
 >
-setSkipBoundsCheck
+removeBoundsCheck
 (
-true
 )
 ;
 }
