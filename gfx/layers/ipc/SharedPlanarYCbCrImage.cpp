@@ -518,6 +518,16 @@ ComputeMinBufferSize
 aSize
 )
 ;
+if
+(
+!
+size
+)
+{
+return
+nullptr
+;
+}
 mTextureClient
 =
 TextureClient
@@ -1068,7 +1078,8 @@ mData
 mPicSize
 ;
 return
-true
+!
+mBufferSize
 ;
 }
 }
