@@ -18,9 +18,14 @@ metadata
 :
 name
 :
+'
+[
+TC
+]
 Reftest
 Sanity
 OOP
+'
 description
 :
 Reftest
@@ -216,6 +221,8 @@ Sanity
 OOP
 groupSymbol
 :
+tc
+-
 Rs
 -
 oop

@@ -18,7 +18,12 @@ metadata
 :
 name
 :
+'
+[
+TC
+]
 XPCShell
+'
 description
 :
 XPCShell

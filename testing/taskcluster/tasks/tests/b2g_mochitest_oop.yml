@@ -18,8 +18,13 @@ metadata
 :
 name
 :
+'
+[
+TC
+]
 Mochitest
 OOP
+'
 description
 :
 Mochitest
@@ -199,6 +204,8 @@ Mochitest
 OOP
 groupSymbol
 :
+tc
+-
 M
 -
 oop

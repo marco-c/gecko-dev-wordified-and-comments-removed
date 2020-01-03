@@ -20,6 +20,15 @@ debug
 '
 task
 :
+extra
+:
+treeherder
+:
+collection
+:
+debug
+:
+true
 payload
 :
 env

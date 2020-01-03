@@ -18,11 +18,16 @@ metadata
 :
 name
 :
+'
+[
+TC
+]
 Gaia
 Python
 Integration
 Unit
 Tests
+'
 description
 :
 Gaia
@@ -278,6 +283,8 @@ Integration
 Tests
 groupSymbol
 :
+tc
+-
 Gip
 symbol
 :

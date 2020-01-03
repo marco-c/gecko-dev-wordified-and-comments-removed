@@ -18,9 +18,14 @@ metadata
 :
 name
 :
+'
+[
+TC
+]
 Marionette
 WebAPI
 Tests
+'
 description
 :
 Marionette

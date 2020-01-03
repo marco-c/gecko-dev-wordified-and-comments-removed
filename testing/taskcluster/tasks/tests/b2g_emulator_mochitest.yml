@@ -18,7 +18,12 @@ metadata
 :
 name
 :
+'
+[
+TC
+]
 Mochitest
+'
 description
 :
 Mochitest
@@ -230,6 +235,8 @@ groupName
 Mochitest
 groupSymbol
 :
+tc
+-
 M
 symbol
 :

@@ -558,7 +558,7 @@ GECKO_HEAD_REPOSITORY
 '
 {
 {
-repository_url
+url
 }
 }
 '

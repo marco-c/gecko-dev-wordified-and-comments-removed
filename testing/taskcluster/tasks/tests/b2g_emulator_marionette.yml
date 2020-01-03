@@ -18,10 +18,15 @@ metadata
 :
 name
 :
+'
+[
+TC
+]
 Marionette
 Framework
 Unit
 Tests
+'
 description
 :
 Marionette

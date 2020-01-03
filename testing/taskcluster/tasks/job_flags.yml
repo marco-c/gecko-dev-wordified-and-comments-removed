@@ -848,7 +848,7 @@ b2g_gaia_js_integration_tests
 yml
 chunks
 :
-4
+10
 tasks
 /
 builds
@@ -868,7 +868,7 @@ b2g_gaia_js_integration_tests
 yml
 chunks
 :
-4
+10
 gaia
 -
 linter

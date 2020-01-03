@@ -18,7 +18,12 @@ metadata
 :
 name
 :
+'
+[
+TC
+]
 Reftest
+'
 description
 :
 Reftest
@@ -215,6 +220,8 @@ groupName
 Reftest
 groupSymbol
 :
+tc
+-
 R
 symbol
 :

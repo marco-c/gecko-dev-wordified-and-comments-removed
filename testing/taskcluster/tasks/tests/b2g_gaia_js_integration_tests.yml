@@ -18,10 +18,15 @@ metadata
 :
 name
 :
+'
+[
+TC
+]
 Gaia
 JS
 Integration
 Test
+'
 description
 :
 Gaia
@@ -256,6 +261,8 @@ Integration
 Test
 groupSymbol
 :
+tc
+-
 Gij
 symbol
 :
