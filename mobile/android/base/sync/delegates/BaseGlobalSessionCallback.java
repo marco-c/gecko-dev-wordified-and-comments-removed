@@ -70,6 +70,13 @@ session
 )
 ;
 void
+informMigrated
+(
+GlobalSession
+session
+)
+;
+void
 handleAborted
 (
 GlobalSession

@@ -12743,6 +12743,13 @@ java
 '
 sync
 /
+MigrationSentinelSyncStage
+.
+java
+'
+'
+sync
+/
 net
 /
 AuthHeaderProvider
