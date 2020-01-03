@@ -6220,6 +6220,7 @@ mPreviousSibling
 ;
 nsIContent
 *
+MOZ_NON_OWNING_REF
 mFirstChild
 ;
 union
