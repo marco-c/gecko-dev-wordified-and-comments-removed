@@ -4413,11 +4413,6 @@ symbolic
 )
 CSS_KEY
 (
-symbols
-symbols
-)
-CSS_KEY
-(
 text
 -
 after

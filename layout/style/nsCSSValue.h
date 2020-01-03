@@ -841,12 +841,9 @@ eCSSUnit_Cubic_Bezier
 eCSSUnit_Steps
 =
 24
-eCSSUnit_Symbols
-=
-25
 eCSSUnit_Function
 =
-26
+25
 eCSSUnit_Calc
 =
 30
