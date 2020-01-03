@@ -308,6 +308,13 @@ gettingStarted
 seen
 "
 :
+case
+"
+screenshare
+.
+enabled
+"
+:
 return
 true
 ;

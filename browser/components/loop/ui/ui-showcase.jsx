@@ -4260,6 +4260,13 @@ dispatcher
 {
 dispatcher
 }
+mozLoop
+=
+{
+navigator
+.
+mozLoop
+}
 roomState
 =
 {
@@ -4329,6 +4336,13 @@ dispatcher
 =
 {
 dispatcher
+}
+mozLoop
+=
+{
+navigator
+.
+mozLoop
 }
 roomState
 =
