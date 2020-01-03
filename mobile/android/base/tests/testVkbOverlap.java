@@ -193,12 +193,6 @@ getGeckoTop
 ;
 meh
 .
-disableGeckoLongpress
-(
-)
-;
-meh
-.
 dragSync
 (
 10

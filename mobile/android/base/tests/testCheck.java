@@ -150,12 +150,6 @@ startCheckerboardRecording
 (
 )
 ;
-meh
-.
-disableGeckoLongpress
-(
-)
-;
 for
 (
 int
