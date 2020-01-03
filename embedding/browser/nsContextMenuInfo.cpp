@@ -281,6 +281,7 @@ if
 (
 content
 )
+{
 content
 -
 >
@@ -289,6 +290,7 @@ GetLocalName
 localName
 )
 ;
+}
 nsCOMPtr
 <
 nsIDOMElement
@@ -375,6 +377,7 @@ if
 (
 anchor
 )
+{
 anchor
 -
 >
@@ -383,6 +386,7 @@ GetHref
 aHRef
 )
 ;
+}
 else
 {
 nsCOMPtr
@@ -401,6 +405,7 @@ if
 (
 area
 )
+{
 area
 -
 >
@@ -409,6 +414,7 @@ GetHref
 aHRef
 )
 ;
+}
 else
 {
 nsCOMPtr
@@ -427,6 +433,7 @@ if
 (
 link
 )
+{
 link
 -
 >
@@ -435,6 +442,7 @@ GetHref
 aHRef
 )
 ;
+}
 }
 }
 }
@@ -475,8 +483,10 @@ if
 !
 content
 )
+{
 break
 ;
+}
 content
 -
 >
@@ -545,6 +555,7 @@ if
 (
 anchor
 )
+{
 anchor
 -
 >
@@ -554,11 +565,14 @@ aHRef
 )
 ;
 }
+}
 else
+{
 linkContent
 =
 nullptr
 ;
+}
 break
 ;
 }
@@ -628,6 +642,7 @@ if
 (
 request
 )
+{
 return
 request
 -
@@ -637,6 +652,7 @@ GetImage
 aImageContainer
 )
 ;
+}
 return
 NS_ERROR_FAILURE
 ;
@@ -732,6 +748,7 @@ if
 (
 request
 )
+{
 return
 request
 -
@@ -741,6 +758,7 @@ GetImage
 aImageContainer
 )
 ;
+}
 return
 NS_ERROR_FAILURE
 ;
@@ -786,6 +804,7 @@ if
 (
 request
 )
+{
 return
 request
 -
@@ -795,6 +814,7 @@ GetURI
 aURI
 )
 ;
+}
 return
 NS_ERROR_FAILURE
 ;
@@ -997,9 +1017,11 @@ rv
 *
 aRequest
 )
+{
 return
 NS_OK
 ;
+}
 nsCOMPtr
 <
 nsIDOMDocument
@@ -1215,8 +1237,10 @@ if
 !
 domElement
 )
+{
 break
 ;
+}
 nsCOMPtr
 <
 nsIDOMCSSStyleDeclaration
@@ -1428,9 +1452,11 @@ transparent
 "
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 }
 }
 domNode

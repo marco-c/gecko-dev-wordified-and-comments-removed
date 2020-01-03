@@ -144,9 +144,11 @@ if
 (
 mOutputStream
 )
+{
 return
 NS_ERROR_IN_PROGRESS
 ;
+}
 nsCOMPtr
 <
 nsIAsyncInputStream
@@ -184,9 +186,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 nsCOMPtr
 <
 nsIDocShell
@@ -221,9 +225,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 mOutputStream
 =
 outputStream
@@ -287,9 +293,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 NS_ASSERTION
 (
 bytesWritten

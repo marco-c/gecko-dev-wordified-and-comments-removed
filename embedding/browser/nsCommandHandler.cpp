@@ -79,10 +79,8 @@ nullptr
 ;
 if
 (
+!
 mWindow
-=
-=
-nullptr
 )
 {
 return
@@ -289,10 +287,8 @@ aWindow
 {
 if
 (
+!
 aWindow
-=
-=
-nullptr
 )
 {
 return
