@@ -235,6 +235,7 @@ defined
 (
 ENABLE_WMF
 )
+else
 if
 (
 !
