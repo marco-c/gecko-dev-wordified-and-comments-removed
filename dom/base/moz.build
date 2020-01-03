@@ -799,14 +799,6 @@ network
 .
 .
 /
-src
-/
-storage
-'
-'
-.
-.
-/
 time
 '
 '
@@ -854,6 +846,12 @@ src
 dom
 /
 geolocation
+'
+'
+/
+dom
+/
+storage
 '
 '
 /

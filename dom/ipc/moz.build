@@ -547,14 +547,6 @@ LOCAL_INCLUDES
 =
 [
 '
-.
-.
-/
-src
-/
-storage
-'
-'
 /
 chrome
 '
@@ -651,6 +643,12 @@ dom
 mobilemessage
 /
 ipc
+'
+'
+/
+dom
+/
+storage
 '
 '
 /
