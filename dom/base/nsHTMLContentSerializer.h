@@ -117,8 +117,9 @@ MOZ_OVERRIDE
 ;
 protected
 :
+NS_WARN_UNUSED_RESULT
 virtual
-void
+bool
 SerializeHTMLAttributes
 (
 nsIContent
@@ -144,8 +145,9 @@ nsAString
 aStr
 )
 ;
+NS_WARN_UNUSED_RESULT
 virtual
-void
+bool
 AppendAndTranslateEntities
 (
 const
