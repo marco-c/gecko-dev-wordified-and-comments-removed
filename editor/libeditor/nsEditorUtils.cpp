@@ -108,10 +108,10 @@ nsISimpleEnumerator
 h
 "
 class
-nsIDOMRange
+nsISupports
 ;
 class
-nsISupports
+nsRange
 ;
 using
 namespace
@@ -310,7 +310,7 @@ nsDOMIterator
 :
 Init
 (
-nsIDOMRange
+nsRange
 *
 aRange
 )
@@ -537,7 +537,7 @@ nsDOMSubtreeIterator
 :
 Init
 (
-nsIDOMRange
+nsRange
 *
 aRange
 )

@@ -56,7 +56,7 @@ class
 nsIDOMDocument
 ;
 class
-nsIDOMRange
+nsRange
 ;
 template
 <
@@ -500,7 +500,7 @@ nsDOMIterator
 nsresult
 Init
 (
-nsIDOMRange
+nsRange
 *
 aRange
 )
@@ -560,7 +560,7 @@ nsDOMSubtreeIterator
 nsresult
 Init
 (
-nsIDOMRange
+nsRange
 *
 aRange
 )

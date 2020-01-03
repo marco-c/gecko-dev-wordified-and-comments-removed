@@ -454,13 +454,6 @@ h
 #
 include
 "
-nsIDOMRange
-.
-h
-"
-#
-include
-"
 nsIDOMText
 .
 h
@@ -18160,7 +18153,7 @@ nsIDOMNode
 aEndParent
 int32_t
 aEndOffset
-nsIDOMRange
+nsRange
 *
 *
 aRange
@@ -18254,9 +18247,9 @@ aNode
 parentNode
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMRange
+nsRange
 >
 range
 ;

@@ -202,13 +202,6 @@ h
 #
 include
 "
-nsIDOMRange
-.
-h
-"
-#
-include
-"
 nsIEditor
 .
 h
@@ -245,6 +238,13 @@ h
 include
 "
 nsLiteralString
+.
+h
+"
+#
+include
+"
+nsRange
 .
 h
 "
@@ -2828,7 +2828,7 @@ nsHTMLEditor
 :
 SplitStyleAboveRange
 (
-nsIDOMRange
+nsRange
 *
 inRange
 nsIAtom
@@ -4626,7 +4626,7 @@ nsHTMLEditor
 :
 PromoteRangeIfStartsOrEndsInNamedAnchor
 (
-nsIDOMRange
+nsRange
 *
 inRange
 )
@@ -4922,7 +4922,7 @@ nsHTMLEditor
 :
 PromoteInlineRange
 (
-nsIDOMRange
+nsRange
 *
 inRange
 )

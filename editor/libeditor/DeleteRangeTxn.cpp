@@ -111,9 +111,6 @@ nsAString
 .
 h
 "
-class
-nsIDOMRange
-;
 using
 namespace
 mozilla
