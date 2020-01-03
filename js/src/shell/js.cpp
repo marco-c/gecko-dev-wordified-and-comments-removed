@@ -11892,6 +11892,11 @@ finally
 iter
 "
 "
+for
+-
+of
+"
+"
 loop
 "
 }
