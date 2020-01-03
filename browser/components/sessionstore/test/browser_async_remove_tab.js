@@ -814,10 +814,12 @@ remote
 "
 )
 ;
-browser
+yield
+BrowserTestUtils
 .
 loadURI
 (
+browser
 "
 about
 :

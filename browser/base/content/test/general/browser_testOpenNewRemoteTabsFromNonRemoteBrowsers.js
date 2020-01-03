@@ -119,7 +119,9 @@ NON_REMOTE_PAGE
 )
 ;
 return
-waitForDocLoadComplete
+BrowserTestUtils
+.
+browserLoaded
 (
 browser
 )

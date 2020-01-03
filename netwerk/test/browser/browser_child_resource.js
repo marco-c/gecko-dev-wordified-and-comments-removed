@@ -907,13 +907,11 @@ reload
 )
 ;
 yield
-waitForEvent
+BrowserTestUtils
+.
+browserLoaded
 (
 browser
-"
-load
-"
-true
 )
 ;
 is
