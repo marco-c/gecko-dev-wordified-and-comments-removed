@@ -61,7 +61,9 @@ MOZ_STACKWALKING
 #
 include
 "
-nsStackWalk
+mozilla
+/
+StackWalk
 .
 h
 "
@@ -177,7 +179,7 @@ ostringstream
 aClosure
 )
 ;
-nsCodeAddressDetails
+MozCodeAddressDetails
 details
 ;
 char
@@ -186,14 +188,14 @@ buf
 1024
 ]
 ;
-NS_DescribeCodeAddress
+MozDescribeCodeAddress
 (
 aPC
 &
 details
 )
 ;
-NS_FormatCodeAddressDetails
+MozFormatCodeAddressDetails
 (
 buf
 sizeof
@@ -331,7 +333,7 @@ Trace
 :
 "
 ;
-NS_StackWalk
+MozStackWalk
 (
 StackFrameToOStringStream
 aFramesToSkip

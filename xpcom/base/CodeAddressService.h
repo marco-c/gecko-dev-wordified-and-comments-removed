@@ -52,7 +52,9 @@ h
 #
 include
 "
-nsStackWalk
+mozilla
+/
+StackWalk
 .
 h
 "
@@ -423,7 +425,7 @@ mNumCacheMisses
 +
 +
 ;
-nsCodeAddressDetails
+MozCodeAddressDetails
 details
 ;
 {
@@ -437,7 +439,7 @@ Unlock
 (
 void
 )
-NS_DescribeCodeAddress
+MozDescribeCodeAddress
 (
 const_cast
 <
@@ -511,7 +513,7 @@ mPc
 aPc
 )
 ;
-NS_FormatCodeAddress
+MozFormatCodeAddress
 (
 aBuf
 aBufLen

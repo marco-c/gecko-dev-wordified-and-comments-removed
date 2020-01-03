@@ -152,11 +152,11 @@ cpp
 .
 .
 /
-xpcom
+mozglue
 /
-base
+misc
 /
-nsStackWalk
+StackWalk
 .
 cpp
 '

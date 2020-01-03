@@ -44,7 +44,9 @@ h
 #
 include
 "
-nsStackWalk
+mozilla
+/
+StackWalk
 .
 h
 "
@@ -243,7 +245,7 @@ Clear
 (
 )
 ;
-NS_StackWalk
+MozStackWalk
 (
 StackWalkCallback
 kSkipFrames
