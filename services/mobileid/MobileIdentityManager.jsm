@@ -1239,10 +1239,12 @@ this
 _iccInfo
 ;
 #
-endif
+else
 return
 null
 ;
+#
+endif
 }
 get
 iccIds
@@ -1329,10 +1331,12 @@ this
 _iccIds
 ;
 #
-endif
+else
 return
 null
 ;
+#
+endif
 }
 get
 credStore
