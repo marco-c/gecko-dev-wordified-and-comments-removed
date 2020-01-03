@@ -417,7 +417,7 @@ int64_t
 aEnd
 )
 ;
-private
+protected
 :
 virtual
 ~
@@ -425,6 +425,8 @@ MockMediaResource
 (
 )
 ;
+private
+:
 FILE
 *
 mFileHandle
