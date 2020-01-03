@@ -3934,6 +3934,7 @@ TimelineMarker
 *
 aOther
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -3979,6 +3980,7 @@ ProfileTimelineMarker
 &
 aMarker
 )
+MOZ_OVERRIDE
 {
 if
 (
