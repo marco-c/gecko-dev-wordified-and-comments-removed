@@ -1,16 +1,3 @@
-var
-func
-=
-new
-Function
-(
-"
-new
-.
-target
-"
-)
-;
 function
 assertNewTarget
 (

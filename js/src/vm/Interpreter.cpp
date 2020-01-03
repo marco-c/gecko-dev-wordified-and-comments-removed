@@ -1938,7 +1938,6 @@ pushExecuteFrame
 cx
 script_
 thisv_
-newTargetValue_
 scopeChain_
 type_
 evalInFrame_
@@ -4246,10 +4245,6 @@ const
 Value
 &
 thisv
-const
-Value
-&
-newTargetValue
 ExecuteType
 type
 AbstractFramePtr
@@ -4470,7 +4465,6 @@ state
 cx
 script
 thisv
-newTargetValue
 scopeChainArg
 type
 evalInFrame
@@ -4696,9 +4690,6 @@ script
 *
 scopeChain
 thisv
-NullValue
-(
-)
 EXECUTE_GLOBAL
 NullFramePtr
 (

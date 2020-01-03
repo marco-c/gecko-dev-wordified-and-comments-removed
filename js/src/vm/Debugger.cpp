@@ -33290,9 +33290,6 @@ script
 *
 env
 thisv
-NullValue
-(
-)
 type
 frame
 rval

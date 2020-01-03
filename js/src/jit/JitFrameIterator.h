@@ -2572,10 +2572,6 @@ nullptr
 nullptr
 nformal
 nactual
-+
-isConstructing
-(
-)
 it
 .
 script
@@ -2608,10 +2604,6 @@ nformal
 i
 <
 nactual
-+
-isConstructing
-(
-)
 ;
 i
 +
