@@ -378,6 +378,11 @@ ResolveStartTime
 (
 )
 ;
+void
+Cancel
+(
+)
+;
 const
 nsString
 &
@@ -535,6 +540,11 @@ const
 ;
 void
 PostUpdate
+(
+)
+;
+void
+CancelPendingPlay
 (
 )
 ;
