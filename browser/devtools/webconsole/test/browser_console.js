@@ -391,7 +391,7 @@ category
 CATEGORY_NETWORK
 severity
 :
-SEVERITY_LOG
+SEVERITY_INFO
 }
 ]
 }

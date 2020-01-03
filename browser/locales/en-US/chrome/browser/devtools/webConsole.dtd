@@ -826,6 +826,14 @@ Log
 <
 !
 ENTITY
+btnConsoleXhr
+"
+XHR
+"
+>
+<
+!
+ENTITY
 btnConsoleReflows
 "
 Reflows
