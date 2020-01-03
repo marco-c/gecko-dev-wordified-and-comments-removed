@@ -92,7 +92,7 @@ _MSC_VER
 _MSC_VER
 >
 =
-1700
+1800
 #
 if
 defined
