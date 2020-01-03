@@ -868,6 +868,10 @@ ChaosMode
 :
 isActive
 (
+ChaosMode
+:
+:
+TimerScheduling
 )
 )
 {
@@ -1155,6 +1159,10 @@ ChaosMode
 :
 isActive
 (
+ChaosMode
+:
+:
+TimerScheduling
 )
 )
 {

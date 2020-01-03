@@ -2918,6 +2918,10 @@ ChaosMode
 :
 isActive
 (
+ChaosMode
+:
+:
+HashTableIteration
 )
 )
 {
@@ -3490,6 +3494,10 @@ ChaosMode
 :
 isActive
 (
+ChaosMode
+:
+:
+HashTableIteration
 )
 )
 {

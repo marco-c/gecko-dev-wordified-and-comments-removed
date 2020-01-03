@@ -355,6 +355,10 @@ ChaosMode
 :
 isActive
 (
+ChaosMode
+:
+:
+ThreadScheduling
 )
 )
 {
