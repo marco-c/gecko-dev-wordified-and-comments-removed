@@ -5869,10 +5869,15 @@ i
 ;
 if
 (
+!
 parent
 -
 >
-HasAccessedStorage
+GetNodeId
+(
+)
+.
+IsEmpty
 (
 )
 )
