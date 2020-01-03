@@ -186,6 +186,13 @@ nsINfcService
 .
 idl
 '
+'
+gonk
+/
+nsINfcSystemMessage
+.
+idl
+'
 ]
 EXTRA_COMPONENTS
 +
