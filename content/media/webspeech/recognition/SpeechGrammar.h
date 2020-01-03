@@ -111,8 +111,10 @@ aCx
 MOZ_OVERRIDE
 ;
 static
+already_AddRefed
+<
 SpeechGrammar
-*
+>
 Constructor
 (
 const

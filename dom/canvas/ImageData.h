@@ -143,8 +143,10 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 ImageData
 )
 static
+already_AddRefed
+<
 ImageData
-*
+>
 Constructor
 (
 const
@@ -163,8 +165,10 @@ aRv
 )
 ;
 static
+already_AddRefed
+<
 ImageData
-*
+>
 Constructor
 (
 const
