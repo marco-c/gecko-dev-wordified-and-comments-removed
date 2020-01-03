@@ -856,6 +856,15 @@ DoInjection
 mSnapshot
 )
 ;
+mozilla
+:
+:
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 }
 void
 Cancel
