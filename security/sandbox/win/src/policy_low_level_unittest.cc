@@ -460,6 +460,7 @@ Done
 )
 )
 ;
+const
 wchar_t
 *
 filename
@@ -663,6 +664,7 @@ Done
 )
 )
 ;
+const
 wchar_t
 *
 filename
@@ -909,6 +911,7 @@ Done
 )
 )
 ;
+const
 wchar_t
 *
 filename
@@ -1117,6 +1120,7 @@ Done
 )
 )
 ;
+const
 wchar_t
 *
 filename
@@ -1382,6 +1386,7 @@ Done
 )
 )
 ;
+const
 wchar_t
 *
 filename
@@ -1715,6 +1720,7 @@ Done
 )
 )
 ;
+const
 wchar_t
 *
 filename
@@ -2203,6 +2209,7 @@ Done
 )
 )
 ;
+const
 wchar_t
 *
 filename
@@ -3399,6 +3406,7 @@ GetID
 )
 )
 ;
+const
 wchar_t
 *
 filename
@@ -4260,6 +4268,7 @@ Done
 )
 )
 ;
+const
 wchar_t
 *
 name

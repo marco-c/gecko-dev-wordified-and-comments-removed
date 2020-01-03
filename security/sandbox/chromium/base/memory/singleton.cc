@@ -56,7 +56,7 @@ value
 subtle
 :
 :
-NoBarrier_Load
+Acquire_Load
 (
 instance
 )

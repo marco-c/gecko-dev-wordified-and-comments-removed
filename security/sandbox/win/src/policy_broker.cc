@@ -419,6 +419,11 @@ INIT_GLOBAL_RTL
 wcslen
 )
 ;
+INIT_GLOBAL_RTL
+(
+memcpy
+)
+;
 #
 ifndef
 NDEBUG

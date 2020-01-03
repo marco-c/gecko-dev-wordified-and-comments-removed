@@ -104,6 +104,8 @@ FilePath
 &
 path
 bool
+is_absolute
+bool
 create
 )
 ;

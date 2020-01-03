@@ -321,6 +321,9 @@ string
 ;
 DEFINE_STRING_HASH
 (
+base
+:
+:
 string16
 )
 ;
@@ -468,6 +471,9 @@ hash64
 >
 >
 (
+8
+*
+(
 sizeof
 (
 uint64
@@ -479,6 +485,7 @@ std
 :
 :
 size_t
+)
 )
 )
 )
@@ -717,6 +724,9 @@ hash64
 >
 >
 (
+8
+*
+(
 sizeof
 (
 uint64
@@ -728,6 +738,7 @@ std
 :
 :
 size_t
+)
 )
 )
 )

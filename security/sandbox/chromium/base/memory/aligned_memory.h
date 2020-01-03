@@ -334,12 +334,9 @@ ptr
 #
 endif
 }
-class
-BASE_EXPORT
-ScopedPtrAlignedFree
+struct
+AlignedFreeDeleter
 {
-public
-:
 inline
 void
 operator

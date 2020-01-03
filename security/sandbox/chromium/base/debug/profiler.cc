@@ -79,6 +79,13 @@ defined
 (
 NO_TCMALLOC
 )
+&
+&
+!
+defined
+(
+OS_WIN
+)
 #
 include
 "
@@ -116,6 +123,13 @@ ENABLE_PROFILING
 defined
 (
 NO_TCMALLOC
+)
+&
+&
+!
+defined
+(
+OS_WIN
 )
 static
 int
