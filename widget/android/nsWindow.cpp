@@ -7134,10 +7134,15 @@ event
 .
 location
 =
-nsIDOMKeyboardEvent
+WidgetKeyboardEvent
 :
 :
-DOM_KEY_LOCATION_STANDARD
+ComputeLocationFromCodeValue
+(
+event
+.
+mCodeNameIndex
+)
 ;
 event
 .
