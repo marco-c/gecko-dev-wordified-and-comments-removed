@@ -788,15 +788,6 @@ aCallback
 let
 data
 =
-"
-{
-}
-"
-;
-try
-{
-data
-=
 Services
 .
 prefs
@@ -810,13 +801,6 @@ bootstrappedAddons
 "
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 data
 =
 JSON
@@ -981,8 +965,9 @@ length
 0
 )
 ;
-aCallback
+do_execute_soon
 (
+aCallback
 )
 ;
 }
@@ -1024,9 +1009,8 @@ exists
 )
 )
 ;
-do_check_bootstrappedPref
-(
 run_test_1
+(
 )
 ;
 }
@@ -5041,6 +5025,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 b1
@@ -5112,6 +5098,7 @@ run_test_16
 )
 ;
 }
+)
 )
 ;
 }
@@ -5552,7 +5539,7 @@ bootstraptest
 startup_reason
 "
 function
-test_16_after_startup
+test_18_after_startup
 (
 )
 {

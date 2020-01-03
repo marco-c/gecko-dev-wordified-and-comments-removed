@@ -87,6 +87,8 @@ AddonManager
 getAddonByID
 (
 ID
+callback_soon
+(
 function
 (
 addon
@@ -118,6 +120,8 @@ AddonManager
 getAddonByID
 (
 ID
+callback_soon
+(
 function
 (
 addon
@@ -152,8 +156,10 @@ do_test_finished
 ;
 }
 )
+)
 ;
 }
+)
 )
 ;
 }
