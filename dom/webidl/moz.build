@@ -3244,6 +3244,11 @@ WEBIDL_FILES
 =
 [
 '
+MozIsoDepTech
+.
+webidl
+'
+'
 MozNDEFRecord
 .
 webidl

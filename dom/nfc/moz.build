@@ -101,6 +101,11 @@ dom
 =
 [
 '
+MozIsoDepTech
+.
+h
+'
+'
 MozNDEFRecord
 .
 h
@@ -110,6 +115,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+MozIsoDepTech
+.
+cpp
+'
 '
 MozNDEFRecord
 .
