@@ -614,6 +614,11 @@ libcairo
 so
 leak
 :
+libdl
+.
+so
+leak
+:
 libdricore
 .
 so
