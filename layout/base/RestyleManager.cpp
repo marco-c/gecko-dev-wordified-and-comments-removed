@@ -612,7 +612,10 @@ ApplyRenderingChangeToTree
 ;
 NS_ASSERTION
 (
+nsChangeHint_size_t
+(
 aChange
+)
 =
 =
 (
