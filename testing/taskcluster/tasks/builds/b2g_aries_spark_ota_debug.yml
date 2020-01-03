@@ -17,6 +17,8 @@ build_name
 :
 '
 aries
+-
+ota
 '
 build_type
 :
