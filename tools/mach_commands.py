@@ -1798,7 +1798,7 @@ urllib
 URL
 =
 '
-http
+https
 :
 /
 /
