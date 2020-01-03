@@ -399,7 +399,13 @@ length
 }
 if
 (
+static_cast
+<
+uint64_t
+>
+(
 mOffset
+)
 <
 mFullLength
 )
