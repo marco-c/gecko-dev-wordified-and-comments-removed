@@ -4658,6 +4658,9 @@ this
 setState
 (
 {
+checked
+:
+false
 previewImage
 :
 previewImage
@@ -4900,6 +4903,15 @@ contextClasses
 >
 <
 Checkbox
+checked
+=
+{
+this
+.
+state
+.
+checked
+}
 label
 =
 {
