@@ -600,16 +600,6 @@ decrypt
 -
 v7
 "
-#
-define
-GMP_API_DECRYPTOR_COMPAT
-"
-eme
--
-decrypt
--
-v6
-"
 class
 GMPDecryptor
 {
