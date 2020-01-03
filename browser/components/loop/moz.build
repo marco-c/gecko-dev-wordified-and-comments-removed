@@ -197,6 +197,13 @@ jsm
 '
 modules
 /
+LoopRoomsCache
+.
+jsm
+'
+'
+modules
+/
 LoopStorage
 .
 jsm
