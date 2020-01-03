@@ -1528,6 +1528,14 @@ ins
 )
 ;
 void
+visitPolyInlineGuard
+(
+MPolyInlineGuard
+*
+ins
+)
+;
+void
 visitAssertRange
 (
 MAssertRange

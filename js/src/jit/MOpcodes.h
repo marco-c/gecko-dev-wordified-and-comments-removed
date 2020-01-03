@@ -474,6 +474,11 @@ GuardString
 \
 _
 (
+PolyInlineGuard
+)
+\
+_
+(
 AssertRange
 )
 \
