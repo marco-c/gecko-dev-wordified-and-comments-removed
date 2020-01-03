@@ -123,6 +123,13 @@ msg
 )
 #
 endif
+static
+const
+int64_t
+AUDIO_FUZZ_FRAMES
+=
+1
+;
 AudioSink
 :
 :
@@ -685,7 +692,7 @@ value
 (
 )
 >
-0
+AUDIO_FUZZ_FRAMES
 )
 {
 missingFrames
