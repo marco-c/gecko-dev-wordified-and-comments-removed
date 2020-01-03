@@ -18,9 +18,6 @@ fails
 -
 if
 (
-Android
-|
-|
 B2G
 )
 =
@@ -45,9 +42,6 @@ fails
 -
 if
 (
-Android
-|
-|
 B2G
 )
 =
@@ -110,9 +104,6 @@ fails
 -
 if
 (
-Android
-|
-|
 B2G
 )
 =
@@ -141,9 +132,6 @@ fails
 -
 if
 (
-Android
-|
-|
 B2G
 )
 =

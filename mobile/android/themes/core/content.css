@@ -626,7 +626,6 @@ width
 16px
 ;
 }
-select
 textarea
 button
 xul
@@ -864,6 +863,12 @@ width
 padding
 :
 1px
+;
+border
+-
+radius
+:
+form_border_radius
 ;
 }
 select
