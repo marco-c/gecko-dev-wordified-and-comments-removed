@@ -595,6 +595,26 @@ exe_name_unprefixed
 )
     
 def
+test_not_found_with_binary_specified
+(
+self
+)
+:
+        
+self
+.
+assertRaises
+(
+errors
+.
+LocalAppNotFoundError
+get_version
+self
+.
+binary
+)
+    
+def
 _write_ini_files
 (
 self
