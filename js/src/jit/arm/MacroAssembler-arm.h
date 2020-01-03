@@ -9551,6 +9551,15 @@ cc
 )
 ;
 void
+simulatorStop
+(
+const
+char
+*
+msg
+)
+;
+void
 compareDouble
 (
 FloatRegister
