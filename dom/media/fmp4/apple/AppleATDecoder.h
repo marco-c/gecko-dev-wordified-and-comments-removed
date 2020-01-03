@@ -25,15 +25,6 @@ include
 "
 mozilla
 /
-RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ReentrantMonitor
 .
 h
@@ -153,7 +144,7 @@ mFileStreamError
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 MediaTaskQueue
 >
