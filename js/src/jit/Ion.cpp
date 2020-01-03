@@ -3689,6 +3689,8 @@ recompileInfo
 uint32_t
 frameSlots
 uint32_t
+argumentSlots
+uint32_t
 frameSize
 size_t
 snapshotsListSize
@@ -4150,6 +4152,13 @@ script
 frameSlots_
 =
 frameSlots
+;
+script
+-
+>
+argumentSlots_
+=
+argumentSlots
 ;
 script
 -

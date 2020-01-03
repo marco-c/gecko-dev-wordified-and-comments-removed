@@ -315,6 +315,16 @@ Value
 rval
 )
 {
+AutoArrayRooter
+argvRoot
+(
+cx
+argc
++
+1
+argv
+)
+;
 RootedObject
 obj
 (
