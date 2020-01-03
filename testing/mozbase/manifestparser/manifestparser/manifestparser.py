@@ -2569,6 +2569,9 @@ defaults
 defaults_only
 =
 False
+parentmanifest
+=
+None
 )
 :
         
@@ -3041,6 +3044,9 @@ _read
 root
 include_file
 include_defaults
+parentmanifest
+=
+filename
 )
                 
 continue
@@ -3210,6 +3216,24 @@ relpath
 ]
 =
 _relpath
+            
+if
+parentmanifest
+is
+not
+None
+:
+                
+test
+[
+'
+ancestor
+-
+manifest
+'
+]
+=
+parentmanifest
             
 self
 .
@@ -4582,6 +4606,11 @@ manifest
 '
 '
 relpath
+'
+'
+ancestor
+-
+manifest
 '
 ]
             
