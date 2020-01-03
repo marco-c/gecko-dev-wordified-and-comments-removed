@@ -73,6 +73,8 @@ yahoo
 .
 com
 /
+yhs
+/
 search
 ?
 p
@@ -85,9 +87,15 @@ UTF
 -
 8
 &
-fr
+hspart
 =
-moz35
+mozilla
+&
+hsimp
+=
+yhs
+-
+001
 "
 ;
 let
