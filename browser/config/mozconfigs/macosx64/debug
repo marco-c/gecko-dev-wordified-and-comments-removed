@@ -29,6 +29,14 @@ signmar
 ac_add_options
 -
 -
+enable
+-
+verify
+-
+mar
+ac_add_options
+-
+-
 with
 -
 google

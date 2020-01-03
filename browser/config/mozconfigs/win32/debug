@@ -66,6 +66,14 @@ ac_add_options
 -
 enable
 -
+verify
+-
+mar
+ac_add_options
+-
+-
+enable
+-
 require
 -
 all

@@ -38,6 +38,14 @@ enable
 official
 -
 branding
+ac_add_options
+-
+-
+enable
+-
+verify
+-
+mar
 .
 "
 topsrcdir

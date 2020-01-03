@@ -22,6 +22,14 @@ enable
 official
 -
 branding
+ac_add_options
+-
+-
+enable
+-
+verify
+-
+mar
 mk_add_options
 MOZ_PGO
 =
