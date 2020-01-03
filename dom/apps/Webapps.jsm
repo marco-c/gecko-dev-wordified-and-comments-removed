@@ -20658,6 +20658,12 @@ pending
 ;
 if
 (
+!
+aOldApp
+.
+downloadAvailable
+&
+&
 aOldApp
 .
 staged
