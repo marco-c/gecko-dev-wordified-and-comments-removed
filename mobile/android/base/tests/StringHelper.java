@@ -1674,6 +1674,17 @@ public
 static
 final
 String
+TAB_QUEUE_LABEL
+=
+"
+Open
+later
+"
+;
+public
+static
+final
+String
 TOOLS_LABEL
 =
 "

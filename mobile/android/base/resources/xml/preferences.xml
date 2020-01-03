@@ -236,6 +236,17 @@ string
 /
 pref_category_customize_summary
 "
+android
+:
+key
+=
+"
+android
+.
+not_a_preference
+.
+customize_screen
+"
 >
 <
 intent
