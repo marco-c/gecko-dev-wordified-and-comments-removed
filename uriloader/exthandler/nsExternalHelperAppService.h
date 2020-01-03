@@ -485,6 +485,14 @@ nsIRequest
 request
 )
 ;
+void
+MaybeApplyDecodingForExtension
+(
+nsIRequest
+*
+request
+)
+;
 protected
 :
 ~
