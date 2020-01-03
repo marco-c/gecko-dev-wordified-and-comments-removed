@@ -155,7 +155,7 @@ mp4_demuxer
 AudioDecoderConfig
 &
 aConfig
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aAudioTaskQueue
 MediaDataDecoderCallback

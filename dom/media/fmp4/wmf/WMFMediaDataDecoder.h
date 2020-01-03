@@ -135,7 +135,7 @@ WMFMediaDataDecoder
 MFTManager
 *
 aOutputSource
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aAudioTaskQueue
 MediaDataDecoderCallback
@@ -274,7 +274,7 @@ ProcessReleaseDecoder
 ;
 RefPtr
 <
-MediaTaskQueue
+FlushableMediaTaskQueue
 >
 mTaskQueue
 ;

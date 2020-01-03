@@ -752,7 +752,7 @@ return
 mLayersBackendType
 ;
 }
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 GetVideoTaskQueue
 (
@@ -928,7 +928,7 @@ mLayersBackendType
 ;
 nsRefPtr
 <
-MediaTaskQueue
+FlushableMediaTaskQueue
 >
 mVideoTaskQueue
 ;

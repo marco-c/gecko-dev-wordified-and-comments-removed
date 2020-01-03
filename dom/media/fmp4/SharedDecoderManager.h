@@ -72,7 +72,7 @@ layers
 ImageContainer
 *
 aImageContainer
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aVideoTaskQueue
 MediaDataDecoderCallback
@@ -143,7 +143,7 @@ mDecoder
 ;
 nsRefPtr
 <
-MediaTaskQueue
+FlushableMediaTaskQueue
 >
 mTaskQueue
 ;

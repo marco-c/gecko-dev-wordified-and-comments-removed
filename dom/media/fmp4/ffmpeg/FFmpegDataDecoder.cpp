@@ -78,7 +78,7 @@ LIBAV_VER
 :
 FFmpegDataDecoder
 (
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aTaskQueue
 AVCodecID

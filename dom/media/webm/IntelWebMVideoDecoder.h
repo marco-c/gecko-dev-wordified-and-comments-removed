@@ -256,7 +256,7 @@ mMediaDataDecoder
 ;
 nsRefPtr
 <
-MediaTaskQueue
+FlushableMediaTaskQueue
 >
 mTaskQueue
 ;

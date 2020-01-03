@@ -93,7 +93,7 @@ LIBAV_VER
 :
 FFmpegH264Decoder
 (
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback

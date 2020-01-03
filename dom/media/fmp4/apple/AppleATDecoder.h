@@ -49,7 +49,7 @@ namespace
 mozilla
 {
 class
-MediaTaskQueue
+FlushableMediaTaskQueue
 ;
 class
 MediaDataDecoderCallback
@@ -71,7 +71,7 @@ mp4_demuxer
 AudioDecoderConfig
 &
 aConfig
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aVideoTaskQueue
 MediaDataDecoderCallback
@@ -147,7 +147,7 @@ private
 :
 nsRefPtr
 <
-MediaTaskQueue
+FlushableMediaTaskQueue
 >
 mTaskQueue
 ;

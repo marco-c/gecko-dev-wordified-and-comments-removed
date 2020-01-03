@@ -405,9 +405,6 @@ bool
 aHasAudio
 bool
 aHasVideo
-MediaTaskQueue
-*
-aTaskQueue
 )
 {
 bool

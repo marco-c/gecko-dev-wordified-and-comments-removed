@@ -448,7 +448,7 @@ GonkMediaDataDecoder
 GonkDecoderManager
 *
 aManager
-MediaTaskQueue
+FlushableMediaTaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback

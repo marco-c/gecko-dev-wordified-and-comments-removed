@@ -1175,7 +1175,7 @@ InitLayersBackendType
 mVideoTaskQueue
 =
 new
-MediaTaskQueue
+FlushableMediaTaskQueue
 (
 SharedThreadPool
 :
