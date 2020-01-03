@@ -29,9 +29,6 @@ ipc
 class
 UnixSocketConnector
 ;
-union
-sockaddr_any
-;
 class
 ConnectionOrientedSocketIO
 :
@@ -53,12 +50,12 @@ Accept
 int
 aFd
 const
-union
-sockaddr_any
+struct
+sockaddr
 *
-aAddr
+aAddress
 socklen_t
-aAddrLen
+aAddressLength
 )
 =
 0
