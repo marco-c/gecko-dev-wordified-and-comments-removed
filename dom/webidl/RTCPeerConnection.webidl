@@ -895,6 +895,7 @@ RTCStatsReport
 >
 getStats
 (
+optional
 MediaStreamTrack
 ?
 selector
