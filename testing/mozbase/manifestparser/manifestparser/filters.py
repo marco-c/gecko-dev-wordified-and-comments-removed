@@ -1683,6 +1683,27 @@ runtime
 >
 }
     
+:
+param
+default_runtime
+:
+value
+in
+seconds
+to
+assign
+tests
+that
+don
+'
+t
+exist
+                            
+in
+the
+runtimes
+file
+    
 "
 "
 "
@@ -1694,6 +1715,9 @@ self
 this_chunk
 total_chunks
 runtimes
+default_runtime
+=
+0
 )
 :
         
@@ -1715,7 +1739,9 @@ runtimes
 =
 defaultdict
 (
-int
+lambda
+:
+default_runtime
 )
         
 self
