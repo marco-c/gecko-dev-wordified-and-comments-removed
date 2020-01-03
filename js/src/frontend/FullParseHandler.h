@@ -763,7 +763,8 @@ ParseNode
 *
 newRegExp
 (
-HandleObject
+RegExpObject
+*
 reobj
 const
 TokenPos

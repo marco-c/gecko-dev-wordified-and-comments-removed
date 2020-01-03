@@ -72,6 +72,9 @@ WrapperObject
 const
 {
 return
+js
+:
+:
 IsWrapper
 (
 const_cast
@@ -105,6 +108,9 @@ CrossCompartmentWrapperObject
 const
 {
 return
+js
+:
+:
 IsCrossCompartmentWrapper
 (
 const_cast

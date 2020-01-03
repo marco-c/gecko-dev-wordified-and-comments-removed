@@ -1957,7 +1957,9 @@ isInside
 obj
 -
 >
-slots
+fakeNativeSlots
+(
+)
 )
 |
 |
@@ -1973,7 +1975,9 @@ isInside
 obj
 -
 >
-elements
+fakeNativeElements
+(
+)
 )
 )
 {

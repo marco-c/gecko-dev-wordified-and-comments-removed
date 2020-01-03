@@ -43,7 +43,7 @@ class
 SavedFrame
 :
 public
-JSObject
+NativeObject
 {
 friend
 class

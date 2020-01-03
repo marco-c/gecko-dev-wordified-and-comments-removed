@@ -405,7 +405,7 @@ class
 PropertyIteratorObject
 :
 public
-JSObject
+NativeObject
 {
 public
 :

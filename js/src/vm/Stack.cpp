@@ -992,7 +992,7 @@ argv
 +
 nformal
 ;
-JSObject
+ArrayObject
 *
 obj
 =

@@ -15321,6 +15321,13 @@ GetProperty
 (
 cx
 proto
+.
+as
+<
+NativeObject
+>
+(
+)
 toUTCStringId
 &
 toUTCStringFun
@@ -15334,6 +15341,13 @@ DefineGeneric
 (
 cx
 proto
+.
+as
+<
+NativeObject
+>
+(
+)
 toGMTStringId
 toUTCStringFun
 JS_PropertyStub

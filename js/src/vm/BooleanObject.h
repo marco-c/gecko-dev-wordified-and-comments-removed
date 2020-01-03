@@ -14,7 +14,9 @@ h
 #
 include
 "
-jsobj
+vm
+/
+ObjectImpl
 .
 h
 "
@@ -25,7 +27,7 @@ class
 BooleanObject
 :
 public
-JSObject
+NativeObject
 {
 static
 const

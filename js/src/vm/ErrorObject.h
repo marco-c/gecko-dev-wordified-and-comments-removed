@@ -16,7 +16,9 @@ h
 #
 include
 "
-jsobj
+vm
+/
+ObjectImpl
 .
 h
 "
@@ -54,7 +56,7 @@ class
 ErrorObject
 :
 public
-JSObject
+NativeObject
 {
 static
 JSObject

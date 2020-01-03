@@ -1059,7 +1059,7 @@ codeFunction
 JS
 :
 :
-MutableHandleObject
+MutableHandleFunction
 objp
 )
 ;

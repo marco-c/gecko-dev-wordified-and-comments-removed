@@ -7,7 +7,9 @@ builtin_SymbolObject_h
 #
 include
 "
-jsobj
+vm
+/
+ObjectImpl
 .
 h
 "
@@ -27,7 +29,7 @@ class
 SymbolObject
 :
 public
-JSObject
+NativeObject
 {
 static
 const

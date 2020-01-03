@@ -5779,13 +5779,13 @@ ObjectBox
 {
 public
 :
-JSObject
+NativeObject
 *
 object
 ;
 ObjectBox
 (
-JSObject
+NativeObject
 *
 object
 ObjectBox

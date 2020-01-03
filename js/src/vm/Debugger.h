@@ -936,7 +936,7 @@ JSSLOT_DEBUG_COUNT
 ;
 private
 :
-HeapPtrObject
+HeapPtrNativeObject
 object
 ;
 GlobalObjectSet
@@ -1056,7 +1056,7 @@ typedef
 HashMap
 <
 AbstractFramePtr
-RelocatablePtrObject
+RelocatablePtrNativeObject
 DefaultHasher
 <
 AbstractFramePtr
@@ -2039,7 +2039,7 @@ Debugger
 JSContext
 *
 cx
-JSObject
+NativeObject
 *
 dbg
 )
@@ -2062,7 +2062,7 @@ const
 js
 :
 :
-HeapPtrObject
+HeapPtrNativeObject
 &
 toJSObject
 (
@@ -2073,7 +2073,7 @@ inline
 js
 :
 :
-HeapPtrObject
+HeapPtrNativeObject
 &
 toJSObjectRef
 (
@@ -2923,7 +2923,7 @@ const
 js
 :
 :
-HeapPtrObject
+HeapPtrNativeObject
 &
 Debugger
 :
@@ -2945,7 +2945,7 @@ object
 js
 :
 :
-HeapPtrObject
+HeapPtrNativeObject
 &
 Debugger
 :

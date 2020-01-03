@@ -92,7 +92,7 @@ MOZ_ASSERT
 self
 -
 >
-nativeLookup
+lookup
 (
 cx
 NameToId

@@ -37,6 +37,17 @@ include
 "
 vm
 /
+ObjectImpl
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Shape
 -
 inl
@@ -79,7 +90,7 @@ MOZ_ASSERT
 obj
 -
 >
-nativeEmpty
+empty
 (
 )
 )
@@ -302,7 +313,7 @@ MOZ_ASSERT
 obj
 -
 >
-nativeLookupPure
+lookupPure
 (
 NameToId
 (
@@ -331,7 +342,7 @@ MOZ_ASSERT
 obj
 -
 >
-nativeLookupPure
+lookupPure
 (
 NameToId
 (
@@ -360,7 +371,7 @@ MOZ_ASSERT
 obj
 -
 >
-nativeLookupPure
+lookupPure
 (
 NameToId
 (
@@ -389,7 +400,7 @@ MOZ_ASSERT
 obj
 -
 >
-nativeLookupPure
+lookupPure
 (
 NameToId
 (
@@ -419,7 +430,7 @@ message
 obj
 -
 >
-nativeLookupPure
+lookupPure
 (
 NameToId
 (
@@ -550,7 +561,7 @@ message
 obj
 -
 >
-nativeSetSlotWithType
+setSlotWithType
 (
 cx
 messageShape

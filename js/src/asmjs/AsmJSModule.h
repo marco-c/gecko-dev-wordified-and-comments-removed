@@ -7002,7 +7002,7 @@ class
 AsmJSModuleObject
 :
 public
-JSObject
+NativeObject
 {
 static
 const

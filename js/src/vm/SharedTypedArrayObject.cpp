@@ -1791,7 +1791,7 @@ DefineGetter
 JSContext
 *
 cx
-HandleObject
+HandleNativeObject
 proto
 PropertyName
 *

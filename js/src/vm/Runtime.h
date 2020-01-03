@@ -1396,7 +1396,7 @@ MOZ_ASSERT
 obj
 -
 >
-hasDynamicSlots
+fakeNativeHasDynamicSlots
 (
 )
 &
@@ -1405,7 +1405,7 @@ hasDynamicSlots
 obj
 -
 >
-hasDynamicElements
+fakeNativeHasDynamicElements
 (
 )
 )
@@ -2876,7 +2876,10 @@ JitRuntime
 *
 jitRuntime_
 ;
-JSObject
+js
+:
+:
+NativeObject
 *
 selfHostingGlobal_
 ;

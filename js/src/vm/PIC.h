@@ -560,10 +560,10 @@ BaseChain
 {
 private
 :
-HeapPtrObject
+HeapPtrNativeObject
 arrayProto_
 ;
-HeapPtrObject
+HeapPtrNativeObject
 arrayIteratorProto_
 ;
 HeapPtrShape
@@ -671,7 +671,7 @@ tryOptimizeArray
 JSContext
 *
 cx
-HandleObject
+HandleArrayObject
 array
 bool
 *
@@ -773,7 +773,7 @@ Class
 jsclass
 ;
 static
-JSObject
+NativeObject
 *
 createForOfPICObject
 (
@@ -794,7 +794,7 @@ Chain
 *
 fromJSObject
 (
-JSObject
+NativeObject
 *
 obj
 )
@@ -844,7 +844,7 @@ JSContext
 cx
 )
 {
-JSObject
+NativeObject
 *
 obj
 =

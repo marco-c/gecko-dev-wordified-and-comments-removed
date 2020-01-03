@@ -14964,7 +14964,7 @@ MInstruction
 ins
 bool
 definitelyExecuted
-HandleObject
+HandleNativeObject
 baseobj
 Vector
 <
@@ -15091,7 +15091,7 @@ if
 baseobj
 -
 >
-nativeLookup
+lookup
 (
 cx
 NameToId
@@ -15249,7 +15249,7 @@ MOZ_ASSERT
 baseobj
 -
 >
-nativeContainsPure
+containsPure
 (
 id
 )
@@ -15583,7 +15583,7 @@ if
 baseobj
 -
 >
-nativeLookup
+lookup
 (
 cx
 id
@@ -15729,7 +15729,7 @@ types
 TypeObject
 *
 type
-HandleObject
+HandleNativeObject
 baseobj
 Vector
 <

@@ -47,6 +47,9 @@ class
 GlobalObject
 ;
 class
+RegExpStaticsObject
+;
+class
 RegExpStatics
 {
 VectorMatchPairs
@@ -101,7 +104,7 @@ clear
 ;
 }
 static
-JSObject
+RegExpStaticsObject
 *
 create
 (

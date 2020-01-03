@@ -2852,7 +2852,7 @@ Register
 tempReg1
 Register
 tempReg2
-JSObject
+NativeObject
 *
 templateObj
 )

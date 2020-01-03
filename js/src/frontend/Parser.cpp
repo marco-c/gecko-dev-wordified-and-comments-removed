@@ -2873,7 +2873,7 @@ ParseHandler
 :
 newObjectBox
 (
-JSObject
+NativeObject
 *
 obj
 )
@@ -14071,7 +14071,7 @@ shape
 =
 blockObj
 .
-nativeLookup
+lookup
 (
 ct
 -
@@ -33467,7 +33467,7 @@ if
 index
 =
 =
-JSObject
+NativeObject
 :
 :
 NELEMENTS_LIMIT

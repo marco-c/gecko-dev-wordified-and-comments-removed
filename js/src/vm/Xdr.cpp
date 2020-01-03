@@ -489,7 +489,7 @@ mode
 :
 codeFunction
 (
-MutableHandleObject
+MutableHandleFunction
 objp
 )
 {

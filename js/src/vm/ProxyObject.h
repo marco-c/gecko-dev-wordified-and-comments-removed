@@ -7,14 +7,16 @@ vm_ProxyObject_h
 #
 include
 "
-jsobj
+jsproxy
 .
 h
 "
 #
 include
 "
-jsproxy
+vm
+/
+ObjectImpl
 .
 h
 "
@@ -114,7 +116,7 @@ slotOfPrivate
 {
 return
 &
-getReservedSlotRef
+fakeNativeGetReservedSlotRef
 (
 PRIVATE_SLOT
 )
@@ -225,6 +227,9 @@ offsetOfHandler
 )
 {
 return
+NativeObject
+:
+:
 getFixedSlotOffset
 (
 HANDLER_SLOT
@@ -333,7 +338,7 @@ n
 ;
 return
 &
-getReservedSlotRef
+fakeNativeGetReservedSlotRef
 (
 EXTRA_SLOT
 +
@@ -371,7 +376,7 @@ getClass
 ;
 return
 &
-getReservedSlotRef
+fakeNativeGetReservedSlotRef
 (
 n
 )

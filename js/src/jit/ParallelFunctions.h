@@ -89,14 +89,14 @@ ForkJoinContext
 cx
 )
 ;
-JSObject
+ArrayObject
 *
 ExtendArrayPar
 (
 ForkJoinContext
 *
 cx
-JSObject
+ArrayObject
 *
 array
 uint32_t
@@ -470,7 +470,7 @@ Value
 rest
 HandleObject
 templateObj
-HandleObject
+HandleArrayObject
 res
 )
 ;

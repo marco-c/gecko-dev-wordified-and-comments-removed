@@ -1274,6 +1274,16 @@ PerfMeasurement
 obj
 -
 >
+as
+<
+js
+:
+:
+NativeObject
+>
+(
+)
+.
 getPrivate
 (
 )

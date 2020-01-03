@@ -1503,7 +1503,7 @@ GlobalObject
 )
 )
 ;
-RootedObject
+RootedNativeObject
 proto
 (
 cx

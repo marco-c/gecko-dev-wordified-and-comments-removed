@@ -18,7 +18,7 @@ class
 NumberObject
 :
 public
-JSObject
+NativeObject
 {
 static
 const

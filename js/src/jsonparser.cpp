@@ -70,7 +70,11 @@ h
 #
 include
 "
-jsobjinlines
+vm
+/
+ObjectImpl
+-
+inl
 .
 h
 "
@@ -3540,11 +3544,11 @@ length
 )
 )
 ;
-RootedObject
+RootedNativeObject
 obj
 (
 cx
-NewBuiltinClassInstance
+NewNativeBuiltinClassInstance
 (
 cx
 &
@@ -3767,7 +3771,7 @@ elements
 )
 )
 ;
-JSObject
+ArrayObject
 *
 obj
 =

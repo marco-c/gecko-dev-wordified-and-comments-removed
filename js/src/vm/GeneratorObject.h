@@ -18,7 +18,7 @@ class
 LegacyGeneratorObject
 :
 public
-JSObject
+NativeObject
 {
 public
 :
@@ -52,7 +52,7 @@ class
 StarGeneratorObject
 :
 public
-JSObject
+NativeObject
 {
 public
 :

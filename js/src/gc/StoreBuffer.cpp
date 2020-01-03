@@ -147,7 +147,7 @@ initLen
 obj
 -
 >
-getDenseInitializedLength
+fakeNativeGetDenseInitializedLength
 (
 )
 ;
@@ -183,7 +183,7 @@ clampedStart
 obj
 -
 >
-getDenseElements
+fakeNativeGetDenseElements
 (
 )
 +
@@ -208,7 +208,7 @@ start_
 obj
 -
 >
-slotSpan
+fakeNativeSlotSpan
 (
 )
 )
@@ -227,7 +227,7 @@ count_
 obj
 -
 >
-slotSpan
+fakeNativeSlotSpan
 (
 )
 )

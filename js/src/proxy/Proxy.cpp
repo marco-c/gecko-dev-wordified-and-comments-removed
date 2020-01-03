@@ -5476,13 +5476,13 @@ setHandler
 handler
 )
 ;
-setCrossCompartmentSlot
+fakeNativeSetCrossCompartmentSlot
 (
 PRIVATE_SLOT
 priv
 )
 ;
-setSlot
+fakeNativeSetSlot
 (
 EXTRA_SLOT
 +
@@ -5492,7 +5492,7 @@ UndefinedValue
 )
 )
 ;
-setSlot
+fakeNativeSetSlot
 (
 EXTRA_SLOT
 +

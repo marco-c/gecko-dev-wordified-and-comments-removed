@@ -738,7 +738,7 @@ GlobalObject
 )
 )
 ;
-RootedObject
+RootedNativeObject
 booleanProto
 (
 cx

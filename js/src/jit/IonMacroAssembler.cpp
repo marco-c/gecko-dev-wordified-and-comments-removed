@@ -3305,7 +3305,7 @@ Register
 result
 Register
 temp
-JSObject
+NativeObject
 *
 templateObj
 gc
@@ -3392,7 +3392,7 @@ Register
 obj
 Register
 temp
-JSObject
+NativeObject
 *
 templateObj
 gc
@@ -3967,7 +3967,7 @@ Register
 tempReg1
 Register
 tempReg2
-JSObject
+NativeObject
 *
 templateObject
 Label
@@ -4115,7 +4115,7 @@ copySlotsFromTemplate
 Register
 obj
 const
-JSObject
+NativeObject
 *
 templateObj
 uint32_t
@@ -4165,7 +4165,7 @@ i
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset
@@ -4355,7 +4355,7 @@ static
 uint32_t
 FindStartOfUndefinedSlots
 (
-JSObject
+NativeObject
 *
 templateObj
 uint32_t
@@ -4445,7 +4445,7 @@ Register
 obj
 Register
 slots
-JSObject
+NativeObject
 *
 templateObj
 bool
@@ -4537,7 +4537,7 @@ fillSlotsWithUndefined
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 getFixedSlotOffset
@@ -4566,7 +4566,7 @@ loadPtr
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 offsetOfSlots
@@ -4605,7 +4605,7 @@ Register
 obj
 Register
 slots
-JSObject
+NativeObject
 *
 templateObj
 bool
@@ -4691,7 +4691,7 @@ slots
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 offsetOfSlots
@@ -4710,7 +4710,7 @@ nullptr
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 offsetOfSlots
@@ -4748,7 +4748,7 @@ getDenseElements
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 offsetOfElements
@@ -4791,7 +4791,7 @@ getDenseInitializedLength
 int
 elementsOffset
 =
-JSObject
+NativeObject
 :
 :
 offsetOfFixedElements
@@ -4814,7 +4814,7 @@ temp
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 offsetOfElements
@@ -4960,7 +4960,7 @@ emptyObjectElements
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 offsetOfElements
@@ -5011,7 +5011,7 @@ getPrivate
 Address
 (
 obj
-JSObject
+NativeObject
 :
 :
 getPrivateDataOffset

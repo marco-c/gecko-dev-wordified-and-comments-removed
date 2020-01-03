@@ -44,10 +44,10 @@ namespace
 js
 {
 class
-GCMarker
+NativeObject
 ;
 class
-ObjectImpl
+GCMarker
 ;
 namespace
 gc
@@ -495,7 +495,7 @@ reset
 void
 pushObject
 (
-ObjectImpl
+JSObject
 *
 obj
 )
@@ -1028,7 +1028,7 @@ isEmpty
 bool
 restoreValueArray
 (
-JSObject
+NativeObject
 *
 obj
 void
