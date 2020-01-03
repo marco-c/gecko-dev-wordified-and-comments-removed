@@ -10710,7 +10710,7 @@ parse
 aData
 )
 :
-null
+undefined
 )
 ;
 break
