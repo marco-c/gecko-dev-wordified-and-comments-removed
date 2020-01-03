@@ -2357,6 +2357,8 @@ extensions
             
 bzuser
 bzpass
+bzuserid
+bzcookie
 =
 c
 .
@@ -2365,11 +2367,21 @@ get_bugzilla_credentials
 )
             
 if
+(
 not
 bzuser
 or
 not
 bzpass
+)
+and
+(
+not
+bzuserid
+or
+not
+bzcookie
+)
 :
                 
 print
@@ -2380,6 +2392,9 @@ MISSING_BUGZILLA_CREDENTIALS
 if
 not
 bzuser
+and
+not
+bzuserid
 :
                 
 bzuser
