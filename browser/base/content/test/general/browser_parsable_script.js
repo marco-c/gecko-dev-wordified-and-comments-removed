@@ -435,7 +435,7 @@ return
 }
 requestLongerTimeout
 (
-20
+30
 )
 ;
 }
