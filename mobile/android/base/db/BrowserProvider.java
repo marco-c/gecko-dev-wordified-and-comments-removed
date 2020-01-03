@@ -8001,6 +8001,14 @@ getContext
 getContentResolver
 (
 )
+uri
+.
+getQueryParameter
+(
+BrowserContract
+.
+PARAM_PROFILE
+)
 )
 ;
 }
