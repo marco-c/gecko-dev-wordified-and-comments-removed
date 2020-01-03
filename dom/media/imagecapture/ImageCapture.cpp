@@ -391,7 +391,7 @@ PhotoComplete
 (
 already_AddRefed
 <
-File
+Blob
 >
 aBlob
 )
@@ -399,7 +399,7 @@ override
 {
 nsRefPtr
 <
-File
+Blob
 >
 blob
 =
