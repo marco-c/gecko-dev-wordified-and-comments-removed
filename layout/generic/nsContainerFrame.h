@@ -1088,6 +1088,11 @@ FramePropertyDescriptor
 aProp
 )
 ;
+bool
+ResolvedOrientationIsVertical
+(
+)
+;
 nsFrameList
 mFrames
 ;
