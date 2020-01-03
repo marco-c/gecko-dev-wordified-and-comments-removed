@@ -4102,6 +4102,17 @@ TypedArrayFindIndex
 JS_SELF_HOSTED_FN
 (
 "
+forEach
+"
+"
+TypedArrayForEach
+"
+2
+0
+)
+JS_SELF_HOSTED_FN
+(
+"
 indexOf
 "
 "
