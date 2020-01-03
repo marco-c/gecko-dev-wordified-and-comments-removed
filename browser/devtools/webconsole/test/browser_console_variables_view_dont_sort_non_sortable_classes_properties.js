@@ -341,6 +341,7 @@ buf
 }
 }
 function
+*
 testNotSorted
 (
 aObject
@@ -496,6 +497,7 @@ not
 ;
 }
 function
+*
 testSorted
 (
 aObject

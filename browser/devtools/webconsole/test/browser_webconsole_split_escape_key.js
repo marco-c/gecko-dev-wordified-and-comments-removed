@@ -626,6 +626,7 @@ editing
 ;
 }
 function
+*
 executeJS
 (
 )
@@ -755,6 +756,7 @@ result
 ;
 }
 function
+*
 startPropertyEditor
 (
 )

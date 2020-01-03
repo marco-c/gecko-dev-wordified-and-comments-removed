@@ -40,6 +40,7 @@ TEST_URI
 )
 ;
 function
+*
 autocomplete
 (
 term
