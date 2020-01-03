@@ -60,7 +60,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -74,7 +74,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -172,7 +172,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -337,7 +337,7 @@ Create
 JSContext
 *
 cx
-jsval
+Value
 path_
 const
 JSCTypesCallbacks
@@ -817,7 +817,7 @@ obj
 )
 )
 ;
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -903,7 +903,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1049,7 +1049,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1174,7 +1174,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )

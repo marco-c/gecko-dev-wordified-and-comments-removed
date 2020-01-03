@@ -1830,9 +1830,9 @@ type
 JSString
 *
 name
-jsval
+Value
 size
-jsval
+Value
 align
 ffi_type
 *
@@ -1864,9 +1864,9 @@ char
 name
 TypeCode
 type
-jsval
+Value
 size
-jsval
+Value
 align
 ffi_type
 *
@@ -2248,7 +2248,7 @@ HandleObject
 fnObj
 HandleObject
 thisObj
-jsval
+Value
 errVal
 PRFuncPtr
 *
@@ -2326,7 +2326,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2339,7 +2339,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )

@@ -1060,7 +1060,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1077,7 +1077,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1196,7 +1196,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1210,7 +1210,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1224,7 +1224,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1279,7 +1279,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1297,7 +1297,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1379,7 +1379,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1393,7 +1393,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1407,7 +1407,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1454,7 +1454,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1542,7 +1542,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1567,7 +1567,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1642,7 +1642,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1656,7 +1656,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1674,7 +1674,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1694,7 +1694,7 @@ HandleObject
 fnObj
 HandleObject
 thisObj
-jsval
+Value
 errVal
 )
 ;
@@ -1707,7 +1707,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1943,7 +1943,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1957,7 +1957,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1971,7 +1971,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -1985,7 +1985,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2052,7 +2052,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2091,7 +2091,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2105,7 +2105,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2119,7 +2119,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2133,7 +2133,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2316,7 +2316,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2330,7 +2330,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2344,7 +2344,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2358,7 +2358,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2372,7 +2372,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2386,7 +2386,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2400,7 +2400,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2418,7 +2418,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2432,7 +2432,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2446,7 +2446,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2460,7 +2460,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2474,7 +2474,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2488,7 +2488,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -2502,7 +2502,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -4199,7 +4199,7 @@ sCABIClass
 return
 INVALID_ABI
 ;
-jsval
+Value
 result
 =
 JS_GetReservedSlot
@@ -4958,7 +4958,7 @@ funObj
 )
 )
 {
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -8759,7 +8759,7 @@ obj
 )
 )
 ;
-jsval
+Value
 result
 =
 JS_GetReservedSlot
@@ -9169,7 +9169,7 @@ n
 =
 0
 ;
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -10032,7 +10032,7 @@ jsvalToBool
 JSContext
 *
 cx
-jsval
+Value
 val
 bool
 *
@@ -10155,7 +10155,7 @@ jsvalToInteger
 JSContext
 *
 cx
-jsval
+Value
 val
 IntegerType
 *
@@ -10564,7 +10564,7 @@ jsvalToFloat
 JSContext
 *
 cx
-jsval
+Value
 val
 FloatType
 *
@@ -11223,7 +11223,7 @@ jsvalToBigInteger
 JSContext
 *
 cx
-jsval
+Value
 val
 bool
 allowString
@@ -11458,7 +11458,7 @@ jsvalToSize
 JSContext
 *
 cx
-jsval
+Value
 val
 bool
 allowString
@@ -11696,7 +11696,7 @@ static
 bool
 jsvalToIntegerExplicit
 (
-jsval
+Value
 val
 IntegerType
 *
@@ -11854,7 +11854,7 @@ jsvalToPtrExplicit
 JSContext
 *
 cx
-jsval
+Value
 val
 uintptr_t
 *
@@ -18140,7 +18140,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -18172,7 +18172,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -18472,9 +18472,9 @@ type
 JSString
 *
 name_
-jsval
+Value
 size_
-jsval
+Value
 align_
 ffi_type
 *
@@ -18696,9 +18696,9 @@ char
 name
 TypeCode
 type
-jsval
+Value
 size_
-jsval
+Value
 align_
 ffi_type
 *
@@ -18814,7 +18814,7 @@ JSObject
 obj
 )
 {
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -19151,7 +19151,7 @@ JSObject
 obj
 )
 {
-jsval
+Value
 slot
 =
 obj
@@ -19437,7 +19437,7 @@ typeObj
 )
 )
 ;
-jsval
+Value
 result
 =
 JS_GetReservedSlot
@@ -19845,7 +19845,7 @@ obj
 )
 )
 ;
-jsval
+Value
 size
 =
 JS_GetReservedSlot
@@ -19939,7 +19939,7 @@ obj
 )
 )
 ;
-jsval
+Value
 size
 =
 JS_GetReservedSlot
@@ -20009,7 +20009,7 @@ obj
 )
 )
 ;
-jsval
+Value
 size
 =
 JS_GetReservedSlot
@@ -20072,7 +20072,7 @@ obj
 )
 )
 ;
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -20121,7 +20121,7 @@ obj
 )
 )
 ;
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -20271,7 +20271,7 @@ obj
 )
 )
 ;
-jsval
+Value
 string
 =
 JS_GetReservedSlot
@@ -20342,7 +20342,7 @@ CTypeProtoSlot
 slot
 )
 {
-jsval
+Value
 protoslot
 =
 js
@@ -20381,7 +20381,7 @@ proto
 )
 )
 ;
-jsval
+Value
 result
 =
 JS_GetReservedSlot
@@ -20467,7 +20467,7 @@ proto
 )
 )
 ;
-jsval
+Value
 result
 =
 JS_GetReservedSlot
@@ -20897,7 +20897,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -21097,7 +21097,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -21262,7 +21262,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -21434,7 +21434,7 @@ obj
 )
 )
 ;
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -21624,7 +21624,7 @@ objTypeProto
 )
 )
 ;
-jsval
+Value
 valCTypes
 =
 JS_GetReservedSlot
@@ -21684,7 +21684,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -21888,7 +21888,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -21929,7 +21929,7 @@ one
 )
 ;
 }
-jsval
+Value
 arg
 =
 args
@@ -22033,7 +22033,7 @@ HandleObject
 baseType
 )
 {
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -22605,7 +22605,7 @@ obj
 TYPE_pointer
 )
 ;
-jsval
+Value
 type
 =
 JS_GetReservedSlot
@@ -22824,7 +22824,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -23210,7 +23210,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -23244,7 +23244,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -23594,7 +23594,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -24603,7 +24603,7 @@ obj
 TYPE_array
 )
 ;
-jsval
+Value
 type
 =
 JS_GetReservedSlot
@@ -24670,7 +24670,7 @@ obj
 TYPE_array
 )
 ;
-jsval
+Value
 length
 =
 JS_GetReservedSlot
@@ -24778,7 +24778,7 @@ obj
 TYPE_array
 )
 ;
-jsval
+Value
 length
 =
 JS_GetReservedSlot
@@ -25807,7 +25807,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -26119,7 +26119,7 @@ ExtractStructField
 JSContext
 *
 cx
-jsval
+Value
 val
 MutableHandleObject
 typeObj
@@ -26510,7 +26510,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -26562,7 +26562,7 @@ s
 )
 ;
 }
-jsval
+Value
 name
 =
 args
@@ -28030,7 +28030,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -28159,7 +28159,7 @@ one
 )
 ;
 }
-jsval
+Value
 arg
 =
 args
@@ -28697,7 +28697,7 @@ obj
 TYPE_struct
 )
 ;
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -29795,7 +29795,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -30210,7 +30210,7 @@ GetABI
 JSContext
 *
 cx
-jsval
+Value
 abiType
 ffi_abi
 *
@@ -30327,7 +30327,7 @@ PrepareType
 JSContext
 *
 cx
-jsval
+Value
 type
 )
 {
@@ -30519,7 +30519,7 @@ PrepareReturnType
 JSContext
 *
 cx
-jsval
+Value
 type
 )
 {
@@ -30682,7 +30682,7 @@ IsEllipsis
 JSContext
 *
 cx
-jsval
+Value
 v
 bool
 *
@@ -31589,7 +31589,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -32004,7 +32004,7 @@ HandleObject
 fnObj
 HandleObject
 thisObj
-jsval
+Value
 errVal
 )
 {
@@ -32316,7 +32316,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -32528,7 +32528,7 @@ return
 false
 ;
 }
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -33297,7 +33297,7 @@ obj
 TYPE_function
 )
 ;
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -33767,7 +33767,7 @@ HandleObject
 fnObj
 HandleObject
 thisObj
-jsval
+Value
 errVal_
 PRFuncPtr
 *
@@ -34246,7 +34246,7 @@ JSObject
 obj
 )
 {
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -34343,7 +34343,7 @@ JSObject
 obj
 )
 {
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -35069,7 +35069,7 @@ refObj
 ownResult
 )
 ;
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -35314,7 +35314,7 @@ JSObject
 obj
 )
 {
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -35436,7 +35436,7 @@ dataObj
 )
 )
 ;
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -35493,7 +35493,7 @@ dataObj
 )
 )
 ;
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -35754,7 +35754,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -35954,7 +35954,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -36250,7 +36250,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -36492,7 +36492,7 @@ InflateUTF8Method
 inflateUTF8
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -36979,7 +36979,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -37008,7 +37008,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -37104,7 +37104,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -37407,7 +37407,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -37601,7 +37601,7 @@ source
 "
 )
 ;
-jsval
+Value
 valCodePtrType
 =
 JS_GetReservedSlot
@@ -37726,7 +37726,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -37938,7 +37938,7 @@ obj
 )
 )
 ;
-jsval
+Value
 valData
 =
 JS_GetReservedSlot
@@ -38200,7 +38200,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -39309,7 +39309,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -39543,7 +39543,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -39677,7 +39677,7 @@ return
 false
 ;
 }
-jsval
+Value
 valType
 =
 JS_GetReservedSlot
@@ -39721,7 +39721,7 @@ objCTypes
 return
 false
 ;
-jsval
+Value
 valCodePtrType
 =
 JS_GetReservedSlot
@@ -40217,7 +40217,7 @@ JSObject
 obj
 )
 {
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -40293,7 +40293,7 @@ obj
 )
 )
 ;
-jsval
+Value
 slot
 =
 JS_GetReservedSlot
@@ -40413,7 +40413,7 @@ length
 1
 )
 {
-jsval
+Value
 arg
 =
 args
@@ -40785,7 +40785,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -40990,7 +40990,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -41072,7 +41072,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -41154,7 +41154,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -41453,7 +41453,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -41606,7 +41606,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -41759,7 +41759,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -41898,7 +41898,7 @@ callee
 (
 )
 ;
-jsval
+Value
 slot
 =
 js
@@ -41984,7 +41984,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -42190,7 +42190,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -42272,7 +42272,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -42354,7 +42354,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -42610,7 +42610,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -42763,7 +42763,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -42916,7 +42916,7 @@ JSContext
 cx
 unsigned
 argc
-jsval
+Value
 *
 vp
 )
@@ -43055,7 +43055,7 @@ callee
 (
 )
 ;
-jsval
+Value
 slot
 =
 js
