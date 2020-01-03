@@ -169,7 +169,7 @@ Extensions_End
 draw_buffers
 "
 200
-300
+0
 GLContext
 :
 :
