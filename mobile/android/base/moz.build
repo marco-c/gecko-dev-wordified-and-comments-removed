@@ -3045,13 +3045,6 @@ java
 '
 toolbar
 /
-BrowserToolbarTablet
-.
-java
-'
-'
-toolbar
-/
 BrowserToolbarTabletBase
 .
 java
