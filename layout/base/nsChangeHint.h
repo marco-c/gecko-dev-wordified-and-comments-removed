@@ -95,6 +95,9 @@ nsChangeHint_InvalidateRenderingObservers
 nsChangeHint_ReflowChangesSizeOrPosition
 =
 0x800000
+nsChangeHint_UpdateComputedBSize
+=
+0x1000000
 }
 ;
 inline
@@ -510,6 +513,9 @@ nsChangeHint_ReflowChangesSizeOrPosition
 |
 \
 nsChangeHint_ClearAncestorIntrinsics
+|
+\
+nsChangeHint_UpdateComputedBSize
 )
 inline
 nsChangeHint
@@ -548,6 +554,8 @@ nsChangeHint_RecomputePosition
 nsChangeHint_AddOrRemoveTransform
 |
 nsChangeHint_BorderStyleNoneChange
+|
+nsChangeHint_UpdateComputedBSize
 )
 )
 ;
