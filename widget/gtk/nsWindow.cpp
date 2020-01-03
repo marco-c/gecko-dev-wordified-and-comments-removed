@@ -14780,6 +14780,12 @@ case
 eWindowType_plugin
 :
 case
+eWindowType_plugin_ipc_chrome
+:
+case
+eWindowType_plugin_ipc_content
+:
+case
 eWindowType_child
 :
 {
@@ -16764,6 +16770,18 @@ Configuration
 aConfigurations
 )
 {
+if
+(
+mWindowType
+=
+=
+eWindowType_plugin_ipc_chrome
+)
+{
+return
+NS_OK
+;
+}
 for
 (
 uint32_t
@@ -17232,7 +17250,7 @@ i
 ;
 }
 }
-void
+nsresult
 nsWindow
 :
 :
@@ -17348,6 +17366,7 @@ existingRegion
 )
 {
 return
+NS_OK
 ;
 }
 if
@@ -17386,6 +17405,7 @@ newRects
 )
 )
 return
+NS_OK
 ;
 if
 (
@@ -17393,6 +17413,7 @@ if
 mGdkWindow
 )
 return
+NS_OK
 ;
 #
 if
@@ -17569,6 +17590,7 @@ region
 #
 endif
 return
+NS_OK
 ;
 }
 void

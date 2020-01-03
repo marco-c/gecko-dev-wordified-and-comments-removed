@@ -2175,6 +2175,7 @@ HWND
 aWnd
 )
 ;
+virtual
 nsresult
 SetWindowClipRegion
 (
@@ -2188,6 +2189,7 @@ aRects
 bool
 aIntersectWithExisting
 )
+MOZ_OVERRIDE
 ;
 nsIntRegion
 GetRegionToPaint

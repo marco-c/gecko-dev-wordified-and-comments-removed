@@ -13165,12 +13165,9 @@ eWindowType_child
 aWidget
 -
 >
-WindowType
+IsPlugin
 (
 )
-=
-=
-eWindowType_plugin
 )
 )
 {

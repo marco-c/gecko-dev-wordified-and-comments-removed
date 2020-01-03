@@ -98,7 +98,6 @@ AutoCacheNativeKeyCommands
 ;
 class
 PuppetWidget
-MOZ_FINAL
 :
 public
 nsBaseWidget
@@ -351,11 +350,7 @@ Configuration
 &
 aConfigurations
 )
-{
-return
-NS_OK
 ;
-}
 NS_IMETHOD
 Invalidate
 (
@@ -668,6 +663,14 @@ mDefaultScale
 1
 ;
 }
+protected
+:
+bool
+mEnabled
+;
+bool
+mVisible
+;
 private
 :
 nsresult
@@ -788,12 +791,6 @@ nsRevocableEventPtr
 PaintTask
 >
 mPaintTask
-;
-bool
-mEnabled
-;
-bool
-mVisible
 ;
 mozilla
 :
