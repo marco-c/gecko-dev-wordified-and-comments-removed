@@ -7885,6 +7885,15 @@ return
 this
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+;
 }
 ;
 template
