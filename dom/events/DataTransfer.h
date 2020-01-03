@@ -469,7 +469,7 @@ ErrorResult
 aRv
 )
 ;
-nsDOMFileList
+FileList
 *
 GetFiles
 (
@@ -896,7 +896,7 @@ mItems
 ;
 nsRefPtr
 <
-nsDOMFileList
+FileList
 >
 mFiles
 ;

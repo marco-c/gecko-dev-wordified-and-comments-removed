@@ -166,7 +166,7 @@ class
 DOMFile
 ;
 class
-nsDOMFileList
+FileList
 ;
 class
 UploadLastDir
@@ -1538,7 +1538,7 @@ aRv
 )
 ;
 }
-nsDOMFileList
+FileList
 *
 GetFiles
 (
@@ -3422,7 +3422,7 @@ mFiles
 ;
 nsRefPtr
 <
-nsDOMFileList
+FileList
 >
 mFileList
 ;

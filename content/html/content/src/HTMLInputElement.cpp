@@ -11177,13 +11177,13 @@ aSetValueChanged
 {
 nsRefPtr
 <
-nsDOMFileList
+FileList
 >
 files
 =
 static_cast
 <
-nsDOMFileList
+FileList
 *
 >
 (
@@ -11390,7 +11390,7 @@ false
 )
 ;
 }
-nsDOMFileList
+FileList
 *
 HTMLInputElement
 :
@@ -11420,7 +11420,7 @@ mFileList
 mFileList
 =
 new
-nsDOMFileList
+FileList
 (
 static_cast
 <
@@ -22816,7 +22816,7 @@ aFileList
 {
 nsRefPtr
 <
-nsDOMFileList
+FileList
 >
 list
 =
