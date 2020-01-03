@@ -70,6 +70,13 @@ override
 ;
 virtual
 int
+CancelAutoFocus
+(
+)
+override
+;
+virtual
+int
 StartFaceDetection
 (
 )
