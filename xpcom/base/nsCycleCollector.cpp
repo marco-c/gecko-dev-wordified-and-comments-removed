@@ -12800,7 +12800,7 @@ numWhiteJSZones
 }
 }
 uint32_t
-count
+numWhiteNodes
 =
 whiteNodes
 .
@@ -12813,7 +12813,7 @@ MOZ_ASSERT
 numWhiteGCed
 <
 =
-count
+numWhiteNodes
 "
 More
 freed
@@ -12832,7 +12832,7 @@ mResults
 mFreedRefCounted
 +
 =
-count
+numWhiteNodes
 -
 numWhiteGCed
 ;
@@ -12893,7 +12893,7 @@ i
 ;
 i
 <
-count
+numWhiteNodes
 ;
 +
 +
@@ -12989,7 +12989,7 @@ i
 ;
 i
 <
-count
+numWhiteNodes
 ;
 +
 +
@@ -13076,7 +13076,7 @@ mIncrementalPhase
 CleanupPhase
 ;
 return
-count
+numWhiteNodes
 >
 0
 ;
