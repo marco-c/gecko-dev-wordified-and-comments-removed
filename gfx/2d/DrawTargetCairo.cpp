@@ -5719,10 +5719,7 @@ similar
 =
 cairo_surface_create_similar
 (
-cairo_get_target
-(
-mContext
-)
+mSurface
 GfxFormatToCairoContent
 (
 aFormat
