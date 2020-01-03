@@ -116,14 +116,6 @@ api
 *
 /
 [
-Func
-=
-"
-nsContentUtils
-:
-:
-PushEnabled
-"
 Exposed
 =
 ServiceWorker

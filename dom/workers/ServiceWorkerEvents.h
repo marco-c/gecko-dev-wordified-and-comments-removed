@@ -108,13 +108,6 @@ nsProxyRelease
 .
 h
 "
-#
-include
-"
-nsContentUtils
-.
-h
-"
 class
 nsIInterceptedChannel
 ;

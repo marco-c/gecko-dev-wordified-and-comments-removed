@@ -124,14 +124,6 @@ optional
 PushEventInit
 eventInitDict
 )
-Func
-=
-"
-nsContentUtils
-:
-:
-PushEnabled
-"
 Exposed
 =
 ServiceWorker
