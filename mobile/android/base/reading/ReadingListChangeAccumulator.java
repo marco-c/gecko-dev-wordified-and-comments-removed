@@ -14,6 +14,13 @@ ReadingListChangeAccumulator
 void
 addDeletion
 (
+String
+guid
+)
+;
+void
+addDeletion
+(
 ClientReadingListRecord
 record
 )

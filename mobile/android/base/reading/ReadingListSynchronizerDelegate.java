@@ -26,6 +26,11 @@ e
 )
 ;
 void
+onDeletionsUploadComplete
+(
+)
+;
+void
 onStatusUploadComplete
 (
 Collection

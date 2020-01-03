@@ -65,4 +65,9 @@ MozResponse
 response
 )
 ;
+void
+onBatchDone
+(
+)
+;
 }
