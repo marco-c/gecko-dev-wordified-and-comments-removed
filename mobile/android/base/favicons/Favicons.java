@@ -1523,7 +1523,7 @@ R
 .
 drawable
 .
-ab_search
+favicon_search
 )
 )
 ;
