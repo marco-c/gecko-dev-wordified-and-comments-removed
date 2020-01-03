@@ -5195,6 +5195,8 @@ GetID
 (
 )
 ;
+}
+}
 if
 (
 !
@@ -5204,17 +5206,6 @@ CurrentDriver
 -
 >
 AsAudioCallbackDriver
-(
-)
-&
-&
-!
-CurrentDriver
-(
-)
--
->
-Switching
 (
 )
 )
@@ -5246,8 +5237,6 @@ SwitchAtNextIteration
 driver
 )
 ;
-}
-}
 }
 }
 for
