@@ -918,6 +918,16 @@ nsStyleContext
 aNewParent
 )
 ;
+void
+SwapStyleData
+(
+nsStyleContext
+*
+aNewContext
+uint32_t
+aStructs
+)
+;
 #
 ifdef
 DEBUG
