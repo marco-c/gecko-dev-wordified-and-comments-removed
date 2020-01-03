@@ -770,10 +770,6 @@ mRequestStatus
 (
 REQUEST_INACTIVE
 )
-mAllocatedNewFrame
-(
-false
-)
 {
 MOZ_ASSERT
 (
@@ -838,9 +834,6 @@ REQUEST_WORK_DONE
 REQUEST_STOPPED
 }
 mRequestStatus
-;
-bool
-mAllocatedNewFrame
 ;
 private
 :
