@@ -982,6 +982,9 @@ PEAP
 "
 TTLS
 "
+"
+TLS
+"
 ]
 eapPhase2
 :
