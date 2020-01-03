@@ -239,6 +239,13 @@ js
 '
 actors
 /
+addon
+.
+js
+'
+'
+actors
+/
 animation
 .
 js
