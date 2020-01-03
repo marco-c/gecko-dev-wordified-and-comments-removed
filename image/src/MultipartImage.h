@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_IMAGELIB_MULTIPARTIMAGE_H_
+mozilla_image_src_MultipartImage_h
 #
 define
-MOZILLA_IMAGELIB_MULTIPARTIMAGE_H_
+mozilla_image_src_MultipartImage_h
 #
 include
 "
