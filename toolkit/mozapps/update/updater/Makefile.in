@@ -495,9 +495,3 @@ bin
 /
 updater
 endif
-CXXFLAGS
-+
-=
-(
-MOZ_BZ2_CFLAGS
-)

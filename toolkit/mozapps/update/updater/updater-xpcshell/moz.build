@@ -135,3 +135,12 @@ build
 FAIL_ON_WARNINGS
 =
 True
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+MOZ_BZ2_CFLAGS
+'
+]

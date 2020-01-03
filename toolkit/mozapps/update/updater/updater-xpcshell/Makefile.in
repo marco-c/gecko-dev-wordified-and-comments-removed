@@ -462,9 +462,3 @@ updater
 BIN_SUFFIX
 )
 endif
-CXXFLAGS
-+
-=
-(
-MOZ_BZ2_CFLAGS
-)
