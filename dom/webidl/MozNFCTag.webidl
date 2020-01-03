@@ -104,12 +104,6 @@ NFCTechType
 NDEF
 "
 "
-NDEF_WRITABLE
-"
-"
-NDEF_FORMATABLE
-"
-"
 P2P
 "
 "
