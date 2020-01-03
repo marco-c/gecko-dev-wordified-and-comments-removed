@@ -111,6 +111,14 @@ OOM_counter
 =
 0
 ;
+JS_PUBLIC_DATA
+(
+bool
+)
+OOM_failAlways
+=
+true
+;
 #
 endif
 JS_PUBLIC_API
