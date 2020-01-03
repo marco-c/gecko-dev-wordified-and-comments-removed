@@ -241,16 +241,6 @@ windowId
 fakeMozLoop
 =
 {
-getLoopBoolPref
-:
-function
-(
-)
-{
-return
-false
-;
-}
 getConversationWindowData
 :
 function
