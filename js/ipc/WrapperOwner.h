@@ -1164,17 +1164,6 @@ bool
 bp
 )
 ;
-void
-GetWrappedCPOWTag
-(
-JSObject
-*
-obj
-nsACString
-&
-out
-)
-;
 }
 }
 #
