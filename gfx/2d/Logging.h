@@ -897,6 +897,8 @@ typename
 T
 typename
 Sub
+typename
+Coord
 >
 Log
 &
@@ -909,6 +911,7 @@ BasePoint
 <
 T
 Sub
+Coord
 >
 &
 aPoint
