@@ -2892,13 +2892,13 @@ else
 resolveHook
 =
 "
-nullptr
+JS_ResolveStub
 "
             
 enumerateHook
 =
 "
-nullptr
+JS_EnumerateStub
 "
         
 return
@@ -2936,7 +2936,7 @@ addProperty
 *
 /
                 
-nullptr
+JS_DeletePropertyStub
 /
 *
 delProperty
@@ -2975,12 +2975,7 @@ resolve
 *
 /
                 
-nullptr
-/
-*
-convert
-*
-/
+JS_ConvertStub
                 
 {
 finalize
@@ -3118,7 +3113,7 @@ descriptor
 )
 else
 '
-nullptr
+JS_PropertyStub
 '
             
 enumerate
@@ -4366,14 +4361,14 @@ slotCount
 }
 )
                 
-nullptr
+JS_PropertyStub
 /
 *
 addProperty
 *
 /
                 
-nullptr
+JS_DeletePropertyStub
 /
 *
 delProperty
@@ -4394,26 +4389,11 @@ setProperty
 *
 /
                 
-nullptr
-/
-*
-enumerate
-*
-/
+JS_EnumerateStub
                 
-nullptr
-/
-*
-resolve
-*
-/
+JS_ResolveStub
                 
-nullptr
-/
-*
-convert
-*
-/
+JS_ConvertStub
                 
 nullptr
 /
@@ -4963,14 +4943,14 @@ slotCount
 }
 )
                 
-nullptr
+JS_PropertyStub
 /
 *
 addProperty
 *
 /
                 
-nullptr
+JS_DeletePropertyStub
 /
 *
 delProperty
@@ -4991,26 +4971,11 @@ setProperty
 *
 /
                 
-nullptr
-/
-*
-enumerate
-*
-/
+JS_EnumerateStub
                 
-nullptr
-/
-*
-resolve
-*
-/
+JS_ResolveStub
                 
-nullptr
-/
-*
-convert
-*
-/
+JS_ConvertStub
                 
 nullptr
 /

@@ -117,10 +117,13 @@ ptestClass
 Prof
 "
 0
-nullptr
-nullptr
+JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
+JS_EnumerateStub
+JS_ResolveStub
+JS_ConvertStub
 }
 ;
 static

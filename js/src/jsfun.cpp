@@ -4417,8 +4417,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Function
 )
-nullptr
-nullptr
+JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 fun_enumerate
@@ -4426,7 +4426,7 @@ js
 :
 :
 fun_resolve
-nullptr
+JS_ConvertStub
 nullptr
 nullptr
 fun_hasInstance

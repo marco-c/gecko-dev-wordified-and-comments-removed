@@ -13139,6 +13139,9 @@ getClass
 -
 >
 resolve
+!
+=
+JS_ResolveStub
 )
 return
 false
@@ -13154,6 +13157,9 @@ getClass
 -
 >
 addProperty
+!
+=
+JS_PropertyStub
 )
 return
 false
@@ -13264,6 +13270,9 @@ getClass
 -
 >
 resolve
+!
+=
+JS_ResolveStub
 )
 return
 false

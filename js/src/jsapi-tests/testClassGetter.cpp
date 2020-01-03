@@ -73,10 +73,13 @@ ptestClass
 PTest
 "
 JSCLASS_HAS_PRIVATE
-nullptr
-nullptr
+JS_PropertyStub
+JS_DeletePropertyStub
 test_prop_get
 JS_StrictPropertyStub
+JS_EnumerateStub
+JS_ResolveStub
+JS_ConvertStub
 }
 ;
 static

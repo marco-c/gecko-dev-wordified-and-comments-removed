@@ -75,12 +75,12 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Symbol
 )
-nullptr
-nullptr
+JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
-nullptr
-nullptr
+JS_EnumerateStub
+JS_ResolveStub
 convert
 }
 ;

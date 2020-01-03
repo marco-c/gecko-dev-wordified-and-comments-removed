@@ -452,13 +452,13 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 1
 )
-nullptr
-nullptr
+JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 XBLEnumerate
-nullptr
-nullptr
+JS_ResolveStub
+JS_ConvertStub
 XBLFinalize
 nullptr
 nullptr
