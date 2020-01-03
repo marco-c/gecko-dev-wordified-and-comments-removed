@@ -93,6 +93,16 @@ SimdSignMaskX4
 \
 _
 (
+SimdSwizzleI
+)
+\
+_
+(
+SimdSwizzleF
+)
+\
+_
+(
 SimdUnaryArithIx4
 )
 \

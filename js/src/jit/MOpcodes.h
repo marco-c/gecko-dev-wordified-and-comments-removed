@@ -64,6 +64,11 @@ SimdSignMask
 \
 _
 (
+SimdSwizzle
+)
+\
+_
+(
 SimdUnaryArith
 )
 \
