@@ -1577,7 +1577,7 @@ Int32Value
 X4TypeDescr
 :
 :
-size
+alignment
 (
 type
 )
@@ -1595,7 +1595,7 @@ Int32Value
 X4TypeDescr
 :
 :
-alignment
+size
 (
 type
 )
