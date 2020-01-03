@@ -824,7 +824,6 @@ ProfilerMarker
 GetTime
 (
 )
-const
 {
 return
 mTime
@@ -2591,8 +2590,6 @@ char
 *
 mozilla_sampler_get_profile
 (
-float
-aSinceTime
 )
 {
 TableTicker
@@ -2627,7 +2624,6 @@ t
 ToStreamAsJSON
 (
 stream
-aSinceTime
 )
 ;
 char
@@ -2658,8 +2654,6 @@ mozilla_sampler_get_profile_data
 JSContext
 *
 aCx
-float
-aSinceTime
 )
 {
 TableTicker
@@ -2689,7 +2683,6 @@ t
 ToJSObject
 (
 aCx
-aSinceTime
 )
 ;
 }
