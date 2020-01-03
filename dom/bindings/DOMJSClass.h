@@ -713,7 +713,10 @@ struct
 DOMIfaceAndProtoJSClass
 {
 const
-JSClass
+js
+:
+:
+Class
 mBase
 ;
 DOMObjectType
@@ -808,8 +811,11 @@ ToJSClass
 const
 {
 return
+Jsvalify
+(
 &
 mBase
+)
 ;
 }
 }
