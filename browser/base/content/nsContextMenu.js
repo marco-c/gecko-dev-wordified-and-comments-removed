@@ -8739,6 +8739,17 @@ nsIIOService
 )
 ;
 var
+principal
+=
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+;
+var
 channel
 =
 ioService
@@ -8750,8 +8761,6 @@ makeURI
 linkURL
 )
 null
-this
-.
 principal
 null
 Ci
