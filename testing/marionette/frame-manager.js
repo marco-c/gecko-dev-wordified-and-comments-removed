@@ -35,8 +35,6 @@ marionette
 /
 content
 /
-marionette
--
 listener
 .
 js
