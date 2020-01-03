@@ -2289,6 +2289,9 @@ bool
 mIsActive
 ;
 bool
+mIsPrerendered
+;
+bool
 mIsAppTab
 ;
 bool
