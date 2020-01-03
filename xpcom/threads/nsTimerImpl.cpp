@@ -780,11 +780,6 @@ return
 rv
 ;
 }
-if
-(
-mArmed
-)
-{
 gThread
 -
 >
@@ -793,7 +788,6 @@ RemoveTimer
 this
 )
 ;
-}
 mCanceled
 =
 false
