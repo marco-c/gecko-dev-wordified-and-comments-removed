@@ -421,6 +421,7 @@ GC
 on
 desktop
 .
+export
 JSGC_GENERATIONAL
 =
 1
