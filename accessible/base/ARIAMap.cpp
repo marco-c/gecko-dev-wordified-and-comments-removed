@@ -1569,6 +1569,7 @@ nsDependentSubstring
 &
 mRole
 ;
+explicit
 RoleComparator
 (
 const
