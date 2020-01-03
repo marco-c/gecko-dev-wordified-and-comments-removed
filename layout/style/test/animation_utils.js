@@ -1131,6 +1131,7 @@ runOMTATest
 (
 aTestFunction
 aOnSkip
+specialPowersForPrefs
 )
 {
 const
@@ -1153,6 +1154,17 @@ SpecialPowers
 .
 DOMWindowUtils
 ;
+if
+(
+!
+specialPowersForPrefs
+)
+{
+specialPowersForPrefs
+=
+SpecialPowers
+;
+}
 var
 expectOMTA
 =
@@ -1161,7 +1173,7 @@ utils
 layerManagerRemote
 &
 &
-SpecialPowers
+specialPowersForPrefs
 .
 getBoolPref
 (
