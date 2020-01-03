@@ -1075,6 +1075,9 @@ gc
 ZoneHeapThreshold
 threshold
 ;
+size_t
+gcDelayBytes
+;
 void
 *
 data
