@@ -8632,6 +8632,34 @@ pk12util
 bin_suffix
 )
         
+toolsEnv
+=
+env
+        
+if
+mozinfo
+.
+info
+[
+"
+asan
+"
+]
+:
+            
+toolsEnv
+[
+"
+ASAN_OPTIONS
+"
+]
+=
+"
+detect_leaks
+=
+0
+"
+        
 if
 self
 .
@@ -8682,7 +8710,7 @@ pwfilePath
 ]
 env
 =
-env
+toolsEnv
 )
         
 if
@@ -8815,7 +8843,7 @@ trustBits
                      
 env
 =
-env
+toolsEnv
 )
             
 elif
@@ -8862,7 +8890,7 @@ certdbPath
                      
 env
 =
-env
+toolsEnv
 )
         
 os
