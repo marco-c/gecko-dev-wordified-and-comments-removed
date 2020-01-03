@@ -4322,7 +4322,7 @@ index
 return
 result
 .
-failCantDefineWindowElement
+succeed
 (
 )
 ;
