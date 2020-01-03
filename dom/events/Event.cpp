@@ -4094,6 +4094,10 @@ if
 (
 !
 content
+|
+|
+!
+aPresContext
 )
 {
 return
