@@ -2846,6 +2846,15 @@ connection
 client
 .
 mainRoot
+&
+&
+this
+.
+connection
+.
+client
+.
+mainRoot
 .
 traits
 .
