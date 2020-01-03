@@ -83,7 +83,7 @@ MAKE_SIGN_EME_VOUCHER
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 python
