@@ -1275,9 +1275,11 @@ GLint
 layer
 )
 {
-MOZ_CRASH
+GenerateWarning
 (
 "
+framebufferTextureLayer
+:
 Not
 Implemented
 .
@@ -1306,9 +1308,11 @@ MutableHandleValue
 retval
 )
 {
-MOZ_CRASH
+GenerateWarning
 (
 "
+getInternalformatParameter
+:
 Not
 Implemented
 .
