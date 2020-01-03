@@ -2763,6 +2763,13 @@ java
 '
 tabs
 /
+TabStrip
+.
+java
+'
+'
+tabs
+/
 TabStripAdapter
 .
 java
