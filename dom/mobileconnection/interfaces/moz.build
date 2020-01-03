@@ -113,7 +113,7 @@ nsIMobileConnectionInfo
 idl
 '
 '
-nsIMobileConnectionProvider
+nsIMobileConnectionService
 .
 idl
 '
