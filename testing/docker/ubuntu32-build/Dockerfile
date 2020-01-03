@@ -1,7 +1,11 @@
 FROM
-32bit
+quay
+.
+io
 /
-ubuntu
+mrrrgn
+/
+ubuntu32
 :
 14
 .
