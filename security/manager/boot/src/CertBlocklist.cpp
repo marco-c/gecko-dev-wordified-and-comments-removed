@@ -466,7 +466,10 @@ BlockByIssuerAndSerial
 mOtherLength
 >
 =
-4
+sizeof
+(
+hash
+)
 )
 {
 memcpy
@@ -477,7 +480,10 @@ mOtherData
 +
 mOtherLength
 -
-4
+sizeof
+(
+hash
+)
 sizeof
 (
 hash
