@@ -121,7 +121,7 @@ mozilla
 namespace
 embedding
 {
-class
+struct
 PrintData
 ;
 }
