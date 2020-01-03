@@ -3651,6 +3651,17 @@ RecycleCallback
 "
 )
 ;
+MOZ_ASSERT
+(
+!
+aClient
+-
+>
+IsDead
+(
+)
+)
+;
 size_t
 index
 =

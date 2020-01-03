@@ -172,17 +172,12 @@ T
 namespace
 detail
 {
-#
-ifdef
-DEBUG
 const
 MozRefCountType
 DEAD
 =
 0xffffdead
 ;
-#
-endif
 #
 ifdef
 MOZ_REFCOUNTED_LEAK_CHECKING
