@@ -632,11 +632,6 @@ ConvertSpatialFractionalToWhole
 (
 )
 ;
-bool
-EvenFrameSize
-(
-)
-;
 void
 InsertLatestDownAction
 (
