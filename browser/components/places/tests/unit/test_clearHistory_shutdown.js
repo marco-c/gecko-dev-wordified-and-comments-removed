@@ -109,7 +109,7 @@ shutdown
 ]
 ;
 const
-URL
+FTP_URL
 =
 "
 ftp
@@ -331,7 +331,7 @@ finalize
 }
 checkCache
 (
-URL
+FTP_URL
 )
 ;
 }
@@ -653,7 +653,7 @@ cache
 ;
 storeCache
 (
-URL
+FTP_URL
 "
 testData
 "
