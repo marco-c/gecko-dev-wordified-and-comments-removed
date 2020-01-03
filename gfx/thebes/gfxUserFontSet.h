@@ -1843,6 +1843,7 @@ LoadNextSrc
 (
 )
 ;
+virtual
 void
 SetLoadState
 (
