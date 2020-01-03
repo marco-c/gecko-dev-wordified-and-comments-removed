@@ -1712,6 +1712,7 @@ NotifyDataArrived
 mReportedOffset
 +
 +
+false
 )
 ;
 }
@@ -2602,6 +2603,7 @@ NotifyDataArrived
 mReportedOffset
 +
 +
+false
 )
 ;
 mMediaSource

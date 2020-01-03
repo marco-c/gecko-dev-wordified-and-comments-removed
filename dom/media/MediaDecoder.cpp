@@ -5731,6 +5731,8 @@ uint32_t
 aLength
 int64_t
 aOffset
+bool
+aThrottleUpdates
 )
 {
 MOZ_ASSERT
@@ -5752,6 +5754,7 @@ DispatchNotifyDataArrived
 (
 aLength
 aOffset
+aThrottleUpdates
 )
 ;
 }
