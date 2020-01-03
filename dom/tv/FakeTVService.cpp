@@ -912,6 +912,7 @@ runnable
 }
 class
 EITBroadcastedCallback
+MOZ_FINAL
 :
 public
 nsITimerCallback
@@ -1171,6 +1172,7 @@ nsITimerCallback
 )
 class
 ScanCompleteCallback
+MOZ_FINAL
 :
 public
 nsITimerCallback
