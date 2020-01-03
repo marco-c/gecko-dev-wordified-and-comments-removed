@@ -233,6 +233,17 @@ openPrefsHelp
 (
 )
 "
+onbeforeaccept
+=
+"
+return
+gFontsDialog
+.
+onBeforeAccept
+(
+)
+;
+"
 style
 =
 "
