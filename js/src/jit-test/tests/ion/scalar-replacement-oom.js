@@ -11,7 +11,6 @@ function
 )
 quit
 (
-3
 )
 ;
 var
@@ -89,6 +88,8 @@ oomAtAllocation
 )
 ;
 }
+try
+{
 t
 (
 )
@@ -97,8 +98,10 @@ t
 (
 )
 ;
-quit
+}
+catch
 (
-3
+e
 )
-;
+{
+}

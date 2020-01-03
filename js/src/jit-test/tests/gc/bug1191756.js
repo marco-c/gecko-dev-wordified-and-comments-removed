@@ -13,7 +13,6 @@ undefined
 )
 quit
 (
-3
 )
 ;
 function
@@ -51,6 +50,8 @@ return
 ]
 ;
 }
+try
+{
 fn
 (
 0
@@ -76,8 +77,10 @@ fn
 3
 )
 ;
-quit
+}
+catch
 (
-3
+e
 )
-;
+{
+}
