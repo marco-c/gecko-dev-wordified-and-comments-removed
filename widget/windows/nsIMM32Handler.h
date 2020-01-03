@@ -588,6 +588,12 @@ IsJapanist2003Active
 ;
 static
 bool
+IsGoogleJapaneseInputActive
+(
+)
+;
+static
+bool
 ShouldDrawCompositionStringOurselves
 (
 )
