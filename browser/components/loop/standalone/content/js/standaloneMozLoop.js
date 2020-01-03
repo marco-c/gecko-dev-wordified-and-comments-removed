@@ -839,6 +839,13 @@ function
 )
 {
 }
+setScreenShareState
+:
+function
+(
+)
+{
+}
 }
 ;
 return
