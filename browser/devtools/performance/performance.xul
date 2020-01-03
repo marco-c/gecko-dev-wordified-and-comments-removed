@@ -1799,6 +1799,9 @@ toolbarbutton
 class
 =
 "
+devtools
+-
+toolbarbutton
 record
 -
 button
@@ -1960,6 +1963,9 @@ toolbarbutton
 class
 =
 "
+devtools
+-
+toolbarbutton
 record
 -
 button
