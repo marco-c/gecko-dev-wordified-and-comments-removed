@@ -228,6 +228,15 @@ nsISupports
 >
 mParent
 ;
+nsTArray
+<
+nsRefPtr
+<
+SpeechGrammar
+>
+>
+mItems
+;
 }
 ;
 }
