@@ -63,6 +63,10 @@ normalized
 (
 false
 )
+integer
+(
+false
+)
 {
 }
 WebGLRefPtr
@@ -91,6 +95,9 @@ enabled
 ;
 bool
 normalized
+;
+bool
+integer
 ;
 GLuint
 componentSize
