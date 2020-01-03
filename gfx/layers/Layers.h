@@ -6272,10 +6272,6 @@ Data
 (
 )
 :
-mDrawTarget
-(
-nullptr
-)
 mBufferProvider
 (
 nullptr
@@ -6303,16 +6299,6 @@ true
 )
 {
 }
-mozilla
-:
-:
-gfx
-:
-:
-DrawTarget
-*
-mDrawTarget
-;
 PersistentBufferProvider
 *
 mBufferProvider
