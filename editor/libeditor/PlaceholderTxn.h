@@ -101,6 +101,7 @@ NS_IMETHOD
 RedoTransaction
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Merge
@@ -112,6 +113,7 @@ bool
 *
 aDidMerge
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -126,6 +128,7 @@ nsEditor
 *
 aEditor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetTxnName
@@ -135,6 +138,7 @@ nsIAtom
 *
 aName
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 StartSelectionEquals
@@ -146,11 +150,13 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 EndPlaceHolderBatch
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ForwardEndBatchTo
@@ -159,13 +165,15 @@ nsIAbsorbingTransaction
 *
 aForwardingAddress
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Commit
 (
 )
+MOZ_OVERRIDE
 ;
-NS_IMETHOD
+nsresult
 RememberEndingSelection
 (
 )

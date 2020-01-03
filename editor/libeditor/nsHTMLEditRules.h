@@ -244,11 +244,13 @@ nsPlaintextEditor
 *
 aEditor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DetachEditor
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BeforeEdit
@@ -261,6 +263,7 @@ nsIEditor
 EDirection
 aDirection
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AfterEdit
@@ -273,6 +276,7 @@ nsIEditor
 EDirection
 aDirection
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillDoAction
@@ -296,6 +300,7 @@ bool
 *
 aHandled
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidDoAction
@@ -315,11 +320,13 @@ aInfo
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DocumentModified
 (
 )
+MOZ_OVERRIDE
 ;
 nsresult
 GetListState
@@ -412,6 +419,7 @@ aParent
 int32_t
 aPosition
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidCreateNode
@@ -431,6 +439,7 @@ aPosition
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillInsertNode
@@ -444,6 +453,7 @@ aParent
 int32_t
 aPosition
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidInsertNode
@@ -459,6 +469,7 @@ aPosition
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillDeleteNode
@@ -467,6 +478,7 @@ nsIDOMNode
 *
 aChild
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidDeleteNode
@@ -477,6 +489,7 @@ aChild
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillSplitNode
@@ -487,6 +500,7 @@ aExistingRightNode
 int32_t
 aOffset
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidSplitNode
@@ -502,6 +516,7 @@ aNewLeftNode
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillJoinNodes
@@ -516,6 +531,7 @@ nsIDOMNode
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidJoinNodes
@@ -532,6 +548,7 @@ aParent
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillInsertText
@@ -546,6 +563,7 @@ nsAString
 &
 aString
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidInsertText
@@ -562,6 +580,7 @@ aString
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillDeleteText
@@ -574,6 +593,7 @@ aOffset
 int32_t
 aLength
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidDeleteText
@@ -588,6 +608,7 @@ aLength
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillDeleteSelection
@@ -596,6 +617,7 @@ nsISelection
 *
 aSelection
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidDeleteSelection
@@ -604,6 +626,7 @@ nsISelection
 *
 aSelection
 )
+MOZ_OVERRIDE
 ;
 protected
 :

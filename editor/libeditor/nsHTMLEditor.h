@@ -323,11 +323,13 @@ bool
 *
 aIsDocumentEditable
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BeginningOfDocument
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -337,6 +339,7 @@ nsIDOMKeyEvent
 *
 aKeyEvent
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -346,6 +349,7 @@ nsIContent
 GetFocusedContent
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -355,12 +359,14 @@ nsIContent
 GetFocusedContentForIME
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsActiveInDOMWindow
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -376,6 +382,7 @@ EventTarget
 GetDOMEventTarget
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -402,6 +409,7 @@ nsINode
 *
 aNode
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -411,6 +419,7 @@ nsIDOMEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -420,6 +429,7 @@ nsIContent
 GetInputEventTargetContent
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -453,12 +463,13 @@ IMEState
 *
 aState
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_NSIHTMLEDITOR
 NS_DECL_NSIHTMLOBJECTRESIZER
 NS_DECL_NSIHTMLABSPOSEDITOR
 NS_DECL_NSIHTMLINLINETABLEEDITOR
-NS_IMETHOD
+nsresult
 CopyLastEditableChildStyles
 (
 nsIDOMNode
@@ -473,7 +484,7 @@ nsIDOMNode
 aOutBrNode
 )
 ;
-NS_IMETHOD
+nsresult
 LoadHTML
 (
 const
@@ -514,6 +525,7 @@ nsAString
 &
 aURL
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ReplaceStyleSheet
@@ -523,6 +535,7 @@ nsAString
 &
 aURL
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveStyleSheet
@@ -532,6 +545,7 @@ nsAString
 &
 aURL
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AddOverrideStyleSheet
@@ -541,6 +555,7 @@ nsAString
 &
 aURL
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ReplaceOverrideStyleSheet
@@ -550,6 +565,7 @@ nsAString
 &
 aURL
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveOverrideStyleSheet
@@ -559,6 +575,7 @@ nsAString
 &
 aURL
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 EnableStyleSheet
@@ -570,6 +587,7 @@ aURL
 bool
 aEnable
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_NSIEDITORMAILSUPPORT
 NS_IMETHOD
@@ -580,6 +598,7 @@ aNumber
 bool
 aAfter
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertTableColumn
@@ -589,6 +608,7 @@ aNumber
 bool
 aAfter
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertTableRow
@@ -598,11 +618,13 @@ aNumber
 bool
 aAfter
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DeleteTable
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DeleteTableCell
@@ -610,11 +632,13 @@ DeleteTableCell
 int32_t
 aNumber
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DeleteTableCellContents
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DeleteTableColumn
@@ -622,6 +646,7 @@ DeleteTableColumn
 int32_t
 aNumber
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DeleteTableRow
@@ -629,11 +654,13 @@ DeleteTableRow
 int32_t
 aNumber
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SelectTableCell
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SelectBlockOfCells
@@ -645,26 +672,31 @@ nsIDOMElement
 *
 aEndCell
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SelectTableRow
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SelectTableColumn
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SelectTable
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SelectAllTableCells
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SwitchTableCellHeaderType
@@ -677,6 +709,7 @@ nsIDOMElement
 *
 aNewCell
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 JoinTableCells
@@ -684,11 +717,13 @@ JoinTableCells
 bool
 aMergeNonContiguousContents
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SplitTableCell
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NormalizeTable
@@ -697,6 +732,7 @@ nsIDOMElement
 *
 aTable
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCellIndexes
@@ -711,6 +747,7 @@ int32_t
 *
 aColIndex
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetTableSize
@@ -725,6 +762,7 @@ int32_t
 *
 aColCount
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCellAt
@@ -741,6 +779,7 @@ nsIDOMElement
 *
 aCell
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCellDataAt
@@ -778,6 +817,7 @@ bool
 *
 aIsSelected
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetFirstRow
@@ -790,6 +830,7 @@ nsIDOMNode
 *
 aRowNode
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetNextRow
@@ -802,8 +843,9 @@ nsIDOMNode
 *
 aRowNode
 )
+MOZ_OVERRIDE
 ;
-NS_IMETHOD
+nsresult
 GetLastCellInRow
 (
 nsIDOMNode
@@ -830,6 +872,7 @@ aDirection
 bool
 aSelected
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectedOrParentTableElement
@@ -845,6 +888,7 @@ nsIDOMElement
 *
 aTableElement
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSelectedCellsType
@@ -856,6 +900,7 @@ uint32_t
 *
 aSelectionType
 )
+MOZ_OVERRIDE
 ;
 nsresult
 GetCellFromRange
@@ -881,6 +926,7 @@ nsIDOMElement
 *
 aCell
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetNextSelectedCell
@@ -894,6 +940,7 @@ nsIDOMElement
 *
 aCell
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetFirstSelectedCellInTable
@@ -909,8 +956,9 @@ nsIDOMElement
 *
 aCell
 )
+MOZ_OVERRIDE
 ;
-NS_IMETHOD
+nsresult
 SetCSSBackgroundColor
 (
 const
@@ -919,7 +967,7 @@ nsAString
 aColor
 )
 ;
-NS_IMETHOD
+nsresult
 SetHTMLBackgroundColor
 (
 const
@@ -1016,6 +1064,7 @@ nsresult
 EndUpdateViewBatch
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -1036,6 +1085,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PreDestroy
@@ -1043,6 +1093,7 @@ PreDestroy
 bool
 aDestroyingFrames
 )
+MOZ_OVERRIDE
 ;
 static
 bool
@@ -1094,6 +1145,7 @@ nsINode
 *
 aNode
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -1103,6 +1155,7 @@ SetFlags
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Paste
@@ -1110,6 +1163,7 @@ Paste
 int32_t
 aSelectionType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CanPaste
@@ -1120,6 +1174,7 @@ bool
 *
 aCanPaste
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PasteTransferable
@@ -1128,6 +1183,7 @@ nsITransferable
 *
 aTransferable
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CanPasteTransferable
@@ -1139,6 +1195,7 @@ bool
 *
 aCanPaste
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DebugUnitTests
@@ -1150,6 +1207,7 @@ int32_t
 *
 outNumTestsFailed
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 StartOperation
@@ -1162,11 +1220,13 @@ nsIEditor
 EDirection
 aDirection
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 EndOperation
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1215,6 +1275,7 @@ Selection
 *
 aSelection
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetAttributeOrEquivalent
@@ -1233,6 +1294,7 @@ aValue
 bool
 aSuppressTransaction
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveAttributeOrEquivalent
@@ -1247,6 +1309,7 @@ aAttribute
 bool
 aSuppressTransaction
 )
+MOZ_OVERRIDE
 ;
 nsresult
 CollapseAdjacentTextNodes
@@ -1277,6 +1340,7 @@ aAction
 EStripWrappers
 aStripWrappers
 )
+MOZ_OVERRIDE
 ;
 nsresult
 DeleteNode
@@ -1286,13 +1350,14 @@ nsINode
 aNode
 )
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 DeleteNode
 (
 nsIDOMNode
 *
 aNode
 )
+MOZ_OVERRIDE
 ;
 nsresult
 DeleteText
@@ -1339,6 +1404,7 @@ nsIDOMNode
 *
 aNode
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1348,6 +1414,7 @@ nsINode
 *
 aNode
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetIsSelectionEditable
@@ -1356,11 +1423,13 @@ bool
 *
 aIsSelectionEditable
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SelectAll
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRootElement
@@ -1370,6 +1439,7 @@ nsIDOMElement
 *
 aRootElement
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 StyleSheetLoaded
@@ -1385,6 +1455,7 @@ aWasAlternate
 nsresult
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 TypedText
@@ -1396,6 +1467,7 @@ aString
 ETypingAction
 aAction
 )
+MOZ_OVERRIDE
 ;
 nsresult
 InsertNodeAtPoint
@@ -1536,6 +1608,7 @@ CSSStyleSheet
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetURLForStyleSheet
@@ -1550,6 +1623,7 @@ nsAString
 &
 aURL
 )
+MOZ_OVERRIDE
 ;
 nsresult
 AddNewStyleSheetToList
@@ -1664,24 +1738,28 @@ NS_IMETHOD
 InitRules
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 CreateEventListeners
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
 InstallEventListeners
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 RemoveEventListeners
 (
 )
+MOZ_OVERRIDE
 ;
 bool
 ShouldReplaceRootElement
@@ -1776,6 +1854,7 @@ nsIEditor
 :
 eNone
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertCell
@@ -2216,8 +2295,9 @@ nsITransferable
 *
 transferable
 )
+MOZ_OVERRIDE
 ;
-NS_IMETHOD
+nsresult
 PrepareHTMLTransferable
 (
 nsITransferable
@@ -2228,7 +2308,7 @@ bool
 havePrivFlavor
 )
 ;
-NS_IMETHOD
+nsresult
 InsertFromTransferable
 (
 nsITransferable
@@ -2279,6 +2359,7 @@ aDestOffset
 bool
 aDoDeleteSelection
 )
+MOZ_OVERRIDE
 ;
 bool
 HavePrivateHTMLFlavor

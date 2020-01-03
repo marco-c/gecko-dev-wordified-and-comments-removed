@@ -810,7 +810,7 @@ return
 nullptr
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditor
 :
 :
@@ -3767,7 +3767,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditor
 :
 :
@@ -5228,7 +5228,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditor
 :
 :

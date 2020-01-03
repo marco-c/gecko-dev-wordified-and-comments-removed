@@ -99,6 +99,7 @@ void
 *
 aInstancePtr
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_EDITTXN
 protected
@@ -159,6 +160,7 @@ void
 *
 aInstancePtr
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_EDITTXN
 protected

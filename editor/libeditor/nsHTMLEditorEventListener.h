@@ -62,6 +62,7 @@ nsEditor
 *
 aEditor
 )
+MOZ_OVERRIDE
 ;
 #
 endif

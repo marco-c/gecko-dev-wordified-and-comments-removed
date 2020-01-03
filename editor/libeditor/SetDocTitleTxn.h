@@ -70,6 +70,7 @@ NS_IMETHOD
 RedoTransaction
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetIsTransient
@@ -78,6 +79,7 @@ bool
 *
 aIsTransient
 )
+MOZ_OVERRIDE
 ;
 protected
 :

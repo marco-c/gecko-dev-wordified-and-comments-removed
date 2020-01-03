@@ -11945,7 +11945,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditor
 :
 :
@@ -19500,7 +19500,7 @@ flags
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditor
 :
 :
@@ -20662,7 +20662,7 @@ AsDOMNode
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditor
 :
 :

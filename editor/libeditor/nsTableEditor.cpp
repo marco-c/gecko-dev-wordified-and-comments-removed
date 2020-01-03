@@ -1634,7 +1634,7 @@ return
 NS_EDITOR_ELEMENT_NOT_FOUND
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditor
 :
 :
