@@ -1602,14 +1602,12 @@ networkTypes
 .
 replace
 (
-"
+/
 -
 auto
-"
-"
-"
-"
+/
 g
+"
 "
 )
 .
