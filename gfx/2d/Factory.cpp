@@ -2864,6 +2864,11 @@ ID3D10Device1
 aDevice
 )
 {
+if
+(
+aDevice
+)
+{
 aDevice
 -
 >
@@ -2872,6 +2877,7 @@ SetExceptionMode
 0
 )
 ;
+}
 mD3D10Device
 =
 aDevice
