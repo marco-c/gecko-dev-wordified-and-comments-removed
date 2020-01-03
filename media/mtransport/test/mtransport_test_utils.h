@@ -154,6 +154,7 @@ ScopedXPCOM
 {
 public
 :
+explicit
 ScopedXPCOM
 (
 const
