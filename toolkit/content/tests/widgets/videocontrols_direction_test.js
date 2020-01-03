@@ -545,9 +545,8 @@ cleanup
 }
 else
 {
-ok
+info
 (
-true
 "
 Snapshot
 of
@@ -568,9 +567,8 @@ toDataURL
 )
 )
 ;
-ok
+info
 (
-true
 "
 Snapshot
 of
