@@ -2976,7 +2976,7 @@ flex
 "
 1
 "
-lazysrc
+src
 =
 "
 permissionstable
@@ -3001,7 +3001,7 @@ flex
 "
 1
 "
-lazysrc
+src
 =
 "
 runtimedetails
@@ -3051,7 +3051,7 @@ flex
 "
 1
 "
-lazysrc
+src
 =
 "
 devicepreferences
@@ -3076,7 +3076,7 @@ flex
 "
 1
 "
-lazysrc
+src
 =
 "
 devicesettings
