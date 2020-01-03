@@ -7,6 +7,13 @@ nsSupportsArrayEnumerator_h___
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIEnumerator
 .
 h
@@ -52,8 +59,10 @@ nsSupportsArrayEnumerator
 ;
 protected
 :
+nsCOMPtr
+<
 nsISupportsArray
-*
+>
 mArray
 ;
 int32_t

@@ -40,11 +40,6 @@ array
 "
 )
 ;
-NS_ADDREF
-(
-mArray
-)
-;
 }
 nsSupportsArrayEnumerator
 :
@@ -54,11 +49,6 @@ nsSupportsArrayEnumerator
 (
 )
 {
-NS_RELEASE
-(
-mArray
-)
-;
 }
 NS_IMPL_ISUPPORTS
 (
