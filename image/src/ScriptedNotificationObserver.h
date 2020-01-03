@@ -1,9 +1,9 @@
 #
 ifndef
-ScriptedNotificationObserver_h
+mozilla_image_src_ScriptedNotificationObserver_h
 #
 define
-ScriptedNotificationObserver_h
+mozilla_image_src_ScriptedNotificationObserver_h
 #
 include
 "
