@@ -209,3 +209,17 @@ tools
 gyp
 /
 pylib
+pyasn1
+.
+pth
+:
+python
+/
+pyasn1
+bitstring
+.
+pth
+:
+python
+/
+bitstring
