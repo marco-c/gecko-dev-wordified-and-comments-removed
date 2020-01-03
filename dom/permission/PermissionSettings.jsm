@@ -198,6 +198,7 @@ function
 aPrincipal
 aPermName
 aAction
+aAppKind
 )
 {
 let
@@ -222,6 +223,7 @@ aPermName
 aPrincipal
 .
 appStatus
+aAppKind
 )
 ;
 return
@@ -322,11 +324,11 @@ null
 )
 ;
 let
-appID
+app
 =
 appsService
 .
-getAppLocalIdByManifestURL
+getAppByManifestURL
 (
 aData
 .
@@ -343,7 +345,9 @@ scriptSecurityManager
 getAppCodebasePrincipal
 (
 uri
-appID
+app
+.
+localId
 aData
 .
 browserFlag
@@ -465,6 +469,9 @@ type
 aData
 .
 value
+app
+.
+kind
 )
 )
 {
@@ -482,7 +489,9 @@ origin
 "
 "
 +
-appID
+app
+.
+localId
 +
 "
 "
@@ -524,7 +533,9 @@ origin
 "
 "
 +
-appID
+app
+.
+localId
 +
 "
 "
