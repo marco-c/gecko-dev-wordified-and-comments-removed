@@ -17693,6 +17693,12 @@ lifoAlloc
 )
 ;
 }
+else
+{
+return
+true
+;
+}
 TemporaryTypeSet
 *
 type
