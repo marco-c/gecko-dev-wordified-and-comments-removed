@@ -725,6 +725,7 @@ return
 color
 ;
 }
+inline
 void
 delayMarkingArena
 (
