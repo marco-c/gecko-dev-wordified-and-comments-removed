@@ -808,7 +808,7 @@ key
 mCallback
 -
 >
-KeyIdUsable
+KeyStatusChanged
 (
 &
 aSessionId
@@ -830,6 +830,7 @@ keyId
 size
 (
 )
+kGMPUsable
 )
 ;
 }
@@ -1063,7 +1064,7 @@ mKeyId
 mCallback
 -
 >
-KeyIdUsable
+KeyStatusChanged
 (
 aSessionId
 aSessionIdLength
@@ -1083,6 +1084,7 @@ mKeyId
 size
 (
 )
+kGMPUsable
 )
 ;
 }
@@ -1566,7 +1568,7 @@ Id
 mCallback
 -
 >
-KeyIdNotUsable
+KeyStatusChanged
 (
 &
 sessionId
@@ -1592,6 +1594,7 @@ it
 size
 (
 )
+kGMPUnknown
 )
 ;
 }
