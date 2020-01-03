@@ -346,12 +346,12 @@ ok
 (
 UITour
 .
-originTabs
+tourBrowsersByWindow
 &
 &
 UITour
 .
-originTabs
+tourBrowsersByWindow
 .
 has
 (
@@ -369,7 +369,7 @@ ok
 (
 UITour
 .
-originTabs
+tourBrowsersByWindow
 .
 get
 (
@@ -379,9 +379,12 @@ gContentWindow
 has
 (
 selectedTab
+.
+linkedBrowser
 )
 "
-Tab
+Selected
+browser
 should
 be
 known
