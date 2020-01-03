@@ -221,15 +221,6 @@ mP2A
 ;
 }
 void
-IntersectClip
-(
-const
-nsRect
-&
-aRect
-)
-;
-void
 SetColor
 (
 nscolor
