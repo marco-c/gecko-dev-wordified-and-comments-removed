@@ -2050,6 +2050,11 @@ XPCWrappedNativeTearOff
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+XPCWrappedNativeTearOff
+)
+;
 MOZ_ASSERT
 (
 !
