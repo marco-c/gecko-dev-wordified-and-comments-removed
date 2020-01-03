@@ -549,12 +549,6 @@ defined
 (
 MOZ_HAVE_CXX11_STRONG_ENUMS
 )
-&
-&
-defined
-(
-MOZ_HAVE_EXPLICIT_CONVERSION
-)
 static_assert
 (
 !
@@ -2062,9 +2056,6 @@ convertible
 "
 )
 ;
-#
-ifdef
-MOZ_HAVE_EXPLICIT_CONVERSION
 static_assert
 (
 !
@@ -2172,8 +2163,6 @@ convertible
 "
 )
 ;
-#
-endif
 }
 MOZ_BEGIN_ENUM_CLASS
 (
