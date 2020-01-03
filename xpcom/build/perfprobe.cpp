@@ -447,6 +447,10 @@ nsACString
 aApplicationName
 )
 :
+mIsActive
+(
+false
+)
 mApplicationUID
 (
 aApplicationUID
@@ -462,6 +466,10 @@ mSessionHandle
 mRegistrationHandle
 (
 0
+)
+mInitialized
+(
+false
 )
 {
 #
