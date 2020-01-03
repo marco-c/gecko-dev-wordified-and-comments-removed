@@ -349,7 +349,7 @@ R
 .
 layout
 .
-tabs_row
+tabs_layout_item_view
 parent
 false
 )
