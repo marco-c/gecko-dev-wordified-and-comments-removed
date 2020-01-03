@@ -1949,6 +1949,11 @@ READY
 case
 ROOM_STATES
 .
+GATHER
+:
+case
+ROOM_STATES
+.
 INIT
 :
 case
