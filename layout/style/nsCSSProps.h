@@ -936,6 +936,15 @@ CSS_PROPERTY_NUMBERS_ARE_PIXELS
 <
 24
 )
+#
+define
+CSS_PROPERTY_LOGICAL
+(
+1
+<
+<
+25
+)
 enum
 nsStyleAnimType
 {
