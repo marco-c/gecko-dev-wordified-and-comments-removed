@@ -189,7 +189,8 @@ Exposed
 =
 (
 Window
-Worker
+DedicatedWorker
+SharedWorker
 System
 )
 ]
@@ -256,7 +257,8 @@ Exposed
 =
 (
 Window
-Worker
+DedicatedWorker
+SharedWorker
 System
 )
 ]
