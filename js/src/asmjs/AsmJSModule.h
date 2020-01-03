@@ -2894,6 +2894,8 @@ mozilla
 UniquePtr
 <
 char
+[
+]
 JS
 :
 :
