@@ -1090,7 +1090,7 @@ mInstance
 ;
 nsPluginFrame
 *
-mObjectFrame
+mPluginFrame
 ;
 nsIContent
 *
