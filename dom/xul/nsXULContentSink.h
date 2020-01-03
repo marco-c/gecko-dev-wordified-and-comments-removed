@@ -508,8 +508,10 @@ nsXULPrototypeDocument
 >
 mPrototype
 ;
+nsRefPtr
+<
 nsParserBase
-*
+>
 mParser
 ;
 nsCOMPtr
