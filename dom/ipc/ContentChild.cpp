@@ -2666,6 +2666,16 @@ BlockScripts
 (
 )
 ;
+GetIPCChannel
+(
+)
+-
+>
+SetAbortOnError
+(
+true
+)
+;
 #
 ifdef
 MOZ_X11
