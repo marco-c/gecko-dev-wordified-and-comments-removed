@@ -1284,7 +1284,8 @@ path
 path
 )
     
-return
+ret
+=
 os
 .
 path
@@ -1293,6 +1294,19 @@ join
 (
 FILE_PATH_PREFIX
 path
+)
+    
+return
+ret
+.
+replace
+(
+os
+.
+sep
+'
+/
+'
 )
 def
 WriteManifest
