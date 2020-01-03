@@ -1,14 +1,10 @@
 if
 (
+!
 (
 this
 .
 SharedArrayBuffer
-&
-&
-this
-.
-AtomicsObject
 &
 &
 this
