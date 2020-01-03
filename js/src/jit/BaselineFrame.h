@@ -38,6 +38,8 @@ public
 :
 enum
 Flags
+:
+uint32_t
 {
 HAS_RVAL
 =
