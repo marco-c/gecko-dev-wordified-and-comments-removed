@@ -518,6 +518,11 @@ mallocSizeOf
 )
 const
 ;
+void
+FlushCache
+(
+)
+;
 private
 :
 explicit
