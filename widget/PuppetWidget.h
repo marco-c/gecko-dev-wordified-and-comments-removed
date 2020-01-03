@@ -540,6 +540,13 @@ aTargets
 const
 override
 ;
+bool
+AsyncPanZoomEnabled
+(
+)
+const
+override
+;
 NS_IMETHOD
 CaptureRollupEvents
 (

@@ -3643,6 +3643,16 @@ mForceLayerForScrollParent
 (
 false
 )
+mAsyncPanZoomEnabled
+(
+nsLayoutUtils
+:
+:
+AsyncPanZoomEnabled
+(
+aReferenceFrame
+)
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -12390,6 +12400,7 @@ nsLayoutUtils
 :
 UsesAsyncScrolling
 (
+mFrame
 )
 |
 |
@@ -22057,6 +22068,7 @@ nsLayoutUtils
 :
 UsesAsyncScrolling
 (
+mFrame
 )
 )
 {
