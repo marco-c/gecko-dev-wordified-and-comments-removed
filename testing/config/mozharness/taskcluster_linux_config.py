@@ -19,7 +19,6 @@ binary_path
 )
 s
 "
-        
 "
 -
 -
@@ -47,7 +46,6 @@ bin
 /
 plugins
 "
-        
 "
 -
 -
@@ -81,7 +79,6 @@ binary_path
 )
 s
 "
-        
 "
 -
 -
@@ -109,7 +106,6 @@ bin
 /
 plugins
 "
-        
 "
 -
 -
@@ -135,7 +131,6 @@ tests
 /
 certs
 "
-        
 "
 -
 -
@@ -155,7 +150,6 @@ true
 -
 quiet
 "
-        
 "
 -
 -
@@ -169,21 +163,6 @@ raw_log_file
 )
 s
 "
-        
-"
--
--
-log
--
-errorsummary
-=
-%
-(
-error_summary_file
-)
-s
-"
-        
 "
 -
 -
@@ -213,7 +192,6 @@ app_path
 )
 s
 "
-        
 "
 -
 -
@@ -241,7 +219,6 @@ bin
 /
 plugins
 "
-        
 "
 -
 -
@@ -277,7 +254,6 @@ level
 =
 INFO
 "
-        
 "
 -
 -
