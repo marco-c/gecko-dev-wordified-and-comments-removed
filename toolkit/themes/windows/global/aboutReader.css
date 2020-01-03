@@ -2052,3 +2052,15 @@ svg
 )
 ;
 }
+media
+print
+{
+.
+toolbar
+{
+display
+:
+none
+;
+}
+}
