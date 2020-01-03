@@ -1741,7 +1741,7 @@ MATHML_FRACTION
 mathml
 fraction
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_MATH_FRACTION
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1755,7 +1755,7 @@ mathml
 square
 root
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_MATH_ROOT
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
@@ -1768,7 +1768,7 @@ MATHML_ROOT
 mathml
 root
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_MATH_ROOT
 NSAccessibilityUnknownRole
 0
 IA2_ROLE_UNKNOWN
