@@ -244,6 +244,13 @@ double
 aVolume
 )
 ;
+void
+SetSameOrigin
+(
+bool
+aSameOrigin
+)
+;
 int64_t
 AudioEndTime
 (
@@ -271,8 +278,6 @@ const
 bool
 SendData
 (
-bool
-aIsSameOrigin
 )
 ;
 protected
@@ -364,6 +369,9 @@ mPlaying
 ;
 double
 mVolume
+;
+bool
+mSameOrigin
 ;
 Maybe
 <
