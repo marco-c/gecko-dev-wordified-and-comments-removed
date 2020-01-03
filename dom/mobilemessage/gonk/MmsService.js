@@ -1854,7 +1854,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMMozCdmaIccInfo
+nsICdmaIccInfo
 )
 ;
 number
@@ -1874,7 +1874,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMMozGsmIccInfo
+nsIGsmIccInfo
 )
 ;
 number
