@@ -114,13 +114,13 @@ namespace
 dom
 {
 class
-ArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
+ArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
 ;
 class
 InternalRequest
 ;
 class
-OwningArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
+OwningArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
 ;
 class
 RequestOrUSVString
@@ -169,7 +169,7 @@ nsresult
 ExtractByteStreamFromBody
 (
 const
-OwningArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
+OwningArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
 &
 aBodyInit
 nsIInputStream
@@ -185,7 +185,7 @@ nsresult
 ExtractByteStreamFromBody
 (
 const
-ArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
+ArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
 &
 aBodyInit
 nsIInputStream

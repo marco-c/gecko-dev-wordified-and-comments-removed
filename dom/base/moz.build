@@ -426,6 +426,11 @@ nsFocusManager
 h
 '
 '
+nsFormData
+.
+h
+'
+'
 nsFrameMessageManager
 .
 h

@@ -535,7 +535,7 @@ nullptr
 }
 Optional
 <
-ArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
+ArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
 >
 body
 ;
@@ -671,7 +671,7 @@ aGlobal
 const
 Optional
 <
-ArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
+ArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
 >
 &
 aBody

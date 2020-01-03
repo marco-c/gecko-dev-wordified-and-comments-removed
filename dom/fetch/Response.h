@@ -358,7 +358,7 @@ aGlobal
 const
 Optional
 <
-ArrayBufferOrArrayBufferViewOrBlobOrUSVStringOrURLSearchParams
+ArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
 >
 &
 aBody
