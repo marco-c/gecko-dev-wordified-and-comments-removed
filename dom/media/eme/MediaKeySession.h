@@ -403,6 +403,10 @@ MakePromise
 ErrorResult
 &
 aRv
+const
+nsACString
+&
+aName
 )
 ;
 nsRefPtr
