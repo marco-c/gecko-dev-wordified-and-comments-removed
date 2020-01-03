@@ -1566,9 +1566,9 @@ aValue
 =
 1
 ?
-0
+0u
 :
-64
+64u
 -
 CountLeadingZeroes64
 (
