@@ -888,6 +888,7 @@ IntervalSet
 )
 {
 }
+virtual
 ~
 IntervalSet
 (
