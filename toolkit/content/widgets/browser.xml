@@ -4166,7 +4166,7 @@ initEvent
 DOMAudioPlaybackStarted
 "
 true
-true
+false
 )
 ;
 this
@@ -4223,7 +4223,7 @@ initEvent
 DOMAudioPlaybackStopped
 "
 true
-true
+false
 )
 ;
 this
