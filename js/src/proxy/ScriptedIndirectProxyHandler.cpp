@@ -1027,7 +1027,7 @@ fval
 )
 &
 &
-NewPropertyDescriptorObject
+FromPropertyDescriptor
 (
 cx
 desc

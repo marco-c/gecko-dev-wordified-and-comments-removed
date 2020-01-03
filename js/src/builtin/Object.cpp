@@ -3755,7 +3755,7 @@ desc
 )
 &
 &
-NewPropertyDescriptorObject
+FromPropertyDescriptor
 (
 cx
 desc
