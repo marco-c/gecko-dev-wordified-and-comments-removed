@@ -330,9 +330,7 @@ else
 {
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 contentWindow
 .
@@ -605,9 +603,7 @@ is
 (
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 contentWindow
 .

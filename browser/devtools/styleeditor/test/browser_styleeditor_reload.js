@@ -68,9 +68,7 @@ gContentWin
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 contentWindow
 .

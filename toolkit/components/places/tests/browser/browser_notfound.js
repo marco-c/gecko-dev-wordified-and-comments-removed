@@ -67,9 +67,7 @@ TEST_URL
 ;
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 loadURI
 (

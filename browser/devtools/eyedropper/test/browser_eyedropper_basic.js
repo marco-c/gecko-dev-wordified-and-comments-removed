@@ -226,9 +226,7 @@ box
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 getBoundingClientRect
 (

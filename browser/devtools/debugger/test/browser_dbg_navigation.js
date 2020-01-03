@@ -302,9 +302,7 @@ resolve
 ;
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 loadURI
 (

@@ -825,9 +825,7 @@ browser
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 ;
 browser
 .
@@ -912,9 +910,7 @@ browser
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 ;
 browser
 .

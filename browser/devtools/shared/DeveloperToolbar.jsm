@@ -1180,9 +1180,7 @@ chromeWindow
 .
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 contentWindow
 ;

@@ -228,9 +228,7 @@ tabBrowser
 =
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 ;
 tabBrowser
 .

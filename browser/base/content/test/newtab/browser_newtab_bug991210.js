@@ -71,9 +71,7 @@ gWindow
 .
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 ;
 yield
 browser

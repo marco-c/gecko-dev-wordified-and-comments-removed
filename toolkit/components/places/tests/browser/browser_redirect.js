@@ -108,9 +108,7 @@ removeCurrentTab
 ;
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 loadURI
 (
