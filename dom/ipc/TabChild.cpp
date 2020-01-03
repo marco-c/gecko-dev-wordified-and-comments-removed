@@ -13436,6 +13436,10 @@ mTabChild
 aTabChild
 )
 {
+SetIsNotDOMBinding
+(
+)
+;
 }
 TabChildGlobal
 :
