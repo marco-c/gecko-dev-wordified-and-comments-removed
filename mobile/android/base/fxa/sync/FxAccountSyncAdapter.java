@@ -629,7 +629,7 @@ SYNC_EXTRAS_RESPECT_REMOTE_SERVER_BACKOFF
 respect_remote_server_backoff
 "
 ;
-protected
+public
 static
 final
 int
