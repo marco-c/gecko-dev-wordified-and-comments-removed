@@ -61,6 +61,15 @@ nsIScreenManager
 .
 h
 "
+#
+include
+<
+android
+/
+native_window
+.
+h
+>
 class
 nsRunnable
 ;
