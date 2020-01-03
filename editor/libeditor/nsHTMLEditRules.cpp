@@ -23474,6 +23474,8 @@ NS_ERROR_NULL_POINTER
 ;
 nsresult
 res
+=
+NS_OK
 ;
 nsCOMPtr
 <
