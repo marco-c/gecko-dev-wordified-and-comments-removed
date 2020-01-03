@@ -184,6 +184,9 @@ css
 GridNamedArea
 GridNamedArea
 ;
+class
+GridItemCSSOrderIterator
+;
 friend
 nsContainerFrame
 *
@@ -750,6 +753,9 @@ aStyle
 void
 PlaceGridItems
 (
+GridItemCSSOrderIterator
+&
+aIter
 const
 nsStylePosition
 *
@@ -1094,6 +1100,9 @@ const
 void
 ReflowChildren
 (
+GridItemCSSOrderIterator
+&
+aIter
 const
 LogicalRect
 &
@@ -1151,6 +1160,11 @@ mGridColEnd
 ;
 uint32_t
 mGridRowEnd
+;
+bool
+mIsNormalFlowInCSSOrder
+:
+1
 ;
 }
 ;
