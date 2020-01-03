@@ -32667,6 +32667,9 @@ JS
 :
 HandleObject
 obj
+bool
+*
+succeeded
 )
 {
 return
@@ -32677,6 +32680,7 @@ preventExtensions
 (
 cx
 obj
+succeeded
 )
 ;
 }

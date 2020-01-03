@@ -154,6 +154,9 @@ JSContext
 cx
 HandleObject
 wrapper
+bool
+*
+succeeded
 )
 const
 {
@@ -169,6 +172,7 @@ preventExtensions
 (
 cx
 wrapper
+succeeded
 )
 NOTHING
 )
