@@ -6,10 +6,10 @@ equ
 0
 ARCH_X86
 equ
-0
+1
 ARCH_X86_64
 equ
-1
+0
 ARCH_PPC32
 equ
 0
@@ -57,10 +57,10 @@ equ
 1
 HAVE_AVX
 equ
-0
+1
 HAVE_AVX2
 equ
-0
+1
 HAVE_ALTIVEC
 equ
 0

@@ -14,7 +14,7 @@ vpx_scale_rtcd_x86_64
 -
 win64
 -
-vs8
+vs12
 .
 h
 "
@@ -49,7 +49,7 @@ vpx_scale_rtcd_x86
 -
 win32
 -
-vs8
+vs12
 .
 h
 "

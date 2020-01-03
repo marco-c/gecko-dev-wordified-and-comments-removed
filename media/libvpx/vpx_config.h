@@ -20,7 +20,7 @@ vpx_config_x86_64
 -
 win64
 -
-vs8
+vs12
 .
 h
 "
@@ -55,7 +55,7 @@ vpx_config_x86
 -
 win32
 -
-vs8
+vs12
 .
 h
 "

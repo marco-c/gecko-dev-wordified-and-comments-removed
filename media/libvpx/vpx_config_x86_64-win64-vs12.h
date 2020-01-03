@@ -22,11 +22,11 @@ ARCH_MIPS
 #
 define
 ARCH_X86
-1
+0
 #
 define
 ARCH_X86_64
-0
+1
 #
 define
 ARCH_PPC32
@@ -90,11 +90,11 @@ HAVE_SSE4_1
 #
 define
 HAVE_AVX
-0
+1
 #
 define
 HAVE_AVX2
-0
+1
 #
 define
 HAVE_ALTIVEC
