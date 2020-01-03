@@ -448,13 +448,13 @@ BluetoothStatus
 aStatus
 )
 ;
-nsAutoPtr
+nsRefPtr
 <
 BluetoothDaemonChannel
 >
 mCmdChannel
 ;
-nsAutoPtr
+nsRefPtr
 <
 BluetoothDaemonChannel
 >
