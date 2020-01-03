@@ -599,6 +599,16 @@ contentPreferences
 "
 )
 ;
+preferences
+.
+hidden
+=
+false
+;
+preferences
+.
+clientHeight
+;
 for
 (
 var
