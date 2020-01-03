@@ -672,14 +672,6 @@ lir
 )
 ;
 void
-visitNurseryObject
-(
-LNurseryObject
-*
-lir
-)
-;
-void
 visitKeepAliveObject
 (
 LKeepAliveObject
@@ -2745,6 +2737,7 @@ emitAssertResultV
 const
 ValueOperand
 output
+const
 TemporaryTypeSet
 *
 typeset
@@ -2757,6 +2750,7 @@ Register
 input
 MIRType
 type
+const
 TemporaryTypeSet
 *
 typeset

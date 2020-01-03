@@ -235,6 +235,11 @@ gcNursery
 (
 )
 ;
+void
+setMinorGCShouldCancelIonCompilations
+(
+)
+;
 }
 ;
 class
