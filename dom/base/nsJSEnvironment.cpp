@@ -9064,13 +9064,6 @@ true
 nsJSContext
 :
 :
-KillGCTimer
-(
-)
-;
-nsJSContext
-:
-:
 KillShrinkGCBuffersTimer
 (
 )
