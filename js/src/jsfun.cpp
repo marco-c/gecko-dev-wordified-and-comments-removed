@@ -10517,7 +10517,7 @@ nonLazyScript
 )
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )

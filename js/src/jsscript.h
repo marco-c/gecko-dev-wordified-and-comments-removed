@@ -3207,7 +3207,7 @@ explicitUseStrict_
 1
 ;
 bool
-hasNonSyntacticScope_
+hasPollutedGlobalScope_
 :
 1
 ;
@@ -3956,13 +3956,13 @@ explicitUseStrict_
 ;
 }
 bool
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 const
 {
 return
-hasNonSyntacticScope_
+hasPollutedGlobalScope_
 ;
 }
 bool

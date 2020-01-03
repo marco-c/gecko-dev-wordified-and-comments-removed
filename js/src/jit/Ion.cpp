@@ -10935,7 +10935,7 @@ if
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 &
@@ -10955,9 +10955,7 @@ cx
 script
 "
 has
-non
--
-syntactic
+polluted
 global
 scope
 "
