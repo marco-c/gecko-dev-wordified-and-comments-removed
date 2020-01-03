@@ -1794,7 +1794,7 @@ if
 (
 UITour
 .
-originTabs
+tourBrowsersByWindow
 .
 get
 (
@@ -1804,7 +1804,7 @@ window
 &
 UITour
 .
-originTabs
+tourBrowsersByWindow
 .
 get
 (
@@ -1815,7 +1815,7 @@ has
 (
 gBrowser
 .
-selectedTab
+selectedBrowser
 )
 )
 {
