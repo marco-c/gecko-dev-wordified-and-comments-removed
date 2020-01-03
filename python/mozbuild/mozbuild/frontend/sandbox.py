@@ -905,6 +905,9 @@ path
 =
 '
 '
+becomes_current_path
+=
+True
 )
 :
         
@@ -978,6 +981,8 @@ weirdly
         
 if
 path
+and
+becomes_current_path
 :
             
 self
@@ -1064,20 +1069,36 @@ self
 .
 _last_name_error
             
-raise
-SandboxExecutionError
-(
+source_stack
+=
 self
 .
 _context
 .
 source_stack
+            
+if
+not
+becomes_current_path
+:
                 
+source_stack
+.
+append
+(
+path
+)
+            
+raise
+SandboxExecutionError
+(
+source_stack
 type
 (
 actual
 )
 actual
+                                        
 sys
 .
 exc_info
@@ -1102,19 +1123,34 @@ exc_info
 (
 )
             
-raise
-SandboxExecutionError
-(
+source_stack
+=
 self
 .
 _context
 .
 source_stack
+            
+if
+not
+becomes_current_path
+:
+                
+source_stack
+.
+append
+(
+path
+)
+            
+raise
+SandboxExecutionError
+(
+source_stack
 exc
 [
 0
 ]
-                
 exc
 [
 1

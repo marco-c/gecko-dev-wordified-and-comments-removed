@@ -2770,7 +2770,7 @@ DIRS
 '
 :
 [
-sandbox
+sandbox2
 .
 normalize_path
 (
