@@ -8763,7 +8763,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_DOCUMENT
+TYPE_OTHER
 )
 ;
 if
