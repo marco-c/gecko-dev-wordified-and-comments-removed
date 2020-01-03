@@ -116,6 +116,11 @@ ServiceWorkerContainer
 h
 '
 '
+ServiceWorkerEvents
+.
+h
+'
+'
 ServiceWorkerRegistration
 .
 h

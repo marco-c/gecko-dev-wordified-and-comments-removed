@@ -700,6 +700,11 @@ EventTarget
 webidl
 '
 '
+ExtendableEvent
+.
+webidl
+'
+'
 Fetch
 .
 webidl
@@ -1271,11 +1276,6 @@ webidl
 '
 '
 InstallEvent
-.
-webidl
-'
-'
-InstallPhaseEvent
 .
 webidl
 '
