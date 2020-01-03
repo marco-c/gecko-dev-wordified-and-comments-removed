@@ -69,6 +69,8 @@ notifyObservers
 (
 null
 STATE_CHANGED_TOPIC
+imports
+.
 fxaMigrator
 .
 STATE_USER_FXA
@@ -178,6 +180,8 @@ notifyObservers
 (
 email
 STATE_CHANGED_TOPIC
+imports
+.
 fxaMigrator
 .
 STATE_USER_FXA_VERIFIED
