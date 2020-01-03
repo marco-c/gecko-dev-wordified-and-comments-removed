@@ -3730,6 +3730,7 @@ MozLoopServiceInternal
 .
 hawkRequest
 (
+sessionType
 path
 method
 payloadObj
