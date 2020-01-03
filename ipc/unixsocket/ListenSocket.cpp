@@ -189,10 +189,8 @@ FireSocketError
 (
 )
 ;
-RefPtr
-<
 ListenSocket
->
+*
 mListenSocket
 ;
 nsAutoPtr
@@ -775,10 +773,6 @@ GetSocketBase
 {
 return
 mListenSocket
-.
-get
-(
-)
 ;
 }
 bool

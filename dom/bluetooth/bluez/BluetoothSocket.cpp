@@ -263,10 +263,8 @@ FireSocketError
 (
 )
 ;
-RefPtr
-<
 BluetoothSocket
->
+*
 mConsumer
 ;
 nsAutoPtr
@@ -510,10 +508,6 @@ GetBluetoothSocket
 {
 return
 mConsumer
-.
-get
-(
-)
 ;
 }
 DataSocket

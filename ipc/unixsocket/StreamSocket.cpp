@@ -211,10 +211,8 @@ override
 ;
 private
 :
-RefPtr
-<
 StreamSocket
->
+*
 mStreamSocket
 ;
 bool
@@ -378,10 +376,6 @@ GetStreamSocket
 {
 return
 mStreamSocket
-.
-get
-(
-)
 ;
 }
 DataSocket
@@ -394,9 +388,7 @@ GetDataSocket
 )
 {
 return
-mStreamSocket
-.
-get
+GetStreamSocket
 (
 )
 ;

@@ -331,10 +331,6 @@ GetBluetoothSocket
 {
 return
 mConsumer
-.
-get
-(
-)
 ;
 }
 DataSocket
@@ -349,10 +345,8 @@ GetBluetoothSocket
 )
 ;
 }
-RefPtr
-<
 BluetoothSocket
->
+*
 mConsumer
 ;
 nsresult
