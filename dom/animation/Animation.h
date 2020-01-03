@@ -132,10 +132,10 @@ CommonAnimationManager
 ;
 }
 class
-CSSAnimationPlayer
+CSSAnimation
 ;
 class
-CSSTransitionPlayer
+CSSTransition
 ;
 namespace
 dom
@@ -239,9 +239,9 @@ aGivenProto
 override
 ;
 virtual
-CSSAnimationPlayer
+CSSAnimation
 *
-AsCSSAnimationPlayer
+AsCSSAnimation
 (
 )
 {
@@ -250,9 +250,9 @@ nullptr
 ;
 }
 virtual
-CSSTransitionPlayer
+CSSTransition
 *
-AsCSSTransitionPlayer
+AsCSSTransition
 (
 )
 {

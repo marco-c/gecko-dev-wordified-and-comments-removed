@@ -233,7 +233,7 @@ const
 }
 ;
 class
-CSSTransitionPlayer
+CSSTransition
 final
 :
 public
@@ -245,7 +245,7 @@ Animation
 public
 :
 explicit
-CSSTransitionPlayer
+CSSTransition
 (
 dom
 :
@@ -265,9 +265,9 @@ aTimeline
 {
 }
 virtual
-CSSTransitionPlayer
+CSSTransition
 *
-AsCSSTransitionPlayer
+AsCSSTransition
 (
 )
 override
@@ -315,7 +315,7 @@ protected
 :
 virtual
 ~
-CSSTransitionPlayer
+CSSTransition
 (
 )
 {

@@ -462,7 +462,7 @@ dom
 :
 :
 AnimationPlayState
-CSSTransitionPlayer
+CSSTransition
 :
 :
 PlayStateFromJS
@@ -484,7 +484,7 @@ PlayStateFromJS
 ;
 }
 void
-CSSTransitionPlayer
+CSSTransition
 :
 :
 PlayFromJS
@@ -505,7 +505,7 @@ PlayFromJS
 }
 CommonAnimationManager
 *
-CSSTransitionPlayer
+CSSTransition
 :
 :
 GetAnimationManager
@@ -2471,12 +2471,12 @@ tf
 ;
 nsRefPtr
 <
-CSSTransitionPlayer
+CSSTransition
 >
 animation
 =
 new
-CSSTransitionPlayer
+CSSTransition
 (
 timeline
 )
