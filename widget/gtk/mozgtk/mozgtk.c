@@ -267,6 +267,10 @@ gdk_screen_get_system_visual
 )
 STUB
 (
+gdk_screen_get_width
+)
+STUB
+(
 gdk_screen_height
 )
 STUB
@@ -1771,6 +1775,10 @@ gtk_widget_map
 )
 STUB
 (
+gtk_widget_modify_bg
+)
+STUB
+(
 gtk_widget_realize
 )
 STUB
@@ -1788,6 +1796,14 @@ gtk_widget_set_app_paintable
 STUB
 (
 gtk_window_set_auto_startup_notification
+)
+STUB
+(
+gtk_window_set_opacity
+)
+STUB
+(
+gtk_window_set_screen
 )
 STUB
 (
