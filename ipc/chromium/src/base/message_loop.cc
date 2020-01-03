@@ -1355,7 +1355,7 @@ negative
 "
 ;
 }
-scoped_refptr
+nsRefPtr
 <
 base
 :
