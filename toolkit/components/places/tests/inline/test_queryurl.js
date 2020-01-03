@@ -22,11 +22,9 @@ org
 /
 "
 function
-*
 (
 )
 {
-yield
 PlacesTestUtils
 .
 addVisits
@@ -114,11 +112,9 @@ org
 /
 "
 function
-*
 (
 )
 {
-yield
 PlacesTestUtils
 .
 addVisits
@@ -209,11 +205,9 @@ test
 /
 "
 function
-*
 (
 )
 {
-yield
 PlacesTestUtils
 .
 addVisits
@@ -297,11 +291,9 @@ file
 file
 "
 function
-*
 (
 )
 {
-yield
 PlacesTestUtils
 .
 addVisits
