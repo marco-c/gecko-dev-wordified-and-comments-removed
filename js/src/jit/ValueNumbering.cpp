@@ -554,7 +554,7 @@ type
 from
 -
 >
-replaceAllUsesWith
+justReplaceAllUsesWith
 (
 to
 )
@@ -926,6 +926,8 @@ const
 MBasicBlock
 *
 phiBlock
+UseRemovedOption
+useRemovedOption
 )
 {
 for
@@ -1011,6 +1013,13 @@ false
 }
 else
 {
+if
+(
+useRemovedOption
+=
+=
+SetUseRemoved
+)
 op
 -
 >
@@ -1033,6 +1042,8 @@ discardInsOperands
 MInstruction
 *
 ins
+UseRemovedOption
+useRemovedOption
 )
 {
 for
@@ -1104,6 +1115,13 @@ false
 }
 else
 {
+if
+(
+useRemovedOption
+=
+=
+SetUseRemoved
+)
 op
 -
 >
@@ -1126,6 +1144,8 @@ deleteDef
 MDefinition
 *
 def
+UseRemovedOption
+useRemovedOption
 )
 {
 JitSpew
@@ -1226,6 +1246,7 @@ discardPhiOperands
 (
 phi
 phiBlock
+useRemovedOption
 )
 )
 return
@@ -1271,6 +1292,7 @@ if
 discardInsOperands
 (
 ins
+useRemovedOption
 )
 )
 return
@@ -2472,6 +2494,7 @@ r
 deleteDef
 (
 def
+DontSetUseRemoved
 )
 ;
 MOZ_ASSERT

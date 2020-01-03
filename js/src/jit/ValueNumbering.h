@@ -264,6 +264,13 @@ updateAliasAnalysis_
 bool
 dependenciesBroken_
 ;
+enum
+UseRemovedOption
+{
+DontSetUseRemoved
+SetUseRemoved
+}
+;
 bool
 deleteDefsRecursively
 (
@@ -282,6 +289,10 @@ const
 MBasicBlock
 *
 phiBlock
+UseRemovedOption
+useRemovedOption
+=
+SetUseRemoved
 )
 ;
 bool
@@ -290,6 +301,10 @@ discardInsOperands
 MInstruction
 *
 ins
+UseRemovedOption
+useRemovedOption
+=
+SetUseRemoved
 )
 ;
 bool
@@ -298,6 +313,10 @@ deleteDef
 MDefinition
 *
 def
+UseRemovedOption
+useRemovedOption
+=
+SetUseRemoved
 )
 ;
 bool

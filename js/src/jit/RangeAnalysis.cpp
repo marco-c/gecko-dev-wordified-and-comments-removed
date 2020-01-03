@@ -1402,7 +1402,7 @@ id
 def
 -
 >
-replaceAllUsesWith
+justReplaceAllUsesWith
 (
 op
 )

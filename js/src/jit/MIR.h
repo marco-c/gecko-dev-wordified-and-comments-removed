@@ -2411,6 +2411,14 @@ MDefinition
 dom
 )
 ;
+void
+justReplaceAllUsesWith
+(
+MDefinition
+*
+dom
+)
+;
 virtual
 bool
 updateForReplacement
