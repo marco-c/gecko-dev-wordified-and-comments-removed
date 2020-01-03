@@ -5103,6 +5103,12 @@ IonBuilder
 *
 callerBuilder_
 ;
+IonBuilder
+*
+outermostBuilder
+(
+)
+;
 bool
 oom
 (
