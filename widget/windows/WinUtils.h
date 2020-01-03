@@ -678,6 +678,10 @@ static
 void
 WaitForMessage
 (
+DWORD
+aTimeoutMs
+=
+INFINITE
 )
 ;
 static
