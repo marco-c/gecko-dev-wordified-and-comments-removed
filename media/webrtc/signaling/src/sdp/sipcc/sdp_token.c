@@ -60,7 +60,7 @@ sdp_parse_version
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -79,7 +79,7 @@ sdp_p
 version
 =
 (
-u16
+uint16_t
 )
 sdp_getnextnumtok
 (
@@ -211,7 +211,7 @@ sdp_build_version
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -429,7 +429,7 @@ sdp_parse_owner
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -1346,7 +1346,7 @@ sdp_build_owner
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -1638,7 +1638,7 @@ sdp_parse_sessname
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -1813,7 +1813,7 @@ sdp_build_sessname
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -1964,7 +1964,7 @@ sdp_parse_sessinfo
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -2210,7 +2210,7 @@ sdp_build_sessinfo
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -2229,7 +2229,7 @@ sdp_parse_uri
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -2373,7 +2373,7 @@ sdp_build_uri
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -2392,7 +2392,7 @@ sdp_parse_email
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -2483,7 +2483,7 @@ sdp_build_email
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -2502,7 +2502,7 @@ sdp_parse_phonenum
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -2595,7 +2595,7 @@ sdp_build_phonenum
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -2614,7 +2614,7 @@ sdp_parse_connection
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -3931,7 +3931,7 @@ sdp_build_connection
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -4305,7 +4305,7 @@ sdp_parse_bandwidth
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -4844,7 +4844,7 @@ sdp_build_bandwidth
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -5023,7 +5023,7 @@ sdp_parse_timespec
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -5390,7 +5390,7 @@ sdp_build_timespec
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -5581,7 +5581,7 @@ sdp_parse_repeat_time
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -5676,7 +5676,7 @@ sdp_build_repeat_time
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -5695,7 +5695,7 @@ sdp_parse_timezone_adj
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -5787,7 +5787,7 @@ sdp_build_timezone_adj
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -5806,7 +5806,7 @@ sdp_parse_encryption
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -6261,7 +6261,7 @@ sdp_build_encryption
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -6482,7 +6482,7 @@ sdp_parse_media
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 const
 char
@@ -6490,15 +6490,15 @@ char
 ptr
 )
 {
-u16
+uint16_t
 i
 ;
-u16
+uint16_t
 num_port_params
 =
 0
 ;
-int32
+int32_t
 num
 [
 SDP_MAX_PORT_PARAMS
@@ -6537,7 +6537,7 @@ char
 *
 port_ptr
 ;
-int32
+int32_t
 sctp_port
 ;
 mca_p
@@ -8875,7 +8875,7 @@ sdp_build_media
 sdp_t
 *
 sdp_p
-u16
+uint16_t
 level
 flex_string
 *
@@ -9795,10 +9795,10 @@ char
 ptr
 )
 {
-u16
+uint16_t
 i
 ;
-u16
+uint16_t
 num_payloads
 ;
 sdp_result_e
@@ -9869,7 +9869,7 @@ num_payloads
 ]
 =
 (
-u16
+uint16_t
 )
 sdp_getnextnumtok
 (
@@ -10345,13 +10345,13 @@ char
 ptr
 )
 {
-u16
+uint16_t
 i
 ;
-u16
+uint16_t
 prof
 ;
-u16
+uint16_t
 payload
 ;
 sdp_result_e
@@ -10689,7 +10689,7 @@ payload
 ]
 =
 (
-u16
+uint16_t
 )
 sdp_getnextnumtok
 (
