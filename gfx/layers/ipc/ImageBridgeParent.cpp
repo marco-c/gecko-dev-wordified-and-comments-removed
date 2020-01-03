@@ -1011,9 +1011,11 @@ ImageBridgeParent
 aImageBridgeParent
 )
 {
-RELEASE_MANUALLY
-(
 aImageBridgeParent
+-
+>
+Release
+(
 )
 ;
 }
@@ -1025,9 +1027,8 @@ RecvStop
 (
 )
 {
-ADDREF_MANUALLY
+AddRef
 (
-this
 )
 ;
 MessageLoop
