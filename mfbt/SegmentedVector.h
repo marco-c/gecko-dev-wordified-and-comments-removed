@@ -429,6 +429,7 @@ Segment
 ;
 public
 :
+explicit
 SegmentedVector
 (
 size_t
@@ -741,6 +742,7 @@ mSegment
 size_t
 mIndex
 ;
+explicit
 IterImpl
 (
 SegmentedVector
