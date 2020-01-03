@@ -2110,27 +2110,6 @@ cppunittests
 '
 )
             
-manifest
-=
-os
-.
-path
-.
-join
-(
-self
-.
-topsrcdir
-'
-testing
-'
-'
-cppunittest
-.
-ini
-'
-)
-            
 tests
 =
 cppunittests
@@ -2143,7 +2122,6 @@ testdir
 mozinfo
 .
 info
-manifest
 )
         
 else
@@ -2164,7 +2142,6 @@ test_files
 mozinfo
 .
 info
-None
 )
         
 symbols_path
