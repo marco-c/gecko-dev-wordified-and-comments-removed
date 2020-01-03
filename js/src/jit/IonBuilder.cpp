@@ -34295,8 +34295,7 @@ object
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )

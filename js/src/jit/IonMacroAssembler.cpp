@@ -3341,8 +3341,7 @@ templateObj
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -3430,8 +3429,7 @@ templateObj
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -3989,8 +3987,7 @@ templateObject
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )

@@ -1170,8 +1170,7 @@ obj
 asTenured
 (
 )
--
->
+.
 zone
 (
 )

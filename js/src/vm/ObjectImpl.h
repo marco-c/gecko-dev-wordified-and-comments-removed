@@ -3148,8 +3148,7 @@ thingSize
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -4035,10 +4034,10 @@ obj
 asTenured
 (
 )
--
->
+.
 readBarrier
 (
+&
 obj
 -
 >
@@ -4082,10 +4081,10 @@ obj
 asTenured
 (
 )
--
->
+.
 writeBarrierPre
 (
+&
 obj
 -
 >

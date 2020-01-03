@@ -5658,8 +5658,7 @@ obj
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -5698,8 +5697,7 @@ obj
 asTenured
 (
 )
--
->
+.
 zone
 (
 )

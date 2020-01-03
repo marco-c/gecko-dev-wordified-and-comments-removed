@@ -347,7 +347,7 @@ this
 MOZ_ALWAYS_INLINE
 const
 TenuredCell
-*
+&
 asTenured
 (
 )
@@ -355,7 +355,7 @@ const
 ;
 MOZ_ALWAYS_INLINE
 TenuredCell
-*
+&
 asTenured
 (
 )
@@ -4393,7 +4393,7 @@ endif
 MOZ_ALWAYS_INLINE
 const
 TenuredCell
-*
+&
 Cell
 :
 :
@@ -4410,6 +4410,7 @@ isTenured
 )
 ;
 return
+*
 static_cast
 <
 const
@@ -4423,7 +4424,7 @@ this
 }
 MOZ_ALWAYS_INLINE
 TenuredCell
-*
+&
 Cell
 :
 :
@@ -4439,6 +4440,7 @@ isTenured
 )
 ;
 return
+*
 static_cast
 <
 TenuredCell
@@ -5620,8 +5622,7 @@ return
 asTenured
 (
 )
--
->
+.
 isAligned
 (
 )

@@ -5564,8 +5564,7 @@ templateObject
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )

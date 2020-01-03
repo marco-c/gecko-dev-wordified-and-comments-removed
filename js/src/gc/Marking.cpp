@@ -1200,8 +1200,7 @@ thing
 asTenured
 (
 )
--
->
+.
 arenaHeader
 (
 )
@@ -2149,8 +2148,7 @@ thingp
 asTenured
 (
 )
--
->
+.
 zone
 (
 )
@@ -2216,8 +2214,7 @@ thingp
 asTenured
 (
 )
--
->
+.
 isMarked
 (
 )
@@ -2422,8 +2419,7 @@ thing
 asTenured
 (
 )
--
->
+.
 zone
 (
 )
@@ -2454,8 +2450,7 @@ thing
 asTenured
 (
 )
--
->
+.
 arenaHeader
 (
 )
@@ -2472,8 +2467,7 @@ thing
 asTenured
 (
 )
--
->
+.
 isMarked
 (
 )
@@ -3397,8 +3391,7 @@ cell
 asTenured
 (
 )
--
->
+.
 getAllocKind
 (
 )
@@ -5153,7 +5146,7 @@ false
 ;
 }
 TenuredCell
-*
+&
 tenured
 =
 cell
@@ -5171,8 +5164,7 @@ Zone
 zone
 =
 tenured
--
->
+.
 zone
 (
 )
@@ -5188,8 +5180,7 @@ BLACK
 if
 (
 tenured
--
->
+.
 isMarked
 (
 GRAY
@@ -5247,8 +5238,7 @@ if
 (
 !
 tenured
--
->
+.
 isMarked
 (
 )
@@ -5605,8 +5595,7 @@ thing
 asTenured
 (
 )
--
->
+.
 markIfUnmarked
 (
 gcmarker
@@ -5688,8 +5677,7 @@ thing
 asTenured
 (
 )
--
->
+.
 markIfUnmarked
 (
 gcmarker
@@ -5749,8 +5737,7 @@ thing
 asTenured
 (
 )
--
->
+.
 markIfUnmarked
 (
 gcmarker
@@ -9280,8 +9267,7 @@ obj2
 asTenured
 (
 )
--
->
+.
 markIfUnmarked
 (
 getMarkColor
