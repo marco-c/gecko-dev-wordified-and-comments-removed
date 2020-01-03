@@ -5124,7 +5124,7 @@ nsChangeHint
 (
 nsChangeHint_RecomputePosition
 |
-nsChangeHint_UpdateOverflow
+nsChangeHint_UpdateParentOverflow
 )
 )
 ;
