@@ -167,3 +167,6 @@ Library
 tlsserver
 '
 )
+FAIL_ON_WARNINGS
+=
+True

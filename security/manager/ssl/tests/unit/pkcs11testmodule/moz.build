@@ -139,3 +139,6 @@ True
 NO_DIST_INSTALL
 =
 True
+FAIL_ON_WARNINGS
+=
+True
