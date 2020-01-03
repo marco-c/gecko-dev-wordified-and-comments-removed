@@ -5934,6 +5934,9 @@ rt
 gcInitialized
 )
 {
+AutoSetThreadIsSweeping
+threadIsSweeping
+;
 for
 (
 ZonesIter
