@@ -220,6 +220,14 @@ if
 (
 !
 eventTarget
+|
+|
+mBC
+-
+>
+IsClosed
+(
+)
 )
 {
 return
