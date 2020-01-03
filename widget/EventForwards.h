@@ -17,6 +17,7 @@ nsEventStatus
 nsEventStatus_eIgnore
 nsEventStatus_eConsumeNoDefault
 nsEventStatus_eConsumeDoDefault
+nsEventStatus_eSentinel
 }
 ;
 namespace

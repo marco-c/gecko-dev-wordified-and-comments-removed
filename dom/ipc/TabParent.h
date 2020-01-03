@@ -2511,6 +2511,9 @@ aOutTargetGuid
 uint64_t
 *
 aOutInputBlockId
+nsEventStatus
+*
+aOutApzResponse
 )
 ;
 bool
