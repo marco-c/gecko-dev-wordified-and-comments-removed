@@ -11049,6 +11049,7 @@ WorkerPrivate
 :
 :
 OverrideLoadGroup
+WorkerTypeService
 &
 loadInfo
 )
