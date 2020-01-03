@@ -2515,6 +2515,9 @@ MIRType_Symbol
 case
 MIRType_Object
 :
+case
+MIRType_ObjectOrNull
+:
 return
 LDefinition
 :

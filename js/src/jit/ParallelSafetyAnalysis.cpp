@@ -937,6 +937,10 @@ CUSTOM_OP
 (
 ToString
 )
+UNSAFE_OP
+(
+ToObjectOrNull
+)
 CUSTOM_OP
 (
 NewArray
@@ -1182,6 +1186,14 @@ WRITE_GUARDED_OP
 (
 StoreElementHole
 elements
+)
+UNSAFE_OP
+(
+StoreUnboxedObjectOrNull
+)
+UNSAFE_OP
+(
+StoreUnboxedString
 )
 UNSAFE_OP
 (
