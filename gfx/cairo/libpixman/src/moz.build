@@ -1112,6 +1112,16 @@ sign
 -
 compare
 '
+'
+-
+Wno
+-
+missing
+-
+field
+-
+initializers
+'
 ]
 if
 CONFIG
