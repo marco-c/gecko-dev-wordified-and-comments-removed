@@ -633,6 +633,13 @@ HOSTDIR
 }
 /
 stapling
+SSLGTESTDIR
+=
+{
+HOSTDIR
+}
+/
+ssl_gtests
 PWFILE
 =
 {
@@ -4483,6 +4490,12 @@ R_STAPLINGDIR
 .
 /
 stapling
+R_SSLGTESTDIR
+=
+.
+.
+/
+ssl_gtests
 #
 #
 profiles

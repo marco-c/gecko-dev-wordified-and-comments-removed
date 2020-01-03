@@ -132,6 +132,10 @@ pkcs11u
 .
 h
 \
+pkcs1sig
+.
+h
+\
 portreg
 .
 h
@@ -261,6 +265,10 @@ nssilock
 c
 \
 oidstring
+.
+c
+\
+pkcs1sig
 .
 c
 \
