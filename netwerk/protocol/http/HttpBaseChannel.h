@@ -1131,6 +1131,7 @@ nsACString
 &
 aNetworkInterfaceId
 )
+override
 ;
 NS_IMETHOD
 SetNetworkInterfaceId
@@ -1140,6 +1141,7 @@ nsACString
 &
 aNetworkInterfaceId
 )
+override
 ;
 NS_IMETHOD
 AddRedirect
