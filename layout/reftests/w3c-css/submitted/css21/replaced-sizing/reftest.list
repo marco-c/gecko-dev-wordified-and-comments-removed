@@ -112,7 +112,6 @@ auto
 ref
 .
 html
-fails
 =
 =
 replaced
@@ -139,10 +138,6 @@ height
 ref
 .
 html
-#
-bug
-1131812
-fails
 =
 =
 replaced
@@ -169,10 +164,6 @@ width
 ref
 .
 html
-#
-bug
-1131812
-fails
 =
 =
 replaced
@@ -197,10 +188,6 @@ height
 ref
 .
 html
-#
-bug
-1131812
-fails
 =
 =
 replaced
@@ -225,6 +212,3 @@ width
 ref
 .
 html
-#
-bug
-1131812
