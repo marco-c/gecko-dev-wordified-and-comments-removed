@@ -415,13 +415,6 @@ if
 CONFIG
 [
 '
-CLANG_CXX
-'
-]
-or
-CONFIG
-[
-'
 _MSC_VER
 '
 ]
