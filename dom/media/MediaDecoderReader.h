@@ -487,6 +487,17 @@ GetBuffered
 )
 ;
 virtual
+bool
+ForceZeroStartTime
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 int64_t
 ComputeStartTime
 (
