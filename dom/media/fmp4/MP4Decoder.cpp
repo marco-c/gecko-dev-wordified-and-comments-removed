@@ -178,6 +178,10 @@ rv
 rv
 )
 ;
+if
+(
+aProxy
+)
 {
 CDMCaps
 :
