@@ -20530,7 +20530,11 @@ SourceBufferHolder
 srcBuf
 HandleObject
 enclosingDynamicScope
-HandleObject
+Handle
+<
+ScopeObject
+*
+>
 enclosingStaticScope
 MutableHandleFunction
 fun
