@@ -221,9 +221,9 @@ GLsizei
 width
 GLsizei
 height
-GLenum
+TexInternalFormat
 webGLFormat
-GLenum
+TexType
 webGLType
 WebGLImageDataStatus
 status
@@ -406,7 +406,7 @@ MemoryUsage
 )
 const
 ;
-GLenum
+TexInternalFormat
 WebGLFormat
 (
 )
@@ -416,7 +416,7 @@ return
 mWebGLFormat
 ;
 }
-GLenum
+TexType
 WebGLType
 (
 )
@@ -428,10 +428,10 @@ mWebGLType
 }
 protected
 :
-GLenum
+TexInternalFormat
 mWebGLFormat
 ;
-GLenum
+TexType
 mWebGLType
 ;
 WebGLImageDataStatus
@@ -937,9 +937,9 @@ GLsizei
 aWidth
 GLsizei
 aHeight
-GLenum
+TexInternalFormat
 aFormat
-GLenum
+TexType
 aType
 WebGLImageDataStatus
 aStatus
