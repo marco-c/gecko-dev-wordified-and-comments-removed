@@ -735,15 +735,6 @@ aContext
 )
 ;
 bool
-CommitCompositionBy
-(
-const
-nsAString
-&
-aString
-)
-;
-bool
 DispatchCompositionStart
 (
 )
