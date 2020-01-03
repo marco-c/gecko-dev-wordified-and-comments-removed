@@ -9220,7 +9220,7 @@ PresShell
 )
 -
 >
-GetRootScrollFrame
+GetRootFrame
 (
 )
 =
@@ -9229,7 +9229,17 @@ f
 )
 {
 return
-scrollableFrame
+pc
+-
+>
+PresShell
+(
+)
+-
+>
+GetRootScrollFrameAsScrollable
+(
+)
 ;
 }
 }
