@@ -259,6 +259,10 @@ attribute
 EventHandler
 onerror
 ;
+attribute
+EventHandler
+onmessage
+;
 }
 ;
 /
