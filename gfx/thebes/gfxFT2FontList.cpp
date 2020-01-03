@@ -67,13 +67,6 @@ nsIInputStream
 h
 "
 #
-include
-"
-nsNetUtil
-.
-h
-"
-#
 define
 gfxToolkitPlatform
 gfxAndroidPlatform

@@ -254,6 +254,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h

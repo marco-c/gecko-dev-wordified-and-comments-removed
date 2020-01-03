@@ -67,13 +67,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Logging

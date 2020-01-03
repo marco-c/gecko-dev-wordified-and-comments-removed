@@ -148,13 +148,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsISafeOutputStream
 .
 h

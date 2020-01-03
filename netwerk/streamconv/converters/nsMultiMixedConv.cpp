@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsMimeTypes
 .
 h

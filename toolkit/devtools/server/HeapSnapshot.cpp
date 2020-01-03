@@ -202,6 +202,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 prerror
 .
 h

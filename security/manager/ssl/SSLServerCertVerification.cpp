@@ -164,13 +164,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsISocketProvider
 .
 h

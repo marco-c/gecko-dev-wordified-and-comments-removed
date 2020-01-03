@@ -59,14 +59,14 @@ h
 #
 include
 "
-nsNetUtil
+nsNetCID
 .
 h
 "
 #
 include
 "
-nsNetCID
+nsISimpleEnumerator
 .
 h
 "

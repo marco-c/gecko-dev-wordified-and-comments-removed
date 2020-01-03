@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsTHashtable
 .
 h

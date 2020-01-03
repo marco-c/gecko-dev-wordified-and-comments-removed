@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 mozilla
 /
 BasePrincipal

@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsUrlClassifierUtils
 .
 h

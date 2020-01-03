@@ -100,13 +100,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

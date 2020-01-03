@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsAppDirectoryServiceDefs
 .
 h

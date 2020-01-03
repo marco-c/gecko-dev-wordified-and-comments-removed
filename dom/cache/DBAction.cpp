@@ -112,13 +112,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIFileURL
 .
 h

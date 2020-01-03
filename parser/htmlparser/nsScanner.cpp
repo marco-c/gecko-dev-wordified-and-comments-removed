@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsUTF8Utils
 .
 h

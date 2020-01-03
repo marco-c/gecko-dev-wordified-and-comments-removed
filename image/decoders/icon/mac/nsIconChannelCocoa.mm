@@ -173,7 +173,7 @@ h
 #
 include
 "
-nsNetUtil
+nsNetCID
 .
 h
 "

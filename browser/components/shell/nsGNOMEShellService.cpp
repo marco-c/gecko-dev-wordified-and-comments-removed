@@ -122,13 +122,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

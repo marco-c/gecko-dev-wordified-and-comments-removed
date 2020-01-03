@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

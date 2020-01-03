@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 mozilla
 /
 net

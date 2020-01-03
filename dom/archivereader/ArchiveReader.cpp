@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

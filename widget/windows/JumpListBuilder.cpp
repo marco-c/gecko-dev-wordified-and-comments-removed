@@ -101,13 +101,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

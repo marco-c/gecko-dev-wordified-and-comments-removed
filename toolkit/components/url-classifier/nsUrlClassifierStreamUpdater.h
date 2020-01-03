@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h

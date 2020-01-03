@@ -96,13 +96,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsSimpleNestedURI
 .
 h

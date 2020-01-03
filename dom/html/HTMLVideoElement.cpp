@@ -72,13 +72,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsXPCOMStrings
 .
 h

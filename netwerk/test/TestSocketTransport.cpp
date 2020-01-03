@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsAutoLock
 .
 h

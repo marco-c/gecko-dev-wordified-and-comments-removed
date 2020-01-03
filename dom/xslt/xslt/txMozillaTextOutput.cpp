@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsCharsetSource
 .
 h

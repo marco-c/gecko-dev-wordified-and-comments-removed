@@ -51,13 +51,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

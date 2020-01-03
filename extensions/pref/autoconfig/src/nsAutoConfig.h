@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIStreamListener
 .
 h
@@ -64,6 +57,13 @@ h
 include
 "
 nsWeakReference
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

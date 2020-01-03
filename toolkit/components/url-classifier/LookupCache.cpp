@@ -47,6 +47,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 prprf
 .
 h

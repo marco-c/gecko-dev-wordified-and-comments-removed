@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

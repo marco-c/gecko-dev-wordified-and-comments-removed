@@ -506,13 +506,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h

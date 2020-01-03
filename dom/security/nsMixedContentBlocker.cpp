@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIRequest
 .
 h

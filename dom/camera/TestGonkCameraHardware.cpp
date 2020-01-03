@@ -77,14 +77,14 @@ h
 #
 include
 "
-DOMCameraDetectedFace
+nsNetUtil
 .
 h
 "
 #
 include
 "
-nsNetUtil
+DOMCameraDetectedFace
 .
 h
 "

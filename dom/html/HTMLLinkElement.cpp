@@ -154,13 +154,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

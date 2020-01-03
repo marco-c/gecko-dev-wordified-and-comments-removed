@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 XPathResult
 .
 h

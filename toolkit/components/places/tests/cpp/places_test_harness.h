@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsDocShellCID
 .
 h
@@ -51,6 +44,13 @@ h
 include
 "
 nsIObserverService
+.
+h
+"
+#
+include
+"
+nsIURI
 .
 h
 "

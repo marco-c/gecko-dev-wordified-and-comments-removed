@@ -45,6 +45,13 @@ h
 #
 include
 "
+nsIURIWithPrincipal
+.
+h
+"
+#
+include
+"
 nsNullPrincipal
 .
 h

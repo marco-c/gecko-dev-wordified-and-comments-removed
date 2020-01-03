@@ -108,6 +108,13 @@ nsNetCID
 h
 "
 #
+include
+"
+nsNetUtil
+.
+h
+"
+#
 define
 ASYNC_TEST
 #

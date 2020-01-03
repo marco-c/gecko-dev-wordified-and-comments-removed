@@ -120,7 +120,7 @@ h
 #
 include
 "
-nsNetUtil
+nsServiceManagerUtils
 .
 h
 "

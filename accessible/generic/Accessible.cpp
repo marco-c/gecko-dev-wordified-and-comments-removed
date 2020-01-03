@@ -393,13 +393,6 @@ nsAttrName
 h
 "
 #
-include
-"
-nsNetUtil
-.
-h
-"
-#
 ifdef
 DEBUG
 #

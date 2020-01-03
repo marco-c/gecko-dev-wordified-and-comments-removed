@@ -96,6 +96,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 private
 /
 pprio

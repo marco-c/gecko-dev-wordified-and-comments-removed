@@ -130,13 +130,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-nsNetUtil
-.
-h
-"
 class
 nsIInputStream
 ;

@@ -73,13 +73,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
