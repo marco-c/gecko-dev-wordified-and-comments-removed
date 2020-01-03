@@ -206,7 +206,7 @@ _APPNAME
 /
 Contents
 /
-MacOS
+Resources
 endif
 #
 _BINPATH
