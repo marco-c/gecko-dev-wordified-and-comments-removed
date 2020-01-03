@@ -100,5 +100,15 @@ _
 (
 AsmJSLoadFuncPtr
 )
+\
+_
+(
+AsmJSCompareExchangeCallout
+)
+\
+_
+(
+AsmJSAtomicBinopCallout
+)
 #
 endif
