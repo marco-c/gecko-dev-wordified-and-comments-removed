@@ -139,9 +139,6 @@ TracingAPI
 h
 "
 struct
-JSCompartment
-;
-struct
 JSRuntime
 ;
 namespace

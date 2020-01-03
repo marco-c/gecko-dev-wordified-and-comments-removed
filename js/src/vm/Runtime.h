@@ -2175,9 +2175,6 @@ endif
 class
 AutoLockForExclusiveAccess
 ;
-struct
-AutoStopwatch
-;
 }
 struct
 JSRuntime

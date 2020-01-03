@@ -26,9 +26,6 @@ namespace
 js
 {
 class
-DummyFrameGuard
-;
-class
 MOZ_STACK_CLASS
 WrapperOptions
 :

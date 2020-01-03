@@ -99,9 +99,6 @@ uint8_t
 )
 ;
 class
-JitCompartment
-;
-class
 BailoutStack
 ;
 class

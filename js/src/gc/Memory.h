@@ -11,9 +11,6 @@ stddef
 .
 h
 >
-struct
-JSRuntime
-;
 namespace
 js
 {

@@ -19,9 +19,6 @@ jswrapper
 .
 h
 "
-class
-nsIScriptSecurityManager
-;
 namespace
 XPCNativeWrapper
 {

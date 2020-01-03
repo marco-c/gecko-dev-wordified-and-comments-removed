@@ -23,9 +23,6 @@ h
 class
 JSAtom
 ;
-struct
-JSContext
-;
 namespace
 js
 {

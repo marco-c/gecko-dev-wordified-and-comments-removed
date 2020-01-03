@@ -32,9 +32,6 @@ h
 namespace
 js
 {
-class
-Shape
-;
 namespace
 gc
 {

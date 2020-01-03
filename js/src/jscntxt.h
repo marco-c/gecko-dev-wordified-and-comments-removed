@@ -72,9 +72,6 @@ class
 JitContext
 ;
 class
-CompileCompartment
-;
-class
 DebugModeOSRVolatileJitFrameIterator
 ;
 }
@@ -181,12 +178,6 @@ set
 ;
 struct
 AutoResolving
-;
-class
-DtoaCache
-;
-class
-RegExpStatics
 ;
 namespace
 frontend

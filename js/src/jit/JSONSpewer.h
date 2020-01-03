@@ -33,12 +33,6 @@ class
 MDefinition
 ;
 class
-MInstruction
-;
-class
-MBasicBlock
-;
-class
 MIRGraph
 ;
 class

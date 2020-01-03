@@ -121,9 +121,6 @@ class
 NestedScopeObject
 ;
 class
-Nursery
-;
-class
 PlainObject
 ;
 class

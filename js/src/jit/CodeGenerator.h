@@ -167,9 +167,6 @@ class
 OutOfLineTypeOfV
 ;
 class
-OutOfLineLoadTypedArray
-;
-class
 OutOfLineUpdateCache
 ;
 class

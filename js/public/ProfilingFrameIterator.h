@@ -38,9 +38,6 @@ Utility
 .
 h
 "
-class
-JSAtom
-;
 struct
 JSRuntime
 ;

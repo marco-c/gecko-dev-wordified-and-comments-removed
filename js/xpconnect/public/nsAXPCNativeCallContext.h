@@ -5,9 +5,6 @@ nsAXPCNativeCallContext_h__
 define
 nsAXPCNativeCallContext_h__
 class
-nsIXPConnectWrappedNative
-;
-class
 nsAXPCNativeCallContext
 {
 public

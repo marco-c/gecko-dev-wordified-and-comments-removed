@@ -40,9 +40,6 @@ Shape
 .
 h
 "
-struct
-JSExnPrivate
-;
 namespace
 js
 {

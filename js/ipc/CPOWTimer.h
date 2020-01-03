@@ -12,9 +12,6 @@ prinrval
 h
 "
 class
-JSObject
-;
-class
 MOZ_STACK_CLASS
 CPOWTimer
 final

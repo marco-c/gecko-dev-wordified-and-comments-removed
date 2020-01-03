@@ -86,6 +86,9 @@ MatchPairs
 class
 RegExpShared
 ;
+class
+RegExpStatics
+;
 namespace
 frontend
 {

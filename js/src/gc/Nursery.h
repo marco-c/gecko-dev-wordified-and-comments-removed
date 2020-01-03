@@ -110,9 +110,6 @@ namespace
 js
 {
 class
-TypedArrayObject
-;
-class
 ObjectElements
 ;
 class
@@ -140,9 +137,6 @@ struct
 Cell
 ;
 class
-Collector
-;
-class
 MinorCollectionTracer
 ;
 }
@@ -150,16 +144,7 @@ namespace
 jit
 {
 class
-CodeGenerator
-;
-class
 MacroAssembler
-;
-class
-ICStubCompiler
-;
-class
-BaselineCompiler
 ;
 }
 class

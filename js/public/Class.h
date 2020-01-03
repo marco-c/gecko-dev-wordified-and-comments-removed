@@ -63,9 +63,6 @@ class
 FreeOp
 ;
 class
-PropertyName
-;
-class
 Shape
 ;
 extern

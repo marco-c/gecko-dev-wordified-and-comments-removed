@@ -70,9 +70,6 @@ Vector
 .
 h
 "
-struct
-JSCompartment
-;
 namespace
 js
 {

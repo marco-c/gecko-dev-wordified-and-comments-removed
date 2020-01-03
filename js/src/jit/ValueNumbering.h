@@ -41,9 +41,6 @@ class
 MPhi
 ;
 class
-MInstruction
-;
-class
 MIRGenerator
 ;
 class

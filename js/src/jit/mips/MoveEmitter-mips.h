@@ -29,9 +29,6 @@ namespace
 jit
 {
 class
-CodeGenerator
-;
-class
 MoveEmitterMIPS
 {
 uint32_t

@@ -188,6 +188,9 @@ class
 BindingIter
 ;
 class
+Debugger
+;
+class
 LazyScript
 ;
 class
@@ -198,9 +201,6 @@ SourceCompressionTask
 ;
 class
 Shape
-;
-class
-WatchpointMap
 ;
 class
 NestedScopeObject
