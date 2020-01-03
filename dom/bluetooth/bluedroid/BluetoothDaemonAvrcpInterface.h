@@ -151,6 +151,11 @@ OPCODE_REGISTER_NOTIFICATION_NTF
 endif
 }
 ;
+static
+const
+int
+MAX_NUM_CLIENTS
+;
 virtual
 nsresult
 Send
@@ -173,6 +178,8 @@ uint8_t
 aId
 uint8_t
 aMode
+uint32_t
+aMaxNumClients
 BluetoothSetupResultHandler
 *
 aRes

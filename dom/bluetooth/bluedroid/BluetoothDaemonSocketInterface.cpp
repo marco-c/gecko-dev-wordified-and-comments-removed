@@ -29,6 +29,15 @@ unused
 h
 "
 BEGIN_BLUETOOTH_NAMESPACE
+const
+int
+BluetoothDaemonSocketModule
+:
+:
+MAX_NUM_CLIENTS
+=
+1
+;
 nsresult
 BluetoothDaemonSocketModule
 :

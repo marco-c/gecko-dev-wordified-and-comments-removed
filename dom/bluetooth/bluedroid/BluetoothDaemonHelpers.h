@@ -1356,6 +1356,16 @@ BluetoothDaemonPDU
 aPDU
 )
 ;
+nsresult
+PackPDU
+(
+BluetoothTransport
+aIn
+BluetoothDaemonPDU
+&
+aPDU
+)
+;
 template
 <
 typename

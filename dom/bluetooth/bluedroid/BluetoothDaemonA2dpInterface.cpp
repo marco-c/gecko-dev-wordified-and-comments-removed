@@ -22,6 +22,15 @@ unused
 h
 "
 BEGIN_BLUETOOTH_NAMESPACE
+const
+int
+BluetoothDaemonA2dpModule
+:
+:
+MAX_NUM_CLIENTS
+=
+1
+;
 BluetoothA2dpNotificationHandler
 *
 BluetoothDaemonA2dpModule
@@ -1251,6 +1260,10 @@ BluetoothDaemonA2dpModule
 :
 SERVICE_ID
 0x00
+BluetoothDaemonA2dpModule
+:
+:
+MAX_NUM_CLIENTS
 res
 )
 ;

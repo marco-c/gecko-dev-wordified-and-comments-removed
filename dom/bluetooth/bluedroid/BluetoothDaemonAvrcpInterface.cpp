@@ -22,6 +22,15 @@ unused
 h
 "
 BEGIN_BLUETOOTH_NAMESPACE
+const
+int
+BluetoothDaemonAvrcpModule
+:
+:
+MAX_NUM_CLIENTS
+=
+1
+;
 BluetoothAvrcpNotificationHandler
 *
 BluetoothDaemonAvrcpModule
@@ -3446,6 +3455,10 @@ BluetoothDaemonAvrcpModule
 :
 :
 SERVICE_ID
+BluetoothDaemonAvrcpModule
+:
+:
+MAX_NUM_CLIENTS
 0x00
 res
 )

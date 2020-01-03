@@ -41,6 +41,11 @@ BluetoothDaemonSocketModule
 {
 public
 :
+static
+const
+int
+MAX_NUM_CLIENTS
+;
 virtual
 nsresult
 Send
