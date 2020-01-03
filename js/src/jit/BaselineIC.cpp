@@ -56205,7 +56205,7 @@ constructing
 fun
 -
 >
-isInterpretedConstructor
+isConstructor
 (
 )
 )
@@ -56783,7 +56783,7 @@ constructing
 fun
 -
 >
-isNativeConstructor
+isConstructor
 (
 )
 )

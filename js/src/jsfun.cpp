@@ -11867,7 +11867,7 @@ JSFunction
 (
 )
 .
-isNativeConstructor
+isConstructor
 (
 )
 )

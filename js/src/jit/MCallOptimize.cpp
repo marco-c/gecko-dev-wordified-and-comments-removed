@@ -16512,16 +16512,7 @@ constructing
 scriptedTarget
 -
 >
-isInterpretedConstructor
-(
-)
-&
-&
-!
-scriptedTarget
--
->
-isNativeConstructor
+isConstructor
 (
 )
 )

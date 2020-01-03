@@ -14761,14 +14761,7 @@ JSFunction
 return
 fun
 .
-isNativeConstructor
-(
-)
-|
-|
-fun
-.
-isInterpretedConstructor
+isConstructor
 (
 )
 ;

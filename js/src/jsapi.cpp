@@ -16786,15 +16786,7 @@ return
 fun
 -
 >
-isNativeConstructor
-(
-)
-|
-|
-fun
--
->
-isInterpretedConstructor
+isConstructor
 (
 )
 ;
@@ -20044,7 +20036,7 @@ cx
 JSFunction
 :
 :
-INTERPRETED
+INTERPRETED_NORMAL
 funAtom
 gc
 :

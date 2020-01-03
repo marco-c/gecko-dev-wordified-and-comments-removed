@@ -18581,7 +18581,7 @@ isConstructing
 target
 -
 >
-isInterpretedConstructor
+isConstructor
 (
 )
 )

@@ -4998,7 +4998,7 @@ cx
 JSFunction
 :
 :
-INTERPRETED
+INTERPRETED_NORMAL
 name
 gc
 :
