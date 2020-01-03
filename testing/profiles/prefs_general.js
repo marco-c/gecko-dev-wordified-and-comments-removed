@@ -2985,3 +2985,17 @@ enabled
 false
 )
 ;
+user_pref
+(
+"
+media
+.
+webspeech
+.
+synth
+.
+test
+"
+true
+)
+;
