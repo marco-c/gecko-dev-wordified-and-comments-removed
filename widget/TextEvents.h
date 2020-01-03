@@ -448,6 +448,12 @@ mNativeCharactersIgnoringModifiers
 ;
 #
 endif
+bool
+ShouldCauseKeypressEvents
+(
+)
+const
+;
 void
 GetDOMKeyName
 (
