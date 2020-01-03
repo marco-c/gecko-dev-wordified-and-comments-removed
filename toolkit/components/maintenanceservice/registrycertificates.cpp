@@ -55,13 +55,6 @@ updatehelper
 h
 "
 #
-include
-"
-errors
-.
-h
-"
-#
 define
 MAX_KEY_LENGTH
 255
@@ -95,7 +88,7 @@ maintenanceServiceKey
 )
 {
 return
-SERVICE_UPDATER_SIGN_CALC_PATH
+FALSE
 ;
 }
 HKEY
@@ -184,7 +177,7 @@ retCode
 )
 ;
 return
-SERVICE_UPDATER_SIGN_REG_OPEN
+FALSE
 ;
 }
 else
@@ -282,7 +275,7 @@ retCode
 )
 ;
 return
-SERVICE_UPDATER_SIGN_REG_QUERY
+FALSE
 ;
 }
 for
@@ -354,7 +347,7 @@ retCode
 )
 ;
 return
-SERVICE_UPDATER_SIGN_REG_ENUM
+FALSE
 ;
 }
 HKEY
@@ -645,10 +638,10 @@ continue
 ;
 }
 return
-OK
+TRUE
 ;
 }
 return
-SERVICE_UPDATER_SIGN_ERROR
+FALSE
 ;
 }
