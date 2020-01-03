@@ -211,6 +211,12 @@ true
 dictionary
 HitRegionOptions
 {
+Path2D
+?
+path
+=
+null
+;
 DOMString
 id
 =
