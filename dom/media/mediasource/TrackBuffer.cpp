@@ -3481,6 +3481,11 @@ initialization
 "
 )
 ;
+RemoveDecoder
+(
+aDecoder
+)
+;
 return
 ;
 }
@@ -3699,6 +3704,11 @@ Aborting
 initialization
 .
 "
+)
+;
+RemoveDecoder
+(
+aDecoder
 )
 ;
 return
@@ -4014,6 +4024,11 @@ Aborting
 initialization
 .
 "
+)
+;
+RemoveDecoder
+(
+aDecoder
 )
 ;
 return
