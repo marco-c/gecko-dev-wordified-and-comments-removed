@@ -1349,7 +1349,7 @@ aInitializer
 MOZ_ASSERT
 (
 !
-IsConnected
+HasRule
 (
 )
 )
@@ -2095,13 +2095,12 @@ mUserFontEntry
 MOZ_ASSERT
 (
 !
-IsConnected
+HasRule
 (
 )
 "
-CSS
--
-connected
+Rule
+backed
 FontFace
 objects
 should
@@ -2442,7 +2441,7 @@ aRv
 NS_ASSERTION
 (
 !
-IsConnected
+HasRule
 (
 )
 "
@@ -2452,8 +2451,7 @@ don
 t
 handle
 rule
--
-connected
+backed
 FontFace
 objects
 yet
@@ -2462,7 +2460,7 @@ yet
 ;
 if
 (
-IsConnected
+HasRule
 (
 )
 )
@@ -2524,7 +2522,7 @@ aDescriptors
 MOZ_ASSERT
 (
 !
-IsConnected
+HasRule
 (
 )
 )
@@ -2736,7 +2734,7 @@ const
 {
 if
 (
-IsConnected
+HasRule
 (
 )
 )
@@ -3033,7 +3031,7 @@ DisconnectFromRule
 {
 MOZ_ASSERT
 (
-IsConnected
+HasRule
 (
 )
 )

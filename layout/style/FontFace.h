@@ -326,7 +326,7 @@ MOZ_ASSERT
 aInFontFaceSet
 &
 &
-IsConnected
+HasRule
 (
 )
 )
@@ -372,7 +372,7 @@ aResult
 )
 ;
 bool
-IsConnected
+HasRule
 (
 )
 const

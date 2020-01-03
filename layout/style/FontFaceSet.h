@@ -783,7 +783,7 @@ DoRebuildUserFontSet
 )
 ;
 void
-InsertConnectedFontFace
+InsertRuleFontFace
 (
 FontFace
 *
@@ -802,7 +802,7 @@ aFontSetModified
 )
 ;
 void
-InsertUnconnectedFontFace
+InsertNonRuleFontFace
 (
 FontFace
 *
@@ -816,7 +816,7 @@ aFontSetModified
 ifdef
 DEBUG
 bool
-HasConnectedFontFace
+HasRuleFontFace
 (
 FontFace
 *
@@ -876,7 +876,7 @@ nsTArray
 <
 FontFaceRecord
 >
-mConnectedFaces
+mRuleFaces
 ;
 nsTArray
 <
@@ -885,7 +885,7 @@ nsRefPtr
 FontFace
 >
 >
-mOtherFaces
+mNonRuleFaces
 ;
 nsTArray
 <
@@ -904,7 +904,7 @@ FontFaceSetLoadStatus
 mStatus
 ;
 bool
-mOtherFacesDirty
+mNonRuleFacesDirty
 ;
 bool
 mReadyIsResolved
