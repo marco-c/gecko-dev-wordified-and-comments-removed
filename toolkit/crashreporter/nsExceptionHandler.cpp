@@ -10791,13 +10791,6 @@ nsIFile
 dir
 )
 {
-MOZ_ASSERT
-(
-OOPInitialized
-(
-)
-)
-;
 if
 (
 !
