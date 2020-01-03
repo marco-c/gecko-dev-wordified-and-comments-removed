@@ -184,10 +184,6 @@ PHal
 ;
 include
 protocol
-PProcessHangMonitor
-;
-include
-protocol
 PImageBridge
 ;
 include
@@ -1215,10 +1211,6 @@ PPluginModule
 parent
 opens
 PCompositor
-;
-parent
-opens
-PProcessHangMonitor
 ;
 parent
 opens
