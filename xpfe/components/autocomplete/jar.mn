@@ -73,9 +73,13 @@ autocomplete
 .
 xml
 )
+comm
+.
+jar
+:
 content
 /
-global
+communicator
 /
 autocomplete
 .
