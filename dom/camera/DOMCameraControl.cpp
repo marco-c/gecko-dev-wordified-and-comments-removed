@@ -1202,9 +1202,15 @@ forget
 (
 )
 ;
-mStream
-=
+SetHintContents
+(
+HINT_CONTENTS_VIDEO
+)
+;
+InitStreamCommon
+(
 mInput
+)
 ;
 MOZ_ASSERT
 (
