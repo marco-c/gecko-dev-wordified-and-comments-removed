@@ -17050,15 +17050,7 @@ Int8Array
 buffer
 ;
 var
-foreign_exchange_student_1
-=
-alien_constructor
-(
-local_buffer
-)
-;
-var
-foreign_exchange_student_2
+foreign_exchange_student
 =
 new
 alien_constructor
