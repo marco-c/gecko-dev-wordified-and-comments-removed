@@ -141,6 +141,13 @@ INIT_FLAG_TRANSIENT
 =
 0x4
 ;
+static
+const
+uint32_t
+INIT_FLAG_DOWNSCALE_DURING_DECODE
+=
+0x8
+;
 virtual
 nsresult
 Init
