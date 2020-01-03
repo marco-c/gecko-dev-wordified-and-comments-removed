@@ -456,6 +456,10 @@ nsRubyBaseFrame
 )
 FRAME_ID
 (
+nsRubyContentFrame
+)
+FRAME_ID
+(
 nsRubyFrame
 )
 FRAME_ID

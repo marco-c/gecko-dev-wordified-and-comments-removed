@@ -461,6 +461,11 @@ nsRubyBaseFrame
 cpp
 '
 '
+nsRubyContentFrame
+.
+cpp
+'
+'
 nsRubyFrame
 .
 cpp
