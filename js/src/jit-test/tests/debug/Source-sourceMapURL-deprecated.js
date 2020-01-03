@@ -43,6 +43,8 @@ fw
 .
 script
 .
+source
+.
 sourceMapURL
 ;
 }
@@ -156,6 +158,8 @@ assertEq
 frame
 .
 script
+.
+source
 .
 sourceMapURL
 '
