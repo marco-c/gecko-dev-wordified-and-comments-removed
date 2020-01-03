@@ -98,6 +98,11 @@ TESTING_JS_MODULES
 =
 [
 '
+BrowserTestUtils
+.
+jsm
+'
+'
 ContentTask
 .
 jsm

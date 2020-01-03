@@ -145,4 +145,9 @@ StructuredLog
 .
 jsm
 '
+'
+TestUtils
+.
+jsm
+'
 ]
