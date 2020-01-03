@@ -4024,15 +4024,6 @@ IsEmpty
 )
 ;
 return
-mParser
--
->
-HasInitData
-(
-)
-&
-&
-(
 mInfo
 .
 HasAudio
@@ -4044,7 +4035,6 @@ mInfo
 .
 HasVideo
 (
-)
 )
 ;
 }
