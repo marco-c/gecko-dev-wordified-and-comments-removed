@@ -683,6 +683,10 @@ MediaTaskQueue
 (
 GetMediaThreadPool
 (
+MediaThreadType
+:
+:
+PLAYBACK
 )
 true
 )

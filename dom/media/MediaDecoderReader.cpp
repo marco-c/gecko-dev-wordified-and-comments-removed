@@ -1649,6 +1649,10 @@ pool
 (
 GetMediaThreadPool
 (
+MediaThreadType
+:
+:
+PLAYBACK
 )
 )
 ;
