@@ -1464,8 +1464,10 @@ maxMallocBytes
 gcBytes
 gcNumber
 sliceTimeBudget
-or
 markStackLimit
+minEmptyChunkCount
+or
+maxEmptyChunkCount
 "
 static
 bool
