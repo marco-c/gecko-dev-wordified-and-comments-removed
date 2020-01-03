@@ -8002,8 +8002,8 @@ JSCLASS_IMPLEMENTS_BARRIERS
 JSCLASS_IS_ANONYMOUS
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr

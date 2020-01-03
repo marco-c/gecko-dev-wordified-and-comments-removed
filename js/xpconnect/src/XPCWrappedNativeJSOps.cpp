@@ -3065,7 +3065,7 @@ WRAPPER_SLOTS
 JSCLASS_PRIVATE_IS_NSISUPPORTS
 XPC_WN_OnlyIWrite_AddPropertyStub
 XPC_WN_CantDeletePropertyStub
-JS_PropertyStub
+nullptr
 XPC_WN_OnlyIWrite_SetPropertyStub
 XPC_WN_Shared_Enumerate
 XPC_WN_NoHelper_Resolve
@@ -4989,7 +4989,7 @@ base
 .
 getProperty
 =
-JS_PropertyStub
+nullptr
 ;
 JSStrictPropertyOp
 setProperty
@@ -5017,7 +5017,7 @@ UseJSStubForSetProperty
 )
 setProperty
 =
-JS_StrictPropertyStub
+nullptr
 ;
 else
 if
@@ -6393,8 +6393,8 @@ XPC_WN_ModsAllowed_WithCall_Proto_JSClass
 WRAPPER_SLOTS
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 XPC_WN_Shared_Proto_Enumerate
 XPC_WN_ModsAllowed_Proto_Resolve
 nullptr
@@ -6422,8 +6422,8 @@ XPC_WN_ModsAllowed_NoCall_Proto_JSClass
 WRAPPER_SLOTS
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 XPC_WN_Shared_Proto_Enumerate
 XPC_WN_ModsAllowed_Proto_Resolve
 nullptr
@@ -6742,7 +6742,7 @@ XPC_WN_NoMods_WithCall_Proto_JSClass
 WRAPPER_SLOTS
 XPC_WN_OnlyIWrite_Proto_AddPropertyStub
 XPC_WN_CantDeletePropertyStub
-JS_PropertyStub
+nullptr
 XPC_WN_OnlyIWrite_Proto_SetPropertyStub
 XPC_WN_Shared_Proto_Enumerate
 XPC_WN_NoMods_Proto_Resolve
@@ -6771,7 +6771,7 @@ XPC_WN_NoMods_NoCall_Proto_JSClass
 WRAPPER_SLOTS
 XPC_WN_OnlyIWrite_Proto_AddPropertyStub
 XPC_WN_CantDeletePropertyStub
-JS_PropertyStub
+nullptr
 XPC_WN_OnlyIWrite_Proto_SetPropertyStub
 XPC_WN_Shared_Proto_Enumerate
 XPC_WN_NoMods_Proto_Resolve
@@ -7126,7 +7126,7 @@ WrappedNative_TearOff
 WRAPPER_SLOTS
 XPC_WN_OnlyIWrite_AddPropertyStub
 XPC_WN_CantDeletePropertyStub
-JS_PropertyStub
+nullptr
 XPC_WN_OnlyIWrite_SetPropertyStub
 XPC_WN_TearOff_Enumerate
 XPC_WN_TearOff_Resolve

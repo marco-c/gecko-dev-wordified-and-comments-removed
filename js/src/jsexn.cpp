@@ -306,14 +306,14 @@ delProperty
 *
 /
 \
-JS_PropertyStub
+nullptr
 /
 *
 getProperty
 *
 /
 \
-JS_StrictPropertyStub
+nullptr
 /
 *
 setProperty
@@ -425,8 +425,8 @@ RESERVED_SLOTS
 )
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr

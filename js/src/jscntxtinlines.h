@@ -1786,6 +1786,14 @@ cx
 strict
 )
 ;
+if
+(
+!
+op
+)
+return
+true
+;
 return
 CallJSPropertyOpSetter
 (

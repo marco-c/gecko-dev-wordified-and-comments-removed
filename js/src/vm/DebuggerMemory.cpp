@@ -384,10 +384,6 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 JSSLOT_COUNT
 )
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 DebuggerMemory

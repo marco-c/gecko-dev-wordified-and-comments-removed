@@ -417,10 +417,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_ArrayBuffer
 )
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 const
@@ -449,8 +445,8 @@ JSProto_ArrayBuffer
 JSCLASS_BACKGROUND_FINALIZE
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr

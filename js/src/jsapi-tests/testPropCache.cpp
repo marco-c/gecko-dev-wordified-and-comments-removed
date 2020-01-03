@@ -56,9 +56,6 @@ Counter
 "
 0
 CounterAdd
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 BEGIN_TEST

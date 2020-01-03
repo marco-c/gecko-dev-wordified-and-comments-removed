@@ -402,6 +402,16 @@ cx
 strict
 )
 ;
+if
+(
+!
+setterOp
+(
+)
+)
+return
+true
+;
 RootedId
 id
 (

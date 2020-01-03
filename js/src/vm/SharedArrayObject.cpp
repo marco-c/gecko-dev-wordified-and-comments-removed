@@ -1396,10 +1396,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_SharedArrayBuffer
 )
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 const
@@ -1429,8 +1425,8 @@ JSProto_SharedArrayBuffer
 )
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr

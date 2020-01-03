@@ -3523,8 +3523,8 @@ JSProto_Object
 JSCLASS_BACKGROUND_FINALIZE
 nullptr
 args_delProperty
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 args_enumerate
 args_resolve
 nullptr
@@ -3570,8 +3570,8 @@ JSProto_Object
 JSCLASS_BACKGROUND_FINALIZE
 nullptr
 args_delProperty
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 strictargs_enumerate
 strictargs_resolve
 nullptr

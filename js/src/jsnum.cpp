@@ -2554,10 +2554,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Number
 )
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 static

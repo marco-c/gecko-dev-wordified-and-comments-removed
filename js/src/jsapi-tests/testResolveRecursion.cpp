@@ -26,8 +26,8 @@ MyResolve
 JSCLASS_HAS_PRIVATE
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 my_resolve
 }

@@ -200,10 +200,6 @@ DocumentAllClass
 DocumentAll
 "
 JSCLASS_EMULATES_UNDEFINED
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 bool
@@ -406,8 +402,8 @@ document
 0
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 document_resolve
 nullptr

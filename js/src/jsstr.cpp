@@ -2299,8 +2299,8 @@ JSProto_String
 )
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 str_enumerate
 str_resolve
 }

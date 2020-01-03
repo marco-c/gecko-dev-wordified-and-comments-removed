@@ -1055,8 +1055,8 @@ JS_DESCR_SLOTS
 JSCLASS_BACKGROUND_FINALIZE
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr
@@ -1065,9 +1065,6 @@ TypeDescr
 :
 finalize
 call
-nullptr
-nullptr
-nullptr
 }
 ;
 namespace
@@ -2104,10 +2101,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_SIMD
 )
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 JSObject

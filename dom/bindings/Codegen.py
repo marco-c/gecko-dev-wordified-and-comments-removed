@@ -2943,14 +2943,14 @@ delProperty
 *
 /
                 
-JS_PropertyStub
+nullptr
 /
 *
 getProperty
 *
 /
                 
-JS_StrictPropertyStub
+nullptr
 /
 *
 setProperty
@@ -4380,14 +4380,14 @@ delProperty
 *
 /
                 
-JS_PropertyStub
+nullptr
 /
 *
 getProperty
 *
 /
                 
-JS_StrictPropertyStub
+nullptr
 /
 *
 setProperty
@@ -4977,14 +4977,14 @@ delProperty
 *
 /
                 
-JS_PropertyStub
+nullptr
 /
 *
 getProperty
 *
 /
                 
-JS_StrictPropertyStub
+nullptr
 /
 *
 setProperty

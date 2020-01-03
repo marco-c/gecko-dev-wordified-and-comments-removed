@@ -11712,8 +11712,8 @@ JSSLOT_DEBUG_COUNT
 )
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr
@@ -19414,8 +19414,8 @@ JSSLOT_DEBUGSCRIPT_COUNT
 )
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr
@@ -24558,8 +24558,8 @@ JSSLOT_DEBUGSOURCE_COUNT
 )
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr
@@ -26561,8 +26561,8 @@ JSSLOT_DEBUGFRAME_COUNT
 )
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr
@@ -27861,10 +27861,6 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 JSSLOT_DEBUGARGUMENTS_COUNT
 )
-nullptr
-nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
 }
 ;
 static
@@ -30950,8 +30946,8 @@ JSSLOT_DEBUGOBJECT_COUNT
 )
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr
@@ -36362,8 +36358,8 @@ JSSLOT_DEBUGENV_COUNT
 )
 nullptr
 nullptr
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 nullptr
 nullptr
 nullptr
