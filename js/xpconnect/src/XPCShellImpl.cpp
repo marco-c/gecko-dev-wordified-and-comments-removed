@@ -4610,7 +4610,6 @@ if
 JS_CompileScript
 (
 cx
-global
 buffer
 strlen
 (

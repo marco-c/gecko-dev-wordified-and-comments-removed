@@ -233,7 +233,6 @@ CHECK
 JS_CompileScript
 (
 cx
-global
 s
 strlen
 (
@@ -368,7 +367,6 @@ CHECK
 JS_CompileScript
 (
 cx
-global
 "
 "
 0
@@ -790,7 +788,6 @@ CHECK
 JS_CompileScript
 (
 cx
-global
 *
 s
 strlen
@@ -965,7 +962,6 @@ CHECK
 JS_CompileScript
 (
 cx
-global
 "
 "
 0

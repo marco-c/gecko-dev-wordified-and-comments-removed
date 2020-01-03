@@ -4288,7 +4288,6 @@ if
 JS_CompileScript
 (
 cx
-global
 mPACScript
 .
 get

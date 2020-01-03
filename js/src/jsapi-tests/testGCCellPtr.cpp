@@ -136,7 +136,6 @@ CHECK
 JS_CompileScript
 (
 cx
-obj
 code
 strlen
 (
