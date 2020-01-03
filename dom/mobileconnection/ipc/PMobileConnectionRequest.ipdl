@@ -214,6 +214,14 @@ serviceClass
 }
 ;
 struct
+MobileConnectionReplySuccessCallWaiting
+{
+uint16_t
+serviceClass
+;
+}
+;
+struct
 MobileConnectionReplySuccessClirStatus
 {
 uint16_t
@@ -266,6 +274,8 @@ MobileConnectionReplySuccessNetworks
 MobileConnectionReplySuccessCallForwarding
 ;
 MobileConnectionReplySuccessCallBarring
+;
+MobileConnectionReplySuccessCallWaiting
 ;
 MobileConnectionReplySuccessClirStatus
 ;

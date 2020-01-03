@@ -449,6 +449,9 @@ SetCallWaitingRequest
 bool
 enabled
 ;
+uint16_t
+serviceClass
+;
 }
 ;
 struct
