@@ -2901,6 +2901,13 @@ emergency
 )
 +
 aNumber
++
+"
+clientId
+:
+"
++
+aClientId
 )
 ;
 if
@@ -3758,6 +3765,7 @@ this
 .
 _isEmergencyOnly
 (
+aClientId
 )
 )
 {
