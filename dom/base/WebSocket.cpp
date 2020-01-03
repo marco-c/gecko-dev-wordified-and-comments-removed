@@ -1517,7 +1517,7 @@ mRv
 ;
 class
 CancelWebSocketRunnable
-MOZ_FINAL
+final
 :
 public
 nsRunnable
@@ -1555,7 +1555,7 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
+override
 {
 mChannel
 -
