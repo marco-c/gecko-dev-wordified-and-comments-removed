@@ -988,9 +988,9 @@ IsSimpleRowFrame
 nsTableFrame
 *
 aTableFrame
-nsIFrame
+nsTableRowFrame
 *
-aFrame
+aRowFrame
 )
 ;
 void
