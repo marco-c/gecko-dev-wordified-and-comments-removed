@@ -646,6 +646,15 @@ type
 number
 "
 }
+safeMode
+:
+{
+type
+:
+"
+boolean
+"
+}
 }
 }
 crashes

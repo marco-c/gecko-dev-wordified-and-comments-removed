@@ -647,6 +647,17 @@ Windows
 ENTITY
 aboutSupport
 .
+appBasicsSafeMode
+"
+Safe
+Mode
+"
+>
+<
+!
+ENTITY
+aboutSupport
+.
 showDir
 .
 label
