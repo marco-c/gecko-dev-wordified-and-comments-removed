@@ -176,6 +176,11 @@ TelephonyCommon
 .
 h
 '
+'
+TelephonyDialCallback
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -229,6 +234,11 @@ cpp
 '
 '
 TelephonyCallId
+.
+cpp
+'
+'
+TelephonyDialCallback
 .
 cpp
 '
