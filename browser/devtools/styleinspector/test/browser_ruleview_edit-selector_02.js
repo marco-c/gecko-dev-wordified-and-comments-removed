@@ -312,6 +312,7 @@ view
 .
 testclass2
 :
+:
 first
 -
 letter
@@ -345,6 +346,7 @@ view
 "
 .
 testclass2
+:
 :
 first
 -
