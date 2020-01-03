@@ -197,6 +197,11 @@ TelemetryStorage
 jsm
 '
 '
+TelemetryUtils
+.
+jsm
+'
+'
 ThirdPartyCookieProbe
 .
 jsm
