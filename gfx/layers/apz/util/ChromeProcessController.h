@@ -25,6 +25,9 @@ h
 class
 nsIWidget
 ;
+class
+MessageLoop
+;
 namespace
 mozilla
 {
@@ -231,6 +234,10 @@ nsCOMPtr
 nsIWidget
 >
 mWidget
+;
+MessageLoop
+*
+mUILoop
 ;
 }
 ;
