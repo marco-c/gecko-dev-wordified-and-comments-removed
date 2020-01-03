@@ -2601,13 +2601,6 @@ pn
 )
 ;
 bool
-bindDestructuringLHS
-(
-Node
-pn
-)
-;
-bool
 makeSetCall
 (
 Node

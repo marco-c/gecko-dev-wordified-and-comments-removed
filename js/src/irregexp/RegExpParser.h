@@ -647,12 +647,6 @@ ParseDisjunction
 ;
 RegExpTree
 *
-ParseGroup
-(
-)
-;
-RegExpTree
-*
 ParseCharacterClass
 (
 )
