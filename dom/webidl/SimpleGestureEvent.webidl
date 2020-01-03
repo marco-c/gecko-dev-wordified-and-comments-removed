@@ -102,9 +102,6 @@ idl
 *
 /
 interface
-WindowProxy
-;
-interface
 SimpleGestureEvent
 :
 MouseEvent
@@ -185,7 +182,7 @@ boolean
 canBubbleArg
 boolean
 cancelableArg
-WindowProxy
+Window
 ?
 viewArg
 long

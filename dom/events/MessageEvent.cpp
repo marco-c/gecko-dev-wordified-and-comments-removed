@@ -69,6 +69,13 @@ jsapi
 .
 h
 "
+#
+include
+"
+nsGlobalWindow
+.
+h
+"
 namespace
 mozilla
 {
@@ -639,7 +646,7 @@ Value
 (
 )
 .
-IsWindowProxy
+IsWindow
 (
 )
 )
@@ -657,7 +664,7 @@ Value
 (
 )
 .
-GetAsWindowProxy
+GetAsWindow
 (
 )
 ;
