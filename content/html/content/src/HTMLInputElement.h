@@ -1405,7 +1405,10 @@ aRv
 void
 GetAutocompleteInfo
 (
+Nullable
+<
 AutocompleteInfo
+>
 &
 aInfo
 )
@@ -3014,6 +3017,12 @@ DoesMinMaxApply
 )
 ;
 }
+bool
+DoesAutocompleteApply
+(
+)
+const
+;
 bool
 MaxLengthApplies
 (
