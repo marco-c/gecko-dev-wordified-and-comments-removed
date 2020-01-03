@@ -5568,6 +5568,7 @@ JSString
 *
 s
 )
+MOZ_WARN_UNUSED_RESULT
 ;
 bool
 initTwoByte
@@ -5579,6 +5580,7 @@ JSString
 *
 s
 )
+MOZ_WARN_UNUSED_RESULT
 ;
 bool
 isLatin1
