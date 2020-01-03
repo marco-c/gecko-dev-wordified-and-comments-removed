@@ -551,6 +551,9 @@ wstring
 >
 mAllowedFilesRead
 ;
+bool
+mEnableSandboxLogging
+;
 #
 if
 defined
@@ -558,10 +561,7 @@ defined
 MOZ_CONTENT_SANDBOX
 )
 bool
-mEnableContentSandbox
-;
-bool
-mWarnOnlyContentSandbox
+mMoreStrictContentSandbox
 ;
 #
 endif

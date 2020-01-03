@@ -451,7 +451,7 @@ h
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 &
 &
@@ -467,9 +467,9 @@ include
 "
 mozilla
 /
-warnonlysandbox
+sandboxing
 /
-wosCallbacks
+loggingCallbacks
 .
 h
 "
@@ -2541,7 +2541,7 @@ NS_ERROR_FAILURE
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
+MOZ_SANDBOX
 )
 &
 &
@@ -2552,10 +2552,10 @@ XP_WIN
 mozilla
 :
 :
-warnonlysandbox
+sandboxing
 :
 :
-InitIfRequired
+InitLoggingIfRequired
 (
 )
 ;

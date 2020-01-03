@@ -1,13 +1,13 @@
 #
 ifndef
-security_sandbox_warnOnlySandbox_h__
+security_sandbox_sandboxLogging_h__
 #
 define
-security_sandbox_warnOnlySandbox_h__
+security_sandbox_sandboxLogging_h__
 #
 include
 "
-wosTypes
+loggingTypes
 .
 h
 "
@@ -43,7 +43,7 @@ namespace
 mozilla
 {
 namespace
-warnonlysandbox
+sandboxing
 {
 void
 SANDBOX_EXPORT
@@ -54,7 +54,7 @@ aLogFunction
 )
 ;
 void
-ApplyWarnOnlyPolicy
+ApplyLoggingPolicy
 (
 sandbox
 :

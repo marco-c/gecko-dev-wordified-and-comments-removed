@@ -59,6 +59,9 @@ const
 wchar_t
 *
 aArguments
+const
+bool
+aEnableLogging
 void
 *
 *
@@ -81,7 +84,7 @@ bool
 SetSecurityLevelForContentProcess
 (
 bool
-inWarnOnlyMode
+aMoreStrict
 )
 ;
 #
