@@ -1,5 +1,7 @@
 let
+{
 BarGraphWidget
+}
 =
 devtools
 .
@@ -12,7 +14,7 @@ shared
 /
 widgets
 /
-BarGraphWidget
+Graphs
 "
 )
 ;
