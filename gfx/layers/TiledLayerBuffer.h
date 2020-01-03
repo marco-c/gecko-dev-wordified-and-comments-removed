@@ -659,7 +659,7 @@ TiledLayerComposer
 public
 :
 virtual
-void
+bool
 UseTiledLayerBuffer
 (
 ISurfaceAllocator

@@ -563,8 +563,7 @@ IsValid
 const
 {
 return
-!
-mUninitialized
+mIsValid
 ;
 }
 #
@@ -685,7 +684,7 @@ bool
 mHasDoubleBufferedTiles
 ;
 bool
-mUninitialized
+mIsValid
 ;
 }
 ;
@@ -783,7 +782,8 @@ GetValidRegion
 )
 ;
 }
-void
+virtual
+bool
 UseTiledLayerBuffer
 (
 ISurfaceAllocator
@@ -794,6 +794,7 @@ SurfaceDescriptorTiles
 &
 aTiledDescriptor
 )
+MOZ_OVERRIDE
 ;
 void
 Composite
