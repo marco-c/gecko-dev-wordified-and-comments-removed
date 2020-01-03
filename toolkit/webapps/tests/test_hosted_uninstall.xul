@@ -949,7 +949,7 @@ testAppInfo
 .
 trashDir
 .
-contains
+includes
 (
 "
 .

@@ -248,7 +248,7 @@ ok
 (
 url
 .
-contains
+includes
 (
 "
 onbeforeunload

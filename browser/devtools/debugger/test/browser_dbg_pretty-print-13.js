@@ -206,7 +206,7 @@ getText
 (
 )
 .
-contains
+includes
 (
 "
 \
@@ -302,7 +302,7 @@ getText
 (
 )
 .
-contains
+includes
 (
 "
 \
@@ -407,7 +407,7 @@ ok
 (
 text
 .
-contains
+includes
 (
 "
 \

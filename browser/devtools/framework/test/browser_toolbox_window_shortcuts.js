@@ -269,7 +269,7 @@ accelKey
 :
 toolModifiers
 .
-contains
+includes
 (
 "
 accel
@@ -279,7 +279,7 @@ altKey
 :
 toolModifiers
 .
-contains
+includes
 (
 "
 alt
@@ -289,7 +289,7 @@ shiftKey
 :
 toolModifiers
 .
-contains
+includes
 (
 "
 shift

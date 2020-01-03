@@ -1851,7 +1851,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 aTerm
 )
@@ -1869,7 +1869,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 aTerm
 )

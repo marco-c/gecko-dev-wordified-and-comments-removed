@@ -157,7 +157,7 @@ aUrl
 |
 aContentType
 .
-contains
+includes
 (
 "
 javascript

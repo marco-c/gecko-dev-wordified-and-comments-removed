@@ -190,7 +190,7 @@ is
 (
 msg
 .
-contains
+includes
 (
 expected
 [

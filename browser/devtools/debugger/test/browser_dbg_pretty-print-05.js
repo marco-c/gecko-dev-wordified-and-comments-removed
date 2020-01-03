@@ -153,7 +153,7 @@ getText
 (
 )
 .
-contains
+includes
 (
 "
 myFunction
@@ -295,7 +295,7 @@ getText
 (
 )
 .
-contains
+includes
 (
 "
 myFunction
@@ -317,7 +317,7 @@ ok
 (
 text
 .
-contains
+includes
 (
 "
 myFunction

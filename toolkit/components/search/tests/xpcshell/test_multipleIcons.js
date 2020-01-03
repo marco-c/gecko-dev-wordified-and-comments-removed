@@ -80,7 +80,7 @@ iconURI
 .
 spec
 .
-contains
+includes
 (
 "
 ico16
@@ -98,7 +98,7 @@ getIconURLBySize
 32
 )
 .
-contains
+includes
 (
 "
 ico32
@@ -116,7 +116,7 @@ getIconURLBySize
 74
 )
 .
-contains
+includes
 (
 "
 ico74

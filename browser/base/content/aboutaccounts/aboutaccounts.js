@@ -649,7 +649,7 @@ url
 (
 url
 .
-contains
+includes
 (
 "
 ?

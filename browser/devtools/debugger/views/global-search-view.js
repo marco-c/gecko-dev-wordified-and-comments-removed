@@ -564,7 +564,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 lowerCaseToken
 )
@@ -621,7 +621,7 @@ if
 !
 lowerCaseLine
 .
-contains
+includes
 (
 lowerCaseToken
 )

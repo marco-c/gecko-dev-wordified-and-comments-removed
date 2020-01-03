@@ -243,7 +243,7 @@ ok
 (
 topic
 .
-contains
+includes
 (
 addonID
 )
@@ -1753,7 +1753,7 @@ input
 .
 topic
 .
-contains
+includes
 (
 addonID
 )

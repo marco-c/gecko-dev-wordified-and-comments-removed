@@ -348,7 +348,7 @@ ok
 !
 source
 .
-contains
+includes
 (
 "
 \

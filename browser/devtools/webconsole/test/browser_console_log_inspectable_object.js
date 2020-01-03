@@ -211,7 +211,7 @@ body
 .
 textContent
 .
-contains
+includes
 (
 '
 {

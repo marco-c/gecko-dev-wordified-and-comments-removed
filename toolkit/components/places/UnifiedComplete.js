@@ -5545,7 +5545,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 this
 .
@@ -5805,7 +5805,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 this
 .

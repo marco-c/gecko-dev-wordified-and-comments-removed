@@ -32447,7 +32447,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 lowerFieldValue
 )

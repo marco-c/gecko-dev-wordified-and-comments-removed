@@ -1012,7 +1012,7 @@ do_check_false
 (
 xpiState
 .
-contains
+includes
 (
 "
 \

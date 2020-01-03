@@ -486,7 +486,7 @@ if
 (
 actor
 .
-contains
+includes
 (
 "
 framerateActor
@@ -520,7 +520,7 @@ if
 (
 actor
 .
-contains
+includes
 (
 "
 gcliActor

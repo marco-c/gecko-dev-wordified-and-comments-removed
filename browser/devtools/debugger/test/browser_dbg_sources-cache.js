@@ -200,7 +200,7 @@ getText
 (
 )
 .
-contains
+includes
 (
 "
 First
@@ -260,7 +260,7 @@ getSelectedSourceURL
 gSources
 )
 .
-contains
+includes
 (
 "
 code_function
@@ -472,7 +472,7 @@ source
 .
 url
 .
-contains
+includes
 (
 "
 code_function
@@ -540,7 +540,7 @@ source
 .
 url
 .
-contains
+includes
 (
 "
 code_function
@@ -608,7 +608,7 @@ source
 .
 url
 .
-contains
+includes
 (
 "
 code_function
@@ -674,7 +674,7 @@ source
 .
 url
 .
-contains
+includes
 (
 "
 doc_function
@@ -875,7 +875,7 @@ ok
 (
 contents
 .
-contains
+includes
 (
 [
 "

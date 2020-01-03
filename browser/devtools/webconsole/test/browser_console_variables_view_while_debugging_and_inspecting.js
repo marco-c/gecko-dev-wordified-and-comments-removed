@@ -254,7 +254,7 @@ msg
 .
 textContent
 .
-contains
+includes
 (
 '
 {

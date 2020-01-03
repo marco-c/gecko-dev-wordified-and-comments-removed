@@ -4031,7 +4031,7 @@ if
 (
 entry
 .
-contains
+includes
 (
 "
 __MACOSX

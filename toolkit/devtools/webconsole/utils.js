@@ -2330,7 +2330,7 @@ if
 (
 value
 .
-contains
+includes
 (
 okstring
 )

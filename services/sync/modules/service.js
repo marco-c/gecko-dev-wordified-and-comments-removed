@@ -736,7 +736,7 @@ if
 !
 url
 .
-contains
+includes
 (
 "
 :

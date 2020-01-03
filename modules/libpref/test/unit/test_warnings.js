@@ -147,7 +147,7 @@ write
 &
 message
 .
-contains
+includes
 (
 pref
 )

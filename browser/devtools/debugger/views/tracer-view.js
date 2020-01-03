@@ -1497,7 +1497,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 query
 )

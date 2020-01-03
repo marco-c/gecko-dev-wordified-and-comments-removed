@@ -465,7 +465,7 @@ body
 &
 body
 .
-contains
+includes
 (
 "
 TranslateApiException
@@ -476,7 +476,7 @@ TranslateApiException
 (
 body
 .
-contains
+includes
 (
 "
 balance
@@ -486,7 +486,7 @@ balance
 |
 body
 .
-contains
+includes
 (
 "
 active

@@ -350,7 +350,7 @@ getSelectedSourceURL
 gSources
 )
 .
-contains
+includes
 (
 "
 -
@@ -2100,7 +2100,7 @@ getSelectedSourceURL
 gSources
 )
 .
-contains
+includes
 (
 "
 -

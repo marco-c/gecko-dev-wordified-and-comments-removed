@@ -804,7 +804,7 @@ if
 (
 id
 .
-contains
+includes
 (
 "
 /

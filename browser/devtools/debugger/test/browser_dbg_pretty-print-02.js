@@ -243,7 +243,7 @@ getText
 (
 )
 .
-contains
+includes
 (
 "
 \
