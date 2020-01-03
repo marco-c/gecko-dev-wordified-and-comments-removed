@@ -14,14 +14,14 @@ h
 #
 include
 "
-nsIAccessibleTypes
+nsIAccessibleText
 .
 h
 "
 #
 include
 "
-xpcAccessibleHyperText
+nsIAccessibleTypes
 .
 h
 "
@@ -150,8 +150,6 @@ HyperTextAccessible
 :
 public
 AccessibleWrap
-public
-xpcAccessibleHyperText
 {
 public
 :

@@ -27,10 +27,6 @@ HyperTextAccessible
 *
 mGeckoTextAccessible
 ;
-nsIAccessibleEditableText
-*
-mGeckoEditableTextAccessible
-;
 }
 end
 interface

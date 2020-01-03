@@ -62,6 +62,7 @@ new
 HTMLWin32ObjectAccessible
 (
 mHwnd
+aDoc
 )
 ;
 }
@@ -140,10 +141,14 @@ HTMLWin32ObjectAccessible
 void
 *
 aHwnd
+DocAccessible
+*
+aDoc
 )
 :
 DummyAccessible
 (
+aDoc
 )
 {
 mHwnd
@@ -181,7 +186,7 @@ childWnd
 }
 }
 }
-NS_IMETHODIMP
+void
 HTMLWin32ObjectAccessible
 :
 :
@@ -215,7 +220,4 @@ aNativeAccessible
 )
 ;
 }
-return
-NS_OK
-;
 }

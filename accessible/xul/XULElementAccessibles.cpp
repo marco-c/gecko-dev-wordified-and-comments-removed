@@ -94,13 +94,6 @@ endif
 #
 include
 "
-nsIAccessibleRelation
-.
-h
-"
-#
-include
-"
 nsIDOMXULDescriptionElement
 .
 h
@@ -695,12 +688,6 @@ XULLinkAccessible
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED
-(
-XULLinkAccessible
-XULLabelAccessible
-nsIAccessibleHyperLink
-)
 void
 XULLinkAccessible
 :

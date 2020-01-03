@@ -1216,9 +1216,6 @@ nativeAcc
 =
 nil
 ;
-nsresult
-rv
-=
 accessible
 -
 >
@@ -1231,12 +1228,6 @@ void
 )
 &
 nativeAcc
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-nil
 )
 ;
 return

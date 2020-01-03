@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIAccessibleRelation
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

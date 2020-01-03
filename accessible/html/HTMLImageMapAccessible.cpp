@@ -733,7 +733,7 @@ alt
 aName
 )
 )
-GetValue
+Value
 (
 aName
 )

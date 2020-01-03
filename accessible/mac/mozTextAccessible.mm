@@ -371,13 +371,6 @@ AsHyperText
 (
 )
 ;
-CallQueryInterface
-(
-accessible
-&
-mGeckoEditableTextAccessible
-)
-;
 }
 return
 self
@@ -1509,11 +1502,6 @@ mGeckoTextAccessible
 =
 nullptr
 ;
-NS_IF_RELEASE
-(
-mGeckoEditableTextAccessible
-)
-;
 [
 super
 expire
@@ -1551,7 +1539,7 @@ YES
 ;
 if
 (
-mGeckoEditableTextAccessible
+mGeckoTextAccessible
 )
 return
 (
@@ -1638,7 +1626,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
-mGeckoEditableTextAccessible
+mGeckoTextAccessible
 )
 {
 nsString
@@ -1653,10 +1641,10 @@ aNewString
 text
 )
 ;
-mGeckoEditableTextAccessible
+mGeckoTextAccessible
 -
 >
-SetTextContents
+ReplaceText
 (
 text
 )

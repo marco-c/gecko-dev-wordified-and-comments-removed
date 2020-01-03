@@ -319,7 +319,7 @@ return
 eNameOK
 ;
 }
-NS_IMETHODIMP
+void
 ApplicationAccessibleWrap
 :
 :
@@ -357,11 +357,12 @@ nullptr
 )
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 mAtkObject
-NS_ERROR_OUT_OF_MEMORY
 )
+return
 ;
 atk_object_initialize
 (
@@ -388,9 +389,6 @@ ATK_LAYER_INVALID
 aOutAccessible
 =
 mAtkObject
-;
-return
-NS_OK
 ;
 }
 struct

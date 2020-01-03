@@ -1362,7 +1362,7 @@ AccVCChangeEvent
 Accessible
 *
 aAccessible
-nsIAccessible
+Accessible
 *
 aOldAccessible
 int32_t
@@ -1415,7 +1415,7 @@ eVirtualCursorChangeEvent
 )
 ;
 }
-nsIAccessible
+Accessible
 *
 OldAccessible
 (
@@ -1460,7 +1460,7 @@ private
 :
 nsRefPtr
 <
-nsIAccessible
+Accessible
 >
 mOldAccessible
 ;

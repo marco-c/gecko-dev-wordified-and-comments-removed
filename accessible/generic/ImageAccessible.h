@@ -11,13 +11,6 @@ BaseAccessibles
 .
 h
 "
-#
-include
-"
-xpcAccessibleImage
-.
-h
-"
 class
 nsGenericHTMLElement
 ;
@@ -32,8 +25,6 @@ ImageAccessible
 :
 public
 LinkableAccessible
-public
-xpcAccessibleImage
 {
 public
 :
@@ -47,7 +38,6 @@ DocAccessible
 aDoc
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
 virtual
 a11y
 :

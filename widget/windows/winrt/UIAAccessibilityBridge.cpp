@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIAccessibleEditableText
-.
-h
-"
-#
-include
-"
 nsIPersistentProperties2
 .
 h

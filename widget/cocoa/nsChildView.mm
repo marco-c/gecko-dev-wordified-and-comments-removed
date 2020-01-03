@@ -15995,17 +15995,10 @@ mAccessible
 =
 do_GetWeakReference
 (
-static_cast
-<
-nsIAccessible
-*
->
-(
 acc
 .
 get
 (
-)
 )
 )
 ;

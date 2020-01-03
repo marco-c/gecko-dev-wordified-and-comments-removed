@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIAccessibleRelation
-.
-h
-"
-#
-include
-"
 nsIPersistentProperties2
 .
 h

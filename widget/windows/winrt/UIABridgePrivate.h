@@ -658,9 +658,9 @@ private
 int
 mIndexID
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIAccessible
+Accessible
 >
 mAccessItem
 ;

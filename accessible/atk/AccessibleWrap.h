@@ -105,7 +105,8 @@ Shutdown
 (
 )
 ;
-NS_IMETHOD
+virtual
+void
 GetNativeInterface
 (
 void
@@ -113,6 +114,7 @@ void
 *
 aOutAccessible
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -135,9 +137,9 @@ AtkObject
 *
 GetAtkObject
 (
-nsIAccessible
+Accessible
 *
-acc
+aAccessible
 )
 ;
 bool

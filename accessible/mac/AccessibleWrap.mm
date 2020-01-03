@@ -258,7 +258,7 @@ mNativeObject
 NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
-NS_IMETHODIMP
+void
 AccessibleWrap
 :
 :
@@ -270,11 +270,6 @@ void
 aOutInterface
 )
 {
-NS_ENSURE_ARG_POINTER
-(
-aOutInterface
-)
-;
 *
 aOutInterface
 =
@@ -288,14 +283,6 @@ GetNativeObject
 (
 )
 )
-;
-return
-*
-aOutInterface
-?
-NS_OK
-:
-NS_ERROR_FAILURE
 ;
 }
 /

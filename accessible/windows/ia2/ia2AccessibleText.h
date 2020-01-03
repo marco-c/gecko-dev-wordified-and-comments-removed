@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIAccessibleText
-.
-h
-"
-#
-include
-"
 AccessibleText
 .
 h

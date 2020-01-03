@@ -118,13 +118,6 @@ h
 #
 include
 "
-nsIAccessibleRelation
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeItem
 .
 h
@@ -265,11 +258,10 @@ mozilla
 :
 dom
 ;
-NS_IMPL_ISUPPORTS_INHERITED
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 RootAccessible
 DocAccessible
-nsIAccessibleDocument
 )
 RootAccessible
 :
