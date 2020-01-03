@@ -137,6 +137,9 @@ virtual
 bool
 IsHardwareAccelerated
 (
+nsACString
+&
+aFailureReason
 )
 const
 override
@@ -259,6 +262,9 @@ mLayersBackend
 ;
 bool
 mUseHwAccel
+;
+nsCString
+mDXVAFailureReason
 ;
 enum
 StreamType

@@ -1194,6 +1194,9 @@ layers
 :
 LayersBackend
 aBackend
+nsACString
+&
+aFailureReason
 )
 {
 VideoInfo
@@ -1218,6 +1221,19 @@ if
 decoder
 )
 {
+aFailureReason
+.
+AssignLiteral
+(
+"
+Failed
+to
+create
+H264
+decoder
+"
+)
+;
 return
 false
 ;
@@ -1230,6 +1246,7 @@ decoder
 >
 IsHardwareAccelerated
 (
+aFailureReason
 )
 ;
 return

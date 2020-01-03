@@ -905,7 +905,7 @@ supportsHardwareH264
 type
 :
 "
-boolean
+string
 "
 }
 numAcceleratedWindowsMessage
