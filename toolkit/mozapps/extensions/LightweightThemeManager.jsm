@@ -781,13 +781,6 @@ LightweightThemeManager_previewTheme
 aData
 )
 {
-if
-(
-!
-aData
-)
-return
-;
 let
 cancel
 =
