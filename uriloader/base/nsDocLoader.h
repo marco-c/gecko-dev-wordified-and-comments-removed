@@ -851,6 +851,11 @@ mIsFlushingLayout
 ;
 private
 :
+static
+const
+PLDHashTableOps
+sRequestInfoHashOps
+;
 nsCOMArray
 <
 nsIDocumentLoader
