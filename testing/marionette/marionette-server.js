@@ -1273,6 +1273,11 @@ nativeEvents
 :
 false
 "
+raisesAccessibilityExceptions
+"
+:
+false
+"
 rotatable
 "
 :
@@ -14608,6 +14613,13 @@ appName
 B2G
 "
 )
+raisesAccessibilityExceptions
+:
+this
+.
+sessionCapabilities
+.
+raisesAccessibilityExceptions
 }
 this
 .
