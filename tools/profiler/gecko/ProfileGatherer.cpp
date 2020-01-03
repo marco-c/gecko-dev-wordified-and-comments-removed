@@ -26,7 +26,7 @@ h
 #
 include
 "
-TableTicker
+GeckoSampler
 .
 h
 "
@@ -60,7 +60,7 @@ ProfileGatherer
 :
 ProfileGatherer
 (
-TableTicker
+GeckoSampler
 *
 aTicker
 double

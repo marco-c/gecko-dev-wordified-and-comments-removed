@@ -14,6 +14,13 @@ ProfileEntry
 .
 h
 "
+#
+include
+"
+ThreadProfile
+.
+h
+"
 TEST
 (
 ThreadProfile

@@ -288,7 +288,7 @@ h
 #
 include
 "
-TableTicker
+GeckoSampler
 .
 h
 "
@@ -339,6 +339,8 @@ USE_LUL_STACKWALK
 #
 include
 "
+lul
+/
 LulMain
 .
 h
@@ -346,6 +348,8 @@ h
 #
 include
 "
+lul
+/
 platform
 -
 linux
@@ -1293,9 +1297,6 @@ signalno
 }
 class
 PlatformData
-:
-public
-Malloced
 {
 public
 :
