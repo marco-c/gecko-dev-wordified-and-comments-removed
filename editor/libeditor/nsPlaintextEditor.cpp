@@ -3643,10 +3643,9 @@ selNode
 !
 CanContainTag
 (
-GetAsDOMNode
-(
+*
 selNode
-)
+*
 nsGkAtoms
 :
 :

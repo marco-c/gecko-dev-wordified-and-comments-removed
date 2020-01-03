@@ -280,6 +280,15 @@ static
 bool
 IsImage
 (
+nsINode
+*
+aNode
+)
+;
+static
+bool
+IsImage
+(
 nsIDOMNode
 *
 aNode
