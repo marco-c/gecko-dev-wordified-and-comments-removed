@@ -146,12 +146,8 @@ mozilla
 :
 :
 StreamTime
-mozilla
-:
-:
-StreamTime
-&
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

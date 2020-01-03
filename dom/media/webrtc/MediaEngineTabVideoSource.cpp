@@ -1119,9 +1119,6 @@ TrackID
 aID
 StreamTime
 aDesiredTime
-StreamTime
-&
-aLastEndTime
 )
 {
 VideoSegment
@@ -1208,8 +1205,6 @@ delta
 size
 )
 ;
-if
-(
 aSource
 -
 >
@@ -1221,13 +1216,7 @@ aID
 segment
 )
 )
-)
-{
-aLastEndTime
-=
-aDesiredTime
 ;
-}
 }
 }
 void

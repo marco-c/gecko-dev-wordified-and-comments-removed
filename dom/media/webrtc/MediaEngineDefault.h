@@ -216,10 +216,8 @@ TrackID
 aId
 StreamTime
 aDesiredTime
-StreamTime
-&
-aLastEndTime
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -454,10 +452,8 @@ TrackID
 aId
 StreamTime
 aDesiredTime
-StreamTime
-&
-aLastEndTime
 )
+MOZ_OVERRIDE
 {
 }
 virtual

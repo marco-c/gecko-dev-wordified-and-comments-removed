@@ -624,9 +624,6 @@ TrackID
 aID
 StreamTime
 aDesiredTime
-StreamTime
-&
-aLastEndTime
 )
 {
 VideoSegment
@@ -699,8 +696,6 @@ delta
 0
 )
 {
-if
-(
 AppendToTrack
 (
 aSource
@@ -708,13 +703,7 @@ mImage
 aID
 delta
 )
-)
-{
-aLastEndTime
-=
-aDesiredTime
 ;
-}
 }
 }
 bool
