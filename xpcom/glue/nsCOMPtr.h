@@ -221,9 +221,6 @@ endif
 namespace
 mozilla
 {
-namespace
-dom
-{
 template
 <
 class
@@ -232,7 +229,6 @@ T
 class
 OwningNonNull
 ;
-}
 }
 template
 <
@@ -1696,9 +1692,6 @@ const
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 U
@@ -2116,9 +2109,6 @@ operator
 (
 const
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull

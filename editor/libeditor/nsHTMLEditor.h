@@ -228,12 +228,6 @@ PropItem
 namespace
 mozilla
 {
-namespace
-dom
-{
-class
-DocumentFragment
-;
 template
 <
 class
@@ -241,6 +235,12 @@ T
 >
 class
 OwningNonNull
+;
+namespace
+dom
+{
+class
+DocumentFragment
 ;
 }
 namespace
@@ -2541,9 +2541,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsINode
@@ -2595,9 +2592,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsINode
@@ -2608,9 +2602,6 @@ aNodeList
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -2636,9 +2627,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsINode
@@ -2649,9 +2637,6 @@ aPasteNodes
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -2678,9 +2663,6 @@ aStartOrEnd
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -2711,9 +2693,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsINode
@@ -2724,9 +2703,6 @@ aNodeArray
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
@@ -3535,9 +3511,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsIContentFilter
@@ -3891,9 +3864,6 @@ mResizeEventListenerP
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull

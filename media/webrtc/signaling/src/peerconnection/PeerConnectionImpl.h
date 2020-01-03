@@ -1906,9 +1906,6 @@ Sequence
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 DOMMediaStream

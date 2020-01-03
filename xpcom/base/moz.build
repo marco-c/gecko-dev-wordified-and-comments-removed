@@ -431,6 +431,11 @@ nsMemoryInfoDumper
 h
 '
 '
+OwningNonNull
+.
+h
+'
+'
 StaticMutex
 .
 h

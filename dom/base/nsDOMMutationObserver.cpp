@@ -10,8 +10,6 @@ include
 "
 mozilla
 /
-dom
-/
 OwningNonNull
 .
 h
@@ -4245,9 +4243,6 @@ dom
 Sequence
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull

@@ -18,8 +18,6 @@ include
 "
 mozilla
 /
-dom
-/
 OwningNonNull
 .
 h
@@ -2787,9 +2785,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsIEditActionListener
@@ -2802,9 +2797,6 @@ nsTArray
 mozilla
 :
 :
-dom
-:
-:
 OwningNonNull
 <
 nsIEditorObserver
@@ -2815,9 +2807,6 @@ mEditorObservers
 nsTArray
 <
 mozilla
-:
-:
-dom
 :
 :
 OwningNonNull
