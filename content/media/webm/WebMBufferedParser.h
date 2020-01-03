@@ -154,6 +154,10 @@ mVIntRaw
 (
 false
 )
+mClusterSyncPos
+(
+0
+)
 mTimecodeScale
 (
 1000000
