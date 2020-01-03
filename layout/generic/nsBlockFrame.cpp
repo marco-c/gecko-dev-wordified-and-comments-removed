@@ -15149,10 +15149,6 @@ clearBCoord
 curBCoord
 )
 {
-treatWithClearance
-=
-true
-;
 if
 (
 !
