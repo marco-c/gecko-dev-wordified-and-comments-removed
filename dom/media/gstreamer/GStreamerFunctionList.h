@@ -204,6 +204,11 @@ gst_init_check
 GST_FUNC
 (
 LIBGSTREAMER
+gst_iterator_free
+)
+GST_FUNC
+(
+LIBGSTREAMER
 gst_iterator_next
 )
 GST_FUNC
