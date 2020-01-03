@@ -2605,7 +2605,7 @@ static
 void
 clear
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleNativeObject

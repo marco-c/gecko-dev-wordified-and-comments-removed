@@ -4018,7 +4018,7 @@ JSObject
 *
 NewObjectWithGroupCommon
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleObjectGroup
@@ -4044,7 +4044,7 @@ T
 *
 NewObjectWithGroup
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleObjectGroup
@@ -4102,7 +4102,7 @@ T
 *
 NewObjectWithGroup
 (
-ExclusiveContext
+JSContext
 *
 cx
 HandleObjectGroup

@@ -290,7 +290,7 @@ ObjectArray
 js
 :
 :
-HeapPtrObject
+HeapPtrNativeObject
 *
 vector
 ;
@@ -6138,7 +6138,10 @@ asPropertyName
 )
 ;
 }
-JSObject
+js
+:
+:
+NativeObject
 *
 getObject
 (
@@ -6192,7 +6195,10 @@ savedCallerFun
 0
 ;
 }
-JSObject
+js
+:
+:
+NativeObject
 *
 getObject
 (

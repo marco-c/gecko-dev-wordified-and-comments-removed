@@ -2539,7 +2539,7 @@ shape_
 void
 maybeAnalyze
 (
-ExclusiveContext
+JSContext
 *
 cx
 ObjectGroup

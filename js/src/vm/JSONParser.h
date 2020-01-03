@@ -546,6 +546,15 @@ JSTracer
 trc
 )
 ;
+JSObject
+*
+createFinishedObject
+(
+PropertyVector
+&
+properties
+)
+;
 JSONParserBase
 (
 const

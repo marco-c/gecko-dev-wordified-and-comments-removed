@@ -2228,7 +2228,7 @@ case
 SCRIPT_OBJECT
 :
 {
-RootedObject
+RootedNativeObject
 obj
 (
 cx
@@ -2247,6 +2247,13 @@ obj
 vp
 .
 toObject
+(
+)
+.
+as
+<
+NativeObject
+>
 (
 )
 ;
@@ -2819,7 +2826,7 @@ objects
 (
 )
 ;
-HeapPtrObject
+HeapPtrNativeObject
 *
 vector
 =
@@ -5250,7 +5257,7 @@ nobjects
 i
 )
 {
-HeapPtrObject
+HeapPtrNativeObject
 *
 objp
 =
@@ -5988,7 +5995,7 @@ case
 CK_JSObject
 :
 {
-RootedObject
+RootedNativeObject
 tmp
 (
 cx
@@ -13540,7 +13547,7 @@ objects
 vector
 =
 (
-HeapPtrObject
+HeapPtrNativeObject
 *
 )
 cursor
@@ -13598,7 +13605,7 @@ regexps
 vector
 =
 (
-HeapPtrObject
+HeapPtrNativeObject
 *
 )
 cursor
@@ -16793,7 +16800,7 @@ nobjects
 0
 )
 {
-HeapPtrObject
+HeapPtrNativeObject
 *
 vector
 =
@@ -17182,7 +17189,7 @@ i
 +
 )
 {
-HeapPtrObject
+HeapPtrNativeObject
 *
 vector
 =
@@ -17899,13 +17906,13 @@ nobjects
 0
 )
 {
-HeapPtrObject
+HeapPtrNativeObject
 *
 vector
 =
 Rebase
 <
-HeapPtrObject
+HeapPtrNativeObject
 >
 (
 dst
@@ -17979,13 +17986,13 @@ nregexps
 0
 )
 {
-HeapPtrObject
+HeapPtrNativeObject
 *
 vector
 =
 Rebase
 <
-HeapPtrObject
+HeapPtrNativeObject
 >
 (
 dst
