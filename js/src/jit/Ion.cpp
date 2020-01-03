@@ -12112,9 +12112,6 @@ JitActivation
 activation
 (
 cx
-data
-.
-constructing
 )
 ;
 CALL_GENERATED_CODE
@@ -12388,6 +12385,9 @@ JSFunction
 >
 (
 )
+data
+.
+constructing
 )
 ;
 if
@@ -12635,6 +12635,7 @@ iter
 callee
 (
 )
+false
 )
 ;
 }
@@ -12830,7 +12831,6 @@ JitActivation
 activation
 (
 cx
-false
 )
 ;
 EnterJitCode
@@ -12860,6 +12860,7 @@ calleeToken
 CalleeToToken
 (
 fun
+false
 )
 ;
 RootedValue

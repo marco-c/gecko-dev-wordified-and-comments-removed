@@ -7301,8 +7301,6 @@ JSContext
 *
 cx
 bool
-firstFrameIsConstructing
-bool
 active
 )
 :
@@ -7310,10 +7308,6 @@ Activation
 (
 cx
 Jit
-)
-firstFrameIsConstructing_
-(
-firstFrameIsConstructing
 )
 active_
 (
@@ -7392,10 +7386,6 @@ Activation
 (
 cx
 Jit
-)
-firstFrameIsConstructing_
-(
-false
 )
 active_
 (

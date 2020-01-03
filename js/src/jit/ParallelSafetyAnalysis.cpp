@@ -634,6 +634,10 @@ Callee
 )
 SAFE_OP
 (
+IsConstructing
+)
+SAFE_OP
+(
 TableSwitch
 )
 SAFE_OP

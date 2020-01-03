@@ -84,6 +84,11 @@ Callee
 \
 _
 (
+IsConstructing
+)
+\
+_
+(
 TableSwitch
 )
 \

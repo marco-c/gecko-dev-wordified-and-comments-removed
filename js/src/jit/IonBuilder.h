@@ -3691,6 +3691,14 @@ clasp2
 )
 ;
 InliningStatus
+inlineIsConstructing
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineForceSequentialOrInParallelSection
 (
 CallInfo

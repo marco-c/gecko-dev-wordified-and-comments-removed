@@ -40392,7 +40392,7 @@ offsetOfCalleeToken
 ;
 masm
 .
-loadPtr
+loadFunctionFromCalleeToken
 (
 callee
 R0
@@ -50154,9 +50154,10 @@ argcReg
 ;
 masm
 .
-Push
+PushCalleeToken
 (
 callee
+isConstructing_
 )
 ;
 masm

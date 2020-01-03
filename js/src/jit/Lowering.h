@@ -304,6 +304,14 @@ callee
 )
 ;
 bool
+visitIsConstructing
+(
+MIsConstructing
+*
+ins
+)
+;
+bool
 visitGoto
 (
 MGoto
