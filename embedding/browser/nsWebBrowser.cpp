@@ -550,9 +550,11 @@ aSink
 )
 )
 )
+{
 return
 NS_OK
 ;
+}
 if
 (
 mDocShell
@@ -596,9 +598,11 @@ if
 !
 viewer
 )
+{
 return
 NS_NOINTERFACE
 ;
+}
 nsCOMPtr
 <
 nsIWebBrowserPrint
@@ -1627,6 +1631,7 @@ aName
 ;
 }
 else
+{
 mInitInfo
 -
 >
@@ -1634,6 +1639,7 @@ name
 =
 aName
 ;
+}
 return
 NS_OK
 ;
@@ -1680,6 +1686,7 @@ _retval
 ;
 }
 else
+{
 *
 _retval
 =
@@ -1693,6 +1700,7 @@ Equals
 aName
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1771,6 +1779,7 @@ if
 (
 mDocShell
 )
+{
 mDocShell
 -
 >
@@ -1798,6 +1807,7 @@ typeContent
 )
 )
 ;
+}
 return
 NS_OK
 ;
@@ -5334,7 +5344,6 @@ cy
 ;
 }
 else
-{
 if
 (
 mInternalWidget
@@ -5404,6 +5413,7 @@ NS_OK
 ;
 }
 else
+{
 return
 mDocShellAsWin
 -
@@ -5647,6 +5657,7 @@ if
 !
 mDocShell
 )
+{
 mInitInfo
 -
 >
@@ -5654,6 +5665,7 @@ visible
 =
 aVisibility
 ;
+}
 else
 {
 NS_ENSURE_SUCCESS
@@ -5672,6 +5684,7 @@ if
 (
 mInternalWidget
 )
+{
 mInternalWidget
 -
 >
@@ -5680,6 +5693,7 @@ Show
 aVisibility
 )
 ;
+}
 }
 return
 NS_OK
