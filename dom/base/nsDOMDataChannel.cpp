@@ -1803,8 +1803,8 @@ NS_ERROR_FAILURE
 )
 ;
 jsData
-.
-setString
+=
+STRING_TO_JSVAL
 (
 jsString
 )

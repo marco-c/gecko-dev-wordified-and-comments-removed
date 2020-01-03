@@ -5094,10 +5094,7 @@ JS_SetReservedSlot
 (
 expandoObject
 JSSLOT_EXPANDO_ORIGIN
-JS
-:
-:
-PrivateValue
+PRIVATE_TO_JSVAL
 (
 origin
 )

@@ -229,10 +229,7 @@ ccx
 .
 SetRetVal
 (
-JS
-:
-:
-StringValue
+STRING_TO_JSVAL
 (
 str
 )

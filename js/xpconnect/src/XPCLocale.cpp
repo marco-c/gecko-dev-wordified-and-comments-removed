@@ -468,9 +468,12 @@ false
 }
 rval
 .
-setString
+set
+(
+STRING_TO_JSVAL
 (
 ucstr
+)
 )
 ;
 return

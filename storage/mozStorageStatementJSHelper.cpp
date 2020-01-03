@@ -319,10 +319,10 @@ return
 false
 ;
 }
+*
 _vp
--
->
-setBoolean
+=
+BOOLEAN_TO_JSVAL
 (
 hasMore
 )

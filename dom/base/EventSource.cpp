@@ -5351,8 +5351,8 @@ jsString
 )
 ;
 jsData
-.
-setString
+=
+STRING_TO_JSVAL
 (
 jsString
 )
