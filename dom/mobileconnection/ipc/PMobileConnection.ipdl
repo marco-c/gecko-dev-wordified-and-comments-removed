@@ -353,7 +353,7 @@ SelectNetworkAutoRequest
 struct
 SetPreferredNetworkTypeRequest
 {
-nsString
+int32_t
 type
 ;
 }

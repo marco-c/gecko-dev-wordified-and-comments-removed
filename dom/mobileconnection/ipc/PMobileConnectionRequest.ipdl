@@ -246,6 +246,14 @@ m
 ;
 }
 ;
+struct
+MobileConnectionReplySuccessPreferredNetworkType
+{
+int32_t
+type
+;
+}
+;
 /
 /
 Error
@@ -295,6 +303,8 @@ MobileConnectionReplySuccessCallForwarding
 MobileConnectionReplySuccessCallBarring
 ;
 MobileConnectionReplySuccessClirStatus
+;
+MobileConnectionReplySuccessPreferredNetworkType
 ;
 /
 /

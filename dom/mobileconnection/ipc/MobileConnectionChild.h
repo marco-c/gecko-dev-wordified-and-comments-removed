@@ -500,6 +500,15 @@ bool
 DoReply
 (
 const
+MobileConnectionReplySuccessPreferredNetworkType
+&
+aReply
+)
+;
+bool
+DoReply
+(
+const
 MobileConnectionReplyError
 &
 aReply
