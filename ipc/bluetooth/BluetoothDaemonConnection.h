@@ -108,6 +108,11 @@ size_t
 aPayloadSize
 )
 ;
+~
+BluetoothDaemonPDU
+(
+)
+;
 void
 SetConsumer
 (
