@@ -3469,7 +3469,7 @@ AsContentCommandEvent
 break
 ;
 case
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 :
 {
 WidgetTextEvent

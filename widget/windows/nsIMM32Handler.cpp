@@ -7533,7 +7533,7 @@ WidgetTextEvent
 event
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 aWindow
 )
 ;
@@ -7607,7 +7607,9 @@ t
 need
 to
 fire
-text
+"
+"
+compositionchange
 event
 "
 )

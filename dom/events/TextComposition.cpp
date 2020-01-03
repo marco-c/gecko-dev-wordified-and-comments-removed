@@ -536,7 +536,7 @@ mData
 break
 ;
 case
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 :
 committingData
 =
@@ -640,7 +640,7 @@ aEvent
 message
 =
 =
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 )
 {
 if
@@ -695,7 +695,7 @@ aEvent
 message
 =
 =
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 &
 &
 !
@@ -1117,7 +1117,7 @@ WidgetTextEvent
 textEvent
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 widget
 )
 ;
@@ -1289,7 +1289,7 @@ IsEmpty
 {
 DispatchCompositionEventRunnable
 (
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 data
 true
 )
@@ -1379,7 +1379,7 @@ The
 text
 of
 a
-text
+compositionchange
 event
 must
 be
@@ -1387,10 +1387,10 @@ same
 as
 previous
 data
+"
+"
 attribute
 value
-"
-"
 of
 the
 latest
@@ -1831,14 +1831,14 @@ break
 ;
 }
 case
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 :
 {
 WidgetTextEvent
 textEvent
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 widget
 )
 ;

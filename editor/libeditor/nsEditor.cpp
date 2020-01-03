@@ -21390,7 +21390,7 @@ return
 false
 ;
 case
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 :
 widgetGUIEvent
 =

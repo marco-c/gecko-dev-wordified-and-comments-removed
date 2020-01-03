@@ -4675,7 +4675,7 @@ WidgetTextEvent
 textEvent
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 mLastFocusedWindow
 )
 ;
@@ -4773,7 +4773,9 @@ destroyed
 /
 changed
 by
-text
+"
+"
+compositionchange
 event
 "
 )

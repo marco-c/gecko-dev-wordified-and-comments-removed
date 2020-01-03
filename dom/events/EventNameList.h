@@ -1178,7 +1178,7 @@ eBasicEventClass
 NON_IDL_EVENT
 (
 text
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 EventNameType_XUL
 eTextEventClass
 )

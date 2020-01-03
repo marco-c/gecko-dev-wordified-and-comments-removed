@@ -17288,7 +17288,7 @@ WidgetTextEvent
 textEvent
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 mWidget
 )
 ;
@@ -17867,7 +17867,7 @@ InsertTextAsCommittingComposition
 "
 destroyed
 by
-text
+compositionchange
 event
 "
 this
@@ -18499,7 +18499,7 @@ SetMarkedText
 "
 destroyed
 by
-text
+compositionchange
 event
 "
 this

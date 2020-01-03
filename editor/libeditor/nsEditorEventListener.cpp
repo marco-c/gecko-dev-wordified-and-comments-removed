@@ -2006,7 +2006,7 @@ aEvent
 )
 ;
 case
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 :
 return
 HandleText

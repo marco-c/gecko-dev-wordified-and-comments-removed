@@ -8801,7 +8801,7 @@ FlushPendingActions
 "
 "
 dispatching
-text
+compositionchange
 event
 .
 .
@@ -8815,7 +8815,7 @@ WidgetTextEvent
 textEvent
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 mWidget
 )
 ;
@@ -9003,7 +9003,7 @@ FlushPendingActions
 "
 "
 dispatching
-text
+compositionchange
 event
 .
 .
@@ -9017,7 +9017,7 @@ WidgetTextEvent
 textEvent
 (
 true
-NS_TEXT_TEXT
+NS_COMPOSITION_CHANGE
 mWidget
 )
 ;
