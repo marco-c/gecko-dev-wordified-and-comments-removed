@@ -54709,7 +54709,7 @@ Scalar
 :
 :
 Type
-arrayType
+writeType
 const
 LAllocation
 *
@@ -54722,7 +54722,16 @@ dest
 {
 if
 (
-arrayType
+Scalar
+:
+:
+isSimdType
+(
+writeType
+)
+|
+|
+writeType
 =
 =
 Scalar
@@ -54731,7 +54740,7 @@ Scalar
 Float32
 |
 |
-arrayType
+writeType
 =
 =
 Scalar
@@ -54744,7 +54753,7 @@ masm
 .
 storeToTypedFloatArray
 (
-arrayType
+writeType
 ToFloatRegister
 (
 value
@@ -54768,7 +54777,7 @@ masm
 .
 storeToTypedIntArray
 (
-arrayType
+writeType
 Imm32
 (
 ToInt32
@@ -54784,7 +54793,7 @@ masm
 .
 storeToTypedIntArray
 (
-arrayType
+writeType
 ToRegister
 (
 value
@@ -54834,7 +54843,7 @@ Scalar
 :
 :
 Type
-arrayType
+writeType
 =
 lir
 -
@@ -54844,7 +54853,7 @@ mir
 )
 -
 >
-arrayType
+writeType
 (
 )
 ;
@@ -54856,7 +54865,17 @@ Scalar
 :
 byteSize
 (
+lir
+-
+>
+mir
+(
+)
+-
+>
 arrayType
+(
+)
 )
 ;
 if
@@ -54906,7 +54925,7 @@ offsetAdjustment
 StoreToTypedArray
 (
 masm
-arrayType
+writeType
 value
 dest
 )
@@ -54947,7 +54966,7 @@ offsetAdjustment
 StoreToTypedArray
 (
 masm
-arrayType
+writeType
 value
 dest
 )
