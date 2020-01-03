@@ -1476,6 +1476,13 @@ nullptr
 hr
 )
 ;
+mLastDuration
+=
+aSample
+-
+>
+mDuration
+;
 return
 mDecoder
 -
@@ -1513,6 +1520,15 @@ return
 false
 ;
 }
+float
+framerate
+=
+1000000
+.
+0
+/
+mLastDuration
+;
 if
 (
 mDXVA2Manager
@@ -1521,6 +1537,7 @@ mDXVA2Manager
 SupportsConfig
 (
 aType
+framerate
 )
 )
 {

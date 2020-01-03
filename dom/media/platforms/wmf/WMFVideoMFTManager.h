@@ -268,6 +268,9 @@ IMFSample
 >
 mLastInput
 ;
+float
+mLastDuration
+;
 const
 bool
 mDXVAEnabled
