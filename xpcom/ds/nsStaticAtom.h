@@ -84,6 +84,7 @@ nsStaticAtom
 {
 nsStringBuffer
 *
+MOZ_NON_OWNING_REF
 mStringBuffer
 ;
 nsIAtom
