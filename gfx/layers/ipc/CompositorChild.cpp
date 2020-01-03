@@ -216,11 +216,6 @@ mLayerManager
 aLayerManager
 )
 {
-MOZ_COUNT_CTOR
-(
-CompositorChild
-)
-;
 }
 CompositorChild
 :
@@ -230,11 +225,6 @@ CompositorChild
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-CompositorChild
-)
-;
 }
 void
 CompositorChild
