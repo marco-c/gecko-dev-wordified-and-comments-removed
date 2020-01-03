@@ -169,7 +169,7 @@ friend
 class
 DrawTargetD2D1
 ;
-void
+bool
 EnsureRealizedBitmap
 (
 )
