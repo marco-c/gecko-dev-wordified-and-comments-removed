@@ -1,3 +1,15 @@
+if
+(
+this
+.
+hasOwnProperty
+(
+"
+Intl
+"
+)
+)
+{
 gczeal
 (
 14
@@ -38,3 +50,4 @@ Collator
 0
 )
 )
+}
