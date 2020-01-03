@@ -2478,7 +2478,7 @@ expires_in_version
 "
 :
 "
-default
+never
 "
 "
 kind
@@ -2530,7 +2530,7 @@ expires_in_version
 "
 :
 "
-default
+never
 "
 "
 kind
@@ -32675,7 +32675,7 @@ expires_in_version
 "
 :
 "
-40
+never
 "
 "
 kind
@@ -32741,7 +32741,7 @@ expires_in_version
 "
 :
 "
-40
+never
 "
 "
 kind
@@ -32807,7 +32807,7 @@ expires_in_version
 "
 :
 "
-40
+never
 "
 "
 kind
@@ -32874,7 +32874,7 @@ expires_in_version
 "
 :
 "
-40
+never
 "
 "
 kind
@@ -32974,6 +32974,16 @@ alert_emails
 :
 [
 "
+perf
+-
+telemetry
+-
+alerts
+mozilla
+.
+com
+"
+"
 rvitillo
 mozilla
 .
@@ -32985,7 +32995,7 @@ expires_in_version
 "
 :
 "
-36
+never
 "
 "
 kind
@@ -33023,7 +33033,7 @@ expires_in_version
 "
 :
 "
-default
+never
 "
 "
 kind
@@ -33058,7 +33068,7 @@ expires_in_version
 "
 :
 "
-default
+never
 "
 "
 kind
@@ -33093,7 +33103,7 @@ expires_in_version
 "
 :
 "
-default
+never
 "
 "
 kind
@@ -33133,7 +33143,7 @@ expires_in_version
 "
 :
 "
-default
+never
 "
 "
 kind
@@ -33173,7 +33183,7 @@ expires_in_version
 "
 :
 "
-default
+never
 "
 "
 kind
@@ -33217,7 +33227,7 @@ expires_in_version
 "
 :
 "
-default
+never
 "
 "
 kind
@@ -33261,7 +33271,7 @@ expires_in_version
 "
 :
 "
-default
+never
 "
 "
 kind
@@ -33310,7 +33320,7 @@ expires_in_version
 "
 :
 "
-default
+never
 "
 "
 kind
@@ -35845,7 +35855,7 @@ expires_in_version
 "
 :
 "
-40
+never
 "
 "
 kind
