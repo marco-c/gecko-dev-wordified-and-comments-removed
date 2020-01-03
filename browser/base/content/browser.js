@@ -22785,6 +22785,12 @@ level
 )
 ;
 }
+gURLBar
+.
+formatValue
+(
+)
+;
 try
 {
 uri
