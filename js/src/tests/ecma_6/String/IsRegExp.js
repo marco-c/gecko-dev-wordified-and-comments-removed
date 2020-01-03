@@ -14,7 +14,7 @@ prototype
 {
 startsWith
 endsWith
-contains
+includes
 }
 should
 call
@@ -46,7 +46,7 @@ startsWith
 endsWith
 "
 "
-contains
+includes
 "
 ]
 )

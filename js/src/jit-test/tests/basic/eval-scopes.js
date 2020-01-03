@@ -90,7 +90,7 @@ assertEq
 (
 b
 .
-contains
+includes
 (
 getgname
 "
@@ -106,7 +106,7 @@ assertEq
 (
 b
 .
-contains
+includes
 (
 getname
 "

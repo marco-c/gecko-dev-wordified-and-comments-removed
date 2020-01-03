@@ -43,7 +43,7 @@ assertEq
 (
 stack
 .
-contains
+includes
 (
 "
 f
@@ -59,7 +59,7 @@ assertEq
 (
 stack
 .
-contains
+includes
 (
 "
 this
