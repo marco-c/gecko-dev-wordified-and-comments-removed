@@ -18,6 +18,14 @@ interface
 mozButtonAccessible
 :
 mozAccessible
+{
+}
+-
+(
+BOOL
+)
+hasPopup
+;
 -
 (
 void
@@ -41,11 +49,6 @@ int
 )
 isChecked
 ;
-end
-interface
-mozPopupButtonAccessible
-:
-mozButtonAccessible
 end
 interface
 mozTabsAccessible
