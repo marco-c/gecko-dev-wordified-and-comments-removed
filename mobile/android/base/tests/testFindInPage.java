@@ -96,7 +96,7 @@ testFindInPage
 extends
 JavascriptTest
 implements
-NativeEventListener
+GeckoEventListener
 {
 private
 static
