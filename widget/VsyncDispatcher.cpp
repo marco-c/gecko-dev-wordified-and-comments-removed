@@ -167,13 +167,6 @@ aVsyncTimestamp
 #
 ifdef
 MOZ_ENABLE_PROFILER_SPS
-if
-(
-profiler_is_active
-(
-)
-)
-{
 layers
 :
 :
@@ -185,7 +178,6 @@ PostInsertVsyncProfilerMarker
 aVsyncTimestamp
 )
 ;
-}
 #
 endif
 MutexAutoLock

@@ -6130,13 +6130,6 @@ IsInCompositorThread
 )
 )
 ;
-MOZ_ASSERT
-(
-profiler_is_active
-(
-)
-)
-;
 VsyncPayload
 *
 payload
