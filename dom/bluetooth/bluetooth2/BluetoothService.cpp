@@ -770,7 +770,7 @@ MOZ_B2G_BT
 if
 (
 !
-IsMainProcess
+XRE_IsParentProcess
 (
 )
 )
@@ -920,7 +920,7 @@ false
 }
 if
 (
-IsMainProcess
+XRE_IsParentProcess
 (
 )
 &
@@ -1128,7 +1128,7 @@ aHandler
 ;
 if
 (
-IsMainProcess
+XRE_IsParentProcess
 (
 )
 &

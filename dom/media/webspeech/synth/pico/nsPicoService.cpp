@@ -3219,12 +3219,10 @@ NS_IsMainThread
 ;
 if
 (
-XRE_GetProcessType
+!
+XRE_IsParentProcess
 (
 )
-!
-=
-GeckoProcessType_Default
 )
 {
 MOZ_ASSERT

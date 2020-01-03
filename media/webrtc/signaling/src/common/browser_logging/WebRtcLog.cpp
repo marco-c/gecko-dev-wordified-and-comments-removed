@@ -767,12 +767,9 @@ MOZILLA_EXTERNAL_LINKAGE
 )
 if
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 {
 mozilla

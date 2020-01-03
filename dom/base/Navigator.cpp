@@ -6273,12 +6273,9 @@ memory
 {
 if
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 {
 uint32_t
@@ -11099,12 +11096,9 @@ aGlobal
 )
 {
 return
-XRE_GetProcessType
+XRE_IsContentProcess
 (
 )
-=
-=
-GeckoProcessType_Content
 ;
 }
 bool

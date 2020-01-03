@@ -244,10 +244,7 @@ false
 {
 MOZ_ASSERT
 (
-FileSystemUtils
-:
-:
-IsParentProcess
+XRE_IsParentProcess
 (
 )
 "
@@ -643,10 +640,7 @@ Work
 {
 MOZ_ASSERT
 (
-FileSystemUtils
-:
-:
-IsParentProcess
+XRE_IsParentProcess
 (
 )
 "
