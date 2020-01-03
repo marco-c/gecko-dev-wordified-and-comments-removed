@@ -1913,6 +1913,11 @@ enabled
 style
 :
 {
+audioLevelDisplayMode
+:
+"
+off
+"
 bugDisplayMode
 :
 "
@@ -1924,6 +1929,11 @@ buttonDisplayMode
 off
 "
 nameDisplayMode
+:
+"
+off
+"
+videoDisabledDisplayMode
 :
 "
 off
