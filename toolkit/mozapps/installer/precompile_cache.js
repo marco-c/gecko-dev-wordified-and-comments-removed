@@ -137,6 +137,8 @@ subpath
 ext
 )
 {
+try
+{
 var
 dir
 =
@@ -160,6 +162,17 @@ dir
 .
 directoryEntries
 ;
+}
+catch
+(
+e
+)
+{
+return
+[
+]
+;
+}
 var
 entries
 =
