@@ -1078,7 +1078,11 @@ id
 0
 ]
 ;
-SetPref
+Services
+.
+prefs
+.
+setBoolPref
 (
 toolDefinition
 .
@@ -1296,7 +1300,11 @@ get
 id
 )
 ;
-SetPref
+Services
+.
+prefs
+.
+setBoolPref
 (
 toolDefinition
 .
