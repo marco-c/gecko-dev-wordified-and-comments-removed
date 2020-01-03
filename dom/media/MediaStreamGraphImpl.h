@@ -771,16 +771,6 @@ return
 mSampleRate
 ;
 }
-TrackRate
-GraphRate
-(
-)
-const
-{
-return
-mSampleRate
-;
-}
 uint32_t
 AudioChannelCount
 (
@@ -1071,9 +1061,6 @@ mLifecycleState
 ;
 GraphTime
 mEndTime
-;
-TrackRate
-mSampleRate
 ;
 bool
 mForceShutDown

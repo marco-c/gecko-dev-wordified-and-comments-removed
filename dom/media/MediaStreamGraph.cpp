@@ -13854,6 +13854,10 @@ AudioChannel
 aChannel
 )
 :
+MediaStreamGraph
+(
+aSampleRate
+)
 mProcessingGraphUpdateIndex
 (
 0
@@ -13883,10 +13887,6 @@ LIFECYCLE_THREAD_NOT_STARTED
 mEndTime
 (
 GRAPH_TIME_MAX
-)
-mSampleRate
-(
-aSampleRate
 )
 mForceShutDown
 (
