@@ -121,14 +121,6 @@ SetHasImage
 0
 ;
 virtual
-void
-OnStartDecode
-(
-)
-=
-0
-;
-virtual
 bool
 NotificationsDeferred
 (

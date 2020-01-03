@@ -4050,8 +4050,6 @@ mProgressTracker
 >
 SyncNotifyProgress
 (
-FLAG_DECODE_STARTED
-|
 FLAG_ONLOAD_BLOCKED
 )
 ;

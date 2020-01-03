@@ -481,11 +481,6 @@ Progress
 aProgress
 )
 ;
-void
-NotifyForDecodeOnlyOnDraw
-(
-)
-;
 nsresult
 SetSourceSizeHint
 (
