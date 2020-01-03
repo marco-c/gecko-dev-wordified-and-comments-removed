@@ -150,4 +150,9 @@ DownloadsTaskbar
 .
 jsm
 '
+'
+DownloadsViewUI
+.
+jsm
+'
 ]
