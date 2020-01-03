@@ -970,6 +970,7 @@ EXT_texture_compression_s3tc
 EXT_texture_filter_anisotropic
 EXT_texture_format_BGRA8888
 EXT_texture_sRGB
+EXT_texture_storage
 EXT_transform_feedback
 EXT_unpack_subimage
 IMG_read_format
