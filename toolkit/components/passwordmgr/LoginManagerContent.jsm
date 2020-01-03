@@ -5115,6 +5115,8 @@ el
 of
 doc
 .
+documentElement
+.
 querySelectorAll
 (
 "
