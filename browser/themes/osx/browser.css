@@ -24755,7 +24755,7 @@ background
 not
 (
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -24845,7 +24845,7 @@ background
 -
 middle
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -24886,7 +24886,7 @@ background
 -
 start
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -24910,7 +24910,7 @@ background
 -
 end
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -24962,7 +24962,7 @@ background
 -
 end
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -24986,7 +24986,7 @@ background
 -
 start
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -25172,7 +25172,7 @@ tab
 not
 (
 [
-visuallyselected
+selected
 ]
 )
 :
@@ -25238,7 +25238,7 @@ tab
 not
 (
 [
-visuallyselected
+selected
 ]
 )
 :
@@ -25315,7 +25315,7 @@ image
 not
 (
 [
-visuallyselected
+selected
 =
 "
 true
@@ -25351,7 +25351,7 @@ label
 not
 (
 [
-visuallyselected
+selected
 =
 "
 true
@@ -25392,7 +25392,7 @@ tabbrowser
 -
 tab
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -25416,7 +25416,7 @@ tabbrowser
 -
 tab
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -25715,7 +25715,7 @@ middle
 not
 (
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -25911,7 +25911,7 @@ icon
 not
 (
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -25967,7 +25967,7 @@ icon
 not
 (
 [
-visuallyselected
+selected
 =
 true
 ]

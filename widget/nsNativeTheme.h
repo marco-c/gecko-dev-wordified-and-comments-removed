@@ -282,7 +282,7 @@ aFrame
 nsGkAtoms
 :
 :
-visuallyselected
+selected
 )
 ;
 }
