@@ -3079,6 +3079,7 @@ JS_NULL_CLASS_SPEC
 {
 nullptr
 nullptr
+nullptr
 true
 nullptr
 WrappedNativeObjectMoved
@@ -6384,6 +6385,13 @@ innerObject
 *
 /
 \
+nullptr
+/
+*
+iteratorObject
+*
+/
+\
 false
 /
 *
@@ -7154,6 +7162,7 @@ nullptr
 nullptr
 JS_NULL_CLASS_SPEC
 {
+nullptr
 nullptr
 nullptr
 false

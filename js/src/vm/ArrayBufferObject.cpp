@@ -472,6 +472,7 @@ JS_NULL_CLASS_SPEC
 {
 nullptr
 nullptr
+nullptr
 false
 nullptr
 ArrayBufferObject

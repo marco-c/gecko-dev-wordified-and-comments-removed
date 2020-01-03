@@ -2522,6 +2522,13 @@ innerObject
 *
 /
               
+nullptr
+/
+*
+iteratorObject
+*
+/
+              
 false
 /
 *
@@ -2628,6 +2635,13 @@ nullptr
 /
 *
 innerObject
+*
+/
+                      
+nullptr
+/
+*
+iteratorObject
 *
 /
                       
@@ -3337,6 +3351,13 @@ nullptr
 /
 *
 innerObject
+*
+/
+                                                  
+nullptr
+/
+*
+iteratorObject
 *
 /
                                                   

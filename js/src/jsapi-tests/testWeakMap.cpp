@@ -652,6 +652,7 @@ JS_NULL_CLASS_SPEC
 {
 nullptr
 nullptr
+nullptr
 false
 GetKeyDelegate
 }
