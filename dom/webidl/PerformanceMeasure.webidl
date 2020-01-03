@@ -119,6 +119,14 @@ timing
 performancemeasure
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 PerformanceMeasure
 :

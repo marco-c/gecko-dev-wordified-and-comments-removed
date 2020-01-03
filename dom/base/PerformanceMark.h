@@ -32,13 +32,15 @@ public
 :
 PerformanceMark
 (
-nsPerformance
+nsISupports
 *
-aPerformance
+aParent
 const
 nsAString
 &
 aName
+DOMHighResTimeStamp
+aStartTime
 )
 ;
 virtual

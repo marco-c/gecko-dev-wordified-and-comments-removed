@@ -32,9 +32,9 @@ public
 :
 PerformanceMeasure
 (
-nsPerformance
+nsISupports
 *
-aPerformance
+aParent
 const
 nsAString
 &

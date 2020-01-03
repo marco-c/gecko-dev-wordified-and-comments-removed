@@ -385,6 +385,15 @@ MessagePort
 Performance
 "
 "
+PerformanceEntry
+"
+"
+PerformanceMark
+"
+"
+PerformanceMeasure
+"
+"
 Promise
 "
 "

@@ -149,6 +149,14 @@ apply
 .
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 PerformanceEntry
 {

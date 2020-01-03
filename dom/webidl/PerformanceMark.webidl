@@ -119,6 +119,14 @@ timing
 performancemark
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 PerformanceMark
 :
