@@ -370,6 +370,7 @@ String
 )
 ;
 private
+final
 AtomicInteger
 mVisibleAPs
 =

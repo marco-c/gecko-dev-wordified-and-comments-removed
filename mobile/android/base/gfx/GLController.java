@@ -304,6 +304,7 @@ EGLConfig
 mEGLConfig
 ;
 private
+final
 EGLPreloadingThread
 mEGLPreloadingThread
 ;

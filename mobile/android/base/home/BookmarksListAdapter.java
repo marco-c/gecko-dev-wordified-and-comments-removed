@@ -447,6 +447,7 @@ refreshType
 ;
 }
 private
+final
 LinkedList
 <
 FolderInfo

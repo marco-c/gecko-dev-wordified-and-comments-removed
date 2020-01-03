@@ -355,6 +355,7 @@ RenderTask
 mTasks
 ;
 private
+final
 CopyOnWriteArrayList
 <
 Layer
@@ -370,6 +371,7 @@ Layer
 )
 ;
 private
+final
 int
 [
 ]
@@ -2083,10 +2085,12 @@ long
 mFrameStartTime
 ;
 private
+final
 ImmutableViewportMetrics
 mFrameMetrics
 ;
 private
+final
 RenderContext
 mPageContext
 mScreenContext

@@ -76,6 +76,7 @@ ServiceHandler
 mServiceHandler
 ;
 private
+final
 String
 mName
 ;

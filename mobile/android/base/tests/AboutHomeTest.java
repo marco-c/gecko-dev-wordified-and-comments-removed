@@ -125,6 +125,7 @@ READING_LIST
 }
 ;
 private
+final
 ArrayList
 <
 String

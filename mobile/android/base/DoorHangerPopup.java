@@ -159,6 +159,7 @@ GeckoDoorHangerPopup
 "
 ;
 private
+final
 HashSet
 <
 DoorHanger

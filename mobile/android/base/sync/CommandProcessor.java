@@ -200,6 +200,7 @@ Command
 ;
 private
 static
+final
 AtomicInteger
 currentId
 =

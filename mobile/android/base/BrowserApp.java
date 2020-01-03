@@ -1504,6 +1504,7 @@ boolean
 mHideWebContentOnAnimationEnd
 ;
 private
+final
 DynamicToolbar
 mDynamicToolbar
 =

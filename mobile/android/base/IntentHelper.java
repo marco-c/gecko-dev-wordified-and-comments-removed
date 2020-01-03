@@ -159,6 +159,7 @@ IntentHelper
 instance
 ;
 private
+final
 Activity
 activity
 ;

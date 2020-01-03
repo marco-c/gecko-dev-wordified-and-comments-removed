@@ -340,6 +340,7 @@ DEFAULT_INSERTION_FLUSH_THRESHOLD
 50
 ;
 private
+final
 HashMap
 <
 String
@@ -357,6 +358,7 @@ Long
 )
 ;
 private
+final
 HashMap
 <
 Long
@@ -374,6 +376,7 @@ String
 )
 ;
 private
+final
 HashMap
 <
 String
@@ -397,6 +400,7 @@ String
 )
 ;
 private
+final
 HashMap
 <
 String
@@ -420,6 +424,7 @@ needsReparenting
 0
 ;
 private
+final
 AndroidBrowserBookmarksDataAccessor
 dataAccessor
 ;

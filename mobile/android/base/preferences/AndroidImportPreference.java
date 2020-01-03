@@ -67,9 +67,9 @@ AndroidImportPreference
 extends
 MultiPrefMultiChoicePreference
 {
+private
 static
 final
-private
 String
 LOGTAG
 =
@@ -91,6 +91,7 @@ data
 "
 ;
 private
+final
 Context
 mContext
 ;

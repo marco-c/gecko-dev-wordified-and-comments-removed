@@ -185,6 +185,7 @@ MSG_BIND_PREFERENCES
 1
 ;
 private
+final
 Handler
 mHandler
 =
@@ -1074,6 +1075,7 @@ mRequestFocus
 ;
 }
 private
+final
 OnKeyListener
 mListOnKeyListener
 =

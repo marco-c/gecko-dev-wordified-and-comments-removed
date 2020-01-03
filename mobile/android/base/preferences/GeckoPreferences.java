@@ -4816,6 +4816,7 @@ serial
 "
 )
 private
+final
 Map
 <
 String

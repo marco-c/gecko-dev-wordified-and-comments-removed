@@ -255,6 +255,7 @@ guest
 ;
 private
 static
+final
 HashMap
 <
 String

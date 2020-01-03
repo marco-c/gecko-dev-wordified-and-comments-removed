@@ -20,6 +20,7 @@ BOOKMARK_URL
 ;
 private
 static
+final
 int
 WAIT_FOR_BOOKMARKED_TIMEOUT
 =

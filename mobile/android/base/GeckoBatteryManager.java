@@ -149,6 +149,7 @@ kDefaultRemainingTime
 ;
 private
 static
+final
 GeckoBatteryManager
 sInstance
 =

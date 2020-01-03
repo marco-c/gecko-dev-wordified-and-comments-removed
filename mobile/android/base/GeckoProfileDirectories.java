@@ -201,6 +201,7 @@ mozilla
 ;
 private
 static
+final
 INISectionPredicate
 sectionIsDefault
 =
@@ -236,6 +237,7 @@ Default
 ;
 private
 static
+final
 INISectionPredicate
 sectionHasName
 =

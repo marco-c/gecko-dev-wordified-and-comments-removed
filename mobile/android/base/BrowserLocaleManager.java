@@ -221,6 +221,7 @@ getDefault
 )
 ;
 private
+final
 AtomicBoolean
 inited
 =
@@ -240,6 +241,7 @@ receiver
 ;
 private
 static
+final
 AtomicReference
 <
 LocaleManager

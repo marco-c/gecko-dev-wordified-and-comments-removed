@@ -166,6 +166,7 @@ getView
 ;
 }
 private
+final
 AnimatorProxyImpl
 mImpl
 ;
@@ -642,6 +643,7 @@ implements
 AnimatorProxyImpl
 {
 private
+final
 WeakReference
 <
 View
@@ -1291,6 +1293,7 @@ implements
 AnimatorProxyImpl
 {
 private
+final
 WeakReference
 <
 View

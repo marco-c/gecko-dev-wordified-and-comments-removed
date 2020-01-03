@@ -71,6 +71,7 @@ tabs
 null
 ;
 private
+final
 Element
 closeTab
 =

@@ -107,6 +107,7 @@ BroadcastReceiver
 {
 private
 static
+final
 String
 LOGTAG
 =
@@ -115,10 +116,12 @@ GeckoWebappInstallListener
 "
 ;
 private
+final
 JSONObject
 mData
 ;
 private
+final
 String
 mManifestUrl
 ;
@@ -127,6 +130,7 @@ boolean
 mReceived
 ;
 private
+final
 File
 mApkFile
 ;

@@ -187,6 +187,7 @@ BroadcastReceiver
 {
 private
 static
+final
 String
 LOGTAG
 =
@@ -771,6 +772,7 @@ implements
 Runnable
 {
 private
+final
 GeckoApp
 mApp
 ;

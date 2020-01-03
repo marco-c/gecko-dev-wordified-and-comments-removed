@@ -163,6 +163,7 @@ getSimpleName
 )
 ;
 private
+final
 Context
 mContext
 ;
@@ -176,6 +177,7 @@ boolean
 mIsPrivate
 ;
 private
+final
 TabsLayoutAdapter
 mTabsAdapter
 ;

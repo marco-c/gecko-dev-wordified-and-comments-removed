@@ -45,6 +45,7 @@ implements
 StoreTracker
 {
 private
+final
 HashSet
 <
 String

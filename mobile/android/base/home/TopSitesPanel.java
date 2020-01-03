@@ -564,6 +564,7 @@ TopSitesPanel
 }
 private
 static
+final
 boolean
 logDebug
 =
@@ -579,6 +580,7 @@ DEBUG
 ;
 private
 static
+final
 boolean
 logVerbose
 =
@@ -2074,6 +2076,7 @@ FENNEC_TOPSITES_LOADER_TIME_MS
 "
 ;
 private
+final
 int
 mMaxGridEntries
 ;
@@ -3374,6 +3377,7 @@ ThumbnailInfo
 mThumbnailInfos
 ;
 private
+final
 ArrayList
 <
 String

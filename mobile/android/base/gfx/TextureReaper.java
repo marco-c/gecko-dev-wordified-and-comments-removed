@@ -31,6 +31,7 @@ TextureReaper
 sSharedInstance
 ;
 private
+final
 ArrayList
 <
 Integer

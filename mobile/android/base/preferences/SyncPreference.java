@@ -130,6 +130,7 @@ DEFAULT_TO_FXA
 true
 ;
 private
+final
 Context
 mContext
 ;

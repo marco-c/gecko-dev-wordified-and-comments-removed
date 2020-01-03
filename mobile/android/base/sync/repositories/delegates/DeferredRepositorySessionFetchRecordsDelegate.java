@@ -42,10 +42,12 @@ implements
 RepositorySessionFetchRecordsDelegate
 {
 private
+final
 RepositorySessionFetchRecordsDelegate
 inner
 ;
 private
+final
 ExecutorService
 executor
 ;

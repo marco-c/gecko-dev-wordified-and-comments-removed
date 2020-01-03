@@ -127,6 +127,7 @@ implements
 MetaGlobalDelegate
 {
 private
+final
 GlobalSession
 session
 ;

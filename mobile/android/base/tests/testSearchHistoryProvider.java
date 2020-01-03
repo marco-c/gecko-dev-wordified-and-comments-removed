@@ -296,6 +296,7 @@ db
 ;
 private
 static
+final
 Callable
 <
 ContentProvider

@@ -241,6 +241,7 @@ int
 mSelected
 ;
 private
+final
 JSONArray
 mArray
 ;

@@ -381,10 +381,12 @@ boolean
 mIsAttached
 ;
 private
+final
 ThemedTextView
 mTitle
 ;
 private
+final
 int
 mTitlePadding
 ;
@@ -397,6 +399,7 @@ OnTitleChangeListener
 mTitleChangeListener
 ;
 private
+final
 ImageButton
 mSiteSecurity
 ;
@@ -409,6 +412,7 @@ Bitmap
 mLastFavicon
 ;
 private
+final
 ImageButton
 mFavicon
 ;
@@ -417,6 +421,7 @@ int
 mFaviconSize
 ;
 private
+final
 ImageButton
 mStop
 ;
@@ -425,6 +430,7 @@ OnStopListener
 mStopListener
 ;
 private
+final
 PageActionLayout
 mPageActionLayout
 ;
@@ -441,6 +447,7 @@ TranslateAnimation
 mTitleSlideRight
 ;
 private
+final
 SiteIdentityPopup
 mSiteIdentityPopup
 ;

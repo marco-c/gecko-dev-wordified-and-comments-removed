@@ -562,6 +562,7 @@ getSimpleName
 ;
 private
 static
+final
 boolean
 ALWAYS_SHOW_CUSTOM_SERVER_LAYOUT
 =

@@ -78,6 +78,7 @@ extends
 INISection
 {
 private
+final
 File
 mFile
 ;

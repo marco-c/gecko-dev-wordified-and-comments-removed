@@ -1115,6 +1115,7 @@ client
 }
 private
 static
+final
 Object
 connManagerMonitor
 =

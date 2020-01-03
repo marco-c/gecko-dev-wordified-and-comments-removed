@@ -80,6 +80,7 @@ TextureGenerator
 sSharedInstance
 ;
 private
+final
 ArrayBlockingQueue
 <
 Integer

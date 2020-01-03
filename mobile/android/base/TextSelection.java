@@ -292,6 +292,7 @@ TextSelectionActionModeCallback
 mCallback
 ;
 private
+final
 Timer
 mActionModeTimer
 =

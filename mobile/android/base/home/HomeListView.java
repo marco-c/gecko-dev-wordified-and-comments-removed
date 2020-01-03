@@ -124,6 +124,7 @@ OnUrlOpenListener
 mUrlOpenListener
 ;
 private
+final
 boolean
 mShowTopDivider
 ;

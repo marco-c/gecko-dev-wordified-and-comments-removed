@@ -666,6 +666,7 @@ float
 mVelocity
 ;
 private
+final
 float
 [
 ]

@@ -627,6 +627,7 @@ normalizedTimestamp
 ;
 }
 private
+final
 Set
 <
 SyncStorageCollectionRequest
@@ -691,6 +692,7 @@ RepositorySessionFetchRecordsDelegate
 delegate
 ;
 private
+final
 DelayedWorkTracker
 workTracker
 =
@@ -1918,6 +1920,7 @@ RecordUploadRunnable
 "
 ;
 private
+final
 ArrayList
 <
 byte
@@ -1934,6 +1937,7 @@ String
 outgoingGuids
 ;
 private
+final
 long
 byteCount
 ;
@@ -2710,6 +2714,7 @@ extends
 EntityTemplate
 {
 private
+final
 long
 count
 ;

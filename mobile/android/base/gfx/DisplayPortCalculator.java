@@ -467,6 +467,7 @@ PrefHandlerBase
 )
 {
 private
+final
 Map
 <
 String

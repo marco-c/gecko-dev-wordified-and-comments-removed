@@ -220,6 +220,7 @@ GeckoPanZoomController
 ;
 private
 static
+final
 String
 MESSAGE_ZOOM_RECT
 =
@@ -231,6 +232,7 @@ ZoomToRect
 ;
 private
 static
+final
 String
 MESSAGE_ZOOM_PAGE
 =
@@ -242,6 +244,7 @@ ZoomToPageWidth
 ;
 private
 static
+final
 String
 MESSAGE_TOUCH_LISTENER
 =
@@ -4037,10 +4040,12 @@ extends
 PanZoomRenderTask
 {
 private
+final
 ImmutableViewportMetrics
 mBounceStartMetrics
 ;
 private
+final
 ImmutableViewportMetrics
 mBounceEndMetrics
 ;

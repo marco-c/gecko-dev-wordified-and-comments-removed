@@ -166,6 +166,7 @@ GeckoExited
 }
 private
 static
+final
 AtomicReference
 <
 LaunchState

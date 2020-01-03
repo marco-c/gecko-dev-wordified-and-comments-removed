@@ -91,6 +91,7 @@ AccountAuthenticator
 "
 ;
 private
+final
 AccountActivity
 activityCallback
 ;

@@ -57,6 +57,7 @@ Orientation
 mOrientation
 ;
 private
+final
 int
 mDensity
 ;

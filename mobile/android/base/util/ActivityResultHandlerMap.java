@@ -20,6 +20,7 @@ class
 ActivityResultHandlerMap
 {
 private
+final
 SparseArray
 <
 ActivityResultHandler

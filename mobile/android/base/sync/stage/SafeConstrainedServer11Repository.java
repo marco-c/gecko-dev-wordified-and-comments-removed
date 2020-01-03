@@ -145,6 +145,7 @@ extends
 ConstrainedServer11Repository
 {
 private
+final
 JSONRecordFetcher
 countFetcher
 ;
@@ -253,6 +254,7 @@ CountCheckingServer11RepositorySession
 "
 ;
 private
+final
 long
 fetchLimit
 ;

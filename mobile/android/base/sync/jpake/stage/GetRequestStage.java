@@ -223,6 +223,7 @@ extends
 JPakeStage
 {
 private
+final
 Timer
 timerScheduler
 =
@@ -1086,6 +1087,7 @@ extends
 TimerTask
 {
 private
+final
 Resource
 request
 ;

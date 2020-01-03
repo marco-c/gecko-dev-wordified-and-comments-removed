@@ -191,6 +191,7 @@ int
 mMaxResults
 ;
 private
+final
 boolean
 mCheckNetwork
 ;

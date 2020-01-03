@@ -31,6 +31,7 @@ ByteBuffer
 mBuf
 ;
 private
+final
 NativeReference
 mNativeRef
 ;

@@ -117,11 +117,13 @@ sStrokeWidth
 ;
 private
 static
+final
 Paint
 sStrokePaint
 ;
 private
 static
+final
 Paint
 sBackgroundPaint
 ;

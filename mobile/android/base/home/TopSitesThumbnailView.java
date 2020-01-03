@@ -129,6 +129,7 @@ density
 ;
 private
 static
+final
 Paint
 sBorderPaint
 ;

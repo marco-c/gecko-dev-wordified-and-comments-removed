@@ -221,6 +221,7 @@ RepositorySession
 sink
 ;
 private
+final
 RecordsChannelDelegate
 delegate
 ;
@@ -312,6 +313,7 @@ waitingForQueueDone
 false
 ;
 private
+final
 ConcurrentLinkedQueue
 <
 Record

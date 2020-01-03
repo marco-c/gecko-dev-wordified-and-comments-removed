@@ -43,6 +43,7 @@ extends
 Preference
 {
 private
+final
 String
 mUrl
 ;

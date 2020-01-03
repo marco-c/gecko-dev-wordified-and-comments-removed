@@ -148,6 +148,7 @@ Drawable
 mIcon
 ;
 private
+final
 Drawable
 mState
 ;

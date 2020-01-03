@@ -321,6 +321,7 @@ NO_ID
 0
 ;
 private
+final
 List
 <
 GeckoMenuItem
@@ -328,6 +329,7 @@ GeckoMenuItem
 mItems
 ;
 private
+final
 Map
 <
 GeckoMenuItem
@@ -336,6 +338,7 @@ View
 mPrimaryActionItems
 ;
 private
+final
 Map
 <
 GeckoMenuItem
@@ -361,6 +364,7 @@ ActionItemBarPresenter
 mSecondaryActionItemBar
 ;
 private
+final
 MenuItemsAdapter
 mAdapter
 ;
@@ -2941,6 +2945,7 @@ VIEW_TYPE_ACTION_MODE
 1
 ;
 private
+final
 List
 <
 GeckoMenuItem

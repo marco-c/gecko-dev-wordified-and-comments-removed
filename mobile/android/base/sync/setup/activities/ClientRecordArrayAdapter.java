@@ -140,6 +140,7 @@ boolean
 checkedItems
 ;
 private
+final
 SendTabActivity
 sendTabActivity
 ;

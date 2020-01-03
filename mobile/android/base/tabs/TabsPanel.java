@@ -458,6 +458,7 @@ height
 ;
 }
 private
+final
 Context
 mContext
 ;
@@ -504,6 +505,7 @@ TabsLayoutChangeListener
 mLayoutChangeListener
 ;
 private
+final
 AppStateListener
 mAppStateListener
 ;
@@ -538,6 +540,7 @@ boolean
 mHeaderVisible
 ;
 private
+final
 GeckoPopupMenu
 mPopupMenu
 ;

@@ -332,6 +332,7 @@ RemoteMediaPlayer
 remoteMediaPlayer
 ;
 private
+final
 boolean
 canMirror
 ;

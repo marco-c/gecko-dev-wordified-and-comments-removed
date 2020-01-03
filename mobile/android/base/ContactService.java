@@ -645,10 +645,12 @@ Integer
 mImTypesMap
 ;
 private
+final
 ContentResolver
 mContentResolver
 ;
 private
+final
 GeckoApp
 mActivity
 ;

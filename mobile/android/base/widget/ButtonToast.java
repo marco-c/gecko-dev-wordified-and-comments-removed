@@ -782,6 +782,7 @@ start
 }
 }
 private
+final
 Runnable
 mHideRunnable
 =

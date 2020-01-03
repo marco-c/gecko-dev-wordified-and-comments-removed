@@ -928,6 +928,7 @@ extends
 CursorAdapter
 {
 private
+final
 LayoutInflater
 mInflater
 ;

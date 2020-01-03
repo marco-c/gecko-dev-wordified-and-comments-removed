@@ -307,6 +307,7 @@ OnTabsChangedListener
 {
 private
 static
+final
 String
 LOGTAG
 =
@@ -327,6 +328,7 @@ LayerMarginsAnimator
 mMarginsAnimator
 ;
 private
+final
 GLController
 mGLController
 ;

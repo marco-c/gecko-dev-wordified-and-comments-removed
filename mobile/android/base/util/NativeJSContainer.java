@@ -27,6 +27,7 @@ extends
 NativeJSObject
 {
 private
+final
 long
 mNativeObject
 ;

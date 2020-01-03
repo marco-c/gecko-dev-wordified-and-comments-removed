@@ -192,6 +192,7 @@ EVENT_FACTORY_SIZE
 ;
 private
 static
+final
 SparseArray
 <
 ArrayBlockingQueue

@@ -338,6 +338,7 @@ boolean
 mStopSampler
 ;
 private
+final
 SparseArray
 <
 Sample

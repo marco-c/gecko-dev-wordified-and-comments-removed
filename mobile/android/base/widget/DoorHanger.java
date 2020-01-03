@@ -247,6 +247,7 @@ sSpinnerTextSize
 ;
 private
 static
+final
 LayoutParams
 sButtonParams
 ;
@@ -300,6 +301,7 @@ String
 mValue
 ;
 private
+final
 Resources
 mResources
 ;

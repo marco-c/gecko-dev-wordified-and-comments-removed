@@ -4423,6 +4423,7 @@ engineID
 }
 private
 static
+final
 ConcurrentLinkedQueue
 <
 Search

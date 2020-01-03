@@ -192,6 +192,7 @@ boolean
 mLayerRendererInitialized
 ;
 private
+final
 Context
 mContext
 ;
@@ -229,6 +230,7 @@ ImmutableViewportMetrics
 mFrameMetrics
 ;
 private
+final
 List
 <
 DrawListener
@@ -296,6 +298,7 @@ LayerMarginsAnimator
 mMarginsAnimator
 ;
 private
+final
 LayerView
 mView
 ;

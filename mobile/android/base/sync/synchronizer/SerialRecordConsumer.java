@@ -82,6 +82,7 @@ delegate
 ;
 }
 private
+final
 Object
 monitor
 =
@@ -192,6 +193,7 @@ notify
 }
 }
 private
+final
 Object
 storeSerializer
 =

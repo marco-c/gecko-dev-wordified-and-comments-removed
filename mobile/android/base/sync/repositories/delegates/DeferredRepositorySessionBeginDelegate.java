@@ -40,10 +40,12 @@ implements
 RepositorySessionBeginDelegate
 {
 private
+final
 RepositorySessionBeginDelegate
 inner
 ;
 private
+final
 ExecutorService
 executor
 ;

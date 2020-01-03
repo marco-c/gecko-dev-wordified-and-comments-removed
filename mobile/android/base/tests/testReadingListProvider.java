@@ -195,6 +195,7 @@ false
 ;
 private
 static
+final
 Callable
 <
 ContentProvider

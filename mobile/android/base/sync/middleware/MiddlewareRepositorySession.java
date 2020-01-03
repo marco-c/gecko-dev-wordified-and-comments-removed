@@ -212,10 +212,12 @@ implements
 RepositorySessionBeginDelegate
 {
 private
+final
 MiddlewareRepositorySession
 outerSession
 ;
 private
+final
 RepositorySessionBeginDelegate
 next
 ;

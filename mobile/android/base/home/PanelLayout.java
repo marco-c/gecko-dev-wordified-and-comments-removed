@@ -2921,6 +2921,7 @@ implements
 OnItemOpenListener
 {
 private
+final
 ViewState
 mViewState
 ;
@@ -3046,6 +3047,7 @@ View
 OnKeyListener
 {
 private
+final
 ViewState
 mViewState
 ;

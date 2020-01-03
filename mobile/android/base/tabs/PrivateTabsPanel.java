@@ -114,6 +114,7 @@ TabsPanel
 tabsPanel
 ;
 private
+final
 TabsLayout
 tabsLayout
 ;

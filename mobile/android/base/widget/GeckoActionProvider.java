@@ -163,6 +163,7 @@ GeckoActionProvider
 {
 private
 static
+final
 int
 MAX_HISTORY_SIZE
 =
@@ -227,6 +228,7 @@ Callbacks
 ;
 private
 static
+final
 HashMap
 <
 String

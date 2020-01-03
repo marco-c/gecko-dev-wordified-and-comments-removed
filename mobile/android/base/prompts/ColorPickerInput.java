@@ -89,12 +89,14 @@ GeckoColorPickerInput
 "
 ;
 private
+final
 boolean
 mShowAdvancedButton
 =
 true
 ;
 private
+final
 int
 mInitialColor
 ;

@@ -191,6 +191,7 @@ MEMORY_PRESSURE_HIGH
 ;
 private
 static
+final
 MemoryMonitor
 sInstance
 =

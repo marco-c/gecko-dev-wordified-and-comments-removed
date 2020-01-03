@@ -92,10 +92,12 @@ HISTORY
 }
 ;
 private
+final
 Activity
 mActivity
 ;
 private
+final
 Assert
 mAsserter
 ;

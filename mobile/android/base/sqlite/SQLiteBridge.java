@@ -102,6 +102,7 @@ SQLiteBridge
 "
 ;
 private
+final
 String
 mDb
 ;

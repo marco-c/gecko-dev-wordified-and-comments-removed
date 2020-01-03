@@ -114,6 +114,7 @@ extends
 Drawable
 {
 private
+final
 Paint
 mPaint
 ;
@@ -122,10 +123,12 @@ Paint
 mColorPaint
 ;
 private
+final
 Bitmap
 mBitmap
 ;
 private
+final
 Resources
 mResources
 ;
