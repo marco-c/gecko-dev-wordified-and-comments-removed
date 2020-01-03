@@ -1641,6 +1641,11 @@ return
 NS_OK
 ;
 }
+bool
+foundHistory
+=
+false
+;
 nsCOMPtr
 <
 nsINavHistoryService
@@ -1652,6 +1657,11 @@ do_GetService
 NS_NAVHISTORYSERVICE_CONTRACTID
 )
 ;
+if
+(
+histSrv
+)
+{
 nsCOMPtr
 <
 nsINavHistoryQuery
@@ -1877,11 +1887,6 @@ NS_ENSURE_SUCCESS
 rv
 rv
 )
-;
-bool
-foundHistory
-=
-false
 ;
 for
 (
@@ -2116,6 +2121,7 @@ rv
 rv
 )
 ;
+}
 if
 (
 !
