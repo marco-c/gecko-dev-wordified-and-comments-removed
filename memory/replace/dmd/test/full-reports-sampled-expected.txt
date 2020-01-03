@@ -69,11 +69,7 @@ Invocation
 DMD
 =
 '
--
--
-mode
-=
-test
+1
 '
 Sample
 -
