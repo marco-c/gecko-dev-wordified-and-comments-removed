@@ -218,7 +218,10 @@ nfc
 manager
 "
 ]
-DOMRequest
+Promise
+<
+boolean
+>
 checkP2PRegistration
 (
 DOMString
@@ -318,7 +321,10 @@ nfc
 manager
 "
 ]
-DOMRequest
+Promise
+<
+void
+>
 startPoll
 (
 )
@@ -355,7 +361,10 @@ nfc
 manager
 "
 ]
-DOMRequest
+Promise
+<
+void
+>
 stopPoll
 (
 )
@@ -381,7 +390,10 @@ nfc
 manager
 "
 ]
-DOMRequest
+Promise
+<
+void
+>
 powerOff
 (
 )
