@@ -1,9 +1,9 @@
 #
 ifndef
-nsIconProtocolHandler_h___
+mozilla_image_decoders_icon_nsIconProtocolHandler_h
 #
 define
-nsIconProtocolHandler_h___
+mozilla_image_decoders_icon_nsIconProtocolHandler_h
 #
 include
 "

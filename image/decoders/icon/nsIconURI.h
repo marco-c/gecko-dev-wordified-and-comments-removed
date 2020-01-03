@@ -1,9 +1,9 @@
 #
 ifndef
-nsMozIconURI_h__
+mozilla_image_decoders_icon_nsIconURI_h
 #
 define
-nsMozIconURI_h__
+mozilla_image_decoders_icon_nsIconURI_h
 #
 include
 "
