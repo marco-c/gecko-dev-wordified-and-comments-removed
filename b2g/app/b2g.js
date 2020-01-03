@@ -1639,6 +1639,16 @@ max_chrome_script_run_time
 pref
 (
 "
+dom
+.
+max_child_script_run_time
+"
+0
+)
+;
+pref
+(
+"
 plugin
 .
 disable
