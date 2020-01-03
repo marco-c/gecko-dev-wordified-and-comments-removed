@@ -3113,10 +3113,7 @@ methods
 |
 |
 !
-JSObject
-:
-:
-freeze
+FreezeObject
 (
 cx
 proto
@@ -3276,10 +3273,7 @@ lookup
 if
 (
 !
-JSObject
-:
-:
-freeze
+FreezeObject
 (
 cx
 frameObj
