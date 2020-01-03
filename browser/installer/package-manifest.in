@@ -397,7 +397,7 @@ searchplugins
 *
 #
 ifdef
-XP_WIN32
+HAVE_MAKENSISU
 BINPATH
 /
 uninstall
