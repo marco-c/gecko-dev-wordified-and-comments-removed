@@ -36,6 +36,15 @@ nsStringGlue
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIAtom
 ;
@@ -653,10 +662,12 @@ nullptr
 }
 nsIAtom
 *
+MOZ_NON_OWNING_REF
 mName
 ;
 nsIAtom
 *
+MOZ_NON_OWNING_REF
 mPrefix
 ;
 int32_t
@@ -672,6 +683,7 @@ mNameString
 ;
 nsIAtom
 *
+MOZ_NON_OWNING_REF
 mExtraName
 ;
 }
