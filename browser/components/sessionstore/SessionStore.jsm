@@ -4624,6 +4624,13 @@ winData
 )
 ;
 }
+RevivableWindows
+.
+add
+(
+winData
+)
+;
 winData
 .
 closedAt
@@ -4719,13 +4726,6 @@ _capClosedWindows
 )
 ;
 }
-RevivableWindows
-.
-add
-(
-winData
-)
-;
 }
 delete
 this
