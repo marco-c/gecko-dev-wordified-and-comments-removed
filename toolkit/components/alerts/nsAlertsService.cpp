@@ -274,12 +274,9 @@ aInPrivateBrowsing
 {
 if
 (
-XRE_GetProcessType
+XRE_IsContentProcess
 (
 )
-=
-=
-GeckoProcessType_Content
 )
 {
 ContentChild
@@ -524,12 +521,9 @@ aPrincipal
 {
 if
 (
-XRE_GetProcessType
+XRE_IsContentProcess
 (
 )
-=
-=
-GeckoProcessType_Content
 )
 {
 ContentChild

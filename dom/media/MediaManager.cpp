@@ -6696,12 +6696,10 @@ get
 ;
 if
 (
-XRE_GetProcessType
+!
+XRE_IsParentProcess
 (
 )
-!
-=
-GeckoProcessType_Default
 )
 {
 unused

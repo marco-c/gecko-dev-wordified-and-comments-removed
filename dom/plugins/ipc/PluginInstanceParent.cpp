@@ -8224,12 +8224,9 @@ return
 }
 if
 (
-XRE_GetProcessType
+XRE_IsContentProcess
 (
 )
-=
-=
-GeckoProcessType_Content
 )
 {
 if
@@ -8386,12 +8383,9 @@ UnsubclassPluginWindow
 {
 if
 (
-XRE_GetProcessType
+XRE_IsContentProcess
 (
 )
-=
-=
-GeckoProcessType_Content
 )
 {
 if

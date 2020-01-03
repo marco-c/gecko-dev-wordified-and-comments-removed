@@ -2763,12 +2763,9 @@ return
 }
 if
 (
-XRE_GetProcessType
+XRE_IsContentProcess
 (
 )
-=
-=
-GeckoProcessType_Content
 )
 {
 nsCOMPtr

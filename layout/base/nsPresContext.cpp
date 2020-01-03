@@ -11635,12 +11635,9 @@ false
 }
 if
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 {
 return
@@ -12184,12 +12181,9 @@ ApplyPluginGeometryUpdates
 else
 if
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 {
 InitApplyPluginGeometryTimer

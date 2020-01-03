@@ -4167,12 +4167,9 @@ mWidget
 mLayerManager
 &
 &
-XRE_GetProcessType
+XRE_IsContentProcess
 (
 )
-=
-=
-GeckoProcessType_Content
 )
 {
 mWidget
@@ -4252,12 +4249,9 @@ NeedsPaint
 {
 if
 (
-XRE_GetProcessType
+XRE_IsContentProcess
 (
 )
-=
-=
-GeckoProcessType_Content
 &
 &
 Preferences

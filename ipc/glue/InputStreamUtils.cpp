@@ -451,12 +451,10 @@ if
 (
 NS_WARN_IF
 (
-XRE_GetProcessType
+!
+XRE_IsParentProcess
 (
 )
-!
-=
-GeckoProcessType_Default
 )
 )
 {

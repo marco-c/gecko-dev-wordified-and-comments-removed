@@ -1788,12 +1788,9 @@ GetOuterWindow
 MOZ_ASSERT_IF
 (
 openedFromRemoteTab
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 ;
 NS_ENSURE_ARG_POINTER

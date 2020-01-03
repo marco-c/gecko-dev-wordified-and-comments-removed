@@ -813,12 +813,9 @@ index
 ;
 if
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 {
 aResult
@@ -1108,12 +1105,9 @@ TGrallocBufferRef
 {
 if
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 {
 return
