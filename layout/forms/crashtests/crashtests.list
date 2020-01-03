@@ -298,9 +298,6 @@ skip
 if
 (
 B2G
-|
-|
-asyncPanZoom
 )
 load
 498698

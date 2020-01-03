@@ -2193,12 +2193,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-asyncPanZoom
-)
 asserts
 -
 if

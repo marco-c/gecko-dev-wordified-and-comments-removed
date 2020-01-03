@@ -2026,12 +2026,6 @@ image
 html
 ?
 0
-skip
--
-if
-(
-asyncPanZoom
-)
 =
 =
 image

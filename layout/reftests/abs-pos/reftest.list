@@ -1076,9 +1076,6 @@ B2G
 |
 |
 Mulet
-|
-|
-asyncPanZoom
 )
 fuzzy
 -
@@ -1176,12 +1173,6 @@ select
 ref
 .
 html
-skip
--
-if
-(
-asyncPanZoom
-)
 fuzzy
 -
 if

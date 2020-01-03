@@ -359,12 +359,6 @@ framereconstruction
 ref
 .
 html
-skip
--
-if
-(
-asyncPanZoom
-)
 =
 =
 padding

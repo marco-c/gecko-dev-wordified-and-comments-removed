@@ -1387,12 +1387,6 @@ html
 about
 :
 blank
-skip
--
-if
-(
-asyncPanZoom
-)
 !
 =
 layer
@@ -1405,12 +1399,6 @@ html
 about
 :
 blank
-skip
--
-if
-(
-asyncPanZoom
-)
 !
 =
 layer
