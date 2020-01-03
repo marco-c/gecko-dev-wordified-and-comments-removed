@@ -2881,8 +2881,6 @@ ExclusiveContext
 cx
 AllocKind
 thingKind
-size_t
-thingSize
 )
 ;
 template
@@ -2900,8 +2898,6 @@ JSContext
 cx
 AllocKind
 thingKind
-size_t
-thingSize
 )
 ;
 static
