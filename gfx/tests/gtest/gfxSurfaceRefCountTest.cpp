@@ -189,7 +189,13 @@ s
 new
 gfxImageSurface
 (
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 (
 10
 10
