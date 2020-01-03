@@ -18662,6 +18662,17 @@ nsIXMLHttpRequest
 ;
 request
 .
+overrideMimeType
+(
+"
+text
+/
+plain
+"
+)
+;
+request
+.
 onload
 =
 function
