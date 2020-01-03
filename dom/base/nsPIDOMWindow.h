@@ -1386,9 +1386,9 @@ nsresult
 SetFullScreenInternal
 (
 bool
-aIsFullScreen
+aIsFullscreen
 bool
-aRequireTrust
+aFullscreenMode
 mozilla
 :
 :

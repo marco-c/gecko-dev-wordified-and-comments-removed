@@ -25884,7 +25884,7 @@ SetFullScreenInternal
 bool
 aFullScreen
 bool
-aRequireTrust
+aFullscreenMode
 gfx
 :
 :
@@ -25917,7 +25917,7 @@ FullScreen
 |
 |
 (
-aRequireTrust
+aFullscreenMode
 &
 &
 !
@@ -25990,7 +25990,7 @@ window
 SetFullScreenInternal
 (
 aFullScreen
-aRequireTrust
+aFullscreenMode
 aHMD
 )
 ;
@@ -26024,7 +26024,7 @@ NS_OK
 ;
 if
 (
-aRequireTrust
+aFullscreenMode
 )
 {
 mFullscreenMode
