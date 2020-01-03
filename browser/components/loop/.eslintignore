@@ -97,6 +97,15 @@ shared
 /
 vendor
 #
+Coverage
+files
+test
+/
+coverage
+test
+/
+node_modules
+#
 These
 are
 generated

@@ -405,6 +405,9 @@ function
 (
 )
 {
+var
+OTRestore
+;
 beforeEach
 (
 function
@@ -496,6 +499,12 @@ pathname
 }
 )
 ;
+OTRestore
+=
+window
+.
+OT
+;
 window
 .
 OT
@@ -519,10 +528,11 @@ function
 (
 )
 {
-delete
 window
 .
 OT
+=
+OTRestore
 ;
 }
 )

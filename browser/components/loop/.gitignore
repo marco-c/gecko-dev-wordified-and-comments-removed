@@ -2,3 +2,6 @@
 module
 -
 cache
+test
+/
+coverage

@@ -2412,6 +2412,13 @@ ogg
 ;
 }
 )
+getLoopPref
+:
+sandbox
+.
+stub
+(
+)
 }
 ;
 fakeAudio
