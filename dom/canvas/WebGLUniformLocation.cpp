@@ -1202,6 +1202,15 @@ WrapObject
 JSContext
 *
 js
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 {
 return
@@ -1215,6 +1224,7 @@ Wrap
 (
 js
 this
+aGivenProto
 )
 ;
 }

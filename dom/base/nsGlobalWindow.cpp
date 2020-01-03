@@ -33654,6 +33654,12 @@ port
 WrapObject
 (
 aCx
+JS
+:
+:
+NullPtr
+(
+)
 )
 )
 ;

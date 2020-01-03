@@ -330,6 +330,15 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 =
 0

@@ -1704,6 +1704,15 @@ WrapObject
 JSContext
 *
 aContext
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 {
 return
@@ -1714,6 +1723,7 @@ Wrap
 (
 aContext
 this
+aGivenProto
 )
 ;
 }

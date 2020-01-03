@@ -3969,6 +3969,15 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 {
 AssertIsOnOwningThread
@@ -3994,6 +4003,7 @@ Wrap
 (
 aCx
 this
+aGivenProto
 )
 ;
 case
@@ -4010,6 +4020,7 @@ Wrap
 (
 aCx
 this
+aGivenProto
 )
 ;
 default

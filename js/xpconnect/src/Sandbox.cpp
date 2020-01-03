@@ -1008,6 +1008,12 @@ crypto
 WrapObject
 (
 cx
+JS
+:
+:
+NullPtr
+(
+)
 )
 )
 ;
@@ -1094,6 +1100,12 @@ registrar
 WrapObject
 (
 cx
+JS
+:
+:
+NullPtr
+(
+)
 )
 )
 ;

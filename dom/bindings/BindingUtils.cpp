@@ -3848,6 +3848,12 @@ cache
 WrapObject
 (
 aCx
+JS
+:
+:
+NullPtr
+(
+)
 )
 ;
 }

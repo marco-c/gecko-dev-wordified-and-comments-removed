@@ -1338,6 +1338,15 @@ WrapNode
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 {
 JSObject
@@ -1367,6 +1376,7 @@ Wrap
 (
 aCx
 this
+aGivenProto
 )
 ;
 }
@@ -1395,6 +1405,7 @@ Wrap
 (
 aCx
 this
+aGivenProto
 )
 ;
 }

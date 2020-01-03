@@ -4529,6 +4529,12 @@ exposedStore
 WrapObject
 (
 cx
+JS
+:
+:
+NullPtr
+(
+)
 )
 )
 ;

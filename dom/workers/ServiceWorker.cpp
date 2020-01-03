@@ -284,6 +284,15 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 {
 AssertIsOnMainThread
@@ -298,6 +307,7 @@ Wrap
 (
 aCx
 this
+aGivenProto
 )
 ;
 }

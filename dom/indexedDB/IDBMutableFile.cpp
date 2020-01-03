@@ -1192,6 +1192,15 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aGivenProto
 )
 {
 MOZ_ASSERT
@@ -1219,6 +1228,7 @@ Wrap
 (
 aCx
 this
+aGivenProto
 )
 ;
 }
