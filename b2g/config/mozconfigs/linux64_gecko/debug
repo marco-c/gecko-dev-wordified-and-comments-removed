@@ -206,6 +206,17 @@ GAIADIR
 topsrcdir
 /
 gaia
+#
+Include
+Firefox
+OS
+fonts
+.
+MOZTTDIR
+=
+topsrcdir
+/
+moztt
 .
 "
 topsrcdir
