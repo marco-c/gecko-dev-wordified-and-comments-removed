@@ -47,6 +47,7 @@ Cu
 evalInSandbox
 (
 '
+!
 Array
 .
 isArray
