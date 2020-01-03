@@ -220,6 +220,8 @@ final
 public
 PBrowserParent
 public
+nsIDOMEventListener
+public
 nsITabParent
 public
 nsIAuthPromptProvider
@@ -249,6 +251,7 @@ TabParent
 public
 :
 NS_DECL_NSITABPARENT
+NS_DECL_NSIDOMEVENTLISTENER
 TabParent
 (
 nsIContentParent
@@ -345,6 +348,11 @@ GetXULBrowserWindow
 ;
 void
 Destroy
+(
+)
+;
+void
+RemoveWindowListeners
 (
 )
 ;
@@ -1166,10 +1174,6 @@ const
 ScreenIntSize
 &
 size
-const
-nsIntPoint
-&
-chromeDisp
 )
 ;
 void
@@ -2114,6 +2118,9 @@ mShown
 ;
 bool
 mUpdatedDimensions
+;
+nsIntPoint
+mChromeOffset
 ;
 private
 :
