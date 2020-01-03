@@ -64,7 +64,7 @@ EMEAudioDecoder
 public
 MediaDataDecoder
 public
-GMPAudioDecoderProxyCallback
+GMPAudioDecoderCallbackProxy
 {
 typedef
 mp4_demuxer
