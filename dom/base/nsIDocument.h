@@ -797,6 +797,16 @@ GetReferrerPolicy
 )
 ;
 }
+bool
+GetUpgradeInsecureRequests
+(
+)
+const
+{
+return
+mUpgradeInsecureRequests
+;
+}
 virtual
 void
 SetPrincipal
@@ -7045,6 +7055,9 @@ mReferrerPolicySet
 ;
 ReferrerPolicyEnum
 mReferrerPolicy
+;
+bool
+mUpgradeInsecureRequests
 ;
 mozilla
 :
