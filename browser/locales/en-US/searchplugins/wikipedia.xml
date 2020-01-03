@@ -98,8 +98,8 @@ Description
 >
 Wikipedia
 the
-free
-encyclopedia
+Free
+Encyclopedia
 <
 /
 Description
@@ -623,7 +623,7 @@ GET
 template
 =
 "
-http
+https
 :
 /
 /
@@ -691,7 +691,7 @@ GET
 template
 =
 "
-http
+https
 :
 /
 /
@@ -754,7 +754,7 @@ Url
 <
 SearchForm
 >
-http
+https
 :
 /
 /
