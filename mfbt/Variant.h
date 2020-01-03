@@ -1027,7 +1027,6 @@ aT
 )
 ;
 }
-explicit
 Variant
 (
 const
@@ -1055,7 +1054,6 @@ aRhs
 )
 ;
 }
-explicit
 Variant
 (
 Variant
