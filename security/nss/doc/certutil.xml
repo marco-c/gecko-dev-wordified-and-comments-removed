@@ -2921,7 +2921,7 @@ bits
 The
 default
 is
-1024
+2048
 bits
 .
 Any

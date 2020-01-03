@@ -22,9 +22,8 @@ NSSUTIL_VERSION
 "
 3
 .
-17
-.
-4
+18
+Beta
 "
 #
 define
@@ -33,11 +32,11 @@ NSSUTIL_VMAJOR
 #
 define
 NSSUTIL_VMINOR
-17
+18
 #
 define
 NSSUTIL_VPATCH
-4
+0
 #
 define
 NSSUTIL_VBUILD
@@ -45,7 +44,7 @@ NSSUTIL_VBUILD
 #
 define
 NSSUTIL_BETA
-PR_FALSE
+PR_TRUE
 SEC_BEGIN_PROTOS
 extern
 const

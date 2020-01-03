@@ -158,7 +158,7 @@ MAX_KEY_BITS
 #
 define
 DEFAULT_KEY_BITS
-1024
+2048
 #
 define
 GEN_BREAK

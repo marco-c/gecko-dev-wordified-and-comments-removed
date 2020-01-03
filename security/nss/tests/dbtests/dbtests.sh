@@ -1687,6 +1687,7 @@ UID
 ne
 0
 ]
+;
 then
 {
 BINDIR
@@ -1764,6 +1765,7 @@ UID
 ne
 0
 ]
+;
 then
 {
 BINDIR

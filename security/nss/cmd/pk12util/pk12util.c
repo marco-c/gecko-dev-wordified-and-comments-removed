@@ -378,7 +378,7 @@ p12filepwfile
 |
 -
 W
-p12filefilepw
+p12filepw
 ]
 \
 n
@@ -620,13 +620,6 @@ filename
 p12uContext
 *
 p12cxt
-;
-PRBool
-fileExist
-;
-fileExist
-=
-fileImport
 ;
 p12cxt
 =

@@ -3246,8 +3246,7 @@ if
 {
 NSS_BUILD_SOFTOKEN_ONLY
 }
--
-eq
+=
 "
 1
 "

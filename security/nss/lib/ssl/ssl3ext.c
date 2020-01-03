@@ -4127,9 +4127,11 @@ len
 =
 0
 )
+{
 return
-SECFailure
+SECSuccess
 ;
+}
 ss
 -
 >
@@ -6538,9 +6540,11 @@ len
 =
 0
 )
+{
 return
-SECFailure
+SECSuccess
 ;
+}
 ss
 -
 >

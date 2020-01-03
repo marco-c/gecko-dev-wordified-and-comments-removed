@@ -1518,6 +1518,10 @@ pklen_bits
 =
 0
 ;
+key_type
+=
+nullKey
+;
 if
 (
 key
@@ -1544,6 +1548,10 @@ SECKEY_DestroyPublicKey
 (
 key
 )
+;
+key
+=
+NULL
 ;
 }
 if

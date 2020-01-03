@@ -395,6 +395,13 @@ noECC
 TLS12
 k
 TLS12_RSA_FIPS_WITH_DES_CBC_SHA
+#
+disabled
+because
+of
+bug
+1136095
+#
 noECC
 TLS12
 l
@@ -402,6 +409,13 @@ TLS12_RSA_EXPORT_WITH_DES_CBC_SHA
 (
 new
 )
+#
+disabled
+because
+of
+bug
+1136095
+#
 noECC
 TLS12
 m
