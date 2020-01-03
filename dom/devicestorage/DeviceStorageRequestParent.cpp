@@ -44,7 +44,7 @@ dom
 /
 ipc
 /
-BlobParent
+Blob
 .
 h
 "

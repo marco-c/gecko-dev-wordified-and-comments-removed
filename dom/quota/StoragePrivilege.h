@@ -23,7 +23,6 @@ StoragePrivilege
 {
 Chrome
 Content
-Invalid
 }
 ;
 END_QUOTA_NAMESPACE

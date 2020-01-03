@@ -112,15 +112,7 @@ Key
 .
 h
 "
-namespace
-mozilla
-{
-namespace
-dom
-{
-namespace
-indexedDB
-{
+BEGIN_INDEXEDDB_NAMESPACE
 class
 ProfilerString
 :
@@ -727,9 +719,7 @@ direction
 }
 }
 ;
-}
-}
-}
+END_INDEXEDDB_NAMESPACE
 #
 define
 IDB_PROFILER_MARK

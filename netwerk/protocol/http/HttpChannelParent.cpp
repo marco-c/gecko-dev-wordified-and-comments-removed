@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
 FileDescriptorSetParent
 .

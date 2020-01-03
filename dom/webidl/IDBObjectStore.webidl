@@ -177,6 +177,9 @@ attribute
 any
 keyPath
 ;
+[
+Throws
+]
 readonly
 attribute
 DOMStringList

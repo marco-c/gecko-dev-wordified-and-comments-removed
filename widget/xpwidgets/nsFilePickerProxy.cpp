@@ -53,7 +53,7 @@ dom
 /
 ipc
 /
-BlobChild
+Blob
 .
 h
 "

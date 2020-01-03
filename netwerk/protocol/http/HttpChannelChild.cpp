@@ -55,7 +55,7 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
 FileDescriptorSetChild
 .
