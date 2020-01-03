@@ -4277,6 +4277,13 @@ eSelectEndLine
 :
 SetCaretBidiLevel
 (
+visualMovement
+?
+NS_GET_EMBEDDING_LEVEL
+(
+theFrame
+)
+:
 NS_GET_BASE_LEVEL
 (
 theFrame
