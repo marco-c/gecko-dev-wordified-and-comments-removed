@@ -28599,6 +28599,17 @@ succ
 entryResumePoint
 (
 )
+&
+&
+succ
+-
+>
+numPredecessors
+(
+)
+=
+=
+1
 )
 {
 MOZ_ASSERT
