@@ -504,6 +504,14 @@ builder
 void
 StopAllOffThreadCompilations
 (
+Zone
+*
+zone
+)
+;
+void
+StopAllOffThreadCompilations
+(
 JSCompartment
 *
 comp
