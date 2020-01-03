@@ -174,6 +174,12 @@ aAction
 )
 ;
 static
+void
+StopIMEStateManagement
+(
+)
+;
+static
 nsresult
 OnDestroyPresContext
 (
