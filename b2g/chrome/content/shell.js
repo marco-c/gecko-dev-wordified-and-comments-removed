@@ -1367,7 +1367,7 @@ QueryInterface
 (
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 )
 ;
 if
@@ -1379,7 +1379,7 @@ state
 =
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_STATE_CONNECTED
 &
@@ -1391,7 +1391,7 @@ type
 =
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_TYPE_WIFI
 )
