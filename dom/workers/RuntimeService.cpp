@@ -12218,6 +12218,17 @@ JS_DestroyContext
 cx
 )
 ;
+mWorkerPrivate
+-
+>
+ClearMainEventQueue
+(
+WorkerPrivate
+:
+:
+WorkerRan
+)
+;
 }
 mWorkerPrivate
 -
