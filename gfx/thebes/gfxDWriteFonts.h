@@ -200,7 +200,14 @@ GlyphRenderingOptions
 >
 GetGlyphRenderingOptions
 (
+const
+TextRunDrawParams
+*
+aRunParams
+=
+nullptr
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

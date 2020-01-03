@@ -3247,6 +3247,17 @@ GetDrawTarget
 (
 )
 ;
+params
+.
+fontSmoothingBGColor
+=
+aContext
+-
+>
+GetFontSmoothingBackgroundColor
+(
+)
+;
 BufferAlphaColor
 syntheticBoldBuffer
 (

@@ -2223,7 +2223,14 @@ GlyphRenderingOptions
 >
 GetGlyphRenderingOptions
 (
+const
+TextRunDrawParams
+*
+aRunParams
+=
+nullptr
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -7415,6 +7422,10 @@ gfxFcFont
 :
 GetGlyphRenderingOptions
 (
+const
+TextRunDrawParams
+*
+aRunParams
 )
 {
 cairo_scaled_font_t
