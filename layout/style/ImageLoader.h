@@ -220,6 +220,11 @@ imgIRequest
 aRequest
 )
 ;
+void
+FlushUseCounters
+(
+)
+;
 private
 :
 ~

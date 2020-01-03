@@ -158,6 +158,13 @@ OnSVGDocumentError
 (
 )
 ;
+virtual
+void
+ReportUseCounters
+(
+)
+override
+;
 protected
 :
 explicit

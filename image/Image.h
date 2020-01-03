@@ -763,6 +763,13 @@ GetURI
 =
 0
 ;
+virtual
+void
+ReportUseCounters
+(
+)
+{
+}
 }
 ;
 class

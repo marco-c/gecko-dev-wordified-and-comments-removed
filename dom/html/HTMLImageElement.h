@@ -996,6 +996,11 @@ nsAString
 aResult
 )
 ;
+void
+FlushUseCounters
+(
+)
+;
 protected
 :
 virtual
