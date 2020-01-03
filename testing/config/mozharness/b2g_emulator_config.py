@@ -628,14 +628,6 @@ s
 "
                 
 "
-%
-(
-test_manifest
-)
-s
-"
-                
-"
 -
 -
 xre

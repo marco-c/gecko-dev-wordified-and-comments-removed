@@ -31,14 +31,6 @@ INFO
 "
                 
 "
-%
-(
-test_manifest
-)
-s
-"
-                
-"
 -
 -
 total
