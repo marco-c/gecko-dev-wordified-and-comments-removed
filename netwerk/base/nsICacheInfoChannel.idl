@@ -262,7 +262,7 @@ a
 particular
 instance
 of
-nsICachingChannel
+nsICacheInfoChannel
 *
 could
 be
@@ -271,7 +271,7 @@ on
 another
 instance
 of
-nsICachingChannel
+nsICacheInfoChannel
 provided
 the
 *
@@ -297,7 +297,7 @@ The
 implementation
 of
 *
-nsICachingChannel
+nsICacheInfoChannel
 would
 be
 expected
