@@ -1281,6 +1281,8 @@ ProcessAudioSegment
 AudioSegment
 *
 aSegment
+TrackRate
+aTrackRate
 )
 {
 AudioSegment
@@ -1344,6 +1346,7 @@ mRecognitionService
 ProcessAudioSegment
 (
 aSegment
+aTrackRate
 )
 ;
 return
@@ -1541,6 +1544,10 @@ aEvent
 -
 >
 mAudioSegment
+aEvent
+-
+>
+mTrackRate
 )
 ;
 DispatchTrustedEvent
@@ -1638,6 +1645,10 @@ aEvent
 -
 >
 mAudioSegment
+aEvent
+-
+>
+mTrackRate
 )
 ;
 if
@@ -1682,6 +1693,10 @@ aEvent
 -
 >
 mAudioSegment
+aEvent
+-
+>
+mTrackRate
 )
 ;
 if
@@ -1739,6 +1754,10 @@ aEvent
 -
 >
 mAudioSegment
+aEvent
+-
+>
+mTrackRate
 )
 ;
 if
@@ -3281,6 +3300,8 @@ aDuration
 MediaStreamListener
 *
 aProvider
+TrackRate
+aTrackRate
 )
 {
 NS_ASSERTION
@@ -3479,6 +3500,13 @@ event
 mProvider
 =
 aProvider
+;
+event
+-
+>
+mTrackRate
+=
+aTrackRate
 ;
 NS_DispatchToMainThread
 (

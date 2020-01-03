@@ -222,6 +222,7 @@ nullData
 Elements
 (
 )
+aTrackRate
 )
 ;
 }
@@ -279,6 +280,7 @@ mChannelData
 0
 ]
 )
+aTrackRate
 )
 ;
 }
@@ -313,6 +315,7 @@ mChannelData
 0
 ]
 )
+aTrackRate
 )
 ;
 }
@@ -343,6 +346,8 @@ aVolume
 SampleFormatType
 *
 aData
+TrackRate
+aTrackRate
 )
 {
 nsRefPtr
@@ -405,6 +410,7 @@ forget
 )
 aDuration
 this
+aTrackRate
 )
 ;
 }
