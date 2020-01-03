@@ -492,7 +492,12 @@ for
 let
 prop
 of
+Object
+.
+getOwnPropertyNames
+(
 value
+)
 )
 {
 if
