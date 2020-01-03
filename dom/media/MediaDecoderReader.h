@@ -392,13 +392,13 @@ aAudio
 )
 ;
 virtual
-uint32_t
-GetBufferingWait
+bool
+UseBufferingHeuristics
 (
 )
 {
 return
-30
+true
 ;
 }
 size_t
