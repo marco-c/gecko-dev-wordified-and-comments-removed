@@ -15222,11 +15222,9 @@ slot
 ;
 MOZ_ASSERT_IF
 (
-value
-.
-isMagic
+IsUntrackedValue
 (
-JS_UNINITIALIZED_LEXICAL
+value
 )
 obj
 -
@@ -15262,11 +15260,9 @@ obj
 &
 &
 !
-value
-.
-isMagic
+IsUntrackedValue
 (
-JS_UNINITIALIZED_LEXICAL
+value
 )
 )
 {
