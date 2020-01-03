@@ -3472,14 +3472,14 @@ case
 NS_COMPOSITION_CHANGE
 :
 {
-WidgetTextEvent
+WidgetCompositionEvent
 *
 textEvent
 =
 aEvent
 -
 >
-AsTextEvent
+AsCompositionEvent
 (
 )
 ;

@@ -12492,7 +12492,7 @@ status
 }
 else
 {
-WidgetTextEvent
+WidgetCompositionEvent
 textEvent
 (
 true

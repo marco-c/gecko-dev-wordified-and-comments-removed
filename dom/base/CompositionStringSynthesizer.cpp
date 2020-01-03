@@ -641,7 +641,7 @@ mCaret
 )
 ;
 }
-WidgetTextEvent
+WidgetCompositionEvent
 textEvent
 (
 true

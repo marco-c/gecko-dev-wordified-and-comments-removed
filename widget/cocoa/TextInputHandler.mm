@@ -17284,7 +17284,7 @@ kungFuDeathGrip
 this
 )
 ;
-WidgetTextEvent
+WidgetCompositionEvent
 textEvent
 (
 true

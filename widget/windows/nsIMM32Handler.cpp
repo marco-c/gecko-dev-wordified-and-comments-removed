@@ -7529,7 +7529,7 @@ point
 0
 )
 ;
-WidgetTextEvent
+WidgetCompositionEvent
 event
 (
 true

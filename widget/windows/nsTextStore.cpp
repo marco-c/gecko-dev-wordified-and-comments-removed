@@ -8811,7 +8811,7 @@ this
 )
 )
 ;
-WidgetTextEvent
+WidgetCompositionEvent
 textEvent
 (
 true
@@ -9013,7 +9013,7 @@ this
 )
 )
 ;
-WidgetTextEvent
+WidgetCompositionEvent
 textEvent
 (
 true
