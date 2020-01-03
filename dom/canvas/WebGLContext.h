@@ -4896,6 +4896,14 @@ GLenum
 cap
 )
 ;
+bool
+GetStencilBits
+(
+GLint
+*
+out_stencilBits
+)
+;
 JS
 :
 :
