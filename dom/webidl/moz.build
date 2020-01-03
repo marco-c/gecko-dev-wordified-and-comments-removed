@@ -3611,7 +3611,7 @@ ScrollViewChangeEvent
 webidl
 '
 '
-SelectionChangeEvent
+SelectionStateChangedEvent
 .
 webidl
 '
