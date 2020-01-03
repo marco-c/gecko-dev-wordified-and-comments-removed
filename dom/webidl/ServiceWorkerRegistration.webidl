@@ -206,6 +206,9 @@ ifndef
 MOZ_SIMPLEPUSH
 [
 Throws
+Exposed
+=
+Window
 Pref
 =
 "

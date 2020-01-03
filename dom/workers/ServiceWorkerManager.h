@@ -205,7 +205,7 @@ namespace
 dom
 {
 class
-ServiceWorkerRegistration
+ServiceWorkerRegistrationBase
 ;
 namespace
 workers
@@ -983,7 +983,7 @@ mServiceWorkerRegistrationInfos
 ;
 nsTObserverArray
 <
-ServiceWorkerRegistration
+ServiceWorkerRegistrationBase
 *
 >
 mServiceWorkerRegistrations
