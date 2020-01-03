@@ -4653,7 +4653,7 @@ img
 fmt
 =
 =
-IMG_FMT_I420
+VPX_IMG_FMT_I420
 "
 WebM
 image
