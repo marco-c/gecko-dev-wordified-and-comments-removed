@@ -646,7 +646,10 @@ Firefox
 status
 "
 :
-500
+"
+webdriver
+error
+"
 }
 id
 )
