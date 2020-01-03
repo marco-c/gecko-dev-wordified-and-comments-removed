@@ -75,7 +75,7 @@ ValueAnimator
 ;
 public
 class
-BounceAnimator
+BounceAnimatorBuilder
 extends
 ValueAnimator
 {
@@ -145,7 +145,7 @@ Animator
 )
 ;
 public
-BounceAnimator
+BounceAnimatorBuilder
 (
 View
 view
@@ -212,10 +212,9 @@ animator
 )
 ;
 }
-Override
 public
-void
-start
+AnimatorSet
+build
 (
 )
 {
@@ -234,11 +233,8 @@ playSequentially
 animatorChain
 )
 ;
+return
 animatorSet
-.
-start
-(
-)
 ;
 }
 }
