@@ -468,8 +468,14 @@ unregisterTool
 toolId1
 )
 ;
-runTests2
+toolbox
+.
+once
 (
+"
+select
+"
+runTests2
 )
 ;
 }
