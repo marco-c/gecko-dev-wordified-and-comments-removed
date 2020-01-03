@@ -13653,6 +13653,7 @@ Versions
 feature11Plus
 )
 {
+final
 MenuItem
 tools
 =
@@ -13693,6 +13694,7 @@ menu
 }
 else
 {
+final
 MenuItem
 parent
 =
@@ -13816,6 +13818,7 @@ getSubMenu
 ;
 }
 }
+final
 MenuItem
 item
 =
@@ -13946,6 +13949,7 @@ Drawable
 d
 )
 {
+final
 MenuItem
 item
 =
@@ -14165,6 +14169,7 @@ null
 )
 return
 ;
+final
 MenuItem
 menuItem
 =
@@ -14341,6 +14346,7 @@ null
 return
 ;
 }
+final
 MenuItem
 menuItem
 =
@@ -15009,6 +15015,7 @@ getSelectedTab
 (
 )
 ;
+final
 MenuItem
 bookmark
 =
@@ -15038,6 +15045,7 @@ id
 reading_list
 )
 ;
+final
 MenuItem
 back
 =
@@ -15052,6 +15060,7 @@ id
 back
 )
 ;
+final
 MenuItem
 forward
 =
@@ -15066,6 +15075,7 @@ id
 forward
 )
 ;
+final
 MenuItem
 share
 =
@@ -15095,6 +15105,7 @@ id
 quickshare
 )
 ;
+final
 MenuItem
 saveAsPDF
 =
@@ -15109,6 +15120,7 @@ id
 save_as_pdf
 )
 ;
+final
 MenuItem
 charEncoding
 =
@@ -15123,6 +15135,7 @@ id
 char_encoding
 )
 ;
+final
 MenuItem
 findInPage
 =
@@ -15137,6 +15150,7 @@ id
 find_in_page
 )
 ;
+final
 MenuItem
 desktopMode
 =
@@ -15151,6 +15165,7 @@ id
 desktop_mode
 )
 ;
+final
 MenuItem
 enterGuestMode
 =
@@ -15165,6 +15180,7 @@ id
 new_guest_session
 )
 ;
+final
 MenuItem
 exitGuestMode
 =
