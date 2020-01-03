@@ -3176,6 +3176,19 @@ rv
 false
 )
 ;
+nsAutoCString
+finalURIString
+;
+if
+(
+!
+aURI
+.
+IsEmpty
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIURI
@@ -3207,9 +3220,6 @@ rv
 false
 )
 ;
-nsAutoCString
-finalURIString
-;
 finalURI
 -
 >
@@ -3218,6 +3228,7 @@ GetSpec
 finalURIString
 )
 ;
+}
 nsCOMPtr
 <
 nsIDOMWindow
