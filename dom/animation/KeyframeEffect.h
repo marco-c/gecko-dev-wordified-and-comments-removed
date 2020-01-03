@@ -82,7 +82,7 @@ mozilla
 /
 dom
 /
-AnimationEffectReadonly
+AnimationEffectReadOnly
 .
 h
 "
@@ -653,14 +653,14 @@ namespace
 dom
 {
 class
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 :
 public
-AnimationEffectReadonly
+AnimationEffectReadOnly
 {
 public
 :
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 (
 nsIDocument
 *
@@ -683,7 +683,7 @@ nsSubstring
 aName
 )
 :
-AnimationEffectReadonly
+AnimationEffectReadOnly
 (
 aDocument
 )
@@ -726,8 +726,8 @@ supported
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
-KeyframeEffectReadonly
-AnimationEffectReadonly
+KeyframeEffectReadOnly
+AnimationEffectReadOnly
 )
 virtual
 JSObject
@@ -1148,7 +1148,7 @@ protected
 :
 virtual
 ~
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 (
 )
 {

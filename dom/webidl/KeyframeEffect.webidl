@@ -167,9 +167,9 @@ IsWebAnimationsEnabled
 "
 ]
 interface
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 :
-AnimationEffectReadonly
+AnimationEffectReadOnly
 {
 readonly
 attribute

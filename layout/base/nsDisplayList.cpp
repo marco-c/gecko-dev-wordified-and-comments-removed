@@ -2777,7 +2777,7 @@ continue
 dom
 :
 :
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 *
 effect
 =

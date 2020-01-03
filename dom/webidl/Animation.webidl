@@ -193,7 +193,7 @@ Pure
 ]
 readonly
 attribute
-AnimationEffectReadonly
+AnimationEffectReadOnly
 ?
 effect
 ;

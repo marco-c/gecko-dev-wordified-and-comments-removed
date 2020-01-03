@@ -185,7 +185,7 @@ mozilla
 dom
 :
 :
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 ;
 namespace
 mozilla
@@ -2882,7 +2882,7 @@ continue
 ;
 }
 const
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 *
 effect
 =
@@ -3018,7 +3018,7 @@ continue
 ;
 }
 const
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 *
 effect
 =
@@ -3344,7 +3344,7 @@ animIdx
 )
 {
 const
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 *
 effect
 =
@@ -4432,7 +4432,7 @@ animIdx
 ]
 ;
 const
-KeyframeEffectReadonly
+KeyframeEffectReadOnly
 *
 effect
 =
