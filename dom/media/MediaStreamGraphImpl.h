@@ -761,16 +761,6 @@ mStreamOrderDirty
 true
 ;
 }
-TrackRate
-AudioSampleRate
-(
-)
-const
-{
-return
-mSampleRate
-;
-}
 uint32_t
 AudioChannelCount
 (

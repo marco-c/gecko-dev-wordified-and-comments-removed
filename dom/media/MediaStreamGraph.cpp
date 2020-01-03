@@ -10235,7 +10235,7 @@ GraphImpl
 )
 -
 >
-AudioSampleRate
+GraphRate
 (
 )
 0
@@ -11904,7 +11904,7 @@ GraphImpl
 )
 -
 >
-AudioSampleRate
+GraphRate
 (
 )
 :
@@ -11998,7 +11998,7 @@ GraphImpl
 )
 -
 >
-AudioSampleRate
+GraphRate
 (
 )
 )
@@ -12077,7 +12077,7 @@ GraphImpl
 )
 -
 >
-AudioSampleRate
+GraphRate
 (
 )
 SPEEX_RESAMPLER_QUALITY_DEFAULT
@@ -12135,7 +12135,7 @@ GraphImpl
 )
 -
 >
-AudioSampleRate
+GraphRate
 (
 )
 )
