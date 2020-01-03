@@ -1583,6 +1583,14 @@ MemoryBarrier
 )
 UNSAFE_OP
 (
+AsmJSCompareExchangeHeap
+)
+UNSAFE_OP
+(
+AsmJSAtomicBinopHeap
+)
+UNSAFE_OP
+(
 UnknownValue
 )
 UNSAFE_OP

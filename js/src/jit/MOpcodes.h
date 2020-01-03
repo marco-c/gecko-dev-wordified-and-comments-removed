@@ -1269,6 +1269,16 @@ MemoryBarrier
 \
 _
 (
+AsmJSCompareExchangeHeap
+)
+\
+_
+(
+AsmJSAtomicBinopHeap
+)
+\
+_
+(
 UnknownValue
 )
 \

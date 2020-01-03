@@ -1638,6 +1638,16 @@ AsmJSCall
 \
 _
 (
+AsmJSCompareExchangeHeap
+)
+\
+_
+(
+AsmJSAtomicBinopHeap
+)
+\
+_
+(
 InterruptCheckPar
 )
 \

@@ -4647,14 +4647,6 @@ defined
 (
 JS_CODEGEN_X64
 )
-if
-(
-usesSignalHandlersForOOB
-(
-)
-)
-return
-;
 int32_t
 heapLength
 =
