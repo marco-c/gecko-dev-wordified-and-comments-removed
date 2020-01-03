@@ -160,6 +160,11 @@ Animatable
 webidl
 '
 '
+AnimationEffectReadonly
+.
+webidl
+'
+'
 AnimationEvent
 .
 webidl

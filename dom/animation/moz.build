@@ -126,6 +126,11 @@ dom
 =
 [
 '
+AnimationEffectReadonly
+.
+h
+'
+'
 AnimationPlayer
 .
 h
@@ -167,6 +172,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AnimationEffectReadonly
+.
+cpp
+'
 '
 AnimationPlayer
 .
