@@ -29474,12 +29474,6 @@ GetBool
 kPrefNameEnableTSF
 false
 )
-&
-&
-!
-BrowserTabsRemoteAutostart
-(
-)
 )
 ;
 MOZ_LOG
