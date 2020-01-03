@@ -37,6 +37,9 @@ removePagesFromHost
 "
 removeVisitsByTimeframe
 "
+"
+getObservers
+"
 ]
 ]
 [
