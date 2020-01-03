@@ -1606,6 +1606,9 @@ TerminateChildProcess
 MessageLoop
 *
 aMsgLoop
+nsAString
+*
+aBrowserDumpId
 )
 ;
 #

@@ -1343,6 +1343,12 @@ removeReport
 otherReport
 )
 ;
+otherReport
+.
+userCanceled
+(
+)
+;
 break
 ;
 }

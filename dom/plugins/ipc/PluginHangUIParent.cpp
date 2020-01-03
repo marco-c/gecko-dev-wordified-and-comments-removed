@@ -1551,12 +1551,17 @@ aResponse
 HANGUI_USER_RESPONSE_STOP
 )
 {
+nsString
+dummy
+;
 mModule
 -
 >
 TerminateChildProcess
 (
 mMainThreadMessageLoop
+&
+dummy
 )
 ;
 responseCode
