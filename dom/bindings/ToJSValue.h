@@ -490,16 +490,6 @@ T
 :
 :
 value
-&
-&
-IsBaseOf
-<
-nsISupports
-T
->
-:
-:
-value
 bool
 >
 :
