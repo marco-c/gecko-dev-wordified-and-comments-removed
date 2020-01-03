@@ -7101,6 +7101,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 ;
 virtual
@@ -7550,6 +7551,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 ;
 virtual
@@ -7563,6 +7565,7 @@ ErrorResult
 &
 aRv
 )
+const
 override
 ;
 virtual
@@ -8394,6 +8397,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 if
 (
@@ -10200,6 +10204,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 mBlobImpl
 -
@@ -10227,6 +10232,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 mBlobImpl
 -
