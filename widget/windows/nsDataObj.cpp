@@ -335,7 +335,7 @@ aRequestingNode
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_ALLOW_CROSS_ORIGIN_DATA_INHERITS
 nsIContentPolicy
 :
 :
@@ -359,10 +359,9 @@ rv
 mChannel
 -
 >
-AsyncOpen
+AsyncOpen2
 (
 this
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
