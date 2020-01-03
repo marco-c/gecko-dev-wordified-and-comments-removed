@@ -394,6 +394,9 @@ MessagePort
 Notification
 "
 "
+NotificationEvent
+"
+"
 Performance
 "
 "
