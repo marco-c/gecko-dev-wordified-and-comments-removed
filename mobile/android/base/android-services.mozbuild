@@ -12996,6 +12996,15 @@ sync
 /
 net
 /
+MozResponse
+.
+java
+'
+'
+sync
+/
+net
+/
 Resource
 .
 java
