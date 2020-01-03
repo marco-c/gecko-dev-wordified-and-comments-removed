@@ -2460,6 +2460,7 @@ template
 size_t
 N
 >
+MOZ_IMPLICIT
 HandleValueArray
 (
 const

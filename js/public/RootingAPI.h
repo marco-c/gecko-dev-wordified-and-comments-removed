@@ -1314,6 +1314,7 @@ template
 typename
 S
 >
+MOZ_IMPLICIT
 Handle
 (
 Handle
@@ -1490,6 +1491,7 @@ typename
 S
 >
 inline
+MOZ_IMPLICIT
 Handle
 (
 const
@@ -1532,6 +1534,7 @@ typename
 S
 >
 inline
+MOZ_IMPLICIT
 Handle
 (
 const
@@ -1574,6 +1577,7 @@ typename
 S
 >
 inline
+MOZ_IMPLICIT
 Handle
 (
 MutableHandle
@@ -2975,6 +2979,7 @@ template
 typename
 CX
 >
+explicit
 FakeRooted
 (
 CX
@@ -3004,6 +3009,7 @@ template
 typename
 CX
 >
+explicit
 FakeRooted
 (
 CX
