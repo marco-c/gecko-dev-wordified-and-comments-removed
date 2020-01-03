@@ -341,9 +341,6 @@ BeginAndGetFilteredResponse
 InternalResponse
 *
 aResponse
-nsIURI
-*
-aFinalURI
 )
 ;
 void
