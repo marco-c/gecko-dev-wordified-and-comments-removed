@@ -306,7 +306,7 @@ GetCrossOrigin
 (
 nsAString
 &
-aOrigin
+aCrossOrigin
 )
 ;
 void
@@ -315,10 +315,10 @@ SetCrossOrigin
 const
 nsAString
 &
-aOrigin
+aCrossOrigin
 ErrorResult
 &
-rv
+aError
 )
 ;
 already_AddRefed

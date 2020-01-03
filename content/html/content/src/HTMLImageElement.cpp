@@ -651,12 +651,6 @@ aValue
 )
 ;
 }
-NS_IMPL_STRING_ATTR
-(
-HTMLImageElement
-CrossOrigin
-crossorigin
-)
 bool
 HTMLImageElement
 :

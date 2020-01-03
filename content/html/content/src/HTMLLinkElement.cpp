@@ -489,12 +489,6 @@ HTMLLinkElement
 Type
 type
 )
-NS_IMPL_STRING_ATTR
-(
-HTMLLinkElement
-CrossOrigin
-crossorigin
-)
 void
 HTMLLinkElement
 :

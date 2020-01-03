@@ -196,6 +196,7 @@ SetterThrows
 ]
 attribute
 DOMString
+?
 crossOrigin
 ;
 const

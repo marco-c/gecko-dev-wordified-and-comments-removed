@@ -246,6 +246,7 @@ Pure
 ]
 attribute
 DOMString
+?
 crossOrigin
 ;
 [

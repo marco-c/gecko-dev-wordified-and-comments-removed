@@ -203,6 +203,7 @@ SetterThrows
 ]
 attribute
 DOMString
+?
 crossOrigin
 ;
 [
