@@ -113,7 +113,7 @@ do_test
 contactType
 :
 "
-sdn
+foo
 "
 }
 CONTACT_ERR_CONTACT_TYPE_NOT_SUPPORTED

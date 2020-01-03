@@ -6134,6 +6134,9 @@ ENHANCED_PHONEBOOK
 SPN
 :
 17
+SDN
+:
+18
 }
 }
 ;
