@@ -126,7 +126,7 @@ patch
 with
 an
 invalid
-hash
+size
 and
 successful
 complete
@@ -289,7 +289,7 @@ showDetails
 =
 1
 &
-invalidPartialHash
+invalidPartialSize
 =
 1
 "

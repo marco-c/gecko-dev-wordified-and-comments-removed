@@ -127,7 +127,7 @@ complete
 patches
 with
 invalid
-hashes
+sizes
 )
 "
 xmlns
@@ -286,14 +286,14 @@ showDetails
 =
 1
 &
-invalidPartialHash
+invalidPartialSize
 =
 1
 "
 +
 "
 &
-invalidCompleteHash
+invalidCompleteSize
 =
 1
 "

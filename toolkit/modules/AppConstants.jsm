@@ -344,6 +344,17 @@ else
 false
 #
 endif
+MOZ_VERIFY_MAR_SIGNATURE
+:
+#
+ifdef
+MOZ_VERIFY_MAR_SIGNATURE
+true
+#
+else
+false
+#
+endif
 MOZ_MAINTENANCE_SERVICE
 :
 #

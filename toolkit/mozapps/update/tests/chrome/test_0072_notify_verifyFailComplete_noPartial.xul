@@ -121,7 +121,7 @@ patch
 with
 an
 invalid
-hash
+size
 )
 "
 xmlns
@@ -259,10 +259,10 @@ complete
 "
 null
 null
+null
 "
 1234
 "
-null
 null
 STATE_DOWNLOADING
 )

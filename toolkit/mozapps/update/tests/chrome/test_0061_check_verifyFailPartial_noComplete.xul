@@ -126,7 +126,7 @@ patch
 with
 an
 invalid
-hash
+size
 )
 "
 xmlns
@@ -292,7 +292,7 @@ partialPatchOnly
 +
 "
 &
-invalidPartialHash
+invalidPartialSize
 =
 1
 "

@@ -18068,6 +18068,17 @@ size
 "
 )
 ;
+if
+(
+AppConstants
+.
+MOZ_VERIFY_MAR_SIGNATURE
+)
+{
+return
+true
+;
+}
 let
 fileStream
 =

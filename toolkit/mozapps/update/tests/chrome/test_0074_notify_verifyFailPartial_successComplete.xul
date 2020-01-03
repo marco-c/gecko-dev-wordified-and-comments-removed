@@ -121,7 +121,7 @@ patch
 with
 an
 invalid
-hash
+size
 and
 successful
 complete
@@ -263,10 +263,10 @@ partial
 "
 null
 null
+null
 "
 1234
 "
-null
 null
 STATE_DOWNLOADING
 )
