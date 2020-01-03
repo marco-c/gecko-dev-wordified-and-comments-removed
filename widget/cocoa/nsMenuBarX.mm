@@ -2845,7 +2845,12 @@ do_QueryInterface
 sLastGeckoMenuBarPainted
 -
 >
-mDocument
+mContent
+-
+>
+OwnerDoc
+(
+)
 )
 )
 ;

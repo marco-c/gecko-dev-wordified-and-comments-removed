@@ -159,10 +159,6 @@ aContent
 uint32_t
 mCurrentCommandID
 ;
-nsIDocument
-*
-mDocument
-;
 nsDataHashtable
 <
 nsPtrHashKey
