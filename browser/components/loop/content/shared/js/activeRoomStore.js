@@ -1559,12 +1559,12 @@ hasAudioOrVideoDevices
 (
 function
 (
-hasAudio
+hasDevices
 )
 {
 if
 (
-hasAudio
+hasDevices
 )
 {
 this
