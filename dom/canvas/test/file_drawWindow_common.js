@@ -297,6 +297,7 @@ assertSnapshots
 testCanvas
 refCanvas
 true
+null
 "
 full
 draw
@@ -344,6 +345,7 @@ testCanvas
 refCanvas
 !
 transparentBackground
+null
 "
 full
 draw
@@ -424,6 +426,7 @@ assertSnapshots
 testCanvas
 refCanvas
 transparentBackground
+null
 "
 full
 draw
@@ -495,6 +498,7 @@ assertSnapshots
 testCanvas
 refCanvas
 true
+null
 "
 draw
 of
@@ -602,6 +606,7 @@ assertSnapshots
 testCanvas
 refCanvas
 true
+null
 "
 draw
 of
@@ -699,6 +704,7 @@ assertSnapshots
 testCanvas
 refCanvas
 true
+null
 "
 draw
 of
@@ -929,6 +935,7 @@ assertSnapshots
 testCanvas
 refCanvas
 true
+null
 "
 multiple
 drawWindow
