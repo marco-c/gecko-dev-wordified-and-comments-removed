@@ -206,6 +206,12 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
+request
+.
+onsuccess
+=
+grabEventAndContinueHandler
+;
 event
 =
 yield
@@ -558,6 +564,9 @@ updated
 .
 "
 )
+;
+yield
+undefined
 ;
 db
 .

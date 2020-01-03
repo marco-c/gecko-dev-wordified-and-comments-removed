@@ -51,6 +51,12 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
+request
+.
+onsuccess
+=
+grabEventAndContinueHandler
+;
 let
 event
 =
@@ -175,6 +181,9 @@ request
 onsuccess
 =
 unexpectedSuccessHandler
+;
+yield
+undefined
 ;
 yield
 undefined

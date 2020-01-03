@@ -65,6 +65,12 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
+request
+.
+onsuccess
+=
+grabEventAndContinueHandler
+;
 let
 event
 =
@@ -247,6 +253,9 @@ Correct
 readyState
 "
 )
+;
+yield
+undefined
 ;
 finishTest
 (

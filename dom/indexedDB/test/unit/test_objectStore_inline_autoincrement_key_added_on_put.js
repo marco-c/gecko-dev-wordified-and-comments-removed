@@ -51,6 +51,12 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
+request
+.
+onsuccess
+=
+grabEventAndContinueHandler
+;
 var
 event
 =
@@ -231,6 +237,9 @@ it
 .
 "
 )
+;
+yield
+undefined
 ;
 finishTest
 (
