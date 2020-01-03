@@ -318,7 +318,7 @@ static
 int
 kDefaultTimeout
 =
-7000
+10000
 ;
 static
 std
