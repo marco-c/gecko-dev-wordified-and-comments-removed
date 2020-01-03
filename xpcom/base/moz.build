@@ -198,11 +198,6 @@ nsIVersionComparator
 idl
 '
 '
-nsIVisualEventTracer
-.
-idl
-'
-'
 nsIWeakReference
 .
 idl
@@ -488,11 +483,6 @@ SystemMemoryReporter
 .
 h
 '
-'
-VisualEventTracer
-.
-h
-'
 ]
 #
 nsDebugImpl
@@ -663,11 +653,6 @@ cpp
 '
 '
 nsVersionComparatorImpl
-.
-cpp
-'
-'
-VisualEventTracer
 .
 cpp
 '
