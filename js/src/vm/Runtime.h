@@ -4192,13 +4192,16 @@ commonNames
 js
 :
 :
-AtomSet
+FrozenAtomSet
 *
 permanentAtoms
 ;
 bool
 transformToPermanentAtoms
 (
+JSContext
+*
+cx
 )
 ;
 js
