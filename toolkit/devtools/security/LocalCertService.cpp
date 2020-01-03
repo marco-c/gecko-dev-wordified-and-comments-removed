@@ -125,6 +125,7 @@ CryptoTask
 {
 protected
 :
+explicit
 LocalCertTask
 (
 const
