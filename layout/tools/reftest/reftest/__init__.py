@@ -245,6 +245,14 @@ manifests
 set
 (
 )
+        
+self
+.
+tests
+=
+set
+(
+)
     
 def
 load
@@ -267,7 +275,7 @@ file
 "
 "
         
-normalized
+normalized_path
 =
 os
 .
@@ -291,7 +299,7 @@ manifests
 .
 add
 (
-normalized
+normalized_path
 )
         
 if
@@ -305,7 +313,7 @@ self
 .
 path
 =
-normalized
+normalized_path
         
 mdir
 =
@@ -315,7 +323,7 @@ path
 .
 dirname
 (
-normalized
+normalized_path
 )
         
 self
@@ -718,5 +726,17 @@ path
 dirname
 (
 test
+)
+)
+                    
+self
+.
+tests
+.
+add
+(
+(
+test
+normalized_path
 )
 )
