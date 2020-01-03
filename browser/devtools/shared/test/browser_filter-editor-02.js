@@ -274,8 +274,6 @@ url
 value
 :
 "
-\
-"
 chrome
 :
 /
@@ -289,8 +287,6 @@ devtools
 example
 .
 svg
-\
-"
 "
 unit
 :
