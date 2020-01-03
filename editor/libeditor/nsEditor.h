@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-TypedEnum
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Text

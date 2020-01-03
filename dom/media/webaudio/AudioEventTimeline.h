@@ -32,15 +32,6 @@ include
 "
 mozilla
 /
-TypedEnum
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PodOperations
 .
 h

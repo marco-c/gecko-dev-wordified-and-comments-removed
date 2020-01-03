@@ -70,15 +70,6 @@ include
 "
 mozilla
 /
-TypedEnum
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TypeTraits
 .
 h

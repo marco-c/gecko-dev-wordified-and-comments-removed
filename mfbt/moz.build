@@ -425,17 +425,7 @@ ToString
 h
 '
 '
-TypedEnum
-.
-h
-'
-'
 TypedEnumBits
-.
-h
-'
-'
-TypedEnumInternal
 .
 h
 '

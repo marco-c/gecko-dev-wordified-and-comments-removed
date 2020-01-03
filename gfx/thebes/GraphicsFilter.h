@@ -4,15 +4,6 @@ GraphicsFilter_h
 #
 define
 GraphicsFilter_h
-#
-include
-"
-mozilla
-/
-TypedEnum
-.
-h
-"
 enum
 class
 GraphicsFilter

@@ -14,15 +14,6 @@ h
 #
 include
 "
-mozilla
-/
-TypedEnum
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h

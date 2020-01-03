@@ -99,15 +99,6 @@ include
 "
 mozilla
 /
-TypedEnum
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Move
 .
 h

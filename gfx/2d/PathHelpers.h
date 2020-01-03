@@ -23,15 +23,6 @@ h
 #
 include
 "
-mozilla
-/
-TypedEnum
-.
-h
-"
-#
-include
-"
 UserData
 .
 h

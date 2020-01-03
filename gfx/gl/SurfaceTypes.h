@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-TypedEnum
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefPtr
 .
 h

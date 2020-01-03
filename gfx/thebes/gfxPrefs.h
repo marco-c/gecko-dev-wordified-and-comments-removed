@@ -30,15 +30,6 @@ Constants
 h
 "
 #
-include
-"
-mozilla
-/
-TypedEnum
-.
-h
-"
-#
 define
 DECL_GFX_PREF
 (

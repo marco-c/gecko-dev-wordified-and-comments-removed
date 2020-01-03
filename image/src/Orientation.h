@@ -11,15 +11,6 @@ stdint
 .
 h
 >
-#
-include
-"
-mozilla
-/
-TypedEnum
-.
-h
-"
 namespace
 mozilla
 {

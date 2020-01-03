@@ -6,15 +6,6 @@ define
 MOZILLA_GFX_TYPES_H_
 #
 include
-"
-mozilla
-/
-TypedEnum
-.
-h
-"
-#
-include
 <
 stddef
 .

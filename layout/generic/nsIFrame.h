@@ -98,15 +98,6 @@ h
 #
 include
 "
-mozilla
-/
-TypedEnum
-.
-h
-"
-#
-include
-"
 nsDirection
 .
 h

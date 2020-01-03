@@ -36,15 +36,6 @@ include
 "
 mozilla
 /
-TypedEnum
-.
-h
-"
-#
-include
-"
-mozilla
-/
 VolatileBuffer
 .
 h

@@ -4,15 +4,6 @@ GFX_IMAGETYPES_H
 #
 define
 GFX_IMAGETYPES_H
-#
-include
-"
-mozilla
-/
-TypedEnum
-.
-h
-"
 namespace
 mozilla
 {

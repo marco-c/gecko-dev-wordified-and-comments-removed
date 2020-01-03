@@ -13,15 +13,6 @@ Array
 .
 h
 "
-#
-include
-"
-mozilla
-/
-TypedEnum
-.
-h
-"
 namespace
 mozilla
 {

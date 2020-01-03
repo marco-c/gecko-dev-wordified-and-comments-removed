@@ -11,15 +11,6 @@ stdint
 .
 h
 >
-#
-include
-"
-mozilla
-/
-TypedEnum
-.
-h
-"
 typedef
 struct
 _cairo_surface
