@@ -254,6 +254,14 @@ mHasBeenCrossSite
 bool
 mIsPreflight
 ;
+#
+ifdef
+DEBUG
+bool
+mInited
+;
+#
+endif
 nsCString
 mPreflightMethod
 ;
