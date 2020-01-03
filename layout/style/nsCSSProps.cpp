@@ -5101,8 +5101,6 @@ kGridAutoFlowKTable
 ]
 =
 {
-eCSSKeyword_stack
-NS_STYLE_GRID_AUTO_FLOW_STACK
 eCSSKeyword_row
 NS_STYLE_GRID_AUTO_FLOW_ROW
 eCSSKeyword_column

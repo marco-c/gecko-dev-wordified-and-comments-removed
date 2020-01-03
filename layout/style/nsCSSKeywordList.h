@@ -2949,11 +2949,6 @@ square
 )
 CSS_KEY
 (
-stack
-stack
-)
-CSS_KEY
-(
 stacked
 -
 fractions
