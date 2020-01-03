@@ -112,6 +112,10 @@ chromeDebugger
 "
 ]
 .
+_getConstructor
+(
+)
+.
 prototype
 .
 requestTypes
