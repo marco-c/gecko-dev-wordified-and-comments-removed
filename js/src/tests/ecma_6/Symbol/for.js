@@ -1,3 +1,15 @@
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 assertEq
 (
 Symbol
@@ -202,6 +214,7 @@ for
 foo
 "
 )
+;
 assertEq
 (
 Symbol
@@ -236,6 +249,7 @@ foo
 foo
 )
 ;
+}
 if
 (
 typeof

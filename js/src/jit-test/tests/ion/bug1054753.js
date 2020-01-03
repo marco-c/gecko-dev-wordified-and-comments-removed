@@ -1,3 +1,15 @@
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 g
 =
 (
@@ -52,3 +64,4 @@ g
 (
 )
 ;
+}

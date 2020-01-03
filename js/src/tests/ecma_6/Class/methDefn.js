@@ -897,6 +897,18 @@ foo4
 4
 )
 ;
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 unique_sym
 =
@@ -964,6 +976,7 @@ registered_sym
 3
 )
 ;
+}
 a
 =
 {

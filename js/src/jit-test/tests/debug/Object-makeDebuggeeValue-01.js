@@ -350,6 +350,18 @@ undefined
 undefined
 )
 ;
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 s
 =
@@ -379,3 +391,4 @@ s
 s
 )
 ;
+}

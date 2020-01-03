@@ -1,3 +1,15 @@
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 assertEq
 (
 typeof
@@ -87,6 +99,7 @@ Symbol
 iterator
 )
 ;
+}
 }
 if
 (

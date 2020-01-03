@@ -5,6 +5,16 @@ getBuildConfiguration
 )
 .
 parallelJS
+&
+&
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
 )
 {
 x

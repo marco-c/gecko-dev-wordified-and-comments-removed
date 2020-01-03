@@ -1,3 +1,15 @@
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 gczeal
 (
 4
@@ -38,4 +50,5 @@ of
 symbols
 )
 {
+}
 }

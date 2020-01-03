@@ -1,3 +1,15 @@
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 symbols
 =
@@ -430,6 +442,7 @@ noSuchPropName
 TypeError
 )
 ;
+}
 }
 if
 (

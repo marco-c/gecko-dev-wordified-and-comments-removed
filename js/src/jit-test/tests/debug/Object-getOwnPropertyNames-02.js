@@ -32,6 +32,17 @@ xyzzy
 8
 }
 ;
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
 g
 .
 p

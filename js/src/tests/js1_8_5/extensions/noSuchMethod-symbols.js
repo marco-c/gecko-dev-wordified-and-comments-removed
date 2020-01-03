@@ -1,3 +1,15 @@
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 sym
 =
@@ -87,6 +99,7 @@ hits
 1
 )
 ;
+}
 if
 (
 typeof

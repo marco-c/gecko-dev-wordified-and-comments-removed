@@ -1,3 +1,15 @@
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 symbols
 =
@@ -161,6 +173,7 @@ ding
 '
 )
 ;
+}
 }
 if
 (

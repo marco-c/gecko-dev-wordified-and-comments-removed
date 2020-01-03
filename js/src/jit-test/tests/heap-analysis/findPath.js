@@ -445,6 +445,18 @@ toString
 )
 )
 ;
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 so
 =
@@ -513,3 +525,4 @@ toString
 )
 )
 ;
+}

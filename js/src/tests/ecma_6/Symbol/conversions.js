@@ -1,3 +1,15 @@
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 symbols
 =
@@ -432,6 +444,7 @@ sym
 false
 )
 ;
+}
 }
 if
 (

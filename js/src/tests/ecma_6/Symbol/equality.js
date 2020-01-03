@@ -1,3 +1,15 @@
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 assertEq
 (
 Symbol
@@ -186,6 +198,7 @@ j
 expected
 )
 ;
+}
 }
 }
 if

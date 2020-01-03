@@ -306,9 +306,6 @@ Map
 Error_
 =
 Error
-Symbol_
-=
-Symbol
 Map_has
 =
 call

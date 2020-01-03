@@ -18,6 +18,17 @@ selectforgc
 )
 ;
 ;
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
 y
 .
 set

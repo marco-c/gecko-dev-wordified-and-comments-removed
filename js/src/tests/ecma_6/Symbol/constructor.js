@@ -1,3 +1,15 @@
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 sym
 =
@@ -214,6 +226,7 @@ valueOf
 TypeError
 )
 ;
+}
 if
 (
 typeof

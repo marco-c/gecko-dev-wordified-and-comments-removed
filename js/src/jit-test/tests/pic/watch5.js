@@ -1,3 +1,15 @@
+if
+(
+typeof
+Symbol
+=
+=
+=
+"
+function
+"
+)
+{
 var
 obj
 =
@@ -177,3 +189,4 @@ hits
 10
 )
 ;
+}
