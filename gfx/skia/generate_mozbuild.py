@@ -300,7 +300,7 @@ SOURCES
 [
         
 '
-trunk
+skia
 /
 src
 /
@@ -330,7 +330,7 @@ SOURCES
 [
             
 '
-trunk
+skia
 /
 src
 /
@@ -342,7 +342,7 @@ S
 '
             
 '
-trunk
+skia
 /
 src
 /
@@ -402,7 +402,7 @@ SOURCES
 [
             
 '
-trunk
+skia
 /
 src
 /
@@ -424,7 +424,7 @@ SOURCES
 [
             
 '
-trunk
+skia
 /
 src
 /
@@ -447,7 +447,7 @@ LOCAL_INCLUDES
 [
     
 '
-trunk
+skia
 /
 include
 /
@@ -455,7 +455,7 @@ config
 '
     
 '
-trunk
+skia
 /
 include
 /
@@ -463,7 +463,7 @@ core
 '
     
 '
-trunk
+skia
 /
 include
 /
@@ -471,7 +471,7 @@ effects
 '
     
 '
-trunk
+skia
 /
 include
 /
@@ -479,7 +479,7 @@ gpu
 '
     
 '
-trunk
+skia
 /
 include
 /
@@ -487,7 +487,7 @@ images
 '
     
 '
-trunk
+skia
 /
 include
 /
@@ -495,7 +495,7 @@ pathops
 '
     
 '
-trunk
+skia
 /
 include
 /
@@ -503,7 +503,7 @@ pipe
 '
     
 '
-trunk
+skia
 /
 include
 /
@@ -511,7 +511,7 @@ ports
 '
     
 '
-trunk
+skia
 /
 include
 /
@@ -519,7 +519,7 @@ utils
 '
     
 '
-trunk
+skia
 /
 include
 /
@@ -529,7 +529,7 @@ mac
 '
     
 '
-trunk
+skia
 /
 include
 /
@@ -539,7 +539,7 @@ win
 '
     
 '
-trunk
+skia
 /
 include
 /
@@ -547,7 +547,7 @@ views
 '
     
 '
-trunk
+skia
 /
 src
 /
@@ -555,7 +555,7 @@ core
 '
     
 '
-trunk
+skia
 /
 src
 /
@@ -563,7 +563,7 @@ gpu
 '
     
 '
-trunk
+skia
 /
 src
 /
@@ -573,7 +573,7 @@ effects
 '
     
 '
-trunk
+skia
 /
 src
 /
@@ -583,7 +583,7 @@ gl
 '
     
 '
-trunk
+skia
 /
 src
 /
@@ -591,7 +591,7 @@ image
 '
     
 '
-trunk
+skia
 /
 src
 /
@@ -599,7 +599,7 @@ lazy
 '
     
 '
-trunk
+skia
 /
 src
 /
@@ -607,7 +607,7 @@ opts
 '
     
 '
-trunk
+skia
 /
 src
 /
@@ -615,7 +615,7 @@ sfnt
 '
     
 '
-trunk
+skia
 /
 src
 /
@@ -623,7 +623,7 @@ utils
 '
     
 '
-trunk
+skia
 /
 src
 /
@@ -633,7 +633,7 @@ mac
 '
     
 '
-trunk
+skia
 /
 src
 /
@@ -868,7 +868,7 @@ crashes
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -895,7 +895,7 @@ DSK_CPU_SSE_LEVEL
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -922,7 +922,7 @@ DSK_CPU_SSE_LEVEL
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -949,7 +949,7 @@ DSK_CPU_SSE_LEVEL
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -976,7 +976,7 @@ DSK_CPU_SSE_LEVEL
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1003,7 +1003,7 @@ DSK_CPU_SSE_LEVEL
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1030,7 +1030,7 @@ DSK_CPU_SSE_LEVEL
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1057,7 +1057,7 @@ DSK_CPU_SSE_LEVEL
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1084,7 +1084,7 @@ DSK_CPU_SSE_LEVEL
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1111,7 +1111,7 @@ DSK_CPU_SSE_LEVEL
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1153,7 +1153,7 @@ GNU_CC
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1178,7 +1178,7 @@ SSE2_FLAGS
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1203,7 +1203,7 @@ SSE2_FLAGS
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1228,7 +1228,7 @@ mssse3
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1253,7 +1253,7 @@ SSE2_FLAGS
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1278,7 +1278,7 @@ SSE2_FLAGS
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1303,7 +1303,7 @@ SSE2_FLAGS
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1330,7 +1330,7 @@ msse4
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1355,7 +1355,7 @@ SSE2_FLAGS
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1380,7 +1380,7 @@ SSE2_FLAGS
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1458,7 +1458,7 @@ CLANG_CL
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1483,7 +1483,7 @@ mssse3
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1597,7 +1597,7 @@ arm
 SOURCES
 [
 '
-trunk
+skia
 /
 src
 /
@@ -1724,7 +1724,7 @@ custom_includes
 {
   
 '
-trunk
+skia
 /
 src
 /
@@ -1738,7 +1738,7 @@ h
 True
   
 '
-trunk
+skia
 /
 src
 /
@@ -1752,7 +1752,7 @@ h
 True
   
 '
-trunk
+skia
 /
 src
 /
@@ -1766,7 +1766,7 @@ h
 True
   
 '
-trunk
+skia
 /
 src
 /
@@ -1780,7 +1780,7 @@ h
 True
   
 '
-trunk
+skia
 /
 src
 /
@@ -1794,7 +1794,7 @@ h
 True
   
 '
-trunk
+skia
 /
 src
 /
@@ -1808,7 +1808,7 @@ h
 True
   
 '
-trunk
+skia
 /
 src
 /
@@ -1842,7 +1842,7 @@ os
 walk
 (
 '
-trunk
+skia
 /
 include
 '
@@ -1926,7 +1926,7 @@ os
 walk
 (
 '
-trunk
+skia
 /
 src
 /
@@ -1999,7 +1999,7 @@ system
 (
 "
 cd
-trunk
+skia
 &
 &
 GYP_GENERATORS
@@ -2046,7 +2046,7 @@ f
 open
 (
 '
-trunk
+skia
 /
 sources
 .
@@ -2072,7 +2072,7 @@ replace
 /
 '
 '
-trunk
+skia
 /
 '
 )
@@ -2281,7 +2281,7 @@ common
 {
       
 '
-trunk
+skia
 /
 src
 /
@@ -2295,7 +2295,7 @@ cpp
 '
       
 '
-trunk
+skia
 /
 src
 /
@@ -2307,7 +2307,7 @@ cpp
 '
       
 '
-trunk
+skia
 /
 src
 /
@@ -2319,7 +2319,7 @@ cpp
 '
       
 '
-trunk
+skia
 /
 src
 /
@@ -2339,7 +2339,7 @@ android
 {
       
 '
-trunk
+skia
 /
 src
 /
@@ -2351,7 +2351,7 @@ cpp
 '
       
 '
-trunk
+skia
 /
 src
 /
@@ -2371,7 +2371,7 @@ linux
 {
       
 '
-trunk
+skia
 /
 src
 /
@@ -2391,7 +2391,7 @@ intel
 {
       
 '
-trunk
+skia
 /
 src
 /
@@ -2403,7 +2403,7 @@ cpp
 '
       
 '
-trunk
+skia
 /
 src
 /
@@ -2423,7 +2423,7 @@ arm
 {
       
 '
-trunk
+skia
 /
 src
 /
@@ -2435,7 +2435,7 @@ cpp
 '
       
 '
-trunk
+skia
 /
 src
 /
@@ -2455,7 +2455,7 @@ neon
 {
       
 '
-trunk
+skia
 /
 src
 /
@@ -2475,7 +2475,7 @@ none
 {
       
 '
-trunk
+skia
 /
 src
 /

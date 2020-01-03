@@ -12,7 +12,7 @@ cp
 dump_mozbuild
 .
 py
-trunk
+skia
 /
 third_party
 /
@@ -27,7 +27,7 @@ gyp
 generator
 #
 pushd
-trunk
+skia
 #
 for
 OS
