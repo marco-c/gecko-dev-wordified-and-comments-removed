@@ -307,6 +307,18 @@ CurrentPoint
 )
 const
 {
+Point
+ret
+;
+if
+(
+!
+CGPathIsEmpty
+(
+mCGPath
+)
+)
+{
 CGPoint
 pt
 =
@@ -315,8 +327,9 @@ CGPathGetCurrentPoint
 mCGPath
 )
 ;
-Point
 ret
+.
+MoveTo
 (
 pt
 .
@@ -326,6 +339,7 @@ pt
 y
 )
 ;
+}
 return
 ret
 ;
