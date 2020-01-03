@@ -9401,6 +9401,9 @@ DidEndTransaction
 if
 (
 document
+&
+&
+widgetTransaction
 )
 {
 StartPendingAnimations
