@@ -15526,8 +15526,6 @@ DefineVars
 ;
 ParseNode
 *
-pn2
-*
 pn3
 ;
 bool
@@ -15643,18 +15641,20 @@ true
 }
 for
 (
-pn2
+ParseNode
+*
+member
 =
 pattern
 -
 >
 pn_head
 ;
-pn2
+member
 ;
-pn2
+member
 =
-pn2
+member
 -
 >
 pn_next
@@ -15677,7 +15677,7 @@ true
 ;
 JS_ASSERT
 (
-pn2
+member
 -
 >
 isKind
@@ -15686,7 +15686,7 @@ PNK_COLON
 )
 |
 |
-pn2
+member
 -
 >
 isKind
@@ -15713,7 +15713,7 @@ ParseNode
 *
 key
 =
-pn2
+member
 -
 >
 pn_left
@@ -15903,7 +15903,7 @@ stackDepth
 }
 pn3
 =
-pn2
+member
 -
 >
 pn_right
@@ -15924,7 +15924,7 @@ PNK_ARRAY
 ;
 if
 (
-pn2
+member
 -
 >
 isKind
@@ -16240,7 +16240,7 @@ false
 }
 pn3
 =
-pn2
+member
 ;
 }
 if
@@ -16267,7 +16267,7 @@ PNK_ARRAY
 ;
 JS_ASSERT
 (
-pn2
+member
 =
 =
 pn3
