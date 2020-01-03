@@ -428,6 +428,11 @@ stringify
 callType
 :
 callType
+channel
+:
+"
+standalone
+"
 }
 )
 }

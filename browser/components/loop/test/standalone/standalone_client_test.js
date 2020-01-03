@@ -840,6 +840,13 @@ callType
 "
 audio
 "
+"
+channel
+"
+:
+"
+standalone
+"
 }
 '
 )
