@@ -2846,10 +2846,6 @@ ITfCategoryMgr
 sCategoryMgr
 ;
 static
-DWORD
-sTsfClientId
-;
-static
 mozilla
 :
 :
@@ -2888,6 +2884,10 @@ StaticRefPtr
 ITfInputProcessorProfiles
 >
 sInputProcessorProfiles
+;
+static
+DWORD
+sClientId
 ;
 static
 bool

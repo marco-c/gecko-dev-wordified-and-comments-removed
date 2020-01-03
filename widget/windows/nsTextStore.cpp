@@ -5446,14 +5446,6 @@ nsTextStore
 :
 sInputProcessorProfiles
 ;
-DWORD
-nsTextStore
-:
-:
-sTsfClientId
-=
-0
-;
 StaticRefPtr
 <
 nsTextStore
@@ -5462,6 +5454,14 @@ nsTextStore
 :
 :
 sEnabledTextStore
+;
+DWORD
+nsTextStore
+:
+:
+sClientId
+=
+0
 ;
 bool
 nsTextStore
@@ -5848,7 +5848,7 @@ mDocumentMgr
 >
 CreateContext
 (
-sTsfClientId
+sClientId
 0
 static_cast
 <
@@ -25731,7 +25731,7 @@ comp
 >
 SetValue
 (
-sTsfClientId
+sClientId
 &
 variant
 )
@@ -26123,7 +26123,7 @@ comp
 >
 SetValue
 (
-sTsfClientId
+sClientId
 &
 variant_int4_value1
 )
@@ -26245,7 +26245,7 @@ comp
 >
 SetValue
 (
-sTsfClientId
+sClientId
 &
 variant_int4_value1
 )
@@ -26690,7 +26690,7 @@ threadMgr
 Activate
 (
 &
-sTsfClientId
+sClientId
 )
 ;
 if
@@ -26959,7 +26959,7 @@ disabledDocumentMgr
 >
 CreateContext
 (
-sTsfClientId
+sClientId
 0
 nullptr
 getter_AddRefs
@@ -27232,7 +27232,7 @@ sThreadMgr
 p
 "
 "
-sTsfClientId
+sClientId
 =
 0x
 %
@@ -27282,7 +27282,7 @@ sThreadMgr
 get
 (
 )
-sTsfClientId
+sClientId
 sDisplayAttrMgr
 .
 get
@@ -27377,7 +27377,7 @@ sInputProcessorProfiles
 =
 nullptr
 ;
-sTsfClientId
+sClientId
 =
 0
 ;
