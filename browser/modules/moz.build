@@ -180,6 +180,11 @@ CustomizationTabPreloader
 jsm
 '
 '
+E10SUtils
+.
+jsm
+'
+'
 Feeds
 .
 jsm

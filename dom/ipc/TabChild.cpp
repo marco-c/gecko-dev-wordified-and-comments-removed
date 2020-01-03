@@ -580,13 +580,6 @@ h
 #
 include
 "
-nsIWebBrowserChrome3
-.
-h
-"
-#
-include
-"
 nsColorPickerProxy
 .
 h
