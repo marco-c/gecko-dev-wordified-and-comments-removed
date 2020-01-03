@@ -10927,8 +10927,12 @@ coercion
 &
 coercedExpr
 )
-|
-|
+)
+return
+false
+;
+if
+(
 coercion
 !
 =
