@@ -1,9 +1,9 @@
 #
 ifndef
-jit_LIR_Common_h
+jit_shared_LIR_shared_h
 #
 define
-jit_LIR_Common_h
+jit_shared_LIR_shared_h
 #
 include
 "
