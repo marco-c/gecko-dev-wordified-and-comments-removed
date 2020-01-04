@@ -497,6 +497,9 @@ virtual
 bool
 isSelfHosted
 (
+JSContext
+*
+cx
 )
 const
 =
@@ -1214,6 +1217,9 @@ isSystem
 bool
 isSelfHosted
 (
+JSContext
+*
+cx
 )
 const
 {
@@ -1225,6 +1231,7 @@ base
 >
 isSelfHosted
 (
+cx
 )
 ;
 }
@@ -1560,6 +1567,9 @@ StackFrame
 bool
 isSelfHosted
 (
+JSContext
+*
+cx
 )
 const
 override

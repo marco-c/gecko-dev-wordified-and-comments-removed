@@ -5968,6 +5968,7 @@ frame
 .
 isSelfHosted
 (
+cx
 )
 )
 ;
@@ -6327,6 +6328,7 @@ ubiNode
 EdgePolicy
 includeEdges
 )
+override
 final
 {
 protobuf
