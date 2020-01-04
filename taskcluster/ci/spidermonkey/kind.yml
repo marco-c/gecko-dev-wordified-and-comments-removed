@@ -290,6 +290,11 @@ build
 *
 *
 -
+config
+/
+*
+*
+-
 configure
 .
 py
@@ -324,6 +329,10 @@ reftest
 /
 *
 *
+-
+Makefile
+.
+in
 -
 media
 /
@@ -368,6 +377,10 @@ mozglue
 /
 *
 *
+-
+moz
+.
+build
 -
 moz
 .
