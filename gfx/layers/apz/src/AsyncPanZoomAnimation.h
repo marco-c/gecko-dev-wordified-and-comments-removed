@@ -34,15 +34,6 @@ h
 #
 include
 "
-mozilla
-/
-Vector
-.
-h
-"
-#
-include
-"
 FrameMetrics
 .
 h
@@ -51,6 +42,13 @@ h
 include
 "
 nsISupportsImpl
+.
+h
+"
+#
+include
+"
+nsTArray
 .
 h
 "
@@ -132,7 +130,7 @@ aDelta
 )
 ;
 }
-Vector
+nsTArray
 <
 Task
 *
@@ -189,7 +187,7 @@ AsyncPanZoomAnimation
 )
 {
 }
-Vector
+nsTArray
 <
 Task
 *
