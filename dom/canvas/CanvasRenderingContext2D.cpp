@@ -8780,6 +8780,13 @@ currentTransform
 newCTM
 error
 )
+&
+&
+newCTM
+.
+IsFinite
+(
+)
 )
 {
 mTarget
@@ -8900,6 +8907,13 @@ if
 newCTMInverse
 .
 Invert
+(
+)
+&
+&
+newCTMInverse
+.
+IsFinite
 (
 )
 )
