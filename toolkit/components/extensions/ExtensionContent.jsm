@@ -495,6 +495,8 @@ getAPI
 }
 }
 }
+(
+)
 ;
 function
 Script

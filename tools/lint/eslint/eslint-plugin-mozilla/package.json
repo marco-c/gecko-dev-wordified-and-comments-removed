@@ -19,7 +19,7 @@ version
 .
 2
 .
-0
+1
 "
 "
 description
@@ -155,7 +155,7 @@ escope
 ^
 3
 .
-2
+6
 .
 0
 "
@@ -165,11 +165,11 @@ espree
 :
 "
 ^
-2
+3
 .
 2
 .
-4
+0
 "
 "
 estraverse
@@ -179,9 +179,9 @@ estraverse
 ^
 4
 .
-1
+2
 .
-1
+0
 "
 "
 sax
