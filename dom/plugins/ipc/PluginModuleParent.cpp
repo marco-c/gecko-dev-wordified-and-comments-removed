@@ -13500,10 +13500,6 @@ ImageBridgeChild
 GetSingleton
 (
 )
-.
-get
-(
-)
 )
 ;
 }

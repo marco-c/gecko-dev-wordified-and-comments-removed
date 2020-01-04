@@ -231,7 +231,6 @@ this
 )
 ;
 }
-virtual
 ~
 nsExpirationTracker
 (
