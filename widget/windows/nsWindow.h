@@ -480,6 +480,16 @@ GetDefaultScaleInternal
 )
 override
 ;
+virtual
+int32_t
+LogToPhys
+(
+double
+aValue
+)
+override
+final
+;
 NS_IMETHOD
 Show
 (

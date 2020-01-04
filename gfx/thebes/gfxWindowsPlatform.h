@@ -487,11 +487,6 @@ featureLevelIndex
 ;
 #
 endif
-double
-GetDPIScale
-(
-)
-;
 nsresult
 GetFontList
 (

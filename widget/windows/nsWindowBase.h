@@ -218,6 +218,16 @@ aRetValue
 ;
 protected
 :
+virtual
+int32_t
+LogToPhys
+(
+double
+aValue
+)
+=
+0
+;
 static
 bool
 InitTouchInjection
