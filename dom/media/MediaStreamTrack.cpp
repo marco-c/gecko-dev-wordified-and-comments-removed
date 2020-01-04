@@ -1012,9 +1012,14 @@ MediaTrackSettings
 aResult
 )
 {
+GetSource
+(
+)
+.
+GetSettings
+(
 aResult
-=
-mSettings
+)
 ;
 }
 already_AddRefed
