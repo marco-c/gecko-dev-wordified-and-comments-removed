@@ -1536,7 +1536,8 @@ const
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 ConstrainPosition
 (
 bool

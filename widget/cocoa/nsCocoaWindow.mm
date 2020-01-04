@@ -7222,7 +7222,7 @@ true
 define
 kWindowPositionSlop
 20
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -7238,6 +7238,8 @@ int32_t
 aY
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -7252,7 +7254,6 @@ screen
 )
 {
 return
-NS_OK
 ;
 }
 nsIntRect
@@ -7627,8 +7628,7 @@ height
 ;
 }
 }
-return
-NS_OK
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 void
