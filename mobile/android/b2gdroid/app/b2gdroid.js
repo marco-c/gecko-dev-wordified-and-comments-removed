@@ -8296,3 +8296,17 @@ enabled
 true
 )
 ;
+pref
+(
+"
+dom
+.
+apps
+.
+customization
+.
+enabled
+"
+true
+)
+;
