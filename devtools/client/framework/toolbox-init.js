@@ -496,7 +496,6 @@ addEventListener
 unload
 "
 onUnload
-true
 )
 ;
 toolbox
