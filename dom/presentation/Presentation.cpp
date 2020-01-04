@@ -341,6 +341,14 @@ service
 >
 GetExistentSessionIdAtLaunch
 (
+GetOwner
+(
+)
+-
+>
+WindowID
+(
+)
 sessionId
 )
 ;
