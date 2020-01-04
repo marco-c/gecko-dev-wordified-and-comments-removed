@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

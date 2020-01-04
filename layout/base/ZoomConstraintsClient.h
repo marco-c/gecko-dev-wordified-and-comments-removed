@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
