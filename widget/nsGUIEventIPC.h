@@ -373,7 +373,7 @@ WriteParam
 aMsg
 aParam
 .
-timeStamp
+mTimeStamp
 )
 ;
 WriteParam
@@ -466,7 +466,7 @@ aIter
 aResult
 -
 >
-timeStamp
+mTimeStamp
 )
 &
 &

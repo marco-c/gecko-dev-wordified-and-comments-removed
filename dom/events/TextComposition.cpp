@@ -519,12 +519,12 @@ mTime
 ;
 compositionEvent
 .
-timeStamp
+mTimeStamp
 =
 aCompositionEvent
 -
 >
-timeStamp
+mTimeStamp
 ;
 compositionEvent
 .

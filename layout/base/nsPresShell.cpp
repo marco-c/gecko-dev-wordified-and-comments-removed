@@ -30970,12 +30970,12 @@ mTime
 ;
 event
 .
-timeStamp
+mTimeStamp
 =
 touchEvent
 -
 >
-timeStamp
+mTimeStamp
 ;
 event
 .
@@ -36756,7 +36756,7 @@ CanRecordBase
 aEvent
 -
 >
-timeStamp
+mTimeStamp
 .
 IsNull
 (
@@ -36785,7 +36785,7 @@ Now
 aEvent
 -
 >
-timeStamp
+mTimeStamp
 )
 .
 ToMilliseconds

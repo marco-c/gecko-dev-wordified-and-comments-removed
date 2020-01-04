@@ -1219,7 +1219,7 @@ modifiers
 ;
 geckoEvent
 .
-timeStamp
+mTimeStamp
 =
 TimeStamp
 :
