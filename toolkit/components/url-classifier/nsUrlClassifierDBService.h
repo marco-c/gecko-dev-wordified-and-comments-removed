@@ -355,6 +355,9 @@ bool
 mCheckForbiddenURIs
 ;
 bool
+mCheckBlockedURIs
+;
+bool
 mInUpdate
 ;
 nsTArray
