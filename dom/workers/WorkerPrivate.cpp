@@ -23098,12 +23098,8 @@ true
 if
 (
 !
-JS
-:
-:
-CurrentGlobalOrNull
+GlobalScope
 (
-aCx
 )
 )
 {
