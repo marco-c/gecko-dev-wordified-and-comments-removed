@@ -71,9 +71,9 @@ telemetry
 ;
 const
 {
-readSnapshot
-takeCensus
 selectSnapshot
+computeSnapshotData
+readSnapshot
 }
 =
 require
@@ -550,7 +550,7 @@ id
 yield
 dispatch
 (
-takeCensus
+computeSnapshotData
 (
 heapWorker
 id
