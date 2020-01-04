@@ -1625,6 +1625,11 @@ BrowserApp
 java
 '
 '
+BrowserAppDelegate
+.
+java
+'
+'
 BrowserLocaleManager
 .
 java
