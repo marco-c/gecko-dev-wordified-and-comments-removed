@@ -110,13 +110,11 @@ Event
 readonly
 attribute
 DOMString
-?
 oldURL
 ;
 readonly
 attribute
 DOMString
-?
 newURL
 ;
 void
@@ -129,10 +127,8 @@ canBubbleArg
 boolean
 cancelableArg
 DOMString
-?
 oldURLArg
 DOMString
-?
 newURLArg
 )
 ;
