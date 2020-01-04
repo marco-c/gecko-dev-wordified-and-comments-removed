@@ -1507,7 +1507,7 @@ public
 static
 LiveBundle
 *
-FallibleNew
+New
 (
 TempAllocator
 &
@@ -1520,18 +1520,6 @@ LiveBundle
 spillParent
 )
 {
-if
-(
-!
-alloc
-.
-ensureBallast
-(
-)
-)
-return
-nullptr
-;
 return
 new
 (
