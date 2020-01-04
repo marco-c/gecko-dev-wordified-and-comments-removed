@@ -1603,7 +1603,7 @@ eAnimationEventClass
 NON_IDL_EVENT
 (
 animationend
-NS_ANIMATION_END
+eAnimationEnd
 EventNameType_None
 eAnimationEventClass
 )

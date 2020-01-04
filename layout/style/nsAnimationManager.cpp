@@ -959,7 +959,7 @@ isActive
 {
 message
 =
-NS_ANIMATION_END
+eAnimationEnd
 ;
 }
 else
@@ -1025,7 +1025,7 @@ owningPseudoType
 ;
 message
 =
-NS_ANIMATION_END
+eAnimationEnd
 ;
 }
 else
@@ -1093,7 +1093,7 @@ MOZ_ASSERT
 message
 =
 =
-NS_ANIMATION_END
+eAnimationEnd
 )
 ;
 elapsedTime
