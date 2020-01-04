@@ -5638,6 +5638,8 @@ _groupInfo
 .
 networkInterface
 .
+info
+.
 gateways
 [
 0
@@ -6764,6 +6766,7 @@ runDhcp
 aInfo
 .
 ifname
+0
 function
 (
 dhcpData
