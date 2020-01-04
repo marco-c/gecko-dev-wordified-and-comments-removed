@@ -6485,9 +6485,6 @@ isFullScreen
 }
 if
 (
-isFullScreen
-&
-&
 openedFromContentScript
 )
 {
