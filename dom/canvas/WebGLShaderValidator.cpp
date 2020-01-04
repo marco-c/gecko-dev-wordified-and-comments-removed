@@ -329,12 +329,6 @@ nullptr
 ShShaderSpec
 spec
 =
-IsWebGL2
-(
-)
-?
-SH_WEBGL2_SPEC
-:
 SH_WEBGL_SPEC
 ;
 ShShaderOutput
