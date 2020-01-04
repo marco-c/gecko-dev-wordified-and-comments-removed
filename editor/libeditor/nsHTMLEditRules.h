@@ -2174,7 +2174,7 @@ mJoinOffset
 ;
 nsCOMPtr
 <
-nsIDOMNode
+Element
 >
 mNewBlock
 ;
