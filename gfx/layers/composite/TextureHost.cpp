@@ -899,7 +899,7 @@ case
 SurfaceDescriptor
 :
 :
-TNewSurfaceDescriptorGralloc
+TSurfaceDescriptorGralloc
 :
 case
 SurfaceDescriptor

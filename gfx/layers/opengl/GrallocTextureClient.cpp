@@ -611,7 +611,7 @@ aOutDescriptor
 {
 aOutDescriptor
 =
-NewSurfaceDescriptorGralloc
+SurfaceDescriptorGralloc
 (
 mGrallocHandle
 gfx

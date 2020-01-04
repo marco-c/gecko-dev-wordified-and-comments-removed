@@ -407,7 +407,7 @@ hasAlpha
 }
 ;
 struct
-NewSurfaceDescriptorGralloc
+SurfaceDescriptorGralloc
 {
 MaybeMagicGrallocBufferHandle
 buffer
@@ -505,7 +505,7 @@ EGLImageDescriptor
 ;
 SurfaceDescriptorMacIOSurface
 ;
-NewSurfaceDescriptorGralloc
+SurfaceDescriptorGralloc
 ;
 SurfaceDescriptorSharedGLTexture
 ;

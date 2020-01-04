@@ -59,7 +59,7 @@ GrallocTextureHostBasic
 TextureFlags
 aFlags
 const
-NewSurfaceDescriptorGralloc
+SurfaceDescriptorGralloc
 &
 aDescriptor
 )
@@ -230,7 +230,7 @@ DataTextureSource
 >
 mTextureSource
 ;
-NewSurfaceDescriptorGralloc
+SurfaceDescriptorGralloc
 mGrallocHandle
 ;
 gfx

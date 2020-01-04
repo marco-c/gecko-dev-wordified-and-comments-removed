@@ -1683,7 +1683,7 @@ type
 SurfaceDescriptor
 :
 :
-TNewSurfaceDescriptorGralloc
+TSurfaceDescriptorGralloc
 )
 {
 return
@@ -1863,14 +1863,14 @@ type
 SurfaceDescriptor
 :
 :
-TNewSurfaceDescriptorGralloc
+TSurfaceDescriptorGralloc
 )
 {
 handle
 =
 aDesc
 .
-get_NewSurfaceDescriptorGralloc
+get_SurfaceDescriptorGralloc
 (
 )
 .

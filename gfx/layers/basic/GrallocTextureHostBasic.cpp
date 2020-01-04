@@ -397,7 +397,7 @@ GrallocTextureHostBasic
 TextureFlags
 aFlags
 const
-NewSurfaceDescriptorGralloc
+SurfaceDescriptorGralloc
 &
 aDescriptor
 )
