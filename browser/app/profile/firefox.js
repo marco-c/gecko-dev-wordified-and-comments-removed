@@ -6161,16 +6161,6 @@ flashBar
 pref
 (
 "
-accessibility
-.
-loadedInLastSession
-"
-false
-)
-;
-pref
-(
-"
 plugins
 .
 update
