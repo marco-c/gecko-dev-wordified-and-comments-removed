@@ -21683,7 +21683,7 @@ T
 &
 mem
 Register
-temp
+flagTemp
 Register
 output
 )
@@ -21723,7 +21723,7 @@ T
 &
 mem
 Register
-temp
+flagTemp
 Register
 output
 )
@@ -21740,7 +21740,6 @@ HasLDSTREXBHD
 (
 )
 )
-{
 atomicFetchOpARMv6
 (
 nbytes
@@ -21748,21 +21747,11 @@ signExtend
 op
 value
 mem
-temp
+flagTemp
 output
 )
 ;
-}
 else
-{
-MOZ_ASSERT
-(
-temp
-=
-=
-InvalidReg
-)
-;
 atomicFetchOpARMv7
 (
 nbytes
@@ -21770,10 +21759,10 @@ signExtend
 op
 value
 mem
+flagTemp
 output
 )
 ;
-}
 }
 template
 <
@@ -21801,9 +21790,19 @@ T
 &
 mem
 Register
+flagTemp
+Register
 output
 )
 {
+MOZ_ASSERT
+(
+flagTemp
+!
+=
+InvalidReg
+)
+;
 Label
 again
 ;
@@ -22001,7 +22000,7 @@ case
 :
 as_strexb
 (
-scratch
+flagTemp
 scratch
 ptr
 )
@@ -22013,7 +22012,7 @@ case
 :
 as_strexh
 (
-scratch
+flagTemp
 scratch
 ptr
 )
@@ -22025,7 +22024,7 @@ case
 :
 as_strex
 (
-scratch
+flagTemp
 scratch
 ptr
 )
@@ -22035,7 +22034,7 @@ break
 }
 as_cmp
 (
-scratch
+flagTemp
 Imm8
 (
 1
@@ -22080,7 +22079,7 @@ T
 &
 mem
 Register
-temp
+flagTemp
 Register
 output
 )
@@ -22130,6 +22129,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 if
@@ -22150,6 +22151,7 @@ nbytes
 op
 value
 mem
+flagTemp
 )
 ;
 else
@@ -22159,6 +22161,7 @@ nbytes
 op
 value
 mem
+flagTemp
 )
 ;
 }
@@ -22185,6 +22188,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 MOZ_CRASH
@@ -22218,8 +22223,18 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
+MOZ_ASSERT
+(
+flagTemp
+!
+=
+InvalidReg
+)
+;
 Label
 again
 ;
@@ -22389,7 +22404,7 @@ case
 :
 as_strexb
 (
-scratch
+flagTemp
 scratch
 ptr
 )
@@ -22401,7 +22416,7 @@ case
 :
 as_strexh
 (
-scratch
+flagTemp
 scratch
 ptr
 )
@@ -22413,7 +22428,7 @@ case
 :
 as_strex
 (
-scratch
+flagTemp
 scratch
 ptr
 )
@@ -22423,7 +22438,7 @@ break
 }
 as_cmp
 (
-scratch
+flagTemp
 Imm8
 (
 1
@@ -22465,6 +22480,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 MOZ_ASSERT
@@ -22517,7 +22534,7 @@ Address
 &
 mem
 Register
-temp
+flagTemp
 Register
 output
 )
@@ -22550,7 +22567,7 @@ BaseIndex
 &
 mem
 Register
-temp
+flagTemp
 Register
 output
 )
@@ -22583,7 +22600,7 @@ Address
 &
 mem
 Register
-temp
+flagTemp
 Register
 output
 )
@@ -22616,7 +22633,7 @@ BaseIndex
 &
 mem
 Register
-temp
+flagTemp
 Register
 output
 )
@@ -22646,6 +22663,8 @@ const
 Address
 &
 mem
+Register
+flagTemp
 )
 ;
 template
@@ -22673,6 +22692,8 @@ const
 BaseIndex
 &
 mem
+Register
+flagTemp
 )
 ;
 template
@@ -22700,6 +22721,8 @@ const
 Address
 &
 mem
+Register
+flagTemp
 )
 ;
 template
@@ -22727,6 +22750,8 @@ const
 BaseIndex
 &
 mem
+Register
+flagTemp
 )
 ;
 void

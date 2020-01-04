@@ -9401,7 +9401,7 @@ T
 &
 mem
 Register
-temp
+flagTemp
 Register
 output
 )
@@ -9429,6 +9429,8 @@ T
 &
 mem
 Register
+flagTemp
+Register
 output
 )
 ;
@@ -9455,7 +9457,7 @@ T
 &
 address
 Register
-temp
+flagTemp
 Register
 output
 )
@@ -9483,7 +9485,7 @@ T
 &
 address
 Register
-temp
+flagTemp
 Register
 output
 )
@@ -9508,6 +9510,8 @@ const
 T
 &
 address
+Register
+flagTemp
 )
 ;
 template
@@ -9530,6 +9534,8 @@ const
 T
 &
 address
+Register
+flagTemp
 )
 ;
 template
@@ -9552,6 +9558,8 @@ const
 T
 &
 address
+Register
+flagTemp
 )
 ;
 template
@@ -9574,6 +9582,8 @@ const
 T
 &
 address
+Register
+flagTemp
 )
 ;
 public
@@ -10071,6 +10081,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -10079,6 +10091,7 @@ atomicEffectOp
 AtomicFetchAddOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -10100,6 +10113,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -10108,6 +10123,7 @@ atomicEffectOp
 AtomicFetchAddOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -10129,6 +10145,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -10137,6 +10155,7 @@ atomicEffectOp
 AtomicFetchAddOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -10338,6 +10357,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -10346,6 +10367,7 @@ atomicEffectOp
 AtomicFetchSubOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -10367,6 +10389,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -10375,6 +10399,7 @@ atomicEffectOp
 AtomicFetchSubOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -10396,6 +10421,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -10404,6 +10431,7 @@ atomicEffectOp
 AtomicFetchSubOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -10605,6 +10633,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -10613,6 +10643,7 @@ atomicEffectOp
 AtomicFetchAndOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -10634,6 +10665,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -10642,6 +10675,7 @@ atomicEffectOp
 AtomicFetchAndOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -10663,6 +10697,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -10671,6 +10707,7 @@ atomicEffectOp
 AtomicFetchAndOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -10872,6 +10909,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -10880,6 +10919,7 @@ atomicEffectOp
 AtomicFetchOrOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -10901,6 +10941,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -10909,6 +10951,7 @@ atomicEffectOp
 AtomicFetchOrOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -10930,6 +10973,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -10938,6 +10983,7 @@ atomicEffectOp
 AtomicFetchOrOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -11139,6 +11185,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -11147,6 +11195,7 @@ atomicEffectOp
 AtomicFetchXorOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -11168,6 +11217,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -11176,6 +11227,7 @@ atomicEffectOp
 AtomicFetchXorOp
 value
 mem
+flagTemp
 )
 ;
 }
@@ -11197,6 +11249,8 @@ const
 T
 &
 mem
+Register
+flagTemp
 )
 {
 atomicEffectOp
@@ -11205,6 +11259,7 @@ atomicEffectOp
 AtomicFetchXorOp
 value
 mem
+flagTemp
 )
 ;
 }
