@@ -1068,6 +1068,15 @@ RejectValueType
 aRejectValue
 )
 {
+if
+(
+!
+mPromise
+)
+{
+return
+;
+}
 mPromise
 -
 >
