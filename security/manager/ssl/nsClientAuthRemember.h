@@ -256,7 +256,6 @@ PLDHashTable
 :
 HashStringKey
 (
-nullptr
 aKey
 )
 ;

@@ -648,9 +648,6 @@ nsRuleNode
 :
 ChildrenHashHashKey
 (
-PLDHashTable
-*
-aTable
 const
 void
 *
@@ -684,7 +681,6 @@ PLDHashTable
 :
 HashVoidPtrKeyStub
 (
-aTable
 key
 -
 >
@@ -698,9 +694,6 @@ nsRuleNode
 :
 ChildrenHashMatchEntry
 (
-PLDHashTable
-*
-aTable
 const
 PLDHashEntryHdr
 *

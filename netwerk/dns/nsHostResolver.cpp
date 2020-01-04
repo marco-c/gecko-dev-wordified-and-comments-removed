@@ -1730,9 +1730,6 @@ static
 PLDHashNumber
 HostDB_HashKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -1789,9 +1786,6 @@ static
 bool
 HostDB_MatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

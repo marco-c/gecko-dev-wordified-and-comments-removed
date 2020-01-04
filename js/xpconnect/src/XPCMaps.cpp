@@ -40,9 +40,6 @@ static
 PLDHashNumber
 HashIIDPtrKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -67,9 +64,6 @@ static
 bool
 MatchIIDPtrKey
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -118,9 +112,6 @@ static
 PLDHashNumber
 HashNativeKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -1475,9 +1466,6 @@ Entry
 :
 Match
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -2069,9 +2057,6 @@ Entry
 :
 Match
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -2241,9 +2226,6 @@ Entry
 :
 Hash
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -2338,9 +2320,6 @@ Entry
 :
 Match
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

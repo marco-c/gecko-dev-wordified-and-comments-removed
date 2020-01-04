@@ -438,9 +438,6 @@ static
 PLDHashNumber
 HashKey
 (
-PLDHashTable
-*
-aTable
 const
 void
 *
@@ -451,9 +448,6 @@ static
 bool
 HashMatchEntry
 (
-PLDHashTable
-*
-aTable
 const
 PLDHashEntryHdr
 *

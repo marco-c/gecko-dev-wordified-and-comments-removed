@@ -233,9 +233,6 @@ static
 bool
 CompareCacheMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

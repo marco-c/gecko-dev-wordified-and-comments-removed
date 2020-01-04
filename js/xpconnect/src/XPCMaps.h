@@ -1858,9 +1858,6 @@ static
 bool
 Match
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -2189,9 +2186,6 @@ static
 bool
 Match
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -2409,9 +2403,6 @@ static
 PLDHashNumber
 Hash
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -2422,9 +2413,6 @@ static
 bool
 Match
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

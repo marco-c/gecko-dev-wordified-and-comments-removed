@@ -271,8 +271,6 @@ static
 bool
 matchPrefEntry
 (
-PLDHashTable
-*
 const
 PLDHashEntryHdr
 *

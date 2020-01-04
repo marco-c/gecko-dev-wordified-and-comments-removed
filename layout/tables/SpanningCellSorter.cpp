@@ -96,9 +96,6 @@ SpanningCellSorter
 :
 HashTableHashKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -118,9 +115,6 @@ SpanningCellSorter
 :
 HashTableMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

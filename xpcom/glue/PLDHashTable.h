@@ -965,9 +965,6 @@ static
 PLDHashNumber
 HashVoidPtrKeyStub
 (
-PLDHashTable
-*
-aTable
 const
 void
 *
@@ -978,9 +975,6 @@ static
 bool
 MatchEntryStub
 (
-PLDHashTable
-*
-aTable
 const
 PLDHashEntryHdr
 *
@@ -1023,9 +1017,6 @@ static
 PLDHashNumber
 HashStringKey
 (
-PLDHashTable
-*
-aTable
 const
 void
 *
@@ -1036,9 +1027,6 @@ static
 bool
 MatchStringKey
 (
-PLDHashTable
-*
-aTable
 const
 PLDHashEntryHdr
 *
@@ -1523,9 +1511,6 @@ PLDHashNumber
 PLDHashHashKey
 )
 (
-PLDHashTable
-*
-aTable
 const
 void
 *
@@ -1539,9 +1524,6 @@ bool
 PLDHashMatchEntry
 )
 (
-PLDHashTable
-*
-aTable
 const
 PLDHashEntryHdr
 *

@@ -192,9 +192,6 @@ static
 PLDHashNumber
 GlobalNameHashHashKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -228,9 +225,6 @@ static
 bool
 GlobalNameHashMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

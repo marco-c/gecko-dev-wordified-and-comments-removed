@@ -35,9 +35,6 @@ static
 bool
 ObjectSetMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

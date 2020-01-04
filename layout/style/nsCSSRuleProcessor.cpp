@@ -762,9 +762,6 @@ static
 PLDHashNumber
 RuleHash_CIHashKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -987,9 +984,6 @@ static
 bool
 RuleHash_ClassCIMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -1021,9 +1015,6 @@ static
 bool
 RuleHash_IdCIMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -1055,9 +1046,6 @@ static
 bool
 RuleHash_ClassCSMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -1089,9 +1077,6 @@ static
 bool
 RuleHash_IdCSMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -1280,9 +1265,6 @@ static
 bool
 RuleHash_TagTable_MatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -1534,9 +1516,6 @@ static
 PLDHashNumber
 RuleHash_NameSpaceTable_HashKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -1554,9 +1533,6 @@ static
 bool
 RuleHash_NameSpaceTable_MatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -3933,9 +3909,6 @@ static
 bool
 AtomSelector_CIMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *
@@ -15422,9 +15395,6 @@ static
 PLDHashNumber
 HashIntKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -15445,9 +15415,6 @@ static
 bool
 MatchWeightEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

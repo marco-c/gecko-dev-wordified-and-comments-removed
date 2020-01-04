@@ -244,9 +244,6 @@ static
 bool
 RequestMapMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

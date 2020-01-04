@@ -218,9 +218,6 @@ static
 PLDHashNumber
 StringHash
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -279,9 +276,6 @@ static
 bool
 StringCompare
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

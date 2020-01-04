@@ -270,9 +270,6 @@ PLDHashTable
 :
 HashStringKey
 (
-PLDHashTable
-*
-aTable
 const
 void
 *
@@ -300,9 +297,6 @@ PLDHashTable
 :
 HashVoidPtrKeyStub
 (
-PLDHashTable
-*
-aTable
 const
 void
 *
@@ -328,9 +322,6 @@ PLDHashTable
 :
 MatchEntryStub
 (
-PLDHashTable
-*
-aTable
 const
 PLDHashEntryHdr
 *
@@ -369,9 +360,6 @@ PLDHashTable
 :
 MatchStringKey
 (
-PLDHashTable
-*
-aTable
 const
 PLDHashEntryHdr
 *
@@ -1373,7 +1361,6 @@ aKeyHash
 &
 matchEntry
 (
-this
 entry
 aKey
 )
@@ -1506,7 +1493,6 @@ aKeyHash
 &
 matchEntry
 (
-this
 entry
 aKey
 )
@@ -1947,7 +1933,6 @@ mOps
 >
 hashKey
 (
-this
 aKey
 )
 ;

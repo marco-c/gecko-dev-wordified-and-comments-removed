@@ -3405,9 +3405,6 @@ static
 PLDHashNumber
 StringHash
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -3433,9 +3430,6 @@ static
 bool
 HashMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

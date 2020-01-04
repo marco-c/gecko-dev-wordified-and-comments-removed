@@ -195,9 +195,6 @@ static
 bool
 RequestHashMatchEntry
 (
-PLDHashTable
-*
-table
 const
 PLDHashEntryHdr
 *

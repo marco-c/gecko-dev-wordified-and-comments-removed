@@ -1737,9 +1737,6 @@ nsCacheEntryHashTable
 :
 HashKey
 (
-PLDHashTable
-*
-table
 const
 void
 *
@@ -1768,8 +1765,6 @@ nsCacheEntryHashTable
 :
 MatchEntry
 (
-PLDHashTable
-*
 const
 PLDHashEntryHdr
 *
