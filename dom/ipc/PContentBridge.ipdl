@@ -351,6 +351,11 @@ StructuredCloneData
 retval
 )
 ;
+async
+PJavaScript
+(
+)
+;
 both
 :
 /
@@ -401,11 +406,6 @@ PBlob
 (
 BlobConstructorParams
 params
-)
-;
-async
-PJavaScript
-(
 )
 ;
 AsyncMessage

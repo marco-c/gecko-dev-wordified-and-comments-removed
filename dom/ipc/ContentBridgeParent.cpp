@@ -739,12 +739,7 @@ ManagedPJavaScriptParent
 ;
 }
 return
-CPOWManagerFor
-(
-SendPJavaScriptConstructor
-(
-)
-)
+nullptr
 ;
 }
 NS_IMETHODIMP
