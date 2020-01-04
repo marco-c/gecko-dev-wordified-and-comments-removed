@@ -8196,6 +8196,10 @@ SetState
 PAN_MOMENTUM
 )
 ;
+RequestSnapToDestination
+(
+)
+;
 OnPan
 (
 aEvent

@@ -13651,6 +13651,13 @@ ACTION_SEND_TO_PLUGIN
 else
 if
 (
+!
+wheelEvent
+-
+>
+mayHaveMomentum
+&
+&
 nsLayoutUtils
 :
 :
