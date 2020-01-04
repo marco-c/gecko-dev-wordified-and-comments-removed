@@ -117,11 +117,6 @@ gfxWordCacheTest
 cpp
 '
 '
-TestAsyncPanZoomController
-.
-cpp
-'
-'
 TestBufferRotation
 .
 cpp
