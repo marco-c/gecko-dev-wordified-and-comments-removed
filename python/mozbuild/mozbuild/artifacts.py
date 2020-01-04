@@ -5035,7 +5035,7 @@ log
 (
 logging
 .
-DEBUG
+INFO
 '
 artifact
 '
