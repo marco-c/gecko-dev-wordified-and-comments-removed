@@ -806,7 +806,7 @@ gecko
 .
 telemetry
 .
-TelemetryCorePingUploadDelegate
+TelemetryCorePingDelegate
 ;
 import
 org
@@ -2156,7 +2156,7 @@ ContentNotificationsDelegate
 (
 )
 new
-TelemetryCorePingUploadDelegate
+TelemetryCorePingDelegate
 (
 )
 )

@@ -4281,7 +4281,7 @@ java
 '
 telemetry
 /
-TelemetryCorePingUploadDelegate
+TelemetryCorePingDelegate
 .
 java
 '
