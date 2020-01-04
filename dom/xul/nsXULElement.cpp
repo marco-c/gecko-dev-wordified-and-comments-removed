@@ -5829,7 +5829,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 |
 |
 aVisitor

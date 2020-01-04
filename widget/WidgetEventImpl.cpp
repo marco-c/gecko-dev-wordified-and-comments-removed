@@ -256,7 +256,7 @@ case
 NS_MOUSE_CLICK
 :
 case
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 :
 case
 eMouseEnterIntoWidget

@@ -16761,7 +16761,7 @@ case
 eMouseUp
 :
 case
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 :
 {
 WidgetMouseEvent

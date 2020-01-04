@@ -9925,7 +9925,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 |
 |
 anEvent
@@ -10252,7 +10252,7 @@ case
 NS_MOUSE_CLICK
 :
 case
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 :
 return
 rv
@@ -11173,7 +11173,7 @@ case
 NS_MOUSE_CLICK
 :
 case
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 :
 return
 rv

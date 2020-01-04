@@ -158,7 +158,7 @@ eMouseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSE_DOUBLECLICK
+eMouseDoubleClick
 eMouseEventFirst
 +
 24
