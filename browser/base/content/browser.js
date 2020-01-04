@@ -38213,11 +38213,6 @@ permissionType
 2
 ;
 }
-if
-(
-permissionType
-)
-{
 histogram
 .
 add
@@ -38240,7 +38235,6 @@ id
 permissionType
 )
 ;
-}
 }
 )
 ;
