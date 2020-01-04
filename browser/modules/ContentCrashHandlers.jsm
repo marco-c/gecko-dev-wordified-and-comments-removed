@@ -1791,6 +1791,7 @@ e
 )
 ;
 return
+null
 ;
 }
 if
@@ -1817,6 +1818,7 @@ reportIDs
 }
 else
 {
+return
 this
 .
 showPendingSubmissionsNotification
@@ -1826,6 +1828,9 @@ reportIDs
 ;
 }
 }
+return
+null
+;
 }
 )
 showPendingSubmissionsNotification
@@ -1847,6 +1852,7 @@ count
 )
 {
 return
+null
 ;
 }
 let
@@ -1883,6 +1889,7 @@ replace
 count
 )
 ;
+return
 CrashNotificationBar
 .
 show
@@ -1935,6 +1942,7 @@ chromeWin
 )
 {
 return
+null
 ;
 }
 let
@@ -1969,6 +1977,7 @@ notification
 )
 {
 return
+null
 ;
 }
 let
@@ -2120,6 +2129,7 @@ reportID
 }
 }
 ;
+return
 nb
 .
 appendNotification
