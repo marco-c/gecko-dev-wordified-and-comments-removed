@@ -601,6 +601,8 @@ toggleInvertedAndRefresh
 heapWorker
 )
 )
+filterString
+:
 filter
 setFilterString
 :
