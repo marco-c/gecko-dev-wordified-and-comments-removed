@@ -126,6 +126,13 @@ MOCHITEST_CHROME_MANIFESTS
 '
 tests
 /
+b2g_chrome
+.
+ini
+'
+'
+tests
+/
 chrome
 .
 ini

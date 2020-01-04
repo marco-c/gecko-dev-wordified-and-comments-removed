@@ -220,5 +220,9 @@ attribute
 EventHandler
 onmessage
 ;
+attribute
+EventHandler
+onclose
+;
 }
 ;
