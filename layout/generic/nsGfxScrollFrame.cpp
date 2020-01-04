@@ -20199,6 +20199,12 @@ IsAlwaysActive
 |
 |
 mShouldBuildScrollableLayer
+|
+|
+WillBuildScrollableLayer
+(
+aBuilder
+)
 ;
 }
 nsresult
