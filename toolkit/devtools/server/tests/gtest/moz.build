@@ -121,6 +121,11 @@ DeserializedNodeUbiNodes
 cpp
 '
 '
+DeserializedStackFrameUbiStackFrames
+.
+cpp
+'
+'
 DoesCrossZoneBoundaries
 .
 cpp
