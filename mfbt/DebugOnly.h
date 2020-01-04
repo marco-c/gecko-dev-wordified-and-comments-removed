@@ -176,11 +176,13 @@ value
 }
 #
 else
+MOZ_CONSTEXPR
 DebugOnly
 (
 )
 {
 }
+MOZ_CONSTEXPR
 MOZ_IMPLICIT
 DebugOnly
 (
@@ -190,6 +192,7 @@ T
 )
 {
 }
+MOZ_CONSTEXPR
 DebugOnly
 (
 const
@@ -317,8 +320,9 @@ endif
 DebugOnly
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
