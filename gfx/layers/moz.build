@@ -222,11 +222,6 @@ GLImages
 h
 '
 '
-GPUVideoImage
-.
-h
-'
-'
 GrallocImages
 .
 h
