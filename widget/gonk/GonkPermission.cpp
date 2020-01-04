@@ -371,6 +371,9 @@ NS_OK
 const
 ManagedContainer
 <
+dom
+:
+:
 PBrowserParent
 >
 &
