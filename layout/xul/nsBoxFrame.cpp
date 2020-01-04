@@ -478,7 +478,7 @@ layout
 )
 ;
 }
-SetLayoutManager
+SetXULLayoutManager
 (
 layout
 )
@@ -3941,7 +3941,7 @@ RegUnregAccessKey
 false
 )
 ;
-SetLayoutManager
+SetXULLayoutManager
 (
 nullptr
 )

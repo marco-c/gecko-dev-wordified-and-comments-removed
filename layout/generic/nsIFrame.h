@@ -6519,7 +6519,7 @@ aMargin
 ;
 virtual
 void
-SetLayoutManager
+SetXULLayoutManager
 (
 nsBoxLayout
 *

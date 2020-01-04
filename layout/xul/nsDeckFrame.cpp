@@ -191,7 +191,7 @@ NS_NewStackLayout
 layout
 )
 ;
-SetLayoutManager
+SetXULLayoutManager
 (
 layout
 )

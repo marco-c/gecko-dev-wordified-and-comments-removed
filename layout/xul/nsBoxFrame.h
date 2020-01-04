@@ -141,7 +141,7 @@ aContext
 ;
 virtual
 void
-SetLayoutManager
+SetXULLayoutManager
 (
 nsBoxLayout
 *

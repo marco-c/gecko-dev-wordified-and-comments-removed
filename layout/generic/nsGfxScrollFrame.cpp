@@ -4653,7 +4653,7 @@ this
 aIsRoot
 )
 {
-SetLayoutManager
+SetXULLayoutManager
 (
 nullptr
 )
