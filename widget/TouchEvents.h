@@ -251,7 +251,7 @@ aMessage
 aWidget
 eSimpleGestureEventClass
 )
-allowedDirections
+mAllowedDirections
 (
 0
 )
@@ -294,11 +294,11 @@ aOther
 mWidget
 eSimpleGestureEventClass
 )
-allowedDirections
+mAllowedDirections
 (
 aOther
 .
-allowedDirections
+mAllowedDirections
 )
 direction
 (
@@ -380,7 +380,7 @@ result
 ;
 }
 uint32_t
-allowedDirections
+mAllowedDirections
 ;
 uint32_t
 direction

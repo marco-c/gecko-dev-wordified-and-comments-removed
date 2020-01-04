@@ -1283,7 +1283,7 @@ aDelta
 ;
 geckoEvent
 .
-allowedDirections
+mAllowedDirections
 =
 mAllowedDirections
 ;

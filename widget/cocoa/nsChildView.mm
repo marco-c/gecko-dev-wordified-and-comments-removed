@@ -14543,7 +14543,7 @@ delta
 ;
 geckoEvent
 .
-allowedDirections
+mAllowedDirections
 =
 0
 ;
@@ -14571,7 +14571,7 @@ result
 shouldStartSwipe
 geckoEvent
 .
-allowedDirections
+mAllowedDirections
 }
 ;
 return
