@@ -252,6 +252,11 @@ UNIFIED_SOURCES
 =
 [
 '
+AvailabilityCollection
+.
+cpp
+'
+'
 ControllerConnectionCollection
 .
 cpp

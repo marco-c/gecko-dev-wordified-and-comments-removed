@@ -181,6 +181,17 @@ Promise
 aPromise
 )
 ;
+void
+FindOrCreatePresentationAvailability
+(
+RefPtr
+<
+Promise
+>
+&
+aPromise
+)
+;
 bool
 IsProhibitMixedSecurityContexts
 (
