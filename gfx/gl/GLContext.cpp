@@ -503,6 +503,9 @@ GL_ARB_robustness
 GL_ARB_sampler_objects
 "
 "
+GL_ARB_seamless_cube_map
+"
+"
 GL_ARB_sync
 "
 "

@@ -333,6 +333,7 @@ robustness
 sRGB_framebuffer
 sRGB_texture
 sampler_objects
+seamless_cube_map_opt_in
 split_framebuffer
 standard_derivatives
 sync
@@ -1003,6 +1004,7 @@ ARB_occlusion_query2
 ARB_pixel_buffer_object
 ARB_robustness
 ARB_sampler_objects
+ARB_seamless_cube_map
 ARB_sync
 ARB_texture_compression
 ARB_texture_float
