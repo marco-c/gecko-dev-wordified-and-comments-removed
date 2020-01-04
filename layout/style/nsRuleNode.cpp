@@ -21040,12 +21040,7 @@ parentText
 -
 >
 mControlCharacterVisibility
-nsCSSParser
-:
-:
-ControlCharVisibilityDefault
-(
-)
+NS_STYLE_CONTROL_CHARACTER_VISIBILITY_VISIBLE
 0
 0
 0
