@@ -195,6 +195,13 @@ Image
 aImage
 nsIntRect
 aClip
+const
+Maybe
+<
+nsSize
+>
+&
+aSVGViewportSize
 )
 {
 RefPtr
@@ -208,6 +215,7 @@ ClippedImage
 (
 aImage
 aClip
+aSVGViewportSize
 )
 ;
 return
@@ -232,6 +240,13 @@ imgIContainer
 aImage
 nsIntRect
 aClip
+const
+Maybe
+<
+nsSize
+>
+&
+aSVGViewportSize
 )
 {
 nsCOMPtr
@@ -252,6 +267,7 @@ Image
 aImage
 )
 aClip
+aSVGViewportSize
 )
 ;
 return

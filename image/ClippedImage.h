@@ -284,6 +284,13 @@ Image
 aImage
 nsIntRect
 aClip
+const
+Maybe
+<
+nsSize
+>
+&
+aSVGViewportSize
 )
 ;
 virtual
@@ -372,6 +379,12 @@ Maybe
 bool
 >
 mShouldClip
+;
+Maybe
+<
+nsIntSize
+>
+mSVGViewportSize
 ;
 friend
 class

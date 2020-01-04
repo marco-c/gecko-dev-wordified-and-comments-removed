@@ -632,6 +632,16 @@ nsSize
 aUnitSize
 uint8_t
 aIndex
+const
+mozilla
+:
+:
+Maybe
+<
+nsSize
+>
+&
+aSVGViewportSize
 )
 ;
 bool
