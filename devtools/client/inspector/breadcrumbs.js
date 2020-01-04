@@ -2578,7 +2578,7 @@ mouseout
 {
 this
 .
-handleMouseLeave
+handleMouseOut
 (
 event
 )
