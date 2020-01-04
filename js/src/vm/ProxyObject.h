@@ -402,16 +402,6 @@ isProxy
 )
 &
 &
-(
-clasp
--
->
-flags
-&
-JSCLASS_IMPLEMENTS_BARRIERS
-)
-&
-&
 clasp
 -
 >

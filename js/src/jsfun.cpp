@@ -3834,8 +3834,6 @@ class_
 =
 {
 js_Function_str
-JSCLASS_IMPLEMENTS_BARRIERS
-|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Function
