@@ -13550,6 +13550,15 @@ Clear
 (
 )
 ;
+#
+ifdef
+MOZ_WEBRTC
+StopWebRtcLog
+(
+)
+;
+#
+endif
 class
 ShutdownTask
 :

@@ -148,15 +148,6 @@ vie_defines
 h
 "
 #
-include
-"
-browser_logging
-/
-WebRtcLog
-.
-h
-"
-#
 ifdef
 MOZ_WIDGET_ANDROID
 #
@@ -1484,10 +1475,6 @@ LoadManagerBuild
 }
 }
 }
-EnableWebRtcLog
-(
-)
-;
 #
 ifdef
 MOZ_WIDGET_ANDROID

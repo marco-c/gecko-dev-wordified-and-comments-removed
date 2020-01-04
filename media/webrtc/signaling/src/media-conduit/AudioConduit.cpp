@@ -164,15 +164,6 @@ clock
 h
 "
 #
-include
-"
-browser_logging
-/
-WebRtcLog
-.
-h
-"
-#
 ifdef
 MOZ_WIDGET_ANDROID
 #
@@ -1241,10 +1232,6 @@ return
 kMediaConduitSessionNotInited
 ;
 }
-EnableWebRtcLog
-(
-)
-;
 if
 (
 !

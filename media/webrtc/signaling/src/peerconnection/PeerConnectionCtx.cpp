@@ -52,6 +52,15 @@ Telemetry
 h
 "
 #
+include
+"
+browser_logging
+/
+WebRtcLog
+.
+h
+"
+#
 if
 !
 defined
@@ -586,6 +595,10 @@ Init
 ;
 }
 }
+EnableWebRtcLog
+(
+)
+;
 return
 NS_OK
 ;
@@ -658,6 +671,10 @@ gInstance
 nullptr
 ;
 }
+StopWebRtcLog
+(
+)
+;
 }
 #
 if
