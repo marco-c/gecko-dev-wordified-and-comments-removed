@@ -1025,7 +1025,7 @@ com
 testLinkExpected
 (
 "
-ftp
+http
 :
 /
 /
@@ -1046,7 +1046,7 @@ should
 be
 preceeded
 with
-ftp
+http
 :
 /
 /

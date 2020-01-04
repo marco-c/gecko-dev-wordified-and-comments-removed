@@ -138,15 +138,6 @@ aURI
 )
 ;
 bool
-IsLikelyFTP
-(
-const
-nsCString
-&
-aHostSpec
-)
-;
-bool
 IsDomainWhitelisted
 (
 const

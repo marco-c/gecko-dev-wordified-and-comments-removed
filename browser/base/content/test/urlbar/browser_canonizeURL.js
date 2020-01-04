@@ -243,7 +243,7 @@ example
 bar
 "
 "
-ftp
+http
 :
 /
 /

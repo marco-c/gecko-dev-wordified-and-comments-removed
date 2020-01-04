@@ -440,10 +440,6 @@ testVal
 (
 "
 <
-http
-:
-/
-/
 ftp
 .
 >
