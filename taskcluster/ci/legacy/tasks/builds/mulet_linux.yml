@@ -268,8 +268,6 @@ workspace
 /
 gecko
 /
-testing
-/
 taskcluster
 /
 scripts

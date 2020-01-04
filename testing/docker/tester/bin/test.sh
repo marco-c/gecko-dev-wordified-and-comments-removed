@@ -181,8 +181,6 @@ cd
 WORKSPACE
 script
 =
-testing
-/
 taskcluster
 /
 scripts

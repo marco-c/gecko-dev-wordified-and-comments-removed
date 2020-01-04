@@ -207,8 +207,6 @@ build
 /
 src
 /
-testing
-/
 taskcluster
 /
 scripts

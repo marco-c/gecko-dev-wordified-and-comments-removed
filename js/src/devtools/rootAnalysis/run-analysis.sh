@@ -32,8 +32,6 @@ GECKO_DIR
 SRCDIR
 SRCDIR
 /
-testing
-/
 taskcluster
 /
 scripts

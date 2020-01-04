@@ -3755,8 +3755,6 @@ gcc
 '
 -
 '
-testing
-/
 taskcluster
 /
 scripts
@@ -3804,8 +3802,6 @@ clang
 '
 -
 '
-testing
-/
 taskcluster
 /
 scripts

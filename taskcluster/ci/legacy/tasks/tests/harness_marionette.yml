@@ -101,8 +101,6 @@ env
 JOB_SCRIPT
 :
 '
-testing
-/
 taskcluster
 /
 scripts

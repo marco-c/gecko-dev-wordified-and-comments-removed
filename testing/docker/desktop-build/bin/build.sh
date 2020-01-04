@@ -27,8 +27,6 @@ JOB_SCRIPT
 JOB_SCRIPT
 :
 =
-testing
-/
 taskcluster
 /
 scripts

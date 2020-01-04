@@ -152,8 +152,6 @@ GECKO_DIR
 SRCDIR
 SRCDIR
 /
-testing
-/
 taskcluster
 /
 scripts
@@ -228,8 +226,6 @@ GECKO_DIR
 =
 SRCDIR
 SRCDIR
-/
-testing
 /
 taskcluster
 /
