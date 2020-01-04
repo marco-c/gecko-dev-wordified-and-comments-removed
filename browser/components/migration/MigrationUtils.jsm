@@ -315,9 +315,6 @@ chrome
 chromium
 "
 "
-safari
-"
-"
 360se
 "
 "

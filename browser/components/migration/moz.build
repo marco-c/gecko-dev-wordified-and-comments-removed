@@ -225,11 +225,6 @@ IEProfileMigrator
 .
 js
 '
-'
-SafariProfileMigrator
-.
-js
-'
 ]
 EXTRA_JS_MODULES
 +
@@ -246,14 +241,6 @@ MSMigrationUtils
 jsm
 '
 ]
-DEFINES
-[
-'
-HAS_SAFARI_MIGRATOR
-'
-]
-=
-True
 DEFINES
 [
 '
