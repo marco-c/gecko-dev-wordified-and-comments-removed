@@ -1487,6 +1487,9 @@ components
 mozfind
 .
 xpt
+#
+ifdef
+ENABLE_INTL_API
 RESPATH
 /
 components
@@ -1494,6 +1497,8 @@ components
 mozintl
 .
 xpt
+#
+endif
 RESPATH
 /
 components
