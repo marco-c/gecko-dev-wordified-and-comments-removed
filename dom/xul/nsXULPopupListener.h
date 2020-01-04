@@ -117,6 +117,8 @@ FireFocusOnTargetContent
 nsIDOMNode
 *
 aTargetNode
+bool
+aIsTouch
 )
 ;
 #

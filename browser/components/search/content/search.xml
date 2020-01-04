@@ -3874,8 +3874,7 @@ getLastFocusMethod
 (
 window
 )
-=
-=
+&
 Services
 .
 focus
