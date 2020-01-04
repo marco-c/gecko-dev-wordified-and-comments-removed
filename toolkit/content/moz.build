@@ -291,3 +291,11 @@ XUL
 Widgets
 '
 )
+DEFINES
+[
+'
+TOPOBJDIR
+'
+]
+=
+TOPOBJDIR

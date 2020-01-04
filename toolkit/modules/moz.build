@@ -699,9 +699,6 @@ DLL_SUFFIX
 '
 DEBUG_JS_MODULES
 '
-'
-SOURCE_REV_URL
-'
 )
 :
 DEFINES
@@ -743,3 +740,11 @@ var
 ]
 =
 True
+DEFINES
+[
+'
+TOPOBJDIR
+'
+]
+=
+TOPOBJDIR
