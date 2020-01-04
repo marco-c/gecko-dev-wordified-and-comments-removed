@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 test
 (
@@ -178,6 +183,7 @@ run
 prepare
 :
 function
+*
 (
 )
 {
@@ -280,14 +286,31 @@ aloha
 "
 )
 ;
-ok
+let
+pageResult
+=
+yield
+inContent
 (
-!
+function
+*
+(
+)
+{
+return
 content
 .
 wrappedJSObject
 .
 foobarBug636725
+;
+}
+)
+;
+ok
+(
+!
+pageResult
 "
 no
 content
@@ -300,6 +323,7 @@ foobarBug636725
 then
 :
 function
+*
 (
 )
 {
@@ -334,6 +358,7 @@ run
 prepare
 :
 function
+*
 (
 )
 {
@@ -476,6 +501,7 @@ worked
 then
 :
 function
+*
 (
 )
 {
@@ -527,6 +553,7 @@ run
 prepare
 :
 function
+*
 (
 )
 {
@@ -580,6 +607,7 @@ range
 then
 :
 function
+*
 (
 [
 result
@@ -616,6 +644,7 @@ run
 prepare
 :
 function
+*
 (
 )
 {
@@ -636,6 +665,7 @@ foobarBug636725cache
 then
 :
 function
+*
 (
 [
 result
@@ -668,6 +698,7 @@ run
 prepare
 :
 function
+*
 (
 )
 {
@@ -699,6 +730,7 @@ foobarBug636725cache
 then
 :
 function
+*
 (
 [
 result
@@ -733,6 +765,7 @@ run
 prepare
 :
 function
+*
 (
 )
 {
@@ -764,6 +797,7 @@ foobarBug636725cache2
 then
 :
 function
+*
 (
 [
 result
@@ -798,6 +832,7 @@ run
 prepare
 :
 function
+*
 (
 )
 {
@@ -839,6 +874,7 @@ foobarBug636725cache2
 then
 :
 function
+*
 (
 [
 result
