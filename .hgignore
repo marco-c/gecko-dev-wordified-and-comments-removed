@@ -791,3 +791,16 @@ damp
 manifest
 .
 develop
+#
+Ignore
+files
+created
+when
+running
+a
+reftest
+.
+^
+lextab
+.
+py
