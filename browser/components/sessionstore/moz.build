@@ -265,6 +265,11 @@ SessionWorker
 jsm
 '
 '
+StartupPerformance
+.
+jsm
+'
+'
 TabAttributes
 .
 jsm
