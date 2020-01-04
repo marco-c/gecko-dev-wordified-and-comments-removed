@@ -523,9 +523,6 @@ mTexture
 =
 aTexture
 ;
-HRESULT
-hr
-=
 mTexture
 -
 >
