@@ -5187,7 +5187,13 @@ kBoxShadowTypeKTable
 {
 {
 eCSSKeyword_inset
-NS_STYLE_BOX_SHADOW_INSET
+uint8_t
+(
+StyleBoxShadowType
+:
+:
+Inset
+)
 }
 {
 eCSSKeyword_UNKNOWN

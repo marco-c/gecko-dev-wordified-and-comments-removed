@@ -20323,7 +20323,13 @@ GetIntValue
 )
 =
 =
-NS_STYLE_BOX_SHADOW_INSET
+uint8_t
+(
+StyleBoxShadowType
+:
+:
+Inset
+)
 "
 invalid
 keyword
