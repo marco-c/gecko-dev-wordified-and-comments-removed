@@ -7054,15 +7054,6 @@ not
 m
 .
 tests
-and
-not
-'
-support
--
-files
-'
-in
-defaults
 :
                 
 raise
@@ -7623,16 +7614,6 @@ True
 process_support_files
 (
 test
-)
-            
-if
-not
-filtered
-:
-                
-process_support_files
-(
-defaults
 )
             
 for
