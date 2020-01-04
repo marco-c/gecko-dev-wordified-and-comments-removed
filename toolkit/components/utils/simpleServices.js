@@ -24,6 +24,13 @@ Components
 .
 interfaces
 ;
+const
+Cr
+=
+Components
+.
+results
+;
 Cu
 .
 import
