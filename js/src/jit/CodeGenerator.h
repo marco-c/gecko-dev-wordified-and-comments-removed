@@ -3403,9 +3403,8 @@ simdRefreshTemplatesDuringLink_
 void
 registerSimdTemplate
 (
-InlineTypedObject
-*
-templateObject
+SimdType
+simdType
 )
 ;
 void
