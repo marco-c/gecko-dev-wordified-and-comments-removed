@@ -4059,6 +4059,17 @@ mips64
 .
 cpp
 '
+'
+jit
+/
+mips64
+/
+Bailouts
+-
+mips64
+.
+cpp
+'
 ]
 if
 CONFIG
