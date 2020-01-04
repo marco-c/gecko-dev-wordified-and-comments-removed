@@ -1044,17 +1044,6 @@ NumberOfCaptureDevices
 capEngine
 )
 ;
-if
-(
-num
-<
-=
-0
-)
-{
-return
-;
-}
 for
 (
 int
