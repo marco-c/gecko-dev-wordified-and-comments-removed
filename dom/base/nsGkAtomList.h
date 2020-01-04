@@ -79,13 +79,6 @@ mozdisallowselectionprint
 )
 GK_ATOM
 (
-moznomarginboxes
-"
-moznomarginboxes
-"
-)
-GK_ATOM
-(
 mozdonotsend
 "
 moz
