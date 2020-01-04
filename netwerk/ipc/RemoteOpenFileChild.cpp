@@ -947,6 +947,10 @@ file
 )
 ;
 }
+mListener
+=
+aListener
+;
 if
 (
 mTabChild
@@ -1010,10 +1014,6 @@ appUri
 AddIPDLReference
 (
 )
-;
-mListener
-=
-aListener
 ;
 mAsyncOpenCalled
 =
