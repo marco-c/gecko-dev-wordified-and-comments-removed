@@ -560,6 +560,13 @@ nsDumpUtils
 {
 public
 :
+enum
+Mode
+{
+CREATE
+CREATE_UNIQUE
+}
+;
 static
 nsresult
 OpenTempFile
@@ -580,6 +587,10 @@ aFoldername
 EmptyCString
 (
 )
+Mode
+aMode
+=
+CREATE_UNIQUE
 )
 ;
 }

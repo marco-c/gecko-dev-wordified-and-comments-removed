@@ -313,6 +313,11 @@ nsDebugImpl
 h
 '
 '
+nsDumpUtils
+.
+h
+'
+'
 nsError
 .
 h
