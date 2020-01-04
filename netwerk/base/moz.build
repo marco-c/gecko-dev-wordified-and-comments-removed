@@ -1337,6 +1337,11 @@ nsURLHelperWin
 .
 cpp
 '
+'
+ShutdownLayer
+.
+cpp
+'
 ]
 elif
 CONFIG
