@@ -1613,12 +1613,6 @@ unitsPerEm
 "
 )
 ;
-gfxContextAutoSaveRestore
-matrixRestore
-(
-aContext
-)
-;
 cairo_matrix_t
 fontMatrix
 ;
