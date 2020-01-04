@@ -112,11 +112,6 @@ nsIInterfaceRequestor
 interface
 nsIRequestContext
 ;
-typedef
-unsigned
-long
-nsLoadFlags
-;
 /
 *
 *

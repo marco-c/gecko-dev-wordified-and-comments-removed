@@ -103,6 +103,13 @@ nsIDocShellTreeItem
 .
 idl
 "
+#
+include
+"
+nsIRequest
+.
+idl
+"
 %
 {
 C
@@ -233,11 +240,6 @@ already_AddRefed
 nsITabChild
 >
 )
-;
-typedef
-unsigned
-long
-nsLoadFlags
 ;
 [
 scriptable
