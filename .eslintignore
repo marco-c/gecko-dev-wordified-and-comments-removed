@@ -1250,6 +1250,15 @@ videocontrols
 xml
 toolkit
 /
+content
+/
+widgets
+/
+wizard
+.
+xml
+toolkit
+/
 components
 /
 jsdownloads
