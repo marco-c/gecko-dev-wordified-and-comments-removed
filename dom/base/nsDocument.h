@@ -5596,15 +5596,6 @@ NS_RELEASE_THIS
 ;
 }
 }
-bool
-IsFullScreenEnabled
-(
-bool
-aIsCallerChrome
-bool
-aLogFailure
-)
-;
 inline
 bool
 CheckGetElementByIdArg
