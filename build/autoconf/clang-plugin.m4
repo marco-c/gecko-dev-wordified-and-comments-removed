@@ -855,8 +855,8 @@ AC_CACHE_CHECK
 for
 new
 ASTMatcher
-names
-ac_cv_have_new_ASTMatcher_names
+API
+ac_cv_have_new_ASTMatcher_api
 [
 AC_LANG_SAVE
 AC_LANG_CPLUSPLUS
