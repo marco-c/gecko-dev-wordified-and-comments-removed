@@ -1153,7 +1153,7 @@ mCP2
 -
 currentCP
 .
-mCP3
+mCP1
 ;
 PointD
 cp31
