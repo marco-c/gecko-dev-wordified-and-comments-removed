@@ -291,6 +291,12 @@ aScale
 )
 const
 ;
+bool
+IsAxisLocked
+(
+)
+const
+;
 ParentLayerCoord
 GetOrigin
 (
