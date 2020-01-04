@@ -575,12 +575,6 @@ INLINE_BUFFER_LIMIT
 size_t
 dataSlots
 =
-Max
-(
-size_t
-(
-1
-)
 AlignBytes
 (
 nbytes
@@ -593,7 +587,6 @@ Value
 sizeof
 (
 Value
-)
 )
 ;
 MOZ_ASSERT
