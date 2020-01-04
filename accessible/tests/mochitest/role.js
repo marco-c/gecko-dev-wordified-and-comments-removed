@@ -125,6 +125,13 @@ nsIAccessibleRole
 ROLE_DEFINITION_LIST
 ;
 const
+ROLE_DETAILS
+=
+nsIAccessibleRole
+.
+ROLE_DETAILS
+;
+const
 ROLE_DIAGRAM
 =
 nsIAccessibleRole
@@ -725,6 +732,13 @@ ROLE_STATUSBAR
 nsIAccessibleRole
 .
 ROLE_STATUSBAR
+;
+const
+ROLE_SUMMARY
+=
+nsIAccessibleRole
+.
+ROLE_SUMMARY
 ;
 const
 ROLE_SWITCH
