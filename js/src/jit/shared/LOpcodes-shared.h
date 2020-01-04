@@ -158,6 +158,16 @@ SimdShuffle
 \
 _
 (
+SimdUnaryArithIx16
+)
+\
+_
+(
+SimdUnaryArithIx8
+)
+\
+_
+(
 SimdUnaryArithIx4
 )
 \
