@@ -204,6 +204,10 @@ HTMLMediaElement
 aElement
 )
 :
+MediaDecoder
+(
+aElement
+)
 mMediaSource
 (
 nullptr
@@ -221,11 +225,6 @@ double
 >
 (
 )
-)
-;
-Init
-(
-aElement
 )
 ;
 }

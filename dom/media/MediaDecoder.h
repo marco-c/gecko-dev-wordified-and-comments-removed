@@ -448,15 +448,6 @@ CreateStateMachine
 0
 ;
 virtual
-bool
-Init
-(
-MediaDecoderOwner
-*
-aOwner
-)
-;
-virtual
 void
 Shutdown
 (
