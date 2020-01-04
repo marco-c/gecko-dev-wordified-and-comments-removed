@@ -291,8 +291,10 @@ ShutDown
 )
 ;
 static
+RefPtr
+<
 ImageBridgeChild
-*
+>
 GetSingleton
 (
 )

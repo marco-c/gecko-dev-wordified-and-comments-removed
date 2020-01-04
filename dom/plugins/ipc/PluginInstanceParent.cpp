@@ -2833,8 +2833,10 @@ return
 true
 ;
 }
+RefPtr
+<
 ImageBridgeChild
-*
+>
 forwarder
 =
 ImageBridgeChild
