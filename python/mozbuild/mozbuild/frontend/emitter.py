@@ -3550,6 +3550,10 @@ USE_EXTENSION_MANIFEST
 '
 NO_JS_MANIFEST
 '
+            
+'
+HAS_MISC_RULE
+'
         
 ]
         
