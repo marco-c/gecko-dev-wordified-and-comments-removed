@@ -367,7 +367,11 @@ kid
 aContainer
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

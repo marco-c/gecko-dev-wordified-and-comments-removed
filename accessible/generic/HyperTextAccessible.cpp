@@ -7062,7 +7062,11 @@ sibling
 parentFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

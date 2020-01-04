@@ -1545,7 +1545,11 @@ firstFrame
 frame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;
@@ -1801,7 +1805,11 @@ nextFrame
 aParentFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

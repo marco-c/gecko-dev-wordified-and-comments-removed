@@ -4520,7 +4520,11 @@ GetStateBits
 NS_STATE_BOX_WRAPS_KIDS_IN_BLOCK
 )
 return
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 -

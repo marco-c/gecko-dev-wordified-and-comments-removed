@@ -749,7 +749,11 @@ currFrame
 immediateParent
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

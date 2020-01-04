@@ -2315,7 +2315,11 @@ f
 nextPageFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

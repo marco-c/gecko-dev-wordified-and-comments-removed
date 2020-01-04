@@ -4118,7 +4118,11 @@ IsBoxFrame
 aFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 :

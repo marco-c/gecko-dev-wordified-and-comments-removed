@@ -7889,7 +7889,11 @@ child
 aRoot
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

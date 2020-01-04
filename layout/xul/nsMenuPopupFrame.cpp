@@ -1097,7 +1097,11 @@ mGeneratedChildren
 &
 &
 !
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 "
@@ -7545,7 +7549,11 @@ childFrame
 currFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

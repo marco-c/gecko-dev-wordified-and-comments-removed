@@ -870,7 +870,11 @@ nsIFrame
 *
 firstChild
 =
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;
@@ -2476,7 +2480,11 @@ nsIFrame
 *
 childFrame
 =
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

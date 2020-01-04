@@ -134,7 +134,11 @@ override
 return
 do_QueryFrame
 (
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 )

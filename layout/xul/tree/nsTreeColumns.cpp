@@ -3180,7 +3180,11 @@ colFrame
 colFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

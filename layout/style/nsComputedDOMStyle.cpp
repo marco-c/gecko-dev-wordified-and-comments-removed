@@ -2406,7 +2406,11 @@ mInnerFrame
 mOuterFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;
@@ -24068,7 +24072,11 @@ scrollingChild
 container
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

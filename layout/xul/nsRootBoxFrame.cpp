@@ -139,7 +139,11 @@ rootFrame
 rootFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

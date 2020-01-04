@@ -957,7 +957,11 @@ nsIFrame
 *
 first
 =
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;
@@ -5556,7 +5560,11 @@ nsIFrame
 *
 first
 =
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 )

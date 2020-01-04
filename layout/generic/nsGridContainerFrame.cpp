@@ -19281,7 +19281,11 @@ firstWrappedChild
 child
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 ;

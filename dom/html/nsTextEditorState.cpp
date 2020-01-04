@@ -8357,7 +8357,11 @@ do_QueryFrame
 mBoundFrame
 -
 >
-GetFirstPrincipalChild
+PrincipalChildList
+(
+)
+.
+FirstChild
 (
 )
 )
