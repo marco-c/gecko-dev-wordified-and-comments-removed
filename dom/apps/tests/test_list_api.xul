@@ -425,11 +425,6 @@ getIcon
 "
 function
 "
-getNotInstalled
-:
-"
-function
-"
 uninstall
 :
 "
