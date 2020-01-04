@@ -461,6 +461,17 @@ the
 availability
 .
 *
+-
+"
+SecurityError
+"
+:
+This
+operation
+is
+insecure
+.
+*
 /
 [
 Throws
