@@ -1854,6 +1854,17 @@ null
 ;
 }
 }
+GeckoProfile
+.
+get
+(
+context
+)
+.
+waitForOldSessionDataProcessing
+(
+)
+;
 final
 String
 jsonString
