@@ -282,16 +282,3 @@ tar
 .
 bz2
 '
-tests
-:
-'
-public
-/
-build
-/
-target
-.
-tests
-.
-zip
-'
