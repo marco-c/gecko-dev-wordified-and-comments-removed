@@ -4128,6 +4128,7 @@ add
 name
 value
 quote
+true
 )
 ;
 }
@@ -4159,6 +4160,7 @@ function
 name
 value
 quote
+noEvent
 )
 {
 const
@@ -4412,6 +4414,12 @@ quote
 -
 1
 ;
+if
+(
+!
+noEvent
+)
+{
 this
 .
 emit
@@ -4426,6 +4434,7 @@ getCssValue
 )
 )
 ;
+}
 return
 index
 ;
