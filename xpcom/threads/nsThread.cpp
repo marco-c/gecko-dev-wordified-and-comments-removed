@@ -2535,10 +2535,8 @@ aResult
 mEvents
 -
 >
-GetEvent
+HasPendingEvent
 (
-false
-nullptr
 )
 ;
 return
