@@ -18,6 +18,9 @@ task
 :
 payload
 :
+maxRunTime
+:
+5400
 command
 :
 -
@@ -239,7 +242,7 @@ chunks
 :
 total
 :
-6
+8
 suite
 :
 name
