@@ -13,7 +13,13 @@ module
 )
 {
 const
-React
+{
+DOM
+:
+dom
+createClass
+PropTypes
+}
 =
 require
 (
@@ -31,11 +37,11 @@ react
 )
 ;
 const
-DOM
+{
+input
+}
 =
-React
-.
-DOM
+dom
 ;
 const
 searchDelay
@@ -45,8 +51,6 @@ searchDelay
 let
 SearchBox
 =
-React
-.
 createClass
 (
 {
@@ -55,8 +59,6 @@ propTypes
 {
 actions
 :
-React
-.
 PropTypes
 .
 object
@@ -161,8 +163,6 @@ function
 {
 return
 (
-DOM
-.
 input
 (
 {
