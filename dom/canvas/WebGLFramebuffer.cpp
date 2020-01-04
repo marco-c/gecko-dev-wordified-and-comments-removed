@@ -2640,7 +2640,7 @@ if
 tex
 -
 >
-HasEveryBeenBound
+HasEverBeenBound
 (
 )
 )
