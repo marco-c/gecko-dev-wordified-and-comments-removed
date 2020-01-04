@@ -160,6 +160,11 @@ MOZ_CRASHREPORTER_URL
 SERVER_URL
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 registerCleanupFunction
 (
 function
