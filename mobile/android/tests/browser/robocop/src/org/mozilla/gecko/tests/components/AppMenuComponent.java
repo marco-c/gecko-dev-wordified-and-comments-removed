@@ -229,7 +229,7 @@ final
 long
 MAX_WAITTIME_FOR_MENU_UPDATE_IN_MS
 =
-1000L
+7500L
 ;
 private
 Boolean
