@@ -1201,7 +1201,7 @@ Show
 resource
 :
 "
-preferences_vendor
+preferences_privacy
 "
 }
 )
