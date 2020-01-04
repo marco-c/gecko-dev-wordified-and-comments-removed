@@ -1785,7 +1785,7 @@ inputManifest
 return
 this
 .
-_sendPromise
+createPromiseWithId
 (
 function
 (
