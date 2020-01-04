@@ -566,8 +566,6 @@ openLinkInCurrent
 #
 label
 and
-data
--
 usercontextid
 are
 dynamically
