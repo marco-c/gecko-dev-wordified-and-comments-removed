@@ -581,7 +581,7 @@ oldOpts
 options
 (
 "
-werror
+throw_on_asmjs_validation_failure
 "
 )
 ;
@@ -592,7 +592,7 @@ oldOpts
 indexOf
 (
 "
-werror
+throw_on_asmjs_validation_failure
 "
 )
 -
@@ -703,7 +703,7 @@ error
 options
 (
 "
-werror
+throw_on_asmjs_validation_failure
 "
 )
 ;
