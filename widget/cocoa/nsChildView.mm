@@ -27820,6 +27820,12 @@ shouldConsiderStartingSwipeFromEvent
 theEvent
 ]
 ;
+panEvent
+.
+mRequiresContentResponse
+=
+canTriggerSwipe
+;
 mGeckoChild
 -
 >

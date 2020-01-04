@@ -584,6 +584,13 @@ aPreventDefault
 override
 ;
 bool
+IsReadyForHandling
+(
+)
+const
+override
+;
+bool
 HasEvents
 (
 )
@@ -675,6 +682,9 @@ mEvents
 ;
 bool
 mInterrupted
+;
+bool
+mWaitingForContentResponse
 ;
 }
 ;

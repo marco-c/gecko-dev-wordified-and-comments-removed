@@ -635,6 +635,10 @@ mHandledByAPZ
 (
 false
 )
+mRequiresContentResponse
+(
+false
+)
 {
 }
 bool
@@ -687,6 +691,9 @@ mLineOrPageDeltaY
 ;
 bool
 mHandledByAPZ
+;
+bool
+mRequiresContentResponse
 ;
 }
 ;
