@@ -175,6 +175,8 @@ styleDocument
 querySelector
 (
 "
+#
+propertyContainer
 .
 expandable
 "
@@ -307,6 +309,8 @@ styleDocument
 querySelector
 (
 "
+#
+propertyContainer
 .
 expandable
 "
@@ -458,6 +462,12 @@ container
 Container
 found
 "
+)
+;
+container
+.
+scrollIntoView
+(
 )
 ;
 let

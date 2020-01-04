@@ -749,6 +749,14 @@ id
 ]
 .
 view
+|
+|
+inspector
+[
+id
+]
+.
+computedView
 }
 ;
 }

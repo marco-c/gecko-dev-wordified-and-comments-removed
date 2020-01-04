@@ -424,6 +424,8 @@ styleDocument
 querySelectorAll
 (
 "
+#
+propertyContainer
 .
 expandable
 "
