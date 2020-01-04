@@ -206,6 +206,9 @@ override
 bool
 GetContentParentFrom
 (
+GMPCrashHelper
+*
+aHelper
 const
 nsACString
 &

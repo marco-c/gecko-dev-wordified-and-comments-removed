@@ -150,6 +150,9 @@ GMPVideoEncoderProxy
 class
 GMPVideoHost
 ;
+class
+GMPCrashHelper
+;
 template
 <
 class
@@ -405,6 +408,13 @@ GetNodeIdCallback
 >
 &
 &
+)
+;
+native
+GMPCrashHelperPtr
+(
+GMPCrashHelper
+*
 )
 ;
 [
@@ -681,6 +691,9 @@ void
 getGMPVideoDecoder
 (
 in
+GMPCrashHelperPtr
+helper
+in
 TagArray
 tags
 [
@@ -811,6 +824,9 @@ noscript
 void
 getGMPVideoEncoder
 (
+in
+GMPCrashHelperPtr
+helper
 in
 TagArray
 tags
@@ -948,6 +964,9 @@ void
 getGMPAudioDecoder
 (
 in
+GMPCrashHelperPtr
+helper
+in
 TagArray
 tags
 [
@@ -1080,6 +1099,9 @@ noscript
 void
 getGMPDecryptor
 (
+in
+GMPCrashHelperPtr
+helper
 in
 TagArray
 tags

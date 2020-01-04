@@ -1054,6 +1054,7 @@ mMPS
 >
 GetGMPVideoEncoder
 (
+nullptr
 &
 tags
 NS_LITERAL_CSTRING
@@ -1575,6 +1576,7 @@ mMPS
 >
 GetGMPVideoEncoder
 (
+nullptr
 &
 tags
 NS_LITERAL_CSTRING
@@ -3366,6 +3368,7 @@ mMPS
 >
 GetGMPVideoDecoder
 (
+nullptr
 &
 tags
 NS_LITERAL_CSTRING

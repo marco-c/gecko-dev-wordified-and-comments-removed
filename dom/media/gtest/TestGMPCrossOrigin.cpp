@@ -284,6 +284,8 @@ GeckoMediaPluginService
 Getter
 )
 (
+GMPCrashHelper
+*
 nsTArray
 <
 nsCString
@@ -481,6 +483,7 @@ service
 Getter
 )
 (
+nullptr
 &
 tags
 aNodeId
@@ -3215,6 +3218,7 @@ service
 >
 GetGMPDecryptor
 (
+nullptr
 &
 tags
 mNodeId

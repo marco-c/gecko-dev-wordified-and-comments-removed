@@ -1229,6 +1229,7 @@ mps
 >
 GetGMPDecryptor
 (
+nullptr
 &
 tags
 GetNodeId
