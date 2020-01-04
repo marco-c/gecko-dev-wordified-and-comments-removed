@@ -546,6 +546,17 @@ GetNextChild
 (
 )
 ;
+nsIContent
+*
+Parent
+(
+)
+const
+{
+return
+mOriginalContent
+;
+}
 private
 :
 enum
