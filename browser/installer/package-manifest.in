@@ -2294,15 +2294,6 @@ ExperimentsService
 js
 RESPATH
 /
-browser
-/
-components
-/
-translation
-.
-manifest
-RESPATH
-/
 components
 /
 Downloads
