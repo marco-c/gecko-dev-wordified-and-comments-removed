@@ -210,10 +210,7 @@ PanelType
 BOOKMARKS
 PanelType
 .
-HISTORY
-PanelType
-.
-REMOTE_TABS
+COMBINED_HISTORY
 PanelType
 .
 RECENT_TABS

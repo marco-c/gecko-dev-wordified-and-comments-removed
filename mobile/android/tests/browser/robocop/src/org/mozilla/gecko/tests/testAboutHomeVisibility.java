@@ -233,7 +233,7 @@ navigateToBuiltinPanelType
 (
 PanelType
 .
-HISTORY
+COMBINED_HISTORY
 )
 .
 assertVisible
@@ -244,7 +244,7 @@ assertCurrentPanel
 (
 PanelType
 .
-HISTORY
+COMBINED_HISTORY
 )
 ;
 }
