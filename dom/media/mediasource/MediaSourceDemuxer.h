@@ -331,9 +331,6 @@ InitPromise
 >
 mInitPromise
 ;
-bool
-mInitDone
-;
 mutable
 Monitor
 mMonitor
