@@ -20841,6 +20841,8 @@ aStyle
 nsIFrame
 *
 aFrame
+bool
+aHorizontalAxis
 nscoord
 &
 aResult
@@ -20984,6 +20986,7 @@ GetPercentBSize
 (
 bSizeCoord
 f
+aHorizontalAxis
 h
 )
 )
@@ -21137,6 +21140,7 @@ GetPercentBSize
 (
 maxBSizeCoord
 f
+aHorizontalAxis
 maxh
 )
 )
@@ -21211,6 +21215,7 @@ GetPercentBSize
 (
 minBSizeCoord
 f
+aHorizontalAxis
 minh
 )
 )
@@ -21256,6 +21261,33 @@ unit
 )
 ;
 }
+nscoord
+bSizeTakenByBoxSizing
+=
+GetBSizeTakenByBoxSizing
+(
+pos
+-
+>
+mBoxSizing
+f
+aHorizontalAxis
+false
+)
+;
+h
+=
+std
+:
+:
+max
+(
+0
+h
+-
+bSizeTakenByBoxSizing
+)
+;
 if
 (
 aStyle
@@ -21452,6 +21484,7 @@ GetPercentBSize
 (
 paddingStart
 aFrame
+aHorizontalAxis
 pad
 )
 )
@@ -21475,6 +21508,7 @@ GetPercentBSize
 (
 paddingEnd
 aFrame
+aHorizontalAxis
 pad
 )
 )
@@ -23107,6 +23141,7 @@ GetPercentBSize
 (
 styleBSize
 aFrame
+horizontalAxis
 h
 )
 )
@@ -23147,6 +23182,7 @@ GetPercentBSize
 (
 styleMaxBSize
 aFrame
+horizontalAxis
 h
 )
 )
@@ -23198,6 +23234,7 @@ GetPercentBSize
 (
 styleMinBSize
 aFrame
+horizontalAxis
 h
 )
 )
