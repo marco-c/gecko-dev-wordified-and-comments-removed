@@ -15,13 +15,12 @@ f
 x
 )
 {
+{
 let
-(
-x
+x2
 =
 10
-)
-{
+;
 for
 (
 var
@@ -47,7 +46,7 @@ function
 {
 appendToActual
 (
-x
+x2
 )
 ;
 }

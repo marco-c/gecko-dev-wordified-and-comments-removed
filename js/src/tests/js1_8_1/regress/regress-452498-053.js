@@ -52,8 +52,8 @@ printStatus
 summary
 )
 ;
+{
 let
-(
 a
 =
 0
@@ -63,8 +63,7 @@ b
 c
 =
 2
-)
-{
+;
 }
 try
 {

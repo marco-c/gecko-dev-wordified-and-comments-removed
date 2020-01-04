@@ -45,12 +45,10 @@ unused
 0
 ;
 let
-(
 zero
 =
 0
-)
-{
+;
 for
 (
 var
@@ -81,7 +79,6 @@ zero
 )
 )
 ;
-}
 }
 }
 appendToActual

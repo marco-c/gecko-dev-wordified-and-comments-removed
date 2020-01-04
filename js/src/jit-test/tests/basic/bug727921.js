@@ -3,11 +3,10 @@ function
 (
 )
 {
-let
-(
-d
-)
 {
+let
+d
+;
 yield
 }
 }

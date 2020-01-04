@@ -61,15 +61,14 @@ No
 Crash
 '
 ;
+{
 let
-(
 [
 ]
 =
 [
 ]
-)
-{
+;
 }
 reportCompare
 (

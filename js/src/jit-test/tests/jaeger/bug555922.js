@@ -7,11 +7,10 @@ function
 (
 )
 {
-let
-(
-z
-)
 {
+let
+z
+;
 for
 each
 (

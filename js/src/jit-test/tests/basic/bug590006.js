@@ -22,13 +22,12 @@ i
 i
 )
 {
+{
 let
-(
 local
 =
 3
-)
-{
+;
 ret
 =
 function

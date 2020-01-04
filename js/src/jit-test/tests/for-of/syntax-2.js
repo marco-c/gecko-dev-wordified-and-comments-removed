@@ -10,14 +10,6 @@ of
 "
 )
 ;
-let
-(
-of
-=
-12
-)
-{
-}
 function
 of
 (

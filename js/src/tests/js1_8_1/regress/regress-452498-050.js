@@ -52,15 +52,14 @@ printStatus
 summary
 )
 ;
+{
 let
-(
 {
 }
 =
 {
 }
-)
-{
+;
 }
 try
 {

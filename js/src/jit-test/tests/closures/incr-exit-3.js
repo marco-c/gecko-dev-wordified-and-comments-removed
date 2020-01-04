@@ -13,8 +13,8 @@ foo4
 v
 =
 0
+{
 let
-(
 f
 =
 function
@@ -22,8 +22,8 @@ function
 y
 )
 {
+{
 let
-(
 f
 =
 function
@@ -31,8 +31,8 @@ function
 y
 )
 {
+{
 let
-(
 f
 =
 function
@@ -67,8 +67,7 @@ y
 }
 }
 }
-)
-{
+;
 f
 (
 [
@@ -99,8 +98,7 @@ v
 =
 String
 }
-)
-{
+;
 f
 (
 y
@@ -111,8 +109,7 @@ y
 )
 }
 }
-)
-{
+;
 f
 (
 v

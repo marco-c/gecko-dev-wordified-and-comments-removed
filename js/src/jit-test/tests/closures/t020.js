@@ -16,8 +16,8 @@ expected
 3
 '
 ;
+{
 let
-(
 f
 =
 function
@@ -73,8 +73,7 @@ x
 )
 }
 }
-)
-{
+;
 f
 (
 0

@@ -1,8 +1,7 @@
-let
-(
-e
-)
 {
+let
+e
+;
 with
 (
 {
@@ -19,11 +18,10 @@ x
 }
 finally
 {
-let
-(
-y
-)
 {
+let
+y
+;
 }
 }
 }

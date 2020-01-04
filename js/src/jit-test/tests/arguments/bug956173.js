@@ -3,13 +3,12 @@ foo
 (
 )
 {
+{
 let
-(
 x
 =
 arguments
-)
-{
+;
 return
 function
 (

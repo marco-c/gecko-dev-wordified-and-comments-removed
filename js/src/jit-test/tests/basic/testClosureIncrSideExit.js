@@ -3,8 +3,8 @@ testClosureIncrSideExit
 (
 )
 {
+{
 let
-(
 f
 =
 function
@@ -12,8 +12,8 @@ function
 y
 )
 {
+{
 let
-(
 ff
 =
 function
@@ -52,8 +52,7 @@ qqq
 '
 ;
 }
-)
-{
+;
 return
 ff
 (
@@ -74,8 +73,7 @@ null
 ;
 }
 }
-)
-{
+;
 return
 f
 (

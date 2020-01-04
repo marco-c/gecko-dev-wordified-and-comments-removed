@@ -65,13 +65,12 @@ evil
 =
 eval
 ;
+{
 let
-(
 x
 =
 2
-)
-{
+;
 actual
 =
 evil

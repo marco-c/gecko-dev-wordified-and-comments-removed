@@ -28,13 +28,12 @@ eval
 a
 )
 ;
+{
 let
-(
 c
 =
 3
-)
-{
+;
 return
 b
 ;

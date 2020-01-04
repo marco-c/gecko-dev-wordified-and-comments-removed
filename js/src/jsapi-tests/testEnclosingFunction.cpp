@@ -312,11 +312,10 @@ function
 (
 )
 {
-let
-(
-x
-)
 {
+let
+x
+;
 function
 g
 (

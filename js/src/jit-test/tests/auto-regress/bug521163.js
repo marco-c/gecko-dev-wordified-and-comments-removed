@@ -7,8 +7,8 @@ in
 ]
 )
 {
+{
 let
-(
 c
 =
 __defineGetter__
@@ -21,8 +21,7 @@ function
 {
 }
 )
-)
-{
+;
 eval
 (
 "

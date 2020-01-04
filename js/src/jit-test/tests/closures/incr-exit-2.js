@@ -13,8 +13,8 @@ expected
 v
 =
 0
+{
 let
-(
 f
 =
 function
@@ -22,8 +22,8 @@ function
 y
 )
 {
+{
 let
-(
 f
 =
 function
@@ -56,8 +56,7 @@ h
 }
 }
 }
-)
-{
+;
 f
 (
 [
@@ -83,8 +82,7 @@ y
 )
 }
 }
-)
-{
+;
 f
 (
 v

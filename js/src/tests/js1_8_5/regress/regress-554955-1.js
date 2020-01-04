@@ -18,13 +18,12 @@ a
 var
 d
 ;
+{
 let
-(
 c
 =
 3
-)
-{
+;
 d
 =
 function

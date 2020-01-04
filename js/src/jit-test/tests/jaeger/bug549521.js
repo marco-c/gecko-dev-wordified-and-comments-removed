@@ -10,11 +10,10 @@ y
 )
 return
 ;
-let
-(
-x
-)
 {
+let
+x
+;
 for
 (
 ;

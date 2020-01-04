@@ -20,8 +20,8 @@ eval
 s
 )
 ;
+{
 let
-(
 y
 =
 evalInFrame
@@ -33,9 +33,8 @@ evalInFrame
 )
 x
 =
-x
-)
-{
+x0
+;
 assertEq
 (
 x
@@ -48,7 +47,7 @@ test
 (
 '
 var
-x
+x0
 =
 5
 ;

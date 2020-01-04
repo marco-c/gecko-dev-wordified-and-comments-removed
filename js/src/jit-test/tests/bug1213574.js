@@ -24,11 +24,10 @@ lfGlobal
 .
 offThreadCompileScript
 (
-let
-(
-x
-)
 {
+let
+x
+;
 throw
 42
 ;

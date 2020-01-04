@@ -9,8 +9,8 @@ expected
 ddd
 '
 ;
+{
 let
-(
 f
 =
 function
@@ -18,8 +18,8 @@ function
 y
 )
 {
+{
 let
-(
 ff
 =
 function
@@ -54,8 +54,7 @@ ddd
 }
 }
 }
-)
-{
+;
 ff
 (
 [
@@ -74,8 +73,7 @@ null
 )
 }
 }
-)
-{
+;
 f
 (
 -

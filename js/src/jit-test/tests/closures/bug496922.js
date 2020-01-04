@@ -19,8 +19,8 @@ expected
 v
 =
 0
+{
 let
-(
 f
 =
 function
@@ -80,8 +80,7 @@ x
 )
 }
 }
-)
-{
+;
 (
 function
 (

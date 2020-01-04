@@ -3,15 +3,14 @@ testNonStubGetter
 (
 )
 {
+{
 let
-(
 [
 ]
 =
 [
 ]
-)
-{
+;
 (
 this
 .

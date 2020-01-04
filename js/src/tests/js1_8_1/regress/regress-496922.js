@@ -61,8 +61,8 @@ a
 [
 ]
 ;
+{
 let
-(
 f
 =
 function
@@ -120,8 +120,7 @@ x
 )
 }
 }
-)
-{
+;
 (
 function
 (

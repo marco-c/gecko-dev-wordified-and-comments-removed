@@ -10,13 +10,11 @@ nocrash
 '
 ;
 let
-(
 z
 =
 {
 }
-)
-{
+;
 for
 (
 var
@@ -58,7 +56,6 @@ z
 (
 )
 ;
-}
 }
 }
 appendToActual
