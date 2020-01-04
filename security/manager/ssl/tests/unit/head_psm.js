@@ -2593,10 +2593,8 @@ utilBinName
 let
 retArray
 =
-new
-Array
-(
-)
+[
+]
 ;
 for
 (
@@ -2619,10 +2617,8 @@ i
 let
 argArray
 =
-new
-Array
-(
-)
+[
+]
 ;
 let
 ocspFilepre

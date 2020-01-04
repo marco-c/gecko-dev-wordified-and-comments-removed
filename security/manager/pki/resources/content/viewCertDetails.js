@@ -445,7 +445,6 @@ QueryInterface
 nsIDialogParamBlock
 )
 ;
-var
 cert
 =
 params

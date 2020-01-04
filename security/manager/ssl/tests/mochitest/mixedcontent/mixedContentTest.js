@@ -426,9 +426,10 @@ window
 .
 setTimeout
 (
-function
 (
 )
+=
+>
 {
 window
 .
@@ -1020,10 +1021,9 @@ isSecurityState
 expectedState
 "
 "
-function
-(
 isok
-)
+=
+>
 {
 if
 (

@@ -191,7 +191,7 @@ GetString
 }
 catch
 (
-exception
+e
 )
 {
 tokenName

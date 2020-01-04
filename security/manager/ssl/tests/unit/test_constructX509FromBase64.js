@@ -76,8 +76,6 @@ return
 msg
 ;
 }
-else
-{
 return
 e
 .
@@ -85,7 +83,6 @@ toString
 (
 )
 ;
-}
 }
 function
 testGood

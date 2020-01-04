@@ -293,7 +293,7 @@ close
 }
 for
 (
-var
+let
 name
 in
 modifications
