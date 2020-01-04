@@ -2481,6 +2481,14 @@ Value
 aSavedFrame
 )
 {
+JS
+:
+:
+ExposeObjectToActiveJS
+(
+mStack
+)
+;
 aSavedFrame
 .
 setObjectOrNull
