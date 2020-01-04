@@ -3756,10 +3756,6 @@ aItem
 nsContainerFrame
 *
 aParentFrame
-const
-nsStyleDisplay
-*
-aDisplay
 nsFrameItems
 &
 aFrameItems
@@ -3856,9 +3852,6 @@ aDisplay
 Element
 *
 aElement
-nsIFrame
-*
-aParentFrame
 nsStyleContext
 *
 aStyleContext
@@ -4392,9 +4385,6 @@ CreateFloatingLetterFrame
 nsFrameConstructorState
 &
 aState
-nsContainerFrame
-*
-aBlockFrame
 nsIContent
 *
 aTextContent
@@ -4435,9 +4425,6 @@ aResult
 void
 WrapFramesInFirstLetterFrame
 (
-nsIContent
-*
-aBlockContent
 nsContainerFrame
 *
 aBlockFrame
@@ -4526,9 +4513,6 @@ aPresShell
 nsIFrame
 *
 aBlockFrame
-bool
-*
-aStopLooking
 )
 ;
 void

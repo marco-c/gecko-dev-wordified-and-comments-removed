@@ -3881,7 +3881,6 @@ EnsureBidiContinuation
 frame
 &
 nextBidi
-frameIndex
 contentOffset
 runEnd
 )
@@ -5662,7 +5661,6 @@ RepositionInlineFrames
 (
 &
 bld
-aFirstFrameOnLine
 aLineWM
 containerSize
 aStart
@@ -7475,9 +7473,6 @@ RepositionInlineFrames
 BidiLineData
 *
 aBld
-nsIFrame
-*
-aFirstChild
 WritingMode
 aLineWM
 const
@@ -7945,9 +7940,6 @@ nsIFrame
 *
 aNewFrame
 int32_t
-&
-aFrameIndex
-int32_t
 aStart
 int32_t
 aEnd
@@ -8280,8 +8272,6 @@ int32_t
 aTextLength
 nsCharType
 aCharType
-nsBidiDirection
-aDir
 )
 {
 nsresult
@@ -9349,7 +9339,6 @@ subRunLength
 nsCharType
 )
 charType
-dir
 )
 ;
 aprocessor

@@ -299,8 +299,6 @@ int32_t
 aTextLength
 nsCharType
 aCharType
-nsBidiDirection
-aDir
 )
 ;
 static
@@ -795,9 +793,6 @@ RepositionInlineFrames
 BidiLineData
 *
 aBld
-nsIFrame
-*
-aFirstChild
 mozilla
 :
 :
@@ -823,9 +818,6 @@ nsIFrame
 *
 *
 aNewFrame
-int32_t
-&
-aFrameIndex
 int32_t
 aStart
 int32_t

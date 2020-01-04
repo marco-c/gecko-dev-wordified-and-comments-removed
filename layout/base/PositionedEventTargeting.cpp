@@ -1228,8 +1228,6 @@ nsIFrame
 aFrame
 uint32_t
 aMM
-bool
-aVertical
 )
 {
 nsPresContext
@@ -1364,7 +1362,6 @@ mSideRadii
 [
 0
 ]
-true
 )
 AppUnitsFromMM
 (
@@ -1376,7 +1373,6 @@ mSideRadii
 [
 1
 ]
-false
 )
 AppUnitsFromMM
 (
@@ -1388,7 +1384,6 @@ mSideRadii
 [
 2
 ]
-true
 )
 AppUnitsFromMM
 (
@@ -1400,7 +1395,6 @@ mSideRadii
 [
 3
 ]
-false
 )
 )
 ;

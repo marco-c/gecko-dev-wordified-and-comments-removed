@@ -709,10 +709,6 @@ nsDisplayItem
 aItem
 LayerState
 aLayerState
-const
-nsPoint
-&
-aTopLeft
 BasicLayerManager
 *
 aManager

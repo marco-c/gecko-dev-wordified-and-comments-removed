@@ -466,12 +466,6 @@ new
 AccShowEvent
 (
 mBullet
-mBullet
--
->
-GetContent
-(
-)
 )
 ;
 mDoc

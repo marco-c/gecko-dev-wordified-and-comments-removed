@@ -914,7 +914,6 @@ Selection
 :
 UpdateCaretsForSelectionMode
 (
-aHint
 )
 ;
 break
@@ -1307,8 +1306,6 @@ AccessibleCaretManager
 :
 UpdateCaretsForSelectionMode
 (
-UpdateCaretsHint
-aHint
 )
 {
 AC_LOG

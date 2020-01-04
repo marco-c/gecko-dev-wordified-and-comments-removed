@@ -3229,9 +3229,6 @@ Finish
 uint32_t
 *
 aTextContentFlags
-LayerManagerData
-*
-aData
 const
 nsIntRect
 &
@@ -3819,10 +3816,6 @@ NewPaintedLayerData
 nsDisplayItem
 *
 aItem
-const
-nsIntRect
-&
-aVisibleRect
 AnimatedGeometryRoot
 *
 aAnimatedGeometryRoot
@@ -14398,10 +14391,6 @@ NewPaintedLayerData
 nsDisplayItem
 *
 aItem
-const
-nsIntRect
-&
-aVisibleRect
 AnimatedGeometryRoot
 *
 aAnimatedGeometryRoot
@@ -17606,7 +17595,6 @@ AddLayerDisplayItem
 ownLayer
 item
 layerState
-topLeft
 nullptr
 )
 ;
@@ -17651,7 +17639,6 @@ return
 NewPaintedLayerData
 (
 item
-itemVisibleRect
 animatedGeometryRoot
 agrScrollClip
 topLeft
@@ -18977,7 +18964,6 @@ AddLayerDisplayItem
 layer
 aItem
 aLayerState
-aTopLeft
 tempManager
 )
 ;
@@ -20015,10 +20001,6 @@ nsDisplayItem
 aItem
 LayerState
 aLayerState
-const
-nsPoint
-&
-aTopLeft
 BasicLayerManager
 *
 aManager
@@ -21672,9 +21654,6 @@ Finish
 uint32_t
 *
 aTextContentFlags
-LayerManagerData
-*
-aData
 const
 nsIntRect
 &
@@ -23704,7 +23683,6 @@ Finish
 (
 &
 flags
-data
 pixBounds
 aChildren
 hasComponentAlphaChildren

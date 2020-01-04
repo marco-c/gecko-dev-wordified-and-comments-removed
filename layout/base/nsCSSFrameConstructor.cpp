@@ -18466,9 +18466,6 @@ aDisplay
 Element
 *
 aElement
-nsIFrame
-*
-aParentFrame
 nsStyleContext
 *
 aStyleContext
@@ -20538,10 +20535,6 @@ aItem
 nsContainerFrame
 *
 aParentFrame
-const
-nsStyleDisplay
-*
-aDisplay
 nsFrameItems
 &
 aFrameItems
@@ -20807,7 +20800,6 @@ ConstructFrameWithAnonymousChild
 aState
 aItem
 aParentFrame
-aDisplay
 aFrameItems
 NS_NewSVGOuterSVGFrame
 NS_NewSVGOuterSVGAnonChildFrame
@@ -20850,7 +20842,6 @@ ConstructFrameWithAnonymousChild
 aState
 aItem
 aParentFrame
-aDisplay
 aFrameItems
 NS_NewSVGMarkerFrame
 NS_NewSVGMarkerAnonChildFrame
@@ -23147,7 +23138,6 @@ FindDisplayData
 (
 display
 element
-aParentFrame
 styleContext
 )
 ;
@@ -30551,9 +30541,6 @@ aChild
 nsIContent
 *
 aOldNextSibling
-nsIDocument
-*
-aDocument
 nsIFrame
 *
 aChildFrame
@@ -30993,7 +30980,6 @@ GetPresContext
 aContainer
 aStartChild
 nullptr
-mDocument
 nullptr
 CONTENT_INSERTED
 )
@@ -33466,7 +33452,6 @@ presContext
 aContainer
 aChild
 aOldNextSibling
-mDocument
 childFrame
 CONTENT_REMOVED
 )
@@ -43909,7 +43894,6 @@ haveFirstLetterStyle
 {
 WrapFramesInFirstLetterFrame
 (
-aContent
 aFrame
 aFrameItems
 )
@@ -45309,9 +45293,6 @@ CreateFloatingLetterFrame
 nsFrameConstructorState
 &
 aState
-nsContainerFrame
-*
-aBlockFrame
 nsIContent
 *
 aTextContent
@@ -45804,7 +45785,6 @@ IsSVGText
 CreateFloatingLetterFrame
 (
 state
-aBlockFrame
 aTextContent
 textFrame
 aParentFrame
@@ -45917,9 +45897,6 @@ nsCSSFrameConstructor
 :
 WrapFramesInFirstLetterFrame
 (
-nsIContent
-*
-aBlockContent
 nsContainerFrame
 *
 aBlockFrame
@@ -46349,9 +46326,6 @@ aPresShell
 nsIFrame
 *
 aBlockFrame
-bool
-*
-aStopLooking
 )
 {
 nsIFrame
@@ -47079,8 +47053,6 @@ RemoveFloatingFirstLetterFrames
 (
 aPresShell
 continuation
-&
-stopLooking
 )
 ;
 if
@@ -47089,10 +47061,6 @@ NS_SUCCEEDED
 (
 rv
 )
-&
-&
-!
-stopLooking
 )
 {
 rv
