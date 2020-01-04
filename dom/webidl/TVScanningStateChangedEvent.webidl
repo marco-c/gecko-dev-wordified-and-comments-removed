@@ -169,14 +169,9 @@ CheckAnyPermissions
 "
 tv
 "
-Func
+AvailableIn
 =
-"
-Navigator
-:
-:
-HasTVSupport
-"
+CertifiedApps
 Constructor
 (
 DOMString

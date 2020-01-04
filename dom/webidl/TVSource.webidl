@@ -234,14 +234,9 @@ CheckAnyPermissions
 "
 tv
 "
-Func
+AvailableIn
 =
-"
-Navigator
-:
-:
-HasTVSupport
-"
+CertifiedApps
 ]
 interface
 TVSource

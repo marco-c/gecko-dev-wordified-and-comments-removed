@@ -2830,14 +2830,9 @@ CheckAnyPermissions
 "
 tv
 "
-Func
+AvailableIn
 =
-"
-Navigator
-:
-:
-HasTVSupport
-"
+CertifiedApps
 ]
 readonly
 attribute

@@ -134,9 +134,7 @@ GetBool
 "
 dom
 .
-testing
-.
-tv_enabled_for_hosted_apps
+ignore_webidl_scope_checks
 "
 false
 )
