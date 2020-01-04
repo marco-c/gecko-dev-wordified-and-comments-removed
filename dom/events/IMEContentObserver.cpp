@@ -4322,11 +4322,6 @@ else
 uint32_t
 nodeLength
 =
-std
-:
-:
-max
-(
 static_cast
 <
 int32_t
@@ -4338,8 +4333,6 @@ aChild
 GetChildCount
 (
 )
-)
-1
 )
 ;
 rv
@@ -4363,6 +4356,7 @@ mRootContent
 &
 textLength
 LINE_BREAK_TYPE_NATIVE
+true
 )
 ;
 if

@@ -466,6 +466,10 @@ uint32_t
 aLength
 LineBreakType
 aLineBreakType
+bool
+aIsRemovingNode
+=
+false
 )
 ;
 static
