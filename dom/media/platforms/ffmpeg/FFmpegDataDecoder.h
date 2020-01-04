@@ -246,6 +246,12 @@ FlushableTaskQueue
 >
 mTaskQueue
 ;
+Atomic
+<
+bool
+>
+mIsFlushing
+;
 }
 ;
 }
