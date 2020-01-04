@@ -4108,6 +4108,16 @@ GetDataSurface
 (
 )
 ;
+if
+(
+!
+dataSurface
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 size_t
 length
 ;

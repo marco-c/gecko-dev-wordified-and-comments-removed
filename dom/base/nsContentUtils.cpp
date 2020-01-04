@@ -33527,6 +33527,15 @@ GetDataSurface
 (
 )
 ;
+if
+(
+!
+dataSurface
+)
+{
+continue
+;
+}
 size_t
 length
 ;
