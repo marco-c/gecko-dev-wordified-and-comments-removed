@@ -204,6 +204,9 @@ false
 nsresult
 Init
 (
+MediaDecoder
+*
+aDecoder
 )
 ;
 enum

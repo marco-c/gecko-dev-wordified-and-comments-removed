@@ -3448,6 +3448,7 @@ mDecoderStateMachine
 >
 Init
 (
+this
 )
 ;
 NS_ENSURE_SUCCESS
