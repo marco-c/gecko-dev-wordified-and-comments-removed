@@ -1579,7 +1579,13 @@ data
 bool
 isSystem
 ;
+mozilla
+:
+:
+Atomic
+<
 bool
+>
 usedByExclusiveThread
 ;
 bool
