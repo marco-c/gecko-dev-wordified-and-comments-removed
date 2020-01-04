@@ -54,7 +54,12 @@ MPL
 /
 .
 [
+features
+/
+loop
+mozilla
 .
+org
 ]
 chrome
 .
