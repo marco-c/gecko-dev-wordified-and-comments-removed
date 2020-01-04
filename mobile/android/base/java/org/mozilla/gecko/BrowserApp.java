@@ -9312,7 +9312,7 @@ Telemetry
 addToHistogram
 (
 "
-PLACES_BOOKMARKS_COUNT
+FENNEC_BOOKMARKS_COUNT
 "
 db
 .
