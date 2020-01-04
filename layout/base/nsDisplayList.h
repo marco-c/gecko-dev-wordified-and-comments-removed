@@ -12946,10 +12946,6 @@ aBuilder
 nsIFrame
 *
 aFrame
-bool
-aLogAnimations
-=
-false
 )
 ;
 bool

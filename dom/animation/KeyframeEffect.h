@@ -1075,6 +1075,9 @@ const
 nsIFrame
 *
 aFrame
+nsAString
+&
+aPerformanceWarning
 )
 const
 ;
@@ -1277,10 +1280,9 @@ const
 nsIFrame
 *
 aFrame
-const
-nsIContent
-*
-aContent
+nsAString
+&
+aPerformanceWarning
 )
 ;
 static

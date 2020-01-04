@@ -542,6 +542,9 @@ IsPlaying
 continue
 ;
 }
+nsAutoString
+performanceWarning
+;
 if
 (
 effect
@@ -550,6 +553,7 @@ effect
 ShouldBlockCompositorAnimations
 (
 aFrame
+performanceWarning
 )
 )
 {
@@ -566,6 +570,15 @@ Clear
 )
 ;
 }
+effect
+-
+>
+SetPerformanceWarning
+(
+aProperty
+performanceWarning
+)
+;
 return
 false
 ;
