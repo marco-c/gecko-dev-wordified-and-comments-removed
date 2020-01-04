@@ -156,6 +156,9 @@ ServiceWorker
 issues
 /
 261
+[
+Throws
+]
 void
 waitUntil
 (

@@ -571,6 +571,9 @@ WaitUntil
 Promise
 &
 aPromise
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
