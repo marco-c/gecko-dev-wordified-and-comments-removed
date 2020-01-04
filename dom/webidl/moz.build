@@ -1405,6 +1405,11 @@ InterAppMessagePort
 webidl
 '
 '
+IterableIterator
+.
+webidl
+'
+'
 KeyAlgorithm
 .
 webidl
@@ -3415,7 +3420,7 @@ TestInterfaceJSDictionaries
 webidl
 '
 '
-TestInterfaceJSMaplikeSetlike
+TestInterfaceJSMaplikeSetlikeIterable
 .
 webidl
 '
