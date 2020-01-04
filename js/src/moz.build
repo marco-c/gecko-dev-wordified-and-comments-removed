@@ -5218,6 +5218,15 @@ CXXFLAGS
 wd4577
 '
 ]
+CXXFLAGS
++
+=
+[
+'
+-
+wd4312
+'
+]
 if
 CONFIG
 [
