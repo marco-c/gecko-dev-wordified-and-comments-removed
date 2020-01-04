@@ -4224,6 +4224,10 @@ aRegistration
 ServiceWorkerInfo
 *
 aServiceWorkerInfo
+const
+nsACString
+&
+aScriptSpec
 )
 :
 ServiceWorkerScriptJobBase
@@ -4236,9 +4240,7 @@ InstallJob
 aCallback
 aRegistration
 aServiceWorkerInfo
-EmptyCString
-(
-)
+aScriptSpec
 )
 {
 MOZ_ASSERT
@@ -5790,6 +5792,7 @@ mQueue
 mCallback
 mRegistration
 mUpdateAndInstallInfo
+mScriptSpec
 )
 ;
 mQueue
