@@ -763,6 +763,7 @@ EffectEnd
 (
 )
 )
+this
 )
 )
 ;
