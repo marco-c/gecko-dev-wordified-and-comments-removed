@@ -28881,6 +28881,12 @@ foldsTernary
 (
 )
 ;
+MDefinition
+*
+foldsFilterTypeSet
+(
+)
+;
 bool
 congruentTo
 (
