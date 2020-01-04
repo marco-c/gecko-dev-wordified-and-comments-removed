@@ -250,7 +250,7 @@ nsCCUncollectableMarker
 :
 sGeneration
 =
-0
+1
 ;
 #
 ifdef
