@@ -343,6 +343,7 @@ nsChainedEventQueue
 {
 public
 :
+explicit
 nsChainedEventQueue
 (
 mozilla
