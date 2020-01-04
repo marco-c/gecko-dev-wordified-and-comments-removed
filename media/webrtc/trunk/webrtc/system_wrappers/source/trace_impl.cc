@@ -1807,10 +1807,12 @@ WEBRTC_TRACE_MAX_MESSAGE_SIZE
 -
 written_so_far
 -
-2
+1
 "
 %
 s
+\
+n
 "
 msg
 )
@@ -1828,7 +1830,7 @@ WEBRTC_TRACE_MAX_MESSAGE_SIZE
 -
 written_so_far
 -
-2
+1
 ;
 trace_message
 [
@@ -1849,10 +1851,12 @@ WEBRTC_TRACE_MAX_MESSAGE_SIZE
 -
 written_so_far
 -
-2
+1
 "
 %
 s
+\
+n
 "
 msg
 )
@@ -1870,7 +1874,7 @@ WEBRTC_TRACE_MAX_MESSAGE_SIZE
 -
 written_so_far
 -
-2
+1
 )
 {
 length
@@ -1879,7 +1883,7 @@ WEBRTC_TRACE_MAX_MESSAGE_SIZE
 -
 written_so_far
 -
-2
+1
 ;
 trace_message
 [
@@ -1893,8 +1897,6 @@ length
 endif
 return
 length
-+
-1
 ;
 }
 void
