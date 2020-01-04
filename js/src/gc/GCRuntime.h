@@ -394,10 +394,10 @@ lowFrequencyHeapGrowth_
 bool
 dynamicMarkSliceEnabled_
 ;
-unsigned
+uint32_t
 minEmptyChunkCount_
 ;
-unsigned
+uint32_t
 maxEmptyChunkCount_
 ;
 public
@@ -631,7 +631,7 @@ return
 maxEmptyChunkCount_
 ;
 }
-void
+bool
 setParameter
 (
 JSGCParamKey
@@ -1075,7 +1075,7 @@ AutoLockGC
 lock
 )
 ;
-void
+bool
 setParameter
 (
 JSGCParamKey

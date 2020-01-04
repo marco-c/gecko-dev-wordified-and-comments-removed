@@ -6784,6 +6784,8 @@ lock
 rt
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 rt
 -
 >
@@ -6794,6 +6796,7 @@ setParameter
 key
 value
 lock
+)
 )
 ;
 }
