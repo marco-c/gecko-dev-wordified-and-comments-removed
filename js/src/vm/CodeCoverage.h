@@ -94,11 +94,11 @@ return
 hasFilename_
 &
 &
-hasScripts_
+hasTopLevelScript_
 ;
 }
 bool
-writeTopLevelScript
+writeScript
 (
 JSScript
 *
@@ -130,14 +130,6 @@ writeScriptName
 LSprinter
 &
 out
-JSScript
-*
-script
-)
-;
-bool
-writeScript
-(
 JSScript
 *
 script
@@ -188,7 +180,7 @@ hasFilename_
 1
 ;
 bool
-hasScripts_
+hasTopLevelScript_
 :
 1
 ;

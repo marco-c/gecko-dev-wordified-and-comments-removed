@@ -17306,11 +17306,6 @@ fop
 {
 if
 (
-isTopLevel
-(
-)
-&
-&
 fop
 -
 >
