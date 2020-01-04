@@ -941,6 +941,8 @@ OnVideoDecoded
 MediaData
 *
 aVideoSample
+TimeStamp
+aDecodeStartTime
 )
 ;
 void
@@ -2294,9 +2296,6 @@ StartTime
 )
 ;
 }
-TimeStamp
-mVideoDecodeStartTime
-;
 MediaQueue
 <
 MediaData
