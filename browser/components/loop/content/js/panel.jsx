@@ -5821,6 +5821,17 @@ content
 "
 >
 <
+div
+className
+=
+"
+beta
+-
+ribbon
+"
+/
+>
+<
 NotificationListView
 clearOnDocumentHidden
 =
