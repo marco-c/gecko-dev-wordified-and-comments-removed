@@ -7584,7 +7584,7 @@ endPoint
 aEvent
 .
 mLocalPanStartPoint
-+
+-
 aEvent
 .
 mLocalPanDisplacement

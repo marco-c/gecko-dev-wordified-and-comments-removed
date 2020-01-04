@@ -1562,13 +1562,13 @@ ViewAs
 TargetUnits
 >
 (
-projectedAnchor
+projectedTarget
 .
 As2DPoint
 (
 )
 -
-projectedTarget
+projectedAnchor
 .
 As2DPoint
 (
