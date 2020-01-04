@@ -11415,6 +11415,17 @@ SetDirtyRect
 dirtyRectOutsideSVGEffects
 )
 ;
+if
+(
+nsSVGIntegrationUtils
+:
+:
+UsingMaskOrClipPathForFrame
+(
+this
+)
+)
+{
 resultList
 .
 AppendNewToTop
@@ -11433,6 +11444,7 @@ useOpacity
 )
 )
 ;
+}
 aBuilder
 -
 >

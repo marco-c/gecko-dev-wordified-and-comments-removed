@@ -104,6 +104,16 @@ aFrame
 )
 ;
 static
+bool
+UsingMaskOrClipPathForFrame
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
 nsSize
 GetContinuationUnionSize
 (
