@@ -9962,7 +9962,7 @@ i
 nullptr
 ;
 }
-size_t
+int32_t
 num_needed
 =
 mPending

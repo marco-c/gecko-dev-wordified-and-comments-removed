@@ -1430,7 +1430,7 @@ GetSize
 )
 ;
 }
-size_t
+uint32_t
 nvFIFO
 :
 :
@@ -1493,7 +1493,7 @@ operator
 [
 ]
 (
-size_t
+int32_t
 index
 )
 const
