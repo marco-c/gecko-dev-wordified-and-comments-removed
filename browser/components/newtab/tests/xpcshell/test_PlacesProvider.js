@@ -1115,7 +1115,7 @@ clearHistory
 ;
 provider
 .
-destroy
+uninit
 (
 )
 ;
@@ -1262,7 +1262,7 @@ clearHistoryPromise
 ;
 provider
 .
-destroy
+uninit
 (
 )
 ;
@@ -1405,7 +1405,7 @@ deleteURIPromise
 ;
 provider
 .
-destroy
+uninit
 (
 )
 ;
@@ -1546,7 +1546,7 @@ promise
 ;
 provider
 .
-destroy
+uninit
 (
 )
 ;
