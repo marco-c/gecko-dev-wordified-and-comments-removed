@@ -1630,7 +1630,7 @@ addon
 signedState
 AddonManager
 .
-SIGNEDSTATE_BROKEN
+SIGNEDSTATE_NOT_REQUIRED
 )
 ;
 yield
