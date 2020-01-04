@@ -2409,7 +2409,7 @@ else
 xpcshell_path
 =
 (
-LIBXUL_DIST
+DIST
 )
 /
 bin

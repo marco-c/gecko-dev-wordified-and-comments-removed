@@ -671,7 +671,7 @@ printconfigsetting
 .
 py
 (
-LIBXUL_DIST
+DIST
 )
 /
 bin
@@ -768,7 +768,7 @@ changelog
 .
 in
 (
-LIBXUL_DIST
+DIST
 )
 /
 bin

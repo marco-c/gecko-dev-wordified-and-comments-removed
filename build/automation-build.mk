@@ -119,7 +119,7 @@ DXPC_BIN_PATH
 '
 "
 (
-LIBXUL_DIST
+DIST
 )
 /
 bin

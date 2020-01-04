@@ -1162,7 +1162,7 @@ NSPR_CFLAGS
 -
 I
 {
-LIBXUL_DIST
+DIST
 }
 /
 include
@@ -1184,7 +1184,7 @@ NSPR_LIBS
 -
 L
 {
-LIBXUL_DIST
+DIST
 }
 /
 lib
@@ -1209,7 +1209,7 @@ NSPR_LIBS
 =
 "
 {
-LIBXUL_DIST
+DIST
 }
 /
 lib
@@ -1221,7 +1221,7 @@ NSPR_VERSION
 .
 lib
 {
-LIBXUL_DIST
+DIST
 }
 /
 lib
@@ -1233,7 +1233,7 @@ NSPR_VERSION
 .
 lib
 {
-LIBXUL_DIST
+DIST
 }
 /
 lib

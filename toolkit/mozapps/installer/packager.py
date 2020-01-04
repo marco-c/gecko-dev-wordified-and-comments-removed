@@ -2461,14 +2461,17 @@ launcher
 .
 tooldir
 =
+mozpath
+.
+join
+(
 buildconfig
 .
-substs
-[
+topobjdir
 '
-LIBXUL_DIST
+dist
 '
-]
+)
     
 with
 errors
