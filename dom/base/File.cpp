@@ -1134,12 +1134,10 @@ BlobImpl
 1
 >
 blobImpls
-;
-blobImpls
-.
-AppendElement
 (
+{
 mImpl
+}
 )
 ;
 nsAutoString
