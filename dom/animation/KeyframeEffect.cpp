@@ -669,6 +669,14 @@ if
 mAnimation
 &
 &
+!
+mProperties
+.
+IsEmpty
+(
+)
+&
+&
 GetComputedTiming
 (
 )
