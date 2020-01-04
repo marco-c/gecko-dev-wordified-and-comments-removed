@@ -614,6 +614,11 @@ libglib
 so
 leak
 :
+libglsl
+.
+so
+leak
+:
 libp11
 -
 kit
