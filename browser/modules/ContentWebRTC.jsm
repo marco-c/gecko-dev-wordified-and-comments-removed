@@ -843,6 +843,14 @@ function
 devices
 )
 {
+if
+(
+contentWindow
+.
+closed
+)
+return
+;
 prompt
 (
 contentWindow
