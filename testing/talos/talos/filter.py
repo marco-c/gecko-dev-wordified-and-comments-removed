@@ -626,7 +626,7 @@ size
 for
 i
 in
-xrange
+range
 (
 0
 len

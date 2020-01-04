@@ -1145,7 +1145,9 @@ strip
 continue
                         
 print
+(
 line
+)
                         
 mainthread_error_count
 +

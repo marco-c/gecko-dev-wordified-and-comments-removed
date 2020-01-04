@@ -94,13 +94,16 @@ import
 test
         
 print
+(
 '
 Available
 tests
 :
 '
+)
         
 print
+(
 '
 =
 =
@@ -121,6 +124,7 @@ print
 \
 n
 '
+)
         
 test_class_names
 =
@@ -168,9 +172,12 @@ test_class_names
 :
             
 print
+(
 name
+)
             
 print
+(
 '
 -
 '
@@ -179,9 +186,12 @@ len
 (
 name
 )
+)
             
 print
+(
 description
+)
             
 print
         
@@ -218,11 +228,13 @@ import
 suites_conf
         
 print
+(
 '
 Available
 suites
 :
 '
+)
         
 conf
 =
@@ -270,6 +282,7 @@ conf
 :
             
 print
+(
 pattern
 %
 (
@@ -289,6 +302,7 @@ name
 tests
 '
 ]
+)
 )
 )
         

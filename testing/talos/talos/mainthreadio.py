@@ -479,6 +479,7 @@ e
 :
         
 print
+(
 "
 %
 s
@@ -494,6 +495,7 @@ filename
 e
 .
 strerror
+)
 )
         
 return
@@ -679,6 +681,7 @@ e
 :
         
 print
+(
 "
 %
 s
@@ -694,6 +697,7 @@ filename
 e
 .
 strerror
+)
 )
         
 return
@@ -731,7 +735,7 @@ output_file
 xre_path
 >
 "
-               
+              
 %
 argv
 [
@@ -758,6 +762,7 @@ argv
 :
         
 print
+(
 "
 XRE
 Path
@@ -776,6 +781,7 @@ argv
 [
 3
 ]
+)
         
 return
 1
@@ -798,11 +804,13 @@ data
 :
         
 print
+(
 "
 Log
 parsing
 failed
 "
+)
         
 return
 1
@@ -854,12 +862,14 @@ WHITELIST_FILENAME
 :
         
 print
+(
 "
 Failed
 to
 load
 whitelist
 "
+)
         
 return
 1

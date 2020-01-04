@@ -1233,7 +1233,7 @@ json
 dump
 (
 results
-file
+open
 (
 results_path
 '

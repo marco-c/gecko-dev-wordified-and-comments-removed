@@ -196,12 +196,14 @@ test_config
 :
         
 print
+(
 "
 extending
 with
 xperf
 !
 "
+)
         
 browser_config
 [

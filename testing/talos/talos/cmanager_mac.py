@@ -118,6 +118,7 @@ except
 :
         
 print
+(
 "
 Unexpected
 error
@@ -136,6 +137,7 @@ sys
 .
 exc_info
 (
+)
 )
 )
         
@@ -463,7 +465,7 @@ it
 is
 not
 "
-                   
+                  
 "
 registered
 "
@@ -494,6 +496,7 @@ pid
         
 except
 Exception
+as
 e
 :
             
@@ -516,7 +519,7 @@ exception
 %
 s
 "
-                   
+                  
 %
 (
 counterName
