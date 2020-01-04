@@ -1413,12 +1413,6 @@ mForceShutDown
 bool
 mPostedRunInStableStateEvent
 ;
-bool
-mFlushSourcesNow
-;
-bool
-mFlushSourcesOnNextIteration
-;
 nsTArray
 <
 nsAutoPtr
