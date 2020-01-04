@@ -147,7 +147,7 @@ i
 sourceName
 :
 /
-highlighter
+highlighters
 \
 .
 css
