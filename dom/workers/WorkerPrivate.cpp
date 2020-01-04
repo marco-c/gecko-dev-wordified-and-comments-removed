@@ -3846,7 +3846,6 @@ aWorkerPrivate
 >
 FreezeInternal
 (
-aCx
 )
 ;
 }
@@ -3897,7 +3896,6 @@ aWorkerPrivate
 >
 ThawInternal
 (
-aCx
 )
 ;
 }
@@ -20394,9 +20392,6 @@ WorkerPrivate
 :
 FreezeInternal
 (
-JSContext
-*
-aCx
 )
 {
 AssertIsOnWorkerThread
@@ -20428,9 +20423,6 @@ WorkerPrivate
 :
 ThawInternal
 (
-JSContext
-*
-aCx
 )
 {
 AssertIsOnWorkerThread
