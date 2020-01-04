@@ -26,6 +26,13 @@ HRTFDatabase
 .
 h
 "
+#
+include
+"
+AudioBlock
+.
+h
+"
 using
 namespace
 std
@@ -507,10 +514,10 @@ desiredAzimuth
 double
 elevation
 const
-AudioChunk
+AudioBlock
 *
 inputBus
-AudioChunk
+AudioBlock
 *
 outputBus
 )

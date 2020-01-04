@@ -874,10 +874,10 @@ AudioNodeStream
 *
 aStream
 const
-AudioChunk
+AudioBlock
 &
 aInput
-AudioChunk
+AudioBlock
 *
 aOutput
 bool
@@ -917,10 +917,12 @@ aInput
 return
 ;
 }
-AllocateAudioBlock
+aOutput
+-
+>
+AllocateChannels
 (
 channelCount
-aOutput
 )
 ;
 for

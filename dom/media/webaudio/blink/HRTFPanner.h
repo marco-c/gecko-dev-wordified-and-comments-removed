@@ -30,8 +30,8 @@ h
 namespace
 mozilla
 {
-struct
-AudioChunk
+class
+AudioBlock
 ;
 }
 namespace
@@ -51,7 +51,7 @@ using
 mozilla
 :
 :
-AudioChunk
+AudioBlock
 ;
 class
 HRTFPanner
@@ -82,10 +82,10 @@ azimuth
 double
 elevation
 const
-AudioChunk
+AudioBlock
 *
 inputBus
-AudioChunk
+AudioBlock
 *
 outputBus
 )

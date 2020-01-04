@@ -112,7 +112,7 @@ void
 Write
 (
 const
-AudioChunk
+AudioBlock
 &
 aInputChunk
 )
@@ -126,7 +126,7 @@ aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
 ]
-AudioChunk
+AudioBlock
 *
 aOutputChunk
 ChannelInterpretation
@@ -138,7 +138,7 @@ Read
 (
 double
 aDelayTicks
-AudioChunk
+AudioBlock
 *
 aOutputChunk
 ChannelInterpretation
@@ -154,7 +154,7 @@ aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
 ]
-AudioChunk
+AudioBlock
 *
 aOutputChunk
 uint32_t
@@ -246,7 +246,7 @@ aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
 ]
-AudioChunk
+AudioBlock
 *
 aOutputChunk
 uint32_t

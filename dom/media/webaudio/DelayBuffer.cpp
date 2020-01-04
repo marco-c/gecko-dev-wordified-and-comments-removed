@@ -113,7 +113,7 @@ DelayBuffer
 Write
 (
 const
-AudioChunk
+AudioBlock
 &
 aInputChunk
 )
@@ -181,6 +181,10 @@ mCurrentChunk
 ]
 =
 aInputChunk
+.
+AsAudioChunk
+(
+)
 ;
 }
 void
@@ -195,7 +199,7 @@ aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
 ]
-AudioChunk
+AudioBlock
 *
 aOutputChunk
 ChannelInterpretation
@@ -368,10 +372,12 @@ if
 channelCount
 )
 {
-AllocateAudioBlock
+aOutputChunk
+-
+>
+AllocateChannels
 (
 channelCount
-aOutputChunk
 )
 ;
 ReadChannels
@@ -417,7 +423,7 @@ aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
 ]
-AudioChunk
+AudioBlock
 *
 aOutputChunk
 uint32_t
@@ -479,7 +485,7 @@ aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
 ]
-AudioChunk
+AudioBlock
 *
 aOutputChunk
 uint32_t
@@ -791,7 +797,7 @@ Read
 (
 double
 aDelayTicks
-AudioChunk
+AudioBlock
 *
 aOutputChunk
 ChannelInterpretation

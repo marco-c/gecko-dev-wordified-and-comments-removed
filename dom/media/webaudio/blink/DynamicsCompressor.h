@@ -44,8 +44,8 @@ h
 namespace
 mozilla
 {
-struct
-AudioChunk
+class
+AudioBlock
 ;
 }
 namespace
@@ -55,7 +55,7 @@ using
 mozilla
 :
 :
-AudioChunk
+AudioBlock
 ;
 class
 DynamicsCompressor
@@ -95,10 +95,10 @@ void
 process
 (
 const
-AudioChunk
+AudioBlock
 *
 sourceChunk
-AudioChunk
+AudioBlock
 *
 destinationChunk
 unsigned

@@ -93,7 +93,7 @@ AUDIO_TRACK
 typedef
 nsAutoTArray
 <
-AudioChunk
+AudioBlock
 1
 >
 OutputChunks
@@ -535,10 +535,10 @@ AccumulateInputChunk
 uint32_t
 aInputIndex
 const
-AudioChunk
+AudioBlock
 &
 aChunk
-AudioChunk
+AudioBlock
 *
 aBlock
 nsTArray
@@ -553,7 +553,7 @@ void
 UpMixDownMixChunk
 (
 const
-AudioChunk
+AudioBlock
 *
 aChunk
 uint32_t
@@ -584,7 +584,7 @@ aInputChannelCount
 void
 ObtainInputBlock
 (
-AudioChunk
+AudioBlock
 &
 aTmpChunk
 uint32_t

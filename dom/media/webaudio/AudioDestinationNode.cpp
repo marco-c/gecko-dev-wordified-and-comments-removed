@@ -213,10 +213,10 @@ AudioNodeStream
 *
 aStream
 const
-AudioChunk
+AudioBlock
 &
 aInput
-AudioChunk
+AudioBlock
 *
 aOutput
 bool
@@ -1002,10 +1002,10 @@ AudioNodeStream
 *
 aStream
 const
-AudioChunk
+AudioBlock
 &
 aInput
-AudioChunk
+AudioBlock
 *
 aOutput
 bool

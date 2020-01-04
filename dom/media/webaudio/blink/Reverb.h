@@ -28,7 +28,7 @@ h
 #
 include
 "
-AudioSegment
+AudioBlock
 .
 h
 "
@@ -94,13 +94,13 @@ const
 mozilla
 :
 :
-AudioChunk
+AudioBlock
 *
 sourceBus
 mozilla
 :
 :
-AudioChunk
+AudioBlock
 *
 destinationBus
 size_t
@@ -180,7 +180,7 @@ m_convolvers
 mozilla
 :
 :
-AudioChunk
+AudioBlock
 m_tempBuffer
 ;
 }

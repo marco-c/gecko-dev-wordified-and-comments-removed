@@ -1260,7 +1260,7 @@ mFinalFrequency
 void
 ComputeSilence
 (
-AudioChunk
+AudioBlock
 *
 aOutput
 )
@@ -1282,10 +1282,10 @@ AudioNodeStream
 *
 aStream
 const
-AudioChunk
+AudioBlock
 &
 aInput
-AudioChunk
+AudioBlock
 *
 aOutput
 bool
@@ -1373,10 +1373,12 @@ aOutput
 return
 ;
 }
-AllocateAudioBlock
+aOutput
+-
+>
+AllocateChannels
 (
 1
-aOutput
 )
 ;
 float
