@@ -3771,32 +3771,13 @@ append
 manifest
 )
         
-try_options
-try_tests
-=
-self
-.
-try_args
-(
-"
-marionette
-"
-)
-        
 cmd
-.
-extend
-(
+=
 self
 .
-query_tests_args
+append_harness_extra_args
 (
-try_tests
-                                         
-str_format_values
-=
-config_fmt_args
-)
+cmd
 )
         
 env
