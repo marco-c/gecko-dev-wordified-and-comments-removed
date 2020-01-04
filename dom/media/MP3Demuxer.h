@@ -531,6 +531,12 @@ IsValid
 )
 const
 ;
+bool
+IsComplete
+(
+)
+const
+;
 int64_t
 Offset
 (
