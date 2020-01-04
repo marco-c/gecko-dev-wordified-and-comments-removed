@@ -2075,6 +2075,7 @@ isMarkingTracer
 (
 )
 )
+return
 DispatchToTracer
 (
 trc
