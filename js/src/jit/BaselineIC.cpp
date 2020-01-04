@@ -30494,6 +30494,15 @@ native
 js
 :
 :
+array_concat
+|
+|
+native
+=
+=
+js
+:
+:
 array_slice
 )
 {

@@ -2204,6 +2204,14 @@ lir
 )
 ;
 void
+visitArrayConcat
+(
+LArrayConcat
+*
+lir
+)
+;
+void
 visitArraySlice
 (
 LArraySlice

@@ -1552,6 +1552,14 @@ ins
 )
 ;
 void
+visitArrayConcat
+(
+MArrayConcat
+*
+ins
+)
+;
+void
 visitArraySlice
 (
 MArraySlice
