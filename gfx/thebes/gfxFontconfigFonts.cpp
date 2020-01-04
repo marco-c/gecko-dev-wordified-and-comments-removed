@@ -1120,8 +1120,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-bool
-aItalic
+uint8_t
+aStyle
 )
 :
 gfxFcFontEntry
@@ -1129,9 +1129,9 @@ gfxFcFontEntry
 aFontName
 )
 {
-mItalic
+mStyle
 =
-aItalic
+aStyle
 ;
 mWeight
 =
@@ -1429,8 +1429,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-bool
-aItalic
+uint8_t
+aStyle
 const
 nsTArray
 <
@@ -1448,7 +1448,7 @@ gfxUserFcFontEntry
 aFontName
 aWeight
 aStretch
-aItalic
+aStyle
 )
 {
 if
@@ -1560,8 +1560,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-bool
-aItalic
+uint8_t
+aStyle
 const
 uint8_t
 *
@@ -1575,7 +1575,7 @@ gfxUserFcFontEntry
 aFontName
 aWeight
 aStretch
-aItalic
+aStyle
 )
 mFontData
 (
@@ -6431,8 +6431,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-bool
-aItalic
+uint8_t
+aStyle
 )
 {
 gfxFontconfigUtils
@@ -6564,7 +6564,7 @@ gfxLocalFcFontEntry
 aFontName
 aWeight
 aStretch
-aItalic
+aStyle
 fonts
 )
 ;
@@ -6679,8 +6679,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-bool
-aItalic
+uint8_t
+aStyle
 const
 uint8_t
 *
@@ -6735,7 +6735,7 @@ gfxDownloadedFcFontEntry
 aFontName
 aWeight
 aStretch
-aItalic
+aStyle
 aFontData
 face
 )

@@ -121,8 +121,8 @@ uint16_t
 aWeight
 uint16_t
 aStretch
-uint32_t
-aItalicStyle
+uint8_t
+aStyle
 bool
 aIsDataUserFont
 bool
@@ -328,8 +328,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-bool
-aItalic
+uint8_t
+aStyle
 )
 override
 ;
@@ -345,8 +345,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-bool
-aItalic
+uint8_t
+aStyle
 const
 uint8_t
 *
