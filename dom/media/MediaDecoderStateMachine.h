@@ -209,9 +209,6 @@ false
 nsresult
 Init
 (
-MediaDecoderStateMachine
-*
-aCloneDonor
 )
 ;
 enum

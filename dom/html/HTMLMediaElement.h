@@ -1873,7 +1873,6 @@ FinishDecoderSetup
 aDecoder
 aStream
 nullptr
-nullptr
 )
 ;
 }
@@ -2259,9 +2258,6 @@ nsIStreamListener
 *
 *
 aListener
-MediaDecoder
-*
-aCloneDonor
 )
 ;
 void

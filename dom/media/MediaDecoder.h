@@ -454,9 +454,6 @@ nsIStreamListener
 *
 *
 aListener
-MediaDecoder
-*
-aCloneDonor
 )
 ;
 nsresult
@@ -538,9 +535,6 @@ aSeekType
 nsresult
 InitializeStateMachine
 (
-MediaDecoder
-*
-aCloneDonor
 )
 ;
 virtual

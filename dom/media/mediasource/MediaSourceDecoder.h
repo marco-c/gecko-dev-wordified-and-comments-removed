@@ -121,8 +121,6 @@ Load
 nsIStreamListener
 *
 *
-MediaDecoder
-*
 )
 override
 ;
