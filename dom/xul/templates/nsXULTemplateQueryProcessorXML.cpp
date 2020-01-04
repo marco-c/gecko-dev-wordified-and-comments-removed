@@ -1520,6 +1520,12 @@ Failed
 )
 )
 {
+rv
+.
+SuppressException
+(
+)
+;
 nsXULContentUtils
 :
 :

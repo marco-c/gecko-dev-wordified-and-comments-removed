@@ -5944,9 +5944,6 @@ NS_IsMainThread
 )
 )
 ;
-ErrorResult
-ignored
-;
 switch
 (
 aState
@@ -6570,9 +6567,6 @@ NS_IsMainThread
 (
 )
 )
-;
-ErrorResult
-ignored
 ;
 nsString
 state

@@ -1328,6 +1328,12 @@ mCaretElementHolder
 rv
 )
 ;
+rv
+.
+SuppressException
+(
+)
+;
 }
 AccessibleCaret
 :
