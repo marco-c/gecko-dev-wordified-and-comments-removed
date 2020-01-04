@@ -1454,7 +1454,7 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_METERBAR_CHUNK
+NS_THEME_METERCHUNK
 &
 &
 !
