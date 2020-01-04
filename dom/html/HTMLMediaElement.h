@@ -170,6 +170,10 @@ typedef
 uint32_t
 SuspendTypes
 ;
+typedef
+uint32_t
+AudibleChangedReasons
+;
 namespace
 mozilla
 {
@@ -1150,6 +1154,8 @@ override
 void
 NotifyAudioPlaybackChanged
 (
+AudibleChangedReasons
+aReason
 )
 ;
 void
@@ -2770,6 +2776,12 @@ IsAllowedToPlay
 (
 )
 ;
+bool
+IsAudible
+(
+)
+const
+;
 class
 nsAsyncEventRunner
 ;
@@ -3354,6 +3366,9 @@ mDefaultPlaybackStartPosition
 ;
 bool
 mIsAudioTrackAudible
+;
+bool
+mAudible
 ;
 }
 ;
