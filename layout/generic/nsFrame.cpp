@@ -19579,10 +19579,6 @@ skipWhitespace
 =
 false
 ;
-trailingTextFrame
-=
-nullptr
-;
 currentLine
 +
 =
@@ -19719,10 +19715,6 @@ Clear
 (
 )
 ;
-trailingTextFrame
-=
-nullptr
-;
 skipWhitespace
 =
 true
@@ -19741,10 +19733,6 @@ nscoord
 aHyphenWidth
 )
 {
-trailingTextFrame
-=
-nullptr
-;
 if
 (
 currentLine

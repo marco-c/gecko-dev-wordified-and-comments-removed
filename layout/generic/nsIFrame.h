@@ -4933,10 +4933,6 @@ InlineMinISizeData
 (
 )
 :
-trailingTextFrame
-(
-nullptr
-)
 atStartOfLine
 (
 true
@@ -4970,10 +4966,6 @@ aHyphenWidth
 =
 0
 )
-;
-nsIFrame
-*
-trailingTextFrame
 ;
 bool
 atStartOfLine
