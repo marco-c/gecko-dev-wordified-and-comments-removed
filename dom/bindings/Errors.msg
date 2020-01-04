@@ -1520,3 +1520,14 @@ duration
 .
 "
 )
+MSG_DEF
+(
+MSG_INVALID_EASING_ERROR
+0
+JSEXN_TYPEERR
+"
+Invalid
+easing
+.
+"
+)
