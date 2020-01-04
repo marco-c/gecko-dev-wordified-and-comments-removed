@@ -200,13 +200,6 @@ nsUCvLatinCID
 .
 h
 '
-'
-ucvtw
-/
-nsUCvTWCID
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -846,6 +839,13 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+ucvtw
+/
+nsBIG5Data
+.
+cpp
+'
 '
 ucvtw
 /

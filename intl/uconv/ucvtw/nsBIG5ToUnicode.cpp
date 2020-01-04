@@ -26,7 +26,7 @@ h
 #
 include
 "
-nsBIG5DecoderData
+nsBIG5Data
 .
 h
 "
@@ -475,6 +475,9 @@ default
 char16_t
 lowBits
 =
+nsBIG5Data
+:
+:
 LowBits
 (
 pointer
@@ -549,6 +552,9 @@ continue
 }
 if
 (
+nsBIG5Data
+:
+:
 IsAstral
 (
 pointer
