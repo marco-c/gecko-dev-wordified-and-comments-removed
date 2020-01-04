@@ -436,6 +436,16 @@ mHasLoadedNonSVGUserAgentStyleSheets
 return
 ;
 }
+if
+(
+IsStaticDocument
+(
+)
+)
+{
+return
+;
+}
 mHasLoadedNonSVGUserAgentStyleSheets
 =
 true
