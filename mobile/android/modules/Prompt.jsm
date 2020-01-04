@@ -697,6 +697,16 @@ id
 aOptions
 .
 id
+max
+:
+aOptions
+.
+max
+min
+:
+aOptions
+.
+min
 }
 )
 ;
