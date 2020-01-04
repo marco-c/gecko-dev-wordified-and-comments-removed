@@ -164,6 +164,11 @@ amWebInstallListener
 js
 '
 '
+nsBlocklistService
+.
+js
+'
+'
 nsBlocklistServiceContent
 .
 js
@@ -177,11 +182,6 @@ EXTRA_PP_COMPONENTS
 extensions
 .
 manifest
-'
-'
-nsBlocklistService
-.
-js
 '
 ]
 EXTRA_JS_MODULES
