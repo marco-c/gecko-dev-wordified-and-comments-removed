@@ -767,7 +767,7 @@ aDocument
 aDocument
 -
 >
-GetDocumentURI
+GetFallbackBaseURI
 (
 )
 )
