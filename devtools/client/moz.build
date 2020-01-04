@@ -117,11 +117,6 @@ components
 animationinspector
 '
 '
-app
--
-manager
-'
-'
 canvasdebugger
 '
 '

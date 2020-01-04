@@ -151,6 +151,8 @@ FileUtils
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -165,9 +167,9 @@ devtools
 /
 client
 /
-app
--
-manager
+webide
+/
+modules
 /
 app
 -

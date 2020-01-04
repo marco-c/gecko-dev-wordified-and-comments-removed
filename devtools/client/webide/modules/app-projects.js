@@ -73,6 +73,8 @@ emitter
 .
 js
 "
+{
+}
 )
 ;
 const
@@ -124,6 +126,8 @@ FileUtils
 .
 jsm
 "
+{
+}
 )
 ;
 const
