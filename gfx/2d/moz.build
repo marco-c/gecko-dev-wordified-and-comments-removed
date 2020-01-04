@@ -279,6 +279,11 @@ SourceSurfaceCairo
 h
 '
 '
+SourceSurfaceRawData
+.
+h
+'
+'
 StackArray
 .
 h

@@ -2418,6 +2418,12 @@ RENDER_AUTO_SCALE
 virtual
 already_AddRefed
 <
+mozilla
+:
+:
+gfx
+:
+:
 SourceSurface
 >
 RenderNode
@@ -2443,6 +2449,12 @@ aFlags
 virtual
 already_AddRefed
 <
+mozilla
+:
+:
+gfx
+:
+:
 SourceSurface
 >
 RenderSelection

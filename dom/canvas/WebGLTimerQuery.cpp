@@ -201,9 +201,7 @@ GetParentObject
 const
 {
 return
-Context
-(
-)
+mContext
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_0

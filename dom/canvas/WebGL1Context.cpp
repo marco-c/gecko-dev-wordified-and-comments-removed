@@ -84,6 +84,12 @@ WebGL1Context
 :
 CreateFormatUsage
 (
+gl
+:
+:
+GLContext
+*
+gl
 )
 const
 {
@@ -96,6 +102,7 @@ FormatUsageAuthority
 :
 CreateForWebGL1
 (
+gl
 )
 ;
 }

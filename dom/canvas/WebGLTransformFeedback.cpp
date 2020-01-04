@@ -150,9 +150,7 @@ GetParentObject
 const
 {
 return
-Context
-(
-)
+mContext
 ;
 }
 JSObject

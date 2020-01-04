@@ -141,7 +141,7 @@ return
 mFormat
 ;
 }
-bool
+void
 InitWrappingData
 (
 unsigned

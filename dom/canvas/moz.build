@@ -314,6 +314,11 @@ MurmurHash3
 cpp
 '
 '
+TexUnpackBlob
+.
+cpp
+'
+'
 WebGL1Context
 .
 cpp
