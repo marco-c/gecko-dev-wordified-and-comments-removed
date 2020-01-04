@@ -223,10 +223,6 @@ aPresContextType
 DrawTarget
 *
 aDrawTarget
-const
-Rect
-&
-aDirtyRect
 Rect
 &
 aOuterRect
@@ -307,11 +303,6 @@ mPresContextType
 DrawTarget
 *
 mDrawTarget
-;
-const
-Rect
-&
-mDirtyRect
 ;
 Rect
 mOuterRect

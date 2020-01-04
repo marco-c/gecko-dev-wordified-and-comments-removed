@@ -3756,15 +3756,6 @@ twipsPerPixel
 )
 }
 ;
-Rect
-dirtyRect
-=
-NSRectToRect
-(
-aDirtyRect
-twipsPerPixel
-)
-;
 uint8_t
 borderStyles
 [
@@ -3924,7 +3915,6 @@ Type
 )
 &
 aDrawTarget
-dirtyRect
 joinedBorderAreaPx
 borderStyles
 borderWidths
@@ -4472,15 +4462,6 @@ twipsPerPixel
 )
 }
 ;
-Rect
-dirtyRect
-=
-NSRectToRect
-(
-aDirtyRect
-twipsPerPixel
-)
-;
 nsCSSBorderRenderer
 br
 (
@@ -4495,7 +4476,6 @@ aRenderingContext
 GetDrawTarget
 (
 )
-dirtyRect
 oRect
 outlineStyles
 outlineWidths
@@ -4667,7 +4647,6 @@ Type
 (
 )
 aDrawTarget
-focusRect
 focusRect
 focusStyles
 focusWidths
