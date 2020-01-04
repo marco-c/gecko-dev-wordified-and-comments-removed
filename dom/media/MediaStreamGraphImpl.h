@@ -861,14 +861,6 @@ aStream
 )
 ;
 void
-PlayVideo
-(
-MediaStream
-*
-aStream
-)
-;
-void
 OpenAudioInputImpl
 (
 int

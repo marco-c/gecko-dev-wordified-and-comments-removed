@@ -103,6 +103,10 @@ aTrackID
 )
 override
 ;
+friend
+class
+MediaStreamGraphImpl
+;
 protected
 :
 struct
