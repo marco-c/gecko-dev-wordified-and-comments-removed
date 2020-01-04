@@ -1791,9 +1791,12 @@ DispatchScriptErrorEvent
 nsPIDOMWindowInner
 *
 win
-JSContext
+JS
+:
+:
+RootingContext
 *
-cx
+rootingCx
 xpc
 :
 :

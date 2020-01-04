@@ -1688,9 +1688,12 @@ ScriptErrorEvent
 nsPIDOMWindowInner
 *
 aWindow
-JSContext
+JS
+:
+:
+RootingContext
 *
-aContext
+aRootingCx
 xpc
 :
 :
@@ -1720,7 +1723,7 @@ aReport
 )
 mError
 (
-aContext
+aRootingCx
 aError
 )
 {
@@ -2068,9 +2071,12 @@ DispatchScriptErrorEvent
 nsPIDOMWindowInner
 *
 win
-JSContext
+JS
+:
+:
+RootingContext
 *
-cx
+rootingCx
 xpc
 :
 :
@@ -2099,7 +2105,7 @@ new
 ScriptErrorEvent
 (
 win
-cx
+rootingCx
 xpcReport
 exception
 )
