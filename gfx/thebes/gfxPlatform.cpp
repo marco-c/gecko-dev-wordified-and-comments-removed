@@ -2888,6 +2888,13 @@ Init
 (
 )
 ;
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 GPUProcessManager
 :
 :
@@ -2895,6 +2902,7 @@ Initialize
 (
 )
 ;
+}
 auto
 fwd
 =
@@ -4102,6 +4110,13 @@ Shutdown
 ;
 #
 endif
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 GPUProcessManager
 :
 :
@@ -4109,6 +4124,7 @@ Shutdown
 (
 )
 ;
+}
 delete
 mozilla
 :
