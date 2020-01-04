@@ -476,7 +476,7 @@ if
 aDoDeleteSelection
 )
 {
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mRangeUpdater

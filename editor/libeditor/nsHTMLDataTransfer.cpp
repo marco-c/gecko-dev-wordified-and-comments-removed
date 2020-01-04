@@ -1340,7 +1340,7 @@ if
 aDeleteSelection
 )
 {
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mRangeUpdater

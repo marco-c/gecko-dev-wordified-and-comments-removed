@@ -613,7 +613,7 @@ aEndOffset
 NS_ERROR_NULL_POINTER
 )
 ;
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 trackerStart
 (
 aHTMLEd
@@ -624,7 +624,7 @@ aStartNode
 aStartOffset
 )
 ;
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 trackerEnd
 (
 aHTMLEd
@@ -781,7 +781,7 @@ aSplitOffset
 NS_ERROR_NULL_POINTER
 )
 ;
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 aHTMLEd
@@ -876,7 +876,7 @@ true
 )
 ;
 {
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mHTMLEditor
@@ -1227,7 +1227,7 @@ nsresult
 res
 ;
 {
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mHTMLEditor

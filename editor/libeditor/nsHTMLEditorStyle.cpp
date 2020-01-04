@@ -2627,7 +2627,7 @@ origStartNode
 startNode
 ;
 {
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mRangeUpdater
@@ -3268,7 +3268,7 @@ newSelOffset
 0
 ;
 {
-nsAutoTrackDOMPoint
+AutoTrackDOMPoint
 tracker
 (
 mRangeUpdater
