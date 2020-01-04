@@ -581,7 +581,11 @@ State
 (
 )
 const
+{
+return
+mAudioContextState
 ;
+}
 already_AddRefed
 <
 Promise
