@@ -148,6 +148,11 @@ nsIPresentationSessionTransport
 idl
 '
 '
+nsIPresentationSessionTransportBuilder
+.
+idl
+'
+'
 nsITCPPresentationServer
 .
 idl
