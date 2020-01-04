@@ -299,10 +299,7 @@ predecessor_
 using
 Path
 =
-JS
-:
-:
-ubi
+mozilla
 :
 :
 Vector
@@ -322,10 +319,7 @@ private
 using
 BackEdgeVector
 =
-JS
-:
-:
-ubi
+mozilla
 :
 :
 Vector
