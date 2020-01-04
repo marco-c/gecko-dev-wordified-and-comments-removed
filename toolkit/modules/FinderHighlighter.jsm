@@ -2948,7 +2948,7 @@ containerElement
 ;
 currWin
 =
-window
+currWin
 .
 parent
 ;
