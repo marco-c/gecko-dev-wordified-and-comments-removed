@@ -3425,6 +3425,18 @@ fillFrames
 CALL_STACK_PAGE_SIZE
 )
 ;
+if
+(
+!
+DebuggerController
+.
+_toolbox
+.
+isSplitConsoleFocused
+(
+)
+)
+{
 DebuggerView
 .
 editor
@@ -3433,6 +3445,7 @@ focus
 (
 )
 ;
+}
 }
 _onResumed
 :
