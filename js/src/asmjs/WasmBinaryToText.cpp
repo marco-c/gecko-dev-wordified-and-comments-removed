@@ -26,6 +26,13 @@ h
 #
 include
 "
+jsprf
+.
+h
+"
+#
+include
+"
 asmjs
 /
 Wasm

@@ -69,6 +69,15 @@ h
 #
 include
 "
+asmjs
+/
+WasmModule
+.
+h
+"
+#
+include
+"
 builtin
 /
 ModuleObject

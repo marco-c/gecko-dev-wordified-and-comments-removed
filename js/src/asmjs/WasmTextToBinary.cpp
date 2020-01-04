@@ -74,6 +74,15 @@ h
 #
 include
 "
+asmjs
+/
+WasmTypes
+.
+h
+"
+#
+include
+"
 ds
 /
 LifoAlloc
