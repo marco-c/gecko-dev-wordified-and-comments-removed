@@ -86,6 +86,8 @@ is
 the
 directory
 where
+firefox
+-
 plugin
 -
 container
@@ -128,6 +130,8 @@ input
 1
 )
 /
+firefox
+-
 plugin
 -
 container

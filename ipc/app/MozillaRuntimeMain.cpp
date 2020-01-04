@@ -6,9 +6,9 @@ include
 /
 contentproc
 /
-plugin
+firefox
 -
-container
+webcontent
 .
 cpp
 "

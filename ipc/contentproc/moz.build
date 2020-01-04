@@ -96,9 +96,9 @@ MPL
 Library
 (
 '
-plugin
+firefox
 -
-container
+webcontent
 '
 )
 if
@@ -119,9 +119,9 @@ SOURCES
 =
 [
 '
-plugin
+firefox
 -
-container
+webcontent
 .
 cpp
 '
