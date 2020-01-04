@@ -101,7 +101,7 @@ unsigned
 char
 *
 data
-int32_t
+uint32_t
 dataLen
 char
 *
@@ -121,7 +121,7 @@ char
 *
 *
 result
-int32_t
+uint32_t
 *
 _retval
 )
