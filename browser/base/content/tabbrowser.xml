@@ -4421,6 +4421,11 @@ true
 ;
 if
 (
+aWebProgress
+.
+isTopLevel
+&
+&
 !
 (
 aWebProgress
