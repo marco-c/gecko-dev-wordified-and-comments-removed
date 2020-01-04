@@ -1559,9 +1559,6 @@ hashEntry
 return
 NS_ERROR_FAILURE
 ;
-#
-ifndef
-DEBUG_dougt
 NS_ASSERTION
 (
 (
@@ -1592,8 +1589,6 @@ used
 "
 )
 ;
-#
-endif
 (
 (
 nsCacheEntryHashTableEntry
