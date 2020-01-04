@@ -305,13 +305,6 @@ invoked
 ;
 }
 virtual
-void
-OnBeginSyncTransaction
-(
-)
-{
-}
-virtual
 RacyInterruptPolicy
 MediateInterruptRace
 (
