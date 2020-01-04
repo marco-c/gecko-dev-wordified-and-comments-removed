@@ -2063,7 +2063,10 @@ if
 __cplusplus
 |
 |
-__cpp_static_assert
+__has_feature
+(
+cxx_alignof
+)
 %
 VERSION
 __clang_major__
