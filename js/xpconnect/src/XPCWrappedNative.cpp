@@ -3417,8 +3417,6 @@ Jsvalify
 (
 &
 XPC_WN_NoHelper_JSClass
-.
-base
 )
 ;
 MOZ_ASSERT_IF
