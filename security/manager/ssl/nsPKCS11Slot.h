@@ -124,7 +124,7 @@ destructorSafeDestroyNSSReference
 (
 )
 ;
-void
+nsresult
 refreshSlotInfo
 (
 const
