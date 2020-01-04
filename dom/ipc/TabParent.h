@@ -508,6 +508,14 @@ return
 mFrameElement
 ;
 }
+already_AddRefed
+<
+nsPIDOMWindowOuter
+>
+GetParentWindowOuter
+(
+)
+;
 void
 SetOwnerElement
 (
