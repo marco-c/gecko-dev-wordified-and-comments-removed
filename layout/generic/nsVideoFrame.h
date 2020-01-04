@@ -435,6 +435,16 @@ return
 mCaptionDiv
 ;
 }
+nsIContent
+*
+GetVideoControls
+(
+)
+{
+return
+mVideoControls
+;
+}
 #
 ifdef
 DEBUG_FRAME_DUMP

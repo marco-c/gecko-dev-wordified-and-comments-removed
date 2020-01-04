@@ -277,6 +277,7 @@ function
 window
 cues
 overlay
+controls
 )
 {
 WebVTT
@@ -286,6 +287,7 @@ processCues
 window
 cues
 overlay
+controls
 )
 ;
 }
