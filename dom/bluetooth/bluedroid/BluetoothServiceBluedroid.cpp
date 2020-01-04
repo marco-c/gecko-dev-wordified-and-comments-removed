@@ -302,6 +302,11 @@ BluetoothInterface
 sBtInterface
 ;
 static
+BluetoothCoreInterface
+*
+sBtCoreInterface
+;
+static
 nsTArray
 <
 RefPtr
@@ -464,7 +469,21 @@ NS_ENSURE_TRUE_VOID
 bs
 )
 ;
+sBtCoreInterface
+=
 sBtInterface
+-
+>
+GetBluetoothCoreInterface
+(
+)
+;
+NS_ENSURE_TRUE_VOID
+(
+sBtCoreInterface
+)
+;
+sBtCoreInterface
 -
 >
 SetNotificationHandler
@@ -479,7 +498,7 @@ bs
 )
 )
 ;
-sBtInterface
+sBtCoreInterface
 -
 >
 Enable
@@ -841,7 +860,7 @@ return
 NS_OK
 ;
 }
-sBtInterface
+sBtCoreInterface
 -
 >
 Disable
@@ -3362,7 +3381,7 @@ AppendElement
 request
 )
 ;
-sBtInterface
+sBtCoreInterface
 -
 >
 GetRemoteDeviceProperties
@@ -3467,7 +3486,7 @@ i
 +
 )
 {
-sBtInterface
+sBtCoreInterface
 -
 >
 GetRemoteDeviceProperties
@@ -3613,7 +3632,7 @@ AppendElement
 aRunnable
 )
 ;
-sBtInterface
+sBtCoreInterface
 -
 >
 StartDiscovery
@@ -3673,7 +3692,7 @@ AppendElement
 aRunnable
 )
 ;
-sBtInterface
+sBtCoreInterface
 -
 >
 GetRemoteServices
@@ -3721,7 +3740,7 @@ AppendElement
 aRunnable
 )
 ;
-sBtInterface
+sBtCoreInterface
 -
 >
 CancelDiscovery
@@ -3802,7 +3821,7 @@ AppendElement
 aRunnable
 )
 ;
-sBtInterface
+sBtCoreInterface
 -
 >
 SetAdapterProperty
@@ -3984,7 +4003,7 @@ CancelDiscovery
 )
 override
 {
-sBtInterface
+sBtCoreInterface
 -
 >
 GetRemoteServiceRecord
@@ -4126,7 +4145,7 @@ if
 mDiscovering
 )
 {
-sBtInterface
+sBtCoreInterface
 -
 >
 CancelDiscovery
@@ -4137,7 +4156,7 @@ res
 }
 else
 {
-sBtInterface
+sBtCoreInterface
 -
 >
 GetRemoteServiceRecord
@@ -4296,7 +4315,7 @@ CancelDiscovery
 )
 override
 {
-sBtInterface
+sBtCoreInterface
 -
 >
 GetRemoteServices
@@ -4433,7 +4452,7 @@ if
 mDiscovering
 )
 {
-sBtInterface
+sBtCoreInterface
 -
 >
 CancelDiscovery
@@ -4444,7 +4463,7 @@ res
 }
 else
 {
-sBtInterface
+sBtCoreInterface
 -
 >
 GetRemoteServices
@@ -4495,7 +4514,7 @@ AppendElement
 aRunnable
 )
 ;
-sBtInterface
+sBtCoreInterface
 -
 >
 CreateBond
@@ -4549,7 +4568,7 @@ AppendElement
 aRunnable
 )
 ;
-sBtInterface
+sBtCoreInterface
 -
 >
 RemoveBond
@@ -4660,7 +4679,7 @@ ENSURE_BLUETOOTH_IS_READY_VOID
 aRunnable
 )
 ;
-sBtInterface
+sBtCoreInterface
 -
 >
 PinReply
@@ -4805,7 +4824,7 @@ ENSURE_BLUETOOTH_IS_READY_VOID
 aRunnable
 )
 ;
-sBtInterface
+sBtCoreInterface
 -
 >
 SspReply
@@ -6975,6 +6994,10 @@ cleanup
 return
 ;
 }
+sBtCoreInterface
+=
+nullptr
+;
 sBtInterface
 -
 >
@@ -7356,10 +7379,10 @@ Clear
 ;
 NS_ENSURE_TRUE_VOID
 (
-sBtInterface
+sBtCoreInterface
 )
 ;
-sBtInterface
+sBtCoreInterface
 -
 >
 SetAdapterProperty
