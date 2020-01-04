@@ -138,7 +138,7 @@ obj
 >
 is
 <
-BlockObject
+ClonedBlockObject
 >
 (
 )

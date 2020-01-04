@@ -10841,7 +10841,7 @@ toObject
 .
 is
 <
-BlockObject
+ClonedBlockObject
 >
 (
 )
