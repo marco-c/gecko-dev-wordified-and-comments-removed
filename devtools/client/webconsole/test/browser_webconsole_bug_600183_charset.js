@@ -296,9 +296,6 @@ loadTab
 INIT_URI
 )
 ;
-let
-hud
-=
 yield
 openConsole
 (
@@ -319,11 +316,13 @@ loadBrowser
 browser
 )
 ;
-content
+BrowserTestUtils
 .
-location
-=
+loadURI
+(
+browser
 TEST_URI
+)
 ;
 yield
 loaded
