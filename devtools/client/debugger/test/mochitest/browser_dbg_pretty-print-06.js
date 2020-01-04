@@ -175,9 +175,13 @@ gPrettyPrinted
 true
 ;
 return
-promise
-.
-reject
+executeSoon
+(
+(
+)
+=
+>
+aCallback
 (
 {
 error
@@ -186,6 +190,7 @@ error
 prettyPrintError
 "
 }
+)
 )
 ;
 }
@@ -349,7 +354,7 @@ ok
 (
 error
 .
-error
+rdpError
 "
 Error
 came
@@ -364,7 +369,7 @@ ok
 (
 error
 .
-error
+rdpError
 .
 includes
 (
