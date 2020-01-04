@@ -525,6 +525,16 @@ shapep
 override
 ;
 void
+onStringEdge
+(
+JSString
+*
+*
+stringp
+)
+override
+;
+void
 onChild
 (
 const
