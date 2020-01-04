@@ -96,7 +96,7 @@ false
 ;
 const
 {
-storeFactory
+configureStore
 }
 =
 require

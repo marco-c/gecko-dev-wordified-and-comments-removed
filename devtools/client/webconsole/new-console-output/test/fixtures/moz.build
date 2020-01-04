@@ -61,11 +61,11 @@ MPL
 0
 /
 .
-DIRS
-+
-=
-[
+DevToolsModules
+(
 '
-fixtures
+stubs
+.
+js
 '
-]
+)

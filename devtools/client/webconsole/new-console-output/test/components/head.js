@@ -283,6 +283,8 @@ output
 /
 test
 /
+fixtures
+/
 stubs
 "
 )

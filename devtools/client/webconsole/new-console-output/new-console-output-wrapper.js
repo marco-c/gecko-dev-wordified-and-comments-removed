@@ -89,7 +89,7 @@ messages
 ;
 const
 {
-store
+configureStore
 }
 =
 require
@@ -173,6 +173,13 @@ bar
 )
 )
 ;
+const
+store
+=
+configureStore
+(
+)
+;
 function
 NewConsoleOutputWrapper
 (
@@ -208,8 +215,6 @@ createElement
 (
 Provider
 {
-store
-:
 store
 }
 React
