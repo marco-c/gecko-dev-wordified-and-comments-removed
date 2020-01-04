@@ -3926,7 +3926,6 @@ ESClass_Promise
 ESClass_Other
 }
 ;
-inline
 bool
 Unbox
 (
