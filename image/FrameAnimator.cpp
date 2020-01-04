@@ -347,9 +347,6 @@ return
 currentFrameEndTime
 ;
 }
-FrameAnimator
-:
-:
 RefreshResult
 FrameAnimator
 :
@@ -501,7 +498,7 @@ mLoopRemainingCount
 {
 ret
 .
-animationFinished
+mAnimationFinished
 =
 true
 ;
@@ -530,7 +527,7 @@ if
 (
 ret
 .
-animationFinished
+mAnimationFinished
 )
 {
 return
@@ -606,7 +603,7 @@ Forever
 {
 ret
 .
-animationFinished
+mAnimationFinished
 =
 true
 ;
@@ -621,7 +618,7 @@ nextFrameIndex
 {
 ret
 .
-dirtyRect
+mDirtyRect
 =
 aState
 .
@@ -650,7 +647,7 @@ DoBlend
 &
 ret
 .
-dirtyRect
+mDirtyRect
 currentFrameIndex
 nextFrameIndex
 )
@@ -814,7 +811,7 @@ nextFrameIndex
 ;
 ret
 .
-frameAdvanced
+mFrameAdvanced
 =
 true
 ;
@@ -822,9 +819,6 @@ return
 ret
 ;
 }
-FrameAnimator
-:
-:
 RefreshResult
 FrameAnimator
 :
@@ -892,7 +886,7 @@ if
 !
 frameRes
 .
-frameAdvanced
+mFrameAdvanced
 &
 &
 (
