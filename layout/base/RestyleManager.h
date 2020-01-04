@@ -1112,6 +1112,8 @@ Count
 0
 ;
 }
+private
+:
 void
 BeginProcessingRestyles
 (
@@ -1125,6 +1127,8 @@ EndProcessingRestyles
 (
 )
 ;
+public
+:
 void
 UpdateOnlyAnimationStyles
 (
