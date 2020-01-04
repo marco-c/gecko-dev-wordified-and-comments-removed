@@ -5097,7 +5097,7 @@ default
 :
 {
 uint8_t
-lowNibble
+highNibble
 ;
 if
 (
@@ -5107,7 +5107,7 @@ IsHexDigit
 *
 cur
 &
-lowNibble
+highNibble
 )
 )
 return
@@ -5126,7 +5126,7 @@ return
 false
 ;
 uint8_t
-highNibble
+lowNibble
 ;
 if
 (
@@ -5136,7 +5136,7 @@ IsHexDigit
 *
 cur
 &
-highNibble
+lowNibble
 )
 )
 return
