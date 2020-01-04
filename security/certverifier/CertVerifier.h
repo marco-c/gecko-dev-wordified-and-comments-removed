@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_psm__CertVerifier_h
+CertVerifier_h
 #
 define
-mozilla_psm__CertVerifier_h
+CertVerifier_h
 #
 include
 "
@@ -198,7 +198,7 @@ const
 char
 *
 hostname
-ScopedCERTCertList
+UniqueCERTCertList
 &
 builtChain
 Flags
@@ -264,7 +264,7 @@ const
 char
 *
 hostname
-ScopedCERTCertList
+UniqueCERTCertList
 &
 builtChain
 bool

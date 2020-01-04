@@ -1,9 +1,9 @@
 #
 ifndef
-_MOZILLA_PSM_TRANSPORTSECURITYINFO_H
+TransportSecurityInfo_h
 #
 define
-_MOZILLA_PSM_TRANSPORTSECURITYINFO_H
+TransportSecurityInfo_h
 #
 include
 "
@@ -313,8 +313,7 @@ collected_errors
 nsresult
 SetFailedCertChain
 (
-ScopedCERTCertList
-&
+UniqueCERTCertList
 certList
 )
 ;

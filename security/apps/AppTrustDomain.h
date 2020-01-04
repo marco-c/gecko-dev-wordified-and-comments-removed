@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_psm_AppsTrustDomain_h
+AppTrustDomain_h
 #
 define
-mozilla_psm_AppsTrustDomain_h
+AppTrustDomain_h
 #
 include
 "
@@ -85,8 +85,9 @@ Result
 ;
 AppTrustDomain
 (
-ScopedCERTCertList
+UniqueCERTCertList
 &
+certChain
 void
 *
 pinArg
@@ -444,7 +445,7 @@ override
 ;
 private
 :
-ScopedCERTCertList
+UniqueCERTCertList
 &
 mCertChain
 ;

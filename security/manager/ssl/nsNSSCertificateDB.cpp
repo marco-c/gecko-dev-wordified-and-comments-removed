@@ -2530,7 +2530,7 @@ SECStatus
 ImportCertsIntoPermanentStorage
 (
 const
-ScopedCERTCertList
+UniqueCERTCertList
 &
 certChain
 const
@@ -2872,7 +2872,7 @@ cert
 continue
 ;
 }
-ScopedCERTCertList
+UniqueCERTCertList
 certChain
 ;
 SECStatus
@@ -3122,7 +3122,7 @@ node
 )
 )
 {
-ScopedCERTCertList
+UniqueCERTCertList
 certChain
 ;
 SECStatus
@@ -5267,7 +5267,7 @@ certVerifier
 NS_ERROR_UNEXPECTED
 )
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 certlist
 (
 PK11_FindCertsFromEmailAddress
@@ -5327,7 +5327,7 @@ node
 )
 )
 {
-ScopedCERTCertList
+UniqueCERTCertList
 unusedCertChain
 ;
 SECStatus
@@ -6706,7 +6706,7 @@ nsIX509CertList
 >
 nssCertList
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 certList
 (
 PK11_ListCerts
@@ -6721,7 +6721,10 @@ nssCertList
 new
 nsNSSCertList
 (
+Move
+(
 certList
+)
 locker
 )
 ;
@@ -6856,7 +6859,7 @@ certVerifier
 NS_ERROR_FAILURE
 )
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 resultChain
 ;
 SECOidTag
@@ -6940,7 +6943,10 @@ nssCertList
 new
 nsNSSCertList
 (
+Move
+(
 resultChain
+)
 locker
 )
 ;

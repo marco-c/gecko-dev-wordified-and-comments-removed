@@ -79,13 +79,6 @@ h
 #
 include
 "
-ScopedNSSTypes
-.
-h
-"
-#
-include
-"
 seccomon
 .
 h
@@ -495,8 +488,8 @@ nsresult
 EvalChain
 (
 const
-CERTCertList
-*
+UniqueCERTCertList
+&
 certList
 const
 StaticFingerprints
@@ -762,8 +755,8 @@ PublicKeyPinningService
 ChainMatchesPinset
 (
 const
-CERTCertList
-*
+UniqueCERTCertList
+&
 certList
 const
 nsTArray
@@ -1193,8 +1186,8 @@ nsresult
 CheckPinsForHostname
 (
 const
-CERTCertList
-*
+UniqueCERTCertList
+&
 certList
 const
 char
@@ -1654,8 +1647,8 @@ PublicKeyPinningService
 ChainHasValidPins
 (
 const
-CERTCertList
-*
+UniqueCERTCertList
+&
 certList
 const
 char

@@ -2284,7 +2284,7 @@ VerifyCertificateContext
 AppTrustedRoot
 trustedRoot
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 &
 builtChain
 ;
@@ -2504,7 +2504,7 @@ const
 SECItem
 &
 detachedDigest
-ScopedCERTCertList
+UniqueCERTCertList
 &
 builtChain
 )
@@ -2697,7 +2697,7 @@ type
 =
 siBuffer
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 builtChain
 ;
 rv
@@ -3361,7 +3361,7 @@ return
 rv
 ;
 }
-ScopedCERTCertList
+UniqueCERTCertList
 builtChain
 ;
 rv
@@ -5154,7 +5154,7 @@ type
 =
 siBuffer
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 builtChain
 ;
 rv

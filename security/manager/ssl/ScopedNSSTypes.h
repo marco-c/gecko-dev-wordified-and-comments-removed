@@ -309,12 +309,6 @@ CERT_DestroyCertificateRequest
 )
 MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
 (
-ScopedCERTCertList
-CERTCertList
-CERT_DestroyCertList
-)
-MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
-(
 ScopedCERTName
 CERTName
 CERT_DestroyName

@@ -295,7 +295,7 @@ AppTrustDomain
 :
 AppTrustDomain
 (
-ScopedCERTCertList
+UniqueCERTCertList
 &
 certChain
 void
@@ -985,7 +985,7 @@ UnsafeMapInputToSECItem
 encodedIssuerName
 )
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 candidates
 (
 CERT_CreateSubjectCertList

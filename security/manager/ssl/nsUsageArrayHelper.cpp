@@ -8,6 +8,13 @@ h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -374,7 +381,7 @@ check
 )
 ;
 }
-ScopedCERTCertList
+UniqueCERTCertList
 unusedBuiltChain
 ;
 SECStatus

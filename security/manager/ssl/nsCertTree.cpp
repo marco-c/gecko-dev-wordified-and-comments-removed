@@ -2605,7 +2605,7 @@ PipUIContext
 (
 )
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 certList
 (
 PK11_ListCerts

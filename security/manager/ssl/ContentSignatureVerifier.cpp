@@ -704,7 +704,7 @@ return
 NS_ERROR_ALREADY_INITIALIZED
 ;
 }
-ScopedCERTCertList
+UniqueCERTCertList
 certCertList
 (
 CERT_NewCertList

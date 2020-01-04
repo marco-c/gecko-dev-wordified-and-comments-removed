@@ -259,8 +259,9 @@ InitCertVerifierLog
 Result
 IsCertChainRootBuiltInRoot
 (
-CERTCertList
-*
+const
+UniqueCERTCertList
+&
 chain
 bool
 &
@@ -831,7 +832,7 @@ const
 char
 *
 hostname
-ScopedCERTCertList
+UniqueCERTCertList
 &
 builtChain
 const
@@ -2590,7 +2591,7 @@ const
 char
 *
 hostname
-ScopedCERTCertList
+UniqueCERTCertList
 &
 builtChain
 bool

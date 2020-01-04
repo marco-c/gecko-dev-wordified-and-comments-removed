@@ -93,7 +93,7 @@ Result
 explicit
 CSTrustDomain
 (
-ScopedCERTCertList
+UniqueCERTCertList
 &
 certChain
 )
@@ -443,7 +443,7 @@ override
 ;
 private
 :
-ScopedCERTCertList
+UniqueCERTCertList
 &
 mCertChain
 ;

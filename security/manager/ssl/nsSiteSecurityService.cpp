@@ -3506,7 +3506,7 @@ Now
 )
 )
 ;
-ScopedCERTCertList
+UniqueCERTCertList
 certList
 ;
 RefPtr
