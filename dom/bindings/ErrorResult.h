@@ -518,6 +518,10 @@ JSContext
 cx
 )
 {
+WouldReportJSException
+(
+)
+;
 if
 (
 !

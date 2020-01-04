@@ -11508,13 +11508,6 @@ rv
 )
 ;
               
-rv
-.
-WouldReportJSException
-(
-)
-;
-              
 if
 (
 rv
@@ -46838,13 +46831,6 @@ dedent
 "
 "
                 
-rv
-.
-WouldReportJSException
-(
-)
-;
-                
 if
 (
 MOZ_UNLIKELY
@@ -56417,13 +56403,6 @@ GetOwnPropertyNames
 cx
 names
 rv
-)
-;
-            
-rv
-.
-WouldReportJSException
-(
 )
 ;
             
@@ -71605,13 +71584,6 @@ GetOwnPropertyNames
 cx
 names
 rv
-)
-;
-            
-rv
-.
-WouldReportJSException
-(
 )
 ;
             
