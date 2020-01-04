@@ -3497,6 +3497,13 @@ trace
 trc
 )
 ;
+wasm
+.
+trace
+(
+trc
+)
+;
 }
 void
 JSCompartment

@@ -88,6 +88,14 @@ Compartment
 (
 )
 ;
+void
+trace
+(
+JSTracer
+*
+trc
+)
+;
 bool
 registerInstance
 (
