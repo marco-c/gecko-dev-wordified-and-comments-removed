@@ -3000,6 +3000,13 @@ tabbox
 >
 <
 splitter
+id
+=
+"
+workers
+-
+splitter
+"
 class
 =
 "
@@ -3008,6 +3015,11 @@ devtools
 horizontal
 -
 splitter
+"
+hidden
+=
+"
+true
 "
 /
 >
