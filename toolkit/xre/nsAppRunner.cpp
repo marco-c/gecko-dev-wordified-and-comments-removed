@@ -19196,6 +19196,15 @@ true
 ;
 }
 }
+#
+ifdef
+MOZ_STYLO
+Servo_Shutdown
+(
+)
+;
+#
+endif
 return
 rv
 ;
