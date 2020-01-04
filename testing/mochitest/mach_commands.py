@@ -2834,6 +2834,9 @@ build_obj
 install
 =
 True
+xre
+=
+True
 )
     
 return
