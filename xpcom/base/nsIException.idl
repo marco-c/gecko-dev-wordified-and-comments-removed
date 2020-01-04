@@ -210,11 +210,17 @@ attribute
 AUTF8String
 sourceLine
 ;
+[
+implicit_jscontext
+]
 readonly
 attribute
 AString
 asyncCause
 ;
+[
+implicit_jscontext
+]
 readonly
 attribute
 nsIStackFrame
