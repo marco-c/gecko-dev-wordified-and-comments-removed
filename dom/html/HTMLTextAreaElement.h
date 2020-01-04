@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsIControllers
+.
+h
+"
+#
+include
+"
 nsIDOMNSEditableElement
 .
 h
