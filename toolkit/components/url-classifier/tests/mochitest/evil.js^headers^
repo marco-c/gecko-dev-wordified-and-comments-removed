@@ -7,3 +7,10 @@ Allow
 Origin
 :
 *
+Cache
+-
+Control
+:
+no
+-
+store
