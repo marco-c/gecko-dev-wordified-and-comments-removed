@@ -900,7 +900,7 @@ aSize
 )
 ;
 size_t
-lastEventId
+eventIndex
 =
 0
 ;
@@ -984,7 +984,7 @@ for
 bailOut
 &
 &
-lastEventId
+eventIndex
 <
 mEvents
 .
@@ -994,7 +994,7 @@ Length
 ;
 +
 +
-lastEventId
+eventIndex
 )
 {
 #
@@ -1008,7 +1008,7 @@ current
 &
 mEvents
 [
-lastEventId
+eventIndex
 ]
 ;
 MOZ_ASSERT
@@ -1082,7 +1082,7 @@ TimesEqual
 aTime
 mEvents
 [
-lastEventId
+eventIndex
 ]
 .
 template
@@ -1101,7 +1101,7 @@ mComputedValue
 ;
 while
 (
-lastEventId
+eventIndex
 <
 mEvents
 .
@@ -1117,7 +1117,7 @@ TimesEqual
 aTime
 mEvents
 [
-lastEventId
+eventIndex
 +
 1
 ]
@@ -1134,7 +1134,7 @@ TimeType
 {
 +
 +
-lastEventId
+eventIndex
 ;
 }
 break
@@ -1149,7 +1149,7 @@ next
 &
 mEvents
 [
-lastEventId
+eventIndex
 ]
 ;
 if
@@ -1158,7 +1158,7 @@ aTime
 <
 mEvents
 [
-lastEventId
+eventIndex
 ]
 .
 template
@@ -1182,7 +1182,7 @@ if
 bailOut
 &
 &
-lastEventId
+eventIndex
 <
 mEvents
 .
@@ -1198,7 +1198,7 @@ TimesEqual
 aTime
 mEvents
 [
-lastEventId
+eventIndex
 ]
 .
 template
@@ -1215,7 +1215,7 @@ if
 (
 mEvents
 [
-lastEventId
+eventIndex
 ]
 .
 mType
@@ -1236,7 +1236,7 @@ ExponentialApproach
 (
 mEvents
 [
-lastEventId
+eventIndex
 ]
 .
 template
@@ -1249,13 +1249,13 @@ TimeType
 mLastComputedValue
 mEvents
 [
-lastEventId
+eventIndex
 ]
 .
 mValue
 mEvents
 [
-lastEventId
+eventIndex
 ]
 .
 mTimeConstant
@@ -1269,7 +1269,7 @@ if
 (
 mEvents
 [
-lastEventId
+eventIndex
 ]
 .
 mType
@@ -1290,7 +1290,7 @@ ExtractValueFromCurve
 (
 mEvents
 [
-lastEventId
+eventIndex
 ]
 .
 template
@@ -1302,19 +1302,19 @@ TimeType
 )
 mEvents
 [
-lastEventId
+eventIndex
 ]
 .
 mCurve
 mEvents
 [
-lastEventId
+eventIndex
 ]
 .
 mCurveLength
 mEvents
 [
-lastEventId
+eventIndex
 ]
 .
 mDuration
@@ -1331,7 +1331,7 @@ bufferIndex
 =
 mEvents
 [
-lastEventId
+eventIndex
 ]
 .
 mValue
