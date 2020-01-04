@@ -942,6 +942,12 @@ ScheduleResumeComposition
 (
 )
 ;
+static
+float
+ComputeRenderIntegrity
+(
+)
+;
 virtual
 bool
 WidgetPaintsBackground
