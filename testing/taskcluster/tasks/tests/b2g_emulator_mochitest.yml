@@ -244,6 +244,12 @@ from_now
 '
 extra
 :
+treeherderEnv
+:
+-
+production
+-
+staging
 chunks
 :
 total
