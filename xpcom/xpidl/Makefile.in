@@ -59,9 +59,9 @@ export
 (
 call
 SUBMAKE
-xpidl
--
-parser
+xpidllex
+.
+py
 (
 DEPTH
 )
