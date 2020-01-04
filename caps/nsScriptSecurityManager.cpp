@@ -1105,7 +1105,7 @@ GetAppId
 )
 ;
 bool
-inMozBrowser
+inIsolatedMozBrowser
 =
 aPrin
 -
@@ -1159,7 +1159,7 @@ nsIScriptSecurityManager
 UNKNOWN_APP_ID
 |
 |
-inMozBrowser
+inIsolatedMozBrowser
 )
 {
 return
@@ -1282,7 +1282,7 @@ APP_STATUS_NOT_INSTALLED
 ;
 MOZ_ASSERT
 (
-inMozBrowser
+inIsolatedMozBrowser
 =
 =
 false

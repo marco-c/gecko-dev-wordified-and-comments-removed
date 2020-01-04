@@ -365,7 +365,7 @@ aCapability
 tab
 -
 >
-IsBrowserElement
+IsMozBrowserElement
 (
 )
 )
@@ -795,7 +795,7 @@ aType
 aCapability
 aContext
 .
-IsBrowserElement
+IsMozBrowserElement
 (
 )
 )
@@ -1168,12 +1168,12 @@ GetAppId
 )
 ;
 bool
-inBrowserElement
+inIsolatedBrowser
 =
 aPrincipal
 -
 >
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
 )
 ;
@@ -1240,12 +1240,12 @@ contextArray
 i
 ]
 .
-IsBrowserElement
+IsIsolatedMozBrowserElement
 (
 )
 |
 |
-inBrowserElement
+inIsolatedBrowser
 )
 {
 return
@@ -1555,7 +1555,7 @@ PROMPT_ACTION
 aPrincipal
 -
 >
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
 )
 )
