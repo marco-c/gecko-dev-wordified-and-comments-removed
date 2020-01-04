@@ -111,7 +111,7 @@ autoconf
 AC_DEFUN
 (
 [
-AC_ARG_ENABLE
+MOZ_AC_ARG_ENABLE
 ]
 [
 #
