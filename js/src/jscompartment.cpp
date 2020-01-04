@@ -3456,9 +3456,6 @@ innerViews
 .
 sweepAfterMinorGC
 (
-runtimeFromMainThread
-(
-)
 )
 ;
 }
@@ -3474,9 +3471,6 @@ innerViews
 .
 sweep
 (
-runtimeFromAnyThread
-(
-)
 )
 ;
 }
