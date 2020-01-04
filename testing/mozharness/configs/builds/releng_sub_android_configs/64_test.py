@@ -9,10 +9,8 @@ base_name
 '
 Android
 armv7
-API
-15
-+
-frontend
+unit
+tests
 %
 (
 branch
@@ -27,11 +25,7 @@ stage_platform
 '
 android
 -
-api
--
-15
--
-frontend
+test
 '
     
 '
