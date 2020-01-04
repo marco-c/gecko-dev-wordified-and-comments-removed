@@ -2202,9 +2202,8 @@ GetCompositionLength
 }
 else
 {
-result
-=
-origin
+return
+aOrigin
 ;
 }
 return
