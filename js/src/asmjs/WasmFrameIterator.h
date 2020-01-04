@@ -79,6 +79,9 @@ uint8_t
 *
 fp_
 ;
+bool
+missingFrameMessage_
+;
 void
 settle
 (
@@ -112,12 +115,7 @@ done
 (
 )
 const
-{
-return
-!
-fp_
 ;
-}
 JSAtom
 *
 functionDisplayAtom
