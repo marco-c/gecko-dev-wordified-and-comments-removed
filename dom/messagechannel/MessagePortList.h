@@ -218,7 +218,7 @@ aIndex
 ]
 ;
 }
-private
+public
 :
 nsCOMPtr
 <
