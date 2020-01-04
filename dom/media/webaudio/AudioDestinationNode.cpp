@@ -3022,10 +3022,6 @@ mAudioChannelAgent
 >
 NotifyStartedPlaying
 (
-nsIAudioChannelAgent
-:
-:
-AUDIO_AGENT_NOTIFY
 &
 volume
 &
