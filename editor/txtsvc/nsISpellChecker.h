@@ -227,6 +227,13 @@ aDictionary
 =
 0
 ;
+NS_IMETHOD
+CheckCurrentDictionary
+(
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
