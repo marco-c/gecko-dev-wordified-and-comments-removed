@@ -137,8 +137,6 @@ aVideoQueue
 VideoFrameContainer
 *
 aContainer
-bool
-aRealTime
 FrameStatistics
 &
 aFrameStats
@@ -404,10 +402,6 @@ mContainer
 const
 ProducerID
 mProducerID
-;
-const
-bool
-mRealTime
 ;
 FrameStatistics
 &

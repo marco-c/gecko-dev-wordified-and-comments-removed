@@ -106,8 +106,6 @@ aVideoQueue
 VideoFrameContainer
 *
 aContainer
-bool
-aRealTime
 FrameStatistics
 &
 aFrameStats
@@ -139,10 +137,6 @@ ImageContainer
 AllocateProducerID
 (
 )
-)
-mRealTime
-(
-aRealTime
 )
 mFrameStats
 (
@@ -1552,10 +1546,6 @@ PeekFront
 ;
 if
 (
-!
-mRealTime
-&
-&
 nextFrame
 -
 >
