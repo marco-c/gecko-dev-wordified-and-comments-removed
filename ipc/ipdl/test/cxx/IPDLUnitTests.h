@@ -111,7 +111,6 @@ _ipdltest
 const
 char
 *
-const
 IPDLUnitTestName
 (
 )

@@ -350,7 +350,6 @@ message_loop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 OpenParent
@@ -479,7 +478,8 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
+do_AddRef
+(
 new
 DeleteTask
 <
@@ -487,6 +487,7 @@ Transport
 >
 (
 transport
+)
 )
 )
 ;
@@ -531,7 +532,6 @@ message_loop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 ShutdownTestOpensOpenedParent
@@ -733,7 +733,6 @@ message_loop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 OpenChild
@@ -849,7 +848,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -907,7 +905,8 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
+do_AddRef
+(
 new
 DeleteTask
 <
@@ -917,13 +916,13 @@ Transport
 transport
 )
 )
+)
 ;
 gMainThread
 -
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 gOpensChild
@@ -976,7 +975,6 @@ message_loop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 ShutdownTestOpensOpenedChild

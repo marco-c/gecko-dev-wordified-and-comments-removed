@@ -190,7 +190,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this

@@ -153,7 +153,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 DeleteSubprocess
@@ -278,7 +277,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 DeleteTheWorld
@@ -315,7 +313,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 Done

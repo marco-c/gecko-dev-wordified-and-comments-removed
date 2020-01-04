@@ -119,7 +119,6 @@ nullptr
 const
 char
 *
-const
 IPDLUnitTestName
 (
 )
@@ -286,7 +285,6 @@ IPDLUnitTestType
 const
 char
 *
-const
 IPDLUnitTestToString
 (
 IPDLUnitTestType
@@ -904,7 +902,6 @@ uiLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 QuitXPCOM
@@ -924,7 +921,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 DeleteSubprocess
@@ -1008,7 +1004,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 TryThreadedShutdown
@@ -1028,7 +1023,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 DeferredParentShutdown
@@ -1067,7 +1061,6 @@ gParentMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 ChildCompleted
@@ -1087,7 +1080,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 ChildDie

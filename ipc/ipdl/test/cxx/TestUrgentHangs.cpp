@@ -200,7 +200,6 @@ current
 >
 PostDelayedTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -261,7 +260,6 @@ current
 >
 PostDelayedTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -322,7 +320,6 @@ current
 >
 PostDelayedTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
