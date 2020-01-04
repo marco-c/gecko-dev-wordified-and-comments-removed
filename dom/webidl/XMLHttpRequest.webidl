@@ -628,8 +628,6 @@ getAllResponseHeaders
 ;
 [
 Throws
-=
-Workers
 ]
 void
 overrideMimeType

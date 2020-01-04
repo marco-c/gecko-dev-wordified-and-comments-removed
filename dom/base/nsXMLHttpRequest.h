@@ -2122,13 +2122,11 @@ const
 nsAString
 &
 aMimeType
+ErrorResult
+&
+aRv
 )
-{
-mOverrideMimeType
-=
-aMimeType
 ;
-}
 XMLHttpRequestResponseType
 ResponseType
 (
