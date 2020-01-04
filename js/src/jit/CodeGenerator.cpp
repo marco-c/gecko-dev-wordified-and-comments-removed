@@ -31823,6 +31823,9 @@ TypedArrayConstructorOneArgFn
 >
 (
 TypedArrayCreateWithTemplate
+"
+TypedArrayCreateWithTemplate
+"
 )
 ;
 void

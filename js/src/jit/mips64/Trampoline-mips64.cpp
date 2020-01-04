@@ -4905,6 +4905,9 @@ HandleDebugTrapFn
 >
 (
 HandleDebugTrap
+"
+HandleDebugTrap
+"
 )
 ;
 JitCode

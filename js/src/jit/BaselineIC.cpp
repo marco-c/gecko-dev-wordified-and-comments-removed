@@ -861,6 +861,9 @@ DoWarmUpCounterFallbackOSRFn
 >
 (
 DoWarmUpCounterFallbackOSR
+"
+DoWarmUpCounterFallbackOSR
+"
 )
 ;
 bool
@@ -1646,6 +1649,9 @@ DoTypeUpdateFallbackFn
 >
 (
 DoTypeUpdateFallback
+"
+DoTypeUpdateFallback
+"
 NonTailCall
 )
 ;
@@ -2231,6 +2237,9 @@ DoCallNativeGetterFn
 >
 (
 DoCallNativeGetter
+"
+DoCallNativeGetter
+"
 )
 ;
 static
@@ -2692,6 +2701,9 @@ pf
 >
 (
 DoToBoolFallback
+"
+DoToBoolFallback
+"
 TailCall
 )
 ;
@@ -3469,6 +3481,9 @@ DoToNumberFallbackFn
 >
 (
 DoToNumberFallback
+"
+DoToNumberFallback
+"
 TailCall
 PopValues
 (
@@ -8836,6 +8851,9 @@ DoGetElemFallbackFn
 >
 (
 DoGetElemFallback
+"
+DoGetElemFallback
+"
 TailCall
 PopValues
 (
@@ -9050,6 +9068,9 @@ DoAtomizeStringFn
 >
 (
 DoAtomizeString
+"
+DoAtomizeString
+"
 )
 ;
 template
@@ -14370,6 +14391,9 @@ DoSetElemFallbackFn
 >
 (
 DoSetElemFallback
+"
+DoSetElemFallback
+"
 TailCall
 PopValues
 (
@@ -18304,6 +18328,9 @@ DoInFallbackFn
 >
 (
 DoInFallback
+"
+DoInFallback
+"
 TailCall
 PopValues
 (
@@ -21635,6 +21662,9 @@ DoGetNameFallbackFn
 >
 (
 DoGetNameFallback
+"
+DoGetNameFallback
+"
 TailCall
 )
 ;
@@ -22262,6 +22292,9 @@ DoBindNameFallbackFn
 >
 (
 DoBindNameFallback
+"
+DoBindNameFallback
+"
 TailCall
 )
 ;
@@ -22559,6 +22592,9 @@ DoGetIntrinsicFallbackFn
 >
 (
 DoGetIntrinsicFallback
+"
+DoGetIntrinsicFallback
+"
 TailCall
 )
 ;
@@ -24938,6 +24974,9 @@ DoSetPropFallbackFn
 >
 (
 DoSetPropFallback
+"
+DoSetPropFallback
+"
 TailCall
 PopValues
 (
@@ -28286,6 +28325,9 @@ DoCallNativeSetterFn
 >
 (
 DoCallNativeSetter
+"
+DoNativeCallSetter
+"
 )
 ;
 bool
@@ -34828,6 +34870,9 @@ DoCallFallbackFn
 >
 (
 DoCallFallback
+"
+DoCallFallback
+"
 )
 ;
 typedef
@@ -34859,6 +34904,9 @@ DoSpreadCallFallbackFn
 >
 (
 DoSpreadCallFallback
+"
+DoSpreadCallFallback
+"
 )
 ;
 bool
@@ -35402,6 +35450,9 @@ CreateThisFn
 >
 (
 CreateThis
+"
+CreateThis
+"
 )
 ;
 bool
@@ -36850,6 +36901,9 @@ CopyArrayFn
 >
 (
 CopyArray
+"
+CopyArray
+"
 )
 ;
 bool
@@ -40669,6 +40723,9 @@ DoIteratorNewFallbackFn
 >
 (
 DoIteratorNewFallback
+"
+DoIteratorNewFallback
+"
 TailCall
 PopValues
 (
@@ -40938,6 +40995,9 @@ DoIteratorMoreFallbackFn
 >
 (
 DoIteratorMoreFallback
+"
+DoIteratorMoreFallback
+"
 TailCall
 )
 ;
@@ -41338,6 +41398,9 @@ DoIteratorCloseFallbackFn
 >
 (
 DoIteratorCloseFallback
+"
+DoIteratorCloseFallback
+"
 TailCall
 )
 ;
@@ -41937,6 +42000,9 @@ DoInstanceOfFallbackFn
 >
 (
 DoInstanceOfFallback
+"
+DoInstanceOfFallback
+"
 TailCall
 PopValues
 (
@@ -42626,6 +42692,9 @@ DoTypeOfFallbackFn
 >
 (
 DoTypeOfFallback
+"
+DoTypeOfFallback
+"
 TailCall
 )
 ;
@@ -43109,6 +43178,9 @@ DoRetSubFallbackFn
 >
 (
 DoRetSubFallback
+"
+DoRetSubFallback
+"
 )
 ;
 typedef
@@ -43137,6 +43209,9 @@ js
 :
 :
 Throw
+"
+ThrowInfoBaseline
+"
 TailCall
 )
 ;
@@ -46462,6 +46537,9 @@ DoRestFallbackFn
 >
 (
 DoRestFallback
+"
+DoRestFallback
+"
 TailCall
 )
 ;

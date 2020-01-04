@@ -3816,6 +3816,9 @@ HandleDebugTrapFn
 >
 (
 HandleDebugTrap
+"
+HandleDebugTrap
+"
 )
 ;
 JitCode
