@@ -255,13 +255,6 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 gfxImageSurface
 .
 h
@@ -23995,7 +23988,7 @@ IsInnerWindow
 if
 (
 !
-gfxASurface
+Factory
 :
 :
 CheckSurfaceSize
@@ -25007,7 +25000,7 @@ aFlags
 if
 (
 !
-gfxASurface
+Factory
 :
 :
 CheckSurfaceSize

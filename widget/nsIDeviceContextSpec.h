@@ -17,9 +17,6 @@ nsIWidget
 class
 nsIPrintSettings
 ;
-class
-gfxASurface
-;
 namespace
 mozilla
 {
