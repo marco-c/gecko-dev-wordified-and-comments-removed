@@ -613,9 +613,6 @@ registerSchemaAPI
 "
 history
 "
-"
-history
-"
 (
 extension
 context

@@ -129,6 +129,15 @@ flight
 .
 "
 "
+permissions
+"
+:
+[
+"
+webNavigation
+"
+]
+"
 types
 "
 :

@@ -147,6 +147,15 @@ pages
 .
 "
 "
+permissions
+"
+:
+[
+"
+contextMenus
+"
+]
+"
 properties
 "
 :

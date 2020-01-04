@@ -74,9 +74,6 @@ registerSchemaAPI
 "
 storage
 "
-"
-storage
-"
 (
 extension
 context

@@ -51,7 +51,6 @@ registerSchemaAPI
 "
 i18n
 "
-null
 (
 extension
 context

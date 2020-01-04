@@ -4025,6 +4025,14 @@ whiteListedHosts
 ;
 this
 .
+permissions
+=
+data
+.
+permissions
+;
+this
+.
 localeData
 =
 new
