@@ -430,15 +430,13 @@ delete
 define
 DEFINED_ON_DISPATCH_RESULT
 (
-.
-.
-.
+Result
 )
 \
 DEFINED_ON_RESULT_
 #
 #
-__VA_ARGS__
+Result
 #
 define
 DEFINED_ON_EXPAND_ARCH_RESULTS_3
