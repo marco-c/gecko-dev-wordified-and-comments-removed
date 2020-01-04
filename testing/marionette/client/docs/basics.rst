@@ -5,6 +5,8 @@ py
 currentmodule
 :
 :
+marionette_driver
+.
 marionette
 Marionette
 Python

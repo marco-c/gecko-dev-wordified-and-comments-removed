@@ -4357,6 +4357,13 @@ adb_port
 =
 adb_port
         
+self
+.
+restart_handlers
+=
+[
+]
+        
 startup_timeout
 =
 startup_timeout
@@ -8681,6 +8688,18 @@ session_id
 self
 .
 _reset_timeouts
+(
+)
+        
+for
+handler
+in
+self
+.
+restart_handlers
+:
+            
+handler
 (
 )
     
