@@ -3039,10 +3039,9 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 +
-prettyFuncNames
-.
-sizeOfExcludingThis
+SizeOfVectorExcludingThis
 (
+prettyFuncNames
 mallocSizeOf
 )
 +
