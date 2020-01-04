@@ -1307,6 +1307,11 @@ TraceableHashMap
 JSObject
 *
 uint32_t
+MovableCellHasher
+<
+JSObject
+*
+>
 >
 ;
 Rooted
