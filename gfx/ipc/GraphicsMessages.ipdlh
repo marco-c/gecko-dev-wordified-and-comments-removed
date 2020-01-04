@@ -140,6 +140,9 @@ bool
 useD3D11WARP
 ;
 bool
+useD3D11ImageBridge
+;
+bool
 d3d11TextureSharingWorks
 ;
 bool
