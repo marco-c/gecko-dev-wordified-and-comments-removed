@@ -3010,6 +3010,14 @@ allocLimit
 ;
 static
 bool
+CheckBufferSize
+(
+int32_t
+bufSize
+)
+;
+static
+bool
 ReasonableSurfaceSize
 (
 const

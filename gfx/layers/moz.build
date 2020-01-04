@@ -1177,11 +1177,6 @@ TransactionIdAllocator
 .
 h
 '
-'
-YCbCrImageDataSerializer
-.
-h
-'
 ]
 if
 CONFIG
@@ -2307,11 +2302,6 @@ cpp
 '
 '
 TextureWrapperImage
-.
-cpp
-'
-'
-YCbCrImageDataSerializer
 .
 cpp
 '

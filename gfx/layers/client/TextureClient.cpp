@@ -115,17 +115,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-YCbCrImageDataSerializer
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
@@ -3699,7 +3688,7 @@ TextureClient
 TextureClient
 :
 :
-CreateWithBufferSize
+CreateForYCbCrWithBufferSize
 (
 ISurfaceAllocator
 *
@@ -3754,7 +3743,7 @@ data
 BufferTextureData
 :
 :
-CreateWithBufferSize
+CreateForYCbCrWithBufferSize
 (
 aAllocator
 aFormat

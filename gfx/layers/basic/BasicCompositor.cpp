@@ -33,17 +33,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-YCbCrImageDataSerializer
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h
