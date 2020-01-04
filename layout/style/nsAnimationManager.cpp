@@ -640,12 +640,12 @@ OwningElement
 ;
 }
 return
-mSequenceNum
+mAnimationIndex
 <
 otherAnimation
 -
 >
-mSequenceNum
+mAnimationIndex
 ;
 }
 void
