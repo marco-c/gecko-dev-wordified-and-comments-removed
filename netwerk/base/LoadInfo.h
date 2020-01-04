@@ -154,6 +154,17 @@ already_AddRefed
 <
 nsILoadInfo
 >
+CloneWithNewSecFlags
+(
+nsSecurityFlags
+aSecurityFlags
+)
+const
+;
+already_AddRefed
+<
+nsILoadInfo
+>
 CloneForNewRequest
 (
 )
