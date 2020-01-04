@@ -405,6 +405,8 @@ NULL
 )
 endif
 ifndef
+NSS_DISABLE_LIBPKIX
+ifndef
 NSS_BUILD_SOFTOKEN_ONLY
 PKIXLIB
 =
@@ -588,6 +590,7 @@ pkixcertsel
 (
 LIB_SUFFIX
 )
+endif
 endif
 NSS_LIBS_1
 =

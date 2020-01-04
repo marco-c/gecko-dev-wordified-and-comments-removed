@@ -182,7 +182,9 @@ base
 dev
 pki
 \
-libpkix
+(
+LIBPKIX_SRCDIR
+)
 \
 certdb
 certhigh

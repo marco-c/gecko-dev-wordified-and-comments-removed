@@ -1175,9 +1175,6 @@ cleanup
 if
 (
 PKIX_ERROR_RECEIVED
-&
-&
-aiaMgr
 )
 {
 if

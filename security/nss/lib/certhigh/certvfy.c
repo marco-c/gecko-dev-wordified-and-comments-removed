@@ -76,6 +76,9 @@ cryptohi
 h
 "
 #
+ifndef
+NSS_DISABLE_LIBPKIX
+#
 include
 "
 pkix
@@ -89,6 +92,17 @@ pkix_pl_cert
 .
 h
 "
+#
+else
+#
+include
+"
+nss
+.
+h
+"
+#
+endif
 #
 include
 "

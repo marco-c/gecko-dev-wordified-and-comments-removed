@@ -1285,10 +1285,6 @@ poolp
 mark
 )
 ;
-if
-(
-childp7dcx
-)
 PORT_Free
 (
 childp7dcx

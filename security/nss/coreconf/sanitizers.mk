@@ -115,6 +115,14 @@ omit
 frame
 -
 pointer
+-
+fno
+-
+optimize
+-
+sibling
+-
+calls
 #
 You
 probably

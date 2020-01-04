@@ -302,11 +302,6 @@ obj
 ;
 loser
 :
-if
-(
-obj
-)
-{
 (
 void
 )
@@ -315,7 +310,6 @@ lg_DestroyObjectCache
 obj
 )
 ;
-}
 return
 NULL
 ;
@@ -7678,6 +7672,8 @@ trust
 NSSLOWCERTCertificate
 *
 cert
+=
+NULL
 ;
 NSSLOWCERTCertDBHandle
 *
@@ -7953,6 +7949,17 @@ CKR_DEVICE_ERROR
 ;
 done
 :
+if
+(
+cert
+)
+{
+nsslowcert_DestroyCertificate
+(
+cert
+)
+;
+}
 return
 crv
 ;

@@ -641,6 +641,15 @@ dev
 /
 base
 \
+(
+NULL
+)
+ifndef
+NSS_DISABLE_LIBPKIX
+SHARED_LIBRARY_DIRS
++
+=
+\
 .
 .
 /
@@ -743,6 +752,7 @@ module
 (
 NULL
 )
+endif
 ifeq
 (
 (

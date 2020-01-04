@@ -386,6 +386,9 @@ compressionMethod
 PRBool
 extendedMasterSecretUsed
 ;
+PRBool
+earlyDataAccepted
+;
 }
 SSLChannelInfo
 ;
@@ -596,6 +599,9 @@ ssl_tls13_key_share_xtn
 ssl_tls13_pre_shared_key_xtn
 =
 41
+ssl_tls13_early_data_xtn
+=
+42
 ssl_next_proto_nego_xtn
 =
 13172
@@ -615,7 +621,7 @@ ssl_supported_groups_xtn
 #
 define
 SSL_MAX_EXTENSIONS
-15
+16
 /
 *
 doesn

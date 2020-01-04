@@ -64,7 +64,7 @@ ci
 .
 0
 .
-16
+17
 artifacts
 :
 public
@@ -148,16 +148,6 @@ extra
 :
 treeherder
 :
-revision
-:
-!
-env
-TC_REVISION
-revision_hash
-:
-!
-env
-TC_REVISION_HASH
 symbol
 :
 B

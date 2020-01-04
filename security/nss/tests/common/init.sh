@@ -438,6 +438,18 @@ see
 bug
 1246801
 .
+if
+[
+-
+z
+"
+{
+NSS_ENABLE_LSAN
+}
+"
+]
+;
+then
 ASAN_OPTIONS
 =
 "
@@ -454,6 +466,7 @@ ASAN_OPTIONS
 "
 export
 ASAN_OPTIONS
+fi
 #
 Init
 directories

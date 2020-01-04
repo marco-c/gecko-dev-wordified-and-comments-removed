@@ -5794,6 +5794,9 @@ bag
 -
 >
 attribs
+[
+i
+]
 )
 {
 return

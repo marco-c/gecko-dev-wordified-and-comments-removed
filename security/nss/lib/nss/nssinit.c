@@ -104,6 +104,9 @@ nssutil
 h
 "
 #
+ifndef
+NSS_DISABLE_LIBPKIX
+#
 include
 "
 pkixt
@@ -124,6 +127,8 @@ pkix_tools
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -2259,6 +2264,9 @@ nssInitContextList
 =
 NULL
 ;
+#
+ifndef
+NSS_DISABLE_LIBPKIX
 static
 void
 *
@@ -2266,6 +2274,8 @@ plContext
 =
 NULL
 ;
+#
+endif
 struct
 NSSInitContextStr
 {
@@ -2428,6 +2438,9 @@ rv
 =
 SECFailure
 ;
+#
+ifndef
+NSS_DISABLE_LIBPKIX
 PKIX_UInt32
 actualMinorVersion
 =
@@ -2439,6 +2452,8 @@ pkixError
 =
 NULL
 ;
+#
+endif
 PRBool
 isReallyInitted
 ;
@@ -3036,6 +3051,9 @@ cert_CreateSubjectKeyIDHashTable
 (
 )
 ;
+#
+ifndef
+NSS_DISABLE_LIBPKIX
 pkixError
 =
 PKIX_Initialize
@@ -3093,6 +3111,8 @@ PR_TRUE
 ;
 }
 }
+#
+endif
 }
 PZ_Lock
 (
@@ -4630,11 +4650,16 @@ OCSP_ShutdownGlobal
 (
 )
 ;
+#
+ifndef
+NSS_DISABLE_LIBPKIX
 PKIX_Shutdown
 (
 plContext
 )
 ;
+#
+endif
 SECOID_Shutdown
 (
 )
