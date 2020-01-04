@@ -12748,6 +12748,11 @@ ReferrerPolicy
 aReferrerPolicy
 )
 {
+NS_ENSURE_TRUE_VOID
+(
+mDocument
+)
+;
 if
 (
 !
@@ -12845,9 +12850,6 @@ sourceUri
 ;
 if
 (
-mDocument
-&
-&
 mDocument
 -
 >
