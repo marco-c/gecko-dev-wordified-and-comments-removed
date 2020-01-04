@@ -441,6 +441,9 @@ MOZ_RELEASE_ASSERT
 false
 )
 ;
+return
+0
+;
 }
 static
 Buffer
