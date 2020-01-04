@@ -2006,6 +2006,12 @@ response_addr_
 =
 nullptr
 ;
+received_ct_
+.
+clear
+(
+)
+;
 }
 void
 TestStunTcpServer
