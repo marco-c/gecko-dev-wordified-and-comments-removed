@@ -6281,6 +6281,12 @@ hasSSE4_1
 hasSSE4_2
 "
 "
+hasAVX
+"
+"
+hasAVX2
+"
+"
 hasEDSP
 "
 "
