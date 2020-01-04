@@ -19834,6 +19834,14 @@ isThrowingOverRecursed
 )
 |
 |
+cx
+-
+>
+isThrowingOutOfMemory
+(
+)
+|
+|
 builder
 .
 abortReason
@@ -19843,9 +19851,11 @@ abortReason
 =
 AbortReason_Alloc
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 !
