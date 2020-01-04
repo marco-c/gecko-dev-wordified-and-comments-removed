@@ -307,6 +307,9 @@ name
 nsString
 contentType
 ;
+nsString
+path
+;
 uint64_t
 length
 ;
