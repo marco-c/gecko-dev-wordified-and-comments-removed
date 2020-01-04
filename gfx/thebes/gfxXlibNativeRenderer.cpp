@@ -1421,12 +1421,12 @@ GetFormat
 )
 )
 :
+gfxCairoFormatToImageFormat
 (
-gfxImageFormat
-)
 cairo_image_surface_get_format
 (
 cairoTarget
+)
 )
 ;
 target_visual
