@@ -23,6 +23,7 @@ SearchPropertyValue
 const
 char
 *
+const
 aProperties
 [
 ]

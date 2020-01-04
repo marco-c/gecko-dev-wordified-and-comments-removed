@@ -138,6 +138,7 @@ static
 const
 char
 *
+const
 kUnixCharsets
 [
 ]

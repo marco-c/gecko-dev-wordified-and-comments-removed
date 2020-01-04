@@ -61,6 +61,7 @@ operator
 const
 char
 *
+const
 (
 &
 aProperty
@@ -95,6 +96,7 @@ SearchPropertyValue
 const
 char
 *
+const
 aProperties
 [
 ]

@@ -78,6 +78,7 @@ static
 const
 char
 *
+const
 kWinCharsets
 [
 ]
