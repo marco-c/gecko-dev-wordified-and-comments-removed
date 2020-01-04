@@ -10327,6 +10327,8 @@ PrepareWindowEffects
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 MutexAutoLock
 lock
 (
@@ -10426,6 +10428,8 @@ UpdateTitlebarCGContext
 )
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsChildView
