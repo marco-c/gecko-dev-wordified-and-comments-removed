@@ -1068,11 +1068,6 @@ body
 ;
 if
 (
-body
-)
-{
-if
-(
 inputReq
 -
 >
@@ -1094,6 +1089,11 @@ return
 nullptr
 ;
 }
+if
+(
+body
+)
+{
 temporaryBody
 =
 body
