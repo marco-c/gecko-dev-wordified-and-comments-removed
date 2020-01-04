@@ -3410,7 +3410,9 @@ prop
 prop
 -
 >
-constants
+HasConstants
+(
+)
 )
 {
 for
@@ -3421,7 +3423,9 @@ cs
 prop
 -
 >
-constants
+Constants
+(
+)
 -
 >
 specs
@@ -3634,7 +3638,9 @@ prop
 prop
 -
 >
-constants
+HasConstants
+(
+)
 )
 {
 for
@@ -3645,7 +3651,9 @@ cs
 prop
 -
 >
-constants
+Constants
+(
+)
 -
 >
 specs
