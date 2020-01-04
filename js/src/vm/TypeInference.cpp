@@ -13413,7 +13413,7 @@ obj
 >
 is
 <
-CallObject
+LexicalScopeBase
 >
 (
 )

@@ -3467,6 +3467,14 @@ name
 )
 ;
 bool
+jsop_getimport
+(
+PropertyName
+*
+name
+)
+;
+bool
 jsop_bindname
 (
 PropertyName
