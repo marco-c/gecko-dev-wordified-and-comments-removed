@@ -88,6 +88,17 @@ specTests
 push
 (
 "
+i64
+.
+wast
+"
+)
+;
+specTests
+.
+push
+(
+"
 imports
 .
 wast

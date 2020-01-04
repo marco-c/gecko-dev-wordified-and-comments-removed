@@ -1493,15 +1493,8 @@ I64Popcnt
 return
 f
 .
-iter
+checkI64Support
 (
-)
-.
-notYetImplemented
-(
-"
-i64
-"
 )
 &
 &
