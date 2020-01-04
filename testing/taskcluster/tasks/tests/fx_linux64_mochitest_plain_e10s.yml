@@ -82,6 +82,9 @@ chunk
 }
 payload
 :
+maxRunTime
+:
+5400
 capabilities
 :
 devices
