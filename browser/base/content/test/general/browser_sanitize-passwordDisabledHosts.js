@@ -53,10 +53,8 @@ tempScope
 .
 Sanitizer
 ;
-add_task
-(
 function
-*
+test
 (
 )
 {
@@ -267,7 +265,6 @@ siteSettings
 true
 )
 ;
-yield
 s
 .
 sanitize
@@ -313,5 +310,3 @@ cleared
 )
 ;
 }
-)
-;

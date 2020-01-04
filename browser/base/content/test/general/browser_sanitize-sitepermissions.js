@@ -96,10 +96,7 @@ return
 result
 ;
 }
-add_task
-(
 function
-*
 test
 (
 )
@@ -298,7 +295,6 @@ one
 "
 )
 ;
-yield
 s
 .
 sanitize
@@ -326,5 +322,3 @@ with
 )
 ;
 }
-)
-;
