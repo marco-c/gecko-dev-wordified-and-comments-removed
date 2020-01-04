@@ -165,7 +165,7 @@ int64_t
 GetPositionInFrames
 (
 int64_t
-frames
+aFrames
 )
 const
 ;
