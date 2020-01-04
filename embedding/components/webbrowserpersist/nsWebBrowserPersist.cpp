@@ -1072,6 +1072,10 @@ nsWebBrowserPersist
 (
 )
 :
+mCurrentDataPathIsRelative
+(
+false
+)
 mCurrentThingsToPersist
 (
 0
