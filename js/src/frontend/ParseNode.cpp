@@ -734,9 +734,6 @@ case
 PNK_DELETEELEM
 :
 case
-PNK_DELETESUPERELEM
-:
-case
 PNK_DELETEEXPR
 :
 case
@@ -774,9 +771,6 @@ PNK_EXPORT
 :
 case
 PNK_EXPORT_DEFAULT
-:
-case
-PNK_SUPERELEM
 :
 return
 PushUnaryNodeChild
