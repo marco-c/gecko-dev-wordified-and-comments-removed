@@ -11634,6 +11634,7 @@ getUserRequested
 (
 )
 ;
+final
 String
 telemetryMsg
 ;
@@ -11657,7 +11658,7 @@ telemetryMsg
 "
 urlbar
 -
-userEntered
+userentered
 "
 ;
 }
@@ -11700,7 +11701,7 @@ TelemetryContract
 .
 Event
 .
-SEARCH
+SHOW
 TelemetryContract
 .
 Method
@@ -11870,11 +11871,6 @@ NIGHTLY_BUILD
 )
 {
 showBrowserSearchAfterAnimation
-(
-animator
-)
-;
-hideWebContentOnPropertyAnimationEnd
 (
 animator
 )
@@ -13796,10 +13792,6 @@ getMostRecentHomePanel
 (
 )
 )
-;
-mHideWebContentOnAnimationEnd
-=
-false
 ;
 mBrowserSearchContainer
 .
