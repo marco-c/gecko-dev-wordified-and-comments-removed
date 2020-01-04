@@ -1102,6 +1102,18 @@ n
 mGraphImpl
 )
 ;
+NS_WARN_IF
+(
+!
+mThread
+)
+;
+if
+(
+!
+mThread
+)
+{
 nsCOMPtr
 <
 nsIRunnable
@@ -1145,6 +1157,7 @@ event
 NS_DISPATCH_NORMAL
 )
 ;
+}
 }
 }
 void
