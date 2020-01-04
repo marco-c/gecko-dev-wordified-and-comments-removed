@@ -548,7 +548,7 @@ aData
 bool
 ok
 =
-false
+true
 ;
 nsTArray
 <
@@ -760,7 +760,7 @@ aScope
 bool
 ok
 =
-false
+true
 ;
 nsTArray
 <
