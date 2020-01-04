@@ -4226,7 +4226,7 @@ const
 unsigned
 sRuntimeHeapSize
 =
-2
+4
 <
 <
 20
