@@ -225,6 +225,11 @@ gaia_lock_screen
 js
 '
 '
+mach_test_package_commands
+.
+py
+'
+'
 output
 .
 py
