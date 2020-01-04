@@ -392,6 +392,12 @@ size
 .
 9em
 ;
+margin
+-
+top
+:
+1rem
+;
 }
 .
 contact
@@ -1318,6 +1324,12 @@ position
 top
 center
 ;
+background
+-
+size
+:
+128px
+;
 margin
 -
 top
@@ -1328,7 +1340,7 @@ padding
 -
 top
 :
-10rem
+12rem
 ;
 padding
 -
