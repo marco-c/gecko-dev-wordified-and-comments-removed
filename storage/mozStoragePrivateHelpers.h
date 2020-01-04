@@ -201,6 +201,11 @@ char_type
 )
 )
 ;
+delete
+[
+]
+blob
+;
 return
 NS_OK
 ;
