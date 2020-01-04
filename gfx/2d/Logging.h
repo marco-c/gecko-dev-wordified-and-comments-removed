@@ -293,6 +293,7 @@ IncompatibleBasicTexturedEffect
 InvalidFont
 PAllocTextureBackendMismatch
 GetFontFileDataFailed
+MessageChannelCloseFailure
 MustBeLessThanThis
 =
 101
