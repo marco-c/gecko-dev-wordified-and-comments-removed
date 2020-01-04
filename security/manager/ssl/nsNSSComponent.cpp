@@ -7616,14 +7616,6 @@ true
 lock
 )
 ;
-SSL_ConfigServerSessionIDCache
-(
-1000
-0
-0
-nullptr
-)
-;
 #
 ifndef
 MOZ_NO_SMART_CARDS
@@ -7839,10 +7831,6 @@ ShutdownSmartCardThreads
 #
 endif
 SSL_ClearSessionCache
-(
-)
-;
-SSL_ShutdownServerSessionIDCache
 (
 )
 ;
