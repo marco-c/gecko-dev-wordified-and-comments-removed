@@ -565,12 +565,12 @@ ICGetElemStub_TypedArray
 \
 _
 (
-ICGetElemStub_ArgsElement
+ICGetElemStub_ArgsElementMapped
 )
 \
 _
 (
-ICGetElemStub_ArgsElementStrict
+ICGetElemStub_ArgsElementUnmapped
 )
 \
 \

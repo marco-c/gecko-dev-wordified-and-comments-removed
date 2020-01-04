@@ -7527,8 +7527,8 @@ public
 enum
 Which
 {
-Normal
-Strict
+Mapped
+Unmapped
 Magic
 }
 ;
@@ -14994,8 +14994,8 @@ public
 enum
 Which
 {
-Normal
-Strict
+Mapped
+Unmapped
 Magic
 }
 ;
