@@ -112,6 +112,11 @@ DecodedStream
 .
 cpp
 '
+'
+VideoSink
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
