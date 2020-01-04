@@ -471,6 +471,12 @@ extension
 )
 ;
 yield
+awaitExtensionPanel
+(
+extension
+)
+;
+yield
 extension
 .
 awaitMessage
