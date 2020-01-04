@@ -277,6 +277,7 @@ HeadersInit
 headers
 ;
 BodyInit
+?
 body
 ;
 RequestMode
