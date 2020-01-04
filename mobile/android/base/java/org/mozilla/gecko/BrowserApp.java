@@ -20682,6 +20682,15 @@ putExtra
 TelemetryConstants
 .
 EXTRA_DEFAULT_SEARCH_ENGINE
+(
+defaultEngine
+=
+=
+null
+)
+?
+null
+:
 defaultEngine
 .
 getIdentifier
