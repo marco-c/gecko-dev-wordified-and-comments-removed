@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Snprintf_h_
+mozilla_Sprintf_h_
 #
 define
-mozilla_Snprintf_h_
+mozilla_Sprintf_h_
 #
 include
 <

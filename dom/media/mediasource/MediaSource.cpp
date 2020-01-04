@@ -196,7 +196,7 @@ include
 "
 mozilla
 /
-Snprintf
+Sprintf
 .
 h
 "

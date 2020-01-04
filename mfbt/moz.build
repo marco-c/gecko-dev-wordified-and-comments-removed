@@ -505,12 +505,12 @@ SizePrintfMacros
 h
 '
 '
-Snprintf
+SplayTree
 .
 h
 '
 '
-SplayTree
+Sprintf
 .
 h
 '
