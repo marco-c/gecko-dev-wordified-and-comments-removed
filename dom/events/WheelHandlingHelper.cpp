@@ -890,7 +890,7 @@ case
 eMouseUp
 :
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 case
 NS_MOUSE_DOUBLECLICK

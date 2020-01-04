@@ -35872,7 +35872,7 @@ mousedown
 )
 msg
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 ;
 else
 if

@@ -1086,7 +1086,7 @@ mGeckoChild
 self
 sendMouseEvent
 :
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 point
 :
 lp

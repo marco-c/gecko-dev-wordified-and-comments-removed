@@ -137,7 +137,7 @@ eMouseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 eMouseEventFirst
 +
 2

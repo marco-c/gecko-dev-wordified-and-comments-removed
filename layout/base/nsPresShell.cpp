@@ -2268,7 +2268,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 |
 |
 aVisitor
@@ -29030,7 +29030,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 |
 |
 aEvent
@@ -29604,7 +29604,7 @@ NS_POINTER_UP
 break
 ;
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 pointerMessage
 =
@@ -33482,7 +33482,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 )
 {
 mNoDelayedMouseEvents
@@ -35323,7 +35323,7 @@ break
 ;
 }
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 case
 eMouseUp

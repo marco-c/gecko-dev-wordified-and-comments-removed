@@ -2589,7 +2589,7 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 break
 ;
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 {
 switch
@@ -5293,7 +5293,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 case
 eMouseUp
@@ -12002,7 +12002,7 @@ aEvent
 mMessage
 !
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 )
 {
 return
@@ -12031,7 +12031,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 {
 WidgetMouseEvent
@@ -18524,7 +18524,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 )
 {
 mLastLeftMouseDownContent
@@ -18615,7 +18615,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 )
 {
 mLastMiddleMouseDownContent
@@ -18706,7 +18706,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 )
 {
 mLastRightMouseDownContent
@@ -20795,7 +20795,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 &
 &
 aEvent
@@ -24561,7 +24561,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 )
 mResetFMMouseButtonHandlingState
 (
@@ -24638,7 +24638,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 |
 |
 aEvent

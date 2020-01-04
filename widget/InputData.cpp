@@ -600,7 +600,7 @@ MULTITOUCH_START
 :
 mouseEventMessage
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 ;
 break
 ;
@@ -857,7 +857,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 mType
 =

@@ -587,7 +587,7 @@ y
 ;
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 cnvdX
 cnvdY
 tcContent

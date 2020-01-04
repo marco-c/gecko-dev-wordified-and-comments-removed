@@ -26524,7 +26524,7 @@ WidgetMouseEvent
 geckoEvent
 (
 true
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 mGeckoChild
 WidgetMouseEvent
 :
@@ -27793,7 +27793,7 @@ WidgetMouseEvent
 geckoEvent
 (
 true
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 mGeckoChild
 WidgetMouseEvent
 :
@@ -28081,7 +28081,7 @@ WidgetMouseEvent
 geckoEvent
 (
 true
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 mGeckoChild
 WidgetMouseEvent
 :

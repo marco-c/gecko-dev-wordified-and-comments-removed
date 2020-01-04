@@ -2030,7 +2030,7 @@ eMouseMove
 aMsg
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 |
 |
 aMsg
@@ -2284,7 +2284,7 @@ aWidget
 ;
 DispatchSynthesizedMouseEvent
 (
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 time
 aPoint
 aModifiers

@@ -3407,7 +3407,7 @@ openControlled
 break
 ;
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 if
 (

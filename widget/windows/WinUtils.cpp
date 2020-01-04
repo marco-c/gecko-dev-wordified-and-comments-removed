@@ -4079,7 +4079,7 @@ eMouseMove
 aEventMessage
 =
 =
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 |
 |
 aEventMessage

@@ -2361,11 +2361,11 @@ aMessage
 )
 {
 case
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 :
 return
 "
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 "
 ;
 case

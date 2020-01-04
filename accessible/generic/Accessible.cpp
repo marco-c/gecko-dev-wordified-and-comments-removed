@@ -9183,7 +9183,7 @@ nsCoreUtils
 :
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_DOWN
+eMouseDown
 x
 y
 aContent
