@@ -283,14 +283,6 @@ CONFIG
 MOZ_B2G
 '
 ]
-and
-not
-CONFIG
-[
-'
-MOZ_B2GDROID
-'
-]
 :
 EXTRA_COMPONENTS
 +

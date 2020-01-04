@@ -1447,13 +1447,6 @@ MOZ_MULET
 !
 defined
 (
-MOZ_B2GDROID
-)
-&
-&
-!
-defined
-(
 DEBUG
 )
 mReuseLoaderGlobal

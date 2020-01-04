@@ -116,13 +116,6 @@ MOZ_WIDGET_TOOLKIT
 '
 android
 '
-or
-CONFIG
-[
-'
-MOZ_B2GDROID
-'
-]
 :
 DIRS
 +
@@ -153,13 +146,6 @@ CONFIG
 [
 '
 MOZ_B2G
-'
-]
-or
-CONFIG
-[
-'
-MOZ_B2GDROID
 '
 ]
 :

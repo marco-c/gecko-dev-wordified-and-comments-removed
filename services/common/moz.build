@@ -208,13 +208,6 @@ MOZ_WIDGET_TOOLKIT
 '
 android
 '
-or
-CONFIG
-[
-'
-MOZ_B2GDROID
-'
-]
 :
 EXTRA_JS_MODULES
 [

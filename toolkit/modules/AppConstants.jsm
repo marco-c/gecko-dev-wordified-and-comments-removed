@@ -506,17 +506,6 @@ else
 false
 #
 endif
-MOZ_B2GDROID
-:
-#
-ifdef
-MOZ_B2GDROID
-true
-#
-else
-false
-#
-endif
 MOZ_GRAPHENE
 :
 #
