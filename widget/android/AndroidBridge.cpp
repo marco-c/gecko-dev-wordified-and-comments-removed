@@ -9088,7 +9088,7 @@ height
 LayerView
 :
 :
-updateZoomedView
+UpdateZoomedView
 (
 buffer
 )
