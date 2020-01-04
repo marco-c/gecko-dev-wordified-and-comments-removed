@@ -1795,9 +1795,9 @@ aRegistration
 void
 RemoveAllRegistrations
 (
-PrincipalOriginAttributes
+OriginAttributesPattern
 *
-aParams
+aPattern
 )
 ;
 RefPtr
