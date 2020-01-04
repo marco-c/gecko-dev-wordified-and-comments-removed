@@ -517,9 +517,11 @@ gint
 height
 )
 ;
-gint
+void
 moz_gtk_get_arrow_size
 (
+GtkThemeWidgetType
+widgetType
 gint
 *
 width
