@@ -146,13 +146,6 @@ relative
 reftest
 .
 list
-skip
--
-if
-(
-!
-asyncPan
-)
 include
 async
 -
@@ -2057,13 +2050,6 @@ APZ
 async
 positioning
 tests
-skip
--
-if
-(
-!
-asyncPan
-)
 include
 .
 .
