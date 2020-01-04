@@ -1648,12 +1648,10 @@ Date
 now
 (
 )
--
+>
 this
 .
 sceneCompletedTime
->
-2000
 )
 ;
 }
