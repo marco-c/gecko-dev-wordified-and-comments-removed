@@ -67,10 +67,6 @@ getAppBaseDir
 )
 )
 ;
-standardInit
-(
-)
-;
 checkPostUpdateRunningFile
 (
 false

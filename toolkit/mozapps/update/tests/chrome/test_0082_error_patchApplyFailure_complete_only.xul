@@ -306,13 +306,7 @@ false
 ;
 writeStatusFile
 (
-STATE_FAILED
-+
-"
-:
-"
-+
-CRC_ERROR
+STATE_FAILED_CRC_ERROR
 )
 ;
 reloadUpdateManagerData
