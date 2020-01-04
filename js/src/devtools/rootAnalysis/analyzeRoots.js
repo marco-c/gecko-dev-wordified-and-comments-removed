@@ -3982,9 +3982,6 @@ batch
 maxStream
 )
 ;
-var
-theFunctionNameToFind
-;
 function
 process
 (
