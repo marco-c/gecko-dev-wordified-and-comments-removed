@@ -1643,8 +1643,10 @@ false
 }
 nspr_io_adapter_
 =
-new
+MakeUnique
+<
 TransportLayerNSPRAdapter
+>
 (
 downward_
 )

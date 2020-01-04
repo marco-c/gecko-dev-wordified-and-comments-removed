@@ -611,7 +611,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-ScopedDeletePtr
+UniquePtr
 <
 VideoCodecConfigH264
 >
@@ -631,8 +631,12 @@ H264
 {
 h264Config
 =
-new
+MakeUnique
+<
 VideoCodecConfigH264
+>
+(
+)
 ;
 size_t
 spropSize
@@ -719,6 +723,10 @@ desc
 .
 mConstraints
 h264Config
+.
+get
+(
+)
 )
 ;
 configRaw

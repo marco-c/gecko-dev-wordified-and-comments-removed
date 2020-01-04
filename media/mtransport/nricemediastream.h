@@ -35,7 +35,7 @@ include
 "
 mozilla
 /
-Scoped
+UniquePtr
 .
 h
 "
@@ -360,12 +360,16 @@ GetActivePair
 (
 int
 component
+UniquePtr
+<
 NrIceCandidate
-*
+>
 *
 local
+UniquePtr
+<
 NrIceCandidate
-*
+>
 *
 remote
 )
