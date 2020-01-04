@@ -1167,7 +1167,7 @@ if
 aParent
 -
 >
-IsHorizontal
+IsXULHorizontal
 (
 )
 )
@@ -1376,7 +1376,7 @@ aIsHorizontal
 box
 -
 >
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;
@@ -1827,7 +1827,7 @@ isHorizontal
 mOuter
 -
 >
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;
@@ -2800,7 +2800,7 @@ isHorizontal
 mOuter
 -
 >
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;
@@ -4018,7 +4018,7 @@ isHorizontal
 mOuter
 -
 >
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;

@@ -152,7 +152,7 @@ rv
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;

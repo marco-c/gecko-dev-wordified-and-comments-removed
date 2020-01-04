@@ -536,7 +536,7 @@ isHorizontal
 nsSprocketLayout
 :
 :
-IsHorizontal
+IsXULHorizontal
 (
 child
 )

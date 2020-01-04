@@ -140,7 +140,7 @@ index
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -210,7 +210,7 @@ index
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -289,7 +289,7 @@ index
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -370,7 +370,7 @@ index
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -436,7 +436,7 @@ index
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 aBox
 )
@@ -1011,7 +1011,7 @@ isHorizontal
 aBox
 -
 >
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;

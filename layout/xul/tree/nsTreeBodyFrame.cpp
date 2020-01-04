@@ -3747,7 +3747,7 @@ if
 aCurrFrame
 -
 >
-IsHorizontal
+IsXULHorizontal
 (
 )
 )
@@ -20010,7 +20010,7 @@ isHorizontal
 aScrollbar
 -
 >
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;

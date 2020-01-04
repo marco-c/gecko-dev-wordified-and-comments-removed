@@ -1134,7 +1134,7 @@ nsIAtom
 *
 attrName
 =
-IsHorizontal
+IsXULHorizontal
 (
 )
 ?
@@ -1254,7 +1254,7 @@ StyleXUL
 ;
 if
 (
-IsHorizontal
+IsXULHorizontal
 (
 )
 )
@@ -1486,7 +1486,7 @@ nsIAtom
 *
 attrName
 =
-IsHorizontal
+IsXULHorizontal
 (
 )
 ?
@@ -1612,7 +1612,7 @@ StyleXUL
 ;
 if
 (
-IsHorizontal
+IsXULHorizontal
 (
 )
 )
@@ -1873,7 +1873,7 @@ return
 ;
 if
 (
-IsHorizontal
+IsXULHorizontal
 (
 )
 )
@@ -1924,7 +1924,7 @@ aIsNormal
 ;
 if
 (
-IsHorizontal
+IsXULHorizontal
 (
 )
 )
@@ -5967,7 +5967,7 @@ debugPadding
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;
@@ -6362,7 +6362,7 @@ kid
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;
@@ -7060,7 +7060,7 @@ SizeTo
 ;
 if
 (
-IsHorizontal
+IsXULHorizontal
 (
 )
 )
@@ -7475,7 +7475,7 @@ border
 bool
 isHorizontal
 =
-IsHorizontal
+IsXULHorizontal
 (
 )
 ;

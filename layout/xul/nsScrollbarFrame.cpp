@@ -649,7 +649,7 @@ isOverridable
 ;
 if
 (
-IsHorizontal
+IsXULHorizontal
 (
 )
 )
@@ -722,7 +722,7 @@ rv
 &
 &
 !
-IsHorizontal
+IsXULHorizontal
 (
 )
 )
