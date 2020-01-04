@@ -273,3 +273,13 @@ mozilla
 gecko
 '
 ]
+JS_PREFERENCE_FILES
++
+=
+[
+'
+b2gdroid
+.
+js
+'
+]

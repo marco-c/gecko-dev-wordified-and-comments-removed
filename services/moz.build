@@ -234,6 +234,13 @@ CONFIG
 MOZ_B2G
 '
 ]
+or
+CONFIG
+[
+'
+MOZ_B2GDROID
+'
+]
 :
 DIRS
 +
