@@ -163,7 +163,7 @@ DECL_GFX_ENV_ONCE
 "
 MOZ_GFX_CRASH_MOZ_CRASH
 "
-GfxDevCrashMozCrash
+GfxCrashMozCrash
 )
 ;
 DECL_GFX_ENV_ONCE
@@ -171,7 +171,7 @@ DECL_GFX_ENV_ONCE
 "
 MOZ_GFX_CRASH_TELEMETRY
 "
-GfxDevCrashTelemetry
+GfxCrashTelemetry
 )
 ;
 DECL_GFX_ENV_LIVE
