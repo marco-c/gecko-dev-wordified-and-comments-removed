@@ -829,6 +829,16 @@ uint32_t
 aDirection
 )
 ;
+void
+StartWatchingDictionaryChanges
+(
+)
+;
+void
+StopWatchingDictionaryChanges
+(
+)
+;
 protected
 :
 nsresult
@@ -2916,6 +2926,9 @@ mIsInEditAction
 ;
 bool
 mHidingCaret
+;
+bool
+mObservingDictionaryUpdates
 ;
 friend
 bool

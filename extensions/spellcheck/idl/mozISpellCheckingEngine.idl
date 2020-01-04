@@ -595,5 +595,16 @@ dictionary
 -
 update
 "
+#
+define
+SPELLCHECK_DICTIONARY_REMOVE_NOTIFICATION
+\
+"
+spellcheck
+-
+dictionary
+-
+remove
+"
 %
 }
