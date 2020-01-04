@@ -3123,6 +3123,17 @@ RootedString
 str
 (
 cx
+)
+;
+if
+(
+type
+!
+=
+JSEXN_WARN
+)
+str
+=
 ClassName
 (
 GetExceptionProtoKey
@@ -3130,7 +3141,6 @@ GetExceptionProtoKey
 type
 )
 cx
-)
 )
 ;
 if
