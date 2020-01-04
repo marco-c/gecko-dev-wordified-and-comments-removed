@@ -474,6 +474,14 @@ if
 (
 Android
 )
+fuzzy
+-
+if
+(
+winWidget
+1
+32
+)
 =
 =
 grid
