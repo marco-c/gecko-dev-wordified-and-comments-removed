@@ -441,7 +441,6 @@ Toggle
 TriState
 Auto
 MozAll
-MozNone
 MozText
 }
 ;
