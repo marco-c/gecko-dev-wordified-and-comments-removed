@@ -336,7 +336,7 @@ profiler_is_active
 return
 ;
 }
-mozilla_sampler_stop
+profiler_stop
 (
 )
 ;
