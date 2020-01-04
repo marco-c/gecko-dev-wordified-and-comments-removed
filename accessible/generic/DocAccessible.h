@@ -1620,8 +1620,10 @@ RelatedAccIterator
 ;
 nsTArray
 <
+RefPtr
+<
 nsIContent
-*
+>
 >
 mInvalidationList
 ;
