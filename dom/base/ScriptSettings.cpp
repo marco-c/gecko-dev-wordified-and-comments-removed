@@ -2248,6 +2248,10 @@ JSAPI
 "
 )
 ;
+ClearException
+(
+)
+;
 }
 }
 bool
