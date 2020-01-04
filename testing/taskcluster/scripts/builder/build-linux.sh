@@ -11,6 +11,14 @@ set
 x
 -
 e
+echo
+"
+running
+as
+"
+(
+id
+)
 #
 #
 #
