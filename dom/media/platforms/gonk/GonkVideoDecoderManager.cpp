@@ -314,7 +314,7 @@ TextureClient
 >
 Allocate
 (
-TextureForwarder
+CompositableForwarder
 *
 aAllocator
 )
