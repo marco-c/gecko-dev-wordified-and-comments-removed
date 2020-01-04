@@ -2333,9 +2333,6 @@ nsIAsyncShutdownBlocker
 >
 mShutdownBlocker
 ;
-Mutex
-mMutex
-;
 RefPtr
 <
 MediaEngine
