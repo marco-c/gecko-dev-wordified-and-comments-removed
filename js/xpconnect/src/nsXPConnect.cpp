@@ -3421,12 +3421,10 @@ UnexpectedFailure
 NS_ERROR_FAILURE
 )
 ;
-AutoMarkingNativeInterfacePtr
-iface
-(
-aJSContext
-)
-;
+RefPtr
+<
+XPCNativeInterface
+>
 iface
 =
 XPCNativeInterface
