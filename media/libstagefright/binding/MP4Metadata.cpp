@@ -579,7 +579,7 @@ MP4Metadata
 ifdef
 MOZ_RUST_MP4PARSE
 static
-bool
+int32_t
 try_rust
 (
 const
