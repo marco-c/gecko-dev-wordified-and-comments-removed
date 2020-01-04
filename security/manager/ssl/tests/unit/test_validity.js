@@ -63,8 +63,6 @@ example
 .
 com
 "
-[
-]
 "
 test_validity
 "

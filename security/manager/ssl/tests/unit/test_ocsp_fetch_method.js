@@ -56,8 +56,6 @@ example
 .
 com
 "
-[
-]
 "
 test_ocsp_fetch_method
 "
