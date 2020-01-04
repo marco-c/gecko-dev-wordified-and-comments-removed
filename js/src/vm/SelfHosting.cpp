@@ -13136,7 +13136,7 @@ intrinsic_ArrayBufferByteLength
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 PossiblyWrappedArrayBufferByteLength
@@ -13144,6 +13144,7 @@ PossiblyWrappedArrayBufferByteLength
 intrinsic_PossiblyWrappedArrayBufferByteLength
 1
 0
+IntrinsicPossiblyWrappedArrayBufferByteLength
 )
 JS_FN
 (
