@@ -7909,6 +7909,7 @@ tab
 getDisplayTitle
 (
 )
+false
 )
 ;
 Telemetry
@@ -9354,6 +9355,7 @@ Intent
 .
 ACTION_SEND
 title
+false
 )
 ;
 }
