@@ -1463,21 +1463,6 @@ com
 }
 if
 (
-result
-!
-=
-"
-xn
--
--
-zn7c
-.
-com
-"
-)
-{
-if
-(
 punycodeURL
 .
 substr
@@ -1494,7 +1479,7 @@ xn
 "
 )
 {
-equal
+do_check_eq
 (
 escape
 (
@@ -1516,7 +1501,7 @@ punycodeURL
 isASCII
 )
 ;
-equal
+do_check_eq
 (
 escape
 (
@@ -1531,7 +1516,7 @@ punycodeURL
 }
 else
 {
-equal
+do_check_eq
 (
 escape
 (
@@ -1543,7 +1528,6 @@ punycodeURL
 )
 )
 ;
-}
 }
 }
 pbi
