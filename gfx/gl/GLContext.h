@@ -7250,6 +7250,17 @@ level
 ;
 AFTER_GL_CALL
 ;
+if
+(
+mNeedsCheckAfterAttachTextureToFb
+)
+{
+fCheckFramebufferStatus
+(
+target
+)
+;
+}
 }
 void
 fFramebufferTextureLayer
@@ -12847,6 +12858,9 @@ mNeedsFlushBeforeDeleteFB
 ;
 bool
 mTextureAllocCrashesOnMapFailure
+;
+bool
+mNeedsCheckAfterAttachTextureToFb
 ;
 bool
 mWorkAroundDriverBugs
