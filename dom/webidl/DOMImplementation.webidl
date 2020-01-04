@@ -150,15 +150,6 @@ DOMImplementation
 boolean
 hasFeature
 (
-DOMString
-feature
-[
-TreatNullAs
-=
-EmptyString
-]
-DOMString
-version
 )
 ;
 [
