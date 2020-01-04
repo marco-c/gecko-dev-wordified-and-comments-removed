@@ -456,6 +456,9 @@ CGFloat
 mUpdateRect
 =
 nsIntRect
+:
+:
+Truncate
 (
 0
 0

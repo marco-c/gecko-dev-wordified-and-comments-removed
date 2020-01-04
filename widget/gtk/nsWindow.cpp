@@ -8599,6 +8599,9 @@ Or
 (
 aRegion
 LayoutDeviceIntRect
+:
+:
+Truncate
 (
 r
 .

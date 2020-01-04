@@ -4249,6 +4249,9 @@ this
 clipExtents
 =
 IntRect
+:
+:
+Truncate
 (
 clipRect
 .
