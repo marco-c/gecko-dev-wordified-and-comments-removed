@@ -111,6 +111,15 @@ mozilla
 LayoutDeviceIntRect
 mRect
 ;
+nsTArray
+<
+mozilla
+:
+:
+LayoutDeviceIntRect
+>
+mRectArray
+;
 bool
 mSucceeded
 ;
