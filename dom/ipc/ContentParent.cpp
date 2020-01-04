@@ -1216,7 +1216,7 @@ h
 #
 include
 "
-StructuredCloneUtils
+StructuredCloneIPCHelper
 .
 h
 "
@@ -20406,16 +20406,9 @@ const
 nsAString
 &
 aMessage
-const
-mozilla
-:
-:
-dom
-:
-:
-StructuredCloneData
+StructuredCloneIPCHelper
 &
-aData
+aHelper
 JS
 :
 :
@@ -20439,7 +20432,7 @@ if
 BuildClonedMessageDataForParent
 (
 this
-aData
+aHelper
 data
 )
 )
