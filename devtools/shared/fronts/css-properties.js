@@ -69,7 +69,7 @@ devtools
 shared
 /
 css
-/
+-
 properties
 -
 db
@@ -89,7 +89,7 @@ devtools
 shared
 /
 css
-/
+-
 color
 -
 db

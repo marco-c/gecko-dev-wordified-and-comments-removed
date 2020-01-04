@@ -49,7 +49,7 @@ devtools
 shared
 /
 css
-/
+-
 color
 "
 )
@@ -67,7 +67,7 @@ devtools
 shared
 /
 css
-/
+-
 lexer
 "
 )
@@ -104,7 +104,7 @@ devtools
 shared
 /
 css
-/
+-
 properties
 -
 db

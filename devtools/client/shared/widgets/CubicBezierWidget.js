@@ -54,7 +54,7 @@ devtools
 shared
 /
 css
-/
+-
 lexer
 "
 )

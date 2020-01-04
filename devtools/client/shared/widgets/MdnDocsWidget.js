@@ -40,7 +40,7 @@ devtools
 shared
 /
 css
-/
+-
 lexer
 "
 )
