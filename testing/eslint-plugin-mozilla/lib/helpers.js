@@ -9,10 +9,6 @@ escope
 require
 (
 "
-eslint
-/
-node_modules
-/
 escope
 "
 )
@@ -23,10 +19,6 @@ espree
 require
 (
 "
-eslint
-/
-node_modules
-/
 espree
 "
 )
