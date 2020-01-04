@@ -1587,11 +1587,6 @@ return
 mReadLock
 ;
 }
-void
-ReadUnlock
-(
-)
-;
 virtual
 Compositor
 *
@@ -1603,6 +1598,11 @@ GetCompositor
 ;
 protected
 :
+void
+ReadUnlock
+(
+)
+;
 FenceHandle
 mReleaseFenceHandle
 ;
