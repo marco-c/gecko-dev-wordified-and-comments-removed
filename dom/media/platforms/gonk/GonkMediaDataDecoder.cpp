@@ -1611,9 +1611,6 @@ GonkMediaDataDecoder
 GonkDecoderManager
 *
 aManager
-FlushableTaskQueue
-*
-aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
