@@ -772,13 +772,6 @@ and
 recordLeakedObjects
 :
                 
-leakedObjectNames
-.
-append
-(
-name
-)
-                
 currExpectedLeak
 =
 expectedLeaks
@@ -798,6 +791,18 @@ numLeaked
 =
 currExpectedLeak
 :
+                    
+if
+not
+expectedLeaks
+:
+                        
+leakedObjectNames
+.
+append
+(
+name
+)
                     
 leakedObjectAnalysis
 .
@@ -830,16 +835,19 @@ name
 else
 :
                     
+leakedObjectNames
+.
+append
+(
+name
+)
+                    
 leakedObjectAnalysis
 .
 append
 (
 "
-TEST
--
-UNEXPECTED
--
-FAIL
+WARNING
 |
 leakcheck
 |
@@ -1077,6 +1085,12 @@ if
 totalBytesLeaked
 >
 leakThreshold
+or
+(
+expectedLeaks
+and
+leakedObjectNames
+)
 :
         
 logAsWarning
