@@ -220,10 +220,10 @@ bool
 mCanceled
 ;
 uint32_t
-mAudioInitCounter
+mInitCounter
 ;
-uint32_t
-mVideoInitCounter
+StreamTime
+mNotInitDuration
 ;
 }
 ;
