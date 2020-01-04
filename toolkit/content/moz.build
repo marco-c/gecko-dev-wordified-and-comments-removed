@@ -120,9 +120,6 @@ CC_VERSION
 '
 CXX
 '
-'
-CXX_VERSION
-'
 )
 :
 DEFINES
