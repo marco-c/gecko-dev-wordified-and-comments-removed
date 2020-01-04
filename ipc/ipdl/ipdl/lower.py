@@ -30512,36 +30512,17 @@ idvar
 ]
 )
         
-failif
+lookupif
 =
 StmtIf
 (
-ExprNot
-(
 rawvar
 )
-)
         
-failif
+lookupif
 .
 addifstmt
 (
-StmtReturn
-(
-_Result
-.
-ValuError
-)
-)
-        
-case
-.
-addstmts
-(
-[
-            
-failif
-            
 StmtExpr
 (
 p
@@ -30551,7 +30532,12 @@ removeShmemId
 idvar
 )
 )
-            
+)
+        
+lookupif
+.
+addifstmt
+(
 StmtExpr
 (
 _shmemDealloc
@@ -30559,6 +30545,15 @@ _shmemDealloc
 rawvar
 )
 )
+)
+        
+case
+.
+addstmts
+(
+[
+            
+lookupif
             
 StmtReturn
 (
@@ -33105,9 +33100,33 @@ idvar
             
 iffound
             
+StmtExpr
+(
+ExprAssn
+(
+ExprDeref
+(
+var
+)
+ExprCall
+(
+ExprVar
+(
+'
+Shmem
+'
+)
+args
+=
+[
+]
+)
+)
+)
+            
 StmtReturn
 .
-FALSE
+TRUE
         
 ]
 )
