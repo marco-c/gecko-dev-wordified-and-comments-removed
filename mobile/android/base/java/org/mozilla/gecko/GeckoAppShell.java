@@ -4520,7 +4520,7 @@ PendingIntent
 .
 getActivity
 (
-getContext
+getApplicationContext
 (
 )
 0
