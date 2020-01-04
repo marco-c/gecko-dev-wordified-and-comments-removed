@@ -6277,7 +6277,6 @@ FxOSConversationModel
 }
 )
 (
-jQuery
 _
 window
 .

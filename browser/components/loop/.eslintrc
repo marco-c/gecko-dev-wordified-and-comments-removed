@@ -89,10 +89,6 @@ _
 :
 false
 "
-"
-:
-false
-"
 Backbone
 "
 :
@@ -104,11 +100,6 @@ chai
 false
 "
 console
-"
-:
-false
-"
-jQuery
 "
 :
 false
