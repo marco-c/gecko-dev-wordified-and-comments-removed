@@ -188,7 +188,7 @@ DIRS
 linux
 '
 ]
-elif
+else
 :
 DIRS
 +
