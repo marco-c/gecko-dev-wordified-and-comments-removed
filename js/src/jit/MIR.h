@@ -38561,6 +38561,16 @@ UnboxedElement
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+override
+;
 bool
 mightAlias
 (
