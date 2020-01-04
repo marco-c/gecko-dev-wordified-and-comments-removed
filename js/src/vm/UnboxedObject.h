@@ -725,11 +725,6 @@ public
 :
 static
 const
-ObjectOps
-objectOps_
-;
-static
-const
 Class
 class_
 ;
@@ -1337,11 +1332,6 @@ capacity
 ;
 public
 :
-static
-const
-ObjectOps
-objectOps_
-;
 static
 const
 Class
