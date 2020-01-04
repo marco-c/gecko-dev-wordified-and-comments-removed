@@ -4003,7 +4003,6 @@ aRect
 )
 {
 }
-explicit
 IntRegionTyped
 (
 const
