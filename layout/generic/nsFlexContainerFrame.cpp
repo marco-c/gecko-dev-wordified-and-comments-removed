@@ -3203,13 +3203,13 @@ pseudoTag
 )
 |
 |
-pseudoTag
-=
-=
 nsCSSAnonBoxes
 :
 :
-mozNonElement
+IsNonElement
+(
+pseudoTag
+)
 )
 {
 break

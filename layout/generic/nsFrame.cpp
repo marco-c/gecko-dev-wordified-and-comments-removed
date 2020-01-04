@@ -39819,13 +39819,14 @@ if
 aChildPseudo
 &
 &
-aChildPseudo
 !
-=
 nsCSSAnonBoxes
 :
 :
-mozNonElement
+IsNonElement
+(
+aChildPseudo
+)
 &
 &
 nsCSSAnonBoxes

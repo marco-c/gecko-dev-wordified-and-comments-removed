@@ -5775,6 +5775,10 @@ styleSet
 ResolveStyleForNonElement
 (
 mStyleContext
+nsCSSAnonBoxes
+:
+:
+mozText
 )
 ;
 mDisplayFrame

@@ -12337,6 +12337,10 @@ StyleSet
 ResolveStyleForNonElement
 (
 aParentStyle
+nsCSSAnonBoxes
+:
+:
+mozOtherNonElement
 )
 ;
 nsPlaceholderFrame
@@ -20750,6 +20754,10 @@ styleSet
 ResolveStyleForNonElement
 (
 aParentStyleContext
+nsCSSAnonBoxes
+:
+:
+mozText
 )
 ;
 }
@@ -46816,12 +46824,6 @@ containingBlock
 letterFrame
 )
 ;
-RefPtr
-<
-nsStyleContext
->
-textSC
-;
 StyleSetHandle
 styleSet
 =
@@ -46832,6 +46834,10 @@ StyleSet
 (
 )
 ;
+RefPtr
+<
+nsStyleContext
+>
 textSC
 =
 styleSet
@@ -46840,6 +46846,10 @@ styleSet
 ResolveStyleForNonElement
 (
 aStyleContext
+nsCSSAnonBoxes
+:
+:
+mozText
 )
 ;
 aTextFrame
@@ -46910,8 +46920,6 @@ RefPtr
 nsStyleContext
 >
 newSC
-;
-newSC
 =
 styleSet
 -
@@ -46919,6 +46927,10 @@ styleSet
 ResolveStyleForNonElement
 (
 parentStyleContext
+nsCSSAnonBoxes
+:
+:
+mozText
 )
 ;
 nextTextFrame
@@ -47142,8 +47154,6 @@ RefPtr
 nsStyleContext
 >
 textSC
-;
-textSC
 =
 mPresShell
 -
@@ -47156,6 +47166,10 @@ StyleSet
 ResolveStyleForNonElement
 (
 sc
+nsCSSAnonBoxes
+:
+:
+mozText
 )
 ;
 aTextContent
@@ -47938,8 +47952,6 @@ RefPtr
 nsStyleContext
 >
 newSC
-;
-newSC
 =
 aPresShell
 -
@@ -47952,6 +47964,10 @@ StyleSet
 ResolveStyleForNonElement
 (
 parentSC
+nsCSSAnonBoxes
+:
+:
+mozText
 )
 ;
 nsIFrame
@@ -48271,8 +48287,6 @@ RefPtr
 nsStyleContext
 >
 newSC
-;
-newSC
 =
 aPresShell
 -
@@ -48285,6 +48299,10 @@ StyleSet
 ResolveStyleForNonElement
 (
 parentSC
+nsCSSAnonBoxes
+:
+:
+mozText
 )
 ;
 textFrame

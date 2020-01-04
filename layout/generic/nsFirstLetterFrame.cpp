@@ -287,6 +287,10 @@ StyleSet
 ResolveStyleForNonElement
 (
 parentStyleContext
+nsCSSAnonBoxes
+:
+:
+mozOtherNonElement
 )
 ;
 SetStyleContextWithoutNotification
@@ -1588,6 +1592,10 @@ StyleSet
 ResolveStyleForNonElement
 (
 parentSC
+nsCSSAnonBoxes
+:
+:
+mozOtherNonElement
 )
 ;
 continuation
@@ -1842,6 +1850,10 @@ StyleSet
 ResolveStyleForNonElement
 (
 parentSC
+nsCSSAnonBoxes
+:
+:
+mozText
 )
 ;
 kid

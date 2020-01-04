@@ -361,6 +361,9 @@ ResolveStyleForNonElement
 nsStyleContext
 *
 aParentContext
+nsIAtom
+*
+aPseudoTag
 )
 {
 FORWARD
@@ -368,6 +371,7 @@ FORWARD
 ResolveStyleForNonElement
 (
 aParentContext
+aPseudoTag
 )
 )
 ;

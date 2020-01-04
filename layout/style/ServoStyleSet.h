@@ -223,6 +223,9 @@ ResolveStyleForNonElement
 nsStyleContext
 *
 aParentContext
+nsIAtom
+*
+aPseudoTag
 )
 ;
 already_AddRefed
