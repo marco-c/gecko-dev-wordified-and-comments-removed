@@ -27,6 +27,9 @@ namespace
 dom
 {
 class
+HTMLDetailsElement
+;
+class
 HTMLSummaryElement
 final
 :
@@ -80,6 +83,15 @@ nsINode
 aResult
 )
 const
+override
+;
+nsresult
+PostHandleEvent
+(
+EventChainPostVisitor
+&
+aVisitor
+)
 override
 ;
 bool
