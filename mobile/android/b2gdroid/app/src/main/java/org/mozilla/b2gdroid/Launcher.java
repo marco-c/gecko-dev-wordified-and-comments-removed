@@ -601,6 +601,13 @@ destroy
 )
 ;
 mScreenStateObserver
+.
+destroy
+(
+this
+)
+;
+mScreenStateObserver
 =
 null
 ;
