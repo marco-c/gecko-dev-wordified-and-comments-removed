@@ -130,7 +130,7 @@ StreamTime
 aProcessedDuration
 )
 ;
-nsresult
+bool
 GetEncodedPartitions
 (
 EncodedFrameContainer
