@@ -1364,7 +1364,7 @@ aShowPopup
 ?
 eXULPopupShowing
 :
-NS_XUL_POPUP_HIDING
+eXULPopupHiding
 nullptr
 WidgetMouseEvent
 :

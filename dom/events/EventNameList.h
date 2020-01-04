@@ -1256,7 +1256,7 @@ eBasicEventClass
 NON_IDL_EVENT
 (
 popuphiding
-NS_XUL_POPUP_HIDING
+eXULPopupHiding
 EventNameType_XUL
 eBasicEventClass
 )
