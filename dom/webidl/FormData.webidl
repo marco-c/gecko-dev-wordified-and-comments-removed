@@ -137,9 +137,6 @@ Worker
 interface
 FormData
 {
-[
-Throws
-]
 void
 append
 (
@@ -152,9 +149,6 @@ USVString
 filename
 )
 ;
-[
-Throws
-]
 void
 append
 (
@@ -196,9 +190,6 @@ USVString
 name
 )
 ;
-[
-Throws
-]
 void
 set
 (
@@ -211,9 +202,6 @@ USVString
 filename
 )
 ;
-[
-Throws
-]
 void
 set
 (
