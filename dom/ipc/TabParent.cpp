@@ -6507,9 +6507,9 @@ TouchPointerState
 &
 aPointerState
 const
-ScreenIntPoint
+LayoutDeviceIntPoint
 &
-aPointerScreenPoint
+aPoint
 const
 double
 &
@@ -6556,7 +6556,7 @@ SynthesizeNativeTouchPoint
 (
 aPointerId
 aPointerState
-aPointerScreenPoint
+aPoint
 aPointerPressure
 aPointerOrientation
 responder
@@ -6578,9 +6578,9 @@ TabParent
 RecvSynthesizeNativeTouchTap
 (
 const
-ScreenIntPoint
+LayoutDeviceIntPoint
 &
-aPointerScreenPoint
+aPoint
 const
 bool
 &
@@ -6621,7 +6621,7 @@ widget
 >
 SynthesizeNativeTouchTap
 (
-aPointerScreenPoint
+aPoint
 aLongTap
 responder
 .

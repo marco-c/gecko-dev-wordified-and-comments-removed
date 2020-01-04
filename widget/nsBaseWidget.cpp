@@ -7593,8 +7593,8 @@ nsIWidget
 :
 SynthesizeNativeTouchTap
 (
-ScreenIntPoint
-aPointerScreenPoint
+LayoutDeviceIntPoint
+aPoint
 bool
 aLongTap
 nsIObserver
@@ -7639,7 +7639,7 @@ SynthesizeNativeTouchPoint
 (
 pointerId
 TOUCH_CONTACT
-aPointerScreenPoint
+aPoint
 1
 .
 0
@@ -7672,7 +7672,7 @@ SynthesizeNativeTouchPoint
 (
 pointerId
 TOUCH_REMOVE
-aPointerScreenPoint
+aPoint
 0
 0
 nullptr
@@ -7727,7 +7727,7 @@ SynthesizeNativeTouchPoint
 (
 pointerId
 TOUCH_CANCEL
-aPointerScreenPoint
+aPoint
 0
 0
 nullptr
@@ -7797,7 +7797,7 @@ new
 LongTapInfo
 (
 pointerId
-aPointerScreenPoint
+aPoint
 TimeDuration
 :
 :

@@ -2088,8 +2088,8 @@ uint32_t
 aPointerId
 TouchPointerState
 aPointerState
-ScreenIntPoint
-aPointerScreenPoint
+LayoutDeviceIntPoint
+aPoint
 double
 aPointerPressure
 uint32_t
@@ -2125,7 +2125,7 @@ SendSynthesizeNativeTouchPoint
 (
 aPointerId
 aPointerState
-aPointerScreenPoint
+aPoint
 aPointerPressure
 aPointerOrientation
 notifier
@@ -2145,8 +2145,8 @@ PuppetWidget
 :
 SynthesizeNativeTouchTap
 (
-ScreenIntPoint
-aPointerScreenPoint
+LayoutDeviceIntPoint
+aPoint
 bool
 aLongTap
 nsIObserver
@@ -2178,7 +2178,7 @@ mTabChild
 >
 SendSynthesizeNativeTouchTap
 (
-aPointerScreenPoint
+aPoint
 aLongTap
 notifier
 .

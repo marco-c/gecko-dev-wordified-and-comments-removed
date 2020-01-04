@@ -2975,8 +2975,8 @@ uint32_t
 aPointerId
 TouchPointerState
 aPointerState
-ScreenIntPoint
-aPointerScreenPoint
+LayoutDeviceIntPoint
+aPoint
 double
 aPointerPressure
 uint32_t
@@ -2992,8 +2992,8 @@ virtual
 nsresult
 SynthesizeNativeTouchTap
 (
-ScreenIntPoint
-aPointerScreenPoint
+LayoutDeviceIntPoint
+aPoint
 bool
 aLongTap
 nsIObserver
@@ -3033,7 +3033,7 @@ LongTapInfo
 (
 int32_t
 aPointerId
-ScreenIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 mozilla
@@ -3079,7 +3079,7 @@ Now
 int32_t
 mPointerId
 ;
-ScreenIntPoint
+LayoutDeviceIntPoint
 mPosition
 ;
 mozilla

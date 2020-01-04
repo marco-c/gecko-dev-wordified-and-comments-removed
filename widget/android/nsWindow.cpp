@@ -14861,8 +14861,8 @@ uint32_t
 aPointerId
 TouchPointerState
 aPointerState
-ScreenIntPoint
-aPointerScreenPoint
+LayoutDeviceIntPoint
+aPoint
 double
 aPointerPressure
 uint32_t
@@ -14974,10 +14974,10 @@ SynthesizeNativeTouchPoint
 (
 aPointerId
 eventType
-aPointerScreenPoint
+aPoint
 .
 x
-aPointerScreenPoint
+aPoint
 .
 y
 aPointerPressure

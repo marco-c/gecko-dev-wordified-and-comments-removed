@@ -325,9 +325,9 @@ InjectTouchPoint
 (
 uint32_t
 aId
-ScreenIntPoint
+LayoutDeviceIntPoint
 &
-aPointerScreenPoint
+aPoint
 POINTER_FLAGS
 aFlags
 uint32_t
@@ -438,7 +438,7 @@ ptPixelLocation
 .
 x
 =
-aPointerScreenPoint
+aPoint
 .
 x
 ;
@@ -450,7 +450,7 @@ ptPixelLocation
 .
 y
 =
-aPointerScreenPoint
+aPoint
 .
 y
 ;
@@ -615,8 +615,8 @@ nsIWidget
 :
 TouchPointerState
 aPointerState
-ScreenIntPoint
-aPointerScreenPoint
+LayoutDeviceIntPoint
+aPoint
 double
 aPointerPressure
 uint32_t
@@ -768,7 +768,7 @@ return
 InjectTouchPoint
 (
 aPointerId
-aPointerScreenPoint
+aPoint
 flags
 pressure
 aPointerOrientation
@@ -797,7 +797,7 @@ new
 PointerInfo
 (
 aPointerId
-aPointerScreenPoint
+aPoint
 )
 ;
 POINTER_FLAGS
@@ -831,7 +831,7 @@ return
 InjectTouchPoint
 (
 aPointerId
-aPointerScreenPoint
+aPoint
 flags
 pressure
 aPointerOrientation
