@@ -464,6 +464,12 @@ false
 ;
 SET_DEFAULT
 (
+disableCacheIR
+false
+)
+;
+SET_DEFAULT
+(
 disableSharedStubs
 false
 )
