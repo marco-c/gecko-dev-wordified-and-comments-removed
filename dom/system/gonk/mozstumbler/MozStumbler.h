@@ -32,6 +32,14 @@ STUMBLE_INTERVAL_MS
 class
 nsGeoPosition
 ;
+void
+MozStumble
+(
+nsGeoPosition
+*
+position
+)
+;
 class
 StumblerInfo
 final

@@ -244,6 +244,11 @@ EXPORTS
 =
 [
 '
+GeolocationUtil
+.
+h
+'
+'
 GonkGPSGeolocationProvider
 .
 h
@@ -287,6 +292,11 @@ cpp
 '
 '
 AutoMounterSetting
+.
+cpp
+'
+'
+GeolocationUtil
 .
 cpp
 '
