@@ -1812,6 +1812,8 @@ tab
 .
 ownerDocument
 .
+defaultView
+.
 gBrowser
 ;
 if
