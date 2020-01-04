@@ -12267,6 +12267,17 @@ rv
 )
 ;
 }
+if
+(
+!
+mUpgradeInsecurePreloads
+)
+{
+mUpgradeInsecurePreloads
+=
+mUpgradeInsecureRequests
+;
+}
 }
 return
 ;
