@@ -14503,6 +14503,10 @@ ShouldBlockContent
 if
 (
 mContentBlockingDisabled
+|
+|
+!
+mURI
 )
 return
 false
