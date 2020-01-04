@@ -193,6 +193,10 @@ low
 ScratchDoubleReg
 )
 ;
+asMasm
+(
+)
+.
 addDouble
 (
 ScratchDoubleReg
