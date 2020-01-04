@@ -6841,9 +6841,7 @@ contentSize
 :
 aContent
 .
-text
-.
-length
+size
 transferredSize
 :
 aContent
