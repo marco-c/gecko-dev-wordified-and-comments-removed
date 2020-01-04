@@ -4634,18 +4634,12 @@ or
             
 cmp
 (
-sorted
-(
 self
 .
 params
-)
-sorted
-(
 other
 .
 params
-)
 )
 or
             
@@ -6634,35 +6628,23 @@ return
             
 cmp
 (
-sorted
-(
 self
 .
 methods
-)
-sorted
-(
 other
 .
 methods
-)
 )
 or
             
 cmp
 (
-sorted
-(
 self
 .
 constants
-)
-sorted
-(
 other
 .
 constants
-)
 )
 or
             
