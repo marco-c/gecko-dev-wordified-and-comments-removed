@@ -3423,15 +3423,6 @@ virtual
 void
 NodeInfoChanged
 (
-mozilla
-:
-:
-dom
-:
-:
-NodeInfo
-*
-aOldNodeInfo
 )
 {
 }

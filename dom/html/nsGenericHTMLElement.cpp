@@ -14034,15 +14034,6 @@ nsGenericHTMLFormElementWithState
 :
 NodeInfoChanged
 (
-mozilla
-:
-:
-dom
-:
-:
-NodeInfo
-*
-aOldNodeInfo
 )
 {
 mStateKey
