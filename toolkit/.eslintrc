@@ -760,6 +760,11 @@ ArrayExpression
 "
 :
 true
+"
+ObjectExpression
+"
+:
+true
 }
 }
 ]
