@@ -1,0 +1,6 @@
+window
+.
+failure
+=
+true
+;
