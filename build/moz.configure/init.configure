@@ -4648,11 +4648,9 @@ help
 if
 app
 :
-imply_option
-(
+return
 app
-.
-format
+imply_option
 (
 '
 -
@@ -4661,7 +4659,7 @@ enable
 -
 project
 '
-)
+application
 )
 depends
 (
