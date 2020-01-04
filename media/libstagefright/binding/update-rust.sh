@@ -23,9 +23,9 @@ VER
 =
 v0
 .
-1
+2
 .
-6
+1
 #
 Accept
 version
