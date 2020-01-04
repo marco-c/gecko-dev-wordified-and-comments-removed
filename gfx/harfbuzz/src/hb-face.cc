@@ -260,8 +260,9 @@ closure
 hb_face_for_data_closure_t
 *
 )
-malloc
+calloc
 (
+1
 sizeof
 (
 hb_face_for_data_closure_t

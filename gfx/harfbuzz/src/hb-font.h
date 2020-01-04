@@ -938,6 +938,17 @@ hb_font_t
 font
 )
 ;
+void
+hb_font_set_parent
+(
+hb_font_t
+*
+font
+hb_font_t
+*
+parent
+)
+;
 hb_font_t
 *
 hb_font_get_parent
