@@ -942,6 +942,11 @@ insideUseAsm
 1
 ;
 bool
+wasEmitted
+:
+1
+;
+bool
 usesArguments
 :
 1
