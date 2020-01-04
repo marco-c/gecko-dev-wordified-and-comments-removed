@@ -3,16 +3,6 @@ use
 strict
 "
 ;
-const
-URL
-=
-require
-(
-"
-URL
-"
-)
-;
 exports
 .
 joinURI

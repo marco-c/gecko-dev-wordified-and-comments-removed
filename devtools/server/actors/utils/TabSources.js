@@ -101,16 +101,6 @@ path
 "
 )
 ;
-const
-URL
-=
-require
-(
-"
-URL
-"
-)
-;
 loader
 .
 lazyRequireGetter
