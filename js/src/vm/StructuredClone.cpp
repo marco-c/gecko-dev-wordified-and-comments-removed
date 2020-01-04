@@ -1798,6 +1798,16 @@ tag
 =
 SCTAG_HEADER
 )
+{
+if
+(
+point
+=
+=
+end
+)
+return
+;
 SCInput
 :
 :
@@ -1812,6 +1822,7 @@ tag
 data
 )
 ;
+}
 if
 (
 tag
