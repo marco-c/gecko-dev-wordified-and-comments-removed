@@ -1704,9 +1704,6 @@ enabled
 true
 )
 ;
-#
-ifdef
-MOZ_WAVE
 pref
 (
 "
@@ -1719,8 +1716,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "

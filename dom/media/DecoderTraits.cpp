@@ -50,9 +50,6 @@ OggReader
 h
 "
 #
-ifdef
-MOZ_WAVE
-#
 include
 "
 WaveDecoder
@@ -66,8 +63,6 @@ WaveReader
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -528,9 +523,6 @@ aType
 )
 ;
 }
-#
-ifdef
-MOZ_WAVE
 static
 const
 char
@@ -621,8 +613,6 @@ aType
 )
 ;
 }
-#
-endif
 static
 bool
 IsWebMSupportedType
@@ -1416,9 +1406,6 @@ char
 aMIMEType
 )
 {
-#
-ifdef
-MOZ_WAVE
 if
 (
 IsWaveType
@@ -1434,8 +1421,6 @@ return
 false
 ;
 }
-#
-endif
 return
 CanHandleMediaType
 (
@@ -1521,9 +1506,6 @@ gOggCodecsWithOpus
 gOggCodecs
 ;
 }
-#
-ifdef
-MOZ_WAVE
 if
 (
 IsWaveType
@@ -1540,8 +1522,6 @@ codecList
 gWaveCodecs
 ;
 }
-#
-endif
 #
 if
 !
@@ -1966,9 +1946,6 @@ return
 CANPLAY_MAYBE
 ;
 }
-#
-ifdef
-MOZ_WAVE
 if
 (
 IsWaveType
@@ -1984,8 +1961,6 @@ return
 CANPLAY_MAYBE
 ;
 }
-#
-endif
 if
 (
 IsMP4TypeAndEnabled
@@ -2378,9 +2353,6 @@ forget
 )
 ;
 }
-#
-ifdef
-MOZ_WAVE
 if
 (
 IsWaveType
@@ -2405,8 +2377,6 @@ forget
 )
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_OMX_DECODER
@@ -2867,9 +2837,6 @@ aDecoder
 ;
 }
 else
-#
-ifdef
-MOZ_WAVE
 if
 (
 IsWaveType
@@ -2888,8 +2855,6 @@ aDecoder
 ;
 }
 else
-#
-endif
 #
 ifdef
 MOZ_OMX_DECODER

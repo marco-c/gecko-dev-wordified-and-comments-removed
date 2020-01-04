@@ -7231,9 +7231,6 @@ enabled
 )
 ;
 }
-#
-ifdef
-MOZ_WAVE
 bool
 MediaDecoder
 :
@@ -7258,8 +7255,6 @@ enabled
 )
 ;
 }
-#
-endif
 bool
 MediaDecoder
 :
