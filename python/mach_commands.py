@@ -1382,6 +1382,10 @@ True
 ensure_exit_code
 =
 False
+            
+require_unix_environment
+=
+True
         
 )
     
