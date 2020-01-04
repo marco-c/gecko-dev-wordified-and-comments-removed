@@ -10879,9 +10879,6 @@ MDDEPDIR
 )
 /
 (
-EXTRA_MDDEPEND_FILES
-)
-(
 addsuffix
 .
 pp
@@ -10922,16 +10919,6 @@ MDDEPEND_FILES
 )
 endif
 endif
-ifneq
-(
-(
-filter
-export
-(
-MAKECMDGOALS
-)
-)
-)
 MDDEPEND_FILES
 :
 =
@@ -10946,7 +10933,7 @@ MDDEPDIR
 )
 /
 (
-EXTRA_EXPORT_MDDEPEND_FILES
+EXTRA_MDDEPEND_FILES
 )
 )
 )
@@ -10964,7 +10951,6 @@ include_deps
 MDDEPEND_FILES
 )
 )
-endif
 endif
 #
 #
