@@ -149,6 +149,13 @@ manager
 js
 '
 '
+director
+-
+registry
+.
+js
+'
+'
 highlighters
 .
 js
