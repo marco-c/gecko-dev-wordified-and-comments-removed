@@ -114,6 +114,7 @@ roles
 /
 [
 scriptable
+builtinclass
 uuid
 (
 05a9f33f

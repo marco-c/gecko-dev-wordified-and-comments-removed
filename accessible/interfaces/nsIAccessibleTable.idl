@@ -106,6 +106,7 @@ nsIArray
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 cb0bf7b9
@@ -1387,6 +1388,7 @@ isProbablyForLayout
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 654e296d

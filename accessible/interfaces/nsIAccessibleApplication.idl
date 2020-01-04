@@ -124,6 +124,7 @@ application
 /
 [
 scriptable
+builtinclass
 uuid
 (
 79251626

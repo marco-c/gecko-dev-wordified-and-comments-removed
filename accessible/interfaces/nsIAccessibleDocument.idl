@@ -189,6 +189,7 @@ GetDocument
 /
 [
 scriptable
+builtinclass
 uuid
 (
 5cad5f91
