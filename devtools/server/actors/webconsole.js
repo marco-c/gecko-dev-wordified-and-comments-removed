@@ -2079,9 +2079,7 @@ outerWindowID
 messageManager
 this
 .
-parentActor
-.
-actorID
+conn
 this
 )
 ;
