@@ -385,7 +385,7 @@ eFormEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_FORM_CHANGE
+eFormChange
 eFormEventFirst
 +
 2

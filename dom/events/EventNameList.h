@@ -345,7 +345,7 @@ eBasicEventClass
 EVENT
 (
 change
-NS_FORM_CHANGE
+eFormChange
 EventNameType_HTMLXUL
 eBasicEventClass
 )

@@ -3009,7 +3009,7 @@ openControlled
 break
 ;
 case
-NS_FORM_CHANGE
+eFormChange
 :
 if
 (
@@ -3107,7 +3107,7 @@ mMessage
 )
 {
 case
-NS_FORM_CHANGE
+eFormChange
 :
 if
 (

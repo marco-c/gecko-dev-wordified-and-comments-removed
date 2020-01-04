@@ -3838,7 +3838,7 @@ case
 NS_FORM_SELECTED
 :
 case
-NS_FORM_CHANGE
+eFormChange
 :
 case
 eLoad
