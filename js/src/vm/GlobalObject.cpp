@@ -136,15 +136,6 @@ include
 "
 builtin
 /
-SIMD
-.
-h
-"
-#
-include
-"
-builtin
-/
 SymbolObject
 .
 h
