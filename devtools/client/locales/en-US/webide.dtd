@@ -779,6 +779,15 @@ device
 >
 <
 !
+ENTITY
+runtimePanel_refreshDevices_label
+"
+Refresh
+Devices
+"
+>
+<
+!
 -
 -
 Lense
