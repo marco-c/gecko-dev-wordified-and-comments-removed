@@ -20,6 +20,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 target
@@ -34,7 +36,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -51,6 +53,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 client
 /

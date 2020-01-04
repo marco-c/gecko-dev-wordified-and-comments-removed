@@ -221,7 +221,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 layout
 /
@@ -258,7 +258,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -670,7 +670,7 @@ DevToolsUtils
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -687,7 +687,7 @@ AsyncUtils
 "
 devtools
 /
-toolkit
+shared
 /
 async
 -
@@ -785,6 +785,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 styleinspector
 /

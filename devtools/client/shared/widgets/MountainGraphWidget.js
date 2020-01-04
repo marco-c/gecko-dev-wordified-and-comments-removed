@@ -35,6 +35,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 ViewHelpers
 .
 jsm
@@ -51,6 +57,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /

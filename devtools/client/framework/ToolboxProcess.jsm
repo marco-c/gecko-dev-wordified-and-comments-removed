@@ -109,6 +109,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -134,6 +136,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -162,7 +166,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -

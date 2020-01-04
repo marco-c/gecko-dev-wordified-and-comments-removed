@@ -28,7 +28,11 @@ require
 "
 devtools
 /
+client
+/
 performance
+/
+modules
 /
 global
 "
@@ -50,6 +54,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 ViewHelpers
 .
@@ -73,6 +83,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 AbstractTreeItem
 .

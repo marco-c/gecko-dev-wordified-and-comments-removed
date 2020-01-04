@@ -16,6 +16,8 @@ require
 "
 devtools
 /
+client
+/
 styleinspector
 /
 style

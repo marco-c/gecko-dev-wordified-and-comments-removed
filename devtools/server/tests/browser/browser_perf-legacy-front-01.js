@@ -13,6 +13,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 target
@@ -29,7 +31,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /

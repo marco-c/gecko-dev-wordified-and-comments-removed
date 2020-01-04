@@ -227,14 +227,8 @@ FINAL_LIBRARY
 '
 xul
 '
-EXTRA_JS_MODULES
-.
-devtools
-.
-heapsnapshot
-+
-=
-[
+DevToolsModules
+(
 '
 census
 -
@@ -259,4 +253,4 @@ HeapSnapshotFileUtils
 .
 js
 '
-]
+)

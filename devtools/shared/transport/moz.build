@@ -107,14 +107,8 @@ xpcshell
 ini
 '
 ]
-EXTRA_JS_MODULES
-.
-devtools
-.
-transport
-+
-=
-[
+DevToolsModules
+(
 '
 packets
 .
@@ -132,4 +126,4 @@ transport
 .
 js
 '
-]
+)

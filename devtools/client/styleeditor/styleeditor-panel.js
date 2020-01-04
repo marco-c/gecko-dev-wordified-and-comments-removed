@@ -69,7 +69,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -91,6 +91,10 @@ modules
 /
 devtools
 /
+client
+/
+styleeditor
+/
 StyleEditorUI
 .
 jsm
@@ -110,6 +114,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+styleeditor
 /
 StyleEditorUtil
 .

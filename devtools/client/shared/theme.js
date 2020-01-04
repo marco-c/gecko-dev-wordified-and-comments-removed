@@ -70,6 +70,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm

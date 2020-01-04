@@ -31,6 +31,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 target

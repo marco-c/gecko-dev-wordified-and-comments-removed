@@ -25,6 +25,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -43,6 +45,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -85,7 +89,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 simulators
 "
@@ -99,7 +107,7 @@ require
 '
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -125,7 +133,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 utils
 "

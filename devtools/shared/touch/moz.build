@@ -93,14 +93,8 @@ MPL
 0
 /
 .
-EXTRA_JS_MODULES
-.
-devtools
-.
-touch
-+
-=
-[
+DevToolsModules
+(
 '
 simulator
 -
@@ -113,4 +107,4 @@ simulator
 .
 js
 '
-]
+)

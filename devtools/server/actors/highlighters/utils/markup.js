@@ -28,7 +28,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 layout
 /
@@ -52,6 +52,8 @@ CssLogic
 "
 "
 devtools
+/
+shared
 /
 styleinspector
 /

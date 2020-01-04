@@ -23,6 +23,10 @@ ToolDefinitions
 require
 (
 "
+devtools
+/
+client
+/
 main
 "
 )
@@ -38,6 +42,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 styleinspector
 /
@@ -112,6 +118,8 @@ require
 "
 devtools
 /
+shared
+/
 output
 -
 parser
@@ -129,6 +137,8 @@ require
 "
 devtools
 /
+client
+/
 styleeditor
 /
 utils
@@ -144,6 +154,8 @@ require
 (
 "
 devtools
+/
+client
 /
 styleinspector
 /
@@ -170,6 +182,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -188,6 +204,8 @@ overlays
 "
 "
 devtools
+/
+client
 /
 styleinspector
 /
@@ -209,6 +227,8 @@ StyleInspectorMenu
 "
 "
 devtools
+/
+client
 /
 styleinspector
 /

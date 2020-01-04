@@ -86,7 +86,7 @@ Actors
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /
@@ -107,7 +107,7 @@ LegacyPerformanceRecording
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /
@@ -129,7 +129,7 @@ importRecording
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /
@@ -151,7 +151,7 @@ normalizePerformanceFeatures
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /
@@ -171,7 +171,7 @@ DevToolsUtils
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -187,8 +187,6 @@ getDeviceFront
 "
 "
 devtools
-/
-toolkit
 /
 server
 /
@@ -210,7 +208,7 @@ getSystemInfo
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /

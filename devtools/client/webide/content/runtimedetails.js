@@ -49,6 +49,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -67,7 +69,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 app
 -
@@ -84,6 +90,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 client
 /
@@ -103,7 +111,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 runtimes
 "

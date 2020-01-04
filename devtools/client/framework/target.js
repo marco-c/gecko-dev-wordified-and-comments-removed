@@ -35,7 +35,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -91,7 +91,7 @@ DebuggerClient
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /

@@ -73,6 +73,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 ViewHelpers
 .
 jsm
@@ -92,6 +98,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+framework
 /
 gDevTools
 .
@@ -120,6 +130,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -147,6 +159,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .
@@ -222,7 +236,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -267,6 +281,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 telemetry
@@ -289,7 +305,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -305,6 +321,8 @@ LineGraphWidget
 "
 "
 devtools
+/
+client
 /
 shared
 /

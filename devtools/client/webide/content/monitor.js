@@ -19,6 +19,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -44,6 +48,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Loader
 .
@@ -87,7 +93,11 @@ require
 '
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 app
 -
@@ -104,6 +114,10 @@ require
 (
 '
 devtools
+/
+shared
+/
+apps
 /
 app
 -
@@ -123,6 +137,8 @@ require
 '
 devtools
 /
+shared
+/
 client
 /
 connection
@@ -139,7 +155,7 @@ require
 '
 devtools
 /
-toolkit
+shared
 /
 event
 -

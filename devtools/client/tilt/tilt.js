@@ -25,6 +25,8 @@ require
 "
 devtools
 /
+client
+/
 tilt
 /
 tilt
@@ -40,6 +42,8 @@ require
 (
 "
 devtools
+/
+client
 /
 tilt
 /
@@ -57,6 +61,8 @@ require
 "
 devtools
 /
+client
+/
 tilt
 /
 tilt
@@ -73,7 +79,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -88,6 +94,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /

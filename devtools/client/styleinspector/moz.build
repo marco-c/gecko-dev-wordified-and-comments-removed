@@ -119,14 +119,8 @@ xpcshell
 ini
 '
 ]
-EXTRA_JS_MODULES
-.
-devtools
-.
-styleinspector
-+
-=
-[
+DevToolsModules
+(
 '
 computed
 -
@@ -180,4 +174,4 @@ utils
 .
 js
 '
-]
+)

@@ -21,6 +21,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 observable
@@ -37,7 +39,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 deprecated
 -
@@ -66,6 +68,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 event
 -

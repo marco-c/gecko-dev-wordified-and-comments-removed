@@ -36,6 +36,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 ViewHelpers
 .
 jsm
@@ -56,6 +62,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 event
 -

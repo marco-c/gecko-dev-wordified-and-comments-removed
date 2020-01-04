@@ -105,12 +105,6 @@ browser
 ini
 '
 ]
-EXTRA_JS_MODULES
-.
-devtools
-.
-promisedebugger
-+
-=
-[
-]
+DevToolsModules
+(
+)

@@ -95,6 +95,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 toolbox
@@ -123,6 +125,8 @@ require
 "
 devtools
 /
+client
+/
 inspector
 /
 inspector
@@ -151,6 +155,8 @@ require
 "
 devtools
 /
+client
+/
 webconsole
 /
 panel
@@ -177,6 +183,8 @@ require
 "
 devtools
 /
+client
+/
 debugger
 /
 panel
@@ -202,6 +210,8 @@ require
 (
 "
 devtools
+/
+client
 /
 styleeditor
 /
@@ -231,6 +241,8 @@ require
 "
 devtools
 /
+client
+/
 shadereditor
 /
 panel
@@ -256,6 +268,8 @@ require
 (
 "
 devtools
+/
+client
 /
 canvasdebugger
 /
@@ -283,6 +297,8 @@ require
 "
 devtools
 /
+client
+/
 webaudioeditor
 /
 panel
@@ -308,6 +324,8 @@ require
 (
 "
 devtools
+/
+client
 /
 memory
 /
@@ -335,6 +353,8 @@ require
 "
 devtools
 /
+client
+/
 performance
 /
 panel
@@ -360,6 +380,8 @@ require
 (
 "
 devtools
+/
+client
 /
 netmonitor
 /
@@ -387,6 +409,8 @@ require
 "
 devtools
 /
+client
+/
 storage
 /
 panel
@@ -412,6 +436,8 @@ require
 (
 "
 devtools
+/
+client
 /
 scratchpad
 /
@@ -1223,6 +1249,8 @@ commands
 "
 devtools
 /
+client
+/
 responsivedesign
 /
 resize
@@ -1232,6 +1260,8 @@ commands
 "
 devtools
 /
+client
+/
 inspector
 /
 inspector
@@ -1240,6 +1270,8 @@ commands
 "
 "
 devtools
+/
+client
 /
 eyedropper
 /
@@ -1485,6 +1517,8 @@ commands
 :
 "
 devtools
+/
+client
 /
 webconsole
 /
@@ -1739,6 +1773,8 @@ commands
 "
 devtools
 /
+client
+/
 debugger
 /
 debugger
@@ -1911,6 +1947,8 @@ commands
 :
 "
 devtools
+/
+client
 /
 styleeditor
 /
@@ -3201,6 +3239,8 @@ commands
 :
 "
 devtools
+/
+client
 /
 scratchpad
 /

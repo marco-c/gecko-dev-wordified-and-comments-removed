@@ -75,7 +75,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -90,6 +90,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /

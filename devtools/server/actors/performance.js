@@ -150,7 +150,7 @@ PerformanceRecorder
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /
@@ -170,7 +170,7 @@ PerformanceIO
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /
@@ -189,7 +189,7 @@ normalizePerformanceFeatures
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /
@@ -209,7 +209,7 @@ LegacyPerformanceFront
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /
@@ -231,7 +231,7 @@ getSystemInfo
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /

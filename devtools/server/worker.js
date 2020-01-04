@@ -83,6 +83,8 @@ modules
 /
 devtools
 /
+shared
+/
 worker
 -
 loader

@@ -84,6 +84,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -154,7 +156,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -176,7 +178,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 transport
 /
@@ -198,7 +200,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 transport
 /
@@ -224,7 +226,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -

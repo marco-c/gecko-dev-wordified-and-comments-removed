@@ -95,6 +95,10 @@ modules
 /
 devtools
 /
+shared
+/
+client
+/
 dbg
 -
 client
@@ -117,6 +121,8 @@ gre
 modules
 /
 devtools
+/
+server
 /
 dbg
 -
@@ -159,6 +165,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Loader
 .

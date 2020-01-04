@@ -22,6 +22,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -40,6 +44,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 target
@@ -54,7 +60,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

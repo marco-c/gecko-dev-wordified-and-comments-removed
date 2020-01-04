@@ -27,6 +27,8 @@ require
 "
 devtools
 /
+shared
+/
 css
 -
 color

@@ -107,12 +107,8 @@ xpcshell
 ini
 '
 ]
-EXTRA_JS_MODULES
-.
-devtools
-+
-=
-[
+DevToolsModules
+(
 '
 pretty
 -
@@ -120,4 +116,4 @@ fast
 .
 js
 '
-]
+)

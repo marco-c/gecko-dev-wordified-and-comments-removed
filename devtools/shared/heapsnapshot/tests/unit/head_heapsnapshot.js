@@ -58,6 +58,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -174,7 +176,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -188,7 +190,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 heapsnapshot
 /
@@ -216,7 +218,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 heapsnapshot
 /

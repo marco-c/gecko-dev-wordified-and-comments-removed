@@ -75,6 +75,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 ViewHelpers
 .
 jsm
@@ -92,7 +98,7 @@ NetworkHelper
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /

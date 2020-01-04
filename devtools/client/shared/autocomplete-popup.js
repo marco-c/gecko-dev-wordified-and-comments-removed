@@ -85,6 +85,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -99,7 +103,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -

@@ -119,14 +119,8 @@ xpcshell
 ini
 '
 ]
-EXTRA_JS_MODULES
-.
-devtools
-.
-animationinspector
-+
-=
-[
+DevToolsModules
+(
 '
 components
 .
@@ -137,4 +131,4 @@ utils
 .
 js
 '
-]
+)

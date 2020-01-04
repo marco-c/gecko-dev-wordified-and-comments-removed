@@ -31,6 +31,10 @@ modules
 /
 devtools
 /
+shared
+/
+apps
+/
 Devices
 .
 jsm
@@ -71,6 +75,8 @@ require
 "
 devtools
 /
+shared
+/
 client
 /
 connection
@@ -105,7 +111,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 simulators
 "
@@ -119,7 +129,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 discovery
 /
@@ -135,7 +145,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -164,7 +174,7 @@ AuthenticationResult
 "
 devtools
 /
-toolkit
+shared
 /
 security
 /
@@ -184,7 +194,7 @@ DevToolsUtils
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

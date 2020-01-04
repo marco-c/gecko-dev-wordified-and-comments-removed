@@ -25,7 +25,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /
@@ -59,6 +59,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 target
@@ -73,6 +75,10 @@ Tools
 require
 (
 "
+devtools
+/
+client
+/
 definitions
 "
 )
@@ -104,6 +110,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 telemetry
@@ -127,6 +135,8 @@ require
 (
 "
 devtools
+/
+client
 /
 webconsole
 /
@@ -154,6 +164,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+framework
 /
 gDevTools
 .
@@ -213,7 +227,7 @@ DebuggerClient
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /
@@ -239,6 +253,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 doorhanger
@@ -258,6 +274,8 @@ sourceUtils
 "
 "
 devtools
+/
+client
 /
 shared
 /

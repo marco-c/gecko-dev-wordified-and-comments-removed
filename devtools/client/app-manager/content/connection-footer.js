@@ -45,6 +45,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -71,6 +75,10 @@ modules
 /
 devtools
 /
+shared
+/
+apps
+/
 Simulator
 .
 jsm
@@ -96,6 +104,10 @@ modules
 /
 devtools
 /
+shared
+/
+apps
+/
 Devices
 .
 jsm
@@ -122,6 +134,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -140,6 +154,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 client
 /
@@ -175,6 +191,8 @@ require
 "
 devtools
 /
+client
+/
 app
 -
 manager
@@ -192,6 +210,8 @@ require
 (
 "
 devtools
+/
+client
 /
 app
 -
@@ -211,6 +231,8 @@ require
 "
 devtools
 /
+client
+/
 app
 -
 manager
@@ -228,6 +250,8 @@ require
 (
 "
 devtools
+/
+client
 /
 app
 -

@@ -44,7 +44,13 @@ ItchEditor
 require
 (
 "
+devtools
+/
+client
+/
 projecteditor
+/
+lib
 /
 editors
 "

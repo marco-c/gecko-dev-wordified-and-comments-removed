@@ -23,6 +23,8 @@ require
 "
 devtools
 /
+client
+/
 sourceeditor
 /
 css

@@ -39,6 +39,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -57,7 +59,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /

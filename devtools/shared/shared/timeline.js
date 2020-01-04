@@ -99,7 +99,7 @@ Memory
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /
@@ -119,7 +119,7 @@ Framerate
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /

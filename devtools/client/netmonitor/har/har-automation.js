@@ -102,6 +102,8 @@ HarCollector
 "
 devtools
 /
+client
+/
 netmonitor
 /
 har
@@ -124,6 +126,8 @@ HarExporter
 "
 devtools
 /
+client
+/
 netmonitor
 /
 har
@@ -145,6 +149,8 @@ HarUtils
 "
 "
 devtools
+/
+client
 /
 netmonitor
 /

@@ -13,7 +13,11 @@ require
 "
 devtools
 /
+client
+/
 performance
+/
+modules
 /
 global
 "
@@ -29,7 +33,13 @@ require
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+logic
 /
 marker
 -

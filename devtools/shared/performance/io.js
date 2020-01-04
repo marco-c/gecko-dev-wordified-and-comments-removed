@@ -49,7 +49,7 @@ RecordingUtils
 "
 devtools
 /
-toolkit
+shared
 /
 performance
 /

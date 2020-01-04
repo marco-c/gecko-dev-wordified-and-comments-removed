@@ -11,7 +11,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -27,13 +27,11 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /
 worker
-.
-js
 "
 )
 ;
@@ -50,6 +48,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 heapsnapshot
 /

@@ -93,14 +93,8 @@ MPL
 0
 /
 .
-EXTRA_JS_MODULES
-.
-devtools
-.
-eyedropper
-+
-=
-[
+DevToolsModules
+(
 '
 commands
 .
@@ -118,7 +112,7 @@ eyedropper
 .
 js
 '
-]
+)
 BROWSER_CHROME_MANIFESTS
 +
 =

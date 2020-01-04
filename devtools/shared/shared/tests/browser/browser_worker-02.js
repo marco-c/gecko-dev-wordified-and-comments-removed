@@ -8,7 +8,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /
@@ -28,6 +28,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 GraphsWorker
 .

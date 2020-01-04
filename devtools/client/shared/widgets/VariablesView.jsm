@@ -122,6 +122,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 ViewHelpers
 .
 jsm
@@ -142,6 +148,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 event
 -
@@ -190,6 +198,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -206,7 +216,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -290,7 +300,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /
@@ -331,7 +341,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /

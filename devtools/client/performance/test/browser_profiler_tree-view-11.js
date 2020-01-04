@@ -8,7 +8,11 @@ require
 "
 devtools
 /
+client
+/
 performance
+/
+modules
 /
 global
 "

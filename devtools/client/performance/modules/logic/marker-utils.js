@@ -27,7 +27,11 @@ L10N
 "
 devtools
 /
+client
+/
 performance
+/
+modules
 /
 global
 "
@@ -45,7 +49,11 @@ PREFS
 "
 devtools
 /
+client
+/
 performance
+/
+modules
 /
 global
 "
@@ -63,7 +71,11 @@ TIMELINE_BLUEPRINT
 "
 devtools
 /
+client
+/
 performance
+/
+modules
 /
 markers
 "
@@ -81,7 +93,7 @@ WebConsoleUtils
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /

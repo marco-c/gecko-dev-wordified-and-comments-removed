@@ -61,6 +61,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -82,6 +84,8 @@ modules
 /
 devtools
 /
+shared
+/
 Console
 .
 jsm
@@ -101,6 +105,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 ViewHelpers
 .
@@ -129,7 +139,7 @@ EventEmitter
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -

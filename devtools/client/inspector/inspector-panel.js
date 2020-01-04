@@ -50,7 +50,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -80,6 +80,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 toolbox
@@ -104,6 +106,8 @@ require
 (
 "
 devtools
+/
+client
 /
 markupview
 /
@@ -133,6 +137,8 @@ require
 "
 devtools
 /
+client
+/
 inspector
 /
 breadcrumbs
@@ -159,6 +165,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 sidebar
@@ -184,6 +192,8 @@ require
 (
 "
 devtools
+/
+client
 /
 inspector
 /
@@ -332,6 +342,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
 /
 DeveloperToolbar
 .

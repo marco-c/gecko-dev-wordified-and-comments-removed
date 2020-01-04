@@ -163,7 +163,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -185,6 +185,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 styleinspector
 /

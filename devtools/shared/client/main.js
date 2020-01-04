@@ -35,7 +35,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -58,6 +58,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 deprecated
 -
@@ -101,7 +103,7 @@ WebConsoleClient
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /
@@ -121,7 +123,7 @@ DebuggerSocket
 "
 devtools
 /
-toolkit
+shared
 /
 security
 /
@@ -141,7 +143,7 @@ Authentication
 "
 devtools
 /
-toolkit
+shared
 /
 security
 /

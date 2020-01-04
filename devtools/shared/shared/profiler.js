@@ -89,11 +89,9 @@ DevToolsUtils
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
-.
-js
 "
 )
 ;

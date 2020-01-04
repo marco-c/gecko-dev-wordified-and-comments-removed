@@ -25,6 +25,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -42,6 +44,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /
@@ -68,6 +72,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .
@@ -145,7 +151,13 @@ ProjectEditor
 require
 (
 "
+devtools
+/
+client
+/
 projecteditor
+/
+lib
 /
 projecteditor
 "
@@ -159,7 +171,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

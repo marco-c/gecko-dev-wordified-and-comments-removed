@@ -28,7 +28,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 layout
 /
@@ -96,6 +96,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 VariablesView
 .
 jsm
@@ -110,7 +116,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

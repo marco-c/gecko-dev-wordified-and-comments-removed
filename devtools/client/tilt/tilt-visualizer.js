@@ -25,6 +25,8 @@ require
 "
 devtools
 /
+client
+/
 tilt
 /
 tilt
@@ -41,6 +43,8 @@ require
 "
 devtools
 /
+client
+/
 tilt
 /
 tilt
@@ -56,6 +60,8 @@ require
 (
 "
 devtools
+/
+client
 /
 tilt
 /
@@ -81,6 +87,8 @@ require
 "
 devtools
 /
+client
+/
 tilt
 /
 tilt
@@ -98,6 +106,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /
@@ -137,6 +147,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+framework
 /
 gDevTools
 .
@@ -330,6 +344,8 @@ modules
 /
 devtools
 /
+client
+/
 tilt
 /
 TiltWorkerCrafter
@@ -349,6 +365,8 @@ resource
 modules
 /
 devtools
+/
+client
 /
 tilt
 /
@@ -5679,6 +5697,8 @@ require
 (
 "
 devtools
+/
+client
 /
 tilt
 /

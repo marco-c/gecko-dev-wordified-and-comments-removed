@@ -24,6 +24,8 @@ require
 "
 devtools
 /
+client
+/
 styleinspector
 /
 computed
@@ -41,6 +43,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 styleinspector
 /

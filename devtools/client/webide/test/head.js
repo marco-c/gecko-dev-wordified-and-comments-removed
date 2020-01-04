@@ -95,6 +95,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -121,6 +123,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+framework
 /
 gDevTools
 .
@@ -150,6 +156,8 @@ require
 "
 devtools
 /
+client
+/
 app
 -
 manager
@@ -168,7 +176,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

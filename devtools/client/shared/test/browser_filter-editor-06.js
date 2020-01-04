@@ -48,6 +48,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 widgets
@@ -74,6 +76,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 ViewHelpers
 .

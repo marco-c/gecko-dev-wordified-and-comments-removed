@@ -5361,7 +5361,11 @@ require
 '
 devtools
 /
+shared
+/
 jsbeautify
+/
+beautify
 '
 )
 ;

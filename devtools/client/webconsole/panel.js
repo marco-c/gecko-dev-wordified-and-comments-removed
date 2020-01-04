@@ -44,6 +44,8 @@ require
 "
 devtools
 /
+client
+/
 webconsole
 /
 hudservice
@@ -68,7 +70,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -

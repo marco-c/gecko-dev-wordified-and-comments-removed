@@ -66,6 +66,10 @@ Tools
 require
 (
 "
+devtools
+/
+client
+/
 main
 "
 )

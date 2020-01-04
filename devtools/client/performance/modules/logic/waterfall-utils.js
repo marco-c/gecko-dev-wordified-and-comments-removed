@@ -32,7 +32,13 @@ MarkerUtils
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+logic
 /
 marker
 -

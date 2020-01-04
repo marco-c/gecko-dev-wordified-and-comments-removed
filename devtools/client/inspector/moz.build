@@ -53,14 +53,8 @@ MPL
 0
 /
 .
-EXTRA_JS_MODULES
-.
-devtools
-.
-inspector
-+
-=
-[
+DevToolsModules
+(
 '
 breadcrumbs
 .
@@ -87,7 +81,7 @@ search
 .
 js
 '
-]
+)
 BROWSER_CHROME_MANIFESTS
 +
 =

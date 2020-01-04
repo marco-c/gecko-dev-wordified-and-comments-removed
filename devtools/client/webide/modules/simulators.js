@@ -71,6 +71,8 @@ ConnectionManager
 "
 devtools
 /
+shared
+/
 client
 /
 connection
@@ -91,7 +93,11 @@ AddonSimulatorProcess
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 simulator
 -
@@ -111,7 +117,11 @@ OldAddonSimulatorProcess
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 simulator
 -
@@ -131,7 +141,11 @@ CustomSimulatorProcess
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 simulator
 -
@@ -148,7 +162,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /
@@ -166,7 +180,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -

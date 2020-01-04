@@ -96,12 +96,8 @@ xpcshell
 ini
 '
 ]
-EXTRA_JS_MODULES
-.
-devtools
-+
-=
-[
+DevToolsModules
+(
 '
 app
 -
@@ -121,4 +117,4 @@ Simulator
 .
 jsm
 '
-]
+)

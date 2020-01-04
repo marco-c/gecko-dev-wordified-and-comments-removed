@@ -51,6 +51,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -94,6 +96,12 @@ require
 "
 devtools
 /
+shared
+/
+pretty
+-
+fast
+/
 pretty
 -
 fast
@@ -119,6 +127,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .

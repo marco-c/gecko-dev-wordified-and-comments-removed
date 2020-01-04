@@ -22,6 +22,8 @@ require
 "
 devtools
 /
+shared
+/
 css
 -
 color
@@ -37,6 +39,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -63,6 +67,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 event
 -
@@ -794,6 +800,8 @@ resource
 modules
 /
 devtools
+/
+client
 /
 eyedropper
 /

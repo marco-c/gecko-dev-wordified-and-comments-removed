@@ -18,6 +18,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 observable
@@ -45,6 +47,10 @@ gre
 modules
 /
 devtools
+/
+shared
+/
+apps
 /
 Simulator
 .

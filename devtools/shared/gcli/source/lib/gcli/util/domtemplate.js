@@ -33,6 +33,10 @@ modules
 /
 devtools
 /
+shared
+/
+gcli
+/
 Templater
 .
 jsm

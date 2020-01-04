@@ -19,6 +19,8 @@ modules
 /
 devtools
 /
+shared
+/
 Console
 .
 jsm
@@ -35,7 +37,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /

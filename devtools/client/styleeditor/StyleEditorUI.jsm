@@ -144,6 +144,8 @@ modules
 /
 devtools
 /
+shared
+/
 event
 -
 emitter
@@ -166,6 +168,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -185,6 +191,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+styleeditor
 /
 StyleEditorUtil
 .
@@ -206,6 +216,10 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
 SplitView
 .
 jsm
@@ -225,6 +239,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+styleeditor
 /
 StyleSheetEditor
 .
@@ -275,6 +293,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -293,6 +313,8 @@ require
 (
 "
 devtools
+/
+client
 /
 styleeditor
 /
@@ -331,6 +353,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .

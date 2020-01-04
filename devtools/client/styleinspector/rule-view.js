@@ -64,6 +64,8 @@ require
 "
 devtools
 /
+shared
+/
 styleinspector
 /
 css
@@ -83,6 +85,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -121,6 +125,8 @@ require
 "
 devtools
 /
+shared
+/
 output
 -
 parser
@@ -137,6 +143,8 @@ require
 (
 "
 devtools
+/
+client
 /
 styleeditor
 /
@@ -159,6 +167,8 @@ require
 "
 devtools
 /
+client
+/
 styleinspector
 /
 utils
@@ -179,6 +189,8 @@ require
 (
 "
 devtools
+/
+client
 /
 styleinspector
 /
@@ -201,6 +213,8 @@ overlays
 "
 devtools
 /
+client
+/
 styleinspector
 /
 style
@@ -222,7 +236,7 @@ EventEmitter
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -240,6 +254,8 @@ StyleInspectorMenu
 "
 "
 devtools
+/
+client
 /
 styleinspector
 /
@@ -16652,6 +16668,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /

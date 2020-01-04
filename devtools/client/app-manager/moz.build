@@ -117,19 +117,8 @@ chrome
 ini
 '
 ]
-EXTRA_JS_MODULES
-.
-devtools
-[
-"
-app
--
-manager
-"
-]
-+
-=
-[
+DevToolsModules
+(
 '
 app
 -
@@ -181,4 +170,4 @@ store
 .
 js
 '
-]
+)

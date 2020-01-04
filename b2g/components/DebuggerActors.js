@@ -23,11 +23,9 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
-.
-js
 "
 )
 ;

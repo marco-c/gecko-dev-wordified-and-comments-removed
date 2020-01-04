@@ -25,6 +25,8 @@ require
 "
 devtools
 /
+client
+/
 tilt
 /
 tilt
@@ -43,6 +45,8 @@ require
 (
 "
 devtools
+/
+client
 /
 tilt
 /

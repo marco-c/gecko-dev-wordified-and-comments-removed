@@ -53,7 +53,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /

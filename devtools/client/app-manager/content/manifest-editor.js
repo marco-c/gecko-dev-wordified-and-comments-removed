@@ -41,6 +41,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 VariablesView
 .
 jsm

@@ -11,7 +11,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -50,6 +50,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 ViewHelpers
 .

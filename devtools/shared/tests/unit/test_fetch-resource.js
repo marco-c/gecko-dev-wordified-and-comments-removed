@@ -17,6 +17,8 @@ modules
 /
 devtools
 /
+shared
+/
 DevToolsUtils
 .
 js

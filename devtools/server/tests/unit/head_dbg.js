@@ -59,6 +59,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -86,6 +88,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 worker
 -
@@ -141,6 +145,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 async
 -
@@ -200,11 +206,9 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
-.
-js
 "
 )
 ;
@@ -255,7 +259,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /
@@ -1089,6 +1093,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -1107,6 +1113,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .

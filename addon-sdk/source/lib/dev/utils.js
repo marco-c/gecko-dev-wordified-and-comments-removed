@@ -34,6 +34,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -61,6 +65,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Loader
 .

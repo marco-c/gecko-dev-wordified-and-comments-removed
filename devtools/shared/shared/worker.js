@@ -54,7 +54,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -117,6 +117,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -176,6 +178,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .
@@ -848,9 +852,13 @@ devtools
 /
 shared
 /
+shared
+/
 worker
 -
 helper
+.
+js
 "
 )
 ;

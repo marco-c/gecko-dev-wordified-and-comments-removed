@@ -140,6 +140,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -174,7 +176,7 @@ devtoolsRequire
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /

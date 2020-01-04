@@ -59,6 +59,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -81,7 +83,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 path
 "
@@ -102,7 +104,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /

@@ -13,6 +13,8 @@ require
 "
 devtools
 /
+client
+/
 animationinspector
 /
 utils
@@ -28,6 +30,8 @@ require
 (
 "
 devtools
+/
+client
 /
 animationinspector
 /

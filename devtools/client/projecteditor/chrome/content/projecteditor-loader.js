@@ -25,6 +25,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -101,7 +103,13 @@ ProjectEditor
 require
 (
 "
+devtools
+/
+client
+/
 projecteditor
+/
+lib
 /
 projecteditor
 "

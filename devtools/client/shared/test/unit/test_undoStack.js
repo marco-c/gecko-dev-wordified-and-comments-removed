@@ -112,6 +112,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 undo

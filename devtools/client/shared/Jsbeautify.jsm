@@ -35,6 +35,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -53,7 +55,11 @@ require
 "
 devtools
 /
+shared
+/
 jsbeautify
+/
+beautify
 "
 )
 ;

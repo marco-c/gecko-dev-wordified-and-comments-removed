@@ -23,7 +23,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -61,6 +61,8 @@ StorageUI
 "
 "
 devtools
+/
+client
 /
 storage
 /

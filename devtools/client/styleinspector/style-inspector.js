@@ -35,6 +35,10 @@ Tools
 require
 (
 "
+devtools
+/
+client
+/
 main
 "
 )
@@ -68,6 +72,8 @@ require
 "
 devtools
 /
+client
+/
 styleeditor
 /
 utils
@@ -100,6 +106,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -128,6 +138,8 @@ require
 "
 devtools
 /
+client
+/
 styleinspector
 /
 rule
@@ -153,6 +165,8 @@ require
 (
 "
 devtools
+/
+client
 /
 styleinspector
 /

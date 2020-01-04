@@ -105,14 +105,8 @@ browser
 ini
 '
 ]
-EXTRA_JS_MODULES
-.
-devtools
-.
-storage
-+
-=
-[
+DevToolsModules
+(
 '
 panel
 .
@@ -123,4 +117,4 @@ ui
 .
 js
 '
-]
+)

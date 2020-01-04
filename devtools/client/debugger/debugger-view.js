@@ -205,6 +205,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 redux
@@ -226,6 +228,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -274,6 +278,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /

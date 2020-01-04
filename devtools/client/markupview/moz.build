@@ -105,14 +105,8 @@ browser
 ini
 '
 ]
-EXTRA_JS_MODULES
-.
-devtools
-.
-markupview
-+
-=
-[
+DevToolsModules
+(
 '
 html
 -
@@ -127,4 +121,4 @@ view
 .
 js
 '
-]
+)

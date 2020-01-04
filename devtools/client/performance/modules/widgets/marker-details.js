@@ -29,7 +29,7 @@ EventEmitter
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -48,7 +48,13 @@ MarkerUtils
 "
 devtools
 /
+client
+/
 performance
+/
+modules
+/
+logic
 /
 marker
 -

@@ -121,6 +121,8 @@ modules
 /
 devtools
 /
+shared
+/
 Console
 .
 jsm
@@ -848,6 +850,8 @@ modules
 /
 devtools
 /
+shared
+/
 Console
 .
 jsm
@@ -1068,6 +1072,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .
@@ -1311,6 +1317,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .

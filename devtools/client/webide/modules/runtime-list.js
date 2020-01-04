@@ -44,6 +44,8 @@ require
 "
 devtools
 /
+client
+/
 app
 -
 manager
@@ -64,7 +66,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 app
 -
@@ -80,7 +86,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -99,7 +105,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 runtimes
 "
@@ -124,6 +134,10 @@ gre
 modules
 /
 devtools
+/
+shared
+/
+apps
 /
 Devices
 .
@@ -165,7 +179,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 utils
 "

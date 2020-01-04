@@ -33,6 +33,10 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
 AppCacheUtils
 .
 jsm

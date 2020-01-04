@@ -67,7 +67,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -92,7 +92,7 @@ DebuggerTransport
 "
 devtools
 /
-toolkit
+shared
 /
 transport
 /
@@ -130,7 +130,7 @@ discovery
 "
 devtools
 /
-toolkit
+shared
 /
 discovery
 /
@@ -149,7 +149,7 @@ cert
 "
 devtools
 /
-toolkit
+shared
 /
 security
 /
@@ -168,7 +168,7 @@ Authenticators
 "
 devtools
 /
-toolkit
+shared
 /
 security
 /
@@ -188,7 +188,7 @@ AuthenticationResult
 "
 devtools
 /
-toolkit
+shared
 /
 security
 /

@@ -11,6 +11,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 GraphsWorker
 .
 js
@@ -111,6 +117,8 @@ devtools
 /
 shared
 /
+shared
+/
 worker
 .
 js
@@ -135,7 +143,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /

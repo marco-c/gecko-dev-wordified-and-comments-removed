@@ -1387,6 +1387,10 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
 DeveloperToolbar
 .
 jsm
@@ -1447,6 +1451,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+framework
 /
 ToolboxProcess
 .
@@ -39486,6 +39494,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -39509,6 +39521,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+framework
 /
 gDevTools
 .
@@ -39550,6 +39566,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -39567,6 +39585,8 @@ require
 (
 "
 devtools
+/
+client
 /
 webconsole
 /
@@ -39917,6 +39937,10 @@ modules
 /
 devtools
 /
+client
+/
+scratchpad
+/
 scratchpad
 -
 manager
@@ -39991,6 +40015,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+responsivedesign
 /
 responsivedesign
 .
@@ -40073,6 +40101,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -40090,6 +40120,8 @@ require
 (
 "
 devtools
+/
+client
 /
 eyedropper
 /

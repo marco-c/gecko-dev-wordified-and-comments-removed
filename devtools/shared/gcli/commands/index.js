@@ -255,7 +255,7 @@ devtoolsModules
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -266,7 +266,7 @@ addon
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -277,7 +277,7 @@ appcache
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -288,7 +288,7 @@ calllog
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -299,7 +299,7 @@ cmd
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -310,7 +310,7 @@ cookie
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -321,7 +321,7 @@ csscoverage
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -332,7 +332,7 @@ folder
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -343,7 +343,7 @@ highlight
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -354,7 +354,7 @@ inject
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -365,7 +365,7 @@ jsb
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -376,7 +376,7 @@ listen
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -387,7 +387,7 @@ media
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -398,7 +398,7 @@ pagemod
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -409,7 +409,7 @@ paintflashing
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -420,7 +420,7 @@ restart
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -431,7 +431,7 @@ rulers
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -442,7 +442,7 @@ screenshot
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -453,7 +453,7 @@ security
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /
@@ -471,6 +471,10 @@ defaultTools
 require
 (
 "
+devtools
+/
+client
+/
 definitions
 "
 )
@@ -540,6 +544,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /
@@ -674,7 +680,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 gcli
 /

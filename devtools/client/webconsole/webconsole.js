@@ -30,7 +30,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /
@@ -112,7 +112,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -137,6 +137,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /
@@ -166,6 +168,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 sidebar
@@ -191,6 +195,8 @@ require
 (
 "
 devtools
+/
+client
 /
 webconsole
 /
@@ -219,6 +225,8 @@ require
 (
 "
 devtools
+/
+client
 /
 webconsole
 /
@@ -248,7 +256,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /
@@ -270,7 +278,7 @@ EnvironmentClient
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /
@@ -290,7 +298,7 @@ ObjectClient
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /
@@ -316,6 +324,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 VariablesView
 .
@@ -340,6 +354,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 VariablesViewController
 .
@@ -387,6 +407,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+framework
 /
 gDevTools
 .

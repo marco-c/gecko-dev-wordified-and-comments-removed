@@ -39,6 +39,8 @@ modules
 /
 devtools
 /
+shared
+/
 touch
 /
 simulator

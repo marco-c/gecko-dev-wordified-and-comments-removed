@@ -44,7 +44,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -69,7 +69,7 @@ prompt
 "
 devtools
 /
-toolkit
+shared
 /
 security
 /
@@ -88,7 +88,7 @@ cert
 "
 devtools
 /
-toolkit
+shared
 /
 security
 /
@@ -107,7 +107,7 @@ asyncStorage
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /

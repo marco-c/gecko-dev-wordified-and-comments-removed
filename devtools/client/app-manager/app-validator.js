@@ -25,7 +25,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 deprecated
 -

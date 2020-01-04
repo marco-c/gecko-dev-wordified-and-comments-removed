@@ -53,14 +53,8 @@ MPL
 0
 /
 .
-EXTRA_JS_MODULES
-.
-devtools
-.
-tilt
-+
-=
-[
+DevToolsModules
+(
 '
 tilt
 -
@@ -120,7 +114,7 @@ TiltWorkerPicker
 .
 js
 '
-]
+)
 BROWSER_CHROME_MANIFESTS
 +
 =

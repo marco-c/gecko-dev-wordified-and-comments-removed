@@ -61,6 +61,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -89,6 +93,8 @@ modules
 /
 devtools
 /
+shared
+/
 Console
 .
 jsm
@@ -115,6 +121,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+scratchpad
 /
 scratchpad
 -
@@ -146,6 +156,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -164,6 +176,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 target
@@ -178,7 +192,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

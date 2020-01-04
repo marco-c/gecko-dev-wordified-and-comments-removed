@@ -238,6 +238,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -254,6 +256,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 telemetry
@@ -268,6 +272,8 @@ require
 "
 devtools
 /
+client
+/
 sourceeditor
 /
 editor
@@ -281,6 +287,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /
@@ -298,7 +306,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -316,7 +324,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /
@@ -332,7 +340,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -419,6 +427,10 @@ modules
 /
 devtools
 /
+client
+/
+scratchpad
+/
 scratchpad
 -
 manager
@@ -460,6 +472,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -498,6 +514,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 ViewHelpers
 .
@@ -542,6 +564,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 VariablesView
 .
 jsm
@@ -565,6 +593,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 VariablesViewController
 .
@@ -601,7 +635,7 @@ DebuggerClient
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /
@@ -621,7 +655,7 @@ EnvironmentClient
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /
@@ -641,7 +675,7 @@ ObjectClient
 "
 devtools
 /
-toolkit
+shared
 /
 client
 /
@@ -751,7 +785,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /
@@ -10247,6 +10281,8 @@ require
 (
 "
 devtools
+/
+client
 /
 framework
 /

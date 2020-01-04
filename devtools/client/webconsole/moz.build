@@ -105,14 +105,8 @@ browser
 ini
 '
 ]
-EXTRA_JS_MODULES
-.
-devtools
-.
-webconsole
-+
-=
-[
+DevToolsModules
+(
 '
 console
 -
@@ -142,4 +136,4 @@ webconsole
 .
 js
 '
-]
+)

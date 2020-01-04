@@ -33,6 +33,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -84,7 +86,7 @@ EventEmitter
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -103,7 +105,7 @@ DevToolsUtils
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

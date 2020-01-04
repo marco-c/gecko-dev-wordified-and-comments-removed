@@ -121,14 +121,8 @@ xpcshell
 ini
 '
 ]
-EXTRA_JS_MODULES
-.
-devtools
-.
-shared
-+
-=
-[
+DevToolsModules
+(
 '
 async
 -
@@ -178,4 +172,4 @@ worker
 .
 js
 '
-]
+)

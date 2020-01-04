@@ -34,6 +34,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 toolbox

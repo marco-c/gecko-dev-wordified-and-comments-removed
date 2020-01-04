@@ -57,6 +57,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -80,6 +82,8 @@ modules
 /
 devtools
 /
+shared
+/
 Console
 .
 jsm
@@ -100,6 +104,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 ViewHelpers
 .
 jsm
@@ -116,6 +126,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /

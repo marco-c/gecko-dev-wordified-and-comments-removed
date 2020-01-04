@@ -48,7 +48,7 @@ NetworkHelper
 "
 devtools
 /
-toolkit
+shared
 /
 webconsole
 /
@@ -92,7 +92,7 @@ DevToolsUtils
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

@@ -132,16 +132,8 @@ xpcshell
 ini
 '
 ]
-EXTRA_JS_MODULES
-.
-devtools
-.
-toolkit
-.
-webconsole
-+
-=
-[
+DevToolsModules
+(
 '
 client
 .
@@ -182,4 +174,4 @@ utils
 .
 js
 '
-]
+)

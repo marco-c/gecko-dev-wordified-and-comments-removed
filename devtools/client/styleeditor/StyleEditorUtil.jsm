@@ -107,6 +107,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -130,6 +132,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .

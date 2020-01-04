@@ -26,7 +26,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 layout
 /
@@ -42,7 +42,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -

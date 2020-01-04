@@ -110,7 +110,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -

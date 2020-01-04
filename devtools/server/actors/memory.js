@@ -28,7 +28,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -68,7 +68,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 shared
 /
@@ -240,7 +240,7 @@ HeapSnapshotFileUtils
 "
 devtools
 /
-toolkit
+shared
 /
 heapsnapshot
 /

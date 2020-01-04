@@ -182,7 +182,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "
@@ -197,6 +197,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 async
 -
@@ -234,6 +236,8 @@ require
 (
 "
 devtools
+/
+shared
 /
 styleinspector
 /

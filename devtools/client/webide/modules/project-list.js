@@ -44,6 +44,8 @@ require
 "
 devtools
 /
+client
+/
 app
 -
 manager
@@ -64,7 +66,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 app
 -
@@ -90,7 +96,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 event
 -
@@ -132,7 +138,11 @@ require
 "
 devtools
 /
+client
+/
 webide
+/
+modules
 /
 utils
 "
@@ -145,6 +155,8 @@ require
 (
 "
 devtools
+/
+client
 /
 shared
 /

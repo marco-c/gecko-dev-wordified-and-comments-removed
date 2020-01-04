@@ -13,6 +13,8 @@ require
 "
 devtools
 /
+shared
+/
 async
 -
 utils
@@ -29,7 +31,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

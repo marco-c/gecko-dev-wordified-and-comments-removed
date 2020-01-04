@@ -137,14 +137,8 @@ FINAL_LIBRARY
 '
 xul
 '
-EXTRA_JS_MODULES
-.
-devtools
-.
-security
-+
-=
-[
+DevToolsModules
+(
 '
 auth
 .
@@ -165,4 +159,4 @@ socket
 .
 js
 '
-]
+)

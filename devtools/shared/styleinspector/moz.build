@@ -93,14 +93,8 @@ MPL
 0
 /
 .
-EXTRA_JS_MODULES
-.
-devtools
-.
-styleinspector
-+
-=
-[
+DevToolsModules
+(
 '
 css
 -
@@ -108,4 +102,4 @@ logic
 .
 js
 '
-]
+)

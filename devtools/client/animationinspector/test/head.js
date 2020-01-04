@@ -29,6 +29,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 gDevTools
 .
 jsm
@@ -56,6 +60,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Loader
 .
@@ -85,6 +91,8 @@ require
 "
 devtools
 /
+client
+/
 framework
 /
 target
@@ -110,6 +118,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .
@@ -138,6 +148,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 ViewHelpers
 .
 jsm
@@ -154,7 +170,7 @@ require
 "
 devtools
 /
-toolkit
+shared
 /
 DevToolsUtils
 "

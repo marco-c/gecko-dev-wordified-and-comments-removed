@@ -17,6 +17,12 @@ modules
 /
 devtools
 /
+client
+/
+shared
+/
+widgets
+/
 VariablesView
 .
 jsm
@@ -36,6 +42,12 @@ resource
 modules
 /
 devtools
+/
+client
+/
+shared
+/
+widgets
 /
 VariablesViewController
 .

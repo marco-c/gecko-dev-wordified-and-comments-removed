@@ -93,14 +93,8 @@ MPL
 0
 /
 .
-EXTRA_JS_MODULES
-.
-devtools
-.
-sourceeditor
-+
-=
-[
+DevToolsModules
+(
 '
 autocomplete
 .
@@ -130,7 +124,7 @@ editor
 .
 js
 '
-]
+)
 BROWSER_CHROME_MANIFESTS
 +
 =

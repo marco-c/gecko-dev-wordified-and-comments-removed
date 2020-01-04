@@ -57,6 +57,8 @@ modules
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
@@ -72,6 +74,8 @@ require
 (
 "
 devtools
+/
+client
 /
 sourceeditor
 /
@@ -99,6 +103,8 @@ require
 "
 devtools
 /
+shared
+/
 styleinspector
 /
 css
@@ -124,6 +130,8 @@ gre
 modules
 /
 devtools
+/
+shared
 /
 Console
 .
@@ -241,6 +249,8 @@ modules
 /
 devtools
 /
+shared
+/
 event
 -
 emitter
@@ -262,6 +272,10 @@ resource
 modules
 /
 devtools
+/
+client
+/
+styleeditor
 /
 StyleEditorUtil
 .

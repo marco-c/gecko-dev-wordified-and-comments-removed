@@ -13,6 +13,8 @@ devtools
 /
 shared
 /
+shared
+/
 worker
 -
 helper
@@ -77,6 +79,12 @@ gre
 modules
 /
 devtools
+/
+shared
+/
+pretty
+-
+fast
 /
 pretty
 -
