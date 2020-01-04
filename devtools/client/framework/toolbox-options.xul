@@ -113,6 +113,11 @@ toolboxDTD
 xml
 -
 stylesheet
+rel
+=
+"
+stylesheet
+"
 href
 =
 "
@@ -120,7 +125,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
 /
