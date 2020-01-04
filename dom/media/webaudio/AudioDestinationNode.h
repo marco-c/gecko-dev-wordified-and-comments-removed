@@ -315,6 +315,15 @@ aValue
 )
 ;
 void
+SetCanPlay
+(
+float
+aVolume
+bool
+aMuted
+)
+;
+void
 NotifyStableState
 (
 )
@@ -358,7 +367,7 @@ bool
 mIsOffline
 ;
 bool
-mAudioChannelSuspended
+mAudioChannelAgentPlaying
 ;
 TimeStamp
 mStartedBlockingDueToBeingOnlyNode
