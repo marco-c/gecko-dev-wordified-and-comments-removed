@@ -260,9 +260,6 @@ mNotified
 bool
 mSleeping
 ;
-TimeStamp
-mLastTimerEventLoopRun
-;
 nsTArray
 <
 nsTimerImpl
