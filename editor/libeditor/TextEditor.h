@@ -608,8 +608,10 @@ aSelect
 eNone
 )
 ;
+already_AddRefed
+<
 Element
-*
+>
 CreateBRImpl
 (
 nsCOMPtr

@@ -669,11 +669,13 @@ int32_t
 aSplitOffset
 )
 ;
+already_AddRefed
+<
 dom
 :
 :
 Element
-*
+>
 InsertBreak
 (
 nsCOMPtr

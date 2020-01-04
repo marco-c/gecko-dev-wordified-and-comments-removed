@@ -1888,8 +1888,10 @@ bool
 outHandled
 )
 ;
+already_AddRefed
+<
 Element
-*
+>
 CreateBR
 (
 nsINode

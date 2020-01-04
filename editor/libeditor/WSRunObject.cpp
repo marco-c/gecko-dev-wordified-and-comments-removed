@@ -723,8 +723,10 @@ PrepareToSplitAcrossBlocksPriv
 )
 ;
 }
+already_AddRefed
+<
 Element
-*
+>
 WSRunObject
 :
 :

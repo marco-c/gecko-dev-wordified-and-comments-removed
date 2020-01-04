@@ -1979,8 +1979,10 @@ NS_ERROR_FAILURE
 ;
 }
 }
+already_AddRefed
+<
 Element
-*
+>
 TextEditor
 :
 :
@@ -2054,6 +2056,10 @@ br
 ;
 return
 ret
+.
+forget
+(
+)
 ;
 }
 nsresult
