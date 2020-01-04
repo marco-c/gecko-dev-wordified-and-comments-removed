@@ -24640,13 +24640,7 @@ handler
 AutoEntryScript
 entryScript
 (
-xpc
-:
-:
-NativeGlobal
-(
 global
-)
 reason
 false
 aCx
