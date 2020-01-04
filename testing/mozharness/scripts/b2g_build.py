@@ -7955,9 +7955,9 @@ abs_upload_dir
 '
 b2g
 *
-tests
+test_packages
 .
-zip
+json
 '
 )
 )
@@ -7966,7 +7966,7 @@ if
 matches
 :
                     
-tests_url
+test_packages_url
 =
 "
 %
@@ -7995,7 +7995,7 @@ downloadables
 .
 append
 (
-tests_url
+test_packages_url
 )
                     
 self
@@ -8003,9 +8003,10 @@ self
 set_buildbot_property
 (
 '
-testsUrl
+testPackagesUrl
 '
-tests_url
+test_packages_url
+                                               
 write_to_file
 =
 True

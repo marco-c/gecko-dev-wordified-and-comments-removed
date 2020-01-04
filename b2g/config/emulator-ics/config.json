@@ -355,6 +355,10 @@ objdir
 /
 dist
 /
+b2g
+-
+*
+.
 test_packages
 .
 json
