@@ -2057,6 +2057,18 @@ break
 ;
 }
 }
+if
+(
+p
+!
+=
+input_overflow_buf_
+.
+data
+(
+)
+)
+{
 input_overflow_buf_
 .
 assign
@@ -2067,6 +2079,7 @@ end
 p
 )
 ;
+}
 bytes_read
 =
 0
