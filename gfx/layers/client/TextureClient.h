@@ -266,6 +266,9 @@ endif
 class
 KeepAlive
 ;
+class
+GrallocTextureClientOGL
+;
 enum
 TextureAllocationFlags
 {
@@ -633,6 +636,17 @@ virtual
 TextureClientYCbCr
 *
 AsTextureClientYCbCr
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+GrallocTextureClientOGL
+*
+AsGrallocTextureClientOGL
 (
 )
 {

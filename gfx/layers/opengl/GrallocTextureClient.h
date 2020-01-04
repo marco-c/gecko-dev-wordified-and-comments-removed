@@ -197,6 +197,17 @@ true
 )
 override
 ;
+GrallocTextureClientOGL
+*
+AsGrallocTextureClientOGL
+(
+)
+override
+{
+return
+this
+;
+}
 void
 SetTextureFlags
 (
