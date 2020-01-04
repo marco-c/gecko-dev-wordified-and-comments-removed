@@ -661,6 +661,15 @@ allTabs
 tab
 )
 ;
+emit
+(
+allTabs
+"
+open
+"
+tab
+)
+;
 }
 for
 (
