@@ -2385,10 +2385,7 @@ JS
 :
 PrepareForFullGC
 (
-JS_GetRuntime
-(
 cx_
-)
 )
 ;
 JS
@@ -2396,10 +2393,7 @@ JS
 :
 GCForReason
 (
-JS_GetRuntime
-(
 cx_
-)
 GC_SHRINK
 JS
 :

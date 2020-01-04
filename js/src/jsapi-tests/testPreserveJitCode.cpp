@@ -413,7 +413,7 @@ global
 ;
 GCForReason
 (
-rt
+cx
 GC_NORMAL
 gcreason
 :
@@ -432,7 +432,7 @@ remainingIonScripts
 ;
 GCForReason
 (
-rt
+cx
 GC_SHRINK
 gcreason
 :

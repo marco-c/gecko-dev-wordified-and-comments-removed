@@ -1882,7 +1882,9 @@ JS
 :
 PrepareForFullGC
 (
-this
+contextFromMainThread
+(
+)
 )
 ;
 gc

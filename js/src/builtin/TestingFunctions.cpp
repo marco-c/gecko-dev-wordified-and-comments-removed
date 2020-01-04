@@ -1595,11 +1595,6 @@ JS
 PrepareForFullGC
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 JSGCInvocationKind
@@ -1617,11 +1612,6 @@ JS
 GCForReason
 (
 cx
--
->
-runtime
-(
-)
 gckind
 JS
 :
@@ -18903,6 +18893,11 @@ JS
 PrepareForFullGC
 (
 rt
+-
+>
+contextFromMainThread
+(
+)
 )
 ;
 JS
@@ -18911,6 +18906,11 @@ JS
 GCForReason
 (
 rt
+-
+>
+contextFromMainThread
+(
+)
 GC_NORMAL
 JS
 :

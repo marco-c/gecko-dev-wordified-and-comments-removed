@@ -5716,7 +5716,7 @@ JS
 :
 PrepareForFullGC
 (
-mJSRuntime
+mJSContext
 )
 ;
 JS
@@ -5724,7 +5724,7 @@ JS
 :
 GCForReason
 (
-mJSRuntime
+mJSContext
 GC_NORMAL
 gcreason
 )
@@ -7484,7 +7484,7 @@ JS
 :
 PrepareForFullGC
 (
-Runtime
+Context
 (
 )
 )
