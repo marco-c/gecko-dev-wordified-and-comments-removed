@@ -1720,47 +1720,8 @@ content
 )
 :
                 
-old_exists
-=
-os
-.
-path
-.
-exists
-                
 try
 :
-                    
-def
-exists
-(
-p
-)
-:
-                        
-if
-p
-=
-=
-fake_path
-:
-                            
-return
-True
-                        
-return
-old_exists
-(
-p
-)
-                    
-os
-.
-path
-.
-exists
-=
-exists
                     
 result
 =
@@ -1855,14 +1816,6 @@ inputs
                 
 finally
 :
-                    
-os
-.
-path
-.
-exists
-=
-old_exists
                     
 del
 sys
