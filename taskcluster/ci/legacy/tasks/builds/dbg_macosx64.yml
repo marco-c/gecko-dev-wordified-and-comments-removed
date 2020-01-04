@@ -21,7 +21,7 @@ macosx64
 build_type
 :
 '
-dbg
+debug
 '
 task
 :
@@ -34,13 +34,13 @@ name
 TC
 ]
 MacOSX64
-Dbg
+Debug
 '
 description
 :
 '
 MacOSX64
-Dbg
+Debug
 '
 workerType
 :
