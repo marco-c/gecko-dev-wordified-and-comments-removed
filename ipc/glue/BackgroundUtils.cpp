@@ -1190,6 +1190,12 @@ GetUpgradeInsecureRequests
 aLoadInfo
 -
 >
+GetVerifySignedContent
+(
+)
+aLoadInfo
+-
+>
 GetInnerWindowID
 (
 )
@@ -1500,6 +1506,11 @@ tainting
 loadInfoArgs
 .
 upgradeInsecureRequests
+(
+)
+loadInfoArgs
+.
+verifySignedContent
 (
 )
 loadInfoArgs

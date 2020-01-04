@@ -1471,6 +1471,14 @@ ProcessSecurityHeaders
 (
 )
 ;
+nsresult
+ProcessContentSignatureHeader
+(
+nsHttpResponseHead
+*
+aResponseHead
+)
+;
 void
 ProcessSecurityReport
 (

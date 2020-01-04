@@ -389,6 +389,9 @@ tainting
 bool
 upgradeInsecureRequests
 ;
+bool
+verifySignedContent
+;
 uint64_t
 innerWindowID
 ;
