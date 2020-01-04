@@ -684,14 +684,7 @@ Double
 static
 MOZ_CONSTEXPR_VAR
 FloatRegister
-ReturnInt32x4Reg
-=
-InvalidFloatReg
-;
-static
-MOZ_CONSTEXPR_VAR
-FloatRegister
-ReturnFloat32x4Reg
+ReturnSimd128Reg
 =
 InvalidFloatReg
 ;
@@ -730,7 +723,7 @@ Double
 static
 MOZ_CONSTEXPR_VAR
 FloatRegister
-ScratchSimdReg
+ScratchSimd128Reg
 =
 InvalidFloatReg
 ;
