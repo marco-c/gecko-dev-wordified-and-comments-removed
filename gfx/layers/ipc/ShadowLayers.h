@@ -583,6 +583,15 @@ override
 ;
 #
 endif
+void
+SendPaintTime
+(
+uint64_t
+aId
+TimeDuration
+aPaintTime
+)
+;
 bool
 EndTransaction
 (

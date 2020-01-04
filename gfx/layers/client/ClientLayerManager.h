@@ -1252,6 +1252,9 @@ mTransactionIdAllocator
 uint64_t
 mLatestTransactionId
 ;
+TimeDuration
+mLastPaintTime
+;
 ScreenRotation
 mTargetRotation
 ;
