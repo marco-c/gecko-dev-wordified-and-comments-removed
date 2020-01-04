@@ -10509,6 +10509,17 @@ return
 NPERR_NO_ERROR
 ;
 }
+if
+(
+config
+.
+mMuted
+)
+{
+return
+NPERR_NO_ERROR
+;
+}
 rv
 =
 inst
