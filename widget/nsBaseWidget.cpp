@@ -12144,9 +12144,9 @@ NS_IMAGE_ABORT
 ;
 _ASSIGN_eventName
 (
-NS_LOAD_ERROR
+eLoadError
 "
-NS_LOAD_ERROR
+eLoadError
 "
 )
 ;

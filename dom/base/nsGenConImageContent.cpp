@@ -188,7 +188,7 @@ mEvent
 mMessage
 =
 =
-NS_LOAD_ERROR
+eLoadError
 )
 {
 return

@@ -835,7 +835,7 @@ eFocusEventClass
 ERROR_EVENT
 (
 error
-NS_LOAD_ERROR
+eLoadError
 EventNameType_All
 eBasicEventClass
 )

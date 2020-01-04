@@ -461,7 +461,7 @@ NS_LOAD
 aMessage
 =
 =
-NS_LOAD_ERROR
+eLoadError
 "
 invalid
 message
@@ -3616,7 +3616,7 @@ NS_FRAME_IS_DIRTY
 FireImageDOMEvent
 (
 mContent
-NS_LOAD_ERROR
+eLoadError
 )
 ;
 }
