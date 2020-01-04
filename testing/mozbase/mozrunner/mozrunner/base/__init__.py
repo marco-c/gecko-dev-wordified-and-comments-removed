@@ -8,6 +8,7 @@ from
 device
 import
 DeviceRunner
+FennecRunner
 from
 .
 browser

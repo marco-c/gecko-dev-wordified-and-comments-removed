@@ -46,6 +46,10 @@ connected
 =
 False
     
+logcat_proc
+=
+None
+    
 def
 __init__
 (
@@ -95,7 +99,21 @@ self
 .
 logdir
 =
+os
+.
+path
+.
+abspath
+(
+os
+.
+path
+.
+expanduser
+(
 logdir
+)
+)
         
 self
 .
