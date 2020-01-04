@@ -424,6 +424,15 @@ count
 \
 macro
 (
+CreateResolvingFunctions
+CreateResolvingFunctions
+"
+CreateResolvingFunctions
+"
+)
+\
+macro
+(
 currency
 currency
 "
