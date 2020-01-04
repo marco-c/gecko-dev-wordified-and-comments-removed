@@ -1789,7 +1789,7 @@ pref_category_general_summary
 "
 >
 &
-pref_category_general_summary
+pref_category_general_summary2
 ;
 <
 /
@@ -1849,7 +1849,7 @@ pref_category_accessibility_summary
 "
 >
 &
-pref_category_accessibility_summary
+pref_category_accessibility_summary2
 ;
 <
 /
@@ -1879,7 +1879,7 @@ pref_category_privacy_summary
 "
 >
 &
-pref_category_privacy_summary2
+pref_category_privacy_summary3
 ;
 <
 /
@@ -1894,7 +1894,7 @@ pref_category_vendor
 "
 >
 &
-pref_category_vendor
+pref_category_vendor2
 ;
 <
 /
@@ -1909,7 +1909,7 @@ pref_category_vendor_summary
 "
 >
 &
-pref_category_vendor_summary
+pref_category_vendor_summary2
 ;
 <
 /
@@ -2104,7 +2104,7 @@ pref_category_advanced_summary
 "
 >
 &
-pref_category_advanced_summary
+pref_category_advanced_summary2
 ;
 <
 /
@@ -2809,7 +2809,7 @@ pref_clear_private_data_now
 "
 >
 &
-pref_clear_private_data_now
+pref_clear_private_data
 ;
 <
 /
@@ -2824,7 +2824,7 @@ pref_clear_on_exit_title
 "
 >
 &
-pref_clear_on_exit_title2
+pref_clear_on_exit_title3
 ;
 <
 /
@@ -3139,7 +3139,7 @@ pref_voice_input_summary
 "
 >
 &
-pref_voice_input_summary
+pref_voice_input_summary2
 ;
 <
 /
@@ -3169,7 +3169,7 @@ pref_qrcode_enabled_summary
 "
 >
 &
-pref_qrcode_enabled_summary
+pref_qrcode_enabled_summary2
 ;
 <
 /
@@ -3184,7 +3184,7 @@ pref_restore
 "
 >
 &
-pref_restore
+pref_restore_tabs
 ;
 <
 /
@@ -3439,7 +3439,7 @@ pref_import_android
 "
 >
 &
-pref_import_android
+pref_import_options
 ;
 <
 /
@@ -3469,7 +3469,7 @@ pref_update_autodownload
 "
 >
 &
-pref_update_autodownload2
+pref_update_autodownload3
 ;
 <
 /
@@ -5164,7 +5164,7 @@ pref_titlebar_mode
 "
 >
 &
-pref_titlebar_mode
+pref_titlebar_mode2
 ;
 <
 /
@@ -5254,7 +5254,7 @@ pref_scroll_title_bar_summary
 "
 >
 &
-pref_scroll_title_bar_summary
+pref_scroll_title_bar_summary2
 ;
 <
 /
@@ -5749,7 +5749,7 @@ home_reading_list_hint
 "
 >
 &
-home_reading_list_hint2
+home_reading_list_hint3
 ;
 <
 /
@@ -5764,7 +5764,7 @@ home_reading_list_hint_accessible
 "
 >
 &
-home_reading_list_hint_accessible
+home_reading_list_hint_accessible2
 ;
 <
 /
