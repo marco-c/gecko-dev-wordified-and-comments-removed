@@ -2896,6 +2896,13 @@ aStartOffset
 aEndOffset
 )
 ;
+if
+(
+context
+.
+accessible
+)
+{
 this
 .
 displayedAccessibles
@@ -2912,6 +2919,7 @@ window
 context
 )
 ;
+}
 return
 this
 .
