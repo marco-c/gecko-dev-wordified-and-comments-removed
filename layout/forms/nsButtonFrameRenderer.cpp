@@ -1688,7 +1688,7 @@ StylePadding
 )
 -
 >
-GetPaddingNoPercentage
+GetPadding
 (
 result
 )
@@ -1767,7 +1767,7 @@ StyleMargin
 margin
 -
 >
-GetMarginNoPercentage
+GetMargin
 (
 innerFocusMargin
 )
@@ -1807,7 +1807,7 @@ StylePadding
 )
 -
 >
-GetPaddingNoPercentage
+GetPadding
 (
 result
 )
