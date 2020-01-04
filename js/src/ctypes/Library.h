@@ -7,6 +7,15 @@ ctypes_Library_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 js
 /
 TypeDecls
@@ -37,6 +46,7 @@ LIBRARY_SLOTS
 namespace
 Library
 {
+MOZ_MUST_USE
 bool
 Name
 (
@@ -88,6 +98,7 @@ JSObject
 obj
 )
 ;
+MOZ_MUST_USE
 bool
 Open
 (

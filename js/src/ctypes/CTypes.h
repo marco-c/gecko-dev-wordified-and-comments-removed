@@ -1092,6 +1092,7 @@ template
 typename
 CharT
 >
+MOZ_MUST_USE
 bool
 DeflateStringToUTF8Buffer
 (
@@ -1945,6 +1946,7 @@ JSObject
 obj
 )
 ;
+MOZ_MUST_USE
 bool
 GetSafeSize
 (
@@ -2097,6 +2099,7 @@ JSObject
 obj
 )
 ;
+MOZ_MUST_USE
 bool
 GetSafeLength
 (
@@ -2123,6 +2126,7 @@ obj
 namespace
 StructType
 {
+MOZ_MUST_USE
 bool
 DefineInternal
 (
@@ -2337,6 +2341,7 @@ JSObject
 obj
 )
 ;
+MOZ_MUST_USE
 bool
 Cast
 (
@@ -2350,6 +2355,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 GetRuntime
 (
