@@ -438,7 +438,6 @@ mPromiseProxy
 >
 CleanUp
 (
-aCx
 )
 ;
 return
@@ -789,7 +788,6 @@ mPromiseProxy
 >
 CleanUp
 (
-aCx
 )
 ;
 return
@@ -1078,7 +1076,6 @@ mPromiseProxy
 >
 CleanUp
 (
-aCx
 )
 ;
 return
@@ -1427,7 +1424,6 @@ mPromiseProxy
 >
 CleanUp
 (
-aCx
 )
 ;
 return

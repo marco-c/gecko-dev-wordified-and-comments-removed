@@ -279,7 +279,6 @@ mPromiseProxy
 >
 CleanUp
 (
-aCx
 )
 ;
 return

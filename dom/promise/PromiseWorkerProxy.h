@@ -212,9 +212,6 @@ aSupports
 void
 CleanUp
 (
-JSContext
-*
-aCx
 )
 ;
 Mutex

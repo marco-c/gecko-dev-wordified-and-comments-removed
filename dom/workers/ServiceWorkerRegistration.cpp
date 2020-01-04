@@ -1368,7 +1368,6 @@ mPromiseProxy
 >
 CleanUp
 (
-aCx
 )
 ;
 return
@@ -1912,7 +1911,6 @@ mPromiseWorkerProxy
 >
 CleanUp
 (
-aCx
 )
 ;
 return
