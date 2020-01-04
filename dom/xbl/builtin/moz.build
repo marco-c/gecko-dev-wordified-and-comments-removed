@@ -166,9 +166,6 @@ MOZ_WIDGET_TOOLKIT
 in
 (
 '
-qt
-'
-'
 gtk2
 '
 '

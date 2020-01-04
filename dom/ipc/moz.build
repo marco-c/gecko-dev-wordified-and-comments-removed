@@ -950,9 +950,6 @@ gtk2
 '
 gonk
 '
-'
-qt
-'
 )
 :
 DEFINES

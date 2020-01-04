@@ -649,9 +649,6 @@ windows
 '
 android
 '
-'
-qt
-'
 )
 :
 TEST_DIRS

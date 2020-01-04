@@ -3368,12 +3368,6 @@ MOZ_WIDGET_GTK
 =
 2
 )
-|
-|
-defined
-(
-MOZ_WIDGET_QT
-)
 nsCOMPtr
 <
 nsIWidget

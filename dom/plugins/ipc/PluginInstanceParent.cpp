@@ -1274,15 +1274,6 @@ int
 id
 ;
 #
-elif
-defined
-(
-MOZ_WIDGET_QT
-)
-int
-id
-;
-#
 else
 #
 warning
