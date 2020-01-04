@@ -1694,7 +1694,7 @@ p
 trans
 =
 %
-x
+p
 caps
 =
 %
