@@ -11940,7 +11940,7 @@ mPosition
 hint
 |
 =
-nsChangeHint_SchedulePaint
+nsChangeHint_UpdateBackgroundPosition
 ;
 }
 return
