@@ -390,7 +390,7 @@ pac
 "
                                     
 "
-pacUrl
+proxyAutoconfigUrl
 "
 :
 url
@@ -461,7 +461,7 @@ type
 )
                 
 "
-pacUrl
+proxyAutoconfigUrl
 "
 :
 Services
@@ -506,12 +506,12 @@ assertEqual
 result
 [
 "
-pacUrl
+proxyAutoconfigUrl
 "
 ]
 url
 '
-pacUrl
+proxyAutoconfigUrl
 was
 not
 set
