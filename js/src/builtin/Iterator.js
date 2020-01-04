@@ -37,12 +37,10 @@ return
 {
 value
 :
-callFunction
-(
 iter
 .
 next
-iter
+(
 arg
 )
 done
@@ -99,12 +97,10 @@ return
 {
 value
 :
-callFunction
-(
 iter
 .
 throw
-iter
+(
 exn
 )
 done

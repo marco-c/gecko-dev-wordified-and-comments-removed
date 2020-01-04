@@ -185,12 +185,10 @@ O
 this
 ;
 return
-callFunction
-(
 O
 .
 toString
-O
+(
 )
 ;
 }
