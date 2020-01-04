@@ -55,7 +55,7 @@ install
 '
 run
 -
-marionette
+tests
 '
     
 ]
