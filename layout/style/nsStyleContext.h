@@ -727,7 +727,7 @@ mismatch
 }
 }
 bool
-HasChildThatUsesGrandancestorStyle
+UsesGrandancestorStyle
 (
 )
 const
@@ -738,7 +738,7 @@ return
 (
 mBits
 &
-NS_STYLE_CHILD_USES_GRANDANCESTOR_STYLE
+NS_STYLE_USES_GRANDANCESTOR_STYLE
 )
 ;
 }
@@ -758,6 +758,12 @@ NS_STYLE_IS_SHARED
 )
 ;
 }
+bool
+HasChildThatUsesGrandancestorStyle
+(
+)
+const
+;
 void
 SetStyle
 (
@@ -1179,6 +1185,16 @@ ApplyStyleFixups
 (
 bool
 aSkipParentDisplayBasedStyleFixup
+)
+;
+static
+bool
+ListContainsStyleContextThatUsesGrandancestorStyle
+(
+const
+nsStyleContext
+*
+aHead
 )
 ;
 #
