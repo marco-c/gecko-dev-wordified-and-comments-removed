@@ -452,11 +452,9 @@ listener
 Expected
 response
 to
-\
 {
 name
 }
-'
 with
 ID
 {
