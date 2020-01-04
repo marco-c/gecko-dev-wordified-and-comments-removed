@@ -685,6 +685,12 @@ browser
 "
 )
 ;
+this
+.
+hideDropdownMenu
+(
+)
+;
 }
 _handleShareWindows
 :
@@ -699,6 +705,12 @@ _startScreenShare
 "
 window
 "
+)
+;
+this
+.
+hideDropdownMenu
+(
 )
 ;
 }
