@@ -463,6 +463,10 @@ mPipelinePosition
 (
 0
 )
+mCapsToClear
+(
+0
+)
 mHttpVersion
 (
 NS_HTTP_VERSION_UNKNOWN
@@ -470,14 +474,6 @@ NS_HTTP_VERSION_UNKNOWN
 mHttpResponseCode
 (
 0
-)
-mCapsToClear
-(
-0
-)
-mResponseIsComplete
-(
-false
 )
 mClosed
 (
@@ -496,6 +492,10 @@ mHaveAllHeaders
 false
 )
 mTransactionDone
+(
+false
+)
+mResponseIsComplete
 (
 false
 )

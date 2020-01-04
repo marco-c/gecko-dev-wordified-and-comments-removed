@@ -194,11 +194,6 @@ reason
 )
 ;
 void
-SetResponseIsComplete
-(
-)
-;
-void
 SetRecvdFin
 (
 bool
