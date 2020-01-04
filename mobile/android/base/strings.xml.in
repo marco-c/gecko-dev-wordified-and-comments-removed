@@ -200,9 +200,6 @@ d
 >
 ]
 >
-#
-includesubst
-BOOKMARKSPATH
 <
 resources
 >
@@ -5916,7 +5913,9 @@ name
 bookmarkdefaults_title_aboutfirefox
 "
 >
-bookmarks_aboutBrowser
+&
+bookmarks_about_browser
+;
 <
 /
 string
@@ -5961,7 +5960,9 @@ name
 bookmarkdefaults_title_addons
 "
 >
+&
 bookmarks_addons
+;
 <
 /
 string
@@ -6015,7 +6016,9 @@ name
 bookmarkdefaults_title_support
 "
 >
+&
 bookmarks_support
+;
 <
 /
 string
@@ -6070,7 +6073,9 @@ name
 bookmarkdefaults_title_marketplace
 "
 >
+&
 bookmarks_marketplace
+;
 <
 /
 string
@@ -6105,7 +6110,9 @@ name
 bookmarkdefaults_title_restricted_webmaker
 "
 >
+&
 bookmarks_restricted_webmaker
+;
 <
 /
 string
@@ -6138,7 +6145,9 @@ name
 bookmarkdefaults_title_restricted_support
 "
 >
+&
 bookmarks_restricted_support
+;
 <
 /
 string
