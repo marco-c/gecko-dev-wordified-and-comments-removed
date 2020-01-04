@@ -690,6 +690,9 @@ mSetCursorPositionOnKeyEvent
 bool
 mPendingResettingIMContext
 ;
+bool
+mRetrieveSurroundingSignalReceived
+;
 static
 IMContextWrapper
 *
