@@ -231,6 +231,19 @@ self
 )
 :
         
+os
+.
+environ
+[
+'
+TASK_ID
+'
+]
+=
+'
+decisiontask
+'
+        
 kind
 =
 FakeKind
@@ -424,6 +437,16 @@ dependencies
 ]
 )
 :
+                
+if
+depid
+is
+'
+decisiontask
+'
+:
+                    
+continue
                 
 self
 .
