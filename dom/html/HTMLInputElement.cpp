@@ -12936,7 +12936,7 @@ case
 eMouseOut
 :
 case
-NS_SCROLLPORT_UNDERFLOW
+eScrollPortUnderflow
 :
 case
 eScrollPortOverflow
