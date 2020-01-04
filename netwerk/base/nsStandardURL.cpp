@@ -1834,6 +1834,11 @@ if
 (
 !
 host
+|
+|
+!
+*
+host
 )
 {
 return
