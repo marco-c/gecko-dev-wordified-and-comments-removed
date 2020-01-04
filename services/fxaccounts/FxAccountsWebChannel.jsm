@@ -975,7 +975,6 @@ fxAccounts
 .
 signOut
 (
-true
 )
 ;
 }

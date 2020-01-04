@@ -745,7 +745,6 @@ run_next_test
 add_task
 (
 function
-*
 fetchAndCacheProfileOnce
 (
 )
@@ -891,7 +890,6 @@ numFetches
 add_task
 (
 function
-*
 fetchAndCacheProfileOnce
 (
 )
@@ -1105,7 +1103,6 @@ myimg
 add_task
 (
 function
-*
 fetchAndCacheProfileAfterThreshold
 (
 )
@@ -1231,7 +1228,6 @@ numFetches
 add_task
 (
 function
-*
 fetchAndCacheProfileBeforeThresholdOnNotification
 (
 )
