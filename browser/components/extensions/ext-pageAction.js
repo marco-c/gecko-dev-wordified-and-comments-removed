@@ -25,7 +25,6 @@ jsm
 var
 {
 EventManager
-runSafe
 }
 =
 ExtensionUtils
@@ -1080,7 +1079,6 @@ null
 getTitle
 (
 details
-callback
 )
 {
 let
@@ -1113,10 +1111,11 @@ title
 "
 )
 ;
-runSafe
+return
+Promise
+.
+resolve
 (
-context
-callback
 title
 )
 ;
@@ -1124,7 +1123,6 @@ title
 setIcon
 (
 details
-callback
 )
 {
 let
@@ -1165,6 +1163,13 @@ tab
 icon
 "
 icon
+)
+;
+return
+Promise
+.
+resolve
+(
 )
 ;
 }
@@ -1224,7 +1229,6 @@ url
 getPopup
 (
 details
-callback
 )
 {
 let
@@ -1257,10 +1261,11 @@ popup
 "
 )
 ;
-runSafe
+return
+Promise
+.
+resolve
 (
-context
-callback
 popup
 )
 ;
