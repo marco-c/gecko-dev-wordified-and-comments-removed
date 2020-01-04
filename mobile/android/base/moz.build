@@ -4149,7 +4149,7 @@ telemetry
 /
 stores
 /
-JSONFilePingStore
+TelemetryJSONFilePingStore
 .
 java
 '

@@ -71,7 +71,7 @@ telemetry
 .
 stores
 .
-JSONFilePingStore
+TelemetryJSONFilePingStore
 ;
 import
 org
@@ -164,7 +164,7 @@ core
 ;
 private
 final
-JSONFilePingStore
+TelemetryJSONFilePingStore
 coreStore
 ;
 private
@@ -195,7 +195,7 @@ STORE_CONTAINER_DIR_NAME
 coreStore
 =
 new
-JSONFilePingStore
+TelemetryJSONFilePingStore
 (
 new
 File

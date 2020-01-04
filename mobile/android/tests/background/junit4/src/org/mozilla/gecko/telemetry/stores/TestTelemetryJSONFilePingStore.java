@@ -183,7 +183,7 @@ class
 )
 public
 class
-TestJSONFilePingStore
+TestTelemetryJSONFilePingStore
 {
 private
 final
@@ -235,7 +235,7 @@ File
 testDir
 ;
 private
-JSONFilePingStore
+TelemetryJSONFilePingStore
 testStore
 ;
 Before
@@ -258,7 +258,7 @@ newFolder
 testStore
 =
 new
-JSONFilePingStore
+TelemetryJSONFilePingStore
 (
 testDir
 )
@@ -600,7 +600,7 @@ actual
 .
 getString
 (
-JSONFilePingStore
+TelemetryJSONFilePingStore
 .
 KEY_URL_PATH
 )
@@ -615,7 +615,7 @@ actual
 .
 getString
 (
-JSONFilePingStore
+TelemetryJSONFilePingStore
 .
 KEY_PAYLOAD
 )
@@ -876,7 +876,7 @@ final
 int
 pingCount
 =
-JSONFilePingStore
+TelemetryJSONFilePingStore
 .
 MAX_PING_COUNT
 ;
@@ -918,7 +918,7 @@ final
 int
 pingCount
 =
-JSONFilePingStore
+TelemetryJSONFilePingStore
 .
 MAX_PING_COUNT
 +
@@ -945,7 +945,7 @@ maybePrunePings
 ;
 assertStoreFileCount
 (
-JSONFilePingStore
+TelemetryJSONFilePingStore
 .
 MAX_PING_COUNT
 )
@@ -962,7 +962,7 @@ HashSet
 <
 >
 (
-JSONFilePingStore
+TelemetryJSONFilePingStore
 .
 MAX_PING_COUNT
 )
@@ -1258,7 +1258,7 @@ from
 filename
 "
 expectedID
-JSONFilePingStore
+TelemetryJSONFilePingStore
 .
 getIDFromFilename
 (
@@ -1361,7 +1361,7 @@ JSONObject
 .
 put
 (
-JSONFilePingStore
+TelemetryJSONFilePingStore
 .
 KEY_URL_PATH
 urlPrefix
@@ -1371,7 +1371,7 @@ i
 .
 put
 (
-JSONFilePingStore
+TelemetryJSONFilePingStore
 .
 KEY_PAYLOAD
 generateTelemetryPayload
