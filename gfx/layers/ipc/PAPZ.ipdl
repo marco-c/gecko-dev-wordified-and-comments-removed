@@ -779,15 +779,6 @@ these
 functions
 .
 async
-RequestFlingSnap
-(
-ViewID
-aScrollID
-CSSPoint
-aDestination
-)
-;
-async
 AcknowledgeScrollUpdate
 (
 ViewID
