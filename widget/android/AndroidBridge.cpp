@@ -11551,6 +11551,10 @@ key
 path
 )
 ;
+aPath
+=
+path
+;
 return
 NS_OK
 ;
