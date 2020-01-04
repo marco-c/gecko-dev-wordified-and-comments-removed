@@ -7443,6 +7443,14 @@ AssertIsOnTargetThread
 (
 )
 ;
+if
+(
+mImpl
+-
+>
+mChannel
+)
+{
 mImpl
 -
 >
@@ -7469,6 +7477,7 @@ aCode
 aReason
 )
 ;
+}
 nsresult
 rv
 =
