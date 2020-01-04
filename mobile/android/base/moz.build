@@ -2066,6 +2066,13 @@ ScreenshotDelegate
 java
 '
 '
+delegates
+/
+TabsTrayVisibilityAwareDelegate
+.
+java
+'
+'
 DevToolsAuthHelper
 .
 java
