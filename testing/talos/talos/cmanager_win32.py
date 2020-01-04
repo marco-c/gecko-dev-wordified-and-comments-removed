@@ -201,7 +201,8 @@ _PDH_MORE_DATA
 :
         
 return
-None
+[
+]
     
 pathListLength
 =
@@ -240,7 +241,8 @@ pcchPathListLength
 :
         
 return
-None
+[
+]
     
 buffer
 =
