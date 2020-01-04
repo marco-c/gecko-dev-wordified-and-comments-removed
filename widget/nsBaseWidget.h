@@ -1660,12 +1660,6 @@ GetRootAccessible
 ;
 #
 endif
-bool
-IsSmallPopup
-(
-)
-const
-;
 nsPopupLevel
 PopupLevel
 (
