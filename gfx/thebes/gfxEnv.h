@@ -105,6 +105,14 @@ DisableCrashGuard
 DECL_GFX_ENV_ONCE
 (
 "
+MOZ_FORCE_CRASH_GUARD_NIGHTLY
+"
+ForceCrashGuardNightly
+)
+;
+DECL_GFX_ENV_ONCE
+(
+"
 MOZ_DISABLE_FORCE_PRESENT
 "
 DisableForcePresent

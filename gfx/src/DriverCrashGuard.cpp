@@ -328,7 +328,12 @@ AreCrashGuardsEnabled
 ifdef
 NIGHTLY_BUILD
 return
-false
+gfxEnv
+:
+:
+ForceCrashGuardNightly
+(
+)
 ;
 #
 else
