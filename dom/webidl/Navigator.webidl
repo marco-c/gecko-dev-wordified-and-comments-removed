@@ -2641,6 +2641,11 @@ getUserMedia
 instead
 .
 [
+Deprecated
+=
+"
+NavigatorGetUserMedia
+"
 Throws
 Func
 =

@@ -3176,6 +3176,11 @@ RTCSessionDescription
 webidl
 '
 '
+WebrtcDeprecated
+.
+webidl
+'
+'
 WebrtcGlobalInformation
 .
 webidl

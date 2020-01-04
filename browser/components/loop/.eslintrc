@@ -109,7 +109,12 @@ loop
 :
 true
 "
-mozRTCSessionDescription
+MozActivity
+"
+:
+false
+"
+RTCSessionDescription
 "
 :
 false

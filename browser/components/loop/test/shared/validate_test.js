@@ -74,13 +74,13 @@ function
 )
 {
 function
-mozRTCSessionDescription
+RTCSessionDescription
 (
 )
 {
 }
 var
-mozRTC
+rtcsd
 ;
 beforeEach
 (
@@ -88,10 +88,10 @@ function
 (
 )
 {
-mozRTC
+rtcsd
 =
 new
-mozRTCSessionDescription
+RTCSessionDescription
 (
 )
 ;
@@ -610,7 +610,7 @@ create
 {
 foo
 :
-mozRTC
+rtcsd
 }
 {
 foo
@@ -634,7 +634,7 @@ dependency
 foo
 ;
 expected
-mozRTCSessionDescription
+RTCSessionDescription
 /
 )
 ;

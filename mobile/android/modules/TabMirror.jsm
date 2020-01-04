@@ -167,7 +167,7 @@ RTCSessionDescription
 =
 window
 .
-mozRTCSessionDescription
+RTCSessionDescription
 ;
 this
 .
@@ -175,7 +175,7 @@ RTCIceCandidate
 =
 window
 .
-mozRTCIceCandidate
+RTCIceCandidate
 ;
 Services
 .
@@ -228,7 +228,7 @@ _pc
 new
 window
 .
-mozRTCPeerConnection
+RTCPeerConnection
 (
 CONFIG
 {

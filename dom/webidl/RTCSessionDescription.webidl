@@ -192,7 +192,7 @@ descriptionInitDict
 )
 ]
 interface
-mozRTCSessionDescription
+RTCSessionDescription
 {
 attribute
 RTCSdpType
