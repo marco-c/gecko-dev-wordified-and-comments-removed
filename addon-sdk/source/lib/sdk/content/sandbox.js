@@ -470,6 +470,9 @@ top
 ;
 return
 frame
+&
+&
+frame
 .
 isTab
 ;
