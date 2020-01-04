@@ -8,6 +8,8 @@ import
 threading
 import
 time
+import
+version_codes
 from
 Zeroconf
 import
@@ -29,12 +31,6 @@ from
 devicemanager
 import
 DMError
-from
-distutils
-.
-version
-import
-StrictVersion
 class
 DroidMixin
 (
@@ -920,26 +916,21 @@ build
 .
 version
 .
-release
+sdk
 "
 ]
 )
         
 if
-StrictVersion
+int
 (
 version
 )
 >
 =
-StrictVersion
-(
-'
-3
+version_codes
 .
-0
-'
-)
+HONEYCOMB
 :
             
 self
