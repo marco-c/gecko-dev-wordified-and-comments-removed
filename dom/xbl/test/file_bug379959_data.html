@@ -163,6 +163,7 @@ function
 (
 )
 {
+var
 nodes
 =
 SpecialPowers
@@ -188,6 +189,14 @@ parent
 .
 postMessage
 (
+{
+test
+:
+"
+dataIsAllowed
+"
+result
+:
 nodes
 ?
 nodes
@@ -195,6 +204,8 @@ nodes
 length
 :
 0
+senderURL
+:
 "
 http
 :
@@ -205,6 +216,10 @@ mochi
 test
 :
 8888
+"
+}
+"
+*
 "
 )
 ;
