@@ -66,15 +66,6 @@ Init
 )
 override
 ;
-nsresult
-Input
-(
-MediaRawData
-*
-aSample
-)
-override
-;
 bool
 IsHardwareAccelerated
 (
@@ -151,6 +142,7 @@ MediaRawData
 *
 aSample
 )
+override
 ;
 nsresult
 InitializeSession

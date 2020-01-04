@@ -500,6 +500,7 @@ InitializeSession
 (
 )
 ;
+virtual
 nsresult
 ProcessDecode
 (
