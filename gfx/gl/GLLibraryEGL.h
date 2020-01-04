@@ -372,10 +372,13 @@ false
 {
 }
 void
-InitExtensionsFromDisplay
+InitClientExtensions
 (
-EGLDisplay
-eglDisplay
+)
+;
+void
+InitDisplayExtensions
+(
 )
 ;
 enum
