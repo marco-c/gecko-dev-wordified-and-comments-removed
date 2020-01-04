@@ -256,7 +256,9 @@ self
 .
 utils
 .
-remove_perms
+permissions
+.
+remove
 (
 '
 https
@@ -544,7 +546,9 @@ self
 .
 utils
 .
-remove_perms
+permissions
+.
+remove
 (
 '
 https
