@@ -14,8 +14,6 @@ os
 import
 subprocess
 import
-sys
-import
 unittest
 from
 talos
@@ -161,7 +159,7 @@ self
                 
 stdout
 =
-file
+open
 (
 xrestop_output
 )

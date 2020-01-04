@@ -5,8 +5,6 @@ utils
 import
 unittest
 import
-time
-import
 os
 class
 TestTimer
@@ -162,7 +160,6 @@ self
 .
 assertEquals
 (
-        
 utils
 .
 interpolate
@@ -185,7 +182,7 @@ unused
 =
 1
 )
-        
+                          
 utils
 .
 here
@@ -194,7 +191,6 @@ here
 bar
 abc
 '
-    
 )
 class
 TestParsePref
