@@ -189,12 +189,6 @@ nsSecureBrowserUIImpl
 {
 }
 ;
-mozilla
-:
-:
-ReentrantMonitor
-mReentrantMonitor
-;
 nsWeakPtr
 mWindow
 ;
