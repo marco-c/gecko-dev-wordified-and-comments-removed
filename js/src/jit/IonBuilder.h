@@ -973,8 +973,6 @@ exitpc
 jsbytecode
 *
 continuepc
-=
-nullptr
 )
 ;
 bool
