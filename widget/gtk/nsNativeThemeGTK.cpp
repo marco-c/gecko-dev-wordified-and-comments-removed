@@ -1620,6 +1620,13 @@ active
 =
 TRUE
 ;
+aState
+-
+>
+inHover
+=
+TRUE
+;
 }
 }
 if
