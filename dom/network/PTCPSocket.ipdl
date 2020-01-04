@@ -358,8 +358,8 @@ uint16_t
 localPort
 bool
 useSSL
-nsCString
-binaryType
+bool
+aUseArrayBuffers
 )
 ;
 /
