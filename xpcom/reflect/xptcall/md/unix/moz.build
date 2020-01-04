@@ -277,11 +277,6 @@ SOURCES
 =
 [
 '
-xptcinvoke_asm_x86_64_unix
-.
-s
-'
-'
 xptcinvoke_x86_64_unix
 .
 cpp
@@ -431,11 +426,6 @@ SOURCES
 +
 =
 [
-'
-xptcinvoke_asm_x86_64_unix
-.
-s
-'
 '
 xptcinvoke_x86_64_unix
 .
