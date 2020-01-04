@@ -173,6 +173,13 @@ GLControllerSupport
 >
 mGLControllerSupport
 ;
+class
+NPZCSupport
+;
+NPZCSupport
+*
+mNPZCSupport
+;
 public
 :
 static
