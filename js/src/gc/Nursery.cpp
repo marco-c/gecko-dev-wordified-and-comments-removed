@@ -2794,6 +2794,12 @@ ProfileKey
 Total
 )
 ;
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 TenureCountCache
 tenureCounts
 ;
