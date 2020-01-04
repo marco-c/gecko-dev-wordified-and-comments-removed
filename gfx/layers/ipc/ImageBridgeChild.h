@@ -238,7 +238,7 @@ this
 }
 static
 void
-StartUp
+InitSameProcess
 (
 )
 ;
@@ -258,18 +258,6 @@ static
 void
 ShutDown
 (
-)
-;
-static
-bool
-StartUpOnThread
-(
-base
-:
-:
-Thread
-*
-aThread
 )
 ;
 static

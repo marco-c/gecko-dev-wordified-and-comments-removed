@@ -467,6 +467,11 @@ ShutdownVsyncIOThread
 (
 )
 ;
+void
+EnsureImageBridgeChild
+(
+)
+;
 RefPtr
 <
 CompositorSession
