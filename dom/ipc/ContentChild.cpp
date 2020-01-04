@@ -3213,15 +3213,6 @@ sSingleton
 =
 this
 ;
-GetIPCChannel
-(
-)
--
->
-BlockScripts
-(
-)
-;
 bool
 abortOnError
 =
