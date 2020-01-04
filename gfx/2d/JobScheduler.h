@@ -194,6 +194,15 @@ aJobs
 )
 ;
 static
+void
+Join
+(
+SyncObject
+*
+aCompletionSync
+)
+;
+static
 JobStatus
 ProcessJob
 (
