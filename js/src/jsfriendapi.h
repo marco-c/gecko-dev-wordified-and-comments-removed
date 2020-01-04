@@ -9683,7 +9683,7 @@ cx
 }
 ;
 virtual
-void
+bool
 invoke
 (
 JS
@@ -9703,7 +9703,7 @@ closure
 extern
 JS_FRIEND_API
 (
-void
+bool
 )
 PrepareScriptEnvironmentAndInvoke
 (

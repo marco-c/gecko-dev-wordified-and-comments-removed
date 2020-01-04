@@ -2137,7 +2137,7 @@ js
 :
 ScriptEnvironmentPreparer
 {
-void
+bool
 invoke
 (
 JS

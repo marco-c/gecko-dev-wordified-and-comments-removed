@@ -34661,6 +34661,9 @@ cinfo
 jsfnObj
 )
 ;
+(
+void
+)
 js
 :
 :
@@ -35078,10 +35081,10 @@ copySize
 }
 else
 {
-}
 return
 false
 ;
+}
 }
 switch
 (
