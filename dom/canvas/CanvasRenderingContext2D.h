@@ -3265,6 +3265,11 @@ DefaultBackendMode
 )
 ;
 void
+RestoreClipsAndTransformToTarget
+(
+)
+;
+void
 OnStableState
 (
 )
