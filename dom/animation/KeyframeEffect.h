@@ -879,6 +879,17 @@ Animation
 aAnimation
 )
 ;
+Animation
+*
+GetAnimation
+(
+)
+const
+{
+return
+mAnimation
+;
+}
 const
 AnimationProperty
 *
