@@ -3421,8 +3421,6 @@ TEST_PKGS
 \
 cppunittest
 \
-mochitest
-\
 reftest
 \
 talos
@@ -3437,6 +3435,8 @@ NULL
 PYTHON_TEST_PKGS
 :
 =
+\
+mochitest
 \
 xpcshell
 \
