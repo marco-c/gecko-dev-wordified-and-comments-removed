@@ -1459,6 +1459,15 @@ js
 mk
 JS_STANDALONE
 =
+#
+DIST
+is
+exported
+from
+top
+-
+level
+configure
 else
 JS_STANDALONE
 =
@@ -1467,7 +1476,6 @@ AC_DEFINE
 (
 JS_STANDALONE
 )
-fi
 DIST
 =
 "
@@ -1475,6 +1483,7 @@ MOZ_BUILD_ROOT
 /
 dist
 "
+fi
 AC_SUBST
 (
 JS_STANDALONE

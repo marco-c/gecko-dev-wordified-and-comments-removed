@@ -80601,6 +80601,8 @@ JS_STANDALONE
 =
 no
 export
+DIST
+export
 MOZ_LINKER
 export
 ZLIB_IN_MOZGLUE
