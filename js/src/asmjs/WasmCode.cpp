@@ -1271,17 +1271,6 @@ linkData
 .
 unalignedAccessOffset
 ;
-cs
--
->
-badIndirectCallCode_
-=
-codeBase
-+
-linkData
-.
-badIndirectCallOffset
-;
 {
 JitContext
 jcx

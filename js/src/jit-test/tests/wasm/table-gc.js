@@ -716,7 +716,7 @@ assertEq
 finalizeCount
 (
 )
-1
+2
 )
 ;
 t
@@ -1082,7 +1082,7 @@ assertEq
 finalizeCount
 (
 )
-2
+3
 )
 ;
 t
