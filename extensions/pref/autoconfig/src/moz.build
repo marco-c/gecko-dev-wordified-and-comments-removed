@@ -140,3 +140,17 @@ CXXFLAGS
 Wshadow
 '
 ]
+FINAL_TARGET_FILES
+.
+defaults
+.
+autoconfig
++
+=
+[
+'
+prefcalls
+.
+js
+'
+]
