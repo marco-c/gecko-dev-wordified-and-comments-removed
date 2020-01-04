@@ -3787,7 +3787,7 @@ nsIDocument
 aDisplayDocument
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 GetShell
@@ -3829,7 +3829,18 @@ window
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
+(
+aDisplayDocument
+"
+Must
+not
+be
+null
+"
+)
+;
+MOZ_ASSERT
 (
 aDisplayDocument
 !
@@ -3843,7 +3854,7 @@ document
 "
 )
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 aDisplayDocument
@@ -3895,7 +3906,7 @@ nsIObserver
 aObserver
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aObserver
 "
