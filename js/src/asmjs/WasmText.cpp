@@ -42,6 +42,13 @@ h
 #
 include
 "
+jsstr
+.
+h
+"
+#
+include
+"
 asmjs
 /
 WasmBinary

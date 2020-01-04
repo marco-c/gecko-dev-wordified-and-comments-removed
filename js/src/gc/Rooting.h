@@ -9,6 +9,15 @@ include
 "
 js
 /
+GCVector
+.
+h
+"
+#
+include
+"
+js
+/
 RootingAPI
 .
 h
