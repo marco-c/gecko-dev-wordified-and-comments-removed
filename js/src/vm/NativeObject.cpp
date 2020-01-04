@@ -91,6 +91,17 @@ h
 #
 include
 "
+jit
+/
+AtomicOperations
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 ArrayObject
