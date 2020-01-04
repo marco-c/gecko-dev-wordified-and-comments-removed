@@ -766,6 +766,16 @@ if
 mShouldNotify
 )
 {
+if
+(
+mElement
+-
+>
+MaybeCreateAudioChannelAgent
+(
+)
+)
+{
 mElement
 -
 >
@@ -774,6 +784,7 @@ NotifyAudioChannelAgent
 false
 )
 ;
+}
 }
 }
 ~
