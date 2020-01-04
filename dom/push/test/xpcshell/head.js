@@ -751,13 +751,6 @@ userAgentID
 enabled
 :
 true
-'
-udp
-.
-wakeupEnabled
-'
-:
-false
 requestTimeout
 :
 10000
