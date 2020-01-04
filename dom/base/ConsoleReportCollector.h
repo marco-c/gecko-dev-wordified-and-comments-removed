@@ -88,15 +88,6 @@ aDocument
 )
 override
 ;
-void
-FlushConsoleReports
-(
-nsIConsoleReportCollector
-*
-aCollector
-)
-override
-;
 private
 :
 ~
