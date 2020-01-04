@@ -137,6 +137,11 @@ AboutNewTab
 jsm
 '
 '
+AttributionCode
+.
+jsm
+'
+'
 BrowserUITelemetry
 .
 jsm
