@@ -235,6 +235,9 @@ ServoStyleSet
 >
 (
 mValue
+&
+~
+SERVO_BIT
 )
 ;
 }
