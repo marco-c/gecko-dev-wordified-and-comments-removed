@@ -3631,6 +3631,11 @@ name
 onHistoryStateUpdated
 "
 "
+unsupported
+"
+:
+true
+"
 type
 "
 :
