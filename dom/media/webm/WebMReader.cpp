@@ -541,15 +541,11 @@ WebMReader
 AbstractMediaDecoder
 *
 aDecoder
-TaskQueue
-*
-aBorrowedTaskQueue
 )
 :
 MediaDecoderReader
 (
 aDecoder
-aBorrowedTaskQueue
 )
 mContext
 (

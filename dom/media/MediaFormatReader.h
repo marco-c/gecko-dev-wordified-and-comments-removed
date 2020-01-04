@@ -88,7 +88,6 @@ ByteInterval
 ;
 public
 :
-explicit
 MediaFormatReader
 (
 AbstractMediaDecoder
@@ -97,11 +96,6 @@ aDecoder
 MediaDataDemuxer
 *
 aDemuxer
-TaskQueue
-*
-aBorrowedTaskQueue
-=
-nullptr
 )
 ;
 virtual

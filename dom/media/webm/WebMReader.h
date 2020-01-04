@@ -285,11 +285,6 @@ WebMReader
 AbstractMediaDecoder
 *
 aDecoder
-TaskQueue
-*
-aBorrowedTaskQueue
-=
-nullptr
 )
 ;
 protected

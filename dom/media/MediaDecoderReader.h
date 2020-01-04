@@ -250,11 +250,6 @@ MediaDecoderReader
 AbstractMediaDecoder
 *
 aDecoder
-TaskQueue
-*
-aBorrowedTaskQueue
-=
-nullptr
 )
 ;
 void

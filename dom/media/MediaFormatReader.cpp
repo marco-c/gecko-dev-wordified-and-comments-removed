@@ -363,15 +363,11 @@ aDecoder
 MediaDataDemuxer
 *
 aDemuxer
-TaskQueue
-*
-aBorrowedTaskQueue
 )
 :
 MediaDecoderReader
 (
 aDecoder
-aBorrowedTaskQueue
 )
 mAudio
 (
