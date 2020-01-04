@@ -6701,6 +6701,9 @@ ScopedLayerTreeRegistration
 :
 ScopedLayerTreeRegistration
 (
+APZCTreeManager
+*
+aApzctm
 uint64_t
 aLayersId
 Layer
@@ -6718,6 +6721,14 @@ aLayersId
 {
 EnsureLayerTreeMapReady
 (
+)
+;
+aApzctm
+-
+>
+InitializeForLayersId
+(
+aLayersId
 )
 ;
 MonitorAutoLock

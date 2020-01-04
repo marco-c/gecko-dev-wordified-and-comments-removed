@@ -11806,6 +11806,7 @@ CreateHitTesting1LayerTree
 ScopedLayerTreeRegistration
 registration
 (
+manager
 0
 root
 mcc
@@ -12300,6 +12301,7 @@ CreateHitTesting2LayerTree
 ScopedLayerTreeRegistration
 registration
 (
+manager
 0
 root
 mcc
@@ -12888,6 +12890,7 @@ CreateSimpleMultiLayerTree
 ScopedLayerTreeRegistration
 registration
 (
+manager
 0
 root
 mcc
@@ -13092,6 +13095,7 @@ CreatePotentiallyLeakingTree
 ScopedLayerTreeRegistration
 registration
 (
+manager
 0
 root
 mcc
@@ -13369,6 +13373,7 @@ CreateBug1194876Tree
 ScopedLayerTreeRegistration
 registration
 (
+manager
 0
 root
 mcc
@@ -13588,6 +13593,7 @@ CreateSimpleDTCScrollingLayer
 ScopedLayerTreeRegistration
 registration
 (
+manager
 0
 root
 mcc
@@ -13681,6 +13687,7 @@ CreateComplexMultiLayerTree
 ScopedLayerTreeRegistration
 registration
 (
+manager
 0
 root
 mcc
@@ -14427,6 +14434,7 @@ CreateSimpleScrollingLayer
 ScopedLayerTreeRegistration
 registration
 (
+manager
 0
 root
 mcc
@@ -14825,6 +14833,7 @@ CreateSimpleScrollingLayer
 ScopedLayerTreeRegistration
 registration
 (
+manager
 0
 root
 mcc
@@ -15034,6 +15043,7 @@ CreateBug1148350LayerTree
 ScopedLayerTreeRegistration
 registration
 (
+manager
 0
 root
 mcc
@@ -15447,6 +15457,7 @@ MakeUnique
 ScopedLayerTreeRegistration
 >
 (
+manager
 0
 root
 mcc
@@ -15853,6 +15864,7 @@ MakeUnique
 ScopedLayerTreeRegistration
 >
 (
+manager
 0
 root
 mcc
@@ -15993,6 +16005,7 @@ MakeUnique
 ScopedLayerTreeRegistration
 >
 (
+manager
 0
 root
 mcc
@@ -17258,6 +17271,7 @@ MakeUnique
 ScopedLayerTreeRegistration
 >
 (
+manager
 0
 root
 mcc
@@ -17404,6 +17418,7 @@ MakeUnique
 ScopedLayerTreeRegistration
 >
 (
+manager
 0
 root
 mcc
@@ -17670,6 +17685,7 @@ MakeUnique
 ScopedLayerTreeRegistration
 >
 (
+manager
 0
 root
 mcc
@@ -17791,6 +17807,7 @@ MakeUnique
 ScopedLayerTreeRegistration
 >
 (
+manager
 0
 root
 mcc
@@ -18031,6 +18048,7 @@ MakeUnique
 ScopedLayerTreeRegistration
 >
 (
+manager
 0
 root
 mcc
@@ -18585,6 +18603,7 @@ CreateObscuringLayerTree
 ScopedLayerTreeRegistration
 registration
 (
+manager
 0
 root
 mcc

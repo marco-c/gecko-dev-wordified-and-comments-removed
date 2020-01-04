@@ -242,6 +242,9 @@ ScopedLayerTreeRegistration
 {
 ScopedLayerTreeRegistration
 (
+APZCTreeManager
+*
+aApzctm
 uint64_t
 aLayersId
 Layer
