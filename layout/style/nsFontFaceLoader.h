@@ -180,6 +180,11 @@ nsFontFaceLoader
 (
 )
 ;
+uint8_t
+GetFontDisplay
+(
+)
+;
 private
 :
 RefPtr

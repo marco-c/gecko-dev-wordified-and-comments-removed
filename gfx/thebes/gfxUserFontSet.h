@@ -753,6 +753,8 @@ aLanguageOverride
 gfxSparseBitSet
 *
 aUnicodeRanges
+uint8_t
+aFontDisplay
 )
 =
 0
@@ -792,6 +794,8 @@ aLanguageOverride
 gfxSparseBitSet
 *
 aUnicodeRanges
+uint8_t
+aFontDisplay
 )
 ;
 void
@@ -1753,6 +1757,8 @@ aLanguageOverride
 gfxSparseBitSet
 *
 aUnicodeRanges
+uint8_t
+aFontDisplay
 )
 ;
 gfxUserFontFamily
@@ -1854,6 +1860,8 @@ aLanguageOverride
 gfxSparseBitSet
 *
 aUnicodeRanges
+uint8_t
+aFontDisplay
 )
 ;
 virtual
@@ -1890,6 +1898,8 @@ aLanguageOverride
 gfxSparseBitSet
 *
 aUnicodeRanges
+uint8_t
+aFontDisplay
 )
 ;
 virtual
@@ -1984,6 +1994,16 @@ mCharacterMap
 get
 (
 )
+;
+}
+uint8_t
+GetFontDisplay
+(
+)
+const
+{
+return
+mFontDisplay
 ;
 }
 void
@@ -2156,6 +2176,7 @@ NOT_LOADING
 LOADING_STARTED
 LOADING_ALMOST_DONE
 LOADING_SLOWLY
+LOADING_TIMED_OUT
 LOADING_FAILED
 }
 ;
@@ -2164,6 +2185,9 @@ mFontDataLoadingState
 ;
 bool
 mUnsupportedFormat
+;
+uint8_t
+mFontDisplay
 ;
 RefPtr
 <

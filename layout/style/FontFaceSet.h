@@ -298,6 +298,8 @@ aLanguageOverride
 gfxSparseBitSet
 *
 aUnicodeRanges
+uint8_t
+aFontDisplay
 )
 override
 ;
