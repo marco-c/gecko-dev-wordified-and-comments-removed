@@ -130,9 +130,7 @@ IsNull
 !
 aInputChunk
 .
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 )
@@ -498,9 +496,7 @@ totalChannelCount
 aOutputChunk
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;

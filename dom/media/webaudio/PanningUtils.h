@@ -279,9 +279,7 @@ if
 (
 aInput
 .
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 =

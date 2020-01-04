@@ -672,9 +672,7 @@ destinationBus
 sourceBus
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 >
@@ -739,9 +737,7 @@ MOZ_ASSERT
 destinationBus
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 <
@@ -802,9 +798,7 @@ numInputChannels
 sourceBus
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;
@@ -814,9 +808,7 @@ numOutputChannels
 destinationBus
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;

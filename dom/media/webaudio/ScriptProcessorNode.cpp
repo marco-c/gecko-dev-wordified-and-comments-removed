@@ -1211,9 +1211,7 @@ MOZ_ASSERT
 (
 aInput
 .
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 =

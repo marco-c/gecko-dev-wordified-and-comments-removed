@@ -688,9 +688,7 @@ numberOfChannels
 destinationChunk
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;
@@ -700,9 +698,7 @@ numberOfSourceChannels
 sourceChunk
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;

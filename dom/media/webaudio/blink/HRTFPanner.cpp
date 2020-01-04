@@ -533,9 +533,7 @@ IsNull
 inputBus
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;
@@ -569,9 +567,7 @@ outputBus
 outputBus
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 =

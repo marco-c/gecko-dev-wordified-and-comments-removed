@@ -1750,9 +1750,7 @@ outputChannelCount
 chunk
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 )
@@ -1795,9 +1793,7 @@ inputChunks
 ]
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 =
@@ -1830,9 +1826,7 @@ inputChunks
 ]
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 =
@@ -1956,9 +1950,7 @@ aChunk
 aBlock
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 channels
@@ -2126,9 +2118,7 @@ i
 aChunk
 -
 >
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;

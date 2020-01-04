@@ -378,9 +378,7 @@ channelCount
 =
 aInput
 .
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;
@@ -413,9 +411,7 @@ SampleRate
 )
 aInput
 .
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 )

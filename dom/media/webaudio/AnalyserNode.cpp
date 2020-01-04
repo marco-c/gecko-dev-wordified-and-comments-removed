@@ -1660,9 +1660,7 @@ channelCount
 =
 chunk
 .
-mChannelData
-.
-Length
+ChannelCount
 (
 )
 ;
