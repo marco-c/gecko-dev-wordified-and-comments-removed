@@ -10771,6 +10771,14 @@ x86
 '
             
 '
+linux
+'
+            
+'
+linux64
+'
+            
+'
 macosx64
 '
             
@@ -11314,6 +11322,26 @@ android
 api
 -
 11
+'
+        
+if
+self
+.
+defines
+.
+get
+(
+'
+XP_LINUX
+'
+False
+)
+:
+            
+return
+tree
+'
+linux64
 '
         
 if
