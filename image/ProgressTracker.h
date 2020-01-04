@@ -441,14 +441,6 @@ Length
 )
 ;
 }
-bool
-FirstObserverIs
-(
-IProgressObserver
-*
-aObserver
-)
-;
 void
 ResetImage
 (

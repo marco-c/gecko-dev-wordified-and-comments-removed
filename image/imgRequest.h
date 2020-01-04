@@ -791,6 +791,10 @@ void
 *
 mLoadId
 ;
+void
+*
+mFirstProxy
+;
 imgCacheValidator
 *
 mValidator
