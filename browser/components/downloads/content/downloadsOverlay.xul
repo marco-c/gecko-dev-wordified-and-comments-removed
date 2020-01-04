@@ -345,7 +345,7 @@ command
 id
 =
 "
-downloadsCmd_chooseOpen
+downloadsCmd_unblockAndOpen
 "
 oncommand
 =
@@ -353,7 +353,7 @@ oncommand
 goDoCommand
 (
 '
-downloadsCmd_chooseOpen
+downloadsCmd_unblockAndOpen
 '
 )
 "
@@ -1642,7 +1642,7 @@ downloadsPanelFooterButton
 command
 =
 "
-downloadsCmd_chooseOpen
+downloadsCmd_unblockAndOpen
 "
 flex
 =
