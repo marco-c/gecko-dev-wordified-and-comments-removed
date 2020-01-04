@@ -146,11 +146,6 @@ about
 :
 addons
 "
-"
-about
-:
-permissions
-"
 ]
 ;
 function
