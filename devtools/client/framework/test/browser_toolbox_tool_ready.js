@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+5
+)
+;
 thisTestLeaksUncaughtRejectionsAndShouldBeFixed
 (
 "
