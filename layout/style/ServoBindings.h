@@ -1406,6 +1406,16 @@ StyleBasicShapeType
 type
 )
 ;
+void
+Gecko_FillAllBackgroundLists
+(
+nsStyleImageLayers
+*
+layers
+uint32_t
+max_len
+)
+;
 NS_DECL_THREADSAFE_FFI_REFCOUNTING
 (
 nsStyleCoord
