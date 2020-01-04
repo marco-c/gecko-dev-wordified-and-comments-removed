@@ -469,7 +469,7 @@ void
 MediaStreamGraphImpl
 :
 :
-AddStream
+AddStreamGraphThread
 (
 MediaStream
 *
@@ -632,7 +632,7 @@ void
 MediaStreamGraphImpl
 :
 :
-RemoveStream
+RemoveStreamGraphThread
 (
 MediaStream
 *
@@ -8825,7 +8825,7 @@ GraphImpl
 )
 -
 >
-AddStream
+AddStreamGraphThread
 (
 mStream
 )
@@ -10591,7 +10591,7 @@ DestroyImpl
 graph
 -
 >
-RemoveStream
+RemoveStreamGraphThread
 (
 mStream
 )

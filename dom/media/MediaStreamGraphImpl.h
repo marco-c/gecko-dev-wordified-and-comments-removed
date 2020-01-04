@@ -795,7 +795,7 @@ mPortCount
 ;
 }
 void
-AddStream
+AddStreamGraphThread
 (
 MediaStream
 *
@@ -803,7 +803,7 @@ aStream
 )
 ;
 void
-RemoveStream
+RemoveStreamGraphThread
 (
 MediaStream
 *
