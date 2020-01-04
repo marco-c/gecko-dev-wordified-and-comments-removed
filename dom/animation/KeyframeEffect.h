@@ -963,6 +963,15 @@ mProperties
 ;
 }
 void
+CopyPropertiesFrom
+(
+const
+KeyframeEffectReadOnly
+&
+aOther
+)
+;
+void
 ComposeStyle
 (
 RefPtr
