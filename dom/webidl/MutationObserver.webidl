@@ -380,6 +380,16 @@ characterDataOldValue
 ChromeOnly
 ]
 boolean
+nativeAnonymousChildList
+=
+false
+;
+/
+/
+[
+ChromeOnly
+]
+boolean
 animations
 ;
 sequence
