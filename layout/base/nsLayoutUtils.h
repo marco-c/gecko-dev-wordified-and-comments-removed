@@ -5215,6 +5215,15 @@ aFrame
 )
 ;
 static
+float
+GetCurrentAPZResolutionScale
+(
+nsIPresShell
+*
+aShell
+)
+;
+static
 void
 LogTestDataForPaint
 (
