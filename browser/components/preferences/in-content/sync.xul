@@ -1678,7 +1678,7 @@ fxaMobilePromo
 "
 >
 &
-mobilePromo2
+mobilePromo3
 .
 start
 ;
@@ -1724,7 +1724,7 @@ link
 -
 >
 &
-mobilePromo2
+mobilePromo3
 .
 androidLink
 ;
@@ -1740,7 +1740,7 @@ label
 -
 >
 &
-mobilePromo2
+mobilePromo3
 .
 iOSBefore
 ;
@@ -1777,7 +1777,7 @@ link
 -
 >
 &
-mobilePromo2
+mobilePromo3
 .
 iOSLink
 ;
@@ -1793,7 +1793,7 @@ label
 -
 >
 &
-mobilePromo2
+mobilePromo3
 .
 end
 ;
@@ -2825,7 +2825,7 @@ fxaMobilePromo
 "
 >
 &
-mobilePromo2
+mobilePromo3
 .
 start
 ;
@@ -2904,7 +2904,7 @@ preferences
 -
 >
 &
-mobilePromo2
+mobilePromo3
 .
 androidLink
 ;
@@ -2920,7 +2920,7 @@ label
 -
 >
 &
-mobilePromo2
+mobilePromo3
 .
 iOSBefore
 ;
@@ -2990,7 +2990,7 @@ preferences
 -
 >
 &
-mobilePromo2
+mobilePromo3
 .
 iOSLink
 ;
@@ -3006,7 +3006,7 @@ label
 -
 >
 &
-mobilePromo2
+mobilePromo3
 .
 end
 ;
