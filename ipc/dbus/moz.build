@@ -102,6 +102,11 @@ ipc
 =
 [
 '
+DBusConnectionDelete
+.
+h
+'
+'
 DBusConnectionRefPtr
 .
 h
