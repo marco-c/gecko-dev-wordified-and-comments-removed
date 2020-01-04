@@ -528,13 +528,13 @@ expected_duration
         
 self
 .
-_start_time
+_first_seen_time
 =
 0
         
 self
 .
-_start_wall_time
+_first_seen_wall_time
 =
 0
         
@@ -797,7 +797,7 @@ range
         
 self
 .
-_start_time
+_first_seen_time
 =
 self
 .
@@ -805,7 +805,7 @@ current_time
         
 self
 .
-_start_wall_time
+_first_seen_wall_time
 =
 clock
 (
@@ -902,42 +902,69 @@ self
 .
 duration
         
-set_duration
+played_ranges
 =
 self
 .
-_set_duration
+played
         
 if
-self
+played_ranges
 .
-_set_duration
-and
-self
-.
-_start_time
+length
+>
+0
 :
             
-set_duration
-+
+assert
+played_ranges
+.
+length
+=
+=
+1
+            
+start_position
+=
+played_ranges
+.
+start
+(
+0
+)
+        
+else
+:
+            
+start_position
 =
 self
 .
-_start_time
+_first_seen_time
+        
+remaining_video
+=
+video_duration
+-
+start_position
         
 if
 0
 <
-set_duration
+self
+.
+_set_duration
 <
-video_duration
+remaining_video
 :
             
 self
 .
 expected_duration
 =
-set_duration
+self
+.
+_set_duration
         
 else
 :
@@ -946,7 +973,7 @@ self
 .
 expected_duration
 =
-video_duration
+remaining_video
     
 def
 get_debug_lines
@@ -1249,14 +1276,46 @@ set
 "
 "
         
+played_ranges
+=
+self
+.
+played
+        
+assert
+played_ranges
+.
+length
+=
+=
+1
+        
+played_duration
+=
+self
+.
+played
+.
+end
+(
+0
+)
+-
+self
+.
+played
+.
+start
+(
+0
+)
+        
 return
 self
 .
 expected_duration
 -
-self
-.
-current_time
+played_duration
     
 property
     
@@ -1776,7 +1835,7 @@ current_time
 -
 self
 .
-_start_time
+_first_seen_time
         
 elapsed_wall_time
 =
@@ -1786,7 +1845,7 @@ clock
 -
 self
 .
-_start_wall_time
+_first_seen_wall_time
         
 return
 elapsed_wall_time
@@ -2519,17 +2578,10 @@ otherwise
 "
 "
     
-remaining_time
-=
+if
 video
 .
 remaining_time
-    
-if
-abs
-(
-remaining_time
-)
 <
 video
 .
