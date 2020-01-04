@@ -5123,6 +5123,7 @@ aData
 sync
 CreateWindow
 (
+nullable
 PBrowser
 aThisTab
 PBrowser

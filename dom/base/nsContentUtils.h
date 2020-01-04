@@ -368,6 +368,9 @@ nsITransferable
 class
 nsPIWindowRoot
 ;
+class
+nsIWindowProvider
+;
 struct
 JSPropertyDescriptor
 ;
@@ -3112,6 +3115,13 @@ sScriptBlockerCount
 0
 ;
 }
+static
+nsIWindowProvider
+*
+GetWindowProviderForContentProcess
+(
+)
+;
 static
 void
 WarnScriptWasIgnored
