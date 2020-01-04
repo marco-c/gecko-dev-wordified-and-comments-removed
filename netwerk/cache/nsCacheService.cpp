@@ -4411,12 +4411,6 @@ Run
 {
 nsCacheServiceAutoLock
 lock
-(
-LOCK_TELEM
-(
-NSDOOMEVENT_RUN
-)
-)
 ;
 bool
 foundActive
