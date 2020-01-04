@@ -141,7 +141,7 @@ override
 ;
 RefPtr
 <
-VideoDataPromise
+MediaDataPromise
 >
 RequestVideoData
 (
@@ -154,7 +154,7 @@ override
 ;
 RefPtr
 <
-AudioDataPromise
+MediaDataPromise
 >
 RequestAudioData
 (
@@ -1480,13 +1480,13 @@ false
 ;
 DecoderDataWithPromise
 <
-AudioDataPromise
+MediaDataPromise
 >
 mAudio
 ;
 DecoderDataWithPromise
 <
-VideoDataPromise
+MediaDataPromise
 >
 mVideo
 ;

@@ -667,7 +667,7 @@ RefPtr
 MediaDecoderReader
 :
 :
-VideoDataPromise
+MediaDataPromise
 >
 MediaDecoderReader
 :
@@ -687,7 +687,7 @@ typedef
 MediaDecoderReader
 :
 :
-VideoDataPromise
+MediaDataPromise
 PromiseType
 ;
 RefPtr
@@ -1308,7 +1308,7 @@ RefPtr
 MediaDecoderReader
 :
 :
-VideoDataPromise
+MediaDataPromise
 >
 MediaDecoderReader
 :
@@ -1323,7 +1323,7 @@ aTimeThreshold
 {
 RefPtr
 <
-VideoDataPromise
+MediaDataPromise
 >
 p
 =
@@ -1521,7 +1521,7 @@ RefPtr
 MediaDecoderReader
 :
 :
-AudioDataPromise
+MediaDataPromise
 >
 MediaDecoderReader
 :
@@ -1532,7 +1532,7 @@ RequestAudioData
 {
 RefPtr
 <
-AudioDataPromise
+MediaDataPromise
 >
 p
 =

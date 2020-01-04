@@ -65,15 +65,8 @@ typedef
 MediaDecoderReader
 :
 :
-AudioDataPromise
-AudioDataPromise
-;
-typedef
-MediaDecoderReader
-:
-:
-VideoDataPromise
-VideoDataPromise
+MediaDataPromise
+MediaDataPromise
 ;
 typedef
 MediaDecoderReader
@@ -142,7 +135,7 @@ AwaitStartTime
 ;
 RefPtr
 <
-AudioDataPromise
+MediaDataPromise
 >
 RequestAudioData
 (
@@ -150,7 +143,7 @@ RequestAudioData
 ;
 RefPtr
 <
-VideoDataPromise
+MediaDataPromise
 >
 RequestVideoData
 (
