@@ -10912,6 +10912,10 @@ if
 mD3D10Device
 )
 {
+mDWriteFactory
+=
+nullptr
+;
 mD2DStatus
 =
 FeatureStatus
