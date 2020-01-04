@@ -3856,6 +3856,7 @@ LOADURL_NONE
 )
 ;
 }
+RobocopTarget
 public
 Tab
 loadUrl
