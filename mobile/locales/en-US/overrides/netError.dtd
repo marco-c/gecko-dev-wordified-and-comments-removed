@@ -1758,7 +1758,7 @@ p
 <
 !
 ENTITY
-corruptedContentError
+corruptedContentErrorv2
 .
 title
 "
@@ -1770,7 +1770,7 @@ Error
 <
 !
 ENTITY
-corruptedContentError
+corruptedContentErrorv2
 .
 longDesc
 "
