@@ -3753,6 +3753,10 @@ nsRect
 &
 aFill
 const
+nsSize
+&
+aRepeatSize
+const
 nsPoint
 &
 aAnchor

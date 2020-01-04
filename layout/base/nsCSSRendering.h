@@ -596,6 +596,10 @@ const
 nsRect
 &
 aDirty
+const
+nsSize
+&
+aRepeatSize
 )
 ;
 DrawResult
@@ -746,6 +750,10 @@ nsPoint
 &
 aAnchor
 const
+nsSize
+&
+aRepeatSize
+const
 mozilla
 :
 :
@@ -871,6 +879,9 @@ mFillArea
 ;
 nsPoint
 mAnchor
+;
+nsSize
+mRepeatSize
 ;
 }
 ;
