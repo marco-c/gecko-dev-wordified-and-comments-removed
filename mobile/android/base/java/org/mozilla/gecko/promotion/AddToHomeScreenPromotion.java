@@ -90,6 +90,8 @@ mozilla
 .
 gecko
 .
+delegates
+.
 BrowserAppDelegate
 ;
 import

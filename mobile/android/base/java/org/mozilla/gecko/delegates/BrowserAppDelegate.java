@@ -4,6 +4,8 @@ org
 mozilla
 .
 gecko
+.
+delegates
 ;
 import
 android
@@ -18,6 +20,15 @@ android
 os
 .
 Bundle
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+BrowserApp
 ;
 import
 org
