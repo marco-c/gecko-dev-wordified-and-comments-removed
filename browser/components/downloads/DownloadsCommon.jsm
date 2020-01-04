@@ -2641,6 +2641,8 @@ get
 downloads
 (
 )
+{
+return
 this
 .
 oldDownloadStates
@@ -2648,6 +2650,8 @@ oldDownloadStates
 keys
 (
 )
+;
+}
 get
 canRemoveFinished
 (
