@@ -3170,7 +3170,8 @@ scope
 .
 addItem
 (
-undefined
+"
+"
 {
 enumerable
 :
