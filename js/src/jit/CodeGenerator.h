@@ -3128,6 +3128,14 @@ LRandom
 ins
 )
 ;
+void
+visitSignExtend
+(
+LSignExtend
+*
+ins
+)
+;
 #
 ifdef
 DEBUG
