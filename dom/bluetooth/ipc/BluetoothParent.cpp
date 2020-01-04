@@ -3276,7 +3276,7 @@ SendFile
 (
 aRequest
 .
-devicePath
+address
 (
 )
 (
@@ -3343,7 +3343,7 @@ StopSendingFile
 (
 aRequest
 .
-devicePath
+address
 (
 )
 mReplyRunnable
@@ -3392,7 +3392,7 @@ ConfirmReceivingFile
 (
 aRequest
 .
-devicePath
+address
 (
 )
 true
@@ -3442,7 +3442,7 @@ ConfirmReceivingFile
 (
 aRequest
 .
-devicePath
+address
 (
 )
 false
