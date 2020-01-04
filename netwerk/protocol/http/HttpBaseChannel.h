@@ -1836,6 +1836,11 @@ aURI
 nullptr
 )
 ;
+void
+SetLoadGroupUserAgentOverride
+(
+)
+;
 friend
 class
 PrivateBrowsingChannel
