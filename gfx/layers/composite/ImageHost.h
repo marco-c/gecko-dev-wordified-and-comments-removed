@@ -638,6 +638,14 @@ OverlaySource
 aOverlay
 )
 ;
+void
+SetCompositor
+(
+Compositor
+*
+aCompositor
+)
+;
 virtual
 void
 Composite
@@ -731,6 +739,12 @@ aPrefix
 ;
 protected
 :
+RefPtr
+<
+Compositor
+>
+mCompositor
+;
 gfx
 :
 :

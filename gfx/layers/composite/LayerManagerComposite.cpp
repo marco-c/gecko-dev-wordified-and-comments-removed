@@ -4046,6 +4046,12 @@ GetWidget
 (
 )
 mGeometryChanged
+mCompositor
+-
+>
+HasImageHostOverlays
+(
+)
 )
 )
 {
