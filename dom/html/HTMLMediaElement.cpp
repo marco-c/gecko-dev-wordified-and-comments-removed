@@ -14793,7 +14793,7 @@ mMediaStreamListener
 nullptr
 ;
 }
-NotifyAudibleStateChanged
+SetAudibleState
 (
 shouldPlay
 )
@@ -24593,7 +24593,7 @@ void
 HTMLMediaElement
 :
 :
-NotifyAudibleStateChanged
+SetAudibleState
 (
 bool
 aAudible

@@ -1139,7 +1139,7 @@ override
 ;
 virtual
 void
-NotifyAudibleStateChanged
+SetAudibleState
 (
 bool
 aAudible

@@ -257,7 +257,7 @@ ResetConnectionState
 ;
 virtual
 void
-NotifyAudibleStateChanged
+SetAudibleState
 (
 bool
 aAudible
