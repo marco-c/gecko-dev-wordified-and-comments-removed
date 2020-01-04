@@ -749,6 +749,10 @@ Clone
 (
 )
 ;
+IMPL_EVENT_HANDLER
+(
+ended
+)
 bool
 Ended
 (
@@ -763,12 +767,7 @@ void
 NotifyEnded
 (
 )
-{
-mEnded
-=
-true
 ;
-}
 nsIPrincipal
 *
 GetPrincipal
