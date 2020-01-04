@@ -596,7 +596,7 @@ bps
 blob
 >
 >
-38
+36
 )
 &
 BITMASK
