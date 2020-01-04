@@ -432,7 +432,7 @@ BluetoothAvrcpManager
 Connect
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 BluetoothProfileController
@@ -452,7 +452,7 @@ MOZ_ASSERT
 !
 aDeviceAddress
 .
-IsEmpty
+IsCleared
 (
 )
 )
@@ -491,7 +491,7 @@ aController
 {
 mDeviceAddress
 .
-Truncate
+Clear
 (
 )
 ;
@@ -604,11 +604,11 @@ BluetoothAvrcpManager
 OnGetServiceChannel
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 const
-nsAString
+BluetoothUuid
 &
 aServiceUuid
 int
@@ -623,7 +623,7 @@ BluetoothAvrcpManager
 OnUpdateSdpRecords
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 )
@@ -635,7 +635,7 @@ BluetoothAvrcpManager
 :
 GetAddress
 (
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 )
