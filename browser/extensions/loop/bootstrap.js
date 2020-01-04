@@ -3987,6 +3987,8 @@ AUTHOR_SHEET
 function
 shutdown
 (
+data
+reason
 )
 {
 Cu
@@ -4168,6 +4170,17 @@ removeListener
 WindowListener
 )
 ;
+if
+(
+reason
+=
+=
+APP_SHUTDOWN
+)
+{
+return
+;
+}
 CustomizableUI
 .
 destroyWidget
