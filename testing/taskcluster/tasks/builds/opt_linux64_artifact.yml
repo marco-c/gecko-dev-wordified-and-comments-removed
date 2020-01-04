@@ -127,6 +127,14 @@ production
 .
 py
 '
+MOZHARNESS_ACTIONS
+:
+'
+get
+-
+secrets
+build
+'
 DIST_UPLOADS
 :
 '
