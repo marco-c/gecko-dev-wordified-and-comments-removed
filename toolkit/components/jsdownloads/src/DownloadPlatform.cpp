@@ -137,9 +137,6 @@ include
 .
 .
 /
-.
-.
-/
 xpcom
 /
 io
