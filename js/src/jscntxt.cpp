@@ -323,9 +323,16 @@ hashsetAddPointer
 obj
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 cyclic
 =
 false
@@ -4268,10 +4275,6 @@ nullptr
 generatingError
 (
 false
-)
-cycleDetectorSet
-(
-this
 )
 outstandingRequests
 (

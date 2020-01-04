@@ -137,6 +137,10 @@ JSObject
 *
 >
 >
+js
+:
+:
+SystemAllocPolicy
 >
 ;
 using
@@ -164,7 +168,6 @@ tenured1
 )
 ObjectSet
 (
-cx
 )
 )
 ;

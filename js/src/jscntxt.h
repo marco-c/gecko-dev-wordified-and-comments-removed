@@ -119,6 +119,7 @@ MovableCellHasher
 JSObject
 *
 >
+SystemAllocPolicy
 >
 ;
 AutoCycleDetector
