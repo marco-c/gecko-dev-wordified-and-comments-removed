@@ -319,7 +319,7 @@ myframe
 setAttribute
 (
 "
-referrer
+referrerpolicy
 "
 "
 {
@@ -352,7 +352,7 @@ myframe
 "
 )
 .
-referrer
+referrerPolicy
 =
 "
 {
@@ -378,7 +378,7 @@ myframe
 {
 aAttributePolicy
 ?
-referrer
+referrerpolicy
 =
 "
 {
@@ -616,7 +616,7 @@ link
 )
 }
 "
-referrer
+referrerpolicy
 =
 "
 {
@@ -767,7 +767,7 @@ alt
 "
 theArea
 "
-referrer
+referrerpolicy
 =
 "
 {
@@ -939,7 +939,7 @@ link
 setAttribute
 (
 "
-referrer
+referrerpolicy
 "
 "
 {
@@ -972,7 +972,7 @@ link
 "
 )
 .
-referrer
+referrerPolicy
 =
 "
 {
@@ -1248,7 +1248,7 @@ imgUrl
 {
 aAttributePolicy
 ?
-referrer
+referrerpolicy
 =
 "
 {

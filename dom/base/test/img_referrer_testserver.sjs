@@ -134,7 +134,7 @@ img
 +
 '
 "
-referrer
+referrerpolicy
 =
 "
 '
@@ -430,7 +430,7 @@ aImgPolicy1
 +
 '
 "
-referrer
+referrerpolicy
 =
 "
 '
@@ -472,7 +472,7 @@ aImgPolicy2
 +
 '
 "
-referrer
+referrerpolicy
 =
 "
 '
@@ -514,7 +514,7 @@ aImgPolicy3
 +
 '
 "
-referrer
+referrerpolicy
 =
 "
 '
