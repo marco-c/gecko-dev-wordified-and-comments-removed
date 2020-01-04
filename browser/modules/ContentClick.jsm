@@ -384,6 +384,11 @@ isContentWindowPrivate
 json
 .
 isContentWindowPrivate
+originPrincipal
+:
+json
+.
+originPrincipal
 }
 ;
 if
