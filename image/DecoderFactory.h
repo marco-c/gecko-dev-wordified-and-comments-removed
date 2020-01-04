@@ -131,6 +131,13 @@ SourceBuffer
 >
 aSourceBuffer
 const
+gfx
+:
+:
+IntSize
+&
+aIntrinsicSize
+const
 Maybe
 <
 gfx
@@ -169,6 +176,13 @@ SourceBuffer
 *
 >
 aSourceBuffer
+const
+gfx
+:
+:
+IntSize
+&
+aIntrinsicSize
 DecoderFlags
 aDecoderFlags
 SurfaceFlags
