@@ -3136,11 +3136,6 @@ state
 :
 {
 "
-unsupported
-"
-:
-true
-"
 ref
 "
 :
@@ -3717,11 +3712,6 @@ state
 "
 :
 {
-"
-unsupported
-"
-:
-true
 "
 ref
 "

@@ -2442,6 +2442,7 @@ getWindow
 createProperties
 .
 windowId
+context
 )
 :
 WindowManager
@@ -3524,6 +3525,7 @@ WindowManager
 getWindow
 (
 windowId
+context
 )
 ;
 let
@@ -4418,6 +4420,7 @@ getWindow
 moveProperties
 .
 windowId
+context
 )
 ;
 if
