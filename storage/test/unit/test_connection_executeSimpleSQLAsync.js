@@ -250,6 +250,7 @@ promise
 add_task
 (
 function
+*
 test_create_and_add
 (
 )
@@ -496,6 +497,7 @@ adb
 add_task
 (
 function
+*
 test_asyncClose_does_not_complete_before_statement
 (
 )
@@ -621,13 +623,3 @@ adb
 }
 )
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}
