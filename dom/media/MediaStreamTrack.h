@@ -850,6 +850,14 @@ ProcessedMediaStream
 aStream
 )
 ;
+bool
+IsForwardedThrough
+(
+MediaInputPort
+*
+aPort
+)
+;
 protected
 :
 virtual
