@@ -357,6 +357,11 @@ GainNode
 h
 '
 '
+IIRFilterNode
+.
+h
+'
+'
 MediaElementAudioSourceNode
 .
 h
@@ -523,6 +528,11 @@ cpp
 '
 '
 GainNode
+.
+cpp
+'
+'
+IIRFilterNode
 .
 cpp
 '
