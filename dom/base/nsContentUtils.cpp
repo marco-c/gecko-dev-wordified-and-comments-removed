@@ -2524,7 +2524,6 @@ MallocSizeOf
 :
 0
 ;
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -2558,6 +2557,9 @@ table
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 }

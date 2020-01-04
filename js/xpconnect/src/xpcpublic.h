@@ -1487,7 +1487,7 @@ delete
 ;
 }
 ;
-nsresult
+void
 ReportJSRuntimeExplicitTreeStats
 (
 const
@@ -1503,10 +1503,10 @@ nsACString
 rtPath
 nsIMemoryReporterCallback
 *
-cb
+handleReport
 nsISupports
 *
-closure
+data
 bool
 anonymize
 size_t

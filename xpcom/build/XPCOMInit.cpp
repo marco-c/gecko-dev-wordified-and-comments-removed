@@ -1805,7 +1805,6 @@ aAnonymize
 )
 override
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -1832,6 +1831,9 @@ library
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 ~
@@ -1896,7 +1898,6 @@ aAnonymize
 )
 override
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -1922,10 +1923,15 @@ Theora
 and
 related
 media
+"
+"
 files
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 ~
@@ -1993,7 +1999,6 @@ aAnonymize
 )
 override
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -2020,6 +2025,9 @@ files
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 ~

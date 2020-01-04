@@ -953,7 +953,6 @@ bool
 aAnonymize
 )
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -986,6 +985,9 @@ sheets
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 size_t

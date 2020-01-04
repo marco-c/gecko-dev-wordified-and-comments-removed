@@ -836,7 +836,7 @@ break
 ;
 default
 :
-assertInput
+assert
 (
 false
 "

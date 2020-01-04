@@ -869,7 +869,6 @@ aAnonymize
 )
 override
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -898,6 +897,9 @@ hosts
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 private

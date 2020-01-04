@@ -1570,7 +1570,6 @@ bool
 aAnonymize
 )
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -1599,6 +1598,9 @@ manager
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 size_t

@@ -547,7 +547,6 @@ MallocSizeOf
 :
 0
 ;
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -573,13 +572,14 @@ for
 WebIDL
 '
 s
-"
-"
 global
 names
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 }

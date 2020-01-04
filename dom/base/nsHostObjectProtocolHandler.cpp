@@ -733,7 +733,6 @@ aAnonymize
 )
 override
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -783,6 +782,9 @@ createObjectURL
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 }

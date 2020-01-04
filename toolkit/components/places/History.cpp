@@ -9768,7 +9768,6 @@ bool
 aAnonymize
 )
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -9806,6 +9805,9 @@ links
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 size_t

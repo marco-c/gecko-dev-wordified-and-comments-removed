@@ -194,7 +194,6 @@ gXPTIStructArena
 XPTIMallocSizeOf
 )
 ;
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -220,6 +219,9 @@ system
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 XPTInterfaceInfoManager

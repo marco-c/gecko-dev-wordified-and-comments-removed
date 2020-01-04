@@ -301,7 +301,6 @@ aAnonymize
 )
 override
 {
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -322,6 +321,9 @@ Freetype
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 }

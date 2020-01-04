@@ -1508,7 +1508,7 @@ stream
 =
 aMediaElement
 .
-CaptureAudio
+MozCaptureStream
 (
 aRv
 mDestination
@@ -5047,9 +5047,6 @@ NodeType
 )
 )
 ;
-nsresult
-rv
-=
 aHandleReport
 -
 >
@@ -5066,19 +5063,6 @@ nodeDescription
 aData
 )
 ;
-if
-(
-NS_WARN_IF
-(
-NS_FAILED
-(
-rv
-)
-)
-)
-return
-rv
-;
 }
 int64_t
 amount
@@ -5088,7 +5072,6 @@ SizeOfIncludingThis
 MallocSizeOf
 )
 ;
-return
 MOZ_COLLECT_REPORT
 (
 "
@@ -5114,6 +5097,9 @@ Audio
 .
 "
 )
+;
+return
+NS_OK
 ;
 }
 BasicWaveFormCache
