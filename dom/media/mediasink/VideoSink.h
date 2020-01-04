@@ -142,8 +142,6 @@ aRealTime
 FrameStatistics
 &
 aFrameStats
-int
-aDelayDuration
 uint32_t
 aVQueueSentToCompositerSize
 )
@@ -295,6 +293,13 @@ VideoSink
 void
 OnVideoQueueEvent
 (
+RefPtr
+<
+MediaData
+>
+&
+&
+aSample
 )
 ;
 void
@@ -437,10 +442,6 @@ mHasVideo
 ;
 DelayedScheduler
 mUpdateScheduler
-;
-const
-int
-mDelayDuration
 ;
 const
 uint32_t
