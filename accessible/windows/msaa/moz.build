@@ -144,11 +144,6 @@ ARIAGridAccessibleWrap
 cpp
 '
 '
-ChildIDThunk
-.
-cpp
-'
-'
 Compatibility
 .
 cpp
