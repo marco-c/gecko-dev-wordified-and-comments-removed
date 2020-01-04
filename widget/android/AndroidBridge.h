@@ -1588,6 +1588,14 @@ aPath
 protected
 :
 static
+nsDataHashtable
+<
+nsStringHashKey
+nsString
+>
+sStoragePaths
+;
+static
 pthread_t
 sJavaUiThread
 ;
