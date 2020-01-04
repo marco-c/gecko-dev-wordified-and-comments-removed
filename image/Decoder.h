@@ -44,6 +44,13 @@ h
 #
 include
 "
+Downscaler
+.
+h
+"
+#
+include
+"
 ImageMetadata
 .
 h
@@ -229,7 +236,6 @@ return
 mMetadataDecode
 ;
 }
-virtual
 nsresult
 SetTargetSize
 (
@@ -238,11 +244,7 @@ nsIntSize
 &
 aSize
 )
-{
-return
-NS_ERROR_NOT_AVAILABLE
 ;
-}
 virtual
 void
 SetSampleSize
@@ -925,6 +927,12 @@ aPreviousFrame
 ;
 protected
 :
+Maybe
+<
+Downscaler
+>
+mDownscaler
+;
 uint8_t
 *
 mImageData
