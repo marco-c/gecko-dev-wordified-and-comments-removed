@@ -16403,7 +16403,7 @@ eMouseEnter
 mEventMessage
 =
 =
-NS_POINTER_ENTER
+ePointerEnter
 )
 {
 for
@@ -16984,7 +16984,7 @@ lastOverElement
 aMouseEvent
 isPointer
 ?
-NS_POINTER_ENTER
+ePointerEnter
 :
 eMouseEnter
 )
