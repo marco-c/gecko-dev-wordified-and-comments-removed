@@ -1036,11 +1036,6 @@ StickyScrollContainer
 cpp
 '
 '
-SummaryFrame
-.
-cpp
-'
-'
 TextOverflow
 .
 cpp
