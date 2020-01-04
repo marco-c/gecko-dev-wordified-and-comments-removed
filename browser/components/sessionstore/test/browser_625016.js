@@ -118,7 +118,9 @@ save
 )
 ;
 yield
-promiseWindowClosed
+BrowserTestUtils
+.
+closeWindow
 (
 newWin
 )
@@ -214,7 +216,9 @@ newWin
 )
 {
 yield
-promiseWindowClosed
+BrowserTestUtils
+.
+closeWindow
 (
 newWin
 )

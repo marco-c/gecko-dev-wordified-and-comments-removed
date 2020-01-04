@@ -157,7 +157,9 @@ win
 )
 ;
 yield
-promiseWindowClosed
+BrowserTestUtils
+.
+closeWindow
 (
 win
 )
