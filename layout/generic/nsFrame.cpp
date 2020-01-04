@@ -23656,6 +23656,11 @@ nsDisplayTransform
 :
 :
 INCLUDE_PERSPECTIVE
+|
+nsDisplayTransform
+:
+:
+BASIS_AT_ORIGIN
 nullptr
 aOutAncestor
 )
