@@ -329,6 +329,9 @@ the
 cache
 *
 /
+[
+must_use
+]
 nsIProperties
 findEntryProperties
 (

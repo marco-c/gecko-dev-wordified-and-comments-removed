@@ -64,6 +64,9 @@ aAttrs
 nsIDocument
 *
 aDocument
+nsresult
+&
+aRv
 )
 ;
 ImageCacheKey

@@ -203,6 +203,9 @@ aAttrs
 nsIDocument
 *
 aDocument
+nsresult
+&
+aRv
 )
 :
 mURI
@@ -211,6 +214,7 @@ new
 ImageURL
 (
 aURI
+aRv
 )
 )
 mOriginAttributes
@@ -235,6 +239,11 @@ chrome
 )
 )
 {
+NS_ENSURE_SUCCESS_VOID
+(
+aRv
+)
+;
 MOZ_ASSERT
 (
 NS_IsMainThread
