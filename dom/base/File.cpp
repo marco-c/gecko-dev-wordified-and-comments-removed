@@ -2116,6 +2116,7 @@ nsAString
 &
 aFileName
 )
+const
 {
 mImpl
 -
@@ -3187,6 +3188,7 @@ nsAString
 &
 aName
 )
+const
 {
 NS_ASSERTION
 (
