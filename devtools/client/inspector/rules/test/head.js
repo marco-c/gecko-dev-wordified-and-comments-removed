@@ -100,10 +100,13 @@ js
 "
 ;
 const
-STYLE_INSPECTOR_L10N
+_STRINGS
 =
-new
-LocalizationHelper
+Services
+.
+strings
+.
+createBundle
 (
 "
 chrome
