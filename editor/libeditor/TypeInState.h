@@ -62,9 +62,6 @@ SetProp
 #
 endif
 class
-nsHTMLEditRules
-;
-class
 nsIAtom
 ;
 class
@@ -73,6 +70,9 @@ nsIDOMNode
 namespace
 mozilla
 {
+class
+HTMLEditRules
+;
 namespace
 dom
 {
@@ -385,7 +385,7 @@ mLastSelectionOffset
 ;
 friend
 class
-nsHTMLEditRules
+HTMLEditRules
 ;
 }
 ;

@@ -220,6 +220,11 @@ EditTransactionBase
 cpp
 '
 '
+HTMLEditRules
+.
+cpp
+'
+'
 HTMLEditUtils
 .
 cpp
@@ -286,11 +291,6 @@ cpp
 '
 '
 nsHTMLEditorStyle
-.
-cpp
-'
-'
-nsHTMLEditRules
 .
 cpp
 '

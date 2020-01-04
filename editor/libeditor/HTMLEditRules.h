@@ -1,9 +1,9 @@
 #
 ifndef
-nsHTMLEditRules_h__
+HTMLEditRules_h
 #
 define
-nsHTMLEditRules_h__
+HTMLEditRules_h
 #
 include
 "
@@ -130,14 +130,11 @@ class
 Selection
 ;
 }
-}
 struct
 StyleCache
+final
 :
 public
-mozilla
-:
-:
 PropItem
 {
 bool
@@ -211,7 +208,7 @@ define
 SIZE_STYLE_TABLE
 19
 class
-nsHTMLEditRules
+HTMLEditRules
 :
 public
 nsTextEditRules
@@ -223,10 +220,10 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-nsHTMLEditRules
+HTMLEditRules
 nsTextEditRules
 )
-nsHTMLEditRules
+HTMLEditRules
 (
 )
 ;
@@ -235,7 +232,7 @@ Init
 (
 nsPlaintextEditor
 *
-aEditor
+aTextEditor
 )
 override
 ;
@@ -621,7 +618,7 @@ protected
 :
 virtual
 ~
-nsHTMLEditRules
+HTMLEditRules
 (
 )
 ;
@@ -1594,9 +1591,6 @@ outArrayOfNodes
 nsresult
 GetNodesFromPoint
 (
-mozilla
-:
-:
 EditorDOMPoint
 aPoint
 EditAction
@@ -1723,9 +1717,6 @@ aNodeArray
 nsresult
 BustUpInlinesAtRangeEndpoints
 (
-mozilla
-:
-:
 RangeItem
 &
 inRange
@@ -1864,9 +1855,6 @@ nsIDOMNode
 aBlock
 )
 ;
-mozilla
-:
-:
 EditorDOMPoint
 JoinNodesSmart
 (
@@ -2182,9 +2170,6 @@ mNewBlock
 ;
 RefPtr
 <
-mozilla
-:
-:
 RangeItem
 >
 mRangeItem
@@ -2197,5 +2182,6 @@ SIZE_STYLE_TABLE
 ;
 }
 ;
+}
 #
 endif
