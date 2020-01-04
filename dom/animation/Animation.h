@@ -1082,6 +1082,16 @@ EffectEnd
 )
 const
 ;
+TimeStamp
+AnimationTimeToTimeStamp
+(
+const
+StickyTimeDuration
+&
+aTime
+)
+const
+;
 nsIDocument
 *
 GetRenderedDocument
