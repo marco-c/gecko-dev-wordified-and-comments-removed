@@ -23522,7 +23522,7 @@ setNeedsArgsObj
 ;
 for
 (
-AllFramesIter
+AllScriptFramesIter
 i
 (
 cx
