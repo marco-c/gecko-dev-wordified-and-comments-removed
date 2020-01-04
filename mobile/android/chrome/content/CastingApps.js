@@ -814,6 +814,13 @@ registerDevice
 mediaPlayerDevice
 )
 ;
+if
+(
+window
+.
+PresentationRequest
+)
+{
 fxOSTVDevice
 .
 init
@@ -827,6 +834,7 @@ registerDevice
 fxOSTVDevice
 )
 ;
+}
 SimpleServiceDiscovery
 .
 search
