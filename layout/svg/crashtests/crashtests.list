@@ -608,16 +608,6 @@ load
 1
 .
 svg
-skip
--
-if
-(
-Android
-&
-&
-!
-browserIsRemote
-)
 load
 587336
 -
