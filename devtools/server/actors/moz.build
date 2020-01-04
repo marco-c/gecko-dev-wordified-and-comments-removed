@@ -197,15 +197,6 @@ gcli
 js
 '
 '
-heap
--
-snapshot
--
-file
-.
-js
-'
-'
 highlighters
 .
 css
