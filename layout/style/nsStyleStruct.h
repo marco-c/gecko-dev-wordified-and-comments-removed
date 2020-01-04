@@ -5509,6 +5509,12 @@ mGridRowStart
 nsStyleGridLine
 mGridRowEnd
 ;
+nsStyleCoord
+mGridColumnGap
+;
+nsStyleCoord
+mGridRowGap
+;
 bool
 WidthDependsOnContainer
 (
