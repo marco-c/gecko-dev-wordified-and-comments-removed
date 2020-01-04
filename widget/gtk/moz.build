@@ -450,6 +450,11 @@ nsApplicationChooser
 .
 cpp
 '
+'
+WidgetStyleCache
+.
+cpp
+'
 ]
 include
 (
