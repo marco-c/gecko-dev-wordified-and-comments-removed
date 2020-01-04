@@ -5412,7 +5412,10 @@ mGridAutoRowsMax
 uint8_t
 mGridAutoFlow
 ;
-uint8_t
+mozilla
+:
+:
+StyleBoxSizing
 mBoxSizing
 ;
 private

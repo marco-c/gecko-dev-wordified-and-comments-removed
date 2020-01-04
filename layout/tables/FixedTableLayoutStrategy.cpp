@@ -1122,7 +1122,10 @@ mBoxSizing
 )
 {
 case
-NS_STYLE_BOX_SIZING_CONTENT
+StyleBoxSizing
+:
+:
+Content
 :
 boxSizingAdjust
 +
@@ -1132,7 +1135,10 @@ offsets
 hPadding
 ;
 case
-NS_STYLE_BOX_SIZING_PADDING
+StyleBoxSizing
+:
+:
+Padding
 :
 boxSizingAdjust
 +
@@ -1142,7 +1148,10 @@ offsets
 hBorder
 ;
 case
-NS_STYLE_BOX_SIZING_BORDER
+StyleBoxSizing
+:
+:
+Border
 :
 break
 ;

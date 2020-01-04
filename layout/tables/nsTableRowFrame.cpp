@@ -3052,7 +3052,10 @@ mBoxSizing
 )
 {
 case
-NS_STYLE_BOX_SIZING_CONTENT
+StyleBoxSizing
+:
+:
+Content
 :
 outsideBoxSizing
 =
@@ -3072,7 +3075,10 @@ aWM
 break
 ;
 case
-NS_STYLE_BOX_SIZING_PADDING
+StyleBoxSizing
+:
+:
+Padding
 :
 outsideBoxSizing
 =
@@ -3091,7 +3097,11 @@ aWM
 ;
 break
 ;
-default
+case
+StyleBoxSizing
+:
+:
+Border
 :
 break
 ;

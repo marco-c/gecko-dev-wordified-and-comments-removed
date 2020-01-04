@@ -387,7 +387,10 @@ mBoxSizing
 )
 {
 case
-NS_STYLE_BOX_SIZING_CONTENT
+StyleBoxSizing
+:
+:
+Content
 :
 rect
 .
@@ -402,7 +405,10 @@ GetUsedPadding
 )
 ;
 case
-NS_STYLE_BOX_SIZING_PADDING
+StyleBoxSizing
+:
+:
+Padding
 :
 rect
 .
@@ -416,7 +422,11 @@ GetUsedBorder
 )
 )
 ;
-default
+case
+StyleBoxSizing
+:
+:
+Border
 :
 break
 ;

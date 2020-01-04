@@ -741,7 +741,10 @@ ComputeISizeValue
 (
 nscoord
 aContainingBlockISize
-uint8_t
+mozilla
+:
+:
+StyleBoxSizing
 aBoxSizing
 const
 nsStyleCoord
@@ -754,7 +757,10 @@ ComputeBSizeValue
 (
 nscoord
 aContainingBlockBSize
-uint8_t
+mozilla
+:
+:
+StyleBoxSizing
 aBoxSizing
 const
 nsStyleCoord

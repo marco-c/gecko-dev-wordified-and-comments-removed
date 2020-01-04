@@ -390,7 +390,10 @@ mBoxSizing
 )
 {
 case
-NS_STYLE_BOX_SIZING_CONTENT
+StyleBoxSizing
+:
+:
+Content
 :
 boxSizingToBorderEdge
 =
@@ -405,7 +408,10 @@ hBorder
 break
 ;
 case
-NS_STYLE_BOX_SIZING_PADDING
+StyleBoxSizing
+:
+:
+Padding
 :
 minCoord
 +
@@ -429,7 +435,11 @@ hBorder
 ;
 break
 ;
-default
+case
+StyleBoxSizing
+:
+:
+Border
 :
 minCoord
 +
