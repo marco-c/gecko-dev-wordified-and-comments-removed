@@ -663,6 +663,9 @@ m
 msg
 )
         
+try
+:
+            
 self
 .
 _run_git
@@ -686,7 +689,7 @@ org
 /
 try
 '
-                      
+                          
 '
 +
 HEAD
@@ -703,6 +706,9 @@ tip
 '
 )
         
+finally
+:
+            
 self
 .
 _run_git
