@@ -14,13 +14,6 @@ h
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx

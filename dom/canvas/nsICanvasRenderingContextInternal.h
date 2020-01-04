@@ -57,13 +57,6 @@ h
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefPtr
@@ -589,7 +582,7 @@ isIPC
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -601,7 +594,7 @@ HTMLCanvasElement
 >
 mCanvasElement
 ;
-RefPtr
+nsRefPtr
 <
 nsRefreshDriver
 >

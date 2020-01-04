@@ -174,7 +174,10 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-GraphicsFilter
+gfx
+:
+:
+Filter
 aFilter
 const
 Maybe

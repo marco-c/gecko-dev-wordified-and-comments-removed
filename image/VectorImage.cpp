@@ -1074,7 +1074,7 @@ gfxRect
 &
 aFillRect
 const
-GraphicsFilter
+Filter
 &
 aFilter
 const
@@ -1120,7 +1120,7 @@ gfxRect
 &
 aFillRect
 const
-GraphicsFilter
+Filter
 &
 aFilter
 const
@@ -2858,7 +2858,7 @@ const
 ImageRegion
 &
 aRegion
-GraphicsFilter
+Filter
 aFilter
 const
 Maybe
@@ -2979,7 +2979,7 @@ imageRect
 ImageRegion
 region
 ;
-GraphicsFilter
+Filter
 filter
 ;
 const
@@ -3026,7 +3026,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 const
 Maybe
@@ -4643,7 +4643,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aFlags

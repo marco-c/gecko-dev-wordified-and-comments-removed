@@ -318,11 +318,6 @@ gfxUtils
 h
 '
 '
-GraphicsFilter
-.
-h
-'
-'
 RoundedRect
 .
 h

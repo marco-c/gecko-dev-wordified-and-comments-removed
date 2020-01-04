@@ -42,13 +42,6 @@ h
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -466,7 +459,10 @@ mWrapMode
 void
 SetFilter
 (
-GraphicsFilter
+gfx
+:
+:
+Filter
 aFilter
 )
 {
@@ -541,7 +537,10 @@ gfx
 SurfaceFormat
 mTextureFormat
 ;
-GraphicsFilter
+gfx
+:
+:
+Filter
 mFilter
 ;
 Flags
@@ -762,7 +761,7 @@ mTexture
 TextureState
 mTextureState
 ;
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -1011,7 +1010,7 @@ mIterationCallbackData
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TextureImage
 >

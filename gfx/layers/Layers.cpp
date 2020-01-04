@@ -12175,7 +12175,7 @@ Layer
 *
 aLayer
 const
-GraphicsFilter
+Filter
 &
 aFilter
 )

@@ -2785,10 +2785,10 @@ deviceToUser
 ifdef
 MOZ_GFX_OPTIMIZE_MOBILE
 static
-GraphicsFilter
+Filter
 ReduceResamplingFilter
 (
-GraphicsFilter
+Filter
 aFilter
 int
 aImgWidth
@@ -2899,10 +2899,10 @@ aFilter
 #
 else
 static
-GraphicsFilter
+Filter
 ReduceResamplingFilter
 (
-GraphicsFilter
+Filter
 aFilter
 int
 aImgWidth
@@ -2989,7 +2989,7 @@ aRegion
 Rect
 aImageRect
 const
-GraphicsFilter
+Filter
 &
 aFilter
 const
@@ -3450,7 +3450,7 @@ aRegion
 const
 SurfaceFormat
 aFormat
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aImageFlags

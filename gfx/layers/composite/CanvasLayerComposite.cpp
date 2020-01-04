@@ -24,13 +24,6 @@ h
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-#
-include
-"
 gfxUtils
 .
 h
@@ -537,7 +530,10 @@ GetEffectFilter
 (
 )
 {
-GraphicsFilter
+gfx
+:
+:
+Filter
 filter
 =
 mFilter

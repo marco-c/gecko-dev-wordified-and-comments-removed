@@ -751,7 +751,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 const
 Maybe
@@ -1126,7 +1126,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aFlags

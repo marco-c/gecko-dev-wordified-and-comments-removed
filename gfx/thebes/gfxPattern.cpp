@@ -788,7 +788,10 @@ gfxPattern
 :
 SetFilter
 (
-GraphicsFilter
+gfx
+:
+:
+Filter
 filter
 )
 {
@@ -834,7 +837,7 @@ mFilter
 filter
 ;
 }
-GraphicsFilter
+Filter
 gfxPattern
 :
 :
@@ -864,6 +867,9 @@ SURFACE
 )
 {
 return
+gfx
+:
+:
 Filter
 :
 :

@@ -138,13 +138,6 @@ h
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h

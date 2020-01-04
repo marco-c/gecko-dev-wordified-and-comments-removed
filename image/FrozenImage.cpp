@@ -218,7 +218,7 @@ ImageRegion
 &
 aRegion
 uint32_t
-GraphicsFilter
+Filter
 aFilter
 const
 Maybe

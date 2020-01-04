@@ -510,7 +510,10 @@ const
 ImageRegion
 &
 aRegion
-GraphicsFilter
+gfx
+:
+:
+Filter
 aFilter
 uint32_t
 aFlags
@@ -608,7 +611,7 @@ GetFirstFrameRect
 Pair
 <
 DrawResult
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -759,7 +762,7 @@ mFramesNotified
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 SourceBuffer
 >
@@ -864,7 +867,7 @@ RasterImage
 aImage
 )
 ;
-RefPtr
+nsRefPtr
 <
 RasterImage
 >

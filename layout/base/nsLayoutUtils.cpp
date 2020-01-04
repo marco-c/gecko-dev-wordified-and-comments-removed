@@ -29058,7 +29058,7 @@ GetRootFrame
 )
 ;
 }
-GraphicsFilter
+Filter
 nsLayoutUtils
 :
 :
@@ -29069,7 +29069,7 @@ nsIFrame
 aForFrame
 )
 {
-GraphicsFilter
+Filter
 defaultFilter
 =
 Filter
@@ -29637,7 +29637,7 @@ aDirty
 imgIContainer
 *
 aImage
-GraphicsFilter
+Filter
 aGraphicsFilter
 uint32_t
 aImageFlags
@@ -30496,7 +30496,7 @@ aPresContext
 imgIContainer
 *
 aImage
-GraphicsFilter
+Filter
 aGraphicsFilter
 const
 nsRect
@@ -30696,7 +30696,7 @@ aPresContext
 imgIContainer
 *
 aImage
-GraphicsFilter
+Filter
 aGraphicsFilter
 const
 nsPoint
@@ -30880,7 +30880,7 @@ aPresContext
 imgIContainer
 *
 aImage
-GraphicsFilter
+Filter
 aGraphicsFilter
 const
 nsRect
@@ -31436,7 +31436,7 @@ const
 CSSIntSize
 &
 aImageSize
-GraphicsFilter
+Filter
 aGraphicsFilter
 const
 nsRect
@@ -31537,7 +31537,7 @@ aPresContext
 imgIContainer
 *
 aImage
-GraphicsFilter
+Filter
 aGraphicsFilter
 const
 nsRect

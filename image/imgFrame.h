@@ -279,6 +279,13 @@ typedef
 gfx
 :
 :
+Filter
+Filter
+;
+typedef
+gfx
+:
+:
 IntSize
 IntSize
 ;
@@ -381,7 +388,7 @@ aSize
 const
 SurfaceFormat
 aFormat
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aImageFlags
@@ -412,7 +419,7 @@ const
 ImageRegion
 &
 aRegion
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aImageFlags
@@ -779,7 +786,7 @@ uint32_t
 struct
 SurfaceWithFormat
 {
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -1179,7 +1186,7 @@ aOther
 =
 delete
 ;
-RefPtr
+nsRefPtr
 <
 imgFrame
 >
@@ -1458,7 +1465,7 @@ aOther
 =
 delete
 ;
-RefPtr
+nsRefPtr
 <
 imgFrame
 >

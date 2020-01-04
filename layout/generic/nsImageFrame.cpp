@@ -3169,7 +3169,7 @@ imgIContainer
 :
 FLAG_ASYNC_NOTIFY
 ;
-GraphicsFilter
+Filter
 filter
 =
 nsLayoutUtils
@@ -4885,7 +4885,7 @@ mColor
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -7557,7 +7557,7 @@ imgIContainer
 :
 FLAG_NONE
 ;
-RefPtr
+nsRefPtr
 <
 ImageContainer
 >
@@ -7582,7 +7582,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ImageLayer
 >
@@ -9662,7 +9662,7 @@ if
 area
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -10220,7 +10220,7 @@ realURI
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgLoader
 >
