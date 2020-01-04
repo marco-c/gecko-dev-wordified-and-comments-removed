@@ -141,6 +141,8 @@ MOZ_WINCONSOLE
 0
 endif
 endif
+ifdef
+COMPILE_ENVIRONMENT
 libs
 :
 :
@@ -307,9 +309,9 @@ xpcshell
 (
 NSINSTALL
 )
-(
-PROGRAM
-)
+updater
+-
+xpcshell
 (
 XPCSHELLTESTROOT
 )
@@ -325,12 +327,6 @@ app
 Contents
 /
 MacOS
-rm
--
-f
-(
-PROGRAM
-)
 rm
 -
 Rf
@@ -453,3 +449,6 @@ updater
 BIN_SUFFIX
 )
 endif
+endif
+#
+COMPILE_ENVIRONMENT

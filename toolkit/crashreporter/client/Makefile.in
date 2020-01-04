@@ -252,16 +252,6 @@ app
 Contents
 /
 MacOS
-rm
--
-f
-(
-DIST
-)
-/
-bin
-/
-crashreporter
 endif
 ifeq
 (
