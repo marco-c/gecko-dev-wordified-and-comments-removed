@@ -820,12 +820,6 @@ RestyleManager
 aRestyleManager
 )
 ;
-~
-AnimationsWithDestroyedFrame
-(
-)
-{
-}
 void
 Put
 (
