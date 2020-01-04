@@ -2044,7 +2044,7 @@ length
 "
 GfxLoggingCrashLength
 uint32_t
-6
+16
 )
 ;
 DECL_GFX_PREF
