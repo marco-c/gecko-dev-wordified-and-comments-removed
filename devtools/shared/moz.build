@@ -389,6 +389,13 @@ path
 js
 '
 '
+plural
+-
+form
+.
+js
+'
+'
 protocol
 .
 js
