@@ -9979,16 +9979,6 @@ resetScrollPosition
 gSubView3
 )
 ;
-_getDOMWindowUtils
-(
-window
-)
-.
-advanceTimeAndRefresh
-(
-0
-)
-;
 runNextTestStep
 (
 )
