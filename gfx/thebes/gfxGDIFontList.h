@@ -1022,7 +1022,7 @@ CopyFontTable
 (
 uint32_t
 aTableTag
-FallibleTArray
+nsTArray
 <
 uint8_t
 >

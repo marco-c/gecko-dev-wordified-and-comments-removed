@@ -57,7 +57,7 @@ const
 nsAString
 &
 aText
-FallibleTArray
+nsTArray
 <
 bool
 >
