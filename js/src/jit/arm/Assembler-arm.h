@@ -874,13 +874,6 @@ r2
 static
 MOZ_CONSTEXPR_VAR
 Register
-AsmJSIonExitRegE3
-=
-r3
-;
-static
-MOZ_CONSTEXPR_VAR
-Register
 AsmJSIonExitRegReturnData
 =
 r2

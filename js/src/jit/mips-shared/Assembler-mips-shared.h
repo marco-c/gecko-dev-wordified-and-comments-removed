@@ -815,13 +815,6 @@ a2
 static
 MOZ_CONSTEXPR_VAR
 Register
-AsmJSIonExitRegE3
-=
-a3
-;
-static
-MOZ_CONSTEXPR_VAR
-Register
 AsmJSIonExitRegD0
 =
 a0

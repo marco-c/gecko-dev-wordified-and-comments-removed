@@ -691,13 +691,6 @@ ebx
 static
 MOZ_CONSTEXPR_VAR
 Register
-AsmJSIonExitRegE3
-=
-edx
-;
-static
-MOZ_CONSTEXPR_VAR
-Register
 AsmJSIonExitRegReturnData
 =
 edx

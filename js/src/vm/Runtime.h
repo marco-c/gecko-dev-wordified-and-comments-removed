@@ -2603,6 +2603,8 @@ which
 ;
 #
 endif
+protected
+:
 js
 :
 :

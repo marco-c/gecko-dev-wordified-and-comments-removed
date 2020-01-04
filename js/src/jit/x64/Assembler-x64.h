@@ -1160,13 +1160,6 @@ rbx
 static
 MOZ_CONSTEXPR_VAR
 Register
-AsmJSIonExitRegE3
-=
-rsi
-;
-static
-MOZ_CONSTEXPR_VAR
-Register
 AsmJSIonExitRegReturnData
 =
 ecx
