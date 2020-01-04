@@ -718,14 +718,6 @@ mId
 bool
 mPassThrough
 ;
-#
-ifdef
-DEBUG
-bool
-mDemiseNotified
-;
-#
-endif
 }
 ;
 }
