@@ -42276,7 +42276,7 @@ soundPlayingIcon
 &
 soundPlayingIcon
 .
-mozMatchesSelector
+matches
 (
 "
 :
@@ -42291,7 +42291,7 @@ overlayIcon
 &
 overlayIcon
 .
-mozMatchesSelector
+matches
 (
 "
 :
