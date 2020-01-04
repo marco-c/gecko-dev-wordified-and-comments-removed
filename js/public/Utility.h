@@ -718,13 +718,14 @@ AutoEnterOOMUnsafeRegion
 (
 )
 {
-MOZ_ASSERT
+if
 (
 OOM_maxAllocations
-=
+!
 =
 UINT32_MAX
 )
+return
 ;
 if
 (
