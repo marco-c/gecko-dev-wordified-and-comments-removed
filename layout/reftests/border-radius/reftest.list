@@ -1648,6 +1648,17 @@ skiaContent
 1
 50
 )
+fuzzy
+-
+if
+(
+gtkWidget
+&
+&
+layersGPUAccelerated
+12
+12
+)
 =
 =
 scrollbar
