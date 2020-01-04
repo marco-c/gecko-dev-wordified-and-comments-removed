@@ -394,6 +394,11 @@ return
 false
 ;
 }
+bool
+ShouldClipPaintingToBorderBox
+(
+)
+;
 void
 ReflowButtonContents
 (
