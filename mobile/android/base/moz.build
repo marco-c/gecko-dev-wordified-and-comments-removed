@@ -980,6 +980,13 @@ java
 '
 util
 /
+NetworkUtils
+.
+java
+'
+'
+util
+/
 NonEvictingLruCache
 .
 java
