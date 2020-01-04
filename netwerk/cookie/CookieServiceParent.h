@@ -28,6 +28,13 @@ nsCookieService
 namespace
 mozilla
 {
+class
+OriginAttributes
+;
+}
+namespace
+mozilla
+{
 namespace
 net
 {
@@ -53,7 +60,7 @@ protected
 :
 MOZ_WARN_UNUSED_RESULT
 bool
-GetAppInfoFromParams
+GetOriginAttributesFromParams
 (
 const
 IPC
@@ -62,12 +69,9 @@ IPC
 SerializedLoadContext
 &
 aLoadContext
-uint32_t
+OriginAttributes
 &
-aAppId
-bool
-&
-aIsInBrowserElement
+aAttrs
 bool
 &
 aIsPrivate
