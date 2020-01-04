@@ -2988,11 +2988,7 @@ emPerLine
 15
 )
 asserts
--
-if
 (
-!
-browserIsRemote
 1
 -
 100
