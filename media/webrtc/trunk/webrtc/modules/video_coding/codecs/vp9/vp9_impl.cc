@@ -730,6 +730,9 @@ total
 =
 0
 ;
+#
+ifdef
+LIBVPX_SVC
 for
 (
 i
@@ -829,6 +832,21 @@ i
 ]
 ;
 }
+#
+else
+rate_ratio
+[
+0
+]
+=
+1
+;
+total
+=
+1
+;
+#
+endif
 for
 (
 i
@@ -2210,6 +2228,9 @@ ss_number_layers
 =
 num_spatial_layers_
 ;
+#
+ifdef
+LIBVPX_SVC
 if
 (
 ExplicitlyConfiguredSpatialLayers
@@ -2217,9 +2238,6 @@ ExplicitlyConfiguredSpatialLayers
 )
 )
 {
-#
-ifdef
-LIBVPX_SVC
 for
 (
 int
@@ -2303,8 +2321,6 @@ layer
 scaling_factor_den
 ;
 }
-#
-endif
 }
 else
 {
@@ -2398,6 +2414,8 @@ scaling_factor_num
 ;
 }
 }
+#
+endif
 if
 (
 !
@@ -2459,6 +2477,9 @@ adaptiveQpMode
 0
 )
 ;
+#
+ifdef
+LIBVPX_SVC
 vpx_codec_control
 (
 encoder_
@@ -2502,6 +2523,8 @@ svc_params
 )
 ;
 }
+#
+endif
 vpx_codec_priv_output_cx_pkt_cb_pair_t
 cbp
 =
@@ -3567,6 +3590,9 @@ gof_idx
 ]
 ;
 }
+#
+ifdef
+LIBVPX_SVC
 if
 (
 vp9_info
@@ -3683,6 +3709,8 @@ gof_
 ;
 }
 }
+#
+endif
 }
 int
 VP9EncoderImpl

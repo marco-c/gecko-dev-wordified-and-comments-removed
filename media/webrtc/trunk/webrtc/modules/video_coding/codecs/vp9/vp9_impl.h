@@ -41,6 +41,9 @@ vp9_frame_buffer_pool
 h
 "
 #
+ifdef
+LIBVPX_SVC
+#
 include
 "
 vpx
@@ -49,6 +52,8 @@ svc_context
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -346,9 +351,14 @@ vpx_image_t
 *
 raw_
 ;
+#
+ifdef
+LIBVPX_SVC
 SvcInternal_t
 svc_internal_
 ;
+#
+endif
 const
 I420VideoFrame
 *
