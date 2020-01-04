@@ -10872,6 +10872,7 @@ define
 (
 )
 ;
+return
 mg_
 .
 initSigTableElems
@@ -10886,9 +10887,6 @@ Move
 elems
 )
 )
-;
-return
-true
 ;
 }
 bool
