@@ -97,7 +97,7 @@ HasDefaultValue
 )
 )
 {
-return
+continue
 ;
 }
 GfxPrefValue
