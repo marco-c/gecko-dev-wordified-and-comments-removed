@@ -156,6 +156,13 @@ disable_default_encoder
 )
 ;
 void
+Stop
+(
+int
+channel_id
+)
+;
+void
 DeleteChannel
 (
 int

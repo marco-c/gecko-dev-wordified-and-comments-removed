@@ -1140,6 +1140,11 @@ StopThreadsAndRemoveSharedMembers
 (
 )
 {
+if
+(
+vcm_protection_callback_
+)
+{
 vcm_
 .
 RegisterProtectionCallback
@@ -1167,6 +1172,7 @@ DeRegisterModule
 vpm_
 )
 ;
+}
 }
 void
 ViEEncoder
