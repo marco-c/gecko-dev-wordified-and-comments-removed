@@ -426,3 +426,14 @@ moz
 dependencies
 .
 patch
+patch
+-
+p3
+<
+fix
+-
+wshadow
+-
+warnings
+.
+patch
