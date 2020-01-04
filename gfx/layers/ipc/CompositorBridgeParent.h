@@ -1097,6 +1097,13 @@ aRegion
 )
 ;
 virtual
+bool
+RecvAllPluginsCaptured
+(
+)
+override
+;
+virtual
 void
 ActorDestroy
 (
