@@ -9877,9 +9877,6 @@ size
 )
 return
 ;
-nsIntRect
-rect
-;
 if
 (
 mBounds

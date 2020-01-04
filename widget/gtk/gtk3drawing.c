@@ -11034,10 +11034,6 @@ case
 MOZ_GTK_TREE_HEADER_CELL
 :
 {
-GtkStyleContext
-*
-style
-;
 ensure_tree_header_cell_widget
 (
 )
