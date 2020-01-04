@@ -1219,6 +1219,16 @@ return
 false
 ;
 }
+static
+bool
+SupportsUnalignedAccesses
+(
+)
+{
+return
+false
+;
+}
 void
 executableCopy
 (
