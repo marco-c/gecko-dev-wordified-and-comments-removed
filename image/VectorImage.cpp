@@ -2561,6 +2561,15 @@ uint32_t
 aFlags
 )
 {
+if
+(
+mError
+)
+{
+return
+nullptr
+;
+}
 SVGSVGElement
 *
 svgElem
