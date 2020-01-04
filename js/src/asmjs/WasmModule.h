@@ -34,12 +34,6 @@ h
 namespace
 js
 {
-class
-ArrayBufferObjectMaybeShared
-;
-class
-WasmInstanceObject
-;
 namespace
 wasm
 {
@@ -645,7 +639,9 @@ FunctionVector
 funcImports
 HandleWasmMemoryObject
 memoryImport
-HandleWasmInstanceObject
+HandleObject
+instanceProto
+MutableHandleWasmInstanceObject
 instanceObj
 )
 const

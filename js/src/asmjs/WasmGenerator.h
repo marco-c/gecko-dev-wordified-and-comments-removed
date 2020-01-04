@@ -658,7 +658,7 @@ const
 ;
 MOZ_MUST_USE
 bool
-declareFuncExport
+addFuncExport
 (
 UniqueChars
 fieldName
