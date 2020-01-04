@@ -331,6 +331,16 @@ gBrowser
 =
 null
 ;
+tab
+.
+linkedBrowser
+.
+frameLoader
+.
+activateRemoteFrame
+(
+)
+;
 }
 }
 ;
