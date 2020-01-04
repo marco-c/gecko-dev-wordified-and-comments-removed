@@ -2044,7 +2044,6 @@ int32_t
 my
 )
 ;
-static
 TimeStamp
 GetMessageTimeStamp
 (

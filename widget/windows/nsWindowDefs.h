@@ -99,6 +99,14 @@ WM_APP
 )
 #
 define
+MOZ_WM_SKEWFIX
+(
+WM_APP
++
+0x0316
+)
+#
+define
 MOZ_WM_ENSUREVISIBLE
 (
 WM_APP
