@@ -1965,6 +1965,11 @@ PromiseDebugging
 webidl
 '
 '
+PropertyIndexedKeyframes
+.
+webidl
+'
+'
 RadioNodeList
 .
 webidl
