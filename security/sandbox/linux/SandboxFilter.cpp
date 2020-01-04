@@ -1969,6 +1969,9 @@ case
 SYS_ACCEPT
 :
 case
+SYS_BIND
+:
+case
 SYS_SETSOCKOPT
 :
 case
