@@ -516,7 +516,7 @@ mEnabled
 =
 aEnabled
 ;
-GetInputStream
+GetOwnedStream
 (
 )
 -
