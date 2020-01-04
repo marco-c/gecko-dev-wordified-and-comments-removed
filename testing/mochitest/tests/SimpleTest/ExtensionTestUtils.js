@@ -124,7 +124,7 @@ checkMessages
 (
 )
 {
-if
+while
 (
 messageQueue
 .
@@ -157,9 +157,13 @@ msg
 ;
 if
 (
+!
 listener
 )
 {
+break
+;
+}
 messageQueue
 .
 shift
@@ -183,7 +187,6 @@ resolve
 args
 )
 ;
-}
 }
 }
 function
