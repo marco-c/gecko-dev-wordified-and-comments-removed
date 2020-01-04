@@ -5622,6 +5622,9 @@ kHTMLMime
 kURLMime
 kURLDataMime
 kUnicodeMime
+kPNGImageMime
+kJPEGImageMime
+kGIFImageMime
 }
 ;
 void
@@ -5907,6 +5910,9 @@ kRTFMime
 kURLMime
 kURLDataMime
 kUnicodeMime
+kPNGImageMime
+kJPEGImageMime
+kGIFImageMime
 }
 ;
 for
