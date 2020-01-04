@@ -45,6 +45,7 @@ of
 Array
 Map
 Set
+RegExp
 Int8Array
 Uint8Array
 Uint8ClampedArray
@@ -78,6 +79,7 @@ of
 Array
 Map
 Set
+RegExp
 TypedArray
 ArrayBuffer
 ]
