@@ -441,6 +441,9 @@ ImageBackendData
 }
 ;
 class
+EGLImageImage
+;
+class
 Image
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -605,6 +608,17 @@ GetTextureClient
 CompositableClient
 *
 aClient
+)
+{
+return
+nullptr
+;
+}
+virtual
+EGLImageImage
+*
+AsEGLImageImage
+(
 )
 {
 return

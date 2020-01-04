@@ -1067,13 +1067,11 @@ EGLImageImage
 *
 typedImage
 =
-static_cast
-<
-EGLImageImage
-*
->
-(
 image
+-
+>
+AsEGLImageImage
+(
 )
 ;
 texture
