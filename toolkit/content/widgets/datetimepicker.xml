@@ -331,6 +331,8 @@ inherits
 =
 "
 context
+disabled
+readonly
 "
 >
 <
@@ -9624,6 +9626,8 @@ inherits
 =
 "
 context
+disabled
+readonly
 "
 >
 <
