@@ -663,6 +663,12 @@ IsEndedOrShutdown
 )
 const
 ;
+bool
+OwnerHasError
+(
+)
+const
+;
 protected
 :
 void
