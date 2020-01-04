@@ -1314,7 +1314,7 @@ mDOMKeyCode
 }
 event
 .
-isChar
+mIsChar
 =
 !
 !

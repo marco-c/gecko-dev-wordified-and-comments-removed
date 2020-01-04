@@ -5421,7 +5421,7 @@ LayoutDeviceIntPoint
 ;
 aKeyEvent
 .
-isChar
+mIsChar
 =
 false
 ;
@@ -6649,7 +6649,7 @@ in
 XP
 aKeyEvent
 .
-isChar
+mIsChar
 =
 (
 aKeyEvent
@@ -14298,7 +14298,7 @@ mWidget
 ;
 keypressEvent
 .
-isChar
+mIsChar
 =
 IsPrintableChar
 (
@@ -14391,7 +14391,7 @@ if
 (
 keypressEvent
 .
-isChar
+mIsChar
 )
 {
 keypressEvent

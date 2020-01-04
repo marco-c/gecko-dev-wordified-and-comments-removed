@@ -2596,7 +2596,7 @@ WriteParam
 aMsg
 aParam
 .
-isChar
+mIsChar
 )
 ;
 WriteParam
@@ -2867,7 +2867,7 @@ aIter
 aResult
 -
 >
-isChar
+mIsChar
 )
 &
 &

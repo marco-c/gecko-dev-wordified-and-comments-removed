@@ -300,7 +300,7 @@ nsIDOMKeyEvent
 :
 DOM_KEY_LOCATION_STANDARD
 )
-isChar
+mIsChar
 (
 false
 )
@@ -417,7 +417,7 @@ nsIDOMKeyEvent
 :
 DOM_KEY_LOCATION_STANDARD
 )
-isChar
+mIsChar
 (
 false
 )
@@ -673,7 +673,7 @@ AlternativeCharCode
 mAlternativeCharCodes
 ;
 bool
-isChar
+mIsChar
 ;
 bool
 mIsRepeat
@@ -1029,11 +1029,11 @@ aEvent
 .
 mAlternativeCharCodes
 ;
-isChar
+mIsChar
 =
 aEvent
 .
-isChar
+mIsChar
 ;
 mIsRepeat
 =
