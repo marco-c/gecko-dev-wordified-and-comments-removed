@@ -13103,6 +13103,10 @@ wantExportHelpers
 (
 false
 )
+isWebExtensionContentScript
+(
+false
+)
 proto
 (
 cx
@@ -13154,6 +13158,9 @@ wantComponents
 ;
 bool
 wantExportHelpers
+;
+bool
+isWebExtensionContentScript
 ;
 JS
 :
@@ -13938,6 +13945,10 @@ skipWriteToGlobalPrototype
 (
 false
 )
+isWebExtensionContentScript
+(
+false
+)
 universalXPConnectEnabled
 (
 false
@@ -14052,6 +14063,9 @@ writeToGlobalPrototype
 ;
 bool
 skipWriteToGlobalPrototype
+;
+bool
+isWebExtensionContentScript
 ;
 bool
 universalXPConnectEnabled
