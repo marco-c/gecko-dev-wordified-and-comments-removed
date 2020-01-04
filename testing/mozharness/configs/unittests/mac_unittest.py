@@ -2433,6 +2433,16 @@ com
 ]
     
 "
+structured_suites
+"
+:
+[
+"
+reftest
+"
+]
+    
+"
 blob_uploader_auth_file
 "
 :
