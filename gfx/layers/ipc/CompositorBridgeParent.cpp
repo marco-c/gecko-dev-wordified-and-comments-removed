@@ -4255,6 +4255,8 @@ uint32_t
 aPaintSequenceNumber
 bool
 aIsRepeatTransaction
+bool
+aHitTestUpdate
 )
 {
 if
@@ -4283,6 +4285,11 @@ resolve
 mCompositionManager
 )
 ;
+if
+(
+aHitTestUpdate
+)
+{
 mApzcTreeManager
 -
 >
@@ -4300,6 +4307,7 @@ aId
 aPaintSequenceNumber
 )
 ;
+}
 mLayerManager
 -
 >
@@ -5442,6 +5450,8 @@ bool
 aIsRepeatTransaction
 int32_t
 aPaintSyncId
+bool
+aHitTestUpdate
 )
 {
 ScheduleRotationOnCompositorThread
@@ -5527,6 +5537,9 @@ mApzcTreeManager
 &
 !
 aIsRepeatTransaction
+&
+&
+aHitTestUpdate
 )
 {
 AutoResolveRefLayers
@@ -8228,6 +8241,8 @@ aPaintSequenceNumber
 bool
 aIsRepeatTransaction
 int32_t
+bool
+aHitTestUpdate
 )
 override
 ;
@@ -10160,6 +10175,8 @@ aPaintSequenceNumber
 bool
 aIsRepeatTransaction
 int32_t
+bool
+aHitTestUpdate
 )
 {
 uint64_t
@@ -10283,6 +10300,7 @@ aIsFirstPaint
 aScheduleComposite
 aPaintSequenceNumber
 aIsRepeatTransaction
+aHitTestUpdate
 )
 ;
 if

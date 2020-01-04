@@ -59,6 +59,8 @@ bool
 aIsRepeatTransaction
 int32_t
 aPaintSyncId
+bool
+aHitTestUpdate
 )
 =
 0
