@@ -681,6 +681,11 @@ ServoRestyleManager
 .
 h
 '
+'
+StaticPresData
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -893,6 +898,11 @@ cpp
 '
 '
 StackArena
+.
+cpp
+'
+'
+StaticPresData
 .
 cpp
 '
