@@ -232,16 +232,6 @@ unrestricted
 double
 iterations
 ;
-/
-/
-Bug
-1244641
--
-implement
-AnimationEffectTiming
-duration
-/
-/
 inherit
 attribute
 (
