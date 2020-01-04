@@ -1297,6 +1297,7 @@ ParseHandler
 >
 class
 Parser
+final
 :
 private
 JS
