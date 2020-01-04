@@ -146,6 +146,15 @@ h
 #
 include
 "
+jit
+/
+InlinableNatives
+.
+h
+"
+#
+include
+"
 js
 /
 Class
@@ -10867,10 +10876,8 @@ arr
 )
 ;
 }
+static
 bool
-js
-:
-:
 array_splice
 (
 JSContext
@@ -14399,10 +14406,8 @@ toObject
 )
 ;
 }
+static
 bool
-js
-:
-:
 array_isArray
 (
 JSContext
@@ -14880,7 +14885,7 @@ array_sort
 1
 JSFUN_GENERIC_NATIVE
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 push
@@ -14888,8 +14893,9 @@ push
 array_push
 1
 JSFUN_GENERIC_NATIVE
+ArrayPush
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 pop
@@ -14897,8 +14903,9 @@ pop
 array_pop
 0
 JSFUN_GENERIC_NATIVE
+ArrayPop
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 shift
@@ -14906,6 +14913,7 @@ shift
 array_shift
 0
 JSFUN_GENERIC_NATIVE
+ArrayShift
 )
 JS_FN
 (
@@ -14916,7 +14924,7 @@ array_unshift
 1
 JSFUN_GENERIC_NATIVE
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 splice
@@ -14924,8 +14932,9 @@ splice
 array_splice
 2
 JSFUN_GENERIC_NATIVE
+ArraySplice
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 concat
@@ -14933,8 +14942,9 @@ concat
 array_concat
 1
 JSFUN_GENERIC_NATIVE
+ArrayConcat
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 slice
@@ -14942,6 +14952,7 @@ slice
 array_slice
 2
 JSFUN_GENERIC_NATIVE
+ArraySlice
 )
 JS_SELF_HOSTED_FN
 (
@@ -15139,7 +15150,7 @@ array_static_methods
 ]
 =
 {
-JS_FN
+JS_INLINABLE_FN
 (
 "
 isArray
@@ -15147,6 +15158,7 @@ isArray
 array_isArray
 1
 0
+ArrayIsArray
 )
 JS_SELF_HOSTED_FN
 (
