@@ -1468,7 +1468,7 @@ ePointerLockEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_POINTERLOCKERROR
+ePointerLockError
 ePointerLockEventFirst
 +
 1
