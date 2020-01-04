@@ -134,7 +134,7 @@ if
 (
 encoder
 .
-bytecodeOffset
+currentOffset
 (
 )
 !
