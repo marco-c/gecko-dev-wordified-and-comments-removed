@@ -7249,9 +7249,9 @@ self
 .
 using_context
 (
-"
+'
 content
-"
+'
 )
 :
             
@@ -7263,80 +7263,23 @@ execute_async_script
 "
 "
                 
-let
-start
-=
-new
-Date
+waitFor
 (
-)
-;
-                
-let
-end
-=
-new
-Date
-(
-start
-.
-valueOf
-(
-)
-+
-5000
-)
-;
-                
-let
-wait
-=
+marionetteScriptFinished
 function
 (
 )
 {
                   
-let
-now
-=
-new
-Date
-(
-)
-;
-                  
-if
-(
+return
 window
 .
 wrappedJSObject
 .
 permChanged
-|
-|
-end
->
-=
-now
-)
-{
-                    
-marionetteScriptFinished
-(
-)
-;
-                  
-}
-                
-}
 ;
                 
-window
-.
-setTimeout
-(
-wait
-100
+}
 )
 ;
                 
@@ -7345,9 +7288,9 @@ wait
 "
 sandbox
 =
-"
+'
 system
-"
+'
 )
     
 contextmanager
@@ -13768,9 +13711,7 @@ self
 msg
 level
 =
-"
-INFO
-"
+None
 )
 :
         
@@ -13825,8 +13766,10 @@ DEBUG
 "
 )
 .
+If
+None
             
-Defaults
+defaults
 to
 "
 INFO

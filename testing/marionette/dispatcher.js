@@ -225,9 +225,7 @@ this
 emulator
 =
 new
-emulator
-.
-EmulatorService
+Emulator
 (
 this
 .
