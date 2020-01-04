@@ -757,6 +757,15 @@ getStateManager
 (
 )
 )
+mWorkarounds
+(
+renderer
+-
+>
+getWorkarounds
+(
+)
+)
 mDisplayLink
 (
 nullptr
@@ -1814,6 +1823,7 @@ FramebufferGL
 mFramebuffer
 data
 mFunctions
+mWorkarounds
 mStateManager
 )
 ;

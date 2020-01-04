@@ -268,6 +268,9 @@ bool
 mFragDataAdded
 ;
 bool
+mFragDepthEXTAdded
+;
+bool
 mFragDepthAdded
 ;
 bool

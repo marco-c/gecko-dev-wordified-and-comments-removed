@@ -191,6 +191,15 @@ getStateManager
 (
 )
 )
+mWorkarounds
+(
+renderer
+-
+>
+getWorkarounds
+(
+)
+)
 mFramebuffer
 (
 0
@@ -666,6 +675,7 @@ FramebufferGL
 mFramebuffer
 data
 mFunctions
+mWorkarounds
 mStateManager
 )
 ;

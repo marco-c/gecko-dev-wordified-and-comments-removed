@@ -1,12 +1,4 @@
 #
-pragma
-warning
-(
-disable
-:
-4718
-)
-#
 include
 "
 compiler

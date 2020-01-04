@@ -172,6 +172,8 @@ readInt
 {
 int
 value
+=
+0
 ;
 read
 (
@@ -220,6 +222,8 @@ readBool
 {
 int
 value
+=
+0
 ;
 read
 (

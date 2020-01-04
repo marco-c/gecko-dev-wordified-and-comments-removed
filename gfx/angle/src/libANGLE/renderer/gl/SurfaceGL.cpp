@@ -104,6 +104,12 @@ mRenderer
 getStateManager
 (
 )
+mRenderer
+-
+>
+getWorkarounds
+(
+)
 true
 )
 ;

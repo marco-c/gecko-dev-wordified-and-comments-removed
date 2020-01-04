@@ -281,12 +281,12 @@ setUserDefined
 copyNode
 -
 >
-setName
+setNameObj
 (
 node
 -
 >
-getName
+getNameObj
 (
 )
 )

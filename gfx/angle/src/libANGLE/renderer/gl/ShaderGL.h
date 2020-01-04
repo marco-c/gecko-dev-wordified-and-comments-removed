@@ -21,6 +21,9 @@ rx
 class
 FunctionsGL
 ;
+struct
+WorkaroundsGL
+;
 class
 ShaderGL
 :
@@ -45,6 +48,10 @@ const
 FunctionsGL
 *
 functions
+const
+WorkaroundsGL
+&
+workarounds
 )
 ;
 ~
@@ -105,6 +112,11 @@ const
 FunctionsGL
 *
 mFunctions
+;
+const
+WorkaroundsGL
+&
+mWorkarounds
 ;
 GLuint
 mShaderID

@@ -536,6 +536,13 @@ FramebufferAttachmentObject
 {
 }
 virtual
+~
+FramebufferAttachmentObject
+(
+)
+{
+}
+virtual
 GLsizei
 getAttachmentWidth
 (

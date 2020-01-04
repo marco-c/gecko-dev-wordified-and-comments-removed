@@ -436,7 +436,7 @@ Error
 Framebuffer9
 :
 :
-readPixels
+readPixelsImpl
 (
 const
 gl

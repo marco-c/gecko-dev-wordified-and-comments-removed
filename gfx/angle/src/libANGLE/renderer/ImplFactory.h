@@ -68,6 +68,9 @@ class
 RenderbufferImpl
 ;
 class
+SamplerImpl
+;
+class
 ShaderImpl
 ;
 class
@@ -248,6 +251,15 @@ virtual
 TransformFeedbackImpl
 *
 createTransformFeedback
+(
+)
+=
+0
+;
+virtual
+SamplerImpl
+*
+createSampler
 (
 )
 =

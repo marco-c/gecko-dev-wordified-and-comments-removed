@@ -1865,6 +1865,7 @@ samplerObject
 new
 Sampler
 (
+mFactory
 sampler
 )
 ;

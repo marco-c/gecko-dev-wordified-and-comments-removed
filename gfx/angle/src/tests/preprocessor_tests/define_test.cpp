@@ -350,7 +350,7 @@ expected
 n
 "
 "
-__foo
+bar
 \
 n
 "
@@ -366,7 +366,7 @@ pp
 Diagnostics
 :
 :
-PP_MACRO_NAME_RESERVED
+PP_WARNING_MACRO_NAME_RESERVED
 pp
 :
 :
@@ -423,7 +423,7 @@ expected
 n
 "
 "
-foo__bar
+baz
 \
 n
 "
@@ -439,7 +439,7 @@ pp
 Diagnostics
 :
 :
-PP_MACRO_NAME_RESERVED
+PP_WARNING_MACRO_NAME_RESERVED
 pp
 :
 :

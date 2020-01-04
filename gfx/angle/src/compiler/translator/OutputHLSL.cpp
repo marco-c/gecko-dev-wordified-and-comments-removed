@@ -8830,6 +8830,14 @@ name
 "
 gl_FragDepthEXT
 "
+|
+|
+name
+=
+=
+"
+gl_FragDepth
+"
 )
 {
 mUsesFragDepth

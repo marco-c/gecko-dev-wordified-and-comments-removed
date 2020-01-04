@@ -207,6 +207,17 @@ return
 nullptr
 ;
 }
+SamplerImpl
+*
+createSampler
+(
+)
+override
+{
+return
+nullptr
+;
+}
 }
 ;
 }

@@ -305,6 +305,12 @@ texture2DProjLod
 textureProjLod
 "
 "
+texture2DRect
+"
+"
+texture
+"
+"
 textureCube
 "
 "

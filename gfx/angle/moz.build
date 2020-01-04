@@ -743,6 +743,17 @@ compiler
 /
 translator
 /
+RewriteDoWhile
+.
+cpp
+'
+'
+src
+/
+compiler
+/
+translator
+/
 RewriteElseBlocks
 .
 cpp

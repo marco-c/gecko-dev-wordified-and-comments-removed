@@ -421,13 +421,13 @@ h
 ;
     
 return
-*
-(
+bitCast
+<
 float
-*
-)
-&
+>
+(
 i32
+)
 ;
 }
 }

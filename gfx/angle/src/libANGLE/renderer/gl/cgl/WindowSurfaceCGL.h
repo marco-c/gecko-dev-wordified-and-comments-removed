@@ -43,6 +43,9 @@ FunctionsGL
 class
 StateManagerGL
 ;
+struct
+WorkaroundsGL
+;
 class
 DisplayLink
 ;
@@ -259,6 +262,11 @@ mFunctions
 StateManagerGL
 *
 mStateManager
+;
+const
+WorkaroundsGL
+&
+mWorkarounds
 ;
 DisplayLink
 *
