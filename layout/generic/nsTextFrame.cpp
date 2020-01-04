@@ -1766,6 +1766,7 @@ nsTextFrame
 *
 GetFrameForSimpleFlow
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -4494,6 +4495,7 @@ aFrame
 bool
 IsTextRunValidForMappedFlows
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -7050,6 +7052,7 @@ BuildTextRunsScanner
 :
 IsTextRunValidForMappedFlows
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -7929,6 +7932,7 @@ static
 gfxFloat
 GetSpaceWidthAppUnits
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -8055,6 +8059,7 @@ WordSpacing
 nsIFrame
 *
 aFrame
+const
 gfxTextRun
 *
 aTextRun
@@ -9220,6 +9225,7 @@ gfxTextRun
 >
 GetHyphenTextRun
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -16090,6 +16096,7 @@ static
 void
 FindClusterStart
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -16154,6 +16161,7 @@ static
 void
 FindClusterEnd
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -16715,6 +16723,7 @@ static
 bool
 CanAddSpacingAfter
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -17233,6 +17242,7 @@ ComputeTabWidthAppUnits
 nsIFrame
 *
 aFrame
+const
 gfxTextRun
 *
 aTextRun
@@ -17271,6 +17281,7 @@ aX
 nsIFrame
 *
 aFrame
+const
 gfxTextRun
 *
 aTextRun
@@ -29845,6 +29856,7 @@ AddHyphenToMetrics
 nsTextFrame
 *
 aTextFrame
+const
 gfxTextRun
 *
 aBaseTextRun
@@ -32964,6 +32976,7 @@ static
 uint32_t
 GetClusterLength
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -34599,6 +34612,7 @@ static
 void
 DrawTextRun
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -36033,6 +36047,7 @@ static
 uint32_t
 CountCharsFit
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -38939,6 +38954,7 @@ gfxSkipCharsIterator
 aIter
 bool
 aRespectClusters
+const
 gfxTextRun
 *
 aTextRun
@@ -39701,6 +39717,7 @@ mDirection
 return
 false
 ;
+const
 gfxTextRun
 *
 textRun
@@ -40683,6 +40700,7 @@ const
 nsTextFragment
 *
 aFrag
+const
 gfxTextRun
 *
 aTextRun
@@ -40778,6 +40796,7 @@ const
 nsTextFragment
 *
 aFrag
+const
 gfxTextRun
 *
 aTextRun
@@ -42259,6 +42278,7 @@ nsTextFrame
 *
 f
 ;
+const
 gfxTextRun
 *
 lastTextRun
@@ -43042,6 +43062,7 @@ nsTextFrame
 *
 f
 ;
+const
 gfxTextRun
 *
 lastTextRun
@@ -43642,6 +43663,7 @@ const
 nsTextFragment
 *
 aFrag
+const
 gfxTextRun
 *
 aTextRun
@@ -48222,6 +48244,7 @@ const
 nsStyleText
 *
 aStyle
+const
 gfxTextRun
 *
 aTextRun
