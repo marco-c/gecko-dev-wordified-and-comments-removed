@@ -529,13 +529,6 @@ AssertMainThread
 (
 )
 ;
-#
-if
-!
-defined
-(
-MOZ_WIDGET_GONK
-)
 if
 (
 !
@@ -574,8 +567,6 @@ vibrate
 return
 ;
 }
-#
-endif
 if
 (
 !
