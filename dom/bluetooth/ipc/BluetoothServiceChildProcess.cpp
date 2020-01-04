@@ -989,7 +989,7 @@ BluetoothServiceChildProcess
 SendFile
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BlobParent
@@ -1008,7 +1008,10 @@ SendRequest
 aRunnable
 SendFileRequest
 (
+nsString
+(
 aDeviceAddress
+)
 nullptr
 aBlobChild
 )
@@ -1022,7 +1025,7 @@ BluetoothServiceChildProcess
 SendFile
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 Blob
@@ -1053,7 +1056,7 @@ BluetoothServiceChildProcess
 StopSendingFile
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothReplyRunnable
@@ -1066,7 +1069,10 @@ SendRequest
 aRunnable
 StopSendingFileRequest
 (
+nsString
+(
 aDeviceAddress
+)
 )
 )
 ;
@@ -1078,7 +1084,7 @@ BluetoothServiceChildProcess
 ConfirmReceivingFile
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 bool
@@ -1098,7 +1104,10 @@ SendRequest
 aRunnable
 ConfirmReceivingFileRequest
 (
+nsString
+(
 aDeviceAddress
+)
 )
 )
 ;
@@ -1110,7 +1119,10 @@ SendRequest
 aRunnable
 DenyReceivingFileRequest
 (
+nsString
+(
 aDeviceAddress
+)
 )
 )
 ;
