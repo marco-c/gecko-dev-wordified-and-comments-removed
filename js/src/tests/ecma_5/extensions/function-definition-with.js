@@ -68,6 +68,7 @@ with
 (
 obj
 )
+{
 function
 inFile1
 (
@@ -83,6 +84,7 @@ with
 ;
 }
 ;
+}
 assertEq
 (
 inFile1
@@ -171,6 +173,7 @@ with
 (
 obj
 )
+{
 function
 notInFile1
 (
@@ -187,6 +190,7 @@ with
 ;
 }
 ;
+}
 assertEq
 (
 notInFile1
@@ -270,6 +274,7 @@ with
 (
 obj
 )
+{
 function
 inFile2
 (
@@ -284,6 +289,7 @@ file
 ;
 }
 ;
+}
 assertEq
 (
 inFile2
