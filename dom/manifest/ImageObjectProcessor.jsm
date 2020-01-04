@@ -354,7 +354,7 @@ value
 =
 netutil
 .
-parseContentType
+parseRequestContentType
 (
 value
 charset

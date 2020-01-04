@@ -52358,7 +52358,7 @@ nsAutoCString
 type
 dummy
 ;
-NS_ParseContentType
+NS_ParseRequestContentType
 (
 utf8Hint
 type
