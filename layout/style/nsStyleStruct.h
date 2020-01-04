@@ -5301,6 +5301,16 @@ nsStyleBackground
 Position
 Position
 ;
+uint8_t
+ComputedAlignItems
+(
+const
+nsStyleDisplay
+*
+aDisplay
+)
+const
+;
 uint16_t
 ComputedJustifyContent
 (
@@ -5386,9 +5396,6 @@ uint8_t
 mAlignContent
 ;
 uint8_t
-mAlignItems
-;
-uint8_t
 mAlignSelf
 ;
 private
@@ -5413,6 +5420,9 @@ nsStyleDisplay
 aDisplay
 )
 const
+;
+uint8_t
+mAlignItems
 ;
 uint16_t
 mJustifyContent

@@ -5461,7 +5461,8 @@ mAlignSelf
 NS_STYLE_ALIGN_SELF_AUTO
 )
 {
-mAlignSelf
+auto
+parent
 =
 mFrame
 -
@@ -5474,6 +5475,10 @@ StyleContext
 GetParent
 (
 )
+;
+mAlignSelf
+=
+parent
 -
 >
 StylePosition
@@ -5481,7 +5486,15 @@ StylePosition
 )
 -
 >
-mAlignItems
+ComputedAlignItems
+(
+parent
+-
+>
+StyleDisplay
+(
+)
+)
 ;
 }
 if

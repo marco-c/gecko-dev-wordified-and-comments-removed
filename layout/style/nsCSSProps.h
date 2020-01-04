@@ -2786,13 +2786,6 @@ kAlignContentKTable
 static
 const
 KTableValue
-kAlignItemsKTable
-[
-]
-;
-static
-const
-KTableValue
 kAlignSelfKTable
 [
 ]
