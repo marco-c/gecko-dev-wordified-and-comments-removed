@@ -400,7 +400,7 @@ aIsSync
 override
 ;
 virtual
-bool
+nsresult
 DoSendAsyncMessage
 (
 JSContext

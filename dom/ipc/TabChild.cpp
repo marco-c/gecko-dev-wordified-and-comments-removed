@@ -12692,7 +12692,7 @@ aRetVal
 )
 ;
 }
-bool
+nsresult
 TabChild
 :
 :
@@ -12739,7 +12739,7 @@ data
 )
 {
 return
-false
+NS_ERROR_DOM_DATA_CLONE_ERR
 ;
 }
 InfallibleTArray
@@ -12774,10 +12774,12 @@ cpows
 )
 {
 return
-false
+NS_ERROR_UNEXPECTED
 ;
 }
-return
+if
+(
+!
 SendAsyncMessage
 (
 PromiseFlatString
@@ -12791,6 +12793,14 @@ Principal
 aPrincipal
 )
 )
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
+return
+NS_OK
 ;
 }
 TabChild
