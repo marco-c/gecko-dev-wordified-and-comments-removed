@@ -1277,7 +1277,7 @@ aDirection
 ;
 geckoEvent
 .
-delta
+mDelta
 =
 aDelta
 ;

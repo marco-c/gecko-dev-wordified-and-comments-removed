@@ -263,7 +263,7 @@ mClickCount
 (
 0
 )
-delta
+mDelta
 (
 0
 .
@@ -310,11 +310,11 @@ mClickCount
 (
 0
 )
-delta
+mDelta
 (
 aOther
 .
-delta
+mDelta
 )
 {
 }
@@ -389,7 +389,7 @@ uint32_t
 mClickCount
 ;
 double
-delta
+mDelta
 ;
 void
 AssignSimpleGestureEventData
@@ -414,11 +414,11 @@ aEvent
 .
 mDirection
 ;
-delta
+mDelta
 =
 aEvent
 .
-delta
+mDelta
 ;
 mClickCount
 =

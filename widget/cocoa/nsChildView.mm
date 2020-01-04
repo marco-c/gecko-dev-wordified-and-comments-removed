@@ -14535,7 +14535,7 @@ direction
 ;
 geckoEvent
 .
-delta
+mDelta
 =
 0
 .
@@ -24625,7 +24625,7 @@ mGeckoChild
 ;
 geckoEvent
 .
-delta
+mDelta
 =
 deltaZ
 ;
@@ -24880,7 +24880,7 @@ geckoEvent
 ;
 geckoEvent
 .
-delta
+mDelta
 =
 -
 rotation
@@ -25044,7 +25044,7 @@ mGeckoChild
 ;
 geckoEvent
 .
-delta
+mDelta
 =
 mCumulativeMagnification
 ;
@@ -25110,7 +25110,7 @@ geckoEvent
 ;
 geckoEvent
 .
-delta
+mDelta
 =
 -
 mCumulativeRotation

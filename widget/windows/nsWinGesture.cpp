@@ -1534,7 +1534,7 @@ eMagnifyGestureStart
 ;
 evt
 .
-delta
+mDelta
 =
 0
 .
@@ -1559,7 +1559,7 @@ eMagnifyGesture
 ;
 evt
 .
-delta
+mDelta
 =
 -
 1
@@ -1597,7 +1597,7 @@ eMagnifyGestureUpdate
 ;
 evt
 .
-delta
+mDelta
 =
 -
 1
@@ -1697,7 +1697,7 @@ mDirection
 ;
 evt
 .
-delta
+mDelta
 =
 degrees
 -
@@ -1711,7 +1711,7 @@ if
 (
 evt
 .
-delta
+mDelta
 >
 0
 )
@@ -1729,7 +1729,7 @@ if
 (
 evt
 .
-delta
+mDelta
 <
 0
 )
