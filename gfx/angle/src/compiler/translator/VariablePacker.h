@@ -25,11 +25,6 @@ VariablePacker
 {
 public
 :
-template
-<
-typename
-VarT
->
 bool
 CheckVariablesWithinPackingLimits
 (
@@ -42,7 +37,10 @@ std
 :
 vector
 <
-VarT
+sh
+:
+:
+ShaderVariable
 >
 &
 in_variables

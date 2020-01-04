@@ -170,7 +170,7 @@ getDepthStencilRenderTarget
 0
 ;
 GLenum
-GetRenderTargetInternalFormat
+getRenderTargetInternalFormat
 (
 )
 const
@@ -180,7 +180,7 @@ mOffscreenRenderTargetFormat
 ;
 }
 GLenum
-GetDepthBufferInternalFormat
+getDepthBufferInternalFormat
 (
 )
 const

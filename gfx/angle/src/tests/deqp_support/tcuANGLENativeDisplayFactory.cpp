@@ -103,6 +103,14 @@ DE_OS
 =
 DE_OS_UNIX
 )
+|
+|
+(
+DE_OS
+=
+=
+DE_OS_ANDROID
+)
 #
 define
 ANGLE_EGL_LIBRARY_NAME

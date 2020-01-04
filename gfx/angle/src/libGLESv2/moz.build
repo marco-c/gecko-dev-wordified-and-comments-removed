@@ -77,6 +77,11 @@ entry_points_gles_3_0
 cpp
 '
 '
+entry_points_gles_3_1
+.
+cpp
+'
+'
 global_state
 .
 cpp
