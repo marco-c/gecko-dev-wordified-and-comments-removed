@@ -1676,12 +1676,6 @@ Create
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-principal
-NS_ERROR_FAILURE
-)
-;
 nsCOMPtr
 <
 nsIDOMDocument

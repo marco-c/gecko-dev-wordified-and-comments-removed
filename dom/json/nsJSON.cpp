@@ -1901,12 +1901,6 @@ Create
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-nullPrincipal
-NS_ERROR_FAILURE
-)
-;
 rv
 =
 NS_NewInputStreamChannel

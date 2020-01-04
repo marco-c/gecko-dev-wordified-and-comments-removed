@@ -887,12 +887,6 @@ Create
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-mPrincipal
-NS_ERROR_FAILURE
-)
-;
 if
 (
 aDocument

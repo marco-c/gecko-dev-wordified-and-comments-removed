@@ -533,12 +533,6 @@ Create
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-nullPrincipal
-NS_ERROR_FAILURE
-)
-;
 return
 NS_NewInputStreamChannel
 (

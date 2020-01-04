@@ -5195,12 +5195,6 @@ Create
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-nullPrin
-NS_ERROR_FAILURE
-)
-;
 principal
 =
 nullPrin
