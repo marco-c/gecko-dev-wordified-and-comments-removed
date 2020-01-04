@@ -216,6 +216,10 @@ IMPL_STRONG_REF_TYPE_FOR
 (
 RawServoStyleSheet
 )
+IMPL_STRONG_REF_TYPE_FOR
+(
+ServoDeclarationBlock
+)
 #
 undef
 IMPL_STRONG_REF_TYPE_FOR

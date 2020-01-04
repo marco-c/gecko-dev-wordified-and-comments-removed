@@ -233,6 +233,10 @@ DECL_REF_TYPE_FOR
 (
 RawServoStyleSheet
 )
+DECL_REF_TYPE_FOR
+(
+ServoDeclarationBlock
+)
 #
 undef
 DECL_REF_TYPE_FOR
@@ -895,8 +899,7 @@ ServoElementSnapshot
 #
 undef
 SERVO_DECLARE_ELEMENT_ATTR_MATCHING_FUNCTIONS
-ServoDeclarationBlock
-*
+ServoDeclarationBlockBorrowed
 Gecko_GetServoDeclarationBlock
 (
 RawGeckoElement
