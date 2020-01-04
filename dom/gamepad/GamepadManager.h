@@ -263,10 +263,12 @@ mNonstandardEventsEnabled
 bool
 mShuttingDown
 ;
+nsTArray
+<
 GamepadEventChannelChild
-MOZ_NON_OWNING_REF
 *
-mChild
+>
+mChannelChildren
 ;
 private
 :
