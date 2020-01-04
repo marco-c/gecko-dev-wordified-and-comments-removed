@@ -5135,7 +5135,7 @@ aSource
 mType
 =
 =
-NS_STYLE_CLIP_PATH_SHAPE
+NS_STYLE_CLIP_PATH_BOX
 )
 {
 SetSizingBox
