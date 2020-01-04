@@ -113,6 +113,10 @@ aU16FullName
 uint32_t
 *
 aIndex
+size_t
+aTruncatedLen
+=
+0
 )
 ;
 private
