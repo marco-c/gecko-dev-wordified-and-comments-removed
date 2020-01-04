@@ -478,7 +478,12 @@ self
 .
 topsrcdir
 =
+mozpath
+.
+normsep
+(
 topsrcdir
+)
         
 self
 .
@@ -508,6 +513,15 @@ self
 .
 _topobjdir
 =
+mozpath
+.
+normsep
+(
+topobjdir
+)
+if
+topobjdir
+else
 topobjdir
         
 self
@@ -1089,6 +1103,15 @@ topobjdir
 _config_topobjdir
 )
         
+topsrcdir
+=
+mozpath
+.
+normsep
+(
+topsrcdir
+)
+        
 topobjdir
 =
 topobjdir
@@ -1101,6 +1124,10 @@ topobjdir
             
 topobjdir
 =
+mozpath
+.
+normsep
+(
 os
 .
 path
@@ -1108,6 +1135,7 @@ path
 normpath
 (
 topobjdir
+)
 )
             
 if
@@ -1258,6 +1286,10 @@ topobjdir
 )
         
 return
+mozpath
+.
+normsep
+(
 os
 .
 path
@@ -1265,6 +1297,7 @@ path
 normpath
 (
 topobjdir
+)
 )
     
 property

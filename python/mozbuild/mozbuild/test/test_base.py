@@ -62,6 +62,12 @@ buildconfig
 import
 topsrcdir
 topobjdir
+import
+mozpack
+.
+path
+as
+mozpath
 curdir
 =
 os
@@ -299,6 +305,8 @@ topobjdir
 .
 startswith
 (
+base
+.
 topsrcdir
 )
 )
@@ -383,9 +391,7 @@ assertEqual
 base
 .
 topobjdir
-os
-.
-path
+mozpath
 .
 join
 (
@@ -744,7 +750,12 @@ assertEqual
 obj
 .
 topobjdir
+mozpath
+.
+normsep
+(
 topobjdir
+)
 )
         
 finally
@@ -847,9 +858,7 @@ objdir
             
 topobjdir
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1466,7 +1475,12 @@ assertEqual
 o
 .
 topobjdir
+mozpath
+.
+normsep
+(
 topobjdir
+)
 )
             
 self
@@ -1476,7 +1490,12 @@ assertEqual
 o
 .
 topsrcdir
+mozpath
+.
+normsep
+(
 topsrcdir
+)
 )
         
 finally
