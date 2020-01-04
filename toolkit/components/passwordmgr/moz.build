@@ -414,11 +414,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-LoginDoorhangers
-.
-jsm
-'
-'
 LoginManagerContextMenu
 .
 jsm
