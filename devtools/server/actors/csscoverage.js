@@ -7,7 +7,6 @@ const
 {
 Cc
 Ci
-Cu
 }
 =
 require
@@ -76,13 +75,6 @@ shared
 protocol
 "
 )
-;
-const
-{
-custom
-}
-=
-protocol
 ;
 const
 {

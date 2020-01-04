@@ -790,6 +790,16 @@ actors
 string
 .
 js
+!
+devtools
+/
+server
+/
+actors
+/
+csscoverage
+.
+js
 devtools
 /
 shared
