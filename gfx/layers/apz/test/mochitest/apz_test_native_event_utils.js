@@ -1005,8 +1005,13 @@ return
 true
 ;
 }
+const
+TOUCH_SLOP
+=
+1
+;
 function
-synthesizeNativeDrag
+synthesizeNativeTouchDrag
 (
 aElement
 aX
