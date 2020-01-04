@@ -710,7 +710,7 @@ Mode
 (
 mode
 &
-MODE_MASK
+MODE_BITS_MASK
 )
 )
 ;
@@ -890,16 +890,6 @@ case
 PAYLOAD_PACKED_TAG
 :
 {
-if
-(
-!
-writer
-.
-oom
-(
-)
-)
-{
 MOZ_ASSERT
 (
 writer
@@ -965,7 +955,6 @@ p
 .
 type
 ;
-}
 break
 ;
 }
