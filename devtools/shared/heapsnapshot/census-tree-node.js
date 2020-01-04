@@ -31,7 +31,7 @@ js
 )
 ;
 let
-INC
+censusTreeNodeIdCounter
 =
 0
 ;
@@ -1257,7 +1257,7 @@ id
 =
 +
 +
-INC
+censusTreeNodeIdCounter
 ;
 this
 .
@@ -2134,6 +2134,10 @@ null
 }
 )
 {
+censusTreeNodeIdCounter
+=
+0
+;
 const
 visitor
 =
