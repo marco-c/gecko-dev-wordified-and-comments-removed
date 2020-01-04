@@ -39,6 +39,11 @@ Math
 LOG10E
 )
 ;
+var
+sloppy_tolerance
+=
+2
+;
 for
 (
 var
@@ -70,6 +75,7 @@ i
 )
 )
 i
+sloppy_tolerance
 )
 ;
 reportCompare
