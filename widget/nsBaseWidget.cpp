@@ -2744,7 +2744,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsBaseWidget
 :
 :
@@ -2783,9 +2783,6 @@ nsSizeMode_Fullscreen
 mSizeMode
 =
 aMode
-;
-return
-NS_OK
 ;
 }
 nsCursor

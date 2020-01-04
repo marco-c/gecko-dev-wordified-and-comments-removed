@@ -3698,7 +3698,6 @@ cursor
 )
 ;
 [
-Throws
 Func
 =
 "
@@ -3715,7 +3714,6 @@ maximize
 )
 ;
 [
-Throws
 Func
 =
 "
@@ -3732,7 +3730,6 @@ minimize
 )
 ;
 [
-Throws
 Func
 =
 "

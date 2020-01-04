@@ -1665,7 +1665,8 @@ aActivate
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 SetSizeMode
 (
 nsSizeMode

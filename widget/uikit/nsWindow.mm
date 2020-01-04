@@ -4366,7 +4366,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -4391,7 +4391,6 @@ mSizeMode
 )
 {
 return
-NS_OK
 ;
 }
 mSizeMode
@@ -4437,9 +4436,6 @@ ReportSizeModeEvent
 (
 aMode
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

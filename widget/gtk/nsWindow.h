@@ -591,7 +591,8 @@ aZIndex
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetSizeMode
 (
 nsSizeMode

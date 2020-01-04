@@ -7340,7 +7340,7 @@ pl
 showCmd
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -7350,9 +7350,6 @@ nsSizeMode
 aMode
 )
 {
-nsresult
-rv
-;
 if
 (
 aMode
@@ -7361,14 +7358,11 @@ aMode
 mSizeMode
 )
 return
-NS_OK
 ;
 mLastSizeMode
 =
 mSizeMode
 ;
-rv
-=
 nsBaseWidget
 :
 :
@@ -7379,12 +7373,6 @@ aMode
 ;
 if
 (
-NS_SUCCEEDED
-(
-rv
-)
-&
-&
 mIsVisible
 )
 {
@@ -7482,9 +7470,6 @@ true
 )
 ;
 }
-return
-rv
-;
 }
 NS_IMETHODIMP
 nsWindow

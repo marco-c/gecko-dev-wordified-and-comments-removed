@@ -5350,7 +5350,7 @@ mGdkWindow
 }
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -5360,9 +5360,6 @@ nsSizeMode
 aMode
 )
 {
-nsresult
-rv
-;
 LOG
 (
 (
@@ -5389,8 +5386,6 @@ aMode
 )
 )
 ;
-rv
-=
 nsBaseWidget
 :
 :
@@ -5412,7 +5407,6 @@ mSizeMode
 )
 {
 return
-rv
 ;
 }
 switch
@@ -5495,9 +5489,6 @@ break
 mSizeState
 =
 mSizeMode
-;
-return
-rv
 ;
 }
 typedef
