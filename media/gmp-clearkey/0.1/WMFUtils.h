@@ -227,6 +227,9 @@ aPtr
 CComPtr
 (
 const
+std
+:
+:
 nullptr_t
 &
 aNullPtr
@@ -298,6 +301,9 @@ operator
 =
 (
 const
+std
+:
+:
 nullptr_t
 &
 aPtr
