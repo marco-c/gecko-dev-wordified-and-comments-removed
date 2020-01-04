@@ -403,9 +403,7 @@ CancelableBlockState
 *
 FindBlockForId
 (
-const
 uint64_t
-&
 aInputBlockId
 InputData
 *
@@ -431,9 +429,7 @@ aBlock
 void
 MainThreadTimeout
 (
-const
 uint64_t
-&
 aInputBlockId
 )
 ;
