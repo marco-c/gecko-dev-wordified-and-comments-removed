@@ -8839,6 +8839,15 @@ item
 -
 >
 mForceNotVisible
+&
+&
+!
+item
+-
+>
+GetSameCoordinateSystemChildren
+(
+)
 )
 {
 NS_ASSERTION
@@ -12502,6 +12511,12 @@ aVisibleRegion
 if
 (
 mForceNotVisible
+&
+&
+!
+GetSameCoordinateSystemChildren
+(
+)
 )
 {
 NS_ASSERTION
@@ -12514,6 +12529,8 @@ IsEmpty
 "
 invisible
 items
+without
+children
 should
 have
 empty
