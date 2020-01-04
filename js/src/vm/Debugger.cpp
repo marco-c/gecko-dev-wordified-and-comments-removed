@@ -33554,6 +33554,16 @@ filename
 )
 )
 ;
+if
+(
+!
+buf
+)
+return
+Nothing
+(
+)
+;
 JSString
 *
 str
