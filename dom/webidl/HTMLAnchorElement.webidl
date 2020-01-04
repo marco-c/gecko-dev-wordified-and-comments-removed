@@ -299,11 +299,7 @@ text
 ;
 HTMLAnchorElement
 implements
-URLUtils
-;
-HTMLAnchorElement
-implements
-URLUtilsSearchParams
+HTMLHyperlinkElementUtils
 ;
 /
 /
