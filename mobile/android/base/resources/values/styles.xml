@@ -1894,9 +1894,7 @@ android
 paddingLeft
 "
 >
-dimen
-/
-page_row_edge_padding
+20dp
 <
 /
 item
@@ -1911,9 +1909,7 @@ android
 drawablePadding
 "
 >
-dimen
-/
-page_row_edge_padding
+20dp
 <
 /
 item
