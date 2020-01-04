@@ -3461,13 +3461,6 @@ Inherited
 BaseCreate
 (
 aParent
-LayoutDeviceIntRect
-:
-:
-FromUnknownRect
-(
-mBounds
-)
 aInitData
 )
 ;

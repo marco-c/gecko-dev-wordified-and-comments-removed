@@ -648,7 +648,6 @@ aParent
 BaseCreate
 (
 baseParent
-aRect
 aInitData
 )
 ;

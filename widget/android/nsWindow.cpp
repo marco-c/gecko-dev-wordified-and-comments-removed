@@ -3791,13 +3791,6 @@ height
 BaseCreate
 (
 nullptr
-LayoutDeviceIntRect
-:
-:
-FromUnknownRect
-(
-mBounds
-)
 aInitData
 )
 ;

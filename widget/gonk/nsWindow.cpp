@@ -1392,7 +1392,6 @@ aInitData
 BaseCreate
 (
 aParent
-aRect
 aInitData
 )
 ;
