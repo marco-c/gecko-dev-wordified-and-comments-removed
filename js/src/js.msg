@@ -4703,10 +4703,7 @@ new
 target
 only
 allowed
-in
-non
--
-exotic
+within
 functions
 "
 )
