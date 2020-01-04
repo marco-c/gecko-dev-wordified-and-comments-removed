@@ -8522,7 +8522,7 @@ aDest
 aSource
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this

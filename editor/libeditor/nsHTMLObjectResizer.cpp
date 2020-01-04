@@ -4345,7 +4345,7 @@ mResizedObjectMarginTop
 0
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 batchIt
 (
 this

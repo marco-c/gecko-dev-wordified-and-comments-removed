@@ -3459,7 +3459,7 @@ kungFuDeathGrip
 mRules
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -6181,7 +6181,7 @@ GetData
 stuffToPaste
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -6309,7 +6309,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this

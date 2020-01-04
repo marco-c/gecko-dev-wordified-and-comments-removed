@@ -686,7 +686,7 @@ PlatformToDOMLineBreaks
 stuffToPaste
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -804,7 +804,7 @@ PlatformToDOMLineBreaks
 insertText
 )
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
@@ -1045,7 +1045,7 @@ numItems
 return
 NS_ERROR_FAILURE
 ;
-nsAutoEditBatch
+AutoEditBatch
 beginBatching
 (
 this
