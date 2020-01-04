@@ -330,7 +330,7 @@ mozilla
 :
 function
 <
-void
+bool
 (
 const
 Message
