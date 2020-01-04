@@ -2062,9 +2062,6 @@ mChannelStatistics
 bool
 mIgnoreResume
 ;
-MediaByteRange
-mByteRange
-;
 bool
 mIsTransportSeekable
 ;
