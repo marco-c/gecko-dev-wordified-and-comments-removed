@@ -11,7 +11,7 @@ requestLongerTimeout
 const
 TEST_URL
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_inspector_highlighter_inline

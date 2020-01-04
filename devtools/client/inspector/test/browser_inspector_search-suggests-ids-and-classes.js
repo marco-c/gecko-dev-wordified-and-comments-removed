@@ -501,6 +501,10 @@ setupTest
 {
 openInspector
 (
+)
+.
+then
+(
 startTest
 )
 ;

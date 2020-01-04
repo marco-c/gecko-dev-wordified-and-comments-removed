@@ -6,7 +6,7 @@ strict
 const
 TEST_PAGE
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_inspector_delete
