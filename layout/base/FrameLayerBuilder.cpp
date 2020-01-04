@@ -13682,7 +13682,10 @@ IsChrome
 {
 mOpaqueRegion
 =
+Move
+(
 tmp
+)
 ;
 }
 }
