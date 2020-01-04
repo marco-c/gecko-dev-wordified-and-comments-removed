@@ -3609,7 +3609,7 @@ aFlags
 )
 ;
 }
-DrawResult
+nsresult
 nsSVGOuterSVGFrame
 :
 :

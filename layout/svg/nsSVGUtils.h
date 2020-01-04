@@ -670,16 +670,6 @@ mozilla
 SVGTextContextPaint
 SVGTextContextPaint
 ;
-typedef
-mozilla
-:
-:
-image
-:
-:
-DrawResult
-DrawResult
-;
 static
 void
 Init
@@ -835,7 +825,7 @@ aRect
 )
 ;
 static
-DrawResult
+void
 PaintFrameWithEffects
 (
 nsIFrame

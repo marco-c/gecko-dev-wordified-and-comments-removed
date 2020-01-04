@@ -156,7 +156,7 @@ aModType
 override
 ;
 virtual
-DrawResult
+nsresult
 PaintSVG
 (
 gfxContext
