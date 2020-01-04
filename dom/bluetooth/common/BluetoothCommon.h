@@ -836,6 +836,12 @@ mapsetmessagestatusreq
 "
 #
 define
+MAP_PUSH_MESSAGE_REQ_ID
+"
+mappushmessagereq
+"
+#
+define
 GATT_CHARACTERISTIC_CHANGED_ID
 "
 characteristicchanged
