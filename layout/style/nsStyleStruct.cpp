@@ -1382,7 +1382,7 @@ NS_STYLE_HINT_NONE
 ;
 }
 return
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 ;
 }
 return
@@ -2728,7 +2728,7 @@ ix
 return
 NS_CombineHint
 (
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 nsChangeHint_BorderStyleNoneChange
 )
 ;
@@ -2769,7 +2769,7 @@ ix
 ]
 )
 return
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 ;
 }
 if
@@ -2792,7 +2792,7 @@ aOther
 mBorderColors
 )
 return
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 ;
 if
 (
@@ -2866,7 +2866,7 @@ aOther
 mBorderImageOutset
 )
 return
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 ;
 }
 if
@@ -2900,7 +2900,7 @@ ix
 )
 )
 return
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 ;
 }
 }
@@ -7957,7 +7957,7 @@ return
 NS_STYLE_HINT_NONE
 ;
 return
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 ;
 }
 bool
@@ -10301,7 +10301,7 @@ return
 NS_CombineHint
 (
 nsChangeHint_UpdateEffects
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 )
 ;
 hasVisualDifference
@@ -10335,7 +10335,7 @@ return
 NS_CombineHint
 (
 nsChangeHint_UpdateEffects
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 )
 ;
 hasVisualDifference
@@ -10357,7 +10357,7 @@ aOther
 mBackgroundColor
 )
 return
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 ;
 if
 (
@@ -15580,12 +15580,18 @@ otherLineStyle
 nsChangeHint
 hint
 =
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 ;
 NS_UpdateHint
 (
 hint
 nsChangeHint_UpdateSubtreeOverflow
+)
+;
+NS_UpdateHint
+(
+hint
+nsChangeHint_SchedulePaint
 )
 ;
 return
@@ -15635,7 +15641,7 @@ otherDecColor
 )
 {
 return
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 ;
 }
 if
@@ -15649,7 +15655,7 @@ mTextOverflow
 )
 {
 return
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 ;
 }
 return

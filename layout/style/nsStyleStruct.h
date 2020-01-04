@@ -1152,7 +1152,7 @@ MaxDifference
 )
 {
 return
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 ;
 }
 static
@@ -1321,7 +1321,7 @@ NS_CombineHint
 nsChangeHint_UpdateEffects
 NS_CombineHint
 (
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 nsChangeHint_NeutralChange
 )
 )
