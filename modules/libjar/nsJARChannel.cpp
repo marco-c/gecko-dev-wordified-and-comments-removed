@@ -2827,7 +2827,7 @@ nsACString
 aContentType
 )
 {
-NS_ParseContentType
+NS_ParseResponseContentType
 (
 aContentType
 mContentType
@@ -4443,7 +4443,7 @@ contentType
 nsAutoCString
 charset
 ;
-NS_ParseContentType
+NS_ParseResponseContentType
 (
 header
 contentType

@@ -1377,7 +1377,7 @@ referrer
 )
 ;
 nsresult
-NS_ParseContentType
+NS_ParseResponseContentType
 (
 const
 nsACString
