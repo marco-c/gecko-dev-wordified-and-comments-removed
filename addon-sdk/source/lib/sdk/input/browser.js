@@ -116,7 +116,7 @@ navigator
 browser
 "
 {
-includePrivates
+includePrivate
 :
 true
 }
