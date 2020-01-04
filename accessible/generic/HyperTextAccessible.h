@@ -1080,13 +1080,6 @@ aName
 )
 override
 ;
-virtual
-void
-CacheChildren
-(
-)
-override
-;
 index_t
 ConvertMagicOffset
 (
