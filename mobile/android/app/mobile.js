@@ -4606,7 +4606,7 @@ pki
 .
 sha1_enforcement_level
 "
-0
+3
 )
 ;
 pref
