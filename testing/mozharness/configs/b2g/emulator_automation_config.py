@@ -476,6 +476,18 @@ b2gpath
 )
 s
 "
+                 
+"
+-
+-
+emulator
+=
+%
+(
+emulator
+)
+s
+"
                 
 "
 .
