@@ -79,11 +79,10 @@ nsIComponentRegistrar
 )
 ;
 for
-each
 (
 var
 manifest
-in
+of
 manifests
 )
 reg
