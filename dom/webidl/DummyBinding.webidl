@@ -134,6 +134,13 @@ LifecycleCallbacks
 arg
 )
 ;
+void
+promiseJobCallback
+(
+PromiseJobCallback
+arg
+)
+;
 }
 ;
 interface

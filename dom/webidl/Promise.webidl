@@ -174,6 +174,13 @@ object
 reject
 )
 ;
+callback
+PromiseJobCallback
+=
+void
+(
+)
+;
 [
 TreatNonCallableAsNull
 ]
