@@ -5769,7 +5769,7 @@ aWindow
 visualID
 !
 =
-None
+X11None
 &
 &
 gtk_check_version

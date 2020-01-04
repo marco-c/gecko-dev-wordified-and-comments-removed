@@ -4420,7 +4420,7 @@ xselectionrequest
 requestor
 =
 =
-None
+X11None
 )
 return
 GDK_FILTER_REMOVE

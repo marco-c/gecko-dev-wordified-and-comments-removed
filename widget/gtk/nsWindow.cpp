@@ -2028,7 +2028,7 @@ nullptr
 ;
 mXWindow
 =
-None
+X11None
 ;
 mXVisual
 =
@@ -19509,7 +19509,7 @@ xWindow
 ShapeBounding
 0
 0
-None
+X11None
 ShapeSet
 )
 ;

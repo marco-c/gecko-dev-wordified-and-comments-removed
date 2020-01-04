@@ -184,6 +184,13 @@ Xutil
 h
 >
 #
+include
+"
+X11UndefineNone
+.
+h
+"
+#
 endif
 #
 endif

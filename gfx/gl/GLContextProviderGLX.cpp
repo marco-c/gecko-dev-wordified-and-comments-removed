@@ -62,6 +62,13 @@ h
 #
 include
 "
+X11UndefineNone
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MathAlgorithms
@@ -1629,7 +1636,7 @@ aSurface
 )
 {
 return
-None
+X11None
 ;
 }
 gfxXlibSurface
@@ -1673,7 +1680,7 @@ PictTypeDirect
 )
 {
 return
-None
+X11None
 ;
 }
 const
@@ -1748,7 +1755,7 @@ LOCAL_GLX_BIND_TO_TEXTURE_RGB_EXT
 True
 LOCAL_GLX_RENDER_TYPE
 LOCAL_GLX_RGBA_BIT
-None
+X11None
 }
 ;
 int
@@ -1898,7 +1905,7 @@ i
 int
 id
 =
-None
+X11None
 ;
 sGLXLibrary
 .
@@ -2084,7 +2091,7 @@ format
 )
 ;
 return
-None
+X11None
 ;
 }
 int
@@ -2103,7 +2110,7 @@ LOCAL_GLX_TEXTURE_FORMAT_RGBA_EXT
 :
 LOCAL_GLX_TEXTURE_FORMAT_RGB_EXT
 )
-None
+X11None
 }
 ;
 GLXPixmap
@@ -3673,7 +3680,7 @@ mGLX
 xMakeCurrent
 (
 mDisplay
-None
+X11None
 nullptr
 )
 ;
@@ -5021,7 +5028,7 @@ i
 int
 visid
 =
-None
+X11None
 ;
 sGLXLibrary
 .

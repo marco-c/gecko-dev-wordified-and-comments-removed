@@ -169,7 +169,7 @@ GL_PROVIDER_GLX
 )
 mGLXPixmap
 (
-None
+X11None
 )
 #
 endif
@@ -250,7 +250,7 @@ GL_PROVIDER_GLX
 )
 mGLXPixmap
 (
-None
+X11None
 )
 #
 endif
@@ -339,7 +339,7 @@ GL_PROVIDER_GLX
 )
 mGLXPixmap
 (
-None
+X11None
 )
 #
 endif
@@ -406,7 +406,7 @@ GL_PROVIDER_GLX
 )
 mGLXPixmap
 (
-None
+X11None
 )
 #
 endif
@@ -530,14 +530,14 @@ XLIB_IMAGE_SIDE_SIZE_LIMIT
 )
 )
 return
-None
+X11None
 ;
 if
 (
 relatedDrawable
 =
 =
-None
+X11None
 )
 {
 relatedDrawable
@@ -1341,7 +1341,7 @@ mGLXPixmap
 ;
 mGLXPixmap
 =
-None
+X11None
 ;
 }
 #

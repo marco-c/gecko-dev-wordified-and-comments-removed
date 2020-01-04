@@ -35,6 +35,13 @@ Xlib
 h
 >
 #
+include
+"
+X11UndefineNone
+.
+h
+"
+#
 endif
 struct
 _cairo
@@ -216,7 +223,7 @@ nullptr
 )
 mDrawable
 (
-None
+X11None
 )
 mScreen
 (
@@ -250,7 +257,7 @@ nullptr
 )
 mDrawable
 (
-None
+X11None
 )
 mScreen
 (

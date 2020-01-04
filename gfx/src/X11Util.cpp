@@ -147,7 +147,7 @@ NS_ASSERTION
 aVisualID
 =
 =
-None
+X11None
 "
 VisualID
 not
