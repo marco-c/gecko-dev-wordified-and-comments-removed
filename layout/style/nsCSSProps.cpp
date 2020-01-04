@@ -12182,6 +12182,9 @@ eCSSProperty_scroll_snap_type_y
 eCSSProperty_UNKNOWN
 }
 ;
+#
+ifdef
+MOZ_ENABLE_MASK_AS_SHORTHAND
 static
 const
 nsCSSProperty
@@ -12201,6 +12204,8 @@ eCSSProperty_mask_mode
 eCSSProperty_UNKNOWN
 }
 ;
+#
+endif
 const
 nsCSSProperty
 *

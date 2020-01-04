@@ -3934,12 +3934,17 @@ eCSSProperty_background_position
 case
 eCSSProperty_background_size
 :
+#
+ifdef
+MOZ_ENABLE_MASK_AS_SHORTHAND
 case
 eCSSProperty_mask_position
 :
 case
 eCSSProperty_mask_size
 :
+#
+endif
 case
 eCSSProperty_grid_auto_columns
 :
