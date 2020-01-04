@@ -58,6 +58,14 @@ mozconfig
 .
 common
 "
+TOOLTOOL_DIR
+=
+{
+TOOLTOOL_DIR
+:
+-
+topsrcdir
+}
 #
 some
 b2g
@@ -109,7 +117,7 @@ then
 CC
 =
 "
-topsrcdir
+TOOLTOOL_DIR
 /
 gcc
 /
@@ -120,7 +128,7 @@ gcc
 CXX
 =
 "
-topsrcdir
+TOOLTOOL_DIR
 /
 gcc
 /
@@ -152,7 +160,7 @@ mk_add_options
 PATH
 =
 "
-topsrcdir
+TOOLTOOL_DIR
 /
 gcc
 /
