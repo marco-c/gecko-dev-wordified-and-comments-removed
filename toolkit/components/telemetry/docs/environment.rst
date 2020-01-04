@@ -904,6 +904,8 @@ string
 >
 /
 /
+desktop
+only
 e
 .
 g
@@ -915,11 +917,6 @@ or
 null
 on
 failure
-only
-on
-mac
-&
-linux
 family
 :
 <
