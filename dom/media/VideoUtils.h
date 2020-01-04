@@ -1038,6 +1038,7 @@ override
 ;
 private
 :
+virtual
 ~
 SimpleTimer
 (
