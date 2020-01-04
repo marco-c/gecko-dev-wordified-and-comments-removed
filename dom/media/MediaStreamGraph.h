@@ -2542,6 +2542,10 @@ mAutofinish
 (
 false
 )
+mCycleMarker
+(
+0
+)
 {
 }
 already_AddRefed

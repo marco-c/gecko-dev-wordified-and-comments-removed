@@ -679,13 +679,13 @@ mOpened
 (
 false
 )
-mContentDisposition
-(
-0
-)
 mAppURI
 (
 nullptr
+)
+mContentDisposition
+(
+0
 )
 mContentLength
 (
