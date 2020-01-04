@@ -96,6 +96,17 @@ MPL
 DevToolsModules
 (
 '
+controls
+.
+png
+'
+'
+controls
+2x
+.
+png
+'
+'
 dom
 -
 tree
