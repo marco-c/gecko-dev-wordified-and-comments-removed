@@ -1225,6 +1225,12 @@ onAttachedToWindow
 (
 )
 {
+super
+.
+onAttachedToWindow
+(
+)
+;
 setDescendantFocusability
 (
 FOCUS_BLOCK_DESCENDANTS

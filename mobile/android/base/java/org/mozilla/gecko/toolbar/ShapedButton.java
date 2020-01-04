@@ -54,6 +54,13 @@ ThemedImageButton
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 Context
@@ -216,6 +223,12 @@ false
 ;
 }
 Override
+SuppressLint
+(
+"
+MissingSuperCall
+"
+)
 public
 void
 draw
