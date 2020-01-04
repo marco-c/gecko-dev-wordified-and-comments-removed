@@ -57,9 +57,15 @@ RebuildTextRun
 nsTransformedTextRun
 *
 aTextRun
-gfxContext
+mozilla
+:
+:
+gfx
+:
+:
+DrawTarget
 *
-aRefContext
+aRefDrawTarget
 gfxMissingFontRecorder
 *
 aMFR

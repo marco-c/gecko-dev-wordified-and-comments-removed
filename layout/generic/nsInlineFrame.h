@@ -317,9 +317,9 @@ virtual
 nsRect
 ComputeTightBounds
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 const
 override

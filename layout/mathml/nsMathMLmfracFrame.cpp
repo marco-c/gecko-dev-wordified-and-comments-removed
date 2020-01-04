@@ -557,9 +557,9 @@ nsMathMLmfracFrame
 :
 MeasureForWidth
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsHTMLReflowMetrics
 &
 aDesiredSize
@@ -568,7 +568,7 @@ aDesiredSize
 return
 PlaceInternal
 (
-aRenderingContext
+aDrawTarget
 false
 aDesiredSize
 true
@@ -623,9 +623,9 @@ nsMathMLmfracFrame
 :
 Place
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics
@@ -636,7 +636,7 @@ aDesiredSize
 return
 PlaceInternal
 (
-aRenderingContext
+aDrawTarget
 aPlaceOrigin
 aDesiredSize
 false
@@ -649,9 +649,9 @@ nsMathMLmfracFrame
 :
 PlaceInternal
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics
@@ -745,7 +745,7 @@ ReportChildCountError
 return
 ReflowError
 (
-aRenderingContext
+aDrawTarget
 aDesiredSize
 )
 ;
@@ -867,7 +867,7 @@ else
 {
 GetRuleThickness
 (
-aRenderingContext
+aDrawTarget
 fm
 defaultRuleThickness
 )
@@ -875,7 +875,7 @@ defaultRuleThickness
 }
 GetAxisHeight
 (
-aRenderingContext
+aDrawTarget
 fm
 axisHeight
 )

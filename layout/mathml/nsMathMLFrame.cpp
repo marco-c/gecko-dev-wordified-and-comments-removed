@@ -670,9 +670,9 @@ nsMathMLFrame
 :
 GetRuleThickness
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsFontMetrics
 *
 aFontMetrics
@@ -709,7 +709,7 @@ overBar
 1
 *
 aFontMetrics
-aRenderingContext
+aDrawTarget
 )
 ;
 aRuleThickness
@@ -750,9 +750,9 @@ nsMathMLFrame
 :
 GetAxisHeight
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsFontMetrics
 *
 aFontMetrics
@@ -832,7 +832,7 @@ minus
 1
 *
 aFontMetrics
-aRenderingContext
+aDrawTarget
 )
 ;
 aAxisHeight

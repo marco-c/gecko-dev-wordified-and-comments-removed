@@ -512,9 +512,9 @@ gfxMacFont
 :
 ShapeText
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 const
 char16_t
 *
@@ -600,7 +600,7 @@ mCoreTextShaper
 >
 ShapeText
 (
-aContext
+aDrawTarget
 aText
 aOffset
 aLength
@@ -612,12 +612,7 @@ aShapedText
 {
 PostShapingFixup
 (
-aContext
--
->
-GetDrawTarget
-(
-)
+aDrawTarget
 aText
 aOffset
 aLength
@@ -636,7 +631,7 @@ gfxFont
 :
 ShapeText
 (
-aContext
+aDrawTarget
 aText
 aOffset
 aLength
@@ -706,9 +701,9 @@ uint32_t
 aEnd
 BoundingBoxType
 aBoundingBoxType
-gfxContext
+DrawTarget
 *
-aRefContext
+aRefDrawTarget
 Spacing
 *
 aSpacing
@@ -731,7 +726,7 @@ aTextRun
 aStart
 aEnd
 aBoundingBoxType
-aRefContext
+aRefDrawTarget
 aSpacing
 aOrientation
 )

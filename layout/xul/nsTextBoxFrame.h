@@ -314,9 +314,9 @@ aRect
 void
 CalculateUnderline
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsFontMetrics
 &
 aFontMetrics

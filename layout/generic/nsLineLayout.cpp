@@ -4935,6 +4935,11 @@ mReflowState
 -
 >
 rendContext
+-
+>
+GetDrawTarget
+(
+)
 metrics
 aReflowStatus
 )
@@ -12871,6 +12876,11 @@ mBlockReflowState
 -
 >
 rendContext
+-
+>
+GetDrawTarget
+(
+)
 )
 ;
 #

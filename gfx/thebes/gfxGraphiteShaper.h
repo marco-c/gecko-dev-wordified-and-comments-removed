@@ -57,9 +57,9 @@ virtual
 bool
 ShapeText
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 const
 char16_t
 *
@@ -88,9 +88,9 @@ protected
 nsresult
 SetGlyphsFromSegment
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 gfxShapedText
 *
 aShapedText

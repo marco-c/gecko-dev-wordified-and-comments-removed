@@ -87,9 +87,9 @@ virtual
 nsresult
 Place
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics
@@ -153,9 +153,9 @@ virtual
 nsresult
 MeasureForWidth
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsHTMLReflowMetrics
 &
 aDesiredSize

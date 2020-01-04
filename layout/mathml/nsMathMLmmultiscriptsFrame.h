@@ -52,9 +52,9 @@ virtual
 nsresult
 Place
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics
@@ -70,9 +70,9 @@ PlaceMultiScript
 nsPresContext
 *
 aPresContext
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics

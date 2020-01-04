@@ -1147,9 +1147,9 @@ aTextRun
 uint32_t
 *
 aFlags
-gfxContext
+DrawTarget
 *
-aRefContext
+aRefDrawTarget
 )
 {
 gfxTextRunFactory
@@ -1159,7 +1159,7 @@ Parameters
 params
 =
 {
-aRefContext
+aRefDrawTarget
 nullptr
 nullptr
 nullptr
@@ -2984,9 +2984,9 @@ RebuildTextRun
 nsTransformedTextRun
 *
 aTextRun
-gfxContext
+DrawTarget
 *
-aRefContext
+aRefDrawTarget
 gfxMissingFontRecorder
 *
 aMFR
@@ -3061,7 +3061,7 @@ GetParametersForInner
 aTextRun
 &
 flags
-aRefContext
+aRefDrawTarget
 )
 ;
 gfxFontGroup
@@ -3229,7 +3229,7 @@ transformedChild
 >
 FinishSettingProperties
 (
-aRefContext
+aRefDrawTarget
 aMFR
 )
 ;

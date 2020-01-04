@@ -21091,9 +21091,9 @@ nsIFrame
 :
 ComputeTightBounds
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 const
 {
@@ -21109,9 +21109,9 @@ nsFrame
 :
 ComputeSimpleTightBounds
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 const
 {
@@ -21247,7 +21247,7 @@ child
 >
 ComputeTightBounds
 (
-aContext
+aDrawTarget
 )
 +
 child

@@ -1151,9 +1151,9 @@ virtual
 nsRect
 ComputeTightBounds
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 const
 override
@@ -1216,9 +1216,9 @@ mDeltaWidth
 TrimOutput
 TrimTrailingWhiteSpace
 (
-nsRenderingContext
+DrawTarget
 *
-aRC
+aDrawTarget
 )
 ;
 virtual
@@ -1697,9 +1697,9 @@ EnsureTextRun
 (
 TextRunType
 aWhichTextRun
-gfxContext
+DrawTarget
 *
-aReferenceContext
+aRefDrawTarget
 =
 nullptr
 nsIFrame
@@ -1890,9 +1890,9 @@ nsLineLayout
 aLineLayout
 nscoord
 aAvailableWidth
-nsRenderingContext
+DrawTarget
 *
-aRenderingContext
+aDrawTarget
 nsHTMLReflowMetrics
 &
 aMetrics

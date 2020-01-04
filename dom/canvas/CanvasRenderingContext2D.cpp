@@ -16412,6 +16412,11 @@ MakeTextRun
 text
 length
 mThebes
+-
+>
+GetDrawTarget
+(
+)
 mAppUnitsPerDevPixel
 flags
 mMissingFonts
@@ -16454,6 +16459,11 @@ gfxFont
 :
 LOOSE_INK_EXTENTS
 mThebes
+-
+>
+GetDrawTarget
+(
+)
 nullptr
 )
 ;
@@ -16595,6 +16605,11 @@ gfxFont
 :
 LOOSE_INK_EXTENTS
 mThebes
+-
+>
+GetDrawTarget
+(
+)
 nullptr
 )
 ;

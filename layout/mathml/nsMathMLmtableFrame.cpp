@@ -4104,10 +4104,14 @@ axisHeight
 ;
 GetAxisHeight
 (
-*
 aReflowState
 .
 rendContext
+-
+>
+GetDrawTarget
+(
+)
 fm
 axisHeight
 )

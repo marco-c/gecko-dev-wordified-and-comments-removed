@@ -148,9 +148,9 @@ virtual
 nsresult
 Place
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics
@@ -196,9 +196,9 @@ override
 NS_IMETHOD
 Stretch
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsStretchDirection
 aStretchDirection
 nsBoundingMetrics

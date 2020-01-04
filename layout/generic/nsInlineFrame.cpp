@@ -1198,9 +1198,9 @@ nsInlineFrame
 :
 ComputeTightBounds
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 const
 {
@@ -1225,7 +1225,7 @@ GetVisualOverflowRect
 return
 ComputeSimpleTightBounds
 (
-aContext
+aDrawTarget
 )
 ;
 }

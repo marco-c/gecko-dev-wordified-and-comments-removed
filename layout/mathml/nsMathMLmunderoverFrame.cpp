@@ -922,9 +922,9 @@ nsMathMLmunderoverFrame
 :
 Place
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics
@@ -987,7 +987,7 @@ PlaceMultiScript
 PresContext
 (
 )
-aRenderingContext
+aDrawTarget
 aPlaceOrigin
 aDesiredSize
 this
@@ -1021,7 +1021,7 @@ PlaceMultiScript
 PresContext
 (
 )
-aRenderingContext
+aDrawTarget
 aPlaceOrigin
 aDesiredSize
 this
@@ -1071,7 +1071,7 @@ PlaceMultiScript
 PresContext
 (
 )
-aRenderingContext
+aDrawTarget
 aPlaceOrigin
 aDesiredSize
 this
@@ -1380,7 +1380,7 @@ ReportChildCountError
 return
 ReflowError
 (
-aRenderingContext
+aDrawTarget
 aDesiredSize
 )
 ;
@@ -1489,7 +1489,7 @@ ruleThickness
 ;
 GetRuleThickness
 (
-aRenderingContext
+aDrawTarget
 fm
 ruleThickness
 )

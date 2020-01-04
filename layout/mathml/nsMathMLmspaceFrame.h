@@ -113,9 +113,9 @@ virtual
 nsresult
 MeasureForWidth
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsHTMLReflowMetrics
 &
 aDesiredSize

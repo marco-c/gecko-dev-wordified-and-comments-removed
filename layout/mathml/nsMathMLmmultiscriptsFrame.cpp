@@ -327,9 +327,9 @@ nsMathMLmmultiscriptsFrame
 :
 Place
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics
@@ -473,7 +473,7 @@ PlaceMultiScript
 PresContext
 (
 )
-aRenderingContext
+aDrawTarget
 aPlaceOrigin
 aDesiredSize
 this
@@ -492,9 +492,9 @@ PlaceMultiScript
 nsPresContext
 *
 aPresContext
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics
@@ -668,7 +668,7 @@ aFrame
 >
 ReflowError
 (
-aRenderingContext
+aDrawTarget
 aDesiredSize
 )
 ;
@@ -1305,7 +1305,7 @@ aFrame
 >
 ReflowError
 (
-aRenderingContext
+aDrawTarget
 aDesiredSize
 )
 ;
@@ -1337,7 +1337,7 @@ aFrame
 >
 ReflowError
 (
-aRenderingContext
+aDrawTarget
 aDesiredSize
 )
 ;
@@ -1370,7 +1370,7 @@ aFrame
 >
 ReflowError
 (
-aRenderingContext
+aDrawTarget
 aDesiredSize
 )
 ;
@@ -1445,7 +1445,7 @@ aFrame
 >
 ReflowError
 (
-aRenderingContext
+aDrawTarget
 aDesiredSize
 )
 ;
@@ -2131,7 +2131,7 @@ ruleSize
 ;
 GetRuleThickness
 (
-aRenderingContext
+aDrawTarget
 fm
 ruleSize
 )
@@ -2507,7 +2507,7 @@ aFrame
 >
 ReflowError
 (
-aRenderingContext
+aDrawTarget
 aDesiredSize
 )
 ;

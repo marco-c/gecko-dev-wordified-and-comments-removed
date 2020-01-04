@@ -1393,9 +1393,9 @@ nsMathMLmencloseFrame
 :
 MeasureForWidth
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsHTMLReflowMetrics
 &
 aDesiredSize
@@ -1404,7 +1404,7 @@ aDesiredSize
 return
 PlaceInternal
 (
-aRenderingContext
+aDrawTarget
 false
 aDesiredSize
 true
@@ -1417,9 +1417,9 @@ nsMathMLmencloseFrame
 :
 Place
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics
@@ -1430,7 +1430,7 @@ aDesiredSize
 return
 PlaceInternal
 (
-aRenderingContext
+aDrawTarget
 aPlaceOrigin
 aDesiredSize
 false
@@ -1443,9 +1443,9 @@ nsMathMLmencloseFrame
 :
 PlaceInternal
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 bool
 aPlaceOrigin
 nsHTMLReflowMetrics
@@ -1473,7 +1473,7 @@ nsMathMLContainerFrame
 :
 Place
 (
-aRenderingContext
+aDrawTarget
 false
 baseSize
 )
@@ -1593,7 +1593,7 @@ fontSizeInflation
 ;
 GetRuleThickness
 (
-aRenderingContext
+aDrawTarget
 fm
 mRuleThickness
 )
@@ -1630,7 +1630,7 @@ one
 1
 *
 fm
-aRenderingContext
+aDrawTarget
 )
 ;
 nscoord
@@ -2193,7 +2193,7 @@ GetMaxWidth
 PresContext
 (
 )
-aRenderingContext
+aDrawTarget
 fontSizeInflation
 )
 ;
@@ -2246,7 +2246,7 @@ Stretch
 PresContext
 (
 )
-aRenderingContext
+aDrawTarget
 fontSizeInflation
 NS_STRETCH_DIRECTION_VERTICAL
 contSize
@@ -2386,7 +2386,7 @@ GetMaxWidth
 PresContext
 (
 )
-aRenderingContext
+aDrawTarget
 fontSizeInflation
 )
 ;
@@ -2441,7 +2441,7 @@ Stretch
 PresContext
 (
 )
-aRenderingContext
+aDrawTarget
 fontSizeInflation
 NS_STRETCH_DIRECTION_VERTICAL
 contSize

@@ -108,9 +108,9 @@ GetTightGlyphExtentsAppUnits
 gfxFont
 *
 aFont
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 uint32_t
 aGlyphID
 gfxRect
@@ -138,7 +138,7 @@ entry
 if
 (
 !
-aContext
+aDrawTarget
 )
 {
 NS_WARNING
@@ -151,7 +151,7 @@ glyph
 extents
 (
 no
-aContext
+aDrawTarget
 )
 "
 )
@@ -167,12 +167,7 @@ aFont
 >
 SetupCairoFont
 (
-aContext
--
->
-GetDrawTarget
-(
-)
+aDrawTarget
 )
 )
 {
@@ -190,12 +185,7 @@ aFont
 >
 SetupGlyphExtents
 (
-aContext
--
->
-GetDrawTarget
-(
-)
+aDrawTarget
 aGlyphID
 true
 this
