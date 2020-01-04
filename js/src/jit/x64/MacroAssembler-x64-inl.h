@@ -2164,6 +2164,10 @@ splitTagForTest
 source
 )
 ;
+asMasm
+(
+)
+.
 branchTestDouble
 (
 Assembler
