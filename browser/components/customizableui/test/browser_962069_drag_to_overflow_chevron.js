@@ -233,7 +233,7 @@ result
 dataTransfer
 ]
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDragOver
 (
@@ -244,7 +244,7 @@ overflowChevron
 yield
 panelShownPromise
 ;
-ChromeUtils
+EventUtils
 .
 synthesizeDropAfterDragOver
 (

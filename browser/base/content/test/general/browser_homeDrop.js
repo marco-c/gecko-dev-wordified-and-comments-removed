@@ -143,7 +143,7 @@ mozIJSSubScriptLoader
 )
 ;
 let
-ChromeUtils
+EventUtils
 =
 {
 }
@@ -165,11 +165,11 @@ tests
 /
 SimpleTest
 /
-ChromeUtils
+EventUtils
 .
 js
 "
-ChromeUtils
+EventUtils
 )
 ;
 let
@@ -354,7 +354,7 @@ expectUncaughtException
 (
 )
 ;
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -403,7 +403,7 @@ addListener
 dialogListener
 )
 ;
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (

@@ -53,7 +53,7 @@ result
 dataTransfer
 ]
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDragOver
 (
@@ -63,7 +63,7 @@ parentNode
 aTarget
 )
 ;
-ChromeUtils
+EventUtils
 .
 synthesizeDropAfterDragOver
 (

@@ -122,11 +122,6 @@ MozillaLogger
 js
 '
 '
-ChromeUtils
-.
-js
-'
-'
 EventUtils
 .
 js

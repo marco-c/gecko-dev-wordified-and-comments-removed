@@ -4,7 +4,7 @@ requestLongerTimeout
 )
 ;
 const
-CHROMEUTILS_URL
+EVENTUTILS_URL
 =
 "
 chrome
@@ -19,13 +19,13 @@ tests
 /
 SimpleTest
 /
-ChromeUtils
+EventUtils
 .
 js
 "
 ;
 var
-ChromeUtils
+EventUtils
 =
 {
 }
@@ -36,8 +36,8 @@ scriptloader
 .
 loadSubScript
 (
-CHROMEUTILS_URL
-ChromeUtils
+EVENTUTILS_URL
+EventUtils
 )
 ;
 add_task
@@ -102,7 +102,7 @@ gBrowser
 let
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -150,7 +150,7 @@ window
 ;
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -403,7 +403,7 @@ gBrowser
 let
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -453,7 +453,7 @@ window
 ;
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -782,7 +782,7 @@ gBrowser
 let
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -1029,7 +1029,7 @@ TabOpen
 let
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (

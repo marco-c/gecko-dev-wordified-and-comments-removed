@@ -1,5 +1,5 @@
 var
-ChromeUtils
+EventUtils
 =
 {
 }
@@ -51,11 +51,11 @@ tests
 /
 SimpleTest
 /
-ChromeUtils
+EventUtils
 .
 js
 "
-ChromeUtils
+EventUtils
 )
 ;
 const
@@ -3060,7 +3060,7 @@ popupshown
 "
 )
 ;
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (

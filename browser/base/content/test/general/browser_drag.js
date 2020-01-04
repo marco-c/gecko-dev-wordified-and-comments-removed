@@ -35,7 +35,7 @@ mozIJSSubScriptLoader
 )
 ;
 let
-ChromeUtils
+EventUtils
 =
 {
 }
@@ -57,11 +57,11 @@ tests
 /
 SimpleTest
 /
-ChromeUtils
+EventUtils
 .
 js
 "
-ChromeUtils
+EventUtils
 )
 ;
 var
@@ -339,7 +339,7 @@ finish
 true
 )
 ;
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (

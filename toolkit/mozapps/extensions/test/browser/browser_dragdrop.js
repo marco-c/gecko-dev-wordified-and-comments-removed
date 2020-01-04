@@ -2,7 +2,7 @@ var
 gManagerWindow
 ;
 var
-ChromeUtils
+EventUtils
 =
 {
 }
@@ -54,11 +54,11 @@ tests
 /
 SimpleTest
 /
-ChromeUtils
+EventUtils
 .
 js
 "
-ChromeUtils
+EventUtils
 )
 ;
 function
@@ -735,7 +735,7 @@ port
 var
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -887,7 +887,7 @@ port
 var
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -1054,7 +1054,7 @@ port
 var
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -1239,7 +1239,7 @@ port
 var
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
@@ -1427,7 +1427,7 @@ port
 var
 effect
 =
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (

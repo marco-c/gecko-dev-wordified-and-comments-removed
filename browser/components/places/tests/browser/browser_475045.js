@@ -1,5 +1,5 @@
 var
-ChromeUtils
+EventUtils
 =
 {
 }
@@ -51,11 +51,11 @@ tests
 /
 SimpleTest
 /
-ChromeUtils
+EventUtils
 .
 js
 "
-ChromeUtils
+EventUtils
 )
 ;
 add_task
@@ -225,7 +225,7 @@ makeURI
 uriSpec
 )
 ;
-ChromeUtils
+EventUtils
 .
 synthesizeDrop
 (
