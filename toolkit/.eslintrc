@@ -1095,7 +1095,12 @@ before
 define
 "
 :
+[
 2
+"
+nofunc
+"
+]
 /
 /
 No
