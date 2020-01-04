@@ -125,6 +125,12 @@ Canceled
 const
 ;
 bool
+ResultCallbacksInvoked
+(
+)
+const
+;
+bool
 IsEquivalentTo
 (
 ServiceWorkerJob2
@@ -265,6 +271,9 @@ mState
 ;
 bool
 mCanceled
+;
+bool
+mResultCallbacksInvoked
 ;
 public
 :
