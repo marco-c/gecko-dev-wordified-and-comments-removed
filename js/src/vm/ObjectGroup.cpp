@@ -1746,6 +1746,10 @@ return
 key
 .
 group
+.
+unbarrieredGet
+(
+)
 -
 >
 proto
@@ -1768,6 +1772,10 @@ clasp
 key
 .
 group
+.
+unbarrieredGet
+(
+)
 -
 >
 clasp
@@ -10127,7 +10135,7 @@ entry
 .
 group
 .
-get
+unbarrieredGet
 (
 )
 )
@@ -10145,7 +10153,7 @@ entry
 .
 group
 .
-get
+unbarrieredGet
 (
 )
 )
@@ -10162,6 +10170,10 @@ proto
 entry
 .
 group
+.
+unbarrieredGet
+(
+)
 -
 >
 proto
@@ -10250,6 +10262,10 @@ clasp
 entry
 .
 group
+.
+unbarrieredGet
+(
+)
 -
 >
 clasp
@@ -10375,7 +10391,7 @@ entry
 .
 group
 .
-get
+unbarrieredGet
 (
 )
 )
@@ -10386,6 +10402,10 @@ proto
 entry
 .
 group
+.
+unbarrieredGet
+(
+)
 -
 >
 proto
@@ -10424,6 +10444,10 @@ clasp
 entry
 .
 group
+.
+unbarrieredGet
+(
+)
 -
 >
 clasp

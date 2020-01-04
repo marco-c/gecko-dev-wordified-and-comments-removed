@@ -1519,7 +1519,11 @@ StackBaseShape
 public
 DefaultHasher
 <
-ReadBarrieredUnownedBaseShape
+ReadBarriered
+<
+UnownedBaseShape
+*
+>
 >
 {
 uint32_t
@@ -1686,8 +1690,11 @@ inline
 bool
 match
 (
+ReadBarriered
+<
 UnownedBaseShape
 *
+>
 key
 const
 Lookup
@@ -1700,7 +1707,11 @@ lookup
 typedef
 HashSet
 <
-ReadBarrieredUnownedBaseShape
+ReadBarriered
+<
+UnownedBaseShape
+*
+>
 StackBaseShape
 SystemAllocPolicy
 >

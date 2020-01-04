@@ -1255,7 +1255,7 @@ Observing
 }
 ;
 bool
-isDebuggee
+isDebuggeeUnbarriered
 (
 const
 JSCompartment

@@ -8694,7 +8694,7 @@ bool
 Debugger
 :
 :
-isDebuggee
+isDebuggeeUnbarriered
 (
 const
 JSCompartment
@@ -8724,7 +8724,7 @@ has
 compartment
 -
 >
-maybeGlobal
+unsafeUnbarrieredMaybeGlobal
 (
 )
 )
@@ -12283,7 +12283,7 @@ global
 c
 -
 >
-maybeGlobal
+unsafeUnbarrieredMaybeGlobal
 (
 )
 ;
@@ -12594,6 +12594,10 @@ e
 front
 (
 )
+.
+unbarrieredGet
+(
+)
 ;
 TraceManuallyBarrieredEdge
 (
@@ -12616,11 +12620,16 @@ e
 front
 (
 )
+.
+unbarrieredGet
+(
+)
 )
 e
 .
 rekeyFront
 (
+global
 ReadBarrieredGlobalObject
 (
 global
@@ -13017,6 +13026,10 @@ fop
 e
 .
 front
+(
+)
+.
+unbarrieredGet
 (
 )
 &
@@ -17955,6 +17968,10 @@ range
 front
 (
 )
+.
+unbarrieredGet
+(
+)
 -
 >
 zone
@@ -18106,6 +18123,10 @@ debugEnum
 -
 >
 front
+(
+)
+.
+unbarrieredGet
 (
 )
 =
@@ -20786,7 +20807,7 @@ comp
 dbg
 -
 >
-isDebuggee
+isDebuggeeUnbarriered
 (
 comp
 )

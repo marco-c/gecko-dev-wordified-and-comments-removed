@@ -11942,6 +11942,10 @@ front
 value
 (
 )
+.
+unbarrieredGet
+(
+)
 -
 >
 scope

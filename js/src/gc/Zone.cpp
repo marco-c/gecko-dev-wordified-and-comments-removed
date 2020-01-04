@@ -745,7 +745,7 @@ dbgp
 )
 -
 >
-isDebuggee
+isDebuggeeUnbarriered
 (
 range
 .
@@ -1585,7 +1585,7 @@ rt
 comps
 -
 >
-maybeGlobal
+unsafeUnbarrieredMaybeGlobal
 (
 )
 )
