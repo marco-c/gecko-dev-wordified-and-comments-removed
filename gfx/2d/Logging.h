@@ -2701,7 +2701,7 @@ __LINE__
 gfxWarning
 #
 define
-gfxCrash
+gfxDevCrash
 (
 reason
 )
