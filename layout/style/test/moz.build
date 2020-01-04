@@ -307,13 +307,6 @@ chrome
 '
 chrome
 /
-additional_sheets_helper
-.
-html
-'
-'
-chrome
-/
 moz_document_helper
 .
 html
