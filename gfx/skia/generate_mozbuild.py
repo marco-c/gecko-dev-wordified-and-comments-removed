@@ -296,14 +296,6 @@ skia
 /
 include
 /
-pipe
-'
-    
-'
-skia
-/
-include
-/
 ports
 '
     
