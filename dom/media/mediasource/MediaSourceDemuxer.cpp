@@ -91,7 +91,7 @@ MediaThreadType
 :
 PLAYBACK
 )
-false
+true
 )
 )
 mMonitor
