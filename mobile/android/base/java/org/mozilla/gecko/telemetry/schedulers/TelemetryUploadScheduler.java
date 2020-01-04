@@ -44,7 +44,7 @@ void
 scheduleUpload
 (
 Context
-context
+applicationContext
 TelemetryPingStore
 store
 )

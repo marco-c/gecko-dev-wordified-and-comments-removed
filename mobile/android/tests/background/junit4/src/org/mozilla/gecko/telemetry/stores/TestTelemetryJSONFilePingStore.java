@@ -97,17 +97,6 @@ mozilla
 .
 gecko
 .
-telemetry
-.
-TelemetryPingFromStore
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 FileUtils
@@ -517,13 +506,13 @@ url
 generateTelemetryPayload
 (
 )
+expectedID
 )
 ;
 testStore
 .
 storePing
 (
-expectedID
 expectedPing
 )
 ;
@@ -657,7 +646,6 @@ testStore
 .
 storePing
 (
-i
 new
 TelemetryPing
 (
@@ -669,6 +657,7 @@ i
 generateTelemetryPayload
 (
 )
+i
 )
 )
 ;
@@ -697,7 +686,6 @@ testStore
 .
 storePing
 (
-0
 new
 TelemetryPing
 (
@@ -707,6 +695,7 @@ server
 generateTelemetryPayload
 (
 )
+0
 )
 )
 ;
@@ -804,7 +793,7 @@ urlPrefix
 final
 ArrayList
 <
-TelemetryPingFromStore
+TelemetryPing
 >
 pings
 =
@@ -817,7 +806,7 @@ getAllPings
 for
 (
 final
-TelemetryPingFromStore
+TelemetryPing
 ping
 :
 pings

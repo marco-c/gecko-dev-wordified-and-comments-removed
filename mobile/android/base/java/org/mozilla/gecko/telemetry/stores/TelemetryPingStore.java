@@ -28,17 +28,6 @@ telemetry
 TelemetryPing
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-telemetry
-.
-TelemetryPingFromStore
-;
-import
 java
 .
 io
@@ -50,7 +39,7 @@ java
 .
 util
 .
-ArrayList
+List
 ;
 import
 java
@@ -65,9 +54,9 @@ TelemetryPingStore
 extends
 Parcelable
 {
-ArrayList
+List
 <
-TelemetryPingFromStore
+TelemetryPing
 >
 getAllPings
 (
@@ -76,8 +65,6 @@ getAllPings
 void
 storePing
 (
-long
-uniqueID
 TelemetryPing
 ping
 )

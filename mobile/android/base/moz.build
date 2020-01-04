@@ -4195,14 +4195,14 @@ java
 '
 telemetry
 /
-TelemetryPingFromStore
+TelemetryUploadService
 .
 java
 '
 '
 telemetry
 /
-TelemetryUploadService
+UploadTelemetryCorePingCallback
 .
 java
 '
