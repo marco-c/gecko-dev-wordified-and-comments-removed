@@ -74,8 +74,6 @@ sourceP
 float
 *
 destP
-size_t
-framesToProcess
 )
 ;
 void
