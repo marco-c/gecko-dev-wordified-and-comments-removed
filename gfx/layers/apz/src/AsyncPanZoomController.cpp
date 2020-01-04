@@ -5762,11 +5762,6 @@ scrollAmount
 ParentLayerSize
 pageScrollSize
 ;
-bool
-isRootContent
-=
-false
-;
 {
 ReentrantMonitorAutoEnter
 lock
@@ -5789,14 +5784,6 @@ pageScrollSizeLD
 mScrollMetadata
 .
 GetPageScrollAmount
-(
-)
-;
-isRootContent
-=
-mFrameMetrics
-.
-IsRootContent
 (
 )
 ;
@@ -5972,9 +5959,6 @@ mUserDeltaMultiplierY
 ;
 if
 (
-isRootContent
-&
-&
 gfxPrefs
 :
 :
