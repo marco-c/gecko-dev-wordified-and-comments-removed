@@ -470,6 +470,9 @@ function
 getCaptureDoorhanger
 (
 aKind
+popupNotifications
+=
+PopupNotifications
 )
 {
 ok
@@ -491,7 +494,7 @@ notification
 let
 notification
 =
-PopupNotifications
+popupNotifications
 .
 getNotification
 (
