@@ -2294,6 +2294,9 @@ False
 substs
 =
 None
+device_serial
+=
+None
 )
 :
         
@@ -2386,11 +2389,7 @@ retryLimit
             
 deviceSerial
 =
-'
-emulator
--
-5554
-'
+device_serial
 )
         
 self
