@@ -625,10 +625,8 @@ rv
 rv
 .
 ThrowTypeError
-<
-MSG_DEFINEPROPERTY_ON_GSP
->
 (
+MSG_DEFINEPROPERTY_ON_GSP
 )
 ;
 rv

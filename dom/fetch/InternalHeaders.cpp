@@ -813,10 +813,8 @@ aName
 aRv
 .
 ThrowTypeError
-<
-MSG_INVALID_HEADER_NAME
->
 (
+MSG_INVALID_HEADER_NAME
 &
 label
 )
@@ -862,10 +860,8 @@ aValue
 aRv
 .
 ThrowTypeError
-<
-MSG_INVALID_HEADER_VALUE
->
 (
+MSG_INVALID_HEADER_VALUE
 &
 label
 )
@@ -904,10 +900,8 @@ Immutable
 aRv
 .
 ThrowTypeError
-<
-MSG_HEADERS_IMMUTABLE
->
 (
+MSG_HEADERS_IMMUTABLE
 )
 ;
 return
@@ -1205,10 +1199,8 @@ Length
 aRv
 .
 ThrowTypeError
-<
-MSG_INVALID_HEADER_SEQUENCE
->
 (
+MSG_INVALID_HEADER_SEQUENCE
 )
 ;
 return

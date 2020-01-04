@@ -327,10 +327,8 @@ mLastModified
 aRv
 .
 ThrowTypeError
-<
-MSG_METADATA_NOT_CONFIGURED
->
 (
+MSG_METADATA_NOT_CONFIGURED
 )
 ;
 return
