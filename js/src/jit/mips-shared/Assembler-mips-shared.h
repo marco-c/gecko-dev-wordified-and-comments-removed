@@ -6255,6 +6255,16 @@ endif
 }
 static
 bool
+SupportsUnalignedAccesses
+(
+)
+{
+return
+false
+;
+}
+static
+bool
 SupportsSimd
 (
 )
