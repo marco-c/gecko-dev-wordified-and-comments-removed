@@ -93,7 +93,7 @@ isHomePanel
 )
 {
 return
-false
+true
 ;
 }
 }
