@@ -1596,7 +1596,7 @@ NO_GLYPH
 -
 1
 ;
-AutoFallibleTArray
+AutoTArray
 <
 int32_t
 SMALL_GLYPH_RUN

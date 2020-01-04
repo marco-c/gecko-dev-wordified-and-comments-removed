@@ -6929,7 +6929,7 @@ INCOMING_ARABICCHAR
 }
 else
 {
-AutoFallibleTArray
+AutoTArray
 <
 uint8_t
 BIG_TEXT_NODE_SIZE
@@ -10097,7 +10097,7 @@ if
 mDoubleByteText
 )
 {
-AutoFallibleTArray
+AutoTArray
 <
 uint8_t
 BIG_TEXT_NODE_SIZE
@@ -11209,7 +11209,7 @@ gfxTextRun
 aTextRun
 )
 {
-AutoFallibleTArray
+AutoTArray
 <
 uint8_t
 BIG_TEXT_NODE_SIZE
@@ -11721,7 +11721,7 @@ if
 mDoubleByteText
 )
 {
-AutoFallibleTArray
+AutoTArray
 <
 uint8_t
 BIG_TEXT_NODE_SIZE
@@ -29234,7 +29234,7 @@ DrawPathCallbacks
 aCallbacks
 )
 {
-AutoFallibleTArray
+AutoTArray
 <
 SelectionDetails
 *
@@ -30000,7 +30000,7 @@ ShouldSkipDrawing
 )
 return
 ;
-AutoFallibleTArray
+AutoTArray
 <
 SelectionDetails
 *
@@ -38974,7 +38974,7 @@ iter
 flowEndInTextRun
 )
 ;
-AutoFallibleTArray
+AutoTArray
 <
 bool
 BIG_TEXT_NODE_SIZE

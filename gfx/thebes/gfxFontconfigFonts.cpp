@@ -485,7 +485,7 @@ aName
 )
 {
 }
-AutoFallibleTArray
+AutoTArray
 <
 nsCountedRef
 <

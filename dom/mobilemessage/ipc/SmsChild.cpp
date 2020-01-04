@@ -1471,7 +1471,7 @@ MOZ_ASSERT
 length
 )
 ;
-AutoFallibleTArray
+AutoTArray
 <
 nsISupports
 *
@@ -1490,7 +1490,7 @@ fallible
 )
 )
 ;
-AutoFallibleTArray
+AutoTArray
 <
 nsCOMPtr
 <
@@ -1612,7 +1612,7 @@ MOZ_ASSERT
 length
 )
 ;
-AutoFallibleTArray
+AutoTArray
 <
 nsISupports
 *
@@ -1631,7 +1631,7 @@ fallible
 )
 )
 ;
-AutoFallibleTArray
+AutoTArray
 <
 nsCOMPtr
 <
