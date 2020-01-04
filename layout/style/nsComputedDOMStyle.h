@@ -3400,6 +3400,9 @@ void
 SetValueToFragmentOrURL
 (
 const
+mozilla
+:
+:
 FragmentOrURL
 *
 aFragmentOrURL

@@ -1594,6 +1594,9 @@ GetMarkerURI
 nsIFrame
 *
 aFrame
+mozilla
+:
+:
 FragmentOrURL
 nsStyleSVG
 :
