@@ -123,11 +123,8 @@ functionDisplayAtom
 const
 ;
 unsigned
-computeLine
+lineOrBytecode
 (
-uint32_t
-*
-column
 )
 const
 ;
