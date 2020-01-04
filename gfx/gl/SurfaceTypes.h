@@ -193,6 +193,7 @@ DXGLInterop2
 Gralloc
 IOSurface
 GLXDrawable
+SharedGLTexture
 Max
 }
 ;

@@ -891,6 +891,12 @@ SurfaceDescriptor
 :
 TSurfaceTextureDescriptor
 :
+case
+SurfaceDescriptor
+:
+:
+TSurfaceDescriptorSharedGLTexture
+:
 return
 CreateTextureHostOGL
 (
