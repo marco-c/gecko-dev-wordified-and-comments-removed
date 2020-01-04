@@ -8446,7 +8446,7 @@ PreloadLocalStorage
 mozilla
 :
 :
-DesktopIntPoint
+CSSIntPoint
 GetScreenXY
 (
 mozilla

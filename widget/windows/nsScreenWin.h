@@ -139,6 +139,15 @@ aContentsScaleFactor
 )
 override
 ;
+NS_IMETHOD
+GetDefaultCSSScaleFactor
+(
+double
+*
+aScaleFactor
+)
+override
+;
 private
 :
 double
