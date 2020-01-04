@@ -26,6 +26,8 @@ sourceeditor
 test
 /
 codemirror
+/
+codemirror
 .
 html
 "

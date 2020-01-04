@@ -25,6 +25,8 @@ sourceeditor
 /
 test
 /
+codemirror
+/
 vimemacs
 .
 html
