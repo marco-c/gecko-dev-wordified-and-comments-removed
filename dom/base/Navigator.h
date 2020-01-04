@@ -283,6 +283,9 @@ LegacyMozTCPSocket
 class
 VRDisplay
 ;
+class
+StorageManager
+;
 namespace
 time
 {
@@ -1120,6 +1123,12 @@ MozE10sEnabled
 (
 )
 ;
+StorageManager
+*
+Storage
+(
+)
+;
 static
 void
 GetAcceptLanguages
@@ -1568,6 +1577,12 @@ nsTArray
 uint32_t
 >
 mRequestedVibrationPattern
+;
+RefPtr
+<
+StorageManager
+>
+mStorageManager
 ;
 }
 ;

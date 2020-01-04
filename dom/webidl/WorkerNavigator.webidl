@@ -82,3 +82,7 @@ WorkerNavigator
 implements
 NavigatorConcurrentHardware
 ;
+WorkerNavigator
+implements
+NavigatorStorage
+;

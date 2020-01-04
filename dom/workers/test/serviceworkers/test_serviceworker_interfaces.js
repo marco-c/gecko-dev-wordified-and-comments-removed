@@ -428,6 +428,9 @@ ServiceWorkerGlobalScope
 ServiceWorkerRegistration
 "
 "
+StorageManager
+"
+"
 SubtleCrypto
 "
 "

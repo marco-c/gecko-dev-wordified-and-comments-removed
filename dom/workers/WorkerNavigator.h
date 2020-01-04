@@ -42,6 +42,9 @@ class
 Promise
 ;
 class
+StorageManager
+;
+class
 WorkerNavigator
 final
 :
@@ -61,6 +64,12 @@ NavigatorProperties
 ;
 NavigatorProperties
 mProperties
+;
+RefPtr
+<
+StorageManager
+>
+mStorageManager
 ;
 bool
 mOnline
@@ -344,6 +353,12 @@ HardwareConcurrency
 (
 )
 const
+;
+StorageManager
+*
+Storage
+(
+)
 ;
 }
 ;

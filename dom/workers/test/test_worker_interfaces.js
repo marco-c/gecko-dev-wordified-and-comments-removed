@@ -384,6 +384,9 @@ b2g
 false
 }
 "
+StorageManager
+"
+"
 SubtleCrypto
 "
 "
