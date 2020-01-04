@@ -224,10 +224,10 @@ is
 (
 deviceListBefore
 .
-length
+size
 deviceListAfter
 .
-length
+size
 "
 Got
 expected
@@ -244,7 +244,7 @@ ok
 !
 deviceListAfter
 .
-includes
+has
 (
 value
 )

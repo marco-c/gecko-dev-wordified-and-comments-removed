@@ -172,7 +172,7 @@ is
 (
 deviceList
 .
-length
+size
 checkedCbs
 .
 length
@@ -199,7 +199,7 @@ ok
 (
 deviceList
 .
-includes
+has
 (
 cb
 .
@@ -341,7 +341,7 @@ ok
 (
 deviceList
 .
-includes
+has
 (
 value
 )
@@ -394,7 +394,7 @@ length
 2
 deviceList
 .
-length
+size
 "
 Got
 expected
