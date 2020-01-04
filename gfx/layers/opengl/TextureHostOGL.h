@@ -2110,6 +2110,14 @@ mTextureSource
 ;
 }
 ;
+bool
+AssertGLCompositor
+(
+Compositor
+*
+aCompositor
+)
+;
 }
 }
 #
