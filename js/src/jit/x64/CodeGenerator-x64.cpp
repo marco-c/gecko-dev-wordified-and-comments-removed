@@ -329,6 +329,12 @@ type
 )
 )
 {
+ScratchDoubleScope
+scratch
+(
+masm
+)
+;
 FloatRegister
 reg
 =
@@ -355,12 +361,12 @@ masm
 convertFloat32ToDouble
 (
 reg
-ScratchDoubleReg
+scratch
 )
 ;
 reg
 =
-ScratchDoubleReg
+scratch
 ;
 }
 masm
@@ -786,6 +792,12 @@ jsop
 JSOP_STRICTNE
 )
 ;
+ScratchRegisterScope
+scratch
+(
+masm
+)
+;
 if
 (
 rhs
@@ -806,7 +818,7 @@ rhs
 toConstant
 (
 )
-ScratchReg
+scratch
 )
 ;
 else
@@ -819,7 +831,7 @@ ToRegister
 (
 rhs
 )
-ScratchReg
+scratch
 )
 ;
 masm
@@ -831,7 +843,7 @@ lhs
 valueReg
 (
 )
-ScratchReg
+scratch
 )
 ;
 masm
@@ -928,6 +940,12 @@ jsop
 JSOP_STRICTNE
 )
 ;
+ScratchRegisterScope
+scratch
+(
+masm
+)
+;
 if
 (
 rhs
@@ -948,7 +966,7 @@ rhs
 toConstant
 (
 )
-ScratchReg
+scratch
 )
 ;
 else
@@ -961,7 +979,7 @@ ToRegister
 (
 rhs
 )
-ScratchReg
+scratch
 )
 ;
 masm
@@ -973,7 +991,7 @@ lhs
 valueReg
 (
 )
-ScratchReg
+scratch
 )
 ;
 emitBranch
