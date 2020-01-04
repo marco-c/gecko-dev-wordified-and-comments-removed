@@ -283,6 +283,16 @@ aY
 )
 {
 }
+virtual
+void
+SetScrollingRootContent
+(
+const
+bool
+isRootContent
+)
+{
+}
 GeckoContentController
 (
 )
