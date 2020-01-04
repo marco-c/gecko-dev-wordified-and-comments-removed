@@ -529,6 +529,12 @@ deferred
 .
 promise
 ;
+yield
+registerTestActor
+(
+client
+)
+;
 return
 getTestActor
 (
