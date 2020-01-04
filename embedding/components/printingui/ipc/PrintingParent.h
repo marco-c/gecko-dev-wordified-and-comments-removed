@@ -71,6 +71,9 @@ parent
 PPrintProgressDialogParent
 *
 printProgressDialog
+PRemotePrintJobParent
+*
+remotePrintJob
 const
 bool
 &

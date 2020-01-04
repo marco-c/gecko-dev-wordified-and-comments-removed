@@ -147,6 +147,8 @@ PBrowser
 browser
 PPrintProgressDialog
 printProgressDialog
+PRemotePrintJob
+remotePrintJob
 bool
 isForPrinting
 )
