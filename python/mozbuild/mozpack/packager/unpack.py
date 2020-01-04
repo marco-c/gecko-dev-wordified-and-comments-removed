@@ -346,7 +346,7 @@ p
                     
 self
 .
-_fill_with_omnijar
+_fill_with_jar
 (
 base
 jar
@@ -434,6 +434,46 @@ f
 m
             
 if
+p
+.
+endswith
+(
+'
+.
+xpi
+'
+)
+and
+self
+.
+_maybe_zip
+(
+f
+)
+:
+                
+self
+.
+_fill_with_jar
+(
+p
+[
+:
+-
+4
+]
+self
+.
+_open_jar
+(
+p
+f
+)
+)
+                
+continue
+            
+if
 not
 p
 in
@@ -451,7 +491,7 @@ f
 )
     
 def
-_fill_with_omnijar
+_fill_with_jar
 (
 self
 base
