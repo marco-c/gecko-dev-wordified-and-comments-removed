@@ -1345,6 +1345,14 @@ lir
 )
 ;
 void
+visitNewTypedArrayDynamicLength
+(
+LNewTypedArrayDynamicLength
+*
+lir
+)
+;
+void
 visitNewObjectVMCall
 (
 LNewObject
