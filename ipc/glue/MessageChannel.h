@@ -420,7 +420,7 @@ empty
 )
 ;
 }
-void
+bool
 CancelCurrentTransaction
 (
 )
