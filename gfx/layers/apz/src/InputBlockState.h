@@ -992,6 +992,12 @@ bool
 aApzcCanConsumeEvents
 )
 ;
+uint32_t
+GetActiveTouchCount
+(
+)
+const
+;
 bool
 HasEvents
 (
