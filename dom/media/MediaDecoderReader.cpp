@@ -77,11 +77,6 @@ include
 <
 algorithm
 >
-#
-include
-<
-list
->
 using
 namespace
 mozilla
