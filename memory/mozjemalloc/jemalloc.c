@@ -83,7 +83,7 @@ endif
 define
 MALLOC_VALIDATE
 #
-undef
+define
 MALLOC_PROTECTED_REGIONS
 #
 if
