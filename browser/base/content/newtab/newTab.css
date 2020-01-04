@@ -1865,6 +1865,10 @@ start
 -
 1px
 ;
+color
+:
+transparent
+;
 background
 :
 url
@@ -2021,10 +2025,6 @@ hsla
 .
 2
 )
-;
-color
-:
-inherit
 ;
 cursor
 :
@@ -2192,10 +2192,6 @@ color
 45a3e7
 #
 3294d5
-;
-color
-:
-white
 ;
 }
 #

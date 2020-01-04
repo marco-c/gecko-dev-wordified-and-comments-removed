@@ -4594,13 +4594,10 @@ NOTE
 contentSearchInput
 .
 label
-contentSearchSubmit
-.
-label
 )
 :
-These
-are
+This
+is
 set
 as
 the
@@ -4613,9 +4610,6 @@ the
 search
 input
 box
-and
-submit
-button
 in
 the
 in
@@ -4649,7 +4643,7 @@ query
 ENTITY
 contentSearchSubmit
 .
-label
+tooltip
 "
 Submit
 search
