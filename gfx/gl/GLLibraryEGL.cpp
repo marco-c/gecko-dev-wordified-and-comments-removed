@@ -851,6 +851,8 @@ init
 MOZ_CRASH
 (
 "
+GFX
+:
 Tls
 init
 failed

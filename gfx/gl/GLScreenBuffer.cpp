@@ -869,6 +869,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 target
 for
@@ -2016,6 +2018,8 @@ else
 MOZ_CRASH
 (
 "
+GFX
+:
 No
 available
 blit
@@ -2847,6 +2851,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 value
 .
@@ -3908,9 +3914,12 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Unknown
 attachment
 type
+create
 ?
 "
 )
@@ -4219,9 +4228,12 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Unknown
 attachment
 type
+attach
 ?
 "
 )
@@ -4358,6 +4370,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 value
 .
