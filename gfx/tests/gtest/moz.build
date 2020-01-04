@@ -117,11 +117,6 @@ gfxWordCacheTest
 cpp
 '
 '
-TestArena
-.
-cpp
-'
-'
 TestBufferRotation
 .
 cpp
@@ -143,11 +138,6 @@ cpp
 '
 '
 TestGfxWidgets
-.
-cpp
-'
-'
-TestJobScheduler
 .
 cpp
 '
