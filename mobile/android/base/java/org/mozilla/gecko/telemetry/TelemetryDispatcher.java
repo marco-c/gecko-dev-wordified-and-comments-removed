@@ -30,7 +30,7 @@ gecko
 .
 telemetry
 .
-core
+pingbuilders
 .
 TelemetryCorePingBuilder
 ;

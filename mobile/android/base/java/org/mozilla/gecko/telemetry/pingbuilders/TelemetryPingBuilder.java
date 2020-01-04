@@ -6,6 +6,8 @@ mozilla
 gecko
 .
 telemetry
+.
+pingbuilders
 ;
 import
 org
@@ -28,6 +30,17 @@ sync
 ExtendedJSONObject
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+telemetry
+.
+TelemetryPing
+;
+import
 java
 .
 util
@@ -41,7 +54,6 @@ util
 .
 UUID
 ;
-public
 abstract
 class
 TelemetryPingBuilder
