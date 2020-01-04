@@ -293,7 +293,9 @@ loadExtension
 {
 useAddonManager
 :
-true
+"
+temporary
+"
 manifest
 :
 {
