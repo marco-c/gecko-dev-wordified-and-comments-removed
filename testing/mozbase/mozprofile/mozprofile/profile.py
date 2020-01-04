@@ -2483,16 +2483,6 @@ dummy
 /
 '
                    
-'
-toolkit
-.
-telemetry
-.
-unifiedIsOptIn
-'
-:
-True
-                   
 }
 class
 MetroFirefoxProfile

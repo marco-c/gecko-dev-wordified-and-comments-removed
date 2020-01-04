@@ -5679,11 +5679,6 @@ telemetryEnabled
 Utils
 .
 isTelemetryEnabled
-isInOptoutSample
-:
-TelemetryController
-.
-isInOptoutSample
 locale
 :
 getBrowserLocale
