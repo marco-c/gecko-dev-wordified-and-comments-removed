@@ -6197,7 +6197,6 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
-virtual
 void
 ConfigureLayer
 (
@@ -6209,8 +6208,6 @@ ContainerLayerParameters
 &
 aParameters
 )
-=
-0
 ;
 virtual
 already_AddRefed
@@ -7764,20 +7761,6 @@ virtual
 nsRect
 GetDestRect
 (
-)
-override
-;
-virtual
-void
-ConfigureLayer
-(
-ImageLayer
-*
-aLayer
-const
-ContainerLayerParameters
-&
-aParameters
 )
 override
 ;
