@@ -135,6 +135,17 @@ return
 crashed_on_startup
 "
 ;
+case
+FeatureStatus
+:
+:
+Broken
+:
+return
+"
+broken
+"
+;
 default
 :
 MOZ_ASSERT_UNREACHABLE

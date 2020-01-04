@@ -246,6 +246,16 @@ aDisableMessage
 ;
 }
 static
+void
+Reenable
+(
+Feature
+aFeature
+Fallback
+aFallback
+)
+;
+static
 bool
 InitOrUpdate
 (
