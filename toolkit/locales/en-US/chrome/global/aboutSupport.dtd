@@ -646,6 +646,16 @@ Workers
 ENTITY
 aboutSupport
 .
+appBasicsProfiles
+"
+Profiles
+"
+>
+<
+!
+ENTITY
+aboutSupport
+.
 appBasicsMultiProcessSupport
 "
 Multiprocess
