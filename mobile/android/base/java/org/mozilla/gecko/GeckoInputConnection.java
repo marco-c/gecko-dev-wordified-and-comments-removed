@@ -101,6 +101,13 @@ AssertBehavior
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 Context
@@ -2154,6 +2161,12 @@ Configuration
 KEYBOARD_NOKEYS
 ;
 }
+SuppressLint
+(
+"
+Override
+"
+)
 public
 Handler
 getHandler
