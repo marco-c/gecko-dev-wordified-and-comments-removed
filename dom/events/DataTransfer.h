@@ -924,7 +924,7 @@ aIndex
 ;
 FileList
 *
-GetFileListInternal
+GetFilesInternal
 (
 ErrorResult
 &
@@ -1041,7 +1041,7 @@ RefPtr
 <
 FileList
 >
-mFileList
+mFiles
 ;
 nsCOMPtr
 <

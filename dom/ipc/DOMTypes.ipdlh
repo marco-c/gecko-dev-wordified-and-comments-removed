@@ -313,6 +313,9 @@ length
 int64_t
 modDate
 ;
+uint32_t
+dirState
+;
 /
 /
 This

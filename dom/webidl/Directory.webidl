@@ -266,9 +266,6 @@ directory
 .
 *
 /
-[
-Throws
-]
 readonly
 attribute
 DOMString
@@ -1039,9 +1036,6 @@ content
 .
 *
 /
-[
-Throws
-]
 readonly
 attribute
 DOMString
@@ -1061,9 +1055,6 @@ directory
 .
 *
 /
-[
-Throws
-]
 Promise
 <
 sequence
