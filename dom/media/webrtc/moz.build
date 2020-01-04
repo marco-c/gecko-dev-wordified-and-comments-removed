@@ -257,11 +257,6 @@ MediaEngineWebRTCAudio
 cpp
 '
 '
-MediaTrackConstraints
-.
-cpp
-'
-'
 RTCCertificate
 .
 cpp
@@ -422,6 +417,11 @@ UNIFIED_SOURCES
 [
 '
 MediaEngineDefault
+.
+cpp
+'
+'
+MediaTrackConstraints
 .
 cpp
 '

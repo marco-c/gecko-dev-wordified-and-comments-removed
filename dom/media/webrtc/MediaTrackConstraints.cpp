@@ -7,6 +7,17 @@ h
 "
 #
 include
+"
+mozilla
+/
+dom
+/
+MediaStreamTrackBinding
+.
+h
+"
+#
+include
 <
 limits
 >
@@ -733,6 +744,9 @@ GetAsBoolean
 else
 {
 const
+dom
+:
+:
 ConstrainBooleanParameters
 &
 r
@@ -981,6 +995,9 @@ StringRange
 SetFrom
 (
 const
+dom
+:
+:
 ConstrainDOMStringParameters
 &
 aOther
@@ -1588,6 +1605,9 @@ list
 NormalizedConstraints
 dummy
 (
+dom
+:
+:
 MediaTrackConstraints
 (
 )
