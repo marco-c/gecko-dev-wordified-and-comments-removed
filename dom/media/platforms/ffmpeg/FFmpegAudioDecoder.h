@@ -82,8 +82,8 @@ aSample
 override
 ;
 virtual
-nsresult
-Drain
+void
+ProcessDrain
 (
 )
 override
@@ -107,10 +107,6 @@ MediaRawData
 *
 aSample
 )
-;
-MediaDataDecoderCallback
-*
-mCallback
 ;
 }
 ;
