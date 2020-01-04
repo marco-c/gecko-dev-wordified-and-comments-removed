@@ -24871,9 +24871,6 @@ yes
 MOZ_CONFIG_ICU
 (
 )
-MOZ_SUBCONFIGURE_ICU
-(
-)
 dnl
 =
 =
