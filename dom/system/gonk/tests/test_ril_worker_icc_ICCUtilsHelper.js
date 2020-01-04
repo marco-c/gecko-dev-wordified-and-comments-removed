@@ -1645,6 +1645,7 @@ iccInfoPrivate
 .
 cphsSt
 =
+new
 Uint8Array
 (
 2
