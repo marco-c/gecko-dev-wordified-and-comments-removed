@@ -607,14 +607,6 @@ mozLoop
 }
 )
 ;
-loop
-.
-conversation
-.
-_sdkDriver
-=
-sdkDriver
-;
 var
 conversationAppStore
 =
