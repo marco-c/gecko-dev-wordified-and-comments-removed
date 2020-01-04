@@ -214,16 +214,6 @@ build
 /
 mozconfig
 .
-rust
-"
-.
-"
-topsrcdir
-/
-build
-/
-mozconfig
-.
 common
 .
 override
