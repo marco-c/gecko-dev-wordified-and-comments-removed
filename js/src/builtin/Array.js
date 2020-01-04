@@ -1478,8 +1478,11 @@ void
 var
 A
 =
-[
-]
+ArraySpeciesCreate
+(
+O
+0
+)
 ;
 for
 (
