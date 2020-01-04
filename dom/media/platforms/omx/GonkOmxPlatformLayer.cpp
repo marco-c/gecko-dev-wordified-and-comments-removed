@@ -1718,7 +1718,7 @@ uint32_t
 >
 portindex
 ;
-GetOmxPortIndex
+GetPortIndices
 (
 portindex
 )

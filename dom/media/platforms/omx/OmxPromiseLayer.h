@@ -304,6 +304,16 @@ OMX_U32
 aComponentParameterSize
 )
 ;
+OMX_U32
+InputPortIndex
+(
+)
+;
+OMX_U32
+OutputPortIndex
+(
+)
+;
 nsresult
 Shutdown
 (
