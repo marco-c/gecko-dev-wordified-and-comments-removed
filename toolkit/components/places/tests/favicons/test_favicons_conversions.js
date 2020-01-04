@@ -309,7 +309,7 @@ run_next_test
 add_test
 (
 function
-test_storing_an_oversize_16x16_icon
+test_storing_a_big_16x16_icon
 (
 )
 {
@@ -330,7 +330,7 @@ x
 icon
 "
 1406
-true
+false
 false
 run_next_test
 )

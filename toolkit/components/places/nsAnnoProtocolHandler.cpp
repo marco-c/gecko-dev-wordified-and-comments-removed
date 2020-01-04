@@ -1105,7 +1105,7 @@ outputStream
 nsIFaviconService
 :
 :
-MAX_FAVICON_SIZE
+MAX_FAVICON_BUFFER_SIZE
 true
 true
 )

@@ -1563,15 +1563,7 @@ Length
 (
 )
 >
-MAX_ICON_FILESIZE
-(
-aFaviconSvc
--
->
-GetOptimizedIconDimension
-(
-)
-)
+MAX_FAVICON_FILESIZE
 )
 {
 nsresult
@@ -3017,7 +3009,7 @@ Length
 nsIFaviconService
 :
 :
-MAX_FAVICON_SIZE
+MAX_FAVICON_BUFFER_SIZE
 )
 {
 return
