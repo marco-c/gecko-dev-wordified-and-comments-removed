@@ -2534,6 +2534,9 @@ registerSchemaAPI
 "
 contextMenus
 "
+"
+contextMenus
+"
 (
 extension
 context

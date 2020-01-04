@@ -49,15 +49,6 @@ namespace
 notifications
 "
 "
-permissions
-"
-:
-[
-"
-notifications
-"
-]
-"
 types
 "
 :

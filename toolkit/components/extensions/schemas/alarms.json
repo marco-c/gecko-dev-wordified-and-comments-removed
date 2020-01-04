@@ -49,15 +49,6 @@ namespace
 alarms
 "
 "
-permissions
-"
-:
-[
-"
-alarms
-"
-]
-"
 types
 "
 :

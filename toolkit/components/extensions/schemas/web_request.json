@@ -135,15 +135,6 @@ flight
 .
 "
 "
-permissions
-"
-:
-[
-"
-webRequest
-"
-]
-"
 properties
 "
 :

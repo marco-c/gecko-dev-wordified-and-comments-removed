@@ -108,6 +108,7 @@ registerSchemaAPI
 "
 windows
 "
+null
 (
 extension
 context

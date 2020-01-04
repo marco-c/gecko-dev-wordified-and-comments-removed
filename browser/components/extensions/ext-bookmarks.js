@@ -467,6 +467,9 @@ registerSchemaAPI
 "
 bookmarks
 "
+"
+bookmarks
+"
 (
 extension
 context
