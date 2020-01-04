@@ -642,7 +642,12 @@ pageUrl
 .
 equals
 (
+ReaderModeUtils
+.
+stripAboutReaderUrl
+(
 tabUrl
+)
 )
 &
 &
@@ -651,7 +656,12 @@ pageUrl
 .
 equals
 (
+ReaderModeUtils
+.
+stripAboutReaderUrl
+(
 data
+)
 )
 )
 {
