@@ -860,12 +860,20 @@ result
 raise
 Exception
 (
+                
 '
-Error
-creating
+Failed
+to
+create
 virtualenv
-.
+:
+%
+s
 '
+%
+self
+.
+virtualenv_root
 )
         
 return
