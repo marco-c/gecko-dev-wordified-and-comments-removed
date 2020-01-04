@@ -54,6 +54,12 @@ using
 gfx
 :
 :
+IntSize
+;
+using
+gfx
+:
+:
 SamplingFilter
 ;
 using

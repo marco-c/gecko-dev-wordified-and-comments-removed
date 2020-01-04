@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsDebug
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Likely

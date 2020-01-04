@@ -13,6 +13,15 @@ Maybe
 .
 h
 "
+#
+include
+"
+mozilla
+/
+RefPtr
+.
+h
+"
 class
 nsIDocument
 ;
