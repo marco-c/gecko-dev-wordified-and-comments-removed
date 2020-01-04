@@ -4344,6 +4344,8 @@ IPCDataTransfer
 aDataTransfer
 bool
 aIsPrivateData
+Principal
+aRequestingPrincipal
 int32_t
 aWhichClipboard
 )
