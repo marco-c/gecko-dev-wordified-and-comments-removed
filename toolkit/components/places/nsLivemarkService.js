@@ -2749,8 +2749,6 @@ uri
 this
 .
 feedURI
-.
-spec
 loadingPrincipal
 :
 Services
@@ -2765,6 +2763,13 @@ feedURI
 {
 }
 )
+securityFlags
+:
+Ci
+.
+nsILoadInfo
+.
+SEC_REQUIRE_SAME_ORIGIN_DATA_IS_BLOCKED
 contentPolicyType
 :
 Ci
@@ -2845,10 +2850,9 @@ listener
 ;
 channel
 .
-asyncOpen
+asyncOpen2
 (
 listener
-null
 )
 ;
 this
