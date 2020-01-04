@@ -74,6 +74,13 @@ types
 DevToolsModules
 (
 '
+collapse
+-
+button
+.
+js
+'
+'
 console
 -
 output
