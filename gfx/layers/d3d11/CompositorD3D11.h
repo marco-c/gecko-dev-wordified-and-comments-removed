@@ -673,6 +673,17 @@ aSeverity
 DebugAssert
 )
 ;
+bool
+Failed
+(
+HRESULT
+hr
+const
+char
+*
+aContext
+)
+;
 void
 EnsureSize
 (
