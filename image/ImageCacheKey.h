@@ -14,7 +14,7 @@ Maybe
 h
 "
 class
-nsIDOMDocument
+nsIDocument
 ;
 class
 nsIURI
@@ -39,7 +39,7 @@ ImageCacheKey
 nsIURI
 *
 aURI
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 )
@@ -49,7 +49,7 @@ ImageCacheKey
 ImageURL
 *
 aURI
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 )
@@ -147,7 +147,7 @@ void
 *
 GetControlledDocumentToken
 (
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 )
