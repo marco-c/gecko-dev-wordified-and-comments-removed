@@ -3589,6 +3589,8 @@ PRenderFrame
 renderFrame
 bool
 parentIsActive
+nsSizeMode
+sizeMode
 )
 ;
 async
@@ -3627,8 +3629,6 @@ CSSRect
 rect
 CSSSize
 size
-nsSizeMode
-sizeMode
 ScreenOrientationInternal
 orientation
 LayoutDeviceIntPoint
@@ -3641,6 +3641,13 @@ UpdateFrame
 (
 FrameMetrics
 frame
+)
+;
+async
+SizeModeChanged
+(
+nsSizeMode
+sizeMode
 )
 ;
 /
