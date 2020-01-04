@@ -40504,6 +40504,9 @@ principalToAllowFocusFor
 &
 &
 allowFocusCheckbox
+&
+&
+allowFocusCheckbox
 .
 checked
 )
