@@ -3792,7 +3792,7 @@ LOG_FONTINIT_ENABLED
 )
 )
 {
-GetTimeFormat
+GetTimeFormatA
 (
 LOCALE_INVARIANT
 TIME_FORCE24HOURFORMAT
@@ -3802,7 +3802,7 @@ nowTime
 256
 )
 ;
-GetDateFormat
+GetDateFormatA
 (
 LOCALE_INVARIANT
 0
