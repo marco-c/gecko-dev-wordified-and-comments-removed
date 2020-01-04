@@ -453,6 +453,16 @@ update
 ;
 exports
 .
+ON_DEVICE_DISCONNECTED_NOTIFICATION
+=
+"
+fxaccounts
+:
+device_disconnected
+"
+;
+exports
+.
 FXA_PUSH_SCOPE_ACCOUNT_UPDATE
 =
 "
