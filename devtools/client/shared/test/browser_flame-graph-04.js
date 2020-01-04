@@ -19,7 +19,7 @@ xhtml
 ;
 var
 {
-LocalizationHelper
+ELLIPSIS
 }
 =
 require
@@ -93,14 +93,6 @@ widgets
 /
 FlameGraph
 "
-)
-;
-var
-L10N
-=
-new
-LocalizationHelper
-(
 )
 ;
 add_task
@@ -223,9 +215,7 @@ graph
 _overflowCharWidth
 getCharWidth
 (
-L10N
-.
-ellipsis
+ELLIPSIS
 )
 "
 The
@@ -415,9 +405,7 @@ text50px
 .
 includes
 (
-L10N
-.
-ellipsis
+ELLIPSIS
 )
 "
 The
@@ -446,9 +434,7 @@ FLAME_GRAPH_BLOCK_TEXT_FONT_SIZE
 +
 1
 )
-L10N
-.
-ellipsis
+ELLIPSIS
 "
 The
 fitted

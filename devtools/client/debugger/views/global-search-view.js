@@ -2604,9 +2604,7 @@ setAttribute
 "
 value
 "
-L10N
-.
-ellipsis
+ELLIPSIS
 )
 ;
 return

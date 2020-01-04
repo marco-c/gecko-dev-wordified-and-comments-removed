@@ -989,6 +989,7 @@ FastListWidget
 var
 {
 LocalizationHelper
+ELLIPSIS
 }
 =
 require

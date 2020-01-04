@@ -44,7 +44,7 @@ helpers
 ;
 const
 {
-LocalizationHelper
+ELLIPSIS
 }
 =
 require
@@ -270,14 +270,6 @@ frame
 .
 xhtml
 "
-;
-const
-L10N
-=
-new
-LocalizationHelper
-(
-)
 ;
 const
 GRAPH_RESIZE_EVENTS_DRAIN
@@ -1521,9 +1513,7 @@ timelineTickUnits
 "
 overflowChar
 :
-L10N
-.
-ellipsis
+ELLIPSIS
 setData
 :
 function

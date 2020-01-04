@@ -38,6 +38,7 @@ emitter
 const
 {
 LocalizationHelper
+ELLIPSIS
 }
 =
 require
@@ -337,9 +338,7 @@ substr
 ITEM_NAME_MAX_LENGTH
 )
 +
-L10N
-.
-ellipsis
+ELLIPSIS
 ;
 }
 return
