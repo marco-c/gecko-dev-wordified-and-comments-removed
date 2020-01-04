@@ -269,6 +269,7 @@ resources
 )
     
 if
+not
 kwargs
 .
 get
@@ -279,21 +280,12 @@ tests
 )
 :
         
-tests
-=
 kwargs
-.
-get
-(
+[
 '
 tests
 '
-)
-    
-else
-:
-        
-tests
+]
 =
 [
 os
@@ -367,7 +359,12 @@ parse_args
 (
 args
 =
+kwargs
+[
+'
 tests
+'
+]
 )
     
 for
