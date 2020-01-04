@@ -1251,13 +1251,6 @@ Finalize
 (
 )
 ;
-virtual
-void
-FinalizeOnIPDLThread
-(
-)
-{
-}
 friend
 class
 AtomicRefCountedWithFinalize

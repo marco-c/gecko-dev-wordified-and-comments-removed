@@ -383,13 +383,6 @@ IntSize
 aSize
 )
 ;
-virtual
-void
-FinalizeOnIPDLThread
-(
-)
-override
-;
 gfx
 :
 :
@@ -651,13 +644,6 @@ nullptr
 }
 private
 :
-virtual
-void
-FinalizeOnIPDLThread
-(
-)
-override
-;
 RefPtr
 <
 IUnknown

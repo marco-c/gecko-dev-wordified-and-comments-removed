@@ -1049,10 +1049,8 @@ i
 i
 )
 {
-RefPtr
-<
 TextureClient
->
+*
 client
 =
 TextureClient
