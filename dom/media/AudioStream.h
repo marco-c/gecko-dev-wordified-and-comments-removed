@@ -175,6 +175,14 @@ GetPositionInFrames
 )
 const
 ;
+int64_t
+GetPosition
+(
+int64_t
+frames
+)
+const
+;
 void
 SetPlaybackRateUnlocked
 (
