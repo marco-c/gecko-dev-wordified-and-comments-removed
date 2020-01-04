@@ -783,6 +783,10 @@ RemoteTrackSource
 nsIPrincipal
 *
 aPrincipal
+const
+nsString
+&
+aLabel
 )
 :
 dom
@@ -792,6 +796,7 @@ MediaStreamTrackSource
 (
 aPrincipal
 true
+aLabel
 )
 {
 }

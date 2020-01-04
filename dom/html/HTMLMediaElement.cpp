@@ -7920,6 +7920,9 @@ GetCurrentPrincipal
 )
 )
 true
+nsString
+(
+)
 )
 mElement
 (
@@ -8538,9 +8541,6 @@ MediaSegment
 :
 :
 AUDIO
-nsString
-(
-)
 trackSource
 )
 ;
@@ -8588,9 +8588,6 @@ MediaSegment
 :
 :
 VIDEO
-nsString
-(
-)
 trackSource
 )
 ;

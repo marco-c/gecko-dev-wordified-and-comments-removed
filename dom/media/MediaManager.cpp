@@ -3709,6 +3709,10 @@ LocalTrackSource
 nsIPrincipal
 *
 aPrincipal
+const
+nsString
+&
+aLabel
 GetUserMediaCallbackMediaStreamListener
 *
 aListener
@@ -3728,6 +3732,7 @@ MediaStreamTrackSource
 (
 aPrincipal
 false
+aLabel
 )
 mListener
 (
@@ -4097,6 +4102,7 @@ new
 LocalTrackSource
 (
 principal
+audioDeviceName
 mListener
 source
 kAudioTrack
@@ -4113,7 +4119,6 @@ MediaSegment
 :
 :
 AUDIO
-audioDeviceName
 audioSource
 )
 ;
@@ -4160,6 +4165,7 @@ new
 LocalTrackSource
 (
 principal
+videoDeviceName
 mListener
 source
 kVideoTrack
@@ -4176,7 +4182,6 @@ MediaSegment
 :
 :
 VIDEO
-videoDeviceName
 videoSource
 )
 ;

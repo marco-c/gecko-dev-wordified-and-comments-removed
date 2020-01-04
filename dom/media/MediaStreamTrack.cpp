@@ -328,10 +328,6 @@ TrackID
 aTrackID
 TrackID
 aInputTrackID
-const
-nsString
-&
-aLabel
 MediaStreamTrackSource
 *
 aSource
@@ -361,10 +357,6 @@ aSource
 GetPrincipal
 (
 )
-)
-mLabel
-(
-aLabel
 )
 mEnded
 (

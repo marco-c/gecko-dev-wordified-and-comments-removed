@@ -2527,9 +2527,6 @@ VideoStreamTrack
 this
 aTrackID
 aTrackID
-nsString
-(
-)
 new
 BasicUnstoppableTrackSource
 (
