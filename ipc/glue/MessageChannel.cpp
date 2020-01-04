@@ -736,6 +736,9 @@ EnteredCxxStack
 (
 )
 ;
+if
+(
+!
 mThat
 .
 mCxxStackFrames
@@ -747,6 +750,10 @@ InterruptFrame
 direction
 msg
 )
+)
+)
+MOZ_CRASH
+(
 )
 ;
 const
@@ -3030,6 +3037,9 @@ msg
 )
 )
 {
+if
+(
+!
 toProcess
 .
 append
@@ -3038,6 +3048,10 @@ Move
 (
 msg
 )
+)
+)
+MOZ_CRASH
+(
 )
 ;
 it
