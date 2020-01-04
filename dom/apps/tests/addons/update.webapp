@@ -44,4 +44,12 @@ application
 .
 zip
 "
+"
+id
+"
+:
+"
+webextension
+mochitest
+"
 }
