@@ -107,6 +107,11 @@ SandboxBrokerCommon
 .
 h
 '
+'
+SandboxBrokerPolicyFactory
+.
+h
+'
 ]
 SOURCES
 +
@@ -119,6 +124,11 @@ cpp
 '
 '
 SandboxBrokerCommon
+.
+cpp
+'
+'
+SandboxBrokerPolicyFactory
 .
 cpp
 '
