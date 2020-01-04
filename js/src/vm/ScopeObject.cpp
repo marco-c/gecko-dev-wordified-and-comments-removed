@@ -16596,7 +16596,7 @@ withinInitialFrame
 (
 frame
 .
-thisValue
+thisArgument
 (
 )
 .
@@ -16619,7 +16619,7 @@ set
 (
 frame
 .
-thisValue
+thisArgument
 (
 )
 )

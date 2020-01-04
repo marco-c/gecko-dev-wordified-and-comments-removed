@@ -408,6 +408,15 @@ inspector
 return
 nullptr
 ;
+if
+(
+frame
+-
+>
+isNonEvalFunctionFrame
+(
+)
+)
 inspector
 -
 >
@@ -421,7 +430,7 @@ GetMaybeUntrackedValueType
 frame
 -
 >
-thisValue
+thisArgument
 (
 )
 )

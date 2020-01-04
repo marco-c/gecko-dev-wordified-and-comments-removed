@@ -1663,7 +1663,7 @@ isClassConstructor
 )
 )
 ;
-functionThis
+thisArgument
 (
 )
 =
@@ -1676,7 +1676,7 @@ JS_UNINITIALIZED_LEXICAL
 else
 if
 (
-functionThis
+thisArgument
 (
 )
 .
@@ -1741,7 +1741,7 @@ obj
 return
 false
 ;
-functionThis
+thisArgument
 (
 )
 =
@@ -2053,7 +2053,7 @@ isConstructing
 )
 &
 &
-thisValue
+thisArgument
 (
 )
 .
@@ -2070,16 +2070,15 @@ isPrimitive
 (
 )
 )
+{
 setReturnValue
 (
-ObjectValue
+thisArgument
 (
-constructorThis
-(
-)
 )
 )
 ;
+}
 }
 bool
 InterpreterFrame
@@ -6884,7 +6883,7 @@ Value
 FrameIter
 :
 :
-originalFunctionThis
+thisArgument
 (
 JSContext
 *
@@ -6952,7 +6951,7 @@ jitFrames_
 return
 ionInlineFrames_
 .
-thisValue
+thisArgument
 (
 recover
 )
@@ -6968,7 +6967,7 @@ baselineFrame
 )
 -
 >
-thisValue
+thisArgument
 (
 )
 ;
@@ -6981,7 +6980,7 @@ interpFrame
 )
 -
 >
-thisValue
+thisArgument
 (
 )
 ;
