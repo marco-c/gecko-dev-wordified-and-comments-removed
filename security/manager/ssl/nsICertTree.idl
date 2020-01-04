@@ -202,15 +202,6 @@ long
 index
 )
 ;
-boolean
-isHostPortOverride
-(
-in
-unsigned
-long
-index
-)
-;
 void
 deleteEntryObject
 (
