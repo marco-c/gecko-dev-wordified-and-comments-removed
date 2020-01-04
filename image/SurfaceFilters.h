@@ -433,7 +433,6 @@ InterlaceOffset
 mPass
 )
 ;
-;
 return
 GetRowPointer
 (
