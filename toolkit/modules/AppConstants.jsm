@@ -201,6 +201,17 @@ else
 false
 #
 endif
+MOZ_SWITCHBOARD
+:
+#
+ifdef
+MOZ_SWITCHBOARD
+true
+#
+else
+false
+#
+endif
 MOZ_WEBRTC
 :
 #
