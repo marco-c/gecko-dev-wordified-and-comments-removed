@@ -787,7 +787,7 @@ tasks
 /
 tests
 /
-fx_linux64_cppunit
+fx_linux64_crashtest
 .
 yml
 gaia
