@@ -640,6 +640,7 @@ private
 :
 class
 DocshellEntryMonitor
+final
 :
 public
 JS
