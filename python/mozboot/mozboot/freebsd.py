@@ -200,17 +200,6 @@ packages
 )
 :
         
-if
-self
-.
-which
-(
-'
-pkg
-'
-)
-:
-            
 command
 =
 [
@@ -221,13 +210,13 @@ pkg
 install
 '
 ]
-            
+        
 if
 self
 .
 no_interactive
 :
-                
+            
 command
 .
 append
@@ -237,21 +226,6 @@ append
 y
 '
 )
-        
-else
-:
-            
-command
-=
-[
-'
-pkg_add
-'
-'
--
-Fr
-'
-]
         
 command
 .
