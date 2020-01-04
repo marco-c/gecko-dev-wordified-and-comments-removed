@@ -129,6 +129,8 @@ check_for_crashes
 dump_directory
                       
 symbols_path
+=
+None
                       
 stackwalk_binary
 =
@@ -1014,10 +1016,29 @@ self
 :
         
 if
+not
 self
 .
 symbols_path
-and
+:
+            
+self
+.
+symbols_path
+=
+tempfile
+.
+mkdtemp
+(
+)
+            
+self
+.
+remove_symbols
+=
+True
+        
+if
 mozfile
 .
 is_url
