@@ -345,6 +345,7 @@ now
 )
 ;
 }
+let
 historyObserver
 =
 {
