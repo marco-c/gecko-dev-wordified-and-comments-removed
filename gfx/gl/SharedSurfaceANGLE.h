@@ -124,10 +124,6 @@ IDXGIKeyedMutex
 >
 mKeyedMutex
 ;
-const
-GLuint
-mFence
-;
 SharedSurface_ANGLEShareHandle
 (
 GLContext
@@ -156,8 +152,6 @@ IDXGIKeyedMutex
 >
 &
 keyedMutex
-GLuint
-fence
 )
 ;
 EGLDisplay
