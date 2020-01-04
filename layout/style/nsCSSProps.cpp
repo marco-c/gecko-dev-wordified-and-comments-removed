@@ -12325,8 +12325,8 @@ gColumnsSubpropTable
 ]
 =
 {
-eCSSProperty__moz_column_count
-eCSSProperty__moz_column_width
+eCSSProperty_column_count
+eCSSProperty_column_width
 eCSSProperty_UNKNOWN
 }
 ;
@@ -12338,9 +12338,9 @@ gColumnRuleSubpropTable
 ]
 =
 {
-eCSSProperty__moz_column_rule_width
-eCSSProperty__moz_column_rule_style
-eCSSProperty__moz_column_rule_color
+eCSSProperty_column_rule_width
+eCSSProperty_column_rule_style
+eCSSProperty_column_rule_color
 eCSSProperty_UNKNOWN
 }
 ;

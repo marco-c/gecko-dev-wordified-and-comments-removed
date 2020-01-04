@@ -3648,7 +3648,7 @@ moz
 column
 -
 count
-_moz_column_count
+column_count
 CSS_PROP_DOMPROP_PREFIXED
 (
 ColumnCount
@@ -3675,7 +3675,7 @@ moz
 column
 -
 fill
-_moz_column_fill
+column_fill
 CSS_PROP_DOMPROP_PREFIXED
 (
 ColumnFill
@@ -3696,7 +3696,7 @@ moz
 column
 -
 gap
-_moz_column_gap
+column_gap
 CSS_PROP_DOMPROP_PREFIXED
 (
 ColumnGap
@@ -3727,7 +3727,7 @@ moz
 column
 -
 rule
-_moz_column_rule
+column_rule
 CSS_PROP_DOMPROP_PREFIXED
 (
 ColumnRule
@@ -3746,7 +3746,7 @@ column
 rule
 -
 color
-_moz_column_rule_color
+column_rule_color
 CSS_PROP_DOMPROP_PREFIXED
 (
 ColumnRuleColor
@@ -3771,7 +3771,7 @@ column
 rule
 -
 style
-_moz_column_rule_style
+column_rule_style
 CSS_PROP_DOMPROP_PREFIXED
 (
 ColumnRuleStyle
@@ -3794,7 +3794,7 @@ column
 rule
 -
 width
-_moz_column_rule_width
+column_rule_width
 CSS_PROP_DOMPROP_PREFIXED
 (
 ColumnRuleWidth
@@ -3819,7 +3819,7 @@ moz
 column
 -
 width
-_moz_column_width
+column_width
 CSS_PROP_DOMPROP_PREFIXED
 (
 ColumnWidth
@@ -3846,7 +3846,7 @@ CSS_PROP_SHORTHAND
 moz
 -
 columns
-_moz_columns
+columns
 CSS_PROP_DOMPROP_PREFIXED
 (
 Columns

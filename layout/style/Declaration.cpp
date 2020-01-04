@@ -4005,7 +4005,7 @@ case
 eCSSProperty_border_block_end
 :
 case
-eCSSProperty__moz_column_rule
+eCSSProperty_column_rule
 :
 case
 eCSSProperty_outline
@@ -6610,7 +6610,7 @@ break
 ;
 }
 case
-eCSSProperty__moz_columns
+eCSSProperty_columns
 :
 {
 const
