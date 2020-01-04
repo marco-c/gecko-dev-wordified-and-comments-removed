@@ -3840,17 +3840,6 @@ get
 }
 #
 endif
-struct
-KeyframeValue
-{
-nsCSSProperty
-mProperty
-;
-StyleAnimationValue
-mValue
-;
-}
-;
 already_AddRefed
 <
 KeyframeEffectReadOnly
