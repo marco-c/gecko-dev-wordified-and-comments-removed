@@ -547,6 +547,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsIGfxInfo
 .
 h
