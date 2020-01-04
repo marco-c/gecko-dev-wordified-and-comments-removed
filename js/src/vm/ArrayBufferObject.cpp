@@ -411,7 +411,6 @@ ClassExtension
 ArrayBufferObjectClassExtension
 =
 {
-false
 nullptr
 ArrayBufferObject
 :

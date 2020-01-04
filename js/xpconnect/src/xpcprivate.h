@@ -786,7 +786,7 @@ return
 clazz
 -
 >
-extIsWrappedNative
+isWrappedNative
 (
 )
 ;

@@ -4290,7 +4290,6 @@ OuterWindowProxyClassExtension
 =
 PROXY_MAKE_EXT
 (
-false
 nsOuterWindowProxy
 :
 :

@@ -3014,13 +3014,6 @@ sClassExtension
 =
 {
               
-false
-/
-*
-isWrappedNative
-*
-/
-              
 nullptr
 /
 *
@@ -3432,13 +3425,6 @@ sClassExtension
 =
 PROXY_MAKE_EXT
 (
-                
-false
-/
-*
-isWrappedNative
-*
-/
                 
 {
 objectMoved

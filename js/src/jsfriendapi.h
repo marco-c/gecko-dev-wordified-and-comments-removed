@@ -1201,13 +1201,10 @@ ProxyObjectOps
 define
 PROXY_MAKE_EXT
 (
-isWrappedNative
 objectMoved
 )
 \
 {
-\
-isWrappedNative
 \
 js
 :

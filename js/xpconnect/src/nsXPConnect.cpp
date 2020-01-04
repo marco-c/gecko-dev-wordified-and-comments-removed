@@ -1809,7 +1809,7 @@ clasp
 )
 -
 >
-extIsWrappedNative
+isWrappedNative
 (
 )
 )

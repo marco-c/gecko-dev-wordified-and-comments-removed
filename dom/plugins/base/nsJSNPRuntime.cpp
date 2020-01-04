@@ -1083,7 +1083,6 @@ ClassExtension
 sNPObjectJSWrapperClassExtension
 =
 {
-false
 nullptr
 NPObjWrapper_ObjectMoved
 }

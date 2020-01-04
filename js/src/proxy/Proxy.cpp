@@ -4437,7 +4437,6 @@ ProxyClassExtension
 =
 PROXY_MAKE_EXT
 (
-false
 js
 :
 :

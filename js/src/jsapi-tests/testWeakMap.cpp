@@ -766,7 +766,6 @@ ClassExtension
 keyClassExtension
 =
 {
-false
 GetKeyDelegate
 }
 ;
@@ -926,7 +925,6 @@ ClassExtension
 delegateClassExtension
 =
 {
-false
 nullptr
 DelegateObjectMoved
 }

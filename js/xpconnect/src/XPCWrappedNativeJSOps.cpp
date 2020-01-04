@@ -2970,7 +2970,6 @@ ClassExtension
 XPC_WN_JSClassExtension
 =
 {
-true
 nullptr
 WrappedNativeObjectMoved
 }
@@ -2987,6 +2986,8 @@ XPC_WN_NoHelper_JSClass
 XPCWrappedNative_NoHelper
 "
 WRAPPER_FLAGS
+|
+JSCLASS_IS_WRAPPED_NATIVE
 |
 JSCLASS_PRIVATE_IS_NSISUPPORTS
 XPC_WN_OnlyIWrite_AddPropertyStub
@@ -4563,6 +4564,8 @@ flags
 WRAPPER_FLAGS
 |
 JSCLASS_PRIVATE_IS_NSISUPPORTS
+|
+JSCLASS_IS_WRAPPED_NATIVE
 ;
 if
 (
@@ -5961,7 +5964,6 @@ ClassExtension
 XPC_WN_Shared_Proto_ClassExtension
 =
 {
-false
 nullptr
 XPC_WN_Shared_Proto_ObjectMoved
 }
@@ -6688,7 +6690,6 @@ ClassExtension
 XPC_WN_Tearoff_JSClassExtension
 =
 {
-false
 nullptr
 XPC_WN_TearOff_ObjectMoved
 }

@@ -9080,7 +9080,6 @@ ClassExtension
 UnboxedArrayObjectClassExtension
 =
 {
-false
 nullptr
 UnboxedArrayObject
 :
