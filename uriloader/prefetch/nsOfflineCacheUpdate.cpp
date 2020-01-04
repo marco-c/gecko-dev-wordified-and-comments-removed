@@ -2785,7 +2785,6 @@ n
 '
 )
 {
-nsresult
 rv
 =
 manifest
