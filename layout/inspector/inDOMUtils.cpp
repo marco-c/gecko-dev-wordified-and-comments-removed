@@ -5580,12 +5580,12 @@ nsIAtom
 array
 ;
 const
-uint8_t
+CSSPseudoElementTypeBase
 pseudoCount
 =
 static_cast
 <
-uint8_t
+CSSPseudoElementTypeBase
 >
 (
 CSSPseudoElementType
@@ -5596,7 +5596,7 @@ Count
 ;
 for
 (
-uint8_t
+CSSPseudoElementTypeBase
 i
 =
 0

@@ -385,7 +385,7 @@ NS_STYLE_CONTEXT_TYPE_SHIFT
 =
 static_cast
 <
-uint8_t
+CSSPseudoElementTypeBase
 >
 (
 CSSPseudoElementType

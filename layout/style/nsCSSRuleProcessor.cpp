@@ -4244,7 +4244,7 @@ mPseudoElementRuleHashes
 [
 static_cast
 <
-uint8_t
+CSSPseudoElementTypeBase
 >
 (
 CSSPseudoElementType
@@ -11655,7 +11655,7 @@ mPseudoElementRuleHashes
 [
 static_cast
 <
-uint8_t
+CSSPseudoElementTypeBase
 >
 (
 aData
@@ -15000,7 +15000,7 @@ mPseudoElementRuleHashes
 [
 static_cast
 <
-uint8_t
+CSSPseudoElementTypeBase
 >
 (
 pseudoType

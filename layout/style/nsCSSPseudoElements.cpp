@@ -335,7 +335,7 @@ aAtom
 {
 for
 (
-uint8_t
+CSSPseudoElementTypeBase
 i
 =
 0
@@ -456,7 +456,7 @@ CSSPseudoElements_info
 [
 static_cast
 <
-uint8_t
+CSSPseudoElementTypeBase
 >
 (
 aType
@@ -477,12 +477,12 @@ Type
 aType
 )
 {
-uint8_t
+CSSPseudoElementTypeBase
 index
 =
 static_cast
 <
-uint8_t
+CSSPseudoElementTypeBase
 >
 (
 aType

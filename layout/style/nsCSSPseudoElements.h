@@ -59,11 +59,15 @@ CSS_PSEUDO_ELEMENT_UA_SHEET_ONLY
 namespace
 mozilla
 {
+typedef
+uint8_t
+CSSPseudoElementTypeBase
+;
 enum
 class
 CSSPseudoElementType
 :
-uint8_t
+CSSPseudoElementTypeBase
 {
 #
 define
