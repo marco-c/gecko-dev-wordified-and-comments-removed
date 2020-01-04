@@ -9773,7 +9773,7 @@ propagatedScrollFrom
 presContext
 -
 >
-PropagateScrollToViewport
+UpdateViewportScrollbarStylesOverride
 (
 )
 ;
@@ -18364,7 +18364,7 @@ propagatedScrollToViewport
 presContext
 -
 >
-PropagateScrollToViewport
+UpdateViewportScrollbarStylesOverride
 (
 )
 =
