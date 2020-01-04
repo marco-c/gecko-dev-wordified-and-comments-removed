@@ -6341,6 +6341,12 @@ n
 ;
 n
 <
+js
+:
+:
+detail
+:
+:
 PROXY_EXTRA_SLOTS
 ;
 n

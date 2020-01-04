@@ -2062,6 +2062,9 @@ sizeof
 js
 :
 :
+detail
+:
+:
 ProxyValueArray
 )
 %
@@ -2082,6 +2085,9 @@ nDynamicSlots
 sizeof
 (
 js
+:
+:
+detail
 :
 :
 ProxyValueArray
