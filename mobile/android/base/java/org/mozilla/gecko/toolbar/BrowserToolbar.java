@@ -470,6 +470,15 @@ widget
 .
 PopupWindow
 ;
+import
+android
+.
+support
+.
+annotation
+.
+NonNull
+;
 public
 abstract
 class
@@ -1969,6 +1978,7 @@ public
 void
 onTabChanged
 (
+NonNull
 Tab
 tab
 Tabs
@@ -2762,6 +2772,7 @@ private
 void
 updateDisplayLayout
 (
+NonNull
 Tab
 tab
 EnumSet
