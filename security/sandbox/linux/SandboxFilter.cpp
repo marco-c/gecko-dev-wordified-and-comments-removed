@@ -680,6 +680,9 @@ case
 __NR_read
 :
 case
+__NR_readv
+:
+case
 __NR_writev
 :
 CASES_FOR_lseek
