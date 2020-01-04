@@ -135,6 +135,10 @@ RegExpAlloc
 ExclusiveContext
 *
 cx
+HandleObject
+proto
+=
+nullptr
 )
 ;
 extern
