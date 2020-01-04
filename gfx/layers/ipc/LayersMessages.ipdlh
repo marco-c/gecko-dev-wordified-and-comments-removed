@@ -2299,7 +2299,7 @@ OpReplyRemoveTexture
 union
 AsyncChildMessageData
 {
-OpRemoveTextureAsync
+CompositableOperation
 ;
 }
 ;

@@ -957,7 +957,7 @@ std
 :
 vector
 <
-AsyncChildMessageData
+CompositableOperation
 >
 mPendingAsyncMessages
 ;
