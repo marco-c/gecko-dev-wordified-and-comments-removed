@@ -7767,7 +7767,7 @@ mBufferProvider
 nullptr
 ;
 #
-if
+ifdef
 USE_SKIA_GPU
 SkiaGLGlue
 *
