@@ -229,7 +229,7 @@ IfElse
 Select
 Br
 BrIf
-TableSwitch
+BrTable
 Return
 Unreachable
 Call
@@ -383,17 +383,6 @@ I32StoreMem
 I64StoreMem
 F32StoreMem
 F64StoreMem
-While
-DoWhile
-ForInitInc
-ForInitNoInc
-ForNoInitNoInc
-ForNoInitInc
-Label
-Continue
-ContinueLabel
-Break
-BreakLabel
 Id
 I32Min
 I32Max

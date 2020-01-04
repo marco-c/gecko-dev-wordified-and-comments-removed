@@ -1235,7 +1235,7 @@ MOZ_CRASH
 ;
 }
 bool
-hasLastIns
+hasAnyIns
 (
 )
 const
@@ -1245,6 +1245,18 @@ return
 instructions_
 .
 empty
+(
+)
+;
+}
+bool
+hasLastIns
+(
+)
+const
+{
+return
+hasAnyIns
 (
 )
 &
