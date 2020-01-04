@@ -3594,7 +3594,7 @@ engineName
 ;
 BrowserSearch
 .
-recordSearchInHealthReport
+recordSearchInTelemetry
 (
 engine
 "
