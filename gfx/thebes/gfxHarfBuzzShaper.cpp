@@ -5384,7 +5384,7 @@ b
 endif
 }
 static
-PLDHashOperator
+void
 AddOpenTypeFeature
 (
 const
@@ -5447,9 +5447,6 @@ AppendElement
 (
 feat
 )
-;
-return
-PL_DHASH_NEXT
 ;
 }
 static
