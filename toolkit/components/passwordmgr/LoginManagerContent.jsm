@@ -4176,7 +4176,7 @@ value
 null
 ;
 let
-opener
+openerTopWindow
 =
 win
 .
@@ -4217,9 +4217,7 @@ oldPasswordField
 mockOldPassword
 }
 {
-openerWin
-:
-opener
+openerTopWindow
 }
 )
 ;

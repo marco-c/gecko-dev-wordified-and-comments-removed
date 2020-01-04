@@ -564,7 +564,7 @@ msg
 .
 objects
 .
-openerWin
+openerTopWindow
 msg
 .
 target
@@ -1420,7 +1420,7 @@ formSubmitURL
 usernameField
 newPasswordField
 oldPasswordField
-opener
+openerTopWindow
 target
 )
 {
@@ -1477,7 +1477,7 @@ prompterSvc
 .
 opener
 =
-opener
+openerTopWindow
 ;
 return
 prompterSvc
