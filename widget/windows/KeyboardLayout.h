@@ -970,9 +970,6 @@ mIsPrintableKey
 bool
 mIsOverridingKeyboardLayout
 ;
-bool
-mIsFollowedByNonControlCharMessage
-;
 nsTArray
 <
 FakeCharMsg
