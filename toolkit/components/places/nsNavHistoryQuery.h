@@ -153,15 +153,6 @@ return
 mDomain
 ;
 }
-bool
-UriIsPrefix
-(
-)
-{
-return
-mUriIsPrefix
-;
-}
 nsIURI
 *
 Uri
@@ -355,9 +346,6 @@ mDomainIsHost
 ;
 nsCString
 mDomain
-;
-bool
-mUriIsPrefix
 ;
 nsCOMPtr
 <
