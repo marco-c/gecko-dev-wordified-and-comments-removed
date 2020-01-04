@@ -172,6 +172,8 @@ self
 _build_db_line
 (
 obj
+.
+objdir
 self
 .
 environment
@@ -233,6 +235,8 @@ self
 _build_db_line
 (
 obj
+.
+objdir
 self
 .
 environment
@@ -461,7 +465,7 @@ def
 _build_db_line
 (
 self
-obj
+objdir
 cenv
 filename
 canonical_suffix
@@ -645,8 +649,6 @@ append
 directory
 '
 :
-obj
-.
 objdir
             
 '
