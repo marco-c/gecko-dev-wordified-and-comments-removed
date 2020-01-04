@@ -1084,6 +1084,10 @@ mIsFlashPlugin
 (
 false
 )
+mSupportsAsyncInit
+(
+false
+)
 mFullPath
 (
 aPluginInfo
@@ -1359,6 +1363,10 @@ aIsJavaPlugin
 mIsFlashPlugin
 (
 aIsFlashPlugin
+)
+mSupportsAsyncInit
+(
+false
 )
 mLastModifiedTime
 (
