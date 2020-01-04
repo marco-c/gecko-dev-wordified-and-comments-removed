@@ -2107,10 +2107,6 @@ consume
 const
 char16_t
 *
-end
-const
-char16_t
-*
 match
 )
 {
@@ -2140,7 +2136,7 @@ if
 p
 =
 =
-end
+end_
 |
 |
 *
@@ -2499,7 +2495,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2530,7 +2525,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2544,7 +2538,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2587,7 +2580,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2618,7 +2610,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2642,7 +2633,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2657,7 +2647,6 @@ if
 !
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2696,7 +2685,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2731,7 +2719,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2759,7 +2746,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2794,7 +2780,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2829,7 +2814,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2857,7 +2841,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2885,7 +2868,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2920,7 +2902,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2954,7 +2935,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -2969,7 +2949,6 @@ if
 !
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3008,7 +2987,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3043,7 +3021,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3071,7 +3048,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3106,7 +3082,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3141,7 +3116,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3169,7 +3143,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3197,7 +3170,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3232,7 +3204,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3271,7 +3242,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3302,7 +3272,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3317,7 +3286,6 @@ if
 !
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3356,7 +3324,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3384,7 +3351,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3419,7 +3385,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3454,7 +3419,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3482,7 +3446,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3517,7 +3480,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3552,7 +3514,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3587,7 +3548,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3615,7 +3575,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3650,7 +3609,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3678,7 +3636,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3706,7 +3663,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3734,7 +3690,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3769,7 +3724,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3803,7 +3757,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3818,7 +3771,6 @@ if
 !
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3857,7 +3809,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3891,7 +3842,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3922,7 +3872,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3953,7 +3902,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -3984,7 +3932,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -4015,7 +3962,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -4046,7 +3992,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
@@ -4077,7 +4022,6 @@ if
 (
 consume
 (
-end_
 MOZ_UTF16
 (
 "
