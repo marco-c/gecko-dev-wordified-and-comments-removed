@@ -3536,10 +3536,6 @@ FontType
 MAC
 &
 &
-(
-shouldLCDRenderText
-|
-|
 aOptions
 .
 mAntialiasMode
@@ -3549,7 +3545,6 @@ AntialiasMode
 :
 :
 GRAY
-)
 )
 {
 paint
