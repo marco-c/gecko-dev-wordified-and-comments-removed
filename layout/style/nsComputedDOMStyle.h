@@ -894,6 +894,13 @@ const
 nsStyleGridTemplate
 &
 aTrackList
+const
+nsTArray
+<
+nscoord
+>
+*
+aTrackSizes
 )
 ;
 mozilla
