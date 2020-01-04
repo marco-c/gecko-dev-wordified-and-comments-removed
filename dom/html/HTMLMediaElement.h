@@ -2093,6 +2093,13 @@ mTimer
 ;
 }
 ;
+nsresult
+PlayInternal
+(
+bool
+aCallerIsChrome
+)
+;
 void
 ChangeReadyState
 (
