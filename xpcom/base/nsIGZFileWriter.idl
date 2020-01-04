@@ -319,6 +319,9 @@ init
 .
 *
 /
+[
+must_use
+]
 void
 init
 (
@@ -362,6 +365,7 @@ IPC
 /
 [
 noscript
+must_use
 ]
 void
 initANSIFileDesc
@@ -385,6 +389,9 @@ file
 .
 *
 /
+[
+must_use
+]
 void
 write
 (
@@ -462,6 +469,7 @@ terminator
 .
 *
 /
+MOZ_MUST_USE
 nsresult
 Write
 (
@@ -501,6 +509,7 @@ file
 .
 *
 /
+MOZ_MUST_USE
 nsresult
 Write
 (

@@ -51,6 +51,7 @@ Create
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIGZFILEWRITER
+MOZ_MUST_USE
 nsresult
 Write
 (
@@ -70,6 +71,7 @@ aStr
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 Write
 (

@@ -1640,9 +1640,9 @@ char
 aStr
 )
 {
-(
-void
-)
+Unused
+<
+<
 mGZWriter
 -
 >
