@@ -5510,6 +5510,14 @@ MOZ_ASSERT
 mBufferProvider
 )
 ;
+transform
+=
+CurrentState
+(
+)
+.
+transform
+;
 snapshot
 =
 mBufferProvider
