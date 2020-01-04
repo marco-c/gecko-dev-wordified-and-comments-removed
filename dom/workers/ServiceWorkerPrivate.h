@@ -260,6 +260,17 @@ NoteStoppedControllingDocuments
 (
 )
 ;
+WorkerPrivate
+*
+GetWorkerPrivate
+(
+)
+const
+{
+return
+mWorkerPrivate
+;
+}
 private
 :
 enum
