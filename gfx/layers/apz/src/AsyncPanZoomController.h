@@ -1444,8 +1444,6 @@ aVelocity
 void
 StartSmoothScroll
 (
-ScrollSource
-aSource
 )
 ;
 bool
