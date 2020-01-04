@@ -3588,6 +3588,17 @@ fonts
 /
 *
 #
+else
+BINPATH
+/
+res
+/
+fonts
+/
+*
+.
+properties
+#
 endif
 ;
 svg
