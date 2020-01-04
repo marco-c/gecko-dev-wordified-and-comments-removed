@@ -8983,8 +8983,6 @@ const
 char
 *
 anInterfaceName
-bool
-aForceReport
 )
 ;
 virtual
