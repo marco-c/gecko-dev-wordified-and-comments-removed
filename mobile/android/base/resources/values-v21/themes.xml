@@ -102,13 +102,9 @@ GeckoBase
 parent
 =
 "
-android
-:
-style
-/
 Theme
 .
-Material
+AppCompat
 .
 Light
 .

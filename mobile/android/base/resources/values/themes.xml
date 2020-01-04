@@ -120,13 +120,13 @@ GeckoBase
 parent
 =
 "
-android
-:
-style
-/
 Theme
 .
+AppCompat
+.
 Light
+.
+DarkActionBar
 "
 >
 <
