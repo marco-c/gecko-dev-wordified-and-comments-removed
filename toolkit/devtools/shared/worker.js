@@ -573,6 +573,7 @@ listener
 )
 ;
 }
+;
 DevToolsWorker
 .
 prototype
@@ -646,6 +647,7 @@ n
 )
 ;
 }
+;
 function
 workerify
 (
