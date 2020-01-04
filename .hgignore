@@ -50,6 +50,13 @@ ID
 \
 .
 DS_Store
+.
+*
+\
+.
+egg
+-
+info
 #
 Vim
 swap

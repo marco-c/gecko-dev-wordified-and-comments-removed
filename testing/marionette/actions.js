@@ -568,6 +568,9 @@ onSuccess
 value
 :
 touchId
+|
+|
+null
 }
 )
 ;
