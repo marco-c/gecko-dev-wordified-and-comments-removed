@@ -2980,6 +2980,13 @@ ssse3_bilinear_cover_iter_init
 iter
 )
 ;
+if
+(
+iter
+.
+data
+)
+{
 for
 (
 int
@@ -3017,4 +3024,5 @@ ssse3_bilinear_cover_iter_fini
 iter
 )
 ;
+}
 }
