@@ -258,9 +258,11 @@ topsrcdir
 "
 )
 else
-"
+os
 .
-"
+getcwd
+(
+)
 ;
 sys
 .
