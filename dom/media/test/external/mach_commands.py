@@ -44,10 +44,28 @@ runtests
 import
 MediaTestArguments
     
-return
+from
+mozlog
+.
+structured
+import
+commandline
+    
+parser
+=
 MediaTestArguments
 (
 )
+    
+commandline
+.
+add_logging_group
+(
+parser
+)
+    
+return
+parser
 def
 run_external_media_test
 (
@@ -95,15 +113,8 @@ Namespace
     
 parser
 =
-MediaTestArguments
+setup_argument_parser
 (
-)
-    
-commandline
-.
-add_logging_group
-(
-parser
 )
     
 if
