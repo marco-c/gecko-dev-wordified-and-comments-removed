@@ -7472,13 +7472,3 @@ mediaControl
 true
 )
 ;
-pref
-(
-"
-media
-.
-openUnsupportedTypeWithExternalApp
-"
-true
-)
-;

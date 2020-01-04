@@ -2844,17 +2844,6 @@ IsAudible
 )
 const
 ;
-bool
-HaveFailedWithSourceNotSupportedError
-(
-)
-const
-;
-void
-OpenUnsupportedMediaWithExtenalAppIfNeeded
-(
-)
-;
 class
 nsAsyncEventRunner
 ;
@@ -3458,9 +3447,6 @@ mIsAudioTrackAudible
 ;
 bool
 mAudible
-;
-nsAutoCString
-mMimeType
 ;
 }
 ;
