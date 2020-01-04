@@ -2303,6 +2303,13 @@ trc
 protected
 :
 virtual
+~
+CustomAutoRooter
+(
+)
+{
+}
+virtual
 void
 trace
 (
