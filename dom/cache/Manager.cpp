@@ -732,9 +732,13 @@ mDeletedBodyIdList
 bool
 IsHeadRequest
 (
+const
 CacheRequest
+&
 aRequest
+const
 CacheQueryParams
+&
 aParams
 )
 {
@@ -764,9 +768,13 @@ head
 bool
 IsHeadRequest
 (
+const
 CacheRequestOrVoid
+&
 aRequest
+const
 CacheQueryParams
+&
 aParams
 )
 {
