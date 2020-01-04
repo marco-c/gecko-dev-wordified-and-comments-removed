@@ -7444,7 +7444,7 @@ fun
 (
 )
 .
-atom
+name
 (
 )
 =
@@ -8468,7 +8468,7 @@ pn_atom
 fun
 -
 >
-atom
+name
 (
 )
 )
@@ -28812,7 +28812,7 @@ name
 fun
 -
 >
-atom
+name
 (
 )
 )
@@ -28983,7 +28983,7 @@ cx
 fun
 -
 >
-atom
+name
 (
 )
 )

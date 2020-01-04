@@ -40869,7 +40869,7 @@ JSFunction
 (
 )
 .
-atom
+name
 (
 )
 ;

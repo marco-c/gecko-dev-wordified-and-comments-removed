@@ -4227,12 +4227,6 @@ argbuf
 UniqueChars
 bytes
 ;
-RootedAtom
-atom
-(
-cx
-)
-;
 JS_snprintf
 (
 argbuf
@@ -4253,8 +4247,10 @@ v
 )
 )
 {
-atom
-=
+RootedAtom
+name
+(
+cx
 v
 .
 toObject
@@ -4268,8 +4264,9 @@ JSFunction
 (
 )
 .
-atom
+name
 (
+)
 )
 ;
 bytes
@@ -4279,7 +4276,7 @@ DecompileValueGenerator
 cx
 JSDVG_SEARCH_STACK
 v
-atom
+name
 )
 ;
 if

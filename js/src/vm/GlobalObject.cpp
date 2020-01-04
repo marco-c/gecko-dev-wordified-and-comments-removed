@@ -3996,7 +3996,7 @@ if
 fun
 -
 >
-atom
+name
 (
 )
 =
@@ -4011,7 +4011,7 @@ if
 fun
 -
 >
-atom
+name
 (
 )
 =

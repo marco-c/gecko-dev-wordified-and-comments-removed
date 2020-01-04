@@ -3816,7 +3816,7 @@ AtomToId
 fun
 -
 >
-atom
+name
 (
 )
 )
@@ -7686,7 +7686,7 @@ isNamedLambda
 ?
 fun
 .
-atom
+name
 (
 )
 :

@@ -70,7 +70,7 @@ function
 )
 -
 >
-atom
+name
 (
 )
 :

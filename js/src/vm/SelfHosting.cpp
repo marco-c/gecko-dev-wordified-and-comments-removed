@@ -17498,7 +17498,7 @@ hasName
 selfHostedFunction
 -
 >
-atom
+name
 (
 )
 !
@@ -17635,7 +17635,7 @@ StringValue
 selfHostedFunction
 -
 >
-atom
+name
 (
 )
 )
@@ -18337,7 +18337,7 @@ hasGuessedAtom
 selfHostedFun
 -
 >
-atom
+name
 (
 )
 !
@@ -18365,7 +18365,7 @@ funName
 selfHostedFun
 -
 >
-atom
+name
 (
 )
 ;

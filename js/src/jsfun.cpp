@@ -2276,7 +2276,7 @@ MOZ_ASSERT
 fun
 -
 >
-atom
+name
 (
 )
 !
@@ -2296,7 +2296,7 @@ if
 fun
 -
 >
-atom
+name
 (
 )
 =
@@ -2314,7 +2314,7 @@ setString
 fun
 -
 >
-atom
+name
 (
 )
 =
@@ -2334,7 +2334,7 @@ emptyString
 fun
 -
 >
-atom
+name
 (
 )
 )
@@ -2550,7 +2550,7 @@ if
 fun
 -
 >
-atom
+name
 (
 )
 |
@@ -4698,7 +4698,7 @@ if
 fun
 -
 >
-atom
+name
 (
 )
 )
@@ -4713,7 +4713,7 @@ append
 fun
 -
 >
-atom
+name
 (
 )
 )
