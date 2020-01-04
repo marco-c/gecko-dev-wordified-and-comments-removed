@@ -105,6 +105,11 @@ TestArrayView
 cpp
 '
 '
+TestBSPTree
+.
+cpp
+'
+'
 TestBufferRotation
 .
 cpp

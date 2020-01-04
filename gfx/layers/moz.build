@@ -800,6 +800,11 @@ TextureHostBasic
 h
 '
 '
+BSPTree
+.
+h
+'
+'
 BufferTexture
 .
 h
@@ -1972,6 +1977,11 @@ cpp
 basic
 /
 TextureHostBasic
+.
+cpp
+'
+'
+BSPTree
 .
 cpp
 '
