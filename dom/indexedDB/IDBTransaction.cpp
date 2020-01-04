@@ -949,6 +949,9 @@ IDBTransaction
 :
 Create
 (
+JSContext
+*
+aCx
 IDBDatabase
 *
 aDatabase
@@ -1030,6 +1033,7 @@ IDBRequest
 :
 CaptureCaller
 (
+aCx
 transaction
 -
 >

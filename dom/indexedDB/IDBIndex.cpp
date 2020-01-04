@@ -125,6 +125,9 @@ IDBRequest
 >
 GenerateRequest
 (
+JSContext
+*
+aCx
 IDBIndex
 *
 aIndex
@@ -169,6 +172,7 @@ IDBRequest
 :
 Create
 (
+aCx
 aIndex
 transaction
 -
@@ -1194,6 +1198,7 @@ request
 =
 GenerateRequest
 (
+aCx
 this
 )
 ;
@@ -1701,6 +1706,7 @@ request
 =
 GenerateRequest
 (
+aCx
 this
 )
 ;
@@ -2282,6 +2288,7 @@ request
 =
 GenerateRequest
 (
+aCx
 this
 )
 ;
@@ -2770,6 +2777,7 @@ request
 =
 GenerateRequest
 (
+aCx
 this
 )
 ;

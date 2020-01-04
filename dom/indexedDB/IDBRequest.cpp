@@ -466,6 +466,9 @@ IDBRequest
 :
 Create
 (
+JSContext
+*
+aCx
 IDBDatabase
 *
 aDatabase
@@ -500,6 +503,7 @@ aDatabase
 ;
 CaptureCaller
 (
+aCx
 request
 -
 >
@@ -553,6 +557,9 @@ IDBRequest
 :
 Create
 (
+JSContext
+*
+aCx
 IDBObjectStore
 *
 aSourceAsObjectStore
@@ -584,6 +591,7 @@ request
 =
 Create
 (
+aCx
 aDatabase
 aTransaction
 )
@@ -612,6 +620,9 @@ IDBRequest
 :
 Create
 (
+JSContext
+*
+aCx
 IDBIndex
 *
 aSourceAsIndex
@@ -643,6 +654,7 @@ request
 =
 Create
 (
+aCx
 aDatabase
 aTransaction
 )
@@ -744,6 +756,9 @@ IDBRequest
 :
 CaptureCaller
 (
+JSContext
+*
+aCx
 nsAString
 &
 aFilename
@@ -774,15 +789,12 @@ MOZ_ASSERT
 aColumn
 )
 ;
-ThreadsafeAutoJSContext
-cx
-;
 nsJSUtils
 :
 :
 GetCallingLocation
 (
-cx
+aCx
 aFilename
 aLineNo
 aColumn
@@ -1951,6 +1963,9 @@ IDBOpenDBRequest
 :
 CreateForWindow
 (
+JSContext
+*
+aCx
 IDBFactory
 *
 aFactory
@@ -2017,6 +2032,7 @@ fileHandleDisabled
 ;
 CaptureCaller
 (
+aCx
 request
 -
 >
@@ -2058,6 +2074,9 @@ IDBOpenDBRequest
 :
 CreateForJS
 (
+JSContext
+*
+aCx
 IDBFactory
 *
 aFactory
@@ -2116,6 +2135,7 @@ fileHandleDisabled
 ;
 CaptureCaller
 (
+aCx
 request
 -
 >

@@ -692,6 +692,9 @@ IDBRequest
 >
 Clear
 (
+JSContext
+*
+aCx
 ErrorResult
 &
 aRv

@@ -221,6 +221,9 @@ IDBRequest
 >
 Create
 (
+JSContext
+*
+aCx
 IDBDatabase
 *
 aDatabase
@@ -236,6 +239,9 @@ IDBRequest
 >
 Create
 (
+JSContext
+*
+aCx
 IDBObjectStore
 *
 aSource
@@ -254,6 +260,9 @@ IDBRequest
 >
 Create
 (
+JSContext
+*
+aCx
 IDBIndex
 *
 aSource
@@ -269,6 +278,9 @@ static
 void
 CaptureCaller
 (
+JSContext
+*
+aCx
 nsAString
 &
 aFilename
@@ -681,6 +693,9 @@ IDBOpenDBRequest
 >
 CreateForWindow
 (
+JSContext
+*
+aCx
 IDBFactory
 *
 aFactory
@@ -705,6 +720,9 @@ IDBOpenDBRequest
 >
 CreateForJS
 (
+JSContext
+*
+aCx
 IDBFactory
 *
 aFactory

@@ -2076,6 +2076,9 @@ IDBFactory
 :
 Open
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
@@ -2090,6 +2093,7 @@ aRv
 return
 OpenInternal
 (
+aCx
 nullptr
 aName
 Optional
@@ -2119,6 +2123,9 @@ IDBFactory
 :
 Open
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
@@ -2135,6 +2142,7 @@ aRv
 return
 OpenInternal
 (
+aCx
 nullptr
 aName
 aOptions
@@ -2157,6 +2165,9 @@ IDBFactory
 :
 DeleteDatabase
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
@@ -2173,6 +2184,7 @@ aRv
 return
 OpenInternal
 (
+aCx
 nullptr
 aName
 Optional
@@ -2335,6 +2347,9 @@ IDBFactory
 :
 OpenForPrincipal
 (
+JSContext
+*
+aCx
 nsIPrincipal
 *
 aPrincipal
@@ -2389,6 +2404,7 @@ IsCallerChrome
 return
 OpenInternal
 (
+aCx
 aPrincipal
 aName
 Optional
@@ -2418,6 +2434,9 @@ IDBFactory
 :
 OpenForPrincipal
 (
+JSContext
+*
+aCx
 nsIPrincipal
 *
 aPrincipal
@@ -2474,6 +2493,7 @@ IsCallerChrome
 return
 OpenInternal
 (
+aCx
 aPrincipal
 aName
 aOptions
@@ -2496,6 +2516,9 @@ IDBFactory
 :
 DeleteForPrincipal
 (
+JSContext
+*
+aCx
 nsIPrincipal
 *
 aPrincipal
@@ -2552,6 +2575,7 @@ IsCallerChrome
 return
 OpenInternal
 (
+aCx
 aPrincipal
 aName
 Optional
@@ -2577,6 +2601,9 @@ IDBFactory
 :
 OpenInternal
 (
+JSContext
+*
+aCx
 nsIPrincipal
 *
 aPrincipal
@@ -3193,12 +3220,7 @@ JSObject
 >
 scriptOwner
 (
-nsContentUtils
-:
-:
-RootingCxForThread
-(
-)
+aCx
 nsGlobalWindow
 :
 :
@@ -3229,6 +3251,7 @@ IDBOpenDBRequest
 :
 CreateForWindow
 (
+aCx
 this
 mWindow
 scriptOwner
@@ -3247,12 +3270,7 @@ JSObject
 >
 scriptOwner
 (
-nsContentUtils
-:
-:
-RootingCxForThread
-(
-)
+aCx
 mOwningObject
 )
 ;
@@ -3263,6 +3281,7 @@ IDBOpenDBRequest
 :
 CreateForJS
 (
+aCx
 this
 scriptOwner
 )

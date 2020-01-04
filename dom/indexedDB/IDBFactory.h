@@ -456,6 +456,9 @@ IDBOpenDBRequest
 >
 Open
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
@@ -473,6 +476,9 @@ IDBOpenDBRequest
 >
 Open
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
@@ -492,6 +498,9 @@ IDBOpenDBRequest
 >
 DeleteDatabase
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
@@ -544,6 +553,9 @@ IDBOpenDBRequest
 >
 OpenForPrincipal
 (
+JSContext
+*
+aCx
 nsIPrincipal
 *
 aPrincipal
@@ -564,6 +576,9 @@ IDBOpenDBRequest
 >
 OpenForPrincipal
 (
+JSContext
+*
+aCx
 nsIPrincipal
 *
 aPrincipal
@@ -586,6 +601,9 @@ IDBOpenDBRequest
 >
 DeleteForPrincipal
 (
+JSContext
+*
+aCx
 nsIPrincipal
 *
 aPrincipal
@@ -715,6 +733,9 @@ IDBOpenDBRequest
 >
 OpenInternal
 (
+JSContext
+*
+aCx
 nsIPrincipal
 *
 aPrincipal
