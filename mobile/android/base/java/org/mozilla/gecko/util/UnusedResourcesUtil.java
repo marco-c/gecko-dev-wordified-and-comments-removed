@@ -438,11 +438,6 @@ R
 .
 style
 .
-ActionBarThemeGeckoPreferences
-R
-.
-style
-.
 TabsPanelSectionBase
 R
 .
