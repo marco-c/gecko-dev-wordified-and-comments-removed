@@ -1712,6 +1712,9 @@ updateRect
 TileLock
 sharedLock
 ;
+bool
+wasPlaceholder
+;
 }
 ;
 struct
