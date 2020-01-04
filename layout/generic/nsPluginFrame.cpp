@@ -8506,6 +8506,13 @@ overflowDeltaY
 =
 0
 ;
+aWheelEvent
+-
+>
+PreventDefault
+(
+)
+;
 }
 bool
 nsPluginFrame
