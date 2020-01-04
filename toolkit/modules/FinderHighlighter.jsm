@@ -2237,6 +2237,12 @@ FIND_NOTFOUND
 |
 |
 !
+data
+.
+searchString
+|
+|
+!
 foundRange
 )
 {
@@ -2451,11 +2457,6 @@ if
 this
 .
 _highlightAll
-&
-&
-data
-.
-searchString
 )
 this
 .
