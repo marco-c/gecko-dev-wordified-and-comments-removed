@@ -253,7 +253,7 @@ bool
 RecvSetAudioOutputVolume
 (
 const
-uint32_t
+float
 &
 aVolume
 )

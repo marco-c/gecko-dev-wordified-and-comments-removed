@@ -2996,11 +2996,15 @@ aMuted
 {
 SetAudioOutputVolume
 (
+aMuted
+?
+0
+.
+0
+:
 mVolume
 *
 aVolume
-*
-aMuted
 )
 ;
 return
@@ -3025,7 +3029,7 @@ nsSpeechTask
 :
 SetAudioOutputVolume
 (
-uint32_t
+float
 aVolume
 )
 {

@@ -148,7 +148,7 @@ ForceEnd
 ;
 SetAudioOutputVolume
 (
-uint32_t
+float
 aVolume
 )
 ;

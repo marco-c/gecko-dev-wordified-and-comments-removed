@@ -430,7 +430,7 @@ SpeechSynthesisRequestParent
 RecvSetAudioOutputVolume
 (
 const
-uint32_t
+float
 &
 aVolume
 )

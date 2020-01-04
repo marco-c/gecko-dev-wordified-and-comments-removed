@@ -671,7 +671,7 @@ SpeechTaskChild
 :
 SetAudioOutputVolume
 (
-uint32_t
+float
 aVolume
 )
 {
