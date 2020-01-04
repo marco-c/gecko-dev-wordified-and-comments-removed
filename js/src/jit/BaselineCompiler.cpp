@@ -7610,6 +7610,13 @@ Compiler
 stubCompiler
 (
 cx
+ICStubCompiler
+:
+:
+Engine
+:
+:
+Baseline
 )
 ;
 if
@@ -7717,6 +7724,13 @@ Compiler
 stubCompiler
 (
 cx
+ICStubCompiler
+:
+:
+Engine
+:
+:
+Baseline
 )
 ;
 if
