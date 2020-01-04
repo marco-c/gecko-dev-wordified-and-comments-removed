@@ -1989,6 +1989,9 @@ resolve
 }
 )
 ;
+return
+tab
+;
 }
 function
 waitForBrowserLoad
