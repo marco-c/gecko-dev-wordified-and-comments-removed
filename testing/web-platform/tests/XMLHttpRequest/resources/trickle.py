@@ -8,14 +8,6 @@ response
 )
 :
     
-chunk
-=
-"
-TEST_TRICKLE
-\
-n
-"
-    
 delay
 =
 float
@@ -49,35 +41,6 @@ first
 count
 "
 50
-)
-)
-    
-if
-"
-specifylength
-"
-in
-request
-.
-GET
-:
-        
-response
-.
-headers
-.
-set
-(
-"
-Content
--
-Length
-"
-count
-*
-len
-(
-chunk
 )
 )
     
@@ -135,7 +98,11 @@ writer
 .
 write_content
 (
-chunk
+"
+TEST_TRICKLE
+\
+n
+"
 )
         
 time
