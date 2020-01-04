@@ -2901,7 +2901,13 @@ liveRegs
 Register
 objReg
 Register
-tempReg
+temp
+Register
+tempUnbox
+FloatRegister
+tempDouble
+FloatRegister
+tempF32
 ConstantOrRegister
 id
 ConstantOrRegister
