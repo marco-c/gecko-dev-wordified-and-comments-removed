@@ -175,6 +175,10 @@ nsCycleCollector_suspectedCount
 void
 nsCycleCollector_shutdown
 (
+bool
+aDoCollect
+=
+true
 )
 ;
 void

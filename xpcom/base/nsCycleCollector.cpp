@@ -4331,6 +4331,8 @@ false
 void
 Shutdown
 (
+bool
+aDoCollect
 )
 ;
 bool
@@ -15612,6 +15614,8 @@ nsCycleCollector
 :
 Shutdown
 (
+bool
+aDoCollect
 )
 {
 CheckThreadSafety
@@ -15623,20 +15627,10 @@ FreeSnowWhite
 true
 )
 ;
-#
-ifndef
-NS_FREE_PERMANENT_DATA
 if
 (
-PR_GetEnv
-(
-"
-MOZ_CC_RUN_DURING_SHUTDOWN
-"
+aDoCollect
 )
-)
-#
-endif
 {
 ShutdownCollect
 (
@@ -16735,6 +16729,8 @@ FinishAnyCurrentCollection
 void
 nsCycleCollector_shutdown
 (
+bool
+aDoCollect
 )
 {
 CollectorData
@@ -16788,6 +16784,7 @@ mCollector
 >
 Shutdown
 (
+aDoCollect
 )
 ;
 data
