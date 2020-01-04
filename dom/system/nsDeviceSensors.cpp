@@ -1739,6 +1739,15 @@ values
 .
 0
 ;
+PRTime
+timestamp
+=
+aSensorData
+.
+timestamp
+(
+)
+;
 nsCOMArray
 <
 nsIDOMWindow
@@ -1905,6 +1914,7 @@ FireDOMMotionEvent
 domDoc
 target
 type
+timestamp
 x
 y
 z
@@ -2550,6 +2560,8 @@ EventTarget
 target
 uint32_t
 type
+PRTime
+timestamp
 double
 x
 double
@@ -2875,6 +2887,13 @@ double
 >
 (
 DEFAULT_SENSOR_POLL
+)
+Nullable
+<
+uint64_t
+>
+(
+timestamp
 )
 )
 ;
