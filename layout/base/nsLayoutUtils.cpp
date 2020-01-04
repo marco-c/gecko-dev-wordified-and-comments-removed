@@ -5223,13 +5223,6 @@ right
 ;
 }
 }
-screenRect
-.
-Inflate
-(
-1
-)
-;
 ScreenPoint
 scrollPosScreen
 =
