@@ -524,6 +524,12 @@ access
 needsBoundsCheck
 (
 )
+access
+-
+>
+isAtomicAccess
+(
+)
 )
 ;
 }
@@ -535,6 +541,8 @@ foldableOffsetRange
 (
 bool
 accessNeedsBoundsCheck
+bool
+atomic
 )
 const
 {
@@ -650,6 +658,10 @@ end
 if
 (
 usesSignalHandlersForAsmJSOOB_
+&
+&
+!
+atomic
 )
 return
 WasmImmediateRange
