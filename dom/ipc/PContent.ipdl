@@ -2904,6 +2904,8 @@ PushError
 (
 nsCString
 scope
+Principal
+principal
 nsString
 message
 uint32_t

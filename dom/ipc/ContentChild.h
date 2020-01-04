@@ -2308,6 +2308,13 @@ nsCString
 &
 aScope
 const
+IPC
+:
+:
+Principal
+&
+aPrincipal
+const
 nsString
 &
 aMessage
