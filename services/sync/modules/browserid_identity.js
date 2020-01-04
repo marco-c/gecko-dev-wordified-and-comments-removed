@@ -2925,6 +2925,14 @@ wait
 catch
 (
 ex
+if
+!
+Async
+.
+isShutdownException
+(
+ex
+)
 )
 {
 this

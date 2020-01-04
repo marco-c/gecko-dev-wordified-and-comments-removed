@@ -1263,6 +1263,14 @@ record
 catch
 (
 ex
+if
+!
+Async
+.
+isShutdownException
+(
+ex
+)
 )
 {
 failed
