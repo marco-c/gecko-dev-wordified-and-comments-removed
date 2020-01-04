@@ -1265,6 +1265,15 @@ NaN
 \
 macro
 (
+new
+new_
+"
+new
+"
+)
+\
+macro
+(
 next
 next
 "
