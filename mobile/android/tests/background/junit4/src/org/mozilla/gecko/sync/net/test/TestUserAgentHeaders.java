@@ -130,7 +130,7 @@ fxa
 .
 FxAccountClient20
 .
-StatusResponse
+RecoveryEmailStatusResponse
 ;
 import
 org
@@ -626,7 +626,7 @@ run
 {
 client
 .
-status
+recoveryEmailStatus
 (
 new
 byte
@@ -638,9 +638,7 @@ byte
 new
 RequestDelegate
 <
-FxAccountClient20
-.
-StatusResponse
+RecoveryEmailStatusResponse
 >
 (
 )
@@ -650,7 +648,7 @@ public
 void
 handleSuccess
 (
-StatusResponse
+RecoveryEmailStatusResponse
 result
 )
 {
