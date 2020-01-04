@@ -69,7 +69,7 @@ MESSAGES_IN_INTERVAL
 const
 STORAGE_MAX_EVENTS
 =
-200
+1000
 ;
 var
 _consoleStorage

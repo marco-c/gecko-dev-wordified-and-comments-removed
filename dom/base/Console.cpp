@@ -300,7 +300,7 @@ JS_SCTAG_USER_MIN
 #
 define
 STORAGE_MAX_EVENTS
-200
+1000
 using
 namespace
 mozilla
