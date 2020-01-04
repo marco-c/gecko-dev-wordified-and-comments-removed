@@ -878,6 +878,15 @@ AlignmentOffset
 0
 )
 ;
+MOZ_ASSERT
+(
+!
+mLength
+|
+|
+mData
+)
+;
 PodZero
 (
 newData
@@ -888,6 +897,11 @@ aLength
 mLength
 )
 ;
+if
+(
+mLength
+)
+{
 PodCopy
 (
 newData
@@ -895,6 +909,7 @@ mData
 mLength
 )
 ;
+}
 mBuffer
 =
 Move
