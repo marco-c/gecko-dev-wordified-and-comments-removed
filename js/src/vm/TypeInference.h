@@ -2534,6 +2534,14 @@ JSObject
 res
 )
 ;
+void
+unregisterObject
+(
+JSObject
+*
+obj
+)
+;
 JSObject
 *
 get
