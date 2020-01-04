@@ -235,11 +235,11 @@ be
 found
 at
 :
-ftp
+https
 :
 /
 /
-ftp
+archive
 .
 mozilla
 .
@@ -253,7 +253,9 @@ nightly
 /
 latest
 -
-trunk
+mozilla
+-
+central
 /
 -
 or
