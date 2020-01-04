@@ -135,13 +135,11 @@ error
 info
 '
 (
-cd
+.
+/
 {
 LOOPDIR
 }
-&
-&
-.
 /
 {
 ESLINT
@@ -161,7 +159,9 @@ jsm
 ext
 .
 jsx
-.
+{
+LOOPDIR
+}
 )
 if
 [
