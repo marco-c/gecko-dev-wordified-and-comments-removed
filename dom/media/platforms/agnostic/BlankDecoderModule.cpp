@@ -418,7 +418,7 @@ Error
 (
 MediaResult
 (
-NS_ERROR_DOM_MEDIA_FATAL_ERR
+NS_ERROR_OUT_OF_MEMORY
 __func__
 )
 )
