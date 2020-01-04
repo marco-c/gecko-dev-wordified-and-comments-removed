@@ -244,6 +244,7 @@ USE_GLIBC_BACKTRACE
 define
 JPROF_STATIC
 static
+static
 int
 gLogFD
 =
