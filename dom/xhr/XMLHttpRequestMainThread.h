@@ -2109,6 +2109,11 @@ GetCurrentJARChannel
 (
 )
 ;
+void
+TruncateResponseText
+(
+)
+;
 bool
 IsSystemXHR
 (

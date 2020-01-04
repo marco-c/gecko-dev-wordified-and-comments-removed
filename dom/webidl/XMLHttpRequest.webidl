@@ -657,6 +657,8 @@ any
 response
 ;
 [
+Cached
+Pure
 Throws
 ]
 readonly

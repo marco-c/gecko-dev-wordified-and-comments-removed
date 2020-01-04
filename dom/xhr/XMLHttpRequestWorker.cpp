@@ -9569,6 +9569,14 @@ mStateData
 aStateData
 ;
 }
+XMLHttpRequestBinding
+:
+:
+ClearCachedResponseTextValue
+(
+this
+)
+;
 }
 }
 }
