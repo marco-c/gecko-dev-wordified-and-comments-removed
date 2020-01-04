@@ -1557,7 +1557,7 @@ NS_IMETHODIMP
 nsLeafBoxFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &
@@ -1568,7 +1568,7 @@ return
 nsBox
 :
 :
-DoLayout
+DoXULLayout
 (
 aState
 )

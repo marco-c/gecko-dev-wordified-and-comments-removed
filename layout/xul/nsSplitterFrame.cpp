@@ -1295,7 +1295,7 @@ NS_IMETHODIMP
 nsSplitterFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &
@@ -1336,7 +1336,7 @@ return
 nsBoxFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 aState
 )

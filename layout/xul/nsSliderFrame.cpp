@@ -1724,7 +1724,7 @@ NS_IMETHODIMP
 nsSliderFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &

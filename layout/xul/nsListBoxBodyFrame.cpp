@@ -903,7 +903,7 @@ NS_IMETHODIMP
 nsListBoxBodyFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &
@@ -927,7 +927,7 @@ rv
 nsBoxFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 aBoxLayoutState
 )

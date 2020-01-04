@@ -482,7 +482,7 @@ NS_IMETHODIMP
 nsPopupSetFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &
@@ -495,7 +495,7 @@ rv
 nsBoxFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 aState
 )

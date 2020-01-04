@@ -2226,7 +2226,7 @@ aCursor
 )
 ;
 NS_IMETHOD
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &

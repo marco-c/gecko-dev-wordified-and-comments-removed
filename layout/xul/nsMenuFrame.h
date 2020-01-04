@@ -186,7 +186,7 @@ nsMenuFrame
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 NS_IMETHOD
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &

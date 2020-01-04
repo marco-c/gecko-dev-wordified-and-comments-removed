@@ -3335,7 +3335,7 @@ NS_IMETHODIMP
 nsMenuFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 nsBoxLayoutState
 &
@@ -3348,7 +3348,7 @@ rv
 nsBoxFrame
 :
 :
-DoLayout
+DoXULLayout
 (
 aState
 )
