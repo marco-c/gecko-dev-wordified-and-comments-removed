@@ -146,6 +146,17 @@ mozilla
 /
 import
 -
+globals
+-
+from
+"
+:
+1
+"
+mozilla
+/
+import
+-
 headjs
 -
 globals
