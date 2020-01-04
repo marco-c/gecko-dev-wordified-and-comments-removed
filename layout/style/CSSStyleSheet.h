@@ -601,17 +601,6 @@ aIndex
 )
 ;
 void
-PrependStyleRule
-(
-css
-:
-:
-Rule
-*
-aRule
-)
-;
-void
 AppendStyleRule
 (
 css
