@@ -50050,9 +50050,15 @@ frameSize
 (
 )
 ;
+if
+(
+!
 encodeSafepoints
 (
 )
+)
+return
+false
 ;
 AutoDiscardIonCode
 discardIonCode
