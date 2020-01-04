@@ -30,7 +30,7 @@ StorageFront
 "
 devtools
 /
-client
+shared
 /
 fronts
 /

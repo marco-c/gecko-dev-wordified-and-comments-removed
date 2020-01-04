@@ -30,7 +30,7 @@ require
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -43,7 +43,7 @@ require
 "
 devtools
 /
-client
+shared
 /
 fronts
 /

@@ -121,6 +121,9 @@ client
 discovery
 '
 '
+fronts
+'
+'
 gcli
 '
 '

@@ -520,7 +520,7 @@ InspectorFront
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
