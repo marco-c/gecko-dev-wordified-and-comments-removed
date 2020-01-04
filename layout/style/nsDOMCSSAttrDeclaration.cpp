@@ -840,6 +840,12 @@ aPropID
 =
 =
 eCSSProperty_margin_bottom
+|
+|
+aPropID
+=
+=
+eCSSProperty_background_position
 )
 {
 nsIFrame

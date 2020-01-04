@@ -167,6 +167,10 @@ mMarginBottomRestyleCount
 (
 0
 )
+mBackgroundPositionRestyleCount
+(
+0
+)
 mContentActive
 (
 false
@@ -262,6 +266,12 @@ eCSSProperty_margin_bottom
 return
 mMarginBottomRestyleCount
 ;
+case
+eCSSProperty_background_position
+:
+return
+mBackgroundPositionRestyleCount
+;
 default
 :
 MOZ_ASSERT
@@ -323,6 +333,9 @@ mMarginRightRestyleCount
 ;
 uint8_t
 mMarginBottomRestyleCount
+;
+uint8_t
+mBackgroundPositionRestyleCount
 ;
 bool
 mContentActive
