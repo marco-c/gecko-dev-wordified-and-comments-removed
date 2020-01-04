@@ -154,7 +154,6 @@ RuntimeService
 .
 h
 "
-USING_WORKERS_NAMESPACE
 using
 namespace
 mozilla
@@ -251,7 +250,7 @@ aReflector
 )
 {
 return
-FileReaderSyncBinding_workers
+FileReaderSyncBinding
 :
 :
 Wrap

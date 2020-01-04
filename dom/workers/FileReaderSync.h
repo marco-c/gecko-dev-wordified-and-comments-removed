@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_workers_filereadersync_h__
+mozilla_dom_filereadersync_h__
 #
 define
-mozilla_dom_workers_filereadersync_h__
+mozilla_dom_filereadersync_h__
 #
 include
 "
@@ -36,9 +36,6 @@ typename
 class
 Optional
 ;
-}
-}
-BEGIN_WORKERS_NAMESPACE
 class
 FileReaderSync
 final
@@ -197,6 +194,7 @@ aRv
 ;
 }
 ;
-END_WORKERS_NAMESPACE
+}
+}
 #
 endif
