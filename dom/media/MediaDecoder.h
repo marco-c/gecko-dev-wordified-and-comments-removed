@@ -824,13 +824,6 @@ MediaDecoderStateMachine
 aStateMachine
 )
 ;
-ReentrantMonitor
-&
-GetReentrantMonitor
-(
-)
-override
-;
 virtual
 media
 :

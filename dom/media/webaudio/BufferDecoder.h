@@ -68,15 +68,6 @@ aTaskQueueIdentity
 )
 ;
 virtual
-ReentrantMonitor
-&
-GetReentrantMonitor
-(
-)
-final
-override
-;
-virtual
 bool
 OnStateMachineTaskQueue
 (
@@ -249,9 +240,6 @@ virtual
 BufferDecoder
 (
 )
-;
-ReentrantMonitor
-mReentrantMonitor
 ;
 nsRefPtr
 <

@@ -126,15 +126,6 @@ nsIObserver
 public
 :
 virtual
-ReentrantMonitor
-&
-GetReentrantMonitor
-(
-)
-=
-0
-;
-virtual
 bool
 IsOggDecoderShutdown
 (
