@@ -1572,9 +1572,6 @@ mDecodedVideoEndTime
 double
 mPlaybackRate
 ;
-TimeStamp
-mDecodeStartTime
-;
 uint32_t
 mBufferingWait
 ;
