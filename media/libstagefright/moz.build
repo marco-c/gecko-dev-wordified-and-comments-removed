@@ -1335,16 +1335,6 @@ comment
 -
 Wno
 -
-declaration
--
-after
--
-statement
-'
-'
--
-Wno
--
 sign
 -
 compare
