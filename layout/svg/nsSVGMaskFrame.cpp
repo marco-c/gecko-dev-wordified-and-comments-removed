@@ -1573,7 +1573,7 @@ DataSourceSurface
 MapType
 :
 :
-READ_WRITE
+WRITE
 &
 destMap
 )
