@@ -347,9 +347,6 @@ TrueType
 {
 }
 ;
-#
-ifdef
-MOZ_CHAR16_IS_NOT_WCHAR
 template
 <
 >
@@ -363,8 +360,6 @@ TrueType
 {
 }
 ;
-#
-endif
 }
 template
 <
@@ -1295,9 +1290,6 @@ TrueType
 {
 }
 ;
-#
-ifdef
-MOZ_CHAR16_IS_NOT_WCHAR
 template
 <
 >
@@ -1311,8 +1303,6 @@ TrueType
 {
 }
 ;
-#
-endif
 template
 <
 typename

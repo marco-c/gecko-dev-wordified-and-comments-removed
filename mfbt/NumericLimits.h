@@ -47,9 +47,6 @@ T
 {
 }
 ;
-#
-ifdef
-MOZ_CHAR16_IS_NOT_WCHAR
 template
 <
 >
@@ -70,8 +67,6 @@ uint16_t
 {
 }
 ;
-#
-endif
 }
 #
 endif
