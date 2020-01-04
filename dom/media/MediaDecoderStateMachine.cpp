@@ -9888,7 +9888,7 @@ Duration
 ToMicroseconds
 (
 )
-mDecoder
+mResource
 -
 >
 IsTransportSeekable
