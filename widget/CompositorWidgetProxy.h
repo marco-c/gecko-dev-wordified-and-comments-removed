@@ -88,6 +88,9 @@ namespace
 widget
 {
 class
+WinCompositorWidgetProxy
+;
+class
 CompositorWidgetProxy
 {
 public
@@ -330,6 +333,17 @@ GetCompositorVsyncDispatcher
 =
 0
 ;
+virtual
+WinCompositorWidgetProxy
+*
+AsWindowsProxy
+(
+)
+{
+return
+nullptr
+;
+}
 protected
 :
 virtual
