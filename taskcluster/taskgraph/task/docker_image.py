@@ -589,9 +589,7 @@ image_artifact_path
 "
 public
 /
-decision_task
-/
-image_contexts
+docker_image_contexts
 /
 {
 }
@@ -640,11 +638,7 @@ HOME
 ]
                     
 "
-artifacts
-/
-decision_task
-/
-image_contexts
+docker_image_contexts
 /
 {
 }
