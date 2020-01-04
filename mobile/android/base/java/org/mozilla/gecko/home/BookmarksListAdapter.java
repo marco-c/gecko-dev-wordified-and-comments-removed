@@ -564,6 +564,16 @@ mParentStack
 ;
 }
 public
+FolderType
+getOpenFolderType
+(
+)
+{
+return
+openFolderType
+;
+}
+public
 boolean
 moveToParentFolder
 (
