@@ -789,6 +789,7 @@ kdelegate
 ;
 if
 (
+!
 aValue
 .
 is
