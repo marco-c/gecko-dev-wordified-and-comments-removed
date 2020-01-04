@@ -2940,6 +2940,10 @@ cache
 nsDependentCString
 (
 buf
+.
+get
+(
+)
 size
 )
 .
@@ -2955,6 +2959,10 @@ char
 beginning
 =
 buf
+.
+get
+(
+)
 ;
 const
 char
