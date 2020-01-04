@@ -972,6 +972,9 @@ fpsDen
 MediaResourceIndex
 mResource
 ;
+NotifyDataArrivedFilter
+mFilter
+;
 }
 ;
 }

@@ -429,6 +429,9 @@ SafeGetDecoder
 (
 )
 ;
+NotifyDataArrivedFilter
+mFilter
+;
 }
 ;
 }

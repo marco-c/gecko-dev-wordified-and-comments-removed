@@ -262,6 +262,9 @@ mMP3FrameParser
 MediaResourceIndex
 mResource
 ;
+NotifyDataArrivedFilter
+mFilter
+;
 }
 ;
 }

@@ -230,6 +230,9 @@ mBytesPerSample
 int64_t
 mDuration
 ;
+NotifyDataArrivedFilter
+mFilter
+;
 }
 ;
 }
