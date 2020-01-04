@@ -730,6 +730,9 @@ UpdateComputedBSize
 "
 UpdateUsesOpacity
 "
+"
+UpdateBackgroundPosition
+"
 }
 ;
 uint32_t
