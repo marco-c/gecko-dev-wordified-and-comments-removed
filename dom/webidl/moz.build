@@ -1497,6 +1497,11 @@ KeyEvent
 webidl
 '
 '
+KeyframeAnimationOptions
+.
+webidl
+'
+'
 KeyframeEffect
 .
 webidl
