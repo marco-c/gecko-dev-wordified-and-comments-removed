@@ -17897,12 +17897,6 @@ case
 Expr
 :
 :
-I8Const
-:
-case
-Expr
-:
-:
 I32Ctz
 :
 case

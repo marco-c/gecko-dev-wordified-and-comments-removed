@@ -187,7 +187,6 @@ Unreachable
 Call
 CallIndirect
 CallImport
-I8Const
 I32Const
 I64Const
 F64Const
