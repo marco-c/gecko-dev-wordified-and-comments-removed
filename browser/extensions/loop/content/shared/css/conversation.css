@@ -1344,6 +1344,14 @@ right
 -
 10rem
 ;
+font
+-
+size
+:
+0
+.
+8rem
+;
 }
 .
 call
@@ -2927,9 +2935,7 @@ font
 -
 size
 :
-1
-.
-2rem
+1rem
 ;
 font
 -
