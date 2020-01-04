@@ -176,6 +176,9 @@ aStream
 nsCString
 &
 aContentType
+uint64_t
+&
+aContentLength
 )
 ;
 nsresult
@@ -192,6 +195,9 @@ aStream
 nsCString
 &
 aContentType
+uint64_t
+&
+aContentLength
 )
 ;
 template

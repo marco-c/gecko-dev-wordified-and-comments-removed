@@ -1782,6 +1782,10 @@ ir
 SetBody
 (
 stream
+InternalResponse
+:
+:
+UNKNOWN_BODY_SIZE
 )
 ;
 switch

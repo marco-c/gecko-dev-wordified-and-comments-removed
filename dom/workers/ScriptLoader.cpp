@@ -2422,6 +2422,10 @@ SetBody
 loadInfo
 .
 mCacheReadStream
+InternalResponse
+:
+:
+UNKNOWN_BODY_SIZE
 )
 ;
 loadInfo
