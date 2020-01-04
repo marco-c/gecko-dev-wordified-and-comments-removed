@@ -877,6 +877,7 @@ Kind
 Unknown
 Load
 LoadSext32
+LoadSext64
 Store
 }
 ;
