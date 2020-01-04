@@ -151,6 +151,9 @@ SendSessionMessageRequest
 nsString
 sessionId
 ;
+uint8_t
+role
+;
 nsString
 data
 ;
@@ -162,6 +165,9 @@ CloseSessionRequest
 nsString
 sessionId
 ;
+uint8_t
+role
+;
 }
 ;
 struct
@@ -169,6 +175,9 @@ TerminateSessionRequest
 {
 nsString
 sessionId
+;
+uint8_t
+role
 ;
 }
 ;
@@ -253,6 +262,8 @@ RegisterSessionHandler
 (
 nsString
 aSessionId
+uint8_t
+aRole
 )
 ;
 async
@@ -260,6 +271,8 @@ UnregisterSessionHandler
 (
 nsString
 aSessionId
+uint8_t
+aRole
 )
 ;
 async
