@@ -1544,7 +1544,7 @@ receiver
 ;
 }
 function
-testTerminateConnection
+testCloseConnection
 (
 )
 {
@@ -1566,7 +1566,7 @@ Sender
 -
 -
 -
-testTerminateConnection
+testCloseConnection
 -
 -
 -
@@ -1575,7 +1575,7 @@ testTerminateConnection
 ;
 connection
 .
-onterminate
+onclose
 =
 function
 (
@@ -1583,7 +1583,7 @@ function
 {
 connection
 .
-onterminate
+onclose
 =
 null
 ;
@@ -1593,7 +1593,7 @@ connection
 .
 state
 "
-terminated
+closed
 "
 "
 Sender
@@ -1601,7 +1601,7 @@ Sender
 Connection
 should
 be
-terminated
+closed
 .
 "
 )
@@ -1621,10 +1621,10 @@ ready
 -
 to
 -
-terminate
+close
 '
 function
-onReadyToTerminate
+onReadyToClose
 (
 )
 {
@@ -1637,14 +1637,14 @@ ready
 -
 to
 -
-terminate
+close
 '
-onReadyToTerminate
+onReadyToClose
 )
 ;
 connection
 .
-terminate
+close
 (
 )
 ;
@@ -1742,7 +1742,7 @@ testIncomingMessage
 .
 then
 (
-testTerminateConnection
+testCloseConnection
 )
 ;
 }

@@ -832,7 +832,7 @@ incomingMessage
 ;
 }
 function
-testTerminateConnection
+testCloseConnection
 (
 )
 {
@@ -848,7 +848,7 @@ aReject
 {
 connection
 .
-onterminate
+onclose
 =
 function
 (
@@ -856,7 +856,7 @@ function
 {
 connection
 .
-onterminate
+onclose
 =
 null
 ;
@@ -866,13 +866,13 @@ connection
 .
 state
 "
-terminated
+closed
 "
 "
 Connection
 should
 be
-terminated
+closed
 .
 "
 )
@@ -885,7 +885,7 @@ aResolve
 ;
 connection
 .
-terminate
+close
 (
 )
 ;
@@ -924,7 +924,7 @@ testIncomingMessage
 .
 then
 (
-testTerminateConnection
+testCloseConnection
 )
 .
 then
