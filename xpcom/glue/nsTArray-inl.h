@@ -967,7 +967,7 @@ length
 Copy
 :
 :
-CopyNonOverlappingRegion
+MoveNonOverlappingRegion
 (
 header
 +
@@ -1850,7 +1850,7 @@ FailureResult
 Copy
 :
 :
-CopyNonOverlappingRegion
+MoveNonOverlappingRegion
 (
 temp
 .
@@ -1865,7 +1865,7 @@ aElemSize
 Copy
 :
 :
-CopyNonOverlappingRegion
+MoveNonOverlappingRegion
 (
 smallerElements
 largerElements
@@ -1876,7 +1876,7 @@ aElemSize
 Copy
 :
 :
-CopyNonOverlappingRegion
+MoveNonOverlappingRegion
 (
 largerElements
 temp
