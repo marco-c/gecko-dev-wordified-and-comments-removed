@@ -1502,6 +1502,16 @@ PresentScreenBuffer
 (
 )
 ;
+void
+BeginComposition
+(
+)
+;
+void
+EndComposition
+(
+)
+;
 uint32_t
 Generation
 (
@@ -7557,9 +7567,6 @@ mNeedsFakeNoStencil
 ;
 bool
 mNeedsEmulatedLoneDepthStencil
-;
-bool
-mVRPresentationActive
 ;
 bool
 HasTimestampBits
