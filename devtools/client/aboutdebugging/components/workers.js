@@ -26,10 +26,6 @@ this
 React
 "
 "
-resource
-:
-/
-/
 devtools
 /
 client
@@ -39,8 +35,6 @@ shared
 vendor
 /
 react
-.
-js
 "
 )
 ;
