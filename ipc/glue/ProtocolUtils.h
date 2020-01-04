@@ -749,6 +749,15 @@ IToplevelProtocol
 aActors
 )
 ;
+virtual
+MessageChannel
+*
+GetIPCChannel
+(
+)
+=
+0
+;
 size_t
 GetOpenedActorsUnsafe
 (
