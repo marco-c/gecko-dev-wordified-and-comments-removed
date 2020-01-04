@@ -23,7 +23,7 @@ rootanalysis
 build_type
 :
 '
-opt
+debug
 '
 task
 :

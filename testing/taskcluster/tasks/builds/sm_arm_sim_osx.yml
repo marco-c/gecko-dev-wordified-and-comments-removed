@@ -27,7 +27,7 @@ osx
 build_type
 :
 '
-opt
+debug
 '
 task
 :

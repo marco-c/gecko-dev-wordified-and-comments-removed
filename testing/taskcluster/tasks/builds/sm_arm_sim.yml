@@ -25,7 +25,7 @@ sim
 build_type
 :
 '
-opt
+debug
 '
 task
 :
