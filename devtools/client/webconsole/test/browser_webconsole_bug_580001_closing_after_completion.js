@@ -88,15 +88,6 @@ defer
 )
 ;
 let
-inputNode
-=
-hud
-.
-jsterm
-.
-inputNode
-;
-let
 errorWhileClosing
 =
 false
@@ -122,7 +113,9 @@ errorListener
 false
 )
 ;
-inputNode
+hud
+.
+jsterm
 .
 focus
 (

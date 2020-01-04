@@ -859,14 +859,7 @@ hud
 .
 jsterm
 ;
-let
-{
-inputNode
-}
-=
 jsterm
-;
-inputNode
 .
 focus
 (

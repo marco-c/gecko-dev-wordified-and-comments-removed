@@ -2278,8 +2278,6 @@ this
 .
 jsterm
 .
-inputNode
-.
 focus
 (
 )
@@ -2332,8 +2330,6 @@ this
 .
 jsterm
 .
-inputNode
-.
 focus
 (
 )
@@ -2373,8 +2369,6 @@ function
 this
 .
 jsterm
-.
-inputNode
 .
 focus
 (
@@ -13146,16 +13140,11 @@ function
 (
 )
 {
-let
-inputNode
-=
-this
-.
-inputNode
-;
 if
 (
 !
+this
+.
 inputNode
 .
 getAttribute
@@ -13166,6 +13155,8 @@ focused
 )
 )
 {
+this
+.
 inputNode
 .
 focus
@@ -14677,8 +14668,6 @@ _sidebarDestroy
 )
 ;
 this
-.
-inputNode
 .
 focus
 (
@@ -16203,7 +16192,7 @@ preventDefault
 (
 )
 ;
-inputNode
+this
 .
 focus
 (
@@ -16256,7 +16245,7 @@ preventDefault
 (
 )
 ;
-inputNode
+this
 .
 focus
 (

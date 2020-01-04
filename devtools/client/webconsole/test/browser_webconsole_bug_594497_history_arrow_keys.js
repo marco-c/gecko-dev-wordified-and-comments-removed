@@ -96,7 +96,7 @@ jsterm
 .
 inputNode
 ;
-inputNode
+jsterm
 .
 focus
 (
