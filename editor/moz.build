@@ -160,6 +160,11 @@ nsIEditorStyleSheets
 idl
 '
 '
+nsIEditorUtils
+.
+idl
+'
+'
 nsIHTMLAbsPosEditor
 .
 idl
