@@ -99951,7 +99951,6 @@ globalHolder
           
 ConstructJSImplementation
 (
-cx
 "
 {
 contractId
