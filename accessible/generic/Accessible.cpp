@@ -565,8 +565,6 @@ NS_IMPL_CYCLE_COLLECTION
 (
 Accessible
 mContent
-mParent
-mChildren
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
@@ -9873,10 +9871,6 @@ old
 parent
 "
 mParent
-.
-get
-(
-)
 "
 new
 parent
