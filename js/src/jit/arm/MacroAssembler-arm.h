@@ -477,13 +477,6 @@ FloatRegister
 dest
 )
 ;
-void
-negateDouble
-(
-FloatRegister
-reg
-)
-;
 private
 :
 bool
