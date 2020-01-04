@@ -3801,6 +3801,11 @@ aFormat
 {
 if
 (
+IsCompositingCheap
+(
+)
+&
+&
 gfxPrefs
 :
 :
