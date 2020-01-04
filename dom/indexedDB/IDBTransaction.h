@@ -260,6 +260,9 @@ mFilename
 uint32_t
 mLineNo
 ;
+uint32_t
+mColumn
+;
 ReadyState
 mReadyState
 ;
@@ -542,6 +545,9 @@ aFilename
 uint32_t
 *
 aLineNo
+uint32_t
+*
+aColumn
 )
 const
 ;

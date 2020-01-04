@@ -1925,6 +1925,10 @@ mFilename
 init
 .
 mLineno
+&
+init
+.
+mColno
 )
 ;
 init
@@ -2253,7 +2257,9 @@ EmptyString
 init
 .
 mLineno
-0
+init
+.
+mColno
 nsIScriptError
 :
 :
@@ -2286,7 +2292,9 @@ EmptyString
 init
 .
 mLineno
-0
+init
+.
+mColno
 nsIScriptError
 :
 :
