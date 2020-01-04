@@ -1300,6 +1300,14 @@ LoadSymbols
 (
 mOGLLibrary
 symbols_robustness
+(
+GLLibraryLoader
+:
+:
+PlatformLookupFunction
+)
+&
+xGetProcAddress
 )
 )
 {
