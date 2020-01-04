@@ -3374,6 +3374,10 @@ nsrefcnt
 widgetRefCnt
 =
 mWindow
+.
+get
+(
+)
 -
 >
 AddRef
@@ -3383,6 +3387,10 @@ AddRef
 1
 ;
 mWindow
+.
+get
+(
+)
 -
 >
 Release
