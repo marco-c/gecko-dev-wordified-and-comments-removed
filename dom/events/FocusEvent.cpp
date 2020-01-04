@@ -145,7 +145,7 @@ AsFocusEvent
 )
 -
 >
-relatedTarget
+mRelatedTarget
 ;
 }
 void
@@ -192,7 +192,7 @@ AsFocusEvent
 )
 -
 >
-relatedTarget
+mRelatedTarget
 =
 aRelatedTarget
 ;

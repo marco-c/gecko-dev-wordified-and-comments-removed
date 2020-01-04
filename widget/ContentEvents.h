@@ -713,7 +713,7 @@ dom
 :
 EventTarget
 >
-relatedTarget
+mRelatedTarget
 ;
 bool
 mFromRaise
@@ -738,13 +738,13 @@ aEvent
 aCopyTargets
 )
 ;
-relatedTarget
+mRelatedTarget
 =
 aCopyTargets
 ?
 aEvent
 .
-relatedTarget
+mRelatedTarget
 :
 nullptr
 ;
