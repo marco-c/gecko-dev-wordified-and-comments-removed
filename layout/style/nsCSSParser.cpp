@@ -48053,14 +48053,6 @@ aPropID
 )
 ;
 case
-eCSSProperty_grid_template
-:
-return
-ParseGridTemplate
-(
-)
-;
-case
 eCSSProperty_grid
 :
 return
