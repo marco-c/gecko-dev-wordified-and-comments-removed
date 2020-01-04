@@ -1039,6 +1039,9 @@ reset_retry_count_after_ms
 maxQuotaPerSubscription
 :
 16
+quotaUpdateDelay
+:
+3000
 }
 prefs
 )
