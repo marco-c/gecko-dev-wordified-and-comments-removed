@@ -225,6 +225,11 @@ WebRequestContent
 js
 '
 '
+AsyncPrefs
+.
+jsm
+'
+'
 Battery
 .
 jsm
