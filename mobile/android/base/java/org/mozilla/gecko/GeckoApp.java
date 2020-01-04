@@ -1378,15 +1378,6 @@ getLayout
 (
 )
 ;
-abstract
-protected
-String
-getDefaultProfileName
-(
-)
-throws
-NoMozillaDirectoryException
-;
 protected
 void
 processTabQueue
