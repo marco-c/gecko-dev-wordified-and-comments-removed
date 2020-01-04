@@ -175,9 +175,6 @@ TestRefPtr
 TestRollingMean
 '
 '
-TestSaturate
-'
-'
 TestScopeExit
 '
 '
