@@ -93,7 +93,7 @@ namespace
 mozilla
 {
 class
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 ;
 }
 using
@@ -185,7 +185,7 @@ SetScriptObserver
 mozilla
 :
 :
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 *
 aScriptObserver
 )
@@ -585,7 +585,7 @@ mObserver
 mozilla
 :
 :
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 *
 mScriptObserver
 ;

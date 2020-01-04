@@ -85,7 +85,7 @@ include
 "
 mozilla
 /
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 h
 "
@@ -4716,7 +4716,7 @@ SetScriptObserver
 mozilla
 :
 :
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 *
 aScriptObserver
 )

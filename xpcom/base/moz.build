@@ -405,7 +405,7 @@ CountingAllocatorBase
 h
 '
 '
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 h
 '
@@ -533,7 +533,7 @@ ClearOnShutdown
 cpp
 '
 '
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 cpp
 '

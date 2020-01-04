@@ -159,7 +159,7 @@ include
 "
 mozilla
 /
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 h
 "
@@ -4652,7 +4652,7 @@ public
 mozilla
 :
 :
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 {
 public
 :
@@ -4736,7 +4736,7 @@ aParentContext
 nsresult
 rv
 =
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Initialize
@@ -4926,7 +4926,7 @@ aRecursionDepth
 2
 )
 {
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 AfterProcessTask
@@ -4946,7 +4946,7 @@ aRecursionDepth
 AutoDisableMicroTaskCheckpoint
 disableMicroTaskCheckpoint
 ;
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 AfterProcessTask
@@ -6025,11 +6025,11 @@ NS_IsMainThread
 )
 )
 ;
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 *
-ccrt
+ccjscx
 =
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get
@@ -6039,7 +6039,7 @@ Get
 if
 (
 !
-ccrt
+ccjscx
 )
 {
 return
@@ -6050,7 +6050,7 @@ JSContext
 *
 cx
 =
-ccrt
+ccjscx
 -
 >
 Context
@@ -8078,7 +8078,7 @@ JSContext
 *
 cx
 =
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get

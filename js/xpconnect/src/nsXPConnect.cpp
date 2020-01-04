@@ -1426,7 +1426,7 @@ js
 :
 GetErrorTypeName
 (
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get

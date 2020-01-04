@@ -5322,11 +5322,11 @@ SyncNotifyFlag
 aSyncNotifyFlag
 )
 {
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 *
-runtime
+context
 =
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get
@@ -5379,7 +5379,7 @@ Animation
 DoFinishNotificationImmediately
 )
 ;
-runtime
+context
 -
 >
 DispatchToMicroTask

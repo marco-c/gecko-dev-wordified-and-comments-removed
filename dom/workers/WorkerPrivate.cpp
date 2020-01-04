@@ -18862,7 +18862,7 @@ AssertIsOnWorkerThread
 uint32_t
 recursionDepth
 =
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get
@@ -18920,7 +18920,7 @@ AssertIsOnWorkerThread
 ;
 MOZ_ASSERT
 (
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get

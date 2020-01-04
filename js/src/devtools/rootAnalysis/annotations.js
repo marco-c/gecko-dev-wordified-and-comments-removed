@@ -344,7 +344,7 @@ true
 mozilla
 :
 :
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 DescribeCustomObjects
 "
@@ -354,7 +354,7 @@ true
 mozilla
 :
 :
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 NoteCustomGCThingXPCOMChildren
 "

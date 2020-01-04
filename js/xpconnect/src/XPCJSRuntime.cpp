@@ -2755,7 +2755,7 @@ UnmarkSkippableJSHolders
 (
 )
 {
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 UnmarkSkippableJSHolders
@@ -6195,7 +6195,7 @@ mallocSizeOf
 n
 +
 =
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 SizeOfExcludingThis
@@ -17816,7 +17816,7 @@ Initialize
 nsresult
 rv
 =
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Initialize
@@ -18900,7 +18900,7 @@ Context
 )
 )
 ;
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 BeforeProcessTask
@@ -18946,7 +18946,7 @@ MaybePokeCC
 (
 )
 ;
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 AfterProcessTask

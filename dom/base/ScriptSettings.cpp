@@ -32,7 +32,7 @@ include
 "
 mozilla
 /
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 .
 h
 "
@@ -1092,7 +1092,7 @@ GetJSContext
 )
 {
 return
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get
@@ -1116,7 +1116,7 @@ RootingCx
 )
 {
 return
-CycleCollectedJSRuntime
+CycleCollectedJSContext
 :
 :
 Get
