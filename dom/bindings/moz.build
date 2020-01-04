@@ -253,11 +253,6 @@ UnionMember
 .
 h
 '
-'
-WebIDLGlobalNameHash
-.
-h
-'
 ]
 #
 Generated
@@ -572,11 +567,6 @@ cpp
 '
 '
 ToJSValue
-.
-cpp
-'
-'
-WebIDLGlobalNameHash
 .
 cpp
 '
