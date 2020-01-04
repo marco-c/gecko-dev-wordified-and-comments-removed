@@ -190,6 +190,13 @@ VPXDecoder
 cpp
 '
 '
+agnostic
+/
+WAVDecoder
+.
+cpp
+'
+'
 PDMFactory
 .
 cpp
