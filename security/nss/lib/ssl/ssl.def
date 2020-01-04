@@ -979,6 +979,8 @@ release
 +
 global
 :
+SSL_ConfigServerCert
+;
 SSL_SetDowngradeCheckVersion
 ;
 ;
