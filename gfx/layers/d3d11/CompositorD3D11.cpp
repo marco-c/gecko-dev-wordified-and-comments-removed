@@ -6512,6 +6512,8 @@ const
 Rect
 &
 aRenderBounds
+bool
+aOpaque
 Rect
 *
 aClipRectOut

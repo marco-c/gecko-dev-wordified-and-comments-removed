@@ -3083,6 +3083,8 @@ gfx
 Rect
 &
 aRenderBounds
+bool
+aOpaque
 gfx
 :
 :
@@ -3295,6 +3297,10 @@ mInvalidRect
 ToUnknownRect
 (
 )
+aOpaque
+?
+INIT_MODE_NONE
+:
 INIT_MODE_CLEAR
 bufferMode
 )
