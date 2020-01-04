@@ -8905,9 +8905,11 @@ mHandle
 mMetadata
 -
 >
-AppId
+OriginAttributes
 (
 )
+.
+mAppId
 mMetadata
 -
 >
@@ -8917,9 +8919,11 @@ IsAnonymous
 mMetadata
 -
 >
-IsInBrowser
+OriginAttributes
 (
 )
+.
+mInBrowser
 )
 ;
 NS_ENSURE_SUCCESS

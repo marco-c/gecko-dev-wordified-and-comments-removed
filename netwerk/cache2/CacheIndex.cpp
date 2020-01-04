@@ -13033,9 +13033,11 @@ Init
 aMetaData
 -
 >
-AppId
+OriginAttributes
 (
 )
+.
+mAppId
 aMetaData
 -
 >
@@ -13045,9 +13047,11 @@ IsAnonymous
 aMetaData
 -
 >
-IsInBrowser
+OriginAttributes
 (
 )
+.
+mInBrowser
 )
 ;
 uint32_t
