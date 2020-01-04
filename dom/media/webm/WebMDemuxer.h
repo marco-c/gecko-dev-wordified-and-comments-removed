@@ -857,9 +857,6 @@ uint32_t
 mAudioTrack
 ;
 uint64_t
-mCodecDelay
-;
-uint64_t
 mSeekPreroll
 ;
 Maybe
