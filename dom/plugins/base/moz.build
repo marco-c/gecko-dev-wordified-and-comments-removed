@@ -394,10 +394,14 @@ cpp
 '
 ]
 if
+'
+gtk
+'
+in
 CONFIG
 [
 '
-MOZ_ENABLE_GTK
+MOZ_WIDGET_TOOLKIT
 '
 ]
 :

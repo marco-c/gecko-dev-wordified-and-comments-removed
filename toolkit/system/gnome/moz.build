@@ -215,10 +215,14 @@ MOZ_DBUS_GLIB_CFLAGS
 '
 ]
 if
+'
+gtk
+'
+in
 CONFIG
 [
 '
-MOZ_ENABLE_GTK
+MOZ_WIDGET_TOOLKIT
 '
 ]
 :
