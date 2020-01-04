@@ -22428,6 +22428,10 @@ mResizeState
 =
 aNewState
 ;
+ForcePresent
+(
+)
+;
 }
 BOOL
 CALLBACK

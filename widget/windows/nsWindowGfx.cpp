@@ -671,6 +671,14 @@ ForcePresent
 {
 if
 (
+mResizeState
+!
+=
+RESIZING
+)
+{
+if
+(
 CompositorBridgeChild
 *
 remoteRenderer
@@ -687,6 +695,7 @@ SendForcePresent
 (
 )
 ;
+}
 }
 }
 bool
