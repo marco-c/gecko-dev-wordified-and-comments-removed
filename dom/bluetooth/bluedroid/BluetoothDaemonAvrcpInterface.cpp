@@ -1953,7 +1953,7 @@ UnpackPDU
 pdu
 UnpackConversion
 <
-BluetoothAvrcpRemoteFeature
+BluetoothAvrcpRemoteFeatureBits
 unsigned
 long
 >

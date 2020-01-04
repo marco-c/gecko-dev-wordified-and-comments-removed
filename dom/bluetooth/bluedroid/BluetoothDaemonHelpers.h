@@ -532,7 +532,7 @@ Convert
 (
 uint8_t
 aIn
-BluetoothAvrcpRemoteFeature
+BluetoothAvrcpRemoteFeatureBits
 &
 aOut
 )
@@ -780,7 +780,7 @@ aOut
 nsresult
 Convert
 (
-BluetoothAvrcpRemoteFeature
+BluetoothAvrcpRemoteFeatureBits
 aIn
 unsigned
 long
@@ -1537,7 +1537,7 @@ UnpackPDU
 DaemonSocketPDU
 &
 aPDU
-BluetoothAvrcpRemoteFeature
+BluetoothAvrcpRemoteFeatureBits
 &
 aOut
 )
