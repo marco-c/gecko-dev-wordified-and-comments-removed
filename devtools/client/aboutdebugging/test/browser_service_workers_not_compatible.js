@@ -298,7 +298,6 @@ yield
 closeAboutDebugging
 (
 tab
-win
 )
 ;
 win
