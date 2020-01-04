@@ -200,7 +200,6 @@ aCallback
 nsresult
 InsertPlace
 (
-const
 VisitData
 &
 aVisitData
