@@ -583,16 +583,9 @@ INIT_FLAG_TRANSIENT
 static
 const
 uint32_t
-INIT_FLAG_DOWNSCALE_DURING_DECODE
-=
-0x8
-;
-static
-const
-uint32_t
 INIT_FLAG_SYNC_LOAD
 =
-0x10
+0x8
 ;
 virtual
 already_AddRefed
