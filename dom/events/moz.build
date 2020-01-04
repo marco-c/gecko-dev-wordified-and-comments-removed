@@ -450,6 +450,11 @@ ContentEventHandler
 cpp
 '
 '
+CustomEvent
+.
+cpp
+'
+'
 DataContainerEvent
 .
 cpp
@@ -644,11 +649,6 @@ SOURCES
 +
 =
 [
-'
-CustomEvent
-.
-cpp
-'
 '
 EventStateManager
 .
