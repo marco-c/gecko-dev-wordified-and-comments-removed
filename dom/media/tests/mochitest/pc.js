@@ -3912,7 +3912,13 @@ this
 ensureMediaElement
 (
 track
-stream
+new
+MediaStream
+(
+[
+track
+]
+)
 "
 local
 "
