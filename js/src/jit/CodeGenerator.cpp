@@ -30190,6 +30190,12 @@ false
 #
 ifdef
 DEBUG
+setElement
+(
+*
+iter
+)
+;
 emitDebugForceBailing
 (
 *
