@@ -2099,6 +2099,7 @@ k
 )
 (
 (
+(
 p
 )
 =
@@ -2112,6 +2113,18 @@ e
 =
 =
 EncodingIDMicrosoft
+)
+|
+|
+\
+(
+(
+p
+)
+=
+=
+PLATFORM_ID_UNICODE
+)
 )
 #
 define
