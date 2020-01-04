@@ -651,7 +651,7 @@ Call
 >
 mCurrentCallArray
 ;
-nsAutoPtr
+UniquePtr
 <
 BluetoothRilListener
 >

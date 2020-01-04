@@ -23,7 +23,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -1147,6 +1149,10 @@ mHeaders
 [
 i
 ]
+.
+get
+(
+)
 ;
 }
 }
@@ -1187,7 +1193,7 @@ private
 :
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 ObexHeader
 >

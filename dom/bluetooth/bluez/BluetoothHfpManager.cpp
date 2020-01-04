@@ -1761,8 +1761,10 @@ ifdef
 MOZ_B2G_RIL
 mListener
 =
-new
+MakeUnique
+<
 BluetoothRilListener
+>
 (
 )
 ;
@@ -3034,7 +3036,7 @@ ReceiveSocketData
 BluetoothSocket
 *
 aSocket
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >

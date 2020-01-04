@@ -108,13 +108,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -5599,6 +5592,8 @@ true
 DBusMessage
 *
 msg
+=
+nullptr
 ;
 if
 (
@@ -9371,7 +9366,7 @@ sDBusConnection
 =
 mConnection
 .
-forget
+release
 (
 )
 ;
@@ -9471,7 +9466,7 @@ adapter
 }
 private
 :
-nsAutoPtr
+UniquePtr
 <
 RawDBusConnection
 >

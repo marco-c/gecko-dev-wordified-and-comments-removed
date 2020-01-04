@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCExternalHandlerService
 .
 h
@@ -4909,7 +4902,7 @@ ReceiveSocketData
 BluetoothSocket
 *
 aSocket
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >
@@ -4925,6 +4918,10 @@ mIsServer
 ServerDataHandler
 (
 aBuffer
+.
+get
+(
+)
 )
 ;
 }
@@ -4933,6 +4930,10 @@ else
 ClientDataHandler
 (
 aBuffer
+.
+get
+(
+)
 )
 ;
 }

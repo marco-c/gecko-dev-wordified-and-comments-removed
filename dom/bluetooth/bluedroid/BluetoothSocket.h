@@ -182,7 +182,7 @@ aRes
 void
 ReceiveSocketData
 (
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :

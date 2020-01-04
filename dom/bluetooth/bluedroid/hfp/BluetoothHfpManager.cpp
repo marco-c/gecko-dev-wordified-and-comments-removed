@@ -996,8 +996,10 @@ batteryInfo
 ;
 mListener
 =
-new
+MakeUnique
+<
 BluetoothRilListener
+>
 (
 )
 ;

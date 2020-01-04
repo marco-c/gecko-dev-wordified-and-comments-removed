@@ -36,7 +36,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -129,7 +131,7 @@ aEncrypt
 void
 ReceiveSocketData
 (
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :

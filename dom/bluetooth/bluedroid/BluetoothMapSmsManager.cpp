@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h
@@ -1883,7 +1876,7 @@ ReceiveSocketData
 BluetoothSocket
 *
 aSocket
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >
@@ -1909,6 +1902,10 @@ mMnsSocket
 MnsDataHandler
 (
 aMessage
+.
+get
+(
+)
 )
 ;
 }
@@ -1917,6 +1914,10 @@ else
 MasDataHandler
 (
 aMessage
+.
+get
+(
+)
 )
 ;
 }

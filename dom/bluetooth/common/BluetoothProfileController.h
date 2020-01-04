@@ -14,14 +14,14 @@ h
 #
 include
 "
-nsISupportsImpl
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsAutoPtr
+nsISupportsImpl
 .
 h
 "

@@ -22,6 +22,15 @@ SocketBase
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
 BEGIN_BLUETOOTH_NAMESPACE
 class
 BluetoothSocket
@@ -38,7 +47,7 @@ ReceiveSocketData
 BluetoothSocket
 *
 aSocket
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :
@@ -104,7 +113,7 @@ BluetoothSocket
 *
 aSocket
 \
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :

@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h
@@ -907,7 +900,7 @@ ReceiveSocketData
 BluetoothSocket
 *
 aSocket
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >
