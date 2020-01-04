@@ -288,10 +288,7 @@ CompositingRenderTarget
 CreateRenderTargetForWindow
 (
 const
-gfx
-:
-:
-IntRect
+LayoutDeviceIntRect
 &
 aRect
 SurfaceInitMode
