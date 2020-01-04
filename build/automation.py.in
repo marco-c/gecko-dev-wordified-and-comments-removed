@@ -3400,7 +3400,7 @@ self
 .
 log
 .
-warning
+error
 (
 "
 Force
@@ -3494,7 +3494,7 @@ self
 .
 log
 .
-warning
+error
 (
 "
 Force

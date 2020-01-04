@@ -3733,7 +3733,7 @@ self
 .
 log
 .
-warning
+error
 (
 "
 Force
