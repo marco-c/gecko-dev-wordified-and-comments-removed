@@ -666,6 +666,17 @@ IsChromeOrXBL
 ]
 attribute
 boolean
+mozMediaStatisticsShowing
+;
+[
+Func
+=
+"
+IsChromeOrXBL
+"
+]
+attribute
+boolean
 mozAllowCasting
 ;
 [
