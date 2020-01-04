@@ -12904,6 +12904,14 @@ if
 cellContainsFill
 &
 &
+stopDelta
+!
+=
+0
+.
+0
+&
+&
 (
 (
 gradientStopStart
