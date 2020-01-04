@@ -34,8 +34,9 @@ sys
 .
 path
 .
-append
+insert
 (
+0
 os
 .
 path
