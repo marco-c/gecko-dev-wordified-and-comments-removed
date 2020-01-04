@@ -94,6 +94,9 @@ NR_ICE_MEDIA_STREAM_CHECKS_FAILED
 nr_ice_cand_pair_head
 check_list
 ;
+nr_ice_cand_pair_head
+trigger_check_queue
+;
 void
 *
 timer

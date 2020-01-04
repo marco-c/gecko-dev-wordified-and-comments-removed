@@ -2425,8 +2425,10 @@ sock
 -
 >
 pending
-&
-&
+)
+{
+if
+(
 !
 already_armed
 )
@@ -2499,6 +2501,7 @@ sock
 pending
 )
 ;
+}
 *
 written
 =
