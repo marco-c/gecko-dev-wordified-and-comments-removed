@@ -67,6 +67,16 @@ ff_zigzag_direct
 64
 ]
 ;
+extern
+const
+uint8_t
+ff_zigzag_scan
+[
+16
++
+1
+]
+;
 #
 if
 ARCH_ARM

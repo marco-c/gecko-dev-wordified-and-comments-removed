@@ -338,6 +338,10 @@ qp_table_buf
 ;
 #
 endif
+AVBufferRef
+*
+hw_frames_ctx
+;
 }
 AVFrame
 ;
