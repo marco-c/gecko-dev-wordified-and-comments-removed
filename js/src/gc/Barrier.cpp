@@ -130,6 +130,9 @@ isTenured
 return
 true
 ;
+gc
+:
+:
 TenuredCell
 &
 tenured
@@ -147,6 +150,9 @@ tenured
 .
 isMarked
 (
+gc
+:
+:
 BLACK
 )
 |
