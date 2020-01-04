@@ -73,6 +73,10 @@ wrapped
 import
 gdbpp
 .
+linkedlist
+import
+gdbpp
+.
 owningthread
 import
 gdbpp
