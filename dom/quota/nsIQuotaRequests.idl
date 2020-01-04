@@ -193,6 +193,13 @@ long
 long
 fileUsage
 ;
+readonly
+attribute
+unsigned
+long
+long
+limit
+;
 attribute
 nsIQuotaUsageCallback
 callback

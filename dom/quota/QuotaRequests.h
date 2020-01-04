@@ -163,6 +163,9 @@ mUsage
 uint64_t
 mFileUsage
 ;
+uint64_t
+mLimit
+;
 QuotaUsageRequestChild
 *
 mBackgroundActor
@@ -211,6 +214,8 @@ uint64_t
 aUsage
 uint64_t
 aFileUsage
+uint64_t
+aLimit
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED

@@ -123,6 +123,9 @@ UsageParams
 PrincipalInfo
 principalInfo
 ;
+bool
+getGroupUsage
+;
 }
 ;
 union
