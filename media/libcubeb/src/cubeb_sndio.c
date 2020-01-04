@@ -1583,11 +1583,11 @@ cubeb_stream_params
 params
 uint32_t
 *
-latency_ms
+latency_frames
 )
 {
 *
-latency
+latency_frames
 =
 2048
 ;
