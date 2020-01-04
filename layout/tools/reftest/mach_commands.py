@@ -319,23 +319,6 @@ s
 lstrip
 (
 )
-here
-=
-os
-.
-path
-.
-abspath
-(
-os
-.
-path
-.
-dirname
-(
-__file__
-)
-)
 class
 ReftestRunner
 (
@@ -1705,6 +1688,9 @@ enable_unstructured
 (
 )
         
+try
+:
+            
 rv
 =
 runreftest
@@ -1716,6 +1702,9 @@ run
 kwargs
 )
         
+finally
+:
+            
 self
 .
 log_manager
@@ -2428,6 +2417,9 @@ enable_unstructured
 (
 )
         
+try
+:
+            
 rv
 =
 reftest
@@ -2439,6 +2431,9 @@ run
 kwargs
 )
         
+finally
+:
+            
 self
 .
 log_manager
@@ -2559,6 +2554,24 @@ get_parser
 (
 )
 :
+    
+here
+=
+os
+.
+path
+.
+abspath
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+)
     
 build_obj
 =
