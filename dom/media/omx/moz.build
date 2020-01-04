@@ -414,6 +414,18 @@ codec
 -
 related
 code
+#
+and
+are
+part
+of
+Android
+'
+s
+libstagefright
+API
+style
+.
 if
 CONFIG
 [
@@ -445,8 +457,6 @@ attributes
 -
 Wno
 -
-error
-=
 multichar
 '
 ]
