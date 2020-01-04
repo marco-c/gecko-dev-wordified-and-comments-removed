@@ -117,6 +117,7 @@ workerHolder
 HoldWorker
 (
 aWorkerPrivate
+Terminating
 )
 )
 )

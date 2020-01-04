@@ -216,6 +216,18 @@ dom
 workers
 :
 :
+Canceling
+;
+using
+mozilla
+:
+:
+dom
+:
+:
+workers
+:
+:
 GetCurrentThreadWorkerPrivate
 ;
 using
@@ -605,6 +617,7 @@ ref
 HoldWorker
 (
 workerPrivate
+Canceling
 )
 )
 )

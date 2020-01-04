@@ -3929,6 +3929,7 @@ mWorkerHolder
 HoldWorker
 (
 mWorkerPrivate
+Closing
 )
 )
 {

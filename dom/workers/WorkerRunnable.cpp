@@ -2839,6 +2839,7 @@ workerHolder
 HoldWorker
 (
 mWorkerPrivate
+Canceling
 )
 )
 )
