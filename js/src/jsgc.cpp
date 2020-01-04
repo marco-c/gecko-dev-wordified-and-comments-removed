@@ -14884,7 +14884,7 @@ requestInterrupt
 JSRuntime
 :
 :
-RequestInterruptUrgent
+RequestInterruptCanWait
 )
 ;
 }
@@ -14932,7 +14932,7 @@ requestInterrupt
 JSRuntime
 :
 :
-RequestInterruptUrgent
+RequestInterruptCanWait
 )
 ;
 }
