@@ -335,7 +335,6 @@ I32StoreMem
 I64StoreMem
 F32StoreMem
 F64StoreMem
-Ternary
 While
 DoWhile
 ForInitInc
