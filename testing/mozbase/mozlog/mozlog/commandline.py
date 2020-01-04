@@ -943,6 +943,9 @@ setup_handlers
 logger
 formatters
 formatter_options
+allow_unused_options
+=
+False
 )
 :
     
@@ -1048,6 +1051,9 @@ keys
     
 if
 unused_options
+and
+not
+allow_unused_options
 :
         
 msg
@@ -1260,6 +1266,9 @@ None
 formatter_defaults
 =
 None
+allow_unused_options
+=
+False
 )
 :
     
@@ -1871,6 +1880,7 @@ setup_handlers
 logger
 formatters
 formatter_options
+allow_unused_options
 )
     
 set_default_logger
