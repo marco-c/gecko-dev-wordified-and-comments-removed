@@ -155,11 +155,10 @@ graph
         
 res
 =
-decision
-.
-taskgraph_to_json
-(
 taskgraph
+.
+to_json
+(
 )
         
 self
