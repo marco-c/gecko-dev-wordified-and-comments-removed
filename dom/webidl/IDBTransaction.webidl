@@ -211,6 +211,9 @@ standard
 readwriteflush
 "
 "
+cleanup
+"
+"
 versionchange
 "
 }
