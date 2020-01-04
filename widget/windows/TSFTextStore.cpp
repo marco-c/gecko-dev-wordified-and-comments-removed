@@ -27384,6 +27384,12 @@ mIncludingChangesDuringComposition
 =
 %
 s
+"
+"
+mIncludingChangesWithoutComposition
+=
+%
+s
 }
 )
 "
@@ -27430,6 +27436,12 @@ GetBoolName
 textChangeData
 .
 mIncludingChangesDuringComposition
+)
+GetBoolName
+(
+textChangeData
+.
+mIncludingChangesWithoutComposition
 )
 mSink
 .
