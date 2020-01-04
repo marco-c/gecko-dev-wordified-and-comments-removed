@@ -126,6 +126,17 @@ TESTING_JS_MODULES
 =
 [
 '
+ajv
+-
+4
+.
+1
+.
+1
+.
+js
+'
+'
 AppData
 .
 jsm
