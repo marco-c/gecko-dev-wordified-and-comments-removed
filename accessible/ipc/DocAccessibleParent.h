@@ -57,6 +57,9 @@ namespace
 a11y
 {
 class
+xpcAccessibleGeneric
+;
+class
 DocAccessibleParent
 :
 public
@@ -709,6 +712,15 @@ CheckDocTree
 (
 )
 const
+;
+xpcAccessibleGeneric
+*
+GetXPCAccessible
+(
+ProxyAccessible
+*
+aProxy
+)
 ;
 nsTArray
 <
