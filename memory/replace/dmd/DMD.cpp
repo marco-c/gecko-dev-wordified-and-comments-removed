@@ -1053,15 +1053,6 @@ aAp
 #
 ifdef
 ANDROID
-#
-ifdef
-MOZ_B2G_LOADER
-if
-(
-gIsDMDInitialized
-)
-#
-endif
 __android_log_vprint
 (
 ANDROID_LOG_INFO

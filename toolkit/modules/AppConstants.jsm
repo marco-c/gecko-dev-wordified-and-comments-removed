@@ -700,17 +700,6 @@ SOURCE_REVISION_URL
 "
 MOZ_SOURCE_URL
 "
-MOZ_NUWA_PROCESS
-:
-#
-ifdef
-MOZ_NUWA_PROCESS
-true
-#
-else
-false
-#
-endif
 HAVE_USR_LIB64_DIR
 :
 #

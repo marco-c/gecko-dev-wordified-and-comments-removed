@@ -141,17 +141,6 @@ OnChannelError
 (
 )
 ;
-#
-ifdef
-MOZ_NUWA_PROCESS
-static
-void
-MarkThread
-(
-)
-;
-#
-endif
 MessageLoop
 *
 owner_loop_

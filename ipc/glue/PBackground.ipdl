@@ -118,10 +118,6 @@ PCameras
 ;
 include
 protocol
-PNuwa
-;
-include
-protocol
 PQuota
 ;
 include
@@ -296,9 +292,6 @@ manages
 PCameras
 ;
 manages
-PNuwa
-;
-manages
 PQuota
 ;
 manages
@@ -418,11 +411,6 @@ nsID
 destinationUuid
 uint32_t
 sequenceId
-)
-;
-async
-PNuwa
-(
 )
 ;
 async

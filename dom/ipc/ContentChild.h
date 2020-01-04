@@ -2875,11 +2875,6 @@ ContentChild
 ;
 }
 ;
-void
-InitOnContentProcessCreated
-(
-)
-;
 uint64_t
 NextWindowID
 (
