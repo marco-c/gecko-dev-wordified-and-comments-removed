@@ -1429,7 +1429,7 @@ residentUnique
 heapAllocated
 "
 "
-heapOverheadRatio
+heapOverheadFraction
 "
 "
 JSMainRuntimeGCHeap
