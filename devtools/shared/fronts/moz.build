@@ -167,6 +167,11 @@ storage
 js
 '
 '
+string
+.
+js
+'
+'
 styles
 .
 js

@@ -39,9 +39,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 string
 "

@@ -206,6 +206,11 @@ storage
 js
 '
 '
+string
+.
+js
+'
+'
 styleeditor
 .
 js

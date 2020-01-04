@@ -392,9 +392,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+specs
 /
 string
 "
