@@ -212,6 +212,11 @@ SetText
 text
 )
 ;
+AppendChild
+(
+mValueTextLeaf
+)
+;
 }
 }
 void
