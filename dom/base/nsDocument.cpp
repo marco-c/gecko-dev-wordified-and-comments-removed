@@ -11647,6 +11647,9 @@ GetUpgradeInsecureRequests
 ;
 mUpgradeInsecurePreloads
 =
+mUpgradeInsecureRequests
+|
+|
 sameTypeParent
 -
 >
