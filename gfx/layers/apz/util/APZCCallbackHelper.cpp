@@ -8,7 +8,7 @@ h
 #
 include
 "
-ContentHelper
+TouchActionHelper
 .
 h
 "
@@ -3584,7 +3584,7 @@ AppendElement
 widget
 :
 :
-ContentHelper
+TouchActionHelper
 :
 :
 GetAllowedTouchBehavior

@@ -388,6 +388,12 @@ IntSize
 width
 height
 )
+mozilla
+:
+:
+gfx
+:
+:
 SurfaceFormat
 :
 :
@@ -520,6 +526,12 @@ aEndPage
 mRecorder
 =
 new
+mozilla
+:
+:
+gfx
+:
+:
 DrawEventRecorderMemory
 (
 )
