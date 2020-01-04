@@ -4135,7 +4135,7 @@ addMessageListener
 "
 PageMetadata
 :
-GetMicroformats
+GetMicrodata
 "
 this
 )
@@ -4162,15 +4162,6 @@ GetPageData
 :
 {
 let
-target
-=
-message
-.
-objects
-.
-target
-;
-let
 result
 =
 PageMetadata
@@ -4180,7 +4171,6 @@ getData
 content
 .
 document
-target
 )
 ;
 sendAsyncMessage
@@ -4200,7 +4190,7 @@ case
 "
 PageMetadata
 :
-GetMicroformats
+GetMicrodata
 "
 :
 {
@@ -4218,7 +4208,7 @@ result
 =
 PageMetadata
 .
-getMicroformats
+getMicrodata
 (
 content
 .
@@ -4231,7 +4221,7 @@ sendAsyncMessage
 "
 PageMetadata
 :
-MicroformatsResult
+MicrodataResult
 "
 result
 )
