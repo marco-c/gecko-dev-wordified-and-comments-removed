@@ -237,7 +237,7 @@ bool
 wasmTestMode
 ;
 bool
-wasmExplicitBoundsChecks
+ionInterruptWithoutSignals
 ;
 uint32_t
 baselineWarmUpThreshold

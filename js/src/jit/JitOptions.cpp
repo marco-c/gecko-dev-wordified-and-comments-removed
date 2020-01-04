@@ -783,7 +783,7 @@ false
 ;
 SET_DEFAULT
 (
-wasmExplicitBoundsChecks
+ionInterruptWithoutSignals
 false
 )
 ;

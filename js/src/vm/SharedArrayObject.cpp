@@ -322,7 +322,7 @@ endif
 if
 defined
 (
-ASMJS_MAY_USE_SIGNAL_HANDLERS_FOR_OOB
+WASM_HUGE_MEMORY
 )
 static
 uint64_t
@@ -454,12 +454,6 @@ length
 return
 nullptr
 ;
-#
-if
-defined
-(
-ASMJS_MAY_USE_SIGNAL_HANDLERS_FOR_OOB
-)
 void
 *
 p
@@ -494,6 +488,9 @@ nullptr
 }
 else
 {
+#
+ifdef
+WASM_HUGE_MEMORY
 if
 (
 +
@@ -631,11 +628,8 @@ allocSize
 ;
 #
 endif
-}
 #
 else
-void
-*
 p
 =
 MapMemory
@@ -654,6 +648,7 @@ nullptr
 ;
 #
 endif
+}
 uint8_t
 *
 buffer
@@ -827,12 +822,6 @@ this
 length
 )
 ;
-#
-if
-defined
-(
-ASMJS_MAY_USE_SIGNAL_HANDLERS_FOR_OOB
-)
 if
 (
 !
@@ -854,6 +843,12 @@ allocSize
 }
 else
 {
+#
+if
+defined
+(
+WASM_HUGE_MEMORY
+)
 numLive
 -
 -
@@ -889,7 +884,6 @@ SharedArrayMappedSize
 ;
 #
 endif
-}
 #
 else
 UnmapMemory
@@ -900,6 +894,7 @@ allocSize
 ;
 #
 endif
+}
 }
 }
 const

@@ -1430,7 +1430,10 @@ memoryUsage
 uint32_t
 minMemoryLength
 ;
+Maybe
+<
 uint32_t
+>
 maxMemoryLength
 ;
 explicit
@@ -1863,7 +1866,7 @@ const
 ;
 #
 ifdef
-ASMJS_MAY_USE_SIGNAL_HANDLERS
+WASM_HUGE_MEMORY
 const
 MemoryAccess
 *
