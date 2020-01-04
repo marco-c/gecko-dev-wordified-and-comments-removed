@@ -8589,9 +8589,7 @@ GetCompositorDevice
 mDevice
 )
 {
-gfxCriticalError
-(
-)
+gfxCriticalNote
 <
 <
 "
