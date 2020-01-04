@@ -234,7 +234,6 @@ nsDocument
 IsWebAnimationsEnabled
 "
 ]
-readonly
 attribute
 AnimationTimeline
 ?
