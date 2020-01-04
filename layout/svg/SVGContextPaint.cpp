@@ -1057,7 +1057,7 @@ svgContextPaint
 aContextPaint
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 NS_SUCCEEDED
 (
@@ -1115,7 +1115,7 @@ svgContextPaint
 mOuterContextPaint
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 NS_SUCCEEDED
 (

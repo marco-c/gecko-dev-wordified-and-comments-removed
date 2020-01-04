@@ -1891,7 +1891,7 @@ GetPresShell
 (
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 shell
 "
@@ -3078,7 +3078,7 @@ if
 prevSib
 )
 {
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 this
 =
@@ -3149,7 +3149,7 @@ if
 nextSib
 )
 {
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 this
 =

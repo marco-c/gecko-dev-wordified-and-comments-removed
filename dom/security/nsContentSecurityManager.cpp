@@ -2765,7 +2765,7 @@ return
 NS_OK
 ;
 }
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 !
 scheme

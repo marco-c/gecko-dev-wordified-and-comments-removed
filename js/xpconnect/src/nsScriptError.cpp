@@ -1287,7 +1287,7 @@ uint64_t
 aOuterWindowID
 )
 {
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 NS_IsMainThread
 (
@@ -1393,7 +1393,7 @@ bool
 aIsFromPrivateWindow
 )
 {
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 NS_IsMainThread
 (

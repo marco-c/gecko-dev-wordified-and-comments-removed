@@ -26096,7 +26096,7 @@ root
 )
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 root
 .
@@ -26121,9 +26121,9 @@ a
 docshell
 that
 is
+"
+"
 not
-"
-"
 the
 root
 docshell
@@ -50575,7 +50575,7 @@ previousFlags
 aChannelRedirectFlags
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 NS_SUCCEEDED
 (

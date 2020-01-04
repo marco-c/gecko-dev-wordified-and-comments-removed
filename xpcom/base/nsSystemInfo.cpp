@@ -3626,7 +3626,7 @@ GetCurrentProcess
 isWow64
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 gotWow64Value
 "
@@ -5286,7 +5286,7 @@ int32_t
 aValue
 )
 {
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 aValue
 >
@@ -5321,7 +5321,7 @@ aPropertyName
 aValue
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 NS_SUCCEEDED
 (
@@ -5366,7 +5366,7 @@ aPropertyName
 aValue
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 NS_SUCCEEDED
 (
@@ -5396,7 +5396,7 @@ uint64_t
 aValue
 )
 {
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 aValue
 >
@@ -5431,7 +5431,7 @@ aPropertyName
 aValue
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 NS_SUCCEEDED
 (

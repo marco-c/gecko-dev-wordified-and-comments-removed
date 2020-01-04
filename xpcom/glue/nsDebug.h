@@ -146,7 +146,7 @@ ifdef
 DEBUG
 #
 define
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 _expr
 _msg
@@ -186,7 +186,7 @@ while
 else
 #
 define
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 _expr
 _msg

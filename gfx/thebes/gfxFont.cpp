@@ -1004,7 +1004,7 @@ AgeAllGenerations
 (
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 mFonts
 .
@@ -9542,7 +9542,7 @@ paintSVGGlyphs
 return
 ;
 }
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 runParams
 .
@@ -13805,7 +13805,7 @@ aVertical
 sw
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 ok
 "
@@ -14318,7 +14318,7 @@ aShapedText
 )
 ;
 }
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 ok
 "
@@ -14958,7 +14958,7 @@ i
 1
 ;
 }
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 ok
 "

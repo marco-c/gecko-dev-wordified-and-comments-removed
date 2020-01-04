@@ -12005,7 +12005,7 @@ Refresh
 }
 else
 {
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 mResult
 &
@@ -12033,6 +12033,8 @@ but
 should
 get
 the
+"
+"
 corresponding
 history
 notifications
@@ -12176,7 +12178,7 @@ mLiveUpdate
 =
 QUERYUPDATE_COMPLEX_WITH_BOOKMARKS
 )
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 mResult
 &
@@ -12204,6 +12206,8 @@ but
 should
 get
 OnVisit
+"
+"
 instead
 "
 )

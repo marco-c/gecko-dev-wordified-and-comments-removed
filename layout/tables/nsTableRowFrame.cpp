@@ -201,7 +201,7 @@ LogicalSize
 aAvailSpace
 )
 {
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 NS_UNCONSTRAINEDSIZE
 !
@@ -224,10 +224,10 @@ should
 only
 result
 from
-"
-"
 very
 large
+"
+"
 sizes
 not
 attempts
@@ -235,8 +235,6 @@ at
 intrinsic
 inline
 size
-"
-"
 calculation
 "
 )

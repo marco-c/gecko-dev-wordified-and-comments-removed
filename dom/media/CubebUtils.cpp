@@ -592,7 +592,7 @@ brandName
 )
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 NS_SUCCEEDED
 (
@@ -709,7 +709,7 @@ InitBrandName
 }
 else
 {
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 sBrandName
 "
@@ -741,7 +741,7 @@ sCubebContext
 sBrandName
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 rv
 =

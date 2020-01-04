@@ -253,7 +253,7 @@ if
 mShutdown
 )
 {
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 !
 aObserver
@@ -1115,7 +1115,7 @@ GetObserverService
 (
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 obs
 "
@@ -1557,7 +1557,7 @@ LazyIdleThread
 SelfDestruct
 )
 ;
-NS_WARN_IF_FALSE
+NS_WARNING_ASSERTION
 (
 runnable
 "
