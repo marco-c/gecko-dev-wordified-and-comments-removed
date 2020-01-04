@@ -167,6 +167,8 @@ p
 ~
 /
 artifacts
+/
+public
 cleanup
 (
 )
