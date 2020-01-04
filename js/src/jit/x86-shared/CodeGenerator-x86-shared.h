@@ -1766,6 +1766,14 @@ generateInvalidateEpilogue
 (
 )
 ;
+void
+setReturnDoubleRegs
+(
+LiveRegisterSet
+*
+regs
+)
+;
 }
 ;
 class
