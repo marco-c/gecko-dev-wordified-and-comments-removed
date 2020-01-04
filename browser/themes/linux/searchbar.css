@@ -614,7 +614,7 @@ padding
 ;
 color
 :
-MenuText
+GrayText
 ;
 }
 .
@@ -1501,12 +1501,6 @@ moz
 appearance
 :
 none
-;
-background
--
-color
-:
-Menu
 ;
 border
 :
