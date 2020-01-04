@@ -110,6 +110,11 @@ runSafeSyncWithoutClone
 :
 true
 "
+NetUtil
+"
+:
+true
+"
 Services
 "
 :
