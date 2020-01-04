@@ -380,7 +380,7 @@ for
 (
 let
 section
-of
+in
 XPCOMUtils
 .
 IterStringEnumerator
@@ -407,7 +407,7 @@ for
 (
 let
 key
-of
+in
 XPCOMUtils
 .
 IterStringEnumerator
