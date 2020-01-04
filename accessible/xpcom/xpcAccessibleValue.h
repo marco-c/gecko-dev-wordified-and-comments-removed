@@ -93,8 +93,7 @@ xpcAccessibleValue
 }
 private
 :
-Accessible
-*
+AccessibleOrProxy
 Intl
 (
 )
