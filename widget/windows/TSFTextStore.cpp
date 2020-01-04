@@ -20623,7 +20623,7 @@ WidgetQueryContentEvent
 event
 (
 true
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 mWidget
 )
 ;
@@ -20683,7 +20683,7 @@ due
 to
 "
 "
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 failure
 "
 this

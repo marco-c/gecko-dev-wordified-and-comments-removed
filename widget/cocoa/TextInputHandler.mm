@@ -20365,7 +20365,7 @@ WidgetQueryContentEvent
 charRect
 (
 true
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 mWidget
 )
 ;

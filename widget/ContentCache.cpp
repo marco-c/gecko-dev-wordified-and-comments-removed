@@ -1557,7 +1557,7 @@ WidgetQueryContentEvent
 textRect
 (
 true
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 aWidget
 )
 ;
@@ -2160,7 +2160,7 @@ WidgetQueryContentEvent
 textRect
 (
 true
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 aWidget
 )
 ;
@@ -3596,7 +3596,7 @@ break
 ;
 }
 case
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 :
 MOZ_LOG
 (
@@ -3621,7 +3621,7 @@ aEvent
 {
 mMessage
 =
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 mInput
 =
 {

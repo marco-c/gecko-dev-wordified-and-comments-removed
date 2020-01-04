@@ -4195,7 +4195,7 @@ aEvent
 )
 ;
 case
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 :
 return
 OnQueryTextRect
@@ -7218,7 +7218,7 @@ WidgetQueryContentEvent
 textRect
 (
 true
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 aEvent
 -
 >

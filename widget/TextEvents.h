@@ -1570,7 +1570,7 @@ NS_ASSERTION
 mMessage
 =
 =
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 "
 wrong
 initializer
@@ -1762,7 +1762,7 @@ eQueryCaretRect
 mMessage
 =
 =
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 "
 not
 querying

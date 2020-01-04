@@ -9112,7 +9112,7 @@ QUERY_TEXT_RECT
 :
 message
 =
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 ;
 break
 ;
@@ -9342,7 +9342,7 @@ useNativeLineBreak
 break
 ;
 case
-NS_QUERY_TEXT_RECT
+eQueryTextRect
 :
 queryEvent
 .
