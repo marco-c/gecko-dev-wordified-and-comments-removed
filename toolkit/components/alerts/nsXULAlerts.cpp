@@ -268,6 +268,14 @@ GetInstance
 (
 )
 {
+#
+ifdef
+MOZ_WIDGET_ANDROID
+return
+nullptr
+;
+#
+else
 if
 (
 !
@@ -307,6 +315,8 @@ forget
 (
 )
 ;
+#
+endif
 }
 NS_IMETHODIMP
 nsXULAlerts
