@@ -957,15 +957,7 @@ mStream
 AllocateInputPort
 (
 aStream
-MediaInputPort
-:
-:
-FLAG_BLOCK_INPUT
-|
-MediaInputPort
-:
-:
-FLAG_BLOCK_OUTPUT
+0
 )
 ;
 mStream
