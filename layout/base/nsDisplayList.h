@@ -5748,9 +5748,6 @@ nsDisplayItemLink
 *
 mTop
 ;
-nsRect
-mVisibleRect
-;
 bool
 mIsOpaque
 ;
