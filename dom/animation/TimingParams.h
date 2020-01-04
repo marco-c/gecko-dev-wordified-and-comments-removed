@@ -174,10 +174,10 @@ ElementOrCSSPseudoElement
 aTarget
 )
 ;
-dom
-:
-:
-OwningUnrestrictedDoubleOrString
+Maybe
+<
+StickyTimeDuration
+>
 mDuration
 ;
 TimeDuration
