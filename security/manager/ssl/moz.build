@@ -354,6 +354,11 @@ nsRandomGenerator
 h
 '
 '
+nsSecurityHeaderParser
+.
+h
+'
+'
 NSSErrorsService
 .
 h

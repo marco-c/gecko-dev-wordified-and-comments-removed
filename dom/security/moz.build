@@ -110,6 +110,11 @@ dom
 =
 [
 '
+ContentVerifier
+.
+h
+'
+'
 nsContentSecurityManager
 .
 h
@@ -159,6 +164,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+ContentVerifier
+.
+cpp
+'
 '
 nsContentSecurityManager
 .
