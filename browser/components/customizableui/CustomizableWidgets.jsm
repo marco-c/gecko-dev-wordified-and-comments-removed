@@ -1855,6 +1855,11 @@ add
 "
 subviewbutton
 "
+"
+cui
+-
+withicon
+"
 )
 ;
 }
@@ -1937,6 +1942,11 @@ add
 (
 "
 subviewbutton
+"
+"
+cui
+-
+withicon
 "
 )
 ;
