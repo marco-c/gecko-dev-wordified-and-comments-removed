@@ -759,6 +759,12 @@ enum
 upstreamStateType
 )
 ;
+virtual
+void
+AdjustInitialWindow
+(
+)
+;
 private
 :
 friend
@@ -786,11 +792,6 @@ GenerateOpen
 ;
 void
 AdjustPushedPriority
-(
-)
-;
-void
-AdjustInitialWindow
 (
 )
 ;
@@ -935,6 +936,9 @@ mLocalUnacked
 ;
 bool
 mBlockedOnRwin
+;
+bool
+mSentPushWindowBump
 ;
 uint64_t
 mTotalSent

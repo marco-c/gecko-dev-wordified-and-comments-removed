@@ -176,6 +176,12 @@ uint32_t
 )
 override
 ;
+void
+AdjustInitialWindow
+(
+)
+override
+;
 nsISchedulingContext
 *
 SchedulingContext
