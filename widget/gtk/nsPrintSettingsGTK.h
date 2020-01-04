@@ -580,10 +580,6 @@ GtkPrinter
 *
 mGTKPrinter
 ;
-GtkPaperSize
-*
-mPaperSize
-;
 bool
 mPrintSelectionOnly
 ;

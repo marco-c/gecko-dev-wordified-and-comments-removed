@@ -1243,6 +1243,10 @@ gtk_paper_size_get_width
 )
 STUB
 (
+gtk_paper_size_is_custom
+)
+STUB
+(
 gtk_paper_size_is_equal
 )
 STUB
