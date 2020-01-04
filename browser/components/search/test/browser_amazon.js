@@ -256,13 +256,6 @@ Mozilla
 -
 search
 "
-type
-:
-Ci
-.
-nsISearchEngine
-.
-TYPE_MOZSEARCH
 hidden
 :
 false

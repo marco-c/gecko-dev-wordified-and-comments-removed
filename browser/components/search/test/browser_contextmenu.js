@@ -181,11 +181,7 @@ testEngine_mozsearch
 .
 xml
 "
-Ci
-.
-nsISearchEngine
-.
-DATA_XML
+null
 "
 data
 :

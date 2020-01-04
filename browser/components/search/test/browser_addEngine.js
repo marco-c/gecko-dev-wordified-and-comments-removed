@@ -241,13 +241,6 @@ search
 test
 /
 "
-type
-:
-Ci
-.
-nsISearchEngine
-.
-TYPE_OPENSEARCH
 }
 run
 :
@@ -284,11 +277,7 @@ testEngine
 .
 xml
 "
-Ci
-.
-nsISearchEngine
-.
-DATA_XML
+null
 "
 data
 :

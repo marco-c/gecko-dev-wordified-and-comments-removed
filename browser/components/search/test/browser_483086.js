@@ -171,11 +171,7 @@ test
 .
 xml
 "
-Ci
-.
-nsISearchEngine
-.
-DATA_XML
+null
 "
 data
 :
@@ -353,11 +349,7 @@ test
 .
 xml
 "
-Ci
-.
-nsISearchEngine
-.
-DATA_XML
+null
 "
 data
 :

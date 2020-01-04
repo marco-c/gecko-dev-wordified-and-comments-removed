@@ -2350,11 +2350,7 @@ gDataUrl
 item
 .
 xmlFileName
-Ci
-.
-nsISearchEngine
-.
-DATA_XML
+null
 null
 false
 )

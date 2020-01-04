@@ -2550,11 +2550,7 @@ addEngine
 dataUrl
 +
 basename
-Ci
-.
-nsISearchEngine
-.
-DATA_XML
+null
 null
 false
 )
