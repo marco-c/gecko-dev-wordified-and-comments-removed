@@ -22863,7 +22863,10 @@ ctx
 >
 SetMatrix
 (
+gfxMatrix
+(
 initialTM
+)
 .
 Translate
 (
