@@ -1765,6 +1765,10 @@ GetAnimValue
 (
 )
 )
+1
+.
+0
+true
 )
 ;
 LayoutDeviceSize
