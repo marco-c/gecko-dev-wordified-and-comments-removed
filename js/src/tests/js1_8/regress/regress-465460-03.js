@@ -57,11 +57,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 each
 (

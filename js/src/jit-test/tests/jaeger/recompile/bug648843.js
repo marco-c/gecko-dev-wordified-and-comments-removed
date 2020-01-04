@@ -1,5 +1,5 @@
 function
-jit
+Q
 (
 on
 )
@@ -41,9 +41,9 @@ i
 i
 )
 {
-jit
+Q
 (
-jit
+Q
 (
 42
 [

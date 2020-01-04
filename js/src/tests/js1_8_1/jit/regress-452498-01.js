@@ -243,11 +243,6 @@ f
 trace
 )
 {
-jit
-(
-trace
-)
-;
 var
 start
 =
