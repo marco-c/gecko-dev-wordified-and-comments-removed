@@ -2216,6 +2216,10 @@ gtk_style_context_new
 )
 STUB
 (
+gtk_style_context_remove_class
+)
+STUB
+(
 gtk_style_context_remove_region
 )
 STUB
