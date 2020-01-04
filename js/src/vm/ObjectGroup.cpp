@@ -8036,9 +8036,16 @@ key
 res
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
+}
 return
 res
 ;

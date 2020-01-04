@@ -1847,9 +1847,16 @@ if
 !
 message
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 messagelen
 =
 strlen
