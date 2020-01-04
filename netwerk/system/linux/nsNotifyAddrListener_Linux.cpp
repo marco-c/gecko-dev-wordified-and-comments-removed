@@ -1871,10 +1871,6 @@ checkLink
 (
 )
 ;
-calculateNetworkId
-(
-)
-;
 }
 }
 NS_IMETHODIMP
@@ -2221,6 +2217,10 @@ kNetworkChangeCoalescingPeriod
 SendEvent
 (
 NS_NETWORK_LINK_DATA_CHANGED
+)
+;
+calculateNetworkId
+(
 )
 ;
 mCoalescingActive
