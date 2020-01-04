@@ -187,6 +187,11 @@ ComputeHTMLReferenceRect
 (
 )
 ;
+nsRect
+ComputeSVGReferenceRect
+(
+)
+;
 nsIFrame
 *
 mTargetFrame
