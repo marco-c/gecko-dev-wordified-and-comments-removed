@@ -29959,10 +29959,11 @@ AutoEnqueuePendingParseTasksAfterGC
 if
 (
 !
+OffThreadParsingMustWaitForGC
+(
 gc_
 .
-isIncrementalGCInProgress
-(
+rt
 )
 )
 EnqueuePendingParseTasksAfterGC
@@ -30269,6 +30270,13 @@ av
 (
 rt
 false
+)
+;
+AutoEnqueuePendingParseTasksAfterGC
+aept
+(
+*
+this
 )
 ;
 gcstats
