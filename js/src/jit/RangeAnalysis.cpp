@@ -311,7 +311,7 @@ def
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 if
 (
 JitSpewEnabled

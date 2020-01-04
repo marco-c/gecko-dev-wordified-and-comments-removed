@@ -6699,7 +6699,7 @@ JitcodeMapBufferWriteSpewer
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 CompactBufferWriter
 *
 writer

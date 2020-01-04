@@ -17873,7 +17873,7 @@ length
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpewStart
 (
 JitSpew_RegAlloc

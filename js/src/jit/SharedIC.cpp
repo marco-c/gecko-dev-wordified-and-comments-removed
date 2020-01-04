@@ -152,7 +152,7 @@ jit
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 void
 FallbackICSpew
 (

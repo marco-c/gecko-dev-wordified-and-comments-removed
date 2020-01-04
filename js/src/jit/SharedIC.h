@@ -107,7 +107,7 @@ undef
 FORWARD_DECLARE_STUBS
 #
 ifdef
-DEBUG
+JS_JITSPEW
 void
 FallbackICSpew
 (

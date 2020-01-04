@@ -2638,7 +2638,7 @@ snapshot
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 if
 (
 JitSpewEnabled

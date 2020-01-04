@@ -656,7 +656,7 @@ empty
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 if
 (
 JitSpewEnabled
@@ -668,6 +668,11 @@ dump
 (
 )
 ;
+#
+endif
+#
+ifdef
+DEBUG
 for
 (
 size_t

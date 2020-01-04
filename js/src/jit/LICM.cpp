@@ -181,7 +181,7 @@ possiblyCalls
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpew
 (
 JitSpew_LICM
@@ -694,7 +694,7 @@ hasCalls
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpew
 (
 JitSpew_LICM
@@ -814,7 +814,7 @@ hasCalls
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 if
 (
 IsHoistableIgnoringDependency
@@ -898,7 +898,7 @@ hasCalls
 {
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpew
 (
 JitSpew_LICM
@@ -944,7 +944,7 @@ hasCalls
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpew
 (
 JitSpew_LICM
@@ -1012,7 +1012,7 @@ lastIns
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpew
 (
 JitSpew_LICM

@@ -617,7 +617,7 @@ bits
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 if
 (
 JitSpewEnabled
@@ -960,7 +960,7 @@ gcSlots
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 for
 (
 uint32_t
@@ -1079,7 +1079,7 @@ MOZ_CRASH
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 JitSpew
 (
 JitSpew_Safepoints
@@ -1143,7 +1143,7 @@ valueSlots
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 for
 (
 uint32_t
@@ -1587,7 +1587,7 @@ nunboxParts
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 if
 (
 JitSpewEnabled

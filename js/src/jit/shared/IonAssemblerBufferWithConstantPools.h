@@ -1210,10 +1210,16 @@ insertNopFill
 ;
 #
 ifdef
-DEBUG
+JS_JITSPEW
 if
 (
 numPoolEntries
+&
+&
+JitSpewEnabled
+(
+JitSpew_Pools
+)
 )
 {
 JitSpew
