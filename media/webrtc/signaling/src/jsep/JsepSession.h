@@ -695,7 +695,7 @@ skipped
 ;
 virtual
 nsresult
-EndOfLocalCandidates
+UpdateDefaultCandidate
 (
 const
 std
@@ -715,6 +715,16 @@ string
 defaultRtcpCandidateAddr
 uint16_t
 defaultRtcpCandidatePort
+uint16_t
+level
+)
+=
+0
+;
+virtual
+nsresult
+EndOfLocalCandidates
+(
 uint16_t
 level
 )

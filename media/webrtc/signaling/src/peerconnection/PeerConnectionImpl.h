@@ -1486,7 +1486,7 @@ state
 )
 ;
 void
-EndOfLocalCandidates
+UpdateDefaultCandidate
 (
 const
 std
@@ -1506,6 +1506,13 @@ string
 defaultRtcpAddr
 uint16_t
 defaultRtcpPort
+uint16_t
+level
+)
+;
+void
+EndOfLocalCandidates
+(
 uint16_t
 level
 )
