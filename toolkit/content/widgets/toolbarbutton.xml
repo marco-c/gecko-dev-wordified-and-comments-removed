@@ -932,6 +932,7 @@ orient
 disabled
 label
 open
+consumeanchor
 "
 /
 >
@@ -1089,6 +1090,7 @@ src
 =
 image
 label
+consumeanchor
 "
 /
 >
@@ -1299,6 +1301,7 @@ src
 =
 image
 label
+consumeanchor
 "
 /
 >
