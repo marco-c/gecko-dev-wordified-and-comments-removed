@@ -96,6 +96,11 @@ MPL
 DevToolsModules
 (
 '
+CssDocsTooltip
+.
+js
+'
+'
 EventTooltipHelper
 .
 js
