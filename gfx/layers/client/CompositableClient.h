@@ -97,17 +97,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-TextureClientRecycleAllocator
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -135,6 +124,9 @@ CompositableChild
 ;
 class
 PCompositableChild
+;
+class
+TextureClientRecycleAllocator
 ;
 class
 RemoveTextureFromCompositableTracker
