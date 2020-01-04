@@ -2419,19 +2419,6 @@ here
 "
 "
         
-modules
-=
-[
-'
-pip
->
-=
-1
-.
-5
-'
-]
-        
 if
 not
 self
@@ -2439,7 +2426,7 @@ self
 run_local
 :
             
-tests_dir
+mozbase_requirements
 =
 os
 .
@@ -2462,18 +2449,6 @@ abs_work_dir
 '
 tests
 '
-)
-            
-mozbase_requirements
-=
-os
-.
-path
-.
-join
-(
-                
-tests_dir
                 
 '
 config
@@ -2486,32 +2461,19 @@ txt
 '
             
 )
+        
+else
+:
             
-modules
-.
-append
-(
+mozbase_requirements
+=
 os
 .
 path
 .
 join
 (
-tests_dir
-'
-tools
-'
-'
-wptserve
-'
-)
-)
-        
-else
-:
-            
-testing_dir
-=
+                
 os
 .
 path
@@ -2522,17 +2484,6 @@ self
 .
 talos_path
 )
-            
-mozbase_requirements
-=
-os
-.
-path
-.
-join
-(
-                
-testing_dir
                 
 '
 config
@@ -2544,36 +2495,6 @@ mozbase_requirements
 txt
 '
             
-)
-            
-modules
-.
-append
-(
-                
-os
-.
-path
-.
-join
-(
-testing_dir
-                             
-'
-web
--
-platform
-'
-'
-tests
-'
-'
-tools
-'
-'
-wptserve
-'
-)
 )
         
 self
@@ -2605,9 +2526,20 @@ self
 .
 create_virtualenv
 (
+            
 modules
 =
-modules
+[
+'
+pip
+>
+=
+1
+.
+5
+'
+]
+        
 )
         
 self
