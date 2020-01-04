@@ -156,17 +156,6 @@ nsAString
 aId
 )
 ;
-TextTrackCueList
-&
-operator
-=
-(
-const
-TextTrackCueList
-&
-aOther
-)
-;
 void
 AddCue
 (
