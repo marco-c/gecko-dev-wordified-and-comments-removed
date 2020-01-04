@@ -552,11 +552,12 @@ pc
 )
 const
 {
-MOZ_ASSERT
+if
 (
-!
 mutatingInstances_
 )
+return
+nullptr
 ;
 size_t
 index
