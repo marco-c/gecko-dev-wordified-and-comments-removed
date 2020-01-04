@@ -137,6 +137,11 @@ AbstractWorker
 webidl
 '
 '
+AccessibleNode
+.
+webidl
+'
+'
 AddonManager
 .
 webidl
