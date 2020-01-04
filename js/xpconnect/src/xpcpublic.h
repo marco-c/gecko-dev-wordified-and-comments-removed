@@ -368,6 +368,14 @@ JSCompartment
 c
 )
 ;
+void
+ClearContentXBLScope
+(
+JSObject
+*
+global
+)
+;
 bool
 IsInAddonScope
 (
