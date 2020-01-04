@@ -273,7 +273,12 @@ utf
 catch
 (
 ex
+)
+{
 if
+(
+!
+(
 ex
 instanceof
 OS
@@ -282,7 +287,12 @@ File
 .
 Error
 )
+)
 {
+throw
+ex
+;
+}
 if
 (
 !
@@ -614,6 +624,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
