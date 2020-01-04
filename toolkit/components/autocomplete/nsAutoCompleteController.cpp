@@ -6210,6 +6210,11 @@ delta
 ;
 }
 }
+CompleteDefaultIndex
+(
+aSearchIndex
+)
+;
 nsCOMPtr
 <
 nsIAutoCompletePopup
@@ -6288,6 +6293,7 @@ ClosePopup
 ;
 }
 }
+else
 if
 (
 searchResult
@@ -6673,6 +6679,7 @@ resultValue
 )
 )
 )
+{
 CompleteValue
 (
 resultValue
@@ -6682,6 +6689,7 @@ mDefaultIndexCompleted
 =
 true
 ;
+}
 return
 NS_OK
 ;
