@@ -4705,6 +4705,16 @@ aValue
 IsLengthUnit
 (
 )
+|
+|
+aValue
+.
+GetUnit
+(
+)
+=
+=
+eCSSUnit_Number
 "
 unexpected
 unit
