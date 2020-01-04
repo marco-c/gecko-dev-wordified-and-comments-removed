@@ -3248,7 +3248,7 @@ blockIndex
 )
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 8
@@ -4740,7 +4740,7 @@ thread
 "
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 StreamAction
 10

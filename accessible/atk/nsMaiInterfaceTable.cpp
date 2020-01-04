@@ -1411,7 +1411,7 @@ aSelected
 =
 nullptr
 ;
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 10
@@ -1572,7 +1572,7 @@ gint
 aSelected
 )
 {
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 10

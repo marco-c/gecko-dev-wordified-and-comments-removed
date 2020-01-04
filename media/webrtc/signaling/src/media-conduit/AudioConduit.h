@@ -941,7 +941,7 @@ mRTPTimeStamp
 ;
 }
 ;
-nsAutoTArray
+AutoTArray
 <
 Processing
 8

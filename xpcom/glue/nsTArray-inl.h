@@ -175,7 +175,7 @@ AlignedElem
 &
 sizeof
 (
-nsAutoTArray
+AutoTArray
 <
 mozilla
 :

@@ -614,7 +614,7 @@ TextRangeArray
 final
 :
 public
-nsAutoTArray
+AutoTArray
 <
 TextRange
 10

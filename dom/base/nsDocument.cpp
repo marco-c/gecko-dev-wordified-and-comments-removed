@@ -14945,7 +14945,7 @@ bool
 aFlushLayout
 )
 {
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -15516,7 +15516,7 @@ rootFrame
 return
 NS_OK
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -49294,7 +49294,7 @@ GetFullscreenLeaf
 this
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsDocument
 *
@@ -52014,7 +52014,7 @@ GetFullscreenLeaf
 this
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIDocument
 *

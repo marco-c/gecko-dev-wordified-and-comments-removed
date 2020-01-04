@@ -3469,7 +3469,7 @@ uint32_t
 aDuration
 )
 {
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 1

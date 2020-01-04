@@ -191,7 +191,7 @@ aResult
 override
 ;
 const
-nsAutoTArray
+AutoTArray
 <
 FontFace
 *
@@ -208,7 +208,7 @@ mFontFaces
 }
 protected
 :
-nsAutoTArray
+AutoTArray
 <
 FontFace
 *

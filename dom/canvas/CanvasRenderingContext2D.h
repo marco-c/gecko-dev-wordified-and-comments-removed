@@ -4585,7 +4585,7 @@ fontExplicitLanguage
 ;
 }
 ;
-nsAutoTArray
+AutoTArray
 <
 ContextState
 3

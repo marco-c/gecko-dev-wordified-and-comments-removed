@@ -461,7 +461,7 @@ aWakeLockInfo
 state
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <

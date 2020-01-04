@@ -1782,7 +1782,7 @@ nsIRDFNode
 *
 mTarget
 ;
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <

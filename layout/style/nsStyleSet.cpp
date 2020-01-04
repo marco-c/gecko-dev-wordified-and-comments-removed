@@ -5006,7 +5006,7 @@ here
 "
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIStyleRule
 *
@@ -7843,7 +7843,7 @@ bits
 "
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 RuleNodeInfo
 30
@@ -12472,7 +12472,7 @@ EnsureUniqueInnerOnCSSSheets
 (
 )
 {
-nsAutoTArray
+AutoTArray
 <
 CSSStyleSheet
 *

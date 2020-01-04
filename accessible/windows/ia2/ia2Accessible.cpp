@@ -3571,7 +3571,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAutoTArray
+AutoTArray
 <
 TextRange
 1

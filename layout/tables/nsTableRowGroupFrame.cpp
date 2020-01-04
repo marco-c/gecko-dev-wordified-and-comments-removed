@@ -7180,7 +7180,7 @@ ClearRowCursor
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsTableRowFrame
 *

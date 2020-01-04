@@ -404,7 +404,7 @@ aMaxTotalProgress
 )
 ;
 typedef
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

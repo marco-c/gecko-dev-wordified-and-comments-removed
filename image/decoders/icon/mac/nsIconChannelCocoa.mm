@@ -1949,7 +1949,7 @@ bitmapRep
 bytesPerPlane
 ]
 ;
-nsAutoTArray
+AutoTArray
 <
 uint8_t
 3

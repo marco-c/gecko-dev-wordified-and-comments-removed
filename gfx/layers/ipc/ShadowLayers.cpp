@@ -1959,7 +1959,7 @@ IsConnected
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 TimedTexture
 4

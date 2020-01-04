@@ -988,7 +988,7 @@ GetUnfilteredStatusText
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 InternalHeaders
 :

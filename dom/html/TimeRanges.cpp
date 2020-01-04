@@ -430,7 +430,7 @@ Length
 2
 )
 {
-nsAutoTArray
+AutoTArray
 <
 TimeRange
 4
@@ -608,7 +608,7 @@ TimeRanges
 aOtherRanges
 )
 {
-nsAutoTArray
+AutoTArray
 <
 TimeRange
 4

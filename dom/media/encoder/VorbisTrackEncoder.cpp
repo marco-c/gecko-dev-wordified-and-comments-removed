@@ -948,14 +948,14 @@ framesCopied
 =
 0
 ;
-nsAutoTArray
+AutoTArray
 <
 AudioDataValue
 9600
 >
 interleavedPcm
 ;
-nsAutoTArray
+AutoTArray
 <
 AudioDataValue
 9600

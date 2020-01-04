@@ -8700,7 +8700,7 @@ quotaManager
 mTemporaryStorageLimit
 )
 {
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -14500,7 +14500,7 @@ aExclusive
 return
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsAutoPtr
 <

@@ -1014,7 +1014,7 @@ false
 ;
 private
 :
-nsAutoTArray
+AutoTArray
 <
 nsCountedRef
 <

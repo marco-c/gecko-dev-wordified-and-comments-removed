@@ -3026,7 +3026,7 @@ FcFontSet
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 LangSupportEntry
 10
@@ -4474,7 +4474,7 @@ void
 aClosure
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsString
 5
@@ -5464,7 +5464,7 @@ lang
 )
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsString
 20

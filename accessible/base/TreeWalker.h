@@ -213,7 +213,7 @@ nsIContent
 *
 mAnchorNode
 ;
-nsAutoTArray
+AutoTArray
 <
 ChildrenIterator
 20

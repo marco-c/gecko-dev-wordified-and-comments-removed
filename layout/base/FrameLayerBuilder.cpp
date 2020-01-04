@@ -930,7 +930,7 @@ aItem
 return
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -980,7 +980,7 @@ Frame
 )
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -3879,7 +3879,7 @@ PaintedLayerDataTree
 mPaintedLayerDataTree
 ;
 typedef
-nsAutoTArray
+AutoTArray
 <
 NewLayerEntry
 1
@@ -20273,7 +20273,7 @@ IsPaintingToWindow
 return
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 FrameMetrics
 2
@@ -20761,7 +20761,7 @@ nsIntRegion
 aOpaqueRegionForContainer
 )
 {
-nsAutoTArray
+AutoTArray
 <
 OpaqueRegionEntry
 4

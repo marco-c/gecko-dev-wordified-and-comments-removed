@@ -141,7 +141,7 @@ aFrame
 nsCString
 result
 ;
-nsAutoTArray
+AutoTArray
 <
 const
 char

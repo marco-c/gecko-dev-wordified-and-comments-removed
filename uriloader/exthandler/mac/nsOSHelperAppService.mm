@@ -983,7 +983,7 @@ if
 bundleName
 )
 {
-nsAutoTArray
+AutoTArray
 <
 UniChar
 255
@@ -3589,7 +3589,7 @@ if
 cfAppName
 )
 {
-nsAutoTArray
+AutoTArray
 <
 UniChar
 255
@@ -3864,7 +3864,7 @@ cfTypeDesc
 noErr
 )
 {
-nsAutoTArray
+AutoTArray
 <
 UniChar
 255

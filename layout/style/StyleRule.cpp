@@ -2610,7 +2610,7 @@ Truncate
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 const
 nsCSSSelector

@@ -662,14 +662,14 @@ Element
 >
 mElement
 ;
-nsAutoTArray
+AutoTArray
 <
 bool
 8
 >
 mHasWrittenCellsForRow
 ;
-nsAutoTArray
+AutoTArray
 <
 bool
 8

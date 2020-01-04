@@ -1495,7 +1495,7 @@ Failed
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsCString
 5

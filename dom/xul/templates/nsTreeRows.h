@@ -478,7 +478,7 @@ protected
 int32_t
 mRowIndex
 ;
-nsAutoTArray
+AutoTArray
 <
 Link
 8

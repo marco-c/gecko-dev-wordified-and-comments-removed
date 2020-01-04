@@ -3972,7 +3972,7 @@ mScrollPositionClampingScrollPortSizeSet
 uint32_t
 mPresShellId
 ;
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <

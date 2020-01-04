@@ -5216,7 +5216,7 @@ bool
 aNeedsSyntheticBold
 )
 {
-nsAutoTArray
+AutoTArray
 <
 gfxFontEntry
 *
@@ -7444,7 +7444,7 @@ aNameTable
 dataLength
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsString
 4
@@ -7766,7 +7766,7 @@ mLoadOtherNames
 asyncFontLoaderDisabled
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsString
 4

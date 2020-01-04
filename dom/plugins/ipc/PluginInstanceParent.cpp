@@ -3558,7 +3558,7 @@ mFrameID
 +
 mFrameID
 ;
-nsAutoTArray
+AutoTArray
 <
 ImageContainer
 :
@@ -4394,7 +4394,7 @@ GetSize
 sourceSurface
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 ImageContainer
 :

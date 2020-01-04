@@ -552,7 +552,7 @@ uint32_t
 aSampleRate
 )
 {
-nsAutoTArray
+AutoTArray
 <
 nsTArray
 <
@@ -562,7 +562,7 @@ MONO
 >
 output
 ;
-nsAutoTArray
+AutoTArray
 <
 const
 AudioDataValue

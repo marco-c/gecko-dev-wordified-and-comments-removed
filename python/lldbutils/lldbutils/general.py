@@ -959,7 +959,7 @@ add
 x
 \
 "
-nsAutoTArray
+AutoTArray
 <
 \
 "

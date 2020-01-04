@@ -531,7 +531,7 @@ EXPIRE_NEVER
 }
 private
 :
-nsAutoTArray
+AutoTArray
 <
 PermissionEntry
 1

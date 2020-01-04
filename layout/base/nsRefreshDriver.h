@@ -1174,7 +1174,7 @@ mEvent
 ;
 }
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIPresShell
 *
@@ -1182,7 +1182,7 @@ nsIPresShell
 >
 mStyleFlushObservers
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIPresShell
 *
@@ -1190,7 +1190,7 @@ nsIPresShell
 >
 mLayoutFlushObservers
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIPresShell
 *

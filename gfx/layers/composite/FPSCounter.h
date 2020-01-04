@@ -254,7 +254,7 @@ WriteFrameTimeStamps
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 TimeStamp
 kMaxFrames

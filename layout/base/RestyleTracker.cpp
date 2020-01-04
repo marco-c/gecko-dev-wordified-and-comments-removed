@@ -793,7 +793,7 @@ if
 mHaveLaterSiblingRestyles
 )
 {
-nsAutoTArray
+AutoTArray
 <
 RefPtr
 <
@@ -1432,7 +1432,7 @@ mHaveLaterSiblingRestyles
 continue
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 RestyleEnumerateData
 RESTYLE_ARRAY_STACKSIZE

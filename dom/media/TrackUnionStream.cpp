@@ -396,14 +396,14 @@ IsFinishedOnGraphThread
 return
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 bool
 8
 >
 mappedTracksFinished
 ;
-nsAutoTArray
+AutoTArray
 <
 bool
 8

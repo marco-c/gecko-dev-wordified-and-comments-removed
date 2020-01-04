@@ -4862,7 +4862,7 @@ if
 acc
 )
 {
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *
@@ -4971,7 +4971,7 @@ if
 acc
 )
 {
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *
@@ -6203,7 +6203,7 @@ if
 acc
 )
 {
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *
@@ -6860,7 +6860,7 @@ if
 acc
 )
 {
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *

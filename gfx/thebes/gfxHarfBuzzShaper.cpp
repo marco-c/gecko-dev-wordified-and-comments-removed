@@ -6670,7 +6670,7 @@ GetFontEntry
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 hb_feature_t
 20
@@ -7046,7 +7046,7 @@ return
 NS_OK
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 gfxTextRun
 :

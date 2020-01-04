@@ -12896,7 +12896,7 @@ GetBounds
 bounds
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 LayoutDeviceIntRect
 1

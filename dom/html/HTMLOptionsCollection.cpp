@@ -1092,7 +1092,7 @@ JSITER_HIDDEN
 return
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsIAtom
 *

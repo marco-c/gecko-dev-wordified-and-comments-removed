@@ -3248,7 +3248,7 @@ MOZ_ASSERT
 aConn
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 EntryId
 256
@@ -3280,7 +3280,7 @@ return
 rv
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 IdCount
 16
@@ -4022,7 +4022,7 @@ aFoundResponseOut
 =
 false
 ;
-nsAutoTArray
+AutoTArray
 <
 EntryId
 1
@@ -4153,7 +4153,7 @@ aConn
 nsresult
 rv
 ;
-nsAutoTArray
+AutoTArray
 <
 EntryId
 256
@@ -4357,7 +4357,7 @@ NS_LITERAL_STRING
 )
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 EntryId
 256
@@ -4391,7 +4391,7 @@ return
 rv
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 IdCount
 16
@@ -4527,7 +4527,7 @@ aSuccessOut
 =
 false
 ;
-nsAutoTArray
+AutoTArray
 <
 EntryId
 256
@@ -4574,7 +4574,7 @@ return
 rv
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 IdCount
 16
@@ -4678,7 +4678,7 @@ aConn
 nsresult
 rv
 ;
-nsAutoTArray
+AutoTArray
 <
 EntryId
 256
@@ -5060,7 +5060,7 @@ return
 rv
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 CacheId
 32
@@ -6976,7 +6976,7 @@ return
 rv
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsCString
 8

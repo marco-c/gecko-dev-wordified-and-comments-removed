@@ -1562,7 +1562,7 @@ nullptr
 nullptr
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 gfxShapedText
 :

@@ -386,7 +386,7 @@ ClearJSChannels
 nsWeakPtr
 mOwnerWindow
 ;
-nsAutoTArray
+AutoTArray
 <
 JS
 :

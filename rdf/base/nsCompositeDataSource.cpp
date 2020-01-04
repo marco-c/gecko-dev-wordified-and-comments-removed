@@ -305,7 +305,7 @@ mResult
 int32_t
 mNext
 ;
-nsAutoTArray
+AutoTArray
 <
 nsCOMPtr
 <

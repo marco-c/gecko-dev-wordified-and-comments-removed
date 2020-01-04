@@ -9432,7 +9432,7 @@ size_t
 N
 >
 class
-nsAutoTArray
+AutoTArray
 :
 public
 nsAutoArrayBase
@@ -9445,7 +9445,7 @@ N
 >
 {
 typedef
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -9465,7 +9465,7 @@ Base
 ;
 public
 :
-nsAutoTArray
+AutoTArray
 (
 )
 {
@@ -9476,7 +9476,7 @@ typename
 Allocator
 >
 explicit
-nsAutoTArray
+AutoTArray
 (
 const
 nsTArray_Impl
@@ -9503,7 +9503,7 @@ typename
 Allocator
 >
 explicit
-nsAutoTArray
+AutoTArray
 (
 nsTArray_Impl
 <
@@ -9731,7 +9731,7 @@ this
 }
 operator
 const
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -9746,7 +9746,7 @@ return
 reinterpret_cast
 <
 const
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -9770,7 +9770,7 @@ N
 struct
 nsTArray_CopyChooser
 <
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -9780,7 +9780,7 @@ N
 typedef
 nsTArray_CopyWithConstructors
 <
-nsAutoTArray
+AutoTArray
 <
 E
 N
@@ -9794,7 +9794,7 @@ static_assert
 (
 sizeof
 (
-nsAutoTArray
+AutoTArray
 <
 uint32_t
 2
@@ -9820,7 +9820,7 @@ uint32_t
 *
 2
 "
-nsAutoTArray
+AutoTArray
 shouldn
 '
 t

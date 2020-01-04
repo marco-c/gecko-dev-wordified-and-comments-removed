@@ -73,7 +73,7 @@ aPoint
 .
 mContainer
 ;
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *
@@ -403,7 +403,7 @@ pos2
 =
 0
 ;
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *
@@ -825,7 +825,7 @@ containerPos
 =
 0
 ;
-nsAutoTArray
+AutoTArray
 <
 Accessible
 *

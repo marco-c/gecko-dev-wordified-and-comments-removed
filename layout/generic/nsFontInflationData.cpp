@@ -447,7 +447,7 @@ FirstInFlow
 (
 )
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIFrame
 *
@@ -1199,7 +1199,7 @@ return
 aFrame
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 FrameChildList
 4

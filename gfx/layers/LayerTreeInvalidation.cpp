@@ -1885,7 +1885,7 @@ return
 result
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 UniquePtr
 <

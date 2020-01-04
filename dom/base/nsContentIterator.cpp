@@ -644,7 +644,7 @@ nsINode
 >
 mCommonParent
 ;
-nsAutoTArray
+AutoTArray
 <
 int32_t
 8
@@ -3872,7 +3872,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsAutoTArray
+AutoTArray
 <
 nsINode
 *
@@ -3880,7 +3880,7 @@ nsINode
 >
 oldParentStack
 ;
-nsAutoTArray
+AutoTArray
 <
 int32_t
 8
@@ -4301,7 +4301,7 @@ nsRange
 >
 mRange
 ;
-nsAutoTArray
+AutoTArray
 <
 nsIContent
 *
@@ -4309,7 +4309,7 @@ nsIContent
 >
 mEndNodes
 ;
-nsAutoTArray
+AutoTArray
 <
 int32_t
 8
