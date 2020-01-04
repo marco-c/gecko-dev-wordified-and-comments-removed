@@ -154,10 +154,6 @@ nsACString
 aOrigin
 )
 :
-mBC
-(
-nullptr
-)
 mActorDestroyed
 (
 false
