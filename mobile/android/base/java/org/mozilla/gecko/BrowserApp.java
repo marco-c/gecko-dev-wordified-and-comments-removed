@@ -11080,7 +11080,7 @@ TelemetryContract
 .
 Method
 .
-TABSTRAY
+BUTTON
 )
 ;
 if

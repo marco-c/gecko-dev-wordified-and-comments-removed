@@ -457,12 +457,6 @@ SYSTEM
 system
 "
 )
-TABSTRAY
-(
-"
-tabstray
-"
-)
 TOAST
 (
 "
