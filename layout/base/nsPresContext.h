@@ -607,12 +607,6 @@ GetRootPresContext
 (
 )
 ;
-nsRootPresContext
-*
-GetDisplayRootPresContext
-(
-)
-;
 virtual
 bool
 IsRoot

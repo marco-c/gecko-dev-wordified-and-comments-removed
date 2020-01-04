@@ -5022,7 +5022,7 @@ rootContext
 context
 -
 >
-GetDisplayRootPresContext
+GetRootPresContext
 (
 )
 ;
@@ -5039,11 +5039,6 @@ valid
 )
 ;
 rootContext
--
->
-GetRootPresContext
-(
-)
 -
 >
 NotifyDidPaintForSubtree
