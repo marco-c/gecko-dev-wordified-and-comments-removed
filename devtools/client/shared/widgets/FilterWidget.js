@@ -570,7 +570,7 @@ this
 .
 doc
 .
-ownerGlobal
+defaultView
 ;
 this
 .
