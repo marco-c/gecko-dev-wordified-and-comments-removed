@@ -511,9 +511,6 @@ mUseSoftwareImages
 bool
 mIs106
 ;
-uint32_t
-mQueuedSamples
-;
 Monitor
 mMonitor
 ;
