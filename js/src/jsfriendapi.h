@@ -9933,6 +9933,11 @@ nullptr
 struct
 AllocationMetadataBuilder
 {
+AllocationMetadataBuilder
+(
+)
+{
+}
 virtual
 JSObject
 *
