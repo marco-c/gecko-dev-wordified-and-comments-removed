@@ -9526,9 +9526,7 @@ nextState
 ;
 if
 (
-GetMediaTime
-(
-)
+newCurrentTime
 =
 =
 Duration
