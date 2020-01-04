@@ -8484,17 +8484,6 @@ src
 ;
 }
 void
-mul64
-(
-Imm64
-imm
-const
-Register64
-&
-dest
-)
-;
-void
 convertUInt64ToDouble
 (
 Register64
