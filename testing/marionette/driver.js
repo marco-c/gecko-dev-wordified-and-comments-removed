@@ -6304,7 +6304,7 @@ this
 .
 listener
 .
-curId
+activeMessageId
 ;
 this
 .
