@@ -167,6 +167,15 @@ DecoderType
 :
 :
 PNG
+|
+|
+type
+=
+=
+DecoderType
+:
+:
+BMP
 ;
 }
 static
