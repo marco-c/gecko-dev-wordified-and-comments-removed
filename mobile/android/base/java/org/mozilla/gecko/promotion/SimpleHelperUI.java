@@ -579,7 +579,7 @@ TelemetryContract
 .
 Event
 .
-CANCEL
+ACTION
 TelemetryContract
 .
 Method
