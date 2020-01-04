@@ -149,7 +149,11 @@ querySelectorAll
 (
 "
 #
-noResults
+ruleview
+-
+no
+-
+results
 "
 )
 .
@@ -187,7 +191,11 @@ querySelectorAll
 (
 "
 #
-noResults
+ruleview
+-
+no
+-
+results
 "
 )
 .
