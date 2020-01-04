@@ -272,14 +272,12 @@ HasPendingRestyles
 )
 {
 return
+!
 mModifiedElements
 .
-Count
+IsEmpty
 (
 )
-!
-=
-0
 ;
 }
 protected
