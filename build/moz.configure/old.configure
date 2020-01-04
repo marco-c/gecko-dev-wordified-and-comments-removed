@@ -1571,15 +1571,6 @@ target
 -
 enable
 -
-ipdl
--
-tests
-'
-'
--
--
-enable
--
 jitspew
 '
 '
