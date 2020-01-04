@@ -15811,7 +15811,7 @@ p
 contents
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -15827,7 +15827,7 @@ contents
 g
 ;
 }
-TypeError
+Error
 )
 ;
 p
@@ -15963,7 +15963,7 @@ f
 contents
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -15979,7 +15979,7 @@ contents
 0
 ;
 }
-TypeError
+Error
 )
 ;
 f
@@ -16002,7 +16002,7 @@ contents
 0
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_eq
@@ -16374,7 +16374,7 @@ z_t
 .
 contents
 }
-TypeError
+Error
 )
 ;
 z_t
