@@ -514,6 +514,11 @@ RecvDeviceChange
 )
 override
 ;
+int
+SetFakeDeviceChangeEvents
+(
+)
+;
 virtual
 bool
 RecvReplyNumberOfCaptureDevices
