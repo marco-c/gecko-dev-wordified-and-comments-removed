@@ -821,6 +821,16 @@ nullptr
 }
 Accessible
 *
+AccessibleOrTrueContainer
+(
+nsINode
+*
+aNode
+)
+const
+;
+Accessible
+*
 GetAccessibleOrDescendant
 (
 nsINode
