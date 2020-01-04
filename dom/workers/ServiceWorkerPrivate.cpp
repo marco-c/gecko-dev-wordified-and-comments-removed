@@ -4093,6 +4093,12 @@ const
 nsCString
 mScriptSpec
 ;
+nsMainThreadPtrHandle
+<
+ServiceWorkerRegistrationInfo
+>
+mRegistration
+;
 nsTArray
 <
 nsCString
@@ -4191,6 +4197,10 @@ aChannel
 mScriptSpec
 (
 aScriptSpec
+)
+mRegistration
+(
+aRegistration
 )
 mClientId
 (
@@ -5377,6 +5387,7 @@ event
 PostInit
 (
 mInterceptedChannel
+mRegistration
 mScriptSpec
 )
 ;
@@ -5525,6 +5536,7 @@ new
 CancelChannelRunnable
 (
 mInterceptedChannel
+mRegistration
 NS_ERROR_INTERCEPTION_FAILED
 )
 ;
