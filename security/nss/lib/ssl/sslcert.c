@@ -1871,6 +1871,9 @@ SECFailure
 if
 (
 data
+&
+&
+data
 -
 >
 authType
