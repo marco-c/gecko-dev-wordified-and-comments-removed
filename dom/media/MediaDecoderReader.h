@@ -984,6 +984,9 @@ mAudioDiscontinuity
 bool
 mVideoDiscontinuity
 ;
+MediaEventListener
+mDataArrivedListener
+;
 }
 ;
 }
