@@ -532,6 +532,13 @@ QueueEvents
 (
 )
 ;
+bool
+HasEndEventToQueue
+(
+)
+const
+override
+;
 OwningElementRef
 mOwningElement
 ;

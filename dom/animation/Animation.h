@@ -849,6 +849,17 @@ bool
 aNeedsRefreshes
 )
 ;
+virtual
+bool
+HasEndEventToQueue
+(
+)
+const
+{
+return
+false
+;
+}
 void
 NotifyEffectTimingUpdated
 (
