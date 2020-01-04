@@ -1039,8 +1039,6 @@ nsIContent
 aNewFocus
 uint32_t
 aContentOffset
-CaretAssociateHint
-aHint
 )
 ;
 nsPrevNextBidiLevels
