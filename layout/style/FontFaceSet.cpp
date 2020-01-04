@@ -3854,8 +3854,8 @@ rule
 count
 :
 %
+d
 "
-PRIuSIZE
 mUserFontSet
 .
 get
@@ -3873,10 +3873,15 @@ not
 modified
 "
 )
+(
+int
+)
+(
 mRuleFaces
 .
 Length
 (
+)
 )
 )
 )
