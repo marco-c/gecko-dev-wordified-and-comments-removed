@@ -431,7 +431,7 @@ blob
 NoInterfaceObject
 ]
 interface
-FileEntry
+FileSystemFileEntry
 :
 FileSystemEntry
 {

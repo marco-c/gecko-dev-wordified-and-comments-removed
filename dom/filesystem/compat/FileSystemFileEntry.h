@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_FileEntry_h
+mozilla_dom_FileSystemFileEntry_h
 #
 define
-mozilla_dom_FileEntry_h
+mozilla_dom_FileSystemFileEntry_h
 #
 include
 "
@@ -25,7 +25,7 @@ class
 File
 ;
 class
-FileEntry
+FileSystemFileEntry
 final
 :
 public
@@ -36,10 +36,10 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-FileEntry
+FileSystemFileEntry
 FileSystemEntry
 )
-FileEntry
+FileSystemFileEntry
 (
 nsIGlobalObject
 *
@@ -153,7 +153,7 @@ const
 private
 :
 ~
-FileEntry
+FileSystemFileEntry
 (
 )
 ;

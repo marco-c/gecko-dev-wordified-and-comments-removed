@@ -15,7 +15,7 @@ h
 #
 include
 "
-FileEntry
+FileSystemFileEntry
 .
 h
 "
@@ -109,7 +109,7 @@ IsFile
 entry
 =
 new
-FileEntry
+FileSystemFileEntry
 (
 aGlobalObject
 aFileOrDirectory
