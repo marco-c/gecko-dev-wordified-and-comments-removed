@@ -458,10 +458,10 @@ mKey
 .
 mAttributeName
 )
-nsCSSProps
+CSSEnabledState
 :
 :
-eEnabledForAllContent
+eForAllContent
 )
 ;
 if

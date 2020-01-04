@@ -26682,10 +26682,10 @@ nsCSSProps
 LookupProperty
 (
 propertyStr
-nsCSSProps
+CSSEnabledState
 :
 :
-eEnabledForAllContent
+eForAllContent
 )
 ;
 if
@@ -31418,10 +31418,10 @@ nsCSSProps
 LookupProperty
 (
 buffer
-nsCSSProps
+CSSEnabledState
 :
 :
-eEnabledForAllContent
+eForAllContent
 )
 ;
 if
