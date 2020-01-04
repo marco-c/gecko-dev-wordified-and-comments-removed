@@ -2722,7 +2722,6 @@ aPromiseProxy
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 mPromiseProxy
 (

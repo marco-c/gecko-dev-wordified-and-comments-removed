@@ -143,6 +143,8 @@ WorkerPrivate
 aWorkerPrivate
 TargetAndBusyBehavior
 aBehavior
+=
+WorkerThreadModifyBusyCount
 )
 #
 ifdef
@@ -505,6 +507,8 @@ WorkerPrivate
 aWorkerPrivate
 TargetAndBusyBehavior
 aBehavior
+=
+WorkerThreadModifyBusyCount
 )
 #
 ifdef

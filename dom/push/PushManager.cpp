@@ -678,7 +678,6 @@ aAppServerKey
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 mProxy
 (
@@ -1541,7 +1540,6 @@ aProxy
 GetWorkerPrivate
 (
 )
-WorkerThreadModifyBusyCount
 )
 mProxy
 (

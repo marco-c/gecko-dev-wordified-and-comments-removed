@@ -253,7 +253,6 @@ aSuccess
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 mProxy
 (

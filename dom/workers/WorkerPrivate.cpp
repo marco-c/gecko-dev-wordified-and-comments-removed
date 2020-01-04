@@ -2253,7 +2253,6 @@ aScriptURL
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 mScriptURL
 (
@@ -6058,7 +6057,6 @@ aLanguages
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 mLanguages
 (
@@ -6417,7 +6415,6 @@ aIsOffline
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 mIsOffline
 (
@@ -6947,7 +6944,6 @@ aPort
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThreadModifyBusyCount
 )
 {
 MOZ_ASSERT
