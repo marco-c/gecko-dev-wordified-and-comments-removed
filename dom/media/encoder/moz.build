@@ -232,11 +232,6 @@ EXPORTS
 =
 [
 '
-VorbisTrackEncoder
-.
-h
-'
-'
 VP8TrackEncoder
 .
 h
@@ -246,11 +241,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-VorbisTrackEncoder
-.
-cpp
-'
 '
 VP8TrackEncoder
 .
