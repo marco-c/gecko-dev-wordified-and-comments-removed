@@ -350,13 +350,38 @@ evaluating
 the
 condition
 function
+.
+If
+that
 is
 not
-factored
-in
-.
-The
+the
+case
+the
             
+interval
+for
+the
+next
+condition
+function
+call
+is
+shortend
+to
+keep
+            
+the
+original
+interval
+sequence
+as
+best
+as
+possible
+.
+            
+The
 default
 polling
 interval
@@ -826,6 +851,18 @@ end
 try
 :
                 
+next
+=
+self
+.
+clock
+.
+now
++
+self
+.
+interval
+                
 rv
 =
 condition
@@ -858,6 +895,20 @@ exc_info
 (
 )
             
+interval_new
+=
+max
+(
+next
+-
+self
+.
+clock
+.
+now
+0
+)
+            
 if
 not
 rv
@@ -869,9 +920,7 @@ clock
 .
 sleep
 (
-self
-.
-interval
+interval_new
 )
                 
 continue
@@ -892,9 +941,7 @@ clock
 .
 sleep
 (
-self
-.
-interval
+interval_new
 )
         
 if
