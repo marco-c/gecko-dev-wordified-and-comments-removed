@@ -3265,7 +3265,7 @@ ComputeTightBounds
 (
 aReflowState
 .
-rendContext
+mRenderingContext
 -
 >
 GetDrawTarget
@@ -3504,7 +3504,7 @@ drawTarget
 =
 aReflowState
 .
-rendContext
+mRenderingContext
 -
 >
 GetDrawTarget

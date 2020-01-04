@@ -44159,7 +44159,7 @@ AvailableWidth
 )
 aReflowState
 .
-rendContext
+mRenderingContext
 -
 >
 GetDrawTarget

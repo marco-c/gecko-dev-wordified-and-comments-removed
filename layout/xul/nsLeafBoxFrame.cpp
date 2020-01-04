@@ -935,7 +935,7 @@ state
 aPresContext
 aReflowState
 .
-rendContext
+mRenderingContext
 )
 ;
 nsSize

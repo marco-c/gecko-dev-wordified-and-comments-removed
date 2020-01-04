@@ -831,7 +831,7 @@ ComputeISizeValue
 (
 aReflowState
 .
-rendContext
+mRenderingContext
 colFrame
 0
 0
@@ -1052,7 +1052,7 @@ IntrinsicForContainer
 (
 aReflowState
 .
-rendContext
+mRenderingContext
 cellFrame
 nsLayoutUtils
 :

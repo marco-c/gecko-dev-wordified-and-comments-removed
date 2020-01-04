@@ -4082,7 +4082,7 @@ GetAxisHeight
 (
 aReflowState
 .
-rendContext
+mRenderingContext
 -
 >
 GetDrawTarget

@@ -2423,7 +2423,7 @@ ComputeIntrinsicISizes
 (
 aReflowState
 .
-rendContext
+mRenderingContext
 )
 ;
 }

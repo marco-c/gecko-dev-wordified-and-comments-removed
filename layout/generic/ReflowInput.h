@@ -297,7 +297,7 @@ mFrame
 ;
 nsRenderingContext
 *
-rendContext
+mRenderingContext
 ;
 const
 nsMargin
@@ -570,7 +570,7 @@ mFrame
 (
 aFrame
 )
-rendContext
+mRenderingContext
 (
 aRenderingContext
 )

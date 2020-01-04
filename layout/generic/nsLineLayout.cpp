@@ -4935,7 +4935,7 @@ psd
 mReflowState
 -
 >
-rendContext
+mRenderingContext
 -
 >
 GetDrawTarget
@@ -12856,7 +12856,7 @@ TrimTrailingWhiteSpace
 mBlockReflowState
 -
 >
-rendContext
+mRenderingContext
 -
 >
 GetDrawTarget
