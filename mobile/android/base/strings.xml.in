@@ -1658,7 +1658,7 @@ pref_category_general_summary
 "
 >
 &
-pref_category_general_summary2
+pref_category_general_summary3
 ;
 <
 /
@@ -1688,7 +1688,7 @@ pref_category_search_summary
 "
 >
 &
-pref_category_search_summary
+pref_category_search_summary2
 ;
 <
 /
@@ -1748,7 +1748,7 @@ pref_category_privacy_summary
 "
 >
 &
-pref_category_privacy_summary3
+pref_category_privacy_summary4
 ;
 <
 /
@@ -1988,7 +1988,7 @@ pref_category_advanced_summary
 "
 >
 &
-pref_category_advanced_summary2
+pref_category_advanced_summary3
 ;
 <
 /
