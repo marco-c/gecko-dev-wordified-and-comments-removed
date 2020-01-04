@@ -71,8 +71,10 @@ STORE_SUFFIX
 sbstore
 "
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gUrlClassifierDbServiceLog
 ;
 #
