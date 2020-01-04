@@ -922,6 +922,10 @@ mDecodeCallback
 >
 Error
 (
+MediaDataDecoderError
+:
+:
+FATAL_ERROR
 )
 ;
 }
@@ -983,6 +987,10 @@ mDecodeCallback
 >
 Error
 (
+MediaDataDecoderError
+:
+:
+FATAL_ERROR
 )
 ;
 }
@@ -1139,6 +1147,10 @@ mDecodeCallback
 >
 Error
 (
+MediaDataDecoderError
+:
+:
+FATAL_ERROR
 )
 ;
 return
@@ -1304,6 +1316,10 @@ mDecodeCallback
 >
 Error
 (
+MediaDataDecoderError
+:
+:
+FATAL_ERROR
 )
 ;
 return
@@ -1430,6 +1446,10 @@ mDecodeCallback
 >
 Error
 (
+MediaDataDecoderError
+:
+:
+FATAL_ERROR
 )
 ;
 }
