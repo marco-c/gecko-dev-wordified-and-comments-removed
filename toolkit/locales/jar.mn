@@ -1778,6 +1778,9 @@ downloads
 .
 properties
 )
+#
+ifndef
+MOZ_FENNEC
 locale
 /
 AB_CD
@@ -2008,6 +2011,8 @@ newaddon
 .
 properties
 )
+#
+endif
 locale
 /
 AB_CD

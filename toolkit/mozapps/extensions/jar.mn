@@ -57,6 +57,9 @@ toolkit
 .
 jar
 :
+#
+ifndef
+MOZ_FENNEC
 %
 content
 mozapps
@@ -504,6 +507,8 @@ license
 .
 txt
 )
+#
+endif
 content
 /
 mozapps
