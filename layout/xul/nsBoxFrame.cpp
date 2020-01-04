@@ -3695,7 +3695,7 @@ nscoord
 nsBoxFrame
 :
 :
-GetFlex
+GetXULFlex
 (
 )
 {
@@ -3715,7 +3715,7 @@ mFlex
 nsBox
 :
 :
-GetFlex
+GetXULFlex
 (
 )
 ;
@@ -6478,7 +6478,7 @@ flex
 kid
 -
 >
-GetFlex
+GetXULFlex
 (
 )
 ;
@@ -7861,7 +7861,7 @@ flexSize
 child
 -
 >
-GetFlex
+GetXULFlex
 (
 )
 ;

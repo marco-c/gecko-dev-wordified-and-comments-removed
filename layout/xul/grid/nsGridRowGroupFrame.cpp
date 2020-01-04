@@ -83,7 +83,7 @@ nscoord
 nsGridRowGroupFrame
 :
 :
-GetFlex
+GetXULFlex
 (
 )
 {
@@ -103,7 +103,7 @@ if
 nsBoxFrame
 :
 :
-GetFlex
+GetXULFlex
 (
 )
 =
@@ -141,7 +141,7 @@ totalFlex
 child
 -
 >
-GetFlex
+GetXULFlex
 (
 )
 ;

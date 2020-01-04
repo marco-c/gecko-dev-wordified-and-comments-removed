@@ -6423,7 +6423,7 @@ GetXULOrdinal
 ;
 virtual
 nscoord
-GetFlex
+GetXULFlex
 (
 )
 =

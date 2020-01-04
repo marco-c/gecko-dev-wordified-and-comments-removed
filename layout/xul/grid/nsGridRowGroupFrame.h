@@ -78,7 +78,7 @@ aLayoutManager
 }
 virtual
 nscoord
-GetFlex
+GetXULFlex
 (
 )
 override

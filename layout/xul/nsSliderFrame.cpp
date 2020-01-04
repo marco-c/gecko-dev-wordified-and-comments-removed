@@ -1957,7 +1957,7 @@ minPos
 thumbBox
 -
 >
-GetFlex
+GetXULFlex
 (
 )
 >

@@ -1870,7 +1870,7 @@ nscoord
 nsBox
 :
 :
-GetFlex
+GetXULFlex
 (
 )
 {

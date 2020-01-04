@@ -2649,7 +2649,7 @@ flex
 child
 -
 >
-GetFlex
+GetXULFlex
 (
 )
 ;
@@ -3015,7 +3015,7 @@ flex
 child
 -
 >
-GetFlex
+GetXULFlex
 (
 )
 ;
@@ -5483,7 +5483,7 @@ if
 child
 -
 >
-GetFlex
+GetXULFlex
 (
 )
 =

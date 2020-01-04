@@ -41783,7 +41783,7 @@ nscoord
 nsFrame
 :
 :
-GetFlex
+GetXULFlex
 (
 )
 {
@@ -41820,7 +41820,7 @@ mFlex
 nsBox
 :
 :
-GetFlex
+GetXULFlex
 (
 )
 ;

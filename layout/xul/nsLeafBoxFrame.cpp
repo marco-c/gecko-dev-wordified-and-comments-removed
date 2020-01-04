@@ -1510,7 +1510,7 @@ nscoord
 nsLeafBoxFrame
 :
 :
-GetFlex
+GetXULFlex
 (
 )
 {
@@ -1518,7 +1518,7 @@ return
 nsBox
 :
 :
-GetFlex
+GetXULFlex
 (
 )
 ;
