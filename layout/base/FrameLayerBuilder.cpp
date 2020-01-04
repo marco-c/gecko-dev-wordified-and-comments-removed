@@ -25269,6 +25269,16 @@ Frame
 (
 )
 ;
+if
+(
+aBuilder
+-
+>
+IsPaintingToWindow
+(
+)
+)
+{
 frame
 -
 >
@@ -25277,6 +25287,7 @@ AddStateBits
 NS_FRAME_PAINTED_THEBES
 )
 ;
+}
 #
 ifdef
 MOZ_DUMP_PAINTING
