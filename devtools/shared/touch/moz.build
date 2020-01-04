@@ -96,6 +96,13 @@ js
 '
 '
 simulator
+-
+core
+.
+js
+'
+'
+simulator
 .
 js
 '
