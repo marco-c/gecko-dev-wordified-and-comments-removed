@@ -93,7 +93,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerD3D11
+DeviceManagerDx
 .
 h
 "
@@ -2680,7 +2680,7 @@ mDevice
 gfx
 :
 :
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get

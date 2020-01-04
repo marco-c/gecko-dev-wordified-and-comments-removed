@@ -47,7 +47,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerD3D11
+DeviceManagerDx
 .
 h
 "
@@ -128,7 +128,7 @@ d3d
 gfx
 :
 :
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get
