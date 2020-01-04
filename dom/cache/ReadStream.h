@@ -224,6 +224,9 @@ Serialize
 CacheReadStreamOrVoid
 *
 aReadStreamOut
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -232,6 +235,9 @@ Serialize
 CacheReadStream
 *
 aReadStreamOut
+ErrorResult
+&
+aRv
 )
 ;
 private
