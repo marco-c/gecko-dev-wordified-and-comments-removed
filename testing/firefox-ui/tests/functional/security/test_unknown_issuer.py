@@ -97,7 +97,7 @@ sleep
 1
 )
             
-link
+error
 =
 self
 .
@@ -109,7 +109,7 @@ By
 .
 ID
 '
-cert_domain_link
+errorCode
 '
 )
             
@@ -117,7 +117,7 @@ self
 .
 assertEquals
 (
-link
+error
 .
 get_attribute
 (
@@ -127,15 +127,7 @@ textContent
 )
                               
 '
-ssl
--
-selfsigned
--
-unknownissuer
-.
-mozqa
-.
-com
+SEC_ERROR_UNKNOWN_ISSUER
 '
 )
             
@@ -173,39 +165,6 @@ By
 ID
 '
 advancedButton
-'
-)
-)
-            
-text
-=
-self
-.
-marionette
-.
-find_element
-(
-By
-.
-ID
-'
-technicalContentText
-'
-)
-            
-self
-.
-assertIn
-(
-'
-SEC_ERROR_UNKNOWN_ISSUER
-'
-text
-.
-get_attribute
-(
-'
-textContent
 '
 )
 )
