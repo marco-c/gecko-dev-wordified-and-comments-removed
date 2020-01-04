@@ -13741,9 +13741,6 @@ dist
 fennec
 '
 '
-assets
-'
-'
 omni
 .
 ja
