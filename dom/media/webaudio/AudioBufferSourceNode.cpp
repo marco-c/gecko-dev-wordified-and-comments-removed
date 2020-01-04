@@ -1805,6 +1805,8 @@ UpdateSampleRateIfNeeded
 (
 uint32_t
 aChannels
+StreamTime
+aStreamPosition
 )
 {
 float
@@ -1839,12 +1841,7 @@ mPlaybackRateTimeline
 .
 GetValueAtTime
 (
-mSource
--
->
-GetCurrentPosition
-(
-)
+aStreamPosition
 )
 ;
 }
@@ -1874,12 +1871,7 @@ mDetuneTimeline
 .
 GetValueAtTime
 (
-mSource
--
->
-GetCurrentPosition
-(
-)
+aStreamPosition
 )
 ;
 }
@@ -2052,6 +2044,7 @@ GetChannels
 UpdateSampleRateIfNeeded
 (
 channels
+streamPosition
 )
 ;
 uint32_t
