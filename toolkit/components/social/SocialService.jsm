@@ -6350,6 +6350,10 @@ this
 manifest
 .
 version
+.
+toString
+(
+)
 :
 "
 "
