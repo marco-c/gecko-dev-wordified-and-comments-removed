@@ -1183,7 +1183,7 @@ eContentCommandEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_CONTENT_COMMAND_DELETE
+eContentCommandDelete
 eContentCommandEventFirst
 +
 3

@@ -9535,7 +9535,7 @@ WidgetContentCommandEvent
 contentCommandEvent
 (
 true
-NS_CONTENT_COMMAND_DELETE
+eContentCommandDelete
 mLastFocusedWindow
 )
 ;

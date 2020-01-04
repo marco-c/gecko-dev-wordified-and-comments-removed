@@ -13503,7 +13503,7 @@ WidgetContentCommandEvent
 deleteCommandEvent
 (
 true
-NS_CONTENT_COMMAND_DELETE
+eContentCommandDelete
 mWidget
 )
 ;

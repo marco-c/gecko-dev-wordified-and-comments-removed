@@ -21692,7 +21692,7 @@ WidgetContentCommandEvent
 command
 (
 true
-NS_CONTENT_COMMAND_DELETE
+eContentCommandDelete
 this
 )
 ;
