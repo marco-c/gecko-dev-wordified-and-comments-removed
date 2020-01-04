@@ -5,7 +5,7 @@ strict
 ;
 requestLongerTimeout
 (
-2
+10
 )
 ;
 const
@@ -116,11 +116,6 @@ sessionstore
 .
 restore_on_demand
 "
-)
-;
-requestLongerTimeout
-(
-2
 )
 ;
 function
