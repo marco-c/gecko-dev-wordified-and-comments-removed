@@ -1316,13 +1316,6 @@ gAppUpdater
 update
 .
 billboardURL
-|
-|
-gAppUpdater
-.
-update
-.
-licenseURL
 )
 {
 gAppUpdater
