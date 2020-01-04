@@ -1508,8 +1508,9 @@ this
 .
 highlighter
 .
-hide
+highlight
 (
+false
 )
 ;
 }
