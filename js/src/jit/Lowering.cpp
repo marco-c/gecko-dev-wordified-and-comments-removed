@@ -2772,7 +2772,7 @@ visitCall
 return
 ;
 }
-JSFunction
+WrappedFunction
 *
 target
 =

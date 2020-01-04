@@ -22494,7 +22494,7 @@ LCallNative
 call
 )
 {
-JSFunction
+WrappedFunction
 *
 target
 =
@@ -22627,6 +22627,11 @@ ObjectValue
 (
 *
 target
+-
+>
+rawJSFunction
+(
+)
 )
 )
 ;
@@ -22961,7 +22966,7 @@ LCallDOMNative
 call
 )
 {
-JSFunction
+WrappedFunction
 *
 target
 =
@@ -23146,6 +23151,11 @@ ObjectValue
 (
 *
 target
+-
+>
+rawJSFunction
+(
+)
 )
 )
 ;
@@ -24332,7 +24342,7 @@ argslot
 )
 )
 ;
-JSFunction
+WrappedFunction
 *
 target
 =

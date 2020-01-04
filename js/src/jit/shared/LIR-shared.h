@@ -6906,7 +6906,7 @@ getSingleTarget
 nullptr
 ;
 }
-JSFunction
+WrappedFunction
 *
 getSingleTarget
 (
@@ -7964,7 +7964,7 @@ getSingleTarget
 nullptr
 ;
 }
-JSFunction
+WrappedFunction
 *
 getSingleTarget
 (
@@ -8152,7 +8152,7 @@ getSingleTarget
 nullptr
 ;
 }
-JSFunction
+WrappedFunction
 *
 getSingleTarget
 (
