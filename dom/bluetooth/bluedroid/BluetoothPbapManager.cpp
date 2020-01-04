@@ -1012,7 +1012,7 @@ BT_LOGR
 PBAP
 shall
 always
-uses
+use
 OBEX
 GetFinal
 instead
@@ -3053,7 +3053,6 @@ count
 ;
 while
 (
-!
 x
 )
 {
