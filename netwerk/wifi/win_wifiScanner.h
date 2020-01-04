@@ -31,6 +31,13 @@ WindowsWifiScannerInterface
 public
 :
 virtual
+~
+WindowsWifiScannerInterface
+(
+)
+{
+}
+virtual
 nsresult
 GetAccessPointsFromWLAN
 (
