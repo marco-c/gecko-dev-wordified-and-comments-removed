@@ -984,6 +984,10 @@ public
 bool
 CanPerformOnCompositorThread
 (
+const
+nsIFrame
+*
+aFrame
 )
 const
 ;
