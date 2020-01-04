@@ -171,7 +171,7 @@ AlignSetting
 start
 "
 "
-center
+middle
 "
 "
 end
