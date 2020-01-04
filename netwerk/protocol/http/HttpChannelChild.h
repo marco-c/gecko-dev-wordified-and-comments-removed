@@ -888,6 +888,9 @@ bool
 mShouldParentIntercept
 ;
 bool
+mSuspendParentAfterSynthesizeResponse
+;
+bool
 RemoteChannelExists
 (
 )

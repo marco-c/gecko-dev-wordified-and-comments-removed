@@ -426,6 +426,10 @@ const
 uint32_t
 &
 aInitialRwin
+const
+bool
+&
+aSuspendAfterSynthesizeResponse
 )
 ;
 virtual
@@ -865,6 +869,11 @@ mShouldIntercept
 ;
 bool
 mShouldSuspendIntercept
+:
+1
+;
+bool
+mSuspendAfterSynthesizeResponse
 :
 1
 ;

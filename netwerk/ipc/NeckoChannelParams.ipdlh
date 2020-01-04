@@ -802,6 +802,9 @@ preflightArgs
 uint32_t
 initialRwin
 ;
+bool
+suspendAfterSynthesizeResponse
+;
 }
 ;
 struct
