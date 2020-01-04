@@ -6530,7 +6530,7 @@ aLayout
 virtual
 nsBoxLayout
 *
-GetLayoutManager
+GetXULLayoutManager
 (
 )
 {

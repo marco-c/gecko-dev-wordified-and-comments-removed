@@ -1620,7 +1620,7 @@ layout
 aBox
 -
 >
-GetLayoutManager
+GetXULLayoutManager
 (
 )
 ;
