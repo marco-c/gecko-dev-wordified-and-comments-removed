@@ -269,9 +269,6 @@ mozilla
 WidgetGUIEvent
 &
 event
-mozilla
-:
-:
 LayoutDeviceIntPoint
 *
 aPoint
@@ -495,9 +492,6 @@ override
 NS_IMETHOD
 GetScreenBounds
 (
-mozilla
-:
-:
 LayoutDeviceIntRect
 &
 aRect
@@ -505,9 +499,6 @@ aRect
 override
 ;
 virtual
-mozilla
-:
-:
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (

@@ -143,9 +143,6 @@ false
 override
 ;
 virtual
-mozilla
-:
-:
 LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
@@ -256,9 +253,6 @@ override
 NS_IMETHOD
 GetScreenBounds
 (
-mozilla
-:
-:
 LayoutDeviceIntRect
 &
 aRect
