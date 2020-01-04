@@ -203,6 +203,10 @@ inl
 h
 "
 using
+namespace
+js
+;
+using
 mozilla
 :
 :
@@ -213,12 +217,6 @@ mozilla
 :
 :
 RangedPtr
-;
-using
-mozilla
-:
-:
-UniquePtr
 ;
 using
 JS

@@ -274,12 +274,6 @@ mozilla
 :
 PointerRangeSize
 ;
-using
-mozilla
-:
-:
-UniquePtr
-;
 bool
 js
 :

@@ -16,15 +16,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 jsalloc
 .
 h
@@ -311,9 +302,6 @@ TraceLoggerEventPayload
 uint32_t
 textId_
 ;
-mozilla
-:
-:
 UniquePtr
 <
 char
@@ -468,9 +456,6 @@ enabled
 bool
 failed
 ;
-mozilla
-:
-:
 UniquePtr
 <
 TraceLoggerGraph

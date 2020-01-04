@@ -137,12 +137,6 @@ mozilla
 :
 DebugOnly
 ;
-using
-mozilla
-:
-:
-UniquePtr
-;
 namespace
 js
 {

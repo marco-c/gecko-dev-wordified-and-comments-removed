@@ -16,12 +16,6 @@ tests
 .
 h
 "
-using
-mozilla
-:
-:
-UniquePtr
-;
 static
 bool
 sErrorReportMuted
@@ -495,6 +489,9 @@ strlen
 asciiChars
 )
 ;
+mozilla
+:
+:
 UniquePtr
 <
 char16_t

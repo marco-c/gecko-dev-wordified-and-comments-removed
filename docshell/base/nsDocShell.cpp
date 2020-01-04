@@ -54953,6 +54953,9 @@ AddMarkerForDocShell
 this
 Move
 (
+mozilla
+:
+:
 MakeUnique
 <
 JavascriptTimelineMarker

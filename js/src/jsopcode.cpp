@@ -7545,9 +7545,6 @@ res
 ;
 }
 typedef
-mozilla
-:
-:
 UniquePtr
 <
 char

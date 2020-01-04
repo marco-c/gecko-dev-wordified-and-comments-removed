@@ -316,12 +316,6 @@ mozilla
 :
 Maybe
 ;
-using
-mozilla
-:
-:
-UniquePtr
-;
 extern
 const
 Class

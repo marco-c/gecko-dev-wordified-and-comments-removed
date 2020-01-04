@@ -139,12 +139,6 @@ mozilla
 :
 RangedPtr
 ;
-using
-mozilla
-:
-:
-UniquePtr
-;
 const
 char
 *

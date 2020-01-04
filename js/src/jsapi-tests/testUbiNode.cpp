@@ -984,9 +984,6 @@ isObject
 )
 )
 ;
-mozilla
-:
-:
 UniquePtr
 <
 char16_t

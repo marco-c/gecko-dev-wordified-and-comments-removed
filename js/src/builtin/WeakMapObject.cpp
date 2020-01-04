@@ -43,12 +43,6 @@ js
 :
 gc
 ;
-using
-mozilla
-:
-:
-UniquePtr
-;
 MOZ_ALWAYS_INLINE
 bool
 IsWeakMap
