@@ -137,6 +137,11 @@ properties
 js
 '
 '
+environment
+.
+js
+'
+'
 frame
 .
 js
