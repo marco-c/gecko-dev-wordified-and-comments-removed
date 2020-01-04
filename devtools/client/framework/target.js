@@ -2284,6 +2284,12 @@ _remote
 =
 null
 ;
+this
+.
+_root
+=
+null
+;
 }
 toString
 :
