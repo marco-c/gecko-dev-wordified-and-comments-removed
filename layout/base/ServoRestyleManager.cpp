@@ -453,9 +453,8 @@ primaryFrame
 aContent
 -
 >
-UnsetFlags
+UnsetIsDirtyForServo
 (
-NODE_IS_DIRTY_FOR_SERVO
 )
 ;
 return
@@ -648,9 +647,8 @@ pseudoContext
 aContent
 -
 >
-UnsetFlags
+UnsetIsDirtyForServo
 (
-NODE_IS_DIRTY_FOR_SERVO
 )
 ;
 }
@@ -740,9 +738,8 @@ aChangeListToProcess
 aContent
 -
 >
-UnsetFlags
+UnsetHasDirtyDescendantsForServo
 (
-NODE_HAS_DIRTY_DESCENDANTS_FOR_SERVO
 )
 ;
 }
