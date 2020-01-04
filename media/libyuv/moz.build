@@ -124,13 +124,6 @@ cc
 '
 source
 /
-rotate_argb
-.
-cc
-'
-'
-source
-/
 row_common
 .
 cc
