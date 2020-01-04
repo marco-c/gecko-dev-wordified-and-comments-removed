@@ -4553,11 +4553,7 @@ label
 =
 "
 &
-syncedTabs
-.
-context
-.
-refreshList
+syncSyncNowItem
 .
 label
 ;
@@ -4566,11 +4562,7 @@ accesskey
 =
 "
 &
-syncedTabs
-.
-context
-.
-refreshList
+syncSyncNowItem
 .
 accesskey
 ;
