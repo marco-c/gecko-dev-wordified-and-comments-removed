@@ -1380,21 +1380,6 @@ s
 "
                 
 "
--
--
-suite
-=
-crashtest
-"
-            
-]
-            
-"
-tests
-"
-:
-[
-"
 reftest
 /
 tests
@@ -1407,6 +1392,7 @@ crashtests
 .
 list
 "
+            
 ]
             
 "
@@ -1656,6 +1642,16 @@ js
 "
                 
 "
+jsreftest
+/
+tests
+/
+jstests
+.
+list
+"
+                
+"
 -
 -
 http
@@ -1696,31 +1692,7 @@ symbols_path
 )
 s
 "
-                
-"
--
--
-suite
-=
-jstestbrowser
-"
             
-]
-            
-"
-tests
-"
-:
-[
-"
-jsreftest
-/
-tests
-/
-jstests
-.
-list
-"
 ]
             
 "
@@ -2060,21 +2032,6 @@ s
 "
                 
 "
--
--
-suite
-=
-reftest
-"
-            
-]
-            
-"
-tests
-"
-:
-[
-"
 reftest
 /
 tests
@@ -2087,6 +2044,7 @@ reftest
 .
 list
 "
+            
 ]
             
 "
