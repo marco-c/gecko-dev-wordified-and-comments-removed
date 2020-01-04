@@ -13861,9 +13861,9 @@ regexp_test_no_statics
 JS_FN
 (
 "
-regexp_construct_no_statics
+regexp_construct
 "
-regexp_construct_no_statics
+regexp_construct_self_hosting
 2
 0
 )

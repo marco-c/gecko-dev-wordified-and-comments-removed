@@ -1969,7 +1969,7 @@ bool
 js
 :
 :
-regexp_construct_no_statics
+regexp_construct_self_hosting
 (
 JSContext
 *
