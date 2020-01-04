@@ -443,7 +443,7 @@ begin
 =
 labels
 .
-begin
+nonProfilingEntry
 .
 offset
 (
@@ -454,7 +454,7 @@ end
 =
 labels
 .
-end
+endAfterOOL
 .
 offset
 (

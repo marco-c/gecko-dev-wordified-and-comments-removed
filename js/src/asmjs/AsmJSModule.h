@@ -252,7 +252,7 @@ Label
 overflowExit
 )
 :
-entry
+nonProfilingEntry
 (
 entry
 )
@@ -266,14 +266,14 @@ jit
 :
 :
 Label
-begin
+profilingEntry
 ;
 jit
 :
 :
 Label
 &
-entry
+nonProfilingEntry
 ;
 jit
 :
@@ -297,7 +297,7 @@ jit
 :
 :
 Label
-end
+endAfterOOL
 ;
 mozilla
 :
