@@ -4420,7 +4420,6 @@ lock
 ;
 public
 :
-inline
 Arena
 *
 fetchNextFreeArena
