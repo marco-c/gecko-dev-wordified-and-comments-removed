@@ -2109,6 +2109,11 @@ ipc
 :
 :
 SharedMemoryBasic
+;
+mBuffer
+-
+>
+SetHandle
 (
 metrics
 )
