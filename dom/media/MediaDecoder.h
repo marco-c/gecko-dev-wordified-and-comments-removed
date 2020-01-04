@@ -1001,6 +1001,13 @@ bool
 aIsVisible
 )
 ;
+void
+SetForcedHidden
+(
+bool
+aForcedHidden
+)
+;
 virtual
 void
 ChangeState
@@ -1736,6 +1743,12 @@ nsAutoPtr
 MediaInfo
 >
 mInfo
+;
+bool
+mElementVisible
+;
+bool
+mForcedHidden
 ;
 bool
 mIsDormant
