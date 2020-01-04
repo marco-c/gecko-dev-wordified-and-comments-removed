@@ -69,6 +69,11 @@ char
 *
 mAdditionalCertName
 ;
+const
+char
+*
+mServerCertName
+;
 }
 ;
 SECItemArray
