@@ -1332,6 +1332,17 @@ i
 +
 )
 {
+if
+(
+mInputs
+[
+i
+]
+!
+=
+null
+)
+{
 result
 .
 put
@@ -1354,6 +1365,7 @@ getValue
 )
 )
 ;
+}
 }
 }
 }
