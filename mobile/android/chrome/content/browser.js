@@ -16280,6 +16280,16 @@ clientY
 return
 ;
 }
+if
+(
+event
+.
+defaultPrevented
+)
+{
+return
+;
+}
 this
 .
 _target
