@@ -965,6 +965,12 @@ SamplesPromise
 >
 mDemuxRequest
 ;
+media
+:
+:
+TimeUnit
+mLastParsedEndTime
+;
 Maybe
 <
 size_t
