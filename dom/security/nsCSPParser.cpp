@@ -4743,6 +4743,7 @@ keyword
 }
 if
 (
+(
 cspDir
 -
 >
@@ -4752,6 +4753,19 @@ nsIContentSecurityPolicy
 :
 :
 SCRIPT_SRC_DIRECTIVE
+)
+|
+|
+cspDir
+-
+>
+equals
+(
+nsIContentSecurityPolicy
+:
+:
+STYLE_SRC_DIRECTIVE
+)
 )
 &
 &
@@ -4795,7 +4809,7 @@ nsIScriptError
 :
 warningFlag
 "
-ignoringSrcWithinScriptSrc
+ignoringSrcWithinScriptStyleSrc
 "
 params
 ArrayLength
