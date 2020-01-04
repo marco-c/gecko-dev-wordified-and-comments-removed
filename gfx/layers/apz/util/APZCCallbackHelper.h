@@ -416,6 +416,13 @@ const
 bool
 &
 aEnabled
+const
+nsCOMPtr
+<
+nsIPresShell
+>
+&
+aShell
 )
 ;
 static

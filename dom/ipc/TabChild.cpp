@@ -7374,6 +7374,9 @@ APZCCallbackHelper
 SuppressDisplayport
 (
 aEnabled
+GetPresShell
+(
+)
 )
 ;
 return
@@ -10443,6 +10446,7 @@ APZCCallbackHelper
 SuppressDisplayport
 (
 false
+nullptr
 )
 ;
 mActiveSuppressDisplayport
