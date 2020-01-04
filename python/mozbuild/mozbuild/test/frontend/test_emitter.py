@@ -53,8 +53,6 @@ LocalInclude
     
 Program
     
-ReaderSummary
-    
 Resources
     
 SimpleProgram
@@ -319,18 +317,6 @@ objs
 0
 )
         
-self
-.
-assertIsInstance
-(
-objs
-[
--
-1
-]
-ReaderSummary
-)
-        
 filtered
 =
 [
@@ -349,16 +335,6 @@ isinstance
 (
 obj
 DirectoryTraversal
-)
-:
-                
-continue
-            
-if
-isinstance
-(
-obj
-ReaderSummary
 )
 :
                 

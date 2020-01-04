@@ -527,12 +527,6 @@ config
         
 self
 .
-execution_time
-=
-0
-        
-self
-.
 _sandbox
 =
 None

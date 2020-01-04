@@ -8,8 +8,6 @@ gyp
 import
 sys
 import
-time
-import
 os
 import
 mozpack
@@ -414,14 +412,6 @@ processor
 "
 "
 "
-    
-time_start
-=
-time
-.
-time
-(
-)
     
 path
 =
@@ -1440,25 +1430,5 @@ DISABLE_STL_WRAPPING
 =
 True
         
-context
-.
-execution_time
-=
-time
-.
-time
-(
-)
--
-time_start
-        
 yield
 context
-        
-time_start
-=
-time
-.
-time
-(
-)
