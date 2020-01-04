@@ -732,6 +732,11 @@ IMEData
 h
 '
 '
+InProcessCompositorWidget
+.
+h
+'
+'
 PuppetBidiKeyboard
 .
 h
@@ -773,6 +778,11 @@ cpp
 '
 '
 GfxInfoWebGL
+.
+cpp
+'
+'
+InProcessCompositorWidget
 .
 cpp
 '
