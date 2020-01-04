@@ -157,13 +157,6 @@ typedef
 mozilla
 :
 :
-LayoutDeviceRect
-LayoutDeviceRect
-;
-typedef
-mozilla
-:
-:
 TextRangeStyle
 TextRangeStyle
 ;
@@ -1510,7 +1503,7 @@ DrawTextRunParams
 gfxPoint
 framePt
 ;
-LayoutDeviceRect
+gfxRect
 dirtyRect
 ;
 const
@@ -1562,7 +1555,7 @@ aRenderingContext
 nsPoint
 aPt
 const
-LayoutDeviceRect
+nsRect
 &
 aDirtyRect
 const
@@ -1602,7 +1595,7 @@ gfxPoint
 &
 aTextBaselinePt
 const
-LayoutDeviceRect
+gfxRect
 &
 aDirtyRect
 PropertyProvider
@@ -1643,7 +1636,7 @@ gfxPoint
 &
 aTextBaselinePt
 const
-LayoutDeviceRect
+gfxRect
 &
 aDirtyRect
 PropertyProvider
@@ -1687,7 +1680,7 @@ gfxPoint
 &
 aTextBaselinePt
 const
-LayoutDeviceRect
+gfxRect
 &
 aDirtyRect
 PropertyProvider
@@ -2138,7 +2131,7 @@ PropertyProvider
 *
 aProvider
 const
-LayoutDeviceRect
+nsRect
 &
 aDirtyRect
 const
@@ -2181,7 +2174,7 @@ aShadow
 Range
 aRange
 const
-LayoutDeviceRect
+nsRect
 &
 aDirtyRect
 const
@@ -2599,7 +2592,7 @@ gfxContext
 *
 aContext
 const
-LayoutDeviceRect
+gfxRect
 &
 aDirtyRect
 SelectionType
@@ -2654,7 +2647,7 @@ gfxContext
 const
 aCtx
 const
-LayoutDeviceRect
+gfxRect
 &
 aDirtyRect
 nscolor
