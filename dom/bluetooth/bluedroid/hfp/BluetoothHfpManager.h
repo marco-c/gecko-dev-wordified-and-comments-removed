@@ -277,11 +277,6 @@ DisconnectSco
 (
 )
 ;
-bool
-IsNrecEnabled
-(
-)
-;
 void
 HandleCallStateChanged
 (

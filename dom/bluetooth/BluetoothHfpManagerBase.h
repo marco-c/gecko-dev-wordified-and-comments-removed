@@ -51,6 +51,14 @@ IsScoConnected
 )
 override
 ;
+\
+virtual
+bool
+IsNrecEnabled
+(
+)
+override
+;
 END_BLUETOOTH_NAMESPACE
 #
 endif
