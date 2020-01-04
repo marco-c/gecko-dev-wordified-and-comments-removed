@@ -3391,6 +3391,9 @@ constraints
 RecompileInfo
 *
 precompileInfo
+bool
+*
+isValidOut
 )
 ;
 void
