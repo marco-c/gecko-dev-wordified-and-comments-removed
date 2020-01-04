@@ -1223,6 +1223,18 @@ false
 bool
 isSync
 =
+!
+(
+aSecurityFlags
+&
+nsILoadInfo
+:
+:
+SEC_REQUIRE_CORS_DATA_INHERITS
+)
+&
+&
+(
 (
 NS_SUCCEEDED
 (
@@ -1262,6 +1274,7 @@ isResource
 &
 &
 isResource
+)
 )
 ;
 RefPtr
