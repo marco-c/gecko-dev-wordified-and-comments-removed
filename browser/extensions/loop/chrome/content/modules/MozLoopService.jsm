@@ -2749,6 +2749,12 @@ true
 }
 if
 (
+!
+gHawkClient
+.
+willUTF8EncodeRequests
+&
+&
 payloadObj
 )
 {

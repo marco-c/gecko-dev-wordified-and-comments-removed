@@ -316,6 +316,9 @@ Ci
 nsIChannelEventSink
 ]
 )
+willUTF8EncodeObjectRequests
+:
+true
 uri
 :
 null

@@ -35,6 +35,10 @@ unicodeName
 =
 "
 y
+\
+xf8
+\
+xfc
 "
 ;
 loopServer
@@ -71,7 +75,12 @@ JSON
 .
 parse
 (
+CommonUtils
+.
+decodeUTF8
+(
 body
+)
 )
 ;
 Assert
@@ -81,12 +90,7 @@ equal
 jsonBody
 .
 name
-CommonUtils
-.
-encodeUTF8
-(
 unicodeName
-)
 )
 ;
 response

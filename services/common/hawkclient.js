@@ -388,6 +388,13 @@ HawkClient
 prototype
 =
 {
+willUTF8EncodeRequests
+:
+HAWKAuthenticatedRESTRequest
+.
+prototype
+.
+willUTF8EncodeObjectRequests
 _constructError
 :
 function
