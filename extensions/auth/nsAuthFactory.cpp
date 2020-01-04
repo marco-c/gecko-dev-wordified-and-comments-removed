@@ -15,13 +15,6 @@ nsAuth
 h
 "
 #
-include
-"
-nsAutoPtr
-.
-h
-"
-#
 define
 NS_HTTPNEGOTIATEAUTH_CID
 \

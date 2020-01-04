@@ -313,13 +313,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsDOMJSUtils
 .
 h

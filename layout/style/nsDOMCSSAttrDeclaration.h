@@ -20,13 +20,6 @@ nsDOMCSSDeclaration
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 namespace
 mozilla
 {

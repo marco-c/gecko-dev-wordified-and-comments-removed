@@ -19,6 +19,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 AlignmentUtils
 .
 h

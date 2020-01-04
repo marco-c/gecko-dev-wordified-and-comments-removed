@@ -7,13 +7,6 @@ nsComputedDOMStyle_h__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ArenaRefPtr

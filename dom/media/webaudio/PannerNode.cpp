@@ -65,6 +65,13 @@ HRTFDatabaseLoader
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 using
 WebCore
 :

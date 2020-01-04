@@ -45,13 +45,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 class
 nsICursorContinueCallback
 ;

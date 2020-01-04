@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsFocusManager
 .
 h

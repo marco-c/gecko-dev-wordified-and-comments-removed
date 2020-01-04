@@ -32,6 +32,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsStyleContext
 .
 h

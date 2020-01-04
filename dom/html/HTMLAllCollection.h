@@ -7,13 +7,6 @@ mozilla_dom_HTMLAllCollection_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

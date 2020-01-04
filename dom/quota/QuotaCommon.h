@@ -7,13 +7,6 @@ mozilla_dom_quota_quotacommon_h__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

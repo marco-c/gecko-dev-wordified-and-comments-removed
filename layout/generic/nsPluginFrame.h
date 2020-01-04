@@ -25,6 +25,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIObjectFrame
 .
 h

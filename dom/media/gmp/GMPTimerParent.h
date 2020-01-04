@@ -46,13 +46,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Monitor

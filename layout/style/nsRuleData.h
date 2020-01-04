@@ -34,6 +34,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsCSSProps
 .
 h

@@ -1,6 +1,13 @@
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsFlexContainerFrame
 .
 h

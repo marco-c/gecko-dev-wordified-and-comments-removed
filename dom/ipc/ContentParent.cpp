@@ -942,13 +942,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCDefaultURIFixup
 .
 h

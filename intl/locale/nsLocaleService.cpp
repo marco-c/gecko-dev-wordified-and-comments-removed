@@ -25,13 +25,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsILocale
 .
 h

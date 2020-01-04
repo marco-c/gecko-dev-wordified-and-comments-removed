@@ -7,13 +7,6 @@ nsTransactionList_h__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h

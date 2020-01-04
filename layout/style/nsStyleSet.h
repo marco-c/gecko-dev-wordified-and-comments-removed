@@ -96,13 +96,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIStyleRule
 .
 h

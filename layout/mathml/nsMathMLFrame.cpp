@@ -79,13 +79,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsDisplayList
 .
 h

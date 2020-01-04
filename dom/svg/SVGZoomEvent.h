@@ -42,13 +42,6 @@ EventForwards
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 class
 nsPresContext
 ;

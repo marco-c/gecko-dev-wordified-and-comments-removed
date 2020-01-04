@@ -51,13 +51,6 @@ h
 "
 #
 include
-"
-nsAutoPtr
-.
-h
-"
-#
-include
 <
 stdio
 .

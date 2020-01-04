@@ -48,13 +48,6 @@ nsCOMArray
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 class
 nsPrintObject
 ;

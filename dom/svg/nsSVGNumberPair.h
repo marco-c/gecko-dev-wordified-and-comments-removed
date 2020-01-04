@@ -7,13 +7,6 @@ __NS_SVGNUMBERPAIR_H__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

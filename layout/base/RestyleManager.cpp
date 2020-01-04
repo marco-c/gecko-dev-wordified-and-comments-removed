@@ -68,6 +68,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsStyleChangeList
 .
 h

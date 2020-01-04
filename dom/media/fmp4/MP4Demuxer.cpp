@@ -94,6 +94,13 @@ H264
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 mozilla
 :
 :

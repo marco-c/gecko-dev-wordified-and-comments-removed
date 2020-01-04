@@ -27,13 +27,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsSMILAnimationFunction
 .
 h

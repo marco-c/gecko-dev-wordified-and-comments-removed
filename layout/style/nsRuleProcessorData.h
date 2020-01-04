@@ -7,6 +7,13 @@ nsRuleProcessorData_h_
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsChangeHint
 .
 h

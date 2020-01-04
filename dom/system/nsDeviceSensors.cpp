@@ -26,13 +26,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIDOMEvent
 .
 h

@@ -276,13 +276,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h

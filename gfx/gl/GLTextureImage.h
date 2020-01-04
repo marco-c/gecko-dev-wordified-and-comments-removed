@@ -7,13 +7,6 @@ GLTEXTUREIMAGE_H_
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsRegion
 .
 h

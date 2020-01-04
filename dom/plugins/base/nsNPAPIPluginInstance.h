@@ -96,13 +96,6 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIRunnable
 .
 h

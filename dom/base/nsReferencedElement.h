@@ -45,13 +45,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 class
 nsIURI
 ;

@@ -62,6 +62,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

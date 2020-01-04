@@ -16,6 +16,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h

@@ -7,6 +7,13 @@ mozilla_dom_HTMLContentElement_h__
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsINodeList
 .
 h

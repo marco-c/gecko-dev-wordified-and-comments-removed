@@ -7,13 +7,6 @@ nsRDFBinding_h__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h

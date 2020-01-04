@@ -7,6 +7,13 @@ mozilla_dom_SVGMarkerElement_h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsSVGAngle
 .
 h

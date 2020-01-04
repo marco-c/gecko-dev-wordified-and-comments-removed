@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsISettingsService
 .
 h

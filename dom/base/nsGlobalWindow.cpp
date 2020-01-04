@@ -844,13 +844,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsQueryObject
 .
 h

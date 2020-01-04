@@ -34,15 +34,6 @@ h
 #
 include
 "
-mozilla
-/
-RefPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

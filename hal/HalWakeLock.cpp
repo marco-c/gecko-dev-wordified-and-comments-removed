@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h

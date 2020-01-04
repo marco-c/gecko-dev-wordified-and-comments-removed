@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIVoicemailService
 .
 h

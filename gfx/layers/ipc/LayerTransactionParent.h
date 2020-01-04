@@ -59,13 +59,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsTArrayForwardDeclare
 .
 h

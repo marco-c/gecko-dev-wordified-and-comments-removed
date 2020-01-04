@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 VideoUtils
 .
 h

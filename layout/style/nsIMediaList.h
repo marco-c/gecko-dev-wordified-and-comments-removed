@@ -7,6 +7,13 @@ nsIMediaList_h_
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIDOMMediaList
 .
 h

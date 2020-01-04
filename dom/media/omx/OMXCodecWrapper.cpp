@@ -139,6 +139,13 @@ GrallocTextureClient
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 using
 namespace
 mozilla

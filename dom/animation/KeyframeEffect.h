@@ -7,13 +7,6 @@ mozilla_dom_KeyframeEffect_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsChangeHint
 .
 h

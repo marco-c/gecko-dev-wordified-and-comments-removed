@@ -20,6 +20,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h

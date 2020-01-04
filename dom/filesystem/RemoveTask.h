@@ -18,13 +18,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ErrorResult

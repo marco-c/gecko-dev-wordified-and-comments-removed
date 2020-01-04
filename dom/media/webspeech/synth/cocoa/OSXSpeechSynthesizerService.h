@@ -7,13 +7,6 @@ mozilla_dom_OsxSpeechSynthesizerService_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsISpeechService
 .
 h

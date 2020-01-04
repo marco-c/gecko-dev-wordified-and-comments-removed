@@ -7,6 +7,13 @@ mozilla_dom_HTMLMediaElement_h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLMediaElement
 .
 h

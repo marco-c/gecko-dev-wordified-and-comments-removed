@@ -7,6 +7,13 @@ __NS_SVGSTRING_H__
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsError
 .
 h

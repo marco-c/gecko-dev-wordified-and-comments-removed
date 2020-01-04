@@ -52,13 +52,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 Units
 .
 h

@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCaseTreatment
 .
 h

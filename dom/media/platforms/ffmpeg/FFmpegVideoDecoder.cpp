@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 ImageContainer
 .
 h

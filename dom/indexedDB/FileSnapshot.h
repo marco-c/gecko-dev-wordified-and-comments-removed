@@ -27,13 +27,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h

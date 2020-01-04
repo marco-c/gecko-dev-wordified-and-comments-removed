@@ -148,13 +148,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 imgRequestProxy
 .
 h

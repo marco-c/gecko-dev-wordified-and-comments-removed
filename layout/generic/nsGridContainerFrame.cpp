@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCSSAnonBoxes
 .
 h

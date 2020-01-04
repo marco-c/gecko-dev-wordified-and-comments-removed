@@ -29,6 +29,13 @@ algorithm
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h

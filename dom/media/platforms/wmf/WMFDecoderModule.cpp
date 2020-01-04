@@ -61,6 +61,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIWindowsRegKey
 .
 h

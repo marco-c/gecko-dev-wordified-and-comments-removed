@@ -11,13 +11,6 @@ nsSMILTimeValue
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 class
 nsSMILInterval
 ;

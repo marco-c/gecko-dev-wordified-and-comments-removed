@@ -15,13 +15,6 @@ Element
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 struct
 nsSMILTargetIdentifier
 {

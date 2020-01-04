@@ -14,6 +14,13 @@ ReentrantMonitor
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 using
 namespace
 android

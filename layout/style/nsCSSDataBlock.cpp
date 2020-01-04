@@ -55,6 +55,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h

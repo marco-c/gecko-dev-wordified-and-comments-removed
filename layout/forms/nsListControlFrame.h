@@ -54,13 +54,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsSelectsAreaFrame
 .
 h

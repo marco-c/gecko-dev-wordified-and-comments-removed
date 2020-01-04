@@ -16,6 +16,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h

@@ -7,14 +7,14 @@ __IPC_GLUE_SCOPEDXREEMBED_H__
 #
 include
 "
-nsString
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsAutoPtr
+nsString
 .
 h
 "

@@ -37,6 +37,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIMemoryReporter
 .
 h

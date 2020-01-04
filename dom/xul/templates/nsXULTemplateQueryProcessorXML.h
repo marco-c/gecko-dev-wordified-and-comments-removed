@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsISimpleEnumerator
 .
 h

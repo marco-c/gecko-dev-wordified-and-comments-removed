@@ -7,6 +7,13 @@ nsXMLHttpRequest_h__
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIXMLHttpRequest
 .
 h

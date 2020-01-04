@@ -7,13 +7,6 @@ nsHTMLStyleSheet_h_
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsColor
 .
 h

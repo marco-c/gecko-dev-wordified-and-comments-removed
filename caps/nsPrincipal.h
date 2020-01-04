@@ -7,13 +7,6 @@ nsPrincipal_h__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -29,13 +22,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsAutoPtr
 .
 h
 "

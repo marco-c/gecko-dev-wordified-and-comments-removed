@@ -7,13 +7,6 @@ mozilla_dom_FetchDriver_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIChannelEventSink
 .
 h

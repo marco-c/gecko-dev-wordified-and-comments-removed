@@ -106,6 +106,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsISeekableStream
 .
 h

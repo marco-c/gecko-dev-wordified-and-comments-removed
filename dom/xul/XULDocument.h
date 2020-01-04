@@ -7,6 +7,13 @@ mozilla_dom_XULDocument_h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

@@ -43,6 +43,13 @@ runnable_utils
 h
 "
 #
+include
+"
+nsAutoPtr
+.
+h
+"
+#
 ifdef
 FF
 #

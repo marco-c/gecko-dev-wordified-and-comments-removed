@@ -44,6 +44,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsXPCOMStrings
 .
 h

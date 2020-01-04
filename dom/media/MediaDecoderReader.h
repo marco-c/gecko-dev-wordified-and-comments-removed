@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 AbstractMediaDecoder
 .
 h

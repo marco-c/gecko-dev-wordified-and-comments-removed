@@ -147,13 +147,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsJSPrincipals
 .
 h

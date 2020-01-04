@@ -13,6 +13,13 @@ h
 "
 #
 include
+"
+nsAutoPtr
+.
+h
+"
+#
+include
 <
 algorithm
 >

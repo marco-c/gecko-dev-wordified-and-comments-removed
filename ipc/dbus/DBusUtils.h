@@ -23,6 +23,13 @@ RefPtr
 h
 "
 #
+include
+"
+nsISupportsImpl
+.
+h
+"
+#
 define
 LOG_AND_FREE_DBUS_ERROR_WITH_MSG
 (

@@ -7,6 +7,13 @@ mozilla_dom_Fetch_h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIInputStreamPump
 .
 h

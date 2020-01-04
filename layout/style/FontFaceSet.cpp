@@ -146,6 +146,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsCORSListenerProxy
 .
 h

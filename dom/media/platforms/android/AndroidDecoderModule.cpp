@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsPromiseFlatString
 .
 h

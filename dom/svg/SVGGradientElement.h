@@ -7,6 +7,13 @@ __NS_SVGGRADIENTELEMENT_H__
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsSVGAnimatedTransformList
 .
 h

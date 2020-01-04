@@ -7,6 +7,13 @@ DeviceStorage_h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h

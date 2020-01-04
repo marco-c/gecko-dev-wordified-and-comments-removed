@@ -2562,6 +2562,10 @@ openlinkintab
 #
 context
 -
+openlinkincontainertab
+#
+context
+-
 openframeintab
 {
 list
@@ -14768,7 +14772,13 @@ menuitem
 -
 iconic
 [
-usercontextid
+command
+=
+"
+Browser
+:
+NewUserContextTab
+"
 ]
 >
 .

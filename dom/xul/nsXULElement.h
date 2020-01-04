@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsStyledElement
 .
 h

@@ -7,13 +7,6 @@ mozilla_dom_TextTrackRegion_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

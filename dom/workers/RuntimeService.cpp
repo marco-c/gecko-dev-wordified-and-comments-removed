@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIChannel
 .
 h

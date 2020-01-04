@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefPtr

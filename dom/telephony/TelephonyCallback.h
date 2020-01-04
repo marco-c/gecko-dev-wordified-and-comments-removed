@@ -7,13 +7,6 @@ mozilla_dom_TelephonyCallback_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

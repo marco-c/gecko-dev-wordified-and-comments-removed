@@ -248,13 +248,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCURILoader
 .
 h

@@ -7,13 +7,6 @@ nsGeoPosition_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIDOMGeoPositionCoords
 .
 h
