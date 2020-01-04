@@ -8,7 +8,7 @@ h
 #
 include
 "
-XMLHttpRequest
+XMLHttpRequestWorker
 .
 h
 "
@@ -29,7 +29,7 @@ XMLHttpRequestUpload
 :
 XMLHttpRequestUpload
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 aXHR
 )
@@ -115,7 +115,7 @@ XMLHttpRequestUpload
 :
 Create
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 aXHR
 )

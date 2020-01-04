@@ -1,7 +1,7 @@
 #
 include
 "
-XMLHttpRequest
+XMLHttpRequestWorker
 .
 h
 "
@@ -230,7 +230,7 @@ dom
 ;
 USING_WORKERS_NAMESPACE
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 StateData
@@ -252,7 +252,7 @@ aTrc
 &
 mResponse
 "
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 StateData
@@ -277,7 +277,7 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 mXMLHttpRequestPrivate
 ;
@@ -372,7 +372,7 @@ public
 :
 Proxy
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 aXHRPrivate
 bool
@@ -1151,7 +1151,7 @@ final
 public
 MainThreadWorkerControlRunnable
 {
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 mXMLHttpRequestPrivate
 ;
@@ -1162,7 +1162,7 @@ XHRUnpinRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 aXHRPrivate
 )
@@ -1320,7 +1320,7 @@ nsXMLHttpRequest
 >
 mXHR
 ;
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 mXMLHttpRequestPrivate
 ;
@@ -1340,7 +1340,7 @@ final
 public
 MainThreadProxyRunnable
 {
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 mXMLHttpRequestPrivate
 ;
@@ -1357,7 +1357,7 @@ aWorkerPrivate
 Proxy
 *
 aProxy
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 aXHRPrivate
 uint32_t
@@ -1495,7 +1495,7 @@ LoadStartDetectionRunnable
 Proxy
 *
 aProxy
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 aXHRPrivate
 )
@@ -2910,7 +2910,7 @@ StealNSResult
 class
 AutoUnpinXHR
 {
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 mXMLHttpRequestPrivate
 ;
@@ -2919,7 +2919,7 @@ public
 explicit
 AutoUnpinXHR
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 aXMLHttpRequestPrivate
 )
@@ -4927,7 +4927,7 @@ Rooted
 <
 UniquePtr
 <
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 StateData
@@ -4937,7 +4937,7 @@ state
 (
 aCx
 new
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 StateData
@@ -5167,7 +5167,7 @@ mResponseURL
 =
 mResponseURL
 ;
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 xhr
 =
@@ -6142,10 +6142,10 @@ return
 rv
 ;
 }
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
-XMLHttpRequest
+XMLHttpRequestWorker
 (
 WorkerPrivate
 *
@@ -6208,11 +6208,11 @@ this
 )
 ;
 }
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 ~
-XMLHttpRequest
+XMLHttpRequestWorker
 (
 )
 {
@@ -6245,17 +6245,17 @@ this
 }
 NS_IMPL_ADDREF_INHERITED
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 nsXHREventTarget
 )
 NS_IMPL_RELEASE_INHERITED
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 nsXHREventTarget
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
@@ -6263,11 +6263,11 @@ nsXHREventTarget
 )
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 nsXHREventTarget
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
@@ -6277,7 +6277,7 @@ mUpload
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 nsXHREventTarget
 )
 tmp
@@ -6306,7 +6306,7 @@ setUndefined
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 nsXHREventTarget
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_JS_MEMBER_CALLBACK
@@ -6318,7 +6318,7 @@ mResponse
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
 JSObject
 *
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 WrapObject
@@ -6351,9 +6351,9 @@ aGivenProto
 }
 already_AddRefed
 <
-XMLHttpRequest
+XMLHttpRequestWorker
 >
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 Constructor
@@ -6409,12 +6409,12 @@ XHR_IN_WORKER
 ;
 RefPtr
 <
-XMLHttpRequest
+XMLHttpRequestWorker
 >
 xhr
 =
 new
-XMLHttpRequest
+XMLHttpRequestWorker
 (
 workerPrivate
 )
@@ -6471,7 +6471,7 @@ forget
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 ReleaseProxy
@@ -6606,7 +6606,7 @@ runnable
 }
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 MaybePin
@@ -6660,7 +6660,7 @@ true
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 MaybeDispatchPrematureAbortEvents
@@ -6878,7 +6878,7 @@ false
 }
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 DispatchPrematureAbortEvent
@@ -7093,7 +7093,7 @@ nullptr
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 Unpin
@@ -7133,7 +7133,7 @@ NS_RELEASE_THIS
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 SendInternal
@@ -7367,7 +7367,7 @@ NS_ERROR_FAILURE
 }
 }
 bool
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 Notify
@@ -7410,7 +7410,7 @@ true
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 Open
@@ -7605,7 +7605,7 @@ aAsync
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 SetRequestHeader
@@ -7685,7 +7685,7 @@ aRv
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 SetTimeout
@@ -7755,7 +7755,7 @@ aRv
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 SetWithCredentials
@@ -7825,7 +7825,7 @@ aRv
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 SetMozBackgroundRequest
@@ -7896,7 +7896,7 @@ aRv
 }
 XMLHttpRequestUpload
 *
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 GetUpload
@@ -7967,7 +7967,7 @@ mUpload
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 Send
@@ -8038,7 +8038,7 @@ aRv
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 Send
@@ -8111,7 +8111,7 @@ aRv
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 Send
@@ -8332,7 +8332,7 @@ aRv
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 Send
@@ -8522,7 +8522,7 @@ aRv
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 Send
@@ -8670,7 +8670,7 @@ aRv
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 Send
@@ -8716,7 +8716,7 @@ aRv
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 Send
@@ -8806,7 +8806,7 @@ aRv
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 Abort
@@ -8910,7 +8910,7 @@ aRv
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 GetResponseHeader
@@ -9008,7 +9008,7 @@ responseHeader
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 GetAllResponseHeaders
@@ -9101,7 +9101,7 @@ responseHeaders
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 OverrideMimeType
@@ -9201,7 +9201,7 @@ aRv
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 SetResponseType
@@ -9359,7 +9359,7 @@ acceptedResponseTypeString
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 GetResponse
@@ -9521,7 +9521,7 @@ mResponse
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 GetResponseText
@@ -9548,7 +9548,7 @@ mResponseText
 ;
 }
 void
-XMLHttpRequest
+XMLHttpRequestWorker
 :
 :
 UpdateState

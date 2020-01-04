@@ -13,7 +13,7 @@ h
 "
 BEGIN_WORKERS_NAMESPACE
 class
-XMLHttpRequest
+XMLHttpRequestWorker
 ;
 class
 XMLHttpRequestUpload
@@ -24,14 +24,14 @@ nsXHREventTarget
 {
 RefPtr
 <
-XMLHttpRequest
+XMLHttpRequestWorker
 >
 mXHR
 ;
 explicit
 XMLHttpRequestUpload
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 aXHR
 )
@@ -70,7 +70,7 @@ XMLHttpRequestUpload
 >
 Create
 (
-XMLHttpRequest
+XMLHttpRequestWorker
 *
 aXHR
 )
