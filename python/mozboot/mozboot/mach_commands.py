@@ -327,7 +327,9 @@ which
 .
 which
 (
+'
 hg
+'
 )
         
 if
