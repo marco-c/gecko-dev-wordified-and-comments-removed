@@ -8288,6 +8288,13 @@ path
 extra_env
 =
 {
+'
+MOZ_CRASHREPORTER_DISABLE
+'
+:
+'
+1
+'
 }
         
 if
@@ -8444,17 +8451,6 @@ extra_env
 [
 '
 JS_DISABLE_SLOW_SCRIPT_SIGNALS
-'
-]
-=
-'
-1
-'
-            
-extra_env
-[
-'
-MOZ_CRASHREPORTER_DISABLE
 '
 ]
 =
