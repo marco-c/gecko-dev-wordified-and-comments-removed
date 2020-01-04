@@ -4142,12 +4142,6 @@ mType
 =
 =
 NS_FORM_INPUT_PASSWORD
-|
-|
-mType
-=
-=
-NS_FORM_INPUT_NUMBER
 ;
 }
 static
