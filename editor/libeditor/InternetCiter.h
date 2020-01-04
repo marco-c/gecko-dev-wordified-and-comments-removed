@@ -1,9 +1,9 @@
 #
 ifndef
-nsInternetCiter_h__
+InternetCiter_h
 #
 define
-nsInternetCiter_h__
+InternetCiter_h
 #
 include
 "
@@ -18,8 +18,12 @@ nsStringFwd
 .
 h
 "
+namespace
+mozilla
+{
 class
-nsInternetCiter
+InternetCiter
+final
 {
 public
 :
@@ -90,5 +94,6 @@ aCiteLevel
 ;
 }
 ;
+}
 #
 endif

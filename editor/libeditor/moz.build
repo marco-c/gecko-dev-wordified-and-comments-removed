@@ -230,6 +230,11 @@ InsertTextTransaction
 cpp
 '
 '
+InternetCiter
+.
+cpp
+'
+'
 JoinNodeTransaction
 .
 cpp
@@ -296,11 +301,6 @@ cpp
 '
 '
 nsHTMLURIRefObject
-.
-cpp
-'
-'
-nsInternetCiter
 .
 cpp
 '

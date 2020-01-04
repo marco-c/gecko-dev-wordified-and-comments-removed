@@ -15,6 +15,13 @@ h
 #
 include
 "
+InternetCiter
+.
+h
+"
+#
+include
+"
 TextEditUtils
 .
 h
@@ -318,13 +325,6 @@ h
 include
 "
 nsIWeakReferenceUtils
-.
-h
-"
-#
-include
-"
-nsInternetCiter
 .
 h
 "
@@ -6238,7 +6238,7 @@ quotedStuff
 nsresult
 rv
 =
-nsInternetCiter
+InternetCiter
 :
 :
 GetCiteString
@@ -6605,7 +6605,7 @@ firstLineOffset
 ;
 rv
 =
-nsInternetCiter
+InternetCiter
 :
 :
 Rewrap
@@ -6677,7 +6677,7 @@ stripped
 ;
 rv
 =
-nsInternetCiter
+InternetCiter
 :
 :
 StripCites

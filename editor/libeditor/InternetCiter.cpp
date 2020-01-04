@@ -1,7 +1,7 @@
 #
 include
 "
-nsInternetCiter
+InternetCiter
 .
 h
 "
@@ -82,6 +82,9 @@ nsStringIterator
 .
 h
 "
+namespace
+mozilla
+{
 const
 char16_t
 gt
@@ -120,7 +123,7 @@ r
 )
 ;
 nsresult
-nsInternetCiter
+InternetCiter
 :
 :
 GetCiteString
@@ -266,7 +269,7 @@ NS_OK
 ;
 }
 nsresult
-nsInternetCiter
+InternetCiter
 :
 :
 StripCitesAndLinebreaks
@@ -506,7 +509,7 @@ NS_OK
 ;
 }
 nsresult
-nsInternetCiter
+InternetCiter
 :
 :
 StripCites
@@ -678,7 +681,7 @@ nbsp
 ;
 }
 nsresult
-nsInternetCiter
+InternetCiter
 :
 :
 Rewrap
@@ -1525,4 +1528,5 @@ citeLevel
 return
 NS_OK
 ;
+}
 }
