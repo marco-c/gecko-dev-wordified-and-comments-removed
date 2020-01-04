@@ -685,6 +685,13 @@ localizeMessage
 (
 messageName
 substitutions
+{
+cloneScope
+:
+context
+.
+cloneScope
+}
 )
 ;
 }
