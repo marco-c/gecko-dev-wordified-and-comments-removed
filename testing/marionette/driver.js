@@ -4454,6 +4454,7 @@ script
 directInject
 async
 timeout
+filename
 )
 {
 if
@@ -4588,6 +4589,10 @@ sandbox
 .
 8
 "
+filename
+?
+filename
+:
 "
 dummy
 file
@@ -5102,6 +5107,7 @@ script
 directInject
 false
 scriptTimeout
+filename
 )
 ;
 }
@@ -6339,6 +6345,7 @@ script
 directInject
 true
 scriptTimeout
+filename
 )
 ;
 }
