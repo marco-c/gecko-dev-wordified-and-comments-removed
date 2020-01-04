@@ -256,6 +256,13 @@ cpp
 '
 core
 /
+StackTop
+.
+cpp
+'
+'
+core
+/
 SyncProfile
 .
 cpp

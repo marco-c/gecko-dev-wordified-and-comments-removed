@@ -564,7 +564,7 @@ char
 name
 void
 *
-stackTop
+guessStackTop
 )
 {
 }

@@ -1,0 +1,17 @@
+#
+ifndef
+MOZ_STACK_TOP_H
+#
+define
+MOZ_STACK_TOP_H
+void
+*
+GetStackTop
+(
+void
+*
+guess
+)
+;
+#
+endif
