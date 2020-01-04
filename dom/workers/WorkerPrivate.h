@@ -2619,6 +2619,9 @@ bool
 mCloseHandlerFinished
 ;
 bool
+mPendingEventQueueClearing
+;
+bool
 mMemoryReporterRunning
 ;
 bool
