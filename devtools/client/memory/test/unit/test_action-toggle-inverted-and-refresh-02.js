@@ -48,6 +48,7 @@ snapshot
 ;
 const
 {
+setCensusDisplay
 setCensusDisplayAndRefresh
 }
 =
@@ -155,9 +156,8 @@ CENSUS
 ;
 dispatch
 (
-setCensusDisplayAndRefresh
+setCensusDisplay
 (
-heapWorker
 censusDisplays
 .
 allocationStack
@@ -174,6 +174,15 @@ censusDisplay
 .
 inverted
 false
+"
+Should
+not
+have
+an
+inverted
+census
+display
+"
 )
 ;
 dispatch

@@ -386,12 +386,14 @@ display
 ;
 actions
 .
-SET_TREEMAP_DISPLAY
+SET_TREE_MAP_DISPLAY
 =
 "
 set
 -
-treemap
+tree
+-
+map
 -
 display
 "
