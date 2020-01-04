@@ -17610,7 +17610,7 @@ R
 .
 drawable
 .
-ic_menu_bookmark_remove
+star_blue
 ;
 }
 else
