@@ -2513,7 +2513,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 binding
 &

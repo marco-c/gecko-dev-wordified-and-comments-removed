@@ -1417,7 +1417,7 @@ PostProcessAttachedQueueEvent
 {
 mProcessAttachedQueueEvent
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

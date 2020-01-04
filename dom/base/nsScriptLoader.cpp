@@ -2289,7 +2289,7 @@ scriptURI
 {
 NS_DispatchToCurrentThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 aElement
 &
@@ -2627,7 +2627,7 @@ rv
 {
 NS_DispatchToCurrentThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 aElement
 &
@@ -5350,13 +5350,9 @@ IsEmpty
 )
 )
 {
-nsCOMPtr
-<
-nsIRunnable
->
-ev
-=
-NS_NewRunnableMethod
+NS_DispatchToCurrentThread
+(
+NewRunnableMethod
 (
 this
 &
@@ -5365,10 +5361,6 @@ nsScriptLoader
 :
 ProcessPendingRequests
 )
-;
-NS_DispatchToCurrentThread
-(
-ev
 )
 ;
 }

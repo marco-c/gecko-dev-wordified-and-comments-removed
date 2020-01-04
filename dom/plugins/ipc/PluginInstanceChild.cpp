@@ -13808,7 +13808,7 @@ nullptr
 }
 mCurrentAsyncSetWindowTask
 =
-NS_NewNonOwningCancelableRunnableMethodWithArgs
+NewNonOwningCancelableRunnableMethod
 <
 gfxSurfaceType
 NPRemoteWindow
@@ -18570,7 +18570,7 @@ return
 }
 mCurrentInvalidateTask
 =
-NS_NewNonOwningCancelableRunnableMethod
+NewNonOwningCancelableRunnableMethod
 (
 this
 &

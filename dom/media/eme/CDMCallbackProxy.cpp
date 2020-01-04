@@ -820,7 +820,7 @@ task
 ;
 task
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsString
 >
@@ -851,7 +851,7 @@ task
 ;
 task
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsString
 >
@@ -1108,7 +1108,7 @@ task
 ;
 task
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsString
 >
@@ -1238,7 +1238,7 @@ nsIRunnable
 >
 task
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 mProxy
 &

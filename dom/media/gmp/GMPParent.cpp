@@ -2553,7 +2553,7 @@ gmpThread
 >
 Dispatch
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 RefPtr
 <
@@ -2613,7 +2613,7 @@ mProcess
 >
 Delete
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

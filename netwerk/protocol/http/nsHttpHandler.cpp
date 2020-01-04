@@ -11937,7 +11937,7 @@ nsIRunnable
 >
 event
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 mConnMgr
 &

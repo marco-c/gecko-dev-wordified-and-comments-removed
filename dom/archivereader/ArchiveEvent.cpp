@@ -256,13 +256,9 @@ mStatus
 =
 aStatus
 ;
-nsCOMPtr
-<
-nsIRunnable
->
-event
-=
-NS_NewRunnableMethod
+NS_DispatchToMainThread
+(
+NewRunnableMethod
 (
 this
 &
@@ -271,10 +267,6 @@ ArchiveReaderEvent
 :
 ShareMainThread
 )
-;
-NS_DispatchToMainThread
-(
-event
 )
 ;
 return

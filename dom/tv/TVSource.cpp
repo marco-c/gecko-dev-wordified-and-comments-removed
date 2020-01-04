@@ -1695,7 +1695,7 @@ nsIRunnable
 >
 runnable
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsCOMPtr
 <
@@ -1774,7 +1774,7 @@ nsIRunnable
 >
 runnable
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsCOMPtr
 <
@@ -1852,7 +1852,7 @@ nsIRunnable
 >
 runnable
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsCOMPtr
 <

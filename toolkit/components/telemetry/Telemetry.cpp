@@ -8773,7 +8773,7 @@ nsIRunnable
 >
 e
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

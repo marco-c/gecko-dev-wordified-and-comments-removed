@@ -958,7 +958,7 @@ ALLOW_ACTION
 {
 callbackRunnable
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -973,7 +973,7 @@ else
 {
 callbackRunnable
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -988,6 +988,10 @@ return
 NS_DispatchToMainThread
 (
 callbackRunnable
+.
+forget
+(
+)
 )
 ;
 }

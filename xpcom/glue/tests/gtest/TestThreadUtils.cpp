@@ -1994,7 +1994,7 @@ nsIRunnable
 >
 r1
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 rpt
 &
@@ -2025,7 +2025,7 @@ mCount
 ;
 r1
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 int
 >
@@ -2069,7 +2069,7 @@ mA0
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 (
 rpt
 &
@@ -2200,7 +2200,7 @@ int
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 int
 >
@@ -2244,7 +2244,7 @@ mA0
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 int
 int
@@ -2299,7 +2299,7 @@ mA1
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 int
 int
@@ -2365,7 +2365,7 @@ mA2
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 int
 int
@@ -2448,7 +2448,7 @@ si
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 int
 >
@@ -2804,7 +2804,7 @@ i
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 int
 *
@@ -3179,7 +3179,7 @@ i
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 const
 int
@@ -3301,7 +3301,7 @@ i
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByPtr
 <
@@ -3425,7 +3425,7 @@ i
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByConstPtr
 <
@@ -4147,7 +4147,7 @@ i
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 int
 &
@@ -4407,7 +4407,7 @@ i
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 int
 &
@@ -4750,7 +4750,7 @@ upi
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 mozilla
 :
@@ -5127,7 +5127,7 @@ upi
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByRRef
 <
@@ -5209,7 +5209,7 @@ int
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 mozilla
 :
@@ -5289,7 +5289,7 @@ int
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByRRef
 <
@@ -5349,7 +5349,7 @@ mA0
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 mozilla
 :
@@ -5420,7 +5420,7 @@ upi
 ;
 r1
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 mozilla
 :
@@ -5567,7 +5567,7 @@ d
 -
 r2
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByValue
 <
@@ -5588,7 +5588,7 @@ __LINE__
 }
 r2
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByValue
 <
@@ -5840,7 +5840,7 @@ d
 -
 r3
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByValue
 <
@@ -5868,7 +5868,7 @@ nsIRunnable
 >
 r3
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByValue
 <
@@ -6077,7 +6077,7 @@ ClearActions
 ;
 r4
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByValue
 <
@@ -6305,7 +6305,7 @@ d
 -
 r5
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByConstLRef
 <
@@ -6326,7 +6326,7 @@ __LINE__
 }
 r5
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByConstLRef
 <
@@ -6580,7 +6580,7 @@ d
 -
 r6
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByConstLRef
 <
@@ -6608,7 +6608,7 @@ nsIRunnable
 >
 r6
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByConstLRef
 <
@@ -6872,7 +6872,7 @@ d
 -
 r7
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByRRef
 <
@@ -6893,7 +6893,7 @@ __LINE__
 }
 r7
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByRRef
 <
@@ -7152,7 +7152,7 @@ d
 -
 r8
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByRRef
 <
@@ -7180,7 +7180,7 @@ nsIRunnable
 >
 r8
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StoreCopyPassByRRef
 <
@@ -7448,7 +7448,7 @@ d
 -
 r9
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 Spy
 &
@@ -7471,7 +7471,7 @@ nsIRunnable
 >
 r9
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 Spy
 &
@@ -7765,7 +7765,7 @@ d
 -
 r10
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StorensRefPtrPassByPtr
 <
@@ -7790,7 +7790,7 @@ __LINE__
 }
 r10
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 StorensRefPtrPassByPtr
 <
@@ -8103,7 +8103,7 @@ d
 -
 r11
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 Spy
 *
@@ -8126,7 +8126,7 @@ nsIRunnable
 >
 r11
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 Spy
 *
@@ -8396,7 +8396,7 @@ d
 -
 r12
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 Spy
 *
@@ -8419,7 +8419,7 @@ nsIRunnable
 >
 r12
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 const
 Spy

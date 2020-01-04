@@ -5362,7 +5362,7 @@ mTargetThread
 >
 Dispatch
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -5458,7 +5458,7 @@ mSocketThread
 >
 Dispatch
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -5820,7 +5820,7 @@ aCalledFromAdmissionManager
 {
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -13047,7 +13047,7 @@ mTargetThread
 >
 Dispatch
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -13145,7 +13145,7 @@ mSocketThread
 >
 Dispatch
 (
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 nsresult
 >
@@ -13174,7 +13174,7 @@ mSocketThread
 >
 Dispatch
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

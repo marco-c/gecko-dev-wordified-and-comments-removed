@@ -4347,7 +4347,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 nsIContent
 *
@@ -12688,7 +12688,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

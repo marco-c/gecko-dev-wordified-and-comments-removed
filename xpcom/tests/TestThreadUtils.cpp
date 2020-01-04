@@ -12,6 +12,10 @@ nsThreadUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 enum
 {
 TEST_CALL_VOID_ARG_VOID_RETURN
@@ -537,7 +541,7 @@ message
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 bar
 &
@@ -550,7 +554,7 @@ DoBar1
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 constBar
 &
@@ -563,7 +567,7 @@ DoBar1Const
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 bar
 &
@@ -576,7 +580,7 @@ DoBar2
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 RefPtr
 <
@@ -596,7 +600,7 @@ foo
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 RefPtr
 <
@@ -616,7 +620,7 @@ foo
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsFoo
 *
@@ -634,7 +638,7 @@ rawFoo
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 char
 *
@@ -655,7 +659,7 @@ ifdef
 HAVE_STDCALL
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 bar
 &
@@ -668,7 +672,7 @@ DoBar1std
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 bar
 &
@@ -681,7 +685,7 @@ DoBar2std
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 RefPtr
 <
@@ -701,7 +705,7 @@ foo
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 RefPtr
 <
@@ -721,7 +725,7 @@ foo
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsFoo
 *
@@ -739,7 +743,7 @@ rawFoo
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 char
 *

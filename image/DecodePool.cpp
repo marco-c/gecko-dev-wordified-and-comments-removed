@@ -538,13 +538,9 @@ nsIThread
 aThisThread
 )
 {
-nsCOMPtr
-<
-nsIRunnable
->
-runnable
-=
-NS_NewRunnableMethod
+NS_DispatchToMainThread
+(
+NewRunnableMethod
 (
 aThisThread
 &
@@ -553,10 +549,6 @@ nsIThread
 :
 Shutdown
 )
-;
-NS_DispatchToMainThread
-(
-runnable
 )
 ;
 }

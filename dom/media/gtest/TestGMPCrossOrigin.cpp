@@ -1402,11 +1402,15 @@ public
 :
 GMPShutdownObserver
 (
+already_AddRefed
+<
 nsIRunnable
-*
+>
 aShutdownTask
+already_AddRefed
+<
 nsIRunnable
-*
+>
 Continuation
 const
 nsACString
@@ -1728,8 +1732,10 @@ public
 :
 ClearGMPStorageTask
 (
+already_AddRefed
+<
 nsIRunnable
-*
+>
 Continuation
 nsIThread
 *
@@ -1986,8 +1992,10 @@ static
 void
 ClearGMPStorage
 (
+already_AddRefed
+<
 nsIRunnable
-*
+>
 aContinuation
 nsIThread
 *
@@ -2008,7 +2016,10 @@ task
 new
 ClearGMPStorageTask
 (
+Move
+(
 aContinuation
+)
 aTarget
 aSince
 )
@@ -2405,7 +2416,7 @@ GetGMPThread
 ;
 ClearGMPStorage
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 aTestMethod
@@ -2662,7 +2673,7 @@ GetGMPThread
 ;
 ClearGMPStorage
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsCString
 >
@@ -3184,7 +3195,7 @@ storage
 complete
 "
 )
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -3255,7 +3266,7 @@ nsIRunnable
 >
 r
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -3277,6 +3288,10 @@ complete
 "
 )
 r
+.
+forget
+(
+)
 )
 ;
 CreateDecryptor
@@ -3332,7 +3347,7 @@ nsIRunnable
 >
 r
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -3354,6 +3369,10 @@ complete
 "
 )
 r
+.
+forget
+(
+)
 )
 ;
 CreateDecryptor
@@ -3550,7 +3569,7 @@ siteInfo
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsAutoPtr
 <
@@ -3629,7 +3648,7 @@ nsIRunnable
 >
 r
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsAutoPtr
 <
@@ -3661,7 +3680,7 @@ nsIRunnable
 >
 f
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -3964,7 +3983,7 @@ nsIRunnable
 >
 r
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -3986,6 +4005,10 @@ complete
 "
 )
 r
+.
+forget
+(
+)
 )
 ;
 CreateDecryptor
@@ -4048,7 +4071,7 @@ nsIRunnable
 >
 r
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -4070,6 +4093,10 @@ complete
 "
 )
 r
+.
+forget
+(
+)
 )
 ;
 CreateDecryptor
@@ -4132,7 +4159,7 @@ nsIRunnable
 >
 r
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -4154,6 +4181,10 @@ complete
 "
 )
 r
+.
+forget
+(
+)
 )
 ;
 CreateDecryptor
@@ -4313,7 +4344,7 @@ nsIRunnable
 >
 r
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -4337,6 +4368,10 @@ GetGMPThread
 ClearGMPStorage
 (
 r
+.
+forget
+(
+)
 t
 f
 .
@@ -4382,7 +4417,7 @@ nsIRunnable
 >
 r
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -4406,6 +4441,10 @@ GetGMPThread
 ClearGMPStorage
 (
 r
+.
+forget
+(
+)
 t
 f
 .
@@ -4451,7 +4490,7 @@ nsIRunnable
 >
 r
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -4475,6 +4514,10 @@ GetGMPThread
 ClearGMPStorage
 (
 r
+.
+forget
+(
+)
 t
 f
 .
@@ -4732,7 +4775,7 @@ t
 Expect
 (
 response
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -4817,7 +4860,7 @@ bytes
 )
 "
 )
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -4887,7 +4930,7 @@ data
 Expect
 (
 response
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -4964,7 +5007,7 @@ bytes
 )
 "
 )
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -5040,7 +5083,7 @@ bytes
 )
 "
 )
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -5169,7 +5212,7 @@ nsIRunnable
 >
 continuation
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsCOMPtr
 <
@@ -5183,7 +5226,7 @@ GMPStorageTest
 :
 :
 NextAsyncShutdownTimeoutTest
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 aCallback
@@ -5385,7 +5428,7 @@ token
 Expect
 (
 response
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsCString
 >
@@ -5442,7 +5485,7 @@ aToken
 {
 ShutdownThen
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsCString
 >
@@ -5488,7 +5531,7 @@ aToken
 Expect
 (
 response
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -5564,7 +5607,7 @@ tests
 completed
 "
 )
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -5639,7 +5682,7 @@ placeholder
 voucher
 "
 )
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -5894,11 +5937,11 @@ update
 i
 )
 ;
+nsCOMPtr
+<
 nsIRunnable
-*
+>
 continuation
-=
-nullptr
 ;
 if
 (
@@ -5912,7 +5955,7 @@ num
 {
 continuation
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -5927,6 +5970,10 @@ Expect
 (
 response
 continuation
+.
+forget
+(
+)
 )
 ;
 }
@@ -5989,7 +6036,7 @@ mRecordNames
 Expect
 (
 response
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -6151,7 +6198,7 @@ data
 Expect
 (
 response
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -6230,8 +6277,10 @@ const
 nsCString
 &
 aMessage
+already_AddRefed
+<
 nsIRunnable
-*
+>
 aContinuation
 )
 {
@@ -6242,7 +6291,10 @@ AppendElement
 ExpectedMessage
 (
 aMessage
+Move
+(
 aContinuation
+)
 )
 )
 ;
@@ -6273,8 +6325,10 @@ false
 void
 ShutdownThen
 (
+already_AddRefed
+<
 nsIRunnable
-*
+>
 aContinuation
 )
 {
@@ -6312,7 +6366,7 @@ task
 new
 GMPShutdownObserver
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -6321,7 +6375,10 @@ GMPStorageTest
 :
 Shutdown
 )
+Move
+(
 aContinuation
+)
 mNodeId
 )
 )
@@ -6383,7 +6440,7 @@ Shutdown
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -6711,8 +6768,10 @@ const
 nsCString
 &
 aMessage
+already_AddRefed
+<
 nsIRunnable
-*
+>
 aContinuation
 )
 :
@@ -6800,7 +6859,7 @@ thread
 >
 Dispatch
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 GMPTestMonitor
 &

@@ -8346,7 +8346,7 @@ PresShell
 >
 resizeEvent
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -26839,7 +26839,7 @@ PresShell
 >
 ev
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -28286,7 +28286,7 @@ PresShell
 >
 event
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

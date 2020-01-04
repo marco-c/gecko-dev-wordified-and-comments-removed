@@ -1430,7 +1430,7 @@ mDeferredTasks
 .
 AppendElement
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 AsyncPanZoomController
 *
@@ -1614,7 +1614,7 @@ mDeferredTasks
 .
 AppendElement
 (
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 ParentLayerPoint
 RefPtr
@@ -2139,7 +2139,7 @@ mDeferredTasks
 .
 AppendElement
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 &
 mApzc
@@ -2615,7 +2615,7 @@ mDeferredTasks
 .
 AppendElement
 (
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 ParentLayerPoint
 >
@@ -9056,7 +9056,7 @@ Runnable
 >
 runnable
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 CSSPoint
 mozilla
@@ -13282,7 +13282,7 @@ RequestContentRepaint
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 func
@@ -17001,7 +17001,7 @@ RequestContentRepaint
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 FrameMetrics
 ParentLayerPoint

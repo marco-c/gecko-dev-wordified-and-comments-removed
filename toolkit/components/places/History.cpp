@@ -1724,13 +1724,9 @@ cb
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsCOMPtr
-<
-nsIRunnable
->
-event
-=
-NS_NewRunnableMethod
+NS_DispatchToMainThread
+(
+NewRunnableMethod
 (
 cb
 &
@@ -1739,10 +1735,6 @@ VisitedQuery
 :
 NotifyVisitedStatus
 )
-;
-NS_DispatchToMainThread
-(
-event
 )
 ;
 return

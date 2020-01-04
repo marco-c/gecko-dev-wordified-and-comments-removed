@@ -1322,7 +1322,7 @@ EVENT_FINISHED
 :
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -1340,7 +1340,7 @@ EVENT_REMOVED
 :
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

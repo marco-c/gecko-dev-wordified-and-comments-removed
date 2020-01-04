@@ -1254,13 +1254,9 @@ NS_IsMainThread
 )
 )
 {
-nsCOMPtr
-<
-nsIRunnable
->
-event
-=
-NS_NewRunnableMethod
+NS_DispatchToCurrentThread
+(
+NewRunnableMethod
 (
 this
 &
@@ -1269,10 +1265,6 @@ AndroidSurfaceTexture
 :
 NotifyFrameAvailable
 )
-;
-NS_DispatchToCurrentThread
-(
-event
 )
 ;
 }

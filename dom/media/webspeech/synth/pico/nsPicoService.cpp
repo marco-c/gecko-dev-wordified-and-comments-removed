@@ -1956,7 +1956,7 @@ mThread
 >
 Dispatch
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -2517,7 +2517,7 @@ hasMoreElements
 }
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
