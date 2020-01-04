@@ -111,4 +111,13 @@ browser
 .
 ini
 '
+'
+test
+/
+mochitest
+/
+browser2
+.
+ini
+'
 ]
