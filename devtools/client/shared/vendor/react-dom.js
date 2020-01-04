@@ -72,6 +72,14 @@ define
 (
 [
 '
+devtools
+/
+client
+/
+shared
+/
+vendor
+/
 react
 '
 ]

@@ -13,6 +13,14 @@ ReactDOM
 require
 (
 "
+devtools
+/
+client
+/
+shared
+/
+vendor
+/
 react
 -
 dom

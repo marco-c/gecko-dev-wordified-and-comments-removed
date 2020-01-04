@@ -18,6 +18,14 @@ React
 require
 (
 "
+devtools
+/
+client
+/
+shared
+/
+vendor
+/
 react
 "
 )
