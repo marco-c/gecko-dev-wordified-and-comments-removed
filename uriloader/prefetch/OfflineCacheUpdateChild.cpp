@@ -238,8 +238,10 @@ dom
 ContentChild
 ;
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gOfflineCacheUpdateLog
 ;
 #

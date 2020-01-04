@@ -122,8 +122,10 @@ dom
 TabParent
 ;
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gOfflineCacheUpdateLog
 ;
 #
