@@ -9,6 +9,10 @@ quit
 (
 )
 ;
+quit
+(
+)
+;
 load
 (
 libdir

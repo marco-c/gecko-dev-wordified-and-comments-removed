@@ -1251,7 +1251,11 @@ const
 )
 TypeError
 /
-NYI
+not
+yet
+implemented
+:
+i64
 /
 )
 ;
@@ -1407,7 +1411,11 @@ const
 )
 TypeError
 /
-NYI
+not
+yet
+implemented
+:
+i64
 /
 )
 ;

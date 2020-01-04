@@ -28,8 +28,8 @@ js
 namespace
 wasm
 {
-class
-ModuleGeneratorThreadView
+struct
+ModuleGeneratorData
 ;
 typedef
 Vector
@@ -377,7 +377,8 @@ JSRuntime
 const
 runtime_
 ;
-ModuleGeneratorThreadView
+const
+ModuleGeneratorData
 &
 mg_
 ;
@@ -421,7 +422,8 @@ IonCompileTask
 JSRuntime
 *
 rt
-ModuleGeneratorThreadView
+const
+ModuleGeneratorData
 &
 mg
 size_t
@@ -467,7 +469,8 @@ return
 lifo_
 ;
 }
-ModuleGeneratorThreadView
+const
+ModuleGeneratorData
 &
 mg
 (
