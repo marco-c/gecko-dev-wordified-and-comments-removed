@@ -6,7 +6,7 @@ strict
 const
 TEST_URI
 =
-BASE_URI
+URL_ROOT
 +
 "
 browser_fontinspector
@@ -24,7 +24,7 @@ function
 let
 {
 inspector
-fontInspector
+view
 }
 =
 yield
@@ -36,7 +36,7 @@ TEST_URI
 let
 viewDoc
 =
-fontInspector
+view
 .
 chromeDoc
 ;
@@ -203,7 +203,7 @@ text
 yield
 updatePreviewText
 (
-fontInspector
+view
 "
 The
 quick

@@ -6,7 +6,7 @@ strict
 const
 TEST_URI
 =
-BASE_URI
+URL_ROOT
 +
 "
 browser_fontinspector
@@ -23,8 +23,7 @@ function
 {
 let
 {
-inspector
-fontInspector
+view
 }
 =
 yield
@@ -36,7 +35,7 @@ TEST_URI
 let
 viewDoc
 =
-fontInspector
+view
 .
 chromeDoc
 ;
@@ -101,7 +100,7 @@ correct
 yield
 updatePreviewText
 (
-fontInspector
+view
 "
 Abc
 "
@@ -131,7 +130,7 @@ box
 yield
 updatePreviewText
 (
-fontInspector
+view
 "
 The
 quick
@@ -163,7 +162,7 @@ previews
 yield
 updatePreviewText
 (
-fontInspector
+view
 "
 "
 )
