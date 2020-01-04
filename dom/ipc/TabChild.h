@@ -2390,6 +2390,10 @@ bool
 RecvPrint
 (
 const
+uint64_t
+&
+aOuterWindowID
+const
 PrintData
 &
 aPrintData
