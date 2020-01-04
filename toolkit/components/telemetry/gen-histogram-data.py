@@ -524,7 +524,7 @@ print
 (
 "
 const
-HistogramInfo
+TelemetryHistogram
 gHistograms
 [
 ]
