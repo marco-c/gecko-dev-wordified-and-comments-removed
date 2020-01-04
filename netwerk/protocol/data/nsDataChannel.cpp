@@ -118,7 +118,6 @@ nsCString
 contentType
 contentCharset
 dataBuffer
-hashRef
 ;
 bool
 lBase64
@@ -135,7 +134,6 @@ contentType
 contentCharset
 lBase64
 dataBuffer
-hashRef
 )
 ;
 NS_UnescapeURL
