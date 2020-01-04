@@ -4676,6 +4676,14 @@ True
 DEFINES
 [
 '
+ENABLE_SIMD
+'
+]
+=
+True
+DEFINES
+[
+'
 EXPORT_JS_API
 '
 ]
