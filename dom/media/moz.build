@@ -609,11 +609,6 @@ CubebUtils
 h
 '
 '
-DecodedStream
-.
-h
-'
-'
 DecoderTraits
 .
 h
@@ -1041,11 +1036,6 @@ cpp
 '
 '
 CubebUtils
-.
-cpp
-'
-'
-DecodedStream
 .
 cpp
 '

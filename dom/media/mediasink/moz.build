@@ -107,6 +107,11 @@ DecodedAudioDataSink
 .
 cpp
 '
+'
+DecodedStream
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
