@@ -135,6 +135,13 @@ isFlashPlugin
 bool
 supportsAsyncInit
 ;
+bool
+supportsAsyncRender
+;
+/
+/
+flash
+specific
 nsCString
 filename
 ;

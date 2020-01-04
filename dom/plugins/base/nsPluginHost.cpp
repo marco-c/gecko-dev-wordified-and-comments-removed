@@ -11139,6 +11139,11 @@ supportsAsyncInit
 )
 tag
 .
+supportsAsyncRender
+(
+)
+tag
+.
 lastModifiedTime
 (
 )
@@ -12115,6 +12120,10 @@ tag
 -
 >
 mSupportsAsyncInit
+tag
+-
+>
+mSupportsAsyncRender
 tag
 -
 >

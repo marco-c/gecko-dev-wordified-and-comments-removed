@@ -78,6 +78,9 @@ char
 *
 fVersion
 ;
+bool
+fSupportsAsyncRender
+;
 }
 ;
 class

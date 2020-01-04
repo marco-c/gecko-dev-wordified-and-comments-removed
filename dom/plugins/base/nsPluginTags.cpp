@@ -1088,6 +1088,10 @@ mSupportsAsyncInit
 (
 false
 )
+mSupportsAsyncRender
+(
+false
+)
 mFullPath
 (
 aPluginInfo
@@ -1238,6 +1242,10 @@ mSupportsAsyncInit
 (
 false
 )
+mSupportsAsyncRender
+(
+false
+)
 mFullPath
 (
 aFullPath
@@ -1346,6 +1354,8 @@ bool
 aIsFlashPlugin
 bool
 aSupportsAsyncInit
+bool
+aSupportsAsyncRender
 int64_t
 aLastModifiedTime
 bool
@@ -1387,6 +1397,10 @@ aIsFlashPlugin
 mSupportsAsyncInit
 (
 aSupportsAsyncInit
+)
+mSupportsAsyncRender
+(
+aSupportsAsyncRender
 )
 mLastModifiedTime
 (

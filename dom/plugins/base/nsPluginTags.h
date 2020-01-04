@@ -513,6 +513,8 @@ bool
 aIsFlashPlugin
 bool
 aSupportsAsyncInit
+bool
+aSupportsAsyncRender
 int64_t
 aLastModifiedTime
 bool
@@ -632,6 +634,9 @@ mIsFlashPlugin
 ;
 bool
 mSupportsAsyncInit
+;
+bool
+mSupportsAsyncRender
 ;
 nsCString
 mFullPath
