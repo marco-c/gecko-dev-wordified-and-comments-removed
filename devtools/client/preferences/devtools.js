@@ -2881,3 +2881,17 @@ false
 ;
 #
 endif
+pref
+(
+"
+devtools
+.
+responsive
+.
+html
+.
+enabled
+"
+false
+)
+;
