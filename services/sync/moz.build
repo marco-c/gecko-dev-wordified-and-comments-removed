@@ -284,6 +284,13 @@ js
 '
 modules
 /
+SyncedTabs
+.
+jsm
+'
+'
+modules
+/
 userapi
 .
 js
