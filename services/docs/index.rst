@@ -122,4 +122,3 @@ maxdepth
 :
 1
 metrics
-datareporting

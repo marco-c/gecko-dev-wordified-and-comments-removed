@@ -33,9 +33,11 @@ include
 .
 .
 /
-services
+toolkit
 /
-datareporting
+components
+/
+telemetry
 /
 datareporting
 -
