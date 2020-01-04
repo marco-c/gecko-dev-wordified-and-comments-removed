@@ -3120,11 +3120,6 @@ me
 spreed
 .
 com
-air
-.
-mozilla
-.
-org
 "
 )
 ;
@@ -3290,11 +3285,6 @@ me
 spreed
 .
 com
-air
-.
-mozilla
-.
-org
 "
 )
 ;
@@ -8635,7 +8625,6 @@ secure
 "
 gzip
 deflate
-brotli
 "
 )
 ;
@@ -36748,6 +36737,11 @@ digest256
 mozstd
 -
 trackwhite
+-
+digest256
+mozfull
+-
+track
 -
 digest256
 "
