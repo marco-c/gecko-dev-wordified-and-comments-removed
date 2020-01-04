@@ -1863,10 +1863,10 @@ f
 d
 "
 "
-i32x4
+simd128int
 "
 "
-f32x4
+simd128float
 "
 "
 sincos

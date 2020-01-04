@@ -4104,7 +4104,7 @@ temp
 LDefinition
 :
 :
-INT32X4
+SIMD128INT
 )
 :
 LDefinition
@@ -4222,7 +4222,7 @@ temp
 LDefinition
 :
 :
-FLOAT32X4
+SIMD128FLOAT
 )
 :
 LDefinition
@@ -4400,7 +4400,7 @@ temp
 LDefinition
 :
 :
-FLOAT32X4
+SIMD128FLOAT
 )
 )
 ;
@@ -4600,7 +4600,7 @@ temp
 LDefinition
 :
 :
-FLOAT32X4
+SIMD128FLOAT
 )
 ;
 define

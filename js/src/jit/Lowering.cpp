@@ -28257,7 +28257,7 @@ temp
 LDefinition
 :
 :
-INT32X4
+SIMD128INT
 )
 )
 ;
