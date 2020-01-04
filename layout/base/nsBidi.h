@@ -1798,6 +1798,13 @@ runLevel
 namespace
 mozilla
 {
+static
+const
+nsBidiLevel
+kBidiLevelNone
+=
+0xff
+;
 struct
 FrameBidiData
 {
@@ -1806,6 +1813,9 @@ baseLevel
 ;
 nsBidiLevel
 embeddingLevel
+;
+nsBidiLevel
+precedingControl
 ;
 }
 ;
