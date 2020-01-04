@@ -1089,9 +1089,6 @@ final
 ContentResolver
 cr
 final
-String
-url
-final
 Map
 <
 String
