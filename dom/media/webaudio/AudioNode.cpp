@@ -859,7 +859,8 @@ DestroyMediaStream
 )
 ;
 }
-void
+AudioNode
+*
 AudioNode
 :
 :
@@ -905,6 +906,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 )
 ;
 return
+nullptr
 ;
 }
 if
@@ -929,6 +931,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 )
 ;
 return
+nullptr
 ;
 }
 if
@@ -957,6 +960,8 @@ NoIndex
 )
 {
 return
+&
+aDestination
 ;
 }
 mOutputNodes
@@ -1092,6 +1097,10 @@ Context
 UpdatePannerSource
 (
 )
+;
+return
+&
+aDestination
 ;
 }
 void

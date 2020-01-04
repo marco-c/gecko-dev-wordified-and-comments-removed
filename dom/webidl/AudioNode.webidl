@@ -185,7 +185,7 @@ EventTarget
 [
 Throws
 ]
-void
+AudioNode
 connect
 (
 AudioNode

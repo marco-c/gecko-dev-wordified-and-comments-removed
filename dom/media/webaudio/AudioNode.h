@@ -187,7 +187,8 @@ mContext
 ;
 }
 virtual
-void
+AudioNode
+*
 Connect
 (
 AudioNode
