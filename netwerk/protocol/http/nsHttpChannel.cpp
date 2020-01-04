@@ -12486,6 +12486,12 @@ NS_OK
 if
 (
 !
+PossiblyIntercepted
+(
+)
+&
+&
+!
 mApplicationCache
 &
 &

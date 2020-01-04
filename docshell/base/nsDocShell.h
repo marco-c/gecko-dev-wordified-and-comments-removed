@@ -2397,10 +2397,6 @@ static
 bool
 sUseErrorPages
 ;
-static
-bool
-sInterceptionEnabled
-;
 bool
 mCreated
 ;
