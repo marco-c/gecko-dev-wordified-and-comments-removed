@@ -3100,10 +3100,7 @@ SendLayersDependentApzcTargetConfirmation
 (
 mPresShell
 mInputBlockId
-Move
-(
 mTargets
-)
 )
 ;
 if
@@ -3237,10 +3234,7 @@ DisplayportSetListener
 (
 aShell
 aInputBlockId
-Move
-(
 aTargets
-)
 )
 )
 ;
@@ -3517,10 +3511,7 @@ SendSetTargetAPZCNotificationHelper
 aWidget
 shell
 aInputBlockId
-Move
-(
 targets
-)
 waitForRefresh
 )
 ;
@@ -3606,10 +3597,7 @@ mRefPoint
 aCallback
 (
 aInputBlockId
-Move
-(
 flags
-)
 )
 ;
 }
