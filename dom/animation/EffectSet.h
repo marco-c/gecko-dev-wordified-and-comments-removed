@@ -106,6 +106,14 @@ void
 aData
 )
 ;
+void
+Traverse
+(
+nsCycleCollectionTraversalCallback
+&
+aCallback
+)
+;
 static
 EffectSet
 *
@@ -169,7 +177,7 @@ private
 typedef
 nsTHashtable
 <
-nsPtrHashKey
+nsRefPtrHashKey
 <
 dom
 :
@@ -177,7 +185,7 @@ dom
 KeyframeEffectReadOnly
 >
 >
-EffectPtrSet
+OwningEffectSet
 ;
 public
 :
@@ -189,7 +197,7 @@ public
 explicit
 Iterator
 (
-EffectPtrSet
+OwningEffectSet
 :
 :
 Iterator
@@ -246,7 +254,7 @@ static
 Iterator
 EndIterator
 (
-EffectPtrSet
+OwningEffectSet
 :
 :
 Iterator
@@ -450,7 +458,7 @@ Done
 )
 ;
 }
-EffectPtrSet
+OwningEffectSet
 :
 :
 Iterator
@@ -496,6 +504,14 @@ Iter
 )
 ;
 }
+static
+nsIAtom
+*
+*
+GetEffectSetPropertyAtoms
+(
+)
+;
 private
 :
 static
@@ -510,7 +526,7 @@ Type
 aPseudoType
 )
 ;
-EffectPtrSet
+OwningEffectSet
 mEffects
 ;
 #
