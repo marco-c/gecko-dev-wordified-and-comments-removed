@@ -107,6 +107,11 @@ TestChunkSet
 cpp
 '
 '
+TestSafebrowsingHash
+.
+cpp
+'
+'
 TestSafeBrowsingProtobuf
 .
 cpp
