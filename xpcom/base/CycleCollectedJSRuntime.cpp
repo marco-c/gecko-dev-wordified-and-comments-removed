@@ -1856,6 +1856,10 @@ mJSRuntime
 (
 nullptr
 )
+mJSContext
+(
+nullptr
+)
 mPrevGCSliceCallback
 (
 nullptr
@@ -2024,6 +2028,10 @@ mJSRuntime
 =
 nullptr
 ;
+mJSContext
+=
+nullptr
+;
 nsCycleCollector_forgetJSRuntime
 (
 )
@@ -2145,6 +2153,13 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
+mJSContext
+=
+JS_GetContext
+(
+mJSRuntime
+)
+;
 if
 (
 !

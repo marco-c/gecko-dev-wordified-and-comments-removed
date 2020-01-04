@@ -173,11 +173,6 @@ XPCException
 cpp
 '
 '
-XPCJSContextStack
-.
-cpp
-'
-'
 XPCJSID
 .
 cpp
