@@ -16788,7 +16788,7 @@ nscolor
 aBackstop
 nsDisplayListBuilderMode
 aBuilderMode
-uint32_t
+PaintFrameFlags
 aFlags
 )
 {
@@ -16864,6 +16864,9 @@ if
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_WIDGET_LAYERS
 )
 {
@@ -16907,6 +16910,9 @@ aFlags
 &
 =
 ~
+PaintFrameFlags
+:
+:
 PAINT_WIDGET_LAYERS
 ;
 NS_ASSERTION
@@ -16984,6 +16990,9 @@ aBuilderMode
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_HIDE_CARET
 )
 )
@@ -16992,6 +17001,9 @@ if
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_IN_TRANSFORM
 )
 {
@@ -17007,6 +17019,9 @@ if
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_SYNC_DECODE_IMAGES
 )
 {
@@ -17023,8 +17038,14 @@ if
 aFlags
 &
 (
+PaintFrameFlags
+:
+:
 PAINT_WIDGET_LAYERS
 |
+PaintFrameFlags
+:
+:
 PAINT_TO_WINDOW
 )
 )
@@ -17041,6 +17062,9 @@ if
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_IGNORE_SUPPRESSION
 )
 {
@@ -17125,6 +17149,9 @@ if
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_WIDGET_LAYERS
 )
 {
@@ -17153,6 +17180,9 @@ if
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_WIDGET_LAYERS
 )
 &
@@ -17161,6 +17191,9 @@ PAINT_WIDGET_LAYERS
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_DOCUMENT_RELATIVE
 )
 &
@@ -17239,6 +17272,9 @@ if
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_DOCUMENT_RELATIVE
 )
 {
@@ -18221,6 +18257,9 @@ if
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_WIDGET_LAYERS
 )
 {
@@ -18238,6 +18277,9 @@ if
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_DOCUMENT_RELATIVE
 )
 )
@@ -18277,6 +18319,9 @@ if
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_EXISTING_TRANSACTION
 )
 {
@@ -18293,6 +18338,9 @@ if
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_NO_COMPOSITE
 )
 {
@@ -18309,6 +18357,9 @@ if
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_COMPRESSED
 )
 {
@@ -18817,6 +18868,9 @@ if
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_WIDGET_LAYERS
 )
 &
@@ -18825,6 +18879,9 @@ PAINT_WIDGET_LAYERS
 (
 aFlags
 &
+PaintFrameFlags
+:
+:
 PAINT_DOCUMENT_RELATIVE
 )
 )
