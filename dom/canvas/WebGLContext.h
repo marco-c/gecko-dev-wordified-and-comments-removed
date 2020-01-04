@@ -4728,7 +4728,6 @@ uint32_t
 fullRows
 uint32_t
 tailPixels
-const
 webgl
 :
 :
