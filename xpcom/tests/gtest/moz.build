@@ -123,6 +123,11 @@ TestEncoding
 cpp
 '
 '
+TestEscapeURL
+.
+cpp
+'
+'
 TestExpirationTracker
 .
 cpp
