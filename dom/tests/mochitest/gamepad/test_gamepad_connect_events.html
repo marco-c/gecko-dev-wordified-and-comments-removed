@@ -159,6 +159,8 @@ startTests
 (
 )
 {
+GamepadService
+.
 addGamepad
 (
 "
@@ -168,13 +170,9 @@ gamepad
 /
 /
 id
-SpecialPowers
+GamepadService
 .
-Ci
-.
-nsIGamepadServiceTest
-.
-STANDARD_MAPPING
+standardMapping
 4
 /
 /
@@ -452,8 +450,9 @@ html
 onload
 =
 "
-startTests
+runGamepadTest
 (
+startTests
 )
 "
 >
