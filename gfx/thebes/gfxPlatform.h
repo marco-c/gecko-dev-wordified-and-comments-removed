@@ -1735,6 +1735,16 @@ FlushContentDrawing
 )
 {
 }
+virtual
+bool
+UpdateForDeviceReset
+(
+)
+{
+return
+false
+;
+}
 already_AddRefed
 <
 DrawTarget
