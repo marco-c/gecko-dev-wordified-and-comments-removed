@@ -53,6 +53,15 @@ PodOperations
 h
 "
 #
+include
+"
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -7486,8 +7495,8 @@ loadLengthStr
 )
 "
 %
-u
 "
+PRIu32
 loadLength
 )
 ;
@@ -7506,8 +7515,8 @@ saveLengthStr
 )
 "
 %
-u
 "
+PRIu32
 saveLength
 )
 ;
