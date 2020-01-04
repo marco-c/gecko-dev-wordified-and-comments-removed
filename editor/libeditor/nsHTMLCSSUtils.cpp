@@ -2875,10 +2875,10 @@ nsDependentAtomString
 (
 aProperty
 )
-CSSEnabledState
+nsCSSProps
 :
 :
-eForAllContent
+eEnabledForAllContent
 )
 ;
 MOZ_ASSERT

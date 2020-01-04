@@ -11726,7 +11726,7 @@ nsCSSProps
 LookupProperty
 (
 aProperty
-CSSEnabledState
+nsCSSProps
 :
 :
 eIgnoreEnabledState

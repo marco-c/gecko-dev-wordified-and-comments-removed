@@ -2991,7 +2991,7 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 p
 aPropID
-CSSEnabledState
+nsCSSProps
 :
 :
 eIgnoreEnabledState
@@ -3073,7 +3073,10 @@ nsCSSExpandedDataBlock
 aFromBlock
 nsCSSProperty
 aPropID
-CSSEnabledState
+nsCSSProps
+:
+:
+EnabledState
 aEnabledState
 bool
 aIsImportant

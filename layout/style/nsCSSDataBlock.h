@@ -699,10 +699,10 @@ nsCSSExpandedDataBlock
 aFromBlock
 nsCSSProperty
 aPropID
-mozilla
+nsCSSProps
 :
 :
-CSSEnabledState
+EnabledState
 aEnabledState
 bool
 aIsImportant

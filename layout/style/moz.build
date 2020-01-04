@@ -501,11 +501,6 @@ AnimationCollection
 h
 '
 '
-CSSEnabledState
-.
-h
-'
-'
 CSSStyleSheet
 .
 h
