@@ -1519,6 +1519,16 @@ aModal
 ;
 }
 virtual
+bool
+IsRunningAppModal
+(
+)
+{
+return
+false
+;
+}
+virtual
 uint32_t
 GetMaxTouchPoints
 (
