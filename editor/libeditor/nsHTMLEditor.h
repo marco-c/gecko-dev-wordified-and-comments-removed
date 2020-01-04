@@ -982,8 +982,6 @@ aColor
 )
 ;
 static
-already_AddRefed
-<
 mozilla
 :
 :
@@ -991,7 +989,7 @@ dom
 :
 :
 Element
->
+*
 GetBlockNodeParent
 (
 nsINode
@@ -1000,10 +998,8 @@ aNode
 )
 ;
 static
-already_AddRefed
-<
 nsIDOMNode
->
+*
 GetBlockNodeParent
 (
 nsIDOMNode
@@ -2160,8 +2156,6 @@ aSelection
 )
 ;
 static
-already_AddRefed
-<
 mozilla
 :
 :
@@ -2169,7 +2163,7 @@ dom
 :
 :
 Element
->
+*
 GetEnclosingTable
 (
 nsINode
@@ -2178,10 +2172,8 @@ aNode
 )
 ;
 static
-nsCOMPtr
-<
 nsIDOMNode
->
+*
 GetEnclosingTable
 (
 nsIDOMNode
