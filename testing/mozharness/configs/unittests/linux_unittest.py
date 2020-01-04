@@ -2421,6 +2421,18 @@ true
 -
 setpref
 =
+extensions
+.
+e10sBlocksEnabling
+=
+false
+"
+                        
+"
+-
+-
+setpref
+=
 layers
 .
 async
@@ -2599,6 +2611,18 @@ remote
 autostart
 =
 true
+"
+                        
+"
+-
+-
+setpref
+=
+extensions
+.
+e10sBlocksEnabling
+=
+false
 "
                         
 "
