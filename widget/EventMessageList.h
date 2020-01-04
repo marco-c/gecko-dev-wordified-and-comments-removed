@@ -723,7 +723,7 @@ ePageTransitionEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_PAGE_HIDE
+ePageHide
 ePageTransitionEventFirst
 +
 2
