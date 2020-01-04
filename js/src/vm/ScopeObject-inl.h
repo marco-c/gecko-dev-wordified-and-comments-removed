@@ -484,9 +484,15 @@ true
 MOZ_ASSERT_IF
 (
 scope
-IsStaticScope
-(
 scope
+-
+>
+template
+is
+<
+StaticScope
+>
+(
 )
 )
 ;
