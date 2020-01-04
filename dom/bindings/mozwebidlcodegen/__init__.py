@@ -754,6 +754,12 @@ h
 '
         
 '
+RegisterWorkerDebuggerBindings
+.
+h
+'
+        
+'
 ResolveSystemBinding
 .
 h
@@ -785,6 +791,12 @@ cpp
         
 '
 RegisterWorkerBindings
+.
+cpp
+'
+        
+'
+RegisterWorkerDebuggerBindings
 .
 cpp
 '
