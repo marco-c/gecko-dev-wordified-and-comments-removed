@@ -175,7 +175,12 @@ dump
 n
 "
 +
+JSON
+.
+stringify
+(
 raw_msg
+)
 +
 "
 \
