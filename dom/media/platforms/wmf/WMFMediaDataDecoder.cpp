@@ -531,6 +531,10 @@ mCallback
 >
 Error
 (
+MediaDataDecoderError
+:
+:
+DECODE_ERROR
 )
 ;
 if
@@ -668,6 +672,10 @@ mCallback
 >
 Error
 (
+MediaDataDecoderError
+:
+:
+DECODE_ERROR
 )
 ;
 if

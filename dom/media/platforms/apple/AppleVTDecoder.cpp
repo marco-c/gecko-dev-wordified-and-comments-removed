@@ -1206,6 +1206,10 @@ mCallback
 >
 Error
 (
+MediaDataDecoderError
+:
+:
+DECODE_ERROR
 )
 ;
 return
