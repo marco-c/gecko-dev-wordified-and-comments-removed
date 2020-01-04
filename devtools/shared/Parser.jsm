@@ -166,8 +166,6 @@ prototype
 =
 {
 get
-:
-function
 (
 source
 url
@@ -490,8 +488,6 @@ pool
 ;
 }
 clearCache
-:
-function
 (
 )
 {
@@ -505,8 +501,6 @@ clear
 ;
 }
 clearSource
-:
-function
 (
 url
 )
@@ -570,8 +564,6 @@ prototype
 =
 {
 getIdentifierAt
-:
-function
 (
 {
 line
@@ -600,8 +592,6 @@ ignoreLiterals
 ;
 }
 getNamedFunctionDefinitions
-:
-function
 (
 substring
 )
@@ -621,8 +611,6 @@ substring
 ;
 }
 getLastSyntaxTree
-:
-function
 (
 )
 {
@@ -655,8 +643,6 @@ length
 ;
 }
 getScriptInfo
-:
-function
 (
 atOffset
 )
@@ -743,8 +729,6 @@ info
 ;
 }
 _call
-:
-function
 (
 functionName
 syntaxTreeIndex
@@ -968,8 +952,6 @@ prototype
 =
 {
 getIdentifierAt
-:
-function
 (
 line
 column
@@ -990,8 +972,6 @@ this
 AST
 {
 onIdentifier
-:
-function
 (
 node
 )
@@ -1043,8 +1023,6 @@ true
 }
 }
 onLiteral
-:
-function
 (
 node
 )
@@ -1065,8 +1043,6 @@ node
 }
 }
 onThisExpression
-:
-function
 (
 node
 )
@@ -1087,8 +1063,6 @@ info
 ;
 }
 getNamedFunctionDefinitions
-:
-function
 (
 substring
 )
@@ -1139,8 +1113,6 @@ this
 AST
 {
 onFunctionDeclaration
-:
-function
 (
 node
 )
@@ -1184,8 +1156,6 @@ node
 }
 }
 onFunctionExpression
-:
-function
 (
 node
 )
@@ -1311,8 +1281,6 @@ inferredLocation
 }
 }
 onArrowFunctionExpression
-:
-function
 (
 node
 )
@@ -1426,8 +1394,6 @@ ParserHelpers
 =
 {
 getNodeLocation
-:
-function
 (
 node
 )
@@ -1784,8 +1750,6 @@ loc
 ;
 }
 nodeContainsLine
-:
-function
 (
 node
 line
@@ -1826,8 +1790,6 @@ line
 ;
 }
 nodeContainsPoint
-:
-function
 (
 node
 line
@@ -1885,8 +1847,6 @@ column
 ;
 }
 inferFunctionExpressionInfo
-:
-function
 (
 node
 )
@@ -2063,8 +2023,6 @@ null
 ;
 }
 _getObjectExpressionPropertyKeyForValue
-:
-function
 (
 node
 )
@@ -2119,10 +2077,11 @@ key
 ;
 }
 }
+return
+null
+;
 }
 _getObjectExpressionPropertyChain
-:
-function
 (
 node
 aStore
@@ -2243,8 +2202,6 @@ aStore
 ;
 }
 _getMemberExpressionPropertyChain
-:
-function
 (
 node
 store
@@ -2325,8 +2282,6 @@ store
 ;
 }
 getIdentifierEvalString
-:
-function
 (
 node
 )
@@ -2487,8 +2442,6 @@ SyntaxTreeVisitor
 =
 {
 walk
-:
-function
 (
 tree
 callbacks
@@ -2513,8 +2466,6 @@ callbacks
 ;
 }
 filter
-:
-function
 (
 tree
 predicate
@@ -2566,8 +2517,6 @@ break
 :
 false
 Program
-:
-function
 (
 node
 callbacks
@@ -2613,8 +2562,6 @@ callbacks
 }
 }
 Statement
-:
-function
 (
 node
 parent
@@ -2680,8 +2627,6 @@ node
 }
 }
 EmptyStatement
-:
-function
 (
 node
 parent
@@ -2747,8 +2692,6 @@ node
 }
 }
 BlockStatement
-:
-function
 (
 node
 parent
@@ -2837,8 +2780,6 @@ callbacks
 }
 }
 ExpressionStatement
-:
-function
 (
 node
 parent
@@ -2920,8 +2861,6 @@ callbacks
 ;
 }
 IfStatement
-:
-function
 (
 node
 parent
@@ -3043,8 +2982,6 @@ callbacks
 }
 }
 LabeledStatement
-:
-function
 (
 node
 parent
@@ -3142,8 +3079,6 @@ callbacks
 ;
 }
 BreakStatement
-:
-function
 (
 node
 parent
@@ -3233,8 +3168,6 @@ callbacks
 }
 }
 ContinueStatement
-:
-function
 (
 node
 parent
@@ -3324,8 +3257,6 @@ callbacks
 }
 }
 WithStatement
-:
-function
 (
 node
 parent
@@ -3423,8 +3354,6 @@ callbacks
 ;
 }
 SwitchStatement
-:
-function
 (
 node
 parent
@@ -3529,8 +3458,6 @@ callbacks
 }
 }
 ReturnStatement
-:
-function
 (
 node
 parent
@@ -3620,8 +3547,6 @@ callbacks
 }
 }
 ThrowStatement
-:
-function
 (
 node
 parent
@@ -3703,8 +3628,6 @@ callbacks
 ;
 }
 TryStatement
-:
-function
 (
 node
 parent
@@ -3857,8 +3780,6 @@ callbacks
 }
 }
 WhileStatement
-:
-function
 (
 node
 parent
@@ -3956,8 +3877,6 @@ callbacks
 ;
 }
 DoWhileStatement
-:
-function
 (
 node
 parent
@@ -4055,8 +3974,6 @@ callbacks
 ;
 }
 ForStatement
-:
-function
 (
 node
 parent
@@ -4210,8 +4127,6 @@ callbacks
 ;
 }
 ForInStatement
-:
-function
 (
 node
 parent
@@ -4325,8 +4240,6 @@ callbacks
 ;
 }
 ForOfStatement
-:
-function
 (
 node
 parent
@@ -4440,8 +4353,6 @@ callbacks
 ;
 }
 LetStatement
-:
-function
 (
 node
 parent
@@ -4567,8 +4478,6 @@ callbacks
 ;
 }
 DebuggerStatement
-:
-function
 (
 node
 parent
@@ -4634,8 +4543,6 @@ node
 }
 }
 Declaration
-:
-function
 (
 node
 parent
@@ -4701,8 +4608,6 @@ node
 }
 }
 FunctionDeclaration
-:
-function
 (
 node
 parent
@@ -4876,8 +4781,6 @@ callbacks
 ;
 }
 VariableDeclaration
-:
-function
 (
 node
 parent
@@ -4966,8 +4869,6 @@ callbacks
 }
 }
 VariableDeclarator
-:
-function
 (
 node
 parent
@@ -5073,8 +4974,6 @@ callbacks
 }
 }
 Expression
-:
-function
 (
 node
 parent
@@ -5140,8 +5039,6 @@ node
 }
 }
 ThisExpression
-:
-function
 (
 node
 parent
@@ -5207,8 +5104,6 @@ node
 }
 }
 ArrayExpression
-:
-function
 (
 node
 parent
@@ -5303,8 +5198,6 @@ callbacks
 }
 }
 SpreadExpression
-:
-function
 (
 node
 parent
@@ -5386,8 +5279,6 @@ callbacks
 ;
 }
 ObjectExpression
-:
-function
 (
 node
 parent
@@ -5490,9 +5381,88 @@ callbacks
 ;
 }
 }
+ComputedName
+(
+node
+parent
+callbacks
+)
+{
+node
+.
+_parent
+=
+parent
+;
+if
+(
+this
+.
+break
+)
+{
+return
+;
+}
+if
+(
+callbacks
+.
+onNode
+)
+{
+if
+(
+callbacks
+.
+onNode
+(
+node
+parent
+)
+=
+=
+=
+false
+)
+{
+return
+;
+}
+}
+if
+(
+callbacks
+.
+onComputedName
+)
+{
+callbacks
+.
+onComputedName
+(
+node
+)
+;
+}
+this
+[
+node
+.
+name
+.
+type
+]
+(
+node
+.
+name
+node
+callbacks
+)
+;
+}
 FunctionExpression
-:
-function
 (
 node
 parent
@@ -5674,8 +5644,6 @@ callbacks
 ;
 }
 ArrowFunctionExpression
-:
-function
 (
 node
 parent
@@ -5833,8 +5801,6 @@ callbacks
 ;
 }
 SequenceExpression
-:
-function
 (
 node
 parent
@@ -5923,8 +5889,6 @@ callbacks
 }
 }
 UnaryExpression
-:
-function
 (
 node
 parent
@@ -6006,8 +5970,6 @@ callbacks
 ;
 }
 BinaryExpression
-:
-function
 (
 node
 parent
@@ -6105,8 +6067,6 @@ callbacks
 ;
 }
 AssignmentExpression
-:
-function
 (
 node
 parent
@@ -6204,8 +6164,6 @@ callbacks
 ;
 }
 UpdateExpression
-:
-function
 (
 node
 parent
@@ -6287,8 +6245,6 @@ callbacks
 ;
 }
 LogicalExpression
-:
-function
 (
 node
 parent
@@ -6386,8 +6342,6 @@ callbacks
 ;
 }
 ConditionalExpression
-:
-function
 (
 node
 parent
@@ -6501,8 +6455,6 @@ callbacks
 ;
 }
 NewExpression
-:
-function
 (
 node
 parent
@@ -6613,8 +6565,6 @@ callbacks
 }
 }
 CallExpression
-:
-function
 (
 node
 parent
@@ -6752,8 +6702,6 @@ callbacks
 }
 }
 MemberExpression
-:
-function
 (
 node
 parent
@@ -6851,8 +6799,6 @@ callbacks
 ;
 }
 YieldExpression
-:
-function
 (
 node
 parent
@@ -6942,8 +6888,6 @@ callbacks
 }
 }
 ComprehensionExpression
-:
-function
 (
 node
 parent
@@ -7072,8 +7016,6 @@ callbacks
 }
 }
 GeneratorExpression
-:
-function
 (
 node
 parent
@@ -7202,8 +7144,6 @@ callbacks
 }
 }
 GraphExpression
-:
-function
 (
 node
 parent
@@ -7285,8 +7225,6 @@ callbacks
 ;
 }
 GraphIndexExpression
-:
-function
 (
 node
 parent
@@ -7352,8 +7290,6 @@ node
 }
 }
 LetExpression
-:
-function
 (
 node
 parent
@@ -7479,8 +7415,6 @@ callbacks
 ;
 }
 Pattern
-:
-function
 (
 node
 parent
@@ -7546,8 +7480,6 @@ node
 }
 }
 ObjectPattern
-:
-function
 (
 node
 parent
@@ -7651,8 +7583,6 @@ callbacks
 }
 }
 ArrayPattern
-:
-function
 (
 node
 parent
@@ -7747,8 +7677,6 @@ callbacks
 }
 }
 SwitchCase
-:
-function
 (
 node
 parent
@@ -7861,8 +7789,6 @@ callbacks
 }
 }
 CatchClause
-:
-function
 (
 node
 parent
@@ -7984,8 +7910,6 @@ callbacks
 ;
 }
 ComprehensionBlock
-:
-function
 (
 node
 parent
@@ -8083,8 +8007,6 @@ callbacks
 ;
 }
 Identifier
-:
-function
 (
 node
 parent
@@ -8150,8 +8072,6 @@ node
 }
 }
 Literal
-:
-function
 (
 node
 parent
@@ -8217,8 +8137,6 @@ node
 }
 }
 TemplateLiteral
-:
-function
 (
 node
 parent
