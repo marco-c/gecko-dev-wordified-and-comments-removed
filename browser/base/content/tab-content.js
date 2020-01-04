@@ -2825,6 +2825,17 @@ Ci
 nsIURIFixupInfo
 )
 ;
+if
+(
+!
+fixupInfo
+.
+consumer
+)
+{
+return
+;
+}
 let
 parent
 =
