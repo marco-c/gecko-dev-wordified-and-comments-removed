@@ -168,9 +168,11 @@ None
         
 if
 not
+(
 paths
 or
 tags
+)
 :
             
 return
