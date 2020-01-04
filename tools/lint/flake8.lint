@@ -681,6 +681,13 @@ tools
 /
 lint
 '
+'
+testing
+/
+marionette
+/
+client
+'
 ]
 '
 exclude
