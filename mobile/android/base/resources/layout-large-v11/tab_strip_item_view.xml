@@ -124,7 +124,7 @@ auto
 "
 >
 <
-ImageView
+ImageButton
 android
 :
 id
