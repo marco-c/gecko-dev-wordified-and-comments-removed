@@ -537,9 +537,6 @@ private
 :
 friend
 class
-mozilla
-:
-:
 dom
 :
 :
@@ -547,9 +544,6 @@ PBrowserParent
 ;
 friend
 class
-mozilla
-:
-:
 dom
 :
 :
