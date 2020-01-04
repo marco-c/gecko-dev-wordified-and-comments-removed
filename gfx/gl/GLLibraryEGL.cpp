@@ -663,11 +663,10 @@ ret
 ;
 if
 (
-!
 gfxPrefs
 :
 :
-LayersOffMainThreadCompositionForceDisabled
+LayersOffMainThreadCompositionEnabled
 (
 )
 &
