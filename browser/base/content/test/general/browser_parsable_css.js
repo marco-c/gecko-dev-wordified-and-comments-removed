@@ -959,6 +959,7 @@ false
 add_task
 (
 function
+*
 checkAllTheCSS
 (
 )
@@ -1507,6 +1508,16 @@ doc
 null
 ;
 iframe
+=
+null
+;
+windowless
+.
+close
+(
+)
+;
+windowless
 =
 null
 ;
