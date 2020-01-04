@@ -1202,6 +1202,14 @@ browser_config
 develop
 '
 ]
+and
+not
+config
+[
+'
+sps_profile
+'
+]
 :
         
 results_urls
@@ -1279,6 +1287,24 @@ add_extra_option
 (
 '
 e10s
+'
+)
+    
+if
+config
+[
+'
+sps_profile
+'
+]
+:
+        
+talos_results
+.
+add_extra_option
+(
+'
+spsProfile
 '
 )
     
@@ -1508,6 +1534,13 @@ browser_config
 [
 '
 develop
+'
+]
+or
+config
+[
+'
+sps_profile
 '
 ]
 :
