@@ -557,7 +557,7 @@ BluetoothServiceChildProcess
 StopLeScanInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aScanUuid
 BluetoothReplyRunnable
@@ -570,10 +570,7 @@ SendRequest
 aRunnable
 StopLeScanRequest
 (
-nsString
-(
 aScanUuid
-)
 )
 )
 ;
@@ -587,7 +584,7 @@ StartLeScanInternal
 const
 nsTArray
 <
-nsString
+BluetoothUuid
 >
 &
 aServiceUuids
@@ -1811,7 +1808,7 @@ BluetoothServiceChildProcess
 ConnectGattClientInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -1828,10 +1825,7 @@ SendRequest
 aRunnable
 ConnectGattClientRequest
 (
-nsString
-(
 aAppUuid
-)
 aDeviceAddress
 )
 )
@@ -1844,7 +1838,7 @@ BluetoothServiceChildProcess
 DisconnectGattClientInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -1861,10 +1855,7 @@ SendRequest
 aRunnable
 DisconnectGattClientRequest
 (
-nsString
-(
 aAppUuid
-)
 aDeviceAddress
 )
 )
@@ -1877,7 +1868,7 @@ BluetoothServiceChildProcess
 DiscoverGattServicesInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 BluetoothReplyRunnable
@@ -1890,10 +1881,7 @@ SendRequest
 aRunnable
 DiscoverGattServicesRequest
 (
-nsString
-(
 aAppUuid
-)
 )
 )
 ;
@@ -1905,7 +1893,7 @@ BluetoothServiceChildProcess
 GattClientStartNotificationsInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -1926,10 +1914,7 @@ SendRequest
 aRunnable
 GattClientStartNotificationsRequest
 (
-nsString
-(
 aAppUuid
-)
 aServId
 aCharId
 )
@@ -1943,7 +1928,7 @@ BluetoothServiceChildProcess
 GattClientStopNotificationsInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -1964,10 +1949,7 @@ SendRequest
 aRunnable
 GattClientStopNotificationsRequest
 (
-nsString
-(
 aAppUuid
-)
 aServId
 aCharId
 )
@@ -2032,7 +2014,7 @@ BluetoothServiceChildProcess
 GattClientReadCharacteristicValueInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2053,10 +2035,7 @@ SendRequest
 aRunnable
 GattClientReadCharacteristicValueRequest
 (
-nsString
-(
 aAppUuid
-)
 aServiceId
 aCharacteristicId
 )
@@ -2070,7 +2049,7 @@ BluetoothServiceChildProcess
 GattClientWriteCharacteristicValueInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2102,10 +2081,7 @@ SendRequest
 aRunnable
 GattClientWriteCharacteristicValueRequest
 (
-nsString
-(
 aAppUuid
-)
 aServiceId
 aCharacteristicId
 aWriteType
@@ -2121,7 +2097,7 @@ BluetoothServiceChildProcess
 GattClientReadDescriptorValueInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2146,10 +2122,7 @@ SendRequest
 aRunnable
 GattClientReadDescriptorValueRequest
 (
-nsString
-(
 aAppUuid
-)
 aServiceId
 aCharacteristicId
 aDescriptorId
@@ -2164,7 +2137,7 @@ BluetoothServiceChildProcess
 GattClientWriteDescriptorValueInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2196,10 +2169,7 @@ SendRequest
 aRunnable
 GattClientWriteDescriptorValueRequest
 (
-nsString
-(
 aAppUuid
-)
 aServiceId
 aCharacteristicId
 aDescriptorId
@@ -2215,7 +2185,7 @@ BluetoothServiceChildProcess
 GattServerConnectPeripheralInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2232,10 +2202,7 @@ SendRequest
 aRunnable
 GattServerConnectPeripheralRequest
 (
-nsString
-(
 aAppUuid
-)
 aAddress
 )
 )
@@ -2248,7 +2215,7 @@ BluetoothServiceChildProcess
 GattServerDisconnectPeripheralInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2265,10 +2232,7 @@ SendRequest
 aRunnable
 GattServerDisconnectPeripheralRequest
 (
-nsString
-(
 aAppUuid
-)
 aAddress
 )
 )
@@ -2304,7 +2268,7 @@ BluetoothServiceChildProcess
 GattServerAddServiceInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2323,10 +2287,7 @@ SendRequest
 aRunnable
 GattServerAddServiceRequest
 (
-nsString
-(
 aAppUuid
-)
 aServiceId
 aHandleCount
 )
@@ -2340,7 +2301,7 @@ BluetoothServiceChildProcess
 GattServerAddIncludedServiceInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2361,10 +2322,7 @@ SendRequest
 aRunnable
 GattServerAddIncludedServiceRequest
 (
-nsString
-(
 aAppUuid
-)
 aServiceHandle
 aIncludedServiceHandle
 )
@@ -2378,7 +2336,7 @@ BluetoothServiceChildProcess
 GattServerAddCharacteristicInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2403,10 +2361,7 @@ SendRequest
 aRunnable
 GattServerAddCharacteristicRequest
 (
-nsString
-(
 aAppUuid
-)
 aServiceHandle
 aCharacteristicUuid
 aPermissions
@@ -2422,7 +2377,7 @@ BluetoothServiceChildProcess
 GattServerAddDescriptorInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2449,10 +2404,7 @@ SendRequest
 aRunnable
 GattServerAddDescriptorRequest
 (
-nsString
-(
 aAppUuid
-)
 aServiceHandle
 aCharacteristicHandle
 aDescriptorUuid
@@ -2468,7 +2420,7 @@ BluetoothServiceChildProcess
 GattServerRemoveServiceInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2485,10 +2437,7 @@ SendRequest
 aRunnable
 GattServerRemoveServiceRequest
 (
-nsString
-(
 aAppUuid
-)
 aServiceHandle
 )
 )
@@ -2501,7 +2450,7 @@ BluetoothServiceChildProcess
 GattServerStartServiceInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2518,10 +2467,7 @@ SendRequest
 aRunnable
 GattServerStartServiceRequest
 (
-nsString
-(
 aAppUuid
-)
 aServiceHandle
 )
 )
@@ -2534,7 +2480,7 @@ BluetoothServiceChildProcess
 GattServerStopServiceInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2551,10 +2497,7 @@ SendRequest
 aRunnable
 GattServerStopServiceRequest
 (
-nsString
-(
 aAppUuid
-)
 aServiceHandle
 )
 )
@@ -2567,7 +2510,7 @@ BluetoothServiceChildProcess
 GattServerSendResponseInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2592,10 +2535,7 @@ SendRequest
 aRunnable
 GattServerSendResponseRequest
 (
-nsString
-(
 aAppUuid
-)
 aAddress
 aStatus
 aRequestId
@@ -2611,7 +2551,7 @@ BluetoothServiceChildProcess
 GattServerSendIndicationInternal
 (
 const
-nsAString
+BluetoothUuid
 &
 aAppUuid
 const
@@ -2641,10 +2581,7 @@ SendRequest
 aRunnable
 GattServerSendIndicationRequest
 (
-nsString
-(
 aAppUuid
-)
 aAddress
 aCharacteristicHandle
 aConfirm
