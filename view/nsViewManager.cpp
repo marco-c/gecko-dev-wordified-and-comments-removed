@@ -751,12 +751,6 @@ ResizeReflow
 (
 aWidth
 aHeight
-oldDim
-.
-width
-oldDim
-.
-height
 )
 ;
 }
@@ -846,8 +840,6 @@ nscoord
 aWidth
 nscoord
 aHeight
-bool
-aDelayResize
 )
 {
 if
@@ -861,10 +853,6 @@ if
 ShouldDelayResize
 (
 )
-&
-&
-!
-aDelayResize
 )
 {
 if

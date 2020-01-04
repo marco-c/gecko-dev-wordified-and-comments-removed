@@ -1497,7 +1497,7 @@ x
 y
 cx
 cy
-0
+false
 )
 NS_ERROR_FAILURE
 )
@@ -1766,8 +1766,8 @@ int32_t
 cx
 int32_t
 cy
-uint32_t
-aFlags
+bool
+fRepaint
 )
 {
 NS_ENSURE_STATE
@@ -1785,7 +1785,7 @@ x
 y
 cx
 cy
-aFlags
+fRepaint
 )
 ;
 }

@@ -1285,7 +1285,7 @@ SetPositionAndSize
 0
 aWidth
 aHeight
-0
+false
 )
 ;
 }
