@@ -549,11 +549,13 @@ return
 nullptr
 ;
 }
+RefPtr
+<
 css
 :
 :
 Declaration
-*
+>
 decl
 =
 new

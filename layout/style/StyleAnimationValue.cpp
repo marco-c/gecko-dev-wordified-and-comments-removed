@@ -13738,7 +13738,7 @@ bool
 aUseSVGMode
 )
 {
-nsAutoPtr
+RefPtr
 <
 css
 :
@@ -13884,10 +13884,6 @@ StyleRule
 (
 nullptr
 declaration
-.
-forget
-(
-)
 0
 0
 )

@@ -1264,8 +1264,10 @@ ImportantRule
 (
 )
 ;
+RefPtr
+<
 Declaration
-*
+>
 mDeclaration
 ;
 friend
@@ -1501,8 +1503,10 @@ nsCSSSelectorList
 *
 mSelector
 ;
+RefPtr
+<
 Declaration
-*
+>
 mDeclaration
 ;
 RefPtr

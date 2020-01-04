@@ -1486,8 +1486,6 @@ float
 >
 &
 aKeys
-nsAutoPtr
-<
 mozilla
 :
 :
@@ -1495,9 +1493,7 @@ css
 :
 :
 Declaration
->
-&
-&
+*
 aDeclaration
 uint32_t
 aLineNumber
@@ -1518,13 +1514,7 @@ aColumnNumber
 )
 mDeclaration
 (
-mozilla
-:
-:
-Move
-(
 aDeclaration
-)
 )
 {
 mKeys
@@ -1683,7 +1673,7 @@ float
 >
 mKeys
 ;
-nsAutoPtr
+RefPtr
 <
 mozilla
 :
@@ -2031,8 +2021,6 @@ public
 :
 nsCSSPageRule
 (
-nsAutoPtr
-<
 mozilla
 :
 :
@@ -2040,9 +2028,7 @@ css
 :
 :
 Declaration
->
-&
-&
+*
 aDeclaration
 uint32_t
 aLineNumber
@@ -2063,13 +2049,7 @@ aColumnNumber
 )
 mDeclaration
 (
-mozilla
-:
-:
-Move
-(
 aDeclaration
-)
 )
 mImportantRule
 (
@@ -2207,7 +2187,7 @@ override
 ;
 private
 :
-nsAutoPtr
+RefPtr
 <
 mozilla
 :
