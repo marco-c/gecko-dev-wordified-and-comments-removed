@@ -5988,7 +5988,7 @@ nsCSSFontFaceStyleDecl
 GetPropertyValue
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 nsAString
 &
@@ -6019,7 +6019,7 @@ nsCSSFontFaceStyleDecl
 SetPropertyValue
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsAString

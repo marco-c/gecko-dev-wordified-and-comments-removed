@@ -5554,7 +5554,7 @@ InitializeEmpty
 )
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 propertyID
 =
 nsCSSProps
@@ -11514,7 +11514,7 @@ aName
 )
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 prop
 =
 nsCSSProps

@@ -2848,7 +2848,7 @@ return
 NS_OK
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 prop
 =
 nsCSSProps

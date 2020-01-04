@@ -6598,7 +6598,7 @@ inline
 void
 ExtractAnimationValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsStyleContext
 *
@@ -6642,7 +6642,7 @@ static
 nscolor
 ExtractColor
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsStyleContext
 *
@@ -6693,7 +6693,7 @@ static
 nscolor
 ExtractColorLenient
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsStyleContext
 *
@@ -6805,7 +6805,7 @@ nsStyleContext
 :
 GetVisitedDependentColor
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {

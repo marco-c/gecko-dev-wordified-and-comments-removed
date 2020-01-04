@@ -115,7 +115,7 @@ nsCSSValue
 *
 ValueFor
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -123,7 +123,7 @@ const
 bool
 TryReplaceValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSExpandedDataBlock
 &
@@ -358,7 +358,7 @@ Values
 i
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 PropertyAtIndex
 (
 uint32_t
@@ -380,11 +380,11 @@ range
 "
 )
 ;
-nsCSSProperty
+nsCSSPropertyID
 prop
 =
 (
-nsCSSProperty
+nsCSSPropertyID
 )
 CompressedProperties
 (
@@ -467,7 +467,7 @@ SetPropertyAtIndex
 (
 uint32_t
 i
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -592,7 +592,7 @@ nsCSSCompressedDataBlock
 :
 MaxCompressedCSSProperty
 "
-nsCSSProperty
+nsCSSPropertyID
 doesn
 '
 t
@@ -664,7 +664,7 @@ aOrder
 void
 AddLonghandProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 nsCSSValue
@@ -680,14 +680,14 @@ Clear
 void
 ClearProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
 void
 ClearLonghandProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -697,7 +697,7 @@ TransferFromBlock
 nsCSSExpandedDataBlock
 &
 aFromBlock
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 mozilla
 :
@@ -727,7 +727,7 @@ aSheetDocument
 void
 MapRuleInfoInto
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 nsRuleData
 *
@@ -779,7 +779,7 @@ DoTransferFromBlock
 nsCSSExpandedDataBlock
 &
 aFromBlock
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 bool
 aIsImportant
@@ -821,7 +821,7 @@ nsCSSValue
 *
 PropertyAt
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -857,7 +857,7 @@ nsCSSValue
 *
 PropertyAt
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -892,7 +892,7 @@ aProperty
 void
 SetPropertyBit
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -907,7 +907,7 @@ aProperty
 void
 ClearPropertyBit
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -922,7 +922,7 @@ aProperty
 bool
 HasPropertyBit
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -938,7 +938,7 @@ aProperty
 void
 SetImportantBit
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -953,7 +953,7 @@ aProperty
 void
 ClearImportantBit
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -968,7 +968,7 @@ aProperty
 bool
 HasImportantBit
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {

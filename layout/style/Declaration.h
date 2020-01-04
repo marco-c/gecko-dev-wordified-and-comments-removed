@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -176,7 +176,7 @@ virtual
 bool
 GetDiscretelyAnimatedCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSValue
 *
@@ -289,7 +289,7 @@ virtual
 bool
 GetDiscretelyAnimatedCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSValue
 *
@@ -322,21 +322,21 @@ endif
 void
 ValueAppended
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
 void
 RemoveProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
 bool
 HasProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -344,7 +344,7 @@ const
 void
 GetValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -355,7 +355,7 @@ const
 void
 GetAuthoredValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -379,7 +379,7 @@ mImportantVariables
 bool
 GetValueIsImportant
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -677,7 +677,7 @@ const
 bool
 TryReplaceValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 bool
 aIsImportant
@@ -814,7 +814,7 @@ aChanged
 bool
 HasNonImportantValueFor
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -1150,7 +1150,7 @@ delete
 void
 GetValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -1177,7 +1177,7 @@ aString
 bool
 AppendValueToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -1188,7 +1188,7 @@ const
 bool
 AppendValueToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -1204,7 +1204,7 @@ const
 void
 AppendPropertyAndValueToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAutoString
 &
@@ -1243,7 +1243,7 @@ nsCSSValue
 Serialization
 aSerialization
 const
-nsCSSProperty
+nsCSSPropertyID
 aTable
 [
 ]
@@ -1265,7 +1265,7 @@ nsCSSValue
 Serialization
 aSerialization
 const
-nsCSSProperty
+nsCSSPropertyID
 aTable
 [
 ]
@@ -1274,7 +1274,7 @@ const
 ;
 public
 :
-nsCSSProperty
+nsCSSPropertyID
 GetPropertyAt
 (
 uint32_t
@@ -1303,7 +1303,7 @@ eCSSPropertyExtra_variable
 ;
 }
 return
-nsCSSProperty
+nsCSSPropertyID
 (
 value
 )

@@ -250,7 +250,7 @@ HTMLColorRule
 :
 GetDiscretelyAnimatedCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSValue
 *
@@ -516,7 +516,7 @@ TableTHRule
 :
 GetDiscretelyAnimatedCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSValue
 *
@@ -624,7 +624,7 @@ TableQuirkColorRule
 :
 GetDiscretelyAnimatedCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSValue
 *
@@ -742,7 +742,7 @@ LangRule
 :
 GetDiscretelyAnimatedCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSValue
 *

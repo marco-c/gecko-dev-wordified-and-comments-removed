@@ -120,7 +120,7 @@ ImportantStyleData
 :
 GetDiscretelyAnimatedCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSValue
 *
@@ -508,7 +508,7 @@ Declaration
 :
 GetDiscretelyAnimatedCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSValue
 *
@@ -641,7 +641,7 @@ Declaration
 :
 ValueAppended
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -712,7 +712,7 @@ Declaration
 :
 RemoveProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -838,7 +838,7 @@ Declaration
 :
 HasProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -901,7 +901,7 @@ Declaration
 :
 AppendValueToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -990,7 +990,7 @@ Declaration
 :
 GetValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -1015,7 +1015,7 @@ Declaration
 :
 GetAuthoredValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -1047,7 +1047,7 @@ nsCSSValue
 &
 aPositionY
 const
-nsCSSProperty
+nsCSSPropertyID
 aTable
 [
 ]
@@ -1289,7 +1289,7 @@ nsCSSValue
 Serialization
 aSerialization
 const
-nsCSSProperty
+nsCSSPropertyID
 aTable
 [
 ]
@@ -2612,7 +2612,7 @@ nsCSSValue
 Serialization
 aSerialization
 const
-nsCSSProperty
+nsCSSPropertyID
 aTable
 [
 ]
@@ -2760,7 +2760,7 @@ Declaration
 :
 GetValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -3231,7 +3231,7 @@ eCSSProperty_border_width
 :
 {
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -3444,7 +3444,7 @@ eCSSProperty__moz_outline_radius
 :
 {
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -3832,7 +3832,7 @@ break
 ;
 }
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subproptables
 [
@@ -3871,7 +3871,7 @@ true
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 *
 subprops
@@ -4012,7 +4012,7 @@ eCSSProperty_outline
 :
 {
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -5140,7 +5140,7 @@ eCSSProperty_font_variant
 :
 {
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -5182,7 +5182,7 @@ false
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 sp
 =
@@ -5352,7 +5352,7 @@ false
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 sp
 =
@@ -6237,7 +6237,7 @@ eCSSProperty_animation
 :
 {
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -6614,7 +6614,7 @@ eCSSProperty__moz_columns
 :
 {
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -6665,7 +6665,7 @@ eCSSProperty_flex
 :
 {
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -6737,7 +6737,7 @@ eCSSProperty_flex_flow
 :
 {
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -6809,7 +6809,7 @@ eCSSProperty_grid_column
 :
 {
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -6876,7 +6876,7 @@ eCSSProperty_grid_area
 :
 {
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -7809,7 +7809,7 @@ eCSSProperty_grid_gap
 :
 {
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -8025,7 +8025,7 @@ eCSSProperty__moz_transform
 :
 {
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -8277,7 +8277,7 @@ aProperty
 )
 const
 {
-nsCSSProperty
+nsCSSPropertyID
 propID
 =
 nsCSSProps
@@ -8343,7 +8343,7 @@ Declaration
 :
 GetValueIsImportant
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -8431,7 +8431,7 @@ Declaration
 :
 AppendPropertyAndValueToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAutoString
 &
@@ -8907,7 +8907,7 @@ index
 ;
 AutoTArray
 <
-nsCSSProperty
+nsCSSPropertyID
 16
 >
 shorthandsUsed
@@ -8927,7 +8927,7 @@ index
 +
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 property
 =
 GetPropertyAt
@@ -9003,7 +9003,7 @@ Length
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 shorthands
 =
@@ -9058,7 +9058,7 @@ value
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 shorthands
 =
@@ -9081,7 +9081,7 @@ eCSSProperty_UNKNOWN
 shorthands
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 shorthand
 =
 *
@@ -9457,7 +9457,7 @@ Length
 )
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 property
 =
 GetPropertyAt

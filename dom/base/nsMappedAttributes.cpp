@@ -961,7 +961,7 @@ nsMappedAttributes
 :
 GetDiscretelyAnimatedCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSValue
 *

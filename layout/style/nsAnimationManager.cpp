@@ -2351,7 +2351,7 @@ AppendProperty
 nsPresContext
 *
 aPresContext
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsTArray
 <
@@ -2367,7 +2367,7 @@ GetComputedValue
 nsPresContext
 *
 aPresContext
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
@@ -3628,10 +3628,10 @@ Declaration
 ;
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 prop
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 0
 )
@@ -3642,7 +3642,7 @@ eCSSProperty_COUNT_no_shorthands
 ;
 prop
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 prop
 +
@@ -4118,10 +4118,10 @@ endKeyframeIndex
 ;
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 prop
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 0
 )
@@ -4132,7 +4132,7 @@ eCSSProperty_COUNT_no_shorthands
 ;
 prop
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 prop
 +
@@ -4215,7 +4215,7 @@ AppendProperty
 nsPresContext
 *
 aPresContext
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsTArray
 <
@@ -4264,7 +4264,7 @@ GetComputedValue
 nsPresContext
 *
 aPresContext
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {

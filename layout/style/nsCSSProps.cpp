@@ -389,12 +389,12 @@ static
 nsDataHashtable
 <
 nsCStringHashKey
-nsCSSProperty
+nsCSSPropertyID
 >
 *
 gPropertyIDLNameTable
 ;
-nsCSSProperty
+nsCSSPropertyID
 *
 nsCSSProps
 :
@@ -404,7 +404,7 @@ gShorthandsContainingTable
 eCSSProperty_COUNT_no_shorthands
 ]
 ;
-nsCSSProperty
+nsCSSPropertyID
 *
 nsCSSProps
 :
@@ -736,7 +736,7 @@ numeric
 struct
 PropertyAndCount
 {
-nsCSSProperty
+nsCSSPropertyID
 property
 ;
 uint32_t
@@ -837,7 +837,7 @@ eCSSProperty_COUNT
 }
 ;
 static
-nsCSSProperty
+nsCSSPropertyID
 gAliases
 [
 eCSSAliasCount
@@ -1082,15 +1082,15 @@ new
 nsDataHashtable
 <
 nsCStringHashKey
-nsCSSProperty
+nsCSSPropertyID
 >
 ;
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 p
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 0
 )
@@ -1107,7 +1107,7 @@ kIDLNameTable
 ;
 p
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 p
 +
@@ -1312,7 +1312,7 @@ CSS_PROPERTY_ENABLED_IN_CHROME
 ;
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 shorthand
 =
 eCSSProperty_COUNT_no_shorthands
@@ -1323,7 +1323,7 @@ eCSSProperty_COUNT
 ;
 shorthand
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 shorthand
 +
@@ -1377,7 +1377,7 @@ continue
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 p
 =
@@ -1438,7 +1438,7 @@ flag
 }
 }
 static
-nsCSSProperty
+nsCSSPropertyID
 nonInternalProperties
 [
 ]
@@ -1523,7 +1523,7 @@ found
 ;
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 p
 :
 nonInternalProperties
@@ -1603,7 +1603,7 @@ p
 =
 static_cast
 <
-nsCSSProperty
+nsCSSPropertyID
 >
 (
 i
@@ -1683,7 +1683,7 @@ eCSSProperty_COUNT_no_shorthands
 ;
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 shorthand
 =
 eCSSProperty_COUNT_no_shorthands
@@ -1694,7 +1694,7 @@ eCSSProperty_COUNT
 ;
 shorthand
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 shorthand
 +
@@ -1775,7 +1775,7 @@ continue
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -1840,10 +1840,10 @@ poolEntries
 ;
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 longhand
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 0
 )
@@ -1854,7 +1854,7 @@ eCSSProperty_COUNT_no_shorthands
 ;
 longhand
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 longhand
 +
@@ -1887,7 +1887,7 @@ count
 gShorthandsContainingPool
 =
 new
-nsCSSProperty
+nsCSSPropertyID
 [
 poolEntries
 ]
@@ -1901,7 +1901,7 @@ return
 false
 ;
 {
-nsCSSProperty
+nsCSSPropertyID
 *
 poolCursor
 =
@@ -1909,7 +1909,7 @@ gShorthandsContainingPool
 -
 1
 ;
-nsCSSProperty
+nsCSSPropertyID
 *
 lastTerminator
 =
@@ -1921,10 +1921,10 @@ poolEntries
 ;
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 longhand
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 0
 )
@@ -1935,7 +1935,7 @@ eCSSProperty_COUNT_no_shorthands
 ;
 longhand
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 longhand
 +
@@ -2107,7 +2107,7 @@ continue
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -2153,10 +2153,10 @@ ifdef
 DEBUG_SHORTHANDS_CONTAINING
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 longhand
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 0
 )
@@ -2167,7 +2167,7 @@ eCSSProperty_COUNT_no_shorthands
 ;
 longhand
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 longhand
 +
@@ -2210,7 +2210,7 @@ longhand
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 shorthands
 =
@@ -2261,7 +2261,7 @@ ifdef
 DEBUG
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 shorthand
 =
 eCSSProperty_COUNT_no_shorthands
@@ -2272,7 +2272,7 @@ eCSSProperty_COUNT
 ;
 shorthand
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 shorthand
 +
@@ -2298,7 +2298,7 @@ continue
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -2326,7 +2326,7 @@ count
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 shcont
 =
@@ -2388,10 +2388,10 @@ table
 }
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 longhand
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 0
 )
@@ -2402,7 +2402,7 @@ eCSSProperty_COUNT_no_shorthands
 ;
 longhand
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 longhand
 +
@@ -2413,7 +2413,7 @@ longhand
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 shorthands
 =
@@ -2441,7 +2441,7 @@ count
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -2580,7 +2580,7 @@ nsCSSProps
 :
 IsInherited
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2683,7 +2683,7 @@ NS_LITERAL_STRING
 )
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 nsCSSProps
 :
 :
@@ -2729,10 +2729,10 @@ return
 eCSSPropertyExtra_variable
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 res
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 gPropertyTable
 -
@@ -2878,7 +2878,7 @@ return
 eCSSProperty_UNKNOWN
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 nsCSSProps
 :
 :
@@ -2924,10 +2924,10 @@ addref
 "
 )
 ;
-nsCSSProperty
+nsCSSPropertyID
 res
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 gPropertyTable
 -
@@ -3073,7 +3073,7 @@ return
 eCSSProperty_UNKNOWN
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 nsCSSProps
 :
 :
@@ -3087,7 +3087,7 @@ EnabledState
 aEnabled
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 res
 ;
 if
@@ -3133,7 +3133,7 @@ return
 res
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 nsCSSProps
 :
 :
@@ -3570,7 +3570,7 @@ nsCSSProps
 :
 GetStringValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -11424,7 +11424,7 @@ nsCSSProps
 :
 LookupPropertyValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProp
 int32_t
 aValue
@@ -11806,7 +11806,7 @@ CSS_PROP_SHORTHAND
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gAllSubpropTable
 [
 ]
@@ -11860,7 +11860,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gAnimationSubpropTable
 [
 ]
@@ -11879,7 +11879,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderRadiusSubpropTable
 [
 ]
@@ -11894,7 +11894,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gOutlineRadiusSubpropTable
 [
 ]
@@ -11909,7 +11909,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBackgroundSubpropTable
 [
 ]
@@ -11929,7 +11929,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBackgroundPositionSubpropTable
 [
 ]
@@ -11942,7 +11942,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderSubpropTable
 [
 ]
@@ -11974,7 +11974,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderBlockEndSubpropTable
 [
 ]
@@ -11988,7 +11988,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderBlockStartSubpropTable
 [
 ]
@@ -12002,7 +12002,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderBottomSubpropTable
 [
 ]
@@ -12064,7 +12064,7 @@ left
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderColorSubpropTable
 [
 ]
@@ -12079,7 +12079,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderInlineEndSubpropTable
 [
 ]
@@ -12093,7 +12093,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderLeftSubpropTable
 [
 ]
@@ -12107,7 +12107,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderRightSubpropTable
 [
 ]
@@ -12121,7 +12121,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderInlineStartSubpropTable
 [
 ]
@@ -12135,7 +12135,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderStyleSubpropTable
 [
 ]
@@ -12150,7 +12150,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderTopSubpropTable
 [
 ]
@@ -12164,7 +12164,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderWidthSubpropTable
 [
 ]
@@ -12179,7 +12179,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gFontSubpropTable
 [
 ]
@@ -12208,7 +12208,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gFontVariantSubpropTable
 [
 ]
@@ -12225,7 +12225,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gListStyleSubpropTable
 [
 ]
@@ -12239,7 +12239,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gMarginSubpropTable
 [
 ]
@@ -12254,7 +12254,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gOutlineSubpropTable
 [
 ]
@@ -12268,7 +12268,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gColumnsSubpropTable
 [
 ]
@@ -12281,7 +12281,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gColumnRuleSubpropTable
 [
 ]
@@ -12295,7 +12295,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gFlexSubpropTable
 [
 ]
@@ -12309,7 +12309,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gFlexFlowSubpropTable
 [
 ]
@@ -12322,7 +12322,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gGridTemplateSubpropTable
 [
 ]
@@ -12336,7 +12336,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gGridSubpropTable
 [
 ]
@@ -12355,7 +12355,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gGridColumnSubpropTable
 [
 ]
@@ -12368,7 +12368,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gGridRowSubpropTable
 [
 ]
@@ -12381,7 +12381,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gGridAreaSubpropTable
 [
 ]
@@ -12396,7 +12396,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gGridGapSubpropTable
 [
 ]
@@ -12409,7 +12409,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gOverflowSubpropTable
 [
 ]
@@ -12422,7 +12422,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gPaddingSubpropTable
 [
 ]
@@ -12437,7 +12437,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gTextDecorationSubpropTable
 [
 ]
@@ -12451,7 +12451,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gTextEmphasisSubpropTable
 [
 ]
@@ -12464,7 +12464,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gWebkitTextStrokeSubpropTable
 [
 ]
@@ -12477,7 +12477,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gTransitionSubpropTable
 [
 ]
@@ -12492,7 +12492,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gBorderImageSubpropTable
 [
 ]
@@ -12508,7 +12508,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gMarkerSubpropTable
 [
 ]
@@ -12522,7 +12522,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gMozTransformSubpropTable
 [
 ]
@@ -12534,7 +12534,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gScrollSnapTypeSubpropTable
 [
 ]
@@ -12550,7 +12550,7 @@ ifdef
 MOZ_ENABLE_MASK_AS_SHORTHAND
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gMaskSubpropTable
 [
 ]
@@ -12570,7 +12570,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gMaskPositionSubpropTable
 [
 ]
@@ -12584,7 +12584,7 @@ eCSSProperty_UNKNOWN
 #
 endif
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 const
 nsCSSProps
@@ -12654,7 +12654,7 @@ CSS_PROP_PUBLIC_OR_PRIVATE
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gOffsetLogicalGroupTable
 [
 ]
@@ -12669,7 +12669,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gMaxSizeLogicalGroupTable
 [
 ]
@@ -12682,7 +12682,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gMinSizeLogicalGroupTable
 [
 ]
@@ -12695,7 +12695,7 @@ eCSSProperty_UNKNOWN
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 gSizeLogicalGroupTable
 [
 ]
@@ -12707,7 +12707,7 @@ eCSSProperty_UNKNOWN
 }
 ;
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 const
 nsCSSProps
@@ -12824,14 +12824,14 @@ CSS_PROP_LOGICAL
 }
 ;
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 nsCSSProps
 :
 :
 LogicalGroup
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {

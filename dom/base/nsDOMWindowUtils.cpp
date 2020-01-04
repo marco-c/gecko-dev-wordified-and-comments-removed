@@ -11198,7 +11198,7 @@ static
 bool
 ComputeAnimationValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 Element
 *
@@ -12385,7 +12385,7 @@ rv
 rv
 )
 ;
-nsCSSProperty
+nsCSSPropertyID
 property
 =
 nsCSSProps

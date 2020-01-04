@@ -37,7 +37,7 @@ public
 :
 nsSMILMappedAttribute
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 mozilla
 :

@@ -219,7 +219,7 @@ AnimValuesStyleRule
 :
 GetDiscretelyAnimatedCSSValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSValue
 *

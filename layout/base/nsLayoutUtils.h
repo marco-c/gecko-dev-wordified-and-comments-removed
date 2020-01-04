@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -3271,7 +3271,7 @@ GetColor
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
@@ -4696,7 +4696,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
@@ -4718,7 +4718,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;

@@ -328,10 +328,10 @@ h
 "
 ;
 using
-nsCSSProperty
+nsCSSPropertyID
 from
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -1302,7 +1302,7 @@ constants
 int32_t
 direction
 ;
-nsCSSProperty
+nsCSSPropertyID
 property
 ;
 AnimationData

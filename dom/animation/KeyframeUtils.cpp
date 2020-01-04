@@ -181,9 +181,9 @@ false
 bool
 Equals
 (
-nsCSSProperty
+nsCSSPropertyID
 aLhs
-nsCSSProperty
+nsCSSPropertyID
 aRhs
 )
 const
@@ -198,9 +198,9 @@ aRhs
 bool
 LessThan
 (
-nsCSSProperty
+nsCSSPropertyID
 aLhs
-nsCSSProperty
+nsCSSPropertyID
 aRhs
 )
 const
@@ -308,7 +308,7 @@ aRhs
 uint32_t
 SubpropertyCount
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -768,7 +768,7 @@ private
 struct
 PropertyAndIndex
 {
-nsCSSProperty
+nsCSSPropertyID
 mProperty
 ;
 size_t
@@ -802,7 +802,7 @@ mSortedPropertyIndices
 struct
 PropertyValuesPair
 {
-nsCSSProperty
+nsCSSPropertyID
 mProperty
 ;
 nsTArray
@@ -823,7 +823,7 @@ Comparator
 struct
 AdditionalProperty
 {
-nsCSSProperty
+nsCSSPropertyID
 mProperty
 ;
 size_t
@@ -900,7 +900,7 @@ mProperty
 struct
 KeyframeValueEntry
 {
-nsCSSProperty
+nsCSSPropertyID
 mProperty
 ;
 StyleAnimationValue
@@ -1259,7 +1259,7 @@ static
 PropertyValuePair
 MakePropertyValuePair
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 nsAString
@@ -1441,7 +1441,7 @@ ComputedKeyframeValues
 >
 &
 aValues
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
@@ -1667,7 +1667,7 @@ Keyframe
 aKeyframes
 SpacingMode
 aSpacingMode
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsTArray
 <
@@ -2730,7 +2730,7 @@ KeyframeUtils
 :
 IsAnimatableProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -3420,7 +3420,7 @@ return
 false
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 property
 =
 nsCSSProps
@@ -3801,7 +3801,7 @@ static
 PropertyValuePair
 MakePropertyValuePair
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 nsAString
@@ -4204,7 +4204,7 @@ PropertyOffsetComparator
 LessThan
 )
 ;
-nsCSSProperty
+nsCSSPropertyID
 lastProperty
 =
 eCSSProperty_UNKNOWN
@@ -5299,7 +5299,7 @@ addToPropertySets
 &
 ]
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 double
 aOffset
@@ -6053,7 +6053,7 @@ ComputedKeyframeValues
 >
 &
 aValues
-nsCSSProperty
+nsCSSPropertyID
 aPacedProperty
 )
 {
@@ -6277,7 +6277,7 @@ pacedPropertyCount
 propIdx
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 prop
 =
 prevPacedValues

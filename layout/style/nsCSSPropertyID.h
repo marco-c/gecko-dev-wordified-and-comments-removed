@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSSProperty_h___
+nsCSSPropertyID_h___
 #
 define
-nsCSSProperty_h___
+nsCSSPropertyID_h___
 #
 include
 <
@@ -12,7 +12,7 @@ nsHashKeys
 h
 >
 enum
-nsCSSProperty
+nsCSSPropertyID
 {
 eCSSProperty_UNKNOWN
 =
@@ -139,11 +139,11 @@ inline
 PLDHashNumber
 Hash
 <
-nsCSSProperty
+nsCSSPropertyID
 >
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 &
 aValue
 )

@@ -310,7 +310,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsTArray
 <
@@ -1961,7 +1961,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -1993,7 +1993,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2067,7 +2067,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2818,7 +2818,7 @@ aPropertiesOverridden
 {
 AutoTArray
 <
-nsCSSProperty
+nsCSSPropertyID
 LayerAnimationInfo
 :
 :
@@ -3336,7 +3336,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 AnimationPerformanceWarning

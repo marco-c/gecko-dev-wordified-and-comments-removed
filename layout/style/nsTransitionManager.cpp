@@ -851,7 +851,7 @@ effect
 "
 )
 ;
-nsCSSProperty
+nsCSSPropertyID
 prop
 =
 mEffect
@@ -1147,7 +1147,7 @@ QueueEvents
 )
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 CSSTransition
 :
 :
@@ -1489,7 +1489,7 @@ inline
 bool
 ExtractNonDiscreteComputedValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsStyleContext
 *
@@ -2238,7 +2238,7 @@ GetCombinedDuration
 0f
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 property
 =
 t
@@ -2279,10 +2279,10 @@ eCSSPropertyExtra_all_properties
 {
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 p
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 0
 )
@@ -2293,7 +2293,7 @@ eCSSProperty_COUNT_no_shorthands
 ;
 p
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 p
 +
@@ -2438,7 +2438,7 @@ mTransitions
 i
 ]
 ;
-nsCSSProperty
+nsCSSPropertyID
 property
 =
 t
@@ -2479,10 +2479,10 @@ eCSSPropertyExtra_all_properties
 {
 for
 (
-nsCSSProperty
+nsCSSPropertyID
 p
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 0
 )
@@ -2493,7 +2493,7 @@ eCSSProperty_COUNT_no_shorthands
 ;
 p
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 p
 +
@@ -2749,7 +2749,7 @@ nsTransitionManager
 :
 ConsiderStartingTransition
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 StyleTransition
@@ -3984,7 +3984,7 @@ AppendKeyframe
 (
 double
 aOffset
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 StyleAnimationValue
 &
@@ -4089,7 +4089,7 @@ GetTransitionKeyframes
 nsStyleContext
 *
 aStyleContext
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 StyleAnimationValue
 &

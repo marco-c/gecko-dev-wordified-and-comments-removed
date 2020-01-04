@@ -19987,7 +19987,7 @@ mSelectionTextColor
 NS_DONT_CHANGE_COLOR
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 property
 =
 mFrame
@@ -20040,7 +20040,7 @@ mSelectionTextColor
 NS_CHANGE_COLOR_IF_SAME_AS_BG
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 property
 =
 mFrame

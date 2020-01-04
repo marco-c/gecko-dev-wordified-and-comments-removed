@@ -25,7 +25,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -53,7 +53,7 @@ Empty
 void
 AssertInSetRange
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -80,7 +80,7 @@ bounds
 void
 AddProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -118,7 +118,7 @@ kBitsInChunk
 void
 RemoveProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -159,7 +159,7 @@ kBitsInChunk
 bool
 HasProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -374,7 +374,7 @@ aBit
 ;
 }
 static
-nsCSSProperty
+nsCSSPropertyID
 CSSPropertyAt
 (
 size_t
@@ -384,7 +384,7 @@ aBit
 )
 {
 return
-nsCSSProperty
+nsCSSPropertyID
 (
 aChunk
 *

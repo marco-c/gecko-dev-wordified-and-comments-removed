@@ -793,7 +793,7 @@ void
 ParseProperty
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsAString
@@ -827,7 +827,7 @@ void
 ParseLonghandProperty
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsAString
@@ -1140,7 +1140,7 @@ bool
 IsValueValidForProperty
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsAString
@@ -1194,9 +1194,9 @@ aLastToken
 void
 ParsePropertyWithVariableReferences
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropertyID
-nsCSSProperty
+nsCSSPropertyID
 aShorthandPropertyID
 const
 nsAString
@@ -1356,7 +1356,7 @@ return
 enabledState
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 LookupEnabledProperty
 (
 const
@@ -2850,14 +2850,14 @@ aValue
 bool
 ParseProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
 bool
 ParsePropertyByFunction
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -2867,7 +2867,7 @@ ParseSingleValueProperty
 nsCSSValue
 &
 aValue
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -2877,7 +2877,7 @@ ParseSingleValuePropertyByFunction
 nsCSSValue
 &
 aValue
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -2887,7 +2887,7 @@ ParseBoxProperty
 nsCSSValue
 &
 aValue
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -2922,7 +2922,7 @@ bool
 ParseImageLayers
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aTable
 [
 ]
@@ -3078,7 +3078,7 @@ ImageLayersShorthandParseState
 &
 aState
 const
-nsCSSProperty
+nsCSSPropertyID
 aTable
 [
 ]
@@ -3087,14 +3087,14 @@ aTable
 bool
 ParseValueList
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
 bool
 ParseImageLayerRepeat
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -3110,7 +3110,7 @@ bool
 ParseImageLayerPosition
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aTable
 [
 ]
@@ -3119,7 +3119,7 @@ aTable
 bool
 ParseImageLayerPositionCoord
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 bool
 aIsHorizontal
@@ -3171,7 +3171,7 @@ aIsHorizontal
 bool
 ParseImageLayerSize
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -3191,7 +3191,7 @@ ParseBorderColor
 bool
 ParseBorderColors
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
@@ -3245,7 +3245,7 @@ bool
 ParseBorderSide
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropIDs
 [
 ]
@@ -3380,7 +3380,7 @@ eDefaultTrackSize
 bool
 ParseGridAutoColumnsRows
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -3424,14 +3424,14 @@ aFirstLineNames
 bool
 ParseGridTrackList
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
 bool
 ParseGridTemplateColumnsRows
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -3497,16 +3497,16 @@ aValue
 bool
 ParseGridColumnRowStartEnd
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
 bool
 ParseGridColumnRow
 (
-nsCSSProperty
+nsCSSPropertyID
 aStartPropID
-nsCSSProperty
+nsCSSPropertyID
 aEndPropID
 )
 ;
@@ -3551,21 +3551,21 @@ ParseAlignItems
 bool
 ParseAlignJustifySelf
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
 bool
 ParseAlignJustifyContent
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
 bool
 ParseRect
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -3590,7 +3590,7 @@ ParseContent
 bool
 ParseCounterData
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -3917,7 +3917,7 @@ aIsBoxShadow
 bool
 ParseShadowList
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
@@ -3974,7 +3974,7 @@ ParseAnimationOrTransitionShorthandResult
 ParseAnimationOrTransitionShorthand
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 aProperties
 const
@@ -4006,7 +4006,7 @@ ParseWillChange
 bool
 ParsePaint
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -4041,7 +4041,7 @@ ParseScrollSnapPoints
 nsCSSValue
 &
 aValue
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -4128,7 +4128,7 @@ aResult
 void
 AppendValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsCSSValue
@@ -4140,7 +4140,7 @@ bool
 ParseBoxProperties
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropIDs
 [
 ]
@@ -4160,7 +4160,7 @@ bool
 ParseBoxCornerRadius
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;
@@ -4177,7 +4177,7 @@ bool
 ParseBoxCornerRadii
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropIDs
 [
 ]
@@ -4191,7 +4191,7 @@ aValues
 [
 ]
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropIDs
 [
 ]
@@ -6968,7 +6968,7 @@ CSSParserImpl
 ParseLonghandProperty
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsAString
@@ -7276,7 +7276,7 @@ CSSParserImpl
 ParseProperty
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsAString
@@ -8818,7 +8818,7 @@ nsIPrincipal
 aDocPrincipal
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 propID
 =
 LookupEnabledProperty
@@ -11282,9 +11282,9 @@ CSSParserImpl
 :
 ParsePropertyWithVariableReferences
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropertyID
-nsCSSProperty
+nsCSSPropertyID
 aShorthandPropertyID
 const
 nsAString
@@ -11436,7 +11436,7 @@ ReleaseScanner
 )
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 propertyToParse
 =
 aShorthandPropertyID
@@ -18790,7 +18790,7 @@ return
 false
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 propID
 =
 LookupEnabledProperty
@@ -30098,7 +30098,7 @@ this
 mInFailingSupportsRule
 )
 ;
-nsCSSProperty
+nsCSSPropertyID
 propID
 ;
 CSSVariableDeclarations
@@ -30575,7 +30575,7 @@ true
 }
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBorderTopIDs
 [
 ]
@@ -30588,7 +30588,7 @@ eCSSProperty_border_top_color
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBorderRightIDs
 [
 ]
@@ -30601,7 +30601,7 @@ eCSSProperty_border_right_color
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBorderBottomIDs
 [
 ]
@@ -30614,7 +30614,7 @@ eCSSProperty_border_bottom_color
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBorderLeftIDs
 [
 ]
@@ -30627,7 +30627,7 @@ eCSSProperty_border_left_color
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBorderInlineStartIDs
 [
 ]
@@ -30640,7 +30640,7 @@ eCSSProperty_border_inline_start_color
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBorderInlineEndIDs
 [
 ]
@@ -30653,7 +30653,7 @@ eCSSProperty_border_inline_end_color
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBorderBlockStartIDs
 [
 ]
@@ -30666,7 +30666,7 @@ eCSSProperty_border_block_start_color
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBorderBlockEndIDs
 [
 ]
@@ -30679,7 +30679,7 @@ eCSSProperty_border_block_end_color
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kColumnRuleIDs
 [
 ]
@@ -35805,7 +35805,7 @@ ParseFlexFlow
 {
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kFlexFlowSubprops
 [
 ]
@@ -37236,7 +37236,7 @@ CSSParserImpl
 :
 ParseGridAutoColumnsRows
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -38837,7 +38837,7 @@ CSSParserImpl
 :
 ParseGridTrackList
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -38889,7 +38889,7 @@ CSSParserImpl
 :
 ParseGridTemplateColumnsRows
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -40276,7 +40276,7 @@ nullptr
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -40988,7 +40988,7 @@ CSSParserImpl
 :
 ParseGridColumnRowStartEnd
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -41099,9 +41099,9 @@ CSSParserImpl
 :
 ParseGridColumnRow
 (
-nsCSSProperty
+nsCSSPropertyID
 aStartPropID
-nsCSSProperty
+nsCSSPropertyID
 aEndPropID
 )
 {
@@ -42117,7 +42117,7 @@ CSSParserImpl
 :
 ParseAlignJustifySelf
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -42193,7 +42193,7 @@ CSSParserImpl
 :
 ParseAlignJustifyContent
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -45807,7 +45807,7 @@ ParseWebkitTextStroke
 {
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kWebkitTextStrokeIDs
 [
 ]
@@ -45941,7 +45941,7 @@ aValues
 [
 ]
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropIDs
 [
 ]
@@ -46366,7 +46366,7 @@ CSSParserImpl
 :
 AppendValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsCSSValue
@@ -46390,7 +46390,7 @@ CSSParserImpl
 ParseBoxProperties
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropIDs
 [
 ]
@@ -46765,7 +46765,7 @@ CSSParserImpl
 :
 ParseBoxCornerRadius
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -47320,7 +47320,7 @@ CSSParserImpl
 ParseBoxCornerRadii
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropIDs
 [
 ]
@@ -47369,7 +47369,7 @@ true
 }
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBorderStyleIDs
 [
 ]
@@ -47383,7 +47383,7 @@ eCSSProperty_border_left_style
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBorderWidthIDs
 [
 ]
@@ -47397,7 +47397,7 @@ eCSSProperty_border_left_width
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBorderColorIDs
 [
 ]
@@ -47411,7 +47411,7 @@ eCSSProperty_border_left_color
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBorderRadiusIDs
 [
 ]
@@ -47425,7 +47425,7 @@ eCSSProperty_border_bottom_left_radius
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kOutlineRadiusIDs
 [
 ]
@@ -47512,7 +47512,7 @@ CSSParserImpl
 :
 ParseProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -48428,7 +48428,7 @@ CSSParserImpl
 :
 ParsePropertyByFunction
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -49356,7 +49356,7 @@ ParseBoxProperty
 nsCSSValue
 &
 aValue
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -49545,7 +49545,7 @@ ParseSingleValuePropertyByFunction
 nsCSSValue
 &
 aValue
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -49799,7 +49799,7 @@ ParseSingleValueProperty
 nsCSSValue
 &
 aValue
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -50424,7 +50424,7 @@ CSSParserImpl
 ParseImageLayers
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aTable
 [
 ]
@@ -50452,7 +50452,7 @@ nullptr
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 subprops
 =
@@ -51285,7 +51285,7 @@ ImageLayersShorthandParseState
 &
 aState
 const
-nsCSSProperty
+nsCSSPropertyID
 aTable
 [
 ]
@@ -52795,7 +52795,7 @@ CSSParserImpl
 :
 ParseValueList
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -52898,7 +52898,7 @@ CSSParserImpl
 :
 ParseImageLayerRepeat
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -53115,7 +53115,7 @@ CSSParserImpl
 ParseImageLayerPosition
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aTable
 [
 ]
@@ -53321,7 +53321,7 @@ CSSParserImpl
 :
 ParseImageLayerPositionCoord
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 bool
 aIsHorizontal
@@ -55615,7 +55615,7 @@ CSSParserImpl
 :
 ParseImageLayerSize
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -56871,7 +56871,7 @@ CSSParserImpl
 ParseBorderSide
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropIDs
 [
 ]
@@ -57058,7 +57058,7 @@ values
 }
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBorderColorsProps
 [
 ]
@@ -57236,7 +57236,7 @@ CSSParserImpl
 :
 ParseBorderColors
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -58421,7 +58421,7 @@ CSSParserImpl
 :
 ParseRect
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -58622,7 +58622,7 @@ ParseColumns
 {
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 columnIDs
 [
 ]
@@ -59017,7 +59017,7 @@ CSSParserImpl
 :
 ParseCounterData
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -59736,7 +59736,7 @@ kFontStretchIndex
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 fontIDs
 [
 ]
@@ -63825,7 +63825,7 @@ ParseListStyle
 {
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 listStyleIDs
 [
 ]
@@ -64164,7 +64164,7 @@ ParseMargin
 {
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kMarginSideIDs
 [
 ]
@@ -64242,7 +64242,7 @@ numProps
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kOutlineIDs
 [
 ]
@@ -64517,7 +64517,7 @@ ParsePadding
 {
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kPaddingSideIDs
 [
 ]
@@ -64671,7 +64671,7 @@ ParseTextDecoration
 {
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kTextDecorationIDs
 [
 ]
@@ -64833,7 +64833,7 @@ ParseTextEmphasis
 {
 static
 constexpr
-nsCSSProperty
+nsCSSPropertyID
 kTextEmphasisIDs
 [
 ]
@@ -68841,7 +68841,7 @@ true
 return
 false
 ;
-nsCSSProperty
+nsCSSPropertyID
 prop
 =
 eCSSProperty_transform_origin
@@ -70577,7 +70577,7 @@ CSSParserImpl
 ParseAnimationOrTransitionShorthand
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 aProperties
 const
@@ -70966,7 +70966,7 @@ ParseTransition
 {
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kTransitionProperties
 [
 ]
@@ -71283,7 +71283,7 @@ ParseAnimation
 {
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kAnimationProperties
 [
 ]
@@ -71938,7 +71938,7 @@ CSSParserImpl
 :
 ParseShadowList
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -72173,7 +72173,7 @@ CSSParserImpl
 :
 ParsePaint
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -73294,7 +73294,7 @@ ParseScrollSnapPoints
 nsCSSValue
 &
 aValue
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -74746,7 +74746,7 @@ CSSParserImpl
 IsValueValidForProperty
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsAString
@@ -75460,7 +75460,7 @@ nsCSSParser
 ParseProperty
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsAString
@@ -75521,7 +75521,7 @@ nsCSSParser
 ParseLonghandProperty
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsAString
@@ -76136,9 +76136,9 @@ nsCSSParser
 :
 ParsePropertyWithVariableReferences
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropertyID
-nsCSSProperty
+nsCSSPropertyID
 aShorthandPropertyID
 const
 nsAString
@@ -76335,7 +76335,7 @@ nsCSSParser
 IsValueValidForProperty
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsAString
