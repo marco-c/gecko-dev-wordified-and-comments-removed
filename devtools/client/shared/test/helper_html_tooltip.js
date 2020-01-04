@@ -87,7 +87,7 @@ tooltip
 {
 let
 {
-document
+doc
 }
 =
 tooltip
@@ -100,13 +100,13 @@ resolve
 =
 >
 {
-document
+doc
 .
 documentElement
 .
 offsetWidth
 ;
-document
+doc
 .
 defaultView
 .
