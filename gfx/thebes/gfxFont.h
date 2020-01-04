@@ -3606,6 +3606,7 @@ mAppUnitsPerDevUnit
 ;
 class
 gfxShapedWord
+final
 :
 public
 gfxShapedText
