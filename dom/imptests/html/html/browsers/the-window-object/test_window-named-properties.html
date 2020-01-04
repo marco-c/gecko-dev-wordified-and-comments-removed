@@ -440,8 +440,8 @@ gsp
 bar
 "
 )
-false
 true
+false
 true
 )
 ;
@@ -565,7 +565,7 @@ gsp
 "
 )
 ;
-assert_true
+assert_false
 (
 gsp
 .
@@ -589,7 +589,7 @@ constructor
 "
 )
 ;
-assert_data_propdesc
+assert_equals
 (
 Object
 .
@@ -600,11 +600,8 @@ gsp
 constructor
 "
 )
-false
-true
-true
+undefined
 )
-;
 }
 "
 constructor
