@@ -112,6 +112,17 @@ mozilla
 .
 gecko
 .
+annotation
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 db
 .
 BrowserContract
@@ -8372,7 +8383,8 @@ TABLE_LOGINS
 )
 ;
 }
-private
+RobocopTarget
+public
 static
 String
 getReaderCacheFileNameForURL
