@@ -175,6 +175,10 @@ const
 GCSchedulingState
 &
 state
+const
+AutoLockGC
+&
+lock
 )
 ;
 void
@@ -218,6 +222,10 @@ const
 GCSchedulingTunables
 &
 tunables
+const
+AutoLockGC
+&
+lock
 )
 ;
 }

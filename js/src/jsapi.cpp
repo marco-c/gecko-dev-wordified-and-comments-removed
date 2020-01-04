@@ -6593,6 +6593,12 @@ uint32_t
 value
 )
 {
+AutoLockGC
+lock
+(
+rt
+)
+;
 rt
 -
 >
@@ -6602,6 +6608,7 @@ setParameter
 (
 key
 value
+lock
 )
 ;
 }

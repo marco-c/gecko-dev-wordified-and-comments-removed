@@ -246,6 +246,12 @@ this
 )
 )
 ;
+AutoLockGC
+lock
+(
+rt
+)
+;
 threshold
 .
 updateAfterGC
@@ -264,6 +270,7 @@ rt
 gc
 .
 schedulingState
+lock
 )
 ;
 setGCMaxMallocBytes
