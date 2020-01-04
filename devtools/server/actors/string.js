@@ -5,6 +5,18 @@ strict
 ;
 var
 {
+Cu
+}
+=
+require
+(
+"
+chrome
+"
+)
+;
+var
+{
 DebuggerServer
 }
 =
@@ -63,6 +75,7 @@ var
 {
 method
 Arg
+Option
 RetVal
 }
 =
@@ -530,7 +543,6 @@ this
 .
 length
 )
-{
 return
 promise
 .
@@ -539,7 +551,8 @@ resolve
 thusFar
 )
 ;
-}
+else
+{
 return
 this
 .
@@ -572,6 +585,7 @@ next
 )
 )
 ;
+}
 }
 ;
 this
@@ -676,6 +690,8 @@ value
 str
 ;
 }
+else
+{
 return
 stringActorType
 .
@@ -686,6 +702,7 @@ context
 detail
 )
 ;
+}
 }
 read
 :
