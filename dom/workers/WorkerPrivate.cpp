@@ -8874,9 +8874,6 @@ Derived
 :
 WorkerPrivateParent
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aParent
@@ -16091,9 +16088,6 @@ WorkerPrivate
 :
 WorkerPrivate
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aParent
@@ -16119,7 +16113,6 @@ WorkerPrivateParent
 WorkerPrivate
 >
 (
-aCx
 aParent
 aScriptURL
 aIsChromeWorker
@@ -16784,7 +16777,6 @@ worker
 new
 WorkerPrivate
 (
-aCx
 parent
 aScriptURL
 aIsChromeWorker

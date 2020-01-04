@@ -586,9 +586,6 @@ mSelfRef
 ;
 WorkerPrivateParent
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aParent
@@ -3712,9 +3709,6 @@ private
 :
 WorkerPrivate
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aParent
