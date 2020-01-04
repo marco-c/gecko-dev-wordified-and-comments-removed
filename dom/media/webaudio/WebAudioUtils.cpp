@@ -70,12 +70,11 @@ aEvent
 .
 SetTimeInTicks
 (
-aSource
+aDest
 -
 >
-TicksFromDestinationTime
+SecondsToNearestStreamTime
 (
-aDest
 aEvent
 .
 Time

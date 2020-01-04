@@ -1310,7 +1310,7 @@ stream
 StreamTime
 ticks
 =
-aStream
+mDestination
 -
 >
 GraphTimeToStreamTime

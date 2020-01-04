@@ -828,7 +828,7 @@ numberOfChannels
 StreamTime
 pos
 =
-aStream
+mDestination
 -
 >
 GraphTimeToStreamTime

@@ -324,7 +324,7 @@ ChannelCount
 StreamTime
 tick
 =
-aStream
+mDestination
 -
 >
 GraphTimeToStreamTime

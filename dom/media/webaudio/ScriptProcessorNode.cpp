@@ -1389,7 +1389,7 @@ NS_IsMainThread
 StreamTime
 playbackTick
 =
-mSource
+mDestination
 -
 >
 GraphTimeToStreamTime
@@ -1415,12 +1415,11 @@ DelaySoFar
 double
 playbackTime
 =
-mSource
+mDestination
 -
 >
-DestinationTimeFromTicks
+StreamTimeToSeconds
 (
-mDestination
 playbackTick
 )
 ;

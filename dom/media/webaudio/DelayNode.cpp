@@ -600,7 +600,7 @@ else
 StreamTime
 tick
 =
-mSource
+mDestination
 -
 >
 GraphTimeToStreamTime

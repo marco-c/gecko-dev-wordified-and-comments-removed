@@ -408,12 +408,11 @@ START
 ;
 mStart
 =
-mSource
+mDestination
 -
 >
-FractionalTicksFromDestinationTime
+SecondsToNearestStreamTime
 (
-mDestination
 aParam
 )
 ;
@@ -1982,7 +1981,7 @@ return
 StreamTime
 streamPosition
 =
-aStream
+mDestination
 -
 >
 GraphTimeToStreamTime
