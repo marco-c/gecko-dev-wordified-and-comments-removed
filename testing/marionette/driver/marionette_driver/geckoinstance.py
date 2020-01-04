@@ -242,6 +242,22 @@ reportProcessHangs
 False
         
 "
+extensions
+.
+enabledScopes
+"
+:
+5
+        
+"
+extensions
+.
+autoDisableScopes
+"
+:
+10
+        
+"
 focusmanager
 .
 testmode
@@ -1541,22 +1557,6 @@ report_all_js_exceptions
 '
 :
 True
-        
-'
-extensions
-.
-enabledScopes
-'
-:
-5
-        
-'
-extensions
-.
-autoDisableScopes
-'
-:
-10
         
 '
 extensions
