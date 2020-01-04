@@ -8872,7 +8872,7 @@ if
 gfxUtils
 :
 :
-sDumpPainting
+sDumpCompositorTextures
 &
 &
 AsLayerComposite

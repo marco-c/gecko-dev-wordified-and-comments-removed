@@ -7448,7 +7448,7 @@ if
 gfxUtils
 :
 :
-sDumpPainting
+sDumpCompositorTextures
 )
 {
 IntRect

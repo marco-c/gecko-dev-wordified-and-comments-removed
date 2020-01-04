@@ -788,6 +788,10 @@ bool
 sDumpPaintItems
 ;
 static
+bool
+sDumpCompositorTextures
+;
+static
 FILE
 *
 sDumpPaintFile
