@@ -77,14 +77,6 @@ MSVC_CXX_RUNTIME_DLL
 )
 \
 (
-MSVC_APPCRT_DLL
-)
-\
-(
-MSVC_DESKTOPCRT_DLL
-)
-\
-(
 NULL
 )
 libs
