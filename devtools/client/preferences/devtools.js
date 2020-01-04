@@ -2880,7 +2880,7 @@ version
 ;
 #
 ifdef
-MOZ_DEV_EDITION
+RELEASE_BUILD
 pref
 (
 "
@@ -2890,7 +2890,7 @@ jsonview
 .
 enabled
 "
-true
+false
 )
 ;
 #
@@ -2904,7 +2904,7 @@ jsonview
 .
 enabled
 "
-false
+true
 )
 ;
 #
