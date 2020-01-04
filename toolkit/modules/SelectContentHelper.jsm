@@ -610,6 +610,13 @@ disabled
 child
 .
 disabled
+display
+:
+child
+.
+style
+.
+display
 textDirection
 :
 getComputedDirection
