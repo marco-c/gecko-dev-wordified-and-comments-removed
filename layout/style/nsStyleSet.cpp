@@ -4388,6 +4388,15 @@ if
 result
 )
 {
+RefPtr
+<
+nsRuleNode
+>
+kungFuDeathGrip
+{
+aVisitedRuleNode
+}
+;
 result
 =
 NS_NewStyleContext
