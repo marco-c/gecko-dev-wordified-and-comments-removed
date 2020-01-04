@@ -398,6 +398,12 @@ nsOverflowAreas
 *
 overflow
 =
+static_cast
+<
+nsOverflowAreas
+*
+>
+(
 frame
 -
 >
@@ -412,6 +418,7 @@ nsIFrame
 :
 InitialOverflowProperty
 (
+)
 )
 )
 ;
