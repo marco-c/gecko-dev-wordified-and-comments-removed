@@ -769,6 +769,8 @@ nsIURI
 targetURI
 uint8_t
 stackCount
+bool
+fullUri
 nsINetworkPredictorVerifier
 *
 verifier
@@ -780,6 +782,8 @@ PredictForStartup
 nsICacheEntry
 *
 entry
+bool
+fullUri
 nsINetworkPredictorVerifier
 *
 verifier
@@ -843,6 +847,8 @@ uint32_t
 loadCount
 int32_t
 globalDegradation
+bool
+fullUri
 )
 ;
 void
@@ -1169,6 +1175,9 @@ nsIURI
 >
 >
 mPreresolves
+;
+bool
+mDoingTests
 ;
 static
 Predictor
