@@ -288,6 +288,11 @@ nsAttrAndChildArray
 h
 '
 '
+nsAttrInfo
+.
+h
+'
+'
 nsAttrName
 .
 h

@@ -531,6 +531,16 @@ const
 override
 ;
 virtual
+nsAttrInfo
+GetAttrInfoAt
+(
+uint32_t
+aIndex
+)
+const
+override
+;
+virtual
 uint32_t
 GetAttrCount
 (
