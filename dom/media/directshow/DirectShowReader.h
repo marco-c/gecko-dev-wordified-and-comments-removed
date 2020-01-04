@@ -125,10 +125,6 @@ protected
 void
 NotifyDataArrivedInternal
 (
-uint32_t
-aLength
-int64_t
-aOffset
 )
 override
 ;

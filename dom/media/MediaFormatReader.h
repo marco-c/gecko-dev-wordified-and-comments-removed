@@ -208,10 +208,6 @@ protected
 void
 NotifyDataArrivedInternal
 (
-uint32_t
-aLength
-int64_t
-aOffset
 )
 override
 ;
@@ -432,10 +428,6 @@ InitDemuxer
 void
 NotifyDemuxer
 (
-uint32_t
-aLength
-int64_t
-aOffset
 )
 ;
 void
