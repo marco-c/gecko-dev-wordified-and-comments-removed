@@ -345,17 +345,6 @@ ipc_message
 .
 cc
 '
-'
-src
-/
-chrome
-/
-common
-/
-notification_service
-.
-cc
-'
 ]
 if
 os_win

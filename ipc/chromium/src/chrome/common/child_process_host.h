@@ -79,9 +79,6 @@ FileDescriptor
 }
 }
 class
-NotificationType
-;
-class
 ChildProcessHost
 :
 public
@@ -358,15 +355,6 @@ get
 )
 ;
 }
-private
-:
-void
-Notify
-(
-NotificationType
-type
-)
-;
 protected
 :
 virtual

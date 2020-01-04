@@ -29,9 +29,6 @@ nsDebug
 .
 h
 "
-class
-NotificationService
-;
 namespace
 mozilla
 {
@@ -104,10 +101,6 @@ private
 :
 ID
 mIdentifier
-;
-NotificationService
-*
-mNotificationService
 ;
 static
 StaticMutex
