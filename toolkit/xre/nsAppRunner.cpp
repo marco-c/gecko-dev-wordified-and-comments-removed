@@ -1511,6 +1511,11 @@ PR_SetEnv
 expr
 )
 ;
+MOZ_LSAN_INTENTIONALLY_LEAK_OBJECT
+(
+expr
+)
+;
 }
 static
 bool
