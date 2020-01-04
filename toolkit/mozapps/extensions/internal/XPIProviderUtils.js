@@ -1294,7 +1294,7 @@ aLoaded
 .
 _installLocation
 .
-_name
+name
 ;
 }
 else
