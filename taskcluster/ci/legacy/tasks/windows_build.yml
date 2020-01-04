@@ -53,6 +53,8 @@ treeherderEnv
 :
 -
 staging
+-
+production
 treeherder
 :
 tier
