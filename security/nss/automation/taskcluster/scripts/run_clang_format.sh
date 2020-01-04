@@ -240,6 +240,14 @@ top
 /
 lib
 /
+freebl
+"
+\
+"
+top
+/
+lib
+/
 softoken
 "
 \

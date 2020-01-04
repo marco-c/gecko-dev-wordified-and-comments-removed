@@ -217,6 +217,7 @@ about
 faster
 with
 the
+\
 *
 same
 or
@@ -229,6 +230,7 @@ s
 possible
 to
 use
+\
 *
 tables
 to
@@ -526,6 +528,7 @@ GCM_TRACE_X
 ghash
 label
 )
+\
 {
 \
 unsigned
@@ -535,6 +538,7 @@ _X
 MAX_BLOCK_SIZE
 ]
 ;
+\
 int
 i
 ;
@@ -573,6 +577,7 @@ i
 +
 +
 )
+\
 printf
 (
 "
@@ -594,6 +599,7 @@ n
 "
 )
 ;
+\
 }
 #
 define
@@ -603,6 +609,7 @@ label
 buf
 blocksize
 )
+\
 {
 \
 printf
@@ -625,6 +632,7 @@ i
 +
 +
 )
+\
 printf
 (
 "
@@ -646,6 +654,7 @@ n
 "
 )
 ;
+\
 }
 #
 else
@@ -2107,6 +2116,7 @@ l
 +
 +
 )
+\
 t
 [
 l

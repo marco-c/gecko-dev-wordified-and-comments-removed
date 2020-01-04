@@ -79,6 +79,7 @@ Plo
 )
 \
 {
+\
 unsigned
 long
 long
@@ -114,6 +115,7 @@ product
 MP_DIGIT_BIT
 )
 ;
+\
 }
 static
 void

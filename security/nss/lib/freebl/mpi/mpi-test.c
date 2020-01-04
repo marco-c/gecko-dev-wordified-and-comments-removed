@@ -1487,7 +1487,9 @@ IFOK
 (
 x
 )
+\
 {
+\
 if
 (
 MP_OKAY
@@ -1521,10 +1523,13 @@ x
 res
 )
 ;
+\
 return
 1
 ;
+\
 }
+\
 }
 int
 main

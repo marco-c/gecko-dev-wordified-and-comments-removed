@@ -696,7 +696,6 @@ defined
 (
 FREEBSD
 )
-\
 |
 |
 defined
@@ -715,7 +714,6 @@ defined
 (
 OPENBSD
 )
-\
 |
 |
 defined
@@ -4043,7 +4041,6 @@ defined
 (
 NETBSD
 )
-\
 |
 |
 defined
@@ -4062,7 +4059,6 @@ defined
 (
 LINUX
 )
-\
 |
 |
 defined

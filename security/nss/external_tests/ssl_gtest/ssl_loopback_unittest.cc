@@ -351,9 +351,8 @@ Connect
 client_
 -
 >
-SetExpectedReadError
+ExpectReadWriteError
 (
-true
 )
 ;
 server_
@@ -372,14 +371,6 @@ WaitForErrorCode
 (
 SSL_ERROR_RX_SHORT_DTLS_READ
 2000
-)
-;
-client_
--
->
-SetExpectedReadError
-(
-false
 )
 ;
 server_
@@ -863,9 +854,8 @@ kTlsAlertWarning
 client_
 -
 >
-SetExpectedReadError
+ExpectReadWriteError
 (
-true
 )
 ;
 client_
@@ -903,9 +893,8 @@ kTlsAlertUnexpectedMessage
 client_
 -
 >
-SetExpectedReadError
+ExpectReadWriteError
 (
-true
 )
 ;
 client_

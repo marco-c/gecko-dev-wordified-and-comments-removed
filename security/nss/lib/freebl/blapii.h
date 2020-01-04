@@ -101,11 +101,13 @@ SKIP_AFTER_FORK
 (
 x
 )
+\
 if
 (
 !
 bl_parentForkedAfterC_Initialize
 )
+\
 x
 #
 else

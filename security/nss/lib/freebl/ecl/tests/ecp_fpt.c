@@ -51,6 +51,7 @@ M_TimeOperation
 op
 k
 )
+\
 {
 \
 double
@@ -118,8 +119,10 @@ i
 {
 \
 {
+\
 op
 ;
+\
 }
 \
 }
@@ -169,6 +172,7 @@ if
 (
 dUserTime
 )
+\
 printf
 (
 "
@@ -220,6 +224,7 @@ M_TestCurve
 name_c
 name
 )
+\
 {
 \
 printf

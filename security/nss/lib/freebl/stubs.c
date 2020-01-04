@@ -272,6 +272,7 @@ ptr_
 fn
 )
 {
+\
 return
 ptr_
 #
@@ -280,6 +281,7 @@ fn
 (
 )
 ;
+\
 }
 #
 define
@@ -297,6 +299,7 @@ ptr_
 fn
 )
 {
+\
 return
 ptr_
 #
@@ -306,6 +309,7 @@ fn
 a1
 )
 ;
+\
 }
 #
 define
@@ -324,6 +328,7 @@ ptr_
 fn
 )
 {
+\
 return
 ptr_
 #
@@ -334,6 +339,7 @@ a1
 a2
 )
 ;
+\
 }
 #
 define
@@ -353,6 +359,7 @@ ptr_
 fn
 )
 {
+\
 return
 ptr_
 #
@@ -364,6 +371,7 @@ a2
 a3
 )
 ;
+\
 }
 #
 define
@@ -384,6 +392,7 @@ ptr_
 fn
 )
 {
+\
 return
 ptr_
 #
@@ -396,6 +405,7 @@ a3
 a4
 )
 ;
+\
 }
 #
 define
@@ -418,6 +428,7 @@ ptr_
 fn
 )
 {
+\
 return
 ptr_
 #
@@ -432,6 +443,7 @@ a5
 a6
 )
 ;
+\
 }
 #
 define
@@ -504,11 +516,13 @@ if
 fn
 )
 {
+\
 return
 fn
 (
 )
 ;
+\
 }
 #
 define
@@ -523,12 +537,14 @@ if
 fn
 )
 {
+\
 return
 fn
 (
 a1
 )
 ;
+\
 }
 #
 define
@@ -544,6 +560,7 @@ if
 fn
 )
 {
+\
 return
 fn
 (
@@ -551,6 +568,7 @@ a1
 a2
 )
 ;
+\
 }
 #
 define
@@ -567,6 +585,7 @@ if
 fn
 )
 {
+\
 return
 fn
 (
@@ -575,6 +594,7 @@ a2
 a3
 )
 ;
+\
 }
 #
 define
@@ -592,6 +612,7 @@ if
 fn
 )
 {
+\
 return
 fn
 (
@@ -601,6 +622,7 @@ a3
 a4
 )
 ;
+\
 }
 #
 define
@@ -620,6 +642,7 @@ if
 fn
 )
 {
+\
 return
 fn
 (
@@ -631,6 +654,7 @@ a5
 a6
 )
 ;
+\
 }
 #
 endif
@@ -2787,6 +2811,7 @@ if
 (
 lib
 )
+\
 dlclose
 (
 lib

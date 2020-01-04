@@ -161,6 +161,7 @@ carry
 )
 \
 {
+\
 mp_word
 w
 ;
@@ -198,6 +199,7 @@ CARRYOUT
 w
 )
 ;
+\
 }
 #
 define
@@ -210,6 +212,7 @@ borrow
 )
 \
 {
+\
 mp_word
 w
 ;
@@ -251,6 +254,7 @@ MP_DIGIT_BIT
 &
 1
 ;
+\
 }
 #
 else
@@ -265,6 +269,7 @@ carry
 )
 \
 {
+\
 mp_digit
 tmp
 sum
@@ -319,6 +324,7 @@ sum
 carry
 )
 ;
+\
 }
 #
 define
@@ -331,6 +337,7 @@ borrow
 )
 \
 {
+\
 mp_digit
 tmp
 ;
@@ -376,6 +383,7 @@ s
 -
 -
 )
+\
 tmp
 +
 +
@@ -385,6 +393,7 @@ borrow
 =
 tmp
 ;
+\
 }
 #
 endif
