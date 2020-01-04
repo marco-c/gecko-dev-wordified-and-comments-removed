@@ -2528,16 +2528,6 @@ popup
 <
 !
 ENTITY
-locationItem
-.
-title
-"
-Location
-"
->
-<
-!
-ENTITY
 searchItem
 .
 title
