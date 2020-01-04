@@ -3874,19 +3874,6 @@ init
 ]
 ;
 }
-if
-(
-AppConstants
-.
-platform
-!
-=
-=
-"
-android
-"
-)
-{
 this
 .
 _currentEnvironment
@@ -3907,7 +3894,6 @@ _updateProfile
 )
 )
 ;
-}
 let
 setup
 =
