@@ -70,7 +70,7 @@ h
 #
 include
 "
-nsIUploadChannel
+nsIFormPOSTActionChannel
 .
 h
 "
@@ -100,7 +100,7 @@ nsICachingChannel
 public
 nsIApplicationCacheChannel
 public
-nsIUploadChannel
+nsIFormPOSTActionChannel
 {
 public
 :
@@ -130,6 +130,10 @@ mApplicationCacheChannel
 NS_FORWARD_SAFE_NSIUPLOADCHANNEL
 (
 mUploadChannel
+)
+NS_FORWARD_SAFE_NSIFORMPOSTACTIONCHANNEL
+(
+mPostChannel
 )
 NS_FORWARD_SAFE_NSIHTTPCHANNELINTERNAL
 (
@@ -234,6 +238,12 @@ nsCOMPtr
 nsIUploadChannel
 >
 mUploadChannel
+;
+nsCOMPtr
+<
+nsIFormPOSTActionChannel
+>
+mPostChannel
 ;
 nsCOMPtr
 <

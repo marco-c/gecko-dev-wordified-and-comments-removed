@@ -1027,6 +1027,10 @@ nsIUploadChannel
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsIFormPOSTActionChannel
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIUploadChannel2
 )
 NS_INTERFACE_MAP_ENTRY

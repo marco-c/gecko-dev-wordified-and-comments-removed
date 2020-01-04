@@ -98,7 +98,7 @@ h
 #
 include
 "
-nsIUploadChannel
+nsIFormPOSTActionChannel
 .
 h
 "
@@ -298,7 +298,7 @@ nsIHttpChannel
 public
 nsIHttpChannelInternal
 public
-nsIUploadChannel
+nsIFormPOSTActionChannel
 public
 nsIUploadChannel2
 public
@@ -333,6 +333,7 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIUPLOADCHANNEL
+NS_DECL_NSIFORMPOSTACTIONCHANNEL
 NS_DECL_NSIUPLOADCHANNEL2
 NS_DECL_NSITRACEABLECHANNEL
 NS_DECL_NSITIMEDCHANNEL

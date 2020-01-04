@@ -303,6 +303,11 @@ nsIForcePendingChannel
 idl
 '
 '
+nsIFormPOSTActionChannel
+.
+idl
+'
+'
 nsIHttpPushListener
 .
 idl
