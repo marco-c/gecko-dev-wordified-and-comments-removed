@@ -58,9 +58,6 @@ ipc
 DaemonSocketResultHandler
 ;
 class
-BluetoothSetupResultHandler
-;
-class
 BluetoothDaemonGattModule
 {
 public
