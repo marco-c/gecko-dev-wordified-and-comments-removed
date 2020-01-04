@@ -803,9 +803,9 @@ void
 ProcessPendingRequests
 (
 int
-transaction
+seqno
 int
-prio
+transaction
 )
 ;
 bool
@@ -1357,8 +1357,6 @@ WasTransactionCanceled
 (
 int
 transaction
-int
-prio
 )
 ;
 bool
