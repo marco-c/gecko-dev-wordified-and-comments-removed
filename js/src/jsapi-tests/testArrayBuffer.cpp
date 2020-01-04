@@ -311,6 +311,9 @@ JS
 AutoCheckCannotGC
 nogc
 ;
+bool
+sharedDummy
+;
 uint8_t
 *
 data
@@ -318,6 +321,8 @@ data
 JS_GetArrayBufferData
 (
 obj
+&
+sharedDummy
 nogc
 )
 ;
@@ -550,12 +555,17 @@ JS
 AutoCheckCannotGC
 nogc
 ;
+bool
+sharedDummy
+;
 (
 void
 )
 JS_GetArrayBufferData
 (
 obj
+&
+sharedDummy
 nogc
 )
 ;
@@ -601,6 +611,9 @@ JS
 AutoCheckCannotGC
 nogc
 ;
+bool
+sharedDummy
+;
 uint8_t
 *
 data
@@ -608,6 +621,8 @@ data
 JS_GetArrayBufferData
 (
 dst
+&
+sharedDummy
 nogc
 )
 ;

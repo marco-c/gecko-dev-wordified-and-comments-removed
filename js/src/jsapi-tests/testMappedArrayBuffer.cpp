@@ -377,6 +377,9 @@ obj
 )
 )
 ;
+bool
+sharedDummy
+;
 const
 char
 *
@@ -392,6 +395,8 @@ char
 JS_GetArrayBufferData
 (
 obj
+&
+sharedDummy
 nogc
 )
 )

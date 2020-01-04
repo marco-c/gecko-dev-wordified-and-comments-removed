@@ -543,6 +543,9 @@ obj
 uint32_t
 *
 length
+bool
+*
+isSharedMemory
 T
 *
 *
@@ -628,6 +631,9 @@ JS
 AutoCheckCannotGC
 nogc
 ;
+bool
+shared1
+;
 T
 *
 data1
@@ -641,6 +647,8 @@ T
 JS_GetArrayBufferViewData
 (
 obj
+&
+shared1
 nogc
 )
 )
@@ -648,6 +656,9 @@ nogc
 T
 *
 data2
+;
+bool
+shared2
 ;
 uint32_t
 len
@@ -663,6 +674,8 @@ obj
 &
 len
 &
+shared2
+&
 data2
 )
 )
@@ -673,6 +686,14 @@ data1
 =
 =
 data2
+)
+;
+CHECK
+(
+shared1
+=
+=
+shared2
 )
 ;
 CHECK
