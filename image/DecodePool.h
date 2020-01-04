@@ -198,9 +198,12 @@ mImpl
 Mutex
 mMutex
 ;
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIThread
+>
 >
 mThreads
 ;
