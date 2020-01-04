@@ -41,9 +41,11 @@ querySelector
 #
 inspector
 -
-sidebar
+splitter
 -
-container
+box
+.
+controlled
 "
 )
 ;
