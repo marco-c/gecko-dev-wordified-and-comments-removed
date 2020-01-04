@@ -5998,7 +5998,7 @@ aShapedText
 void
 PostShapingFixup
 (
-gfxContext
+DrawTarget
 *
 aContext
 const
@@ -6641,9 +6641,9 @@ static
 double
 CalcXScale
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 ;
 }

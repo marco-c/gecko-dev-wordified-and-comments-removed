@@ -613,6 +613,11 @@ aShapedText
 PostShapingFixup
 (
 aContext
+-
+>
+GetDrawTarget
+(
+)
 aText
 aOffset
 aLength
