@@ -1276,7 +1276,7 @@ collection
 >
 RequestRestyle
 (
-AnimationCollection
+EffectCompositor
 :
 :
 RestyleType
@@ -2061,6 +2061,9 @@ AnimationCollection
 :
 RequestRestyle
 (
+EffectCompositor
+:
+:
 RestyleType
 aRestyleType
 )
@@ -2116,6 +2119,9 @@ if
 aRestyleType
 =
 =
+EffectCompositor
+:
+:
 RestyleType
 :
 :
@@ -2194,6 +2200,9 @@ if
 aRestyleType
 >
 =
+EffectCompositor
+:
+:
 RestyleType
 :
 :
@@ -2217,6 +2226,9 @@ MOZ_ASSERT
 aRestyleType
 =
 =
+EffectCompositor
+:
+:
 RestyleType
 :
 :

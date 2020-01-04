@@ -56,6 +56,15 @@ include
 "
 mozilla
 /
+EffectCompositor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FloatingPoint
 .
 h
@@ -712,7 +721,7 @@ CanThrottle
 (
 )
 ?
-AnimationCollection
+EffectCompositor
 :
 :
 RestyleType
@@ -720,7 +729,7 @@ RestyleType
 :
 Throttled
 :
-AnimationCollection
+EffectCompositor
 :
 :
 RestyleType

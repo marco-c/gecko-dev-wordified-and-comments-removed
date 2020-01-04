@@ -4285,7 +4285,7 @@ collection
 >
 RequestRestyle
 (
-AnimationCollection
+EffectCompositor
 :
 :
 RestyleType

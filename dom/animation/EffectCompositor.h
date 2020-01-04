@@ -186,6 +186,15 @@ return
 mPresContext
 ;
 }
+enum
+class
+RestyleType
+{
+Throttled
+Standard
+Layer
+}
+;
 static
 bool
 HasAnimationsForCompositor
