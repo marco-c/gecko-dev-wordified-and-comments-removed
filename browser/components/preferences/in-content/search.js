@@ -1567,9 +1567,18 @@ aEngine
 aNewKeyword
 )
 {
+let
+keyword
+=
+aNewKeyword
+.
+trim
+(
+)
+;
 if
 (
-aNewKeyword
+keyword
 )
 {
 let
@@ -1596,7 +1605,7 @@ keywords
 .
 fetch
 (
-aNewKeyword
+keyword
 )
 )
 ;
@@ -1624,7 +1633,7 @@ engine
 alias
 =
 =
-aNewKeyword
+keyword
 &
 &
 engine
@@ -1740,7 +1749,7 @@ aEngine
 "
 alias
 "
-aNewKeyword
+keyword
 )
 ;
 gEngineView
