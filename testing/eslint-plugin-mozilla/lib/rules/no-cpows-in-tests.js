@@ -137,6 +137,9 @@ getSource
 node
 )
 ;
+var
+someCpowFound
+=
 cpows
 .
 some
@@ -174,6 +177,10 @@ false
 ;
 if
 (
+!
+someCpowFound
+&
+&
 helpers
 .
 getIsGlobalScope
