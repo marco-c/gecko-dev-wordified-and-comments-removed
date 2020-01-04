@@ -213,6 +213,7 @@ NS_IMPL_ISUPPORTS
 (
 nsAboutProtocolHandler
 nsIProtocolHandler
+nsISupportsWeakReference
 )
 NS_IMETHODIMP
 nsAboutProtocolHandler
@@ -829,6 +830,7 @@ NS_IMPL_ISUPPORTS
 (
 nsSafeAboutProtocolHandler
 nsIProtocolHandler
+nsISupportsWeakReference
 )
 NS_IMETHODIMP
 nsSafeAboutProtocolHandler

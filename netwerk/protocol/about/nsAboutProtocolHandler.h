@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -35,6 +42,8 @@ nsAboutProtocolHandler
 :
 public
 nsIProtocolHandler
+public
+nsSupportsWeakReference
 {
 public
 :
@@ -62,6 +71,8 @@ final
 :
 public
 nsIProtocolHandler
+public
+nsSupportsWeakReference
 {
 public
 :
