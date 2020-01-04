@@ -39,7 +39,7 @@ buildToolsVersion
 defaultConfig
 {
 targetSdkVersion
-22
+23
 minSdkVersion
 15
 /
