@@ -57,6 +57,9 @@ OS2_V2_MIN
 OS2_V2_MAX
 =
 64
+WIN_ICO
+=
+WIN_V3
 }
 ;
 }
