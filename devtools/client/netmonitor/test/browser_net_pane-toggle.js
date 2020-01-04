@@ -110,7 +110,9 @@ toggle
 "
 )
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 pane
@@ -260,7 +262,9 @@ toggle
 "
 )
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 pane
@@ -418,7 +422,9 @@ toggle
 "
 )
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 pane
@@ -599,7 +605,9 @@ toggle
 "
 )
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 pane

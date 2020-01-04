@@ -3182,7 +3182,9 @@ this
 .
 sourceToggle
 .
-hasAttribute
+classList
+.
+contains
 (
 "
 pane
