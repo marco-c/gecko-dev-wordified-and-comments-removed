@@ -200,6 +200,14 @@ override
 ;
 #
 endif
+private
+:
+RefPtr
+<
+IDWriteFontFileStream
+>
+mFontFileStream
+;
 }
 ;
 class
