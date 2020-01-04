@@ -8010,6 +8010,16 @@ platform
 "
 win
 "
+|
+|
+AppConstants
+.
+platform
+=
+=
+"
+macosx
+"
 )
 {
 E10SAccessibilityCheck
