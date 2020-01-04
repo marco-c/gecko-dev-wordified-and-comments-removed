@@ -3038,7 +3038,7 @@ aContentType
 mozilla
 :
 :
-Function
+function
 <
 bool
 (
@@ -3051,7 +3051,7 @@ aSubtypeFilter
 mozilla
 :
 :
-Function
+function
 <
 bool
 (

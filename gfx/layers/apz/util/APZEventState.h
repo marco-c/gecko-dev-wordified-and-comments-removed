@@ -110,7 +110,7 @@ class
 ActiveElementManager
 ;
 typedef
-Function
+function
 <
 void
 (
