@@ -79,6 +79,14 @@ config
 {
     
 "
+stage_product
+"
+:
+"
+mobile
+"
+    
+"
 log_name
 "
 :
