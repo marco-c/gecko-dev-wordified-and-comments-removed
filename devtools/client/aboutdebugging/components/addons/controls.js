@@ -532,8 +532,6 @@ Strings
 GetStringFromName
 (
 "
-addonDebugging
-.
 moreInfo
 "
 )
