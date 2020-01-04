@@ -46,10 +46,6 @@ ca
 -
 certificates
 \
-curl
-\
-jq
-\
 python
 \
 sudo
