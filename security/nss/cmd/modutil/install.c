@@ -1101,7 +1101,7 @@ static
 void
 error
 (
-PRErrorCode
+Pk11Install_Error
 errcode
 .
 .

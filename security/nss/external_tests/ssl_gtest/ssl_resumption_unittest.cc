@@ -1,5 +1,12 @@
 #
 include
+"
+ssl
+.
+h
+"
+#
+include
 <
 functional
 >
@@ -12,13 +19,6 @@ memory
 include
 "
 secerr
-.
-h
-"
-#
-include
-"
-ssl
 .
 h
 "
@@ -1386,7 +1386,7 @@ c1
 new
 TlsExtensionCapture
 (
-ssl_tls13_pre_shared_key_xtn
+kTlsExtensionPreSharedKey
 )
 ;
 client_
@@ -1501,7 +1501,7 @@ c2
 new
 TlsExtensionCapture
 (
-ssl_tls13_pre_shared_key_xtn
+kTlsExtensionPreSharedKey
 )
 ;
 client_
@@ -1701,7 +1701,7 @@ capture
 new
 TlsExtensionCapture
 (
-ssl_tls13_pre_shared_key_xtn
+kTlsExtensionPreSharedKey
 )
 ;
 client_
@@ -1837,7 +1837,7 @@ clientCapture
 new
 TlsExtensionCapture
 (
-ssl_tls13_pre_shared_key_xtn
+kTlsExtensionPreSharedKey
 )
 ;
 client_
@@ -1855,7 +1855,7 @@ serverCapture
 new
 TlsExtensionCapture
 (
-ssl_tls13_pre_shared_key_xtn
+kTlsExtensionPreSharedKey
 )
 ;
 server_

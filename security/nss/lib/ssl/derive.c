@@ -3629,7 +3629,7 @@ ecGroup
 =
 ssl_GetECGroupWithStrength
 (
-NULL
+PR_UINT32_MAX
 requiredECCbits
 )
 ;

@@ -214,9 +214,6 @@ tls13_HandleClientKeyShare
 sslSocket
 *
 ss
-PRBool
-*
-retry
 )
 ;
 SECStatus

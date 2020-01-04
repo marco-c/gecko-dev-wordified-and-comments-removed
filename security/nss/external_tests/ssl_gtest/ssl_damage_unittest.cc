@@ -1,5 +1,12 @@
 #
 include
+"
+ssl
+.
+h
+"
+#
+include
 <
 functional
 >
@@ -12,13 +19,6 @@ memory
 include
 "
 secerr
-.
-h
-"
-#
-include
-"
-ssl
 .
 h
 "
@@ -287,7 +287,7 @@ server_
 >
 CheckErrorCode
 (
-SSL_ERROR_BAD_MAC_READ
+SSL_ERROR_DECRYPT_ERROR_ALERT
 )
 ;
 }

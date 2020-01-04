@@ -1039,7 +1039,7 @@ release
 +
 global
 :
-SSL_NamedGroupConfig
+SSL_NamedGroupPrefSet
 ;
 ;
 +
