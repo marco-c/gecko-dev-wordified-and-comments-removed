@@ -46,15 +46,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -458,7 +449,7 @@ private
 :
 nsTArray
 <
-UniquePtr
+RefPtr
 <
 CancelableBlockState
 >
