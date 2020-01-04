@@ -61,12 +61,6 @@ namespace
 dom
 {
 class
-MessagePortBase
-;
-class
-MessagePortIdentifier
-;
-class
 PostMessageEvent
 final
 :

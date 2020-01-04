@@ -221,11 +221,6 @@ Location
 h
 '
 '
-MessagePort
-.
-h
-'
-'
 Navigator
 .
 h
@@ -327,11 +322,6 @@ cpp
 '
 '
 Location
-.
-cpp
-'
-'
-MessagePort
 .
 cpp
 '
