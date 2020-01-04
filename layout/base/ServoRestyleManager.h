@@ -257,7 +257,8 @@ nsAttrValue
 *
 aOldValue
 )
-;
+{
+}
 nsresult
 ReparentStyleContext
 (
