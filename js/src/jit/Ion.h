@@ -120,6 +120,16 @@ CompileRuntime
 rt
 )
 ;
+JitContext
+(
+CompileRuntime
+*
+rt
+TempAllocator
+*
+temp
+)
+;
 ~
 JitContext
 (

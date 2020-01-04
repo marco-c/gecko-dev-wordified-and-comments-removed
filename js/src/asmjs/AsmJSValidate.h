@@ -1,9 +1,9 @@
 #
 ifndef
-jit_AsmJS_h
+asmjs_AsmJSValidate_h
 #
 define
-jit_AsmJS_h
+asmjs_AsmJSValidate_h
 #
 include
 "

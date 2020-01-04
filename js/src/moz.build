@@ -1146,13 +1146,6 @@ UNIFIED_SOURCES
 '
 asmjs
 /
-AsmJSCompile
-.
-cpp
-'
-'
-asmjs
-/
 AsmJSFrameIterator
 .
 cpp
@@ -1182,6 +1175,13 @@ cpp
 asmjs
 /
 AsmJSValidate
+.
+cpp
+'
+'
+asmjs
+/
+WasmIonCompile
 .
 cpp
 '

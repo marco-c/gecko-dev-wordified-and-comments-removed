@@ -104,12 +104,6 @@ const
 OptimizationInfo
 *
 optimizationInfo
-Label
-*
-outOfBoundsLabel
-Label
-*
-conversionErrorLabel
 bool
 usesSignalHandlersForAsmJSOOB
 )
@@ -190,14 +184,6 @@ false
 safeForMinorGC_
 (
 true
-)
-outOfBoundsLabel_
-(
-outOfBoundsLabel
-)
-conversionErrorLabel_
-(
-conversionErrorLabel
 )
 #
 if
