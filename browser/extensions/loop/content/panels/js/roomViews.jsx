@@ -2133,13 +2133,9 @@ img
 src
 =
 "
-loop
-/
 shared
 /
 img
-/
-svg
 /
 glyph
 -
@@ -2214,13 +2210,9 @@ img
 src
 =
 "
-loop
-/
 shared
 /
 img
-/
-svg
 /
 glyph
 -
@@ -3449,8 +3441,6 @@ thumbnail
 |
 |
 "
-loop
-/
 shared
 /
 img

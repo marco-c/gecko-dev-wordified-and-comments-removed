@@ -227,7 +227,7 @@ option
 from
 browser
 /
-components
+extensions
 /
 loop
 eg
@@ -236,7 +236,7 @@ eg
 cd
 browser
 /
-components
+extensions
 /
 loop
 .
@@ -304,7 +304,7 @@ to
 execute
 browser
 /
-components
+extensions
 /
 loop
 /
@@ -405,7 +405,7 @@ in
 the
 browser
 /
-components
+extensions
 /
 loop
 directory
@@ -667,7 +667,7 @@ marionette
 test
 browser
 /
-components
+extensions
 /
 loop
 /

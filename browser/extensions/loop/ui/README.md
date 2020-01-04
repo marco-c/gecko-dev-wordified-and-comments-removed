@@ -54,7 +54,7 @@ command
 :
 browser
 /
-components
+extensions
 /
 loop
 /
