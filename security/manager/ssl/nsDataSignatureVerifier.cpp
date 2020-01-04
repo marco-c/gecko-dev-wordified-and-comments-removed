@@ -663,7 +663,7 @@ NSSCMSSignedData
 *
 signedData
 =
-reinterpret_cast
+static_cast
 <
 NSSCMSSignedData
 *
@@ -1016,7 +1016,7 @@ VerifyCertificateContext
 *
 context
 =
-reinterpret_cast
+static_cast
 <
 VerifyCertificateContext
 *

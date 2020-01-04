@@ -3144,11 +3144,10 @@ void
 aClosure
 )
 {
-CertBlocklist
-*
+auto
 blocklist
 =
-reinterpret_cast
+static_cast
 <
 CertBlocklist
 *

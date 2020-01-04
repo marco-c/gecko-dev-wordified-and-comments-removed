@@ -104,11 +104,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
-uint8_t
-*
+auto
 buf
 =
-reinterpret_cast
+static_cast
 <
 uint8_t
 *

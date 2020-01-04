@@ -2300,7 +2300,7 @@ certList
 >
 certs
 =
-reinterpret_cast
+static_cast
 <
 SECItem
 *
