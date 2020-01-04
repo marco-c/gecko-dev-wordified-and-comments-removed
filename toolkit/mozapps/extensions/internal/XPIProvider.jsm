@@ -21140,13 +21140,6 @@ id
 }
 if
 (
-aAddon
-.
-bootstrap
-)
-{
-if
-(
 aMethod
 =
 =
@@ -21195,7 +21188,6 @@ id
 .
 instanceID
 ;
-}
 }
 if
 (
