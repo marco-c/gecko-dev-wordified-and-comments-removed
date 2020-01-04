@@ -323,6 +323,10 @@ blockLabels_
 (
 lifo
 )
+currentLabelIndex_
+(
+0
+)
 {
 }
 AstModule
