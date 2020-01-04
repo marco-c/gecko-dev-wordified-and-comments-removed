@@ -639,6 +639,10 @@ kBoundaryAppUnits
 ;
 static
 bool
+sSelectionBarEnabled
+;
+static
+bool
 sCaretsExtendedVisibility
 ;
 static
