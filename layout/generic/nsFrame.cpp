@@ -10933,12 +10933,6 @@ clipPropClip
 )
 ;
 }
-MarkAbsoluteFramesForDisplayList
-(
-aBuilder
-dirtyRect
-)
-;
 if
 (
 Extend3DContext
@@ -10955,6 +10949,12 @@ this
 )
 ;
 }
+MarkAbsoluteFramesForDisplayList
+(
+aBuilder
+dirtyRect
+)
+;
 nsDisplayLayerEventRegions
 *
 eventRegions
