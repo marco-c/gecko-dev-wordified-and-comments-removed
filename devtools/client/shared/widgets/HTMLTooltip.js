@@ -223,7 +223,7 @@ normal
 "
 autofocus
 =
-true
+false
 consumeOutsideClicks
 =
 true
