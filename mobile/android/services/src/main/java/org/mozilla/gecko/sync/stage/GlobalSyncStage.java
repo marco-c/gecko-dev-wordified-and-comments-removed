@@ -67,6 +67,7 @@ Stage
 idle
 checkPreconditions
 fetchInfoCollections
+fetchInfoConfiguration
 fetchMetaGlobal
 ensureKeysStage
 syncClientsEngine
