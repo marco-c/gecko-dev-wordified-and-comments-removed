@@ -7,6 +7,13 @@ nsNSSCertificateFakeTransport_h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Vector
@@ -85,8 +92,10 @@ nsNSSCertificateFakeTransport
 ;
 private
 :
-SECItem
-*
+mozilla
+:
+:
+UniqueSECItem
 mCertSerialization
 ;
 }
