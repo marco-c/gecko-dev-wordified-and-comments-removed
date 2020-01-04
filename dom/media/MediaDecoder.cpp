@@ -3839,13 +3839,12 @@ NS_IsMainThread
 )
 )
 ;
-NS_ENSURE_TRUE
+MOZ_ASSERT
 (
 !
 IsShutdown
 (
 )
-NS_ERROR_FAILURE
 )
 ;
 UpdateDormantState
