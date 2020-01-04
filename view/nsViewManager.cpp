@@ -751,6 +751,12 @@ ResizeReflow
 (
 aWidth
 aHeight
+oldDim
+.
+width
+oldDim
+.
+height
 )
 ;
 }
