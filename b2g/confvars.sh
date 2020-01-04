@@ -61,7 +61,7 @@ MOZ_APP_VENDOR
 Mozilla
 MOZ_APP_VERSION
 =
-45
+44
 .
 0a1
 MOZ_APP_UA_NAME
@@ -74,7 +74,7 @@ MOZ_B2G_VERSION
 =
 2
 .
-5
+6
 .
 0
 .

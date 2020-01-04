@@ -88,9 +88,9 @@ MOZ_APP_UA_NAME
 Firefox
 MOZ_B2G_VERSION
 =
-3
+2
 .
-0
+6
 .
 0
 .
