@@ -381,6 +381,10 @@ if
 mDoneDecoding
 )
 {
+mCurrentAnimationFrameTime
+=
+aTime
+;
 return
 ret
 ;
