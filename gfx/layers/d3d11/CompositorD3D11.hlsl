@@ -2641,7 +2641,13 @@ a
 )
 {
 return
-backdrop
+float4
+(
+0
+0
+0
+0
+)
 ;
 }
 /
