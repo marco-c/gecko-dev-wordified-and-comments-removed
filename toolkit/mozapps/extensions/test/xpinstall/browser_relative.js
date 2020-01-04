@@ -86,7 +86,7 @@ XPI
 URL
 :
 "
-unsigned
+amosigned
 .
 xpi
 "
@@ -215,7 +215,7 @@ url
 TESTROOT
 +
 "
-unsigned
+amosigned
 .
 xpi
 "

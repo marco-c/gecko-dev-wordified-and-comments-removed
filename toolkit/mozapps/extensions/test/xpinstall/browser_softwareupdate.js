@@ -81,7 +81,7 @@ encodeURIComponent
 TESTROOT
 +
 "
-unsigned
+amosigned
 .
 xpi
 "

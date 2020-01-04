@@ -71,7 +71,7 @@ XPI
 TESTROOT2
 +
 "
-unsigned
+amosigned
 .
 xpi
 "

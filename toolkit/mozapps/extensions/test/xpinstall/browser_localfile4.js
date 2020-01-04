@@ -122,7 +122,7 @@ XPI
 TESTROOT
 +
 "
-unsigned
+amosigned
 .
 xpi
 "

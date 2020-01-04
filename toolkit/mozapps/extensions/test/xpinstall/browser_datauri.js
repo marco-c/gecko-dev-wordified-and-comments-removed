@@ -127,7 +127,7 @@ href
 TESTROOT
 +
 "
-unsigned
+amosigned
 .
 xpi
 '

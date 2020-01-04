@@ -80,7 +80,7 @@ sjs
 TESTROOT
 +
 "
-unsigned
+amosigned
 .
 xpi
 "
