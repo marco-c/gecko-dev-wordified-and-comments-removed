@@ -153,9 +153,10 @@ pages
 .
 map
 (
+function
+(
 uri
-=
->
+)
 (
 {
 uri

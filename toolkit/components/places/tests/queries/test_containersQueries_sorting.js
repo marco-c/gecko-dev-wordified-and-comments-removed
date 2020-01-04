@@ -350,9 +350,10 @@ aSequences
 .
 map
 (
+function
+(
 i
-=
->
+)
 0
 )
 ;
@@ -1816,9 +1817,10 @@ pages
 .
 forEach
 (
+function
+(
 aPageUrl
-=
->
+)
 visits
 .
 push

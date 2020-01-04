@@ -454,9 +454,10 @@ logins
 .
 forEach
 (
+function
+(
 login
-=
->
+)
 pwmgr
 .
 addLogin

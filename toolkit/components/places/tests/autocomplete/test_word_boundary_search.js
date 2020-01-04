@@ -271,10 +271,9 @@ match
 4
 9
 ]
+function
 (
 )
-=
->
 setBehavior
 (
 2
@@ -620,10 +619,9 @@ tch
 5
 9
 ]
+function
 (
 )
-=
->
 setBehavior
 (
 1

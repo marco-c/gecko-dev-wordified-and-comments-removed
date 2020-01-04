@@ -243,9 +243,10 @@ logins
 .
 forEach
 (
+function
+(
 login
-=
->
+)
 Services
 .
 logins

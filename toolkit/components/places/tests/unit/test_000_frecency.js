@@ -1084,12 +1084,11 @@ results
 .
 sort
 (
+function
 (
 a
 b
 )
-=
->
 b
 [
 1
@@ -1365,9 +1364,10 @@ else
 let
 getFrecency
 =
+function
+(
 aURL
-=
->
+)
 aURL
 .
 match

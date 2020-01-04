@@ -631,9 +631,10 @@ j
 .
 map
 (
+function
+(
 x
-=
->
+)
 testData
 [
 x
@@ -991,9 +992,10 @@ secondIndex
 .
 map
 (
+function
+(
 x
-=
->
+)
 testData
 [
 x

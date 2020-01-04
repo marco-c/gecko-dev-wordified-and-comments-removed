@@ -606,10 +606,9 @@ selectedIndex
 0
 getValueAt
 :
+function
 (
 )
-=
->
 aUrl
 searchString
 :

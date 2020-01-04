@@ -2159,10 +2159,9 @@ erroneous
 {
 do_check_throws
 (
+function
 (
 )
-=
->
 cps
 .
 getCachedBySubdomainAndName
@@ -2177,10 +2176,9 @@ null
 ;
 do_check_throws
 (
+function
 (
 )
-=
->
 cps
 .
 getCachedBySubdomainAndName
@@ -2196,10 +2194,9 @@ null
 ;
 do_check_throws
 (
+function
 (
 )
-=
->
 cps
 .
 getCachedBySubdomainAndName
@@ -2217,10 +2214,9 @@ null
 ;
 do_check_throws
 (
+function
 (
 )
-=
->
 cps
 .
 getCachedBySubdomainAndName
