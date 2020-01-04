@@ -123,12 +123,9 @@ blank
 )
 ;
 yield
-waitForDispatch
+waitForNavigation
 (
 gPanel
-constants
-.
-LOAD_SOURCES
 )
 ;
 isnot

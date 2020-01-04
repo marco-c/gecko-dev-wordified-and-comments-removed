@@ -1892,17 +1892,6 @@ handleTabNavigation
 (
 )
 ;
-this
-.
-dispatch
-(
-actions
-.
-loadSources
-(
-)
-)
-;
 }
 _onTabDetached
 :
