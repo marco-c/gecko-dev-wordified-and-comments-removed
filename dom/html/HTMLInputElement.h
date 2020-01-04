@@ -3246,12 +3246,6 @@ return
 DoesMinMaxApply
 (
 )
-&
-&
-mType
-!
-=
-NS_FORM_INPUT_MONTH
 ;
 }
 bool
@@ -3804,6 +3798,11 @@ static
 const
 Decimal
 kStepScaleFactorTime
+;
+static
+const
+Decimal
+kStepScaleFactorMonth
 ;
 static
 const
