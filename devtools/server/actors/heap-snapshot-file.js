@@ -155,13 +155,7 @@ if
 (
 Services
 .
-appInfo
-&
-&
-(
-Services
-.
-appInfo
+appinfo
 .
 processType
 !
@@ -169,10 +163,9 @@ processType
 =
 Services
 .
-appInfo
+appinfo
 .
 PROCESS_TYPE_DEFAULT
-)
 )
 {
 const
