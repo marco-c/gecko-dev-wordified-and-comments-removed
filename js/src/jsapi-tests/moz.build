@@ -504,11 +504,6 @@ testThreadingExclusiveData
 cpp
 '
 '
-testThreadingMultipleRuntimes
-.
-cpp
-'
-'
 testThreadingMutex
 .
 cpp
