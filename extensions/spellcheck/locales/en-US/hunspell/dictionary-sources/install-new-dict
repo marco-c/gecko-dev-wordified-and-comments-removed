@@ -173,7 +173,9 @@ s
 /
 ^
 SET
-UTF8
+UTF
+-
+8
 /
 SET
 ISO8859
