@@ -112,6 +112,14 @@ cairo
 =
 [
 '
+!
+cairo
+-
+features
+.
+h
+'
+'
 cairo
 -
 deprecated
