@@ -8,14 +8,9 @@ XPC_WRAPPER_H
 #
 include
 "
-xpcprivate
-.
-h
-"
-#
-include
-"
-jswrapper
+js
+/
+TypeDecls
 .
 h
 "
