@@ -2767,6 +2767,11 @@ Text
 webidl
 '
 '
+TextClause
+.
+webidl
+'
+'
 TextDecoder
 .
 webidl

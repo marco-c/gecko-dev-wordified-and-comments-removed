@@ -364,6 +364,11 @@ StorageEvent
 h
 '
 '
+TextClause
+.
+h
+'
+'
 Touch
 .
 h
@@ -597,6 +602,11 @@ cpp
 '
 '
 StorageEvent
+.
+cpp
+'
+'
+TextClause
 .
 cpp
 '

@@ -1565,6 +1565,12 @@ aEvent
 .
 mOriginalMessage
 ;
+mRanges
+=
+aEvent
+.
+mRanges
+;
 }
 bool
 IsComposing
