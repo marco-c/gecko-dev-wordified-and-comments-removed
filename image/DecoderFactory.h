@@ -67,6 +67,9 @@ class
 Decoder
 ;
 class
+IDecodingTask
+;
+class
 RasterImage
 ;
 class
@@ -103,7 +106,7 @@ aMimeType
 static
 already_AddRefed
 <
-Decoder
+IDecodingTask
 >
 CreateDecoder
 (
@@ -136,7 +139,7 @@ aSampleSize
 static
 already_AddRefed
 <
-Decoder
+IDecodingTask
 >
 CreateAnimationDecoder
 (
@@ -157,7 +160,7 @@ aSurfaceFlags
 static
 already_AddRefed
 <
-Decoder
+IDecodingTask
 >
 CreateMetadataDecoder
 (
