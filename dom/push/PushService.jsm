@@ -2766,13 +2766,6 @@ PUSH_SERVICE_UNINIT
 return
 ;
 }
-this
-.
-_setState
-(
-PUSH_SERVICE_UNINIT
-)
-;
 prefs
 .
 ignore
@@ -2804,6 +2797,7 @@ _stateChangeProcessEnqueue
 _
 =
 >
+{
 this
 .
 _changeServerURL
@@ -2812,6 +2806,12 @@ _changeServerURL
 "
 UNINIT_EVENT
 )
+;
+this
+.
+_setState
+(
+PUSH_SERVICE_UNINIT
 )
 ;
 console
@@ -2825,6 +2825,9 @@ shutdown
 complete
 !
 "
+)
+;
+}
 )
 ;
 }
