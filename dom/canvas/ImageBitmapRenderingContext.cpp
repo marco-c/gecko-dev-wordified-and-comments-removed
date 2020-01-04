@@ -992,7 +992,7 @@ imageContainer
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 ImageContainer
 :

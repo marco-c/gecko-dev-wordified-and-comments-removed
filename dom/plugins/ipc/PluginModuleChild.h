@@ -1334,7 +1334,7 @@ _savedNestableTasksAllowed
 ;
 }
 ;
-AutoTArray
+nsAutoTArray
 <
 IncallFrame
 8

@@ -1959,7 +1959,7 @@ IsConnected
 )
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 TimedTexture
 4
@@ -3815,7 +3815,7 @@ attrs
 )
 ;
 }
-AutoTArray
+AutoInfallibleTArray
 <
 Edit
 10

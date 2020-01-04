@@ -80,7 +80,7 @@ widget
 "
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 Accessible
 *

@@ -10734,7 +10734,7 @@ stdout
 }
 #
 endif
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -10923,7 +10923,7 @@ aIntrinsicDirty
 eStyleChange
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -18441,7 +18441,7 @@ ReconstructStyleDataInternal
 (
 )
 {
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -25746,7 +25746,7 @@ false
 nsDisplayList
 list
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -30259,7 +30259,7 @@ eKeyUp
 return
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -30432,7 +30432,7 @@ mMessage
 eKeyUp
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <

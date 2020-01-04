@@ -75,7 +75,7 @@ outItems
 HRESULT
 result
 ;
-AutoTArray
+nsAutoTArray
 <
 SCRIPT_ITEM
 64
@@ -213,7 +213,7 @@ iItem
 .
 iCharPos
 ;
-AutoTArray
+nsAutoTArray
 <
 SCRIPT_LOGATTR
 64

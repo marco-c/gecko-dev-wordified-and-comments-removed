@@ -1066,7 +1066,7 @@ nsIThread
 >
 mInitShutdownThread
 ;
-AutoTArray
+nsAutoTArray
 <
 StreamAndPromiseForOperation
 1

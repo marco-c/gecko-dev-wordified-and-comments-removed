@@ -1154,7 +1154,7 @@ aFlow
 bool
 mAllocateEven
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -1176,7 +1176,7 @@ QueuedDataMessage
 >
 mQueuedData
 ;
-AutoTArray
+nsAutoTArray
 <
 uint16_t
 4

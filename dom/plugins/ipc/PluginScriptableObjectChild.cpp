@@ -2078,7 +2078,7 @@ type
 "
 )
 ;
-AutoTArray
+AutoInfallibleTArray
 <
 PluginIdentifier
 10
@@ -3802,7 +3802,7 @@ return
 true
 ;
 }
-AutoTArray
+AutoFallibleTArray
 <
 NPVariant
 10
@@ -4161,7 +4161,7 @@ return
 true
 ;
 }
-AutoTArray
+AutoFallibleTArray
 <
 NPVariant
 10
@@ -5484,7 +5484,7 @@ return
 true
 ;
 }
-AutoTArray
+AutoFallibleTArray
 <
 NPVariant
 10

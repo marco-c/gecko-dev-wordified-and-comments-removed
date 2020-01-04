@@ -113,14 +113,14 @@ Length
 }
 private
 :
-AutoTArray
+nsAutoTArray
 <
 coord
 6
 >
 mVertexCoords
 ;
-AutoTArray
+nsAutoTArray
 <
 coord
 6

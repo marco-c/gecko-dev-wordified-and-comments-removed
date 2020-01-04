@@ -1338,7 +1338,7 @@ RequestMode
 Cors
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsCString
 5
@@ -2900,7 +2900,7 @@ MOZ_ASSERT
 aChannel
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 InternalHeaders
 :

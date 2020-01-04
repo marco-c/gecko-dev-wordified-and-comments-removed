@@ -6689,7 +6689,7 @@ MaybeNativeKeyBinding
 aBindings
 )
 {
-AutoTArray
+AutoInfallibleTArray
 <
 mozilla
 :
@@ -6699,7 +6699,7 @@ CommandInt
 >
 singleLine
 ;
-AutoTArray
+AutoInfallibleTArray
 <
 mozilla
 :
@@ -6709,7 +6709,7 @@ CommandInt
 >
 multiLine
 ;
-AutoTArray
+AutoInfallibleTArray
 <
 mozilla
 :
@@ -7613,7 +7613,7 @@ GetWidget
 (
 )
 ;
-AutoTArray
+AutoInfallibleTArray
 <
 mozilla
 :
@@ -7623,7 +7623,7 @@ CommandInt
 >
 singleLine
 ;
-AutoTArray
+AutoInfallibleTArray
 <
 mozilla
 :
@@ -7633,7 +7633,7 @@ CommandInt
 >
 multiLine
 ;
-AutoTArray
+AutoInfallibleTArray
 <
 mozilla
 :

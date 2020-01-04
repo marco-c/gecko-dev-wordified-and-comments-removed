@@ -880,7 +880,7 @@ if
 nativeKeyEvent
 )
 {
-AutoTArray
+nsAutoTArray
 <
 uint32_t
 10

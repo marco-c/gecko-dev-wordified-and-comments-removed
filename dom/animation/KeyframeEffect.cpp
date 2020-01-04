@@ -5861,7 +5861,7 @@ ErrorResult
 aRv
 )
 {
-AutoTArray
+nsAutoTArray
 <
 OffsetIndexedKeyframe
 4

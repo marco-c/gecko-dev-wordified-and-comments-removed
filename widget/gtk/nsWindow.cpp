@@ -9036,7 +9036,7 @@ gdkWin
 )
 )
 {
-AutoTArray
+nsAutoTArray
 <
 LayoutDeviceIntRect
 1
@@ -18049,7 +18049,7 @@ newRects
 &
 aRects
 ;
-AutoTArray
+nsAutoTArray
 <
 LayoutDeviceIntRect
 1
@@ -18061,7 +18061,7 @@ if
 aIntersectWithExisting
 )
 {
-AutoTArray
+nsAutoTArray
 <
 LayoutDeviceIntRect
 1
@@ -21340,7 +21340,7 @@ if
 aAlwaysRollup
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsIWidget
 *

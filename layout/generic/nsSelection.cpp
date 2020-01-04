@@ -15053,7 +15053,7 @@ if
 mUserInitiated
 )
 {
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <

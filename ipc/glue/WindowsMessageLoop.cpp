@@ -3309,7 +3309,7 @@ once
 gNeuteredWindows
 =
 new
-AutoTArray
+nsAutoTArray
 <
 HWND
 20

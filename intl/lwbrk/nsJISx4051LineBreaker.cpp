@@ -2462,7 +2462,7 @@ true
 int32_t
 ret
 ;
-AutoTArray
+nsAutoTArray
 <
 uint8_t
 2000

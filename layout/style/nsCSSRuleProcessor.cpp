@@ -735,7 +735,7 @@ RuleHashTableEntry
 public
 PLDHashEntryHdr
 {
-AutoTArray
+nsAutoTArray
 <
 RuleValue
 1
@@ -3813,7 +3813,7 @@ nsIAtom
 *
 mAtom
 ;
-AutoTArray
+nsAutoTArray
 <
 SelectorPair
 2
@@ -17879,7 +17879,7 @@ true
 "
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 Element
 *
@@ -17986,7 +17986,7 @@ aElement
 )
 )
 {
-AutoTArray
+nsAutoTArray
 <
 Element
 *

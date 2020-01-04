@@ -497,7 +497,7 @@ aOutput
 }
 else
 {
-AutoTArray
+nsAutoTArray
 <
 SrcT
 *
@@ -505,7 +505,7 @@ GUESS_AUDIO_CHANNELS
 >
 outputChannelData
 ;
-AutoTArray
+nsAutoTArray
 <
 SrcT
 SilentChannel
@@ -1175,7 +1175,7 @@ Next
 )
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsTArray
 <
@@ -1185,7 +1185,7 @@ GUESS_AUDIO_CHANNELS
 >
 output
 ;
-AutoTArray
+nsAutoTArray
 <
 const
 T
@@ -2033,7 +2033,7 @@ AudioDataValue
 aOutputBuffer
 )
 {
-AutoTArray
+nsAutoTArray
 <
 const
 SrcT

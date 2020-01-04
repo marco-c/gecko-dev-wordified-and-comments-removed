@@ -683,7 +683,7 @@ AssertIsOnMainThread
 ;
 \
 \
-AutoTArray
+nsAutoTArray
 <
 WorkerPrivate
 *
@@ -7729,7 +7729,7 @@ FromSeconds
 TimeStamp
 nextExpiration
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -8746,7 +8746,7 @@ lock
 mMutex
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 WorkerPrivate
 *
@@ -8919,7 +8919,7 @@ lock
 mMutex
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 WorkerPrivate
 *
@@ -8973,7 +8973,7 @@ IsEmpty
 )
 )
 {
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -9837,7 +9837,7 @@ AssertIsOnMainThread
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 WorkerPrivate
 *
@@ -9982,7 +9982,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 WorkerPrivate
 *
@@ -10101,7 +10101,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 WorkerPrivate
 *
@@ -10220,7 +10220,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 WorkerPrivate
 *
@@ -10286,7 +10286,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 WorkerPrivate
 *

@@ -4511,7 +4511,7 @@ aPaintContext
 mLayer
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 Layer
 *

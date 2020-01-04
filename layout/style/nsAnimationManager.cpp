@@ -2686,7 +2686,7 @@ PlayFromStyle
 )
 ;
 }
-AutoTArray
+AutoInfallibleTArray
 <
 KeyframeData
 16
@@ -3054,7 +3054,7 @@ eStyleAnimType_None
 continue
 ;
 }
-AutoTArray
+AutoInfallibleTArray
 <
 uint32_t
 16

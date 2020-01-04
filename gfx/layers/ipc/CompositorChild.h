@@ -675,7 +675,7 @@ DISALLOW_EVIL_CONSTRUCTORS
 CompositorChild
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 ClientLayerManager
 *

@@ -172,7 +172,7 @@ nsITimer
 mTimer
 ;
 typedef
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -202,7 +202,7 @@ aURI
 )
 ;
 typedef
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -238,7 +238,7 @@ aURI
 )
 ;
 typedef
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <

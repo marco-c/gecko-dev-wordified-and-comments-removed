@@ -1586,7 +1586,7 @@ GeckoEditable
 GlobalRef
 mEditable
 ;
-AutoTArray
+nsAutoTArray
 <
 mozilla
 :
@@ -1602,7 +1602,7 @@ WidgetEvent
 >
 mIMEKeyEvents
 ;
-AutoTArray
+nsAutoTArray
 <
 IMETextChange
 4
@@ -11724,7 +11724,7 @@ newEnd
 ;
 }
 ;
-AutoTArray
+nsAutoTArray
 <
 TextRecord
 4

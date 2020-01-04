@@ -7231,7 +7231,7 @@ Layer
 aArray
 )
 {
-AutoTArray
+nsAutoTArray
 <
 Layer
 *

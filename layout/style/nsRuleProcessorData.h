@@ -1120,7 +1120,7 @@ nsRuleWalker
 VisitedHandlingType
 mVisitedHandling
 ;
-AutoTArray
+nsAutoTArray
 <
 mozilla
 :
@@ -1175,7 +1175,7 @@ eNeverMatchVisited
 eMatchVisitedDefault
 }
 ;
-AutoTArray
+nsAutoTArray
 <
 mozilla
 :

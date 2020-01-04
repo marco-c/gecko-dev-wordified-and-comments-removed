@@ -680,7 +680,7 @@ nsTableFrame
 &
 mTableFrame
 ;
-AutoTArray
+nsAutoTArray
 <
 nsColInfo
 8

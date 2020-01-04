@@ -9820,7 +9820,7 @@ GetListValue
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 gfxAlternateValue
 8

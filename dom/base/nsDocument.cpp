@@ -15281,7 +15281,7 @@ rootFrame
 return
 NS_OK
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -49059,7 +49059,7 @@ GetFullscreenLeaf
 this
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsDocument
 *
@@ -51779,7 +51779,7 @@ GetFullscreenLeaf
 this
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIDocument
 *

@@ -1980,7 +1980,7 @@ gfxCharacterMap
 (
 )
 ;
-AutoTArray
+AutoFallibleTArray
 <
 uint8_t
 16384
@@ -2246,7 +2246,7 @@ CopyFontTable
 (
 uint32_t
 aTableTag
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
@@ -6798,7 +6798,7 @@ nsStringHashKey
 aSkipSpaceLookupCheck
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsString
 5

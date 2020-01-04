@@ -56755,7 +56755,7 @@ dedent
 "
 "
             
-AutoTArray
+nsAutoTArray
 <
 nsString
 8
@@ -72023,7 +72023,7 @@ dedent
 "
 "
             
-AutoTArray
+nsAutoTArray
 <
 nsString
 8

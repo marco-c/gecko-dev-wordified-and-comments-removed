@@ -299,7 +299,7 @@ TPFileDescriptorSetChild
 return
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 FileDescriptor
 4
@@ -520,7 +520,7 @@ TPFileDescriptorSetParent
 return
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 FileDescriptor
 4
@@ -1509,7 +1509,7 @@ headers
 )
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsCString
 16

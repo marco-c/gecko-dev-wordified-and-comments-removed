@@ -1587,7 +1587,7 @@ nsIPrincipal
 >
 mPrincipal
 ;
-AutoTArray
+nsAutoTArray
 <
 JS
 :

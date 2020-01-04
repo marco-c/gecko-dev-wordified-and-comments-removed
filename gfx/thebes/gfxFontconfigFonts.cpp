@@ -485,7 +485,7 @@ aName
 )
 {
 }
-AutoTArray
+AutoFallibleTArray
 <
 nsCountedRef
 <
@@ -788,7 +788,7 @@ CopyFontTable
 (
 uint32_t
 aTableTag
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
@@ -824,7 +824,7 @@ CopyFontTable
 (
 uint32_t
 aTableTag
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
@@ -3026,7 +3026,7 @@ FcFontSet
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 LangSupportEntry
 10
@@ -4474,7 +4474,7 @@ void
 aClosure
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsString
 5
@@ -5464,7 +5464,7 @@ lang
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsString
 20

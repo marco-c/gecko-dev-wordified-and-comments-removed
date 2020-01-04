@@ -1115,7 +1115,7 @@ mLookahead
 ;
 }
 }
-AutoTArray
+nsAutoTArray
 <
 AudioDataValue
 9600
@@ -1292,7 +1292,7 @@ if
 mResampler
 )
 {
-AutoTArray
+nsAutoTArray
 <
 AudioDataValue
 9600

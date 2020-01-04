@@ -5253,7 +5253,7 @@ FirstChild
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -5323,7 +5323,7 @@ aFrameItems
 }
 else
 {
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -11497,7 +11497,7 @@ frame
 "
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIAnonymousContentCreator
 :
@@ -16502,7 +16502,7 @@ nsFrameItems
 aChildItems
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsIAnonymousContentCreator
 :
@@ -43655,7 +43655,7 @@ true
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsIAnonymousContentCreator
 :

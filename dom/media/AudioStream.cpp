@@ -501,7 +501,7 @@ RemoveElementAt
 }
 private
 :
-AutoTArray
+nsAutoTArray
 <
 Chunk
 7
@@ -1307,7 +1307,7 @@ format
 "
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 uint8_t
 1024
@@ -2910,7 +2910,7 @@ Frames
 }
 else
 {
-AutoTArray
+nsAutoTArray
 <
 AudioDataValue
 1000

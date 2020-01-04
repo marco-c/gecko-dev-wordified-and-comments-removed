@@ -795,7 +795,7 @@ commandList
 commandList
 =
 new
-AutoTArray
+nsAutoTArray
 <
 nsCString
 8

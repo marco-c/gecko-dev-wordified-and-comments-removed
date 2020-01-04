@@ -2588,7 +2588,7 @@ nsMutationReceiver
 >
 mTransientReceivers
 ;
-AutoTArray
+nsAutoTArray
 <
 nsDOMMutationRecord
 *
@@ -2638,7 +2638,7 @@ uint64_t
 sCount
 ;
 static
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -2659,9 +2659,9 @@ uint32_t
 sMutationLevel
 ;
 static
-AutoTArray
+nsAutoTArray
 <
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -3190,7 +3190,7 @@ nsAutoMutationBatch
 *
 mPreviousBatch
 ;
-AutoTArray
+nsAutoTArray
 <
 BatchObserver
 2
@@ -3920,7 +3920,7 @@ nsAutoAnimationMutationBatch
 *
 sCurrentBatch
 ;
-AutoTArray
+nsAutoTArray
 <
 nsDOMMutationObserver
 *

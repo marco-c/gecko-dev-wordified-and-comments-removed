@@ -777,7 +777,7 @@ mStartRootIndex
 int32_t
 mEndRootIndex
 ;
-AutoTArray
+nsAutoTArray
 <
 nsINode
 *
@@ -785,7 +785,7 @@ nsINode
 >
 mCommonAncestors
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIContent
 *
@@ -793,14 +793,14 @@ nsIContent
 >
 mStartNodes
 ;
-AutoTArray
+nsAutoTArray
 <
 int32_t
 8
 >
 mStartOffsets
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIContent
 *
@@ -808,7 +808,7 @@ nsIContent
 >
 mEndNodes
 ;
-AutoTArray
+nsAutoTArray
 <
 int32_t
 8

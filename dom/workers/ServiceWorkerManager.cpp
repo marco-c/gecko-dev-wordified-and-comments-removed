@@ -10986,7 +10986,7 @@ rv
 return
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 uint64_t
 16
@@ -21991,7 +21991,7 @@ NS_OK
 }
 private
 :
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <

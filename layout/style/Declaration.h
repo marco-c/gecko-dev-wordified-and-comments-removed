@@ -1345,7 +1345,7 @@ const
 ;
 private
 :
-AutoTArray
+nsAutoTArray
 <
 uint32_t
 8

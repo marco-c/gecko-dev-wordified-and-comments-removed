@@ -468,7 +468,7 @@ BidiParagraphData
 nsString
 mBuffer
 ;
-AutoTArray
+nsAutoTArray
 <
 char16_t
 16
@@ -1763,7 +1763,7 @@ int32_t
 >
 mIndexMap
 ;
-AutoTArray
+nsAutoTArray
 <
 uint8_t
 18

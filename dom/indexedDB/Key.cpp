@@ -2172,7 +2172,7 @@ MOZ_ASSERT
 collator
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 uint8_t
 128

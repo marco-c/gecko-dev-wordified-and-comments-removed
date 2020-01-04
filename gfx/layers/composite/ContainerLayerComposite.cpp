@@ -1223,7 +1223,7 @@ SetRenderTarget
 surface
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 Layer
 *
@@ -2083,7 +2083,7 @@ CompositingRenderTarget
 >
 mTmpTarget
 ;
-AutoTArray
+nsAutoTArray
 <
 PreparedLayer
 12
@@ -2187,7 +2187,7 @@ IsValid
 return
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 Layer
 *

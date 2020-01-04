@@ -14102,7 +14102,7 @@ return
 true
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 PropertyStyleAnimationValuePair
 1

@@ -951,7 +951,7 @@ AsCompositable
 op
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 CompositableHost
 :

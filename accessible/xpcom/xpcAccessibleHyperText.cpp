@@ -1468,7 +1468,7 @@ rv
 rv
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 TextRange
 1

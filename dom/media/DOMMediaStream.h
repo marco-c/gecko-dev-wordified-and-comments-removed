@@ -1240,7 +1240,7 @@ MediaInputPort
 >
 mPlaybackPort
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -1250,7 +1250,7 @@ TrackPort
 >
 mOwnedTracks
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <

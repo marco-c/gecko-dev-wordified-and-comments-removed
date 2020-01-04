@@ -2692,7 +2692,7 @@ mTransactionStart
 bool
 sent
 ;
-AutoTArray
+AutoInfallibleTArray
 <
 EditReply
 10

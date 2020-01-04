@@ -1729,7 +1729,7 @@ outputChannelCount
 =
 1
 ;
-AutoTArray
+nsAutoTArray
 <
 const
 AudioBlock
@@ -2011,7 +2011,7 @@ AllocateChannels
 outputChannelCount
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 float
 GUESS_AUDIO_CHANNELS
@@ -2075,7 +2075,7 @@ float
 aDownmixBuffer
 )
 {
-AutoTArray
+nsAutoTArray
 <
 const
 float
@@ -2385,7 +2385,7 @@ ChannelInterpretation
 Speakers
 )
 {
-AutoTArray
+nsAutoTArray
 <
 float
 *

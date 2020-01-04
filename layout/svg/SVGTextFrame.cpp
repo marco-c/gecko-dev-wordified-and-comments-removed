@@ -5156,7 +5156,7 @@ mCurrentFrame
 nsPoint
 mCurrentPosition
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -5164,7 +5164,7 @@ nsIFrame
 >
 mTextPathFrames
 ;
-AutoTArray
+nsAutoTArray
 <
 uint8_t
 8

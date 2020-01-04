@@ -1238,7 +1238,7 @@ AssertOwnerThread
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -1275,7 +1275,7 @@ mContainer
 return
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 ImageContainer
 :

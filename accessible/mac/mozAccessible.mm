@@ -2442,7 +2442,7 @@ thickness
 }
 else
 {
-AutoTArray
+nsAutoTArray
 <
 Attribute
 10
@@ -3951,7 +3951,7 @@ if
 accWrap
 )
 {
-AutoTArray
+nsAutoTArray
 <
 Accessible
 *
@@ -3989,7 +3989,7 @@ getProxyAccessible
 ]
 )
 {
-AutoTArray
+nsAutoTArray
 <
 ProxyAccessible
 *

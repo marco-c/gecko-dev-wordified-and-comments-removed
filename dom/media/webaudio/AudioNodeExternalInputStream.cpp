@@ -213,7 +213,7 @@ ChannelCount
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 const
 T
@@ -701,7 +701,7 @@ GetSource
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 AudioSegment
 1
@@ -1057,7 +1057,7 @@ if
 inputChannels
 )
 {
-AutoTArray
+nsAutoTArray
 <
 float
 GUESS_AUDIO_CHANNELS

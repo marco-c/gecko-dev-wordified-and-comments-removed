@@ -4407,7 +4407,7 @@ ErrorResult
 aRv
 )
 {
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <

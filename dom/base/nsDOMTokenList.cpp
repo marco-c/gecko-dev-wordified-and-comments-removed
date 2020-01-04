@@ -519,7 +519,7 @@ oneWasAdded
 =
 false
 ;
-AutoTArray
+nsAutoTArray
 <
 nsString
 10
@@ -736,7 +736,7 @@ ErrorResult
 aError
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsString
 1
@@ -1136,7 +1136,7 @@ ErrorResult
 aError
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsString
 1
@@ -1257,7 +1257,7 @@ Contains
 aToken
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsString
 1

@@ -10538,7 +10538,7 @@ nsIContent
 aNewLeftNode
 )
 {
-AutoTArray
+nsAutoTArray
 <
 SavedRange
 10
@@ -11309,7 +11309,7 @@ aNodeToKeep
 keepOffset
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 SavedRange
 10

@@ -1369,7 +1369,7 @@ Show
 true
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIWidget
 :

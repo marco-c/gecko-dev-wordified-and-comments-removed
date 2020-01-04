@@ -3328,7 +3328,7 @@ aStream
 )
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 bool
 2
@@ -4419,7 +4419,7 @@ GetCurrentTimeStamp
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 ImageContainer
 :
@@ -4820,7 +4820,7 @@ GetImage
 )
 return
 ;
-AutoTArray
+nsAutoTArray
 <
 ImageContainer
 :
@@ -4870,7 +4870,7 @@ mVideoOutputs
 i
 ]
 ;
-AutoTArray
+nsAutoTArray
 <
 ImageContainer
 :

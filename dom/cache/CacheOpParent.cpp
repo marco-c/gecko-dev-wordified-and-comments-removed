@@ -377,7 +377,7 @@ requestResponseList
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -387,7 +387,7 @@ nsIInputStream
 >
 requestStreamList
 ;
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -1007,7 +1007,7 @@ forget
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 FileDescriptor
 4

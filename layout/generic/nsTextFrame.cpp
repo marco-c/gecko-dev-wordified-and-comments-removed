@@ -4502,14 +4502,14 @@ mOffsetIntoTextRun
 ;
 private
 :
-AutoTArray
+nsAutoTArray
 <
 MappedFlow
 10
 >
 mMappedFlows
 ;
-AutoTArray
+nsAutoTArray
 <
 nsTextFrame
 *
@@ -4517,7 +4517,7 @@ nsTextFrame
 >
 mLineBreakBeforeFrames
 ;
-AutoTArray
+nsAutoTArray
 <
 nsAutoPtr
 <
@@ -4527,7 +4527,7 @@ BreakSink
 >
 mBreakSinks
 ;
-AutoTArray
+nsAutoTArray
 <
 gfxTextRun
 *
@@ -6929,7 +6929,7 @@ INCOMING_ARABICCHAR
 }
 else
 {
-AutoTArray
+AutoFallibleTArray
 <
 uint8_t
 BIG_TEXT_NODE_SIZE
@@ -9072,7 +9072,7 @@ gfxTextRunFactory
 TEXT_INCOMING_ARABICCHAR
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 int32_t
 50
@@ -10097,7 +10097,7 @@ if
 mDoubleByteText
 )
 {
-AutoTArray
+AutoFallibleTArray
 <
 uint8_t
 BIG_TEXT_NODE_SIZE
@@ -10584,7 +10584,7 @@ iter
 skipChars
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 uint32_t
 50
@@ -11209,7 +11209,7 @@ gfxTextRun
 aTextRun
 )
 {
-AutoTArray
+AutoFallibleTArray
 <
 uint8_t
 BIG_TEXT_NODE_SIZE
@@ -11271,7 +11271,7 @@ false
 gfxSkipChars
 skipChars
 ;
-AutoTArray
+nsAutoTArray
 <
 int32_t
 50
@@ -11721,7 +11721,7 @@ if
 mDoubleByteText
 )
 {
-AutoTArray
+AutoFallibleTArray
 <
 uint8_t
 BIG_TEXT_NODE_SIZE
@@ -29234,7 +29234,7 @@ DrawPathCallbacks
 aCallbacks
 )
 {
-AutoTArray
+AutoFallibleTArray
 <
 SelectionDetails
 *
@@ -30000,7 +30000,7 @@ ShouldSkipDrawing
 )
 return
 ;
-AutoTArray
+AutoFallibleTArray
 <
 SelectionDetails
 *
@@ -38974,7 +38974,7 @@ iter
 flowEndInTextRun
 )
 ;
-AutoTArray
+AutoFallibleTArray
 <
 bool
 BIG_TEXT_NODE_SIZE

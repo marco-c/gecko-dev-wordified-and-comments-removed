@@ -515,7 +515,7 @@ swap
 mFeature
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -2665,7 +2665,7 @@ forget
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <

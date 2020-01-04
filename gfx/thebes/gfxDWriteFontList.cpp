@@ -332,7 +332,7 @@ hr
 BOOL
 exists
 ;
-AutoTArray
+nsAutoTArray
 <
 wchar_t
 32
@@ -533,7 +533,7 @@ return
 E_FAIL
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 wchar_t
 32
@@ -1502,7 +1502,7 @@ idx
 ;
 }
 }
-AutoTArray
+AutoFallibleTArray
 <
 WCHAR
 32
@@ -1855,7 +1855,7 @@ CopyFontTable
 (
 uint32_t
 aTableTag
-nsTArray
+FallibleTArray
 <
 uint8_t
 >
@@ -2921,7 +2921,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 IDWriteFontFile
 *
@@ -3163,7 +3163,7 @@ S
 '
 )
 ;
-AutoTArray
+AutoFallibleTArray
 <
 uint8_t
 128
@@ -5126,7 +5126,7 @@ englishIdx
 0
 ;
 }
-AutoTArray
+AutoFallibleTArray
 <
 WCHAR
 32
@@ -5324,7 +5324,7 @@ nameIndex
 UINT32
 nameLen
 ;
-AutoTArray
+AutoFallibleTArray
 <
 WCHAR
 32
@@ -6356,7 +6356,7 @@ index
 0
 ;
 }
-AutoTArray
+AutoFallibleTArray
 <
 WCHAR
 32
@@ -7066,7 +7066,7 @@ nsAString
 aFamilyName
 )
 {
-AutoTArray
+nsAutoTArray
 <
 wchar_t
 32

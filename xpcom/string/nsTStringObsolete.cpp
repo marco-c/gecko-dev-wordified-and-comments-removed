@@ -2115,7 +2115,7 @@ Length
 return
 true
 ;
-AutoTArray
+nsAutoTArray
 <
 Segment
 16

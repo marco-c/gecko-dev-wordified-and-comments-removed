@@ -1854,7 +1854,7 @@ uint16_t
 aOrientation
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 GlyphRun
 1

@@ -622,7 +622,7 @@ case
 AUDIO_FORMAT_S16
 :
 {
-AutoTArray
+nsAutoTArray
 <
 const
 int16_t
@@ -697,7 +697,7 @@ case
 AUDIO_FORMAT_FLOAT32
 :
 {
-AutoTArray
+nsAutoTArray
 <
 const
 float

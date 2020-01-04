@@ -33621,7 +33621,7 @@ anyLineDirty
 =
 false
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -33716,7 +33716,7 @@ true
 ;
 }
 }
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *

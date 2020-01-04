@@ -6429,7 +6429,7 @@ mRuleProcessors
 mRuleProcessors
 =
 new
-AutoTArray
+nsAutoTArray
 <
 nsCSSRuleProcessor
 *

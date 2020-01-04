@@ -142,7 +142,7 @@ aOutLen
 #
 ifdef
 MOZ_SAMPLE_TYPE_S16
-AutoTArray
+nsAutoTArray
 <
 AudioDataValue
 WEBAUDIO_BLOCK_SIZE
@@ -151,7 +151,7 @@ WEBAUDIO_BLOCK_SIZE
 >
 tmp1
 ;
-AutoTArray
+nsAutoTArray
 <
 AudioDataValue
 WEBAUDIO_BLOCK_SIZE
@@ -266,7 +266,7 @@ uint32_t
 aOutLen
 )
 {
-AutoTArray
+nsAutoTArray
 <
 AudioDataValue
 WEBAUDIO_BLOCK_SIZE
@@ -405,7 +405,7 @@ aOutLen
 ;
 #
 else
-AutoTArray
+nsAutoTArray
 <
 AudioDataValue
 WEBAUDIO_BLOCK_SIZE
@@ -414,7 +414,7 @@ WEBAUDIO_BLOCK_SIZE
 >
 tmp1
 ;
-AutoTArray
+nsAutoTArray
 <
 AudioDataValue
 WEBAUDIO_BLOCK_SIZE

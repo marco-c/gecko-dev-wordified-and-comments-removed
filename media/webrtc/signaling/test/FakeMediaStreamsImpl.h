@@ -494,7 +494,7 @@ mozilla
 AudioSegment
 segment
 ;
-AutoTArray
+nsAutoTArray
 <
 const
 int16_t

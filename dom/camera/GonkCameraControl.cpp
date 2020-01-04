@@ -1247,7 +1247,7 @@ n
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 Size
 16
@@ -1372,7 +1372,7 @@ mCurrentConfiguration
 mPreviewSize
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsString
 8
@@ -1599,7 +1599,7 @@ Configuration
 aValidatedConfig
 )
 {
-AutoTArray
+nsAutoTArray
 <
 Size
 16
@@ -4347,7 +4347,7 @@ aSize
 .
 height
 ;
-AutoTArray
+nsAutoTArray
 <
 Size
 8
@@ -4897,7 +4897,7 @@ return
 NS_OK
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 Size
 8
@@ -8155,7 +8155,7 @@ aMaxSize
 height
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 Size
 16

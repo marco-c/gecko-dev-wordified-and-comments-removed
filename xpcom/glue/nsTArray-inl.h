@@ -128,7 +128,7 @@ autoBuf
 reinterpret_cast
 <
 const
-AutoTArray
+nsAutoArrayBase
 <
 nsTArray
 <
@@ -175,7 +175,7 @@ AlignedElem
 &
 sizeof
 (
-AutoTArray
+nsAutoTArray
 <
 mozilla
 :
@@ -1805,7 +1805,7 @@ Hdr
 1
 ;
 }
-AutoTArray
+nsAutoArrayBase
 <
 nsTArray_Impl
 <

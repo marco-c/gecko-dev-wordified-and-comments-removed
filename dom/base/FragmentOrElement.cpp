@@ -1598,7 +1598,7 @@ GetBaseURI
 aTryUseXHRDocBaseURI
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsString
 5
@@ -6025,7 +6025,7 @@ aSubtreeRoot
 }
 private
 :
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -6916,7 +6916,7 @@ nsINode
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsIContent
 *
@@ -6924,7 +6924,7 @@ nsIContent
 >
 nodesToUnpurple
 ;
-AutoTArray
+nsAutoTArray
 <
 nsINode
 *
@@ -7243,7 +7243,7 @@ aNode
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsINode
 *
@@ -7254,7 +7254,7 @@ gPurpleRoots
 =
 nullptr
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIContent
 *
@@ -7699,7 +7699,7 @@ return
 false
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsIContent
 *
@@ -7942,7 +7942,7 @@ gNodesToUnbind
 gNodesToUnbind
 =
 new
-AutoTArray
+nsAutoTArray
 <
 nsIContent
 *
@@ -8041,7 +8041,7 @@ gPurpleRoots
 gPurpleRoots
 =
 new
-AutoTArray
+nsAutoTArray
 <
 nsINode
 *

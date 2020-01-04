@@ -827,7 +827,7 @@ TextCompositionArray
 final
 :
 public
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <

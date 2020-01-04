@@ -242,7 +242,7 @@ CancelableTask
 *
 mPreallocateAppProcessTask
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <

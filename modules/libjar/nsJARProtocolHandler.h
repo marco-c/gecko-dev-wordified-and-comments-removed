@@ -90,7 +90,7 @@ public
 nsSupportsWeakReference
 {
 typedef
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <

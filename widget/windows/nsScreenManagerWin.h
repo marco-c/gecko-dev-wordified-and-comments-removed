@@ -113,7 +113,7 @@ inScreen
 uint32_t
 mNumberOfScreens
 ;
-AutoTArray
+nsAutoTArray
 <
 ScreenListItem
 8

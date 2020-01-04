@@ -954,7 +954,7 @@ EntryCount
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIRequest
 *
@@ -1216,7 +1216,7 @@ EntryCount
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIRequest
 *
@@ -1395,7 +1395,7 @@ EntryCount
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIRequest
 *

@@ -1973,7 +1973,7 @@ mMaskModeCount
 mBlendModeCount
 mCompositeCount
 ;
-AutoTArray
+nsAutoTArray
 <
 Layer
 1
@@ -9220,7 +9220,7 @@ mTopLayer
 uint8_t
 mWillChangeBitField
 ;
-AutoTArray
+nsAutoTArray
 <
 nsString
 1
@@ -9284,7 +9284,7 @@ mPerspectiveOrigin
 2
 ]
 ;
-AutoTArray
+nsAutoTArray
 <
 mozilla
 :
@@ -9300,7 +9300,7 @@ mTransitionDurationCount
 mTransitionDelayCount
 mTransitionPropertyCount
 ;
-AutoTArray
+nsAutoTArray
 <
 mozilla
 :

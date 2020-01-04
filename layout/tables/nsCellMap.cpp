@@ -1161,7 +1161,7 @@ nsTableFrame
 RowGroupArray
 orderedRowGroups
 ;
-AutoTArray
+nsAutoTArray
 <
 nsCellMap
 *
@@ -7079,7 +7079,7 @@ rowSpan
 )
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsTableCellFrame
 *

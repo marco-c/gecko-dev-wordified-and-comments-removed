@@ -1052,7 +1052,7 @@ ASSERT_OWNING_THREAD
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <

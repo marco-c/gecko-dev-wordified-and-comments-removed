@@ -91,7 +91,7 @@ AUDIO_TRACK
 }
 ;
 typedef
-AutoTArray
+nsAutoTArray
 <
 AudioBlock
 1

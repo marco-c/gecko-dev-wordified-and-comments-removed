@@ -1562,7 +1562,7 @@ nullptr
 nullptr
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 gfxShapedText
 :
@@ -1596,7 +1596,7 @@ NO_GLYPH
 -
 1
 ;
-AutoTArray
+AutoFallibleTArray
 <
 int32_t
 SMALL_GLYPH_RUN

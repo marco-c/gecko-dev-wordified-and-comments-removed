@@ -159,7 +159,7 @@ lock
 mMutex
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 ImageContainer
 :

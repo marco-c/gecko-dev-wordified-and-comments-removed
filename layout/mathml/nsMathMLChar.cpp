@@ -4017,7 +4017,7 @@ mTryParts
 ;
 private
 :
-AutoTArray
+nsAutoTArray
 <
 nsGlyphTable
 *
@@ -6826,7 +6826,7 @@ font
 aFontSizeInflation
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsString
 16

@@ -259,7 +259,7 @@ nsIContent
 >
 mMap
 ;
-AutoTArray
+nsAutoTArray
 <
 Area
 *

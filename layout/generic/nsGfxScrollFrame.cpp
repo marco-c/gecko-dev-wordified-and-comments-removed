@@ -12053,7 +12053,7 @@ eIntID_UseOverlayScrollbars
 =
 0
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *

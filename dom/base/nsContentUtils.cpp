@@ -10693,7 +10693,7 @@ return
 aNode1
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsINode
 *
@@ -10936,7 +10936,7 @@ aOffset2
 0
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsINode
 *
@@ -19265,7 +19265,7 @@ forget
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsString
 32
@@ -30866,7 +30866,7 @@ NS_EVENT_BITS_MUTATION_NODEINSERTED
 )
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -36450,7 +36450,7 @@ GetChildCount
 childCount
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -36569,7 +36569,7 @@ GetChildCount
 childCount
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsCOMPtr
 <
@@ -39179,7 +39179,7 @@ break
 }
 }
 }
-AutoTArray
+nsAutoTArray
 <
 Unit
 STRING_BUFFER_UNITS

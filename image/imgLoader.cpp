@@ -6073,7 +6073,7 @@ MOZ_ASSERT
 aDoc
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <

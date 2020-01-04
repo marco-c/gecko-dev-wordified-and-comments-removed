@@ -7066,7 +7066,7 @@ if
 nextNextInFlow
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *

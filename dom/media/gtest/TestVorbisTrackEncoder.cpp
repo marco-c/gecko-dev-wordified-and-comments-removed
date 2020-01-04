@@ -941,7 +941,7 @@ i
 2
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 const
 AudioDataValue

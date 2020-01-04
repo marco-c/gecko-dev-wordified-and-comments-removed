@@ -6136,7 +6136,7 @@ endif
 }
 else
 {
-AutoTArray
+nsAutoTArray
 <
 Layer
 *

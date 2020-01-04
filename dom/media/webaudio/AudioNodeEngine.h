@@ -441,7 +441,7 @@ aMallocSizeOf
 }
 private
 :
-AutoTArray
+nsAutoTArray
 <
 Storage
 2
@@ -749,7 +749,7 @@ AudioNodeEngine
 public
 :
 typedef
-AutoTArray
+nsAutoTArray
 <
 AudioBlock
 1

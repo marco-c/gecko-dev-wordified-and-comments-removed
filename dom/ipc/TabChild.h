@@ -2822,7 +2822,7 @@ mUnscaledOuterRect
 bool
 mAppPackageFileDescriptorRecved
 ;
-AutoTArray
+nsAutoTArray
 <
 nsAutoPtr
 <
@@ -2899,7 +2899,7 @@ mUnscaledInnerSize
 bool
 mDidSetRealShowInfo
 ;
-AutoTArray
+nsAutoTArray
 <
 bool
 NUMBER_OF_AUDIO_CHANNELS

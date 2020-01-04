@@ -731,7 +731,7 @@ ok
 ErrorResult
 result
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -8871,7 +8871,7 @@ WorkerPromise
 ErrorResult
 result
 ;
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <

@@ -18822,7 +18822,7 @@ nsStyleFont
 aFont
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsStyleContext
 *
@@ -34077,7 +34077,7 @@ const
 nsCSSValue
 &
 aValue
-AutoTArray
+nsAutoTArray
 <
 nsStyleImageLayers
 :
@@ -34088,7 +34088,7 @@ Layer
 &
 aLayers
 const
-AutoTArray
+nsAutoTArray
 <
 nsStyleImageLayers
 :
@@ -34399,7 +34399,7 @@ const
 nsCSSValue
 &
 aValue
-AutoTArray
+nsAutoTArray
 <
 nsStyleImageLayers
 :
@@ -34410,7 +34410,7 @@ Layer
 &
 aLayers
 const
-AutoTArray
+nsAutoTArray
 <
 nsStyleImageLayers
 :
@@ -34740,7 +34740,7 @@ static
 void
 FillBackgroundList
 (
-AutoTArray
+nsAutoTArray
 <
 nsStyleImageLayers
 :
@@ -51765,7 +51765,7 @@ return
 true
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsRuleNode
 *

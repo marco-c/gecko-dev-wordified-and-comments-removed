@@ -3157,7 +3157,7 @@ c_str
 )
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *

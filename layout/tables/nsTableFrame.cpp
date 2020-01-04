@@ -1819,7 +1819,7 @@ cellFrame
 rowIndex
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsTableCellFrame
 *
@@ -4896,7 +4896,7 @@ OrderRowGroups
 orderedRowGroups
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsTableRowFrame
 *

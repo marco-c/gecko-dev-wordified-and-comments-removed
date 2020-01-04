@@ -1245,7 +1245,7 @@ RestyleData
 PendingRestyleTable
 ;
 typedef
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <

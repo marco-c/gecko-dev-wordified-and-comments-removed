@@ -2875,7 +2875,7 @@ return
 NS_ERROR_DOM_INDEXEDDB_NOT_ALLOWED_ERR
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsString
 1
@@ -3738,7 +3738,7 @@ Helper
 final
 {
 typedef
-AutoTArray
+nsAutoTArray
 <
 RefPtr
 <
@@ -3749,7 +3749,7 @@ IDBTransaction
 StrongTransactionArray
 ;
 typedef
-AutoTArray
+nsAutoTArray
 <
 IDBTransaction
 *

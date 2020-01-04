@@ -444,7 +444,7 @@ isFirstListItem
 ;
 }
 ;
-AutoTArray
+nsAutoTArray
 <
 olState
 8

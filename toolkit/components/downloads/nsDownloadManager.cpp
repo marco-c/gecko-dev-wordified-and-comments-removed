@@ -1259,7 +1259,7 @@ hasMore
 =
 false
 ;
-AutoTArray
+nsAutoTArray
 <
 nsCString
 4

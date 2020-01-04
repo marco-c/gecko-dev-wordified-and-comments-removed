@@ -1289,7 +1289,7 @@ NSAccessibilityRowHeaderUIElementsAttribute
 ]
 )
 {
-AutoTArray
+nsAutoTArray
 <
 Accessible
 *
@@ -1323,7 +1323,7 @@ NSAccessibilityColumnHeaderUIElementsAttribute
 ]
 )
 {
-AutoTArray
+nsAutoTArray
 <
 Accessible
 *

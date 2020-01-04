@@ -1366,7 +1366,7 @@ this
 )
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 KeyBindingsCommand
 2
@@ -1411,7 +1411,7 @@ Length
 )
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 Command
 4

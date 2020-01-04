@@ -4100,7 +4100,7 @@ InitSingleFaceList
 (
 )
 {
-AutoTArray
+nsAutoTArray
 <
 nsString
 10
@@ -5404,7 +5404,7 @@ en
 "
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 gfxFontFamily
 *
@@ -5913,7 +5913,7 @@ kCFCompareCaseInsensitive
 kCFCompareEqualTo
 )
 {
-AutoTArray
+nsAutoTArray
 <
 UniChar
 1024
@@ -7393,7 +7393,7 @@ lookup
 the
 cascade
 fonts
-AutoTArray
+nsAutoTArray
 <
 gfxFontFamily
 *
@@ -7783,7 +7783,7 @@ faceDesc
 kCTFontNameAttribute
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 UniChar
 1024

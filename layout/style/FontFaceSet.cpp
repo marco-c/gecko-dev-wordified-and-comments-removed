@@ -1461,7 +1461,7 @@ family
 continue
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 gfxFontEntry
 *

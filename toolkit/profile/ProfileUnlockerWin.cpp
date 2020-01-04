@@ -546,7 +546,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 RM_PROCESS_INFO
 1

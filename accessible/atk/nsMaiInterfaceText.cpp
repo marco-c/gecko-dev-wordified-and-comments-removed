@@ -1799,7 +1799,7 @@ return
 nullptr
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 Attribute
 10
@@ -1937,7 +1937,7 @@ return
 nullptr
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 Attribute
 10

@@ -277,7 +277,7 @@ Length
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 uint8_t
 4000
@@ -1006,7 +1006,7 @@ return
 rv
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 uint8_t
 4000
@@ -1642,7 +1642,7 @@ aTextStart
 aTextLimit
 )
 ;
-AutoTArray
+AutoFallibleTArray
 <
 bool
 200
@@ -1942,7 +1942,7 @@ return
 rv
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 uint8_t
 4000

@@ -2853,7 +2853,7 @@ numPrefs
 int32_t
 dwIndex
 ;
-AutoTArray
+nsAutoTArray
 <
 nsCString
 32

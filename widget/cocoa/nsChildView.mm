@@ -23866,7 +23866,7 @@ popupsToRollup
 =
 UINT32_MAX
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIWidget
 *

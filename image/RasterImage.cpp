@@ -2854,7 +2854,7 @@ mLastImageContainerDrawResult
 =
 drawResult
 ;
-AutoTArray
+nsAutoTArray
 <
 ImageContainer
 :

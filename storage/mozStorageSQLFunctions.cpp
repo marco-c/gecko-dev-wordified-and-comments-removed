@@ -370,7 +370,7 @@ return
 SQLITE_OK
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 int
 nsAutoString
@@ -380,7 +380,7 @@ kDefaultStorageSize
 >
 row1
 ;
-AutoTArray
+nsAutoTArray
 <
 int
 nsAutoString

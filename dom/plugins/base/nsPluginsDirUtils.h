@@ -73,7 +73,7 @@ anEmptyString
 "
 "
 ;
-AutoTArray
+nsAutoTArray
 <
 char
 *

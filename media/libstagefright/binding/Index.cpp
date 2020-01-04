@@ -598,7 +598,7 @@ mSinf
 .
 mDefaultIVSize
 ;
-AutoTArray
+nsAutoTArray
 <
 uint8_t
 256

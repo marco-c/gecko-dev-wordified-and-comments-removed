@@ -774,7 +774,7 @@ IsConnected
 )
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 TimedTexture
 4
@@ -3038,7 +3038,7 @@ IsEmpty
 return
 ;
 }
-AutoTArray
+AutoInfallibleTArray
 <
 CompositableOperation
 10
@@ -3112,7 +3112,7 @@ PlatformSyncBeforeUpdate
 )
 ;
 }
-AutoTArray
+AutoInfallibleTArray
 <
 EditReply
 10

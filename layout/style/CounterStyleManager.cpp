@@ -532,7 +532,7 @@ Length
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 int32_t
 std
@@ -700,7 +700,7 @@ Length
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 int32_t
 std

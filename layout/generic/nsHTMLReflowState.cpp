@@ -2612,7 +2612,7 @@ NS_FRAME_IS_DIRTY
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *

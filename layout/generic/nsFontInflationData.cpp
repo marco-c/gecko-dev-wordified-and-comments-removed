@@ -447,7 +447,7 @@ FirstInFlow
 (
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 nsIFrame
 *
@@ -657,7 +657,7 @@ ComputedISize
 )
 ;
 }
-AutoTArray
+AutoInfallibleTArray
 <
 nsIFrame
 *
@@ -1199,7 +1199,7 @@ return
 aFrame
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 FrameChildList
 4

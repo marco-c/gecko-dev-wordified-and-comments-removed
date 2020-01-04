@@ -188,7 +188,7 @@ IsEmpty
 )
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 mozilla
 :
@@ -244,7 +244,7 @@ contentIndex
 ]
 )
 ;
-AutoTArray
+AutoInfallibleTArray
 <
 mozilla
 :

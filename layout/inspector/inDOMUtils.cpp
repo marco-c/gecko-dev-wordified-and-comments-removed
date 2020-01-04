@@ -532,7 +532,7 @@ i
 )
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 CSSStyleSheet
 *

@@ -254,7 +254,7 @@ process
 "
 )
 ;
-AutoTArray
+AutoInfallibleTArray
 <
 uint32_t
 8

@@ -291,7 +291,7 @@ mMonitor
 guint
 mMonitorSourceID
 ;
-AutoTArray
+nsAutoTArray
 <
 Gamepad
 4

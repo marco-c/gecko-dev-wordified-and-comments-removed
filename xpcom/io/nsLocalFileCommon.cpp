@@ -843,7 +843,7 @@ nsAutoString
 thisPath
 fromPath
 ;
-AutoTArray
+nsAutoTArray
 <
 char16_t
 *
@@ -851,7 +851,7 @@ char16_t
 >
 thisNodes
 ;
-AutoTArray
+nsAutoTArray
 <
 char16_t
 *

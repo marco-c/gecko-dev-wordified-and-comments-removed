@@ -2017,7 +2017,7 @@ aStopSymbolChars
 )
 ;
 typedef
-AutoTArray
+nsAutoTArray
 <
 char16_t
 16
@@ -9419,7 +9419,7 @@ IsEmpty
 )
 )
 ;
-AutoTArray
+nsAutoTArray
 <
 char16_t
 16
@@ -16624,7 +16624,7 @@ limitNumValues
 break
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 gfxFontFeatureValueSet
 :
@@ -16765,7 +16765,7 @@ break
 continue
 ;
 }
-AutoTArray
+nsAutoTArray
 <
 uint32_t
 4
@@ -20194,7 +20194,7 @@ tk
 &
 mToken
 ;
-AutoTArray
+nsAutoTArray
 <
 char16_t
 16
@@ -20404,7 +20404,7 @@ tk
 &
 mToken
 ;
-AutoTArray
+nsAutoTArray
 <
 char16_t
 16
@@ -63932,7 +63932,7 @@ MAX_ALLOWED_ELEMS
 =
 0xFFFE
 ;
-AutoTArray
+AutoInfallibleTArray
 <
 nsCSSValue
 16
@@ -71024,7 +71024,7 @@ aData
 StopSymbolCharStack
 stack
 ;
-AutoTArray
+nsAutoTArray
 <
 uint32_t
 16
