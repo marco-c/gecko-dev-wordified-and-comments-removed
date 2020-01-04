@@ -490,6 +490,13 @@ aTrack
 )
 ;
 void
+NotifyDecodingRequested
+(
+TrackType
+aTrack
+)
+;
+void
 ExtractCryptoInitData
 (
 nsTArray
@@ -776,6 +783,10 @@ mDecoderInitialized
 (
 false
 )
+mDecodingRequested
+(
+false
+)
 mOutputRequested
 (
 false
@@ -937,6 +948,9 @@ IsEmpty
 }
 bool
 mDecoderInitialized
+;
+bool
+mDecodingRequested
 ;
 bool
 mOutputRequested
@@ -1246,6 +1260,10 @@ Reject
 aReason
 aMethodName
 )
+;
+mDecodingRequested
+=
+false
 ;
 }
 }
