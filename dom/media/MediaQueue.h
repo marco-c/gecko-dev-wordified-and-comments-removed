@@ -144,6 +144,7 @@ size_t
 GetSize
 (
 )
+const
 {
 ReentrantMonitorAutoEnter
 mon
@@ -308,6 +309,7 @@ T
 Peek
 (
 )
+const
 {
 ReentrantMonitorAutoEnter
 mon
@@ -339,6 +341,7 @@ T
 PeekFront
 (
 )
+const
 {
 ReentrantMonitorAutoEnter
 mon
@@ -415,6 +418,7 @@ bool
 AtEndOfStream
 (
 )
+const
 {
 ReentrantMonitorAutoEnter
 mon
@@ -438,6 +442,7 @@ bool
 IsFinished
 (
 )
+const
 {
 ReentrantMonitorAutoEnter
 mon

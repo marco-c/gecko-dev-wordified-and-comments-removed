@@ -987,6 +987,7 @@ nsDeque
 Peek
 (
 )
+const
 {
 void
 *
@@ -1029,6 +1030,7 @@ nsDeque
 PeekFront
 (
 )
+const
 {
 void
 *
