@@ -14773,6 +14773,7 @@ bool
 aEnabled
 )
 {
+{
 MutexAutoLock
 lock
 (
@@ -14902,6 +14903,7 @@ IncreaseDisabled
 (
 )
 ;
+}
 }
 }
 }
