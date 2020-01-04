@@ -155,6 +155,14 @@ aUuid
 nsresult
 GenerateUuid
 (
+BluetoothUuid
+&
+aUuid
+)
+;
+nsresult
+GenerateUuid
+(
 nsAString
 &
 aUuidString
