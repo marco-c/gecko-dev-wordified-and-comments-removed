@@ -177,6 +177,16 @@ browser
 ini
 '
 ]
+MARIONETTE_LOOP_MANIFESTS
++
+=
+[
+'
+manifest
+.
+ini
+'
+]
 with
 Files
 (
