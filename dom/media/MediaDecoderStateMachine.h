@@ -522,6 +522,7 @@ void
 OnMediaNotSeekable
 (
 )
+const
 ;
 MediaEventSourceExc
 <
@@ -2399,6 +2400,7 @@ TimeIntervals
 CanonicalBuffered
 (
 )
+const
 ;
 AbstractCanonical
 <

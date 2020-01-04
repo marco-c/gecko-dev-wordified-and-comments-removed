@@ -12215,6 +12215,7 @@ MediaDecoderStateMachine
 CanonicalBuffered
 (
 )
+const
 {
 return
 mReader
@@ -12236,6 +12237,7 @@ MediaDecoderStateMachine
 OnMediaNotSeekable
 (
 )
+const
 {
 return
 mReader
