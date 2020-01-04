@@ -898,6 +898,9 @@ warnedAboutNoSuchMethod
 bool
 warnedAboutFlagsArgument
 ;
+bool
+warnedAboutExprClosure
+;
 JSAddonId
 *
 const
