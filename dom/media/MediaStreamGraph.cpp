@@ -6669,11 +6669,11 @@ GraphTime
 aStateEnd
 )
 {
-MaybeProduceMemoryReport
+RunMessagesInQueue
 (
 )
 ;
-RunMessagesInQueue
+MaybeProduceMemoryReport
 (
 )
 ;
