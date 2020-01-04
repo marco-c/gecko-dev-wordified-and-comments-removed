@@ -6233,9 +6233,6 @@ if
 aDialog
 &
 &
-aFeaturesSpecified
-&
-&
 !
 presenceFlag
 )
