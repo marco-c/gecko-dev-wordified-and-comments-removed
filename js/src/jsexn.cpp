@@ -2590,11 +2590,6 @@ ClassName
 (
 key
 rt
--
->
-contextFromMainThread
-(
-)
 )
 ;
 }

@@ -1284,11 +1284,6 @@ zone
 runtimeFromMainThread
 (
 )
--
->
-contextFromMainThread
-(
-)
 )
 oom
 (
