@@ -22225,13 +22225,12 @@ GetStartParent
 )
 )
 ;
-OwningNonNull
+nsCOMPtr
 <
 nsINode
 >
 parent
 =
-*
 aSelection
 .
 GetRangeAt
