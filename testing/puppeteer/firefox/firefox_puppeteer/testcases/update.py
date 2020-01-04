@@ -849,10 +849,11 @@ if
 update_available
 :
                 
-about_window
+self
 .
-download
+download_update
 (
+about_window
 wait_for_finish
 =
 False
