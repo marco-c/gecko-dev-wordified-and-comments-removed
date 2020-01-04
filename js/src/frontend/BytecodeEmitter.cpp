@@ -4736,6 +4736,11 @@ op
 {
 MOZ_ASSERT
 (
+atom
+)
+;
+MOZ_ASSERT
+(
 JOF_OPTYPE
 (
 op
@@ -33911,7 +33916,14 @@ innerBinding
 >
 pn_atom
 :
-nullptr
+cx
+-
+>
+names
+(
+)
+.
+empty
 ;
 if
 (
