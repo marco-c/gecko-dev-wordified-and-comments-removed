@@ -634,11 +634,6 @@ GetPositionInFrames
 (
 )
 ;
-bool
-IsPaused
-(
-)
-;
 static
 uint32_t
 GetPreferredRate
