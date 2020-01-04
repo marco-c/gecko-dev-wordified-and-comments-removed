@@ -3682,6 +3682,8 @@ WIN_UCRT_REDIST_DIR
 &
 &
 pwd
+-
+W
 fi
 else
 AC_MSG_ERROR
@@ -3813,6 +3815,8 @@ WIN32_REDIST_DIR
 &
 &
 pwd
+-
+W
 fi
 dnl
 Ensure
@@ -65799,6 +65803,10 @@ options
 AC_SUBST
 (
 WIN32_REDIST_DIR
+)
+AC_SUBST
+(
+WIN_UCRT_REDIST_DIR
 )
 AC_SUBST
 (
