@@ -16,6 +16,7 @@ FeatureStatus
 {
 Unused
 Unavailable
+Crashed
 Blocked
 Blacklisted
 Failed
