@@ -380,7 +380,7 @@ OnHasTransparency
 ;
 nsCOMPtr
 <
-nsIContent
+Element
 >
 mImageContent
 ;
