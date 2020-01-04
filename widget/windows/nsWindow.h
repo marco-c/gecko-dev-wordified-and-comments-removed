@@ -2599,6 +2599,17 @@ mCompositeDC
 nsIntRect
 mLastPaintBounds
 ;
+enum
+ResizeState
+{
+NOT_RESIZING
+IN_SIZEMOVE
+RESIZING
+}
+;
+ResizeState
+mResizeState
+;
 #
 ifdef
 MOZ_XUL
