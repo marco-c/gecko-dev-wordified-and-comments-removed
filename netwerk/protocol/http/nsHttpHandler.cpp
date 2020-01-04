@@ -3816,6 +3816,9 @@ rv
 if
 defined
 MOZ_WIDGET_ANDROID
+#
+ifndef
+MOZ_UA_OS_AGNOSTIC
 nsAutoString
 androidVersion
 ;
@@ -3890,6 +3893,8 @@ androidVersion
 ;
 }
 }
+#
+endif
 #
 endif
 bool
