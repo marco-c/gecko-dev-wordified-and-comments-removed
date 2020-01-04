@@ -3648,6 +3648,13 @@ GetTransform
 const
 ;
 const
+CSSTransformMatrix
+GetTransformTyped
+(
+)
+const
+;
+const
 gfx
 :
 :
@@ -4006,6 +4013,12 @@ gfx
 :
 Matrix4x4
 GetLocalTransform
+(
+)
+;
+const
+LayerToParentLayerMatrix4x4
+GetLocalTransformTyped
 (
 )
 ;
