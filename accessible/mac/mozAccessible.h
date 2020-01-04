@@ -358,6 +358,12 @@ selectedTextDidChange
 ;
 -
 (
+void
+)
+documentLoadComplete
+;
+-
+(
 id
 )
 childAt
