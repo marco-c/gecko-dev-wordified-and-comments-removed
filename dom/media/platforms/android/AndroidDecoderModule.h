@@ -255,6 +255,16 @@ friend
 class
 AndroidDecoderModule
 ;
+static
+const
+char
+*
+ModuleStateStr
+(
+ModuleState
+aState
+)
+;
 virtual
 nsresult
 InitDecoder
