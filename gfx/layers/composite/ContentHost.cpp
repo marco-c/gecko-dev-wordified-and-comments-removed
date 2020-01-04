@@ -624,6 +624,9 @@ do
 if
 (
 iterOnWhite
+&
+&
+bigImgIter
 )
 {
 MOZ_ASSERT
