@@ -80,6 +80,13 @@ TypeDecls
 h
 "
 namespace
+js
+{
+class
+AutoLockForExclusiveAccess
+;
+}
+namespace
 JS
 {
 class
@@ -166,6 +173,12 @@ code
 JSAtom
 *
 description
+js
+:
+:
+AutoLockForExclusiveAccess
+&
+lock
 )
 ;
 public

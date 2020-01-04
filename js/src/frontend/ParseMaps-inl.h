@@ -66,6 +66,7 @@ cx
 >
 parseMapPool
 (
+lock
 )
 .
 acquire
@@ -129,6 +130,7 @@ cx
 >
 parseMapPool
 (
+lock
 )
 .
 release
@@ -171,6 +173,7 @@ cx
 >
 parseMapPool
 (
+lock
 )
 .
 acquire
@@ -217,6 +220,7 @@ cx
 >
 parseMapPool
 (
+lock
 )
 .
 release

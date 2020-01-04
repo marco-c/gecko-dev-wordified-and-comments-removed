@@ -4481,6 +4481,7 @@ runtime
 >
 atomsCompartment
 (
+lock
 )
 )
 ;

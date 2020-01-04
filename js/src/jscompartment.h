@@ -136,8 +136,10 @@ gc
 {
 template
 <
-class
+typename
 Node
+typename
+Derived
 >
 class
 ComponentFinder
@@ -2746,13 +2748,7 @@ js
 gc
 :
 :
-ComponentFinder
-<
-JS
-:
-:
-Zone
->
+ZoneComponentFinder
 &
 finder
 )

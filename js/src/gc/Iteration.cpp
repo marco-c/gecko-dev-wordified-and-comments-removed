@@ -139,6 +139,17 @@ gc
 markRuntime
 (
 trc
+GCRuntime
+:
+:
+TraceRuntime
+prep
+.
+session
+(
+)
+.
+lock
 )
 ;
 }

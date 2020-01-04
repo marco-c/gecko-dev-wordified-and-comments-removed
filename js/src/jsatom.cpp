@@ -1217,6 +1217,9 @@ MarkAtoms
 JSTracer
 *
 trc
+AutoLockForExclusiveAccess
+&
+lock
 )
 {
 JSRuntime
@@ -1243,6 +1246,7 @@ rt
 >
 atoms
 (
+lock
 )
 )
 ;
@@ -1754,6 +1758,7 @@ runtime
 >
 atoms
 (
+lock
 )
 .
 lookup
@@ -1890,6 +1895,7 @@ cx
 >
 atoms
 (
+lock
 )
 ;
 AtomSet
@@ -1945,6 +1951,7 @@ cx
 >
 atomsCompartment
 (
+lock
 )
 )
 ;
@@ -2180,6 +2187,7 @@ cx
 >
 atoms
 (
+lock
 )
 .
 lookup

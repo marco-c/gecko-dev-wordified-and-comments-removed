@@ -848,6 +848,14 @@ MARK_ROOTS
 markRuntime
 (
 trc
+TraceRuntime
+prep
+.
+session
+(
+)
+.
+lock
 )
 ;
 VerifyNode
@@ -1890,6 +1898,9 @@ init
 bool
 check
 (
+AutoLockForExclusiveAccess
+&
+lock
 )
 ;
 private
@@ -2274,6 +2285,9 @@ CheckHeapTracer
 :
 check
 (
+AutoLockForExclusiveAccess
+&
+lock
 )
 {
 JS
@@ -2297,6 +2311,7 @@ GCRuntime
 :
 :
 TraceRuntime
+lock
 )
 ;
 while
@@ -2433,6 +2448,9 @@ CheckHeapAfterMovingGC
 JSRuntime
 *
 rt
+AutoLockForExclusiveAccess
+&
+lock
 )
 {
 MOZ_ASSERT
@@ -2466,6 +2484,7 @@ tracer
 .
 check
 (
+lock
 )
 )
 fprintf

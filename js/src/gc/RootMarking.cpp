@@ -1728,6 +1728,9 @@ JSTracer
 trc
 TraceOrMarkRuntime
 traceOrMark
+AutoLockForExclusiveAccess
+&
+lock
 )
 {
 gcstats
@@ -1951,6 +1954,7 @@ rt
 >
 atomsCompartment
 (
+lock
 )
 -
 >
@@ -1972,6 +1976,7 @@ trc
 MarkAtoms
 (
 trc
+lock
 )
 ;
 MarkWellKnownSymbols
@@ -1988,6 +1993,7 @@ JitRuntime
 Mark
 (
 trc
+lock
 )
 ;
 }

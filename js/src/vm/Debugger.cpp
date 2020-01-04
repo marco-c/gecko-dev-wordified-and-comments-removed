@@ -14150,10 +14150,7 @@ js
 gc
 :
 :
-ComponentFinder
-<
-Zone
->
+ZoneComponentFinder
 &
 finder
 )

@@ -13969,6 +13969,7 @@ cx
 >
 scriptDataTable
 (
+lock
 )
 .
 lookupForAdd
@@ -14002,6 +14003,7 @@ cx
 >
 scriptDataTable
 (
+lock
 )
 .
 add
@@ -14170,6 +14172,9 @@ UnmarkScriptData
 JSRuntime
 *
 rt
+AutoLockForExclusiveAccess
+&
+lock
 )
 {
 MOZ_ASSERT
@@ -14193,6 +14198,7 @@ rt
 >
 scriptDataTable
 (
+lock
 )
 ;
 for
@@ -14248,6 +14254,9 @@ SweepScriptData
 JSRuntime
 *
 rt
+AutoLockForExclusiveAccess
+&
+lock
 )
 {
 MOZ_ASSERT
@@ -14271,6 +14280,7 @@ rt
 >
 scriptDataTable
 (
+lock
 )
 ;
 if
@@ -14351,6 +14361,9 @@ FreeScriptData
 JSRuntime
 *
 rt
+AutoLockForExclusiveAccess
+&
+lock
 )
 {
 ScriptDataTable
@@ -14362,6 +14375,7 @@ rt
 >
 scriptDataTable
 (
+lock
 )
 ;
 if

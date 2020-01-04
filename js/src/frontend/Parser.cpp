@@ -3846,6 +3846,7 @@ perThreadData
 >
 addActiveCompilation
 (
+lock
 )
 ;
 }
@@ -3961,6 +3962,7 @@ perThreadData
 >
 removeActiveCompilation
 (
+lock
 )
 ;
 }
