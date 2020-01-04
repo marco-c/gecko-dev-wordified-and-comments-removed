@@ -359,6 +359,10 @@ notifyAllObservers
 true
 )
 ;
+setPrefs
+(
+)
+;
 run_next_test
 (
 )
