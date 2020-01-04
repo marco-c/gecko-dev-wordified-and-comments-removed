@@ -3637,6 +3637,11 @@ PushSubscription
 .
 webidl
 '
+'
+PushSubscriptionOptions
+.
+webidl
+'
 ]
 if
 CONFIG
