@@ -2184,6 +2184,12 @@ BackendType
 :
 COREGRAPHICS_ACCELERATED
 :
+case
+BackendType
+:
+:
+BACKEND_LAST
+:
 return
 false
 ;
