@@ -620,6 +620,11 @@ StyleSheetInlines
 .
 h
 '
+'
+StyleStructContext
+.
+h
+'
 ]
 EXPORTS
 .

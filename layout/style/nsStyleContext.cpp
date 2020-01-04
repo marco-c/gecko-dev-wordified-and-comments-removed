@@ -2631,9 +2631,6 @@ define
 UNIQUE_CASE
 (
 c_
-.
-.
-.
 )
 \
 case
@@ -2654,7 +2651,7 @@ nsStyle
 #
 c_
 (
-__VA_ARGS__
+presContext
 )
 ;
 \
@@ -2663,7 +2660,6 @@ break
 UNIQUE_CASE
 (
 Border
-presContext
 )
 UNIQUE_CASE
 (
