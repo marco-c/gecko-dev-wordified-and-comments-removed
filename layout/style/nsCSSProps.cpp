@@ -8996,8 +8996,8 @@ eCSSKeyword_end
 NS_STYLE_TEXT_ALIGN_END
 }
 {
-eCSSKeyword_unsafe
-NS_STYLE_TEXT_ALIGN_UNSAFE
+eCSSKeyword_true
+NS_STYLE_TEXT_ALIGN_TRUE
 }
 {
 eCSSKeyword_match_parent
@@ -9048,8 +9048,8 @@ eCSSKeyword_end
 NS_STYLE_TEXT_ALIGN_END
 }
 {
-eCSSKeyword_unsafe
-NS_STYLE_TEXT_ALIGN_UNSAFE
+eCSSKeyword_true
+NS_STYLE_TEXT_ALIGN_TRUE
 }
 {
 eCSSKeyword_UNKNOWN

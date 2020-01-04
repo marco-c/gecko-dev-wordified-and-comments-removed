@@ -63255,7 +63255,7 @@ if
 nsLayoutUtils
 :
 :
-IsTextAlignUnsafeValueEnabled
+IsTextAlignTrueValueEnabled
 (
 )
 )
@@ -63290,7 +63290,7 @@ GetIntValue
 )
 =
 =
-NS_STYLE_TEXT_ALIGN_UNSAFE
+NS_STYLE_TEXT_ALIGN_TRUE
 &
 &
 right
@@ -63300,7 +63300,7 @@ GetIntValue
 )
 =
 =
-NS_STYLE_TEXT_ALIGN_UNSAFE
+NS_STYLE_TEXT_ALIGN_TRUE
 )
 {
 return
@@ -63327,7 +63327,7 @@ GetIntValue
 )
 =
 =
-NS_STYLE_TEXT_ALIGN_UNSAFE
+NS_STYLE_TEXT_ALIGN_TRUE
 )
 {
 return
