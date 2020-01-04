@@ -4774,7 +4774,7 @@ SetInput
 IN_BLEND_IN
 aSources
 [
-0
+1
 ]
 )
 ;
@@ -4786,7 +4786,7 @@ SetInput
 IN_BLEND_IN2
 aSources
 [
-1
+0
 ]
 )
 ;
