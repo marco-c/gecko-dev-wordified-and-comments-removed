@@ -302,7 +302,7 @@ moz
 -
 table
 -
-outer
+wrapper
 "
 )
 CSS_ANON_BOX
