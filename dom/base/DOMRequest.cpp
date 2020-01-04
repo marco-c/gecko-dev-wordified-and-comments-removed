@@ -1112,7 +1112,7 @@ aCx
 mPromise
 -
 >
-GetWrapper
+PromiseObj
 (
 )
 )

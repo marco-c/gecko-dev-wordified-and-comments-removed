@@ -42906,8 +42906,24 @@ else
 :
                 
 if
+(
 not
 returnsNewObject
+and
+                    
+descriptor
+.
+interface
+.
+identifier
+.
+name
+!
+=
+"
+Promise
+"
+)
 :
                     
 raise
