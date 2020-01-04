@@ -60,6 +60,14 @@ isTrusted
 )
 return
 ;
+if
+(
+!
+SelectContentHelper
+.
+open
+)
+{
 new
 SelectContentHelper
 (
@@ -69,6 +77,7 @@ target
 this
 )
 ;
+}
 }
 )
 ;
