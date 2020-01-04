@@ -131,12 +131,6 @@ example
 org
 /
 "
-networkInfo
-:
-new
-MockDesktopNetworkInfo
-(
-)
 makeWebSocket
 (
 uri

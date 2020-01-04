@@ -91,12 +91,6 @@ example
 org
 /
 "
-networkInfo
-:
-new
-MockDesktopNetworkInfo
-(
-)
 db
 :
 makeStub

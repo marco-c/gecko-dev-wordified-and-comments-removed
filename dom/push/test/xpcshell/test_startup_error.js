@@ -94,12 +94,6 @@ example
 org
 /
 '
-networkInfo
-:
-new
-MockDesktopNetworkInfo
-(
-)
 db
 :
 makeStub
@@ -251,12 +245,6 @@ example
 org
 /
 '
-networkInfo
-:
-new
-MockDesktopNetworkInfo
-(
-)
 db
 :
 makeStub
