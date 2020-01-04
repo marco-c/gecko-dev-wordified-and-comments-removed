@@ -44,6 +44,15 @@ mapURIToAddonID
 "
 shutdown
 "
+"
+init
+"
+"
+stateToString
+"
+"
+errorToString
+"
 ]
 ;
 const
