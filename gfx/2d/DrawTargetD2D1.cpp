@@ -7280,6 +7280,7 @@ tmpImage
 =
 GetImageForLayerContent
 (
+false
 )
 ;
 blendEffect
@@ -7883,6 +7884,8 @@ DrawTargetD2D1
 :
 GetImageForLayerContent
 (
+bool
+aShouldPreserveContent
 )
 {
 if
@@ -8166,6 +8169,11 @@ sink
 mDC
 )
 ;
+if
+(
+aShouldPreserveContent
+)
+{
 list
 -
 >
@@ -8175,6 +8183,7 @@ Stream
 sink
 )
 ;
+}
 PushAllClips
 (
 )
