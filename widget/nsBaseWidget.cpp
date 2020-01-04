@@ -4519,6 +4519,16 @@ mLayerManager
 {
 if
 (
+!
+mShutdownObserver
+)
+{
+return
+nullptr
+;
+}
+if
+(
 ShouldUseOffMainThreadCompositing
 (
 )

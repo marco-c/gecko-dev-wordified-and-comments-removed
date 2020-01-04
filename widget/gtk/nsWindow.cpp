@@ -27330,6 +27330,15 @@ aAllowRetaining
 {
 if
 (
+mIsDestroyed
+)
+{
+return
+mLayerManager
+;
+}
+if
+(
 !
 mLayerManager
 &
