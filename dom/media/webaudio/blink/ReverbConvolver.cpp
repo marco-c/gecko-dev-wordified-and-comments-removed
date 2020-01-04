@@ -911,17 +911,4 @@ Release
 ;
 }
 }
-size_t
-ReverbConvolver
-:
-:
-latencyFrames
-(
-)
-const
-{
-return
-0
-;
-}
 }
