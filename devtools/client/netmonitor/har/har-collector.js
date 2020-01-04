@@ -1659,16 +1659,6 @@ from
 ;
 file
 .
-mimeType
-=
-"
-text
-/
-plain
-"
-;
-file
-.
 responseContent
 =
 response
