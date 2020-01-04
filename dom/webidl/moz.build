@@ -1430,6 +1430,11 @@ KeyframeEffect
 webidl
 '
 '
+KillSwitch
+.
+webidl
+'
+'
 LegacyQueryInterface
 .
 webidl
