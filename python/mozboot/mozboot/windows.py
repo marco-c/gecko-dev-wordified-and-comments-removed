@@ -267,8 +267,6 @@ which
 (
 '
 pacman
-.
-exe
 '
 )
 :
@@ -316,6 +314,28 @@ for
 Windows
 .
 '
+    
+def
+which
+(
+self
+name
+)
+:
+        
+return
+BaseBootstrapper
+.
+which
+(
+self
+name
++
+'
+.
+exe
+'
+)
     
 def
 install_system_packages
