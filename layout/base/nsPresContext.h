@@ -2213,7 +2213,9 @@ UpdateViewportScrollbarStylesOverride
 (
 )
 ;
+const
 ScrollbarStyles
+&
 GetViewportScrollbarStylesOverride
 (
 )

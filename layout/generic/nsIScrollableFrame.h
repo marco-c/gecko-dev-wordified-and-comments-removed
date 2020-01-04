@@ -170,6 +170,15 @@ const
 =
 0
 ;
+virtual
+bool
+IsScrollFrameWithSnapping
+(
+)
+const
+=
+0
+;
 enum
 {
 HORIZONTAL
