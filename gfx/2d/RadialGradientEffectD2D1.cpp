@@ -893,6 +893,8 @@ y
 dr
 }
 0
+.
+0f
 {
 mCenter1
 .
@@ -917,8 +919,12 @@ GetExtendMode
 D2D1_EXTEND_MODE_CLAMP
 ?
 1
+.
+0f
 :
 0
+.
+0f
 mStopCollection
 -
 >
@@ -930,10 +936,16 @@ GetExtendMode
 D2D1_EXTEND_MODE_MIRROR
 ?
 1
+.
+0f
 :
 0
+.
+0f
 {
 0
+.
+0f
 }
 {
 mat
@@ -946,6 +958,8 @@ mat
 .
 _31
 0
+.
+0f
 mat
 .
 _12
@@ -956,6 +970,8 @@ mat
 .
 _32
 0
+.
+0f
 }
 }
 ;
