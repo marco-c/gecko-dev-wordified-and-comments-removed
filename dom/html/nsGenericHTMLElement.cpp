@@ -11813,6 +11813,15 @@ ePointerEnter
 case
 ePointerLeave
 :
+case
+eWheel
+:
+case
+eLegacyMouseLineOrPageScroll
+:
+case
+eLegacyMousePixelScroll
+:
 return
 false
 ;
