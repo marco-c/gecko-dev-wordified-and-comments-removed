@@ -1271,13 +1271,13 @@ onUrlOpen
 url
 EnumSet
 .
-noneOf
+of
 (
 OnUrlOpenListener
 .
 Flags
 .
-class
+NO_READER_VIEW
 )
 )
 ;
