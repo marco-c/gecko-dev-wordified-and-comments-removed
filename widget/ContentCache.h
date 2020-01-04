@@ -109,6 +109,9 @@ protected
 nsString
 mText
 ;
+uint32_t
+mCompositionStart
+;
 struct
 Selection
 final
@@ -1104,9 +1107,6 @@ mPendingCompositionUpdate
 nsAString
 *
 mCommitStringByRequest
-;
-uint32_t
-mCompositionStart
 ;
 uint32_t
 mPendingEventsNeedingAck
