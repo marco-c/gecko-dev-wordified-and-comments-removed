@@ -6574,6 +6574,11 @@ RunDOMEventWhenSafe
 (
 )
 ;
+if
+(
+mPrt
+)
+{
 mPrt
 -
 >
@@ -6582,6 +6587,7 @@ DoOnStatusChange
 aPrintError
 )
 ;
+}
 }
 nsresult
 nsPrintEngine
