@@ -14,9 +14,6 @@ Extension
 "
 ExtensionData
 "
-"
-ExtensionContext
-"
 ]
 ;
 const
