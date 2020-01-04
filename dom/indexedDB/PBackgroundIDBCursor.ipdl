@@ -146,6 +146,17 @@ key
 }
 ;
 struct
+ContinuePrimaryKeyParams
+{
+Key
+key
+;
+Key
+primaryKey
+;
+}
+;
+struct
 AdvanceParams
 {
 uint32_t
@@ -157,6 +168,8 @@ union
 CursorRequestParams
 {
 ContinueParams
+;
+ContinuePrimaryKeyParams
 ;
 AdvanceParams
 ;
