@@ -1,9 +1,9 @@
 #
 ifndef
-EditTransactionBase_h
+mozilla_EditTransactionBase_h
 #
 define
-EditTransactionBase_h
+mozilla_EditTransactionBase_h
 #
 include
 "

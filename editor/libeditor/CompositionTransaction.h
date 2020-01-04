@@ -7,6 +7,8 @@ CompositionTransaction_h
 #
 include
 "
+mozilla
+/
 EditTransactionBase
 .
 h

@@ -7,6 +7,8 @@ DeleteNodeTransaction_h
 #
 include
 "
+mozilla
+/
 EditTransactionBase
 .
 h

@@ -150,12 +150,6 @@ base
 '
 '
 /
-editor
-/
-libeditor
-'
-'
-/
 extensions
 /
 spellcheck

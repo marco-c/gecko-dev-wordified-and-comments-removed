@@ -287,17 +287,6 @@ LOCAL_INCLUDES
 /
 editor
 /
-libeditor
-'
-'
-.
-.
-/
-.
-.
-/
-editor
-/
 txmgr
 '
 '

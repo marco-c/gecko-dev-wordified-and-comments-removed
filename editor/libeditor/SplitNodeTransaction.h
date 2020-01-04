@@ -7,6 +7,8 @@ SplitNodeTransaction_h
 #
 include
 "
+mozilla
+/
 EditTransactionBase
 .
 h

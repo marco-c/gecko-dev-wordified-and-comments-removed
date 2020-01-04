@@ -1,12 +1,14 @@
 #
 ifndef
-CSSEditUtils_h
+mozilla_CSSEditUtils_h
 #
 define
-CSSEditUtils_h
+mozilla_CSSEditUtils_h
 #
 include
 "
+mozilla
+/
 ChangeStyleTransaction
 .
 h

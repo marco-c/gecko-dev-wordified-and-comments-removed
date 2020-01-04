@@ -10,7 +10,9 @@ h
 #
 include
 "
-EditorUtils
+mozilla
+/
+Assertions
 .
 h
 "
@@ -19,7 +21,7 @@ include
 "
 mozilla
 /
-Assertions
+EditorUtils
 .
 h
 "

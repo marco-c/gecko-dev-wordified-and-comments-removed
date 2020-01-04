@@ -1,7 +1,9 @@
 #
 include
 "
-EditorUtils
+mozilla
+/
+EditorBase
 .
 h
 "
@@ -10,7 +12,7 @@ include
 "
 mozilla
 /
-EditorBase
+EditorUtils
 .
 h
 "

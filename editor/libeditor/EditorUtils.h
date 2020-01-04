@@ -1,9 +1,9 @@
 #
 ifndef
-EditorUtils_h
+mozilla_EditorUtils_h
 #
 define
-EditorUtils_h
+mozilla_EditorUtils_h
 #
 include
 "

@@ -764,12 +764,6 @@ workers
 '
 '
 /
-editor
-/
-libeditor
-'
-'
-/
 embedding
 /
 components

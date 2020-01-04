@@ -7,7 +7,9 @@ ChangeAttributeTransaction_h
 #
 include
 "
-EditTransactionBase
+mozilla
+/
+Attributes
 .
 h
 "
@@ -16,7 +18,7 @@ include
 "
 mozilla
 /
-Attributes
+EditTransactionBase
 .
 h
 "
