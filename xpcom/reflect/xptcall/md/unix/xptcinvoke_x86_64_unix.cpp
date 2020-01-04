@@ -629,6 +629,7 @@ avx
 )
 #
 endif
+MOZ_ASAN_BLACKLIST
 EXPORT_XPCOM_API
 (
 nsresult

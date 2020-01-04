@@ -731,6 +731,7 @@ uint32_t
 uint32_t
 )
 ;
+MOZ_ASAN_BLACKLIST
 EXPORT_XPCOM_API
 (
 nsresult
