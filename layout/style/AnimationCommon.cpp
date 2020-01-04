@@ -3475,7 +3475,7 @@ false
 if
 (
 !
-mNeedsRefreshes
+mStyleChanging
 )
 {
 mStyleRuleRefreshTime
@@ -3538,7 +3538,7 @@ mStyleRule
 =
 nullptr
 ;
-mNeedsRefreshes
+mStyleChanging
 =
 false
 ;
@@ -3575,7 +3575,7 @@ ComposeStyle
 (
 mStyleRule
 properties
-mNeedsRefreshes
+mStyleChanging
 )
 ;
 }
@@ -4022,7 +4022,7 @@ TimeStamp
 (
 )
 ;
-mNeedsRefreshes
+mStyleChanging
 =
 true
 ;

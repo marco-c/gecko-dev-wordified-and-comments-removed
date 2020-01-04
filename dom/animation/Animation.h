@@ -837,7 +837,7 @@ nsCSSPropertySet
 aSetProperties
 bool
 &
-aNeedsRefreshes
+aStyleChanging
 )
 ;
 virtual

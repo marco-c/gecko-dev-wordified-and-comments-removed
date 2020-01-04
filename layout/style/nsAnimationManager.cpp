@@ -2242,7 +2242,7 @@ newAnimations
 collection
 -
 >
-mNeedsRefreshes
+mStyleChanging
 =
 true
 ;

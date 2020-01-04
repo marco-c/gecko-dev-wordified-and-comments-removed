@@ -2255,7 +2255,7 @@ nsCSSPropertySet
 aSetProperties
 bool
 &
-aNeedsRefreshes
+aStyleChanging
 )
 {
 if
@@ -2299,7 +2299,7 @@ HasEndEventToQueue
 )
 )
 {
-aNeedsRefreshes
+aStyleChanging
 =
 true
 ;

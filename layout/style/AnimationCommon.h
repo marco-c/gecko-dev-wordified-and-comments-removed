@@ -795,7 +795,7 @@ mPropertyValuePairs
 typedef
 InfallibleTArray
 <
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -850,7 +850,7 @@ mCheckGeneration
 (
 0
 )
-mNeedsRefreshes
+mStyleChanging
 (
 true
 )
@@ -1357,7 +1357,7 @@ mManager
 AnimationPtrArray
 mAnimations
 ;
-RefPtr
+nsRefPtr
 <
 AnimValuesStyleRule
 >
@@ -1407,7 +1407,7 @@ TimeStamp
 mStyleRuleRefreshTime
 ;
 bool
-mNeedsRefreshes
+mStyleChanging
 ;
 private
 :
@@ -1973,7 +1973,7 @@ mTimeStamp
 }
 AnimationPtrComparator
 <
-RefPtr
+nsRefPtr
 <
 dom
 :
