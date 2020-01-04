@@ -1313,6 +1313,7 @@ MoveResolver
 (
 )
 ;
+MOZ_MUST_USE
 bool
 addMove
 (

@@ -1743,6 +1743,8 @@ fun
 )
 )
 {
+propagateOOM
+(
 moveResolver_
 .
 addMove
@@ -1759,6 +1761,7 @@ MoveOp
 :
 :
 GENERAL
+)
 )
 ;
 fun
@@ -1828,6 +1831,8 @@ base
 )
 )
 {
+propagateOOM
+(
 moveResolver_
 .
 addMove
@@ -1846,6 +1851,7 @@ MoveOp
 :
 :
 GENERAL
+)
 )
 ;
 safeFun

@@ -321,6 +321,7 @@ return
 false
 ;
 }
+MOZ_MUST_USE
 bool
 insert
 (

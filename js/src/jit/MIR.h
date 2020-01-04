@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 builtin
 /
 SIMD
@@ -3272,7 +3281,8 @@ MDefinition
 dom
 )
 ;
-void
+MOZ_MUST_USE
+bool
 optimizeOutAllUses
 (
 TempAllocator
