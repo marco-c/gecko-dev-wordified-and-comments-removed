@@ -366,6 +366,15 @@ abortPrompt
 ;
 try
 {
+let
+eventDetail
+=
+{
+tabPrompt
+:
+true
+}
+;
 PromptUtils
 .
 fireDialogEvent
@@ -375,6 +384,7 @@ window
 DOMWillOpenModalDialog
 "
 browser
+eventDetail
 )
 ;
 args
