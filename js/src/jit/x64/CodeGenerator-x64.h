@@ -306,14 +306,6 @@ lir
 )
 ;
 void
-visitBitOpI64
-(
-LBitOpI64
-*
-lir
-)
-;
-void
 visitRotate64
 (
 LRotate64
