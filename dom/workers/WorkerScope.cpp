@@ -964,9 +964,6 @@ WorkerGlobalScope
 :
 ImportScripts
 (
-JSContext
-*
-aCx
 const
 Sequence
 <
@@ -991,7 +988,6 @@ scriptloader
 :
 Load
 (
-aCx
 mWorkerPrivate
 aScriptURLs
 WorkerScript
@@ -3876,7 +3872,6 @@ scriptloader
 :
 Load
 (
-aCx
 mWorkerPrivate
 urls
 DebuggerScript

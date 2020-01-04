@@ -103,9 +103,6 @@ aChannel
 void
 ReportLoadError
 (
-JSContext
-*
-aCx
 ErrorResult
 &
 aRv
@@ -120,9 +117,9 @@ aScriptURL
 void
 LoadMainScript
 (
-JSContext
+WorkerPrivate
 *
-aCx
+aWorkerPrivate
 const
 nsAString
 &
@@ -137,9 +134,6 @@ aRv
 void
 Load
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
