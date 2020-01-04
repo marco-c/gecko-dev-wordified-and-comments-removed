@@ -145,6 +145,12 @@ TYPE_PROGRESSMETER
 =
 3
 ;
+const
+short
+TYPE_PASSWORD
+=
+4
+;
 readonly
 attribute
 short
