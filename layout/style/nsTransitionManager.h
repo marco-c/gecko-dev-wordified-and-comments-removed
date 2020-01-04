@@ -389,12 +389,6 @@ CancelFromStyle
 )
 override
 {
-mOwningElement
-=
-OwningElementRef
-(
-)
-;
 mAnimationIndex
 =
 sNextAnimationIndex
@@ -409,6 +403,12 @@ Animation
 :
 :
 CancelFromStyle
+(
+)
+;
+mOwningElement
+=
+OwningElementRef
 (
 )
 ;
