@@ -1320,6 +1320,13 @@ InputQueue
 >
 mInputQueue
 ;
+CancelableBlockState
+*
+CurrentInputBlock
+(
+)
+const
+;
 TouchBlockState
 *
 CurrentTouchBlock
