@@ -484,6 +484,13 @@ mTiming
 aTiming
 ;
 }
+virtual
+void
+Unlink
+(
+)
+{
+}
 protected
 :
 nsCOMPtr
