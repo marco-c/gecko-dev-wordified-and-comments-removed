@@ -3065,6 +3065,16 @@ promisePane
 .
 hidden
 ;
+if
+(
+!
+this
+.
+DebuggerView
+.
+_promiseDebuggerIframe
+)
+{
 this
 .
 DebuggerView
@@ -3073,6 +3083,7 @@ _initializePromiseDebugger
 (
 )
 ;
+}
 }
 }
 hidePrettyPrinting
