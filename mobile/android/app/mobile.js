@@ -5115,6 +5115,16 @@ pref
 "
 apz
 .
+allow_immediate_handoff
+"
+false
+)
+;
+pref
+(
+"
+apz
+.
 axis_lock
 .
 mode
