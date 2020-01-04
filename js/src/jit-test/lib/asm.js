@@ -1,16 +1,4 @@
 const
-ASM_OK_STRING
-=
-"
-successfully
-compiled
-asm
-.
-js
-code
-"
-;
-const
 ASM_TYPE_FAIL_STRING
 =
 "
