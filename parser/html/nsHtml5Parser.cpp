@@ -884,11 +884,19 @@ GetStreamParser
 )
 )
 ;
+mozilla
+:
+:
+Unused
+<
+<
+streamKungFuDeathGrip
+;
 RefPtr
 <
 nsHtml5TreeOpExecutor
 >
-treeOpKungFuDeathGrip
+executor
 (
 mExecutor
 )
@@ -896,7 +904,7 @@ mExecutor
 if
 (
 !
-mExecutor
+executor
 -
 >
 HasStarted
@@ -925,7 +933,7 @@ cycle
 "
 )
 ;
-mExecutor
+executor
 -
 >
 SetParser
@@ -938,7 +946,7 @@ mTreeBuilder
 >
 setScriptingEnabled
 (
-mExecutor
+executor
 -
 >
 IsScriptEnabled
@@ -998,7 +1006,7 @@ start
 (
 )
 ;
-mExecutor
+executor
 -
 >
 Start
@@ -1037,7 +1045,7 @@ StartPlainText
 }
 rv
 =
-mExecutor
+executor
 -
 >
 WillBuildModel
@@ -1054,7 +1062,7 @@ rv
 }
 if
 (
-mExecutor
+executor
 -
 >
 IsComplete
@@ -1475,7 +1483,7 @@ getLength
 )
 {
 return
-mExecutor
+executor
 -
 >
 MarkAsBroken
@@ -1513,7 +1521,7 @@ IsBroken
 )
 {
 return
-mExecutor
+executor
 -
 >
 MarkAsBroken
@@ -1567,7 +1575,7 @@ Flush
 ;
 rv
 =
-mExecutor
+executor
 -
 >
 FlushDocumentWrite
@@ -1582,7 +1590,7 @@ rv
 ;
 if
 (
-mExecutor
+executor
 -
 >
 IsComplete
@@ -1627,7 +1635,7 @@ heapBuffer
 )
 {
 return
-mExecutor
+executor
 -
 >
 MarkAsBroken
@@ -1823,7 +1831,7 @@ Flush
 ;
 rv
 =
-mExecutor
+executor
 -
 >
 FlushDocumentWrite
@@ -1869,7 +1877,7 @@ new
 nsHtml5TreeBuilder
 (
 nullptr
-mExecutor
+executor
 -
 >
 GetStage
@@ -1980,7 +1988,7 @@ getLength
 )
 {
 return
-mExecutor
+executor
 -
 >
 MarkAsBroken
@@ -2021,7 +2029,7 @@ IsBroken
 )
 {
 return
-mExecutor
+executor
 -
 >
 MarkAsBroken
@@ -2046,7 +2054,7 @@ DropHandles
 (
 )
 ;
-mExecutor
+executor
 -
 >
 FlushSpeculativeLoads
@@ -2093,7 +2101,7 @@ RefPtr
 <
 nsHtml5StreamParser
 >
-streamKungFuDeathGrip
+streamParser
 (
 GetStreamParser
 (
@@ -2104,21 +2112,17 @@ RefPtr
 <
 nsHtml5TreeOpExecutor
 >
-treeOpKungFuDeathGrip
+executor
 (
 mExecutor
 )
 ;
 if
 (
-GetStreamParser
-(
-)
+streamParser
 )
 {
-GetStreamParser
-(
-)
+streamParser
 -
 >
 Terminate
@@ -2127,7 +2131,7 @@ Terminate
 ;
 }
 return
-mExecutor
+executor
 -
 >
 DidBuildModel
