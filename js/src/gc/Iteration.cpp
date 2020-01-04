@@ -563,7 +563,7 @@ compartment
 {
 for
 (
-ZoneCellIterUnderGC
+ZoneCellIter
 i
 (
 compartment
@@ -656,7 +656,7 @@ next
 {
 for
 (
-ZoneCellIterUnderGC
+ZoneCellIter
 i
 (
 zone
@@ -753,7 +753,7 @@ ObjectAllocKinds
 {
 for
 (
-ZoneCellIterUnderGC
+ZoneCellIter
 i
 (
 zone

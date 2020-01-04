@@ -671,7 +671,7 @@ isGCSweepingOrCompacting
 ;
 for
 (
-ZoneCellIterUnderGC
+ZoneCellIter
 i
 (
 this
