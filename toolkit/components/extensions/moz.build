@@ -122,6 +122,11 @@ ExtensionUtils
 .
 jsm
 '
+'
+Schemas
+.
+jsm
+'
 ]
 JAR_MANIFESTS
 +
