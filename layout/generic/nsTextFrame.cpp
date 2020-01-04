@@ -40367,6 +40367,11 @@ IsTextCombined
 {
 if
 (
+start
+<
+flowEndInTextRun
+&
+&
 textRun
 -
 >
