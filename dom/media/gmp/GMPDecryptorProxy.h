@@ -190,16 +190,6 @@ aStatus
 ;
 virtual
 void
-SetCaps
-(
-uint64_t
-aCaps
-)
-=
-0
-;
-virtual
-void
 Decrypted
 (
 uint32_t

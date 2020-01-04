@@ -360,13 +360,6 @@ aStatus
 )
 ;
 async
-SetCaps
-(
-uint64_t
-aCaps
-)
-;
-async
 Decrypted
 (
 uint32_t

@@ -163,14 +163,6 @@ aStatus
 override
 ;
 void
-SetCaps
-(
-uint64_t
-aCaps
-)
-override
-;
-void
 Decrypted
 (
 uint32_t

@@ -391,16 +391,6 @@ aBuffer
 override
 ;
 bool
-RecvSetCaps
-(
-const
-uint64_t
-&
-aCaps
-)
-override
-;
-bool
 RecvShutdown
 (
 )
