@@ -847,6 +847,9 @@ enum
 alarms
 "
 "
+clipboardWrite
+"
+"
 idle
 "
 "
