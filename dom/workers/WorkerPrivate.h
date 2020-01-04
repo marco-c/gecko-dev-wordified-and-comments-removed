@@ -2548,6 +2548,12 @@ mTimer
 ;
 nsCOMPtr
 <
+nsITimerCallback
+>
+mTimerRunnable
+;
+nsCOMPtr
+<
 nsITimer
 >
 mGCTimer
