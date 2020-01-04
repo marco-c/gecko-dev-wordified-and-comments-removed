@@ -570,6 +570,13 @@ cpp
 '
 bluedroid
 /
+BluetoothMapBMessage
+.
+cpp
+'
+'
+bluedroid
+/
 BluetoothMapFolder
 .
 cpp
