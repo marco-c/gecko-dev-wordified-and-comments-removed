@@ -114,7 +114,7 @@ namespace
 media
 {
 class
-AudioSink
+MediaSink
 ;
 }
 class
@@ -2874,12 +2874,12 @@ mCurrentSeek
 int64_t
 mFragmentEndTime
 ;
-RefPtr
+nsRefPtr
 <
 media
 :
 :
-AudioSink
+MediaSink
 >
 mAudioSink
 ;
