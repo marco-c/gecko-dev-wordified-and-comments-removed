@@ -6019,6 +6019,16 @@ bool
 )
 ;
 static
+void
+Assert
+(
+const
+GlobalObject
+&
+bool
+)
+;
+static
 int8_t
 StaticDeprecatedAttribute
 (

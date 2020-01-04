@@ -15052,6 +15052,35 @@ aliases
 }
             
 if
+m
+.
+isStatic
+(
+)
+:
+                
+method
+[
+"
+nativeName
+"
+]
+=
+CppKeywords
+.
+checkMethodName
+(
+IDLToCIdentifier
+(
+m
+.
+identifier
+.
+name
+)
+)
+            
+if
 isChromeOnly
 (
 m
@@ -40680,7 +40709,13 @@ bool
         
 return
 "
-JSVAL_TRUE
+JS
+:
+:
+BooleanValue
+(
+true
+)
 "
 if
 value
@@ -40688,7 +40723,13 @@ value
 value
 else
 "
-JSVAL_FALSE
+JS
+:
+:
+BooleanValue
+(
+false
+)
 "
     
 if
@@ -58286,6 +58327,10 @@ method
         
 name
 =
+CppKeywords
+.
+checkMethodName
+(
 IDLToCIdentifier
 (
 method
@@ -58293,6 +58338,7 @@ method
 identifier
 .
 name
+)
 )
         
 CGAbstractStaticBindingMethod
