@@ -266,6 +266,9 @@ ToJSON
 PushSubscriptionJSON
 &
 aJSON
+ErrorResult
+&
+aRv
 )
 ;
 protected

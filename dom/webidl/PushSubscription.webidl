@@ -221,6 +221,9 @@ API
 section
 9
 .
+[
+Throws
+]
 PushSubscriptionJSON
 toJSON
 (
