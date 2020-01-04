@@ -405,8 +405,6 @@ locales
 '
 merge
 -
-dir
--
 {
 ab_CD
 }
