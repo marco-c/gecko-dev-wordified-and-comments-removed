@@ -43,6 +43,8 @@ toString
 )
 "
 function
+get
+prop
 (
 )
 a
@@ -63,6 +65,8 @@ toSource
 "
 (
 function
+get
+prop
 (
 )
 a
@@ -83,6 +87,8 @@ toString
 )
 "
 function
+set
+prop
 (
 x
 )
@@ -104,6 +110,8 @@ toSource
 "
 (
 function
+set
+prop
 (
 x
 )
