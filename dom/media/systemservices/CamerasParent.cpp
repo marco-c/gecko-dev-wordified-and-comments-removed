@@ -1849,7 +1849,7 @@ capEngine
 capNum
 )
 ;
-unused
+Unused
 <
 <
 ReleaseCaptureDevice
@@ -2267,7 +2267,7 @@ devices
 )
 )
 ;
-unused
+Unused
 <
 <
 self
@@ -2296,7 +2296,7 @@ num
 )
 )
 ;
-unused
+Unused
 <
 <
 self
@@ -2513,7 +2513,7 @@ capabilities
 )
 )
 ;
-unused
+Unused
 <
 <
 self
@@ -2543,7 +2543,7 @@ num
 )
 ;
 }
-unused
+Unused
 <
 <
 self
@@ -2825,7 +2825,7 @@ if
 error
 )
 {
-unused
+Unused
 <
 <
 self
@@ -2839,7 +2839,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-unused
+Unused
 <
 <
 self
@@ -3084,7 +3084,7 @@ error
 )
 )
 ;
-unused
+Unused
 <
 <
 self
@@ -3123,7 +3123,7 @@ get
 )
 )
 ;
-unused
+Unused
 <
 <
 self
@@ -3314,7 +3314,7 @@ if
 error
 )
 {
-unused
+Unused
 <
 <
 self
@@ -3344,7 +3344,7 @@ numdev
 )
 )
 ;
-unused
+Unused
 <
 <
 self
@@ -3560,7 +3560,7 @@ if
 error
 )
 {
-unused
+Unused
 <
 <
 self
@@ -3576,7 +3576,7 @@ NS_ERROR_FAILURE
 }
 else
 {
-unused
+Unused
 <
 <
 self
@@ -3987,7 +3987,7 @@ if
 error
 )
 {
-unused
+Unused
 <
 <
 self
@@ -4003,7 +4003,7 @@ NS_OK
 }
 else
 {
-unused
+Unused
 <
 <
 self

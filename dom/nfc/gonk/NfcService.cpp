@@ -447,7 +447,7 @@ do_GetCurrentThread
 (
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -2780,7 +2780,7 @@ return
 rv
 ;
 }
-unused
+Unused
 <
 <
 mNfcConsumer
@@ -2789,7 +2789,7 @@ forget
 (
 )
 ;
-unused
+Unused
 <
 <
 mThread

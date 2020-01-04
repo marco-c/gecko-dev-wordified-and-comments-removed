@@ -429,7 +429,7 @@ if
 mIPCClosed
 )
 {
-unused
+Unused
 <
 <
 Send__delete__
@@ -716,7 +716,7 @@ mDiverted
 =
 true
 ;
-unused
+Unused
 <
 <
 p
@@ -945,7 +945,7 @@ mStatus
 =
 aStatus
 ;
-unused
+Unused
 <
 <
 SendCancel

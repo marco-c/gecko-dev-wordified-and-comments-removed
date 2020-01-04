@@ -641,7 +641,7 @@ mState
 GMPStateNotLoaded
 )
 {
-unused
+Unused
 <
 <
 SendCrashPluginNow
@@ -1249,7 +1249,7 @@ nsITimer
 TYPE_ONE_SHOT
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF

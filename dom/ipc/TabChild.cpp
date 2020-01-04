@@ -1964,7 +1964,7 @@ IPCOpen
 )
 )
 {
-unused
+Unused
 <
 <
 PBrowserChild
@@ -3306,7 +3306,7 @@ audioChannel
 =
 active
 ;
-unused
+Unused
 <
 <
 SendAudioChannelActivityNotification
@@ -4314,7 +4314,7 @@ int32_t
 aCy
 )
 {
-unused
+Unused
 <
 <
 PBrowserChild
@@ -8604,7 +8604,7 @@ DispatchWidgetEvent
 localEvent
 )
 ;
-unused
+Unused
 <
 <
 SendOnEventNeedingAckHandled
@@ -8650,7 +8650,7 @@ DispatchWidgetEvent
 localEvent
 )
 ;
-unused
+Unused
 <
 <
 SendOnEventNeedingAckHandled

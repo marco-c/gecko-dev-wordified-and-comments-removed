@@ -3716,7 +3716,7 @@ False
 ;
 #
 endif
-unused
+Unused
 <
 <
 SendUpdateBackground
@@ -3904,7 +3904,7 @@ mBackground
 =
 nullptr
 ;
-unused
+Unused
 <
 <
 SendPPluginBackgroundDestroyerConstructor
@@ -5226,7 +5226,7 @@ PStreamNotifyParent
 notifyData
 )
 ;
-unused
+Unused
 <
 <
 streamNotify
@@ -6353,7 +6353,7 @@ NPERR_NO_ERROR
 err
 )
 {
-unused
+Unused
 <
 <
 PBrowserStreamParent
@@ -6903,7 +6903,7 @@ PStreamNotifyParent
 notifyData
 )
 ;
-unused
+Unused
 <
 <
 PStreamNotifyParent
@@ -8060,7 +8060,7 @@ message
 case
 WM_SETFOCUS
 :
-unused
+Unused
 <
 <
 self

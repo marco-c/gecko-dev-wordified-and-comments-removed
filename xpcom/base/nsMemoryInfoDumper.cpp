@@ -1177,7 +1177,7 @@ nsDumpGCAndCCLogsCallbackHolder
 (
 )
 {
-unused
+Unused
 <
 <
 mCallback
@@ -1323,7 +1323,7 @@ Pid
 )
 )
 ;
-unused
+Unused
 <
 <
 cp

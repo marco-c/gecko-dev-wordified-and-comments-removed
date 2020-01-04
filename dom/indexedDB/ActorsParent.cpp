@@ -23442,7 +23442,7 @@ nsACString
 aDatabaseId
 )
 {
-unused
+Unused
 <
 <
 CloseDatabaseWhenIdleInternal
@@ -35345,7 +35345,7 @@ PermissionRequestBase
 kPermissionPrompt
 )
 {
-unused
+Unused
 <
 <
 PIndexedDBPermissionRequestParent
@@ -36406,7 +36406,7 @@ rv
 return
 ;
 }
-unused
+Unused
 <
 <
 stmt
@@ -36906,7 +36906,7 @@ return
 rv
 ;
 }
-unused
+Unused
 <
 <
 stmt
@@ -37272,7 +37272,7 @@ rv
 return
 ;
 }
-unused
+Unused
 <
 <
 rollbackStmt
@@ -37358,7 +37358,7 @@ CheckpointMode
 Truncate
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -37860,7 +37860,7 @@ MOZ_ASSERT
 mInWriteTransaction
 )
 ;
-unused
+Unused
 <
 <
 aRollbackStatement
@@ -42284,7 +42284,7 @@ Count
 )
 )
 {
-unused
+Unused
 <
 <
 ScheduleTransaction
@@ -42727,7 +42727,7 @@ if
 mayRunCallbackImmediately
 )
 {
-unused
+Unused
 <
 <
 aCallback
@@ -43043,7 +43043,7 @@ completeCallback
 mCallback
 )
 ;
-unused
+Unused
 <
 <
 completeCallback
@@ -45486,7 +45486,7 @@ index
 +
 )
 {
-unused
+Unused
 <
 <
 ScheduleTransaction
@@ -45736,7 +45736,7 @@ false
 ;
 }
 }
-unused
+Unused
 <
 <
 aCallback
@@ -46974,7 +46974,7 @@ mHasRunOnce
 =
 true
 ;
-unused
+Unused
 <
 <
 mCallback
@@ -48108,7 +48108,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-unused
+Unused
 <
 <
 connectionPool
@@ -49841,7 +49841,7 @@ State
 Initial
 )
 ;
-unused
+Unused
 <
 <
 this
@@ -50788,7 +50788,7 @@ mActorWasAlive
 mActorDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendInvalidate
@@ -57537,7 +57537,7 @@ IsActorDestroyed
 )
 )
 {
-unused
+Unused
 <
 <
 SendComplete
@@ -58669,7 +58669,7 @@ IsActorDestroyed
 )
 )
 {
-unused
+Unused
 <
 <
 SendComplete
@@ -66484,7 +66484,7 @@ if
 kRunningXPCShellTests
 )
 {
-unused
+Unused
 <
 <
 Observe
@@ -71376,7 +71376,7 @@ oldHandler
 )
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -84638,7 +84638,7 @@ IsActorDestroyed
 )
 )
 {
-unused
+Unused
 <
 <
 SendBlocked
@@ -85302,7 +85302,7 @@ mResultCode
 )
 ;
 }
-unused
+Unused
 <
 <
 PBackgroundIDBFactoryRequestParent
@@ -88618,7 +88618,7 @@ IsActorDestroyed
 )
 )
 {
-unused
+Unused
 <
 <
 SendBlocked
@@ -88688,7 +88688,7 @@ mResultCode
 )
 ;
 }
-unused
+Unused
 <
 <
 PBackgroundIDBFactoryRequestParent
@@ -93556,7 +93556,7 @@ mResultCode
 )
 ;
 }
-unused
+Unused
 <
 <
 PBackgroundIDBDatabaseRequestParent
@@ -113957,7 +113957,7 @@ if
 mActorDestroyed
 )
 {
-unused
+Unused
 <
 <
 PIndexedDBPermissionRequestParent

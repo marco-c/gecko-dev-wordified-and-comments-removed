@@ -386,7 +386,7 @@ NS_GetCurrentThread
 )
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -428,7 +428,7 @@ NS_GetCurrentThread
 )
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF

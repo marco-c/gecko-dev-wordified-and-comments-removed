@@ -5552,7 +5552,7 @@ aMessage
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendParentAsyncMessages
@@ -5589,7 +5589,7 @@ aReply
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendParentAsyncMessages

@@ -260,7 +260,7 @@ rv
 return
 ;
 }
-unused
+Unused
 <
 <
 nsDirectoryService

@@ -74,7 +74,7 @@ Init
 (
 )
 {
-unused
+Unused
 <
 <
 GetSingleton
@@ -213,7 +213,7 @@ mLRUSize
 0
 )
 {
-unused
+Unused
 <
 <
 aCompositor
@@ -248,7 +248,7 @@ LastElement
 (
 )
 ;
-unused
+Unused
 <
 <
 victim

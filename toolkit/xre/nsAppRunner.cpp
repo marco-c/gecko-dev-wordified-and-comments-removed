@@ -1351,7 +1351,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 using
 mozilla
@@ -19602,7 +19602,7 @@ MOZ_LSAN_INTENTIONALLY_LEAK_OBJECT
 statistics_recorder
 )
 ;
-unused
+Unused
 <
 <
 statistics_recorder

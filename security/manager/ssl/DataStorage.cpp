@@ -502,7 +502,7 @@ NotifyAll
 (
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -551,7 +551,7 @@ job
 NS_DISPATCH_NORMAL
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -2013,7 +2013,7 @@ DataStorage_Persistent
 mPendingWrite
 )
 {
-unused
+Unused
 <
 <
 AsyncSetTimer
@@ -2590,7 +2590,7 @@ aDataStorage
 mMutex
 )
 ;
-unused
+Unused
 <
 <
 aDataStorage
@@ -2752,7 +2752,7 @@ nsITimer
 TYPE_ONE_SHOT
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -2925,7 +2925,7 @@ Cancel
 (
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -3059,7 +3059,7 @@ mShuttingDown
 =
 true
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -3082,7 +3082,7 @@ DispatchShutdownTimer
 lock
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF

@@ -3672,7 +3672,7 @@ leak
 "
 )
 ;
-unused
+Unused
 <
 <
 mRequest
@@ -3681,7 +3681,7 @@ forget
 (
 )
 ;
-unused
+Unused
 <
 <
 mLoader
@@ -3991,7 +3991,7 @@ nsScriptLoadRequest
 :
 Progress_Compiling
 ;
-unused
+Unused
 <
 <
 runnable

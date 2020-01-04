@@ -1343,7 +1343,7 @@ CallListenerOpened
 mozilla
 :
 :
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -1379,7 +1379,7 @@ CallListenerClosed
 mozilla
 :
 :
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -1485,7 +1485,7 @@ Length
 mozilla
 :
 :
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -1567,7 +1567,7 @@ aLineNumber
 mozilla
 :
 :
-unused
+Unused
 <
 <
 NS_WARN_IF

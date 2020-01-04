@@ -276,7 +276,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 using
 namespace
@@ -5163,7 +5163,7 @@ aRequest
 )
 )
 ;
-unused
+Unused
 <
 <
 requestWasKnown

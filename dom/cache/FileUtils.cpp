@@ -999,7 +999,7 @@ aCopyContext
 NS_ERROR_ABORT
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF

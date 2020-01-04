@@ -604,7 +604,7 @@ GetByteProgress
 byteProgress
 )
 ;
-unused
+Unused
 <
 <
 SendNotifyStateEvent
@@ -648,7 +648,7 @@ GetSucceeded
 succeeded
 )
 ;
-unused
+Unused
 <
 <
 SendFinish
@@ -707,7 +707,7 @@ GetGroupID
 cacheGroupId
 )
 ;
-unused
+Unused
 <
 <
 SendAssociateDocuments

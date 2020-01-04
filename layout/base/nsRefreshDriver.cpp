@@ -1521,7 +1521,7 @@ nullptr
 }
 else
 {
-unused
+Unused
 <
 <
 mVsyncChild
@@ -1596,7 +1596,7 @@ mVsyncObserver
 }
 else
 {
-unused
+Unused
 <
 <
 mVsyncChild
@@ -1633,7 +1633,7 @@ nullptr
 }
 else
 {
-unused
+Unused
 <
 <
 mVsyncChild

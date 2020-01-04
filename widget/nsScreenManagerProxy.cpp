@@ -122,7 +122,7 @@ success
 =
 false
 ;
-unused
+Unused
 <
 <
 ContentChild
@@ -205,7 +205,7 @@ success
 =
 false
 ;
-unused
+Unused
 <
 <
 SendGetPrimaryScreen
@@ -294,7 +294,7 @@ false
 ScreenDetails
 details
 ;
-unused
+Unused
 <
 <
 SendScreenForRect
@@ -441,7 +441,7 @@ false
 ScreenDetails
 details
 ;
-unused
+Unused
 <
 <
 SendScreenForBrowser
@@ -605,7 +605,7 @@ success
 =
 false
 ;
-unused
+Unused
 <
 <
 SendRefresh

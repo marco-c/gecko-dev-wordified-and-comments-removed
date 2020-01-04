@@ -1443,7 +1443,7 @@ POSTFIX_LENGTH
 =
 16
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -3420,7 +3420,7 @@ Close
 case
 CMD_CHANNEL
 :
-unused
+Unused
 <
 <
 NS_WARN_IF

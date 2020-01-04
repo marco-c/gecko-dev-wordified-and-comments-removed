@@ -1214,7 +1214,7 @@ scopes
 mozilla
 :
 :
-unused
+Unused
 <
 <
 mParent
@@ -1296,7 +1296,7 @@ lowDiskSpace
 mozilla
 :
 :
-unused
+Unused
 <
 <
 mParent
@@ -2052,7 +2052,7 @@ mIPCOpen
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendError
@@ -2136,7 +2136,7 @@ mIPCOpen
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendError
@@ -2215,7 +2215,7 @@ mIPCOpen
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendError
@@ -2289,7 +2289,7 @@ mIPCOpen
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendError
@@ -2401,7 +2401,7 @@ endif
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendObserve
@@ -2582,7 +2582,7 @@ loadItem
 mozilla
 :
 :
-unused
+Unused
 <
 <
 mParent
@@ -2603,7 +2603,7 @@ loadDone
 mozilla
 :
 :
-unused
+Unused
 <
 <
 mParent
@@ -2815,7 +2815,7 @@ NS_OK
 mozilla
 :
 :
-unused
+Unused
 <
 <
 mParent

@@ -3108,7 +3108,7 @@ mFoundOpaqueRedirect
 =
 true
 ;
-unused
+Unused
 <
 <
 OnStartRequest
@@ -3117,7 +3117,7 @@ aOldChannel
 nullptr
 )
 ;
-unused
+Unused
 <
 <
 OnStopRequest

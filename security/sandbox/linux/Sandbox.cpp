@@ -734,7 +734,7 @@ struct
 sigaction
 act
 ;
-unused
+Unused
 <
 <
 sandbox
@@ -1872,7 +1872,7 @@ MOZ_CRASH
 )
 ;
 }
-unused
+Unused
 <
 <
 closedir

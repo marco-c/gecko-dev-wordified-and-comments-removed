@@ -318,7 +318,7 @@ mResourceCount
 mozilla
 :
 :
-unused
+Unused
 <
 <
 aParent
@@ -367,7 +367,7 @@ aId
 mozilla
 :
 :
-unused
+Unused
 <
 <
 aParent
@@ -392,7 +392,7 @@ aWillWait
 mozilla
 :
 :
-unused
+Unused
 <
 <
 aParent
@@ -1142,7 +1142,7 @@ mParent
 mozilla
 :
 :
-unused
+Unused
 <
 <
 request

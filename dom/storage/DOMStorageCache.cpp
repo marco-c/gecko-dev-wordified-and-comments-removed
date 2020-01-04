@@ -1967,7 +1967,7 @@ Length
 )
 )
 ;
-unused
+Unused
 <
 <
 ProcessUsageDelta
@@ -2117,7 +2117,7 @@ if
 hadData
 )
 {
-unused
+Unused
 <
 <
 ProcessUsageDelta

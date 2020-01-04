@@ -542,7 +542,7 @@ rv
 mozilla
 :
 :
-unused
+Unused
 <
 <
 aDialog
@@ -560,7 +560,7 @@ else
 mozilla
 :
 :
-unused
+Unused
 <
 <
 aDialog

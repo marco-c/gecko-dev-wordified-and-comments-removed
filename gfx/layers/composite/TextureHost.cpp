@@ -3541,7 +3541,7 @@ RECYCLE
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendCompositorRecycle

@@ -2009,7 +2009,7 @@ focus
 )
 )
 ;
-unused
+Unused
 <
 <
 sActiveTabParent
@@ -2145,7 +2145,7 @@ InputContextAction
 MENU_LOST_PSEUDO_FOCUS
 )
 {
-unused
+Unused
 <
 <
 newTabParent

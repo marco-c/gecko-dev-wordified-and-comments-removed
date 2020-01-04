@@ -378,7 +378,7 @@ Length
 i
 )
 {
-unused
+Unused
 <
 <
 fdSet
@@ -507,7 +507,7 @@ IsEmpty
 )
 )
 ;
-unused
+Unused
 <
 <
 fdSetActor
@@ -536,7 +536,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheStreamControlChild
 )
 ;
-unused
+Unused
 <
 <
 SendNoteClosed

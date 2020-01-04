@@ -456,7 +456,7 @@ mBackgroundManager
 aPrincipal
 )
 ;
-unused
+Unused
 <
 <
 mBackgroundManager
@@ -946,7 +946,7 @@ port
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendCallbackOpened
@@ -1901,7 +1901,7 @@ nullptr
 mozilla
 :
 :
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -1927,7 +1927,7 @@ RecvRequestDelete
 mozilla
 :
 :
-unused
+Unused
 <
 <
 Send__delete__
@@ -2235,7 +2235,7 @@ fallibleArray
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendCallbackReceivedData
@@ -2273,7 +2273,7 @@ mIPCOpen
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendCallbackClosed
@@ -2307,7 +2307,7 @@ return
 mozilla
 :
 :
-unused
+Unused
 <
 <
 SendCallbackError

@@ -2576,7 +2576,7 @@ NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 mozilla
 :
 :
-unused
+Unused
 <
 <
 error

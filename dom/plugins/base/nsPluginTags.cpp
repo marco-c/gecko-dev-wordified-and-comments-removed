@@ -813,7 +813,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-unused
+Unused
 <
 <
 prefs

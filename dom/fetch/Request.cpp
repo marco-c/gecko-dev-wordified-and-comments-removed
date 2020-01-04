@@ -457,7 +457,7 @@ return
 nsAutoCString
 credentials
 ;
-unused
+Unused
 <
 <
 resolvedURI
@@ -631,7 +631,7 @@ return
 nsAutoCString
 credentials
 ;
-unused
+Unused
 <
 <
 uri

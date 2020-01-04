@@ -80,7 +80,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 NS_IMPL_ISUPPORTS
 (
@@ -162,7 +162,7 @@ aValue
 nsString
 newValue
 ;
-unused
+Unused
 <
 <
 child
@@ -259,7 +259,7 @@ aAttribute
 nsString
 attribute
 ;
-unused
+Unused
 <
 <
 ContentChild

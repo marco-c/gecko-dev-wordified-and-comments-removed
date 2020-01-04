@@ -125,7 +125,7 @@ ScreenManagerParent
 )
 ;
 }
-unused
+Unused
 <
 <
 RecvRefresh
@@ -271,7 +271,7 @@ true
 ScreenDetails
 details
 ;
-unused
+Unused
 <
 <
 ExtractScreenDetails

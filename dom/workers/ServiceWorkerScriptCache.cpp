@@ -2858,7 +2858,7 @@ NS_OK
 nsAutoCString
 maxScope
 ;
-unused
+Unused
 <
 <
 httpChannel

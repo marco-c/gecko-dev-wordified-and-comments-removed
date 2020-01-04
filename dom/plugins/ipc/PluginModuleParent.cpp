@@ -4033,7 +4033,7 @@ kParentTimeoutPref
 0
 )
 ;
-unused
+Unused
 <
 <
 static_cast
@@ -7604,7 +7604,7 @@ urlRedirectSupported
 =
 false
 ;
-unused
+Unused
 <
 <
 CallOptionalFunctionsSupported
@@ -7803,7 +7803,7 @@ pdata
 =
 nullptr
 ;
-unused
+Unused
 <
 <
 PluginInstanceParent
@@ -9413,7 +9413,7 @@ GetSettings
 settings
 )
 ;
-unused
+Unused
 <
 <
 SendSettingChanged
@@ -10368,7 +10368,7 @@ iconPath
 )
 )
 {
-unused
+Unused
 <
 <
 SendSetAudioSessionData
@@ -12132,7 +12132,7 @@ defined
 (
 OS_WIN
 )
-unused
+Unused
 <
 <
 SendProcessNativeEventsInInterruptCall
@@ -13679,7 +13679,7 @@ GetThreadFilterNames
 (
 )
 ;
-unused
+Unused
 <
 <
 mPmp
@@ -13709,7 +13709,7 @@ stopped
 )
 )
 {
-unused
+Unused
 <
 <
 mPmp
@@ -14004,7 +14004,7 @@ WillGatherOOPProfile
 (
 )
 ;
-unused
+Unused
 <
 <
 SendGatherProfile

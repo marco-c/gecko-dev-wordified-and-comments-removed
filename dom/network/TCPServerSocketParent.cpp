@@ -480,7 +480,7 @@ port
 mozilla
 :
 :
-unused
+Unused
 <
 <
 PTCPServerSocketParent
@@ -599,7 +599,7 @@ RecvRequestDelete
 mozilla
 :
 :
-unused
+Unused
 <
 <
 Send__delete__

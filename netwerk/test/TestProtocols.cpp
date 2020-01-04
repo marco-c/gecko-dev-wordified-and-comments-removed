@@ -1435,7 +1435,7 @@ username
 "
 )
 ;
-unused
+Unused
 <
 <
 fgets
@@ -4127,7 +4127,7 @@ start
 "
 )
 ;
-unused
+Unused
 <
 <
 scanf

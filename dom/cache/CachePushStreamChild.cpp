@@ -609,7 +609,7 @@ IsEmpty
 )
 )
 {
-unused
+Unused
 <
 <
 SendBuffer
@@ -823,7 +823,7 @@ aRv
 NS_OK
 ;
 }
-unused
+Unused
 <
 <
 SendClose

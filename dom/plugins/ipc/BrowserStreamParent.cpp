@@ -204,7 +204,7 @@ mState
 =
 DYING
 ;
-unused
+Unused
 <
 <
 SendNPP_DestroyStream
@@ -279,7 +279,7 @@ DestroyAsyncStream
 mStream
 )
 ;
-unused
+Unused
 <
 <
 PBrowserStreamParent
@@ -628,7 +628,7 @@ mState
 =
 DYING
 ;
-unused
+Unused
 <
 <
 SendNPP_DestroyStream
@@ -838,7 +838,7 @@ mStreamPeer
 )
 ;
 }
-unused
+Unused
 <
 <
 SendNPP_StreamAsFile

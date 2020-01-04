@@ -46,7 +46,7 @@ extern
 MFBT_DATA
 const
 unused_t
-unused
+Unused
 ;
 }
 #

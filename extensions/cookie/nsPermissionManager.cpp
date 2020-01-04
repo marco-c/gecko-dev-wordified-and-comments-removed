@@ -323,7 +323,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 static
 bool
@@ -6628,7 +6628,7 @@ NeedsPermissionsUpdate
 (
 )
 )
-unused
+Unused
 <
 <
 cp

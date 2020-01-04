@@ -2500,7 +2500,7 @@ Valid
 return
 ;
 }
-unused
+Unused
 <
 <
 sys_write
@@ -4170,7 +4170,7 @@ LD_LIBRARY_PATH
 "
 )
 ;
-unused
+Unused
 <
 <
 execl
@@ -4192,7 +4192,7 @@ if
 androidUserSerial
 )
 {
-unused
+Unused
 <
 <
 execlp
@@ -4259,7 +4259,7 @@ char
 }
 else
 {
-unused
+Unused
 <
 <
 execlp
@@ -4334,7 +4334,7 @@ else
 int
 status
 ;
-unused
+Unused
 <
 <
 HANDLE_EINTR

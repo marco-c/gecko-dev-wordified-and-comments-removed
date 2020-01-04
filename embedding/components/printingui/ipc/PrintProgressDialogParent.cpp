@@ -32,7 +32,7 @@ using
 mozilla
 :
 :
-unused
+Unused
 ;
 namespace
 mozilla
@@ -312,7 +312,7 @@ if
 mActive
 )
 {
-unused
+Unused
 <
 <
 SendDialogOpened

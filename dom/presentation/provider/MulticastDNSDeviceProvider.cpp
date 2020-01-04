@@ -295,7 +295,7 @@ service
 "
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -758,7 +758,7 @@ GetAndroidDeviceName
 mServiceName
 )
 ;
-unused
+Unused
 <
 <
 Preferences
@@ -773,7 +773,7 @@ mServiceName
 }
 #
 endif
-unused
+Unused
 <
 <
 mPresentationServer
@@ -1251,7 +1251,7 @@ MOZ_ASSERT
 mDiscoveryTimer
 )
 ;
-unused
+Unused
 <
 <
 mDiscoveryTimer
@@ -1441,7 +1441,7 @@ listener
 listener
 )
 {
-unused
+Unused
 <
 <
 listener
@@ -1577,7 +1577,7 @@ listener
 listener
 )
 {
-unused
+Unused
 <
 <
 listener
@@ -1696,7 +1696,7 @@ listener
 listener
 )
 {
-unused
+Unused
 <
 <
 listener
@@ -2240,7 +2240,7 @@ if
 mIsDiscovering
 )
 {
-unused
+Unused
 <
 <
 mDiscoveryTimer
@@ -3394,7 +3394,7 @@ NS_IsMainThread
 nsAutoCString
 address
 ;
-unused
+Unused
 <
 <
 aDeviceInfo
@@ -3451,7 +3451,7 @@ else
 nsAutoCString
 id
 ;
-unused
+Unused
 <
 <
 aDeviceInfo
@@ -3465,7 +3465,7 @@ id
 uint16_t
 port
 ;
-unused
+Unused
 <
 <
 aDeviceInfo
@@ -3520,7 +3520,7 @@ listener
 listener
 )
 {
-unused
+Unused
 <
 <
 listener

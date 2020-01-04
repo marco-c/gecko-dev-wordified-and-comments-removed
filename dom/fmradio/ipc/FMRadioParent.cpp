@@ -502,7 +502,7 @@ aType
 case
 FrequencyChanged
 :
-unused
+Unused
 <
 <
 SendNotifyFrequencyChanged
@@ -525,7 +525,7 @@ break
 case
 EnabledChanged
 :
-unused
+Unused
 <
 <
 SendNotifyEnabledChanged
@@ -559,7 +559,7 @@ break
 case
 RDSEnabledChanged
 :
-unused
+Unused
 <
 <
 SendNotifyRDSEnabledChanged
@@ -602,7 +602,7 @@ GetPi
 (
 )
 ;
-unused
+Unused
 <
 <
 SendNotifyPIChanged
@@ -653,7 +653,7 @@ GetPty
 (
 )
 ;
-unused
+Unused
 <
 <
 SendNotifyPTYChanged
@@ -702,7 +702,7 @@ GetPs
 psname
 )
 ;
-unused
+Unused
 <
 <
 SendNotifyPSChanged
@@ -733,7 +733,7 @@ GetRt
 radiotext
 )
 ;
-unused
+Unused
 <
 <
 SendNotifyRadiotextChanged
@@ -775,7 +775,7 @@ MOZ_ASSERT
 rdsgroupset
 )
 ;
-unused
+Unused
 <
 <
 SendNotifyNewRDSGroup

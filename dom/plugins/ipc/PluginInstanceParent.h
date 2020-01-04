@@ -1153,7 +1153,7 @@ DidComposite
 (
 )
 {
-unused
+Unused
 <
 <
 SendNPP_DidComposite

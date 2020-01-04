@@ -254,7 +254,7 @@ mObservingVsync
 mDestroyed
 )
 {
-unused
+Unused
 <
 <
 SendNotify

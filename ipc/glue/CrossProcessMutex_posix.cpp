@@ -454,7 +454,7 @@ count
 0
 )
 {
-unused
+Unused
 <
 <
 pthread_mutex_destroy

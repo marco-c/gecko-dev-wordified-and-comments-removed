@@ -782,7 +782,7 @@ SetStoredState
 true
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -985,7 +985,7 @@ mTag
 mCallback
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF
@@ -7504,7 +7504,7 @@ SetStoredState
 true
 )
 ;
-unused
+Unused
 <
 <
 NS_WARN_IF

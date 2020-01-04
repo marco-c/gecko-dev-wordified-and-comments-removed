@@ -202,7 +202,7 @@ mNumChildActors
 =
 1
 ;
-unused
+Unused
 <
 <
 SendPCacheOpConstructor
@@ -301,7 +301,7 @@ MOZ_ASSERT
 mListener
 )
 ;
-unused
+Unused
 <
 <
 SendTeardown

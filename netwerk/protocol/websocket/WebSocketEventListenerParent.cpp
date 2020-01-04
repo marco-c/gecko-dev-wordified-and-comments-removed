@@ -107,7 +107,7 @@ UnregisterListener
 (
 )
 ;
-unused
+Unused
 <
 <
 Send__delete__
@@ -181,7 +181,7 @@ nsACString
 aProtocols
 )
 {
-unused
+Unused
 <
 <
 SendWebSocketCreated
@@ -223,7 +223,7 @@ nsACString
 aExtensions
 )
 {
-unused
+Unused
 <
 <
 SendWebSocketOpened
@@ -265,7 +265,7 @@ nsAString
 aReason
 )
 {
-unused
+Unused
 <
 <
 SendWebSocketClosed
@@ -299,7 +299,7 @@ uint16_t
 aMessageType
 )
 {
-unused
+Unused
 <
 <
 SendWebSocketMessageAvailable
@@ -352,7 +352,7 @@ WebSocketFrame
 aFrame
 )
 ;
-unused
+Unused
 <
 <
 SendFrameReceived
@@ -406,7 +406,7 @@ WebSocketFrame
 aFrame
 )
 ;
-unused
+Unused
 <
 <
 SendFrameSent

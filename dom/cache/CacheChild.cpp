@@ -401,7 +401,7 @@ MOZ_ASSERT
 mListener
 )
 ;
-unused
+Unused
 <
 <
 SendTeardown
