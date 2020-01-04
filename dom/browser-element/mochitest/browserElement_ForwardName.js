@@ -116,6 +116,8 @@ to
 e
 .
 detail
+.
+url
 )
 ;
 if
@@ -123,6 +125,8 @@ if
 e
 .
 detail
+.
+url
 .
 endsWith
 (

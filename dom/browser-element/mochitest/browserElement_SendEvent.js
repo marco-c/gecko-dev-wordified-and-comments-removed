@@ -195,6 +195,8 @@ href
 e
 .
 detail
+.
+url
 ;
 switch
 (

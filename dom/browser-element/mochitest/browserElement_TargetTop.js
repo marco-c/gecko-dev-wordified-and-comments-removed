@@ -107,6 +107,8 @@ test
 e
 .
 detail
+.
+url
 )
 )
 {

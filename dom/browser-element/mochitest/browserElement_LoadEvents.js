@@ -233,6 +233,8 @@ ok
 e
 .
 detail
+.
+url
 browserElementTestHelpers
 .
 emptyPage1
@@ -611,6 +613,8 @@ ok
 e
 .
 detail
+.
+url
 browserElementTestHelpers
 .
 emptyPage2
