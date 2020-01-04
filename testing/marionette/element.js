@@ -253,8 +253,9 @@ this
 .
 ElementManager
 =
-function
-ElementManager
+class
+{
+constructor
 (
 )
 {
@@ -290,16 +291,7 @@ nsITimer
 )
 ;
 }
-;
-ElementManager
-.
-prototype
-=
-{
 reset
-:
-function
-EM_clear
 (
 )
 {
@@ -312,8 +304,6 @@ seenItems
 ;
 }
 addAll
-:
-function
 (
 els
 )
@@ -345,8 +335,6 @@ add
 ;
 }
 add
-:
-function
 (
 el
 )
@@ -450,9 +438,6 @@ id
 ;
 }
 getKnownElement
-:
-function
-EM_getKnownElement
 (
 id
 container
@@ -628,9 +613,6 @@ el
 ;
 }
 isDisconnected
-:
-function
-EM_isDisconnected
 (
 el
 shadowRoot
@@ -724,9 +706,6 @@ DOCUMENT_POSITION_DISCONNECTED
 }
 }
 wrapValue
-:
-function
-EM_wrapValue
 (
 val
 )
@@ -992,9 +971,6 @@ result
 ;
 }
 convertWrappedArguments
-:
-function
-EM_convertWrappedArguments
 (
 args
 container
