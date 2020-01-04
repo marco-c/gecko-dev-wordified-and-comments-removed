@@ -2207,6 +2207,10 @@ type
 "
 )
 ;
+error
+=
+RESAMPLER_ERR_ALLOC_FAILED
+;
 }
 MOZ_ASSERT
 (
