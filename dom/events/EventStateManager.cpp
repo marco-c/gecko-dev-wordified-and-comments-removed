@@ -12104,7 +12104,7 @@ true
 aEvent
 -
 >
-displayPanFeedback
+mDisplayPanFeedback
 =
 displayPanFeedback
 ;

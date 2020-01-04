@@ -99,7 +99,7 @@ mPanDirection
 (
 ePanNone
 )
-displayPanFeedback
+mDisplayPanFeedback
 (
 false
 )
@@ -185,7 +185,7 @@ PanDirection
 mPanDirection
 ;
 bool
-displayPanFeedback
+mDisplayPanFeedback
 ;
 void
 AssignGestureNotifyEventData
@@ -210,11 +210,11 @@ aEvent
 .
 mPanDirection
 ;
-displayPanFeedback
+mDisplayPanFeedback
 =
 aEvent
 .
-displayPanFeedback
+mDisplayPanFeedback
 ;
 }
 }
