@@ -3629,7 +3629,7 @@ RefPtr
 nsFontMetrics
 >
 fm
-;
+=
 aPresContext
 -
 >
@@ -3642,11 +3642,6 @@ GetMetricsFor
 (
 font
 params
-*
-getter_AddRefs
-(
-fm
-)
 )
 ;
 gfxFont
@@ -6392,7 +6387,7 @@ RefPtr
 nsFontMetrics
 >
 fm
-;
+=
 aPresContext
 -
 >
@@ -6405,11 +6400,6 @@ GetMetricsFor
 (
 font
 params
-*
-getter_AddRefs
-(
-fm
-)
 )
 ;
 uint32_t

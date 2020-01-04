@@ -283,7 +283,10 @@ return
 mAppUnitsPerDevPixelAtUnitFullZoom
 ;
 }
-nsresult
+already_AddRefed
+<
+nsFontMetrics
+>
 GetMetricsFor
 (
 const
@@ -297,10 +300,6 @@ nsFontMetrics
 Params
 &
 aParams
-nsFontMetrics
-*
-&
-aMetrics
 )
 ;
 nsresult

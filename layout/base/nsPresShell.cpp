@@ -47328,7 +47328,7 @@ RefPtr
 nsFontMetrics
 >
 fm
-;
+=
 aPresContext
 -
 >
@@ -47341,11 +47341,6 @@ GetMetricsFor
 (
 font
 params
-*
-getter_AddRefs
-(
-fm
-)
 )
 ;
 char
