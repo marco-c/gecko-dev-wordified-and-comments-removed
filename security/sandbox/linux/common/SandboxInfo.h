@@ -169,6 +169,12 @@ kHasSeccompBPF
 }
 static
 void
+SubmitTelemetry
+(
+)
+;
+static
+void
 ThreadingCheck
 (
 )
