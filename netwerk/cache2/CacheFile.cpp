@@ -5172,7 +5172,13 @@ off
 =
 aIndex
 *
+static_cast
+<
+int64_t
+>
+(
 kChunkSize
+)
 ;
 if
 (
@@ -5866,7 +5872,13 @@ off
 =
 i
 *
+static_cast
+<
+int64_t
+>
+(
 kChunkSize
+)
 ;
 if
 (
