@@ -6402,6 +6402,15 @@ unlinkFromRuntime
 fop
 )
 ;
+script
+-
+>
+traceLoggerScriptEvent_
+=
+TraceLoggerEvent
+(
+)
+;
 fop
 -
 >
