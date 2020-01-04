@@ -128,6 +128,10 @@ mType
 (
 aType
 )
+mCurve
+(
+nullptr
+)
 mTimeConstant
 (
 aTimeConstant
