@@ -163,9 +163,6 @@ object
 object
 .
 class
-+
-"
-"
 )
 ;
 }
