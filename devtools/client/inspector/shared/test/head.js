@@ -166,9 +166,7 @@ var
 console
 }
 =
-Components
-.
-utils
+Cu
 .
 import
 (
