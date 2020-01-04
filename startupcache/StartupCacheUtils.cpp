@@ -138,6 +138,12 @@ stream
 "
 )
 ;
+NS_ENSURE_TRUE
+(
+stringStream
+NS_ERROR_FAILURE
+)
+;
 nsCOMPtr
 <
 nsIObjectInputStream
@@ -155,6 +161,12 @@ binaryinputstream
 ;
 1
 "
+)
+;
+NS_ENSURE_TRUE
+(
+objectInput
+NS_ERROR_FAILURE
 )
 ;
 stringStream
