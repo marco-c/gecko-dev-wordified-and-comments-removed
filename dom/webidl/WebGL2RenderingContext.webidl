@@ -1970,20 +1970,8 @@ GLenum
 target
 GLintptr
 offset
-ArrayBuffer
-?
-returnedData
-)
-;
-void
-getBufferSubData
-(
-GLenum
-target
-GLintptr
-offset
-SharedArrayBuffer
-returnedData
+ArrayBufferView
+dstData
 )
 ;
 [
@@ -2054,7 +2042,6 @@ format
 GLenum
 type
 ArrayBufferView
-?
 pixels
 )
 ;
@@ -2332,7 +2319,6 @@ format
 GLenum
 type
 ArrayBufferView
-?
 pixels
 )
 ;
@@ -2365,7 +2351,6 @@ format
 GLenum
 type
 ImageData
-?
 data
 )
 ;
@@ -2756,7 +2741,6 @@ format
 GLenum
 type
 ImageData
-?
 pixels
 )
 ;
@@ -2871,7 +2855,6 @@ format
 GLenum
 type
 ArrayBufferView
-?
 pixels
 )
 ;
@@ -2901,7 +2884,6 @@ format
 GLenum
 type
 ImageData
-?
 pixels
 )
 ;
