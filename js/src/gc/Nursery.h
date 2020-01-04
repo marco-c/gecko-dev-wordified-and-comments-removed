@@ -1147,6 +1147,7 @@ uintptr_t
 start
 (
 )
+const
 {
 return
 uintptr_t
@@ -1160,6 +1161,7 @@ uintptr_t
 end
 (
 )
+const
 {
 return
 uintptr_t
@@ -1350,8 +1352,10 @@ chunkno
 ;
 }
 void
-updateDecommittedRegion
+updateNumActiveChunks
 (
+int
+newCount
 )
 ;
 MOZ_ALWAYS_INLINE
