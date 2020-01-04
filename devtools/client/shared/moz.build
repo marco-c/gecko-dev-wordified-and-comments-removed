@@ -172,6 +172,11 @@ Curl
 jsm
 '
 '
+demangle
+.
+js
+'
+'
 DeveloperToolbar
 .
 jsm
