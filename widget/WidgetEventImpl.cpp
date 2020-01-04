@@ -3442,6 +3442,15 @@ nsIDOMKeyEvent
 :
 DOM_VK_VOLUME_DOWN
 ;
+case
+KEY_NAME_INDEX_AudioVolumeUp
+:
+return
+nsIDOMKeyEvent
+:
+:
+DOM_VK_VOLUME_UP
+;
 #
 else
 case
@@ -3453,8 +3462,6 @@ nsIDOMKeyEvent
 :
 DOM_VK_VOLUME_DOWN
 ;
-#
-endif
 case
 KEY_NAME_INDEX_VolumeUp
 :
@@ -3464,6 +3471,8 @@ nsIDOMKeyEvent
 :
 DOM_VK_VOLUME_UP
 ;
+#
+endif
 case
 KEY_NAME_INDEX_Meta
 :

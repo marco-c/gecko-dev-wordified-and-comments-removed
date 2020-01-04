@@ -30388,7 +30388,7 @@ DOM_VK_VOLUME_DOWN
 key
 :
 "
-VolumeUp
+AudioVolumeUp
 "
 keyCode
 :

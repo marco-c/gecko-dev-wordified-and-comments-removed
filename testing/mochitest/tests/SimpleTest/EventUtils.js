@@ -5723,7 +5723,7 @@ DOM_VK_VOLUME_UP
 :
 return
 "
-VolumeUp
+AudioVolumeUp
 "
 ;
 case
