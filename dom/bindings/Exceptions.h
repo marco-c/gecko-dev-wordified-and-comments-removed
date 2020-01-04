@@ -132,11 +132,6 @@ nsIStackFrame
 >
 GetCurrentJSStack
 (
-int32_t
-aMaxDepth
-=
--
-1
 )
 ;
 class
