@@ -3042,6 +3042,15 @@ aVolume
 if
 (
 mStream
+&
+&
+!
+mStream
+-
+>
+IsDestroyed
+(
+)
 )
 {
 mStream
