@@ -115,6 +115,18 @@ _help
 return
 0
     
+return
+config_status
+(
+config
+)
+def
+config_status
+(
+config
+)
+:
+    
 sanitized_config
 =
 {
