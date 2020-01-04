@@ -153,6 +153,8 @@ nsCString
 displayName
 uint32_t
 pluginId
+nsresult
+aResult
 )
 ;
 sync

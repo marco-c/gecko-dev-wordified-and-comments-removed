@@ -230,6 +230,11 @@ nsAString
 aDirectory
 )
 ;
+bool
+IsShuttingDown
+(
+)
+;
 private
 :
 friend
@@ -872,6 +877,9 @@ aDisplayName
 uint32_t
 *
 aPluginId
+nsresult
+*
+aRv
 )
 override
 ;
