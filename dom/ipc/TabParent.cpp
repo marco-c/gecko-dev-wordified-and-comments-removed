@@ -9108,7 +9108,7 @@ aIMENotification
 .
 mTextChangeData
 .
-mCausedByComposition
+mCausedOnlyByComposition
 |
 |
 updatePreference

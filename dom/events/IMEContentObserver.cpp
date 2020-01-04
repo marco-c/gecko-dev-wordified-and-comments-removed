@@ -724,7 +724,7 @@ mAddedEndOffset
 u
 "
 "
-mCausedByComposition
+mCausedOnlyByComposition
 =
 %
 s
@@ -743,7 +743,7 @@ ToChar
 (
 aData
 .
-mCausedByComposition
+mCausedOnlyByComposition
 )
 )
 ;

@@ -1780,7 +1780,7 @@ uint32_t
 mAddedEndOffset
 ;
 bool
-mCausedByComposition
+mCausedOnlyByComposition
 ;
 bool
 mOccurredDuringComposition
@@ -2031,7 +2031,7 @@ mAddedEndOffset
 =
 aAddedEndOffset
 ;
-mCausedByComposition
+mCausedOnlyByComposition
 =
 aCausedByComposition
 ;

@@ -3597,7 +3597,7 @@ aIMENotification
 .
 mTextChangeData
 .
-mCausedByComposition
+mCausedOnlyByComposition
 )
 )
 {
