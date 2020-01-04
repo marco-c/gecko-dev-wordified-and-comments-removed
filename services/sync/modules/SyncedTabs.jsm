@@ -512,6 +512,13 @@ client
 .
 id
 )
+lastModified
+:
+client
+.
+lastModified
+*
+1000
 tabs
 :
 [
