@@ -592,14 +592,6 @@ LTestI64AndBranch
 lir
 )
 ;
-void
-visitWasmTruncateToInt32
-(
-LWasmTruncateToInt32
-*
-lir
-)
-;
 }
 ;
 typedef

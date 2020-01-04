@@ -5062,8 +5062,6 @@ temp
 Address
 (
 esp
-1
-*
 sizeof
 (
 int32_t
@@ -5076,8 +5074,6 @@ fldcw
 Operand
 (
 esp
-1
-*
 sizeof
 (
 int32_t
