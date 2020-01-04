@@ -5717,12 +5717,6 @@ showTestReport
 {
 SpecialPowers
 .
-flushAllAppsLaunchable
-(
-)
-;
-SpecialPowers
-.
 flushPermissions
 (
 function

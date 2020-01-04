@@ -1279,9 +1279,6 @@ webapps
 :
 {
 }
-allAppsLaunchable
-:
-false
 _updateHandlers
 :
 [

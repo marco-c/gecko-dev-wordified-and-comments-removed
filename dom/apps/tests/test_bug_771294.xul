@@ -269,13 +269,6 @@ waitForExplicitFinish
 (
 )
 ;
-SpecialPowers
-.
-setAllAppsLaunchable
-(
-true
-)
-;
 Cu
 .
 import
