@@ -224,9 +224,10 @@ defaultPort
 1
 allowPort
 :
-function
 (
 )
+=
+>
 false
 newURI
 :
