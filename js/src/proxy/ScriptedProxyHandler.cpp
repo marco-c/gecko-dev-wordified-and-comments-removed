@@ -3,7 +3,7 @@ include
 "
 proxy
 /
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 .
 h
 "
@@ -677,7 +677,7 @@ true
 static
 JSObject
 *
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 JSObject
 *
@@ -702,7 +702,7 @@ handler
 =
 =
 &
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 singleton
@@ -721,7 +721,7 @@ ProxyObject
 .
 extra
 (
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 HANDLER_EXTRA
@@ -838,7 +838,7 @@ true
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 getPrototype
@@ -857,7 +857,7 @@ RootedObject
 handler
 (
 cx
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 proxy
 )
@@ -1123,7 +1123,7 @@ true
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 setPrototype
@@ -1145,7 +1145,7 @@ RootedObject
 handler
 (
 cx
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 proxy
 )
@@ -1400,7 +1400,7 @@ succeed
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 getPrototypeIfOrdinary
@@ -1428,7 +1428,7 @@ true
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 setImmutablePrototype
@@ -1491,7 +1491,7 @@ succeeded
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 preventExtensions
@@ -1511,7 +1511,7 @@ RootedObject
 handler
 (
 cx
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 proxy
 )
@@ -1705,7 +1705,7 @@ JSMSG_PROXY_PREVENTEXTENSIONS_RETURNED_FALSE
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 isExtensible
@@ -1725,7 +1725,7 @@ RootedObject
 handler
 (
 cx
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 proxy
 )
@@ -1909,7 +1909,7 @@ true
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 getOwnPropertyDescriptor
@@ -1933,7 +1933,7 @@ RootedObject
 handler
 (
 cx
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 proxy
 )
@@ -2401,7 +2401,7 @@ true
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 defineProperty
@@ -2428,7 +2428,7 @@ RootedObject
 handler
 (
 cx
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 proxy
 )
@@ -2977,7 +2977,7 @@ true
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 ownPropertyKeys
@@ -2997,7 +2997,7 @@ RootedObject
 handler
 (
 cx
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 proxy
 )
@@ -3631,7 +3631,7 @@ trapResult
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 delete_
@@ -3653,7 +3653,7 @@ RootedObject
 handler
 (
 cx
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 proxy
 )
@@ -3898,7 +3898,7 @@ succeed
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 has
@@ -3920,7 +3920,7 @@ RootedObject
 handler
 (
 cx
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 proxy
 )
@@ -4183,7 +4183,7 @@ true
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 get
@@ -4206,7 +4206,7 @@ RootedObject
 handler
 (
 cx
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 proxy
 )
@@ -4557,7 +4557,7 @@ true
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 set
@@ -4583,7 +4583,7 @@ RootedObject
 handler
 (
 cx
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 proxy
 )
@@ -4947,7 +4947,7 @@ succeed
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 call
@@ -4968,7 +4968,7 @@ RootedObject
 handler
 (
 cx
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 proxy
 )
@@ -5218,7 +5218,7 @@ rval
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 construct
@@ -5239,7 +5239,7 @@ RootedObject
 handler
 (
 cx
-GetDirectProxyHandlerObject
+GetScriptedProxyHandlerObject
 (
 proxy
 )
@@ -5542,7 +5542,7 @@ true
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 nativeCall
@@ -5572,7 +5572,7 @@ false
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 hasInstance
@@ -5638,7 +5638,7 @@ bp
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 getBuiltinClass
@@ -5664,7 +5664,7 @@ true
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 isArray
@@ -5729,7 +5729,7 @@ true
 const
 char
 *
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 className
@@ -5786,7 +5786,7 @@ target
 }
 JSString
 *
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 fun_toString
@@ -5819,7 +5819,7 @@ nullptr
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 regexp_toShared
@@ -5843,7 +5843,7 @@ not
 end
 up
 in
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 regexp_toShared
@@ -5855,7 +5855,7 @@ false
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 boxedValue_unbox
@@ -5878,7 +5878,7 @@ not
 end
 up
 in
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 boxedValue_unbox
@@ -5890,7 +5890,7 @@ false
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 isCallable
@@ -5919,7 +5919,7 @@ handler
 =
 =
 &
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 singleton
@@ -5958,7 +5958,7 @@ IS_CALLABLE
 ;
 }
 bool
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 isConstructor
@@ -5987,7 +5987,7 @@ handler
 =
 =
 &
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 singleton
@@ -6027,7 +6027,7 @@ IS_CONSTRUCTOR
 }
 const
 char
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 family
@@ -6035,8 +6035,8 @@ family
 0
 ;
 const
-ScriptedDirectProxyHandler
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 singleton
@@ -6237,7 +6237,7 @@ NewProxyObject
 (
 cx
 &
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 singleton
@@ -6281,7 +6281,7 @@ proxy
 >
 setExtra
 (
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 HANDLER_EXTRA
@@ -6302,7 +6302,7 @@ isCallable
 (
 )
 ?
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 IS_CALLABLE
@@ -6319,7 +6319,7 @@ isConstructor
 (
 )
 ?
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 IS_CONSTRUCTOR
@@ -6331,7 +6331,7 @@ proxy
 >
 setExtra
 (
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 IS_CALLCONSTRUCT_EXTRA
@@ -6460,7 +6460,7 @@ func
 >
 getExtendedSlot
 (
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 REVOKE_SLOT
@@ -6481,7 +6481,7 @@ func
 >
 setExtendedSlot
 (
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 REVOKE_SLOT
@@ -6532,7 +6532,7 @@ ProxyObject
 .
 setExtra
 (
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 HANDLER_EXTRA
@@ -6669,7 +6669,7 @@ JSFunction
 .
 initExtendedSlot
 (
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 :
 :
 REVOKE_SLOT

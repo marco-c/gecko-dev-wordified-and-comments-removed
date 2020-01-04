@@ -2285,7 +2285,7 @@ cpp
 '
 proxy
 /
-ScriptedDirectProxyHandler
+ScriptedProxyHandler
 .
 cpp
 '
