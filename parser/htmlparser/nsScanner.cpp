@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -1344,6 +1353,8 @@ r
 +
 +
 aNewlinesSkipped
+;
+MOZ_FALLTHROUGH
 ;
 case
 '
@@ -2712,6 +2723,8 @@ r
 +
 +
 aNewlinesSkipped
+;
+MOZ_FALLTHROUGH
 ;
 case
 '

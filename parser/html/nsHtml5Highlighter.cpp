@@ -52,6 +52,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -2234,6 +2243,8 @@ i
 \
 n
 '
+;
+MOZ_FALLTHROUGH
 ;
 case
 '
