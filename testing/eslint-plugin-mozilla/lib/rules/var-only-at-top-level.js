@@ -56,6 +56,10 @@ helpers
 getIsGlobalScope
 (
 context
+.
+getAncestors
+(
+)
 )
 )
 {
