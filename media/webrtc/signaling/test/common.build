@@ -647,6 +647,16 @@ QTKit
 '
 -
 framework
+AVFoundation
+'
+'
+-
+framework
+CoreMedia
+'
+'
+-
+framework
 QuartzCore
 '
 '

@@ -925,6 +925,16 @@ QTKit
 '
 -
 framework
+AVFoundation
+'
+'
+-
+framework
+CoreMedia
+'
+'
+-
+framework
 IOKit
 '
 '
