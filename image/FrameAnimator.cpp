@@ -95,11 +95,6 @@ mCurrentAnimationFrameIndex
 =
 0
 ;
-mLastCompositedFrameIndex
-=
--
-1
-;
 }
 void
 AnimationState
@@ -716,7 +711,6 @@ if
 !
 DoBlend
 (
-aState
 &
 ret
 .
@@ -981,9 +975,6 @@ FrameAnimator
 :
 GetCompositedFrame
 (
-AnimationState
-&
-aState
 uint32_t
 aFrameNum
 )
@@ -1005,8 +996,6 @@ composited
 ;
 if
 (
-aState
-.
 mLastCompositedFrameIndex
 =
 =
@@ -1395,9 +1384,6 @@ FrameAnimator
 :
 DoBlend
 (
-AnimationState
-&
-aState
 nsIntRect
 *
 aDirtyRect
@@ -1799,8 +1785,6 @@ break
 }
 if
 (
-aState
-.
 mLastCompositedFrameIndex
 =
 =
@@ -1890,8 +1874,6 @@ aNextFrameIndex
 )
 !
 =
-aState
-.
 mLastCompositedFrameIndex
 +
 1
@@ -2216,8 +2198,6 @@ KEEP
 :
 if
 (
-aState
-.
 mLastCompositedFrameIndex
 !
 =
@@ -2494,8 +2474,6 @@ Finish
 (
 )
 ;
-aState
-.
 mLastCompositedFrameIndex
 =
 int32_t

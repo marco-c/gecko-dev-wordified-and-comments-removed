@@ -98,11 +98,6 @@ mCurrentAnimationFrameIndex
 (
 0
 )
-mLastCompositedFrameIndex
-(
--
-1
-)
 mLoopRemainingCount
 (
 -
@@ -231,9 +226,6 @@ uint32_t
 mCurrentAnimationFrameIndex
 ;
 int32_t
-mLastCompositedFrameIndex
-;
-int32_t
 mLoopRemainingCount
 ;
 int32_t
@@ -274,6 +266,11 @@ aImage
 mSize
 (
 aSize
+)
+mLastCompositedFrameIndex
+(
+-
+1
 )
 {
 MOZ_COUNT_CTOR
@@ -397,9 +394,6 @@ aTime
 LookupResult
 GetCompositedFrame
 (
-AnimationState
-&
-aState
 uint32_t
 aFrameNum
 )
@@ -470,9 +464,6 @@ const
 bool
 DoBlend
 (
-AnimationState
-&
-aState
 nsIntRect
 *
 aDirtyRect
@@ -584,6 +575,9 @@ mCompositingFrame
 ;
 RawAccessFrameRef
 mCompositingPrevFrame
+;
+int32_t
+mLastCompositedFrameIndex
 ;
 }
 ;
