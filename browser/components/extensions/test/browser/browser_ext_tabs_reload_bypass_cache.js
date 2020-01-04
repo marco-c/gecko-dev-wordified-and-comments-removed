@@ -273,7 +273,11 @@ textContent
 .
 then
 (
+(
+[
 textContent
+]
+)
 =
 >
 {
@@ -365,7 +369,11 @@ textContent
 .
 then
 (
+(
+[
 textContent
+]
+)
 =
 >
 {
