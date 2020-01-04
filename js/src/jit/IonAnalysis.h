@@ -34,7 +34,7 @@ MIRGenerator
 class
 MIRGraph
 ;
-void
+bool
 FoldTests
 (
 MIRGraph
