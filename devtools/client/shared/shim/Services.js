@@ -2239,9 +2239,9 @@ value
 )
 ;
 }
-exports
+module
 .
-Services
+exports
 =
 Services
 ;
