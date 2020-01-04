@@ -2769,14 +2769,11 @@ DrawOptions
 1
 .
 0f
-CompositionOpForOp
-(
 aContext
 -
 >
-CurrentOperator
+CurrentOp
 (
-)
 )
 )
 )

@@ -1763,12 +1763,12 @@ PopGroupToSource
 ;
 aContext
 .
-SetOperator
+SetOp
 (
-gfxContext
+CompositionOp
 :
 :
-OPERATOR_OVER
+OP_OVER
 )
 ;
 aContext

@@ -578,10 +578,7 @@ AutoSetOperator
 setOptimizedOperator
 (
 aContext
-ThebesOp
-(
 effectiveOperator
-)
 )
 ;
 PaintWithMask
@@ -1203,14 +1200,11 @@ GetDrawTarget
 1
 .
 0
-CompositionOpForOp
-(
 ctx
 -
 >
-CurrentOperator
+CurrentOp
 (
-)
 )
 nullptr
 nullptr

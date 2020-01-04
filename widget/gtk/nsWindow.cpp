@@ -9282,12 +9282,12 @@ boundsRect
 ctx
 -
 >
-SetOperator
+SetOp
 (
-gfxContext
+CompositionOp
 :
 :
-OPERATOR_SOURCE
+OP_SOURCE
 )
 ;
 ctx

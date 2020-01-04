@@ -4010,10 +4010,7 @@ setOperator
 aPaintContext
 .
 mTarget
-ThebesOp
-(
 op
-)
 )
 ;
 PaintWithMask
