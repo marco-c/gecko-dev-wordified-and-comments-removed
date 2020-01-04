@@ -395,6 +395,15 @@ TOOLTOOL_REV
 '
 master
 '
+MOZ_BUILD_DATE
+:
+'
+{
+{
+pushdate
+}
+}
+'
 extra
 :
 build_product

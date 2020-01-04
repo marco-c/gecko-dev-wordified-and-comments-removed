@@ -5420,6 +5420,22 @@ replace
 '
                 
 )
+            
+else
+:
+                
+buildid
+=
+os
+.
+environ
+.
+get
+(
+'
+MOZ_BUILD_DATE
+'
+)
         
 if
 not
