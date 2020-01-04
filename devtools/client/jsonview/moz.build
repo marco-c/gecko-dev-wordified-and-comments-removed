@@ -117,6 +117,13 @@ child
 js
 '
 '
+converter
+-
+observer
+.
+js
+'
+'
 json
 -
 viewer
