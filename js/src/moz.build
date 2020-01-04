@@ -1193,6 +1193,13 @@ cpp
 '
 asmjs
 /
+WasmBinaryToText
+.
+cpp
+'
+'
+asmjs
+/
 WasmFrameIterator
 .
 cpp
@@ -1235,7 +1242,7 @@ cpp
 '
 asmjs
 /
-WasmText
+WasmTextToBinary
 .
 cpp
 '

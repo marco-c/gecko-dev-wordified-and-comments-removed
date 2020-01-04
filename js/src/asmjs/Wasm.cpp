@@ -35,15 +35,6 @@ h
 #
 include
 "
-asmjs
-/
-WasmText
-.
-h
-"
-#
-include
-"
 vm
 /
 ArrayBufferObject
