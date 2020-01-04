@@ -248,16 +248,6 @@ context
 aFrame
 -
 >
-StyleContext
-(
-)
--
->
-RuleNode
-(
-)
--
->
 PresContext
 (
 )
