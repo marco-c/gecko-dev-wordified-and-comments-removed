@@ -105,6 +105,11 @@ ExtensionContent
 jsm
 '
 '
+ExtensionGlobalScope
+.
+jsm
+'
+'
 ExtensionManagement
 .
 jsm
