@@ -35,10 +35,6 @@ WorkerThread
 import
 android
 .
-support
-.
-v4
-.
 util
 .
 AtomicFile
