@@ -735,6 +735,14 @@ view
 styleWindow
 )
 ;
+view
+.
+throttle
+.
+flush
+(
+)
+;
 yield
 onDone
 ;

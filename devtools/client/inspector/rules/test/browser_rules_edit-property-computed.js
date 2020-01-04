@@ -260,6 +260,14 @@ document
 "
 )
 ;
+view
+.
+throttle
+.
+flush
+(
+)
+;
 yield
 onPropertyChange
 ;

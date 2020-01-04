@@ -987,6 +987,14 @@ view
 styleWindow
 )
 ;
+view
+.
+throttle
+.
+flush
+(
+)
+;
 yield
 onSuggest
 ;

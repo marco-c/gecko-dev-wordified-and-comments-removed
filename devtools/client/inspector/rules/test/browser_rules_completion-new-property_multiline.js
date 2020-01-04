@@ -852,6 +852,14 @@ popup
 _window
 )
 ;
+view
+.
+throttle
+.
+flush
+(
+)
+;
 yield
 onSuggest
 ;
