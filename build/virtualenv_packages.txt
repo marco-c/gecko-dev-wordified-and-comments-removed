@@ -323,3 +323,12 @@ pth
 testing
 /
 xpcshell
+pyyaml
+.
+pth
+:
+python
+/
+pyyaml
+/
+lib
