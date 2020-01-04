@@ -174,6 +174,26 @@ abs_merge_dir
 s
 /
 "
+        
+'
+TOOLTOOL_CACHE
+'
+:
+'
+/
+builds
+/
+tooltool_cache
+'
+        
+'
+TOOLTOOL_HOME
+'
+:
+'
+/
+builds
+'
     
 }
     

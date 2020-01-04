@@ -3,6 +3,14 @@ config
 {
     
 "
+upload_environment
+"
+:
+"
+prod
+"
+    
+"
 upload_env
 "
 :

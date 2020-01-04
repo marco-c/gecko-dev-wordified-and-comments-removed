@@ -3,6 +3,14 @@ config
 {
     
 "
+upload_environment
+"
+:
+"
+stage
+"
+    
+"
 upload_env
 "
 :
@@ -27,8 +35,6 @@ ssh_key_dir
 )
 s
 /
-stage
--
 ffxbld_rsa
 "
         
