@@ -138,7 +138,7 @@ Init
 (
 )
 ;
-LexerResult
+nsresult
 Decode
 (
 IResumable
