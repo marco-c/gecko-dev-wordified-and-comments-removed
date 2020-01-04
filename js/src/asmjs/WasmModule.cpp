@@ -5473,6 +5473,9 @@ specializeToHeap
 heap
 )
 ;
+if
+(
+!
 ExecutableAllocator
 :
 :
@@ -5485,7 +5488,17 @@ pod
 .
 codeBytes_
 )
+)
+{
+ReportOutOfMemory
+(
+cx
+)
 ;
+return
+false
+;
+}
 sendCodeRangesToProfiler
 (
 cx

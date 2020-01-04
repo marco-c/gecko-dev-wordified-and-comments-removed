@@ -895,7 +895,7 @@ pageSize
 )
 ;
 }
-void
+bool
 ExecutableAllocator
 :
 :
@@ -1001,9 +1001,7 @@ PAGE_READWRITE
 :
 PAGE_EXECUTE_READ
 ;
-if
-(
-!
+return
 VirtualProtect
 (
 pageStart
@@ -1011,10 +1009,6 @@ size
 flags
 &
 oldProtect
-)
-)
-MOZ_CRASH
-(
 )
 ;
 }
