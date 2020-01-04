@@ -37,7 +37,7 @@ should
 be
 rejected
 with
-null
+InvalidStateError
 .
 "
 )
@@ -55,9 +55,13 @@ result
 if
 (
 result
+.
+name
 =
 =
-null
+"
+InvalidStateError
+"
 )
 {
 ok
@@ -70,7 +74,7 @@ should
 be
 rejected
 with
-null
+InvalidStateError
 .
 "
 )
@@ -92,7 +96,7 @@ should
 be
 rejected
 with
-null
+InvalidStateError
 .
 "
 )

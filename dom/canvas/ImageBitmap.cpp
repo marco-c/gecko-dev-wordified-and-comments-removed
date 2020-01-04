@@ -5882,8 +5882,9 @@ data
 mPromise
 -
 >
-MaybeRejectWithNull
+MaybeReject
 (
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
@@ -6231,8 +6232,9 @@ data
 mPromise
 -
 >
-MaybeRejectWithNull
+MaybeReject
 (
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
