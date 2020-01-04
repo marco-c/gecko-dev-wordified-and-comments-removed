@@ -218,7 +218,7 @@ mScreen
 frame
 ]
 ;
-nsIntRect
+LayoutDeviceIntRect
 r
 =
 nsCocoaUtils
@@ -292,7 +292,7 @@ mScreen
 visibleFrame
 ]
 ;
-nsIntRect
+LayoutDeviceIntRect
 r
 =
 nsCocoaUtils

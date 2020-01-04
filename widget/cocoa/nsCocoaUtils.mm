@@ -697,7 +697,7 @@ return
 rect
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 nsCocoaUtils
 :
 :
@@ -711,7 +711,7 @@ CGFloat
 aBackingScale
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 rect
