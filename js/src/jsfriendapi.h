@@ -9707,9 +9707,9 @@ void
 )
 PrepareScriptEnvironmentAndInvoke
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JS
 :
 :

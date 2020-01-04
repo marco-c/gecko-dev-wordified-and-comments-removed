@@ -34667,6 +34667,13 @@ js
 PrepareScriptEnvironmentAndInvoke
 (
 rt
+-
+>
+contextList
+.
+getFirst
+(
+)
 fun
 argClosure
 )
