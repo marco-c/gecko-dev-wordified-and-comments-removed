@@ -4249,6 +4249,7 @@ width
 =
 0
 )
+{
 png_error
 (
 png_ptr
@@ -4262,6 +4263,7 @@ be
 "
 )
 ;
+}
 if
 (
 frameRect
@@ -4271,6 +4273,7 @@ height
 =
 0
 )
+{
 png_error
 (
 png_ptr
@@ -4284,6 +4287,7 @@ be
 "
 )
 ;
+}
 #
 endif
 const
