@@ -13409,6 +13409,12 @@ mData
 =
 aSegment
 ;
+ResampleAudioToGraphSampleRate
+(
+data
+aSegment
+)
+;
 if
 (
 !
