@@ -1859,17 +1859,6 @@ forget
 )
 ;
 }
-virtual
-nsresult
-NotifyIMEInternal
-(
-const
-IMENotification
-&
-aIMENotification
-)
-override
-;
 nsIWidget
 *
 mParent
