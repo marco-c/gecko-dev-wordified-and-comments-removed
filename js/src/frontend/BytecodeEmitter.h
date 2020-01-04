@@ -1657,7 +1657,7 @@ pn
 )
 ;
 bool
-emitLoadFromTopScope
+emitLoadFromEnclosingFunctionScope
 (
 BindingIter
 &
@@ -1665,11 +1665,16 @@ bi
 )
 ;
 bool
-emitStoreToTopScope
+emitStoreToEnclosingFunctionScope
 (
 BindingIter
 &
 bi
+)
+;
+uint32_t
+computeHopsToEnclosingFunction
+(
 )
 ;
 bool
