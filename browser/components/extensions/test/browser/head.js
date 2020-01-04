@@ -271,9 +271,11 @@ pageActionId
 ;
 EventUtils
 .
-synthesizeMouseAtCenter
+synthesizeMouse
 (
 elem
+8
+8
 {
 }
 win
