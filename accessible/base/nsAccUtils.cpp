@@ -644,6 +644,7 @@ IsEmpty
 )
 )
 {
+const
 nsRoleMapEntry
 *
 role

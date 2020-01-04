@@ -622,6 +622,7 @@ HasStrongARIARole
 )
 const
 ;
+const
 nsRoleMapEntry
 *
 ARIARoleMap
@@ -866,6 +867,7 @@ Shutdown
 void
 SetRoleMapEntry
 (
+const
 nsRoleMapEntry
 *
 aRoleMapEntry
@@ -3067,6 +3069,7 @@ friend
 class
 AccGroupInfo
 ;
+const
 nsRoleMapEntry
 *
 mRoleMapEntry

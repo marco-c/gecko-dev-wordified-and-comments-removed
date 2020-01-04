@@ -1793,6 +1793,7 @@ true
 }
 if
 (
+const
 nsRoleMapEntry
 *
 roleMap

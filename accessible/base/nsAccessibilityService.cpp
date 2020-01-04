@@ -726,6 +726,7 @@ Accessible
 aContext
 )
 {
+const
 nsRoleMapEntry
 *
 roleMapEntry
@@ -6059,6 +6060,7 @@ return
 newAcc
 ;
 }
+const
 nsRoleMapEntry
 *
 roleMapEntry
@@ -6390,6 +6392,7 @@ AccessibleType
 eHTMLTableRowType
 )
 {
+const
 nsRoleMapEntry
 *
 contextRoleMap
@@ -6493,6 +6496,7 @@ AccessibleType
 eHTMLLiType
 )
 {
+const
 nsRoleMapEntry
 *
 contextRoleMap

@@ -5420,6 +5420,7 @@ BindToDocument
 Accessible
 *
 aAccessible
+const
 nsRoleMapEntry
 *
 aRoleMapEntry

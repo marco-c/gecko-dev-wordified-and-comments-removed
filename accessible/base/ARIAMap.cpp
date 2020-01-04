@@ -96,6 +96,7 @@ kGenericAccType
 0
 ;
 static
+const
 nsRoleMapEntry
 sWAIRoleMaps
 [
@@ -1346,6 +1347,7 @@ eARIACheckedMixed
 }
 ;
 static
+const
 nsRoleMapEntry
 sLandmarkRoleMap
 =
@@ -1827,6 +1829,7 @@ ARIARoleString
 }
 ;
 }
+const
 nsRoleMapEntry
 *
 aria

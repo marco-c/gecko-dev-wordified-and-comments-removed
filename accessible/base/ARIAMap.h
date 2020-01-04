@@ -283,6 +283,7 @@ extern
 nsRoleMapEntry
 gEmptyRoleMap
 ;
+const
 nsRoleMapEntry
 *
 GetRoleMap

@@ -4679,6 +4679,7 @@ HasARIARole
 )
 )
 {
+const
 nsRoleMapEntry
 *
 roleMap
