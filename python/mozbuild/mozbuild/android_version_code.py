@@ -365,7 +365,7 @@ ARM
 build
 targeting
 API
-14
+15
 +
     
 and
@@ -407,7 +407,7 @@ supports
 API
 11
 -
-13
+14
 .
 API
 9
@@ -849,7 +849,7 @@ elif
 min_sdk
 =
 =
-14
+15
 :
             
 version

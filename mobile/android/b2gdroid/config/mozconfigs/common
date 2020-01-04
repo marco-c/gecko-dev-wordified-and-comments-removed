@@ -379,7 +379,7 @@ min
 -
 sdk
 =
-14
+15
 ac_add_options
 -
 -
@@ -441,7 +441,7 @@ android
 -
 version
 =
-14
+9
 ac_add_options
 -
 -
