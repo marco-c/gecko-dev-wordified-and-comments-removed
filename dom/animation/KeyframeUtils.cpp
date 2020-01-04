@@ -2302,7 +2302,7 @@ frame
 aKeyframes
 )
 {
-nsCSSPropertySet
+nsCSSPropertyIDSet
 propertiesOnThisKeyframe
 ;
 ComputedKeyframeValues
@@ -5283,13 +5283,13 @@ nsIDocument
 aDocument
 )
 {
-nsCSSPropertySet
+nsCSSPropertyIDSet
 properties
 ;
-nsCSSPropertySet
+nsCSSPropertyIDSet
 propertiesWithFromValue
 ;
-nsCSSPropertySet
+nsCSSPropertyIDSet
 propertiesWithToValue
 ;
 auto
@@ -6062,7 +6062,7 @@ pacedPropertyCount
 =
 0
 ;
-nsCSSPropertySet
+nsCSSPropertyIDSet
 pacedPropertySet
 ;
 bool

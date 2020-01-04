@@ -23,7 +23,7 @@ h
 #
 include
 "
-nsCSSPropertySet
+nsCSSPropertyIDSet
 .
 h
 "

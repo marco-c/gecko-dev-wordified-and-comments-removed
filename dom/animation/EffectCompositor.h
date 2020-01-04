@@ -85,7 +85,7 @@ nsTArray
 h
 "
 class
-nsCSSPropertySet
+nsCSSPropertyIDSet
 ;
 class
 nsIFrame
@@ -533,7 +533,7 @@ aStyleContext
 EffectSet
 &
 aEffectSet
-nsCSSPropertySet
+nsCSSPropertyIDSet
 &
 aPropertiesOverridden
 )

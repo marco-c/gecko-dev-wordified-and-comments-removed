@@ -211,7 +211,7 @@ struct
 JSContext
 ;
 class
-nsCSSPropertySet
+nsCSSPropertyIDSet
 ;
 class
 nsIContent
@@ -1104,7 +1104,7 @@ AnimValuesStyleRule
 >
 &
 aStyleRule
-nsCSSPropertySet
+nsCSSPropertyIDSet
 &
 aSetProperties
 )

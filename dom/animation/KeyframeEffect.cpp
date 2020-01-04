@@ -100,7 +100,7 @@ h
 #
 include
 "
-nsCSSPropertySet
+nsCSSPropertyIDSet
 .
 h
 "
@@ -2512,10 +2512,10 @@ properties
 return
 ;
 }
-nsCSSPropertySet
+nsCSSPropertyIDSet
 winningInCascadeProperties
 ;
-nsCSSPropertySet
+nsCSSPropertyIDSet
 runningOnCompositorProperties
 ;
 for
@@ -2673,7 +2673,7 @@ AnimValuesStyleRule
 >
 &
 aStyleRule
-nsCSSPropertySet
+nsCSSPropertyIDSet
 &
 aSetProperties
 )

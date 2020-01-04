@@ -120,7 +120,7 @@ h
 #
 include
 "
-nsCSSPropertySet
+nsCSSPropertyIDSet
 .
 h
 "
@@ -2735,7 +2735,7 @@ animationRule
 =
 nullptr
 ;
-nsCSSPropertySet
+nsCSSPropertyIDSet
 properties
 ;
 for
@@ -2811,7 +2811,7 @@ aStyleContext
 EffectSet
 &
 aEffectSet
-nsCSSPropertySet
+nsCSSPropertyIDSet
 &
 aPropertiesOverridden
 )
@@ -2827,7 +2827,7 @@ kRecords
 propertiesToTrack
 ;
 {
-nsCSSPropertySet
+nsCSSPropertyIDSet
 propertiesToTrackAsSet
 ;
 for
@@ -3042,7 +3042,7 @@ EffectCompositeOrderComparator
 )
 )
 ;
-nsCSSPropertySet
+nsCSSPropertyIDSet
 overriddenProperties
 ;
 if
@@ -3063,7 +3063,7 @@ changed
 =
 false
 ;
-nsCSSPropertySet
+nsCSSPropertyIDSet
 animatedProperties
 ;
 for

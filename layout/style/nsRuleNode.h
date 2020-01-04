@@ -73,7 +73,7 @@ nsStyleStruct
 h
 "
 class
-nsCSSPropertySet
+nsCSSPropertyIDSet
 ;
 class
 nsCSSValue
@@ -4152,7 +4152,7 @@ aProperties
 nsStyleContext
 *
 aStyleContext
-nsCSSPropertySet
+nsCSSPropertyIDSet
 &
 aPropertiesOverridden
 )

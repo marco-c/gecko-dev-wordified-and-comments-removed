@@ -79,7 +79,7 @@ h
 #
 include
 "
-nsCSSPropertySet
+nsCSSPropertyIDSet
 .
 h
 "
@@ -2143,7 +2143,7 @@ startedAny
 =
 false
 ;
-nsCSSPropertySet
+nsCSSPropertyIDSet
 whichStarted
 ;
 for
@@ -2351,7 +2351,7 @@ GetProperty
 =
 eCSSPropertyExtra_all_properties
 ;
-nsCSSPropertySet
+nsCSSPropertyIDSet
 allTransitionProperties
 ;
 if
@@ -2730,7 +2730,7 @@ aNewStyleContext
 bool
 *
 aStartedAny
-nsCSSPropertySet
+nsCSSPropertyIDSet
 *
 aWhichStarted
 )

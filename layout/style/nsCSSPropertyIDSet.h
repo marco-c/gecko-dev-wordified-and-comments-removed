@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSSPropertySet_h__
+nsCSSPropertyIDSet_h__
 #
 define
-nsCSSPropertySet_h__
+nsCSSPropertyIDSet_h__
 #
 include
 "
@@ -37,11 +37,11 @@ limits
 h
 >
 class
-nsCSSPropertySet
+nsCSSPropertyIDSet
 {
 public
 :
-nsCSSPropertySet
+nsCSSPropertyIDSet
 (
 )
 {
@@ -268,7 +268,7 @@ bool
 Equals
 (
 const
-nsCSSPropertySet
+nsCSSPropertyIDSet
 &
 aOther
 )

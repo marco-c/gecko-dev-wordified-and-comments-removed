@@ -23,7 +23,7 @@ h
 #
 include
 "
-nsCSSPropertySet
+nsCSSPropertyIDSet
 .
 h
 "
@@ -811,10 +811,10 @@ DoAssertInitialState
 ;
 #
 endif
-nsCSSPropertySet
+nsCSSPropertyIDSet
 mPropertiesSet
 ;
-nsCSSPropertySet
+nsCSSPropertyIDSet
 mPropertiesImportant
 ;
 nsCSSValue
