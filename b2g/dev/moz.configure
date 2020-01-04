@@ -100,8 +100,6 @@ include
 .
 /
 common
-/
-moz
 .
 configure
 '
