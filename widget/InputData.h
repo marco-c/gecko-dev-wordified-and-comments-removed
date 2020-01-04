@@ -635,7 +635,7 @@ mHandledByAPZ
 (
 false
 )
-mRequiresContentResponse
+mRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
 (
 false
 )
@@ -693,7 +693,7 @@ bool
 mHandledByAPZ
 ;
 bool
-mRequiresContentResponse
+mRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
 ;
 }
 ;
