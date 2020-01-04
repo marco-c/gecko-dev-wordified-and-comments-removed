@@ -213,6 +213,10 @@ CurrentKeyboardLayoutHasIME
 endif
 private
 :
+static
+bool
+sPluginHasFocus
+;
 #
 ifdef
 NS_ENABLE_TSF
@@ -244,10 +248,6 @@ sIsInTSFMode
 static
 bool
 sIsIMMEnabled
-;
-static
-bool
-sPluginHasFocus
 ;
 static
 bool
