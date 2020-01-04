@@ -2430,6 +2430,22 @@ s
 '
 %
 marionette_port
+            
+'
+-
+-
+workspace
+=
+%
+s
+'
+%
+dirs
+[
+'
+abs_work_dir
+'
+]
         
 ]
         
