@@ -9661,16 +9661,3 @@ width
 18px
 ;
 }
-%
-include
-app
--
-manager
-/
-manifest
--
-editor
-.
-inc
-.
-css

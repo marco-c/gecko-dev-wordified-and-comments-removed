@@ -587,16 +587,6 @@ endif
 {
 NS_ABOUT_MODULE_CONTRACTID_PREFIX
 "
-app
--
-manager
-"
-&
-kNS_BROWSER_ABOUT_REDIRECTOR_CID
-}
-{
-NS_ABOUT_MODULE_CONTRACTID_PREFIX
-"
 customizing
 "
 &
