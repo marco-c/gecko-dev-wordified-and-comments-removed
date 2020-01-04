@@ -68,7 +68,6 @@ datetime
 ref
 .
 html
-fails
 =
 =
 emoji
@@ -83,10 +82,6 @@ emoji
 ref
 .
 html
-#
-bug
-1265631
-fails
 =
 =
 emoji
@@ -101,9 +96,6 @@ emoji
 ref
 .
 html
-#
-bug
-1265631
 =
 =
 hyphens
