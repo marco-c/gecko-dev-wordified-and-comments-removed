@@ -540,11 +540,7 @@ return
 false
 ;
 return
-JS_FreezeObject
-(
-cx
-global
-)
+true
 ;
 }
 NS_IMETHODIMP
