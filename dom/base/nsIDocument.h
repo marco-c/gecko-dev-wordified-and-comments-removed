@@ -1813,6 +1813,16 @@ ErrorResult
 aError
 )
 ;
+Element
+*
+GetAnonRootIfInAnonymousContentContainer
+(
+nsINode
+*
+aNode
+)
+const
+;
 nsTArray
 <
 RefPtr
