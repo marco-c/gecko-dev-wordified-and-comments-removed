@@ -561,14 +561,6 @@ SetCapacity
 kDefaultBufferSize
 )
 ;
-mDecompressor
-.
-SetCompressor
-(
-&
-mCompressor
-)
-;
 mPushAllowance
 =
 gHttpHandler
