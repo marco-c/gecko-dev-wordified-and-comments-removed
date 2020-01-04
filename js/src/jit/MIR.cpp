@@ -25321,7 +25321,7 @@ someTypedArray_
 ;
 }
 bool
-MGetElementCache
+MGetPropertyCache
 :
 :
 allowDoubleResult

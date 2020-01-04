@@ -2921,6 +2921,8 @@ TypedOrValueRegister
 output
 bool
 monitoredResult
+bool
+allowDoubleResult
 jsbytecode
 *
 profilerLeavePc
@@ -2940,8 +2942,6 @@ TypedOrValueRegister
 output
 bool
 monitoredResult
-bool
-allowDoubleResult
 jsbytecode
 *
 profilerLeavePc
