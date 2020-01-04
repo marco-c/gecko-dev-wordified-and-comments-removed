@@ -1697,7 +1697,7 @@ owner
 null
 saveRequestAndResponseBodies
 :
-false
+true
 openRequests
 :
 null
@@ -4296,7 +4296,7 @@ _netEvents
 null
 _saveRequestAndResponseBodies
 :
-false
+true
 get
 saveRequestAndResponseBodies
 (
