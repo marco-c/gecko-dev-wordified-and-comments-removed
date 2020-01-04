@@ -43,6 +43,16 @@ b2gtest
 emulator
 payload
 :
+maxRunTime
+:
+7200
+env
+:
+GALLIUM_DRIVER
+:
+'
+softpipe
+'
 command
 :
 -
