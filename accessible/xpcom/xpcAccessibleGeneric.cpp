@@ -71,6 +71,10 @@ const
 {
 return
 mIntl
+.
+AsAccessible
+(
+)
 ;
 }
 void

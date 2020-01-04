@@ -115,6 +115,10 @@ Intl
 {
 return
 mIntl
+.
+AsAccessible
+(
+)
 -
 >
 AsApplication
