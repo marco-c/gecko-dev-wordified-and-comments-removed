@@ -821,6 +821,13 @@ RestyleManager
 h
 "
 #
+include
+"
+LayoutLogging
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -24147,7 +24154,7 @@ expected
 "
 )
 ;
-NS_WARN_IF_FALSE
+LAYOUT_WARN_IF_FALSE
 (
 aContainingBlockISize
 !
