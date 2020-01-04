@@ -196,7 +196,7 @@ SmsProtocolHandler
 js
 '
 '
-SystemMessageGlue
+SystemMessageInternal
 .
 js
 '
@@ -440,3 +440,18 @@ GlobalSimulatorScreen
 jsm
 '
 ]
+XPIDL_SOURCES
++
+=
+[
+'
+nsISystemMessagesInternal
+.
+idl
+'
+]
+XPIDL_MODULE
+=
+'
+gaia_chrome
+'

@@ -2539,17 +2539,6 @@ expr
 )
 GK_ATOM
 (
-expectingSystemMessage
-"
-expecting
--
-system
--
-message
-"
-)
-GK_ATOM
-(
 extends
 "
 extends
