@@ -237,13 +237,6 @@ libmkv
 '
 ]
 if
-CONFIG
-[
-'
-MOZ_VPX
-'
-]
-and
 not
 CONFIG
 [
