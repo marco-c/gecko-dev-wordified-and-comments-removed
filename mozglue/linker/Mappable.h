@@ -6,13 +6,6 @@ define
 Mappable_h
 #
 include
-<
-pthread
-.
-h
->
-#
-include
 "
 Zip
 .
