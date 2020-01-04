@@ -91,7 +91,7 @@ aError
 override
 ;
 virtual
-void
+bool
 PerformAccesskey
 (
 bool

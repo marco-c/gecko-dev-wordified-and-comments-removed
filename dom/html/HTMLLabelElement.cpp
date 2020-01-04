@@ -859,7 +859,7 @@ return
 NS_OK
 ;
 }
-void
+bool
 HTMLLabelElement
 :
 :
@@ -891,6 +891,8 @@ if
 (
 element
 )
+{
+return
 element
 -
 >
@@ -900,6 +902,7 @@ aKeyCausesActivation
 aIsTrustedEvent
 )
 ;
+}
 }
 else
 {
@@ -917,8 +920,11 @@ if
 !
 presContext
 )
+{
 return
+false
 ;
+}
 WidgetMouseEvent
 event
 (
@@ -969,6 +975,9 @@ event
 )
 ;
 }
+return
+aKeyCausesActivation
+;
 }
 nsGenericHTMLElement
 *

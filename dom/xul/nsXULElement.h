@@ -1574,7 +1574,7 @@ override
 #
 endif
 virtual
-void
+bool
 PerformAccesskey
 (
 bool

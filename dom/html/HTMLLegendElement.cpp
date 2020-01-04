@@ -485,7 +485,7 @@ result
 )
 ;
 }
-void
+bool
 HTMLLegendElement
 :
 :
@@ -503,6 +503,16 @@ rv
 Focus
 (
 rv
+)
+;
+return
+NS_SUCCEEDED
+(
+rv
+.
+StealNSResult
+(
+)
 )
 ;
 }

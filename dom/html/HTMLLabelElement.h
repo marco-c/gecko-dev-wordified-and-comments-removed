@@ -226,7 +226,7 @@ aVisitor
 override
 ;
 virtual
-void
+bool
 PerformAccesskey
 (
 bool
