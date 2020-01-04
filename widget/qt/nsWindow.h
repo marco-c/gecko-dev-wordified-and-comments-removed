@@ -1137,7 +1137,10 @@ aCommand
 nsEventStatus
 DispatchContentCommandEvent
 (
-int32_t
+mozilla
+:
+:
+EventMessage
 aMsg
 )
 ;

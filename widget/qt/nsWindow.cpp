@@ -5494,7 +5494,7 @@ Key_F20
 return
 DispatchContentCommandEvent
 (
-NS_CONTENT_COMMAND_CUT
+eContentCommandCut
 )
 ;
 case
@@ -7498,7 +7498,7 @@ nsWindow
 :
 DispatchContentCommandEvent
 (
-int32_t
+EventMessage
 aMsg
 )
 {

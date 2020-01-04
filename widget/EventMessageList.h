@@ -1164,7 +1164,7 @@ eContentCommandEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_CONTENT_COMMAND_CUT
+eContentCommandCut
 eContentCommandEventFirst
 )
 NS_EVENT_MESSAGE

@@ -9614,7 +9614,7 @@ cut
 )
 msg
 =
-NS_CONTENT_COMMAND_CUT
+eContentCommandCut
 ;
 else
 if

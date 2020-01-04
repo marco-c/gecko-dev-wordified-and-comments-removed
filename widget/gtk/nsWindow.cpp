@@ -12686,7 +12686,7 @@ GDK_F20
 return
 DispatchContentCommandEvent
 (
-NS_CONTENT_COMMAND_CUT
+eContentCommandCut
 )
 ;
 case
