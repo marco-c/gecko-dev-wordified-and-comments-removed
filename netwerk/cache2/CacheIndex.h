@@ -3533,6 +3533,11 @@ void
 aClosure
 )
 ;
+void
+DelayedUpdateLocked
+(
+)
+;
 nsresult
 ScheduleUpdateTimer
 (
