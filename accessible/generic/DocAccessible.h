@@ -27,11 +27,9 @@ h
 "
 #
 include
-"
-nsAutoPtr
-.
-h
-"
+<
+memory
+>
 #
 include
 "
@@ -1600,7 +1598,10 @@ AttrRelProvider
 typedef
 nsTArray
 <
-nsAutoPtr
+std
+:
+:
+unique_ptr
 <
 AttrRelProvider
 >
