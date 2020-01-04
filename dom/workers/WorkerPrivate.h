@@ -896,9 +896,6 @@ Killing
 bool
 Freeze
 (
-JSContext
-*
-aCx
 nsPIDOMWindowInner
 *
 aWindow
@@ -907,9 +904,6 @@ aWindow
 bool
 Thaw
 (
-JSContext
-*
-aCx
 nsPIDOMWindowInner
 *
 aWindow
