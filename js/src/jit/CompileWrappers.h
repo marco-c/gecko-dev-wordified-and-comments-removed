@@ -86,6 +86,13 @@ addressOfJitStackLimit
 const
 void
 *
+addressOfIonBailAfter
+(
+)
+;
+const
+void
+*
 addressOfJSContext
 (
 )

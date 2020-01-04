@@ -617,6 +617,15 @@ jitStackLimitNoInterrupt_
 (
 0xbad
 )
+#
+ifdef
+DEBUG
+ionBailAfter_
+(
+0
+)
+#
+endif
 activation_
 (
 nullptr
