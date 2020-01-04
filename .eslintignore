@@ -682,6 +682,16 @@ webconsole
 /
 *
 *
+!
+devtools
+/
+client
+/
+webconsole
+/
+panel
+.
+js
 devtools
 /
 client
