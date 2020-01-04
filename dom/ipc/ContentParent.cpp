@@ -21853,6 +21853,13 @@ URIParams
 &
 aNewURI
 const
+IPC
+:
+:
+Principal
+&
+aLoadingPrincipal
+const
 bool
 &
 aInPrivateBrowsing
@@ -21907,6 +21914,7 @@ CopyFavicon
 (
 oldURI
 newURI
+aLoadingPrincipal
 aInPrivateBrowsing
 )
 ;

@@ -4139,6 +4139,8 @@ URIParams
 oldURI
 URIParams
 newURI
+Principal
+aLoadingPrincipal
 bool
 isPrivate
 )
