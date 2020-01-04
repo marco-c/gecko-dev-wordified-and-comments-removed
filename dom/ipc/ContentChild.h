@@ -2313,6 +2313,10 @@ URIParams
 &
 documentURI
 const
+PrincipalInfo
+&
+aLoadingPrincipalInfo
+const
 bool
 &
 stickDocument

@@ -354,6 +354,9 @@ aManifestURI
 nsIURI
 *
 aDocumentURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsPIDOMWindow
 *
 aWindow
@@ -374,6 +377,10 @@ aManifestURI
 mDocumentURI
 (
 aDocumentURI
+)
+mLoadingPrincipal
+(
+aLoadingPrincipal
 )
 mExposeCacheUpdateStatus
 (
@@ -1881,6 +1888,7 @@ ScheduleUpdate
 (
 mManifestURI
 mDocumentURI
+mLoadingPrincipal
 window
 getter_AddRefs
 (

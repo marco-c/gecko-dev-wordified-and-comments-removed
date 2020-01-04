@@ -23204,6 +23204,10 @@ URIParams
 &
 aDocumentURI
 const
+PrincipalInfo
+&
+aLoadingPrincipalInfo
+const
 bool
 &
 aStickDocument
@@ -23308,6 +23312,10 @@ URIParams
 &
 aDocumentURI
 const
+PrincipalInfo
+&
+aLoadingPrincipal
+const
 bool
 &
 aStickDocument
@@ -23359,6 +23367,7 @@ Schedule
 (
 aManifestURI
 aDocumentURI
+aLoadingPrincipal
 aStickDocument
 )
 ;
