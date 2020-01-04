@@ -283,7 +283,7 @@ mozilla
 .
 gecko
 .
-favicons
+icons
 .
 decoders
 .
@@ -1056,17 +1056,6 @@ gecko
 util
 .
 HardwareUtils
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-util
-.
-IOUtils
 ;
 import
 org
