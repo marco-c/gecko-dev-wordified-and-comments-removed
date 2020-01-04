@@ -294,6 +294,8 @@ byte
 [
 ]
 str
+int
+len
 )
 ;
 public

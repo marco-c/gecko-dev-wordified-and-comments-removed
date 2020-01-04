@@ -66,6 +66,7 @@ JNIEnv
 jclass
 jbyteArray
 jbyteArray
+jint
 )
 ;
 JNIEXPORT
