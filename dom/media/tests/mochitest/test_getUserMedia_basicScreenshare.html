@@ -210,6 +210,12 @@ stream
 =
 >
 {
+checkMediaStreamTracks
+(
+constraints
+stream
+)
+;
 var
 playback
 =
@@ -223,7 +229,7 @@ stream
 return
 playback
 .
-playMediaWithDeprecatedStreamStop
+playMediaWithStreamStop
 (
 false
 )

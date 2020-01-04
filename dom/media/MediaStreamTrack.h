@@ -222,16 +222,6 @@ ErrorResult
 aRv
 )
 ;
-bool
-Ended
-(
-)
-const
-{
-return
-mEnded
-;
-}
 void
 NotifyEnded
 (
