@@ -73,7 +73,7 @@ uint32_t
 index_
 ;
 const
-DeclaredSig
+SigWithId
 &
 sig_
 ;
@@ -94,7 +94,7 @@ bytes
 uint32_t
 index
 const
-DeclaredSig
+SigWithId
 &
 sig
 uint32_t
@@ -166,7 +166,7 @@ index_
 ;
 }
 const
-DeclaredSig
+SigWithId
 &
 sig
 (

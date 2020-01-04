@@ -469,13 +469,6 @@ Simulator
 #
 endif
 }
-namespace
-wasm
-{
-class
-Module
-;
-}
 class
 FreeOp
 :

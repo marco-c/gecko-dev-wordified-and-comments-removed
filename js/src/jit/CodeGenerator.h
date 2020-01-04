@@ -305,8 +305,11 @@ MOZ_MUST_USE
 bool
 generateWasm
 (
-uint32_t
-sigIndex
+wasm
+:
+:
+SigIdDesc
+sigId
 wasm
 :
 :

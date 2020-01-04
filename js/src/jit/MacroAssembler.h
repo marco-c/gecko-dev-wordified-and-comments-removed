@@ -3422,6 +3422,11 @@ DEFINED_ON
 x64
 )
 ;
+template
+<
+class
+L
+>
 inline
 void
 branch32
@@ -3432,8 +3437,7 @@ Register
 lhs
 Register
 rhs
-Label
-*
+L
 label
 )
 PER_SHARED_ARCH

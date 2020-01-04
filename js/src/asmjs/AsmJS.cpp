@@ -6913,7 +6913,7 @@ PropertyName
 name_
 ;
 const
-DeclaredSig
+SigWithId
 *
 sig_
 ;
@@ -6925,7 +6925,7 @@ PropertyName
 *
 name
 const
-DeclaredSig
+SigWithId
 &
 sig
 )
@@ -7071,7 +7071,7 @@ typedef
 HashMap
 <
 const
-DeclaredSig
+SigWithId
 *
 uint32_t
 SigHashPolicy
