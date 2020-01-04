@@ -229,7 +229,7 @@ node
 try
 {
 yield
-waitForClipboardPromise
+waitForClipboard
 (
 (
 )
