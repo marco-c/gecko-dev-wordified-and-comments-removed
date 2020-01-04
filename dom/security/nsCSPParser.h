@@ -719,14 +719,6 @@ nsCSPKeywordSrc
 *
 mUnsafeInlineKeywordSrc
 ;
-nsCSPChildSrcDirective
-*
-mChildSrc
-;
-nsCSPDirective
-*
-mFrameSrc
-;
 cspTokens
 mTokens
 ;
