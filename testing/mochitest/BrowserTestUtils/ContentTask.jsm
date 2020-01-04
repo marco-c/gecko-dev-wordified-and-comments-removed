@@ -404,9 +404,7 @@ condition
 data
 .
 name
-data
-.
-diag
+null
 data
 .
 stack
