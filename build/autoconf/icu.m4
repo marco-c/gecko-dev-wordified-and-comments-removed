@@ -165,12 +165,9 @@ MOZ_SHARED_ICU
 =
 1
 else
-MOZ_ICU_CFLAGS
+MOZ_ICU_INCLUDES
 =
 "
--
-I
-_topsrcdir
 /
 intl
 /
@@ -179,9 +176,6 @@ icu
 source
 /
 common
--
-I
-_topsrcdir
 /
 intl
 /
@@ -191,11 +185,11 @@ source
 /
 i18n
 "
+fi
 AC_SUBST_LIST
 (
-MOZ_ICU_CFLAGS
+MOZ_ICU_INCLUDES
 )
-fi
 AC_SUBST
 (
 MOZ_NATIVE_ICU
