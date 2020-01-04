@@ -268,6 +268,17 @@ RefPtrTraits
 ;
 template
 <
+class
+U
+>
+friend
+struct
+:
+:
+RunnableMethodTraits
+;
+template
+<
 typename
 U
 >
