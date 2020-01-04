@@ -563,11 +563,6 @@ CompleteCodedFrameProcessing
 )
 ;
 void
-FinishCodedFrameProcessing
-(
-)
-;
-void
 CompleteResetParserState
 (
 )
