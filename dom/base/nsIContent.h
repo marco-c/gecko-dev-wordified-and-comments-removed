@@ -561,6 +561,12 @@ IsInHTMLDocument
 )
 const
 ;
+virtual
+bool
+IsInChromeDocument
+(
+)
+;
 inline
 int32_t
 GetNameSpaceID

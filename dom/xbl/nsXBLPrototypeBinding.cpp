@@ -7302,6 +7302,13 @@ NameSpaceManager
 GetNameSpaceID
 (
 nameSpace
+nsContentUtils
+:
+:
+IsChromeDoc
+(
+doc
+)
 )
 ;
 nsCOMPtr
