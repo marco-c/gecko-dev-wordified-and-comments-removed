@@ -351,7 +351,7 @@ cairo_t
 *
 cr
 =
-gfxContext
+gfxFont
 :
 :
 RefCairo

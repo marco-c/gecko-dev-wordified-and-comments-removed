@@ -824,7 +824,7 @@ false
 }
 cairo_set_scaled_font
 (
-gfxContext
+gfxFont
 :
 :
 RefCairo
