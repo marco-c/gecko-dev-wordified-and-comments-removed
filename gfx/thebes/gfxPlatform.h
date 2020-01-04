@@ -503,6 +503,7 @@ ForcedDeviceResetReason
 OPENSHAREDHANDLE
 =
 0
+COMPOSITOR_UPDATED
 }
 ;
 class
@@ -1799,6 +1800,13 @@ const
 return
 mCompositorBackend
 ;
+}
+virtual
+void
+CompositorUpdated
+(
+)
+{
 }
 virtual
 void

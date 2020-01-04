@@ -13328,7 +13328,7 @@ GetPlatform
 )
 -
 >
-UpdateRenderModeIfDeviceReset
+CompositorUpdated
 (
 )
 ;
