@@ -62,6 +62,7 @@ bits_q7
 ;
 opus_int32
 W_tmp_Q9
+ret
 ;
 VARDECL
 (
@@ -639,12 +640,16 @@ NLSFIndices
 psNLSF_CB
 )
 ;
-RESTORE_STACK
-;
-return
+ret
+=
 RD_Q25
 [
 0
 ]
+;
+RESTORE_STACK
+;
+return
+ret
 ;
 }

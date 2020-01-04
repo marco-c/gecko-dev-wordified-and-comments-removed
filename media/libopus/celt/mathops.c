@@ -669,7 +669,7 @@ x
 else
 {
 return
-NEG32
+NEG16
 (
 _celt_cos_pi_2
 (

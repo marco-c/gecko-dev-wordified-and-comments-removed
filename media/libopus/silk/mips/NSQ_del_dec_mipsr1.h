@@ -114,6 +114,8 @@ opus_int
 smpl_buf_idx
 opus_int
 decisionDelay
+int
+arch
 )
 {
 opus_int
@@ -215,6 +217,11 @@ opus_int32
 cur
 prev
 next
+;
+(
+void
+)
+arch
 ;
 b_Q14_0
 =

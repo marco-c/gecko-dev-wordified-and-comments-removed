@@ -984,13 +984,6 @@ ifdef
 FIXED_POINT
 epi3
 .
-r
-=
--
-16384
-;
-epi3
-.
 i
 =
 -

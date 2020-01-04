@@ -2203,6 +2203,13 @@ silk_SQRT_APPROX
 tmp2
 )
 ;
+if
+(
+rc_Q31
+>
+0
+)
+{
 rc_Q31
 =
 silk_RSHIFT32
@@ -2237,6 +2244,7 @@ rc_Q31
 -
 rc_Q31
 ;
+}
 }
 invGain_Q30
 =

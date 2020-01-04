@@ -2259,7 +2259,7 @@ MAX_LPC_ORDER
 i
 ]
 =
-silk_ADD_LSHIFT32
+silk_ADD_SAT32
 (
 sLPC_Q14_ptr
 [
@@ -2267,8 +2267,11 @@ MAX_LPC_ORDER
 +
 i
 ]
+silk_LSHIFT_SAT32
+(
 LPC_pred_Q10
 4
+)
 )
 ;
 frame

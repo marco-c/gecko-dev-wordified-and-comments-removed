@@ -1069,7 +1069,7 @@ QA
 ;
 tmp1
 =
-silk_MLA
+silk_MLA_ovflw
 (
 tmp1
 x_ptr
@@ -1085,7 +1085,7 @@ Atmp1
 ;
 tmp2
 =
-silk_MLA
+silk_MLA_ovflw
 (
 tmp2
 x_ptr
@@ -1513,6 +1513,13 @@ silk_SQRT_APPROX
 tmp2
 )
 ;
+if
+(
+rc_Q31
+>
+0
+)
+{
 rc_Q31
 =
 silk_RSHIFT32
@@ -1547,6 +1554,7 @@ rc_Q31
 -
 rc_Q31
 ;
+}
 }
 invGain_Q30
 =

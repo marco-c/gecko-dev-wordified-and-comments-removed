@@ -340,6 +340,9 @@ mid
 n
 ]
 +
+(
+opus_int32
+)
 mid
 [
 n
@@ -419,6 +422,9 @@ side
 n
 ]
 +
+(
+opus_int32
+)
 side
 [
 n
@@ -1368,6 +1374,9 @@ mid
 n
 ]
 +
+(
+opus_int32
+)
 mid
 [
 n
@@ -1496,6 +1505,9 @@ mid
 n
 ]
 +
+(
+opus_int32
+)
 mid
 [
 n

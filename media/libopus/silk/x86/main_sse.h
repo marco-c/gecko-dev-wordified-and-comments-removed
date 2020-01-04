@@ -861,6 +861,8 @@ opus_int
 shapingLPCOrder
 opus_int
 predictLPCOrder
+int
+arch
 )
 ;
 void

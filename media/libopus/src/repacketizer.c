@@ -1227,6 +1227,8 @@ data
 len
 )
 ;
+ret
+=
 opus_repacketizer_cat
 (
 &
@@ -1238,6 +1240,16 @@ new_len
 len
 len
 )
+;
+if
+(
+ret
+!
+=
+OPUS_OK
+)
+return
+ret
 ;
 ret
 =

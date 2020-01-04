@@ -2725,7 +2725,7 @@ xp
 ;
 mid2
 =
-SHR32
+SHR16
 (
 mid
 1
@@ -4617,6 +4617,9 @@ itheta
 (
 itheta
 *
+(
+opus_int32
+)
 qn
 +
 8192
