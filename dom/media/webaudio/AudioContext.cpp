@@ -1508,7 +1508,7 @@ stream
 =
 aMediaElement
 .
-MozCaptureStream
+CaptureAudio
 (
 aRv
 mDestination
