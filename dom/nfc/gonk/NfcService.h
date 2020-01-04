@@ -104,7 +104,7 @@ nsINfcGonkEventListener
 >
 mListener
 ;
-nsAutoPtr
+UniquePtr
 <
 NfcConsumer
 >
