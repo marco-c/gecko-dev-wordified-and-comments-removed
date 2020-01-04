@@ -331,6 +331,16 @@ aHost
 )
 override
 ;
+GPUChild
+*
+GetGPUChild
+(
+)
+{
+return
+mGPUChild
+;
+}
 private
 :
 void
