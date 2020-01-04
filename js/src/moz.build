@@ -1659,6 +1659,13 @@ cpp
 '
 jit
 /
+AliasAnalysisShared
+.
+cpp
+'
+'
+jit
+/
 AlignmentMaskAnalysis
 .
 cpp
@@ -1814,6 +1821,13 @@ cpp
 jit
 /
 ExecutableAllocator
+.
+cpp
+'
+'
+jit
+/
+FlowAliasAnalysis
 .
 cpp
 '

@@ -900,6 +900,15 @@ mightAlias
 (
 prev
 )
+!
+=
+MDefinition
+:
+:
+AliasType
+:
+:
+NoAlias
 )
 {
 break

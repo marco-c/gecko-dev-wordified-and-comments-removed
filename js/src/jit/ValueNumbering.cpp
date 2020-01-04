@@ -3764,7 +3764,7 @@ isRecoveredOnBailout
 return
 true
 ;
-MInstruction
+MDefinition
 *
 dep
 =
