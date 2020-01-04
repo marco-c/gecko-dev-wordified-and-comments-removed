@@ -558,6 +558,8 @@ STAGEPATH
 (
 MOZ_PKG_DIR
 )
+ifndef
+MOZ_THUNDERBIRD
 #
 Package
 mozharness
@@ -582,6 +584,9 @@ PKG_PATH
 MOZHARNESS_PACKAGE
 )
 )
+endif
+#
+MOZ_THUNDERBIRD
 ifdef
 MOZ_PACKAGE_JSSHELL
 #
