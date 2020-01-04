@@ -1087,6 +1087,11 @@ RequestSnap
 (
 )
 ;
+void
+RequestSnapToDestination
+(
+)
+;
 uint64_t
 mLayersId
 ;
