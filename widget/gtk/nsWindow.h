@@ -2023,7 +2023,13 @@ RefPtr
 <
 nsShmImage
 >
-mShmImage
+mFrontShmImage
+;
+RefPtr
+<
+nsShmImage
+>
+mBackShmImage
 ;
 #
 endif

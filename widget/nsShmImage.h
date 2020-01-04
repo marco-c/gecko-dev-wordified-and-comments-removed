@@ -45,6 +45,13 @@ h
 "
 #
 include
+"
+Units
+.
+h
+"
+#
+include
 <
 X11
 /
@@ -159,6 +166,10 @@ SurfaceFormat
 :
 UNKNOWN
 )
+mRequest
+(
+0
+)
 {
 mInfo
 .
@@ -210,6 +221,11 @@ DestroyImage
 (
 )
 ;
+void
+WaitForRequest
+(
+)
+;
 XImage
 *
 mImage
@@ -240,6 +256,10 @@ gfx
 :
 SurfaceFormat
 mFormat
+;
+unsigned
+long
+mRequest
 ;
 }
 ;
