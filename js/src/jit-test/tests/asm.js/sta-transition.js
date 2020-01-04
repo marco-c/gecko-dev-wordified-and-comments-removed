@@ -1,6 +1,12 @@
 if
 (
 !
+this
+.
+SharedArrayBuffer
+|
+|
+!
 isAsmJSCompilationAvailable
 (
 )
