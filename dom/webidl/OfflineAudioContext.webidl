@@ -141,15 +141,6 @@ apply
 .
 *
 /
-callback
-OfflineRenderSuccessCallback
-=
-void
-(
-AudioBuffer
-renderedData
-)
-;
 [
 Constructor
 (
