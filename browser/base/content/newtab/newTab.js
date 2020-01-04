@@ -477,11 +477,6 @@ include
 customize
 .
 js
-#
-include
-intro
-.
-js
 gPage
 .
 init
