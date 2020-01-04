@@ -2977,7 +2977,7 @@ NS_WARN_IF
 (
 aKeyboardEvent
 .
-keyCode
+mKeyCode
 )
 )
 {
@@ -2992,7 +2992,7 @@ if
 !
 aKeyboardEvent
 .
-keyCode
+mKeyCode
 &
 &
 aKeyboardEvent
@@ -3011,7 +3011,7 @@ KEY_NAME_INDEX_USE_STRING
 {
 aKeyboardEvent
 .
-keyCode
+mKeyCode
 =
 WidgetKeyboardEvent
 :

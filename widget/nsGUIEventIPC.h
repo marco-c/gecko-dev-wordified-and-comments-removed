@@ -2564,7 +2564,7 @@ WriteParam
 aMsg
 aParam
 .
-keyCode
+mKeyCode
 )
 ;
 WriteParam
@@ -2819,7 +2819,7 @@ aIter
 aResult
 -
 >
-keyCode
+mKeyCode
 )
 &
 &

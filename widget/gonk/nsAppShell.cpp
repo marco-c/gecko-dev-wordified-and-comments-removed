@@ -1307,7 +1307,7 @@ charCode
 {
 event
 .
-keyCode
+mKeyCode
 =
 mDOMKeyCode
 ;

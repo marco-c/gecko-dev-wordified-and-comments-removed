@@ -5450,7 +5450,7 @@ keyCode
 ;
 aKeyEvent
 .
-keyCode
+mKeyCode
 =
 ComputeGeckoKeyCode
 (
@@ -6679,7 +6679,7 @@ WillDispatchKeyboardEvent
 "
 aKeyEvent
 .
-keyCode
+mKeyCode
 =
 0x
 %
@@ -6695,7 +6695,7 @@ X
 this
 aKeyEvent
 .
-keyCode
+mKeyCode
 aKeyEvent
 .
 charCode
@@ -14429,7 +14429,7 @@ charCode
 {
 keypressEvent
 .
-keyCode
+mKeyCode
 =
 WidgetUtils
 :
@@ -26063,7 +26063,7 @@ X
 this
 aKeyEvent
 .
-keyCode
+mKeyCode
 aKeyEvent
 .
 charCode
@@ -26251,7 +26251,7 @@ ConvertGeckoKeyCodeToMacCharCode
 (
 aKeyEvent
 .
-keyCode
+mKeyCode
 )
 ;
 characters

@@ -14589,7 +14589,7 @@ if
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_UP
@@ -14598,7 +14598,7 @@ NS_VK_UP
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_DOWN
@@ -16539,7 +16539,7 @@ IsTrusted
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_UP
@@ -16548,7 +16548,7 @@ NS_VK_UP
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_DOWN
@@ -16637,7 +16637,7 @@ StepNumberControlForUserEvent
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_UP
@@ -16838,7 +16838,7 @@ eKeyPress
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_RETURN
@@ -16860,7 +16860,7 @@ eKeyUp
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_SPACE
@@ -16884,7 +16884,7 @@ if
 keyEvent
 -
 >
-keyCode
+mKeyCode
 !
 =
 NS_VK_SPACE
@@ -17000,7 +17000,7 @@ switch
 keyEvent
 -
 >
-keyCode
+mKeyCode
 )
 {
 case
@@ -17143,7 +17143,7 @@ eKeyPress
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_RETURN
@@ -17240,7 +17240,7 @@ IsMeta
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_LEFT
@@ -17249,7 +17249,7 @@ NS_VK_LEFT
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_RIGHT
@@ -17258,7 +17258,7 @@ NS_VK_RIGHT
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_UP
@@ -17267,7 +17267,7 @@ NS_VK_UP
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_DOWN
@@ -17276,7 +17276,7 @@ NS_VK_DOWN
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_PAGE_UP
@@ -17285,7 +17285,7 @@ NS_VK_PAGE_UP
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_PAGE_DOWN
@@ -17294,7 +17294,7 @@ NS_VK_PAGE_DOWN
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_HOME
@@ -17303,7 +17303,7 @@ NS_VK_HOME
 keyEvent
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_END
@@ -17400,7 +17400,7 @@ switch
 keyEvent
 -
 >
-keyCode
+mKeyCode
 )
 {
 case
@@ -18577,7 +18577,7 @@ AsKeyboardEvent
 )
 -
 >
-keyCode
+mKeyCode
 =
 =
 NS_VK_ESCAPE
