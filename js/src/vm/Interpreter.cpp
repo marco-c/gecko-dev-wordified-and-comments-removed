@@ -2181,6 +2181,11 @@ Debugger
 checkNoExecute
 (
 cx
+state
+.
+script
+(
+)
 )
 )
 return
