@@ -1236,9 +1236,6 @@ AppendPromise
 >
 mAppendPromise
 ;
-bool
-mAppendRunning
-;
 nsTArray
 <
 TrackData
@@ -1369,12 +1366,6 @@ Atomic
 <
 bool
 >
-mAbort
-;
-Atomic
-<
-bool
->
 mEnded
 ;
 Atomic
@@ -1395,6 +1386,12 @@ mEvictionOccurred
 mutable
 Monitor
 mMonitor
+;
+Atomic
+<
+bool
+>
+mAppendRunning
 ;
 media
 :
