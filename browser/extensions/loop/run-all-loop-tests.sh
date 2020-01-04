@@ -83,7 +83,7 @@ LOOPDIR
 =
 browser
 /
-components
+extensions
 /
 loop
 ESLINT
@@ -212,7 +212,7 @@ the
 '
 browser
 /
-components
+extensions
 /
 loop
 /

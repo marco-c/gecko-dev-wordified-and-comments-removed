@@ -98,6 +98,9 @@ DIRS
 =
 [
 '
+loop
+'
+'
 pdfjs
 '
 '
