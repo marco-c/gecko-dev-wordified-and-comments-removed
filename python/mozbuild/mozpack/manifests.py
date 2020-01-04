@@ -879,6 +879,7 @@ source
 deps
 marker
 defines
+warnings
 =
 fields
 [
@@ -900,6 +901,16 @@ self
 _decode_field_entry
 (
 defines
+)
+                    
+silence_missing_directive_warnings
+=
+bool
+(
+int
+(
+warnings
+)
 )
 )
                 
@@ -1791,6 +1802,10 @@ defines
 =
 {
 }
+                       
+silence_missing_directive_warnings
+=
+False
 )
 :
         
@@ -1834,20 +1849,35 @@ self
 _add_entry
 (
 dest
-            
 (
+            
 self
 .
 PREPROCESS
+            
 source
+            
 deps
+            
 marker
+            
 self
 .
 _encode_field_entry
 (
 defines
 )
+            
+'
+1
+'
+if
+silence_missing_directive_warnings
+else
+'
+0
+'
+        
 )
 )
     
@@ -2268,6 +2298,19 @@ extra_depends
 self
 .
 _source_files
+                    
+silence_missing_directive_warnings
+=
+bool
+(
+int
+(
+entry
+[
+5
+]
+)
+)
 )
 )
                 
