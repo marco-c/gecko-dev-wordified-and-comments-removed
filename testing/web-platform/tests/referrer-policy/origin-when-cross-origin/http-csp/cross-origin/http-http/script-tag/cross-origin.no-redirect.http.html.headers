@@ -9,7 +9,9 @@ origin
 -
 when
 -
-crossorigin
+cross
+-
+origin
 Access
 -
 Control
