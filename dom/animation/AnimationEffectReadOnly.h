@@ -240,14 +240,6 @@ TimingParams
 aTiming
 )
 ;
-virtual
-void
-NotifyAnimationTimingUpdated
-(
-)
-=
-0
-;
 static
 ComputedTiming
 GetComputedTimingAt
@@ -288,6 +280,7 @@ aRetVal
 )
 const
 ;
+virtual
 void
 SetAnimation
 (
@@ -295,6 +288,8 @@ Animation
 *
 aAnimation
 )
+=
+0
 ;
 Animation
 *
