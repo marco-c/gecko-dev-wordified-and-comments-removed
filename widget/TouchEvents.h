@@ -281,9 +281,9 @@ WidgetMouseEventBase
 (
 aOther
 .
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 aOther
 .
 mMessage
@@ -502,9 +502,9 @@ WidgetInputEvent
 (
 aOther
 .
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 aOther
 .
 mMessage

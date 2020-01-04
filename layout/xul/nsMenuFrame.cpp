@@ -5514,9 +5514,9 @@ aEvent
 aEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 :
 nsContentUtils
 :

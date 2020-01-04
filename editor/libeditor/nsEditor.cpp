@@ -21144,9 +21144,9 @@ if
 widgetEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 )
 {
 return

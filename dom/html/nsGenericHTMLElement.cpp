@@ -10993,9 +10993,9 @@ aVisitor
 mEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 )
 {
 switch

@@ -433,9 +433,9 @@ if
 event
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 |
 |
 (

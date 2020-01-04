@@ -687,9 +687,9 @@ aEvent
 aEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 )
 ;
 }

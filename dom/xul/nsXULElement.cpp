@@ -6204,9 +6204,9 @@ aVisitor
 mEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 aVisitor
 .
 mDOMEvent

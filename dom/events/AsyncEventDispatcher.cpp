@@ -146,9 +146,9 @@ SetTrusted
 (
 aEvent
 .
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 )
 ;
 }

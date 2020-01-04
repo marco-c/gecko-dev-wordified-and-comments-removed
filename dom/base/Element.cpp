@@ -9312,9 +9312,9 @@ event
 aSourceEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 eMouseClick
 aSourceEvent
 -
@@ -13103,9 +13103,9 @@ aVisitor
 mEvent
 -
 >
-mFlags
-.
-mIsTrusted
+IsTrusted
+(
+)
 &
 &
 (
