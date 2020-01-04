@@ -89,7 +89,7 @@ jsm
 "
 )
 ;
-const
+var
 loaderSandbox
 =
 loadSandbox
