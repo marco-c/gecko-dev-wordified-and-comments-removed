@@ -199,6 +199,13 @@ layout_height
 "
 match_parent
 "
+android
+:
+scrollbars
+=
+"
+vertical
+"
 /
 >
 <
