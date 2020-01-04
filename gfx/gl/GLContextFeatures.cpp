@@ -299,7 +299,7 @@ GL2
 GLESVersion
 :
 :
-NONE
+ES3
 GLContext
 :
 :
