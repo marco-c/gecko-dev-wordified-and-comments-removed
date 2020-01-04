@@ -1202,7 +1202,7 @@ MaybeRemoveOldDirectories
 )
 ;
 nsresult
-UpgradeStorageFrom0To1
+UpgradeStorageFrom0ToCurrent
 (
 mozIStorageConnection
 *
