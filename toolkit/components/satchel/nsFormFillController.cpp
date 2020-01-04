@@ -3765,6 +3765,8 @@ isMeta
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 nsIDOMKeyEvent
 :
