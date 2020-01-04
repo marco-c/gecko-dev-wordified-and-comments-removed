@@ -210,4 +210,9 @@ webgl
 .
 js
 '
+'
+worker
+.
+js
+'
 )
