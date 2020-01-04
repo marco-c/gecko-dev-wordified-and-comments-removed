@@ -325,12 +325,6 @@ aType
 override
 ;
 bool
-IsWaitingOnCDMResource
-(
-)
-override
-;
-bool
 UseBufferingHeuristics
 (
 )
@@ -356,6 +350,11 @@ override
 endif
 private
 :
+bool
+IsWaitingOnCDMResource
+(
+)
+;
 bool
 InitDemuxer
 (

@@ -285,16 +285,6 @@ false
 ;
 }
 virtual
-bool
-IsWaitingOnCDMResource
-(
-)
-{
-return
-false
-;
-}
-virtual
 void
 ReleaseMediaResources
 (
