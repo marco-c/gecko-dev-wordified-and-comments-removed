@@ -352,14 +352,6 @@ mozilla
 .
 gecko
 .
-SurfaceBits
-\
-org
-.
-mozilla
-.
-gecko
-.
 SysInfo
 \
 org
