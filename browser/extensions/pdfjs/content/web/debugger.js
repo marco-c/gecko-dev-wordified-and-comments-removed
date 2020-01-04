@@ -2088,14 +2088,14 @@ for
 var
 key
 in
-PDFJS
+pdfjsLib
 .
 OPS
 )
 {
 opMap
 [
-PDFJS
+pdfjsLib
 .
 OPS
 [
@@ -3147,6 +3147,8 @@ padding
 '
 )
 ;
+pdfjsLib
+.
 PDFJS
 .
 enableStats
