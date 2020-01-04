@@ -1,6 +1,6 @@
 #
 ifdef
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 #
 ifdef
 EVENT
@@ -74,23 +74,23 @@ endif
 #
 define
 EVENT
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 #
 define
 WINDOW_ONLY_EVENT
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 #
 define
 TOUCH_EVENT
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 #
 define
 DOCUMENT_ONLY_EVENT
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 #
 define
 NON_IDL_EVENT
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 #
 endif
 #
@@ -141,7 +141,7 @@ define
 WINDOW_ONLY_EVENT
 (
 _name
-_id
+_message
 _type
 _struct
 )
@@ -198,7 +198,7 @@ define
 TOUCH_EVENT
 (
 _name
-_id
+_message
 _type
 _struct
 )
@@ -229,7 +229,7 @@ define
 DOCUMENT_ONLY_EVENT
 (
 _name
-_id
+_message
 _type
 _struct
 )
@@ -260,7 +260,7 @@ define
 NON_IDL_EVENT
 (
 _name
-_id
+_message
 _type
 _struct
 )
@@ -1353,7 +1353,7 @@ eSVGZoomEventClass
 )
 #
 ifndef
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 NON_IDL_EVENT
 (
 zoom
@@ -1365,7 +1365,7 @@ eBasicEventClass
 endif
 #
 ifndef
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 NON_IDL_EVENT
 (
 begin
@@ -1384,7 +1384,7 @@ eSMILTimeEventClass
 )
 #
 ifndef
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 NON_IDL_EVENT
 (
 end
@@ -1403,7 +1403,7 @@ eSMILTimeEventClass
 )
 #
 ifndef
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 NON_IDL_EVENT
 (
 repeat
@@ -1711,7 +1711,7 @@ BEFOREUNLOAD_EVENT
 endif
 #
 ifdef
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 #
 undef
 EVENT

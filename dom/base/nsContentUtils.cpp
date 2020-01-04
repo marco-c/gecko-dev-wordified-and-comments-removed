@@ -3599,7 +3599,7 @@ mMessage
 {
 #
 define
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 (
 name_
 message_
@@ -3635,7 +3635,7 @@ h
 "
 #
 undef
-ID_TO_EVENT
+MESSAGE_TO_EVENT
 default
 :
 break
