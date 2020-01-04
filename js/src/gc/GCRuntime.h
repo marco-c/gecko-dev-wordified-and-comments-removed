@@ -3523,6 +3523,17 @@ sliceBudget
 )
 ;
 void
+updateTypeDescrObjects
+(
+MovingTracer
+*
+trc
+Zone
+*
+zone
+)
+;
+void
 updateAllCellPointers
 (
 MovingTracer
