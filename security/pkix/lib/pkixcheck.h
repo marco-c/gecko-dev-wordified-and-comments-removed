@@ -64,6 +64,13 @@ requiredEKUIfPresent
 )
 ;
 Result
+CheckIssuer
+(
+Input
+encodedIssuer
+)
+;
+Result
 ParseValidity
 (
 Input

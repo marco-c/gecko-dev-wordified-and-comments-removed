@@ -553,6 +553,20 @@ a
 common
 name
 .
+If
+an
+empty
+string
+is
+provided
+then
+an
+empty
+distinguished
+name
+is
+returned
+.
 DirectoryNames
 also
 use
@@ -1726,6 +1740,8 @@ differently
 "
     
 if
+string
+and
 '
 /
 '

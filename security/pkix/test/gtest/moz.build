@@ -110,6 +110,11 @@ pkixcheck_CheckExtendedKeyUsage_tests
 cpp
 '
 '
+pkixcheck_CheckIssuer_tests
+.
+cpp
+'
+'
 pkixcheck_CheckKeyUsage_tests
 .
 cpp
