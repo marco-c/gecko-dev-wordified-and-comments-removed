@@ -1447,6 +1447,12 @@ GetBidiNumeralOption
 (
 )
 ;
+static
+void
+FlushFontAndWordCaches
+(
+)
+;
 gfxASurface
 *
 ScreenReferenceSurface

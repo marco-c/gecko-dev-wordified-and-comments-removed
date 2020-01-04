@@ -7526,8 +7526,10 @@ return
 mBidiNumeralOption
 ;
 }
-static
 void
+gfxPlatform
+:
+:
 FlushFontAndWordCaches
 (
 )
