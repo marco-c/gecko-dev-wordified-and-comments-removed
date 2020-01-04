@@ -86460,6 +86460,21 @@ initMethod
 )
 )
         
+canBeRepresentedAsJSON
+=
+self
+.
+dictionarySafeToJSONify
+(
+self
+.
+dictionary
+)
+        
+if
+canBeRepresentedAsJSON
+:
+            
 methods
 .
 append
@@ -86486,14 +86501,7 @@ toObjectInternalMethod
 )
             
 if
-self
-.
-dictionarySafeToJSONify
-(
-self
-.
-dictionary
-)
+canBeRepresentedAsJSON
 :
                 
 methods
