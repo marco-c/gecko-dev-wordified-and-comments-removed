@@ -5266,6 +5266,10 @@ if
 bf
 .
 relobjdir
+and
+bf
+.
+relobjdir
 in
 skiplist
 :
