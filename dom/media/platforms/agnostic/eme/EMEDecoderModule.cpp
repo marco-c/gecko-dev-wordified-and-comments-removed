@@ -406,7 +406,7 @@ aDecrypted
 mStatus
 =
 =
-GMPNoKeyErr
+NoKeyErr
 )
 {
 Input
@@ -420,12 +420,12 @@ mSample
 else
 if
 (
-GMP_FAILED
-(
 aDecrypted
 .
 mStatus
-)
+!
+=
+Ok
 )
 {
 if
