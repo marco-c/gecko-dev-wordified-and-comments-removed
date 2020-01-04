@@ -67,10 +67,6 @@ mCookiesLifetimePolicy
 (
 0
 )
-mCookiesAlwaysAcceptSession
-(
-false
-)
 {
 }
 bool
@@ -140,9 +136,6 @@ mCookiesLifetimeSec
 ;
 uint8_t
 mCookiesLifetimePolicy
-;
-bool
-mCookiesAlwaysAcceptSession
 ;
 }
 ;
