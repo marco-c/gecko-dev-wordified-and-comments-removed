@@ -890,6 +890,10 @@ widget
 CompositorWidget
 *
 aWidget
+const
+uint64_t
+&
+aLayerTreeId
 CSSToLayoutDeviceScale
 aScale
 bool
@@ -948,6 +952,7 @@ mCompositorBridgeParent
 InitSameProcess
 (
 aWidget
+aLayerTreeId
 aUseAPZ
 )
 ;

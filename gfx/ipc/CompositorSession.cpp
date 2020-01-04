@@ -68,6 +68,10 @@ aDelegate
 CompositorBridgeChild
 *
 aChild
+const
+uint64_t
+&
+aRootLayerTreeId
 )
 :
 mCompositorWidgetDelegate
@@ -77,6 +81,10 @@ aDelegate
 mCompositorBridgeChild
 (
 aChild
+)
+mRootLayerTreeId
+(
+aRootLayerTreeId
 )
 {
 }

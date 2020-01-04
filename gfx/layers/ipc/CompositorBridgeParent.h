@@ -780,6 +780,10 @@ widget
 CompositorWidget
 *
 aWidget
+const
+uint64_t
+&
+aLayerTreeId
 bool
 aUseAPZ
 )
@@ -1782,12 +1786,6 @@ aLayersId
 )
 ;
 static
-uint64_t
-AllocateLayerTreeId
-(
-)
-;
-static
 void
 DeallocateLayerTreeId
 (
@@ -2176,7 +2174,6 @@ mResetCompositorMonitor
 uint64_t
 mCompositorID
 ;
-const
 uint64_t
 mRootLayerTreeID
 ;
