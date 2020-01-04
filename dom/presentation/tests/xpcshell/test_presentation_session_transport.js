@@ -560,6 +560,12 @@ aTransport
 serverCallback
 )
 ;
+serverTransport
+.
+enableDataNotification
+(
+)
+;
 }
 onStopListening
 :
@@ -864,6 +870,12 @@ serverTransport
 send
 (
 stream
+)
+;
+clientTransport
+.
+enableDataNotification
+(
 )
 ;
 }
