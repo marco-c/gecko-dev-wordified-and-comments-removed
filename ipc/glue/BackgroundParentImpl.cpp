@@ -1750,9 +1750,7 @@ aFilter
 .
 EqualsASCII
 (
-"
-stun
-"
+NS_NETWORK_SOCKET_FILTER_HANDLER_STUN_SUFFIX
 )
 )
 {

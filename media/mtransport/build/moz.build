@@ -190,7 +190,7 @@ h
 .
 .
 /
-stun_udp_socket_filter
+stun_socket_filter
 .
 h
 '

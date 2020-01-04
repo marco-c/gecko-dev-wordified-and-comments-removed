@@ -319,6 +319,15 @@ aTrackingNumber
 )
 override
 ;
+nsresult
+SetFilterName
+(
+const
+nsACString
+&
+aFilterName
+)
+;
 private
 :
 nsString
@@ -326,6 +335,9 @@ mHost
 ;
 uint16_t
 mPort
+;
+nsCString
+mFilterName
 ;
 }
 ;

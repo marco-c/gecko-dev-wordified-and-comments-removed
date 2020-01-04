@@ -623,7 +623,7 @@ aFilter
 ;
 nsCOMPtr
 <
-nsIUDPSocketFilterHandler
+nsISocketFilterHandler
 >
 filterHandler
 =
@@ -2026,7 +2026,7 @@ data
 Length
 (
 )
-nsIUDPSocketFilter
+nsISocketFilter
 :
 :
 SF_OUTGOING
@@ -2836,7 +2836,7 @@ uint8_t
 )
 buffer
 len
-nsIUDPSocketFilter
+nsISocketFilter
 :
 :
 SF_INCOMING

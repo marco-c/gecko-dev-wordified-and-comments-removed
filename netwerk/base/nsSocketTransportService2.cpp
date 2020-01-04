@@ -202,6 +202,14 @@ UDPSocket
 "
 )
 ;
+LazyLogModule
+gTCPSocketLog
+(
+"
+TCPSocket
+"
+)
+;
 nsSocketTransportService
 *
 gSocketTransportService

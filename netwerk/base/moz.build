@@ -618,6 +618,11 @@ nsISimpleStreamListener
 idl
 '
 '
+nsISocketFilter
+.
+idl
+'
+'
 nsISocketTransport
 .
 idl
@@ -709,11 +714,6 @@ idl
 '
 '
 nsIUDPSocket
-.
-idl
-'
-'
-nsIUDPSocketFilter
 .
 idl
 '

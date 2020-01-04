@@ -362,6 +362,8 @@ bool
 useSSL
 bool
 aUseArrayBuffers
+nsCString
+aFilter
 )
 ;
 /
