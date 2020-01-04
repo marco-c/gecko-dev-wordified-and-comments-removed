@@ -12,6 +12,13 @@ PathRecording
 .
 h
 "
+#
+include
+"
+RecordingTypes
+.
+h
+"
 namespace
 mozilla
 {

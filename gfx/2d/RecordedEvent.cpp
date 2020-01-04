@@ -15,6 +15,13 @@ h
 #
 include
 "
+RecordingTypes
+.
+h
+"
+#
+include
+"
 Tools
 .
 h

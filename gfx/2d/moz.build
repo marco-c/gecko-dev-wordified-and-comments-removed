@@ -179,6 +179,11 @@ DataSurfaceHelpers
 h
 '
 '
+DrawEventRecorder
+.
+h
+'
+'
 DrawTargetTiled
 .
 h
@@ -255,6 +260,11 @@ h
 '
 '
 Quaternion
+.
+h
+'
+'
+RecordedEvent
 .
 h
 '
