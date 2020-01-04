@@ -2221,7 +2221,7 @@ aType
 ;
 static
 nsContentPolicyType
-InternalContentPolicyTypeToExternalOrScript
+InternalContentPolicyTypeToExternalOrMCBInternal
 (
 nsContentPolicyType
 aType

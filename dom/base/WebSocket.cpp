@@ -5866,6 +5866,7 @@ originDoc
 >
 GetUpgradeInsecureRequests
 (
+false
 )
 )
 {
