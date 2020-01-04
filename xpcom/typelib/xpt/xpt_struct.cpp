@@ -33,7 +33,7 @@ mozilla
 WrapNotNull
 ;
 static
-PRBool
+bool
 DoInterfaceDirectoryEntry
 (
 XPTArena
@@ -51,7 +51,7 @@ ide
 )
 ;
 static
-PRBool
+bool
 DoConstDescriptor
 (
 XPTArena
@@ -72,7 +72,7 @@ id
 )
 ;
 static
-PRBool
+bool
 DoMethodDescriptor
 (
 XPTArena
@@ -93,7 +93,7 @@ id
 )
 ;
 static
-PRBool
+bool
 SkipAnnotation
 (
 NotNull
@@ -108,7 +108,7 @@ isLast
 )
 ;
 static
-PRBool
+bool
 DoInterfaceDescriptor
 (
 XPTArena
@@ -127,7 +127,7 @@ idp
 )
 ;
 static
-PRBool
+bool
 DoTypeDescriptorPrefix
 (
 XPTArena
@@ -145,7 +145,7 @@ tdp
 )
 ;
 static
-PRBool
+bool
 DoTypeDescriptor
 (
 XPTArena
@@ -166,7 +166,7 @@ id
 )
 ;
 static
-PRBool
+bool
 DoParamDescriptor
 (
 XPTArena
@@ -188,7 +188,7 @@ id
 ;
 XPT_PUBLIC_API
 (
-PRBool
+bool
 )
 XPT_DoHeader
 (
@@ -235,7 +235,7 @@ if
 header
 )
 return
-PR_FALSE
+false
 ;
 *
 headerp
@@ -280,7 +280,7 @@ i
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -334,7 +334,7 @@ XPT_MAGIC_STRING
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -364,7 +364,7 @@ minor_version
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -386,7 +386,7 @@ num_interfaces
 0
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -422,7 +422,7 @@ ide_offset
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -470,7 +470,7 @@ stderr
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 uint32_t
@@ -487,7 +487,7 @@ data_pool
 )
 )
 return
-PR_FALSE
+false
 ;
 XPT_SetDataOffset
 (
@@ -546,7 +546,7 @@ header
 interface_directory
 )
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -565,7 +565,7 @@ isLast
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 while
@@ -616,14 +616,14 @@ i
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
-PRBool
+bool
 DoInterfaceDirectoryEntry
 (
 XPTArena
@@ -700,15 +700,15 @@ interface_descriptor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
-PRBool
+bool
 InterfaceDescriptorAddTypes
 (
 XPTArena
@@ -782,7 +782,7 @@ if
 new_
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -819,7 +819,7 @@ num_additional_types
 256
 )
 return
-PR_FALSE
+false
 ;
 id
 -
@@ -830,10 +830,10 @@ num_additional_types
 num
 ;
 return
-PR_TRUE
+true
 ;
 }
-PRBool
+bool
 DoInterfaceDescriptor
 (
 XPTArena
@@ -891,7 +891,7 @@ if
 id
 )
 return
-PR_FALSE
+false
 ;
 *
 idp
@@ -913,7 +913,7 @@ cursor
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -929,7 +929,7 @@ offset
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -946,7 +946,7 @@ idp
 NULL
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -976,7 +976,7 @@ num_methods
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1027,7 +1027,7 @@ id
 method_descriptors
 )
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -1067,7 +1067,7 @@ id
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1085,7 +1085,7 @@ num_constants
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1136,7 +1136,7 @@ id
 const_descriptors
 )
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -1177,7 +1177,7 @@ id
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1196,14 +1196,14 @@ flags
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
-PRBool
+bool
 DoConstDescriptor
 (
 XPTArena
@@ -1223,10 +1223,10 @@ XPTInterfaceDescriptor
 id
 )
 {
-PRBool
+bool
 ok
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1258,7 +1258,7 @@ id
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 switch
@@ -1505,7 +1505,7 @@ return
 ok
 ;
 }
-PRBool
+bool
 DoMethodDescriptor
 (
 XPTArena
@@ -1567,7 +1567,7 @@ num_args
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1617,7 +1617,7 @@ md
 params
 )
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -1657,7 +1657,7 @@ id
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1676,13 +1676,13 @@ id
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
-PRBool
+bool
 DoParamDescriptor
 (
 XPTArena
@@ -1730,13 +1730,13 @@ id
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
-PRBool
+bool
 DoTypeDescriptorPrefix
 (
 XPTArena
@@ -1765,7 +1765,7 @@ flags
 )
 ;
 }
-PRBool
+bool
 DoTypeDescriptor
 (
 XPTArena
@@ -1801,7 +1801,7 @@ prefix
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 switch
@@ -1832,7 +1832,7 @@ iface
 )
 )
 return
-PR_FALSE
+false
 ;
 td
 -
@@ -1888,7 +1888,7 @@ argnum
 )
 )
 return
-PR_FALSE
+false
 ;
 break
 ;
@@ -1928,7 +1928,7 @@ argnum2
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1941,7 +1941,7 @@ id
 )
 )
 return
-PR_FALSE
+false
 ;
 td
 -
@@ -1985,7 +1985,7 @@ id
 )
 )
 return
-PR_FALSE
+false
 ;
 break
 ;
@@ -2029,7 +2029,7 @@ argnum2
 )
 )
 return
-PR_FALSE
+false
 ;
 break
 ;
@@ -2040,10 +2040,10 @@ break
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
-PRBool
+bool
 SkipAnnotation
 (
 NotNull
@@ -2071,7 +2071,7 @@ flags
 )
 )
 return
-PR_FALSE
+false
 ;
 *
 isLast
@@ -2105,10 +2105,10 @@ cursor
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

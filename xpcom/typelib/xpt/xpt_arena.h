@@ -7,7 +7,7 @@ __xpt_arena_h__
 #
 include
 "
-prtypes
+prcpucfg
 .
 h
 "

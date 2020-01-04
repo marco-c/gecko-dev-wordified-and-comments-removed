@@ -49,7 +49,7 @@ XPTCursor
 extern
 XPT_PUBLIC_API
 (
-PRBool
+bool
 )
 XPT_SkipStringInline
 (
@@ -64,7 +64,7 @@ cursor
 extern
 XPT_PUBLIC_API
 (
-PRBool
+bool
 )
 XPT_DoCString
 (
@@ -90,7 +90,7 @@ false
 extern
 XPT_PUBLIC_API
 (
-PRBool
+bool
 )
 XPT_DoIID
 (
@@ -108,7 +108,7 @@ iidp
 extern
 XPT_PUBLIC_API
 (
-PRBool
+bool
 )
 XPT_Do64
 (
@@ -126,7 +126,7 @@ u64p
 extern
 XPT_PUBLIC_API
 (
-PRBool
+bool
 )
 XPT_Do32
 (
@@ -144,7 +144,7 @@ u32p
 extern
 XPT_PUBLIC_API
 (
-PRBool
+bool
 )
 XPT_Do16
 (
@@ -162,7 +162,7 @@ u16p
 extern
 XPT_PUBLIC_API
 (
-PRBool
+bool
 )
 XPT_Do8
 (
@@ -180,7 +180,7 @@ u8p
 extern
 XPT_PUBLIC_API
 (
-PRBool
+bool
 )
 XPT_DoHeader
 (
@@ -270,7 +270,7 @@ len
 extern
 XPT_PUBLIC_API
 (
-PRBool
+bool
 )
 XPT_MakeCursor
 (
@@ -292,7 +292,7 @@ cursor
 extern
 XPT_PUBLIC_API
 (
-PRBool
+bool
 )
 XPT_SeekTo
 (
