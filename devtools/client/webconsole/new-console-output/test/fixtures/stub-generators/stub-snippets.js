@@ -157,7 +157,7 @@ trace
 code
 :
 function
-bar
+testStacktraceFiltering
 (
 )
 {
@@ -172,7 +172,7 @@ foo
 (
 )
 {
-bar
+testStacktraceFiltering
 (
 )
 }
