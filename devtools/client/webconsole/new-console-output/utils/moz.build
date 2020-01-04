@@ -64,6 +64,13 @@ MPL
 DevToolsModules
 (
 '
+id
+-
+generator
+.
+js
+'
+'
 messages
 .
 js
