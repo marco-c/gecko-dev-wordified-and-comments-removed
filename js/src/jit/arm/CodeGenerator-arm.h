@@ -1187,6 +1187,15 @@ LNotI64
 ins
 )
 ;
+virtual
+void
+visitWasmTruncateToInt64
+(
+LWasmTruncateToInt64
+*
+ins
+)
+;
 void
 visitOutOfLineBailout
 (
