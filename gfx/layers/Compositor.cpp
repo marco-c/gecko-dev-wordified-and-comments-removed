@@ -261,7 +261,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 const
@@ -382,7 +382,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 const
@@ -437,7 +437,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 const
@@ -880,7 +880,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 const
@@ -1071,7 +1071,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 const
@@ -2288,7 +2288,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 const
@@ -2345,7 +2345,7 @@ GetSize
 gfx
 :
 :
-IntRect
+Rect
 renderBounds
 (
 0

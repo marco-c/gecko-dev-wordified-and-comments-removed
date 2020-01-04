@@ -1350,7 +1350,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 const
@@ -3290,7 +3290,7 @@ const
 gfx
 :
 :
-IntRect
+Rect
 &
 aClipRect
 const
