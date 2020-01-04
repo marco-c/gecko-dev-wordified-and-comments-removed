@@ -823,7 +823,7 @@ devtools
 /
 shared
 /
-styleinspector
+inspector
 /
 css
 -
