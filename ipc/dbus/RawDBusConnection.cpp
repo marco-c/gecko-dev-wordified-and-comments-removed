@@ -391,6 +391,11 @@ DBusWatcher
 :
 ToggleWatchFunction
 this
+-
+>
+GetConnection
+(
+)
 nullptr
 )
 ;

@@ -29,9 +29,6 @@ namespace
 ipc
 {
 class
-RawDBusConnection
-;
-class
 DBusWatcher
 :
 public
@@ -44,7 +41,7 @@ public
 :
 DBusWatcher
 (
-RawDBusConnection
+DBusConnection
 *
 aConnection
 DBusWatch
@@ -112,7 +109,7 @@ void
 aData
 )
 ;
-RawDBusConnection
+DBusConnection
 *
 GetConnection
 (
@@ -146,7 +143,7 @@ MessageLoopForIO
 FileDescriptorWatcher
 mWriteWatcher
 ;
-RawDBusConnection
+DBusConnection
 *
 mConnection
 ;
