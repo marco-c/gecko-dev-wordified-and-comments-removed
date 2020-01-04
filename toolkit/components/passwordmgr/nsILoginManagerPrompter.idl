@@ -307,10 +307,12 @@ login
 '
 s
 password
+or
+username
 .
+*
 If
 the
-*
 user
 consents
 modifyLogin
