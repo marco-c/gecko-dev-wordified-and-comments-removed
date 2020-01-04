@@ -293,7 +293,7 @@ WidgetEvent
 event
 (
 true
-NS_SHOW_EVENT
+eShow
 )
 ;
 event
