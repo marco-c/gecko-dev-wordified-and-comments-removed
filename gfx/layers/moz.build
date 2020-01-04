@@ -754,6 +754,11 @@ TextureHostBasic
 h
 '
 '
+BufferTexture
+.
+h
+'
+'
 client
 /
 CanvasClient
@@ -1765,6 +1770,11 @@ cpp
 basic
 /
 TextureHostBasic
+.
+cpp
+'
+'
+BufferTexture
 .
 cpp
 '
