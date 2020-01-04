@@ -99,6 +99,14 @@ baz
 .
 ini
 '
+'
+.
+.
+/
+foo
+.
+css
+'
 ]
 FINAL_TARGET_PP_FILES
 .

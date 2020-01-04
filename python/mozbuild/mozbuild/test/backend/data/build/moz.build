@@ -102,6 +102,11 @@ child2
 =
 [
 '
+foo
+.
+css
+'
+'
 qux
 .
 ini
