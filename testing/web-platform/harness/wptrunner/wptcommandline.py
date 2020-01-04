@@ -1767,13 +1767,11 @@ store_true
 help
 =
 "
-Path
-to
-the
-folder
-containing
-browser
-prefs
+Run
+tests
+with
+electrolysis
+preferences
 "
 )
     
