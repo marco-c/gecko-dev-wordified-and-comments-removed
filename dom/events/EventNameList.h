@@ -393,13 +393,6 @@ eDragEventClass
 )
 EVENT
 (
-dragexit
-eDragExit
-EventNameType_HTMLXUL
-eDragEventClass
-)
-EVENT
-(
 dragleave
 eDragLeave
 EventNameType_HTMLXUL
@@ -1385,6 +1378,13 @@ commandupdate
 eXULCommandUpdate
 EventNameType_XUL
 eBasicEventClass
+)
+NON_IDL_EVENT
+(
+dragexit
+eDragExit
+EventNameType_XUL
+eDragEventClass
 )
 NON_IDL_EVENT
 (
