@@ -5548,7 +5548,7 @@ requested
 ;
 mCaptureRefreshTask
 =
-NewRunnableMethod
+NewCancelableRunnableMethod
 (
 this
 &

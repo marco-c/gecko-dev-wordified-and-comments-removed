@@ -13839,7 +13839,7 @@ nullptr
 }
 mCurrentAsyncSetWindowTask
 =
-NewRunnableMethod
+NewCancelableRunnableMethod
 <
 PluginInstanceChild
 void
@@ -18622,7 +18622,7 @@ return
 }
 mCurrentInvalidateTask
 =
-NewRunnableMethod
+NewCancelableRunnableMethod
 (
 this
 &

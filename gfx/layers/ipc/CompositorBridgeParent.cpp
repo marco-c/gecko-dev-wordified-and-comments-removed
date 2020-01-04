@@ -1870,7 +1870,7 @@ CancelableRunnable
 >
 task
 =
-NewRunnableMethod
+NewCancelableRunnableMethod
 (
 this
 &
@@ -2044,7 +2044,7 @@ CancelableRunnable
 >
 task
 =
-NewRunnableMethod
+NewCancelableRunnableMethod
 (
 this
 &
@@ -5678,7 +5678,7 @@ CancelableRunnable
 >
 task
 =
-NewRunnableMethod
+NewCancelableRunnableMethod
 (
 this
 &
