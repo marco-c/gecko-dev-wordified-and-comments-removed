@@ -478,6 +478,8 @@ cextern
 pw_2
 cextern
 pw_1
+cextern
+pd_16
 pw_m32101234
 :
 dw
@@ -505,12 +507,6 @@ times
 4
 dd
 17
-pd_16
-:
-times
-4
-dd
-16
 SECTION
 .
 text

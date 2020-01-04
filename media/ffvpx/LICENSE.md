@@ -582,6 +582,8 @@ frei0r
 -
 libcdio
 -
+librubberband
+-
 libutvideo
 -
 libvidstab

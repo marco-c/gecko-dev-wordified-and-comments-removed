@@ -418,6 +418,7 @@ size_t
 elsize
 )
 ;
+av_warn_unused_result
 int
 av_reallocp
 (
@@ -595,6 +596,7 @@ void
 elem
 )
 ;
+av_warn_unused_result
 int
 av_dynarray_add_nofree
 (
@@ -737,6 +739,20 @@ min_size
 ;
 void
 av_fast_malloc
+(
+void
+*
+ptr
+unsigned
+int
+*
+size
+size_t
+min_size
+)
+;
+void
+av_fast_mallocz
 (
 void
 *

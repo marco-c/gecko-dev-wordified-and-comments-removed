@@ -41,6 +41,18 @@ MAX_MV
 4096
 #
 define
+MAX_DMV
+(
+2
+*
+MAX_MV
+)
+#
+define
+ME_MAP_SIZE
+64
+#
+define
 FF_ME_ZERO
 0
 #
@@ -235,7 +247,7 @@ uint8_t
 mv_penalty
 )
 [
-MAX_MV
+MAX_DMV
 *
 2
 +

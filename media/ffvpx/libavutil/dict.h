@@ -236,7 +236,7 @@ int
 flags
 )
 ;
-void
+int
 av_dict_copy
 (
 AVDictionary

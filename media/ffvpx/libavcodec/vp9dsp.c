@@ -32,6 +32,8 @@ VP9DSPContext
 dsp
 int
 bpp
+int
+bitexact
 )
 {
 if
@@ -87,6 +89,7 @@ ff_vp9dsp_init_x86
 (
 dsp
 bpp
+bitexact
 )
 ;
 if

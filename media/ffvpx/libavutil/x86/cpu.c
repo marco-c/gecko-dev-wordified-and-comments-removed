@@ -641,6 +641,17 @@ rval
 =
 AV_CPU_FLAG_SSE42
 ;
+if
+(
+ecx
+&
+0x01000000
+)
+rval
+|
+=
+AV_CPU_FLAG_AESNI
+;
 #
 if
 HAVE_AVX

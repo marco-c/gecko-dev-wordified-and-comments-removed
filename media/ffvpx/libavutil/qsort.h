@@ -14,6 +14,7 @@ num
 type
 cmp
 )
+do
 {
 \
 void
@@ -568,6 +569,10 @@ break
 }
 \
 }
+while
+(
+0
+)
 #
 define
 AV_MSORT
@@ -578,6 +583,7 @@ num
 type
 cmp
 )
+do
 {
 \
 unsigned
@@ -793,3 +799,7 @@ tmp
 }
 \
 }
+while
+(
+0
+)

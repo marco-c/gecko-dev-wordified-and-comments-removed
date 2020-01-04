@@ -254,6 +254,8 @@ VP9DSPContext
 dsp
 int
 bpp
+int
+bitexact
 )
 ;
 void
@@ -288,6 +290,8 @@ VP9DSPContext
 dsp
 int
 bpp
+int
+bitexact
 )
 ;
 void

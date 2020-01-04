@@ -2043,8 +2043,10 @@ bits
 )
 )
 return
--
-1
+AVERROR
+(
+EINVAL
+)
 ;
 if
 (
@@ -2070,8 +2072,10 @@ AVCRC
 1024
 )
 return
--
-1
+AVERROR
+(
+EINVAL
+)
 ;
 for
 (
