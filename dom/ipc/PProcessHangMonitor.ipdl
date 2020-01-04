@@ -165,9 +165,6 @@ pluginId
 ProcessId
 contentProcessId
 ;
-ProcessId
-pluginProcessId
-;
 }
 ;
 union
