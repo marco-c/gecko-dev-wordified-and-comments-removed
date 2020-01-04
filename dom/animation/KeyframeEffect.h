@@ -1137,6 +1137,11 @@ aCx
 Element
 *
 aTarget
+nsCSSPseudoElements
+:
+:
+Type
+aPseudoType
 JS
 :
 :
