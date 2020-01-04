@@ -2036,6 +2036,14 @@ pn
 )
 ;
 bool
+emitComputedPropertyName
+(
+ParseNode
+*
+computedPropName
+)
+;
+bool
 emitElemOperands
 (
 ParseNode
