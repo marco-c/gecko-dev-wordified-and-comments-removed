@@ -102,14 +102,14 @@ pdfjsVersion
 .
 5
 .
-232
+256
 '
 ;
 var
 pdfjsBuild
 =
 '
-a682cce
+1c04335
 '
 ;
 var
