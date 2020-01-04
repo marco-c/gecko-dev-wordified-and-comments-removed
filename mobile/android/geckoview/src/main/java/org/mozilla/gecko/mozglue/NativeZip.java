@@ -159,7 +159,7 @@ input
 ;
 }
 Override
-public
+protected
 void
 finalize
 (
