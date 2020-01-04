@@ -1038,6 +1038,11 @@ ErrorResult
 aRv
 )
 ;
+void
+NotifyVRDevicesUpdated
+(
+)
+;
 #
 ifdef
 MOZ_B2G_FM
@@ -1734,6 +1739,15 @@ nsStringHashKey
 nsISupports
 >
 mCachedResolveResults
+;
+nsTArray
+<
+RefPtr
+<
+Promise
+>
+>
+mVRGetDevicesPromises
 ;
 }
 ;

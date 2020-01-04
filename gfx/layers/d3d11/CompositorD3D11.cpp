@@ -3678,6 +3678,10 @@ hmdType
 hmdInfo
 -
 >
+GetDeviceInfo
+(
+)
+.
 GetType
 (
 )

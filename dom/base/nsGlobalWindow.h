@@ -528,7 +528,7 @@ namespace
 gfx
 {
 class
-VRHMDInfo
+VRDeviceProxy
 ;
 }
 }
@@ -1672,7 +1672,7 @@ mozilla
 gfx
 :
 :
-VRHMDInfo
+VRDeviceProxy
 *
 aHMD
 =
@@ -2834,7 +2834,7 @@ DisableGamepadUpdates
 )
 ;
 bool
-GetVRDevices
+UpdateVRDevices
 (
 nsTArray
 <
@@ -9148,9 +9148,6 @@ endif
 uint32_t
 mCanSkipCCGeneration
 ;
-bool
-mVRDevicesInitialized
-;
 nsTArray
 <
 RefPtr
@@ -9165,18 +9162,6 @@ VRDevice
 >
 >
 mVRDevices
-;
-RefPtr
-<
-mozilla
-:
-:
-gfx
-:
-:
-VRHMDInfo
->
-mVRHMDInfo
 ;
 friend
 class

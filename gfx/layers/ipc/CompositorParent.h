@@ -518,6 +518,13 @@ aVsyncTimestamp
 )
 ;
 void
+DispatchVREvents
+(
+TimeStamp
+aVsyncTimestamp
+)
+;
+void
 CancelCurrentSetNeedsCompositeTask
 (
 )

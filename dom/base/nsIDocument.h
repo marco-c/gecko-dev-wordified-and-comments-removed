@@ -413,13 +413,6 @@ Rule
 ;
 }
 namespace
-gfx
-{
-class
-VRHMDInfo
-;
-}
-namespace
 dom
 {
 class
