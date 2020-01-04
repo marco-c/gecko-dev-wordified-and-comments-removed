@@ -139,7 +139,7 @@ test
 )
 .
 length
-7
+3
 )
 ;
 do_check_eq
@@ -177,7 +177,7 @@ length
 do_check_eq
 (
 numTests
-14
+5
 )
 ;
 for
@@ -273,7 +273,7 @@ test
 )
 .
 length
-0
+2
 )
 ;
 do_check_true
@@ -306,7 +306,7 @@ test
 )
 .
 length
-0
+3
 )
 ;
 do_check_true
@@ -339,7 +339,7 @@ test
 )
 .
 length
-0
+4
 )
 ;
 }
