@@ -49566,6 +49566,12 @@ generateOutOfLineCode
 return
 false
 ;
+masm
+.
+flushBuffer
+(
+)
+;
 offsets
 -
 >
