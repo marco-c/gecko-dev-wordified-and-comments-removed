@@ -537,6 +537,11 @@ mSuppressDefensiveAuth
 :
 1
 ;
+uint32_t
+mCrossOrigin
+:
+1
+;
 RefPtr
 <
 nsHttpHandler

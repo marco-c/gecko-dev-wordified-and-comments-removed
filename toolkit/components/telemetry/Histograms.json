@@ -10856,7 +10856,7 @@ enumerated
 n_values
 "
 :
-3
+4
 "
 description
 "
@@ -10890,6 +10890,9 @@ cross
 -
 origin
 subresources
+3
+=
+xhr
 )
 "
 }
