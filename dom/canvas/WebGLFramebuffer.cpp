@@ -2352,7 +2352,7 @@ happen
 "
 )
 ;
-MOZ_FALLTHROUGH
+break
 ;
 case
 webgl
