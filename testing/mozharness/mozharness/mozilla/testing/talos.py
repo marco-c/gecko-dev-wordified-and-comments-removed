@@ -1427,6 +1427,9 @@ self
 buildbot_config
 :
             
+try
+:
+                
 junk
 junk
 opts
@@ -1461,6 +1464,14 @@ mozharness
 :
 '
 )
+            
+except
+IndexError
+:
+                
+opts
+=
+None
             
 if
 opts
@@ -2013,6 +2024,39 @@ config
 title
 '
 ]
+            
+if
+kw_options
+[
+'
+title
+'
+]
+.
+startswith
+(
+'
+tst
+-
+linux64
+-
+spot
+'
+)
+:
+                
+kw_options
+[
+'
+framework
+'
+]
+=
+'
+talos
+-
+aws
+'
         
 if
 self
