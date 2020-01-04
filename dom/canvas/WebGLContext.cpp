@@ -3127,9 +3127,6 @@ flags
 return
 true
 ;
-return
-false
-;
 }
 MOZ_ASSERT
 (
