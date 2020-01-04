@@ -84,6 +84,12 @@ const
 nsAString
 &
 aMIMEType
+uint32_t
+aAudioBitrate
+uint32_t
+aVideoBitrate
+uint32_t
+aBitrate
 )
 :
 mWriter
@@ -181,6 +187,12 @@ const
 nsAString
 &
 aMIMEType
+uint32_t
+aAudioBitrate
+uint32_t
+aVideoBitrate
+uint32_t
+aBitrate
 uint8_t
 aTrackTypes
 =
