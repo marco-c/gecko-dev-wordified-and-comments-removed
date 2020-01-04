@@ -261,6 +261,15 @@ nsCString
 aOutSessionIds
 )
 ;
+bool
+RemoveKeysForSession
+(
+const
+nsString
+&
+aSessionId
+)
+;
 void
 SetCaps
 (
