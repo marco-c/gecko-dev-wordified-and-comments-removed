@@ -20614,13 +20614,6 @@ paint
 false
 )
 ;
-if
-(
-aParams
-.
-delayLoad
-)
-{
 this
 .
 browser
@@ -20649,6 +20642,13 @@ index
 1
 }
 ;
+if
+(
+aParams
+.
+delayLoad
+)
+{
 this
 .
 browser
