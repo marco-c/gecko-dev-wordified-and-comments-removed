@@ -2858,13 +2858,6 @@ java
 '
 home
 /
-HistorySectionsHelper
-.
-java
-'
-'
-home
-/
 HomeAdapter
 .
 java
