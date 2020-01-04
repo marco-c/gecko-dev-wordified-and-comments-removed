@@ -1787,6 +1787,9 @@ mRebuildGeneration
 bool
 mLocalRulesUsed
 ;
+bool
+mRebuildLocalRules
+;
 uint32_t
 mDownloadCount
 ;
