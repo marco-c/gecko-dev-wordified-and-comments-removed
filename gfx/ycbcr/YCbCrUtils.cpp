@@ -109,7 +109,7 @@ aSuggestedFormat
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 )
 {
 #
@@ -418,7 +418,7 @@ aDestFormat
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 )
 {
 ScaleYCbCrToRGB565
@@ -527,7 +527,7 @@ aDestFormat
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 )
 {
 ConvertYCbCrToRGB565

@@ -9512,7 +9512,7 @@ B8G8R8X8
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 ;
 gfxImageFormat
 iFormat
@@ -10223,7 +10223,7 @@ B8G8R8X8
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 )
 ;
 if

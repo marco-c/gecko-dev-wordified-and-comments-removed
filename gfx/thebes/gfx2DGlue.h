@@ -478,7 +478,7 @@ case
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 :
 return
 gfxImageFormat
@@ -555,7 +555,7 @@ return
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 ;
 case
 gfxImageFormat
@@ -604,7 +604,7 @@ case
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 :
 case
 SurfaceFormat

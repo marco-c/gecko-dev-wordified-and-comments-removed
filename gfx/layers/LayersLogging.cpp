@@ -2343,7 +2343,7 @@ case
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 :
 aStream
 <
@@ -2352,7 +2352,7 @@ aStream
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 "
 ;
 break

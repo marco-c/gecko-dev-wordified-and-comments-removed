@@ -94,7 +94,7 @@ gfx
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 :
 return
 LOCAL_GL_RGB
@@ -183,7 +183,7 @@ gfx
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 :
 return
 LOCAL_GL_UNSIGNED_SHORT_5_6_5
@@ -328,7 +328,7 @@ gfx
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 )
 {
 mTextureFormat

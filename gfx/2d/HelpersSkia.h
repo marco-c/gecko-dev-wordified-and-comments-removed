@@ -131,7 +131,7 @@ case
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 :
 return
 kRGB_565_SkColorType
@@ -182,7 +182,7 @@ return
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 ;
 case
 kAlpha_8_SkColorType
@@ -242,7 +242,7 @@ case
 SurfaceFormat
 :
 :
-R5G6B5
+R5G6B5_UINT16
 :
 return
 kRGB_565_GrPixelConfig
