@@ -1660,6 +1660,9 @@ extension
 "
 locale
 "
+"
+experiment
+"
 ]
 )
 ;
