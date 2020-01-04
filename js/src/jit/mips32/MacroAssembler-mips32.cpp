@@ -12474,6 +12474,9 @@ backedgeJump
 RepatchLabel
 *
 label
+Label
+*
+documentation
 )
 {
 MOZ_ASSERT
