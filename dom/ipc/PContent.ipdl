@@ -1303,15 +1303,6 @@ nsresult
 ;
 }
 ;
-union
-OptionalContentId
-{
-ContentParentId
-;
-void_t
-;
-}
-;
 struct
 DomainPolicyClone
 {
