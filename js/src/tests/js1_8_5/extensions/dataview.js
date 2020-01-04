@@ -16226,7 +16226,7 @@ prototype
 "
 [
 object
-DataViewPrototype
+DataView
 ]
 "
 )

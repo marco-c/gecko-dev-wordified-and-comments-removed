@@ -353,7 +353,7 @@ found_property_names
 expected_property_names
 )
 ;
-assertEq
+assertDeepEq
 (
 Object
 .
@@ -361,9 +361,11 @@ getOwnPropertySymbols
 (
 GeneratorObjectPrototype
 )
+[
+Symbol
 .
-length
-0
+toStringTag
+]
 )
 ;
 }
