@@ -1325,6 +1325,11 @@ EXPORTS
 =
 [
 '
+MacIOSurfaceHelpers
+.
+h
+'
+'
 MacIOSurfaceImage
 .
 h
@@ -1350,6 +1355,11 @@ SOURCES
 ipc
 /
 ShadowLayerUtilsMac
+.
+cpp
+'
+'
+MacIOSurfaceHelpers
 .
 cpp
 '
