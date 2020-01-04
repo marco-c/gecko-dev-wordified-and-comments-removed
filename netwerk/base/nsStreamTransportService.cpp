@@ -1624,8 +1624,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 task
 uint32_t
 flags
@@ -1701,8 +1699,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 uint32_t
 )
 {

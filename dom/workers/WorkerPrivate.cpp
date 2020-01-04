@@ -7271,8 +7271,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 uint32_t
 aFlags
@@ -7342,8 +7340,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 uint32_t
 )
 {
@@ -9711,8 +9707,6 @@ already_AddRefed
 <
 WorkerRunnable
 >
-&
-&
 aRunnable
 nsIEventTarget
 *
@@ -10064,8 +10058,6 @@ already_AddRefed
 <
 WorkerControlRunnable
 >
-&
-&
 aWorkerControlRunnable
 )
 {
@@ -10222,8 +10214,6 @@ already_AddRefed
 <
 WorkerRunnable
 >
-&
-&
 aDebuggerRunnable
 )
 {
@@ -10343,8 +10333,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 )
 {
@@ -27619,8 +27607,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 uint32_t
 aFlags
@@ -27769,8 +27755,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 uint32_t
 )
 {

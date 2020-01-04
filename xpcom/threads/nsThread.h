@@ -314,8 +314,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 nsNestedEventTarget
 *
@@ -329,8 +327,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 uint32_t
 aFlags
@@ -432,8 +428,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 mozilla
 :
