@@ -30,6 +30,33 @@ darwin
 '
 :
   
+print
+"
+This
+test
+is
+currently
+disabled
+:
+https
+:
+/
+/
+crbug
+.
+com
+/
+483696
+.
+"
+  
+sys
+.
+exit
+(
+0
+)
+  
 test
 =
 TestGyp
@@ -39,10 +66,6 @@ TestGyp
 formats
 =
 [
-'
-!
-ninja
-'
 ]
 )
   

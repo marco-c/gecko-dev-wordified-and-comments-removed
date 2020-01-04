@@ -39,9 +39,9 @@ python
 "
 %
 ~
-dp0
-/
-gyp
+dp0gyp_main
+.
+py
 "
 %
 *

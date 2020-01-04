@@ -18,6 +18,8 @@ TestGyp
 import
 os
 import
+struct
+import
 sys
 if
 sys
@@ -29,6 +31,33 @@ platform
 darwin
 '
 :
+  
+print
+"
+This
+test
+is
+currently
+disabled
+:
+https
+:
+/
+/
+crbug
+.
+com
+/
+483696
+.
+"
+  
+sys
+.
+exit
+(
+0
+)
   
 test
 =
@@ -51,6 +80,14 @@ xcode
 ]
 )
   
+CHDIR
+=
+'
+loadable
+-
+module
+'
+  
 test
 .
 run_gyp
@@ -62,11 +99,7 @@ gyp
 '
 chdir
 =
-'
-loadable
--
-module
-'
+CHDIR
 )
   
 test
@@ -83,16 +116,14 @@ test
 ALL
 chdir
 =
-'
-loadable
--
-module
-'
+CHDIR
 )
   
+binary
+=
 test
 .
-built_file_must_exist
+built_file_path
 (
       
 '
@@ -109,11 +140,53 @@ test_loadable_module
       
 chdir
 =
+CHDIR
+)
+  
+test
+.
+must_exist
+(
+binary
+)
+  
+MH_BUNDLE
+=
+8
+  
+if
+struct
+.
+unpack
+(
 '
-loadable
--
-module
+4I
 '
+open
+(
+binary
+'
+rb
+'
+)
+.
+read
+(
+16
+)
+)
+[
+3
+]
+!
+=
+MH_BUNDLE
+:
+    
+test
+.
+fail_test
+(
 )
   
 info_plist
@@ -134,14 +207,9 @@ Info
 .
 plist
 '
-      
 chdir
 =
-'
-loadable
--
-module
-'
+CHDIR
 )
   
 test
@@ -196,14 +264,9 @@ Contents
 /
 PkgInfo
 '
-      
 chdir
 =
-'
-loadable
--
-module
-'
+CHDIR
 )
   
 test
@@ -220,14 +283,9 @@ Contents
 /
 Resources
 '
-      
 chdir
 =
-'
-loadable
--
-module
-'
+CHDIR
 )
   
 test

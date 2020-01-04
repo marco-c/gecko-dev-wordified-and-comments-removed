@@ -4,6 +4,12 @@ AnExportedFunction
 )
 {
 }
+void
+AnotherExportedFunction
+(
+)
+{
+}
 int
 main
 (

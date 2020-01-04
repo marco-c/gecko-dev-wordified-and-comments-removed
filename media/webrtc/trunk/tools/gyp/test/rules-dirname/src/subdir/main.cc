@@ -3,6 +3,12 @@ gen
 {
 extern
 void
+nodir
+(
+)
+;
+extern
+void
 c
 (
 )
@@ -19,6 +25,13 @@ main
 (
 )
 {
+gen
+:
+:
+nodir
+(
+)
+;
 gen
 :
 :

@@ -1,0 +1,10 @@
+extern
+"
+C
+"
+void
+foo
+(
+)
+{
+}

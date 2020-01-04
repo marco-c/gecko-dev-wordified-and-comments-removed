@@ -149,8 +149,6 @@ outputs
 TODO
 :
 fix
-SCons
-and
 Make
 to
 support
@@ -265,8 +263,6 @@ outputs
 TODO
 :
 fix
-SCons
-and
 Make
 to
 support

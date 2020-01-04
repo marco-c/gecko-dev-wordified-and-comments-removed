@@ -57,14 +57,6 @@ type
 executable
 '
 '
-opt
-'
-:
-'
--
-Os
-'
-'
 sources
 '
 :

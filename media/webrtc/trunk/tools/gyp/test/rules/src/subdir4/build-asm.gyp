@@ -158,7 +158,7 @@ asm
 -
 function
 .
-asm
+assem
 '
 '
 program
@@ -199,14 +199,14 @@ rule_name
 '
 :
 '
-convert_asm
+convert_assem
 '
 '
 extension
 '
 :
 '
-asm
+assem
 '
 '
 inputs
@@ -246,7 +246,7 @@ bash
 c
 '
 '
-mv
+cp
 <
 (
 RULE_INPUT_PATH

@@ -66,7 +66,9 @@ in
 ninja
 '
 '
-android
+xcode
+-
+ninja
 '
 ]
 :

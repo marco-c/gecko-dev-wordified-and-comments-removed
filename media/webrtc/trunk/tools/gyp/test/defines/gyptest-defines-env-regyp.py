@@ -49,9 +49,6 @@ formats
 '
 make
 '
-'
-android
-'
 ]
 )
 try

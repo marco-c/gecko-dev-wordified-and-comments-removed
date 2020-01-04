@@ -191,7 +191,6 @@ o
 )
   
 if
-(
 GetRpaths
 (
 '
@@ -204,7 +203,6 @@ dylib
 =
 [
 ]
-)
 :
     
 test
@@ -214,7 +212,6 @@ fail_test
 )
   
 if
-(
 GetRpaths
 (
 '
@@ -232,7 +229,6 @@ executable_path
 .
 '
 ]
-)
 :
     
 test
@@ -274,7 +270,6 @@ fail_test
 )
   
 if
-(
 GetRpaths
 (
 '
@@ -296,7 +291,6 @@ loader_path
 .
 '
 ]
-)
 :
     
 test
@@ -306,7 +300,6 @@ fail_test
 )
   
 if
-(
 GetRpaths
 (
 '
@@ -322,7 +315,6 @@ executable_path
 .
 '
 ]
-)
 :
     
 test

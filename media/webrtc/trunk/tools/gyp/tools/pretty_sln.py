@@ -124,7 +124,7 @@ re
 .
 compile
 (
-(
+r
 '
 ^
 Project
@@ -142,7 +142,8 @@ Project
 -
 00A0C91BC942
 '
-                              
+                             
+r
 '
 }
 "
@@ -169,7 +170,6 @@ Project
 "
 '
 )
-)
   
 end_project
 =
@@ -189,6 +189,8 @@ re
 .
 compile
 (
+      
+r
 '
 ProjectSection
 \

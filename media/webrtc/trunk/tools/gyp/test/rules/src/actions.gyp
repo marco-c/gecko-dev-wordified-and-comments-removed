@@ -73,6 +73,15 @@ gyp
 '
 subdir2
 /
+both_rule_and_action_input
+.
+gyp
+:
+*
+'
+'
+subdir2
+/
 never_used
 .
 gyp

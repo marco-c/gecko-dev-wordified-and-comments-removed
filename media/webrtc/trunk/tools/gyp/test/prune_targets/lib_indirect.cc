@@ -1,0 +1,6 @@
+void
+libfunc_indirect
+(
+)
+{
+}

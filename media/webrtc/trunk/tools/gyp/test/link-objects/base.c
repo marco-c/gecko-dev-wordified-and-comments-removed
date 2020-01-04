@@ -6,12 +6,7 @@ extra
 int
 main
 (
-int
-argc
-char
-*
-*
-argv
+void
 )
 {
 extra

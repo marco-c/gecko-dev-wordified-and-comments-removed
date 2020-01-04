@@ -39,9 +39,6 @@ formats
 '
 make
 '
-'
-android
-'
 ]
 )
 os

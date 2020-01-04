@@ -1,0 +1,6 @@
+void
+libfunc2
+(
+)
+{
+}

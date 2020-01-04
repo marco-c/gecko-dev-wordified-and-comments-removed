@@ -8,8 +8,6 @@ Visual
 Studio
 project
 generation
-for
-SCons
 .
 "
 "
@@ -966,6 +964,9 @@ msbuild_toolset
 msbuild_toolset
 class
 MSVSSolution
+(
+object
+)
 :
   
 "
@@ -2009,6 +2010,27 @@ n
 '
 )
     
+if
+any
+(
+[
+e
+.
+entries
+for
+e
+in
+all_entries
+if
+isinstance
+(
+e
+MSVSFolder
+)
+]
+)
+:
+      
 f
 .
 write
@@ -2027,13 +2049,13 @@ r
 n
 '
 )
-    
+      
 for
 e
 in
 all_entries
 :
-      
+        
 if
 not
 isinstance
@@ -2042,9 +2064,9 @@ e
 MSVSFolder
 )
 :
-        
+          
 continue
-      
+        
 for
 subentry
 in
@@ -2052,7 +2074,7 @@ e
 .
 entries
 :
-        
+          
 f
 .
 write
@@ -2086,7 +2108,7 @@ get_guid
 )
 )
 )
-    
+      
 f
 .
 write

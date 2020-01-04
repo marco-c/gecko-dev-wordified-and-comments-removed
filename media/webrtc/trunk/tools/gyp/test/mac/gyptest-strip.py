@@ -12,6 +12,8 @@ works
 import
 TestGyp
 import
+TestMac
+import
 re
 import
 subprocess
@@ -139,11 +141,11 @@ d
 '
 )
     
-proc
+o
 =
 subprocess
 .
-Popen
+check_output
 (
 [
 '
@@ -155,29 +157,7 @@ l
 '
 p
 ]
-stdout
-=
-subprocess
-.
-PIPE
 )
-    
-o
-=
-proc
-.
-communicate
-(
-)
-[
-0
-]
-    
-assert
-not
-proc
-.
-returncode
     
 m
 =
@@ -231,6 +211,46 @@ fail_test
 (
 )
   
+expected_extra_symbol_count
+=
+0
+  
+if
+test
+.
+format
+in
+[
+'
+ninja
+'
+'
+xcode
+-
+ninja
+'
+]
+\
+      
+and
+TestMac
+.
+Xcode
+.
+Version
+(
+)
+>
+=
+'
+0500
+'
+:
+    
+expected_extra_symbol_count
+=
+1
+  
 CheckNsyms
 (
 OutPath
@@ -239,7 +259,9 @@ OutPath
 no_postprocess
 '
 )
-11
+29
++
+expected_extra_symbol_count
 )
   
 CheckNsyms
@@ -250,7 +272,9 @@ OutPath
 no_strip
 '
 )
-11
+29
++
+expected_extra_symbol_count
 )
   
 CheckNsyms
@@ -272,7 +296,7 @@ OutPath
 strip_nonglobal
 '
 )
-2
+6
 )
   
 CheckNsyms
@@ -283,7 +307,7 @@ OutPath
 strip_debugging
 '
 )
-3
+7
 )
   
 CheckNsyms
@@ -333,7 +357,7 @@ OutPath
 strip_save
 '
 )
-3
+7
 )
   
 test

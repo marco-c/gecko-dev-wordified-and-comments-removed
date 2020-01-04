@@ -74,7 +74,7 @@ ninja
 '
 '
 !
-android
+cmake
 '
 ]
 )

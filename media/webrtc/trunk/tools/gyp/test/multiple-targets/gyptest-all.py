@@ -1,9 +1,3 @@
-"
-"
-"
-"
-"
-"
 import
 TestGyp
 test

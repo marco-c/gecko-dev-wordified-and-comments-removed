@@ -86,10 +86,8 @@ Studio
 (
 and
 our
-implementations
+implementation
 of
-SCons
-and
 Make
 )
 put

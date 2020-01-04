@@ -1,9 +1,3 @@
-"
-"
-"
-"
-"
-"
 import
 TestGyp
 test
@@ -57,9 +51,6 @@ relocate
 /
 src
 '
-stderr
-=
-None
 )
 expect1
 =

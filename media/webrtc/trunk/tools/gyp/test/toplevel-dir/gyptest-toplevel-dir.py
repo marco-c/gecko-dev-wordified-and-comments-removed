@@ -98,8 +98,15 @@ test
 build
 (
 '
-all
+sub1
+/
+main
+.
+gyp
 '
+test
+.
+ALL
 chdir
 =
 toplevel_dir

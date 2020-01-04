@@ -27,6 +27,33 @@ darwin
 '
 :
   
+print
+"
+This
+test
+is
+currently
+disabled
+:
+https
+:
+/
+/
+crbug
+.
+com
+/
+483696
+.
+"
+  
+sys
+.
+exit
+(
+0
+)
+  
 test
 =
 TestGyp
@@ -64,7 +91,10 @@ build_error_code
 xcode
 '
 :
+[
 1
+65
+]
     
 '
 make
@@ -77,6 +107,17 @@ ninja
 '
 :
 1
+    
+'
+xcode
+-
+ninja
+'
+:
+[
+1
+65
+]
   
 }
 [

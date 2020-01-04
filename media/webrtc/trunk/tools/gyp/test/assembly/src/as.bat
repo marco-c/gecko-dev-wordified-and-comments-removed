@@ -8,6 +8,8 @@ assembler
 .
 cl
 /
+MD
+/
 c
 %
 1

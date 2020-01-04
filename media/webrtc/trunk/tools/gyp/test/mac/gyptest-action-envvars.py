@@ -52,6 +52,25 @@ xcode
 ]
 )
   
+if
+test
+.
+format
+=
+=
+'
+xcode
+-
+ninja
+'
+:
+    
+test
+.
+skip_test
+(
+)
+  
 CHDIR
 =
 '

@@ -125,6 +125,11 @@ make
 '
 ninja
 '
+'
+xcode
+-
+ninja
+'
 )
     
 test

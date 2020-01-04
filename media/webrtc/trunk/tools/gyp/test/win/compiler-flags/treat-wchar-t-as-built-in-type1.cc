@@ -1,0 +1,16 @@
+#
+ifdef
+_NATIVE_WCHAR_T_DEFINED
+#
+error
+#
+endif
+int
+main
+(
+)
+{
+return
+0
+;
+}

@@ -87,12 +87,6 @@ inputs
 :
 [
 '
-<
-(
-RULE_INPUT_PATH
-)
-'
-'
 do_stuff
 .
 py

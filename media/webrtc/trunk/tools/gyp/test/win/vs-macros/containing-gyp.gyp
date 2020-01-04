@@ -106,11 +106,6 @@ as
 .
 py
 '
-'
-(
-InputPath
-)
-'
 ]
 '
 outputs
