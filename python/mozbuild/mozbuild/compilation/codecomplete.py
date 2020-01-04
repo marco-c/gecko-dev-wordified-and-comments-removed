@@ -201,6 +201,12 @@ c
 )
 :
             
+cc
+=
+'
+CC
+'
+            
 name
 =
 '
@@ -209,6 +215,12 @@ COMPILE_CFLAGS
         
 else
 :
+            
+cc
+=
+'
+CXX
+'
             
 name
 =
@@ -224,6 +236,30 @@ build_vars
 :
             
 return
+        
+flags
+=
+(
+shell_split
+(
+build_vars
+[
+cc
+]
+)
++
+shell_split
+(
+build_vars
+[
+name
+]
+)
+)
+[
+1
+:
+]
         
 print
 (
@@ -244,13 +280,7 @@ util
 .
 sanitize_cflags
 (
-shell_split
-(
-build_vars
-[
-name
-]
-)
+flags
 )
 )
 )
