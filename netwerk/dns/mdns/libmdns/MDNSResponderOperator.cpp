@@ -2688,15 +2688,6 @@ nsIWritablePropertyBag2
 >
 attributes
 =
-nullptr
-;
-if
-(
-count
-)
-{
-attributes
-=
 new
 nsHashPropertyBag
 (
@@ -2714,6 +2705,11 @@ attributes
 return
 ;
 }
+if
+(
+count
+)
+{
 for
 (
 int
