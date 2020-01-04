@@ -800,17 +800,6 @@ nullptr
 ;
 }
 virtual
-CameraPreviewMediaStream
-*
-AsCameraPreviewStream
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
 void
 DestroyImpl
 (

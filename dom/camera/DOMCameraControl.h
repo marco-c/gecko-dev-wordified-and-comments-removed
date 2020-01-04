@@ -261,6 +261,14 @@ return
 mWindow
 ;
 }
+MediaStream
+*
+GetCameraStream
+(
+)
+const
+override
+;
 void
 GetEffect
 (

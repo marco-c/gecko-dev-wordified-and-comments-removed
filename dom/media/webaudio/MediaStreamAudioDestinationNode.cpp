@@ -127,7 +127,7 @@ Graph
 mDOMStream
 -
 >
-CreateDOMTrack
+CreateOwnDOMTrack
 (
 AudioNodeStream
 :
@@ -146,7 +146,7 @@ outputStream
 mDOMStream
 -
 >
-GetStream
+GetInputStream
 (
 )
 -
