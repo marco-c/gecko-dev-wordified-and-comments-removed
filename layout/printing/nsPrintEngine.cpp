@@ -9540,8 +9540,6 @@ rv
 ;
 StyleSetHandle
 styleSet
-;
-rv
 =
 mDocViewerPrint
 -
@@ -9552,14 +9550,6 @@ aPO
 -
 >
 mDocument
-&
-styleSet
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 aPO
