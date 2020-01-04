@@ -387,11 +387,6 @@ BINPATH
 classes
 .
 dex
-BINPATH
-/
-distribution
-/
-*
 [
 browser
 ]
