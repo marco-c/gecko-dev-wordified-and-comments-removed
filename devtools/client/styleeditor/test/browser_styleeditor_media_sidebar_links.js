@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 ResponsiveUIManager
@@ -91,6 +96,7 @@ ui
 )
 ;
 function
+*
 testLinkifiedConditions
 (
 editor
@@ -215,6 +221,7 @@ rule
 .
 "
 )
+;
 ok
 (
 conditions

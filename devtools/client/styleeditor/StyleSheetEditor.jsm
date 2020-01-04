@@ -185,6 +185,12 @@ jsm
 "
 )
 ;
+const
+{
+TextDecoder
+OS
+}
+=
 Cu
 .
 import
@@ -202,6 +208,8 @@ osfile
 .
 jsm
 "
+{
+}
 )
 ;
 Cu
@@ -3081,6 +3089,7 @@ this
 savedFile
 .
 path
+;
 Cu
 .
 reportError
@@ -3239,11 +3248,8 @@ saveToFile
 }
 ;
 bindings
-[
-"
+.
 Esc
-"
-]
 =
 false
 ;

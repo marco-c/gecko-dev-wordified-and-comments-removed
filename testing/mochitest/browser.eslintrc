@@ -142,11 +142,6 @@ ok
 :
 false
 "
-promise
-"
-:
-false
-"
 registerCleanupFunction
 "
 :

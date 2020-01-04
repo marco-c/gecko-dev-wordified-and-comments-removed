@@ -239,7 +239,7 @@ view
 function
 typeInEditor
 (
-aEditor
+editor
 panelWindow
 )
 {
@@ -279,7 +279,7 @@ panelWindow
 }
 ok
 (
-aEditor
+editor
 .
 unsaved
 "

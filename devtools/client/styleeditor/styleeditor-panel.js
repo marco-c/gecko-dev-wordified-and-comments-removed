@@ -1,9 +1,11 @@
+"
+use
+strict
+"
+;
 const
 {
-Cc
-Ci
 Cu
-Cr
 }
 =
 require
@@ -175,8 +177,7 @@ styleeditor
 StyleEditorFront
 )
 ;
-this
-.
+var
 StyleEditorPanel
 =
 function
@@ -248,6 +249,7 @@ this
 )
 ;
 }
+;
 exports
 .
 StyleEditorPanel
@@ -573,6 +575,7 @@ UI
 )
 {
 return
+null
 ;
 }
 return
@@ -693,6 +696,7 @@ null
 ;
 }
 }
+;
 XPCOMUtils
 .
 defineLazyGetter

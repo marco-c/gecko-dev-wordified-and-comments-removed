@@ -1,9 +1,11 @@
+"
+use
+strict
+"
+;
 const
 {
-Cc
-Ci
 Cu
-Cr
 }
 =
 require
@@ -178,8 +180,8 @@ branch
 .
 removeObserver
 (
-'
-'
+"
+"
 this
 )
 ;
