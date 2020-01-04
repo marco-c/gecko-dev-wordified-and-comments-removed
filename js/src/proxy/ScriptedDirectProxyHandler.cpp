@@ -21,17 +21,6 @@ jsobjinlines
 .
 h
 "
-#
-include
-"
-vm
-/
-NativeObject
--
-inl
-.
-h
-"
 using
 namespace
 js
