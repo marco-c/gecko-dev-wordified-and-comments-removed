@@ -1854,6 +1854,10 @@ WebChannelMessageToChrome
 {
 detail
 :
+JSON
+.
+stringify
+(
 {
 id
 :
@@ -1881,6 +1885,7 @@ _storeState
 roomToken
 }
 }
+)
 }
 )
 )
@@ -2399,6 +2404,10 @@ WebChannelMessageToChrome
 {
 detail
 :
+JSON
+.
+stringify
+(
 {
 id
 :
@@ -2426,6 +2435,7 @@ _storeState
 roomToken
 }
 }
+)
 }
 )
 )

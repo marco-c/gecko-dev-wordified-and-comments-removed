@@ -5623,6 +5623,10 @@ WebChannelMessageToChrome
 {
 detail
 :
+JSON
+.
+stringify
+(
 {
 id
 :
@@ -5648,6 +5652,7 @@ fakeToken
 "
 }
 }
+)
 }
 )
 )
