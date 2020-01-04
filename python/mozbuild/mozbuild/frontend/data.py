@@ -398,6 +398,31 @@ config
 context
 .
 config
+        
+self
+.
+_context
+=
+context
+    
+property
+    
+def
+install_target
+(
+self
+)
+:
+        
+return
+self
+.
+_context
+[
+'
+FINAL_TARGET
+'
+]
     
 property
     
@@ -868,10 +893,6 @@ basename
 '
         
 '
-install_target
-'
-        
-'
 source_path
 '
     
@@ -924,17 +945,6 @@ self
 add_to_manifest
 =
 add_to_manifest
-        
-self
-.
-install_target
-=
-context
-[
-'
-FINAL_TARGET
-'
-]
 class
 BaseDefines
 (
