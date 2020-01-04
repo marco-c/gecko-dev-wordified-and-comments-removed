@@ -1,10 +1,5 @@
 AV_FUNC
 (
-av_register_all
-0
-)
-AV_FUNC
-(
 avcodec_align_dimensions2
 0
 )
@@ -91,6 +86,11 @@ av_parser_parse2
 AV_FUNC
 (
 avcodec_version
+0
+)
+AV_FUNC
+(
+avcodec_register_all
 0
 )
 AV_FUNC
