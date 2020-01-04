@@ -3808,10 +3808,10 @@ uri
 ;
 rv
 =
-mInterceptedChannel
+channel
 -
 >
-GetSecureUpgradedChannelURI
+GetURI
 (
 getter_AddRefs
 (
