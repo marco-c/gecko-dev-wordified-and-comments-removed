@@ -1961,6 +1961,10 @@ bool
 &
 aSizeSpecified
 const
+nsString
+&
+aName
+const
 nsCString
 &
 aFeatures
@@ -2855,6 +2859,10 @@ const
 bool
 &
 aActive
+const
+bool
+&
+aHSTSPriming
 )
 override
 ;

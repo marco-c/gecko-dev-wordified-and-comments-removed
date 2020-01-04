@@ -3916,6 +3916,8 @@ URIParams
 uri
 bool
 active
+bool
+hasHSTSPriming
 )
 ;
 sync
@@ -5585,6 +5587,8 @@ bool
 aPositionSpecified
 bool
 aSizeSpecified
+nsString
+aName
 nsCString
 aFeatures
 nsCString
