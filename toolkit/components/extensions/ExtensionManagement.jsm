@@ -157,6 +157,7 @@ Extension
 RemoveTopWindowID
 "
 this
+true
 )
 ;
 }

@@ -80,6 +80,11 @@ ExtensionTestUtils
 :
 false
 "
+TestUtils
+"
+:
+false
+"
 clickBrowserAction
 "
 :
