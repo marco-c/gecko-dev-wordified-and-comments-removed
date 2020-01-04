@@ -1179,16 +1179,10 @@ private
 bool
 throwing
 ;
-JS
-:
-:
-PersistentRooted
-<
-JS
+js
 :
 :
 Value
->
 unwrappedException_
 ;
 JS
