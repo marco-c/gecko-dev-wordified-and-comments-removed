@@ -2459,7 +2459,7 @@ void
 RestyleManager
 :
 :
-RestyleForRemove
+ContentRemoved
 (
 Element
 *

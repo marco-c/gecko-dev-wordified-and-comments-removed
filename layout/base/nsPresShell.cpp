@@ -18617,7 +18617,7 @@ RestyleManager
 )
 -
 >
-RestyleForAppend
+ContentAppended
 (
 aContainer
 -
@@ -18760,7 +18760,7 @@ RestyleManager
 )
 -
 >
-RestyleForInsertOrChange
+ContentInserted
 (
 aContainer
 -
@@ -18952,7 +18952,7 @@ RestyleManager
 )
 -
 >
-RestyleForRemove
+ContentRemoved
 (
 aContainer
 -
