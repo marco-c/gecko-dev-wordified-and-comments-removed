@@ -3054,15 +3054,6 @@ OFFLINE_THREAD_DRIVER
 }
 ;
 static
-const
-uint32_t
-AUDIO_CALLBACK_DRIVER_SHUTDOWN_TIMEOUT
-=
-45
-*
-1000
-;
-static
 MediaStreamGraph
 *
 GetInstance
