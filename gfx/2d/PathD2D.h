@@ -196,6 +196,16 @@ return
 mSink
 ;
 }
+bool
+IsFigureActive
+(
+)
+const
+{
+return
+mFigureActive
+;
+}
 private
 :
 friend
