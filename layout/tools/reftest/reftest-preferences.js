@@ -803,3 +803,15 @@ pref
 true
 )
 ;
+user_pref
+(
+"
+places
+.
+history
+.
+enabled
+"
+false
+)
+;
