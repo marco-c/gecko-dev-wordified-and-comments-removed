@@ -1088,11 +1088,6 @@ id
 "
 downloadsListBox
 "
-class
-=
-"
-plain
-"
 context
 =
 "
@@ -1355,7 +1350,6 @@ downloadsHistory
 class
 =
 "
-plain
 downloadsPanelFooterButton
 "
 label
@@ -1417,7 +1411,6 @@ downloadsFooterDropmarker
 class
 =
 "
-plain
 downloadsPanelFooterButton
 downloadsDropmarker
 "
@@ -1643,7 +1636,6 @@ openButton
 class
 =
 "
-plain
 downloadsPanelFooterButton
 "
 command
@@ -1676,7 +1668,6 @@ deleteButton
 class
 =
 "
-plain
 downloadsPanelFooterButton
 "
 oncommand
