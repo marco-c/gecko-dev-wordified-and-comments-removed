@@ -31,13 +31,7 @@ animations
 yield
 initAnimationsFrontForUrl
 (
-MAIN_DOMAIN
-+
-"
-animation
-.
-html
-"
+URL
 )
 ;
 info
@@ -140,7 +134,7 @@ is
 (
 propertyObject
 .
-property
+name
 "
 transform
 "
