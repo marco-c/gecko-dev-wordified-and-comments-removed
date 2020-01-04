@@ -20879,7 +20879,7 @@ mg
 (
 )
 .
-minHeapLength
+minMemoryLength
 )
 ;
 {

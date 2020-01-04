@@ -2875,7 +2875,7 @@ nextInsOffset
 }
 void
 *
-patchHeapPtrImmAt
+patchMemoryPtrImmAt
 (
 uint8_t
 *

@@ -1490,7 +1490,7 @@ if
 metadata_
 -
 >
-usesHeap
+usesMemory
 (
 )
 &
@@ -1521,7 +1521,7 @@ cx
 metadata_
 -
 >
-initialHeapLength
+minMemoryLength
 metadata_
 -
 >

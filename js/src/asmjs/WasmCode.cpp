@@ -541,7 +541,7 @@ i
 }
 static
 void
-SpecializeToHeap
+SpecializeToMemory
 (
 CodeSegment
 &
@@ -552,9 +552,9 @@ Metadata
 metadata
 uint8_t
 *
-heapBase
+base
 uint32_t
-heapLength
+length
 )
 {
 for
@@ -583,7 +583,7 @@ code
 (
 )
 )
-heapLength
+length
 )
 ;
 #
@@ -610,7 +610,7 @@ addr
 =
 access
 .
-patchHeapPtrImmAt
+patchMemoryPtrImmAt
 (
 cs
 .
@@ -655,7 +655,7 @@ void
 *
 )
 (
-heapBase
+base
 +
 disp
 )
@@ -1052,9 +1052,9 @@ Metadata
 metadata
 uint8_t
 *
-heapBase
+memoryBase
 uint32_t
-heapLength
+memoryLength
 )
 {
 MOZ_ASSERT
@@ -1318,13 +1318,13 @@ linkData
 cx
 )
 ;
-SpecializeToHeap
+SpecializeToMemory
 (
 *
 cs
 metadata
-heapBase
-heapLength
+memoryBase
+memoryLength
 )
 ;
 }

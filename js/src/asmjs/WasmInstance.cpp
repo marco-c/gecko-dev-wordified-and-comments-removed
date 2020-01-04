@@ -162,7 +162,7 @@ uint8_t
 Instance
 :
 :
-addressOfHeapPtr
+addressOfMemoryBase
 (
 )
 const
@@ -2336,7 +2336,7 @@ cx
 HandleWasmInstanceObject
 instanceObj
 HandleArrayBufferObjectMaybeShared
-heap
+memoryObj
 const
 ExportMap
 &
@@ -2440,14 +2440,14 @@ MemoryExport
 {
 MOZ_ASSERT
 (
-heap
+memoryObj
 )
 ;
 exportObj
 .
 set
 (
-heap
+memoryObj
 )
 ;
 }
@@ -2675,7 +2675,7 @@ val
 ObjectValue
 (
 *
-heap
+memoryObj
 )
 ;
 else
@@ -2955,7 +2955,7 @@ heap
 *
 instance
 .
-addressOfHeapPtr
+addressOfMemoryBase
 (
 )
 =
@@ -3200,7 +3200,7 @@ uint8_t
 Instance
 :
 :
-heap
+memoryBase
 (
 )
 const
@@ -3210,7 +3210,7 @@ MOZ_ASSERT
 metadata_
 -
 >
-usesHeap
+usesMemory
 (
 )
 )
@@ -3218,7 +3218,7 @@ usesHeap
 MOZ_ASSERT
 (
 *
-addressOfHeapPtr
+addressOfMemoryBase
 (
 )
 =
@@ -3244,7 +3244,7 @@ size_t
 Instance
 :
 :
-heapLength
+memoryLength
 (
 )
 const
