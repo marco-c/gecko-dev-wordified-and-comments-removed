@@ -1541,7 +1541,7 @@ nsEventStatus_eConsumeNoDefault
 break
 ;
 case
-NS_MOUSE_OUT
+eMouseOut
 :
 {
 aVisitor

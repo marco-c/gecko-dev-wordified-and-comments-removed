@@ -186,7 +186,7 @@ eMouseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSE_OUT
+eMouseOut
 eMouseEventFirst
 +
 32

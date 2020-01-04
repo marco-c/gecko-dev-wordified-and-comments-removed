@@ -15875,7 +15875,7 @@ eMouseOver
 aMessage
 =
 =
-NS_MOUSE_OUT
+eMouseOut
 )
 )
 {
@@ -16072,7 +16072,7 @@ if
 aMessage
 =
 =
-NS_MOUSE_OUT
+eMouseOut
 )
 {
 nsAutoPtr
@@ -16691,7 +16691,7 @@ isPointer
 ?
 NS_POINTER_OUT
 :
-NS_MOUSE_OUT
+eMouseOut
 wrapper
 -
 >

@@ -8284,7 +8284,7 @@ return
 NPCocoaEventMouseEntered
 ;
 case
-NS_MOUSE_OUT
+eMouseOut
 :
 return
 NPCocoaEventMouseExited
@@ -8445,7 +8445,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_OUT
+eMouseOut
 )
 {
 nsPoint
@@ -9941,7 +9941,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_OUT
+eMouseOut
 |
 |
 anEvent
@@ -10411,7 +10411,7 @@ case
 eMouseOver
 :
 case
-NS_MOUSE_OUT
+eMouseOut
 :
 {
 XCrossingEvent

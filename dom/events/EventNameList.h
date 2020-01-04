@@ -555,7 +555,7 @@ eMouseEventClass
 EVENT
 (
 mouseout
-NS_MOUSE_OUT
+eMouseOut
 EventNameType_All
 eMouseEventClass
 )

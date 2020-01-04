@@ -3156,7 +3156,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_OUT
+eMouseOut
 |
 |
 aVisitor
