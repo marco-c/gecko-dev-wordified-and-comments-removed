@@ -394,7 +394,7 @@ com
 )
 )
 ;
-var
+let
 uri
 =
 Services
@@ -1068,7 +1068,7 @@ IS_PRIVATE
 )
 )
 ;
-var
+let
 uri
 =
 Services

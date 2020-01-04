@@ -285,7 +285,7 @@ do_test_pending
 (
 )
 ;
-var
+let
 SSService
 =
 Cc

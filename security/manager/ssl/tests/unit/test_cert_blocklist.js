@@ -1357,7 +1357,7 @@ false
 ;
 do
 {
-var
+let
 line
 =
 {
@@ -1373,9 +1373,8 @@ line
 )
 ;
 contents
-=
-contents
 +
+=
 (
 contents
 .
