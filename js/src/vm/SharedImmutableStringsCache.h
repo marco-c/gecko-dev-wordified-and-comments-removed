@@ -1354,14 +1354,6 @@ StringBox
 *
 box_
 ;
-#
-ifdef
-DEBUG
-HashNumber
-hash_
-;
-#
-endif
 SharedImmutableString
 (
 SharedImmutableStringsCache
