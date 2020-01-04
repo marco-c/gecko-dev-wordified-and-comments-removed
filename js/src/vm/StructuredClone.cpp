@@ -7067,6 +7067,9 @@ false
 }
 else
 {
+if
+(
+!
 out
 .
 writePair
@@ -7074,6 +7077,9 @@ writePair
 SCTAG_END_OF_KEYS
 0
 )
+)
+return
+false
 ;
 objs
 .
