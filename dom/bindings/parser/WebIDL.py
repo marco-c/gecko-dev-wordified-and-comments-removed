@@ -22100,6 +22100,10 @@ False
 newObject
 =
 False
+                  
+isIteratorAlias
+=
+False
 )
 :
         
@@ -22477,6 +22481,33 @@ location
 (
 "
 NewObject
+"
+)
+)
+]
+)
+        
+if
+isIteratorAlias
+:
+            
+method
+.
+addExtendedAttributes
+(
+                
+[
+IDLExtendedAttribute
+(
+self
+.
+location
+(
+"
+Alias
+"
+"
+iterator
 "
 )
 )
@@ -22898,6 +22929,10 @@ True
 newObject
 =
 True
+                       
+isIteratorAlias
+=
+True
 )
         
 self
@@ -23210,6 +23245,13 @@ object
 affectsNothing
 =
 True
+isIteratorAlias
+=
+self
+.
+isMaplike
+(
+)
 )
         
 self
@@ -23256,6 +23298,13 @@ object
 affectsNothing
 =
 True
+isIteratorAlias
+=
+self
+.
+isSetlike
+(
+)
 )
         
 foreachArguments
