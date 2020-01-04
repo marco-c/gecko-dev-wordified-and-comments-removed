@@ -1443,7 +1443,7 @@ DOMMediaStream
 >
 mPrincipalChangeObservers
 ;
-nsAutoPtr
+RefPtr
 <
 PeerIdentity
 >

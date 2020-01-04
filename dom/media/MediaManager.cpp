@@ -3889,10 +3889,6 @@ domStream
 SetPeerIdentity
 (
 mPeerIdentity
-.
-forget
-(
-)
 )
 ;
 }
@@ -4277,7 +4273,7 @@ mListener
 nsCString
 mOrigin
 ;
-nsAutoPtr
+RefPtr
 <
 PeerIdentity
 >

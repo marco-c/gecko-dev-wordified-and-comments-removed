@@ -3343,7 +3343,7 @@ defined
 (
 MOZILLA_EXTERNAL_LINKAGE
 )
-nsAutoPtr
+RefPtr
 <
 PeerIdentity
 >
