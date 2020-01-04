@@ -181,6 +181,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+AutoMigrate
+.
+jsm
+'
+'
 MigrationUtils
 .
 jsm
