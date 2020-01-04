@@ -159,12 +159,6 @@ WeakMap
 (
 )
 ;
-global
-.
-browserActionOf
-=
-browserActionOf
-;
 function
 BrowserAction
 (

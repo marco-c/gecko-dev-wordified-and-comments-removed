@@ -33,6 +33,11 @@ AllWindowEvents
 :
 true
 "
+browserActionFor
+"
+:
+true
+"
 currentWindow
 "
 :
