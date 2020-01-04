@@ -14,7 +14,10 @@ Logging
 h
 "
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetCameraLog
 (

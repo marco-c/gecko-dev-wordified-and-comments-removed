@@ -28,11 +28,6 @@ Logging
 .
 h
 "
-extern
-PRLogModuleInfo
-*
-gXULTemplateLog
-;
 #
 include
 "
@@ -85,6 +80,10 @@ h
 using
 namespace
 mozilla
+;
+extern
+LazyLogModule
+gXULTemplateLog
 ;
 nsresult
 MemoryElementSet

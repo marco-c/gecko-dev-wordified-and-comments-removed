@@ -245,8 +245,7 @@ nsXULContentUtils
 gCollation
 ;
 extern
-PRLogModuleInfo
-*
+LazyLogModule
 gXULTemplateLog
 ;
 #

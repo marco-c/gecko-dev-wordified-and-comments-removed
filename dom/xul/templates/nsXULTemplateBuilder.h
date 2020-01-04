@@ -133,8 +133,10 @@ Logging
 h
 "
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gXULTemplateLog
 ;
 class

@@ -13,7 +13,10 @@ Logging
 .
 h
 "
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetLog
 (

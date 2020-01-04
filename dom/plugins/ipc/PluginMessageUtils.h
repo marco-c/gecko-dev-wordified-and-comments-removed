@@ -248,7 +248,10 @@ munged
 )
 ;
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetPluginLog
 (

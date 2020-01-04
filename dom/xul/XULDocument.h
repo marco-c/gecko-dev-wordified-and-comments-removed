@@ -204,9 +204,6 @@ nsInterfaceHashtable
 .
 h
 "
-struct
-PRLogModuleInfo
-;
 class
 nsRefMapEntry
 :
@@ -1180,8 +1177,7 @@ nsIRDFResource
 kNC_value
 ;
 static
-PRLogModuleInfo
-*
+LazyLogModule
 gXULLog
 ;
 nsresult
