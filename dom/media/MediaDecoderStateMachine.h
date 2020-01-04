@@ -2087,9 +2087,6 @@ mOnSeekingStart
 bool
 mAudioOffloading
 ;
-uint32_t
-mSilentDataDuration
-;
 #
 ifdef
 MOZ_EME
