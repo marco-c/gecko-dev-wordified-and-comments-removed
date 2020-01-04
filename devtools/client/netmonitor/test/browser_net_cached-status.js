@@ -275,9 +275,11 @@ OK
 cached
 )
 "
-fromCache
+displayedStatus
 :
-true
+"
+cached
+"
 type
 :
 "
@@ -331,9 +333,11 @@ Permanently
 cached
 )
 "
-fromCache
+displayedStatus
 :
-true
+"
+cached
+"
 type
 :
 "

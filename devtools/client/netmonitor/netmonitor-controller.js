@@ -2817,6 +2817,7 @@ url
 }
 isXHR
 fromCache
+fromServiceWorker
 }
 =
 networkInfo
@@ -2833,6 +2834,7 @@ method
 url
 isXHR
 fromCache
+fromServiceWorker
 )
 ;
 window
