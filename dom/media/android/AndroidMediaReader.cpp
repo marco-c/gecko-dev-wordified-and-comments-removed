@@ -81,6 +81,13 @@ gfx2DGlue
 .
 h
 "
+#
+include
+"
+VideoFrameContainer
+.
+h
+"
 namespace
 mozilla
 {

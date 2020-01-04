@@ -100,6 +100,13 @@ h
 #
 include
 "
+VideoFrameContainer
+.
+h
+"
+#
+include
+"
 nsIScriptSecurityManager
 .
 h

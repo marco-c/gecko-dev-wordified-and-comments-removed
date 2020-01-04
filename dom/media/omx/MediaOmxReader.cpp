@@ -85,6 +85,13 @@ MediaStreamSource
 h
 "
 #
+include
+"
+VideoFrameContainer
+.
+h
+"
+#
 define
 MAX_DROPPED_FRAMES
 25
