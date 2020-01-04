@@ -2688,7 +2688,12 @@ mWorkerPrivate
 )
 ;
 return
-NS_OK
+MainThreadWorkerControlRunnable
+:
+:
+Cancel
+(
+)
 ;
 }
 virtual
