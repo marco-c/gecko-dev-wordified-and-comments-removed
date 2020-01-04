@@ -639,7 +639,7 @@ ePointerEventClass
 EVENT
 (
 pointerout
-NS_POINTER_OUT
+ePointerOut
 EventNameType_All
 ePointerEventClass
 )

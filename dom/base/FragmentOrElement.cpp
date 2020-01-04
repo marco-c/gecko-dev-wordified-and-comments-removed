@@ -3178,7 +3178,7 @@ mEvent
 mMessage
 =
 =
-NS_POINTER_OUT
+ePointerOut
 )
 &
 &

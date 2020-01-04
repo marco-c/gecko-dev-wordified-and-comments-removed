@@ -252,7 +252,7 @@ ePointerEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_POINTER_OUT
+ePointerOut
 ePointerEventFirst
 +
 23
