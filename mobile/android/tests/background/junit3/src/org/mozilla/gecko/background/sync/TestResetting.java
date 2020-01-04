@@ -994,7 +994,6 @@ getApplicationContext
 (
 )
 null
-callback
 )
 {
 Override

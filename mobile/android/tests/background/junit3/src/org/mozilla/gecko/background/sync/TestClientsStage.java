@@ -384,7 +384,6 @@ config
 callback
 context
 delegate
-callback
 )
 ;
 SyncClientsEngineStage

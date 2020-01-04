@@ -497,7 +497,6 @@ callback
 new
 MockGlobalSessionCallback
 (
-TEST_CLUSTER_URL
 )
 ;
 session

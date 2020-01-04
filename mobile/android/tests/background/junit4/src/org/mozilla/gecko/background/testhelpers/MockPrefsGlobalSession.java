@@ -185,7 +185,6 @@ config
 callback
 context
 clientsDelegate
-callback
 )
 ;
 }

@@ -66,11 +66,9 @@ Stage
 {
 idle
 checkPreconditions
-ensureClusterURL
 fetchInfoCollections
 fetchMetaGlobal
 ensureKeysStage
-attemptMigrationStage
 syncClientsEngine
 (
 SyncClientsEngineStage
