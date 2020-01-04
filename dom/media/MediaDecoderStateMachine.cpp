@@ -10124,13 +10124,6 @@ BeginShutdown
 (
 )
 {
-mStreamSink
--
->
-BeginShutdown
-(
-)
-;
 return
 InvokeAsync
 (

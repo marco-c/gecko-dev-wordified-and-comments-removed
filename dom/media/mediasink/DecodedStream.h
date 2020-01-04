@@ -464,11 +464,6 @@ const
 override
 ;
 void
-BeginShutdown
-(
-)
-;
-void
 AddOutput
 (
 ProcessedMediaStream
@@ -614,9 +609,6 @@ mOwnerThread
 ;
 OutputStreamManager
 mOutputStreamManager
-;
-bool
-mShuttingDown
 ;
 UniquePtr
 <
