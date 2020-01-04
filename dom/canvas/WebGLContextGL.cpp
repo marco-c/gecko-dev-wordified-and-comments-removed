@@ -3031,10 +3031,6 @@ target
 )
 ;
 }
-MakeContextCurrent
-(
-)
-;
 if
 (
 fb
