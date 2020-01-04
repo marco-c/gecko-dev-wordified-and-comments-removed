@@ -3720,7 +3720,7 @@ low
 byte
 of
 tag
-PR_STATIC_ASSERT
+static_assert
 (
 int
 (
@@ -3732,6 +3732,12 @@ NUM_SCRIPT_CODES
 <
 =
 FEATURE_SCRIPT_MASK
+"
+Too
+many
+script
+codes
+"
 )
 ;
 #
