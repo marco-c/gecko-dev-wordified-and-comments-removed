@@ -1243,6 +1243,13 @@ completer
 new
 CSSCompleter
 (
+{
+cssProperties
+:
+getClientCssPropertiesForTests
+(
+)
+}
 )
 ;
 let

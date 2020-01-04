@@ -1858,6 +1858,7 @@ load
 function
 (
 inputElement
+cssProperties
 )
 {
 if
@@ -1966,7 +1967,9 @@ walker
 this
 .
 walker
+cssProperties
 }
+cssProperties
 }
 ;
 let

@@ -220,6 +220,11 @@ autocompleteOpts
 walker
 :
 walker
+cssProperties
+:
+getClientCssPropertiesForTests
+(
+)
 }
 }
 )
