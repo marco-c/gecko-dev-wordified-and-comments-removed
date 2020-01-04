@@ -637,7 +637,7 @@ eLegacyCharacterDataModified
 )
 NS_EVENT_MESSAGE
 (
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 2000
 )
 NS_EVENT_MESSAGE

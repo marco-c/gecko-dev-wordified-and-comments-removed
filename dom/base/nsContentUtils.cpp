@@ -16582,7 +16582,7 @@ mMessage
 }
 }
 return
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 ;
 }
 mozilla
@@ -16675,7 +16675,7 @@ mapping
 .
 mMessage
 :
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 ;
 return
 mapping
@@ -16747,7 +16747,7 @@ RemoveObjectAt
 *
 aEventMessage
 =
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 ;
 nsCOMPtr
 <
@@ -16785,7 +16785,7 @@ mapping
 .
 mMessage
 =
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 ;
 mapping
 .

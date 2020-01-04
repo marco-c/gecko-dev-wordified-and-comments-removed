@@ -21397,7 +21397,7 @@ mMessage
 )
 {
 case
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 :
 return
 false

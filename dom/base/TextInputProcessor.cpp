@@ -943,7 +943,7 @@ aKeyboardEvent
 mMessage
 =
 =
-NS_USER_DEFINED_EVENT
+eUnidentifiedEvent
 &
 &
 aKeyboardEvent
