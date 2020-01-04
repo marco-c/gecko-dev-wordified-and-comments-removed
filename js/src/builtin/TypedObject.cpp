@@ -7350,6 +7350,12 @@ InlineTypedObject
 MaximumSize
 )
 {
+AutoSetNewObjectMetadata
+metadata
+(
+cx
+)
+;
 InlineTypedObject
 *
 obj
@@ -10378,6 +10384,12 @@ InitialHeap
 heap
 )
 {
+AutoSetNewObjectMetadata
+metadata
+(
+cx
+)
+;
 Rooted
 <
 TypeDescr
@@ -10933,6 +10945,7 @@ DEFINE_TYPEDOBJ_CLASS
 (
 Name
 Trace
+flag
 )
 \
 const
@@ -10951,6 +10964,8 @@ Class
 :
 :
 NON_NATIVE
+|
+flag
 \
 nullptr
 /
@@ -11111,6 +11126,7 @@ OutlineTypedObject
 :
 :
 obj_trace
+0
 )
 ;
 DEFINE_TYPEDOBJ_CLASS
@@ -11120,6 +11136,7 @@ OutlineTypedObject
 :
 :
 obj_trace
+0
 )
 ;
 DEFINE_TYPEDOBJ_CLASS
@@ -11129,6 +11146,7 @@ InlineTypedObject
 :
 :
 obj_trace
+JSCLASS_DELAY_METADATA_CALLBACK
 )
 ;
 DEFINE_TYPEDOBJ_CLASS
@@ -11138,6 +11156,7 @@ InlineTypedObject
 :
 :
 obj_trace
+JSCLASS_DELAY_METADATA_CALLBACK
 )
 ;
 static
