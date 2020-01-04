@@ -694,7 +694,7 @@ here
 "
 )
 ;
-FlattenedChildIterator
+StyleChildrenIterator
 it
 (
 aContent
@@ -756,7 +756,7 @@ nsIContent
 aContent
 )
 {
-FlattenedChildIterator
+StyleChildrenIterator
 it
 (
 aContent
