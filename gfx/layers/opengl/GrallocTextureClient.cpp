@@ -1724,14 +1724,14 @@ ANDROID_VERSION
 15
 if
 (
-aSizeHint
+aSize
 .
 width
 <
 64
 |
 |
-aSizeHint
+aSize
 .
 height
 <
