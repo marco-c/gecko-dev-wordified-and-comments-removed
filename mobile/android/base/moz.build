@@ -2824,13 +2824,6 @@ java
 '
 preferences
 /
-AndroidDistributionPreferencesImport
-.
-java
-'
-'
-preferences
-/
 AndroidImport
 .
 java
