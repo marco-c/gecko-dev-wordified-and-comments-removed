@@ -9,7 +9,7 @@ release
 .
 3
 .
-5
+6
 from
 https
 :
@@ -31,9 +31,9 @@ download
 .
 3
 .
-5
+6
 /
-graphite2
+graphite
 -
 minimal
 -
@@ -41,10 +41,12 @@ minimal
 .
 3
 .
-5
+6
 .
 tgz
 See
+.
+/
 gfx
 /
 graphite2

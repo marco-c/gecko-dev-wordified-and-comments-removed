@@ -140,7 +140,7 @@ download
 /
 RELEASE
 /
-graphite2
+graphite
 -
 minimal
 -

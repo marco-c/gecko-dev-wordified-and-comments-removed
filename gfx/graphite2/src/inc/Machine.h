@@ -312,6 +312,7 @@ stack_underflow
 stack_not_empty
 stack_overflow
 slot_offset_out_bounds
+died_early
 }
 ;
 Machine

@@ -145,6 +145,12 @@ slotref
 __map
 uint8
 _dir
+Machine
+:
+:
+status_t
+&
+status
 SlotMap
 *
 __smap
@@ -298,6 +304,17 @@ slotref
 *
 dummy
 ;
+Machine
+:
+:
+status_t
+dumstat
+=
+Machine
+:
+:
+finished
+;
 return
 static_cast
 <
@@ -314,6 +331,7 @@ true
 0
 dummy
 0
+dumstat
 )
 )
 ;
@@ -373,6 +391,7 @@ _map
 dir
 (
 )
+_status
 &
 _map
 )
