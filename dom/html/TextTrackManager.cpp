@@ -2575,6 +2575,10 @@ false
 ;
 if
 (
+!
+mTextTracks
+|
+|
 mTextTracks
 -
 >
