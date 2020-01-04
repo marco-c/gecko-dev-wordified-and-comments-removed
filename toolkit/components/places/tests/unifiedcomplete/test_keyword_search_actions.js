@@ -414,6 +414,12 @@ abc
 search
 =
 "
++
+encodeURIComponent
+(
+"
+"
+)
 input
 :
 "

@@ -289,8 +289,10 @@ input
 :
 "
 open
-a
-search
+%
+20a
+%
+20search
 "
 "
 searchQuery
@@ -298,8 +300,10 @@ searchQuery
 :
 "
 open
-a
-search
+%
+20a
+%
+20search
 "
 }
 "
