@@ -55,8 +55,7 @@ namespace
 mozilla
 {
 extern
-PRLogModuleInfo
-*
+LazyLogModule
 gStateWatchingLog
 ;
 #
@@ -68,12 +67,6 @@ x
 .
 .
 )
-\
-MOZ_ASSERT
-(
-gStateWatchingLog
-)
-;
 \
 MOZ_LOG
 (
