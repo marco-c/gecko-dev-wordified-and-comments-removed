@@ -101,6 +101,10 @@ utils
 '
         
 '
+gconf
+'
+        
+'
 gtk2
 '
         

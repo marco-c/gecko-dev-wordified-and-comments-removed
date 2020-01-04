@@ -87,6 +87,10 @@ yasm
 '
             
 '
+gconf2
+'
+            
+'
 gtk
 +
 2
