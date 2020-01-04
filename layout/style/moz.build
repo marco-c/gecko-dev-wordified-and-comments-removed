@@ -588,6 +588,11 @@ StyleBackendType
 h
 '
 '
+StyleComplexColor
+.
+h
+'
+'
 StyleContextSource
 .
 h
