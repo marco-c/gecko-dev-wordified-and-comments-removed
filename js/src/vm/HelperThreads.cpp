@@ -5869,6 +5869,9 @@ parseTask
 callbackData
 )
 ;
+if
+(
+!
 HelperThreadState
 (
 )
@@ -5880,6 +5883,13 @@ parseFinishedList
 append
 (
 parseTask
+)
+)
+CrashAtUnhandlableOOM
+(
+"
+handleParseWorkload
+"
 )
 ;
 parseTask
