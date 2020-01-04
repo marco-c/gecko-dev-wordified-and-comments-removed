@@ -51,14 +51,15 @@ left
 ;
 right
 :
+1
 .
-7rem
+2rem
 ;
 height
 :
 2
 .
-6rem
+4rem
 ;
 position
 :
@@ -68,7 +69,7 @@ bottom
 :
 1
 .
-5rem
+2rem
 ;
 }
 html
@@ -187,7 +188,7 @@ background
 -
 size
 :
-28px
+24px
 ;
 background
 -
@@ -205,11 +206,11 @@ transparent
 ;
 height
 :
-28px
+24px
 ;
 width
 :
-33px
+24px
 ;
 }
 .
@@ -4678,7 +4679,7 @@ calc
 -
 50px
 -
-3em
+10px
 )
 ;
 margin
@@ -5262,7 +5263,7 @@ calc
 -
 50px
 -
-25px
+10px
 )
 ;
 }
@@ -7567,7 +7568,7 @@ calc
 -
 50px
 -
-25px
+10px
 )
 ;
 }
