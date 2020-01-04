@@ -116,6 +116,10 @@ mVertOrient
 :
 2
 ;
+unsigned
+char
+mLineBreak
+;
 }
 ;
 #
