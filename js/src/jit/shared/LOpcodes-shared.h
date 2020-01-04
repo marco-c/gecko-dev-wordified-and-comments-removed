@@ -313,11 +313,6 @@ NewTypedArray
 \
 _
 (
-NewTypedArrayDynamicLength
-)
-\
-_
-(
 ArraySplice
 )
 \
