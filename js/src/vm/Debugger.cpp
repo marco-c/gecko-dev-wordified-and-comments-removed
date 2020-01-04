@@ -45423,7 +45423,7 @@ if
 DebuggerObject
 :
 :
-isPromise
+getIsPromise
 (
 cx
 object
@@ -49709,11 +49709,14 @@ referent
 )
 ;
 }
+#
+ifdef
+SPIDERMONKEY_PROMISE
 bool
 DebuggerObject
 :
 :
-isPromise
+getIsPromise
 (
 JSContext
 *
@@ -49790,6 +49793,8 @@ return
 true
 ;
 }
+#
+endif
 bool
 DebuggerObject
 :
