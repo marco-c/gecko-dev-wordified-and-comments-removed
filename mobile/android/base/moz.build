@@ -4061,13 +4061,6 @@ java
 '
 toolbar
 /
-BrowserToolbarPreHC
-.
-java
-'
-'
-toolbar
-/
 BrowserToolbarTablet
 .
 java
@@ -4361,13 +4354,6 @@ java
 widget
 /
 GeckoPopupMenu
-.
-java
-'
-'
-widget
-/
-GeckoViewFlipper
 .
 java
 '

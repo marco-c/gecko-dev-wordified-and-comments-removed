@@ -1194,13 +1194,6 @@ DeviceHelper
 isTablet
 (
 )
-|
-|
-AppConstants
-.
-Versions
-.
-preHC
 )
 {
 mSolo
