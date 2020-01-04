@@ -2291,7 +2291,6 @@ mContentClient
 new
 SingleTiledContentClient
 (
-*
 this
 ClientManager
 (
@@ -2310,7 +2309,6 @@ mContentClient
 new
 MultiTiledContentClient
 (
-*
 this
 ClientManager
 (
