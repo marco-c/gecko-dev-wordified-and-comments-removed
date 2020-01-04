@@ -835,7 +835,7 @@ bool
 mIsInCertifiedApp
 ;
 bool
-mIndexedDBAllowed
+mStorageAllowed
 ;
 bool
 mPrivateBrowsing
