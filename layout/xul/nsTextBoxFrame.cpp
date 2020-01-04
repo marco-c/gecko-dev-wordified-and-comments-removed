@@ -4918,7 +4918,7 @@ nsSize
 nsTextBoxFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

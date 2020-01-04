@@ -2936,7 +2936,7 @@ prefSize
 childBox
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 state
 )

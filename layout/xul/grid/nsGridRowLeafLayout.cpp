@@ -111,7 +111,7 @@ nsSize
 nsGridRowLeafLayout
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsIFrame
 *
@@ -155,7 +155,7 @@ return
 nsGridRowLayout
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 aBox
 aState

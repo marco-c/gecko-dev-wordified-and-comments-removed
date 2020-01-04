@@ -532,7 +532,7 @@ LogicalSize
 prefSize
 (
 wm
-GetPrefSize
+GetXULPrefSize
 (
 state
 )
@@ -1028,7 +1028,7 @@ NS_INTRINSICSIZE
 {
 prefSize
 =
-GetPrefSize
+GetXULPrefSize
 (
 state
 )
@@ -1447,7 +1447,7 @@ nsSize
 nsLeafBoxFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &
@@ -1458,7 +1458,7 @@ return
 nsBox
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )

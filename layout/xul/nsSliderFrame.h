@@ -197,7 +197,7 @@ aResult
 endif
 virtual
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

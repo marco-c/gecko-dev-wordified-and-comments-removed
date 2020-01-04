@@ -2447,7 +2447,7 @@ aRenderingContext
 nsSize
 prefSize
 =
-GetPrefSize
+GetXULPrefSize
 (
 state
 )
@@ -2788,7 +2788,7 @@ NS_INTRINSICSIZE
 nsSize
 physicalPrefSize
 =
-GetPrefSize
+GetXULPrefSize
 (
 state
 )
@@ -3134,7 +3134,7 @@ nsSize
 nsBoxFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &
@@ -3231,7 +3231,7 @@ layoutSize
 mLayoutManager
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 this
 aBoxLayoutState
@@ -3271,7 +3271,7 @@ size
 nsBox
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 aBoxLayoutState
 )
@@ -7828,7 +7828,7 @@ prefSize
 child
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 state
 )

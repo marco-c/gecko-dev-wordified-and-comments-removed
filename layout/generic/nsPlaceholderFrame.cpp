@@ -155,7 +155,7 @@ nsSize
 nsPlaceholderFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

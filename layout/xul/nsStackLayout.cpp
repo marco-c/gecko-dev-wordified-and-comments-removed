@@ -179,7 +179,7 @@ nsSize
 nsStackLayout
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsIFrame
 *
@@ -232,7 +232,7 @@ pref
 child
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -1446,7 +1446,7 @@ width
 child
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -1484,7 +1484,7 @@ width
 child
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -1602,7 +1602,7 @@ height
 child
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -1640,7 +1640,7 @@ height
 child
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )

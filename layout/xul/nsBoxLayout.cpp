@@ -103,7 +103,7 @@ nsSize
 nsBoxLayout
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsIFrame
 *

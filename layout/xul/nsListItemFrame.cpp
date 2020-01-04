@@ -88,7 +88,7 @@ nsSize
 nsListItemFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &
@@ -101,7 +101,7 @@ size
 nsBoxFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )

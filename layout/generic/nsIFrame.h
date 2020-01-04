@@ -6385,7 +6385,7 @@ aBoxLayoutState
 ;
 virtual
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

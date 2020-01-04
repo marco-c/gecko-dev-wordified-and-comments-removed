@@ -535,7 +535,7 @@ nsSize
 nsGridLayout2
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsIFrame
 *
@@ -551,7 +551,7 @@ pref
 nsStackLayout
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 aBox
 aState

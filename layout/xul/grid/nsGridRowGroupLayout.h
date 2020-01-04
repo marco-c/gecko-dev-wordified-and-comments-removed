@@ -64,7 +64,7 @@ override
 ;
 virtual
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsIFrame
 *

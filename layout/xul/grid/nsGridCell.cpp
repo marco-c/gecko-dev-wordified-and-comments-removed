@@ -66,7 +66,7 @@ nsSize
 nsGridCell
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &
@@ -91,7 +91,7 @@ pref
 mBoxInColumn
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
@@ -135,7 +135,7 @@ pref
 mBoxInRow
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )

@@ -994,7 +994,7 @@ prefSize
 mLayoutManager
 -
 >
-GetPrefSize
+GetXULPrefSize
 (
 this
 aBoxLayoutState
@@ -1104,7 +1104,7 @@ sizemode
 {
 result
 =
-GetPrefSize
+GetXULPrefSize
 (
 aBoxLayoutState
 )
@@ -1180,7 +1180,7 @@ nsSize
 nsListBoxBodyFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &
@@ -1193,7 +1193,7 @@ pref
 nsBoxFrame
 :
 :
-GetPrefSize
+GetXULPrefSize
 (
 aBoxLayoutState
 )

@@ -38,7 +38,7 @@ nsGridCell
 )
 ;
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

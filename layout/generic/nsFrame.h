@@ -1444,7 +1444,7 @@ aPoint
 ;
 virtual
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsBoxLayoutState
 &

@@ -100,7 +100,7 @@ aState
 ;
 virtual
 nsSize
-GetPrefSize
+GetXULPrefSize
 (
 nsIFrame
 *

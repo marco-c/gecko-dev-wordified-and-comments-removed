@@ -2085,7 +2085,7 @@ return
 nsSize
 prefSize
 =
-GetPrefSize
+GetXULPrefSize
 (
 aState
 )
