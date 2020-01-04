@@ -246,10 +246,12 @@ trace
 .
 AppendElement
 (
-nsDependentCString
+)
+-
+>
+Assign
 (
 p
-)
 )
 ;
 }
