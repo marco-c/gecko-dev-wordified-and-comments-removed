@@ -2282,6 +2282,9 @@ aURI
 nsACString
 &
 aScriptURI
+nsresult
+*
+aRv
 )
 ;
 static
