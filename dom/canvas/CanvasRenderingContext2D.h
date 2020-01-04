@@ -2587,14 +2587,14 @@ aManager
 ;
 already_AddRefed
 <
-CanvasLayer
+Layer
 >
 GetCanvasLayer
 (
 nsDisplayListBuilder
 *
 aBuilder
-CanvasLayer
+Layer
 *
 aOldLayer
 LayerManager

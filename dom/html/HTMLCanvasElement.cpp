@@ -4512,7 +4512,7 @@ moz_opaque
 }
 already_AddRefed
 <
-CanvasLayer
+Layer
 >
 HTMLCanvasElement
 :
@@ -4522,7 +4522,7 @@ GetCanvasLayer
 nsDisplayListBuilder
 *
 aBuilder
-CanvasLayer
+Layer
 *
 aOldLayer
 LayerManager
@@ -4579,7 +4579,7 @@ sOffscreenCanvasLayerUserDataDummy
 {
 RefPtr
 <
-CanvasLayer
+Layer
 >
 ret
 =

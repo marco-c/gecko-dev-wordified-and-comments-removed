@@ -263,6 +263,17 @@ DrawTarget
 aTarget
 )
 ;
+already_AddRefed
+<
+layers
+:
+:
+Image
+>
+TransferAsImage
+(
+)
+;
 ImageBitmapCloneData
 *
 ToCloneData

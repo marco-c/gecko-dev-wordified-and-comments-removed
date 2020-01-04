@@ -240,6 +240,11 @@ ImageBitmap
 h
 '
 '
+ImageBitmapRenderingContext
+.
+h
+'
+'
 ImageBitmapSource
 .
 h
@@ -307,6 +312,11 @@ cpp
 '
 '
 ImageBitmap
+.
+cpp
+'
+'
+ImageBitmapRenderingContext
 .
 cpp
 '

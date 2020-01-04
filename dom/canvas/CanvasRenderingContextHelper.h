@@ -53,6 +53,7 @@ NoContext
 Canvas2D
 WebGL1
 WebGL2
+ImageBitmap
 }
 ;
 class
