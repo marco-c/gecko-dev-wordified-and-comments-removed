@@ -1511,11 +1511,6 @@ PR_SetEnv
 expr
 )
 ;
-MOZ_LSAN_INTENTIONALLY_LEAK_OBJECT
-(
-expr
-)
-;
 }
 static
 bool
@@ -21773,6 +21768,17 @@ XRE_EnableSameExecutableForContentProc
 (
 )
 {
+if
+(
+!
+PR_GetEnv
+(
+"
+MOZ_SEPARATE_CHILD_PROCESS
+"
+)
+)
+{
 mozilla
 :
 :
@@ -21786,4 +21792,5 @@ EnableSameExecutableForContentProc
 (
 )
 ;
+}
 }
