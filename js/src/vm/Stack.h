@@ -6970,6 +6970,13 @@ physicalIonFrame
 )
 const
 ;
+void
+*
+rawFramePtr
+(
+)
+const
+;
 private
 :
 Data
