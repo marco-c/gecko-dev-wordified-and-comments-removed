@@ -217,10 +217,9 @@ rv
 swm
 -
 >
-Unregister
+NotifyUnregister
 (
 principal
-nullptr
 aScope
 )
 ;
