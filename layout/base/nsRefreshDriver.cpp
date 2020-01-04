@@ -5030,8 +5030,10 @@ return
 true
 ;
 }
+nsRefPtr
+<
 nsPresContext
-*
+>
 context
 =
 shell
@@ -5107,6 +5109,16 @@ DispatchEvents
 (
 )
 ;
+if
+(
+context
+-
+>
+GetPresShell
+(
+)
+)
+{
 context
 -
 >
@@ -5119,6 +5131,7 @@ DispatchEvents
 (
 )
 ;
+}
 aDocument
 -
 >
