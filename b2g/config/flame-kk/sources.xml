@@ -366,7 +366,7 @@ mozillaorg
 revision
 =
 "
-ae6ec2b676d2170ac77daf86749e451547b07807
+628a4c4a0ca74fad7107883e1832527293e0575e
 "
 /
 >
@@ -2005,10 +2005,15 @@ external
 /
 mdnsresponder
 "
+remote
+=
+"
+caf
+"
 revision
 =
 "
-c46f53f5e072f23051c4eedef730386f7634dc11
+dd17df3f6775c4366a5c1d21865370d60a3b1295
 "
 /
 >
