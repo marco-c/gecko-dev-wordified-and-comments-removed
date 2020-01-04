@@ -427,7 +427,6 @@ nodeStream
 AllocateInputPort
 (
 mStream
-0
 )
 ;
 }

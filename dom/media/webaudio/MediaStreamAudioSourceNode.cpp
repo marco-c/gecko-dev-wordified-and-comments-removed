@@ -183,7 +183,6 @@ aMediaStream
 GetStream
 (
 )
-0
 )
 ;
 mInputStream

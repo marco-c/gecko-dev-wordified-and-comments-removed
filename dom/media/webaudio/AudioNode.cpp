@@ -1088,7 +1088,6 @@ destinationStream
 AllocateInputPort
 (
 mStream
-0
 static_cast
 <
 uint16_t
@@ -1315,7 +1314,6 @@ ps
 AllocateInputPort
 (
 mStream
-0
 0
 static_cast
 <
