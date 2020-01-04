@@ -4143,6 +4143,12 @@ fixupTablesAfterMovingGC
 (
 )
 ;
+dtoaCache
+.
+purge
+(
+)
+;
 #
 ifdef
 DEBUG
