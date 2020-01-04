@@ -1418,14 +1418,14 @@ mInputQueue
 ;
 CancelableBlockState
 *
-CurrentInputBlock
+GetCurrentInputBlock
 (
 )
 const
 ;
 TouchBlockState
 *
-CurrentTouchBlock
+GetCurrentTouchBlock
 (
 )
 const
@@ -1438,7 +1438,7 @@ const
 ;
 PanGestureBlockState
 *
-CurrentPanGestureBlock
+GetCurrentPanGestureBlock
 (
 )
 const
