@@ -2477,9 +2477,6 @@ DeprecatedLegacyGenerator
 DeprecatedExpressionClosure
 =
 3
-DeprecatedLetBlock
-=
-4
 DeprecatedNoSuchMethod
 =
 6
