@@ -275,7 +275,7 @@ invisibleToDebugger
 loaderOptions
 .
 invisibleToDebugger
-require
+requireHook
 :
 (
 id
