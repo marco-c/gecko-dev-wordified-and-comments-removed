@@ -4385,6 +4385,11 @@ typename
 .
 .
 ArgTypes
+typename
+.
+.
+.
+ActualArgTypes
 >
 static
 nsRefPtr
@@ -4420,7 +4425,9 @@ ArgTypes
 .
 .
 )
-ArgTypes
+ActualArgTypes
+&
+&
 .
 .
 .
@@ -4468,7 +4475,7 @@ aMethod
 aThisVal
 Forward
 <
-ArgTypes
+ActualArgTypes
 >
 (
 aArgs
