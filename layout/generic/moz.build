@@ -746,6 +746,11 @@ AsyncScrollBase
 cpp
 '
 '
+DetailsFrame
+.
+cpp
+'
+'
 FrameChildList
 .
 cpp

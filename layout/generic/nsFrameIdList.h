@@ -4,6 +4,10 @@ BRFrame
 )
 FRAME_ID
 (
+DetailsFrame
+)
+FRAME_ID
+(
 nsAutoRepeatBoxFrame
 )
 FRAME_ID
