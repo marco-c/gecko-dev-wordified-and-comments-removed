@@ -708,10 +708,6 @@ name
 bool
 offerer
 bool
-set_interface_priorities
-=
-true
-bool
 allow_loopback
 =
 false
