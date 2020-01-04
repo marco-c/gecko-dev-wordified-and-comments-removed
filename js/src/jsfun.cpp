@@ -5453,12 +5453,9 @@ op
 obj
 -
 >
-getOps
+getOpsFunToString
 (
 )
--
->
-funToString
 )
 return
 op

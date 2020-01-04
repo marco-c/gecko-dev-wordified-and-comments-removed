@@ -2346,12 +2346,9 @@ MOZ_LIKELY
 obj
 -
 >
-getOps
+getOpsSetProperty
 (
 )
--
->
-setProperty
 )
 )
 {

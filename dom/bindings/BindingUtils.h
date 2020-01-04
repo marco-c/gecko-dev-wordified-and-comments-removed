@@ -11318,6 +11318,14 @@ extern
 NativePropertyHooks
 sEmptyNativePropertyHooks
 ;
+extern
+const
+js
+:
+:
+ObjectOps
+sInterfaceObjectClassObjectOps
+;
 enum
 {
 CONSTRUCTOR_NATIVE_HOLDER_RESERVED_SLOT

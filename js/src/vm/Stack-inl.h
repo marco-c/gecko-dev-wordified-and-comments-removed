@@ -161,12 +161,9 @@ cacheable
 obj
 -
 >
-getOps
+getOpsLookupProperty
 (
 )
--
->
-lookupProperty
 )
 ;
 return
