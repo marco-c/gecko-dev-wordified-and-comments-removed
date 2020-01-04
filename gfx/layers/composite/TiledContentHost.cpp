@@ -1632,7 +1632,7 @@ tile
 mTextureHost
 -
 >
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 )

@@ -146,7 +146,7 @@ override
 ;
 virtual
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const
@@ -339,7 +339,7 @@ override
 ;
 virtual
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const

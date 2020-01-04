@@ -180,7 +180,7 @@ override
 }
 virtual
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const

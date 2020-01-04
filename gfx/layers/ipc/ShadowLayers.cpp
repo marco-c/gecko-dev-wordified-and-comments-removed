@@ -2149,7 +2149,7 @@ t
 mTextureClient
 -
 >
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 )

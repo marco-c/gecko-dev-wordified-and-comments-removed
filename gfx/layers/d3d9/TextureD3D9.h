@@ -693,7 +693,7 @@ true
 }
 virtual
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const
@@ -997,7 +997,7 @@ override
 ;
 virtual
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const
@@ -1222,7 +1222,7 @@ nullptr
 }
 virtual
 bool
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 const

@@ -556,7 +556,7 @@ mCurrentTextureSource
 mCurrentTextureHost
 -
 >
-HasInternalBuffer
+HasIntermediateBuffer
 (
 )
 ;

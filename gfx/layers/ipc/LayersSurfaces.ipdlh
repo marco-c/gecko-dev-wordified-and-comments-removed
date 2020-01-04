@@ -461,7 +461,7 @@ SurfaceFormat
 format
 ;
 bool
-hasInternalBuffer
+hasIntermediateBuffer
 ;
 }
 ;
