@@ -1494,12 +1494,6 @@ function
 {
 this
 .
-focusContent
-(
-)
-;
-this
-.
 enableSelection
 (
 )
