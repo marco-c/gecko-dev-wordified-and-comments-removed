@@ -189,6 +189,14 @@ GetSkTypeface
 (
 )
 ;
+void
+GetFontDataFromSystemFonts
+(
+IDWriteFactory
+*
+aFactory
+)
+;
 #
 endif
 RefPtr
