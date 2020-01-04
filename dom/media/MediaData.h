@@ -897,14 +897,6 @@ mValid
 (
 false
 )
-mMode
-(
-0
-)
-mIVSize
-(
-0
-)
 {
 }
 bool

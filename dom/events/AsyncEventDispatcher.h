@@ -150,10 +150,6 @@ mEvent
 (
 aEvent
 )
-mBubbles
-(
-false
-)
 mOnlyChromeDispatch
 (
 false
