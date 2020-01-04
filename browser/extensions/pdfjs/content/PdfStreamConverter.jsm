@@ -394,6 +394,8 @@ catch
 e
 )
 {
+try
+{
 var
 chromeWindow
 =
@@ -408,6 +410,16 @@ chromeWindow
 .
 gFindBar
 ;
+}
+catch
+(
+ex
+)
+{
+return
+null
+;
+}
 }
 }
 function
@@ -1938,6 +1950,8 @@ domWindow
 )
 ;
 return
+!
+!
 findBar
 &
 &
