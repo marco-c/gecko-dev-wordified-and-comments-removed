@@ -47,9 +47,9 @@ getElementCount
 .
 jsonPanelBox
 .
-domTable
+treeTable
 .
-memberRow
+treeRow
 "
 )
 ;
@@ -78,9 +78,9 @@ getElementText
 .
 jsonPanelBox
 .
-domTable
+treeTable
 .
-memberRow
+treeRow
 "
 )
 ;

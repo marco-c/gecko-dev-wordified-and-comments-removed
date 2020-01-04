@@ -377,9 +377,9 @@ querySelector
 .
 jsonPanelBox
 .
-domTable
+treeTable
 .
-memberRow
+treeRow
 "
 )
 ;
