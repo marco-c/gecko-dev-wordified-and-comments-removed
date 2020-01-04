@@ -1785,6 +1785,14 @@ _token
 =
 null
 ;
+Weave
+.
+Service
+.
+clusterURL
+=
+null
+;
 }
 resetSyncKey
 :
