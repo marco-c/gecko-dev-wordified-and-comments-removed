@@ -155,7 +155,7 @@ clean
 )
 ;
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 convertBoolToInt32
@@ -178,7 +178,7 @@ Imm32
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 convertInt32ToDouble
@@ -203,7 +203,7 @@ dest
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 convertInt32ToDouble
@@ -236,7 +236,7 @@ dest
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 convertInt32ToDouble
@@ -269,7 +269,7 @@ dest
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 convertUInt32ToDouble
@@ -327,7 +327,7 @@ SecondScratchDoubleReg
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 convertUInt32ToFloat32
@@ -390,7 +390,7 @@ done
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 convertDoubleToFloat32
@@ -409,7 +409,7 @@ src
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 branchTruncateDouble
@@ -469,7 +469,7 @@ Equal
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 convertDoubleToInt32
@@ -567,7 +567,7 @@ notZero
 }
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 convertFloat32ToInt32
@@ -679,7 +679,7 @@ notZero
 }
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 convertFloat32ToDouble
@@ -698,7 +698,7 @@ src
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 branchTruncateFloat32
@@ -744,7 +744,7 @@ Equal
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 convertInt32ToFloat32
@@ -769,7 +769,7 @@ dest
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 convertInt32ToFloat32
@@ -802,7 +802,7 @@ dest
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 addDouble
@@ -822,7 +822,7 @@ src
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 subDouble
@@ -842,7 +842,7 @@ src
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 mulDouble
@@ -862,7 +862,7 @@ src
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 divDouble
@@ -882,7 +882,7 @@ src
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 negateDouble
@@ -899,7 +899,7 @@ reg
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 inc64
@@ -3127,6 +3127,10 @@ LoadStoreExtension
 extension
 )
 {
+asMasm
+(
+)
+.
 computeScaledAddress
 (
 src
@@ -3315,6 +3319,10 @@ LoadStoreExtension
 extension
 )
 {
+asMasm
+(
+)
+.
 computeScaledAddress
 (
 dest
@@ -3354,6 +3362,10 @@ LoadStoreExtension
 extension
 )
 {
+asMasm
+(
+)
+.
 computeEffectiveAddress
 (
 dest
@@ -3380,7 +3392,7 @@ extension
 ;
 }
 void
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 computeScaledAddress
@@ -6148,6 +6160,10 @@ BaseIndex
 address
 )
 {
+asMasm
+(
+)
+.
 computeScaledAddress
 (
 address
@@ -6247,6 +6263,10 @@ BaseIndex
 address
 )
 {
+asMasm
+(
+)
+.
 computeScaledAddress
 (
 address
@@ -8639,7 +8659,7 @@ cond
 ;
 }
 Operand
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 ToPayload
@@ -8673,7 +8693,7 @@ PAYLOAD_OFFSET
 ;
 }
 Operand
-MacroAssemblerMIPS
+MacroAssemblerMIPSCompat
 :
 :
 ToType
@@ -15177,7 +15197,7 @@ getProfilerExitFrameTail
 }
 MacroAssembler
 &
-MacroAssemblerMIPSCompat
+MacroAssemblerMIPS
 :
 :
 asMasm
@@ -15199,7 +15219,7 @@ this
 const
 MacroAssembler
 &
-MacroAssemblerMIPSCompat
+MacroAssemblerMIPS
 :
 :
 asMasm
