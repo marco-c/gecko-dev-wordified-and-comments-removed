@@ -54,6 +54,8 @@ aData
 size_t
 aLength
 size_t
+aOffset
+size_t
 aExpectedLength
 )
 {
@@ -89,11 +91,9 @@ i
 ]
 char
 (
-(
+aOffset
++
 i
-%
-3
-)
 +
 1
 )
@@ -132,6 +132,7 @@ CheckLexedData
 (
 aData
 aLength
+0
 3
 )
 ;
@@ -159,6 +160,7 @@ CheckLexedData
 aData
 aLength
 3
+3
 )
 ;
 return
@@ -184,6 +186,7 @@ CheckLexedData
 (
 aData
 aLength
+6
 3
 )
 ;
@@ -246,6 +249,7 @@ CheckLexedData
 (
 aData
 aLength
+0
 3
 )
 ;
@@ -322,6 +326,7 @@ length
 (
 )
 3
+3
 )
 ;
 return
@@ -347,6 +352,7 @@ CheckLexedData
 (
 aData
 aLength
+6
 3
 )
 ;
@@ -403,6 +409,7 @@ CheckLexedData
 (
 aData
 aLength
+0
 3
 )
 ;
@@ -536,6 +543,7 @@ CheckLexedData
 (
 aData
 aLength
+0
 9
 )
 ;
@@ -650,6 +658,7 @@ CheckLexedData
 (
 aData
 aLength
+0
 9
 )
 ;
@@ -777,12 +786,12 @@ mData
 1
 2
 3
-1
-2
-3
-1
-2
-3
+4
+5
+6
+7
+8
+9
 }
 ;
 StreamingLexer
