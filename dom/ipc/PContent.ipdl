@@ -2439,13 +2439,6 @@ permission
 )
 ;
 async
-ScreenSizeChanged
-(
-IntSize
-size
-)
-;
-async
 Volumes
 (
 VolumeInfo
