@@ -263,6 +263,11 @@ nsIDashboardEventNotifier
 idl
 '
 '
+nsIDeprecationWarner
+.
+idl
+'
+'
 nsIDivertableChannel
 .
 idl

@@ -334,6 +334,13 @@ Units
 .
 h
 "
+#
+include
+"
+nsIDeprecationWarner
+.
+h
+"
 namespace
 mozilla
 {
@@ -538,6 +545,8 @@ nsIDOMStorageManager
 public
 nsINetworkInterceptController
 public
+nsIDeprecationWarner
+public
 mozilla
 :
 :
@@ -585,6 +594,7 @@ NS_DECL_NSIAUTHPROMPTPROVIDER
 NS_DECL_NSICLIPBOARDCOMMANDS
 NS_DECL_NSIWEBSHELLSERVICES
 NS_DECL_NSINETWORKINTERCEPTCONTROLLER
+NS_DECL_NSIDEPRECATIONWARNER
 NS_FORWARD_SAFE_NSIDOMSTORAGEMANAGER
 (
 TopSessionStorageManager

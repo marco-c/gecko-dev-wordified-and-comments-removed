@@ -113,6 +113,13 @@ nsINetworkInterceptController
 .
 h
 "
+#
+include
+"
+nsIDeprecationWarner
+.
+h
+"
 class
 nsICacheEntry
 ;
@@ -157,6 +164,8 @@ nsIAuthPromptProvider
 public
 nsINetworkInterceptController
 public
+nsIDeprecationWarner
+public
 DisconnectableParent
 public
 HttpChannelSecurityWarningReporter
@@ -178,6 +187,7 @@ NS_DECL_NSIPROGRESSEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIAUTHPROMPTPROVIDER
 NS_DECL_NSINETWORKINTERCEPTCONTROLLER
+NS_DECL_NSIDEPRECATIONWARNER
 HttpChannelParent
 (
 const

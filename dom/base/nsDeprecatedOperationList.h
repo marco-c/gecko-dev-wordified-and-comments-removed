@@ -122,3 +122,7 @@ DEPRECATED_OPERATION
 (
 PannerNodeDoppler
 )
+DEPRECATED_OPERATION
+(
+AppCache
+)
