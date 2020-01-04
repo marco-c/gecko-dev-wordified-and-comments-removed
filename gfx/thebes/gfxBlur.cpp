@@ -4524,6 +4524,9 @@ aInnerClipRadii
 const
 Rect
 aSkipRect
+const
+Point
+aShadowOffset
 )
 {
 if
@@ -4630,6 +4633,13 @@ Rect
 dstOuter
 (
 aDestinationRect
+)
+;
+dstOuter
+.
+MoveBy
+(
+aShadowOffset
 )
 ;
 dstOuter
