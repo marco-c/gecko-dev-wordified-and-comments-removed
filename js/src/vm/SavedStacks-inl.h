@@ -27,9 +27,12 @@ HandleObject
 stack
 )
 {
-MOZ_ASSERT_IF
+if
 (
 stack
+)
+MOZ_RELEASE_ASSERT
+(
 js
 :
 :
