@@ -487,10 +487,6 @@ utf
 -
 8
 &
-client
-=
-app
-&
 channel
 =
 contextsearch
