@@ -296,6 +296,14 @@ ApplicationReputation
 cpp
 '
 '
+chromium
+/
+chrome
+/
+common
+/
+safe_browsing
+/
 csd
 .
 pb
@@ -417,6 +425,9 @@ ipc
 chromium
 /
 src
+'
+'
+chromium
 '
 ]
 DEFINES

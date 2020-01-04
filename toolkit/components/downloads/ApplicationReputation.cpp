@@ -8,6 +8,12 @@ h
 #
 include
 "
+chrome
+/
+common
+/
+safe_browsing
+/
 csd
 .
 pb
