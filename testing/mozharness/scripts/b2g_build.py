@@ -2553,7 +2553,6 @@ mar
 if
 marfile
 is
-not
 None
 :
                 
