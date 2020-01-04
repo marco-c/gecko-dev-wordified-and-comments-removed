@@ -126,7 +126,7 @@ mPool
 )
 ;
 nsresult
-TailDispatch
+DispatchFromEndOfTaskInThisPool
 (
 nsIRunnable
 *
@@ -137,7 +137,7 @@ return
 Dispatch
 (
 event
-NS_DISPATCH_TAIL
+NS_DISPATCH_AT_END
 )
 ;
 }
