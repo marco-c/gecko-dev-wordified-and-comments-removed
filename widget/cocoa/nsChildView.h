@@ -37,13 +37,6 @@ endif
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h
@@ -2367,7 +2360,10 @@ mIsDispatchPaint
 bool
 mPluginFocused
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 GLPresenter
 >
