@@ -1879,6 +1879,8 @@ if
 (
 !
 props
+.
+length
 )
 {
 props
