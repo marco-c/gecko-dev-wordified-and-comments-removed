@@ -19,6 +19,7 @@ h
 namespace
 mozilla
 {
+static
 uint8_t
 ElemSizeFromType
 (
