@@ -2181,7 +2181,7 @@ aSlice
 {
 }
 class
-MediaStreamGraphShutdownThreadRunnable
+MediaStreamGraphShutdownThreadRunnable2
 :
 public
 nsRunnable
@@ -2189,7 +2189,7 @@ nsRunnable
 public
 :
 explicit
-MediaStreamGraphShutdownThreadRunnable
+MediaStreamGraphShutdownThreadRunnable2
 (
 nsIThread
 *
@@ -2264,7 +2264,7 @@ nsIRunnable
 event
 =
 new
-MediaStreamGraphShutdownThreadRunnable
+MediaStreamGraphShutdownThreadRunnable2
 (
 mThread
 )
