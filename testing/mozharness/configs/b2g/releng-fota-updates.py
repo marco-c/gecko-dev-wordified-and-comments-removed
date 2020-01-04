@@ -59,14 +59,6 @@ upload
 '
 upload
 '
-        
-'
-submit
--
-to
--
-balrog
-'
     
 ]
     
