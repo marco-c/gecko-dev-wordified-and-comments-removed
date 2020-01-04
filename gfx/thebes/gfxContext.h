@@ -1259,10 +1259,6 @@ color
 .
 0f
 )
-clipWasReset
-(
-false
-)
 fillRule
 (
 mozilla
@@ -1368,9 +1364,6 @@ nsTArray
 Float
 >
 dashPattern
-;
-bool
-clipWasReset
 ;
 mozilla
 :
