@@ -404,7 +404,6 @@ due
 to
 bug
 1148515
-fails
 skip
 -
 if
@@ -426,9 +425,6 @@ html
 about
 :
 blank
-#
-bug
-1147673
 skip
 -
 if
