@@ -120,7 +120,17 @@ ZoneHeapThreshold
 double
 gcHeapGrowthFactor_
 ;
+mozilla
+:
+:
+Atomic
+<
 size_t
+mozilla
+:
+:
+Relaxed
+>
 gcTriggerBytes_
 ;
 public
