@@ -244,7 +244,7 @@ PROFILE_CREATION_DATE
 profileDate
 "
 ;
-private
+public
 static
 final
 String
