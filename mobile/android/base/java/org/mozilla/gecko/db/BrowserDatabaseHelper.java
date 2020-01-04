@@ -274,7 +274,7 @@ final
 int
 DATABASE_VERSION
 =
-26
+27
 ;
 public
 static
