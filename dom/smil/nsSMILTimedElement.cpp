@@ -2640,7 +2640,7 @@ SEEK_NOT_SEEKING
 {
 FireTimeEventAsync
 (
-NS_SMIL_REPEAT
+eSMILRepeatEvent
 static_cast
 <
 int32_t
