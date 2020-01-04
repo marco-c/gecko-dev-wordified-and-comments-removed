@@ -3244,7 +3244,7 @@ point
 y
 )
 ;
-LayoutDeviceIntPoint
+nsIntPoint
 geckoPoint
 =
 nsCocoaUtils
