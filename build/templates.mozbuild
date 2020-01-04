@@ -669,3 +669,11 @@ gecko_templates
 mozbuild
 '
 )
+include
+(
+'
+test_templates
+.
+mozbuild
+'
+)
