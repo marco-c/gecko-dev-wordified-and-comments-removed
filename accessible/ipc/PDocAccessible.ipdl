@@ -354,6 +354,13 @@ uint32_t
 aType
 )
 ;
+async
+RoleChangedEvent
+(
+uint32_t
+aRole
+)
+;
 /
 *
 *
