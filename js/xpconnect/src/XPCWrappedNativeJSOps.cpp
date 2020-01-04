@@ -4922,7 +4922,7 @@ WantNewEnumerate
 )
 mJSClass
 .
-ops
+oOps
 =
 &
 XPC_WN_ObjectOpsWithEnumerate
