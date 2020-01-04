@@ -2620,13 +2620,6 @@ GetWritable
 aChunk
 -
 >
-Channels
-(
-)
-*
-aChunk
--
->
 Frames
 (
 )
