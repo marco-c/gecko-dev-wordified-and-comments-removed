@@ -568,6 +568,11 @@ nsISecurityInfoProvider
 idl
 '
 '
+nsISensitiveInfoHiddenURI
+.
+idl
+'
+'
 nsISerializationHelper
 .
 idl
