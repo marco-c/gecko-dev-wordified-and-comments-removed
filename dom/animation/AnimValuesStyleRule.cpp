@@ -160,14 +160,12 @@ GetUnit
 eCSSUnit_Null
 )
 {
-#
-ifdef
-DEBUG
+DebugOnly
+<
 bool
+>
 ok
 =
-#
-endif
 StyleAnimationValue
 :
 :
@@ -360,6 +358,9 @@ AppendLiteral
 nsAutoString
 value
 ;
+Unused
+<
+<
 StyleAnimationValue
 :
 :

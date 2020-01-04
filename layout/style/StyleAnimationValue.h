@@ -107,6 +107,7 @@ StyleAnimationValue
 public
 :
 static
+MOZ_MUST_USE
 bool
 Add
 (
@@ -138,6 +139,7 @@ aDest
 ;
 }
 static
+MOZ_MUST_USE
 bool
 ComputeDistance
 (
@@ -157,6 +159,7 @@ aDistance
 )
 ;
 static
+MOZ_MUST_USE
 bool
 Interpolate
 (
@@ -194,6 +197,7 @@ aResultValue
 ;
 }
 static
+MOZ_MUST_USE
 bool
 AddWeighted
 (
@@ -217,6 +221,7 @@ aResultValue
 )
 ;
 static
+MOZ_MUST_USE
 bool
 ComputeValue
 (
@@ -251,6 +256,7 @@ nullptr
 )
 ;
 static
+MOZ_MUST_USE
 bool
 ComputeValues
 (
@@ -288,6 +294,7 @@ aResult
 )
 ;
 static
+MOZ_MUST_USE
 bool
 ComputeValues
 (
@@ -325,6 +332,7 @@ aResult
 )
 ;
 static
+MOZ_MUST_USE
 bool
 UncomputeValue
 (
@@ -340,6 +348,7 @@ aSpecifiedValue
 )
 ;
 static
+MOZ_MUST_USE
 bool
 UncomputeValue
 (
@@ -355,6 +364,7 @@ aSpecifiedValue
 )
 ;
 static
+MOZ_MUST_USE
 bool
 UncomputeValue
 (
@@ -370,6 +380,7 @@ aSpecifiedValue
 )
 ;
 static
+MOZ_MUST_USE
 bool
 ExtractComputedValue
 (
