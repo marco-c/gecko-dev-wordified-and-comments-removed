@@ -1328,6 +1328,7 @@ downloadUpdates
 allTables
 "
 "
+true
 dataUpdate
 success
 failure

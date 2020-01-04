@@ -908,6 +908,16 @@ proto
 "
 SOCIAL_ENGINEERING
 }
+{
+"
+test
+-
+phish
+-
+proto
+"
+SOCIAL_ENGINEERING_PUBLIC
+}
 }
 ;
 NS_IMETHODIMP

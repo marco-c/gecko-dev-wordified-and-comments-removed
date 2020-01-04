@@ -40863,12 +40863,6 @@ threatListUpdates
 :
 fetch
 ?
-req
-=
-%
-REQUEST_BASE64
-%
-&
 ct
 =
 application
@@ -41107,7 +41101,7 @@ blockedURIs
 .
 enabled
 "
-true
+false
 )
 ;
 pref

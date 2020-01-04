@@ -683,6 +683,7 @@ simple
 "
 "
 "
+true
 URL
 +
 safebrowsingUpdatePath
