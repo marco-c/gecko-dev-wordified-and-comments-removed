@@ -309,14 +309,6 @@ float
 aY
 )
 ;
-void
-SetScrollingRootContent
-(
-const
-bool
-isRootContent
-)
-;
 using
 nsBaseWidget
 :
