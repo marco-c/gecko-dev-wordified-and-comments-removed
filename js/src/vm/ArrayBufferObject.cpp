@@ -5837,7 +5837,7 @@ JS_FRIEND_API
 (
 bool
 )
-JS_IsNeuteredArrayBufferObject
+JS_IsDetachedArrayBufferObject
 (
 JSObject
 *
