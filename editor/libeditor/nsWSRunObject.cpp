@@ -8,6 +8,13 @@ h
 #
 include
 "
+EditorUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 OwningNonNull
@@ -66,13 +73,6 @@ h
 include
 "
 nsDebug
-.
-h
-"
-#
-include
-"
-nsEditorUtils
 .
 h
 "

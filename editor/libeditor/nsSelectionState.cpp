@@ -8,6 +8,13 @@ h
 #
 include
 "
+EditorUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -50,13 +57,6 @@ h
 include
 "
 nsEditor
-.
-h
-"
-#
-include
-"
-nsEditorUtils
 .
 h
 "
@@ -1314,7 +1314,7 @@ oldStart
 ;
 if
 (
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf
@@ -1351,7 +1351,6 @@ offset
 }
 if
 (
-(
 item
 -
 >
@@ -1359,10 +1358,9 @@ endNode
 =
 =
 oldStart
-)
 |
 |
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf

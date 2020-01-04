@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsEditorUtils
+EditorUtils
 .
 h
 "

@@ -8,6 +8,13 @@ h
 #
 include
 "
+EditorUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -116,13 +123,6 @@ h
 include
 "
 nsEditor
-.
-h
-"
-#
-include
-"
-nsEditorUtils
 .
 h
 "

@@ -178,6 +178,11 @@ EditAggregateTxn
 cpp
 '
 '
+EditorUtils
+.
+cpp
+'
+'
 EditTxn
 .
 cpp
@@ -219,11 +224,6 @@ cpp
 '
 '
 nsEditorEventListener
-.
-cpp
-'
-'
-nsEditorUtils
 .
 cpp
 '

@@ -8,6 +8,13 @@ h
 #
 include
 "
+EditorUtils
+.
+h
+"
+#
+include
+"
 gfxFontUtils
 .
 h
@@ -157,13 +164,6 @@ h
 include
 "
 nsEditRules
-.
-h
-"
-#
-include
-"
-nsEditorUtils
 .
 h
 "

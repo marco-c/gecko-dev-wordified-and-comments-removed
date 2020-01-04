@@ -8,6 +8,13 @@ h
 #
 include
 "
+EditorUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences
@@ -91,13 +98,6 @@ h
 include
 "
 nsEditor
-.
-h
-"
-#
-include
-"
-nsEditorUtils
 .
 h
 "

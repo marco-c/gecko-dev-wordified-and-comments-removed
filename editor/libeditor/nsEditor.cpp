@@ -73,6 +73,13 @@ h
 #
 include
 "
+EditorUtils
+.
+h
+"
+#
+include
+"
 EditTxn
 .
 h
@@ -314,13 +321,6 @@ h
 include
 "
 nsEditorEventListener
-.
-h
-"
-#
-include
-"
-nsEditorUtils
 .
 h
 "
@@ -15350,7 +15350,7 @@ aSplitPointParent
 aNode
 |
 |
-nsEditorUtils
+EditorUtils
 :
 :
 IsDescendantOf

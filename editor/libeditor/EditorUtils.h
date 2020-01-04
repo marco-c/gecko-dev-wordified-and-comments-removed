@@ -1,9 +1,9 @@
 #
 ifndef
-nsEditorUtils_h__
+EditorUtils_h
 #
 define
-nsEditorUtils_h__
+EditorUtils_h
 #
 include
 "
@@ -754,8 +754,12 @@ aOffset
 }
 }
 ;
+namespace
+mozilla
+{
 class
-nsEditorUtils
+EditorUtils
+final
 {
 public
 :
@@ -804,6 +808,7 @@ aNode
 ;
 }
 ;
+}
 class
 nsIDOMEvent
 ;

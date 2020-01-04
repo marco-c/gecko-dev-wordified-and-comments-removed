@@ -298,14 +298,14 @@ h
 #
 include
 "
-TextEditorTest
+EditorUtils
 .
 h
 "
 #
 include
 "
-nsEditorUtils
+TextEditorTest
 .
 h
 "
