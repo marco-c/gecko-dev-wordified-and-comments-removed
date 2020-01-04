@@ -75,6 +75,12 @@ s
 "
             
 "
+check_uptake
+"
+:
+True
+            
+"
 alias
 "
 :
@@ -659,6 +665,12 @@ SSL
 "
             
 "
+check_uptake
+"
+:
+True
+            
+"
 ssl
 -
 only
@@ -1233,6 +1245,12 @@ stub
 "
             
 "
+check_uptake
+"
+:
+True
+            
+"
 alias
 "
 :
@@ -1351,6 +1369,12 @@ s
 -
 Complete
 "
+            
+"
+check_uptake
+"
+:
+True
             
 "
 ssl
@@ -1938,6 +1962,12 @@ Complete
 "
             
 "
+check_uptake
+"
+:
+False
+            
+"
 ssl
 -
 only
@@ -2321,6 +2351,12 @@ prev_version
 )
 s
 "
+            
+"
+check_uptake
+"
+:
+True
             
 "
 ssl
@@ -2969,6 +3005,12 @@ prev_build_number
 )
 s
 "
+            
+"
+check_uptake
+"
+:
+False
             
 "
 ssl

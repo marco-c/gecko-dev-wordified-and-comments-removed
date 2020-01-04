@@ -31,6 +31,12 @@ s
 "
             
 "
+check_uptake
+"
+:
+True
+            
+"
 alias
 "
 :
