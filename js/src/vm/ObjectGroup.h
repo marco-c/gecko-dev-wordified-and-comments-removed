@@ -1779,14 +1779,7 @@ struct
 PlainObjectEntry
 ;
 struct
-PlainObjectGCPolicy
-:
-public
-DefaultMapGCPolicy
-<
-PlainObjectKey
-PlainObjectEntry
->
+PlainObjectTableSweepPolicy
 {
 static
 bool
@@ -1814,7 +1807,7 @@ PlainObjectKey
 PlainObjectEntry
 PlainObjectKey
 SystemAllocPolicy
-PlainObjectGCPolicy
+PlainObjectTableSweepPolicy
 >
 ;
 ArrayObjectTable
