@@ -895,7 +895,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_EMPTIED
+eEmptied
 eMediaEventFirst
 +
 3
