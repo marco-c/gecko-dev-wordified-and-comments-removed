@@ -1029,6 +1029,9 @@ mozilla
 CondVar
 mCondVar
 ;
+bool
+mNotified
+;
 mozilla
 :
 :
