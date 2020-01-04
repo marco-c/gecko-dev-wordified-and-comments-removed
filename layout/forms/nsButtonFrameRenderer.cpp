@@ -1231,7 +1231,7 @@ if
 mFrame
 -
 >
-StyleBorder
+StyleEffects
 (
 )
 -

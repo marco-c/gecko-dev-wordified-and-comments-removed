@@ -4660,6 +4660,11 @@ TextReset
 ;
 DO_STRUCT_DIFFERENCE
 (
+Effects
+)
+;
+DO_STRUCT_DIFFERENCE
+(
 Background
 )
 ;

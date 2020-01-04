@@ -39636,7 +39636,7 @@ boxShadows
 aFrame
 -
 >
-StyleBorder
+StyleEffects
 (
 )
 -
