@@ -263,7 +263,6 @@ aPlatformVersion
 aBuildID
 aDetailsURL
 aBillboardURL
-aLicenseURL
 aShowPrompt
 aShowNeverForVersion
 aPromptWaitTime
@@ -285,7 +284,6 @@ aPlatformVersion
 aBuildID
 aDetailsURL
 aBillboardURL
-aLicenseURL
 aShowPrompt
 aShowNeverForVersion
 aPromptWaitTime
@@ -461,7 +459,6 @@ aPlatformVersion
 aBuildID
 aDetailsURL
 aBillboardURL
-aLicenseURL
 aServiceURL
 aInstallDate
 aStatusText
@@ -603,7 +600,6 @@ aPlatformVersion
 aBuildID
 aDetailsURL
 aBillboardURL
-aLicenseURL
 aShowPrompt
 aShowNeverForVersion
 aPromptWaitTime
@@ -811,7 +807,6 @@ aPlatformVersion
 aBuildID
 aDetailsURL
 aBillboardURL
-aLicenseURL
 aShowPrompt
 aShowNeverForVersion
 aPromptWaitTime
@@ -1068,28 +1063,6 @@ aBillboardURL
 "
 ;
 let
-licenseURL
-=
-aLicenseURL
-?
-"
-licenseURL
-=
-\
-"
-"
-+
-aLicenseURL
-+
-"
-\
-"
-"
-:
-"
-"
-;
-let
 showPrompt
 =
 aShowPrompt
@@ -1225,8 +1198,6 @@ platformVersion
 detailsURL
 +
 billboardURL
-+
-licenseURL
 +
 showPrompt
 +
