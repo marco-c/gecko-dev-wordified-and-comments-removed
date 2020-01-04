@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsIAuthPrompt
 .
 h
