@@ -14352,13 +14352,6 @@ self
 command_output
 (
 [
-"
-wait
--
-for
--
-device
-"
 ]
 timeout
 =
