@@ -3996,6 +3996,9 @@ manifests_by_flavor
         
 if
 verbose
+or
+not
+push
 :
             
 print
