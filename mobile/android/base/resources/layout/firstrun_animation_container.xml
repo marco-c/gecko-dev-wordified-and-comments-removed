@@ -276,6 +276,15 @@ color
 /
 tab_text_color
 "
+gecko
+:
+tabsMarginLeft
+=
+"
+dimen
+/
+firstrun_tab_strip_content_start
+"
 /
 >
 <
