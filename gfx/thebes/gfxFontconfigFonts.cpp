@@ -4370,6 +4370,8 @@ aStyle
 gfxUserFontSet
 *
 aUserFontSet
+gfxFloat
+aDevToCssSize
 )
 :
 gfxFontGroup
@@ -4378,6 +4380,7 @@ aFontFamilyList
 aStyle
 nullptr
 aUserFontSet
+aDevToCssSize
 )
 mPangoLanguage
 (
@@ -4451,6 +4454,7 @@ gfxPangoFontGroup
 mFamilyList
 aStyle
 mUserFontSet
+mDevToCssSize
 )
 ;
 }
@@ -6606,6 +6610,9 @@ eFamily_sans_serif
 &
 style
 nullptr
+1
+.
+0
 )
 ;
 gfxFcFont

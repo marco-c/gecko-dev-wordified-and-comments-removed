@@ -6175,6 +6175,8 @@ aFamily
 gfxFontStyle
 *
 aStyle
+gfxFloat
+aDevToCssSize
 )
 {
 /
@@ -6207,10 +6209,14 @@ mUseSizeSensitiveSystemFont
 aStyle
 &
 &
+(
 aStyle
 -
 >
 size
+*
+aDevToCssSize
+)
 >
 =
 kTextDisplayCrossover
@@ -6232,6 +6238,7 @@ FindFamily
 (
 aFamily
 aStyle
+aDevToCssSize
 )
 ;
 }

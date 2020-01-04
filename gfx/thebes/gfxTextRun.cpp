@@ -8011,6 +8011,8 @@ aTextPerf
 gfxUserFontSet
 *
 aUserFontSet
+gfxFloat
+aDevToCssSize
 )
 :
 mFamilyList
@@ -8030,6 +8032,10 @@ mHyphenWidth
 (
 -
 1
+)
+mDevToCssSize
+(
+aDevToCssSize
 )
 mUserFontSet
 (
@@ -8350,6 +8356,7 @@ FindFamily
 aName
 &
 mStyle
+mDevToCssSize
 )
 ;
 }
@@ -9814,6 +9821,7 @@ mFamilyList
 aStyle
 mTextPerf
 mUserFontSet
+mDevToCssSize
 )
 ;
 return

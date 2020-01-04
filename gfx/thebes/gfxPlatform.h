@@ -1152,6 +1152,8 @@ aTextPerf
 gfxUserFontSet
 *
 aUserFontSet
+gfxFloat
+aDevToCssSize
 )
 =
 0

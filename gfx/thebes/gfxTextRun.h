@@ -1888,8 +1888,8 @@ aTextPerf
 gfxUserFontSet
 *
 aUserFontSet
-=
-nullptr
+gfxFloat
+aDevToCssSize
 )
 ;
 virtual
@@ -2961,6 +2961,9 @@ mUnderlineOffset
 ;
 gfxFloat
 mHyphenWidth
+;
+gfxFloat
+mDevToCssSize
 ;
 RefPtr
 <

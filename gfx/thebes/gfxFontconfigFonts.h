@@ -95,6 +95,8 @@ aStyle
 gfxUserFontSet
 *
 aUserFontSet
+gfxFloat
+aDevToCssSize
 )
 ;
 virtual
