@@ -12,6 +12,13 @@ nsISecretDecoderRing
 h
 "
 #
+include
+"
+nsNSSShutDown
+.
+h
+"
+#
 ifndef
 NS_SDR_CONTRACTID
 #
