@@ -248,6 +248,12 @@ MSG_INSTALL_ENABLED
 this
 )
 ;
+this
+.
+wrappedJSObject
+=
+this
+;
 }
 amManager
 .
