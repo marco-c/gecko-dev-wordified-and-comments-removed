@@ -8666,7 +8666,7 @@ caNameStrings
 ScopedCERTCertificate
 cert
 ;
-ScopedSECKEYPrivateKey
+UniqueSECKEYPrivateKey
 privKey
 ;
 ScopedCERTCertList
@@ -8743,7 +8743,9 @@ loser
 ;
 }
 privKey
-=
+.
+reset
+(
 PK11_FindKeyByAnyCert
 (
 cert
@@ -8752,6 +8754,7 @@ get
 (
 )
 wincx
+)
 )
 ;
 if
@@ -8778,7 +8781,7 @@ mPRetKey
 =
 privKey
 .
-forget
+release
 (
 )
 ;
@@ -8971,7 +8974,9 @@ certList
 )
 {
 privKey
-=
+.
+reset
+(
 PK11_FindKeyByAnyCert
 (
 node
@@ -8979,6 +8984,7 @@ node
 >
 cert
 wincx
+)
 )
 ;
 if
@@ -9079,7 +9085,9 @@ forget
 )
 ;
 privKey
-=
+.
+reset
+(
 PK11_FindKeyByAnyCert
 (
 cert
@@ -9088,6 +9096,7 @@ get
 (
 )
 wincx
+)
 )
 ;
 }
@@ -10175,7 +10184,9 @@ loser
 ;
 }
 privKey
-=
+.
+reset
+(
 PK11_FindKeyByAnyCert
 (
 cert
@@ -10184,6 +10195,7 @@ get
 (
 )
 wincx
+)
 )
 ;
 if
@@ -10273,7 +10285,7 @@ mPRetKey
 =
 privKey
 .
-forget
+release
 (
 )
 ;

@@ -363,7 +363,7 @@ return
 false
 ;
 }
-ScopedPRFileDesc
+UniquePRFileDesc
 outFile
 (
 PR_Open
@@ -405,6 +405,10 @@ rv
 PR_Write
 (
 outFile
+.
+get
+(
+)
 item
 -
 >

@@ -129,7 +129,7 @@ nsKeyObject
 &
 )
 ;
-ScopedPK11SymKey
+UniquePK11SymKey
 mSymKey
 ;
 virtual
