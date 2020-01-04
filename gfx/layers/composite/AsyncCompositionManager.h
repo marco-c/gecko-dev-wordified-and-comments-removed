@@ -320,6 +320,8 @@ TransformShadowTree
 (
 TimeStamp
 aCurrentFrame
+TimeDuration
+aVsyncRate
 TransformsToSkip
 aSkip
 =

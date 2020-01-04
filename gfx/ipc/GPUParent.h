@@ -147,6 +147,10 @@ CSSToLayoutDeviceScale
 &
 aScale
 const
+TimeDuration
+&
+aVsyncRate
+const
 bool
 &
 aUseExternalSurface
