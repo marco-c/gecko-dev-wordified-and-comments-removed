@@ -912,14 +912,6 @@ an
 eslint
 -
 gecko
--
-android
--
-gradle
--
-build
--
-dependencies
 tests
 :
 -
