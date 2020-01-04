@@ -557,6 +557,12 @@ aParams
 .
 mLayersBackend
 )
+mCrashHelper
+(
+aParams
+.
+mCrashHelper
+)
 {
 }
 GMPVideoDecoderParams
@@ -681,6 +687,12 @@ mAdapter
 mConvertNALUnitLengths
 (
 false
+)
+mCrashHelper
+(
+aParams
+.
+mCrashHelper
 )
 {
 MOZ_ASSERT
@@ -1430,7 +1442,7 @@ mMPS
 >
 GetGMPVideoDecoder
 (
-nullptr
+mCrashHelper
 &
 tags
 GetNodeId

@@ -249,6 +249,12 @@ InitPromise
 >
 mInitPromiseRequest
 ;
+RefPtr
+<
+GMPCrashHelper
+>
+mGMPCrashHelper
+;
 bool
 mNeedAVCC
 ;

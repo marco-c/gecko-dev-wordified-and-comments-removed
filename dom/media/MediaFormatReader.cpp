@@ -984,6 +984,15 @@ PLATFORM_DECODER
 )
 )
 ;
+mCrashHelper
+=
+mDecoder
+-
+>
+GetCrashHelper
+(
+)
+;
 return
 NS_OK
 ;
@@ -2266,6 +2275,7 @@ mCallback
 get
 (
 )
+mCrashHelper
 }
 )
 ;
@@ -2320,6 +2330,7 @@ mLayersBackendType
 GetImageContainer
 (
 )
+mCrashHelper
 }
 )
 ;

@@ -2233,6 +2233,12 @@ mCDMProxy
 ;
 #
 endif
+RefPtr
+<
+GMPCrashHelper
+>
+mCrashHelper
+;
 }
 ;
 }
