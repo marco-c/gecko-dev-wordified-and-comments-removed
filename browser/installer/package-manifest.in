@@ -4145,6 +4145,15 @@ chrome
 devtools
 .
 manifest
+RESPATH
+/
+browser
+/
+PREF_DIR
+/
+devtools
+.
+js
 ;
 shell
 icons
