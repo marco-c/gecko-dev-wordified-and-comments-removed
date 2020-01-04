@@ -542,6 +542,13 @@ MediaPrefs
 EMEEnabled
 (
 )
+&
+&
+!
+IsClearkeyKeySystem
+(
+aKeySystem
+)
 )
 {
 MediaKeySystemAccess
