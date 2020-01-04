@@ -95,7 +95,7 @@ aMessage
 aWidget
 eGestureNotifyEventClass
 )
-panDirection
+mPanDirection
 (
 ePanNone
 )
@@ -182,7 +182,7 @@ ePanBoth
 }
 ;
 PanDirection
-panDirection
+mPanDirection
 ;
 bool
 displayPanFeedback
@@ -204,11 +204,11 @@ aEvent
 aCopyTargets
 )
 ;
-panDirection
+mPanDirection
 =
 aEvent
 .
-panDirection
+mPanDirection
 ;
 displayPanFeedback
 =

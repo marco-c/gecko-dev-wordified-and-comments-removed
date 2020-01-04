@@ -12111,7 +12111,7 @@ displayPanFeedback
 aEvent
 -
 >
-panDirection
+mPanDirection
 =
 panDirection
 ;
