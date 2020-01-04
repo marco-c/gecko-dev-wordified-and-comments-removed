@@ -5524,8 +5524,6 @@ mmiServiceCode
 !
 =
 =
-RIL
-.
 MMI_KS_SC_IMEI
 &
 &
