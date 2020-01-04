@@ -2890,6 +2890,12 @@ StreamTaskTracer
 aWriter
 )
 ;
+aWriter
+.
+EndObject
+(
+)
+;
 }
 aWriter
 .
