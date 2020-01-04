@@ -160,7 +160,7 @@ Type
 void
 GetUrl
 (
-DOMString
+nsAString
 &
 aUrl
 )
@@ -177,15 +177,10 @@ GetUrl
 url
 )
 ;
-aUrl
-.
-AsAString
-(
-)
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 url
+aUrl
 )
 ;
 }
