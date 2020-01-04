@@ -1071,7 +1071,7 @@ block
 )
 {
 return
-nsEventStatus_eConsumeDoDefault
+nsEventStatus_eIgnore
 ;
 }
 if
