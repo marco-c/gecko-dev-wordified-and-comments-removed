@@ -123,6 +123,7 @@ MARK
 SWEEP
 FINALIZE
 COMPACT
+DECOMMIT
 NUM_STATES
 }
 ;
@@ -3398,6 +3399,12 @@ join
 )
 ;
 }
+bool
+isRunningWithLockHeld
+(
+)
+const
+;
 bool
 isRunning
 (
