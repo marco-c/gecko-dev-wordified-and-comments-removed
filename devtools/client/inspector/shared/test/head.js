@@ -878,13 +878,6 @@ update
 "
 )
 ;
-if
-(
-inspector
-.
-_updateProgress
-)
-{
 yield
 inspector
 .
@@ -897,7 +890,6 @@ updated
 "
 )
 ;
-}
 return
 {
 toolbox
