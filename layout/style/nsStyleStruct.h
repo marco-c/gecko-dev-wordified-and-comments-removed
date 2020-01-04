@@ -160,6 +160,9 @@ nsTextFrame
 class
 imgIContainer
 ;
+struct
+nsStyleVisibility
+;
 #
 include
 "
@@ -5248,9 +5251,10 @@ const
 nsStylePosition
 &
 aOther
-nsStyleContext
+const
+nsStyleVisibility
 *
-aContext
+aOldStyleVisibility
 )
 const
 ;
