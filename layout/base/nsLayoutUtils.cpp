@@ -17607,7 +17607,7 @@ if
 (
 builder
 .
-IsForGenerateGlyphPath
+IsForGenerateGlyphMask
 (
 )
 )

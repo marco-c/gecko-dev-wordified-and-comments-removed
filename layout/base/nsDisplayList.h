@@ -672,7 +672,7 @@ FRAME_VISIBILITY
 ;
 }
 bool
-IsForGenerateGlyphPath
+IsForGenerateGlyphMask
 (
 )
 {
