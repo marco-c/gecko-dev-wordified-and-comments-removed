@@ -615,10 +615,11 @@ value
 =
 =
 '
+hello
 #
 0
 #
-1hello
+1
 '
 )
 {
@@ -1193,8 +1194,9 @@ is
 (
 value
 '
+hello
 #
-0hello
+0
 '
 '
 Failed
@@ -1530,10 +1532,11 @@ is
 (
 value
 '
+hello
 #
 0
 #
-1hello
+1
 '
 '
 Failed
