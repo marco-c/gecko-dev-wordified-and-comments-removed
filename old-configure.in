@@ -37513,6 +37513,7 @@ dnl
 dnl
 If
 using
+Desktop
 Linux
 ensure
 that
@@ -37538,19 +37539,9 @@ OpenBSD
 ;
 *
 )
-if
-test
--
-z
-"
-MOZ_B2G
-"
-;
-then
 MOZ_PULSEAUDIO
 =
 1
-fi
 ;
 ;
 esac
