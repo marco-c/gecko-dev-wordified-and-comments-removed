@@ -1693,6 +1693,11 @@ AsmJSInterruptCheck
 \
 _
 (
+AsmThrowUnreachable
+)
+\
+_
+(
 GetDOMProperty
 )
 \

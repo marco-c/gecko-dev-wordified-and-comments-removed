@@ -4910,6 +4910,17 @@ an
 object
 "
 )
+MSG_DEF
+(
+JSMSG_WASM_UNREACHABLE
+0
+JSEXN_ERR
+"
+reached
+unreachable
+trap
+"
+)
 /
 /
 Proxy

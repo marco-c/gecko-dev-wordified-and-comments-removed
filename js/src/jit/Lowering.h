@@ -1256,6 +1256,14 @@ ins
 )
 ;
 void
+visitAsmThrowUnreachable
+(
+MAsmThrowUnreachable
+*
+ins
+)
+;
+void
 visitStoreSlot
 (
 MStoreSlot
