@@ -153,6 +153,13 @@ builds
 )
 DIST_FILES
 =
+ifeq
+(
+1
+(
+MOZ_AUTOMATION_UPLOAD
+)
+)
 #
 Properties
 from
@@ -167,6 +174,11 @@ URLs
 .
 AUTOMATION_UPLOAD_PROPERTIES
 =
+-
+-
+upload
+-
+properties
 (
 DIST
 )
@@ -176,6 +188,7 @@ upload
 properties
 .
 json
+endif
 #
 Helper
 variables
@@ -746,11 +759,6 @@ PARTIAL_MAR
 )
 )
 )
--
--
-upload
--
-properties
 (
 AUTOMATION_UPLOAD_PROPERTIES
 )

@@ -369,7 +369,7 @@ properties
 "
 required
 =
-True
+False
                         
 action
 =
@@ -415,6 +415,12 @@ args
 complete_mar_file
 )
     
+if
+args
+.
+upload_properties
+:
+        
 with
 open
 (
@@ -425,7 +431,7 @@ upload_properties
 as
 f
 :
-        
+            
 json_data
 .
 update

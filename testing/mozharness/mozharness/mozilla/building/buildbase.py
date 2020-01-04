@@ -9107,9 +9107,6 @@ fh
 )
                 
 if
-not
-build_props
-or
 err
 :
                     
@@ -9126,8 +9123,8 @@ there
 was
 an
 error
-finding
-any
+reading
+the
 "
                              
 "
