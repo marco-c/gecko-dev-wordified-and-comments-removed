@@ -178,6 +178,8 @@ if
 !
 rootElement
 .
+firstChild
+.
 childNodes
 .
 length
