@@ -5677,6 +5677,16 @@ trace
 trc
 )
 ;
+modulebox
+-
+>
+exportNames
+.
+trace
+(
+trc
+)
+;
 }
 box
 =
