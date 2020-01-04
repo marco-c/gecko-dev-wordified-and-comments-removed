@@ -805,7 +805,7 @@ numLines
 *
 16
 )
-Rect
+IntRect
 (
 -
 10000

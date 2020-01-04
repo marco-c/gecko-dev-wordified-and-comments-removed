@@ -601,7 +601,7 @@ const
 gfx
 :
 :
-Rect
+IntRect
 &
 clipRect
 )
