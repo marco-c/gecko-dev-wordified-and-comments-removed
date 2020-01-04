@@ -53493,7 +53493,7 @@ aFullScreen
 *
 aFullScreen
 =
-MozFullScreen
+Fullscreen
 (
 )
 ;

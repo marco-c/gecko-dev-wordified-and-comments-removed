@@ -1998,7 +1998,7 @@ return
 doc
 -
 >
-MozFullScreen
+Fullscreen
 (
 )
 ?
@@ -2824,7 +2824,7 @@ if
 doc
 -
 >
-MozFullScreen
+Fullscreen
 (
 )
 )

@@ -6449,7 +6449,7 @@ GetFullscreenElement
 0
 ;
 bool
-MozFullScreen
+Fullscreen
 (
 )
 {
