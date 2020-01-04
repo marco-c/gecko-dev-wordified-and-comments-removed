@@ -503,6 +503,11 @@ AudioCompactor
 h
 '
 '
+AudioConverter
+.
+h
+'
+'
 AudioMixer
 .
 h
@@ -1001,6 +1006,11 @@ cpp
 '
 '
 AudioCompactor
+.
+cpp
+'
+'
+AudioConverter
 .
 cpp
 '
