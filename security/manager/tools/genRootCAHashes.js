@@ -115,6 +115,11 @@ jsm
 "
 )
 ;
+const
+{
+CommonUtils
+}
+=
 Cu
 .
 import
@@ -132,6 +137,8 @@ utils
 .
 js
 "
+{
+}
 )
 ;
 const

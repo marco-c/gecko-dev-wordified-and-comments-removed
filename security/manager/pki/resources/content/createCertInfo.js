@@ -39,6 +39,8 @@ close
 return
 ;
 }
+window
+.
 setCursor
 (
 "
@@ -95,10 +97,12 @@ onClose
 (
 )
 {
+window
+.
 setCursor
 (
 "
-default
+auto
 "
 )
 ;

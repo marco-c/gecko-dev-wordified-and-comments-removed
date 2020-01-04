@@ -165,6 +165,7 @@ testPage
 "
 )
 {
+let
 array
 =
 secureTestLocation

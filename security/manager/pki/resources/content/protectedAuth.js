@@ -3,6 +3,7 @@ onLoad
 (
 )
 {
+let
 protectedAuthThread
 =
 window
@@ -69,6 +70,8 @@ value
 tokenName
 )
 ;
+window
+.
 setCursor
 (
 "
@@ -138,10 +141,12 @@ onClose
 (
 )
 {
+window
+.
 setCursor
 (
 "
-default
+auto
 "
 )
 ;
