@@ -1361,11 +1361,6 @@ IsStateMachineScheduled
 const
 ;
 bool
-IsPausedAndDecoderWaiting
-(
-)
-;
-bool
 IsAudioDecoding
 (
 )
