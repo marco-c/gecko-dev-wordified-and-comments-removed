@@ -1001,7 +1001,7 @@ v
 4
 good
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1020,7 +1020,7 @@ v
 1
 good
 )
-TypeError
+RangeError
 )
 ;
 var
@@ -1156,7 +1156,7 @@ v
 2
 good
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1175,7 +1175,7 @@ v
 1
 good
 )
-TypeError
+RangeError
 )
 ;
 var
@@ -1303,7 +1303,7 @@ v
 16
 good
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1322,7 +1322,7 @@ v
 1
 good
 )
-TypeError
+RangeError
 )
 ;
 var
@@ -1438,7 +1438,7 @@ v
 8
 good
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1457,7 +1457,7 @@ v
 1
 good
 )
-TypeError
+RangeError
 )
 ;
 var
@@ -1577,7 +1577,7 @@ v
 4
 good
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1596,7 +1596,7 @@ v
 1
 good
 )
-TypeError
+RangeError
 )
 ;
 var
@@ -1724,7 +1724,7 @@ v
 16
 good
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1743,7 +1743,7 @@ v
 1
 good
 )
-TypeError
+RangeError
 )
 ;
 var
@@ -1859,7 +1859,7 @@ v
 8
 good
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -1878,7 +1878,7 @@ v
 1
 good
 )
-TypeError
+RangeError
 )
 ;
 var
@@ -1998,7 +1998,7 @@ v
 4
 good
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -2017,7 +2017,7 @@ v
 1
 good
 )
-TypeError
+RangeError
 )
 ;
 var
@@ -2126,7 +2126,7 @@ v
 4
 true
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -2145,7 +2145,7 @@ v
 1
 false
 )
-TypeError
+RangeError
 )
 ;
 var
@@ -2256,7 +2256,7 @@ v
 4
 true
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -2275,7 +2275,7 @@ v
 1
 false
 )
-TypeError
+RangeError
 )
 ;
 var
@@ -2390,7 +2390,7 @@ v
 16
 true
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -2409,7 +2409,7 @@ v
 1
 false
 )
-TypeError
+RangeError
 )
 ;
 var
@@ -2532,7 +2532,7 @@ v
 16
 true
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -2551,7 +2551,7 @@ v
 1
 false
 )
-TypeError
+RangeError
 )
 ;
 if

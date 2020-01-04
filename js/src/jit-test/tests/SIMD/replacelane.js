@@ -584,7 +584,7 @@ assertEq
 (
 e
 instanceof
-TypeError
+RangeError
 true
 )
 ;
@@ -666,7 +666,7 @@ assertEq
 (
 e
 instanceof
-TypeError
+RangeError
 true
 )
 ;
@@ -906,7 +906,7 @@ assertEq
 (
 e
 instanceof
-TypeError
+RangeError
 true
 )
 ;
@@ -988,7 +988,7 @@ assertEq
 (
 e
 instanceof
-TypeError
+RangeError
 true
 )
 ;
@@ -1228,7 +1228,7 @@ assertEq
 (
 e
 instanceof
-TypeError
+RangeError
 true
 )
 ;
@@ -1310,7 +1310,7 @@ assertEq
 (
 e
 instanceof
-TypeError
+RangeError
 true
 )
 ;
