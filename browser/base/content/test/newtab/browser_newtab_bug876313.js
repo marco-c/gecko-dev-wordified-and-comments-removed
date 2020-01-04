@@ -1,5 +1,7 @@
+add_task
+(
 function
-runTests
+*
 (
 )
 {
@@ -27,10 +29,13 @@ setPinnedLinks
 )
 ;
 yield
+*
 addNewTabPageTab
 (
 )
 ;
+yield
+*
 checkGrid
 (
 "
@@ -52,6 +57,8 @@ unpinCell
 1
 )
 ;
+yield
+*
 checkGrid
 (
 "
@@ -83,6 +90,8 @@ update
 (
 )
 ;
+yield
+*
 checkGrid
 (
 "
@@ -99,3 +108,5 @@ checkGrid
 )
 ;
 }
+)
+;
