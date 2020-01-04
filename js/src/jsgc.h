@@ -4445,6 +4445,7 @@ false
 endif
 class
 MOZ_RAII
+JS_HAZ_GC_SUPPRESSED
 AutoSuppressGC
 {
 int32_t

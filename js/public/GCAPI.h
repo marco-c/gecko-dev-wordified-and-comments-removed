@@ -1291,6 +1291,7 @@ rt
 {
 }
 }
+JS_HAZ_GC_SUPPRESSED
 ;
 class
 JS_PUBLIC_API
