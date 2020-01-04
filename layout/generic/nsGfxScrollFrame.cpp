@@ -9578,7 +9578,7 @@ if
 nsLayoutUtils
 :
 :
-GetDisplayPort
+HasDisplayPort
 (
 mOuter
 -
@@ -13166,7 +13166,7 @@ IsPaintingToWindow
 nsLayoutUtils
 :
 :
-GetDisplayPort
+HasDisplayPort
 (
 mOuter
 -
@@ -13304,7 +13304,7 @@ IsPaintingToWindow
 nsLayoutUtils
 :
 :
-GetDisplayPort
+HasDisplayPort
 (
 mOuter
 -
@@ -14476,7 +14476,7 @@ wasUsingDisplayPort
 nsLayoutUtils
 :
 :
-GetDisplayPort
+HasDisplayPort
 (
 content
 )

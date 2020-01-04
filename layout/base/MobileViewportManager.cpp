@@ -1210,7 +1210,7 @@ hasDisplayPort
 nsLayoutUtils
 :
 :
-GetDisplayPort
+HasDisplayPort
 (
 root
 -
@@ -1218,7 +1218,6 @@ root
 GetContent
 (
 )
-nullptr
 )
 ;
 bool

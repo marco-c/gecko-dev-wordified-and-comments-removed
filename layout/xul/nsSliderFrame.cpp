@@ -4141,7 +4141,7 @@ if
 nsLayoutUtils
 :
 :
-GetDisplayPort
+HasDisplayPort
 (
 scrollableContent
 )

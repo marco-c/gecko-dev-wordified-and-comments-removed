@@ -9258,10 +9258,9 @@ usingDisplayport
 nsLayoutUtils
 :
 :
-GetDisplayPort
+HasDisplayPort
 (
 content
-nullptr
 )
 ;
 }
@@ -23209,7 +23208,7 @@ GetContent
 nsLayoutUtils
 :
 :
-GetCriticalDisplayPort
+HasCriticalDisplayPort
 (
 rootScrollFrame
 -
@@ -23217,7 +23216,6 @@ rootScrollFrame
 GetContent
 (
 )
-nullptr
 )
 )
 {
@@ -23410,7 +23408,7 @@ GetContent
 nsLayoutUtils
 :
 :
-GetCriticalDisplayPort
+HasCriticalDisplayPort
 (
 rootScrollFrame
 -
@@ -23418,7 +23416,6 @@ rootScrollFrame
 GetContent
 (
 )
-nullptr
 )
 )
 {
@@ -24740,7 +24737,7 @@ GetContent
 nsLayoutUtils
 :
 :
-GetCriticalDisplayPort
+HasCriticalDisplayPort
 (
 mScrolledFrame
 -
@@ -24748,7 +24745,6 @@ mScrolledFrame
 GetContent
 (
 )
-nullptr
 )
 )
 {
@@ -24843,7 +24839,7 @@ GetContent
 nsLayoutUtils
 :
 :
-GetCriticalDisplayPort
+HasCriticalDisplayPort
 (
 mScrolledFrame
 -
@@ -24851,7 +24847,6 @@ mScrolledFrame
 GetContent
 (
 )
-nullptr
 )
 )
 {
