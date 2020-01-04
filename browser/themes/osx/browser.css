@@ -14018,6 +14018,14 @@ padding
 0
 3px
 ;
+width
+:
+22px
+;
+height
+:
+16px
+;
 }
 #
 urlbar
@@ -16217,10 +16225,6 @@ rect
 32px
 0
 )
-;
-width
-:
-22px
 ;
 }
 #
@@ -27672,7 +27676,7 @@ right
 .
 browser
 -
-action
+extension
 -
 panel
 >

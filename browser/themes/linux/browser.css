@@ -7648,6 +7648,14 @@ padding
 0
 3px
 ;
+width
+:
+22px
+;
+height
+:
+16px
+;
 }
 #
 urlbar
@@ -14562,7 +14570,7 @@ important
 .
 browser
 -
-action
+extension
 -
 panel
 >

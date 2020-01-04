@@ -97,6 +97,15 @@ browser
 /
 ext
 -
+pageAction
+.
+js
+content
+/
+browser
+/
+ext
+-
 tabs
 .
 js

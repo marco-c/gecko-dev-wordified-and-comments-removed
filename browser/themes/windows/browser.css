@@ -11320,6 +11320,14 @@ padding
 0
 3px
 ;
+width
+:
+22px
+;
+height
+:
+16px
+;
 }
 .
 search
@@ -21412,7 +21420,7 @@ css
 .
 browser
 -
-action
+extension
 -
 panel
 >
