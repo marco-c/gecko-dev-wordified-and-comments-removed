@@ -10068,13 +10068,6 @@ false
 )
 ;
 }
-rule
--
->
-RuleMatched
-(
-)
-;
 RefPtr
 <
 Declaration
@@ -10085,6 +10078,13 @@ rule
 -
 >
 GetDeclaration
+(
+)
+;
+declaration
+-
+>
+SetImmutable
 (
 )
 ;

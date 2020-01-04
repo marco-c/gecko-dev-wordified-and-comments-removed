@@ -1295,11 +1295,6 @@ aHandleContainer
 )
 ;
 void
-RuleMatched
-(
-)
-;
-void
 GetCssText
 (
 nsAString
