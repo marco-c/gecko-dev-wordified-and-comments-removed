@@ -981,15 +981,6 @@ return
 mIgnoreSuppression
 ;
 }
-bool
-GetHadToIgnorePaintSuppression
-(
-)
-{
-return
-mHadToIgnoreSuppression
-;
-}
 void
 SetPaintingToWindow
 (
@@ -3583,9 +3574,6 @@ mBuildCaret
 ;
 bool
 mIgnoreSuppression
-;
-bool
-mHadToIgnoreSuppression
 ;
 bool
 mIsAtRootOfPseudoStackingContext
