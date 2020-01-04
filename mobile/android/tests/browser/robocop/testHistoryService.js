@@ -297,6 +297,11 @@ PENDING_VISIT_WAIT
 =
 6000
 ;
+const
+PENDING_VISIT_WAIT_LONG
+=
+20000
+;
 var
 gVisitURLs
 =
@@ -553,7 +558,7 @@ html
 yield
 sleep
 (
-PENDING_VISIT_WAIT
+PENDING_VISIT_WAIT_LONG
 )
 ;
 do_print
