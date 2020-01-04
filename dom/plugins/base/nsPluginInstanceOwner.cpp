@@ -7729,7 +7729,7 @@ WidgetGUIEvent
 blurEvent
 (
 true
-NS_BLUR_CONTENT
+eBlur
 nullptr
 )
 ;
@@ -8339,7 +8339,7 @@ case
 eFocus
 :
 case
-NS_BLUR_CONTENT
+eBlur
 :
 return
 NPCocoaEventFocusChanged
@@ -9042,7 +9042,7 @@ case
 eFocus
 :
 case
-NS_BLUR_CONTENT
+eBlur
 :
 cocoaEvent
 .
@@ -9212,7 +9212,7 @@ anEvent
 mMessage
 =
 =
-NS_BLUR_CONTENT
+eBlur
 &
 &
 ContentIsFocusedWithinWindow
@@ -9268,7 +9268,7 @@ anEvent
 mMessage
 =
 =
-NS_BLUR_CONTENT
+eBlur
 )
 {
 mLastContentFocused
@@ -10098,7 +10098,7 @@ pluginEvent
 break
 ;
 case
-NS_BLUR_CONTENT
+eBlur
 :
 pluginEvent
 .
@@ -10970,7 +10970,7 @@ case
 eFocus
 :
 case
-NS_BLUR_CONTENT
+eBlur
 :
 {
 XFocusChangeEvent

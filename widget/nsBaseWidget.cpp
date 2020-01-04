@@ -12040,9 +12040,9 @@ mMessage
 {
 _ASSIGN_eventName
 (
-NS_BLUR_CONTENT
+eBlur
 "
-NS_BLUR_CONTENT
+eBlur
 "
 )
 ;

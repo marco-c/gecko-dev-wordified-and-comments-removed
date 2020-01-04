@@ -1979,7 +1979,7 @@ mEvent
 mMessage
 =
 =
-NS_BLUR_CONTENT
+eBlur
 )
 {
 FireChangeEventIfNeeded
@@ -2108,7 +2108,7 @@ mEvent
 mMessage
 =
 =
-NS_BLUR_CONTENT
+eBlur
 )
 {
 if

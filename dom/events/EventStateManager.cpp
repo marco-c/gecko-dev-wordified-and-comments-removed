@@ -19355,7 +19355,7 @@ aEvent
 mMessage
 =
 =
-NS_BLUR_CONTENT
+eBlur
 )
 )
 {
