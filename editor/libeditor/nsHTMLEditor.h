@@ -330,6 +330,12 @@ GetReturnInParagraphCreatesNewParagraph
 (
 )
 ;
+Element
+*
+GetSelectionContainer
+(
+)
+;
 NS_IMETHOD
 GetIsDocumentEditable
 (
