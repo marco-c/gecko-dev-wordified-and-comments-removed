@@ -1566,8 +1566,6 @@ error
 :
 %
 s
-\
-n
 "
 errorName
 .
