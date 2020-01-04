@@ -144,6 +144,11 @@ FileStreams
 h
 '
 '
+OriginScope
+.
+h
+'
+'
 PersistenceType
 .
 h
