@@ -118,7 +118,7 @@ Now
 mWorkerPrivate
 -
 >
-CreationTimeStamp
+NowBaseTimeStamp
 (
 )
 ;
@@ -197,7 +197,7 @@ return
 mWorkerPrivate
 -
 >
-CreationTime
+NowBaseTime
 (
 )
 ;
@@ -316,7 +316,7 @@ return
 mWorkerPrivate
 -
 >
-CreationTimeStamp
+NowBaseTimeStamp
 (
 )
 ;
@@ -334,7 +334,7 @@ return
 mWorkerPrivate
 -
 >
-CreationTime
+NowBaseTime
 (
 )
 ;
