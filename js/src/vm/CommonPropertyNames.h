@@ -743,6 +743,15 @@ from
 \
 macro
 (
+gcCycleNumber
+gcCycleNumber
+"
+gcCycleNumber
+"
+)
+\
+macro
+(
 get
 get
 "
