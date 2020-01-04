@@ -15549,11 +15549,9 @@ js_new
 WorkerInput
 >
 (
-cx
--
->
-runtime
+JS_GetParentRuntime
 (
+cx
 )
 chars
 str
