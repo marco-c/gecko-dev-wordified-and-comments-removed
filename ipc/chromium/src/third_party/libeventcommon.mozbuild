@@ -245,6 +245,11 @@ libevent
 '
 libevent
 /
+compat
+'
+'
+libevent
+/
 include
 '
 '
