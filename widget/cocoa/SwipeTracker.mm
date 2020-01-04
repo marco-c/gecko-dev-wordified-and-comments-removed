@@ -1271,7 +1271,7 @@ mEventPosition
 ;
 geckoEvent
 .
-direction
+mDirection
 =
 aDirection
 ;

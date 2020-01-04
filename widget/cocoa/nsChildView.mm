@@ -14529,7 +14529,7 @@ position
 ;
 geckoEvent
 .
-direction
+mDirection
 =
 direction
 ;
@@ -24354,7 +24354,7 @@ deltaX
 )
 geckoEvent
 .
-direction
+mDirection
 |
 =
 nsIDOMSimpleGestureEvent
@@ -24373,7 +24373,7 @@ deltaX
 )
 geckoEvent
 .
-direction
+mDirection
 |
 =
 nsIDOMSimpleGestureEvent
@@ -24400,7 +24400,7 @@ deltaY
 )
 geckoEvent
 .
-direction
+mDirection
 |
 =
 nsIDOMSimpleGestureEvent
@@ -24419,7 +24419,7 @@ deltaY
 )
 geckoEvent
 .
-direction
+mDirection
 |
 =
 nsIDOMSimpleGestureEvent
@@ -24896,7 +24896,7 @@ rotation
 {
 geckoEvent
 .
-direction
+mDirection
 =
 nsIDOMSimpleGestureEvent
 :
@@ -24908,7 +24908,7 @@ else
 {
 geckoEvent
 .
-direction
+mDirection
 =
 nsIDOMSimpleGestureEvent
 :
@@ -25126,7 +25126,7 @@ mCumulativeRotation
 {
 geckoEvent
 .
-direction
+mDirection
 =
 nsIDOMSimpleGestureEvent
 :
@@ -25138,7 +25138,7 @@ else
 {
 geckoEvent
 .
-direction
+mDirection
 =
 nsIDOMSimpleGestureEvent
 :

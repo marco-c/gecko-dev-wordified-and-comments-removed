@@ -255,7 +255,7 @@ mAllowedDirections
 (
 0
 )
-direction
+mDirection
 (
 0
 )
@@ -300,11 +300,11 @@ aOther
 .
 mAllowedDirections
 )
-direction
+mDirection
 (
 aOther
 .
-direction
+mDirection
 )
 clickCount
 (
@@ -383,7 +383,7 @@ uint32_t
 mAllowedDirections
 ;
 uint32_t
-direction
+mDirection
 ;
 uint32_t
 clickCount
@@ -408,11 +408,11 @@ aEvent
 aCopyTargets
 )
 ;
-direction
+mDirection
 =
 aEvent
 .
-direction
+mDirection
 ;
 delta
 =

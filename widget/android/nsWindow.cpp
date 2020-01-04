@@ -9502,7 +9502,7 @@ this
 ;
 event
 .
-direction
+mDirection
 =
 0
 ;
