@@ -276,6 +276,12 @@ mozbuild
 '
 python
 /
+mozlint
+'
+    
+'
+python
+/
 mozversioncontrol
 '
     
@@ -967,6 +973,16 @@ py
 tools
 /
 docs
+/
+mach_commands
+.
+py
+'
+    
+'
+tools
+/
+lint
 /
 mach_commands
 .

@@ -87,6 +87,13 @@ pth
 python
 /
 mozbuild
+mozlint
+.
+pth
+:
+python
+/
+mozlint
 pymake
 .
 pth
