@@ -216,15 +216,6 @@ Ended
 (
 )
 ;
-void
-Evict
-(
-double
-aStart
-double
-aEnd
-)
-;
 double
 GetHighestBufferedEndTime
 (

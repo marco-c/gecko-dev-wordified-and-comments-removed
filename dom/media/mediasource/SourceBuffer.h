@@ -723,15 +723,6 @@ Ended
 (
 )
 ;
-void
-Evict
-(
-double
-aStart
-double
-aEnd
-)
-;
 double
 GetBufferedStart
 (

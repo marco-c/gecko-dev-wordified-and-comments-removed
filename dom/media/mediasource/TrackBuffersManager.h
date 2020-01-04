@@ -164,7 +164,6 @@ EvictDataResult
 int8_t
 {
 NO_DATA_EVICTED
-DATA_EVICTED
 CANT_EVICT
 BUFFER_FULL
 }
@@ -286,16 +285,6 @@ media
 TimeUnit
 *
 aBufferStartTime
-)
-;
-void
-EvictBefore
-(
-media
-:
-:
-TimeUnit
-aTime
 )
 ;
 media

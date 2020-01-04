@@ -376,15 +376,6 @@ mPrincipal
 ;
 }
 void
-NotifyEvicted
-(
-double
-aStart
-double
-aEnd
-)
-;
-void
 GetMozDebugReaderData
 (
 nsAString
