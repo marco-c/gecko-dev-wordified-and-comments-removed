@@ -449,12 +449,6 @@ EnsureAudioBuffer
 (
 )
 ;
-bool
-IsAudible
-(
-)
-const
-;
 const
 uint32_t
 mChannels

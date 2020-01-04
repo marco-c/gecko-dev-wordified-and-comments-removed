@@ -252,17 +252,6 @@ ResetConnectionState
 override
 {
 }
-virtual
-void
-NotifyAudibleStateChanged
-(
-bool
-aAudible
-)
-override
-{
-}
-;
 }
 ;
 }
