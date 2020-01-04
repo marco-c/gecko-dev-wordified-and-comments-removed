@@ -13,13 +13,6 @@ quit
 (
 )
 ;
-oomTest
-(
-(
-)
-=
->
-{
 var
 lfGlobal
 =
@@ -27,6 +20,13 @@ newGlobal
 (
 )
 ;
+oomTest
+(
+(
+)
+=
+>
+{
 var
 lfVarx
 =
