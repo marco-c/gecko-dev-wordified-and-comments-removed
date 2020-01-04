@@ -9735,6 +9735,10 @@ if
 !
 exists
 )
+{
+Unused
+<
+<
 prefsJSFile
 -
 >
@@ -9747,6 +9751,7 @@ NORMAL_FILE_TYPE
 0644
 )
 ;
+}
 return
 rv
 ;
@@ -12020,6 +12025,9 @@ if
 fileExists
 )
 {
+nsresult
+rv
+=
 dumpD
 -
 >
@@ -12030,6 +12038,11 @@ nsIFile
 :
 DIRECTORY_TYPE
 0700
+)
+;
+NS_ENSURE_SUCCESS_VOID
+(
+rv
 )
 ;
 }

@@ -673,6 +673,9 @@ permissions
 .
 *
 /
+[
+must_use
+]
 void
 create
 (
@@ -2017,6 +2020,9 @@ permissions
 .
 *
 /
+[
+must_use
+]
 void
 createUnique
 (

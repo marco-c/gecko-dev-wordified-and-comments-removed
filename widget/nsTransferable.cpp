@@ -469,6 +469,9 @@ clipboardcache
 )
 )
 ;
+nsresult
+rv
+=
 cacheFile
 -
 >
@@ -480,6 +483,16 @@ nsIFile
 NORMAL_FILE_TYPE
 0600
 )
+;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+return
+nullptr
 ;
 }
 else
