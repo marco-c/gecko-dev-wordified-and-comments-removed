@@ -185,16 +185,6 @@ this
 define
 (
 [
-ac_cv_func_
-]
-[
-ac_cv_func2_
-]
-)
-dnl
-define
-(
-[
 _AC_CHECK_FUNC
 ]
 defn
