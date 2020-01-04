@@ -243,6 +243,9 @@ class
 ServiceWorkerJobQueue
 ;
 class
+ServiceWorkerJobQueue2
+;
+class
 ServiceWorkerManagerChild
 ;
 class
@@ -1402,8 +1405,10 @@ Init
 (
 )
 ;
-ServiceWorkerJobQueue
-*
+already_AddRefed
+<
+ServiceWorkerJobQueue2
+>
 GetOrCreateJobQueue
 (
 const
