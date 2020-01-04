@@ -57,6 +57,13 @@ api
 .
 key
 #
+Enable
+Telemetry
+export
+MOZ_TELEMETRY_REPORTING
+=
+1
+#
 Package
 js
 shell
