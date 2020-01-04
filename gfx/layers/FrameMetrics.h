@@ -1913,6 +1913,13 @@ mMaskLayerIndex
 ;
 }
 ;
+typedef
+Maybe
+<
+LayerClip
+>
+MaybeLayerClip
+;
 struct
 ScrollMetadata
 {
