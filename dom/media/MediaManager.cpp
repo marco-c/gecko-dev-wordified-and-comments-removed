@@ -663,7 +663,7 @@ rv
 svc
 -
 >
-GetContentChildShutdown
+GetXpcomWillShutdown
 (
 getter_AddRefs
 (

@@ -1088,6 +1088,9 @@ contentChildShutdown
 webWorkersShutdown
 "
 "
+xpcomWillShutdown
+"
+"
 xpcomThreadsShutdown
 "
 ]
