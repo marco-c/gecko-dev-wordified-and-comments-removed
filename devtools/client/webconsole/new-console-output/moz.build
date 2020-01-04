@@ -125,16 +125,7 @@ MOCHITEST_CHROME_MANIFESTS
 '
 test
 /
-components
-/
 chrome
-.
-ini
-'
-'
-test
-/
-mochitest
 /
 chrome
 .
