@@ -260,8 +260,8 @@ AppendClauseToPendingComposition
 (
 uint32_t
 aLength
-uint32_t
-aAttribute
+TextRangeType
+aTextRangeType
 )
 {
 return
@@ -270,7 +270,7 @@ mPendingComposition
 AppendClause
 (
 aLength
-aAttribute
+aTextRangeType
 )
 ;
 }
@@ -446,8 +446,8 @@ AppendClause
 (
 uint32_t
 aLength
-uint32_t
-aAttribute
+TextRangeType
+aTextRangeType
 )
 ;
 nsresult

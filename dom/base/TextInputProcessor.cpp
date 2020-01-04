@@ -1641,6 +1641,9 @@ kungfuDeathGrip
 mDispatcher
 )
 ;
+TextRangeType
+textRangeType
+;
 switch
 (
 aAttribute
@@ -1658,6 +1661,13 @@ ATTR_CONVERTED_CLAUSE
 case
 ATTR_SELECTED_CLAUSE
 :
+textRangeType
+=
+ToTextRangeType
+(
+aAttribute
+)
+;
 break
 ;
 default
@@ -1695,7 +1705,7 @@ mDispatcher
 AppendClauseToPendingComposition
 (
 aLength
-aAttribute
+textRangeType
 )
 ;
 }

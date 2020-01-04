@@ -13894,6 +13894,9 @@ range
 .
 mRangeType
 =
+TextRangeType
+:
+:
 NS_TEXTRANGE_RAWINPUT
 ;
 event
@@ -14023,7 +14026,10 @@ range
 .
 mRangeType
 =
+ToTextRangeType
+(
 aRangeType
+)
 ;
 range
 .

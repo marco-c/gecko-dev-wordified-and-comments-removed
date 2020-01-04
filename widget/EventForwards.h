@@ -345,6 +345,16 @@ ShortcutKeyCandidate
 >
 AutoShortcutKeyCandidateArray
 ;
+typedef
+uint8_t
+RawTextRangeType
+;
+enum
+class
+TextRangeType
+:
+RawTextRangeType
+;
 struct
 TextRangeStyle
 ;

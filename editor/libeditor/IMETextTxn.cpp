@@ -515,7 +515,7 @@ static
 SelectionType
 ToSelectionType
 (
-uint32_t
+TextRangeType
 aTextRangeType
 )
 {
@@ -525,6 +525,9 @@ aTextRangeType
 )
 {
 case
+TextRangeType
+:
+:
 NS_TEXTRANGE_RAWINPUT
 :
 return
@@ -534,6 +537,9 @@ nsISelectionController
 SELECTION_IME_RAWINPUT
 ;
 case
+TextRangeType
+:
+:
 NS_TEXTRANGE_SELECTEDRAWTEXT
 :
 return
@@ -543,6 +549,9 @@ nsISelectionController
 SELECTION_IME_SELECTEDRAWTEXT
 ;
 case
+TextRangeType
+:
+:
 NS_TEXTRANGE_CONVERTEDTEXT
 :
 return
@@ -552,6 +561,9 @@ nsISelectionController
 SELECTION_IME_CONVERTEDTEXT
 ;
 case
+TextRangeType
+:
+:
 NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
 :
 return
@@ -854,6 +866,9 @@ textRange
 mRangeType
 =
 =
+TextRangeType
+:
+:
 NS_TEXTRANGE_CARETPOSITION
 )
 {

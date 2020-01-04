@@ -2006,7 +2006,7 @@ void
 aClosure
 )
 ;
-uint32_t
+TextRangeType
 ConvertToTextRangeType
 (
 uint32_t

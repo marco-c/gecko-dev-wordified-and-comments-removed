@@ -9631,6 +9631,9 @@ textRange
 mRangeType
 !
 =
+TextRangeType
+:
+:
 NS_TEXTRANGE_RAWINPUT
 )
 {
