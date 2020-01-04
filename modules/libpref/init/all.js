@@ -40042,7 +40042,7 @@ mapped_arraybuffer
 .
 enabled
 "
-false
+true
 )
 ;
 pref

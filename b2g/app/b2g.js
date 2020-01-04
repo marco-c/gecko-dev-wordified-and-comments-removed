@@ -6561,9 +6561,6 @@ skipDeviceRegistration
 true
 )
 ;
-#
-ifndef
-XP_WIN
 pref
 (
 "
@@ -6576,8 +6573,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
