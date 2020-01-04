@@ -148,6 +148,11 @@ gfxDrawable
 h
 '
 '
+gfxEnv
+.
+h
+'
+'
 gfxFailure
 .
 h

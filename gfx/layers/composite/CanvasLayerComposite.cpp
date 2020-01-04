@@ -24,7 +24,7 @@ h
 #
 include
 "
-gfxUtils
+gfxEnv
 .
 h
 "
@@ -379,10 +379,12 @@ ifdef
 MOZ_DUMP_PAINTING
 if
 (
-gfxUtils
+gfxEnv
 :
 :
-sDumpCompositorTextures
+DumpCompositorTextures
+(
+)
 )
 {
 RefPtr
