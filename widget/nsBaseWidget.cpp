@@ -13996,8 +13996,8 @@ WidgetGUIEvent
 *
 aGuiEvent
 const
-nsAutoCString
-&
+char
+*
 aWidgetName
 int32_t
 aWindowID
@@ -14145,10 +14145,6 @@ void
 )
 aWidget
 aWidgetName
-.
-get
-(
-)
 aWindowID
 aGuiEvent
 -
@@ -14182,8 +14178,8 @@ nsIntRegion
 &
 aRegion
 const
-nsAutoCString
-&
+char
+*
 aWidgetName
 int32_t
 aWindowID
@@ -14289,10 +14285,6 @@ void
 )
 aWidget
 aWidgetName
-.
-get
-(
-)
 aWindowID
 rect
 .
@@ -14335,8 +14327,8 @@ LayoutDeviceIntRect
 *
 aRect
 const
-nsAutoCString
-&
+char
+*
 aWidgetName
 int32_t
 aWindowID
@@ -14419,10 +14411,6 @@ void
 )
 aWidget
 aWidgetName
-.
-get
-(
-)
 aWindowID
 )
 ;

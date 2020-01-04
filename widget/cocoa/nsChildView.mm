@@ -7712,12 +7712,9 @@ event
 >
 widget
 event
-nsAutoCString
-(
 "
 something
 "
-)
 0
 )
 ;

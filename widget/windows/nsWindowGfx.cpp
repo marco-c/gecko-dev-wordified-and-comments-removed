@@ -1261,12 +1261,9 @@ debug_DumpPaintEvent
 stdout
 this
 region
-nsAutoCString
-(
 "
 noname
 "
-)
 (
 int32_t
 )
