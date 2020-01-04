@@ -1718,6 +1718,8 @@ stream
 "
 AudioStream
 "
+nullptr
+&
 aParams
 latency
 DataCallback_S
