@@ -300,13 +300,13 @@ cell
 )
 .
 length
-200
+160
 "
 Table
 should
 display
 all
-200
+160
 items
 after
 scrolling
