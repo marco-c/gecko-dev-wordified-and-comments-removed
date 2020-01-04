@@ -196,7 +196,7 @@ toConstant
 )
 -
 >
-value
+toJSValue
 (
 )
 )
