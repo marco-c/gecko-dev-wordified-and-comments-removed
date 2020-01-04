@@ -253,6 +253,9 @@ LayerTransactionParent
 class
 PAPZParent
 ;
+class
+CrossProcessCompositorParent
+;
 struct
 ScopedLayerTreeRegistration
 {
@@ -1360,7 +1363,7 @@ LayerManagerComposite
 *
 mLayerManager
 ;
-PCompositorParent
+CrossProcessCompositorParent
 *
 mCrossProcessParent
 ;
@@ -1394,6 +1397,13 @@ RefPtr
 CompositorUpdateObserver
 >
 mLayerTreeClearedObserver
+;
+PCompositorParent
+*
+CrossProcessPCompositor
+(
+)
+const
 ;
 }
 ;
