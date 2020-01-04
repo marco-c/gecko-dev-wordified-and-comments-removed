@@ -1648,7 +1648,6 @@ viewReportOkClicked
 id
 )
 sender
-;
 {
 [
 mViewReportWindow
