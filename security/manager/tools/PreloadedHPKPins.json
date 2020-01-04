@@ -1236,10 +1236,13 @@ Secure
 Server
 CA
 "
+/
+/
 "
 Equifax
 Secure
-CA
+Certificate
+Authority
 "
 "
 GeoTrust
