@@ -4901,8 +4901,6 @@ nsBorderColors
 *
 mBorderColors
 ;
-public
-:
 nsStyleCorners
 mBorderRadius
 ;

@@ -422,13 +422,6 @@ nsIFrame
 aFrameList
 )
 ;
-private
-:
-struct
-FloatInfo
-;
-public
-:
 bool
 HasAnyFloats
 (
@@ -800,8 +793,6 @@ FloatInfo
 ;
 #
 endif
-private
-:
 nsRect
 mRect
 ;
