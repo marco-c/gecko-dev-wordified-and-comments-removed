@@ -182,7 +182,7 @@ cx
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 EVAL

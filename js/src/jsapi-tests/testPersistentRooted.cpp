@@ -291,10 +291,7 @@ finalizeCount
 ;
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 return
@@ -370,10 +367,7 @@ nullptr
 ;
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 CHECK
@@ -423,10 +417,7 @@ obj
 ;
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 CHECK
@@ -538,10 +529,7 @@ nullptr
 ;
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 CHECK
@@ -702,10 +690,7 @@ nullptr
 ;
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 CHECK
@@ -819,10 +804,7 @@ initialized
 ;
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 CHECK

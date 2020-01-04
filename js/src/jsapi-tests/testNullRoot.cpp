@@ -41,11 +41,6 @@ nullptr
 JS_GC
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 return

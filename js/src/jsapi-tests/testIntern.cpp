@@ -184,7 +184,7 @@ nullptr
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 CHECK

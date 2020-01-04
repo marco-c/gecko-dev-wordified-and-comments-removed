@@ -11378,10 +11378,7 @@ ClearDebuggerEventQueue
 ;
 JS_GC
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 mWorkerPrivate

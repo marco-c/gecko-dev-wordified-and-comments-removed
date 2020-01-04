@@ -743,11 +743,6 @@ rf
 JS_GC
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 CHECK

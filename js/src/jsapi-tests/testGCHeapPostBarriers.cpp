@@ -46,11 +46,6 @@ endif
 JS_GC
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 JS
@@ -86,11 +81,6 @@ get
 JS_GC
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 CHECK

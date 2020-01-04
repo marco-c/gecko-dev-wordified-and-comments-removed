@@ -239,7 +239,7 @@ weak
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 CHECK
@@ -306,7 +306,7 @@ nullptr
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 CHECK

@@ -183,7 +183,7 @@ map
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 CHECK
@@ -221,7 +221,7 @@ nullptr
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 CHECK
@@ -326,7 +326,7 @@ JSGC_MODE_INCREMENTAL
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 JS
@@ -688,7 +688,7 @@ nullptr
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 CHECK

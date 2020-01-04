@@ -78,7 +78,7 @@ cx
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 JS
@@ -207,7 +207,7 @@ nursery2
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 CHECK
@@ -258,7 +258,7 @@ nullptr
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 CHECK
@@ -334,7 +334,7 @@ cx
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 JS
@@ -468,7 +468,7 @@ nursery2
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 CHECK
@@ -519,7 +519,7 @@ nullptr
 ;
 JS_GC
 (
-rt
+cx
 )
 ;
 CHECK
