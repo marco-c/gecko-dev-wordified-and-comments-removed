@@ -164,6 +164,9 @@ attribute
 AString
 filename
 ;
+[
+implicit_jscontext
+]
 readonly
 attribute
 AString
