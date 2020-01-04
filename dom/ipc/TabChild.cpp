@@ -7482,6 +7482,10 @@ CSSSize
 &
 size
 const
+nsSizeMode
+&
+sizeMode
+const
 ScreenOrientationInternal
 &
 orientation
@@ -7586,6 +7590,14 @@ screenSize
 .
 height
 true
+)
+;
+mPuppetWidget
+-
+>
+SetSizeMode
+(
+sizeMode
 )
 ;
 mPuppetWidget

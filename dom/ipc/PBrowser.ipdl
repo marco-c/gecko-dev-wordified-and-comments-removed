@@ -823,6 +823,15 @@ EventForwards
 h
 "
 ;
+using
+nsSizeMode
+from
+"
+nsIWidgetListener
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -3490,6 +3499,8 @@ CSSRect
 rect
 CSSSize
 size
+nsSizeMode
+sizeMode
 ScreenOrientationInternal
 orientation
 LayoutDeviceIntPoint

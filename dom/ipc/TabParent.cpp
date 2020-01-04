@@ -5001,6 +5001,12 @@ SendUpdateDimensions
 (
 unscaledRect
 unscaledSize
+widget
+-
+>
+SizeMode
+(
+)
 orientation
 chromeOffset
 )
