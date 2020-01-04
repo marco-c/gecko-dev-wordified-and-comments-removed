@@ -444,6 +444,13 @@ self
 _update_tools
 is
 None
+and
+self
+.
+homedir
+is
+not
+None
 :
             
 self
@@ -648,9 +655,7 @@ bin
 '
 )
             
-self
-.
-_bindir
+paths
 =
 glob
 .
@@ -658,6 +663,16 @@ glob
 (
 path
 )
+            
+if
+paths
+:
+                
+self
+.
+_bindir
+=
+paths
 [
 0
 ]
