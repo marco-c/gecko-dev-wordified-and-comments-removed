@@ -3632,11 +3632,6 @@ Restarter
 java
 '
 '
-Restrictions
-.
-java
-'
-'
 restrictions
 /
 DefaultConfiguration
@@ -3682,6 +3677,13 @@ java
 restrictions
 /
 RestrictionProvider
+.
+java
+'
+'
+restrictions
+/
+Restrictions
 .
 java
 '
