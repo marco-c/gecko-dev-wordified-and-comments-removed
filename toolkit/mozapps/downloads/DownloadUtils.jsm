@@ -1785,7 +1785,13 @@ else
 {
 if
 (
+typeof
 Intl
+!
+=
+"
+undefined
+"
 )
 {
 aBytes
