@@ -171,6 +171,13 @@ Length
 )
 ;
 }
+bool
+hadTransform
+=
+HasTransform
+(
+)
+;
 nsresult
 rv
 =
@@ -211,6 +218,10 @@ mIsAttrSet
 =
 true
 ;
+mHadTransformBeforeLastBaseValChange
+=
+hadTransform
+;
 }
 return
 rv
@@ -224,6 +235,12 @@ ClearBaseValue
 (
 )
 {
+mHadTransformBeforeLastBaseValChange
+=
+HasTransform
+(
+)
+;
 SVGAnimatedTransformList
 *
 domWrapper

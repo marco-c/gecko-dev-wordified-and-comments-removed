@@ -354,6 +354,15 @@ mTransforms
 HasTransform
 (
 )
+|
+|
+!
+mTransforms
+-
+>
+HadTransformBeforeLastBaseValChange
+(
+)
 )
 {
 isAdditionOrRemoval

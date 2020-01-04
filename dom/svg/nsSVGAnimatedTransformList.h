@@ -80,6 +80,10 @@ mIsAttrSet
 (
 false
 )
+mHadTransformBeforeLastBaseValChange
+(
+false
+)
 {
 }
 const
@@ -201,6 +205,16 @@ return
 mAnimVal
 ;
 }
+bool
+HadTransformBeforeLastBaseValChange
+(
+)
+const
+{
+return
+mHadTransformBeforeLastBaseValChange
+;
+}
 nsISMILAttr
 *
 ToSMILAttr
@@ -223,6 +237,9 @@ mAnimVal
 ;
 bool
 mIsAttrSet
+;
+bool
+mHadTransformBeforeLastBaseValChange
 ;
 struct
 SMILAnimatedTransformList
