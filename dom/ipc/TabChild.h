@@ -2844,6 +2844,11 @@ NotifyTabContextUpdated
 )
 ;
 void
+UpdateFrameType
+(
+)
+;
+void
 ActorDestroy
 (
 ActorDestroyReason
