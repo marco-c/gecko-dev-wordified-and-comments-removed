@@ -298,16 +298,14 @@ updated
 )
 ;
 let
-onShown
+onReady
 =
 colorPicker
-.
-tooltip
 .
 once
 (
 "
-shown
+ready
 "
 )
 ;
@@ -395,7 +393,7 @@ shown
 )
 ;
 yield
-onShown
+onReady
 ;
 ok
 (

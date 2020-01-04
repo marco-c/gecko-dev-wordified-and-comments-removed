@@ -144,16 +144,14 @@ tooltip
 )
 ;
 let
-onShown
+onBezierWidgetReady
 =
 bezierTooltip
-.
-tooltip
 .
 once
 (
 "
-shown
+ready
 "
 )
 ;
@@ -164,7 +162,7 @@ click
 )
 ;
 yield
-onShown
+onBezierWidgetReady
 ;
 let
 widget

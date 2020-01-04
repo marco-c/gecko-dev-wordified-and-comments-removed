@@ -380,16 +380,14 @@ exists
 )
 ;
 let
-onShown
+onBezierWidgetReady
 =
 bezier
-.
-tooltip
 .
 once
 (
 "
-shown
+ready
 "
 )
 ;
@@ -400,7 +398,7 @@ click
 )
 ;
 yield
-onShown
+onBezierWidgetReady
 ;
 ok
 (
