@@ -3006,6 +3006,8 @@ js
 Sprinter
 *
 sp
+HandleScript
+script
 jit
 :
 :
