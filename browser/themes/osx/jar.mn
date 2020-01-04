@@ -81,11 +81,6 @@ browser
 sanitizeDialog
 .
 css
-(
-sanitizeDialog
-.
-css
-)
 skin
 /
 classic
@@ -586,11 +581,6 @@ browser
 browser
 .
 css
-(
-browser
-.
-css
-)
 *
 skin
 /

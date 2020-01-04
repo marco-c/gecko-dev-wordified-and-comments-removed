@@ -64,11 +64,6 @@ browser
 tabview
 .
 css
-(
-tabview
-.
-css
-)
 *
 content
 /
@@ -77,11 +72,6 @@ browser
 tabview
 .
 js
-(
-tabview
-.
-js
-)
 content
 /
 browser
@@ -89,11 +79,6 @@ browser
 tabview
 .
 html
-(
-tabview
-.
-html
-)
 content
 /
 browser

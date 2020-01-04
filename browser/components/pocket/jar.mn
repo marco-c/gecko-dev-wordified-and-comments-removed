@@ -66,11 +66,6 @@ pocket
 main
 .
 js
-(
-main
-.
-js
-)
 content
 /
 browser
@@ -80,11 +75,6 @@ pocket
 pktApi
 .
 js
-(
-pktApi
-.
-js
-)
 content
 /
 browser

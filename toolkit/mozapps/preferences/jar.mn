@@ -74,11 +74,6 @@ preferences
 fontbuilder
 .
 js
-(
-fontbuilder
-.
-js
-)
 content
 /
 mozapps
@@ -88,11 +83,6 @@ preferences
 changemp
 .
 js
-(
-changemp
-.
-js
-)
 content
 /
 mozapps
@@ -102,11 +92,6 @@ preferences
 changemp
 .
 xul
-(
-changemp
-.
-xul
-)
 content
 /
 mozapps
@@ -116,11 +101,6 @@ preferences
 removemp
 .
 js
-(
-removemp
-.
-js
-)
 content
 /
 mozapps
@@ -130,8 +110,3 @@ preferences
 removemp
 .
 xul
-(
-removemp
-.
-xul
-)
