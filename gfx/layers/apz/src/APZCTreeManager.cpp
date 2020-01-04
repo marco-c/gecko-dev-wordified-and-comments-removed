@@ -3068,6 +3068,12 @@ AsMouseInput
 (
 )
 ;
+mouseInput
+.
+mHandledByAPZ
+=
+true
+;
 if
 (
 DragTracker
@@ -5095,7 +5101,9 @@ mFlags
 .
 mHandledByAPZ
 =
-true
+input
+.
+mHandledByAPZ
 ;
 return
 status
