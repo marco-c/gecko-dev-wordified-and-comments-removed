@@ -490,12 +490,6 @@ nsSVGPaintingProperty
 *
 property
 =
-static_cast
-<
-nsSVGPaintingProperty
-*
->
-(
 Properties
 (
 )
@@ -505,9 +499,8 @@ Get
 nsSVGEffects
 :
 :
-HrefProperty
+HrefAsPaintingProperty
 (
-)
 )
 )
 ;
@@ -617,7 +610,7 @@ this
 nsSVGEffects
 :
 :
-HrefProperty
+HrefAsPaintingProperty
 (
 )
 )
@@ -855,7 +848,7 @@ Delete
 nsSVGEffects
 :
 :
-HrefProperty
+HrefAsPaintingProperty
 (
 )
 )

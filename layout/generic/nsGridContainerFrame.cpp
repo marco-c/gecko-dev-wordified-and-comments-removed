@@ -10814,12 +10814,6 @@ nsRect
 *
 cb
 =
-static_cast
-<
-nsRect
-*
->
-(
 aChild
 -
 >
@@ -10831,7 +10825,6 @@ Get
 (
 GridItemContainingBlockRect
 (
-)
 )
 )
 ;
@@ -27119,12 +27112,6 @@ nsRect
 *
 cb
 =
-static_cast
-<
-nsRect
-*
->
-(
 child
 -
 >
@@ -27136,7 +27123,6 @@ Get
 (
 GridItemContainingBlockRect
 (
-)
 )
 )
 ;
@@ -28993,15 +28979,10 @@ if
 prevInFlow
 )
 {
-auto
-sharedGridData
-=
-static_cast
-<
 SharedGridData
 *
->
-(
+sharedGridData
+=
 Properties
 (
 )
@@ -29013,7 +28994,6 @@ SharedGridData
 :
 Prop
 (
-)
 )
 )
 ;
