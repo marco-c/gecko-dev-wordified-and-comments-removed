@@ -1303,9 +1303,9 @@ out_descriptor
 mTextureClient
 -
 >
-MarkShared
-(
-)
+mWorkaroundAnnoyingSharedSurfaceOwnershipIssues
+=
+true
 ;
 return
 mTextureClient
