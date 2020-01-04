@@ -7327,6 +7327,13 @@ SetDocshellUserAgentOverride
 (
 )
 ;
+HttpBaseChannel
+:
+:
+SetLoadGroupUserAgentOverride
+(
+)
+;
 MOZ_ASSERT_IF
 (
 mPostRedirectChannelShouldUpgrade
