@@ -20058,10 +20058,8 @@ pobj
 hasUncacheableProto
 (
 )
-)
-{
-MOZ_ASSERT
-(
+&
+&
 !
 pobj
 -
@@ -20070,7 +20068,7 @@ isSingleton
 (
 )
 )
-;
+{
 Address
 groupAddr
 (
