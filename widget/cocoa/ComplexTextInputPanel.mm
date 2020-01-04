@@ -283,13 +283,6 @@ nsChildView
 .
 h
 "
-#
-include
-"
-nsCocoaFeatures
-.
-h
-"
 using
 namespace
 mozilla

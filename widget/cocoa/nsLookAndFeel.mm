@@ -2018,12 +2018,7 @@ eIntID_MacLionTheme
 :
 aResult
 =
-nsCocoaFeatures
-:
-:
-OnLionOrLater
-(
-)
+1
 ;
 break
 ;
