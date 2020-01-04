@@ -9475,6 +9475,10 @@ targetClause
 mEndOffset
 )
 {
+mCursorPosition
+=
+NO_IME_CARET
+;
 MOZ_LOG
 (
 gIMMLog
@@ -9498,6 +9502,12 @@ in
 the
 target
 clause
+"
+"
+now
+mCursorPosition
+is
+NO_IME_CARET
 "
 )
 )
