@@ -744,6 +744,7 @@ enum
 SpecialType
 {
 eSpecialType_None
+eSpecialType_Test
 eSpecialType_Flash
 eSpecialType_Java
 eSpecialType_Silverlight
