@@ -494,8 +494,16 @@ marionette
 .
 set_window_size
 (
-100000
-100000
+4
+*
+self
+.
+max_width
+4
+*
+self
+.
+max_height
 )
         
 size
