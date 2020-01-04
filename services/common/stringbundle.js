@@ -8,7 +8,7 @@ StringBundle
 "
 ]
 ;
-var
+const
 {
 classes
 :

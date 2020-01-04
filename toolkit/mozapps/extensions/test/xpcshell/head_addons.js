@@ -1,11 +1,11 @@
-var
+const
 AM_Cc
 =
 Components
 .
 classes
 ;
-var
+const
 AM_Ci
 =
 Components
@@ -476,7 +476,7 @@ TEST_UNPACKED
 =
 false
 ;
-var
+let
 resHandler
 =
 Services
@@ -497,7 +497,7 @@ AM_Ci
 nsISubstitutingProtocolHandler
 )
 ;
-var
+let
 dataURI
 =
 NetUtil

@@ -1,4 +1,4 @@
-var
+const
 Cu
 =
 Components

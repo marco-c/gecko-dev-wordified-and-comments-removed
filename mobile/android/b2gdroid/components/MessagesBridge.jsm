@@ -178,7 +178,7 @@ browser
 )
 ;
 }
-var
+let
 _blockedSettings
 =
 new

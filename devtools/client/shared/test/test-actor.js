@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+let
 {
 Cc
 Ci

@@ -489,7 +489,7 @@ manifest_malformed_json
 }
 "
 ;
-var
+let
 packagedAppUtils
 ;
 function

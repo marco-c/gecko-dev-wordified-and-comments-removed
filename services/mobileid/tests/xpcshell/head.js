@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 {
 classes
 :
@@ -21,7 +21,7 @@ Cu
 =
 Components
 ;
-var
+const
 Cm
 =
 Components

@@ -154,7 +154,7 @@ close
 ]
 )
 ;
-var
+let
 gCustomButtons
 =
 new

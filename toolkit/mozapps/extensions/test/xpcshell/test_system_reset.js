@@ -40,7 +40,7 @@ features
 ]
 )
 ;
-var
+let
 dir
 =
 FileUtils

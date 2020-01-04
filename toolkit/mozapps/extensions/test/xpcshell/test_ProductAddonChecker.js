@@ -95,7 +95,7 @@ initWithPath
 "
 )
 ;
-var
+let
 testserver
 =
 new
@@ -128,7 +128,7 @@ start
 (
 )
 ;
-var
+let
 root
 =
 testserver

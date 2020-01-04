@@ -127,7 +127,7 @@ Services
 "
 )
 ;
-var
+let
 AboutDebugging
 =
 {

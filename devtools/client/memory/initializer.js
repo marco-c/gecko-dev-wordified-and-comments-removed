@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 {
 classes
 :
@@ -89,7 +89,7 @@ controller
 "
 )
 ;
-var
+let
 gToolbox
 gTarget
 gFront

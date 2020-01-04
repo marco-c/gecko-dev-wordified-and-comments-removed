@@ -22,14 +22,14 @@ s
 1
 ;
 }
-var
+const
 Cc
 =
 Components
 .
 classes
 ;
-var
+const
 Ci
 =
 Components

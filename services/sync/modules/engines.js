@@ -20,7 +20,7 @@ Store
 "
 ]
 ;
-var
+const
 {
 classes
 :

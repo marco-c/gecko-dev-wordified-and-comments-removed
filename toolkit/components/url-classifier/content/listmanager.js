@@ -53,7 +53,7 @@ MPL
 0
 /
 .
-var
+const
 Cu
 =
 Components

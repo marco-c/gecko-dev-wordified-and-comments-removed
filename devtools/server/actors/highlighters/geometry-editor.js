@@ -79,7 +79,7 @@ GEOMETRY_LABEL_SIZE
 =
 6
 ;
-var
+let
 GeoProp
 =
 {

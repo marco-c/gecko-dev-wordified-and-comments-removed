@@ -17,7 +17,7 @@ jsm
 "
 )
 ;
-var
+const
 CC
 =
 Components

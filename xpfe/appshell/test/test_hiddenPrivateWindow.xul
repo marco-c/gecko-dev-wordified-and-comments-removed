@@ -280,7 +280,7 @@ javascript
 [
 CDATA
 [
-var
+const
 Cu
 =
 Components

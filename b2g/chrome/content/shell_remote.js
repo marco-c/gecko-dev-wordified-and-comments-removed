@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 {
 utils
 :
@@ -38,7 +38,7 @@ aStr
 )
 {
 }
-var
+let
 remoteShell
 =
 {

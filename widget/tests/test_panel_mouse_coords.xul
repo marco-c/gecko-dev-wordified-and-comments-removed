@@ -321,14 +321,14 @@ waitForExplicitFinish
 (
 )
 ;
-var
+let
 Cc
 =
 Components
 .
 classes
 ;
-var
+let
 Ci
 =
 Components

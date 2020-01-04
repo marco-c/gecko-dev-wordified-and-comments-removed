@@ -23,7 +23,7 @@ Str
 "
 ]
 ;
-var
+const
 {
 classes
 :

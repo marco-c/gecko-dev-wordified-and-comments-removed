@@ -22,7 +22,7 @@ RotaryTracker
 "
 ]
 ;
-var
+const
 {
 utils
 :

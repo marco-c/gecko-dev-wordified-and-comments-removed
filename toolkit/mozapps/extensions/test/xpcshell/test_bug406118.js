@@ -36,7 +36,7 @@ org
 "
 ]
 ;
-var
+const
 {
 classes
 :

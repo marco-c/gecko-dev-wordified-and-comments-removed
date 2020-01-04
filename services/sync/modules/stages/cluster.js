@@ -8,7 +8,7 @@ ClusterManager
 "
 ]
 ;
-var
+const
 {
 utils
 :

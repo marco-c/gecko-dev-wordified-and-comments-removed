@@ -3,14 +3,14 @@ use
 strict
 "
 ;
-var
+const
 Cu
 =
 Components
 .
 utils
 ;
-var
+const
 Ci
 =
 Components

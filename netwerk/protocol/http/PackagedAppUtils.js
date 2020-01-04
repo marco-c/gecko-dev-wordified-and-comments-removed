@@ -84,7 +84,7 @@ PackagedAppUtils
 )
 {
 }
-var
+let
 DEBUG
 =
 0

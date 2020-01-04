@@ -19,7 +19,7 @@ jsm
 "
 )
 ;
-var
+const
 Cm
 =
 Components

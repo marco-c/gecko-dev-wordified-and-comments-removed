@@ -22,7 +22,7 @@ TokenServerClientServerError
 "
 ]
 ;
-var
+const
 {
 classes
 :

@@ -11,7 +11,7 @@ LoginRec
 '
 ]
 ;
-var
+const
 {
 classes
 :

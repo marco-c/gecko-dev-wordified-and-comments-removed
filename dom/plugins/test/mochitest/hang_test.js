@@ -19,14 +19,14 @@ jsm
 "
 )
 ;
-var
+const
 Cc
 =
 Components
 .
 classes
 ;
-var
+const
 Ci
 =
 Components

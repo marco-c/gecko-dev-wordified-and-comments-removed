@@ -11,7 +11,7 @@ TabSetRecord
 "
 ]
 ;
-var
+const
 {
 classes
 :

@@ -8774,7 +8774,7 @@ PLACES_STRING_BUNDLE_URI
 }
 )
 ;
-var
+let
 promiseCanCloseConnection
 =
 function

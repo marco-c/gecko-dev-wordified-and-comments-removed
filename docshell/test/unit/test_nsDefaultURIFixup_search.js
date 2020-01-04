@@ -1,4 +1,4 @@
-var
+let
 urifixup
 =
 Cc
@@ -127,7 +127,7 @@ get
 kSearchEngineURL
 )
 ;
-var
+let
 oldDefaultEngine
 =
 Services
@@ -151,7 +151,7 @@ getEngineByName
 kSearchEngineID
 )
 ;
-var
+let
 selectedName
 =
 Services
@@ -231,7 +231,7 @@ enabled
 }
 )
 ;
-var
+let
 isWin
 =
 AppConstants
@@ -243,7 +243,7 @@ platform
 win
 "
 ;
-var
+let
 data
 =
 [
@@ -904,7 +904,7 @@ html
 }
 ]
 ;
-var
+let
 extProtocolSvc
 =
 Cc
@@ -987,7 +987,7 @@ run_next_test
 )
 ;
 }
-var
+let
 len
 =
 data

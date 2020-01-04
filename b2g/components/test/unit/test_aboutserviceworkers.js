@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 {
 utils
 :

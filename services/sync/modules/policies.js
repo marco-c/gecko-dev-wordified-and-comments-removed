@@ -11,7 +11,7 @@ SyncScheduler
 "
 ]
 ;
-var
+const
 {
 classes
 :

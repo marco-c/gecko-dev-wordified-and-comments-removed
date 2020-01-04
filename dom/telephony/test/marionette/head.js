@@ -1014,14 +1014,14 @@ return
 modems
 ;
 }
-var
+let
 Modems
 =
 modemHelperGenerator
 (
 )
 ;
-var
+let
 Modem
 =
 Modems

@@ -53,7 +53,7 @@ aStr
 )
 {
 }
-var
+let
 window
 =
 Services
@@ -69,7 +69,7 @@ browser
 "
 )
 ;
-var
+let
 MultiscreenHandler
 =
 {

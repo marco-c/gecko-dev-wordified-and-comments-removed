@@ -10,7 +10,7 @@ Expect
 '
 ]
 ;
-var
+const
 Cu
 =
 Components
