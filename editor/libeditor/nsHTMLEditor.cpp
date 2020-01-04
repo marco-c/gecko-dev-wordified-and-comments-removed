@@ -14871,8 +14871,8 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 selection
 this
@@ -19588,8 +19588,8 @@ nsIEditor
 eNext
 )
 ;
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 selection
 this

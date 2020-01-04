@@ -1653,8 +1653,8 @@ rv
 else
 {
 {
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 selection
 this

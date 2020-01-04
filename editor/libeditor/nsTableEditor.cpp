@@ -7882,8 +7882,8 @@ selection
 NS_ERROR_FAILURE
 )
 ;
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 selection
 this
@@ -10219,8 +10219,8 @@ res
 res
 )
 ;
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 selection
 this

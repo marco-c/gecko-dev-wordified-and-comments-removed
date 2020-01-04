@@ -236,6 +236,9 @@ class
 AutoRules
 ;
 class
+AutoSelectionRestorer
+;
+class
 AutoTransactionsConserveSelection
 ;
 class
@@ -2779,11 +2782,14 @@ class
 mozilla
 :
 :
-AutoTransactionsConserveSelection
+AutoSelectionRestorer
 ;
 friend
 class
-nsAutoSelectionReset
+mozilla
+:
+:
+AutoTransactionsConserveSelection
 ;
 friend
 class

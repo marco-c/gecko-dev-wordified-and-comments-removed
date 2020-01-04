@@ -14413,8 +14413,8 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 aSelection
 mHTMLEditor
@@ -14704,7 +14704,7 @@ theListItem
 0
 )
 ;
-selectionResetter
+selectionRestorer
 .
 Abort
 (
@@ -15813,8 +15813,8 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 aSelection
 mHTMLEditor
@@ -16159,8 +16159,8 @@ res
 res
 )
 ;
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 &
 aSelection
@@ -16494,7 +16494,7 @@ GetParentNode
 offset
 )
 ;
-selectionResetter
+selectionRestorer
 .
 Abort
 (
@@ -16667,7 +16667,7 @@ block
 0
 )
 ;
-selectionResetter
+selectionRestorer
 .
 Abort
 (
@@ -16994,8 +16994,8 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 aSelection
 mHTMLEditor
@@ -17322,7 +17322,7 @@ theBlock
 0
 )
 ;
-selectionResetter
+selectionRestorer
 .
 Abort
 (
@@ -18064,8 +18064,8 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 aSelection
 mHTMLEditor
@@ -18289,7 +18289,7 @@ theBlock
 0
 )
 ;
-selectionResetter
+selectionRestorer
 .
 Abort
 (
@@ -19183,8 +19183,8 @@ res
 )
 ;
 {
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 &
 aSelection
@@ -21789,8 +21789,8 @@ rv
 rv
 )
 ;
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 &
 aSelection
@@ -22205,7 +22205,7 @@ div
 0
 )
 ;
-selectionResetter
+selectionRestorer
 .
 Abort
 (
@@ -40765,8 +40765,8 @@ res
 res
 )
 ;
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 &
 aSelection
@@ -40986,7 +40986,7 @@ positionedDiv
 0
 )
 ;
-selectionResetter
+selectionRestorer
 .
 Abort
 (
@@ -41763,8 +41763,8 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 aSelection
 mHTMLEditor
@@ -41884,8 +41884,8 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsAutoSelectionReset
-selectionResetter
+AutoSelectionRestorer
+selectionRestorer
 (
 aSelection
 mHTMLEditor
