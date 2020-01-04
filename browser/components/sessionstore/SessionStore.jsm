@@ -3587,6 +3587,13 @@ tab
 ;
 }
 else
+if
+(
+!
+data
+.
+isRemotenessUpdate
+)
 {
 let
 tabData
