@@ -1193,11 +1193,6 @@ DecodeError
 (
 )
 ;
-nsresult
-EnqueueDecodeMetadataTask
-(
-)
-;
 void
 EnqueueLoadedMetadataEvent
 (
