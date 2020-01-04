@@ -342,7 +342,6 @@ state
 =
 XPT_NewXDRState
 (
-XPT_DECODE
 buf
 length
 )
