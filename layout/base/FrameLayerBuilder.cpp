@@ -17249,6 +17249,14 @@ HasClip
 if
 (
 shouldFixToViewport
+&
+&
+mManager
+-
+>
+IsWidgetLayerManager
+(
+)
 )
 {
 LayerClip
