@@ -16,7 +16,7 @@ mozilla
 /
 layers
 /
-CompositorChild
+CompositorBridgeChild
 .
 h
 "
@@ -27,7 +27,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -4052,7 +4052,7 @@ mozilla
 layers
 :
 :
-CompositorParent
+CompositorBridgeParent
 :
 :
 StartUp
@@ -4162,7 +4162,7 @@ endif
 layers
 :
 :
-CompositorParent
+CompositorBridgeParent
 :
 :
 ShutDown

@@ -192,7 +192,7 @@ class
 CompositingRenderTarget
 ;
 class
-CompositorParent
+CompositorBridgeParent
 ;
 class
 LayerManagerComposite
@@ -225,7 +225,7 @@ Compositor
 explicit
 Compositor
 (
-CompositorParent
+CompositorBridgeParent
 *
 aParent
 =
@@ -1313,7 +1313,7 @@ mCompositorID
 DiagnosticTypes
 mDiagnosticTypes
 ;
-CompositorParent
+CompositorBridgeParent
 *
 mParent
 ;

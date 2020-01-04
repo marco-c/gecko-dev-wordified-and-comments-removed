@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_layers_CompositorParent_h
+mozilla_layers_CompositorBridgeParent_h
 #
 define
-mozilla_layers_CompositorParent_h
+mozilla_layers_CompositorBridgeParent_h
 #
 include
 <
@@ -251,7 +251,7 @@ class
 Compositor
 ;
 class
-CompositorParent
+CompositorBridgeParent
 ;
 class
 LayerManagerComposite
@@ -263,7 +263,7 @@ class
 PAPZParent
 ;
 class
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 ;
 struct
 ScopedLayerTreeRegistration
@@ -362,7 +362,7 @@ aCompositorThread
 ;
 friend
 class
-CompositorParent
+CompositorBridgeParent
 ;
 }
 ;
@@ -378,9 +378,9 @@ public
 explicit
 CompositorVsyncScheduler
 (
-CompositorParent
+CompositorBridgeParent
 *
-aCompositorParent
+aCompositorBridgeParent
 nsIWidget
 *
 aWidget
@@ -643,9 +643,9 @@ mOwner
 ;
 }
 ;
-CompositorParent
+CompositorBridgeParent
 *
-mCompositorParent
+mCompositorBridgeParent
 ;
 TimeStamp
 mLastCompose
@@ -767,7 +767,7 @@ CompositorUpdateObserver
 }
 ;
 class
-CompositorParent
+CompositorBridgeParent
 final
 :
 public
@@ -777,7 +777,7 @@ ShadowLayersManager
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_MAIN_THREAD_DESTRUCTION
 (
-CompositorParent
+CompositorBridgeParent
 )
 friend
 class
@@ -786,7 +786,7 @@ CompositorVsyncScheduler
 public
 :
 explicit
-CompositorParent
+CompositorBridgeParent
 (
 nsIWidget
 *
@@ -1328,7 +1328,7 @@ InvalidateRemoteLayers
 )
 ;
 static
-CompositorParent
+CompositorBridgeParent
 *
 GetCompositor
 (
@@ -1425,7 +1425,7 @@ GeckoContentController
 >
 mController
 ;
-CompositorParent
+CompositorBridgeParent
 *
 mParent
 ;
@@ -1433,7 +1433,7 @@ LayerManagerComposite
 *
 mLayerManager
 ;
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 *
 mCrossProcessParent
 ;
@@ -1649,7 +1649,7 @@ protected
 :
 virtual
 ~
-CompositorParent
+CompositorBridgeParent
 (
 )
 ;
@@ -1829,7 +1829,7 @@ static
 void
 AddCompositor
 (
-CompositorParent
+CompositorBridgeParent
 *
 compositor
 uint64_t
@@ -1838,7 +1838,7 @@ id
 )
 ;
 static
-CompositorParent
+CompositorBridgeParent
 *
 RemoveCompositor
 (
@@ -2010,7 +2010,7 @@ mPluginWindowsHidden
 endif
 DISALLOW_EVIL_CONSTRUCTORS
 (
-CompositorParent
+CompositorBridgeParent
 )
 ;
 }

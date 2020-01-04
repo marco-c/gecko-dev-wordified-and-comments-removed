@@ -907,7 +907,7 @@ CompositorThread
 The
 *
 *
-CompositorParent
+CompositorBridgeParent
 *
 *
 then
@@ -974,7 +974,7 @@ required
 Every
 *
 *
-CompositorParent
+CompositorBridgeParent
 *
 *
 is
@@ -1002,7 +1002,7 @@ CompositorVsyncDispatcher
 Each
 *
 *
-CompositorParent
+CompositorBridgeParent
 *
 *
 is
@@ -1030,7 +1030,7 @@ created
 The
 *
 *
-CompositorParent
+CompositorBridgeParent
 *
 *
 *
@@ -1120,7 +1120,7 @@ notifying
 the
 *
 *
-CompositorParent
+CompositorBridgeParent
 *
 *
 that
@@ -2061,23 +2061,23 @@ it
 first
 destroys
 the
-CompositorChild
+CompositorBridgeChild
 .
-CompositorChild
+CompositorBridgeChild
 sends
 a
 sync
 IPC
 call
 to
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvStop
 which
 calls
 [
-CompositorParent
+CompositorBridgeParent
 :
 :
 Destroy
@@ -2107,7 +2107,7 @@ layers
 /
 ipc
 /
-CompositorParent
+CompositorBridgeParent
 .
 cpp
 #
@@ -2129,7 +2129,7 @@ the
 parent
 process
 .
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvStop
@@ -2156,7 +2156,7 @@ CompositorVsyncObserver
 to
 nullptr
 .
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvStop
@@ -2164,7 +2164,7 @@ also
 explicitly
 keeps
 the
-CompositorParent
+CompositorBridgeParent
 alive
 and
 posts
@@ -2172,7 +2172,7 @@ another
 task
 to
 run
-CompositorParent
+CompositorBridgeParent
 :
 :
 DeferredDestroy
@@ -2207,7 +2207,7 @@ composite
 tasks
 .
 Once
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvStop
@@ -2240,7 +2240,7 @@ is
 executing
 tasks
 until
-CompositorParent
+CompositorBridgeParent
 :
 :
 DeferredDestroy
@@ -2277,7 +2277,7 @@ during
 destruction
 and
 the
-CompositorParent
+CompositorBridgeParent
 :
 :
 DeferredDestroy
@@ -2286,7 +2286,7 @@ a
 reference
 to
 the
-CompositorParent
+CompositorBridgeParent
 on
 the
 *
@@ -2296,7 +2296,7 @@ Thread
 .
 Finally
 the
-CompositorParent
+CompositorBridgeParent
 itself
 is
 destroyed
@@ -2344,7 +2344,7 @@ layers
 /
 ipc
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 #
@@ -2417,7 +2417,7 @@ the
 Compositor
 loop
 after
-CompositorParent
+CompositorBridgeParent
 :
 :
 DeferredDestroy
@@ -2436,7 +2436,7 @@ can
 be
 posted
 once
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvStop
@@ -2455,7 +2455,7 @@ the
 sync
 call
 to
-CompositorParent
+CompositorBridgeParent
 :
 :
 RecvStop
@@ -2513,7 +2513,7 @@ and
 may
 execute
 after
-CompositorParent
+CompositorBridgeParent
 :
 :
 DeferredDestroy
@@ -2551,7 +2551,7 @@ tasks
 from
 executing
 after
-CompositorParent
+CompositorBridgeParent
 :
 :
 DeferredDestroy
@@ -2631,7 +2631,7 @@ be
 destroyed
 either
 during
-CompositorParent
+CompositorBridgeParent
 shutdown
 or
 from
@@ -2685,7 +2685,7 @@ l15
 Whichever
 object
 the
-CompositorParent
+CompositorBridgeParent
 or
 the
 *
@@ -4184,7 +4184,7 @@ same
 time
 as
 the
-CompositorParent
+CompositorBridgeParent
 .
 3
 .

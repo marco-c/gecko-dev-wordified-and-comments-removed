@@ -14037,11 +14037,11 @@ mLayerManager
 MOZ_ASSERT
 (
 !
-mCompositorParent
+mCompositorBridgeParent
 &
 &
 !
-mCompositorChild
+mCompositorBridgeChild
 )
 ;
 mLayerManager

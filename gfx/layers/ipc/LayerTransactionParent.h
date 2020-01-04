@@ -828,11 +828,11 @@ this
 }
 friend
 class
-CompositorParent
+CompositorBridgeParent
 ;
 friend
 class
-CrossProcessCompositorParent
+CrossProcessCompositorBridgeParent
 ;
 friend
 class

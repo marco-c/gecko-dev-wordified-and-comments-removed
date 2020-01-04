@@ -81,7 +81,7 @@ public
 :
 CompositorD3D9
 (
-CompositorParent
+CompositorBridgeParent
 *
 aParent
 nsIWidget

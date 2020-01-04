@@ -139,7 +139,7 @@ class
 AutoResolveRefLayers
 ;
 class
-CompositorParent
+CompositorBridgeParent
 ;
 struct
 AsyncTransform
@@ -574,7 +574,7 @@ aTransformAffectsLayerClip
 void
 ResolveRefLayers
 (
-CompositorParent
+CompositorBridgeParent
 *
 aCompositor
 bool
@@ -666,7 +666,7 @@ AutoResolveRefLayers
 AsyncCompositionManager
 *
 aManager
-CompositorParent
+CompositorBridgeParent
 *
 aCompositor
 =

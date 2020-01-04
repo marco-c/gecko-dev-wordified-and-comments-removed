@@ -932,7 +932,7 @@ mozilla
 /
 layers
 /
-CompositorChild
+CompositorBridgeChild
 .
 h
 "
@@ -25086,14 +25086,14 @@ clientLayerManager
 return
 ;
 }
-CompositorChild
+CompositorBridgeChild
 *
 compositorChild
 =
 clientLayerManager
 -
 >
-GetCompositorChild
+GetCompositorBridgeChild
 (
 )
 ;

@@ -175,7 +175,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -2470,7 +2470,7 @@ mozilla
 layers
 :
 :
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop

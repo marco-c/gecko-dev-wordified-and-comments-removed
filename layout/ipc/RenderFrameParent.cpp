@@ -124,7 +124,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -220,7 +220,7 @@ mozilla
 /
 layers
 /
-CompositorChild
+CompositorBridgeChild
 .
 h
 "
@@ -657,7 +657,7 @@ mLayersId
 *
 aId
 ;
-CompositorChild
+CompositorBridgeChild
 :
 :
 Get
@@ -1123,7 +1123,7 @@ mLayersId
 }
 else
 {
-CompositorParent
+CompositorBridgeParent
 :
 :
 DeallocateLayerTreeId

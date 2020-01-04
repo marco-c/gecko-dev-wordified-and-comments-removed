@@ -184,7 +184,7 @@ class
 ClientPaintedLayer
 ;
 class
-CompositorChild
+CompositorBridgeChild
 ;
 class
 ImageLayer
@@ -764,15 +764,15 @@ return
 mPaintedLayerCallbackData
 ;
 }
-CompositorChild
+CompositorBridgeChild
 *
 GetRemoteRenderer
 (
 )
 ;
-CompositorChild
+CompositorBridgeChild
 *
-GetCompositorChild
+GetCompositorBridgeChild
 (
 )
 ;

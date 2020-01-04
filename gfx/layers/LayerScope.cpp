@@ -87,7 +87,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -8435,7 +8435,7 @@ CheckSendable
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread

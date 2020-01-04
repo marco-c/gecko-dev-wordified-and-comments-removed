@@ -129,7 +129,7 @@ class
 CompositorVsyncScheduler
 ;
 class
-CompositorParent
+CompositorBridgeParent
 ;
 }
 }
@@ -180,8 +180,8 @@ mozilla
 layers
 :
 :
-CompositorParent
-CompositorParent
+CompositorBridgeParent
+CompositorBridgeParent
 ;
 typedef
 mozilla
@@ -366,11 +366,11 @@ aBuffer
 )
 ;
 void
-SetCompositorParent
+SetCompositorBridgeParent
 (
-CompositorParent
+CompositorBridgeParent
 *
-aCompositorParent
+aCompositorBridgeParent
 )
 ;
 #
@@ -630,10 +630,10 @@ mozilla
 :
 Atomic
 <
-CompositorParent
+CompositorBridgeParent
 *
 >
-mCompositorParent
+mCompositorBridgeParent
 ;
 GonkDisplay
 :

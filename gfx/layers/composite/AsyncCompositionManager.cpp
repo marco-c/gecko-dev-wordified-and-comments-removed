@@ -175,7 +175,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -469,7 +469,7 @@ const
 TargetConfig
 &
 aTargetConfig
-CompositorParent
+CompositorBridgeParent
 *
 aCompositor
 bool
@@ -503,14 +503,14 @@ true
 if
 (
 const
-CompositorParent
+CompositorBridgeParent
 :
 :
 LayerTreeState
 *
 state
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetIndirectShadowTree
@@ -776,7 +776,7 @@ AsyncCompositionManager
 :
 ResolveRefLayers
 (
-CompositorParent
+CompositorBridgeParent
 *
 aCompositor
 bool
@@ -912,7 +912,7 @@ GetRoot
 return
 ;
 }
-CompositorParent
+CompositorBridgeParent
 *
 dummy
 =
@@ -3217,7 +3217,7 @@ CollectScrollTransforms
 ;
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread
@@ -6007,7 +6007,7 @@ aOutData
 {
 MOZ_ASSERT
 (
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread

@@ -44,7 +44,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -163,7 +163,7 @@ MOZ_ENABLE_PROFILER_SPS
 layers
 :
 :
-CompositorParent
+CompositorBridgeParent
 :
 :
 PostInsertVsyncProfilerMarker

@@ -209,7 +209,7 @@ appendExpectedLeakCounts
 {
         
 '
-CompositorChild
+CompositorBridgeChild
 '
 :
 1
@@ -236,7 +236,7 @@ Mutex
 1
         
 '
-PCompositorChild
+PCompositorBridgeChild
 '
 :
 1

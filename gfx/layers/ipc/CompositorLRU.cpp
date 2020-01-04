@@ -44,7 +44,7 @@ h
 #
 include
 "
-CompositorParent
+CompositorBridgeParent
 .
 h
 "

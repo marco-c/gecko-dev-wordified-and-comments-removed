@@ -25,7 +25,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -126,7 +126,7 @@ AssertOnCompositorThread
 MOZ_ASSERT
 (
 !
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop
@@ -134,7 +134,7 @@ CompositorLoop
 )
 |
 |
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop

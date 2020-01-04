@@ -242,7 +242,7 @@ class
 AsyncPanZoomController
 ;
 class
-CompositorParent
+CompositorBridgeParent
 ;
 class
 OverscrollHandoffChain
@@ -304,7 +304,7 @@ APZCTreeManager
 void
 UpdateHitTestingTree
 (
-CompositorParent
+CompositorBridgeParent
 *
 aCompositor
 Layer

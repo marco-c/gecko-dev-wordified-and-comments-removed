@@ -729,7 +729,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -8856,7 +8856,7 @@ aId
 *
 aId
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 AllocateLayerTreeId
@@ -8893,7 +8893,7 @@ false
 ;
 }
 return
-CompositorParent
+CompositorBridgeParent
 :
 :
 UpdateRemoteContentController
@@ -9163,7 +9163,7 @@ end
 )
 )
 {
-CompositorParent
+CompositorBridgeParent
 :
 :
 DeallocateLayerTreeId
@@ -11612,7 +11612,7 @@ useOffMainThreadCompositing
 =
 !
 !
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop
@@ -15607,7 +15607,7 @@ aOtherProcess
 )
 {
 return
-CompositorParent
+CompositorBridgeParent
 :
 :
 Create

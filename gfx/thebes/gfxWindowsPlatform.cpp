@@ -185,7 +185,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -6518,7 +6518,7 @@ UsesOffMainThreadCompositing
 )
 |
 |
-CompositorParent
+CompositorBridgeParent
 :
 :
 IsInCompositorThread

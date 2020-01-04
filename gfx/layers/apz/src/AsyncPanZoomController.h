@@ -203,7 +203,7 @@ struct
 ScrollableLayerGuid
 ;
 class
-CompositorParent
+CompositorBridgeParent
 ;
 class
 GestureEventListener
@@ -408,11 +408,11 @@ aScrollOffset
 )
 ;
 void
-SetCompositorParent
+SetCompositorBridgeParent
 (
-CompositorParent
+CompositorBridgeParent
 *
-aCompositorParent
+aCompositorBridgeParent
 )
 ;
 void
@@ -1117,9 +1117,9 @@ mLayersId
 ;
 RefPtr
 <
-CompositorParent
+CompositorBridgeParent
 >
-mCompositorParent
+mCompositorBridgeParent
 ;
 RefPtr
 <

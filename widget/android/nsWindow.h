@@ -101,10 +101,10 @@ namespace
 layers
 {
 class
-CompositorParent
+CompositorBridgeParent
 ;
 class
-CompositorChild
+CompositorBridgeChild
 ;
 class
 LayerManager
@@ -891,9 +891,9 @@ mozilla
 layers
 :
 :
-CompositorParent
+CompositorBridgeParent
 *
-NewCompositorParent
+NewCompositorBridgeParent
 (
 int
 aSurfaceWidth

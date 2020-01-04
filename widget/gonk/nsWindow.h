@@ -465,9 +465,9 @@ DestroyCompositor
 )
 ;
 virtual
-CompositorParent
+CompositorBridgeParent
 *
-NewCompositorParent
+NewCompositorBridgeParent
 (
 int
 aSurfaceWidth

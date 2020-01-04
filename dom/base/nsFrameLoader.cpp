@@ -562,7 +562,7 @@ mozilla
 /
 layers
 /
-CompositorChild
+CompositorBridgeChild
 .
 h
 "
@@ -7428,7 +7428,7 @@ XRE_IsContentProcess
 &
 &
 !
-CompositorChild
+CompositorBridgeChild
 :
 :
 ChildProcessHasCompositor

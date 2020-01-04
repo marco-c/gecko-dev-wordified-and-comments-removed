@@ -213,7 +213,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -13058,7 +13058,7 @@ true
 }
 else
 {
-CompositorParent
+CompositorBridgeParent
 :
 :
 RequestNotifyLayerTreeReady
@@ -13106,7 +13106,7 @@ return
 false
 ;
 }
-CompositorParent
+CompositorBridgeParent
 :
 :
 RequestNotifyLayerTreeCleared
@@ -13331,7 +13331,7 @@ otherRfp
 return
 ;
 }
-CompositorParent
+CompositorBridgeParent
 :
 :
 SwapLayerTreeObservers

@@ -15,7 +15,7 @@ h
 #
 include
 "
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -299,11 +299,11 @@ return
 false
 ;
 }
-CompositorParent
+CompositorBridgeParent
 *
 cp
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetCompositor

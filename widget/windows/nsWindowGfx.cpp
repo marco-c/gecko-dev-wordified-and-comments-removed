@@ -194,7 +194,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -205,7 +205,7 @@ mozilla
 /
 layers
 /
-CompositorChild
+CompositorBridgeChild
 .
 h
 "
@@ -664,7 +664,7 @@ ForcePresent
 {
 if
 (
-CompositorChild
+CompositorBridgeChild
 *
 remoteRenderer
 =
@@ -947,7 +947,7 @@ if
 clientLayerManager
 &
 &
-mCompositorParent
+mCompositorBridgeParent
 &
 &
 !
@@ -959,7 +959,7 @@ mLastPaintBounds
 )
 )
 {
-mCompositorParent
+mCompositorBridgeParent
 -
 >
 ScheduleRenderOnCompositorThread
@@ -1138,7 +1138,7 @@ if
 clientLayerManager
 &
 &
-mCompositorParent
+mCompositorBridgeParent
 )
 {
 clientLayerManager
@@ -1201,7 +1201,7 @@ if
 clientLayerManager
 &
 &
-mCompositorParent
+mCompositorBridgeParent
 &
 &
 clientLayerManager
@@ -1212,7 +1212,7 @@ NeedsComposite
 )
 )
 {
-mCompositorParent
+mCompositorBridgeParent
 -
 >
 ScheduleRenderOnCompositorThread

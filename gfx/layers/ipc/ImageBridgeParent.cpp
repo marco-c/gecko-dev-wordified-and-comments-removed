@@ -146,7 +146,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -939,7 +939,7 @@ MessageLoop
 *
 loop
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 CompositorLoop

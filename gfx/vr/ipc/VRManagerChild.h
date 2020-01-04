@@ -175,7 +175,7 @@ class
 layers
 :
 :
-CompositorChild
+CompositorBridgeChild
 ;
 private
 :

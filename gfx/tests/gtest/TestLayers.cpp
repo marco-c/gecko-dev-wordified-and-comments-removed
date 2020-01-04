@@ -48,7 +48,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -1415,7 +1415,7 @@ AsLayerComposite
 )
 )
 {
-CompositorParent
+CompositorBridgeParent
 :
 :
 SetShadowProperties

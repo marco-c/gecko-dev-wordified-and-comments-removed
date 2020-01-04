@@ -501,7 +501,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -10089,7 +10089,7 @@ CreateCompositor
 ;
 if
 (
-mCompositorChild
+mCompositorBridgeChild
 )
 {
 [

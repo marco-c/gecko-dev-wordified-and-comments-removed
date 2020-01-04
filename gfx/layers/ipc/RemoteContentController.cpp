@@ -85,7 +85,7 @@ mozilla
 /
 layers
 /
-CompositorParent
+CompositorBridgeParent
 .
 h
 "
@@ -1600,7 +1600,7 @@ mApzcTreeManager
 {
 mApzcTreeManager
 =
-CompositorParent
+CompositorBridgeParent
 :
 :
 GetAPZCTreeManager
