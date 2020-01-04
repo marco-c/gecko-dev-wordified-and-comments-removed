@@ -978,14 +978,6 @@ folding_codes
         
 if
 code
->
-MAX
-:
-            
-continue
-        
-if
-code
 in
 folding_map
 :
@@ -1098,6 +1090,14 @@ item
 +
 rev_folding
 )
+        
+if
+code
+>
+MAX
+:
+            
+continue
         
 folding_d
 =
