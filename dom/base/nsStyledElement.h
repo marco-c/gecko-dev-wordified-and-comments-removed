@@ -166,6 +166,12 @@ NS_STYLED_ELEMENT_IID
 )
 protected
 :
+nsICSSDeclaration
+*
+GetExistingStyle
+(
+)
+;
 void
 ParseStyleAttribute
 (
