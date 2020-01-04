@@ -7,6 +7,13 @@ h
 "
 #
 include
+"
+nsIWidget
+.
+h
+"
+#
+include
 <
 gdk
 /
