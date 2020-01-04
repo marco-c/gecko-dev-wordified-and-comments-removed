@@ -230,7 +230,7 @@ environment
 variables
 :
 #
-NSPR_LOG_MODULES
+MOZ_LOG
 =
 DOMLeak
 :
@@ -245,7 +245,7 @@ NodeInfoManagerLeak
 :
 5
 #
-NSPR_LOG_FILE
+MOZ_LOG_FILE
 =
 nspr
 .
