@@ -13015,6 +13015,15 @@ mExpandToClusterBoundary
 =
 false
 ;
+event
+.
+mReason
+=
+nsISelectionListener
+:
+:
+IME_REASON
+;
 window
 .
 DispatchEvent
