@@ -1,4 +1,8 @@
 from
+marionette
+import
+Marionette
+from
 marionette_driver
 import
 Wait
@@ -62,9 +66,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
             
@@ -177,9 +181,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
             
@@ -447,9 +451,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
             

@@ -1,4 +1,8 @@
 from
+marionette
+import
+Marionette
+from
 external_media_harness
 .
 testcase
@@ -107,9 +111,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
             

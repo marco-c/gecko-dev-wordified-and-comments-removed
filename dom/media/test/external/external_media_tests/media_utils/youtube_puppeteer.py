@@ -9,6 +9,10 @@ json
 import
 loads
 from
+marionette
+import
+Marionette
+from
 marionette_driver
 import
 By
@@ -251,9 +255,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
             
@@ -716,9 +720,7 @@ Execute
 JS
 script
 in
-'
 content
-'
 context
 with
 access
@@ -762,9 +764,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
             
@@ -1571,9 +1573,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
                 
@@ -1663,9 +1665,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
                 
@@ -2196,9 +2198,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
                     
@@ -2402,9 +2404,9 @@ marionette
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
                 
@@ -2762,9 +2764,9 @@ mn
 .
 using_context
 (
-'
-content
-'
+Marionette
+.
+CONTEXT_CONTENT
 )
 :
                 
