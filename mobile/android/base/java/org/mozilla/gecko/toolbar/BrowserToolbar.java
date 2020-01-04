@@ -33,6 +33,15 @@ android
 .
 support
 .
+annotation
+.
+Nullable
+;
+import
+android
+.
+support
+.
 v4
 .
 content
@@ -1973,7 +1982,7 @@ public
 void
 onTabChanged
 (
-NonNull
+Nullable
 Tab
 tab
 Tabs
@@ -2315,6 +2324,12 @@ flags
 isEmpty
 (
 )
+&
+&
+tab
+!
+=
+null
 )
 {
 updateDisplayLayout
