@@ -239,12 +239,6 @@ from
 ecc
 import
 Key
-from
-ecc
-.
-ecdsa
-import
-randkey
 import
 base64
 import
@@ -374,6 +368,16 @@ self
 value
 )
 :
+        
+super
+(
+UnknownBaseError
+self
+)
+.
+__init__
+(
+)
         
 self
 .
@@ -821,6 +825,9 @@ OctetString
 )
 class
 RSAKey
+(
+object
+)
 :
     
 sharedRSA_N
@@ -1592,7 +1599,7 @@ evRSA2040_P
 =
 long
 (
-         
+        
 '
 0f3844d0d4d4d6a21acd76a6fc370b8550e1d7ec5a6234172e790f0029ae
 '
@@ -3527,6 +3534,9 @@ x04
 '
 class
 ECCKey
+(
+object
+)
 :
     
 secp256k1Encoded
