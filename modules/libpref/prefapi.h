@@ -69,6 +69,9 @@ PrefHashEntry
 :
 PLDHashEntryHdr
 {
+uint16_t
+flags
+;
 const
 char
 *
@@ -79,9 +82,6 @@ defaultPref
 ;
 PrefValue
 userPref
-;
-uint16_t
-flags
 ;
 }
 ;
