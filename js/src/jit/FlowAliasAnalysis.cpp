@@ -292,6 +292,10 @@ TempAllocator
 alloc
 )
 :
+current_
+(
+nullptr
+)
 stores_
 (
 alloc
