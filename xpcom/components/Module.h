@@ -112,9 +112,16 @@ ProcessSelector
 {
 ANY_PROCESS
 =
-0
+0x0
 MAIN_PROCESS_ONLY
+=
+0x1
 CONTENT_PROCESS_ONLY
+=
+0x2
+ALLOW_IN_GPU_PROCESS
+=
+0x4
 }
 ;
 struct
@@ -204,6 +211,9 @@ loadProc
 ;
 UnloadFuncPtr
 unloadProc
+;
+ProcessSelector
+selector
 ;
 }
 ;
