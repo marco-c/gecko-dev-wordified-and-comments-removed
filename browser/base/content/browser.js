@@ -1807,13 +1807,6 @@ win
 return
 null
 ;
-if
-(
-gMultiProcessBrowser
-)
-return
-null
-;
 const
 WINTASKBAR_CONTRACTID
 =
