@@ -82,7 +82,7 @@ __VA_ARGS__
 ;
 #
 define
-MALLOC_FUNS
+MALLOC_FUNCS
 MALLOC_FUNCS_MALLOC
 #
 include
