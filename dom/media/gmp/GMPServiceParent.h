@@ -391,6 +391,17 @@ aFilter
 )
 ;
 void
+ClearNodeIdAndPlugin
+(
+nsIFile
+*
+aPluginStorageDir
+DirectoryFilter
+&
+aFilter
+)
+;
+void
 ForgetThisSiteOnGMPThread
 (
 const
