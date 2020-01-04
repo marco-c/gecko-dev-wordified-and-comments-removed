@@ -485,6 +485,10 @@ possibleApplicationHandlers
 aPreferredAction
 )
 ;
+mPrefAction
+=
+aPreferredAction
+;
 return
 NS_OK
 ;
