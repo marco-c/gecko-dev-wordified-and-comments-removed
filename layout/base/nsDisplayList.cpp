@@ -27122,7 +27122,7 @@ GetContentFlags
 Layer
 :
 :
-CONTENT_PRESERVE_3D
+CONTENT_EXTEND_3D_CONTEXT
 )
 ;
 }
@@ -27144,7 +27144,7 @@ GetContentFlags
 Layer
 :
 :
-CONTENT_PRESERVE_3D
+CONTENT_EXTEND_3D_CONTEXT
 )
 ;
 }
