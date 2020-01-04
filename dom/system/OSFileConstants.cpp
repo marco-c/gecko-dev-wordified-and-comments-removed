@@ -859,7 +859,7 @@ return
 rv
 ;
 }
-RefPtr
+nsRefPtr
 <
 DelayedPathSetter
 >

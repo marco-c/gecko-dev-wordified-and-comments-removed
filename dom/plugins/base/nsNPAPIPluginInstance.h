@@ -960,7 +960,7 @@ mSurfaceTexture
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1416,7 +1416,7 @@ PluginEventRunnable
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PluginEventRunnable
 >
@@ -1454,13 +1454,13 @@ gl
 OriginPos
 mOriginPos
 ;
-RefPtr
+nsRefPtr
 <
 SharedPluginTexture
 >
 mContentTexture
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

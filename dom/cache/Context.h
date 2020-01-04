@@ -187,7 +187,7 @@ Context
 aContext
 )
 ;
-RefPtr
+nsRefPtr
 <
 Context
 >
@@ -360,7 +360,7 @@ nsIEventTarget
 >
 mTarget
 ;
-RefPtr
+nsRefPtr
 <
 Action
 >
@@ -449,7 +449,7 @@ DoomTargetData
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Manager
 >
@@ -461,7 +461,7 @@ nsIThread
 >
 mTarget
 ;
-RefPtr
+nsRefPtr
 <
 Data
 >
@@ -476,13 +476,13 @@ mOrphanedData
 QuotaInfo
 mQuotaInfo
 ;
-RefPtr
+nsRefPtr
 <
 QuotaInitRunnable
 >
 mInitRunnable
 ;
-RefPtr
+nsRefPtr
 <
 Action
 >
@@ -505,7 +505,7 @@ ActivityList
 ActivityList
 mActivityList
 ;
-RefPtr
+nsRefPtr
 <
 ThreadsafeHandle
 >
@@ -517,7 +517,7 @@ DirectoryLock
 >
 mDirectoryLock
 ;
-RefPtr
+nsRefPtr
 <
 Context
 >

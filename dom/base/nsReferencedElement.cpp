@@ -370,7 +370,7 @@ rv
 isEqualExceptRef
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIDocument
 :

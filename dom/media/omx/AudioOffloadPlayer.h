@@ -234,7 +234,7 @@ GetNextFrameStatus
 override
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 MediaDecoder
 :
@@ -346,7 +346,7 @@ nsITimer
 >
 mResetTimer
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

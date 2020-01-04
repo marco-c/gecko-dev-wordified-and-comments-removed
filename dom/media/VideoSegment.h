@@ -283,7 +283,7 @@ aSize
 endif
 protected
 :
-RefPtr
+nsRefPtr
 <
 Image
 >

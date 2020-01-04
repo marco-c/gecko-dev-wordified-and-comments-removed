@@ -436,13 +436,13 @@ nsIGlobalObject
 >
 mOwner
 ;
-RefPtr
+nsRefPtr
 <
 InternalRequest
 >
 mRequest
 ;
-RefPtr
+nsRefPtr
 <
 Headers
 >

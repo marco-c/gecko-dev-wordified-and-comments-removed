@@ -2000,7 +2000,7 @@ if
 mDoomCallback
 )
 {
-RefPtr
+nsRefPtr
 <
 DoomCallbackRunnable
 >
@@ -2068,13 +2068,13 @@ mPreventCallbacks
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntryHandle
 >
 handle
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -2241,7 +2241,7 @@ Clear
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntryHandle
 >
@@ -2676,7 +2676,7 @@ rv
 onCheckThread
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <
@@ -3376,7 +3376,7 @@ if
 onAvailThread
 )
 {
-RefPtr
+nsRefPtr
 <
 AvailableCallbackRunnable
 >
@@ -3542,7 +3542,7 @@ FRECENCYUPDATE
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CacheEntryHandle
 >
@@ -3615,7 +3615,7 @@ NS_ERROR_CACHE_KEY_NOT_FOUND
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 CacheEntryHandle
 >
@@ -4832,7 +4832,7 @@ rv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CacheOutputCloseListener
 >
@@ -5721,7 +5721,7 @@ lock
 mLock
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntryHandle
 >
@@ -6800,7 +6800,7 @@ mFrecency
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <

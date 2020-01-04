@@ -183,7 +183,7 @@ KnownMemoryUsed
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxImageSurface
 >
@@ -267,7 +267,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxImageSurface
 >

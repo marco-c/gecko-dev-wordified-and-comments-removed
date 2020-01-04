@@ -393,6 +393,11 @@ Move
 h
 '
 '
+nsRefPtr
+.
+h
+'
+'
 NullPtr
 .
 h
@@ -444,11 +449,6 @@ h
 '
 '
 ReentrancyGuard
-.
-h
-'
-'
-RefPtr
 .
 h
 '

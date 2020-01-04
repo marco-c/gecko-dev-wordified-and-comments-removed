@@ -530,7 +530,7 @@ StopListeningForEvents
 bool
 mListeningForEvents
 ;
-RefPtr
+nsRefPtr
 <
 workers
 :
@@ -539,7 +539,7 @@ ServiceWorker
 >
 mInstallingWorker
 ;
-RefPtr
+nsRefPtr
 <
 workers
 :
@@ -548,7 +548,7 @@ ServiceWorker
 >
 mWaitingWorker
 ;
-RefPtr
+nsRefPtr
 <
 workers
 :
@@ -560,7 +560,7 @@ mActiveWorker
 #
 ifndef
 MOZ_SIMPLEPUSH
-RefPtr
+nsRefPtr
 <
 PushManager
 >
@@ -792,7 +792,7 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-RefPtr
+nsRefPtr
 <
 WorkerListener
 >
@@ -801,7 +801,7 @@ mListener
 #
 ifndef
 MOZ_SIMPLEPUSH
-RefPtr
+nsRefPtr
 <
 WorkerPushManager
 >

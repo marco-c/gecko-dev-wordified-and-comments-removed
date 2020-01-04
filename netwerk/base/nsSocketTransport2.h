@@ -1228,7 +1228,7 @@ mFDref
 bool
 mFDconnected
 ;
-RefPtr
+nsRefPtr
 <
 nsSocketTransportService
 >

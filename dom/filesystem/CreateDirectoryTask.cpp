@@ -284,7 +284,7 @@ thread
 )
 ;
 return
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -586,7 +586,7 @@ HasError
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMError
 >
@@ -619,7 +619,7 @@ nullptr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 Directory
 >

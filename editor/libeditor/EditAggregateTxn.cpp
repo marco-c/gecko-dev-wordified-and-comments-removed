@@ -468,7 +468,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-RefPtr
+nsRefPtr
 <
 EditTxn
 >

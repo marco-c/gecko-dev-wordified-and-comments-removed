@@ -418,14 +418,14 @@ mMonitor
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SourceMediaStream
 >
 >
 mSources
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -434,7 +434,7 @@ Image
 >
 mImage
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :

@@ -410,7 +410,7 @@ Unknown
 false
 )
 ;
-RefPtr
+nsRefPtr
 <
 MFTDecoder
 >
@@ -444,7 +444,7 @@ hr
 false
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMFMediaType
 >
@@ -612,7 +612,7 @@ false
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 IMFMediaType
 >
@@ -778,7 +778,7 @@ UpdateOutputType
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 IMFMediaType
 >
@@ -857,7 +857,7 @@ Output
 (
 int64_t
 aStreamOffset
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -869,7 +869,7 @@ aOutData
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 IMFSample
 >
@@ -961,7 +961,7 @@ hr
 hr
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMFMediaBuffer
 >

@@ -336,7 +336,7 @@ ErrorResult
 aRv
 )
 ;
-RefPtr
+nsRefPtr
 <
 FileSystemBase
 >

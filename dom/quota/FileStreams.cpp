@@ -404,7 +404,7 @@ int32_t
 aBehaviorFlags
 )
 {
-RefPtr
+nsRefPtr
 <
 FileInputStream
 >
@@ -481,7 +481,7 @@ int32_t
 aBehaviorFlags
 )
 {
-RefPtr
+nsRefPtr
 <
 FileOutputStream
 >
@@ -558,7 +558,7 @@ int32_t
 aBehaviorFlags
 )
 {
-RefPtr
+nsRefPtr
 <
 FileStream
 >

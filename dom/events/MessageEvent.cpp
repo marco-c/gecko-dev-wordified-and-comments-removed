@@ -578,7 +578,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 MessageEvent
 >
@@ -818,7 +818,7 @@ IsNull
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MessagePort
 >
@@ -1098,7 +1098,7 @@ WidgetEvent
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 MessageEvent
 >

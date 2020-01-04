@@ -2071,7 +2071,7 @@ return
 Type
 (
 '
-RefPtr
+nsRefPtr
 '
 T
 =

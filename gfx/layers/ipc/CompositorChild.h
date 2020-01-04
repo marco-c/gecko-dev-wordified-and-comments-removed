@@ -619,7 +619,7 @@ GetAPZCId
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -643,13 +643,13 @@ mAPZCId
 ;
 }
 ;
-RefPtr
+nsRefPtr
 <
 ClientLayerManager
 >
 mLayerManager
 ;
-RefPtr
+nsRefPtr
 <
 CompositorParent
 >

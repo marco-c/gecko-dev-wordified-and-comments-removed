@@ -153,7 +153,7 @@ GetAsSupports
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TransitionEvent
 >
@@ -377,7 +377,7 @@ InternalTransitionEvent
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 TransitionEvent
 >

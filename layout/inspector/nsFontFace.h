@@ -82,13 +82,13 @@ nsFontFace
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxFontEntry
 >
 mFontEntry
 ;
-RefPtr
+nsRefPtr
 <
 gfxFontGroup
 >

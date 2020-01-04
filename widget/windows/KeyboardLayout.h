@@ -947,7 +947,7 @@ const
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 nsWindowBase
 >
@@ -1967,7 +1967,7 @@ private
 bool
 mCancel
 ;
-RefPtr
+nsRefPtr
 <
 nsWindowBase
 >

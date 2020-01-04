@@ -158,7 +158,7 @@ RtspOmxReader
 ;
 }
 virtual
-RefPtr
+nsRefPtr
 <
 SeekPromise
 >
@@ -203,7 +203,7 @@ SetIdle
 override
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :

@@ -382,7 +382,7 @@ originalIF
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -455,7 +455,10 @@ size
 height
 )
 surface
+ToFilter
+(
 mFilter
+)
 DrawOptions
 (
 GetEffectiveOpacity

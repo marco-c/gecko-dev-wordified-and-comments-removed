@@ -2393,7 +2393,7 @@ this
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 IMContextWrapper
 >
@@ -2402,7 +2402,7 @@ kungFuDeathGrip
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -5849,7 +5849,7 @@ false
 nsEventStatus
 status
 ;
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -6255,7 +6255,7 @@ false
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -6472,7 +6472,7 @@ Length
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextRangeArray
 >
@@ -8971,7 +8971,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsWindow
 >

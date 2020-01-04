@@ -153,7 +153,7 @@ GetAsSupports
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AnimationEvent
 >
@@ -377,7 +377,7 @@ InternalAnimationEvent
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 AnimationEvent
 >

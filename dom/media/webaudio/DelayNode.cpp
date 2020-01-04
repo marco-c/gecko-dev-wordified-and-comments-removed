@@ -312,7 +312,7 @@ mLeftOverData
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 PlayingRefChanged
 >
@@ -396,7 +396,7 @@ Reset
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PlayingRefChanged
 >

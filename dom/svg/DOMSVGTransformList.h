@@ -614,7 +614,7 @@ SVGTransform
 >
 mItems
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :

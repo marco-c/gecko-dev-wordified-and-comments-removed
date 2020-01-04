@@ -48,7 +48,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -252,7 +252,7 @@ ReadStream
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Inner
 >

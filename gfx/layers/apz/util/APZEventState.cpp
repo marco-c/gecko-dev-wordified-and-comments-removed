@@ -898,7 +898,7 @@ do_CreateInstance
 NS_TIMER_CONTRACTID
 )
 ;
-RefPtr
+nsRefPtr
 <
 DelayedFireSingleTapEvent
 >

@@ -3219,7 +3219,7 @@ true
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 RefcountedObject
 >

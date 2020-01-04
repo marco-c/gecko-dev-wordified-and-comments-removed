@@ -283,13 +283,13 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsIFilePicker
 >
 mFilePicker
 ;
-RefPtr
+nsRefPtr
 <
 nsIFilePickerShownCallback
 >
@@ -400,7 +400,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -1558,7 +1558,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -1644,7 +1644,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsBaseFilePickerEnumerator
 >

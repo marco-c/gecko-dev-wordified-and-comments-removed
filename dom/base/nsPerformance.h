@@ -737,7 +737,7 @@ nsITimedChannel
 aChannel
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPerformance
 >
@@ -913,7 +913,7 @@ nsPerformanceNavigation
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPerformance
 >
@@ -975,7 +975,7 @@ GetEntries
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -993,7 +993,7 @@ nsAString
 aEntryType
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -1024,7 +1024,7 @@ nsAString
 aEntryType
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -1353,7 +1353,7 @@ private
 :
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -1362,7 +1362,7 @@ mUserEntries
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >
@@ -1657,7 +1657,7 @@ DispatchBufferFullEvent
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMNavigationTiming
 >
@@ -1669,19 +1669,19 @@ nsITimedChannel
 >
 mChannel
 ;
-RefPtr
+nsRefPtr
 <
 nsPerformanceTiming
 >
 mTiming
 ;
-RefPtr
+nsRefPtr
 <
 nsPerformanceNavigation
 >
 mNavigation
 ;
-RefPtr
+nsRefPtr
 <
 nsPerformance
 >

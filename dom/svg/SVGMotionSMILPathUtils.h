@@ -36,7 +36,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -128,7 +128,7 @@ mHaveReceivedCommands
 false
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -257,7 +257,7 @@ nsSVGElement
 *
 mSVGElement
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >

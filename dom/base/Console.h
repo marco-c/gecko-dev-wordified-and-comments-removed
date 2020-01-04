@@ -821,7 +821,7 @@ nsIConsoleAPIStorage
 >
 mStorage
 ;
-RefPtr
+nsRefPtr
 <
 JSObjectHolder
 >

@@ -144,7 +144,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 TestInterfaceMaplikeObject
 >
@@ -223,7 +223,7 @@ nsAString
 aKey
 )
 {
-RefPtr
+nsRefPtr
 <
 TestInterfaceMaplike
 >

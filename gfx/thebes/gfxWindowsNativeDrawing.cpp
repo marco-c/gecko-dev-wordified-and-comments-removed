@@ -1274,7 +1274,7 @@ failure
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1418,10 +1418,10 @@ pat
 >
 SetFilter
 (
-Filter
+GraphicsFilter
 :
 :
-LINEAR
+FILTER_FAST
 )
 ;
 pat

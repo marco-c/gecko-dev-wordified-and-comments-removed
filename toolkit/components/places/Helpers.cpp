@@ -1410,7 +1410,7 @@ ForceWALCheckpoint
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Database
 >

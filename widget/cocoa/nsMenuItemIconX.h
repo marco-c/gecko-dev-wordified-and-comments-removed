@@ -122,7 +122,7 @@ nsIContent
 >
 mContent
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >

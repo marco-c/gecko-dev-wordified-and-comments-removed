@@ -108,7 +108,7 @@ nsIEditor
 *
 mEditor
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -169,7 +169,7 @@ nsIEditor
 *
 mEditor
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

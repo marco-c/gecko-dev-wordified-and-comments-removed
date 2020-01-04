@@ -418,7 +418,7 @@ mUploadStream
 bool
 mIPCOpen
 ;
-RefPtr
+nsRefPtr
 <
 ChannelEventQueue
 >

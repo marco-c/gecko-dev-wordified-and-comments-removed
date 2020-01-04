@@ -224,7 +224,7 @@ nsISupports
 >
 mStreamPeer
 ;
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginStreamListener
 >

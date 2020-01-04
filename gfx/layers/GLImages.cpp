@@ -72,7 +72,7 @@ namespace
 layers
 {
 static
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -348,7 +348,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :

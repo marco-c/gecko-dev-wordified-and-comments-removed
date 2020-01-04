@@ -407,7 +407,7 @@ NodeInfoManager
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 NodeInfo
 >

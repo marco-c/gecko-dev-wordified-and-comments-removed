@@ -163,7 +163,7 @@ HTMLMapElement
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsContentList
 >

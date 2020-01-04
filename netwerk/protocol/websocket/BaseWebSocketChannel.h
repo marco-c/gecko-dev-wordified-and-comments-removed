@@ -365,7 +365,7 @@ nsIURI
 >
 mURI
 ;
-RefPtr
+nsRefPtr
 <
 ListenerAndContextContainer
 >

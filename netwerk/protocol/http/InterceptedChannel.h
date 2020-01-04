@@ -16,7 +16,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -172,7 +172,7 @@ InterceptedChannelChrome
 public
 InterceptedChannelBase
 {
-RefPtr
+nsRefPtr
 <
 nsHttpChannel
 >
@@ -297,7 +297,7 @@ InterceptedChannelContent
 public
 InterceptedChannelBase
 {
-RefPtr
+nsRefPtr
 <
 HttpChannelChild
 >

@@ -693,7 +693,7 @@ OnCopyComplete
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFileCopyEvent
 >
@@ -1482,7 +1482,7 @@ rv
 return
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsFileUploadContentStream
 >

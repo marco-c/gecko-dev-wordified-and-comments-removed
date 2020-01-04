@@ -517,7 +517,7 @@ false
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 Exception
 >
@@ -684,7 +684,7 @@ default
 break
 ;
 }
-RefPtr
+nsRefPtr
 <
 Exception
 >

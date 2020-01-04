@@ -384,7 +384,7 @@ InternalSVGZoomEvent
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGZoomEvent
 >

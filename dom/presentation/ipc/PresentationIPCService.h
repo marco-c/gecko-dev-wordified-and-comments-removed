@@ -157,7 +157,7 @@ nsIPresentationRespondingListener
 >
 mRespondingListeners
 ;
-RefPtr
+nsRefPtr
 <
 PresentationResponderLoadingCallback
 >

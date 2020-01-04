@@ -391,7 +391,7 @@ nsIDOMWindow
 aContentWindow
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameLoader
 >

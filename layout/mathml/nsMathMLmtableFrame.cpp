@@ -2148,7 +2148,7 @@ FontSizeInflationFor
 aFrame
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -3943,7 +3943,7 @@ eAlign_axis
 default
 :
 {
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

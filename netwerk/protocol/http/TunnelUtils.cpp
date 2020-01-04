@@ -2083,7 +2083,7 @@ if
 mNudgeCallback
 )
 {
-RefPtr
+nsRefPtr
 <
 NudgeTunnelCallback
 >
@@ -2796,7 +2796,7 @@ TakeSubTransactions
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsAHttpTransaction
 >
@@ -3397,7 +3397,7 @@ nsIAsyncInputStream
 >
 mStream
 ;
-RefPtr
+nsRefPtr
 <
 TLSFilterTransaction
 >
@@ -3744,7 +3744,7 @@ nsIAsyncOutputStream
 >
 mStream
 ;
-RefPtr
+nsRefPtr
 <
 TLSFilterTransaction
 >
@@ -4540,7 +4540,7 @@ true
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsAHttpConnection
 >
@@ -5750,7 +5750,7 @@ mCallback
 =
 callback
 ;
-RefPtr
+nsRefPtr
 <
 NullHttpTransaction
 >
@@ -5823,7 +5823,7 @@ nsresult
 reason
 )
 {
-RefPtr
+nsRefPtr
 <
 NullHttpTransaction
 >
@@ -5910,7 +5910,7 @@ Flush
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 NullHttpTransaction
 >
@@ -6073,7 +6073,7 @@ return
 mStatus
 ;
 }
-RefPtr
+nsRefPtr
 <
 NullHttpTransaction
 >
@@ -6398,7 +6398,7 @@ nsresult
 reason
 )
 {
-RefPtr
+nsRefPtr
 <
 NullHttpTransaction
 >
@@ -6488,7 +6488,7 @@ uint64_t
 _retval
 )
 {
-RefPtr
+nsRefPtr
 <
 NullHttpTransaction
 >
@@ -6591,7 +6591,7 @@ return
 mStatus
 ;
 }
-RefPtr
+nsRefPtr
 <
 NullHttpTransaction
 >

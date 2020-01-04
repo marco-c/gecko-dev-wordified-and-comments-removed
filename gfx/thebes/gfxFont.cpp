@@ -1196,7 +1196,7 @@ entry
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -8211,7 +8211,7 @@ Pattern
 *
 pat
 ;
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -8695,7 +8695,7 @@ AzureState
 aState
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -8721,7 +8721,7 @@ mFontParams
 contextPaint
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -10297,7 +10297,7 @@ text
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -11066,7 +11066,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -15263,7 +15263,7 @@ ok
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 gfxFont
 >

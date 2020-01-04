@@ -1089,7 +1089,7 @@ mSize
 =
 aSize
 ;
-RefPtr
+nsRefPtr
 <
 IDWriteFontFile
 >
@@ -1252,7 +1252,7 @@ aTarget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -1618,7 +1618,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDWriteFontFile
 >
@@ -1656,7 +1656,7 @@ referenceKey
 refKeySize
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDWriteFontFileLoader
 >
@@ -1673,7 +1673,7 @@ loader
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDWriteFontFileStream
 >

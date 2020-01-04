@@ -630,7 +630,7 @@ const
 nsACString
 &
 origin
-RefPtr
+nsRefPtr
 <
 nsStandardURL
 >
@@ -650,7 +650,7 @@ const
 nsACString
 &
 origin
-RefPtr
+nsRefPtr
 <
 nsStandardURL
 >
@@ -812,7 +812,7 @@ uint32_t
 *
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsAHttpTransaction
 >

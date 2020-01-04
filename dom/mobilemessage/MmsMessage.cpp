@@ -500,7 +500,7 @@ contentParent
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -548,7 +548,7 @@ contentChild
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -2064,7 +2064,7 @@ element
 location
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -2833,7 +2833,7 @@ MOZ_ASSERT
 global
 )
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >

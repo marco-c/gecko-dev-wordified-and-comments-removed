@@ -464,7 +464,7 @@ nsIOutputStream
 out
 )
 {
-RefPtr
+nsRefPtr
 <
 nsReceiver
 >
@@ -1012,7 +1012,7 @@ nsIOutputStream
 out
 )
 {
-RefPtr
+nsRefPtr
 <
 nsShortReader
 >
@@ -1540,7 +1540,7 @@ rv
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 nsPump
 >
@@ -1588,7 +1588,7 @@ rv
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 nsReceiver
 >
@@ -3057,7 +3057,7 @@ NS_BASE_STREAM_WOULD_BLOCK
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 testing
 :
@@ -3283,7 +3283,7 @@ NS_BASE_STREAM_WOULD_BLOCK
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 testing
 :
@@ -3528,7 +3528,7 @@ NS_BASE_STREAM_WOULD_BLOCK
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 testing
 :
@@ -3685,7 +3685,7 @@ segmentSize
 inputData
 )
 ;
-RefPtr
+nsRefPtr
 <
 testing
 :
@@ -3900,7 +3900,7 @@ segmentSize
 inputData
 )
 ;
-RefPtr
+nsRefPtr
 <
 testing
 :
@@ -3917,7 +3917,7 @@ InputStreamCallback
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 testing
 :

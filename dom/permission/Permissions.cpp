@@ -451,7 +451,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -482,7 +482,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 PermissionStatus
 >

@@ -3402,7 +3402,7 @@ host
 return
 NS_ERROR_UNKNOWN_HOST
 ;
-RefPtr
+nsRefPtr
 <
 nsHostRecord
 >
@@ -4842,7 +4842,7 @@ nsresult
 status
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHostRecord
 >

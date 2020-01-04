@@ -3058,7 +3058,7 @@ SelectedItems
 selectedItems
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccessibleEnumerator
 >

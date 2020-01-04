@@ -44,7 +44,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -379,7 +379,7 @@ inline
 nsresult
 CallQueryInterface
 (
-RefPtr
+nsRefPtr
 <
 SourceType
 >

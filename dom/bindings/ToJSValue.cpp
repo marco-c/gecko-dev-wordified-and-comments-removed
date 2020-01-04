@@ -159,7 +159,7 @@ Value
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 Exception
 >

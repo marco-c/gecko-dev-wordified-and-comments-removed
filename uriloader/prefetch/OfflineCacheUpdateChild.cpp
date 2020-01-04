@@ -2097,7 +2097,7 @@ this
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 OfflineCacheUpdateChild
 >

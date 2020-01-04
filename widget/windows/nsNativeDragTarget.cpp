@@ -1614,7 +1614,7 @@ SetIDataObject
 pData
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNativeDragTarget
 >

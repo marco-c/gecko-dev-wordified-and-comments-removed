@@ -513,7 +513,7 @@ nsIDeviceContextSpec
 >
 mDeviceContextSpec
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -522,7 +522,7 @@ mPrintingSurface
 #
 ifdef
 XP_MACOSX
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >

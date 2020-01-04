@@ -479,7 +479,7 @@ DefaultScreenOfDisplay
 display
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >

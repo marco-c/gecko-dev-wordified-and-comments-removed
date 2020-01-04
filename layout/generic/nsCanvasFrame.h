@@ -663,7 +663,7 @@ DummyTouchListener
 }
 }
 ;
-RefPtr
+nsRefPtr
 <
 DummyTouchListener
 >

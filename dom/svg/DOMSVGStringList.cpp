@@ -228,7 +228,7 @@ uint8_t
 aAttrEnum
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGStringList
 >

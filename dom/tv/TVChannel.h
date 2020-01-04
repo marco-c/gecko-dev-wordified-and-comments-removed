@@ -232,7 +232,7 @@ nsITVService
 >
 mTVService
 ;
-RefPtr
+nsRefPtr
 <
 TVSource
 >

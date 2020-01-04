@@ -461,7 +461,7 @@ bool
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 nsFoo
 >
@@ -472,7 +472,7 @@ nsFoo
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsBar
 >
@@ -483,7 +483,7 @@ nsBar
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFoo
 >
@@ -537,7 +537,7 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 nsFoo
 >
@@ -557,7 +557,7 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 nsFoo
 >
@@ -642,7 +642,7 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 nsFoo
 >
@@ -662,7 +662,7 @@ NS_DispatchToMainThread
 (
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 nsFoo
 >

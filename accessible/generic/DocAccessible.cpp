@@ -2750,7 +2750,7 @@ obs_documentCreated
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -2799,7 +2799,7 @@ bool
 aIsFromUserInput
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -3190,7 +3190,7 @@ mStateBitWasOn
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -3212,7 +3212,7 @@ FireDelayedEvent
 enabledChangeEvent
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -3538,7 +3538,7 @@ _true
 eCaseMatters
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -3651,7 +3651,7 @@ AccSelChangeEvent
 :
 eSelectionRemove
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -3685,7 +3685,7 @@ nsGkAtoms
 contenteditable
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -3765,7 +3765,7 @@ nsGkAtoms
 aria_required
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -3800,7 +3800,7 @@ nsGkAtoms
 aria_invalid
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -3867,7 +3867,7 @@ nsGkAtoms
 aria_expanded
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -3912,7 +3912,7 @@ ATTR_BYPASSOBJ
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -3999,7 +3999,7 @@ SetARIAHidden
 isDefined
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -4075,7 +4075,7 @@ states
 :
 PRESSED
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -4131,7 +4131,7 @@ isMixed
 wasMixed
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -4168,7 +4168,7 @@ nsGkAtoms
 aria_readonly
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -4519,7 +4519,7 @@ AccSelChangeEvent
 :
 eSelectionRemove
 ;
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -4541,7 +4541,7 @@ event
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -4589,7 +4589,7 @@ NS_EVENT_STATE_INVALID
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -4622,7 +4622,7 @@ NS_EVENT_STATE_VISITED
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -5801,7 +5801,7 @@ Parent
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -5813,7 +5813,7 @@ AccReorderEvent
 oldParent
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccMutationEvent
 >
@@ -5885,7 +5885,7 @@ AppendChild
 child
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -5897,7 +5897,7 @@ AccReorderEvent
 owner
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccMutationEvent
 >
@@ -6218,7 +6218,7 @@ if
 aIsReloading
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -6243,7 +6243,7 @@ reloadEvent
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -6350,7 +6350,7 @@ IsRoot
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -6407,7 +6407,7 @@ GetChildAt
 i
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccShowEvent
 >
@@ -6488,7 +6488,7 @@ if
 mLoadEventType
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -6511,7 +6511,7 @@ mLoadEventType
 0
 ;
 }
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -7164,7 +7164,7 @@ Accessible
 >
 containers
 ;
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -7239,7 +7239,7 @@ IsRepositioned
 )
 {
 {
-RefPtr
+nsRefPtr
 <
 AccMutationEvent
 >
@@ -7947,7 +7947,7 @@ EnsureChildren
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -8329,7 +8329,7 @@ updateFlags
 =
 eNoAccessible
 ;
-RefPtr
+nsRefPtr
 <
 AccReorderEvent
 >
@@ -8611,7 +8611,7 @@ aChild
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 AccMutationEvent
 >

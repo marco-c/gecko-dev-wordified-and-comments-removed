@@ -460,7 +460,7 @@ PrincipalInfo
 >
 mPrincipalInfo
 ;
-RefPtr
+nsRefPtr
 <
 Feature
 >

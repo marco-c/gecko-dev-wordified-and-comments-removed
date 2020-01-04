@@ -219,7 +219,7 @@ MessageLoop
 *
 message_loop_
 ;
-RefPtr
+nsRefPtr
 <
 Flag
 >
@@ -233,7 +233,7 @@ AsyncCallbackTask
 *
 callback_task_
 ;
-RefPtr
+nsRefPtr
 <
 WaitableEvent
 :

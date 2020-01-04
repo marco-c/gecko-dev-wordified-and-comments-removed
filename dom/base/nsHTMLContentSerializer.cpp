@@ -200,7 +200,7 @@ nsIContentSerializer
 aSerializer
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHTMLContentSerializer
 >

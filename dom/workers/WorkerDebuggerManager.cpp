@@ -27,13 +27,13 @@ final
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 WorkerDebuggerManager
 >
 mManager
 ;
-RefPtr
+nsRefPtr
 <
 WorkerDebugger
 >
@@ -310,7 +310,7 @@ lock
 mMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 WorkerDebuggerEnumerator
 >
@@ -576,7 +576,7 @@ runnable
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 WorkerDebugger
 >

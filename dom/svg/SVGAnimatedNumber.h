@@ -128,7 +128,7 @@ SVGAnimatedNumber
 {
 }
 ;
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >

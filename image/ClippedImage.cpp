@@ -59,7 +59,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -273,7 +273,7 @@ Surface
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -327,7 +327,7 @@ BAD_IMAGE
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -443,7 +443,7 @@ gfxRect
 &
 aFillRect
 const
-Filter
+GraphicsFilter
 &
 aFilter
 const
@@ -982,7 +982,7 @@ aFlags
 DrawResult
 result
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1049,7 +1049,7 @@ aFlags
 Pair
 <
 DrawResult
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1084,7 +1084,7 @@ ShouldClip
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1162,7 +1162,7 @@ NeedsRedraw
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -1217,7 +1217,7 @@ DrawResult
 :
 :
 TEMPORARY_ERROR
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1286,10 +1286,10 @@ SurfaceFormat
 :
 :
 B8G8R8A8
-Filter
+GraphicsFilter
 :
 :
-LINEAR
+FILTER_FAST
 imgIContainer
 :
 :
@@ -1333,7 +1333,7 @@ now
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1563,7 +1563,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 const
 Maybe
@@ -1616,7 +1616,7 @@ aFlags
 DrawResult
 result
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1822,7 +1822,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 const
 Maybe
@@ -2130,7 +2130,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aFlags

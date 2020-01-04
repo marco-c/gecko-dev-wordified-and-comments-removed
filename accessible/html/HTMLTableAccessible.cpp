@@ -3912,7 +3912,7 @@ PresShell
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -4069,7 +4069,7 @@ PresShell
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >

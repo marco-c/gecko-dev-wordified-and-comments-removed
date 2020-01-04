@@ -505,7 +505,7 @@ friend
 class
 PannerNode
 ;
-RefPtr
+nsRefPtr
 <
 AudioContext
 >

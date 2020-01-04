@@ -1975,7 +1975,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -1989,7 +1989,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -2076,7 +2076,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2090,7 +2090,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -2176,7 +2176,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2190,7 +2190,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -2288,7 +2288,7 @@ int32_t
 aType
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2302,7 +2302,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -2387,7 +2387,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2401,7 +2401,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -2499,7 +2499,7 @@ int32_t
 aMode
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2513,7 +2513,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -2598,7 +2598,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2612,7 +2612,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -2698,7 +2698,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2712,7 +2712,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -2797,7 +2797,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2811,7 +2811,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -2897,7 +2897,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2956,7 +2956,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -3045,7 +3045,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -3232,7 +3232,7 @@ true
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -3345,7 +3345,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -3440,7 +3440,7 @@ true
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -3551,7 +3551,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -3611,7 +3611,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -3739,7 +3739,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -3863,7 +3863,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -3961,7 +3961,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -3975,7 +3975,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -4061,7 +4061,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -4075,7 +4075,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -4164,7 +4164,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -4178,7 +4178,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -4264,7 +4264,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -4278,7 +4278,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -4363,7 +4363,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -4377,7 +4377,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -4463,7 +4463,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -4477,7 +4477,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileConnectionCallback
 >
@@ -4657,7 +4657,7 @@ mMessage
 =
 aMessage
 ;
-RefPtr
+nsRefPtr
 <
 DataErrorEvent
 >
@@ -4769,7 +4769,7 @@ mServiceClass
 =
 aServiceClass
 ;
-RefPtr
+nsRefPtr
 <
 CFStateChangeEvent
 >
@@ -4851,7 +4851,7 @@ mTimeoutMs
 =
 aTimeoutMs
 ;
-RefPtr
+nsRefPtr
 <
 MozEmergencyCbModeEvent
 >
@@ -4927,7 +4927,7 @@ mStatus
 =
 aStatus
 ;
-RefPtr
+nsRefPtr
 <
 MozOtaStatusEvent
 >
@@ -5036,7 +5036,7 @@ mMode
 =
 aMode
 ;
-RefPtr
+nsRefPtr
 <
 MozClirModeEvent
 >
@@ -5174,7 +5174,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >

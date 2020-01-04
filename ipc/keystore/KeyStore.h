@@ -513,13 +513,13 @@ override
 bool
 mShutdown
 ;
-RefPtr
+nsRefPtr
 <
 ListenSocket
 >
 mListenSocket
 ;
-RefPtr
+nsRefPtr
 <
 StreamSocket
 >

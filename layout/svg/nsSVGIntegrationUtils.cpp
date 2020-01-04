@@ -2288,7 +2288,7 @@ PopGroupToSource
 Matrix
 maskTransform
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2347,7 +2347,7 @@ cssPxToDevPxMatrix
 Matrix
 clippedMaskTransform
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2591,7 +2591,7 @@ gfxRect
 &
 aFillRect
 const
-Filter
+GraphicsFilter
 &
 aFilter
 const
@@ -2634,7 +2634,7 @@ gfxRect
 &
 aFillRect
 const
-Filter
+GraphicsFilter
 &
 aFilter
 const

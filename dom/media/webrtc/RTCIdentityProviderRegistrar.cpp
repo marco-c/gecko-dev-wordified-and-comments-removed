@@ -176,7 +176,7 @@ GetIdp
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 RTCIdentityProvider
 >

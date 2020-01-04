@@ -1166,7 +1166,7 @@ propQemu
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1183,7 +1183,7 @@ AllocateMediaResources
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaResourcePromise
 >
@@ -3474,7 +3474,7 @@ unreadable
 0
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -4586,7 +4586,7 @@ ANDROID_VERSION
 >
 =
 17
-RefPtr
+nsRefPtr
 <
 FenceHandle
 :

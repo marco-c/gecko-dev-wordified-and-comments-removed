@@ -312,7 +312,7 @@ observerService
 return
 NS_OK
 ;
-RefPtr
+nsRefPtr
 <
 ObserverToDestroyFeaturesAlreadyReported
 >

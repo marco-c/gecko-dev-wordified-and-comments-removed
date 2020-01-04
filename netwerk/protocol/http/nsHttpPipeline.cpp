@@ -608,7 +608,7 @@ connection
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -1332,7 +1332,7 @@ TakeSubTransactions
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsAHttpTransaction
 >
@@ -2696,7 +2696,7 @@ false
 mHttp1xTransactionCount
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -3041,7 +3041,7 @@ mClosed
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >

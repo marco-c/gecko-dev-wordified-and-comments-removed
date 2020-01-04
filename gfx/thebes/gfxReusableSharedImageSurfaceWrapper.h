@@ -16,7 +16,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -165,7 +165,7 @@ aShmem
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -177,7 +177,7 @@ ISurfaceAllocator
 >
 mAllocator
 ;
-RefPtr
+nsRefPtr
 <
 gfxSharedImageSurface
 >

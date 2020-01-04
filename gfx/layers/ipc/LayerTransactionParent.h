@@ -817,7 +817,7 @@ RenderFrameParent
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 LayerManagerComposite
 >
@@ -827,7 +827,7 @@ ShadowLayersManager
 *
 mShadowLayersManager
 ;
-RefPtr
+nsRefPtr
 <
 Layer
 >

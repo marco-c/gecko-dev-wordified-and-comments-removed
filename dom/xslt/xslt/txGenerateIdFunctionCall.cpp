@@ -199,7 +199,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >

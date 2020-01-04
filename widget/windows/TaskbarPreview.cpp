@@ -1407,7 +1407,7 @@ isPreview
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 gfxWindowsSurface
 >

@@ -37,7 +37,7 @@ GetInstance
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIdleServiceGonk
 >

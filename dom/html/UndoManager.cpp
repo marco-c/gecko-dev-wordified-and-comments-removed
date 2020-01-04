@@ -2190,7 +2190,7 @@ currentNode
 =
 aContent
 ;
-RefPtr
+nsRefPtr
 <
 UndoManager
 >
@@ -2351,7 +2351,7 @@ aElement
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 UndoAttrChanged
 >
@@ -2418,7 +2418,7 @@ aContent
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 UndoTextChanged
 >
@@ -2471,7 +2471,7 @@ aContainer
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 UndoContentAppend
 >
@@ -2538,7 +2538,7 @@ aContainer
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 UndoContentInsert
 >
@@ -2595,7 +2595,7 @@ aContainer
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 UndoContentRemove
 >
@@ -2672,7 +2672,7 @@ FunctionCallTxn
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 DOMTransaction
 >
@@ -2756,7 +2756,7 @@ NS_OK
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 DOMTransactionCallback
 >
@@ -2826,7 +2826,7 @@ NS_OK
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 DOMTransactionCallback
 >
@@ -3033,7 +3033,7 @@ guard
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMTransactionCallback
 >
@@ -3188,7 +3188,7 @@ UndoMutationObserver
 mTxnManager
 )
 ;
-RefPtr
+nsRefPtr
 <
 FunctionCallTxn
 >
@@ -3204,7 +3204,7 @@ FunctionCallTxn
 CALL_ON_UNDO
 )
 ;
-RefPtr
+nsRefPtr
 <
 FunctionCallTxn
 >
@@ -3309,7 +3309,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 FunctionCallTxn
 >
@@ -3330,7 +3330,7 @@ FunctionCallTxn
 CALL_ON_UNDO
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMTransactionCallback
 >
@@ -3853,7 +3853,7 @@ Nullable
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DOMTransaction
 >
@@ -4017,7 +4017,7 @@ return
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DOMTransaction
 >
@@ -4434,7 +4434,7 @@ mTransactions
 =
 array
 ;
-RefPtr
+nsRefPtr
 <
 DOMTransactionEvent
 >

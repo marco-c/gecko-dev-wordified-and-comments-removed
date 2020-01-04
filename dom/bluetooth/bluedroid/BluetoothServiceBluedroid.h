@@ -1464,7 +1464,7 @@ mIsFirstTimeToggleOffBt
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1473,7 +1473,7 @@ mChangeAdapterStateRunnables
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1482,7 +1482,7 @@ mSetAdapterPropertyRunnables
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1491,7 +1491,7 @@ mChangeDiscoveryRunnables
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1500,7 +1500,7 @@ mFetchUuidsRunnables
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >
@@ -1509,7 +1509,7 @@ mCreateBondRunnables
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >

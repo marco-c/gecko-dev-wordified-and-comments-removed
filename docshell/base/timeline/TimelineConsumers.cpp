@@ -269,7 +269,7 @@ GetKnownDocShells
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -753,7 +753,7 @@ AddMarkerForDocShellsList
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -779,7 +779,7 @@ for
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -830,7 +830,7 @@ AddMarkerForDocShellsList
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -860,7 +860,7 @@ for
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -912,7 +912,7 @@ AddMarkerForDocShellsList
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -938,7 +938,7 @@ for
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -1004,7 +1004,7 @@ AddOTMTMarkerForDocShellsList
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -1039,7 +1039,7 @@ for
 (
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -1104,7 +1104,7 @@ NS_IsMainThread
 ;
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -1155,7 +1155,7 @@ NS_IsMainThread
 ;
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -1203,7 +1203,7 @@ NS_IsMainThread
 ;
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >
@@ -1258,7 +1258,7 @@ AssertCurrentThreadOwns
 ;
 Vector
 <
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >

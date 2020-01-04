@@ -227,7 +227,7 @@ AppleVTDecoder
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 :
@@ -530,7 +530,7 @@ runnable
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >

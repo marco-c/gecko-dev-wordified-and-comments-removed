@@ -289,7 +289,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsMIMEInfoBase
 >
@@ -337,7 +337,7 @@ nsACString
 aMIMEType
 )
 {
-RefPtr
+nsRefPtr
 <
 nsMIMEInfoUnix
 >

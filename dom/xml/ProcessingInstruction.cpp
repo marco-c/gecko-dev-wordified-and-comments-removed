@@ -141,7 +141,7 @@ nsGkAtoms
 xml_stylesheet
 )
 {
-RefPtr
+nsRefPtr
 <
 XMLStylesheetProcessingInstruction
 >
@@ -162,7 +162,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -194,7 +194,7 @@ PROCESSING_INSTRUCTION_NODE
 target
 )
 ;
-RefPtr
+nsRefPtr
 <
 ProcessingInstruction
 >
@@ -465,7 +465,7 @@ GetData
 data
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

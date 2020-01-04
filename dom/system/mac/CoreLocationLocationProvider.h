@@ -75,7 +75,7 @@ nsIGeolocationUpdate
 >
 mCallback
 ;
-RefPtr
+nsRefPtr
 <
 MLSFallback
 >

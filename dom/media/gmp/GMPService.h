@@ -555,7 +555,7 @@ mPluginCrashes
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 GMPCrashCallback
 >

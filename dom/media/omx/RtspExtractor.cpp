@@ -155,7 +155,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 RtspMediaResource
 >

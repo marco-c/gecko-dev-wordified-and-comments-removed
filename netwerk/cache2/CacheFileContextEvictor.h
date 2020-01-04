@@ -52,7 +52,7 @@ mInfo
 PRTime
 mTimeStamp
 ;
-RefPtr
+nsRefPtr
 <
 CacheIndexIterator
 >

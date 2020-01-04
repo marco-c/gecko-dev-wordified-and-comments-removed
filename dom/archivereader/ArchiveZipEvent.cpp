@@ -263,7 +263,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 dom
 :

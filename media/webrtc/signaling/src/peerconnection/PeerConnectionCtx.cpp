@@ -334,7 +334,7 @@ rv
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PeerConnectionCtxShutdown
 >

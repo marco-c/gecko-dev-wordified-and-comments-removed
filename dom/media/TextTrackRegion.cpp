@@ -132,7 +132,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextTrackRegion
 >

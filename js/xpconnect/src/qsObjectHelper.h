@@ -147,7 +147,7 @@ T
 inline
 qsObjectHelper
 (
-RefPtr
+nsRefPtr
 <
 T
 >

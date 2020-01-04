@@ -160,7 +160,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PresentationSession
 >

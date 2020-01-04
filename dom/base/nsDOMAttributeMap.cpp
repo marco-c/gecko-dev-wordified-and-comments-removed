@@ -156,7 +156,7 @@ nsAttrHashKey
 :
 KeyType
 aKey
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -246,7 +246,7 @@ nsAttrHashKey
 :
 KeyType
 aKey
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -454,7 +454,7 @@ nsAttrHashKey
 :
 KeyType
 aKey
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -640,7 +640,7 @@ NameAtom
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -684,7 +684,7 @@ NameAtom
 value
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -811,7 +811,7 @@ if
 node
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -825,7 +825,7 @@ ni
 =
 aNodeInfo
 ;
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -889,7 +889,7 @@ mContent
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1182,7 +1182,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -1270,7 +1270,7 @@ nodes
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 NodeInfo
 >
@@ -1426,7 +1426,7 @@ break
 }
 }
 }
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -1437,7 +1437,7 @@ if
 oldNi
 )
 {
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -1596,7 +1596,7 @@ GetValue
 value
 )
 ;
-RefPtr
+nsRefPtr
 <
 NodeInfo
 >
@@ -1727,7 +1727,7 @@ ErrorResult
 aError
 )
 {
-RefPtr
+nsRefPtr
 <
 Attr
 >
@@ -1849,7 +1849,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1941,7 +1941,7 @@ aFound
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2155,7 +2155,7 @@ nsAString
 aLocalName
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2346,7 +2346,7 @@ aLocalName
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2474,7 +2474,7 @@ ErrorResult
 aError
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :

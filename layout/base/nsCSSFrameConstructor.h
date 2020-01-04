@@ -934,7 +934,7 @@ const
 nsString
 &
 aString
-RefPtr
+nsRefPtr
 <
 nsTextNode
 >
@@ -2543,7 +2543,7 @@ nsIContent
 const
 mContent
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -2914,7 +2914,7 @@ PendingBinding
 *
 mPendingBinding
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

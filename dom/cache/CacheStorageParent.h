@@ -164,7 +164,7 @@ const
 Namespace
 mNamespace
 ;
-RefPtr
+nsRefPtr
 <
 PrincipalVerifier
 >
@@ -173,7 +173,7 @@ mVerifier
 nsresult
 mVerifiedStatus
 ;
-RefPtr
+nsRefPtr
 <
 ManagerId
 >

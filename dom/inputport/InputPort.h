@@ -158,13 +158,13 @@ Shutdown
 nsString
 mId
 ;
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >
 mStream
 ;
-RefPtr
+nsRefPtr
 <
 InputPortListener
 >

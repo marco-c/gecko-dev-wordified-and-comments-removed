@@ -396,7 +396,7 @@ GetEtws
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 CellBroadcastEtwsInfo
 >

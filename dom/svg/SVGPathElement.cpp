@@ -76,7 +76,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -279,7 +279,7 @@ GetTotalLength
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -320,7 +320,7 @@ ErrorResult
 rv
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -486,7 +486,7 @@ CreateSVGPathSegClosePath
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegClosePath
 >
@@ -520,7 +520,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegMovetoAbs
 >
@@ -556,7 +556,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegMovetoRel
 >
@@ -592,7 +592,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegLinetoAbs
 >
@@ -628,7 +628,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegLinetoRel
 >
@@ -672,7 +672,7 @@ float
 y2
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoCubicAbs
 >
@@ -720,7 +720,7 @@ float
 y2
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoCubicRel
 >
@@ -764,7 +764,7 @@ float
 y1
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoQuadraticAbs
 >
@@ -806,7 +806,7 @@ float
 y1
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoQuadraticRel
 >
@@ -854,7 +854,7 @@ bool
 sweepFlag
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegArcAbs
 >
@@ -905,7 +905,7 @@ bool
 sweepFlag
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegArcRel
 >
@@ -944,7 +944,7 @@ float
 x
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegLinetoHorizontalAbs
 >
@@ -977,7 +977,7 @@ float
 x
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegLinetoHorizontalRel
 >
@@ -1010,7 +1010,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegLinetoVerticalAbs
 >
@@ -1043,7 +1043,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegLinetoVerticalRel
 >
@@ -1082,7 +1082,7 @@ float
 y2
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoCubicSmoothAbs
 >
@@ -1124,7 +1124,7 @@ float
 y2
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoCubicSmoothRel
 >
@@ -1162,7 +1162,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoQuadraticSmoothAbs
 >
@@ -1198,7 +1198,7 @@ float
 y
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegCurvetoQuadraticSmoothRel
 >
@@ -1508,7 +1508,7 @@ authorsPathLengthEstimate
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -1558,7 +1558,7 @@ IsIdentity
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -1628,7 +1628,7 @@ strokeWidth
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

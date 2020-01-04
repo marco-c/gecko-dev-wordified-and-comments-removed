@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -245,7 +245,7 @@ mIsAwaitingResetComplete
 bool
 mIsAwaitingDrainComplete
 ;
-RefPtr
+nsRefPtr
 <
 GMPContentParent
 >

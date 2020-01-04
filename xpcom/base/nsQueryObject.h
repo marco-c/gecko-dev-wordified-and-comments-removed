@@ -25,7 +25,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -271,7 +271,7 @@ T
 >
 do_QueryObject
 (
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -366,7 +366,7 @@ T
 >
 do_QueryObject
 (
-RefPtr
+nsRefPtr
 <
 T
 >

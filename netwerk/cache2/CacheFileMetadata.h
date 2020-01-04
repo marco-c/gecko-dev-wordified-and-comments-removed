@@ -1003,7 +1003,7 @@ nsACString
 aKey
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheFileHandle
 >

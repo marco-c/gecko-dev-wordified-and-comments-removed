@@ -182,13 +182,13 @@ IntSize
 aSize
 )
 {
-RefPtr
+nsRefPtr
 <
 ImageContainer
 >
 container
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >

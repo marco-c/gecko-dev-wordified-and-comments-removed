@@ -502,7 +502,7 @@ return
 NS_ERROR_NO_AGGREGATION
 ;
 }
-RefPtr
+nsRefPtr
 <
 SchedulingContextService
 >

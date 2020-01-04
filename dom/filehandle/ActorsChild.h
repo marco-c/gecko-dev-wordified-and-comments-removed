@@ -105,7 +105,7 @@ friend
 class
 MutableFileBase
 ;
-RefPtr
+nsRefPtr
 <
 MutableFileBase
 >
@@ -231,7 +231,7 @@ friend
 class
 MutableFileBase
 ;
-RefPtr
+nsRefPtr
 <
 FileHandleBase
 >
@@ -346,13 +346,13 @@ friend
 class
 FileHandleBase
 ;
-RefPtr
+nsRefPtr
 <
 FileRequestBase
 >
 mFileRequest
 ;
-RefPtr
+nsRefPtr
 <
 FileHandleBase
 >

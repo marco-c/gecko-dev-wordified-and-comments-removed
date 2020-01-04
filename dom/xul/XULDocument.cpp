@@ -990,7 +990,7 @@ result
 return
 NS_ERROR_NULL_POINTER
 ;
-RefPtr
+nsRefPtr
 <
 XULDocument
 >
@@ -3714,7 +3714,7 @@ if
 shell
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -4920,7 +4920,7 @@ nsString
 aValue
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -5102,7 +5102,7 @@ nullptr
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -5183,7 +5183,7 @@ tag
 int32_t
 nameSpaceID
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -8265,7 +8265,7 @@ aDocumentPrincipal
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 XULContentSinkImpl
 >
@@ -9439,7 +9439,7 @@ indexOfRoot
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsXULPrototypePI
 >
@@ -9520,7 +9520,7 @@ rv
 return
 rv
 ;
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -9691,7 +9691,7 @@ ptr
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 ProcessingInstruction
 >
@@ -10828,7 +10828,7 @@ listener
 return
 NS_ERROR_UNEXPECTED
 ;
-RefPtr
+nsRefPtr
 <
 ParserObserver
 >
@@ -11379,7 +11379,7 @@ nsXULPrototypeElement
 childproto
 )
 ;
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -11658,7 +11658,7 @@ if
 processingOverlayHookupNodes
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTextNode
 >
@@ -14244,7 +14244,7 @@ get
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -14294,7 +14294,7 @@ rv
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -14354,7 +14354,7 @@ newNodeInfo
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -14443,7 +14443,7 @@ aResult
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -15043,7 +15043,7 @@ sheets
 i
 ]
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >

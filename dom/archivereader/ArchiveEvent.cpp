@@ -339,7 +339,7 @@ ShareMainThread
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -375,7 +375,7 @@ Length
 index
 )
 {
-RefPtr
+nsRefPtr
 <
 ArchiveItem
 >
@@ -474,7 +474,7 @@ type
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 File
 >

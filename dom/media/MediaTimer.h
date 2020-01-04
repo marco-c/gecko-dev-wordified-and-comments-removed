@@ -52,7 +52,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -153,7 +153,7 @@ Release
 void
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaTimerPromise
 >
@@ -311,7 +311,7 @@ Entry
 TimeStamp
 mTimeStamp
 ;
-RefPtr
+nsRefPtr
 <
 MediaTimerPromise
 :

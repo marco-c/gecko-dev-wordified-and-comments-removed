@@ -267,7 +267,7 @@ nsIRemoteOpenFileListener
 >
 mListener
 ;
-RefPtr
+nsRefPtr
 <
 TabChild
 >

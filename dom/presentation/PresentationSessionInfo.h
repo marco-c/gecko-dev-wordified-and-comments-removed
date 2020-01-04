@@ -40,7 +40,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -699,7 +699,7 @@ UntrackFromService
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 PresentationResponderLoadingCallback
 >
@@ -717,7 +717,7 @@ nsIPresentationChannelDescription
 >
 mRequesterDescription
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >

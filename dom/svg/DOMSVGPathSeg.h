@@ -623,7 +623,7 @@ IndexIsValid
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 DOMSVGPathSegList
 >

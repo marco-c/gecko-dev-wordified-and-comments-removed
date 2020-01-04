@@ -177,7 +177,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PrincipalVerifier
 >
@@ -414,7 +414,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ContentParent
 >
@@ -430,7 +430,7 @@ mActor
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsIPrincipal
 >

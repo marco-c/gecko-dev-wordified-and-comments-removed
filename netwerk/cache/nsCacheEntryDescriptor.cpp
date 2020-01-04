@@ -204,7 +204,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsCacheEntryDescriptor
 >
@@ -2224,7 +2224,7 @@ Close
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsOutputStreamWrapper
 >
@@ -2232,7 +2232,7 @@ outputWrapper
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsInputStreamWrapper
 >
@@ -2631,7 +2631,7 @@ Release
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCacheEntryDescriptor
 >
@@ -3423,7 +3423,7 @@ Release
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCacheEntryDescriptor
 >
@@ -4152,7 +4152,7 @@ Release
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCacheEntryDescriptor
 >
@@ -5041,7 +5041,7 @@ Release
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCacheEntryDescriptor
 >

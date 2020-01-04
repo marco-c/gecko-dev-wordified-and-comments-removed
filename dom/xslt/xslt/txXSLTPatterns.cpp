@@ -1360,7 +1360,7 @@ contextDoc
 false
 )
 ;
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >
@@ -1650,7 +1650,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >
@@ -1758,7 +1758,7 @@ mPredicates
 0
 ]
 ;
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >
@@ -1847,7 +1847,7 @@ next
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >
@@ -2032,7 +2032,7 @@ aNode
 nodes
 )
 ;
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >

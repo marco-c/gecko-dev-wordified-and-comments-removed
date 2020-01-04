@@ -131,13 +131,13 @@ TCPSocketParentBase
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TCPSocket
 >
 mSocket
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

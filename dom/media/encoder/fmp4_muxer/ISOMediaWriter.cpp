@@ -406,7 +406,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 EncodedFrame
 >

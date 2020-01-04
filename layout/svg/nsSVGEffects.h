@@ -714,7 +714,7 @@ private
 :
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsSVGFilterReference
 >

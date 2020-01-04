@@ -497,7 +497,7 @@ mCommand
 =
 value
 ;
-RefPtr
+nsRefPtr
 <
 MozStkCommandEvent
 >
@@ -1500,7 +1500,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -1514,7 +1514,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IccCallback
 >
@@ -1610,7 +1610,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -1624,7 +1624,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IccCallback
 >
@@ -1748,7 +1748,7 @@ nullptr
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -1762,7 +1762,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IccCallback
 >
@@ -1929,7 +1929,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -1943,7 +1943,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IccCallback
 >
@@ -2036,7 +2036,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2050,7 +2050,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IccCallback
 >
@@ -2150,7 +2150,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2164,7 +2164,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IccCallback
 >
@@ -2302,7 +2302,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2316,7 +2316,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IccCallback
 >
@@ -2433,7 +2433,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2461,7 +2461,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IccCallback
 >

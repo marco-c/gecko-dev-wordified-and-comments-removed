@@ -157,7 +157,7 @@ RunnableTask
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >

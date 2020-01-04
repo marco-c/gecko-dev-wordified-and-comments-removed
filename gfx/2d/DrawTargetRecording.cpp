@@ -159,13 +159,13 @@ GetDataSurface
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
 mFinalSurface
 ;
-RefPtr
+nsRefPtr
 <
 DrawEventRecorderPrivate
 >
@@ -236,13 +236,13 @@ BackendType
 RECORDING
 ;
 }
-RefPtr
+nsRefPtr
 <
 GradientStops
 >
 mFinalGradientStops
 ;
-RefPtr
+nsRefPtr
 <
 DrawEventRecorderPrivate
 >
@@ -717,13 +717,13 @@ return
 FILTER_BACKEND_RECORDING
 ;
 }
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
 mFinalFilterNode
 ;
-RefPtr
+nsRefPtr
 <
 DrawEventRecorderPrivate
 >
@@ -1131,7 +1131,7 @@ mFinalDT
 aDT
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1494,7 +1494,7 @@ void
 *
 refPtr
 ;
-RefPtr
+nsRefPtr
 <
 DrawEventRecorderPrivate
 >
@@ -1887,7 +1887,7 @@ Snapshot
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1900,7 +1900,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2119,7 +2119,7 @@ FilterType
 aType
 )
 {
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -2133,7 +2133,7 @@ CreateFilter
 aType
 )
 ;
-RefPtr
+nsRefPtr
 <
 FilterNode
 >
@@ -2378,7 +2378,7 @@ aFormat
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2395,7 +2395,7 @@ aStride
 aFormat
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2446,7 +2446,7 @@ aSurface
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2460,7 +2460,7 @@ OptimizeSourceSurface
 aSurface
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2473,7 +2473,7 @@ surf
 mRecorder
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2703,7 +2703,7 @@ aSurface
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2717,7 +2717,7 @@ CreateSourceSurfaceFromNativeSurface
 aSurface
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2730,7 +2730,7 @@ surf
 mRecorder
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2946,7 +2946,7 @@ aFormat
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2990,7 +2990,7 @@ aFillRule
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -3034,7 +3034,7 @@ aExtendMode
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 GradientStops
 >
@@ -3050,7 +3050,7 @@ aNumStops
 aExtendMode
 )
 ;
-RefPtr
+nsRefPtr
 <
 GradientStops
 >

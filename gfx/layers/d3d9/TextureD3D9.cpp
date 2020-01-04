@@ -235,7 +235,7 @@ TextureFlags
 aFlags
 )
 {
-RefPtr
+nsRefPtr
 <
 TextureHost
 >
@@ -735,7 +735,7 @@ IntSize
 aSize
 _D3DFORMAT
 aFormat
-RefPtr
+nsRefPtr
 <
 IDirect3DSurface9
 >
@@ -756,7 +756,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -785,7 +785,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -917,7 +917,7 @@ UnlockRect
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDirect3DSurface9
 >
@@ -980,7 +980,7 @@ uint32_t
 aBPP
 )
 {
-RefPtr
+nsRefPtr
 <
 IDirect3DSurface9
 >
@@ -989,7 +989,7 @@ surface
 D3DLOCKED_RECT
 lockedRect
 ;
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -1113,7 +1113,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -2032,7 +2032,7 @@ aAllocFlags
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -2385,7 +2385,7 @@ gfxContentType
 COLOR
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -2701,7 +2701,7 @@ hr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -3214,7 +3214,7 @@ SurfaceFormat
 B8G8R8X8
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -3263,7 +3263,7 @@ shareHandle
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 SharedTextureClientD3D9
 >
@@ -3347,7 +3347,7 @@ GetD3D9Surface
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 IDirect3DSurface9
 >
@@ -3799,13 +3799,13 @@ false
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DSurface9
 >
 srcSurface
 ;
-RefPtr
+nsRefPtr
 <
 IDirect3DSurface9
 >
@@ -4376,7 +4376,7 @@ GetDevice
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >

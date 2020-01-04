@@ -90,7 +90,7 @@ VisualSampleEntry
 {
 public
 :
-RefPtr
+nsRefPtr
 <
 AVCConfigurationBox
 >

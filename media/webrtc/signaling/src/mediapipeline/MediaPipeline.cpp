@@ -362,7 +362,7 @@ RUN_ON_THREAD
 sts_thread_
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 >
@@ -555,12 +555,12 @@ UpdateTransport_m
 (
 int
 level
-RefPtr
+nsRefPtr
 <
 TransportFlow
 >
 rtp_transport
-RefPtr
+nsRefPtr
 <
 TransportFlow
 >
@@ -600,12 +600,12 @@ UpdateTransport_s
 (
 int
 level
-RefPtr
+nsRefPtr
 <
 TransportFlow
 >
 rtp_transport
-RefPtr
+nsRefPtr
 <
 TransportFlow
 >
@@ -3919,7 +3919,7 @@ RUN_ON_THREAD
 sts_thread_
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 :
@@ -4284,7 +4284,7 @@ RUN_ON_THREAD
 sts_thread_
 WrapRunnable
 (
-RefPtr
+nsRefPtr
 <
 MediaPipeline
 :
@@ -4370,7 +4370,7 @@ UnsetTrackIdImpl
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 PipelineListener
 >
@@ -6092,7 +6092,7 @@ format
 }
 }
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -6136,7 +6136,7 @@ failed
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -6730,7 +6730,7 @@ MediaSegment
 *
 segment
 const
-RefPtr
+nsRefPtr
 <
 TrackAddedCallback
 >
@@ -6771,7 +6771,7 @@ MediaStreamListener
 *
 listener
 const
-RefPtr
+nsRefPtr
 <
 TrackAddedCallback
 >
@@ -6996,14 +6996,14 @@ MediaSegment
 >
 segment_
 ;
-RefPtr
+nsRefPtr
 <
 MediaStreamListener
 >
 listener_
 ;
 const
-RefPtr
+nsRefPtr
 <
 TrackAddedCallback
 >
@@ -7187,7 +7187,7 @@ MediaSegment
 segment
 )
 {
-RefPtr
+nsRefPtr
 <
 TrackAddedCallback
 >
@@ -7225,7 +7225,7 @@ source
 TrackID
 track_id
 const
-RefPtr
+nsRefPtr
 <
 MediaSessionConduit
 >
@@ -7479,7 +7479,7 @@ length
 samples_length
 )
 ;
-RefPtr
+nsRefPtr
 <
 SharedBuffer
 >
@@ -7864,7 +7864,7 @@ time_stamp
 int64_t
 render_time
 const
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -7940,7 +7940,7 @@ PLANAR_YCBCR
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -8185,7 +8185,7 @@ defined
 (
 MOZILLA_XPCOMRT_API
 )
-RefPtr
+nsRefPtr
 <
 SimpleImageBuffer
 >
@@ -8199,7 +8199,7 @@ defined
 (
 MOZILLA_INTERNAL_API
 )
-RefPtr
+nsRefPtr
 <
 Image
 >

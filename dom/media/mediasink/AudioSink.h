@@ -22,7 +22,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -76,7 +76,7 @@ aAudioQueue
 {
 }
 virtual
-RefPtr
+nsRefPtr
 <
 GenericPromise
 >

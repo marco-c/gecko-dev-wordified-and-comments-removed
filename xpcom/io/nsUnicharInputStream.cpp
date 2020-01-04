@@ -1672,7 +1672,7 @@ nsIUnicharInputStream
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 StringUnicharInputStream
 >
@@ -1715,7 +1715,7 @@ aResult
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 UTF8InputStream
 >

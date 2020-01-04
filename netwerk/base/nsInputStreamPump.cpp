@@ -239,7 +239,7 @@ rv
 =
 NS_ERROR_OUT_OF_MEMORY
 ;
-RefPtr
+nsRefPtr
 <
 nsInputStreamPump
 >

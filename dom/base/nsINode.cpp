@@ -1725,7 +1725,7 @@ GetEditingHost
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -6003,7 +6003,7 @@ BoxQuadOptions
 aOptions
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DOMQuad
 >
@@ -6198,7 +6198,7 @@ GetShell
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -10788,7 +10788,7 @@ GetBoundMutationObservers
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsDOMMutationObserver
 >
@@ -12483,7 +12483,7 @@ ErrorResult
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 nsSimpleContentList
 >

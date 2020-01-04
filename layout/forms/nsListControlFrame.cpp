@@ -2690,7 +2690,7 @@ selectedIndex
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -4146,7 +4146,7 @@ focusedIndex
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -4730,7 +4730,7 @@ bool
 aClearAll
 )
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -4834,7 +4834,7 @@ int32_t
 aIndex
 )
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -4860,7 +4860,7 @@ option
 false
 )
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -5620,7 +5620,7 @@ bool
 aIsDisabled
 )
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -5739,7 +5739,7 @@ rowBSize
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -6454,7 +6454,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -7204,7 +7204,7 @@ INSTANT
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -7802,7 +7802,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -8782,7 +8782,7 @@ startIndex
 +
 ;
 }
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -8844,7 +8844,7 @@ startIndex
 %
 numOptions
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :

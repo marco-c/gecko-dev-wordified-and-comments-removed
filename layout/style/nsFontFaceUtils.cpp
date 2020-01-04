@@ -141,7 +141,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

@@ -144,7 +144,7 @@ Init
 nsString
 mUrl
 ;
-RefPtr
+nsRefPtr
 <
 PresentationAvailability
 >

@@ -1136,7 +1136,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -1633,7 +1633,7 @@ if
 shell
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -1745,7 +1745,7 @@ if
 shell
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -1821,7 +1821,7 @@ if
 shell
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -4318,7 +4318,7 @@ shell
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -4379,7 +4379,7 @@ nsISelectionController
 SELECTION_ON
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsISelection
 >
@@ -4421,7 +4421,7 @@ domSelection
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -6335,7 +6335,7 @@ if
 mTextListener
 )
 {
-RefPtr
+nsRefPtr
 <
 nsISelection
 >
@@ -6628,7 +6628,7 @@ doc
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -7015,7 +7015,7 @@ NS_ERROR_OUT_OF_MEMORY
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -7068,7 +7068,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsTextNode
 >

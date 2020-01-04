@@ -1109,7 +1109,7 @@ NS_ENSURE_NO_AGGREGATION
 aOuter
 )
 ;
-RefPtr
+nsRefPtr
 <
 FileSystemDataSource
 >

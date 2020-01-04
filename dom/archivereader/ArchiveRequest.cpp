@@ -91,7 +91,7 @@ ArchiveRequestEvent
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 ArchiveRequest
 >
@@ -163,7 +163,7 @@ MOZ_COUNT_CTOR
 ArchiveRequest
 )
 ;
-RefPtr
+nsRefPtr
 <
 ArchiveRequestEvent
 >
@@ -370,7 +370,7 @@ ReaderReady
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -574,7 +574,7 @@ Value
 aValue
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -648,7 +648,7 @@ Length
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -755,7 +755,7 @@ Value
 aValue
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -784,7 +784,7 @@ Length
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -860,7 +860,7 @@ Value
 aValue
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -921,7 +921,7 @@ Length
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -1022,7 +1022,7 @@ thread
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 ArchiveRequest
 >

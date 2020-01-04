@@ -89,7 +89,7 @@ mCodecSpecificConfig
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 :
@@ -738,7 +738,7 @@ Error
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 AudioData
 >
@@ -878,7 +878,7 @@ runnable
 (
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -890,7 +890,7 @@ FFmpegAudioDecoder
 :
 :
 DecodePacket
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >

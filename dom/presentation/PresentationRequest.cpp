@@ -199,7 +199,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 PresentationRequest
 >
@@ -425,7 +425,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -675,7 +675,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -742,7 +742,7 @@ mSession
 =
 aSession
 ;
-RefPtr
+nsRefPtr
 <
 PresentationSessionConnectEvent
 >
@@ -784,7 +784,7 @@ SetTrusted
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >

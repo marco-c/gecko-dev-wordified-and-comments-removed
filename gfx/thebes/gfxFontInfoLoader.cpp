@@ -226,7 +226,7 @@ Run
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 FontInfoData
 >
@@ -276,13 +276,13 @@ Run
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 FontInfoData
 >
 mFontInfo
 ;
-RefPtr
+nsRefPtr
 <
 FontInfoLoadCompleteEvent
 >

@@ -1494,13 +1494,13 @@ Declaration
 *
 mDeclaration
 ;
-RefPtr
+nsRefPtr
 <
 ImportantRule
 >
 mImportantRule
 ;
-RefPtr
+nsRefPtr
 <
 DOMCSSStyleRule
 >

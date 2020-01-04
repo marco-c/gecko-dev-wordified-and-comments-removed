@@ -389,7 +389,7 @@ result
 =
 NS_OK
 ;
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -547,7 +547,7 @@ result
 =
 NS_OK
 ;
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -829,7 +829,7 @@ ti
 nsresult
 result
 ;
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -1028,7 +1028,7 @@ total
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -1231,7 +1231,7 @@ PeekUndoStack
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -1305,7 +1305,7 @@ PeekRedoStack
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -1461,13 +1461,13 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
 lastUndo
 ;
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -1587,7 +1587,7 @@ RemoveTopUndo
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -2747,7 +2747,7 @@ result
 =
 NS_OK
 ;
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -2851,7 +2851,7 @@ result
 =
 NS_OK
 ;
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -2958,7 +2958,7 @@ return
 result
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >
@@ -3147,7 +3147,7 @@ sz
 mMaxTransactionCount
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >

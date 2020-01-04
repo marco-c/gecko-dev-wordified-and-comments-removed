@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -42,7 +42,7 @@ char
 *
 mName
 ;
-RefPtr
+nsRefPtr
 <
 nsDocShell
 >

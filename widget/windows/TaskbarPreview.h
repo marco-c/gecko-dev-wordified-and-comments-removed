@@ -193,7 +193,7 @@ bool
 aEnable
 )
 ;
-RefPtr
+nsRefPtr
 <
 ITaskbarList4
 >

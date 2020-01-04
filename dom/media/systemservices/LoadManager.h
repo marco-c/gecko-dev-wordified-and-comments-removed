@@ -191,7 +191,7 @@ CPULoadState
 aNewState
 )
 ;
-RefPtr
+nsRefPtr
 <
 LoadMonitor
 >

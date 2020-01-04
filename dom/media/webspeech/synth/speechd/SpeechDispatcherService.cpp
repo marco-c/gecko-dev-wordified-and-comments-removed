@@ -598,7 +598,7 @@ nsISpeechTask
 >
 mTask
 ;
-RefPtr
+nsRefPtr
 <
 SpeechDispatcherService
 >
@@ -1605,7 +1605,7 @@ const
 nsAString
 &
 aUri
-RefPtr
+nsRefPtr
 <
 SpeechDispatcherVoice
 >
@@ -1772,7 +1772,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-RefPtr
+nsRefPtr
 <
 SpeechDispatcherCallback
 >
@@ -2102,7 +2102,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SpeechDispatcherService
 >

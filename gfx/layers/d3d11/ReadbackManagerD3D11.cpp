@@ -68,13 +68,13 @@ layers
 struct
 ReadbackTask
 {
-RefPtr
+nsRefPtr
 <
 ID3D10Texture2D
 >
 mReadbackTexture
 ;
-RefPtr
+nsRefPtr
 <
 TextureReadbackSink
 >
@@ -176,7 +176,7 @@ NS_OK
 ;
 }
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

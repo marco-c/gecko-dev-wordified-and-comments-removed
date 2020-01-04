@@ -632,7 +632,7 @@ mHeaderCounter
 7
 ]
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

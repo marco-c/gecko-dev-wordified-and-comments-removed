@@ -247,7 +247,7 @@ MediaStream
 aStream
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaDecoder
 :
@@ -335,7 +335,7 @@ DispatchMinimizePrerollUntilPlaybackStarts
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaDecoderStateMachine
 >
@@ -416,7 +416,7 @@ int64_t
 aEndTime
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaDecoderStateMachine
 >
@@ -471,7 +471,7 @@ bool
 aAudioOffloading
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaDecoderStateMachine
 >
@@ -674,7 +674,7 @@ bool
 aCaptured
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaDecoder
 :
@@ -1067,7 +1067,7 @@ void
 OnAudioPopped
 (
 const
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -1079,7 +1079,7 @@ void
 OnVideoPopped
 (
 const
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -1539,13 +1539,13 @@ AdjustAudioThresholds
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaDecoder
 >
 mDecoder
 ;
-RefPtr
+nsRefPtr
 <
 TaskQueue
 >
@@ -1772,7 +1772,7 @@ MediaDecoderStateMachine
 *
 mSelf
 ;
-RefPtr
+nsRefPtr
 <
 MediaTimer
 >
@@ -1933,7 +1933,7 @@ __func__
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 HaveStartTimePromise
 >
@@ -1999,7 +1999,7 @@ MediaData
 Type
 SampleType
 >
-RefPtr
+nsRefPtr
 <
 PromiseType
 >
@@ -2057,7 +2057,7 @@ aData
 mTime
 )
 ;
-RefPtr
+nsRefPtr
 <
 PromisePrivate
 >
@@ -2069,7 +2069,7 @@ PromisePrivate
 __func__
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataType
 >
@@ -2077,7 +2077,7 @@ data
 =
 aData
 ;
-RefPtr
+nsRefPtr
 <
 StartTimeRendezvous
 >
@@ -2445,7 +2445,7 @@ HaveStartTimePromise
 >
 mHaveStartTimePromise
 ;
-RefPtr
+nsRefPtr
 <
 AbstractThread
 >
@@ -2465,7 +2465,7 @@ mVideoStartTime
 ;
 }
 ;
-RefPtr
+nsRefPtr
 <
 StartTimeRendezvous
 >
@@ -2804,7 +2804,7 @@ mCurrentSeek
 int64_t
 mFragmentEndTime
 ;
-RefPtr
+nsRefPtr
 <
 media
 :
@@ -2813,7 +2813,7 @@ MediaSink
 >
 mMediaSink
 ;
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 >
@@ -3065,7 +3065,7 @@ ScheduleStateMachine
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -3370,13 +3370,13 @@ mSentFirstFrameLoadedEvent
 bool
 mSentPlaybackEndedEvent
 ;
-RefPtr
+nsRefPtr
 <
 DecodedStream
 >
 mStreamSink
 ;
-RefPtr
+nsRefPtr
 <
 MediaResource
 >
@@ -3403,7 +3403,7 @@ MOZ_EME
 void
 OnCDMProxyReady
 (
-RefPtr
+nsRefPtr
 <
 CDMProxy
 >
@@ -3415,7 +3415,7 @@ OnCDMProxyNotReady
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 CDMProxy
 >

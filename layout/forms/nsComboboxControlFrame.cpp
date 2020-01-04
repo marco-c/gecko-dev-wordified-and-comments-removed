@@ -3059,7 +3059,7 @@ NS_FRAME_IS_DIRTY
 mDelayedShowDropDown
 )
 {
-RefPtr
+nsRefPtr
 <
 nsResizeDropdownAtFinalPosition
 >
@@ -3601,7 +3601,7 @@ aPresContext
 aReflowState
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsResizeDropdownAtFinalPosition
 >
@@ -4294,7 +4294,7 @@ ourselves
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 RedisplayTextEvent
 >
@@ -5633,7 +5633,7 @@ StyleSet
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -5657,7 +5657,7 @@ nsStyleSet
 eSkipParentDisplayBasedStyleFixup
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

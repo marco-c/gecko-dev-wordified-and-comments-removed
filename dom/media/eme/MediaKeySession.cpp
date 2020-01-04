@@ -724,7 +724,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DetailedPromise
 >
@@ -1027,7 +1027,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DetailedPromise
 >
@@ -1189,7 +1189,7 @@ mUninitialized
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 MediaKeySession
 >
@@ -1316,7 +1316,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DetailedPromise
 >
@@ -1610,7 +1610,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DetailedPromise
 >
@@ -1883,7 +1883,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DetailedPromise
 >
@@ -2225,7 +2225,7 @@ get
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaKeyMessageEvent
 >
@@ -2242,7 +2242,7 @@ aMessage
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -2306,7 +2306,7 @@ get
 aSystemCode
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaKeyError
 >
@@ -2320,7 +2320,7 @@ aSystemCode
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -2363,7 +2363,7 @@ UpdateKeyStatusMap
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >

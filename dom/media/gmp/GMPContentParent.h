@@ -326,7 +326,7 @@ Close
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 GMPVideoDecoderParent
 >
@@ -335,7 +335,7 @@ mVideoDecoders
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 GMPVideoEncoderParent
 >
@@ -344,7 +344,7 @@ mVideoEncoders
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 GMPDecryptorParent
 >
@@ -353,7 +353,7 @@ mDecryptors
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 GMPAudioDecoderParent
 >
@@ -366,7 +366,7 @@ nsIThread
 >
 mGMPThread
 ;
-RefPtr
+nsRefPtr
 <
 GMPParent
 >

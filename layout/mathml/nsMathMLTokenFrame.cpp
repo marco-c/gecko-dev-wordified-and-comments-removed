@@ -722,7 +722,7 @@ childSize
 mBoundingMetrics
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

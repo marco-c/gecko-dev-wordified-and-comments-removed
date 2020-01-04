@@ -158,7 +158,7 @@ IsServiceRunning
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 GamepadService
 >

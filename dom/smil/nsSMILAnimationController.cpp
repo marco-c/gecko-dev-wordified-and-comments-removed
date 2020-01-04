@@ -1960,7 +1960,7 @@ break
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :

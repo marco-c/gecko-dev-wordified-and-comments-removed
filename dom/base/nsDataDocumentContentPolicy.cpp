@@ -361,7 +361,7 @@ NodePrincipal
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIURI
 >

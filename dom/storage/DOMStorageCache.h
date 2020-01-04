@@ -616,13 +616,13 @@ aDelta
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DOMStorageManager
 >
 mManager
 ;
-RefPtr
+nsRefPtr
 <
 DOMStorageUsage
 >

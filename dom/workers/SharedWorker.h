@@ -86,13 +86,13 @@ dom
 GlobalObject
 GlobalObject
 ;
-RefPtr
+nsRefPtr
 <
 WorkerPrivate
 >
 mWorkerPrivate
 ;
-RefPtr
+nsRefPtr
 <
 MessagePort
 >

@@ -2486,7 +2486,7 @@ CacheFileContextEvictor
 EvictEntries
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheIOThread
 >
@@ -2985,7 +2985,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheFileHandle
 >

@@ -116,7 +116,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1247,7 +1247,7 @@ LayersBackend
 LAYERS_BASIC
 :
 {
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -1306,7 +1306,7 @@ mTransparentSurface
 }
 #
 endif
-RefPtr
+nsRefPtr
 <
 gfxWindowsSurface
 >
@@ -1369,7 +1369,7 @@ targetSurface
 targetSurfaceWin
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxImageSurface
 >
@@ -1551,7 +1551,7 @@ mWnd
 paintRect
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -1733,7 +1733,7 @@ BUFFERED
 #
 endif
 }
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -2641,7 +2641,7 @@ height
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2719,7 +2719,7 @@ iconSize
 frameSize
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2786,7 +2786,7 @@ mappedOK
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

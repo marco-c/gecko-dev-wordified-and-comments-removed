@@ -36,7 +36,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -202,10 +202,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-gfx
-:
-:
-Filter
+GraphicsFilter
 aFilter
 const
 Maybe
@@ -256,10 +253,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-gfx
-:
-:
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aFlags
@@ -288,7 +282,7 @@ private
 Pair
 <
 DrawResult
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -333,10 +327,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-gfx
-:
-:
-Filter
+GraphicsFilter
 aFilter
 const
 Maybe

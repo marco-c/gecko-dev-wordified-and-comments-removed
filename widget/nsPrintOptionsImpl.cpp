@@ -7099,7 +7099,7 @@ XRE_GetProcessType
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPrintingProxy
 >

@@ -1582,10 +1582,6 @@ bool
 aFreezeChildren
 =
 true
-bool
-aFreezeWorkers
-=
-true
 )
 override
 ;
@@ -1595,10 +1591,6 @@ ResumeTimeouts
 (
 bool
 aThawChildren
-=
-true
-bool
-aThawWorkers
 =
 true
 )

@@ -232,7 +232,7 @@ if
 mOwner
 )
 {
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -265,7 +265,7 @@ false
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 imgRequest
 >
@@ -304,7 +304,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -706,7 +706,7 @@ wasDecoded
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -1208,7 +1208,7 @@ mDecodeRequested
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -1265,7 +1265,7 @@ mDecodeRequested
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -1322,7 +1322,7 @@ mLockCount
 +
 +
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -1377,7 +1377,7 @@ mLockCount
 -
 -
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -1413,7 +1413,7 @@ RequestDiscard
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -1453,7 +1453,7 @@ mAnimationConsumers
 +
 +
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -1499,7 +1499,7 @@ mAnimationConsumers
 -
 -
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -1675,7 +1675,7 @@ aImage
 NS_ERROR_NULL_POINTER
 )
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -1760,7 +1760,7 @@ uint32_t
 aStatus
 )
 {
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -2075,7 +2075,7 @@ currentPrincipal
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -2213,7 +2213,7 @@ aClone
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -3294,7 +3294,7 @@ aReturn
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -3358,7 +3358,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -3386,7 +3386,7 @@ currentPrincipal
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -3430,7 +3430,7 @@ NotifyListener
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -3495,7 +3495,7 @@ SyncNotifyListener
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -3522,7 +3522,7 @@ SetHasImage
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -3537,7 +3537,7 @@ MOZ_ASSERT
 progressTracker
 )
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -3684,7 +3684,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -3789,7 +3789,7 @@ GetImage
 const
 override
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -3891,7 +3891,7 @@ owner
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 mozilla
 :

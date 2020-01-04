@@ -292,7 +292,7 @@ NS_OK
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 mozilla
 :

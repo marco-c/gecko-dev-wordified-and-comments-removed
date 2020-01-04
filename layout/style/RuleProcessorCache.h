@@ -426,7 +426,7 @@ DocumentEntry
 nsDocumentRuleResultCacheKey
 mCacheKey
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSRuleProcessor
 >

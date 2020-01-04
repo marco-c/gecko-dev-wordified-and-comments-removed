@@ -425,7 +425,7 @@ uint32_t
 aCameraId
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 ICameraControl
 :

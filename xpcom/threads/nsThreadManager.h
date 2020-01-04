@@ -155,7 +155,7 @@ mThreadsByPRThread
 unsigned
 mCurThreadIndex
 ;
-RefPtr
+nsRefPtr
 <
 nsThread
 >

@@ -636,7 +636,7 @@ BeginUpdate
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -647,7 +647,7 @@ updateSurface
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1324,7 +1324,7 @@ ImageFormat
 aImageFormat
 )
 {
-RefPtr
+nsRefPtr
 <
 TextureImage
 >
@@ -1404,7 +1404,7 @@ fGenTextures
 texture
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextureImageEGL
 >

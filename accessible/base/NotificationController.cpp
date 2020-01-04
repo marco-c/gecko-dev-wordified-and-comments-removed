@@ -360,7 +360,7 @@ nsIContent
 aEndChildNode
 )
 {
-RefPtr
+nsRefPtr
 <
 ContentInsertion
 >
@@ -714,7 +714,7 @@ AddScrollListener
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 ContentInsertion
 >
@@ -1341,7 +1341,7 @@ Length
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DocAccessible
 >
@@ -1601,7 +1601,7 @@ return
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Notification
 >

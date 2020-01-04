@@ -1657,7 +1657,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 URLSearchParams
 >
@@ -1714,7 +1714,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 URLSearchParams
 >

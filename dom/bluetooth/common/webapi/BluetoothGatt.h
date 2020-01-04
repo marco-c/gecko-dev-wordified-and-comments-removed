@@ -116,7 +116,7 @@ GetServices
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothGattService
 >
@@ -318,7 +318,7 @@ mDeviceAddr
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothGattService
 >

@@ -137,7 +137,7 @@ gfx
 Matrix
 mTransform
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

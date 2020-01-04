@@ -256,7 +256,7 @@ mOrigin
 nsString
 mLastEventId
 ;
-RefPtr
+nsRefPtr
 <
 workers
 :
@@ -265,13 +265,13 @@ ServiceWorker
 >
 mServiceWorker
 ;
-RefPtr
+nsRefPtr
 <
 MessagePort
 >
 mMessagePort
 ;
-RefPtr
+nsRefPtr
 <
 MessagePortList
 >

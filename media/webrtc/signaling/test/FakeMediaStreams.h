@@ -774,7 +774,7 @@ void
 AddVideoSink
 (
 const
-RefPtr
+nsRefPtr
 <
 Fake_VideoSink
 >
@@ -1209,13 +1209,13 @@ mPullEnabled
 bool
 mStop
 ;
-RefPtr
+nsRefPtr
 <
 Fake_MediaPeriodic
 >
 mPeriodic
 ;
-RefPtr
+nsRefPtr
 <
 Fake_VideoSink
 >
@@ -1551,7 +1551,7 @@ Fake_SourceMediaStream
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Fake_DOMMediaStream
 >
@@ -1720,7 +1720,7 @@ GetTracks
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Fake_MediaStreamTrack
 >
@@ -1745,7 +1745,7 @@ GetAudioTracks
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Fake_MediaStreamTrack
 >
@@ -1775,7 +1775,7 @@ GetVideoTracks
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Fake_MediaStreamTrack
 >
@@ -1961,7 +1961,7 @@ ignoredObserver
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 Fake_MediaStream
 >
@@ -1970,13 +1970,13 @@ mMediaStream
 uint32_t
 mHintContents
 ;
-RefPtr
+nsRefPtr
 <
 Fake_MediaStreamTrack
 >
 mVideoTrack
 ;
-RefPtr
+nsRefPtr
 <
 Fake_MediaStreamTrack
 >
@@ -2047,7 +2047,7 @@ nsITimer
 >
 mTimer
 ;
-RefPtr
+nsRefPtr
 <
 Fake_MediaPeriodic
 >

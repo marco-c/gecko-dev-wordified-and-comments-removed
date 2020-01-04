@@ -801,7 +801,7 @@ CreateReadbackLayer
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ReadbackLayer
 >
@@ -901,7 +901,7 @@ txn
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -2248,7 +2248,7 @@ bounds
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

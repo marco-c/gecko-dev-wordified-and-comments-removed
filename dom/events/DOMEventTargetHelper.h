@@ -734,7 +734,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 EventListenerManager
 >

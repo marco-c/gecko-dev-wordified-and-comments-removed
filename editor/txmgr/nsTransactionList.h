@@ -59,7 +59,7 @@ nsTransactionStack
 *
 mTxnStack
 ;
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >

@@ -410,7 +410,7 @@ nsPIDOMWindow
 >
 mWindow
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

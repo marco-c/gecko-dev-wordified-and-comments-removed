@@ -168,7 +168,7 @@ EnsureFresh
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 HTMLPropertiesCollection
 >
@@ -450,14 +450,14 @@ aName
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >
 >
 mProperties
 ;
-RefPtr
+nsRefPtr
 <
 PropertyStringList
 >
@@ -470,7 +470,7 @@ PropertyNodeList
 >
 mNamedItemEntries
 ;
-RefPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >
@@ -659,7 +659,7 @@ nsIDocument
 >
 mDoc
 ;
-RefPtr
+nsRefPtr
 <
 HTMLPropertiesCollection
 >
@@ -673,7 +673,7 @@ mParent
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >

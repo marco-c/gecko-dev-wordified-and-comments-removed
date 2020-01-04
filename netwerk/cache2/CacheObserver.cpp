@@ -2045,7 +2045,7 @@ aAnonymous
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 LoadContextInfo
 >
@@ -2065,7 +2065,7 @@ nsICacheStorage
 >
 storage
 ;
-RefPtr
+nsRefPtr
 <
 CacheStorageService
 >
@@ -2428,7 +2428,7 @@ change
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CacheStorageService
 >
@@ -2470,7 +2470,7 @@ shutdown
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CacheStorageService
 >
@@ -2523,7 +2523,7 @@ exited
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CacheStorageService
 >
@@ -2646,7 +2646,7 @@ pressure
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CacheStorageService
 >

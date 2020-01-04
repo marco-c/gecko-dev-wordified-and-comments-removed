@@ -612,7 +612,7 @@ evicted
 =
 offset
 ;
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >

@@ -3806,7 +3806,7 @@ nsIDocument
 >
 mDocument
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -3827,7 +3827,7 @@ mViewManager
 nsPresArena
 mFrameArena
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -4017,7 +4017,7 @@ mPresShellId
 ;
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :

@@ -127,7 +127,7 @@ aThread
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsDestroyThreadEvent
 >
@@ -188,7 +188,7 @@ aThread
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsShutdownThread
 >

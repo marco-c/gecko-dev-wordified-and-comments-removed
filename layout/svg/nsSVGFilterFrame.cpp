@@ -398,7 +398,7 @@ GetNextSibling
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsSVGFE
 >

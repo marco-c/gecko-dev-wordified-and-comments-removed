@@ -150,7 +150,7 @@ uint32_t
 flags
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHostResolver
 >

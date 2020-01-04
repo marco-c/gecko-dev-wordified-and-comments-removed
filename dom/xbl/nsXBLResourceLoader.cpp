@@ -529,7 +529,7 @@ docPrincipal
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -635,7 +635,7 @@ rv
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >

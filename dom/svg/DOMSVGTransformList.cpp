@@ -416,7 +416,7 @@ MaxListIndex
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMSVGTransformList
 >
@@ -664,7 +664,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -743,7 +743,7 @@ error
 bool
 found
 ;
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -912,7 +912,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -1115,7 +1115,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -1274,7 +1274,7 @@ MaybeRemoveItemFromAnimValListAt
 index
 )
 ;
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -1339,7 +1339,7 @@ SVGMatrix
 matrix
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -1442,7 +1442,7 @@ fail
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -1515,7 +1515,7 @@ IsAnimValList
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SVGTransform
 >
@@ -1664,7 +1664,7 @@ animVal
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMSVGTransformList
 >

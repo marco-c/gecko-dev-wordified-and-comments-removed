@@ -147,7 +147,7 @@ nsTemporaryFileInputStream
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 FileDescOwner
 >

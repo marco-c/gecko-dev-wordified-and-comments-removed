@@ -704,7 +704,7 @@ nsISelection
 >
 mSelection
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >

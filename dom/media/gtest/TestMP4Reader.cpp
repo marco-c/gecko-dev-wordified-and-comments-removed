@@ -81,19 +81,19 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 TestBinding
 )
 ;
-RefPtr
+nsRefPtr
 <
 MP4Decoder
 >
 decoder
 ;
-RefPtr
+nsRefPtr
 <
 MockMediaResource
 >
 resource
 ;
-RefPtr
+nsRefPtr
 <
 MP4Reader
 >
@@ -254,7 +254,7 @@ TestBinding
 )
 {
 {
-RefPtr
+nsRefPtr
 <
 TaskQueue
 >
@@ -367,7 +367,7 @@ MP4Reader
 BufferedRange
 )
 {
-RefPtr
+nsRefPtr
 <
 TestBinding
 >
@@ -474,7 +474,7 @@ MP4Reader
 BufferedRangeMissingLastByte
 )
 {
-RefPtr
+nsRefPtr
 <
 TestBinding
 >
@@ -605,7 +605,7 @@ MP4Reader
 BufferedRangeSyncFrame
 )
 {
-RefPtr
+nsRefPtr
 <
 TestBinding
 >
@@ -724,7 +724,7 @@ MP4Reader
 CompositionOrder
 )
 {
-RefPtr
+nsRefPtr
 <
 TestBinding
 >
@@ -1054,7 +1054,7 @@ MP4Reader
 Normalised
 )
 {
-RefPtr
+nsRefPtr
 <
 TestBinding
 >

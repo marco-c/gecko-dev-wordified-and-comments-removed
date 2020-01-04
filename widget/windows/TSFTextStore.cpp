@@ -3984,13 +3984,13 @@ mIsIMM_IME
 bool
 mOnActivatedCalled
 ;
-RefPtr
+nsRefPtr
 <
 ITfThreadMgr
 >
 mThreadMgr
 ;
-RefPtr
+nsRefPtr
 <
 ITfInputProcessorProfiles
 >
@@ -4098,7 +4098,7 @@ mInputProcessorProfiles
 =
 aInputProcessorProfiles
 ;
-RefPtr
+nsRefPtr
 <
 ITfSource
 >
@@ -4428,7 +4428,7 @@ mIPProfileCookie
 TF_INVALID_COOKIE
 )
 {
-RefPtr
+nsRefPtr
 <
 ITfSource
 >
@@ -4564,7 +4564,7 @@ mLangProfileCookie
 TF_INVALID_COOKIE
 )
 {
-RefPtr
+nsRefPtr
 <
 ITfSource
 >
@@ -5180,7 +5180,7 @@ IsVistaOrLater
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ITfInputProcessorProfileMgr
 >
@@ -5513,7 +5513,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 IEnumTfLanguageProfiles
 >
@@ -5941,7 +5941,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 IEnumTfLanguageProfiles
 >
@@ -7450,7 +7450,7 @@ E_UNEXPECTED
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 IUnknown
 >
@@ -7677,7 +7677,7 @@ return
 CONNECT_E_NOCONNECTION
 ;
 }
-RefPtr
+nsRefPtr
 <
 IUnknown
 >
@@ -8135,7 +8135,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TSFTextStore
 >
@@ -8924,7 +8924,7 @@ false
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsWindowBase
 >
@@ -11825,7 +11825,7 @@ LONG
 aLength
 )
 {
-RefPtr
+nsRefPtr
 <
 ITfRangeACP
 >
@@ -12275,7 +12275,7 @@ sDisplayAttrMgr
 E_FAIL
 )
 ;
-RefPtr
+nsRefPtr
 <
 ITfDisplayAttributeInfo
 >
@@ -12564,7 +12564,7 @@ E_FAIL
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 ITfCompositionView
 >
@@ -12575,7 +12575,7 @@ mComposition
 mView
 )
 ;
-RefPtr
+nsRefPtr
 <
 ITfRange
 >
@@ -13879,7 +13879,7 @@ return
 E_FAIL
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfProperty
 >
@@ -13960,7 +13960,7 @@ hr
 E_FAIL
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfRange
 >
@@ -14032,7 +14032,7 @@ return
 hr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IEnumTfRanges
 >
@@ -14237,7 +14237,7 @@ AppendElement
 newRange
 )
 ;
-RefPtr
+nsRefPtr
 <
 ITfRange
 >
@@ -18516,7 +18516,7 @@ vt
 =
 VT_UNKNOWN
 ;
-RefPtr
+nsRefPtr
 <
 IUnknown
 >
@@ -19465,7 +19465,7 @@ charAtPt
 ourPt
 )
 ;
-RefPtr
+nsRefPtr
 <
 TSFTextStore
 >
@@ -24474,7 +24474,7 @@ return
 S_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfRange
 >
@@ -26257,7 +26257,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfDocumentMgr
 >
@@ -26643,7 +26643,7 @@ sEnabledTextStore
 mContext
 )
 ;
-RefPtr
+nsRefPtr
 <
 ITfContext
 >
@@ -26746,7 +26746,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfDocumentMgr
 >
@@ -26923,7 +26923,7 @@ sEnabledTextStore
 mDocumentMgr
 )
 {
-RefPtr
+nsRefPtr
 <
 ITfDocumentMgr
 >
@@ -28100,7 +28100,7 @@ aFlush
 mContext
 )
 {
-RefPtr
+nsRefPtr
 <
 ITfContextOwnerServices
 >
@@ -29404,7 +29404,7 @@ textChange
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 ITfContext
 >
@@ -29419,7 +29419,7 @@ if
 context
 )
 {
-RefPtr
+nsRefPtr
 <
 ITfContextOwnerCompositionServices
 >
@@ -29556,7 +29556,7 @@ pUnk
 return
 false
 ;
-RefPtr
+nsRefPtr
 <
 ITfCompartmentMgr
 >
@@ -29644,7 +29644,7 @@ aState
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ITfCompartment
 >
@@ -29765,7 +29765,7 @@ GetIMEOpenState
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ITfCompartment
 >
@@ -30056,7 +30056,7 @@ lVal
 =
 1
 ;
-RefPtr
+nsRefPtr
 <
 ITfCompartment
 >
@@ -30183,7 +30183,7 @@ lVal
 =
 1
 ;
-RefPtr
+nsRefPtr
 <
 ITfCompartment
 >
@@ -30441,7 +30441,7 @@ enableTsf
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfInputProcessorProfiles
 >
@@ -30514,7 +30514,7 @@ hr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfThreadMgr
 >
@@ -30586,7 +30586,7 @@ hr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfMessagePump
 >
@@ -30659,7 +30659,7 @@ hr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfKeystrokeMgr
 >
@@ -30784,7 +30784,7 @@ hr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfDisplayAttributeMgr
 >
@@ -30858,7 +30858,7 @@ hr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfCategoryMgr
 >
@@ -30931,7 +30931,7 @@ hr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfDocumentMgr
 >
@@ -31003,7 +31003,7 @@ hr
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfContext
 >
@@ -33849,7 +33849,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 ITfInputProcessorProfileMgr
 >

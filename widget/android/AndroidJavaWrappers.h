@@ -2926,7 +2926,7 @@ mCharacters
 mCharactersExtra
 mData
 ;
-RefPtr
+nsRefPtr
 <
 nsGeoPosition
 >
@@ -2947,7 +2947,7 @@ mScreenOrientation
 short
 mScreenAngle
 ;
-RefPtr
+nsRefPtr
 <
 RefCountedJavaObject
 >

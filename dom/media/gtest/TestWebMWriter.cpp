@@ -206,7 +206,7 @@ aSampleRate
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TrackMetadataBase
 >
@@ -256,7 +256,7 @@ aTrackRate
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TrackMetadataBase
 >
@@ -295,7 +295,7 @@ uint8_t
 >
 frameData
 ;
-RefPtr
+nsRefPtr
 <
 EncodedFrame
 >

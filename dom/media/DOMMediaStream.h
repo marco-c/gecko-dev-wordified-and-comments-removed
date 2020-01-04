@@ -268,7 +268,7 @@ void
 NotifyTrackAdded
 (
 const
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -283,7 +283,7 @@ void
 NotifyTrackRemoved
 (
 const
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -372,7 +372,7 @@ GetAudioTracks
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 AudioStreamTrack
 >
@@ -386,7 +386,7 @@ GetVideoTracks
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VideoStreamTrack
 >
@@ -400,7 +400,7 @@ GetTracks
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -959,7 +959,7 @@ void
 NotifyTrackAdded
 (
 const
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -971,7 +971,7 @@ void
 NotifyTrackRemoved
 (
 const
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -1021,13 +1021,13 @@ ProcessedMediaStream
 *
 mPlaybackStream
 ;
-RefPtr
+nsRefPtr
 <
 MediaInputPort
 >
 mOwnedPort
 ;
-RefPtr
+nsRefPtr
 <
 MediaInputPort
 >
@@ -1035,7 +1035,7 @@ mPlaybackPort
 ;
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 TrackPort
 >
@@ -1045,7 +1045,7 @@ mOwnedTracks
 ;
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 TrackPort
 >
@@ -1053,13 +1053,13 @@ TrackPort
 >
 mTracks
 ;
-RefPtr
+nsRefPtr
 <
 OwnedStreamListener
 >
 mOwnedListener
 ;
-RefPtr
+nsRefPtr
 <
 PlaybackStreamListener
 >
@@ -1094,7 +1094,7 @@ mNotifiedOfMediaStreamGraphShutdown
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TrackListener
 >
@@ -1334,7 +1334,7 @@ DOMAudioNodeMediaStream
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 AudioNode
 >
@@ -1458,7 +1458,7 @@ aStream
 #
 ifdef
 MOZ_WIDGET_GONK
-RefPtr
+nsRefPtr
 <
 ImageContainer
 >
@@ -1482,7 +1482,7 @@ DEFAULT_IMAGE_HEIGHT
 =
 300
 ;
-RefPtr
+nsRefPtr
 <
 OverlayImage
 >

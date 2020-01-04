@@ -1248,7 +1248,7 @@ limit
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 AndroidCameraInputStream
 >
@@ -1369,7 +1369,7 @@ AndroidCaptureProvider
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 AndroidCaptureProvider
 >

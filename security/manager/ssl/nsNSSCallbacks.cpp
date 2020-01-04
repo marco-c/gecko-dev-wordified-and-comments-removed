@@ -398,11 +398,6 @@ nsIRequest
 :
 :
 LOAD_ANONYMOUS
-|
-nsIChannel
-:
-:
-LOAD_BYPASS_SERVICE_WORKER
 )
 ;
 nsCOMPtr
@@ -523,6 +518,21 @@ internalChannel
 SetAllowSpdy
 (
 false
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
+rv
+=
+internalChannel
+-
+>
+ForceNoIntercept
+(
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1630,7 +1640,7 @@ waitFlag
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 nsHTTPDownloadEvent
 >
@@ -1831,7 +1841,7 @@ request_canceled
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 nsCancelHTTPDownloadEvent
 >
@@ -3345,7 +3355,7 @@ void
 arg
 )
 {
-RefPtr
+nsRefPtr
 <
 PK11PasswordPromptRunnable
 >
@@ -3480,7 +3490,7 @@ cipherInfo
 SECSuccess
 )
 {
-RefPtr
+nsRefPtr
 <
 nsSSLStatus
 >
@@ -5484,7 +5494,7 @@ SSL
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsSSLStatus
 >
@@ -5574,7 +5584,7 @@ fd
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNSSCertificate
 >

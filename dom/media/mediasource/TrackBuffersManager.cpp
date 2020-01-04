@@ -466,7 +466,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 AbstractMediaDecoder
 >
@@ -659,7 +659,7 @@ thread
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 TrackBuffersManager
 >
@@ -841,7 +841,7 @@ mAbort
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 TrackBuffersManager
 :
@@ -1028,7 +1028,7 @@ WAITING_FOR_SEGMENT
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 TrackBuffersManager
 :
@@ -1514,7 +1514,7 @@ AbortAppendData
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TrackBuffersManager
 >
@@ -2233,7 +2233,7 @@ FromInfinity
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 TrackBuffersManager
 :
@@ -2766,7 +2766,7 @@ mOfficialGroupEndTimestamp
 mGroupEndTimestamp
 ;
 }
-RefPtr
+nsRefPtr
 <
 TrackBuffersManager
 :
@@ -2800,7 +2800,7 @@ IsEmpty
 mAppendRunning
 )
 ;
-RefPtr
+nsRefPtr
 <
 AppendPromise
 >
@@ -3294,7 +3294,7 @@ return
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 TrackBuffersManager
 >
@@ -4951,7 +4951,7 @@ __func__
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 TrackBuffersManager
 :
@@ -5079,7 +5079,7 @@ if
 length
 )
 {
-RefPtr
+nsRefPtr
 <
 CodedFrameProcessingPromise
 >
@@ -5100,7 +5100,7 @@ return
 p
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
@@ -5154,7 +5154,7 @@ length
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CodedFrameProcessingPromise
 >
@@ -5429,7 +5429,7 @@ TrackBuffersManager
 :
 OnVideoDemuxCompleted
 (
-RefPtr
+nsRefPtr
 <
 MediaTrackDemuxer
 :
@@ -5596,7 +5596,7 @@ TrackBuffersManager
 :
 OnAudioDemuxCompleted
 (
-RefPtr
+nsRefPtr
 <
 MediaTrackDemuxer
 :
@@ -7283,7 +7283,7 @@ i
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -8805,7 +8805,7 @@ i
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -9071,7 +9071,7 @@ i
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -9333,7 +9333,7 @@ i
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -9558,7 +9558,7 @@ isSome
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -9609,7 +9609,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -9712,7 +9712,7 @@ i
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -9767,7 +9767,7 @@ mNextSampleTimecode
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -9860,7 +9860,7 @@ i
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -9912,7 +9912,7 @@ mNextSampleTimecode
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -10097,7 +10097,7 @@ i
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >

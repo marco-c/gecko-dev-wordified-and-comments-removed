@@ -389,7 +389,7 @@ ThreadSafeAutoRefCnt
 mRefCnt
 ;
 NS_DECL_OWNINGTHREAD
-RefPtr
+nsRefPtr
 <
 DOMLocalStorageManager
 >
@@ -614,7 +614,7 @@ LoadWait
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DOMStorageDBParent
 >
@@ -690,7 +690,7 @@ usage
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DOMStorageDBParent
 >

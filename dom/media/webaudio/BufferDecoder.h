@@ -241,13 +241,13 @@ BufferDecoder
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TaskQueue
 >
 mTaskQueueIdentity
 ;
-RefPtr
+nsRefPtr
 <
 MediaResource
 >

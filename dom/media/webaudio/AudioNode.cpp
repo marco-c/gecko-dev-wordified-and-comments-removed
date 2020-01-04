@@ -686,7 +686,7 @@ DisconnectFromGraph
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 AudioNode
 >
@@ -715,7 +715,7 @@ Length
 -
 1
 ;
-RefPtr
+nsRefPtr
 <
 AudioNode
 >
@@ -767,7 +767,7 @@ Length
 -
 1
 ;
-RefPtr
+nsRefPtr
 <
 AudioNode
 >
@@ -840,7 +840,7 @@ Length
 -
 1
 ;
-RefPtr
+nsRefPtr
 <
 AudioParam
 >
@@ -1555,7 +1555,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 AudioNode
 >
@@ -1661,7 +1661,7 @@ RemoveElementAt
 j
 )
 ;
-RefPtr
+nsRefPtr
 <
 AudioNode
 >
@@ -1695,7 +1695,7 @@ if
 mStream
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >

@@ -67,7 +67,7 @@ NS_NewGridRowLeafLayout
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsBoxLayout
 >

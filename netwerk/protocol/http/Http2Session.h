@@ -1146,7 +1146,7 @@ void
 *
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsAHttpConnection
 >

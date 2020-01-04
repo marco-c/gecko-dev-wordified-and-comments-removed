@@ -2215,7 +2215,7 @@ Mac
 specific
 members
 .
-RefPtr
+nsRefPtr
 <
 nsMIMEInfoMac
 >

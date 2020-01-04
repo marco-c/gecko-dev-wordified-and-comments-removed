@@ -1440,7 +1440,7 @@ nsIStyleRuleProcessor
 >
 mScopedDocSheetRuleProcessors
 ;
-RefPtr
+nsRefPtr
 <
 nsBindingManager
 >
@@ -1493,7 +1493,7 @@ nsStyleContext
 >
 mRoots
 ;
-RefPtr
+nsRefPtr
 <
 nsEmptyStyleRule
 >
@@ -1501,13 +1501,13 @@ mFirstLineRule
 mFirstLetterRule
 mPlaceholderRule
 ;
-RefPtr
+nsRefPtr
 <
 nsInitialStyleRule
 >
 mInitialStyleRule
 ;
-RefPtr
+nsRefPtr
 <
 nsDisableTextZoomStyleRule
 >
@@ -1520,7 +1520,7 @@ nsRuleNode
 >
 mOldRuleTrees
 ;
-RefPtr
+nsRefPtr
 <
 gfxFontFeatureValueSet
 >

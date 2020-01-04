@@ -512,7 +512,7 @@ gNetworkUtils
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 NetworkWorker
 >

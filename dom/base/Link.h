@@ -562,7 +562,7 @@ mRegistered
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 URLSearchParams
 >

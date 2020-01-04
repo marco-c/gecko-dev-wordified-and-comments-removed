@@ -539,7 +539,7 @@ const
 int
 mFlags
 ;
-RefPtr
+nsRefPtr
 <
 Service
 >
@@ -635,7 +635,7 @@ nsISupports
 >
 mValue
 ;
-RefPtr
+nsRefPtr
 <
 mozIStorageCompletionCallback
 >

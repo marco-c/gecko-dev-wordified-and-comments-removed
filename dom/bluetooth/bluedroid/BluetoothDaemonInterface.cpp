@@ -369,7 +369,7 @@ mConnection
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DaemonSocketResultHandler
 >
@@ -931,7 +931,7 @@ mService
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DaemonSocketResultHandler
 >
@@ -1031,7 +1031,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DaemonSocketResultHandler
 >
@@ -1485,7 +1485,7 @@ BluetoothDaemonInterface
 *
 mInterface
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothResultHandler
 >
@@ -3360,7 +3360,7 @@ case
 NTF_CHANNEL
 :
 {
-RefPtr
+nsRefPtr
 <
 BluetoothResultHandler
 >
@@ -3508,7 +3508,7 @@ IsEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 BluetoothResultHandler
 >
@@ -3597,7 +3597,7 @@ IsEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 BluetoothResultHandler
 >

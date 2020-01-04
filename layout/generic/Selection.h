@@ -116,7 +116,7 @@ aRange
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -892,7 +892,7 @@ bool
 aAllowAdjacent
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -1300,7 +1300,7 @@ nsRange
 aItem
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -1326,19 +1326,19 @@ RangeData
 >
 mRanges
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
 mAnchorFocusRange
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
 mFrameSelection
 ;
-RefPtr
+nsRefPtr
 <
 nsAutoScrollTimer
 >
@@ -1381,7 +1381,7 @@ final
 {
 private
 :
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -1443,7 +1443,7 @@ final
 {
 private
 :
-RefPtr
+nsRefPtr
 <
 Selection
 >

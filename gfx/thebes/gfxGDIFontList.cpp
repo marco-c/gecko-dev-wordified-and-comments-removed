@@ -597,7 +597,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxCharacterMap
 >
@@ -1309,7 +1309,7 @@ mWeight
 *
 100
 ;
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -3230,7 +3230,7 @@ lf
 lfFaceName
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxFontFamily
 >
@@ -4719,7 +4719,7 @@ symbolFont
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 gfxCharacterMap
 >
@@ -4997,7 +4997,7 @@ UseCmapsDuringSystemFallback
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 GDIFontInfo
 >

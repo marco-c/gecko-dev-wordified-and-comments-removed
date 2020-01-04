@@ -1217,7 +1217,7 @@ gHistoryService
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 mozilla
 :

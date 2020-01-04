@@ -395,7 +395,7 @@ mStop
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -659,7 +659,7 @@ layers
 BufferRecycleBin
 bin
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

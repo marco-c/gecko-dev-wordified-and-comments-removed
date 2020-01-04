@@ -182,7 +182,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 :
@@ -624,7 +624,7 @@ runnable
 (
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -636,7 +636,7 @@ OpusDataDecoder
 :
 :
 Decode
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -1562,7 +1562,7 @@ Drain
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >

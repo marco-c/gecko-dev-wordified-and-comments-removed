@@ -198,7 +198,7 @@ value
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SharedBuffer
 >

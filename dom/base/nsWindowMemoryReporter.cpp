@@ -2480,7 +2480,7 @@ NS_OK
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -4781,7 +4781,7 @@ windowsById
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >

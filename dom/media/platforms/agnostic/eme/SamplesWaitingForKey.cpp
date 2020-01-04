@@ -235,7 +235,7 @@ mCrypto
 mKeyId
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -245,7 +245,7 @@ task
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -257,7 +257,7 @@ MediaDataDecoder
 :
 :
 Input
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >

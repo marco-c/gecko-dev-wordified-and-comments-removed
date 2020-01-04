@@ -149,7 +149,7 @@ public
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -808,7 +808,7 @@ nsPresContext
 *
 mLastPresContext
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

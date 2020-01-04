@@ -378,7 +378,7 @@ Element
 >
 mOpenedElement
 ;
-RefPtr
+nsRefPtr
 <
 nsNodeInfoManager
 >
@@ -396,7 +396,7 @@ nsIContent
 >
 mNonAddedNode
 ;
-RefPtr
+nsRefPtr
 <
 txTransformNotifier
 >

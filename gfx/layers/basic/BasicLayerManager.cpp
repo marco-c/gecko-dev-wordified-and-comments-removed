@@ -533,7 +533,7 @@ GetBounds
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -2929,7 +2929,7 @@ const
 gfxImageSurface
 *
 aDest
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -3337,7 +3337,7 @@ const
 gfxImageSurface
 *
 aDest
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -3571,7 +3571,7 @@ gfxASurface
 >
 Transform3D
 (
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3622,7 +3622,7 @@ RoundOut
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -3635,7 +3635,7 @@ CurrentSurface
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxImageSurface
 >
@@ -4679,7 +4679,7 @@ if
 needsGroup
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -4760,7 +4760,7 @@ GetBounds
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -4800,7 +4800,7 @@ untransformedDT
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -4923,7 +4923,7 @@ f
 f
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -4972,7 +4972,7 @@ GetEffectiveTransform
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -5171,7 +5171,7 @@ phase
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 ReadbackLayer
 >

@@ -467,7 +467,7 @@ mozIStorageConnection
 aDBConn
 )
 {
-RefPtr
+nsRefPtr
 <
 MatchAutoCompleteFunction
 >
@@ -1569,7 +1569,7 @@ mozIStorageConnection
 aDBConn
 )
 {
-RefPtr
+nsRefPtr
 <
 CalculateFrecencyFunction
 >
@@ -1763,7 +1763,7 @@ NS_ENSURE_STATE
 history
 )
 ;
-RefPtr
+nsRefPtr
 <
 Database
 >
@@ -1788,7 +1788,7 @@ pageId
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 mozIStorageStatement
 >
@@ -2542,7 +2542,7 @@ mozIStorageConnection
 aDBConn
 )
 {
-RefPtr
+nsRefPtr
 <
 GenerateGUIDFunction
 >
@@ -2654,7 +2654,7 @@ mozIStorageConnection
 aDBConn
 )
 {
-RefPtr
+nsRefPtr
 <
 GetUnreversedHostFunction
 >
@@ -2840,7 +2840,7 @@ mozIStorageConnection
 aDBConn
 )
 {
-RefPtr
+nsRefPtr
 <
 FixupURLFunction
 >
@@ -3077,7 +3077,7 @@ mozIStorageConnection
 aDBConn
 )
 {
-RefPtr
+nsRefPtr
 <
 FrecencyNotificationFunction
 >

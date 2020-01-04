@@ -5229,7 +5229,7 @@ nsINode
 aNode
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >

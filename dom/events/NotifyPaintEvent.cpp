@@ -263,7 +263,7 @@ BoundingClientRect
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMRect
 >
@@ -353,7 +353,7 @@ ToSupports
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMRectList
 >
@@ -402,7 +402,7 @@ Next
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMRect
 >
@@ -452,7 +452,7 @@ nsISupports
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 PaintRequestList
 >
@@ -490,7 +490,7 @@ parent
 =
 this
 ;
-RefPtr
+nsRefPtr
 <
 PaintRequestList
 >
@@ -532,7 +532,7 @@ Length
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 PaintRequest
 >
@@ -850,7 +850,7 @@ nsInvalidateRequestList
 aInvalidateRequests
 )
 {
-RefPtr
+nsRefPtr
 <
 NotifyPaintEvent
 >

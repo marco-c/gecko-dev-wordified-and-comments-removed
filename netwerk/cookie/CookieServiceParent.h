@@ -175,7 +175,7 @@ aCtx
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 nsCookieService
 >

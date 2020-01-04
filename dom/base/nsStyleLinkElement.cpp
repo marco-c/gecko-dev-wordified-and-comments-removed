@@ -1243,7 +1243,7 @@ nsIStyleSheet
 aSheet
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >

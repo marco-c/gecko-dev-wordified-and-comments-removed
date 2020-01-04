@@ -153,7 +153,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -165,7 +165,7 @@ mTargetRealPath
 bool
 mIsDirectory
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >

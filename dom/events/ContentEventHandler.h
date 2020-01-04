@@ -175,13 +175,13 @@ nsIPresShell
 >
 mPresShell
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
 mSelection
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >

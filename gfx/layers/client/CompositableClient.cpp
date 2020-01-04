@@ -251,7 +251,7 @@ TextureClientReleaseTask
 mTextureClient
 )
 ;
-RefPtr
+nsRefPtr
 <
 ISurfaceAllocator
 >
@@ -977,7 +977,7 @@ aTexture
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1084,7 +1084,7 @@ GetForwarder
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AsyncTransactionWaiter
 >
@@ -1095,7 +1095,7 @@ AsyncTransactionWaiter
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncTransactionTracker
 >

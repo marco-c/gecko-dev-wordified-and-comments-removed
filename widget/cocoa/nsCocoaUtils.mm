@@ -316,15 +316,6 @@ mozilla
 gfx
 :
 :
-Filter
-;
-using
-mozilla
-:
-:
-gfx
-:
-:
 IntPoint
 ;
 using
@@ -2265,7 +2256,7 @@ CGImageRef
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2957,7 +2948,7 @@ CGFloat
 scaleFactor
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3044,7 +3035,7 @@ scaleFactor
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -3134,10 +3125,10 @@ Create
 scaledSize
 )
 aWhichFrame
-Filter
+GraphicsFilter
 :
 :
-POINT
+FILTER_NEAREST
 Nothing
 (
 )

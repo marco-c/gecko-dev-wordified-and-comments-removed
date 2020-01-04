@@ -16,7 +16,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -277,7 +277,7 @@ mCommands
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 CommandBuffer
 >
@@ -341,7 +341,7 @@ ptrdiff_t
 >
 mCommandOffsets
 ;
-RefPtr
+nsRefPtr
 <
 CommandBuffer
 >
@@ -350,7 +350,7 @@ mCommandBuffer
 uint32_t
 mCursor
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -451,7 +451,7 @@ ptrdiff_t
 >
 mCommandOffsets
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -460,7 +460,7 @@ mDrawTarget
 IntPoint
 mOffset
 ;
-RefPtr
+nsRefPtr
 <
 SyncObject
 >

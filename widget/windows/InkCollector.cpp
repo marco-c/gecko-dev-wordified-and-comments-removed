@@ -152,7 +152,7 @@ mInkCollector
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 IConnectionPointContainer
 >

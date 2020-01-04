@@ -3003,7 +3003,7 @@ if
 encodedChannel
 )
 {
-RefPtr
+nsRefPtr
 <
 ConvertedStreamListener
 >

@@ -551,7 +551,7 @@ MediaTrackConstraints
 aConstraints
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DeviceType
 >
@@ -633,7 +633,7 @@ MediaTrackConstraints
 aConstraints
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DeviceType
 >
@@ -650,7 +650,7 @@ aConstraints
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DeviceType
 >
@@ -682,7 +682,7 @@ std
 multimap
 <
 uint32_t
-RefPtr
+nsRefPtr
 <
 DeviceType
 >
@@ -758,7 +758,7 @@ std
 pair
 <
 uint32_t
-RefPtr
+nsRefPtr
 <
 DeviceType
 >
@@ -1085,7 +1085,7 @@ i
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DeviceType
 >

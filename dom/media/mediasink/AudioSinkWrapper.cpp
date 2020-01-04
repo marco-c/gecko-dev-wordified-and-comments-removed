@@ -138,7 +138,7 @@ mParams
 aParams
 ;
 }
-RefPtr
+nsRefPtr
 <
 GenericPromise
 >

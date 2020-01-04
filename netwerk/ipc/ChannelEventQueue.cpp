@@ -150,7 +150,7 @@ if
 mSuspendCount
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <

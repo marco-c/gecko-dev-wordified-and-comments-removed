@@ -557,7 +557,7 @@ int64_t
 aItemId
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

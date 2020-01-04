@@ -89,7 +89,7 @@ nsISupports
 >
 mOwner
 ;
-RefPtr
+nsRefPtr
 <
 InternalHeaders
 >

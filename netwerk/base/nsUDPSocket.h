@@ -254,7 +254,7 @@ mListenerTarget
 bool
 mAttached
 ;
-RefPtr
+nsRefPtr
 <
 nsSocketTransportService
 >
@@ -387,7 +387,7 @@ nsUDPOutputStream
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsUDPSocket
 >

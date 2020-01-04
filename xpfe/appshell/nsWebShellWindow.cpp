@@ -1418,7 +1418,7 @@ if
 eventTarget
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -2170,7 +2170,7 @@ WebShellWindowTimerCallback
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsWebShellWindow
 >
@@ -2250,7 +2250,7 @@ return
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 WebShellWindowTimerCallback
 >
@@ -3033,7 +3033,7 @@ if
 contentViewer
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >

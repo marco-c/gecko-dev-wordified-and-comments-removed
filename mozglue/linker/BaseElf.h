@@ -262,7 +262,7 @@ offset
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Mappable
 >

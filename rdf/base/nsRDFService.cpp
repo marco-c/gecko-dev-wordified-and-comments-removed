@@ -2932,7 +2932,7 @@ aResult
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 RDFServiceImpl
 >

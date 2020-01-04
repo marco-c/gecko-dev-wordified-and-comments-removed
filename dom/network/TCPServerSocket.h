@@ -204,13 +204,13 @@ nsIServerSocket
 >
 mServerSocket
 ;
-RefPtr
+nsRefPtr
 <
 TCPServerSocketChild
 >
 mServerBridgeChild
 ;
-RefPtr
+nsRefPtr
 <
 TCPServerSocketParent
 >

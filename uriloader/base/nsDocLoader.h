@@ -406,7 +406,7 @@ aMaxTotalProgress
 typedef
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 nsDocLoader
 >

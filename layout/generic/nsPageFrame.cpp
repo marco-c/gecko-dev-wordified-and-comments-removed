@@ -3137,7 +3137,7 @@ ThebesContext
 aDisableSubpixelAA
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

@@ -1276,7 +1276,7 @@ defined
 (
 OS_POSIX
 )
-RefPtr
+nsRefPtr
 <
 FileDescriptorSet
 >

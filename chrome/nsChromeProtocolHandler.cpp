@@ -241,7 +241,7 @@ nsIURI
 result
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStandardURL
 >

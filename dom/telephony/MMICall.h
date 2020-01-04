@@ -199,7 +199,7 @@ mWindow
 nsString
 mServiceCode
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >

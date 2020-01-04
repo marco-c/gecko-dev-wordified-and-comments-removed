@@ -605,13 +605,13 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-RefPtr
+nsRefPtr
 <
 URLProxy
 >
 mURLProxy
 ;
-RefPtr
+nsRefPtr
 <
 URLSearchParams
 >

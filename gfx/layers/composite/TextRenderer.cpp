@@ -420,7 +420,7 @@ maxWidth
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -717,7 +717,7 @@ Unmap
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataTextureSource
 >
@@ -745,7 +745,7 @@ textSurf
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 EffectRGB
 >

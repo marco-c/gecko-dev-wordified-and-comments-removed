@@ -103,7 +103,7 @@ AppendBlobImpls
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -114,7 +114,7 @@ aBlobImpls
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -291,7 +291,7 @@ if
 mData
 )
 {
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -330,7 +330,7 @@ mDataBufferLen
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >

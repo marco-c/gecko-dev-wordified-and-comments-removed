@@ -1688,7 +1688,7 @@ return
 NS_ERROR_NO_AGGREGATION
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPersistentProperties
 >
@@ -2142,7 +2142,7 @@ Get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPropertyElement
 >
@@ -2327,7 +2327,7 @@ return
 NS_ERROR_NO_AGGREGATION
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPropertyElement
 >

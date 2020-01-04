@@ -776,7 +776,7 @@ max_returned_out_array_size
 return
 NS_ERROR_FAILURE
 ;
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >

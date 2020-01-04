@@ -1146,7 +1146,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :

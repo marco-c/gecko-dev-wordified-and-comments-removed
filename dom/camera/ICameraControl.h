@@ -1059,7 +1059,7 @@ EndBatchParameterSet
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 ICameraControl
 >

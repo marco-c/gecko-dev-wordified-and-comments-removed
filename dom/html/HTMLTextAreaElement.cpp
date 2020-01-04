@@ -477,7 +477,7 @@ GetFocusManager
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -3674,7 +3674,7 @@ ScrollSelectionIntoView
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >

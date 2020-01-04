@@ -347,7 +347,7 @@ docTitles
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPrintSettingsX
 >
@@ -851,7 +851,7 @@ return
 rv
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPrintSettingsX
 >
@@ -1574,7 +1574,7 @@ failed
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPrintSettingsX
 >
@@ -1746,7 +1746,7 @@ failed
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPrintSettingsX
 >

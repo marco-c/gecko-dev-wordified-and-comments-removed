@@ -307,7 +307,7 @@ mSelEndIndex
 int32_t
 mSelEndOffset
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >

@@ -319,7 +319,7 @@ GetHMDs
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VRHMDInfo
 >
@@ -333,7 +333,7 @@ protected
 :
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 impl
 :

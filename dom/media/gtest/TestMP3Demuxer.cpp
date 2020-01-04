@@ -196,13 +196,13 @@ int32_t
 >
 mSyncOffsets
 ;
-RefPtr
+nsRefPtr
 <
 MockMP3MediaResource
 >
 mResource
 ;
-RefPtr
+nsRefPtr
 <
 MP3TrackDemuxer
 >
@@ -1028,7 +1028,7 @@ target
 mTargets
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -1138,7 +1138,7 @@ target
 mTargets
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -1245,7 +1245,7 @@ target
 mTargets
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -1591,7 +1591,7 @@ target
 mTargets
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -1694,7 +1694,7 @@ target
 mTargets
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -1827,7 +1827,7 @@ Reset
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >

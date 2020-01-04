@@ -3097,7 +3097,7 @@ endif
 GLXContext
 context
 ;
-RefPtr
+nsRefPtr
 <
 GLContextGLX
 >
@@ -3969,7 +3969,7 @@ Any
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 GLContextGLX
 >
@@ -4459,7 +4459,7 @@ Any
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 GLContextGLX
 >
@@ -4830,7 +4830,7 @@ dummySize
 16
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >
@@ -5071,7 +5071,7 @@ stencil
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -5209,7 +5209,7 @@ Any
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 GLContext
 >

@@ -64,7 +64,21 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 gfxCrashReporterUtils
+.
+h
+"
+#
+include
+"
+GraphicsFilter
 .
 h
 "
@@ -1158,7 +1172,7 @@ fEnable
 LOCAL_GL_BLEND
 )
 ;
-RefPtr
+nsRefPtr
 <
 EffectSolidColor
 >
@@ -2510,7 +2524,7 @@ fbo
 tex
 )
 ;
-RefPtr
+nsRefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -2693,7 +2707,7 @@ tex
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -3289,7 +3303,7 @@ height
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -6835,7 +6849,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -7463,7 +7477,7 @@ rect
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -7805,7 +7819,7 @@ nsWindow
 aWidget
 )
 ;
-RefPtr
+nsRefPtr
 <
 FenceHandle
 :
@@ -8160,7 +8174,7 @@ LOCAL_GL_BACK
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

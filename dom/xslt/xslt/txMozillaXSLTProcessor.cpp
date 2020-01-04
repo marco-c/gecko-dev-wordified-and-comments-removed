@@ -1202,7 +1202,7 @@ nsIVariant
 >
 mValue
 ;
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >
@@ -1828,7 +1828,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >
@@ -2067,7 +2067,7 @@ nsRunnable
 {
 public
 :
-RefPtr
+nsRefPtr
 <
 txMozillaXSLTProcessor
 >
@@ -3300,7 +3300,7 @@ if
 xpathResult
 )
 {
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >
@@ -5279,7 +5279,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 txMozillaXSLTProcessor
 >
@@ -6166,7 +6166,7 @@ if
 nodeList
 )
 {
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >
@@ -6527,7 +6527,7 @@ nsISupports
 array
 )
 ;
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >

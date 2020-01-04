@@ -82,7 +82,7 @@ DeleteBuffer
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -109,7 +109,7 @@ mRefCnt
 1
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -173,7 +173,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsHtml5OwningUTF16Buffer
 >

@@ -335,7 +335,7 @@ Message
 *
 message
 ;
-RefPtr
+nsRefPtr
 <
 SyncChannel
 :
@@ -666,7 +666,7 @@ Message
 *
 message
 ;
-RefPtr
+nsRefPtr
 <
 SyncChannel
 :
@@ -1598,7 +1598,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 SyncContext
 >

@@ -1431,7 +1431,7 @@ GetLoadingSandboxed
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNullPrincipal
 >
@@ -5650,7 +5650,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsSystemPrincipal
 >
@@ -5829,7 +5829,7 @@ InitStatics
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsScriptSecurityManager
 >

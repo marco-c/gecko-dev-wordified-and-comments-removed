@@ -435,7 +435,7 @@ thread
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsMenuBarX
 >

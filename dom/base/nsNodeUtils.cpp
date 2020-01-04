@@ -2231,7 +2231,7 @@ aNode
 >
 mNodeInfo
 ;
-RefPtr
+nsRefPtr
 <
 NodeInfo
 >

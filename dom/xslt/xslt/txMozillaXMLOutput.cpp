@@ -855,7 +855,7 @@ NS_OK
 }
 TX_ENSURE_CURRENTNODE
 ;
-RefPtr
+nsRefPtr
 <
 Comment
 >
@@ -2305,7 +2305,7 @@ mOpenedElementIsHTML
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 NodeInfo
 >
@@ -2576,7 +2576,7 @@ rv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsTextNode
 >
@@ -4225,7 +4225,7 @@ aResult
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 NodeInfo
 >

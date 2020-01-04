@@ -242,7 +242,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 :
@@ -645,7 +645,7 @@ runnable
 (
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -657,7 +657,7 @@ VorbisDataDecoder
 :
 :
 Decode
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >

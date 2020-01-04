@@ -672,13 +672,13 @@ mPort
 bool
 mSsl
 ;
-RefPtr
+nsRefPtr
 <
 TCPSocketChild
 >
 mSocketBridgeChild
 ;
-RefPtr
+nsRefPtr
 <
 TCPSocketParent
 >

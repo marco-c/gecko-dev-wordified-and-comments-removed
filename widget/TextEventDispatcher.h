@@ -375,7 +375,7 @@ private
 nsAutoString
 mString
 ;
-RefPtr
+nsRefPtr
 <
 TextRangeArray
 >

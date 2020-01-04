@@ -332,7 +332,7 @@ spec
 nsAutoCString
 type
 ;
-RefPtr
+nsRefPtr
 <
 nsDeviceCaptureProvider
 >

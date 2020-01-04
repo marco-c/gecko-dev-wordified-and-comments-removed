@@ -320,7 +320,7 @@ aPitch
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VoiceData
 >
@@ -329,7 +329,7 @@ mVoices
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VoiceData
 >
@@ -352,7 +352,7 @@ mUseGlobalQueue
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 GlobalQueueItem
 >

@@ -1602,7 +1602,7 @@ ReceiveNonWrapperCacheInterfaceSequence
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestNonWrapperCacheInterface
 >
@@ -1615,7 +1615,7 @@ ReceiveNullableNonWrapperCacheInterfaceSequence
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestNonWrapperCacheInterface
 >
@@ -1630,7 +1630,7 @@ Nullable
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestNonWrapperCacheInterface
 >
@@ -1646,7 +1646,7 @@ Nullable
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestNonWrapperCacheInterface
 >
@@ -1941,7 +1941,7 @@ PassOptionalCallbackInterface
 const
 Optional
 <
-RefPtr
+nsRefPtr
 <
 TestCallbackInterface
 >
@@ -2182,7 +2182,7 @@ ReceiveCastableObjectSequence
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestInterface
 >
@@ -2195,7 +2195,7 @@ ReceiveCallbackObjectSequence
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestCallbackInterface
 >
@@ -2208,7 +2208,7 @@ ReceiveNullableCastableObjectSequence
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestInterface
 >
@@ -2221,7 +2221,7 @@ ReceiveNullableCallbackObjectSequence
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestCallbackInterface
 >
@@ -2236,7 +2236,7 @@ Nullable
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestInterface
 >
@@ -2252,7 +2252,7 @@ Nullable
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestInterface
 >
@@ -2266,7 +2266,7 @@ ReceiveWeakCastableObjectSequence
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestInterface
 >
@@ -2279,7 +2279,7 @@ ReceiveWeakNullableCastableObjectSequence
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestInterface
 >
@@ -2294,7 +2294,7 @@ Nullable
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestInterface
 >
@@ -2310,7 +2310,7 @@ Nullable
 <
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TestInterface
 >
@@ -2339,7 +2339,7 @@ PassNullableCastableObjectSequence
 const
 Sequence
 <
-RefPtr
+nsRefPtr
 <
 TestInterface
 >
@@ -2372,7 +2372,7 @@ Nullable
 <
 Sequence
 <
-RefPtr
+nsRefPtr
 <
 TestInterface
 >
@@ -2474,7 +2474,7 @@ PassExternalInterfaceSequence
 const
 Sequence
 <
-RefPtr
+nsRefPtr
 <
 TestExternalInterface
 >
@@ -2488,7 +2488,7 @@ PassNullableExternalInterfaceSequence
 const
 Sequence
 <
-RefPtr
+nsRefPtr
 <
 TestExternalInterface
 >
@@ -2771,7 +2771,7 @@ PassNullableCastableObjectMozMap
 const
 MozMap
 <
-RefPtr
+nsRefPtr
 <
 TestInterface
 >
@@ -2804,7 +2804,7 @@ Nullable
 <
 MozMap
 <
-RefPtr
+nsRefPtr
 <
 TestInterface
 >
@@ -2881,7 +2881,7 @@ PassExternalInterfaceMozMap
 const
 MozMap
 <
-RefPtr
+nsRefPtr
 <
 TestExternalInterface
 >
@@ -2895,7 +2895,7 @@ PassNullableExternalInterfaceMozMap
 const
 MozMap
 <
-RefPtr
+nsRefPtr
 <
 TestExternalInterface
 >
@@ -3593,7 +3593,7 @@ PassOptionalNullableCallback
 const
 Optional
 <
-RefPtr
+nsRefPtr
 <
 TestCallback
 >
@@ -3637,7 +3637,7 @@ PassOptionalNullableTreatAsNullCallback
 const
 Optional
 <
-RefPtr
+nsRefPtr
 <
 TestTreatAsNullCallback
 >
@@ -5545,7 +5545,7 @@ PassOptionalNullablePromise
 const
 Optional
 <
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -5580,7 +5580,7 @@ PassPromiseMozMap
 const
 MozMap
 <
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -5594,7 +5594,7 @@ PassNullablePromiseSequence
 const
 Sequence
 <
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -8032,7 +8032,7 @@ JSContext
 *
 Optional
 <
-RefPtr
+nsRefPtr
 <
 TestCallback
 >

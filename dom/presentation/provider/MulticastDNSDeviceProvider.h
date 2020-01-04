@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -369,7 +369,7 @@ nsIDNSServiceDiscovery
 >
 mMulticastDNS
 ;
-RefPtr
+nsRefPtr
 <
 DNSServiceWrappedListener
 >

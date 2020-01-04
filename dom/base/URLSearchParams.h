@@ -664,7 +664,7 @@ nsISupports
 >
 mParent
 ;
-RefPtr
+nsRefPtr
 <
 URLSearchParamsObserver
 >

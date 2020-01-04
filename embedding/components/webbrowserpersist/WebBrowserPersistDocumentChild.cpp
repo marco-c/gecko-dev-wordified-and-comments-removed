@@ -82,7 +82,7 @@ nsIDocument
 aDocument
 )
 {
-RefPtr
+nsRefPtr
 <
 WebBrowserPersistLocalDocument
 >
@@ -459,7 +459,7 @@ PWebBrowserPersistResourcesChild
 aActor
 )
 {
-RefPtr
+nsRefPtr
 <
 WebBrowserPersistResourcesChild
 >

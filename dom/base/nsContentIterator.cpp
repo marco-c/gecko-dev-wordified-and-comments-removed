@@ -3816,7 +3816,7 @@ LastRelease
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >

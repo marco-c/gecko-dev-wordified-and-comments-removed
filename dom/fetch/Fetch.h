@@ -494,7 +494,7 @@ mMimeType
 ConsumeType
 mConsumeType
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >

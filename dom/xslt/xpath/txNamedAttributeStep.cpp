@@ -82,7 +82,7 @@ aResult
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 txNodeSet
 >

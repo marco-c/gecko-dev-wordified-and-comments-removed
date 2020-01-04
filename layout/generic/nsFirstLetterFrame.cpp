@@ -223,7 +223,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1522,7 +1522,7 @@ if
 parentSC
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1724,7 +1724,7 @@ if
 kid
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

@@ -1535,7 +1535,7 @@ nsHttpConnectionInfo
 aCI
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -1619,7 +1619,7 @@ void
 ;
 public
 :
-RefPtr
+nsRefPtr
 <
 NullHttpTransaction
 >
@@ -1807,7 +1807,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 SpeculativeConnectArgs
 >
@@ -2098,7 +2098,7 @@ aListener
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsAHttpConnection
 >
@@ -2344,7 +2344,7 @@ void
 param
 )
 {
-RefPtr
+nsRefPtr
 <
 EventTokenBucket
 >
@@ -2382,7 +2382,7 @@ EventTokenBucket
 aBucket
 )
 {
-RefPtr
+nsRefPtr
 <
 EventTokenBucket
 >
@@ -5019,7 +5019,7 @@ NoTraffic
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHttpConnection
 >
@@ -5844,13 +5844,13 @@ nsHttpPipelineFeedback
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
 mConnInfo
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpConnection
 >
@@ -6135,7 +6135,7 @@ IsEmpty
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -8354,7 +8354,7 @@ caps
 NS_HTTP_ALLOW_PIPELINING
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpConnection
 >
@@ -8378,7 +8378,7 @@ IsSpdyEnabled
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHttpConnection
 >
@@ -8710,7 +8710,7 @@ caps
 NS_HTTP_ALLOW_KEEPALIVE
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHttpConnection
 >
@@ -9676,7 +9676,7 @@ conn
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsAHttpTransaction
 >
@@ -9715,7 +9715,7 @@ n
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpPipeline
 >
@@ -9775,7 +9775,7 @@ transaction
 aTrans
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsConnectionHandle
 >
@@ -9927,7 +9927,7 @@ PR_GetCurrentThread
 gSocketThread
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpPipeline
 >
@@ -10309,7 +10309,7 @@ Connection
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpConnection
 >
@@ -10774,7 +10774,7 @@ PR_GetCurrentThread
 gSocketThread
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHalfOpenSocket
 >
@@ -11786,7 +11786,7 @@ nsresult
 reason
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpTransaction
 >
@@ -11804,7 +11804,7 @@ param
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsAHttpConnection
 >
@@ -12280,7 +12280,7 @@ nsresult
 code
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -12386,7 +12386,7 @@ nsresult
 code
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -12458,7 +12458,7 @@ ent
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsHttpTransaction
 >
@@ -12826,7 +12826,7 @@ PR_GetCurrentThread
 gSocketThread
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -14401,7 +14401,7 @@ if
 prohibitWildCard
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -14458,7 +14458,7 @@ if
 specificEnt
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -14617,7 +14617,7 @@ PR_GetCurrentThread
 gSocketThread
 )
 ;
-RefPtr
+nsRefPtr
 <
 SpeculativeConnectArgs
 >
@@ -16456,7 +16456,7 @@ PR_GetCurrentThread
 gSocketThread
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHalfOpenSocket
 >
@@ -16808,7 +16808,7 @@ CancelBackupTimer
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpConnection
 >
@@ -17155,7 +17155,7 @@ mTransaction
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpTransaction
 >
@@ -17294,7 +17294,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsAHttpTransaction
 >
@@ -17419,7 +17419,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpConnection
 >

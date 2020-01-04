@@ -51,7 +51,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -88,7 +88,7 @@ nsINetworkInterceptController
 >
 mController
 ;
-RefPtr
+nsRefPtr
 <
 nsJARChannel
 >

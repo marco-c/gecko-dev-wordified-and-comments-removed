@@ -1165,7 +1165,7 @@ GetStyleSheet
 :
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >

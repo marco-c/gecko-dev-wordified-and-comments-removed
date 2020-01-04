@@ -196,7 +196,7 @@ JSObject
 >
 mOwningObject
 ;
-RefPtr
+nsRefPtr
 <
 TabChild
 >

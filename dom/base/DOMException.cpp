@@ -2817,7 +2817,7 @@ break
 }
 }
 }
-RefPtr
+nsRefPtr
 <
 DOMException
 >
@@ -2907,7 +2907,7 @@ message
 code
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMException
 >
@@ -2965,7 +2965,7 @@ message
 code
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMException
 >

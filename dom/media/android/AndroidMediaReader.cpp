@@ -451,7 +451,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 ShutdownPromise
 >
@@ -586,7 +586,7 @@ GetImageContainer
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -657,7 +657,7 @@ mTime
 0
 )
 ;
-RefPtr
+nsRefPtr
 <
 VideoData
 >
@@ -771,7 +771,7 @@ picture
 =
 mPicture
 ;
-RefPtr
+nsRefPtr
 <
 VideoData
 >
@@ -1615,7 +1615,7 @@ mAudioChannels
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :
@@ -1640,7 +1640,7 @@ OnTaskQueue
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SeekPromise
 >
@@ -1665,7 +1665,7 @@ mVideoSeekTimeUs
 =
 aTarget
 ;
-RefPtr
+nsRefPtr
 <
 AndroidMediaReader
 >
@@ -1862,7 +1862,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Image
 >

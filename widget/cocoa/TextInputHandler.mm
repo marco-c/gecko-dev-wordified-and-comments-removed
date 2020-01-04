@@ -9622,7 +9622,7 @@ charactersIgnoringModifiers
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsChildView
 >
@@ -10786,7 +10786,7 @@ this
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsChildView
 >
@@ -13499,7 +13499,7 @@ the
 selected
 range
 .
-RefPtr
+nsRefPtr
 <
 TextInputHandler
 >
@@ -13610,7 +13610,7 @@ CanDispatchKeyPressEvent
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsChildView
 >
@@ -13977,7 +13977,7 @@ char
 aSelector
 )
 {
-RefPtr
+nsRefPtr
 <
 nsChildView
 >
@@ -17148,7 +17148,7 @@ GetRangeCount
 aAttrString
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -17807,7 +17807,7 @@ composition
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMEInputHandler
 >
@@ -18072,7 +18072,7 @@ composition
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMEInputHandler
 >
@@ -18590,7 +18590,7 @@ return
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 IMEInputHandler
 >
@@ -18947,7 +18947,7 @@ IgnoreIMEComposition
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 IMEInputHandler
 >
@@ -19381,7 +19381,7 @@ mView
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 IMEInputHandler
 >
@@ -19626,7 +19626,7 @@ return
 nil
 ;
 }
-RefPtr
+nsRefPtr
 <
 IMEInputHandler
 >
@@ -20470,7 +20470,7 @@ return
 mSelectedRange
 ;
 }
-RefPtr
+nsRefPtr
 <
 IMEInputHandler
 >
@@ -20994,7 +20994,7 @@ return
 rect
 ;
 }
-RefPtr
+nsRefPtr
 <
 IMEInputHandler
 >
@@ -21657,7 +21657,7 @@ this
 ;
 /
 /
-RefPtr
+nsRefPtr
 <
 IMEInputHandler
 >
@@ -25032,7 +25032,7 @@ Destroyed
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextInputHandlerBase
 >

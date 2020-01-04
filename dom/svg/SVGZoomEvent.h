@@ -177,13 +177,13 @@ mPreviousScale
 float
 mNewScale
 ;
-RefPtr
+nsRefPtr
 <
 DOMSVGPoint
 >
 mPreviousTranslate
 ;
-RefPtr
+nsRefPtr
 <
 DOMSVGPoint
 >

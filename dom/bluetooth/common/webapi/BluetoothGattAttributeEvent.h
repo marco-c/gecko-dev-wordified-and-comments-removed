@@ -109,13 +109,13 @@ mAddress
 int32_t
 mRequestId
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattCharacteristic
 >
 mCharacteristic
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattDescriptor
 >

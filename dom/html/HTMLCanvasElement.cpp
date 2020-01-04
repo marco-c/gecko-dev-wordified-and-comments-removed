@@ -367,7 +367,7 @@ DataSourceSurface
 CopySurface
 (
 const
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -375,7 +375,7 @@ SourceSurface
 aSurface
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -425,7 +425,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -644,7 +644,7 @@ IsFrameCaptureRequested
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -667,7 +667,7 @@ snapshot
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -828,7 +828,7 @@ HTMLCanvasElement
 const
 mOwningElement
 ;
-RefPtr
+nsRefPtr
 <
 nsRefreshDriver
 >
@@ -978,7 +978,7 @@ InvalidateCanvas
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <
@@ -1650,7 +1650,7 @@ mCurrentContext
 aCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <
@@ -1853,7 +1853,7 @@ cxt
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CanvasRenderingContext2D
 >
@@ -2407,7 +2407,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 CanvasCaptureMediaStream
 >
@@ -2439,7 +2439,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsIPrincipal
 >
@@ -3259,7 +3259,7 @@ Blob
 aBlob
 )
 {
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -3324,7 +3324,7 @@ size
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -3376,7 +3376,7 @@ nsIGlobalObject
 >
 mGlobal
 ;
-RefPtr
+nsRefPtr
 <
 FileCallback
 >
@@ -3404,7 +3404,7 @@ MOZ_ASSERT
 global
 )
 ;
-RefPtr
+nsRefPtr
 <
 EncodeCompleteCallback
 >
@@ -3504,7 +3504,7 @@ do_QueryInterface
 file
 )
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -3944,7 +3944,7 @@ CanvasContextType
 NoContext
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsICanvasRenderingContextInternal
 >
@@ -4185,7 +4185,7 @@ if
 mCurrentContext
 )
 {
-RefPtr
+nsRefPtr
 <
 nsICanvasRenderingContextInternal
 >
@@ -4364,7 +4364,7 @@ if
 mCurrentContext
 )
 {
-RefPtr
+nsRefPtr
 <
 nsICanvasRenderingContextInternal
 >
@@ -5290,7 +5290,7 @@ SourceSurface
 aSurface
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5321,7 +5321,7 @@ mSourceSurface
 =
 surface
 ;
-RefPtr
+nsRefPtr
 <
 CairoImage
 >
@@ -5390,7 +5390,7 @@ i
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 Image
 >

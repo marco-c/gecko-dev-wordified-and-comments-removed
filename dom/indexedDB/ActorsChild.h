@@ -673,7 +673,7 @@ BackgroundRequestChildBase
 {
 protected
 :
-RefPtr
+nsRefPtr
 <
 IDBRequest
 >
@@ -795,7 +795,7 @@ friend
 class
 PermissionRequestParent
 ;
-RefPtr
+nsRefPtr
 <
 IDBFactory
 >
@@ -933,7 +933,7 @@ DatabaseSpec
 >
 mSpec
 ;
-RefPtr
+nsRefPtr
 <
 IDBDatabase
 >
@@ -1281,7 +1281,7 @@ friend
 class
 IDBDatabase
 ;
-RefPtr
+nsRefPtr
 <
 IDBDatabase
 >
@@ -1343,7 +1343,7 @@ friend
 class
 BackgroundVersionChangeTransactionChild
 ;
-RefPtr
+nsRefPtr
 <
 IDBTransaction
 >
@@ -1785,7 +1785,7 @@ friend
 class
 IDBTransaction
 ;
-RefPtr
+nsRefPtr
 <
 IDBTransaction
 >
@@ -1964,13 +1964,13 @@ IDBCursor
 *
 mCursor
 ;
-RefPtr
+nsRefPtr
 <
 IDBRequest
 >
 mStrongRequest
 ;
-RefPtr
+nsRefPtr
 <
 IDBCursor
 >

@@ -621,7 +621,7 @@ nsISupports
 >
 mOwner
 ;
-RefPtr
+nsRefPtr
 <
 txStylesheet
 >
@@ -668,7 +668,7 @@ mVariables
 txNamespaceMap
 mParamNamespaceMap
 ;
-RefPtr
+nsRefPtr
 <
 txResultRecycler
 >

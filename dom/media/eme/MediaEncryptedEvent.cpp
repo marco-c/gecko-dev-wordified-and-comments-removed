@@ -207,7 +207,7 @@ EventTarget
 aOwner
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaEncryptedEvent
 >
@@ -275,7 +275,7 @@ uint8_t
 aInitData
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaEncryptedEvent
 >
@@ -373,7 +373,7 @@ GetAsSupports
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaEncryptedEvent
 >

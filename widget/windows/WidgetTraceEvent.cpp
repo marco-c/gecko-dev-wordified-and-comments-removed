@@ -309,7 +309,7 @@ GetHiddenWindowHWND
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 HWNDGetter
 >

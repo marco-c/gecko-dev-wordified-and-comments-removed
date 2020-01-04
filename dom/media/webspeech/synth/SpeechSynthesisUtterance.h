@@ -363,7 +363,7 @@ mState
 bool
 mPaused
 ;
-RefPtr
+nsRefPtr
 <
 SpeechSynthesisVoice
 >

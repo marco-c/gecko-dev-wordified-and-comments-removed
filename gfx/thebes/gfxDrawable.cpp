@@ -144,7 +144,7 @@ aSamplingRect
 bool
 aRepeat
 const
-Filter
+GraphicsFilter
 &
 aFilter
 gfxFloat
@@ -257,7 +257,7 @@ aFillRect
 bool
 aRepeat
 const
-Filter
+GraphicsFilter
 &
 aFilter
 gfxFloat
@@ -315,7 +315,7 @@ aSamplingRect
 bool
 aRepeat
 const
-Filter
+GraphicsFilter
 &
 aFilter
 gfxFloat
@@ -369,7 +369,10 @@ pattern
 mSourceSurface
 extend
 patternTransform
+ToFilter
+(
 aFilter
+)
 aSamplingRect
 )
 ;
@@ -496,7 +499,7 @@ gfxCallbackDrawable
 MakeSurfaceDrawable
 (
 const
-Filter
+GraphicsFilter
 aFilter
 )
 {
@@ -519,7 +522,7 @@ gfxContentType
 COLOR_ALPHA
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -577,7 +580,7 @@ false
 aFilter
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -636,7 +639,7 @@ aFillRect
 bool
 aRepeat
 const
-Filter
+GraphicsFilter
 &
 aFilter
 gfxFloat
@@ -798,7 +801,7 @@ gfxRect
 &
 aFillRect
 const
-Filter
+GraphicsFilter
 &
 aFilter
 const
@@ -898,7 +901,7 @@ aFillRect
 bool
 aRepeat
 const
-Filter
+GraphicsFilter
 &
 aFilter
 gfxFloat

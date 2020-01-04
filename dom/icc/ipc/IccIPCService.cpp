@@ -159,7 +159,7 @@ aServiceId
 ]
 )
 {
-RefPtr
+nsRefPtr
 <
 IccChild
 >

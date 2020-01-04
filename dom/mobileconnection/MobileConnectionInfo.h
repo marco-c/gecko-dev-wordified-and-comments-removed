@@ -295,13 +295,13 @@ nsPIDOMWindow
 >
 mWindow
 ;
-RefPtr
+nsRefPtr
 <
 MobileNetworkInfo
 >
 mNetworkInfo
 ;
-RefPtr
+nsRefPtr
 <
 MobileCellInfo
 >

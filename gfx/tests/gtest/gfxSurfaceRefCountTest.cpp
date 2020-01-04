@@ -180,7 +180,7 @@ destroyed
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -517,7 +517,7 @@ destroyed
 0
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >

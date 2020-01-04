@@ -114,7 +114,7 @@ nsISupports
 public
 nsWrapperCache
 {
-RefPtr
+nsRefPtr
 <
 IDBObjectStore
 >

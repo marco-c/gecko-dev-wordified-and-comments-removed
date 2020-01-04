@@ -205,7 +205,7 @@ nsIFrame
 aFrame
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -1366,7 +1366,7 @@ nullptr
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -4120,7 +4120,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -4582,7 +4582,7 @@ CreateReferenceRenderingContext
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

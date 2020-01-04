@@ -267,7 +267,7 @@ GetAsSupports
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMError
 >

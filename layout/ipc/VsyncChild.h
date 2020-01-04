@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -126,7 +126,7 @@ mObservingVsync
 bool
 mIsShutdown
 ;
-RefPtr
+nsRefPtr
 <
 VsyncObserver
 >

@@ -250,7 +250,7 @@ Columns
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 nsTreeColumns
 >
@@ -2015,7 +2015,7 @@ ScrollEvent
 >
 mScrollEvent
 ;
-RefPtr
+nsRefPtr
 <
 ScrollbarActivity
 >
@@ -2027,7 +2027,7 @@ nsITreeBoxObject
 >
 mTreeBoxObject
 ;
-RefPtr
+nsRefPtr
 <
 nsTreeColumns
 >

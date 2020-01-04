@@ -237,7 +237,7 @@ ServiceWorkerState
 mState
 ;
 const
-RefPtr
+nsRefPtr
 <
 ServiceWorkerInfo
 >

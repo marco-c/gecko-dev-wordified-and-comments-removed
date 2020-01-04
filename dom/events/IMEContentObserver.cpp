@@ -1575,7 +1575,7 @@ MOZ_RELEASE_ASSERT
 widget
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMEContentObserver
 >
@@ -2090,7 +2090,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextComposition
 >
@@ -2675,7 +2675,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 IMEContentObserver
 >
@@ -5913,7 +5913,7 @@ this
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncMergeableNotificationsFlusher
 >

@@ -55,7 +55,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1691,7 +1691,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextComposition
 >

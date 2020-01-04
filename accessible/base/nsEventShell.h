@@ -100,7 +100,7 @@ bool
 aIsFromUserInput
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :

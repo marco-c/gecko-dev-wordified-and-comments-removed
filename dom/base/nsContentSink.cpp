@@ -6204,7 +6204,7 @@ mParser
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsParserBase
 >

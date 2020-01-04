@@ -341,7 +341,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -497,7 +497,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -1325,7 +1325,7 @@ NS_OK
 }
 #
 endif
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -1756,7 +1756,7 @@ IsEmpty
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -1895,7 +1895,7 @@ IsEmpty
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -1958,7 +1958,7 @@ IsEmpty
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -2094,7 +2094,7 @@ MOZ_ASSERT
 aListener
 )
 ;
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -2177,7 +2177,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -2396,7 +2396,7 @@ uint64_t
 aWindowId
 )
 {
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >
@@ -2541,7 +2541,7 @@ ProcessId
 aProcessId
 )
 {
-RefPtr
+nsRefPtr
 <
 PresentationSessionInfo
 >

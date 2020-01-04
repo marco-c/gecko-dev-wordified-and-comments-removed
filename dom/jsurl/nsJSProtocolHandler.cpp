@@ -1538,7 +1538,7 @@ mLoadFlags
 nsLoadFlags
 mActualLoadFlags
 ;
-RefPtr
+nsRefPtr
 <
 nsJSThunk
 >
@@ -1685,7 +1685,7 @@ nsIURI
 aURI
 )
 {
-RefPtr
+nsRefPtr
 <
 nsJSURI
 >
@@ -4455,7 +4455,7 @@ NS_ENSURE_ARG_POINTER
 uri
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsJSChannel
 >
@@ -5137,7 +5137,7 @@ outparam
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsJSURI
 >

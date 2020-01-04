@@ -2881,7 +2881,7 @@ transferable
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

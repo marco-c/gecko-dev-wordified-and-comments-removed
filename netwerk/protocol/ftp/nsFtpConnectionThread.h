@@ -537,7 +537,7 @@ mResponseCode
 nsCString
 mResponseMsg
 ;
-RefPtr
+nsRefPtr
 <
 nsFtpControlConnection
 >
@@ -558,7 +558,7 @@ mFileSize
 nsCString
 mModTime
 ;
-RefPtr
+nsRefPtr
 <
 nsFtpChannel
 >

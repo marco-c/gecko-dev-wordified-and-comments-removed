@@ -145,7 +145,7 @@ nsIAsyncInputStream
 >
 mStream
 ;
-RefPtr
+nsRefPtr
 <
 Callback
 >

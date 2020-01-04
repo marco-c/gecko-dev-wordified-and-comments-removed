@@ -416,7 +416,7 @@ bool
 aCompileEventHandlers
 )
 {
-RefPtr
+nsRefPtr
 <
 ShadowRoot
 >
@@ -641,7 +641,7 @@ bool
 aNullParent
 )
 {
-RefPtr
+nsRefPtr
 <
 ShadowRoot
 >

@@ -237,7 +237,7 @@ height
 4
 ;
 }
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -247,7 +247,7 @@ nsIImageLoadingContent
 *
 mILC
 ;
-RefPtr
+nsRefPtr
 <
 HTMLCanvasElement
 >
@@ -259,7 +259,7 @@ imgIRequest
 >
 mRequest
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -548,7 +548,7 @@ imgIRequest
 >
 mRequest
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -668,7 +668,7 @@ mSimpleCache
 size_t
 mTotal
 ;
-RefPtr
+nsRefPtr
 <
 ImageCacheObserver
 >

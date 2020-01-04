@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -177,7 +177,7 @@ dom
 MediaSourceEnum
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaEngineVideoSource
 >
@@ -197,7 +197,7 @@ dom
 MediaSourceEnum
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaEngineAudioSource
 >

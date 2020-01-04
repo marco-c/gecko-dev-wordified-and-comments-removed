@@ -335,7 +335,7 @@ mParent
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -913,7 +913,7 @@ final
 public
 MainThreadWorkerControlRunnable
 {
-RefPtr
+nsRefPtr
 <
 ConsoleRunnable
 >
@@ -1004,7 +1004,7 @@ ConsoleReleaseRunnable
 }
 }
 ;
-RefPtr
+nsRefPtr
 <
 WorkerControlRunnable
 >
@@ -1042,7 +1042,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -1309,7 +1309,7 @@ aCx
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -1397,7 +1397,7 @@ aObj
 )
 override
 {
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -1543,7 +1543,7 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-RefPtr
+nsRefPtr
 <
 Console
 >
@@ -1602,7 +1602,7 @@ public
 explicit
 ReleaseCallData
 (
-RefPtr
+nsRefPtr
 <
 ConsoleCallData
 >
@@ -1634,7 +1634,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 ConsoleCallData
 >
@@ -1642,7 +1642,7 @@ mCallData
 ;
 }
 ;
-RefPtr
+nsRefPtr
 <
 ReleaseCallData
 >
@@ -2223,7 +2223,7 @@ mCallData
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ConsoleCallData
 >
@@ -3710,7 +3710,7 @@ NS_IsMainThread
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ConsoleProfileRunnable
 >
@@ -4316,7 +4316,7 @@ Value
 aData
 )
 {
-RefPtr
+nsRefPtr
 <
 ConsoleCallData
 >
@@ -4652,7 +4652,7 @@ MOZ_ASSERT
 win
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPerformance
 >
@@ -5024,7 +5024,7 @@ callData
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ConsoleCallDataRunnable
 >

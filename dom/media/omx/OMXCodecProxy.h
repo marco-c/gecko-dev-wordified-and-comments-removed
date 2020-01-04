@@ -65,7 +65,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -379,7 +379,7 @@ MediaSource
 >
 mOMXCodec
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

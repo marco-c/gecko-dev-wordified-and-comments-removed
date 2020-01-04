@@ -263,7 +263,7 @@ const
 nsCString
 mNodeId
 ;
-RefPtr
+nsRefPtr
 <
 GMPParent
 >

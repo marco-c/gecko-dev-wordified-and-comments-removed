@@ -131,7 +131,7 @@ WMFMediaDataDecoder
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 :
@@ -448,7 +448,7 @@ runnable
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -460,7 +460,7 @@ WMFMediaDataDecoder
 :
 :
 ProcessDecode
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -586,7 +586,7 @@ ProcessOutput
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaData
 >

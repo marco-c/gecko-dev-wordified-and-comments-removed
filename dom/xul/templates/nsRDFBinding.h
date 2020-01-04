@@ -258,7 +258,7 @@ nsBindingValues
 {
 protected
 :
-RefPtr
+nsRefPtr
 <
 RDFBindingSet
 >

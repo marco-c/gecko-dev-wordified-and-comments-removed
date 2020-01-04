@@ -1106,7 +1106,7 @@ nsIInputStream
 aCloneOut
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIInputStream
 >
@@ -1157,7 +1157,7 @@ ptr
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStringInputStream
 >
@@ -1320,7 +1320,7 @@ ptr
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStringInputStream
 >
@@ -1381,7 +1381,7 @@ return
 NS_ERROR_NO_AGGREGATION
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsStringInputStream
 >

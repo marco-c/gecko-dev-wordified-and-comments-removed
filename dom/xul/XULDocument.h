@@ -1277,7 +1277,7 @@ mPersistenceIds
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -1565,7 +1565,7 @@ XULDocument
 *
 mDocument
 ;
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -1851,13 +1851,13 @@ nsINode
 aChild
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeDocument
 >
 mCurrentPrototype
 ;
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeDocument
 >
@@ -1865,7 +1865,7 @@ mMasterPrototype
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeDocument
 >
@@ -1956,7 +1956,7 @@ nsIStreamListener
 {
 protected
 :
-RefPtr
+nsRefPtr
 <
 XULDocument
 >
@@ -1999,13 +1999,13 @@ nsIRequestObserver
 {
 protected
 :
-RefPtr
+nsRefPtr
 <
 XULDocument
 >
 mDocument
 ;
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeDocument
 >

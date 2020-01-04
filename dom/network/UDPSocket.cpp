@@ -478,7 +478,7 @@ nullptr
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 UDPSocket
 >
@@ -694,7 +694,7 @@ MOZ_ASSERT
 mClosed
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2719,7 +2719,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 UDPSocket
 >
@@ -2963,7 +2963,7 @@ mData
 =
 jsData
 ;
-RefPtr
+nsRefPtr
 <
 UDPMessageEvent
 >
@@ -3005,7 +3005,7 @@ SetTrusted
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >

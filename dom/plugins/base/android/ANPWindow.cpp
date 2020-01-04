@@ -304,7 +304,7 @@ instance
 ndata
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginInstanceOwner
 >
@@ -357,7 +357,7 @@ instance
 ndata
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginInstanceOwner
 >

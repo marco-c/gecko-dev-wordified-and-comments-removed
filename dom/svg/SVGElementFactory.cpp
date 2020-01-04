@@ -582,7 +582,7 @@ Init
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

@@ -406,7 +406,7 @@ void
 aData
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsContentList
 >

@@ -244,7 +244,7 @@ aData
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 layers
 :

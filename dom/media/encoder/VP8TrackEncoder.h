@@ -158,7 +158,7 @@ mEncodedTimestamp
 StreamTime
 mRemainingTicks
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :

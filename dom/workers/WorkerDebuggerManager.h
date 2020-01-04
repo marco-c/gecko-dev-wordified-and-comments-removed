@@ -207,7 +207,7 @@ ClearWorkerDebuggerManagerListeners
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 WorkerDebuggerManager
 >
@@ -250,7 +250,7 @@ WorkerDebugger
 aDebugger
 )
 {
-RefPtr
+nsRefPtr
 <
 WorkerDebuggerManager
 >
@@ -294,7 +294,7 @@ WorkerDebugger
 aDebugger
 )
 {
-RefPtr
+nsRefPtr
 <
 WorkerDebuggerManager
 >

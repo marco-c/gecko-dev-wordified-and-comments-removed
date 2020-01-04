@@ -315,7 +315,7 @@ gfxFontStyle
 aStyle
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIAtom
 >
@@ -333,7 +333,7 @@ gfxAlternateValue
 >
 alternateValues
 ;
-RefPtr
+nsRefPtr
 <
 gfxFontFeatureValueSet
 >
@@ -870,7 +870,7 @@ uint32_t
 start
 end
 ;
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -6038,7 +6038,7 @@ nsUint32HashKey
 *
 sDefaultFeatures
 ;
-RefPtr
+nsRefPtr
 <
 gfxFontEntry
 >
@@ -6431,13 +6431,13 @@ gfxFontShaper
 >
 mGraphiteShaper
 ;
-RefPtr
+nsRefPtr
 <
 gfxCharacterMap
 >
 mUnicodeRangeMap
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -6591,7 +6591,7 @@ DEFAULT_XHEIGHT_FACTOR
 struct
 TextRunDrawParams
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -6654,7 +6654,7 @@ paintSVGGlyphs
 struct
 FontDrawParams
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -6666,7 +6666,7 @@ ScaledFont
 >
 scaledFont
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

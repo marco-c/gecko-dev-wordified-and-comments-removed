@@ -94,7 +94,7 @@ EventTarget
 aOwner
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothDevice
 >

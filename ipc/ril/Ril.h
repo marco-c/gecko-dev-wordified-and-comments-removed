@@ -129,7 +129,7 @@ RilWorker
 >
 sRilWorkers
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

@@ -186,7 +186,7 @@ int32_t
 pid
 )
 {
-RefPtr
+nsRefPtr
 <
 GonkPermissionChecker
 >
@@ -701,7 +701,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 GonkPermissionChecker
 >

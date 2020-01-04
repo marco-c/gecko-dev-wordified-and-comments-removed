@@ -881,7 +881,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattDescriptor
 >
@@ -933,7 +933,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1102,7 +1102,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >

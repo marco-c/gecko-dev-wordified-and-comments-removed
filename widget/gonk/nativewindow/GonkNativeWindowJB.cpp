@@ -47,7 +47,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -575,7 +575,7 @@ return
 NULL
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -741,7 +741,7 @@ GetAndResetReleaseFenceHandle
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 FenceHandle
 :

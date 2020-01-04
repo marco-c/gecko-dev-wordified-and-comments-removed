@@ -319,7 +319,7 @@ const
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 MediaStream
 >

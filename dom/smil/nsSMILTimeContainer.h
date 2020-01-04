@@ -278,7 +278,7 @@ const
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -434,7 +434,7 @@ mMilestone
 nsSMILMilestone
 mMilestone
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

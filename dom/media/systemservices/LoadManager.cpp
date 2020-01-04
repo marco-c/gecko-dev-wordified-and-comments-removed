@@ -1228,7 +1228,7 @@ in_state
 0
 ;
 }
-RefPtr
+nsRefPtr
 <
 LoadMonitor
 >

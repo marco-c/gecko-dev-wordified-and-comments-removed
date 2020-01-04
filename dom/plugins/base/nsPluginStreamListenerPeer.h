@@ -590,7 +590,7 @@ mURL
 nsCString
 mURLSpec
 ;
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginStreamListener
 >
@@ -611,7 +611,7 @@ mLength
 int32_t
 mStreamType
 ;
-RefPtr
+nsRefPtr
 <
 CachedFileHolder
 >
@@ -649,7 +649,7 @@ mSeekable
 uint32_t
 mModified
 ;
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >

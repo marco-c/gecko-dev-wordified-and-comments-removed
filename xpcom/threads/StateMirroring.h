@@ -194,7 +194,7 @@ AbstractCanonical
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 AbstractThread
 >
@@ -269,7 +269,7 @@ AbstractMirror
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 AbstractThread
 >
@@ -1016,7 +1016,7 @@ mInitialValue
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 AbstractMirror
 <
@@ -1165,7 +1165,7 @@ delete
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 Impl
 >
@@ -1707,7 +1707,7 @@ private
 T
 mValue
 ;
-RefPtr
+nsRefPtr
 <
 AbstractCanonical
 <
@@ -1804,7 +1804,7 @@ Ref
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 Impl
 >

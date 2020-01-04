@@ -589,7 +589,7 @@ uint32_t
 aBytesConsumed
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheUpdate
 >
@@ -1789,7 +1789,7 @@ LoadStatus
 :
 LOADED
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheUpdate
 >
@@ -6693,7 +6693,7 @@ FinishNoNotify
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheUpdate
 >
@@ -6841,7 +6841,7 @@ mState
 STATE_CANCELLED
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <
@@ -7380,7 +7380,7 @@ Finish
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 nsManifestCheck
 >
@@ -8201,7 +8201,7 @@ NS_OK
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheUpdate
 >
@@ -9247,7 +9247,7 @@ NS_OK
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheUpdateItem
 >

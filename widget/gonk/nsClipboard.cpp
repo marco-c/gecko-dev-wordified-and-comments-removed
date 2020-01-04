@@ -224,7 +224,7 @@ XRE_IsParentProcess
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsClipboardProxy
 >
@@ -772,7 +772,7 @@ image
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -805,7 +805,7 @@ surface
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -915,7 +915,7 @@ XRE_IsParentProcess
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsClipboardProxy
 >
@@ -1442,7 +1442,7 @@ HasImage
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1458,7 +1458,7 @@ GetImage
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -1808,7 +1808,7 @@ true
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 nsClipboardProxy
 >

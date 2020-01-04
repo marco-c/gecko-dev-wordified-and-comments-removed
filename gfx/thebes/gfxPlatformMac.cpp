@@ -509,7 +509,7 @@ gfxImageFormat
 aFormat
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -2340,7 +2340,7 @@ private
 CVDisplayLinkRef
 mDisplayLink
 ;
-RefPtr
+nsRefPtr
 <
 nsITimer
 >
@@ -2517,7 +2517,7 @@ CreateHardwareVsyncSource
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 VsyncSource
 >

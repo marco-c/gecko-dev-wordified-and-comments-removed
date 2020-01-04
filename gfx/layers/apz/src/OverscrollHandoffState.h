@@ -97,7 +97,7 @@ size
 ;
 }
 const
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -188,7 +188,7 @@ HasFastFlungApzc
 )
 const
 ;
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >
@@ -208,7 +208,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 AsyncPanZoomController
 >

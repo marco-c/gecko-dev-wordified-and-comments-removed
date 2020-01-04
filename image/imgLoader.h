@@ -442,7 +442,7 @@ GetRequest
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 imgRequest
 >
@@ -574,7 +574,7 @@ imgLoader
 *
 mLoader
 ;
-RefPtr
+nsRefPtr
 <
 imgRequest
 >
@@ -727,7 +727,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 imgCacheEntry
 >
@@ -1133,14 +1133,14 @@ bool
 CompareCacheEntries
 (
 const
-RefPtr
+nsRefPtr
 <
 imgCacheEntry
 >
 &
 one
 const
-RefPtr
+nsRefPtr
 <
 imgCacheEntry
 >
@@ -1697,7 +1697,7 @@ nsIStreamListener
 >
 mDestListener
 ;
-RefPtr
+nsRefPtr
 <
 nsProgressNotificationProxy
 >
@@ -1715,7 +1715,7 @@ nsIChannel
 >
 mRedirectChannel
 ;
-RefPtr
+nsRefPtr
 <
 imgRequest
 >
@@ -1727,13 +1727,13 @@ imgIRequest
 >
 mProxies
 ;
-RefPtr
+nsRefPtr
 <
 imgRequest
 >
 mNewRequest
 ;
-RefPtr
+nsRefPtr
 <
 imgCacheEntry
 >

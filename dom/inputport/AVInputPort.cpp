@@ -74,7 +74,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 AVInputPort
 >

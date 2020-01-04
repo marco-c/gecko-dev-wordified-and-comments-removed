@@ -302,7 +302,7 @@ UndoTransaction
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -420,7 +420,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 IMETextTxn
 >
@@ -625,7 +625,7 @@ TextRangeArray
 aRanges
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -1000,7 +1000,7 @@ empty
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsRange
 >

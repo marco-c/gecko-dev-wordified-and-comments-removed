@@ -120,7 +120,7 @@ XMLHttpRequest
 aXHR
 )
 {
-RefPtr
+nsRefPtr
 <
 XMLHttpRequestUpload
 >

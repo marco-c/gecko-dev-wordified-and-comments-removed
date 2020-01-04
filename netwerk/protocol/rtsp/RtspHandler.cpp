@@ -189,7 +189,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStandardURL
 >
@@ -257,7 +257,7 @@ isRtsp
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 nsBaseChannel
 >

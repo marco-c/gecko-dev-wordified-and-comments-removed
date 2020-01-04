@@ -148,7 +148,7 @@ mNeedsCleanupOnRelease
 bool
 mAttachedByConsumer
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

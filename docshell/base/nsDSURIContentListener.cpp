@@ -485,7 +485,7 @@ mExistingJPEGStreamListener
 reuseCV
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIStreamListener
 >
@@ -849,7 +849,7 @@ aLoadCookie
 #
 ifdef
 DEBUG
-RefPtr
+nsRefPtr
 <
 nsDocLoader
 >

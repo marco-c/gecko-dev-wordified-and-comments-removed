@@ -153,7 +153,7 @@ PresentationChild
 bool
 mActorDestroyed
 ;
-RefPtr
+nsRefPtr
 <
 PresentationIPCService
 >

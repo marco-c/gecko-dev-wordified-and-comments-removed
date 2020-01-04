@@ -77,13 +77,13 @@ private
 uint32_t
 mClientId
 ;
-RefPtr
+nsRefPtr
 <
 Icc
 >
 mIcc
 ;
-RefPtr
+nsRefPtr
 <
 IccManager
 >

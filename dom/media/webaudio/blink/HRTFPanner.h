@@ -148,7 +148,7 @@ double
 azimuthBlend
 )
 ;
-RefPtr
+nsRefPtr
 <
 HRTFDatabaseLoader
 >

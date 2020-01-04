@@ -215,7 +215,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 DesktopNotification
 >
@@ -699,7 +699,7 @@ Init
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DesktopNotificationRequest
 >
@@ -764,7 +764,7 @@ CheckInnerWindowCorrectness
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -1037,7 +1037,7 @@ MOZ_ASSERT
 mOwner
 )
 ;
-RefPtr
+nsRefPtr
 <
 DesktopNotification
 >

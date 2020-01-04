@@ -443,7 +443,7 @@ nsSVGElement
 aSVGElement
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGAnimatedEnumeration
 >

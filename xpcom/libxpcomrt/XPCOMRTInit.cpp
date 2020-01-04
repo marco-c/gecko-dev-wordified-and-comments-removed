@@ -569,7 +569,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsObserverService
 >

@@ -598,7 +598,7 @@ aArgv
 ]
 )
 {
-RefPtr
+nsRefPtr
 <
 PluginAsyncSurrogate
 >
@@ -1397,7 +1397,7 @@ IsInitialized
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 PluginAsyncSurrogate
 >

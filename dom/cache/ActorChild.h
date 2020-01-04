@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -77,7 +77,7 @@ ActorChild
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 Feature
 >

@@ -245,7 +245,7 @@ aJSVal
 nsString
 mType
 ;
-RefPtr
+nsRefPtr
 <
 nsIDOMEventListener
 >
@@ -352,7 +352,7 @@ mPendingListenerChanges
 nsDataHashtable
 <
 nsISupportsHashKey
-RefPtr
+nsRefPtr
 <
 EventListenerChange
 >

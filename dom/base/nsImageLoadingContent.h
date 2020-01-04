@@ -609,7 +609,7 @@ aDest
 )
 const
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -630,7 +630,7 @@ int16_t
 aContentDecision
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -641,7 +641,7 @@ ImageLoadType
 aImageLoadType
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -718,13 +718,13 @@ aNonvisibleAction
 ON_NONVISIBLE_NO_ACTION
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
 mCurrentRequest
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >

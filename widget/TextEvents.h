@@ -1136,7 +1136,7 @@ result
 nsString
 mData
 ;
-RefPtr
+nsRefPtr
 <
 TextRangeArray
 >

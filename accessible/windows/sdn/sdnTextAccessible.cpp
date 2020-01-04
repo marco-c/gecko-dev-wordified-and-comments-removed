@@ -719,7 +719,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -866,7 +866,7 @@ frame
 return
 E_FAIL
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

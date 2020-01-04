@@ -148,7 +148,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Activity
 >

@@ -2338,7 +2338,7 @@ defined
 (
 MOZ_ACCESSIBILITY_ATK
 )
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -2421,7 +2421,7 @@ do_CreateInstance
 NS_TIMER_CONTRACTID
 )
 ;
-RefPtr
+nsRefPtr
 <
 PluginTimerCallBack
 >
@@ -2498,7 +2498,7 @@ GetPluginPort
 pluginPort
 )
 ;
-RefPtr
+nsRefPtr
 <
 Accessible
 >
@@ -2570,7 +2570,7 @@ IsEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AtkSocketAccessible
 >
@@ -3968,7 +3968,7 @@ nsISupports
 aStringStates
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMStringList
 >
@@ -5842,7 +5842,7 @@ creation
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 Accessible
 >
@@ -7556,7 +7556,7 @@ outerdoc
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Accessible
 >
@@ -7577,7 +7577,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Accessible
 >
@@ -8821,7 +8821,7 @@ Document
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Accessible
 >
@@ -9910,7 +9910,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsAccessibilityService
 >
@@ -10041,7 +10041,7 @@ treeFrame
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsTreeColumns
 >
@@ -10076,7 +10076,7 @@ count
 1
 )
 {
-RefPtr
+nsRefPtr
 <
 Accessible
 >
@@ -10098,7 +10098,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Accessible
 >

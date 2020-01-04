@@ -507,7 +507,7 @@ GetArray
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TextTrackCue
 >
@@ -520,7 +520,7 @@ aCues
 =
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TextTrackCue
 >

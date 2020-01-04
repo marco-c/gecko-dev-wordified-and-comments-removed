@@ -132,7 +132,7 @@ nsPIDOMWindow
 aParent
 )
 {
-RefPtr
+nsRefPtr
 <
 PromiseLike
 <
@@ -310,13 +310,13 @@ PromiseLike
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 T
 >
 mPromiseLike
 ;
-RefPtr
+nsRefPtr
 <
 MediaKeySystemAccess
 >
@@ -416,7 +416,7 @@ const
 nsString
 mKeySystem
 ;
-RefPtr
+nsRefPtr
 <
 TestGMPVideoDecoder
 >
@@ -424,7 +424,7 @@ mTest
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 AbstractPromiseLike
 >
@@ -657,7 +657,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 TestGMPVideoDecoder
 >
@@ -713,7 +713,7 @@ mozIGeckoMediaPluginService
 >
 mGMPService
 ;
-RefPtr
+nsRefPtr
 <
 GMPVideoDecoderTrialCreator
 >

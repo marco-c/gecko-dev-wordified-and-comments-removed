@@ -963,7 +963,7 @@ JumpListSeparator
 :
 GetSeparator
 (
-RefPtr
+nsRefPtr
 <
 IShellLinkW
 >
@@ -1098,7 +1098,7 @@ nsIJumpListItem
 >
 &
 item
-RefPtr
+nsRefPtr
 <
 IShellLinkW
 >
@@ -2153,7 +2153,7 @@ nsIJumpListItem
 >
 &
 item
-RefPtr
+nsRefPtr
 <
 IShellItem2
 >

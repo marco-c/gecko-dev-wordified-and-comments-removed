@@ -334,7 +334,7 @@ this
 }
 }
 ;
-RefPtr
+nsRefPtr
 <
 Inner
 >

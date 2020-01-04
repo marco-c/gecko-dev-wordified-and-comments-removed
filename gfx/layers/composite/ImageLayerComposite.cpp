@@ -388,7 +388,7 @@ gfxUtils
 sDumpCompositorTextures
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -740,7 +740,13 @@ GetEffectFilter
 )
 {
 return
+gfx
+:
+:
+ToFilter
+(
 mFilter
+)
 ;
 }
 void

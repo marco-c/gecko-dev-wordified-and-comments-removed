@@ -1429,7 +1429,7 @@ CSSPixelsToAppUnits
 1
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

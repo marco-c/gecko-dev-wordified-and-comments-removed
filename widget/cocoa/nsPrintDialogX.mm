@@ -257,7 +257,7 @@ null
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPrintSettingsX
 >
@@ -804,7 +804,7 @@ aNSSettings
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPrintSettingsX
 >

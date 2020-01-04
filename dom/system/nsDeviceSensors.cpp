@@ -1261,7 +1261,7 @@ mValue
 =
 aValue
 ;
-RefPtr
+nsRefPtr
 <
 DeviceLightEvent
 >
@@ -1360,7 +1360,7 @@ mMax
 =
 aMax
 ;
-RefPtr
+nsRefPtr
 <
 DeviceProximityEvent
 >
@@ -1471,7 +1471,7 @@ mNear
 =
 aNear
 ;
-RefPtr
+nsRefPtr
 <
 UserProximityEvent
 >
@@ -1579,7 +1579,7 @@ mAbsolute
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 DeviceOrientationEvent
 >

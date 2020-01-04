@@ -234,7 +234,7 @@ DOMSVGNumberList
 *
 mAnimVal
 ;
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >

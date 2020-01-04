@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -367,7 +367,7 @@ size
 =
 200
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -394,7 +394,7 @@ SurfaceFormat
 B8G8R8X8
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -427,7 +427,7 @@ FrameTextRunCache
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -477,7 +477,7 @@ NS_LITERAL_STRING
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxFontGroup
 >

@@ -569,7 +569,7 @@ E_NOTIMPL
 \
 }
 \
-RefPtr
+nsRefPtr
 <
 IMediaSeeking
 >

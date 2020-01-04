@@ -228,7 +228,7 @@ TakePhotoByMediaEngine
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 VideoStreamTrack
 >

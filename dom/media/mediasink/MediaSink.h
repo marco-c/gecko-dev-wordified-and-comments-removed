@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -125,7 +125,7 @@ aParams
 0
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 GenericPromise
 >

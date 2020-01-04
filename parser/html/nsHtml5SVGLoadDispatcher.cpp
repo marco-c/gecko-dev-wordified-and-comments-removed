@@ -103,7 +103,7 @@ mBubbles
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >

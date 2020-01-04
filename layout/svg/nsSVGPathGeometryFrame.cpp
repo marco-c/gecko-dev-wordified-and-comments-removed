@@ -67,7 +67,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1421,7 +1421,7 @@ nsSVGPathGeometryElement
 mContent
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -1439,7 +1439,7 @@ ScreenReferenceDrawTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -1555,7 +1555,7 @@ userToOuterSVG
 *
 point
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -2331,7 +2331,7 @@ simpleBounds
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2340,7 +2340,7 @@ tmpDT
 #
 ifdef
 XP_WIN
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -2412,7 +2412,7 @@ StyleSVG
 mFillRule
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -2438,7 +2438,7 @@ return
 bbox
 ;
 }
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -2460,7 +2460,7 @@ pathInUserSpace
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -2601,7 +2601,7 @@ aToBBoxUserspace
 *
 outerSVGToUser
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -2618,7 +2618,7 @@ userToOuterSVG
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -3401,7 +3401,7 @@ GetStateBits
 NS_STATE_SVG_CLIPPATH_CHILD
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -3475,7 +3475,7 @@ nsSVGPathGeometryElement
 SimplePath
 simplePath
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -3717,7 +3717,7 @@ Multiply
 outerSVGToUser
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >

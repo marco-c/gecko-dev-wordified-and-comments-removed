@@ -356,7 +356,7 @@ mGamepads
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >

@@ -485,7 +485,7 @@ nsSVGElement
 aSVGElement
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMAnimatedEnum
 >

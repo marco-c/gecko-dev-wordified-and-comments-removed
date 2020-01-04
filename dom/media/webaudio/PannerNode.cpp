@@ -792,7 +792,7 @@ reset
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PlayingRefChangeHandler
 >
@@ -859,7 +859,7 @@ mLeftOverData
 INT_MIN
 )
 {
-RefPtr
+nsRefPtr
 <
 PlayingRefChangeHandler
 >

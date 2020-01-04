@@ -247,7 +247,7 @@ aSelection
 int16_t
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >

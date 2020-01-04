@@ -124,7 +124,7 @@ nsIPrincipal
 aInheritFrom
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNullPrincipal
 >
@@ -184,7 +184,7 @@ OriginAttributes
 aOriginAttributes
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNullPrincipal
 >

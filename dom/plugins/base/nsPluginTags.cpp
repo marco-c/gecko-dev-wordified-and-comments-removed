@@ -2704,7 +2704,7 @@ aEnabledState
 ;
 if
 (
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -3560,7 +3560,7 @@ IsEmpty
 NS_ERROR_INVALID_ARG
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFakePluginTag
 >

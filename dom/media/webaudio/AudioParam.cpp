@@ -224,7 +224,7 @@ DisconnectFromGraphAndDestroyStream
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 AudioParam
 >
@@ -253,7 +253,7 @@ Length
 -
 1
 ;
-RefPtr
+nsRefPtr
 <
 AudioNode
 >
@@ -345,7 +345,7 @@ AudioNodeEngine
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 AudioNodeStream
 >

@@ -126,7 +126,7 @@ aCx
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 ImageData
 >

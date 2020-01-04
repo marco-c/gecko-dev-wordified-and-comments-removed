@@ -3297,7 +3297,7 @@ if
 sObserver
 )
 {
-RefPtr
+nsRefPtr
 <
 CipherSuiteChangeObserver
 >
@@ -7162,7 +7162,7 @@ MOZ_ASSERT
 mNSSInitialized
 )
 ;
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -7212,7 +7212,7 @@ kNSSComponentCID
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >

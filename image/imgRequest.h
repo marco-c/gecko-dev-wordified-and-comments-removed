@@ -715,7 +715,7 @@ nsIRequest
 >
 mRequest
 ;
-RefPtr
+nsRefPtr
 <
 ImageURL
 >
@@ -778,7 +778,7 @@ mTimedChannel
 nsCString
 mContentType
 ;
-RefPtr
+nsRefPtr
 <
 imgCacheEntry
 >
@@ -830,13 +830,13 @@ mozilla
 Mutex
 mMutex
 ;
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
 mProgressTracker
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >

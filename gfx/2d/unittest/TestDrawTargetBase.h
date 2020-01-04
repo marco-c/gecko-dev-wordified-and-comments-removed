@@ -111,7 +111,7 @@ Color
 aColor
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -123,7 +123,7 @@ DrawTarget
 >
 mDT
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

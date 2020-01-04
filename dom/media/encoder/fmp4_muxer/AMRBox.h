@@ -75,7 +75,7 @@ AudioSampleEntry
 {
 public
 :
-RefPtr
+nsRefPtr
 <
 AMRSpecificBox
 >

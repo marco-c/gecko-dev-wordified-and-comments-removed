@@ -1233,7 +1233,7 @@ nsIContent
 >
 mXBLInsertionParent
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

@@ -48,7 +48,7 @@ aEncodedFrame
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 EncodedFrame
 >
@@ -67,7 +67,7 @@ private
 :
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 EncodedFrame
 >

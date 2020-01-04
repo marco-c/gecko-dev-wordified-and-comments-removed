@@ -589,7 +589,7 @@ GetIsActive
 isActive
 )
 ;
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >
@@ -682,7 +682,7 @@ GetAllowedAudioChannels
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BrowserElementAudioChannel
 >

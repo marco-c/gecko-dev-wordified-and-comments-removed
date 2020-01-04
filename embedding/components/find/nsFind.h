@@ -244,7 +244,7 @@ int32_t
 aEndOffset
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFindContentIterator
 >

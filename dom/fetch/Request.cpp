@@ -278,7 +278,7 @@ GetInternalRequest
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 InternalRequest
 >
@@ -723,7 +723,7 @@ GetLocationInfo
 mHref
 )
 ;
-RefPtr
+nsRefPtr
 <
 workers
 :
@@ -942,7 +942,7 @@ nsIInputStream
 >
 temporaryBody
 ;
-RefPtr
+nsRefPtr
 <
 InternalRequest
 >
@@ -972,7 +972,7 @@ IsRequest
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Request
 >
@@ -1565,7 +1565,7 @@ outMethod
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 InternalHeaders
 >
@@ -1578,7 +1578,7 @@ Headers
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 InternalHeaders
 >
@@ -1595,7 +1595,7 @@ WasPassed
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Headers
 >
@@ -2000,7 +2000,7 @@ temporaryBody
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Request
 >
@@ -2029,7 +2029,7 @@ IsRequest
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Request
 >
@@ -2124,7 +2124,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 InternalRequest
 >
@@ -2154,7 +2154,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Request
 >

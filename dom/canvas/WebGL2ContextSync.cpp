@@ -98,7 +98,7 @@ MakeContextCurrent
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 WebGLSync
 >

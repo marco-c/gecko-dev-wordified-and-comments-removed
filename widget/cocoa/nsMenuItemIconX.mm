@@ -1790,7 +1790,7 @@ loadGroup
 return
 NS_ERROR_FAILURE
 ;
-RefPtr
+nsRefPtr
 <
 imgLoader
 >
@@ -2426,7 +2426,7 @@ origHeight
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

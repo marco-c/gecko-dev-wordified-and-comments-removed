@@ -290,7 +290,7 @@ smsChild
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileMessageCursorChild
 >
@@ -302,7 +302,7 @@ MobileMessageCursorChild
 aRequestReply
 )
 ;
-RefPtr
+nsRefPtr
 <
 MobileMessageCursorChild
 >
@@ -461,7 +461,7 @@ SmsIPCService
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SmsIPCService
 >

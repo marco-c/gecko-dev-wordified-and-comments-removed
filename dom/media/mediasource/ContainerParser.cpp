@@ -2702,7 +2702,7 @@ return
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 MP4Stream
 >

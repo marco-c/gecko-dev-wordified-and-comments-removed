@@ -240,7 +240,7 @@ GetAllowedAudioChannels
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :

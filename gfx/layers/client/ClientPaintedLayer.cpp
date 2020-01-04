@@ -436,7 +436,7 @@ this
 target
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -837,7 +837,7 @@ LAYERS_D3D11
 endif
 )
 {
-RefPtr
+nsRefPtr
 <
 ClientTiledPaintedLayer
 >
@@ -865,7 +865,7 @@ forget
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 ClientPaintedLayer
 >

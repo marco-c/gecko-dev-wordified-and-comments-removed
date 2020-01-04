@@ -530,7 +530,7 @@ aRv
 nsCString
 mListenSocketName
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -542,7 +542,7 @@ ListenSocket
 >
 mListenSocket
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -554,7 +554,7 @@ DaemonSocket
 >
 mCmdChannel
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -574,7 +574,7 @@ mProtocol
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothResultHandler
 >

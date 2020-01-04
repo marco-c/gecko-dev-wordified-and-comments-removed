@@ -417,7 +417,7 @@ nsSHEntryShared
 aEntry
 )
 {
-RefPtr
+nsRefPtr
 <
 nsSHEntryShared
 >
@@ -611,7 +611,7 @@ DropPresentationState
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsSHEntryShared
 >

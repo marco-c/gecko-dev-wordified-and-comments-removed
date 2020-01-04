@@ -87,7 +87,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IccCardLockError
 >

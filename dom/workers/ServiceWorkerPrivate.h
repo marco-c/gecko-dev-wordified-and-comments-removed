@@ -318,7 +318,7 @@ ServiceWorkerInfo
 MOZ_NON_OWNING_REF
 mInfo
 ;
-RefPtr
+nsRefPtr
 <
 WorkerPrivate
 >
@@ -333,7 +333,7 @@ mIdleWorkerTimer
 bool
 mIsPushWorker
 ;
-RefPtr
+nsRefPtr
 <
 KeepAliveToken
 >

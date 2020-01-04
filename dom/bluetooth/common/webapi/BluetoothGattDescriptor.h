@@ -390,7 +390,7 @@ nsPIDOMWindow
 >
 mOwner
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattCharacteristic
 >
@@ -435,7 +435,7 @@ template
 class
 nsDefaultComparator
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -466,7 +466,7 @@ bool
 Equals
 (
 const
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -532,7 +532,7 @@ template
 class
 nsDefaultComparator
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -563,7 +563,7 @@ bool
 Equals
 (
 const
-RefPtr
+nsRefPtr
 <
 mozilla
 :

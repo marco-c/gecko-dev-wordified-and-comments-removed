@@ -606,7 +606,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 DNSRequestChild
 >
@@ -926,7 +926,7 @@ ReleaseIPDLReference
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ChildDNSService
 >

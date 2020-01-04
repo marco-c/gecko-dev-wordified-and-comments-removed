@@ -138,7 +138,7 @@ SpeechRecognitionAlternative
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SpeechRecognition
 >

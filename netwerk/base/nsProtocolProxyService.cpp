@@ -1057,7 +1057,7 @@ rv
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsAsyncResolveRequest
 >
@@ -5333,7 +5333,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsAsyncBridgeRequest
 >
@@ -5627,7 +5627,7 @@ result
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsAsyncResolveRequest
 >

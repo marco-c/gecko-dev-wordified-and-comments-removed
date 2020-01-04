@@ -816,7 +816,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -898,7 +898,7 @@ surface
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >

@@ -126,7 +126,7 @@ nsSVGLength2
 *
 mVal
 ;
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >

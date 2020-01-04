@@ -443,7 +443,7 @@ if
 autoHyphenate
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHyphenator
 >
@@ -1167,7 +1167,7 @@ wordHasComplexChar
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 nsHyphenator
 >

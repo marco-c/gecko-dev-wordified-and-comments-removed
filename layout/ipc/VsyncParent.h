@@ -36,7 +36,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -147,7 +147,7 @@ nsIThread
 >
 mBackgroundThread
 ;
-RefPtr
+nsRefPtr
 <
 RefreshTimerVsyncDispatcher
 >

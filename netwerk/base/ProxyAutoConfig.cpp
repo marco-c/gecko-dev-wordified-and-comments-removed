@@ -2984,7 +2984,7 @@ dns
 return
 false
 ;
-RefPtr
+nsRefPtr
 <
 PACResolver
 >

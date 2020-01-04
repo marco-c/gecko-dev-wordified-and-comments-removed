@@ -1271,7 +1271,7 @@ rv
 1
 )
 ;
-RefPtr
+nsRefPtr
 <
 UDPServerListener
 >
@@ -1369,7 +1369,7 @@ AsyncListen
 serverListener
 )
 ;
-RefPtr
+nsRefPtr
 <
 UDPClientListener
 >
@@ -1656,7 +1656,7 @@ return
 1
 ;
 }
-RefPtr
+nsRefPtr
 <
 MulticastTimerCallback
 >

@@ -205,7 +205,7 @@ nsPIDOMWindow
 aOwnerWindow
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaTrackList
 >

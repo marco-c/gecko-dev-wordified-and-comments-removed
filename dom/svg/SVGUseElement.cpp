@@ -392,7 +392,7 @@ NodeInfo
 >
 ni
 =
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1194,7 +1194,7 @@ nodeInfoManager
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

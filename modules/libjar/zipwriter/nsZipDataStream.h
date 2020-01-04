@@ -102,13 +102,13 @@ nsIOutputStream
 >
 mStream
 ;
-RefPtr
+nsRefPtr
 <
 nsZipWriter
 >
 mWriter
 ;
-RefPtr
+nsRefPtr
 <
 nsZipHeader
 >

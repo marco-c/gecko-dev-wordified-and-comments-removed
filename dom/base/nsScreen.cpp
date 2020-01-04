@@ -169,7 +169,7 @@ sgo
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsScreen
 >

@@ -1631,7 +1631,7 @@ ClearDataset
 nsSize
 GetWidthHeightForImage
 (
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >

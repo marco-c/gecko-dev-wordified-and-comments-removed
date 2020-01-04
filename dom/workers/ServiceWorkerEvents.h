@@ -202,13 +202,13 @@ nsIInterceptedChannel
 >
 mChannel
 ;
-RefPtr
+nsRefPtr
 <
 ServiceWorkerClient
 >
 mClient
 ;
-RefPtr
+nsRefPtr
 <
 Request
 >
@@ -223,7 +223,7 @@ ServiceWorkerClientInfo
 >
 mClientInfo
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -396,7 +396,7 @@ GetPromise
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -442,7 +442,7 @@ Event
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -544,7 +544,7 @@ EventInit
 aOptions
 )
 {
-RefPtr
+nsRefPtr
 <
 ExtendableEvent
 >
@@ -869,7 +869,7 @@ final
 public
 ExtendableEvent
 {
-RefPtr
+nsRefPtr
 <
 PushMessageData
 >

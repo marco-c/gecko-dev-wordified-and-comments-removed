@@ -400,7 +400,7 @@ mFramebuffer
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsScreenManagerGonk
 >
@@ -505,7 +505,7 @@ true
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsScreenGonk
 >
@@ -1441,7 +1441,7 @@ aInitData
 >
 mScreenId
 ;
-RefPtr
+nsRefPtr
 <
 nsScreenManagerGonk
 >
@@ -2820,7 +2820,7 @@ GetFormat
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2873,7 +2873,7 @@ size
 height
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

@@ -231,7 +231,7 @@ if
 resource
 )
 {
-RefPtr
+nsRefPtr
 <
 nsXULTemplateResultRDF
 >

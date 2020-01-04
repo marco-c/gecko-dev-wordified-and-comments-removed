@@ -147,7 +147,7 @@ nsIAtom
 >
 mLanguage
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -234,7 +234,7 @@ uint32_t
 aFlags
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsTransformedCharStyle
 >
@@ -270,7 +270,7 @@ uint32_t
 aFlags
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsTransformedCharStyle
 >
@@ -391,7 +391,7 @@ aCanBreakBeforeArray
 nullptr
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsTransformedCharStyle
 >
@@ -453,7 +453,7 @@ uint32_t
 aFlags
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsTransformedCharStyle
 >
@@ -573,7 +573,7 @@ mFactory
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsTransformedCharStyle
 >
@@ -623,7 +623,7 @@ uint32_t
 aFlags
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsTransformedCharStyle
 >

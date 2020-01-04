@@ -652,7 +652,7 @@ target
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsInputStreamReadyEvent
 >
@@ -705,7 +705,7 @@ target
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsOutputStreamReadyEvent
 >

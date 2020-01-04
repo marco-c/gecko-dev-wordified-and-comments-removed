@@ -1522,7 +1522,7 @@ Gamepad
 >
 mGamepads
 ;
-RefPtr
+nsRefPtr
 <
 Observer
 >

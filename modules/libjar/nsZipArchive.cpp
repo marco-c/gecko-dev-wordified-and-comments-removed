@@ -864,7 +864,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsZipHandle
 >
@@ -999,7 +999,7 @@ nsZipHandle
 ret
 )
 {
-RefPtr
+nsRefPtr
 <
 nsZipHandle
 >
@@ -1137,7 +1137,7 @@ nsZipHandle
 aRet
 )
 {
-RefPtr
+nsRefPtr
 <
 nsZipHandle
 >
@@ -1350,7 +1350,7 @@ nsIFile
 aFile
 )
 {
-RefPtr
+nsRefPtr
 <
 nsZipHandle
 >

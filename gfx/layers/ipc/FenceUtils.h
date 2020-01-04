@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -213,7 +213,7 @@ GetDupFdObj
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 FdObj
 >

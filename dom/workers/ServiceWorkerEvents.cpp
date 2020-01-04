@@ -408,7 +408,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 EventTarget
 >
@@ -428,7 +428,7 @@ MOZ_ASSERT
 owner
 )
 ;
-RefPtr
+nsRefPtr
 <
 FetchEvent
 >
@@ -567,7 +567,7 @@ nsIInterceptedChannel
 >
 mChannel
 ;
-RefPtr
+nsRefPtr
 <
 InternalResponse
 >
@@ -1146,7 +1146,7 @@ nsIInterceptedChannel
 >
 mInterceptedChannel
 ;
-RefPtr
+nsRefPtr
 <
 InternalResponse
 >
@@ -1295,7 +1295,7 @@ class
 MOZ_STACK_CLASS
 AutoCancel
 {
-RefPtr
+nsRefPtr
 <
 RespondWithHandler
 >
@@ -1442,7 +1442,7 @@ value
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 Response
 >
@@ -1655,7 +1655,7 @@ NS_ERROR_INTERCEPTED_USED_RESPONSE
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 InternalResponse
 >
@@ -1953,7 +1953,7 @@ mPromise
 aArg
 ;
 }
-RefPtr
+nsRefPtr
 <
 InternalRequest
 >
@@ -1974,7 +1974,7 @@ mWaitToRespond
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 RespondWithHandler
 >
@@ -2053,7 +2053,7 @@ MOZ_ASSERT
 worker
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIGlobalObject
 >
@@ -2077,7 +2077,7 @@ mClientInfo
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ServiceWorkerClient
 >
@@ -2247,7 +2247,7 @@ GetGlobalJSObject
 ErrorResult
 result
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -2939,7 +2939,7 @@ if
 data
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -3175,7 +3175,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 PushEvent
 >

@@ -163,7 +163,7 @@ mCurConsGL
 GLuint
 mConsTex
 ;
-RefPtr
+nsRefPtr
 <
 TextureGarbageBin
 >
@@ -323,7 +323,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -357,7 +357,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :

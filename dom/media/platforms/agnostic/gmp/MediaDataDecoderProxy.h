@@ -20,7 +20,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -88,13 +88,13 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 >
 mDecoder
 ;
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -405,7 +405,7 @@ mProxyDecoder
 aProxyDecoder
 ;
 }
-RefPtr
+nsRefPtr
 <
 InitPromise
 >
@@ -448,7 +448,7 @@ FlushComplete
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 InitPromise
 >
@@ -483,7 +483,7 @@ friend
 class
 InitTask
 ;
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 >
@@ -495,7 +495,7 @@ nsIThread
 >
 mProxyThread
 ;
-RefPtr
+nsRefPtr
 <
 AbstractThread
 >

@@ -406,7 +406,7 @@ mScheduledTask
 guint
 mTaskSource
 ;
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -424,7 +424,7 @@ mPendingDragContext
 guint
 mPendingTime
 ;
-RefPtr
+nsRefPtr
 <
 nsWindow
 >

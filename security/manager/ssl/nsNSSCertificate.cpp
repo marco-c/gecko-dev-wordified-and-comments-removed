@@ -4028,7 +4028,7 @@ Now
 ScopedCERTCertList
 nssChain
 ;
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -6046,7 +6046,7 @@ NS_ENSURE_ARG
 aValidity
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsX509CertValidity
 >
@@ -6625,7 +6625,7 @@ EnsureIdentityInfoLoaded
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

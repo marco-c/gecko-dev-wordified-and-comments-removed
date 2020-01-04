@@ -977,7 +977,7 @@ aFoundItem
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 nsXULWindow
 >

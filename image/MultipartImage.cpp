@@ -71,7 +71,7 @@ mImage
 =
 aImage
 ;
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -98,7 +98,7 @@ BlockUntilDecodedAndFinishObserving
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -189,7 +189,7 @@ mImage
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -284,7 +284,7 @@ MOZ_ASSERT
 mImage
 )
 ;
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -321,7 +321,7 @@ MultipartImage
 *
 mOwner
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -388,7 +388,7 @@ now
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -567,7 +567,7 @@ here
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -603,7 +603,7 @@ ResetForNewRequest
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -638,7 +638,7 @@ return
 ;
 }
 {
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -749,7 +749,7 @@ MOZ_ASSERT
 mTracker
 )
 ;
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -813,7 +813,7 @@ uint32_t
 aCount
 )
 {
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -878,7 +878,7 @@ bool
 aLastPart
 )
 {
-RefPtr
+nsRefPtr
 <
 Image
 >

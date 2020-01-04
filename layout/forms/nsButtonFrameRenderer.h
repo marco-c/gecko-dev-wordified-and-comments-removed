@@ -267,13 +267,13 @@ protected
 :
 private
 :
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
 mInnerFocusStyle
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

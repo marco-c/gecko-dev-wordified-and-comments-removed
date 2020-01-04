@@ -556,7 +556,7 @@ return
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 IDBFileHandle
 >
@@ -685,7 +685,7 @@ return
 }
 for
 (
-RefPtr
+nsRefPtr
 <
 IDBFileHandle
 >
@@ -793,7 +793,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDBFileHandle
 >
@@ -889,7 +889,7 @@ ErrorResult
 aError
 )
 {
-RefPtr
+nsRefPtr
 <
 IDBFileHandle
 >
@@ -923,7 +923,7 @@ nullptr
 FileRequestGetFileParams
 params
 ;
-RefPtr
+nsRefPtr
 <
 IDBFileRequest
 >
@@ -1118,7 +1118,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -1138,7 +1138,7 @@ aFileHandle
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 File
 >

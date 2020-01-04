@@ -163,7 +163,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -172,7 +172,7 @@ mPromise
 nsString
 mDirRealPath
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >

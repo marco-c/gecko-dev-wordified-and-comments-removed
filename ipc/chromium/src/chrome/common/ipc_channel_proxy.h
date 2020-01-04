@@ -466,7 +466,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 MessageFilter
 >
@@ -529,7 +529,7 @@ bool
 create_pipe_now
 )
 ;
-RefPtr
+nsRefPtr
 <
 Context
 >

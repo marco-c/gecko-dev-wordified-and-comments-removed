@@ -398,7 +398,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MozMtpDatabase
 >
@@ -474,7 +474,7 @@ IsHotSwappable
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 RefCountedMtpServer
 >
@@ -573,7 +573,7 @@ MtpServer
 mStorageID
 )
 ;
-RefPtr
+nsRefPtr
 <
 RefCountedMtpServer
 >
@@ -612,7 +612,7 @@ MozMtpDatabse
 mStorageID
 )
 ;
-RefPtr
+nsRefPtr
 <
 MozMtpDatabase
 >

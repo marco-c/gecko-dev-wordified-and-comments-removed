@@ -744,7 +744,7 @@ BeginUpdate
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -760,7 +760,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1198,10 +1198,10 @@ aContentType
 )
 mFilter
 (
-Filter
+GraphicsFilter
 :
 :
-GOOD
+FILTER_GOOD
 )
 mFlags
 (
@@ -2045,7 +2045,7 @@ xPos
 yPos
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2229,7 +2229,7 @@ GetTextureFormat
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2245,7 +2245,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

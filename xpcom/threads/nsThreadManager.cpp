@@ -144,7 +144,7 @@ NS_IsMainThread
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsThread
 >
@@ -448,7 +448,7 @@ Next
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsThread
 >
@@ -749,7 +749,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsThread
 >
@@ -823,7 +823,7 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsThread
 >
@@ -944,7 +944,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsThread
 >

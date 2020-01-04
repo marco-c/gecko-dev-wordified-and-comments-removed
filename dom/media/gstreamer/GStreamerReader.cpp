@@ -964,7 +964,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 ShutdownPromise
 >
@@ -3817,7 +3817,7 @@ false
 }
 #
 endif
-RefPtr
+nsRefPtr
 <
 PlanarYCbCrImage
 >
@@ -3867,7 +3867,7 @@ Tell
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 VideoData
 >
@@ -3924,7 +3924,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :
@@ -6296,7 +6296,7 @@ interval
 intervals
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
@@ -7187,7 +7187,7 @@ aFrame
 1
 ;
 }
-RefPtr
+nsRefPtr
 <
 PlanarYCbCrImage
 >
@@ -7201,7 +7201,7 @@ GstBuffer
 aBuffer
 )
 {
-RefPtr
+nsRefPtr
 <
 PlanarYCbCrImage
 >
@@ -7308,7 +7308,7 @@ GstBuffer
 *
 *
 aOutBuffer
-RefPtr
+nsRefPtr
 <
 PlanarYCbCrImage
 >

@@ -873,7 +873,7 @@ kungFuDeathGrip
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5StreamParser
 >
@@ -884,7 +884,7 @@ GetStreamParser
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -1212,13 +1212,13 @@ mInDocumentWrite
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
 prevSearchBuf
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -1597,7 +1597,7 @@ NS_OK
 }
 }
 }
-RefPtr
+nsRefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -2089,7 +2089,7 @@ kungFuDeathGrip
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5StreamParser
 >
@@ -2100,7 +2100,7 @@ GetStreamParser
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5TreeOpExecutor
 >

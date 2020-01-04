@@ -611,7 +611,7 @@ uint64_t
 aMinSizeToBeFreed
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -1077,7 +1077,7 @@ uint64_t
 aMinSizeToBeFreed
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -1175,7 +1175,7 @@ FinalizeOriginEviction
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -1315,7 +1315,7 @@ mGroupInfoPairs
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DirectoryLockImpl
 >
@@ -1355,7 +1355,7 @@ mInitializedOrigins
 ;
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 Client
 >

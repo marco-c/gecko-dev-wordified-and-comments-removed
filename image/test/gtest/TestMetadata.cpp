@@ -109,7 +109,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -271,7 +271,7 @@ rv
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceBuffer
 >
@@ -330,7 +330,7 @@ aTestCase
 mMimeType
 )
 ;
-RefPtr
+nsRefPtr
 <
 Decoder
 >
@@ -974,7 +974,7 @@ NoFrameDelayGIFTestCase
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -1097,7 +1097,7 @@ rv
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -1118,7 +1118,7 @@ SyncNotifyProgress
 FLAG_LOAD_COMPLETE
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

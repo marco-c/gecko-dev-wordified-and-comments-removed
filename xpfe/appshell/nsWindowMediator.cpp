@@ -877,7 +877,7 @@ NS_ENSURE_STATE
 mReady
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsAppShellWindowEnumerator
 >
@@ -935,7 +935,7 @@ NS_ENSURE_STATE
 mReady
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsAppShellWindowEnumerator
 >
@@ -995,7 +995,7 @@ NS_ENSURE_STATE
 mReady
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsAppShellWindowEnumerator
 >
@@ -1072,7 +1072,7 @@ NS_ENSURE_STATE
 mReady
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsAppShellWindowEnumerator
 >

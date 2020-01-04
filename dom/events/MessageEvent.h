@@ -287,13 +287,13 @@ nsIDOMWindow
 >
 mWindowSource
 ;
-RefPtr
+nsRefPtr
 <
 MessagePort
 >
 mPortSource
 ;
-RefPtr
+nsRefPtr
 <
 workers
 :
@@ -302,7 +302,7 @@ ServiceWorkerClient
 >
 mClientSource
 ;
-RefPtr
+nsRefPtr
 <
 MessagePortList
 >

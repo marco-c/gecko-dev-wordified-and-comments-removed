@@ -2188,7 +2188,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsMappedAttributes
 >
@@ -2829,7 +2829,7 @@ aLocalName
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsMappedAttributes
 >
@@ -2908,7 +2908,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsMappedAttributes
 >
@@ -3512,7 +3512,7 @@ GetStyleSheet
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsMappedAttributes
 >
@@ -3535,7 +3535,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsMappedAttributes
 >

@@ -409,7 +409,7 @@ SurfaceFormat
 B8G8R8A8
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -450,7 +450,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -525,10 +525,10 @@ Create
 size
 )
 surfaceFormat
-Filter
+GraphicsFilter
 :
 :
-LINEAR
+FILTER_FAST
 )
 ;
 return
@@ -1134,7 +1134,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 const
 Maybe
@@ -1282,7 +1282,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aFlags

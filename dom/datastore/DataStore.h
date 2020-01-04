@@ -323,7 +323,7 @@ DataStore
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataStoreImpl
 >

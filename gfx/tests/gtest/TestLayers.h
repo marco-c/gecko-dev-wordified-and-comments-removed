@@ -47,7 +47,7 @@ gfx
 Matrix4x4
 *
 aTransforms
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -61,7 +61,7 @@ LayerManager
 aLayerManager
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :

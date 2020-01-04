@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -69,7 +69,7 @@ premultAlpha
 bool
 preserve
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :

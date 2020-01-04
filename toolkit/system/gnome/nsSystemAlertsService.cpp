@@ -127,7 +127,7 @@ bool
 aInPrivateBrowsing
 )
 {
-RefPtr
+nsRefPtr
 <
 nsAlertsIconListener
 >

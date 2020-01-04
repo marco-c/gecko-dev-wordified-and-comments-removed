@@ -868,7 +868,7 @@ aData
 nsDataHashtable
 <
 nsUint64HashKey
-RefPtr
+nsRefPtr
 <
 ParticularProcessPriorityManager
 >
@@ -1911,7 +1911,7 @@ nullptr
 }
 #
 endif
-RefPtr
+nsRefPtr
 <
 ParticularProcessPriorityManager
 >
@@ -2012,7 +2012,7 @@ MOZ_ASSERT
 aContentParent
 )
 ;
-RefPtr
+nsRefPtr
 <
 ParticularProcessPriorityManager
 >
@@ -2061,7 +2061,7 @@ do_QueryInterface
 aContentParent
 )
 ;
-RefPtr
+nsRefPtr
 <
 ParticularProcessPriorityManager
 >
@@ -2133,7 +2133,7 @@ childID
 CONTENT_PROCESS_ID_UNKNOWN
 )
 ;
-RefPtr
+nsRefPtr
 <
 ParticularProcessPriorityManager
 >
@@ -2198,7 +2198,7 @@ const
 uint64_t
 &
 aKey
-RefPtr
+nsRefPtr
 <
 ParticularProcessPriorityManager
 >
@@ -2227,7 +2227,7 @@ const
 uint64_t
 &
 aKey
-RefPtr
+nsRefPtr
 <
 ParticularProcessPriorityManager
 >
@@ -4422,7 +4422,7 @@ return
 PROCESS_PRIORITY_BACKGROUND_PERCEIVABLE
 ;
 }
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >

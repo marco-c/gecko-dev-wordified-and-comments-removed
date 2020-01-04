@@ -780,7 +780,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -978,7 +978,7 @@ isurf
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 gfxImageSurface
 >

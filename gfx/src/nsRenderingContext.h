@@ -32,7 +32,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -158,7 +158,7 @@ GetDrawTarget
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 gfxContext
 >

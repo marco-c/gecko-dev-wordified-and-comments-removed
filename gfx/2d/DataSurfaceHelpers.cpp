@@ -1555,7 +1555,7 @@ DataSourceSurface
 aSource
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

@@ -631,7 +631,7 @@ ret
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 HTMLOptionElement
 >

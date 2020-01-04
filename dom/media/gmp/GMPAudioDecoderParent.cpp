@@ -682,7 +682,7 @@ mCallback
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 GMPAudioDecoderParent
 >

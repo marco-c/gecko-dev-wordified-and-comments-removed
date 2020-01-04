@@ -147,7 +147,7 @@ UpdateAndGetShowingCues
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TextTrackCue
 >
@@ -158,7 +158,7 @@ aCues
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TextTrackCue
 >
@@ -379,7 +379,7 @@ CompareTextTracks
 aCompareTT
 )
 {
-RefPtr
+nsRefPtr
 <
 TextTrack
 >
@@ -649,13 +649,13 @@ mEvent
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 TextTrackList
 >
 mList
 ;
-RefPtr
+nsRefPtr
 <
 nsIDOMEvent
 >
@@ -689,7 +689,7 @@ CreateAndDispatchChangeEvent
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -831,7 +831,7 @@ SetAsTextTrack
 =
 aTrack
 ;
-RefPtr
+nsRefPtr
 <
 TrackEvent
 >

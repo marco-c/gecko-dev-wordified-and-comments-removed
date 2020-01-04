@@ -718,7 +718,7 @@ nsIURI
 >
 mURI
 ;
-RefPtr
+nsRefPtr
 <
 URLSearchParams
 >

@@ -1845,7 +1845,7 @@ jsString
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MessageEvent
 >
@@ -2069,7 +2069,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 Event
 >
@@ -2312,7 +2312,7 @@ nsIDOMDataChannel
 aDomDataChannel
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDOMDataChannel
 >

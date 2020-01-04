@@ -2481,7 +2481,7 @@ bool
 aSuppressTxn
 )
 {
-RefPtr
+nsRefPtr
 <
 ChangeStyleTxn
 >
@@ -2585,7 +2585,7 @@ bool
 aSuppressTxn
 )
 {
-RefPtr
+nsRefPtr
 <
 ChangeStyleTxn
 >
@@ -2652,7 +2652,7 @@ EChangeType
 aChangeType
 )
 {
-RefPtr
+nsRefPtr
 <
 ChangeStyleTxn
 >
@@ -2794,7 +2794,7 @@ aStyleType
 eComputed
 )
 {
-RefPtr
+nsRefPtr
 <
 nsComputedDOMStyle
 >
@@ -2840,7 +2840,7 @@ aStyleType
 eSpecified
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -2966,7 +2966,7 @@ presShell
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsComputedDOMStyle
 >

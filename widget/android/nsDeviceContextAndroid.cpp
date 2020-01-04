@@ -175,7 +175,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >

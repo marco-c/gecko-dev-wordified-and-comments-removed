@@ -497,7 +497,7 @@ OfflineCacheUpdateGlue
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsOfflineCacheUpdate
 >

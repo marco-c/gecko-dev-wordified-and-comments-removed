@@ -568,7 +568,7 @@ aEnd
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -667,7 +667,7 @@ aEnd
 1
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >

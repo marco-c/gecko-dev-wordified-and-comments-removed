@@ -234,7 +234,7 @@ mDataObjects
 SafeElementAt
 (
 aItem
-RefPtr
+nsRefPtr
 <
 nsDataObj
 >
@@ -294,7 +294,7 @@ m_cRef
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsDataObj
 >

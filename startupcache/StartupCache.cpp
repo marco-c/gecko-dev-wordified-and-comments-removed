@@ -1461,7 +1461,7 @@ rv
 return
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsZipArchive
 >

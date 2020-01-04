@@ -312,7 +312,7 @@ FileList
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >

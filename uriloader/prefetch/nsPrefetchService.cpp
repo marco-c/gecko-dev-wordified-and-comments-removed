@@ -318,13 +318,13 @@ Increment
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPrefetchService
 >
 mService
 ;
-RefPtr
+nsRefPtr
 <
 nsPrefetchNode
 >
@@ -1590,7 +1590,7 @@ get
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPrefetchNode
 >
@@ -1972,7 +1972,7 @@ EmptyQueue
 {
 do
 {
-RefPtr
+nsRefPtr
 <
 nsPrefetchNode
 >
@@ -2565,7 +2565,7 @@ NS_ERROR_ABORT
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsPrefetchNode
 >

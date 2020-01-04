@@ -276,7 +276,7 @@ IsInnerWindow
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SpeechSynthesisUtterance
 >
@@ -555,7 +555,7 @@ mName
 =
 aName
 ;
-RefPtr
+nsRefPtr
 <
 SpeechSynthesisEvent
 >

@@ -335,7 +335,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -398,7 +398,7 @@ MOZ_ASSERT
 global
 )
 ;
-RefPtr
+nsRefPtr
 <
 Blob
 >

@@ -587,7 +587,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSICONTENTPERMISSIONREQUEST
 MediaPermissionRequest
 (
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -645,7 +645,7 @@ mAudio
 bool
 mVideo
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -690,7 +690,7 @@ MediaPermissionRequest
 :
 MediaPermissionRequest
 (
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1647,7 +1647,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIGETUSERMEDIADEVICESSUCCESSCALLBACK
 MediaDeviceSuccessCallback
 (
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1678,7 +1678,7 @@ private
 nsresult
 DoPrompt
 (
-RefPtr
+nsRefPtr
 <
 MediaPermissionRequest
 >
@@ -1686,7 +1686,7 @@ MediaPermissionRequest
 req
 )
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1848,7 +1848,7 @@ free
 rawArray
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaPermissionRequest
 >
@@ -1884,7 +1884,7 @@ MediaDeviceSuccessCallback
 :
 DoPrompt
 (
-RefPtr
+nsRefPtr
 <
 MediaPermissionRequest
 >
@@ -1977,7 +1977,7 @@ nsISupports
 aError
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaStreamError
 >
@@ -2214,7 +2214,7 @@ request
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -2320,7 +2320,7 @@ MediaPermissionManager
 :
 HandleRequest
 (
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -2426,7 +2426,7 @@ GetConstraints
 constraints
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaManager
 >

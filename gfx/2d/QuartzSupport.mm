@@ -2636,7 +2636,7 @@ Destroy
 (
 )
 .
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >

@@ -1028,7 +1028,7 @@ mDeferConfigUpdate
 GonkCameraParameters
 mParams
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1043,7 +1043,7 @@ mImageContainer
 #
 ifdef
 MOZ_WIDGET_GONK
-RefPtr
+nsRefPtr
 <
 android
 :
@@ -1064,7 +1064,7 @@ RecorderProfile
 >
 mRecorderProfiles
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >

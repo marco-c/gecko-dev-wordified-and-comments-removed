@@ -136,7 +136,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 TestInterfaceSetlikeNode
 >

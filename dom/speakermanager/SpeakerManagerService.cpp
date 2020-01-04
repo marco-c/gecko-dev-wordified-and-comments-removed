@@ -167,7 +167,7 @@ return
 gSpeakerManagerService
 ;
 }
-RefPtr
+nsRefPtr
 <
 SpeakerManagerService
 >
@@ -830,7 +830,7 @@ shutdown
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >
@@ -995,7 +995,7 @@ false
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >

@@ -3369,7 +3369,7 @@ BringToFront
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -4360,7 +4360,7 @@ obs
 )
 break
 ;
-RefPtr
+nsRefPtr
 <
 ContentCreationNotifier
 >
@@ -5005,7 +5005,7 @@ AndroidGeckoEvent
 ae
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -5056,7 +5056,7 @@ AndroidGeckoEvent
 ae
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -5221,7 +5221,7 @@ AndroidGeckoEvent
 ae
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -5370,7 +5370,7 @@ AndroidGeckoEvent
 ae
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -5810,7 +5810,7 @@ default
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -7456,7 +7456,7 @@ AndroidGeckoEvent
 ae
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -7703,7 +7703,7 @@ AndroidGeckoEvent
 ae
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -8110,7 +8110,7 @@ mOldMask
 }
 }
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -8166,7 +8166,7 @@ GetIMEComposition
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -8276,7 +8276,7 @@ MOZ_ASSERT
 mIMEMaskSelectionUpdate
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -9817,7 +9817,7 @@ GetIMEComposition
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -10412,7 +10412,7 @@ imeRoot
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -11983,7 +11983,7 @@ CreateRootContentController
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 GeckoContentController
 >

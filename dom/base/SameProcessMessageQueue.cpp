@@ -103,7 +103,7 @@ Flush
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Runnable
 >

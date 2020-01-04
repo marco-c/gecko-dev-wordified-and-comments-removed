@@ -375,7 +375,7 @@ nsIEditor
 eNext
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -859,7 +859,7 @@ nsIEditor
 eNext
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -2023,7 +2023,7 @@ mIsMoving
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -2598,7 +2598,7 @@ element
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHTMLEditRules
 >
@@ -2989,7 +2989,7 @@ transparent
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsComputedDOMStyle
 >
@@ -3011,7 +3011,7 @@ cssDecl
 ErrorResult
 error
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :

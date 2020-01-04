@@ -237,7 +237,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -353,7 +353,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 USSDSession
 >
@@ -393,7 +393,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -478,7 +478,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 Promise
 >

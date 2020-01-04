@@ -3032,7 +3032,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -3952,7 +3952,7 @@ dataTransfer
 false
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMStringList
 >
@@ -4151,7 +4151,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -4281,7 +4281,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >

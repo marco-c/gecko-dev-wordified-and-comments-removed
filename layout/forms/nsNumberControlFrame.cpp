@@ -1466,7 +1466,7 @@ GetComposedDoc
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -1502,7 +1502,7 @@ elements
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1851,7 +1851,7 @@ NS_EVENT_STATE_FOCUS
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 FocusTextField
 >

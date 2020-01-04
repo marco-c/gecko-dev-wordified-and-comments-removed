@@ -4537,7 +4537,7 @@ StyleContext
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

@@ -2121,7 +2121,7 @@ mCallback
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 GMPDecryptorParent
 >

@@ -112,7 +112,7 @@ TrackRate
 aTrackRate
 )
 ;
-RefPtr
+nsRefPtr
 <
 SpeechRecognition
 >

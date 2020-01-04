@@ -59,7 +59,7 @@ fGenSamplers
 sampler
 )
 ;
-RefPtr
+nsRefPtr
 <
 WebGLSampler
 >

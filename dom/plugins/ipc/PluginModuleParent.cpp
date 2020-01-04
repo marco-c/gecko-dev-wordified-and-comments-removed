@@ -693,7 +693,7 @@ ClearInstantiationFlag
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -706,7 +706,7 @@ GetInst
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNPAPIPlugin
 >
@@ -1579,7 +1579,7 @@ XRE_IsParentProcess
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -1620,7 +1620,7 @@ mPlugin
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsNPAPIPlugin
 >
@@ -5494,7 +5494,7 @@ ShouldContinueFromReplyTimeout
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ProcessHangMonitor
 >
@@ -6217,7 +6217,7 @@ GetPluginDetails
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -10488,7 +10488,7 @@ PluginModuleParent
 RemovePendingSurrogate
 (
 const
-RefPtr
+nsRefPtr
 <
 PluginAsyncSurrogate
 >
@@ -11100,7 +11100,7 @@ if
 mNPInitialized
 )
 {
-RefPtr
+nsRefPtr
 <
 PluginAsyncSurrogate
 >
@@ -11427,7 +11427,7 @@ srcAttribute
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 PluginAsyncSurrogate
 >
@@ -12791,7 +12791,7 @@ RecvNotifyContentModuleDestroyed
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -13717,7 +13717,7 @@ gather
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ProfileGatherer
 >

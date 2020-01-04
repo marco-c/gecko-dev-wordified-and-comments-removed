@@ -436,7 +436,7 @@ if
 bAdjustSelection
 )
 {
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -605,7 +605,7 @@ aEndOffset
 aStartOffset
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsGenericDOMDataNode
 >
@@ -620,7 +620,7 @@ nsGenericDOMDataNode
 aNode
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeleteTextTxn
 >
@@ -703,7 +703,7 @@ aEndOffset
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 DeleteNodeTxn
 >
@@ -839,7 +839,7 @@ if
 numToDelete
 )
 {
-RefPtr
+nsRefPtr
 <
 nsGenericDOMDataNode
 >
@@ -854,7 +854,7 @@ nsGenericDOMDataNode
 aNode
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeleteTextTxn
 >
@@ -964,7 +964,7 @@ node
 NS_ERROR_NULL_POINTER
 )
 ;
-RefPtr
+nsRefPtr
 <
 DeleteNodeTxn
 >

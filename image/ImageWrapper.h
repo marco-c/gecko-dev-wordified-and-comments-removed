@@ -258,7 +258,7 @@ aInnerImage
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 Image
 >

@@ -453,13 +453,13 @@ PendingOperations
 OperationType
 mType
 ;
-RefPtr
+nsRefPtr
 <
 DOMStorageCacheBridge
 >
 mCache
 ;
-RefPtr
+nsRefPtr
 <
 DOMStorageUsageBridge
 >
@@ -966,7 +966,7 @@ PRThread
 *
 mThread
 ;
-RefPtr
+nsRefPtr
 <
 ThreadObserver
 >

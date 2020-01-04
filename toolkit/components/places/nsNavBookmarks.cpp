@@ -213,7 +213,7 @@ Init
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Database
 >
@@ -582,7 +582,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsNavBookmarks
 >
@@ -8020,7 +8020,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNavHistoryResultNode
 >
@@ -12842,7 +12842,7 @@ transitionType
 =
 aTransitionType
 ;
-RefPtr
+nsRefPtr
 <
 AsyncGetBookmarksForURI
 <
@@ -13279,7 +13279,7 @@ changeData
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 AsyncGetBookmarksForURI
 <
@@ -13402,7 +13402,7 @@ type
 =
 TYPE_BOOKMARK
 ;
-RefPtr
+nsRefPtr
 <
 AsyncGetBookmarksForURI
 <

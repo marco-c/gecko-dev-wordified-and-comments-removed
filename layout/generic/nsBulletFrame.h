@@ -493,13 +493,13 @@ mozilla
 LogicalMargin
 mPadding
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
 mImageRequest
 ;
-RefPtr
+nsRefPtr
 <
 nsBulletListener
 >

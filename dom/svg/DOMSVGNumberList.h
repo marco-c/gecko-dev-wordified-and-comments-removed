@@ -543,7 +543,7 @@ DOMSVGNumber
 >
 mItems
 ;
-RefPtr
+nsRefPtr
 <
 DOMSVGAnimatedNumberList
 >

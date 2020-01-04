@@ -233,7 +233,7 @@ Expr
 >
 mNamespace
 ;
-RefPtr
+nsRefPtr
 <
 txNamespaceMap
 >
@@ -1039,7 +1039,7 @@ Expr
 >
 mNamespace
 ;
-RefPtr
+nsRefPtr
 <
 txNamespaceMap
 >

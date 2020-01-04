@@ -1094,7 +1094,7 @@ nsITimer
 timer
 )
 {
-RefPtr
+nsRefPtr
 <
 Tickler
 >

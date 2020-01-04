@@ -353,7 +353,7 @@ Release
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <
@@ -892,7 +892,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMStorageCache
 >
@@ -947,7 +947,7 @@ NS_IsMainThread
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <
@@ -1002,7 +1002,7 @@ timer
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMStorageCacheHolder
 >
@@ -2776,7 +2776,7 @@ NS_IsMainThread
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 LoadUsageRunnable
 >
@@ -2944,7 +2944,7 @@ forget
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 DOMStorageDBChild
 >

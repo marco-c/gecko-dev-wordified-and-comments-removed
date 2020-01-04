@@ -797,7 +797,7 @@ aContent
 nsStyleContext
 *
 aOldStyleContext
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -979,7 +979,7 @@ StopAnimationsWithoutFrame
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsIContent
 >
@@ -1006,7 +1006,7 @@ mRestorePointer
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsIContent
 >
@@ -1015,7 +1015,7 @@ mContents
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsIContent
 >
@@ -1024,7 +1024,7 @@ mBeforeContents
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsIContent
 >
@@ -1609,7 +1609,7 @@ Element
 struct
 ContextToClear
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1661,7 +1661,7 @@ ContextToClear
 aContextsToClear
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1753,7 +1753,7 @@ ContextToClear
 aContextsToClear
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1829,7 +1829,7 @@ ContextToClear
 aContextsToClear
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1874,13 +1874,13 @@ eRestyleResult_ContinueAndForceDescendants
 struct
 SwapInstruction
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
 mOldContext
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -2380,7 +2380,7 @@ mContextsToClear
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

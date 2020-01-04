@@ -179,7 +179,7 @@ nsISpeechTask
 >
 mTask
 ;
-RefPtr
+nsRefPtr
 <
 ISpVoice
 >
@@ -576,7 +576,7 @@ LPARAM
 aLParam
 )
 {
-RefPtr
+nsRefPtr
 <
 SapiService
 >
@@ -634,7 +634,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 SapiCallback
 >
@@ -920,7 +920,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 ISpObjectTokenCategory
 >
@@ -967,7 +967,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 IEnumSpObjectTokens
 >
@@ -1001,7 +1001,7 @@ while
 true
 )
 {
-RefPtr
+nsRefPtr
 <
 ISpObjectToken
 >
@@ -1029,7 +1029,7 @@ S_OK
 break
 ;
 }
-RefPtr
+nsRefPtr
 <
 ISpDataKey
 >
@@ -1262,7 +1262,7 @@ mInitialized
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-RefPtr
+nsRefPtr
 <
 ISpObjectToken
 >
@@ -1431,7 +1431,7 @@ pitch
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 SapiCallback
 >
@@ -1609,7 +1609,7 @@ if
 sSingleton
 )
 {
-RefPtr
+nsRefPtr
 <
 SapiService
 >
@@ -1651,7 +1651,7 @@ GetInstanceForService
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 SapiService
 >

@@ -264,7 +264,7 @@ MediaStreamTrack
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >

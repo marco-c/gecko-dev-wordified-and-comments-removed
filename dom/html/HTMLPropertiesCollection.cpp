@@ -560,7 +560,7 @@ if
 propertyList
 )
 {
-RefPtr
+nsRefPtr
 <
 PropertyNodeList
 >

@@ -376,7 +376,7 @@ bool
 aActive
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -747,7 +747,7 @@ CreateServiceIfNeeded
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >
@@ -1199,7 +1199,7 @@ Length
 1
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaPlaybackRunnable
 >
@@ -1430,7 +1430,7 @@ IsEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaPlaybackRunnable
 >

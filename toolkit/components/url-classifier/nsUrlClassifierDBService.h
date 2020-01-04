@@ -323,13 +323,13 @@ nsCString
 tables
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsUrlClassifierDBServiceWorker
 >
 mWorker
 ;
-RefPtr
+nsRefPtr
 <
 UrlClassifierDBServiceWorkerProxy
 >

@@ -3459,7 +3459,7 @@ txStylesheetCompiler
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 txStylesheetCompiler
 >
@@ -3638,7 +3638,7 @@ txStylesheetCompiler
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 txStylesheetCompiler
 >
@@ -4836,7 +4836,7 @@ int32_t
 aNameSpaceID
 )
 {
-RefPtr
+nsRefPtr
 <
 txStylesheetCompiler
 >

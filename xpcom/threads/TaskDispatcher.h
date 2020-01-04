@@ -538,7 +538,7 @@ PerThreadTaskGroup
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 AbstractThread
 >
@@ -851,7 +851,7 @@ PerThreadTaskGroup
 aGroup
 )
 {
-RefPtr
+nsRefPtr
 <
 AbstractThread
 >

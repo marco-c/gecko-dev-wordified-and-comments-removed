@@ -34,7 +34,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -130,7 +130,7 @@ AudioChannel
 aChannel
 )
 ;
-RefPtr
+nsRefPtr
 <
 GenericPromise
 >
@@ -385,7 +385,7 @@ nsIThread
 >
 mThread
 ;
-RefPtr
+nsRefPtr
 <
 AudioStream
 >

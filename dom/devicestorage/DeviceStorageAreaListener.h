@@ -100,7 +100,7 @@ StateMapType
 StateMapType
 mStorageAreaStateMap
 ;
-RefPtr
+nsRefPtr
 <
 VolumeStateObserver
 >

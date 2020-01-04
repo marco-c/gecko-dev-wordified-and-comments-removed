@@ -1065,7 +1065,7 @@ rv
 false
 )
 ;
-RefPtr
+nsRefPtr
 <
 GetVolumeTask
 >
@@ -1250,7 +1250,7 @@ BluetoothHandsfreeInterface
 *
 mInterface
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1307,7 +1307,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 CleanupInitResultHandler
 >
@@ -1371,7 +1371,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1413,7 +1413,7 @@ btInf
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -1473,7 +1473,7 @@ interface
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -1513,7 +1513,7 @@ runnable
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 CleanupInitResultHandler
 >
@@ -1542,7 +1542,7 @@ res
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -1779,7 +1779,7 @@ Deinit
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1836,7 +1836,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1879,7 +1879,7 @@ if
 aRes
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >

@@ -932,7 +932,7 @@ NS_STYLE_FILTER_URL
 )
 continue
 ;
-RefPtr
+nsRefPtr
 <
 nsSVGFilterReference
 >

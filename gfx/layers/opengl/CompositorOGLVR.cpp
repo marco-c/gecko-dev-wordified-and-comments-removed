@@ -124,6 +124,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 gfxCrashReporterUtils
 .
 h
@@ -132,6 +139,13 @@ h
 include
 "
 gfxMatrix
+.
+h
+"
+#
+include
+"
+GraphicsFilter
 .
 h
 "
@@ -1836,7 +1850,7 @@ textureTarget
 =
 mFBOTextureTarget
 ;
-RefPtr
+nsRefPtr
 <
 CompositingRenderTargetOGL
 >

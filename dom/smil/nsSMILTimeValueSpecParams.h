@@ -63,13 +63,13 @@ mType
 nsSMILTimeValue
 mOffset
 ;
-RefPtr
+nsRefPtr
 <
 nsIAtom
 >
 mDependentElemID
 ;
-RefPtr
+nsRefPtr
 <
 nsIAtom
 >

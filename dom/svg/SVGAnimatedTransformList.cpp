@@ -136,7 +136,7 @@ GetBaseValue
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMSVGTransformList
 >
@@ -185,7 +185,7 @@ GetAnimValue
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMSVGTransformList
 >
@@ -218,7 +218,7 @@ nsSVGElement
 aElement
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGAnimatedTransformList
 >
@@ -312,7 +312,7 @@ uint32_t
 aNewLength
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGAnimatedTransformList
 >

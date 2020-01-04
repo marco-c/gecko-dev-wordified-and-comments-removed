@@ -76,7 +76,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -267,7 +267,7 @@ PR_USEC_PER_MSEC
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DtlsIdentity
 >
@@ -391,7 +391,7 @@ aLockProof
 )
 const
 ;
-RefPtr
+nsRefPtr
 <
 nsIGlobalObject
 >

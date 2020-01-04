@@ -512,7 +512,7 @@ nsISVGPoint
 >
 mItems
 ;
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >

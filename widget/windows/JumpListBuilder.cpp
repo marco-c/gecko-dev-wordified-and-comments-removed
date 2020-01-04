@@ -1093,7 +1093,7 @@ items
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 IObjectCollection
 >
@@ -1178,7 +1178,7 @@ item
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 IShellLinkW
 >
@@ -1215,7 +1215,7 @@ link
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 IShellLinkW
 >
@@ -1252,7 +1252,7 @@ link
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 IObjectArray
 >
@@ -1398,7 +1398,7 @@ NS_ERROR_INVALID_ARG
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 IObjectCollection
 >
@@ -1506,7 +1506,7 @@ nsIJumpListItem
 JUMPLIST_ITEM_SEPARATOR
 :
 {
-RefPtr
+nsRefPtr
 <
 IShellLinkW
 >
@@ -1550,7 +1550,7 @@ nsIJumpListItem
 JUMPLIST_ITEM_LINK
 :
 {
-RefPtr
+nsRefPtr
 <
 IShellItem2
 >
@@ -1595,7 +1595,7 @@ nsIJumpListItem
 JUMPLIST_ITEM_SHORTCUT
 :
 {
-RefPtr
+nsRefPtr
 <
 IShellLinkW
 >
@@ -1636,7 +1636,7 @@ break
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 IObjectArray
 >

@@ -90,7 +90,7 @@ BoxQuadOptions
 aOptions
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 dom
 :

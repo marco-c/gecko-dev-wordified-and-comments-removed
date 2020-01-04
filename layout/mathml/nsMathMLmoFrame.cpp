@@ -1392,7 +1392,7 @@ rspace
 nscoord
 em
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -2419,7 +2419,7 @@ FontSizeInflationFor
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

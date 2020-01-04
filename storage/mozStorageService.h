@@ -226,7 +226,7 @@ getConnections
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Connection
 >
@@ -259,7 +259,7 @@ mRegistrationMutex
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Connection
 >

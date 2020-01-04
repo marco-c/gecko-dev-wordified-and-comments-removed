@@ -497,7 +497,7 @@ nsWebBrowserPersist
 :
 URIFixupData
 {
-RefPtr
+nsRefPtr
 <
 FlatURIMap
 >
@@ -701,7 +701,7 @@ NS_DECL_NSIWEBBROWSERPERSISTRESOURCEVISITOR
 NS_DECL_ISUPPORTS
 private
 :
-RefPtr
+nsRefPtr
 <
 nsWebBrowserPersist
 >
@@ -779,7 +779,7 @@ NS_DECL_NSIWEBBROWSERPERSISTWRITECOMPLETION
 NS_DECL_ISUPPORTS
 private
 :
-RefPtr
+nsRefPtr
 <
 nsWebBrowserPersist
 >
@@ -2492,7 +2492,7 @@ return
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 FlatURIMap
 >
@@ -2687,7 +2687,7 @@ rv
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 OnWrite
 >

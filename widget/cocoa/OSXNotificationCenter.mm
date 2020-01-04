@@ -942,7 +942,7 @@ mObserver
 nsString
 mCookie
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -1780,7 +1780,7 @@ mPendingNotifiction
 =
 notification
 ;
-RefPtr
+nsRefPtr
 <
 imgLoader
 >

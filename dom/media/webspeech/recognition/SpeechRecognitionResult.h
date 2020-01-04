@@ -158,7 +158,7 @@ aPresent
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SpeechRecognitionAlternative
 >
@@ -172,7 +172,7 @@ SpeechRecognitionResult
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SpeechRecognition
 >

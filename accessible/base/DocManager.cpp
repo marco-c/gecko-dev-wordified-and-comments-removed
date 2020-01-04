@@ -1757,7 +1757,7 @@ GetRoleContent
 aDocument
 )
 ;
-RefPtr
+nsRefPtr
 <
 DocAccessible
 >

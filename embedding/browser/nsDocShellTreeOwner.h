@@ -381,13 +381,13 @@ mOwnerRequestor
 nsWeakPtr
 mWebBrowserChromeWeak
 ;
-RefPtr
+nsRefPtr
 <
 ChromeTooltipListener
 >
 mChromeTooltipListener
 ;
-RefPtr
+nsRefPtr
 <
 ChromeContextMenuListener
 >

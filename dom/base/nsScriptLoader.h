@@ -1306,7 +1306,7 @@ mDeferRequests
 nsScriptLoadRequestList
 mXSLTRequests
 ;
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -1315,7 +1315,7 @@ mParserBlockingRequest
 struct
 PreloadInfo
 {
-RefPtr
+nsRefPtr
 <
 nsScriptLoadRequest
 >
@@ -1395,7 +1395,7 @@ mCurrentParserInsertedScript
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsScriptLoader
 >
@@ -1491,7 +1491,7 @@ true
 bool
 mWasEnabled
 ;
-RefPtr
+nsRefPtr
 <
 nsScriptLoader
 >

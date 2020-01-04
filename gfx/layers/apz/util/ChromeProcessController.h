@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -314,13 +314,13 @@ nsIWidget
 >
 mWidget
 ;
-RefPtr
+nsRefPtr
 <
 APZEventState
 >
 mAPZEventState
 ;
-RefPtr
+nsRefPtr
 <
 APZCTreeManager
 >

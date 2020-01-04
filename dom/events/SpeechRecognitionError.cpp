@@ -100,7 +100,7 @@ GetAsSupports
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SpeechRecognitionError
 >

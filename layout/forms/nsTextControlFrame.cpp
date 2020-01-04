@@ -668,7 +668,7 @@ charMaxAdvance
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -1473,7 +1473,7 @@ nsCSSPseudoElements
 :
 ePseudo_mozPlaceholder
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -2298,7 +2298,7 @@ inflation
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -2856,7 +2856,7 @@ GetPresShell
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -2971,7 +2971,7 @@ FLAG_BYMOUSE
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ScrollOnFocusEvent
 >
@@ -3249,7 +3249,7 @@ SelectionDirection
 aDirection
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -5892,7 +5892,7 @@ if
 textContent
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTextNode
 >

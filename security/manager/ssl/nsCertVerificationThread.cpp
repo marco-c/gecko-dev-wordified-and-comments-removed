@@ -153,7 +153,7 @@ nsICertVerificationResult
 >
 ires
 ;
-RefPtr
+nsRefPtr
 <
 nsCertVerificationResult
 >

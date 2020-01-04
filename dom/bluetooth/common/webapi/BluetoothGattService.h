@@ -150,7 +150,7 @@ GetIncludedServices
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothGattService
 >
@@ -170,7 +170,7 @@ GetCharacteristics
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothGattCharacteristic
 >
@@ -467,7 +467,7 @@ mUuidStr
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothGattService
 >
@@ -476,7 +476,7 @@ mIncludedServices
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BluetoothGattCharacteristic
 >
@@ -507,7 +507,7 @@ template
 class
 nsDefaultComparator
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -538,7 +538,7 @@ bool
 Equals
 (
 const
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -589,7 +589,7 @@ template
 class
 nsDefaultComparator
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -620,7 +620,7 @@ bool
 Equals
 (
 const
-RefPtr
+nsRefPtr
 <
 mozilla
 :

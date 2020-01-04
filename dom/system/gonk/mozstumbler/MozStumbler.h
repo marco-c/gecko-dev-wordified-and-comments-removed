@@ -123,7 +123,7 @@ aCellDesc
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsICellInfo
 >
@@ -133,7 +133,7 @@ mCellInfo
 nsCString
 mWifiDesc
 ;
-RefPtr
+nsRefPtr
 <
 nsGeoPosition
 >

@@ -102,7 +102,7 @@ endif
 struct
 StreamUpdate
 {
-RefPtr
+nsRefPtr
 <
 MediaStream
 >
@@ -1241,7 +1241,7 @@ this
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 GraphDriver
 >
@@ -1395,7 +1395,7 @@ mNonRealtimeProcessing
 bool
 mStreamOrderDirty
 ;
-RefPtr
+nsRefPtr
 <
 AsyncLatencyLogger
 >
@@ -1407,7 +1407,7 @@ mMixer
 #
 ifdef
 MOZ_WEBRTC
-RefPtr
+nsRefPtr
 <
 AudioOutputObserver
 >
@@ -1440,7 +1440,7 @@ MallocSizeOf
 Monitor
 mMemoryReportMonitor
 ;
-RefPtr
+nsRefPtr
 <
 MediaStreamGraphImpl
 >
@@ -1458,7 +1458,7 @@ WindowAndStream
 uint64_t
 mWindowId
 ;
-RefPtr
+nsRefPtr
 <
 ProcessedMediaStream
 >

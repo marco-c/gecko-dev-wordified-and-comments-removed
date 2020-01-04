@@ -141,7 +141,7 @@ nsClassHashtable
 nsCStringHashKey
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DNSRequestChild
 >

@@ -128,7 +128,7 @@ vinfo
 visual
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >

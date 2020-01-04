@@ -141,7 +141,7 @@ mEGL
 EGLSync
 mSync
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -150,7 +150,7 @@ ISurfaceAllocator
 >
 mAllocator
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -318,7 +318,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :

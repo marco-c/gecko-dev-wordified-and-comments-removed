@@ -175,7 +175,7 @@ QueryPipeline
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 nsAHttpConnection
 >

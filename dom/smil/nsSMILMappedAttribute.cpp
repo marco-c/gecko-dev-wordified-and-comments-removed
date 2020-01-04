@@ -179,7 +179,7 @@ const
 nsAutoString
 baseStringValue
 ;
-RefPtr
+nsRefPtr
 <
 nsIAtom
 >
@@ -335,7 +335,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsIAtom
 >
@@ -459,7 +459,7 @@ ClearAnimValue
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIAtom
 >

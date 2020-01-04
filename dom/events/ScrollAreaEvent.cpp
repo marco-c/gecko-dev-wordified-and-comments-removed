@@ -481,7 +481,7 @@ InternalScrollAreaEvent
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 ScrollAreaEvent
 >

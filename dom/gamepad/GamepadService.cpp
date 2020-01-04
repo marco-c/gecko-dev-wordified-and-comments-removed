@@ -224,7 +224,7 @@ kCleanupDelayMS
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -236,7 +236,7 @@ NoIndex
 =
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -682,7 +682,7 @@ uint32_t
 aIndex
 )
 {
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -734,7 +734,7 @@ uint32_t
 aNumAxes
 )
 {
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -776,7 +776,7 @@ uint32_t
 aIndex
 )
 {
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -847,7 +847,7 @@ double
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -882,7 +882,7 @@ aValue
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -978,7 +978,7 @@ first_time
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -1115,7 +1115,7 @@ mButton
 =
 aButton
 ;
-RefPtr
+nsRefPtr
 <
 GamepadButtonEvent
 >
@@ -1169,7 +1169,7 @@ double
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -1203,7 +1203,7 @@ aValue
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -1299,7 +1299,7 @@ first_time
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -1417,7 +1417,7 @@ mValue
 =
 aValue
 ;
-RefPtr
+nsRefPtr
 <
 GamepadAxisMoveEvent
 >
@@ -1474,7 +1474,7 @@ bool
 aConnected
 )
 {
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -1499,7 +1499,7 @@ return
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsGlobalWindow
 >
@@ -1594,7 +1594,7 @@ i
 aIndex
 )
 ;
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -1664,7 +1664,7 @@ aIndex
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -1776,7 +1776,7 @@ mGamepad
 =
 aGamepad
 ;
-RefPtr
+nsRefPtr
 <
 GamepadEvent
 >
@@ -1829,7 +1829,7 @@ Gamepad
 aGamepad
 )
 {
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -1919,7 +1919,7 @@ gGamepadServiceSingleton
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 GamepadService
 >
@@ -1968,7 +1968,7 @@ uint32_t
 aIndex
 )
 {
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -2059,7 +2059,7 @@ ToSupports
 aWindow
 )
 ;
-RefPtr
+nsRefPtr
 <
 Gamepad
 >
@@ -2084,7 +2084,7 @@ gamepad
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 Gamepad
 >

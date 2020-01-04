@@ -474,7 +474,7 @@ aSchemes
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 GIOUTF8StringEnumerator
 >

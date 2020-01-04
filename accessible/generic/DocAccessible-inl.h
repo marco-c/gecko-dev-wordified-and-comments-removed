@@ -162,7 +162,7 @@ Accessible
 aTarget
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >
@@ -447,7 +447,7 @@ IsLoadEventTarget
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AccEvent
 >

@@ -218,7 +218,7 @@ nsRunnable
 {
 private
 :
-RefPtr
+nsRefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -944,7 +944,7 @@ void
 aClosure
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -1251,7 +1251,7 @@ nsHtml5FlushLoopGuard
 {
 private
 :
-RefPtr
+nsRefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -1619,7 +1619,7 @@ Clear
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsHtml5StreamParser
 >
@@ -2042,7 +2042,7 @@ mFlushState
 =
 eInFlush
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -2051,7 +2051,7 @@ kungFuDeathGrip
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsParserBase
 >

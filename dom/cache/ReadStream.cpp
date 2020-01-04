@@ -421,7 +421,7 @@ NoteClosedRunnable
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 ReadStream
 :
@@ -505,7 +505,7 @@ ForgetRunnable
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 ReadStream
 :
@@ -1628,7 +1628,7 @@ asyncStream
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 Inner
 >
@@ -1646,7 +1646,7 @@ id
 stream
 )
 ;
-RefPtr
+nsRefPtr
 <
 ReadStream
 >
@@ -1704,7 +1704,7 @@ CacheStreamControlParent
 aControl
 )
 ;
-RefPtr
+nsRefPtr
 <
 Inner
 >
@@ -1718,7 +1718,7 @@ aId
 aStream
 )
 ;
-RefPtr
+nsRefPtr
 <
 ReadStream
 >

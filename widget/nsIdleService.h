@@ -280,7 +280,7 @@ IdleListener
 >
 mArrayListeners
 ;
-RefPtr
+nsRefPtr
 <
 nsIdleServiceDaily
 >

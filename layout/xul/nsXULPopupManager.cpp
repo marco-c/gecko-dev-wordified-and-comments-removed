@@ -1427,7 +1427,7 @@ PresContext
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -4097,7 +4097,7 @@ presShell
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -6867,7 +6867,7 @@ popupFrame
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 TransitionEnder
 >
@@ -8844,7 +8844,7 @@ IsEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -12538,7 +12538,7 @@ PresShell
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsViewManager
 >

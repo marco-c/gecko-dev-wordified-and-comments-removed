@@ -2517,7 +2517,7 @@ ClearOnBind
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -2592,7 +2592,7 @@ Destroy
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 HMDInfoOculus
 >
@@ -2717,7 +2717,7 @@ ovrD3D11Texture
 *
 tex11
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -2901,7 +2901,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 RenderTargetSetD3D11
 >
@@ -3516,7 +3516,7 @@ orv
 ovrSuccess
 )
 {
-RefPtr
+nsRefPtr
 <
 HMDInfoOculus
 >
@@ -3591,7 +3591,7 @@ orv
 ovrSuccess
 )
 {
-RefPtr
+nsRefPtr
 <
 HMDInfoOculus
 >
@@ -3689,7 +3689,7 @@ GetHMDs
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VRHMDInfo
 >

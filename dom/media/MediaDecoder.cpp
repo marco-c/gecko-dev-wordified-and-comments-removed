@@ -1532,6 +1532,14 @@ quiet_NaN
 (
 )
 )
+mReentrantMonitor
+(
+"
+media
+.
+decoder
+"
+)
 #
 ifdef
 MOZ_EME

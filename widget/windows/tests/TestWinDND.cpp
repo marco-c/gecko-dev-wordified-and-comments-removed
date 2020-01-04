@@ -1265,7 +1265,7 @@ MakeDataObject
 nsISupportsArray
 *
 transferableArray
-RefPtr
+nsRefPtr
 <
 IDataObject
 >
@@ -1410,7 +1410,7 @@ if
 trans
 )
 {
-RefPtr
+nsRefPtr
 <
 IDataObject
 >
@@ -1555,7 +1555,7 @@ nsISupports
 >
 genericWrapper
 ;
-RefPtr
+nsRefPtr
 <
 IDataObject
 >
@@ -1866,7 +1866,7 @@ nsISupports
 >
 genericWrapper
 ;
-RefPtr
+nsRefPtr
 <
 IDataObject
 >
@@ -2251,7 +2251,7 @@ nsISupports
 >
 genericWrapper
 ;
-RefPtr
+nsRefPtr
 <
 IDataObject
 >
@@ -2676,7 +2676,7 @@ nsISupports
 >
 genericWrapper
 ;
-RefPtr
+nsRefPtr
 <
 IDataObject
 >
@@ -3177,7 +3177,7 @@ nsISupports
 >
 genericWrapper
 ;
-RefPtr
+nsRefPtr
 <
 IDataObject
 >

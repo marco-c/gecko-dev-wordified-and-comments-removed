@@ -461,13 +461,13 @@ OrientationType
 aOrientationType
 )
 ;
-RefPtr
+nsRefPtr
 <
 ScreenOrientation
 >
 mScreenOrientation
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1238,7 +1238,7 @@ MOZ_ASSERT
 go
 )
 ;
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1581,7 +1581,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 Promise
 >

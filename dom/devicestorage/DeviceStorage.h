@@ -32,7 +32,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -395,7 +395,7 @@ CollectFiles
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -413,7 +413,7 @@ collectFilesInternal
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DeviceStorageFile
 >
@@ -1661,13 +1661,13 @@ endif
 uint64_t
 mInnerWindowID
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageFileSystem
 >
 mFileSystem
 ;
-RefPtr
+nsRefPtr
 <
 DeviceStorageRequestManager
 >

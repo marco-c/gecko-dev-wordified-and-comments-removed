@@ -287,7 +287,7 @@ mMaxBuffer
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 HpackDynamicTableReporter
 >

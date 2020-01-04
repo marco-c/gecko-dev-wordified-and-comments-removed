@@ -609,7 +609,7 @@ thread
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 SystemWorkerManager
 >

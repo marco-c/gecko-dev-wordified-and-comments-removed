@@ -507,7 +507,7 @@ mLinks
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsScriptLoader
 >

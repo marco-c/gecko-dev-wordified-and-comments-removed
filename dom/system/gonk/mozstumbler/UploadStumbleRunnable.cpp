@@ -402,7 +402,7 @@ xhr
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIDOMEventListener
 >

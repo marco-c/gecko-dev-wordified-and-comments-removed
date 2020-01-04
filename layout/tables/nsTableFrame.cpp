@@ -3189,7 +3189,7 @@ PresShell
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -3462,7 +3462,7 @@ nsIContent
 *
 iContent
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

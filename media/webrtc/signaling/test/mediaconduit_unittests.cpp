@@ -293,7 +293,7 @@ r
 void
 Init
 (
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -404,7 +404,7 @@ numFrames
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -468,7 +468,7 @@ AudioSendAndReceive
 void
 Init
 (
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -476,7 +476,7 @@ mozilla
 AudioSessionConduit
 >
 aSession
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -520,7 +520,7 @@ GenerateAndReadSamples
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -529,7 +529,7 @@ AudioSessionConduit
 >
 mSession
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2147,7 +2147,7 @@ NS_OK
 void
 SetAudioSession
 (
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2155,7 +2155,7 @@ mozilla
 AudioSessionConduit
 >
 aSession
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2181,7 +2181,7 @@ true
 void
 SetVideoSession
 (
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2189,7 +2189,7 @@ mozilla
 VideoSessionConduit
 >
 aSession
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2214,7 +2214,7 @@ true
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2223,7 +2223,7 @@ AudioSessionConduit
 >
 mAudioSession
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2232,7 +2232,7 @@ VideoSessionConduit
 >
 mVideoSession
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2241,7 +2241,7 @@ VideoSessionConduit
 >
 mOtherVideoSession
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -3759,7 +3759,7 @@ err
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -6228,7 +6228,7 @@ mExternalDecoder
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -6237,7 +6237,7 @@ AudioSessionConduit
 >
 mAudioSession
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -6246,7 +6246,7 @@ AudioSessionConduit
 >
 mAudioSession2
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -6258,7 +6258,7 @@ mAudioTransport
 AudioSendAndReceive
 audioTester
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -6267,7 +6267,7 @@ VideoSessionConduit
 >
 mVideoSession
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -6276,7 +6276,7 @@ VideoSessionConduit
 >
 mVideoSession2
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -6285,7 +6285,7 @@ VideoRenderer
 >
 mVideoRenderer
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

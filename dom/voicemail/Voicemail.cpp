@@ -292,7 +292,7 @@ GetCurrentInnerWindow
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Voicemail
 >
@@ -659,7 +659,7 @@ MOZ_ASSERT
 aProvider
 )
 ;
-RefPtr
+nsRefPtr
 <
 VoicemailStatus
 >
@@ -990,7 +990,7 @@ serviceId
 aProvider
 )
 ;
-RefPtr
+nsRefPtr
 <
 MozVoicemailEvent
 >

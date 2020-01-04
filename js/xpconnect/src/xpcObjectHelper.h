@@ -469,7 +469,7 @@ nsIClassInfo
 >
 mClassInfo
 ;
-RefPtr
+nsRefPtr
 <
 nsXPCClassInfo
 >

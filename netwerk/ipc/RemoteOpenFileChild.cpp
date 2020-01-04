@@ -871,7 +871,7 @@ defined
 (
 MOZ_WIDGET_COCOA
 )
-RefPtr
+nsRefPtr
 <
 CallsListenerInNewEvent
 >
@@ -1181,7 +1181,7 @@ IsValid
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CloseFileRunnable
 >
@@ -1210,7 +1210,7 @@ MOZ_ASSERT
 mNSPRFileDesc
 )
 ;
-RefPtr
+nsRefPtr
 <
 TabChild
 >
@@ -1352,7 +1352,7 @@ mListener
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsJARProtocolHandler
 >

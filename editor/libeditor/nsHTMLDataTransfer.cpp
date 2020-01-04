@@ -702,7 +702,7 @@ nsIEditor
 eNext
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -803,7 +803,7 @@ rv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -1130,7 +1130,7 @@ nsIEditor
 eNext
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -5815,7 +5815,7 @@ aDoDeleteSelection
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 DOMStringList
 >
@@ -7356,7 +7356,7 @@ nsIEditor
 eNext
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -8105,7 +8105,7 @@ aQuotedText
 aNodeInserted
 )
 ;
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -8477,7 +8477,7 @@ aNodeInserted
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Selection
 >
@@ -9176,7 +9176,7 @@ nsIDOMNode
 >
 contextLeaf
 ;
-RefPtr
+nsRefPtr
 <
 DocumentFragment
 >
@@ -9333,7 +9333,7 @@ nsGkAtoms
 body
 ;
 }
-RefPtr
+nsRefPtr
 <
 DocumentFragment
 >
@@ -9667,7 +9667,7 @@ aTrustedInput
 nsAutoScriptBlockerSuppressNodeRemoved
 autoBlocker
 ;
-RefPtr
+nsRefPtr
 <
 DocumentFragment
 >
@@ -9807,7 +9807,7 @@ Length
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsRange
 >

@@ -51,7 +51,7 @@ MOZ_ASSERT
 aImage
 )
 ;
-RefPtr
+nsRefPtr
 <
 ImageURL
 >

@@ -26,7 +26,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -232,13 +232,13 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 BufferTextureClient
 >
 mTextureClient
 ;
-RefPtr
+nsRefPtr
 <
 ImageClient
 >

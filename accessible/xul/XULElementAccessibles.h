@@ -108,7 +108,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 XULLabelTextLeafAccessible
 >

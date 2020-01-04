@@ -372,13 +372,13 @@ GMPAsyncShutdown
 *
 mAsyncShutdown
 ;
-RefPtr
+nsRefPtr
 <
 GMPTimerChild
 >
 mTimerChild
 ;
-RefPtr
+nsRefPtr
 <
 GMPStorageChild
 >

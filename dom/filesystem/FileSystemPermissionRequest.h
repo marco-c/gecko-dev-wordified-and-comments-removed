@@ -89,7 +89,7 @@ mPermissionType
 nsCString
 mPermissionAccess
 ;
-RefPtr
+nsRefPtr
 <
 FileSystemTaskBase
 >

@@ -513,7 +513,7 @@ aResult
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 CacheStorageService
 >
@@ -561,7 +561,7 @@ CacheEntry
 aEntry
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -677,7 +677,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -768,7 +768,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -994,7 +994,7 @@ nsICacheEntryDoomCallback
 >
 mDoomCallback
 ;
-RefPtr
+nsRefPtr
 <
 CacheFile
 >
@@ -1292,7 +1292,7 @@ CacheEntryHandle
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >
@@ -1337,7 +1337,7 @@ aEntry
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 CacheEntry
 >

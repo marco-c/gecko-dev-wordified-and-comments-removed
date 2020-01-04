@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -814,7 +814,7 @@ mCertVerificationThread
 nsNSSHttpInterface
 mHttpForNSS
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

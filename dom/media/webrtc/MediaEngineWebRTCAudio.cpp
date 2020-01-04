@@ -2750,7 +2750,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 SharedBuffer
 >

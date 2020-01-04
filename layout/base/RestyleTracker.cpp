@@ -249,7 +249,7 @@ tracker
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -387,7 +387,7 @@ RestyleTracker
 :
 Hints
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -1333,7 +1333,7 @@ mHaveLaterSiblingRestyles
 {
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -1633,7 +1633,7 @@ Length
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -2423,7 +2423,7 @@ AddRestyleRootsIfAwaitingRestyle
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Element
 >

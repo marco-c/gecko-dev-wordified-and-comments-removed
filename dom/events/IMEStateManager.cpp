@@ -1315,7 +1315,7 @@ if
 sTextCompositions
 )
 {
-RefPtr
+nsRefPtr
 <
 TextComposition
 >
@@ -1663,7 +1663,7 @@ InputContextAction
 aAction
 )
 {
-RefPtr
+nsRefPtr
 <
 TabParent
 >
@@ -5858,7 +5858,7 @@ bool
 aIsSynthesized
 )
 {
-RefPtr
+nsRefPtr
 <
 TabParent
 >
@@ -6034,7 +6034,7 @@ EnsureTextCompositionArray
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextComposition
 >
@@ -6343,7 +6343,7 @@ GetRootContent
 aPresContext
 )
 ;
-RefPtr
+nsRefPtr
 <
 TabParent
 >
@@ -6453,7 +6453,7 @@ mIsTrusted
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextComposition
 >
@@ -6596,7 +6596,7 @@ eCompositionStart
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextComposition
 >
@@ -7493,7 +7493,7 @@ default
 break
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextComposition
 >
@@ -8203,7 +8203,7 @@ IMEContentObserver
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMEContentObserver
 >
@@ -8524,7 +8524,7 @@ IMEContentObserver
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMEContentObserver
 >
@@ -8606,7 +8606,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextComposition
 >

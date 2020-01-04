@@ -1812,7 +1812,7 @@ const
 uint32_t
 &
 aIdx
-RefPtr
+nsRefPtr
 <
 OverOutElementsWrapper
 >
@@ -1955,7 +1955,7 @@ nsIDocument
 >
 mDocument
 ;
-RefPtr
+nsRefPtr
 <
 IMEContentObserver
 >
@@ -1977,7 +1977,7 @@ static
 TimeStamp
 sHandlingInputStart
 ;
-RefPtr
+nsRefPtr
 <
 OverOutElementsWrapper
 >

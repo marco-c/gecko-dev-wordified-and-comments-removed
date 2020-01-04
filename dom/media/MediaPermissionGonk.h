@@ -74,7 +74,7 @@ Deinit
 nsresult
 HandleRequest
 (
-RefPtr
+nsRefPtr
 <
 dom
 :

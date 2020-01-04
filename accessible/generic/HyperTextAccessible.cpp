@@ -6841,7 +6841,7 @@ CaretLineNumber
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -7199,7 +7199,7 @@ aWidget
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -7422,7 +7422,7 @@ nsRange
 aRanges
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -7979,7 +7979,7 @@ domSel
 return
 false
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -8181,7 +8181,7 @@ uint32_t
 aScrollType
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -8262,7 +8262,7 @@ aCoordinateType
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -10466,7 +10466,7 @@ nsIPersistentProperties
 aAttributes
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >

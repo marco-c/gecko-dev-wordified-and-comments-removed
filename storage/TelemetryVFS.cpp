@@ -515,7 +515,7 @@ Histograms
 *
 histograms
 ;
-RefPtr
+nsRefPtr
 <
 QuotaObject
 >
@@ -3261,7 +3261,7 @@ pAppData
 int
 rc
 ;
-RefPtr
+nsRefPtr
 <
 QuotaObject
 >

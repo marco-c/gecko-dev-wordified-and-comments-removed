@@ -1707,7 +1707,7 @@ final
 public
 nsIRequestObserver
 {
-RefPtr
+nsRefPtr
 <
 TCPSocket
 >
@@ -1814,7 +1814,7 @@ mAsyncCopierActive
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 CopierCallbacks
 >
@@ -2180,7 +2180,7 @@ mMessage
 =
 aType
 ;
-RefPtr
+nsRefPtr
 <
 TCPSocketErrorEvent
 >
@@ -2567,7 +2567,7 @@ mData
 =
 aData
 ;
-RefPtr
+nsRefPtr
 <
 TCPSocketEvent
 >
@@ -4069,7 +4069,7 @@ bool
 aUseArrayBuffers
 )
 {
-RefPtr
+nsRefPtr
 <
 TCPSocket
 >
@@ -4131,7 +4131,7 @@ bool
 aUseArrayBuffers
 )
 {
-RefPtr
+nsRefPtr
 <
 TCPSocket
 >
@@ -4211,7 +4211,7 @@ GetAsSupports
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TCPSocket
 >

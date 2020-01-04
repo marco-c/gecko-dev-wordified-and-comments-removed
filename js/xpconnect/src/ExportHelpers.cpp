@@ -548,7 +548,7 @@ aCx
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -644,7 +644,7 @@ aCx
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 MozNDEFRecord
 >
@@ -1029,7 +1029,7 @@ mFunctions
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >

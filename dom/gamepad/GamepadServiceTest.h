@@ -50,7 +50,7 @@ GamepadServiceTest
 *
 sSingleton
 ;
-RefPtr
+nsRefPtr
 <
 GamepadService
 >

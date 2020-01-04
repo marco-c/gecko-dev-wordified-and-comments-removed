@@ -45,7 +45,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -3869,7 +3869,7 @@ hello
 world
 "
 ;
-RefPtr
+nsRefPtr
 <
 nsStringBuffer
 >

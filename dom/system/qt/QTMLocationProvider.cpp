@@ -240,7 +240,7 @@ QGeoPositionInfo
 GroundSpeed
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsGeoPosition
 >

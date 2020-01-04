@@ -8741,7 +8741,7 @@ aContext
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -8834,7 +8834,7 @@ event
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextRangeArray
 >

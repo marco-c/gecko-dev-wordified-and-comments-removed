@@ -217,7 +217,7 @@ Init
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MP3Demuxer
 :
@@ -375,7 +375,7 @@ nullptr
 ;
 }
 return
-RefPtr
+nsRefPtr
 <
 MP3TrackDemuxer
 >
@@ -537,7 +537,7 @@ TimeUnit
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -735,7 +735,7 @@ PrevFrame
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -841,7 +841,7 @@ Clone
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MP3TrackDemuxer
 :
@@ -1247,7 +1247,7 @@ mFrameIndex
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MP3TrackDemuxer
 :
@@ -1341,7 +1341,7 @@ __func__
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SamplesHolder
 >
@@ -1359,7 +1359,7 @@ aNumSamples
 -
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -1562,7 +1562,7 @@ Reset
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MP3TrackDemuxer
 :
@@ -2231,7 +2231,7 @@ Length
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >
@@ -2366,7 +2366,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaRawData
 >

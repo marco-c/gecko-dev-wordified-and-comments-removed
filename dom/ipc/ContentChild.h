@@ -392,7 +392,7 @@ return
 parent
 ;
 }
-RefPtr
+nsRefPtr
 <
 ContentBridgeParent
 >
@@ -2452,7 +2452,7 @@ AlertObserver
 >
 mAlertObservers
 ;
-RefPtr
+nsRefPtr
 <
 ConsoleListener
 >

@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -114,7 +114,7 @@ aLoadUpdateInterval
 nsresult
 Init
 (
-RefPtr
+nsRefPtr
 <
 LoadMonitor
 >

@@ -194,7 +194,7 @@ mContentType
 uint32_t
 mWriteIndex
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -203,7 +203,7 @@ AudioContext
 >
 mContext
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -212,7 +212,7 @@ Promise
 >
 mPromise
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -221,7 +221,7 @@ DecodeSuccessCallback
 >
 mSuccessCallback
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -230,7 +230,7 @@ DecodeErrorCallback
 >
 mFailureCallback
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -239,7 +239,7 @@ AudioBuffer
 >
 mOutput
 ;
-RefPtr
+nsRefPtr
 <
 ThreadSharedFloatArrayBufferList
 >

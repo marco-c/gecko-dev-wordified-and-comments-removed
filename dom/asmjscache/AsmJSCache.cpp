@@ -1527,7 +1527,7 @@ mQuotaObject
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 QuotaObject
 >
@@ -1557,7 +1557,7 @@ final
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 DirectoryLock
 >
@@ -2359,7 +2359,7 @@ mGroup
 nsCString
 mOrigin
 ;
-RefPtr
+nsRefPtr
 <
 DirectoryLock
 >
@@ -3579,7 +3579,7 @@ if
 mDirectoryLock
 )
 {
-RefPtr
+nsRefPtr
 <
 UnlockDirectoryRunnable
 >
@@ -4367,7 +4367,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ParentRunnable
 >
@@ -4415,7 +4415,7 @@ PAsmJSCacheEntryParent
 aActor
 )
 {
-RefPtr
+nsRefPtr
 <
 ParentRunnable
 >
@@ -5676,7 +5676,7 @@ JS
 AsmJSCache_SynchronousScript
 ;
 }
-RefPtr
+nsRefPtr
 <
 ChildRunnable
 >

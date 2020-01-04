@@ -2099,7 +2099,7 @@ ValueObserver
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 AddPreferencesMemoryReporterRunnable
 >
@@ -3401,7 +3401,7 @@ aPrefRoot
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPrefBranch
 >
@@ -3502,7 +3502,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPrefBranch
 >
@@ -5503,7 +5503,7 @@ entryName
 uint16_t
 entryNameLen
 ;
-RefPtr
+nsRefPtr
 <
 nsZipArchive
 >
@@ -5884,7 +5884,7 @@ preferences
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsZipArchive
 >
@@ -7602,7 +7602,7 @@ aPref
 aCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 ValueObserver
 >
@@ -7775,7 +7775,7 @@ aPref
 aCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 ValueObserver
 >

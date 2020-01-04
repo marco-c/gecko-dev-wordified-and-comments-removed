@@ -236,7 +236,7 @@ nsIContent
 >
 mCommandContent
 ;
-RefPtr
+nsRefPtr
 <
 nsMenuItemIconX
 >

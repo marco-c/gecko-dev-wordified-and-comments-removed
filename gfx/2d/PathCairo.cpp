@@ -766,7 +766,7 @@ aFillRule
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 PathBuilderCairo
 >
@@ -818,7 +818,7 @@ aFillRule
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 PathBuilderCairo
 >

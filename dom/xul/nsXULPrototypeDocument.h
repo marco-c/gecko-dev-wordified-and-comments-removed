@@ -159,7 +159,7 @@ aPI
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsXULPrototypePI
 >
@@ -284,7 +284,7 @@ nsIURI
 >
 mURI
 ;
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeElement
 >
@@ -292,7 +292,7 @@ mRoot
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsXULPrototypePI
 >
@@ -310,7 +310,7 @@ mLoaded
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -323,7 +323,7 @@ XULDocument
 >
 mPrototypeWaiters
 ;
-RefPtr
+nsRefPtr
 <
 nsNodeInfoManager
 >

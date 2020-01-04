@@ -322,7 +322,7 @@ false
 nsIntRect
 dragRect
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -389,7 +389,7 @@ crColorKey
 =
 CLR_NONE
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -447,7 +447,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -988,7 +988,7 @@ numItemsToDrag
 return
 NS_ERROR_FAILURE
 ;
-RefPtr
+nsRefPtr
 <
 IDataObject
 >
@@ -1081,7 +1081,7 @@ SetRequestingNode
 aDOMNode
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDataObject
 >
@@ -1295,7 +1295,7 @@ uint32_t
 aActionType
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNativeDragSource
 >
@@ -1370,7 +1370,7 @@ OpenDragPopup
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 IAsyncOperation
 >

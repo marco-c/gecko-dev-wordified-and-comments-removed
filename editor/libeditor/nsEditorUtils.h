@@ -200,7 +200,7 @@ nsAutoSelectionReset
 {
 private
 :
-RefPtr
+nsRefPtr
 <
 mozilla
 :

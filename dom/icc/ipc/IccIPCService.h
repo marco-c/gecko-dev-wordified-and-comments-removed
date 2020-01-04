@@ -54,7 +54,7 @@ IccIPCService
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 IccChild
 >

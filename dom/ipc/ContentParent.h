@@ -3990,7 +3990,7 @@ friend
 class
 NuwaParent
 ;
-RefPtr
+nsRefPtr
 <
 nsConsoleService
 >
@@ -4036,7 +4036,7 @@ PProcessHangMonitorParent
 *
 mHangMonitorActor
 ;
-RefPtr
+nsRefPtr
 <
 NuwaParent
 >
@@ -4045,7 +4045,7 @@ mNuwaParent
 #
 ifdef
 MOZ_ENABLE_PROFILER_SPS
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -4132,7 +4132,7 @@ ParentIdleListener
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :

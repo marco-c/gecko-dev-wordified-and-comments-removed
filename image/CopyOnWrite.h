@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -104,7 +104,7 @@ explicit
 CopyOnWriteValue
 (
 const
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -121,7 +121,7 @@ aValue
 explicit
 CopyOnWriteValue
 (
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -395,7 +395,7 @@ CopyOnWriteValue
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -500,7 +500,7 @@ explicit
 CopyOnWrite
 (
 const
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -521,7 +521,7 @@ aValue
 explicit
 CopyOnWrite
 (
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -600,7 +600,7 @@ CanRead
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CopyOnWriteValue
 >
@@ -779,7 +779,7 @@ get
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CopyOnWriteValue
 >
@@ -889,7 +889,7 @@ CopyOnWrite
 =
 delete
 ;
-RefPtr
+nsRefPtr
 <
 CopyOnWriteValue
 >

@@ -498,7 +498,7 @@ thread
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncCubebTask
 >
@@ -556,7 +556,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 GraphDriver
 >
@@ -600,7 +600,7 @@ n
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncCubebTask
 >
@@ -821,7 +821,7 @@ IsSwitchingDevice
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 AsyncCubebTask
 >
@@ -2914,7 +2914,7 @@ mGraphImpl
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncCubebTask
 >
@@ -3202,7 +3202,7 @@ mGraphImpl
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncCubebTask
 >

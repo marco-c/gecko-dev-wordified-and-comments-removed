@@ -297,7 +297,7 @@ aUseCapture
 {
 if
 (
-RefPtr
+nsRefPtr
 <
 EventListenerManager
 >
@@ -1777,7 +1777,7 @@ aArg
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TabParent
 >

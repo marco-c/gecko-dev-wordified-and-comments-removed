@@ -94,7 +94,7 @@ ErrorResult
 rv
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDOMSerializer
 >

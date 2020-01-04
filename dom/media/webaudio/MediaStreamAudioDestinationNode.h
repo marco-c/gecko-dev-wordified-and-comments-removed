@@ -137,13 +137,13 @@ MediaStreamAudioDestinationNode
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >
 mDOMStream
 ;
-RefPtr
+nsRefPtr
 <
 MediaInputPort
 >

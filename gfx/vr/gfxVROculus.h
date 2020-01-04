@@ -30,7 +30,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -349,7 +349,7 @@ GetHMDs
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VRHMDInfo
 >
@@ -363,7 +363,7 @@ protected
 :
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 impl
 :

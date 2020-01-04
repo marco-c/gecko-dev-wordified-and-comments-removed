@@ -362,7 +362,7 @@ DispatchEventRunnable
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 MessagePort
 >
@@ -605,7 +605,7 @@ GetOwner
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MessageEvent
 >
@@ -660,7 +660,7 @@ mPort
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MessagePort
 >
@@ -674,7 +674,7 @@ TakeTransferredPorts
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 MessagePortList
 >
@@ -766,13 +766,13 @@ PostMessageRunnable
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 MessagePort
 >
 mPort
 ;
-RefPtr
+nsRefPtr
 <
 SharedMessagePortMessage
 >
@@ -1046,7 +1046,7 @@ sequenceId
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ForceCloseHelper
 >
@@ -1258,7 +1258,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 MessagePort
 >
@@ -1312,7 +1312,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 MessagePort
 >
@@ -1912,7 +1912,7 @@ array
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SharedMessagePortMessage
 >
@@ -2041,7 +2041,7 @@ IsEmpty
 ;
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 SharedMessagePortMessage
 >
@@ -2145,7 +2145,7 @@ eNextStepNone
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 SharedMessagePortMessage
 >
@@ -2165,7 +2165,7 @@ RemoveElementAt
 0
 )
 ;
-RefPtr
+nsRefPtr
 <
 PostMessageRunnable
 >
@@ -2230,7 +2230,7 @@ MOZ_ASSERT
 mUnshippedEntangledPort
 )
 ;
-RefPtr
+nsRefPtr
 <
 MessagePort
 >
@@ -2487,7 +2487,7 @@ messages
 }
 FallibleTArray
 <
-RefPtr
+nsRefPtr
 <
 SharedMessagePortMessage
 >
@@ -2651,7 +2651,7 @@ RemoveDocFromBFCache
 ;
 FallibleTArray
 <
-RefPtr
+nsRefPtr
 <
 SharedMessagePortMessage
 >

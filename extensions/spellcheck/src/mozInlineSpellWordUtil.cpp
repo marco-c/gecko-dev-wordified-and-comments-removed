@@ -1247,7 +1247,7 @@ mDOMDocument
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >

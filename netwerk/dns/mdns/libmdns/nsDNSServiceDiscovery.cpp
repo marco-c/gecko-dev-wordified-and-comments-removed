@@ -303,7 +303,7 @@ NS_OK
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsDNSServiceDiscovery
 >
@@ -413,7 +413,7 @@ NS_OK
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsDNSServiceDiscovery
 >
@@ -608,7 +608,7 @@ this
 aListener
 )
 ;
-RefPtr
+nsRefPtr
 <
 BrowseOperator
 >
@@ -676,7 +676,7 @@ aListener
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 BrowseOperator
 >
@@ -800,7 +800,7 @@ this
 aListener
 )
 ;
-RefPtr
+nsRefPtr
 <
 RegisterOperator
 >
@@ -868,7 +868,7 @@ aListener
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 RegisterOperator
 >
@@ -965,7 +965,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 ResolveOperator
 >

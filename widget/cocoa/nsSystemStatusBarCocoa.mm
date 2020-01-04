@@ -148,7 +148,7 @@ aDOMElement
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
-RefPtr
+nsRefPtr
 <
 nsStandaloneNativeMenu
 >

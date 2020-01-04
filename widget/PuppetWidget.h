@@ -20,7 +20,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1228,7 +1228,7 @@ TabChild
 *
 mTabChild
 ;
-RefPtr
+nsRefPtr
 <
 PuppetWidget
 >
@@ -1243,13 +1243,13 @@ PaintTask
 >
 mPaintTask
 ;
-RefPtr
+nsRefPtr
 <
 MemoryPressureObserver
 >
 mMemoryPressureObserver
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

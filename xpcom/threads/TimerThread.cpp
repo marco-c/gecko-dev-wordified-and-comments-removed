@@ -573,7 +573,7 @@ sAllocatorUsers
 -
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsTimerImpl
 >
@@ -1022,7 +1022,7 @@ nullptr
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 TimerObserverRunnable
 >
@@ -1587,7 +1587,7 @@ forceRunThisTimer
 {
 next
 :
-RefPtr
+nsRefPtr
 <
 nsTimerImpl
 >
@@ -2358,7 +2358,7 @@ AssertCurrentThreadOwns
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsTimerImpl
 >
@@ -2399,7 +2399,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsTimerEvent
 >

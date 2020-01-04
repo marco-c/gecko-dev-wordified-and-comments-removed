@@ -774,7 +774,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -891,7 +891,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -1104,7 +1104,7 @@ SmsSendParameters
 aSendParams
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -1227,7 +1227,7 @@ size
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -1480,7 +1480,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -1614,7 +1614,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -1751,7 +1751,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2488,7 +2488,7 @@ Value
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 MobileMessageCursorCallback
 >
@@ -2590,7 +2590,7 @@ window
 continueCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMCursor
 >
@@ -2685,7 +2685,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -2792,7 +2792,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 MobileMessageCursorCallback
 >
@@ -2882,7 +2882,7 @@ window
 continueCallback
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMCursor
 >
@@ -2973,7 +2973,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DOMRequest
 >
@@ -3143,7 +3143,7 @@ mMessage
 =
 sms
 ;
-RefPtr
+nsRefPtr
 <
 MozSmsEvent
 >
@@ -3203,7 +3203,7 @@ mMessage
 =
 mms
 ;
-RefPtr
+nsRefPtr
 <
 MozMmsEvent
 >
@@ -3462,7 +3462,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 MozMessageDeletedEvent
 >
@@ -3878,7 +3878,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -4126,7 +4126,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Promise
 >

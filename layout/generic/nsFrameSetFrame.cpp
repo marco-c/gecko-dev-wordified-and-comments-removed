@@ -1396,7 +1396,7 @@ frame
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1591,7 +1591,7 @@ blankX
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -4491,7 +4491,7 @@ if
 firstTime
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -4660,7 +4660,7 @@ if
 firstTime
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

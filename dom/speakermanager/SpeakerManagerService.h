@@ -181,7 +181,7 @@ Shutdown
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 SpeakerManager
 >

@@ -242,7 +242,7 @@ mStartTime
 +
 mMaxWait
 ;
-RefPtr
+nsRefPtr
 <
 TaskThrottler
 >

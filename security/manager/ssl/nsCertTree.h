@@ -182,7 +182,7 @@ mUsageCount
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsIX509Cert
 >
@@ -222,7 +222,7 @@ nsCertTreeDispInfo
 other
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCertAddonInfo
 >
@@ -505,7 +505,7 @@ kInitialCacheLength
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsCertTreeDispInfo
 >
@@ -549,7 +549,7 @@ nsICertOverrideService
 >
 mOverrideService
 ;
-RefPtr
+nsRefPtr
 <
 nsCertOverrideService
 >

@@ -327,7 +327,7 @@ GetAllowedAudioChannels
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -620,7 +620,7 @@ nsAString
 aManifestURL
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -663,7 +663,7 @@ mBrowserElementAPI
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 dom
 :

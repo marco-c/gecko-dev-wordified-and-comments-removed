@@ -186,7 +186,7 @@ GetArray
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TextTrackCue
 >
@@ -210,7 +210,7 @@ mParent
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TextTrackCue
 >

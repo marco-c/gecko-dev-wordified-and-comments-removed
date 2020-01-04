@@ -143,7 +143,7 @@ aSink
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 nsHtml5OwningUTF16Buffer
 >

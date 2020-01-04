@@ -298,7 +298,7 @@ nsACString
 aType
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MuxerOperation
 >

@@ -1712,7 +1712,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxCharacterMap
 >
@@ -2226,7 +2226,7 @@ size
 .
 0
 ;
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -5517,7 +5517,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxFont
 >

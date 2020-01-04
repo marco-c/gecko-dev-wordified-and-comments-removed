@@ -530,7 +530,7 @@ event
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 ConnectionData
 >
@@ -623,7 +623,7 @@ event
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 ConnectionData
 >
@@ -769,7 +769,7 @@ nsIDNSRecord
 >
 mRecord
 ;
-RefPtr
+nsRefPtr
 <
 LookupHelper
 >
@@ -885,7 +885,7 @@ mStatus
 =
 aStatus
 ;
-RefPtr
+nsRefPtr
 <
 LookupArgument
 >
@@ -906,7 +906,7 @@ event
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 LookupArgument
 >
@@ -1165,7 +1165,7 @@ NetDashboardCallback
 aCallback
 )
 {
-RefPtr
+nsRefPtr
 <
 SocketData
 >
@@ -1208,7 +1208,7 @@ event
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 SocketData
 >
@@ -1247,7 +1247,7 @@ SocketData
 aSocketData
 )
 {
-RefPtr
+nsRefPtr
 <
 SocketData
 >
@@ -1305,7 +1305,7 @@ event
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 SocketData
 >
@@ -1347,7 +1347,7 @@ SocketData
 aSocketData
 )
 {
-RefPtr
+nsRefPtr
 <
 SocketData
 >
@@ -1671,7 +1671,7 @@ NetDashboardCallback
 aCallback
 )
 {
-RefPtr
+nsRefPtr
 <
 HttpData
 >
@@ -1714,7 +1714,7 @@ event
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 HttpData
 >
@@ -1753,7 +1753,7 @@ HttpData
 aHttpData
 )
 {
-RefPtr
+nsRefPtr
 <
 HttpData
 >
@@ -1781,7 +1781,7 @@ event
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 HttpData
 >
@@ -1823,7 +1823,7 @@ HttpData
 aHttpData
 )
 {
-RefPtr
+nsRefPtr
 <
 HttpData
 >
@@ -2844,7 +2844,7 @@ NetDashboardCallback
 aCallback
 )
 {
-RefPtr
+nsRefPtr
 <
 WebSocketRequest
 >
@@ -2887,7 +2887,7 @@ event
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 WebSocketRequest
 >
@@ -2929,7 +2929,7 @@ WebSocketRequest
 aWsRequest
 )
 {
-RefPtr
+nsRefPtr
 <
 WebSocketRequest
 >
@@ -3190,7 +3190,7 @@ NetDashboardCallback
 aCallback
 )
 {
-RefPtr
+nsRefPtr
 <
 DnsData
 >
@@ -3285,7 +3285,7 @@ event
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 DnsData
 >
@@ -3324,7 +3324,7 @@ DnsData
 aDnsData
 )
 {
-RefPtr
+nsRefPtr
 <
 DnsData
 >
@@ -3358,7 +3358,7 @@ event
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 DnsData
 >
@@ -3789,7 +3789,7 @@ rv
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 LookupHelper
 >
@@ -4056,7 +4056,7 @@ aCallback
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 ConnectionData
 >
@@ -4158,7 +4158,7 @@ event
 =
 NS_NewRunnableMethodWithArg
 <
-RefPtr
+nsRefPtr
 <
 ConnectionData
 >
@@ -4204,7 +4204,7 @@ ConnectionData
 aConnectionData
 )
 {
-RefPtr
+nsRefPtr
 <
 ConnectionData
 >
@@ -4282,7 +4282,7 @@ ConnectionData
 aConnectionData
 )
 {
-RefPtr
+nsRefPtr
 <
 ConnectionData
 >

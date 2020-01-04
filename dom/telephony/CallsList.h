@@ -39,13 +39,13 @@ nsISupports
 public
 nsWrapperCache
 {
-RefPtr
+nsRefPtr
 <
 Telephony
 >
 mTelephony
 ;
-RefPtr
+nsRefPtr
 <
 TelephonyCallGroup
 >

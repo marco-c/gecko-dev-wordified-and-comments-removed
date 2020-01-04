@@ -6108,7 +6108,7 @@ mOpcode
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 BluetoothGattResultHandler
 >
@@ -8243,7 +8243,7 @@ Init
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothGattResultHandler
 >
@@ -8445,7 +8445,7 @@ BluetoothDaemonGattModule
 *
 mModule
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothGattResultHandler
 >

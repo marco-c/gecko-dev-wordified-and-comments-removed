@@ -1990,7 +1990,7 @@ nsString
 aFamily
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -2641,7 +2641,7 @@ nsIFrame
 aFrame
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >

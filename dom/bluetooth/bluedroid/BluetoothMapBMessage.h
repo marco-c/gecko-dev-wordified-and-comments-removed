@@ -153,7 +153,7 @@ GetRecipients
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VCard
 >
@@ -167,7 +167,7 @@ GetOriginators
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VCard
 >
@@ -344,7 +344,7 @@ mEnvelopeLevel
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VCard
 >
@@ -353,7 +353,7 @@ mOriginators
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 VCard
 >

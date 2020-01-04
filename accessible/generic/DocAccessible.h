@@ -1439,14 +1439,14 @@ mStateBitWasOn
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DocAccessible
 >
 >
 mChildDocuments
 ;
-RefPtr
+nsRefPtr
 <
 nsAccessiblePivot
 >
@@ -1647,7 +1647,7 @@ return
 this
 ;
 }
-RefPtr
+nsRefPtr
 <
 Accessible
 >
@@ -1667,7 +1667,7 @@ ARIAOwnsPair
 >
 mARIAOwnsInvalidationList
 ;
-RefPtr
+nsRefPtr
 <
 NotificationController
 >

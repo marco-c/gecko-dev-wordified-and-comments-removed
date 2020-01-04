@@ -166,7 +166,7 @@ aGivenProto
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 nsContentList
 >

@@ -111,7 +111,7 @@ FontFaceSetIterator
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 FontFaceSet
 >

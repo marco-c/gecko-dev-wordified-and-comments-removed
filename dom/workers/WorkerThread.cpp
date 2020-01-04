@@ -267,7 +267,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 WorkerThread
 >
@@ -908,7 +908,7 @@ runnable
 onWorkerThread
 )
 {
-RefPtr
+nsRefPtr
 <
 WorkerRunnable
 >

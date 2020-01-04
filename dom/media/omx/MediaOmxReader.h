@@ -322,7 +322,7 @@ ReleaseMediaResources
 )
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :
@@ -335,7 +335,7 @@ AsyncReadMetadata
 override
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 SeekPromise
 >
@@ -363,7 +363,7 @@ SetIdle
 override
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 ShutdownPromise
 >

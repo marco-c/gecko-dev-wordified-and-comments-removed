@@ -404,7 +404,7 @@ mRV
 uint32_t
 mChunkIdx
 ;
-RefPtr
+nsRefPtr
 <
 CacheFileChunk
 >
@@ -1276,7 +1276,7 @@ Offset
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 NotifyCacheFileListenerEvent
 >
@@ -1445,7 +1445,7 @@ CacheFileChunk
 aChunk
 )
 {
-RefPtr
+nsRefPtr
 <
 CacheFileChunk
 >
@@ -4426,7 +4426,7 @@ Unlock
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsISupports
 >
@@ -4469,7 +4469,7 @@ CacheFile
 :
 ReleaseOutsideLock
 (
-RefPtr
+nsRefPtr
 <
 nsISupports
 >
@@ -4655,7 +4655,7 @@ READER
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 CacheFileChunk
 >
@@ -5718,7 +5718,7 @@ i
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheFileChunk
 >
@@ -5962,7 +5962,7 @@ aChunk
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 CacheFileChunk
 >
@@ -6123,7 +6123,7 @@ NS_OK
 ifdef
 DEBUG
 {
-RefPtr
+nsRefPtr
 <
 CacheFileChunk
 >
@@ -6514,7 +6514,7 @@ false
 ;
 ReleaseOutsideLock
 (
-RefPtr
+nsRefPtr
 <
 CacheFileChunkListener
 >
@@ -7219,7 +7219,7 @@ aChunk
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 NotifyChunkListenerEvent
 >
@@ -8151,7 +8151,7 @@ const
 uint32_t
 &
 aIdx
-RefPtr
+nsRefPtr
 <
 CacheFileChunk
 >
@@ -8250,7 +8250,7 @@ file
 >
 ReleaseOutsideLock
 (
-RefPtr
+nsRefPtr
 <
 nsISupports
 >
@@ -8323,7 +8323,7 @@ aIdx
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 CacheFileChunk
 >
@@ -8434,7 +8434,7 @@ const
 uint32_t
 &
 aIdx
-RefPtr
+nsRefPtr
 <
 CacheFileChunk
 >
@@ -8516,7 +8516,7 @@ const
 uint32_t
 &
 aIdx
-RefPtr
+nsRefPtr
 <
 CacheFileChunk
 >
@@ -8655,7 +8655,7 @@ aChunkIdx
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 CacheFileChunk
 >

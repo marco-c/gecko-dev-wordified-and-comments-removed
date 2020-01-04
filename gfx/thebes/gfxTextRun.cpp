@@ -8615,7 +8615,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -9248,7 +9248,7 @@ mDefaultFont
 {
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 gfxFontFamily
 >
@@ -10110,7 +10110,7 @@ else
 uint8_t
 matchType
 ;
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -10343,7 +10343,7 @@ mHyphenWidth
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -12142,7 +12142,7 @@ eShapingState_Aborted
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -12941,7 +12941,7 @@ kASCIIPeriodsChar
 1
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -13112,7 +13112,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -13228,7 +13228,7 @@ IsBadUnderlineFamily
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -13365,7 +13365,7 @@ aCh
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -13433,7 +13433,7 @@ wasJoinCauser
 isVarSelector
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -13501,7 +13501,7 @@ IsUserFont
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -13567,7 +13567,7 @@ aCh
 HB_UNICODE_GENERAL_CATEGORY_CONTROL
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -13599,7 +13599,7 @@ aCh
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -13627,7 +13627,7 @@ if
 aPrevMatchedFont
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -13700,7 +13700,7 @@ IsLoading
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -14003,7 +14003,7 @@ fontListLength
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -14073,7 +14073,7 @@ aCh
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -14127,7 +14127,7 @@ gfxTextRange
 :
 kSystemFallback
 ;
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -14518,7 +14518,7 @@ ch
 '
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -15413,7 +15413,7 @@ PrefFontCallbackData
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 gfxFontFamily
 >
@@ -15430,7 +15430,7 @@ aFamiliesArray
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 gfxFontFamily
 >
@@ -15531,7 +15531,7 @@ uint32_t
 aCh
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -15664,7 +15664,7 @@ currentLang
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 gfxFontFamily
 >
@@ -15799,7 +15799,7 @@ aCh
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxFont
 >
@@ -15918,7 +15918,7 @@ ComputeWeight
 =
 6
 ;
-RefPtr
+nsRefPtr
 <
 gfxFont
 >

@@ -2361,7 +2361,7 @@ mozView
 *
 mView
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2498,7 +2498,7 @@ VibrancyManager
 >
 mVibrancyManager
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

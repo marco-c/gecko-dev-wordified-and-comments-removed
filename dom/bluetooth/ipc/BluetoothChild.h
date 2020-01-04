@@ -231,7 +231,7 @@ bluetooth
 :
 BluetoothChild
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothReplyRunnable
 >

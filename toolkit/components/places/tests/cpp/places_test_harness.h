@@ -1440,7 +1440,7 @@ stmt
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncStatementSpinner
 >
@@ -1567,7 +1567,7 @@ final
 public
 nsIObserver
 {
-RefPtr
+nsRefPtr
 <
 WaitForTopicSpinner
 >

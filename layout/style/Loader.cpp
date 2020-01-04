@@ -480,7 +480,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 NS_DECL_NSITHREADOBSERVER
 NS_DECL_NSIUNICHARSTREAMLOADEROBSERVER
-RefPtr
+nsRefPtr
 <
 Loader
 >
@@ -501,7 +501,7 @@ mURI
 uint32_t
 mLineNumber
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -511,7 +511,7 @@ SheetLoadData
 *
 mNext
 ;
-RefPtr
+nsRefPtr
 <
 SheetLoadData
 >
@@ -1468,7 +1468,7 @@ nsIThreadInternal
 aThread
 )
 {
-RefPtr
+nsRefPtr
 <
 SheetLoadData
 >
@@ -1653,7 +1653,7 @@ FindReusableStyleSheet
 nsIURI
 *
 aURL
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -4041,7 +4041,7 @@ RemoveEntriesWithURI
 URIPrincipalReferrerPolicyAndCORSModeHashKey
 *
 aKey
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -4450,7 +4450,7 @@ aSheetState
 =
 eSheetComplete
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -5217,7 +5217,7 @@ sriMetadata
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -5340,7 +5340,7 @@ sheet
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsMediaList
 >
@@ -7196,7 +7196,7 @@ withCredentials
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCORSListenerProxy
 >
@@ -7663,7 +7663,7 @@ SheetComplete
 ;
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 SheetLoadData
 >
@@ -8715,7 +8715,7 @@ element
 StyleSheetState
 state
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -9202,7 +9202,7 @@ check
 StyleSheetState
 state
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -9976,7 +9976,7 @@ observer
 aParentSheet
 ;
 }
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -10574,7 +10574,7 @@ state
 bool
 isAlternate
 ;
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -10839,7 +10839,7 @@ element
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 SheetLoadData
 >
@@ -11834,7 +11834,7 @@ Next
 )
 {
 const
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >

@@ -1343,7 +1343,7 @@ BlobDirState
 eUnknownIfDir
 )
 ;
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -1361,7 +1361,7 @@ MOZ_ASSERT
 blobImpl
 )
 ;
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -1397,7 +1397,7 @@ MOZ_ASSERT
 aResultHelper
 )
 ;
-RefPtr
+nsRefPtr
 <
 FileRequestBase
 >
@@ -1422,7 +1422,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 FileHandleBase
 >
@@ -1547,7 +1547,7 @@ MOZ_ASSERT
 aFileHandle
 )
 ;
-RefPtr
+nsRefPtr
 <
 FileRequestBase
 >
@@ -1555,7 +1555,7 @@ fileRequest
 =
 aFileRequest
 ;
-RefPtr
+nsRefPtr
 <
 FileHandleBase
 >
@@ -2318,7 +2318,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 File
 >

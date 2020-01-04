@@ -1204,13 +1204,13 @@ private
 Mutex
 mLock
 ;
-RefPtr
+nsRefPtr
 <
 IPersistFile
 >
 mPersistFile
 ;
-RefPtr
+nsRefPtr
 <
 IShellLinkW
 >
@@ -4234,7 +4234,7 @@ nsIFile
 aFile
 )
 {
-RefPtr
+nsRefPtr
 <
 nsLocalFile
 >
@@ -8039,7 +8039,7 @@ NS_ERROR_FILE_DIR_NOT_EMPTY
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 nsDirEnumerator
 >
@@ -8867,7 +8867,7 @@ if
 aRecursive
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDirEnumerator
 >
@@ -11877,7 +11877,7 @@ EqualsLiteral
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDriveEnumerator
 >
@@ -11918,7 +11918,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsDirEnumerator
 >
@@ -12436,7 +12436,7 @@ nsIFile
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 nsLocalFile
 >

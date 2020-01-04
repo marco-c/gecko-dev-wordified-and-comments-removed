@@ -127,7 +127,7 @@ GainNode
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 AudioParam
 >

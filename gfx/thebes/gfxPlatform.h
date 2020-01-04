@@ -92,7 +92,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -2034,7 +2034,7 @@ mWordCacheMaxEntries
 uint32_t
 mTotalSystemMemory
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2046,7 +2046,7 @@ VsyncSource
 >
 mVsyncSource
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2121,7 +2121,7 @@ PopulateScreenInfo
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -2205,7 +2205,7 @@ gfxPlatform
 >
 mApzSupportCollector
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2217,7 +2217,7 @@ DrawEventRecorder
 >
 mRecorder
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

@@ -1940,7 +1940,7 @@ uri
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -2128,7 +2128,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -2168,7 +2168,7 @@ uri
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -3309,7 +3309,7 @@ if
 gChromeRegistry
 )
 {
-RefPtr
+nsRefPtr
 <
 nsChromeRegistry
 >
@@ -3325,7 +3325,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsChromeRegistry
 >

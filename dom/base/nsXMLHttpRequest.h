@@ -761,7 +761,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsXMLHttpRequest
 >
@@ -2688,7 +2688,7 @@ aRv
 ResponseTypeEnum
 mResponseType
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2700,7 +2700,7 @@ Blob
 >
 mResponseBlob
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2764,7 +2764,7 @@ mLoadGroup
 uint32_t
 mState
 ;
-RefPtr
+nsRefPtr
 <
 nsXMLHttpRequestUpload
 >
@@ -3097,7 +3097,7 @@ mXHR
 NS_DECL_NSIINTERFACEREQUESTOR
 private
 :
-RefPtr
+nsRefPtr
 <
 nsXMLHttpRequest
 >

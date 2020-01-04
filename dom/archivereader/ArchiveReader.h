@@ -225,7 +225,7 @@ Ready
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >
@@ -266,7 +266,7 @@ aRequest
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 BlobImpl
 >
@@ -299,7 +299,7 @@ mReadStatus
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 ArchiveRequest
 >
@@ -310,7 +310,7 @@ struct
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 File
 >

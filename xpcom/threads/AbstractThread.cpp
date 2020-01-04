@@ -444,7 +444,7 @@ mTarget
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsIThread
 >
@@ -678,7 +678,7 @@ bool
 aRequireTailDispatch
 )
 {
-RefPtr
+nsRefPtr
 <
 XPCOMThreadWrapper
 >

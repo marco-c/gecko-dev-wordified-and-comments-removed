@@ -416,7 +416,7 @@ Init
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -480,7 +480,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -522,7 +522,7 @@ btInf
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -580,7 +580,7 @@ sBtA2dpInterface
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -982,7 +982,7 @@ Deinit
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1044,7 +1044,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 BluetoothProfileResultHandler
 >
@@ -1094,7 +1094,7 @@ if
 aRes
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -1698,7 +1698,7 @@ NS_ENSURE_TRUE_VOID
 mController
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothProfileController
 >
@@ -1743,7 +1743,7 @@ NS_ENSURE_TRUE_VOID
 mController
 )
 ;
-RefPtr
+nsRefPtr
 <
 BluetoothProfileController
 >

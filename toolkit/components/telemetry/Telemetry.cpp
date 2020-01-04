@@ -8393,7 +8393,7 @@ nsIFile
 >
 mFailedProfileLockFile
 ;
-RefPtr
+nsRefPtr
 <
 TelemetryImpl
 >

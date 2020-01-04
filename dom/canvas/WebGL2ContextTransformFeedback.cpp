@@ -75,7 +75,7 @@ fGenTransformFeedbacks
 tf
 )
 ;
-RefPtr
+nsRefPtr
 <
 WebGLTransformFeedback
 >

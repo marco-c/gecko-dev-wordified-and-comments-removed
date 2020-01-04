@@ -882,7 +882,7 @@ InternalDOMEvent
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 OnErrorEventHandlerNonNull
 >
@@ -975,7 +975,7 @@ nsGkAtoms
 onbeforeunload
 )
 ;
-RefPtr
+nsRefPtr
 <
 OnBeforeUnloadEventHandlerNonNull
 >
@@ -1114,7 +1114,7 @@ eNormal
 ErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 EventHandlerNonNull
 >

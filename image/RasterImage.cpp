@@ -195,7 +195,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1773,7 +1773,7 @@ mSize
 height
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1851,7 +1851,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -1971,7 +1971,7 @@ OP_SOURCE
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2123,7 +2123,7 @@ forget
 Pair
 <
 DrawResult
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2167,7 +2167,7 @@ DrawResult
 :
 :
 BAD_ARGS
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2190,7 +2190,7 @@ DrawResult
 :
 :
 BAD_ARGS
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2211,7 +2211,7 @@ DrawResult
 :
 :
 BAD_IMAGE
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2246,7 +2246,7 @@ DrawResult
 :
 :
 TEMPORARY_ERROR
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2255,7 +2255,7 @@ SourceSurface
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2385,7 +2385,7 @@ aContainer
 DrawResult
 drawResult
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5484,7 +5484,7 @@ const
 ImageRegion
 &
 aRegion
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aFlags
@@ -5693,7 +5693,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 const
 Maybe
@@ -5788,10 +5788,10 @@ flags
 aFilter
 =
 =
-Filter
+GraphicsFilter
 :
 :
-GOOD
+FILTER_GOOD
 ?
 aFlags
 :
@@ -7124,7 +7124,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-Filter
+GraphicsFilter
 aFilter
 uint32_t
 aFlags
@@ -7221,10 +7221,10 @@ if
 aFilter
 =
 =
-Filter
+GraphicsFilter
 :
 :
-GOOD
+FILTER_GOOD
 &
 &
 CanDownscaleDuringDecode

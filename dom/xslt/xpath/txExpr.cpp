@@ -19,7 +19,7 @@ bool
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >
@@ -70,7 +70,7 @@ nsString
 aResult
 )
 {
-RefPtr
+nsRefPtr
 <
 txAExprResult
 >

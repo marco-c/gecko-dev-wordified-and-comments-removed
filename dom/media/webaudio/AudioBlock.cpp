@@ -123,7 +123,7 @@ value
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AudioBlockBuffer
 >
@@ -520,7 +520,7 @@ return
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 AudioBlockBuffer
 >

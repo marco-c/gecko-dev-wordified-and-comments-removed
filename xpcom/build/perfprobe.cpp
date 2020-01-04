@@ -759,7 +759,7 @@ nsACString
 aEventName
 )
 {
-RefPtr
+nsRefPtr
 <
 Probe
 >
@@ -812,7 +812,7 @@ StartSession
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Probe
 >

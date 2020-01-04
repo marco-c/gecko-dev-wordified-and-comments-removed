@@ -149,7 +149,7 @@ mWindow
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Animation
 >
@@ -268,7 +268,7 @@ AnimationSet
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 dom
 :

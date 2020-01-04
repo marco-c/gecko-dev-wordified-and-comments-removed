@@ -60,7 +60,7 @@ std
 map
 <
 nsCString
-RefPtr
+nsRefPtr
 <
 mozilla
 :

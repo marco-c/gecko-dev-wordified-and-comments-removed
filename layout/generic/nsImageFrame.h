@@ -1040,7 +1040,7 @@ nsRect
 aFrameInvalidRect
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsImageMap
 >
@@ -1229,13 +1229,13 @@ mIconObservers
 ;
 public
 :
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
 mLoadingImage
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >

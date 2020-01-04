@@ -1440,7 +1440,7 @@ here
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -3274,7 +3274,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsDeviceContextSpecWin
 >

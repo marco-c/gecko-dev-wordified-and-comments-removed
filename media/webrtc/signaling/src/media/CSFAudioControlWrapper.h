@@ -6,7 +6,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -179,7 +179,7 @@ AudioControlWrapper
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 AudioControl
 >

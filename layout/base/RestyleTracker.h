@@ -1106,7 +1106,7 @@ aRestyleHintData
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -1173,7 +1173,7 @@ AddRestyleRootsIfAwaitingRestyle
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -1261,7 +1261,7 @@ PendingRestyleTable
 typedef
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 Element
 >

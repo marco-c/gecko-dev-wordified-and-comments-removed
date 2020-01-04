@@ -681,7 +681,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 VP8Metadata
 >
@@ -1225,7 +1225,7 @@ VideoChunk
 aChunk
 )
 {
-RefPtr
+nsRefPtr
 <
 Image
 >
@@ -2032,7 +2032,7 @@ n
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2078,7 +2078,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2970,7 +2970,7 @@ aData
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 EncodedFrame
 >

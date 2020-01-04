@@ -389,7 +389,7 @@ EditorDidHandleCompositionChangeEvent
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 TextComposition
 >
@@ -431,13 +431,13 @@ nsINode
 >
 mNode
 ;
-RefPtr
+nsRefPtr
 <
 TabParent
 >
 mTabParent
 ;
-RefPtr
+nsRefPtr
 <
 TextRangeArray
 >
@@ -677,7 +677,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 TextComposition
 >
@@ -730,7 +730,7 @@ final
 public
 nsAutoTArray
 <
-RefPtr
+nsRefPtr
 <
 TextComposition
 >

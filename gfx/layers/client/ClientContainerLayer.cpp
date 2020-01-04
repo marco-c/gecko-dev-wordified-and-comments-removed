@@ -73,7 +73,7 @@ phase
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 ClientContainerLayer
 >
@@ -123,7 +123,7 @@ phase
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 ClientRefLayer
 >

@@ -8584,7 +8584,7 @@ IsClipPathChild
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -8887,7 +8887,7 @@ GetPattern
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -8946,7 +8946,7 @@ GetFillRule
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -9141,7 +9141,7 @@ outerSVGToUser
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -9323,7 +9323,7 @@ gfxMatrix
 aCTM
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -11753,7 +11753,7 @@ CurrentMatrix
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCaret
 >
@@ -13617,7 +13617,7 @@ TextElementCharIndex
 -
 charnum
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -17641,7 +17641,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -17687,7 +17687,7 @@ IsIdentity
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -17832,7 +17832,7 @@ IsPercentage
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -17945,7 +17945,7 @@ AdvancePastCurrentFrame
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -19124,7 +19124,7 @@ frameLength
 factor
 )
 ;
-RefPtr
+nsRefPtr
 <
 SVGAnimatedEnumeration
 >
@@ -21615,7 +21615,7 @@ if
 ps
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >
@@ -21656,7 +21656,7 @@ if
 aOuterContextPaint
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxPattern
 >

@@ -526,7 +526,7 @@ const
 nsFont
 mFont
 ;
-RefPtr
+nsRefPtr
 <
 gfxFontGroup
 >

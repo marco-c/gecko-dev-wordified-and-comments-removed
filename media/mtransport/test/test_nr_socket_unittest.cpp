@@ -265,7 +265,7 @@ sts_
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 TestNrSocket
 >
@@ -280,7 +280,7 @@ TestNat
 nat
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNrSocket
 >
@@ -425,7 +425,7 @@ sock
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -449,7 +449,7 @@ ip_str
 "
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -480,7 +480,7 @@ return
 result
 ;
 }
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -494,7 +494,7 @@ char
 ip_str
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -1133,7 +1133,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 TestNrSocket
 >
@@ -1145,7 +1145,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 TestNrSocket
 >
@@ -1157,7 +1157,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -1257,7 +1257,7 @@ TestNrSocketTest
 PrivateConnectivity
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -1356,7 +1356,7 @@ TestNrSocketTest
 NoConnectivityWithoutPinhole
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -1415,7 +1415,7 @@ TestNrSocketTest
 NoConnectivityBetweenSubnets
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -1447,7 +1447,7 @@ TestNat
 :
 ENDPOINT_INDEPENDENT
 ;
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -1546,7 +1546,7 @@ TestNrSocketTest
 FullConeAcceptIngress
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -1642,7 +1642,7 @@ TestNrSocketTest
 FullConeOnePinhole
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -1776,7 +1776,7 @@ TestNrSocketTest
 DISABLED_AddressRestrictedCone
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -2056,7 +2056,7 @@ TestNrSocketTest
 RestrictedCone
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -2222,7 +2222,7 @@ TestNrSocketTest
 PortDependentMappingFullCone
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -2404,7 +2404,7 @@ TestNrSocketTest
 Symmetric
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -2548,7 +2548,7 @@ TestNrSocketTest
 BlockUdp
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -2629,7 +2629,7 @@ TestNrSocketTest
 DenyHairpinning
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -2709,7 +2709,7 @@ TestNrSocketTest
 AllowHairpinning
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >
@@ -2803,7 +2803,7 @@ TestNrSocketTest
 FullConeTimeout
 )
 {
-RefPtr
+nsRefPtr
 <
 TestNat
 >

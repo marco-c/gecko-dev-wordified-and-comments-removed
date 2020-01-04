@@ -108,7 +108,7 @@ Update
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TaskbarWindowPreview
 >

@@ -142,7 +142,7 @@ StorageBaseStatementInternal
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Connection
 >

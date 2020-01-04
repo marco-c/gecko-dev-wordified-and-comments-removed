@@ -85,7 +85,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -810,7 +810,7 @@ NextTile
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 gl
 :
@@ -819,7 +819,7 @@ TextureImage
 >
 mTexImage
 ;
-RefPtr
+nsRefPtr
 <
 CompositorOGL
 >
@@ -1047,7 +1047,7 @@ DeleteTextureHandle
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 CompositorOGL
 >
@@ -1245,7 +1245,7 @@ const
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 CompositorOGL
 >
@@ -1459,13 +1459,13 @@ gfx
 IntSize
 mSize
 ;
-RefPtr
+nsRefPtr
 <
 CompositorOGL
 >
 mCompositor
 ;
-RefPtr
+nsRefPtr
 <
 SurfaceTextureSource
 >
@@ -1636,7 +1636,7 @@ const
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 CompositorOGL
 >
@@ -1842,13 +1842,13 @@ const
 bool
 mHasAlpha
 ;
-RefPtr
+nsRefPtr
 <
 CompositorOGL
 >
 mCompositor
 ;
-RefPtr
+nsRefPtr
 <
 EGLImageTextureSource
 >

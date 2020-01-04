@@ -269,7 +269,7 @@ nsVolumeService
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsVolumeService
 >
@@ -562,7 +562,7 @@ volIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -639,7 +639,7 @@ autoLock
 mArrayMonitor
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -883,7 +883,7 @@ volIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -1119,7 +1119,7 @@ volIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -1272,7 +1272,7 @@ volIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -1492,7 +1492,7 @@ i
 ]
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -1647,7 +1647,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -1733,7 +1733,7 @@ volIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -1847,7 +1847,7 @@ volIndex
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -1933,7 +1933,7 @@ Array
 index_type
 volIndex
 ;
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -2096,7 +2096,7 @@ XRE_IsParentProcess
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -2198,7 +2198,7 @@ XRE_IsParentProcess
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -2238,7 +2238,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -2384,7 +2384,7 @@ Array
 index_type
 volIndex
 ;
-RefPtr
+nsRefPtr
 <
 nsVolume
 >
@@ -2660,13 +2660,13 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 nsVolumeService
 >
 mVolumeService
 ;
-RefPtr
+nsRefPtr
 <
 nsVolume
 >

@@ -145,7 +145,7 @@ getParams
 nsCString
 mSQLString
 ;
-RefPtr
+nsRefPtr
 <
 BindingParamsArray
 >

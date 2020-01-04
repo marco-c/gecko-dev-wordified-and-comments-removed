@@ -2553,7 +2553,7 @@ nsIStreamListener
 >
 listener
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -3668,7 +3668,7 @@ referrerPolicy
 imgReferrerPolicy
 ;
 }
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -4408,7 +4408,7 @@ NS_BINDING_ABORTED
 ON_NONVISIBLE_REQUEST_DISCARD
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -4805,7 +4805,7 @@ this
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -4831,7 +4831,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -4995,7 +4995,7 @@ keepFlags
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -5051,7 +5051,7 @@ return
 mCurrentRequest
 ;
 }
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >

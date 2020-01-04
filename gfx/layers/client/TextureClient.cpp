@@ -436,7 +436,7 @@ NS_IsMainThread
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ReleaseKeepAlive
 >
@@ -656,13 +656,13 @@ Release
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 CompositableForwarder
 >
 mForwarder
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -1430,7 +1430,7 @@ IsSameProcess
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 BufferTextureClient
 >
@@ -1453,7 +1453,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 BufferTextureClient
 >
@@ -1609,7 +1609,7 @@ parentBackend
 aSelector
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -2177,7 +2177,7 @@ TextureAllocationFlags
 aAllocFlags
 )
 {
-RefPtr
+nsRefPtr
 <
 BufferTextureClient
 >
@@ -2250,7 +2250,7 @@ TextureFlags
 aTextureFlags
 )
 {
-RefPtr
+nsRefPtr
 <
 BufferTextureClient
 >
@@ -2365,7 +2365,7 @@ TextureFlags
 aTextureFlags
 )
 {
-RefPtr
+nsRefPtr
 <
 BufferTextureClient
 >
@@ -2723,7 +2723,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2764,7 +2764,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2802,7 +2802,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2881,7 +2881,7 @@ IsLocked
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextureChild
 >
@@ -3108,7 +3108,7 @@ Surface
 :
 "
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -3674,7 +3674,7 @@ aAllocFlags
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 BufferTextureClient
 >
@@ -4112,7 +4112,7 @@ GetBufferSize
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -4148,7 +4148,7 @@ surface
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -4558,7 +4558,7 @@ if
 mReadbackSink
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -4571,7 +4571,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

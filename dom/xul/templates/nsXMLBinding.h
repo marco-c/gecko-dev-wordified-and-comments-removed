@@ -199,7 +199,7 @@ nsXMLBindingValues
 {
 protected
 :
-RefPtr
+nsRefPtr
 <
 nsXMLBindingSet
 >
@@ -207,7 +207,7 @@ mBindings
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :

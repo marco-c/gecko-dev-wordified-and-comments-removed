@@ -655,7 +655,7 @@ nullptr
 }
 }
 }
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -683,7 +683,7 @@ nodeInfo
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >

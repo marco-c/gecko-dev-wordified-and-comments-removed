@@ -1125,7 +1125,7 @@ bool
 aIsRoot
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1139,7 +1139,7 @@ ni
 =
 aNodeInfo
 ;
-RefPtr
+nsRefPtr
 <
 nsXULElement
 >
@@ -1401,7 +1401,7 @@ aResult
 return
 NS_ERROR_NULL_POINTER
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1480,7 +1480,7 @@ aPrototype
 mNodeInfo
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsXULElement
 >
@@ -1527,7 +1527,7 @@ NodeInfo
 aNodeInfo
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1626,7 +1626,7 @@ NodeInfo
 aNodeInfo
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1799,7 +1799,7 @@ aResult
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1813,7 +1813,7 @@ ni
 =
 aNodeInfo
 ;
-RefPtr
+nsRefPtr
 <
 nsXULElement
 >
@@ -1902,7 +1902,7 @@ nsAttrValue
 eCSSStyleRule
 )
 {
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -1934,7 +1934,7 @@ ToString
 stringValue
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -2201,7 +2201,7 @@ nsString
 aValue
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -2379,7 +2379,7 @@ nsString
 aValue
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsContentList
 >
@@ -7465,7 +7465,7 @@ slots
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameLoader
 >
@@ -8028,7 +8028,7 @@ if
 shell
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -8505,7 +8505,7 @@ nsAttrValue
 eCSSStyleRule
 )
 {
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -8541,7 +8541,7 @@ ToString
 stringValue
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -9876,7 +9876,7 @@ aProtoDoc
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -10002,7 +10002,7 @@ mNumAttributes
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -10483,7 +10483,7 @@ aDocumentURI
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -10852,7 +10852,7 @@ Type
 )
 number
 ;
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeNode
 >
@@ -10981,7 +10981,7 @@ case
 eType_Script
 :
 {
-RefPtr
+nsRefPtr
 <
 nsXULPrototypeScript
 >
@@ -11373,7 +11373,7 @@ mHasStyleAttribute
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -11649,7 +11649,7 @@ aProtoDoc
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -12069,7 +12069,7 @@ aDocumentURI
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -12461,7 +12461,7 @@ NotifyOffThreadScriptCompletedRunnable
 public
 nsRunnable
 {
-RefPtr
+nsRefPtr
 <
 nsIOffThreadScriptReceiver
 >
@@ -12589,7 +12589,7 @@ nsIOffThreadScriptReceiver
 aCallbackData
 )
 ;
-RefPtr
+nsRefPtr
 <
 NotifyOffThreadScriptCompletedRunnable
 >
@@ -13005,7 +13005,7 @@ aProtoDoc
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -13083,7 +13083,7 @@ aDocumentURI
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -13143,7 +13143,7 @@ aProtoDoc
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -13248,7 +13248,7 @@ aDocumentURI
 const
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :

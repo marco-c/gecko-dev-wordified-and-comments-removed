@@ -121,7 +121,7 @@ Close
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsZipHandle
 >
@@ -139,7 +139,7 @@ mOutCrc
 z_stream
 mZs
 ;
-RefPtr
+nsRefPtr
 <
 nsJAR
 >

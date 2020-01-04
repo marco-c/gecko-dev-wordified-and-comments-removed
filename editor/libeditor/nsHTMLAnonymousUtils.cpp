@@ -1877,7 +1877,7 @@ mResizedObjectIsAbsolutelyPositioned
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 nsComputedDOMStyle
 >

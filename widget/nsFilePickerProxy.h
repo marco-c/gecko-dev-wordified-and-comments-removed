@@ -278,7 +278,7 @@ override
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozilla
 :

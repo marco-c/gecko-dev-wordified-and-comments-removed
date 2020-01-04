@@ -7008,13 +7008,13 @@ _retval
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 nsIJSCID
 >
 mClassID
 ;
-RefPtr
+nsRefPtr
 <
 nsIJSIID
 >
@@ -7426,7 +7426,7 @@ nsIJSCID
 aClassID
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIJSCID
 >
@@ -7457,7 +7457,7 @@ nsIJSIID
 aInterfaceID
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIJSIID
 >
@@ -10550,7 +10550,7 @@ xpcIJSWeakReference
 _retval
 )
 {
-RefPtr
+nsRefPtr
 <
 xpcJSWeakReference
 >
@@ -10911,7 +10911,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 ScheduledGCCallback
 >
@@ -10933,7 +10933,7 @@ ScheduledGCCallback
 aCallback
 )
 {
-RefPtr
+nsRefPtr
 <
 PreciseGCRunnable
 >
@@ -10964,7 +10964,7 @@ ScheduledGCCallback
 aCallback
 )
 {
-RefPtr
+nsRefPtr
 <
 PreciseGCRunnable
 >
@@ -13593,7 +13593,7 @@ WrappedJSHolder
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 nsXPCWrappedJS
 >
@@ -13707,7 +13707,7 @@ obj
 return
 NS_ERROR_FAILURE
 ;
-RefPtr
+nsRefPtr
 <
 WrappedJSHolder
 >
@@ -14777,7 +14777,7 @@ _n
 )
 ;
 \
-RefPtr
+nsRefPtr
 <
 nsXPCComponents_
 #

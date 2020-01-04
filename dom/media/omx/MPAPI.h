@@ -120,7 +120,7 @@ Cb
 VideoPlane
 Cr
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

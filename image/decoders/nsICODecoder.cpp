@@ -2152,7 +2152,7 @@ FAILURE
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsBMPDecoder
 >
@@ -2333,7 +2333,7 @@ PrepareForMask
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsBMPDecoder
 >
@@ -2725,7 +2725,7 @@ RowBuffer
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 nsBMPDecoder
 >
@@ -2935,7 +2935,7 @@ if
 mDownscaler
 )
 {
-RefPtr
+nsRefPtr
 <
 nsBMPDecoder
 >
@@ -3051,7 +3051,7 @@ PostHasTransparency
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsBMPDecoder
 >

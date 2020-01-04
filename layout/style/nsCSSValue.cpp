@@ -4320,7 +4320,7 @@ uint32_t
 aNumArgs
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -4472,7 +4472,7 @@ nsString
 aValue
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStringBuffer
 >
@@ -13856,7 +13856,7 @@ ClearRequestHashtable
 nsISupports
 *
 aKey
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >

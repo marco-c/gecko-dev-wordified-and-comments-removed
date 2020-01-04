@@ -195,7 +195,7 @@ mWindow
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsMimeType
 >
@@ -341,7 +341,7 @@ nsPIDOMWindow
 >
 mWindow
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginElement
 >

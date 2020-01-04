@@ -435,7 +435,7 @@ EndForcedQueueing
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 ChannelEventQueue
 >

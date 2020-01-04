@@ -78,7 +78,7 @@ Finish
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

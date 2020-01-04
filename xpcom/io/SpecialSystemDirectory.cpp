@@ -618,13 +618,13 @@ aFile
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 IShellLibrary
 >
 shellLib
 ;
-RefPtr
+nsRefPtr
 <
 IShellItem
 >

@@ -28,7 +28,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -259,7 +259,7 @@ mimeType
 aMimeType
 )
 ;
-RefPtr
+nsRefPtr
 <
 image
 :
@@ -276,7 +276,7 @@ CreateAnonymousImage
 mimeType
 )
 ;
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -666,7 +666,7 @@ nsIInputStream
 aStream
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -693,7 +693,7 @@ frame
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -872,7 +872,7 @@ imageHeight
 aScaledHeight
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -905,7 +905,7 @@ frame
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -966,7 +966,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -1192,7 +1192,7 @@ aStream
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1288,7 +1288,7 @@ aOffsetY
 aHeight
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1354,7 +1354,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

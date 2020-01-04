@@ -980,7 +980,7 @@ nsIDOMNode
 aNode
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHTMLURIRefObject
 >

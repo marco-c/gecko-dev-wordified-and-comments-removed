@@ -1082,7 +1082,7 @@ EventTarget
 >
 mNewTarget
 ;
-RefPtr
+nsRefPtr
 <
 EventListenerManager
 >
@@ -2537,7 +2537,7 @@ externalDOMEvent
 aDOMEvent
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >

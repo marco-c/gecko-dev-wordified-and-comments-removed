@@ -129,7 +129,7 @@ nsIAttribute
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMAttributeMap
 >

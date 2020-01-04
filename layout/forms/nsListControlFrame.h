@@ -1126,7 +1126,7 @@ mLastDropdownComputedBSize
 nscolor
 mLastDropdownBackstopColor
 ;
-RefPtr
+nsRefPtr
 <
 nsListEventListener
 >

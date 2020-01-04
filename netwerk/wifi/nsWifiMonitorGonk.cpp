@@ -632,7 +632,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 nsWifiAccessPoint
 >

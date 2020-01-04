@@ -104,7 +104,7 @@ public
 struct
 GrallocData
 {
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -356,7 +356,7 @@ omxFormat
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 GrallocTextureClientOGL
 >

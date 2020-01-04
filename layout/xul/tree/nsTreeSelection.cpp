@@ -2747,7 +2747,7 @@ DOMMenuItemInactive
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -3587,7 +3587,7 @@ NS_ENSURE_STATE
 node
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -3632,7 +3632,7 @@ void
 aClosure
 )
 {
-RefPtr
+nsRefPtr
 <
 nsTreeSelection
 >

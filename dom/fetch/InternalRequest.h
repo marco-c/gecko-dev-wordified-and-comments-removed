@@ -939,7 +939,7 @@ mMethod
 nsCString
 mURL
 ;
-RefPtr
+nsRefPtr
 <
 InternalHeaders
 >

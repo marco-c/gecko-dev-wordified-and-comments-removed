@@ -277,7 +277,7 @@ uint8_t
 aMessage
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaKeyMessageEvent
 >
@@ -375,7 +375,7 @@ GetAsSupports
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaKeyMessageEvent
 >

@@ -201,7 +201,7 @@ gfxAlternateValue
 >
 alternateValues
 ;
-RefPtr
+nsRefPtr
 <
 gfxFontFeatureValueSet
 >

@@ -133,7 +133,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMCameraDetectedFace
 >

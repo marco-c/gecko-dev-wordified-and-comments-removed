@@ -403,7 +403,7 @@ IsInDoc
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 Element
 >
@@ -668,7 +668,7 @@ ignoring
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsSMILInstanceTime
 >
@@ -1650,7 +1650,7 @@ ignoring
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsSMILInstanceTime
 >

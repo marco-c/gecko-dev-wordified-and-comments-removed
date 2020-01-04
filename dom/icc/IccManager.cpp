@@ -194,7 +194,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 IccListener
 >
@@ -356,7 +356,7 @@ mIccId
 =
 aIccId
 ;
-RefPtr
+nsRefPtr
 <
 IccChangeEvent
 >
@@ -385,7 +385,7 @@ SetTrusted
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -448,7 +448,7 @@ mIccId
 =
 aIccId
 ;
-RefPtr
+nsRefPtr
 <
 IccChangeEvent
 >
@@ -477,7 +477,7 @@ SetTrusted
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -515,7 +515,7 @@ aIccIds
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 IccListener
 >
@@ -594,7 +594,7 @@ const
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 IccListener
 >

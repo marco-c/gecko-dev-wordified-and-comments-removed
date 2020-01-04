@@ -142,7 +142,7 @@ swap
 mData
 )
 ;
-RefPtr
+nsRefPtr
 <
 IObserver
 >

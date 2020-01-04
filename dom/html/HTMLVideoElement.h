@@ -457,7 +457,7 @@ UpdateScreenWakeLock
 bool
 mUseScreenWakeLock
 ;
-RefPtr
+nsRefPtr
 <
 WakeLock
 >

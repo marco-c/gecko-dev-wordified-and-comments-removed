@@ -885,7 +885,7 @@ std
 string
 &
 pcHandle
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -958,7 +958,7 @@ return
 }
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 MediaStreamTrack
 >
@@ -1324,7 +1324,7 @@ ErrorCodeAsInt
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -2197,7 +2197,7 @@ AudioChannel
 Normal
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >
@@ -2334,7 +2334,7 @@ PeerConnectionImpl
 :
 CreateRemoteSourceStreamInfo
 (
-RefPtr
+nsRefPtr
 <
 RemoteSourceStreamInfo
 >
@@ -2358,7 +2358,7 @@ PC_AUTO_ENTER_API_CALL_NO_CHECK
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >
@@ -2378,7 +2378,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 RemoteSourceStreamInfo
 >
@@ -2699,7 +2699,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIURI
 >
@@ -4412,7 +4412,7 @@ nullptr
 }
 }
 const
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -4441,7 +4441,7 @@ mCertificate
 }
 #
 endif
-RefPtr
+nsRefPtr
 <
 DtlsIdentity
 >
@@ -4479,7 +4479,7 @@ CreateDtlsIdentity
 ;
 #
 else
-RefPtr
+nsRefPtr
 <
 DtlsIdentity
 >
@@ -6406,7 +6406,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 TransportFlow
 >
@@ -6534,7 +6534,7 @@ defined
 (
 MOZILLA_EXTERNAL_LINKAGE
 )
-RefPtr
+nsRefPtr
 <
 nsDOMDataChannel
 >
@@ -6621,7 +6621,7 @@ defined
 (
 MOZILLA_EXTERNAL_LINKAGE
 )
-RefPtr
+nsRefPtr
 <
 DataChannel
 >
@@ -6782,7 +6782,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -6936,7 +6936,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsSupportsWeakReference
 >
@@ -6947,7 +6947,7 @@ do_QueryObject
 tmp
 )
 ;
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -6983,12 +6983,12 @@ static
 void
 NotifyDataChannel_m
 (
-RefPtr
+nsRefPtr
 <
 nsIDOMDataChannel
 >
 aChannel
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -7005,7 +7005,7 @@ NS_IsMainThread
 JSErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsDOMDataChannel
 >
@@ -7129,7 +7129,7 @@ mHaveDataStream
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -7396,7 +7396,7 @@ PC_AUTO_ENTER_API_CALL
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -7670,7 +7670,7 @@ PC_AUTO_ENTER_API_CALL
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -7900,7 +7900,7 @@ NS_ERROR_FAILURE
 JSErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -8319,7 +8319,7 @@ NS_ERROR_FAILURE
 JSErrorResult
 jrv
 ;
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -8653,7 +8653,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -8681,7 +8681,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -8714,7 +8714,7 @@ end
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -8802,7 +8802,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -8815,7 +8815,7 @@ i
 >
 second
 ;
-RefPtr
+nsRefPtr
 <
 RemoteSourceStreamInfo
 >
@@ -9020,7 +9020,7 @@ end
 j
 )
 {
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -9221,7 +9221,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -9260,7 +9260,7 @@ end
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 RemoteSourceStreamInfo
 >
@@ -9686,7 +9686,7 @@ true
 JSErrorResult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -10921,7 +10921,7 @@ GetStreamId
 stream
 )
 ;
-RefPtr
+nsRefPtr
 <
 LocalSourceStreamInfo
 >
@@ -11082,7 +11082,7 @@ PC_AUTO_ENTER_API_CALL
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -12385,7 +12385,7 @@ mCancelable
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 PluginCrashedEvent
 >
@@ -13374,7 +13374,7 @@ CloseInt
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -14101,7 +14101,7 @@ string
 candidate
 )
 {
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -14646,7 +14646,7 @@ mIceConnectionState
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -14813,7 +14813,7 @@ mIceGatheringState
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -17530,7 +17530,7 @@ impl
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -17673,7 +17673,7 @@ mShouldSuppressNegotiationNeeded
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 PeerConnectionObserver
 >
@@ -17857,7 +17857,7 @@ GetLocalStreams
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >
@@ -17952,7 +17952,7 @@ GetRemoteStreams
 (
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 DOMMediaStream
 >

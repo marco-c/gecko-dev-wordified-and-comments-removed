@@ -1403,13 +1403,13 @@ MaybeDestroyNativeCaret
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsWindowBase
 >
 mWidget
 ;
-RefPtr
+nsRefPtr
 <
 ITfDocumentMgr
 >
@@ -1418,13 +1418,13 @@ mDocumentMgr
 DWORD
 mEditCookie
 ;
-RefPtr
+nsRefPtr
 <
 ITfContext
 >
 mContext
 ;
-RefPtr
+nsRefPtr
 <
 ITextStoreACPSink
 >
@@ -1445,7 +1445,7 @@ final
 {
 public
 :
-RefPtr
+nsRefPtr
 <
 ITfCompositionView
 >
@@ -2065,7 +2065,7 @@ mSelectionLength
 nsString
 mData
 ;
-RefPtr
+nsRefPtr
 <
 TextRangeArray
 >
@@ -2430,7 +2430,7 @@ AutoPendingActionAndContentFlusher
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 TSFTextStore
 >
@@ -2978,7 +2978,7 @@ mStart
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 ITfMouseSink
 >

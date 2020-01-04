@@ -1818,7 +1818,7 @@ threshold
 =
 10
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -2963,7 +2963,7 @@ if
 docElement
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -5577,7 +5577,7 @@ Destroy
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -5637,7 +5637,7 @@ bool
 aSkipParentDisplayBasedStyleFixup
 )
 {
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

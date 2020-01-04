@@ -350,7 +350,7 @@ IDBKeyRange
 aKeyRange
 )
 {
-RefPtr
+nsRefPtr
 <
 IDBKeyRange
 >
@@ -562,7 +562,7 @@ SerializedKeyRange
 aKeyRange
 )
 {
-RefPtr
+nsRefPtr
 <
 IDBKeyRange
 >
@@ -1465,7 +1465,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 IDBKeyRange
 >
@@ -1554,7 +1554,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 IDBKeyRange
 >
@@ -1643,7 +1643,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 IDBKeyRange
 >
@@ -1745,7 +1745,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 IDBKeyRange
 >
@@ -1932,7 +1932,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 IDBLocaleAwareKeyRange
 >

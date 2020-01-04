@@ -381,7 +381,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 StumblerInfo
 >
@@ -640,7 +640,7 @@ sLastLon
 =
 longitude
 ;
-RefPtr
+nsRefPtr
 <
 StumblerInfo
 >
@@ -652,7 +652,7 @@ StumblerInfo
 position
 )
 ;
-RefPtr
+nsRefPtr
 <
 RequestCellInfoEvent
 >

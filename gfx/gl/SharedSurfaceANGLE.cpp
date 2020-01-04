@@ -302,7 +302,7 @@ LOCAL_EGL_DXGI_KEYED_MUTEX_ANGLE
 opaqueKeyedMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 IDXGIKeyedMutex
 >
@@ -427,7 +427,7 @@ pbuffer
 HANDLE
 shareHandle
 const
-RefPtr
+nsRefPtr
 <
 IDXGIKeyedMutex
 >
@@ -717,7 +717,7 @@ if
 mConsumerTexture
 )
 {
-RefPtr
+nsRefPtr
 <
 ID3D11Texture2D
 >
@@ -774,7 +774,7 @@ mConsumerTexture
 =
 tex
 ;
-RefPtr
+nsRefPtr
 <
 IDXGIKeyedMutex
 >
@@ -1069,7 +1069,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1180,7 +1180,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :

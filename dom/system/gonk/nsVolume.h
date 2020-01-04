@@ -365,7 +365,7 @@ mIsHotSwappable
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsVolume
 >

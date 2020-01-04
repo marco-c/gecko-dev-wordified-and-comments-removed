@@ -61,7 +61,7 @@ RtspMediaCodecReader
 )
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 SeekPromise
 >
@@ -104,7 +104,7 @@ SetIdle
 override
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 VideoDataPromise
 >
@@ -118,7 +118,7 @@ aTimeThreshold
 override
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 AudioDataPromise
 >
@@ -128,7 +128,7 @@ RequestAudioData
 override
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 :

@@ -561,7 +561,7 @@ Element
 >
 mElement
 ;
-RefPtr
+nsRefPtr
 <
 nsContentPermissionRequestProxy
 >
@@ -1062,7 +1062,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 ContentPermissionType
 >
@@ -1381,7 +1381,7 @@ do_CreateInstance
 NS_ARRAY_CONTRACTID
 )
 ;
-RefPtr
+nsRefPtr
 <
 ContentPermissionType
 >
@@ -1518,7 +1518,7 @@ XRE_IsContentProcess
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 RemotePermissionRequest
 >
@@ -2996,7 +2996,7 @@ NS_ENSURE_ARG_POINTER
 aRequester
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsContentPermissionRequesterProxy
 >

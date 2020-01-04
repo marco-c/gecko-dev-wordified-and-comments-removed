@@ -2351,7 +2351,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaDecoder
 >
@@ -2884,7 +2884,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaDecoder
 >

@@ -267,7 +267,7 @@ JSObject
 objSelf
 )
 {
-RefPtr
+nsRefPtr
 <
 FinalizationEvent
 >
@@ -467,7 +467,7 @@ toObject
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 FinalizationEvent
 >
@@ -662,7 +662,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 FinalizationEvent
 >

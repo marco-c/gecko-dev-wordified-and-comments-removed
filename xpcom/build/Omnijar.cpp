@@ -468,7 +468,7 @@ true
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsZipArchive
 >
@@ -496,7 +496,7 @@ file
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsZipHandle
 >

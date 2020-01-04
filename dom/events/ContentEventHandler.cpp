@@ -3266,7 +3266,7 @@ range
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -4566,7 +4566,7 @@ if
 compare
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -4915,7 +4915,7 @@ GetLineBreakType
 aEvent
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -5221,7 +5221,7 @@ GetLineBreakType
 aEvent
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -6113,7 +6113,7 @@ NS_OK
 }
 }
 }
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -6287,7 +6287,7 @@ FontSizeInflationFor
 frame
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -7602,7 +7602,7 @@ invalid
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsRange
 >
@@ -8332,7 +8332,7 @@ nsIContent
 node
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -8821,7 +8821,7 @@ rv
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsRange
 >

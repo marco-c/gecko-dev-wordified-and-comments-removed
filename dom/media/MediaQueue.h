@@ -66,7 +66,7 @@ void
 aObject
 )
 {
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -255,7 +255,7 @@ mon
 mReentrantMonitor
 )
 ;
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -377,7 +377,7 @@ GetSize
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -536,7 +536,7 @@ int64_t
 aTime
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -626,7 +626,7 @@ GetSize
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -661,7 +661,7 @@ uint32_t
 aMaxElements
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -789,7 +789,7 @@ frames
 }
 MediaEventSource
 <
-RefPtr
+nsRefPtr
 <
 T
 >
@@ -837,7 +837,7 @@ mReentrantMonitor
 ;
 MediaEventProducer
 <
-RefPtr
+nsRefPtr
 <
 T
 >

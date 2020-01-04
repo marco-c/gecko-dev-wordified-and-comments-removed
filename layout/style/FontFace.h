@@ -768,7 +768,7 @@ nsISupports
 >
 mParent
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -780,13 +780,13 @@ Promise
 >
 mLoaded
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSFontFaceRule
 >
 mRule
 ;
-RefPtr
+nsRefPtr
 <
 Entry
 >
@@ -830,7 +830,7 @@ CSSFontFaceDescriptors
 >
 mDescriptors
 ;
-RefPtr
+nsRefPtr
 <
 FontFaceSet
 >

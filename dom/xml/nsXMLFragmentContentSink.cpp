@@ -684,7 +684,7 @@ bool
 aTerminated
 )
 {
-RefPtr
+nsRefPtr
 <
 nsParserBase
 >
@@ -1000,7 +1000,7 @@ data
 aData
 )
 ;
-RefPtr
+nsRefPtr
 <
 ProcessingInstruction
 >

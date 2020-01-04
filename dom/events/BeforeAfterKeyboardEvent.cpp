@@ -124,7 +124,7 @@ BeforeAfterKeyboardEventInit
 aParam
 )
 {
-RefPtr
+nsRefPtr
 <
 BeforeAfterKeyboardEvent
 >
@@ -328,7 +328,7 @@ InternalBeforeAfterKeyboardEvent
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 BeforeAfterKeyboardEvent
 >

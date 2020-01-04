@@ -349,7 +349,7 @@ size_t
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 HTMLSelectElement
 >
@@ -1685,7 +1685,7 @@ return
 mSelectionHasChanged
 ;
 }
-RefPtr
+nsRefPtr
 <
 HTMLOptionsCollection
 >
@@ -1736,7 +1736,7 @@ SelectState
 >
 mRestoreState
 ;
-RefPtr
+nsRefPtr
 <
 nsContentList
 >

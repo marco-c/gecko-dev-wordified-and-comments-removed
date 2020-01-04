@@ -7319,7 +7319,7 @@ cssParser
 cssLoader
 )
 ;
-RefPtr
+nsRefPtr
 <
 css
 :
@@ -8132,7 +8132,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsStringBuffer
 >

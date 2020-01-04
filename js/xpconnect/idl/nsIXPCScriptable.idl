@@ -911,7 +911,7 @@ CallQueryInterface
 nsISupports
 *
 aSourcePtr
-RefPtrGetterAddRefs
+nsRefPtrGetterAddRefs
 <
 nsXPCClassInfo
 >

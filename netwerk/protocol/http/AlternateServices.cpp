@@ -627,7 +627,7 @@ get
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 AltSvcMapping
 >
@@ -1212,7 +1212,7 @@ nsProxyInfo
 pi
 )
 {
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -2092,7 +2092,7 @@ countRead
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 AltSvcMapping
 >
@@ -2399,7 +2399,7 @@ mHashKey
 map
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -2443,7 +2443,7 @@ AltSvcOverride
 aCallbacks
 )
 ;
-RefPtr
+nsRefPtr
 <
 AltSvcTransaction
 >

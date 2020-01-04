@@ -669,7 +669,7 @@ GetConnected
 isConnected
 )
 ;
-RefPtr
+nsRefPtr
 <
 PortConnectionChangedCallback
 >

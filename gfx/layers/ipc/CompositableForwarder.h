@@ -500,14 +500,14 @@ mTextureFactoryIdentifier
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
 >
 mTexturesToRemove
 ;
-RefPtr
+nsRefPtr
 <
 SyncObject
 >

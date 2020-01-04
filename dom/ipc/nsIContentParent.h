@@ -494,7 +494,7 @@ aPrincipal
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 nsFrameMessageManager
 >

@@ -472,7 +472,7 @@ SVGAnimatedPreserveAspectRatio
 *
 mVal
 ;
-RefPtr
+nsRefPtr
 <
 nsSVGElement
 >

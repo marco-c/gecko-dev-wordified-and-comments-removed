@@ -998,7 +998,7 @@ ATTR_VALUE_NO_MATCH
 )
 return
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >
@@ -1147,7 +1147,7 @@ IsImportEnabled
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ImportManager
 >
@@ -2259,7 +2259,7 @@ GetImport
 return
 mImportLoader
 ?
-RefPtr
+nsRefPtr
 <
 nsIDocument
 >

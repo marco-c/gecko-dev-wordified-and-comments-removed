@@ -8908,7 +8908,7 @@ nullptr
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 Accessible
 >
@@ -9068,7 +9068,7 @@ GetSize
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPresContext
 >

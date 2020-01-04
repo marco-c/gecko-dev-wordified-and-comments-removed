@@ -131,7 +131,7 @@ std
 :
 deque
 <
-RefPtr
+nsRefPtr
 <
 nsTransactionItem
 >

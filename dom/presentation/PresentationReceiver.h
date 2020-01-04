@@ -160,7 +160,7 @@ mWindowId
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PresentationSession
 >
@@ -169,7 +169,7 @@ mSessions
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Promise
 >

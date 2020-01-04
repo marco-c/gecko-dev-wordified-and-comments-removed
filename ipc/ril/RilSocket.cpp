@@ -41,7 +41,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -212,13 +212,13 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 WorkerCrossThreadDispatcher
 >
 mDispatcher
 ;
-RefPtr
+nsRefPtr
 <
 RilSocket
 >
@@ -612,7 +612,7 @@ ConsumeBuffer
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 ReceiveTask
 >

@@ -1242,7 +1242,7 @@ GetOuterScreenRect
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DOMRect
 >

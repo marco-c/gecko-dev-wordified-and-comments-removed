@@ -1516,7 +1516,7 @@ Next
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Accessible
 >

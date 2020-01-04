@@ -530,7 +530,7 @@ WidgetSimpleGestureEvent
 aEvent
 )
 {
-RefPtr
+nsRefPtr
 <
 SimpleGestureEvent
 >

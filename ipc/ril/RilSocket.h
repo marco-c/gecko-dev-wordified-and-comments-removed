@@ -189,7 +189,7 @@ RilSocketIO
 *
 mIO
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

@@ -236,7 +236,7 @@ ProcessDrain
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 FlushableTaskQueue
 >

@@ -164,7 +164,7 @@ PNeckoParent
 *
 mNeckoParent
 ;
-RefPtr
+nsRefPtr
 <
 TCPServerSocket
 >

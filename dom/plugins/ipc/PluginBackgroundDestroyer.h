@@ -75,7 +75,7 @@ why
 )
 override
 ;
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >

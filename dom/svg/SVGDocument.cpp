@@ -379,7 +379,7 @@ document
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 SVGDocument
 >
@@ -647,7 +647,7 @@ if
 uri
 )
 {
-RefPtr
+nsRefPtr
 <
 CSSStyleSheet
 >
@@ -840,7 +840,7 @@ nsIDocument
 aInstancePtrResult
 )
 {
-RefPtr
+nsRefPtr
 <
 SVGDocument
 >

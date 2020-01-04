@@ -252,7 +252,7 @@ mButtonBoxFrame
 ;
 }
 ;
-RefPtr
+nsRefPtr
 <
 nsButtonBoxListener
 >

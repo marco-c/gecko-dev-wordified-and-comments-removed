@@ -426,7 +426,7 @@ rawStringArray
 ErrorResult
 er
 ;
-RefPtr
+nsRefPtr
 <
 mozContact
 >
@@ -528,7 +528,7 @@ uint32_t
 aCount
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozContact
 >
@@ -560,7 +560,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 mozContact
 >
@@ -1048,7 +1048,7 @@ int32_t
 aRetryCount
 )
 {
-RefPtr
+nsRefPtr
 <
 IccCardLockError
 >
@@ -1149,7 +1149,7 @@ GetGlobalJSObject
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 mozContact
 >
@@ -1282,7 +1282,7 @@ GetGlobalJSObject
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozContact
 >

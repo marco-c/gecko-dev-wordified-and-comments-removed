@@ -506,7 +506,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 Blob
 >
@@ -672,7 +672,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsFormData
 >
@@ -772,7 +772,7 @@ ParseInput
 aStr
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFormData
 >

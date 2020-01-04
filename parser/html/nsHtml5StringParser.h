@@ -103,7 +103,7 @@ bool
 aScriptingEnabledForNoscriptParsing
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsHtml5OplessBuilder
 >

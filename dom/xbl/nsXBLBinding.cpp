@@ -3250,7 +3250,7 @@ gPrototypeJSClass
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsXBLDocumentInfo
 >

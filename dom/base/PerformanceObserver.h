@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -217,13 +217,13 @@ nsISupports
 >
 mOwner
 ;
-RefPtr
+nsRefPtr
 <
 PerformanceObserverCallback
 >
 mCallback
 ;
-RefPtr
+nsRefPtr
 <
 PerformanceBase
 >
@@ -240,7 +240,7 @@ mConnected
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PerformanceEntry
 >

@@ -680,7 +680,7 @@ nsDownload
 aDl
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -824,7 +824,7 @@ i
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -978,7 +978,7 @@ i
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -1119,7 +1119,7 @@ i
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -3793,7 +3793,7 @@ hasResults
 hasResults
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -5585,7 +5585,7 @@ hasResults
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -7492,7 +7492,7 @@ rv
 rv
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -8067,7 +8067,7 @@ FindDownload
 aID
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -8227,7 +8227,7 @@ rv
 =
 NS_OK
 ;
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -8259,7 +8259,7 @@ get
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 AsyncResult
 >
@@ -8481,7 +8481,7 @@ enabled
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -8521,7 +8521,7 @@ nsACString
 aGUID
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -8581,7 +8581,7 @@ enabled
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -9030,7 +9030,7 @@ nsACString
 aGUID
 )
 {
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -9145,7 +9145,7 @@ enabled
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -12522,7 +12522,7 @@ mDownloadState
 =
 aState
 ;
-RefPtr
+nsRefPtr
 <
 nsDownload
 >
@@ -14199,7 +14199,7 @@ thread
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsDownload
 >

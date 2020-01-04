@@ -366,7 +366,7 @@ off
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsScreenGonk
 >
@@ -471,7 +471,7 @@ bool
 enabled
 )
 {
-RefPtr
+nsRefPtr
 <
 nsScreenManagerGonk
 >
@@ -1881,7 +1881,7 @@ IsPrimaryScreen
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsScreenGonk
 >
@@ -1926,7 +1926,7 @@ mScreenId
 =
 mId
 ;
-RefPtr
+nsRefPtr
 <
 nsWindow
 >
@@ -2032,7 +2032,7 @@ mIsMirroring
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 nsScreenGonk
 >
@@ -2370,7 +2370,7 @@ GetPrimaryScreen
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsScreenManagerGonk
 >
@@ -3103,7 +3103,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 DisplayInfo
 >

@@ -452,13 +452,13 @@ mozilla
 ReentrantMonitor
 mCallbackMonitor
 ;
-RefPtr
+nsRefPtr
 <
 ICameraControl
 >
 mCameraControl
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -481,7 +481,7 @@ mCameraSource
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PhotoCallback
 >
@@ -500,7 +500,7 @@ mBackCamera
 bool
 mOrientationChanged
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :

@@ -2746,7 +2746,7 @@ nsIInlineSpellChecker
 >
 mInlineSpellChecker
 ;
-RefPtr
+nsRefPtr
 <
 nsTransactionManager
 >
@@ -2764,7 +2764,7 @@ Element
 >
 mRootElement
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2815,7 +2815,7 @@ nsString
 *
 mPhonetic
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

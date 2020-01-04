@@ -2398,7 +2398,7 @@ nsAttrValue
 >
 mClassAnimAttr
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2451,7 +2451,7 @@ aNodeInfo
 \
 {
 \
-RefPtr
+nsRefPtr
 <
 nsSVG
 #
@@ -2559,7 +2559,7 @@ aNodeInfo
 \
 {
 \
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -2688,7 +2688,7 @@ aFromParser
 \
 {
 \
-RefPtr
+nsRefPtr
 <
 mozilla
 :

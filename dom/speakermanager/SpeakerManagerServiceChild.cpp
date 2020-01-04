@@ -126,7 +126,7 @@ return
 gSpeakerManagerServiceChild
 ;
 }
-RefPtr
+nsRefPtr
 <
 SpeakerManagerServiceChild
 >
@@ -370,7 +370,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >
@@ -411,7 +411,7 @@ SpeakerManagerServiceChild
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >

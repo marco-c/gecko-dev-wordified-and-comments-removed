@@ -186,7 +186,7 @@ CANCELED
 typedef
 MozPromise
 <
-RefPtr
+nsRefPtr
 <
 MetadataHolder
 >
@@ -198,7 +198,7 @@ MetadataPromise
 typedef
 MozPromise
 <
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -210,7 +210,7 @@ AudioDataPromise
 typedef
 MozPromise
 <
-RefPtr
+nsRefPtr
 <
 MediaData
 >
@@ -288,7 +288,7 @@ BreakCycles
 )
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 ShutdownPromise
 >
@@ -321,7 +321,7 @@ ResetDecode
 )
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 AudioDataPromise
 >
@@ -330,7 +330,7 @@ RequestAudioData
 )
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 VideoDataPromise
 >
@@ -361,7 +361,7 @@ false
 ;
 }
 virtual
-RefPtr
+nsRefPtr
 <
 WaitForDataPromise
 >
@@ -396,7 +396,7 @@ HasVideo
 0
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 MetadataPromise
 >
@@ -434,7 +434,7 @@ aInfo
 }
 ;
 virtual
-RefPtr
+nsRefPtr
 <
 SeekPromise
 >
@@ -635,7 +635,7 @@ bool
 aThrottleUpdates
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -745,7 +745,7 @@ return
 mDecoder
 ;
 }
-RefPtr
+nsRefPtr
 <
 VideoDataPromise
 >
@@ -777,7 +777,7 @@ int64_t
 aStartTime
 )
 {
-RefPtr
+nsRefPtr
 <
 MediaDecoderReader
 >
@@ -961,7 +961,7 @@ AbstractMediaDecoder
 *
 mDecoder
 ;
-RefPtr
+nsRefPtr
 <
 TaskQueue
 >
@@ -973,7 +973,7 @@ MediaDecoderReader
 >
 mWatchManager
 ;
-RefPtr
+nsRefPtr
 <
 MediaTimer
 >

@@ -401,7 +401,7 @@ JSObject
 >
 mJSChannels
 ;
-RefPtr
+nsRefPtr
 <
 ThreadSharedFloatArrayBufferList
 >

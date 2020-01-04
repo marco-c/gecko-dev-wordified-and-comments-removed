@@ -214,7 +214,7 @@ avail
 n
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsFtpControlConnectionListener
 >

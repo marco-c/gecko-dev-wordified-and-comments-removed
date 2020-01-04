@@ -332,7 +332,7 @@ bool
 RemovePendingSurrogate
 (
 const
-RefPtr
+nsRefPtr
 <
 PluginAsyncSurrogate
 >
@@ -1456,7 +1456,7 @@ mBrowserDumpID
 nsString
 mHangID
 ;
-RefPtr
+nsRefPtr
 <
 nsIObserver
 >
@@ -1518,7 +1518,7 @@ mIsNPShutdownPending
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 PluginAsyncSurrogate
 >
@@ -2478,7 +2478,7 @@ mOfflineObserver
 #
 ifdef
 MOZ_ENABLE_PROFILER_SPS
-RefPtr
+nsRefPtr
 <
 mozilla
 :

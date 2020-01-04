@@ -51,7 +51,7 @@ detail
 typedef
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 css
 :

@@ -459,7 +459,7 @@ char
 *
 mNotifyURL
 ;
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -523,7 +523,7 @@ mPendingStopBindingStatus
 ;
 public
 :
-RefPtr
+nsRefPtr
 <
 nsPluginStreamListenerPeer
 >

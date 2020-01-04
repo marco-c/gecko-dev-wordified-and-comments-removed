@@ -488,7 +488,7 @@ EnsureWriteScheduled
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 BlockChange
 >
