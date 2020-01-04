@@ -38,6 +38,8 @@ str
 )
 imports
 )
+.
+exports
 ;
 }
 function
