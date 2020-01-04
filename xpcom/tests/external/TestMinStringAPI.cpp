@@ -1184,7 +1184,7 @@ kWhitespace
 =
 "
 \
-b
+f
 \
 t
 \
