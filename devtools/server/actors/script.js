@@ -2737,7 +2737,9 @@ Set
 (
 )
 ;
-update
+Object
+.
+assign
 (
 this
 .
@@ -3037,7 +3039,9 @@ options
 observeAsmJS
 ;
 }
-update
+Object
+.
+assign
 (
 this
 .
@@ -9007,7 +9011,9 @@ PauseScopedActor
 prototype
 )
 ;
-update
+Object
+.
+assign
 (
 PauseScopedObjectActor
 .
@@ -9017,7 +9023,9 @@ ObjectActor
 prototype
 )
 ;
-update
+Object
+.
+assign
 (
 PauseScopedObjectActor
 .
@@ -9200,7 +9208,9 @@ return
 }
 )
 ;
-update
+Object
+.
+assign
 (
 PauseScopedObjectActor
 .
@@ -9512,7 +9522,9 @@ ThreadActor
 prototype
 )
 ;
-update
+Object
+.
+assign
 (
 ChromeDebuggerActor
 .
@@ -9568,7 +9580,9 @@ ThreadActor
 prototype
 )
 ;
-update
+Object
+.
+assign
 (
 AddonThreadActor
 .
