@@ -11411,6 +11411,9 @@ source
 fullURL
 line
 column
+showEmptyPathAsHost
+:
+true
 }
 onClick
 }
