@@ -327,7 +327,7 @@ topsrcdir
 =
 topobjdir
 :
-error
+die
 (
 '
 *
@@ -486,7 +486,7 @@ f
 if
 conflict_files
 :
-error
+die
 (
 '
 *
@@ -868,7 +868,7 @@ if
 not
 old_configure
 :
-error
+die
 (
 '
 The
@@ -1824,7 +1824,7 @@ if
 not
 found_python
 :
-error
+die
 (
 '
 The
@@ -1845,7 +1845,6 @@ find
 %
 s
 '
-%
 python
 )
 python
@@ -1978,7 +1977,7 @@ get_python_lib
 (
 )
 :
-error
+die
 (
 '
 Could
@@ -3415,7 +3414,7 @@ OpenBSD
 '
 else
 :
-error
+die
 (
 '
 Unknown
@@ -4882,7 +4881,7 @@ if
 not
 project
 :
-error
+die
 (
 '
 -
@@ -4947,7 +4946,7 @@ exists
 path
 )
 :
-error
+die
 (
 '
 Cannot
@@ -4956,7 +4955,6 @@ project
 %
 s
 '
-%
 project
 [
 0

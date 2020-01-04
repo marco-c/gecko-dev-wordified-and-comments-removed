@@ -214,7 +214,7 @@ isdir
 path
 )
 :
-error
+die
 (
 '
 MOZTTDIR
@@ -228,7 +228,6 @@ a
 valid
 directory
 '
-%
 path
 )
 return

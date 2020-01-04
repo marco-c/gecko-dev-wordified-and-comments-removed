@@ -568,7 +568,7 @@ mozbuild
 shellutil
 import
 quote
-error
+die
 (
 '
 Cannot
@@ -582,8 +582,6 @@ tried
 s
 )
 '
-%
-(
 var
 .
 lower
@@ -602,7 +600,6 @@ for
 p
 in
 progs
-)
 )
 )
 depends

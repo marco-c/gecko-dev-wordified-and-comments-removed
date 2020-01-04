@@ -286,7 +286,7 @@ isfile
 gradle
 )
 :
-error
+die
 (
 '
 GRADLE
@@ -297,7 +297,6 @@ executable
 %
 s
 '
-%
 gradle
 )
 return

@@ -238,7 +238,7 @@ CalledProcessError
 as
 e
 :
-error
+die
 (
 '
 Failed
@@ -250,7 +250,6 @@ version
 %
 s
 '
-%
 e
 .
 message

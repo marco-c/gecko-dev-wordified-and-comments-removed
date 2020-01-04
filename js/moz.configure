@@ -649,7 +649,7 @@ if
 not
 export_js
 :
-error
+die
 (
 '
 Must
@@ -859,7 +859,7 @@ shared
 -
 js
 '
-error
+die
 (
 '
 Setting
@@ -873,8 +873,6 @@ s
 instead
 .
 '
-%
-(
 value
 .
 format
@@ -884,7 +882,6 @@ DISABLE_SHARED_JS
 '
 )
 suggestion
-)
 )
 deprecated_option
 (
@@ -947,7 +944,7 @@ export
 -
 js
 '
-error
+die
 (
 '
 Setting
@@ -961,8 +958,6 @@ s
 instead
 .
 '
-%
-(
 value
 .
 format
@@ -972,7 +967,6 @@ DISABLE_EXPORT_JS
 '
 )
 suggestion
-)
 )
 #
 Profiling
@@ -1085,7 +1079,7 @@ os
 OSX
 '
 :
-error
+die
 (
 '
 -
@@ -1101,7 +1095,6 @@ targeting
 %
 s
 '
-%
 target
 .
 os

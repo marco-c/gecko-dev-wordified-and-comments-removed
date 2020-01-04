@@ -130,8 +130,9 @@ flush
 template
 advanced
 def
-error
+die
 (
+format
 *
 args
 )
@@ -149,7 +150,8 @@ import
 sys
 print
 (
-*
+format
+%
 args
 file
 =

@@ -243,7 +243,7 @@ os
 Android
 '
 :
-error
+die
 (
 '
 -
@@ -255,11 +255,10 @@ cannot
 be
 used
 when
-targetting
+targeting
 %
 s
 '
-%
 target
 .
 os
@@ -752,7 +751,7 @@ isdir
 path
 )
 :
-error
+die
 (
 "
 Invalid
@@ -771,7 +770,6 @@ doesn
 t
 exist
 "
-%
 path
 )
 return
@@ -1187,7 +1185,7 @@ not
 in
 platform_choices
 :
-error
+die
 (
 '
 %
@@ -1218,8 +1216,6 @@ values
 %
 s
 '
-%
-(
 value
 [
 0
@@ -1231,7 +1227,6 @@ os
 join
 (
 platform_choices
-)
 )
 )
 return
@@ -1437,7 +1432,7 @@ toolkit
 qt
 '
 :
-error
+die
 (
 '
 -
@@ -1490,7 +1485,7 @@ not
 in
 x11_toolkits
 :
-error
+die
 (
 '
 -
@@ -1515,7 +1510,6 @@ toolkit
 s
 }
 '
-%
 '
 '
 .
@@ -2509,7 +2503,7 @@ os
 WINNT
 '
 :
-error
+die
 (
 '
 Cannot
@@ -2522,7 +2516,6 @@ on
 %
 s
 '
-%
 target
 .
 os
@@ -3056,7 +3049,7 @@ and
 not
 fmp4
 :
-error
+die
 (
 '
 Encrypted
