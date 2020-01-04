@@ -644,7 +644,7 @@ NS_NewStyleContext
 (
 aParentContext
 mPresContext
-nullptr
+aPseudoTag
 CSSPseudoElementType
 :
 :
