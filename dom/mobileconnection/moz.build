@@ -220,6 +220,13 @@ idl
 '
 interfaces
 /
+nsIMobileDeviceIdentities
+.
+idl
+'
+'
+interfaces
+/
 nsIMobileNetworkInfo
 .
 idl
