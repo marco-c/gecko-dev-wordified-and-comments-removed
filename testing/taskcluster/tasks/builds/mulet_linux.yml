@@ -367,10 +367,6 @@ build
 /
 target
 .
-linux
--
-x86_64
-.
 tar
 .
 bz2
