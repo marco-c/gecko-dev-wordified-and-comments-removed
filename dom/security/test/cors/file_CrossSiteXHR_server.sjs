@@ -1104,6 +1104,10 @@ exposeHeaders
 }
 if
 (
+!
+isPreflight
+&
+&
 query
 .
 hop
