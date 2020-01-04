@@ -39,7 +39,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+RefPtr
 .
 h
 "
