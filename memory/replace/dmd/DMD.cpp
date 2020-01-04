@@ -934,6 +934,16 @@ nullptr
 )
 ;
 }
+bool
+checkSimulatedOOM
+(
+)
+const
+{
+return
+true
+;
+}
 }
 ;
 static
