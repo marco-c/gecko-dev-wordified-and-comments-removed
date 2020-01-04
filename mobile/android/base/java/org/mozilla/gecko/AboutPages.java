@@ -438,7 +438,7 @@ page
 )
 ;
 }
-private
+public
 static
 final
 String
@@ -451,6 +451,7 @@ String
 [
 ]
 {
+HOME
 ACCOUNTS
 ADDONS
 CONFIG
@@ -460,19 +461,6 @@ HEALTHREPORT
 UPDATER
 }
 ;
-public
-static
-String
-[
-]
-getDefaultIconPages
-(
-)
-{
-return
-DEFAULT_ICON_PAGES
-;
-}
 public
 static
 boolean
