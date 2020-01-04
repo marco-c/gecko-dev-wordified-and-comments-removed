@@ -515,12 +515,11 @@ bool
 HasLowerCompositeOrderThan
 (
 const
-Animation
+CSSAnimation
 &
 aOther
 )
 const
-override
 ;
 void
 SetAnimationIndex
