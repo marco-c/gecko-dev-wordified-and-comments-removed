@@ -162,11 +162,6 @@ LightweightThemeConsumer
 jsm
 '
 '
-MatchstickApp
-.
-jsm
-'
-'
 MediaPlayerApp
 .
 jsm
