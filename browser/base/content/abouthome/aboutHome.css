@@ -911,6 +911,8 @@ autofocus
 searchSubmit
 {
 background
+-
+image
 :
 url
 (
@@ -940,11 +942,6 @@ go
 inverted
 "
 )
-center
-center
-no
--
-repeat
 linear
 -
 gradient
@@ -1096,6 +1093,8 @@ searchSubmit
 hover
 {
 background
+-
+image
 :
 url
 (
@@ -1125,11 +1124,6 @@ go
 inverted
 "
 )
-center
-center
-no
--
-repeat
 linear
 -
 gradient
