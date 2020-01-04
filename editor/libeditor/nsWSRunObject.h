@@ -668,8 +668,6 @@ int32_t
 aSplitOffset
 )
 ;
-already_AddRefed
-<
 mozilla
 :
 :
@@ -677,7 +675,7 @@ dom
 :
 :
 Element
->
+*
 InsertBreak
 (
 nsCOMPtr

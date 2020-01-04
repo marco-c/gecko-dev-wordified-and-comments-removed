@@ -2020,10 +2020,8 @@ NS_ERROR_FAILURE
 ;
 }
 }
-already_AddRefed
-<
 Element
->
+*
 nsPlaintextEditor
 :
 :
@@ -2097,10 +2095,6 @@ br
 ;
 return
 ret
-.
-forget
-(
-)
 ;
 }
 nsresult
