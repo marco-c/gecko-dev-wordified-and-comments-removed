@@ -18,8 +18,6 @@ test
 let
 manager
 =
-ResponsiveUI
-.
 ResponsiveUIManager
 ;
 let

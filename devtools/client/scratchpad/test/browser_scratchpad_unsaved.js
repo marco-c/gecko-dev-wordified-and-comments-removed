@@ -29,13 +29,6 @@ finish
 ;
 }
 }
-var
-ScratchpadManager
-=
-Scratchpad
-.
-ScratchpadManager
-;
 function
 test
 (

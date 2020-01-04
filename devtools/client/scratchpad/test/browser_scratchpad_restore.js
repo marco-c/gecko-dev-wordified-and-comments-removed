@@ -1,10 +1,3 @@
-var
-ScratchpadManager
-=
-Scratchpad
-.
-ScratchpadManager
-;
 function
 asyncMap
 (
