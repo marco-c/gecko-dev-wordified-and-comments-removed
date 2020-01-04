@@ -37,6 +37,16 @@ appToken
 )
 ;
 void
+onPause
+(
+)
+;
+void
+onResume
+(
+)
+;
+void
 setEnabled
 (
 final
