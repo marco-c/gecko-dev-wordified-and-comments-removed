@@ -286,7 +286,7 @@ offsets
 )
 .
 length
-6
+7
 )
 ;
 doSingleStep
