@@ -31992,11 +31992,9 @@ chainIndex
 ;
 aEvent
 .
-mFlags
-.
-mNoCrossProcessBoundaryForwarding
-=
-true
+StopCrossProcessForwarding
+(
+)
 ;
 return
 ;

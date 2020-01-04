@@ -1772,11 +1772,9 @@ isReserved
 widgetKeyboardEvent
 -
 >
-mFlags
-.
-mNoCrossProcessBoundaryForwarding
-=
-true
+StopCrossProcessForwarding
+(
+)
 ;
 widgetKeyboardEvent
 -

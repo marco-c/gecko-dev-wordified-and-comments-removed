@@ -2082,11 +2082,9 @@ StopCrossProcessForwarding
 mEvent
 -
 >
-mFlags
-.
-mNoCrossProcessBoundaryForwarding
-=
-true
+StopCrossProcessForwarding
+(
+)
 ;
 return
 NS_OK

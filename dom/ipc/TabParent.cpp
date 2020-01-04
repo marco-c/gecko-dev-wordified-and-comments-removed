@@ -9654,11 +9654,9 @@ event
 ;
 localEvent
 .
-mFlags
-.
-mNoCrossProcessBoundaryForwarding
-=
-true
+StopCrossProcessForwarding
+(
+)
 ;
 nsIDocument
 *
