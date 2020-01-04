@@ -1059,15 +1059,6 @@ Settings
 <
 !
 ENTITY
-pref_category_input_options
-"
-Input
-options
-"
->
-<
-!
-ENTITY
 pref_category_general
 "
 General
