@@ -303,9 +303,10 @@ mConnection
 =
 aConnection
 ;
-mURI
-=
+SetURI
+(
 aURI
+)
 ;
 auto
 type
