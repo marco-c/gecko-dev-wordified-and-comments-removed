@@ -232,9 +232,7 @@ else
 BRANDPATH
 =
 (
-abspath
-(
-DIST
+ABS_DIST
 )
 /
 xpi
@@ -258,7 +256,6 @@ branding
 brand
 .
 dtd
-)
 endif
 (
 warnIfEmpty

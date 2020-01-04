@@ -114,14 +114,11 @@ archive
 STAGE_DIR
 =
 (
-abspath
-(
-DIST
+ABS_DIST
 )
 /
 (
 PKG_UPDATE_PATH
-)
 )
 ifeq
 (

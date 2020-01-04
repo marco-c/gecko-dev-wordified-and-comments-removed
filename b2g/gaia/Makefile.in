@@ -201,10 +201,7 @@ TAR_CREATE_FLAGS
 (
 cd
 (
-abspath
-(
-DIST
-)
+ABS_DIST
 )
 /
 bin

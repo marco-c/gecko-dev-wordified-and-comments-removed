@@ -586,10 +586,7 @@ test_archive
 mozharness
 \
 (
-abspath
-(
-DIST
-)
+ABS_DIST
 )
 /
 (
