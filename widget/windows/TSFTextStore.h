@@ -3039,6 +3039,14 @@ sDoNotReturnNoLayoutErrorToEasyChangjei
 ;
 static
 bool
+sDoNotReturnNoLayoutErrorToMSJapaneseIMEAtFirstChar
+;
+static
+bool
+sDoNotReturnNoLayoutErrorToMSJapaneseIMEAtCaret
+;
+static
+bool
 sDoNotReturnNoLayoutErrorToGoogleJaInputAtFirstChar
 ;
 static
