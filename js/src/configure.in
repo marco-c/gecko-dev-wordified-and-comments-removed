@@ -11375,6 +11375,15 @@ Wtype
 -
 limits
 "
+MOZ_CXX_SUPPORTS_WARNING
+(
+-
+W
+class
+-
+varargs
+ac_cxx_has_wclass_varargs
+)
 #
 Treat
 some
