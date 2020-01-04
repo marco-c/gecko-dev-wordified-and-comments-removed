@@ -375,7 +375,7 @@ uint32_t
 mNextGeneration
 ;
 struct
-GetReportsState
+PendingProcessesState
 {
 uint32_t
 mGeneration
@@ -443,7 +443,7 @@ mFinishReportingData
 nsString
 mDMDDumpIdent
 ;
-GetReportsState
+PendingProcessesState
 (
 uint32_t
 aGeneration
@@ -473,11 +473,11 @@ aDMDDumpIdent
 ;
 }
 ;
-GetReportsState
+PendingProcessesState
 *
-mGetReportsState
+mPendingProcessesState
 ;
-GetReportsState
+PendingProcessesState
 *
 GetStateForGeneration
 (
@@ -499,7 +499,7 @@ ContentParent
 *
 aChild
 const
-GetReportsState
+PendingProcessesState
 *
 aState
 )
