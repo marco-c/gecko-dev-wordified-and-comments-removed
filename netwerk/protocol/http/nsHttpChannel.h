@@ -915,6 +915,11 @@ AwaitingCacheCallbacks
 (
 )
 ;
+void
+SetCouldBeSynthesized
+(
+)
+;
 protected
 :
 virtual

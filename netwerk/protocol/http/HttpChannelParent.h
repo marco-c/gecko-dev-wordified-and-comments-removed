@@ -612,6 +612,14 @@ override
 ;
 private
 :
+void
+UpdateAndSerializeSecurityInfo
+(
+nsACString
+&
+aSerializedSecurityInfoOut
+)
+;
 nsRefPtr
 <
 nsHttpChannel
