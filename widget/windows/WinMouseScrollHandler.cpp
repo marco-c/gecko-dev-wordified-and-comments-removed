@@ -1459,7 +1459,7 @@ aWidget
 WidgetGUIEvent
 &
 aEvent
-nsIntPoint
+LayoutDeviceIntPoint
 *
 aPoint
 )
@@ -1469,7 +1469,7 @@ NS_ENSURE_TRUE_VOID
 aWidget
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 point
 ;
 if

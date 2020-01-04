@@ -19424,7 +19424,7 @@ return
 TS_E_NOLAYOUT
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 ourPt
 (
 pt
@@ -19443,7 +19443,7 @@ ourPt
 mWidget
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 ;

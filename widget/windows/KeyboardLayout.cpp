@@ -4880,7 +4880,7 @@ aModKeyState
 )
 const
 {
-nsIntPoint
+LayoutDeviceIntPoint
 point
 (
 0

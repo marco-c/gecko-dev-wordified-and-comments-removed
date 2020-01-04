@@ -5576,7 +5576,7 @@ eCompositionStart
 aWindow
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 point
 (
 0
@@ -6745,7 +6745,7 @@ message
 aWindow
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 point
 (
 0
@@ -7761,7 +7761,7 @@ RECONVERTSTRING
 lParam
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 point
 (
 0
@@ -8752,7 +8752,7 @@ kungFuDeathGrip
 aWindow
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 point
 (
 0
@@ -9866,7 +9866,7 @@ WritingMode
 aWritingMode
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 point
 (
 0
@@ -10370,7 +10370,7 @@ WritingMode
 aWritingMode
 )
 {
-nsIntPoint
+LayoutDeviceIntPoint
 point
 (
 0
@@ -13291,7 +13291,7 @@ eQuerySelectedText
 aWindow
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 point
 (
 0

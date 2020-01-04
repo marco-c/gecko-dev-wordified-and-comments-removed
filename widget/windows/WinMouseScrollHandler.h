@@ -197,7 +197,7 @@ aWidget
 WidgetGUIEvent
 &
 aEvent
-nsIntPoint
+LayoutDeviceIntPoint
 *
 aPoint
 =
