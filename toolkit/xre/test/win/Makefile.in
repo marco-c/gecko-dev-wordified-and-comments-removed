@@ -53,6 +53,9 @@ MPL
 0
 /
 .
+MOZ_WINCONSOLE
+=
+1
 include
 (
 topsrcdir

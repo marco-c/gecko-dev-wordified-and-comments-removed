@@ -68,6 +68,17 @@ MPL
 0
 /
 .
+ifeq
+(
+(
+OS_ARCH
+)
+WINNT
+)
+MOZ_WINCONSOLE
+=
+0
+endif
 ifdef
 MOZ_WIDGET_GTK
 OS_CXXFLAGS
