@@ -37,10 +37,7 @@ dir
 method
 "
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

@@ -38,10 +38,7 @@ html
 var
 hud
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

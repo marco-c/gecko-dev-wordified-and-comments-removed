@@ -34,10 +34,7 @@ body
 var
 gHUD
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

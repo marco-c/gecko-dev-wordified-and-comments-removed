@@ -81,10 +81,7 @@ lastFinishedRequests
 var
 webConsoleClient
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

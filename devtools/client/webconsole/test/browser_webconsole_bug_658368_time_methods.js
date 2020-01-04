@@ -149,10 +149,7 @@ script
 >
 "
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

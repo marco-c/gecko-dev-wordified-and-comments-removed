@@ -24,10 +24,7 @@ bug
 869981
 "
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *

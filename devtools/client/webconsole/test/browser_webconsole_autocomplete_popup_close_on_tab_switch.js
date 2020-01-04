@@ -35,10 +35,7 @@ tab
 switch
 "
 ;
-var
-test
-=
-asyncTest
+add_task
 (
 function
 *
