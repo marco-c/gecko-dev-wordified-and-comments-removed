@@ -519,6 +519,10 @@ gdk_x11_get_xatom_by_name
 )
 STUB
 (
+gdk_x11_get_xatom_by_name_for_display
+)
+STUB
+(
 gdk_x11_lookup_xdisplay
 )
 STUB
