@@ -71,6 +71,15 @@ SurfaceFormat
 B8G8R8X8
 ;
 case
+CAIRO_FORMAT_RGB16_565
+:
+return
+SurfaceFormat
+:
+:
+R5G6B5_UINT16
+;
+case
 CAIRO_FORMAT_A8
 :
 return
