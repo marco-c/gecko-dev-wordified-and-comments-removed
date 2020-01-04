@@ -2523,6 +2523,8 @@ aName
 rv
 )
 ;
+if
+(
 NS_WARN_IF
 (
 rv
@@ -2531,7 +2533,15 @@ Failed
 (
 )
 )
+)
+{
+rv
+.
+SuppressException
+(
+)
 ;
+}
 }
 }
 void

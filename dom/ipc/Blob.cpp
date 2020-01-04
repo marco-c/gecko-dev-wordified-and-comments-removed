@@ -3292,6 +3292,12 @@ Failed
 )
 )
 {
+rv
+.
+SuppressException
+(
+)
+;
 return
 nullptr
 ;
@@ -16281,6 +16287,12 @@ Failed
 )
 )
 {
+rv
+.
+SuppressException
+(
+)
+;
 return
 false
 ;

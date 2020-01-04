@@ -152,6 +152,8 @@ aParam
 rv
 )
 ;
+if
+(
 NS_WARN_IF
 (
 rv
@@ -160,7 +162,15 @@ Failed
 (
 )
 )
+)
+{
+rv
+.
+SuppressException
+(
+)
 ;
+}
 event
 -
 >

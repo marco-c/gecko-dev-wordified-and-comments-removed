@@ -360,6 +360,12 @@ Failed
 )
 )
 {
+error
+.
+SuppressException
+(
+)
+;
 return
 nullptr
 ;
@@ -5289,6 +5295,12 @@ Failed
 )
 )
 {
+error
+.
+SuppressException
+(
+)
+;
 return
 nullptr
 ;

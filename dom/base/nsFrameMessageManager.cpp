@@ -4182,6 +4182,12 @@ SendMessage
 "
 )
 ;
+rv
+.
+SuppressException
+(
+)
+;
 return
 NS_ERROR_UNEXPECTED
 ;
