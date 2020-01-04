@@ -118,7 +118,15 @@ aTag
 const
 ;
 hb_codepoint_t
-GetGlyph
+GetNominalGlyph
+(
+hb_codepoint_t
+unicode
+)
+const
+;
+hb_codepoint_t
+GetVariationGlyph
 (
 hb_codepoint_t
 unicode
