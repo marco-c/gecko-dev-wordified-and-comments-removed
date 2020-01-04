@@ -250,6 +250,9 @@ IsContent
 )
 )
 {
+dom
+:
+:
 ShadowRoot
 *
 shadowRoot
