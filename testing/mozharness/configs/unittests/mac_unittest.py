@@ -701,6 +701,14 @@ on
 -
 fail
 "
+                
+"
+-
+-
+cleanup
+-
+crashes
+"
             
 ]
             
@@ -923,6 +931,14 @@ path
 symbols_path
 )
 s
+"
+                
+"
+-
+-
+cleanup
+-
+crashes
 "
             
 ]

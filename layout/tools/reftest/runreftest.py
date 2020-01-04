@@ -3066,6 +3066,18 @@ xpcshell
 '
 )
         
+if
+options
+.
+cleanupCrashes
+:
+            
+mozcrash
+.
+cleanup_pending_crash_reports
+(
+)
+        
 manifests
 =
 self
