@@ -1030,9 +1030,6 @@ if
 mControllerWorker
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsIServiceWorkerManager
@@ -1065,6 +1062,7 @@ nsISupports
 >
 serviceWorker
 ;
+nsresult
 rv
 =
 swm
