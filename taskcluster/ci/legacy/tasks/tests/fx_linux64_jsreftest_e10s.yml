@@ -230,6 +230,11 @@ e10s
 run
 extra
 :
+chunks
+:
+total
+:
+2
 suite
 :
 name
@@ -254,3 +259,8 @@ e10s
 symbol
 :
 J
+{
+{
+chunk
+}
+}
