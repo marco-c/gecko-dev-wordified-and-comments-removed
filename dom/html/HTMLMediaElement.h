@@ -2100,6 +2100,14 @@ ComputedSuspended
 )
 const
 ;
+void
+SetMediaInfo
+(
+const
+MediaInfo
+aInfo
+)
+;
 protected
 :
 virtual
@@ -2903,6 +2911,11 @@ MaybeCreateAudioChannelAgent
 ;
 bool
 ShouldElementBePaused
+(
+)
+;
+void
+AudioCaptureStreamChangeIfNeeded
 (
 )
 ;
