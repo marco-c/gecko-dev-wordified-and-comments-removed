@@ -339,6 +339,11 @@ emitter
 js
 '
 '
+flags
+.
+js
+'
+'
 indentation
 .
 js

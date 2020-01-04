@@ -245,7 +245,7 @@ win
 >
 {
 const
-DevToolsUtils
+flags
 =
 require
 (
@@ -254,7 +254,7 @@ devtools
 /
 shared
 /
-DevToolsUtils
+flags
 "
 )
 ;
@@ -278,7 +278,7 @@ prefs
 "
 )
 ;
-DevToolsUtils
+flags
 .
 testing
 =
@@ -392,7 +392,7 @@ up
 "
 )
 ;
-DevToolsUtils
+flags
 .
 testing
 =

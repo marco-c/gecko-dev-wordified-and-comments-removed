@@ -30,7 +30,7 @@ task
 )
 ;
 const
-DevToolsUtils
+flags
 =
 require
 (
@@ -39,7 +39,7 @@ devtools
 /
 shared
 /
-DevToolsUtils
+flags
 "
 )
 ;
@@ -834,7 +834,7 @@ forceHide
 |
 |
 !
-DevToolsUtils
+flags
 .
 testing
 ;

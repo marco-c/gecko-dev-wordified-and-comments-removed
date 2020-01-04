@@ -95,7 +95,7 @@ jsm
 )
 ;
 var
-DevToolsUtils
+flags
 =
 require
 (
@@ -104,7 +104,7 @@ devtools
 /
 shared
 /
-DevToolsUtils
+flags
 "
 )
 ;
@@ -160,7 +160,7 @@ js
 this
 )
 ;
-DevToolsUtils
+flags
 .
 testing
 =
@@ -175,7 +175,7 @@ registerCleanupFunction
 =
 >
 {
-DevToolsUtils
+flags
 .
 testing
 =

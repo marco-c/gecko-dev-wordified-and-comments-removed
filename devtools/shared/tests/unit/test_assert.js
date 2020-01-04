@@ -7,7 +7,7 @@ run_test
 (
 )
 {
-DevToolsUtils
+flags
 .
 testing
 =

@@ -56,7 +56,7 @@ reducers
 )
 ;
 const
-DevToolsUtils
+flags
 =
 require
 (
@@ -65,7 +65,7 @@ devtools
 /
 shared
 /
-DevToolsUtils
+flags
 "
 )
 ;
@@ -87,7 +87,7 @@ history
 ;
 if
 (
-DevToolsUtils
+flags
 .
 testing
 )

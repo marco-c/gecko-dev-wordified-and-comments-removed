@@ -20,7 +20,7 @@ task
 )
 ;
 const
-DevToolsUtils
+flags
 =
 require
 (
@@ -29,7 +29,7 @@ devtools
 /
 shared
 /
-DevToolsUtils
+flags
 "
 )
 ;
@@ -460,7 +460,7 @@ Start
 requiresFloatingScrollbars
 notifyOnResize
 :
-DevToolsUtils
+flags
 .
 testing
 }

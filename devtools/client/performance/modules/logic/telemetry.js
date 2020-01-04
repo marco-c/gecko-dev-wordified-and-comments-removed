@@ -20,7 +20,7 @@ telemetry
 )
 ;
 const
-DevToolsUtils
+flags
 =
 require
 (
@@ -29,7 +29,7 @@ devtools
 /
 shared
 /
-DevToolsUtils
+flags
 "
 )
 ;
@@ -213,7 +213,7 @@ onViewSelected
 ;
 if
 (
-DevToolsUtils
+flags
 .
 testing
 )
@@ -550,7 +550,7 @@ function
 if
 (
 !
-DevToolsUtils
+flags
 .
 testing
 )
@@ -727,7 +727,7 @@ function
 if
 (
 !
-DevToolsUtils
+flags
 .
 testing
 )

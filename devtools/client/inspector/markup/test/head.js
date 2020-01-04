@@ -95,7 +95,7 @@ requestCompleteLog
 (
 )
 ;
-DevToolsUtils
+flags
 .
 testing
 =
@@ -108,7 +108,7 @@ registerCleanupFunction
 =
 >
 {
-DevToolsUtils
+flags
 .
 testing
 =

@@ -13,11 +13,11 @@ function
 let
 isTesting
 =
-DevToolsUtils
+flags
 .
 testing
 ;
-DevToolsUtils
+flags
 .
 testing
 =
@@ -159,7 +159,7 @@ removeCurrentTab
 (
 )
 ;
-DevToolsUtils
+flags
 .
 testing
 =
