@@ -93,6 +93,9 @@ class
 WebVTTListener
 ;
 class
+WindowDestroyObserver
+;
+class
 HTMLTrackElement
 final
 :
@@ -463,6 +466,11 @@ DropChannel
 (
 )
 ;
+void
+NotifyShutdown
+(
+)
+;
 protected
 :
 virtual
@@ -555,6 +563,12 @@ DispatchLoadResource
 ;
 bool
 mLoadResourceDispatched
+;
+RefPtr
+<
+WindowDestroyObserver
+>
+mWindowDestroyObserver
 ;
 }
 ;
