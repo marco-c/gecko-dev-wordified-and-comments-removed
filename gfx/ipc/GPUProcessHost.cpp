@@ -84,6 +84,10 @@ mShutdownRequested
 (
 false
 )
+mChannelClosed
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -529,6 +533,12 @@ true
 #
 ifdef
 NS_FREE_PERMANENT_DATA
+if
+(
+!
+mChannelClosed
+)
+{
 mGPUChild
 -
 >
@@ -536,6 +546,7 @@ Close
 (
 )
 ;
+}
 #
 else
 KillHard
@@ -569,6 +580,10 @@ if
 mShutdownRequested
 )
 {
+mChannelClosed
+=
+true
+;
 if
 (
 mListener
