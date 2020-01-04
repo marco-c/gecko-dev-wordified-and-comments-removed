@@ -468,7 +468,7 @@ url
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SECURITY_ERR
 ;
 }
 nsAutoCString
