@@ -496,6 +496,11 @@ mozilla
 =
 [
 '
+AnimationCollection
+.
+h
+'
+'
 CSSStyleSheet
 .
 h
@@ -703,6 +708,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AnimationCollection
+.
+cpp
+'
 '
 AnimationCommon
 .
