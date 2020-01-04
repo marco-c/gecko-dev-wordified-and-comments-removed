@@ -1829,6 +1829,10 @@ lir_
 (
 nullptr
 )
+callerResumePoint_
+(
+nullptr
+)
 entryResumePoint_
 (
 nullptr

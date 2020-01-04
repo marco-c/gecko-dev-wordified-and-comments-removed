@@ -181,10 +181,6 @@ end
 bool
 unreachable_
 ;
-MResumePoint
-*
-callerResumePoint_
-;
 void
 pushVariable
 (
@@ -2423,6 +2419,10 @@ pc_
 LBlock
 *
 lir_
+;
+MResumePoint
+*
+callerResumePoint_
 ;
 MResumePoint
 *
