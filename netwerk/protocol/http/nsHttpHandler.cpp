@@ -162,6 +162,15 @@ h
 #
 include
 "
+mozilla
+/
+Snprintf
+.
+h
+"
+#
+include
+"
 nsAsyncRedirectVerifyHelper
 .
 h
@@ -3816,9 +3825,6 @@ rv
 if
 defined
 MOZ_WIDGET_ANDROID
-#
-ifndef
-MOZ_UA_OS_AGNOSTIC
 nsAutoString
 androidVersion
 ;
@@ -3893,8 +3899,6 @@ androidVersion
 ;
 }
 }
-#
-endif
 #
 endif
 bool
@@ -10117,7 +10121,7 @@ q
 }
 wrote
 =
-PR_snprintf
+snprintf
 (
 p2
 available
@@ -10132,7 +10136,7 @@ else
 {
 wrote
 =
-PR_snprintf
+snprintf
 (
 p2
 available
