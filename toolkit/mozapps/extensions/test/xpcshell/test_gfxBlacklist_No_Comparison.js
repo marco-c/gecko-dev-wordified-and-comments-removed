@@ -343,6 +343,18 @@ checkBlacklist
 )
 {
 var
+driverVersion
+=
+gfxInfo
+.
+adapterDriverVersion
+;
+if
+(
+driverVersion
+)
+{
+var
 status
 =
 gfxInfo
@@ -389,6 +401,7 @@ nsIGfxInfo
 FEATURE_STATUS_OK
 )
 ;
+}
 gTestserver
 .
 stop
