@@ -1307,15 +1307,6 @@ isRoot
 ;
 }
 ;
-union
-FileSystemPathOrFileValue
-{
-nsString
-;
-PBlob
-;
-}
-;
 struct
 FileSystemRemoveParams
 {
@@ -1325,8 +1316,8 @@ filesystem
 nsString
 directory
 ;
-FileSystemPathOrFileValue
-target
+nsString
+targetDirectory
 ;
 bool
 recursive

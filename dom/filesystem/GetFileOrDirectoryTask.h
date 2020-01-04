@@ -242,12 +242,6 @@ Directory
 DirectoryType
 mType
 ;
-RefPtr
-<
-BlobImpl
->
-mTargetBlobImpl
-;
 }
 ;
 }

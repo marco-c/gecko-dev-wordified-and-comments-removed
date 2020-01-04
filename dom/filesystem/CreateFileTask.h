@@ -261,12 +261,6 @@ mArrayData
 bool
 mReplace
 ;
-RefPtr
-<
-BlobImpl
->
-mTargetBlobImpl
-;
 }
 ;
 }

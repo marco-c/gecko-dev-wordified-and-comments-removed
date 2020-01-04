@@ -65,9 +65,6 @@ aFileSystem
 nsIFile
 *
 aDirPath
-BlobImpl
-*
-aTargetBlob
 nsIFile
 *
 aTargetPath
@@ -191,9 +188,6 @@ aFileSystem
 nsIFile
 *
 aDirPath
-BlobImpl
-*
-aTargetBlob
 nsIFile
 *
 aTargetPath
@@ -226,12 +220,6 @@ nsCOMPtr
 nsIFile
 >
 mDirPath
-;
-RefPtr
-<
-BlobImpl
->
-mTargetBlobImpl
 ;
 nsCOMPtr
 <
