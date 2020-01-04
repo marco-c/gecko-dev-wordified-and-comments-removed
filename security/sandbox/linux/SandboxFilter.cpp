@@ -2364,12 +2364,6 @@ __NR_madvise
 :
 #
 if
-defined
-(
-ANDROID
-)
-&
-&
 !
 defined
 (
