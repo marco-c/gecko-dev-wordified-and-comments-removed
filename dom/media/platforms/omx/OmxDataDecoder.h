@@ -426,7 +426,7 @@ Atomic
 <
 bool
 >
-mShutdown
+mShuttingDown
 ;
 bool
 mCheckingInputExhausted
