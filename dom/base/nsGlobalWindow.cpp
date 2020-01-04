@@ -14709,7 +14709,7 @@ case
 eUnload
 :
 case
-NS_LOAD
+eLoad
 :
 break
 ;
@@ -14815,7 +14815,7 @@ mEvent
 mMessage
 =
 =
-NS_LOAD
+eLoad
 &
 &
 aVisitor
@@ -14893,7 +14893,7 @@ mEvent
 mFlags
 .
 mIsTrusted
-NS_LOAD
+eLoad
 )
 ;
 event

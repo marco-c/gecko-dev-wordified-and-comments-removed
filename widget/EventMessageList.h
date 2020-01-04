@@ -314,7 +314,7 @@ eStreamEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_LOAD
+eLoad
 eStreamEventFirst
 )
 NS_EVENT_MESSAGE

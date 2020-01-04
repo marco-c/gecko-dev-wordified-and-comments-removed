@@ -2725,7 +2725,7 @@ WidgetEvent
 event
 (
 true
-NS_LOAD
+eLoad
 )
 ;
 EventDispatcher

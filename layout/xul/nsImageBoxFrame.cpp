@@ -455,7 +455,7 @@ NS_ASSERTION
 aMessage
 =
 =
-NS_LOAD
+eLoad
 |
 |
 aMessage
@@ -3579,7 +3579,7 @@ aStatus
 FireImageDOMEvent
 (
 mContent
-NS_LOAD
+eLoad
 )
 ;
 }
