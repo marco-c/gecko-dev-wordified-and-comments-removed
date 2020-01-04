@@ -2866,7 +2866,7 @@ PARTIAL_LINK_TEXT
 let
 allLinks
 =
-rootNode
+startNode
 .
 getElementsByTagName
 (
