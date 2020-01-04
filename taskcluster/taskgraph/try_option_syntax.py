@@ -81,6 +81,12 @@ symbols
 '
 valgrind
 '
+    
+'
+static
+-
+analysis
+'
 ]
 )
 JOB_KINDS
