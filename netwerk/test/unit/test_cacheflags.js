@@ -221,6 +221,10 @@ Cr
 NS_ERROR_NO_INTERFACE
 ;
 }
+originAttributes
+:
+{
+}
 }
 ;
 PrivateBrowsingLoadContext

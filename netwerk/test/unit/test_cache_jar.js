@@ -265,6 +265,16 @@ appId
 isInBrowserElement
 :
 inBrowser
+originAttributes
+:
+{
+appId
+:
+appId
+inBrowser
+:
+inBrowser
+}
 QueryInterface
 :
 function
