@@ -1648,10 +1648,6 @@ SetIsActive
 (
 bool
 aIsActive
-bool
-aIsHidden
-=
-true
 )
 override
 ;
