@@ -6377,7 +6377,7 @@ IsWebGL2
 dstFormat
 -
 >
-hasDepth
+d
 )
 {
 if
@@ -6845,7 +6845,7 @@ IsWebGL2
 dstFormat
 -
 >
-hasDepth
+d
 )
 {
 mContext
@@ -10003,7 +10003,7 @@ IsWebGL2
 dstFormat
 -
 >
-hasDepth
+d
 )
 {
 mContext
@@ -10502,7 +10502,7 @@ IsWebGL2
 dstFormat
 -
 >
-hasDepth
+d
 )
 {
 mContext

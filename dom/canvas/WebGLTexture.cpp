@@ -1512,7 +1512,9 @@ if
 format
 -
 >
-isColorFormat
+IsColorFormat
+(
+)
 &
 &
 !
@@ -1588,7 +1590,7 @@ if
 format
 -
 >
-hasDepth
+d
 &
 &
 mTexCompareMode
@@ -2110,7 +2112,9 @@ if
 format
 -
 >
-isColorFormat
+IsColorFormat
+(
+)
 )
 {
 *
@@ -2120,7 +2124,7 @@ out_fakeBlack
 format
 -
 >
-hasAlpha
+a
 ?
 FakeBlackType
 :
@@ -3405,7 +3409,7 @@ if
 format
 -
 >
-hasDepth
+d
 )
 {
 mContext
