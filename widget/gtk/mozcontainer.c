@@ -956,13 +956,6 @@ tmp_list
 GtkAllocation
 tmp_allocation
 ;
-GtkRequisition
-tmp_requisition
-;
-GtkWidget
-*
-tmp_child
-;
 g_return_if_fail
 (
 IS_MOZ_CONTAINER
@@ -1355,9 +1348,6 @@ child
 {
 GtkAllocation
 allocation
-;
-GtkRequisition
-requisition
 ;
 gtk_widget_get_allocation
 (

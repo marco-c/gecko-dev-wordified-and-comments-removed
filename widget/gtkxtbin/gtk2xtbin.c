@@ -182,15 +182,6 @@ object
 ;
 static
 void
-gtk_xtbin_shutdown
-(
-GtkObject
-*
-object
-)
-;
-static
-void
 xt_client_handle_xembed_message
 (
 Widget
@@ -463,9 +454,6 @@ gpointer
 user_data
 )
 {
-XEvent
-event
-;
 XtAppContext
 ac
 ;
