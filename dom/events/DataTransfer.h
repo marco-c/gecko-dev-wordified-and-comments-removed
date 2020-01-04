@@ -96,17 +96,6 @@ File
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-Promise
-.
-h
-"
 class
 nsINode
 ;
@@ -136,6 +125,9 @@ Element
 ;
 class
 FileList
+;
+class
+Promise
 ;
 template
 <

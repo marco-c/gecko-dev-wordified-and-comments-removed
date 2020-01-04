@@ -2044,6 +2044,10 @@ gdk_disable_multidevice
 )
 STUB
 (
+gdk_device_manager_list_devices
+)
+STUB
+(
 gdk_display_get_device_manager
 )
 STUB
