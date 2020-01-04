@@ -2196,10 +2196,6 @@ gtk_style_context_get_padding
 )
 STUB
 (
-gtk_style_context_has_class
-)
-STUB
-(
 gtk_style_context_new
 )
 STUB
