@@ -289,6 +289,15 @@ ServiceWorkerInfo
 >
 mInstallingWorker
 ;
+nsTArray
+<
+nsCOMPtr
+<
+nsIServiceWorkerRegistrationInfoListener
+>
+>
+mListeners
+;
 uint64_t
 mLastUpdateCheckTime
 ;
@@ -438,6 +447,11 @@ IsLastUpdateCheckTimeOverOneDay
 (
 )
 const
+;
+void
+NotifyListenersOnChange
+(
+)
 ;
 }
 ;
