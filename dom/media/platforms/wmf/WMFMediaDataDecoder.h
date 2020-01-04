@@ -206,9 +206,9 @@ WMFMediaDataDecoder
 MFTManager
 *
 aOutputSource
-FlushableTaskQueue
+TaskQueue
 *
-aAudioTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -342,9 +342,10 @@ TrackInfo
 aConfig
 )
 ;
+const
 RefPtr
 <
-FlushableTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
