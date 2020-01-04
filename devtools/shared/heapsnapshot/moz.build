@@ -359,4 +359,11 @@ HeapSnapshotFileUtils
 .
 js
 '
+'
+shortest
+-
+paths
+.
+js
+'
 )

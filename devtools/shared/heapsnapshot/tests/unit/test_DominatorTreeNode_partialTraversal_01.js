@@ -237,6 +237,9 @@ shallowSize
 retainedSize
 :
 10
+shortestPaths
+:
+undefined
 children
 :
 [
@@ -263,6 +266,9 @@ retainedSize
 parentId
 :
 100
+shortestPaths
+:
+undefined
 children
 :
 [
@@ -292,6 +298,9 @@ parentId
 moreChildrenAvailable
 :
 false
+shortestPaths
+:
+undefined
 children
 :
 undefined
@@ -322,6 +331,9 @@ parentId
 moreChildrenAvailable
 :
 false
+shortestPaths
+:
+undefined
 children
 :
 undefined
@@ -354,6 +366,9 @@ retainedSize
 parentId
 :
 100
+shortestPaths
+:
+undefined
 children
 :
 [
@@ -383,6 +398,9 @@ parentId
 moreChildrenAvailable
 :
 false
+shortestPaths
+:
+undefined
 children
 :
 undefined
@@ -413,6 +431,9 @@ parentId
 moreChildrenAvailable
 :
 false
+shortestPaths
+:
+undefined
 children
 :
 undefined
