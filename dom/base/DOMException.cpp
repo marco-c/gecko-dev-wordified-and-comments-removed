@@ -349,7 +349,7 @@ BtRmtDevDownError
 BtAuthRejectedError
 =
 0
-PermissionDeniedError
+NotAllowedError
 =
 0
 }

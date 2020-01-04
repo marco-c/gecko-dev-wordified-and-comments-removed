@@ -373,7 +373,7 @@ API
 .
 "
 "
-PermissionDeniedError
+NotAllowedError
 "
 )
 )

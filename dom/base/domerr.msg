@@ -1940,7 +1940,7 @@ NS_ERROR_DOM_PUSH_INVALID_REGISTRATION_ERR
 )
 DOM4_MSG_DEF
 (
-PermissionDeniedError
+NotAllowedError
 "
 User
 denied
