@@ -497,6 +497,10 @@ eQueryTextRect
 )
 NS_EVENT_MESSAGE
 (
+eQueryTextRectArray
+)
+NS_EVENT_MESSAGE
+(
 eQueryEditorRect
 )
 NS_EVENT_MESSAGE

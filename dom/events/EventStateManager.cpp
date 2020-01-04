@@ -3795,6 +3795,9 @@ eQueryCharacterAtPoint
 case
 eQueryDOMWidgetHittest
 :
+case
+eQueryTextRectArray
+:
 break
 ;
 default
