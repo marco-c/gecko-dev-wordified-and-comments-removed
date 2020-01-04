@@ -444,7 +444,7 @@ NORMAL
 .
 0
 0
-NS_NewPermanentAtom
+NS_NewAtom
 (
 NS_LITERAL_STRING
 (
