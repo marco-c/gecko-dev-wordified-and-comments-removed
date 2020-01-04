@@ -12880,10 +12880,13 @@ WasmAstConst
 (
 Val
 (
+uint64_t
+(
 val
 .
 index
 (
+)
 )
 )
 )
