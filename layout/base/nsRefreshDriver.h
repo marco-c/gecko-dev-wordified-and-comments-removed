@@ -1227,6 +1227,12 @@ bool
 aEnable
 )
 ;
+static
+bool
+IsJankCritical
+(
+)
+;
 }
 ;
 #
