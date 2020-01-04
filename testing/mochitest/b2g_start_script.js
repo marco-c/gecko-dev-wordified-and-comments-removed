@@ -747,7 +747,7 @@ content
 /
 SpecialPowersObserver
 .
-js
+jsm
 "
 specialpowers
 )
