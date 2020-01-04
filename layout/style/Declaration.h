@@ -401,16 +401,6 @@ nsAString
 aName
 )
 ;
-bool
-HasVariableDeclaration
-(
-const
-nsAString
-&
-aName
-)
-const
-;
 void
 GetVariableDeclaration
 (
