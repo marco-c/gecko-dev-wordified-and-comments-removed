@@ -1694,12 +1694,6 @@ resource
 final
 ExtendedJSONObject
 requestBody
-final
-RequestDelegate
-<
-T
->
-delegate
 )
 {
 if
@@ -3290,7 +3284,6 @@ post
 (
 resource
 body
-delegate
 )
 ;
 }
@@ -3740,7 +3733,6 @@ post
 (
 resource
 body
-delegate
 )
 ;
 }
@@ -4058,7 +4050,6 @@ post
 (
 resource
 body
-delegate
 )
 ;
 }
@@ -4565,7 +4556,6 @@ post
 (
 resource
 body
-delegate
 )
 ;
 }
