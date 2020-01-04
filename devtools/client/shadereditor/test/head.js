@@ -853,6 +853,7 @@ generator
 =
 isWebGLSupported
 (
+document
 )
 ?
 ifWebGLSupported

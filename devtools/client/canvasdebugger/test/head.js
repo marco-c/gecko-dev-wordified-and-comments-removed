@@ -1095,6 +1095,7 @@ supported
 =
 isWebGLSupported
 (
+document
 )
 ;
 info
