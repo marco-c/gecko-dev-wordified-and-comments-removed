@@ -912,10 +912,9 @@ home
 .
 some
 (
-function
-(
 re
-)
+=
+>
 re
 .
 test
