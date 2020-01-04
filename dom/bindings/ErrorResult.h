@@ -470,15 +470,6 @@ rv
 ;
 }
 void
-CloneTo
-(
-ErrorResult
-&
-aRv
-)
-const
-;
-void
 SuppressException
 (
 )
