@@ -61,6 +61,9 @@ c
 .
 add
 (
+new
+Request
+(
 prefix
 +
 '
@@ -70,6 +73,14 @@ https
 .
 sjs
 '
+{
+redirect
+:
+"
+manual
+"
+}
+)
 )
 ;
 }
