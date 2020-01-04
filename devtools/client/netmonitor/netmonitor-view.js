@@ -11682,8 +11682,6 @@ selectedItem
 selectedItem
 .
 attachment
-.
-responseContent
 ;
 let
 copyRequestHeadersElement
