@@ -1482,8 +1482,6 @@ SYM_STORE_SOURCE_DIRS
 (
 topsrcdir
 )
-ifndef
-JS_STANDALONE
 include
 (
 topsrcdir
@@ -1898,7 +1896,6 @@ SYMBOL_FULL_ARCHIVE_BASENAME
 .
 zip
 '
-endif
 endif
 #
 MOZ_SOURCE_STAMP
