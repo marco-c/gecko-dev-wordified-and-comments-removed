@@ -1034,9 +1034,7 @@ origin
 -
 when
 -
-cross
--
-origin
+crossorigin
 '
 "
 "
@@ -1116,9 +1114,7 @@ origin
 -
 when
 -
-cross
--
-origin
+crossorigin
 "
 "
 test_expansion
@@ -2634,9 +2630,7 @@ origin
 -
 when
 -
-cross
--
-origin
+crossorigin
 "
 "
 unsafe

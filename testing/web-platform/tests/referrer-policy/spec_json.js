@@ -1399,9 +1399,7 @@ origin
 -
 when
 -
-cross
--
-origin
+crossorigin
 "
 "
 title
@@ -1418,9 +1416,7 @@ origin
 -
 when
 -
-cross
--
-origin
+crossorigin
 '
 "
 "
@@ -2230,9 +2226,7 @@ origin
 -
 when
 -
-cross
--
-origin
+crossorigin
 "
 "
 unsafe
