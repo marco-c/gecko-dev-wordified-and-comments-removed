@@ -6567,7 +6567,7 @@ res
 res
 )
 ;
-nsAutoLockListener
+AutoLockListener
 lockit
 (
 &
