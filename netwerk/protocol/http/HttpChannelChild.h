@@ -653,6 +653,15 @@ DoNotifyListenerCleanup
 )
 override
 ;
+NS_IMETHOD
+GetResponseSynthesized
+(
+bool
+*
+aSynthesized
+)
+override
+;
 private
 :
 nsresult
