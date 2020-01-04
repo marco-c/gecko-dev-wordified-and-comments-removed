@@ -270,6 +270,17 @@ NonReference
 )
 const
 ;
+void
+SetGofInfo
+(
+const
+GofInfoVP9
+&
+gof_info
+size_t
+idx
+)
+;
 int
 packets_not_decodable
 (

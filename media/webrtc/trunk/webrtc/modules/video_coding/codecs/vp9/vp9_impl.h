@@ -115,7 +115,7 @@ int
 Encode
 (
 const
-VideoFrame
+I420VideoFrame
 &
 input_image
 const
@@ -128,7 +128,7 @@ std
 :
 vector
 <
-FrameType
+VideoFrameType
 >
 *
 frame_types
@@ -164,13 +164,6 @@ frame_rate
 )
 override
 ;
-void
-OnDroppedFrame
-(
-)
-override
-{
-}
 struct
 LayerFrameRefSettings
 {
@@ -273,6 +266,9 @@ SetSvcRates
 (
 )
 ;
+#
+ifdef
+LIBVPX_SVC
 vpx_svc_ref_frame_config
 GenerateRefsAndFlags
 (
@@ -282,6 +278,8 @@ SuperFrameRefSettings
 settings
 )
 ;
+#
+endif
 virtual
 int
 GetEncodedLayerFrame
@@ -352,7 +350,7 @@ SvcInternal_t
 svc_internal_
 ;
 const
-VideoFrame
+I420VideoFrame
 *
 input_image_
 ;
@@ -494,6 +492,14 @@ uint32_t
 timeStamp
 )
 ;
+#
+ifndef
+USE_WRAPPED_I420_BUFFER
+I420VideoFrame
+decoded_image_
+;
+#
+endif
 Vp9FrameBufferPool
 frame_buffer_pool_
 ;

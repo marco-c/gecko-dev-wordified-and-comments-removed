@@ -63,7 +63,7 @@ modules
 /
 rtp_rtcp
 /
-include
+interface
 /
 rtp_rtcp_defines
 .
@@ -1019,7 +1019,7 @@ uint32_t
 timestamp
 )
 {
-RTC_DCHECK
+DCHECK
 (
 !
 ss_map_

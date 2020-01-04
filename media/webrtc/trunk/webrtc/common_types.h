@@ -1728,6 +1728,16 @@ keyFrameInterval
 bool
 adaptiveQpMode
 ;
+bool
+automaticResizeOn
+;
+unsigned
+char
+numberOfSpatialLayers
+;
+bool
+flexibleMode
+;
 }
 ;
 struct

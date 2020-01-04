@@ -728,6 +728,9 @@ device_index
 )
 >
 =
+(
+int
+)
 deviceUniqueIdUTF8Length
 )
 {

@@ -60,13 +60,13 @@ timestamp_initialized_
 false
 )
 {
-RTC_DCHECK_GT
+DCHECK_GT
 (
 num_layers
 0
 )
 ;
-RTC_DCHECK_LE
+DCHECK_LE
 (
 num_layers
 kMaxVp9NumberOfSpatialLayers
@@ -118,7 +118,7 @@ uint8_t
 layer_id
 )
 {
-RTC_DCHECK_LT
+DCHECK_LT
 (
 layer_id
 num_layers_
@@ -147,7 +147,7 @@ uint8_t
 layer_id
 )
 {
-RTC_DCHECK_LT
+DCHECK_LT
 (
 layer_id
 num_layers_

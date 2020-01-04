@@ -18,17 +18,6 @@ webrtc
 /
 base
 /
-common
-.
-h
-"
-#
-include
-"
-webrtc
-/
-base
-/
 scoped_ptr
 .
 h
@@ -271,7 +260,7 @@ size_t
 size
 )
 {
-ASSERT
+assert
 (
 data
 !
@@ -313,7 +302,7 @@ size_t
 size
 )
 {
-ASSERT
+assert
 (
 data
 !
@@ -438,7 +427,7 @@ Buffer
 buf
 )
 {
-ASSERT
+assert
 (
 buf
 !
