@@ -196,6 +196,10 @@ aOpacity
 Matrix
 *
 aMaskTransform
+uint8_t
+aMaskOp
+=
+NS_STYLE_MASK_MODE_MATCH_SOURCE
 )
 ;
 virtual
