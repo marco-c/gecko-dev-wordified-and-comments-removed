@@ -11951,6 +11951,15 @@ ScheduleSyntheticMouseMove
 (
 )
 ;
+{
+AutoScrollbarRepaintSuppression
+repaintSuppression
+(
+this
+!
+schedulePaint
+)
+;
 nsWeakFrame
 weakFrame
 (
@@ -11973,6 +11982,7 @@ IsAlive
 {
 return
 ;
+}
 }
 PostScrollEvent
 (

@@ -179,6 +179,15 @@ const
 =
 0
 ;
+virtual
+bool
+ShouldSuppressScrollbarRepaints
+(
+)
+const
+=
+0
+;
 }
 ;
 #
