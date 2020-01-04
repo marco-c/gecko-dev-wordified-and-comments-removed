@@ -6283,6 +6283,12 @@ RecomputeCurrentAnimatedGeometryRoot
 (
 )
 {
+mAnimatedGeometryRootCache
+.
+Clear
+(
+)
+;
 mCurrentAnimatedGeometryRoot
 =
 ComputeAnimatedGeometryRootFor
