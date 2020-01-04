@@ -1859,7 +1859,9 @@ origin
 -
 when
 -
-crossorigin
+cross
+-
+origin
 "
 "
 delivery_method
