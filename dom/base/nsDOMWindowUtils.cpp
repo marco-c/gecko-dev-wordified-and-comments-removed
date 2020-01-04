@@ -2042,6 +2042,10 @@ NS_RGB
 255
 255
 )
+nsDisplayListBuilderMode
+:
+:
+PAINTING
 nsLayoutUtils
 :
 :

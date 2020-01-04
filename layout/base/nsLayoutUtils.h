@@ -219,6 +219,12 @@ nsRegion
 class
 nsDisplayListBuilder
 ;
+enum
+class
+nsDisplayListBuilderMode
+:
+uint8_t
+;
 class
 nsDisplayItem
 ;
@@ -2056,6 +2062,8 @@ nsRegion
 aDirtyRegion
 nscolor
 aBackstop
+nsDisplayListBuilderMode
+aBuilderMode
 uint32_t
 aFlags
 =
