@@ -3130,6 +3130,9 @@ T
 while
 (
 const
+clang
+:
+:
 ArrayType
 *
 arrTy
@@ -3421,6 +3424,9 @@ T
 while
 (
 const
+clang
+:
+:
 ArrayType
 *
 arrTy
@@ -3473,6 +3479,9 @@ T
 while
 (
 const
+clang
+:
+:
 ArrayType
 *
 arrTy
@@ -4830,6 +4839,9 @@ second
 if
 (
 const
+clang
+:
+:
 ArrayType
 *
 Array
