@@ -165,7 +165,7 @@ ContentClick
 jsm
 '
 '
-ContentCrashReporters
+ContentCrashHandlers
 .
 jsm
 '
