@@ -3443,6 +3443,11 @@ MotionEventInterceptor
 java
 '
 '
+NetworkInfoService
+.
+java
+'
+'
 NotificationClient
 .
 java
