@@ -3453,6 +3453,7 @@ init
 {
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -3464,6 +3465,8 @@ startSection
 SignaturesId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -3846,6 +3849,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -3972,6 +3976,7 @@ init
 {
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -3983,6 +3988,8 @@ startSection
 FunctionSignaturesId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -4119,6 +4126,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -4156,6 +4164,7 @@ init
 {
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -4167,6 +4176,8 @@ startSection
 FunctionTableId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -4353,6 +4364,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -4931,6 +4943,7 @@ importNames
 {
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -4942,6 +4955,8 @@ startSection
 ImportTableId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -5056,6 +5071,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -5099,6 +5115,7 @@ heap
 {
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -5110,6 +5127,8 @@ startSection
 MemoryId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -5334,6 +5353,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -5728,6 +5748,7 @@ mg
 {
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -5739,6 +5760,8 @@ startSection
 ExportTableId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -5872,6 +5895,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -6270,6 +6294,7 @@ false
 ;
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -6281,6 +6306,8 @@ startSection
 FunctionBodiesId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -6433,6 +6460,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
@@ -6477,6 +6505,7 @@ heap
 {
 uint32_t
 sectionStart
+sectionSize
 ;
 if
 (
@@ -6488,6 +6517,8 @@ startSection
 DataSegmentsId
 &
 sectionStart
+&
+sectionSize
 )
 )
 return
@@ -6769,6 +6800,7 @@ d
 finishSection
 (
 sectionStart
+sectionSize
 )
 )
 return
