@@ -1510,6 +1510,15 @@ ins
 ;
 virtual
 void
+visitAsmSelect
+(
+LAsmSelect
+*
+ins
+)
+;
+virtual
+void
 visitMemoryBarrier
 (
 LMemoryBarrier

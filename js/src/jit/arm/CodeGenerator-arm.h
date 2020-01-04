@@ -1271,6 +1271,14 @@ lir
 )
 ;
 void
+visitAsmSelect
+(
+LAsmSelect
+*
+ins
+)
+;
+void
 visitAsmJSCall
 (
 LAsmJSCall

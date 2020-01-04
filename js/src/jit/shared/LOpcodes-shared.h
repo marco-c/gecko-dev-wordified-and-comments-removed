@@ -1748,6 +1748,16 @@ HasClass
 \
 _
 (
+AsmSelect
+)
+\
+_
+(
+AsmSelectI64
+)
+\
+_
+(
 AsmJSLoadHeap
 )
 \

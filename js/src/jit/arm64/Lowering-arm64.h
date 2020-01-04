@@ -480,6 +480,14 @@ MAsmJSNeg
 ins
 )
 ;
+void
+visitAsmSelect
+(
+MAsmSelect
+*
+ins
+)
+;
 LTableSwitchV
 *
 newLTableSwitchV

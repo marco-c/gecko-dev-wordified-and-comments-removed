@@ -357,6 +357,14 @@ ins
 )
 ;
 void
+visitAsmSelectI64
+(
+LAsmSelectI64
+*
+ins
+)
+;
+void
 visitAsmJSCall
 (
 LAsmJSCall
