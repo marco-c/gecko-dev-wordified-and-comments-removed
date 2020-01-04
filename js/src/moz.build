@@ -1274,6 +1274,13 @@ cpp
 '
 builtin
 /
+WeakMapObject
+.
+cpp
+'
+'
+builtin
+/
 WeakSetObject
 .
 cpp
