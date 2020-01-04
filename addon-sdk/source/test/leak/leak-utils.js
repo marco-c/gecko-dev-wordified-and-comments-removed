@@ -186,6 +186,12 @@ genGCCallback
 }
 exports
 .
+gc
+=
+gc
+;
+exports
+.
 asyncWindowLeakTest
 =
 function
