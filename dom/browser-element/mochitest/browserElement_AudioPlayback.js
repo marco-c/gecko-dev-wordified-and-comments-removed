@@ -278,6 +278,8 @@ detail
 =
 '
 inactive
+-
+pause
 '
 )
 {
@@ -292,6 +294,8 @@ expectedNextData
 =
 '
 inactive
+-
+pause
 '
 ;
 }
