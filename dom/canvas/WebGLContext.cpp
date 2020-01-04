@@ -6782,6 +6782,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 if
 (
@@ -6798,10 +6799,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHOD
+nsresult
 Cancel
 (
 )
+override
 {
 mWebGL
 =

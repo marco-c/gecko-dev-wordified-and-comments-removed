@@ -1237,7 +1237,7 @@ aRunnable
 )
 ;
 }
-NS_IMETHOD
+nsresult
 Cancel
 (
 )

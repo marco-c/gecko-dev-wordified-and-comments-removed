@@ -956,7 +956,12 @@ CancelableRunnableWrapper
 {
 }
 NS_DECL_NSIRUNNABLE
-NS_DECL_NSICANCELABLERUNNABLE
+nsresult
+Cancel
+(
+)
+override
+;
 }
 ;
 NS_IMPL_ISUPPORTS_INHERITED0
@@ -1034,7 +1039,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 CancelableRunnableWrapper
 :
 :
