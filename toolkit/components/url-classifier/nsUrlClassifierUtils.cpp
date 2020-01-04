@@ -946,6 +946,16 @@ proto
 "
 SOCIAL_ENGINEERING_PUBLIC
 }
+{
+"
+test
+-
+unwanted
+-
+proto
+"
+UNWANTED_SOFTWARE
+}
 }
 ;
 NS_IMETHODIMP
