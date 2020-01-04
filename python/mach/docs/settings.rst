@@ -37,9 +37,7 @@ files
 are
 either
 named
-mach
-.
-ini
+machrc
 or
 .
 machrc
@@ -213,10 +211,10 @@ mach
 will
 throw
 when
-loading
-the
-configuration
-files
+trying
+to
+access
+them
 .
 To
 define
