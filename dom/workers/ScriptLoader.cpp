@@ -7485,6 +7485,11 @@ mLoadResult
 false
 )
 ;
+if
+(
+mIsWorkerScript
+)
+{
 aWorkerPrivate
 -
 >
@@ -7492,6 +7497,7 @@ MaybeDispatchLoadFailedRunnable
 (
 )
 ;
+}
 return
 true
 ;
