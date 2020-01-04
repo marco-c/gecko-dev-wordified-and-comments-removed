@@ -12023,6 +12023,7 @@ nobj
 >
 zeroLastIndex
 (
+cx
 )
 ;
 return
