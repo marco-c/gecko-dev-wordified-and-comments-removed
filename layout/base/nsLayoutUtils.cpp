@@ -45088,7 +45088,10 @@ return
 bool
 isPrecise
 ;
+RegionBuilder
+<
 nsRegion
+>
 transformedRegion
 ;
 for
@@ -45138,7 +45141,7 @@ aMatrixCache
 ;
 transformedRegion
 .
-OrWith
+Or
 (
 transformed
 )
@@ -45160,6 +45163,10 @@ dest
 OrWith
 (
 transformedRegion
+.
+ToRegion
+(
+)
 )
 ;
 }
