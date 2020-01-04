@@ -158,7 +158,7 @@ CreateElementTransaction
 cpp
 '
 '
-DeleteNodeTxn
+DeleteNodeTransaction
 .
 cpp
 '
