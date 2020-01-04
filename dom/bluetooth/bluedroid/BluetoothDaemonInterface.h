@@ -182,7 +182,7 @@ void
 SetAdapterProperty
 (
 const
-BluetoothNamedValue
+BluetoothProperty
 &
 aProperty
 BluetoothResultHandler
@@ -227,7 +227,7 @@ BluetoothAddress
 &
 aRemoteAddr
 const
-BluetoothNamedValue
+BluetoothProperty
 &
 aProperty
 BluetoothResultHandler
