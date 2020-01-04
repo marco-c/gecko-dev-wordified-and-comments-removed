@@ -4420,12 +4420,6 @@ sizeOfRetAddr
 WasmTlsReg
 )
 ;
-masm
-.
-loadWasmPinnedRegsFromTls
-(
-)
-;
 GenerateExitEpilogue
 (
 masm

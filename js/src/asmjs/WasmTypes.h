@@ -4662,6 +4662,10 @@ void
 *
 code
 ;
+TlsData
+*
+tls
+;
 jit
 :
 :
