@@ -3031,6 +3031,9 @@ aListener
 MediaStreamGraph
 *
 aMSG
+MediaStreamTrackSourceGetter
+*
+aTrackSourceGetter
 )
 {
 RefPtr
@@ -3044,6 +3047,7 @@ nsDOMUserMediaStream
 (
 aWindow
 aListener
+aTrackSourceGetter
 )
 ;
 stream
@@ -3070,11 +3074,15 @@ aWindow
 GetUserMediaCallbackMediaStreamListener
 *
 aListener
+MediaStreamTrackSourceGetter
+*
+aTrackSourceGetter
 )
 :
 DOMLocalMediaStream
 (
 aWindow
+aTrackSourceGetter
 )
 mListener
 (
@@ -4184,6 +4192,7 @@ CreateSourceStream
 window
 mListener
 msg
+nullptr
 )
 ;
 if
