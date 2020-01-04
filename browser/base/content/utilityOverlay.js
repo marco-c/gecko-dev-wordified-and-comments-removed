@@ -933,6 +933,13 @@ params
 .
 allowPopups
 ;
+var
+aUserContextId
+=
+params
+.
+userContextId
+;
 if
 (
 where
@@ -1705,6 +1712,9 @@ aAllowMixedContent
 noReferrer
 :
 aNoReferrer
+userContextId
+:
+aUserContextId
 }
 )
 ;
