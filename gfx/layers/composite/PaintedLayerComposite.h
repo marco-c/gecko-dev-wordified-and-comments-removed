@@ -327,8 +327,8 @@ private
 gfx
 :
 :
-Filter
-GetEffectFilter
+SamplingFilter
+GetSamplingFilter
 (
 )
 {
@@ -336,7 +336,7 @@ return
 gfx
 :
 :
-Filter
+SamplingFilter
 :
 :
 LINEAR

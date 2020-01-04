@@ -181,9 +181,8 @@ Matrix4x4
 &
 aTransform
 const
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 IntRect
 &
@@ -294,7 +293,7 @@ mTextureSourceOnWhite
 get
 (
 )
-aFilter
+aSamplingFilter
 true
 GetRenderState
 (
@@ -2279,9 +2278,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 {
 if
@@ -2353,7 +2351,7 @@ mTextureSourceOnWhite
 get
 (
 )
-aFilter
+aSamplingFilter
 true
 GetRenderState
 (

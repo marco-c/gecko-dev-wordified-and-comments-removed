@@ -326,7 +326,7 @@ names
 FILTER_FAST
 "
 "
-Filter
+SamplingFilter
 :
 :
 GOOD

@@ -98,8 +98,8 @@ activetex
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 override
 ;

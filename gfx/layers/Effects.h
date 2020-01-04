@@ -207,8 +207,8 @@ aPremultiplied
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 :
 Effect
@@ -234,9 +234,9 @@ mPremultiplied
 (
 aPremultiplied
 )
-mFilter
+mSamplingFilter
 (
-aFilter
+aSamplingFilter
 )
 {
 }
@@ -282,8 +282,8 @@ mPremultiplied
 gfx
 :
 :
-Filter
-mFilter
+SamplingFilter
+mSamplingFilter
 ;
 LayerRenderState
 mState
@@ -596,7 +596,7 @@ true
 gfx
 :
 :
-Filter
+SamplingFilter
 :
 :
 LINEAR
@@ -662,7 +662,7 @@ true
 gfx
 :
 :
-Filter
+SamplingFilter
 :
 :
 LINEAR
@@ -759,8 +759,8 @@ aPremultiplied
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 bool
 aFlipped
 =
@@ -775,7 +775,7 @@ EffectTypes
 RGB
 aTexture
 aPremultiplied
-aFilter
+aSamplingFilter
 )
 {
 }
@@ -809,8 +809,8 @@ aSource
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 :
 TexturedEffect
@@ -821,7 +821,7 @@ EffectTypes
 YCBCR
 aSource
 false
-aFilter
+aSamplingFilter
 )
 {
 }
@@ -855,8 +855,8 @@ aSource
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 :
 TexturedEffect
@@ -867,7 +867,7 @@ EffectTypes
 NV12
 aSource
 false
-aFilter
+aSamplingFilter
 )
 {
 }
@@ -904,8 +904,8 @@ aOnWhite
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 :
 TexturedEffect
@@ -916,7 +916,7 @@ EffectTypes
 COMPONENT_ALPHA
 nullptr
 false
-aFilter
+aSamplingFilter
 )
 mOnBlack
 (
@@ -1079,9 +1079,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 bool
 isAlphaPremultiplied
 const
@@ -1162,7 +1161,7 @@ EffectRGB
 (
 aSource
 isAlphaPremultiplied
-aFilter
+aSamplingFilter
 )
 ;
 break
@@ -1182,7 +1181,7 @@ new
 EffectYCbCr
 (
 aSource
-aFilter
+aSamplingFilter
 )
 ;
 break
@@ -1202,7 +1201,7 @@ new
 EffectNV12
 (
 aSource
-aFilter
+aSamplingFilter
 )
 ;
 break
@@ -1253,9 +1252,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 bool
 isAlphaPremultiplied
 const
@@ -1340,7 +1338,7 @@ EffectComponentAlpha
 (
 aSource
 aSourceOnWhite
-aFilter
+aSamplingFilter
 )
 ;
 }
@@ -1354,7 +1352,7 @@ GetFormat
 (
 )
 aSource
-aFilter
+aSamplingFilter
 isAlphaPremultiplied
 state
 )
@@ -1374,9 +1372,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 LayerRenderState
 &
@@ -1392,7 +1389,7 @@ CreateTexturedEffect
 (
 aTexture
 nullptr
-aFilter
+aSamplingFilter
 true
 state
 )

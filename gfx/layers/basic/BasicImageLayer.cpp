@@ -455,7 +455,7 @@ size
 height
 )
 surface
-mFilter
+mSamplingFilter
 DrawOptions
 (
 GetEffectiveOpacity

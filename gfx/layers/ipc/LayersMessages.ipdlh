@@ -163,7 +163,7 @@ mozilla
 gfx
 :
 :
-Filter
+SamplingFilter
 from
 "
 mozilla
@@ -1507,8 +1507,8 @@ bounds
 struct
 CanvasLayerAttributes
 {
-Filter
-filter
+SamplingFilter
+samplingFilter
 ;
 IntRect
 bounds
@@ -1552,8 +1552,8 @@ eventRegionsOverride
 struct
 ImageLayerAttributes
 {
-Filter
-filter
+SamplingFilter
+samplingFilter
 ;
 IntSize
 scaleToSize

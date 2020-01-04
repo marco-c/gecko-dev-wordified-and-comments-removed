@@ -1390,7 +1390,7 @@ mozilla
 gfx
 :
 :
-Filter
+SamplingFilter
 >
 :
 public
@@ -1402,14 +1402,14 @@ mozilla
 gfx
 :
 :
-Filter
+SamplingFilter
 mozilla
 :
 :
 gfx
 :
 :
-Filter
+SamplingFilter
 :
 :
 GOOD
@@ -1419,7 +1419,7 @@ mozilla
 gfx
 :
 :
-Filter
+SamplingFilter
 :
 :
 SENTINEL

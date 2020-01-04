@@ -1541,8 +1541,8 @@ mozilla
 gfx
 :
 :
-Filter
-filter
+SamplingFilter
+samplingFilter
 const
 char
 *

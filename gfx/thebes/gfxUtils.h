@@ -288,8 +288,8 @@ mozilla
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aImageFlags
 =

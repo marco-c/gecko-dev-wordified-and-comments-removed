@@ -300,8 +300,8 @@ private
 gfx
 :
 :
-Filter
-GetEffectFilter
+SamplingFilter
+GetSamplingFilter
 (
 )
 ;

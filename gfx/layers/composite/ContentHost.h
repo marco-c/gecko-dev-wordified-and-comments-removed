@@ -473,9 +473,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfx
 :
@@ -701,9 +700,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 override
 ;

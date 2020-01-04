@@ -1343,9 +1343,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfx
 :
@@ -1388,7 +1387,7 @@ aLayer
 aEffectChain
 aOpacity
 aTransform
-aFilter
+aSamplingFilter
 aClipRect
 aVisibleRegion
 )
@@ -1621,7 +1620,7 @@ mCurrentTextureSource
 get
 (
 )
-aFilter
+aSamplingFilter
 isAlphaPremultiplied
 GetRenderState
 (
@@ -2945,9 +2944,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 )
 {
 TimedImage
@@ -3027,7 +3025,7 @@ GetReadFormat
 (
 )
 mCurrentTextureSource
-aFilter
+aSamplingFilter
 isAlphaPremultiplied
 GetRenderState
 (
@@ -3283,9 +3281,8 @@ const
 gfx
 :
 :
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfx
 :
