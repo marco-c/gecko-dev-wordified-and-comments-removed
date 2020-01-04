@@ -70,11 +70,6 @@ PRLibrary
 sLinkedLib
 ;
 static
-PRLibrary
-*
-sLinkedUtilLib
-;
-static
 const
 char
 *

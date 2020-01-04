@@ -1,9 +1,0 @@
-#
-include
-"
-libavutil
-/
-reverse
-.
-c
-"
