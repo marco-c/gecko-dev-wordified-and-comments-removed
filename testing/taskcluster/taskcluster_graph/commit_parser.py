@@ -69,7 +69,7 @@ Exception
     
 pass
 def
-escape_whitspace_in_brackets
+escape_whitespace_in_brackets
 (
 input_str
 )
@@ -1471,7 +1471,7 @@ shlex
 .
 split
 (
-escape_whitspace_in_brackets
+escape_whitespace_in_brackets
 (
 message
 )
@@ -1648,6 +1648,30 @@ store_true
 default
 =
 False
+)
+    
+parser
+.
+add_argument
+(
+'
+-
+-
+trigger
+-
+tests
+'
+dest
+=
+'
+trigger_tests
+'
+type
+=
+int
+default
+=
+1
 )
     
 args
@@ -2008,5 +2032,12 @@ interactive
 }
 )
     
+trigger_tests
+=
+args
+.
+trigger_tests
+    
 return
 result
+trigger_tests

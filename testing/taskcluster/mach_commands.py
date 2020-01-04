@@ -2409,6 +2409,7 @@ job_path
 )
         
 job_graph
+trigger_tests
 =
 parse_commit
 (
@@ -4208,6 +4209,16 @@ treeherder_route
                         
 )
                     
+for
+i
+in
+range
+(
+0
+trigger_tests
+)
+:
+                        
 graph
 [
 '
@@ -4218,6 +4229,26 @@ tasks
 append
 (
 test_task
+)
+                        
+test_task
+=
+copy
+.
+deepcopy
+(
+test_task
+)
+                        
+test_task
+[
+'
+taskId
+'
+]
+=
+slugid
+(
 )
                     
 define_task
