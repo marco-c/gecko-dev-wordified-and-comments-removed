@@ -17935,7 +17935,10 @@ aContext
 :
 mUserSelect
 (
-NS_STYLE_USER_SELECT_AUTO
+StyleUserSelect
+:
+:
+Auto
 )
 mForceBrokenImageIcon
 (

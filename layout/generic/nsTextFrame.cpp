@@ -39202,7 +39202,7 @@ range
 bool
 selectable
 ;
-uint8_t
+StyleUserSelect
 selectStyle
 ;
 IsSelectable
@@ -39218,7 +39218,10 @@ if
 selectStyle
 =
 =
-NS_STYLE_USER_SELECT_ALL
+StyleUserSelect
+:
+:
+All
 )
 return
 CONTINUE_UNSELECTABLE
@@ -40268,7 +40271,7 @@ range
 bool
 selectable
 ;
-uint8_t
+StyleUserSelect
 selectStyle
 ;
 IsSelectable
@@ -40284,7 +40287,10 @@ if
 selectStyle
 =
 =
-NS_STYLE_USER_SELECT_ALL
+StyleUserSelect
+:
+:
+All
 )
 return
 CONTINUE_UNSELECTABLE
