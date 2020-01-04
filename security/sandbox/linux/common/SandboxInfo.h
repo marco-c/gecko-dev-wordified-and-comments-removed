@@ -94,6 +94,12 @@ kHasPrivilegedUserNamespaces
 <
 <
 6
+kPermissive
+=
+1
+<
+<
+7
 }
 ;
 bool
