@@ -1,9 +1,9 @@
 #
 ifndef
-nsEditorController_h__
+mozilla_EditorController_h
 #
 define
-nsEditorController_h__
+mozilla_EditorController_h
 #
 include
 "
@@ -19,6 +19,7 @@ NS_EDITORCONTROLLER_CID
 0x26fb965c
 0x9de6
 0x11d3
+\
 {
 0xbc
 0xcc
@@ -38,6 +39,7 @@ NS_EDITINGCONTROLLER_CID
 0x2c5a5cdd
 0xe742
 0x4dfe
+\
 {
 0x86
 0xb8
@@ -52,8 +54,12 @@ NS_EDITINGCONTROLLER_CID
 class
 nsIControllerCommandTable
 ;
+namespace
+mozilla
+{
 class
-nsEditorController
+EditorController
+final
 {
 public
 :
@@ -63,7 +69,7 @@ RegisterEditorCommands
 (
 nsIControllerCommandTable
 *
-inCommandTable
+aCommandTable
 )
 ;
 static
@@ -72,10 +78,11 @@ RegisterEditingCommands
 (
 nsIControllerCommandTable
 *
-inCommandTable
+aCommandTable
 )
 ;
 }
 ;
+}
 #
 endif
