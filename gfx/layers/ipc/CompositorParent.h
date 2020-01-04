@@ -593,10 +593,10 @@ bool
 mAsapScheduling
 ;
 bool
-mNeedsComposite
-;
-bool
 mIsObservingVsync
+;
+uint32_t
+mNeedsComposite
 ;
 int32_t
 mVsyncNotificationsSkipped
