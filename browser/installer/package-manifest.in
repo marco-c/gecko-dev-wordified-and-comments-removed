@@ -3096,13 +3096,6 @@ ifdef
 MOZ_SERVICES_HEALTHREPORT
 RESPATH
 /
-components
-/
-HealthReportComponents
-.
-manifest
-RESPATH
-/
 browser
 /
 components
