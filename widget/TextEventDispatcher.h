@@ -353,6 +353,11 @@ aKeyboardEvent
 nsEventStatus
 &
 aStatus
+void
+*
+aData
+=
+nullptr
 )
 ;
 bool
@@ -365,6 +370,11 @@ aKeyboardEvent
 nsEventStatus
 &
 aStatus
+void
+*
+aData
+=
+nullptr
 )
 ;
 private
@@ -651,6 +661,9 @@ aKeyboardEvent
 nsEventStatus
 &
 aStatus
+void
+*
+aData
 uint32_t
 aIndexOfKeypress
 =
