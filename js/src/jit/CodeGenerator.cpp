@@ -24813,7 +24813,7 @@ mir
 )
 -
 >
-count
+length
 (
 )
 )
@@ -24848,7 +24848,7 @@ mir
 )
 -
 >
-count
+length
 (
 )
 )
@@ -25362,7 +25362,7 @@ DebugOnly
 <
 uint32_t
 >
-count
+length
 =
 lir
 -
@@ -25372,13 +25372,13 @@ mir
 )
 -
 >
-count
+length
 (
 )
 ;
 MOZ_ASSERT
 (
-count
+length
 <
 NativeObject
 :
