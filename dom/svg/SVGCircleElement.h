@@ -147,13 +147,7 @@ aStrokeOptions
 const
 Matrix
 &
-aToBoundsSpace
-const
-Matrix
-*
-aToNonScalingStrokeSpace
-=
-nullptr
+aTransform
 )
 override
 ;
