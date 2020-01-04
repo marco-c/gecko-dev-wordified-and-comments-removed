@@ -9,7 +9,7 @@ waitForExplicitFinish
 ;
 requestLongerTimeout
 (
-2
+3
 )
 ;
 testRunner
