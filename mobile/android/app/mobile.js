@@ -903,7 +903,7 @@ sessionstore
 .
 max_tabs_undo
 "
-5
+10
 )
 ;
 pref
