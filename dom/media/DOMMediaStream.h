@@ -579,8 +579,6 @@ aWindow
 MediaStreamGraph
 *
 aGraph
-=
-nullptr
 )
 ;
 static
@@ -596,8 +594,6 @@ aWindow
 MediaStreamGraph
 *
 aGraph
-=
-nullptr
 )
 ;
 static
@@ -613,8 +609,6 @@ aWindow
 MediaStreamGraph
 *
 aGraph
-=
-nullptr
 )
 ;
 void
@@ -789,8 +783,6 @@ aWindow
 MediaStreamGraph
 *
 aGraph
-=
-nullptr
 )
 ;
 void
@@ -802,8 +794,6 @@ aWindow
 MediaStreamGraph
 *
 aGraph
-=
-nullptr
 )
 ;
 void
@@ -815,8 +805,6 @@ aWindow
 MediaStreamGraph
 *
 aGraph
-=
-nullptr
 )
 ;
 void
@@ -1054,8 +1042,6 @@ aWindow
 MediaStreamGraph
 *
 aGraph
-=
-nullptr
 )
 ;
 static
@@ -1071,8 +1057,6 @@ aWindow
 MediaStreamGraph
 *
 aGraph
-=
-nullptr
 )
 ;
 static
@@ -1088,8 +1072,6 @@ aWindow
 MediaStreamGraph
 *
 aGraph
-=
-nullptr
 )
 ;
 protected
@@ -1152,8 +1134,6 @@ aNode
 MediaStreamGraph
 *
 aGraph
-=
-nullptr
 )
 ;
 protected
