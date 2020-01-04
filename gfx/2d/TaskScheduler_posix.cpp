@@ -43,6 +43,7 @@ WorkerThread
 {
 public
 :
+explicit
 WorkerThreadPosix
 (
 MultiThreadedTaskQueue
@@ -272,8 +273,19 @@ empty
 )
 )
 {
+if
+(
+aAccess
+=
+=
+NON_BLOCKING
+)
+{
 return
 false
+;
+}
+continue
 ;
 }
 Task
