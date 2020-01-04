@@ -12947,7 +12947,7 @@ triggervar
 .
 '
 '
-mMsg
+mMessage
 '
 )
         
