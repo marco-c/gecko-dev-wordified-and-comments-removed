@@ -6376,6 +6376,14 @@ getArg
 slot
 )
 ;
+if
+(
+!
+atom
+)
+return
+false
+;
 return
 write
 (
