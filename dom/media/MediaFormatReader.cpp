@@ -6182,6 +6182,14 @@ true
 )
 ;
 }
+if
+(
+!
+decoder
+.
+mReceivedNewData
+)
+{
 LOG
 (
 "
@@ -6206,6 +6214,7 @@ WAITING_FOR_DATA
 __func__
 )
 ;
+}
 }
 if
 (
