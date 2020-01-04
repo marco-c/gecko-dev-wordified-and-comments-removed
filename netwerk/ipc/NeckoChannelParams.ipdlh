@@ -817,13 +817,16 @@ allowStaleCacheContent
 nsCString
 contentTypeHint
 ;
+nsCString
+channelId
+;
 }
 ;
 struct
 HttpChannelConnectArgs
 {
 uint32_t
-channelId
+registrarId
 ;
 bool
 shouldIntercept

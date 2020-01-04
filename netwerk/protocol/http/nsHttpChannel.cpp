@@ -1399,6 +1399,10 @@ proxyResolveFlags
 nsIURI
 *
 proxyURI
+const
+nsID
+&
+channelId
 )
 {
 nsresult
@@ -1414,6 +1418,7 @@ caps
 proxyInfo
 proxyResolveFlags
 proxyURI
+channelId
 )
 ;
 if

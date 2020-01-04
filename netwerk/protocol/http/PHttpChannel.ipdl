@@ -852,7 +852,7 @@ async
 Redirect1Begin
 (
 uint32_t
-newChannelId
+registrarId
 URIParams
 newUri
 uint32_t
@@ -861,6 +861,8 @@ nsHttpResponseHead
 responseHead
 nsCString
 securityInfoSerialization
+nsCString
+channelId
 )
 ;
 /
