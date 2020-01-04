@@ -730,6 +730,11 @@ MaybeZoomConstraints
 aConstraints
 )
 ;
+async
+__delete__
+(
+)
+;
 child
 :
 async
@@ -832,7 +837,7 @@ NotifyFlushComplete
 )
 ;
 async
-__delete__
+Destroy
 (
 )
 ;
