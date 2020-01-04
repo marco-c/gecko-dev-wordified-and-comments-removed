@@ -2070,6 +2070,12 @@ opus
 "
 }
 {
+APPLICATION_PDF
+"
+pdf
+"
+}
+{
 VIDEO_WEBM
 "
 webm
