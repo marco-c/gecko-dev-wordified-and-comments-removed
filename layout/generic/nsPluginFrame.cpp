@@ -8085,7 +8085,7 @@ if
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_PLUGIN_ACTIVATE
@@ -8139,7 +8139,7 @@ if
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_PLUGIN_FOCUS
@@ -8235,7 +8235,7 @@ if
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_ENTER_WIDGET
@@ -8244,7 +8244,7 @@ NS_MOUSE_ENTER_WIDGET
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_WHEEL_WHEEL
@@ -8283,7 +8283,7 @@ if
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -8323,7 +8323,7 @@ if
 anEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP

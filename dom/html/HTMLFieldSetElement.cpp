@@ -261,7 +261,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 )
 {

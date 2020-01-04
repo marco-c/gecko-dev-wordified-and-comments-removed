@@ -1079,7 +1079,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_START
@@ -1089,7 +1089,7 @@ NS_TOUCH_START
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -1113,7 +1113,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_START
@@ -1233,7 +1233,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_END
@@ -1242,7 +1242,7 @@ NS_TOUCH_END
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_CANCEL
@@ -1251,7 +1251,7 @@ NS_TOUCH_CANCEL
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -1303,7 +1303,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_MOVE
@@ -1312,7 +1312,7 @@ NS_TOUCH_MOVE
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_MOVE
@@ -1450,7 +1450,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_MOZLONGTAP

@@ -180,7 +180,7 @@ switch
 (
 aTouchEvent
 .
-message
+mMessage
 )
 {
 case
@@ -853,7 +853,7 @@ switch
 (
 aMouseEvent
 .
-message
+mMessage
 )
 {
 case

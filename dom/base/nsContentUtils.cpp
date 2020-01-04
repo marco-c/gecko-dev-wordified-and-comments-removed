@@ -24501,7 +24501,7 @@ NS_ASSERTION
 aDragEvent
 -
 >
-message
+mMessage
 !
 =
 NS_DRAGDROP_GESTURE
@@ -24510,7 +24510,7 @@ NS_DRAGDROP_GESTURE
 aDragEvent
 -
 >
-message
+mMessage
 !
 =
 NS_DRAGDROP_START
@@ -24600,7 +24600,7 @@ target
 aDragEvent
 -
 >
-message
+mMessage
 true
 -
 1
@@ -24625,7 +24625,7 @@ if
 aDragEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_DROP
@@ -24634,7 +24634,7 @@ NS_DRAGDROP_DROP
 aDragEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_DRAGDROP
@@ -24661,7 +24661,7 @@ target
 aDragEvent
 -
 >
-message
+mMessage
 aDragEvent
 -
 >
@@ -24690,7 +24690,7 @@ if
 aDragEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_ENTER
@@ -24699,7 +24699,7 @@ NS_DRAGDROP_ENTER
 aDragEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_OVER
@@ -24752,7 +24752,7 @@ if
 aDragEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_DROP
@@ -24761,7 +24761,7 @@ NS_DRAGDROP_DROP
 aDragEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_DRAGDROP
@@ -24770,7 +24770,7 @@ NS_DRAGDROP_DRAGDROP
 aDragEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_END

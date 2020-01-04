@@ -519,7 +519,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -684,7 +684,7 @@ mMessage
 aEvent
 -
 >
-message
+mMessage
 ;
 gCaptureTouchList
 -
@@ -789,7 +789,7 @@ mMessage
 aEvent
 -
 >
-message
+mMessage
 ;
 nsRefPtr
 <
@@ -1082,7 +1082,7 @@ mMessage
 aEvent
 -
 >
-message
+mMessage
 ;
 touch
 -

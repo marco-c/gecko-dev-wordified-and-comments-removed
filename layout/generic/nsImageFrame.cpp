@@ -9318,7 +9318,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -9345,7 +9345,7 @@ eLeftButton
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_MOVE
@@ -9543,7 +9543,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP

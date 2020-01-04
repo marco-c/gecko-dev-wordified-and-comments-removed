@@ -4901,7 +4901,7 @@ switch
 (
 aKeyEvent
 .
-message
+mMessage
 )
 {
 case

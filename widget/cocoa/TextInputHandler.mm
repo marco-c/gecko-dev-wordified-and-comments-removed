@@ -1575,7 +1575,7 @@ switch
 (
 aEvent
 .
-message
+mMessage
 )
 {
 case
@@ -4178,7 +4178,7 @@ p
 "
 aKeyEvent
 .
-message
+mMessage
 =
 %
 s
@@ -5540,7 +5540,7 @@ if
 (
 aKeyEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -6208,7 +6208,7 @@ NS_ASSERTION
 (
 aKeyEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -6318,7 +6318,7 @@ s
 "
 aKeyEvent
 .
-message
+mMessage
 =
 %
 s
@@ -23601,7 +23601,7 @@ if
 (
 aEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -24424,7 +24424,7 @@ if
 (
 aKeyEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_UP

@@ -2332,7 +2332,7 @@ IsReal
 mouseEvent
 -
 >
-message
+mMessage
 !
 =
 NS_MOUSE_ENTER_WIDGET
@@ -2341,7 +2341,7 @@ NS_MOUSE_ENTER_WIDGET
 mouseEvent
 -
 >
-message
+mMessage
 !
 =
 NS_MOUSE_EXIT_WIDGET
@@ -2571,7 +2571,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -2803,7 +2803,7 @@ eTopLevel
 mouseEvent
 -
 >
-message
+mMessage
 =
 NS_MOUSE_MOVE
 ;
@@ -2840,7 +2840,7 @@ mouseEvent
 aEvent
 -
 >
-message
+mMessage
 =
 0
 ;
@@ -3176,7 +3176,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 !
 =
 NS_WHEEL_WHEEL
@@ -5285,7 +5285,7 @@ switch
 (
 aEvent
 .
-message
+mMessage
 )
 {
 case
@@ -5322,7 +5322,7 @@ switch
 (
 aEvent
 .
-message
+mMessage
 )
 {
 case
@@ -5353,7 +5353,7 @@ switch
 (
 aEvent
 .
-message
+mMessage
 )
 {
 case
@@ -5443,7 +5443,7 @@ eTouchEventClass
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_START
@@ -11197,7 +11197,7 @@ NS_ASSERTION
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_GESTURENOTIFY_EVENT_START
@@ -11982,7 +11982,7 @@ mCurrentTarget
 aEvent
 -
 >
-message
+mMessage
 !
 =
 NS_MOUSE_BUTTON_UP
@@ -11991,7 +11991,7 @@ NS_MOUSE_BUTTON_UP
 aEvent
 -
 >
-message
+mMessage
 !
 =
 NS_MOUSE_BUTTON_DOWN
@@ -12019,7 +12019,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -13180,7 +13180,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 !
 =
 NS_WHEEL_WHEEL
@@ -13783,7 +13783,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_OVER
@@ -13813,7 +13813,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_DRAGDROP_OVER
@@ -17205,7 +17205,7 @@ aEvent
 ;
 pointerEvent
 .
-message
+mMessage
 =
 aMessage
 ;
@@ -17252,7 +17252,7 @@ switch
 aMouseEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -17897,7 +17897,7 @@ switch
 aDragEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -18497,7 +18497,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -18518,7 +18518,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -18588,7 +18588,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -18609,7 +18609,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -18679,7 +18679,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -18700,7 +18700,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -19261,7 +19261,7 @@ aEvent
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -19270,7 +19270,7 @@ NS_FOCUS_CONTENT
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_BLUR_CONTENT
@@ -20768,7 +20768,7 @@ return
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -21176,7 +21176,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -21350,7 +21350,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -24525,7 +24525,7 @@ aEvent
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -24602,7 +24602,7 @@ mResetFMMouseButtonHandlingState
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -24611,7 +24611,7 @@ NS_MOUSE_BUTTON_DOWN
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP

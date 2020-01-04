@@ -3376,7 +3376,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -3533,7 +3533,7 @@ d
 aEvent
 -
 >
-message
+mMessage
 )
 ;
 SetVisibility

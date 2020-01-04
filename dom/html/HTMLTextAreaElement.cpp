@@ -1870,7 +1870,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 )
 {
@@ -1885,7 +1885,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FORM_SELECTED
@@ -1932,7 +1932,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_CLICK
@@ -1976,7 +1976,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_BLUR_CONTENT
@@ -2076,7 +2076,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FORM_SELECTED
@@ -2094,7 +2094,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -2105,7 +2105,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_BLUR_CONTENT
@@ -2118,7 +2118,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT

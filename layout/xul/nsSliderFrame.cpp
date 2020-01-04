@@ -2095,7 +2095,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -2604,7 +2604,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_DOWN
@@ -2624,7 +2624,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_BUTTON_UP
@@ -2649,7 +2649,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_OUT
@@ -4531,7 +4531,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -4679,7 +4679,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_START
@@ -4696,7 +4696,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 !
 =
 NS_MOUSE_BUTTON_DOWN

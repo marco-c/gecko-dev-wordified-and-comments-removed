@@ -593,7 +593,7 @@ mEventID
 =
 aEvent
 .
-message
+mMessage
 ;
 mSucceeded
 =

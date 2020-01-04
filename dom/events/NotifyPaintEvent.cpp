@@ -107,7 +107,7 @@ mEvent
 mEvent
 -
 >
-message
+mMessage
 =
 aEventType
 ;

@@ -3846,7 +3846,7 @@ if
 touchEvent
 -
 >
-message
+mMessage
 =
 =
 NS_TOUCH_START
@@ -12022,7 +12022,7 @@ switch
 aGuiEvent
 -
 >
-message
+mMessage
 )
 {
 _ASSIGN_eventName
@@ -12313,7 +12313,7 @@ d
 aGuiEvent
 -
 >
-message
+mMessage
 )
 ;
 CopyASCIItoUTF16
@@ -12830,7 +12830,7 @@ if
 aGuiEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_MOVE
@@ -12858,7 +12858,7 @@ if
 aGuiEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_ENTER_WIDGET
@@ -12867,7 +12867,7 @@ NS_MOUSE_ENTER_WIDGET
 aGuiEvent
 -
 >
-message
+mMessage
 =
 =
 NS_MOUSE_EXIT_WIDGET

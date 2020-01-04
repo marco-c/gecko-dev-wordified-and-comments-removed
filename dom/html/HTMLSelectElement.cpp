@@ -5603,7 +5603,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 )
 )
 {
@@ -5639,7 +5639,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_FOCUS_CONTENT
@@ -5672,7 +5672,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 =
 =
 NS_BLUR_CONTENT

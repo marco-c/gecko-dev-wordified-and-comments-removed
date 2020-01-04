@@ -538,7 +538,7 @@ switch
 mEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -681,7 +681,7 @@ switch
 mEvent
 -
 >
-message
+mMessage
 )
 {
 case

@@ -6101,7 +6101,7 @@ NS_MOUSE_ENTER_WIDGET
 =
 event
 .
-message
+mMessage
 )
 {
 mTabSetsCursor
@@ -6155,7 +6155,7 @@ NS_MOUSE_EXIT_WIDGET
 =
 event
 .
-message
+mMessage
 )
 {
 mTabSetsCursor
@@ -6171,7 +6171,7 @@ NS_MOUSE_MOVE
 =
 event
 .
-message
+mMessage
 )
 {
 return
@@ -7719,7 +7719,7 @@ if
 (
 event
 .
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -7882,7 +7882,7 @@ if
 (
 event
 .
-message
+mMessage
 =
 =
 NS_TOUCH_END
@@ -7890,7 +7890,7 @@ NS_TOUCH_END
 |
 event
 .
-message
+mMessage
 =
 =
 NS_TOUCH_CANCEL
@@ -8022,7 +8022,7 @@ return
 (
 event
 .
-message
+mMessage
 =
 =
 NS_TOUCH_MOVE
@@ -10363,7 +10363,7 @@ BeforeAfterKeyboardEventEnabled
 &
 localEvent
 .
-message
+mMessage
 !
 =
 NS_KEY_PRESS
@@ -10451,7 +10451,7 @@ switch
 (
 aEvent
 .
-message
+mMessage
 )
 {
 case

@@ -4380,7 +4380,7 @@ if
 (
 event
 .
-message
+mMessage
 =
 =
 NS_EVENT_NULL
@@ -4543,7 +4543,7 @@ this
 ;
 canceltouchEvent
 .
-message
+mMessage
 =
 NS_TOUCH_CANCEL
 ;
@@ -4771,7 +4771,7 @@ if
 (
 event
 .
-message
+mMessage
 !
 =
 NS_EVENT_NULL
@@ -4808,7 +4808,7 @@ isDownEvent
 (
 event
 .
-message
+mMessage
 =
 =
 NS_TOUCH_START
@@ -6477,7 +6477,7 @@ if
 (
 event
 .
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -6565,7 +6565,7 @@ if
 (
 event
 .
-message
+mMessage
 !
 =
 NS_KEY_DOWN
@@ -6573,7 +6573,7 @@ NS_KEY_DOWN
 &
 event
 .
-message
+mMessage
 !
 =
 NS_KEY_UP
@@ -6587,13 +6587,13 @@ InitKeyEvent
 unexpected
 event
 .
-message
+mMessage
 %
 d
 "
 event
 .
-message
+mMessage
 )
 ;
 }
@@ -6604,7 +6604,7 @@ action
 =
 event
 .
-message
+mMessage
 =
 =
 NS_KEY_DOWN
@@ -6676,7 +6676,7 @@ if
 (
 event
 .
-message
+mMessage
 =
 =
 NS_KEY_PRESS
@@ -6725,7 +6725,7 @@ mIsRepeat
 (
 event
 .
-message
+mMessage
 =
 =
 NS_KEY_DOWN
@@ -6733,7 +6733,7 @@ NS_KEY_DOWN
 |
 event
 .
-message
+mMessage
 =
 =
 NS_KEY_PRESS

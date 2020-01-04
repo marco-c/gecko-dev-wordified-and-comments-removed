@@ -3411,7 +3411,7 @@ if
 keyEvent
 -
 >
-message
+mMessage
 !
 =
 NS_KEY_PRESS

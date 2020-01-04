@@ -35489,7 +35489,7 @@ aVisitor
 mEvent
 -
 >
-message
+mMessage
 !
 =
 NS_LOAD

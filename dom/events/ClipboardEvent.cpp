@@ -489,11 +489,11 @@ this
 event
 -
 >
-message
+mMessage
 event
 -
 >
-message
+mMessage
 =
 =
 NS_PASTE

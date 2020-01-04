@@ -2007,7 +2007,7 @@ aTargets
 aEvent
 -
 >
-message
+mMessage
 "
 Wrong
 parameters
@@ -2020,7 +2020,7 @@ NS_ENSURE_TRUE
 aEvent
 -
 >
-message
+mMessage
 |
 |
 !
@@ -2373,7 +2373,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 !
 =
 NS_EVENT_NULL

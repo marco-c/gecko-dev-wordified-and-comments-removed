@@ -4903,7 +4903,7 @@ mIsRepeat
 (
 aEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_DOWN
@@ -4911,7 +4911,7 @@ NS_KEY_DOWN
 |
 aEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_PRESS

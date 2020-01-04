@@ -1708,7 +1708,7 @@ switch
 internalEvent
 -
 >
-message
+mMessage
 )
 {
 case

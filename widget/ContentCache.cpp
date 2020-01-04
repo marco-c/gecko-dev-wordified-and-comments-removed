@@ -2988,7 +2988,7 @@ switch
 (
 aEvent
 .
-message
+mMessage
 )
 {
 case
@@ -3015,7 +3015,7 @@ HandleQueryContentEvent
 aEvent
 =
 {
-message
+mMessage
 =
 NS_QUERY_SELECTED_TEXT
 }
@@ -3373,7 +3373,7 @@ HandleQueryContentEvent
 aEvent
 =
 {
-message
+mMessage
 =
 NS_QUERY_TEXT_CONTENT
 mInput
@@ -3619,7 +3619,7 @@ HandleQueryContentEvent
 aEvent
 =
 {
-message
+mMessage
 =
 NS_QUERY_TEXT_RECT
 mInput
@@ -4055,7 +4055,7 @@ HandleQueryContentEvent
 aEvent
 =
 {
-message
+mMessage
 =
 NS_QUERY_CARET_RECT
 mInput
@@ -4294,7 +4294,7 @@ HandleQueryContentEvent
 aEvent
 =
 {
-message
+mMessage
 =
 NS_QUERY_EDITOR_RECT
 }
@@ -5424,7 +5424,7 @@ aEvent
 {
 "
 "
-message
+mMessage
 =
 %
 s
@@ -5477,7 +5477,7 @@ GetEventMessageName
 (
 aEvent
 .
-message
+mMessage
 )
 NS_ConvertUTF16toUTF8
 (
@@ -5536,7 +5536,7 @@ MOZ_ASSERT
 (
 aEvent
 .
-message
+mMessage
 =
 =
 NS_COMPOSITION_START
@@ -5670,7 +5670,7 @@ aEvent
 {
 "
 "
-message
+mMessage
 =
 %
 s
@@ -5714,7 +5714,7 @@ GetEventMessageName
 (
 aSelectionEvent
 .
-message
+mMessage
 )
 aSelectionEvent
 .

@@ -1538,7 +1538,7 @@ ullArguments
 ;
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_MAGNIFY_START
 ;
@@ -1563,7 +1563,7 @@ GF_END
 {
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_MAGNIFY
 ;
@@ -1601,7 +1601,7 @@ else
 {
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_MAGNIFY_UPDATE
 ;
@@ -1762,7 +1762,7 @@ GF_BEGIN
 )
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_ROTATE_START
 ;
@@ -1777,14 +1777,14 @@ GF_END
 )
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_ROTATE
 ;
 else
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_ROTATE_UPDATE
 ;
@@ -1797,7 +1797,7 @@ GID_TWOFINGERTAP
 {
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_TAP
 ;
@@ -1816,7 +1816,7 @@ GID_PRESSANDTAP
 {
 evt
 .
-message
+mMessage
 =
 NS_SIMPLE_GESTURE_PRESSTAP
 ;

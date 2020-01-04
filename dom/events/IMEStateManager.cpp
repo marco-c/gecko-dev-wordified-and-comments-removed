@@ -6037,7 +6037,7 @@ GetEventMessageName
 aCompositionEvent
 -
 >
-message
+mMessage
 )
 GetBoolName
 (
@@ -6096,7 +6096,7 @@ MOZ_ASSERT
 aCompositionEvent
 -
 >
-message
+mMessage
 !
 =
 NS_COMPOSITION_UPDATE
@@ -6184,7 +6184,7 @@ MOZ_ASSERT
 aCompositionEvent
 -
 >
-message
+mMessage
 =
 =
 NS_COMPOSITION_START
@@ -6220,7 +6220,7 @@ MOZ_ASSERT
 aCompositionEvent
 -
 >
-message
+mMessage
 !
 =
 NS_COMPOSITION_START
@@ -6474,7 +6474,7 @@ p
 aSelectionEvent
 =
 {
-message
+mMessage
 =
 %
 s
@@ -6502,7 +6502,7 @@ GetEventMessageName
 aSelectionEvent
 -
 >
-message
+mMessage
 )
 GetBoolName
 (
@@ -6616,7 +6616,7 @@ aCompositionEvent
 {
 "
 "
-message
+mMessage
 =
 %
 s
@@ -6636,7 +6636,7 @@ GetEventMessageName
 aCompositionEvent
 -
 >
-message
+mMessage
 )
 GetBoolName
 (
@@ -6669,7 +6669,7 @@ if
 aCompositionEvent
 -
 >
-message
+mMessage
 =
 =
 NS_COMPOSITION_START

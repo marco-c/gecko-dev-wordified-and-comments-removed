@@ -1750,7 +1750,7 @@ switch
 aMouseEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -1978,7 +1978,7 @@ mEventMessage
 aMouseEvent
 -
 >
-message
+mMessage
 ;
 notification
 .

@@ -919,7 +919,7 @@ if
 (
 aKeyboardEvent
 .
-message
+mMessage
 =
 =
 NS_KEY_DOWN
@@ -933,7 +933,7 @@ if
 (
 aKeyboardEvent
 .
-message
+mMessage
 =
 =
 NS_USER_DEFINED_EVENT
@@ -1145,7 +1145,7 @@ if
 aKeyboardEvent
 -
 >
-message
+mMessage
 =
 =
 NS_KEY_DOWN

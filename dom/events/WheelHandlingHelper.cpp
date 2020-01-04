@@ -451,7 +451,7 @@ MOZ_ASSERT
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_WHEEL_WHEEL
@@ -754,7 +754,7 @@ switch
 aEvent
 -
 >
-message
+mMessage
 )
 {
 case
@@ -1765,7 +1765,7 @@ if
 aEvent
 -
 >
-message
+mMessage
 =
 =
 NS_WHEEL_START

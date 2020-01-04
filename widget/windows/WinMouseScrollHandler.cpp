@@ -3976,7 +3976,7 @@ MOZ_ASSERT
 (
 aWheelEvent
 .
-message
+mMessage
 =
 =
 NS_WHEEL_WHEEL

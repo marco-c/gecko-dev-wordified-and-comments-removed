@@ -407,7 +407,7 @@ IsLeftClickEvent
 const
 {
 return
-message
+mMessage
 =
 =
 NS_MOUSE_CLICK
@@ -682,7 +682,7 @@ WidgetMouseEvent
 {
 NS_WARN_IF_FALSE
 (
-message
+mMessage
 !
 =
 NS_CONTEXTMENU
@@ -753,7 +753,7 @@ new
 WidgetMouseEvent
 (
 false
-message
+mMessage
 nullptr
 reason
 context
@@ -850,7 +850,7 @@ IsContextMenuKeyEvent
 const
 {
 return
-message
+mMessage
 =
 =
 NS_CONTEXTMENU
@@ -1014,7 +1014,7 @@ new
 WidgetDragEvent
 (
 false
-message
+mMessage
 nullptr
 )
 ;
@@ -1181,7 +1181,7 @@ new
 WidgetMouseScrollEvent
 (
 false
-message
+mMessage
 nullptr
 )
 ;
@@ -1412,7 +1412,7 @@ new
 WidgetWheelEvent
 (
 false
-message
+mMessage
 nullptr
 )
 ;
@@ -1800,7 +1800,7 @@ UpdateFlags
 {
 switch
 (
-message
+mMessage
 )
 {
 case
@@ -1882,7 +1882,7 @@ new
 WidgetPointerEvent
 (
 false
-message
+mMessage
 nullptr
 )
 ;

@@ -163,7 +163,7 @@ new
 InternalScrollPortEvent
 (
 false
-message
+mMessage
 nullptr
 )
 ;
@@ -293,7 +293,7 @@ new
 InternalScrollAreaEvent
 (
 false
-message
+mMessage
 nullptr
 )
 ;
@@ -423,7 +423,7 @@ new
 InternalFormEvent
 (
 false
-message
+mMessage
 )
 ;
 result
@@ -543,7 +543,7 @@ new
 InternalClipboardEvent
 (
 false
-message
+mMessage
 )
 ;
 result
@@ -682,7 +682,7 @@ new
 InternalFocusEvent
 (
 false
-message
+mMessage
 )
 ;
 result
@@ -847,7 +847,7 @@ new
 InternalTransitionEvent
 (
 false
-message
+mMessage
 )
 ;
 result
@@ -1002,7 +1002,7 @@ new
 InternalAnimationEvent
 (
 false
-message
+mMessage
 )
 ;
 result
@@ -1152,7 +1152,7 @@ new
 InternalSVGZoomEvent
 (
 false
-message
+mMessage
 )
 ;
 result
@@ -1280,7 +1280,7 @@ new
 InternalSMILTimeEvent
 (
 false
-message
+mMessage
 )
 ;
 result
