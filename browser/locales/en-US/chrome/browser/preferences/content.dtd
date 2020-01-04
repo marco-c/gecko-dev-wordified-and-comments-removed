@@ -108,7 +108,7 @@ Notifications
 <
 !
 ENTITY
-notificationsPolicyDesc
+notificationsPolicyDesc2
 .
 label
 "
@@ -118,7 +118,7 @@ sites
 are
 allowed
 to
-show
+receive
 notifications
 "
 >
