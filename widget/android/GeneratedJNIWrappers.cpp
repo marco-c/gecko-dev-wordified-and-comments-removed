@@ -9315,7 +9315,7 @@ float
 a5
 float
 a6
-bool
+int32_t
 a7
 int32_t
 a8
@@ -9323,11 +9323,11 @@ int32_t
 a9
 int32_t
 a10
-int32_t
-a11
 float
-a12
+a11
 bool
+a12
+int32_t
 a13
 )
 const
