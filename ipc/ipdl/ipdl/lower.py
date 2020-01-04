@@ -29429,31 +29429,6 @@ tvar
 )
 )
             
-addopened
-=
-StmtExpr
-(
-ExprCall
-(
-                
-ExprVar
-(
-'
-IToplevelProtocol
-:
-:
-AddOpenedActor
-'
-)
-                
-args
-=
-[
-pvar
-]
-)
-)
-            
 case
 .
 addstmts
@@ -29514,8 +29489,6 @@ iffailopen
 iffailalloc
                 
 settrans
-                
-addopened
                 
 StmtBreak
 (
