@@ -15660,8 +15660,9 @@ dir
 SkScalar
 t
 ;
-SkAssertResult
+if
 (
+!
 SkCubicClipper
 :
 :
@@ -15673,7 +15674,11 @@ y
 t
 )
 )
+{
+return
+0
 ;
+}
 SkScalar
 xt
 =
@@ -17360,8 +17365,9 @@ i
 SkScalar
 t
 ;
-SkAssertResult
+if
 (
+!
 SkCubicClipper
 :
 :
@@ -17373,7 +17379,10 @@ y
 t
 )
 )
+{
+continue
 ;
+}
 SkScalar
 xt
 =
