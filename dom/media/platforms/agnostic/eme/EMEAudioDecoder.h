@@ -67,15 +67,9 @@ CDMProxy
 *
 aProxy
 const
-AudioInfo
+GMPAudioDecoderParams
 &
-aConfig
-TaskQueue
-*
-aTaskQueue
-MediaDataDecoderCallbackProxy
-*
-aCallback
+aParams
 )
 ;
 private
