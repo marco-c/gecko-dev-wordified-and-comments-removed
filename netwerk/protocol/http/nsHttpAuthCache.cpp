@@ -2528,8 +2528,9 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mList
 .
-AppendElement
+InsertElementAt
 (
+0
 entry
 )
 ;
