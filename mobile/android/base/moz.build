@@ -3645,6 +3645,13 @@ java
 '
 restrictions
 /
+RestrictionCache
+.
+java
+'
+'
+restrictions
+/
 RestrictionConfiguration
 .
 java

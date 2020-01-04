@@ -165,7 +165,7 @@ Intent
 EXTRA_RESTRICTIONS_BUNDLE
 )
 ;
-RestrictedProfileConfiguration
+RestrictionCache
 .
 migrateRestrictionsIfNeeded
 (
