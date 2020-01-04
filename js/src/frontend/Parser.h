@@ -4904,6 +4904,11 @@ warnOnceAboutExprClosure
 (
 )
 ;
+bool
+warnOnceAboutForEach
+(
+)
+;
 }
 ;
 }
