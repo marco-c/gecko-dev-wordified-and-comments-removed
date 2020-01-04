@@ -492,7 +492,10 @@ aRanges
 MediaByteRange
 (
 0
+int64_t
+(
 mLength
+)
 )
 ;
 return
