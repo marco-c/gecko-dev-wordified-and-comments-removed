@@ -701,11 +701,11 @@ struct
 HashPolicy
 ;
 typedef
+JS
+:
+:
 GCHashSet
 <
-js
-:
-:
 ReadBarriered
 <
 SavedFrame

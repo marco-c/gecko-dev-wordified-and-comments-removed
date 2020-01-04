@@ -261,7 +261,7 @@ UncompiledT
 }
 ;
 namespace
-js
+JS
 {
 template
 <
@@ -297,6 +297,10 @@ UncompiledT
 }
 }
 ;
+}
+namespace
+js
+{
 template
 <
 class

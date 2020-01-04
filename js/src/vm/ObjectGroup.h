@@ -1799,7 +1799,7 @@ entry
 using
 PlainObjectTable
 =
-js
+JS
 :
 :
 GCHashMap
@@ -1825,7 +1825,7 @@ AllocationSiteKey
 using
 AllocationSiteTable
 =
-js
+JS
 :
 :
 GCHashMap

@@ -345,6 +345,9 @@ ScriptSourceObject
 RootedScriptSource
 ;
 typedef
+JS
+:
+:
 GCVector
 <
 JSFunction
@@ -353,6 +356,9 @@ JSFunction
 FunctionVector
 ;
 typedef
+JS
+:
+:
 GCVector
 <
 PropertyName
@@ -361,6 +367,9 @@ PropertyName
 PropertyNameVector
 ;
 typedef
+JS
+:
+:
 GCVector
 <
 Shape
@@ -369,6 +378,9 @@ Shape
 ShapeVector
 ;
 typedef
+JS
+:
+:
 GCVector
 <
 JSString

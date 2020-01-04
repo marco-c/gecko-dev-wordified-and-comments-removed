@@ -367,7 +367,7 @@ mNpp
 }
 ;
 namespace
-js
+JS
 {
 template
 <
@@ -450,7 +450,7 @@ mNpp
 }
 ;
 typedef
-js
+JS
 :
 :
 GCHashMap

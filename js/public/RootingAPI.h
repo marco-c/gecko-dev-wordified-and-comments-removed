@@ -645,9 +645,6 @@ T
 ;
 init
 (
-js
-:
-:
 GCPolicy
 <
 T
@@ -701,9 +698,6 @@ Heap
 post
 (
 ptr
-js
-:
-:
 GCPolicy
 <
 T
@@ -786,9 +780,6 @@ newPtr
 ;
 post
 (
-js
-:
-:
 GCPolicy
 <
 T
@@ -2340,6 +2331,9 @@ initial
 tracer
 (
 &
+JS
+:
+:
 GCPolicy
 <
 T
@@ -2702,9 +2696,6 @@ cx
 :
 ptr
 (
-js
-:
-:
 GCPolicy
 <
 T
@@ -3031,6 +3022,9 @@ cx
 :
 ptr
 (
+JS
+:
+:
 GCPolicy
 <
 T
@@ -4036,9 +4030,6 @@ PersistentRooted
 :
 ptr
 (
-js
-:
-:
 GCPolicy
 <
 T
@@ -4067,9 +4058,6 @@ cx
 :
 ptr
 (
-js
-:
-:
 GCPolicy
 <
 T
@@ -4205,9 +4193,6 @@ cx
 init
 (
 cx
-js
-:
-:
 GCPolicy
 <
 T
@@ -4276,9 +4261,6 @@ initialized
 {
 set
 (
-js
-:
-:
 GCPolicy
 <
 T

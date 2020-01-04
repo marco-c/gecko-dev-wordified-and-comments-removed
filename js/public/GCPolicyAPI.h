@@ -54,7 +54,7 @@ Symbol
 ;
 }
 namespace
-js
+JS
 {
 template
 <
@@ -452,9 +452,6 @@ char
 name
 )
 {
-JS
-:
-:
 TraceEdge
 (
 trc
@@ -479,6 +476,9 @@ thingp
 )
 {
 return
+js
+:
+:
 gc
 :
 :

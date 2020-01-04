@@ -8240,7 +8240,7 @@ root
 *
 root
 =
-js
+JS
 :
 :
 GCPolicy
@@ -8262,7 +8262,7 @@ ReservedRooted
 *
 savedRoot
 =
-js
+JS
 :
 :
 GCPolicy

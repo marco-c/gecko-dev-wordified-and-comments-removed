@@ -679,6 +679,10 @@ name
 }
 }
 ;
+}
+namespace
+JS
+{
 #
 define
 DEFINE_INTERNAL_GC_POLICY
@@ -696,6 +700,9 @@ type
 >
 :
 public
+js
+:
+:
 InternalGCPointerPolicy
 <
 type
@@ -718,6 +725,9 @@ T
 struct
 GCPolicy
 <
+js
+:
+:
 RelocatablePtr
 <
 T
@@ -731,6 +741,9 @@ trace
 JSTracer
 *
 trc
+js
+:
+:
 RelocatablePtr
 <
 T
@@ -743,6 +756,9 @@ char
 name
 )
 {
+js
+:
+:
 TraceEdge
 (
 trc
@@ -755,6 +771,9 @@ static
 bool
 needsSweep
 (
+js
+:
+:
 RelocatablePtr
 <
 T
@@ -764,6 +783,9 @@ thingp
 )
 {
 return
+js
+:
+:
 gc
 :
 :
@@ -783,6 +805,9 @@ T
 struct
 GCPolicy
 <
+js
+:
+:
 ReadBarriered
 <
 T
@@ -796,6 +821,9 @@ trace
 JSTracer
 *
 trc
+js
+:
+:
 ReadBarriered
 <
 T
@@ -808,6 +836,9 @@ char
 name
 )
 {
+js
+:
+:
 TraceEdge
 (
 trc
@@ -820,6 +851,9 @@ static
 bool
 needsSweep
 (
+js
+:
+:
 ReadBarriered
 <
 T
@@ -829,6 +863,9 @@ thingp
 )
 {
 return
+js
+:
+:
 gc
 :
 :

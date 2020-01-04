@@ -535,7 +535,7 @@ JSObject
 using
 Table
 =
-js
+JS
 :
 :
 GCHashMap

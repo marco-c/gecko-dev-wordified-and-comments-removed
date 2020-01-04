@@ -162,9 +162,6 @@ owner_
 T
 value_
 =
-js
-:
-:
 GCPolicy
 <
 T

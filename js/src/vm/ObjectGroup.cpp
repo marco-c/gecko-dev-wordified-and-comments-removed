@@ -9576,6 +9576,9 @@ if
 (
 !
 (
+JS
+:
+:
 GCPolicy
 <
 PlainObjectKey

@@ -2562,7 +2562,7 @@ JSObject2JSObjectMap
 using
 Map
 =
-js
+JS
 :
 :
 GCHashMap

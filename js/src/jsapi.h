@@ -1165,7 +1165,7 @@ AutoObjectVector
 using
 ValueVector
 =
-js
+JS
 :
 :
 GCVector
@@ -1179,7 +1179,7 @@ Value
 using
 IdVector
 =
-js
+JS
 :
 :
 GCVector
@@ -1190,7 +1190,7 @@ jsid
 using
 ScriptVector
 =
-js
+JS
 :
 :
 GCVector
