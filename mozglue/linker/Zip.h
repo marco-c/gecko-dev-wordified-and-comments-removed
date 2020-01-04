@@ -736,6 +736,10 @@ uncompressedSize
 (
 0
 )
+CRC32
+(
+0
+)
 type
 (
 STORE
@@ -769,6 +773,15 @@ GetUncompressedSize
 {
 return
 uncompressedSize
+;
+}
+size_t
+GetCRC32
+(
+)
+{
+return
+CRC32
 ;
 }
 Type
@@ -856,6 +869,9 @@ compressedSize
 ;
 size_t
 uncompressedSize
+;
+size_t
+CRC32
 ;
 Type
 type
