@@ -1328,7 +1328,7 @@ getLoopPref
 "
 feedback
 .
-formURL
+manualFormURL
 "
 )
 ;

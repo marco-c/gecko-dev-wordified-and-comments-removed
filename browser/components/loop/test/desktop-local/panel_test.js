@@ -2915,7 +2915,7 @@ pref
 "
 feedback
 .
-formURL
+manualFormURL
 "
 )
 {
