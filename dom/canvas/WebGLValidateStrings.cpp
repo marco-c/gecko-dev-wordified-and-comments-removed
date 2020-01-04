@@ -517,6 +517,15 @@ const
 uint32_t
 maxSize
 =
+webgl
+-
+>
+IsWebGL2
+(
+)
+?
+1024
+:
 256
 ;
 if
