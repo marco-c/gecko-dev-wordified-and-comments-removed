@@ -173,6 +173,7 @@ const
 {
 pageStyleSpec
 styleRuleSpec
+ELEMENT_STYLE
 }
 =
 require
@@ -267,17 +268,6 @@ Ci
 inIDOMUtils
 )
 )
-;
-const
-ELEMENT_STYLE
-=
-100
-;
-exports
-.
-ELEMENT_STYLE
-=
-ELEMENT_STYLE
 ;
 loader
 .

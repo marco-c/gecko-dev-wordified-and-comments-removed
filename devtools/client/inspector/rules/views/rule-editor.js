@@ -67,9 +67,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+specs
 /
 styles
 "
