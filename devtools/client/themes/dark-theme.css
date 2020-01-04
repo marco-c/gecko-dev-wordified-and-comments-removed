@@ -6,6 +6,14 @@ variables
 css
 )
 ;
+import
+url
+(
+toolbars
+.
+css
+)
+;
 body
 {
 margin
@@ -2370,10 +2378,3 @@ color
 )
 ;
 }
-%
-include
-toolbars
-.
-inc
-.
-css

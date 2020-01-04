@@ -2925,7 +2925,6 @@ common
 .
 css
 )
-*
 skin
 /
 themes
@@ -2944,7 +2943,6 @@ theme
 .
 css
 )
-*
 skin
 /
 themes
@@ -2960,6 +2958,20 @@ themes
 light
 -
 theme
+.
+css
+)
+skin
+/
+themes
+/
+toolbars
+.
+css
+(
+themes
+/
+toolbars
 .
 css
 )
