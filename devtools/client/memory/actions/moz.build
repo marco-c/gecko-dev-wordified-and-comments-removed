@@ -104,6 +104,11 @@ refresh
 js
 '
 '
+sizes
+.
+js
+'
+'
 snapshot
 .
 js

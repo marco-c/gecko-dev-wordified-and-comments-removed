@@ -120,6 +120,13 @@ list
 js
 '
 '
+shortest
+-
+paths
+.
+js
+'
+'
 snapshot
 -
 list
