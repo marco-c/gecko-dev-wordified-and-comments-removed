@@ -2900,9 +2900,9 @@ aAttribute
 nsresult
 RemoveBlockContainer
 (
-nsIDOMNode
-*
-inNode
+nsIContent
+&
+aNode
 )
 ;
 nsIContent
