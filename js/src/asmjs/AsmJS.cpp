@@ -47818,7 +47818,7 @@ getExtendedSlot
 FunctionExtended
 :
 :
-ASMJS_MODULE_SLOT
+WASM_MODULE_SLOT
 )
 ;
 return
@@ -48052,7 +48052,7 @@ setExtendedSlot
 FunctionExtended
 :
 :
-ASMJS_MODULE_SLOT
+WASM_MODULE_SLOT
 ObjectValue
 (
 *
