@@ -166,13 +166,13 @@ using
 namespace
 wasm
 ;
-Bytecode
-bc
+Bytes
+bytes
 ;
 Encoder
 encoder
 (
-bc
+bytes
 )
 ;
 bool
@@ -203,7 +203,7 @@ i
 ;
 CHECK
 (
-bc
+bytes
 [
 i
 +
@@ -216,7 +216,7 @@ i
 ;
 CHECK
 (
-bc
+bytes
 [
 i
 +
@@ -229,7 +229,7 @@ i
 ;
 CHECK
 (
-bc
+bytes
 [
 i
 +
@@ -242,7 +242,7 @@ i
 ;
 CHECK
 (
-bc
+bytes
 [
 i
 +
@@ -255,7 +255,7 @@ i
 ;
 CHECK
 (
-bc
+bytes
 [
 i
 +
@@ -268,7 +268,7 @@ i
 ;
 CHECK
 (
-bc
+bytes
 [
 i
 +
@@ -281,7 +281,7 @@ i
 ;
 CHECK
 (
-bc
+bytes
 [
 i
 +
@@ -298,7 +298,7 @@ i
 +
 1
 <
-bc
+bytes
 .
 length
 (
@@ -306,7 +306,7 @@ length
 )
 CHECK
 (
-bc
+bytes
 [
 i
 +
@@ -338,13 +338,13 @@ using
 namespace
 wasm
 ;
-Bytecode
-bc
+Bytes
+bytes
 ;
 if
 (
 !
-bc
+bytes
 .
 append
 (
@@ -353,7 +353,7 @@ append
 |
 |
 !
-bc
+bytes
 .
 append
 (
@@ -362,7 +362,7 @@ append
 |
 |
 !
-bc
+bytes
 .
 append
 (
@@ -375,7 +375,7 @@ false
 if
 (
 !
-bc
+bytes
 .
 append
 (
@@ -384,7 +384,7 @@ append
 |
 |
 !
-bc
+bytes
 .
 append
 (
@@ -397,7 +397,7 @@ false
 if
 (
 !
-bc
+bytes
 .
 append
 (
@@ -406,7 +406,7 @@ append
 |
 |
 !
-bc
+bytes
 .
 append
 (
@@ -420,7 +420,7 @@ false
 Decoder
 decoder
 (
-bc
+bytes
 )
 ;
 uint32_t
@@ -525,7 +525,7 @@ done
 Decoder
 decoder
 (
-bc
+bytes
 )
 ;
 uint32_t
@@ -642,13 +642,13 @@ using
 namespace
 wasm
 ;
-Bytecode
-bc
+Bytes
+bytes
 ;
 if
 (
 !
-bc
+bytes
 .
 append
 (
@@ -657,7 +657,7 @@ append
 |
 |
 !
-bc
+bytes
 .
 append
 (
@@ -666,7 +666,7 @@ append
 |
 |
 !
-bc
+bytes
 .
 append
 (
@@ -675,7 +675,7 @@ append
 |
 |
 !
-bc
+bytes
 .
 append
 (
@@ -688,7 +688,7 @@ false
 if
 (
 !
-bc
+bytes
 .
 append
 (
@@ -714,7 +714,7 @@ i
 +
 )
 {
-bc
+bytes
 [
 4
 ]
@@ -725,7 +725,7 @@ i
 Decoder
 decoder
 (
-bc
+bytes
 )
 ;
 uint32_t
@@ -770,7 +770,7 @@ done
 Decoder
 decoder
 (
-bc
+bytes
 )
 ;
 uint32_t
@@ -823,7 +823,7 @@ i
 +
 )
 {
-bc
+bytes
 [
 4
 ]
@@ -833,7 +833,7 @@ i
 Decoder
 decoder
 (
-bc
+bytes
 )
 ;
 uint32_t

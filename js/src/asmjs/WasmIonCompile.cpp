@@ -88,7 +88,7 @@ Decoder
 decoder_
 ;
 const
-FuncBytecode
+FuncBytes
 &
 func_
 ;
@@ -145,7 +145,7 @@ Decoder
 &
 decoder
 const
-FuncBytecode
+FuncBytes
 &
 func
 const
@@ -750,7 +750,7 @@ done
 )
 "
 all
-bytecode
+bytes
 must
 be
 consumed
@@ -17702,7 +17702,7 @@ PRMJ_Now
 )
 ;
 const
-FuncBytecode
+FuncBytes
 &
 func
 =
@@ -17729,7 +17729,7 @@ d
 (
 func
 .
-bytecode
+bytes
 (
 )
 )

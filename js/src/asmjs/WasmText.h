@@ -29,13 +29,16 @@ namespace
 wasm
 {
 extern
-UniqueBytecode
+bool
 TextToBinary
 (
 const
 char16_t
 *
 text
+Bytes
+*
+bytes
 UniqueChars
 *
 error

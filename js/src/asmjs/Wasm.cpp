@@ -7318,7 +7318,7 @@ if
 !
 fg
 .
-bytecode
+bytes
 (
 )
 .
@@ -7334,7 +7334,7 @@ memcpy
 (
 fg
 .
-bytecode
+bytes
 (
 )
 .
