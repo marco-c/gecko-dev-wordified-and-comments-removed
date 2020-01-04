@@ -263,14 +263,6 @@ periodic_clobber
 :
 168
                 
-'
-default_vcs
-'
-:
-'
-hgtool
-'
-                
 "
 tools_repo
 "
