@@ -288,6 +288,11 @@ mozilla
 =
 [
 '
+AddonContentPolicy
+.
+h
+'
+'
 AddonPathService
 .
 h
@@ -297,6 +302,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AddonContentPolicy
+.
+cpp
+'
 '
 AddonPathService
 .
