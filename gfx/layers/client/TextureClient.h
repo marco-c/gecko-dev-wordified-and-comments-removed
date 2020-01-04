@@ -239,7 +239,7 @@ class
 GrallocTextureData
 ;
 class
-ISurfaceAllocator
+ClientIPCAllocator
 ;
 class
 CompositableClient
@@ -728,7 +728,7 @@ virtual
 void
 Deallocate
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -739,7 +739,7 @@ virtual
 void
 Forget
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -761,7 +761,7 @@ TextureData
 *
 CreateSimilar
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 TextureFlags
@@ -896,7 +896,7 @@ TextureData
 aData
 TextureFlags
 aFlags
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -919,7 +919,7 @@ TextureData
 aData
 TextureFlags
 aFlags
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -961,7 +961,7 @@ TextureClient
 >
 CreateForYCbCr
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 gfx
@@ -987,7 +987,7 @@ TextureClient
 >
 CreateForRawBufferAccess
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 gfx
@@ -1020,7 +1020,7 @@ TextureClient
 >
 CreateForYCbCrWithBufferSize
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 gfx
@@ -1624,7 +1624,7 @@ aFence
 )
 ;
 }
-ISurfaceAllocator
+ClientIPCAllocator
 *
 GetAllocator
 (
@@ -1735,7 +1735,7 @@ aDescriptor
 ;
 RefPtr
 <
-ISurfaceAllocator
+ClientIPCAllocator
 >
 mAllocator
 ;

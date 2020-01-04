@@ -439,7 +439,7 @@ actor
 ;
 RefPtr
 <
-ISurfaceAllocator
+ClientIPCAllocator
 >
 allocator
 ;
@@ -682,7 +682,7 @@ return
 mForwarder
 ;
 }
-ISurfaceAllocator
+ClientIPCAllocator
 *
 GetAllocator
 (
@@ -834,7 +834,7 @@ DestroyTextureData
 TextureData
 *
 aTextureData
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 bool
@@ -865,7 +865,7 @@ NS_IsMainThread
 {
 RefPtr
 <
-ISurfaceAllocator
+ClientIPCAllocator
 >
 allocatorRef
 =
@@ -3686,7 +3686,7 @@ TextureClient
 :
 CreateForRawBufferAccess
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 gfx
@@ -3820,7 +3820,7 @@ TextureClient
 :
 CreateForYCbCr
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 gfx
@@ -3937,7 +3937,7 @@ TextureClient
 :
 CreateForYCbCrWithBufferSize
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 gfx
@@ -4030,7 +4030,7 @@ TextureData
 aData
 TextureFlags
 aFlags
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -4977,7 +4977,7 @@ TextureData
 aData
 TextureFlags
 aFlags
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
