@@ -3374,6 +3374,8 @@ eCSSKeyword__moz_mac_disclosure_button_open
 NS_THEME_MAC_DISCLOSURE_BUTTON_OPEN
 eCSSKeyword__moz_mac_disclosure_button_closed
 NS_THEME_MAC_DISCLOSURE_BUTTON_CLOSED
+eCSSKeyword__moz_gtk_info_bar
+NS_THEME_GTK_INFO_BAR
 eCSSKeyword_UNKNOWN
 -
 1
@@ -4085,6 +4087,11 @@ LookAndFeel
 :
 :
 eColorID__moz_dragtargetzone
+eCSSKeyword__moz_gtk_info_bar_text
+LookAndFeel
+:
+:
+eColorID__moz_gtk_info_bar_text
 eCSSKeyword__moz_hyperlinktext
 NS_COLOR_MOZ_HYPERLINKTEXT
 eCSSKeyword__moz_html_cellhighlight

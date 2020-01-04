@@ -1039,6 +1039,14 @@ gtk_im_multicontext_new
 )
 STUB
 (
+gtk_info_bar_get_type
+)
+STUB
+(
+gtk_info_bar_new
+)
+STUB
+(
 gtk_init
 )
 STUB

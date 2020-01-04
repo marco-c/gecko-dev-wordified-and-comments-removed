@@ -163,6 +163,7 @@ eColorID__moz_win_communicationstext
 eColorID__moz_nativehyperlinktext
 eColorID__moz_comboboxtext
 eColorID__moz_combobox
+eColorID__moz_gtk_info_bar_text
 eColorID_LAST_COLOR
 }
 ;
