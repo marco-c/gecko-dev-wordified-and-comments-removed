@@ -171,6 +171,8 @@ Lock
 (
 OpenMode
 aMode
+FenceHandle
+*
 )
 override
 {
