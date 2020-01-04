@@ -678,7 +678,8 @@ editor
 setText
 (
 "
-var
+window
+.
 foobarBug636725cache
 =
 '
@@ -742,7 +743,8 @@ editor
 setText
 (
 "
-var
+window
+.
 foobarBug636725cache2
 =
 '
