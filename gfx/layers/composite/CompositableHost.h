@@ -992,6 +992,13 @@ return
 1
 ;
 }
+virtual
+void
+CleanupResources
+(
+)
+{
+}
 protected
 :
 TextureInfo
