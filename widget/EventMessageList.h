@@ -1019,7 +1019,7 @@ ePaintEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_AFTERPAINT
+eAfterPaint
 ePaintEventFirst
 )
 NS_EVENT_MESSAGE

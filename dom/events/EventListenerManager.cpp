@@ -1334,7 +1334,7 @@ if
 aEventMessage
 =
 =
-NS_AFTERPAINT
+eAfterPaint
 )
 {
 mMayHavePaintEventListener
