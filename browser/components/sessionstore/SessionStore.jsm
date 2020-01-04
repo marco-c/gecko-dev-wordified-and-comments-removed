@@ -3422,6 +3422,7 @@ tab
 tabData
 .
 image
+null
 )
 ;
 TabStateCache
