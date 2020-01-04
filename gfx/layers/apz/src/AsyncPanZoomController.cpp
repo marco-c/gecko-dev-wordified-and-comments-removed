@@ -8250,6 +8250,10 @@ mState
 return
 GenerateSingleTap
 (
+TapType
+:
+:
+eLongTapUp
 aEvent
 .
 mPoint
@@ -8265,6 +8269,8 @@ AsyncPanZoomController
 :
 GenerateSingleTap
 (
+TapType
+aType
 const
 ScreenIntPoint
 &
@@ -8402,10 +8408,7 @@ GeckoContentController
 :
 :
 HandleTap
-TapType
-:
-:
-eSingleTap
+aType
 geckoScreenPoint
 aModifiers
 GetGuid
@@ -8548,6 +8551,10 @@ TouchActionAllowsDoubleTapZoom
 return
 GenerateSingleTap
 (
+TapType
+:
+:
+eSingleTap
 aEvent
 .
 mPoint
@@ -8599,6 +8606,10 @@ mState
 return
 GenerateSingleTap
 (
+TapType
+:
+:
+eSingleTap
 aEvent
 .
 mPoint

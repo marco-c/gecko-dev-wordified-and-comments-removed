@@ -198,6 +198,11 @@ aInputBlockId
 )
 ;
 void
+ProcessLongTapUp
+(
+)
+;
+void
 ProcessTouchEvent
 (
 const

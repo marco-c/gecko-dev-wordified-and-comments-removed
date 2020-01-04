@@ -1113,6 +1113,11 @@ GetAxisLockMode
 nsEventStatus
 GenerateSingleTap
 (
+GeckoContentController
+:
+:
+TapType
+aType
 const
 ScreenIntPoint
 &

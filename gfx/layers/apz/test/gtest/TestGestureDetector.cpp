@@ -2046,7 +2046,7 @@ check
 Call
 (
 "
-preHandleSingleTap
+preHandleLongTapUp
 "
 )
 )
@@ -2060,7 +2060,7 @@ HandleTap
 TapType
 :
 :
-eSingleTap
+eLongTapUp
 CSSPoint
 (
 10
@@ -2088,7 +2088,7 @@ check
 Call
 (
 "
-postHandleSingleTap
+postHandleLongTapUp
 "
 )
 )
@@ -2141,7 +2141,7 @@ check
 Call
 (
 "
-preHandleSingleTap
+preHandleLongTapUp
 "
 )
 ;
@@ -2181,7 +2181,7 @@ check
 Call
 (
 "
-postHandleSingleTap
+postHandleLongTapUp
 "
 )
 ;
