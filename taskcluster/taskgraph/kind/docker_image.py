@@ -422,11 +422,13 @@ file
 rev
 }
 /
-testing
-/
 taskcluster
 /
-tasks
+ci
+/
+docker
+-
+image
 /
 image
 .

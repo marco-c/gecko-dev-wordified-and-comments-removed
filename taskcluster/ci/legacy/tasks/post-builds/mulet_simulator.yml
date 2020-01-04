@@ -259,8 +259,6 @@ head_ref
 /
 gecko
 /
-testing
-/
 taskcluster
 /
 scripts
@@ -286,8 +284,6 @@ py
 .
 /
 gecko
-/
-testing
 /
 taskcluster
 /
