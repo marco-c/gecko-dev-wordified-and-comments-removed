@@ -590,6 +590,13 @@ buffer
 idx
 <
 count
+&
+&
+!
+buffer
+-
+>
+in_error
 ;
 )
 {
@@ -1672,6 +1679,7 @@ override_features_hangul
 data_create_hangul
 data_destroy_hangul
 preprocess_text_hangul
+NULL
 HB_OT_SHAPE_NORMALIZATION_MODE_NONE
 NULL
 NULL

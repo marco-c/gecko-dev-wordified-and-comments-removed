@@ -433,6 +433,8 @@ assert
 false
 )
 ;
+HB_FALLTHROUGH
+;
 case
 NOP
 :
@@ -1092,6 +1094,13 @@ buffer
 idx
 <
 count
+&
+&
+!
+buffer
+-
+>
+in_error
 ;
 )
 {
@@ -1390,6 +1399,7 @@ NULL
 NULL
 NULL
 preprocess_text_thai
+NULL
 HB_OT_SHAPE_NORMALIZATION_MODE_DEFAULT
 NULL
 NULL
