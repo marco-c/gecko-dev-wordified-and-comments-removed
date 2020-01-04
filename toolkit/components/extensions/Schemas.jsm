@@ -6963,12 +6963,11 @@ function
 let
 isAsync
 =
-Boolean
-(
+!
+!
 type
 .
 async
-)
 ;
 let
 parameters
