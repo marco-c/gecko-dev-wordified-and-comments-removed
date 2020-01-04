@@ -297,7 +297,7 @@ WebGL
 Buffers
 (
 February
-203
+2013
 -
 Bug
 716859
@@ -469,7 +469,7 @@ Bug
 1024144
 )
 This
-worked
+work
 improved
 the
 synchronization
