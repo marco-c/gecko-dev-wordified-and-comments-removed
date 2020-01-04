@@ -4118,6 +4118,15 @@ enabled
 :
 false
 '
+privacy
+.
+trackingprotection
+.
+enabled
+'
+:
+false
+'
 ril
 .
 debugging
