@@ -26,7 +26,7 @@ headjs
 globals
 "
 :
-1
+2
 "
 mozilla
 /
@@ -37,7 +37,7 @@ browserjs
 globals
 "
 :
-1
+2
 }
 "
 env
@@ -183,11 +183,6 @@ SimpleTest
 false
 "
 SpecialPowers
-"
-:
-false
-"
-TestUtils
 "
 :
 false
