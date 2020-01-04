@@ -1658,7 +1658,7 @@ mallocSizeof
 const
 {
 return
-0
+1
 ;
 }
 virtual
