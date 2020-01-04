@@ -15,6 +15,7 @@ chrome
 const
 {
 rgbToHsl
+rgbToColorName
 }
 =
 require
@@ -3821,8 +3822,6 @@ try
 {
 str
 =
-DOMUtils
-.
 rgbToColorName
 (
 r
