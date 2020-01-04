@@ -359,6 +359,8 @@ Type
 aPseudoType
 CascadeLevel
 aCascadeLevel
+TimeStamp
+aRefreshTime
 bool
 &
 aStyleChanging
