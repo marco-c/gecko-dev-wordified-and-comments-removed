@@ -49,6 +49,11 @@ chat
 html
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 function
 isTabFocused
 (
