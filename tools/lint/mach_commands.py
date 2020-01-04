@@ -323,18 +323,6 @@ roll
 paths
 )
         
-status
-=
-0
-        
-if
-results
-:
-            
-status
-=
-1
-        
 formatter
 =
 formatters
@@ -351,9 +339,6 @@ formatter
 results
 )
 )
-        
-return
-status
     
 SubCommand
 (
