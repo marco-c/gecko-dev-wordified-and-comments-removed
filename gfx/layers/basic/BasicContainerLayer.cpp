@@ -363,8 +363,16 @@ GetEffectiveOpacity
 &
 &
 (
+(
 HasMultipleChildren
 (
+)
+&
+&
+!
+Extend3DContext
+(
+)
 )
 |
 |
