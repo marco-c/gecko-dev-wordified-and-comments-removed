@@ -438,6 +438,11 @@ RangedPtr
 h
 '
 '
+ReentrancyGuard
+.
+h
+'
+'
 RefCounted
 .
 h
@@ -449,11 +454,6 @@ h
 '
 '
 RefPtr
-.
-h
-'
-'
-ReentrancyGuard
 .
 h
 '
@@ -553,6 +553,11 @@ UniquePtrExtensions
 h
 '
 '
+unused
+.
+h
+'
+'
 Variant
 .
 h
@@ -569,11 +574,6 @@ h
 '
 '
 XorShift128PlusRNG
-.
-h
-'
-'
-unused
 .
 h
 '
