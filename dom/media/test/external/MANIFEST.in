@@ -2,6 +2,16 @@ exclude
 MANIFEST
 .
 in
+include
+external
+-
+media
+-
+tests
+-
+requirements
+.
+txt
 recursive
 -
 include

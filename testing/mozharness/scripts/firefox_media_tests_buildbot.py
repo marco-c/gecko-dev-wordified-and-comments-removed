@@ -152,10 +152,6 @@ config
 '
                          
 '
-checkout
-'
-                         
-'
 download
 -
 and
