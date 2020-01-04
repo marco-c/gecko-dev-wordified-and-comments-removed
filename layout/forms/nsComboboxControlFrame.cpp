@@ -1247,7 +1247,7 @@ return
 mListControlFrame
 -
 >
-FireOnChange
+FireOnInputAndOnChange
 (
 )
 ;

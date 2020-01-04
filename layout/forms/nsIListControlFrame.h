@@ -128,7 +128,7 @@ AboutToRollup
 ;
 virtual
 void
-FireOnChange
+FireOnInputAndOnChange
 (
 )
 =

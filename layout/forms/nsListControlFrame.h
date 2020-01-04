@@ -471,7 +471,7 @@ override
 ;
 virtual
 void
-FireOnChange
+FireOnInputAndOnChange
 (
 )
 override
