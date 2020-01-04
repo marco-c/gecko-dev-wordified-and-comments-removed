@@ -92,6 +92,15 @@ mozilla
 dom
 :
 :
+TreeOrderComparator
+;
+using
+mozilla
+:
+:
+dom
+:
+:
 Animation
 ;
 nsAutoTArray

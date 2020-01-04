@@ -143,6 +143,13 @@ h
 #
 include
 "
+nsISimpleEnumerator
+.
+h
+"
+#
+include
+"
 nsISupportsPrimitives
 .
 h

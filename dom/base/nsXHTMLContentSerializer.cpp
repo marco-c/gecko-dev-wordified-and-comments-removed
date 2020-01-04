@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsStubMutationObserver
+.
+h
+"
+#
+include
+"
 nsAttrName
 .
 h

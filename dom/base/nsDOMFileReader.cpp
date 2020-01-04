@@ -50,6 +50,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsXPCOM
 .
 h
