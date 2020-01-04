@@ -595,7 +595,7 @@ AsInputEvent
 )
 -
 >
-modifiers
+mModifiers
 =
 modifiers
 ;

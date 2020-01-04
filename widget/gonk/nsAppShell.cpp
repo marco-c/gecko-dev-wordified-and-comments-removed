@@ -1356,7 +1356,7 @@ mDOMCodeNameIndex
 ;
 event
 .
-modifiers
+mModifiers
 =
 getDOMModifiers
 (

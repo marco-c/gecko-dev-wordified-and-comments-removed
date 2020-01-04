@@ -1697,7 +1697,7 @@ aMessage
 aWidget
 aEventClassID
 )
-modifiers
+mModifiers
 (
 0
 )
@@ -1707,7 +1707,7 @@ WidgetInputEvent
 (
 )
 :
-modifiers
+mModifiers
 (
 0
 )
@@ -1745,7 +1745,7 @@ aMessage
 aWidget
 eInputEventClass
 )
-modifiers
+mModifiers
 (
 0
 )
@@ -1837,7 +1837,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 AccelModifier
 (
@@ -1858,7 +1858,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 MODIFIER_SHIFT
 )
@@ -1877,7 +1877,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 MODIFIER_CONTROL
 )
@@ -1896,7 +1896,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 MODIFIER_ALT
 )
@@ -1915,7 +1915,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 MODIFIER_META
 )
@@ -1934,7 +1934,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 MODIFIER_OS
 )
@@ -1953,7 +1953,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 MODIFIER_ALTGRAPH
 )
@@ -1972,7 +1972,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 MODIFIER_CAPSLOCK
 )
@@ -1991,7 +1991,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 MODIFIER_NUMLOCK
 )
@@ -2010,7 +2010,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 MODIFIER_SCROLLLOCK
 )
@@ -2029,7 +2029,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 MODIFIER_FN
 )
@@ -2048,7 +2048,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 MODIFIER_FNLOCK
 )
@@ -2067,7 +2067,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 MODIFIER_SYMBOL
 )
@@ -2086,7 +2086,7 @@ const
 return
 (
 (
-modifiers
+mModifiers
 &
 MODIFIER_SYMBOLLOCK
 )
@@ -2109,7 +2109,7 @@ bool
 aMetaKey
 )
 {
-modifiers
+mModifiers
 =
 0
 ;
@@ -2118,7 +2118,7 @@ if
 aCtrlKey
 )
 {
-modifiers
+mModifiers
 |
 =
 MODIFIER_CONTROL
@@ -2129,7 +2129,7 @@ if
 aAltKey
 )
 {
-modifiers
+mModifiers
 |
 =
 MODIFIER_ALT
@@ -2140,7 +2140,7 @@ if
 aShiftKey
 )
 {
-modifiers
+mModifiers
 |
 =
 MODIFIER_SHIFT
@@ -2151,7 +2151,7 @@ if
 aMetaKey
 )
 {
-modifiers
+mModifiers
 |
 =
 MODIFIER_META
@@ -2159,7 +2159,7 @@ MODIFIER_META
 }
 }
 Modifiers
-modifiers
+mModifiers
 ;
 void
 AssignInputEventData
@@ -2178,11 +2178,11 @@ aEvent
 aCopyTargets
 )
 ;
-modifiers
+mModifiers
 =
 aEvent
 .
-modifiers
+mModifiers
 ;
 }
 }

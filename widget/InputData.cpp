@@ -156,7 +156,7 @@ aMouseEvent
 mTimeStamp
 aMouseEvent
 .
-modifiers
+mModifiers
 )
 mType
 (
@@ -634,7 +634,7 @@ mButtons
 ;
 event
 .
-modifiers
+mModifiers
 =
 modifiers
 ;
@@ -713,7 +713,7 @@ aTouchEvent
 mTimeStamp
 aTouchEvent
 .
-modifiers
+mModifiers
 )
 mHandledByAPZ
 (
@@ -1040,7 +1040,7 @@ event
 }
 event
 .
-modifiers
+mModifiers
 =
 this
 -
@@ -1291,7 +1291,7 @@ MOZ_SOURCE_TOUCH
 ;
 event
 .
-modifiers
+mModifiers
 =
 modifiers
 ;
@@ -1400,7 +1400,7 @@ aMouseEvent
 mTimeStamp
 aMouseEvent
 .
-modifiers
+mModifiers
 )
 mHandledByAPZ
 (
@@ -1663,7 +1663,7 @@ aWidget
 ;
 wheelEvent
 .
-modifiers
+mModifiers
 =
 this
 -
@@ -2005,7 +2005,7 @@ aWheelEvent
 mTimeStamp
 aWheelEvent
 .
-modifiers
+mModifiers
 )
 mDeltaType
 (
@@ -2129,7 +2129,7 @@ aWidget
 ;
 wheelEvent
 .
-modifiers
+mModifiers
 =
 this
 -

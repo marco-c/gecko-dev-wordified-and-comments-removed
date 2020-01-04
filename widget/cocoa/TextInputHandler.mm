@@ -14465,7 +14465,7 @@ event
 .
 keypressEvent
 .
-modifiers
+mModifiers
 &
 =
 ~
@@ -25973,7 +25973,7 @@ mNativeKeyEvent
 |
 aKeyEvent
 .
-modifiers
+mModifiers
 &
 MODIFIER_OS
 )
@@ -26024,7 +26024,7 @@ aKeyEvent
 charCode
 aKeyEvent
 .
-modifiers
+mModifiers
 )
 )
 ;
@@ -26122,7 +26122,7 @@ if
 (
 aKeyEvent
 .
-modifiers
+mModifiers
 &
 sModifierFlagMap
 [

@@ -3742,7 +3742,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 aInputEvent
 .
-modifiers
+mModifiers
 =
 ModifiersForEvent
 (

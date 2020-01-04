@@ -3751,7 +3751,7 @@ event
 }
 event
 .
-modifiers
+mModifiers
 =
 DOMModifiers
 (
@@ -4375,7 +4375,7 @@ clickCount
 }
 event
 .
-modifiers
+mModifiers
 =
 DOMModifiers
 (

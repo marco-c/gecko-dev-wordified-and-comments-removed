@@ -1213,7 +1213,7 @@ aWidget
 ;
 geckoEvent
 .
-modifiers
+mModifiers
 =
 0
 ;

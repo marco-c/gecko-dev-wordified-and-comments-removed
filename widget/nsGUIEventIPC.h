@@ -665,7 +665,7 @@ WriteParam
 aMsg
 aParam
 .
-modifiers
+mModifiers
 )
 ;
 }
@@ -713,7 +713,7 @@ aIter
 aResult
 -
 >
-modifiers
+mModifiers
 )
 ;
 }

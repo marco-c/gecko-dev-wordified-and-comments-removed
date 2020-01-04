@@ -30981,12 +30981,12 @@ mRefPoint
 ;
 event
 .
-modifiers
+mModifiers
 =
 touchEvent
 -
 >
-modifiers
+mModifiers
 ;
 event
 .
