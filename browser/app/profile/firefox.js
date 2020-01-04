@@ -3791,7 +3791,7 @@ urlbar
 .
 maxRichResults
 "
-10
+12
 )
 ;
 pref
