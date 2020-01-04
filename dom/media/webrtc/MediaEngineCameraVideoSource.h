@@ -49,7 +49,7 @@ MediaEngineCameraVideoSource
 :
 public
 MediaEngineVideoSource
-private
+protected
 MediaConstraintsHelper
 {
 public
@@ -116,6 +116,7 @@ nsAString
 &
 aName
 )
+const
 override
 ;
 void
@@ -125,6 +126,7 @@ nsACString
 &
 aUUID
 )
+const
 override
 ;
 void
@@ -175,6 +177,7 @@ nsString
 &
 aDeviceId
 )
+const
 override
 ;
 void
@@ -274,6 +277,7 @@ nsString
 &
 aDeviceId
 )
+const
 ;
 static
 void
@@ -318,6 +322,7 @@ size_t
 NumCapabilities
 (
 )
+const
 ;
 virtual
 void
@@ -332,6 +337,7 @@ CaptureCapability
 &
 aOut
 )
+const
 ;
 virtual
 bool
@@ -373,6 +379,7 @@ nsCString
 GetUUID
 (
 )
+const
 ;
 Monitor
 mMonitor
@@ -435,6 +442,7 @@ webrtc
 CaptureCapability
 mCapability
 ;
+mutable
 nsTArray
 <
 webrtc

@@ -456,6 +456,7 @@ nsAString
 &
 aName
 )
+const
 override
 ;
 void
@@ -465,6 +466,7 @@ nsACString
 &
 aUUID
 )
+const
 override
 ;
 nsresult
@@ -726,6 +728,7 @@ nsString
 &
 aDeviceId
 )
+const
 override
 ;
 protected
@@ -2029,6 +2032,7 @@ nsAString
 &
 aName
 )
+const
 override
 ;
 void
@@ -2038,6 +2042,7 @@ nsACString
 &
 aUUID
 )
+const
 override
 ;
 nsresult
@@ -2271,6 +2276,7 @@ nsString
 &
 aDeviceId
 )
+const
 override
 ;
 void

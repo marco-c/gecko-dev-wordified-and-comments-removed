@@ -140,6 +140,7 @@ GetName
 nsAString
 &
 )
+const
 override
 ;
 void
@@ -148,6 +149,7 @@ GetUUID
 nsACString
 &
 )
+const
 override
 ;
 nsresult
@@ -290,6 +292,7 @@ nsString
 &
 aDeviceId
 )
+const
 override
 ;
 bool
@@ -422,6 +425,7 @@ GetName
 nsAString
 &
 )
+const
 override
 ;
 void
@@ -430,6 +434,7 @@ GetUUID
 nsACString
 &
 )
+const
 override
 ;
 nsresult
@@ -723,6 +728,7 @@ nsString
 &
 aDeviceId
 )
+const
 override
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
