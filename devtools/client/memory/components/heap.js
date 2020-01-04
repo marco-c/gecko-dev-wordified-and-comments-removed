@@ -187,6 +187,7 @@ function
 createTreeProperties
 (
 census
+toolbox
 )
 {
 let
@@ -205,11 +206,11 @@ node
 =
 >
 map
-(
+[
 node
 .
 id
-)
+]
 getChildren
 :
 node
@@ -236,6 +237,7 @@ new
 TreeItem
 (
 {
+toolbox
 item
 depth
 focused
@@ -310,6 +312,7 @@ let
 {
 snapshot
 onSnapshotClick
+toolbox
 }
 =
 this
@@ -648,6 +651,7 @@ createTreeProperties
 snapshot
 .
 census
+toolbox
 )
 )
 ]

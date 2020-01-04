@@ -275,6 +275,11 @@ heapWorker
 PropTypes
 .
 any
+toolbox
+:
+PropTypes
+.
+any
 }
 getChildContext
 (
@@ -296,6 +301,13 @@ this
 props
 .
 heapWorker
+toolbox
+:
+this
+.
+props
+.
+toolbox
 }
 }
 render
@@ -311,6 +323,7 @@ heapWorker
 breakdown
 allocations
 inverted
+toolbox
 }
 =
 this
@@ -474,6 +487,7 @@ front
 heapWorker
 )
 )
+toolbox
 }
 )
 )
