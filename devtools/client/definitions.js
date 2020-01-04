@@ -3398,7 +3398,7 @@ options
 .
 darkTheme
 .
-label
+label2
 "
 toolboxStrings
 )
@@ -3454,7 +3454,7 @@ options
 .
 lightTheme
 .
-label
+label2
 "
 toolboxStrings
 )
@@ -3510,7 +3510,7 @@ options
 .
 firebugTheme
 .
-label
+label2
 "
 toolboxStrings
 )
