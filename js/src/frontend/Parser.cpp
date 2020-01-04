@@ -2216,7 +2216,7 @@ template
 typename
 ParseHandler
 >
-void
+bool
 ParseContext
 <
 ParseHandler
@@ -2376,6 +2376,7 @@ JSOP_INITLEXICAL
 )
 ;
 return
+true
 ;
 }
 if
@@ -2473,6 +2474,9 @@ pn_dflags
 =
 PND_BOUND
 ;
+if
+(
+!
 newDecl
 -
 >
@@ -2483,7 +2487,12 @@ setSlot
 ts
 i
 )
+)
+{
+return
+false
 ;
+}
 newDecl
 -
 >
@@ -2505,6 +2514,7 @@ break
 }
 }
 return
+true
 ;
 }
 MOZ_ASSERT
@@ -2658,6 +2668,9 @@ slot
 newDecl
 ;
 }
+return
+true
+;
 }
 template
 <
@@ -7375,6 +7388,9 @@ HandleAtom
 atom
 )
 {
+if
+(
+!
 pc
 -
 >
@@ -7384,6 +7400,9 @@ tokenStream
 atom
 pn
 )
+)
+return
+false
 ;
 for
 (
@@ -14675,7 +14694,6 @@ rawNode
 return
 false
 ;
-return
 handler
 .
 addToCallSiteObject
@@ -14684,6 +14702,9 @@ callSiteObj
 rawNode
 cookedNode
 )
+;
+return
+true
 ;
 }
 template

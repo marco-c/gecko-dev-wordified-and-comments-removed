@@ -19,6 +19,7 @@ js
 namespace
 frontend
 {
+MOZ_MUST_USE
 bool
 FoldConstants
 (
@@ -38,6 +39,7 @@ parser
 )
 ;
 inline
+MOZ_MUST_USE
 bool
 FoldConstants
 (

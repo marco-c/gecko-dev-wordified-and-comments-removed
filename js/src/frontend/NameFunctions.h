@@ -25,6 +25,7 @@ frontend
 class
 ParseNode
 ;
+MOZ_MUST_USE
 bool
 NameFunctions
 (

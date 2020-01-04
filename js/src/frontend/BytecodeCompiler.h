@@ -133,6 +133,7 @@ sourceObjectOut
 nullptr
 )
 ;
+MOZ_MUST_USE
 bool
 CompileLazyFunction
 (
@@ -153,6 +154,7 @@ size_t
 length
 )
 ;
+MOZ_MUST_USE
 bool
 CompileFunctionBody
 (
@@ -184,6 +186,7 @@ StaticScope
 enclosingStaticScope
 )
 ;
+MOZ_MUST_USE
 bool
 CompileFunctionBody
 (
@@ -209,6 +212,7 @@ SourceBufferHolder
 srcBuf
 )
 ;
+MOZ_MUST_USE
 bool
 CompileStarGeneratorBody
 (

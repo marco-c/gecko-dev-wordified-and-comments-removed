@@ -545,7 +545,8 @@ DefinitionNode
 prevDecl
 )
 ;
-void
+MOZ_MUST_USE
+bool
 updateDecl
 (
 TokenStream
@@ -800,6 +801,7 @@ ParseContext
 (
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (

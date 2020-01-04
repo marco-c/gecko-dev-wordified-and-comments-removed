@@ -8718,6 +8718,9 @@ isKnownAliased
 )
 )
 ;
+if
+(
+!
 pn
 -
 >
@@ -8738,6 +8741,9 @@ slot
 (
 )
 )
+)
+return
+false
 ;
 }
 MOZ_ASSERT

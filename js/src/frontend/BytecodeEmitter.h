@@ -118,6 +118,7 @@ cx
 )
 {
 }
+MOZ_MUST_USE
 bool
 append
 (
@@ -258,6 +259,7 @@ cx
 )
 {
 }
+MOZ_MUST_USE
 bool
 append
 (
@@ -335,6 +337,7 @@ cx
 )
 {
 }
+MOZ_MUST_USE
 bool
 append
 (
@@ -415,6 +418,7 @@ cx
 )
 {
 }
+MOZ_MUST_USE
 bool
 append
 (
@@ -768,11 +772,13 @@ emitterMode
 Normal
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
 )
 ;
+MOZ_MUST_USE
 bool
 updateLocalsToFrameSlots
 (
@@ -885,6 +891,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 computeDefinitionIsAliased
 (
@@ -900,6 +907,7 @@ op
 )
 ;
 MOZ_ALWAYS_INLINE
+MOZ_MUST_USE
 bool
 makeAtomIndex
 (
@@ -980,11 +988,13 @@ isInLoop
 (
 )
 ;
+MOZ_MUST_USE
 bool
 checkSingletonContext
 (
 )
 ;
+MOZ_MUST_USE
 bool
 checkRunOnceContext
 (
@@ -1242,6 +1252,7 @@ errorNumber
 .
 )
 ;
+MOZ_MUST_USE
 bool
 checkSideEffects
 (
@@ -1256,6 +1267,7 @@ answer
 #
 ifdef
 DEBUG
+MOZ_MUST_USE
 bool
 checkStrictOrSloppy
 (
@@ -1265,6 +1277,7 @@ op
 ;
 #
 endif
+MOZ_MUST_USE
 bool
 newSrcNote
 (
@@ -1277,6 +1290,7 @@ indexp
 nullptr
 )
 ;
+MOZ_MUST_USE
 bool
 newSrcNote2
 (
@@ -1291,6 +1305,7 @@ indexp
 nullptr
 )
 ;
+MOZ_MUST_USE
 bool
 newSrcNote3
 (
@@ -1317,6 +1332,7 @@ uint32_t
 nsrcnotes
 )
 ;
+MOZ_MUST_USE
 bool
 setSrcNoteOffset
 (
@@ -1328,6 +1344,7 @@ ptrdiff_t
 offset
 )
 ;
+MOZ_MUST_USE
 bool
 addToSrcNoteDelta
 (
@@ -1338,6 +1355,7 @@ ptrdiff_t
 delta
 )
 ;
+MOZ_MUST_USE
 bool
 finishTakingSrcNotes
 (
@@ -1360,6 +1378,7 @@ EMIT_LINENOTE
 SUPPRESS_LINENOTE
 }
 ;
+MOZ_MUST_USE
 bool
 emitTree
 (
@@ -1372,6 +1391,7 @@ emitLineNote
 EMIT_LINENOTE
 )
 ;
+MOZ_MUST_USE
 bool
 emitFunctionScript
 (
@@ -1380,6 +1400,7 @@ ParseNode
 body
 )
 ;
+MOZ_MUST_USE
 bool
 emitModuleScript
 (
@@ -1402,6 +1423,7 @@ ptrdiff_t
 target
 )
 ;
+MOZ_MUST_USE
 bool
 updateLineNumberNotes
 (
@@ -1409,6 +1431,7 @@ uint32_t
 offset
 )
 ;
+MOZ_MUST_USE
 bool
 updateSourceCoordNotes
 (
@@ -1416,6 +1439,7 @@ uint32_t
 offset
 )
 ;
+MOZ_MUST_USE
 bool
 bindNameToSlot
 (
@@ -1424,6 +1448,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 bindNameToSlotHelper
 (
@@ -1447,6 +1472,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 tryConvertFreeName
 (
@@ -1496,6 +1522,7 @@ ptrdiff_t
 top
 )
 ;
+MOZ_MUST_USE
 bool
 enterNestedScope
 (
@@ -1509,6 +1536,7 @@ StmtType
 stmtType
 )
 ;
+MOZ_MUST_USE
 bool
 leaveNestedScope
 (
@@ -1517,6 +1545,7 @@ StmtInfoBCE
 stmt
 )
 ;
+MOZ_MUST_USE
 bool
 enterBlockScope
 (
@@ -1534,6 +1563,7 @@ alreadyPushed
 0
 )
 ;
+MOZ_MUST_USE
 bool
 computeAliasedSlots
 (
@@ -1545,6 +1575,7 @@ StaticBlockScope
 blockScope
 )
 ;
+MOZ_MUST_USE
 bool
 lookupAliasedName
 (
@@ -1563,6 +1594,7 @@ pn
 nullptr
 )
 ;
+MOZ_MUST_USE
 bool
 lookupAliasedNameSlot
 (
@@ -1585,6 +1617,7 @@ StaticBlockScope
 blockScope
 )
 ;
+MOZ_MUST_USE
 bool
 flushPops
 (
@@ -1593,6 +1626,7 @@ int
 npops
 )
 ;
+MOZ_MUST_USE
 bool
 emitCheck
 (
@@ -1603,6 +1637,7 @@ ptrdiff_t
 offset
 )
 ;
+MOZ_MUST_USE
 bool
 emit1
 (
@@ -1610,6 +1645,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emit2
 (
@@ -1619,6 +1655,7 @@ uint8_t
 op1
 )
 ;
+MOZ_MUST_USE
 bool
 emit3
 (
@@ -1630,6 +1667,7 @@ jsbytecode
 op2
 )
 ;
+MOZ_MUST_USE
 bool
 emitDupAt
 (
@@ -1637,6 +1675,7 @@ unsigned
 slotFromTop
 )
 ;
+MOZ_MUST_USE
 bool
 emitUint16Operand
 (
@@ -1646,6 +1685,7 @@ uint32_t
 operand
 )
 ;
+MOZ_MUST_USE
 bool
 emitUint32Operand
 (
@@ -1655,6 +1695,7 @@ uint32_t
 operand
 )
 ;
+MOZ_MUST_USE
 bool
 emitN
 (
@@ -1669,6 +1710,7 @@ offset
 nullptr
 )
 ;
+MOZ_MUST_USE
 bool
 emitNumberOp
 (
@@ -1676,6 +1718,7 @@ double
 dval
 )
 ;
+MOZ_MUST_USE
 bool
 emitThisLiteral
 (
@@ -1684,11 +1727,13 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitCreateFunctionThis
 (
 )
 ;
+MOZ_MUST_USE
 bool
 emitGetFunctionThis
 (
@@ -1697,6 +1742,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitGetThisForSuperBase
 (
@@ -1705,6 +1751,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitSetThis
 (
@@ -1713,6 +1760,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitLoadFromEnclosingFunctionScope
 (
@@ -1721,6 +1769,7 @@ BindingIter
 bi
 )
 ;
+MOZ_MUST_USE
 bool
 emitStoreToEnclosingFunctionScope
 (
@@ -1734,6 +1783,7 @@ computeHopsToEnclosingFunction
 (
 )
 ;
+MOZ_MUST_USE
 bool
 emitJump
 (
@@ -1748,6 +1798,7 @@ jumpOffset
 nullptr
 )
 ;
+MOZ_MUST_USE
 bool
 emitCall
 (
@@ -1762,6 +1813,7 @@ pn
 nullptr
 )
 ;
+MOZ_MUST_USE
 bool
 emitLoopHead
 (
@@ -1770,6 +1822,7 @@ ParseNode
 nextpn
 )
 ;
+MOZ_MUST_USE
 bool
 emitLoopEntry
 (
@@ -1778,6 +1831,7 @@ ParseNode
 nextpn
 )
 ;
+MOZ_MUST_USE
 bool
 emitBackPatchOp
 (
@@ -1798,6 +1852,7 @@ jsbytecode
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emitGoto
 (
@@ -1813,6 +1868,7 @@ noteType
 SRC_NULL
 )
 ;
+MOZ_MUST_USE
 bool
 emitIndex32
 (
@@ -1822,6 +1878,7 @@ uint32_t
 index
 )
 ;
+MOZ_MUST_USE
 bool
 emitIndexOp
 (
@@ -1831,6 +1888,7 @@ uint32_t
 index
 )
 ;
+MOZ_MUST_USE
 bool
 emitAtomOp
 (
@@ -1841,6 +1899,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emitAtomOp
 (
@@ -1851,6 +1910,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emitArrayLiteral
 (
@@ -1859,6 +1919,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitArray
 (
@@ -1871,6 +1932,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emitArrayComp
 (
@@ -1879,6 +1941,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitInternedObjectOp
 (
@@ -1888,6 +1951,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emitObjectOp
 (
@@ -1898,6 +1962,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emitObjectPairOp
 (
@@ -1911,6 +1976,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emitRegExp
 (
@@ -1919,6 +1985,7 @@ index
 )
 ;
 MOZ_NEVER_INLINE
+MOZ_MUST_USE
 bool
 emitFunction
 (
@@ -1932,6 +1999,7 @@ false
 )
 ;
 MOZ_NEVER_INLINE
+MOZ_MUST_USE
 bool
 emitObject
 (
@@ -1940,6 +2008,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitHoistedFunctionsInList
 (
@@ -1948,6 +2017,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitPropertyList
 (
@@ -1960,6 +2030,7 @@ PropListType
 type
 )
 ;
+MOZ_MUST_USE
 bool
 emitLocalOp
 (
@@ -1969,6 +2040,7 @@ uint32_t
 slot
 )
 ;
+MOZ_MUST_USE
 bool
 emitScopeCoordOp
 (
@@ -1978,6 +2050,7 @@ ScopeCoordinate
 sc
 )
 ;
+MOZ_MUST_USE
 bool
 emitAliasedVarOp
 (
@@ -1988,6 +2061,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitAliasedVarOp
 (
@@ -1999,6 +2073,7 @@ MaybeCheckLexical
 checkLexical
 )
 ;
+MOZ_MUST_USE
 bool
 emitUnaliasedVarOp
 (
@@ -2010,6 +2085,7 @@ MaybeCheckLexical
 checkLexical
 )
 ;
+MOZ_MUST_USE
 bool
 emitVarOp
 (
@@ -2020,6 +2096,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emitVarIncDec
 (
@@ -2028,6 +2105,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitNameOp
 (
@@ -2038,6 +2116,7 @@ bool
 callContext
 )
 ;
+MOZ_MUST_USE
 bool
 emitNameIncDec
 (
@@ -2046,6 +2125,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 maybeEmitVarDecl
 (
@@ -2059,6 +2139,7 @@ jsatomid
 result
 )
 ;
+MOZ_MUST_USE
 bool
 emitVariables
 (
@@ -2069,6 +2150,7 @@ VarEmitOption
 emitOption
 )
 ;
+MOZ_MUST_USE
 bool
 emitSingleVariable
 (
@@ -2085,6 +2167,7 @@ VarEmitOption
 emitOption
 )
 ;
+MOZ_MUST_USE
 bool
 emitNewInit
 (
@@ -2092,6 +2175,7 @@ JSProtoKey
 key
 )
 ;
+MOZ_MUST_USE
 bool
 emitSingletonInitialiser
 (
@@ -2100,11 +2184,13 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitPrepareIteratorResult
 (
 )
 ;
+MOZ_MUST_USE
 bool
 emitFinishIteratorResult
 (
@@ -2112,6 +2198,7 @@ bool
 done
 )
 ;
+MOZ_MUST_USE
 bool
 iteratorResultShape
 (
@@ -2120,6 +2207,7 @@ unsigned
 shape
 )
 ;
+MOZ_MUST_USE
 bool
 emitYield
 (
@@ -2128,6 +2216,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitYieldOp
 (
@@ -2135,6 +2224,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emitYieldStar
 (
@@ -2146,6 +2236,7 @@ ParseNode
 gen
 )
 ;
+MOZ_MUST_USE
 bool
 emitPropLHS
 (
@@ -2154,6 +2245,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitPropOp
 (
@@ -2164,6 +2256,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emitPropIncDec
 (
@@ -2172,6 +2265,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitComputedPropertyName
 (
@@ -2191,6 +2285,7 @@ IncDec
 CompoundAssign
 }
 ;
+MOZ_MUST_USE
 bool
 emitElemOperands
 (
@@ -2201,6 +2296,7 @@ EmitElemOption
 opts
 )
 ;
+MOZ_MUST_USE
 bool
 emitElemOpBase
 (
@@ -2208,6 +2304,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emitElemOp
 (
@@ -2218,6 +2315,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emitElemIncDec
 (
@@ -2226,6 +2324,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitCatch
 (
@@ -2234,6 +2333,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitIf
 (
@@ -2242,6 +2342,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitWith
 (
@@ -2251,6 +2352,7 @@ pn
 )
 ;
 MOZ_NEVER_INLINE
+MOZ_MUST_USE
 bool
 emitLabeledStatement
 (
@@ -2261,6 +2363,7 @@ pn
 )
 ;
 MOZ_NEVER_INLINE
+MOZ_MUST_USE
 bool
 emitLetBlock
 (
@@ -2270,6 +2373,7 @@ pnLet
 )
 ;
 MOZ_NEVER_INLINE
+MOZ_MUST_USE
 bool
 emitLexicalScope
 (
@@ -2279,6 +2383,7 @@ pn
 )
 ;
 MOZ_NEVER_INLINE
+MOZ_MUST_USE
 bool
 emitSwitch
 (
@@ -2288,6 +2393,7 @@ pn
 )
 ;
 MOZ_NEVER_INLINE
+MOZ_MUST_USE
 bool
 emitTry
 (
@@ -2296,6 +2402,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitDestructuringLHS
 (
@@ -2306,6 +2413,7 @@ VarEmitOption
 emitOption
 )
 ;
+MOZ_MUST_USE
 bool
 emitDestructuringOps
 (
@@ -2318,6 +2426,7 @@ isLet
 false
 )
 ;
+MOZ_MUST_USE
 bool
 emitDestructuringOpsHelper
 (
@@ -2328,6 +2437,7 @@ VarEmitOption
 emitOption
 )
 ;
+MOZ_MUST_USE
 bool
 emitDestructuringOpsArrayHelper
 (
@@ -2338,6 +2448,7 @@ VarEmitOption
 emitOption
 )
 ;
+MOZ_MUST_USE
 bool
 emitDestructuringOpsObjectHelper
 (
@@ -2370,6 +2481,7 @@ template
 DestructuringDeclEmitter
 EmitName
 >
+MOZ_MUST_USE
 bool
 emitDestructuringDeclsWithEmitter
 (
@@ -2380,6 +2492,7 @@ ParseNode
 pattern
 )
 ;
+MOZ_MUST_USE
 bool
 emitDestructuringDecls
 (
@@ -2390,6 +2503,7 @@ ParseNode
 pattern
 )
 ;
+MOZ_MUST_USE
 bool
 emitInitializeDestructuringDecls
 (
@@ -2400,16 +2514,19 @@ ParseNode
 pattern
 )
 ;
+MOZ_MUST_USE
 bool
 emitRequireObjectCoercible
 (
 )
 ;
+MOZ_MUST_USE
 bool
 emitIterator
 (
 )
 ;
+MOZ_MUST_USE
 bool
 emitIteratorNext
 (
@@ -2422,6 +2539,7 @@ allowSelfHosted
 false
 )
 ;
+MOZ_MUST_USE
 bool
 emitDefault
 (
@@ -2430,6 +2548,7 @@ ParseNode
 defaultExpr
 )
 ;
+MOZ_MUST_USE
 bool
 emitCallSiteObject
 (
@@ -2438,6 +2557,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitTemplateString
 (
@@ -2446,6 +2566,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitAssignment
 (
@@ -2459,6 +2580,7 @@ ParseNode
 rhs
 )
 ;
+MOZ_MUST_USE
 bool
 emitReturn
 (
@@ -2467,6 +2589,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitStatement
 (
@@ -2475,6 +2598,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitStatementList
 (
@@ -2483,6 +2607,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitDeleteName
 (
@@ -2491,6 +2616,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitDeleteProperty
 (
@@ -2499,6 +2625,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitDeleteElement
 (
@@ -2507,6 +2634,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitDeleteExpression
 (
@@ -2515,6 +2643,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitTypeof
 (
@@ -2525,6 +2654,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 emitUnary
 (
@@ -2533,6 +2663,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitRightAssociative
 (
@@ -2541,6 +2672,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitLeftAssociative
 (
@@ -2549,6 +2681,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitLogical
 (
@@ -2557,6 +2690,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitSequenceExpr
 (
@@ -2566,6 +2700,7 @@ pn
 )
 ;
 MOZ_NEVER_INLINE
+MOZ_MUST_USE
 bool
 emitIncOrDec
 (
@@ -2574,6 +2709,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitConditionalExpression
 (
@@ -2582,6 +2718,7 @@ ConditionalExpression
 conditional
 )
 ;
+MOZ_MUST_USE
 bool
 isRestParameter
 (
@@ -2593,6 +2730,7 @@ bool
 result
 )
 ;
+MOZ_MUST_USE
 bool
 emitOptimizeSpread
 (
@@ -2607,6 +2745,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 emitCallOrNew
 (
@@ -2615,11 +2754,13 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitDebugOnlyCheckSelfHosted
 (
 )
 ;
+MOZ_MUST_USE
 bool
 emitSelfHostedCallFunction
 (
@@ -2628,6 +2769,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitSelfHostedResumeGenerator
 (
@@ -2636,6 +2778,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitSelfHostedForceInterpreter
 (
@@ -2644,6 +2787,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitSelfHostedAllowContentSpread
 (
@@ -2652,6 +2796,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitComprehensionFor
 (
@@ -2660,6 +2805,7 @@ ParseNode
 compFor
 )
 ;
+MOZ_MUST_USE
 bool
 emitComprehensionForIn
 (
@@ -2668,6 +2814,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitComprehensionForInOrOfVariables
 (
@@ -2679,6 +2826,7 @@ bool
 letBlockScope
 )
 ;
+MOZ_MUST_USE
 bool
 emitComprehensionForOf
 (
@@ -2687,6 +2835,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitDo
 (
@@ -2695,6 +2844,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitFor
 (
@@ -2703,6 +2853,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitForIn
 (
@@ -2711,6 +2862,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitForInOrOfVariables
 (
@@ -2719,6 +2871,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitCStyleFor
 (
@@ -2727,6 +2880,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitWhile
 (
@@ -2735,6 +2889,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitBreak
 (
@@ -2743,6 +2898,7 @@ PropertyName
 label
 )
 ;
+MOZ_MUST_USE
 bool
 emitContinue
 (
@@ -2751,6 +2907,7 @@ PropertyName
 label
 )
 ;
+MOZ_MUST_USE
 bool
 emitArgsBody
 (
@@ -2759,6 +2916,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitDefaultsAndDestructuring
 (
@@ -2767,6 +2925,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitLexicalInitialization
 (
@@ -2777,6 +2936,7 @@ JSOp
 globalDefOp
 )
 ;
+MOZ_MUST_USE
 bool
 pushInitialConstants
 (
@@ -2786,6 +2946,7 @@ unsigned
 n
 )
 ;
+MOZ_MUST_USE
 bool
 initializeBlockScopedLocalsFromStack
 (
@@ -2797,6 +2958,7 @@ StaticBlockScope
 blockScope
 )
 ;
+MOZ_MUST_USE
 bool
 emitSpread
 (
@@ -2806,6 +2968,7 @@ allowSelfHosted
 false
 )
 ;
+MOZ_MUST_USE
 bool
 emitForOf
 (
@@ -2814,6 +2977,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitClass
 (
@@ -2822,6 +2986,7 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 emitSuperPropLHS
 (
@@ -2834,6 +2999,7 @@ isCall
 false
 )
 ;
+MOZ_MUST_USE
 bool
 emitSuperPropOp
 (
@@ -2848,6 +3014,7 @@ isCall
 false
 )
 ;
+MOZ_MUST_USE
 bool
 emitSuperElemOperands
 (
@@ -2863,6 +3030,7 @@ EmitElemOption
 Get
 )
 ;
+MOZ_MUST_USE
 bool
 emitSuperElemOp
 (

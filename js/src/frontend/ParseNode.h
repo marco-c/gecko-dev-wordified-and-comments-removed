@@ -184,6 +184,7 @@ return
 slot_
 ;
 }
+MOZ_MUST_USE
 bool
 setSlot
 (
@@ -217,6 +218,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 setHops
 (
@@ -251,6 +253,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 set
 (
@@ -3336,6 +3339,7 @@ AllowObjects
 ForCopyOnWriteArray
 }
 ;
+MOZ_MUST_USE
 bool
 getConstantValue
 (
@@ -5572,6 +5576,7 @@ PNK_CALLSITEOBJ
 )
 ;
 }
+MOZ_MUST_USE
 bool
 getRawArrayValue
 (

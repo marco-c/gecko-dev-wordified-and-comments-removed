@@ -967,6 +967,7 @@ TokenStream
 (
 )
 ;
+MOZ_MUST_USE
 bool
 checkOptions
 (
@@ -1579,6 +1580,7 @@ CharBuffer
 cb
 )
 ;
+MOZ_MUST_USE
 bool
 putIdentInTokenbuf
 (
@@ -2082,6 +2084,7 @@ deterministic
 #
 endif
 }
+MOZ_MUST_USE
 bool
 getToken
 (
@@ -2193,6 +2196,7 @@ cursor
 ntokensMask
 ;
 }
+MOZ_MUST_USE
 bool
 peekToken
 (
@@ -2261,6 +2265,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 peekTokenPos
 (
@@ -2342,6 +2347,7 @@ true
 ;
 }
 MOZ_ALWAYS_INLINE
+MOZ_MUST_USE
 bool
 peekTokenSameLine
 (
@@ -2497,6 +2503,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 matchToken
 (
@@ -2595,6 +2602,7 @@ matched
 )
 ;
 }
+MOZ_MUST_USE
 bool
 matchContextualKeyword
 (
@@ -2691,6 +2699,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 nextTokenEndsExpr
 (
@@ -2786,6 +2795,7 @@ maxLookahead
 ;
 }
 ;
+MOZ_MUST_USE
 bool
 advance
 (
@@ -2809,6 +2819,7 @@ Position
 pos
 )
 ;
+MOZ_MUST_USE
 bool
 seek
 (
@@ -2930,6 +2941,7 @@ get
 )
 ;
 }
+MOZ_MUST_USE
 bool
 checkForKeyword
 (
@@ -2941,6 +2953,7 @@ TokenKind
 ttp
 )
 ;
+MOZ_MUST_USE
 bool
 checkForKeyword
 (
@@ -3024,6 +3037,7 @@ uint32_t
 ln
 )
 ;
+MOZ_MUST_USE
 bool
 add
 (
@@ -3033,6 +3047,7 @@ uint32_t
 lineStartOffset
 )
 ;
+MOZ_MUST_USE
 bool
 fill
 (
@@ -3569,6 +3584,7 @@ ptr
 ;
 }
 ;
+MOZ_MUST_USE
 bool
 getTokenInternal
 (
@@ -3579,6 +3595,7 @@ Modifier
 modifier
 )
 ;
+MOZ_MUST_USE
 bool
 getBracedUnicode
 (
@@ -3587,6 +3604,7 @@ uint32_t
 code
 )
 ;
+MOZ_MUST_USE
 bool
 getStringOrTemplateToken
 (
@@ -3664,6 +3682,7 @@ char16_t
 cp
 )
 ;
+MOZ_MUST_USE
 bool
 getDirectives
 (
@@ -3673,6 +3692,7 @@ bool
 shouldWarnDeprecated
 )
 ;
+MOZ_MUST_USE
 bool
 getDirective
 (
@@ -3704,6 +3724,7 @@ FreePolicy
 destination
 )
 ;
+MOZ_MUST_USE
 bool
 getDisplayURL
 (
@@ -3713,6 +3734,7 @@ bool
 shouldWarnDeprecated
 )
 ;
+MOZ_MUST_USE
 bool
 getSourceMappingURL
 (

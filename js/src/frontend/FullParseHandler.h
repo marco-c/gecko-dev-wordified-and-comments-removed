@@ -817,7 +817,7 @@ return
 callSite
 ;
 }
-bool
+void
 addToCallSiteObject
 (
 ParseNode
@@ -865,9 +865,6 @@ callSiteObj
 >
 pn_head
 )
-;
-return
-true
 ;
 }
 ParseNode
@@ -1544,6 +1541,7 @@ return
 literal
 ;
 }
+MOZ_MUST_USE
 bool
 addElision
 (
@@ -1599,6 +1597,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 addSpreadElement
 (
@@ -1932,6 +1931,7 @@ thisName
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addPrototypeMutation
 (
@@ -1983,6 +1983,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 addPropertyDefinition
 (
@@ -2089,6 +2090,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 addShorthand
 (
@@ -2199,6 +2201,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 addObjectMethodDefinition
 (
@@ -2304,6 +2307,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 addClassMethodDefinition
 (
@@ -2541,6 +2545,7 @@ template
 typename
 PC
 >
+MOZ_MUST_USE
 bool
 isFunctionStmt
 (
@@ -2753,6 +2758,7 @@ pn_xflags
 PNX_FUNCDEFS
 ;
 }
+MOZ_MUST_USE
 bool
 prependInitialYield
 (
@@ -4004,6 +4010,7 @@ end
 ;
 }
 inline
+MOZ_MUST_USE
 bool
 addCatchBlock
 (
@@ -4025,6 +4032,7 @@ catchBody
 )
 ;
 inline
+MOZ_MUST_USE
 bool
 setLastFunctionArgumentDefault
 (
@@ -4591,6 +4599,7 @@ PNK_SUPERBASE
 ;
 }
 inline
+MOZ_MUST_USE
 bool
 finishInitializerAssignment
 (
