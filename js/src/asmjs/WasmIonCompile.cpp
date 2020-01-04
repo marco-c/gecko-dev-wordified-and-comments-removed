@@ -1095,7 +1095,6 @@ patches
 :
 blockPatches_
 )
-{
 MOZ_ASSERT
 (
 patches
@@ -1105,7 +1104,6 @@ empty
 )
 )
 ;
-}
 #
 endif
 MOZ_ASSERT

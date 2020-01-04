@@ -688,7 +688,6 @@ stackRootPtr
 :
 stackRoots_
 )
-{
 MOZ_ASSERT
 (
 stackRootPtr
@@ -697,7 +696,6 @@ stackRootPtr
 nullptr
 )
 ;
-}
 #
 endif
 }
