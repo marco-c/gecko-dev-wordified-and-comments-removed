@@ -1,7 +1,16 @@
-void
+#
+include
+"
+vm
+/
+TaggedProto
+.
+h
+"
+namespace
 js
-:
-:
+{
+void
 InternalGCMethods
 <
 TaggedProto
@@ -33,9 +42,6 @@ toObjectOrNull
 ;
 }
 void
-js
-:
-:
 InternalGCMethods
 <
 TaggedProto
@@ -111,4 +117,5 @@ prevObj
 nextObj
 )
 ;
+}
 }
