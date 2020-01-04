@@ -2658,6 +2658,9 @@ uint32_t
 >
 array
 ;
+if
+(
+!
 array
 .
 SetCapacity
@@ -2667,8 +2670,14 @@ aAddPrefixes
 Length
 (
 )
+fallible
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 for
 (
 uint32_t
