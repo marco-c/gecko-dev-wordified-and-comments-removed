@@ -298,11 +298,6 @@ return
 true
 ;
 }
-stackTrace
-:
-Log
-.
-stackTrace
 encodeBase64URL
 :
 function
