@@ -682,13 +682,13 @@ browser
 /
 customizableui
 /
-panelUIOverlay
+panelUI
 .
 css
 (
 customizableui
 /
-panelUIOverlay
+panelUI
 .
 css
 )
