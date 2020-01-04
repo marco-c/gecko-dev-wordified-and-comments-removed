@@ -1282,6 +1282,16 @@ oneDevPixel
 )
 ;
 }
+numShift
++
+=
+axisHeight
+;
+denShift
++
+=
+axisHeight
+;
 nscoord
 actualClearance
 =
