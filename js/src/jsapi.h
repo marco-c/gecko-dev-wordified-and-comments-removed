@@ -22155,7 +22155,7 @@ bool
 )
 FlushPerformanceMonitoring
 (
-JSRuntime
+JSContext
 *
 )
 ;
@@ -22166,7 +22166,7 @@ void
 )
 ResetPerformanceMonitoring
 (
-JSRuntime
+JSContext
 *
 )
 ;
@@ -22177,7 +22177,7 @@ void
 )
 DisposePerformanceMonitoring
 (
-JSRuntime
+JSContext
 *
 )
 ;
@@ -22188,7 +22188,7 @@ bool
 )
 SetStopwatchIsMonitoringCPOW
 (
-JSRuntime
+JSContext
 *
 bool
 )
@@ -22200,7 +22200,7 @@ bool
 )
 GetStopwatchIsMonitoringCPOW
 (
-JSRuntime
+JSContext
 *
 )
 ;
@@ -22211,7 +22211,7 @@ bool
 )
 SetStopwatchIsMonitoringJank
 (
-JSRuntime
+JSContext
 *
 bool
 )
@@ -22223,18 +22223,7 @@ bool
 )
 GetStopwatchIsMonitoringJank
 (
-JSRuntime
-*
-)
-;
-extern
-JS_PUBLIC_API
-(
-bool
-)
-IsStopwatchActive
-(
-JSRuntime
+JSContext
 *
 )
 ;
@@ -22245,7 +22234,7 @@ void
 )
 GetPerfMonitoringTestCpuRescheduling
 (
-JSRuntime
+JSContext
 *
 uint64_t
 *
@@ -22262,7 +22251,7 @@ void
 )
 AddCPOWPerformanceDelta
 (
-JSRuntime
+JSContext
 *
 uint64_t
 delta
@@ -22287,7 +22276,7 @@ bool
 )
 SetStopwatchStartCallback
 (
-JSRuntime
+JSContext
 *
 StopwatchStartCallback
 void
@@ -22315,7 +22304,7 @@ bool
 )
 SetStopwatchCommitCallback
 (
-JSRuntime
+JSContext
 *
 StopwatchCommitCallback
 void
@@ -22344,7 +22333,7 @@ bool
 )
 SetGetPerformanceGroupsCallback
 (
-JSRuntime
+JSContext
 *
 GetGroupsCallback
 void
