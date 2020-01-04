@@ -5781,7 +5781,7 @@ LinearHistogram
 :
 Accumulate
 (
-1
+value
 1
 zero_index
 )
