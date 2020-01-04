@@ -23620,6 +23620,10 @@ maybeInsertResume
 return
 false
 ;
+trackOptimizationSuccess
+(
+)
+;
 *
 emitted
 =
@@ -23899,6 +23903,10 @@ maybeInsertResume
 return
 false
 ;
+trackOptimizationSuccess
+(
+)
+;
 *
 emitted
 =
@@ -24048,6 +24056,10 @@ maybeInsertResume
 return
 false
 ;
+trackOptimizationSuccess
+(
+)
+;
 *
 emitted
 =
@@ -24120,6 +24132,7 @@ actualOp
 =
 JSOP_BITNOT
 )
+{
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -24128,6 +24141,11 @@ TrackedStrategy
 BinaryArith_SharedCache
 )
 ;
+trackOptimizationSuccess
+(
+)
+;
+}
 MInstruction
 *
 stub
@@ -24436,6 +24454,10 @@ TrackedStrategy
 :
 :
 BinaryArith_Call
+)
+;
+trackOptimizationSuccess
+(
 )
 ;
 MDefinition
