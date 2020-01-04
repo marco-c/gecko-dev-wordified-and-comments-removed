@@ -147,6 +147,9 @@ JSContext
 cx
 )
 {
+JS
+:
+:
 RootedValue
 exn
 (
