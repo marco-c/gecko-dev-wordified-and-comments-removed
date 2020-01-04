@@ -90,10 +90,19 @@ Debug
 (
 "
 OmxPromiseLayer
+(
+%
+p
+)
 :
+:
+%
+s
 :
 "
 arg
+this
+__func__
 #
 #
 __VA_ARGS__
@@ -342,8 +351,6 @@ IsCurrentThreadIn
 LOG
 (
 "
-FillBuffer
-:
 buffer
 %
 p
@@ -472,8 +479,6 @@ IsCurrentThreadIn
 LOG
 (
 "
-EmptyBuffer
-:
 buffer
 %
 p
@@ -945,8 +950,6 @@ aData
 LOG
 (
 "
-EmptyFillBufferDone
-:
 type
 %
 d
@@ -1237,8 +1240,6 @@ else
 LOG
 (
 "
-SendCommand
-:
 OMX_CommandFlush
 parameter
 error
@@ -1392,8 +1393,6 @@ else
 LOG
 (
 "
-SendCommand
-:
 error
 unsupport
 command
@@ -1485,8 +1484,6 @@ aData2
 LOG
 (
 "
-Event
-:
 OMX_CommandFlush
 completed
 port
@@ -1885,7 +1882,6 @@ Shutdown
 LOG
 (
 "
-Shutdown
 "
 )
 ;
