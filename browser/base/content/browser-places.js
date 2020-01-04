@@ -6018,7 +6018,7 @@ sortingMode
 =
 options
 .
-SORT_BY_DATE_DESCENDING
+SORT_BY_DATEADDED_DESCENDING
 ;
 options
 .
