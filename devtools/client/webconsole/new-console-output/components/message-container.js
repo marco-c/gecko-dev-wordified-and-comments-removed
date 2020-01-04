@@ -376,6 +376,7 @@ PageError
 ;
 default
 :
+return
 componentMap
 .
 get
