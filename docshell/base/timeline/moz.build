@@ -150,6 +150,11 @@ MarkersStorage
 h
 '
 '
+MessagePortTimelineMarker
+.
+h
+'
+'
 ObservedDocShell
 .
 h
