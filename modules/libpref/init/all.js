@@ -17521,16 +17521,6 @@ pref
 "
 dom
 .
-max_child_script_run_time
-"
-10
-)
-;
-pref
-(
-"
-dom
-.
 max_script_run_time
 "
 10

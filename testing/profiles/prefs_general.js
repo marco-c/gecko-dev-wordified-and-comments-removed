@@ -169,16 +169,6 @@ user_pref
 "
 dom
 .
-max_child_script_run_time
-"
-0
-)
-;
-user_pref
-(
-"
-dom
-.
 ipc
 .
 reportProcessHangs
