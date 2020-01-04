@@ -3610,6 +3610,8 @@ shared
 Architecture
 -
 mips
+-
+shared
 .
 cpp
 '
