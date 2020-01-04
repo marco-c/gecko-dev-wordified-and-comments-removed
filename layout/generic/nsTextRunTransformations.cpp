@@ -1457,7 +1457,7 @@ aCanBreakBeforeArray
 &
 aStyleArray
 ;
-NS_PRECONDITION
+MOZ_ASSERT
 (
 !
 auxiliaryOutputArrays
