@@ -71,7 +71,7 @@ example1
 .
 com
 "
-sidebarURL
+shareURL
 :
 "
 https
@@ -82,7 +82,7 @@ example1
 .
 com
 /
-sidebar
+share
 /
 "
 }
@@ -104,7 +104,7 @@ example2
 .
 com
 "
-sidebarURL
+shareURL
 :
 "
 https
@@ -115,7 +115,7 @@ example2
 .
 com
 /
-sidebar
+share
 /
 "
 }
@@ -1353,7 +1353,7 @@ providers
 1
 ]
 .
-sidebarURL
+shareURL
 +
 i
 null
