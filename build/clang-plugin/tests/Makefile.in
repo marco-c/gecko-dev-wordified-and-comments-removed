@@ -112,6 +112,10 @@ ferror
 limit
 =
 0
+-
+std
+=
+c11
 OS_CXXFLAGS
 :
 =
