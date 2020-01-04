@@ -4554,6 +4554,14 @@ PlainObject
 cx
 )
 ;
+if
+(
+!
+obj
+)
+return
+false
+;
 callArgs
 .
 rval
