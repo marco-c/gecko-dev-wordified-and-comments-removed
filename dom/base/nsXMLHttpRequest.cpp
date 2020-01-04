@@ -11571,13 +11571,6 @@ Type
 contentType
 )
 )
-|
-|
-contentType
-.
-IsEmpty
-(
-)
 )
 {
 contentType
