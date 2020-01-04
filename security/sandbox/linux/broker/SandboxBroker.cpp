@@ -1954,9 +1954,6 @@ SANDBOX_FILE_STAT
 :
 if
 (
-permissive
-|
-|
 DoStat
 (
 pathBuf
