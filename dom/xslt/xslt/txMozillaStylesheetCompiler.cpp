@@ -1811,7 +1811,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_STYLESHEET
+TYPE_STYLESHEET
 uri
 referrerPrincipal
 mLoaderDocument
@@ -2273,7 +2273,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_STYLESHEET
+TYPE_STYLESHEET
 aUri
 principal
 aLoaderDocument
@@ -2936,7 +2936,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_STYLESHEET
+TYPE_STYLESHEET
 uri
 referrerPrincipal
 nullptr

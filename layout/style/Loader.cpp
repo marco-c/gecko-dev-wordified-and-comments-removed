@@ -2072,7 +2072,6 @@ arr
 i
 ]
 eSheetNeedsParser
-false
 )
 ;
 }
@@ -4051,8 +4050,6 @@ aTargetURI
 nsISupports
 *
 aContext
-bool
-aIsPreload
 )
 {
 LOG
@@ -4127,21 +4124,6 @@ check
 )
 )
 ;
-nsContentPolicyType
-contentPolicyType
-=
-aIsPreload
-?
-nsIContentPolicy
-:
-:
-TYPE_INTERNAL_STYLESHEET_PRELOAD
-:
-nsIContentPolicy
-:
-:
-TYPE_INTERNAL_STYLESHEET
-;
 int16_t
 shouldLoad
 =
@@ -4154,7 +4136,10 @@ rv
 =
 NS_CheckContentLoadPolicy
 (
-contentPolicyType
+nsIContentPolicy
+:
+:
+TYPE_STYLESHEET
 aTargetURI
 aSourcePrincipal
 aContext
@@ -5730,8 +5715,6 @@ SheetLoadData
 aLoadData
 StyleSheetState
 aSheetState
-bool
-aIsPreload
 )
 {
 LOG
@@ -6551,7 +6534,6 @@ LoadSheet
 (
 existingData
 eSheetNeedsParser
-aIsPreload
 )
 ;
 }
@@ -6627,21 +6609,6 @@ nsILoadInfo
 SEC_FORCE_INHERIT_PRINCIPAL
 ;
 }
-nsContentPolicyType
-contentPolicyType
-=
-aIsPreload
-?
-nsIContentPolicy
-:
-:
-TYPE_INTERNAL_STYLESHEET_PRELOAD
-:
-nsIContentPolicy
-:
-:
-TYPE_INTERNAL_STYLESHEET
-;
 nsCOMPtr
 <
 nsIChannel
@@ -6674,7 +6641,10 @@ aLoadData
 mRequestingNode
 triggeringPrincipal
 securityFlags
-contentPolicyType
+nsIContentPolicy
+:
+:
+TYPE_STYLESHEET
 loadGroup
 nullptr
 nsIChannel
@@ -6716,7 +6686,10 @@ aLoadData
 mURI
 triggeringPrincipal
 securityFlags
-contentPolicyType
+nsIContentPolicy
+:
+:
+TYPE_STYLESHEET
 loadGroup
 nullptr
 nsIChannel
@@ -9054,7 +9027,6 @@ CheckLoadAllowed
 principal
 aURL
 context
-false
 )
 ;
 if
@@ -9374,7 +9346,6 @@ LoadSheet
 (
 data
 state
-false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -9711,7 +9682,6 @@ CheckLoadAllowed
 principal
 aURL
 context
-false
 )
 ;
 if
@@ -10009,7 +9979,6 @@ LoadSheet
 (
 data
 state
-false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10074,7 +10043,6 @@ return
 InternalLoadNonDocumentSheet
 (
 aURL
-false
 aAllowUnsafeRules
 aUseSystemPrincipal
 nullptr
@@ -10149,7 +10117,6 @@ InternalLoadNonDocumentSheet
 aURL
 false
 false
-false
 aOriginPrincipal
 aCharset
 aSheet
@@ -10166,8 +10133,6 @@ LoadSheet
 nsIURI
 *
 aURL
-bool
-aIsPreload
 nsIPrincipal
 *
 aOriginPrincipal
@@ -10213,7 +10178,6 @@ return
 InternalLoadNonDocumentSheet
 (
 aURL
-aIsPreload
 false
 false
 aOriginPrincipal
@@ -10235,8 +10199,6 @@ InternalLoadNonDocumentSheet
 nsIURI
 *
 aURL
-bool
-aIsPreload
 bool
 aAllowUnsafeRules
 bool
@@ -10398,7 +10360,6 @@ CheckLoadAllowed
 aOriginPrincipal
 aURL
 mDocument
-aIsPreload
 )
 ;
 if
@@ -10574,7 +10535,6 @@ LoadSheet
 (
 data
 state
-aIsPreload
 )
 ;
 NS_ENSURE_SUCCESS
@@ -11423,7 +11383,6 @@ arr
 i
 ]
 eSheetNeedsParser
-false
 )
 ;
 }

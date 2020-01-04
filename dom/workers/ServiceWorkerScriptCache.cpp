@@ -469,7 +469,7 @@ SEC_NORMAL
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_SCRIPT
+TYPE_SCRIPT
 loadGroup
 )
 ;

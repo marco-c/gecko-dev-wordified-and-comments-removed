@@ -1304,7 +1304,7 @@ SEC_NORMAL
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_IMAGE
+TYPE_IMAGE
 )
 ;
 nsCOMPtr

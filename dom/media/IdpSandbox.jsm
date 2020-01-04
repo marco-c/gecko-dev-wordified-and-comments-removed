@@ -262,7 +262,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_INTERNAL_SCRIPT
+TYPE_SCRIPT
 )
 ;
 ioChannel

@@ -427,7 +427,7 @@ aContentType
 nsContentUtils
 :
 :
-InternalContentPolicyTypeToExternalOrPreload
+InternalContentPolicyTypeToExternal
 (
 aContentType
 )
@@ -440,8 +440,6 @@ external
 content
 policy
 types
-or
-preloads
 here
 .
 "
@@ -1029,7 +1027,7 @@ aContentType
 nsContentUtils
 :
 :
-InternalContentPolicyTypeToExternalOrPreload
+InternalContentPolicyTypeToExternal
 (
 aContentType
 )
@@ -1042,8 +1040,6 @@ external
 content
 policy
 types
-or
-preloads
 here
 .
 "

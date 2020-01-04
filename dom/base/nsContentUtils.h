@@ -1615,7 +1615,7 @@ aContentPolicyType
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_IMAGE
+TYPE_IMAGE
 )
 ;
 static
@@ -1670,7 +1670,7 @@ aContentPolicyType
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_IMAGE
+TYPE_IMAGE
 )
 ;
 static
@@ -2183,14 +2183,6 @@ aType
 static
 nsContentPolicyType
 InternalContentPolicyTypeToExternalOrScript
-(
-nsContentPolicyType
-aType
-)
-;
-static
-nsContentPolicyType
-InternalContentPolicyTypeToExternalOrPreload
 (
 nsContentPolicyType
 aType
