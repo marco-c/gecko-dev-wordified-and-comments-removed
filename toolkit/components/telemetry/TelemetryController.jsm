@@ -3216,17 +3216,6 @@ runCleanPingArchiveTask
 (
 )
 ;
-Telemetry
-.
-asyncFetchTelemetryData
-(
-function
-(
-)
-{
-}
-)
-;
 this
 .
 _delayedInitTaskDeferred
