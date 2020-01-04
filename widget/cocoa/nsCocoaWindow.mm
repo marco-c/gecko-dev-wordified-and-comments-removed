@@ -1171,7 +1171,7 @@ gXULModalLevel
 =
 0
 "
-Wierdness
+Weirdness
 setting
 modality
 !
