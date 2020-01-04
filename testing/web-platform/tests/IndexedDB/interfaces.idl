@@ -467,6 +467,13 @@ key
 )
 ;
 IDBRequest
+getKey
+(
+any
+key
+)
+;
+IDBRequest
 clear
 (
 )

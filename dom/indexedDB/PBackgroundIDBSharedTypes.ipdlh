@@ -543,6 +543,17 @@ keyRange
 }
 ;
 struct
+ObjectStoreGetKeyParams
+{
+int64_t
+objectStoreId
+;
+SerializedKeyRange
+keyRange
+;
+}
+;
+struct
 ObjectStoreGetAllParams
 {
 int64_t
@@ -684,6 +695,8 @@ ObjectStoreAddParams
 ObjectStorePutParams
 ;
 ObjectStoreGetParams
+;
+ObjectStoreGetKeyParams
 ;
 ObjectStoreGetAllParams
 ;
