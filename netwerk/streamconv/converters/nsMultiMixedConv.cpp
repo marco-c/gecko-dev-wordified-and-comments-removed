@@ -2143,6 +2143,15 @@ cursor
 =
 tokenPos
 ;
+bufLen
+-
+=
+mPreamble
+.
+Length
+(
+)
+;
 }
 }
 else
