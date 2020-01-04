@@ -32,7 +32,7 @@ mozilla
 /
 layers
 /
-TextureForwarder
+CompositableForwarder
 .
 h
 "
@@ -166,7 +166,7 @@ TextureClient
 >
 Allocate
 (
-TextureForwarder
+CompositableForwarder
 *
 aAllocator
 )
@@ -231,7 +231,7 @@ public
 explicit
 TextureClientRecycleAllocator
 (
-TextureForwarder
+CompositableForwarder
 *
 aAllocator
 )
@@ -314,7 +314,7 @@ aAllocFlags
 ;
 RefPtr
 <
-TextureForwarder
+CompositableForwarder
 >
 mSurfaceAllocator
 ;

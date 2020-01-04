@@ -77,7 +77,7 @@ public
 explicit
 D3D11RecycleAllocator
 (
-TextureForwarder
+CompositableForwarder
 *
 aAllocator
 ID3D11Device

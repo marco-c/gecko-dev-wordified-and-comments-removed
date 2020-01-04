@@ -4065,6 +4065,8 @@ CompositorBridgeChild
 :
 GetTexturePool
 (
+LayersBackend
+aBackend
 SurfaceFormat
 aFormat
 TextureFlags
@@ -4093,6 +4095,20 @@ i
 {
 if
 (
+mTexturePools
+[
+i
+]
+-
+>
+GetBackend
+(
+)
+=
+=
+aBackend
+&
+&
 mTexturePools
 [
 i
@@ -4136,8 +4152,8 @@ AppendElement
 new
 TextureClientPool
 (
+aBackend
 aFormat
-aFlags
 IntSize
 (
 gfxPlatform
@@ -4163,6 +4179,7 @@ GetTileHeight
 (
 )
 )
+aFlags
 gfxPrefs
 :
 :
