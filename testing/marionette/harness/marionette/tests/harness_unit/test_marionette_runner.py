@@ -494,6 +494,12 @@ Tests
 '
         
 '
+package_name
+'
+:
+None
+        
+'
 prefs
 '
 :
