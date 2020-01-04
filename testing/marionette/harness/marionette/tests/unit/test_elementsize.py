@@ -2,7 +2,6 @@ from
 marionette
 import
 MarionetteTestCase
-skip_if_mobile
 from
 marionette_driver
 .
@@ -96,7 +95,6 @@ height
 >
 0
 )
-skip_if_mobile
 class
 TestElementSizeChrome
 (
