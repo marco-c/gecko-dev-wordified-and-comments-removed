@@ -117,9 +117,6 @@ interface
 nsISimpleEnumerator
 ;
 interface
-nsIXMLHttpRequest
-;
-interface
 nsIFile
 ;
 /
@@ -1682,7 +1679,7 @@ param
 request
 *
 The
-nsIXMLHttpRequest
+XMLHttpRequest
 handling
 the
 update
@@ -1720,7 +1717,7 @@ void
 onCheckComplete
 (
 in
-nsIXMLHttpRequest
+jsval
 request
 [
 array
@@ -1758,7 +1755,7 @@ param
 request
 *
 The
-nsIXMLHttpRequest
+XMLHttpRequest
 handling
 the
 update
@@ -1791,7 +1788,7 @@ void
 onError
 (
 in
-nsIXMLHttpRequest
+jsval
 request
 in
 nsIUpdate
