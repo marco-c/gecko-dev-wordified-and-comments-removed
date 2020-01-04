@@ -65,6 +65,10 @@ mFontFace
 (
 aFont
 )
+mUseEmbeddedBitmap
+(
+false
+)
 {
 }
 ScaledFontDWrite
@@ -80,6 +84,8 @@ IDWriteFontFace
 aFontFace
 Float
 aSize
+bool
+aUseEmbeddedBitmap
 )
 :
 ScaledFontBase
@@ -97,6 +103,10 @@ aFontFamily
 mFontFace
 (
 aFontFace
+)
+mUseEmbeddedBitmap
+(
+aUseEmbeddedBitmap
 )
 {
 }
@@ -195,6 +205,15 @@ GetDefaultAAMode
 )
 override
 ;
+bool
+UseEmbeddedBitmaps
+(
+)
+{
+return
+mUseEmbeddedBitmap
+;
+}
 #
 ifdef
 USE_SKIA
@@ -240,6 +259,9 @@ RefPtr
 IDWriteFontFace
 >
 mFontFace
+;
+bool
+mUseEmbeddedBitmap
 ;
 protected
 :
