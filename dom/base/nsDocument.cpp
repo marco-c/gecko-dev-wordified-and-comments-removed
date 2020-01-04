@@ -52601,6 +52601,14 @@ mDocument
 if
 (
 doc
+&
+&
+doc
+-
+>
+GetInnerWindow
+(
+)
 )
 {
 mRequester
