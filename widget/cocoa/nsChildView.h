@@ -2519,6 +2519,9 @@ SwipeEventQueue
 >
 mSwipeEventQueue
 ;
+bool
+mCurrentPanGestureBelongsToSwipe
+;
 static
 uint32_t
 sLastInputEventCount
