@@ -68,6 +68,7 @@ undef
 CSS_PSEUDO_CLASS
 Count
 NotPseudo
+MAX
 }
 ;
 }

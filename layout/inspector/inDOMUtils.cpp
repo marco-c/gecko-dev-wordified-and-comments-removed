@@ -5644,10 +5644,8 @@ size_t
 CSSPseudoClassType
 :
 :
-NotPseudo
+MAX
 )
-+
-1
 "
 Length
 of
