@@ -1557,7 +1557,7 @@ offset_
 }
 ;
 class
-CodeOffsetLabel
+CodeOffset
 {
 size_t
 offset_
@@ -1576,7 +1576,7 @@ size_t
 public
 :
 explicit
-CodeOffsetLabel
+CodeOffset
 (
 size_t
 offset
@@ -1588,7 +1588,7 @@ offset
 )
 {
 }
-CodeOffsetLabel
+CodeOffset
 (
 )
 :
@@ -1694,10 +1694,10 @@ delta
 class
 CodeLabel
 {
-CodeOffsetLabel
+CodeOffset
 patchAt_
 ;
-CodeOffsetLabel
+CodeOffset
 target_
 ;
 public
@@ -1711,7 +1711,7 @@ explicit
 CodeLabel
 (
 const
-CodeOffsetLabel
+CodeOffset
 &
 patchAt
 )
@@ -1725,11 +1725,11 @@ patchAt
 CodeLabel
 (
 const
-CodeOffsetLabel
+CodeOffset
 &
 patchAt
 const
-CodeOffsetLabel
+CodeOffset
 &
 target
 )
@@ -1744,7 +1744,7 @@ target
 )
 {
 }
-CodeOffsetLabel
+CodeOffset
 *
 patchAt
 (
@@ -1755,7 +1755,7 @@ return
 patchAt_
 ;
 }
-CodeOffsetLabel
+CodeOffset
 *
 target
 (
@@ -2234,7 +2234,7 @@ CodeLocationLabel
 JitCode
 *
 code
-CodeOffsetLabel
+CodeOffset
 base
 )
 {
@@ -2292,7 +2292,7 @@ void
 operator
 =
 (
-CodeOffsetLabel
+CodeOffset
 base
 )
 {
@@ -3226,7 +3226,7 @@ AsmJSHeapAccessVector
 struct
 AsmJSGlobalAccess
 {
-CodeOffsetLabel
+CodeOffset
 patchAt
 ;
 unsigned
@@ -3234,7 +3234,7 @@ globalDataOffset
 ;
 AsmJSGlobalAccess
 (
-CodeOffsetLabel
+CodeOffset
 patchAt
 unsigned
 globalDataOffset
@@ -3592,7 +3592,7 @@ AsmJSAbsoluteLink
 {
 AsmJSAbsoluteLink
 (
-CodeOffsetLabel
+CodeOffset
 patchAt
 AsmJSImmKind
 target
@@ -3608,7 +3608,7 @@ target
 )
 {
 }
-CodeOffsetLabel
+CodeOffset
 patchAt
 ;
 AsmJSImmKind
@@ -3756,7 +3756,7 @@ const
 CallSiteDesc
 &
 desc
-CodeOffsetLabel
+CodeOffset
 label
 size_t
 framePushed

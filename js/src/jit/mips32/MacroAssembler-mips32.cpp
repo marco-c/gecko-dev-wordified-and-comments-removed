@@ -4016,7 +4016,7 @@ append
 (
 AsmJSAbsoluteLink
 (
-CodeOffsetLabel
+CodeOffset
 (
 nextOffset
 (
@@ -12432,7 +12432,7 @@ AnyRegister
 output
 )
 ;
-CodeOffsetLabel
+CodeOffset
 MacroAssemblerMIPSCompat
 :
 :
@@ -12443,7 +12443,7 @@ Label
 label
 )
 {
-CodeOffsetLabel
+CodeOffset
 ret
 (
 nextOffset
@@ -12464,7 +12464,7 @@ return
 ret
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssemblerMIPSCompat
 :
 :
@@ -12484,7 +12484,7 @@ nextOffset
 (
 )
 ;
-CodeOffsetLabel
+CodeOffset
 offset
 (
 bo

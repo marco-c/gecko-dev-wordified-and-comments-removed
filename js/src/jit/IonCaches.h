@@ -505,7 +505,7 @@ disabled_
 void
 setFallbackLabel
 (
-CodeOffsetLabel
+CodeOffset
 fallbackLabel
 )
 {

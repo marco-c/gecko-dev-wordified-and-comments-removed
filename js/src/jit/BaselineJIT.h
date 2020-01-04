@@ -1150,7 +1150,7 @@ ICEntry
 &
 icEntryFromReturnOffset
 (
-CodeOffsetLabel
+CodeOffset
 returnOffset
 )
 ;

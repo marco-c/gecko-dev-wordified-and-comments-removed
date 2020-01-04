@@ -1400,7 +1400,7 @@ StackPointer
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 pushWithPatch
 (
 ImmWord
@@ -1420,7 +1420,7 @@ value
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -1460,7 +1460,7 @@ StackPointer
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movWithPatch
 (
 ImmWord
@@ -1481,7 +1481,7 @@ dest
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -1491,7 +1491,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movWithPatch
 (
 ImmPtr
@@ -1821,7 +1821,7 @@ append
 (
 AsmJSAbsoluteLink
 (
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -1895,7 +1895,7 @@ dest
 void
 mov
 (
-CodeOffsetLabel
+CodeOffset
 *
 label
 Register
@@ -2352,7 +2352,7 @@ append
 (
 AsmJSAbsoluteLink
 (
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -2400,7 +2400,7 @@ append
 (
 AsmJSAbsoluteLink
 (
-CodeOffsetLabel
+CodeOffset
 (
 src
 .
@@ -3135,7 +3135,7 @@ HARDCODED
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 toggledCall
 (
 JitCode
@@ -3145,7 +3145,7 @@ bool
 enabled
 )
 {
-CodeOffsetLabel
+CodeOffset
 offset
 (
 size
@@ -3315,7 +3315,7 @@ reset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movlWithPatch
 (
 Imm32
@@ -3339,7 +3339,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -3349,7 +3349,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movsblWithPatch
 (
 const
@@ -3435,7 +3435,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -3445,7 +3445,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movzblWithPatch
 (
 const
@@ -3531,7 +3531,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -3541,7 +3541,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movswlWithPatch
 (
 const
@@ -3627,7 +3627,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -3637,7 +3637,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movzwlWithPatch
 (
 const
@@ -3723,7 +3723,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -3733,7 +3733,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movlWithPatch
 (
 const
@@ -3819,7 +3819,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -3829,7 +3829,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovssWithPatch
 (
 const
@@ -3922,7 +3922,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -3932,7 +3932,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovdWithPatch
 (
 const
@@ -4025,7 +4025,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -4035,7 +4035,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovqWithPatch
 (
 const
@@ -4128,7 +4128,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -4138,7 +4138,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovsdWithPatch
 (
 const
@@ -4231,7 +4231,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -4241,7 +4241,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovupsWithPatch
 (
 const
@@ -4334,7 +4334,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -4344,7 +4344,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovdquWithPatch
 (
 const
@@ -4437,7 +4437,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -4447,7 +4447,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movbWithPatch
 (
 Register
@@ -4533,7 +4533,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -4543,7 +4543,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movwWithPatch
 (
 Register
@@ -4629,7 +4629,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -4639,7 +4639,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movlWithPatch
 (
 Register
@@ -4725,7 +4725,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -4735,7 +4735,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovdWithPatch
 (
 FloatRegister
@@ -4828,7 +4828,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -4838,7 +4838,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovqWithPatch
 (
 FloatRegister
@@ -4931,7 +4931,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -4941,7 +4941,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovssWithPatch
 (
 FloatRegister
@@ -5034,7 +5034,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5044,7 +5044,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovsdWithPatch
 (
 FloatRegister
@@ -5137,7 +5137,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5147,7 +5147,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovupsWithPatch
 (
 FloatRegister
@@ -5240,7 +5240,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5250,7 +5250,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovdquWithPatch
 (
 FloatRegister
@@ -5343,7 +5343,7 @@ kind
 ;
 }
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5353,7 +5353,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movlWithPatch
 (
 PatchedAbsoluteAddress
@@ -5387,7 +5387,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5397,7 +5397,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movsblWithPatch
 (
 PatchedAbsoluteAddress
@@ -5421,7 +5421,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5431,7 +5431,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movzblWithPatch
 (
 PatchedAbsoluteAddress
@@ -5455,7 +5455,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5465,7 +5465,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movswlWithPatch
 (
 PatchedAbsoluteAddress
@@ -5489,7 +5489,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5499,7 +5499,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movzwlWithPatch
 (
 PatchedAbsoluteAddress
@@ -5523,7 +5523,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5533,7 +5533,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movlWithPatch
 (
 PatchedAbsoluteAddress
@@ -5557,7 +5557,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5567,7 +5567,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovssWithPatch
 (
 PatchedAbsoluteAddress
@@ -5598,7 +5598,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5608,7 +5608,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovdWithPatch
 (
 PatchedAbsoluteAddress
@@ -5639,7 +5639,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5649,7 +5649,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovqWithPatch
 (
 PatchedAbsoluteAddress
@@ -5680,7 +5680,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5690,7 +5690,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovsdWithPatch
 (
 PatchedAbsoluteAddress
@@ -5721,7 +5721,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5731,7 +5731,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovdqaWithPatch
 (
 PatchedAbsoluteAddress
@@ -5762,7 +5762,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5772,7 +5772,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovdquWithPatch
 (
 PatchedAbsoluteAddress
@@ -5803,7 +5803,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5813,7 +5813,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovapsWithPatch
 (
 PatchedAbsoluteAddress
@@ -5844,7 +5844,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5854,7 +5854,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovupsWithPatch
 (
 PatchedAbsoluteAddress
@@ -5885,7 +5885,7 @@ encoding
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5895,7 +5895,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movbWithPatch
 (
 Register
@@ -5919,7 +5919,7 @@ addr
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5929,7 +5929,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movwWithPatch
 (
 Register
@@ -5953,7 +5953,7 @@ addr
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5963,7 +5963,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movlWithPatch
 (
 Register
@@ -5987,7 +5987,7 @@ addr
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -5997,7 +5997,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovssWithPatch
 (
 FloatRegister
@@ -6028,7 +6028,7 @@ addr
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -6038,7 +6038,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovdWithPatch
 (
 FloatRegister
@@ -6069,7 +6069,7 @@ addr
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -6079,7 +6079,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovqWithPatch
 (
 FloatRegister
@@ -6110,7 +6110,7 @@ addr
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -6120,7 +6120,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovsdWithPatch
 (
 FloatRegister
@@ -6151,7 +6151,7 @@ addr
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -6161,7 +6161,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovdqaWithPatch
 (
 FloatRegister
@@ -6192,7 +6192,7 @@ addr
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -6202,7 +6202,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovapsWithPatch
 (
 FloatRegister
@@ -6233,7 +6233,7 @@ addr
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -6243,7 +6243,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovdquWithPatch
 (
 FloatRegister
@@ -6274,7 +6274,7 @@ addr
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -6284,7 +6284,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 vmovupsWithPatch
 (
 FloatRegister
@@ -6315,7 +6315,7 @@ addr
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -6332,7 +6332,7 @@ Register
 dest
 )
 {
-CodeOffsetLabel
+CodeOffset
 label
 =
 movlWithPatch

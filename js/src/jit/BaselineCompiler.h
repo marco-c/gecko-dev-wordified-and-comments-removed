@@ -1127,13 +1127,13 @@ return_
 NonAssertingLabel
 postBarrierSlot_
 ;
-CodeOffsetLabel
+CodeOffset
 prologueOffset_
 ;
-CodeOffsetLabel
+CodeOffset
 epilogueOffset_
 ;
-CodeOffsetLabel
+CodeOffset
 postDebugPrologueOffset_
 ;
 Vector

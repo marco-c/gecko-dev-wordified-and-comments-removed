@@ -3664,7 +3664,7 @@ PostIndex
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 toggledJump
 (
 Label
@@ -3672,7 +3672,7 @@ Label
 label
 )
 ;
-CodeOffsetLabel
+CodeOffset
 toggledCall
 (
 JitCode
@@ -3682,7 +3682,7 @@ bool
 enabled
 )
 ;
-CodeOffsetLabel
+CodeOffset
 pushWithPatch
 (
 ImmWord
@@ -3697,7 +3697,7 @@ asMasm
 )
 )
 ;
-CodeOffsetLabel
+CodeOffset
 label
 =
 movWithPatch
@@ -3715,7 +3715,7 @@ return
 label
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movWithPatch
 (
 ImmWord
@@ -3724,10 +3724,10 @@ Register
 dest
 )
 {
-CodeOffsetLabel
+CodeOffset
 label
 =
-CodeOffsetLabel
+CodeOffset
 (
 currentOffset
 (
@@ -3757,7 +3757,7 @@ return
 label
 ;
 }
-CodeOffsetLabel
+CodeOffset
 movWithPatch
 (
 ImmPtr
@@ -12263,13 +12263,13 @@ fakeReturnAddr
 ;
 public
 :
-CodeOffsetLabel
+CodeOffset
 labelForPatch
 (
 )
 {
 return
-CodeOffsetLabel
+CodeOffset
 (
 nextOffset
 (
