@@ -366,12 +366,6 @@ IPCCdmaWaitingCallData
 aData
 )
 ;
-NotifyConferenceCallStateChanged
-(
-uint16_t
-aCallState
-)
-;
 NotifyConferenceError
 (
 nsString
