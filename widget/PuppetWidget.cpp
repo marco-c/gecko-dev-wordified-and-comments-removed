@@ -3957,6 +3957,13 @@ nsCursor
 aCursor
 )
 {
+#
+if
+!
+defined
+(
+XP_WIN
+)
 if
 (
 mCursor
@@ -3977,6 +3984,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 mCustomCursor
 =
 nullptr
@@ -4042,6 +4051,13 @@ return
 NS_OK
 ;
 }
+#
+if
+!
+defined
+(
+XP_WIN
+)
 if
 (
 mCustomCursor
@@ -4070,6 +4086,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 RefPtr
 <
 mozilla
