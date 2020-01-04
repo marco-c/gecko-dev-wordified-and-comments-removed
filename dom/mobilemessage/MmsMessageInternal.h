@@ -77,6 +77,9 @@ Blob
 struct
 MmsAttachment
 ;
+class
+MmsMessage
+;
 namespace
 mobilemessage
 {
@@ -90,6 +93,16 @@ final
 public
 nsIMmsMessage
 {
+friend
+class
+mozilla
+:
+:
+dom
+:
+:
+MmsMessage
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

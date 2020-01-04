@@ -46,6 +46,9 @@ mozilla
 namespace
 dom
 {
+class
+MobileMessageThread
+;
 namespace
 mobilemessage
 {
@@ -59,6 +62,16 @@ final
 public
 nsIMobileMessageThread
 {
+friend
+class
+mozilla
+:
+:
+dom
+:
+:
+MobileMessageThread
+;
 public
 :
 NS_DECL_ISUPPORTS
