@@ -474,15 +474,6 @@ DIRS
 editline
 '
 ]
-#
-editline
-needs
-to
-get
-built
-before
-the
-shell
 if
 not
 CONFIG
