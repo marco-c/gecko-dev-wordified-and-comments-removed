@@ -141,15 +141,12 @@ IntSize
 &
 aIntrinsicSize
 const
-Maybe
-<
 gfx
 :
 :
 IntSize
->
 &
-aTargetSize
+aOutputSize
 DecoderFlags
 aDecoderFlags
 SurfaceFlags
@@ -275,7 +272,7 @@ gfx
 IntSize
 >
 &
-aTargetSize
+aOutputSize
 SurfaceFlags
 aSurfaceFlags
 )
