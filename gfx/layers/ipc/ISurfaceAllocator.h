@@ -272,15 +272,6 @@ Finalize
 )
 ;
 virtual
-LayersBackend
-GetCompositorBackendType
-(
-)
-const
-=
-0
-;
-virtual
 bool
 AllocShmem
 (

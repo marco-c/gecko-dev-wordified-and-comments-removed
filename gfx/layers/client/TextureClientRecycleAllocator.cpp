@@ -93,7 +93,7 @@ TextureClientRecycleAllocator
 :
 TextureClientRecycleAllocator
 (
-ISurfaceAllocator
+CompositableForwarder
 *
 aAllocator
 )

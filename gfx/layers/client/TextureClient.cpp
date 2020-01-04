@@ -1566,7 +1566,7 @@ TextureClient
 :
 CreateForDrawing
 (
-ISurfaceAllocator
+CompositableForwarder
 *
 aAllocator
 gfx

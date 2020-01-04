@@ -305,14 +305,6 @@ aShmem
 ;
 }
 virtual
-LayersBackend
-GetCompositorBackendType
-(
-)
-const
-override
-;
-virtual
 bool
 IsSameProcess
 (
