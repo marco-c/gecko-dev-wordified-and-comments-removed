@@ -176,7 +176,7 @@ ImageContainer
 >
 mImageContainer
 ;
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >

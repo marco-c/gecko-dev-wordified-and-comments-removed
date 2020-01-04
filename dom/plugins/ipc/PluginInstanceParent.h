@@ -1459,13 +1459,13 @@ mShHeight
 CGColorSpaceRef
 mShColorSpace
 ;
-nsRefPtr
+RefPtr
 <
 MacIOSurface
 >
 mIOSurface
 ;
-nsRefPtr
+RefPtr
 <
 MacIOSurface
 >

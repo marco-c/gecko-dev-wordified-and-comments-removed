@@ -43,7 +43,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -320,7 +320,7 @@ GetEffectFilter
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 CompositableHost
 >

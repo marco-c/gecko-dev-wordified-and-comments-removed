@@ -34,7 +34,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -93,7 +93,7 @@ aSample
 HRESULT
 Extract
 (
-nsRefPtr
+RefPtr
 <
 IMediaSample
 >
@@ -126,7 +126,7 @@ private
 ReentrantMonitor
 mMonitor
 ;
-nsRefPtr
+RefPtr
 <
 IMediaSample
 >

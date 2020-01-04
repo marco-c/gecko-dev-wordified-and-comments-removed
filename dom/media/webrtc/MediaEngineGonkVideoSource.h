@@ -500,7 +500,7 @@ mBackCamera
 bool
 mOrientationChanged
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :

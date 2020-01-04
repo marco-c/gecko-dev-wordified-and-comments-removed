@@ -356,7 +356,7 @@ omxFormat
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 GrallocTextureClientOGL
 >

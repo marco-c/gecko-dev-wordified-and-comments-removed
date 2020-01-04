@@ -262,7 +262,10 @@ offset
 )
 ;
 }
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 Mappable
 >

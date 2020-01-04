@@ -9853,7 +9853,7 @@ support
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

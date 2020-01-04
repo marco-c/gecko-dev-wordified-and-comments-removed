@@ -182,7 +182,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -2838,7 +2838,7 @@ sFrameCount
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -2880,7 +2880,7 @@ LayersEffectContrast
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -2996,7 +2996,7 @@ LayerManagerComposite
 :
 PopGroupForLayerEffects
 (
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -3903,7 +3903,7 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >

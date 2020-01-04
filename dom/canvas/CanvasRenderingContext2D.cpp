@@ -1823,7 +1823,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1971,7 +1971,7 @@ mCtx
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1984,7 +1984,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2002,7 +2002,7 @@ Style
 FILL
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2103,13 +2103,13 @@ mTarget
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
 mTarget
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2345,7 +2345,7 @@ mCtx
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2424,13 +2424,13 @@ TopLeft
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
 mTarget
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -3028,7 +3028,7 @@ GetBounds
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -5512,7 +5512,7 @@ height
 }
 #
 endif
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -7507,7 +7507,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -7529,7 +7529,7 @@ snapshot
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -9543,7 +9543,7 @@ if
 srcCanvas
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -9680,7 +9680,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -12466,7 +12466,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -12730,7 +12730,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -13327,7 +13327,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -14442,7 +14442,7 @@ if
 mDSPathBuilder
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -15665,7 +15665,7 @@ ErrorResult
 error
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -15913,7 +15913,7 @@ options
 .
 mControl
 ;
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -16674,7 +16674,7 @@ GetCharacterGlyphs
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ScaledFont
 >
@@ -16856,7 +16856,7 @@ mat
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 GlyphRenderingOptions
 >
@@ -17534,7 +17534,7 @@ i
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -19817,7 +19817,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -20013,7 +20013,7 @@ EnsureTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -20151,7 +20151,7 @@ roundedOutSourceRectInt
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -20168,7 +20168,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -20196,7 +20196,7 @@ if
 subrectDT
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -20684,7 +20684,7 @@ dh
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -23472,7 +23472,7 @@ gfxContext
 >
 thebes
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -23648,7 +23648,7 @@ if
 drawDT
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -23661,7 +23661,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -23710,7 +23710,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -24359,7 +24359,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -25103,7 +25103,7 @@ Intersect
 destRect
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -25125,7 +25125,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -25687,7 +25687,7 @@ sErrorTarget
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -26715,7 +26715,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -27929,7 +27929,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -28011,7 +28011,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -29002,7 +29002,7 @@ SVGMatrix
 aMatrix
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -29097,7 +29097,7 @@ IsIdentity
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -29225,7 +29225,7 @@ fillRule
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -29271,7 +29271,7 @@ if
 mPath
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -29314,7 +29314,7 @@ GetBackendType
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -29360,7 +29360,7 @@ GetFillRule
 fillRule
 )
 {
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -29384,7 +29384,7 @@ Finish
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :

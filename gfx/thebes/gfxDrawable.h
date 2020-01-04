@@ -329,7 +329,10 @@ gfxMatrix
 )
 )
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :

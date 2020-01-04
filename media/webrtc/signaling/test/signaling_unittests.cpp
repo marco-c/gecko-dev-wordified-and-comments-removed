@@ -6354,7 +6354,7 @@ id
 <
 streamId
 ;
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -6725,7 +6725,7 @@ id
 <
 streamId
 ;
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -8616,7 +8616,10 @@ StopStream
 ;
 }
 }
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :
@@ -26531,7 +26534,10 @@ CheckStreams
 (
 )
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :
@@ -26795,7 +26801,10 @@ CheckStreams
 (
 )
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :

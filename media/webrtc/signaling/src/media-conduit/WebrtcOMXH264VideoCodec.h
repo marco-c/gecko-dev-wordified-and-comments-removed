@@ -235,7 +235,7 @@ EncodedImageCallback
 *
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 OMXOutputDrain
 >
@@ -397,7 +397,7 @@ DecodedImageCallback
 *
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 WebrtcOMXDecoder
 >

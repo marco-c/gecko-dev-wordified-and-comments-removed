@@ -382,7 +382,7 @@ originalIF
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :

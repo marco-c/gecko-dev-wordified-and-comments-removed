@@ -36,7 +36,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -332,7 +332,7 @@ LINEAR
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 ContentHost
 >

@@ -55,7 +55,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -161,7 +161,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1156,7 +1156,7 @@ Rect
 aBounds
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -1167,7 +1167,7 @@ PushGroupForLayerEffects
 void
 PopGroupForLayerEffects
 (
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -1197,7 +1197,7 @@ mWarnTime
 bool
 mUnusedApzTransformWarning
 ;
-nsRefPtr
+RefPtr
 <
 Compositor
 >
@@ -1215,7 +1215,7 @@ ImageCompositeNotification
 >
 mImageCompositeNotifications
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1248,13 +1248,13 @@ mIsCompositorReady
 bool
 mDebugOverlayWantsNextFrame
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
 mTwoPassTmpTarget
 ;
-nsRefPtr
+RefPtr
 <
 TextRenderer
 >
@@ -1634,7 +1634,7 @@ LayerManagerComposite
 *
 mCompositeManager
 ;
-nsRefPtr
+RefPtr
 <
 Compositor
 >
@@ -1923,7 +1923,7 @@ IsEmpty
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -1936,7 +1936,7 @@ GetCurrentRenderTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -2020,7 +2020,7 @@ TopLeft
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -2058,7 +2058,7 @@ GetAncestorMaskLayerAt
 i
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >

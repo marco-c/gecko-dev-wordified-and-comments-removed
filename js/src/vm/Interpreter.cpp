@@ -2076,7 +2076,10 @@ endif
 cpuid_t
 cpuStart_
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 js
 :
@@ -2085,7 +2088,10 @@ PerformanceGroup
 >
 sharedGroup_
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 js
 :
@@ -2094,7 +2100,10 @@ PerformanceGroup
 >
 topGroup_
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 js
 :

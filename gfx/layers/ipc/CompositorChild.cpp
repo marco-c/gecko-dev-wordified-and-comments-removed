@@ -374,7 +374,7 @@ i
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 LayerTransactionChild
 >

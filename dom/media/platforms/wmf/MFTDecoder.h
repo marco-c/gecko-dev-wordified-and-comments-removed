@@ -20,7 +20,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -117,7 +117,7 @@ GetAttributes
 HRESULT
 GetOutputMediaType
 (
-nsRefPtr
+RefPtr
 <
 IMFMediaType
 >
@@ -157,7 +157,7 @@ uint32_t
 aDataSize
 int64_t
 aTimestampUsecs
-nsRefPtr
+RefPtr
 <
 IMFSample
 >
@@ -168,7 +168,7 @@ aOutSample
 HRESULT
 Output
 (
-nsRefPtr
+RefPtr
 <
 IMFSample
 >
@@ -205,7 +205,7 @@ private
 HRESULT
 CreateOutputSample
 (
-nsRefPtr
+RefPtr
 <
 IMFSample
 >
@@ -219,13 +219,13 @@ mInputStreamInfo
 MFT_OUTPUT_STREAM_INFO
 mOutputStreamInfo
 ;
-nsRefPtr
+RefPtr
 <
 IMFTransform
 >
 mDecoder
 ;
-nsRefPtr
+RefPtr
 <
 IMFMediaType
 >

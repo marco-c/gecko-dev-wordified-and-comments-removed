@@ -148,7 +148,10 @@ double
 azimuthBlend
 )
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 HRTFDatabaseLoader
 >

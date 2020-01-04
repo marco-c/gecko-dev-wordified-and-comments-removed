@@ -2256,7 +2256,7 @@ CGImageRef
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2948,7 +2948,7 @@ CGFloat
 scaleFactor
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3035,7 +3035,7 @@ scaleFactor
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

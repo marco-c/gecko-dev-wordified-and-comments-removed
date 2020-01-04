@@ -45,7 +45,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -638,7 +638,7 @@ explicit
 WeakPtr
 (
 const
-nsRefPtr
+RefPtr
 <
 WeakReference
 >
@@ -652,7 +652,7 @@ aOther
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 WeakReference
 >

@@ -81,7 +81,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 HRTFDatabaseLoader
 >

@@ -2434,7 +2434,7 @@ COREGRAPHICS
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2549,7 +2549,7 @@ SetAllowUseAsSource
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

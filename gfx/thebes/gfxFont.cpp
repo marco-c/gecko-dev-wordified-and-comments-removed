@@ -8695,7 +8695,7 @@ AzureState
 aState
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -11066,7 +11066,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

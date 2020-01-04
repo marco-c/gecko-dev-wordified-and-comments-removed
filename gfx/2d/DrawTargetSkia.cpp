@@ -487,7 +487,7 @@ TempBitmap
 SkBitmap
 mBitmap
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -545,7 +545,7 @@ return
 result
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -722,7 +722,7 @@ Snapshot
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurfaceSkia
 >
@@ -2058,7 +2058,7 @@ DrawOptions
 aOptions
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3887,7 +3887,7 @@ aFormat
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 SourceSurfaceSkia
 >
@@ -3969,7 +3969,7 @@ aFormat
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 DrawTargetSkia
 >
@@ -4061,7 +4061,7 @@ SurfaceType
 SKIA
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -4095,7 +4095,7 @@ GetDataSurface
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -4135,7 +4135,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -4304,7 +4304,7 @@ UsingSkiaGPU
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurfaceSkia
 >

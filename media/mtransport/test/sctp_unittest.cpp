@@ -1127,7 +1127,10 @@ data
 size_t
 len
 const
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 TransportFlow
 >
@@ -1601,7 +1604,10 @@ sent_
 size_t
 received_
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 TransportFlow
 >

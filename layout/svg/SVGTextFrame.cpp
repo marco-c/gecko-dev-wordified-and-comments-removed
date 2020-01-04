@@ -8584,7 +8584,7 @@ IsClipPathChild
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -8887,7 +8887,7 @@ GetPattern
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -8946,7 +8946,7 @@ GetFillRule
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -9141,7 +9141,7 @@ outerSVGToUser
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -17641,7 +17641,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -17687,7 +17687,7 @@ IsIdentity
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -17832,7 +17832,7 @@ IsPercentage
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -17945,7 +17945,7 @@ AdvancePastCurrentFrame
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 Path
 >

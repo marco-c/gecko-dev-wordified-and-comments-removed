@@ -157,7 +157,10 @@ bool
 aInputsAreTainted
 nsTArray
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 SourceSurface
 >

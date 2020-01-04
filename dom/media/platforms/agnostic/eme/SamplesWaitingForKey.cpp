@@ -235,7 +235,7 @@ mCrypto
 mKeyId
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >

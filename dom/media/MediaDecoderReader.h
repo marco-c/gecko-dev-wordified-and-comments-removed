@@ -635,7 +635,7 @@ bool
 aThrottleUpdates
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >

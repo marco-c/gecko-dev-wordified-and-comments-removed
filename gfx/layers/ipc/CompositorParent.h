@@ -77,7 +77,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1611,7 +1611,7 @@ Compositor
 >
 mCompositor
 ;
-nsRefPtr
+RefPtr
 <
 AsyncCompositionManager
 >

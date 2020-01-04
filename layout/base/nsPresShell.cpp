@@ -21501,7 +21501,7 @@ pixelArea
 .
 height
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

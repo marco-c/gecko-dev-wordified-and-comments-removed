@@ -259,7 +259,7 @@ imgIRequest
 >
 mRequest
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -548,7 +548,7 @@ imgIRequest
 >
 mRequest
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

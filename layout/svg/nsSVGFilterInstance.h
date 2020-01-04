@@ -166,7 +166,10 @@ FilterPrimitiveDescription
 aPrimitiveDescrs
 nsTArray
 <
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 SourceSurface
 >

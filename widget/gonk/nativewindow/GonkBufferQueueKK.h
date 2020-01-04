@@ -640,7 +640,10 @@ GraphicBuffer
 >
 mGraphicBuffer
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 TextureClient
 >

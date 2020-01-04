@@ -2473,7 +2473,7 @@ mSize
 =
 size
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2745,7 +2745,7 @@ mSize
 =
 size
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

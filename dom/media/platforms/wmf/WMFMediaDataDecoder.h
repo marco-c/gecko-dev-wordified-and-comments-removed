@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -163,7 +163,7 @@ GetType
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 MFTDecoder
 >
@@ -275,7 +275,7 @@ ProcessShutdown
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >

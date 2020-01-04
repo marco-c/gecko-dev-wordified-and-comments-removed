@@ -38,7 +38,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -341,7 +341,7 @@ string
 &
 trackId
 const
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -430,7 +430,7 @@ std
 :
 :
 string
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -445,7 +445,7 @@ return
 mPipelines
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -562,7 +562,7 @@ std
 :
 :
 string
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -617,7 +617,7 @@ aId
 nsresult
 TakePipelineFrom
 (
-nsRefPtr
+RefPtr
 <
 LocalSourceStreamInfo
 >
@@ -731,7 +731,7 @@ false
 void
 SyncPipeline
 (
-nsRefPtr
+RefPtr
 <
 MediaPipelineReceive
 >
@@ -1013,7 +1013,7 @@ SelfDestruct
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 NrIceCtx
 >
@@ -1026,7 +1026,7 @@ return
 mIceCtx
 ;
 }
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -1409,7 +1409,7 @@ aRtcp
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -1464,7 +1464,7 @@ aIndex
 bool
 aRtcp
 const
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -1485,7 +1485,7 @@ void
 ConnectDtlsListener_s
 (
 const
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -1521,7 +1521,7 @@ bool
 aPrivacyRequested
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioSessionConduit
 >
@@ -1587,7 +1587,7 @@ nullptr
 ;
 }
 return
-nsRefPtr
+RefPtr
 <
 AudioSessionConduit
 >
@@ -1612,7 +1612,7 @@ get
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 VideoSessionConduit
 >
@@ -1679,7 +1679,7 @@ nullptr
 ;
 }
 return
-nsRefPtr
+RefPtr
 <
 VideoSessionConduit
 >
@@ -1710,7 +1710,7 @@ AddAudioConduit
 size_t
 level
 const
-nsRefPtr
+RefPtr
 <
 AudioSessionConduit
 >
@@ -1739,7 +1739,7 @@ AddVideoConduit
 size_t
 level
 const
-nsRefPtr
+RefPtr
 <
 VideoSessionConduit
 >
@@ -1887,7 +1887,7 @@ nsIProxyInfo
 proxyinfo
 )
 ;
-nsRefPtr
+RefPtr
 <
 PeerConnectionMedia
 >
@@ -2227,7 +2227,7 @@ std
 pair
 <
 bool
-nsRefPtr
+RefPtr
 <
 MediaSessionConduit
 >
@@ -2235,7 +2235,7 @@ MediaSessionConduit
 >
 mConduits
 ;
-nsRefPtr
+RefPtr
 <
 NrIceCtx
 >
@@ -2253,7 +2253,7 @@ std
 map
 <
 int
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >

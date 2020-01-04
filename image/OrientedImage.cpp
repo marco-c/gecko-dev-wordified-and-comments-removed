@@ -409,7 +409,7 @@ SurfaceFormat
 B8G8R8A8
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -450,7 +450,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

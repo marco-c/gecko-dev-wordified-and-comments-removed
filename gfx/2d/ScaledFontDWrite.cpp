@@ -1089,7 +1089,7 @@ mSize
 =
 aSize
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteFontFile
 >
@@ -1116,7 +1116,7 @@ DWriteFontFileLoader
 Instance
 (
 )
-getter_AddRefs
+byRef
 (
 fontFile
 )
@@ -1164,7 +1164,7 @@ DWRITE_FONT_FACE_TYPE_TRUETYPE
 ff
 aIndex
 DWRITE_FONT_SIMULATIONS_NONE
-getter_AddRefs
+byRef
 (
 mFontFace
 )
@@ -1252,7 +1252,7 @@ aTarget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -1618,7 +1618,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDWriteFontFile
 >
@@ -1631,7 +1631,7 @@ GetFiles
 (
 &
 fileCount
-getter_AddRefs
+byRef
 (
 file
 )
@@ -1656,7 +1656,7 @@ referenceKey
 refKeySize
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteFontFileLoader
 >
@@ -1667,13 +1667,13 @@ file
 >
 GetLoader
 (
-getter_AddRefs
+byRef
 (
 loader
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteFontFileStream
 >
@@ -1686,7 +1686,7 @@ CreateStreamFromKey
 (
 referenceKey
 refKeySize
-getter_AddRefs
+byRef
 (
 stream
 )

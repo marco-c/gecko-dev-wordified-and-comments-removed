@@ -175,7 +175,7 @@ FinalizeOnIPDLThread
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 MacIOSurface
 >

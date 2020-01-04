@@ -1692,7 +1692,7 @@ aScreenY
 nsIntRect
 *
 aScreenDragRect
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2506,7 +2506,7 @@ aScreenY
 nsIntRect
 *
 aScreenDragRect
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2704,7 +2704,7 @@ if
 aImageLoader
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

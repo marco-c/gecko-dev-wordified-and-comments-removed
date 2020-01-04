@@ -3474,7 +3474,7 @@ unreadable
 0
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :

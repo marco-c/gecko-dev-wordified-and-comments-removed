@@ -799,7 +799,7 @@ return
 hr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1ResourceTexture
 >
@@ -1627,7 +1627,7 @@ ID2D1GradientStopCollection
 *
 *
 )
-getter_AddRefs
+byRef
 (
 mStopCollection
 )
@@ -2055,7 +2055,7 @@ a
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1ResourceTexture
 >
@@ -2164,7 +2164,7 @@ stride
 4096
 *
 4
-getter_AddRefs
+byRef
 (
 tex
 )

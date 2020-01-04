@@ -195,7 +195,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1773,7 +1773,7 @@ mSize
 height
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1851,7 +1851,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1971,7 +1971,7 @@ OP_SOURCE
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2123,7 +2123,7 @@ forget
 Pair
 <
 DrawResult
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2167,7 +2167,7 @@ DrawResult
 :
 :
 BAD_ARGS
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2190,7 +2190,7 @@ DrawResult
 :
 :
 BAD_ARGS
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2211,7 +2211,7 @@ DrawResult
 :
 :
 BAD_IMAGE
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2246,7 +2246,7 @@ DrawResult
 :
 :
 TEMPORARY_ERROR
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2255,7 +2255,7 @@ SourceSurface
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2385,7 +2385,7 @@ aContainer
 DrawResult
 drawResult
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

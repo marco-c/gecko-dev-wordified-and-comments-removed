@@ -1162,7 +1162,7 @@ VideoInfo
 &
 mConfig
 ;
-nsRefPtr
+RefPtr
 <
 AndroidSurfaceTexture
 >

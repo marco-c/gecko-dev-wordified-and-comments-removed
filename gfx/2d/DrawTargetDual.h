@@ -796,13 +796,13 @@ true
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
 mA
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

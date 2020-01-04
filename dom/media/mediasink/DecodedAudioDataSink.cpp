@@ -1187,7 +1187,7 @@ InitializeAudioStream
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioStream
 >

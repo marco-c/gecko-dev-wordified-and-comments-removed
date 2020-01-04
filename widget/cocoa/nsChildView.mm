@@ -1804,7 +1804,7 @@ nsIntRegion
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1913,7 +1913,7 @@ aSize
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -12882,7 +12882,7 @@ drawTarget
 updateRegion
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -12920,7 +12920,7 @@ mDevPixelCornerRadius
 M_PI
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -14855,7 +14855,7 @@ gl
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -16381,7 +16381,7 @@ mInUpdate
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -16503,7 +16503,7 @@ mTextureSize
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -16519,7 +16519,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -16623,7 +16623,7 @@ size
 height
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -16670,7 +16670,7 @@ GetUpdateRegion
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -20841,7 +20841,7 @@ gfxQuartzSurface
 >
 targetSurface
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

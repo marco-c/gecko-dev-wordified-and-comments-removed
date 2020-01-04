@@ -27985,7 +27985,7 @@ GetSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -30915,7 +30915,7 @@ nsWindow
 :
 CaptureWidgetOnScreen
 (
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -31053,7 +31053,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -31091,7 +31091,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

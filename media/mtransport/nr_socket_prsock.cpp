@@ -4709,7 +4709,7 @@ data_length
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nr_udp_message
 >
@@ -5444,7 +5444,7 @@ std
 :
 queue
 <
-nsRefPtr
+RefPtr
 <
 nr_udp_message
 >
@@ -5535,7 +5535,7 @@ R_WOULDBLOCK
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 nr_udp_message
 >
@@ -6258,7 +6258,7 @@ NrUdpSocketIpc
 :
 recv_callback_s
 (
-nsRefPtr
+RefPtr
 <
 nr_udp_message
 >
@@ -7164,7 +7164,7 @@ std
 :
 queue
 <
-nsRefPtr
+RefPtr
 <
 nr_tcp_message
 >
@@ -8428,7 +8428,7 @@ nr_socket
 sockp
 )
 {
-nsRefPtr
+RefPtr
 <
 NrSocketBase
 >

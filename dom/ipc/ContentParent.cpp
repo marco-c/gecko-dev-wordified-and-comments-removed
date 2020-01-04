@@ -12534,7 +12534,10 @@ get_nsCString
 (
 )
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 gfx
 :

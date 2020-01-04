@@ -2032,7 +2032,7 @@ n
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2078,7 +2078,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

@@ -322,7 +322,7 @@ false
 nsIntRect
 dragRect
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -389,7 +389,7 @@ crColorKey
 =
 CLR_NONE
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -447,7 +447,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

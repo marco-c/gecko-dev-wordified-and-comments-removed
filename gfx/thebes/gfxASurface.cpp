@@ -1473,7 +1473,7 @@ gfxImageFormat
 ARGB32
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1501,7 +1501,7 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

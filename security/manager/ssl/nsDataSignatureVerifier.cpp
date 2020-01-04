@@ -1033,7 +1033,7 @@ signingCert
 =
 xpcomCert
 ;
-nsRefPtr
+RefPtr
 <
 SharedCertVerifier
 >

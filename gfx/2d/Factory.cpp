@@ -1306,7 +1306,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1327,7 +1327,7 @@ BackendType
 DIRECT2D
 :
 {
-nsRefPtr
+RefPtr
 <
 DrawTargetD2D
 >
@@ -1367,7 +1367,7 @@ BackendType
 DIRECT2D1_1
 :
 {
-nsRefPtr
+RefPtr
 <
 DrawTargetD2D1
 >
@@ -1417,7 +1417,7 @@ BackendType
 COREGRAPHICS_ACCELERATED
 :
 {
-nsRefPtr
+RefPtr
 <
 DrawTargetCG
 >
@@ -1463,7 +1463,7 @@ BackendType
 SKIA
 :
 {
-nsRefPtr
+RefPtr
 <
 DrawTargetSkia
 >
@@ -1508,7 +1508,7 @@ BackendType
 CAIRO
 :
 {
-nsRefPtr
+RefPtr
 <
 DrawTargetCairo
 >
@@ -1725,7 +1725,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1746,7 +1746,7 @@ BackendType
 SKIA
 :
 {
-nsRefPtr
+RefPtr
 <
 DrawTargetSkia
 >
@@ -1789,7 +1789,7 @@ BackendType
 COREGRAPHICS
 :
 {
-nsRefPtr
+RefPtr
 <
 DrawTargetCG
 >
@@ -1836,7 +1836,7 @@ BackendType
 CAIRO
 :
 {
-nsRefPtr
+RefPtr
 <
 DrawTargetCairo
 >
@@ -1999,7 +1999,7 @@ TileSet
 aTileSet
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTargetTiled
 >
@@ -2500,7 +2500,7 @@ aScaledFont
 #
 ifdef
 USE_CAIRO
-nsRefPtr
+RefPtr
 <
 ScaledFont
 >
@@ -2571,7 +2571,7 @@ targetA
 targetB
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2584,7 +2584,7 @@ targetA
 targetB
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2639,7 +2639,7 @@ MOZ_ASSERT
 aTexture
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTargetD2D
 >
@@ -2664,7 +2664,7 @@ aFormat
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2744,13 +2744,13 @@ aTextureA
 aTextureB
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTargetD2D
 >
 newTargetA
 ;
-nsRefPtr
+RefPtr
 <
 DrawTargetD2D
 >
@@ -2840,7 +2840,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2853,7 +2853,7 @@ newTargetA
 newTargetB
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2977,7 +2977,7 @@ MOZ_ASSERT
 aTexture
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTargetD2D1
 >
@@ -3002,7 +3002,7 @@ aFormat
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -3096,7 +3096,7 @@ aDevice
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Factory1
 >
@@ -3106,7 +3106,7 @@ D2DFactory1
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDXGIDevice
 >
@@ -3122,7 +3122,7 @@ IDXGIDevice
 *
 *
 )
-getter_AddRefs
+byRef
 (
 device
 )
@@ -3340,7 +3340,7 @@ SurfaceFormat
 aFormat
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -3408,7 +3408,7 @@ AntialiasMode
 aAntialiasMode
 )
 {
-nsRefPtr
+RefPtr
 <
 GlyphRenderingOptionsCairo
 >
@@ -3474,7 +3474,7 @@ SurfaceFormat
 aFormat
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -3483,7 +3483,7 @@ retVal
 #
 ifdef
 USE_CAIRO
-nsRefPtr
+RefPtr
 <
 DrawTargetCairo
 >
@@ -3562,13 +3562,13 @@ IntSize
 aSize
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
 retVal
 ;
-nsRefPtr
+RefPtr
 <
 DrawTargetCG
 >
@@ -3699,7 +3699,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurfaceRawData
 >
@@ -3793,7 +3793,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurfaceAlignedRawData
 >
@@ -3914,7 +3914,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurfaceAlignedRawData
 >

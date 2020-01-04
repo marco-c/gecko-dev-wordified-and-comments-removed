@@ -1386,7 +1386,7 @@ CreateContextFlags
 flags
 )
 {
-nsRefPtr
+RefPtr
 <
 GLContext
 >

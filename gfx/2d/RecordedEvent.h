@@ -98,7 +98,7 @@ MOZ_IMPLICIT
 ReferencePtr
 (
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -153,7 +153,7 @@ operator
 =
 (
 const
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -1094,7 +1094,7 @@ mFormat
 bool
 mHasExistingData
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

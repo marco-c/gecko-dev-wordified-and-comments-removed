@@ -6437,7 +6437,10 @@ gfxCharacterMap
 >
 mUnicodeRangeMap
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :
@@ -6591,7 +6594,10 @@ DEFAULT_XHEIGHT_FACTOR
 struct
 TextRunDrawParams
 {
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :
@@ -6654,7 +6660,10 @@ paintSVGGlyphs
 struct
 FontDrawParams
 {
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :
@@ -6666,7 +6675,10 @@ ScaledFont
 >
 scaledFont
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 mozilla
 :

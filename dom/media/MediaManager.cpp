@@ -12842,7 +12842,7 @@ nsRunnable
 >
 mReply
 ;
-nsRefPtr
+RefPtr
 <
 MediaEngine
 >
@@ -12859,7 +12859,7 @@ that
 sSingleton
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaEngine
 >

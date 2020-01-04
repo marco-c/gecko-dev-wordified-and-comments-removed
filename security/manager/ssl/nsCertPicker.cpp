@@ -286,7 +286,7 @@ cert
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNSSCertificate
 >
@@ -505,7 +505,7 @@ node
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNSSCertificate
 >

@@ -1734,7 +1734,7 @@ returnFlags
 BUFFER_NEEDS_REALLOCATION
 )
 {
-nsRefPtr
+RefPtr
 <
 GrallocTextureClientOGL
 >

@@ -2852,7 +2852,7 @@ y
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -2964,7 +2964,7 @@ aBorderRadii
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -3004,7 +3004,7 @@ innerRadii
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -6385,13 +6385,13 @@ aCornerMultNext
 *
 aInnerRadius
 ;
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
 builder
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -6944,13 +6944,13 @@ aCornerMultNext
 *
 aCornerDims
 ;
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
 builder
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -8744,7 +8744,7 @@ NS_SIDE_RIGHT
 ]
 )
 ;
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -8780,7 +8780,7 @@ corners
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -9549,7 +9549,7 @@ side
 style
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >

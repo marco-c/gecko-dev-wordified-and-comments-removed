@@ -156,13 +156,13 @@ GetByteSize
 )
 const
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
 mBitmap
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Device
 >
@@ -261,7 +261,7 @@ EnsureMappedTexture
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >

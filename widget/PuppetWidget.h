@@ -20,7 +20,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1249,7 +1249,10 @@ MemoryPressureObserver
 >
 mMemoryPressureObserver
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 DrawTarget
 >

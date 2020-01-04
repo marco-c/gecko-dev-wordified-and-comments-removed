@@ -248,7 +248,7 @@ aAllocFlags
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -1069,7 +1069,7 @@ mMappedBuffer
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1985,7 +1985,7 @@ Cast
 abstractSurf
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >

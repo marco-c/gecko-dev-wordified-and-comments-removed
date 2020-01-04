@@ -744,7 +744,7 @@ BeginUpdate
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -760,7 +760,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2045,7 +2045,7 @@ xPos
 yPos
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2229,7 +2229,7 @@ GetTextureFormat
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2245,7 +2245,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

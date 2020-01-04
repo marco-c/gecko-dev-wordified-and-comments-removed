@@ -1659,7 +1659,7 @@ if
 alloc
 )
 {
-nsRefPtr
+RefPtr
 <
 GrallocTextureClientOGL
 >
@@ -2170,7 +2170,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -2633,7 +2633,7 @@ RecycleCallback
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >

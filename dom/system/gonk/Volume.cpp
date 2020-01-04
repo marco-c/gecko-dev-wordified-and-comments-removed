@@ -2200,7 +2200,7 @@ volIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 Volume
 >
@@ -2340,7 +2340,7 @@ XRE_GetIOMessageLoop
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Volume
 >

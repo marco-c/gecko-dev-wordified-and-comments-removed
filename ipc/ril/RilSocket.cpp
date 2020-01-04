@@ -41,7 +41,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -218,7 +218,7 @@ WorkerCrossThreadDispatcher
 >
 mDispatcher
 ;
-nsRefPtr
+RefPtr
 <
 RilSocket
 >

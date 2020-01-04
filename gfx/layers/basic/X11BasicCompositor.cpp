@@ -511,7 +511,7 @@ DrawTarget
 aTarget
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -575,7 +575,7 @@ TextureFlags
 aFlags
 )
 {
-nsRefPtr
+RefPtr
 <
 DataTextureSource
 >

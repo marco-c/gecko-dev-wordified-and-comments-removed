@@ -10363,7 +10363,7 @@ queue
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DecoderDisposer
 >

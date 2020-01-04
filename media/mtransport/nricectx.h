@@ -33,7 +33,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -725,7 +725,7 @@ ICE_POLICY_ALL
 }
 ;
 static
-nsRefPtr
+RefPtr
 <
 NrIceCtx
 >
@@ -793,7 +793,7 @@ destroy_peer_ctx
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -820,7 +820,7 @@ NrIceMediaStream
 stream
 )
 ;
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -1296,7 +1296,7 @@ nr_ice_candidate
 candidate
 )
 ;
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -1342,7 +1342,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >

@@ -972,7 +972,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
@@ -1928,7 +1928,7 @@ CompositableHost
 aCompositableHost
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
@@ -2053,7 +2053,7 @@ CompositableHost
 aCompositableHost
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureHost
 >

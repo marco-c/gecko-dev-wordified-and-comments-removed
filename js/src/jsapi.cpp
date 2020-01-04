@@ -1732,7 +1732,10 @@ cx
 compartment
 )
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 PerformanceGroup
 >
@@ -1901,7 +1904,10 @@ cx
 compartment
 )
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 PerformanceGroup
 >
@@ -1932,7 +1938,10 @@ ticks
 continue
 ;
 }
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 PerformanceGroup
 >

@@ -2914,7 +2914,7 @@ IntRect
 aRect
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2974,7 +2974,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -5726,7 +5726,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 Compositor
 >
@@ -5889,7 +5889,7 @@ SetCompositorID
 mCompositorID
 )
 ;
-nsRefPtr
+RefPtr
 <
 LayerManagerComposite
 >

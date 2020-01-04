@@ -550,7 +550,7 @@ GetConnectedPinSeeking
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 IPin
 >
@@ -568,7 +568,7 @@ peer
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 IMediaSeeking
 >
@@ -586,7 +586,7 @@ IMediaSeeking
 *
 >
 (
-getter_AddRefs
+byRef
 (
 seeking
 )

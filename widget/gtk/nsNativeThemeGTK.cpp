@@ -3895,7 +3895,7 @@ cr
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 SystemCairoClipper
 >
@@ -4038,7 +4038,7 @@ cr
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 SystemCairoClipper
 >
@@ -4123,7 +4123,7 @@ GetFormat
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

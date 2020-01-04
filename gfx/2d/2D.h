@@ -60,7 +60,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -593,7 +593,7 @@ mBegin
 Point
 mEnd
 ;
-nsRefPtr
+RefPtr
 <
 GradientStops
 >
@@ -692,7 +692,7 @@ mRadius1
 Float
 mRadius2
 ;
-nsRefPtr
+RefPtr
 <
 GradientStops
 >
@@ -780,7 +780,7 @@ PatternType
 SURFACE
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1143,7 +1143,7 @@ mIsMapped
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1591,7 +1591,7 @@ EnsureFlattenedPath
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 FlattenedPath
 >
@@ -2129,7 +2129,7 @@ IntPoint
 aDestination
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2886,7 +2886,7 @@ DrawEventRecorder
 struct
 Tile
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

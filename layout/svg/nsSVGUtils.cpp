@@ -3152,7 +3152,7 @@ PopGroupToSource
 Matrix
 maskTransform
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3211,7 +3211,7 @@ aTransform
 Matrix
 clippedMaskTransform
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

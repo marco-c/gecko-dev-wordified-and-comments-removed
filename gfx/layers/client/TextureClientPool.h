@@ -31,7 +31,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -251,7 +251,7 @@ std
 :
 stack
 <
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -263,7 +263,7 @@ std
 :
 stack
 <
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -276,7 +276,7 @@ nsITimer
 >
 mTimer
 ;
-nsRefPtr
+RefPtr
 <
 CompositableForwarder
 >

@@ -246,6 +246,12 @@ double
 scale
 ;
 end
+using
+mozilla
+:
+:
+RefPtr
+;
 CGColorSpaceRef
 CreateSystemColorSpace
 (
@@ -2636,7 +2642,10 @@ Destroy
 (
 )
 .
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 MacIOSurface
 >

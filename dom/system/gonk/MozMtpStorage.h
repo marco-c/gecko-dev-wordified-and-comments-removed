@@ -118,7 +118,7 @@ MtpStorage
 >
 mMtpStorage
 ;
-nsRefPtr
+RefPtr
 <
 Volume
 >

@@ -54,7 +54,7 @@ GetSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -67,7 +67,7 @@ GetDataSurface
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2099,7 +2099,7 @@ GetSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -3559,7 +3559,7 @@ GetSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -7520,7 +7520,7 @@ GetSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

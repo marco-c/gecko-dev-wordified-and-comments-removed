@@ -2369,7 +2369,7 @@ TileClient
 *
 const
 aContainer
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -2430,7 +2430,7 @@ aNewValue
 Set
 (
 aContainer
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -2840,7 +2840,7 @@ GetIPDLActor
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncTransactionWaiter
 >
@@ -2851,7 +2851,7 @@ AsyncTransactionWaiter
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncTransactionTracker
 >
@@ -2897,7 +2897,7 @@ mFrontBuffer
 }
 #
 endif
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -2905,7 +2905,7 @@ frontBuffer
 =
 mFrontBuffer
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -2933,7 +2933,7 @@ mBackBufferOnWhite
 =
 frontBufferOnWhite
 ;
-nsRefPtr
+RefPtr
 <
 gfxSharedReadLock
 >
@@ -3318,7 +3318,7 @@ GetIPDLActor
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncTransactionWaiter
 >
@@ -3329,7 +3329,7 @@ AsyncTransactionWaiter
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncTransactionTracker
 >
@@ -3624,7 +3624,7 @@ aMode
 nsIntRegion
 &
 aAddPaintedRegion
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -5141,7 +5141,7 @@ nullptr
 void
 PadDrawTargetOutFromRegion
 (
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -6385,7 +6385,7 @@ size
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -6412,7 +6412,7 @@ Matrix
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -6676,7 +6676,7 @@ y
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -6887,13 +6887,13 @@ mSinglePaintDrawTarget
 nsIntRegion
 extraPainted
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
 backBufferOnWhite
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -6974,7 +6974,7 @@ gfx
 Tile
 moz2DTile
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -6987,7 +6987,7 @@ BorrowDrawTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -7340,7 +7340,7 @@ TiledDrawTarget
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -7363,7 +7363,7 @@ Matrix
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -7375,7 +7375,7 @@ gfxContext
 drawTarget
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

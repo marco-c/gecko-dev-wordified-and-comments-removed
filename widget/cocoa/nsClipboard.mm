@@ -247,6 +247,12 @@ mozilla
 :
 LogLevel
 ;
+using
+mozilla
+:
+:
+RefPtr
+;
 /
 /
 Screenshots
@@ -2881,7 +2887,7 @@ transferable
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

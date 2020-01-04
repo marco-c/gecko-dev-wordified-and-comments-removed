@@ -322,7 +322,7 @@ mAttachedContext
 bool
 mCanDetach
 ;
-nsRefPtr
+RefPtr
 <
 AndroidNativeWindow
 >

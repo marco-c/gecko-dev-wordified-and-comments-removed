@@ -81,7 +81,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -288,7 +288,7 @@ mClosing
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 TextureClient
 >

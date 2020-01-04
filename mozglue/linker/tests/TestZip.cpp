@@ -22,7 +22,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -139,7 +139,10 @@ Zip
 Stream
 s
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 Zip
 >

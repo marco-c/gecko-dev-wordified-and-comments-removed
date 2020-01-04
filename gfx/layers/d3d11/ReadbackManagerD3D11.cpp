@@ -74,7 +74,7 @@ ID3D10Texture2D
 >
 mReadbackTexture
 ;
-nsRefPtr
+RefPtr
 <
 TextureReadbackSink
 >
@@ -176,7 +176,7 @@ NS_OK
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

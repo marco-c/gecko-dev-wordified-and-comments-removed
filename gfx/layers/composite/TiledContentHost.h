@@ -67,7 +67,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -519,7 +519,7 @@ mTextureHost
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxSharedReadLock
 >
@@ -653,7 +653,7 @@ mFrameResolution
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxSharedReadLock
 >

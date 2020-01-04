@@ -1838,7 +1838,7 @@ D2D1_RECT_F
 aRect
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1RectangleGeometry
 >
@@ -1884,7 +1884,7 @@ D2D1_MATRIX_3X2_F
 aTransform
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -1903,7 +1903,7 @@ tmpGeometry
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1GeometrySink
 >
@@ -1961,7 +1961,7 @@ ID2D1Geometry
 aGeometryB
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -1980,7 +1980,7 @@ pathGeom
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1GeometrySink
 >
@@ -2037,7 +2037,7 @@ StrokeOptions
 aStrokeOptions
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1StrokeStyle
 >
@@ -2378,7 +2378,7 @@ aSourceRect
 nullptr
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >

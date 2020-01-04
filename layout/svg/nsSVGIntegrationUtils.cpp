@@ -2288,7 +2288,7 @@ PopGroupToSource
 Matrix
 maskTransform
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2347,7 +2347,7 @@ cssPxToDevPxMatrix
 Matrix
 clippedMaskTransform
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

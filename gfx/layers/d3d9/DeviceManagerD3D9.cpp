@@ -4011,7 +4011,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DTexture9
 >
@@ -4038,7 +4038,7 @@ height
 0
 aFormat
 aPool
-getter_AddRefs
+byRef
 (
 result
 )

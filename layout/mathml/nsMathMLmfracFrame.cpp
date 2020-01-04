@@ -28,7 +28,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -2710,7 +2710,7 @@ mThickness
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -2835,7 +2835,7 @@ delta
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Path
 >

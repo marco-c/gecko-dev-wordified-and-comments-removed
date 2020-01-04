@@ -303,7 +303,7 @@ Finish
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -397,7 +397,7 @@ aFillRule
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -411,7 +411,7 @@ CopyToBuilder
 aFillRule
 )
 ;
-nsRefPtr
+RefPtr
 <
 PathBuilderRecording
 >
@@ -457,7 +457,7 @@ aFillRule
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -472,7 +472,7 @@ aTransform
 aFillRule
 )
 ;
-nsRefPtr
+RefPtr
 <
 PathBuilderRecording
 >
