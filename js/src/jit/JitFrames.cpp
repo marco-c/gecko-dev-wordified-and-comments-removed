@@ -8692,6 +8692,13 @@ it
 isIonStubMaybeUnwound
 (
 )
+|
+|
+it
+.
+isIonAccessorICMaybeUnwound
+(
+)
 )
 {
 +
