@@ -182,7 +182,7 @@ version
 .
 2
 .
-2
+3
 <
 /
 em
@@ -200,6 +200,18 @@ type
 em
 :
 type
+>
+<
+em
+:
+multiprocessCompatible
+>
+true
+<
+/
+em
+:
+multiprocessCompatible
 >
 <
 !
