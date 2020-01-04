@@ -525,6 +525,16 @@ mBounds
 ;
 }
 bool
+CoversBounds
+(
+)
+const
+{
+return
+mCoversBounds
+;
+}
+bool
 Intersects
 (
 const
