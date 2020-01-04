@@ -89,8 +89,6 @@ eTreeOpAddViewSourceHref
 eTreeOpAddViewSourceBase
 eTreeOpAddError
 eTreeOpAddLineNumberId
-eTreeOpAddErrorAtom
-eTreeOpAddErrorTwoAtoms
 eTreeOpStartLayout
 }
 ;
