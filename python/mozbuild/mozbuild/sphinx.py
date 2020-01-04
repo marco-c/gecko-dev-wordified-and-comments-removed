@@ -209,7 +209,6 @@ v
 st_type
 in_type
 doc
-tier
 )
 :
     

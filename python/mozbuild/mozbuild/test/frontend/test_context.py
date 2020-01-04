@@ -86,7 +86,6 @@ int
 int
 '
 '
-None
 )
             
 '
@@ -98,7 +97,6 @@ bool
 bool
 '
 '
-None
 )
             
 '
@@ -110,7 +108,6 @@ dict
 dict
 '
 '
-None
 )
         
 }
@@ -298,7 +295,6 @@ int
 int
 '
 '
-None
 )
             
 '
@@ -310,7 +306,6 @@ dict
 list
 '
 '
-None
 )
         
 }
@@ -456,7 +451,6 @@ int
 int
 '
 '
-None
 )
             
 '
@@ -468,7 +462,6 @@ bool
 bool
 '
 '
-None
 )
             
 '
@@ -480,7 +473,6 @@ dict
 list
 '
 '
-None
 )
         
 }
@@ -1883,7 +1875,6 @@ for
 typ
 inp
 doc
-tier
 in
 VARIABLES
 .

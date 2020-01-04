@@ -1171,7 +1171,6 @@ matches
 stored_type
 input_type
 docs
-tier
 =
 \
             
@@ -1183,7 +1182,6 @@ get
 (
 key
 (
-None
 None
 None
 None
@@ -4342,7 +4340,6 @@ Config
 "
 "
 "
-None
 )
         
 '
@@ -4448,7 +4445,6 @@ info
 "
 "
 "
-None
 )
         
 '
@@ -4770,7 +4766,6 @@ mochitest
 "
 "
 "
-None
 )
     
 }
@@ -5552,7 +5547,6 @@ discouraged
 "
 "
 "
-None
 )
     
 '
@@ -5622,7 +5616,6 @@ file
 "
 "
 "
-None
 )
     
 '
@@ -5650,7 +5643,6 @@ generate
 "
 "
 "
-None
 )
     
 '
@@ -5687,7 +5679,6 @@ gecko
 "
 "
 "
-None
 )
     
 '
@@ -5728,7 +5719,6 @@ other
 "
 "
 "
-None
 )
     
 '
@@ -5809,7 +5799,6 @@ distributed
 "
 "
 "
-None
 )
     
 '
@@ -5863,7 +5852,6 @@ file
 "
 "
 "
-None
 )
     
 '
@@ -5917,7 +5905,6 @@ file
 "
 "
 "
-None
 )
     
 '
@@ -5965,7 +5952,6 @@ _project
 "
 "
 "
-None
 )
     
 '
@@ -6032,7 +6018,6 @@ C
 "
 "
 "
-None
 )
     
 '
@@ -6063,7 +6048,6 @@ file
 "
 "
 "
-None
 )
     
 '
@@ -6137,7 +6121,6 @@ size
 "
 "
 "
-None
 )
     
 '
@@ -6545,7 +6528,6 @@ on
 "
 "
 "
-None
 )
     
 '
@@ -6758,7 +6740,6 @@ so
 "
 "
 "
-None
 )
     
 '
@@ -6810,7 +6791,6 @@ MSVC
 "
 "
 "
-None
 )
     
 '
@@ -6935,7 +6915,6 @@ delimiters
 "
 "
 "
-None
 )
     
 '
@@ -7062,7 +7041,6 @@ ways
 "
 "
 "
-None
 )
     
 '
@@ -7218,7 +7196,6 @@ svg
 "
 "
 "
-None
 )
     
 '
@@ -7254,7 +7231,6 @@ disabled
 "
 "
 "
-None
 )
     
 '
@@ -7280,7 +7256,6 @@ preprocessing
 "
 "
 "
-None
 )
     
 '
@@ -7319,7 +7294,6 @@ FINAL_TARGET_FILES
 "
 "
 "
-None
 )
     
 '
@@ -7377,7 +7351,6 @@ linked
 "
 "
 "
-None
 )
     
 '
@@ -7462,7 +7435,6 @@ unchanged
 "
 "
 "
-None
 )
     
 '
@@ -7491,7 +7463,6 @@ library
 "
 "
 "
-None
 )
     
 '
@@ -7520,7 +7491,6 @@ library
 "
 "
 "
-None
 )
     
 '
@@ -7566,7 +7536,6 @@ MSVC
 "
 "
 "
-None
 )
     
 '
@@ -7617,7 +7586,6 @@ compiler
 "
 "
 "
-None
 )
     
 '
@@ -7649,7 +7617,6 @@ FORCE_SHARED_LIB
 "
 "
 "
-None
 )
     
 '
@@ -7674,7 +7641,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -7701,7 +7667,6 @@ compiling
 "
 "
 "
-None
 )
     
 '
@@ -7747,7 +7712,6 @@ add_java_jar
 "
 "
 "
-None
 )
     
 '
@@ -7798,7 +7762,6 @@ FINAL_LIBRARY
 "
 "
 "
-None
 )
     
 '
@@ -7878,7 +7841,6 @@ Windows
 "
 "
 "
-None
 )
     
 '
@@ -7922,7 +7884,6 @@ FORCE_SHARED_LIB
 "
 "
 "
-None
 )
     
 '
@@ -7974,7 +7935,6 @@ FORCE_SHARED_LIB
 "
 "
 "
-None
 )
     
 '
@@ -8018,7 +7978,6 @@ FORCE_STATIC_LIB
 "
 "
 "
-None
 )
     
 '
@@ -8046,7 +8005,6 @@ libraries
 "
 "
 "
-None
 )
     
 '
@@ -8075,7 +8033,6 @@ libraries
 "
 "
 "
-None
 )
     
 '
@@ -8103,7 +8060,6 @@ libraries
 "
 "
 "
-None
 )
     
 '
@@ -8137,7 +8093,6 @@ compiler
 "
 "
 "
-None
 )
     
 '
@@ -8166,7 +8121,6 @@ directory
 "
 "
 "
-None
 )
     
 '
@@ -8193,7 +8147,6 @@ VISIBILITY_FLAGS
 "
 "
 "
-None
 )
     
 '
@@ -8228,7 +8181,6 @@ against
 "
 "
 "
-None
 )
     
 '
@@ -8262,7 +8214,6 @@ Windows
 "
 "
 "
-None
 )
     
 '
@@ -8296,7 +8247,6 @@ Windows
 "
 "
 "
-None
 )
     
 '
@@ -8338,7 +8288,6 @@ Windows
 "
 "
 "
-None
 )
     
 '
@@ -8376,7 +8325,6 @@ Windows
 "
 "
 "
-None
 )
     
 '
@@ -8412,7 +8360,6 @@ Linux
 "
 "
 "
-None
 )
     
 '
@@ -8495,7 +8442,6 @@ correctly
 "
 "
 "
-None
 )
     
 '
@@ -8628,7 +8574,6 @@ png
 "
 "
 "
-None
 )
     
 '
@@ -8675,7 +8620,6 @@ lib
 "
 "
 "
-None
 )
     
 '
@@ -8756,7 +8700,6 @@ unchanged
 "
 "
 "
-None
 )
     
 '
@@ -8822,7 +8765,6 @@ platforms
 "
 "
 "
-None
 )
     
 '
@@ -8905,7 +8847,6 @@ unchanged
 "
 "
 "
-None
 )
     
 '
@@ -9004,7 +8945,6 @@ configure
 "
 "
 "
-None
 )
     
 '
@@ -9069,7 +9009,6 @@ AC_SUBST
 "
 "
 "
-None
 )
     
 '
@@ -9254,7 +9193,6 @@ GENERATED_FILES
 "
 "
 "
-None
 )
     
 '
@@ -9306,7 +9244,6 @@ unchanged
 "
 "
 "
-None
 )
     
 '
@@ -9359,7 +9296,6 @@ unchanged
 "
 "
 "
-None
 )
     
 '
@@ -9471,7 +9407,6 @@ explicit
 "
 "
 "
-None
 )
     
 '
@@ -9540,7 +9475,6 @@ jar_manifests
 "
 "
 "
-None
 )
     
 '
@@ -9596,7 +9530,6 @@ files
 "
 "
 "
-None
 )
     
 '
@@ -9651,7 +9584,6 @@ MODULE
 "
 "
 "
-None
 )
     
 '
@@ -9716,7 +9648,6 @@ flag
 "
 "
 "
-None
 )
     
 '
@@ -9756,7 +9687,6 @@ files
 "
 "
 "
-None
 )
     
 '
@@ -9793,7 +9723,6 @@ files
 "
 "
 "
-None
 )
     
 '
@@ -9833,7 +9762,6 @@ files
 "
 "
 "
-None
 )
     
 '
@@ -9876,7 +9804,6 @@ enabled
 "
 "
 "
-None
 )
     
 '
@@ -9909,7 +9836,6 @@ files
 "
 "
 "
-None
 )
     
 '
@@ -9955,7 +9881,6 @@ enabled
 "
 "
 "
-None
 )
     
 '
@@ -9989,7 +9914,6 @@ converted
 "
 "
 "
-None
 )
     
 '
@@ -10049,7 +9973,6 @@ variables
 "
 "
 "
-None
 )
     
 '
@@ -10075,7 +9998,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -10102,7 +10024,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -10129,7 +10050,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -10156,7 +10076,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -10190,7 +10109,6 @@ list
 "
 "
 "
-None
 )
     
 '
@@ -10217,7 +10135,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -10245,7 +10162,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -10272,7 +10188,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -10298,7 +10213,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -10326,7 +10240,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -10354,7 +10267,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -10388,7 +10300,6 @@ list
 "
 "
 "
-None
 )
     
 '
@@ -10422,7 +10333,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -10449,7 +10359,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -10475,7 +10384,6 @@ tests
 "
 "
 "
-None
 )
     
 '
@@ -10531,7 +10439,6 @@ results
 "
 "
 "
-None
 )
     
 '
@@ -10592,7 +10499,6 @@ placed
 "
 "
 "
-None
 )
     
 '
@@ -10696,7 +10602,6 @@ used
 "
 "
 "
-None
 )
     
 '
@@ -10757,7 +10662,6 @@ manifest
 "
 "
 "
-None
 )
     
 '
@@ -10853,7 +10757,6 @@ OK
 "
 "
 "
-None
 )
     
 '
@@ -11117,7 +11020,6 @@ bar
 "
 "
 "
-None
 )
     
 '
@@ -11182,7 +11084,6 @@ tree
 "
 "
 "
-None
 )
     
 '
@@ -11208,7 +11109,6 @@ documents
 "
 "
 "
-None
 )
     
 '
@@ -11282,7 +11182,6 @@ file
 "
 "
 "
-None
 )
     
 '
@@ -11361,7 +11260,6 @@ file
 "
 "
 "
-None
 )
     
 '
@@ -11395,7 +11293,6 @@ specifics
 "
 "
 "
-None
 )
     
 '
@@ -11474,7 +11371,6 @@ file
 "
 "
 "
-None
 )
     
 '
@@ -11557,7 +11453,6 @@ file
 "
 "
 "
-None
 )
     
 '
@@ -11631,7 +11526,6 @@ file
 "
 "
 "
-None
 )
     
 '
@@ -11706,7 +11600,6 @@ file
 "
 "
 "
-None
 )
     
 '
@@ -11786,7 +11679,6 @@ file
 "
 "
 "
-None
 )
     
 '
@@ -11861,7 +11753,6 @@ file
 "
 "
 "
-None
 )
     
 '
@@ -11927,7 +11818,6 @@ file
 "
 "
 "
-None
 )
     
 '
@@ -12010,7 +11900,6 @@ Windows
 "
 "
 "
-None
 )
     
 '
@@ -12162,7 +12051,6 @@ py
 "
 "
 "
-None
 )
     
 '
@@ -12194,7 +12082,6 @@ library
 "
 "
 "
-None
 )
     
 '
@@ -12227,7 +12114,6 @@ XPCOMBinaryComponent
 "
 "
 "
-None
 )
 }
 for
@@ -12236,7 +12122,6 @@ name
 storage_type
 input_types
 docs
-tier
 )
 in
 VARIABLES
@@ -12358,7 +12243,6 @@ name
 storage_type
 input_types
 docs
-tier
 =
 VARIABLES
 [
@@ -12390,7 +12274,6 @@ name
 storage_type
 input_types
 docs
-tier
 )
 FUNCTIONS
 =

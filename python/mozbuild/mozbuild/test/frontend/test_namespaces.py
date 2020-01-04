@@ -172,7 +172,6 @@ HOGE
 unicode
 unicode
 None
-None
 )
     
 '
@@ -183,7 +182,6 @@ FUGA
 Fuga
 unicode
 None
-None
 )
     
 '
@@ -193,7 +191,6 @@ PIYO
 (
 Piyo
 unicode
-None
 None
 )
     
@@ -209,7 +206,6 @@ StrictOrderingOnAppendList
 )
         
 list
-None
 None
 )
     
@@ -237,7 +233,6 @@ bool
 )
 )
 list
-None
 None
 )
 }
