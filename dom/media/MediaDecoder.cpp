@@ -7260,9 +7260,6 @@ enabled
 }
 #
 endif
-#
-ifdef
-MOZ_WEBM
 bool
 MediaDecoder
 :
@@ -7287,8 +7284,6 @@ enabled
 )
 ;
 }
-#
-endif
 #
 ifdef
 NECKO_PROTOCOL_rtsp

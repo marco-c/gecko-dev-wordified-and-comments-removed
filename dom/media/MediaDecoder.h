@@ -1294,17 +1294,12 @@ IsWaveEnabled
 ;
 #
 endif
-#
-ifdef
-MOZ_WEBM
 static
 bool
 IsWebMEnabled
 (
 )
 ;
-#
-endif
 #
 ifdef
 NECKO_PROTOCOL_rtsp

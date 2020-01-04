@@ -2030,9 +2030,6 @@ AUDIO_OGG
 opus
 "
 }
-#
-ifdef
-MOZ_WEBM
 {
 VIDEO_WEBM
 "
@@ -2045,8 +2042,6 @@ AUDIO_WEBM
 webm
 "
 }
-#
-endif
 #
 if
 defined
