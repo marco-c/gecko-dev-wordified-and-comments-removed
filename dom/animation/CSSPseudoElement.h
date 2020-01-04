@@ -112,16 +112,7 @@ GetParentObject
 (
 )
 const
-{
-return
-mParentElement
--
->
-GetParentObject
-(
-)
 ;
-}
 virtual
 JSObject
 *
