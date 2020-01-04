@@ -107,6 +107,9 @@ value
 :
 genFunExpr
 (
+"
+es6
+"
 ident
 (
 "
@@ -337,6 +340,9 @@ value
 :
 genFunExpr
 (
+"
+es6
+"
 ident
 (
 "
@@ -394,6 +400,9 @@ value
 :
 genFunExpr
 (
+"
+es6
+"
 ident
 (
 "

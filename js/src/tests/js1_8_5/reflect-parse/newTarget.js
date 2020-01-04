@@ -90,6 +90,9 @@ target
 "
 genFunDecl
 (
+"
+es6
+"
 ident
 (
 "
