@@ -748,6 +748,9 @@ AnimationPropertyDetails
 >
 &
 aProperties
+ErrorResult
+&
+aRv
 )
 const
 ;

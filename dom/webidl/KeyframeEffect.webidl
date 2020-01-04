@@ -427,6 +427,7 @@ KeyframeEffectReadOnly
 {
 [
 ChromeOnly
+Throws
 ]
 sequence
 <
