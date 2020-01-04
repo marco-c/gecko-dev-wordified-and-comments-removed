@@ -201,12 +201,10 @@ line
 response
 =
 yield
-rdpRequest
-(
-gThreadClient
 gThreadClient
 .
 eval
+(
 null
 aName
 +

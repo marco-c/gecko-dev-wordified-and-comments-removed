@@ -132,12 +132,10 @@ SECOND_SOURCE_VALUE
 )
 ;
 yield
-rdpInvoke
-(
-source
 source
 .
 setBreakpoint
+(
 {
 line
 :
