@@ -555,11 +555,6 @@ static
 void
 InitTrack
 (
-TrackInfo
-:
-:
-TrackType
-aTrackType
 MessageField
 *
 aMsgInfo
@@ -641,7 +636,6 @@ aInfo
 >
 Init
 (
-aTrackType
 sName
 ?
 NS_ConvertUTF8toUTF16
@@ -1656,10 +1650,6 @@ msgInfo
 {
 InitTrack
 (
-TrackInfo
-:
-:
-kVideoTrack
 msgInfo
 &
 mInfo
@@ -1828,10 +1818,6 @@ msgInfo
 {
 InitTrack
 (
-TrackInfo
-:
-:
-kAudioTrack
 msgInfo
 &
 mInfo
@@ -1931,10 +1917,6 @@ msgInfo
 {
 InitTrack
 (
-TrackInfo
-:
-:
-kAudioTrack
 msgInfo
 &
 mInfo
@@ -4271,10 +4253,6 @@ msgInfo
 {
 InitTrack
 (
-TrackInfo
-:
-:
-kAudioTrack
 msgInfo
 &
 mInfo
@@ -4377,10 +4355,6 @@ msgInfo
 {
 InitTrack
 (
-TrackInfo
-:
-:
-kAudioTrack
 msgInfo
 &
 mInfo

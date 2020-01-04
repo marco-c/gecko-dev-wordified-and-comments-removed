@@ -1356,6 +1356,15 @@ mTags
 )
 )
 ;
+metadata
+-
+>
+mInfo
+.
+AssertValid
+(
+)
+;
 if
 (
 NS_FAILED
