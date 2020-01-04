@@ -1107,6 +1107,19 @@ while
 node
 )
 {
+if
+(
+node
+-
+>
+mContainer
+-
+>
+IsInDocument
+(
+)
+)
+{
 node
 -
 >
@@ -1114,6 +1127,7 @@ Process
 (
 )
 ;
+}
 node
 =
 node
