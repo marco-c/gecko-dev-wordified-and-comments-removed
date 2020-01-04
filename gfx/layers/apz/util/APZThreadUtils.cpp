@@ -282,5 +282,10 @@ aTask
 #
 endif
 }
+NS_IMPL_ISUPPORTS
+(
+GenericTimerCallbackBase
+nsITimerCallback
+)
 }
 }
