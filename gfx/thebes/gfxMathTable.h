@@ -95,6 +95,17 @@ aGlyphs
 ]
 )
 ;
+size_t
+SizeOfIncludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 protected
 :
 friend
