@@ -101,7 +101,7 @@ LinearLayout
 ;
 public
 class
-MenuItemActionView
+MenuItemSwitcherLayout
 extends
 LinearLayout
 implements
@@ -151,7 +151,7 @@ OnClickListener
 )
 ;
 public
-MenuItemActionView
+MenuItemSwitcherLayout
 (
 Context
 context
@@ -165,7 +165,7 @@ null
 ;
 }
 public
-MenuItemActionView
+MenuItemSwitcherLayout
 (
 Context
 context
@@ -190,7 +190,7 @@ TargetApi
 14
 )
 public
-MenuItemActionView
+MenuItemSwitcherLayout
 (
 Context
 context
