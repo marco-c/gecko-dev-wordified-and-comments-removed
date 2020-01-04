@@ -2679,8 +2679,12 @@ DeleteFontTableBlobData
 ;
 if
 (
-!
-mSharedBlobData
+mBlob
+=
+=
+hb_blob_get_empty
+(
+)
 )
 {
 return
