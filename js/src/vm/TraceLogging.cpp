@@ -1579,6 +1579,14 @@ nullptr
 if
 (
 !
+payload
+)
+return
+nullptr
+;
+if
+(
+!
 textIdPayloads
 .
 add
