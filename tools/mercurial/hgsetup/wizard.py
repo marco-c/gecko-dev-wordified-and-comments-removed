@@ -172,9 +172,9 @@ LooseVersion
 '
 3
 .
-2
+5
 .
-4
+2
 '
 )
 LEGACY_MERCURIAL
