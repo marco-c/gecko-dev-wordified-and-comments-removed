@@ -63,7 +63,9 @@ markupmutation
 )
 ;
 yield
-setNodeAttribute
+testActor
+.
+setAttribute
 (
 "
 body
@@ -74,7 +76,6 @@ contextmenu
 "
 menu1
 "
-testActor
 )
 ;
 yield
@@ -217,7 +218,9 @@ markupmutation
 )
 ;
 yield
-setNodeAttribute
+testActor
+.
+setAttribute
 (
 "
 body
@@ -228,7 +231,6 @@ contextmenu
 "
 menu2
 "
-testActor
 )
 ;
 yield

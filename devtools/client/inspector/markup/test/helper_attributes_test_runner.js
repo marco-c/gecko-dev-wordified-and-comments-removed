@@ -108,14 +108,6 @@ inspector
 )
 ;
 }
-let
-element
-=
-getNode
-(
-selector
-)
-;
 info
 (
 "
@@ -192,7 +184,6 @@ test
 .
 validate
 (
-element
 container
 inspector
 )

@@ -149,7 +149,9 @@ markupmutation
 )
 ;
 yield
-setNodeAttribute
+testActor
+.
+setAttribute
 (
 "
 #
@@ -160,11 +162,12 @@ class
 "
 "
 "
-testActor
 )
 ;
 yield
-setNodeAttribute
+testActor
+.
+setAttribute
 (
 "
 #
@@ -176,7 +179,6 @@ data
 long
 "
 LONG_ATTRIBUTE
-testActor
 )
 ;
 yield

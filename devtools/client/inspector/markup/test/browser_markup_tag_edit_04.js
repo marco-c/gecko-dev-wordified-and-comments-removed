@@ -202,6 +202,7 @@ function
 *
 (
 inspector
+testActor
 )
 {
 let
@@ -216,6 +217,11 @@ markupmutation
 "
 )
 ;
+yield
+testActor
+.
+eval
+(
 for
 (
 let
@@ -243,6 +249,8 @@ remove
 )
 ;
 }
+)
+;
 yield
 mutated
 ;
@@ -296,6 +304,7 @@ function
 let
 {
 inspector
+testActor
 }
 =
 yield
@@ -326,6 +335,7 @@ yield
 setup
 (
 inspector
+testActor
 )
 ;
 }
