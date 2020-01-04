@@ -347,6 +347,13 @@ typedef
 mozilla
 :
 :
+CSSIntRect
+CSSIntRect
+;
+typedef
+mozilla
+:
+:
 ScreenRotation
 ScreenRotation
 ;
@@ -1548,7 +1555,7 @@ return
 aClientSize
 ;
 }
-nsIntRect
+CSSIntRect
 GetScaledScreenBounds
 (
 )
@@ -2336,7 +2343,7 @@ mBorderStyle
 nsIntRect
 mBounds
 ;
-nsIntRect
+CSSIntRect
 *
 mOriginalBounds
 ;
