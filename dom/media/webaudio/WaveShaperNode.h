@@ -65,7 +65,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 WaveShaperNode
 AudioNode
 )
-virtual
 JSObject
 *
 WrapObject
@@ -157,7 +156,6 @@ OverSampleType
 aType
 )
 ;
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -177,7 +175,6 @@ aMallocSizeOf
 )
 ;
 }
-virtual
 const
 char
 *
@@ -193,7 +190,6 @@ WaveShaperNode
 "
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

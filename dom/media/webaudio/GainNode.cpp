@@ -178,7 +178,6 @@ TimelineParameter
 ;
 }
 }
-virtual
 void
 ProcessBlock
 (
@@ -403,7 +402,6 @@ buffer
 }
 }
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -423,7 +421,6 @@ aMallocSizeOf
 )
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

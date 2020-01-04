@@ -75,7 +75,6 @@ NS_IsMainThread
 )
 ;
 }
-virtual
 void
 ProcessBlocksOnPorts
 (
@@ -218,7 +217,6 @@ WEBAUDIO_BLOCK_SIZE
 }
 }
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

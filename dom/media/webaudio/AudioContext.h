@@ -452,7 +452,6 @@ Shutdown
 (
 )
 ;
-virtual
 JSObject
 *
 WrapObject

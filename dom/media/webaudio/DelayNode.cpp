@@ -178,7 +178,6 @@ INT32_MIN
 )
 {
 }
-virtual
 DelayNodeEngine
 *
 AsDelayNodeEngine
@@ -254,7 +253,6 @@ TimelineParameter
 ;
 }
 }
-virtual
 void
 ProcessBlock
 (
@@ -663,7 +661,6 @@ channelInterpretation
 ;
 }
 }
-virtual
 void
 ProduceBlockBeforeInput
 (
@@ -711,7 +708,6 @@ mHaveProducedBeforeInput
 true
 ;
 }
-virtual
 bool
 IsActive
 (
@@ -726,7 +722,6 @@ mLeftOverData
 INT32_MIN
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -761,7 +756,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

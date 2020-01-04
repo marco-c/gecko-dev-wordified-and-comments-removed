@@ -545,7 +545,6 @@ TimelineParameter
 ;
 }
 }
-virtual
 void
 ProcessBlock
 (
@@ -988,7 +987,6 @@ GetDuration
 ;
 }
 }
-virtual
 bool
 IsActive
 (
@@ -1005,7 +1003,6 @@ IsEmpty
 )
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -1040,7 +1037,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

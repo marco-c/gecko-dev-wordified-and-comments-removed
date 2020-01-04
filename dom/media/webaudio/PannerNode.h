@@ -97,7 +97,6 @@ AudioContext
 aContext
 )
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -117,14 +116,12 @@ aGivenProto
 )
 override
 ;
-virtual
 void
 DestroyMediaStream
 (
 )
 override
 ;
-virtual
 void
 SetChannelCount
 (
@@ -163,7 +160,6 @@ aRv
 )
 ;
 }
-virtual
 void
 SetChannelCountModeValue
 (
@@ -790,7 +786,6 @@ AudioNode
 aSeenNodes
 )
 ;
-virtual
 const
 char
 *
@@ -806,7 +801,6 @@ PannerNode
 "
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -816,7 +810,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (

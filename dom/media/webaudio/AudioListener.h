@@ -133,7 +133,6 @@ return
 mContext
 ;
 }
-virtual
 JSObject
 *
 WrapObject

@@ -67,7 +67,6 @@ TaskQueue
 aTaskQueueIdentity
 )
 ;
-virtual
 MediaResource
 *
 GetResource
@@ -77,7 +76,6 @@ const
 final
 override
 ;
-virtual
 void
 NotifyDecodedFrames
 (
@@ -91,7 +89,6 @@ aDropped
 final
 override
 ;
-virtual
 VideoFrameContainer
 *
 GetVideoFrameContainer
@@ -100,7 +97,6 @@ GetVideoFrameContainer
 final
 override
 ;
-virtual
 layers
 :
 :
@@ -112,7 +108,6 @@ GetImageContainer
 final
 override
 ;
-virtual
 MediaDecoderOwner
 *
 GetOwner

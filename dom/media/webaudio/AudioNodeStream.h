@@ -309,7 +309,6 @@ StreamTime
 aAdvance
 )
 ;
-virtual
 AudioNodeStream
 *
 AsAudioNodeStream
@@ -321,7 +320,6 @@ return
 this
 ;
 }
-virtual
 void
 AddInput
 (
@@ -331,7 +329,6 @@ aPort
 )
 override
 ;
-virtual
 void
 RemoveInput
 (
@@ -364,7 +361,6 @@ ChannelInterpretation
 aChannelInterpretation
 )
 ;
-virtual
 void
 ProcessInput
 (
@@ -406,7 +402,6 @@ return
 mLastChunks
 ;
 }
-virtual
 bool
 MainThreadNeedsUpdates
 (
@@ -501,7 +496,6 @@ AdvanceAndResumeMessage
 class
 CheckForInactiveMessage
 ;
-virtual
 void
 DestroyImpl
 (

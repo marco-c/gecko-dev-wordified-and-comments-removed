@@ -74,7 +74,6 @@ Parameters
 ENABLE
 }
 ;
-virtual
 void
 SetInt32Parameter
 (
@@ -159,7 +158,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 MediaStreamAudioSourceNode
 AudioNode
 )
-virtual
 JSObject
 *
 WrapObject
@@ -179,14 +177,12 @@ aGivenProto
 )
 override
 ;
-virtual
 void
 DestroyMediaStream
 (
 )
 override
 ;
-virtual
 uint16_t
 NumberOfInputs
 (
@@ -198,7 +194,6 @@ return
 0
 ;
 }
-virtual
 const
 char
 *
@@ -214,7 +209,6 @@ MediaStreamAudioSourceNode
 "
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -224,7 +218,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (
@@ -234,7 +227,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 void
 PrincipalChanged
 (

@@ -205,7 +205,6 @@ false
 )
 {
 }
-virtual
 void
 ProcessBlock
 (
@@ -538,7 +537,6 @@ true
 ;
 }
 }
-virtual
 bool
 IsActive
 (
@@ -774,7 +772,6 @@ Closed
 )
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -816,7 +813,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (
@@ -1014,7 +1010,6 @@ aNode
 )
 ;
 }
-virtual
 void
 ProcessBlock
 (
@@ -1117,7 +1112,6 @@ forget
 ;
 }
 }
-virtual
 bool
 IsActive
 (
@@ -1129,7 +1123,6 @@ return
 true
 ;
 }
-virtual
 void
 SetDoubleParameter
 (
@@ -1154,7 +1147,6 @@ aParam
 ;
 }
 }
-virtual
 void
 SetInt32Parameter
 (
@@ -1198,7 +1190,6 @@ VOLUME
 SUSPENDED
 }
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (

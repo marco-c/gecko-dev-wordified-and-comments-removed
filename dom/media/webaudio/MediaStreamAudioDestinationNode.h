@@ -40,7 +40,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 MediaStreamAudioDestinationNode
 AudioNode
 )
-virtual
 JSObject
 *
 WrapObject
@@ -60,7 +59,6 @@ aGivenProto
 )
 override
 ;
-virtual
 uint16_t
 NumberOfOutputs
 (
@@ -73,7 +71,6 @@ return
 0
 ;
 }
-virtual
 void
 DestroyMediaStream
 (
@@ -91,7 +88,6 @@ return
 mDOMStream
 ;
 }
-virtual
 const
 char
 *
@@ -107,7 +103,6 @@ MediaStreamAudioDestinationNode
 "
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -117,7 +112,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (

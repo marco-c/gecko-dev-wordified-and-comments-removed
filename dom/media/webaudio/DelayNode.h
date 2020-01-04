@@ -51,7 +51,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 DelayNode
 AudioNode
 )
-virtual
 JSObject
 *
 WrapObject
@@ -82,7 +81,6 @@ return
 mDelay
 ;
 }
-virtual
 const
 char
 *
@@ -98,7 +96,6 @@ DelayNode
 "
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -108,7 +105,6 @@ aMallocSizeOf
 const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (

@@ -72,7 +72,6 @@ AudioNodeExternalInputStream
 ;
 public
 :
-virtual
 void
 ProcessInput
 (

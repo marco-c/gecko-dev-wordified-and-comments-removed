@@ -292,7 +292,6 @@ TimelineParameter
 ;
 }
 }
-virtual
 void
 SetStreamTimeParameter
 (
@@ -346,7 +345,6 @@ StreamTimeParameter
 ;
 }
 }
-virtual
 void
 SetInt32Parameter
 (
@@ -519,7 +517,6 @@ Int32Parameter
 ;
 }
 }
-virtual
 void
 SetBuffer
 (
@@ -1317,7 +1314,6 @@ WEBAUDIO_BLOCK_SIZE
 )
 ;
 }
-virtual
 void
 ProcessBlock
 (
@@ -1518,7 +1514,6 @@ true
 ;
 }
 }
-virtual
 bool
 IsActive
 (
@@ -1534,7 +1529,6 @@ mStart
 1
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -1593,7 +1587,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (
