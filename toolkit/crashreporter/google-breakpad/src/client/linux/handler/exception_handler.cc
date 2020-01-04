@@ -2121,9 +2121,12 @@ child
 0
 )
 {
+static
+const
 char
-*
 clonedMsg
+[
+]
 =
 "
 ExceptionHandler
@@ -2192,9 +2195,12 @@ n
 }
 else
 {
+static
+const
 char
-*
 childMsg
+[
+]
 =
 "
 ExceptionHandler
