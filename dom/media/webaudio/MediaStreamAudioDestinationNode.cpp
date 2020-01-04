@@ -168,6 +168,12 @@ MediaSourceEnum
 AudioCapture
 )
 ;
+RefPtr
+<
+MediaStreamTrack
+>
+track
+=
 mDOMStream
 -
 >
@@ -185,6 +191,14 @@ source
 MediaTrackConstraints
 (
 )
+)
+;
+mDOMStream
+-
+>
+AddTrackInternal
+(
+track
 )
 ;
 ProcessedMediaStream
