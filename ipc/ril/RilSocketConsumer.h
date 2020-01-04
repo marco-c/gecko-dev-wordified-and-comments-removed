@@ -7,7 +7,9 @@ mozilla_ipc_RilSocketConsumer_h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -37,7 +39,7 @@ JSContext
 aCx
 int
 aIndex
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >
