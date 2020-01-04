@@ -1274,11 +1274,6 @@ AsmJSInterruptCheck
 \
 _
 (
-AsmThrowUnreachable
-)
-\
-_
-(
 GetDOMProperty
 )
 \
@@ -1330,6 +1325,11 @@ WasmLoad
 _
 (
 WasmStore
+)
+\
+_
+(
+WasmTrap
 )
 \
 _

@@ -3097,9 +3097,9 @@ lir
 )
 ;
 void
-visitAsmThrowUnreachable
+visitWasmTrap
 (
-LAsmThrowUnreachable
+LWasmTrap
 *
 lir
 )

@@ -1324,9 +1324,9 @@ ins
 )
 ;
 void
-visitAsmThrowUnreachable
+visitWasmTrap
 (
-MAsmThrowUnreachable
+MWasmTrap
 *
 ins
 )
