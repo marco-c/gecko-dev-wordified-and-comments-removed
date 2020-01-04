@@ -1197,7 +1197,7 @@ RequireThirdPartyCheck
 )
 ;
 CookieStatus
-CheckPrefs
+CheckSafe
 (
 nsIURI
 *
@@ -1210,6 +1210,8 @@ const
 char
 *
 aCookieHeader
+bool
+aCheckPrefs
 )
 ;
 bool

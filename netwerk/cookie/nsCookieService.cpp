@@ -8931,7 +8931,7 @@ aOriginAttrs
 CookieStatus
 cookieStatus
 =
-CheckPrefs
+CheckSafe
 (
 aHostURI
 aIsForeign
@@ -8941,6 +8941,7 @@ aCookieHeader
 get
 (
 )
+true
 )
 ;
 switch
@@ -13356,12 +13357,13 @@ return
 CookieStatus
 cookieStatus
 =
-CheckPrefs
+CheckSafe
 (
 aHostURI
 aIsForeign
 requireHostMatch
 nullptr
+false
 )
 ;
 switch
@@ -16320,7 +16322,7 @@ CookieStatus
 nsCookieService
 :
 :
-CheckPrefs
+CheckSafe
 (
 nsIURI
 *
@@ -16333,6 +16335,8 @@ const
 char
 *
 aCookieHeader
+bool
+aCheckPrefs
 )
 {
 nsresult
@@ -16387,6 +16391,9 @@ STATUS_REJECTED_WITH_ERROR
 if
 (
 mPermissionService
+&
+&
+aCheckPrefs
 )
 {
 nsCookieAccess
