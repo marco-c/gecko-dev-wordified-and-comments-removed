@@ -6397,7 +6397,7 @@ sharedWorkerName
 aWorkerPrivate
 -
 >
-SharedWorkerName
+WorkerName
 (
 )
 ;
