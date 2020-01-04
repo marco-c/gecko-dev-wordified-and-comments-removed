@@ -6439,11 +6439,12 @@ obj
 .
 filter
 (
+function
 (
 name
 )
-=
->
+{
+return
 Object
 .
 getOwnPropertyDescriptor
@@ -6453,6 +6454,8 @@ name
 )
 .
 enumerable
+;
+}
 )
 }
 test

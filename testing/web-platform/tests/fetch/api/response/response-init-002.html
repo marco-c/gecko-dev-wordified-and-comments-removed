@@ -617,7 +617,7 @@ USVString
 "
 )
 ;
-async_test
+promise_test
 (
 function
 (
@@ -643,7 +643,8 @@ Response
 body
 )
 ;
-readTextStream
+return
+validateStreamFromString
 (
 response
 .
@@ -652,7 +653,6 @@ body
 getReader
 (
 )
-test
 body
 )
 ;
