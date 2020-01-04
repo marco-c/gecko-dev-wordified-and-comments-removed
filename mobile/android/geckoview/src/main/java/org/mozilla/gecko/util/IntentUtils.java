@@ -115,8 +115,8 @@ getEnvVarMap
 (
 NonNull
 final
-Intent
-unsafeIntent
+SafeIntent
+intent
 )
 {
 final
@@ -140,16 +140,6 @@ matcher
 (
 "
 "
-)
-;
-final
-SafeIntent
-safeIntent
-=
-new
-SafeIntent
-(
-unsafeIntent
 )
 ;
 final
@@ -195,7 +185,7 @@ i
 if
 (
 !
-unsafeIntent
+intent
 .
 hasExtra
 (
@@ -209,7 +199,7 @@ break
 maybeAddEnvVarToEnvVarMap
 (
 out
-safeIntent
+intent
 envKey
 matcher
 )
