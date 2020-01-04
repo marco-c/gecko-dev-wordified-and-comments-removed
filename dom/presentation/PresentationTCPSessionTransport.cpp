@@ -262,11 +262,15 @@ nsIPresentationSessionTransport
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsIInputStreamCallback
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIPresentationSessionTransport
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsITransportEventSink
+nsIPresentationSessionTransportBuilder
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -274,7 +278,7 @@ nsIPresentationTCPSessionTransportBuilder
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIInputStreamCallback
+nsIRequestObserver
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -282,7 +286,7 @@ nsIStreamListener
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIRequestObserver
+nsITransportEventSink
 )
 NS_INTERFACE_MAP_END
 PresentationTCPSessionTransport

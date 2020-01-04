@@ -718,7 +718,6 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIPRESENTATIONCONTROLCHANNELLISTENER
-NS_DECL_NSIPRESENTATIONSESSIONTRANSPORTBUILDERLISTENER
 NS_DECL_NSITIMERCALLBACK
 PresentationPresentingInfo
 (
@@ -769,6 +768,15 @@ nsresult
 NotifyResponderReady
 (
 )
+;
+NS_IMETHODIMP
+OnSessionTransport
+(
+nsIPresentationSessionTransport
+*
+transport
+)
+override
 ;
 void
 ResolvedCallback

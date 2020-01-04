@@ -1460,7 +1460,6 @@ function
 (
 role
 window
-controlChannel
 listener
 )
 {
