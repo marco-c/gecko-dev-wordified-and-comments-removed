@@ -13077,15 +13077,6 @@ nsICacheStorage
 :
 OPEN_INTERCEPTED
 ;
-cacheEntryOpenFlags
-&
-=
-~
-nsICacheStorage
-:
-:
-OPEN_TRUNCATE
-;
 DebugOnly
 <
 bool

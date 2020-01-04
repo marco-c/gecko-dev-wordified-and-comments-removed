@@ -56,6 +56,16 @@ true
 "
 dom
 .
+requestcache
+.
+enabled
+"
+true
+]
+[
+"
+dom
+.
 serviceWorkers
 .
 enabled
