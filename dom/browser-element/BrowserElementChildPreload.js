@@ -10584,7 +10584,7 @@ error
 type
 :
 '
-phishingBlocked
+deceptiveBlocked
 '
 }
 )
