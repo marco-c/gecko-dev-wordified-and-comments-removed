@@ -8761,7 +8761,7 @@ WidgetCompositionEvent
 event
 (
 true
-NS_COMPOSITION_CHANGE
+eCompositionChange
 aWindow
 )
 ;

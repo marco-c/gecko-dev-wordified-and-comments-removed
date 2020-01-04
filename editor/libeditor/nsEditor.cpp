@@ -21412,7 +21412,7 @@ case
 eCompositionUpdate
 :
 case
-NS_COMPOSITION_CHANGE
+eCompositionChange
 :
 case
 eCompositionCommitAsIs

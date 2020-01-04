@@ -598,11 +598,11 @@ eCompositionUpdate
 "
 ;
 case
-NS_COMPOSITION_CHANGE
+eCompositionChange
 :
 return
 "
-NS_COMPOSITION_CHANGE
+eCompositionChange
 "
 ;
 case

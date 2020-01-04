@@ -12853,7 +12853,7 @@ WidgetCompositionEvent
 compositionChangeEvent
 (
 true
-NS_COMPOSITION_CHANGE
+eCompositionChange
 this
 )
 ;

@@ -1226,7 +1226,7 @@ case
 eCompositionEnd
 :
 case
-NS_COMPOSITION_CHANGE
+eCompositionChange
 :
 case
 eCompositionCommitAsIs
@@ -1349,7 +1349,7 @@ aCompositionEvent
 mMessage
 !
 =
-NS_COMPOSITION_CHANGE
+eCompositionChange
 &
 &
 !
@@ -1383,7 +1383,7 @@ aCompositionEvent
 mMessage
 =
 =
-NS_COMPOSITION_CHANGE
+eCompositionChange
 &
 &
 mLastData
@@ -1458,7 +1458,7 @@ aCompositionEvent
 mMessage
 !
 =
-NS_COMPOSITION_CHANGE
+eCompositionChange
 )
 {
 aCompositionEvent
@@ -1469,7 +1469,7 @@ mFlags
 CloneAndDispatchAs
 (
 aCompositionEvent
-NS_COMPOSITION_CHANGE
+eCompositionChange
 aStatus
 aCallBack
 )
@@ -2542,7 +2542,7 @@ break
 ;
 }
 case
-NS_COMPOSITION_CHANGE
+eCompositionChange
 :
 case
 eCompositionCommitAsIs

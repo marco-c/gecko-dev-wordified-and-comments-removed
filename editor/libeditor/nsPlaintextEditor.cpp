@@ -3896,14 +3896,14 @@ compositionChangeEvent
 mMessage
 =
 =
-NS_COMPOSITION_CHANGE
+eCompositionChange
 "
 The
 internal
 event
 should
 be
-NS_COMPOSITION_CHANGE
+eCompositionChange
 "
 )
 ;

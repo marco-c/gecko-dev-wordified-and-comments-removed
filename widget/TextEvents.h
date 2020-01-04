@@ -1282,7 +1282,7 @@ return
 mMessage
 =
 =
-NS_COMPOSITION_CHANGE
+eCompositionChange
 |
 |
 mMessage
