@@ -201,6 +201,7 @@ NS_IMPL_CYCLE_COLLECTION_INHERITED
 MediaStreamTrack
 DOMEventTargetHelper
 mOwningStream
+mOriginalTrack
 )
 NS_IMPL_ADDREF_INHERITED
 (
