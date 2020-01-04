@@ -35,6 +35,13 @@ Unused
 .
 h
 "
+#
+include
+"
+gfxPlatform
+.
+h
+"
 namespace
 mozilla
 {

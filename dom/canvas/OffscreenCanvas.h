@@ -636,11 +636,13 @@ layers
 LayersBackend
 mCompositorBackendType
 ;
+RefPtr
+<
 layers
 :
 :
 CanvasClient
-*
+>
 mCanvasClient
 ;
 RefPtr

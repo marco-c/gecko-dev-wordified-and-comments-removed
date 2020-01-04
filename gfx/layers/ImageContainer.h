@@ -1676,8 +1676,10 @@ BufferRecycleBin
 >
 mRecycleBin
 ;
+RefPtr
+<
 ImageClient
-*
+>
 mImageClient
 ;
 uint64_t

@@ -2329,6 +2329,13 @@ cpp
 '
 ipc
 /
+CompositableForwarder
+.
+cpp
+'
+'
+ipc
+/
 CompositableTransactionParent
 .
 cpp
