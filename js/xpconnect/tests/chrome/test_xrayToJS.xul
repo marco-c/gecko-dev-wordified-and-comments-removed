@@ -2933,6 +2933,9 @@ catch
 "
 then
 "
+Symbol
+.
+toStringTag
 ]
 ;
 gConstructorProperties
