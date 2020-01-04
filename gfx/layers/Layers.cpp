@@ -4877,7 +4877,7 @@ transform
 shadow
 -
 >
-GetShadowTransform
+GetShadowBaseTransform
 (
 )
 ;
@@ -11149,7 +11149,7 @@ if
 lc
 -
 >
-GetShadowTransform
+GetShadowBaseTransform
 (
 )
 .
@@ -11169,7 +11169,7 @@ mutable_transform
 lc
 -
 >
-GetShadowTransform
+GetShadowBaseTransform
 (
 )
 )
@@ -13678,7 +13678,7 @@ if
 aLayerComposite
 -
 >
-GetShadowTransform
+GetShadowBaseTransform
 (
 )
 .
@@ -13693,7 +13693,7 @@ aStream
 aLayerComposite
 -
 >
-GetShadowTransform
+GetShadowBaseTransform
 (
 )
 "

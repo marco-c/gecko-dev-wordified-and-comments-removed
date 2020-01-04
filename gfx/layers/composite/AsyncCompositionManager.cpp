@@ -3307,7 +3307,7 @@ AsLayerComposite
 )
 -
 >
-GetShadowTransform
+GetShadowBaseTransform
 (
 )
 ;
@@ -6303,7 +6303,7 @@ trans
 rootComposite
 -
 >
-GetShadowTransform
+GetShadowBaseTransform
 (
 )
 ;
