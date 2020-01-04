@@ -2664,8 +2664,6 @@ extensions
 /
 loop
 /
-chrome
-/
 test
 /
 mochitest
@@ -2886,16 +2884,6 @@ timeout
 ;
 #
 endif
-user_pref
-(
-"
-browser
-.
-displayedE10SNotice
-"
-5
-)
-;
 user_pref
 (
 "
