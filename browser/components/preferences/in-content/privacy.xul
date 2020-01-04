@@ -2663,15 +2663,6 @@ link
 onclick
 =
 "
-if
-(
-event
-.
-button
-=
-=
-0
-)
 gotoPref
 (
 '
