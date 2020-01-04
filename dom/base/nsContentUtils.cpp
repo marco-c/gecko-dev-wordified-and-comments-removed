@@ -24623,7 +24623,7 @@ aDragEvent
 mMessage
 !
 =
-NS_DRAGDROP_START
+eDragStart
 "
 draggesture
 event

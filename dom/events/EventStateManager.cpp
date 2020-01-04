@@ -6896,7 +6896,7 @@ new
 DataTransfer
 (
 window
-NS_DRAGDROP_START
+eDragStart
 false
 -
 1
@@ -6991,7 +6991,7 @@ aEvent
 mFlags
 .
 mIsTrusted
-NS_DRAGDROP_START
+eDragStart
 widget
 )
 ;
