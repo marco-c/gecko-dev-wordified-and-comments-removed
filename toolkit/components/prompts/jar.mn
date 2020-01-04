@@ -72,7 +72,6 @@ commonDialog
 js
 )
 *
-+
 content
 /
 global
@@ -144,7 +143,6 @@ tabprompts
 css
 )
 *
-+
 content
 /
 global

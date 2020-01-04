@@ -84,7 +84,6 @@ been
 changed
 from
 windows
-+
 skin
 /
 classic
@@ -94,7 +93,6 @@ global
 button
 .
 css
-+
 skin
 /
 classic
@@ -104,7 +102,6 @@ global
 checkbox
 .
 css
-+
 skin
 /
 classic
@@ -114,7 +111,6 @@ global
 dropmarker
 .
 css
-+
 skin
 /
 classic
@@ -124,7 +120,6 @@ global
 groupbox
 .
 css
-+
 skin
 /
 classic
@@ -134,7 +129,6 @@ global
 menu
 .
 css
-+
 skin
 /
 classic
@@ -144,7 +138,6 @@ global
 menulist
 .
 css
-+
 skin
 /
 classic
@@ -154,7 +147,6 @@ global
 popup
 .
 css
-+
 skin
 /
 classic
@@ -164,7 +156,6 @@ global
 radio
 .
 css
-+
 skin
 /
 classic
@@ -174,7 +165,6 @@ global
 tabbox
 .
 css
-+
 skin
 /
 classic
@@ -184,7 +174,6 @@ global
 textbox
 .
 css
-+
 skin
 /
 classic

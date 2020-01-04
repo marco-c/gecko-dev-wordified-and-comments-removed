@@ -57,7 +57,6 @@ toolkit
 .
 jar
 :
-+
 content
 /
 global
@@ -72,7 +71,6 @@ aboutMemory
 .
 js
 )
-+
 content
 /
 global
@@ -87,7 +85,6 @@ aboutMemory
 .
 xhtml
 )
-+
 content
 /
 global

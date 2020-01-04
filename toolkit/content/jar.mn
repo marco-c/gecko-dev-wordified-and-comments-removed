@@ -370,7 +370,6 @@ content
 .
 js
 *
-+
 content
 /
 global
@@ -430,7 +429,6 @@ editMenuOverlay
 .
 js
 *
-+
 content
 /
 global
@@ -446,7 +444,6 @@ finddialog
 .
 js
 *
-+
 content
 /
 global
@@ -470,7 +467,6 @@ global
 filepicker
 .
 properties
-+
 content
 /
 global
@@ -478,7 +474,6 @@ global
 globalOverlay
 .
 js
-+
 content
 /
 global
@@ -560,7 +555,6 @@ global
 viewZoomOverlay
 .
 js
-+
 content
 /
 global
@@ -658,7 +652,6 @@ datetimepicker
 xml
 )
 *
-+
 content
 /
 global
@@ -724,7 +717,6 @@ filefield
 xml
 )
 *
-+
 content
 /
 global
@@ -773,7 +765,6 @@ groupbox
 .
 xml
 )
-+
 content
 /
 global
@@ -871,7 +862,6 @@ popup
 xml
 )
 *
-+
 content
 /
 global
@@ -1069,7 +1059,6 @@ stringbundle
 xml
 )
 *
-+
 content
 /
 global
@@ -1103,7 +1092,6 @@ text
 xml
 )
 *
-+
 content
 /
 global
@@ -1153,7 +1141,6 @@ toolbarbutton
 xml
 )
 *
-+
 content
 /
 global
@@ -1171,7 +1158,6 @@ tree
 xml
 )
 *
-+
 content
 /
 global
@@ -1205,7 +1191,6 @@ videocontrols
 css
 )
 *
-+
 content
 /
 global
