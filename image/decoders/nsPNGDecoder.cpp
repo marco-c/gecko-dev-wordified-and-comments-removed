@@ -2715,10 +2715,10 @@ decoder
 >
 CheckForTransparency
 (
-decoder
--
->
-format
+SurfaceFormat
+:
+:
+B8G8R8A8
 IntRect
 (
 0
