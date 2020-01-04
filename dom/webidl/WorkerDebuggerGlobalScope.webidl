@@ -194,5 +194,14 @@ DOMString
 string
 )
 ;
+[
+Throws
+Replaceable
+]
+readonly
+attribute
+Console
+console
+;
 }
 ;

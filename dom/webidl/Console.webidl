@@ -116,6 +116,7 @@ Exposed
 (
 Window
 Worker
+WorkerDebugger
 )
 ]
 interface
