@@ -696,6 +696,8 @@ showDefaultFavicon
 null
 )
 ;
+return
+;
 }
 if
 (
