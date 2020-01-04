@@ -408,16 +408,6 @@ JS_GC_SMALL_CHUNK_SIZE
 1
 #
 Enable
-C
-+
-+
-APZ
-.
-MOZ_ANDROID_APZ
-=
-1
-#
-Enable
 checking
 that
 add
