@@ -5722,5 +5722,9 @@ audiounit_stream_device_destroy
 stream_register_device_changed_callback
 =
 audiounit_stream_register_device_changed_callback
+.
+register_device_collection_changed
+=
+NULL
 }
 ;
