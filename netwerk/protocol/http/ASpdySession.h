@@ -179,7 +179,7 @@ static
 uint32_t
 kInitialRwin
 =
-256
+12
 *
 1024
 *

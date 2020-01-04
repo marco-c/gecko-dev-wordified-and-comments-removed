@@ -460,6 +460,17 @@ mPushedStream
 push
 ;
 }
+uint32_t
+InitialRwin
+(
+)
+const
+{
+return
+mInitialRwin
+;
+}
+;
 const
 TimingStruct
 Timings
@@ -993,6 +1004,9 @@ mInvalidResponseBytesRead
 Http2PushedStream
 *
 mPushedStream
+;
+uint32_t
+mInitialRwin
 ;
 nsHttpChunkedDecoder
 *

@@ -523,6 +523,15 @@ mSpdyPushAllowance
 ;
 }
 uint32_t
+SpdyPullAllowance
+(
+)
+{
+return
+mSpdyPullAllowance
+;
+}
+uint32_t
 DefaultSpdyConcurrent
 (
 )
@@ -1662,6 +1671,9 @@ mSpdySendBufferSize
 ;
 uint32_t
 mSpdyPushAllowance
+;
+uint32_t
+mSpdyPullAllowance
 ;
 uint32_t
 mDefaultSpdyConcurrent

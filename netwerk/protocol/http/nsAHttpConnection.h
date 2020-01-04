@@ -132,6 +132,17 @@ return
 }
 virtual
 void
+TransactionHasDataToRecv
+(
+nsAHttpTransaction
+*
+)
+{
+return
+;
+}
+virtual
+void
 CloseTransaction
 (
 nsAHttpTransaction
