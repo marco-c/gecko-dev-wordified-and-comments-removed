@@ -396,7 +396,7 @@ PJavaScriptChild
 *
 c
 =
-LoneManagedOrNull
+LoneManagedOrNullAsserts
 (
 ManagedPJavaScriptChild
 (

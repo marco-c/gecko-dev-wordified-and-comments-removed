@@ -9765,7 +9765,7 @@ PCrashReporterParent
 *
 p
 =
-LoneManagedOrNull
+LoneManagedOrNullAsserts
 (
 ManagedPCrashReporterParent
 (
@@ -10700,7 +10700,7 @@ PJavaScriptParent
 *
 p
 =
-LoneManagedOrNull
+LoneManagedOrNullAsserts
 (
 ManagedPJavaScriptParent
 (
@@ -10775,7 +10775,7 @@ PTestShellParent
 *
 p
 =
-LoneManagedOrNull
+LoneManagedOrNullAsserts
 (
 ManagedPTestShellParent
 (
@@ -17026,7 +17026,7 @@ PCrashReporterParent
 *
 p
 =
-LoneManagedOrNull
+LoneManagedOrNullAsserts
 (
 ManagedPCrashReporterParent
 (

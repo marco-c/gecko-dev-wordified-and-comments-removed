@@ -419,7 +419,7 @@ TestMultiMgrsLeftChild
 *
 >
 (
-LoneManagedOrNull
+LoneManagedOrNullAsserts
 (
 ManagedPTestMultiMgrsLeftChild
 (
@@ -437,7 +437,7 @@ TestMultiMgrsRightChild
 *
 >
 (
-LoneManagedOrNull
+LoneManagedOrNullAsserts
 (
 ManagedPTestMultiMgrsRightChild
 (

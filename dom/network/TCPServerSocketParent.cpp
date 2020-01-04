@@ -253,7 +253,7 @@ PBrowserParent
 *
 browser
 =
-LoneManagedOrNull
+SingleManagedOrNull
 (
 content
 -
@@ -324,7 +324,7 @@ PBrowserParent
 *
 browser
 =
-LoneManagedOrNull
+SingleManagedOrNull
 (
 content
 -

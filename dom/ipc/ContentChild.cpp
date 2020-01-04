@@ -7659,7 +7659,7 @@ PJavaScriptChild
 *
 c
 =
-LoneManagedOrNull
+LoneManagedOrNullAsserts
 (
 ManagedPJavaScriptChild
 (
@@ -9564,7 +9564,7 @@ PCrashReporterChild
 *
 c
 =
-LoneManagedOrNull
+LoneManagedOrNullAsserts
 (
 ManagedPCrashReporterChild
 (
