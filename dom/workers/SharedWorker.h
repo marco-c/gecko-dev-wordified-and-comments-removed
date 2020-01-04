@@ -287,14 +287,6 @@ ErrorResult
 aRv
 )
 ;
-void
-NoteDeadWorker
-(
-JSContext
-*
-aCx
-)
-;
 }
 ;
 END_WORKERS_NAMESPACE
