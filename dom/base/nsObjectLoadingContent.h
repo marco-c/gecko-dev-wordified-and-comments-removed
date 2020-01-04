@@ -816,11 +816,6 @@ const
 =
 0
 ;
-bool
-mRewrittenYoutubeEmbed
-:
-1
-;
 private
 :
 enum
