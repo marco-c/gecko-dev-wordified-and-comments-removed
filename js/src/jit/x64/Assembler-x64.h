@@ -1314,6 +1314,13 @@ rbx
 static
 constexpr
 Register
+ABINonArgReg2
+=
+r10
+;
+static
+constexpr
+Register
 ABINonArgReturnReg0
 =
 r10
@@ -1335,7 +1342,7 @@ r13
 static
 constexpr
 Register
-WasmTableCallPtrReg
+WasmTableCallScratchReg
 =
 ABINonArgReg0
 ;
@@ -1345,6 +1352,13 @@ Register
 WasmTableCallSigReg
 =
 ABINonArgReg1
+;
+static
+constexpr
+Register
+WasmTableCallIndexReg
+=
+ABINonArgReg2
 ;
 static
 constexpr

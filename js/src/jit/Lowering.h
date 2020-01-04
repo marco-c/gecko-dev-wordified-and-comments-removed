@@ -2060,14 +2060,6 @@ ins
 )
 ;
 void
-visitAsmJSLoadFuncPtr
-(
-MAsmJSLoadFuncPtr
-*
-ins
-)
-;
-void
 visitAsmJSParameter
 (
 MAsmJSParameter

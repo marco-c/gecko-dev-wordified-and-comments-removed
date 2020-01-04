@@ -1369,11 +1369,6 @@ WasmStoreGlobalVar
 \
 _
 (
-AsmJSLoadFuncPtr
-)
-\
-_
-(
 AsmJSReturn
 )
 \

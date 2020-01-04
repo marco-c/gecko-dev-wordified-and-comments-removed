@@ -1958,11 +1958,6 @@ AsmJSStoreHeap
 \
 _
 (
-AsmJSLoadFuncPtr
-)
-\
-_
-(
 AsmJSParameter
 )
 \
