@@ -110,11 +110,6 @@ nsIASN1Tree
 .
 idl
 '
-'
-nsIPKIParamBlock
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
@@ -142,11 +137,6 @@ cpp
 '
 '
 nsPKIModule
-.
-cpp
-'
-'
-nsPKIParamBlock
 .
 cpp
 '
