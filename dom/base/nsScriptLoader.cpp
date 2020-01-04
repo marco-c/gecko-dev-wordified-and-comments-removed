@@ -1492,6 +1492,10 @@ mParserBlockingBlockerCount
 (
 0
 )
+mBlockerCount
+(
+0
+)
 mNumberOfProcessors
 (
 0
@@ -9355,7 +9359,9 @@ request
 }
 while
 (
-mEnabled
+ReadyToExecuteScripts
+(
+)
 &
 &
 !
@@ -9401,7 +9407,9 @@ request
 }
 while
 (
-mEnabled
+ReadyToExecuteScripts
+(
+)
 &
 &
 !
@@ -9452,6 +9460,11 @@ isEmpty
 {
 while
 (
+ReadyToExecuteScripts
+(
+)
+&
+&
 !
 mDeferRequests
 .
