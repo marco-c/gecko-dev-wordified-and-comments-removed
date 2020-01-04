@@ -13446,6 +13446,14 @@ mAudioCaptured
 return
 ;
 }
+mAudioCompleted
+=
+false
+;
+mVideoCompleted
+=
+false
+;
 MediaSink
 :
 :
