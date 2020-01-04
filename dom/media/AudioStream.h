@@ -164,12 +164,6 @@ aUnderrun
 )
 ;
 int64_t
-GetPositionUnlocked
-(
-)
-const
-;
-int64_t
 GetPositionInFrames
 (
 int64_t
