@@ -508,7 +508,7 @@ gIsShutdown
 }
 Accessible
 *
-GetOrCreateAccessible
+CreateAccessible
 (
 nsINode
 *
