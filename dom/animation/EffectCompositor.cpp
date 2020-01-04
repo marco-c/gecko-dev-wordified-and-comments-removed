@@ -1112,6 +1112,13 @@ effectSet
 return
 ;
 }
+effectSet
+-
+>
+MarkCascadeNeedsUpdate
+(
+)
+;
 for
 (
 KeyframeEffectReadOnly
