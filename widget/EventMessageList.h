@@ -590,7 +590,7 @@ eLegacyMutationEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MUTATION_NODEINSERTED
+eLegacyNodeInserted
 eLegacyMutationEventFirst
 +
 1

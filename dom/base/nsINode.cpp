@@ -7791,7 +7791,7 @@ InternalMutationEvent
 mutation
 (
 true
-NS_MUTATION_NODEINSERTED
+eLegacyNodeInserted
 )
 ;
 mutation
