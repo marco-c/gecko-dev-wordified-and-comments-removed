@@ -143,6 +143,9 @@ origin
 nsString
 deviceId
 ;
+uint64_t
+windowId
+;
 }
 ;
 struct
@@ -301,6 +304,8 @@ NotifyReceiverReady
 (
 nsString
 aSessionId
+uint64_t
+aWindowId
 )
 ;
 }

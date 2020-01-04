@@ -1017,6 +1017,10 @@ const
 nsString
 &
 aSessionId
+const
+uint64_t
+&
+aWindowId
 )
 {
 MOZ_ASSERT
@@ -1034,7 +1038,7 @@ mService
 NotifyReceiverReady
 (
 aSessionId
-0
+aWindowId
 )
 )
 )
@@ -1149,7 +1153,11 @@ aRequest
 deviceId
 (
 )
-0
+aRequest
+.
+windowId
+(
+)
 this
 )
 ;
