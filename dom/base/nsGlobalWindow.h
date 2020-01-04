@@ -6710,6 +6710,8 @@ mozilla
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 ;
 void
@@ -6758,6 +6760,8 @@ mozilla
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 ;
 void
@@ -6806,6 +6810,8 @@ mozilla
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 ;
 void
@@ -6854,6 +6860,8 @@ mozilla
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 ;
 void
@@ -6902,6 +6910,8 @@ mozilla
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 ;
 void
@@ -6950,6 +6960,8 @@ mozilla
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 ;
 void
@@ -7640,6 +7652,8 @@ width
 int32_t
 *
 height
+bool
+aCallerIsChrome
 )
 ;
 void
@@ -7651,6 +7665,8 @@ left
 int32_t
 *
 top
+bool
+aCallerIsChrome
 )
 ;
 void
@@ -7770,6 +7786,8 @@ mozilla
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 ;
 nsRect

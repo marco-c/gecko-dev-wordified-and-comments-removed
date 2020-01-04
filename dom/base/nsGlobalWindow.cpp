@@ -21319,6 +21319,8 @@ aInnerWidth
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 {
 MOZ_RELEASE_ASSERT
@@ -21349,6 +21351,7 @@ CheckSecurityWidthAndHeight
 &
 aInnerWidth
 nullptr
+aCallerIsChrome
 )
 ;
 RefPtr
@@ -21492,6 +21495,12 @@ SetInnerWidthOuter
 (
 aInnerWidth
 aError
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
 )
 aError
 )
@@ -21548,7 +21557,7 @@ int32_t
 aInnerWidth
 )
 {
-FORWARD_TO_INNER
+FORWARD_TO_OUTER
 (
 SetInnerWidth
 (
@@ -21571,10 +21580,11 @@ NS_OK
 ErrorResult
 rv
 ;
-SetInnerWidth
+SetInnerWidthOuter
 (
 aInnerWidth
 rv
+true
 )
 ;
 return
@@ -21729,6 +21739,8 @@ aInnerHeight
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 {
 MOZ_RELEASE_ASSERT
@@ -21822,6 +21834,7 @@ CheckSecurityWidthAndHeight
 nullptr
 &
 height
+aCallerIsChrome
 )
 ;
 SetCSSViewportWidthAndHeight
@@ -21877,6 +21890,7 @@ CheckSecurityWidthAndHeight
 nullptr
 &
 aInnerHeight
+aCallerIsChrome
 )
 ;
 aError
@@ -21910,6 +21924,12 @@ SetInnerHeightOuter
 (
 aInnerHeight
 aError
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
 )
 aError
 )
@@ -21966,7 +21986,7 @@ int32_t
 aInnerHeight
 )
 {
-FORWARD_TO_INNER
+FORWARD_TO_OUTER
 (
 SetInnerHeight
 (
@@ -21989,10 +22009,11 @@ NS_OK
 ErrorResult
 rv
 ;
-SetInnerHeight
+SetInnerHeightOuter
 (
 aInnerHeight
 rv
+true
 )
 ;
 return
@@ -22421,6 +22442,8 @@ aIsWidth
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 {
 MOZ_ASSERT
@@ -22470,6 +22493,7 @@ nullptr
 :
 &
 aLengthCSSPixels
+aCallerIsChrome
 )
 ;
 int32_t
@@ -22550,6 +22574,8 @@ aOuterWidth
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 {
 MOZ_RELEASE_ASSERT
@@ -22564,6 +22590,7 @@ SetOuterSize
 aOuterWidth
 true
 aError
+aCallerIsChrome
 )
 ;
 }
@@ -22586,6 +22613,12 @@ SetOuterWidthOuter
 (
 aOuterWidth
 aError
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
 )
 aError
 )
@@ -22642,7 +22675,7 @@ int32_t
 aOuterWidth
 )
 {
-FORWARD_TO_INNER
+FORWARD_TO_OUTER
 (
 SetOuterWidth
 (
@@ -22665,10 +22698,11 @@ NS_OK
 ErrorResult
 rv
 ;
-SetOuterWidth
+SetOuterWidthOuter
 (
 aOuterWidth
 rv
+true
 )
 ;
 return
@@ -22690,6 +22724,8 @@ aOuterHeight
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 {
 MOZ_RELEASE_ASSERT
@@ -22704,6 +22740,7 @@ SetOuterSize
 aOuterHeight
 false
 aError
+aCallerIsChrome
 )
 ;
 }
@@ -22726,6 +22763,12 @@ SetOuterHeightOuter
 (
 aOuterHeight
 aError
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
 )
 aError
 )
@@ -22782,7 +22825,7 @@ int32_t
 aOuterHeight
 )
 {
-FORWARD_TO_INNER
+FORWARD_TO_OUTER
 (
 SetOuterHeight
 (
@@ -22805,10 +22848,11 @@ NS_OK
 ErrorResult
 rv
 ;
-SetOuterHeight
+SetOuterHeightOuter
 (
 aOuterHeight
 rv
+true
 )
 ;
 return
@@ -24058,6 +24102,8 @@ aScreenX
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 {
 MOZ_RELEASE_ASSERT
@@ -24127,6 +24173,7 @@ CheckSecurityLeftAndTop
 &
 aScreenX
 nullptr
+aCallerIsChrome
 )
 ;
 x
@@ -24167,6 +24214,12 @@ SetScreenXOuter
 (
 aScreenX
 aError
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
 )
 aError
 )
@@ -24223,7 +24276,7 @@ int32_t
 aScreenX
 )
 {
-FORWARD_TO_INNER
+FORWARD_TO_OUTER
 (
 SetScreenX
 (
@@ -24246,10 +24299,11 @@ NS_OK
 ErrorResult
 rv
 ;
-SetScreenX
+SetScreenXOuter
 (
 aScreenX
 rv
+true
 )
 ;
 return
@@ -24400,6 +24454,8 @@ aScreenY
 ErrorResult
 &
 aError
+bool
+aCallerIsChrome
 )
 {
 MOZ_RELEASE_ASSERT
@@ -24469,6 +24525,7 @@ CheckSecurityLeftAndTop
 nullptr
 &
 aScreenY
+aCallerIsChrome
 )
 ;
 y
@@ -24509,6 +24566,12 @@ SetScreenYOuter
 (
 aScreenY
 aError
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
 )
 aError
 )
@@ -24565,7 +24628,7 @@ int32_t
 aScreenY
 )
 {
-FORWARD_TO_INNER
+FORWARD_TO_OUTER
 (
 SetScreenY
 (
@@ -24588,10 +24651,11 @@ NS_OK
 ErrorResult
 rv
 ;
-SetScreenY
+SetScreenYOuter
 (
 aScreenY
 rv
+true
 )
 ;
 return
@@ -24614,6 +24678,8 @@ aWidth
 int32_t
 *
 aHeight
+bool
+aCallerIsChrome
 )
 {
 MOZ_ASSERT
@@ -24629,12 +24695,7 @@ MOZ_XUL
 if
 (
 !
-nsContentUtils
-:
-:
-IsCallerChrome
-(
-)
+aCallerIsChrome
 )
 {
 nsContentUtils
@@ -24865,6 +24926,8 @@ aLeft
 int32_t
 *
 aTop
+bool
+aCallerIsChrome
 )
 {
 MOZ_ASSERT
@@ -24877,12 +24940,7 @@ IsOuterWindow
 if
 (
 !
-nsContentUtils
-:
-:
-IsCallerChrome
-(
-)
+aCallerIsChrome
 )
 {
 #
@@ -32198,6 +32256,7 @@ width
 cssPos
 .
 height
+aCallerIsChrome
 )
 ;
 nsIntSize
@@ -32431,6 +32490,7 @@ width
 cssPos
 .
 height
+aCallerIsChrome
 )
 ;
 nsIntSize
@@ -32649,6 +32709,7 @@ width
 cssSize
 .
 height
+aCallerIsChrome
 )
 ;
 nsIntSize
@@ -32946,6 +33007,7 @@ width
 cssSize
 .
 height
+aCallerIsChrome
 )
 ;
 nsIntSize
@@ -33205,6 +33267,7 @@ width
 cssSize
 .
 height
+aCallerIsChrome
 )
 ;
 nsIntSize
