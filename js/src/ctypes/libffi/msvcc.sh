@@ -543,8 +543,6 @@ clang
 -
 cl
 "
-safeseh
-=
 shift
 1
 ;
