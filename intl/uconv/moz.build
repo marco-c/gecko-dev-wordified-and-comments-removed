@@ -106,11 +106,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsICurrentCharsetListener
-.
-idl
-'
-'
 nsIScriptableUConv
 .
 idl
