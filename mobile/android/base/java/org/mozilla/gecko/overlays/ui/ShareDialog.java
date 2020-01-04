@@ -170,7 +170,7 @@ gecko
 .
 mozglue
 .
-ContextUtils
+SafeIntentUtils
 ;
 import
 org
@@ -1003,7 +1003,7 @@ final
 String
 extraText
 =
-ContextUtils
+SafeIntentUtils
 .
 getStringExtra
 (

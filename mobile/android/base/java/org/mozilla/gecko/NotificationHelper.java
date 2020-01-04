@@ -60,7 +60,7 @@ gecko
 .
 mozglue
 .
-ContextUtils
+SafeIntentUtils
 .
 SafeIntent
 ;

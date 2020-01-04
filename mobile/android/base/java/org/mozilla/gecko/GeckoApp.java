@@ -225,7 +225,7 @@ gecko
 .
 mozglue
 .
-ContextUtils
+SafeIntentUtils
 ;
 import
 org
@@ -236,7 +236,7 @@ gecko
 .
 mozglue
 .
-ContextUtils
+SafeIntentUtils
 .
 SafeIntent
 ;
@@ -6428,7 +6428,7 @@ launch
 Bundle
 stateBundle
 =
-ContextUtils
+SafeIntentUtils
 .
 getBundleExtra
 (
@@ -9046,7 +9046,7 @@ getRestartFromIntent
 )
 {
 return
-ContextUtils
+SafeIntentUtils
 .
 getBooleanExtra
 (

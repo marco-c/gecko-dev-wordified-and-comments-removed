@@ -174,7 +174,7 @@ gecko
 .
 mozglue
 .
-ContextUtils
+SafeIntentUtils
 ;
 import
 org
@@ -1216,7 +1216,7 @@ Activity
 {
 args
 =
-ContextUtils
+SafeIntentUtils
 .
 getStringExtra
 (

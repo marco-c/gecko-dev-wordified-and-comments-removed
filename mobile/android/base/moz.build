@@ -743,13 +743,6 @@ java
 '
 mozglue
 /
-ContextUtils
-.
-java
-'
-'
-mozglue
-/
 DirectBufferAllocator
 .
 java
@@ -779,6 +772,13 @@ java
 mozglue
 /
 NativeZip
+.
+java
+'
+'
+mozglue
+/
+SafeIntentUtils
 .
 java
 '
