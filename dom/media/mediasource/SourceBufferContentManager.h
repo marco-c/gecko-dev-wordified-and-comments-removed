@@ -184,7 +184,7 @@ media
 :
 TimeUnit
 aPlaybackTime
-uint32_t
+int64_t
 aThreshold
 media
 :

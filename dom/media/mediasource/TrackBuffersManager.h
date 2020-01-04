@@ -231,8 +231,8 @@ media
 :
 TimeUnit
 aPlaybackTime
-uint32_t
-aThreshold
+int64_t
+aThresholdReduct
 media
 :
 :
@@ -878,7 +878,7 @@ media
 TimeUnit
 &
 aPlaybackTime
-uint32_t
+int64_t
 aThreshold
 )
 ;

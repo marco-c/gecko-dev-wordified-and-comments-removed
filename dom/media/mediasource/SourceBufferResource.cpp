@@ -671,7 +671,7 @@ EvictData
 (
 uint64_t
 aPlaybackOffset
-uint32_t
+int64_t
 aThreshold
 ErrorResult
 &
