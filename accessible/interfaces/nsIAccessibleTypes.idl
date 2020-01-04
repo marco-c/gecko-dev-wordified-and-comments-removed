@@ -128,6 +128,7 @@ IA2ScrollType
 /
 [
 scriptable
+builtinclass
 uuid
 (
 05cd38b1
@@ -431,6 +432,7 @@ in
 /
 [
 scriptable
+builtinclass
 uuid
 (
 c9fbdf10
