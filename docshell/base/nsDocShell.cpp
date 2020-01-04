@@ -13236,6 +13236,9 @@ parentAsDocShell
 {
 if
 (
+mAllowPlugins
+&
+&
 NS_SUCCEEDED
 (
 parentAsDocShell
@@ -13257,6 +13260,9 @@ value
 }
 if
 (
+mAllowJavascript
+&
+&
 NS_SUCCEEDED
 (
 parentAsDocShell
@@ -13278,6 +13284,9 @@ value
 }
 if
 (
+mAllowMetaRedirects
+&
+&
 NS_SUCCEEDED
 (
 parentAsDocShell
@@ -13299,6 +13308,9 @@ value
 }
 if
 (
+mAllowSubframes
+&
+&
 NS_SUCCEEDED
 (
 parentAsDocShell
@@ -13320,6 +13332,9 @@ value
 }
 if
 (
+mAllowImages
+&
+&
 NS_SUCCEEDED
 (
 parentAsDocShell
@@ -13347,10 +13362,16 @@ parentAsDocShell
 GetAllowMedia
 (
 )
+&
+&
+mAllowMedia
 )
 ;
 if
 (
+mAllowWindowControl
+&
+&
 NS_SUCCEEDED
 (
 parentAsDocShell
@@ -13372,6 +13393,9 @@ value
 }
 SetAllowContentRetargeting
 (
+mAllowContentRetargeting
+&
+&
 parentAsDocShell
 -
 >
@@ -13439,6 +13463,9 @@ false
 }
 SetAllowDNSPrefetch
 (
+mAllowDNSPrefetch
+&
+&
 value
 )
 ;
