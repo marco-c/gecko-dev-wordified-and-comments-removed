@@ -3444,12 +3444,6 @@ sUser32BeforeBlocklist
 true
 ;
 }
-MOZ_ASSERT
-(
-!
-sUser32BeforeBlocklist
-)
-;
 NtDllIntercept
 .
 Init
