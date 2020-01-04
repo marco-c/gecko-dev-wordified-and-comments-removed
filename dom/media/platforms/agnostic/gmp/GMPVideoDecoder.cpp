@@ -482,6 +482,13 @@ Error
 (
 MediaResult
 (
+aErr
+=
+=
+GMPDecodeErr
+?
+NS_ERROR_DOM_MEDIA_DECODE_ERR
+:
 NS_ERROR_DOM_MEDIA_FATAL_ERR
 RESULT_DETAIL
 (
