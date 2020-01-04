@@ -60,9 +60,6 @@ DIRS
 "
 components
 "
-"
-atoms
-"
 ]
 JAR_MANIFESTS
 +
