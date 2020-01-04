@@ -19629,7 +19629,7 @@ pairs
 TEST_F
 (
 WebRtcIceConnectTest
-TestHostCandPairingFilter
+DISABLED_TestHostCandPairingFilter
 )
 {
 Init
