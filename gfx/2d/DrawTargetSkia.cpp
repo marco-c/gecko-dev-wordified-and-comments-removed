@@ -5019,6 +5019,8 @@ int32_t
 aStride
 SurfaceFormat
 aFormat
+bool
+aUninitialized
 )
 {
 MOZ_ASSERT
@@ -5032,6 +5034,9 @@ SurfaceFormat
 :
 B8G8R8X8
 )
+|
+|
+aUninitialized
 |
 |
 VerifyRGBXFormat

@@ -1815,6 +1815,8 @@ int32_t
 aStride
 SurfaceFormat
 aFormat
+bool
+aUninitialized
 )
 {
 MOZ_ASSERT
@@ -1905,6 +1907,7 @@ aData
 aSize
 aStride
 aFormat
+aUninitialized
 )
 ;
 retVal

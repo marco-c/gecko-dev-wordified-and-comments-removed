@@ -745,6 +745,10 @@ int32_t
 aStride
 SurfaceFormat
 aFormat
+bool
+aUninitialized
+=
+false
 )
 ;
 #
