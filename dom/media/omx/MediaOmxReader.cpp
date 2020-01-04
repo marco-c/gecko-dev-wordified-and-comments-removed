@@ -771,6 +771,9 @@ new
 OmxDecoder
 (
 mDecoder
+OwnerThread
+(
+)
 )
 ;
 if

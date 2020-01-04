@@ -383,7 +383,6 @@ get
 (
 )
 false
-nullptr
 )
 ;
 if
