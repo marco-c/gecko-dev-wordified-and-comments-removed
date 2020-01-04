@@ -3291,6 +3291,15 @@ HashTableEntry
 other
 )
 {
+if
+(
+this
+=
+=
+other
+)
+return
+;
 MOZ_ASSERT
 (
 isLive
