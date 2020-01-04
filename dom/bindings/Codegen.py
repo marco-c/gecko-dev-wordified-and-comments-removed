@@ -3559,19 +3559,6 @@ identifier
 .
 name
         
-if
-descriptor
-.
-workers
-:
-            
-prototypeID
-+
-=
-"
-_workers
-"
-        
 depth
 =
 "
@@ -14554,16 +14541,6 @@ queryInterface
 :
                 
 if
-self
-.
-descriptor
-.
-workers
-:
-                    
-continue
-                
-if
 m
 .
 isStatic
@@ -22156,60 +22133,6 @@ JSObject
 *
 '
 args
-)
-    
-def
-declare
-(
-self
-)
-:
-        
-if
-self
-.
-descriptor
-.
-workers
-:
-            
-return
-'
-'
-        
-return
-CGAbstractMethod
-.
-declare
-(
-self
-)
-    
-def
-define
-(
-self
-)
-:
-        
-if
-self
-.
-descriptor
-.
-workers
-:
-            
-return
-'
-'
-        
-return
-CGAbstractMethod
-.
-define
-(
-self
 )
     
 def
@@ -36423,12 +36346,6 @@ sourceDescription
         
 else
 :
-            
-assert
-not
-descriptor
-.
-workers
             
 if
 forceOwningType
@@ -94525,12 +94442,6 @@ for
 x
 in
 callbackDescriptors
-if
-                         
-not
-x
-.
-workers
 ]
 )
         
@@ -94557,11 +94468,6 @@ for
 x
 in
 callbackDescriptors
-if
-not
-x
-.
-workers
 ]
 )
         
