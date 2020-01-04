@@ -436,7 +436,10 @@ manager
 .
 closeIfNeeded
 (
-window
+getOwnerWindow
+(
+tab
+)
 tab
 options
 )
