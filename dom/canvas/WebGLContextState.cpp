@@ -1319,7 +1319,11 @@ if
 mBoundReadFramebuffer
 )
 {
-FBStatus
+nsCString
+fbStatusInfoIgnored
+;
+const
+auto
 status
 =
 mBoundReadFramebuffer
@@ -1327,6 +1331,8 @@ mBoundReadFramebuffer
 >
 CheckFramebufferStatus
 (
+&
+fbStatusInfoIgnored
 )
 ;
 if
@@ -1430,7 +1436,11 @@ if
 mBoundReadFramebuffer
 )
 {
-FBStatus
+nsCString
+fbStatusInfoIgnored
+;
+const
+auto
 status
 =
 mBoundReadFramebuffer
@@ -1438,6 +1448,8 @@ mBoundReadFramebuffer
 >
 CheckFramebufferStatus
 (
+&
+fbStatusInfoIgnored
 )
 ;
 if

@@ -1166,12 +1166,17 @@ fb
 return
 LOCAL_GL_FRAMEBUFFER_COMPLETE
 ;
+nsCString
+fbErrorInfo
+;
 return
 fb
 -
 >
 CheckFramebufferStatus
 (
+&
+fbErrorInfo
 )
 .
 get
@@ -6622,7 +6627,7 @@ rwWidth
 rwHeight
 )
 {
-DummyFramebufferOperation
+DummyReadFramebufferOperation
 (
 "
 readPixels

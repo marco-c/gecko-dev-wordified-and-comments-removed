@@ -8927,7 +8927,7 @@ rwHeight
 mContext
 -
 >
-DummyFramebufferOperation
+DummyReadFramebufferOperation
 (
 funcName
 )
@@ -9331,7 +9331,7 @@ rwHeight
 mContext
 -
 >
-DummyFramebufferOperation
+DummyReadFramebufferOperation
 (
 funcName
 )
