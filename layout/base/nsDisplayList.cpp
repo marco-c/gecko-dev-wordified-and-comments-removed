@@ -2665,7 +2665,7 @@ direction
 =
 static_cast
 <
-uint32_t
+uint8_t
 >
 (
 timing

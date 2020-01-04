@@ -1299,7 +1299,7 @@ NS_STYLE_ANIMATION_DIRECTION_
 *
 constants
 .
-int32_t
+uint8_t
 direction
 ;
 nsCSSPropertyID
