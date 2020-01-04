@@ -11895,7 +11895,7 @@ filesize
 )
         
 if
-filesize
+installer_size
 or
 size_measurements
 :
