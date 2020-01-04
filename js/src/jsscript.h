@@ -50,13 +50,6 @@ h
 #
 include
 "
-jslock
-.
-h
-"
-#
-include
-"
 jsopcode
 .
 h

@@ -82,13 +82,6 @@ h
 #
 endif
 #
-include
-"
-jslock
-.
-h
-"
-#
 ifndef
 PERF_SPEW_DIR
 #

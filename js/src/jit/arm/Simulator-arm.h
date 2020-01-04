@@ -10,13 +10,6 @@ JS_SIMULATOR_ARM
 #
 include
 "
-jslock
-.
-h
-"
-#
-include
-"
 jit
 /
 arm

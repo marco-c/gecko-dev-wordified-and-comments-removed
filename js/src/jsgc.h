@@ -43,13 +43,6 @@ h
 #
 include
 "
-jslock
-.
-h
-"
-#
-include
-"
 js
 /
 GCAPI

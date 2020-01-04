@@ -126,14 +126,14 @@ h
 #
 include
 "
-jslock
+jsmath
 .
 h
 "
 #
 include
 "
-jsmath
+jsnspr
 .
 h
 "
