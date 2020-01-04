@@ -2301,6 +2301,8 @@ imageData
 CryptoKey
 *
 key
+=
+nullptr
 ;
 if
 (
@@ -2348,6 +2350,8 @@ MOZ_WEBRTC
 RTCCertificate
 *
 cert
+=
+nullptr
 ;
 if
 (
@@ -2466,6 +2470,8 @@ MOZ_NFC
 MozNDEFRecord
 *
 ndefRecord
+=
+nullptr
 ;
 if
 (
