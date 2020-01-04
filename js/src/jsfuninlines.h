@@ -396,7 +396,11 @@ script
 return
 nullptr
 ;
-RootedObject
+Rooted
+<
+StaticScope
+*
+>
 staticScope
 (
 cx

@@ -395,7 +395,7 @@ function_
 ;
 }
 inline
-JSObject
+StaticScope
 *
 LazyScript
 :
@@ -416,7 +416,10 @@ enclosingScope
 }
 }
 inline
-JSObject
+js
+:
+:
+StaticScope
 *
 JSScript
 :

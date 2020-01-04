@@ -592,7 +592,11 @@ cx
 scope
 )
 ;
-RootedObject
+Rooted
+<
+StaticScope
+*
+>
 enclosingScope
 (
 cx
