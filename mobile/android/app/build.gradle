@@ -150,7 +150,7 @@ javaMaxHeapSize
 lintOptions
 {
 abortOnError
-false
+true
 }
 buildTypes
 {
