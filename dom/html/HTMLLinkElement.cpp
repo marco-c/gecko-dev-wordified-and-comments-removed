@@ -1872,6 +1872,9 @@ preconnect
 "
 icon
 "
+"
+search
+"
 nullptr
 }
 ;
