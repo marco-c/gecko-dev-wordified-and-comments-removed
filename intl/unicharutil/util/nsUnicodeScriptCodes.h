@@ -44,7 +44,7 @@ mScriptCode
 ;
 unsigned
 char
-mUnused
+mPairedBracketType
 :
 3
 ;
