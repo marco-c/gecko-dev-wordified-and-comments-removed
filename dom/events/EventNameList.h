@@ -450,7 +450,7 @@ eEditorInputEventClass
 EVENT
 (
 invalid
-NS_FORM_INVALID
+eFormInvalid
 EventNameType_HTMLXUL
 eBasicEventClass
 )
