@@ -1234,6 +1234,11 @@ downloadTypeIcon
 >
 <
 vbox
+id
+=
+"
+downloadsSummaryChildBox
+"
 >
 <
 description
