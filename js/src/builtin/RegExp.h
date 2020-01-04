@@ -400,6 +400,15 @@ index
 )
 ;
 extern
+int32_t
+GetFirstDollarIndexRawFlat
+(
+JSLinearString
+*
+text
+)
+;
+extern
 bool
 regexp_construct
 (
