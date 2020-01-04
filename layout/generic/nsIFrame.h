@@ -6437,7 +6437,10 @@ return
 true
 ;
 }
-bool
+Maybe
+<
+nsRect
+>
 GetClipPropClipRect
 (
 const
@@ -6448,9 +6451,6 @@ const
 nsStyleEffects
 *
 aEffects
-nsRect
-*
-aRect
 const
 nsSize
 &
