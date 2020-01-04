@@ -154,7 +154,7 @@ echo
 2
 .
 Log
-In
+in
 using
 your
 Mozilla
@@ -293,12 +293,9 @@ releng
 ateam
 a
 sheriff
-or
 mratcliffe
-mozilla
-.
-com
-.
+or
+jryans
 "
 exit
 1
