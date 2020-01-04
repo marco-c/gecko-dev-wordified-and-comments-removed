@@ -191,13 +191,6 @@ GetDC
 (
 )
 ;
-HDC
-GetDCWithClip
-(
-gfxContext
-*
-)
-;
 already_AddRefed
 <
 gfxImageSurface

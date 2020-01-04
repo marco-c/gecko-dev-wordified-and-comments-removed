@@ -152,7 +152,13 @@ mNativeDrawFlags
 uint8_t
 mRenderState
 ;
-gfxPoint
+mozilla
+:
+:
+gfx
+:
+:
+Point
 mDeviceOffset
 ;
 RefPtr
