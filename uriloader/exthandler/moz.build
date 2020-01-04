@@ -185,7 +185,7 @@ cocoa
 osdir
 =
 '
-win
+mac
 '
 elif
 CONFIG
