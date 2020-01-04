@@ -1011,7 +1011,7 @@ WidgetGUIEvent
 event
 (
 true
-NS_PLUGIN_ACTIVATE
+ePluginActivate
 widget
 )
 ;

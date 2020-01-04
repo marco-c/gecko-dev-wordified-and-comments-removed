@@ -85,7 +85,7 @@ eWindowEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_PLUGIN_ACTIVATE
+ePluginActivate
 eWindowEventFirst
 +
 62
