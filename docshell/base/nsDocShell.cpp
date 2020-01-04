@@ -12096,12 +12096,8 @@ nsPIDOMWindowOuter
 >
 domWin
 =
-do_GetInterface
+GetWindow
 (
-GetAsSupports
-(
-this
-)
 )
 ;
 if
