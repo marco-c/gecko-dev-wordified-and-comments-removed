@@ -1109,7 +1109,7 @@ aMessage
 target
 payload
 .
-triggeringPrincipal
+principalToInherit
 payload
 .
 uris

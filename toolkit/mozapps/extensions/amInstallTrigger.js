@@ -466,7 +466,7 @@ XPINSTALL_MIMETYPE
 ;
 installs
 .
-triggeringPrincipal
+principalToInherit
 =
 principal
 ;

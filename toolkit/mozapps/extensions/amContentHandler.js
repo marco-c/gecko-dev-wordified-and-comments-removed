@@ -214,13 +214,13 @@ null
 mimetype
 :
 XPI_CONTENT_TYPE
-triggeringPrincipal
+principalToInherit
 :
 aRequest
 .
 loadInfo
 .
-triggeringPrincipal
+principalToInherit
 callbackID
 :
 -
