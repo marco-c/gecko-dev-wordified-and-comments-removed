@@ -363,7 +363,7 @@ nsresult
 aResult
 )
 ;
-nsresult
+void
 WillInsert
 (
 mozilla
@@ -373,7 +373,7 @@ dom
 :
 :
 Selection
-*
+&
 aSelection
 bool
 *
