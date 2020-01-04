@@ -359,11 +359,14 @@ aBounds
 Rect
 (
 aToBoundsSpace
-*
+.
+TransformPoint
+(
 Point
 (
 x
 y
+)
 )
 Size
 (

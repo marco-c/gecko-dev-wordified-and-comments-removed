@@ -1702,8 +1702,11 @@ ToMatrix
 (
 userToOuterSVG
 )
-*
+.
+TransformPoint
+(
 point
+)
 ;
 RefPtr
 <

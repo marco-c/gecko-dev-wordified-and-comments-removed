@@ -497,11 +497,14 @@ GetMatrix
 (
 )
 )
-*
+.
+TransformPoint
+(
 Point
 (
 x
 y
+)
 )
 ;
 nsCOMPtr

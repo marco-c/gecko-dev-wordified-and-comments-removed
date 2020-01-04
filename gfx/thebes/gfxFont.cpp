@@ -8293,11 +8293,14 @@ mPosition
 mFontParams
 .
 matInv
-*
+.
+TransformPoint
+(
 glyph
 -
 >
 mPosition
+)
 ;
 Flush
 (
@@ -9250,7 +9253,9 @@ aDrawTarget
 GetTransform
 (
 )
-*
+.
+TransformSize
+(
 Size
 (
 1
@@ -9259,6 +9264,7 @@ Size
 0
 .
 0
+)
 )
 ;
 if
@@ -9616,7 +9622,9 @@ drawOptions
 fontParams
 .
 matInv
-*
+.
+TransformPoint
+(
 gfx
 :
 :
@@ -9628,6 +9636,7 @@ x
 devPt
 .
 y
+)
 )
 aGlyphID
 )

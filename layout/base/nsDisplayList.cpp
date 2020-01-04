@@ -31442,7 +31442,9 @@ Point3D
 transformed
 =
 matrix
-*
+.
+TransformPoint
+(
 Point3D
 (
 point2d
@@ -31452,6 +31454,7 @@ point2d
 .
 y
 0
+)
 )
 ;
 return
@@ -34058,9 +34061,6 @@ mOpacity
 1
 .
 0f
-&
-&
-mHandleOpacity
 )
 {
 first
@@ -34809,9 +34809,6 @@ mOpacity
 1
 .
 0f
-&
-&
-mHandleOpacity
 )
 {
 first

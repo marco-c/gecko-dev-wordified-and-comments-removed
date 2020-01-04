@@ -1108,8 +1108,11 @@ Point
 transformedPoint
 =
 inverse
-*
+.
+TransformPoint
+(
 aPoint
+)
 ;
 CGPoint
 point
@@ -1255,8 +1258,11 @@ Point
 transformedPoint
 =
 inverse
-*
+.
+TransformPoint
+(
 aPoint
+)
 ;
 CGPoint
 point

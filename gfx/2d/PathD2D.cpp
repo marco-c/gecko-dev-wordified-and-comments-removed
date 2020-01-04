@@ -992,14 +992,6 @@ bool
 aAntiClockwise
 )
 {
-MOZ_ASSERT
-(
-aRadius
->
-=
-0
-)
-;
 if
 (
 aAntiClockwise
@@ -1852,8 +1844,11 @@ pathBuilder
 mCurrentPoint
 =
 aTransform
-*
+.
+TransformPoint
+(
 mEndPoint
+)
 ;
 if
 (

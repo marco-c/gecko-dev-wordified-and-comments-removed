@@ -4410,7 +4410,9 @@ Point
 p
 =
 toRectSpace
-*
+.
+TransformPoint
+(
 gfx
 :
 :
@@ -4418,6 +4420,7 @@ Point
 (
 aX
 aY
+)
 )
 ;
 return

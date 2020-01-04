@@ -201,12 +201,15 @@ Point3D
 p0
 =
 aTransform
-*
+.
+TransformPoint
+(
 Point3D
 (
 0
 0
 0
+)
 )
 ;
 Point3D

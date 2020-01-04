@@ -810,12 +810,13 @@ aTransform
 {
 dest
 =
-(
-*
 aTransform
-)
-*
+-
+>
+TransformPoint
+(
 dest
+)
 ;
 }
 aDT

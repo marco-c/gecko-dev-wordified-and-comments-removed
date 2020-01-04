@@ -14074,13 +14074,16 @@ Point
 p
 =
 m
-*
+.
+TransformPoint
+(
 Point
 (
 advance
 /
 mFontSizeScaleFactor
 0
+)
 )
 ;
 NS_ADDREF

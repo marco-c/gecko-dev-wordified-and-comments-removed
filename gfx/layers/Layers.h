@@ -5681,7 +5681,9 @@ Point
 transformedOrig
 =
 idealTransform
-*
+.
+TransformPoint
+(
 mozilla
 :
 :
@@ -5690,6 +5692,7 @@ gfx
 :
 Point
 (
+)
 )
 ;
 #
@@ -5708,7 +5711,9 @@ Point
 transformed
 =
 idealTransform
-*
+.
+TransformPoint
+(
 mozilla
 :
 :
@@ -5723,6 +5728,7 @@ x
 mResidualTranslation
 .
 y
+)
 )
 -
 *

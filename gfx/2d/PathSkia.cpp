@@ -629,8 +629,11 @@ point
 PointToSkPoint
 (
 inverse
-*
+.
+TransformPoint
+(
 aPoint
+)
 )
 ;
 return

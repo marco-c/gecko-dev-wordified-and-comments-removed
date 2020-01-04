@@ -1554,7 +1554,9 @@ Point
 ref
 =
 viewBoxTM
-*
+.
+TransformPoint
+(
 gfx
 :
 :
@@ -1562,6 +1564,7 @@ Point
 (
 refX
 refY
+)
 )
 ;
 Matrix
