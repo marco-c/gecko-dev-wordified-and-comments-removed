@@ -357,6 +357,15 @@ SystemClock
 import
 android
 .
+support
+.
+annotation
+.
+WorkerThread
+;
+import
+android
+.
 telephony
 .
 TelephonyManager
@@ -608,6 +617,7 @@ shouldDelayLateCallbacks
 =
 false
 ;
+WorkerThread
 public
 interface
 ReadyCallback
@@ -3976,6 +3986,7 @@ Runnable
 (
 )
 {
+WorkerThread
 Override
 public
 void
