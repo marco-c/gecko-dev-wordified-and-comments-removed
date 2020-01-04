@@ -1,7 +1,3 @@
-quit
-(
-)
-;
 var
 importedArgs
 =
