@@ -18,10 +18,9 @@ if
 U_HAVE_STD_STRING
 #
 if
-!
 defined
 (
-_MSC_VER
+__GLIBCXX__
 )
 namespace
 std
