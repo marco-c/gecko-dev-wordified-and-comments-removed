@@ -223,6 +223,16 @@ checkNetwork
 ;
 }
 public
+String
+getSuggestTemplate
+(
+)
+{
+return
+mSuggestTemplate
+;
+}
+public
 ArrayList
 <
 String
