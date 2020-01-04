@@ -1624,6 +1624,9 @@ valid
 ;
 }
 }
+#
+if
+0
 TEST
 (
 stagefright_MPEG4Metadata
@@ -1823,6 +1826,8 @@ size
 }
 }
 }
+#
+endif
 TEST
 (
 stagefright_MoofParser
@@ -2061,6 +2066,9 @@ IsNull
 ;
 }
 }
+#
+if
+0
 TEST
 (
 stagefright_MoofParser
@@ -2322,6 +2330,8 @@ size
 }
 }
 }
+#
+endif
 uint8_t
 media_libstagefright_gtest_video_init_mp4
 [
