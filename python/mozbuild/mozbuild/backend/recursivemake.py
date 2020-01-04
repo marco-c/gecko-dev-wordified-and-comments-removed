@@ -27,10 +27,6 @@ itertools
 import
 chain
 from
-reftest
-import
-ReftestManifest
-from
 mozpack
 .
 manifests
@@ -7369,6 +7365,14 @@ obj
 manifest_obj_relpath
 )
         
+try
+:
+            
+from
+reftest
+import
+ReftestManifest
+            
 if
 isinstance
 (
@@ -7378,7 +7382,7 @@ manifest
 ReftestManifest
 )
 :
-            
+                
 self
 .
 backend_input_files
@@ -7389,6 +7393,12 @@ obj
 manifest
 .
 manifests
+        
+except
+ImportError
+:
+            
+pass
     
 def
 _process_local_include
