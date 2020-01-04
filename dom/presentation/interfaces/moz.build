@@ -162,6 +162,11 @@ nsIPresentationSessionTransportBuilder
 .
 idl
 '
+'
+nsIPresentationTerminateRequest
+.
+idl
+'
 ]
 if
 CONFIG

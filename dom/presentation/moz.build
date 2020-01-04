@@ -371,6 +371,11 @@ PresentationTCPSessionTransport
 .
 cpp
 '
+'
+PresentationTerminateRequest
+.
+cpp
+'
 ]
 EXTRA_COMPONENTS
 +
