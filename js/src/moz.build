@@ -1267,6 +1267,13 @@ cpp
 '
 asmjs
 /
+WasmBaselineCompile
+.
+cpp
+'
+'
+asmjs
+/
 WasmBinary
 .
 cpp

@@ -473,9 +473,13 @@ ValType
 :
 I64
 :
-#
-ifndef
-JS_CPU_X64
+if
+(
+!
+IsI64Implemented
+(
+)
+)
 return
 Fail
 (
@@ -490,8 +494,6 @@ platform
 "
 )
 ;
-#
-endif
 return
 true
 ;
