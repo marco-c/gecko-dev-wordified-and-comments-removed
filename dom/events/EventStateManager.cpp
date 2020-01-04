@@ -2896,6 +2896,8 @@ sNormalLMouseEventInProcess
 =
 false
 ;
+MOZ_FALLTHROUGH
+;
 case
 WidgetMouseEvent
 :
@@ -3021,6 +3023,8 @@ eVoidEvent
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 eMouseMove
 :
@@ -3253,6 +3257,8 @@ nsEventStatus_eConsumeNoDefault
 }
 }
 }
+MOZ_FALLTHROUGH
+;
 case
 eBeforeKeyDown
 :
@@ -5496,6 +5502,7 @@ return
 false
 ;
 }
+static
 bool
 CrossProcessSafeEvent
 (
@@ -5613,7 +5620,8 @@ true
 ;
 default
 :
-break
+return
+false
 ;
 }
 default
@@ -13135,6 +13143,8 @@ mouseEvent
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 ePointerUp
@@ -17827,6 +17837,8 @@ aMouseEvent
 refPoint
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 ePointerMove
 :
