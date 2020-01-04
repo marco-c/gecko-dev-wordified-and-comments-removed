@@ -476,6 +476,11 @@ touch
 block
 %
 p
+id
+%
+"
+PRIu64
+"
 for
 target
 %
@@ -484,6 +489,12 @@ p
 n
 "
 block
+block
+-
+>
+GetBlockId
+(
+)
 aTarget
 .
 get
