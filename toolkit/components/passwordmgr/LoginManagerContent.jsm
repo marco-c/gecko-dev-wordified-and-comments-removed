@@ -3259,6 +3259,10 @@ newPasswordField
 name
 )
 ;
+if
+(
+oldPasswordField
+)
 log
 (
 "
