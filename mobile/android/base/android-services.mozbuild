@@ -11884,15 +11884,6 @@ fxa
 /
 activities
 /
-FxAccountAbstractSetupActivity
-.
-java
-'
-'
-fxa
-/
-activities
-/
 FxAccountConfirmAccountActivityWeb
 .
 java
