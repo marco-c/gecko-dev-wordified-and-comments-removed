@@ -292,7 +292,6 @@ extern
 bool
 WillRedirect
 (
-const
 nsHttpResponseHead
 *
 response
