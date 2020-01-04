@@ -2256,7 +2256,7 @@ node
 node
 -
 >
-SetMayHaveApzAwareListeners
+SetMayBeApzAware
 (
 )
 ;

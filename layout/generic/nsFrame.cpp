@@ -9980,7 +9980,7 @@ if
 content
 -
 >
-HasApzAwareListeners
+IsNodeApzAware
 (
 )
 )

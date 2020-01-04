@@ -248,7 +248,7 @@ bool
 EventTarget
 :
 :
-HasApzAwareListeners
+IsApzAware
 (
 )
 const
