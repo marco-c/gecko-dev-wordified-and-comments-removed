@@ -283,7 +283,7 @@ aDeviceAddress
 bool
 aAccept
 const
-BluetoothPinCode
+nsAString
 &
 aPinCode
 BluetoothReplyRunnable
@@ -317,7 +317,7 @@ BluetoothAddress
 &
 aDeviceAddress
 const
-BluetoothPinCode
+nsAString
 &
 aPinCode
 BluetoothReplyRunnable
