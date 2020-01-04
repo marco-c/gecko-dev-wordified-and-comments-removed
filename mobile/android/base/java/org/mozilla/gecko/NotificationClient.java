@@ -244,7 +244,6 @@ alertText
 ;
 }
 }
-;
 public
 synchronized
 void
