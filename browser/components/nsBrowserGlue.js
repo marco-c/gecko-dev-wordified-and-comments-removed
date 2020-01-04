@@ -14822,7 +14822,7 @@ aOptions
 ;
 aOptions
 .
-displayOrigin
+displayURI
 =
 requestPrincipal
 .
