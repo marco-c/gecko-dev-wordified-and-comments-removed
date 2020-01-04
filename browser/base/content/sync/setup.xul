@@ -1668,9 +1668,6 @@ class
 text
 -
 link
-inline
--
-link
 "
 onclick
 =
@@ -1713,9 +1710,6 @@ class
 =
 "
 text
--
-link
-inline
 -
 link
 "
