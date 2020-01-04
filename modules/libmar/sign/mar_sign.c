@@ -953,8 +953,6 @@ char
 indexBuf
 =
 NULL
-*
-indexBufLoc
 ;
 if
 (
@@ -1920,10 +1918,6 @@ malloc
 (
 indexLength
 )
-;
-indexBufLoc
-=
-indexBuf
 ;
 if
 (
@@ -3712,8 +3706,6 @@ char
 indexBuf
 =
 NULL
-*
-indexBufLoc
 ;
 uint32_t
 k
@@ -4905,10 +4897,6 @@ malloc
 (
 indexLength
 )
-;
-indexBufLoc
-=
-indexBuf
 ;
 if
 (
