@@ -166,6 +166,17 @@ exponential
 "
 }
 ;
+[
+Pref
+=
+"
+dom
+.
+webaudio
+.
+enabled
+"
+]
 interface
 PannerNode
 :

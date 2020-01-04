@@ -141,6 +141,17 @@ apply
 .
 *
 /
+[
+Pref
+=
+"
+dom
+.
+webaudio
+.
+enabled
+"
+]
 interface
 DelayNode
 :

@@ -170,6 +170,17 @@ allpass
 "
 }
 ;
+[
+Pref
+=
+"
+dom
+.
+webaudio
+.
+enabled
+"
+]
 interface
 BiquadFilterNode
 :

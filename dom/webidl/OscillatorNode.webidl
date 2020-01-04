@@ -161,6 +161,17 @@ custom
 "
 }
 ;
+[
+Pref
+=
+"
+dom
+.
+webaudio
+.
+enabled
+"
+]
 interface
 OscillatorNode
 :

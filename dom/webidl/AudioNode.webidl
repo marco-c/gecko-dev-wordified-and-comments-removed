@@ -168,6 +168,17 @@ discrete
 "
 }
 ;
+[
+Pref
+=
+"
+dom
+.
+webaudio
+.
+enabled
+"
+]
 interface
 AudioNode
 :

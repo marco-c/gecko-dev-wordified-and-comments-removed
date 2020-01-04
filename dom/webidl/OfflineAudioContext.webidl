@@ -153,6 +153,15 @@ length
 float
 sampleRate
 )
+Pref
+=
+"
+dom
+.
+webaudio
+.
+enabled
+"
 ]
 interface
 OfflineAudioContext

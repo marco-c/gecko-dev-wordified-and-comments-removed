@@ -137,6 +137,17 @@ apply
 .
 *
 /
+[
+Pref
+=
+"
+dom
+.
+webaudio
+.
+enabled
+"
+]
 interface
 IIRFilterNode
 :

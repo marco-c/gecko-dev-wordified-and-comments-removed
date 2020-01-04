@@ -155,6 +155,17 @@ none
 "
 }
 ;
+[
+Pref
+=
+"
+dom
+.
+webaudio
+.
+enabled
+"
+]
 interface
 WaveShaperNode
 :
