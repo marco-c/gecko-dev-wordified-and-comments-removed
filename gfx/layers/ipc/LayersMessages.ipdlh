@@ -1311,6 +1311,9 @@ eventRegions
 TransformMatrix
 transform
 ;
+bool
+transformIsPerspective
+;
 float
 postXScale
 ;
