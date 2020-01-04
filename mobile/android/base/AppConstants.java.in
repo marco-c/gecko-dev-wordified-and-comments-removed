@@ -1124,7 +1124,7 @@ String
 MOZ_APP_BUILDID
 =
 "
-MOZ_APP_BUILDID
+MOZ_BUILDID
 "
 ;
 public

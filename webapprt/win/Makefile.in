@@ -376,7 +376,7 @@ nsis
 makensis
 .
 mk
-GRE_BUILDID
+MOZ_BUILDID
 :
 =
 (
@@ -394,10 +394,10 @@ DEFINES
 +
 =
 -
-DGRE_BUILDID
+DMOZ_BUILDID
 =
 (
-GRE_BUILDID
+MOZ_BUILDID
 )
 webapprt
 .

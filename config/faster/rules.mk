@@ -921,7 +921,7 @@ US
 profile
 \
 -
-DMOZ_APP_BUILDID
+DMOZ_BUILDID
 =
 (
 shell

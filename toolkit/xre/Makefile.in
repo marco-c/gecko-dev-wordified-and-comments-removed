@@ -203,7 +203,7 @@ endif
 endif
 #
 MOZ_SOURCE_STAMP
-GRE_BUILDID
+MOZ_BUILDID
 :
 =
 (
@@ -233,16 +233,16 @@ null
 call
 errorIfEmpty
 GRE_MILESTONE
-GRE_BUILDID
+MOZ_BUILDID
 )
 DEFINES
 +
 =
 -
-DGRE_BUILDID
+DMOZ_BUILDID
 =
 (
-GRE_BUILDID
+MOZ_BUILDID
 )
 (
 srcdir
@@ -284,7 +284,7 @@ py
 buildid
 =
 (
-GRE_BUILDID
+MOZ_BUILDID
 )
 (
 INIARGS
