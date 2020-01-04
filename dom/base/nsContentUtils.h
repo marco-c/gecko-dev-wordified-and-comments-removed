@@ -3394,16 +3394,6 @@ false
 )
 ;
 static
-nsIDocument
-*
-GetDocumentFromScriptContext
-(
-nsIScriptContext
-*
-aScriptContext
-)
-;
-static
 bool
 CheckMayLoad
 (
