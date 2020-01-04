@@ -805,7 +805,7 @@ USE_ICE
 int
 nr_stun_build_use_candidate
 (
-nr_stun_client_ice_use_candidate_params
+nr_stun_client_ice_binding_request_params
 *
 params
 nr_stun_message
