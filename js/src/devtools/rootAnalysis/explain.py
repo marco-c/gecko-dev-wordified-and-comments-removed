@@ -2,10 +2,6 @@ import
 re
 import
 argparse
-from
-collections
-import
-defaultdict
 parser
 =
 argparse
@@ -193,10 +189,8 @@ None
         
 hazardousGCFunctions
 =
-defaultdict
-(
-list
-)
+{
+}
         
 hazardOrder
 =
@@ -402,9 +396,13 @@ group
 )
                 
 hazardousGCFunctions
-[
+.
+setdefault
+(
 current_gcFunction
+[
 ]
+)
 .
 append
 (
@@ -580,27 +578,27 @@ current_func
 ]
 =
 explanation
-        
+            
 for
 gcFunction
 index
 in
 hazardOrder
 :
-            
+                
 gcHazards
 =
 hazardousGCFunctions
 [
 gcFunction
 ]
-            
+                
 if
 gcFunction
 in
 gcExplanations
 :
-                
+                    
 print
 >
 >
@@ -616,10 +614,10 @@ gcExplanations
 gcFunction
 ]
 )
-            
+                
 else
 :
-                
+                    
 print
 >
 >

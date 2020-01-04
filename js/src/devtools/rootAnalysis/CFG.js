@@ -371,9 +371,6 @@ if
 !
 isConstructor
 (
-edge
-.
-Type
 variable
 .
 Name
