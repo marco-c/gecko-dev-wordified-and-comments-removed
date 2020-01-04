@@ -253,6 +253,8 @@ nsIPrincipal
 aPrincipal
 bool
 aInsertOnly
+bool
+aHidden
 ErrorResult
 &
 aRv
@@ -354,6 +356,8 @@ aData
 nsIPrincipal
 *
 aPrincipal
+bool
+aHidden
 )
 ;
 void

@@ -923,7 +923,7 @@ const
 ;
 protected
 :
-void
+nsresult
 CacheExternalData
 (
 const
@@ -935,6 +935,8 @@ aIndex
 nsIPrincipal
 *
 aPrincipal
+bool
+aHidden
 )
 ;
 void
