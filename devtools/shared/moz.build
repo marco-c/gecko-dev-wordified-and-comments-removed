@@ -256,6 +256,11 @@ parsers
 js
 '
 '
+indentation
+.
+js
+'
+'
 Loader
 .
 jsm
