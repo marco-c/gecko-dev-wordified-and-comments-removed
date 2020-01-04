@@ -786,6 +786,16 @@ const
 0
 ;
 virtual
+void
+SetZoomableByAPZ
+(
+bool
+aZoomable
+)
+=
+0
+;
+virtual
 bool
 UsesContainerScrolling
 (
