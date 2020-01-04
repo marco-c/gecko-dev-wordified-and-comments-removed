@@ -7071,7 +7071,6 @@ frameWM
 0
 ;
 }
-}
 frameISize
 +
 =
@@ -7082,6 +7081,7 @@ IStartEnd
 frameWM
 )
 ;
+}
 nscoord
 icoord
 =
