@@ -149,6 +149,16 @@ return
 mTopLevel
 ;
 }
+bool
+IsShutdown
+(
+)
+const
+{
+return
+mShutdown
+;
+}
 virtual
 bool
 RecvEvent
