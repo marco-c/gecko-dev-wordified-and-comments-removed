@@ -9,15 +9,6 @@ include
 "
 asmjs
 /
-WasmBinary
-.
-h
-"
-#
-include
-"
-asmjs
-/
 WasmJS
 .
 h
@@ -27,7 +18,7 @@ include
 "
 asmjs
 /
-WasmTypes
+WasmModule
 .
 h
 "
@@ -69,7 +60,7 @@ cx
 ;
 }
 ;
-UniqueModule
+SharedModule
 Compile
 (
 Bytes

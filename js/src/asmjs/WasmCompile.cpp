@@ -8793,7 +8793,7 @@ return
 true
 ;
 }
-UniqueModule
+SharedModule
 wasm
 :
 :

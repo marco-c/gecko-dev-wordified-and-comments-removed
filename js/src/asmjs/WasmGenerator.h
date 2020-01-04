@@ -836,7 +836,7 @@ uint32_t
 newMinMemoryLength
 )
 ;
-UniqueModule
+SharedModule
 finish
 (
 ImportVector

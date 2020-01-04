@@ -46,13 +46,6 @@ Table
 typedef
 UniquePtr
 <
-Module
->
-UniqueModule
-;
-typedef
-UniquePtr
-<
 Instance
 >
 UniqueInstance
@@ -201,7 +194,8 @@ cx
 wasm
 :
 :
-UniqueModule
+Module
+&
 module
 HandleObject
 proto

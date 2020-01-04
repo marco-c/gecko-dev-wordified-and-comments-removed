@@ -4668,7 +4668,7 @@ elemFuncIndices
 )
 ;
 }
-UniqueModule
+SharedModule
 ModuleGenerator
 :
 :
@@ -5041,10 +5041,9 @@ return
 nullptr
 ;
 return
-js
-:
-:
-MakeUnique
+SharedModule
+(
+js_new
 <
 Module
 >
@@ -5076,6 +5075,7 @@ elemSegments_
 *
 metadata_
 bytecode
+)
 )
 ;
 }

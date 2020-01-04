@@ -1140,10 +1140,7 @@ const
 uint8_t
 *
 cursor
-UniquePtr
-<
-Module
->
+SharedModule
 *
 module
 Metadata
@@ -1378,10 +1375,7 @@ nullptr
 *
 module
 =
-js
-:
-:
-MakeUnique
+js_new
 <
 Module
 >
