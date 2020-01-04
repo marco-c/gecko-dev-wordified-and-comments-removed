@@ -13095,7 +13095,7 @@ getIdForBuiltinPanelType
 (
 PanelType
 .
-RECENT_TABS
+DEPRECATED_RECENT_TABS
 )
 )
 )

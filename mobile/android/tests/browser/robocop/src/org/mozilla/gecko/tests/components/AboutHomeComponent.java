@@ -211,9 +211,6 @@ BOOKMARKS
 PanelType
 .
 COMBINED_HISTORY
-PanelType
-.
-RECENT_TABS
 )
 ;
 private
