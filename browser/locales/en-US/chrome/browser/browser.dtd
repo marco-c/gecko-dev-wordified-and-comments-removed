@@ -1875,6 +1875,17 @@ Bookmarks
 <
 !
 ENTITY
+recentBookmarks
+.
+label
+"
+Recently
+Bookmarked
+"
+>
+<
+!
+ENTITY
 unsortedBookmarksCmd
 .
 label
