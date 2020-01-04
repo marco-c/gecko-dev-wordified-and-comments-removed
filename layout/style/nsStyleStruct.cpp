@@ -3135,7 +3135,7 @@ GetQuotePairs
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 if
@@ -3149,7 +3149,7 @@ mListStylePosition
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 if
@@ -3446,7 +3446,7 @@ mBoxOrdinal
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 return
@@ -3674,7 +3674,7 @@ mColumnCount
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 if
@@ -7595,7 +7595,7 @@ mLayoutStrategy
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 return
@@ -7724,7 +7724,7 @@ mBorderCollapse
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 if
@@ -15518,7 +15518,7 @@ mResetCount
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 uint32_t
@@ -15552,7 +15552,7 @@ ix
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 }
@@ -15612,7 +15612,7 @@ mCounter
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 }
@@ -15672,7 +15672,7 @@ mCounter
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 }
@@ -16495,7 +16495,7 @@ WhiteSpaceOrNewlineIsSignificant
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 if
@@ -17407,7 +17407,7 @@ mUserInput
 hint
 |
 =
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 else
@@ -17641,7 +17641,7 @@ mForceBrokenImageIcon
 )
 {
 return
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 if
