@@ -14,7 +14,7 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+FennecJNIWrappers
 .
 h
 "

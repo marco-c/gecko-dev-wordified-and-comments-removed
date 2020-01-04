@@ -470,6 +470,13 @@ h
 #
 include
 "
+FennecJNINatives
+.
+h
+"
+#
+include
+"
 GeneratedJNINatives
 .
 h

@@ -22,7 +22,7 @@ h
 #
 include
 "
-GeneratedJNINatives
+FennecJNINatives
 .
 h
 "
