@@ -5590,6 +5590,10 @@ mComposingWindow
 mDispatcher
 ?
 mDispatcher
+.
+get
+(
+)
 :
 aWindow
 -
