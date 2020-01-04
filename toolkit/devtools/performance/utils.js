@@ -491,6 +491,7 @@ let
 sites
 timestamps
 frames
+sizes
 }
 =
 allocations
@@ -824,6 +825,10 @@ timestamps
 [
 i
 ]
+sizes
+[
+i
+]
 ]
 ;
 }
@@ -902,6 +907,11 @@ slot
 +
 +
 time
+:
+slot
++
++
+size
 :
 slot
 +

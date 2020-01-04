@@ -60,7 +60,7 @@ getAllocations
 (
 )
 .
-timestamps
+sizes
 .
 length
 )

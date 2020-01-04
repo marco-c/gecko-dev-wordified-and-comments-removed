@@ -814,7 +814,7 @@ frames
 :
 [
 ]
-counts
+sizes
 :
 [
 ]
@@ -1231,7 +1231,7 @@ frames
 :
 [
 ]
-counts
+sizes
 :
 [
 ]
@@ -1564,6 +1564,9 @@ sites
 allocationsTimestamps
 :
 timestamps
+allocationSizes
+:
+sizes
 frames
 }
 =
@@ -1613,6 +1616,18 @@ _allocations
 .
 frames
 frames
+)
+;
+RecordingUtils
+.
+pushAll
+(
+this
+.
+_allocations
+.
+sizes
+sizes
 )
 ;
 break

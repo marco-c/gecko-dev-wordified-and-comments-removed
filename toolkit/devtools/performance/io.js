@@ -562,6 +562,10 @@ frames
 :
 [
 ]
+sizes
+:
+[
+]
 }
 profile
 :
