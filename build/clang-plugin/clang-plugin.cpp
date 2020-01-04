@@ -38,7 +38,7 @@ clang
 /
 ASTMatchers
 /
-ASTMatchers
+ASTMatchFinder
 .
 h
 "
@@ -49,7 +49,7 @@ clang
 /
 ASTMatchers
 /
-ASTMatchFinder
+ASTMatchers
 .
 h
 "
