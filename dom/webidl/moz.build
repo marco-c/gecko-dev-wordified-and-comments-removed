@@ -610,6 +610,11 @@ DataTransfer
 webidl
 '
 '
+DecoderDoctorNotification
+.
+webidl
+'
+'
 DedicatedWorkerGlobalScope
 .
 webidl
