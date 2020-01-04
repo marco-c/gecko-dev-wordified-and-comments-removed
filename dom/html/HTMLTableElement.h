@@ -123,6 +123,9 @@ SetCaption
 HTMLTableCaptionElement
 *
 aCaption
+ErrorResult
+&
+aError
 )
 {
 DeleteCaption
@@ -134,12 +137,6 @@ if
 aCaption
 )
 {
-mozilla
-:
-:
-ErrorResult
-rv
-;
 nsINode
 :
 :
@@ -147,7 +144,7 @@ AppendChild
 (
 *
 aCaption
-rv
+aError
 )
 ;
 }

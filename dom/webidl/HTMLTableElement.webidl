@@ -161,6 +161,9 @@ HTMLTableElement
 :
 HTMLElement
 {
+[
+SetterThrows
+]
 attribute
 HTMLTableCaptionElement
 ?
