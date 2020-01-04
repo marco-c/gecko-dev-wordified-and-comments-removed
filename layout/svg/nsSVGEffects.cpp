@@ -10,7 +10,16 @@ include
 "
 mozilla
 /
-RestyleManager
+RestyleManagerHandle
+.
+h
+"
+#
+include
+"
+mozilla
+/
+RestyleManagerHandleInlines
 .
 h
 "
