@@ -2489,6 +2489,16 @@ Blocked
 <
 !
 ENTITY
+pref_show_web_fonts
+"
+Show
+web
+fonts
+"
+>
+<
+!
+ENTITY
 pref_tracking_protection_title
 "
 Tracking
