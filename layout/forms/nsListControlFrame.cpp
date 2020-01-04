@@ -2339,9 +2339,16 @@ else
 {
 newBSize
 =
+std
+:
+:
+min
+(
 mNumDisplayRows
 *
 blockSizeOfARow
+visibleBSize
+)
 ;
 }
 }
