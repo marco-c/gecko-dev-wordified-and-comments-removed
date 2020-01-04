@@ -1472,6 +1472,13 @@ RecvNotifyGMPsChanged
 override
 ;
 virtual
+bool
+RecvNotifyEmptyHTTPCache
+(
+)
+override
+;
+virtual
 PSpeechSynthesisChild
 *
 AllocPSpeechSynthesisChild
