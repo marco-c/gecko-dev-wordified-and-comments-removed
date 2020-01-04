@@ -798,11 +798,6 @@ AssertOwnerThread
 )
 ;
 return
-HasVideo
-(
-)
-&
-&
 !
 mIsVideoQueueFinished
 ;
@@ -1128,12 +1123,6 @@ mSeekedVideoData
 )
 ;
 return
-!
-HasVideo
-(
-)
-|
-|
 mIsVideoQueueFinished
 |
 |
@@ -1170,11 +1159,6 @@ IsVideoSeekComplete
 ;
 if
 (
-HasVideo
-(
-)
-&
-&
 !
 videoSeekComplete
 )
