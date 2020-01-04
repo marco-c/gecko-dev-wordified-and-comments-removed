@@ -252,10 +252,6 @@ oncontrollerchange
 ;
 attribute
 EventHandler
-onreloadpage
-;
-attribute
-EventHandler
 onerror
 ;
 attribute
