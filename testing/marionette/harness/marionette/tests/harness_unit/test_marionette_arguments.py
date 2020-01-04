@@ -13,7 +13,7 @@ mark
 parametrize
 (
 "
-sock_timeout_value
+socket_timeout
 "
 [
 '
@@ -37,9 +37,9 @@ A
 ]
 )
 def
-test_parse_arg_socket_timeout_with_multiple_values
+test_parse_arg_socket_timeout
 (
-sock_timeout_value
+socket_timeout
 )
 :
     
@@ -56,7 +56,7 @@ socket
 -
 timeout
 '
-sock_timeout_value
+socket_timeout
 ]
     
 parser
@@ -93,7 +93,7 @@ if
 not
 _is_float_convertible
 (
-sock_timeout_value
+socket_timeout
 )
 :
         
@@ -157,7 +157,7 @@ socket_timeout
 =
 float
 (
-sock_timeout_value
+socket_timeout
 )
 if
 __name__
