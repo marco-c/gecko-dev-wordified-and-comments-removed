@@ -543,6 +543,7 @@ class
 "
 downloadButton
 downloadCancel
+downloadIconCancel
 "
 tooltiptext
 =
@@ -580,6 +581,7 @@ class
 "
 downloadButton
 downloadRetry
+downloadIconRetry
 "
 tooltiptext
 =
@@ -617,6 +619,7 @@ class
 "
 downloadButton
 downloadShow
+downloadIconShow
 "
 #
 ifdef
@@ -672,6 +675,7 @@ class
 "
 downloadButton
 downloadConfirmBlock
+downloadIconCancel
 "
 tooltiptext
 =
