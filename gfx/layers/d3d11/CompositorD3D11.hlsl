@@ -2263,7 +2263,7 @@ iBlendConfig
 y
 =
 =
-PS_MASK_2D
+PS_MASK
 )
 {
 VS_MASK_OUTPUT
