@@ -584,12 +584,6 @@ mSystemDisplayFontFamily
 PrefFontList
 mDefaultCascadeFamilies
 ;
-nsTHashtable
-<
-nsCStringHashKey
->
-mDefaultCascadeLangs
-;
 nsBaseHashtable
 <
 nsCStringHashKey
