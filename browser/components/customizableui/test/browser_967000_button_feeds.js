@@ -210,9 +210,10 @@ show
 yield
 waitForCondition
 (
-function
 (
 )
+=
+>
 !
 feedButton
 .

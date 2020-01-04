@@ -531,9 +531,10 @@ button
 yield
 waitForCondition
 (
-function
 (
 )
+=
+>
 chevron
 .
 open
@@ -744,9 +745,10 @@ sendWebSearchKeyCommand
 yield
 waitForCondition
 (
-function
 (
 )
+=
+>
 openUILinkInCalled
 )
 ;

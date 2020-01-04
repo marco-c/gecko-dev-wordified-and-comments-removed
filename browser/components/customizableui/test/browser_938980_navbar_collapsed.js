@@ -267,9 +267,10 @@ reset
 yield
 waitForCondition
 (
-function
 (
 )
+=
+>
 !
 gCustomizeMode
 .
@@ -468,9 +469,10 @@ reset
 yield
 waitForCondition
 (
-function
 (
 )
+=
+>
 !
 gCustomizeMode
 .
@@ -740,9 +742,10 @@ reset
 yield
 waitForCondition
 (
-function
 (
 )
+=
+>
 !
 gCustomizeMode
 .

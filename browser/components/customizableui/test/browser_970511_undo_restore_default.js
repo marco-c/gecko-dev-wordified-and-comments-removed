@@ -147,9 +147,10 @@ click
 yield
 waitForCondition
 (
-function
 (
 )
+=
+>
 !
 gCustomizeMode
 .

@@ -61,9 +61,10 @@ SimpleTest
 .
 doesThrow
 (
-function
 (
 )
+=
+>
 CustomizableUI
 .
 createWidget
