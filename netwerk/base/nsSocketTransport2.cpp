@@ -6488,6 +6488,17 @@ false
 ;
 if
 (
+(
+mState
+=
+=
+STATE_CONNECTING
+)
+&
+&
+mDNSRecord
+&
+&
 mSocketTransportService
 -
 >
