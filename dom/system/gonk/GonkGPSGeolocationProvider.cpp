@@ -29,6 +29,15 @@ h
 #
 include
 "
+base
+/
+task
+.
+h
+"
+#
+include
+"
 GeolocationUtil
 .
 h
@@ -3576,7 +3585,7 @@ mAGPSRILCallbacks
 endif
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -4396,7 +4405,7 @@ mInitThread
 >
 Dispatch
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -4680,7 +4689,7 @@ mInitThread
 >
 Dispatch
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

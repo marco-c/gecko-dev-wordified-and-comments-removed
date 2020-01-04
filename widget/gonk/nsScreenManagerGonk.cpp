@@ -3937,7 +3937,7 @@ NS_IsMainThread
 {
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 bool
 >

@@ -51,6 +51,15 @@ h
 #
 include
 "
+base
+/
+task
+.
+h
+"
+#
+include
+"
 GonkSensorsInterface
 .
 h

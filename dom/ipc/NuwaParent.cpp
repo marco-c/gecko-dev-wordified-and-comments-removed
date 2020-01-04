@@ -701,7 +701,7 @@ nsIRunnable
 >
 runnable
 =
-NS_NewNonOwningRunnableMethod
+NewNonOwningRunnableMethod
 (
 mContentParent
 .
@@ -855,7 +855,7 @@ nsIRunnable
 >
 runnable
 =
-NS_NewNonOwningRunnableMethodWithArgs
+NewNonOwningRunnableMethod
 <
 uint32_t
 UniquePtr

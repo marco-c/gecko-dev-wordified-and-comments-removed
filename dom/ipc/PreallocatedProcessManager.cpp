@@ -858,7 +858,7 @@ CancelableRunnable
 >
 task
 =
-NS_NewCancelableRunnableMethod
+NewCancelableRunnableMethod
 (
 this
 &

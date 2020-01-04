@@ -513,6 +513,9 @@ APZThreadUtils
 RunOnControllerThread
 (
 NewRunnableMethod
+<
+MultiTouchInput
+>
 (
 this
 &
@@ -562,6 +565,9 @@ APZThreadUtils
 RunOnControllerThread
 (
 NewRunnableMethod
+<
+MultiTouchInput
+>
 (
 this
 &

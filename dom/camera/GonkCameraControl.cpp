@@ -2966,7 +2966,7 @@ nsIRunnable
 >
 pushParametersTask
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
