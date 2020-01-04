@@ -1417,6 +1417,11 @@ p256dhKey
 this
 .
 p256dhPublicKey
+p256dhPrivateKey
+:
+this
+.
+p256dhPrivateKey
 authenticationSecret
 :
 this

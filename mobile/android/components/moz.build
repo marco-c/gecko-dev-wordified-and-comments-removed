@@ -155,6 +155,11 @@ FilePicker
 js
 '
 '
+FxAccountsPush
+.
+js
+'
+'
 HelperAppDialog
 .
 js
