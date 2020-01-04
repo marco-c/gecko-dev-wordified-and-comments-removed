@@ -181,6 +181,11 @@ aStride
 SurfaceFormat
 *
 aFormat
+IntPoint
+*
+aOrigin
+=
+nullptr
 )
 override
 ;
