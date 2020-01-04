@@ -1384,7 +1384,7 @@ result
 elif
 defined
 (
-XP_LINUX
+__GLIBC__
 )
 return
 sched_getcpu
@@ -1454,7 +1454,7 @@ number_
 elif
 defined
 (
-XP_LINUX
+__GLIBC__
 )
 return
 a
