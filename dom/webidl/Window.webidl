@@ -3294,6 +3294,7 @@ Window
 [
 Replaceable
 Throws
+UseCounter
 ]
 readonly
 attribute

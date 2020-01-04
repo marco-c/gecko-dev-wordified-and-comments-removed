@@ -137,6 +137,7 @@ External
 {
 [
 UnsafeInPrerendering
+UseCounter
 ]
 void
 addSearchEngine
