@@ -393,9 +393,10 @@ IOInterposerInit
 {
 #
 if
+!
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+RELEASE_BUILD
 )
 IOInterposer
 :
@@ -414,9 +415,10 @@ IOInterposerInit
 {
 #
 if
+!
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
+RELEASE_BUILD
 )
 IOInterposer
 :
