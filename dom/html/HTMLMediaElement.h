@@ -1226,6 +1226,14 @@ ErrorResult
 aRv
 )
 ;
+void
+SeekToNextFrame
+(
+ErrorResult
+&
+aRv
+)
+;
 double
 Duration
 (
