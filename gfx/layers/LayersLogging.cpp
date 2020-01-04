@@ -1002,7 +1002,7 @@ if
 (
 m
 .
-HasClipRect
+HasScrollClip
 (
 )
 )
@@ -1012,7 +1012,11 @@ AppendToString
 aStream
 m
 .
-ClipRect
+ScrollClip
+(
+)
+.
+GetClipRect
 (
 )
 "
