@@ -25473,6 +25473,7 @@ column
 colspan
 ;
 }
+else
 if
 (
 type
