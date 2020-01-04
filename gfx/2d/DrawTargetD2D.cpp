@@ -777,16 +777,7 @@ hr
 )
 )
 {
-gfxCriticalError
-(
-CriticalLog
-:
-:
-DefaultOptions
-(
-false
-)
-)
+gfxCriticalNote
 <
 <
 "

@@ -158,16 +158,7 @@ if
 mSurfaceValid
 )
 {
-gfxCriticalError
-(
-gfxCriticalError
-:
-:
-DefaultOptions
-(
-false
-)
-)
+gfxCriticalNote
 <
 <
 "

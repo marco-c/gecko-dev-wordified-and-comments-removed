@@ -5135,16 +5135,7 @@ height
 )
 )
 {
-gfxCriticalError
-(
-CriticalLog
-:
-:
-DefaultOptions
-(
-false
-)
-)
+gfxCriticalNote
 <
 <
 "
