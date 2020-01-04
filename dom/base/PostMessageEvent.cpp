@@ -215,6 +215,9 @@ StructuredCloneHolder
 (
 CloningSupported
 TransferringSupported
+StructuredCloneScope
+:
+:
 SameProcessSameThread
 )
 mSource

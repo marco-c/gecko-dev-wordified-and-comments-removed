@@ -57,6 +57,9 @@ StructuredCloneHolder
 (
 CloningSupported
 TransferringSupported
+StructuredCloneScope
+:
+:
 DifferentProcess
 )
 {

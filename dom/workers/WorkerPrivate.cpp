@@ -2859,6 +2859,9 @@ StructuredCloneHolder
 (
 CloningSupported
 TransferringSupported
+StructuredCloneScope
+:
+:
 SameProcessDifferentThread
 )
 {
