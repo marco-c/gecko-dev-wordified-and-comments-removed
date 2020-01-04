@@ -3353,6 +3353,14 @@ animator
 )
 ;
 }
+final
+int
+hiddenViewVisibility
+=
+View
+.
+INVISIBLE
+;
 if
 (
 animator
@@ -3389,9 +3397,7 @@ viewToHide
 .
 setVisibility
 (
-View
-.
-GONE
+hiddenViewVisibility
 )
 ;
 viewToShow
@@ -3432,9 +3438,7 @@ urlEditLayout
 .
 setVisibility
 (
-View
-.
-GONE
+hiddenViewVisibility
 )
 ;
 urlDisplayLayout
@@ -3464,9 +3468,7 @@ urlDisplayLayout
 .
 setVisibility
 (
-View
-.
-GONE
+hiddenViewVisibility
 )
 ;
 urlEditLayout
