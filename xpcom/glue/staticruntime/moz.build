@@ -203,6 +203,15 @@ LOCAL_INCLUDES
 /
 build
 '
+'
+.
+.
+/
+.
+.
+/
+threads
+'
 ]
 #
 Statically

@@ -262,6 +262,15 @@ LOCAL_INCLUDES
 /
 build
 '
+'
+.
+.
+/
+.
+.
+/
+threads
+'
 ]
 #
 Don

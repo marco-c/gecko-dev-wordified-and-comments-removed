@@ -590,6 +590,12 @@ LOCAL_INCLUDES
 /
 build
 '
+'
+.
+.
+/
+threads
+'
 ]
 if
 CONFIG
