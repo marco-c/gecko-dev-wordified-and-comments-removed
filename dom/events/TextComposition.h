@@ -310,13 +310,15 @@ mCompositionStartOffset
 ;
 }
 uint32_t
-OffsetOfTargetClause
+NativeOffsetOfTargetClause
 (
 )
 const
 {
 return
-mCompositionTargetOffset
+mCompositionStartOffset
++
+mTargetClauseOffsetInComposition
 ;
 }
 bool
@@ -485,7 +487,7 @@ uint32_t
 mCompositionStartOffset
 ;
 uint32_t
-mCompositionTargetOffset
+mTargetClauseOffsetInComposition
 ;
 bool
 mIsSynthesizedForTests
@@ -527,7 +529,7 @@ mCompositionStartOffset
 (
 0
 )
-mCompositionTargetOffset
+mTargetClauseOffsetInComposition
 (
 0
 )
