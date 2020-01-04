@@ -3488,6 +3488,13 @@ nsIScriptSecurityManager
 :
 UNKNOWN_APP_ID
 )
+mUserContextId
+(
+nsIScriptSecurityManager
+:
+:
+DEFAULT_USER_CONTEXT_ID
+)
 mParentCharsetSource
 (
 0
