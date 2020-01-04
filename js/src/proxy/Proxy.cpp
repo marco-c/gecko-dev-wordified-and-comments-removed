@@ -3951,15 +3951,10 @@ referent
 =
 MaybeForwarded
 (
-&
 proxy
 -
 >
-private_
-(
-)
-.
-toObject
+target
 (
 )
 )
