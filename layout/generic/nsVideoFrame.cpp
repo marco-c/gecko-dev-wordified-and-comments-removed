@@ -3265,8 +3265,6 @@ nsVideoFrame
 OnVisibilityChange
 (
 Visibility
-aOldVisibility
-Visibility
 aNewVisibility
 Maybe
 <
@@ -3297,7 +3295,6 @@ nsContainerFrame
 :
 OnVisibilityChange
 (
-aOldVisibility
 aNewVisibility
 aNonvisibleAction
 )
@@ -3310,7 +3307,6 @@ imageLoader
 >
 OnVisibilityChange
 (
-aOldVisibility
 aNewVisibility
 aNonvisibleAction
 )
@@ -3320,7 +3316,6 @@ nsContainerFrame
 :
 OnVisibilityChange
 (
-aOldVisibility
 aNewVisibility
 aNonvisibleAction
 )

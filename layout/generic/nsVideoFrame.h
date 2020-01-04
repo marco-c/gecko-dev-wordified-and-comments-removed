@@ -183,8 +183,6 @@ void
 OnVisibilityChange
 (
 Visibility
-aOldVisibility
-Visibility
 aNewVisibility
 Maybe
 <
