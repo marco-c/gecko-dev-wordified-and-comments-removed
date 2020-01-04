@@ -3280,13 +3280,9 @@ row_buf
 }
 ret
 =
-inflate
+PNG_INFLATE
 (
-&
 png_ptr
--
->
-zstream
 Z_SYNC_FLUSH
 )
 ;
