@@ -6548,7 +6548,7 @@ aContentRect
 ;
 virtual
 Valignment
-GetVAlign
+GetXULVAlign
 (
 )
 const

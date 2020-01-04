@@ -252,7 +252,7 @@ override
 endif
 virtual
 Valignment
-GetVAlign
+GetXULVAlign
 (
 )
 const

@@ -155,7 +155,7 @@ override
 ;
 virtual
 Valignment
-GetVAlign
+GetXULVAlign
 (
 )
 const
