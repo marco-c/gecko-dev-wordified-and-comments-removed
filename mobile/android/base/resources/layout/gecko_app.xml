@@ -299,13 +299,6 @@ id
 /
 layer_view
 "
-gecko
-:
-doinit
-=
-"
-false
-"
 android
 :
 layout_width
