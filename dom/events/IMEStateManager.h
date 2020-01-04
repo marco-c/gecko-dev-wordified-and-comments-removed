@@ -405,9 +405,9 @@ TextComposition
 GetTextCompositionFor
 (
 const
-WidgetKeyboardEvent
+WidgetCompositionEvent
 *
-aKeyboardEvent
+aCompositionEvent
 )
 ;
 static
@@ -417,10 +417,9 @@ TextComposition
 >
 GetTextCompositionFor
 (
-const
-WidgetCompositionEvent
+nsPresContext
 *
-aCompositionEvent
+aPresContext
 )
 ;
 static
