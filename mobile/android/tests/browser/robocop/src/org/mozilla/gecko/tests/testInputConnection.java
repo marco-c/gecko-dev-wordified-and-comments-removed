@@ -1073,6 +1073,15 @@ length
 )
 )
 ;
+processGeckoEvents
+(
+ic
+)
+;
+processInputConnectionEvents
+(
+)
+;
 final
 KeyEvent
 tabKey

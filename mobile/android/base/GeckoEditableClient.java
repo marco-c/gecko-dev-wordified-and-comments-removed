@@ -46,10 +46,10 @@ getEditable
 )
 ;
 void
-setUpdateGecko
+setBatchMode
 (
 boolean
-update
+isBatchMode
 )
 ;
 void
