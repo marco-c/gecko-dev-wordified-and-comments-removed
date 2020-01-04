@@ -173,6 +173,9 @@ keeping
 the
 same
 name
+"
++
+"
 and
 tabbing
 to
@@ -218,6 +221,9 @@ attribute
 keeping
 the
 name
+"
++
+"
 and
 tabbing
 to
@@ -466,7 +472,7 @@ inspector
 goPrevious
 )
 {
-var
+let
 onEditMutation
 =
 inspector

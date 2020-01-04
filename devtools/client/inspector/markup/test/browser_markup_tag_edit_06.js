@@ -430,6 +430,9 @@ fire
 ;
 \
 "
+"
++
+"
 onload
 =
 \
@@ -507,6 +510,7 @@ div
 inspector
 testActor
 )
+;
 }
 )
 ;

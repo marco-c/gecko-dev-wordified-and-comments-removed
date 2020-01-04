@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 runAddAttributesTests
 (
@@ -601,6 +606,9 @@ attributes
 have
 been
 changed
+"
++
+"
 again
 "
 )

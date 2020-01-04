@@ -6,7 +6,6 @@ strict
 const
 TEST_URL
 =
-"
 data
 :
 text
@@ -32,7 +31,6 @@ class
 /
 div
 >
-"
 ;
 add_task
 (
@@ -155,18 +153,6 @@ change
 by
 setAttribute
 "
-)
-;
-let
-container
-=
-getContainerForSelector
-(
-"
-#
-order
-"
-inspector
 )
 ;
 yield

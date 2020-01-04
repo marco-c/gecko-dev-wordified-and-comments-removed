@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 runEditOuterHTMLTests
 (
@@ -95,15 +100,6 @@ test
 selector
 inspector
 )
-;
-let
-oldNodeFront
-=
-inspector
-.
-selection
-.
-nodeFront
 ;
 let
 onUpdated

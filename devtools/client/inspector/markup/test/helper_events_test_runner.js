@@ -1,7 +1,14 @@
+"
+use
+strict
+"
+;
 function
 *
 runEventPopupTests
 (
+url
+tests
 )
 {
 let
@@ -13,7 +20,7 @@ testActor
 yield
 openInspectorForURL
 (
-TEST_URL
+url
 )
 ;
 yield
@@ -30,7 +37,7 @@ for
 let
 test
 of
-TEST_DATA
+tests
 )
 {
 yield

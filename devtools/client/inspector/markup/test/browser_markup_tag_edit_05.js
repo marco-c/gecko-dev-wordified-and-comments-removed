@@ -303,11 +303,11 @@ name
 "
 name
 "
-'
+"
 data
 -
 test
-'
+"
 :
 "
 test
@@ -347,11 +347,11 @@ schema
 expectedAttributes
 :
 {
-'
+"
 xmlns
 :
 edi
-'
+"
 :
 "
 http
@@ -399,6 +399,7 @@ div
 inspector
 testActor
 )
+;
 }
 )
 ;
