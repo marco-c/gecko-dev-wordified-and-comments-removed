@@ -515,6 +515,8 @@ nsPoint
 aPoint
 int32_t
 aTouchId
+EventClassID
+aEventClass
 )
 {
 return

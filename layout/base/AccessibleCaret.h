@@ -287,6 +287,14 @@ aCaret
 )
 const
 ;
+enum
+class
+TouchArea
+{
+Full
+CaretImage
+}
+;
 bool
 Contains
 (
@@ -294,6 +302,8 @@ const
 nsPoint
 &
 aPoint
+TouchArea
+aTouchArea
 )
 const
 ;

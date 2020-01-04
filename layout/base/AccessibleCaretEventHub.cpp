@@ -226,6 +226,8 @@ nsPoint
 aPoint
 int32_t
 aTouchId
+EventClassID
+aEventClass
 )
 override
 {
@@ -247,6 +249,7 @@ mManager
 PressCaret
 (
 aPoint
+aEventClass
 )
 )
 )
@@ -1176,6 +1179,8 @@ nsPoint
 aPoint
 int32_t
 aTouchId
+EventClassID
+aEventClass
 )
 override
 {
@@ -1216,6 +1221,7 @@ OnPress
 aContext
 aPoint
 aTouchId
+aEventClass
 )
 ;
 }
@@ -2164,6 +2170,7 @@ OnPress
 this
 point
 id
+eMouseEventClass
 )
 ;
 AC_LOGV
@@ -2494,6 +2501,7 @@ OnPress
 this
 point
 id
+eTouchEventClass
 )
 ;
 AC_LOGV

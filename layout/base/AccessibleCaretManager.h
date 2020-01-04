@@ -150,6 +150,8 @@ const
 nsPoint
 &
 aPoint
+EventClassID
+aEventClass
 )
 ;
 virtual
