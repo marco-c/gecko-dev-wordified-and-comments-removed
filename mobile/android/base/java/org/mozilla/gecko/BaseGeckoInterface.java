@@ -183,17 +183,6 @@ mProfile
 }
 Override
 public
-PromptService
-getPromptService
-(
-)
-{
-return
-null
-;
-}
-Override
-public
 Activity
 getActivity
 (
