@@ -480,9 +480,10 @@ assert
 .
 ok
 (
-function
 (
 )
+=
+>
 page
 .
 postMessage
@@ -821,9 +822,10 @@ assert
 .
 throws
 (
-function
 (
 )
+=
+>
 Page
 (
 {
@@ -862,9 +864,10 @@ assert
 .
 throws
 (
-function
 (
 )
+=
+>
 Page
 (
 {
@@ -2189,6 +2192,8 @@ function
 (
 message
 )
+{
+return
 self
 .
 postMessage
@@ -2197,6 +2202,8 @@ postMessage
 pong
 "
 )
+;
+}
 )
 ;
 '

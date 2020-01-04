@@ -121,6 +121,8 @@ filterMatchingLogins
 (
 loginInfo
 )
+{
+return
 Object
 .
 keys
@@ -130,10 +132,9 @@ this
 .
 every
 (
-function
-(
 key
-)
+=
+>
 loginInfo
 [
 key
@@ -148,6 +149,7 @@ key
 this
 )
 ;
+}
 function
 normalizeURL
 (
@@ -468,6 +470,8 @@ loginToJSON
 (
 value
 )
+{
+return
 Login
 (
 value
@@ -476,6 +480,8 @@ value
 toJSON
 (
 )
+;
+}
 exports
 .
 search

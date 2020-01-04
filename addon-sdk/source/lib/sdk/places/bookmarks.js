@@ -354,9 +354,10 @@ bookmark
 '
 toString
 :
-function
 (
 )
+=
+>
 '
 [
 object
@@ -431,9 +432,10 @@ group
 '
 toString
 :
-function
 (
 )
+=
+>
 '
 [
 object
@@ -494,9 +496,10 @@ separator
 '
 toString
 :
-function
 (
 )
+=
+>
 '
 [
 object

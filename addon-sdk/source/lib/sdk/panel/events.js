@@ -64,6 +64,8 @@ type
 data
 }
 )
+{
+return
 emit
 (
 channel
@@ -83,6 +85,7 @@ data
 }
 )
 ;
+}
 [
 "
 popupshowing
@@ -113,10 +116,9 @@ load
 .
 forEach
 (
-function
-(
 type
-)
+=
+>
 events
 .
 on

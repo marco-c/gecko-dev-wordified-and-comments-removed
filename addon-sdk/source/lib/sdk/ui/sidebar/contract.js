@@ -176,10 +176,9 @@ v
 )
 map
 :
-function
-(
 v
-)
+=
+>
 v
 .
 toString

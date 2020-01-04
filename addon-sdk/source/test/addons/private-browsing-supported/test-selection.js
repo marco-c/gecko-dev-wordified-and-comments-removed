@@ -1079,10 +1079,9 @@ getTabs
 .
 map
 (
-function
-(
 tab
-)
+=
+>
 getTabTitle
 (
 tab
@@ -1340,10 +1339,9 @@ getTabs
 .
 map
 (
-function
-(
 tab
-)
+=
+>
 getTabTitle
 (
 tab

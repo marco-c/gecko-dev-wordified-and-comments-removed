@@ -418,10 +418,9 @@ tag
 .
 map
 (
-function
-(
 uri
-)
+=
+>
 uri
 .
 spec

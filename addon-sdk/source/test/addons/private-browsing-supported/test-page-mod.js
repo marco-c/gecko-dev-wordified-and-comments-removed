@@ -157,6 +157,8 @@ openWebpage
 url
 enablePrivate
 )
+{
+return
 new
 Promise
 (
@@ -331,6 +333,8 @@ reject
 }
 }
 )
+;
+}
 exports
 [
 "

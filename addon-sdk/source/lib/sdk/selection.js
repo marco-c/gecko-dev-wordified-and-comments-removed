@@ -401,10 +401,9 @@ MOUSEUP
 .
 some
 (
-function
-(
 type
-)
+=
+>
 reason
 &
 Ci

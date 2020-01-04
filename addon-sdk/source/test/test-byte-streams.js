@@ -175,9 +175,10 @@ assert
 .
 throws
 (
-function
 (
 )
+=
+>
 stream
 .
 write
@@ -287,9 +288,10 @@ assert
 .
 throws
 (
-function
 (
 )
+=
+>
 stream
 .
 read

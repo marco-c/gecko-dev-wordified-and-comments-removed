@@ -108,6 +108,8 @@ get
 length
 (
 )
+{
+return
 listNS
 (
 this
@@ -116,12 +118,16 @@ this
 keyValueMap
 .
 length
+;
+}
 toString
 :
 function
 toString
 (
 )
+{
+return
 '
 List
 (
@@ -137,6 +143,8 @@ keyValueMap
 '
 )
 '
+;
+}
 __iterator__
 :
 function

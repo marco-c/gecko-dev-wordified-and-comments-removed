@@ -484,6 +484,8 @@ startup
 reason
 options
 )
+{
+return
 Startup
 .
 onceInitialized
@@ -638,6 +640,7 @@ void
 }
 )
 ;
+}
 function
 run
 (

@@ -406,12 +406,16 @@ browserEventHandler
 (
 e
 )
+{
+return
 actualBrowser
 .
 push
 (
 e
 )
+;
+}
 on
 (
 browserEvents

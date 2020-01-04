@@ -657,9 +657,10 @@ false
 }
 toString
 :
-function
 (
 )
+=
+>
 '
 [
 object

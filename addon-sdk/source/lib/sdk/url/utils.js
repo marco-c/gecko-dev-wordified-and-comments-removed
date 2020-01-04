@@ -156,10 +156,9 @@ getURL
 define
 (
 String
-function
-(
 url
-)
+=
+>
 url
 )
 ;

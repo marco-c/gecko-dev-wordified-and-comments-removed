@@ -1460,6 +1460,8 @@ get
 id
 (
 )
+{
+return
 (
 modelFor
 (
@@ -1472,10 +1474,14 @@ this
 )
 .
 id
+;
+}
 get
 title
 (
 )
+{
+return
 (
 modelFor
 (
@@ -1488,6 +1494,8 @@ this
 )
 .
 title
+;
+}
 set
 title
 (
@@ -1556,6 +1564,8 @@ get
 url
 (
 )
+{
+return
 (
 modelFor
 (
@@ -1568,6 +1578,8 @@ this
 )
 .
 url
+;
+}
 set
 url
 (
@@ -1638,6 +1650,8 @@ function
 (
 window
 )
+{
+return
 showSidebar
 (
 viewFor
@@ -1646,12 +1660,16 @@ window
 )
 this
 )
+;
+}
 hide
 :
 function
 (
 window
 )
+{
+return
 hideSidebar
 (
 viewFor
@@ -1660,6 +1678,8 @@ window
 )
 this
 )
+;
+}
 dispose
 :
 function

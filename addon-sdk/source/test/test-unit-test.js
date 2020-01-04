@@ -236,9 +236,10 @@ test
 .
 waitUntil
 (
-function
 (
 )
+=
+>
 true
 "
 waitUntil
@@ -251,9 +252,10 @@ pass
 .
 then
 (
-function
 (
 )
+=
+>
 test
 .
 done
@@ -1052,9 +1054,10 @@ test
 .
 waitUntil
 (
-function
 (
 )
+=
+>
 false
 )
 ;

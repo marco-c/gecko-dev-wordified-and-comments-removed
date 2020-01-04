@@ -104,6 +104,8 @@ execute
 (
 args
 )
+{
+return
 call
 .
 apply
@@ -111,6 +113,8 @@ apply
 call
 args
 )
+;
+}
 function
 promisedConcat
 (
@@ -136,10 +140,9 @@ unknown
 .
 then
 (
-function
-(
 value
-)
+=
+>
 values
 .
 concat

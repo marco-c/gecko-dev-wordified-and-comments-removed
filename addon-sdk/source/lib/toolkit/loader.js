@@ -2309,9 +2309,10 @@ toString
 {
 value
 :
-function
 (
 )
+=
+>
 toString
 writable
 :

@@ -717,12 +717,15 @@ getWindowDocShell
 (
 window
 )
+{
+return
 window
 .
 gBrowser
 .
 docShell
 ;
+}
 exports
 .
 getWindowDocShell

@@ -409,7 +409,11 @@ get
 wrappedJSObject
 (
 )
+{
+return
 this
+;
+}
 }
 )
 ;
@@ -494,7 +498,11 @@ get
 wrappedJSObject
 (
 )
+{
+return
 this
+;
+}
 observe
 :
 function
@@ -711,7 +719,11 @@ get
 wrappedJSObject
 (
 )
+{
+return
 this
+;
+}
 observe
 :
 function
@@ -922,7 +934,11 @@ get
 wrappedJSObject
 (
 )
+{
+return
 this
+;
+}
 interfaces
 :
 [

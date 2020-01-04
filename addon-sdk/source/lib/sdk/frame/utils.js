@@ -411,6 +411,8 @@ swapFrameLoaders
 from
 to
 )
+{
+return
 from
 .
 QueryInterface
@@ -424,6 +426,8 @@ swapFrameLoaders
 (
 to
 )
+;
+}
 exports
 .
 swapFrameLoaders

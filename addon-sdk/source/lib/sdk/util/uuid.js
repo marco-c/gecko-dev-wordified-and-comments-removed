@@ -73,6 +73,8 @@ uuid
 (
 id
 )
+{
+return
 id
 ?
 parseUUID
@@ -83,3 +85,6 @@ id
 generateUUID
 (
 )
+;
+}
+;

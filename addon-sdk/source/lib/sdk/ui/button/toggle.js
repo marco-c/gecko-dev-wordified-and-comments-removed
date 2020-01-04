@@ -515,6 +515,8 @@ get
 id
 (
 )
+{
+return
 this
 .
 state
@@ -522,12 +524,16 @@ state
 )
 .
 id
+;
+}
 click
 :
 function
 click
 (
 )
+{
+return
 view
 .
 click
@@ -539,6 +545,8 @@ this
 id
 )
 )
+;
+}
 }
 )
 ;

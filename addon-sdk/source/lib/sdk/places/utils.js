@@ -296,9 +296,10 @@ walk
 )
 toString
 :
-function
 (
 )
+=
+>
 '
 [
 object
@@ -512,6 +513,8 @@ fetchItem
 (
 item
 )
+{
+return
 send
 (
 '
@@ -534,6 +537,8 @@ id
 item
 }
 )
+;
+}
 exports
 .
 fetchItem

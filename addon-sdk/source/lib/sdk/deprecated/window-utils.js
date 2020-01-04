@@ -174,6 +174,8 @@ function
 getWindows
 (
 )
+{
+return
 windows
 (
 null
@@ -184,6 +186,7 @@ isPrivateBrowsingSupported
 }
 )
 ;
+}
 function
 windowIterator
 (

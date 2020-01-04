@@ -1044,6 +1044,9 @@ isIn
 n
 list
 )
+{
+  
+return
 list
 .
 indexOf
@@ -1056,6 +1059,7 @@ n
 -
 1
 ;
+}
 function
 isBetween
 (
@@ -1063,6 +1067,9 @@ n
 start
 end
 )
+{
+  
+return
 start
 <
 =
@@ -1074,6 +1081,7 @@ n
 =
 end
 ;
+}
 /
 /
 List

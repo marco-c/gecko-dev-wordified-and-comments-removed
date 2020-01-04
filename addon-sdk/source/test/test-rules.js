@@ -334,10 +334,9 @@ urls
 .
 forEach
 (
-function
-(
 url
-)
+=
+>
 rules
 .
 add

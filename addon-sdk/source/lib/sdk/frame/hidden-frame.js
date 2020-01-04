@@ -369,10 +369,9 @@ v
 .
 every
 (
-function
-(
 item
-)
+=
+>
 typeof
 (
 item
@@ -692,9 +691,10 @@ removeHiddenFrame
 ;
 unload
 (
-function
 (
 )
+=
+>
 fromIterator
 (
 cache

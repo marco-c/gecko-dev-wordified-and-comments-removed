@@ -1767,12 +1767,16 @@ popuphidden
 function
 (
 )
+{
+return
 closeBrowserWindow
 .
 call
 (
 this
 )
+;
+}
 false
 )
 ;

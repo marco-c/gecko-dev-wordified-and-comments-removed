@@ -265,6 +265,8 @@ get
 title
 (
 )
+{
+return
 getWindowTitle
 (
 windowNS
@@ -274,10 +276,14 @@ this
 .
 window
 )
+;
+}
 get
 tabs
 (
 )
+{
+return
 require
 (
 '
@@ -287,10 +293,14 @@ require
 tabs
 '
 )
+;
+}
 get
 activeTab
 (
 )
+{
+return
 require
 (
 '
@@ -302,6 +312,8 @@ tabs
 )
 .
 activeTab
+;
+}
 on
 :
 method

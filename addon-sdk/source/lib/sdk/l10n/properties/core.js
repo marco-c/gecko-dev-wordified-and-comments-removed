@@ -471,11 +471,12 @@ exports
 .
 get
 =
-function
 (
 k
 n
 )
+=
+>
 get
 (
 k
