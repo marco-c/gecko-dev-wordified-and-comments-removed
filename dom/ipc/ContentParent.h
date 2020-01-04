@@ -415,6 +415,7 @@ bool
 IsContentParent
 (
 )
+const
 override
 {
 return
@@ -570,6 +571,7 @@ bool
 IsDestroyed
 (
 )
+const
 {
 return
 !
@@ -997,12 +999,14 @@ bool
 IsAlive
 (
 )
+const
 ;
 virtual
 bool
 IsForApp
 (
 )
+const
 override
 ;
 virtual
@@ -1010,6 +1014,7 @@ bool
 IsForBrowser
 (
 )
+const
 override
 {
 return
@@ -1023,6 +1028,7 @@ bool
 IsNuwaProcess
 (
 )
+const
 ;
 #
 endif
@@ -1030,6 +1036,7 @@ bool
 IsReadyNuwaProcess
 (
 )
+const
 {
 #
 ifdef
@@ -1057,6 +1064,7 @@ GeckoChildProcessHost
 Process
 (
 )
+const
 {
 return
 mSubprocess
@@ -1066,12 +1074,14 @@ int32_t
 Pid
 (
 )
+const
 ;
 ContentParent
 *
 Opener
 (
 )
+const
 {
 return
 mOpener
@@ -1110,6 +1120,7 @@ bool
 IsKillHardAnnotationSet
 (
 )
+const
 {
 return
 mKillHardAnnotation
@@ -1125,6 +1136,7 @@ nsCString
 GetKillHardAnnotation
 (
 )
+const
 {
 return
 mKillHardAnnotation
@@ -1148,6 +1160,7 @@ ContentParentId
 ChildID
 (
 )
+const
 override
 {
 return
@@ -1170,6 +1183,7 @@ bool
 IsPreallocated
 (
 )
+const
 ;
 void
 FriendlyName
@@ -3701,11 +3715,11 @@ RecvCreateFakeVolume
 const
 nsString
 &
-fsName
+aFsName
 const
 nsString
 &
-mountPoint
+aMountPoint
 )
 override
 ;
@@ -3716,11 +3730,11 @@ RecvSetFakeVolumeState
 const
 nsString
 &
-fsName
+aFsName
 const
 int32_t
 &
-fsState
+aFsState
 )
 override
 ;

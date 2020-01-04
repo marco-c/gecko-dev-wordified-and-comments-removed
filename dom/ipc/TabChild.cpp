@@ -5354,6 +5354,7 @@ TabChild
 IsRootContentDocument
 (
 )
+const
 {
 return
 !

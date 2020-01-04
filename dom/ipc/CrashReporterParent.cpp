@@ -392,9 +392,11 @@ minidump
 mChildDumpID
 )
 )
+{
 return
 false
 ;
+}
 bool
 result
 =

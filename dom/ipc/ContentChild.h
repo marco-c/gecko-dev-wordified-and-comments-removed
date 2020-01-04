@@ -393,6 +393,7 @@ nsAString
 &
 aName
 )
+const
 ;
 void
 GetProcessName
@@ -401,11 +402,13 @@ nsACString
 &
 aName
 )
+const
 ;
 bool
 IsAlive
 (
 )
+const
 ;
 static
 void
@@ -2047,7 +2050,7 @@ RecvNotifyPhoneStateChange
 const
 nsString
 &
-state
+aState
 )
 override
 ;
@@ -2263,6 +2266,7 @@ ContentParentId
 GetID
 (
 )
+const
 {
 return
 mID
@@ -2272,6 +2276,7 @@ bool
 IsForApp
 (
 )
+const
 {
 return
 mIsForApp
@@ -2281,6 +2286,7 @@ bool
 IsForBrowser
 (
 )
+const
 {
 return
 mIsForBrowser

@@ -93,6 +93,7 @@ bool
 IsContentBridgeParent
 (
 )
+const
 override
 {
 return
@@ -181,6 +182,7 @@ ContentParentId
 ChildID
 (
 )
+const
 override
 {
 return
@@ -192,6 +194,7 @@ bool
 IsForApp
 (
 )
+const
 override
 {
 return
@@ -203,6 +206,7 @@ bool
 IsForBrowser
 (
 )
+const
 override
 {
 return
