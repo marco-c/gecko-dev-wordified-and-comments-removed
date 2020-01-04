@@ -208,16 +208,6 @@ css
 )
 skin
 /
-browser
-.
-css
-(
-browser
-.
-css
-)
-skin
-/
 content
 .
 css

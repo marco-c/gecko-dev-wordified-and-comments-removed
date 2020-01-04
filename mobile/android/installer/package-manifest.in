@@ -3449,3 +3449,17 @@ components
 dom_audiochannel
 .
 xpt
+BINPATH
+/
+components
+/
+RemoteWebNavigation
+.
+js
+BINPATH
+/
+components
+/
+remotebrowserutils
+.
+manifest
