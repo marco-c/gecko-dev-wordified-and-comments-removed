@@ -5,6 +5,7 @@ this
 .
 SharedArrayBuffer
 )
+{
 reportCompare
 (
 true
@@ -16,6 +17,7 @@ quit
 0
 )
 ;
+}
 var
 b
 ;
