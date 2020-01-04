@@ -469,6 +469,17 @@ aRate
 )
 ;
 CheckedInt64
+SaferMultDiv
+(
+int64_t
+aValue
+uint32_t
+aMul
+uint32_t
+aDiv
+)
+;
+CheckedInt64
 UsecsToFrames
 (
 int64_t

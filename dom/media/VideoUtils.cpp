@@ -166,8 +166,6 @@ layers
 :
 PlanarYCbCrImage
 ;
-static
-inline
 CheckedInt64
 SaferMultDiv
 (
@@ -203,7 +201,10 @@ aMul
 /
 aDiv
 +
+CheckedInt64
+(
 major
+)
 *
 aMul
 ;
