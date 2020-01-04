@@ -227,16 +227,6 @@ SOURCE_REVISION_URL
 =
 "
 "
-|
-|
-AppConstants
-.
-SOURCE_REVISION_URL
-=
-=
-"
-1
-"
 ;
 if
 (
