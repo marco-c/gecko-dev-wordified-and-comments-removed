@@ -145,6 +145,16 @@ Service
 .
 clientsEngine
 ;
+clientsEngine
+.
+_removeRemoteClient
+=
+id
+=
+>
+{
+}
+;
 function
 promiseStopServer
 (
