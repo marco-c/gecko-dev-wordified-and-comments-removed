@@ -628,6 +628,11 @@ testJitGVN
 cpp
 '
 '
+testJitMacroAssembler
+.
+cpp
+'
+'
 testJitMoveEmitterCycles
 -
 mips32
