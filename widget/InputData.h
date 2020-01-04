@@ -626,6 +626,8 @@ MouseType
 aType
 ButtonType
 aButtonType
+uint16_t
+aInputSource
 int16_t
 aButtons
 const
@@ -655,6 +657,10 @@ mButtonType
 (
 aButtonType
 )
+mInputSource
+(
+aInputSource
+)
 mButtons
 (
 aButtons
@@ -680,6 +686,10 @@ MOUSE_NONE
 mButtonType
 (
 NONE
+)
+mInputSource
+(
+0
 )
 mButtons
 (
@@ -732,6 +742,9 @@ mType
 ;
 ButtonType
 mButtonType
+;
+uint16_t
+mInputSource
 ;
 int16_t
 mButtons
