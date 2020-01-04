@@ -9270,10 +9270,6 @@ SetState
 DECODER_STATE_DECODING
 )
 ;
-ScheduleStateMachine
-(
-)
-;
 }
 void
 MediaDecoderStateMachine
@@ -9990,8 +9986,11 @@ SetState
 nextState
 )
 ;
-ScheduleStateMachine
+MOZ_ASSERT
 (
+IsStateMachineScheduled
+(
+)
 )
 ;
 }
