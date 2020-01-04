@@ -213,6 +213,15 @@ upstream
 ALLOW_COMPILER_WARNINGS
 =
 True
+CFLAGS
++
+=
+[
+'
+-
+DBROTLI_BUILD_PORTABLE
+'
+]
 Library
 (
 '
