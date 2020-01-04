@@ -377,13 +377,6 @@ final
 override
 ;
 NS_IMETHOD
-ExtendSelection
-(
-)
-final
-override
-;
-NS_IMETHOD
 TakeSelection
 (
 )

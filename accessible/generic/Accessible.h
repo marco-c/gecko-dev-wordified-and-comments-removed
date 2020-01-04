@@ -1245,13 +1245,6 @@ aSelect
 )
 ;
 void
-ExtendSelection
-(
-)
-{
-}
-;
-void
 TakeSelection
 (
 )
