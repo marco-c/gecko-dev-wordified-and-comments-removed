@@ -161,6 +161,7 @@ reducers
 function
 DomView
 (
+localStore
 )
 {
 addEventListener
@@ -182,6 +183,12 @@ this
 )
 true
 )
+;
+this
+.
+store
+=
+localStore
 ;
 }
 DomView
@@ -232,6 +239,8 @@ Provider
 {
 store
 :
+this
+.
 store
 }
 mainFrame
@@ -299,8 +308,13 @@ args
 }
 }
 ;
+window
+.
+view
+=
 new
 DomView
 (
+store
 )
 ;

@@ -1,6 +1,6 @@
 requestLongerTimeout
 (
-2
+10
 )
 ;
 const
