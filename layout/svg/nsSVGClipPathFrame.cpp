@@ -989,17 +989,9 @@ Point
 aExtraMasksTransform
 .
 _31
--
-devSpaceClipExtents
-.
-x
 aExtraMasksTransform
 .
 _32
--
-devSpaceClipExtents
-.
-y
 )
 )
 ;
