@@ -3535,6 +3535,10 @@ parsing
 -
 u
 argument
+(
+%
+s
+)
 :
 \
 n
@@ -3542,9 +3546,17 @@ n
 s
 "
 %
+(
+kwargs
+[
+"
+tests
+"
+]
 e
 .
 message
+)
 )
             
 sys
