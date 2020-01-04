@@ -2345,10 +2345,7 @@ mRecorder
 GetSourceMediaStream
 (
 )
-MediaInputPort
-:
-:
-FLAG_BLOCK_OUTPUT
+0
 )
 ;
 DOMMediaStream
