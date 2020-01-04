@@ -102,11 +102,6 @@ dom
 =
 [
 '
-FakeTVService
-.
-h
-'
-'
 TVChannel
 .
 h
@@ -166,11 +161,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-FakeTVService
-.
-cpp
-'
 '
 TVChannel
 .
