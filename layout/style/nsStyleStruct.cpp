@@ -10392,6 +10392,14 @@ hint
 }
 if
 (
+mAttachmentCount
+!
+=
+aOther
+.
+mAttachmentCount
+|
+|
 mBlendModeCount
 !
 =
