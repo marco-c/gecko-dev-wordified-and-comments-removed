@@ -11,7 +11,10 @@ load
 .
 html
 asserts
+-
+if
 (
+browserIsRemote
 4
 )
 load
