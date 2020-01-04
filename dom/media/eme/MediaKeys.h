@@ -234,6 +234,11 @@ aElement
 )
 ;
 void
+Unbind
+(
+)
+;
+void
 GetKeySystem
 (
 nsString
