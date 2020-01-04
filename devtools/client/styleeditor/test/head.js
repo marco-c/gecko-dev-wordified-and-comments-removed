@@ -152,8 +152,6 @@ url
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -280,8 +278,6 @@ selectedBrowser
 let
 navigating
 =
-promise
-.
 defer
 (
 )

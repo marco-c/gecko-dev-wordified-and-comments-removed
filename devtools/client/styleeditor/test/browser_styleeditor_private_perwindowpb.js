@@ -219,8 +219,6 @@ false
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -357,8 +355,6 @@ win
 let
 deferred
 =
-promise
-.
 defer
 (
 )

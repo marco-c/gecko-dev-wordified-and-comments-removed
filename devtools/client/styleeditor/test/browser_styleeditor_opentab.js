@@ -152,8 +152,6 @@ openUILinkIn
 let
 tabOpenedDefer
 =
-promise
-.
 defer
 (
 )
@@ -327,10 +325,8 @@ contextMenu
 )
 {
 let
-defer
+deferred
 =
-promise
-.
 defer
 (
 )
@@ -357,7 +353,7 @@ popupshown
 onpopupshown
 )
 ;
-defer
+deferred
 .
 resolve
 (
@@ -367,7 +363,7 @@ resolve
 )
 ;
 return
-defer
+deferred
 .
 promise
 ;
@@ -379,10 +375,8 @@ contextMenu
 )
 {
 let
-defer
+deferred
 =
-promise
-.
 defer
 (
 )
@@ -409,7 +403,7 @@ popuphidden
 popuphidden
 )
 ;
-defer
+deferred
 .
 resolve
 (
@@ -419,7 +413,7 @@ resolve
 )
 ;
 return
-defer
+deferred
 .
 promise
 ;
@@ -432,10 +426,8 @@ editor
 )
 {
 let
-defer
+deferred
 =
-promise
-.
 defer
 (
 )
@@ -468,7 +460,7 @@ then
 =
 >
 {
-defer
+deferred
 .
 resolve
 (
@@ -521,7 +513,7 @@ _window
 )
 ;
 return
-defer
+deferred
 .
 promise
 ;
@@ -534,10 +526,8 @@ editor
 )
 {
 let
-defer
+deferred
 =
-promise
-.
 defer
 (
 )
@@ -570,7 +560,7 @@ then
 =
 >
 {
-defer
+deferred
 .
 resolve
 (
@@ -623,7 +613,7 @@ _window
 )
 ;
 return
-defer
+deferred
 .
 promise
 ;
@@ -635,10 +625,8 @@ ui
 )
 {
 let
-defer
+deferred
 =
-promise
-.
 defer
 (
 )
@@ -671,7 +659,7 @@ then
 =
 >
 {
-defer
+deferred
 .
 resolve
 (
@@ -728,7 +716,7 @@ _window
 )
 ;
 return
-defer
+deferred
 .
 promise
 ;

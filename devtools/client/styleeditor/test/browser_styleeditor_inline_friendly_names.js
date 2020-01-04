@@ -264,8 +264,6 @@ ui
 let
 deferred
 =
-promise
-.
 defer
 (
 )

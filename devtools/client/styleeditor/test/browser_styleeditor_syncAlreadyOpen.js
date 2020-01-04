@@ -99,8 +99,6 @@ getSourceEditor
 let
 onEditorChange
 =
-promise
-.
 defer
 (
 )

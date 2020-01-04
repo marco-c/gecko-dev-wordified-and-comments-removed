@@ -982,8 +982,6 @@ popup
 let
 deferred
 =
-promise
-.
 defer
 (
 )

@@ -530,8 +530,6 @@ editor
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -604,8 +602,6 @@ pauseForTimeChange
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -830,8 +826,6 @@ file
 let
 deferred
 =
-promise
-.
 defer
 (
 )
