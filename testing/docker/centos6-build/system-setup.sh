@@ -2245,7 +2245,7 @@ virtualenv
 #
 sha256
 :
-wJnELXTi1SC2HdNyzZlrD6dgXAZheDT9exPHm5qaWzA
+W6lDjWqw25P3sHhrpjITjrZKncDZPjDd4rF7Mo_cbXo
 mercurial
 =
 =
@@ -2253,7 +2253,7 @@ mercurial
 .
 7
 .
-3
+2
 EOF
 peep
 install
