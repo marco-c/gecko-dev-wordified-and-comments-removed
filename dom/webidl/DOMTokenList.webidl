@@ -226,6 +226,16 @@ force
 )
 ;
 [
+Throws
+]
+boolean
+supports
+(
+DOMString
+token
+)
+;
+[
 SetterThrows
 ]
 attribute
