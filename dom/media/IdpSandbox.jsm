@@ -1413,7 +1413,7 @@ if
 !
 registrar
 .
-hasIdp
+idp
 )
 {
 throw
