@@ -3044,6 +3044,12 @@ bool
 >
 mAudioCompleted
 ;
+Maybe
+<
+bool
+>
+mPendingDormant
+;
 bool
 mNotifyMetadataBeforeFirstFrame
 ;
