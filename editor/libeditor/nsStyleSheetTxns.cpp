@@ -31,7 +31,16 @@ include
 "
 mozilla
 /
-CSSStyleSheet
+StyleSheetHandle
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StyleSheetHandleInlines
 .
 h
 "
@@ -88,8 +97,7 @@ AddStyleSheet
 nsIEditor
 *
 aEditor
-CSSStyleSheet
-*
+StyleSheetHandle
 aSheet
 )
 {
@@ -159,8 +167,7 @@ RemoveStyleSheet
 nsIEditor
 *
 aEditor
-CSSStyleSheet
-*
+StyleSheetHandle
 aSheet
 )
 {
@@ -262,8 +269,7 @@ Init
 nsIEditor
 *
 aEditor
-CSSStyleSheet
-*
+StyleSheetHandle
 aSheet
 )
 {
@@ -405,8 +411,7 @@ Init
 nsIEditor
 *
 aEditor
-CSSStyleSheet
-*
+StyleSheetHandle
 aSheet
 )
 {

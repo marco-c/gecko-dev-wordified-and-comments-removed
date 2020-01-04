@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+StyleSheetHandle
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -36,9 +45,6 @@ nsIDocument
 namespace
 mozilla
 {
-class
-CSSStyleSheet
-;
 namespace
 css
 {
@@ -189,8 +195,7 @@ StyleSheetAdded
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 bool
 aDocumentSheet
@@ -205,8 +210,7 @@ StyleSheetRemoved
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 bool
 aDocumentSheet
@@ -221,8 +225,7 @@ StyleSheetApplicableStateChanged
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 )
 =
@@ -235,8 +238,7 @@ StyleRuleChanged
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 )
 =
@@ -249,8 +251,7 @@ StyleRuleAdded
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 )
 =
@@ -263,8 +264,7 @@ StyleRuleRemoved
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 )
 =
@@ -393,8 +393,7 @@ StyleSheetAdded
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 \
 bool
@@ -413,8 +412,7 @@ StyleSheetRemoved
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 \
 bool
@@ -434,8 +432,7 @@ StyleSheetApplicableStateChanged
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 )
 override
@@ -451,8 +448,7 @@ StyleRuleChanged
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 )
 override
@@ -468,8 +464,7 @@ StyleRuleAdded
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 )
 override
@@ -485,8 +480,7 @@ StyleRuleRemoved
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 )
 override
@@ -688,8 +682,7 @@ StyleSheetAdded
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 \
 bool
@@ -710,8 +703,7 @@ StyleSheetRemoved
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 \
 bool
@@ -732,8 +724,7 @@ StyleSheetApplicableStateChanged
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 )
 \
@@ -751,8 +742,7 @@ StyleRuleChanged
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 )
 \
@@ -770,8 +760,7 @@ StyleRuleAdded
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 )
 \
@@ -789,8 +778,7 @@ StyleRuleRemoved
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aStyleSheet
 )
 \

@@ -669,6 +669,11 @@ GetStyleSheetAt
 (
 i
 )
+-
+>
+AsGecko
+(
+)
 )
 ;
 }

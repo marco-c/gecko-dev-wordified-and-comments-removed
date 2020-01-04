@@ -72,6 +72,9 @@ Element
 class
 CSSStyleSheet
 ;
+class
+ServoStyleSheet
+;
 }
 class
 nsStyleContext
@@ -230,7 +233,7 @@ AppendStyleSheet
 (
 SheetType
 aType
-CSSStyleSheet
+ServoStyleSheet
 *
 aSheet
 )
@@ -240,7 +243,7 @@ PrependStyleSheet
 (
 SheetType
 aType
-CSSStyleSheet
+ServoStyleSheet
 *
 aSheet
 )
@@ -250,7 +253,7 @@ RemoveStyleSheet
 (
 SheetType
 aType
-CSSStyleSheet
+ServoStyleSheet
 *
 aSheet
 )
@@ -265,7 +268,7 @@ nsTArray
 <
 RefPtr
 <
-CSSStyleSheet
+ServoStyleSheet
 >
 >
 &
@@ -277,10 +280,10 @@ InsertStyleSheetBefore
 (
 SheetType
 aType
-CSSStyleSheet
+ServoStyleSheet
 *
 aNewSheet
-CSSStyleSheet
+ServoStyleSheet
 *
 aReferenceSheet
 )
@@ -293,7 +296,7 @@ aType
 )
 const
 ;
-CSSStyleSheet
+ServoStyleSheet
 *
 StyleSheetAt
 (
@@ -307,7 +310,7 @@ const
 nsresult
 RemoveDocStyleSheet
 (
-CSSStyleSheet
+ServoStyleSheet
 *
 aSheet
 )
@@ -315,7 +318,7 @@ aSheet
 nsresult
 AddDocStyleSheet
 (
-CSSStyleSheet
+ServoStyleSheet
 *
 aSheet
 nsIDocument

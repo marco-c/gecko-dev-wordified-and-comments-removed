@@ -11121,6 +11121,15 @@ PreloadSlowThings
 nsLayoutStylesheetCache
 :
 :
+For
+(
+StyleBackendType
+:
+:
+Gecko
+)
+-
+>
 UserContentSheet
 (
 )

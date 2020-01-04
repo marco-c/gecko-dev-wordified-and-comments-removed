@@ -27,6 +27,15 @@ include
 "
 mozilla
 /
+StyleSheetHandle
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Text
@@ -233,9 +242,6 @@ DOMPoint
 namespace
 mozilla
 {
-class
-CSSStyleSheet
-;
 class
 ErrorResult
 ;
@@ -1069,8 +1075,7 @@ CreateTxnForAddStyleSheet
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aSheet
 AddStyleSheetTxn
 *
@@ -1084,8 +1089,7 @@ CreateTxnForRemoveStyleSheet
 mozilla
 :
 :
-CSSStyleSheet
-*
+StyleSheetHandle
 aSheet
 RemoveStyleSheetTxn
 *
