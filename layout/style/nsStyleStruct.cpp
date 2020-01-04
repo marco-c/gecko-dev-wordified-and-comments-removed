@@ -2438,7 +2438,7 @@ mOutlineOffset
 (
 0
 )
-mCachedOutlineWidth
+mActualOutlineWidth
 (
 0
 )
@@ -2528,11 +2528,11 @@ aSrc
 .
 mOutlineOffset
 )
-mCachedOutlineWidth
+mActualOutlineWidth
 (
 aSrc
 .
-mCachedOutlineWidth
+mActualOutlineWidth
 )
 mOutlineColor
 (
@@ -2577,7 +2577,7 @@ GetOutlineStyle
 )
 )
 {
-mCachedOutlineWidth
+mActualOutlineWidth
 =
 0
 ;
@@ -2603,7 +2603,7 @@ GetUnit
 eStyleUnit_Enumerated
 )
 ;
-mCachedOutlineWidth
+mActualOutlineWidth
 =
 std
 :
@@ -2629,11 +2629,11 @@ GetBorderWidthTable
 0
 )
 ;
-mCachedOutlineWidth
+mActualOutlineWidth
 =
 NS_ROUND_BORDER_TO_PIXELS
 (
-mCachedOutlineWidth
+mActualOutlineWidth
 mTwipsPerPixel
 )
 ;
@@ -2655,7 +2655,7 @@ const
 bool
 outlineWasVisible
 =
-mCachedOutlineWidth
+mActualOutlineWidth
 >
 0
 &
@@ -2670,7 +2670,7 @@ outlineIsVisible
 =
 aOther
 .
-mCachedOutlineWidth
+mActualOutlineWidth
 >
 0
 &
@@ -2791,12 +2791,12 @@ aOther
 mTwipsPerPixel
 |
 |
-mCachedOutlineWidth
+mActualOutlineWidth
 !
 =
 aOther
 .
-mCachedOutlineWidth
+mActualOutlineWidth
 )
 {
 return

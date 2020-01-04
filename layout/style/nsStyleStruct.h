@@ -5134,7 +5134,7 @@ GetOutlineWidth
 const
 {
 return
-mCachedOutlineWidth
+mActualOutlineWidth
 ;
 }
 uint8_t
@@ -5255,7 +5255,7 @@ OUTLINE_COLOR_INITIAL
 protected
 :
 nscoord
-mCachedOutlineWidth
+mActualOutlineWidth
 ;
 nscolor
 mOutlineColor
