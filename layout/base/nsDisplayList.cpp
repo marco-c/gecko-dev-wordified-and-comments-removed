@@ -2165,10 +2165,12 @@ static
 TimingFunction
 ToTimingFunction
 (
+const
 Maybe
 <
 ComputedTimingFunction
 >
+&
 aCTF
 )
 {
