@@ -714,6 +714,7 @@ panelUIOverlay
 .
 css
 )
+*
 skin
 /
 classic
@@ -850,6 +851,7 @@ summary
 .
 png
 )
+*
 skin
 /
 classic
