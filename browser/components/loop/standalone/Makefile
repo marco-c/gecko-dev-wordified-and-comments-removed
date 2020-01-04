@@ -337,6 +337,8 @@ cp
 -
 pR
 content
+/
+*
 dist
 NODE_ENV
 =
