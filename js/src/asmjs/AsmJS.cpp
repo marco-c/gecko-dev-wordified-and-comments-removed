@@ -16409,7 +16409,7 @@ names
 (
 )
 .
-Int32x4
+int32x4
 )
 {
 *
@@ -16437,7 +16437,7 @@ names
 (
 )
 .
-Float32x4
+float32x4
 )
 {
 *
@@ -16465,7 +16465,7 @@ names
 (
 )
 .
-Bool32x4
+bool32x4
 )
 {
 *
@@ -45906,7 +45906,7 @@ names
 (
 )
 .
-Int32x4
+int32x4
 ;
 case
 AsmJSSimdType_float32x4
@@ -45919,7 +45919,7 @@ names
 (
 )
 .
-Float32x4
+float32x4
 ;
 case
 AsmJSSimdType_bool32x4
@@ -45932,7 +45932,7 @@ names
 (
 )
 .
-Bool32x4
+bool32x4
 ;
 }
 MOZ_MAKE_COMPILER_ASSUME_IS_UNREACHABLE
