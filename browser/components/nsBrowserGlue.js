@@ -7467,14 +7467,10 @@ _checkForOldBuildUpdates
 ;
 if
 (
-"
-release
-"
 !
-=
 AppConstants
 .
-MOZ_UPDATE_CHANNEL
+RELEASE_BUILD
 )
 {
 this
