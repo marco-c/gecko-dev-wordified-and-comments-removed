@@ -1347,7 +1347,7 @@ signatures
 .
 required
 "
-false
+true
 )
 ;
 pref
