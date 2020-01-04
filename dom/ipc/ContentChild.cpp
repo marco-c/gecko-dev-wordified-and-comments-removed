@@ -13459,17 +13459,6 @@ LookupPluginInstanceByID
 aChildId
 )
 ;
-NS_ASSERTION
-(
-parentInstance
-"
-Expected
-matching
-plugin
-instance
-"
-)
-;
 if
 (
 parentInstance
