@@ -8162,6 +8162,10 @@ parent
 >
 GetCurrentAsyncTransformWithOverscroll
 (
+AsyncPanZoomController
+:
+:
+NORMAL
 )
 .
 Inverse
@@ -8226,6 +8230,10 @@ aApzc
 >
 GetCurrentAsyncTransformWithOverscroll
 (
+AsyncPanZoomController
+:
+:
+NORMAL
 )
 .
 Inverse

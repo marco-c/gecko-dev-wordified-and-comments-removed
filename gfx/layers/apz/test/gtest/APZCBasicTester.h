@@ -369,6 +369,10 @@ apzc
 >
 GetOverscrollTransform
 (
+AsyncPanZoomController
+:
+:
+NORMAL
 )
 ;
 if

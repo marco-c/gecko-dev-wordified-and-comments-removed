@@ -1284,6 +1284,10 @@ aOutTransform
 =
 GetCurrentAsyncTransform
 (
+AsyncPanZoomController
+:
+:
+NORMAL
 )
 ;
 }
@@ -1291,6 +1295,10 @@ aScrollOffset
 =
 GetCurrentAsyncScrollOffset
 (
+AsyncPanZoomController
+:
+:
+NORMAL
 )
 ;
 return
