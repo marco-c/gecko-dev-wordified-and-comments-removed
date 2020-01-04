@@ -9094,7 +9094,7 @@ QUERY_TEXT_CONTENT
 :
 message
 =
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 ;
 break
 ;
@@ -9315,7 +9315,7 @@ message
 )
 {
 case
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 :
 queryEvent
 .

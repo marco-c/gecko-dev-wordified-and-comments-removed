@@ -8564,7 +8564,7 @@ WidgetQueryContentEvent
 queryTextContentEvent
 (
 true
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 mLastFocusedWindow
 )
 ;
@@ -9108,7 +9108,7 @@ WidgetQueryContentEvent
 queryTextContentEvent
 (
 true
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 mLastFocusedWindow
 )
 ;

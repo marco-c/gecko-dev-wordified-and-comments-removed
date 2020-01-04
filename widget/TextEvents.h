@@ -1490,7 +1490,7 @@ NS_ASSERTION
 mMessage
 =
 =
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 "
 wrong
 initializer
@@ -1637,7 +1637,7 @@ NS_ASSERTION
 mMessage
 =
 =
-NS_QUERY_TEXT_CONTENT
+eQueryTextContent
 "
 not
 querying
