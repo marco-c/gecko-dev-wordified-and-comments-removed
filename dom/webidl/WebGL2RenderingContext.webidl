@@ -3385,7 +3385,11 @@ DOMString
 uniformNames
 )
 ;
-any
+sequence
+<
+GLint
+>
+?
 getActiveUniforms
 (
 WebGLProgram
