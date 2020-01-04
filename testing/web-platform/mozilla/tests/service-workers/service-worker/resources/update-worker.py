@@ -297,7 +297,7 @@ s
 (
 time
 .
-clock
+time
 (
 )
 extra_body
