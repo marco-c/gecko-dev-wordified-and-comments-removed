@@ -1059,7 +1059,7 @@ this
 _change
 (
 "
-update
+all
 "
 )
 ;
@@ -1079,7 +1079,7 @@ this
 _change
 (
 "
-update
+all
 "
 )
 ;
