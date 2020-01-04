@@ -40,16 +40,12 @@ gfxContext
 class
 nsSVGForeignObjectFrame
 ;
-typedef
-nsSVGDisplayContainerFrame
-nsSVGOuterSVGFrameBase
-;
 class
 nsSVGOuterSVGFrame
 final
 :
 public
-nsSVGOuterSVGFrameBase
+nsSVGDisplayContainerFrame
 public
 nsISVGSVGFrame
 {
