@@ -1030,15 +1030,11 @@ nsIDocument
 doc
 =
 mDocShell
-?
-mDocShell
 -
 >
 GetDocument
 (
 )
-:
-nullptr
 ;
 NS_ENSURE_TRUE
 (
