@@ -581,6 +581,7 @@ releaseEvent
 >
 Dispatch
 (
+NS_DISPATCH_SYNC
 )
 ;
 }
