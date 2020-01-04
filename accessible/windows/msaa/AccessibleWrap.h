@@ -98,6 +98,9 @@ namespace
 a11y
 {
 class
+DocProxyAccessibleWrap
+;
+class
 AccessibleWrap
 :
 public
@@ -582,6 +585,13 @@ mID
 ;
 #
 endif
+DocProxyAccessibleWrap
+*
+DocProxyWrapper
+(
+)
+const
+;
 static
 ITypeInfo
 *
