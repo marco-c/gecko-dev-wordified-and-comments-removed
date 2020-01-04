@@ -1527,9 +1527,10 @@ startupOnlyMigrator
 {
 get
 :
-function
 (
 )
+=
+>
 true
 }
 )

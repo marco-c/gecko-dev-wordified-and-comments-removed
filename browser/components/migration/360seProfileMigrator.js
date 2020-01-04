@@ -611,11 +611,12 @@ getHash
 aStr
 )
 {
-function
+let
 toHexString
-(
+=
 charCode
-)
+=
+>
 (
 "
 0
