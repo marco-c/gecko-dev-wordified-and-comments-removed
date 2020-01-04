@@ -317,6 +317,9 @@ js
 :
 HeapPtr
 <
+JS
+:
+:
 Value
 >
 relocatableValue
