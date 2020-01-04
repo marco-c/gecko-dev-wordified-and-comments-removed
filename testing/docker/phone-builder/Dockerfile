@@ -106,7 +106,7 @@ debugging
 ENTRYPOINT
 [
 "
-bootstrap
+validate_task
 .
 py
 "

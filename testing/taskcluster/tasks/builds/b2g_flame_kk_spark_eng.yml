@@ -152,6 +152,15 @@ flame
 -
 kk
 '
+MOZHARNESS_CONFIG
+:
+b2g
+/
+taskcluster
+-
+spark
+.
+py
 extra
 :
 treeherderEnv
