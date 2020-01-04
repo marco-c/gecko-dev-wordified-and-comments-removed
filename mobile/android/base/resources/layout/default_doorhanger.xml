@@ -230,7 +230,15 @@ gone
 /
 >
 <
-CheckBox
+android
+.
+support
+.
+v7
+.
+widget
+.
+AppCompatCheckBox
 android
 :
 id
