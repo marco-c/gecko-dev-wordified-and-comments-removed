@@ -772,7 +772,7 @@ IsH264DecoderBlacklisted
 {
 #
 ifdef
-_WIN64
+BLACKLIST_CRASHY_H264_DECODERS
 WCHAR
 systemPath
 [
