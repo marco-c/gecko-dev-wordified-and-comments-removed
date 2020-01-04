@@ -82,12 +82,10 @@ override
 void
 NotifyDecodedFrames
 (
-uint32_t
-aParsed
-uint32_t
-aDecoded
-uint32_t
-aDropped
+const
+FrameStatisticsData
+&
+aStats
 )
 final
 override

@@ -1811,9 +1811,11 @@ mFrameStats
 .
 NotifyDecodedFrames
 (
+{
 0
 0
 1
+}
 )
 ;
 VSINK_LOG_V

@@ -5149,7 +5149,9 @@ packet
 ;
 a
 .
-mParsed
+mStats
+.
+mParsedFrames
 +
 +
 ;
@@ -5234,7 +5236,9 @@ aTimeThreshold
 ;
 a
 .
-mDecoded
+mStats
+.
+mDecodedFrames
 +
 +
 ;
