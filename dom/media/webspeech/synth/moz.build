@@ -220,10 +220,6 @@ nsFakeSynthServices
 cpp
 '
 ]
-DIRS
-=
-[
-]
 if
 CONFIG
 [
