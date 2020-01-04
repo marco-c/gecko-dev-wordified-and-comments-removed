@@ -3734,6 +3734,13 @@ java
 '
 media
 /
+FullScreenMediaController
+.
+java
+'
+'
+media
+/
 JellyBeanAsyncCodec
 .
 java
@@ -3749,6 +3756,13 @@ java
 media
 /
 Sample
+.
+java
+'
+'
+media
+/
+VideoFrameLayout
 .
 java
 '
