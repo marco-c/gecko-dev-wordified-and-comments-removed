@@ -183,13 +183,6 @@ GetNearestContainingApzc
 )
 const
 ;
-AsyncPanZoomController
-*
-GetNearestContainingApzcWithSameLayersId
-(
-)
-const
-;
 bool
 IsPrimaryHolder
 (
@@ -291,7 +284,7 @@ FrameMetrics
 :
 :
 ViewID
-GetNearestAncestorFixedPosTargetWithSameLayersId
+GetFixedPosTarget
 (
 )
 const

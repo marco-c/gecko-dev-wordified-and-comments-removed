@@ -737,6 +737,15 @@ aComparator
 ;
 AsyncPanZoomController
 *
+GetTargetApzcForNode
+(
+HitTestingTreeNode
+*
+aNode
+)
+;
+AsyncPanZoomController
+*
 GetAPZCAtPoint
 (
 HitTestingTreeNode
