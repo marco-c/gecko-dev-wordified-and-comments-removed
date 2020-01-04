@@ -222,11 +222,10 @@ onLoad
 )
 {
 for
-each
 (
 let
 download
-in
+of
 downloadsInList
 )
 {
