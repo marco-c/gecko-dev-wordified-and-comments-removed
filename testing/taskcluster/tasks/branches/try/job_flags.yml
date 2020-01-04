@@ -519,7 +519,7 @@ tasks
 /
 builds
 /
-opt_linux64
+opt_linux64_clobber
 .
 yml
 debug
@@ -530,7 +530,7 @@ tasks
 /
 builds
 /
-dbg_linux64
+dbg_linux64_clobber
 .
 yml
 sm
