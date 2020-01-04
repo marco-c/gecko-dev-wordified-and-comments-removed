@@ -6903,13 +6903,6 @@ segment
 srcStream
 -
 >
-FinishAddTracks
-(
-)
-;
-srcStream
--
->
 AdvanceKnownTracksTime
 (
 STREAM_TIME_MAX
