@@ -54,6 +54,12 @@ GLLibraryEGL
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+layers
+{
 using
 namespace
 mozilla
@@ -65,12 +71,6 @@ mozilla
 :
 gl
 ;
-namespace
-mozilla
-{
-namespace
-layers
-{
 static
 RefPtr
 <

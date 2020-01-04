@@ -3474,6 +3474,16 @@ sz
 height
 )
 ;
+renderer
+-
+>
+SetOpaque
+(
+GetIsOpaque
+(
+)
+)
+;
 nsCOMPtr
 <
 nsIGlobalObject
