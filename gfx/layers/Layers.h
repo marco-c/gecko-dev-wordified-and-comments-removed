@@ -1230,7 +1230,7 @@ LayerUserDataDestroy
 )
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 LayerUserData
 >
@@ -4304,7 +4304,7 @@ LayerUserDataDestroy
 )
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 LayerUserData
 >
