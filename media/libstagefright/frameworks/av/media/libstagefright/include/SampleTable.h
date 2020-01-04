@@ -511,7 +511,7 @@ void
 *
 )
 ;
-void
+status_t
 buildSampleEntriesTable
 (
 )
