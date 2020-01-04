@@ -226,7 +226,7 @@ winUtils
 .
 layerManagerType
 "
-Basic
+None
 "
 "
 windowless
@@ -237,7 +237,7 @@ layerManagerType
 should
 be
 '
-Basic
+None
 '
 "
 )
