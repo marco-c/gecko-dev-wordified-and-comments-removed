@@ -107,6 +107,13 @@ and
 -
 run
 -
+/
+home
+/
+worker
+/
+workspace
+/
 gecko
 -
 bash
@@ -116,6 +123,13 @@ cx
 -
 >
 cd
+/
+home
+/
+worker
+/
+workspace
+/
 gecko
 &
 &
