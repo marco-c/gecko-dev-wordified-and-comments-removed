@@ -19744,7 +19744,7 @@ Services
 .
 appinfo
 .
-accessibilityIsBlacklistedForE10S
+accessibilityEnabled
 )
 {
 this
@@ -19801,13 +19801,6 @@ data
 "
 1
 "
-&
-&
-Services
-.
-appinfo
-.
-accessibilityIsBlacklistedForE10S
 )
 {
 this
