@@ -670,13 +670,11 @@ window
 .
 console
 define
-:
-function
 (
-callback
+factory
 )
 {
-callback
+factory
 (
 this
 .
@@ -688,11 +686,6 @@ this
 .
 module
 )
-;
-return
-this
-.
-exports
 ;
 }
 }
