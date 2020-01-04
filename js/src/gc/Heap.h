@@ -3474,9 +3474,6 @@ numArenasFree
 uint32_t
 numArenasFreeCommitted
 ;
-ChunkTrailer
-trailer
-;
 }
 ;
 const
@@ -3502,6 +3499,11 @@ size_t
 ChunkBytesAvailable
 =
 ChunkSize
+-
+sizeof
+(
+ChunkTrailer
+)
 -
 sizeof
 (
@@ -4028,6 +4030,11 @@ sizeof
 (
 ChunkInfo
 )
+-
+sizeof
+(
+ChunkTrailer
+)
 ;
 static_assert
 (
@@ -4077,6 +4084,9 @@ decommittedArenas
 ;
 ChunkInfo
 info
+;
+ChunkTrailer
+trailer
 ;
 static
 Chunk
@@ -4261,8 +4271,6 @@ isNurseryChunk
 const
 {
 return
-info
-.
 trailer
 .
 storeBuffer
@@ -4507,12 +4515,6 @@ ChunkRuntimeOffset
 offsetof
 (
 Chunk
-info
-)
-+
-offsetof
-(
-ChunkInfo
 trailer
 )
 +
@@ -4550,12 +4552,6 @@ ChunkLocationOffset
 offsetof
 (
 Chunk
-info
-)
-+
-offsetof
-(
-ChunkInfo
 trailer
 )
 +
@@ -4903,8 +4899,6 @@ chunk
 )
 -
 >
-info
-.
 trailer
 .
 runtime
@@ -4974,8 +4968,6 @@ chunk
 )
 -
 >
-info
-.
 trailer
 .
 runtime
@@ -5122,8 +5114,6 @@ chunk
 )
 -
 >
-info
-.
 trailer
 .
 storeBuffer

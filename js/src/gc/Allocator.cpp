@@ -3130,8 +3130,6 @@ init
 new
 (
 &
-info
-.
 trailer
 )
 ChunkTrailer
