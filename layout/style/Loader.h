@@ -773,6 +773,8 @@ LoadSheet
 nsIURI
 *
 aURL
+bool
+aIsPreload
 nsIPrincipal
 *
 aOriginPrincipal
@@ -942,6 +944,8 @@ aTargetURI
 nsISupports
 *
 aContext
+bool
+aIsPreload
 )
 ;
 nsresult
@@ -1046,6 +1050,8 @@ nsIURI
 *
 aURL
 bool
+aIsPreload
+bool
 aAllowUnsafeRules
 bool
 aUseSystemPrincipal
@@ -1127,6 +1133,8 @@ SheetLoadData
 aLoadData
 StyleSheetState
 aSheetState
+bool
+aIsPreLoad
 )
 ;
 nsresult
