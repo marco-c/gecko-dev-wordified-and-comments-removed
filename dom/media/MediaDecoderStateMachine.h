@@ -1009,6 +1009,11 @@ BufferedRangeUpdated
 )
 ;
 void
+ReaderSuspendedChanged
+(
+)
+;
+void
 Push
 (
 MediaData
@@ -1302,8 +1307,10 @@ aSeekJob
 )
 ;
 void
-InitiateVideoDecodeRecoverySeek
+InitiateDecodeRecoverySeek
 (
+TrackSet
+aTracks
 )
 ;
 nsresult
@@ -2141,6 +2148,12 @@ media
 TimeIntervals
 >
 mBuffered
+;
+Mirror
+<
+bool
+>
+mIsReaderSuspended
 ;
 Mirror
 <
