@@ -2190,6 +2190,14 @@ token
 ;
 inline
 void
+enterFakeExitFrameForNative
+(
+bool
+isConstructing
+)
+;
+inline
+void
 leaveExitFrame
 (
 size_t
