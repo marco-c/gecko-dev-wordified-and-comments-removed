@@ -6581,7 +6581,7 @@ true
 -
 1
 )
-=
+!
 =
 kNotFound
 )
@@ -9447,7 +9447,7 @@ Accumulate
 Telemetry
 :
 :
-YOUTUBE_EMBED_SEEN
+YOUTUBE_REWRITABLE_EMBED_SEEN
 1
 )
 ;
