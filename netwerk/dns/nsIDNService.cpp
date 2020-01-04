@@ -98,7 +98,7 @@ const
 bool
 kIDNA2008_TransitionalProcessing
 =
-true
+false
 ;
 #
 include

@@ -1,7 +1,7 @@
 const
 kTransitionalProcessing
 =
-true
+false
 ;
 const
 labels
