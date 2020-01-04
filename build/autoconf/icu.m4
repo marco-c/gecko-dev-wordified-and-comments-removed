@@ -2044,6 +2044,12 @@ AR
 AR
 "
 export
+RANLIB
+=
+"
+RANLIB
+"
+export
 CC
 =
 "
