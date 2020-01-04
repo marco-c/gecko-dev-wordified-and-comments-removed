@@ -1351,13 +1351,6 @@ staticFunctions
 ]
 ;
 static
-const
-JSPropertySpec
-staticProperties
-[
-]
-;
-static
 bool
 is
 (
