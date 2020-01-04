@@ -1685,9 +1685,11 @@ abort
 )
 ;
 #
-endif
+else
 continue
 ;
+#
+endif
 }
 sem_wait
 (
