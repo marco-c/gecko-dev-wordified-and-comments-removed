@@ -1006,15 +1006,6 @@ aTime
 ;
 public
 :
-static
-bool
-IsCompositorAnimationDisabledForFrame
-(
-nsIFrame
-*
-aFrame
-)
-;
 bool
 CanPerformOnCompositorThread
 (
