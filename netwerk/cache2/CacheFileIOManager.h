@@ -421,6 +421,11 @@ mDoomWhenFoundNonPinned
 :
 1
 ;
+bool
+mKilled
+:
+1
+;
 PinningStatus
 mPinning
 ;
