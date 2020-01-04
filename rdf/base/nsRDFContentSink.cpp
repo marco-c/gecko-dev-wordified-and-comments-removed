@@ -748,8 +748,10 @@ RDFContextStackElement
 *
 mContextStack
 ;
+nsCOMPtr
+<
 nsIURI
-*
+>
 mDocumentURL
 ;
 private
@@ -948,10 +950,6 @@ mParseMode
 eRDFContentSinkParseMode_Literal
 )
 mContextStack
-(
-nullptr
-)
-mDocumentURL
 (
 nullptr
 )
@@ -1183,11 +1181,6 @@ gInstanceCount
 ;
 #
 endif
-NS_IF_RELEASE
-(
-mDocumentURL
-)
-;
 if
 (
 mContextStack
@@ -2285,11 +2278,6 @@ NS_ERROR_NULL_POINTER
 mDocumentURL
 =
 aURL
-;
-NS_ADDREF
-(
-aURL
-)
 ;
 mState
 =
