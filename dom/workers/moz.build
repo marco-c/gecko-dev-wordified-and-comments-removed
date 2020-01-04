@@ -386,6 +386,11 @@ ServiceWorkerJob
 cpp
 '
 '
+ServiceWorkerJobQueue
+.
+cpp
+'
+'
 ServiceWorkerManager
 .
 cpp
