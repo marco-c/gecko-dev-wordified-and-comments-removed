@@ -1597,6 +1597,12 @@ if
 self
 .
 contentDispositionFilename
+&
+&
+!
+data
+.
+isAttachment
 )
 {
 channel
