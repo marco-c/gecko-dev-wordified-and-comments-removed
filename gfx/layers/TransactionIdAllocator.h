@@ -53,6 +53,15 @@ GetTransactionId
 0
 ;
 virtual
+uint64_t
+LastTransactionId
+(
+)
+const
+=
+0
+;
+virtual
 void
 NotifyTransactionCompleted
 (

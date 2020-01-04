@@ -123,5 +123,12 @@ attribute
 PaintRequestList
 paintRequests
 ;
+readonly
+attribute
+unsigned
+long
+long
+transactionId
+;
 }
 ;

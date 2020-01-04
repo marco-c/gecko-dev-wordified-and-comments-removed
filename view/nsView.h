@@ -799,6 +799,8 @@ virtual
 void
 DidCompositeWindow
 (
+uint64_t
+aTransactionId
 const
 mozilla
 :

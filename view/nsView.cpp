@@ -4975,6 +4975,8 @@ nsView
 :
 DidCompositeWindow
 (
+uint64_t
+aTransactionId
 const
 TimeStamp
 &
@@ -5047,6 +5049,8 @@ nsIPresShell
 :
 :
 PAINT_COMPOSITE
+aTransactionId
+aCompositeEnd
 )
 ;
 if

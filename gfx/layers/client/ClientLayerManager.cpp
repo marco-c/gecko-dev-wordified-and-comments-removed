@@ -1814,6 +1814,7 @@ listener
 >
 DidCompositeWindow
 (
+aTransactionId
 aCompositeStart
 aCompositeEnd
 )
@@ -1838,6 +1839,7 @@ listener
 >
 DidCompositeWindow
 (
+aTransactionId
 aCompositeStart
 aCompositeEnd
 )
