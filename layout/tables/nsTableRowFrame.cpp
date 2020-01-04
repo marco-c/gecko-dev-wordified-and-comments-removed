@@ -135,6 +135,9 @@ using
 namespace
 mozilla
 ;
+namespace
+mozilla
+{
 struct
 nsTableCellReflowState
 :
@@ -185,6 +188,7 @@ aAvailSpace
 ;
 }
 ;
+}
 void
 nsTableCellReflowState
 :

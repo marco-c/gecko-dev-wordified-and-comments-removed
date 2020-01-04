@@ -116,10 +116,10 @@ WritingMode
 class
 LogicalMargin
 ;
-}
 struct
 nsTableReflowState
 ;
+}
 struct
 BCPropertyData
 ;
@@ -504,6 +504,13 @@ mozilla
 :
 LogicalMargin
 LogicalMargin
+;
+typedef
+mozilla
+:
+:
+nsTableReflowState
+nsTableReflowState
 ;
 public
 :

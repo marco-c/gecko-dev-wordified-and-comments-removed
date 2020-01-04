@@ -306,6 +306,9 @@ mozilla
 :
 layout
 ;
+namespace
+mozilla
+{
 struct
 nsTableReflowState
 {
@@ -592,6 +595,7 @@ wm
 }
 }
 ;
+}
 struct
 BCPropertyData
 {
