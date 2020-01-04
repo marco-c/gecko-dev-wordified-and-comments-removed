@@ -181,6 +181,16 @@ echoCancellation
 true
 ;
 boolean
+mozNoiseSuppression
+=
+true
+;
+boolean
+mozAutoGainControl
+=
+true
+;
+boolean
 latency
 ;
 /
