@@ -20,6 +20,9 @@ nsIContent
 class
 nsDisplayListBuilder
 ;
+class
+nsDOMCSSDeclaration
+;
 namespace
 mozilla
 {
@@ -63,6 +66,13 @@ nsIFrame
 aFrame
 nsCSSProperty
 aProperty
+const
+nsAString
+&
+aNewValue
+nsDOMCSSDeclaration
+*
+aDOMCSSDecl
 )
 ;
 static
@@ -88,6 +98,13 @@ nsIFrame
 aFrame
 nsCSSProperty
 aProperty
+const
+nsAString
+&
+aNewValue
+nsDOMCSSDeclaration
+*
+aDOMCSSDecl
 )
 ;
 static

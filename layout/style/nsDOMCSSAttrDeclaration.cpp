@@ -785,6 +785,8 @@ NotifyInlineStyleRuleModified
 (
 frame
 aPropID
+aValue
+this
 )
 ;
 }
