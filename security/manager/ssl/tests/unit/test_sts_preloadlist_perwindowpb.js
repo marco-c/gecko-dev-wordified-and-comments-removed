@@ -163,8 +163,9 @@ test_part1
 (
 )
 {
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -185,8 +186,9 @@ com
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -219,8 +221,9 @@ preloadlist
 false
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -257,7 +260,7 @@ preloadlist
 true
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -279,7 +282,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -303,7 +306,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -333,8 +336,9 @@ org
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -357,8 +361,9 @@ org
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -427,8 +432,9 @@ sslStatus
 0
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -449,8 +455,9 @@ org
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -494,7 +501,7 @@ sslStatus
 0
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -516,8 +523,9 @@ org
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -593,7 +601,7 @@ sslStatus
 0
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -615,8 +623,9 @@ org
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -686,7 +695,7 @@ sslStatus
 0
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -708,7 +717,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -732,7 +741,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -756,7 +765,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -803,7 +812,7 @@ sslStatus
 0
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -827,7 +836,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -851,8 +860,9 @@ org
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -877,7 +887,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -951,8 +961,9 @@ function
 (
 )
 {
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1001,7 +1012,7 @@ clearAll
 (
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -1023,7 +1034,7 @@ IS_PRIVATE
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -1098,8 +1109,9 @@ sslStatus
 IS_PRIVATE
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1120,8 +1132,9 @@ IS_PRIVATE
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1169,7 +1182,7 @@ sslStatus
 IS_PRIVATE
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -1191,8 +1204,9 @@ IS_PRIVATE
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1238,8 +1252,9 @@ sslStatus
 IS_PRIVATE
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1260,8 +1275,9 @@ IS_PRIVATE
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1284,7 +1300,7 @@ IS_PRIVATE
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -1358,8 +1374,9 @@ function
 (
 )
 {
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -1408,7 +1425,7 @@ test_private_browsing2
 (
 )
 {
-do_check_true
+ok
 (
 gSSService
 .
@@ -1430,7 +1447,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -1454,7 +1471,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .

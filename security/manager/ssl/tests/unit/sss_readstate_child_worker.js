@@ -26,8 +26,9 @@ Ci
 nsISiteSecurityService
 )
 ;
-do_check_false
+ok
 (
+!
 SSService
 .
 isSecureHost
@@ -48,7 +49,7 @@ com
 )
 )
 ;
-do_check_true
+ok
 (
 SSService
 .
@@ -70,7 +71,7 @@ com
 )
 )
 ;
-do_check_true
+ok
 (
 SSService
 .
@@ -92,8 +93,9 @@ org
 )
 )
 ;
-do_check_false
+ok
 (
+!
 SSService
 .
 isSecureHost
@@ -116,7 +118,7 @@ org
 )
 )
 ;
-do_check_true
+ok
 (
 SSService
 .
@@ -138,7 +140,7 @@ com
 )
 )
 ;
-do_check_true
+ok
 (
 SSService
 .
@@ -162,8 +164,9 @@ com
 )
 )
 ;
-do_check_false
+ok
 (
+!
 SSService
 .
 isSecureHost
@@ -184,8 +187,9 @@ org
 )
 )
 ;
-do_check_false
+ok
 (
+!
 SSService
 .
 isSecureHost

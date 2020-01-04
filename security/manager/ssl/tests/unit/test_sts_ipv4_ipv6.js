@@ -14,8 +14,9 @@ FakeSSLStatus
 (
 )
 ;
-do_check_false
+ok
 (
+!
 s
 .
 isSecureHost
@@ -135,7 +136,7 @@ parsedMaxAge
 parsedIncludeSubdomains
 )
 ;
-do_check_neq
+notEqual
 (
 parsedMaxAge
 .
@@ -143,7 +144,7 @@ value
 1000
 )
 ;
-do_check_neq
+notEqual
 (
 parsedIncludeSubdomains
 .

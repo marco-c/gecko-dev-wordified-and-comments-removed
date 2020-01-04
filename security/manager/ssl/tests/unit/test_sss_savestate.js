@@ -34,7 +34,7 @@ aTopic
 aData
 )
 {
-do_check_eq
+equal
 (
 aData
 SSS_STATE_FILE_NAME
@@ -56,7 +56,7 @@ append
 SSS_STATE_FILE_NAME
 )
 ;
-do_check_true
+ok
 (
 stateFile
 .
@@ -93,7 +93,7 @@ slice
 1
 )
 ;
-do_check_eq
+equal
 (
 lines
 .
@@ -192,7 +192,7 @@ expectedColumns
 EXPECTED_HPKP_COLUMNS
 ;
 }
-do_check_eq
+equal
 (
 entry
 .
@@ -516,7 +516,7 @@ HPKP
 return
 ;
 }
-do_check_eq
+equal
 (
 sites
 [

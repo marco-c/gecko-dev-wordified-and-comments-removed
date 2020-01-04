@@ -26,7 +26,7 @@ Ci
 nsISiteSecurityService
 )
 ;
-do_check_true
+ok
 (
 SSService
 .
@@ -75,8 +75,9 @@ currentTimeOffsetSeconds
 offsetSeconds
 )
 ;
-do_check_false
+ok
 (
+!
 SSService
 .
 isSecureHost
@@ -110,7 +111,7 @@ currentTimeOffsetSeconds
 "
 )
 ;
-do_check_true
+ok
 (
 SSService
 .

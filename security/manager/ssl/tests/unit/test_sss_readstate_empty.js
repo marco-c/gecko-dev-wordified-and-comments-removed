@@ -11,8 +11,9 @@ aTopic
 aData
 )
 {
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -33,7 +34,7 @@ com
 )
 )
 ;
-do_check_true
+ok
 (
 gSSService
 .
@@ -55,8 +56,9 @@ org
 )
 )
 ;
-do_check_false
+ok
 (
+!
 gSSService
 .
 isSecureHost
@@ -110,8 +112,9 @@ append
 SSS_STATE_FILE_NAME
 )
 ;
-do_check_false
+ok
 (
+!
 stateFile
 .
 exists
@@ -131,7 +134,7 @@ NORMAL_FILE_TYPE
 0x1a4
 )
 ;
-do_check_true
+ok
 (
 stateFile
 .
@@ -183,11 +186,9 @@ Ci
 nsISiteSecurityService
 )
 ;
-do_check_true
+notEqual
 (
 gSSService
-!
-=
 null
 )
 ;

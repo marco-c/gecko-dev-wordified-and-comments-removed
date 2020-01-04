@@ -31,8 +31,9 @@ Ci
 nsISiteSecurityService
 )
 ;
-do_check_false
+ok
 (
+!
 SSService
 .
 isSecureHost
@@ -51,8 +52,9 @@ com
 )
 )
 ;
-do_check_false
+ok
 (
+!
 SSService
 .
 isSecureHost
@@ -72,8 +74,9 @@ com
 )
 )
 ;
-do_check_false
+ok
 (
+!
 SSService
 .
 isSecureHost
@@ -147,7 +150,7 @@ sslStatus
 0
 )
 ;
-do_check_true
+ok
 (
 SSService
 .
@@ -167,7 +170,7 @@ com
 )
 )
 ;
-do_check_true
+ok
 (
 SSService
 .
@@ -188,7 +191,7 @@ com
 )
 )
 ;
-do_check_true
+ok
 (
 SSService
 .
@@ -210,7 +213,7 @@ com
 )
 )
 ;
-do_check_true
+ok
 (
 SSService
 .
@@ -248,7 +251,7 @@ null
 null
 )
 ;
-do_check_true
+ok
 (
 SSService
 .
@@ -287,7 +290,7 @@ null
 null
 )
 ;
-do_check_true
+ok
 (
 SSService
 .
@@ -316,8 +319,9 @@ uri
 0
 )
 ;
-do_check_false
+ok
 (
+!
 SSService
 .
 isSecureHost
@@ -336,8 +340,9 @@ com
 )
 )
 ;
-do_check_false
+ok
 (
+!
 SSService
 .
 isSecureHost
@@ -357,8 +362,9 @@ com
 )
 )
 ;
-do_check_false
+ok
 (
+!
 SSService
 .
 isSecureHost
@@ -401,7 +407,7 @@ null
 null
 )
 ;
-do_check_eq
+equal
 (
 uri
 .
@@ -427,9 +433,9 @@ uri
 0
 )
 ;
-do_check_false
+ok
 (
-true
+false
 )
 ;
 }
@@ -438,7 +444,7 @@ catch
 e
 )
 {
-do_check_eq
+equal
 (
 e
 .

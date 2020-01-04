@@ -63,8 +63,9 @@ append
 SSS_STATE_FILE_NAME
 )
 ;
-do_check_false
+ok
 (
+!
 stateFile
 .
 exists
@@ -302,11 +303,9 @@ Ci
 nsISiteSecurityService
 )
 ;
-do_check_true
+notEqual
 (
 SSService
-!
-=
 null
 )
 ;
