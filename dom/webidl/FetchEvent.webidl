@@ -153,7 +153,7 @@ ServiceWorker
 interface
 FetchEvent
 :
-Event
+ExtendableEvent
 {
 readonly
 attribute
