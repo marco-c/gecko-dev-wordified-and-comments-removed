@@ -100,6 +100,7 @@ CropNone
 CropLeft
 CropRight
 CropCenter
+CropAuto
 }
 ;
 friend
