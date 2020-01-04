@@ -13358,7 +13358,7 @@ aState
 BindUTF8StringByName
 (
 aName
-nsAutoCString
+nsDependentCString
 (
 idBuf
 )
