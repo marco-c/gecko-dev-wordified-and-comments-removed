@@ -1909,6 +1909,13 @@ java
 '
 delegates
 /
+BrowserAppDelegateWithReference
+.
+java
+'
+'
+delegates
+/
 ScreenshotDelegate
 .
 java
