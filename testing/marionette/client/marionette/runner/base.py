@@ -7831,6 +7831,21 @@ mixin_run_tests
 =
 [
 ]
+            
+for
+result
+in
+self
+.
+results
+:
+                
+result
+.
+result_modifiers
+=
+[
+]
     
 def
 run_test_set
