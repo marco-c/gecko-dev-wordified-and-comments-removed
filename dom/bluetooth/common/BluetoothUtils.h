@@ -164,7 +164,7 @@ nsAString
 aString
 )
 ;
-nsresult
+void
 StringToUuid
 (
 const
