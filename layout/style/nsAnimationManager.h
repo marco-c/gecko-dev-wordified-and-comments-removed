@@ -844,16 +844,6 @@ CSSPseudoElementType
 aPseudoType
 )
 ;
-bool
-IsAnimationManager
-(
-)
-override
-{
-return
-true
-;
-}
 protected
 :
 virtual
