@@ -16154,7 +16154,13 @@ aRepeat
 float
 ratio
 =
+static_cast
+<
+float
+>
+(
 aAvailableSpace
+)
 /
 aImageDimension
 ;
