@@ -316,14 +316,13 @@ json
 if
 (
 where
-=
+!
 =
 "
 current
 "
 )
-return
-;
+{
 let
 params
 =
@@ -361,6 +360,7 @@ where
 params
 )
 ;
+}
 try
 {
 if
