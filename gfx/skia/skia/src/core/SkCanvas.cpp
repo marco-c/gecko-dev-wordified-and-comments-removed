@@ -9001,6 +9001,9 @@ validateClip
 )
 const
 {
+#
+ifndef
+SK_DISABLE_SLOW_DEBUG_VALIDATION
 const
 SkBaseDevice
 *
@@ -9205,6 +9208,8 @@ break
 }
 }
 }
+#
+endif
 }
 #
 endif

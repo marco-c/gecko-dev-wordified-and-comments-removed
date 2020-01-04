@@ -32,6 +32,9 @@ width
 #
 ifdef
 SK_DEBUG
+#
+ifndef
+SK_DISABLE_SLOW_DEBUG_VALIDATION
 sk_memset16
 (
 (
@@ -49,6 +52,8 @@ uint16_t
 width
 )
 ;
+#
+endif
 #
 endif
 fRuns
@@ -109,6 +114,9 @@ maxStep
 )
 const
 {
+#
+ifndef
+SK_DISABLE_SLOW_DEBUG_VALIDATION
 int
 max
 =
@@ -171,6 +179,8 @@ runs
 runs
 ;
 }
+#
+endif
 }
 void
 SkAlphaRuns
@@ -270,6 +280,9 @@ validate
 )
 const
 {
+#
+ifndef
+SK_DISABLE_SLOW_DEBUG_VALIDATION
 SkASSERT
 (
 fWidth
@@ -332,6 +345,8 @@ count
 fWidth
 )
 ;
+#
+endif
 }
 #
 endif
