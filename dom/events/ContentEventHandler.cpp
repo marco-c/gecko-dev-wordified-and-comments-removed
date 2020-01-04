@@ -2113,7 +2113,7 @@ nsIContentIterator
 >
 iter
 =
-NS_NewContentIterator
+NS_NewPreContentIterator
 (
 )
 ;
@@ -3001,7 +3001,7 @@ nsIContentIterator
 >
 iter
 =
-NS_NewContentIterator
+NS_NewPreContentIterator
 (
 )
 ;
@@ -8034,7 +8034,7 @@ count
 ;
 iter
 =
-NS_NewContentIterator
+NS_NewPreContentIterator
 (
 )
 ;
@@ -8141,7 +8141,7 @@ rv
 }
 iter
 =
-NS_NewContentIterator
+NS_NewPreContentIterator
 (
 )
 ;
