@@ -4091,11 +4091,6 @@ Proxy
 0
 PROXY_MAKE_EXT
 (
-nullptr
-js
-:
-:
-proxy_innerObject
 false
 nsOuterWindowProxy
 :

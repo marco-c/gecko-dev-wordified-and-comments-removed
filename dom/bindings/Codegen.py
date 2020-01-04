@@ -2820,20 +2820,6 @@ fill
             
 {
               
-nullptr
-/
-*
-outerObject
-*
-/
-              
-nullptr
-/
-*
-innerObject
-*
-/
-              
 false
 /
 *
@@ -2931,23 +2917,6 @@ fill
 "
                     
 {
-                      
-nsGlobalWindow
-:
-:
-OuterObject
-/
-*
-outerObject
-*
-/
-                      
-nullptr
-/
-*
-innerObject
-*
-/
                       
 false
 /
@@ -3050,19 +3019,6 @@ nullptr
 /
 *
 enumerate
-*
-/
-                      
-mozilla
-:
-:
-dom
-:
-:
-ObjectToOuterObjectValue
-/
-*
-thisValue
 *
 /
                       
@@ -3609,20 +3565,6 @@ flags
                                    
 PROXY_MAKE_EXT
 (
-nullptr
-/
-*
-outerObject
-*
-/
-                                                  
-nullptr
-/
-*
-innerObject
-*
-/
-                                                  
 false
 /
 *
@@ -4893,13 +4835,6 @@ nullptr
 /
 *
 enumerate
-*
-/
-                  
-nullptr
-/
-*
-thisValue
 *
 /
                   

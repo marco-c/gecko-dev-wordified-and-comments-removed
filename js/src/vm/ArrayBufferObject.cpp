@@ -464,8 +464,6 @@ ArrayBufferObject
 trace
 JS_NULL_CLASS_SPEC
 {
-nullptr
-nullptr
 false
 nullptr
 ArrayBufferObject

@@ -1011,8 +1011,6 @@ NPObjWrapper_Construct
 nullptr
 JS_NULL_CLASS_SPEC
 {
-nullptr
-nullptr
 false
 nullptr
 NPObjWrapper_ObjectMoved

@@ -5395,7 +5395,6 @@ UnboxedPlainObject
 :
 :
 obj_enumerate
-nullptr
 }
 }
 ;
@@ -9177,8 +9176,6 @@ UnboxedArrayObject
 trace
 JS_NULL_CLASS_SPEC
 {
-nullptr
-nullptr
 false
 nullptr
 UnboxedArrayObject
@@ -9225,7 +9222,6 @@ UnboxedArrayObject
 :
 :
 obj_enumerate
-nullptr
 }
 }
 ;
