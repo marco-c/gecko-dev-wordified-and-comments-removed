@@ -453,6 +453,17 @@ false
 Pure
 ]
 boolean
+isSameNode
+(
+Node
+?
+node
+)
+;
+[
+Pure
+]
+boolean
 isEqualNode
 (
 Node

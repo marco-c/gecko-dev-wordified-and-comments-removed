@@ -5405,6 +5405,14 @@ aError
 )
 ;
 bool
+IsSameNode
+(
+nsINode
+*
+aNode
+)
+;
+bool
 IsEqualNode
 (
 nsINode
