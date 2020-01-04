@@ -1538,7 +1538,6 @@ aIsForCaret
 )
 const
 ;
-virtual
 mozilla
 :
 :
