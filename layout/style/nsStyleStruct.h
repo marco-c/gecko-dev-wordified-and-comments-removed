@@ -6436,10 +6436,10 @@ mGridRowStart
 nsStyleGridLine
 mGridRowEnd
 ;
-nscoord
+nsStyleCoord
 mGridColumnGap
 ;
-nscoord
+nsStyleCoord
 mGridRowGap
 ;
 bool

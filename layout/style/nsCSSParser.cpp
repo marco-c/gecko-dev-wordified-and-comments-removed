@@ -41454,7 +41454,7 @@ if
 ParseNonNegativeVariant
 (
 first
-VARIANT_LCALC
+VARIANT_LPCALC
 nullptr
 )
 !
@@ -41478,7 +41478,7 @@ result
 ParseNonNegativeVariant
 (
 second
-VARIANT_LCALC
+VARIANT_LPCALC
 nullptr
 )
 ;
