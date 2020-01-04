@@ -13163,15 +13163,6 @@ aForm
 {
 if
 (
-aForm
--
->
-dwStyle
-=
-=
-CFS_CANDIDATEPOS
-&
-&
 aWindow
 -
 >
