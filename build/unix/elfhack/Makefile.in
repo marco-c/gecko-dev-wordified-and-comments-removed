@@ -54,9 +54,6 @@ MPL
 0
 /
 .
-INTERNAL_TOOLS
-=
-1
 OS_CXXFLAGS
 :
 =

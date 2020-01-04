@@ -282,3 +282,6 @@ crashreporter
 mozbuild
 '
 )
+NO_PGO
+=
+True
