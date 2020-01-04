@@ -2376,13 +2376,10 @@ directory
 self
 .
 topobjdir
-                    
 target
 =
 '
 backend
-.
-RecursiveMakeBackend
 '
                     
 line_handler
