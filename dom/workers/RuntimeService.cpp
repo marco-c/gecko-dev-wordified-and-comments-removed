@@ -4535,6 +4535,8 @@ DispatchDeferredDeletion
 (
 bool
 aContinuation
+bool
+aPurge
 )
 override
 {

@@ -125,6 +125,10 @@ bool
 aContinuation
 =
 false
+bool
+aPurge
+=
+false
 )
 ;
 bool
