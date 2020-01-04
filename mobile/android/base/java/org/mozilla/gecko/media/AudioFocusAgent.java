@@ -328,7 +328,7 @@ notifyMediaControlService
 (
 MediaControlService
 .
-ACTION_PAUSE
+ACTION_PAUSE_BY_AUDIO_FOCUS
 )
 ;
 mAudioFocusState
@@ -367,7 +367,7 @@ notifyMediaControlService
 (
 MediaControlService
 .
-ACTION_PAUSE
+ACTION_PAUSE_BY_AUDIO_FOCUS
 )
 ;
 mAudioFocusState
@@ -420,7 +420,7 @@ notifyMediaControlService
 (
 MediaControlService
 .
-ACTION_RESUME
+ACTION_RESUME_BY_AUDIO_FOCUS
 )
 ;
 mAudioFocusState
