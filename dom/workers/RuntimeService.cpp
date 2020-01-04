@@ -4090,7 +4090,7 @@ PreserveWrapper
 ;
 JS_InitDestroyPrincipalsCallback
 (
-rt
+cx
 DestroyWorkerPrincipals
 )
 ;

@@ -163,7 +163,7 @@ testChromeBuffer
 {
 JS_SetTrustedPrincipals
 (
-rt
+cx
 &
 system_principals
 )

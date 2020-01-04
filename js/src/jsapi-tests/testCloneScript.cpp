@@ -369,7 +369,7 @@ test_cloneScriptWithPrincipals
 {
 JS_InitDestroyPrincipalsCallback
 (
-rt
+cx
 DestroyPrincipals
 )
 ;

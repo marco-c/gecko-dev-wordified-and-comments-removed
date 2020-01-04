@@ -216,9 +216,9 @@ void
 )
 JS_SetTrustedPrincipals
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSPrincipals
 *
 prin
@@ -243,9 +243,9 @@ void
 )
 JS_InitDestroyPrincipalsCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSDestroyPrincipalsOp
 destroyPrincipals
 )
@@ -277,9 +277,9 @@ void
 )
 JS_InitReadPrincipalsCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSReadPrincipalsOp
 read
 )
