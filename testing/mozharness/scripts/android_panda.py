@@ -3069,19 +3069,7 @@ hostutils_url
         
 self
 .
-mkdir_p
-(
-dirs
-[
-'
-abs_hostutils_dir
-'
-]
-)
-        
-self
-.
-_download_unzip
+download_unzip
 (
 self
 .

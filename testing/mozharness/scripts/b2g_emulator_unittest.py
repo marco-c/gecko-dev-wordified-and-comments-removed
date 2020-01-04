@@ -1728,19 +1728,7 @@ fatal_exit_code
         
 self
 .
-mkdir_p
-(
-dirs
-[
-'
-abs_xre_dir
-'
-]
-)
-        
-self
-.
-_download_unzip
+download_unzip
 (
 self
 .
