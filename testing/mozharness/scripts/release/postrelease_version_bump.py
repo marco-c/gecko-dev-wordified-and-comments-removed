@@ -1046,6 +1046,13 @@ return
 e
 "
 hg_ssh_opts
+"
+-
+r
+"
+"
+.
+"
 ]
     
 def
