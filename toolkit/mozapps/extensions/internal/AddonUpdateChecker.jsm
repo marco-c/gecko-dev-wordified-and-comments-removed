@@ -1451,7 +1451,7 @@ namespace
 :
 "
 +
-xml
+aManifestData
 .
 documentElement
 .

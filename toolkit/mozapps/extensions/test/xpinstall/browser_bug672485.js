@@ -1,3 +1,4 @@
+var
 gWindowWatcher
 =
 null

@@ -4297,6 +4297,11 @@ type
 ]
 ;
 }
+let
+{
+RemotePages
+}
+=
 Cu
 .
 import
@@ -4314,6 +4319,8 @@ RemotePageManager
 .
 jsm
 "
+{
+}
 )
 ;
 gPluginPageListener
@@ -5059,7 +5066,7 @@ e
 {
 reportProviderError
 (
-aProvider
+provider
 aMethod
 e
 )

@@ -1776,6 +1776,7 @@ ensure_test_completed
 (
 )
 ;
+let
 a1
 =
 yield

@@ -838,6 +838,9 @@ event
 )
 ;
 }
+var
+gLastEvent
+;
 function
 onGenericEvent
 (

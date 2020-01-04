@@ -1,5 +1,5 @@
 var
-URL
+url
 =
 TESTROOT2
 +
@@ -90,7 +90,7 @@ gBrowser
 .
 loadURI
 (
-URL
+url
 )
 ;
 }

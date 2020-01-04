@@ -7338,7 +7338,7 @@ AddonManager
 STATE_CHECKING
 :
 case
-AddonManger
+AddonManager
 .
 STATE_INSTALLING
 :
