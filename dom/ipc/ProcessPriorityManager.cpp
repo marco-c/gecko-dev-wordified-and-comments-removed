@@ -612,9 +612,6 @@ mPriority
 uint32_t
 mLRUPoolLevels
 ;
-uint32_t
-mLRUPoolSize
-;
 nsTArray
 <
 ParticularProcessPriorityManager
@@ -5437,7 +5434,8 @@ mLRUPoolLevels
 4
 )
 ;
-mLRUPoolSize
+uint32_t
+LRUPoolSize
 =
 (
 1
@@ -5464,7 +5462,7 @@ d
 )
 "
 str
-mLRUPoolSize
+LRUPoolSize
 )
 ;
 }
