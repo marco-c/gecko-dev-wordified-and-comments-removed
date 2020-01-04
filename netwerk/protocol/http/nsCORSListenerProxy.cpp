@@ -447,12 +447,13 @@ if
 aUri
 )
 {
+spec
+=
 aUri
 -
 >
-GetSpec
+GetSpecOrDefault
 (
-spec
 )
 ;
 }

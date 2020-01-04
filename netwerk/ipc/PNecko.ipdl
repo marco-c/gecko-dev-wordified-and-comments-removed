@@ -814,8 +814,6 @@ uri
 async
 SpeculativeConnectRequest
 (
-nsCString
-notificationData
 )
 ;
 async
