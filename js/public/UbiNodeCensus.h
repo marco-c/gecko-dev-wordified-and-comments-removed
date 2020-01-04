@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Move
 .
 h
@@ -131,6 +140,7 @@ trc
 0
 ;
 virtual
+MOZ_MUST_USE
 bool
 count
 (
@@ -151,6 +161,7 @@ node
 0
 ;
 virtual
+MOZ_MUST_USE
 bool
 report
 (
@@ -218,6 +229,7 @@ SIZE_MAX
 )
 {
 }
+MOZ_MUST_USE
 bool
 count
 (
@@ -308,6 +320,7 @@ return
 ret
 ;
 }
+MOZ_MUST_USE
 bool
 report
 (
@@ -509,6 +522,7 @@ nullptr
 )
 {
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -564,6 +578,7 @@ mallocSizeOf
 )
 {
 }
+MOZ_MUST_USE
 bool
 report
 (
@@ -590,6 +605,7 @@ NodeData
 {
 }
 ;
+MOZ_MUST_USE
 bool
 operator
 (
@@ -624,6 +640,7 @@ BreadthFirst
 CensusHandler
 >
 ;
+MOZ_MUST_USE
 bool
 ParseCensusOptions
 (
