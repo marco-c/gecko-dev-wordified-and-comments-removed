@@ -784,6 +784,16 @@ CSS_PROP_ALIAS
 -
 webkit
 -
+filter
+filter
+WebkitFilter
+WEBKIT_PREFIX_PREF
+)
+CSS_PROP_ALIAS
+(
+-
+webkit
+-
 text
 -
 size
