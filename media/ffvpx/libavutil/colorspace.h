@@ -192,8 +192,6 @@ cr1
 \
 r_add
 =
-ONE_HALF
-+
 FIX
 (
 1
@@ -210,11 +208,12 @@ FIX
 )
 *
 cr
++
+ONE_HALF
 ;
 \
 g_add
 =
-ONE_HALF
 -
 FIX
 (
@@ -233,7 +232,6 @@ FIX
 *
 cb
 -
-\
 FIX
 (
 0
@@ -250,12 +248,13 @@ FIX
 )
 *
 cr
++
+\
+ONE_HALF
 ;
 \
 b_add
 =
-ONE_HALF
-+
 FIX
 (
 1
@@ -272,6 +271,8 @@ FIX
 )
 *
 cb
++
+ONE_HALF
 ;
 \
 }

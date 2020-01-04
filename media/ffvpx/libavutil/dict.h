@@ -128,10 +128,6 @@ AV_DICT_DONT_OVERWRITE
 define
 AV_DICT_APPEND
 32
-#
-define
-AV_DICT_MULTIKEY
-64
 typedef
 struct
 AVDictionaryEntry

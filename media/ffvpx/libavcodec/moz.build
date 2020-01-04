@@ -162,6 +162,11 @@ bitstream
 c
 '
 '
+bitstream_filter
+.
+c
+'
+'
 codec_desc
 .
 c
