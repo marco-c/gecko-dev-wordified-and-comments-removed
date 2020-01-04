@@ -20655,11 +20655,6 @@ cx
 FillSelfHostingCompileOptions
 (
 options
-"
-self
--
-hosted
-"
 )
 ;
 ScriptSourceObject
