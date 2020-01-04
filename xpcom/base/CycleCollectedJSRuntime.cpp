@@ -2274,7 +2274,7 @@ JS
 :
 SetBuildIdOp
 (
-mJSRuntime
+mJSContext
 GetBuildId
 )
 ;
