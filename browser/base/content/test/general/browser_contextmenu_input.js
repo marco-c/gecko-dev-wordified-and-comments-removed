@@ -1408,9 +1408,6 @@ of
 datetime
 "
 "
-month
-"
-"
 week
 "
 "
