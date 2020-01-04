@@ -817,6 +817,27 @@ known
 error
 .
     
+retry_delay
+is
+multiplied
+by
+the
+number
+of
+failed
+attempts
+to
+increase
+    
+the
+likelihood
+of
+success
+in
+subsequent
+attempts
+.
+    
 "
 "
 "
@@ -923,6 +944,8 @@ time
 .
 sleep
 (
+retry_count
+*
 retry_delay
 )
         
@@ -1036,13 +1059,17 @@ with
 a
 delay
 of
+(
+failed_attempts
+*
 0
 .
 5
+)
 seconds
+       
 between
 each
-       
 attempt
 .
     
