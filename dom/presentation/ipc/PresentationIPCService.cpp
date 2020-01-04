@@ -171,6 +171,9 @@ PresentationChild
 this
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -774,6 +777,9 @@ PresentationRequestChild
 aCallback
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -827,6 +833,9 @@ if
 sPresentationChild
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -885,6 +894,9 @@ IsEmpty
 sPresentationChild
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -950,6 +962,9 @@ listener
 )
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -988,6 +1003,9 @@ if
 sPresentationChild
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -1048,6 +1066,9 @@ if
 sPresentationChild
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -1102,6 +1123,9 @@ if
 sPresentationChild
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -1148,6 +1172,9 @@ if
 sPresentationChild
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -1427,6 +1454,9 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -1545,6 +1575,9 @@ GetNext
 (
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1612,6 +1645,9 @@ nsIPresentationService
 ROLE_RECEIVER
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 !

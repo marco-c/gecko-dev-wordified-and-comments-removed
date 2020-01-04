@@ -1391,6 +1391,9 @@ OPEN
 mReadyState
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1476,6 +1479,9 @@ CopierCallbacks
 this
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1902,6 +1908,9 @@ mCallback
 return
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1943,6 +1952,9 @@ mCallback
 return
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

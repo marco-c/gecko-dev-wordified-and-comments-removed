@@ -1530,6 +1530,9 @@ NS_GetCurrentThread
 )
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1601,6 +1604,9 @@ UDPAddressInfo
 aAddressInfo
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -3079,6 +3085,9 @@ aLineNo
 )
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

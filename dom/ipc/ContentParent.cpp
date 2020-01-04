@@ -2319,10 +2319,13 @@ GetOrCreate
 (
 )
 ;
-NS_WARN_IF
+NS_WARNING_ASSERTION
 (
-!
 mReporterManager
+"
+GetOrCreate
+failed
+"
 )
 ;
 }

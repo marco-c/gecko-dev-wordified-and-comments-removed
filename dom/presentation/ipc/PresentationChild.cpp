@@ -331,6 +331,9 @@ if
 mService
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -375,6 +378,9 @@ if
 mService
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -417,6 +423,9 @@ if
 mService
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -458,6 +467,9 @@ if
 mService
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -574,6 +586,9 @@ aResult
 )
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -606,6 +621,9 @@ nsString
 aUrl
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

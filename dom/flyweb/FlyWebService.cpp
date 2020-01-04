@@ -1548,6 +1548,9 @@ if
 mDiscoveryActive
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1571,6 +1574,9 @@ return
 NS_OK
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1828,6 +1834,9 @@ NotifyDiscoveredServicesChanged
 (
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -2006,6 +2015,9 @@ mNumConsecutiveStartDiscoveryFailures
 3
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -2083,6 +2095,9 @@ if
 mDiscoveryActive
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

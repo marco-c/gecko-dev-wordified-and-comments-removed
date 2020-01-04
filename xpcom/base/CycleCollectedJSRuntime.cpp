@@ -89,6 +89,15 @@ include
 "
 mozilla
 /
+Unused
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebuggerOnGCRunnable
 .
 h
@@ -3585,6 +3594,9 @@ aDesc
 .
 reason_
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

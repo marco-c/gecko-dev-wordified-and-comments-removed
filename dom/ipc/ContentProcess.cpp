@@ -212,6 +212,9 @@ rv
 return
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -229,6 +232,9 @@ get
 )
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -327,6 +333,9 @@ rv
 return
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 setenv

@@ -2868,6 +2868,9 @@ GetNext
 (
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -4239,6 +4242,9 @@ aListener
 )
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED
@@ -4521,6 +4527,9 @@ if
 info
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 NS_FAILED

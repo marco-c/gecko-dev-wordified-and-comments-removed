@@ -12700,6 +12700,9 @@ ParentAsWorkerPrivate
 )
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -16986,6 +16989,9 @@ AssertIsOnMainThread
 (
 )
 ;
+Unused
+<
+<
 NS_WARN_IF
 (
 !

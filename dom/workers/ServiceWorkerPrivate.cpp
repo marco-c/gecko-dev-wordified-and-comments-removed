@@ -6599,6 +6599,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -7112,6 +7115,9 @@ nullptr
 ;
 }
 }
+Unused
+<
+<
 NS_WARN_IF
 (
 !

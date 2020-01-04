@@ -70,6 +70,9 @@ if
 mNeedDestroyActor
 )
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 !
@@ -558,6 +561,9 @@ this
 >
 void
 {
+Unused
+<
+<
 NS_WARN_IF
 (
 !
