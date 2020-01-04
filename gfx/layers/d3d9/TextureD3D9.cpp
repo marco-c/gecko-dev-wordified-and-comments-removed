@@ -3736,7 +3736,7 @@ gfx
 SurfaceFormat
 :
 :
-B8G8R8X8
+B8G8R8A8
 )
 ;
 if
@@ -3750,7 +3750,7 @@ gfx
 SurfaceFormat
 :
 :
-B8G8R8X8
+B8G8R8A8
 )
 {
 return
@@ -3784,7 +3784,7 @@ aSize
 height
 1
 D3DUSAGE_RENDERTARGET
-D3DFMT_X8R8G8B8
+D3DFMT_A8R8G8B8
 D3DPOOL_DEFAULT
 getter_AddRefs
 (

@@ -209,7 +209,7 @@ Height
 SurfaceFormat
 :
 :
-B8G8R8X8
+B8G8R8A8
 )
 ;
 mTask
