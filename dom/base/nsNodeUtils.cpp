@@ -1288,12 +1288,7 @@ nullptr
 ;
 }
 return
-effect
--
->
-GetTarget
-(
-)
+target
 ;
 }
 void
