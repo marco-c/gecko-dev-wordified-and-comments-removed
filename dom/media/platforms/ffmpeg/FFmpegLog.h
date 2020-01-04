@@ -7,7 +7,7 @@ __FFmpegLog_h__
 extern
 PRLogModuleInfo
 *
-GetFFmpegDecoderLog
+GetPDMLog
 (
 )
 ;
@@ -21,7 +21,7 @@ FFMPEG_LOG
 )
 MOZ_LOG
 (
-GetFFmpegDecoderLog
+GetPDMLog
 (
 )
 mozilla
