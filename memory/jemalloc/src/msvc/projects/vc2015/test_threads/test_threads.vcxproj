@@ -3079,8 +3079,9 @@ AdditionalDependencies
 >
 jemalloc
 -
+vc
 (
-PlatformToolset
+PlatformToolsetVersion
 )
 -
 (
@@ -4200,8 +4201,9 @@ AdditionalDependencies
 >
 jemalloc
 -
+vc
 (
-PlatformToolset
+PlatformToolsetVersion
 )
 -
 (

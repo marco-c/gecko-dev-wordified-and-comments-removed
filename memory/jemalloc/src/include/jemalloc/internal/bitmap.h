@@ -1060,7 +1060,7 @@ bit
 i
 <
 <
-6
+LG_BITMAP_GROUP_NBITS
 )
 ;
 #

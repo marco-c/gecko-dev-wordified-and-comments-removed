@@ -686,7 +686,13 @@ void
 )
 ;
 void
-prof_prefork
+prof_prefork0
+(
+void
+)
+;
+void
+prof_prefork1
 (
 void
 )
