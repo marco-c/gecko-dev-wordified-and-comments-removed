@@ -106,12 +106,6 @@ DisconnectableParent
 *
 mParent
 ;
-mozilla
-:
-:
-Mutex
-mLock
-;
 }
 ;
 }
