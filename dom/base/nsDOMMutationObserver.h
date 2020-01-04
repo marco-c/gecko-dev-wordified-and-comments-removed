@@ -2562,6 +2562,8 @@ AddCurrentlyHandlingObserver
 nsDOMMutationObserver
 *
 aObserver
+uint32_t
+aMutationLevel
 )
 ;
 nsCOMPtr
