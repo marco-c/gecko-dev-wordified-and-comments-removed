@@ -8146,7 +8146,7 @@ WidgetCompositionEvent
 event
 (
 true
-NS_COMPOSITION_START
+eCompositionStart
 this
 )
 ;
@@ -8927,7 +8927,7 @@ WidgetCompositionEvent
 event
 (
 true
-NS_COMPOSITION_START
+eCompositionStart
 this
 )
 ;

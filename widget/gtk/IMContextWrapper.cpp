@@ -5600,7 +5600,7 @@ WidgetCompositionEvent
 compEvent
 (
 true
-NS_COMPOSITION_START
+eCompositionStart
 mLastFocusedWindow
 )
 ;

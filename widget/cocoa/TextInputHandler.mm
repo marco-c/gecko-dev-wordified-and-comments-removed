@@ -18137,7 +18137,7 @@ WidgetCompositionEvent
 compStart
 (
 true
-NS_COMPOSITION_START
+eCompositionStart
 mWidget
 )
 ;
@@ -18663,7 +18663,7 @@ WidgetCompositionEvent
 compStart
 (
 true
-NS_COMPOSITION_START
+eCompositionStart
 mWidget
 )
 ;

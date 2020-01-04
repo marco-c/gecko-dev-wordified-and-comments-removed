@@ -647,7 +647,7 @@ eCompositionEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_COMPOSITION_START
+eCompositionStart
 eCompositionEventFirst
 )
 NS_EVENT_MESSAGE

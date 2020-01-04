@@ -574,11 +574,11 @@ aMessage
 )
 {
 case
-NS_COMPOSITION_START
+eCompositionStart
 :
 return
 "
-NS_COMPOSITION_START
+eCompositionStart
 "
 ;
 case
@@ -6187,7 +6187,7 @@ aCompositionEvent
 mMessage
 =
 =
-NS_COMPOSITION_START
+eCompositionStart
 )
 ;
 composition
@@ -6223,7 +6223,7 @@ aCompositionEvent
 mMessage
 !
 =
-NS_COMPOSITION_START
+eCompositionStart
 )
 ;
 }
@@ -6672,7 +6672,7 @@ aCompositionEvent
 mMessage
 =
 =
-NS_COMPOSITION_START
+eCompositionStart
 )
 {
 return
