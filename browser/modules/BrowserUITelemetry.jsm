@@ -300,6 +300,11 @@ ons
 button
 "
 "
+sync
+-
+button
+"
+"
 developer
 -
 button
@@ -519,11 +524,6 @@ button
 email
 -
 link
--
-button
-"
-"
-sync
 -
 button
 "
