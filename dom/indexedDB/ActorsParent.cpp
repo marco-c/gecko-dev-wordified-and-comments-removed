@@ -68869,6 +68869,7 @@ mConnection
 ;
 public
 :
+explicit
 AutoClose
 (
 mozIStorageConnection
