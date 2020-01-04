@@ -122,9 +122,6 @@ class
 CompositableClient
 ;
 class
-BufferTextureClient
-;
-class
 ImageBridgeChild
 ;
 class
@@ -353,7 +350,7 @@ const
 ;
 already_AddRefed
 <
-BufferTextureClient
+TextureClient
 >
 CreateBufferTextureClient
 (
