@@ -367,6 +367,16 @@ NPAsyncSurface
 *
 backBuffer
 ;
+std
+:
+:
+string
+lastComposition
+;
+void
+*
+placeholderWnd
+;
 }
 InstanceData
 ;
