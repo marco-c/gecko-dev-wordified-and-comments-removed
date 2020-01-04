@@ -507,7 +507,7 @@ INCLUDES
 -
 I
 (
-DIST
+ABS_DIST
 )
 /
 include

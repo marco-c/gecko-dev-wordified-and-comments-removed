@@ -1735,7 +1735,9 @@ srcdir
 \
 -
 I
-.
+(
+CURDIR
+)
 \
 (
 LOCAL_INCLUDES
@@ -1744,7 +1746,7 @@ LOCAL_INCLUDES
 -
 I
 (
-DIST
+ABS_DIST
 )
 /
 include

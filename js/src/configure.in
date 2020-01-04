@@ -10846,7 +10846,7 @@ _DEFINES_CFLAGS
 -
 include
 (
-DEPTH
+topobjdir
 )
 /
 js
@@ -11930,7 +11930,7 @@ DMOZILLA_CLIENT
 -
 include
 (
-DEPTH
+topobjdir
 )
 /
 js
@@ -14780,7 +14780,7 @@ _DEFINES_CFLAGS
 -
 FI
 (
-DEPTH
+topobjdir
 )
 /
 js
@@ -14801,7 +14801,7 @@ _DEFINES_CXXFLAGS
 -
 FI
 (
-DEPTH
+topobjdir
 )
 /
 js

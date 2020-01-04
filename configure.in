@@ -12144,7 +12144,7 @@ _DEFINES_CFLAGS
 -
 include
 (
-DEPTH
+topobjdir
 )
 /
 mozilla
@@ -13128,7 +13128,7 @@ DMOZILLA_CLIENT
 -
 include
 (
-DEPTH
+topobjdir
 )
 /
 mozilla
@@ -18483,12 +18483,8 @@ _DEFINES_CFLAGS
 -
 FI
 (
-DEPTH
+topobjdir
 )
-/
-dist
-/
-include
 /
 mozilla
 -
@@ -18504,12 +18500,8 @@ _DEFINES_CXXFLAGS
 -
 FI
 (
-DEPTH
+topobjdir
 )
-/
-dist
-/
-include
 /
 mozilla
 -
