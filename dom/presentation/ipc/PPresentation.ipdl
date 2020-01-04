@@ -356,6 +356,8 @@ nsString
 aSessionId
 uint64_t
 aWindowId
+bool
+aIsLoading
 )
 ;
 async

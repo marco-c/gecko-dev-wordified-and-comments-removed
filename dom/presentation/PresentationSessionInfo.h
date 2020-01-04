@@ -777,6 +777,11 @@ NotifyResponderReady
 (
 )
 ;
+nsresult
+NotifyResponderFailure
+(
+)
+;
 NS_IMETHODIMP
 OnSessionTransport
 (
