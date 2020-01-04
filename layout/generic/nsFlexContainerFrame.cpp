@@ -13317,7 +13317,12 @@ aReflowState
 mStylePosition
 -
 >
-mAlignContent
+ComputedAlignContent
+(
+aReflowState
+.
+mStyleDisplay
+)
 contentBoxCrossSize
 isCrossSizeDefinite
 aAxisTracker

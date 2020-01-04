@@ -5301,6 +5301,16 @@ nsStyleBackground
 Position
 Position
 ;
+uint16_t
+ComputedAlignContent
+(
+const
+nsStyleDisplay
+*
+aDisplay
+)
+const
+;
 uint8_t
 ComputedAlignItems
 (
@@ -5405,9 +5415,6 @@ mGridAutoFlow
 uint8_t
 mBoxSizing
 ;
-uint8_t
-mAlignContent
-;
 private
 :
 friend
@@ -5430,6 +5437,9 @@ nsStyleDisplay
 aDisplay
 )
 const
+;
+uint16_t
+mAlignContent
 ;
 uint8_t
 mAlignItems
