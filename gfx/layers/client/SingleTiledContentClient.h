@@ -43,10 +43,10 @@ public
 ClientSingleTiledLayerBuffer
 (
 ClientTiledPaintedLayer
-*
+&
 aPaintedLayer
 CompositableClient
-*
+&
 aCompositableClient
 ClientLayerManager
 *
@@ -282,7 +282,7 @@ public
 SingleTiledContentClient
 (
 ClientTiledPaintedLayer
-*
+&
 aPaintedLayer
 ClientLayerManager
 *
