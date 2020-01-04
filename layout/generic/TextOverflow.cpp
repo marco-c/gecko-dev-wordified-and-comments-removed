@@ -4564,14 +4564,6 @@ textRun
 >
 GetAdvanceWidth
 (
-0
-textRun
--
->
-GetLength
-(
-)
-nullptr
 )
 ;
 }
