@@ -2807,6 +2807,7 @@ ServiceWorkerContainer
 :
 IsEnabled
 "
+SameObject
 ]
 readonly
 attribute
