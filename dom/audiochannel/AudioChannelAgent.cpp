@@ -147,10 +147,6 @@ mIsRegToService
 (
 false
 )
-mNotifyPlayback
-(
-false
-)
 {
 }
 AudioChannelAgent
@@ -904,8 +900,6 @@ AudioChannelAgent
 :
 NotifyStartedPlaying
 (
-uint32_t
-aNotifyPlayback
 float
 *
 aVolume
@@ -984,7 +978,6 @@ service
 RegisterAudioChannelAgent
 (
 this
-aNotifyPlayback
 static_cast
 <
 AudioChannel
@@ -1045,10 +1038,6 @@ aMuted
 aVolume
 )
 )
-;
-mNotifyPlayback
-=
-aNotifyPlayback
 ;
 mIsRegToService
 =
@@ -1133,7 +1122,6 @@ service
 UnregisterAudioChannelAgent
 (
 this
-mNotifyPlayback
 )
 ;
 }
