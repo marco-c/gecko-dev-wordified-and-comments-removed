@@ -553,6 +553,17 @@ overflow
 )
 ;
 void
+ma_mul
+(
+Register
+rd
+Register
+rs
+Imm32
+imm
+)
+;
+void
 ma_mult
 (
 Register
