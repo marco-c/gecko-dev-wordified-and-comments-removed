@@ -624,6 +624,9 @@ targets
 client
 debugDisabled
 targetClass
+sort
+:
+true
 }
 )
 )

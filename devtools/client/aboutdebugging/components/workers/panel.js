@@ -696,6 +696,9 @@ GetStringFromName
 serviceWorkers
 "
 )
+sort
+:
+true
 targetClass
 :
 ServiceWorkerTarget
@@ -727,6 +730,9 @@ GetStringFromName
 sharedWorkers
 "
 )
+sort
+:
+true
 targetClass
 :
 WorkerTarget
@@ -758,6 +764,9 @@ GetStringFromName
 otherWorkers
 "
 )
+sort
+:
+true
 targetClass
 :
 WorkerTarget
