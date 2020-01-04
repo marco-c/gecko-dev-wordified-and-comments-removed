@@ -1,10 +1,3 @@
-#
-include
-"
-nsSandboxFlags
-.
-h
-"
 SANDBOX_KEYWORD
 (
 "
