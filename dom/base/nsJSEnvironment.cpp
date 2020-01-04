@@ -6708,7 +6708,7 @@ sICCTimer
 sICCTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 ICCTimerFired
 nullptr
@@ -6717,6 +6717,9 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
+"
+ICCTimerFired
+"
 )
 ;
 }
@@ -8480,7 +8483,7 @@ true
 sGCTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 GCTimerFired
 reinterpret_cast
@@ -8506,6 +8509,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+GCTimerFired
+"
 )
 ;
 first
@@ -8559,7 +8565,7 @@ return
 sShrinkGCBuffersTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 ShrinkGCBuffersTimerFired
 nullptr
@@ -8568,6 +8574,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+ShrinkGCBuffersTimerFired
+"
 )
 ;
 }
@@ -8617,7 +8626,7 @@ return
 sShrinkingGCTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 ShrinkingGCTimerFired
 nullptr
@@ -8626,6 +8635,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+ShrinkingGCTimerFired
+"
 )
 ;
 }
@@ -8700,7 +8712,7 @@ nsCycleCollector_dispatchDeferredDeletion
 sCCTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 CCTimerFired
 nullptr
@@ -8709,6 +8721,9 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
+"
+CCTimerFired
+"
 )
 ;
 }
@@ -9331,7 +9346,7 @@ sFullGCTimer
 sFullGCTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 FullGCTimerFired
 nullptr
@@ -9340,6 +9355,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+FullGCTimerFired
+"
 )
 ;
 }
@@ -9435,7 +9453,7 @@ sInterSliceGCTimer
 sInterSliceGCTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 InterSliceGCTimerFired
 nullptr
@@ -9444,6 +9462,9 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+InterSliceGCTimerFired
+"
 )
 ;
 }

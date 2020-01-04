@@ -1086,7 +1086,7 @@ return
 mTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 TimeoutHandler
 this
@@ -1095,6 +1095,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+nsBrowserStatusFilter
+:
+:
+TimeoutHandler
+"
 )
 ;
 }

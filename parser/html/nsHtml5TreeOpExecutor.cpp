@@ -1138,7 +1138,7 @@ gFlushTimer
 gFlushTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 FlushTimerCallback
 nullptr
@@ -1147,6 +1147,9 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
+"
+FlushTimerCallback
+"
 )
 ;
 }

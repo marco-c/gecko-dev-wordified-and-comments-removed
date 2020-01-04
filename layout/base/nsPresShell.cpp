@@ -7561,7 +7561,7 @@ PAINTLOCK_EVENT_DELAY
 mPaintSuppressionTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 sPaintSuppressionCallback
 this
@@ -7570,6 +7570,12 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+"
+PresShell
+:
+:
+sPaintSuppressionCallback
+"
 )
 ;
 }

@@ -15591,7 +15591,7 @@ timer
 mProgressTimer
 -
 >
-InitWithFuncCallback
+InitWithNamedFuncCallback
 (
 ProgressTimerCallback
 this
@@ -15600,6 +15600,12 @@ nsITimer
 :
 :
 TYPE_REPEATING_SLACK
+"
+HTMLMediaElement
+:
+:
+ProgressTimerCallback
+"
 )
 ;
 }
