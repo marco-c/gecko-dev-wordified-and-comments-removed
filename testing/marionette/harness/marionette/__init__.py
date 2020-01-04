@@ -35,10 +35,6 @@ runner
 import
 (
     
-B2GTestCaseMixin
-    
-B2GTestResultMixin
-    
 BaseMarionetteArguments
     
 BaseMarionetteTestRunner
