@@ -208,6 +208,11 @@ EffectSet
 h
 '
 '
+NonOwningAnimationTarget
+.
+h
+'
+'
 PendingAnimationTracker
 .
 h
