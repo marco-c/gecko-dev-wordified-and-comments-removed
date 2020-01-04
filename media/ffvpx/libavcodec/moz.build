@@ -142,11 +142,6 @@ audioconvert
 c
 '
 '
-avdct
-.
-c
-'
-'
 avpacket
 .
 c
