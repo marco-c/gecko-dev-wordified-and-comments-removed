@@ -5046,6 +5046,12 @@ printTotalProfileTimes
 (
 )
 ;
+stats
+.
+printTotalProfileTimes
+(
+)
+;
 }
 bool
 GCRuntime
