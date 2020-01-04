@@ -10979,8 +10979,12 @@ TraceLogger_IonCompilation
 MOZ_ASSERT
 (
 optimizationLevel
->
-Optimization_DontCompile
+!
+=
+OptimizationLevel
+:
+:
+DontCompile
 )
 ;
 script
@@ -12531,7 +12535,10 @@ if
 optimizationLevel
 =
 =
-Optimization_DontCompile
+OptimizationLevel
+:
+:
+DontCompile
 )
 return
 Method_Skipped

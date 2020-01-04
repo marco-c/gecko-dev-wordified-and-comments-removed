@@ -19760,7 +19760,10 @@ IonOptimizations
 .
 get
 (
-Optimization_Normal
+OptimizationLevel
+:
+:
+Normal
 )
 ;
 CompilerConstraintList
@@ -20926,7 +20929,10 @@ IonOptimizations
 .
 get
 (
-Optimization_Normal
+OptimizationLevel
+:
+:
+Normal
 )
 ;
 CompilerConstraintList
