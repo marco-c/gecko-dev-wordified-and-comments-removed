@@ -1998,6 +1998,11 @@ mIsCorsPreflightDone
 :
 1
 ;
+uint32_t
+mStronglyFramed
+:
+1
+;
 nsCOMPtr
 <
 nsIChannel
