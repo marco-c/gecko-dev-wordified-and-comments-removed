@@ -842,6 +842,14 @@ Value
 )
 override
 ;
+NS_IMETHOD
+IsTrackingProtectionOn
+(
+bool
+*
+)
+override
+;
 nsresult
 RestoreFromHistory
 (
