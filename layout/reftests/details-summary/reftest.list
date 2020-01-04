@@ -214,9 +214,13 @@ style
 html
 open
 -
-single
--
 summary
+-
+block
+-
+style
+-
+ref
 .
 html
 pref
