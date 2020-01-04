@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 RtspChannelChild
 .
 h
