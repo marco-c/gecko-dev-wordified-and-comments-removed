@@ -572,6 +572,10 @@ match_parent
 "
 >
 <
+view
+class
+=
+"
 org
 .
 mozilla
@@ -580,7 +584,9 @@ gecko
 .
 tabs
 .
-TabsGridLayout
+TabsPanel
+TabsLayout
+"
 android
 :
 id

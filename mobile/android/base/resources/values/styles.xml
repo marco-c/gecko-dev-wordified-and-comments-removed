@@ -2334,7 +2334,7 @@ columnWidth
 >
 dimen
 /
-tab_panel_column_width
+tablet_tab_panel_column_width
 <
 /
 item
@@ -2366,7 +2366,7 @@ verticalSpacing
 >
 dimen
 /
-tab_panel_grid_vspacing
+tablet_tab_panel_grid_vspacing
 <
 /
 item

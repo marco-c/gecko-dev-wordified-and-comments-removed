@@ -198,6 +198,10 @@ view
 -
 >
 <
+view
+class
+=
+"
 org
 .
 mozilla
@@ -206,7 +210,9 @@ gecko
 .
 tabs
 .
-TabsGridLayout
+TabsPanel
+TabsLayout
+"
 android
 :
 id
