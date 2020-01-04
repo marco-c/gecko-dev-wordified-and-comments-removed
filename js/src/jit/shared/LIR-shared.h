@@ -22969,6 +22969,8 @@ LInstructionHelper
 0
 1
 +
+2
+*
 BOX_PIECES
 1
 >
@@ -23007,9 +23009,18 @@ temp
 static
 const
 size_t
+Id
+=
+1
+;
+static
+const
+size_t
 Value
 =
 1
++
+BOX_PIECES
 ;
 const
 MSetPropertyCache
