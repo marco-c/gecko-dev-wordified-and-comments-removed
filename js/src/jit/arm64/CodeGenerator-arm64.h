@@ -1027,6 +1027,15 @@ LClzI
 lir
 )
 ;
+virtual
+void
+visitCtzI
+(
+LCtzI
+*
+lir
+)
+;
 void
 visitOutOfLineBailout
 (

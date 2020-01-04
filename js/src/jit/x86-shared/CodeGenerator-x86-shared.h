@@ -1105,6 +1105,15 @@ ins
 ;
 virtual
 void
+visitCtzI
+(
+LCtzI
+*
+ins
+)
+;
+virtual
+void
 visitPopcntI
 (
 LPopcntI
