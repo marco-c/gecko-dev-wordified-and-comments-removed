@@ -205,6 +205,8 @@ home
 /
 worker
 /
+workspace
+/
 build
 /
 upload
@@ -247,6 +249,8 @@ path
 home
 /
 worker
+/
+workspace
 /
 build
 /
