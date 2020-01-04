@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsJSUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -1650,6 +1657,13 @@ SystemTimezoneChangeInformation
 aSystemTimezoneChangeInfo
 )
 {
+nsJSUtils
+:
+:
+ResetTimeZone
+(
+)
+;
 sSystemTimezoneChangeObservers
 .
 BroadcastInformation
