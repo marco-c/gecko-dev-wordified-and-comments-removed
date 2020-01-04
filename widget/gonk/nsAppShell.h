@@ -189,6 +189,11 @@ NotifyScreenRotation
 (
 )
 ;
+void
+CheckPowerKey
+(
+)
+;
 protected
 :
 virtual
@@ -288,6 +293,9 @@ android
 InputReaderThread
 >
 mReaderThread
+;
+bool
+mPowerKeyChecked
 ;
 }
 ;
