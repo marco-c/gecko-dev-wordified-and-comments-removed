@@ -28,13 +28,6 @@ mozilla
 namespace
 dom
 {
-namespace
-workers
-{
-class
-XMLHttpRequestWorker
-;
-}
 class
 XMLHttpRequestUpload
 final

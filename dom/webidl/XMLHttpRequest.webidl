@@ -484,8 +484,6 @@ withCredentials
 ;
 [
 Throws
-=
-Workers
 ]
 readonly
 attribute
@@ -573,8 +571,6 @@ data
 ;
 [
 Throws
-=
-Workers
 ]
 void
 abort
@@ -591,8 +587,6 @@ responseURL
 ;
 [
 Throws
-=
-Workers
 ]
 readonly
 attribute
@@ -600,6 +594,9 @@ unsigned
 short
 status
 ;
+[
+Throws
+]
 readonly
 attribute
 ByteString
@@ -618,8 +615,6 @@ header
 ;
 [
 Throws
-=
-Workers
 ]
 ByteString
 getAllResponseHeaders
@@ -681,8 +676,6 @@ stuff
 [
 ChromeOnly
 SetterThrows
-=
-Workers
 ]
 attribute
 boolean
