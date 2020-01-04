@@ -169,6 +169,8 @@ api
 11
 -
 linux64
+-
+macosx64
 tests
 :
 -
