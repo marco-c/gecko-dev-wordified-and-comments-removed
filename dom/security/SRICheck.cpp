@@ -1620,7 +1620,7 @@ aDocument
 )
 {
 return
-NS_OK
+NS_ERROR_SRI_NOT_ELIGIBLE
 ;
 }
 if
