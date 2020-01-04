@@ -1205,12 +1205,15 @@ LayerRect
 >
 insideClipFloat
 =
-UntransformTo
+UntransformBy
+(
+ViewAs
 <
-LayerPixel
+ParentLayerToLayerMatrix4x4
 >
 (
 inverse
+)
 ParentLayerRect
 (
 *
