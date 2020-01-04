@@ -387,8 +387,6 @@ protocol
 this
 .
 _win
-.
-document
 )
 ;
 }
