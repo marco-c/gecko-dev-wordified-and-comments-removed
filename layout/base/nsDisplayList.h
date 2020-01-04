@@ -3829,6 +3829,10 @@ mAnimatedGeometryRoot
 (
 nullptr
 )
+mForceNotVisible
+(
+false
+)
 #
 ifdef
 MOZ_DUMP_PAINTING
