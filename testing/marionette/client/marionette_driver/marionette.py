@@ -272,7 +272,7 @@ def
 get_attribute
 (
 self
-attribute
+name
 )
 :
         
@@ -293,15 +293,69 @@ is
 set
 .
         
+"
+"
+"
+        
+body
+=
+{
+"
+id
+"
 :
-param
-attribute
-:
-The
+self
+.
+id
+"
 name
-of
+"
+:
+name
+}
+        
+return
+self
+.
+marionette
+.
+_send_message
+(
+"
+getElementAttribute
+"
+body
+key
+=
+"
+value
+"
+)
+    
+def
+get_property
+(
+self
+name
+)
+:
+        
+"
+"
+"
+Returns
 the
-attribute
+requested
+property
+or
+None
+if
+the
+property
+is
+        
+not
+set
 .
         
 "
@@ -322,7 +376,7 @@ id
 name
 "
 :
-attribute
+name
 }
         
 return
@@ -333,7 +387,7 @@ marionette
 _send_message
 (
 "
-getElementAttribute
+getElementProperty
 "
 body
 key
@@ -4120,7 +4174,7 @@ DEFAULT_SOCKET_TIMEOUT
     
 DEFAULT_STARTUP_TIMEOUT
 =
-120
+60
     
 def
 __init__
