@@ -346,6 +346,9 @@ aDir
 void
 referrerDirectiveValue
 (
+nsCSPDirective
+*
+aDir
 )
 ;
 void
