@@ -3394,8 +3394,8 @@ fnSet
 EffectiveFormat
 :
 :
-RGB8
-false
+RGB565
+true
 true
 )
 ;
@@ -3404,7 +3404,7 @@ fnSet
 EffectiveFormat
 :
 :
-RGB565
+RGB8
 true
 true
 )
