@@ -39105,13 +39105,3 @@ fallbackUploadDir
 "
 )
 ;
-pref
-(
-"
-plugins
-.
-rewrite_youtube_embeds
-"
-true
-)
-;
