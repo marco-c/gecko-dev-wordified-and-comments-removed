@@ -5272,6 +5272,17 @@ text
 n
 "
 ;
+if
+(
+state
+.
+iterationCount
+!
+=
+=
+1
+)
+{
 text
 +
 =
@@ -5316,6 +5327,7 @@ text
 n
 "
 ;
+}
 if
 (
 state
