@@ -1467,6 +1467,9 @@ eventRegionsOverride
 uint32_t
 hmdDeviceID
 ;
+int32_t
+inputFrameID
+;
 }
 ;
 struct
@@ -1917,6 +1920,9 @@ frameID
 ;
 uint32_t
 producerID
+;
+int32_t
+inputFrameID
 ;
 }
 ;

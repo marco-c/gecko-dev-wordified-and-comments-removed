@@ -6006,6 +6006,10 @@ mVRDeviceID
 (
 0
 )
+mInputFrameID
+(
+0
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -6830,6 +6834,7 @@ mPresShellResolution
 mScaleToResolution
 mEventRegionsOverride
 mVRDeviceID
+mInputFrameID
 )
 ;
 }
@@ -12083,8 +12088,15 @@ hmd
 %
 lu
 ]
+[
+hmdframe
+=
+%
+l
+]
 "
 mVRDeviceID
+mInputFrameID
 )
 .
 get

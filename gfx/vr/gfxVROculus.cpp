@@ -1365,6 +1365,10 @@ mSession
 (
 aSession
 )
+mInputFrameID
+(
+0
+)
 {
 MOZ_ASSERT
 (
@@ -2000,6 +2004,10 @@ TimeStamp
 aVsyncTimestamp
 )
 {
++
++
+mInputFrameID
+;
 }
 void
 HMDInfoOculus
@@ -2930,6 +2938,8 @@ SubmitFrame
 RenderTargetSet
 *
 aRTSet
+int32_t
+aInputFrameID
 )
 {
 RenderTargetSetOculus
@@ -3268,7 +3278,7 @@ orv
 ovr_SubmitFrame
 (
 mSession
-0
+aInputFrameID
 nullptr
 &
 layers

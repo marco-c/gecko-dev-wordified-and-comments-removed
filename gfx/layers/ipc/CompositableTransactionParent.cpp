@@ -1056,6 +1056,17 @@ producerID
 (
 )
 ;
+t
+-
+>
+mInputFrameID
+=
+timedTexture
+.
+inputFrameID
+(
+)
+;
 MOZ_ASSERT
 (
 ValidatePictureRect
