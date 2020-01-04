@@ -215,7 +215,7 @@ JSONException
 {
 }
 public
-void
+boolean
 parse
 (
 String
@@ -591,6 +591,7 @@ e
 )
 ;
 return
+false
 ;
 }
 if
@@ -636,5 +637,8 @@ tab
 )
 ;
 }
+return
+true
+;
 }
 }
