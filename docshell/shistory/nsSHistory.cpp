@@ -944,10 +944,6 @@ mRequestedIndex
 -
 1
 )
-mRootDocShell
-(
-nullptr
-)
 {
 PR_APPEND_LINK
 (
@@ -3700,10 +3696,6 @@ mTransaction
 (
 aTrans
 )
-mLastTouched
-(
-0
-)
 mDistance
 (
 aDist
@@ -3786,6 +3778,10 @@ nsISHEntryInternal
 ?
 "
 )
+;
+mLastTouched
+=
+0
 ;
 }
 }
