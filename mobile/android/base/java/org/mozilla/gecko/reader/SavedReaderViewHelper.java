@@ -239,12 +239,6 @@ loadItems
 (
 )
 {
-ThreadUtils
-.
-assertNotOnUiThread
-(
-)
-;
 if
 (
 mItems
