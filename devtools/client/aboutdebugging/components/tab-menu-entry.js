@@ -26,7 +26,7 @@ react
 ;
 exports
 .
-TabMenuEntryComponent
+TabMenuEntry
 =
 React
 .
@@ -36,7 +36,7 @@ createClass
 displayName
 :
 "
-TabMenuEntryComponent
+TabMenuEntry
 "
 render
 (

@@ -44,7 +44,7 @@ lazyRequireGetter
 (
 this
 "
-TargetListComponent
+TargetList
 "
 "
 devtools
@@ -68,7 +68,7 @@ lazyRequireGetter
 (
 this
 "
-TabHeaderComponent
+TabHeader
 "
 "
 devtools
@@ -166,7 +166,7 @@ svg
 ;
 exports
 .
-WorkersComponent
+WorkersTab
 =
 React
 .
@@ -176,7 +176,7 @@ createClass
 displayName
 :
 "
-WorkersComponent
+WorkersTab
 "
 getInitialState
 (
@@ -353,7 +353,7 @@ React
 .
 createElement
 (
-TabHeaderComponent
+TabHeader
 {
 id
 :
@@ -403,7 +403,7 @@ React
 .
 createElement
 (
-TargetListComponent
+TargetList
 {
 id
 :
@@ -434,7 +434,7 @@ React
 .
 createElement
 (
-TargetListComponent
+TargetList
 {
 id
 :
@@ -465,7 +465,7 @@ React
 .
 createElement
 (
-TargetListComponent
+TargetList
 {
 id
 :

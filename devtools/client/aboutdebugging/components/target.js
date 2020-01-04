@@ -145,7 +145,7 @@ properties
 ;
 exports
 .
-TargetComponent
+Target
 =
 React
 .
@@ -155,7 +155,7 @@ createClass
 displayName
 :
 "
-TargetComponent
+Target
 "
 debug
 (

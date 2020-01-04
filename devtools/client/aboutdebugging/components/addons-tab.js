@@ -30,7 +30,7 @@ lazyRequireGetter
 (
 this
 "
-TargetListComponent
+TargetList
 "
 "
 devtools
@@ -54,7 +54,7 @@ lazyRequireGetter
 (
 this
 "
-TabHeaderComponent
+TabHeader
 "
 "
 devtools
@@ -78,7 +78,7 @@ lazyRequireGetter
 (
 this
 "
-AddonsControlsComponent
+AddonsControls
 "
 "
 devtools
@@ -174,7 +174,7 @@ properties
 ;
 exports
 .
-AddonsComponent
+AddonsTab
 =
 React
 .
@@ -184,7 +184,7 @@ createClass
 displayName
 :
 "
-AddonsComponent
+AddonsTab
 "
 getInitialState
 (
@@ -358,7 +358,7 @@ React
 .
 createElement
 (
-TabHeaderComponent
+TabHeader
 {
 id
 :
@@ -387,7 +387,7 @@ React
 .
 createElement
 (
-AddonsControlsComponent
+AddonsControls
 {
 debugDisabled
 }
@@ -410,7 +410,7 @@ React
 .
 createElement
 (
-TargetListComponent
+TargetList
 {
 name
 targets
