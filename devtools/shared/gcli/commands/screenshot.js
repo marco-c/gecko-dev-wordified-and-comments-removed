@@ -359,7 +359,7 @@ screenshotDelayManual
 name
 :
 "
-dpi
+dpr
 "
 type
 :
@@ -386,7 +386,7 @@ l10n
 lookup
 (
 "
-screenshotDPIDesc
+screenshotDPRDesc
 "
 )
 manual
@@ -396,7 +396,7 @@ l10n
 lookup
 (
 "
-screenshotDPIManual
+screenshotDPRManual
 "
 )
 }
@@ -1534,11 +1534,11 @@ ratio
 =
 args
 .
-dpi
+dpr
 ?
 args
 .
-dpi
+dpr
 :
 window
 .
