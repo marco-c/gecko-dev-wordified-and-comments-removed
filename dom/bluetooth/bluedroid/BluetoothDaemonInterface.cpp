@@ -807,7 +807,10 @@ BluetoothDaemonProtocol
 :
 HandleCoreSvc
 [
-0x02
+BluetoothDaemonSocketModule
+:
+:
+SERVICE_ID
 ]
 =
 &
