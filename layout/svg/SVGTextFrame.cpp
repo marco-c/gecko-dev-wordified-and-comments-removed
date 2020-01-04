@@ -9972,7 +9972,7 @@ SVGTextFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-SVGTextFrameBase
+nsSVGDisplayContainerFrame
 )
 nsIFrame
 *
@@ -10040,7 +10040,7 @@ text
 "
 )
 ;
-SVGTextFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 Init
@@ -12741,7 +12741,7 @@ Size
 )
 )
 ;
-SVGTextFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 ReflowSVG

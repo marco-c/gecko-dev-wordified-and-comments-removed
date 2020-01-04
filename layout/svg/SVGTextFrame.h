@@ -94,10 +94,6 @@ SVGTextFrame
 class
 nsTextFrame
 ;
-typedef
-nsSVGDisplayContainerFrame
-SVGTextFrameBase
-;
 namespace
 mozilla
 {
@@ -705,7 +701,7 @@ SVGTextFrame
 final
 :
 public
-SVGTextFrameBase
+nsSVGDisplayContainerFrame
 {
 friend
 nsIFrame
@@ -824,7 +820,7 @@ nsStyleContext
 aContext
 )
 :
-SVGTextFrameBase
+nsSVGDisplayContainerFrame
 (
 aContext
 )
