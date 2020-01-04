@@ -253,7 +253,7 @@ mInFrame
 (
 false
 )
-mDataDone
+mReachedTerminalState
 (
 false
 )
@@ -534,10 +534,6 @@ SourceBufferIterator
 :
 COMPLETE
 :
-mDataDone
-=
-true
-;
 terminalState
 =
 NS_SUCCEEDED
@@ -651,6 +647,10 @@ MOZ_ASSERT
 (
 terminalState
 )
+;
+mReachedTerminalState
+=
+true
 ;
 if
 (
