@@ -131,6 +131,9 @@ nsFrame
 nsPluginFrameSuper
 ;
 class
+PluginFrameDidCompositeObserver
+;
+class
 nsPluginFrame
 :
 public
@@ -978,6 +981,12 @@ RefPtr
 nsRootPresContext
 >
 mRootPresContextRegisteredWith
+;
+nsAutoPtr
+<
+PluginFrameDidCompositeObserver
+>
+mDidCompositeObserver
 ;
 bool
 mIsHiddenDueToScroll

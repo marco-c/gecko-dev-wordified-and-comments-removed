@@ -874,6 +874,11 @@ GetImageContainer
 (
 )
 ;
+void
+DidComposite
+(
+)
+;
 nsIntSize
 GetCurrentImageSize
 (
