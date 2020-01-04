@@ -740,6 +740,16 @@ char
 aType
 )
 ;
+static
+bool
+ShouldLoadTypeInParent
+(
+const
+nsACString
+&
+aMimeType
+)
+;
 enum
 SpecialType
 {
