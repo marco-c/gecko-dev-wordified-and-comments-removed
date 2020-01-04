@@ -905,6 +905,14 @@ nsAString
 aScope
 )
 ;
+void
+WorkerIsIdle
+(
+ServiceWorkerInfo
+*
+aWorker
+)
+;
 private
 :
 ServiceWorkerManager
