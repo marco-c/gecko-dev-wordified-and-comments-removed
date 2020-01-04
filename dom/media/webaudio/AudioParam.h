@@ -161,7 +161,8 @@ aGivenProto
 )
 override
 ;
-void
+AudioParam
+*
 SetValueCurveAtTime
 (
 const
@@ -197,6 +198,7 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
 return
+this
 ;
 }
 aValues
@@ -231,6 +233,9 @@ Length
 (
 )
 )
+;
+return
+this
 ;
 }
 void
@@ -302,7 +307,8 @@ event
 )
 ;
 }
-void
+AudioParam
+*
 SetValueAtTime
 (
 float
@@ -334,6 +340,7 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
 return
+this
 ;
 }
 EventInsertionHelper
@@ -347,8 +354,12 @@ aStartTime
 aValue
 )
 ;
+return
+this
+;
 }
-void
+AudioParam
+*
 LinearRampToValueAtTime
 (
 float
@@ -380,6 +391,7 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
 return
+this
 ;
 }
 EventInsertionHelper
@@ -393,8 +405,12 @@ aEndTime
 aValue
 )
 ;
+return
+this
+;
 }
-void
+AudioParam
+*
 ExponentialRampToValueAtTime
 (
 float
@@ -426,6 +442,7 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
 return
+this
 ;
 }
 EventInsertionHelper
@@ -439,8 +456,12 @@ aEndTime
 aValue
 )
 ;
+return
+this
+;
 }
-void
+AudioParam
+*
 SetTargetAtTime
 (
 float
@@ -484,6 +505,7 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
 return
+this
 ;
 }
 EventInsertionHelper
@@ -498,8 +520,12 @@ aTarget
 aTimeConstant
 )
 ;
+return
+this
+;
 }
-void
+AudioParam
+*
 CancelScheduledValues
 (
 double
@@ -529,6 +555,7 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
 return
+this
 ;
 }
 AudioEventTimeline
@@ -556,6 +583,9 @@ SendEventToEngine
 (
 event
 )
+;
+return
+this
 ;
 }
 uint32_t

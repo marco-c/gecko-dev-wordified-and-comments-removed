@@ -170,7 +170,7 @@ automation
 [
 Throws
 ]
-void
+AudioParam
 setValueAtTime
 (
 float
@@ -182,7 +182,7 @@ startTime
 [
 Throws
 ]
-void
+AudioParam
 linearRampToValueAtTime
 (
 float
@@ -194,7 +194,7 @@ endTime
 [
 Throws
 ]
-void
+AudioParam
 exponentialRampToValueAtTime
 (
 float
@@ -222,7 +222,7 @@ constant
 [
 Throws
 ]
-void
+AudioParam
 setTargetAtTime
 (
 float
@@ -269,7 +269,7 @@ duration
 [
 Throws
 ]
-void
+AudioParam
 setValueCurveAtTime
 (
 Float32Array
@@ -299,7 +299,7 @@ startTime
 [
 Throws
 ]
-void
+AudioParam
 cancelScheduledValues
 (
 double
