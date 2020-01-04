@@ -1103,7 +1103,7 @@ asyncPan
 !
 layersGPUAccelerated
 121
-107
+144
 )
 =
 =
@@ -1221,8 +1221,8 @@ asyncPan
 &
 !
 layersGPUAccelerated
-102
-98
+110
+114
 )
 fuzzy
 -
@@ -1232,8 +1232,8 @@ browserIsRemote
 &
 &
 winWidget
-102
-107
+110
+114
 )
 =
 =

@@ -6834,6 +6834,7 @@ backends
 direct2d1
 .
 1
+skia
 cairo
 "
 )

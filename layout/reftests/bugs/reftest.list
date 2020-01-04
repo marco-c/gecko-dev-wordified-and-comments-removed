@@ -29208,7 +29208,7 @@ winWidget
 &
 &
 !
-d2d
+dwrite
 )
 random
 -
@@ -29217,7 +29217,7 @@ if
 winWidget
 &
 &
-d2d
+dwrite
 )
 !
 =
@@ -29482,7 +29482,7 @@ asyncPan
 !
 layersGPUAccelerated
 255
-33
+141
 )
 HTTP
 (
