@@ -1422,6 +1422,14 @@ aWhichOnes
 )
 ;
 void
+NotifyServiceWorkerRegistrationRemoved
+(
+ServiceWorkerRegistrationInfo
+*
+aRegistration
+)
+;
+void
 StartControllingADocument
 (
 ServiceWorkerRegistrationInfo
