@@ -667,6 +667,14 @@ bool
 aDeliveredViaMetaTag
 )
 :
+mCurChar
+(
+nullptr
+)
+mEndChar
+(
+nullptr
+)
 mHasHashOrNonce
 (
 false
@@ -690,6 +698,10 @@ aTokens
 mSelfURI
 (
 aSelfURI
+)
+mPolicy
+(
+nullptr
 )
 mCSPContext
 (
