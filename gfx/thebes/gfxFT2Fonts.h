@@ -214,6 +214,7 @@ FontCacheSizes
 aSizes
 )
 const
+override
 ;
 virtual
 void
@@ -229,6 +230,7 @@ FontCacheSizes
 aSizes
 )
 const
+override
 ;
 #
 ifdef
@@ -282,6 +284,7 @@ gfxShapedText
 *
 aShapedText
 )
+override
 ;
 void
 FillGlyphDataForChar

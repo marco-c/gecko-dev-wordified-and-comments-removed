@@ -178,6 +178,7 @@ aFontStyle
 bool
 aNeedsBold
 )
+override
 ;
 cairo_font_face_t
 *
@@ -204,6 +205,7 @@ aFontInfoData
 =
 nullptr
 )
+override
 ;
 virtual
 hb_blob_t
@@ -252,6 +254,7 @@ FontListSizes
 aSizes
 )
 const
+override
 ;
 virtual
 void
@@ -267,6 +270,7 @@ FontListSizes
 aSizes
 )
 const
+override
 ;
 FT_Face
 mFTFace

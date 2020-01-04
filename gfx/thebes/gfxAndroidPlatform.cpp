@@ -311,6 +311,7 @@ aData
 bool
 aAnonymize
 )
+override
 {
 return
 MOZ_COLLECT_REPORT
