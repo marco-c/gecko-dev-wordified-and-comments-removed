@@ -193,6 +193,11 @@ testBuiltin
 WeakSet
 )
 ;
+testBuiltin
+(
+ArrayBuffer
+)
+;
 ;
 if
 (
