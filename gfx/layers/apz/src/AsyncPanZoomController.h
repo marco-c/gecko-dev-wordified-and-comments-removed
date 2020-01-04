@@ -1482,6 +1482,9 @@ mLastFlingVelocity
 TimeStamp
 mLastFlingTime
 ;
+bool
+mPinchPaintTimerSet
+;
 void
 HandleFlingOverscroll
 (
@@ -1547,6 +1550,11 @@ AllowScrollHandoffInCurrentBlock
 (
 )
 const
+;
+void
+DoDelayedRequestContentRepaint
+(
+)
 ;
 public
 :

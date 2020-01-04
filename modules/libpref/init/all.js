@@ -5962,6 +5962,16 @@ zoom_animation_duration_ms
 250
 )
 ;
+pref
+(
+"
+apz
+.
+scale_repaint_delay_ms
+"
+500
+)
+;
 #
 if
 defined
