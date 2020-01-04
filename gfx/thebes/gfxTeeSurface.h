@@ -25,14 +25,6 @@ nsSize
 .
 h
 "
-template
-<
-class
-T
->
-class
-nsRefPtr
-;
 class
 gfxTeeSurface
 :
