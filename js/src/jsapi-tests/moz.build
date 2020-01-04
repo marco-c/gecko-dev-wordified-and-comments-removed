@@ -164,6 +164,11 @@ testContexts
 cpp
 '
 '
+testDateToLocaleString
+.
+cpp
+'
+'
 testDebugger
 .
 cpp
