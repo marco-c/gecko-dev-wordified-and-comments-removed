@@ -2579,6 +2579,9 @@ MatchOnly
 unicode
 (
 )
+ignoreCase
+(
+)
 &
 data
 )
@@ -2632,6 +2635,9 @@ force
 =
 ForceByteCode
 sticky
+(
+)
+unicode
 (
 )
 )

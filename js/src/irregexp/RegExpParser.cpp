@@ -904,6 +904,8 @@ bool
 multiline_mode
 bool
 unicode
+bool
+ignore_case
 )
 :
 ts
@@ -945,6 +947,10 @@ multiline_mode
 unicode_
 (
 unicode
+)
+ignore_case_
+(
+ignore_case
 )
 simple_
 (
@@ -2769,6 +2775,8 @@ char16_t
 char_class
 widechar
 c
+bool
+ignore_case
 )
 {
 if
@@ -2787,6 +2795,7 @@ AddClassEscapeUnicode
 alloc
 char_class
 ranges
+ignore_case
 )
 ;
 switch
@@ -4658,6 +4667,7 @@ trail_ranges
 wide_ranges
 char_class
 first
+ignore_case_
 )
 ;
 }
@@ -4834,6 +4844,7 @@ trail_ranges
 wide_ranges
 char_class
 first
+ignore_case_
 )
 ;
 }
@@ -6482,6 +6493,8 @@ LifoAlloc
 alloc
 char16_t
 char_class
+bool
+ignore_case
 )
 {
 CharacterRangeVector
@@ -6557,6 +6570,7 @@ trail_ranges
 wide_ranges
 char_class
 0
+ignore_case
 )
 ;
 return
@@ -7421,6 +7435,7 @@ alloc
 current
 (
 )
+ignore_case_
 )
 )
 ;
@@ -7475,6 +7490,22 @@ CharacterRangeVector
 alloc
 )
 ;
+if
+(
+unicode_
+)
+CharacterRange
+:
+:
+AddClassEscapeUnicode
+(
+alloc
+c
+ranges
+ignore_case_
+)
+;
+else
 CharacterRange
 :
 :
@@ -8649,6 +8680,8 @@ bool
 match_only
 bool
 unicode
+bool
+ignore_case
 RegExpCompileData
 *
 data
@@ -8777,6 +8810,7 @@ chars
 length
 multiline
 unicode
+ignore_case
 )
 ;
 data
@@ -8862,6 +8896,8 @@ bool
 match_only
 bool
 unicode
+bool
+ignore_case
 RegExpCompileData
 *
 data
@@ -8903,6 +8939,7 @@ length
 multiline
 match_only
 unicode
+ignore_case
 data
 )
 :
@@ -8928,6 +8965,7 @@ length
 multiline
 match_only
 unicode
+ignore_case
 data
 )
 ;
@@ -8982,6 +9020,7 @@ chars
 length
 false
 unicode
+false
 )
 ;
 return

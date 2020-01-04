@@ -318,6 +318,8 @@ jit
 Label
 *
 on_no_match
+bool
+unicode
 )
 ;
 void

@@ -47,6 +47,8 @@ bool
 match_only
 bool
 unicode
+bool
+ignore_case
 RegExpCompileData
 *
 data
@@ -637,6 +639,8 @@ bool
 multiline_mode
 bool
 unicode
+bool
+ignore_case
 )
 ;
 RegExpTree
@@ -1097,6 +1101,9 @@ multiline_
 ;
 bool
 unicode_
+;
+bool
+ignore_case_
 ;
 bool
 simple_

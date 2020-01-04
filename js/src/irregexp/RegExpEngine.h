@@ -187,6 +187,8 @@ bool
 force_bytecode
 bool
 sticky
+bool
+unicode
 )
 ;
 template
@@ -441,6 +443,8 @@ type
 CharacterRangeVector
 *
 ranges
+bool
+ignoreCase
 )
 ;
 static
@@ -617,6 +621,8 @@ AddCaseEquivalents
 (
 bool
 is_ascii
+bool
+unicode
 CharacterRangeVector
 *
 ranges
@@ -1881,6 +1887,8 @@ int
 depth
 bool
 ignore_case
+bool
+unicode
 )
 {
 return
@@ -2339,6 +2347,8 @@ int
 depth
 bool
 ignore_case
+bool
+unicode
 )
 ;
 virtual
@@ -2366,6 +2376,8 @@ int
 depth
 bool
 ignore_case
+bool
+unicode
 )
 ;
 private
@@ -2842,6 +2854,8 @@ MakeCaseIndependent
 (
 bool
 is_ascii
+bool
+unicode
 )
 ;
 virtual
@@ -2889,6 +2903,8 @@ int
 depth
 bool
 ignore_case
+bool
+unicode
 )
 ;
 private
@@ -4018,6 +4034,8 @@ int
 depth
 bool
 ignore_case
+bool
+unicode
 )
 ;
 protected
@@ -4199,6 +4217,8 @@ int
 depth
 bool
 ignore_case
+bool
+unicode
 )
 ;
 }
@@ -4356,6 +4376,8 @@ int
 depth
 bool
 ignore_case
+bool
+unicode
 )
 ;
 private
@@ -5802,6 +5824,8 @@ bool
 ignore_case
 bool
 is_ascii
+bool
+unicode
 )
 :
 cx
@@ -5815,6 +5839,10 @@ ignore_case
 is_ascii_
 (
 is_ascii
+)
+unicode_
+(
+unicode
 )
 error_message_
 (
@@ -5924,6 +5952,9 @@ ignore_case_
 ;
 bool
 is_ascii_
+;
+bool
+unicode_
 ;
 const
 char
