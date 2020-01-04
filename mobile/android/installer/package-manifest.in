@@ -3814,6 +3814,13 @@ BINPATH
 /
 components
 /
+ImageBlockingPolicy
+.
+js
+BINPATH
+/
+components
+/
 DirectoryProvider
 .
 js
