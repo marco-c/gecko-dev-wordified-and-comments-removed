@@ -287,6 +287,7 @@ function
 group
 name
 value
+isPrivate
 )
 {
 msg
@@ -315,6 +316,7 @@ args
 group
 name
 value
+isPrivate
 ]
 }
 )
@@ -326,6 +328,7 @@ function
 (
 group
 name
+isPrivate
 )
 {
 msg
@@ -353,6 +356,7 @@ args
 [
 group
 name
+isPrivate
 ]
 }
 )
