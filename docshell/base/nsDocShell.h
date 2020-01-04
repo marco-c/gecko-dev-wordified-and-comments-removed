@@ -1206,6 +1206,9 @@ nsIURI
 aURI
 nsIURI
 *
+aOriginalURI
+nsIURI
+*
 aReferrer
 bool
 aSendReferrer

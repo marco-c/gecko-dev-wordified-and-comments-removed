@@ -69,6 +69,12 @@ mReferrer
 ;
 nsCOMPtr
 <
+nsIURI
+>
+mOriginalURI
+;
+nsCOMPtr
+<
 nsISupports
 >
 mOwner
