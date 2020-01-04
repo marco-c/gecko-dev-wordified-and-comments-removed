@@ -2867,7 +2867,7 @@ for
 LayoutDeviceIntRegion
 :
 :
-RectIterator
+OldRectIterator
 iter
 (
 aRegion

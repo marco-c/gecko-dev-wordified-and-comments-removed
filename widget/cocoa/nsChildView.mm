@@ -21184,7 +21184,7 @@ region
 LayoutDeviceIntRegion
 :
 :
-RectIterator
+OldRectIterator
 iter
 (
 region
@@ -26765,7 +26765,7 @@ rects
 LayoutDeviceIntRegion
 :
 :
-RectIterator
+OldRectIterator
 iter
 (
 aRegion

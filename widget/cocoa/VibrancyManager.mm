@@ -263,7 +263,7 @@ empty
 LayoutDeviceIntRegion
 :
 :
-RectIterator
+OldRectIterator
 iter
 (
 aRegion
@@ -557,7 +557,7 @@ set
 LayoutDeviceIntRegion
 :
 :
-RectIterator
+OldRectIterator
 iter
 (
 aVibrantRegion

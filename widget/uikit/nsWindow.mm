@@ -2637,7 +2637,7 @@ region
 LayoutDeviceIntRegion
 :
 :
-RectIterator
+OldRectIterator
 iter
 (
 region

@@ -3148,7 +3148,7 @@ nsIntPoint
 LayoutDeviceIntRegion
 :
 :
-RectIterator
+OldRectIterator
 iter
 (
 mInvalidRegion

@@ -184,7 +184,7 @@ aRegion
 LayoutDeviceIntRegion
 :
 :
-RectIterator
+OldRectIterator
 it
 (
 aRegion
