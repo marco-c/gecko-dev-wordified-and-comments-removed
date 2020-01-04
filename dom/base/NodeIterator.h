@@ -66,9 +66,7 @@ nsINode
 aRoot
 uint32_t
 aWhatToShow
-const
 NodeFilterHolder
-&
 aFilter
 )
 ;

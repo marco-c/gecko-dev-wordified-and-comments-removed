@@ -2007,9 +2007,6 @@ node
 nullptr
 )
 ;
-NodeFilterHolder
-filter
-;
 RefPtr
 <
 NodeIterator
@@ -2024,7 +2021,9 @@ nsIDOMNodeFilter
 :
 :
 SHOW_TEXT
-filter
+NodeFilterHolder
+(
+)
 )
 ;
 while
