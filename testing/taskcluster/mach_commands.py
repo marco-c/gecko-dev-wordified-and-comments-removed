@@ -25,6 +25,8 @@ json
 import
 copy
 import
+re
+import
 sys
 import
 time
@@ -956,27 +958,45 @@ whitelist
 =
 [
         
+re
+.
+compile
+(
 "
+^
+level
+-
+[
+123
+]
+-
+.
+*
+-
 tc
 -
 vcs
-"
-        
-"
-tc
--
-vcs
+(
 -
 public
 -
 sources
+)
+?
 "
+)
         
+re
+.
+compile
+(
 "
+^
 tooltool
 -
 cache
 "
+)
     
 ]
     
@@ -1013,10 +1033,20 @@ keys
 :
             
 if
-cache
 not
+any
+(
+pat
+.
+match
+(
+cache
+)
+for
+pat
 in
 whitelist
+)
 :
                 
 caches
