@@ -907,6 +907,17 @@ talos
 tests
 .
 zip
+GTEST_PACKAGE
+=
+(
+PKG_BASENAME
+)
+.
+gtest
+.
+tests
+.
+zip
 ifneq
 (
 (
