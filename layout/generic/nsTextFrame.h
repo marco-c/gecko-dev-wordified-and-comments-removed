@@ -931,7 +931,6 @@ IsEmpty
 )
 ;
 }
-virtual
 nscoord
 GetLogicalBaseline
 (
@@ -942,7 +941,7 @@ WritingMode
 aWritingMode
 )
 const
-override
+final
 ;
 virtual
 bool
