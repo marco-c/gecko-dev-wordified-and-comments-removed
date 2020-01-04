@@ -243,6 +243,10 @@ onabort
 ;
 attribute
 EventHandler
+onclose
+;
+attribute
+EventHandler
 onerror
 ;
 attribute

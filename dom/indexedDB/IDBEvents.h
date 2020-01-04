@@ -148,6 +148,12 @@ char16_t
 *
 kVersionChangeEventType
 ;
+extern
+const
+char16_t
+*
+kCloseEventType
+;
 already_AddRefed
 <
 nsIDOMEvent

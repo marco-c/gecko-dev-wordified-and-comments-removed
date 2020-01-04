@@ -1228,6 +1228,13 @@ RecvInvalidate
 )
 override
 ;
+virtual
+bool
+RecvCloseAfterInvalidationComplete
+(
+)
+override
+;
 bool
 SendDeleteMe
 (

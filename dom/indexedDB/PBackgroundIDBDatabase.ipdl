@@ -262,6 +262,11 @@ Invalidate
 )
 ;
 async
+CloseAfterInvalidationComplete
+(
+)
+;
+async
 PBackgroundIDBVersionChangeTransaction
 (
 uint64_t
