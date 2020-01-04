@@ -206,6 +206,9 @@ AnimationDecodingTask
 )
 {
 }
+Mutex
+mMutex
+;
 NotNull
 <
 RefPtr

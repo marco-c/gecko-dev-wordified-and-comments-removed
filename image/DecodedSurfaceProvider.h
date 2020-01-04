@@ -171,6 +171,9 @@ RasterImage
 >
 mImage
 ;
+Mutex
+mMutex
+;
 RefPtr
 <
 Decoder
