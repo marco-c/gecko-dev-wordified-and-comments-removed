@@ -213,6 +213,17 @@ test
 mochitest
 browser
 /
+components
+/
+uitour
+/
+test
+/
+browser_UITour_loop_panel
+.
+js
+browser
+/
 base
 /
 content
