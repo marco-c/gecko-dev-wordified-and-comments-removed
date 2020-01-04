@@ -76,16 +76,16 @@ mozharness
 .
 mozilla
 .
-merge
+repo_manupulation
 import
-GeckoMigrationMixin
+MercurialRepoManipulationMixin
 class
 PostReleaseVersionBump
 (
 MercurialScript
 BuildbotMixin
                              
-GeckoMigrationMixin
+MercurialRepoManipulationMixin
 )
 :
     
@@ -691,7 +691,7 @@ self
 abs_dirs
     
 def
-query_gecko_repos
+query_repos
 (
 self
 )
@@ -868,7 +868,7 @@ repos
 =
 self
 .
-query_gecko_repos
+query_repos
 (
 )
 )
