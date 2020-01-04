@@ -22,6 +22,7 @@ Blacklisted
 Failed
 Disabled
 Available
+ForceEnabled
 }
 ;
 const

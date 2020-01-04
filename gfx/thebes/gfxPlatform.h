@@ -1332,11 +1332,6 @@ CanUseDirect3D11ANGLE
 (
 )
 ;
-bool
-ShouldUseLayersAcceleration
-(
-)
-;
 void
 GetCompositorBackends
 (
@@ -2180,6 +2175,11 @@ ComputeTileSize
 ;
 void
 PopulateScreenInfo
+(
+)
+;
+void
+InitCompositorAccelerationPrefs
 (
 )
 ;
