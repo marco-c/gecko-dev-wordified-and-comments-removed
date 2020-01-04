@@ -19,6 +19,7 @@ js
 namespace
 jit
 {
+MOZ_MUST_USE
 bool
 ReorderInstructions
 (

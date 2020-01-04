@@ -159,6 +159,7 @@ void
 *
 )
 ;
+MOZ_MUST_USE
 bool
 initForOsr
 (
@@ -980,6 +981,7 @@ UndefinedValue
 )
 ;
 }
+MOZ_MUST_USE
 bool
 copyRawFrameSlots
 (
@@ -1126,6 +1128,7 @@ flags_
 ;
 }
 inline
+MOZ_MUST_USE
 bool
 pushBlock
 (
@@ -1150,6 +1153,7 @@ cx
 )
 ;
 inline
+MOZ_MUST_USE
 bool
 freshenBlock
 (
@@ -1158,6 +1162,7 @@ JSContext
 cx
 )
 ;
+MOZ_MUST_USE
 bool
 initStrictEvalScopeObjects
 (
@@ -1166,6 +1171,7 @@ JSContext
 cx
 )
 ;
+MOZ_MUST_USE
 bool
 initFunctionScopeObjects
 (

@@ -598,11 +598,13 @@ loopDepth
 0
 )
 ;
+MOZ_MUST_USE
 bool
 build
 (
 )
 ;
+MOZ_MUST_USE
 bool
 buildInline
 (
@@ -619,6 +621,7 @@ callInfo
 ;
 private
 :
+MOZ_MUST_USE
 bool
 traverseBytecode
 (
@@ -631,11 +634,13 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 processIterators
 (
 )
 ;
+MOZ_MUST_USE
 bool
 inspectOpcode
 (
@@ -699,6 +704,7 @@ TemporaryTypeSet
 calleeTypes
 )
 ;
+MOZ_MUST_USE
 bool
 getPolyCallTargets
 (
@@ -728,6 +734,7 @@ DeferredEdge
 edge
 )
 ;
+MOZ_MUST_USE
 bool
 processDeferredContinues
 (
@@ -939,6 +946,7 @@ jssrcnote
 sn
 )
 ;
+MOZ_MUST_USE
 bool
 pushLoop
 (
@@ -975,6 +983,7 @@ jsbytecode
 continuepc
 )
 ;
+MOZ_MUST_USE
 bool
 analyzeNewLoopTypes
 (
@@ -1187,6 +1196,7 @@ MBasicBlock
 successor
 )
 ;
+MOZ_MUST_USE
 bool
 addOsrValueTypeBarrier
 (
@@ -1203,6 +1213,7 @@ TemporaryTypeSet
 typeSet
 )
 ;
+MOZ_MUST_USE
 bool
 maybeAddOsrTypeBarriers
 (
@@ -1273,6 +1284,7 @@ jssrcnote
 sn
 )
 ;
+MOZ_MUST_USE
 bool
 resume
 (
@@ -1289,6 +1301,7 @@ Mode
 mode
 )
 ;
+MOZ_MUST_USE
 bool
 resumeAt
 (
@@ -1300,6 +1313,7 @@ jsbytecode
 pc
 )
 ;
+MOZ_MUST_USE
 bool
 resumeAfter
 (
@@ -1308,6 +1322,7 @@ MInstruction
 ins
 )
 ;
+MOZ_MUST_USE
 bool
 maybeInsertResume
 (
@@ -1345,6 +1360,7 @@ rewriteParameters
 (
 )
 ;
+MOZ_MUST_USE
 bool
 initScopeChain
 (
@@ -1355,12 +1371,13 @@ callee
 nullptr
 )
 ;
+MOZ_MUST_USE
 bool
 initArgumentsObject
 (
 )
 ;
-bool
+void
 pushConstant
 (
 const
@@ -1414,6 +1431,7 @@ size_t
 count
 )
 ;
+MOZ_MUST_USE
 bool
 improveTypesAtTest
 (
@@ -1427,6 +1445,7 @@ MTest
 test
 )
 ;
+MOZ_MUST_USE
 bool
 improveTypesAtCompare
 (
@@ -1440,6 +1459,7 @@ MTest
 test
 )
 ;
+MOZ_MUST_USE
 bool
 improveTypesAtNullOrUndefinedCompare
 (
@@ -1453,6 +1473,7 @@ MTest
 test
 )
 ;
+MOZ_MUST_USE
 bool
 improveTypesAtTypeOfCompare
 (
@@ -1466,6 +1487,7 @@ MTest
 test
 )
 ;
+MOZ_MUST_USE
 bool
 detectAndOrStructure
 (
@@ -1477,6 +1499,7 @@ bool
 branchIsTrue
 )
 ;
+MOZ_MUST_USE
 bool
 replaceTypeSet
 (
@@ -1511,6 +1534,7 @@ pbarrier
 nullptr
 )
 ;
+MOZ_MUST_USE
 bool
 pushTypeBarrier
 (
@@ -1524,6 +1548,7 @@ BarrierKind
 kind
 )
 ;
+MOZ_MUST_USE
 bool
 pushDOMTypeBarrier
 (
@@ -1787,6 +1812,7 @@ JSObject
 pcall
 )
 ;
+MOZ_MUST_USE
 bool
 loadSlot
 (
@@ -1806,6 +1832,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 loadSlot
 (
@@ -1824,6 +1851,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 storeSlot
 (
@@ -1848,6 +1876,7 @@ MIRType
 None
 )
 ;
+MOZ_MUST_USE
 bool
 storeSlot
 (
@@ -1897,6 +1926,7 @@ MDefinition
 def
 )
 ;
+MOZ_MUST_USE
 bool
 checkIsDefinitelyOptimizedArguments
 (
@@ -1908,6 +1938,7 @@ bool
 isOptimizedArgs
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryInferredConstant
 (
@@ -1925,6 +1956,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryArgumentsLength
 (
@@ -1936,6 +1968,7 @@ MDefinition
 obj
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryArgumentsCallee
 (
@@ -1950,6 +1983,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryConstant
 (
@@ -1966,6 +2000,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryNotDefined
 (
@@ -1982,6 +2017,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryDefiniteSlot
 (
@@ -2001,6 +2037,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryModuleNamespace
 (
@@ -2020,6 +2057,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryUnboxed
 (
@@ -2039,6 +2077,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryCommonGetter
 (
@@ -2056,6 +2095,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryInlineAccess
 (
@@ -2075,6 +2115,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryTypedObject
 (
@@ -2089,6 +2130,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryScalarPropOfTypedObject
 (
@@ -2104,6 +2146,7 @@ TypedObjectPrediction
 fieldTypeReprs
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryReferencePropOfTypedObject
 (
@@ -2122,6 +2165,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryComplexPropOfTypedObject
 (
@@ -2139,6 +2183,7 @@ size_t
 fieldIndex
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryInnerize
 (
@@ -2156,6 +2201,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTryCache
 (
@@ -2175,6 +2221,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 getPropTrySharedStub
 (
@@ -2189,6 +2236,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 setPropTryCommonSetter
 (
@@ -2206,6 +2254,7 @@ MDefinition
 value
 )
 ;
+MOZ_MUST_USE
 bool
 setPropTryCommonDOMSetter
 (
@@ -2226,6 +2275,7 @@ TemporaryTypeSet
 objTypes
 )
 ;
+MOZ_MUST_USE
 bool
 setPropTryDefiniteSlot
 (
@@ -2248,6 +2298,7 @@ TemporaryTypeSet
 objTypes
 )
 ;
+MOZ_MUST_USE
 bool
 setPropTryUnboxed
 (
@@ -2270,6 +2321,7 @@ TemporaryTypeSet
 objTypes
 )
 ;
+MOZ_MUST_USE
 bool
 setPropTryInlineAccess
 (
@@ -2292,6 +2344,7 @@ TemporaryTypeSet
 objTypes
 )
 ;
+MOZ_MUST_USE
 bool
 setPropTryTypedObject
 (
@@ -2309,6 +2362,7 @@ MDefinition
 value
 )
 ;
+MOZ_MUST_USE
 bool
 setPropTryReferencePropOfTypedObject
 (
@@ -2330,6 +2384,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 setPropTryScalarPropOfTypedObject
 (
@@ -2348,6 +2403,7 @@ TypedObjectPrediction
 fieldTypeReprs
 )
 ;
+MOZ_MUST_USE
 bool
 setPropTryCache
 (
@@ -2384,6 +2440,7 @@ MDefinition
 right
 )
 ;
+MOZ_MUST_USE
 bool
 binaryArithTryConcat
 (
@@ -2400,6 +2457,7 @@ MDefinition
 right
 )
 ;
+MOZ_MUST_USE
 bool
 binaryArithTrySpecialized
 (
@@ -2416,6 +2474,7 @@ MDefinition
 right
 )
 ;
+MOZ_MUST_USE
 bool
 binaryArithTrySpecializedOnBaselineInspector
 (
@@ -2432,6 +2491,7 @@ MDefinition
 right
 )
 ;
+MOZ_MUST_USE
 bool
 arithTrySharedStub
 (
@@ -2448,6 +2508,7 @@ MDefinition
 right
 )
 ;
+MOZ_MUST_USE
 bool
 bitnotTrySpecialized
 (
@@ -2459,6 +2520,7 @@ MDefinition
 input
 )
 ;
+MOZ_MUST_USE
 bool
 powTrySpecialized
 (
@@ -2475,6 +2537,7 @@ MIRType
 outputType
 )
 ;
+MOZ_MUST_USE
 bool
 compareTrySpecialized
 (
@@ -2491,6 +2554,7 @@ MDefinition
 right
 )
 ;
+MOZ_MUST_USE
 bool
 compareTryBitwise
 (
@@ -2507,6 +2571,7 @@ MDefinition
 right
 )
 ;
+MOZ_MUST_USE
 bool
 compareTrySpecializedOnBaselineInspector
 (
@@ -2523,6 +2588,7 @@ MDefinition
 right
 )
 ;
+MOZ_MUST_USE
 bool
 compareTrySharedStub
 (
@@ -2539,6 +2605,7 @@ MDefinition
 right
 )
 ;
+MOZ_MUST_USE
 bool
 newArrayTrySharedStub
 (
@@ -2547,6 +2614,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 newArrayTryTemplateObject
 (
@@ -2560,6 +2628,7 @@ uint32_t
 length
 )
 ;
+MOZ_MUST_USE
 bool
 newArrayTryVM
 (
@@ -2570,6 +2639,7 @@ uint32_t
 length
 )
 ;
+MOZ_MUST_USE
 bool
 newObjectTrySharedStub
 (
@@ -2578,6 +2648,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 newObjectTryTemplateObject
 (
@@ -2589,6 +2660,7 @@ JSObject
 templateObject
 )
 ;
+MOZ_MUST_USE
 bool
 newObjectTryVM
 (
@@ -2597,6 +2669,7 @@ bool
 emitted
 )
 ;
+MOZ_MUST_USE
 bool
 inTryDense
 (
@@ -2611,6 +2684,7 @@ MDefinition
 id
 )
 ;
+MOZ_MUST_USE
 bool
 inTryFold
 (
@@ -2641,6 +2715,7 @@ TemporaryTypeSet
 types
 )
 ;
+MOZ_MUST_USE
 bool
 typedObjectHasField
 (
@@ -2730,6 +2805,7 @@ size_t
 fieldIndex
 )
 ;
+MOZ_MUST_USE
 bool
 storeReferenceTypedObjectValue
 (
@@ -2753,6 +2829,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 storeScalarTypedObjectValue
 (
@@ -2773,6 +2850,7 @@ MDefinition
 value
 )
 ;
+MOZ_MUST_USE
 bool
 checkTypedObjectIndexInBounds
 (
@@ -2791,6 +2869,7 @@ LinearSum
 indexAsByteOffset
 )
 ;
+MOZ_MUST_USE
 bool
 pushDerivedTypedObject
 (
@@ -2811,6 +2890,7 @@ MDefinition
 derivedTypeObj
 )
 ;
+MOZ_MUST_USE
 bool
 pushScalarLoadFromTypedObject
 (
@@ -2828,6 +2908,7 @@ Type
 type
 )
 ;
+MOZ_MUST_USE
 bool
 pushReferenceLoadFromTypedObject
 (
@@ -2860,6 +2941,7 @@ MDefinition
 index
 )
 ;
+MOZ_MUST_USE
 bool
 setElemTryTypedArray
 (
@@ -2877,6 +2959,7 @@ MDefinition
 value
 )
 ;
+MOZ_MUST_USE
 bool
 setElemTryTypedObject
 (
@@ -2894,6 +2977,7 @@ MDefinition
 value
 )
 ;
+MOZ_MUST_USE
 bool
 setElemTryTypedStatic
 (
@@ -2911,6 +2995,7 @@ MDefinition
 value
 )
 ;
+MOZ_MUST_USE
 bool
 setElemTryDense
 (
@@ -2930,6 +3015,7 @@ bool
 writeHole
 )
 ;
+MOZ_MUST_USE
 bool
 setElemTryArguments
 (
@@ -2947,6 +3033,7 @@ MDefinition
 value
 )
 ;
+MOZ_MUST_USE
 bool
 setElemTryCache
 (
@@ -2964,6 +3051,7 @@ MDefinition
 value
 )
 ;
+MOZ_MUST_USE
 bool
 setElemTryReferenceElemOfTypedObject
 (
@@ -2985,6 +3073,7 @@ TypedObjectPrediction
 elemPrediction
 )
 ;
+MOZ_MUST_USE
 bool
 setElemTryScalarElemOfTypedObject
 (
@@ -3008,6 +3097,7 @@ int32_t
 elemSize
 )
 ;
+MOZ_MUST_USE
 bool
 initializeArrayElement
 (
@@ -3025,6 +3115,7 @@ bool
 addResumePointAndIncrementInitializedLength
 )
 ;
+MOZ_MUST_USE
 bool
 getElemTryDense
 (
@@ -3039,6 +3130,7 @@ MDefinition
 index
 )
 ;
+MOZ_MUST_USE
 bool
 getElemTryGetProp
 (
@@ -3053,6 +3145,7 @@ MDefinition
 index
 )
 ;
+MOZ_MUST_USE
 bool
 getElemTryTypedStatic
 (
@@ -3067,6 +3160,7 @@ MDefinition
 index
 )
 ;
+MOZ_MUST_USE
 bool
 getElemTryTypedArray
 (
@@ -3081,6 +3175,7 @@ MDefinition
 index
 )
 ;
+MOZ_MUST_USE
 bool
 getElemTryTypedObject
 (
@@ -3095,6 +3190,7 @@ MDefinition
 index
 )
 ;
+MOZ_MUST_USE
 bool
 getElemTryString
 (
@@ -3109,6 +3205,7 @@ MDefinition
 index
 )
 ;
+MOZ_MUST_USE
 bool
 getElemTryArguments
 (
@@ -3123,6 +3220,7 @@ MDefinition
 index
 )
 ;
+MOZ_MUST_USE
 bool
 getElemTryArgumentsInlined
 (
@@ -3137,6 +3235,7 @@ MDefinition
 index
 )
 ;
+MOZ_MUST_USE
 bool
 getElemTryCache
 (
@@ -3151,6 +3250,7 @@ MDefinition
 index
 )
 ;
+MOZ_MUST_USE
 bool
 getElemTryScalarElemOfTypedObject
 (
@@ -3171,6 +3271,7 @@ int32_t
 elemSize
 )
 ;
+MOZ_MUST_USE
 bool
 getElemTryReferenceElemOfTypedObject
 (
@@ -3189,6 +3290,7 @@ TypedObjectPrediction
 elemPrediction
 )
 ;
+MOZ_MUST_USE
 bool
 getElemTryComplexElemOfTypedObject
 (
@@ -3287,6 +3389,7 @@ return
 length
 ;
 }
+MOZ_MUST_USE
 bool
 improveThisTypesForCall
 (
@@ -3324,6 +3427,7 @@ MDefinition
 input
 )
 ;
+MOZ_MUST_USE
 bool
 tryFoldInstanceOf
 (
@@ -3335,6 +3439,7 @@ JSObject
 protoObject
 )
 ;
+MOZ_MUST_USE
 bool
 hasOnProtoChain
 (
@@ -3352,6 +3457,7 @@ bool
 hasOnProto
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_add
 (
@@ -3363,11 +3469,13 @@ MDefinition
 right
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_bitnot
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_bitop
 (
@@ -3375,6 +3483,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_binary_arith
 (
@@ -3382,6 +3491,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_binary_arith
 (
@@ -3395,26 +3505,31 @@ MDefinition
 right
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_pow
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_pos
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_neg
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_tostring
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_setarg
 (
@@ -3422,6 +3537,7 @@ uint32_t
 arg
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_defvar
 (
@@ -3429,6 +3545,7 @@ uint32_t
 index
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_deflexical
 (
@@ -3436,6 +3553,7 @@ uint32_t
 index
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_deffun
 (
@@ -3443,21 +3561,25 @@ uint32_t
 index
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_notearg
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_throwsetconst
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_checklexical
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_checkaliasedlet
 (
@@ -3465,6 +3587,7 @@ ScopeCoordinate
 sc
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_funcall
 (
@@ -3472,6 +3595,7 @@ uint32_t
 argc
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_funapply
 (
@@ -3479,6 +3603,7 @@ uint32_t
 argc
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_funapplyarguments
 (
@@ -3486,6 +3611,7 @@ uint32_t
 argc
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_funapplyarray
 (
@@ -3493,6 +3619,7 @@ uint32_t
 argc
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_call
 (
@@ -3502,6 +3629,7 @@ bool
 constructing
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_eval
 (
@@ -3509,6 +3637,7 @@ uint32_t
 argc
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_ifeq
 (
@@ -3516,21 +3645,25 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_try
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_label
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_condswitch
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_andor
 (
@@ -3538,11 +3671,13 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_dup2
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_loophead
 (
@@ -3551,6 +3686,7 @@ jsbytecode
 pc
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_compare
 (
@@ -3558,6 +3694,7 @@ JSOp
 op
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_compare
 (
@@ -3571,6 +3708,7 @@ MDefinition
 right
 )
 ;
+MOZ_MUST_USE
 bool
 getStaticName
 (
@@ -3590,6 +3728,7 @@ lexicalCheck
 nullptr
 )
 ;
+MOZ_MUST_USE
 bool
 loadStaticSlot
 (
@@ -3605,6 +3744,7 @@ uint32_t
 slot
 )
 ;
+MOZ_MUST_USE
 bool
 setStaticName
 (
@@ -3616,6 +3756,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_getgname
 (
@@ -3624,6 +3765,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_getname
 (
@@ -3632,6 +3774,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_intrinsic
 (
@@ -3640,6 +3783,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_getimport
 (
@@ -3648,6 +3792,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_bindname
 (
@@ -3656,16 +3801,19 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_bindvar
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_getelem
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_getelem_dense
 (
@@ -3679,6 +3827,7 @@ JSValueType
 unboxedType
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_getelem_typed
 (
@@ -3695,11 +3844,13 @@ Type
 arrayType
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_setelem
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_setelem_dense
 (
@@ -3723,6 +3874,7 @@ bool
 writeHole
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_setelem_typed
 (
@@ -3742,41 +3894,49 @@ MDefinition
 value
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_length
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_length_fastPath
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_arguments
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_arguments_getelem
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_runonce
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_rest
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_not
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_getprop
 (
@@ -3785,6 +3945,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_setprop
 (
@@ -3793,6 +3954,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_delprop
 (
@@ -3801,11 +3963,13 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_delelem
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_newarray
 (
@@ -3813,6 +3977,7 @@ uint32_t
 length
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_newarray
 (
@@ -3823,36 +3988,43 @@ uint32_t
 length
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_newarray_copyonwrite
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_newobject
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_initelem
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_initelem_array
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_initelem_getter_setter
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_mutateproto
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_initprop
 (
@@ -3861,6 +4033,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_initprop_getter_setter
 (
@@ -3869,6 +4042,7 @@ PropertyName
 name
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_regexp
 (
@@ -3877,6 +4051,7 @@ RegExpObject
 reobj
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_object
 (
@@ -3885,6 +4060,7 @@ JSObject
 obj
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_lambda
 (
@@ -3893,6 +4069,7 @@ JSFunction
 fun
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_lambda_arrow
 (
@@ -3901,26 +4078,31 @@ JSFunction
 fun
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_functionthis
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_globalthis
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_typeof
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_toid
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_iter
 (
@@ -3928,31 +4110,37 @@ uint8_t
 flags
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_itermore
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_isnoiter
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_iterend
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_in
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_instanceof
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_getaliasedvar
 (
@@ -3960,6 +4148,7 @@ ScopeCoordinate
 sc
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_setaliasedvar
 (
@@ -3967,16 +4156,19 @@ ScopeCoordinate
 sc
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_debugger
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_newtarget
 (
 )
 ;
+MOZ_MUST_USE
 bool
 jsop_checkobjcoercible
 (
@@ -4044,6 +4236,7 @@ CallInfo
 callInfo
 )
 ;
+MOZ_MUST_USE
 bool
 selectInliningTargets
 (
@@ -4806,6 +4999,7 @@ SimdType
 type
 )
 ;
+MOZ_MUST_USE
 bool
 prepareForSimdLoadStore
 (
@@ -5061,6 +5255,7 @@ JSObject
 target
 )
 ;
+MOZ_MUST_USE
 bool
 inlineScriptedCall
 (
@@ -5095,6 +5290,7 @@ CallInfo
 callInfo
 )
 ;
+MOZ_MUST_USE
 bool
 inlineCalls
 (
@@ -5113,6 +5309,7 @@ MGetPropertyCache
 maybeCache
 )
 ;
+MOZ_MUST_USE
 bool
 inlineGenericFallback
 (
@@ -5127,6 +5324,7 @@ MBasicBlock
 dispatchBlock
 )
 ;
+MOZ_MUST_USE
 bool
 inlineObjectGroupFallback
 (
@@ -5155,6 +5353,7 @@ DontCheckAtomicResult
 DoCheckAtomicResult
 }
 ;
+MOZ_MUST_USE
 bool
 atomicsMeetsPreconditions
 (
@@ -5192,6 +5391,7 @@ MDefinition
 index
 )
 ;
+MOZ_MUST_USE
 bool
 testNeedsArgumentCheck
 (
@@ -5215,6 +5415,7 @@ CallInfo
 callInfo
 )
 ;
+MOZ_MUST_USE
 bool
 makeCall
 (
@@ -5268,6 +5469,7 @@ MBasicBlock
 exit
 )
 ;
+MOZ_MUST_USE
 bool
 objectsHaveCommonPrototype
 (
@@ -5305,6 +5507,7 @@ allowEmptyTypesForGlobal
 false
 )
 ;
+MOZ_MUST_USE
 bool
 testCommonGetterSetter
 (
@@ -5342,6 +5545,7 @@ globalGuard
 nullptr
 )
 ;
+MOZ_MUST_USE
 bool
 testShouldDOMCall
 (
@@ -5389,6 +5593,7 @@ bool
 isOwnProperty
 )
 ;
+MOZ_MUST_USE
 bool
 annotateGetPropertyCache
 (
@@ -5449,6 +5654,7 @@ jsid
 id
 )
 ;
+MOZ_MUST_USE
 bool
 testNotDefinedProperty
 (
@@ -5593,6 +5799,7 @@ preBarrier
 true
 )
 ;
+MOZ_MUST_USE
 bool
 checkPreliminaryGroups
 (
@@ -5601,6 +5808,7 @@ MDefinition
 obj
 )
 ;
+MOZ_MUST_USE
 bool
 freezePropTypeSets
 (
@@ -5636,6 +5844,7 @@ jsbytecode
 pc
 )
 ;
+MOZ_MUST_USE
 bool
 setCurrentAndSpecializePhis
 (
@@ -5884,6 +6093,7 @@ actionableAbortMessage_
 }
 private
 :
+MOZ_MUST_USE
 bool
 init
 (
@@ -6692,6 +6902,7 @@ false
 )
 {
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -6763,6 +6974,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -6996,6 +7208,7 @@ constructing
 )
 ;
 }
+MOZ_MUST_USE
 bool
 setArgs
 (

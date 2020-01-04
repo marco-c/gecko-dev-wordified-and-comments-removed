@@ -45,6 +45,7 @@ MIRGraph
 graph
 )
 ;
+MOZ_MUST_USE
 bool
 analyzeLate
 (

@@ -38,6 +38,7 @@ template
 typename
 MAsmJSHeapAccessType
 >
+MOZ_MUST_USE
 bool
 tryAddDisplacement
 (
@@ -83,6 +84,7 @@ graph
 )
 {
 }
+MOZ_MUST_USE
 bool
 analyze
 (

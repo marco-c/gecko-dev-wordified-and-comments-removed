@@ -1259,6 +1259,7 @@ ptr
 )
 const
 ;
+MOZ_MUST_USE
 bool
 callStackAtAddr
 (
@@ -1685,6 +1686,7 @@ ptr
 )
 const
 ;
+MOZ_MUST_USE
 bool
 callStackAtAddr
 (
@@ -1876,6 +1878,7 @@ ptr
 )
 const
 ;
+MOZ_MUST_USE
 bool
 callStackAtAddr
 (
@@ -2081,6 +2084,7 @@ return
 nullptr
 ;
 }
+MOZ_MUST_USE
 bool
 callStackAtAddr
 (
@@ -3126,6 +3130,7 @@ return
 nullptr
 ;
 }
+MOZ_MUST_USE
 bool
 callStackAtAddr
 (
@@ -4477,6 +4482,7 @@ uint32_t
 sampleBufferGen
 )
 ;
+MOZ_MUST_USE
 bool
 addEntry
 (
@@ -4503,6 +4509,7 @@ rt
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addEntry
 (
@@ -4529,6 +4536,7 @@ rt
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addEntry
 (
@@ -4555,6 +4563,7 @@ rt
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addEntry
 (
@@ -4627,6 +4636,7 @@ JSTracer
 trc
 )
 ;
+MOZ_MUST_USE
 bool
 markIteratively
 (
@@ -4645,6 +4655,7 @@ rt
 ;
 private
 :
+MOZ_MUST_USE
 bool
 addEntry
 (
@@ -4999,6 +5010,7 @@ end
 )
 ;
 static
+MOZ_MUST_USE
 bool
 WriteRun
 (
@@ -5850,6 +5862,7 @@ i
 0
 ;
 }
+MOZ_MUST_USE
 bool
 makeIonEntry
 (
@@ -6058,6 +6071,7 @@ regionOffset
 ;
 }
 static
+MOZ_MUST_USE
 bool
 WriteIonTable
 (

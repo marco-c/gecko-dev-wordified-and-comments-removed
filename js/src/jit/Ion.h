@@ -173,6 +173,7 @@ assemblerCount_
 ;
 }
 ;
+MOZ_MUST_USE
 bool
 InitializeIon
 (
@@ -211,6 +212,7 @@ bool
 osr
 )
 ;
+MOZ_MUST_USE
 bool
 IonCompileScriptForBaseline
 (
@@ -301,6 +303,7 @@ JitExec_Aborted
 struct
 EnterJitData
 ;
+MOZ_MUST_USE
 bool
 SetEnterJitData
 (
@@ -434,6 +437,7 @@ LIRGraph
 class
 CodeGenerator
 ;
+MOZ_MUST_USE
 bool
 OptimizeMIR
 (

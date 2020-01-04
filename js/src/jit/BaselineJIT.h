@@ -1359,6 +1359,7 @@ uint8_t
 nativeAddress
 )
 ;
+MOZ_MUST_USE
 bool
 addDependentWasmModule
 (

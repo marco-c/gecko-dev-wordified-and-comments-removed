@@ -135,6 +135,7 @@ JSScript
 script
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (

@@ -241,6 +241,7 @@ alloc
 )
 ;
 }
+MOZ_MUST_USE
 bool
 ensureBallast
 (
@@ -566,6 +567,7 @@ reportAllocOverflow
 const
 {
 }
+MOZ_MUST_USE
 bool
 checkSimulatedOOM
 (

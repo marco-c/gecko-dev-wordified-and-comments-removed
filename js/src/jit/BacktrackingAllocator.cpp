@@ -7778,6 +7778,9 @@ LUse
 ANY
 )
 {
+if
+(
+!
 hint
 -
 >
@@ -7791,6 +7794,9 @@ Requirement
 REGISTER
 )
 )
+)
+return
+false
 ;
 }
 }
