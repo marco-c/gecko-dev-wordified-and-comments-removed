@@ -1548,6 +1548,17 @@ panel
 null
 ;
 }
+get
+container
+(
+)
+{
+return
+this
+.
+panel
+;
+}
 set
 content
 (
