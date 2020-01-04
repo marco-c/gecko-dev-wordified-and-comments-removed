@@ -183,6 +183,11 @@ testBuiltin
 Set
 )
 ;
+testBuiltin
+(
+WeakMap
+)
+;
 ;
 if
 (
