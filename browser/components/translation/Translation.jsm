@@ -669,9 +669,13 @@ get
 browser
 (
 )
+{
+return
 this
 .
 _browser
+;
+}
 set
 browser
 (
@@ -1096,9 +1100,13 @@ get
 state
 (
 )
+{
+return
 this
 .
 _state
+;
+}
 set
 state
 (
@@ -1217,6 +1225,8 @@ get
 notificationBox
 (
 )
+{
+return
 this
 .
 browser
@@ -1231,6 +1241,8 @@ this
 .
 browser
 )
+;
+}
 showTranslationInfoBar
 :
 function
