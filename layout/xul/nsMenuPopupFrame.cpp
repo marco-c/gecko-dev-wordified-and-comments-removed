@@ -3870,7 +3870,10 @@ true
 ;
 if
 (
-aIsContextMenu
+mPopupType
+=
+=
+ePopupTypeMenu
 )
 {
 nsIPresShell
