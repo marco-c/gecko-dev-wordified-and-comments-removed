@@ -184,6 +184,8 @@ bool
 aUpgradeInsecureRequests
 bool
 aVerifySignedContent
+bool
+aEnforceSRI
 uint64_t
 aInnerWindowID
 uint64_t
@@ -318,6 +320,9 @@ mUpgradeInsecureRequests
 ;
 bool
 mVerifySignedContent
+;
+bool
+mEnforceSRI
 ;
 uint64_t
 mInnerWindowID

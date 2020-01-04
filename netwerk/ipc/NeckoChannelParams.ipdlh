@@ -392,6 +392,9 @@ upgradeInsecureRequests
 bool
 verifySignedContent
 ;
+bool
+enforceSRI
+;
 uint64_t
 innerWindowID
 ;

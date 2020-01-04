@@ -1196,6 +1196,12 @@ GetVerifySignedContent
 aLoadInfo
 -
 >
+GetEnforceSRI
+(
+)
+aLoadInfo
+-
+>
 GetInnerWindowID
 (
 )
@@ -1511,6 +1517,11 @@ upgradeInsecureRequests
 loadInfoArgs
 .
 verifySignedContent
+(
+)
+loadInfoArgs
+.
+enforceSRI
 (
 )
 loadInfoArgs
