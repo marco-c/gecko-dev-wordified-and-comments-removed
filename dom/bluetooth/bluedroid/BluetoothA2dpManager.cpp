@@ -332,7 +332,7 @@ class
 BluetoothA2dpManager
 :
 :
-InitA2dpResultHandler
+InitResultHandler
 final
 :
 public
@@ -340,7 +340,7 @@ BluetoothA2dpResultHandler
 {
 public
 :
-InitA2dpResultHandler
+InitResultHandler
 (
 BluetoothProfileResultHandler
 *
@@ -638,7 +638,7 @@ Init
 (
 a2dpManager
 new
-InitA2dpResultHandler
+InitResultHandler
 (
 aRes
 )
@@ -890,7 +890,7 @@ class
 BluetoothA2dpManager
 :
 :
-CleanupA2dpResultHandler
+CleanupResultHandler
 final
 :
 public
@@ -898,7 +898,7 @@ BluetoothA2dpResultHandler
 {
 public
 :
-CleanupA2dpResultHandler
+CleanupResultHandler
 (
 BluetoothProfileResultHandler
 *
@@ -994,7 +994,7 @@ class
 BluetoothA2dpManager
 :
 :
-CleanupA2dpResultHandlerRunnable
+CleanupResultHandlerRunnable
 final
 :
 public
@@ -1002,7 +1002,7 @@ nsRunnable
 {
 public
 :
-CleanupA2dpResultHandlerRunnable
+CleanupResultHandlerRunnable
 (
 BluetoothProfileResultHandler
 *
@@ -1081,7 +1081,7 @@ sBtA2dpInterface
 Cleanup
 (
 new
-CleanupA2dpResultHandler
+CleanupResultHandler
 (
 aRes
 )
@@ -1101,7 +1101,7 @@ nsRunnable
 r
 =
 new
-CleanupA2dpResultHandlerRunnable
+CleanupResultHandlerRunnable
 (
 aRes
 )
