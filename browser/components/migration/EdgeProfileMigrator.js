@@ -148,6 +148,14 @@ MSMigrationUtils
 .
 MIGRATION_TYPE_EDGE
 )
+MSMigrationUtils
+.
+getCookiesMigrator
+(
+MSMigrationUtils
+.
+MIGRATION_TYPE_EDGE
+)
 ]
 ;
 return
