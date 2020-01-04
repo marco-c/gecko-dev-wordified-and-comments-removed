@@ -294,6 +294,13 @@ friend
 class
 DOMLocalMediaStream
 ;
+friend
+class
+dom
+:
+:
+MediaStreamTrack
+;
 typedef
 dom
 :

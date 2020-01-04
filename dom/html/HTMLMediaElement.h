@@ -801,6 +801,12 @@ DecoderPrincipalChangeObserver
 aObserver
 )
 ;
+class
+CaptureStreamTrackSource
+;
+class
+CaptureStreamTrackSourceGetter
+;
 void
 UpdateMediaSize
 (
