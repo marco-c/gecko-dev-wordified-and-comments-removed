@@ -560,6 +560,8 @@ const
 char
 *
 host
+uint32_t
+aLen
 )
 ;
 bool
