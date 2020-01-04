@@ -273,14 +273,6 @@ dns
 DEFINES
 [
 '
-IDNA2008
-'
-]
-=
-False
-DEFINES
-[
-'
 MOZILLA_INTERNAL_API
 '
 ]
