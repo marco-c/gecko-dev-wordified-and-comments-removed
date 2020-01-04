@@ -103,9 +103,10 @@ this
 "
 gAppBrowser
 "
-function
 (
 )
+=
+>
 document
 .
 getElementById
