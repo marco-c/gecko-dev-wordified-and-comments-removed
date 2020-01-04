@@ -5912,6 +5912,9 @@ block
 >
 specializePhis
 (
+alloc
+(
+)
 )
 )
 return

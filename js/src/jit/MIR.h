@@ -13611,6 +13611,9 @@ MOZ_MUST_USE
 bool
 MergeTypes
 (
+TempAllocator
+&
+alloc
 MIRType
 *
 ptype
@@ -31075,6 +31078,9 @@ type
 bool
 specializeType
 (
+TempAllocator
+&
+alloc
 )
 ;
 #
@@ -31145,6 +31151,9 @@ MOZ_MUST_USE
 bool
 addBackedgeType
 (
+TempAllocator
+&
+alloc
 MIRType
 type
 TemporaryTypeSet
@@ -31239,6 +31248,9 @@ ins
 bool
 checkForTypeChange
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 ins

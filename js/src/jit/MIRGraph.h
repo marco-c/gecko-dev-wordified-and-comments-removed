@@ -852,6 +852,9 @@ MOZ_MUST_USE
 AbortReason
 setBackedge
 (
+TempAllocator
+&
+alloc
 MBasicBlock
 *
 block
@@ -891,6 +894,9 @@ MOZ_MUST_USE
 bool
 inheritPhisFromBackedge
 (
+TempAllocator
+&
+alloc
 MBasicBlock
 *
 backedge
@@ -903,6 +909,9 @@ MOZ_MUST_USE
 bool
 specializePhis
 (
+TempAllocator
+&
+alloc
 )
 ;
 void

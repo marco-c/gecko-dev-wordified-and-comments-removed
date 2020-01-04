@@ -6357,6 +6357,9 @@ MBasicBlock
 :
 setBackedge
 (
+TempAllocator
+&
+alloc
 MBasicBlock
 *
 pred
@@ -6417,6 +6420,7 @@ if
 !
 inheritPhisFromBackedge
 (
+alloc
 pred
 &
 hadTypeChange
@@ -7645,6 +7649,9 @@ MBasicBlock
 :
 inheritPhisFromBackedge
 (
+TempAllocator
+&
+alloc
 MBasicBlock
 *
 backedge
@@ -7828,6 +7835,7 @@ entryDef
 >
 checkForTypeChange
 (
+alloc
 exitDef
 &
 typeChange
@@ -7859,6 +7867,9 @@ MBasicBlock
 :
 specializePhis
 (
+TempAllocator
+&
+alloc
 )
 {
 for
@@ -7897,6 +7908,7 @@ phi
 >
 specializeType
 (
+alloc
 )
 )
 return
