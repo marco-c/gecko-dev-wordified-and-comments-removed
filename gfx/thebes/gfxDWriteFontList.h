@@ -104,7 +104,6 @@ gfxDWriteFontFamily
 (
 )
 ;
-virtual
 void
 FindStyleVariations
 (
@@ -114,8 +113,8 @@ aFontInfoData
 =
 nullptr
 )
+final
 ;
-virtual
 void
 LocalizedName
 (
@@ -123,8 +122,8 @@ nsAString
 &
 aLocalizedName
 )
+final
 ;
-virtual
 void
 ReadFaceNames
 (
@@ -133,7 +132,13 @@ gfxPlatformFontList
 aPlatformFontList
 bool
 aNeedFullnamePostscriptNames
+FontInfoData
+*
+aFontInfoData
+=
+nullptr
 )
+final
 ;
 void
 SetForceGDIClassic
@@ -147,7 +152,6 @@ mForceGDIClassic
 aForce
 ;
 }
-virtual
 void
 AddSizeOfExcludingThis
 (
@@ -161,8 +165,8 @@ FontListSizes
 aSizes
 )
 const
+final
 ;
-virtual
 void
 AddSizeOfIncludingThis
 (
@@ -176,6 +180,7 @@ FontListSizes
 aSizes
 )
 const
+final
 ;
 already_AddRefed
 <

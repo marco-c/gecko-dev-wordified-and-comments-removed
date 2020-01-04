@@ -1247,6 +1247,9 @@ gfxPlatformFontList
 aPlatformFontList
 bool
 aNeedFullnamePostscriptNames
+FontInfoData
+*
+aFontInfoData
 )
 {
 if
@@ -1266,10 +1269,17 @@ aNeedFullnamePostscriptNames
 return
 ;
 }
+if
+(
+!
+aFontInfoData
+)
+{
 FindStyleVariations
 (
 )
 ;
+}
 if
 (
 !
@@ -1287,6 +1297,7 @@ ReadFaceNames
 (
 aPlatformFontList
 aNeedFullnamePostscriptNames
+aFontInfoData
 )
 ;
 }
