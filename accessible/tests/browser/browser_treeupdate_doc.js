@@ -142,7 +142,7 @@ tree
 )
 ;
 let
-onReorder
+reorderEventPromise
 =
 waitForEvent
 (
@@ -248,7 +248,7 @@ documentElement
 )
 ;
 yield
-onReorder
+reorderEventPromise
 ;
 tree
 =
@@ -279,7 +279,7 @@ iframe
 tree
 )
 ;
-onReorder
+reorderEventPromise
 =
 waitForEvent
 (
@@ -379,7 +379,7 @@ script
 )
 ;
 yield
-onReorder
+reorderEventPromise
 ;
 tree
 =
@@ -409,7 +409,7 @@ iframe
 tree
 )
 ;
-onReorder
+reorderEventPromise
 =
 waitForEvent
 (
@@ -510,7 +510,7 @@ body
 )
 ;
 yield
-onReorder
+reorderEventPromise
 ;
 tree
 =
@@ -541,7 +541,7 @@ iframe
 tree
 )
 ;
-onReorder
+reorderEventPromise
 =
 waitForEvent
 (
@@ -662,7 +662,7 @@ script
 )
 ;
 yield
-onReorder
+reorderEventPromise
 ;
 tree
 =
@@ -682,7 +682,7 @@ iframe
 tree
 )
 ;
-onReorder
+reorderEventPromise
 =
 waitForEvent
 (
@@ -739,7 +739,7 @@ close
 )
 ;
 yield
-onReorder
+reorderEventPromise
 ;
 tree
 =
@@ -770,11 +770,12 @@ iframe
 tree
 )
 ;
-onReorder
+reorderEventPromise
 =
 waitForEvent
 (
 EVENT_REORDER
+iframe
 )
 ;
 yield
@@ -822,7 +823,7 @@ let
 event
 =
 yield
-onReorder
+reorderEventPromise
 ;
 ok
 (
@@ -859,7 +860,7 @@ iframe
 tree
 )
 ;
-onReorder
+reorderEventPromise
 =
 waitForEvent
 (
@@ -961,7 +962,7 @@ html
 )
 ;
 yield
-onReorder
+reorderEventPromise
 ;
 tree
 =
@@ -991,11 +992,12 @@ iframe
 tree
 )
 ;
-onReorder
+reorderEventPromise
 =
 waitForEvent
 (
 EVENT_REORDER
+iframe
 )
 ;
 yield
@@ -1044,7 +1046,7 @@ body
 event
 =
 yield
-onReorder
+reorderEventPromise
 ;
 ok
 (
@@ -1081,11 +1083,12 @@ iframe
 tree
 )
 ;
-onReorder
+reorderEventPromise
 =
 waitForEvent
 (
 EVENT_REORDER
+iframe
 )
 ;
 yield
@@ -1150,7 +1153,7 @@ inputNode
 event
 =
 yield
-onReorder
+reorderEventPromise
 ;
 ok
 (
@@ -1235,7 +1238,7 @@ inputNode
 }
 )
 ;
-onReorder
+reorderEventPromise
 =
 waitForEvent
 (
@@ -1326,7 +1329,7 @@ body
 )
 ;
 yield
-onReorder
+reorderEventPromise
 ;
 tree
 =
@@ -1362,7 +1365,7 @@ iframe
 tree
 )
 ;
-onReorder
+reorderEventPromise
 =
 waitForEvent
 (
@@ -1416,7 +1419,7 @@ html
 event
 =
 yield
-onReorder
+reorderEventPromise
 ;
 tree
 =
@@ -1457,7 +1460,7 @@ accessible
 id
 )
 ;
-onReorder
+reorderEventPromise
 =
 waitForEvent
 (
@@ -1558,7 +1561,7 @@ body
 )
 ;
 yield
-onReorder
+reorderEventPromise
 ;
 tree
 =
