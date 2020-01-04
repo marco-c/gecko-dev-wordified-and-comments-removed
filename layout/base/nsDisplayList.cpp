@@ -14173,11 +14173,10 @@ if
 ActiveLayerTracker
 :
 :
-IsStyleAnimated
+IsBackgroundPositionAnimated
 (
 aBuilder
 backgroundStyleFrame
-eCSSProperty_background_position
 )
 )
 {
