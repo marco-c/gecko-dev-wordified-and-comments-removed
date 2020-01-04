@@ -206,8 +206,6 @@ virtual
 void
 NotifyDataArrived
 (
-uint32_t
-int64_t
 bool
 )
 final

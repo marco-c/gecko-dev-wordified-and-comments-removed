@@ -1717,10 +1717,6 @@ GetDecoder
 >
 NotifyDataArrived
 (
-1
-mReportedOffset
-+
-+
 false
 )
 ;
@@ -2526,10 +2522,6 @@ GetDecoder
 >
 NotifyDataArrived
 (
-1
-mReportedOffset
-+
-+
 false
 )
 ;

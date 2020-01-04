@@ -5756,10 +5756,6 @@ MediaDecoder
 :
 NotifyDataArrived
 (
-uint32_t
-aLength
-int64_t
-aOffset
 bool
 aThrottleUpdates
 )
@@ -5781,8 +5777,6 @@ mDecoderStateMachine
 >
 DispatchNotifyDataArrived
 (
-aLength
-aOffset
 aThrottleUpdates
 )
 ;

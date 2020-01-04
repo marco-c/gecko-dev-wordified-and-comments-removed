@@ -1946,14 +1946,6 @@ mCallback
 >
 NotifyDataArrived
 (
-aCount
-closure
--
->
-mResource
--
->
-mOffset
 true
 )
 ;
