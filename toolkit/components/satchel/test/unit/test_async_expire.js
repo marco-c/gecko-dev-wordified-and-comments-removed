@@ -207,6 +207,7 @@ next
 ;
 }
 function
+*
 tests
 (
 )

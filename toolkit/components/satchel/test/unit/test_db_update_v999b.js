@@ -34,6 +34,7 @@ next
 ;
 }
 function
+*
 tests
 (
 )

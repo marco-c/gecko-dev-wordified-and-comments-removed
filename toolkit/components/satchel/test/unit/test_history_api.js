@@ -550,6 +550,7 @@ promise
 add_task
 (
 function
+*
 (
 )
 {
