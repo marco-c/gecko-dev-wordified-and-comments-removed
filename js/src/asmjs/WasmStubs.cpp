@@ -5286,7 +5286,13 @@ case
 JumpTarget
 :
 :
-BadIndirectCall
+IndirectCallToNull
+:
+case
+JumpTarget
+:
+:
+IndirectCallBadSig
 :
 case
 JumpTarget

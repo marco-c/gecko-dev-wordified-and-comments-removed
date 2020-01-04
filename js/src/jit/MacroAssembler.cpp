@@ -15105,7 +15105,7 @@ wasm
 JumpTarget
 :
 :
-BadIndirectCall
+IndirectCallToNull
 )
 ;
 loadWasmPinnedRegsFromTls
@@ -15157,7 +15157,7 @@ wasm
 JumpTarget
 :
 :
-BadIndirectCall
+IndirectCallToNull
 )
 ;
 }
