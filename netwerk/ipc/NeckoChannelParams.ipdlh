@@ -371,7 +371,7 @@ structs
 struct
 LoadInfoArgs
 {
-PrincipalInfo
+OptionalPrincipalInfo
 requestingPrincipalInfo
 ;
 PrincipalInfo

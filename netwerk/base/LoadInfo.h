@@ -133,9 +133,6 @@ nsPIDOMWindowOuter
 aOuterWindow
 nsIPrincipal
 *
-aLoadingPrincipal
-nsIPrincipal
-*
 aTriggeringPrincipal
 nsSecurityFlags
 aSecurityFlags

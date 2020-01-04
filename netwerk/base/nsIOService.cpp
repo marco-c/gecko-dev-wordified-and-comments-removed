@@ -3497,6 +3497,15 @@ aLoadingNode
 |
 |
 aLoadingPrincipal
+|
+|
+aContentPolicyType
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_DOCUMENT
 )
 {
 nsCOMPtr
