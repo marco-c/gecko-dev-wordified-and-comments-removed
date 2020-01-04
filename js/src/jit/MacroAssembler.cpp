@@ -2509,6 +2509,8 @@ fpu
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 JSVAL_TYPE_BOOLEAN

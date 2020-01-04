@@ -14909,6 +14909,8 @@ fixed
 =
 true
 ;
+MOZ_FALLTHROUGH
+;
 case
 LUse
 :

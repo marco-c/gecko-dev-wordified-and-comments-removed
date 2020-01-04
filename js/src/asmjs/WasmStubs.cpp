@@ -1348,6 +1348,8 @@ ReturnFloat32Reg
 ReturnDoubleReg
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 ExprType
 :

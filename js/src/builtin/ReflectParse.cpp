@@ -12188,6 +12188,8 @@ pn
 dst
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 PNK_STATEMENTLIST
 :

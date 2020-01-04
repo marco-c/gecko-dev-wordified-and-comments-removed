@@ -8255,6 +8255,8 @@ Advance
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 '
 d
@@ -8565,6 +8567,8 @@ Advance
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 '
@@ -9267,6 +9271,8 @@ ReportError
 (
 JSMSG_NOTHING_TO_REPEAT
 )
+;
+MOZ_FALLTHROUGH
 ;
 }
 default

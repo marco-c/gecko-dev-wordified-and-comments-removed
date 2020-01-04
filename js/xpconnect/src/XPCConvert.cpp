@@ -2603,6 +2603,8 @@ return
 true
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 nsXPTType

@@ -6256,6 +6256,8 @@ t
 -
 1
 ;
+MOZ_FALLTHROUGH
+;
 case
 7
 :
@@ -6273,6 +6275,8 @@ return
 t
 -
 1
+;
+MOZ_FALLTHROUGH
 ;
 case
 6
@@ -6292,6 +6296,8 @@ t
 -
 1
 ;
+MOZ_FALLTHROUGH
+;
 case
 5
 :
@@ -6309,6 +6315,8 @@ return
 t
 -
 1
+;
+MOZ_FALLTHROUGH
 ;
 case
 4
@@ -6328,6 +6336,8 @@ t
 -
 1
 ;
+MOZ_FALLTHROUGH
+;
 case
 3
 :
@@ -6346,6 +6356,8 @@ t
 -
 1
 ;
+MOZ_FALLTHROUGH
+;
 case
 2
 :
@@ -6363,6 +6375,8 @@ return
 t
 -
 1
+;
+MOZ_FALLTHROUGH
 ;
 case
 1

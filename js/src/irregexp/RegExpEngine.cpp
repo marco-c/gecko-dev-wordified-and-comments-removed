@@ -18383,6 +18383,8 @@ chars
 ok
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 3
 :

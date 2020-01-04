@@ -12226,6 +12226,8 @@ toDouble
 return
 true
 ;
+MOZ_FALLTHROUGH
+;
 case
 MDefinition
 :
@@ -12536,6 +12538,8 @@ lhs
 )
 return
 true
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -16578,6 +16582,8 @@ JSTYPE_OBJECT
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 default
 :
 return
@@ -18127,6 +18133,8 @@ Int32Value
 ival
 )
 )
+;
+break
 ;
 default
 :

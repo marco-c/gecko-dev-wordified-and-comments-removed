@@ -5201,6 +5201,8 @@ toggleWerror
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 '
 s

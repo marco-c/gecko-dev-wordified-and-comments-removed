@@ -29052,6 +29052,8 @@ incrementalState
 =
 MARK_ROOTS
 ;
+MOZ_FALLTHROUGH
+;
 case
 MARK_ROOTS
 :
@@ -29095,6 +29097,8 @@ zeal
 ZealIncrementalRootsThenFinish
 )
 break
+;
+MOZ_FALLTHROUGH
 ;
 case
 MARK
@@ -29221,6 +29225,8 @@ ZealIncrementalMultipleSlices
 )
 break
 ;
+MOZ_FALLTHROUGH
+;
 case
 SWEEP
 :
@@ -29259,6 +29265,8 @@ isCompacting
 isIncremental
 )
 break
+;
+MOZ_FALLTHROUGH
 ;
 case
 COMPACT

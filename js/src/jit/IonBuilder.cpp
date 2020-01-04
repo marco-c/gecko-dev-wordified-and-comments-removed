@@ -3777,6 +3777,8 @@ expectedResultType
 last
 )
 ;
+break
+;
 default
 :
 break
@@ -8100,6 +8102,8 @@ popped
 )
 break
 ;
+MOZ_FALLTHROUGH
+;
 default
 :
 MOZ_ASSERT
@@ -9712,6 +9716,8 @@ scope
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 JSOP_BINDNAME
 :

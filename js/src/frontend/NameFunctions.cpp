@@ -566,6 +566,8 @@ pos
 -
 -
 ;
+MOZ_FALLTHROUGH
+;
 default
 :
 MOZ_ASSERT
@@ -3410,12 +3412,12 @@ false
 break
 ;
 case
+PNK_EXPORT_SPEC_LIST
+:
+case
 PNK_IMPORT_SPEC_LIST
 :
 {
-case
-PNK_EXPORT_SPEC_LIST
-:
 MOZ_ASSERT
 (
 cur

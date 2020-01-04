@@ -1438,6 +1438,8 @@ HeapAccess
 :
 LoadSext32
 ;
+MOZ_FALLTHROUGH
+;
 case
 Scalar
 :

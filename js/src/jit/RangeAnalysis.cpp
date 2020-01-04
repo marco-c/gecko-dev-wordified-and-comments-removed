@@ -1251,6 +1251,8 @@ isNumericComparison
 )
 continue
 ;
+MOZ_FALLTHROUGH
+;
 case
 JSOP_EQ
 :
@@ -1278,6 +1280,8 @@ isNumericComparison
 )
 )
 continue
+;
+MOZ_FALLTHROUGH
 ;
 case
 JSOP_NE
@@ -14997,6 +15001,8 @@ iter
 )
 return
 false
+;
+break
 ;
 default
 :

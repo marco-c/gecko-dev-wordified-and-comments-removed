@@ -9061,6 +9061,8 @@ setHadOverflowBailout
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 Bailout_NonStringInputInvalidate
 :

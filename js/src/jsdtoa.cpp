@@ -466,6 +466,8 @@ minNDigits
 =
 precision
 ;
+MOZ_FALLTHROUGH
+;
 case
 DTOSTR_STANDARD_EXPONENTIAL
 :

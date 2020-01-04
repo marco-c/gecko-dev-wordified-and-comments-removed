@@ -19215,6 +19215,8 @@ info
 ;
 }
 }
+MOZ_FALLTHROUGH
+;
 case
 TYPE_array
 :
