@@ -1162,7 +1162,7 @@ InternalFormEvent
 event
 (
 true
-NS_FORM_RESET
+eFormReset
 )
 ;
 EventDispatcher
@@ -2160,7 +2160,7 @@ if
 msg
 =
 =
-NS_FORM_RESET
+eFormReset
 )
 {
 if
@@ -2227,7 +2227,7 @@ mEvent
 mMessage
 =
 =
-NS_FORM_RESET
+eFormReset
 )
 &
 &
@@ -2345,7 +2345,7 @@ msg
 )
 {
 case
-NS_FORM_RESET
+eFormReset
 :
 case
 eFormSubmit
@@ -2419,7 +2419,7 @@ if
 msg
 =
 =
-NS_FORM_RESET
+eFormReset
 )
 {
 mGeneratingReset
@@ -2469,7 +2469,7 @@ Flush_ContentAndNotify
 }
 if
 (
-NS_FORM_RESET
+eFormReset
 =
 =
 aMessage

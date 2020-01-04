@@ -3844,7 +3844,7 @@ case
 eLoad
 :
 case
-NS_FORM_RESET
+eFormReset
 :
 case
 eResize
