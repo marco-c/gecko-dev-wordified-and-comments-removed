@@ -26,7 +26,7 @@ system
 ;
 TEST
 (
-OSXProxy
+WindowsProxy
 TestProxyBypassRules
 )
 {
@@ -210,7 +210,7 @@ mozilla
 }
 TEST
 (
-OSXProxy
+WindowsProxy
 TestProxyBypassRulesIPv4
 )
 {
@@ -434,7 +434,7 @@ NS_LITERAL_CSTRING
 }
 TEST
 (
-OSXProxy
+WindowsProxy
 TestProxyBypassRulesIPv6
 )
 {
