@@ -9149,6 +9149,12 @@ multiprocessCompatible
 currentAddon
 .
 multiprocessCompatible
+runInSafeMode
+:
+canRunInSafeMode
+(
+currentAddon
+)
 }
 ;
 }
