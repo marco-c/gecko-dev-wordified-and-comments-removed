@@ -2006,11 +2006,6 @@ type
 array
 "
 "
-optional
-"
-:
-true
-"
 items
 "
 :
