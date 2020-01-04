@@ -226,6 +226,13 @@ WebRequestContent
 js
 '
 '
+addons
+/
+WebRequestUpload
+.
+jsm
+'
+'
 AsyncPrefs
 .
 jsm
