@@ -4204,6 +4204,15 @@ java
 '
 telemetry
 /
+measurements
+/
+SessionMeasurements
+.
+java
+'
+'
+telemetry
+/
 pingbuilders
 /
 TelemetryCorePingBuilder
