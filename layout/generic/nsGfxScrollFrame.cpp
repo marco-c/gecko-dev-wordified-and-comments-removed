@@ -12852,7 +12852,7 @@ nsRect
 displayPort
 ;
 bool
-usingDisplayport
+usingDisplayPort
 =
 false
 ;
@@ -12896,7 +12896,7 @@ LayoutUseContainersForRootFrames
 )
 )
 {
-usingDisplayport
+usingDisplayPort
 =
 nsLayoutUtils
 :
@@ -12958,7 +12958,7 @@ mOuter
 )
 ;
 }
-usingDisplayport
+usingDisplayPort
 =
 nsLayoutUtils
 :
@@ -12976,7 +12976,7 @@ displayPort
 }
 if
 (
-usingDisplayport
+usingDisplayPort
 )
 {
 dirtyRect
@@ -13001,7 +13001,7 @@ RecomputeCurrentAnimatedGeometryRoot
 }
 mShouldBuildScrollableLayer
 =
-usingDisplayport
+usingDisplayPort
 |
 |
 nsContentUtils
@@ -13094,7 +13094,7 @@ AppendScrollPartsTo
 aBuilder
 aDirtyRect
 aLists
-usingDisplayport
+usingDisplayPort
 createLayersForScrollbars
 false
 )
@@ -13411,7 +13411,7 @@ mIsRoot
 |
 |
 !
-usingDisplayport
+usingDisplayPort
 )
 {
 nsRect
@@ -13544,7 +13544,7 @@ clipStateNonCaret
 ;
 if
 (
-usingDisplayport
+usingDisplayPort
 )
 {
 mAncestorClipForCaret
@@ -13727,7 +13727,7 @@ aBuilder
 mScrolledFrame
 *
 contentBoxClipForNonCaretContent
-usingDisplayport
+usingDisplayPort
 )
 ;
 }
@@ -13893,7 +13893,7 @@ AppendScrollPartsTo
 aBuilder
 aDirtyRect
 scrolledContent
-usingDisplayport
+usingDisplayPort
 createLayersForScrollbars
 true
 )
