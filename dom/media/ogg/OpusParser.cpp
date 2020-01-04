@@ -1034,11 +1034,9 @@ bytes
 return
 false
 ;
-uint32_t
-i
-;
 for
 (
+uint32_t
 i
 =
 0
