@@ -5,6 +5,11 @@ BluetoothCommon
 .
 h
 "
+bool
+gBluetoothDebugFlag
+=
+false
+;
 BEGIN_BLUETOOTH_NAMESPACE
 const
 BluetoothAddress
