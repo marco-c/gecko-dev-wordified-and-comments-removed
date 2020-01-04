@@ -213,3 +213,14 @@ FINAL_LIBRARY
 '
 xul
 '
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+dom
+/
+base
+'
+]
