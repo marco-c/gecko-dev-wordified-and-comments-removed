@@ -1045,7 +1045,7 @@ version
 undefined
 )
 {
-let
+const
 installed
 =
 this
@@ -1057,7 +1057,7 @@ get
 id
 )
 ;
-do_check_neq
+notEqual
 (
 installed
 undefined
@@ -1068,9 +1068,11 @@ if
 version
 !
 =
+=
 undefined
 )
-do_check_eq
+{
+equal
 (
 installed
 .
@@ -1079,6 +1081,10 @@ data
 version
 version
 )
+;
+}
+return
+installed
 ;
 }
 checkAddonNotInstalled
