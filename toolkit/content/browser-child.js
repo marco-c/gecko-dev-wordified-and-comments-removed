@@ -3370,17 +3370,6 @@ initData
 ]
 )
 {
-docShell
-.
-useGlobalHistory
-=
-initData
-[
-0
-]
-.
-useGlobalHistory
-;
 if
 (
 initData
