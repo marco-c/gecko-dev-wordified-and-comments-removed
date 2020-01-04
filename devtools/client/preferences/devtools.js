@@ -2879,7 +2879,7 @@ fontinspector
 .
 enabled
 "
-false
+true
 )
 ;
 pref
