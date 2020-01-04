@@ -30594,7 +30594,9 @@ JSJitGetterOp
 )
 dom_get_x
 }
+{
 0
+}
 0
 JSJitInfo
 :
@@ -30626,7 +30628,9 @@ JSJitGetterOp
 )
 dom_set_x
 }
+{
 0
+}
 0
 JSJitInfo
 :
@@ -30658,7 +30662,9 @@ JSJitGetterOp
 )
 dom_doFoo
 }
+{
 0
+}
 0
 JSJitInfo
 :
