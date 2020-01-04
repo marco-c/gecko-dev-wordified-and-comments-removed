@@ -3214,6 +3214,11 @@ None
 restart_before_next
 =
 (
+test
+.
+restart_after
+or
+                               
 file_result
 .
 status
