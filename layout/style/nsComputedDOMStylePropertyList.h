@@ -795,6 +795,11 @@ ScrollSnapTypeY
 )
 COMPUTED_STYLE_PROP
 (
+shape_outside
+ShapeOutside
+)
+COMPUTED_STYLE_PROP
+(
 table_layout
 TableLayout
 )

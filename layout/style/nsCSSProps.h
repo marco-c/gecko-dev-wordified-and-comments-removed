@@ -3033,6 +3033,13 @@ kImageRenderingKTable
 static
 const
 KTableEntry
+kShapeOutsideShapeBoxKTable
+[
+]
+;
+static
+const
+KTableEntry
 kShapeRenderingKTable
 [
 ]
