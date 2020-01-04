@@ -320,11 +320,6 @@ abort
 void
 PeekMessages
 (
-Message
-:
-:
-msgid_t
-aId
 mozilla
 :
 :
