@@ -1177,13 +1177,6 @@ OnChannelError
 override
 ;
 virtual
-void
-OnBeginSyncTransaction
-(
-)
-override
-;
-virtual
 PCrashReporterParent
 *
 AllocPCrashReporterParent
