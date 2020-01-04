@@ -527,6 +527,8 @@ get
 '
 SYSTEMROOT
 '
+'
+'
 )
             
 if
@@ -553,6 +555,8 @@ get
 (
 '
 HOME
+'
+'
 '
 )
         
