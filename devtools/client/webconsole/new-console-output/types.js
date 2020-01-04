@@ -122,6 +122,9 @@ null
 stacktrace
 :
 null
+frame
+:
+null
 }
 )
 ;

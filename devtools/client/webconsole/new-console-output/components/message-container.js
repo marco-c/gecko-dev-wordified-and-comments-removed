@@ -188,6 +188,11 @@ PropTypes
 object
 .
 isRequired
+sourceMapService
+:
+PropTypes
+.
+object
 onViewSourceInDebugger
 :
 PropTypes
@@ -227,6 +232,7 @@ render
 const
 {
 message
+sourceMapService
 onViewSourceInDebugger
 }
 =
@@ -250,6 +256,7 @@ MessageComponent
 (
 {
 message
+sourceMapService
 onViewSourceInDebugger
 }
 )

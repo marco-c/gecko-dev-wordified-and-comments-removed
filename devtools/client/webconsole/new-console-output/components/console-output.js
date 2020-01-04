@@ -150,6 +150,11 @@ PropTypes
 object
 .
 isRequired
+sourceMapService
+:
+PropTypes
+.
+object
 onViewSourceInDebugger
 :
 PropTypes
@@ -236,6 +241,7 @@ render
 let
 {
 messages
+sourceMapService
 onViewSourceInDebugger
 }
 =
@@ -266,6 +272,7 @@ key
 message
 .
 id
+sourceMapService
 onViewSourceInDebugger
 }
 )
