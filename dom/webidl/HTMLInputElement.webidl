@@ -587,11 +587,6 @@ checkValidity
 (
 )
 ;
-boolean
-reportValidity
-(
-)
-;
 void
 setCustomValidity
 (

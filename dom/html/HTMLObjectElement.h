@@ -715,12 +715,6 @@ using
 nsIConstraintValidation
 :
 :
-ReportValidity
-;
-using
-nsIConstraintValidation
-:
-:
 GetValidationMessage
 ;
 void

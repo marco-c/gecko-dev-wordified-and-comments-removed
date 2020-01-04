@@ -926,12 +926,6 @@ nsIConstraintValidation
 CheckValidity
 ;
 using
-nsIConstraintValidation
-:
-:
-ReportValidity
-;
-using
 nsINode
 :
 :
