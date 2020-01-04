@@ -1272,7 +1272,7 @@ eUserSheetFeatures
 ;
 }
 CSSEnabledState
-PropertyEnabledState
+EnabledState
 (
 )
 const
@@ -1365,7 +1365,7 @@ nsCSSProps
 LookupProperty
 (
 aProperty
-PropertyEnabledState
+EnabledState
 (
 )
 )
@@ -7141,7 +7141,7 @@ TransferFromBlock
 (
 mTempData
 eCSSProperty_transform
-PropertyEnabledState
+EnabledState
 (
 )
 false
@@ -7360,7 +7360,7 @@ nsCSSProps
 IsEnabled
 (
 aPropID
-PropertyEnabledState
+EnabledState
 (
 )
 )
@@ -7505,7 +7505,7 @@ TransferFromBlock
 (
 mTempData
 aPropID
-PropertyEnabledState
+EnabledState
 (
 )
 aIsImportant
@@ -12754,7 +12754,7 @@ nsCSSProps
 IsEnabled
 (
 eCSSPropertyAlias_MozAnimation
-PropertyEnabledState
+EnabledState
 (
 )
 )
@@ -30490,7 +30490,7 @@ TransferFromBlock
 (
 mTempData
 propID
-PropertyEnabledState
+EnabledState
 (
 )
 status
@@ -48028,7 +48028,7 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 p
 aPropID
-PropertyEnabledState
+EnabledState
 (
 )
 )
