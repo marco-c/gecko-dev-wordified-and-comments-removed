@@ -2259,7 +2259,7 @@ offset
 )
 ;
 void
-neuter
+notifyBufferDetached
 (
 void
 *

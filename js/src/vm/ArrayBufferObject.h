@@ -1382,7 +1382,7 @@ obj
 )
 ;
 void
-neuter
+notifyBufferDetached
 (
 void
 *

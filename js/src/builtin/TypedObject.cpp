@@ -10218,7 +10218,7 @@ void
 OutlineTypedObject
 :
 :
-neuter
+notifyBufferDetached
 (
 void
 *
