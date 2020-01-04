@@ -189,6 +189,9 @@ connect
 -
 timeout
 30
+-
+-
+fail
 "
 CONTEXT_URL
 "
