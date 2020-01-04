@@ -130,10 +130,6 @@ buildid
 20150825141628
 '
         
-arm_api9
-=
-0b01111000001000000001001001110000
-        
 arm_api15
 =
 0b01111000001000000001001001110001
@@ -141,28 +137,6 @@ arm_api15
 x86_api9
 =
 0b01111000001000000001001001110100
-        
-self
-.
-assertEqual
-(
-android_version_code_v1
-(
-buildid
-cpu_arch
-=
-'
-armeabi
-'
-min_sdk
-=
-9
-max_sdk
-=
-None
-)
-arm_api9
-)
         
 self
 .
