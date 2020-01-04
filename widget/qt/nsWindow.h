@@ -839,7 +839,10 @@ void
 void
 DispatchResizeEvent
 (
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 &
 aRect
 nsEventStatus
