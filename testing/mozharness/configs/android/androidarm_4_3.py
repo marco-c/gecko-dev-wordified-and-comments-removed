@@ -98,7 +98,6 @@ tooltool_cache
 "
     
 "
-.
 avds_dir
 "
 :

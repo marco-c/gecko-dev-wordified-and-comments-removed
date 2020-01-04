@@ -112,6 +112,20 @@ tooltool_cache
 "
     
 "
+avds_dir
+"
+:
+"
+/
+home
+/
+cltbld
+/
+.
+android
+"
+    
+"
 emulator_manifest
 "
 :
