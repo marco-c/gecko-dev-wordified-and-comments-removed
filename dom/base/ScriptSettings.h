@@ -417,9 +417,7 @@ AutoJSAPI
 ;
 MOZ_ASSERT_IF
 (
-NS_IsMainThread
-(
-)
+mIsMainThread
 CxPusherIsStackTop
 (
 )
@@ -469,8 +467,11 @@ HasException
 )
 const
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+NS_IsMainThread
+(
+)
 CxPusherIsStackTop
 (
 )
@@ -507,8 +508,11 @@ ClearException
 (
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+NS_IsMainThread
+(
+)
 CxPusherIsStackTop
 (
 )
@@ -568,6 +572,9 @@ mOwnErrorReporting
 ;
 bool
 mOldAutoJSAPIOwnsErrorReporting
+;
+bool
+mIsMainThread
 ;
 Maybe
 <
