@@ -748,6 +748,9 @@ gtest_gtest
 gtest
 '
 '
+chromium_atomics
+'
+'
 gkmedias
 '
 '
