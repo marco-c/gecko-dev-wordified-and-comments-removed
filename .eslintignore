@@ -524,16 +524,6 @@ client
 /
 performance
 /
-modules
-/
-*
-*
-devtools
-/
-client
-/
-performance
-/
 test
 /
 *

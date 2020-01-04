@@ -541,8 +541,6 @@ name
 )
 ;
 }
-else
-{
 return
 bitmasksForCategory
 [
@@ -554,7 +552,6 @@ index
 1
 ]
 ;
-}
 }
 }
 function
