@@ -104,12 +104,11 @@ LOCAL_INCLUDES
 =
 [
 '
+.
+.
 /
-toolkit
-/
-devtools
-/
-heapsnapshot
+.
+.
 '
 ]
 UNIFIED_SOURCES
