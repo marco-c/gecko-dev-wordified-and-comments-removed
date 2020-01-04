@@ -51538,7 +51538,7 @@ get
 )
 module
 .
-prettyFuncName
+maybePrettyFuncName
 (
 func
 .

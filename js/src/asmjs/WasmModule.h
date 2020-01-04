@@ -2469,7 +2469,7 @@ outOfBounds_
 const
 char
 *
-prettyFuncName
+maybePrettyFuncName
 (
 uint32_t
 funcIndex
