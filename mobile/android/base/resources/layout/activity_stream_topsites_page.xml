@@ -73,5 +73,12 @@ layout_height
 "
 match_parent
 "
+android
+:
+padding
+=
+"
+4dp
+"
 /
 >
