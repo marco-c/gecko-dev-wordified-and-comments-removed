@@ -20449,7 +20449,7 @@ aPreviousBlock
 nsIDOMNode
 *
 aNewBlock
-Element
+nsIDOMNode
 *
 *
 aOutBrNode
@@ -20809,10 +20809,13 @@ deepestStyle
 *
 aOutBrNode
 =
+GetAsDOMNode
+(
 CreateBR
 (
 deepestStyle
 0
+)
 )
 ;
 NS_ENSURE_STATE
