@@ -38,6 +38,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 vector
 >
 static
