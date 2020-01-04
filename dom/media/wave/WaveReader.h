@@ -180,17 +180,6 @@ LoadRIFFChunk
 )
 ;
 bool
-GetNextChunk
-(
-uint32_t
-*
-aChunk
-uint32_t
-*
-aChunkSize
-)
-;
-bool
 LoadFormatChunk
 (
 uint32_t
