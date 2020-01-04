@@ -1342,11 +1342,6 @@ height
 1
 )
 ;
-bool
-target
-=
-false
-;
 if
 (
 aEffectChain
@@ -2543,9 +2538,6 @@ D3DBLEND_SRCALPHA
 )
 ;
 }
-HRESULT
-hr
-=
 d3d9Device
 -
 >
