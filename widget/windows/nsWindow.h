@@ -356,6 +356,14 @@ nullptr
 override
 ;
 virtual
+WidgetEventTime
+CurrentMessageWidgetEventTime
+(
+)
+const
+override
+;
+virtual
 bool
 DispatchWindowEvent
 (
@@ -2135,6 +2143,7 @@ GetMessageTimeStamp
 LONG
 aEventTime
 )
+const
 ;
 static
 void
