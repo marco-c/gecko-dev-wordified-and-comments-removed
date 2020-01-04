@@ -533,13 +533,6 @@ getAngle
 )
 ;
 }
-GeckoAppShell
-.
-getScreenSize
-(
-true
-)
-;
 return
 true
 ;
