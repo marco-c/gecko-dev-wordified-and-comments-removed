@@ -110,13 +110,13 @@ using
 mozilla
 :
 :
-CheckedInt
+ArrayLength
 ;
 using
 mozilla
 :
 :
-ArrayLength
+CheckedInt
 ;
 using
 mozilla
