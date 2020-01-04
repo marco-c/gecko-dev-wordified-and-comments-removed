@@ -3090,8 +3090,7 @@ nullptr
 10
 )
 ;
-FNCMapEntry
-*
+auto
 mapEntry
 =
 static_cast
@@ -3100,10 +3099,10 @@ FNCMapEntry
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mMap
+.
+Add
+(
 filename
 .
 get
@@ -3281,8 +3280,7 @@ uint32_t
 aFilesize
 )
 {
-FNCMapEntry
-*
+auto
 entry
 =
 static_cast
@@ -3291,10 +3289,10 @@ FNCMapEntry
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mMap
+.
+Add
+(
 aFileName
 .
 get

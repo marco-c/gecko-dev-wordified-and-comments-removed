@@ -4819,10 +4819,10 @@ aRequest
 if
 (
 !
-PL_DHashTableAdd
-(
-&
 mRequestInfoHash
+.
+Add
+(
 aRequest
 mozilla
 :

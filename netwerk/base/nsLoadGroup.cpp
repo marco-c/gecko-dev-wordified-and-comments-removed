@@ -1944,8 +1944,7 @@ rv
 return
 rv
 ;
-RequestMapEntry
-*
+auto
 entry
 =
 static_cast
@@ -1954,10 +1953,10 @@ RequestMapEntry
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mRequests
+.
+Add
+(
 request
 fallible
 )

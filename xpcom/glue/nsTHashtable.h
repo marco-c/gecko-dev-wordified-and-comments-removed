@@ -283,10 +283,10 @@ EntryType
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mTable
+.
+Add
+(
 EntryType
 :
 :
@@ -317,10 +317,10 @@ EntryType
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mTable
+.
+Add
+(
 EntryType
 :
 :

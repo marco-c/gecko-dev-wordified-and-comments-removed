@@ -17511,8 +17511,7 @@ SubDocMapEntry
 )
 ;
 }
-SubDocMapEntry
-*
+auto
 entry
 =
 static_cast
@@ -17521,9 +17520,11 @@ SubDocMapEntry
 *
 >
 (
-PL_DHashTableAdd
-(
 mSubDocuments
+-
+>
+Add
+(
 aElement
 fallible
 )

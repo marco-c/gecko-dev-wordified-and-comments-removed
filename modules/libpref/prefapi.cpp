@@ -3244,8 +3244,7 @@ gHashTable
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PrefHashEntry
-*
+auto
 pref
 =
 static_cast
@@ -3254,9 +3253,11 @@ PrefHashEntry
 *
 >
 (
-PL_DHashTableAdd
-(
 gHashTable
+-
+>
+Add
+(
 key
 fallible
 )

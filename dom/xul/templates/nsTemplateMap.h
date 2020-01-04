@@ -94,8 +94,7 @@ map
 "
 )
 ;
-Entry
-*
+auto
 entry
 =
 static_cast
@@ -104,10 +103,10 @@ Entry
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mTable
+.
+Add
+(
 aContent
 fallible
 )

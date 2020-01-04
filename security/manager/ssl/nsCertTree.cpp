@@ -747,8 +747,7 @@ PLDHashTable
 cache
 )
 ;
-CompareCacheHashEntryPtr
-*
+auto
 entryPtr
 =
 static_cast
@@ -757,10 +756,10 @@ CompareCacheHashEntryPtr
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 aCompareCache
+.
+Add
+(
 aCert
 fallible
 )

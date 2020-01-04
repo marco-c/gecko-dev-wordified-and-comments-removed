@@ -624,8 +624,7 @@ type
 "
 )
 ;
-PlaceholderMapEntry
-*
+auto
 entry
 =
 static_cast
@@ -634,10 +633,10 @@ PlaceholderMapEntry
 *
 >
 (
-PL_DHashTableAdd
-(
-&
 mPlaceholderMap
+.
+Add
+(
 aPlaceholderFrame
 -
 >

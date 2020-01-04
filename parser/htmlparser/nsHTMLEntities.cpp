@@ -364,8 +364,7 @@ node_end
 node
 )
 {
-EntityNodeEntry
-*
+auto
 entry
 =
 static_cast
@@ -374,9 +373,11 @@ EntityNodeEntry
 *
 >
 (
-PL_DHashTableAdd
-(
 gEntityToUnicode
+-
+>
+Add
+(
 node
 -
 >
@@ -419,9 +420,11 @@ EntityNodeEntry
 *
 >
 (
-PL_DHashTableAdd
-(
 gUnicodeToEntity
+-
+>
+Add
+(
 NS_INT32_TO_PTR
 (
 node

@@ -1537,10 +1537,10 @@ NS_ERROR_NULL_POINTER
 ;
 hashEntry
 =
-PL_DHashTableAdd
-(
-&
 table
+.
+Add
+(
 &
 (
 cacheEntry

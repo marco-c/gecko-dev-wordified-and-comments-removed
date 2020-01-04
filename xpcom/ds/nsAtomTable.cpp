@@ -2224,9 +2224,11 @@ AtomTableEntry
 *
 >
 (
-PL_DHashTableAdd
-(
 gAtomTable
+-
+>
+Add
+(
 &
 key
 )
@@ -2280,9 +2282,11 @@ AtomTableEntry
 *
 >
 (
-PL_DHashTableAdd
-(
 gAtomTable
+-
+>
+Add
+(
 &
 key
 )
