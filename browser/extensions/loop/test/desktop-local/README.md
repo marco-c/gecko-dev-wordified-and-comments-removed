@@ -116,7 +116,7 @@ marionette
 test
 browser
 /
-components
+extensions
 /
 loop
 /

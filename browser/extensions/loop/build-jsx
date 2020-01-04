@@ -492,7 +492,7 @@ content
 shared
 "
 "
-libs
+vendor
 "
 )
 REACT_VERSION
@@ -682,7 +682,7 @@ executed
 from
 browser
 /
-components
+extensions
 /
 loop
 directory

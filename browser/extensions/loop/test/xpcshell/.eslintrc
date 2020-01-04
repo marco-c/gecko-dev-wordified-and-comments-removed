@@ -105,6 +105,11 @@ js
 items
 .
 "
+FileUtils
+"
+:
+false
+"
 MockWebSocketChannel
 "
 :
@@ -157,6 +162,13 @@ false
 "
 timerHandlers
 "
+:
+false
+"
+updateAppInfo
+"
+:
+false
 "
 waitForCondition
 "
