@@ -2044,13 +2044,6 @@ Properties
 )
 ;
 }
-oldAnim
--
->
-ClearIsRunningOnCompositor
-(
-)
-;
 if
 (
 oldAnim
