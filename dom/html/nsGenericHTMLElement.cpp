@@ -15291,12 +15291,6 @@ if
 presShell
 |
 |
-!
-IsInComposedDoc
-(
-)
-|
-|
 IsOrHasAncestorWithDisplayNone
 (
 this
