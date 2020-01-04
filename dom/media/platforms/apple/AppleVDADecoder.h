@@ -501,7 +501,7 @@ InitializeSession
 )
 ;
 nsresult
-SubmitFrame
+ProcessDecode
 (
 MediaRawData
 *

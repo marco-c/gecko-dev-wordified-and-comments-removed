@@ -145,7 +145,7 @@ VTDecompressionSessionRef
 mSession
 ;
 nsresult
-SubmitFrame
+ProcessDecode
 (
 MediaRawData
 *
