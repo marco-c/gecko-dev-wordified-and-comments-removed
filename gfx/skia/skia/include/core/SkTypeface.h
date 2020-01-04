@@ -546,6 +546,17 @@ getBounds
 )
 const
 ;
+virtual
+bool
+hasColorGlyphs
+(
+)
+const
+{
+return
+false
+;
+}
 void
 filterRec
 (
