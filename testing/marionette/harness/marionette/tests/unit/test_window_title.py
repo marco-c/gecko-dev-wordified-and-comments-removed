@@ -2,6 +2,8 @@ from
 marionette
 import
 MarionetteTestCase
+skip_if_mobile
+skip_if_mobile
 class
 TestTitleChrome
 (
