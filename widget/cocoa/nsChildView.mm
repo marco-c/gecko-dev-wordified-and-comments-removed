@@ -16619,7 +16619,7 @@ gfx
 BackendType
 :
 :
-COREGRAPHICS
+SKIA
 mUpdateDrawTargetData
 .
 get
