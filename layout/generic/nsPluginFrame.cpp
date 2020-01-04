@@ -2873,7 +2873,7 @@ if
 (
 NS_FAILED
 (
-mInstanceOwner
+instanceOwnerRef
 -
 >
 GetContentsScaleFactor
@@ -2943,7 +2943,7 @@ height
 /
 intScaleFactor
 ;
-mInstanceOwner
+instanceOwnerRef
 -
 >
 ResolutionMayHaveChanged
@@ -2952,7 +2952,7 @@ ResolutionMayHaveChanged
 ;
 if
 (
-mInstanceOwner
+instanceOwnerRef
 -
 >
 UseAsyncRendering
