@@ -7046,6 +7046,10 @@ uint64_t
 aLayersId
 )
 {
+EnsureLayerTreeMapReady
+(
+)
+;
 const
 CompositorParent
 :
