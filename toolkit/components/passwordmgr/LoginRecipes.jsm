@@ -51,6 +51,9 @@ OPTIONAL_KEYS
 description
 "
 "
+notUsernameSelector
+"
+"
 passwordSelector
 "
 "
@@ -1160,6 +1163,12 @@ usernameSelector
 recipe
 .
 passwordSelector
+&
+&
+!
+recipe
+.
+notUsernameSelector
 )
 {
 continue
