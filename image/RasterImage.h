@@ -692,7 +692,7 @@ uint32_t
 aFlags
 )
 ;
-void
+bool
 SetMetadata
 (
 const
