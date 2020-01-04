@@ -1762,6 +1762,7 @@ AndroidEclipse
 CppEclipse
 VisualStudio
 FasterMake
+CompileDB
 }
 Enable
 additional

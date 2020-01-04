@@ -800,6 +800,9 @@ VisualStudio
 '
 FasterMake
 '
+'
+CompileDB
+'
 ]
                         
 default
@@ -1082,6 +1085,31 @@ backends_cls
 append
 (
 FasterMakeBackend
+)
+        
+elif
+backend
+=
+=
+'
+CompileDB
+'
+:
+            
+from
+mozbuild
+.
+compilation
+.
+database
+import
+CompileDBBackend
+            
+backends_cls
+.
+append
+(
+CompileDBBackend
 )
         
 else

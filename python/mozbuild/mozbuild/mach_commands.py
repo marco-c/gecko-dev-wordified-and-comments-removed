@@ -3875,6 +3875,9 @@ VisualStudio
 '
 FasterMake
 '
+'
+CompileDB
+'
 ]
         
 help
