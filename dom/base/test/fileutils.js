@@ -214,7 +214,6 @@ name
 |
 |
 "
-blob
 "
 contentType
 :
