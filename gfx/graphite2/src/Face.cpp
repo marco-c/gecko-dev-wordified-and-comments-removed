@@ -1974,11 +1974,6 @@ uncompressed_table
 _sz
 =
 uncompressed_size
-+
-sizeof
-(
-uint32
-)
 ;
 _compressed
 =

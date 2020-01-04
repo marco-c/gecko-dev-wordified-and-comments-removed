@@ -18,9 +18,7 @@ cassert
 #
 include
 <
-stdio
-.
-h
+cstdio
 >
 #
 include

@@ -93,9 +93,7 @@ h
 #
 include
 <
-stdio
-.
-h
+cstdio
 >
 #
 ifdef
@@ -2147,6 +2145,8 @@ failure
 underfull_stack
 )
 ;
+GR_FALLTHROUGH
+;
 case
 RET_ZERO
 :
@@ -2590,6 +2590,8 @@ set_changed
 0
 )
 ;
+GR_FALLTHROUGH
+;
 case
 PUT_COPY
 :
@@ -2700,6 +2702,8 @@ _constraint
 )
 return
 ;
+GR_FALLTHROUGH
+;
 case
 PUSH_GLYPH_ATTR_OBS
 :
@@ -2797,6 +2801,8 @@ _code
 _constraint
 )
 return
+;
+GR_FALLTHROUGH
 ;
 case
 PUSH_GLYPH_ATTR
@@ -3156,9 +3162,15 @@ _pre_context
 ;
 }
 else
+{
+_pre_context
+=
+0
+;
 return
 false
 ;
+}
 }
 return
 bool

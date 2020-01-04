@@ -335,9 +335,11 @@ literal_len
 >
 dst_end
 -
+(
 MINMATCH
 +
 5
+)
 )
 return
 -

@@ -814,6 +814,8 @@ x
 i
 ;
 }
+GR_FALLTHROUGH
+;
 case
 1
 :
@@ -852,6 +854,8 @@ xm
 )
 )
 break
+;
+GR_FALLTHROUGH
 ;
 case
 3

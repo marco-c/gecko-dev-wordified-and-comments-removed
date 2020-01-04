@@ -1067,8 +1067,6 @@ w
 int
 actual
 =
-step
-?
 int
 (
 pref
@@ -1077,11 +1075,6 @@ step
 )
 *
 step
-:
-int
-(
-pref
-)
 ;
 if
 (

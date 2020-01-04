@@ -716,6 +716,17 @@ numRanges
 0
 E_NORANGES
 )
+|
+|
+e
+.
+test
+(
+m_numColumns
+>
+0x7FFF
+E_BADNUMCOLUMNS
+)
 )
 return
 face

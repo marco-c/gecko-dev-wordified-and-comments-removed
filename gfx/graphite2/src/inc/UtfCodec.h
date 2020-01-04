@@ -748,6 +748,8 @@ u
 0x10
 )
 ;
+GR_FALLTHROUGH
+;
 case
 3
 :
@@ -793,6 +795,8 @@ u
 0x20
 )
 ;
+GR_FALLTHROUGH
+;
 case
 2
 :
@@ -837,6 +841,8 @@ u
 <
 0x80
 )
+;
+GR_FALLTHROUGH
 ;
 case
 1
