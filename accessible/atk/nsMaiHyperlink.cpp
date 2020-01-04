@@ -762,9 +762,11 @@ if
 !
 maiLink
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 Accessible
