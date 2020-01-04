@@ -12290,6 +12290,21 @@ if
 manifest
 :
             
+if
+options
+.
+extra_mozinfo_json
+:
+                
+mozinfo
+.
+update
+(
+options
+.
+extra_mozinfo_json
+)
+            
 info
 =
 mozinfo
