@@ -2054,7 +2054,7 @@ debug
 true
 )
 ;
-pref
+user_pref
 (
 "
 logging
