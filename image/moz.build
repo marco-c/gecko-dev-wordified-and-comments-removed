@@ -355,11 +355,6 @@ DecoderFactory
 cpp
 '
 '
-Deinterlacer
-.
-cpp
-'
-'
 DynamicImage
 .
 cpp

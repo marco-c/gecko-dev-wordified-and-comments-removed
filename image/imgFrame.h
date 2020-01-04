@@ -108,7 +108,7 @@ Opacity
 :
 uint8_t
 {
-OPAQUE
+FULLY_OPAQUE
 SOME_TRANSPARENCY
 }
 ;

@@ -101,7 +101,7 @@ uint8_t
 {
 NEED_MORE_DATA
 FINISHED
-ERROR
+FAILURE
 }
 ;
 template
@@ -394,13 +394,13 @@ case
 WriteState
 :
 :
-ERROR
+FAILURE
 :
 return
 WriteState
 :
 :
-ERROR
+FAILURE
 ;
 }
 }
@@ -542,7 +542,7 @@ Some
 WriteState
 :
 :
-ERROR
+FAILURE
 )
 )
 {

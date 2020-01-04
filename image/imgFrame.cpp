@@ -3040,7 +3040,7 @@ aFrameOpacity
 Opacity
 :
 :
-OPAQUE
+FULLY_OPAQUE
 )
 {
 mHasNoAlpha

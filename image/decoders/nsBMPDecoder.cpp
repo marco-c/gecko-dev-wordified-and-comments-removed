@@ -653,7 +653,7 @@ PostFrameStop
 Opacity
 :
 :
-OPAQUE
+FULLY_OPAQUE
 )
 ;
 }
