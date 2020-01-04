@@ -316,7 +316,7 @@ gl
 /
 mochitest
 -
-gl
+webgl
 .
 *
 /
@@ -731,6 +731,10 @@ media
 mochitest
 -
 oop
+-
+mochitest
+-
+webgl
 -
 mozmill
 -
