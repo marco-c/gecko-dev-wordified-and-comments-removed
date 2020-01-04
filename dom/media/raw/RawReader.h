@@ -114,13 +114,6 @@ GetBuffered
 )
 override
 ;
-virtual
-bool
-IsMediaSeekable
-(
-)
-override
-;
 private
 :
 bool

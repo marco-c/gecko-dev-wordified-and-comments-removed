@@ -92,16 +92,6 @@ final
 override
 ;
 virtual
-void
-SetMediaSeekable
-(
-bool
-aMediaSeekable
-)
-final
-override
-;
-virtual
 VideoFrameContainer
 *
 GetVideoFrameContainer

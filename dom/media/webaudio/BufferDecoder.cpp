@@ -122,17 +122,6 @@ aDropped
 )
 {
 }
-void
-BufferDecoder
-:
-:
-SetMediaSeekable
-(
-bool
-aMediaSeekable
-)
-{
-}
 VideoFrameContainer
 *
 BufferDecoder

@@ -193,16 +193,6 @@ aUnused
 )
 override
 ;
-bool
-IsMediaSeekable
-(
-)
-override
-{
-return
-mSeekable
-;
-}
 protected
 :
 void
@@ -1516,9 +1506,6 @@ MozPromiseHolder
 MetadataPromise
 >
 mMetadataPromise
-;
-bool
-mSeekable
 ;
 bool
 IsEncrypted

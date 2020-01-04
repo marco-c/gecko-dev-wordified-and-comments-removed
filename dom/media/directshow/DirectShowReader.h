@@ -135,14 +135,6 @@ NotifyDataArrivedInternal
 )
 override
 ;
-public
-:
-bool
-IsMediaSeekable
-(
-)
-override
-;
 private
 :
 bool

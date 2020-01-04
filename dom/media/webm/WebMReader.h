@@ -392,13 +392,6 @@ GetBuffered
 )
 override
 ;
-virtual
-bool
-IsMediaSeekable
-(
-)
-override
-;
 enum
 TrackType
 {

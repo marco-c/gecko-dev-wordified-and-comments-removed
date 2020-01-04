@@ -174,16 +174,6 @@ aTimeThreshold
 )
 ;
 virtual
-bool
-IsMediaSeekable
-(
-)
-{
-return
-true
-;
-}
-virtual
 nsresult
 ReadMetadata
 (

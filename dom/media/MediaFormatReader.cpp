@@ -413,10 +413,6 @@ mInitDone
 (
 false
 )
-mSeekable
-(
-false
-)
 mIsEncrypted
 (
 false
@@ -1772,7 +1768,9 @@ duration
 )
 ;
 }
-mSeekable
+mInfo
+.
+mMediaSeekable
 =
 mDemuxer
 -
@@ -7390,7 +7388,9 @@ isNothing
 if
 (
 !
-mSeekable
+mInfo
+.
+mMediaSeekable
 )
 {
 LOG

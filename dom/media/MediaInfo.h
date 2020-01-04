@@ -1336,6 +1336,11 @@ media
 NullableTimeUnit
 mUnadjustedMetadataEndTime
 ;
+bool
+mMediaSeekable
+=
+true
+;
 EncryptionInfo
 mCrypto
 ;
