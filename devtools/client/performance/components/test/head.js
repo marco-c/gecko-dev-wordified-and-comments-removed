@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+let
 {
 classes
 :
@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-var
+let
 {
 require
 }
@@ -51,7 +51,7 @@ jsm
 }
 )
 ;
-var
+let
 {
 Assert
 }
@@ -73,7 +73,7 @@ jsm
 "
 )
 ;
-var
+let
 {
 BrowserLoader
 }
@@ -103,7 +103,7 @@ js
 }
 )
 ;
-var
+let
 defer
 =
 require
@@ -117,21 +117,7 @@ defer
 "
 )
 ;
-var
-DevToolsUtils
-=
-require
-(
-"
-devtools
-/
-shared
-/
-DevToolsUtils
-"
-)
-;
-var
+let
 flags
 =
 require
@@ -145,7 +131,7 @@ flags
 "
 )
 ;
-var
+let
 {
 Task
 }
@@ -161,7 +147,7 @@ task
 "
 )
 ;
-var
+let
 {
 TargetFactory
 }
@@ -179,7 +165,7 @@ target
 "
 )
 ;
-var
+let
 {
 Toolbox
 }
@@ -203,7 +189,7 @@ testing
 =
 true
 ;
-var
+let
 {
 require
 :
@@ -233,7 +219,7 @@ this
 }
 )
 ;
-var
+let
 =
 (
 selector
@@ -250,7 +236,7 @@ querySelector
 selector
 )
 ;
-var
+let
 =
 (
 selector
@@ -333,7 +319,7 @@ component
 newState
 )
 {
-var
+let
 deferred
 =
 defer
@@ -366,7 +352,7 @@ component
 newState
 )
 {
-var
+let
 deferred
 =
 defer
