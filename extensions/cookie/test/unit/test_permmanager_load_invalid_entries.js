@@ -888,7 +888,7 @@ do_check_eq
 connection
 .
 schemaVersion
-8
+9
 )
 ;
 let
