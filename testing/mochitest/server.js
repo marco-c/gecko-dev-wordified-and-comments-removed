@@ -4602,11 +4602,6 @@ id
 "
 testframe
 "
-"
-allowfullscreen
-"
-:
-true
 }
 )
 )
