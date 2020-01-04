@@ -9743,7 +9743,7 @@ IDN
 .
 use_whitelist
 "
-false
+true
 )
 ;
 pref
@@ -36678,7 +36678,7 @@ https
 :
 /
 /
-tracking
+shavar
 .
 services
 .
@@ -36724,7 +36724,7 @@ https
 :
 /
 /
-tracking
+shavar
 .
 services
 .
