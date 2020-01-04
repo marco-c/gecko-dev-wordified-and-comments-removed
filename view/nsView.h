@@ -1028,9 +1028,6 @@ aEffectivelyVisible
 void
 InvalidateHierarchy
 (
-nsViewManager
-*
-aViewManagerParent
 )
 ;
 nsViewManager
