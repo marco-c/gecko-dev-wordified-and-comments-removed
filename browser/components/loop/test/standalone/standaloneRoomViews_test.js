@@ -244,6 +244,13 @@ function
 {
 }
 }
+removeEventListener
+:
+function
+(
+)
+{
+}
 setTimeout
 :
 function
@@ -1271,7 +1278,7 @@ loop
 .
 standaloneRoomViews
 .
-StandaloneRoomHeader
+StandaloneOverlayWrapper
 {
 dispatcher
 :
