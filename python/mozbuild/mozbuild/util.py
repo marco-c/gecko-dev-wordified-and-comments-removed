@@ -2492,6 +2492,27 @@ StrictOrderingOnAppendList
             
 return
         
+def
+_first_element
+(
+e
+)
+:
+            
+return
+e
+[
+0
+]
+if
+isinstance
+(
+e
+tuple
+)
+else
+e
+        
 srtd
 =
 sorted
@@ -2502,7 +2523,10 @@ key
 lambda
 x
 :
+_first_element
+(
 x
+)
 .
 lower
 (

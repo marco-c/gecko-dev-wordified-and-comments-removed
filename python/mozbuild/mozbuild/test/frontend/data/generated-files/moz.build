@@ -71,4 +71,16 @@ foo
 .
 c
 '
+(
+'
+xpidllex
+.
+py
+'
+'
+xpidlyacc
+.
+py
+'
+)
 ]

@@ -3103,6 +3103,15 @@ backend_file
 relobjdir
 )
             
+first_output
+=
+obj
+.
+outputs
+[
+0
+]
+            
 dep_file
 =
 "
@@ -3112,9 +3121,7 @@ s
 pp
 "
 %
-obj
-.
-output
+first_output
             
 backend_file
 .
@@ -3133,12 +3140,46 @@ n
 %
 (
 tier
-obj
-.
-output
+first_output
 )
 )
             
+for
+output
+in
+obj
+.
+outputs
+:
+                
+if
+output
+!
+=
+first_output
+:
+                    
+backend_file
+.
+write
+(
+'
+%
+s
+:
+%
+s
+;
+\
+n
+'
+%
+(
+output
+first_output
+)
+)
+                
 backend_file
 .
 write
@@ -3153,8 +3194,6 @@ s
 n
 '
 %
-obj
-.
 output
 )
             
@@ -3243,9 +3282,7 @@ format
 (
 output
 =
-obj
-.
-output
+first_output
            
 dep_file
 =
