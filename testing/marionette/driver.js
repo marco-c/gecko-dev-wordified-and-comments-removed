@@ -10525,11 +10525,7 @@ listener
 .
 isElementDisplayed
 (
-{
 id
-:
-id
-}
 )
 ;
 break
