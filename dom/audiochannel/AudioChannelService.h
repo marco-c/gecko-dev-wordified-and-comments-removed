@@ -142,6 +142,8 @@ RegisterAudioChannelAgent
 AudioChannelAgent
 *
 aAgent
+uint32_t
+aNotifyPlayback
 AudioChannel
 aChannel
 )
@@ -152,6 +154,8 @@ UnregisterAudioChannelAgent
 AudioChannelAgent
 *
 aAgent
+uint32_t
+aNotifyPlayback
 )
 ;
 void
@@ -286,15 +290,13 @@ aWindow
 )
 ;
 void
-SetWindowAudioCaptured
+RefreshAgentsCapture
 (
 nsPIDOMWindow
 *
 aWindow
 uint64_t
 aInnerWindowID
-bool
-aCapture
 )
 ;
 #
@@ -509,10 +511,6 @@ mWindowID
 (
 aWindowID
 )
-mIsAudioCaptured
-(
-false
-)
 {
 mChannels
 [
@@ -532,9 +530,6 @@ false
 }
 uint64_t
 mWindowID
-;
-bool
-mIsAudioCaptured
 ;
 AudioChannelConfig
 mChannels

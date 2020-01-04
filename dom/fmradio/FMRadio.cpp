@@ -2057,6 +2057,10 @@ mAudioChannelAgent
 >
 NotifyStartedPlaying
 (
+nsIAudioChannelAgent
+:
+:
+AUDIO_AGENT_NOTIFY
 &
 volume
 &
@@ -2110,8 +2114,6 @@ FMRadio
 :
 WindowAudioCaptureChanged
 (
-bool
-aCapture
 )
 {
 return

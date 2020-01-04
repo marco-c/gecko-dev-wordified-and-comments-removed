@@ -8254,8 +8254,6 @@ nsNPAPIPluginInstance
 :
 WindowAudioCaptureChanged
 (
-bool
-aCapture
 )
 {
 return

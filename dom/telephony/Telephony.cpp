@@ -2617,6 +2617,10 @@ mAudioAgent
 >
 NotifyStartedPlaying
 (
+nsIAudioChannelAgent
+:
+:
+AUDIO_AGENT_NOTIFY
 &
 volume
 &
@@ -3260,8 +3264,6 @@ Telephony
 :
 WindowAudioCaptureChanged
 (
-bool
-aCapture
 )
 {
 return

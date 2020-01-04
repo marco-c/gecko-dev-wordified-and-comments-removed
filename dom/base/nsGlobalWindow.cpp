@@ -16500,13 +16500,12 @@ service
 service
 -
 >
-SetWindowAudioCaptured
+RefreshAgentsCapture
 (
 GetOuterWindow
 (
 )
 mWindowID
-aCapture
 )
 ;
 }
