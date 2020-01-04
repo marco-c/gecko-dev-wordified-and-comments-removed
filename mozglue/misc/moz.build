@@ -40,11 +40,6 @@ mozilla
 =
 [
 '
-StackWalk_windows
-.
-h
-'
-'
 TimeStamp_windows
 .
 h

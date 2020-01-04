@@ -98664,16 +98664,6 @@ return
 false
 ;
 }
-NS_GetCurrentThread
-(
-)
--
->
-SetCanInvokeJS
-(
-true
-)
-;
 JS_SetNativeStackQuota
 (
 mContext
