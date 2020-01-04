@@ -16146,9 +16146,6 @@ readReportTo
 ;
 if
 (
-aSendReadReport
-&
-&
 messageRecord
 .
 type
@@ -16203,6 +16200,11 @@ isReadReportSent
 =
 true
 ;
+if
+(
+aSendReadReport
+)
+{
 let
 from
 =
@@ -16237,6 +16239,7 @@ id
 "
 ]
 ;
+}
 }
 if
 (
