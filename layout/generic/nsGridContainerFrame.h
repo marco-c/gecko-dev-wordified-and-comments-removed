@@ -135,13 +135,6 @@ mLimit
 ;
 }
 ;
-enum
-Dimension
-{
-eColDimension
-eRowDimension
-}
-;
 static
 const
 nscoord
