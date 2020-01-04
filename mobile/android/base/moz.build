@@ -1604,6 +1604,11 @@ BaseGeckoInterface
 java
 '
 '
+BootReceiver
+.
+java
+'
+'
 BrowserApp
 .
 java
