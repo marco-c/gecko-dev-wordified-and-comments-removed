@@ -1179,6 +1179,13 @@ EXPORTS
 '
 vpx
 /
+svc_context
+.
+h
+'
+'
+vpx
+/
 vp8
 .
 h
