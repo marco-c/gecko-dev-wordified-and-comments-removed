@@ -46,11 +46,12 @@ extra
 treeherderEnv
 :
 -
-production
--
 staging
 treeherder
 :
+tier
+:
+2
 jobKind
 :
 build
