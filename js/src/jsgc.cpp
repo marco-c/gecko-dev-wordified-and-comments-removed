@@ -19074,14 +19074,12 @@ marker
 ;
 if
 (
+!
 marker
 .
-weakMapAction
+isWeakMarkingTracer
 (
 )
-!
-=
-ExpandWeakMaps
 )
 markedAny
 |
