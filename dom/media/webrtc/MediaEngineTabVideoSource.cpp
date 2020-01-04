@@ -921,6 +921,10 @@ SourceMediaStream
 aStream
 TrackID
 aID
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 nsCOMPtr
@@ -988,6 +992,10 @@ TrackID
 aID
 StreamTime
 aDesiredTime
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 VideoSegment
@@ -1072,6 +1080,7 @@ Image
 )
 delta
 size
+aPrincipalHandle
 )
 ;
 aSource

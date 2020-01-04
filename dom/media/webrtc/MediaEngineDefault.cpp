@@ -698,6 +698,10 @@ SourceMediaStream
 aStream
 TrackID
 aID
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 if
@@ -1228,6 +1232,10 @@ TrackID
 aID
 StreamTime
 aDesiredTime
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 VideoSegment
@@ -1311,6 +1319,7 @@ forget
 )
 delta
 size
+aPrincipalHandle
 )
 ;
 aSource
@@ -1587,6 +1596,10 @@ MediaEngineAudioSource
 (
 kReleased
 )
+mPrincipalHandle
+(
+PRINCIPAL_HANDLE_NONE
+)
 mTimer
 (
 nullptr
@@ -1840,6 +1853,10 @@ SourceMediaStream
 aStream
 TrackID
 aID
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 if
@@ -1978,6 +1995,10 @@ ADDTRACK_QUEUED
 mTrackID
 =
 aID
+;
+mPrincipalHandle
+=
+aPrincipalHandle
 ;
 mLastNotify
 =
@@ -2250,6 +2271,7 @@ forget
 )
 channels
 aSamples
+mPrincipalHandle
 )
 ;
 }

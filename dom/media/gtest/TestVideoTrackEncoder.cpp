@@ -1382,6 +1382,7 @@ generator
 GetSize
 (
 )
+PRINCIPAL_HANDLE_NONE
 )
 ;
 }

@@ -252,6 +252,10 @@ TrackID
 aID
 StreamTime
 delta
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 ;
 uint32_t
@@ -397,6 +401,12 @@ SourceMediaStream
 >
 >
 mSources
+;
+nsTArray
+<
+PrincipalHandle
+>
+mPrincipalHandles
 ;
 RefPtr
 <

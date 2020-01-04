@@ -76,6 +76,7 @@ IntSize
 640
 480
 )
+PRINCIPAL_HANDLE_NONE
 true
 )
 ;
@@ -170,6 +171,7 @@ IntSize
 640
 480
 )
+PRINCIPAL_HANDLE_NONE
 )
 ;
 VideoSegment

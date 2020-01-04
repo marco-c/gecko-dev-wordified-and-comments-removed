@@ -3889,6 +3889,7 @@ forget
 )
 channels
 mAudioSamplesPerChunk
+PRINCIPAL_HANDLE_NONE
 )
 ;
 }

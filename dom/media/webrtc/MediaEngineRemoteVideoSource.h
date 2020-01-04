@@ -350,6 +350,9 @@ Start
 SourceMediaStream
 *
 TrackID
+const
+PrincipalHandle
+&
 )
 override
 ;
@@ -396,6 +399,10 @@ TrackID
 aId
 StreamTime
 aDesiredTime
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 override
 ;

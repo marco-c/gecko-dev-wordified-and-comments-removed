@@ -1839,6 +1839,7 @@ audio
 -
 >
 mFrames
+PRINCIPAL_HANDLE_NONE
 )
 ;
 aStream
@@ -2137,6 +2138,7 @@ forget
 )
 duration
 aIntrinsicSize
+PRINCIPAL_HANDLE_NONE
 )
 ;
 }

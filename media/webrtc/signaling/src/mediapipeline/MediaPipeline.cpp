@@ -8169,6 +8169,7 @@ forget
 )
 outputChannels
 frames
+PRINCIPAL_HANDLE_NONE
 )
 ;
 if
@@ -8778,6 +8779,7 @@ IntSize
 width_
 height_
 )
+PRINCIPAL_HANDLE_NONE
 )
 ;
 if

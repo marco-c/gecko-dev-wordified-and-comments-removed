@@ -499,6 +499,10 @@ SourceMediaStream
 aMediaStream
 TrackID
 aId
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 override
 ;
@@ -595,6 +599,10 @@ TrackID
 aID
 StreamTime
 aDesiredTime
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 override
 {
@@ -2004,6 +2012,10 @@ SourceMediaStream
 aStream
 TrackID
 aID
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 override
 ;
@@ -2062,6 +2074,10 @@ TrackID
 aId
 StreamTime
 aDesiredTime
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 override
 ;
@@ -2304,6 +2320,12 @@ SourceMediaStream
 >
 >
 mSources
+;
+nsTArray
+<
+PrincipalHandle
+>
+mPrincipalHandles
 ;
 nsCOMPtr
 <
