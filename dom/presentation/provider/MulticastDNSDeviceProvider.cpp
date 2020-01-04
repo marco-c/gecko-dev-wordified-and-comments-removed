@@ -572,7 +572,7 @@ GetBool
 PREF_PRESENTATION_DISCOVERY
 )
 ;
-mDiscveryTimeoutMs
+mDiscoveryTimeoutMs
 =
 Preferences
 :
@@ -2171,7 +2171,7 @@ mDiscoveryTimer
 Init
 (
 this
-mDiscveryTimeoutMs
+mDiscoveryTimeoutMs
 nsITimer
 :
 :
@@ -2281,7 +2281,7 @@ mDiscoveryTimer
 Init
 (
 this
-mDiscveryTimeoutMs
+mDiscoveryTimeoutMs
 nsITimer
 :
 :
@@ -3700,7 +3700,7 @@ NS_IsMainThread
 )
 )
 ;
-mDiscveryTimeoutMs
+mDiscoveryTimeoutMs
 =
 aTimeoutMs
 ;

@@ -668,7 +668,7 @@ mIsDiscovering
 false
 ;
 uint32_t
-mDiscveryTimeoutMs
+mDiscoveryTimeoutMs
 ;
 nsCOMPtr
 <
