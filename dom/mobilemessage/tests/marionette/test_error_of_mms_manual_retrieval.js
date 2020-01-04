@@ -407,6 +407,13 @@ deferred
 resolve
 (
 aDomMessage
+.
+QueryInterface
+(
+Ci
+.
+nsIMmsMessage
+)
 )
 ;
 }

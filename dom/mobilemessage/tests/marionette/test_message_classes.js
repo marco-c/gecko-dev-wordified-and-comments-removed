@@ -183,7 +183,7 @@ ok
 (
 message
 instanceof
-MozSmsMessage
+SmsMessage
 "
 message
 is
