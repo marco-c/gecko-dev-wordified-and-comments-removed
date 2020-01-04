@@ -148,6 +148,9 @@ TestIntegerRange
 TestJSONWriter
 '
 '
+TestLinkedList
+'
+'
 TestMacroArgs
 '
 '
