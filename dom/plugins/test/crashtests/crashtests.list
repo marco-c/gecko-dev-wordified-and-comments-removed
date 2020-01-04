@@ -29,6 +29,12 @@ script
 1
 .
 html
+asserts
+(
+0
+-
+1
+)
 skip
 -
 if
