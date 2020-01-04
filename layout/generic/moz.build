@@ -761,6 +761,11 @@ nsAbsoluteContainingBlock
 cpp
 '
 '
+nsBackdropFrame
+.
+cpp
+'
+'
 nsBlockFrame
 .
 cpp

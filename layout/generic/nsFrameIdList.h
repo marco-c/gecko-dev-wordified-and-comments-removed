@@ -12,6 +12,10 @@ nsBCTableCellFrame
 )
 FRAME_ID
 (
+nsBackdropFrame
+)
+FRAME_ID
+(
 nsBlockFrame
 )
 FRAME_ID

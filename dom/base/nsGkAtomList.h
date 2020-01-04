@@ -726,6 +726,13 @@ b
 )
 GK_ATOM
 (
+backdropFrame
+"
+BackdropFrame
+"
+)
+GK_ATOM
+(
 background
 "
 background
