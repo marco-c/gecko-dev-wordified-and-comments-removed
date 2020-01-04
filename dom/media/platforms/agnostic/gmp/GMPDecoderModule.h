@@ -152,6 +152,12 @@ nsCString
 aGMP
 )
 ;
+static
+void
+UpdateUsableCodecs
+(
+)
+;
 }
 ;
 }
