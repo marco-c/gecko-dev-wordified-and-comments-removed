@@ -2735,6 +2735,13 @@ mNativeWindowHandle
 }
 #
 endif
+void
+ForcePaint
+(
+uint64_t
+aLayerObserverEpoch
+)
+;
 protected
 :
 virtual
@@ -2791,6 +2798,10 @@ const
 bool
 &
 aIsHidden
+const
+uint64_t
+&
+aLayerObserverEpoch
 )
 override
 ;
@@ -3185,6 +3196,9 @@ mNativeWindowHandle
 ;
 #
 endif
+uint64_t
+mLayerObserverEpoch
+;
 DISALLOW_EVIL_CONSTRUCTORS
 (
 TabChild

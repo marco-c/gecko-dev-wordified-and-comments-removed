@@ -1709,10 +1709,6 @@ SetIsActive
 (
 bool
 aIsActive
-bool
-aIsHidden
-=
-true
 )
 override
 ;
@@ -2240,9 +2236,6 @@ nsPresShellEventCB
 ;
 bool
 mCaretEnabled
-;
-bool
-mIsHidden
 ;
 #
 ifdef

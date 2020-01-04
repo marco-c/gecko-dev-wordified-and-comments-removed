@@ -1038,6 +1038,13 @@ int32_t
 aSyncId
 )
 ;
+void
+SetLayerObserverEpoch
+(
+uint64_t
+aLayerObserverEpoch
+)
+;
 class
 DidCompositeObserver
 {
