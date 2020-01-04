@@ -102,6 +102,9 @@ h
 namespace
 mozilla
 {
+class
+AudioConverter
+;
 namespace
 media
 {
@@ -314,6 +317,12 @@ Atomic
 bool
 >
 mPlaybackComplete
+;
+UniquePtr
+<
+AudioConverter
+>
+mConverter
 ;
 }
 ;
