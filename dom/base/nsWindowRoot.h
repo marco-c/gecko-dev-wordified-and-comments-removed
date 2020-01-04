@@ -38,6 +38,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsPIWindowRoot
 .
 h
@@ -467,10 +474,7 @@ EventListenerManager
 >
 mListenerManager
 ;
-nsCOMPtr
-<
-nsIDOMNode
->
+nsWeakPtr
 mPopupNode
 ;
 bool
