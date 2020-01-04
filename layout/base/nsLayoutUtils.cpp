@@ -42288,6 +42288,7 @@ metrics
 .
 SetAllowVerticalScrollWithWheel
 (
+true
 )
 ;
 }
