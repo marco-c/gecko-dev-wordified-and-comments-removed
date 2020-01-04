@@ -293,9 +293,11 @@ IsEmpty
 (
 )
 )
+{
 return
 aList
 ;
+}
 AtkAttribute
 *
 atkAttr
