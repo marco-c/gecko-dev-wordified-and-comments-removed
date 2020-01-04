@@ -112,13 +112,6 @@ OuterDocAccessible
 )
 override
 ;
-virtual
-void
-CacheChildren
-(
-)
-override
-;
 }
 ;
 inline
