@@ -15594,6 +15594,17 @@ ArrayKeys
 JS_SELF_HOSTED_FN
 (
 "
+values
+"
+"
+ArrayValues
+"
+0
+0
+)
+JS_SELF_HOSTED_FN
+(
+"
 includes
 "
 "
