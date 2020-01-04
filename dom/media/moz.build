@@ -503,11 +503,6 @@ AudioCompactor
 h
 '
 '
-AudioConverter
-.
-h
-'
-'
 AudioMixer
 .
 h
@@ -1010,11 +1005,6 @@ AudioCompactor
 cpp
 '
 '
-AudioConverter
-.
-cpp
-'
-'
 AudioSegment
 .
 cpp
@@ -1131,11 +1121,6 @@ cpp
 '
 '
 MediaFormatReader
-.
-cpp
-'
-'
-MediaInfo
 .
 cpp
 '
