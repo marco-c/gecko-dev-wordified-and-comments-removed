@@ -359,6 +359,12 @@ aNeedle
 ;
 static
 bool
+NeedOnScreenKeyboard
+(
+)
+;
+static
+bool
 IsKeyboardPresentOnSlate
 (
 )
