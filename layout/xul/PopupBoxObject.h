@@ -344,17 +344,6 @@ AlignmentOffset
 (
 )
 ;
-void
-SetConstraintRect
-(
-dom
-:
-:
-DOMRectReadOnly
-&
-aRect
-)
-;
 private
 :
 ~
