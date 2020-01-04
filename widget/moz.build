@@ -481,11 +481,6 @@ nsIIdleServiceInternal
 idl
 '
 '
-nsIIMEPicker
-.
-idl
-'
-'
 nsIPrintOptions
 .
 idl

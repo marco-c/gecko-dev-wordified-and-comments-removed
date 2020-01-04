@@ -234,11 +234,6 @@ nsIdleServiceAndroid
 cpp
 '
 '
-nsIMEPicker
-.
-cpp
-'
-'
 nsLookAndFeel
 .
 cpp
