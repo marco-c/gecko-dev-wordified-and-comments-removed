@@ -518,7 +518,6 @@ mDC
 ;
 }
 }
-}
 if
 (
 !
@@ -542,6 +541,7 @@ mNeedsRelease
 =
 true
 ;
+}
 }
 }
 #
@@ -3048,19 +3048,6 @@ IsNotWin7PreRTM
 &
 GetDWriteFactory
 (
-)
-&
-&
-(
-GetContentBackend
-(
-)
-!
-=
-BackendType
-:
-:
-SKIA
 )
 )
 {
