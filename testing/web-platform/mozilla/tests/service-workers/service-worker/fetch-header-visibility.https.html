@@ -142,6 +142,9 @@ get_host_info
 (
 )
 ;
+var
+frame
+;
 async_test
 (
 function
@@ -201,7 +204,6 @@ function
 (
 )
 {
-var
 frame
 =
 document
@@ -339,6 +341,12 @@ function
 result
 )
 {
+frame
+.
+remove
+(
+)
+;
 return
 service_worker_unregister_and_done
 (

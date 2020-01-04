@@ -74,6 +74,9 @@ script
 script
 >
 var
+frame
+;
+var
 t
 =
 async_test
@@ -169,9 +172,13 @@ then
 (
 function
 (
-frame
+f
 )
 {
+frame
+=
+f
+;
 sw
 =
 frame
@@ -327,6 +334,12 @@ expected
 messages
 .
 '
+)
+;
+frame
+.
+remove
+(
 )
 ;
 service_worker_unregister_and_done

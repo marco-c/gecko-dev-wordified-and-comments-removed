@@ -124,6 +124,9 @@ script
 var
 registration
 ;
+var
+frame
+;
 return
 service_worker_unregister_and_register
 (
@@ -187,6 +190,10 @@ function
 f
 )
 {
+frame
+=
+f
+;
 /
 /
 Navigation
@@ -212,6 +219,12 @@ function
 (
 )
 {
+frame
+.
+remove
+(
+)
+;
 return
 service_worker_unregister_and_done
 (

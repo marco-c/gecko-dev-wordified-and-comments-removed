@@ -543,6 +543,9 @@ frame
 basic
 '
 ;
+var
+frame
+;
 service_worker_unregister_and_register
 (
 t
@@ -578,7 +581,6 @@ function
 (
 )
 {
-var
 frame
 =
 document
@@ -661,6 +663,12 @@ iframe
 '
 )
 ;
+frame
+.
+remove
+(
+)
+;
 return
 service_worker_unregister_and_done
 (
@@ -718,6 +726,9 @@ frame
 cors
 '
 ;
+var
+frame
+;
 service_worker_unregister_and_register
 (
 t
@@ -753,7 +764,6 @@ function
 (
 )
 {
-var
 frame
 =
 document
@@ -853,6 +863,12 @@ iframe
 '
 )
 ;
+frame
+.
+remove
+(
+)
+;
 return
 service_worker_unregister_and_done
 (
@@ -910,6 +926,9 @@ frame
 opaque
 '
 ;
+var
+frame
+;
 service_worker_unregister_and_register
 (
 t
@@ -945,7 +964,6 @@ function
 (
 )
 {
-var
 frame
 =
 document
@@ -1029,6 +1047,12 @@ the
 iframe
 .
 '
+)
+;
+frame
+.
+remove
+(
 )
 ;
 return
