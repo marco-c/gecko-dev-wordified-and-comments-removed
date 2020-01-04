@@ -386,7 +386,7 @@ real
 (
 StopIteration
 20
-InitIteratorClasses
+InitStopIterationClass
 OCLASP
 (
 StopIteration
