@@ -870,11 +870,10 @@ nsGkAtoms
 cols
 )
 {
-NS_UpdateHint
-(
 retval
+|
+=
 mCurrentRowColHint
-)
 ;
 }
 return

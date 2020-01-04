@@ -650,11 +650,10 @@ nsGkAtoms
 text
 )
 {
-NS_UpdateHint
-(
 retval
+|
+=
 NS_STYLE_HINT_REFLOW
-)
 ;
 }
 return

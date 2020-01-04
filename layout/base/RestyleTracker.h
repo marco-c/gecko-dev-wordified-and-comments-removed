@@ -1482,14 +1482,13 @@ mRestyleHint
 aRestyleHint
 )
 ;
-NS_UpdateHint
-(
 existingData
 -
 >
 mChangeHint
+|
+=
 aMinChangeHint
-)
 ;
 if
 (

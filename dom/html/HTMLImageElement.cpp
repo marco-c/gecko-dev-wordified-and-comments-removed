@@ -1385,11 +1385,10 @@ nsGkAtoms
 ismap
 )
 {
-NS_UpdateHint
-(
 retval
+|
+=
 NS_STYLE_HINT_FRAMECHANGE
-)
 ;
 }
 else
@@ -1424,11 +1423,10 @@ nsIDOMMutationEvent
 REMOVAL
 )
 {
-NS_UpdateHint
-(
 retval
+|
+=
 NS_STYLE_HINT_FRAMECHANGE
-)
 ;
 }
 }

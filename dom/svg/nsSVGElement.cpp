@@ -4303,11 +4303,10 @@ aAttribute
 )
 )
 {
-NS_UpdateHint
-(
 retval
+|
+=
 nsChangeHint_ReconstructFrame
-)
 ;
 }
 return
