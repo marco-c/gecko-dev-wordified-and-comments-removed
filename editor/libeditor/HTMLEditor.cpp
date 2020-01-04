@@ -307,6 +307,13 @@ h
 #
 include
 "
+HTMLEditorObjectResizerUtils
+.
+h
+"
+#
+include
+"
 TextEditorTest
 .
 h
@@ -322,13 +329,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsHTMLObjectResizer
 .
 h
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-_nshtmlobjectresizer__h
+HTMLEditorObjectResizerUtils_h
 #
 define
-_nshtmlobjectresizer__h
+HTMLEditorObjectResizerUtils_h
 #
 include
 "
@@ -42,6 +42,9 @@ h
 class
 nsIHTMLEditor
 ;
+namespace
+mozilla
+{
 #
 define
 kTopLeft
@@ -116,6 +119,7 @@ se
 )
 class
 ResizerSelectionListener
+final
 :
 public
 nsISelectionListener
@@ -144,7 +148,8 @@ virtual
 ResizerSelectionListener
 (
 )
-;
+{
+}
 nsWeakPtr
 mEditor
 ;
@@ -152,6 +157,7 @@ mEditor
 ;
 class
 ResizerMouseMotionListener
+final
 :
 public
 nsIDOMEventListener
@@ -175,7 +181,8 @@ virtual
 ResizerMouseMotionListener
 (
 )
-;
+{
+}
 nsWeakPtr
 mEditor
 ;
@@ -183,6 +190,7 @@ mEditor
 ;
 class
 DocumentResizeEventListener
+final
 :
 public
 nsIDOMEventListener
@@ -206,11 +214,13 @@ virtual
 DocumentResizeEventListener
 (
 )
-;
+{
+}
 nsWeakPtr
 mEditor
 ;
 }
 ;
+}
 #
 endif
