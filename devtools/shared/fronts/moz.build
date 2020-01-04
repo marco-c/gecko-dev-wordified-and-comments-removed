@@ -120,6 +120,11 @@ watcher
 js
 '
 '
+canvas
+.
+js
+'
+'
 css
 -
 properties
