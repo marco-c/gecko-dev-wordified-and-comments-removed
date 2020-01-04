@@ -1382,6 +1382,13 @@ cpp
 '
 asmjs
 /
+WasmTable
+.
+cpp
+'
+'
+asmjs
+/
 WasmTextToBinary
 .
 cpp
