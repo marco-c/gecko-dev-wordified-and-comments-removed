@@ -995,7 +995,7 @@ protocol
 ;
 response
 .
-addHeader
+setHeader
 (
 "
 X
@@ -1737,7 +1737,7 @@ stageShouldBackoff
 {
 response
 .
-set
+addValue
 (
 "
 X
