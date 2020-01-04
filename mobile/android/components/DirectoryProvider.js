@@ -748,6 +748,8 @@ return
 ;
 }
 }
+try
+{
 let
 defLocale
 =
@@ -775,6 +777,13 @@ clone
 (
 )
 ;
+defLocalePlugins
+.
+append
+(
+defLocale
+)
+;
 if
 (
 defLocalePlugins
@@ -790,6 +799,13 @@ push
 defLocalePlugins
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 getFiles
 :
