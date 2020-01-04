@@ -15117,6 +15117,11 @@ uint32_t
 aValue
 )
 {
+*
+aValue
+=
+0
+;
 nsCOMPtr
 <
 nsIXULBrowserWindow
@@ -15130,7 +15135,7 @@ GetXULBrowserWindow
 NS_ENSURE_TRUE
 (
 xulBrowserWindow
-false
+true
 )
 ;
 uint32_t
@@ -15151,7 +15156,7 @@ tabCount
 NS_ENSURE_SUCCESS
 (
 rv
-false
+true
 )
 ;
 *
