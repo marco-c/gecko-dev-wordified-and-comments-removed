@@ -1030,9 +1030,9 @@ void
 CodeGeneratorX64
 :
 :
-visitCompareV
+visitCompareBitwise
 (
-LCompareV
+LCompareBitwise
 *
 lir
 )
@@ -1055,7 +1055,7 @@ lhs
 ToValue
 (
 lir
-LCompareV
+LCompareBitwise
 :
 :
 LhsInput
@@ -1068,7 +1068,7 @@ rhs
 ToValue
 (
 lir
-LCompareV
+LCompareBitwise
 :
 :
 RhsInput
@@ -1144,9 +1144,9 @@ void
 CodeGeneratorX64
 :
 :
-visitCompareVAndBranch
+visitCompareBitwiseAndBranch
 (
-LCompareVAndBranch
+LCompareBitwiseAndBranch
 *
 lir
 )
@@ -1169,7 +1169,7 @@ lhs
 ToValue
 (
 lir
-LCompareVAndBranch
+LCompareBitwiseAndBranch
 :
 :
 LhsInput
@@ -1182,7 +1182,7 @@ rhs
 ToValue
 (
 lir
-LCompareVAndBranch
+LCompareBitwiseAndBranch
 :
 :
 RhsInput

@@ -1744,9 +1744,9 @@ void
 CodeGeneratorARM64
 :
 :
-visitCompareV
+visitCompareBitwise
 (
-LCompareV
+LCompareBitwise
 *
 lir
 )
@@ -1754,7 +1754,7 @@ lir
 MOZ_CRASH
 (
 "
-visitCompareV
+visitCompareBitwise
 "
 )
 ;
@@ -1763,9 +1763,9 @@ void
 CodeGeneratorARM64
 :
 :
-visitCompareVAndBranch
+visitCompareBitwiseAndBranch
 (
-LCompareVAndBranch
+LCompareBitwiseAndBranch
 *
 lir
 )
@@ -1773,7 +1773,7 @@ lir
 MOZ_CRASH
 (
 "
-visitCompareVAndBranch
+visitCompareBitwiseAndBranch
 "
 )
 ;

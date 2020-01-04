@@ -17530,7 +17530,7 @@ Compare_Float32
 Compare_String
 Compare_StrictString
 Compare_Object
-Compare_Value
+Compare_Bitwise
 Compare_Unknown
 }
 ;
@@ -17915,7 +17915,7 @@ MOZ_ASSERT
 compareType_
 <
 =
-Compare_Value
+Compare_Bitwise
 )
 ;
 return
