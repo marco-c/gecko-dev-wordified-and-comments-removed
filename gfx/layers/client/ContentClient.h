@@ -428,6 +428,11 @@ public
 :
 ContentClientBasic
 (
+gfx
+:
+:
+BackendType
+aBackend
 )
 ;
 typedef
@@ -648,6 +653,14 @@ ContentClient
 )
 ;
 }
+private
+:
+gfx
+:
+:
+BackendType
+mBackend
+;
 }
 ;
 class
