@@ -54,6 +54,11 @@ jsm
 "
 )
 ;
+var
+gContent
+=
+content
+;
 docShell
 .
 isAppTab
@@ -125,11 +130,11 @@ title
 }
 )
 ;
+}
 gDOMTitleChangedByUs
 =
 false
 ;
-}
 }
 )
 ;
