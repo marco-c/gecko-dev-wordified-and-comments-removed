@@ -315,7 +315,7 @@ aurora
 "
         
 "
-revision
+branch
 "
 :
 "
@@ -354,7 +354,7 @@ configs
 "
         
 "
-revision
+branch
 "
 :
 "
@@ -395,7 +395,7 @@ tools
 "
         
 "
-revision
+branch
 "
 :
 "
@@ -436,7 +436,7 @@ locales
 "
         
 "
-revision
+branch
 "
 :
 "
