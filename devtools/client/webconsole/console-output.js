@@ -4806,7 +4806,16 @@ evalResponse
 ;
 if
 (
+typeof
+(
 errorMessage
+)
+!
+=
+=
+"
+undefined
+"
 )
 {
 severity
