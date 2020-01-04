@@ -85,4 +85,15 @@ false
 )
 ;
 }
+public
+static
+boolean
+isHomePanel
+(
+)
+{
+return
+false
+;
+}
 }
