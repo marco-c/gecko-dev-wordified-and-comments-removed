@@ -659,7 +659,13 @@ cssLoader
 LoadSheetSync
 (
 uri
-true
+mozilla
+:
+:
+css
+:
+:
+eAgentSheetFeatures
 true
 getter_AddRefs
 (
