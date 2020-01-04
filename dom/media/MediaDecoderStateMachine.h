@@ -907,16 +907,6 @@ aState
 )
 ;
 void
-ExitState
-(
-)
-;
-void
-EnterState
-(
-)
-;
-void
 BufferedRangeUpdated
 (
 )
