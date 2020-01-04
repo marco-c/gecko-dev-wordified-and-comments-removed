@@ -54,7 +54,7 @@ using
 gfx
 :
 :
-Filter
+SamplingFilter
 ;
 using
 gfx
@@ -721,8 +721,8 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 Maybe
 <
@@ -744,7 +744,7 @@ aContext
 aSize
 aRegion
 aWhichFrame
-aFilter
+aSamplingFilter
 aSVGContext
 aFlags
 )
@@ -1057,8 +1057,8 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aFlags
 )
@@ -1071,7 +1071,7 @@ OptimalImageSizeForDest
 (
 aDest
 aWhichFrame
-aFilter
+aSamplingFilter
 aFlags
 )
 ;

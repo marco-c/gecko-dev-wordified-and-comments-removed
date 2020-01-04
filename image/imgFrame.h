@@ -218,8 +218,8 @@ typedef
 gfx
 :
 :
-Filter
-Filter
+SamplingFilter
+SamplingFilter
 ;
 typedef
 gfx
@@ -341,8 +341,8 @@ aSize
 const
 SurfaceFormat
 aFormat
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aImageFlags
 )
@@ -372,8 +372,8 @@ const
 ImageRegion
 &
 aRegion
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aImageFlags
 )

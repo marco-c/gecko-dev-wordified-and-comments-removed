@@ -1074,9 +1074,8 @@ gfxRect
 &
 aFillRect
 const
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfxMatrix
 &
@@ -1120,9 +1119,8 @@ gfxRect
 &
 aFillRect
 const
-Filter
-&
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 gfxMatrix
 &
@@ -2795,7 +2793,7 @@ Create
 aSize
 )
 aWhichFrame
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -2883,8 +2881,8 @@ const
 ImageRegion
 &
 aRegion
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 Maybe
 <
@@ -2915,9 +2913,9 @@ region
 (
 aRegion
 )
-filter
+samplingFilter
 (
-aFilter
+aSamplingFilter
 )
 svgContext
 (
@@ -2990,8 +2988,8 @@ size
 ImageRegion
 region
 ;
-Filter
-filter
+SamplingFilter
+samplingFilter
 ;
 const
 Maybe
@@ -3037,8 +3035,8 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 Maybe
 <
@@ -3265,7 +3263,7 @@ params
 aContext
 aSize
 aRegion
-aFilter
+aSamplingFilter
 svgContext
 animTime
 aFlags
@@ -3544,7 +3542,7 @@ SurfaceFormat
 :
 :
 B8G8R8A8
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -3702,7 +3700,7 @@ SurfaceFormat
 B8G8R8A8
 aParams
 .
-filter
+samplingFilter
 aParams
 .
 flags
@@ -4693,8 +4691,8 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aFlags
 )

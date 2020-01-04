@@ -1806,7 +1806,7 @@ mImageContainer
 nsLayoutUtils
 :
 :
-GetGraphicsFilterForFrame
+GetSamplingFilterForFrame
 (
 this
 )
@@ -1840,7 +1840,7 @@ mImageContainer
 nsLayoutUtils
 :
 :
-GetGraphicsFilterForFrame
+GetSamplingFilterForFrame
 (
 this
 )

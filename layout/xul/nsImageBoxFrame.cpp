@@ -1666,7 +1666,7 @@ imgCon
 nsLayoutUtils
 :
 :
-GetGraphicsFilterForFrame
+GetSamplingFilterForFrame
 (
 this
 )

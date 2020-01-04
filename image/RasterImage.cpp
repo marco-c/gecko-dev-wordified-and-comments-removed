@@ -5455,8 +5455,8 @@ const
 ImageRegion
 &
 aRegion
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aFlags
 )
@@ -5592,7 +5592,7 @@ Draw
 (
 aContext
 region
-aFilter
+aSamplingFilter
 aFlags
 )
 )
@@ -5664,8 +5664,8 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 Maybe
 <
@@ -5756,10 +5756,10 @@ OnUnlockedDraw
 uint32_t
 flags
 =
-aFilter
+aSamplingFilter
 =
 =
-Filter
+SamplingFilter
 :
 :
 GOOD
@@ -5846,7 +5846,7 @@ ref
 aContext
 aSize
 aRegion
-aFilter
+aSamplingFilter
 flags
 )
 ;
@@ -7093,8 +7093,8 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aFlags
 )
@@ -7187,10 +7187,10 @@ height
 ;
 if
 (
-aFilter
+aSamplingFilter
 =
 =
-Filter
+SamplingFilter
 :
 :
 GOOD

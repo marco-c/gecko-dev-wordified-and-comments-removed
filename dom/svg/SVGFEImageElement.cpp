@@ -928,13 +928,13 @@ aFilterSubregion
 y
 )
 ;
-Filter
-filter
+SamplingFilter
+samplingFilter
 =
 nsLayoutUtils
 :
 :
-GetGraphicsFilterForFrame
+GetSamplingFilterForFrame
 (
 frame
 )
@@ -960,7 +960,7 @@ eImageFilter
 (
 uint32_t
 )
-filter
+samplingFilter
 )
 ;
 descr

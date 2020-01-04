@@ -16132,7 +16132,7 @@ ThebesContext
 )
 aPresContext
 image
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -16706,7 +16706,7 @@ image
 nsLayoutUtils
 :
 :
-GetGraphicsFilterForFrame
+GetSamplingFilterForFrame
 (
 this
 )
@@ -17790,7 +17790,7 @@ ThebesContext
 )
 aPresContext
 image
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -18124,7 +18124,7 @@ image
 nsLayoutUtils
 :
 :
-GetGraphicsFilterForFrame
+GetSamplingFilterForFrame
 (
 this
 )
@@ -18323,7 +18323,7 @@ image
 nsLayoutUtils
 :
 :
-GetGraphicsFilterForFrame
+GetSamplingFilterForFrame
 (
 this
 )

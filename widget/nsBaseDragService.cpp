@@ -3031,7 +3031,7 @@ imgIContainer
 :
 :
 FRAME_CURRENT
-Filter
+SamplingFilter
 :
 :
 GOOD

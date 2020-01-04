@@ -316,7 +316,7 @@ mozilla
 gfx
 :
 :
-Filter
+SamplingFilter
 ;
 using
 mozilla
@@ -3149,7 +3149,7 @@ Create
 scaledSize
 )
 aWhichFrame
-Filter
+SamplingFilter
 :
 :
 POINT

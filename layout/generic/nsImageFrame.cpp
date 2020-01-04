@@ -3187,13 +3187,13 @@ imgIContainer
 :
 FLAG_ASYNC_NOTIFY
 ;
-Filter
-filter
+SamplingFilter
+samplingFilter
 =
 nsLayoutUtils
 :
 :
-GetGraphicsFilterForFrame
+GetSamplingFilterForFrame
 (
 this
 )
@@ -3224,7 +3224,7 @@ imgIContainer
 :
 :
 FRAME_CURRENT
-filter
+samplingFilter
 flags
 )
 ;
@@ -6299,7 +6299,7 @@ imgCon
 nsLayoutUtils
 :
 :
-GetGraphicsFilterForFrame
+GetSamplingFilterForFrame
 (
 this
 )
@@ -7735,7 +7735,7 @@ aImage
 nsLayoutUtils
 :
 :
-GetGraphicsFilterForFrame
+GetSamplingFilterForFrame
 (
 this
 )

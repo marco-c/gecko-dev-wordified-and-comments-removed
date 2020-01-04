@@ -541,7 +541,7 @@ Create
 size
 )
 surfaceFormat
-Filter
+SamplingFilter
 :
 :
 LINEAR
@@ -1150,8 +1150,8 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 Maybe
 <
@@ -1184,7 +1184,7 @@ aContext
 aSize
 aRegion
 aWhichFrame
-aFilter
+aSamplingFilter
 aSVGContext
 aFlags
 )
@@ -1274,7 +1274,7 @@ aContext
 size
 region
 aWhichFrame
-aFilter
+aSamplingFilter
 aSVGContext
 .
 map
@@ -1298,8 +1298,8 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aFlags
 )
@@ -1324,7 +1324,7 @@ OptimalImageSizeForDest
 (
 aDest
 aWhichFrame
-aFilter
+aSamplingFilter
 aFlags
 )
 ;
@@ -1352,7 +1352,7 @@ OptimalImageSizeForDest
 (
 destSize
 aWhichFrame
-aFilter
+aSamplingFilter
 aFlags
 )
 )

@@ -214,8 +214,8 @@ aWhichFrame
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 Maybe
 <
@@ -268,8 +268,8 @@ aWhichFrame
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 uint32_t
 aFlags
 )
@@ -352,8 +352,8 @@ aWhichFrame
 gfx
 :
 :
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 const
 Maybe
 <

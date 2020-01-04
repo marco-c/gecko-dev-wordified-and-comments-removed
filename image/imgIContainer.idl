@@ -277,7 +277,7 @@ gfxSize
 )
 ;
 native
-Filter
+SamplingFilter
 (
 mozilla
 :
@@ -285,7 +285,7 @@ mozilla
 gfx
 :
 :
-Filter
+SamplingFilter
 )
 ;
 [
@@ -814,7 +814,7 @@ variety
 .
 *
 param
-aFilter
+aSamplingFilter
 The
 filter
 to
@@ -856,8 +856,8 @@ in
 uint32_t
 aWhichFrame
 in
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 in
 uint32_t
 aFlags
@@ -3311,7 +3311,7 @@ variety
 .
 *
 param
-aFilter
+aSamplingFilter
 The
 filter
 to
@@ -3426,8 +3426,8 @@ in
 uint32_t
 aWhichFrame
 in
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 [
 const
 ]

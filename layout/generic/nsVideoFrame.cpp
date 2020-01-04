@@ -1194,12 +1194,12 @@ container
 layer
 -
 >
-SetFilter
+SetSamplingFilter
 (
 nsLayoutUtils
 :
 :
-GetGraphicsFilterForFrame
+GetSamplingFilterForFrame
 (
 this
 )
