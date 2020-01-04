@@ -43,6 +43,10 @@ gClient
 .
 connect
 (
+)
+.
+then
+(
 function
 (
 )

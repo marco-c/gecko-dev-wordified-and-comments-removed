@@ -52,6 +52,10 @@ gClient
 .
 connect
 (
+)
+.
+then
+(
 (
 )
 =

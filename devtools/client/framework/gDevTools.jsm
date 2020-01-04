@@ -2965,6 +2965,10 @@ client
 .
 connect
 (
+)
+.
+then
+(
 (
 )
 =

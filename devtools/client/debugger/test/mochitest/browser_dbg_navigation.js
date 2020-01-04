@@ -78,9 +78,15 @@ gClient
 .
 connect
 (
+)
+.
+then
 (
+(
+[
 aType
 aTraits
+]
 )
 =
 >

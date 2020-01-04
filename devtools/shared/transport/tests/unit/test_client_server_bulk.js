@@ -840,9 +840,15 @@ client
 .
 connect
 (
+)
+.
+then
 (
+(
+[
 app
 traits
+]
 )
 =
 >

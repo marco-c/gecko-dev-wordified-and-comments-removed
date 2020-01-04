@@ -67,6 +67,10 @@ gClient
 .
 connect
 (
+)
+.
+then
+(
 Task
 .
 async
@@ -74,8 +78,10 @@ async
 function
 *
 (
+[
 aType
 aTraits
+]
 )
 {
 is

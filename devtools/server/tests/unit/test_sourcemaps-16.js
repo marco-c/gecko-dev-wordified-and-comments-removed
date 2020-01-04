@@ -40,6 +40,10 @@ gClient
 .
 connect
 (
+)
+.
+then
+(
 function
 (
 )

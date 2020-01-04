@@ -313,6 +313,10 @@ gClient
 .
 connect
 (
+)
+.
+then
+(
 (
 )
 =

@@ -38,6 +38,10 @@ client
 .
 connect
 (
+)
+.
+then
+(
 function
 (
 )

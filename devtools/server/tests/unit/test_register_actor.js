@@ -457,6 +457,10 @@ client
 .
 connect
 (
+)
+.
+then
+(
 function
 onConnect
 (

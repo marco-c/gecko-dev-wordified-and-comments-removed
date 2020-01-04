@@ -55,10 +55,16 @@ gClient
 .
 connect
 (
+)
+.
+then
+(
 function
 (
+[
 aType
 aTraits
+]
 )
 {
 attachTestTab

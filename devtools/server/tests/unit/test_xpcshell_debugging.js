@@ -61,6 +61,10 @@ client
 .
 connect
 (
+)
+.
+then
+(
 (
 )
 =

@@ -45,6 +45,10 @@ client
 .
 connect
 (
+)
+.
+then
+(
 function
 (
 )

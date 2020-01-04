@@ -757,6 +757,10 @@ client
 .
 connect
 (
+)
+.
+then
+(
 (
 )
 =

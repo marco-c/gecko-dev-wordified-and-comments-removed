@@ -268,6 +268,10 @@ gClient
 .
 connect
 (
+)
+.
+then
+(
 function
 onConnect
 (

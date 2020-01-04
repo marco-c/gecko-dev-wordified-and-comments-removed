@@ -1660,9 +1660,15 @@ client
 .
 connect
 (
+)
+.
+then
 (
+(
+[
 applicationType
 traits
+]
 )
 =
 >

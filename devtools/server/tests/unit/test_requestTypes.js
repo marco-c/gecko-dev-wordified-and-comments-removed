@@ -147,6 +147,10 @@ client
 .
 connect
 (
+)
+.
+then
+(
 function
 (
 )

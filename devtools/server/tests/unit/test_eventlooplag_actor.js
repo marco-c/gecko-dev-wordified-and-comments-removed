@@ -68,6 +68,10 @@ client
 .
 connect
 (
+)
+.
+then
+(
 function
 (
 )
