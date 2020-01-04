@@ -221,7 +221,7 @@ BlobImpls
 ;
 MOZ_ASSERT
 (
-GetImages
+GetSurfaces
 (
 )
 .
