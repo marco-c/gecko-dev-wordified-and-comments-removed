@@ -686,7 +686,7 @@ ConnectGattClientRequest
 nsString
 appUuid
 ;
-BluetoothAddress
+nsString
 deviceAddress
 ;
 }
@@ -697,7 +697,7 @@ DisconnectGattClientRequest
 nsString
 appUuid
 ;
-BluetoothAddress
+nsString
 deviceAddress
 ;
 }
@@ -752,7 +752,7 @@ GattClientReadRemoteRssiRequest
 int
 clientIf
 ;
-BluetoothAddress
+nsString
 deviceAddress
 ;
 }
@@ -838,7 +838,7 @@ GattServerConnectPeripheralRequest
 nsString
 appUuid
 ;
-BluetoothAddress
+nsString
 address
 ;
 }
@@ -849,7 +849,7 @@ GattServerDisconnectPeripheralRequest
 nsString
 appUuid
 ;
-BluetoothAddress
+nsString
 address
 ;
 }
@@ -969,7 +969,7 @@ GattServerSendResponseRequest
 nsString
 appUuid
 ;
-BluetoothAddress
+nsString
 address
 ;
 uint16_t
@@ -989,7 +989,7 @@ GattServerSendIndicationRequest
 nsString
 appUuid
 ;
-BluetoothAddress
+nsString
 address
 ;
 BluetoothAttributeHandle
